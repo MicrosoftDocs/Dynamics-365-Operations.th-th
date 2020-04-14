@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 1d012af1924e9eedee41f46de6c253d009cb52d2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916656"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145720"
 ---
 # <a name="create-and-process-a-conformance"></a>สร้างและประมวลผลความสอดคล้องกัน
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการดำเนินการจัดการความไม่สอดคล้อง โดยขึ้นอยู่กับใบสั่งตรวจสอบคุณภาพที่มีอยู่ คุณสามารถรันการจัดทำเรกคอร์ดนี้ในบริษัทสาธิต USMF และสามารถใช้ค่าแนะนำ โดยทั่วไป ทำกระบวนงานนี้ โดยเจ้าหน้าที่ในการตรวจสอบคุณภาพ  เป็นข้อกำหนดเบื้องต้น ดำเนินการคำแนะนำให้เสร็จสมบูรณ์ใน [ตรวจสอบคุณภาพของสินค้า](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md) เพื่อกระบวนการการอนุมัติของความไม่สอดคล้อง ผู้ใช้ที่รันบันทึกงานต้องมีค่า "ชื่อ" กำหนดบนหน้าผู้ใช้ การใช้บันทึกเอกสาร ผู้ใช้ต้องสามารถเรียกใช้ตัวเลือกผู้ใช้ในการจัดการเอกสาร
+หัวข้อนี้อธิบายวิธีการดำเนินการจัดการความไม่สอดคล้อง โดยขึ้นอยู่กับใบสั่งตรวจสอบคุณภาพที่มีอยู่ คุณสามารถรันการจัดทำเรกคอร์ดนี้ในบริษัทสาธิต USMF และสามารถใช้ค่าแนะนำ โดยทั่วไป ทำกระบวนงานนี้ โดยเจ้าหน้าที่ในการตรวจสอบคุณภาพ  เป็นข้อกำหนดเบื้องต้น ดำเนินการคำแนะนำให้เสร็จสมบูรณ์ใน [ตรวจสอบคุณภาพของสินค้า](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md) เพื่อประมวลผลการอนุมัติของความไม่สอดคล้อง ผู้ใช้ที่รันการบันทึกงานต้องมีค่า "ชื่อ" ที่กำหนดบนหน้าผู้ใช้ การใช้บันทึกเอกสาร ผู้ใช้ต้องสามารถเรียกใช้ตัวเลือกผู้ใช้ในการจัดการเอกสาร
 
 
 ## <a name="select-a-quality-order"></a>เลือกใบสั่งตรวจสอบคุณภาพ

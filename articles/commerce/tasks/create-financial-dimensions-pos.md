@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e04af04de3d18d375ce3609ab4cd53f652c2fbc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7be50eba098b7b28594c8e18c721579f4bb2e879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024197"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141002"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
-กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินสำหรับการลงทะเบียนการขายหน้าร้าน (POS) และแสดงวิธีการตั้งค่าคอนฟิกค่ามิติทางการเงินบนเครื่องบันทึกเงินสด  กระบวนงานนี้ไม่รวมขั้นตอนที่เกี่ยวข้องอื่นๆเช่น การสร้างชุดมิติและโครงสร้างทางบัญชี งานเหล่านั้นจะถูกพบได้ในหัวข้ออื่นๆ บันทึกนี้ใช้บริษัทสาธิต USRT
+กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินสำหรับการลงทะเบียนการขายหน้าร้าน (POS) และแสดงวิธีการตั้งค่าคอนฟิกค่ามิติทางการเงินบนเครื่องบันทึกเงินสด  กระบวนงานนี้ไม่รวมขั้นตอนที่เกี่ยวข้องอื่นๆ เช่น การสร้างชุดมิติและโครงสร้างทางบัญชี งานเหล่านั้นจะถูกพบได้ในหัวข้ออื่นๆ บันทึกนี้ใช้บริษัทสาธิต USRT
 
 1. ไปที่บัญชีแยกประเภททั่วไป > ผังบัญชี > มิติ > มิติทางการเงิน
 2. คลิก สร้าง

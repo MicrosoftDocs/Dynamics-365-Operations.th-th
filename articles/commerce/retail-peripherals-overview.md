@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124416"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154191"
 ---
 # <a name="peripherals"></a>อุปกรณ์ต่อพ่วง
 
@@ -158,7 +158,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="dedicated"></a>เฉพาะเจาะจง
 
-ไคลเอนต์ POS สมัยใหม่สำหรับ Windows และ Android รวมถึง **เฉพาะเจาะจง** หรือที่มีอยู่แล้วภายใน ลูกค้าเหล่านั้นสามารถสื่อสารกับอุปกรณ์ต่อพ่วงโดยตรงโดยใช้ตรรกะทางธุรกิจที่สร้างขึ้นในแอปพลิเคชัน แอปพลิเคชัน Android สนับสนุนอุปกรณ์เครือข่ายเท่านั้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนอุปกรณ์ต่อพ่วงสำหรับ Android ให้ไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)
+ไคลเอนต์ POS สมัยใหม่สำหรับ Windows และ Android รวมถึง **เฉพาะเจาะจง** หรือที่มีอยู่แล้วภายใน ลูกค้าเหล่านั้นสามารถสื่อสารกับอุปกรณ์ต่อพ่วงโดยตรงโดยใช้ตรรกะทางธุรกิจที่สร้างขึ้นในแอปพลิเคชัน แอปพลิเคชัน Android สนับสนุนอุปกรณ์เครือข่ายเท่านั้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนอุปกรณ์ต่อพ่วงสำหรับ Android ให้ไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 
 เมื่อต้องการใช้สถานีฮาร์ดแวร์เฉพาะ ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับการลงทะเบียนที่จะใช้ Modern POS สำหรับแอปพลิเคชัน Windows หรือ Android จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น เริ่มต้น POS แบบสมัยใหม่ในโหมดไม่มีลิ้นชักและใช้ดำเนินการใช้ **จัดการสถานีฮาร์ดแวร์** เพื่อเปิดใช้งานความสามารถของสถานีฮาร์ดแวร์ สถานีฮาร์ดแวร์เฉพาะจะใช้งานโดยค่าเริ่มต้น ถัดไป ให้ออกจากระบบ POS สมัยใหม่ แล้วล็อกอินกลับเข้า และเปิดกะและอุปกรณ์ต่อพ่วงที่ตั้งค่าคอนฟิกไว้ในโพรไฟล์ฮาร์ดแวร์จะใช้งานได้ 
 
@@ -199,7 +199,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Android และ iOS
 
-สำหรับข้อมูล ให้ดู [ตั้งค่าแอป POS Hybrid บน Android และ iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)
+สำหรับข้อมูล ให้ดู [ตั้งค่าแอป POS Hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 
 ### <a name="opos-device-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS
 
@@ -494,7 +494,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS สำหรับ Android ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)
 
-**ใหม่สำหรับ 10.0.8** - Epson เครื่องพิมพ์บนเครือข่ายและลิ้นชักเงินสดที่เชื่อมต่อกับเครื่องพิมพ์เหล่านั้นผ่านพอร์ท DK ได้รับการสนับสนุนในขณะนี้สำหรับแอพลิเคชัน POS สำหรับ Android ที่ทันสมัย สำหรับรายละเอียด โปรดไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp)
+**ใหม่สำหรับ 10.0.8** - Epson เครื่องพิมพ์บนเครือข่ายและลิ้นชักเงินสดที่เชื่อมต่อกับเครื่องพิมพ์เหล่านั้นผ่านพอร์ท DK ได้รับการสนับสนุนในขณะนี้สำหรับแอพลิเคชัน POS สำหรับ Android ที่ทันสมัย สำหรับรายละเอียด โปรดไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีการผูกมัด ''ที่ใช้ร่วมกัน'' ของสถานีฮาร์ดแวร์ของ IIS 
 

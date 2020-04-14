@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69bd2029914efd31569c57272339e27ef1bd6a3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd951a65d9cfd20952865db81ac58c698aa124a7
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560909"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146341"
 ---
 # <a name="set-up-accessorial-assignments"></a>ตั้งค่าการกำหนดอุปกรณ์เสริม
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการตั้งค่าการกำหนดอุปกรณ์เสริม  โดยทั่วไปการตั้งค่านี้จะถูกดำเนินการโดยผู้ประสานงานการขนส่ง ก่อนที่คุณใช้คำแนะนำนี้ คุณต้องรันคำแนะนำ "การตั้งค่าค่าธรรมเนียมอุปกรณ์เสริมของฮับและต้นแบบอุปกรณ์เสริม"
 

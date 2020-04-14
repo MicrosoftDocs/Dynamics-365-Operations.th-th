@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ad4ef067841511e235dcf538c720b72283d31c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0b8b248481f04856fe15dadbc245caae5330ef8f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180237"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140547"
 ---
 # <a name="set-up-electronic-signatures"></a>การตั้งค่าลายเซ็นอิเล็กทรอนิกส์
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ใช้ขั้นตอนนี้เพื่อตั้งค่าลายเซ็นอิเล็กทรอนิกส์  ลายเซ็นอิเล็กทรอนิกส์จะยืนยันลักษณะเฉพาะของบุคคลที่กำลังจะเริ่มหรืออนุมัติกระบวนการระบบคอมพิวเตอร์  ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างกระบวนงานนี้คือ DAT 
 

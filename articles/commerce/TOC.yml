@@ -454,6 +454,8 @@
                   items:
                     - name: ตั้งค่าคอนฟิกและใช้ค่าธรรมเนียมอัตโนมัติขั้นสูง
                       href: omni-auto-charges.md
+                    - name: เปิดใช้งานและตั้งค่าคอนฟิกค่าธรรมเนียมอัตโนมัติตามช่องทาง
+                      href: auto-charges-by-channel.md
                     - name: แบ่งค่าธรรมเนียมส่วนหัวตามส่วนไปยังรายการขายที่ตรงกัน
                       href: pro-rate-charges-matching-lines.md
                 - name: จัดการโปรแกรมความต่อเนื่อง
@@ -525,7 +527,7 @@
                 - name: สร้างผลิตภัณฑ์ใหม่
                   items:
                     - name: สร้างผลิตภัณฑ์ใหม่ใน Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์
                       href: category-management-product-creation.md
                 - name: คุณลักษณะของผลิตภัณฑ์
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล
                       href: personalization-gdpr.md
-                - name: เพิ่มรายการคำแนะนำลงในไซต์อีคอมเมิร์ซ
-                  href: add-reco-list-to-page.md
                 - name: ประสบการณ์ใช้งาน POS
                   items:
                     - name: เพิ่มคำแนะนำผลิตภัณฑ์ใน POS
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: โมดูลการยืนยันใบสั่ง
                       href: order-confirmation-module.md
+                    - name: โมดูลตัวเลือกการจัดเก็บ
+                      href: store-selector.md
                 - name: โมดูลการจัดการบัญชี
                   items:
                     - name: หน้าและโมดูลการจัดการบัญชี
@@ -2115,7 +2117,7 @@
                 - name: การใช้ข้อมูลการชำระเงิน
                   href: payment-connector-data-fields.md
                 - name: เปิดใช้งานการป้องกันการชำระเงินซ้ำสำหรับตัวเชื่อมต่อการชำระเงิน
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: สร้างการทำแพคเกจการชำระเงินสำหรับสำหรับโปรแกรมตรวจดูแอพลิเคชันในการปรับใช้ Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: ความสามารถในการเพิ่มฟังก์ชันอีคอมเมิร์ซของบุคคลที่สาม

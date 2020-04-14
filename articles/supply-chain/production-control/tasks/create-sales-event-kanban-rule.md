@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e05ebbec1ffb3e3cdd683d847ffc1d2cf817357
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e17778d0fb05a1a5f7562027dc4e7f037e95e555
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837793"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149170"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>สร้างกฏคัมบังสำหรับอีเว้นท์การขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้มุ่งเน้นการตั้งค่าที่จำเป็นเพื่อสร้างกฎคัมบังการผลิตที่มีการทริกเกอร์ขณะการสร้างใบสั่งขาย  เหตุการณ์กฎคัมบังความต้องการการเติมสินค้าที่มาจากรายการใบสั่งขาย  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF ขั้นตอนนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสตรีมค่า ตามที่พวกเขาจัดเตรียมการผลิตสำหรับผลิตภัณฑ์ใหม่หรือผลิตภัณฑ์ปรับเปลี่ยน
 

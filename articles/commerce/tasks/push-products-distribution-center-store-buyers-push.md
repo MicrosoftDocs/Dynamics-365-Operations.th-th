@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62eeb29e348c558e8954f656b89d90792b0c347b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024178"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141245"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการจัดส่งสินค้าแบบผลักเพื่อกระจายผลิตภัณฑ์จากสถานที่เดียวไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น  ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง กระบวนการนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการจัดส่งสินค้าแบบผลัก เช่น กฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า ขั้นตอนนี้ใช้บริษัทสาธิต USRT
 

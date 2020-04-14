@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7549d0c2a3cfa0feb26a641bbc41702b4b21158
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7e32decdd13cb578c1ac026f25a56b37ff7231a9
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833965"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146479"
 ---
 # <a name="fulfill-sales-agreements"></a>ปฏิบัติตามข้อตกลงการขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 กระบวนงานนี้แสดงวิธีการเติมสินค้าตามข้อตกลงการขายโดยการเชื่อมโยงกับใบสั่งขาย  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง ก่อนที่จะเริ่มคู่มือนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อตกลงการขายที่มีผลบังคับใช้ชนิด "ข้อผูกมัดมูลค่าผลิตภัณฑ์"  หรืออีกทางหนึ่งคือ คุณสามารถดำเนินงานคู่มือที่เรียกว่า "สร้างข้อตกลงการขาย"  
 

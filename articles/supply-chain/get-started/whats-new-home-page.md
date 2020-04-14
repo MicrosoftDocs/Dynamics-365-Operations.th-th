@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 51b6f3737627fe27b15e7fa231397bfdecbdab2f
-ms.sourcegitcommit: 74d05a3a3de2e421eeab7117f2fd1fdaeb23f083
+ms.openlocfilehash: ccfc0ea30360676d840f113615e9f5066fb088e4
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117153"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164757"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 
 
@@ -34,17 +34,19 @@ ms.locfileid: "3117153"
 
 | รุ่น | Build number | ความพร้อมใช้งานที่มีการอัปเดตอัตโนมัติ | เรียนรู้เพิ่มเติม |
 |---|---|---|---|
+| 10.0.10 | 10.0.420 | พฤษภาคม 2020 | [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.10](whats-new-scm-10-0-10.md) |
 | 10.0.9 | 10.0.383 | 2020 เมษายน | [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.9](whats-new-scm-10-0-9.md) |
 | 10.0.8 | 10.0.319 | 2020 กุมภาพันธ์ | [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.8](whats-new-scm-10-0-8.md) |
-| 10.0.7  | 10.0.283   | มกราคม 2020 | [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.7](whats-new-scm-10-0-7.md) |
-| 10.0.6 |   10.0.234   | พฤศจิกายน 2019  | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 
-## <a name="releases-before-november-2019"></a>การนำออกใช้ก่อนพฤศจิกายน 2019
+
+## <a name="releases-before-february-2020"></a>การนำออกใช้ก่อนเดือนกุมภาพันธ์ 2020
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นก่อนพฤศจิกายน 2019 ให้ดูที่หัวข้อต่อไปนี้
 
 | ปล่อย | รุ่น | Build number | ความพร้อมใช้งาน | เรียนรู้เพิ่มเติม |
 |---|---|---|---|---|
+| Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | มกราคม 2020 | [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.7](whats-new-scm-10-0-7.md) |
+| Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | พฤศจิกายน 2019  | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 ตุลาคม     | [มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations รุ่น 10.0.5 (ตุลาคม 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | กรกฎาคม 2019        | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations รุ่น 10.0.4 (กรกฎาคม 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019 มิถุนายน        | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 for Finance and Operations รุ่น 10.0.3 (มิถุนายน 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |

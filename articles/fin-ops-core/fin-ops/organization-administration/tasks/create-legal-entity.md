@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f63591d2bdb88de8c9bc7a544ac4f3adbab90a7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180239"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140616"
 ---
 # <a name="create-a-legal-entity"></a>สร้างนิติบุคคล
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 นิติบุคคลเป็นองค์กรที่ได้รับการระบุผ่านการลงทะเบียนกับหน่วยงานทางกฎหมาย  นิติบุคคลที่สามารถป้อนลงในสัญญา และจำเป็นต้องใช้เพื่อจัดเตรียมรายงานที่รายงานเกี่ยวกับประสิทธิภาพการทำงานของตน กระบวนงานต่อไปนี้อธิบายวิธีสร้างนิติบุคคล บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
 

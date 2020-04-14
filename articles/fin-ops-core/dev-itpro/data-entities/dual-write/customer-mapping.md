@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124600"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172842"
 ---
 # <a name="integrated-customer-master"></a>ข้อมูลหลักของลูกค้าแบบรวม
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-เป็นเรื่องปกติสำหรับเรกคอร์ดลูกค้าที่จะมีความเชี่ยวชาญในแอพลิเคชันมากกว่าหนึ่งรายการ ตัวอย่างเช่น กิจกรรมการขายสามารถนำเรกคอร์ดลูกค้าเชิงพาณิชย์ผ่านแอพพลิเคชันการขายและ e-Commerce หรือการขายปลีกสามารถนำเรกคอร์ดลูกค้าผ่านแอป Finance and Operations โดยไม่คำนึงถึงจุดกำเนิดของเรกคอร์ดลูกค้า จะมีการรวมอยู่เบื้องหลังในขอบเขตของแอพลิเคชันและความแตกต่างของโครงสร้างพื้นฐาน การพัฒนาความเชี่ยวชาญของลูกค้าแบบรวมช่วยจัดการสถานการณ์จำลองการพัฒนาความเชี่ยวชาญที่หลากหลาย และให้มุมมองที่ครอบคลุมของลูกค้าไปยังชุดแอพลิเคชัน Dynamics 365
+ข้อมูลลูกค้าสามารถทำเป็นต้นฉบับได้ในแอพลิเคชัน Dynamics 365 มากกว่าหนึ่งรายการ ตัวอย่างเช่น เรกคอร์ดลูกค้าสามารถเริ่มต้นได้ผ่านทางกิจกรรมการขายใน Dynamics 365 Sales (แอปที่เป็นแบบโมเดลใน Dynamics 365) หรือเรกคอร์ดสามารถเริ่มต้นได้ผ่านทางกิจกรรมการขายปลีกใน Dynamics 365 Commerce (แอป Finance and Operations) ไม่ว่าข้อมูลลูกค้าที่มีต้นกำเนิดมาจากที่ใดก็ตาม จะมีการรวมอยู่เบื้องหลัง ข้อมูลหลักของลูกค้าแบบรวมช่วยให้คุณมีความยืดหยุ่นในการเข้าถึงข้อมูลลูกค้าในแอพลิเคชัน Dynamics 365 และให้มุมมองที่ครอบคลุมของลูกค้าทั่วทั้งชุดแอพลิเคชัน Dynamics 365
 
 ## <a name="customer-data-flow"></a>โฟลว์ข้อมูลของลูกค้า
 
@@ -59,7 +58,6 @@ ms.locfileid: "3124600"
 วิธีการชำระเงินของลูกค้า     | msdyn_customerpaymentmethods    | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลวิธีการชำระเงิน
 ลูกค้า V3                | บัญชี                        | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลหลักของลูกค้าสำหรับลูกค้าเชิงพาณิชย์และเชิงองค์กร
 ลูกค้า V3                | ผู้ติดต่อ                        | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลหลักของลูกค้าสำหรับผู้บริโภคและผู้ใช้ปลายทาง
-บัตรสมาชิก                | msdyn_loyaltycards              | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลบัตรสมาชิก
 ส่วนเพิ่มของชื่อ                | msdyn_nameaffixes               | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของส่วนเพิ่มของชื่อสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
 รายการแสดงวันที่ในการชำระเงินของ CDS V2    | msdyn_paymentdaylines           | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของบรรทัดวันชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
 CDS จำนวนวันการชำระเงิน            | msdyn_paymentdays               | เท็มเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของวันชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
@@ -78,8 +76,6 @@ CDS จำนวนวันการชำระเงิน            | msdyn
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

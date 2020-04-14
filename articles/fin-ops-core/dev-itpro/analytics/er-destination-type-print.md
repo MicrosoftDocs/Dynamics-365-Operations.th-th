@@ -3,7 +3,7 @@ title: ชนิดของปลายทาง ER เครื่องพิ
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกปลายทางเครื่องพิมพ์สำหรับแต่ละโฟลเดอร์หรือส่วนประกอบของไฟล์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก ทั้งในรูปแบบ PDF หรือ Microsoft Office (Excel\Word)
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020027"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150803"
 ---
-# <a name="PrinterDestinationType"></a>ปลายทางเครื่องพิมพ์
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>ปลายทางเครื่องพิมพ์
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,7 +65,9 @@ ms.locfileid: "3020027"
 > [!NOTE]
 > ไม่จำเป็นต้องเปิดใช้งานตัวเลือก **แปลงเป็น PDF** เมื่อคุณตั้งค่าคอนฟิกปลายทาง **เครื่องพิมพ์** การแปลง PDF สำหรับวัตถุประสงค์ในการพิมพ์จะเกิดขึ้นแม้ว่าตัวเลือกนี้จะถูกปิดใช้งาน
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+เมื่อต้องการใช้ [การจัดวางหน้า](electronic-reporting-destinations.md#SelectPdfPageOrientation) เฉพาะ เมื่อคุณพิมพ์เอกสารขาออกในรูปแบบ Excel คุณต้องเปิดใช้งานตัวเลือก **แปลงเป็น PDF** เมื่อคุณตั้งค่าตัวเลือก **แปลงเป็น PDF** เป็น **ใช่** ฟิลด์ **การจัดวางหน้า** จะพร้อมใช้งาน ในฟิลด์ **การจัดวางหน้า** คุณสามารถเลือกการจัดวางหน้าได้
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)

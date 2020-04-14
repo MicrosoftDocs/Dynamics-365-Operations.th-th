@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 386c035fb84b1f88cf53837a1e875eb2aa8ba910
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026325"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146318"
 ---
 # <a name="reconcile-freight-manually"></a>กระทบยอดการขนส่งด้วยตนเอง
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 กระบวนงานนี้แสดงวิธีการกระทบยอดการขนส่งด้วยตนเอง  ซึ่งปกติจะดำเนินการโดยผู้ประสานงานการขนส่ง  คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF 
 
@@ -37,7 +37,7 @@ ms.locfileid: "3026325"
 3. ในรายการ เลือกจำนวนงานในศูนย์การผลิตที่มีรหัสจำนวนงานในศูนย์การผลิต 00006
 
 ## <a name="create-a-carrier-invoice"></a>สร้างใบแจ้งหนี้ของผู้ขนส่ง
-เมื่อคุณกระทบยอดการขนส่งด้วยตนเองและไม่ได้รับใบแจ้งหนี้ของผู้ขนส่งโดยอัตโนมัติ คุณสามารถสร้างใบแจ้งหนี้ตามบิลการขนส่งได้  
+หากคุณกระทบยอดการขนส่งด้วยตนเอง และไม่ได้รับใบแจ้งหนี้ของผู้ขนส่งโดยอัตโนมัติ คุณสามารถสร้างใบแจ้งหนี้ตามบิลการขนส่งได้  
 1. คลิก ข้อมูลที่เกี่ยวข้อง
 2. คลิก รายละเอียดของบิลการขนส่ง
 3. คลิก สร้างใบแจ้งหนี้บิลค่าขนส่ง

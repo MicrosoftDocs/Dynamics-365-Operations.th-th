@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24c4c27745a15f013d20b52efc6e36de848a0251
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: e55ccab9205ffa8462d7d40f644e759a34e703d8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916794"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146024"
 ---
 # <a name="define-cycle-counting"></a>กำหนดการตรวจนับตามรอบ  
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 การตรวจนับตามรอบเป็นกระบวนการคลังสินค้าที่คุณสามารถใช้ตรวจสอบสินค้าคงคลังคงเหลือ  การบันทึกงานนี้แสดงวิธีการตั้งค่าระดับความสำคัญของงานการตรวจนับเริ่มต้น เปิดใช้งานรายการเมนูบนอุปกรณ์เคลื่อนที่เพื่อประมวลผลทั้งการเบิกสินค้าและการดำเนินงานการตรวจนับ เปิดใช้งานทริกเกอร์ขีดจำกัดการตรวจนับเมื่อสถานที่ว่างเปล่า และเปิดใช้งานแผนการตรวจนับตามรอบสำหรับสินค้าเฉพาะภายในคลังสินค้าเฉพาะ โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการคลังสินค้า คุณสามารถดำเนินการกระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือในข้อมูลของคุณเอง
 

@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a43a99e10b915f1265be14f2442069dae3a22e5
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: bb39d58336e7f867e19d7ba6d9f801200de5a0aa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867038"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148566"
 ---
 # <a name="set-up-shipping-carriers"></a>ตั้งค่าผู้ขนส่ง
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้แสดงวิธีการตั้งค่าผู้ขนส่งสินค้าและกำหนดรายละเอียด เช่น บริการ โหมดการจัดส่ง วิธีการชำระเงินการขนส่ง ข้อจำกัดขนส่ง และอัตราการจัดส่ง ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก
 

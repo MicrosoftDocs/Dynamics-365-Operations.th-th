@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f297a9bbb8ad5d1cd701626783e7db75c94fa842
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004099"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148388"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้จะแนะนำขั้นตอนสร้างและประมวลผลการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าเพื่อกระจายผลิตภัณฑ์จากสถานที่ที่รับสินค้าในใบสั่งซื้อไปยังร้านค้าหนึ่งร้านหรือมากกว่านั้น  ผู้ใช้สามารถกำหนดโครงแบบหลายชนิดและให้ระบบแนะนำวิธีการกระจายผลิตภัณฑ์ หรือป้อนสถานที่ที่จะกระจายผลิตภัณฑ์และจำนวนที่จะกระจายให้กับร้านค้าแต่ละร้านด้วยตนเอง กระบวนงานนี้ไม่ได้รวมการตั้งค่าข้อมูลที่สามารถใช้ในการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า เช่นกฎการเพิ่มเติมสินค้า ลำดับชั้นขององค์กร และน้ำหนักของร้านค้า  ขั้นตอนนี้จะใช้บริษัทสาธิต USRT
 
