@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190384"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143960"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ   อย่างไรก็ตาม คุณอาจมีผู้สมัคร ที่มีทักษะตามที่คุณต้องการทำงานอยู่ในองค์กรของคุณอยู่แล้ว  คุณสามารถค้นหาชุดของทักษะเฉพาะของพนักงานที่คุณมีอยู่ หรือผู้สมัครใหม่ ซึ่งช่วยให้ผู้สรรหารวบรวมและกรั่นกรองผู้สมัครที่ได้มาสมัครในตำแหน่งงานที่เปิดรับทั้งในอดีตและปัจจุบันได้อย่างรวดเร็ว หรือช่วยให้ค้นหาผู้สมัครที่มีศักยภาพจากกลุ่มพนักงานที่มีอยู่แล้ว  ใช้การบันทึกงานนี้เพื่อเรียนรู้ว่าฟังก์ชันการแม็ปทักษะสามารถช่วยคุณค้นหาบุคคลที่เหมาะสมสำหรับตำแหน่งที่เปิดรับได้อย่างไร  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

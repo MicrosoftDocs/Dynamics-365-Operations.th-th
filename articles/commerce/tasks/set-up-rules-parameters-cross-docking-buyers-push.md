@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc3e1ce842e8d3b693b5e81ed665e9f3c00bfb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9bccd92946783628dce37c3fd018e4dd927efd49
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024175"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141151"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> ตั้งค่ากฎและพารามิเตอร์สำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ขั้นตอนนี้จะสาธิตขั้นตอนสร้างกฎการเพิ่มเติมสินค้า  กฎการเพิ่มเติมสินค้าสามารถใช้เพื่อควบคุมวิธีการกระจายผลิตภัณฑ์ไปยังร้านค้าเมื่อใช้การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก  กฎการเติมสินค้าสามารถถูกตั้งค่าให้กับร้านค้าหรือกลุ่มร้านค้าได้  น้ำหนักที่กำหนดไว้สำหรับแต่ละบรรทัดรายการในกฎจะควบคุมวิธีที่ปริมาณของผลิตภัณฑ์นั้นถูกกระจายระหว่างร้านค้าเมื่อใช้กฎการเพิ่มเติมสินค้าเป็นวิธีการกระจายในการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก  ขั้นตอนนี้ใช้บริษัทสาธิต USRT
 

@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 06d251992c7facca471ac893e5a0fee333e0cbed
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871040"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148664"
 ---
 # <a name="enter-sales-agreements"></a>ป้อนข้อตกลงการขาย
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการสร้างข้อตกลงการขายที่ยืนยันหนึ่งในลูกค้าของคุณให้ซื้อผลิตภัณฑ์เป็นจำนวนที่ตกลงกันตามช่วงเวลาในการแลกเปลี่ยนสำหรับส่วนลดพิเศษ คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: fe8ad0540febcc703554e2451f7f644338e4d57b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914835"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149476"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>ตั้งค่าสิทธิ์สำหรับการสั่งซื้อผลิตภัณฑ์ในนามของผู้อื่น
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการจัดเตรียมใบขอซื้อในนามของผู้ปฏิบัติงานอื่นๆ กล่าวคือ "ผู้จัดเตรียม" ใบขอซื้อสามารถสร้างใบขอซื้อสำหรับ "ผู้ขอ" อื่น  กระบวนงานนี้ยังแสดงวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการสั่งซื้อสินค้าและบริการในนิติบุคคลหรือหน่วยปฏิบัติงานอื่น  โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ คุณสามารถใช้กระบวนงานนี้ในข้อมูลสำหรับบริษัทสาธิต USMF หรือข้อมูลของคุณเอง
+หัวข้อนี้อธิบายวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการจัดเตรียมใบขอซื้อในนามของผู้ปฏิบัติงานอื่นๆ กล่าวคือ "ผู้จัดเตรียม" ใบขอซื้อสามารถสร้างใบขอซื้อสำหรับ "ผู้ขอ" อื่น กระบวนงานนี้ยังแสดงวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการสั่งซื้อสินค้าและบริการในนิติบุคคลหรือหน่วยปฏิบัติงานอื่น  โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ คุณสามารถใช้กระบวนงานนี้ในข้อมูลสำหรับบริษัทสาธิต USMF หรือข้อมูลของคุณเอง
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>ให้สิทธิ์ในการป้อนใบขอซื้อในนามของผู้ปฏิบัติงานอื่น
