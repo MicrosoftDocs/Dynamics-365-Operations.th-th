@@ -5,6 +5,12 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 เมษายน 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 เมษายน 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 มีนาคม 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 มีนาคม 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 มีนาคม 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: จัดการสวัสดิการ
           items:
-            - name: 'คุณลักษณะรุ่นพรีวิว: การจัดการสวัสดิการ'
+            - name: การจัดการสวัสดิการ
               items:
                 - name: ภาพรวมของการจัดการสวัสดิการ
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: ตั้งค่าแผนสวัสดิการ
                       href: hr-benefits-plans-setup.md
-                    - name: สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
-                      href: hr-benefits-plans-worker.md
                     - name: ตั้งค่าโปรแกรมเครดิตแบบยืดหยุ่น
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: ตั้งค่าคอนฟิกเหตุการณ์ของชีวิตในอนาคต
-                      href: hr-benefits-plans-future-life-events.md
                 - name: ดำเนินการกับแผนสวัสดิการ
                   items:
                     - name: ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
@@ -497,11 +499,13 @@
               href: hr-leave-and-absence-plans.md
             - name: กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
               href: hr-leave-and-absence-enroll.md
-            - name: แผนการลางานและการขาดงานคงค้าง
+            - name: ตั้งรายการค้างรับแผนการลางานและการขาดงาน
               href: hr-leave-and-absence-accrue.md
+            - name: ระงับการลางาน
+              href: hr-leave-and-absence-suspend-leave.md
             - name: ดูการวิเคราะห์สำหรับการลางานและการขาดงาน
               href: hr-leave-and-absence-analytics.md
-            - name: จัดการกับคำขอการลางานและการหยุดงาน
+            - name: จัดการกับคำขอการลางานและการขาดงาน
               href: hr-employee-self-service-manage-requests.md
             - name: ร้องขอการหยุดพัก
               href: hr-employee-self-service-request-time-off.md

@@ -1,5 +1,5 @@
 ---
-title: โฮมเพจ Business intelligence (BI) และการรายงาน
+title: โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 description: หัวข้อนี้จะแสดงแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจและเครื่องมือการรายงานที่มีอยู่
 author: sericks007
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771575"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258591"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>โฮมเพจ Business intelligence (BI) และการรายงาน
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,5 +88,5 @@ ms.locfileid: "2771575"
 
 - [ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน](../data-entities/data-entities-report.md)
 - [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](../sysadmin/license-codes-configuration-keys-report.md)
-- [รายงาน SQL Server Reporting Services ที่มีอยู่](SSRS-report.md)
+- [รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่](SSRS-report.md)
 - [รายงานชนิดลำดับงาน](../../fin-ops/organization-administration/workflow-types-report.md)
