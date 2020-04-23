@@ -2,14 +2,14 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fc73fe415ec2b9a266dda6b7f1b3469b7a77f256
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250267"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207404"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 
@@ -30,7 +30,7 @@ ms.locfileid: "2250267"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** คอยให้ข้อมูลผู้จัดจำหน่ายเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อและจากนั้นตอบสนองในเว็บไคลเอ็นต์ 
@@ -112,7 +112,7 @@ ms.locfileid: "2250267"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
+ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

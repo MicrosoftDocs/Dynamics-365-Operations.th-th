@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ed5a217b8844bfc76d53370ab4c4c339f5bece36
-ms.sourcegitcommit: 0dcdfedec7125562f6b33deb009a3e044a1243eb
+ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099878"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249176"
 ---
 # <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a>ตัวเลือกการกรองข้อมูลขั้นสูงสำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ Regulatory Configuration Services (RCS) ซึ่งได้รับการปรับปรุงเพื่อรวมตัวกรองข้อมูลต่อไปนี้: 
 - **ประเทศ/ภูมิภาค** - ตามรหัสประเทศ ISO  
