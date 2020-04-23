@@ -2,7 +2,7 @@
 title: สร้างใบสั่งงานจากคำขอการบำรุงรักษา
 description: หัวข้อนี้อธิบายวิธีการสร้างใบสั่งงานจากคำขอการบำรุงรักษาในการจัดการสินทรัพย์
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,40 +18,40 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571702"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205218"
 ---
-# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="f8d9d-103">สร้างใบสั่งงานจากคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="f8d9d-103">Create work orders from maintenance requests</span></span>
+# <a name="create-work-orders-from-maintenance-requests"></a><span data-ttu-id="4cc0b-103">สร้างใบสั่งงานจากคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="4cc0b-103">Create work orders from maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
 
-<span data-ttu-id="f8d9d-104">หลังจากที่คุณได้สร้างคำขอการบำรุงรักษาแล้ว คุณสามารถแปลงเป็นใบสั่งงานได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="f8d9d-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="f8d9d-105">หัวข้อนี้อธิบายวิธีที่เร็วที่สุดในการทำงานกับคำขอการบำรุงรักษาอัพเดต ปรับปรุงคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน และจากนั้น สร้างใบสั่งงานสำหรับคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="f8d9d-106">ในหน้า **คำขอการบำรุงรักษาที่ใช้งานอยู่** หรือ **คำขอการบำรุงรักษาตำแหน่งที่ทำงานของฉัน** คุณยังสามารถทำงานกับคำขอการบำรุงรักษาหนึ่งรายการในแต่ละครั้ง และแปลงคำขอการบำรุงรักษาหนึ่งรายการเป็นใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
+<span data-ttu-id="4cc0b-104">หลังจากที่คุณได้สร้างคำขอการบำรุงรักษาแล้ว คุณสามารถแปลงเป็นใบสั่งงานได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="4cc0b-104">After you've created maintenance requests, you can easily convert them to work orders.</span></span> <span data-ttu-id="4cc0b-105">หัวข้อนี้อธิบายวิธีที่เร็วที่สุดในการทำงานกับคำขอการบำรุงรักษาอัพเดต ปรับปรุงคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน และจากนั้น สร้างใบสั่งงานสำหรับคำขอการบำรุงรักษาหลายรายการในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-105">This topic describes the quickest way to work with maintenance requests, update several maintenance requests at the same time, and then create a work order for several maintenance requests at the same time.</span></span> <span data-ttu-id="4cc0b-106">ในหน้า **คำขอการบำรุงรักษาที่ใช้งานอยู่** หรือ **คำขอการบำรุงรักษาตำแหน่งที่ทำงานของฉัน** คุณยังสามารถทำงานกับคำขอการบำรุงรักษาหนึ่งรายการในแต่ละครั้ง และแปลงคำขอการบำรุงรักษาหนึ่งรายการเป็นใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-106">On the **Active maintenance requests** or **My functional location maintenance requests** page, you can also work with one maintenance request at a time and convert one maintenance request to a work order.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f8d9d-107">คำขอการบำรุงรักษาทุกรายการสามารถเกี่ยวข้องกับใบสั่งงานได้เพียงรายการเดียวเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="f8d9d-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="f8d9d-108">อย่างไรก็ตาม คำขอการบำรุงรักษาหลายรายการสามารถรวมอยู่ในใบสั่งงานหนึ่งรายการ แม้ว่าคำขอการบำรุงรักษาจะมีสินทรัพย์ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
+> <span data-ttu-id="4cc0b-107">คำขอการบำรุงรักษาทุกรายการสามารถเกี่ยวข้องกับใบสั่งงานได้เพียงรายการเดียวเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="4cc0b-107">Every maintenance request can be related to only one work order.</span></span> <span data-ttu-id="4cc0b-108">อย่างไรก็ตาม คำขอการบำรุงรักษาหลายรายการสามารถรวมอยู่ในใบสั่งงานหนึ่งรายการ แม้ว่าคำขอการบำรุงรักษาจะมีสินทรัพย์ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-108">However, multiple maintenance requests can be included in one work order, even if the maintenance requests have different assets.</span></span>
 
-1. <span data-ttu-id="f8d9d-109">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **คำขอการบำรุงรักษา** \> **คำขอการบำรุงรักษาทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="f8d9d-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
-2. <span data-ttu-id="f8d9d-110">ก่อนที่คุณจะสามารถสร้างใบสั่งงานจากคำขอการบำรุงรักษา คุณต้องเลือก อย่างน้อยที่สุด ชนิดงานบำรุงรักษาสำหรับคำขอการบำรุงรักษา และยังรวมถึงตัวแปรชนิดงานบำรุงรักษาและการค้า ถ้าข้อมูลนี้เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="f8d9d-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="f8d9d-111">ในมุมมองกริด คุณสามารถปรับปรุงข้อมูลสำหรับคำขอการบำรุงรักษาได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="f8d9d-111">In the grid view, you can easily update information for a maintenance request.</span></span>
-3. <span data-ttu-id="f8d9d-112">เมื่อคุณพร้อมที่จะสร้างใบสั่งงาน ให้เลือกคำขอการบำรุงรักษาที่จะรวมไว้ในนั้น</span><span class="sxs-lookup"><span data-stu-id="f8d9d-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
+1. <span data-ttu-id="4cc0b-109">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **คำขอการบำรุงรักษา** \> **คำขอการบำรุงรักษาทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="4cc0b-109">Select **Asset management** \> **Common** \> **maintenance requests** \> **All maintenance requests**.</span></span>
+2. <span data-ttu-id="4cc0b-110">ก่อนที่คุณจะสามารถสร้างใบสั่งงานจากคำขอการบำรุงรักษา คุณต้องเลือก อย่างน้อยที่สุด ชนิดงานบำรุงรักษาสำหรับคำขอการบำรุงรักษา และยังรวมถึงตัวแปรชนิดงานบำรุงรักษาและการค้า ถ้าข้อมูลนี้เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="4cc0b-110">Before you can create a work order from maintenance requests, you must select, at a minimum, a maintenance job type for the maintenance requests, and also a maintenance job type variant and trade, if this information is relevant.</span></span> <span data-ttu-id="4cc0b-111">ในมุมมองกริด คุณสามารถปรับปรุงข้อมูลสำหรับคำขอการบำรุงรักษาได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="4cc0b-111">In the grid view, you can easily update information for a maintenance request.</span></span>
+3. <span data-ttu-id="4cc0b-112">เมื่อคุณพร้อมที่จะสร้างใบสั่งงาน ให้เลือกคำขอการบำรุงรักษาที่จะรวมไว้ในนั้น</span><span class="sxs-lookup"><span data-stu-id="4cc0b-112">When you're ready to create a work order, select the maintenance requests to include in it.</span></span>
 
-    - <span data-ttu-id="f8d9d-113">ถ้าคุณเลือกคำขอการบำรุงรักษาหลายรายการเพื่อแปลงเป็นใบสั่งงาน ทั้งฟิลด์ **สินทรัพย์** และฟิลด์ **ชนิดงานบำรุงรักษา** ต้องถูกตั้งค่า ก่อนที่คุณจะสร้างใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
-    - <span data-ttu-id="f8d9d-114">ถ้าคุณเลือกคำขอการบำรุงรักษาหนึ่งรายการเพื่อแปลงเป็นใบสั่งงาน ต้องมีการตั้งค่าเฉพาะฟิลด์ **สินทรัพย์** ก่อนที่คุณจะสร้างใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="f8d9d-115">อย่างไรก็ตาม เมื่อคุณสร้างใบสั่งงาน คุณสามารถเลือกชนิดงานบำรุงรักษา (และตัวแปรชนิดงานบำรุงรักษาที่เกี่ยวข้องและการค้า ถ้าข้อมูลนี้เกี่ยวข้อง) ในกล่องโต้ตอบ **สร้างใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="f8d9d-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
+    - <span data-ttu-id="4cc0b-113">ถ้าคุณเลือกคำขอการบำรุงรักษาหลายรายการเพื่อแปลงเป็นใบสั่งงาน ทั้งฟิลด์ **สินทรัพย์** และฟิลด์ **ชนิดงานบำรุงรักษา** ต้องถูกตั้งค่า ก่อนที่คุณจะสร้างใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-113">If you select several maintenance requests to convert to a work order, both the **Asset** field and the **Maintenance job type** field must be set before you create the work order.</span></span>
+    - <span data-ttu-id="4cc0b-114">ถ้าคุณเลือกคำขอการบำรุงรักษาหนึ่งรายการเพื่อแปลงเป็นใบสั่งงาน ต้องมีการตั้งค่าเฉพาะฟิลด์ **สินทรัพย์** ก่อนที่คุณจะสร้างใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-114">If you select one maintenance request to convert to a work order, only the **Asset** field must be set before you create the work order.</span></span> <span data-ttu-id="4cc0b-115">อย่างไรก็ตาม เมื่อคุณสร้างใบสั่งงาน คุณสามารถเลือกชนิดงานบำรุงรักษา (และตัวแปรชนิดงานบำรุงรักษาที่เกี่ยวข้องและการค้า ถ้าข้อมูลนี้เกี่ยวข้อง) ในกล่องโต้ตอบ **สร้างใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="4cc0b-115">However, when you create the work order, you can select a maintenance job type (and a related maintenance job type variant and trade, if this information is relevant) in the **Create work order** dialog box.</span></span>
 
-4. <span data-ttu-id="f8d9d-116">เลือก **ใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="f8d9d-116">Select **Work order**.</span></span>
-5. <span data-ttu-id="f8d9d-117">ในกล่องโต้ตอบ **สร้างใบสั่งงาน** ให้ตั้งค่าฟิลด์ และจากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="f8d9d-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
+4. <span data-ttu-id="4cc0b-116">เลือก **ใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="4cc0b-116">Select **Work order**.</span></span>
+5. <span data-ttu-id="4cc0b-117">ในกล่องโต้ตอบ **สร้างใบสั่งงาน** ให้ตั้งค่าฟิลด์ และจากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="4cc0b-117">In the **Create work order** dialog box, set the fields, and then select **OK**.</span></span>
 
-    <span data-ttu-id="f8d9d-118">แถบข้อความอาจแจ้งให้คุณทราบว่า ใบสั่งงานใหม่ได้ถูกสร้างขึ้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="f8d9d-118">A message bar might notify you that a new work order has been created.</span></span>
+    <span data-ttu-id="4cc0b-118">แถบข้อความอาจแจ้งให้คุณทราบว่า ใบสั่งงานใหม่ได้ถูกสร้างขึ้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="4cc0b-118">A message bar might notify you that a new work order has been created.</span></span>
 
-    <span data-ttu-id="f8d9d-119">นอกจากนี้ เมื่อคุณสร้างใบสั่งงานที่ยึดตามคำขอการบำรุงรักษา ถ้าสินทรัพย์ที่เกี่ยวข้องกับคำขอการบำรุงรักษาถูกรวมอยู่ในข้อตกลงการรับประกัน แถบข้อความจะแจ้งให้คุณทราบเกี่ยวกับข้อตกลงการรับประกัน</span><span class="sxs-lookup"><span data-stu-id="f8d9d-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
+    <span data-ttu-id="4cc0b-119">นอกจากนี้ เมื่อคุณสร้างใบสั่งงานที่ยึดตามคำขอการบำรุงรักษา ถ้าสินทรัพย์ที่เกี่ยวข้องกับคำขอการบำรุงรักษาถูกรวมอยู่ในข้อตกลงการรับประกัน แถบข้อความจะแจ้งให้คุณทราบเกี่ยวกับข้อตกลงการรับประกัน</span><span class="sxs-lookup"><span data-stu-id="4cc0b-119">Additionally, when you create a work order that is based on a maintenance request, if the asset that is related to the maintenance request is included in a warranty agreement, a message bar notifies you about the warranty agreement.</span></span>
 
-6. <span data-ttu-id="f8d9d-120">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **ใบสั่งงาน** \> **ใบสั่งงานทั้งหมด** และเปิดใบสั่งงานใหม่</span><span class="sxs-lookup"><span data-stu-id="f8d9d-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
+6. <span data-ttu-id="4cc0b-120">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **ใบสั่งงาน** \> **ใบสั่งงานทั้งหมด** และเปิดใบสั่งงานใหม่</span><span class="sxs-lookup"><span data-stu-id="4cc0b-120">Select **Asset management** \> **Common** \> **Work orders** \> **All work orders**, and open the new work order.</span></span>
 
     ![เปิดใบสั่งงานใหม่](media/05-manage-maintenance-requests.png)
 

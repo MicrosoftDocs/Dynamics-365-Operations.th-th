@@ -2,7 +2,7 @@
 title: ชนิดใบสั่งงาน
 description: หัวข้อนี้อธิบายชนิดของใบสั่งานในการจัดการสินทรัพย์
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,37 +18,37 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e813bd4f2d47b928b6184bb063d9afa45695727
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 375b18a4bd37ddadecee03a01b3b2125f5cc8d0a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569742"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215435"
 ---
-# <a name="work-order-types"></a><span data-ttu-id="36ce7-103">ชนิดใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="36ce7-103">Work order types</span></span>
+# <a name="work-order-types"></a><span data-ttu-id="5c444-103">ชนิดใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5c444-103">Work order types</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="36ce7-104">ชนิดของใบสั่งงานใช้ในการจัดประเภทใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="36ce7-104">Work order types are used to categorize work orders.</span></span> <span data-ttu-id="36ce7-105">ตัวอย่าง เช่น คุณอาจมีใบสั่งงานที่เกี่ยวข้องกับการบำรุงรักษาเชิงป้องกันหรือการบำรุงรักษาเชิงแก้ไข</span><span class="sxs-lookup"><span data-stu-id="36ce7-105">For example, you might have work orders that are related to preventive maintenance or corrective maintenance.</span></span>
+<span data-ttu-id="5c444-104">ชนิดของใบสั่งงานใช้ในการจัดประเภทใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5c444-104">Work order types are used to categorize work orders.</span></span> <span data-ttu-id="5c444-105">ตัวอย่าง เช่น คุณอาจมีใบสั่งงานที่เกี่ยวข้องกับการบำรุงรักษาเชิงป้องกันหรือการบำรุงรักษาเชิงแก้ไข</span><span class="sxs-lookup"><span data-stu-id="5c444-105">For example, you might have work orders that are related to preventive maintenance or corrective maintenance.</span></span>
 
-<span data-ttu-id="36ce7-106">ชนิดของใบสั่งงานจะกำหนดสังกัดกับแบบจำลองวงจรงานของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="36ce7-106">A work order type defines an affiliation with a work order lifecycle model.</span></span> <span data-ttu-id="36ce7-107">แบบจำลองวงจรงานของใบสั่งงานกำหนดสถานะวงจรงานของใบสั่งงานที่สามารถกำหนดบนใบสั่งงานได้</span><span class="sxs-lookup"><span data-stu-id="36ce7-107">A work order lifecycle model defines the work order lifecycle states that can be set on a work order.</span></span> <span data-ttu-id="36ce7-108">(ตัวอย่างของสถานะวงจรของใบสั่งงานรวม **สร้างแล้ว** **อยู่ระหว่างดำเนินการ** และ **เสร็จสิ้น**)</span><span class="sxs-lookup"><span data-stu-id="36ce7-108">(Examples of work order lifecycle states include **Created**, **In Process**, and **Finished**.)</span></span>
+<span data-ttu-id="5c444-106">ชนิดของใบสั่งงานจะกำหนดสังกัดกับแบบจำลองวงจรงานของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5c444-106">A work order type defines an affiliation with a work order lifecycle model.</span></span> <span data-ttu-id="5c444-107">แบบจำลองวงจรงานของใบสั่งงานกำหนดสถานะวงจรงานของใบสั่งงานที่สามารถกำหนดบนใบสั่งงานได้</span><span class="sxs-lookup"><span data-stu-id="5c444-107">A work order lifecycle model defines the work order lifecycle states that can be set on a work order.</span></span> <span data-ttu-id="5c444-108">(ตัวอย่างของสถานะวงจรของใบสั่งงานรวม **สร้างแล้ว** **อยู่ระหว่างดำเนินการ** และ **เสร็จสิ้น**)</span><span class="sxs-lookup"><span data-stu-id="5c444-108">(Examples of work order lifecycle states include **Created**, **In Process**, and **Finished**.)</span></span>
 
-<span data-ttu-id="36ce7-109">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสถานะวงจรของใบสั่งงานและขั้นโครงการ ดู [สถานะวงจรงานของใบสั่งงาน](work-order-lifecycle-states.md)</span><span class="sxs-lookup"><span data-stu-id="36ce7-109">For more information about work order lifecycle states and project stages, see [Work order lifecycle states](work-order-lifecycle-states.md).</span></span>
+<span data-ttu-id="5c444-109">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสถานะวงจรของใบสั่งงานและขั้นโครงการ ดู [สถานะวงจรงานของใบสั่งงาน](work-order-lifecycle-states.md)</span><span class="sxs-lookup"><span data-stu-id="5c444-109">For more information about work order lifecycle states and project stages, see [Work order lifecycle states](work-order-lifecycle-states.md).</span></span>
 
-1. <span data-ttu-id="36ce7-110">เลือก **การจัดการสินทรัพย์** \> **ตั้งค่า** \> **ใบสั่งงาน** \> **ชนิดของใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="36ce7-110">Select **Asset management** \> **Setup** \> **Work orders** \> **Work order types**.</span></span>
-2. <span data-ttu-id="36ce7-111">เลือก **ใหม่** เพื่อสร้างชนิดของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="36ce7-111">Select **New** to create a work order type.</span></span>
-3. <span data-ttu-id="36ce7-112">ในฟิลด์ **ชนิดของใบสั่งงาน** ให้ป้อนรหัสสำหรับชนิดของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="36ce7-112">In the **Work order type** field, enter an ID for the work order type.</span></span>
-4. <span data-ttu-id="36ce7-113">ในฟิลด์ **ชื่อ** ป้อนชื่อ</span><span class="sxs-lookup"><span data-stu-id="36ce7-113">In the **Name** field, enter a name.</span></span>
-5. <span data-ttu-id="36ce7-114">ในฟิลด์ **แบบจำลองวงจรของใบสั่งงาน** เลือกแบบจำลองวงจร</span><span class="sxs-lookup"><span data-stu-id="36ce7-114">In the **Work order lifecycle model** field, select a lifecycle model.</span></span>
-5. <span data-ttu-id="36ce7-115">ตั้งค่าตัวเลือก **เจ้าหน้าที่บำรุงรัษาหนึ่งคน** เป็น **ใช่** หากงานใบสั่งงานทั้งหมดที่เกี่ยวข้องกับใบสั่งงานชนิดนี้ ควรมีการจัดกำหนดการให้กับเจ้าหน้าที่บำรุงรักษาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="36ce7-115">Set the **One maintenance worker** option to **Yes** if all work order jobs that are related to a work order of this type should be scheduled to the same maintenance worker.</span></span>
-6. <span data-ttu-id="36ce7-116">ในฟิลด์ **ชนิดต้นทุน** ให้เลือก **การแก้ไข** **การป้องกัน** หรือ **การลงทุน** ตามความเหมาะสม</span><span class="sxs-lookup"><span data-stu-id="36ce7-116">In the **Cost type** field, select **Corrective**, **Preventive**, or **Investment**, as appropriate.</span></span> <span data-ttu-id="36ce7-117">งานของใบสั่งงานทั้งหมดในใบสั่งงานต้องมีชนิดต้นทุนเหมือนกัน</span><span class="sxs-lookup"><span data-stu-id="36ce7-117">All work order jobs on a work order must have the same cost type.</span></span>
-7. <span data-ttu-id="36ce7-118">ในส่วน **ข้อบังคับ** ให้ตั้งค่าตัวเลือกที่เกี่ยวข้อง เป็น **ใช่** เพื่อระบุว่าข้อบกพร่องที่เกี่ยวข้องหรือการหยุดทำงานของการบำรุงรักษาที่เกี่ยวข้องใด จะเพิ่มไปยังใบสั่งงานของชนิดนี้</span><span class="sxs-lookup"><span data-stu-id="36ce7-118">In the **Mandatory** section, set the relevant options to **Yes** to specify which fault-related or maintenance downtime–related information is added to a work order of this type.</span></span>
+1. <span data-ttu-id="5c444-110">เลือก **การจัดการสินทรัพย์** \> **ตั้งค่า** \> **ใบสั่งงาน** \> **ชนิดของใบสั่งงาน**</span><span class="sxs-lookup"><span data-stu-id="5c444-110">Select **Asset management** \> **Setup** \> **Work orders** \> **Work order types**.</span></span>
+2. <span data-ttu-id="5c444-111">เลือก **ใหม่** เพื่อสร้างชนิดของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5c444-111">Select **New** to create a work order type.</span></span>
+3. <span data-ttu-id="5c444-112">ในฟิลด์ **ชนิดของใบสั่งงาน** ให้ป้อนรหัสสำหรับชนิดของใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5c444-112">In the **Work order type** field, enter an ID for the work order type.</span></span>
+4. <span data-ttu-id="5c444-113">ในฟิลด์ **ชื่อ** ป้อนชื่อ</span><span class="sxs-lookup"><span data-stu-id="5c444-113">In the **Name** field, enter a name.</span></span>
+5. <span data-ttu-id="5c444-114">ในฟิลด์ **แบบจำลองวงจรของใบสั่งงาน** เลือกแบบจำลองวงจร</span><span class="sxs-lookup"><span data-stu-id="5c444-114">In the **Work order lifecycle model** field, select a lifecycle model.</span></span>
+5. <span data-ttu-id="5c444-115">ตั้งค่าตัวเลือก **เจ้าหน้าที่บำรุงรัษาหนึ่งคน** เป็น **ใช่** หากงานใบสั่งงานทั้งหมดที่เกี่ยวข้องกับใบสั่งงานชนิดนี้ ควรมีการจัดกำหนดการให้กับเจ้าหน้าที่บำรุงรักษาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="5c444-115">Set the **One maintenance worker** option to **Yes** if all work order jobs that are related to a work order of this type should be scheduled to the same maintenance worker.</span></span>
+6. <span data-ttu-id="5c444-116">ในฟิลด์ **ชนิดต้นทุน** ให้เลือก **การแก้ไข** **การป้องกัน** หรือ **การลงทุน** ตามความเหมาะสม</span><span class="sxs-lookup"><span data-stu-id="5c444-116">In the **Cost type** field, select **Corrective**, **Preventive**, or **Investment**, as appropriate.</span></span> <span data-ttu-id="5c444-117">งานของใบสั่งงานทั้งหมดในใบสั่งงานต้องมีชนิดต้นทุนเหมือนกัน</span><span class="sxs-lookup"><span data-stu-id="5c444-117">All work order jobs on a work order must have the same cost type.</span></span>
+7. <span data-ttu-id="5c444-118">ในส่วน **ข้อบังคับ** ให้ตั้งค่าตัวเลือกที่เกี่ยวข้อง เป็น **ใช่** เพื่อระบุว่าข้อบกพร่องที่เกี่ยวข้องหรือการหยุดทำงานของการบำรุงรักษาที่เกี่ยวข้องใด จะเพิ่มไปยังใบสั่งงานของชนิดนี้</span><span class="sxs-lookup"><span data-stu-id="5c444-118">In the **Mandatory** section, set the relevant options to **Yes** to specify which fault-related or maintenance downtime–related information is added to a work order of this type.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="36ce7-119">ตัวเลือกในส่วน **ข้อบังคับ** ซึ่งเกี่ยวข้องกับตัวเลือกบนแท็บด่วน **ตรวจสอบความถูกต้อง** ของหน้า **สถานะวงจรของใบสั่งงาน** (**การจัดการสินทรัพย์** \> **ตั้งค่า** \> **ใบสั่งงาน** \> **สถานะวงจร**)</span><span class="sxs-lookup"><span data-stu-id="36ce7-119">The options in the **Mandatory** section are related to the options on the **Validate** FastTab of the **Work order lifecycle states** page (**Asset management** \> **Setup** \> **Work orders** \> **Lifecycle states**).</span></span>
+    > <span data-ttu-id="5c444-119">ตัวเลือกในส่วน **ข้อบังคับ** ซึ่งเกี่ยวข้องกับตัวเลือกบนแท็บด่วน **ตรวจสอบความถูกต้อง** ของหน้า **สถานะวงจรของใบสั่งงาน** (**การจัดการสินทรัพย์** \> **ตั้งค่า** \> **ใบสั่งงาน** \> **สถานะวงจร**)</span><span class="sxs-lookup"><span data-stu-id="5c444-119">The options in the **Mandatory** section are related to the options on the **Validate** FastTab of the **Work order lifecycle states** page (**Asset management** \> **Setup** \> **Work orders** \> **Lifecycle states**).</span></span>
 
-8. <span data-ttu-id="36ce7-120">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="36ce7-120">Select **Save**.</span></span>
+8. <span data-ttu-id="5c444-120">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5c444-120">Select **Save**.</span></span>
 
 ![ชนิดใบสั่งงาน](media/16-setup-for-work-orders.png)

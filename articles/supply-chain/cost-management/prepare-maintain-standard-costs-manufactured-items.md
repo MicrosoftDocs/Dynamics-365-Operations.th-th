@@ -2,7 +2,7 @@
 title: การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต
 description: หัวข้อนี้อธิบายขั้นตอนสำหรับการเตรียมการในการรักษาต้นทุนสำหรับสินค้าที่ผลิต
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,57 +19,57 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbd7344f3d542cbd46e3568d8a7911ab4ab53b17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 866da2ce58e33676c2fa4bb2d6abfde891a5d021
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545959"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214607"
 ---
-# <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a><span data-ttu-id="b5397-103">การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-103">Prepare to maintain standard costs for manufactured items</span></span>
+# <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a><span data-ttu-id="1053d-103">การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-103">Prepare to maintain standard costs for manufactured items</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b5397-104">หัวข้อนี้อธิบายขั้นตอนสำหรับการเตรียมการในการรักษาต้นทุนสำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-104">This topic describes the steps for preparing to maintain costs for manufactured items.</span></span> <span data-ttu-id="b5397-105">ขั้นตอนสำหรับสินค้าที่ผลิตแตกต่างกันเล็กน้อยจากขั้นตอนสำหรับสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="b5397-105">The steps for manufactured items differ slightly from the steps for purchased items.</span></span>
+<span data-ttu-id="1053d-104">หัวข้อนี้อธิบายขั้นตอนสำหรับการเตรียมการในการรักษาต้นทุนสำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-104">This topic describes the steps for preparing to maintain costs for manufactured items.</span></span> <span data-ttu-id="1053d-105">ขั้นตอนสำหรับสินค้าที่ผลิตแตกต่างกันเล็กน้อยจากขั้นตอนสำหรับสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="1053d-105">The steps for manufactured items differ slightly from the steps for purchased items.</span></span>
 
-<span data-ttu-id="b5397-106">นโยบายที่ถูกกำหนดให้กับสินค้าที่ผลิตสามารถส่งผลต่อการคำนวณต้นทุนสำหรับสินค้าหลักที่ผลิตได้</span><span class="sxs-lookup"><span data-stu-id="b5397-106">Policies that are assigned to manufactured items can affect the cost calculations for the parent manufactured items.</span></span> <span data-ttu-id="b5397-107">ในการเตรียมการเพื่อรักษาต้นทุนสำหรับสินค้าที่ผลิต ให้ดำเนินการตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="b5397-107">To prepare to maintain costs for manufactured items, follow these steps.</span></span>
+<span data-ttu-id="1053d-106">นโยบายที่ถูกกำหนดให้กับสินค้าที่ผลิตสามารถส่งผลต่อการคำนวณต้นทุนสำหรับสินค้าหลักที่ผลิตได้</span><span class="sxs-lookup"><span data-stu-id="1053d-106">Policies that are assigned to manufactured items can affect the cost calculations for the parent manufactured items.</span></span> <span data-ttu-id="1053d-107">ในการเตรียมการเพื่อรักษาต้นทุนสำหรับสินค้าที่ผลิต ให้ดำเนินการตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="1053d-107">To prepare to maintain costs for manufactured items, follow these steps.</span></span>
 
-1. <span data-ttu-id="b5397-108">กำหนดกลุ่มแบบจำลองสินค้าให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-108">Assign an item model group to the manufactured item.</span></span> 
+1. <span data-ttu-id="1053d-108">กำหนดกลุ่มแบบจำลองสินค้าให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-108">Assign an item model group to the manufactured item.</span></span> 
 
-   <span data-ttu-id="b5397-109">กลุ่มแบบจำลองสินค้าระบุว่าจะมีการใช้ต้นทุนมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="b5397-109">The item model group identifies that standard costs will be used.</span></span>
+   <span data-ttu-id="1053d-109">กลุ่มแบบจำลองสินค้าระบุว่าจะมีการใช้ต้นทุนมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="1053d-109">The item model group identifies that standard costs will be used.</span></span>
 
-2. <span data-ttu-id="b5397-110">กำหนดกลุ่มสินค้าให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-110">Assign an item group to the manufactured item.</span></span> 
+2. <span data-ttu-id="1053d-110">กำหนดกลุ่มสินค้าให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-110">Assign an item group to the manufactured item.</span></span> 
 
-   <span data-ttu-id="b5397-111">กลุ่มสินค้ามีบัญชีแยกประเภทที่ใช้งานกับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="b5397-111">The item group contains ledger accounts that apply to the manufactured item.</span></span> <span data-ttu-id="b5397-112">บัญชีแยกประเภทสำหรับสินค้าที่ผลิตที่มีแบบจำลองสินค้าคงคลังของต้นทุนมาตรฐาน รวมเอาผลต่างการผลิตต่างๆ ผลต่างการเปลี่ยนแปลงต้นทุน และการประเมินค่าต้นทุนสินค้าคงคลังใหม่</span><span class="sxs-lookup"><span data-stu-id="b5397-112">The ledger accounts for a manufactured item that has a standard cost inventory model include several production variances, the cost change variance, and the inventory cost revaluation.</span></span>
+   <span data-ttu-id="1053d-111">กลุ่มสินค้ามีบัญชีแยกประเภทที่ใช้งานกับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="1053d-111">The item group contains ledger accounts that apply to the manufactured item.</span></span> <span data-ttu-id="1053d-112">บัญชีแยกประเภทสำหรับสินค้าที่ผลิตที่มีแบบจำลองสินค้าคงคลังของต้นทุนมาตรฐาน รวมเอาผลต่างการผลิตต่างๆ ผลต่างการเปลี่ยนแปลงต้นทุน และการประเมินค่าต้นทุนสินค้าคงคลังใหม่</span><span class="sxs-lookup"><span data-stu-id="1053d-112">The ledger accounts for a manufactured item that has a standard cost inventory model include several production variances, the cost change variance, and the inventory cost revaluation.</span></span>
 
-3. <span data-ttu-id="b5397-113">กำหนดหน่วยวัดสินค้าคงคลังให้กับสินค้า</span><span class="sxs-lookup"><span data-stu-id="b5397-113">Assign the inventory unit of measure to the item.</span></span> 
+3. <span data-ttu-id="1053d-113">กำหนดหน่วยวัดสินค้าคงคลังให้กับสินค้า</span><span class="sxs-lookup"><span data-stu-id="1053d-113">Assign the inventory unit of measure to the item.</span></span> 
 
-   <span data-ttu-id="b5397-114">ต้นทุนของสินค้าจะแสดงอยู่ในหน่วยวัดสินค้าคงคลังของสินค้าเสมอ</span><span class="sxs-lookup"><span data-stu-id="b5397-114">The item's costs are always expressed in the item's inventory unit of measure.</span></span>
+   <span data-ttu-id="1053d-114">ต้นทุนของสินค้าจะแสดงอยู่ในหน่วยวัดสินค้าคงคลังของสินค้าเสมอ</span><span class="sxs-lookup"><span data-stu-id="1053d-114">The item's costs are always expressed in the item's inventory unit of measure.</span></span>
 
-4. <span data-ttu-id="b5397-115">ไม่ต้องกำหนดกลุ่มต้นทุนให้กับสินค้าที่ผลิต นอกเสียจากว่าจะถือว่าสินค้าเป็นสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="b5397-115">Don't assign a cost group to the manufactured item unless the item will be treated as a purchased item.</span></span>
+4. <span data-ttu-id="1053d-115">ไม่ต้องกำหนดกลุ่มต้นทุนให้กับสินค้าที่ผลิต นอกเสียจากว่าจะถือว่าสินค้าเป็นสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="1053d-115">Don't assign a cost group to the manufactured item unless the item will be treated as a purchased item.</span></span>
 
-5. <span data-ttu-id="b5397-116">กำหนดกลุ่มการคำนวณสูตรการผลิต BOM ให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-116">Assign a bill of materials (BOM) calculation group to the manufactured item.</span></span> 
+5. <span data-ttu-id="1053d-116">กำหนดกลุ่มการคำนวณสูตรการผลิต BOM ให้กับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-116">Assign a bill of materials (BOM) calculation group to the manufactured item.</span></span> 
 
-   <span data-ttu-id="b5397-117">กลุ่มการคำนวณ BOM ของสินค้ากำหนดเงื่อนไขการเตือนที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="b5397-117">The item's BOM calculation group defines warning conditions that apply.</span></span> <span data-ttu-id="b5397-118">ในวิธีนั้น เมื่อทำการคำนวณ BOM เรียบร้อยแล้ว สามารถสร้างข้อความเตือนเกี่ยวกับแหล่งที่มาที่เป็นไปได้ของข้อผิดพลาดในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="b5397-118">In that way, when a BOM calculation is done, warning messages can be generated about possible sources of calculation errors.</span></span> <span data-ttu-id="b5397-119">ตัวอย่างเช่น ข้อความเตือนสามารถแจ้งให้ทราบได้ เมื่อไม่มี BOM หรือกระบวนการผลิตที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="b5397-119">For example, a warning message can identify when an active BOM or route doesn't exist.</span></span> <span data-ttu-id="b5397-120">กลุ่มการคำนวณ BOM มีนโยบายหยุดการกระจายที่ระบุเวลาที่ควรดำเนินการกับสินค้าที่ผลิตในฐานะสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="b5397-120">The BOM calculation group contains a stop explosion policy that indicates when a manufactured item should be treated as a purchased item.</span></span>
+   <span data-ttu-id="1053d-117">กลุ่มการคำนวณ BOM ของสินค้ากำหนดเงื่อนไขการเตือนที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="1053d-117">The item's BOM calculation group defines warning conditions that apply.</span></span> <span data-ttu-id="1053d-118">ในวิธีนั้น เมื่อทำการคำนวณ BOM เรียบร้อยแล้ว สามารถสร้างข้อความเตือนเกี่ยวกับแหล่งที่มาที่เป็นไปได้ของข้อผิดพลาดในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="1053d-118">In that way, when a BOM calculation is done, warning messages can be generated about possible sources of calculation errors.</span></span> <span data-ttu-id="1053d-119">ตัวอย่างเช่น ข้อความเตือนสามารถแจ้งให้ทราบได้ เมื่อไม่มี BOM หรือกระบวนการผลิตที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="1053d-119">For example, a warning message can identify when an active BOM or route doesn't exist.</span></span> <span data-ttu-id="1053d-120">กลุ่มการคำนวณ BOM มีนโยบายหยุดการกระจายที่ระบุเวลาที่ควรดำเนินการกับสินค้าที่ผลิตในฐานะสินค้าที่ซื้อ</span><span class="sxs-lookup"><span data-stu-id="1053d-120">The BOM calculation group contains a stop explosion policy that indicates when a manufactured item should be treated as a purchased item.</span></span>
 
-6. <span data-ttu-id="b5397-121">ถ้าสินค้าที่ผลิตเมื่อมีต้นทุนคงที่ ให้มอบหมายปริมาณการสั่งมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="b5397-121">If the manufactured item has constant costs, assign a standard order quantity to it.</span></span> 
+6. <span data-ttu-id="1053d-121">ถ้าสินค้าที่ผลิตเมื่อมีต้นทุนคงที่ ให้มอบหมายปริมาณการสั่งมาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="1053d-121">If the manufactured item has constant costs, assign a standard order quantity to it.</span></span> 
 
-   <span data-ttu-id="b5397-122">ปริมาณการสั่งมาตรฐานเป็นขนาดล็อตบัญชีสำหรับการตัดจำหน่ายต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="b5397-122">The standard order quantity is an accounting lot size for amortizing constant costs.</span></span> <span data-ttu-id="b5397-123">ตัวอย่างของต้นทุนคงที่ประกอบด้วย เวลาในการตั้งค่าในการดำเนินงานกระบวนการผลิตและปริมาณส่วนประกอบคงที่ใน BOM</span><span class="sxs-lookup"><span data-stu-id="b5397-123">Examples of constant costs include setup times in routing operations and a constant component quantity in the BOM.</span></span>
+   <span data-ttu-id="1053d-122">ปริมาณการสั่งมาตรฐานเป็นขนาดล็อตบัญชีสำหรับการตัดจำหน่ายต้นทุนคงที่</span><span class="sxs-lookup"><span data-stu-id="1053d-122">The standard order quantity is an accounting lot size for amortizing constant costs.</span></span> <span data-ttu-id="1053d-123">ตัวอย่างของต้นทุนคงที่ประกอบด้วย เวลาในการตั้งค่าในการดำเนินงานกระบวนการผลิตและปริมาณส่วนประกอบคงที่ใน BOM</span><span class="sxs-lookup"><span data-stu-id="1053d-123">Examples of constant costs include setup times in routing operations and a constant component quantity in the BOM.</span></span>
 
-7. <span data-ttu-id="b5397-124">กำหนด BOM สำหรับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="b5397-124">Define the BOM for the manufactured item.</span></span> 
+7. <span data-ttu-id="1053d-124">กำหนด BOM สำหรับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="1053d-124">Define the BOM for the manufactured item.</span></span> 
 
-   <span data-ttu-id="b5397-125">คุณสามารถกำหนดเวอร์ชัน BOM หนึ่งหรือหลายเวอร์ชันให้กับสินค้าที่ผลิตได้ </span><span class="sxs-lookup"><span data-stu-id="b5397-125">One or more BOM versions can be defined for the manufactured item.</span></span> <span data-ttu-id="b5397-126">ตรวจสอบว่าเวอร์ชันที่คุณต้องการได้ถูกทำเครื่องหมายเป็น ผ่านการอนุมัติและใช้งานได้ และตรวจสอบว่ามีวันที่ที่มีผลบังคับใช้ที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="b5397-126">Verify that the versions that you want have been marked as approved and active, and that they have the effective dates that you want.</span></span> <span data-ttu-id="b5397-127">เวอร์ชัน BOM สามารถเป็น ทั้งบริษัท หรือ เฉพาะไซต์</span><span class="sxs-lookup"><span data-stu-id="b5397-127">The BOM version can be company-wide or site-specific.</span></span>
+   <span data-ttu-id="1053d-125">คุณสามารถกำหนดเวอร์ชัน BOM หนึ่งหรือหลายเวอร์ชันให้กับสินค้าที่ผลิตได้ </span><span class="sxs-lookup"><span data-stu-id="1053d-125">One or more BOM versions can be defined for the manufactured item.</span></span> <span data-ttu-id="1053d-126">ตรวจสอบว่าเวอร์ชันที่คุณต้องการได้ถูกทำเครื่องหมายเป็น ผ่านการอนุมัติและใช้งานได้ และตรวจสอบว่ามีวันที่ที่มีผลบังคับใช้ที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="1053d-126">Verify that the versions that you want have been marked as approved and active, and that they have the effective dates that you want.</span></span> <span data-ttu-id="1053d-127">เวอร์ชัน BOM สามารถเป็น ทั้งบริษัท หรือ เฉพาะไซต์</span><span class="sxs-lookup"><span data-stu-id="1053d-127">The BOM version can be company-wide or site-specific.</span></span>
 
-8. <span data-ttu-id="b5397-128">กำหนดสายงานการผลิตสำหรับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="b5397-128">Define the routing for the manufactured item.</span></span> 
+8. <span data-ttu-id="1053d-128">กำหนดสายงานการผลิตสำหรับสินค้าที่ผลิต </span><span class="sxs-lookup"><span data-stu-id="1053d-128">Define the routing for the manufactured item.</span></span> 
 
-   <span data-ttu-id="b5397-129">คุณสามารถกำหนดเวอร์ชันสายงานการผลิตหนึ่งหรือหลายเวอร์ชันให้กับสินค้าที่ผลิตได้ </span><span class="sxs-lookup"><span data-stu-id="b5397-129">One or more route versions can be defined for the manufactured item.</span></span> <span data-ttu-id="b5397-130">ตรวจสอบว่าเวอร์ชันที่คุณต้องการได้ถูกทำเครื่องหมายเป็น ผ่านการอนุมัติและใช้งานได้ และตรวจสอบว่ามีวันที่ที่มีผลบังคับใช้ที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="b5397-130">Verify that the versions that you want have been marked as approved and active, and that they have the effective dates that you want.</span></span> <span data-ttu-id="b5397-131">เวอร์ชันกระบวนการผลิตต้องเป็นเฉพาะไซต์</span><span class="sxs-lookup"><span data-stu-id="b5397-131">The route version must be site-specific.</span></span>
+   <span data-ttu-id="1053d-129">คุณสามารถกำหนดเวอร์ชันสายงานการผลิตหนึ่งหรือหลายเวอร์ชันให้กับสินค้าที่ผลิตได้ </span><span class="sxs-lookup"><span data-stu-id="1053d-129">One or more route versions can be defined for the manufactured item.</span></span> <span data-ttu-id="1053d-130">ตรวจสอบว่าเวอร์ชันที่คุณต้องการได้ถูกทำเครื่องหมายเป็น ผ่านการอนุมัติและใช้งานได้ และตรวจสอบว่ามีวันที่ที่มีผลบังคับใช้ที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="1053d-130">Verify that the versions that you want have been marked as approved and active, and that they have the effective dates that you want.</span></span> <span data-ttu-id="1053d-131">เวอร์ชันกระบวนการผลิตต้องเป็นเฉพาะไซต์</span><span class="sxs-lookup"><span data-stu-id="1053d-131">The route version must be site-specific.</span></span>
 
-<span data-ttu-id="b5397-132">ถ้าคุณต้องการใช้ข้อมูลสายงานการผลิตสำหรับวัตถุประสงค์เพื่อการคำนวณต้นทุน จะต้องมีขั้นตอนการเตรียมการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b5397-132">If you want to use routing information for costing purposes, additional preparation steps are required.</span></span> <span data-ttu-id="b5397-133">ตัวอย่างเช่น ประเภทต้นทุนที่ถูกกำหนดให้กับการดำเนินการสายงานการผลิตต้องถูกต้องและสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b5397-133">For example, the cost categories that are assigned to routing operations must be correct and completed.</span></span>
+<span data-ttu-id="1053d-132">ถ้าคุณต้องการใช้ข้อมูลสายงานการผลิตสำหรับวัตถุประสงค์เพื่อการคำนวณต้นทุน จะต้องมีขั้นตอนการเตรียมการเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="1053d-132">If you want to use routing information for costing purposes, additional preparation steps are required.</span></span> <span data-ttu-id="1053d-133">ตัวอย่างเช่น ประเภทต้นทุนที่ถูกกำหนดให้กับการดำเนินการสายงานการผลิตต้องถูกต้องและสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="1053d-133">For example, the cost categories that are assigned to routing operations must be correct and completed.</span></span>
 
-<a name="related-topics"></a><span data-ttu-id="b5397-134">หัวข้อที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="b5397-134">Related topics</span></span>
+<a name="related-topics"></a><span data-ttu-id="1053d-134">หัวข้อที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="1053d-134">Related topics</span></span>
 --------
 
-[<span data-ttu-id="b5397-135">การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="b5397-135">Amortize constant costs for a manufactured item</span></span>](amortize-constant-costs-manufactured-item.md)
+[<span data-ttu-id="1053d-135">การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต</span><span class="sxs-lookup"><span data-stu-id="1053d-135">Amortize constant costs for a manufactured item</span></span>](amortize-constant-costs-manufactured-item.md)
 
-[<span data-ttu-id="b5397-136">ตั้งค่าผลิตภัณฑ์ที่สามารถถูกผลิตหรือจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="b5397-136">Set up products that can be produced or procured</span></span>](manufactured-items-treated-as-purchased-items.md)
+[<span data-ttu-id="1053d-136">ตั้งค่าผลิตภัณฑ์ที่สามารถถูกผลิตหรือจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="1053d-136">Set up products that can be produced or procured</span></span>](manufactured-items-treated-as-purchased-items.md)
 

@@ -2,65 +2,65 @@
 title: สร้างใบสั่งซื้อที่นำออกใช้เมื่อสร้างใบสั่งซื้อ
 description: 'ขั้นตอนนี้แสดงวิธีการใช้ข้อตกลงการซื้อเมื่อคุณสร้างใบสั่งซื้อ '
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d857dbe7c5f7af8ef7a50ee60784a53e5c6823
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e3e02bd4aaef8da7838c92199c28b1e298078c57
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147422"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204872"
 ---
-# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="7a265-103">สร้างใบสั่งซื้อที่นำออกใช้เมื่อสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-103">Create a purchase release order when creating the purchase order</span></span>
+# <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="e1ffe-103">สร้างใบสั่งซื้อที่นำออกใช้เมื่อสร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-103">Create a purchase release order when creating the purchase order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7a265-104">ขั้นตอนนี้แสดงวิธีการใช้ข้อตกลงการซื้อเมื่อคุณสร้างใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="7a265-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="7a265-105">ข้อตกลงการซื้อนั้นจะต้องนำไปใช้เมื่อคุณสร้างใบสั่งซื้อเนื่องจากมีเงื่อนไขทั่วไปที่ควรจะถูกคัดลอกไปยังหัวข้อใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="7a265-106">โดยปกติแล้วงานนี้จะถูกดำเนินการโดยตัวแทนจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="7a265-107">ตามข้อกำหนดเบื้องต้นสำหรับคำแนะนำนี้ คุณต้องมีข้อตกลงการซื้อที่มีผลบังคับใช้กับข้อผูกมัดเกี่ยวกับปริมาณผลิตภัณฑ์สำหรับผู้จัดจำหน่ายและสินค้า</span><span class="sxs-lookup"><span data-stu-id="7a265-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="7a265-108">สามารถใช้ขั้นตอนเดียวกันถ้าคุณมีข้อตกลงการซื้อกับชนิดข้อผูกมัดอื่น</span><span class="sxs-lookup"><span data-stu-id="7a265-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="7a265-109">คุณสามารถรันคำแนะนำนี้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="7a265-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="7a265-110">ถ้าคุณกำลังใช้ USMF คุณสามารถรันคำแนะนำ "สร้างข้อตกลงการซื้อ" ก่อน เพื่อตั้งค่าเงื่อนไขเบื้องต้นที่จำเป็นสำหรับคำแนะนำนี้</span><span class="sxs-lookup"><span data-stu-id="7a265-110">If you're using USMF, you can run the "Create a purchase agreement" guide first to set up the necessary preconditions for this guide.</span></span>
+<span data-ttu-id="e1ffe-104">ขั้นตอนนี้แสดงวิธีการใช้ข้อตกลงการซื้อเมื่อคุณสร้างใบสั่งซื้อ </span><span class="sxs-lookup"><span data-stu-id="e1ffe-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="e1ffe-105">ข้อตกลงการซื้อนั้นจะต้องนำไปใช้เมื่อคุณสร้างใบสั่งซื้อเนื่องจากมีเงื่อนไขทั่วไปที่ควรจะถูกคัดลอกไปยังหัวข้อใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="e1ffe-106">โดยปกติแล้วงานนี้จะถูกดำเนินการโดยตัวแทนจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="e1ffe-107">ตามข้อกำหนดเบื้องต้นสำหรับคำแนะนำนี้ คุณต้องมีข้อตกลงการซื้อที่มีผลบังคับใช้กับข้อผูกมัดเกี่ยวกับปริมาณผลิตภัณฑ์สำหรับผู้จัดจำหน่ายและสินค้า</span><span class="sxs-lookup"><span data-stu-id="e1ffe-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="e1ffe-108">สามารถใช้ขั้นตอนเดียวกันถ้าคุณมีข้อตกลงการซื้อกับชนิดข้อผูกมัดอื่น</span><span class="sxs-lookup"><span data-stu-id="e1ffe-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="e1ffe-109">คุณสามารถรันคำแนะนำนี้ในบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="e1ffe-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="e1ffe-110">ถ้าคุณกำลังใช้ USMF คุณสามารถรันคำแนะนำ "สร้างข้อตกลงการซื้อ" ก่อน เพื่อตั้งค่าเงื่อนไขเบื้องต้นที่จำเป็นสำหรับคำแนะนำนี้</span><span class="sxs-lookup"><span data-stu-id="e1ffe-110">If you're using USMF, you can run the "Create a purchase agreement" guide first to set up the necessary preconditions for this guide.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="7a265-111">สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-111">Create a purchase order</span></span>
-1. <span data-ttu-id="7a265-112">เปิดพื้นที่ทำงานสำหรับการจัดเตรียมใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-112">Open the purchase order preparation workspace.</span></span>
-2. <span data-ttu-id="7a265-113">คลิกใบสั่งซื้อใหม่</span><span class="sxs-lookup"><span data-stu-id="7a265-113">Click New purchase order.</span></span>
-3. <span data-ttu-id="7a265-114">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7a265-114">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="7a265-115">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7a265-115">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="7a265-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7a265-116">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="7a265-117">เปิดปิดการขยายของส่วนทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7a265-117">Toggle the expansion of the General section.</span></span>
-7. <span data-ttu-id="7a265-118">ในฟิลด์ข้อตกลงการสั่งซื้อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7a265-118">In the Purchase agreement field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="7a265-119">ข้อตกลงสำหรับผู้จัดจำหน่ายที่มีอยู่ทั้งหมดจะถูกแสดงไว้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="7a265-119">All available agreements for the vendor are listed here.</span></span> <span data-ttu-id="7a265-120">ค้นหาข้อตกลงที่มีผลบังคับใช้ตามที่คุณต้องการจะใช้</span><span class="sxs-lookup"><span data-stu-id="7a265-120">Find the effective agreement that you want to use.</span></span>  
-8. <span data-ttu-id="7a265-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7a265-121">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="7a265-122">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="7a265-122">Click Yes.</span></span>
-10. <span data-ttu-id="7a265-123">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7a265-123">Click OK.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="e1ffe-111">สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-111">Create a purchase order</span></span>
+1. <span data-ttu-id="e1ffe-112">เปิดพื้นที่ทำงานสำหรับการจัดเตรียมใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-112">Open the purchase order preparation workspace.</span></span>
+2. <span data-ttu-id="e1ffe-113">คลิกใบสั่งซื้อใหม่</span><span class="sxs-lookup"><span data-stu-id="e1ffe-113">Click New purchase order.</span></span>
+3. <span data-ttu-id="e1ffe-114">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1ffe-114">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e1ffe-115">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-115">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e1ffe-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1ffe-116">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="e1ffe-117">เปิดปิดการขยายของส่วนทั่วไป</span><span class="sxs-lookup"><span data-stu-id="e1ffe-117">Toggle the expansion of the General section.</span></span>
+7. <span data-ttu-id="e1ffe-118">ในฟิลด์ข้อตกลงการสั่งซื้อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1ffe-118">In the Purchase agreement field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e1ffe-119">ข้อตกลงสำหรับผู้จัดจำหน่ายที่มีอยู่ทั้งหมดจะถูกแสดงไว้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="e1ffe-119">All available agreements for the vendor are listed here.</span></span> <span data-ttu-id="e1ffe-120">ค้นหาข้อตกลงที่มีผลบังคับใช้ตามที่คุณต้องการจะใช้</span><span class="sxs-lookup"><span data-stu-id="e1ffe-120">Find the effective agreement that you want to use.</span></span>  
+8. <span data-ttu-id="e1ffe-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1ffe-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="e1ffe-122">คลิก ใช่</span><span class="sxs-lookup"><span data-stu-id="e1ffe-122">Click Yes.</span></span>
+10. <span data-ttu-id="e1ffe-123">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="e1ffe-123">Click OK.</span></span>
 
-## <a name="add-a-line"></a><span data-ttu-id="7a265-124">เพิมรายการ</span><span class="sxs-lookup"><span data-stu-id="7a265-124">Add a line</span></span>
-1. <span data-ttu-id="7a265-125">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="7a265-125">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="7a265-126">ถ้ามีสินค้าคงคลังหรือขนาดของสถานที่ที่เฉพาะเจาะจงในข้อผูกมัด คุณต้องป้อนข้อมูลเดียวกับรายการใบสั่งซื้อเพื่อให้เป็นไปตามข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="7a265-126">If there are specific inventory or location dimensions on the commitment you must enter the same values on the purchase order line to make use of the agreement.</span></span>  
-2. <span data-ttu-id="7a265-127">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7a265-127">In the Site field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="7a265-128">ไซต์นั้นอาจถูกเติมข้อมูลด้วยค่าเริ่มต้นจากใบสั่งหรือจากผู้จัดจำหน่ายเป็นที่เรียบร้อยแล้ว </span><span class="sxs-lookup"><span data-stu-id="7a265-128">The site may already be populated with the default value from the order, or from the vendor.</span></span> <span data-ttu-id="7a265-129">ถ้าเป็นกรณีเช่นนั้นให้ข้ามขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="7a265-129">If this is the case, skip this step.</span></span>  
-3. <span data-ttu-id="7a265-130">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7a265-130">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="7a265-131">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7a265-131">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="7a265-132">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7a265-132">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="7a265-133">ตรวจสอบความถูกต้องว่าราคานั้นถูกคัดลอกมาจากข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="7a265-133">Validate that the price is copied from the commitment.</span></span>  
+## <a name="add-a-line"></a><span data-ttu-id="e1ffe-124">เพิมรายการ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-124">Add a line</span></span>
+1. <span data-ttu-id="e1ffe-125">ในฟิลด์หมายเลขสินค้า ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="e1ffe-125">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="e1ffe-126">ถ้ามีสินค้าคงคลังหรือขนาดของสถานที่ที่เฉพาะเจาะจงในข้อผูกมัด คุณต้องป้อนข้อมูลเดียวกับรายการใบสั่งซื้อเพื่อให้เป็นไปตามข้อตกลง</span><span class="sxs-lookup"><span data-stu-id="e1ffe-126">If there are specific inventory or location dimensions on the commitment you must enter the same values on the purchase order line to make use of the agreement.</span></span>  
+2. <span data-ttu-id="e1ffe-127">ในฟิลด์ไซต์ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="e1ffe-127">In the Site field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="e1ffe-128">ไซต์นั้นอาจถูกเติมข้อมูลด้วยค่าเริ่มต้นจากใบสั่งหรือจากผู้จัดจำหน่ายเป็นที่เรียบร้อยแล้ว </span><span class="sxs-lookup"><span data-stu-id="e1ffe-128">The site may already be populated with the default value from the order, or from the vendor.</span></span> <span data-ttu-id="e1ffe-129">ถ้าเป็นกรณีเช่นนั้นให้ข้ามขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="e1ffe-129">If this is the case, skip this step.</span></span>  
+3. <span data-ttu-id="e1ffe-130">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-130">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="e1ffe-131">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="e1ffe-131">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="e1ffe-132">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="e1ffe-132">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="e1ffe-133">ตรวจสอบความถูกต้องว่าราคานั้นถูกคัดลอกมาจากข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="e1ffe-133">Validate that the price is copied from the commitment.</span></span>  
 
-## <a name="look-up-the-commitment"></a><span data-ttu-id="7a265-134">ค้นหาข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="7a265-134">Look up the commitment</span></span>
-1. <span data-ttu-id="7a265-135">คลิก อัพเดตรายการ</span><span class="sxs-lookup"><span data-stu-id="7a265-135">Click Update line.</span></span>
-2. <span data-ttu-id="7a265-136">คลิก ที่แนบมา</span><span class="sxs-lookup"><span data-stu-id="7a265-136">Click Attached.</span></span>
-    * <span data-ttu-id="7a265-137">คุณสามารถรับรายละเอียดสำหรับข้อตกลงการซื้อได้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="7a265-137">Here you can get details for the purchase agreement.</span></span> <span data-ttu-id="7a265-138">ตัวอย่างเช่น คุณสามารถดูราคาและราคาและส่วนลดนั้นคงที่หรือไม่ ซึ่งหมายความว่าถ้าคุณเปลี่ยนแปลงราคาหรือส่วนลดในใบสั่งซื้อไปเป็นค่าอื่นกว่าในข้อผูกมัดนั้น ระบบจะลบลิงค์ ดังนั้นรายการใบสั่งซื้อจะไม่ตอบสนองข้อผูกมัดนั้น </span><span class="sxs-lookup"><span data-stu-id="7a265-138">For example, you can see the price and whether the price and discount are fixed, which means that if you change price or discount on the purchase order to a different value than on the commitment, the system will remove the link so the purchase order line does not fulfill the commitment.</span></span> <span data-ttu-id="7a265-139">คุณยังสามารถดูถ้าตัวเลือกบังคับใช้ค่าสูงสุดถูกเลือก ซึ่งหมายความว่าปริมาณในข้อผูกมัดนั้นไม่สามารถเกินข้อจำกัดโดยการรวมการซื้อทั้งหมดที่ตอบสนองข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="7a265-139">You can also see if the Max is enforced option is selected, which means that the quantity on the commitment cannot be exceeded by summing all of the purchases that fulfill the commitment.</span></span>  
-3. <span data-ttu-id="7a265-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7a265-140">Close the page.</span></span>
+## <a name="look-up-the-commitment"></a><span data-ttu-id="e1ffe-134">ค้นหาข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="e1ffe-134">Look up the commitment</span></span>
+1. <span data-ttu-id="e1ffe-135">คลิก อัพเดตรายการ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-135">Click Update line.</span></span>
+2. <span data-ttu-id="e1ffe-136">คลิก ที่แนบมา</span><span class="sxs-lookup"><span data-stu-id="e1ffe-136">Click Attached.</span></span>
+    * <span data-ttu-id="e1ffe-137">คุณสามารถรับรายละเอียดสำหรับข้อตกลงการซื้อได้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="e1ffe-137">Here you can get details for the purchase agreement.</span></span> <span data-ttu-id="e1ffe-138">ตัวอย่างเช่น คุณสามารถดูราคาและราคาและส่วนลดนั้นคงที่หรือไม่ ซึ่งหมายความว่าถ้าคุณเปลี่ยนแปลงราคาหรือส่วนลดในใบสั่งซื้อไปเป็นค่าอื่นกว่าในข้อผูกมัดนั้น ระบบจะลบลิงค์ ดังนั้นรายการใบสั่งซื้อจะไม่ตอบสนองข้อผูกมัดนั้น </span><span class="sxs-lookup"><span data-stu-id="e1ffe-138">For example, you can see the price and whether the price and discount are fixed, which means that if you change price or discount on the purchase order to a different value than on the commitment, the system will remove the link so the purchase order line does not fulfill the commitment.</span></span> <span data-ttu-id="e1ffe-139">คุณยังสามารถดูถ้าตัวเลือกบังคับใช้ค่าสูงสุดถูกเลือก ซึ่งหมายความว่าปริมาณในข้อผูกมัดนั้นไม่สามารถเกินข้อจำกัดโดยการรวมการซื้อทั้งหมดที่ตอบสนองข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="e1ffe-139">You can also see if the Max is enforced option is selected, which means that the quantity on the commitment cannot be exceeded by summing all of the purchases that fulfill the commitment.</span></span>  
+3. <span data-ttu-id="e1ffe-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="e1ffe-140">Close the page.</span></span>
 
-## <a name="look-up-the-purchase-agreement"></a><span data-ttu-id="7a265-141">ค้นหาขัอตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-141">Look up the purchase agreement</span></span>
-1. <span data-ttu-id="7a265-142">ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7a265-142">On the Action Pane, click General.</span></span>
-2. <span data-ttu-id="7a265-143">คลิกข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="7a265-143">Click Purchase agreement.</span></span>
-3. <span data-ttu-id="7a265-144">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7a265-144">Close the page.</span></span>
-4. <span data-ttu-id="7a265-145">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7a265-145">Close the page.</span></span>
+## <a name="look-up-the-purchase-agreement"></a><span data-ttu-id="e1ffe-141">ค้นหาขัอตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-141">Look up the purchase agreement</span></span>
+1. <span data-ttu-id="e1ffe-142">ในบานหน้าต่างการดำเนินการ ให้คลิก ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="e1ffe-142">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="e1ffe-143">คลิกข้อตกลงการซื้อ</span><span class="sxs-lookup"><span data-stu-id="e1ffe-143">Click Purchase agreement.</span></span>
+3. <span data-ttu-id="e1ffe-144">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="e1ffe-144">Close the page.</span></span>
+4. <span data-ttu-id="e1ffe-145">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="e1ffe-145">Close the page.</span></span>
 

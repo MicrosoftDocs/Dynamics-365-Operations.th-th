@@ -2,14 +2,14 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,127 +18,127 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251639"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212951"
 ---
-# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="27659-104">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-104">Sales orders mobile workspace</span></span>
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="4c2e3-104">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-104">Sales orders mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="27659-105">หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="27659-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="27659-106">พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้</span><span class="sxs-lookup"><span data-stu-id="27659-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
+<span data-ttu-id="4c2e3-105">หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="4c2e3-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="4c2e3-106">พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้</span><span class="sxs-lookup"><span data-stu-id="4c2e3-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-<span data-ttu-id="27659-107">พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="27659-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
+<span data-ttu-id="4c2e3-107">พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4c2e3-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="27659-108">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="27659-108">Overview</span></span>
-<span data-ttu-id="27659-109">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้</span><span class="sxs-lookup"><span data-stu-id="27659-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="27659-110">ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="27659-111">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="27659-112">คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="27659-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
+## <a name="overview"></a><span data-ttu-id="4c2e3-108">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="4c2e3-108">Overview</span></span>
+<span data-ttu-id="4c2e3-109">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้</span><span class="sxs-lookup"><span data-stu-id="4c2e3-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="4c2e3-110">ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="4c2e3-111">พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="4c2e3-112">คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-<span data-ttu-id="27659-113">พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก</span><span class="sxs-lookup"><span data-stu-id="27659-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
+<span data-ttu-id="4c2e3-113">พื้นที่ทำงานแบบเคลื่อนที่มีสองมุมมองเพื่อช่วยให้คุณวิเคราะห์ใบสั่งขายในเชิงลึก</span><span class="sxs-lookup"><span data-stu-id="4c2e3-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a><span data-ttu-id="27659-114">ดูใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="27659-114">View all sales orders</span></span>
-<span data-ttu-id="27659-115">มุมมองนี้แสดงรายการใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="27659-115">This view lists all sales orders.</span></span>
+### <a name="view-all-sales-orders"></a><span data-ttu-id="4c2e3-114">ดูใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4c2e3-114">View all sales orders</span></span>
+<span data-ttu-id="4c2e3-115">มุมมองนี้แสดงรายการใบสั่งขายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4c2e3-115">This view lists all sales orders.</span></span>
 
--   <span data-ttu-id="27659-116">ใช้ตัวกรองใดตัวกรองหนึ่งเพื่อเลือกใบสั่งขายที่ต้องการดู:</span><span class="sxs-lookup"><span data-stu-id="27659-116">Use one of the following filters to select the sales orders to view:</span></span>
+-   <span data-ttu-id="4c2e3-116">ใช้ตัวกรองใดตัวกรองหนึ่งเพื่อเลือกใบสั่งขายที่ต้องการดู:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   <span data-ttu-id="27659-117">ค้นหาตามใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-117">Search by sales order</span></span>
-    -   <span data-ttu-id="27659-118">ค้นหาตามบัญชีของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-118">Search by customer account</span></span>
-    -   <span data-ttu-id="27659-119">ค้นหาตามชื่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-119">Search by customer name</span></span>
-    -   <span data-ttu-id="27659-120">ค้นหาตามสถานะ</span><span class="sxs-lookup"><span data-stu-id="27659-120">Search by status</span></span>
-    -   <span data-ttu-id="27659-121">ค้นหาตามสถานะนำออกใช้</span><span class="sxs-lookup"><span data-stu-id="27659-121">Search by release status</span></span>
-    -   <span data-ttu-id="27659-122">ค้นหาตามวันที่และเวลาที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="27659-122">Search by created date and time</span></span>
+    -   <span data-ttu-id="4c2e3-117">ค้นหาตามใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-117">Search by sales order</span></span>
+    -   <span data-ttu-id="4c2e3-118">ค้นหาตามบัญชีของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-118">Search by customer account</span></span>
+    -   <span data-ttu-id="4c2e3-119">ค้นหาตามชื่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-119">Search by customer name</span></span>
+    -   <span data-ttu-id="4c2e3-120">ค้นหาตามสถานะ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-120">Search by status</span></span>
+    -   <span data-ttu-id="4c2e3-121">ค้นหาตามสถานะนำออกใช้</span><span class="sxs-lookup"><span data-stu-id="4c2e3-121">Search by release status</span></span>
+    -   <span data-ttu-id="4c2e3-122">ค้นหาตามวันที่และเวลาที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-122">Search by created date and time</span></span>
     
--   <span data-ttu-id="27659-123">หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="27659-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="27659-124">กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="27659-124">Specifically, you can view the following information:</span></span>
+-   <span data-ttu-id="4c2e3-123">หลังจากที่คุณเลือกใบสั่งขาย คุณสามารถดูรายละเอียดของใบสั่งเฉพาะได้</span><span class="sxs-lookup"><span data-stu-id="4c2e3-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="4c2e3-124">กล่าวคือ คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-124">Specifically, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="27659-125">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-125">Customer name and address information</span></span>
-    -   <span data-ttu-id="27659-126">วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="27659-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
-    -   <span data-ttu-id="27659-127">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-127">Contact information for the order taker</span></span>
-    -   <span data-ttu-id="27659-128">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-128">Customer contact information</span></span>
-    -   <span data-ttu-id="27659-129">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-129">Order lines</span></span>
-    -   <span data-ttu-id="27659-130">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-130">Shipments that show how and when a sales order was shipped</span></span>
+    -   <span data-ttu-id="4c2e3-125">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="4c2e3-126">วันที่ต่างๆ สำหรับใบสั่งขาย เช่น วันที่จัดส่งที่ร้องขอ และวันที่จัดส่งที่ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="4c2e3-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="4c2e3-127">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="4c2e3-128">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-128">Customer contact information</span></span>
+    -   <span data-ttu-id="4c2e3-129">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-129">Order lines</span></span>
+    -   <span data-ttu-id="4c2e3-130">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a><span data-ttu-id="27659-131">ดูใบสั่งสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-131">View orders for a customer</span></span>
-<span data-ttu-id="27659-132">มุมมองนี้แสดงรายการใบสั่งขายโดยเรียงตามลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-132">This view lists sales orders by customer.</span></span>
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="4c2e3-131">ดูใบสั่งสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-131">View orders for a customer</span></span>
+<span data-ttu-id="4c2e3-132">มุมมองนี้แสดงรายการใบสั่งขายโดยเรียงตามลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-132">This view lists sales orders by customer.</span></span>
 
--   <span data-ttu-id="27659-133">ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:</span><span class="sxs-lookup"><span data-stu-id="27659-133">Use one of the following filters to view orders for a customer:</span></span>
+-   <span data-ttu-id="4c2e3-133">ใช้ตัวกรองใดตัวกรองหนึ่งต่อไปนี้เพื่อดูใบสั่งสำหรับลูกค้า:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   <span data-ttu-id="27659-134">ค้นหาตามชื่อ</span><span class="sxs-lookup"><span data-stu-id="27659-134">Search by name</span></span>
-    -   <span data-ttu-id="27659-135">ค้นหาตามบัญชี</span><span class="sxs-lookup"><span data-stu-id="27659-135">Search by account</span></span>
+    -   <span data-ttu-id="4c2e3-134">ค้นหาตามชื่อ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-134">Search by name</span></span>
+    -   <span data-ttu-id="4c2e3-135">ค้นหาตามบัญชี</span><span class="sxs-lookup"><span data-stu-id="4c2e3-135">Search by account</span></span>
 
--   <span data-ttu-id="27659-136">หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="27659-136">After you select a customer, you can view the following information:</span></span>
+-   <span data-ttu-id="4c2e3-136">หลังจากที่คุณเลือกลูกค้า คุณสามารถดูข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-136">After you select a customer, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="27659-137">ชื่อและกลุ่มลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-137">Customer name and group</span></span>
-    -   <span data-ttu-id="27659-138">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-138">Customer contact information</span></span>
-    -   <span data-ttu-id="27659-139">ใบสั่งขายของลูกค้าและรายละเอียดเกี่ยวกับใบสั่งขายเหล่านั้น:</span><span class="sxs-lookup"><span data-stu-id="27659-139">Customer sales orders and details about those sales orders:</span></span>
+    -   <span data-ttu-id="4c2e3-137">ชื่อและกลุ่มลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-137">Customer name and group</span></span>
+    -   <span data-ttu-id="4c2e3-138">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-138">Customer contact information</span></span>
+    -   <span data-ttu-id="4c2e3-139">ใบสั่งขายของลูกค้าและรายละเอียดเกี่ยวกับใบสั่งขายเหล่านั้น:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   <span data-ttu-id="27659-140">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-140">Customer name and address information</span></span>
-        -   <span data-ttu-id="27659-141">วันที่ในใบสั่งขายต่างๆ</span><span class="sxs-lookup"><span data-stu-id="27659-141">Various sales order dates</span></span>
-        -   <span data-ttu-id="27659-142">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-142">Contact information for the order taker</span></span>
-        -   <span data-ttu-id="27659-143">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-143">Customer contact information</span></span>
-        -   <span data-ttu-id="27659-144">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-144">Order lines</span></span>
-        -   <span data-ttu-id="27659-145">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-145">Shipments that show how and when a sales order was shipped</span></span>
+        -   <span data-ttu-id="4c2e3-140">ข้อมูลชื่อและที่อยู่ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="4c2e3-141">วันที่ในใบสั่งขายต่างๆ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="4c2e3-142">ข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="4c2e3-143">ข้อมูลติดต่อของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-143">Customer contact information</span></span>
+        -   <span data-ttu-id="4c2e3-144">รายการใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-144">Order lines</span></span>
+        -   <span data-ttu-id="4c2e3-145">การจัดส่งที่แสดงวิธีการและเมื่อมีการจัดส่งใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="27659-146">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="27659-146">Prerequisites</span></span>
-<span data-ttu-id="27659-147">ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="27659-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="4c2e3-146">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="4c2e3-146">Prerequisites</span></span>
+<span data-ttu-id="4c2e3-147">ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="27659-148">มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="27659-148">Prerequisites if you use Supply Chain Management</span></span> 
-<span data-ttu-id="27659-149">ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="27659-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="27659-150">สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)</span><span class="sxs-lookup"><span data-stu-id="27659-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
+### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="4c2e3-148">มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="4c2e3-148">Prerequisites if you use Supply Chain Management</span></span> 
+<span data-ttu-id="4c2e3-149">ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4c2e3-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="4c2e3-150">สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)</span><span class="sxs-lookup"><span data-stu-id="4c2e3-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="27659-151">ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="27659-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
-<span data-ttu-id="27659-152">ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="27659-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="4c2e3-151">ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="4c2e3-152">ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="4c2e3-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="27659-153">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="27659-153">Prerequisite</span></span></th>
-<th><span data-ttu-id="27659-154">บทบาท</span><span class="sxs-lookup"><span data-stu-id="27659-154">Role</span></span></th>
-<th><span data-ttu-id="27659-155">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="27659-155">Description</span></span></th>
+<th><span data-ttu-id="4c2e3-153">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="4c2e3-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="4c2e3-154">บทบาท</span><span class="sxs-lookup"><span data-stu-id="4c2e3-154">Role</span></span></th>
+<th><span data-ttu-id="4c2e3-155">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="27659-156">การใช้ KB 4013633</span><span class="sxs-lookup"><span data-stu-id="27659-156">Implement KB 4013633.</span></span></td>
-<td><span data-ttu-id="27659-157">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="27659-157">System administrator</span></span></td>
+<td><span data-ttu-id="4c2e3-156">การใช้ KB 4013633</span><span class="sxs-lookup"><span data-stu-id="4c2e3-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="4c2e3-157">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-157">System administrator</span></span></td>
 
-<td><span data-ttu-id="27659-158">KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="27659-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="27659-159">เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="27659-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
+<td><span data-ttu-id="4c2e3-158">KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="4c2e3-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="4c2e3-159">เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="4c2e3-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><span data-ttu-id="27659-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></span><span class="sxs-lookup"><span data-stu-id="27659-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
-<li><span data-ttu-id="27659-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></span><span class="sxs-lookup"><span data-stu-id="27659-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
-<li><span data-ttu-id="27659-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</span><span class="sxs-lookup"><span data-stu-id="27659-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
-<li><span data-ttu-id="27659-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></span><span class="sxs-lookup"><span data-stu-id="27659-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
+<li><span data-ttu-id="4c2e3-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></span><span class="sxs-lookup"><span data-stu-id="4c2e3-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="4c2e3-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></span><span class="sxs-lookup"><span data-stu-id="4c2e3-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="4c2e3-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</span><span class="sxs-lookup"><span data-stu-id="4c2e3-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="4c2e3-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></span><span class="sxs-lookup"><span data-stu-id="4c2e3-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="27659-164">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="27659-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
-<td><span data-ttu-id="27659-165">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="27659-165">System administrator</span></span></td>
-<td><span data-ttu-id="27659-166">ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="27659-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="4c2e3-164">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></span><span class="sxs-lookup"><span data-stu-id="4c2e3-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="4c2e3-165">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-165">System administrator</span></span></td>
+<td><span data-ttu-id="4c2e3-166">ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></span><span class="sxs-lookup"><span data-stu-id="4c2e3-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="27659-167">ดาวน์โหลดและติดตั้งแอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="27659-167">Download and install the mobile app</span></span>
-<span data-ttu-id="27659-168">ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="27659-168">Download and install the Finance and Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="4c2e3-167">ดาวน์โหลดและติดตั้งแอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-167">Download and install the mobile app</span></span>
+<span data-ttu-id="4c2e3-168">ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="4c2e3-168">Download and install the Finance and Operations mobile app:</span></span>
 
--   [<span data-ttu-id="27659-169">สำหรับโทรศัพท์ Android</span><span class="sxs-lookup"><span data-stu-id="27659-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="27659-170">สำหรับ iPhone</span><span class="sxs-lookup"><span data-stu-id="27659-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="4c2e3-169">สำหรับโทรศัพท์ Android</span><span class="sxs-lookup"><span data-stu-id="4c2e3-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="4c2e3-170">สำหรับ iPhone</span><span class="sxs-lookup"><span data-stu-id="4c2e3-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="27659-171">ล็อกอินเข้าสู่แอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="27659-171">Sign in to the mobile app</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="4c2e3-171">ล็อกอินเข้าสู่แอพบนมือถือ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-171">Sign in to the mobile app</span></span>
 
-1.  <span data-ttu-id="27659-172">เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ</span><span class="sxs-lookup"><span data-stu-id="27659-172">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="27659-173">ป้อน URL ของ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="27659-173">Enter your Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="27659-174">ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ</span><span class="sxs-lookup"><span data-stu-id="27659-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="27659-175">ป้อนข้อมูลประจำตัวของคุณ</span><span class="sxs-lookup"><span data-stu-id="27659-175">Enter your credentials.</span></span>
-4.  <span data-ttu-id="27659-176">หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="27659-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="27659-177">หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="27659-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+1.  <span data-ttu-id="4c2e3-172">เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="4c2e3-173">ป้อน URL ของ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="4c2e3-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="4c2e3-174">ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="4c2e3-175">ป้อนข้อมูลประจำตัวของคุณ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="4c2e3-176">หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="4c2e3-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="4c2e3-177">หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="4c2e3-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="27659-178">[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="27659-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="4c2e3-178">[![ดึงเพื่อรีเฟรช](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="4c2e3-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="27659-179">ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="27659-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="4c2e3-179">ดูข้อมูลเกี่ยวกับใบสั่งขายสำหรับลูกค้าโดยใช้พื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c2e3-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  <span data-ttu-id="27659-180">บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="27659-180">On your mobile device, select the **Sales orders** workspace.</span></span>
-2.  <span data-ttu-id="27659-181">เลือก **ดูใบสั่งสำหรับลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="27659-181">Select **View orders for a customer**.</span></span>
-3.  <span data-ttu-id="27659-182">ใช้ข้อมูลบัญชีหรือชื่อลูกค้าเพื่อค้นหาลูกค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="27659-182">Use account or customer name information to find the customer.</span></span>
-4.  <span data-ttu-id="27659-183">เลือกลูกค้า</span><span class="sxs-lookup"><span data-stu-id="27659-183">Select the customer.</span></span>
-5.  <span data-ttu-id="27659-184">เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="27659-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="27659-185">ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="27659-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
-6.  <span data-ttu-id="27659-186">เลือก **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="27659-186">Select **Sales order**.</span></span> <span data-ttu-id="27659-187">ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="27659-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
+1.  <span data-ttu-id="4c2e3-180">บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="4c2e3-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="4c2e3-181">เลือก **ดูใบสั่งสำหรับลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="4c2e3-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="4c2e3-182">ใช้ข้อมูลบัญชีหรือชื่อลูกค้าเพื่อค้นหาลูกค้าที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="4c2e3-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="4c2e3-183">เลือกลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c2e3-183">Select the customer.</span></span>
+5.  <span data-ttu-id="4c2e3-184">เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="4c2e3-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="4c2e3-185">ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="4c2e3-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="4c2e3-186">เลือก **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="4c2e3-186">Select **Sales order**.</span></span> <span data-ttu-id="4c2e3-187">ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="4c2e3-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>

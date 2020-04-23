@@ -2,7 +2,7 @@
 title: ภาพรวมของการจัดการบริการ
 description: ใช้การจัดการงานบริการเพื่อกำหนดข้อตกลงการให้บริการและการบอกรับเป็นสมาชิกการบริการ จัดการใบสั่งบริการและการสอบถามของลูกค้า และเพื่อจัดการและวิเคราะห์การจัดส่งบริการให้แก่ลูกค้า
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,56 +18,56 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44fafe1548f97d8e4a532a17b0ca596320b5e9fb
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6c58cd8002f6bb80ebcbd8c552e4e3509d7528ea
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815007"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215182"
 ---
-# <a name="service-management-overview"></a><span data-ttu-id="cc78c-103">ภาพรวมของการจัดการบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-103">Service management overview</span></span>
+# <a name="service-management-overview"></a><span data-ttu-id="52f2a-103">ภาพรวมของการจัดการบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-103">Service management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="cc78c-104">ใช้ **การจัดการงานบริการ** เพื่อกำหนดข้อตกลงการให้บริการและการบอกรับเป็นสมาชิกการบริการ จัดการใบสั่งบริการและการสอบถามของลูกค้า และเพื่อจัดการและวิเคราะห์การจัดส่งบริการให้แก่ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="cc78c-104">Use **Service management** to establish service agreements and service subscriptions, handle service orders and customer inquiries, and to manage and analyze the delivery of services to customers.</span></span> <span data-ttu-id="cc78c-105">คุณสามารถใช้ข้อตกลงการให้บริการเพื่อกำหนดทรัพยากรที่ใช้ในการไปเยี่ยมเพื่อให้บริการตามปกติ </span><span class="sxs-lookup"><span data-stu-id="cc78c-105">You can use service agreements to define the resources that are used in a typical service visit.</span></span> <span data-ttu-id="cc78c-106">คุณยังสามารถใช้ข้อตกลงการให้บริการเพื่อดูว่าทรัพยากรดังกล่าวจะออกอินวอยซ์ให้กับลูกค้า </span><span class="sxs-lookup"><span data-stu-id="cc78c-106">You can also use service agreements to view how those resources are invoiced to the customer.</span></span> <span data-ttu-id="cc78c-107">ข้อตกลงการให้บริการยังสามารถรวมข้อตกลงระดับการบริการที่ระบุเวลาการตอบสนองมาตรฐาน และมีเครื่องมือต่างๆ เพื่อบันทึกเวลาเกิดขึ้นจริง</span><span class="sxs-lookup"><span data-stu-id="cc78c-107">A service agreement can also include a service level agreement that specifies standard response times, and offers tools to record the actual time.</span></span>
+<span data-ttu-id="52f2a-104">ใช้ **การจัดการงานบริการ** เพื่อกำหนดข้อตกลงการให้บริการและการบอกรับเป็นสมาชิกการบริการ จัดการใบสั่งบริการและการสอบถามของลูกค้า และเพื่อจัดการและวิเคราะห์การจัดส่งบริการให้แก่ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="52f2a-104">Use **Service management** to establish service agreements and service subscriptions, handle service orders and customer inquiries, and to manage and analyze the delivery of services to customers.</span></span> <span data-ttu-id="52f2a-105">คุณสามารถใช้ข้อตกลงการให้บริการเพื่อกำหนดทรัพยากรที่ใช้ในการไปเยี่ยมเพื่อให้บริการตามปกติ </span><span class="sxs-lookup"><span data-stu-id="52f2a-105">You can use service agreements to define the resources that are used in a typical service visit.</span></span> <span data-ttu-id="52f2a-106">คุณยังสามารถใช้ข้อตกลงการให้บริการเพื่อดูว่าทรัพยากรดังกล่าวจะออกอินวอยซ์ให้กับลูกค้า </span><span class="sxs-lookup"><span data-stu-id="52f2a-106">You can also use service agreements to view how those resources are invoiced to the customer.</span></span> <span data-ttu-id="52f2a-107">ข้อตกลงการให้บริการยังสามารถรวมข้อตกลงระดับการบริการที่ระบุเวลาการตอบสนองมาตรฐาน และมีเครื่องมือต่างๆ เพื่อบันทึกเวลาเกิดขึ้นจริง</span><span class="sxs-lookup"><span data-stu-id="52f2a-107">A service agreement can also include a service level agreement that specifies standard response times, and offers tools to record the actual time.</span></span>
 
-<span data-ttu-id="cc78c-108">คุณสามารถสร้างใบสั่งบริการเพื่อจัดการข้อมูลเกี่ยวกับการจัดกำหนดการ และไม่ได้จัดกำหนดการเข้าใช้โดยช่างเทคนิคบริการไปไซต์ของลูกค้า </span><span class="sxs-lookup"><span data-stu-id="cc78c-108">You can create service orders to manage information about scheduled and unscheduled visits by a service technician to a customer site.</span></span> <span data-ttu-id="cc78c-109">ใบสั่งบริการรวมถึงข้อมูลเช่น:</span><span class="sxs-lookup"><span data-stu-id="cc78c-109">Service orders include information such as:</span></span>
+<span data-ttu-id="52f2a-108">คุณสามารถสร้างใบสั่งบริการเพื่อจัดการข้อมูลเกี่ยวกับการจัดกำหนดการ และไม่ได้จัดกำหนดการเข้าใช้โดยช่างเทคนิคบริการไปไซต์ของลูกค้า </span><span class="sxs-lookup"><span data-stu-id="52f2a-108">You can create service orders to manage information about scheduled and unscheduled visits by a service technician to a customer site.</span></span> <span data-ttu-id="52f2a-109">ใบสั่งบริการรวมถึงข้อมูลเช่น:</span><span class="sxs-lookup"><span data-stu-id="52f2a-109">Service orders include information such as:</span></span>
 
-1.  <span data-ttu-id="cc78c-110">จำนวนชั่วโมงของงานที่จะดำเนินการที่ช่างเทคนิคบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-110">The hours of work that the service technician will perform</span></span>
+1.  <span data-ttu-id="52f2a-110">จำนวนชั่วโมงของงานที่จะดำเนินการที่ช่างเทคนิคบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-110">The hours of work that the service technician will perform</span></span>
 
-2.  <span data-ttu-id="cc78c-111">ชนิดของการบริการหรือการซ่อมแซม</span><span class="sxs-lookup"><span data-stu-id="cc78c-111">The type of service or repair</span></span>
+2.  <span data-ttu-id="52f2a-111">ชนิดของการบริการหรือการซ่อมแซม</span><span class="sxs-lookup"><span data-stu-id="52f2a-111">The type of service or repair</span></span>
 
-3.  <span data-ttu-id="cc78c-112">รายการการซ่อมแซม รวมทั้งรายละเอียดเกี่ยวกับอาการและการวินิจฉัย</span><span class="sxs-lookup"><span data-stu-id="cc78c-112">The item to repair, including details about the symptoms and diagnosis</span></span>
+3.  <span data-ttu-id="52f2a-112">รายการการซ่อมแซม รวมทั้งรายละเอียดเกี่ยวกับอาการและการวินิจฉัย</span><span class="sxs-lookup"><span data-stu-id="52f2a-112">The item to repair, including details about the symptoms and diagnosis</span></span>
 
-4.  <span data-ttu-id="cc78c-113">ค่าใช้จ่ายและค่าธรรมเนียมที่เกี่ยวข้องกับบริการหรือซ่อมแซมใดๆ</span><span class="sxs-lookup"><span data-stu-id="cc78c-113">Any expenses and fees related to the service or repair</span></span>
+4.  <span data-ttu-id="52f2a-113">ค่าใช้จ่ายและค่าธรรมเนียมที่เกี่ยวข้องกับบริการหรือซ่อมแซมใดๆ</span><span class="sxs-lookup"><span data-stu-id="52f2a-113">Any expenses and fees related to the service or repair</span></span>
 
-<span data-ttu-id="cc78c-114">คุณสามารถได้รับ ประมวลผล และจัดส่งคำขอบริการได้</span><span class="sxs-lookup"><span data-stu-id="cc78c-114">You can receive, process, and dispatch service requests.</span></span> <span data-ttu-id="cc78c-115">หลังจากที่คุณได้สร้างใบสั่งบริการ คุณสามารถใช้ขั้นของการบริการติดตามความคืบหน้า และระบุกฎที่ควบคุมการดำเนินการเปิดใช้งานในแต่ละขั้นตอน </span><span class="sxs-lookup"><span data-stu-id="cc78c-115">After you have created a service order, you can use service stages to monitor progress and specify rules that control what actions are enabled in each stage.</span></span> <span data-ttu-id="cc78c-116">เมื่อใบสั่งบริการเสร็จสมบูรณ์แล้ว คุณสามารถออกจากระบบใบสั่งเพื่อยืนยันว่า เสร็จสมบูรณ์แล้ว และใบสั่งที่จะเริ่มต้นกระบวนการใบแจ้งหนี้ที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="cc78c-116">When a service order is complete, you can sign off on the order to confirm that it is complete, and then post the order to start the invoice process.</span></span>
+<span data-ttu-id="52f2a-114">คุณสามารถได้รับ ประมวลผล และจัดส่งคำขอบริการได้</span><span class="sxs-lookup"><span data-stu-id="52f2a-114">You can receive, process, and dispatch service requests.</span></span> <span data-ttu-id="52f2a-115">หลังจากที่คุณได้สร้างใบสั่งบริการ คุณสามารถใช้ขั้นของการบริการติดตามความคืบหน้า และระบุกฎที่ควบคุมการดำเนินการเปิดใช้งานในแต่ละขั้นตอน </span><span class="sxs-lookup"><span data-stu-id="52f2a-115">After you have created a service order, you can use service stages to monitor progress and specify rules that control what actions are enabled in each stage.</span></span> <span data-ttu-id="52f2a-116">เมื่อใบสั่งบริการเสร็จสมบูรณ์แล้ว คุณสามารถออกจากระบบใบสั่งเพื่อยืนยันว่า เสร็จสมบูรณ์แล้ว และใบสั่งที่จะเริ่มต้นกระบวนการใบแจ้งหนี้ที่ลงรายการบัญชีแล้ว</span><span class="sxs-lookup"><span data-stu-id="52f2a-116">When a service order is complete, you can sign off on the order to confirm that it is complete, and then post the order to start the invoice process.</span></span>
 
-<span data-ttu-id="cc78c-117">ใช้เครื่องมือรายงานเพื่อตรวจสอบกำไรขั้นต้นของใบสั่งบริการ และธุรกรรมการบอกรับเป็นสมาชิก และคำอธิบายเกี่ยวกับงานพิมพ์ และงานใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="cc78c-117">Use the reporting tools to monitor service order margins and subscription transactions, and print work descriptions and work receipts.</span></span>
+<span data-ttu-id="52f2a-117">ใช้เครื่องมือรายงานเพื่อตรวจสอบกำไรขั้นต้นของใบสั่งบริการ และธุรกรรมการบอกรับเป็นสมาชิก และคำอธิบายเกี่ยวกับงานพิมพ์ และงานใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="52f2a-117">Use the reporting tools to monitor service order margins and subscription transactions, and print work descriptions and work receipts.</span></span>
 
-## <a name="business-processes"></a><span data-ttu-id="cc78c-118">กระบวนการทางธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="cc78c-118">Business processes</span></span>
+## <a name="business-processes"></a><span data-ttu-id="52f2a-118">กระบวนการทางธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="52f2a-118">Business processes</span></span>
 
-<span data-ttu-id="cc78c-119">ไดอะแกรมต่อไปนี้แสดงกระบวนการธุรกิจระดับสูงสำหรับ  **การจัดการบริการ** และแสดงที่ซึ่งกระบวนการบริการรวมกับโมดูลอื่น</span><span class="sxs-lookup"><span data-stu-id="cc78c-119">The following diagram illustrates the high level business processes for **Service management**, and shows where service processes integrate with other modules.</span></span>
+<span data-ttu-id="52f2a-119">ไดอะแกรมต่อไปนี้แสดงกระบวนการธุรกิจระดับสูงสำหรับ  **การจัดการบริการ** และแสดงที่ซึ่งกระบวนการบริการรวมกับโมดูลอื่น</span><span class="sxs-lookup"><span data-stu-id="52f2a-119">The following diagram illustrates the high level business processes for **Service management**, and shows where service processes integrate with other modules.</span></span>
 
-<span data-ttu-id="cc78c-120">[![แผนภาพกระบวนการทางธุรกิจเกี่ยวกับการจัดการบริการ](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span><span class="sxs-lookup"><span data-stu-id="cc78c-120">[![Service management business process diagram](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span></span>
+<span data-ttu-id="52f2a-120">[![แผนภาพกระบวนการทางธุรกิจเกี่ยวกับการจัดการบริการ](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span><span class="sxs-lookup"><span data-stu-id="52f2a-120">[![Service management business process diagram](./media/sm_home_page.gif)](./media/sm_home_page.gif)</span></span>
 
-## <a name="service-management-at-a-glance"></a><span data-ttu-id="cc78c-121">จัดการการบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-121">Service management at a glance</span></span>
+## <a name="service-management-at-a-glance"></a><span data-ttu-id="52f2a-121">จัดการการบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-121">Service management at a glance</span></span>
 
-|<span data-ttu-id="cc78c-122">งานที่สำคัญ</span><span class="sxs-lookup"><span data-stu-id="cc78c-122">Important tasks</span></span>           | <span data-ttu-id="cc78c-123">หน้าหลัก</span><span class="sxs-lookup"><span data-stu-id="cc78c-123">Primary pages</span></span>                         |<span data-ttu-id="cc78c-124">รายงานที่ได้รับความนิยม</span><span class="sxs-lookup"><span data-stu-id="cc78c-124">Popular reports</span></span>              |
+|<span data-ttu-id="52f2a-122">งานที่สำคัญ</span><span class="sxs-lookup"><span data-stu-id="52f2a-122">Important tasks</span></span>           | <span data-ttu-id="52f2a-123">หน้าหลัก</span><span class="sxs-lookup"><span data-stu-id="52f2a-123">Primary pages</span></span>                         |<span data-ttu-id="52f2a-124">รายงานที่ได้รับความนิยม</span><span class="sxs-lookup"><span data-stu-id="52f2a-124">Popular reports</span></span>              |
 |--------------------------|---------------------------------------|-----------------------------|
-|<span data-ttu-id="cc78c-125">เติมเต็มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-125">Fulfill service agreements</span></span>|<span data-ttu-id="cc78c-126">ข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-126">Service agreements</span></span>                     |<span data-ttu-id="cc78c-127">ค่าเผื่อในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-127">Service order margin</span></span>         |
-|<span data-ttu-id="cc78c-128">จัดการการสอบถามของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="cc78c-128">Handle customer inquiries</span></span> |<span data-ttu-id="cc78c-129">ใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-129">Service orders</span></span>                         |<span data-ttu-id="cc78c-130">คำอธิบายงาน</span><span class="sxs-lookup"><span data-stu-id="cc78c-130">Work description</span></span>             |
-|                          |<span data-ttu-id="cc78c-131">บอร์ดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="cc78c-131">Dispatch board</span></span>                         |<span data-ttu-id="cc78c-132">ธุรกรรม - การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="cc78c-132">Transaction - subscription</span></span>   |
-|                          |                                       |<span data-ttu-id="cc78c-133">ธุรกรรมค่าธรรมเนียมการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="cc78c-133">Subscription fee transactions</span></span>|
+|<span data-ttu-id="52f2a-125">เติมเต็มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-125">Fulfill service agreements</span></span>|<span data-ttu-id="52f2a-126">ข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-126">Service agreements</span></span>                     |<span data-ttu-id="52f2a-127">ค่าเผื่อในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-127">Service order margin</span></span>         |
+|<span data-ttu-id="52f2a-128">จัดการการสอบถามของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="52f2a-128">Handle customer inquiries</span></span> |<span data-ttu-id="52f2a-129">ใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-129">Service orders</span></span>                         |<span data-ttu-id="52f2a-130">คำอธิบายงาน</span><span class="sxs-lookup"><span data-stu-id="52f2a-130">Work description</span></span>             |
+|                          |<span data-ttu-id="52f2a-131">บอร์ดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="52f2a-131">Dispatch board</span></span>                         |<span data-ttu-id="52f2a-132">ธุรกรรม - การบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="52f2a-132">Transaction - subscription</span></span>   |
+|                          |                                       |<span data-ttu-id="52f2a-133">ธุรกรรมค่าธรรมเนียมการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="52f2a-133">Subscription fee transactions</span></span>|
 
 
-## <a name="integration-of-service-management"></a><span data-ttu-id="cc78c-134">การรวมการจัดการงานบริการ</span><span class="sxs-lookup"><span data-stu-id="cc78c-134">Integration of Service management</span></span>
+## <a name="integration-of-service-management"></a><span data-ttu-id="52f2a-134">การรวมการจัดการงานบริการ</span><span class="sxs-lookup"><span data-stu-id="52f2a-134">Integration of Service management</span></span>
 
-<span data-ttu-id="cc78c-135">สามารถรวมการจัดการบริการกับโมดูลต่อไปนี้ได้ใน:</span><span class="sxs-lookup"><span data-stu-id="cc78c-135">Service management can be integrated with the following modules:</span></span>
+<span data-ttu-id="52f2a-135">สามารถรวมการจัดการบริการกับโมดูลต่อไปนี้ได้ใน:</span><span class="sxs-lookup"><span data-stu-id="52f2a-135">Service management can be integrated with the following modules:</span></span>
 
-  - [<span data-ttu-id="cc78c-136">ภาพรวมของการขายและการตลาด</span><span class="sxs-lookup"><span data-stu-id="cc78c-136">Sales and marketing overview</span></span>](../sales-marketing/overview-sales-marketing.md)
-  - [<span data-ttu-id="cc78c-137">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="cc78c-137">Human resources</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
+  - [<span data-ttu-id="52f2a-136">ภาพรวมของการขายและการตลาด</span><span class="sxs-lookup"><span data-stu-id="52f2a-136">Sales and marketing overview</span></span>](../sales-marketing/overview-sales-marketing.md)
+  - [<span data-ttu-id="52f2a-137">ทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="52f2a-137">Human resources</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 

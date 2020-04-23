@@ -2,14 +2,14 @@
 title: ที่ตั้งเอาท์พุทการผลิต
 description: หัวข้อนี้อธิบายถึงลำดับชั้นที่ใช้ในการระบุที่ตั้งเอาท์พุทการผลิต
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e4002bf7dddb196edf306268ecc16e1bfa5d6d1e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548894"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211318"
 ---
-# <a name="production-output-location"></a><span data-ttu-id="308eb-103">ที่ตั้งเอาท์พุทการผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-103">Production output location</span></span>
+# <a name="production-output-location"></a><span data-ttu-id="faecb-103">ที่ตั้งเอาท์พุทการผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-103">Production output location</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="308eb-104">หัวข้อนี้อธิบายถึงลำดับชั้นที่ใช้ในการระบุที่ตั้งเอาท์พุทการผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
+<span data-ttu-id="faecb-104">หัวข้อนี้อธิบายถึงลำดับชั้นที่ใช้ในการระบุที่ตั้งเอาท์พุทการผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
 
-<span data-ttu-id="308eb-105">ที่ตั้งเอาท์พุทการผลิตคือ สถานที่จัดเก็บสินค้าสำเร็จรูปหลังจากผ่านกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-105">The production output location is the location where a finished good is first stored after it's produced.</span></span> <span data-ttu-id="308eb-106">โดยปกติ สถานที่เก็บนี้จะอยู่ในบริเวณใกล้เคียงกับกระบวนการผลิตที่ใช้ผลิตสินค้าสำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="308eb-106">Usually, this location is close to the production process that produces the finished good.</span></span> <span data-ttu-id="308eb-107">ที่ตั้งเอาท์พุทการผลิตจะใช้เป็นที่เก็บระหว่างกลางสำหรับวัสดุ ก่อนที่จะย้ายในกับพื้นที่การจัดส่ง สถานที่จัดเก็บ สถานที่ตั้งอินพุทการผลิตสำหรับกระบวนการผลิตปลายน้ำ และต่อไป</span><span class="sxs-lookup"><span data-stu-id="308eb-107">The production output location is used as intermediate storage for the material before it's moved on to the shipment area, a storage location, a production input location for a downstream production process, and so on.</span></span> 
+<span data-ttu-id="faecb-105">ที่ตั้งเอาท์พุทการผลิตคือ สถานที่จัดเก็บสินค้าสำเร็จรูปหลังจากผ่านกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-105">The production output location is the location where a finished good is first stored after it's produced.</span></span> <span data-ttu-id="faecb-106">โดยปกติ สถานที่เก็บนี้จะอยู่ในบริเวณใกล้เคียงกับกระบวนการผลิตที่ใช้ผลิตสินค้าสำเร็จรูป</span><span class="sxs-lookup"><span data-stu-id="faecb-106">Usually, this location is close to the production process that produces the finished good.</span></span> <span data-ttu-id="faecb-107">ที่ตั้งเอาท์พุทการผลิตจะใช้เป็นที่เก็บระหว่างกลางสำหรับวัสดุ ก่อนที่จะย้ายในกับพื้นที่การจัดส่ง สถานที่จัดเก็บ สถานที่ตั้งอินพุทการผลิตสำหรับกระบวนการผลิตปลายน้ำ และต่อไป</span><span class="sxs-lookup"><span data-stu-id="faecb-107">The production output location is used as intermediate storage for the material before it's moved on to the shipment area, a storage location, a production input location for a downstream production process, and so on.</span></span> 
 
-<span data-ttu-id="308eb-108">ที่ตั้งเอาท์พุทการผลิตเริ่มต้นจะถูกกำหนดเมื่อมีรายงานการผลิตสินค้าสำเร็จรูปในใบสั่งผลิตหรือใบสั่งชุดงาน</span><span class="sxs-lookup"><span data-stu-id="308eb-108">A default production output location is set when finished goods are reported on a production order or batch order.</span></span> <span data-ttu-id="308eb-109">จะใช้ลำดับชั้นต่อไปนี้ในการระบุที่ตั้งเอาท์พุทนี้:</span><span class="sxs-lookup"><span data-stu-id="308eb-109">The following hierarchy is used to identify this output location:</span></span>
+<span data-ttu-id="faecb-108">ที่ตั้งเอาท์พุทการผลิตเริ่มต้นจะถูกกำหนดเมื่อมีรายงานการผลิตสินค้าสำเร็จรูปในใบสั่งผลิตหรือใบสั่งชุดงาน</span><span class="sxs-lookup"><span data-stu-id="faecb-108">A default production output location is set when finished goods are reported on a production order or batch order.</span></span> <span data-ttu-id="faecb-109">จะใช้ลำดับชั้นต่อไปนี้ในการระบุที่ตั้งเอาท์พุทนี้:</span><span class="sxs-lookup"><span data-stu-id="faecb-109">The following hierarchy is used to identify this output location:</span></span>
 
-1. <span data-ttu-id="308eb-110">ใช้ที่ตั้งเอาท์พุทที่กำหนดในหัวข้อใบสั่งผลิตหรือใบสั่งชุดงาน</span><span class="sxs-lookup"><span data-stu-id="308eb-110">Use the output location that is defined on the production order or batch order header.</span></span>
-2. <span data-ttu-id="308eb-111">ถ้าไม่มีที่ตั้งในหัวข้อใบสั่งผลิตหรือใบสั่งชุดงาน ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในทรัพยากรที่ใช้โดยการดำเนินงานล่าสุดที่กำหนดไว้ในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-111">If no location is found there, use the output location that is defined on the resource that is used by the last operation that is defined in the production route.</span></span>
-3. <span data-ttu-id="308eb-112">ถ้ายังไม่พบที่ตั้งอีก ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในกลุ่มทรัพยากรที่ใช้โดยทรัพยากรสำหรับการดำเนินงานล่าสุดที่กำหนดไว้ในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-112">If no location is found there, use the output location that is defined on the resource group that is used by the resource for the last operation that is defined in the production route.</span></span>
-4. <span data-ttu-id="308eb-113">ถ้ายังไม่พบที่ตั้งอีก ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในคลังสินค้าที่กำหนดไว้สำหรับใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="308eb-113">If no location is found there, use the output location that is defined on the warehouse that is defined for the production order.</span></span>
+1. <span data-ttu-id="faecb-110">ใช้ที่ตั้งเอาท์พุทที่กำหนดในหัวข้อใบสั่งผลิตหรือใบสั่งชุดงาน</span><span class="sxs-lookup"><span data-stu-id="faecb-110">Use the output location that is defined on the production order or batch order header.</span></span>
+2. <span data-ttu-id="faecb-111">ถ้าไม่มีที่ตั้งในหัวข้อใบสั่งผลิตหรือใบสั่งชุดงาน ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในทรัพยากรที่ใช้โดยการดำเนินงานล่าสุดที่กำหนดไว้ในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-111">If no location is found there, use the output location that is defined on the resource that is used by the last operation that is defined in the production route.</span></span>
+3. <span data-ttu-id="faecb-112">ถ้ายังไม่พบที่ตั้งอีก ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในกลุ่มทรัพยากรที่ใช้โดยทรัพยากรสำหรับการดำเนินงานล่าสุดที่กำหนดไว้ในกระบวนการผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-112">If no location is found there, use the output location that is defined on the resource group that is used by the resource for the last operation that is defined in the production route.</span></span>
+4. <span data-ttu-id="faecb-113">ถ้ายังไม่พบที่ตั้งอีก ระบบจะใช้ที่ตั้งเอาท์พุทที่กำหนดในคลังสินค้าที่กำหนดไว้สำหรับใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="faecb-113">If no location is found there, use the output location that is defined on the warehouse that is defined for the production order.</span></span>
 
-<span data-ttu-id="308eb-114">ที่ตั้งเอาท์พุทการผลิตเริ่มต้นได้รับการกำหนดเอาไว้สำหรับผลิตภัณฑ์ที่มีการตั้งค่าโดยใช้กระบวนการคลังสินค้าขั้นสูงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="308eb-114">A default production output location is set only for products that are set up by using advanced warehouse processes.</span></span> <span data-ttu-id="308eb-115">เมื่อมีรายงานว่าสินค้าชนิดนี้เสร็จสมบูรณ์ ชนิดงานคลังสินค้าสำหรับ **การสำรองสินค้าที่สำเร็จแล้ว** หรือ **การสำรองสินค้าที่สำเร็จแล้ว** จะถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="308eb-115">When this type of item is reported as finished, warehouse work of the **Finished goods put away** or **Co-product and by-product put away** type is created.</span></span> <span data-ttu-id="308eb-116">ชนิดงานนี้ใช้ที่ตั้งเอาท์พุทการผลิตเป็นสถานที่เบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="308eb-116">This type of work uses the production output location as the pick location.</span></span> <span data-ttu-id="308eb-117">สถานที่ย้ายเก็บจะถูกกำหนดโดยคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="308eb-117">The put-away location is determined by the location directives.</span></span>
+<span data-ttu-id="faecb-114">ที่ตั้งเอาท์พุทการผลิตเริ่มต้นได้รับการกำหนดเอาไว้สำหรับผลิตภัณฑ์ที่มีการตั้งค่าโดยใช้กระบวนการคลังสินค้าขั้นสูงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="faecb-114">A default production output location is set only for products that are set up by using advanced warehouse processes.</span></span> <span data-ttu-id="faecb-115">เมื่อมีรายงานว่าสินค้าชนิดนี้เสร็จสมบูรณ์ ชนิดงานคลังสินค้าสำหรับ **การสำรองสินค้าที่สำเร็จแล้ว** หรือ **การสำรองสินค้าที่สำเร็จแล้ว** จะถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="faecb-115">When this type of item is reported as finished, warehouse work of the **Finished goods put away** or **Co-product and by-product put away** type is created.</span></span> <span data-ttu-id="faecb-116">ชนิดงานนี้ใช้ที่ตั้งเอาท์พุทการผลิตเป็นสถานที่เบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="faecb-116">This type of work uses the production output location as the pick location.</span></span> <span data-ttu-id="faecb-117">สถานที่ย้ายเก็บจะถูกกำหนดโดยคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="faecb-117">The put-away location is determined by the location directives.</span></span>

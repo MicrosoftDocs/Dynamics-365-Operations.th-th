@@ -2,7 +2,7 @@
 title: รายงานเมื่อเสร็จไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน
 description: หัวข้อนี้อธิบายกระบวนการสำหรับการดำเนินการผลิตภัณฑ์สำเร็จรูปให้เสร็จสมบูรณ์ในใบสั่งผลิตไปยังสินค้าคงคลัง เมื่อป้ายทะเบียนควบคุมสถานที่
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19351
 ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: 5f61c1abfb115f02e6ff314f6a3e42bb1d3b543f
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: f5863202facc83afb91b380ba5666334783ccbcf
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092579"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211180"
 ---
 [!include [banner](../includes/banner.md)]
 
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a><span data-ttu-id="e2325-103">รายงานเมื่อเสร็จไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน</span><span class="sxs-lookup"><span data-stu-id="e2325-103">Report as finished to a license plate controlled location from the Job card device</span></span> 
+# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a><span data-ttu-id="e1231-103">รายงานเมื่อเสร็จไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน</span><span class="sxs-lookup"><span data-stu-id="e1231-103">Report as finished to a license plate controlled location from the Job card device</span></span> 
 
-<span data-ttu-id="e2325-104">กระบวนการที่เรียกว่ารายงานเมื่อผลิตภัณฑ์สำเร็จรูปในใบสั่งผลิตเสร็จสมบูรณ์จนส่งไปยังสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="e2325-104">The process called Reporting as finished completes finished products on a production order to the inventory.</span></span> <span data-ttu-id="e2325-105">ถ้าผลิตภัณฑ์สำเร็จรูปถูกเปิดใช้งานสำหรับกระบวนการคลังสินค้าขั้นสูง ผลิตภัณฑ์จะถูกรายงานว่าสำเร็จไปยังสถานที่ที่เรียกว่าที่สถานที่ผลิตผลผลิต</span><span class="sxs-lookup"><span data-stu-id="e2325-105">If the finished product is enabled for the advanced warehouse processes, the product is reported as finished to a location called the production output location.</span></span> <span data-ttu-id="e2325-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าสถานที่ผลิตผลผลิต กรุณาดูที่ [สถานที่ผลิตผลผลิต](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location)</span><span class="sxs-lookup"><span data-stu-id="e2325-106">For information about setting up the production output location, see [Production output location](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span></span>
+<span data-ttu-id="e1231-104">กระบวนการที่เรียกว่ารายงานเมื่อผลิตภัณฑ์สำเร็จรูปในใบสั่งผลิตเสร็จสมบูรณ์จนส่งไปยังสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="e1231-104">The process called Reporting as finished completes finished products on a production order to the inventory.</span></span> <span data-ttu-id="e1231-105">ถ้าผลิตภัณฑ์สำเร็จรูปถูกเปิดใช้งานสำหรับกระบวนการคลังสินค้าขั้นสูง ผลิตภัณฑ์จะถูกรายงานว่าสำเร็จไปยังสถานที่ที่เรียกว่าที่สถานที่ผลิตผลผลิต</span><span class="sxs-lookup"><span data-stu-id="e1231-105">If the finished product is enabled for the advanced warehouse processes, the product is reported as finished to a location called the production output location.</span></span> <span data-ttu-id="e1231-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าสถานที่ผลิตผลผลิต กรุณาดูที่ [สถานที่ผลิตผลผลิต](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location)</span><span class="sxs-lookup"><span data-stu-id="e1231-106">For information about setting up the production output location, see [Production output location](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span></span>
 
-<span data-ttu-id="e2325-107">ถ้าที่ตั้งเอาท์พุทการผลิตเป็นป้ายทะเบียนที่ควบคุม ต้องมีการระบุป้ายทะเบียนเมื่อมีการรายงานเป็นเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="e2325-107">If the production output location is license plate controlled, then a license plate must be provided when reporting as finished.</span></span> <span data-ttu-id="e2325-108">ฟิลด์ **ป้ายทะเบียน** จะปรากฏทันทีบน **รายงานความคืบหน้า** บนหน้า **อุปกรณ์สำหรับบัตรงาน**</span><span class="sxs-lookup"><span data-stu-id="e2325-108">The **License plate** field is visible on the **Report progress** prompt on the **Job card device** page.</span></span> <span data-ttu-id="e2325-109">ฟิลด์จะปรากฏเฉพาะในพร้อมต์ **ความคืบหน้าของรายงาน** เมื่อรายงานเกี่ยวกับการดำเนินงานสุดท้ายของใบสั่งผลิตและสินค้าสำหรับใบสั่งผลิตถูกเปิดใช้งานสำหรับกระบวนการจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="e2325-109">The field is only visible on the **Report progress** prompt when reporting on the last operation of the production order and the item for the production order is enabled for the warehouse management processes.</span></span> 
+<span data-ttu-id="e1231-107">ถ้าที่ตั้งเอาท์พุทการผลิตเป็นป้ายทะเบียนที่ควบคุม ต้องมีการระบุป้ายทะเบียนเมื่อมีการรายงานเป็นเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="e1231-107">If the production output location is license plate controlled, then a license plate must be provided when reporting as finished.</span></span> <span data-ttu-id="e1231-108">ฟิลด์ **ป้ายทะเบียน** จะปรากฏทันทีบน **รายงานความคืบหน้า** บนหน้า **อุปกรณ์สำหรับบัตรงาน**</span><span class="sxs-lookup"><span data-stu-id="e1231-108">The **License plate** field is visible on the **Report progress** prompt on the **Job card device** page.</span></span> <span data-ttu-id="e1231-109">ฟิลด์จะปรากฏเฉพาะในพร้อมต์ **ความคืบหน้าของรายงาน** เมื่อรายงานเกี่ยวกับการดำเนินงานสุดท้ายของใบสั่งผลิตและสินค้าสำหรับใบสั่งผลิตถูกเปิดใช้งานสำหรับกระบวนการจัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="e1231-109">The field is only visible on the **Report progress** prompt when reporting on the last operation of the production order and the item for the production order is enabled for the warehouse management processes.</span></span> 
 
-<span data-ttu-id="e2325-110">มีตัวเลือกสองตัวเลือกสำหรับการให้ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e2325-110">There are two options for providing the license plate</span></span>
-- <span data-ttu-id="e2325-111">ผู้ใช้กำลังเลือกป้ายทะเบียนที่มีอยู่ในฟิลด์ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e2325-111">The user is selecting an existing license plate in the license plate field.</span></span>
-- <span data-ttu-id="e2325-112">ป้ายทะเบียนจะถูกสร้างขึ้นโดยอัตโนมัติจากลำดับหมายเลขและถูกกำหนดเป็นค่าเริ่มต้นไปยังฟิลด์ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e2325-112">The license plate is automatically generated from a number sequence and defaulted to the license plate field.</span></span>
+<span data-ttu-id="e1231-110">มีตัวเลือกสองตัวเลือกสำหรับการให้ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e1231-110">There are two options for providing the license plate</span></span>
+- <span data-ttu-id="e1231-111">ผู้ใช้กำลังเลือกป้ายทะเบียนที่มีอยู่ในฟิลด์ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e1231-111">The user is selecting an existing license plate in the license plate field.</span></span>
+- <span data-ttu-id="e1231-112">ป้ายทะเบียนจะถูกสร้างขึ้นโดยอัตโนมัติจากลำดับหมายเลขและถูกกำหนดเป็นค่าเริ่มต้นไปยังฟิลด์ป้ายทะเบียน</span><span class="sxs-lookup"><span data-stu-id="e1231-112">The license plate is automatically generated from a number sequence and defaulted to the license plate field.</span></span>
 
-<span data-ttu-id="e2325-113">ตัวเลือกที่มีป้ายทะเบียนที่สร้างขึ้นโดยอัตโนมัติถูกตั้งค่าคอนฟิกโดยการเลือกตัวเลือก **สร้างป้ายทะเบียน** บนหน้า **ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="e2325-113">The option to have the license plate generated automatically is configured by selecting the option **Generate license plate** on the **Configure job card for devices** page.</span></span>
+<span data-ttu-id="e1231-113">ตัวเลือกที่มีป้ายทะเบียนที่สร้างขึ้นโดยอัตโนมัติถูกตั้งค่าคอนฟิกโดยการเลือกตัวเลือก **สร้างป้ายทะเบียน** บนหน้า **ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์**</span><span class="sxs-lookup"><span data-stu-id="e1231-113">The option to have the license plate generated automatically is configured by selecting the option **Generate license plate** on the **Configure job card for devices** page.</span></span>

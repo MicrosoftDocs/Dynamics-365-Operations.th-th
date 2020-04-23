@@ -2,7 +2,7 @@
 title: ตำแหน่งที่ทำงานและสินทรัพย์
 description: หัวข้อนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์ การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fe3e82f425421acdae81a02032ac6252765e1c05
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653358"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208074"
 ---
-# <a name="functional-locations-and-assets"></a><span data-ttu-id="2c4f6-104">ตำแหน่งที่ทำงานและสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="2c4f6-104">Functional locations and assets</span></span>
+# <a name="functional-locations-and-assets"></a><span data-ttu-id="352ee-104">ตำแหน่งที่ทำงานและสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="352ee-104">Functional locations and assets</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="2c4f6-105">หัวข้อนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="2c4f6-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="2c4f6-106">การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="2c4f6-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="352ee-105">หัวข้อนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="352ee-105">This topic describes functional locations and assets in Asset Management.</span></span> <span data-ttu-id="352ee-106">การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="352ee-106">Asset Management is an advanced module for managing assets and maintenance jobs in Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="2c4f6-107">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="2c4f6-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="352ee-107">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="352ee-107">Overview</span></span>
 
-<span data-ttu-id="2c4f6-108">การจัดการสินทรัพย์ถูกรวมกันอย่างต่อเนื่องกับโมดูลหลายรายการกับแอป Finance and Operations อื่น</span><span class="sxs-lookup"><span data-stu-id="2c4f6-108">Asset Management is integrated seamlessly with several modules with other Finance and Operations apps.</span></span> <span data-ttu-id="2c4f6-109">ภาพประกอบต่อไปนี้แสดงอินเทอร์เฟซที่มีโมดูลอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-109">The following illustration shows the interfaces with other modules.</span></span>
+<span data-ttu-id="352ee-108">การจัดการสินทรัพย์ถูกรวมกันอย่างราบรื่นกับโมดูลหลายรายการด้วยแอป Finance and Operations อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="352ee-108">Asset Management is integrated seamlessly with several modules with other Finance and Operations apps.</span></span> <span data-ttu-id="352ee-109">ภาพประกอบต่อไปนี้แสดงอินเทอร์เฟซที่มีโมดูลอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="352ee-109">The following illustration shows the interfaces with other modules.</span></span>
 
 ![แผนภาพแสดงวิธีที่การจัดการสินทรัพย์อินเทอร์เฟสกับโมดูลอื่น](media/01-overview-image.png)
 
-<span data-ttu-id="2c4f6-111">การจัดการสินทรัพย์ช่วยให้คุณสามารถจัดการและดำเนินงานทั้งหมดที่เกี่ยวข้องกับการจัดการและการให้บริการอุปกรณ์หลายชนิดในบริษัทของคุณได้อย่างมีประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="2c4f6-112">อุปกรณ์นี้รวมถึงเครื่องจักร อุปกรณ์การผลิต และยานพาหนะ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="2c4f6-113">นอกจากนี้ การจัดการสินทรัพย์สนับสนุนโซลูชันในอุตสาหกรรมมากมาย</span><span class="sxs-lookup"><span data-stu-id="2c4f6-113">Asset Management also supports solutions across numerous industries.</span></span>
+<span data-ttu-id="352ee-111">การจัดการสินทรัพย์ช่วยให้คุณสามารถจัดการและดำเนินงานทั้งหมดที่เกี่ยวข้องกับการจัดการและการให้บริการอุปกรณ์หลายชนิดในบริษัทของคุณได้อย่างมีประสิทธิภาพ</span><span class="sxs-lookup"><span data-stu-id="352ee-111">Asset Management lets you efficiently manage and perform all tasks that are related to managing and servicing many types of equipment in your company.</span></span> <span data-ttu-id="352ee-112">อุปกรณ์นี้รวมถึงเครื่องจักร อุปกรณ์การผลิต และยานพาหนะ</span><span class="sxs-lookup"><span data-stu-id="352ee-112">This equipment includes machines, production equipment, and vehicles.</span></span> <span data-ttu-id="352ee-113">นอกจากนี้ การจัดการสินทรัพย์สนับสนุนโซลูชันในอุตสาหกรรมมากมาย</span><span class="sxs-lookup"><span data-stu-id="352ee-113">Asset Management also supports solutions across numerous industries.</span></span>
 
-<span data-ttu-id="2c4f6-114">ภาพประกอบต่อไปนี้แสดงภาพรวมของฟังก์ชันหลักที่ครอบคลุมโดยการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="2c4f6-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
+<span data-ttu-id="352ee-114">ภาพประกอบต่อไปนี้แสดงภาพรวมของฟังก์ชันหลักที่ครอบคลุมโดยการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="352ee-114">The following illustration shows an overview of the main functionality that is covered by Asset Management.</span></span>
 
 ![แผนภาพที่แสดงฟังก์ชันหลักในการบริหารสินทรัพย์](media/02-overview-image.png)
 
-## <a name="functional-locations-and-assets"></a><span data-ttu-id="2c4f6-116">ตำแหน่งที่ทำงานและสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="2c4f6-116">Functional locations and assets</span></span>
+## <a name="functional-locations-and-assets"></a><span data-ttu-id="352ee-116">ตำแหน่งที่ทำงานและสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="352ee-116">Functional locations and assets</span></span>
 
-<span data-ttu-id="2c4f6-117">ตำแหน่งที่ทำงานจะใช้จัดการสินทรัพย์ในสถานที่</span><span class="sxs-lookup"><span data-stu-id="2c4f6-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="2c4f6-118">การจัดการนี้รวมถึงการติดตามต้นทุนสินทรัพย์ในตำแหน่งที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="2c4f6-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="2c4f6-119">มีการจัดโครงสร้างตำแหน่งที่ทำงานตามลำดับชั้น และสถานที่สามารถมีสถานที่ย่อยได้</span><span class="sxs-lookup"><span data-stu-id="2c4f6-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="2c4f6-120">โครงสร้างของตำแหน่งที่ทำงานเป็นแบบคงที่</span><span class="sxs-lookup"><span data-stu-id="2c4f6-120">The structure of functional locations is static.</span></span> <span data-ttu-id="2c4f6-121">กล่าวคือ ที่ตั้งไม่สามารถเปลี่ยนสถานที่ได้</span><span class="sxs-lookup"><span data-stu-id="2c4f6-121">In other words, locations can't change place.</span></span> <span data-ttu-id="2c4f6-122">สินทรัพย์สามารถติดตั้งได้ในตำแหน่งที่ทำงานและ ตามความจำเป็น สามารถติดตั้งได้ในตำแหน่งที่ทำงานอื่นๆ ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="2c4f6-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
+<span data-ttu-id="352ee-117">ตำแหน่งที่ทำงานจะใช้จัดการสินทรัพย์ในสถานที่</span><span class="sxs-lookup"><span data-stu-id="352ee-117">Functional locations are used to manage assets on locations.</span></span> <span data-ttu-id="352ee-118">การจัดการนี้รวมถึงการติดตามต้นทุนสินทรัพย์ในตำแหน่งที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="352ee-118">This management includes tracking of asset costs on functional locations.</span></span> <span data-ttu-id="352ee-119">มีการจัดโครงสร้างตำแหน่งที่ทำงานตามลำดับชั้น และสถานที่สามารถมีสถานที่ย่อยได้</span><span class="sxs-lookup"><span data-stu-id="352ee-119">Functional locations are structured hierarchically, and locations can have sub-locations.</span></span> <span data-ttu-id="352ee-120">โครงสร้างของตำแหน่งที่ทำงานเป็นแบบคงที่</span><span class="sxs-lookup"><span data-stu-id="352ee-120">The structure of functional locations is static.</span></span> <span data-ttu-id="352ee-121">กล่าวคือ ที่ตั้งไม่สามารถเปลี่ยนสถานที่ได้</span><span class="sxs-lookup"><span data-stu-id="352ee-121">In other words, locations can't change place.</span></span> <span data-ttu-id="352ee-122">สินทรัพย์สามารถติดตั้งได้ในตำแหน่งที่ทำงานและ ตามความจำเป็น สามารถติดตั้งได้ในตำแหน่งที่ทำงานอื่นๆ ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="352ee-122">Assets can be installed on functional locations and, as required, can be installed on other functional locations later.</span></span>
 
-<span data-ttu-id="2c4f6-123">ต้นทุนสินทรัพย์จะติดตามสถานที่ของสินทรัพย์เสมอ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="2c4f6-124">กล่าวคือ ถ้าคุณติดตั้งสินทรัพย์ในตำแหน่งที่ทำงานใหม่ สินทรัพย์จะใช้มิติทางการเงินที่เกี่ยวข้องกับตำแหน่งที่ทำงานใหม่โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="2c4f6-125">ดังนั้น ต้นทุนสินทรัพย์จะเกี่ยวข้องกับตำแหน่งที่ทำงานที่มีการติดตั้งสินทรัพย์ในปัจจุบันเสมอ</span><span class="sxs-lookup"><span data-stu-id="2c4f6-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="2c4f6-126">การจัดการแบบอัตโนมัติของมิติทางการเงินนี้จะช่วยรับประกันการติดตามต้นทุนที่เสร็จสมบูรณ์ เมื่อบริษัทของคุณทำการควบคุมโครงการและการรายงานเกี่ยวกับตำแหน่งที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="2c4f6-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
+<span data-ttu-id="352ee-123">ต้นทุนสินทรัพย์จะติดตามสถานที่ของสินทรัพย์เสมอ</span><span class="sxs-lookup"><span data-stu-id="352ee-123">Asset costs always follow the location of the asset.</span></span> <span data-ttu-id="352ee-124">กล่าวคือ ถ้าคุณติดตั้งสินทรัพย์ในตำแหน่งที่ทำงานใหม่ สินทรัพย์จะใช้มิติทางการเงินที่เกี่ยวข้องกับตำแหน่งที่ทำงานใหม่โดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="352ee-124">In other words, if you install an asset on a new functional location, the asset automatically uses the financial dimensions that are related to the new functional location.</span></span> <span data-ttu-id="352ee-125">ดังนั้น ต้นทุนสินทรัพย์จะเกี่ยวข้องกับตำแหน่งที่ทำงานที่มีการติดตั้งสินทรัพย์ในปัจจุบันเสมอ</span><span class="sxs-lookup"><span data-stu-id="352ee-125">Therefore, asset costs are always related to the functional location that the asset is  currently installed on.</span></span> <span data-ttu-id="352ee-126">การจัดการแบบอัตโนมัติของมิติทางการเงินนี้จะช่วยรับประกันการติดตามต้นทุนที่เสร็จสมบูรณ์ เมื่อบริษัทของคุณทำการควบคุมโครงการและการรายงานเกี่ยวกับตำแหน่งที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="352ee-126">This automatic handling of financial dimensions helps guarantee complete tracking of costs when your company does project controlling and reporting on functional locations.</span></span>
 
-<span data-ttu-id="2c4f6-127">วิธีที่คุณสร้างลำดับชั้นของตำแหน่งที่ทำงานขึ้นอยู่กับความต้องการของบริษัทของคุณ สำหรับการรักษาอุปกรณ์ภายในหรือการให้บริการอุปกรณ์ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="2c4f6-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="2c4f6-128">รูปต่อไปนี้แสดงตัวอย่างของตำแหน่งที่ทำงานที่ขึ้นอยู่กับสถานที่ตั้งทางภูมิศาสตร์</span><span class="sxs-lookup"><span data-stu-id="2c4f6-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
+<span data-ttu-id="352ee-127">วิธีที่คุณสร้างลำดับชั้นของตำแหน่งที่ทำงานขึ้นอยู่กับความต้องการของบริษัทของคุณ สำหรับการรักษาอุปกรณ์ภายในหรือการให้บริการอุปกรณ์ของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="352ee-127">The way that you build your hierarchy of functional locations depends on your company's requirements for maintaining internal equipment or servicing customer equipment.</span></span> <span data-ttu-id="352ee-128">รูปต่อไปนี้แสดงตัวอย่างของตำแหน่งที่ทำงานที่ขึ้นอยู่กับสถานที่ตั้งทางภูมิศาสตร์</span><span class="sxs-lookup"><span data-stu-id="352ee-128">The following figure shows an example of functional locations that are based on geographical locations.</span></span>
 
 ![แผนภาพแสดงสถานที่ทำงานตามสถานที่ตั้งทางภูมิศาสตร์](media/03-overview-image.png)
 
-<span data-ttu-id="2c4f6-130">รูปต่อไปนี้แสดงตัวอย่างของตำแหน่งที่ทำงานที่ขึ้นอยู่กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="2c4f6-130">The following figure shows an example of functional locations that are based on customers.</span></span>
+<span data-ttu-id="352ee-130">รูปต่อไปนี้แสดงตัวอย่างของตำแหน่งที่ทำงานที่ขึ้นอยู่กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="352ee-130">The following figure shows an example of functional locations that are based on customers.</span></span>
 
 ![แผนภาพแสดงสถานที่ทำงานตามลูกค้า](media/04-overview-image.png)
