@@ -2,7 +2,7 @@
 title: นำผลิตภัณฑ์หลักที่ใช้มิติออกใช้
 description: 'ขั้นตอนนี้แสดงวิธีการนำออกใช้ผลิตภัณฑ์หลักซึ่งจะใช้สำหรับการจัดโครงแบบตามมิติ '
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductRelease
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bf9f4725120a7b893bf113a50d208ae27755d56
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: fb2aa6b2a1d32dce662f13855c7bcf81191e51a0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149860"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213112"
 ---
-# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="d9722-103">นำผลิตภัณฑ์หลักที่ใช้มิติออกใช้</span><span class="sxs-lookup"><span data-stu-id="d9722-103">Release a dimension-based product master</span></span>
+# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="50bcf-103">นำผลิตภัณฑ์หลักที่ใช้มิติออกใช้</span><span class="sxs-lookup"><span data-stu-id="50bcf-103">Release a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d9722-104">ขั้นตอนนี้แสดงวิธีการนำออกใช้ผลิตภัณฑ์หลักซึ่งจะใช้สำหรับการจัดโครงแบบตามมิติ </span><span class="sxs-lookup"><span data-stu-id="d9722-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="d9722-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="d9722-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d9722-106">นี่คือข้อกำหนดเบื้องต้นที่คุณได้สร้างผลิตภัณฑ์หลักด้วยเทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d9722-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="d9722-107">นี่เป็นกระบวนงานที่สองจากแปดกระบวนงาน ซึ่งอธิบายถึงวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d9722-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="50bcf-104">ขั้นตอนนี้แสดงวิธีการนำออกใช้ผลิตภัณฑ์หลักซึ่งจะใช้สำหรับการจัดโครงแบบตามมิติ </span><span class="sxs-lookup"><span data-stu-id="50bcf-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="50bcf-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="50bcf-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="50bcf-106">นี่คือข้อกำหนดเบื้องต้นที่คุณได้สร้างผลิตภัณฑ์หลักด้วยเทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="50bcf-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="50bcf-107">นี่เป็นกระบวนงานที่สองจากแปดกระบวนงาน ซึ่งอธิบายถึงวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="50bcf-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="d9722-108">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์หลัก </span><span class="sxs-lookup"><span data-stu-id="d9722-108">Go to Product information management > Products > Product masters.</span></span>
-    * <span data-ttu-id="d9722-109">ตัวกรองคอลัมน์เทคโนโลยีการจัดโครงดังนั้นจะแสดงการจัดโครงแบบตามมิติเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="d9722-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="d9722-110">ตัวอย่างเช่น คุณสามารถกรองคอลัมน์โดยการพิมพ์มิติ</span><span class="sxs-lookup"><span data-stu-id="d9722-110">For example, you can filter the column by typing Dimension.</span></span>    
-2. <span data-ttu-id="d9722-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="d9722-111">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="d9722-112">คลิกนำออกใช้ผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="d9722-112">Click Release products.</span></span>
-4. <span data-ttu-id="d9722-113">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="d9722-113">Click Next.</span></span>
-    * <span data-ttu-id="d9722-114">สำหรับผลิตภัณฑ์ที่ถูกสร้างด้วยเทคโนโลยีการตั้งค่าคอนฟิกตามมิติ ผลิตภัณฑ์ย่อยต้องถูกสร้างในบริษัทที่จะมีสร้างสูตรการผลิต </span><span class="sxs-lookup"><span data-stu-id="d9722-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
-5. <span data-ttu-id="d9722-115">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="d9722-115">Click Next.</span></span>
-6. <span data-ttu-id="d9722-116">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="d9722-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d9722-117">เลือกบริษัท USMF สำหรับกระบวนงานนี้ </span><span class="sxs-lookup"><span data-stu-id="d9722-117">Select the company USMF for this procedure.</span></span>  
-7. <span data-ttu-id="d9722-118">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="d9722-118">Click Next.</span></span>
-8. <span data-ttu-id="d9722-119">คลิก Finish</span><span class="sxs-lookup"><span data-stu-id="d9722-119">Click Finish.</span></span>
+1. <span data-ttu-id="50bcf-108">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > ผลิตภัณฑ์ > ผลิตภัณฑ์หลัก </span><span class="sxs-lookup"><span data-stu-id="50bcf-108">Go to Product information management > Products > Product masters.</span></span>
+    * <span data-ttu-id="50bcf-109">ตัวกรองคอลัมน์เทคโนโลยีการจัดโครงดังนั้นจะแสดงการจัดโครงแบบตามมิติเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="50bcf-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="50bcf-110">ตัวอย่างเช่น คุณสามารถกรองคอลัมน์โดยการพิมพ์มิติ</span><span class="sxs-lookup"><span data-stu-id="50bcf-110">For example, you can filter the column by typing Dimension.</span></span>    
+2. <span data-ttu-id="50bcf-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="50bcf-111">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="50bcf-112">คลิกนำออกใช้ผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="50bcf-112">Click Release products.</span></span>
+4. <span data-ttu-id="50bcf-113">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="50bcf-113">Click Next.</span></span>
+    * <span data-ttu-id="50bcf-114">สำหรับผลิตภัณฑ์ที่ถูกสร้างด้วยเทคโนโลยีการตั้งค่าคอนฟิกตามมิติ ผลิตภัณฑ์ย่อยต้องถูกสร้างในบริษัทที่จะมีสร้างสูตรการผลิต </span><span class="sxs-lookup"><span data-stu-id="50bcf-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
+5. <span data-ttu-id="50bcf-115">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="50bcf-115">Click Next.</span></span>
+6. <span data-ttu-id="50bcf-116">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="50bcf-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="50bcf-117">เลือกบริษัท USMF สำหรับกระบวนงานนี้ </span><span class="sxs-lookup"><span data-stu-id="50bcf-117">Select the company USMF for this procedure.</span></span>  
+7. <span data-ttu-id="50bcf-118">คลิก ถัดไป</span><span class="sxs-lookup"><span data-stu-id="50bcf-118">Click Next.</span></span>
+8. <span data-ttu-id="50bcf-119">คลิก Finish</span><span class="sxs-lookup"><span data-stu-id="50bcf-119">Click Finish.</span></span>
 

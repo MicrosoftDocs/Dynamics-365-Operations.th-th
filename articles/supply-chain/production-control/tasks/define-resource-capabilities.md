@@ -2,7 +2,7 @@
 title: กำหนดความสามารถของทรัพยากร
 description: ความสามารถของทรัพยากรอธิบายสิ่งที่ทรัพยากรการดำเนินงานสามารถทำได้
 author: sorenva
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bd3f2b1efc1e6a883ad2a25d127e74a8925de8f
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146801"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212054"
 ---
-# <a name="define-resource-capabilities"></a><span data-ttu-id="c32b5-103">กำหนดความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-103">Define resource capabilities</span></span>
+# <a name="define-resource-capabilities"></a><span data-ttu-id="8c1e4-103">กำหนดความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-103">Define resource capabilities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c32b5-104">ความสามารถของทรัพยากรอธิบายสิ่งที่ทรัพยากรการดำเนินงานสามารถทำได้</span><span class="sxs-lookup"><span data-stu-id="c32b5-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="c32b5-105">ในระหว่างการวางแผน ความต้องการของแต่ละงานและการดำเนินงานจะถูกจับคู่กับความสามารถของทรัพยากรที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c32b5-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="c32b5-106">คู่มืองานนี้จะช่วยคุณสร้างความสามารถทรัพยากรและกำหนดให้กับทรัพยากร </span><span class="sxs-lookup"><span data-stu-id="c32b5-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="c32b5-107">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c32b5-107">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="8c1e4-104">ความสามารถของทรัพยากรอธิบายสิ่งที่ทรัพยากรการดำเนินงานสามารถทำได้</span><span class="sxs-lookup"><span data-stu-id="8c1e4-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="8c1e4-105">ในระหว่างการวางแผน ความต้องการของแต่ละงานและการดำเนินงานจะถูกจับคู่กับความสามารถของทรัพยากรที่พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="8c1e4-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="8c1e4-106">คู่มืองานนี้จะช่วยคุณสร้างความสามารถทรัพยากรและกำหนดให้กับทรัพยากร </span><span class="sxs-lookup"><span data-stu-id="8c1e4-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="8c1e4-107">ข้อมูลสาธิตของบริษัทที่ใช้ในการสร้างงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="8c1e4-107">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-resource-capability"></a><span data-ttu-id="c32b5-108">สร้างความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-108">Create a resource capability</span></span>
-1. <span data-ttu-id="c32b5-109">ไปที่ความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-109">Go to Resource capabilities.</span></span>
-2. <span data-ttu-id="c32b5-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c32b5-110">Click New.</span></span>
-3. <span data-ttu-id="c32b5-111">ในฟิลด์ความสามารถ ให้พิมพ์รหัสของความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-111">In the Capability field, type the ID of the resource capability.</span></span>
-    * <span data-ttu-id="c32b5-112">สำหรับการดำเนินงานที่ได้รับมอบหมาย คุณสามารถใช้รหัสความสามารถเพื่อระบุว่าทรัพยากรต้องมีความสามารถนี้เพื่อดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="c32b5-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
-4. <span data-ttu-id="c32b5-113">ในฟิลด์คำอธิบาย ให้ป้อนคำอธิบายของความสามารถ</span><span class="sxs-lookup"><span data-stu-id="c32b5-113">In the Description field, enter a description of the capability.</span></span>
+## <a name="create-a-resource-capability"></a><span data-ttu-id="8c1e4-108">สร้างความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-108">Create a resource capability</span></span>
+1. <span data-ttu-id="8c1e4-109">ไปที่ความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-109">Go to Resource capabilities.</span></span>
+2. <span data-ttu-id="8c1e4-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="8c1e4-110">Click New.</span></span>
+3. <span data-ttu-id="8c1e4-111">ในฟิลด์ความสามารถ ให้พิมพ์รหัสของความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-111">In the Capability field, type the ID of the resource capability.</span></span>
+    * <span data-ttu-id="8c1e4-112">สำหรับการดำเนินงานที่ได้รับมอบหมาย คุณสามารถใช้รหัสความสามารถเพื่อระบุว่าทรัพยากรต้องมีความสามารถนี้เพื่อดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="8c1e4-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
+4. <span data-ttu-id="8c1e4-113">ในฟิลด์คำอธิบาย ให้ป้อนคำอธิบายของความสามารถ</span><span class="sxs-lookup"><span data-stu-id="8c1e4-113">In the Description field, enter a description of the capability.</span></span>
 
-## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="c32b5-114">กำหนดความสามารถให้กับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-114">Assign capability to a resource</span></span>
-1. <span data-ttu-id="c32b5-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="c32b5-115">Click Add.</span></span>
-2. <span data-ttu-id="c32b5-116">ในฟิลด์ทรัพยากร ให้พิมพ์รหัสของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="c32b5-116">In the Resource field, type the ID of the resource.</span></span>
-    * <span data-ttu-id="c32b5-117">ความสามารถของทรัพยากรสามารถถูกกำหนดให้กับทรัพยากรอีกหนึ่งรายการหรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="c32b5-117">A resource capability can be assigned to one or more resources.</span></span>  
-3. <span data-ttu-id="c32b5-118">ในฟิลด์การหมดอายุ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="c32b5-118">In the Expiration field, enter a date.</span></span>
-    * <span data-ttu-id="c32b5-119">คุณสามารถใช้ฟิลด์นี้เพื่อระบุว่าทรัพยากรมีความสามารถสำหรับเฉพาะเวลาที่จำกัดเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="c32b5-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
-4. <span data-ttu-id="c32b5-120">ในฟิลด์ระดับความสำคัญ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c32b5-120">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="c32b5-121">เมื่อคุณจัดกำหนดการงานและการดำเนินงาน คุณสามารถระบุว่าจะเลือกทรัพยากรตามระดับความสำคัญหรือไม่ </span><span class="sxs-lookup"><span data-stu-id="c32b5-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="c32b5-122">ถ้าคุณเลือกที่จะดำเนินการนี้ และทรัพยากรมากกว่าหนึ่งสามารถทำงานหรือการดำเนินงานโดยเรียงตามวันร้องขอ จะมีการเลือกทรัพยากรที่มีระดับความสำคัญต่ำสุดที่เกี่ยวข้องกับความสามารถที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c32b5-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
-5. <span data-ttu-id="c32b5-123">ในฟิลด์ระดับ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c32b5-123">In the Level field, enter a number.</span></span>
-    * <span data-ttu-id="c32b5-124">เมื่อคุณระบุว่างานหรือการดำเนินงานต้องการความสามารถเฉพาะ คุณยังสามารถระบุระดับต่ำสุดที่ต้องการได้อีกด้วย </span><span class="sxs-lookup"><span data-stu-id="c32b5-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="c32b5-125">ใช้ระดับความสามารถเพื่อแยกความแตกต่างของทรัพยากรที่สามารถทำงานเดียวกันได้ แต่ที่ความเร็ว จุดแข็ง ขนาด และอื่นๆ ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="c32b5-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
+## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="8c1e4-114">กำหนดความสามารถให้กับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-114">Assign capability to a resource</span></span>
+1. <span data-ttu-id="8c1e4-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="8c1e4-115">Click Add.</span></span>
+2. <span data-ttu-id="8c1e4-116">ในฟิลด์ทรัพยากร ให้พิมพ์รหัสของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="8c1e4-116">In the Resource field, type the ID of the resource.</span></span>
+    * <span data-ttu-id="8c1e4-117">ความสามารถของทรัพยากรสามารถถูกกำหนดให้กับทรัพยากรอีกหนึ่งรายการหรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="8c1e4-117">A resource capability can be assigned to one or more resources.</span></span>  
+3. <span data-ttu-id="8c1e4-118">ในฟิลด์การหมดอายุ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="8c1e4-118">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="8c1e4-119">คุณสามารถใช้ฟิลด์นี้เพื่อระบุว่าทรัพยากรมีความสามารถสำหรับเฉพาะเวลาที่จำกัดเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="8c1e4-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
+4. <span data-ttu-id="8c1e4-120">ในฟิลด์ระดับความสำคัญ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="8c1e4-120">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="8c1e4-121">เมื่อคุณจัดกำหนดการงานและการดำเนินงาน คุณสามารถระบุว่าจะเลือกทรัพยากรตามระดับความสำคัญหรือไม่ </span><span class="sxs-lookup"><span data-stu-id="8c1e4-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="8c1e4-122">ถ้าคุณเลือกที่จะดำเนินการนี้ และทรัพยากรมากกว่าหนึ่งสามารถทำงานหรือการดำเนินงานโดยเรียงตามวันร้องขอ จะมีการเลือกทรัพยากรที่มีระดับความสำคัญต่ำสุดที่เกี่ยวข้องกับความสามารถที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="8c1e4-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
+5. <span data-ttu-id="8c1e4-123">ในฟิลด์ระดับ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="8c1e4-123">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="8c1e4-124">เมื่อคุณระบุว่างานหรือการดำเนินงานต้องการความสามารถเฉพาะ คุณยังสามารถระบุระดับต่ำสุดที่ต้องการได้อีกด้วย </span><span class="sxs-lookup"><span data-stu-id="8c1e4-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="8c1e4-125">ใช้ระดับความสามารถเพื่อแยกความแตกต่างของทรัพยากรที่สามารถทำงานเดียวกันได้ แต่ที่ความเร็ว จุดแข็ง ขนาด และอื่นๆ ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="8c1e4-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
 
