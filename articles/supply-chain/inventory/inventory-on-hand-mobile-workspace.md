@@ -2,14 +2,14 @@
 title: พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของปริมาณคงคลังคงเหลือ พื้นที่ทำงานนี้ช่วยให้คุณได้รับข้อมูลเชิงลึกเคลื่อนที่ในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574810"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212744"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง
 
@@ -31,7 +31,7 @@ ms.locfileid: "2574810"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ปริมาณคงคลังคงเหลือ** พื้นที่ทำงานนี้ช่วยให้คุณได้รับข้อมูลเชิงลึกในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม
 โดยทั่วไป บริษัทจะมีการจัดส่งและการรับสินค้าคงคลังหลายครั้งทุกวัน ความเคลื่อนไหวเหล่านี้จะเปลี่ยนสถานะปริมาณคงคลังคงเหลืออย่างสม่ำเสมอ พื้นที่ทำงานแบบเคลื่อนที่ของ **ปริมาณคงคลังคงเหลือ** ช่วยให้คุณเห็นสถานะปริมาณคงคลังคงเหลือระหว่างบริษัท เพื่อที่คุณจะได้รับข้อมูลเชิงลึกล่าสุดในข้อมูลสินค้าคงคลังบนอุปกรณ์เคลื่อนที่ที่คุณเลือก โดยไม่คำนึงถึงว่าคุณทำงานในคลังสินค้า การซื้อ การขาย การผลิต หรือการจัดการ หรือมีบทบาทอื่น คุณสามารถเข้าถึงข้อมูลปริมาณคงคลังคงเหลือได้ทุกเมื่อใด และที่ใดก็ได้ 
@@ -96,7 +96,7 @@ ms.locfileid: "2574810"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
+ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

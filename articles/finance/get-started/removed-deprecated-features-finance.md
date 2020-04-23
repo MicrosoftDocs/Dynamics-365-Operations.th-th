@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127988"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175119"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -47,6 +47,18 @@ ms.locfileid: "3127988"
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
 | **สถานะ**                         | เลิกสนับสนุน: ภายในวันที่ 1 กรกฎาคม 2021 เราวางแผนจะไม่สนับสนุนรายงาน SSRS อีกต่อไป: **ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014** ตัวอย่างรูปแบบ Excel สำหรับไฟล์การตรวจสอบมาตรฐานที่มีการรายงานภาษี VAT (JPK_VDEK) จะถูกนำมาใช้แทน |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.11
+
+### <a name="norwegian-standard-main-accounts"></a>บัญชีหลักมาตรฐานของนอร์เวย์
+
+|   |  |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ออกแบบใหม่  |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ (แทนที่ด้วยพารามิเตอร์เฉพาะของแอพลิเคชันรูปแบบ ER) |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | เลิกสนับสนุน: ภายในวันที่ 1 เมษายน 2021 เราวางแผนที่จะไม่สนับสนุนฟังก์ชันการทำงานที่เกี่ยวข้องกับบัญชีหลักมาตรฐาน: ฟิลด์อ้างอิง ตารางที่เกี่ยวข้อง เอนทิตี้ข้อมูล |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.7
 

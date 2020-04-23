@@ -3,7 +3,7 @@ title: ฟังก์ชัน REPLACE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ REPLACE (ER)
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040997"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201077"
 ---
-# <a name="REPLACE">ฟังก์ชัน REPLACE ER</a>
+# <a name=""></a><a name="REPLACE">ฟังก์ชัน REPLACE ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ REPLACE (text, pattern, replacement, regular expression flag)
 
 ถ้าอาร์กิวเมนต์ `regular expression flag` เป็น **จริง** ฟังก์ชันนี้จะส่งกลับสตริงที่ระบุ หลังจากที่มีการเปลี่ยนแปลงโดยใช้นิพจน์ทั่วไปที่ระบุโดยอาร์กิวเมนต์ `pattern` นิพจน์ทั่วไปจะถูกใช้ในการค้นหาอักขระซึ่งต้องถูกแทนที่
 
-หากอาร์กิวเมนต์ `regular expression flag` เป็น **เท็จ** ฟังก์ชันนี้จะทำงานเช่นเดียวกับ [TRANSLATE](er-functions-text-translate.md) อักขระที่ถูกที่ระบุโดยอาร์กิวเมนต์ `replacement` ถูกใช้ในการแทนที่อักขระที่พบ 
+ถ้าอาร์กิวเมนต์ `regular expression flag` เป็น **เท็จ** ฟังก์ชันนี้ส่งคืนสตริงที่ระบุหลังจากชุดของอักขระที่กำหนดไว้ในอาร์กิวเมนต์ `pattern` ถูกแทนที่โดยอักขระของอาร์กิวเมนต์ `replacement` 
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 

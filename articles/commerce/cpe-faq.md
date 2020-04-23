@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับสภาพแวดล้อมการ
 description: หัวข้อนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับสภาพแวดล้อมการแสดงตัวอย่าง Microsoft Dynamics 365 Commerce
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024763"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254735"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>FAQ เกี่ยวกับสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce
 
@@ -78,9 +78,7 @@ Dynamics 365 Retail Cloud Scale Unit (RCSU) และอีคอมเมิร
 
 เมื่อต้องการติดต่อ Microsoft หากคุณมีคำถามหรือคำขอที่เกี่ยวข้องกับสภาพแวดล้อมการแสดงตัวอย่าง โปรดไปที่ [กลุ่ม Microsoft Dynamics 365 Commerce Preview Yammer](https://aka.ms/Dynamics365CommercePreviewYammer) เพื่อขอความช่วยเหลือ
 
-ถ้าคุณพบปัญหาเมื่อคุณพยายามเข้าถึงกลุ่ม Yammer คุณสามารถติดต่อ Microsoft ทางอีเมลได้ที่ <Dynamics365Commerce@microsoft.com> ที่อยู่อีเมลนี้ไม่ได้ตรวจสอบอย่างแข็งขัน. ดังนั้นคาดว่าจะมีการหน่วงเวลาในการตอบสนอง
-
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-overview.md)
 

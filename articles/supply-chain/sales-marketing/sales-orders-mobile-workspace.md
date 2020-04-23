@@ -2,14 +2,14 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251639"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212951"
 ---
 # <a name="sales-orders-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 
@@ -31,7 +31,7 @@ ms.locfileid: "2251639"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้ 
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** ช่วยให้คุณสามารถดูรายละเอียดเกี่ยวกับแต่ละใบสั่งขายได้ ข้อมูลนี้รวมถึงสถานะของใบสั่ง ข้อมูลการติดต่อสำหรับลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง พื้นที่ทำงานแบบเคลื่อนที่ของ **ใบสั่งขาย** แสดงมุมมองฉับพลันของใบสั่งขาย คุณสามารถดูใบสั่งขายทั้งหมด ดูใบสั่งขายโดยเรียงตามลูกค้า หรือดูข้อมูลเกี่ยวกับใบสั่งขายเฉพาะ 
@@ -120,7 +120,7 @@ ms.locfileid: "2251639"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
+ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

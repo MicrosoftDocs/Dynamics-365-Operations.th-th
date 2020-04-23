@@ -1,27 +1,28 @@
 ---
 title: ตั้งค่าและติดตั้งบทช่วยสอนของ Regression Suite Automation Tool
 description: หัวข้อนี้เป็นบทช่วยสอนที่แสดงวิธีการตั้งค่าและติดตั้ง Regression Suite Automation Tool (RSAT)
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
-ms.custom: 21761
+ms.custom: 21761, NotInToc
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 50450669387f4e2c9e81975d5345c525c7929c47
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180656"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248724"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>ตั้งค่าและติดตั้งบทช่วยสอนของ Regression Suite Automation Tool
 หัวข้อนี้เป็นบทช่วยสอนที่ช่วยให้คุณได้รับการตั้งค่าและเริ่มต้นด้วย RSAT และเครื่องมือที่เกี่ยวข้องกับการใช้ RSAT 

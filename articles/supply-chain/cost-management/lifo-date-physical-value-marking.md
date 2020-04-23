@@ -2,7 +2,7 @@
 title: วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 description: วันที่แบบเข้าหลัง ออกก่อน (วันที่ LIFO) เป็นแบบจำลองสินค้าคงคลังที่ใช้หลักการ LIFO  จะมีการจับคู่การตัดสินค้าจากคลังกับการรับสินค้ารายการสุดท้ายไปยังคลังสินค้า ตามวันที่ของธุรกรรมสินค้าคงคลัง ด้วยวันที่ LIFO โดยการใช้วันที่ LIFO หากไม่มีการรับสินค้าก่อนการนำสินค้าออกใช้ การนำสินค้าออกใช้จะถูกจับคู่กับการรับสินค้าใดๆ ที่เกิดขึ้นหลังจากวันที่นำสินค้าออกใช้  การนำสินค้าออกใช้หลายครั้งในวันเดียวกันอาจถูกจับคู่ในลำดับของการนำสินค้าออกใช้ครั้งล่าสุด การรับสินค้าครั้งล่าสุด
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: f11870d6271fa3635b7be9dabb3999e78c0e8b6c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571219"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201697"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
