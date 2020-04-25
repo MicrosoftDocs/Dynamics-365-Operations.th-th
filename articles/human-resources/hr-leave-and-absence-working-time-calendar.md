@@ -3,7 +3,7 @@ title: สร้างปฏิทินเวลาทำงาน
 description: กำหนดปฏิทินเวลาทำงาน วันหยุด และเวลาที่ไม่ได้ทำงานใน Dynamics 365 Human Resources
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010769"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198038"
 ---
 # <a name="create-a-working-time-calendar"></a>สร้างปฏิทินเวลาทำงาน
 
@@ -68,10 +68,6 @@ ms.locfileid: "3010769"
 1. ในหน้า **การจัดการองค์กร** เลือก **เวลาที่ไม่ทำงาน**
 
 2. เลือก **ใหม่** และป้อนชื่อและช่วงเวลาสำหรับเวลาที่ไม่ทำงาน
-
-## <a name="leave-and-absence-preview-feature"></a>คุณลักษณะการแสดงตัวอย่างการลางานและการขาดงาน
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 ถ้าคุณได้เปิดใช้งานคุณลักษณะตัวอย่างการแก้ไขวันหยุดของธนาคารการลางานและการขาดงาน ทรัพยากรบุคคลจะใช้วันหยุดและเวลาปิดทำการเพื่อกำหนดจำนวนวันที่จะปรับปรุงสำหรับพนักงานที่ลงทะเบียนในปฏิทิน
 

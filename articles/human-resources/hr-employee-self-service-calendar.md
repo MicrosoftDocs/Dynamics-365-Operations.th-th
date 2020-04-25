@@ -3,7 +3,7 @@ title: สร้างปฏิทินทีมงาน
 description: ดูและสร้างปฏิทินทีมใน Dynamics 365 Human Resources
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22350e0a9da593d52278090dde298923d490cb8c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 71637a659b26ea6912da993f1e899e33f7082512
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010723"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226218"
 ---
-# <a name="view-team-and-company-calendars"></a>ดูปฏิทินทีมงานและบริษัท
+# <a name="view-team-and-company-calendars"></a>ดูปฏิทินของทีมและบริษัท
 
 [!include [banner](includes/preview-feature.md)]
 
-คุณสามารถดูปฏิทินทีมงานและบริษัทใน Dynamics 365 Human Resources
+คุณสามารถดูปฏิทินทีมงานและบริษัทใน Dynamics 365 Human Resources ปฏิทินทีมแสดงเฉพาะรายงานโดยตรงตามที่กำหนดไว้ในลำดับชั้นของบรรทัด
 
-## <a name="view-your-team-calendar"></a>ดูปฏิทินทีมของคุณ
-
-ผู้จัดการสามารถดูปฏิทินของทีมงานได้ ปฏิทินทีมแสดงเฉพาะรายงานโดยตรงตามที่กำหนดไว้ในลำดับชั้นของบรรทัด
+## <a name="view-your-team-calendar-as-an-employee"></a>การดูปฏิทินทีมของคุณในฐานะพนักงาน
 
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**
 
 2. ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**
+
+## <a name="view-your-team-calendar-as-a-manager"></a>ดูปฏิทินทีมของคุณในฐานะผู้จัดการ
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**
+
+2. ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**
+
+ผู้จัดการยังสามารถเข้าถึงปฏิทินทีมจาก **คำขอการหยุดงานที่ค้างอยู่จากทีมของฉัน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน** 
 
 ## <a name="view-a-company-calendar"></a>ดูปฏิทินบริษัท
 
@@ -46,6 +52,8 @@ ms.locfileid: "3010723"
 1. ในพื้นที่ทำงาน **ลางานและขาดงาน** ให้เลือกแท็บ **ลิงค์**
 
 2. ให้เลือก **ปฏิทินการลางานและขาดงาน**
+
+บทบาทของฝ่ายทรัพยากรบุคคลยังสามารถเข้าถึงปฏิทินของบริษัทจาก **คำขอการลางานและการขาดงาน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน** 
 
 สำหรับข้อมูลเกี่ยวกับการตั้งค่าปฏิทิน ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์ปฏิทิน](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
 

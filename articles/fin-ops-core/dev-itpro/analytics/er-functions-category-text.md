@@ -3,7 +3,7 @@ title: รายการของฟังก์ชั่น ER ในประ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันข้อความที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916625"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201100"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>รายการของฟังก์ชั่น ER ในประเภทข้อความ
 
@@ -52,7 +52,7 @@ ms.locfileid: "2916625"
 | [แทนที่](er-functions-text-replace.md) | ฟังก์ชันนี้ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากทั้งหมดหรือบางส่วนถูกแทนที่ด้วยสตริงอื่น |
 | [สิทธิ์](er-functions-text-right.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงจำนวนอักขระที่ระบุจากจุดสิ้นสุดของสตริงที่ระบุ |
 | [ข้อความ](er-functions-text-text.md) | ฟังก์ชันนี้ส่งคืนตัวเลขที่ระบุเป็นค่า *สตริง* หลังจากที่ได้ถูกแปลงเป็นข้อความแบบสตริงที่ถูกจัดรูปแบบตามการตั้งค่าตำแหน่งที่ตั้งของเซิร์ฟเวอร์ของอินสแตนซ์ของแอปพลิเคชันปัจจุบัน |
-| [แปล](er-functions-text-translate.md) | ฟังก์ชันนี้ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากทั้งหมดหรือบางส่วนถูกแทนที่ด้วยสตริงอื่น |
+| [แปล](er-functions-text-translate.md) | ฟังก์ชันนี้ส่งคืนค่า *สตริง* ที่มีผลลัพธ์ของการแทนที่อักขระของข้อความที่ระบุไว้สำหรับอักขระของชุดอักขระที่กำหนดไว้อีกชุดหนึ่ง |
 | [Trim](er-functions-text-trim.md) | ฟังก์ชันนี้ส่งคืนสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากช่องว่างนำหน้าและต่อท้ายถูกตัดออกแล้ว และหลังจากที่ได้ลบช่องว่างหลายช่องระหว่างคำ |
 | [Upper](er-functions-text-upper.md) | ฟังก์ชันนี้ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากที่ถูกแปลงเป็นตัวพิมพ์ใหญ่ |
 

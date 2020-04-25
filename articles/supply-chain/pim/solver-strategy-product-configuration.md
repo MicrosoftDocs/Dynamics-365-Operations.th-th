@@ -2,7 +2,7 @@
 title: กลยุทธ์ของโปรแกรมแก้ปัญหาสำหรับการจัดโครงแบบผลิตภัณฑ์
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้กลยุทธ์ของโปรแกรมแก้ปัญหา เพื่อปรับปรุงประสิทธิภาพของการจัดโครงแบบผลิตภัณฑ์
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 241e1ae9bfd347695d7a2dbb7b3e71a7d49c2b93
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5ec7e81c3a0135b075ecb88ab5fc9e7c8b30588a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814547"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209363"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>กลยุทธ์ของโปรแกรมแก้ปัญหาสำหรับการจัดโครงแบบผลิตภัณฑ์
 
@@ -43,7 +43,7 @@ ms.locfileid: "2814547"
 
 ## <a name="solver-strategy"></a>กลยุทธ์ของโปรแกรมแก้ปัญหา 
 
-สามารถกำหนดแบบจำลองการจัดโครงแบบผลิตภัณฑ์ได้เป็น [ปัญหาความพึงพอใจข้อจำกัด (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) Microsoft Solver Foundation (MSF) มีกลยุทธ์ของโปรแกรมแก้ปัญหาสองชนิด เพื่อแก้ CSPs ที่สามารถใช้ได้จากแบบจำลองการจัดโครงแบบผลิตภัณฑ์ กลยุทธ์ของโปรแกรมแก้ปัญหาเหล่านี้ขึ้นอยู่กับ [การศึกษาสำนึก](https://techterms.com/definition/heuristic) ซึ่งจะใช้เพื่อกำหนดลำดับที่ตัวแปรของ CSPs ถูกพิจารณา เมื่อกำลังมีการแก้ไขปัญหา การศึกษาสำนึกสามารถส่งผลต่อประสิทธิภาพได้อย่างมาก เมื่อกำลังมีการแก้ไขปัญหาหรือคลาสของปัญหา
+สามารถกำหนดแบบจำลองการจัดโครงแบบผลิตภัณฑ์ได้เป็น [ปัญหาความพึงพอใจข้อจำกัด (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) Microsoft Solver Foundation (MSF) มีกลยุทธ์ของโปรแกรมแก้ปัญหาสองชนิด เพื่อแก้ CSPs ที่สามารถใช้ได้จากแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์ กลยุทธ์ของโปรแกรมแก้ปัญหาเหล่านี้ขึ้นอยู่กับ [การศึกษาสำนึก](https://techterms.com/definition/heuristic) ซึ่งจะใช้เพื่อกำหนดลำดับที่ตัวแปรของ CSPs ถูกพิจารณา เมื่อกำลังมีการแก้ไขปัญหา การศึกษาสำนึกสามารถส่งผลต่อประสิทธิภาพได้อย่างมาก เมื่อกำลังมีการแก้ไขปัญหาหรือคลาสของปัญหา
 
 กลยุทธ์ของโปรแกรมแก้ปัญหาสำหรับแบบจำลองการจัดโครงแบบผลิตภัณฑ์กำหนดว่าโปรแกรมแก้ปัญหาใดที่จะใช้กับการศึกษาสำนึก กลยุทธ์ **ค่าเริ่มต้น** **โดเมนระดับต่ำสุดแรก** และ **บนลงล่าง** ใช้โปรแกรมแก้ปัญหาสองรายการจาก MSF ในขณะที่กลยุทธ์ **Z3** ใช้โปรแกรมแก้ปัญหา Z3 
 

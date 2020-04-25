@@ -2,7 +2,7 @@
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.9 (เมษายน 2020)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.9
 author: kamaybac
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
-ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
+ms.openlocfilehash: 24132e5c43948232bb8ae3c08577d7505b5df3e4
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3164779"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261222"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.9 (เมษายน 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management รุ่นการแสดงตัวอย่าง 10.0.9 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.383 และพร้อมใช้งานดังนี้:
 
@@ -47,6 +46,7 @@ ms.locfileid: "3164779"
 - [รวมการปรับปรุงในการจัดส่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
 - [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้](https://www.microsoft.com/videoplayer/embed/RE4f7LF)
 - การรวมตามน้ำหนักจริงเพิ่มเติม [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1) [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2) [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3) [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4) [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5) [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6) [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลผลิตภัณฑ์ตามน้ำหนักจริงที่มีการจัดการคลังสินค้า](../warehousing/catch-weight-processing.md) และรวมถึงวิดีโอ [การปรับปรุงผลิตภัณฑ์ตามน้ำหนักจริง](https://www.microsoft.com/videoplayer/embed/RE4jzx8)
+- [การรวมสินทรัพย์ถาวรที่มีวงจรการจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)
 - [การจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายการจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md)
 - [อุปกรณ์สำหรับบัตรงานที่ปรับปรุง](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานความก้าวหน้าบนอุปกรณ์เคลื่อนที่ของงาน](../production-control/tasks/report-progress-mobile-job-device.md) และ [รายงานเป็นเสร็จสิ้นแล้วไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน](../production-control/report-finished-job-device.md)
 - [การตรวจสอบคุณภาพขาเข้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
@@ -64,6 +64,7 @@ ms.locfileid: "3164779"
 - [รับการจัดเรียง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [การจัดส่งพัสดุขนาดเล็ก (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [การประมูลของผู้จัดจำหน่าย—คำถามจากผู้จัดจำหน่ายและการตอบสนองโดยสรุป](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
+- [การจัดกำหนดการแบบภาพสำหรับใบสั่งงานในการจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)
 - [การแบ่งช่วงเวลาของคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [การเพิ่มประสิทธิภาพในการพิมพ์ป้ายชื่อเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [รหัสขั้นตอนของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)

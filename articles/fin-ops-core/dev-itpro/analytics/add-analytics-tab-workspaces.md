@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025865"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259643"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
@@ -84,7 +84,7 @@ ms.locfileid: "3025865"
 8. คลิกขวา แล้วเลือก **หน้าแท็บใหม่**
 9. เปลี่ยนชื่อหน้าแท็บเป็นบางสิ่งที่สำคัญ เช่น **การวิเคราะห์**
 10. ในตัวออกแบบแบบฟอร์ม เลือก **การวิเคราะห์ (หน้าแท็บ)**
-11. ตั้งค่าคุณสมบัติ **คำอธิบาย** เป็น **การวิเคราะห์**
+11. ตั้งค่าคุณสมบัติ **ป้ายคำอธิบาย** เพื่อ **การวิเคราะห์** และตั้งค่าคุณสมบัติ **การรายงานภาษี** เป็น **ใช่**
 12. คลิกขวาตัวควบคุม และจากนั้นเลือก **สร้าง** \> **กลุ่ม** เพื่อเพิ่มตัวควบคุมกลุ่มแบบฟอร์มใหม่
 13. เปลี่ยนกลุ่มแบบฟอร์มเป็นบางสิ่งที่สำคัญ เช่น **powerBIReportGroup**
 14. ในแบบฟอร์ม เลือก **PanoramaBody (แท็บ)** แล้วลากตัวควบคุมไปยังแท็บ **พื้นที่ทำงาน**

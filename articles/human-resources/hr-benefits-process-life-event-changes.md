@@ -3,7 +3,7 @@ title: ประมวลผลการเปลี่ยนแปลงใน�
 description: ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9bce9394a361bbecfcc0531c5d7ebe9302c8f11
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ae1aa74c7e463cd0d8c8d740394b998030c8498f
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010743"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230006"
 ---
 # <a name="process-life-event-changes"></a>ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต
-
-[!include [banner](includes/preview-feature.md)]
 
 ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับสองการเปลี่ยนแปลงเหตุการณ์ของชีวิต
 

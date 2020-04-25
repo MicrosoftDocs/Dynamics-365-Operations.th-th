@@ -2,7 +2,7 @@
 title: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับค่าธรรมเนียมบรรจุภัณฑ์ที่ชำระให้กับบริษัทรีไซเคิลในช่วงเวลาที่ระบุ
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076258"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215711"
 ---
 # <a name="packing-materials-and-fees"></a>วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
 
@@ -39,7 +39,7 @@ ms.locfileid: "3076258"
 > [!NOTE]
 > ถึงแม้ว่าบริษัทของคุณจะไม่ได้ชำระค่าธรรมเนียมบรรจุภัณฑ์ แต่คุณก็สามารถใช้ฟังก์ชันนั้นเพื่อคำนวณสถิติสำหรับน้ำหนักของบรรจุภัณฑ์ได้
 
-## <a name="allocations"></a> ตั้งค่าการปันส่วนบรรจุภัณฑ์
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a> ตั้งค่าการปันส่วนบรรจุภัณฑ์
 
 ก่อนที่คุณจะสามารถคำนวณน้ำหนักบรรจุภัณฑ์ ค่าธรรมเนียมบรรจุภัณฑ์ หรือทั้งสองอย่าง คุณต้องเปิดการคำนวณและกำหนดวัสดุและค่าธรรมเนียมที่ใช้กับสินค้า
 

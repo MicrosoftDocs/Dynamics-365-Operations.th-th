@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010785"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198777"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
-
-
 
 กระบวนการค่าตอบแทนถูกใช้เพื่อกำหนดจำนวนค่าตอบแทนใหม่และรางวัลสำหรับพนักงานที่ลงทะเบียนในแผนค่าตอบแทนคงที่และแผนค่าตอบแทนผันแปร  กระบวนการค่าตอบแทนสามารถรันได้หลายครั้งเพื่อดำเนินการ "วิเคราะห์เชิง" เพื่อตรวจสอบการเปลี่ยนแปลงและการตั้งค่าทั้งหมดที่ถูกต้อง  ขั้นตอนนี้จะสร้างกระบวนการค่าตอบแทน รันกระบวนการ และแสดงผลลัพธ์  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

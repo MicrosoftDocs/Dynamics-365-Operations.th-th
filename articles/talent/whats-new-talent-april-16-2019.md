@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897936"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197278"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (16 เมษายน 2019)
 
@@ -46,10 +46,6 @@ ms.locfileid: "2897936"
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>ภูมิภาคของค่าตอบแทน ระดับค่าตอบแทน ตัวเลือกสวัสดิการ และเอนทิตีชนิดทักษะใน Common Data Service ที่ปรับปรุงเพื่อรวมการสนับสนุนฟิลด์ลูกค้า
 
 ด้วยการนำออกใช้นี้ เอนทิตี Common Data Service เหล่านี้ได้รับการปรับปรุงเพื่อรวมความสามารถในการรวมฟิลด์ที่กำหนดเองที่เพิ่มโดยผ่าน Talent: Core HR
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>เอนทิตี Common Data Service ใหม่สนับสนุนสำหรับ: กกฎสิทธิ์พึงได้ค่าตอบแทน แผนค่าตอบแทนผันแปร ค่าตอบแทนผันแปร
-
-ด้วยการนำออกใช้นี้ เอนทิตีกฎสิทธิ์พึงได้ค่าตอบแทน แผนค่าตอบแทนผันแปร และค่าตอบแทนผันแปร ได้ถูกเพิ่มไปยัง Common Data Service เอนทิตีเหล่านี้ยังสนับสนุนฟิลด์ที่กำหนดเองที่เพิ่มผ่าน Talent: Core HR ด้วย
 
 ### <a name="powerbi-refresh-issues-314342"></a>ปัญหาการรีเฟรช PowerBI (314342)
 
@@ -93,6 +89,6 @@ ms.locfileid: "2897936"
 
 ### <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
 
-ด้วยการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์
+ด้วย Platform update 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์
 
 

@@ -14,7 +14,9 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34 (พฤษภาคม 2020)
+                - name: Platform update สำหรับ 10.0.11 (กรกฎาคม 2020)
+                  href: get-started/whats-new-platform-update-35.md
+                - name: Platform update สำหรับ 10.0.10 (พฤษภาคม 2020)
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (เมษายน 2020)
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
                       href: data-entities/configuration-data-packages.md
-                    - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
-                      href: data-entities/entity-store-data-lake.md
                 - name: เท็มเพลตข้อมูลการตั้งค่าคอนฟิก
                   href: data-entities/configuration-data-templates.md
                 - name: ติดตามการเปลี่ยนแปลงของเอนทิตี้
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: ภาพรวมของ Azure Data Lake
+              href: data-entities/azure-data-lake-overview.md
+            - name: แอป Finance and Operations ใน Azure Data Lake
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: การดำเนินการย้ายฐานข้อมูล
           items:
             - name: ภาพรวม
@@ -482,38 +490,46 @@
               items:
                 - name: โฮมเพจตัวเลือกการปรับใช้ในสถานที่
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
-                  href: deployment/on-premises-overview.md
-                - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
-                  href: deployment/plan-onprem-deployment.md
-                - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: ตั้งค่าโครงการแบบในสถานที่
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: เตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+                  items:
+                    - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
+                      href: deployment/on-premises-overview.md
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+                      href: deployment/plan-onprem-deployment.md
+                    - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                   items:
-                    - name: โฮมเพจการตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 และรุ่นที่ใหม่กว่า)
+                    - name: ตั้งค่าโครงการแบบในสถานที่ใน LCS
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: ปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 8 และ 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
+                    - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: การบำรุงรักษาสภาพแวดล้อม
+                  items:
+                    - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
+                      href: deployment/apply-updates-on-premises.md
+                    - name: การหมุนเวียนใบรับรอง
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอนต์
+                      href: user-interface/client-disconnected.md
+                    - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
+                      href: deployment/onprem-reverseproxy.md
+                    - name: การวินิจฉัยแบบในสถานที่
+                      href: deployment/on-premises-diagnostics.md
+                    - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
+                      href: analytics/entity-store-on-prem.md
+                    - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
+                      href: deployment/redeploy-on-prem.md
+                    - name: ลบและติดตั้งโหนด AOS ใหม่อีกครั้ง
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
-                - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
-                  href: analytics/entity-store-on-prem.md
-                - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
-                  href: deployment/onprem-reverseproxy.md
-                - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
-                  href: deployment/apply-updates-on-premises.md
-                - name: การวินิจฉัยแบบในสถานที่
-                  href: deployment/on-premises-diagnostics.md
-                - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
-                  href: deployment/redeploy-on-prem.md
                 - name: เอเจนต์ภายในเครื่อง
                   items:
                     - name: ความเข้ากันได้ของ AD FS Office 365
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: อัปเดตเอเจนต์ภายในเครื่อง
                       href: lifecycle-services/update-local-agent.md
-                - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์
-                  href: user-interface/client-disconnected.md
-                - name: แก้ไขปัญหาการปรับใช้ในสถานที่
-                  href: deployment/troubleshoot-on-prem.md
-                - name: สคริปต์สำหรับการแก้ไขปัญหาในสภาพแวดล้อมในสถานที่
-                  href: deployment/onprem-tsg-implementations.md
-                - name: การหมุนเวียนใบรับรอง
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: การแก้ไขปัญหา
+                  items:
+                    - name: แก้ไขปัญหาการปรับใช้ในสถานที่
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: สคริปต์สำหรับการแก้ไขปัญหาในสภาพแวดล้อมในสถานที่
+                      href: deployment/onprem-tsg-implementations.md
             - name: ปรับใช้โค้ดที่กำหนดเอง
               items:
                 - name: สร้างแพคเกจที่สามารถปรับใช้ได้ของแบบจำลอง
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: การจำแนกการเปลี่ยนแปลง
                       href: extensibility/breaking-changes.md
+                    - name: เครื่องมือตรวจสอบความเข้ากันได้
+                      href: extensibility/compatibility-checker-tool.md
             - name: ประสิทธิภาพ
               items:
                 - name: ติดตามโดยใช้ Trace parser
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: สร้างแคชข้อมูลเมตา OData เมื่อ AOS เริ่มต้น
               href: sysadmin/odata-warmup.md
+            - name: การตั้งค่าไคลเอนต์ Azure Key Vault
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
           items:
             - name: ทรัพยากรการอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
                   href: deployment/redeploy-on-prem.md
-                - name: การอัปเกรดที่ใช้งานสำหรับ 7.x เป็น 8.1 แบบในสถานที่
+                - name: กระบวนการปรับปรุงแบบแทนสำหรับสภาพแวดล้อมในสถานที่
                   href: migration-upgrade/on-prem-upgrade.md
             - name: โปรแกรมแก้ไขด่วน
               items:
@@ -1582,7 +1598,7 @@
               items:
                 - name: แนวคิดการนำทาง
                   href: user-interface/page-navigation.md
-                - name: โครงร่างเพจในเว็บไคลเอ็นต์
+                - name: โครงร่างเพจในเว็บไคลเอนต์
                   href: user-interface/page-layout.md
                 - name: แบบอักษรสัญลักษณ์ Dynamics
                   href: user-interface/symbol-font.md

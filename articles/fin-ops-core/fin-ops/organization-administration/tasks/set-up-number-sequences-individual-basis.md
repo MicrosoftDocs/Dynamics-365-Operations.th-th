@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db662eb407fbcf3587f3fcb03347a3f14e83b879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140524"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>ตั้งค่าลำดับหมายเลขแต่ละตัว
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับหมายเลขแต่ละตัว ลำดับหมายเลขถูกใช้ในการสร้างรหัสที่สามารถอ่านได้ รหัสเฉพาะสำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่ต้องการ  ข้อมูลหลักหรือเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุจะอ้างเป็นการอ้างอิง ก่อนที่คุณจะสามารถสร้างเรกคอร์ดใหม่สำหรับการอ้างอิงได้ คุณต้องตั้งค่าลำดับหมายเลขและเชื่อมโยงกับการอ้างอิงนั้น คุณสามารถตั้งค่าลำดับหมายเลขที่ต้องการทั้งหมดในเวลาเดียวกัน โดยการใช้วิซาร์ด **ตั้งค่าลำดับหมายเลข** หรือคุณสามารถสร้างหรือแก้ไขลำดับหมายเลขแต่ละตัวได้โดยการใช้หน้า **ลำดับหมายเลข**
 

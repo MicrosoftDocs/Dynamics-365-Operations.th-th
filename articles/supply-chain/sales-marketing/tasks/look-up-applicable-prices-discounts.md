@@ -2,29 +2,29 @@
 title: ค้นหาราคาและส่วนลดที่เกี่ยวข้อง
 description: 'ขั้นตอนนี้แสดงวิธีการค้นหาราคาและ/หรือส่วนลดสำหรับผลิตภัณฑ์ที่มีผลบังคับใช้สำหรับลูกค้าเฉพาะรายโดยไม่มีการสร้างใบสั่งขาย '
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 4ea4c7db203d0b47c59b241c9d89c69c71cf6cb1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025839"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211939"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>ค้นหาราคาและส่วนลดที่เกี่ยวข้อง
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ขั้นตอนนี้แสดงวิธีการค้นหาราคาและ/หรือส่วนลดสำหรับผลิตภัณฑ์ที่มีผลบังคับใช้สำหรับลูกค้าเฉพาะรายโดยไม่มีการสร้างใบสั่งขาย  กระบวนการดังดล่าวนำไปสู่ตัวอย่างเฉพาะ และคุณต้องทำตามตัวอย่างโดยใช้ข้อมูลสาธิตบริษัท USMF เพื่อเลือกค่าจำเป็น
 

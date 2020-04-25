@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing
 description: หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้าและระดับความสำคัญใน Dynamics 365 Supply Chain Management
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814984"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205770"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันในแอพลิเคชัน Warehousing
 
@@ -138,9 +138,9 @@ ms.locfileid: "2814984"
 -   แถว 2: คำอธิบายสินค้า
 -   แถว 3: ขนาด
 
-ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของส่วนติดต่อผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Finance and Operations - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
+ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของอินเทอร์เฟสผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Finance and Operations - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
 [ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า](install-configure-warehousing-app.md)

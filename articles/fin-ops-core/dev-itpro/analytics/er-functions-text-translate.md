@@ -3,7 +3,7 @@ title: ฟังก์ชัน TRANSLATE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ TRANSLATE (ER)
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040928"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201123"
 ---
-# <a name="TRANSLATE">ฟังก์ชัน TRANSLATE ER</a>
+# <a name=""></a><a name="TRANSLATE">ฟังก์ชัน TRANSLATE ER</a>
 
 [!include [banner](../includes/banner.md)]
 
-ฟังก์ชัน `TRANSLATE` ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากทั้งหมดหรือบางส่วนถูกแทนที่ด้วยสตริงอื่น
+ฟังก์ชัน `TRANSLATE` ส่งคืนค่า *สตริง* ที่มีผลลัพธ์ของการแทนที่อักขระของข้อความที่ระบุไว้ในอักขระของชุดที่กำหนดไว้อีกชุดหนึ่ง
 
 ## <a name="syntax"></a>ไวยากรณ์
 
@@ -51,16 +51,30 @@ TRANSLATE (text , pattern, replacement)
 
 ข้อความที่จะใช้เป็นการแทนที่
 
-## <a name="return-values"></a>ส่งคืนค่า
+## <a name="return-values"></a>ค่าที่ส่งคืน
 
 *สตริง*
 
 ค่าข้อความที่เป็นผลลัพธ์
 
-## <a name="example"></a>ตัวอย่าง
+## <a name="usage-notes"></a>บันทึกย่อการใช้งาน
 
-`TRANSLATE ("abcdef", "cd", "GH")` แทนที่รูปแบบ **"cd"** ด้วยสตริง **"GH"** และส่งกลับค่า **"abGHef"**
+ฟังก์ชัน `TRANSLATE` จะแทนที่หนึ่งอักขระพร้อมกัน ฟังก์ชันจะแทนที่อักขระตัวแรกของอาร์กิวเมนต์ `text` โดยใช้อักขระตัวแรกของอาร์กิวเมนต์ `pattern` และอักขระตัวที่สอง และปฏิบัติตามขั้นตอนเดียวกันจนกว่าจะเสร็จสิ้น เมื่ออักขระจากอาร์กิวเมนต์ `text` และ `pattern` ตรงกัน จะถูกแทนที่ด้วยอักขระจากอาร์กิวเมนต์ `replacement` ที่อยู่ในตำแหน่งเดียวกันกับอักขระจากอาร์กิวเมนต์ `pattern` ถ้าอักขระปรากฏหลายครั้งในอาร์กิวเมนต์ `pattern` การแม็ปอาร์กิวเมนต์ `replacement` ที่สอดคล้องกับการเกิดขึ้นครั้งแรกของอักขระนี้จะถูกใช้
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="example-1"></a>ตัวอย่างที่ 1
+
+`TRANSLATE ("abcdef", "cd", "GH")` แทนที่อักขระ **"c"** ของข้อความ **"abcdef"** ที่ระบุที่มีอักขระ **"G"** ของข้อความ `replacement` อันเนื่องมาจากตัวอย่างต่อไปนี้:
+-   อักขระ **"c"** จะแสดงอยู่ในข้อความ `pattern` ในตำแหน่งแรก
+-   ตำแหน่งแรกของข้อความ `replacement` มีอักขระ **"G"**
+
+## <a name="example-2"></a>ตัวอย่างที่ 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` ส่งกลับค่า **"abGdef"**
+
+## <a name="example-3"></a>ตัวอย่างที่ 3
+
+`TRANSLATE ("abccba", "abc", "123")` ส่งคืน **"123321"**
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันข้อความ](er-functions-category-text.md)
