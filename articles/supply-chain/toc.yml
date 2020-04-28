@@ -70,12 +70,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (พฤษภาคม 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (เมษายน 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (กุมภาพันธ์ 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: การคาดการณ์ ใบสั่งงาน และโครงการ
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: รวมการจัดการสินทรัพย์ด้วยสินทรัพย์ถาวร
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: การบำรุงรักษาเชิงป้องกันและเชิงรับ
               items:
                 - name: ภาพรวมการบำรุงรักษาเชิงป้องกัน
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: ค่าเฉลี่ยเคลื่อนที่
                   href: cost-management/moving-average.md
+                - name: ลำดับต้นทุนที่ใช้แทนค่าเฉลี่ยเคลื่อนที่
+                  href: cost-management/moving-average-fallback.md
                 - name: การอัปเดตทางกายภาพและทางการเงิน
                   href: cost-management/physical-financial-updates.md
                 - name: ราคาต้นทุนถัวเฉลี่ย
@@ -577,9 +581,11 @@
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: การปิดบัญชีสินค้าคงคลัง
                   href: cost-management/inventory-close.md
-                - name: การปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
+                - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: รายงานการแยกสินค้าคงคลัง
+                - name: รายงานการจัดเก็บมูลค่าสินค้าคงคลัง
+                  href: cost-management/inventory-value-report-storage.md
+                - name: การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
                   href: cost-management/inventory-aging-report-storage.md
             - name: การบัญชีการผลิต
               items:
@@ -697,7 +703,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เพิ่มมิติทางการเงินไปยังการวัดแบบรวม
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop
+                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: กระบวนการการจัดการคุณภาพ
                   href: inventory/quality-management-processes.md
+                - name: การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: การจัดการความไม่สอดคล้องกัน
                   href: inventory/enable-nonconformance-management.md
                 - name: ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: การจัดกลุ่มระบบในรายการงานที่เปิด
                   href: warehousing/system-group-on-open-work-list.md
+                - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: การสนับสนุนบาร์โค้ดบนอุปกรณ์เคลื่อนที่
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: การรับป้ายทะเบียนด้วยแอป Warehousing บนอุปกรณ์เคลื่อนที่
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: ใบรับสำหรับการลงทะเบียนและการสำรองสินค้า
               items:
+                - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
+                  href: warehousing/inbound-load-handling.md
                 - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าขั้นสูงโดยใช้สมุดรายวันการมาถึงของสินค้า
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
@@ -2682,6 +2696,7 @@
                 - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: การพัฒนา Supply Chain Management
           items:
             - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt

@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (กุมภาพันธ์ 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (มกราคม 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30 (พฤศจิกายน 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29 (ตุลาคม 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (กรกฎาคม 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (มิถุนายน 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (พฤษภาคม 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (เมษายน 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (มีนาคม 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23 (มกราคม 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22 (ธันวาคม 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (พฤศจิกายน 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (กันยายน 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (มีนาคม 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: จัดการแบบจำลองของบุคคลที่สามและแพคเกจรันไทม์โดยใช้การควบคุมต้นทาง
               href: dev-tools/manage-runtime-packages.md
+            - name: แพคเกจที่สามารถปรับใช้ได้แบบออลอินวัน
+              href: dev-tools/aio-deployable-packages.md
             - name: อัปเดตรุ่นของแบบจำลองในบิลด์แบบอัตโนมัติ
               href: dev-tools/version-models-build.md
         - name: การรวมข้อมูล
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: ปรับใช้การปรับใช้ในสถานที่อีกครั้ง
                       href: deployment/redeploy-on-prem.md
-                    - name: ลบและติดตั้งโหนด AOS ใหม่อีกครั้ง
+                    - name: ลบและติดตั้งหรือเพิ่มโหนด AOS ใหม่อีกครั้ง
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
