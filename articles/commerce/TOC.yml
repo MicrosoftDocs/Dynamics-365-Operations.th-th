@@ -44,6 +44,8 @@
                   href: provisioning-guide.md
                 - name: ตั้งค่าคอนฟิกสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
+                - name: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Dynamics 365 Commerce
+                  href: cpe-bopis.md
                 - name: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
                   href: cpe-optional-features.md
                 - name: FAQ เกี่ยวกับสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
@@ -86,6 +88,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.11 (กรกฎาคม 2020)
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (พฤษภาคม 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (เมษายน 2020)
@@ -206,6 +210,8 @@
                   href: retail-onprem.md
             - name: การปรับใช้และโปรแกรมแก้ไขด่วน
               items:
+                - name: ซิงโครไนส์ตัวติดตั้งแบบบริการตนเองใน Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: ตั้งค่าคอนฟิกและติดตั้ง Commerce Scale Unit
@@ -226,6 +232,8 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: ใช้แพคเกจที่สามารถปรับใช้ได้
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Commerce ใหม่
+                  href: enable-configure-retail-functionality.md
             - name: การจัดการวงจรการใช้งานสำหรับการดำเนินการ
               items:
                 - name: โฮมเพจการจัดการวงจรการใช้งานสำหรับการดำเนินการ
@@ -378,7 +386,7 @@
                       items:
                         - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
                           href: demo-data.md
-                        - name: โครงร่างหน้าจอสำหรับ POS
+                        - name: การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
                           href: pos-screen-layouts.md
                         - name: ติดตั้งตัวออกแบบโครงร่าง POS
                           href: install-pos-layout-designer.md
@@ -906,6 +914,8 @@
                   href: cookie-compliance.md
                 - name: เพิ่มหน้านโยบายความเป็นส่วนตัว
                   href: add-privacy-page.md
+                - name: แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม
+                  href: replace-IDs-tracked-changes.md
             - name: ชุดเริ่มต้น
               items:
                 - name: ภาพรวมของชุดเริ่มต้น
@@ -942,12 +952,16 @@
                   items:
                     - name: โมดูลรถเข็น
                       href: add-cart-module.md
+                    - name: โมดูลไอคอนรถเข็น
+                      href: cart-icon-module.md
                     - name: โมดูลเช็คเอาท์
                       href: add-checkout-module.md
                     - name: โมดูลการยืนยันใบสั่ง
                       href: order-confirmation-module.md
                     - name: โมดูลตัวเลือกการจัดเก็บ
                       href: store-selector.md
+                    - name: โมดูลบัตรของขวัญ
+                      href: add-giftcard.md
                 - name: โมดูลการจัดการบัญชี
                   items:
                     - name: หน้าและโมดูลการจัดการบัญชี
@@ -1124,7 +1138,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: เพิ่มมิติทางการเงินไปยังการวัดแบบรวม
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop
+                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: ตั้งค่าคอนฟิกการตั้งค่าธีม
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: ขยายธีม
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: ส่งสคริปต์
                   items:
                     - name: ตัวส่งสคริปต์
@@ -1962,6 +1978,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: ผสานระบบการสร้างสำหรับ Commerce และ Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: ย้าย Retail SDK จาก Visual Studio 2015 ไปยัง Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: ตัวอย่างความสามารถในการเพิ่มฟังก์ชันของ Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: สร้างแพคเกจที่สามารถปรับใช้ได้
