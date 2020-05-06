@@ -3,7 +3,7 @@ title: สร้างหน้าการตอบสนองที่กำ�
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,67 +17,69 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001161"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269555"
 ---
-# <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a><span data-ttu-id="ef62e-103">สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx</span><span class="sxs-lookup"><span data-stu-id="ef62e-103">Build custom response pages for 4xx/5xx status code errors</span></span>
+# <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a><span data-ttu-id="5b0e4-103">สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx</span><span class="sxs-lookup"><span data-stu-id="5b0e4-103">Build custom response pages for 4xx/5xx status code errors</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ef62e-104">หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="ef62e-104">This topic describes how to build custom response pages for 4xx and 5xx status code errors by using the authoring tools in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="5b0e4-104">หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="5b0e4-104">This topic describes how to build custom response pages for 4xx and 5xx status code errors by using the authoring tools in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="ef62e-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="ef62e-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="5b0e4-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="5b0e4-105">Overview</span></span>
 
-<span data-ttu-id="ef62e-106">ถ้าคำขอหนึ่งไม่สำเร็จ เซิร์ฟเวอร์จะออกการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะของ HTTP</span><span class="sxs-lookup"><span data-stu-id="ef62e-106">If a request isn't successful, the server issues HTTP status code error responses.</span></span> <span data-ttu-id="ef62e-107">รหัสสถานะ 404 จะถูกรวบรวมและส่งคืนถ้าหาหน้าหน้าหนึ่งไม่พบ และรหัสสถานะ 500 จะถูกรวบรวมและส่งคืนถ้าข้อผิดพลาดของเซิร์ฟเวอร์เกิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="ef62e-107">The 404 status code is captured and returned if a page isn't found, and the 500 status code is captured and returned if a server error occurs.</span></span> <span data-ttu-id="ef62e-108">ใน Dynamics 365 Commerce ผู้ใช้แอปพลิเคชันสามารถสร้างหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่กำหนดเองซึ่งจะแสดงต่อผู้ใช้ในการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-108">In Dynamics 365 Commerce, application users can build custom status code error response pages that are shown to users for these status code error responses.</span></span>
+<span data-ttu-id="5b0e4-106">ถ้าคำขอหนึ่งไม่สำเร็จ เซิร์ฟเวอร์จะออกการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะของ HTTP</span><span class="sxs-lookup"><span data-stu-id="5b0e4-106">If a request isn't successful, the server issues HTTP status code error responses.</span></span> <span data-ttu-id="5b0e4-107">รหัสสถานะ 404 จะถูกรวบรวมและส่งคืนถ้าหาหน้าหน้าหนึ่งไม่พบ และรหัสสถานะ 500 จะถูกรวบรวมและส่งคืนถ้าข้อผิดพลาดของเซิร์ฟเวอร์เกิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="5b0e4-107">The 404 status code is captured and returned if a page isn't found, and the 500 status code is captured and returned if a server error occurs.</span></span> <span data-ttu-id="5b0e4-108">ใน Dynamics 365 Commerce ผู้ใช้แอปพลิเคชันสามารถสร้างหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่กำหนดเองซึ่งจะแสดงต่อผู้ใช้ในการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-108">In Dynamics 365 Commerce, application users can build custom status code error response pages that are shown to users for these status code error responses.</span></span>
 
-## <a name="build-a-status-code-error-response-page"></a><span data-ttu-id="ef62e-109">สร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="ef62e-109">Build a status code error response page</span></span>
+## <a name="build-a-status-code-error-response-page"></a><span data-ttu-id="5b0e4-109">สร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="5b0e4-109">Build a status code error response page</span></span>
 
-<span data-ttu-id="ef62e-110">เมื่อต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-110">To start to build a status code error response page, follow these steps.</span></span>
+<span data-ttu-id="5b0e4-110">เมื่อต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-110">To start to build a status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="ef62e-111">ในเว็บเบราเซอร์ที่คุณต้องการ ให้ลงชื่อเข้าสู่ Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="ef62e-111">In your preferred web browser, sign in to Dynamics 365 Commerce.</span></span> 
-1. <span data-ttu-id="ef62e-112">เลือกไซต์ที่คุณต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx</span><span class="sxs-lookup"><span data-stu-id="ef62e-112">Select the site that you want to build a 4xx/5xx status code error response page for.</span></span>
+1. <span data-ttu-id="5b0e4-111">ในเว็บเบราเซอร์ที่คุณต้องการ ให้ลงชื่อเข้าสู่ Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="5b0e4-111">In your preferred web browser, sign in to Dynamics 365 Commerce.</span></span> 
+1. <span data-ttu-id="5b0e4-112">เลือกไซต์ที่คุณต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx</span><span class="sxs-lookup"><span data-stu-id="5b0e4-112">Select the site that you want to build a 4xx/5xx status code error response page for.</span></span>
 
-### <a name="build-the-template"></a><span data-ttu-id="ef62e-113">สร้างเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ef62e-113">Build the template</span></span>
+### <a name="build-the-template"></a><span data-ttu-id="5b0e4-113">สร้างเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="5b0e4-113">Build the template</span></span>
 
-<span data-ttu-id="ef62e-114">เมื่อต้องการสร้างเท็มเพลตของหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-114">To build the template for the status code error response page, follow these steps.</span></span>
+<span data-ttu-id="5b0e4-114">เมื่อต้องการสร้างเท็มเพลตของหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-114">To build the template for the status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="ef62e-115">ไปที่ **เท็มเพลต \> เท็มเพลตใหม่**</span><span class="sxs-lookup"><span data-stu-id="ef62e-115">Go to **Templates \> New template**.</span></span>
-1. <span data-ttu-id="ef62e-116">ตั้งชื่อเท็มเพลตใหม่</span><span class="sxs-lookup"><span data-stu-id="ef62e-116">Name the new template.</span></span>
-1. <span data-ttu-id="ef62e-117">สร้างเท็มเพลต โดยยึดตามโครงสร้างที่คุณต้องการให้หน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะมี</span><span class="sxs-lookup"><span data-stu-id="ef62e-117">Build the template, based on the structure that you want the status code error response page to have.</span></span>
-1. <span data-ttu-id="ef62e-118">เช็คอินเท็มเพลต และเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="ef62e-118">Check the template in, and publish it.</span></span>
+1. <span data-ttu-id="5b0e4-115">ไปที่ **เท็มเพลต**</span><span class="sxs-lookup"><span data-stu-id="5b0e4-115">Go to **Templates**.</span></span>
+1. <span data-ttu-id="5b0e4-116">เลือก **สร้าง** เพื่อสร้างเท็มเพลตของหน้า</span><span class="sxs-lookup"><span data-stu-id="5b0e4-116">Select **New** to create a page template.</span></span>
+1. <span data-ttu-id="5b0e4-117">ในกล่องโต้ตอบ **เท็มเพลตใหม่** ภายใต้ **ชื่อเท็มเพลต** ให้ป้อนชื่อสำหรับเท็มเพลตใหม่ และจากนั้น เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="5b0e4-117">In the **New Template** dialog box, under **Template Name**, enter a name for the new template, and then select **OK**.</span></span>
+1. <span data-ttu-id="5b0e4-118">สร้างเท็มเพลต โดยยึดตามโครงสร้างที่คุณต้องการให้หน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะมี</span><span class="sxs-lookup"><span data-stu-id="5b0e4-118">Build the template, based on the structure that you want the status code error response page to have.</span></span>
+1. <span data-ttu-id="5b0e4-119">เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในเท็มเพลต และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="5b0e4-119">Select **Save**, select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span> 
 
-### <a name="build-the-status-code-error-response-page"></a><span data-ttu-id="ef62e-119">สร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="ef62e-119">Build the status code error response page</span></span>
+### <a name="build-the-status-code-error-response-page"></a><span data-ttu-id="5b0e4-120">สร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="5b0e4-120">Build the status code error response page</span></span>
 
-<span data-ttu-id="ef62e-120">เมื่อต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-120">To build the status code error response page, follow these steps.</span></span>
+<span data-ttu-id="5b0e4-121">เมื่อต้องการสร้างหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-121">To build the status code error response page, follow these steps.</span></span>
 
-1. <span data-ttu-id="ef62e-121">ไปที่ **หน้า \> หน้าใหม่**</span><span class="sxs-lookup"><span data-stu-id="ef62e-121">Go to **Pages \> New Page**.</span></span>
-1. <span data-ttu-id="ef62e-122">ตั้งชื่อหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ แต่ **ไม่ต้อง** ตั้งค่าฟิลด์ **URL**</span><span class="sxs-lookup"><span data-stu-id="ef62e-122">Name the status code error response page, but do **not** set the **URL** field.</span></span>
-1. <span data-ttu-id="ef62e-123">สร้างหน้า</span><span class="sxs-lookup"><span data-stu-id="ef62e-123">Build the page.</span></span>
-1. <span data-ttu-id="ef62e-124">เช็คอินเท็มเพลต และเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="ef62e-124">Check the page in, and publish it.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ef62e-125">คุณสามารถสร้างหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่แยกจากกันต่างหากสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx ได้</span><span class="sxs-lookup"><span data-stu-id="ef62e-125">You can create separate status code error response pages for 4xx and 5xx status code errors.</span></span> <span data-ttu-id="ef62e-126">อีกทางหนึ่ง คือ คุณสามารถใช้หน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะทั่วไปที่เหมือนกันสำหรับประเภทของข้อผิดพลาดทั้งหมดได้</span><span class="sxs-lookup"><span data-stu-id="ef62e-126">Alternatively, you can use the same general status code error response page for both error categories.</span></span>
-
-### <a name="set-up-a-redirect-for-the-status-code-error-response-page"></a><span data-ttu-id="ef62e-127">ตั้งค่าการเปลี่ยนเส้นทางสำหรับหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="ef62e-127">Set up a redirect for the status code error response page</span></span>
-
-<span data-ttu-id="ef62e-128">เมื่อต้องการตั้งค่าการเปลี่ยนเส้นทางของหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-128">To set up a redirect for the status code error response page, follow these steps.</span></span>
-
-1. <span data-ttu-id="ef62e-129">ไปที่ **URL \> ใหม่ \> ชื่อเสริมใหม่** และเลือกหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="ef62e-129">Go to **URLs \> New \> New Alias**, and select the status code error response page that you built earlier.</span></span>
-1. <span data-ttu-id="ef62e-130">ในฟิลด์ **ชื่อเสริม** ให้ป้อนว่า **ค่าเริ่มต้น-4xx** หรือ **ค่าเริ่มต้น-5xx** ขึ้นอยู่กับว่าหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่คุณกำลังตั้งค่าการเปลี่ยนเส้นทางคืออะไร</span><span class="sxs-lookup"><span data-stu-id="ef62e-130">In the **Alias** field, enter either **default-4xx** or **default-5xx**, depending on the status code error response page that you're setting up a redirect for.</span></span> <span data-ttu-id="ef62e-131">ชื่อเสริมเหล่านี้ต้องถูกเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="ef62e-131">These aliases must be published.</span></span> <span data-ttu-id="ef62e-132">มิฉะนั้น การเปลี่ยนเส้นทางจะใช้งานไม่ได้</span><span class="sxs-lookup"><span data-stu-id="ef62e-132">Otherwise, the redirect won't work.</span></span>
-1. <span data-ttu-id="ef62e-133">เลือก **ตกลง** เพื่อยืนยันการเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="ef62e-133">Select **OK** to commit the linking.</span></span>
+1. <span data-ttu-id="5b0e4-122">ไปที่ **หน้า**</span><span class="sxs-lookup"><span data-stu-id="5b0e4-122">Go to **Pages**.</span></span>
+1. <span data-ttu-id="5b0e4-123">เลือก **สร้าง** เพื่อสร้างหน้า</span><span class="sxs-lookup"><span data-stu-id="5b0e4-123">Select **New** to create a page.</span></span>
+1. <span data-ttu-id="5b0e4-124">ในกล่องโต้ตอบ **เลือกเท็มเพลต** เลือกเท็มเพลต และจากนั้น ภายใต้ **ชื่อหน้า** ให้ป้อนชื่อสำหรับหน้าการตอบสนองข้อผิดพลาดของรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="5b0e4-124">In the **Choose a template** dialog box, select a template, and then, under **Page name**, enter a name for the status code error response page.</span></span> <span data-ttu-id="5b0e4-125">ปล่อยฟิลด์ **URL ของหน้า** ให้ว่าง</span><span class="sxs-lookup"><span data-stu-id="5b0e4-125">Leave the **Page URL** field blank.</span></span>
+1. <span data-ttu-id="5b0e4-126">สร้างหน้า</span><span class="sxs-lookup"><span data-stu-id="5b0e4-126">Build the page.</span></span>
+1. <span data-ttu-id="5b0e4-127">เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในหน้า และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="5b0e4-127">Select **Save**, select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ef62e-134">ถ้าคุณกำลังใช้หน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะเดียวสำหรับประเภทข้อผิดพลาดทั้งสองประเภท ให้ทำกระบวนงานนี้ซ้ำเพื่อเชื่อมโยงชื่อเสริมสำหรับประเภทข้อผิดพลาดอื่น ๆ กับหน้าเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="ef62e-134">If you're using a single status code error response page for both error categories, repeat this procedure to link an alias for the other error category to the same page.</span></span>
+> <span data-ttu-id="5b0e4-128">คุณสามารถสร้างหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่แยกจากกันต่างหากสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx ได้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-128">You can create separate status code error response pages for 4xx and 5xx status code errors.</span></span> <span data-ttu-id="5b0e4-129">อีกทางหนึ่ง คือ คุณสามารถใช้หน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะทั่วไปที่เหมือนกันสำหรับประเภทของข้อผิดพลาดทั้งหมดได้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-129">Alternatively, you can use the same general status code error response page for both error categories.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ef62e-135">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="ef62e-135">Additional resources</span></span>
+### <a name="set-up-a-redirect-for-the-status-code-error-response-page"></a><span data-ttu-id="5b0e4-130">ตั้งค่าการเปลี่ยนเส้นทางสำหรับหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะ</span><span class="sxs-lookup"><span data-stu-id="5b0e4-130">Set up a redirect for the status code error response page</span></span>
 
-[<span data-ttu-id="ef62e-136">ใช้งานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ef62e-136">Work with templates</span></span>](work-with-templates.md)
+<span data-ttu-id="5b0e4-131">เมื่อต้องการตั้งค่าการเปลี่ยนเส้นทางของหน้าการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-131">To set up a redirect for the status code error response page, follow these steps.</span></span>
 
-[<span data-ttu-id="ef62e-137">เพิ่มหน้าไซต์ใหม่</span><span class="sxs-lookup"><span data-stu-id="ef62e-137">Add a new site page</span></span>](add-new-page.md)
+1. <span data-ttu-id="5b0e4-132">ไปที่ **URL \> ใหม่ \> ชื่อเสริมใหม่** และเลือกหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-132">Go to **URLs \> New \> New Alias**, and select the status code error response page that you built earlier.</span></span>
+1. <span data-ttu-id="5b0e4-133">ในฟิลด์ **ชื่อเสริม** ให้ป้อนว่า **ค่าเริ่มต้น-4xx** หรือ **ค่าเริ่มต้น-5xx** ขึ้นอยู่กับว่าหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่คุณกำลังตั้งค่าการเปลี่ยนเส้นทางคืออะไร</span><span class="sxs-lookup"><span data-stu-id="5b0e4-133">In the **Alias** field, enter either **default-4xx** or **default-5xx**, depending on the status code error response page that you're setting up a redirect for.</span></span> <span data-ttu-id="5b0e4-134">ชื่อเสริมเหล่านี้ต้องถูกเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="5b0e4-134">These aliases must be published.</span></span> <span data-ttu-id="5b0e4-135">มิฉะนั้น การเปลี่ยนเส้นทางจะใช้งานไม่ได้</span><span class="sxs-lookup"><span data-stu-id="5b0e4-135">Otherwise, the redirect won't work.</span></span>
+1. <span data-ttu-id="5b0e4-136">เลือก **ตกลง** เพื่อยืนยันการเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="5b0e4-136">Select **OK** to commit the linking.</span></span>
 
-[<span data-ttu-id="ef62e-138">สร้าง URL ของหน้า</span><span class="sxs-lookup"><span data-stu-id="ef62e-138">Create a page URL</span></span>](create-page-url.md)
+> [!NOTE]
+> <span data-ttu-id="5b0e4-137">ถ้าคุณกำลังใช้หน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะเดียวสำหรับประเภทข้อผิดพลาดทั้งสองประเภท ให้ทำกระบวนงานนี้ซ้ำเพื่อเชื่อมโยงชื่อเสริมสำหรับประเภทข้อผิดพลาดอื่น ๆ กับหน้าเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="5b0e4-137">If you're using a single status code error response page for both error categories, repeat this procedure to link an alias for the other error category to the same page.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="5b0e4-138">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5b0e4-138">Additional resources</span></span>
+
+[<span data-ttu-id="5b0e4-139">ใช้งานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="5b0e4-139">Work with templates</span></span>](work-with-templates.md)
+
+[<span data-ttu-id="5b0e4-140">เพิ่มหน้าไซต์ใหม่</span><span class="sxs-lookup"><span data-stu-id="5b0e4-140">Add a new site page</span></span>](add-new-page.md)
+
+[<span data-ttu-id="5b0e4-141">สร้าง URL ของหน้า</span><span class="sxs-lookup"><span data-stu-id="5b0e4-141">Create a page URL</span></span>](create-page-url.md)

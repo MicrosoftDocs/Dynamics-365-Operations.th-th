@@ -1,9 +1,9 @@
 ---
-title: การกรองข้อมูลขั้นสูงในที่เก็บ RCS/ส่วนกลาง
+title: การกรองข้อมูลขั้นสูงของ RCS ในที่เก็บ RCS/ส่วนกลาง
 description: หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ RCS ซึ่งได้รับการปรับปรุงเพื่อรวมตัวกรองข้อมูลเพิ่มเติม
 author: JaneA07
 manager: AnnBe
-ms.date: 03/03/2020
+ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,35 +18,31 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1adbd690795139778dc77a574e9d5f91a4bdeb3c
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
+ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249176"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3287950"
 ---
-# <a name="enhanced-filtering-options-for-finding-configurations-in-the-global-repository"></a><span data-ttu-id="3805d-103">ตัวเลือกการกรองข้อมูลขั้นสูงสำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="3805d-103">Enhanced filtering options for finding configurations in the Global repository</span></span>
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a><span data-ttu-id="0208a-103">ตัวเลือกการกรองข้อมูลขั้นสูงของ RCS สำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บ RCS/ส่วนกลาง</span><span class="sxs-lookup"><span data-stu-id="0208a-103">RCS enhanced filtering options for finding configurations in the RCS/Global repository</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3805d-104">หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ Regulatory Configuration Services (RCS) ซึ่งได้รับการปรับปรุงเพื่อรวมตัวกรองข้อมูลต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="3805d-104">This topic describes enhanced filtering capabilities for Regulatory Configuration Services (RCS) Global repository, which have been improved to include the following filters:</span></span> 
-- <span data-ttu-id="3805d-105">**ประเทศ/ภูมิภาค** - ตามรหัสประเทศ ISO</span><span class="sxs-lookup"><span data-stu-id="3805d-105">**Country/region** - based on ISO country codes</span></span>  
-- <span data-ttu-id="3805d-106">**ป้าย** - สำหรับพื้นที่ทำงาน/คุณลักษณะ อุตสาหกรรม ชนิดเอกสารธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="3805d-106">**Tags** - for functional/feature area; Industry; Business document type</span></span> 
+<span data-ttu-id="0208a-104">หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ Regulatory Configuration Services (RCS) ซึ่งได้รับการปรับปรุงเพื่อรวมความสามารถในการกรองเงื่อนไขต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="0208a-104">This topic describes enhanced filtering capabilities for Regulatory Configuration Services (RCS) Global repository, which have been improved to include the ability to filter with the following criteria:</span></span> 
+- <span data-ttu-id="0208a-105">**ประเทศ/ภูมิภาค** - ตามรหัสประเทศ ISO</span><span class="sxs-lookup"><span data-stu-id="0208a-105">**Country/region** - Based on ISO country codes</span></span>  
+- <span data-ttu-id="0208a-106">ชนิด **แท็ก** สำหรับ:</span><span class="sxs-lookup"><span data-stu-id="0208a-106">**Tags** types for:</span></span>
+  - <span data-ttu-id="0208a-107">พื้นที่ฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="0208a-107">Functional area</span></span>
+  - <span data-ttu-id="0208a-108">พื้นที่คุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="0208a-108">Feature area</span></span>
+  - <span data-ttu-id="0208a-109">อุตสาหกรรม</span><span class="sxs-lookup"><span data-stu-id="0208a-109">Industry</span></span> 
+  - <span data-ttu-id="0208a-110">เอกสารทางธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="0208a-110">Business document</span></span> 
 
-<span data-ttu-id="3805d-107">คุณสามารถใช้ตัวกรองโดยแยกต่างหากหรือในกลุ่ม อย่างใดอย่างหนึ่ง เพื่อค้นหาการตั้งค่าคอนฟิกที่ระบุหรือที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="3805d-107">You can apply filters, either individually or in groups, to find specific or related configurations.</span></span> <span data-ttu-id="3805d-108">ตัวอย่างเช่น ถ้าต้องการค้นหาเอกสารทางธุรกิจที่ตั้งค่าคอนฟิกได้ทั้งหมดที่เกี่ยวข้องกับใบแจ้งหนี้ของผู้จัดจำหน่าย คุณสามารถใช้ตัวกรองข้อมูล **ชนิดเอกสารทางธุรกิจ** ได้</span><span class="sxs-lookup"><span data-stu-id="3805d-108">For example, to find all configurable business documents related to vendor invoices, you can apply the **Business document type** filter.</span></span> 
+<span data-ttu-id="0208a-111">เพื่อทำให้ง่ายขึ้นในการค้นหาการตั้งค่าคอนฟิกที่ระบุหรือที่เกี่ยวข้อง คุณสามารถใช้ตัวกรองโดยแยกต่างหาก หรือเป็นกลุ่ม อย่างใดอย่างหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="0208a-111">To make it easier to discover specific or related configurations you can apply filters, either individually or as a group.</span></span> <span data-ttu-id="0208a-112">ตัวอย่างเช่น ถ้าต้องการค้นหาชนิดเดียวของเอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิกได้ซึ่งเกี่ยวข้องใบแจ้งหนี้ของผู้จัดจำหน่าย คุณสามารถใช้ตัวกรอง **ชนิดเอกสารทางธุรกิจ** เพื่อค้นหาชนิดของเอกสารนั้นได้</span><span class="sxs-lookup"><span data-stu-id="0208a-112">For example, to find a single type of 'configurable business documents that are related to vendor invoices, you could apply a **Business document type** filter to search for that type of document.</span></span> 
 
-<span data-ttu-id="3805d-109">คุณสามารถจำกัดการค้นหาเพิ่มเติมได้โดยการเลือกรหัสประเทศและการคลิก **ใช้ตัวกรองข้อมูล**</span><span class="sxs-lookup"><span data-stu-id="3805d-109">You can further refine a search by selecting the country code and clicking **Apply filter**.</span></span>  
+<span data-ttu-id="0208a-113">[![ส่วนตัวกรองสำหรับที่เก็บส่วนกลาง](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span><span class="sxs-lookup"><span data-stu-id="0208a-113">[![Filter section for Global repository](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span></span> 
 
-<span data-ttu-id="3805d-110">[![ส่วนตัวกรองสำหรับที่เก็บส่วนกลาง](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span><span class="sxs-lookup"><span data-stu-id="3805d-110">[![Filter section for Global repository](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span></span> 
+<span data-ttu-id="0208a-114">คุณสามารถปรับปรุงการค้นหาได้ด้วยการเลือกชนิดเอกสาร ตัวอย่างเช่น 'ใบแจ้งหนี้ของผู้จัดจำหน่าย' และคลิก **ใช้ตัวกรองข้อมูล**</span><span class="sxs-lookup"><span data-stu-id="0208a-114">You can further refine the search by selecting document type, for example 'vendor invoice' and clicking **Apply filter**.</span></span> <span data-ttu-id="0208a-115">ตัวอย่างต่อไปนี้แสดงผลลัพธ์เมื่อกรองข้อมูลใน **ชนิดเอกสารทางธุรกิจ** ด้วยชนิดเอกสารที่เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="0208a-115">The following example shows the results when filtering on **Business document type** with the document type added.</span></span> 
 
-<span data-ttu-id="3805d-111">ตัวอย่างต่อไปนี้แสดงผลลัพธ์เมื่อกรองข้อมูลใน **ชนิดเอกสารทางธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="3805d-111">The following example shows the results when filtering on **Business document type**.</span></span> 
+<span data-ttu-id="0208a-116">[![ใช้ตัวกรองและนำเข้าสำหรับชนิดเอกสารทางธุรกิจ](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span><span class="sxs-lookup"><span data-stu-id="0208a-116">[![Applied filter and Import for business document type](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span></span> 
 
-<span data-ttu-id="3805d-112">[![ใช้ตัวกรองและนำเข้าสำหรับชนิดเอกสารทางธุรกิจ](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span><span class="sxs-lookup"><span data-stu-id="3805d-112">[![Applied filter and Import for business document type](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span></span> 
-
-<span data-ttu-id="3805d-113">คุณสามารถนำเข้าผลลัพธ์ที่ถูกกรองไปยังผู้ใช้ RCS หรือสภาพแวดล้อม Dynamics 365 Finance อย่างใดอย่างหนึ่ง หรือเป็นชุด (โดยการเลือกกลุ่มการตั้งค่าคอนฟิก) และการคลิก **นำเข้า**</span><span class="sxs-lookup"><span data-stu-id="3805d-113">Filtered results can be imported into users RCS or Dynamics 365 Finance environment, either individually or as a set (by selecting the group of configurations) and clicking **Import**.</span></span>
-
-
-
-
-
-
+<span data-ttu-id="0208a-117">คุณสามารถนำเข้าผลลัพธ์ที่ถูกกรองเข้าไปในที่เก็บ RCS ของผู้ใช้หรือสภาพแวดล้อม Dynamics 365 Finance อย่างใดอย่างหนึ่ง ทีละรายการ หรือเป็นชุด</span><span class="sxs-lookup"><span data-stu-id="0208a-117">Filtered results can be imported into a users RCS repository or a Dynamics 365 Finance environment, either individually or as a set.</span></span> <span data-ttu-id="0208a-118">เมื่อต้องการดำเนินการนี้ ให้เลือกกลุ่มการตั้งค่าคอนฟิก และคลิก **นำเข้า**</span><span class="sxs-lookup"><span data-stu-id="0208a-118">To do this, select the group of configurations, and click **Import**.</span></span>

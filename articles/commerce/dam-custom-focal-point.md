@@ -3,7 +3,7 @@ title: กำหนดค่าจุดโฟกัสของภาพ
 description: หัวข้อนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของรูปภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,43 +18,43 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9bbd51f1fe9a19198a455eedd3ba744d54a165
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097089"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269532"
 ---
-# <a name="customize-image-focal-points"></a><span data-ttu-id="6a374-103">กำหนดค่าจุดโฟกัสของภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-103">Customize image focal points</span></span>
+# <a name="customize-image-focal-points"></a><span data-ttu-id="df1ce-103">กำหนดค่าจุดโฟกัสของภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-103">Customize image focal points</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6a374-104">หัวข้อนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของรูปภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6a374-104">This topic describes how to customize image focal points in Microsoft Dynamics 365 Commerce site builder.</span></span>
+<span data-ttu-id="df1ce-104">หัวข้อนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของรูปภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="df1ce-104">This topic describes how to customize image focal points in Microsoft Dynamics 365 Commerce site builder.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6a374-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="6a374-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="df1ce-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="df1ce-105">Overview</span></span>
 
-<span data-ttu-id="6a374-106">เมื่อมีการอัพโหลดรูปภาพไปยังไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ระบบจะพยายามระบุจุดโฟกัสของรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-106">When an image is uploaded to the Commerce site builder Media Library, the system attempts to determine the focal point of the image.</span></span> <span data-ttu-id="6a374-107">ตัวอย่างเช่น ถ้ารูปภาพมีบุคคลอยู่บนนั้น ระบบจะตั้งค่าจุดโฟกัสเป็นหน้าของบุคคลตามค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="6a374-107">For example, if the image has a person on it, the system will set the focal point to the face of the person by default.</span></span> <span data-ttu-id="6a374-108">ในกรณีส่วนใหญ่ การตั้งค่าจุดโฟกัสโดยอัตโนมัติจะทำงานได้ดีสำหรับ viewports ทั้งหมด แต่บางครั้งคุณอาจต้องการปรับจุดโฟกัสเพื่อให้แน่ใจว่าจะมองเห็นส่วนเฉพาะของรูปภาพเสมอ</span><span class="sxs-lookup"><span data-stu-id="6a374-108">In most cases the automatically set focal point works well for all viewports, but sometimes you may want to adjust the focal point to ensure that a specific part of the image is always visible.</span></span>
+<span data-ttu-id="df1ce-106">เมื่อมีการอัพโหลดรูปภาพไปยังไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ระบบจะพยายามระบุจุดโฟกัสของรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-106">When an image is uploaded to the Commerce site builder Media Library, the system attempts to determine the focal point of the image.</span></span> <span data-ttu-id="df1ce-107">ตัวอย่างเช่น ถ้ารูปภาพมีบุคคลอยู่บนนั้น ระบบจะตั้งค่าจุดโฟกัสเป็นหน้าของบุคคลตามค่าเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="df1ce-107">For example, if the image has a person on it, the system will set the focal point to the face of the person by default.</span></span> <span data-ttu-id="df1ce-108">ในกรณีส่วนใหญ่ การตั้งค่าจุดโฟกัสโดยอัตโนมัติจะทำงานได้ดีสำหรับ viewports ทั้งหมด แต่บางครั้งคุณอาจต้องการปรับจุดโฟกัสเพื่อให้แน่ใจว่าจะมองเห็นส่วนเฉพาะของรูปภาพเสมอ</span><span class="sxs-lookup"><span data-stu-id="df1ce-108">In most cases the automatically set focal point works well for all viewports, but sometimes you may want to adjust the focal point to ensure that a specific part of the image is always visible.</span></span>
 
-### <a name="define-a-custom-focal-point-for-an-image"></a><span data-ttu-id="6a374-109">กำหนดจุดโฟกัสที่กำหนดเองสำหรับรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-109">Define a custom focal point for an image</span></span>
+### <a name="define-a-custom-focal-point-for-an-image"></a><span data-ttu-id="df1ce-109">กำหนดจุดโฟกัสที่กำหนดเองสำหรับรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-109">Define a custom focal point for an image</span></span>
 
-<span data-ttu-id="6a374-110">เมื่อต้องการกำหนดค่าจุดโฟกัสที่กำหนดเองสำหรับรูปภาพ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="6a374-110">To define a custom focal point for an image, follow these steps.</span></span>
+<span data-ttu-id="df1ce-110">เมื่อต้องการกำหนดค่าจุดโฟกัสที่กำหนดเองสำหรับรูปภาพ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="df1ce-110">To define a custom focal point for an image, follow these steps.</span></span>
 
-1. <span data-ttu-id="6a374-111">ในบานหน้าต่างนำทางด้านซ้ายของโปรแกรมสร้างไซต์ Commerce ให้เลือก **ไลบรารีสื่อ**</span><span class="sxs-lookup"><span data-stu-id="6a374-111">In the left navigation pane of Commerce site builder, select **Media Library**.</span></span>
-1. <span data-ttu-id="6a374-112">ในหน้าต่างหลัก เลือกภาพที่คุณต้องการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="6a374-112">In the main window, select the image you want to modify.</span></span>
-1. <span data-ttu-id="6a374-113">บนแถบคำสั่ง ให้เลือก **แก้ไข** เพื่อตรวจดูไฟล์</span><span class="sxs-lookup"><span data-stu-id="6a374-113">On the command bar, select **Edit** to check out the file.</span></span>
-1. <span data-ttu-id="6a374-114">เลือกรูปภาพเพื่อป้อน **โหมดแก้ไข**</span><span class="sxs-lookup"><span data-stu-id="6a374-114">Select the image to enter **Edit Mode**.</span></span>
-1. <span data-ttu-id="6a374-115">ภายใต้ **โหมดแก้ไข** เลือก **เปลี่ยนจุดโฟกัส**</span><span class="sxs-lookup"><span data-stu-id="6a374-115">Under **Edit Mode**, select **Change Focal Point**.</span></span> <span data-ttu-id="6a374-116">ตัวควบคุมจุดโฟกัสแบบวงกลมจะปรากฏบนรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-116">A circular focal point control appears over the image.</span></span>
-1. <span data-ttu-id="6a374-117">เลือกตัวควบคุมจุดโฟกัสเพื่อเลื่อนไปที่จุดโฟกัสที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="6a374-117">Select the focal point control to move it over the desired focal point.</span></span>
-1. <span data-ttu-id="6a374-118">เมื่อคุณดำเนินการเสร็จสิ้นแล้ว บนแถบคำสั่ง ให้เลือก **บันทึก** และจากนั้น เลือก **เสร็จสิ้นการแก้ไข**</span><span class="sxs-lookup"><span data-stu-id="6a374-118">When you're done, on the command bar select **Save**, and then select **Finish editing**.</span></span>
+1. <span data-ttu-id="df1ce-111">ในบานหน้าต่างนำทางด้านซ้ายของโปรแกรมสร้างไซต์ Commerce ให้เลือก **ไลบรารีสื่อ**</span><span class="sxs-lookup"><span data-stu-id="df1ce-111">In the left navigation pane of Commerce site builder, select **Media Library**.</span></span>
+1. <span data-ttu-id="df1ce-112">ในหน้าต่างหลัก เลือกภาพที่คุณต้องการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="df1ce-112">In the main window, select the image you want to modify.</span></span>
+1. <span data-ttu-id="df1ce-113">บนแถบคำสั่ง ให้เลือก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="df1ce-113">On the command bar, select **Edit**.</span></span>
+1. <span data-ttu-id="df1ce-114">เลือกรูปภาพเพื่อป้อน **โหมดแก้ไข**</span><span class="sxs-lookup"><span data-stu-id="df1ce-114">Select the image to enter **Edit Mode**.</span></span>
+1. <span data-ttu-id="df1ce-115">ภายใต้ **โหมดแก้ไข** เลือก **เปลี่ยนจุดโฟกัส**</span><span class="sxs-lookup"><span data-stu-id="df1ce-115">Under **Edit Mode**, select **Change Focal Point**.</span></span> <span data-ttu-id="df1ce-116">ตัวควบคุมจุดโฟกัสแบบวงกลมจะปรากฏบนรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-116">A circular focal point control appears over the image.</span></span>
+1. <span data-ttu-id="df1ce-117">เลือกตัวควบคุมจุดโฟกัสเพื่อเลื่อนไปที่จุดโฟกัสที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="df1ce-117">Select the focal point control to move it over the desired focal point.</span></span>
+1. <span data-ttu-id="df1ce-118">เมื่อคุณดำเนินการเสร็จสิ้นแล้ว บนแถบคำสั่ง ให้เลือก **บันทึก** และจากนั้น เลือก **เสร็จสิ้นการแก้ไข**</span><span class="sxs-lookup"><span data-stu-id="df1ce-118">When you're done, on the command bar select **Save**, and then select **Finish editing**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6a374-119">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6a374-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="df1ce-119">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="df1ce-119">Additional resources</span></span>
 
-[<span data-ttu-id="6a374-120">ภาพรวมของการจัดการสินทรัพย์ดิจิทัล</span><span class="sxs-lookup"><span data-stu-id="6a374-120">Digital asset management overview</span></span>](dam-overview.md)
+[<span data-ttu-id="df1ce-120">ภาพรวมของการจัดการสินทรัพย์ดิจิทัล</span><span class="sxs-lookup"><span data-stu-id="df1ce-120">Digital asset management overview</span></span>](dam-overview.md)
 
-[<span data-ttu-id="6a374-121">อัพโหลดรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-121">Upload images</span></span>](dam-upload-images.md)
+[<span data-ttu-id="df1ce-121">อัพโหลดรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-121">Upload images</span></span>](dam-upload-images.md)
 
-[<span data-ttu-id="6a374-122">อัพโหลดวิดีโอ</span><span class="sxs-lookup"><span data-stu-id="6a374-122">Upload video</span></span>](dam-upload-video.md)
+[<span data-ttu-id="df1ce-122">อัพโหลดวิดีโอ</span><span class="sxs-lookup"><span data-stu-id="df1ce-122">Upload video</span></span>](dam-upload-video.md)
 
-[<span data-ttu-id="6a374-123">อัพโหลดไฟล์</span><span class="sxs-lookup"><span data-stu-id="6a374-123">Upload files</span></span>](dam-upload-files.md)
+[<span data-ttu-id="df1ce-123">อัพโหลดไฟล์</span><span class="sxs-lookup"><span data-stu-id="df1ce-123">Upload files</span></span>](dam-upload-files.md)
 
-[<span data-ttu-id="6a374-124">ตัดรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="6a374-124">Crop images</span></span>](dam-crop-images.md)
+[<span data-ttu-id="df1ce-124">ตัดรูปภาพ</span><span class="sxs-lookup"><span data-stu-id="df1ce-124">Crop images</span></span>](dam-crop-images.md)
