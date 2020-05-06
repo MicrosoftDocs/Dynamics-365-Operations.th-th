@@ -3,7 +3,7 @@ title: เนื้อหา Power BI เกี่ยวกับการจั
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189119"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278885"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
@@ -49,7 +49,7 @@ ms.locfileid: "2189119"
 1. ไปที่ **การจัดการระบบ > การตั้งค่า > พารามิเตอร์ระบบ** เพื่อตั้งค่า **สกุลเงินของระบบ** และ **อัตราแลกเปลี่ยนของระบบ**
 2. ไปที่ **บัญชีแยกประเภททั่วไป > การตั้งค่า > บัญชีแยกประเภท** และตั้งค่า **กุลเงินทางบัญชี** และ **ชนิดอัตราแลกเปลี่ยน**
 3. กำหนดอัตราแลกเปลี่ยนระหว่างสกุลเงินของธุรกรรมและสกุลเงินทางบัญชี สกุลเงินทางบัญชีและสกุลเงินของระบบ เมื่อต้องการทำเช่นนี้ ไปที่ **บัญชีแยกประเภททั่วไป > สกุลเงิน > อัตราแลกเปลี่ยนสกุลเงิน**
-4. ไปที่ **การจัดการระบบ > การตั้งค่า > ที่จัดเก็บเอนทิตี** เพื่อรีเฟรชการวัดรวม **CustCollectionsBIMeasurements**
+4. ไปที่ **การจัดการระบบ > การตั้งค่า > ที่จัดเก็บเอนทิตี้** เพื่อรีเฟรชการวัดรวม **CustCollectionsBIMeasurementsV2**
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 
