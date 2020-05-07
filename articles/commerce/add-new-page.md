@@ -3,7 +3,7 @@ title: เพิ่มหน้าไซต์ใหม่
 description: หัวข้อนี้อธิบายวิธีการเพิ่มเพจของไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68461f1f0be46f979a67e1806e03c02200cf61db
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001357"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269969"
 ---
 # <a name="add-a-new-site-page"></a>เพิ่มหน้าไซต์ใหม่
 
@@ -67,7 +67,7 @@ ms.locfileid: "3001357"
 1. เลือก **บล็อกเนื้อหา** เลือกปุ่มจุดไข่ปลา (...) แล้วเลือก **เพิ่มโมดูล**
 1. เลือก **สินค้าบล็อกเนื้อหา** แล้วเลือก **ตกลง**
 1. ในบานหน้าต่างคุณสมบัติทางด้านขวา ให้เลือก **ย่อหน้า** แล้วในฟิลด์ ให้ป้อน **ข้อความการทดสอบของฉัน**
-1. เลือก **บันทึก** แล้วจากนั้น เลือก **เช็คอิน**
+1. เลือก **บันทึก** และจากนั้น เลือก **แก้ไขให้เสร็จสิ้น**
 1. ในฟิลด์ **ข้อคิดเห็น** ป้อน **เพิ่มหน้าใหม่** แล้วเลือก **ตกลง**
 1. เลือก **แสดงตัวอย่าง** เพื่อแสดงตัวอย่างเพจของคุณ เมื่อเสร็จสิ้นแล้ว ให้ปิดแท็บการแสดงตัวอย่า งเพื่อกลับไปที่เครื่องมือการสร้าง
 1. เลือก **เผยแพร่**
