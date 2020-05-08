@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116567"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265603"
 ---
 # <a name="show-discounts-in-pos"></a>แสดงส่วนลดใน POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 โปรโมชั่นมีบทบาทสำคัญในการสร้างแรงกระตุ้นให้กับลูกค้าที่กำลังตัดสินใจซื้อ ตัวอย่างเช่นวันหยุดสามารถสร้างยอดขายสูงสุดสำหรับร้านค้าปลีก เนื่องจากตลาดขายปลีกทั้งหมดเต็มไปด้วยโปรโมชั่นและส่วนลด ถ้าสมาคมร้านค้าทราบและทำความเข้าใจกับโปรโมชันที่พร้อมใช้งาน คุณจะสามารถใช้ประโยชน์จากโปรโมชันเหล่านั้นได้อย่างง่ายดายให้กับการเพิ่มการขายหรือการขายสินค้าชนิดอื่น หัวข้อนี้จะอธิบายถึงวิธีการที่ Microsoft Dynamics 365 Commerce ช่วยให้สมาคมร้านค้าเรียนรู้เกี่ยวกับโปรโมชั่น และวิธีการที่สามารถใช้สำหรับการเคลื่อนไหวในการเพิ่มการขายหรือการขายสินค้าชนิดอื่น
 

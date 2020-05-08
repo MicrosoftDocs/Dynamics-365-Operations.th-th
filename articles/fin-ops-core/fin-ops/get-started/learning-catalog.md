@@ -3,20 +3,20 @@ title: แค็ตตาล็อกการเรียนรู้สำห�
 description: ค้นหาตัวเลือกการฝึกอบรมทั้งหมดสำหรับ Finance and Operations
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078004"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279100"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>แค็ตตาล็อกการเรียนรู้สำหรับ Finance and Operations
 
@@ -33,6 +33,10 @@ ms.locfileid: "3078004"
     คุณตัดสินใจว่าจะลงทุนในเทคโนโลยีใหม่หรือไม่ 
 
     [แค็ตตาล็อกการเรียนรู้ธุรกิจและผู้ตัดสินใจทางเทคนิค](learning-catalog-bdm.md#)
+
+    [เริ่มต้น](learning-catalog-bdm.md#get-started)
+
+    [การสอบ](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ ms.locfileid: "3078004"
 
     [การจัดการทางการเงิน](learning-catalog-business-user.md#financial-management)
 
+    [การสอบ](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>ผู้จัดการโครงการสำหรับการใช้งาน
+    ### <a name="implementation-project-managers"></a>ผู้จัดการโครงการสำหรับการใช้งาน
 
     คุณรับผิดชอบการทำให้แน่ใจว่าการใช้งานของบริษัทของคุณเป็นไปอย่างราบรื่นใช่หรือไม่
 
@@ -73,6 +79,9 @@ ms.locfileid: "3078004"
     [การผลิต](learning-catalog-project-manager.md#manufacturing)
 
     [การบริหารห่วงโซ่อุปทาน](learning-catalog-project-manager.md#supply-chain-management)
+
+    [การสอบ](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -82,15 +91,19 @@ ms.locfileid: "3078004"
 
     [แค็ตตาล็อกการเรียนรู้ของผู้ดูแลระบบ](learning-catalog-administrator.md)
 
-    [เริ่มต้นใช้งาน](learning-catalog-administrator.md#get-started)
+    [เริ่มต้น](learning-catalog-administrator.md#get-started)
 
     [ความรู้ของแพลตฟอร์มหลัก](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [การพัฒนาหลัก](learning-catalog-administrator.md#core-development)
 
     [การย้ายและการอัพเกรด](learning-catalog-administrator.md#migration-and-upgrade)
 
     [การบริการ](learning-catalog-administrator.md#servicing)
 
     [กำลังทดสอบ](learning-catalog-administrator.md#testing)
+
+    [การสอบ](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ ms.locfileid: "3078004"
 
     [การบริหารห่วงโซ่อุปทาน](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [การสอบ](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ ms.locfileid: "3078004"
     คุณมีความรับผิดชอบในการช่วยให้ลูกค้าของคุณซื้อโซลูชันที่เหมาะสมหรือไม่ 
 
     [แค็ตตาล็อกการเรียนรู้การขายของคู่ค้า Microsoft และการตลาด](learning-catalog-partner-sales.md)
+
+    [เริ่มต้น](learning-catalog-partner-sales.md#get-started)
+
+    [การสอบ](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

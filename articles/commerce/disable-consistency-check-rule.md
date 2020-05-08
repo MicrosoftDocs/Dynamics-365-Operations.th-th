@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51a02d6f305cbad9784cf1b811188d0e06b6f15b
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 37209f1c1de19335f5f9fa6636ab55dd8b2fccc1
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057648"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265537"
 ---
 # <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>ปิดใช้งานกฎในตัวตรวจสอบความสอดคล้องกันของธุรกรรมการขายปลีก 
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ผู้ขายปลีกอาจมีสถานการณ์และกระบวนการทางธุรกิจที่ไม่ซ้ำกัน ดังนั้นกฎทั้งหมดที่รวมไว้ตามค่าเริ่มต้นในตัวตรวจสอบความสอดคล้องกันของธุรกรรมการค้าจึงไม่สามารถใช้ได้กับผู้ขายปลีกทั้งหมด เพื่อรองรับความแตกต่าง Microsoft Dynamics 365 Commerce จึงมีฟังก์ชันที่สามารถใช้เพื่อปิดใช้งานกฎที่ไม่เกี่ยวข้องได้
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172679"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275452"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>แก้ไขปัญหาในระหว่างการตั้งค่าเริ่มต้น
 
@@ -39,7 +39,7 @@ ms.locfileid: "3172679"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>คุณไม่สามารถเชื่อมโยงแอป Finance and Operations กับ Common Data Service ได้
 
-**ข้อมูลประจำตัวที่จำเป็นในการตั้งค่าการรวมแบบสองทิศทาง:** ผู้ดูแลระบบผู้เช่า Azure AD
+**บทบาทที่จำเป็นในการตั้งค่าการรวมแบบสองทิศทาง:** ผู้ดูแลระบบในแอป Finance and Operations และ Common Data Service
 
 ข้อผิดพลาดบนหน้า **ลิงค์การตั้งค่าไปยัง Common Data Service** โดยปกติจะเกิดจากปัญหาการตั้งค่าที่ไม่สมบูรณ์หรือปัญหาของสิทธิ์ ตรวจสอบให้แน่ใจว่าผ่านการตรวจสอบความสมบูรณ์ทั้งหมดบนหน้า **ลิงค์การตั้งค่าไปยัง Common Data Service** ดังแสดงในภาพประกอบต่อไปนี้ คุณไม่สามารถเชื่อมโยงการรวมแบบสองทิศทางได้จนกว่าจะผ่านการตรวจสอบความสมบูรณ์ทั้งหมด
 
