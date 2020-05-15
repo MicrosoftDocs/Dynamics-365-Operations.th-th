@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: สถานะการบำรุงรักษา
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: รวมการจัดการสินทรัพย์ด้วย Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
               href: asset-management/asset-management-mobile-workspace.md
         - name: การจัดการข้อมูล
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เพิ่มมิติทางการเงินไปยังการวัดแบบรวม
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ PowerBI Desktop
+                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: ภาพรวมของการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: ปริมาณคงคลังคงเหลือติดลบจะถือเป็นปริมาณคงคลังคงเหลือเป็นศูนย์
+                - name: การวางแผนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบ
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: ตั้งค่ากระบวนการการเติมสินค้าต่ำสุด-สูงสุด
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: ติดตั้งและตั้งค่าคอนฟิกในแอปพลิเคชัน Warehousing
               items:
                 - name: ภาพรวมของการติดตั้งและตั้งค่าคอนฟิก
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: การรับป้ายทะเบียนด้วยแอป Warehousing บนอุปกรณ์เคลื่อนที่
+                - name: การรับป้ายทะเบียนด้วยแอปพลิเคชัน Warehousing
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
                   href: warehousing/tasks/set-up-mobile-device-menu.md
