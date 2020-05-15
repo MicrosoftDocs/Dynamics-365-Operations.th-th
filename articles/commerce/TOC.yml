@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (เมษายน 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (กุมภาพันธ์ 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: การทำงานกับสินค้าที่ทำเป็นอนุกรม
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: ทำงานกับสินค้าที่ทำเป็นอนุกรมใน POS
+                      href: pos-serialized-items.md
                     - name: กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: ตั้งค่ากฎและพารามิเตอร์สำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าและการจัดส่งสินค้าแบบผลัก
@@ -1000,9 +1002,9 @@
               href: assess-customer-product-profitability.md
             - name: วิเคราะห์ประสิทธิภาพร้านค้า
               href: store-performance-information.md
-            - name: 'ตั้งค่าการวิเคราะห์ Recency, ความถี่ และยอดเงิน (RFM)'
+            - name: ตั้งค่าการวิเคราะห์ความเป็นปัจจุบัน ความถี่ และยอดเงิน (RFM)
               href: set-up-rfm-analysis.md
-        - name: คุณลักษณะการทำงานเฉพาะและบังคับ
+        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
           items:
             - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: ยุโรปตะวันออก
               items:
-                - name: ใบแจ้งหนี้การชำระเงินล่วงหน้าของ Commerce สำหรับยุโรปตะวันออก
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: การจัดการเงินสดย่อยของ Commerce สำหรับยุโรปตะวันออก
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Commerce สำหรับประเทศในยุโรปตะวันออก
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
-                  href: localizations/emea-eeu-deployment.md
-                - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
-                  href: localizations/emea-cze-fi-sample.md
+                - name: ทั่วไป
+                  items:
+                    - name: ใบแจ้งหนี้การชำระเงินล่วงหน้าของ Commerce สำหรับยุโรปตะวันออก
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: การจัดการเงินสดย่อยของ Commerce สำหรับยุโรปตะวันออก
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Commerce สำหรับประเทศในยุโรปตะวันออก
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
+                      href: localizations/emea-eeu-deployment.md
+                - name: สาธารณรัฐเช็ก
+                  items:
+                    - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
+                      href: localizations/emea-cze-fi-sample.md
+                - name: โปแลนด์
+                  items:
+                    - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: การจัดการข้อมูลลูกค้าสำหรับโปแลนด์
+                      href: localizations/emea-pol-customer-information.md
             - name: ฝรั่งเศส
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -1044,6 +1054,8 @@
               items:
                 - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
                   href: localizations/emea-ita-fpi-sample.md
+                - name: การจัดการข้อมูลลูกค้าสำหรับอิตาลี
+                  href: localizations/emea-ita-customer-information.md
             - name: เม็กซิโก
               items:
                 - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI สากลสำหรับเม็กซิโก
@@ -1058,7 +1070,9 @@
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
                   href: localizations/emea-swe-cash-registers.md
-                - name: ตัวอย่างสำหรับการรวมระบบ POS กับอุปกรณ์ควบคุม
+                - name: ตัวอย่างการรวมหน่วยควบคุมสำหรับสวีเดน
+                  href: localizations/emea-swe-fi-sample.md
+                - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม (ดั้งเดิม)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: การรายงานและการรวม Power BI
           items:
@@ -1138,7 +1152,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: เพิ่มมิติทางการเงินไปยังการวัดแบบรวม
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ PowerBI Desktop
+                - name: สร้างรายงานเชิงวิเคราะห์โดยการใช้ Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
