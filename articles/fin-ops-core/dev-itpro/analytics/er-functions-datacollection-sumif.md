@@ -3,7 +3,7 @@ title: ฟังก์ชัน SUMIF ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) SUMIF
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042492"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290211"
 ---
-# <a name="SUMIF">ฟังก์ชัน SUMIF ER</a>
+# <a name=""></a><a name="SUMIF">ฟังก์ชัน SUMIF ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,6 +63,8 @@ SUMIF (key name for summing, condition range, condition value)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้ฟังก์ชันนี้ ดูคู่มืองาน [ER ใช้ข้อมูลของผลลัพธ์รูปแบบสำหรับการตรวจนับและการรวม](tasks/er-format-counting-summing-1.md) ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **ซื้อ/พัฒนาบริการด้าน IT/ ส่วนประกอบโซลูชั่น**
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+สําหรับข้อมูลและตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ฟังก์ชันนี้ ให้ดูที่ [เลื่อนการดําเนินการขององค์ประกอบลําดับในรูปแบบ ER ](er-defer-sequence-element.md#Example) และ [เลื่อนการดําเนินการขององค์ประกอบ XML ในรูปแบบ ER](er-defer-xml-element.md#Example)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันการรวบรวมข้อมูล](er-functions-category-data-collection.md)

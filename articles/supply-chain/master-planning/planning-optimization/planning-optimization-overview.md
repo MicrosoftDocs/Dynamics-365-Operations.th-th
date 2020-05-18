@@ -19,17 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: f88ee8067fdd816ba6890ee28bafe8fa4d3b3ac5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208742"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323404"
 ---
 # <a name="planning-optimization-overview"></a>ภาพรวมการเพิ่มประสิทธิภาพการวางแผน
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 การเพิ่มประสิทธิภาพการวางแผน Add-in สำหรับ Microsoft Dynamics 365 Supply Chain Management เปิดใช้งานการคำนวณการวางแผนหลักที่จะเกิดขึ้นภายนอก Dynamics 365 Supply Chain Management และฐานข้อมูล SQL ที่เกี่ยวข้อง สวัสดิการที่เกี่ยวข้องกับฟังก์ชันการเพิ่มประสิทธิภาพการวางแผนรวมถึงประสิทธิภาพที่ดียิ่งขึ้นและผลกระทบน้อยที่สุดบนฐานข้อมูล SQL ในระหว่างการวางแผนหลัก การรันการวางแผนด่วนสามารถทำได้แม้กระทั่งช่วงเวลาทำงาน เพื่อให้ผู้วางแผนสามารถตอบสนองความต้องการหรือเปลี่ยนแปลงพารามิเตอร์ได้ทันที
 
