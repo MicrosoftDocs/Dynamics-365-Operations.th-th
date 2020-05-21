@@ -42,7 +42,7 @@ LinkedIn เป็นเครือข่ายมืออาชีพออ�
 2. เลือก **การตั้งค่าผู้ใช้**
 3. บนแท็บ **การเชื่อมต่อ** ให้เลือก **เชื่อมต่อ** ที่อยู่ถัดจาก **LinkedIn** ทำตามคำแนะนำที่จัดเตรียมให้โดย LinkedIn
 
-    ![[ตั้งค่าการเชื่อมต่อไปยัง LinkedIn Recruiter จาก Attract](./media/attract-setup-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[ตั้งค่าการเชื่อมต่อไปยัง LinkedIn Recruiter จาก Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>ดูผู้สมัคร LinkedIn Attract
 
