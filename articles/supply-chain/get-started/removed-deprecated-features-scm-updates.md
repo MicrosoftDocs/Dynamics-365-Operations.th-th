@@ -2,8 +2,8 @@
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้ว่าจะลบใน Dynamics 365 Supply Chain Management
 author: kamaybac
-manager: tfehr
-ms.date: 03/03/2020
+manager: AnnBe
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2011f5cc3489eb7921d818dbd178425f72bac2d1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7502cd16129431d41d152508fb3b49ff85a5a9f8
+ms.sourcegitcommit: f1db998ecfccca660eb15cc2739b12c8463fa54d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205080"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331259"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
 
@@ -35,6 +35,18 @@ ms.locfileid: "3205080"
 
 > [!NOTE]
 > ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.11
+
+### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>การใช้กลไกจัดการการวางแผนหลักของ Supply Chain Management ในตัวสำหรับสถานการณ์จำลองการกระจาย
+
+|   |  |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | เมื่อต้องการปรับปรุงประสิทธิภาพการทำงานและลดการโหลดฐานข้อมูล SQL ในระหว่างการรันการวางแผนหลัก ระบบการวางแผนหลักของ Supply Chain Management ที่มีอยู่แล้วจะถูกแทนที่ด้วยการเพิ่มประสิทธิภาพการวางแผน การเพิ่มประสิทธิภาพการวางแผนช่วยให้สามารถทำงานได้อย่างรวดเร็ว ซึ่งสามารถดำเนินการได้แม้กระทั่งในเวลาทำการ การทำเช่นนี้จะช่วยให้ผู้วางแผนสามารถตอบสนองต่อการเปลี่ยนแปลงในความต้องการหรือพารามิเตอร์การวางแผนได้ทันที |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ การเพิ่มประสิทธิภาพของการวางแผนจะแทนที่กลไกจัดการการวางแผนหลักของ Supply Chain Management ในตัวที่มีอยู่แล้ว |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | Supply Chain Management - การวางแผนหลัก |
+| **ตัวเลือกการปรับใช้**              | ระบบ Cloud เท่านั้น การเพิ่มประสิทธิภาพการวางแผนไม่สนับสนุนการปรับใช้ในสถานที่ |
+| **สถานะ**                         | ยกเลิกการใช้งาน ในเดือนเมษายน 2021 สถานการณ์จำลองการกระจายจะไม่ได้รับการสนับสนุนอีกต่อไปด้วยกลไกจัดการการวางแผนหลักของ Dynamics 365 Supply Chain Management ในตัว สำหรับสถานการณ์จำลองการกระจาย ลูกค้าต้องใช้การเพิ่มประสิทธิภาพการวางแผนสำหรับการคำนวณการวางแผนหลัก สำหรับข้อมูลเพิ่มเติมให้ดูที่ [เอกสารประกอบการปรับการเพิ่มประสิทธิภาพการวางแผน](https://go.microsoft.com/fwlink/?linkid=2105830) ลูกค้าที่มีการปรับใช้ในสถานที่ของ Dynamics 365 Supply Chain Management อาจดำเนินการต่อไปเพื่อใช้กลไกจัดการการวางแผนหลักของ Supply Chain Management สำหรับสถานการณ์การกระจายหลังจากเดือนเมษายน 2021 อย่างไรก็ตาม จะไม่มีการปรับปรุงลักษณะการทำงานเพิ่มเติม |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>ประกาศก่อนหน้านี้เกี่ยวกับคุณลักษณะที่ถูกลบหรือเลิกสนับสนุน
 

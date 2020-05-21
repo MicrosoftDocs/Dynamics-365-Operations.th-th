@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (เมษายน 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (กุมภาพันธ์ 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: การซิงโครไนส์เริ่มแรก
-                              href: data-entities/dual-write/initial-sync.md
                             - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
                               items:
                                 - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: การควบคุมรุ่น การค้นหาข้อมูลเมตา และการนำทาง
               href: dev-tools/version-control-metadata-navigation.md
+            - name: สร้างระบบอัตโนมัติโดยใช้ Azure
+              items:
+                - name: สร้างระบบอัตโนมัติโดยใช้ตัวแทนโฮสต์ Microsoft และ Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: เพิ่มไฟล์ลิขสิทธิ์ไปยังแพคเกจที่สามารถปรับใช้ได้ใน Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: สร้างแพคเกจที่สามารถปรับใช้ได้ใน Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: การกำหนดรุ่นสำหรับแบบจำลอง X++ ใน Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: แอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
               items:
                 - name: สถานการณ์จำลองแบบครอบคลุมสำหรับแอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: กำหนดบทบาทความปลอดภัยให้กับผู้ใช้
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: การประมวลผลชุดงาน
               items:
                 - name: ภาพรวมของการประมวลผลชุดงาน

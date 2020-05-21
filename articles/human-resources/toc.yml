@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 1 พฤษภาคม 2020
+          href: hr-whats-new-2020-05-01.md
         - name: 13 เมษายน 2020
           href: hr-whats-new-2020-04-13.md
         - name: 3 เมษายน 2020
@@ -503,6 +505,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: ระงับการลางาน
               href: hr-leave-and-absence-suspend-leave.md
+            - name: จัดการการลางานของพนักงาน
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: ดูการวิเคราะห์สำหรับการลางานและการขาดงาน
               href: hr-leave-and-absence-analytics.md
             - name: จัดการกับคำขอการลางานและการขาดงาน
