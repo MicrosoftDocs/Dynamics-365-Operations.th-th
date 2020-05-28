@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: โฮมเพจ Dynamics 365 Commerce
           href: index.md
         - name: เริ่มต้นใช้งาน
           items:
@@ -79,7 +79,7 @@
                 - name: การติดตั้ง การตั้งค่าคอนฟิกและการตัดการเปิดตัวแบบเป็นขั้นตอน (N-1)
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: อัปเกรดส่วนขยายช่องทาง Retail เป็น Retail SDK ล่าสุด
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
                 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
@@ -112,13 +112,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: เชื่อมต่อระบบวิธีใช้
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: ภาพรวมของวิธีใช้แบบกำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: ดูและส่งออกคำอธิบายฟิลด์
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: ตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/commerce/toc.json
-                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
+                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: วิดีโอ
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
@@ -499,7 +499,9 @@
                     - name: ตัวเชื่อมต่อการชำระเงิน Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: การยืนยันตัวตนของลูกค้าแบบขั้นสูง (SCA) โดยใช้ตัวเชื่อมต่อ Adyen
+                      href: adyen_redirect.md
                     - name: สวิตช์ออฟไลน์ที่ราบรื่นสำหรับการดำเนินงานบัตรของขวัญและใบลดหนี้
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: FAQ เกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
+                - name: จัดการ Bing Maps สำหรับองค์กรของคุณ
+                  href: dev-itpro/manage-bing-maps.md
         - name: การขายผลิตภัณฑ์และบริการของคุณ
           items:
             - name: ประเภท ผลิตภัณฑ์ และการจัดประเภท
@@ -680,7 +684,7 @@
                   href: POS-change-delivery-mode.md
             - name: การจัดการใบสั่งแบบกระจาย
               items:
-                - name: ภาพรวมของ DOM
+                - name: ภาพรวมของการจัดการใบสั่งแบบกระจาย (DOM)
                   href: dom.md
                 - name: การตั้งค่าคอนฟิกต้นทุน
                   href: cost.md
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)
                   href: manage-csp.md
+                - name: การเลือกปฏิเสธการรวบรวมข้อมูลกิจกรรมบนเว็บ
+                  href: web-activity-opt-out.md
             - name: จัดการเนื้อหาไซต์ของคุณ
               items:
                 - name: วิธีการเพิ่มเนื้อหา
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: ตั้งค่าคอนฟิกและส่งอีเมล
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: สร้างเท็มเพลตอีเมลสำหรับเหตุการณ์ของธุรกรรม
+              href: email-templates-transactions.md
             - name: พัฒนาประสบการณ์ใช้งานอีเมล
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: แก้ไขปัญหาการรวม Office
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: คอลัมน์ก่อนขยายในฐานข้อมูลช่องทาง
                   href: dev-itpro/extended-columns.md
+                - name: ขยาย Commerce Data Exchange - Real-time Service
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: ความสามารถในการเพิ่มฟังก์ชันของเชื่อมต่อการชำระเงิน
               items:
                 - name: สร้างการรวมการชำระเงินสำหรับเทอร์มินัลการชำระเงิน

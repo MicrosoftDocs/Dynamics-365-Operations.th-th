@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 14 พฤษภาคม 2020
+          href: hr-whats-new-2020-05-14.md
         - name: 1 พฤษภาคม 2020
           href: hr-whats-new-2020-05-01.md
         - name: 13 เมษายน 2020
@@ -111,19 +113,21 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: ทำความเข้าใจเกี่ยวกับ Lifecycle Services
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: แอป Human Resources ใน Teams
+          href: hr-admin-teams-leave-app.md
         - name: แหล่งข้อมูลเอกสารประกอบ
           items:
             - name: ระบบวิธีใช้
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: เชื่อมต่อระบบวิธีใช้
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: ภาพรวมของวิธีใช้แบบกำหนดเอง
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: ดูและส่งออกคำอธิบายฟิลด์
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: ตัวบันทึกงาน
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
-            - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
+            - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
         - name: แก้ไขปัญหาของ Human Resources
           items:
@@ -511,10 +515,12 @@
               href: hr-leave-and-absence-analytics.md
             - name: จัดการกับคำขอการลางานและการขาดงาน
               href: hr-employee-self-service-manage-requests.md
-            - name: ร้องขอการหยุดพัก
+            - name: ส่งคำขอการลาหยุด
               href: hr-employee-self-service-request-time-off.md
             - name: ดูปฏิทินของทีมและบริษัท
               href: hr-employee-self-service-calendar.md
+        - name: จัดการคำขอลางานใน Teams
+          href: hr-teams-leave-app.md
         - name: พัฒนาพนักงาน
           items:
             - name: ภาพรวมของการบริหารประสิทธิภาพ

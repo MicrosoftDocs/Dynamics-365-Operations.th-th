@@ -1,5 +1,5 @@
 ---
-title: ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
+title: โฮมเพจ Supply Chain Management
 description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201536"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386398"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>ทรัพยากรความช่วยเหลือสำหรับ Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>โฮมเพจ Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ ms.locfileid: "3201536"
 - [การบัญชีต้นทุน](../finance/cost-accounting/cost-accounting-home-page.md)
 - [การจัดการต้นทุน](cost-management/cost-management-home-page.md)  
 - [การบริหารสินค้าคงคลัง](inventory/inventory-home-page.md)
+- [เครื่องมือ IoT](iot/iot-intelligence-home-page.md)
 - [การวางแผนหลัก](master-planning/master-planning-home-page.md)
 - [การจัดซื้อและการจัดหา](procurement/procurement-sourcing-overview.md)
 - [การจัดการข้อมูลผลิตภัณฑ์](pim/product-information.md)
