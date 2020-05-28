@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: โฮมเพจ Dynamics 365 Supply Chain Management
           href: index.md
         - name: เริ่มต้นใช้งาน
           items:
@@ -94,13 +94,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เชื่อมต่อระบบวิธีใช้
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ภาพรวมของวิธีใช้แบบกำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ดูและส่งออกคำอธิบายฟิลด์
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน
+                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: วิดีโอ
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
@@ -1309,10 +1309,26 @@
                   href: cost-management/inventory-close.md
                 - name: ราคาต้นทุนถัวเฉลี่ย
                   href: cost-management/running-average-cost-price.md
-                - name: การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
+                - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: เครื่องมือ IoT
+          items:
+            - name: โฮมเพจเครื่องมือ IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: ตั้งค่าแหล่งข้อมูล Azure
+              href: iot/iot-azure-setup.md
+            - name: รูปแบบเค้าร่างข้อความสำหรับฮับ IoT
+              href: iot/iot-schema-format.md
+            - name: ติดตั้ง Add-in ใน LCS
+              href: iot/iot-lcs-setup.md
+            - name: ตั้งค่าเมตริก
+              href: iot/iot-metrics-setup.md
+            - name: การตั้งค่าสถานการณ์จำลอง
+              href: iot/iot-scenario-setup.md
+            - name: ตรวจสอบและจัดการ
+              href: iot/iot-management.md
         - name: การวางแผนหลัก
           items:
             - name: โฮมเพจการวางแผนหลัก
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: ยกเลิกงานการวางแผน
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: แผนหลัก
               items:
                 - name: ภาพรวมของแผนหลัก
@@ -2655,11 +2673,11 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: ตั้งค่ากระบวนการการเติมสินค้าต่ำสุด-สูงสุด
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: ติดตั้งและตั้งค่าคอนฟิกในแอปพลิเคชัน Warehousing
+            - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
               items:
-                - name: ภาพรวมของการติดตั้งและตั้งค่าคอนฟิก
+                - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
                   href: warehousing/install-configure-warehousing-app.md
-                - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปพลิเคชัน Warehousing
+                - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปคลังสินค้า
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                   href: warehousing/configure-mobile-devices-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: นโยบายการรวมบัญชีการจัดส่ง
+              items:
+                - name: นโยบายการรวมบัญชีการจัดส่ง
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งเมื่อนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยใช้การนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: สถานการณ์จำลอง 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: การพัฒนา Supply Chain Management
           items:
             - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt

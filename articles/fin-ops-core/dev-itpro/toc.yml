@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: แก้ไขปัญหาแอปพลิเคชันของแพคเกจ
                   href: deployment/deployable-package-troubleshooting.md
+            - name: ปรับใช้วิธีใช้แบบกำหนดเอง
+              items:
+                - name: ภาพรวมของวิธีใช้แบบกำหนดเอง
+                  href: help/custom-help-overview.md
+                - name: การเตรียมเนื้อหาสำหรับใช้กับบานหน้าต่างวิธีใช้
+                  href: help/preparing-content.md
+                - name: การปรับใช้วิธีใช้แบบกำหนดเองกับ Azure
+                  href: help/walkthrough-help-azure.md
+                - name: เชื่อมต่อวิธีใช้แบบกำหนดเองของคุณกับบานหน้าต่างวิธีใช้
+                  href: help/connect-help-pane.md
+                - name: ชุดเครื่องมือวิธีใช้แบบกำหนดเอง
+                  items:
+                    - name: ภาพรวม
+                      href: help/custom-help-toolkit.md
+                    - name: เครื่องมือ HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: เครื่องมือ Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: เครื่องมือ HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: แปลงวิธีใช้แบบกำหนดเองของ Dynamics AX สำหรับใช้ใน Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: ตัวอธิบายภาษาและตำแหน่งที่ตั้งในผลิตภัณฑ์และวิธีใช้
+                  href: help/language-locale.md
+                - name: ขยาย เลือกกำหนด และทำงานร่วมกันในวิธีใช้
+                  href: help/contributor-guide.md
         - name: พัฒนาและเลือกกำหนด
           items:
             - name: โฮมเพจการพัฒนาและเลือกกำหนด
@@ -835,7 +861,7 @@
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันรุ่น 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชัน กรกฎาคม 2017
