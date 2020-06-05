@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201605"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383009"
 ---
 # <a name="set-up-shipping-carriers"></a>ตั้งค่าผู้ขนส่ง
 
@@ -32,7 +32,7 @@ ms.locfileid: "3201605"
 
 ## <a name="create-a-new-shipping-carrier"></a>สร้างผู้ขนส่งสินค้าใหม่
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > การจัดการการขนส่ง > การตั้งค่า > ผู้ขนส่ง > ผู้ขนส่งสินค้า**
-2. เลือก **สร้าง** ในบานหน้าต่างการดำเนินการ
+2. เลือก **สร้าง** บนหน้าต่างการดำเนินการ
 3. ในฟิลด์ **ผู้ขนส่งสินค้า** ให้พิมพ์ค่าใดค่าหนึ่ง
 4. ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง
 5. ในฟิลด์ **โหมด** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง

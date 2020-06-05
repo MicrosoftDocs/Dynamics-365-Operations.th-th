@@ -1,9 +1,9 @@
 ---
 title: วิดีโอ
-description: หน้านี้แสดงรายการ "วิธีการ" ที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
+description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781861"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367140"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -33,12 +33,12 @@ ms.locfileid: "2781861"
 > [!Note]
 > วิดีโอบางรายการที่แสดงรายการได้รับการเผยแพร่ภายใต้ชื่อผลิตภัณฑ์ก่อนหน้านี้ แต่ยังสามารถใช้ได้
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>การพัฒนาและการจัดการวิดีโอสำหรับ Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>วิดีโอสำหรับการพัฒนาและการจัดการ Finance and Operations
 
 ### <a name="data-integration"></a>การรวมข้อมูล
 
 - [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg)
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>การจัดการข้อมูล
 
@@ -56,7 +56,7 @@ ms.locfileid: "2781861"
 
 - [วิธีการแก้ไขรายงานที่ฝังในพื้นที่ทำงานเชิงวิเคราะห์](https://youtu.be/_8WlwmSggcQ)
 - [วิธีการฝังรายงาน PowerBI.com ในแอป Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [นำฐานข้อมูลของคุณเอง (BYOD) ไปยังแอป Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [นำฐานข้อมูล (BYOD) ของคุณเองไปยังแอป Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -76,6 +76,12 @@ ms.locfileid: "2781861"
 - [การรีเฟรชข้อมูลในสภาพแวดล้อมการผลิต](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [ใช้การนำออกใช้แพลตฟอร์มใหม่หลังการปรับปรุงแพลตฟอร์ม 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [ใช้การตรวจวัดระยะไกลเพื่อตรวจสอบตัวนับประสิทธิภาพหลักใน Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [วิธีการใช้ตัวบันทึกงานเพื่อสร้างกรณีการทดสอบสำหรับ Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
+- [วิธีการสร้างแผนการทดสอบใน Azure DevOps เพื่อใช้ Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [วิธีใช้ Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>วิดีโอสำหรับ Dynamics 365 Finance

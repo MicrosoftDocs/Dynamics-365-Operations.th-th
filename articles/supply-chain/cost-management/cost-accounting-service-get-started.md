@@ -1,5 +1,5 @@
 ---
-title: เริ่มต้นใช้งานบริการการบัญชีต้นทุน
+title: เริ่มต้นใช้งานบริการการบัญชีต้นทุน (การแสดงตัวอย่างแบบส่วนตัว)
 description: หัวข้อนี้แสดงรายละเอียดของใบอนุญาตและคำแนะนำการติดตั้งสำหรับบริการการบัญชีต้นทุน
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276968"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372747"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>เริ่มต้นใช้งานบริการการบัญชีต้นทุน
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>เริ่มต้นใช้งานบริการการบัญชีต้นทุน (การแสดงตัวอย่างแบบส่วนตัว)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ ms.locfileid: "3276968"
 
 ขณะนี้บริการการบัญชีต้นทุนไม่สนับสนุนคุณลักษณะการจัดการต้นทุนทั้งหมดที่ถูกสร้างลงใน Dynamics 365 Supply Chain Management ดังนั้น จึงเป็นเรื่องสำคัญอย่างยิ่งที่คุณจะต้องประเมินว่าชุดของคุณลักษณะที่พร้อมใช้งานในขณะนี้จะตรงกับความต้องการของคุณ
 
-## <a name="licensing"></a>การให้ลิขสิทธิ์
-
-บริการการบัญชีต้นทุนจะได้รับอนุญาตพร้อมกับคุณลักษณะมาตรฐานของการบัญชีสินค้าคงคลังที่พร้อมใช้งานสำหรับ Supply Chain Management คุณไม่จำเป็นต้องซื้อสิทธิ์การใช้งานเพิ่มเติมเพื่อใช้บริการการบัญชีต้นทุน
-
-## <a name="install-the-add-in"></a>ติดตั้ง Add-in
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>วิธีการรับบริการการบัญชีต้นทุน (การแสดงตัวอย่างแบบส่วนตัว)
 
 > [!IMPORTANT]
 > เมื่อต้องการใช้บริการการบัญชีต้นทุน คุณต้องมีสภาพแวดล้อมที่มีความพร้อมใช้งานสูงซึ่ง LCS เปิดใช้งาน (ไม่ใช่สภาพแวดล้อม OneBox) และคุณต้องรัน Dynamics 365 Supply Chain Management รุ่น 10.0.11 หรือใหม่กว่า
 
+เมื่อต้องการลงทะเบียนสำหรับการแสดงตัวอย่างแบบส่วนตัวของบริการการบัญชีต้นทุน โปรดส่งรหัสสภาพแวดล้อม LCS ของคุณทางอีเมลไปยัง [บริการการบัญชีต้นทุน (การแสดงตัวอย่างแบบส่วนตัว)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29) ในการอนุมัติคุณสำหรับโปรแกรม เราจะส่งอีเมลการติดตามผลที่มีคีย์รุ่นเบต้าของบริการการบัญชีต้นทุน เมื่อได้รับคีย์รุ่นเบต้า คุณสามารถดำเนินการต่อได้โดย [การติดตั้ง add-in](#install)
+
+## <a name="licensing"></a>การให้ลิขสิทธิ์
+
+บริการการบัญชีต้นทุนจะได้รับอนุญาตพร้อมกับคุณลักษณะมาตรฐานของการบัญชีสินค้าคงคลังที่พร้อมใช้งานสำหรับ Supply Chain Management คุณไม่จำเป็นต้องซื้อสิทธิ์การใช้งานเพิ่มเติมเพื่อใช้บริการการบัญชีต้นทุน
+
+## <a name="install-the-add-in"></a><a name="install"></a>ติดตั้ง Add-in
+
 เมื่อต้องการใช้บริการการบัญชีต้นทุน ให้ติดตั้ง add-in ของบริการการบัญชีต้นทุนสำหรับ Supply Chain Management ตามที่อธิบายไว้ในกระบวนงานต่อไปนี้
+
+1. [ลงทะเบียน](#sign-up) สำหรับบริการการบัญชีต้นทุน (การแสดงตัวอย่างแบบส่วนตัว)
 
 1. ลงชื่อเข้าใช้ LCS
 
