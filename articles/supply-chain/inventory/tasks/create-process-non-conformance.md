@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c0c4415f490219485b3d96fa678a317c1f12f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8bf20ed737707b7cf99023e3c78489caf4a68eab
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204136"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383630"
 ---
 # <a name="create-and-process-a-conformance"></a>สร้างและประมวลผลความสอดคล้องกัน
 
@@ -35,7 +35,7 @@ ms.locfileid: "3204136"
 2. ในรายการ เลือกใบสั่งตรวจสอบคุณภาพที่สร้างขึ้นใน [ตรวจสอบคุณภาพของสินค้า](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md)  
 
 ## <a name="create-a-nonconformance"></a>สร้างความไม่สอดคล้องกัน
-1. ในบานหน้าต่างการดำเนินการ เลือก **การสอบถาม**
+1. บนบานหน้าต่างการดำเนินการ เลือก **การสอบถาม**
 2. เลือก **ความไม่สอดคล้องกัน**
 3. เลือก **ใหม่**
 4. ในเมนูแบบหล่นลงของฟิลด์ **ชนิดปัญหา** ให้เลือกปัญหาที่พบในระหว่างกระบวนการตรวจสอบ  

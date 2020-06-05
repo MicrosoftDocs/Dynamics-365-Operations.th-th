@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207795"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383285"
 ---
 # <a name="approve-vendors-for-specific-products"></a>อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ
 
@@ -57,7 +57,7 @@ ms.locfileid: "3207795"
 26. ปิดหน้า
 27. ในบานหน้าต่างการนำทาง ไปที่ **โมดูล > การจัดซื้อและการจัดหา > ผู้จัดจำหน่าย > ผู้จัดจำหน่ายทั้งหมด** คุณยังสามารถเริ่มต้นจากผู้จัดจำหน่าย แล้วไปที่รายการของผลิตภัณฑ์ที่ได้รับอนุมัติสำหรับบัญชีผู้จัดจำหน่ายนั้น  
 28. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-29. ในบานหน้าต่างการดำเนินการ คลิก **การจัดซื้อ**
+29. บนบานหน้าต่างการดำเนินการ คลิก **การจัดซื้อ**
 30. คลิก **รายชื่อผู้จัดจำหน่ายที่ได้รับอนุมัติตามผู้จัดจำหน่าย**
 31. ปิดหน้า
 32. ปิดหน้า

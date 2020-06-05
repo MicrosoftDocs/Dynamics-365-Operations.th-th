@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551160"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367326"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>เช็คของผู้จัดจำหน่ายของตัวอย่างการรายงานทางอิเล็กทรอนิกส์
+
+[!include [banner](../includes/banner.md)]
 
 คุณสามารถใช้การรายงานทางอิเล็กทรอนิกส์ (ER) ในการจัดรูปแบบเช็คของผู้จัดจำหน่าย มีรูปแบบการตรวจสอบเฉพาะธนาคารและเฉพาะผู้ให้บริการจำนวนมากในตลาด รูปแบบเช็คตัวอย่างรวมไว้ในแบบจำลองเช็คการชำระเงินในที่เก็บเครื่องมือ ER เช็คตัวอย่างเหล่านี้จะมีป้ายชื่อ **เช็คกลาง (สหรัฐอเมริกา)** และ **เช็คต้นขั้วบนด้านล่าง (สหรัฐอเมริกา)**
 

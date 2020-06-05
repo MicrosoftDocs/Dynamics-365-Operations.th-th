@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204895"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383239"
 ---
 # <a name="create-a-purchase-order"></a>สร้างใบสั่งซื้อ
 
@@ -68,7 +68,7 @@ ms.locfileid: "3204895"
 ## <a name="review-order-totals"></a>ตรวจทานผลรวมในใบสั่งขาย
 1. เลือก **ผลรวม**
 
-    - หากคุณไม่เห็นการดำเนินการ **ผลรวม** เลือกแท็บ **ใบสั่งซื้อ** บนแถบการดำเนินการ  
+    - หากคุณไม่เห็นการดำเนินการ **ยอดรวม** เลือกแท็บ **ใบสั่งซื้อ** บนบานหน้าต่างการดำเนินการ  
     - กล่องโต้ตอบนี้แสดงยอดรวมสำหรับใบสั่งทั้งหมด  
     - ฟิลด์ **การเลือก** อนุญาตให้คุณเปลี่ยนแปลงพื้นฐานของวิธีการคำนวณผลรวม ตัวอย่างเช่น คุณสามารถเลือก **ปริมาณในใบรับสินค้า** เพื่อแสดงผลรวมที่สัมพันธ์กับจำนวนของผลิตภัณฑ์ที่ได้รับ หรือ **ปริมาณที่สั่งซื้อ** เพื่อแสดงจำนวนของผลิตภัณฑ์ที่ได้สั่งซื้อ  
 
