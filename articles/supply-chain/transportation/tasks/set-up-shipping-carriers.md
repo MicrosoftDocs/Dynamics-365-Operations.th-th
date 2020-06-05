@@ -16,59 +16,59 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201605"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383009"
 ---
-# <a name="set-up-shipping-carriers"></a><span data-ttu-id="2dde0-103">ตั้งค่าผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-103">Set up shipping carriers</span></span>
+# <a name="set-up-shipping-carriers"></a><span data-ttu-id="c4397-103">ตั้งค่าผู้ขนส่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-103">Set up shipping carriers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2dde0-104">หัวข้อนี้แสดงวิธีการตั้งค่าผู้ขนส่งสินค้าและกำหนดรายละเอียด เช่น บริการ โหมดการจัดส่ง วิธีการชำระเงินการขนส่ง ข้อจำกัดขนส่ง และอัตราการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="2dde0-105">ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก</span><span class="sxs-lookup"><span data-stu-id="2dde0-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
+<span data-ttu-id="c4397-104">หัวข้อนี้แสดงวิธีการตั้งค่าผู้ขนส่งสินค้าและกำหนดรายละเอียด เช่น บริการ โหมดการจัดส่ง วิธีการชำระเงินการขนส่ง ข้อจำกัดขนส่ง และอัตราการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-104">This topic shows how to set up a shipping carrier and define details such as service, shipment mode, transportation tender, transportation constraints, and shipping rate.</span></span> <span data-ttu-id="c4397-105">ผู้ประสานงานขนส่งสามารถกำหนดผู้ขนส่งสินค้าทั้งโหลดขาเข้าหรือขาออก</span><span class="sxs-lookup"><span data-stu-id="c4397-105">A transportation coordinator can then assign a shipping carrier to an inbound or outbound load.</span></span>
 
 
-## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="2dde0-106">สร้างผู้ขนส่งสินค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="2dde0-106">Create a new shipping carrier</span></span>
-1. <span data-ttu-id="2dde0-107">ไปที่ **บานหน้าต่างนำทาง > โมดูล > การจัดการการขนส่ง > การตั้งค่า > ผู้ขนส่ง > ผู้ขนส่งสินค้า**</span><span class="sxs-lookup"><span data-stu-id="2dde0-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
-2. <span data-ttu-id="2dde0-108">เลือก **สร้าง** ในบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="2dde0-108">Select **New** in the Action pane.</span></span>
-3. <span data-ttu-id="2dde0-109">ในฟิลด์ **ผู้ขนส่งสินค้า** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-109">In the **Shipping carrier** field, type a value.</span></span>
-4. <span data-ttu-id="2dde0-110">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-110">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="2dde0-111">ในฟิลด์ **โหมด** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
+## <a name="create-a-new-shipping-carrier"></a><span data-ttu-id="c4397-106">สร้างผู้ขนส่งสินค้าใหม่</span><span class="sxs-lookup"><span data-stu-id="c4397-106">Create a new shipping carrier</span></span>
+1. <span data-ttu-id="c4397-107">ไปที่ **บานหน้าต่างนำทาง > โมดูล > การจัดการการขนส่ง > การตั้งค่า > ผู้ขนส่ง > ผู้ขนส่งสินค้า**</span><span class="sxs-lookup"><span data-stu-id="c4397-107">Go to **Navigation pane > Modules > Transportation management > Setup > Carriers > Shipping carriers**.</span></span>
+2. <span data-ttu-id="c4397-108">เลือก **สร้าง** บนหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="c4397-108">Select **New** on the Action Pane.</span></span>
+3. <span data-ttu-id="c4397-109">ในฟิลด์ **ผู้ขนส่งสินค้า** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-109">In the **Shipping carrier** field, type a value.</span></span>
+4. <span data-ttu-id="c4397-110">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c4397-111">ในฟิลด์ **โหมด** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-111">In the **Mode** field, select an option from the drop-down menu.</span></span>
 
-## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="2dde0-112">กรอกข้อมูลทั่วไปสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="2dde0-112">Fill in the general information for the shipping carrier</span></span>
-1. <span data-ttu-id="2dde0-113">สลับการขยายของส่วน **ภาพรวม**</span><span class="sxs-lookup"><span data-stu-id="2dde0-113">Toggle the expansion of the **Overview** section.</span></span>
-2. <span data-ttu-id="2dde0-114">เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมาย **เรียกใช้ผู้ขนส่งสินค้า**</span><span class="sxs-lookup"><span data-stu-id="2dde0-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
-3. <span data-ttu-id="2dde0-115">ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="2dde0-116">เลือกบัญชีผู้จัดจำหน่ายเพื่อมอบหมายให้กับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="2dde0-116">Select the vendor account to assign the shipping carrier to.</span></span>  
-4. <span data-ttu-id="2dde0-117">ในฟิลด์ **ชนิดการชำระเงินการขนส่ง** ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="2dde0-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="2dde0-118">เลือก **ด้วยตัวเอง** เพื่อใช้หน้าวิธีการชำระเงินการขนส่ง หรือเลือก **EDI** เพื่อปรับปรุงการชำระเงินโดยใช้การแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ (EDI)</span><span class="sxs-lookup"><span data-stu-id="2dde0-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
-5. <span data-ttu-id="2dde0-119">เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมาย **เรียกใช้การจัดอันดับของผู้ขนส่ง**</span><span class="sxs-lookup"><span data-stu-id="2dde0-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
+## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a><span data-ttu-id="c4397-112">กรอกข้อมูลทั่วไปสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="c4397-112">Fill in the general information for the shipping carrier</span></span>
+1. <span data-ttu-id="c4397-113">สลับการขยายของส่วน **ภาพรวม**</span><span class="sxs-lookup"><span data-stu-id="c4397-113">Toggle the expansion of the **Overview** section.</span></span>
+2. <span data-ttu-id="c4397-114">เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมาย **เรียกใช้ผู้ขนส่งสินค้า**</span><span class="sxs-lookup"><span data-stu-id="c4397-114">Check or uncheck the **Activate shipping carrier** checkbox.</span></span>
+3. <span data-ttu-id="c4397-115">ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-115">In the **Vendor account** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="c4397-116">เลือกบัญชีผู้จัดจำหน่ายเพื่อมอบหมายให้กับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="c4397-116">Select the vendor account to assign the shipping carrier to.</span></span>  
+4. <span data-ttu-id="c4397-117">ในฟิลด์ **ชนิดการชำระเงินการขนส่ง** ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="c4397-117">In the **Transportation tender type** field, select an option.</span></span> <span data-ttu-id="c4397-118">เลือก **ด้วยตัวเอง** เพื่อใช้หน้าวิธีการชำระเงินการขนส่ง หรือเลือก **EDI** เพื่อปรับปรุงการชำระเงินโดยใช้การแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ (EDI)</span><span class="sxs-lookup"><span data-stu-id="c4397-118">Select **Manual** to use the Transportation Tender page, or select **EDI** to update the tender by using Electronic Data Interchange (EDI).</span></span>  
+5. <span data-ttu-id="c4397-119">เลือกหรือยกเลิกการเลือกกล่องกาเครื่องหมาย **เรียกใช้การจัดอันดับของผู้ขนส่ง**</span><span class="sxs-lookup"><span data-stu-id="c4397-119">Check or uncheck the **Activate carrier rating** checkbox.</span></span>
 
-## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="2dde0-120">สร้างบริการที่จำเป็นสำหรับการขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="2dde0-120">Create the necessary services for the shipping carrier</span></span>
-1. <span data-ttu-id="2dde0-121">สลับการขยายของส่วน **บริการ**</span><span class="sxs-lookup"><span data-stu-id="2dde0-121">Toggle the expansion of the **Services** section.</span></span>
-2. <span data-ttu-id="2dde0-122">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="2dde0-122">Select **New**.</span></span>
-3. <span data-ttu-id="2dde0-123">ในฟิลด์ **บริการขนส่ง** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-123">In the **Carrier service** field, type a value.</span></span>
-4. <span data-ttu-id="2dde0-124">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-124">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="2dde0-125">ในฟิลด์ **วิธีการขนส่ง** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
+## <a name="create-the-necessary-services-for-the-shipping-carrier"></a><span data-ttu-id="c4397-120">สร้างบริการที่จำเป็นสำหรับการขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="c4397-120">Create the necessary services for the shipping carrier</span></span>
+1. <span data-ttu-id="c4397-121">สลับการขยายของส่วน **บริการ**</span><span class="sxs-lookup"><span data-stu-id="c4397-121">Toggle the expansion of the **Services** section.</span></span>
+2. <span data-ttu-id="c4397-122">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="c4397-122">Select **New**.</span></span>
+3. <span data-ttu-id="c4397-123">ในฟิลด์ **บริการขนส่ง** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-123">In the **Carrier service** field, type a value.</span></span>
+4. <span data-ttu-id="c4397-124">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-124">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c4397-125">ในฟิลด์ **วิธีการขนส่ง** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-125">In the **Transportation method** field, select an option from the drop-down menu.</span></span>
 
-## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="2dde0-126">ตั้งค่าอยู่สำหรับผู้ขนส่ง (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="2dde0-126">Set up the address for the carrier (optional)</span></span>
-1. <span data-ttu-id="2dde0-127">สลับการขยายของส่วน **ที่อยู่**</span><span class="sxs-lookup"><span data-stu-id="2dde0-127">Toggle the expansion of the **Addresses** section.</span></span>
-2. <span data-ttu-id="2dde0-128">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="2dde0-128">Select **New**.</span></span>
-3. <span data-ttu-id="2dde0-129">ในฟิลด์ **ชื่อหรือคำอธิบาย** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2dde0-129">In the **Name or description** field, type a value.</span></span>
-4. <span data-ttu-id="2dde0-130">ในฟิลด์ **ประเทศ/ภูมิภาค** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
-5. <span data-ttu-id="2dde0-131">ในฟิลด์ **รหัสไปรษณีย์** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="2dde0-132">ในฟิลด์ **ถนน** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-132">In the **Street** field, type a value.</span></span>
-7. <span data-ttu-id="2dde0-133">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2dde0-133">Select **OK**.</span></span>
+## <a name="set-up-the-address-for-the-carrier-optional"></a><span data-ttu-id="c4397-126">ตั้งค่าอยู่สำหรับผู้ขนส่ง (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="c4397-126">Set up the address for the carrier (optional)</span></span>
+1. <span data-ttu-id="c4397-127">สลับการขยายของส่วน **ที่อยู่**</span><span class="sxs-lookup"><span data-stu-id="c4397-127">Toggle the expansion of the **Addresses** section.</span></span>
+2. <span data-ttu-id="c4397-128">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="c4397-128">Select **New**.</span></span>
+3. <span data-ttu-id="c4397-129">ในฟิลด์ **ชื่อหรือคำอธิบาย** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c4397-129">In the **Name or description** field, type a value.</span></span>
+4. <span data-ttu-id="c4397-130">ในฟิลด์ **ประเทศ/ภูมิภาค** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-130">In the **Country/region** field, select an option from the drop-down menu.</span></span>
+5. <span data-ttu-id="c4397-131">ในฟิลด์ **รหัสไปรษณีย์** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-131">In the **ZIP/postal code** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="c4397-132">ในฟิลด์ **ถนน** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-132">In the **Street** field, type a value.</span></span>
+7. <span data-ttu-id="c4397-133">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="c4397-133">Select **OK**.</span></span>
 
-## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="2dde0-134">ตั้งค่าโพรไฟล์การจัดอันดับสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="2dde0-134">Set up the rating profile for the shipping carrier</span></span>
-1. <span data-ttu-id="2dde0-135">สลับการขยายของส่วน **การจัดอันดับโพรไฟล์**</span><span class="sxs-lookup"><span data-stu-id="2dde0-135">Toggle the expansion of the **Rating profiles** section.</span></span>
-2. <span data-ttu-id="2dde0-136">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="2dde0-136">Select **New**.</span></span>
-3. <span data-ttu-id="2dde0-137">ในฟิลด์ **การจัดอันดับโพรไฟล์** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="2dde0-137">In the **Rating profile** field, type a value.</span></span>
-4. <span data-ttu-id="2dde0-138">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="2dde0-138">In the **Name** field, type a value.</span></span>
-5. <span data-ttu-id="2dde0-139">ในฟิลด์ **ไซต์** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-139">In the **Site** field, select an option from the drop-down menu.</span></span>
-6. <span data-ttu-id="2dde0-140">ในฟิลด์ **คลังสินค้า** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
-7. <span data-ttu-id="2dde0-141">ในฟิลด์ **กลไกจัดการอัตรา** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="2dde0-142">เลือกกลไกจัดการอัตราที่สอดคล้องกับสัญญากับผู้ขนส่งที่คุณมี</span><span class="sxs-lookup"><span data-stu-id="2dde0-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
-8. <span data-ttu-id="2dde0-143">ในฟิลด์ **ต้นแบบอัตรา** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
-9. <span data-ttu-id="2dde0-144">ในฟิลด์ **กลไกจัดการเวลาในการส่งต่อ** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="2dde0-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
-10. <span data-ttu-id="2dde0-145">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="2dde0-145">Select **Save**.</span></span>
+## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a><span data-ttu-id="c4397-134">ตั้งค่าโพรไฟล์การจัดอันดับสำหรับผู้ขนส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="c4397-134">Set up the rating profile for the shipping carrier</span></span>
+1. <span data-ttu-id="c4397-135">สลับการขยายของส่วน **การจัดอันดับโพรไฟล์**</span><span class="sxs-lookup"><span data-stu-id="c4397-135">Toggle the expansion of the **Rating profiles** section.</span></span>
+2. <span data-ttu-id="c4397-136">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="c4397-136">Select **New**.</span></span>
+3. <span data-ttu-id="c4397-137">ในฟิลด์ **การจัดอันดับโพรไฟล์** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c4397-137">In the **Rating profile** field, type a value.</span></span>
+4. <span data-ttu-id="c4397-138">ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c4397-138">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="c4397-139">ในฟิลด์ **ไซต์** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-139">In the **Site** field, select an option from the drop-down menu.</span></span>
+6. <span data-ttu-id="c4397-140">ในฟิลด์ **คลังสินค้า** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-140">In the **Warehouse** field, select an option from the drop-down menu.</span></span>
+7. <span data-ttu-id="c4397-141">ในฟิลด์ **กลไกจัดการอัตรา** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-141">In the **Rate engine** field, select an option from the drop-down menu.</span></span> <span data-ttu-id="c4397-142">เลือกกลไกจัดการอัตราที่สอดคล้องกับสัญญากับผู้ขนส่งที่คุณมี</span><span class="sxs-lookup"><span data-stu-id="c4397-142">Select the Rate engine that is in accordance with the contract that you have with the carrier.</span></span>  
+8. <span data-ttu-id="c4397-143">ในฟิลด์ **ต้นแบบอัตรา** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-143">In the **Rate master** field, select an option from the drop-down menu.</span></span>
+9. <span data-ttu-id="c4397-144">ในฟิลด์ **กลไกจัดการเวลาในการส่งต่อ** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="c4397-144">In the **Transit time engine** field, select an option from the drop-down menu.</span></span>
+10. <span data-ttu-id="c4397-145">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c4397-145">Select **Save**.</span></span>
 
