@@ -88,6 +88,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (สิงหาคม 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (พฤษภาคม 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: ซิงโครไนส์ตัวติดตั้งแบบบริการตนเองใน Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (โฮสต์ในตัว)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: ตั้งค่าคอนฟิกและติดตั้ง Commerce Scale Unit
+                - name: ตั้งค่าคอนฟิกและติดตั้ง Commerce Scale Unit (โฮสต์ในตัว)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: การตั้งค่าคอนฟิกและการติดตั้ง Modern POS
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: ภาพรวมของคำแนะนำผลิตภัณฑ์
                   href: product-recommendations.md
-                - name: เปิดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce
+                - name: เปิดใช้งาน Azure Data Lake Storage ในสภาพแวดล้อม Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
                 - name: เปิดใช้งานคำแนะนำผลิตภัณฑ์
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: การบริหารสินค้าคงคลังของร้านค้า
                       href: work-with-store-inventory.md
-                    - name: การทำงานกับสินค้าที่ทำเป็นอนุกรม
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: ตั้งค่าคอนฟิกสินค้าคงคลังสำรองและระดับสินค้าคงคลัง
+                      href: inventory-buffers-levels.md
                     - name: ทำงานกับสินค้าที่ทำเป็นอนุกรมใน POS
                       href: pos-serialized-items.md
                     - name: กำหนดผลิตภัณฑ์จากศูนย์กระจายไปยังร้านค้าโดยใช้การจัดส่งสินค้าแบบผลัก
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: จัดการผู้ใช้และบทบาท
                   href: manage-ecommerce-users-roles.md
+                - name: ใช้การตั้งค่าสินค้าคงคลัง
+                  href: inventory-settings.md
                 - name: ข้อควรพิจารณาเกี่ยวกับการเพิ่มประสิทธิภาพโปรแกรมค้นหา (SEO) สำหรับไซต์ของคุณ
                   href: search-engine-optimization-considerations.md
                 - name: จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: ทำงานกับไฟล์การแก้ไข CSS
                       href: css-override-files.md
+                    - name: การทำงานกับค่าลักษณะที่กำหนดไว้แล้ว
+                      href: style-presets.md
                     - name: เพิ่มไอคอนประจำไซต์
                       href: add-favicon.md
                     - name: เพิ่มข้อความต้อนรับ
@@ -932,6 +938,10 @@
                   items:
                     - name: โมดูลคอนเทนเนอร์
                       href: add-container-module.md
+                    - name: โมดูล Accordion
+                      href: add-accordion.md
+                    - name: โมดูลแท็บ
+                      href: add-tab.md
                 - name: โมดูลการตลาด
                   items:
                     - name: โมดูลแบนเนอร์โปรโมชั่น
@@ -978,7 +988,11 @@
                   items:
                     - name: โมดูลคอลเลกชันผลิตภัณฑ์
                       href: product-collection-module-overview.md
-            - name: การค้นหา
+                - name: โมดูลการนำทาง
+                  items:
+                    - name: โมดูลการแสดงเส้นทาง
+                      href: add-breadcrumb.md
+            - name: ค้นหา
               items:
                 - name: หน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
                   href: category-search-page-overview.md
@@ -1012,9 +1026,9 @@
               href: set-up-rfm-analysis.md
         - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
           items:
-            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
+            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทางการค้า
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
+            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทางการค้า
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: ออสเตรีย
               items:
@@ -1028,7 +1042,7 @@
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: การจัดการเงินสดย่อยของ Commerce สำหรับยุโรปตะวันออก
                       href: localizations/emea-eeu-petty-cash-for-retail.md
-                    - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของ Commerce สำหรับประเทศในยุโรปตะวันออก
+                    - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของลูกค้าสำหรับประเทศในยุโรปตะวันออก
                       href: localizations/emea-eeu-retail-invoices.md
                     - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
                       href: localizations/emea-eeu-deployment.md
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
                   href: localizations/emea-fra-deployment.md
+            - name: เยอรมนี
+              items:
+                - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
+                  href: localizations/emea-deu-fi-sample.md
             - name: อินเดีย
               items:
                 - name: การรวมภาษีสินค้าและบริการ (GST) สำหรับเครื่องบันทึกเงินสด
@@ -1192,7 +1210,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
@@ -1204,7 +1222,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/commerce/toc.json
                         - name: แมปส่วนประกอบของรูปแบบที่สร้างกับองค์ประกอบแบบจำลองข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: ทดสอบโซลูชัน ER ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
+                    - name: ทดสอบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
                       items:
                         - name: (ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
@@ -1338,7 +1356,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
-                    - name: ข้อความ
+                    - name: Text
                       items:
                         - name: ฟังก์ชันข้อความ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
@@ -1374,7 +1392,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
                         - name: Right
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
-                        - name: ข้อความ
+                        - name: Text
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
                         - name: Translate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
@@ -1464,7 +1482,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: จัดการการแมปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+            - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1474,7 +1492,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
             - name: (ER) แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-            - name: ออกแบบรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
               items:
                 - name: (ER) ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1496,9 +1514,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
             - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
-            - name: ออกแบบโซลูชัน ER เพื่อใช้มิติทางการเงิน
+            - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงิน
               items:
                 - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
@@ -1508,7 +1526,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
                 - name: เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
-            - name: ออกแบบรูปแบบ ER ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
               items:
                 - name: สร้างรูปแบบเพื่อทำการตรวจนับและการรวม
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
@@ -1526,15 +1544,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
             - name: ใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของรูปแบบ
               items:
-                - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
-                - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
-                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
-                - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
-                - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
             - name: อัปเดตข้อมูลแอปพลิเคชันโดยใช้การรายงานทางอิเล็กทรอนิกส์
               items:
@@ -1550,7 +1568,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
                 - name: จัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
-            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชัน ER
+            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER)
               items:
                 - name: แยกวิเคราะห์เอกสารขาเข้าในรูปแบบที่แตกต่างกัน
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1564,11 +1582,11 @@
                   items:
                     - name: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
-                    - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
+                    - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
-            - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่คำนวณได้
+            - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูลการรายงานทางอิเล็กทรอนิกส์ของชนิดฟิลด์ที่คำนวณได้
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
             - name: วงจรการใช้งานการตั้งค่าคอนฟิก
               items:
@@ -1582,9 +1600,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
+                - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากที่เก็บ RCS
                   items:
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บ ER ของชนิด RCS
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บการรายงานทางอิเล็กทรอนิกส์ของชนิด RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
@@ -1592,11 +1610,11 @@
               items:
                 - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบ ER ตามบริบทของประเทศ
+                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
+                - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับนิติบุคคลแต่ละรายการ
+                - name: ตั้งค่าพารามิเตอร์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์สำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   items:
@@ -1634,13 +1652,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทาง
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงาน ER ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: ตั้งค่าคอนฟิกการตั้งค่าธีม
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: ขยายธีม
+                    - name: ขยายธีมเพื่อเพิ่มส่วนขยายโมดูล
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: ขยายชุดรูปแบบจากธีมพื้นฐาน
                       href: e-commerce-extensibility/extend-theme.md
                 - name: ส่งสคริปต์
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
               items:
-                - name: ขยายตัวควบคุม Retail Server OData
+                - name: ขยายตัวควบคุม OData ของ Commerce Scale Unit
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: API ลูกค้าและผู้บริโภคของ Retail Server
+                - name: API สำหรับลูกค้าและผู้ใช้งาน Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: ขยายตัวควบคุมข้อมูลเมตาค่าเริ่มต้นของ Retail Server
+                - name: ขยายตัวควบคุมข้อมูลเมตาของ Commerce Scale Unit เริ่มต้น
                   href: dev-itpro/extend-metadata.md
                 - name: เรียกใช้บริการ CRT ในโหมดออฟไลน์
                   href: dev-itpro/call-crt-service-offline.md
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: จัดการข้อมูลความลับของช่องทางการขายปลีก
                   href: dev-itpro/manage-secrets.md
-                - name: เพิ่มคุณสมบัติในใบสั่งขาย
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และทริกเกอร์
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: บล็อคธุรกรรมโดยใช้ทริกเกอร์

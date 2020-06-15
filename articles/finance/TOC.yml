@@ -70,12 +70,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.12 (สิงหาคม 2020)
+                      href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (พฤษภาคม 2020)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: Finance 10.0.9 (เมษายน 2020)
-                      href: get-started/whats-new-changed-10-0-9.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
@@ -232,6 +232,8 @@
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
             - name: ตั้งค่านโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: ทำข้อเสนอการชำระเงินให้แก่ผู้จัดจำหน่ายเป็นแบบอัตโนมัติ
+              href: accounts-payable/automate-vendor-payment-proposal.md
             - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
               href: accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: ภาพรวมของ Positive Pay
@@ -324,14 +326,6 @@
               href: accounts-receivable/copy-customer.md
             - name: ลำดับงานของลูกค้า
               href: accounts-receivable/customer-workflow.md
-            - name: สินเชื่อและการเรียกเก็บเงินในบัญชีลูกหนี้
-              href: accounts-receivable/collections-credit-accounts-receivable.md
-            - name: ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
-              href: accounts-receivable/accounts-receivables-set-up-overview.md
-            - name: การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
-              href: accounts-receivable/set-up-collections.md
-            - name: ตรวจทานข้อมูลการเรียกเก็บเงิน
-              href: accounts-receivable/tasks/review-collections-information.md
             - name: ภาพรวมของการรับรู้รายได้
               href: accounts-receivable/revenue-recognition-overview.md
             - name: การตั้งค่าการรับรู้รายได้
@@ -410,6 +404,14 @@
               items:
                 - name: ภาพรวมของสินเชื่อและการเรียกเก็บเงิน
                   href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: การเรียกเก็บเงินในบัญชีลูกหนี้
+                  href: accounts-receivable/collections-credit-accounts-receivable.md
+                - name: ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: การตั้งค่าสินเชื่อและการเรียกเก็บเงิน
+                  href: accounts-receivable/set-up-collections.md
+                - name: ตรวจทานข้อมูลการเรียกเก็บเงิน
+                  href: accounts-receivable/tasks/review-collections-information.md
                 - name: การตั้งค่าการจัดการสินเชื่อ
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: ข้อมูลการตั้งค่าการจัดการสินเชื่อ
@@ -448,6 +450,8 @@
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: การจัดการบันทึกขั้นสูง
+              href: localizations/emea-ita-exil-structured-notes.md
         - name: การจัดงบประมาณ
           items:
             - name: โฮมเพจของการจัดงบประมาณ
@@ -978,6 +982,8 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: ตั้งค่าคอนฟิกต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: สร้างและใช้เงื่อนไขเงินประกันสำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย
+              href: project-management/create-and-apply-vendor-payment-retention-terms.md
             - name: ตั้งค่าและใช้การชำระเงินผู้จัดจำหน่ายแบบชำระเงินเมื่อได้รับเงิน
               href: project-management/setup-manage-vendor-payments.md
             - name: การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
@@ -1000,6 +1006,10 @@
               href: project-management/project-purchase-orders.md
             - name: ใบเสนอราคาโครงการ
               href: project-management/project-quotations.md
+            - name: ยืนยัน อัปเดต และส่งใบเสนอราคาโครงการ
+              href: project-management/confirm-update-send-project-quotation.md
+            - name: โอนใบเสนอราคาไปยังโครงการ
+              href: project-management/transfer-quote-new-existing-project.md
             - name: การจัดหาทรัพยากรของโครงการ
               href: project-management/project-resourcing.md
             - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
@@ -1022,6 +1032,8 @@
                   href: project-management/custom-fields-mobile.md
             - name: เงินช่วยเหลือโครงการ
               href: project-management/project-grants.md
+            - name: ตัดการประเมินโครงการ
+              href: project-management/eliminate-project-estimate.md
         - name: ภาครัฐ
           items:
             - name: โฮมเพจภาครัฐ
@@ -1758,6 +1770,8 @@
                   href: localizations/emea-hun-tax-reimbursement-docs.md
                 - name: การปิดบัญชีสิ้นปี
                   href: localizations/emea-cze-hun-year-end.md
+                - name: ระบบออกใบแจ้งหนี้ออนไลน์
+                  href: localizations/emea-hun-online-invoicing.md
             - name: ไอซ์แลนด์
               items:
                 - name: ภาพรวมของไอซ์แลนด์
@@ -2008,8 +2022,6 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: ค่าธรรมเนียมเบ็ดเตล็ดต่อกิโลกรัมในการรายงานภาษีอินทราสแทต
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
-                - name: การจัดการบันทึกขั้นสูง
-                  href: localizations/emea-ita-exil-structured-notes.md
                 - name: หนังสือแสดงเจตนา - ผู้ส่งออกปกติที่ออกใบแจ้งหนี้
                   href: localizations/emea-ita-exil-intent-letter.md
                 - name: ใบกำกับภาษีสำหรับสินค้าที่จัดส่งฟรี
@@ -2288,8 +2300,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: การรวม Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'ไฟล์การตรวจสอบ - XML Auditfile Financieel, XAF'
-                  hred: localizations/emea-nl-audit-file.md
+                - name: ไฟล์การตรวจสอบ (XML Auditfile Financieel XAF)
+                  href: localizations/emea-nl-audit-file.md
             - name: นอร์เวย์
               items:
                 - name: ภาพรวมของนอร์เวย์
@@ -2970,6 +2982,8 @@
               items:
                 - name: สร้างการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: จัดเตรียมส่วนประกอบของโซลูชันการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ออกแบบแบบจำลองข้อมูลเฉพาะโดเมน
@@ -2978,7 +2992,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
@@ -2990,7 +3004,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/finance/toc.json
                         - name: แมปส่วนประกอบของรูปแบบที่สร้างกับองค์ประกอบแบบจำลองข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: ทดสอบโซลูชัน ER ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
+                    - name: ทดสอบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
                       items:
                         - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -3126,7 +3140,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
-                    - name: ข้อความ
+                    - name: Text
                       items:
                         - name: ฟังก์ชันข้อความ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
@@ -3162,7 +3176,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
                         - name: Right
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
-                        - name: ข้อความ
+                        - name: Text
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                         - name: Translate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/finance/toc.json
@@ -3252,11 +3266,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: จัดการการแมปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: ออกแบบรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
               items:
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบ Excel
                   items:
@@ -3264,7 +3274,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
                     - name: ตัวอย่างของการสร้างรายงานในรูปแบบ OPENXML
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: แก้ไขรูปแบบ ER ด้วยการใช้เท็มเพลต Excel อีกครั้ง
+                    - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
                       items:
@@ -3290,8 +3300,6 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: อัปเดตข้อมูลแอปพลิเคชันโดยใช้การรายงานทางอิเล็กทรอนิกส์
               items:
                 - name: สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชัน
@@ -3306,7 +3314,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
                 - name: จัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
-            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชัน ER
+            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER)
               items:
                 - name: แยกวิเคราะห์เอกสารขาเข้าในรูปแบบที่แตกต่างกัน
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
@@ -3320,32 +3328,42 @@
                   items:
                     - name: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
-                    - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                    - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/finance/toc.json
             - name: วงจรการใช้งานการตั้งค่าคอนฟิก
               items:
                 - name: จัดการวงจรการใช้งานการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิก
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: ตัวเลือกการกรองข้อมูลขั้นสูงสำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
+                - name: Lifecycle Services (LCS)
                   items:
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บ ER ของชนิด RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: สร้างการตั้งค่าคอนฟิก ER ใน RCS และอัปโหลดไปยังที่เก็บส่วนกลาง
-                  href: localizations/rcs-global-repo-upload.md
-                - name: ใช้การตั้งค่าคอนฟิก ER ใน RCS ร่วมกับองค์กรภายนอก
-                  href: localizations/rcs-global-repo-share-configuration.md
+                    - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: นำเข้าการตั้งค่าคอนฟิกจาก LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                    - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory services (RCS)
+                  items:
+                    - name: Regulatory Configuration Services (RCS) - คุณลักษณะแบบใช้ทั่วโลก
+                      href: localizations/rcs-globalization-feature.md
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ไปยัง Finance
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: ที่เก็บสากล (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: บทช่วยสอน
               items:
                 - name: เรียนรู้วิธีการใช้แหล่งข้อมูล
@@ -3356,7 +3374,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูลของฟิลด์ที่มีการคำนวณ
                       href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                    - name: แหล่งข้อมูล ER ระหว่างบริษัท
+                    - name: แหล่งข้อมูลการรายงานทางอิเล็กทรอนิกส์ระหว่างบริษัท
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: ใช้แหล่งข้อมูลรายละเอียดมิติทางการเงิน
                       items:
@@ -3392,18 +3410,26 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                         - name: ดีบักแหล่งข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบ ER ตามบริบทของประเทศ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
-                - name: ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับนิติบุคคลแต่ละรายการ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลอง
                   items:
-                    - name: เลื่อนการดำเนินการขององค์ประกอบลำดับ
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
-                    - name: เลื่อนการดำเนินการขององค์ประกอบ XML
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                    - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: ตั้งค่าคอนฟิกรูปแบบ
+                  items:
+                    - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                    - name: ตั้งค่าพารามิเตอร์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์สำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                    - name: เลือกข้อกำหนดแบบจำลองเมื่อคุณสร้างรูปแบบ
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                      items:
+                        - name: เลื่อนการดำเนินการขององค์ประกอบลำดับ
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                        - name: เลื่อนการดำเนินการขององค์ประกอบ XML
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                 - name: พาธที่เกี่ยวข้องในการผูกข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
@@ -3414,9 +3440,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
                     - name: สำรองและกู้คืนเท็มเพลตการรายงานทางอิเล็กทรอนิกส์
                       items:
-                        - name: การจัดเก็บข้อมูลสำรองของเท็มเพลต ER
+                        - name: การจัดเก็บข้อมูลสำรองของเท็มเพลตการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
-                        - name: การล้างข้อมูลการย้าย ER
+                        - name: การล้างข้อมูลการย้ายการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างผู้ให้บริการการตั้งค่าคอนฟิกและทำเครื่องหมายว่าใช้งานอยู่
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3440,13 +3466,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: ตั้งค่าคอนฟิกปลายทาง
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงาน ER ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
