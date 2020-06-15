@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.12 (สิงหาคม 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform update สำหรับ 10.0.11 (กรกฎาคม 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform update สำหรับ 10.0.10 (พฤษภาคม 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: ความพร้อมของสินค้าคงคลัง
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
                           items:
                             - name: การสนับสนุนสำหรับโซลูชัน Field Service และโซลูชัน Project Service Automation
@@ -452,15 +456,15 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
                   href: deployment/apply-deployable-package-system.md
-                - name: ใช้การอัปเดตและส่วนขยายกับส่วนประกอบช่องทาง Retail ที่โฮสต์บนระบบคลาวด์
+                - name: ใช้การอัปเดตและส่วนขยายกับ Commerce Scale Unit (ระบบคลาวด์)
                   href: deployment/Update-retail-channel.md
-                - name: เริ่มต้น Retail Cloud Scale Unit
+                - name: เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: ถิ่นที่อยู่ของข้อมูล Retail
                   href: deployment/retail-data-residency.md
             - name: การปรับใช้ในสถานที่
               items:
-                - name: โฮมเพจตัวเลือกการปรับใช้ในสถานที่
+                - name: โฮมเพจการปรับใช้ในสถานที่
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: เตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
                   items:
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอนต์
                       href: user-interface/client-disconnected.md
+                    - name: ตั้งค่าคอนฟิกโหนด AOS เฉพาะชุดงานและเฉพาะแบบโต้ตอบในการปรับใช้ในสถานที่
+                      href: deployment/onprem-batchonly.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
                     - name: การวินิจฉัยแบบในสถานที่
@@ -1044,10 +1050,12 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: ปัญหาที่ทราบ
                   href: lifecycle-services/known-issues.md
-                - name: คุณลักษณะที่ถูกเอาออกหรือเลิกใช้ใน Lifecycle Services (LCS)
+                - name: คุณลักษณะที่ถูกเอาออกหรือเลิกสนับสนุนใน Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: คู่มือผู้ใช้ Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: การเตรียมความพร้อมสำหรับโครงการ
+              href: lifecycle-services/project-onboarding.md
             - name: ตัวประมาณการสมัครใช้งาน
               href: lifecycle-services/subscription-estimator.md
             - name: ตั้งค่าคอนฟิกความปลอดภัย
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: การรวม Microsoft Power Platform
+          items:
+            - name: การรวม Microsoft Power Platform กับ Finance and Operations
+              href: power-platform/overview.md
+            - name: การสร้างแบบจำลองเอนทิตี้
+              href: power-platform/entity-modeling.md
+            - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
+              href: power-platform/application-lifecycle-management.md
+            - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Common Data Service
+              href: power-platform/admin-reference.md
+            - name: พอร์ทัล Power Apps ที่มี Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: FAQ เกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
+              href: power-platform/faq.md
         - name: แพลตฟอร์มเคลื่อนที่
           items:
             - name: ทรัพยากรแพลตฟอร์มเคลื่อนที่
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: การติดตั้งและการตั้งค่าคอนฟิก
               href: perf-test/rsat/rsat-install-configure.md
-            - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: รันกรณีทดสอบ
+            - name: ใช้ Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: ตรวจสอบความถูกต้องตรวจสอบค่าที่คาดไว้
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: กรณีทดสอบที่ได้รับมา
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: ใช้บทช่วยสอน Regression Suite Automation Tool
+            - name: บทช่วยสอน Regression Suite Automation Tool และคุณลักษณะอื่นๆ
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: แนวทางปฏิบัติ
               href: perf-test/rsat/rsat-best-practices.md
+            - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: การแก้ไขปัญหา
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
                   href: sysadmin/activeperiod.md
+                - name: การสนับสนุนการปรับเวลาตามฤดูกาลสำหรับรอบระยะเวลาชุดงานที่ใช้งานอยู่
+                  href: sysadmin/batch-active-period-dst.md
                 - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
                   href: sysadmin/runby.md
                 - name: ชุดงานสำหรับการจัดการการจัดเรียงข้อมูลดัชนี SQL
