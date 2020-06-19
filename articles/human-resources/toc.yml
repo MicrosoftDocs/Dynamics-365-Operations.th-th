@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 พฤษภาคม 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 พฤษภาคม 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 พฤษภาคม 2020
@@ -505,20 +507,26 @@
               href: hr-leave-and-absence-plans.md
             - name: กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
               href: hr-leave-and-absence-enroll.md
-            - name: ตั้งรายการค้างรับแผนการลางานและการขาดงาน
+            - name: ตั้งรายการคงค้างของแผนการลางานและการขาดงาน
               href: hr-leave-and-absence-accrue.md
             - name: ระงับการลางาน
               href: hr-leave-and-absence-suspend-leave.md
+            - name: คำขอลาหยุด
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: จัดการการลางานของพนักงาน
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: ดูการวิเคราะห์สำหรับการลางานและการขาดงาน
               href: hr-leave-and-absence-analytics.md
             - name: จัดการกับคำขอการลางานและการขาดงาน
               href: hr-employee-self-service-manage-requests.md
-            - name: ส่งคำขอการลาหยุด
+            - name: ร้องขอการหยุดพัก
               href: hr-employee-self-service-request-time-off.md
             - name: ดูปฏิทินของทีมและบริษัท
               href: hr-employee-self-service-calendar.md
+            - name: จัดการนโยบายซื้อและขายวันลางาน
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: ซื้อและขายวันลางาน
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: จัดการคำขอลางานใน Teams
           href: hr-teams-leave-app.md
         - name: พัฒนาพนักงาน

@@ -70,12 +70,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (สิงหาคม 2020)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (พฤษภาคม 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (เมษายน 2020)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: กลุ่มการคำนวณ BOM
                   href: cost-management/bom-calculation-groups.md
+                - name: ระดับการคำนวณต้นทุน
+                  href: cost-management/cost-calculation-level.md
                 - name: การคิดต้นทุนแบบย้อนกลับ
                   href: cost-management/backflush-costing.md
                 - name: แหล่งทั่วไปของผลต่างการผลิต
@@ -739,7 +741,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -751,7 +753,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                         - name: แมปส่วนประกอบของรูปแบบที่สร้างกับองค์ประกอบแบบจำลองข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ทดสอบโซลูชัน ER ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
+                    - name: ทดสอบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
                       items:
                         - name: (ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -885,7 +887,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/supply-chain/toc.json
                         - name: NullContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ข้อความ
+                    - name: Text
                       items:
                         - name: ฟังก์ชันข้อความ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/supply-chain/toc.json
@@ -921,7 +923,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Right
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ข้อความ
+                        - name: Text
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Translate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/supply-chain/toc.json
@@ -1011,7 +1013,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: จัดการการแมปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+            - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1021,7 +1023,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
             - name: (ER) แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
               items:
                 - name: (ER) ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1043,9 +1045,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบโซลูชัน ER เพื่อใช้มิติทางการเงิน
+            - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์เพื่อใช้มิติทางการเงิน
               items:
                 - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1055,7 +1057,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบรูปแบบ ER ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
               items:
                 - name: สร้างรูปแบบเพื่อทำการตรวจนับและการรวม
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1073,15 +1075,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
             - name: ใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของรูปแบบ
               items:
-                - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของ ER
+                - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
             - name: อัปเดตข้อมูลแอปพลิเคชันโดยใช้การรายงานทางอิเล็กทรอนิกส์
               items:
@@ -1097,7 +1099,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: จัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชัน ER
+            - name: นำเข้าข้อมูลจากไฟล์ขาเข้าโดยใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER)
               items:
                 - name: แยกวิเคราะห์เอกสารขาเข้าในรูปแบบที่แตกต่างกัน
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1111,11 +1113,11 @@
                   items:
                     - name: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
+                    - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่คำนวณได้
+            - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูลการรายงานทางอิเล็กทรอนิกส์ของชนิดฟิลด์ที่คำนวณได้
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: วงจรการใช้งานการตั้งค่าคอนฟิก
               items:
@@ -1129,9 +1131,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
+                - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากที่เก็บ RCS
                   items:
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บ ER ของชนิด RCS
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บการรายงานทางอิเล็กทรอนิกส์ของชนิด RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -1139,11 +1141,11 @@
               items:
                 - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบ ER ตามบริบทของประเทศ
+                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
+                - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับนิติบุคคลแต่ละรายการ
+                - name: ตั้งค่าพารามิเตอร์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์สำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   items:
@@ -1181,13 +1183,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทาง
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงาน ER ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: ใช้ตัวกรองกับแผน
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: ดูประวัติแผนและบันทึกการวางแผน
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์
                       href: production-control/report-production-orders-as-finished.md
-                    - name: รายงานเป็น เสร็จแล้ว ไปยังสถานที่ที่ควบคุมป้ายทะเบียน
+                    - name: ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์
+                      href: production-control/config-job-card-device.md
+                    - name: รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน
                       href: production-control/report-finished-job-device.md
                     - name: กลับสถานะใบสั่งผลิต
                       href: production-control/reverse-production-order-status.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: ตั้งค่ากฎค่าส่งเสริมการขายให้แก่ผู้ขาย
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: พอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management
+              items:
+                - name: ภาพรวมของพอร์ทัลลูกค้า
+                  href: sales-marketing/customer-portal-overview.md
+                - name: ติดตั้ง ตั้งค่า และอัปเดตพอร์ทัลลูกค้า
+                  href: sales-marketing/customer-portal-setup.md
+                - name: สร้างและจัดการผู้ใช้พอร์ทัลลูกค้า
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: ปรับแต่งและใช้พอร์ทัลลูกค้า
+                  href: sales-marketing/customer-portal-customize.md
             - name: การให้ส่วนลดทางการค้า
               href: sales-marketing/trade-allowance.md
             - name: สร้างข้อตกลงทางการค้าใหม่
@@ -2655,6 +2671,8 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า
+                  href: warehousing/onhand-cleanup.md
                 - name: สมุดรายวันสินค้าคงคลัง
                   href: inventory/inventory-journals.md
                 - name: สถานที่เก็บสินค้าคงคลัง
