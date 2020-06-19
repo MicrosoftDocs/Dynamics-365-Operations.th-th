@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388127"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431141"
 ---
 # <a name="human-resources-app-in-teams"></a>แอปทรัพยากรบุคคลใน Teams
 
@@ -45,6 +45,7 @@ ms.locfileid: "3388127"
 
 | ออก | สถานะ |
 | --- | --- |
+| ข้อผิดพลาด: มีปัญหาในการค้นหาสภาพแวดล้อมที่จะเชื่อมต่อ | คุณอาจได้รับข้อผิดพลาดนี้ แม้ว่าคุณจะได้ตรวจสอบความถูกต้องว่าผู้ใช้สามารถเข้าถึงสภาพแวดล้อมของทรัพยากรบุคคลอย่างน้อยหนึ่งรายการ นอกจากนี้ คุณอาจไม่เห็นสภาพแวดล้อมทั้งหมดที่คุณคาดไว้ จนกว่าเราจะแก้ไขปัญหานี้ ให้ลบผู้ใช้ และจากนั้น นำเข้าอีกครั้งเพื่อแก้ไขปัญหา |
 | ยอดดุลไม่ถูกต้องเมื่อส่งเวลาสำหรับวันที่ในอนาคต | การคาดการณ์ยังไม่พร้อมใช้งาน ยอดดุลปัจจุบันแสดงสำหรับวันที่ปัจจุบัน |
 | เมื่อลดจำนวนชั่วโมงที่ใช้ในการร้องขอที่มีอยู่ **ยอดดุลคงเหลือจะถูก** จะลดลงแทนที่จะเพิ่มขึ้น | เราจะจัดการปัญหาที่ทราบนี้ในอนาคต การแสดงผลไม่ถูกต้องแต่มีการปรับปรุงยอดที่ถูกต้องเมื่อทำการส่ง |
 | บัตร **การลาหยุดที่กำลังจะมาถึง** 2 ใบแสดงวันที่เดียวกัน | บัตรแสดงถึงการส่งทีละรายการ เราจะนำคำติชมไปใช้แและทำการปรับปรุงต่อไป |
