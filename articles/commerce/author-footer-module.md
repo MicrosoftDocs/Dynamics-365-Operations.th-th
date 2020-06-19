@@ -3,7 +3,7 @@ title: โมดูลของส่วนท้าย
 description: หัวข้อนี้ครอบคลุมถึงโมดูลของส่วนท้ายและวิธีการสร้าง Dynamics 365 Commerce
 author: anupamar
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,70 +17,73 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269647"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411235"
 ---
-# <a name="footer-module"></a><span data-ttu-id="84860-103">โมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-103">Footer module</span></span>  
-
+# <a name="footer-module"></a><span data-ttu-id="94d46-103">โมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-103">Footer module</span></span>  
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="84860-104">หัวข้อนี้ครอบคลุมถึงโมดูลของส่วนท้ายและอธิบายวิธีการสร้างใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="84860-104">This topic covers footer modules and describes how to create them in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="94d46-104">หัวข้อนี้ครอบคลุมถึงโมดูลของส่วนท้ายและอธิบายวิธีการสร้างใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="94d46-104">This topic covers footer modules and describes how to create them in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="84860-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="84860-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="94d46-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="94d46-105">Overview</span></span>
 
-<span data-ttu-id="84860-106">โมดูลของส่วนท้ายเป็นคอนเทนเนอร์พิเศษที่ใช้เพื่อโฮสต์โมดูลที่ปรากฏในส่วนท้ายของเพจ</span><span class="sxs-lookup"><span data-stu-id="84860-106">The footer module is a special container that is used to host the modules that appear in the page footer.</span></span> <span data-ttu-id="84860-107">ตัวอย่างเช่น สามารถรวมลิงค์ไปยังเพจต่างๆ ทั่วทั้งไซต์ เช่น **ติดต่อเรา** และเพจ **นโยบายร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="84860-107">For example, it can include links to various pages across the site, such as **Contact Us** and **Store Policies** pages.</span></span>
+<span data-ttu-id="94d46-106">โมดูลของส่วนท้ายเป็นคอนเทนเนอร์พิเศษที่ใช้เพื่อโฮสต์โมดูลที่ปรากฏในส่วนท้ายของเพจ</span><span class="sxs-lookup"><span data-stu-id="94d46-106">The footer module is a special container that is used to host the modules that appear in the page footer.</span></span> <span data-ttu-id="94d46-107">ตัวอย่างเช่น สามารถรวมลิงค์ไปยังเพจต่างๆ ทั่วทั้งไซต์ เช่น **ติดต่อเรา** และเพจ **นโยบายร้านค้า**</span><span class="sxs-lookup"><span data-stu-id="94d46-107">For example, it can include links to various pages across the site, such as **Contact Us** and **Store Policies** pages.</span></span>
 
-## <a name="footer-module-properties"></a><span data-ttu-id="84860-108">คุณสมบัติของโมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-108">Footer module properties</span></span> 
+<span data-ttu-id="94d46-108">รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูลส่วนท้ายบนหน้าไซต์</span><span class="sxs-lookup"><span data-stu-id="94d46-108">The following image shows an example of a footer module on a site page.</span></span>
 
-<span data-ttu-id="84860-109">เช่นเดียวกับคอนเทนเนอร์ส่วนใหญ่ โมดูลของส่วนท้ายสนับสนุนคุณสมบัติสำหรับส่วนหัวและความกว้าง</span><span class="sxs-lookup"><span data-stu-id="84860-109">Like most containers, a footer module supports properties for the heading and the width.</span></span> <span data-ttu-id="84860-110">นอกจากนี้ยังสนับสนุนการเพิ่มโมดูลประเภทของหลายส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-110">It also supports the addition of multiple footer category modules.</span></span> <span data-ttu-id="84860-111">แต่ละโมดูลประเภทของส่วนท้ายที่มีการเพิ่มจะถูกแสดงเป็นคอลัมน์ในโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-111">Each footer category module that is added is rendered as a column in the footer module.</span></span>
+![ตัวอย่างของโมดูลส่วนท้าย](./media/ecommerce-footer.PNG)
 
-## <a name="modules-available-in-a-footer-module"></a><span data-ttu-id="84860-112">โมดูลที่มีอยู่ในโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-112">Modules available in a footer module</span></span>
+## <a name="footer-module-properties"></a><span data-ttu-id="94d46-110">คุณสมบัติของโมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-110">Footer module properties</span></span> 
 
-<span data-ttu-id="84860-113">**สินค้าส่วนท้าย** โมดูลสินค้าส่วนท้ายอาจประกอบด้วยหัวข้อ รูปภาพ และลิงค์</span><span class="sxs-lookup"><span data-stu-id="84860-113">**Footer items** – A footer items module can contain a heading, an image, and a link.</span></span> <span data-ttu-id="84860-114">คุณสามารถใช้หัวข้ออย่างเดียวห รือรวมกันกับรูปภาพและลิงค์</span><span class="sxs-lookup"><span data-stu-id="84860-114">The heading can be used either alone or in combination with an image and a link.</span></span> <span data-ttu-id="84860-115">คุณสามารถตั้งค่าคอนฟิกทุกลิงค์ในส่วนท้าย เพื่อให้มีข้อความเพียงอย่างเดียว (ตัวอย่างเช่น "ติดต่อเรา" และลิงค์ "ความเป็นส่วนตัว") หรือเพื่อให้มีทั้งข้อความและรูปภาพ (ตัวอย่างเช่น ลิงค์โซเชียลมีเดีย)</span><span class="sxs-lookup"><span data-stu-id="84860-115">Every link in the footer can be configured so that it has just text (for example, "Contact Us" and "Privacy" links), or so that it has both text and an image (for example, social media links).</span></span>
+<span data-ttu-id="94d46-111">เช่นเดียวกับคอนเทนเนอร์ส่วนใหญ่ โมดูลของส่วนท้ายสนับสนุนคุณสมบัติสำหรับส่วนหัวและความกว้าง</span><span class="sxs-lookup"><span data-stu-id="94d46-111">Like most containers, a footer module supports properties for the heading and the width.</span></span> <span data-ttu-id="94d46-112">นอกจากนี้ยังสนับสนุนการเพิ่มโมดูลประเภทของหลายส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-112">It also supports the addition of multiple footer category modules.</span></span> <span data-ttu-id="94d46-113">แต่ละโมดูลประเภทของส่วนท้ายที่มีการเพิ่มจะถูกแสดงเป็นคอลัมน์ในโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-113">Each footer category module that is added is rendered as a column in the footer module.</span></span>
 
-<span data-ttu-id="84860-116">**กลับไปที่ด้านบนสุด** - การกลับไปที่โมดูลอันดับต้นๆ ให้ลิงค์สำหรับการนำทางด่วนไปที่ด้านบนของเพจ</span><span class="sxs-lookup"><span data-stu-id="84860-116">**Back to top** – A back to top module provides a link for quick navigation to the top of the page.</span></span> <span data-ttu-id="84860-117">ต้องใช้ปลายทาง</span><span class="sxs-lookup"><span data-stu-id="84860-117">A destination is required.</span></span> <span data-ttu-id="84860-118">ค่าปลายทางเริ่มต้นคือ # ซึ่งพาผู้ใช้ไปยังด้านบนของเพจ</span><span class="sxs-lookup"><span data-stu-id="84860-118">The default destination value is #, which takes the user to the top of the page.</span></span>
+## <a name="modules-available-in-a-footer-module"></a><span data-ttu-id="94d46-114">โมดูลที่มีอยู่ในโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-114">Modules available in a footer module</span></span>
 
-## <a name="author-a-footer-module"></a><span data-ttu-id="84860-119">สร้างโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-119">Author a footer module</span></span>
+<span data-ttu-id="94d46-115">**สินค้าส่วนท้าย** โมดูลสินค้าส่วนท้ายอาจประกอบด้วยหัวข้อ รูปภาพ และลิงค์</span><span class="sxs-lookup"><span data-stu-id="94d46-115">**Footer items** – A footer items module can contain a heading, an image, and a link.</span></span> <span data-ttu-id="94d46-116">คุณสามารถใช้หัวข้ออย่างเดียวห รือรวมกันกับรูปภาพและลิงค์</span><span class="sxs-lookup"><span data-stu-id="94d46-116">The heading can be used either alone or in combination with an image and a link.</span></span> <span data-ttu-id="94d46-117">คุณสามารถตั้งค่าคอนฟิกทุกลิงค์ในส่วนท้าย เพื่อให้มีข้อความเพียงอย่างเดียว (ตัวอย่างเช่น "ติดต่อเรา" และลิงค์ "ความเป็นส่วนตัว") หรือเพื่อให้มีทั้งข้อความและรูปภาพ (ตัวอย่างเช่น ลิงค์โซเชียลมีเดีย)</span><span class="sxs-lookup"><span data-stu-id="94d46-117">Every link in the footer can be configured so that it has just text (for example, "Contact Us" and "Privacy" links), or so that it has both text and an image (for example, social media links).</span></span>
 
-1. <span data-ttu-id="84860-120">ในบานหน้าต่างนำทาง ให้เลือก **ส่วน** แล้วเลือก **ส่วนของเพจใหม่**</span><span class="sxs-lookup"><span data-stu-id="84860-120">In the navigation pane, select **Fragments**, and then select **New Page Fragment**.</span></span>
-1. <span data-ttu-id="84860-121">ในกล่องโต้ตอบ **ส่วนของเพจใหม่** ให้เลือกโมดูลส่วนท้าย ป้อนชื่อสำหรับส่วนของเพจ แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="84860-121">In the **New Page Fragment** dialog box, select the footer module, enter a name for the page fragment, and then select **OK**.</span></span>
-1. <span data-ttu-id="84860-122">ในแผนภูมิเค้าร่างทางด้านซ้าย เลือกปุ่มจุดไข่ปลา (**...**) สำหรับโมดูลส่วนท้าย จากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="84860-122">In the outline tree on the left, select the ellipsis button (**...**) for the footer module, and then select **Add Module**.</span></span>
-1. <span data-ttu-id="84860-123">ในกล่องโต้ตอบ  **เพิ่มโมดูล** ให้เลือกโมดูลประเภทของส่วนท้าย แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="84860-123">In the **Add Module** dialog box, select the footer category module, and then select **OK**.</span></span>
-1. <span data-ttu-id="84860-124">ในแผนภูมิเค้าร่าง เลือกปุ่มจุดไข่ปลาสำหรับโมดูลประเภทของส่วนท้าย จากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="84860-124">In the outline tree, select the ellipsis button for the footer category module, and then select **Add Module**.</span></span>
-1. <span data-ttu-id="84860-125">ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูลสินค้าของส่วนท้าย แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="84860-125">In the **Add Module** dialog box, select the footer item module, and then select **OK**.</span></span>
-1. <span data-ttu-id="84860-126">ในแผนภูมิเค้าร่าง ให้เลือกโมดูลสินค้าของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-126">In the outline tree, select the footer item module.</span></span> <span data-ttu-id="84860-127">จากนั้น ในบานหน้าต่างคุณสมบัติทางด้านขวา ให้ตั้งค่าคอนฟิกหัวข้อ ลิงค์ และลิงค์ข้อความ และรูปภาพตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="84860-127">Then, in the properties pane on the right, configure the heading, link and link text, and image as you require.</span></span>
-1. <span data-ttu-id="84860-128">หากต้องการเพิ่มสินค้าของส่วนท้าย ทำซ้ำขั้นตอนที่ 5 ถึง 7</span><span class="sxs-lookup"><span data-stu-id="84860-128">To add more footer items, repeat steps 5 through 7.</span></span>
-1. <span data-ttu-id="84860-129">หากต้องการเพิ่มลิงค์ "กลับไปที่ด้านบน" ไปที่ส่วนท้าย เลือกปุ่มจุดไข่ปลาสำหรับโมดูลประเภทของส่วนท้าย จากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="84860-129">To add a "back to top" link to your footer, select the ellipsis button for the footer category module, and then select **Add Module**.</span></span>
-1. <span data-ttu-id="84860-130">ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูลกลับไปที่ด้านบน แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="84860-130">In the **Add Module** dialog box, select the back to top module, and then select **OK**.</span></span>
-1. <span data-ttu-id="84860-131">ในแผนภูมิเค้าร่าง ให้เลือกโมดูลกลับไปที่ด้านบน</span><span class="sxs-lookup"><span data-stu-id="84860-131">In the outline tree, select the back to top module.</span></span> <span data-ttu-id="84860-132">จากนั้น ในบานหน้าต่างคุณสมบัติทางด้านขวา ให้ตั้งค่าคอนฟิกโมดูลกลับไปที่ด้านบนตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="84860-132">Then, in the properties pane on the right, configure the back to top module as you require.</span></span>
-1. <span data-ttu-id="84860-133">เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในส่วนของเพจ และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="84860-133">Select **Save**, select **Finish editing** to check in the page fragment, and then select **Publish** to publish it.</span></span>
+<span data-ttu-id="94d46-118">**กลับไปที่ด้านบนสุด** - การกลับไปที่โมดูลอันดับต้นๆ ให้ลิงค์สำหรับการนำทางด่วนไปที่ด้านบนของเพจ</span><span class="sxs-lookup"><span data-stu-id="94d46-118">**Back to top** – A back to top module provides a link for quick navigation to the top of the page.</span></span> <span data-ttu-id="94d46-119">ต้องใช้ปลายทาง</span><span class="sxs-lookup"><span data-stu-id="94d46-119">A destination is required.</span></span> <span data-ttu-id="94d46-120">ค่าปลายทางเริ่มต้นคือ \# ซึ่งพาผู้ใช้ไปยังด้านบนของหน้า</span><span class="sxs-lookup"><span data-stu-id="94d46-120">The default destination value is \#, which takes the user to the top of the page.</span></span>
 
-<span data-ttu-id="84860-134">บนทุกๆ แม่แบบเพจที่สร้างขึ้นสำหรับไซต์ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="84860-134">On every page template that has been created for the site, follow these steps.</span></span>
+## <a name="create-a-footer-module"></a><span data-ttu-id="94d46-121">สร้างโมดูลส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-121">Create a footer module</span></span>
 
-1. <span data-ttu-id="84860-135">ในช่อง **หลัก** ของเพจเริ่มต้น ในโมดูลส่วนท้าย ให้เพิ่มส่วนที่เป็นส่วนท้ายที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="84860-135">In the **Main** slot of the default page, in the footer module, add the footer fragment that you created.</span></span>
-1. <span data-ttu-id="84860-136">เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในเท็มเพลต และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="84860-136">Select **Save**, select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span>
+1. <span data-ttu-id="94d46-122">ไปที่ **ส่วนของเพจ** จากนั้น ให้เลือก **สร้าง** เพื่อสร้างส่วนย่อยใหม่</span><span class="sxs-lookup"><span data-stu-id="94d46-122">Go to **Page Fragments**, and select **New** to create a new fragment.</span></span>
+1. <span data-ttu-id="94d46-123">ในกล่องโต้ตอบ **ส่วนย่อยของหน้าใหม่** ให้เลือกโมดูล **คอนเทนเนอร์** ป้อนชื่อสำหรับส่วนย่อยของหน้า แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="94d46-123">In the **New Page Fragment** dialog box, select the **Container** module, enter a name for the page fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="94d46-124">ในช่อง **คอนเทนเนอร์เริ่มต้น** เลือกจุดไข่ปลา (**...**) แล้วจากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="94d46-124">In the **Default container** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="94d46-125">ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **ประเภทของส่วนท้าย** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="94d46-125">In the **Add Module** dialog box, select the **Footer category** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="94d46-126">ในช่อง **ประเภทส่วนท้าย** เลือกจุดไข่ปลา (**...**) แล้วจากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="94d46-126">In the **Footer category** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="94d46-127">ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **รายการส่วนท้าย** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="94d46-127">In the **Add Module** dialog box, select the **Footer item** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="94d46-128">เลือกช่อง **รายการส่วนท้าย** จากนั้นในบานหน้าต่างคุณสมบัติทางด้านขวา ให้ตั้งค่าคอนฟิกส่วนหัว ลิงก์และข้อความลิงก์ และรูปภาพตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="94d46-128">Select the **Footer item** slot, and then, in the properties pane on the right, configure the heading, link and link text, and image as needed.</span></span>
+1. <span data-ttu-id="94d46-129">หากต้องการเพิ่มรายการส่วนท้าย ทำซ้ำแต่ละขั้นตอนที่ 5 ถึง 7</span><span class="sxs-lookup"><span data-stu-id="94d46-129">To add more footer items, repeat steps 5 through 7 for each.</span></span>
+1. <span data-ttu-id="94d46-130">หากต้องการเพิ่มลิงค์ "กลับไปที่ด้านบน" ไปที่ส่วนท้าย เลือกปุ่มจุดไข่ปลา (**...**) ในช่อง **ประเภทของส่วนท้าย** จากนั้นเลือก **เพิ่มโมดูล**</span><span class="sxs-lookup"><span data-stu-id="94d46-130">To add a "back to top" link to your footer, select the ellipsis (**...**) in the **Footer category** slot, and then select **Add Module**.</span></span>
+1. <span data-ttu-id="94d46-131">ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **กลับไปที่ด้านบน** แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="94d46-131">In the **Add Module** dialog box, select the **Back to top** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="94d46-132">เลือกช่อง **กลับไปที่ด้านบน** จากนั้นในบานหน้าต่างคุณสมบัติทางด้านขวา ให้ตั้งค่าคอนฟิกข้อความและคุณสมบัติโมดูลอื่นๆ ตามที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="94d46-132">Select the **Back to top** slot, and then, in the properties pane on the right, configure the text and other module properties as needed.</span></span>
+1. <span data-ttu-id="94d46-133">เลือก **แก้ไขให้เสร็จสิ้น** เพื่อเช็คอินส่วนย่อย และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="94d46-133">Select **Finish editing** to check in the fragment, and then select **Publish** to publish it.</span></span>
 
-<span data-ttu-id="84860-137">โดยการเพิ่มส่วนของเพจลงในแม่แบบเพจ คุณช่วยรับประกันว่าส่วนท้ายจะแสดงบนทุกเพจ</span><span class="sxs-lookup"><span data-stu-id="84860-137">By adding the page fragment to page templates, you help guarantee that the footer is rendered on every page.</span></span>
+<span data-ttu-id="94d46-134">เพื่อให้มั่นใจว่าส่วนหัวจะปรากฏบนทุกเพจ ให้ทำตามขั้นตอนต่อไปนี้บนทุกแม่แบบเพจที่สร้างขึ้นสำหรับไซต์</span><span class="sxs-lookup"><span data-stu-id="94d46-134">To help guarantee that a header appears on every page, follow these steps on every page template that is created for the site.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="84860-138">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="84860-138">Additional resources</span></span>
+1. <span data-ttu-id="94d46-135">ในช่อง **ส่วนท้าย** ของโมดูล **หน้าเริ่มต้น** ให้เพิ่มส่วนย่อยที่เป็นส่วนท้ายที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="94d46-135">In the **Footer** slot of the **Default page** module, add the footer fragment that you created.</span></span>
+1. <span data-ttu-id="94d46-136">เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในเท็มเพลต และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="94d46-136">Select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span>
 
-[<span data-ttu-id="84860-139">ภาพรวมของชุดเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="84860-139">Starter kit overview</span></span>](starter-kit-overview.md)
+<span data-ttu-id="94d46-137">โดยการเพิ่มส่วนของเพจลงในแม่แบบเพจ คุณช่วยรับประกันว่าส่วนท้ายจะแสดงบนทุกเพจ</span><span class="sxs-lookup"><span data-stu-id="94d46-137">By adding the page fragment to page templates, you help guarantee that the footer is rendered on every page.</span></span>
 
-[<span data-ttu-id="84860-140">โมดูลคอนเทนเนอร์</span><span class="sxs-lookup"><span data-stu-id="84860-140">Container module</span></span>](add-container-module.md)
+## <a name="additional-resources"></a><span data-ttu-id="94d46-138">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="94d46-138">Additional resources</span></span>
 
-[<span data-ttu-id="84860-141">โมดูลกล่องการซื้อ</span><span class="sxs-lookup"><span data-stu-id="84860-141">Buy box module</span></span>](add-buy-box.md)
+[<span data-ttu-id="94d46-139">ภาพรวมของชุดเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="94d46-139">Starter kit overview</span></span>](starter-kit-overview.md)
 
-[<span data-ttu-id="84860-142">โมดูลรถเข็น</span><span class="sxs-lookup"><span data-stu-id="84860-142">Cart module</span></span>](add-cart-module.md)
+[<span data-ttu-id="94d46-140">โมดูลคอนเทนเนอร์</span><span class="sxs-lookup"><span data-stu-id="94d46-140">Container module</span></span>](add-container-module.md)
 
-[<span data-ttu-id="84860-143">โมดูลเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="84860-143">Checkout module</span></span>](add-checkout-module.md)
+[<span data-ttu-id="94d46-141">โมดูลกล่องการซื้อ</span><span class="sxs-lookup"><span data-stu-id="94d46-141">Buy box module</span></span>](add-buy-box.md)
 
-[<span data-ttu-id="84860-144">โมดูลใบยืนยันคำสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="84860-144">Order confirmation module</span></span>](order-confirmation-module.md)
+[<span data-ttu-id="94d46-142">โมดูลรถเข็น</span><span class="sxs-lookup"><span data-stu-id="94d46-142">Cart module</span></span>](add-cart-module.md)
 
-[<span data-ttu-id="84860-145">โมดูหัวข้อ</span><span class="sxs-lookup"><span data-stu-id="84860-145">Header module</span></span>](author-header-module.md)
+[<span data-ttu-id="94d46-143">โมดูลเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="94d46-143">Checkout module</span></span>](add-checkout-module.md)
 
-[<span data-ttu-id="84860-146">โมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="84860-146">Footer module</span></span>](author-footer-module.md)
+[<span data-ttu-id="94d46-144">โมดูลใบยืนยันคำสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="94d46-144">Order confirmation module</span></span>](order-confirmation-module.md)
+
+[<span data-ttu-id="94d46-145">โมดูหัวข้อ</span><span class="sxs-lookup"><span data-stu-id="94d46-145">Header module</span></span>](author-header-module.md)
+
+[<span data-ttu-id="94d46-146">โมดูลของส่วนท้าย</span><span class="sxs-lookup"><span data-stu-id="94d46-146">Footer module</span></span>](author-footer-module.md)
