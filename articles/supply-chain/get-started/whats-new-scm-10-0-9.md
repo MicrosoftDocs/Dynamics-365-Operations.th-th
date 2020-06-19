@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9965d72474e5fa39fbc0a43753f7645df6881a5
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 22ffe71ccb890d35f2b0d5ef2bc3767b1e700be9
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275708"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413018"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.9 (เมษายน 2020)
 
@@ -48,7 +48,7 @@ ms.locfileid: "3275708"
 - การรวมตามน้ำหนักจริงเพิ่มเติม [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1) [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2) [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3) [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4) [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5) [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6) [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลผลิตภัณฑ์ตามน้ำหนักจริงที่มีการจัดการคลังสินค้า](../warehousing/catch-weight-processing.md) และรวมถึงวิดีโอ [การปรับปรุงผลิตภัณฑ์ตามน้ำหนักจริง](https://www.microsoft.com/videoplayer/embed/RE4jzx8)
 - [การรวมสินทรัพย์ถาวรกับวงจรการจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รวมการจัดการสินทรัพย์กับสินทรัพย์ถาวร](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md)
 - [การจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายการจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md)
-- [อุปกรณ์สำหรับบัตรงานที่ปรับปรุง](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานความก้าวหน้าบนอุปกรณ์เคลื่อนที่ของงาน](../production-control/tasks/report-progress-mobile-job-device.md) และ [รายงานเป็นเสร็จสิ้นแล้วไปยังสถานที่ที่ควบคุมป้ายทะเบียนจากอุปกรณ์สำหรับบัตรงาน](../production-control/report-finished-job-device.md)
+- [อุปกรณ์สำหรับบัตรงานที่ปรับปรุง](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานความก้าวหน้าบนอุปกรณ์เคลื่อนที่ของงาน](../production-control/tasks/report-progress-mobile-job-device.md) และ [รายงานการเสร็จงานจากอุปกรณ์สำหรับบัตรงาน](../production-control/report-finished-job-device.md)
 - [การตรวจสอบคุณภาพขาเข้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [ที่เก็บข้อมูลรายงานมูลค่าสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
@@ -67,7 +67,7 @@ ms.locfileid: "3275708"
 - [การจัดกำหนดการแบบภาพสำหรับใบสั่งงานในการจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ทำงานกับใบสั่งงานที่จัดกำหนดการโดยใช้แผนภูมิ gantt](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt)
 - [การแบ่งช่วงเวลาของคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [การเพิ่มประสิทธิภาพในการพิมพ์ป้ายชื่อเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
-- [รหัสขั้นตอนของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
+- [รหัสขั้นตอนของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code) -สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รหัสขั้นตอนของเวฟ](../warehousing/wave-step-codes.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

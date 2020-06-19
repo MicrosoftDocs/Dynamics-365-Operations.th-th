@@ -1,5 +1,5 @@
 ---
-title: สินเชื่อและการเรียกเก็บเงินในบัญชีลูกหนี้
+title: การเรียกเก็บเงินในบัญชีลูกหนี้
 description: ข้อมูลคอลเลกชันบัญชีลูกหนี้ถูกจัดการในมุมมองกลางหนึ่งรายการ โดยใช้หน้าคอลเลกชัน Microsoft Dynamics 365 Finance ผู้จัดการฝ่ายสินเชื่อและการเรียกเก็บเงินสามารถใช้มุมมองส่วนกลางนี้ เพื่อจัดการการเรียกเก็บเงิน ตัวแทนเรียกเก็บเงินจะเริ่มกระบวนการเรียกเก็บเงินจากรายชื่อลูกค้า ที่ถูกสร้างขึ้นโดยการใช้เกณฑ์การเรียกเก็บเงินที่กำหนดไว้ล่วงหน้า หรือจากหน้าลูกค้า
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189188"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426407"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>สินเชื่อและการเรียกเก็บเงินในบัญชีลูกหนี้
+# <a name="collections-in-accounts-receivable"></a>การเรียกเก็บเงินในบัญชีลูกหนี้
 
 [!include [banner](../includes/banner.md)]
 
