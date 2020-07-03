@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform update สำหรับ 10.0.10 (พฤษภาคม 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (เมษายน 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: การจัดการการรวมแบบสองทิศทาง
                           items:
                             - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
@@ -364,6 +364,8 @@
           items:
             - name: ภาพรวมของ Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: ตั้งค่าคอนฟิกการส่งออกไปยัง Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: แอป Finance and Operations ใน Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: การวินิจฉัยแบบในสถานที่
                       href: deployment/on-premises-diagnostics.md
+                    - name: การตั้งค่าคอนฟิกการกู้คืนความเสียหายในสถานที่
+                      href: deployment/onprem-dr.md
                     - name: การรวม PowerBI.com กับสภาพแวดล้อมในสถานที่
                       href: analytics/entity-store-on-prem.md
                     - name: ตั้งค่าคอนฟิกสภาพแวดล้อมใหม่
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
                   href: dev-tools/event-handler-result-class.md
-                - name: 'เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++'
+                - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
                   href: dev-tools/write-business-logic.md
                 - name: การเปลี่ยนแปลงใน X++ และคอมไพเลอร์ X++
                   href: dev-tools/programming-language-support.md
-                - name: 'ผู้ให้บริการ LINQ สำหรับ C#'
+                - name: ผู้ให้บริการ LINQ สำหรับ C#
                   href: dev-tools/linq-provider-c.md
                 - name: เขียนกฎแนวทางปฏิบัติ
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: คลาสแอททริบิวต์ X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'การเปรียบเทียบ X++ และ C#'
+                    - name: การเปรียบเทียบ X++ และ C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: ไวยากรณ์ของ X++
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: สถาปัตยกรรมความปลอดภัย
                   href: sysadmin/security-architecture.md
+                - name: การเข้ารหัสในแอป Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: ตั้งค่าการหมดเวลาเมื่อเซสชันไม่ทำงาน
                   href: sysadmin/session-idle-timeout.md
                 - name: รายงานความปลอดภัยแบบสำเร็จรูป
@@ -1486,7 +1492,7 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: รายงานความขัดข้องในการผลิต
               href: lifecycle-services/report-production-outage.md
-            - name: การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
+            - name: ตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
               href: sysadmin/configure-manage-database-log.md
             - name: สร้างแคชข้อมูลเมตา OData เมื่อ AOS เริ่มต้น
               href: sysadmin/odata-warmup.md

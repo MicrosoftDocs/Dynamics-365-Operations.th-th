@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: การอัปเกรดและการสนับสนุน N-1
               items:
-                - name: การอัปเกรดและการสนับสนุน N-1 สำหรับ Retail
+                - name: การอัปเกรดและการสนับสนุน N-1 สำหรับ Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: การติดตั้ง การตั้งค่าคอนฟิกและการตัดการเปิดตัวแบบเป็นขั้นตอน (N-1)
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (พฤษภาคม 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (เมษายน 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Finance and Operations
@@ -146,7 +144,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
                 - name: สถาปนิกโซลูชัน
                   href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
-            - name: สำรวจอินเทอร์เฟซผู้ใช้
+            - name: สำรวจอินเทอร์เฟสผู้ใช้
               items:
                 - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/commerce/toc.json
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: การยืนยันตัวตนของลูกค้าแบบขั้นสูง (SCA) โดยใช้ตัวเชื่อมต่อ Adyen
                       href: adyen_redirect.md
+                    - name: เทอร์มินัลการชำระเงินเฉพาะและพร้อมต์สำหรับเครื่องพิมพ์และลิ้นชักเงินสด
+                      href: pos-multi-hws.md
                     - name: สวิตช์ออฟไลน์ที่ราบรื่นสำหรับการดำเนินงานบัตรของขวัญและใบลดหนี้
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: ตั้งค่าบาร์โค้ดมาสก์
                       href: set-up-bar-code-masks.md
+                - name: การรับประกัน
+                  items:
+                    - name: สร้างและตั้งค่าคอนฟิกการขยายเวลาการรับประกัน
+                      href: extended-warranty.md
             - name: การกำหนดราคาและส่วนลด
               items:
                 - name: ส่วนลด
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: โมดูลเช็คเอาท์
                       href: add-checkout-module.md
-                    - name: โมดูลการยืนยันใบสั่ง
+                    - name: โมดูลรายละเอียดใบสั่ง
                       href: order-confirmation-module.md
                     - name: โมดูลตัวเลือกการจัดเก็บ
                       href: store-selector.md
@@ -1482,7 +1486,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1610,7 +1614,7 @@
               items:
                 - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: ตั้งค่าคอนฟิกไฟล์สภาพแวดล้อมการพัฒนา (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: ดีบักสภาพแวดล้อมการพัฒนา Commerce ระดับ 1
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: ตั้งค่าการใช้รหัส Azure DevOps ร่วมกันและสร้างไปป์ไลน์การสร้าง
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: ภาพรวมของแพลตฟอร์ม
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: การพัฒนาในสภาพแวดล้อมการพัฒนาที่โฮสต์ในระบบคลาวด์โดยไม่มีสิทธิ์การเข้าถึงของผู้ดูแลระบบ
                   href: dev-itpro/cloud-dev-box.md
+                - name: ตั้งค่าไปป์ไลน์การสร้าง Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน
               items:
                 - name: โครงร่างหน้าจอ POS
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: สร้างส่วนขยาย Retail Server ใหม่
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail Typescript และพร็อกซี C#'
+                - name: Retail Typescript และพร็อกซี C#
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: ความสามารถในการเพิ่มฟังก์ชัน Commerce Runtime (CRT)
               items:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4185b958ed35e9d2bc764db8ea77b3a2f53c37
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029876"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410115"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>ขยายด้วย Power Apps และ Power Automate
 
@@ -55,7 +55,6 @@ ms.locfileid: "3029876"
 
 เมื่อต้องการดาวน์โหลดแม่แบบ **Power Automate – การเชื่อมต่อและดำเนินการ SQL** ไปที่ [Power Automate – การเชื่อมต่อและดำเนินการ SQL](https://go.microsoft.com/fwlink/?linkid=2081789) บนศูนย์ดาวน์โหลด Microsoft
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-[ย้ายแอประหว่างผู้เช่าและสภาพแวดล้อม](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

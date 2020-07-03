@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248747"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410161"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>ใช้บทช่วยสอน Regression Suite Automation Tool
+# <a name="regression-suite-automation-tool-tutorial"></a>บทช่วยสอน Regression Suite Automation Tool
 
 [!include [banner](../includes/banner.md)]
 
@@ -454,7 +454,7 @@ playback e:\temp\test.xlsx
 - ชื่อลูกค้า
 - ที่อยู่ลูกค้า
 
-รหัสลูกค้าจะอยู่ในรูปแบบ *ATCUS\<หมายเลข\>* โดยที่ \<หมายเลข\> อยู่ระหว่าง **000000001** และ **999999999**
+รหัสลูกค้าจะอยู่ในรูปแบบ *ATCUS\<number\>* โดยที่ \<number\> อยู่ระหว่าง **000000001** และ **999999999**
 
 ตัวอย่างต่อไปนี้ใช้พารามิเตอร์ **เริ่มต้น** เพื่อกำหนดหมายเลขแรกที่จะใช้ ใช้พารามิเตอร์ที่สอง **nr** เพื่อกำหนดจำนวนของลูกค้าที่ต้องสร้างขึ้น สำหรับการเกิดซ้ำแต่ละครั้ง จะมีการเปลี่ยนแปลงพารามิเตอร์ในไฟล์พารามิเตอร์ Excel โดยใช้ฟังก์ชัน UpdateCustomer จากนั้น รายการคำสั่ง RSAT ถูกเรียกในฟังก์ชัน RunTestCase
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010685"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443429"
 ---
 # <a name="overview"></a>ภาพรวม
 
@@ -34,13 +34,13 @@ ms.locfileid: "3010685"
 - ตั้งค่าและจัดการอินสแตนซ์
   - [เตรียมใช้งานทรัพยากรบุคคล](hr-admin-setup-provision.md)
   - [คัดลอกอินสแตนซ์](hr-admin-setup-copy-instance.md)
-  - [นำอินสแตนซ์ออก](hr-admin-setup-remove-instance.md)
-  - [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
+  - [เอาอินสแตนซ์ออก](hr-admin-setup-remove-instance.md)
+  - [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)
 
 - ตั้งค่าการรวมข้อมูล
   - [เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)
   - [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)
-  - [ตั้งค่าคอนฟิกการรวมกับการเงิน](hr-admin-integration-finance.md)
+  - [ตั้งค่าคอนฟิกการรวมกับ Finance](hr-admin-integration-finance.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
   - รวมกับ Office
@@ -50,6 +50,8 @@ ms.locfileid: "3010685"
     - [แก้ไขปัญหาการรวม Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+- [การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล](hr-admin-database-logging.md)
 
 - สำรวจอินเทอร์เฟซผู้ใช้
   - [องค์ประกอบอินเทอร์เฟสผู้ใช้](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -75,20 +77,19 @@ ms.locfileid: "3010685"
 - แหล่งข้อมูลเอกสารประกอบ
   - [ระบบวิธีใช้](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [เชื่อมต่อระบบวิธีใช้](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [เชื่อมต่อไซต์วิธีใช้แบบกำหนดเอง](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [ดูและส่งออกคำอธิบายฟิลด์](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [ตัวบันทึกงาน](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
-  - [สร้างเอกสารหรือการฝึกอบรมด้วยการบันทึกงาน](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
+  - [สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- แก้ปัญหาในทรัพยากรบุคคล
+- แก้ไขปัญหาของ Human Resources
   - [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
   - [ปรับปรุงประสิทธิภาพการทำงานด้วยงานการล้างข้อมูลอัตโนมัติ](hr-admin-troubleshooting-batch-history.md)
-  - [ไม่ได้อัพเดตรายงานการวิเคราะห์](hr-admin-troubleshooting-analytic-reports.md)
+  - [ไม่ได้อัปเดตรายงานการวิเคราะห์](hr-admin-troubleshooting-analytic-reports.md)
   - [ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ Power Apps](hr-admin-troubleshooting-power-apps.md)
-  - [ไคลเอนต์ยกเลิกการเชื่อมต่อ](hr-admin-troubleshooting-disconnect.md)
-  - [หลีกเลี่ยงข้อความที่ตัดทอนในลำดับชั้นของตำแหน่ง](hr-admin-troubleshooting-truncate.md)
-  - [รันกระบวนการค่าตอบแทน](hr-admin-troubleshooting-compensation.md)
-  - [บันทึกคู่มือการใช้งานไปยัง LCS](hr-admin-troubleshooting-task-guide.md)
+  - [การยกเลิกการเชื่อมต่อไคลเอนต์](hr-admin-troubleshooting-disconnect.md)
+  - [หลีกเลี่ยงข้อความที่ถูกตัดในลำดับชั้นของตำแหน่ง](hr-admin-troubleshooting-truncate.md)
+  - [เรียกใช้กระบวนการค่าตอบแทน](hr-admin-troubleshooting-compensation.md)
+  - [บันทึกคู่มืองานไปยัง LCS](hr-admin-troubleshooting-task-guide.md)
   - [เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย](hr-admin-troubleshooting-private-addresses.md)
   - [ทรัพยากรบุคคลไม่มีปรากฏในแอป Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [ตัวเลือกในการรายงาน](hr-admin-troubleshooting-reporting.md)

@@ -3,7 +3,7 @@ title: สร้างคำแนะนำที่มีข้อมูลส�
 description: หัวข้อนี้ให้คำแนะนำเกี่ยวกับวิธีการใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ผ่านช่องทาง omni ในสภาพแวดล้อมของกล่องเดี่ยวระดับ-1 โดยใช้ข้อมูลสาธิตที่สามารถกำหนดเองได้ซึ่งถูกเติมข้อมูลไว้ล่วงหน้า
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175560"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454567"
 ---
 # <a name="create-recommendations-with-demo-data"></a>สร้างคำแนะนำที่มีข้อมูลสาธิต
 
@@ -71,7 +71,7 @@ ms.locfileid: "3175560"
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
-[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+[เปิดใช้งาน Azure Data Lake Storage ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
 
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 

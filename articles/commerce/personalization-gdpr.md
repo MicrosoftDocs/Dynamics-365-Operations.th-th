@@ -3,7 +3,7 @@ title: ยกเลิกคำแนะนำส่วนบุคคล
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถให้ลูกค้าเลือกที่จะไม่รับคำแนะนำแบบส่วนตัวใน Microsoft Dynamics 365 Commerce
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e88980ef6ad585826762c8be35304aecbcc02ab
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 87c031c045249dbcde274d7c741beb72c3216aa8
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154306"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404290"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>ยกเลิกคำแนะนำส่วนบุคคล
 
@@ -85,7 +85,7 @@ ms.locfileid: "3154306"
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
-[เปืดใช้งาน ADLS ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
+[เปิดใช้งาน Azure Data Lake Storage ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
 
 [เปิดใช้งานคำแนะนำผลิตภัณฑ์](enable-product-recommendations.md)
 

@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d6f2a51191d8c299ffed30c02f51bd8ca5464732
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 01596dd7dbc268c529720b531d4aeea8ccdd666f
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279104"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418552"
 ---
 # <a name="business-users-learning-catalog"></a>แค็ตตาล็อกการเรียนรู้ของผู้ใช้ทางธุรกิจ
 
@@ -31,7 +31,7 @@ ms.locfileid: "3279104"
 | [เรียนรู้มูลค่าทางธุรกิจของ Microsoft Dynamics 365 และ Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? บางทีคุณอาจไม่ทราบว่าจะเริ่มต้นด้วยแอพลิเคชัน Microsoft Dynamics 365 และแอพลิเคชัน Power Platform ที่ใด เรียนรู้ว่าแอพลิเคชัน power of business สามารถช่วยเปลี่ยนธุรกิจของคุณได้อย่างไร  | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี   | 8 ชั่วโมง   |
 | [Dynamics 365 และ Power Platform พื้นฐาน](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)    | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? เริ่มต้นด้วยพาธการเรียนรู้นี้เพื่อดูว่ามีการใช้แอป Dynamics 365 อย่างไร เรียนรู้เกี่ยวกับแนวคิดคลาวด์ Power Platform และวิธีการเริ่มต้นด้วยแอป Dynamics 365  | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี   | 5.5 ชั่วโมง |
 | [เริ่มต้นใช้งานแอป Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | เรียนรู้วิธีที่แอป Finance and Operations สนับสนุนธุรกิจเพื่อจัดการระบบทางการเงินส่วนกลาง กระบวนการทางธุรกิจการดำเนินงาน และห่วงโซ่อุปทานที่มีประสิทธิภาพ เพื่อให้ผู้ใช้สามารถตัดสินใจอย่างรอบคอบได้อย่างรวดเร็ว ขั้นตอนแรกในอาชีพของคุณในการทำงานกับแอป Finance and Operations คุณต้องทำความคุ้นเคยกับคุณลักษณะและฟังก์ชัน ไม่ว่าบทบาทที่ต้องการของคุณคืออะไรก็ตาม | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี  | 2 ชั่วโมง   |
-| [หลักสูตร MB-900T01-A: Dynamics 365 พื้นฐาน](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | หลักสูตรนี้จะทำให้ผู้เรียนเกิดความคุ้นเคยกับฟังก์ชันการทำงานของ Dynamics 365 และค่าทางธุรกิจ หลักสูตรจะครอบคลุมแอพลิเคชั่น Dynamics 365 the Power Platform แนวคิดของคลาวด์ แบบจำลองความปลอดภัย และการพิจารณาสิทธิ์การใช้งาน  | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน     |
+
 
 ## <a name="core-platform-knowledge"></a>ความรู้ของแพลตฟอร์มหลัก<a name="core-platform-knowledge"></a>
 | ปริมาณความจุ | คำอธิบาย  | รูปแบบ   | ความยาว    |

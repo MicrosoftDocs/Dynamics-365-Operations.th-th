@@ -126,7 +126,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สถาปนิกโซลูชัน
                   href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สำรวจอินเทอร์เฟซผู้ใช้
+            - name: สำรวจอินเทอร์เฟสผู้ใช้
               items:
                 - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
                   href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/supply-chain/toc.json
@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
                   href: cost-management/inventory-aging-report-storage.md
+                - name: ตัวอย่างและตรรกะรายงานอายุหนี้ของสินค้าคงคลัง
+                  href: cost-management/inventory-aging-report.md
             - name: การบัญชีการผลิต
               items:
                 - name: การคำนวณ BOM
@@ -1013,7 +1015,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1047,7 +1049,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์เพื่อใช้มิติทางการเงิน
+            - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงิน
               items:
                 - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1141,7 +1143,7 @@
               items:
                 - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปรูปแบบการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
@@ -1407,9 +1409,9 @@
                       href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
                     - name: การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า
                       href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: กำหนดเวอร์ชันสูตรการผลิต
+                    - name: กำหนดเวอร์ชัน BOM
                       href: master-planning/master-plan-bom-version-determined.md
-                    - name: การกระจายเวอร์ชันสูตรการผลิต
+                    - name: การกระจายเวอร์ชัน BOM
                       href: master-planning/master-plan-explosion-bom-version.md
                 - name: จำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไม่คงที่
                   href: master-planning/more-about-dynamic-negative-days.md
