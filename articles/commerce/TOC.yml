@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: Commerce 10.0.10 (พฤษภาคม 2020)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: ภาพรวมของสถาปัตยกรรม Dynamics 365 Commerce
                   href: commerce-architecture.md
+                - name: ผังลำดับการรับรองความถูกต้องของ Dynamics 365 Commerce
+                  href: arch-auth-flow.md
                 - name: สถาปัตยกรรมของ Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: เลือกโทโพโลยีในร้านค้า
@@ -748,12 +748,12 @@
               href: edit-audit-retail-transactions.md
             - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: การปรับปรุงฟังก์ชันการลงรายการบัญชีใบแจ้งยอด
-              href: statement-posting-eod.md
             - name: การสร้างใบสั่งตามฟีดแบบต่อเนื่องสำหรับธุรกรรมร้านค้าปลีก
               href: trickle-feed.md
             - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: การกระทบยอดทางการเงินในร้านค้าปลีก
+              href: fin-recon.md
             - name: การปรับปรุงฟังก์ชันการลงรายการบัญชีใบแจ้งยอด
               href: statement-posting-eod.md
             - name: การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
                   href: deploy-ecommerce-site.md
-                - name: ตั้งค่าช่องทางร้านค้าออนไลน์
-                  href: online-stores.md
                 - name: สร้างไซต์อีคอมเมิร์ซ
                   href: create-ecommerce-site.md
                 - name: เชื่อมโยงไซต์อีคอมเมิร์ซกับช่องทางออนไลน์
@@ -816,8 +814,6 @@
               items:
                 - name: ภาพรวมของโฮมเพจ
                   href: quick-tour-home-page.md
-                - name: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
-                  href: category-search-page-overview.md
                 - name: ภาพรวมของหน้ารายละเอียดผลิตภัณฑ์
                   href: quick-tour-pdp.md
                 - name: ภาพรวมของรถเข็นและหน้าเช็คเอาท์
@@ -996,9 +992,9 @@
                   items:
                     - name: โมดูลการแสดงเส้นทาง
                       href: add-breadcrumb.md
-            - name: ค้นหา
+            - name: การค้นหา
               items:
-                - name: หน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
+                - name: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
                   href: category-search-page-overview.md
                 - name: ภาพรวมของการค้นหาที่ขับเคลื่อนโดยระบบคลาวด์
                   href: cloud-powered-search-overview.md
@@ -1214,7 +1210,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
@@ -1486,7 +1482,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1518,7 +1514,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
             - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงิน
               items:
@@ -1604,7 +1600,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากที่เก็บ RCS
+                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
                   items:
                     - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บการรายงานทางอิเล็กทรอนิกส์ของชนิด RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
@@ -1612,7 +1608,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: บทช่วยสอน
               items:
-                - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
+                - name: ใช้ ต่อ แหล่งข้อมูลเพื่อดึงข้อมูลจากตารางของแอปพลิเคชันหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -2000,9 +1996,11 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: ตั้งค่าคอนฟิกการตั้งค่าธีม
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: ตั้งค่าคอนฟิกค่าลักษณะธีมที่กำหนดไว้แล้ว
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: ขยายธีมเพื่อเพิ่มส่วนขยายโมดูล
                       href: e-commerce-extensibility/theme-module-extensions.md
-                    - name: ขยายชุดรูปแบบจากธีมพื้นฐาน
+                    - name: ขยายชุดธีมจากธีมพื้นฐาน
                       href: e-commerce-extensibility/extend-theme.md
                 - name: ส่งสคริปต์
                   items:
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: ตั้งค่าไปป์ไลน์การสร้าง Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: FAQ เกี่ยวกับ Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน
               items:
                 - name: โครงร่างหน้าจอ POS
@@ -2046,8 +2046,6 @@
                   href: install-pos-layout-designer.md
                 - name: ขยายมุมมองแสดงผล POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: ความสามารถในการเพิ่มฟังก์ชันทริกเกอร์ของ Modern POS และ POS ระบบคลาวด์
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS
                   href: dev-itpro/pos-custom-control.md
                 - name: เพิ่มการดำเนินการ POS ไปยังโครงร่าง POS โดยใช้ตัวออกแบบกริดปุ่ม
@@ -2082,7 +2080,7 @@
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: เรียก POS API หรือการดำเนินงานจากส่วนขยาย POS
                   href: dev-itpro/pos-api-extension.md
-                - name: ทริกเกอร์และการพิมพ์ Modern POS
+                - name: ทริกเกอร์และการพิมพ์ Modern POS (MPOS)
                   href: dev-itpro/pos-trigger-printing.md
                 - name: เพิ่มการควบคุมแบบกำหนดเองไปยังมุมมอง POS ตามตัวออกแบบที่ไม่ใช่หน้าจอ
                   href: dev-itpro/pos-control-non-screen.md

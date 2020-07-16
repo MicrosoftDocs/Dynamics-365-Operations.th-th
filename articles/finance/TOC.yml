@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (พฤษภาคม 2020)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: ข้อกำหนดของคอลัมน์
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: คำนิยามแผนภูมิรายงานในรายงานทางการเงิน
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: แก้ไขเซลล์ข้อกำหนดของแถว
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: รีเซ็ต Data Mart การรายงานทางการเงิน
@@ -3010,7 +3010,7 @@
               items:
                 - name: สร้างการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
-                - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
+                - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: จัดเตรียมส่วนประกอบของโซลูชันการรายงานทางอิเล็กทรอนิกส์
                   items:
@@ -3020,7 +3020,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
@@ -3376,27 +3376,33 @@
                   items:
                     - name: Regulatory Configuration Services (RCS) - คุณลักษณะแบบใช้ทั่วโลก
                       href: localizations/rcs-globalization-feature.md
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ไปยัง Finance
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
                       items:
                         - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: ที่เก็บสากล (GR)
+                    - name: ที่เก็บส่วนกลาง (GR)
                       items:
                         - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: คู่มือการเริ่มต้นแบบด่วน
+              items:
+                - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: บทช่วยสอน
               items:
                 - name: เรียนรู้วิธีการใช้แหล่งข้อมูล
                   items:
-                    - name: ใช้ ต่อ เพื่อดึงข้อมูลจากหลายตาราง
+                    - name: ใช้ ต่อ เพื่อดึงข้อมูลจากหลายๆ ตาราง
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: ใช้ XML ดิบเพื่อเพิ่มเนื้อหา
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
@@ -3444,7 +3450,7 @@
                   items:
                     - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
-                    - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+                    - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกรูปแบบ
                   items:

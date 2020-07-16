@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (พฤษภาคม 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -743,7 +741,7 @@
                       items:
                         - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -1015,7 +1013,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่แยกต่างหาก
+            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1047,7 +1045,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
             - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ในส่วนประกอบอื่นๆ
+            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงิน
               items:
@@ -1133,7 +1131,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: นำเข้าการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์จากที่เก็บ RCS
+                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
                   items:
                     - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บการรายงานทางอิเล็กทรอนิกส์ของชนิด RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1141,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: บทช่วยสอน
               items:
-                - name: การใช้แหล่งข้อมูล JOIN เพื่อดึงข้อมูลจากหลายใบสมัครหลายๆ ตาราง
+                - name: ใช้ ต่อ แหล่งข้อมูลเพื่อดึงข้อมูลจากตารางของแอปพลิเคชันหลายๆ ตาราง
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -2565,192 +2563,230 @@
           items:
             - name: ภาพรวมของการจัดการคลังสินค้า
               href: warehousing/warehouse-management-overview.md
-            - name: การตั้งค่าคอนฟิกคลังสินค้า
+            - name: การดำเนินงานของคลังสินค้าขาเข้า
               items:
-                - name: ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า
-                  href: warehousing/warehouse-configuration.md
-                - name: ตั้งค่าคลังสินค้าโดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
-                  href: inventory/warehouse-template.md
-                - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: รหัสขั้นตอนของเวฟ
-                  href: warehousing/wave-step-codes.md
-                - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: อัปเดตการจัดส่งอัตโนมัติ
-                  href: warehousing/auto-update-shipment.md
-                - name: สร้างโพรไฟล์สถานที่
-                  href: warehousing/tasks/create-location-profile.md
-                - name: ตั้งค่าคอนฟิกของสถานที่ในคลังสินค้า WMS ที่เปิดใช้งาน
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: การจัดกำหนดการใช้จำนวนงานในศูนย์การผลิต
-                  href: warehousing/schedule-load-utilization.md
-                - name: จัดกำหนดการกำลังการผลิตปริมาณงาน
-                  href: warehousing/schedule-workload-capacity.md
-                - name: ตั้งค่ารหัสการโอนการครอบครอง
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: หน่วยวัดและนโยบายการเก็บสต็อก
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: เนื้อหาของ Power BI เกี่ยวกับคลังสินค้า
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: การจัดกลุ่มระบบในรายการงานที่เปิด
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: การสนับสนุนบาร์โค้ดบนอุปกรณ์เคลื่อนที่
-                  href: warehousing/mobile-barcode-support.md
-                - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: การจองสินค้าในการจัดการคลังสินค้า
+                - name: ใบรับสำหรับการลงทะเบียนและการสำรองสินค้า
+                  items:
+                    - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
+                      href: warehousing/inbound-load-handling.md
+                    - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าขั้นสูงโดยใช้สมุดรายวันการมาถึงของสินค้า
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: การดำเนินงานของคลังสินค้าขาออก
               items:
-                - name: นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: นโยบายงานของคลังสินค้า
-              items:
-                - name: ภาพรวมของนโยบายงานของคลังสินค้า
-                  href: warehousing/warehouse-work-policies.md
-                - name: ตั้งค่านโยบายงานของคลังสินค้า
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
-                  href: warehousing/move-inventory-associated-work.md
-                - name: สร้างคลาสงาน
-                  href: warehousing/tasks/create-work-class.md
-                - name: จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า
-                  href: warehousing/manage-warehouse-workers.md
-                - name: การดำเนินการที่เลื่อนเวลาของงานคลังสินค้า
-                  href: warehousing/deferred-put.md
-            - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
-              items:
-                - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
-                  href: production-control/cross-docking-opportunities.md
-                - name: การจัดส่งที่นำออกใช้อัตโนมัติสำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: นำออกใช้บางส่วนและการจัดส่งบางส่วน
-              items:
-                - name: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: การเบิกสินค้าและการบรรจุสินค้า
-              items:
-                - name: ตั้งค่าการเลือกคลัสเตอร์
-                  href: warehousing/set-up-cluster-picking.md
-                - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: การยืนยันชุดงานและป้ายทะเบียน
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: เปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: การยืนยันการเบิกสินค้าเป็นรายชิ้น
-                  href: warehousing/piece-picking-confirmation.md
-                - name: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: ตั้งค่าการบรรจุด้วยตนเอง (กุมภาพันธ์และพฤษภาคม 2016 เท่านั้น)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
-                  href: warehousing/cancel-warehouse-work.md
-                - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: การจัดกลุ่มรายการการเบิกสินค้า
-                  href: warehousing/pick-line-grouping.md
-            - name: การนับสินค้าคงคลัง
-              items:
-                - name: รหัสเหตุผลการตรวจนับสินค้าคงคลัง
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: บล็อคสินค้าคงคลัง
-                  href: inventory/inventory-blocking.md
-                - name: การตรวจนับตามรอบ
-                  href: warehousing/cycle-counting.md
-                - name: กำหนดการตรวจนับตามรอบ
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: การตรวจนับตามรอบของสถานที่บางส่วน
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า
-                  href: warehousing/onhand-cleanup.md
-                - name: สมุดรายวันสินค้าคงคลัง
-                  href: inventory/inventory-journals.md
-                - name: สถานที่เก็บสินค้าคงคลัง
-                  href: inventory/inventory-locations.md
-                - name: สถานะของสินค้าคงคลัง
-                  href: inventory/inventory-statuses.md
-                - name: การตรวจนับป้ายสินค้าคงคลัง
-                  href: inventory/inventory-tag-counting.md
-            - name: การเติมสินค้า
-              items:
-                - name: ภาพรวมของการเติมสินค้า
-                  href: warehousing/replenishment.md
-                - name: การเติมสินค้าทันที
-                  href: warehousing/immediate-replenishment.md
-                - name: การเติมสินค้าที่มีคัมบังการเบิกถอน
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: ตั้งค่ากระบวนการการเติมสินค้าต่ำสุด-สูงสุด
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
-              items:
-                - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปคลังสินค้า
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: การรับป้ายทะเบียนด้วยแอปพลิเคชัน Warehousing
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
-                  href: warehousing/pick-oldest-batch.md
-                - name: กรอบงานคู่มือกระบวนการ
-                  href: warehousing/process-guide-framework.md
-            - name: การอัปเกรดและการย้าย
-              items:
-                - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: ใบรับสำหรับการลงทะเบียนและการสำรองสินค้า
-              items:
-                - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
-                  href: warehousing/inbound-load-handling.md
-                - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าขั้นสูงโดยใช้สมุดรายวันการมาถึงของสินค้า
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: นโยบายการรวมบัญชีการจัดส่ง
-              items:
+                - name: การจองสินค้าในการจัดการคลังสินค้า
+                  items:
+                    - name: นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: นำออกใช้บางส่วนและการจัดส่งบางส่วน
+                  items:
+                    - name: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: การเบิกสินค้าและการบรรจุสินค้า
+                  items:
+                    - name: ตั้งค่าการเลือกคลัสเตอร์
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: การยืนยันชุดงานและป้ายทะเบียน
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: เปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: การยืนยันการเบิกสินค้าเป็นรายชิ้น
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: ตั้งค่าการบรรจุด้วยตนเอง (กุมภาพันธ์และพฤษภาคม 2016 เท่านั้น)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: การจัดลำดับงานที่สั่งการโดยระบบ
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: การจัดกลุ่มรายการการเบิกสินค้า
+                      href: warehousing/pick-line-grouping.md
+                    - name: การแบ่งช่วงเวลาของคลังสินค้า
+                      href: warehousing/warehouse-slotting.md
+                - name: การเติมสินค้า
+                  items:
+                    - name: ภาพรวมของการเติมสินค้า
+                      href: warehousing/replenishment.md
+                    - name: การเติมสินค้าทันที
+                      href: warehousing/immediate-replenishment.md
+                    - name: การเติมสินค้าที่มีคัมบังการเบิกถอน
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: ตั้งค่ากระบวนการการเติมสินค้าต่ำสุด-สูงสุด
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: การเติมสินค้าตามขีดจำกัดของโซน
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: การสร้างและการจัดส่งสินค้าบรรทุก
+                  items:
+                    - name: ยืนยันและโอนย้าย
+                      href: warehousing/confirm-and-transfer.md
+                    - name: การสร้างโหลดขั้นสูงในระหว่างเวฟ
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: นำออกใช้ที่กฎของคลังสินค้า
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: การจัดกลุ่มเท็มเพลตเวฟ
+                      href: warehousing/wave-template-grouping.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งเมื่อนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยใช้การนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: สถานการณ์จำลอง 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: นโยบายการรวมบัญชีการจัดส่ง
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งเมื่อนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยใช้การนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: สถานการณ์จำลอง 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: การดำเนินงานคลังสินค้าในอีกด้าน
+              items:
+                - name: นโยบายงานของคลังสินค้า
+                  items:
+                    - name: ภาพรวมของนโยบายงานของคลังสินค้า
+                      href: warehousing/warehouse-work-policies.md
+                    - name: ตั้งค่านโยบายงานของคลังสินค้า
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: สร้างคลาสงาน
+                      href: warehousing/tasks/create-work-class.md
+                    - name: จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: การดำเนินการที่เลื่อนเวลาของงานคลังสินค้า
+                      href: warehousing/deferred-put.md
+                - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
+                  items:
+                    - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
+                      href: production-control/cross-docking-opportunities.md
+                    - name: การจัดส่งที่นำออกใช้อัตโนมัติสำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้
+                      href: warehousing/planned-cross-docking.md
+                - name: การนับสินค้าคงคลัง
+                  items:
+                    - name: รหัสเหตุผลการตรวจนับสินค้าคงคลัง
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: บล็อคสินค้าคงคลัง
+                      href: inventory/inventory-blocking.md
+                    - name: การตรวจนับตามรอบ
+                      href: warehousing/cycle-counting.md
+                    - name: กำหนดการตรวจนับตามรอบ
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: การตรวจนับตามรอบของสถานที่บางส่วน
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า
+                      href: warehousing/onhand-cleanup.md
+                    - name: สมุดรายวันสินค้าคงคลัง
+                      href: inventory/inventory-journals.md
+                    - name: สถานที่เก็บสินค้าคงคลัง
+                      href: inventory/inventory-locations.md
+                    - name: สถานะของสินค้าคงคลัง
+                      href: inventory/inventory-statuses.md
+                    - name: การตรวจนับป้ายสินค้าคงคลัง
+                      href: inventory/inventory-tag-counting.md
+                - name: งานคลังสินค้า
+                  items:
+                    - name: รายละเอียดรายการงาน
+                      href: warehousing/work-line-details.md
+                    - name: การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
+                      href: warehousing/location-license-plate-positioning.md
+            - name: การตั้งค่าคลังสินค้า
+              items:
+                - name: การตั้งค่าคอนฟิกคลังสินค้า
+                  items:
+                    - name: ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า
+                      href: warehousing/warehouse-configuration.md
+                    - name: ตั้งค่าคลังสินค้าโดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
+                      href: inventory/warehouse-template.md
+                    - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: รหัสขั้นตอนของเวฟ
+                      href: warehousing/wave-step-codes.md
+                    - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: อัปเดตการจัดส่งอัตโนมัติ
+                      href: warehousing/auto-update-shipment.md
+                    - name: สร้างโพรไฟล์สถานที่
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: ตั้งค่าคอนฟิกของสถานที่ในคลังสินค้า WMS ที่เปิดใช้งาน
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: สถานะสถานที่คลังสินค้า
+                      href: warehousing/warehouse-location-status.md
+                    - name: โซนเวลาของสถานที่เพิ่มเติม
+                      href: warehousing/additional-location-zones.md
+                    - name: การจัดกำหนดการใช้จำนวนงานในศูนย์การผลิต
+                      href: warehousing/schedule-load-utilization.md
+                    - name: จัดกำหนดการกำลังการผลิตปริมาณงาน
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: ตั้งค่ารหัสการโอนการครอบครอง
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: หน่วยวัดและนโยบายการเก็บสต็อก
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: เนื้อหาของ Power BI เกี่ยวกับคลังสินค้า
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: การจัดกลุ่มระบบในรายการงานที่เปิด
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: การสนับสนุนบาร์โค้ดบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mobile-barcode-support.md
+                    - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
+                  items:
+                    - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปคลังสินค้า
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: การรับป้ายทะเบียนด้วยแอปคลังสินค้า
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
+                      href: warehousing/pick-oldest-batch.md
+                    - name: กรอบงานคู่มือกระบวนการ
+                      href: warehousing/process-guide-framework.md
+                - name: การอัปเกรดและการย้าย
+                  items:
+                    - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: การพัฒนา Supply Chain Management
           items:
             - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
