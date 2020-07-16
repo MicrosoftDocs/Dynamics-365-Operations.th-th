@@ -1,9 +1,9 @@
 ---
-title: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหา
+title: หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 description: หัวข้อนี้แสดงภาพรวมของหน้าเริ่มต้นของประเภทเริ่มต้นและหน้าผลการค้นหาใน Dynamics 365 Commerce
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002507"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527479"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหา
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ ms.locfileid: "3002507"
 - **การแบ่งหน้า** ช่วยให้ผู้เยี่ยมชมเว็บไซต์ย้ายจากหน้าหนึ่งของผลลัพธ์ผลิตภัณฑ์ที่จัดประเภทแล้ว ไปยังอีกหน้าหนึ่ง
 - **จำนวนทั้งหมด** แสดงจำนวนรวมของผลิตภัณฑ์ที่กำหนดไว้ในประเภทประเภทหนึ่งและที่ตรงกับเงื่อนไขการค้นหา
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+>[!NOTE]
+>ความสามารถในการค้นหาที่ทำงานบนคลาวด์เหล่านี้จะพร้อมใช้งานเมื่อเริ่มต้นในเวอร์ชัน10.0.8 ตรวจสอบให้แน่ใจว่าภายใต้ **พารามิเตอร์ Commerce > พารามิเตอร์การตั้งค่าคอนฟิก** มีการตั้งค่ารายการสำหรับ "ProductSearch UseAzureSearch เป็น 'จริง'" 
+![พารามิเตอร์การตั้งค่าคอนฟิกสำหรับการค้นหาที่ใช้พลังงานบนคลาวด์](./media/CloudPoweredSearchConfigurationParameters.png)
 
-[ภาพรวมของโฮมเพจ](quick-tour-home-page.md)
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+[ภาพรวมของการค้นหาที่ขับเคลื่อนโดยระบบคลาวด์](cloud-powered-search-overview.md)
+
+[ภาพรวมโฮมเพจ](quick-tour-home-page.md)
 
 [ภาพรวมของหน้ารายละเอียดผลิตภัณฑ์](quick-tour-pdp.md)
 
-[ภาพรวมของหน้ารถเข็นและการเช็คเอาท์](quick-tour-cart-checkout.md)
+[ภาพรวมของรถเข็นและหน้าเช็คเอาท์](quick-tour-cart-checkout.md)
 
 [ภาพรวมของหน้าการจัดการบัญชี](quick-tour-account-management.md)
 

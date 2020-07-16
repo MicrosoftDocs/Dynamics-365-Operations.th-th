@@ -3,7 +3,7 @@ title: ปรับใช้ผู้เช่าอีคอมเมิร์�
 description: หัวข้อนี้อธิบายวิธีการปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
 author: psimolin
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269946"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533286"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
 
@@ -91,13 +91,11 @@ Microsoft Dynamics Lifecycle Services (LCS) เป็นพื้นที่ท
 - คุณลักษณะการตรวจสอบการเข้าถึง เช่น การควบคุมและการรายงาน
 - สร้างไซต์ใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างไซต์ใหม่ ดู [สร้างไซต์ e-Commerce](create-ecommerce-site.md)  
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
 [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
-
-[ตั้งค่าช่องทางร้านค้าออนไลน์](online-stores.md)
 
 [เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
 
