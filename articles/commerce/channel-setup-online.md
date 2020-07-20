@@ -3,7 +3,7 @@ title: ตั้งค่าช่องทางออนไลน์
 description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางออนไลน์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002438"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533332"
 ---
 # <a name="set-up-an-online-channel"></a>ตั้งค่าช่องทางออนไลน์
 
@@ -35,9 +35,9 @@ ms.locfileid: "3002438"
 
 Dynamics 365 Commerce รองรับช่องทางการขายปลีกที่หลากหลาย ช่องทางการขายปลีกเหล่านี้รวมร้านค้าออนไลน์ ศูนย์บริการ และร้านค้าปลีก (เรียกอีกอย่างหนึ่งว่า ร้านค้าที่ให้บริการจริง) ร้านค้าออนไลน์ให้มีตัวเลือกการซื้อเพื่อให้ลูกค้าสามารถซื้อผลิตภัณฑ์จากร้านค้าออนไลน์ของผู้ค้าปลีกได้ นอกเหนือจากร้านค้าปลีก
 
-เมื่อต้องการสร้างร้านค้าออนไลน์ใน Commerce คุณต้องสร้างช่องทางออนไลน์ก่อน 
+เมื่อต้องการสร้างร้านค้าออนไลน์ใน Commerce คุณต้องสร้างช่องทางออนไลน์ก่อน ก่อนที่คุณจะสร้างช่องทางออนไลน์ใหม่ให้ตรวจสอบให้แน่ใจว่าคุณได้เตรียม [ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md) เสร็จสมบูรณ์แล้ว
 
-ก่อนที่คุณจะสร้างช่องทางออนไลน์ใหม่ให้ตรวจสอบให้แน่ใจว่าคุณได้เตรียม [ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md) เสร็จสมบูรณ์แล้ว
+ก่อนที่คุณจะสามารถสร้างไซต์ใหม่ได้ ต้องสร้างร้านค้าออนไลน์ใน Commerce อย่างน้อยหนึ่งร้าน สำหรับข้อมูลเพิ่มเติมให้ดูที่ [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
 ## <a name="create-and-configure-a-new-online-channel"></a>สร้างและกำหนดค่าของช่องทางออนไลน์ใหม่
 

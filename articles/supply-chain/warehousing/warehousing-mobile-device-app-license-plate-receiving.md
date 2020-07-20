@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410896"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530201"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>ป้ายทะเบียนที่ได้รับผ่านทางแอปคลังสินค้า
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>ป้ายทะเบียนที่ได้รับผ่านทางแอปคลังสินค้า
 
 หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าแอปคลังสินค้า เพื่อให้สนับสนุนการใช้กระบวนการรับป้ายทะเบียนเพื่อรับสินค้าคงคลังที่มีอยู่จริง
 

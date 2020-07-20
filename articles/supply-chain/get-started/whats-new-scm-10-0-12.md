@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413904"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530155"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.12 (สิงหาคม 2020)
 
@@ -40,13 +40,12 @@ ms.locfileid: "3413904"
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 - [อนุญาตให้ล็อคหน้าจอสัมผัสของบัตรงานเพื่อสุขอนามัย](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์](../production-control/config-job-card-device.md)
-- [รวบรวมผลิตภัณฑ์ย่อยและมิติการติดตามในแอปคลังสินค้าในระหว่างการรับสินค้าของจำนวนงานในศูนย์การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานของคลังสินค้า](../warehousing/configure-mobile-devices-warehouse.md)
+- [รวบรวมผลิตภัณฑ์ย่อยและมิติการติดตามในแอปคลังสินค้า ในระหว่างการรับสินค้าของจำนวนงานในศูนย์การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานของคลังสินค้า](../warehousing/configure-mobile-devices-warehouse.md)
 - ระดับการคำนวณต้นทุน (ระดับ BOM ใหม่) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ระดับการคำนวณต้นทุน](../cost-management/cost-calculation-level.md)
 - [พอร์ทัลของลูกค้าสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมพอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md)
-- [บริการปริมาณสินค้าคงคลังคงเหลือ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [ข้อมูลเชิงลึกหลักของเครื่องมือ IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจเครื่องมือ IoT](../iot/iot-intelligence-home-page.md)
 - [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า (ต่อ)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรับป้ายทะเบียนผ่านทางแอปคลังสินค้า](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
-- [การปรับใช้อย่างกว้างของสำหรับ Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและตั้งค่าคอนฟิกภาพรวมแอปคลังสินค้า](../warehousing/install-configure-warehousing-app.md)
+- [การปรับใช้อย่างกว้างสำหรับ Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและตั้งค่าคอนฟิกภาพรวมแอปคลังสินค้า](../warehousing/install-configure-warehousing-app.md)
 - [เวลาที่ใช้ในการดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการคงเหลือสำหรับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [งานการล้างข้อมูลรายการคงเหลือของการจัดการคลังสินค้า](../warehousing/onhand-cleanup.md)
 - [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับข้อตกลงทางการค้าสำหรับการซื้อ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนหลักที่มีข้อตกลงทางการค้าสำหรับการซื้อ](../master-planning/planning-optimization/purchase-trade-agreement.md)
 

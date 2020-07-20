@@ -3,7 +3,7 @@ title: ภาพรวมการจัดการคุณลักษณะ
 description: หัวข้อนี้จะอธิบายถึงคุณลักษณะของการจัดการคุณลักษณะและวิธีที่คุณสามารถใช้งาน
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456608"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499630"
 ---
 # <a name="feature-management-overview"></a>ภาพรวมของการจัดการคุณลักษณะ
 
@@ -140,6 +140,10 @@ ms.locfileid: "3456608"
 ## <a name="feature-management-and-flighting"></a>การจัดการคุณลักษณะและการสลับ
 
 การจัดการคุณลักษณะช่วยให้คุณสามารถควบคุมคุณลักษณะที่ถูกจัดส่งในการนำออกใช้แต่ละครั้ง การสลับช่วยให้ Microsoft teams สามารถนำออกใช้คุณลักษณะไปยังลูกค้าจำนวนจำกัด เพื่อให้คุณลักษณะเหล่านั้นสามารถได้รับการทดสอบและได้รับการตรวจสอบความถูกต้องโดยไม่มีผลกระทบต่อลูกค้าทั้งหมด การจัดการคุณลักษณะไม่ได้ควบคุมการสลับของคุณลักษณะใดๆ
+
+## <a name="new-features-are-optional-for-12-months"></a>คุณลักษณะใหม่นี้ไม่จำเป็นต้องระบุเป็นเวลา 12 เดือน
+
+เมื่อมีการติดตั้งลักษณะการทำงานที่ไม่ใช่ที่สำคัญใหม่ จะไม่จำเป็นต้องระบุสำหรับรอบระยะเวลา 12 เดือน การทำเช่นนี้จะช่วยให้คุณและองค์กรของคุณมีเวลาวางแผนไปข้างหน้าเพื่อให้เกิดการใช้คุณลักษณะและมีการทดสอบกับการดำเนินงานประจำวันของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features)
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>การใช้การจัดการคุณลักษณะเพื่อเปิดคุณลักษณะ ISV หรือคุณลักษณะที่กำหนดเอง
 
