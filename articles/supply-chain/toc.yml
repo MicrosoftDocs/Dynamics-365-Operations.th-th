@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
+                - name: การมอบโซลูชัน ISV โดยใช้ One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (พฤษภาคม 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: ยกเลิกงานการวางแผน
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: แผนหลัก
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าลำดับหมายเลขโดยใช้วิซาร์ด
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตั้งค่าคอนฟิกลำดับหมายเลขสำหรับขั้นตอนของคลังสินค้า
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: องค์กรและลำดับชั้นขององค์กร
               items:
                 - name: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: ไม่รวมผลิตภัณฑ์จากการวางแผนหลัก
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: สินค้าที่ใช้สองครั้ง
+                  href: pim/dual-use.md
+                - name: ประเทศของผู้ผลิต
+                  href: pim/country-of-origin.md
                 - name: สร้างบาร์โค้ดให้ผลิตภัณฑ์
                   href: pim/tasks/create-bar-code-product.md
                 - name: ป้อนรหัส GTIN สำหรับผลิตภัณฑ์
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: การดำเนินงานของคลังสินค้าขาเข้า
               items:
-                - name: ใบรับสำหรับการลงทะเบียนและการสำรองสินค้า
-                  items:
-                    - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
-                      href: warehousing/inbound-load-handling.md
-                    - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าขั้นสูงโดยใช้สมุดรายวันการมาถึงของสินค้า
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
+                  href: warehousing/inbound-load-handling.md
+                - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าขั้นสูงโดยใช้สมุดรายวันการมาถึงของสินค้า
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
+                  href: warehousing/location-product-dimension-mixing.md
             - name: การดำเนินงานของคลังสินค้าขาออก
               items:
                 - name: การจองสินค้าในการจัดการคลังสินค้า
@@ -2597,14 +2605,14 @@
                   items:
                     - name: ตั้งค่าการเลือกคลัสเตอร์
                       href: warehousing/set-up-cluster-picking.md
+                    - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
                       href: warehousing/tasks/set-up-containerization.md
                     - name: การยืนยันชุดงานและป้ายทะเบียน
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: เปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: การยืนยันการเบิกสินค้าเป็นรายชิ้น
                       href: warehousing/piece-picking-confirmation.md
                     - name: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
                       href: warehousing/cancel-warehouse-work.md
-                    - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: การจัดลำดับงานที่สั่งการโดยระบบ
                       href: warehousing/system-directed-work-sequencing.md
                     - name: การจัดกลุ่มรายการการเบิกสินค้า
                       href: warehousing/pick-line-grouping.md
                     - name: การแบ่งช่วงเวลาของคลังสินค้า
                       href: warehousing/warehouse-slotting.md
+                    - name: คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: การเรียงลำดับขาออก
+                      href: warehousing/outbound-sorting.md
+                    - name: วางไปที่ผนัง - ใส่ไปที่ร้านค้า
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: การเติมสินค้า
                   items:
                     - name: ภาพรวมของการเติมสินค้า
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: การจัดกลุ่มเท็มเพลตเวฟ
                       href: warehousing/wave-template-grouping.md
+                    - name: พิมพ์ใหม่และทำให้ป้ายชื่อของเวฟเป็นโมฆะ
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
                   items:
                     - name: นโยบายการรวมบัญชีการจัดส่ง
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
                       href: warehousing/location-license-plate-positioning.md
+                    - name: เปลี่ยนกลุ่มงานในงาน
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: การรวมบัญชีสินค้า - การใช้ประโยชน์จากสถานที่
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: การตั้งค่าคลังสินค้า
               items:
                 - name: การตั้งค่าคอนฟิกคลังสินค้า
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: ตั้งค่าและใช้การพิมพ์ป้ายชื่อของเวฟ
+                      href: warehousing/configure-wave-label-printing.md
                     - name: อัปเดตการจัดส่งอัตโนมัติ
                       href: warehousing/auto-update-shipment.md
                     - name: สร้างโพรไฟล์สถานที่
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: สแกนบาร์โค้ดด้วยกล้องใน Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: การสนับสนุนบาร์โค้ดบนอุปกรณ์เคลื่อนที่
                       href: warehousing/mobile-barcode-support.md
                     - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: การรับป้ายทะเบียนด้วยแอปคลังสินค้า
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
