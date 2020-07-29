@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
+                - name: การมอบโซลูชัน ISV โดยใช้ One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: ตั้งค่าสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+            - name: ตั้งค่าสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
               items:
-                - name: ภาพรวมของสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+                - name: ภาพรวมของสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: เตรียมใช้งานสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+                - name: เตรียมใช้งานสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: ตั้งค่าคอนฟิกสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: FAQ เกี่ยวกับสภาพแวดล้อมสำหรับรุ่นพรีวิวของ Dynamics 365 Commerce
+                - name: FAQ เกี่ยวกับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: ข้อควรพิจารณาในการปรับใช้
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: รับการสนับสนุนสำหรับ Dynamics 365 Commerce
+              href: retail-support.md
             - name: การอัปเกรดและการสนับสนุน N-1
               items:
                 - name: การอัปเกรดและการสนับสนุน N-1 สำหรับ Commerce
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: ผังลำดับการรับรองความถูกต้องของ Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: ความต้องการสำหรับการกำหนดรุ่นของคอมโพเนนต์ Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: สถาปัตยกรรมของ Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: เลือกโทโพโลยีในร้านค้า
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: แบ่งปันสถานะข้ามโมดูล
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: การตั้งค่าแคชของการดำเนินการกับข้อมูล
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: การแทนที่การดำเนินการกับข้อมูล
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: จุดเชื่อมต่อการดำเนินการกับข้อมูล
