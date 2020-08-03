@@ -1,9 +1,9 @@
 ---
-title: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Dynamics 365 Commerce
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อม Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งาน
+title: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งาน
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282807"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599807"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Dynamics 365 Commerce
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อม Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งานสภาพแวดล้อม
+หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งานสภาพแวดล้อม
 
 ## <a name="prerequisite"></a>ข้อกำหนดเบื้องต้น
 
-ทำตามกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อมการแสดงตัวอย่าง Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานและตั้งค่าคอนฟิกสภาพแวดล้อมของคุณ ให้ดูที่ [เตรียมใช้งานสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](provisioning-guide.md) และ [ตั้งค่าคอนฟิกสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)
+ทำตามกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานและตั้งค่าคอนฟิกสภาพแวดล้อมของคุณ ให้ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](provisioning-guide.md) และ [ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)
 
 หลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อม Commerce ของคุณตั้งแต่ต้นจนจบ คุณสามารถใช้หัวข้อนี้เพื่อเปิดใช้งานสถานการณ์จำลอง BOPIS
 
@@ -71,7 +70,7 @@ ms.locfileid: "3282807"
 5. กล่องโต้ตอบการรับรองความถูกต้องจะปรากฏขึ้น เลือกบัญชีที่ใช้ที่อยู่อีเมลที่เกี่ยวข้องก่อนหน้านี้กับผู้ปฏิบัติงาน **000713 - Andrew Collette**
 
     > [!NOTE]
-    > ถ้าคุณยังไม่ได้เชื่อมโยงผู้ปฏิบัติงานกับข้อมูลประจำตัวของคุณ การเรียกใช้งานจะไม่ประสบความสำเร็จ ในกรณีนี้ ให้ทำตามขั้นตอนภายใต้ส่วน "เชื่อมโยงผู้ปฏิบัติงานที่มีรหัสประจำตัวของคุณ" ในหัวข้อ [ตั้งค่าคอนฟิกสภาพแวดล้อมการแสดงตัวอย่าง Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity)
+    > ถ้าคุณยังไม่ได้เชื่อมโยงผู้ปฏิบัติงานกับข้อมูลประจำตัวของคุณ การเรียกใช้งานจะไม่ประสบความสำเร็จ ในกรณีนี้ ให้ทำตามขั้นตอนภายใต้ส่วน "เชื่อมโยงผู้ปฏิบัติงานกับรหัสประจำตัวของคุณ" ในหัวข้อ [ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity)
     
 6. เมื่อคุณได้รับข้อความแจ้งให้องค์กรของคุณสามารถจัดการอุปกรณ์ได้ ให้เลือก **แอปนี้เท่านั้น**
 7. เมื่อการเรียกใช้งานเสร็จสมบูรณ์ ให้เลือก **เริ่มต้นใช้งาน**
@@ -144,13 +143,13 @@ ms.locfileid: "3282807"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-overview.md)
+[ภาพรวมของสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-overview.md)
 
-[เตรียมใช้งานสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](provisioning-guide.md)
+[เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](provisioning-guide.md)
 
-[ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-optional-features.md)
+[ตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-optional-features.md)
 
-[FAQ เกี่ยวกับสภาพแวดล้อมการแสดงตัวอย่างของ Dynamics 365 Commerce](cpe-faq.md)
+[FAQ เกี่ยวกับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

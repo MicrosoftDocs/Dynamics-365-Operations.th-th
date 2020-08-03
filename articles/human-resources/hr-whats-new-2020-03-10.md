@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124027"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555275"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (10 มีนาคม 2020)
 
@@ -97,3 +97,10 @@ ms.locfileid: "3124027"
 - ฟิลด์ที่แนะนำ - ผู้ใช้มักต้องเพิ่มฟิลด์ในกริดหรือหน้า นี่อาจเป็นเรื่องยากโดยมีฟิลด์ที่พร้อมใช้งานจำนวนมาก แทนที่จะมีการค้นหาผ่านรายการขนาดใหญ่ คุณลักษณะนี้จะเปิดใช้งานระบบเพื่อแสดงชุดของฟิลด์ที่แนะนำ โดยขึ้นอยู่กับสิ่งที่ผู้ใช้รายอื่นเพิ่มเข้าไปมากที่สุดในสถานการณ์ที่คล้ายกัน
 
 - การดำเนินการเริ่มต้นที่มีปัญหาในกริด - คุณลักษณะนี้ช่วยให้มั่นใจว่าการดำเนินการเริ่มต้นในกริดเชื่อมโยงกับคอลัมน์ที่ระบุในกริด โดยไม่คำนึงว่าคอลัมน์นั้นจะถูกย้ายหรือถูกซ่อนอยู่หรือไม่
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
+[จัดการคุณลักษณะ](hr-admin-manage-features.md)
