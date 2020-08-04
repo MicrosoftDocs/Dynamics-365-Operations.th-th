@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: การมอบโซลูชัน ISV โดยใช้หนึ่งเวอร์ชัน
+                - name: การมอบโซลูชัน ISV โดยใช้ One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: รายงานสินค้าคงคลัง
                       href: localizations/rus-inventory-reports.md
-                    - name: ภาพรวมของโพรไฟล์สินค้าคงคลัง
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: ตั้งค่าโพรไฟล์สินค้าคงคลัง
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: ใช้โพรไฟล์สินค้าคงคลังในเอกสารและการสอบถาม
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: โพรไฟล์สินค้าคงคลัง
+                      items:
+                        - name: ภาพรวมของโพรไฟล์สินค้าคงคลัง
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: ตั้งค่าโพรไฟล์สินค้าคงคลัง
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: ใช้โพรไฟล์สินค้าคงคลังในเอกสารและการสอบถาม
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: การรายงาน
                   items:
                     - name: การรายงานทางการเงิน

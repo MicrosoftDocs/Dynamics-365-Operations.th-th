@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812099"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598192"
 ---
 # <a name="globalization-resources"></a>ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
 
 ## <a name="local-and-regional-deployments"></a>การปรับใช้ในท้องถิ่นและภูมิภาค
 หากรัฐบาลของคุณมีข้อบังคับในการจัดเก็บหรือบริการข้อมูลแตกต่างจากข้อกำหนดของประเทศ/ภูมิภาคอื่น คุณต้องพิจารณาข้อกำหนดของประเทศ/ภูมิภาคระหว่างการปรับใช้ พิจารณาทรัพยากรต่อไปนี้ที่อาจเกี่ยวข้องกับคุณ:
 
-[แอป Microsoft Dynamics 365 Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
 
 [!include [banner](../includes/banner.md)]
 
-แอป Dynamics 365 Finance and Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือการแปลผลิตภัณฑ์เป็นภาษาท้องถิ่นและความพร้อมใช้งานของการแปล](https://aka.ms/dynamics_365_international_availability_deck) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
+แอป Finance and Operations ประกอบด้วยฟังก์ชันการทำงานสำหรับประเทศ/ภูมิภาคที่ระบุไว้ใน [คู่มือการแปลผลิตภัณฑ์เป็นภาษาท้องถิ่นและความพร้อมใช้งานของการแปล](https://aka.ms/dynamics_365_international_availability_deck) ฟังก์ชันนี้จะถูกเปิดใช้งานตามที่อยู่หลักของนิติบุคคลที่ใช้งานอยู่ 
 
 หัวข้อนี้รวมถึงรายการของทรัพยากรที่จะช่วยให้คุณทำสิ่งต่อไปนี้: 
 - เรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาโซลูชันเฉพาะประเทศ/ภูมิภาค
@@ -67,7 +67,7 @@ ms.locfileid: "2812099"
 [แผนการเผยแพร่ Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>มีอะไรใหม่ในแอป Finance and Operations
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
+[มีอะไรใหม่หรือเปลี่ยนแปลงในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
 
 ### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a0cfd1c1b0dcc9defaad7e4cce22ebe1e91fae
-ms.sourcegitcommit: cc5dc0bd90277f1ba684dd310da3274886ce573c
+ms.openlocfilehash: e4da626ce3412fba6f90dd7f953c1cbc79ab60c3
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3320930"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555134"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (1 พฤษภาคม 2020)
 
@@ -102,3 +102,10 @@ ms.locfileid: "3320930"
 3. เข้าถึงเอกสารแนบใน SharePoint เพื่อเริ่มต้นการแสดงตัวอย่างเอกสาร
 
 4. ลงชื่อเข้าใช้ด้วยบัญชีผู้ใช้อื่นที่มีสิทธิ์เข้าถึงเอกสารแนบ และตรวจสอบว่ามีการทำงานของการแสดงตัวอย่างตามที่คาดไว้
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
+[จัดการคุณลักษณะ](hr-admin-manage-features.md)

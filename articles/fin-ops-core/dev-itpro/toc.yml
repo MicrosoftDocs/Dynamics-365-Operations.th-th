@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: ส่งออกผู้ใช้ B2B ไปยัง Azure AD
               href: sysadmin/implement-b2b.md
-            - name: ประมวลผลอัตโนมัติ
-              href: sysadmin/process-automation.md
             - name: ความปลอดภัย
               items:
                 - name: ความปลอดภัยตามบทบาท
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: กำหนดบทบาทความปลอดภัยให้กับผู้ใช้
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: นำเข้าหรือส่งออกการตั้งค่าคอนฟิกความปลอดภัยแบบกำหนดเองโดยใช้การจัดการข้อมูล
+                  href: sysadmin/import-export-customized-security.md
                 - name: การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: นโยบายความปลอดภัยของข้อมูลที่ขยายได้
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: สร้างนโยบายความปลอดภัย
+                  href: sysadmin/create-simple-security-policy.md
             - name: ประมวลผลอัตโนมัติ
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: การประมวลผลชุดงาน
               items:
                 - name: ภาพรวมของการประมวลผลชุดงาน
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: ตัวเลือกการกรอง
                   href: user-interface/filtering.md
-                - name: การควบคุมโฮสต์ PowerApps
+                - name: การควบคุมโฮสต์ Power Apps
                   href: user-interface/powerapps-host-control.md
             - name: การจัดการหน้าต่าง
               items:

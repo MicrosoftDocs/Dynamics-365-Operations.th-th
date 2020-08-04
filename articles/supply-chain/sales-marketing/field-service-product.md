@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1efa4e403f5cf2cdc5fb797f05781f6d42245ed5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
+ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210030"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3546373"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>การซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Field Service
 
@@ -48,13 +48,13 @@ ms.locfileid: "3210030"
 
 เท็มเพลต **ผลิตภัณฑ์ใน Field Service (Supply Chain Management ไปยัง Field Service)** รวมแม็ปที่ไม่ได้ใช้บนเท็มเพลตของ **ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง** การแม็ปนี้ช่วยให้มั่นใจว่า ฟิลด์เฉพาะ Field Service ที่ต้องการ **ชนิดผลิตภัณฑ์บริการ** ถูกตั้งค่าอย่างถูกต้อง
 
-```Text
+```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
 มีการใช้การแม็ปค่าต่อไปนี้
 
-```Text
+```plaintext
 inventory     :  690970000
 nonInventory  :  690970001 
 service       :  690970002 

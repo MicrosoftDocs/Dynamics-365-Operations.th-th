@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 8 กรกฎาคม 2020
+          href: hr-whats-new-2020-07-08.md
         - name: 25 มิถุนายน 2020
           href: hr-whats-new-2020-06-23.md
         - name: 11 มิถุนายน 2020
@@ -577,5 +579,7 @@
           items:
             - name: ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ
               href: hr-employee-manager-self-service-overview.md
+            - name: เปลี่ยนชื่อพื้นที่ทำงานระบบบริการตนเองของพนักงาน
+              href: hr-employee-self-service-workspace-name.md
             - name: แก้ไขข้อมูลส่วนตัว
               href: hr-employee-manager-self-service-edit-personal-information.md
