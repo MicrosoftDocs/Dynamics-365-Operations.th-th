@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.13 (ตุลาคม 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform update สำหรับ 10.0.12 (สิงหาคม 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform update สำหรับ 10.0.11 (กรกฎาคม 2020)
@@ -82,6 +84,8 @@
           items:
             - name: เลือกกลยุทธ์การรวมข้อมูล (นำเข้า/ส่งออก)
               href: data-entities/integration-overview.md
+            - name: การควบคุมปริมาณตามระดับความสำคัญ
+              hreF: data-entities/priority-based-throttling.md
             - name: API การรวมข้อมูล
               items:
                 - name: REST API แพคเกจการจัดการข้อมูล
@@ -152,6 +156,8 @@
                           items:
                             - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: การจัดการข้อผิดพลาดและการแจ้งเตือน
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
