@@ -70,12 +70,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (ตุลาคม 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (พฤษภาคม 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: แค็ตตาล็อกการเรียนรู้
               items:
                 - name: โฮมเพจแค็ตตาล็อกการเรียนรู้
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ผู้มีอำนาจตัดสินใจในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ผู้ใช้ในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: ผู้จัดการโครงการสำหรับการใช้งาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: ผู้ดูแลระบบ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: นักพัฒนา
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: ร่วมมือกับฝ่ายการขายและการตลาด
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: ที่ปรึกษาการทำงาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: สถาปนิกโซลูชัน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: สำรวจอินเทอร์เฟสผู้ใช้
               items:
                 - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
@@ -1257,16 +1257,20 @@
               items:
                 - name: สมุดรายวันสินค้าคงคลัง
                   href: inventory/inventory-journals.md
+                - name: ลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
+                  href: inventory/inventory-journal-workflow.md
                 - name: สถานที่เก็บสินค้าคงคลัง
                   href: inventory/inventory-locations.md
                 - name: สถานะสินค้าคงคลัง
                   href: inventory/inventory-statuses.md
                 - name: สร้างการจัดวางพื้นที่คลังสินค้าใหม่
                   href: inventory/tasks/create-new-warehouse-layout.md
-                - name: รักษาประเภทบาร์โค้ด
+                - name: รักษาชนิดบาร์โค้ด
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: ตรวจสอบความพร้อมของสินค้าคงคลัง
                   href: inventory/tasks/check-availability-stock.md
+                - name: รายการปริมาณสินค้าคงคลังคงเหลือ
+                  href: inventory/inventory-on-hand-list.md
                 - name: เริ่มระดับสินค้าคงคลังในคลังสินค้า
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: โอนย้ายสินค้าคงคลังที่มีอยู่จริงภายในคลังสินค้า
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: กระบวนการผลิตและการดำเนินงาน
                       href: production-control/routes-operations.md
-                    - name: นโยบายงานของคลังสินค้า
+                    - name: นโยบายงาน
                       href: warehousing/warehouse-work-policies.md
                     - name: สร้างคุณสมบัติการจัดกำหนดการเวลาการทำงาน
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
                   href: warehousing/location-product-dimension-mixing.md
+                - name: การตรวจสอบคุณภาพ
+                  href: warehousing/quality-check.md
             - name: การดำเนินงานของคลังสินค้าขาออก
               items:
                 - name: การจองสินค้าในการจัดการคลังสินค้า
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: การเติมสินค้าตามขีดจำกัดของโซน
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: การเติมสินค้าตามความจุของสถานที่
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: การสร้างและการจัดส่งสินค้าบรรทุก
                   items:
                     - name: ยืนยันและโอนย้าย
                       href: warehousing/confirm-and-transfer.md
+                    - name: ยืนยันการจัดส่งขาออกจากชุดงาน
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: การสร้างโหลดขั้นสูงในระหว่างเวฟ
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: นำออกใช้ที่กฎของคลังสินค้า
@@ -2679,10 +2689,8 @@
               items:
                 - name: นโยบายงานของคลังสินค้า
                   items:
-                    - name: ภาพรวมของนโยบายงานของคลังสินค้า
+                    - name: นโยบายงาน
                       href: warehousing/warehouse-work-policies.md
-                    - name: ตั้งค่านโยบายงานของคลังสินค้า
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: การเคลื่อนย้ายสินค้าคงคลังที่มีงานที่เชื่อมโยงในการจัดการคลังสินค้า
                       href: warehousing/move-inventory-associated-work.md
                     - name: สร้างคลาสงาน
