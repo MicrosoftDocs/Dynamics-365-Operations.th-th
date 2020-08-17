@@ -18,42 +18,40 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429669"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628440"
 ---
-# <a name="view-team-and-company-calendars"></a><span data-ttu-id="7c137-103">ดูปฏิทินของทีมและบริษัท</span><span class="sxs-lookup"><span data-stu-id="7c137-103">View team and company calendars</span></span>
+# <a name="view-team-and-company-calendars"></a><span data-ttu-id="082f6-103">ดูปฏิทินของทีมและบริษัท</span><span class="sxs-lookup"><span data-stu-id="082f6-103">View team and company calendars</span></span>
 
 [!include [banner](includes/preview-feature.md)]
 
-<span data-ttu-id="7c137-104">คุณสามารถดูปฏิทินทีมงานและบริษัทใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="7c137-104">You can view team and company calendars in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="7c137-105">ปฏิทินทีมแสดงเฉพาะรายงานโดยตรงตามที่กำหนดไว้ในลำดับชั้นของบรรทัด</span><span class="sxs-lookup"><span data-stu-id="7c137-105">Team calendars only display direct reports, as defined in the line hierarchy.</span></span>
+<span data-ttu-id="082f6-104">คุณสามารถดูปฏิทินทีมงานและบริษัทใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="082f6-104">You can view team and company calendars in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="082f6-105">ปฏิทินทีมแสดงเฉพาะรายงานโดยตรงตามที่กำหนดไว้ในลำดับชั้นของบรรทัด</span><span class="sxs-lookup"><span data-stu-id="082f6-105">Team calendars only display direct reports, as defined in the line hierarchy.</span></span>
 
-## <a name="view-your-team-calendar-as-an-employee"></a><span data-ttu-id="7c137-106">การดูปฏิทินทีมของคุณในฐานะพนักงาน</span><span class="sxs-lookup"><span data-stu-id="7c137-106">View your team calendar as an employee</span></span>
+## <a name="view-your-team-calendar-as-an-employee"></a><span data-ttu-id="082f6-106">การดูปฏิทินทีมของคุณในฐานะพนักงาน</span><span class="sxs-lookup"><span data-stu-id="082f6-106">View your team calendar as an employee</span></span>
 
-1. <span data-ttu-id="7c137-107">ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**</span><span class="sxs-lookup"><span data-stu-id="7c137-107">In the **Employee self service** workspace, select **My team**.</span></span>
+1. <span data-ttu-id="082f6-107">ในพื้นที่ทำงาน **ระบบบริการตนเองของพนักงาน** ให้เลือก **ปฏิทินการขาดงานของทีม** ภายใต้ **สรุป**</span><span class="sxs-lookup"><span data-stu-id="082f6-107">In the **Employee self service** workspace, select **Team absence calendar** under **Summary**.</span></span>
 
-2. <span data-ttu-id="7c137-108">ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**</span><span class="sxs-lookup"><span data-stu-id="7c137-108">Select **Leave and absence**, and then select **View team calendar**.</span></span>
+## <a name="view-your-team-calendar-as-a-manager"></a><span data-ttu-id="082f6-108">ดูปฏิทินทีมของคุณในฐานะผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="082f6-108">View your team calendar as a manager</span></span>
 
-## <a name="view-your-team-calendar-as-a-manager"></a><span data-ttu-id="7c137-109">ดูปฏิทินทีมของคุณในฐานะผู้จัดการ</span><span class="sxs-lookup"><span data-stu-id="7c137-109">View your team calendar as a manager</span></span>
+1. <span data-ttu-id="082f6-109">ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**</span><span class="sxs-lookup"><span data-stu-id="082f6-109">In the **Employee self service** workspace, select **My team**.</span></span>
 
-1. <span data-ttu-id="7c137-110">ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**</span><span class="sxs-lookup"><span data-stu-id="7c137-110">In the **Employee self service** workspace, select **My team**.</span></span>
+2. <span data-ttu-id="082f6-110">ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินการขาดงานของผู้จัดการ**</span><span class="sxs-lookup"><span data-stu-id="082f6-110">Select **Leave and absence**, and then select **View manager absence calendar**.</span></span>
 
-2. <span data-ttu-id="7c137-111">ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**</span><span class="sxs-lookup"><span data-stu-id="7c137-111">Select **Leave and absence**, and then select **View team calendar**.</span></span>
+<span data-ttu-id="082f6-111">ผู้จัดการยังสามารถเข้าถึงปฏิทินทีมจาก **คำขอการหยุดงานที่ค้างอยู่จากทีมของฉัน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน**</span><span class="sxs-lookup"><span data-stu-id="082f6-111">Managers can also access the team calendar from **Pending time off requests from my team**, **Approved time off**, and **Time off requests**.</span></span> 
 
-<span data-ttu-id="7c137-112">ผู้จัดการยังสามารถเข้าถึงปฏิทินทีมจาก **คำขอการหยุดงานที่ค้างอยู่จากทีมของฉัน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน**</span><span class="sxs-lookup"><span data-stu-id="7c137-112">Managers can also access the team calendar from **Pending time off requests from my team**, **Approved time off**, and **Time off requests**.</span></span> 
+## <a name="view-a-company-calendar"></a><span data-ttu-id="082f6-112">ดูปฏิทินบริษัท</span><span class="sxs-lookup"><span data-stu-id="082f6-112">View a company calendar</span></span>
 
-## <a name="view-a-company-calendar"></a><span data-ttu-id="7c137-113">ดูปฏิทินบริษัท</span><span class="sxs-lookup"><span data-stu-id="7c137-113">View a company calendar</span></span>
+<span data-ttu-id="082f6-113">บุคคลที่อยู่ในบทบาทของฝ่ายทรัพยากรบุคคลสามารถดูปฏิทินของบริษัทได้</span><span class="sxs-lookup"><span data-stu-id="082f6-113">People who are in Human resources roles can view company calendars.</span></span> <span data-ttu-id="082f6-114">ปฏิทินของบริษัทจะแสดงพนักงานทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="082f6-114">Company calendars display all employees.</span></span> <span data-ttu-id="082f6-115">ตามค่าเริ่มต้น ปฏิทินจะแสดงวันที่ของวันนี้บวกด้วย 28 วัน แต่คุณสามารถเปลี่ยนช่วงวันที่ได้</span><span class="sxs-lookup"><span data-stu-id="082f6-115">By default, the calendar displays today's date plus 28 days, but you can change the date range.</span></span> <span data-ttu-id="082f6-116">นอกจากนี้คุณยังสามารถกรองปฏิทินตาม **ชื่อ** **หมายเลขบุคลากร** และ **และชนิดการลางาน**</span><span class="sxs-lookup"><span data-stu-id="082f6-116">You can also filter the calendar by **Name**, **Personnel number**, and **Leave type**.</span></span>
 
-<span data-ttu-id="7c137-114">บุคคลที่อยู่ในบทบาทของฝ่ายทรัพยากรบุคคลสามารถดูปฏิทินของบริษัทได้</span><span class="sxs-lookup"><span data-stu-id="7c137-114">People who are in Human resources roles can view company calendars.</span></span> <span data-ttu-id="7c137-115">ปฏิทินของบริษัทจะแสดงพนักงานทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="7c137-115">Company calendars display all employees.</span></span> <span data-ttu-id="7c137-116">ตามค่าเริ่มต้น ปฏิทินจะแสดงวันที่ของวันนี้บวกด้วย 28 วัน แต่คุณสามารถเปลี่ยนช่วงวันที่ได้</span><span class="sxs-lookup"><span data-stu-id="7c137-116">By default, the calendar displays today's date plus 28 days, but you can change the date range.</span></span> <span data-ttu-id="7c137-117">นอกจากนี้คุณยังสามารถกรองปฏิทินตาม **ชื่อ** **หมายเลขบุคลากร** และ **และชนิดการลางาน**</span><span class="sxs-lookup"><span data-stu-id="7c137-117">You can also filter the calendar by **Name**, **Personnel number**, and **Leave type**.</span></span>
+1. <span data-ttu-id="082f6-117">ในพื้นที่ทำงาน **ลางานและขาดงาน** ให้เลือกแท็บ **ลิงค์**</span><span class="sxs-lookup"><span data-stu-id="082f6-117">In the **Leave and absence** workspace, select **Links**.</span></span>
 
-1. <span data-ttu-id="7c137-118">ในพื้นที่ทำงาน **ลางานและขาดงาน** ให้เลือกแท็บ **ลิงค์**</span><span class="sxs-lookup"><span data-stu-id="7c137-118">In the **Leave and absence** workspace, select **Links**.</span></span>
+2. <span data-ttu-id="082f6-118">ให้เลือก **ปฏิทินการลางานและขาดงาน**</span><span class="sxs-lookup"><span data-stu-id="082f6-118">Select **Leave and absence calendar**.</span></span>
 
-2. <span data-ttu-id="7c137-119">ให้เลือก **ปฏิทินการลางานและขาดงาน**</span><span class="sxs-lookup"><span data-stu-id="7c137-119">Select **Leave and absence calendar**.</span></span>
+<span data-ttu-id="082f6-119">บทบาทของฝ่ายทรัพยากรบุคคลยังสามารถเข้าถึงปฏิทินของบริษัทจาก **คำขอการลางานและการขาดงาน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน**</span><span class="sxs-lookup"><span data-stu-id="082f6-119">Human resources roles can also access the company calendar from **Leave and absence requests**, **Approved time off**, and **Time off requests**.</span></span> 
 
-<span data-ttu-id="7c137-120">บทบาทของฝ่ายทรัพยากรบุคคลยังสามารถเข้าถึงปฏิทินของบริษัทจาก **คำขอการลางานและการขาดงาน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน**</span><span class="sxs-lookup"><span data-stu-id="7c137-120">Human resources roles can also access the company calendar from **Leave and absence requests**, **Approved time off**, and **Time off requests**.</span></span> 
-
-<span data-ttu-id="7c137-121">สำหรับข้อมูลเกี่ยวกับการตั้งค่าปฏิทิน ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์ปฏิทิน](hr-leave-and-absence-parameters.md?configure-calendar-parameters)</span><span class="sxs-lookup"><span data-stu-id="7c137-121">For information about calendar settings, see [Configure calendar parameters](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span></span>
+<span data-ttu-id="082f6-120">สำหรับข้อมูลเกี่ยวกับการตั้งค่าปฏิทิน ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์ปฏิทิน](hr-leave-and-absence-parameters.md?configure-calendar-parameters)</span><span class="sxs-lookup"><span data-stu-id="082f6-120">For information about calendar settings, see [Configure calendar parameters](hr-leave-and-absence-parameters.md?configure-calendar-parameters).</span></span>
 
