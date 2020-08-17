@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530293"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652094"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.11 (กรกฎาคม 2020)
 
@@ -39,11 +39,11 @@ ms.locfileid: "3530293"
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 - [การจัดเก็บรายงานปริมาณสินค้าคงคลังคงเหลือ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรับป้ายทะเบียนผ่านทางแอปคลังสินค้า](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
-- [การปรับปรุงการจองรายการสำหรับฟอร์มการจองหมายเลขชุดงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จองชุดงานเดียวกันสำหรับใบสั่งขาย](../sales-marketing/reserve-same-batch-sales-order.md)
+- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปคลังสินค้า](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [การปรับปรุงการจองรายการสำหรับฟอร์มการจองหมายเลขชุดงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [จองชุดงานเดียวกันสำหรับใบสั่งขาย](../sales-marketing/reserve-same-batch-sales-order.md)
 - [เอนทิตี้ข้อมูลใหม่สำหรับพื้นที่การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [การรับปริมาณจำนวนงานในศูนย์การผลิตที่มากเกินไป](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
-- [รายงานการเสร็จงานของหมายเลขชุดงานจากอุปกรณ์บัตรงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานการเสร็จงานจากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
+- [การรับเกินปริมาณของการบรรทุก](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
+- [รายงานเป็นเสร็จสิ้นในหมายเลขชุดงานจากอุปกรณ์บัตรงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

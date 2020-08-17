@@ -3,7 +3,7 @@ title: มีอะไรใหม่หรือมีอะไรเปลี�
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Human Resources
 author: Darinkramer
 manager: AnnBe
-ms.date: 6/25/2020
+ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: fa02cf10b2b4fe08440d3641472e83dfe58169c9
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555038"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614397"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (23 มิถุนายน 2020)
 
