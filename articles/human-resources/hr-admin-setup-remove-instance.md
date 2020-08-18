@@ -3,7 +3,7 @@ title: เอาอินสแตนซ์ออก
 description: บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431210"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621391"
 ---
 # <a name="remove-an-instance"></a>เอาอินสแตนซ์ออก
 
@@ -67,8 +67,21 @@ ms.locfileid: "3431210"
 1. โปรดติดต่อฝ่ายสนับสนุนเพื่อเริ่มต้นคำขอการลบ
 2. ทีมสนับสนุนจะเริ่มต้นคำขอการลบด้วยทีม DevOps ทรัพยากรบุคคล 
 3. ดำเนินการต่อ หลังจากที่คุณได้รับคำที่ว่าสภาพแวดล้อมได้ถูกลบออกแล้ว
-4.  ลงชื่อเข้าใช้ LCS โดยใช้บัญชีที่คุณใช้ในการสมัครสมาชิกทรัพยากรบุคคล 
+4. ลงชื่อเข้าใช้ LCS โดยใช้บัญชีที่คุณใช้ในการสมัครสมาชิกทรัพยากรบุคคล 
 5. เลือกโครงการทรัพยากรบุคคลที่ประกอบด้วยสภาพแวดล้อม 
 6. ในโครงการ LCS ของคุณ เลือกไทล์ **การจัดการแอป Human Resources** 
 7. เลือกอินสแตนซ์ที่คุณต้องการลบ ซึ่งควรถูกทำเครื่องหมายด้วยสถานะการปรับใช้เป็น **ล้มเหลว**
 8. เลือก **ลบอินสแตนซ์** และยืนยันการตัดสินใจของคุณ 
+
+## <a name="recover-a-soft-deleted-environment"></a>การกู้คืนสภาพแวดล้อมที่ถูกลบแบบชั่วคราว
+
+ถ้าคุณลบสภาพแวดล้อม Power Apps ที่มีการเชื่อมต่อกับสภาพแวดล้อมของทรัพยากรบุคคล สถานะของสภาพแวดล้อมของทรัพยากรบุคคลใน Lifecycle Services จะถูก **ลบชั่วคราว** ในกรณีนี้ ผู้ใช้ไม่สามารถเชื่อมต่อกับทรัพยากรบุคคลได้
+
+เมื่อต้องการคืนสภาพแวดล้อมให้ปฏิบัติดังนี้:
+
+1. ทำตามคำแนะนำในหน้าต่าง [คืนค่าสภาพแวดล้อม Power Apps](/power-platform/admin/recover-environment.md)
+
+2. โปรดติดต่อฝ่ายสนับสนุนเพื่อคืนสภาพแวดล้อมของทรัพยากรบุคคล สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
+
+> [!Warning]
+> สภาพแวดล้อม Power Apps จะถูกบันทึกไว้เป็นเวลาเจ็ดวันหลังจากลบ คุณต้องกู้คืนสภาพแวดล้อมภายในรอบระยะเวลาเจ็ดวัน

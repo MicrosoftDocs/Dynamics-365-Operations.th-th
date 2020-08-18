@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429669"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628440"
 ---
 # <a name="view-team-and-company-calendars"></a>ดูปฏิทินของทีมและบริษัท
 
@@ -33,15 +33,13 @@ ms.locfileid: "3429669"
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>การดูปฏิทินทีมของคุณในฐานะพนักงาน
 
-1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**
-
-2. ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**
+1. ในพื้นที่ทำงาน **ระบบบริการตนเองของพนักงาน** ให้เลือก **ปฏิทินการขาดงานของทีม** ภายใต้ **สรุป**
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>ดูปฏิทินทีมของคุณในฐานะผู้จัดการ
 
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**
 
-2. ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินทีม**
+2. ให้เลือก **การลาและขาดงาน** แล้วเลือก **ดูปฏิทินการขาดงานของผู้จัดการ**
 
 ผู้จัดการยังสามารถเข้าถึงปฏิทินทีมจาก **คำขอการหยุดงานที่ค้างอยู่จากทีมของฉัน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน** 
 

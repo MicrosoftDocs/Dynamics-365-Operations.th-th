@@ -70,6 +70,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (ตุลาคม 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (กรกฎาคม 2020)
@@ -107,23 +109,23 @@
             - name: แค็ตตาล็อกการเรียนรู้
               items:
                 - name: โฮมเพจแค็ตตาล็อกการเรียนรู้
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: ผู้มีอำนาจตัดสินใจในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: ผู้ใช้ในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: ผู้จัดการโครงการสำหรับการใช้งาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: ผู้ดูแลระบบ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: นักพัฒนา
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: ร่วมมือกับฝ่ายการขายและการตลาด
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: ที่ปรึกษาการทำงาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: สถาปนิกโซลูชัน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: สำรวจอินเทอร์เฟสผู้ใช้
               items:
                 - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: ดำเนินการกับการปันส่วน
                   href: general-ledger/process-allocations.md
+                - name: เงื่อนไขในการปันส่วน
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: มิติทางการเงิน
                   href: general-ledger/financial-dimensions.md
                 - name: กลุ่มการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: สร้างรายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: งบทดลองที่มีรายงานรายละเอียดของธุรกรรม
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: ใช้ขีดจำกัดการควบคุมเงินสด
                   href: public-sector/cash-control.md
                 - name: การประมวลผลสิ้นปีในภาครัฐ
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: เพิ่มชนิดใบรับรองไปยังผู้จัดจำหน่ายในภาครัฐ
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: กำลังคำนวณภาษีขายของแคนาดา
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: การรายงานทางการเงิน
           items:
             - name: ภาพรวมของการรายงานทางการเงิน
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: กลุ่มการอ้างอิง GST อินเดีย
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: รายงาน 340
                   href: localizations/emea-esp-report-340.md
+                - name: รายงานการรายงานภาษี 347
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: วงจรการขายและการซื้อ
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: รายการพิเศษและแผ่นงานการเปิด
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: การจัดหาข้อมูลเกี่ยวกับ VAT ทันที
+                  href: localizations/emea-esp-sii.md
             - name: สวีเดน
               items:
                 - name: ภาพรวมของสวีเดน

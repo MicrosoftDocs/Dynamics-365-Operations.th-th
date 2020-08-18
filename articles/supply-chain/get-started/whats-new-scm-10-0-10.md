@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268781"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652118"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.10 (พฤษภาคม 2020)
 
@@ -39,11 +39,11 @@ ms.locfileid: "3268781"
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 - [การเพิ่มประสิทธิภาพการใช้แท็กตามน้ำหนักจริงที่มีอยู่พร้อมกับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [การปรับปรุงการจัดการจำนวนงานในศูนย์การผลิตขาเข้าสำหรับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
-- [การปรับปรุงการพิมพ์ป้ายชื่อสำหรับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)- สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน](../warehousing/document-routing-layout-for-license-plates.md)
+- [การปรับปรุงการจัดการโหลดขาเข้าสำหรับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
+- [การปรับปรุงการพิมพ์ป้ายชื่อสำหรับการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน](../warehousing/document-routing-layout-for-license-plates.md)
 - [การวางแผนหลักจะรวมถึงสินค้าคงคลังคงเหลือ เมื่อมีการเปิดใช้งานตัวกรองการประมวลผลล่วงหน้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [เอนทิตี้ข้อมูลใหม่สำหรับพื้นที่การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า](../inventory/quality-management-for-warehouses-processes.md)
+- [การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า](../inventory/quality-management-for-warehouses-processes.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

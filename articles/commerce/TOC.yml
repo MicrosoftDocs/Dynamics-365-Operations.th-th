@@ -90,6 +90,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (ตุลาคม 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (กรกฎาคม 2020)
@@ -127,23 +129,23 @@
             - name: แค็ตตาล็อกการเรียนรู้
               items:
                 - name: โฮมเพจแค็ตตาล็อกการเรียนรู้
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: ผู้มีอำนาจตัดสินใจในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: ผู้ใช้ในธุรกิจ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: ผู้จัดการโครงการสำหรับการใช้งาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: ผู้ดูแลระบบ
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: นักพัฒนา
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: ร่วมมือกับฝ่ายการขายและการตลาด
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: ที่ปรึกษาการทำงาน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: สถาปนิกโซลูชัน
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: สำรวจอินเทอร์เฟสผู้ใช้
               items:
                 - name: องค์ประกอบอินเทอร์เฟสผู้ใช้
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: การคำนวณการยกเว้นภาษี
+                          href: tax-exempt-price-inclusive.md
                     - name: ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
                       href: email-notification-profiles.md
                     - name: ลำดับหมายเลข
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: การตรวจสอบความสมบูรณ์ของอุปกรณ์ต่อพ่วงและบริการ POS
                           href: pos-healthcheck.md
+                        - name: การสนับสนุนสำหรับอุปกรณ์ต่อพ่วงเครือข่าย
+                          href: dev-itpro/network-peripherals.md
                     - name: โครงร่างหน้าจอ
                       items:
                         - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: โมดูลแท็บ
                       href: add-tab.md
+                    - name: โมดูล iFrame
+                      href: iframe-module.md
                 - name: โมดูลการตลาด
                   items:
                     - name: โมดูลแบนเนอร์โปรโมชั่น
@@ -968,6 +976,8 @@
                   items:
                     - name: โมดูลกล่องการซื้อ
                       href: add-buy-box.md
+                    - name: โมดูลแกลเลอรี่สื่อ
+                      href: media-gallery-module.md
                     - name: โมดูลการให้คะแนนและบทวิจารณ์
                       href: ratings-reviews-modules.md
                 - name: โมดูลการซื้อ
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: โมดูลรายละเอียดใบสั่ง
                       href: order-confirmation-module.md
-                    - name: โมดูลตัวเลือกการจัดเก็บ
-                      href: store-selector.md
                     - name: โมดูลบัตรของขวัญ
                       href: add-giftcard.md
+                - name: โมดูลการค้นหาร้านค้า
+                  items:
+                    - name: โมดูลการแม็ป
+                      href: map-module.md
+                    - name: โมดูลตัวเลือกการจัดเก็บ
+                      href: store-selector.md
                 - name: โมดูลการจัดการบัญชี
                   items:
                     - name: หน้าและโมดูลการจัดการบัญชี
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: แสดงตัวอย่างและตรวจแก้จุดบกพร่องโมดูล
                       href: e-commerce-extensibility/test-module.md
-                    - name: ทดสอบโมดูลโดยใช้การจำลอง
+                    - name: ทดสอบโมดูลด้วยการจำลองโมดูล
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: ทดสอบโมดูลโดยใช้การจำลองหน้า
                       href: e-commerce-extensibility/test-page-mock.md
