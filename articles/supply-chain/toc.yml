@@ -805,7 +805,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: รายการ
+                    - name: List
                       items:
                         - name: ฟังก์ชันรายการ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/supply-chain/toc.json
@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: สร้างคำสั่งสถานที่
+                      href: warehousing/create-location-directive.md
                     - name: รหัสขั้นตอนของเวฟ
                       href: warehousing/wave-step-codes.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: สร้างกลไกจัดการการจัดการขนส่งใหม่
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ขยายเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือ
+              href: inventory/extend-on-hand-entities.md
     - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

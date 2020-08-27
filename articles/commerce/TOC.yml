@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: รูปภาพของไคลเอนต์ใน POS
                           href: pos-image.md
-                    - name: ใบสั่งของลูกค้า
-                      items:
-                        - name: ใบสั่งของลูกค้าใน MPOS
-                          href: customer-orders-overview.md
-                        - name: ใบสั่งของลูกค้าแบบไฮบริด
-                          href: hybrid-customer-orders.md
                     - name: สมาคมการขาย
                       items:
                         - name: ติดตามค่าคอมมิชชันใน POS โดยใช้กลุ่มการขาย
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล
                       href: personalization-gdpr.md
+                - name: เปิดใช้งานคำแนะนำ "ร้านค้าที่คล้ายกัน"
+                  href: shop-similar-looks.md
                 - name: ประสบการณ์ใช้งาน POS
                   items:
                     - name: เพิ่มคำแนะนำผลิตภัณฑ์ใน POS
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: จัดการใบสั่งของคุณ
           items:
+            - name: ใบสั่งของลูกค้า
+              items:
+                - name: ใบสั่งของลูกค้าใน MPOS
+                  href: customer-orders-overview.md
+                - name: ใบสั่งของลูกค้าแบบไฮบริด
+                  href: hybrid-customer-orders.md
             - name: ใบสั่งขาย
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: โมดูลเช็คเอาท์
                       href: add-checkout-module.md
+                    - name: โมดูลการชำระเงิน
+                      href: payment-module.md
+                    - name: โมดูลที่อยู่ที่จัดส่ง
+                      href: ship-address-module.md
+                    - name: โมดูลตัวเลือกการจัดส่ง
+                      href: delivery-options-module.md
                     - name: โมดูลรายละเอียดใบสั่ง
                       href: order-confirmation-module.md
                     - name: โมดูลบัตรของขวัญ
@@ -1290,7 +1298,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
-                    - name: รายการ
+                    - name: List
                       items:
                         - name: ฟังก์ชันรายการ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: ภาพรวม API ของคุกกี้
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: ภาพรวมของส่วนประกอบแบบโต้ตอบ
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: กระจายโมดูลทั่วโลกโดยใช้คลาส CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: พัฒนาการดำเนินการกับข้อมูล
@@ -2020,12 +2030,16 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: ขยายธีมเพื่อเพิ่มส่วนขยายโมดูล
                       href: e-commerce-extensibility/theme-module-extensions.md
-                    - name: ขยายชุดธีมจากธีมพื้นฐาน
+                    - name: ขยายธีมจากธีมพื้นฐาน
                       href: e-commerce-extensibility/extend-theme.md
                 - name: ส่งสคริปต์
                   items:
                     - name: ตัวส่งสคริปต์
                       href: e-commerce-extensibility/script-injector.md
+                - name: ตัวเชื่อมต่อ
+                  items:
+                    - name: ตั้งค่าคอนฟิกและเปิดใช้งานตัวเชื่อมต่อ
+                      href: e-commerce-extensibility/connectors.md
                 - name: การตรวจวัดระยะไกลและการวิเคราะห์
                   items:
                     - name: ตัวบันทึกการตรวจวัดระยะไกล
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: การเปลี่ยนแปลงที่จะมาถึงใน Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: การพัฒนาที่สำคัญและการเปลี่ยนแปลง ALM จากเวอร์ชัน 10.0.10 เป็น 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: ผสานระบบการสร้างสำหรับ Commerce และ Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: ย้าย Retail SDK จาก Visual Studio 2015 ไปยัง Visual Studio 2017
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: ความสามารถในการเพิ่มฟังก์ชันของ Retail Server
               items:
-                - name: ขยายตัวควบคุม OData ของ Commerce Scale Unit
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: API สำหรับลูกค้าและผู้ใช้งาน Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: ขยายตัวควบคุมข้อมูลเมตาของ Commerce Scale Unit เริ่มต้น
-                  href: dev-itpro/extend-metadata.md
-                - name: เรียกใช้บริการ CRT ในโหมดออฟไลน์
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: สร้างส่วนขยาย Retail Server ใหม่
+                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และใหม่กว่า)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และเก่ากว่า)
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript และพร็อกซี C#
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และ Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: เพิ่มข้อมูลการกำหนดลักษณะของลูกค้าในฐานข้อมูลช่องทาง
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: จัดการข้อมูลความลับของช่องทางการขายปลีก
                   href: dev-itpro/manage-secrets.md
                 - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และทริกเกอร์
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: บล็อคธุรกรรมโดยใช้ทริกเกอร์
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: ใช้นโยบายการส่งคืนโดยใช้ทริกเกอร์
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: ส่วนขยายของสมาชิก
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: จุดขยายสำหรับบันทึกการจัดส่ง

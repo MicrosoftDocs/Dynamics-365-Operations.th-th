@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 6 สิงหาคม 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23 กรกฎาคม 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8 กรกฎาคม 2020
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 เมษายน 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24 มีนาคม 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 มีนาคม 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 มีนาคม 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 มีนาคม 2020
-          href: hr-whats-new-2020-03-03.md
         - name: ข้อมูลเก็บถาวร 2020 มีอะไรใหม่
           items:
+            - name: 24 มีนาคม 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 มีนาคม 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 มีนาคม 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 มีนาคม 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25 กุมภาพันธ์ 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18 กุมภาพันธ์ 2020
@@ -219,14 +221,12 @@
       items:
         - name: ภาพรวม
           href: hr-hrpro-overview.md
-        - name: ตั้งค่าทรัพยากรบุคคล
+        - name: ตั้งค่า Human Resources
           items:
-            - name: ตั้งค่าคอนฟิกพารามิเตอร์ทรัพยากรบุคคล
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
               href: hr-setup-parameters.md
-            - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล
+            - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของ Human Resources
               href: hr-setup-shared-parameters.md
-            - name: ตั้งค่าลำดับงานทรัพยากรบุคคล
-              href: hr-setup-workflows.md
             - name: ทำความเข้าใจฟิลด์วันที่และเวลา
               href: hr-setup-date-time-fields.md
         - name: ตั้งค่าคอนฟิกการตั้งค่าองค์กร
@@ -383,6 +383,8 @@
               href: hr-personnel-actions-faq.md
             - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
               href: hr-workflow-manage-employee-information.md
+            - name: ดูและจัดการการเปลี่ยนแปลงที่อยู่
+              href: hr-personnel-view-address-changes.md
             - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: ป้อนข้อมูลผู้ปฏิบัติงาน
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: พัฒนาแผนการสืบทอด
               href: hr-personnel-develop-succession-plan.md
-            - name: ป้อนแผ่นเวลาโครงการ
-              href: hr-personnel-enter-project-timesheets.md
             - name: โครงการจ้างงานโดยรวม
               href: hr-personnel-mass-hire-projects.md
             - name: การสร้างโครงการจ้างงานโดยรวม
