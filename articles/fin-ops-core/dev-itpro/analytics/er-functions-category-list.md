@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201054"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687969"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>รายการของฟังก์ชั่น ER ในประเภทรายการ
 
@@ -46,6 +46,7 @@ ms.locfileid: "3201054"
 | [Index](er-functions-list-index.md)                       | ฟังก์ชันนี้ส่งกลับค่า *คอนเทนเนอร์ (เรกคอร์ด)* ที่เลือกโดยใช้ดัชนีตัวเลขที่ระบุในรายการที่ระบุ ถ้าดัชนีอยู่นอกช่วสำหรับเรกคอร์ดในรายการที่ระบุ ฟังก์ชันนี้จะมีข้อยกเว้นเกิดขึ้น |
 | [IsEmpty](er-functions-list-isempty.md)                   | ฟังก์ชันนี้ส่งกลับค่า *บูลีน* ของ **TRUE** ถ้ารายการที่ระบุไม่มีเรกคอร์ด มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ** |
 | [รายการ](er-functions-list-list.md)                         | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยรายการใหม่ที่สร้างขึ้นจากอาร์กิวเมนต์ที่ระบุของชนิด|
+| [ListDistinct](er-functions-list-listdistinct.md)         | ฟังก์ชันนี้จะคำนวณนิพจน์ที่ระบุเป็นตัวเลือกสำหรับเรกคอร์ดทั้งหมดของรายการที่ระบุ โดยจะส่งคืน *รายการเรกคอร์ด* ใหม่ที่มีเรกคอร์ดเดียวสำหรับตัวเลือกที่ไม่ซ้ำกันแต่ละรายการ|
 | [ListJoin](er-functions-list-listjoin.md)                 | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่แสดงถึงรายการใหม่ที่เข้าร่วมที่สร้างขึ้นจากอาร์กิวเมนต์ที่ระบุของชนิด|
 | [ListOfFields](er-functions-list-listoffields.md)         | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่สร้างขึ้นตามโครงสร้างของอาร์กิวเมนต์ที่ระบุของชนิด *การแจงนับ* หรือ *คอนเทนเนอร์ (เรกคอร์ด)* |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยเฉพาะเรกคอร์ดแรกของรายการที่ระบุ|

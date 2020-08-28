@@ -3,7 +3,7 @@ title: ภาพรวมบัญชีแยกประเภททั่ว�
 description: 'ใช้บัญชีแยกประเภททั่วไปเพื่อกำหนด และจัดการเรกคอร์ดทางการเงินของนิติบุคคล '
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771810"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696675"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>ภาพรวมบัญชีแยกประเภททั่วไปและการรายงานทางการเงิน
+# <a name="general-ledger-home-page"></a>โฮมเพจบัญชีแยกประเภททั่วไป
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,10 @@ ms.locfileid: "2771810"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [แผนประจำรุ่นของ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+
+#### <a name="financial-reporting"></a>การรายงานทางการเงิน
+ไปที่หัวข้อ [ภาพรวมของ Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) สำหรับข้อมูลเกี่ยวกับรายงานทางการเงิน
 
 #### <a name="blogs"></a>บล็อก
 

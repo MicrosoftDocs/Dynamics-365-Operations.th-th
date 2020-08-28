@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404220"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665037"
 ---
 # <a name="enable-product-recommendations"></a>เปิดใช้งานคำแนะนำผลิตภัณฑ์
 
@@ -95,6 +95,8 @@ ms.locfileid: "3404220"
 [เปิดใช้งาน Azure Data Lake Storage ในสภาพแวดล้อม Dynamics 365 Commerce](enable-adls-environment.md)
 
 [เปิดใช้งานคำแนะนำที่เป็นแบบส่วนบุคคล](personalized-recommendations.md)
+
+[เปิดใช้งานคำแนะนำ "เลือกซื้อสินค้าที่คล้ายกัน"](shop-similar-looks.md)
 
 [เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล](personalization-gdpr.md)
 
