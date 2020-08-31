@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464941"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661183"
 ---
 # <a name="order-details-module"></a>โมดูลรายละเอียดใบสั่ง
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ ms.locfileid: "3464941"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
-
-[โมดูลคอนเทนเนอร์](add-container-module.md)
-
-[โมดูลกล่องการซื้อ](add-buy-box.md)
-
 [โมดูลรถเข็น](add-cart-module.md)
+
+[โมดูลไอคอนรถเข็น](cart-icon-module.md)
 
 [โมดูลเช็คเอาท์](add-checkout-module.md)
 
-[โมดูลส่วนหัว](author-header-module.md)
+[โมดูลการชำระเงิน](payment-module.md)
 
-[โมดูลของส่วนท้าย](author-footer-module.md)
+[โมดูลที่อยู่จัดส่ง](ship-address-module.md)
+
+[โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
+
+[โมดูลบัตรของขวัญ](add-giftcard.md)

@@ -1156,7 +1156,7 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: การรายงานทางการเงิน
           items:
-            - name: ภาพรวมของการรายงานทางการเงิน
+            - name: เริ่มต้นการรายงานทางการเงิน
               href: general-ledger/financial-reporting-getting-started.md
             - name: ภาพรวมของการรายงานทางการเงิน
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: การรายงานสำหรับรายการยืดเวลา
                       href: localizations/rus-reporting-deferrals.md
+                - name: การบัญชีของภาษี
+                  items:
+                    - name: รหัสค่าใช้จ่ายและรายได้
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: ทะเบียนภาษีสินทรัพย์
+                      href: localizations/rus-assets-tax-registers.md
             - name: ซาอุดีอาระเบีย
               items:
                 - name: ภาพรวมของซาอุดีอาระเบีย
@@ -2716,17 +2722,17 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: แบบฟอร์ม 1099 สำหรับภาครัฐ
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: ทรัพยากรบุคคล
+        - name: Human Resources
           items:
-            - name: ภาพรวมของทรัพยากรบุคคล
+            - name: ภาพรวมของ Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: ตั้งค่าทรัพยากรบุคคล
+            - name: ตั้งค่า Human Resources
               items:
-                - name: ตั้งค่าคอนฟิกพารามิเตอร์ทรัพยากรบุคคล
+                - name: ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล
+                - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของ Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าลำดับงานทรัพยากรบุคคล
+                - name: ตั้งค่าลำดับงาน Human Resources
                   href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
                 - name: ทำความเข้าใจฟิลด์วันที่และเวลา
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
@@ -3100,7 +3106,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: รายการ
+                    - name: List
                       items:
                         - name: ฟังก์ชันรายการ
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,7 +3421,9 @@
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: บทช่วยสอน
               items:
                 - name: เรียนรู้วิธีการใช้แหล่งข้อมูล

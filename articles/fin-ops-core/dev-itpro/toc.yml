@@ -156,6 +156,8 @@
                           items:
                             - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: การจัดการแม็ปเอนทิตี้หลายรายการ
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: การจัดการข้อผิดพลาดและการแจ้งเตือน

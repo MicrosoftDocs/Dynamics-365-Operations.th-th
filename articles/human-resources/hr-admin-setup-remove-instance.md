@@ -3,7 +3,7 @@ title: เอาอินสแตนซ์ออก
 description: บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621391"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668336"
 ---
 # <a name="remove-an-instance"></a>เอาอินสแตนซ์ออก
 
@@ -70,7 +70,7 @@ ms.locfileid: "3621391"
 4. ลงชื่อเข้าใช้ LCS โดยใช้บัญชีที่คุณใช้ในการสมัครสมาชิกทรัพยากรบุคคล 
 5. เลือกโครงการทรัพยากรบุคคลที่ประกอบด้วยสภาพแวดล้อม 
 6. ในโครงการ LCS ของคุณ เลือกไทล์ **การจัดการแอป Human Resources** 
-7. เลือกอินสแตนซ์ที่คุณต้องการลบ ซึ่งควรถูกทำเครื่องหมายด้วยสถานะการปรับใช้เป็น **ล้มเหลว**
+7. เลือกอินสแตนซ์ที่คุณต้องการลบ ซึ่งควรทำเครื่องหมายไว้ด้วยสถานะการปรับใช้เป็น **ถูกลบ**
 8. เลือก **ลบอินสแตนซ์** และยืนยันการตัดสินใจของคุณ 
 
 ## <a name="recover-a-soft-deleted-environment"></a>การกู้คืนสภาพแวดล้อมที่ถูกลบแบบชั่วคราว

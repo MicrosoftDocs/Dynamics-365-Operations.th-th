@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411235"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686729"
 ---
 # <a name="footer-module"></a>โมดูลของส่วนท้าย  
 
@@ -50,7 +50,7 @@ ms.locfileid: "3411235"
 
 ## <a name="create-a-footer-module"></a>สร้างโมดูลส่วนท้าย
 
-1. ไปที่ **ส่วนของเพจ** จากนั้น ให้เลือก **สร้าง** เพื่อสร้างส่วนย่อยใหม่
+1. ไปที่ **ส่วนย่อย** จากนั้น ให้เลือก **สร้าง** เพื่อสร้างส่วนย่อยใหม่
 1. ในกล่องโต้ตอบ **ส่วนย่อยของหน้าใหม่** ให้เลือกโมดูล **คอนเทนเนอร์** ป้อนชื่อสำหรับส่วนย่อยของหน้า แล้วเลือก **ตกลง**
 1. ในช่อง **คอนเทนเนอร์เริ่มต้น** เลือกจุดไข่ปลา (**...**) แล้วจากนั้นเลือก **เพิ่มโมดูล**
 1. ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **ประเภทของส่วนท้าย** แล้วเลือก **ตกลง**

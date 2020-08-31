@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411123"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661253"
 ---
 # <a name="gift-card-module"></a>โมดูลบัตรของขวัญ
 
@@ -63,8 +63,18 @@ ms.locfileid: "3411123"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[โมดูลรถเข็น](add-cart-module.md)
+
+[โมดูลไอคอนรถเข็น](cart-icon-module.md)
 
 [โมดูลเช็คเอาท์](add-checkout-module.md)
+
+[โมดูลการชำระเงิน](payment-module.md)
+
+[โมดูลที่อยู่จัดส่ง](ship-address-module.md)
+
+[โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
+
+[โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 
 [การรองรับบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)
