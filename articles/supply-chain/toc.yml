@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ฝังแอป PowerApps
+                - name: ฝัง Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: การเข้าถึงข้อมูลและการรายงาน
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ตัวเลือกการกำหนดเป็นแบบส่วนบุคคลด้วย PowerBI.com
+            - name: ตัวเลือกการปรับแต่งให้เป็นส่วนตัวด้วย Power BI
               items:
-                - name: คุณลักษณะที่ใช้งานได้ผ่านการรวม PowerBI.com
+                - name: คุณลักษณะที่ใช้งานได้ผ่านการรวม Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ปักหมุดเนื้อหาของ PowerBI.com
+                - name: ปักหมุดเนื้อหาของ Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เลือกพื้นที่ทำงานเชิงวิเคราะห์จาก PowerBI.com
+                - name: เลือกพื้นที่ทำงานเชิงวิเคราะห์จาก Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: เนื้อหาของ Power BI
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: ไม่รวมผลิตภัณฑ์จากการวางแผนหลัก
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: สินค้าที่ใช้สองครั้ง
-                  href: pim/dual-use.md
-                - name: ประเทศของผู้ผลิต
-                  href: pim/country-of-origin.md
                 - name: สร้างบาร์โค้ดให้ผลิตภัณฑ์
                   href: pim/tasks/create-bar-code-product.md
                 - name: ป้อนรหัส GTIN สำหรับผลิตภัณฑ์
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: เพิ่มรูปภาพให้ผลิตภัณฑ์
                   href: pim/tasks/add-image-product.md
+                - name: ประเทศของผู้ผลิต
+                  href: pim/country-of-origin.md
+                - name: สินค้าที่ใช้สองครั้ง
+                  href: pim/dual-use.md
+                - name: วัตถุอันตราย
+                  items:
+                    - name: ภาพรวมของวัตถุอันตราย
+                      href: pim/hazmat-overview.md
+                    - name: ตั้งค่าวัตถุอันตราย
+                      href: pim/hazmat-setup.md
+                    - name: วัตถุอันตรายในผลิตภัณฑ์ ใบสั่ง การจัดส่ง และการบรรทุก
+                      href: pim/hazmat-items.md
+                    - name: การสอบถามและรายงานเกี่ยวกับวัตถุอันตราย
+                      href: pim/hazmat-reports.md
                 - name: การแปล FAQ ข้อมูลผลิตภัณฑ์
                   href: pim/translations-product-related-information.md
                 - name: ค้นหาผลิตภัณฑ์ในระหว่างการป้อนข้อมูลใบสั่ง
