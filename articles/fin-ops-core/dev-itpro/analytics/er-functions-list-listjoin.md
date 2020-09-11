@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249046"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740674"
 ---
 # <a name=""></a><a name="LISTJOIN">ฟังก์ชัน LISTJOIN ER</a>
 
@@ -69,8 +69,18 @@ LIST (list 1 [, list 2, …, list N])
 - **Amount**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Real`
 - **IsValid**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Boolean`
 
-ในกรณีนี้นิพจน์ `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` ส่งกลับรายการใหม่ที่ประกอบด้วยสองเรกคอร์ด โครงสร้างของรายการนี้ประกอบด้วยฟิลด์ **ยอดเงิน** เดียวของชนิด `Real` เนื่องจากฟิลด์นี้เป็นฟิลด์เดียวที่จะแสดงในทุกอาร์กิวเมนต์ของฟังก์ชันที่เรียก
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image1.gif)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+ในกรณีนี้นิพจน์ `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` ส่งกลับรายการใหม่ที่ประกอบด้วยสองเรกคอร์ด
+
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image2.gif)
+
+โครงสร้างของรายการนี้ประกอบด้วยฟิลด์ **ยอดเงิน** เดียวของชนิด `Real` เนื่องจากฟิลด์นี้เป็นฟิลด์เดียวที่จะแสดงในทุกอาร์กิวเมนต์ของฟังก์ชันที่เรียก
+
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image3.gif)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันรายการ](er-functions-category-list.md)
+
+[ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล](er-debug-data-sources.md)

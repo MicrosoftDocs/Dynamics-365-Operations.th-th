@@ -3,7 +3,7 @@ title: รายการของฟังก์ชั่น ER ในประ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันตรรกะที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916648"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705106"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>รายการของฟังก์ชั่น ER ในประเภทตรรกะ
 
@@ -41,6 +41,8 @@ ms.locfileid: "2916648"
 | [ไม่ใช่](er-functions-logical-not.md)                       | ฟังก์ชันนี้ส่งกลับค่าตรรกศาสตร์ที่ถูกย้อนกลับของเงื่อนไขที่ระบุเป็นค่า *บูลีน* |
 | [Or](er-functions-logical-or.md)                         | ฟังก์ชันนี้ส่งกลับค่า *บูลีน* ของ **FALSE** ถ้าเงื่อนไขที่ระบุทั้งหมดเป็นเท็จ ถ้าเงื่อนไขที่ระบุทั้งหมดเป็นจริง ฟังก์ชันจะส่งกลับค่า *บูลีน* ของ **TRUE** |
 | [ValueIn](er-functions-logical-valuein.md)               | ฟังก์ชันนี้กำหนดว่า การป้อนข้อมูลที่ระบุที่ตรงกับค่าใดๆ ของสินค้าที่ระบุในรายการที่ระบุหรือไม่ จะส่งกลับค่า *บูลีน* ของ **TRUE** ถ้าอินพุตที่ระบุตรงกับผลลัพธ์ของการเรียกใช้นิพจน์ที่ระบุสำหรับอย่างน้อยหนึ่งเรกคอร์ดของรายการที่ระบุ มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ** |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | ฟังก์ชันนี้กำหนดว่า การป้อนข้อมูลที่ระบุที่ตรงกับค่า *Int64* หรือ *Integer* ใดๆ ของสินค้าที่ระบุในรายการที่ระบุหรือไม่ จะส่งกลับค่า *บูลีน* ของ **TRUE** ถ้าอินพุตที่ระบุตรงกับผลลัพธ์ของการเรียกใช้นิพจน์ที่ระบุสำหรับอย่างน้อยหนึ่งเรกคอร์ดของรายการที่ระบุ มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ** |
+
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: ซื้อและขายวันลางาน
-description: คุณสามารถส่งคำขอเพื่อซื้อและขายการลางาน
+description: ใน Dynamics 365 Human Resources คุณสามารถส่งคำขอเพื่อซื้อและขายวันลาตามนโยบายการซื้อและการขายที่ตั้งค่าโดยบริษัทของคุณ
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429692"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711829"
 ---
 # <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน
 
-[!include [banner](includes/preview-feature.md)]
-
-คุณสามารถส่งคำขอเพื่อซื้อการลางาน  
+ใน Dynamics 365 Human Resources คุณสามารถส่งคำขอเพื่อซื้อและขายวันลาตามนโยบายการซื้อและการขายที่ตั้งค่าโดยบริษัทของคุณ  
 
 ## <a name="request-to-buy-leave"></a>คำขอเพื่อซื้อการลางาน
 
@@ -39,9 +37,19 @@ ms.locfileid: "3429692"
 
 3. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ 
 
-เมื่อมีการส่งคำขอแล้วยอดดุลของคุณจะได้รับการอัพเดตโดยอัตโนมัติด้วยจำนวนเงินที่คุณต้องการซื้อ 
+ยอดคงเหลือของคุณจะอัพเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัพเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
+
+## <a name="request-to-sell-leave"></a>คำขอในการขายวันลา
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **คำขอขายวันลา** ในไทล์ **ยอดการลาหยุดคงเหลือ** 
+
+2. เพิ่ม **ชนิดการลางาน** และป้อน **จำนวน** สำหรับจำนวนของวันลาที่คุณต้องการขาย 
+
+3. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ
+
+ยอดคงเหลือของคุณจะอัพเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัพเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)</br>
-[จัดการนโยบายการซื้อและการขายการลางาน](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[จัดการนโยบายซื้อและขายวันลางาน](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
