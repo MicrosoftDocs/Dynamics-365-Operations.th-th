@@ -3,7 +3,7 @@ title: แนวคิดของบริษัทใน Common Data Service
 description: หัวข้อนี้อธิบายการรวมของข้อมูลบริษัทระหว่าง Finance and Operations และ Common Data Service
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172911"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728424"
 ---
 # <a name="company-concept-in-common-data-service"></a>แนวคิดของบริษัทใน Common Data Service
 
@@ -72,3 +72,32 @@ Common Data Service ไม่มีแนวคิดที่เทียบเ
 + สำหรับเรกคอร์ด หลังจากที่มีการเพิ่มและบันทึกบริษัท ค่าจะกลายเป็นแบบอ่านอย่างเดียว ดังนั้น ผู้ใช้ควรตรวจสอบให้แน่ใจว่าได้เลือกบริษัทที่ถูกต้อง
 + เฉพาะเรกคอร์ดที่มีข้อมูลของบริษัทเท่านั้นที่มีสิทธิ์ในการเขียนแบบคู่ระหว่างแอพลิเคชันและ Common Data Service
 + สำหรับข้อมูล Common Data Service ที่มีอยู่ ประสบการณ์ระดมทุนที่นำโดยผู้ดูแลระบบจะพร้อมใช้งานเร็วๆ นี้
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>เติมข้อมูลชื่อบริษัทอัตโนมัติในแอปการมีส่วนร่วมของลูกค้า
+
+การเติมข้อมูลชื่อบริษัทอัตโนมัติในแอปการมีส่วนร่วมของลูกค้ามีหลายวิธี
+
++ ถ้าคุณเป็นผู้ดูแลระบบ คุณสามารถตั้งค่าบริษัทเริ่มต้นด้วยการไปยัง **การตั้งค่าขั้นสูง > ระบบ > ความปลอดภัย > ผู้ใช้** เปิดแบบฟอร์ม **ผู้ใช้** และในส่วน **ข้อมูลองค์กร** ให้กำหนดค่า **บริษัทเป็นค่าเริ่มต้นในแบบฟอร์ม**
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="ตั้งค่าบริษัทเริ่มต้นในส่วนข้อมูลองค์กร":::
+
++ ถ้าคุณมีสิทธิ์ **การเขียน** ในเอนทิตี้ **SystemUser** สำหรับ **ระดับของหน่วยธุรกิจ** คุณสามารถเปลี่ยนบริษัทเริ่มต้นในแบบฟอร์มใดๆ ได้โดยการเลือกบริษัทจากเมนูแบบหล่นลงของ **บริษัท**
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="การเปลี่ยนชื่อบริษัทในบัญชีใหม่":::
+
++ หากคุณมีสิทธิ์ **การเขียน** ข้อมูลในบริษัทมากกว่าหนึ่งบริษัท คุณสามารถเปลี่ยนบริษัทเริ่มต้นได้ด้วยการเลือกเรกคอร์ดที่เป็นของบริษัทอื่น
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="การเลือกเรกคอร์ดจะเปลี่ยนบริษัทเริ่มต้น":::
+
++ หากคุณเป็นผู้ตั้งค่าคอนฟิกระบบหรือผู้ดูแลระบบ และคุณต้องการเติมข้อมูลบริษัทอัตโนมัติในแบบฟอร์มที่กำหนดเอง คุณก็สามารถใช้ [เหตุการณ์แบบฟอร์ม](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) เพิ่มการอ้างอิง JavaScript ไปยัง **msdyn_/DefaultCompany.js** และใช้เหตุการณ์ต่อไปนี้ คุณสามารถใช้แบบฟอร์มสำเร็จรูปใดๆ ก็ได้ ตัวอย่างเช่น แบบฟอร์ม **บัญชี**
+
+    + เหตุการณ์ **OnLoad** สำหรับแบบฟอร์ม: ตั้งค่าฟิลด์ **defaultCompany**
+    + เหตุการณ์ **OnChange** สำหรับฟิลด์ **บริษัท**: ตั้งค่าฟิลด์ **updateDefaultCompany**
+
+## <a name="apply-filtering-based-on-the-company-context"></a>ใช้การกรองตามบริบทของบริษัท
+
+เมื่อต้องการใช้การกรองตามบริบทของบริษัทในแบบฟอร์มที่กำหนดเองของคุณ หรือในฟิลด์การค้นหาแบบกำหนดเองที่เพิ่มเข้าในแบบฟอร์มมาตรฐาน ให้เปิดแบบฟอร์มและใช้ส่วน **การกรองเรกคอร์ดที่เกี่ยวข้อง** เพื่อใช้ตัวกรองบริษัท คุณต้องตั้งค่านี้สำหรับฟิลด์การค้นหาแต่ละฟิลด์ที่จำเป็นต้องมีการกรองตามบริษัทพื้นฐานของเรกคอร์ดที่กำหนด การตั้งค่าดังกล่าวแสดงสำหรับ **บัญชี** ในภาพประกอบต่อไปนี้
+
+:::image type="content" source="media/apply-company-context.png" alt-text="ใช้บริบทของบริษัท":::
+

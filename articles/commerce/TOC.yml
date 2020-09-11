@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange คำแนะนำการใช้งาน
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: ฝังแอป PowerApps
+                - name: ฝัง Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: เลือกโทโพโลยีในร้านค้า
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange และการสื่อสารช่องทางการค้า
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: แนวทางปฏิบัติของ Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange และการสื่อสารช่องทางการค้า
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: การแก้ไขปัญหาของ Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: สถาปัตยกรรม Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: ภาพรวมของการชำระเงินผ่านช่องทาง Omni
                       href: omni-channel-payments.md
+                    - name: การชำระเงินใบสั่ง Commerce ผ่านช่องทาง Omni
+                      href: dev-itpro/commerce-payments.md
                     - name: FAQ เกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
                 - name: จัดการ Bing Maps สำหรับองค์กรของคุณ
@@ -536,7 +546,7 @@
                       href: create-product-hierarchy.md
                     - name: จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์
                       href: category-management-product-creation.md
-                    - name: เปลี่ยนลำดับการจัดเรียงสำหรับเอนทิตี้การขาย
+                    - name: เปลี่ยนลำดับการจัดเรียงสำหรับรายการที่จัดซื้อ
                       href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: มิติของผลิตภัณฑ์
                   items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: แก้ไขและตรวจสอบธุรกรรมของร้านค้าปลีก
               href: edit-audit-retail-transactions.md
-            - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: การสร้างใบสั่งตามฟีดแบบต่อเนื่องสำหรับธุรกรรมร้านค้าปลีก
               href: trickle-feed.md
             - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: การเข้าถึงข้อมูลและการรายงาน
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: ตัวเลือกการกำหนดเป็นแบบส่วนบุคคลด้วย PowerBI.com
+            - name: ตัวเลือกการปรับแต่งให้เป็นส่วนตัวด้วย Power BI
               items:
-                - name: คุณลักษณะที่ใช้งานได้ผ่านการรวม PowerBI.com
+                - name: คุณลักษณะที่ใช้งานได้ผ่านการรวม Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: ปักหมุดเนื้อหาของ PowerBI.com
+                - name: ปักหมุดเนื้อหาของ Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: เลือกพื้นที่ทำงานเชิงวิเคราะห์จาก PowerBI.com
+                - name: เลือกพื้นที่ทำงานเชิงวิเคราะห์จาก Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: เนื้อหาของ Power BI
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: แก้ไขปัญหาหลังการบำรุงรักษาที่จัดเก็บเอนทิตี้
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: ตั้งค่าคอนฟิกการรวม PowerBI.com
+                - name: ตั้งค่าคอนฟิกการรวม Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: ใช้ฐานข้อมูลของคุณเอง
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: การตั้งค่าคอนฟิกแพคเกจและปรับใช้กับสภาพแวดล้อมออนไลน์
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: การอัปเดต SDK และไลบรารีหลัก
+                    - name: การอัปเดต SDK และชุดเริ่มต้นของร้านค้า
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: ปรับใช้ตัวเชื่อมต่อการชำระเงิน
                   href: dev-itpro/deploy-payment-connector.md
+                - name: การรวบรวมส่วนเพิ่มสำหรับการออกใบแจ้งหนี้ของฝ่ายสนับสนุน
+                  href: dev-itpro/incremental-capture.md
                 - name: สร้างข้อความแสดงข้อผิดพลาดที่แปลเป็นภาษาท้องถิ่นแบบกำหนดเองสำหรับส่วนขยายของเทอร์มินัลการชำระเงิน
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: สร้างตัวติดตั้ง Windows สำหรับตัวเชื่อมต่อการชำระเงิน

@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (06 สิงหาคม 2020)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Human Resources
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 6 สิงหาคม 2020
 author: darinkramer
 manager: AnnBe
 ms.date: 8/06/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0903be5ead66e09a3e571b523ad4bc20bf92eeb
-ms.sourcegitcommit: 6cb0fb3f6fcffa872b855cffa11105f8e3ce074b
+ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698589"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711853"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (06 สิงหาคม 2020)
 
@@ -100,7 +100,7 @@ ms.locfileid: "3698589"
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>การลางานคงค้างสำหรับบริษัทเดียวหรือแผนเดียว
 
-ลูกค้าสามารถประมวลผลการรับรู้สำหรับบริษัทเดียวหรือแผนการลางานและการขาดงานเดียว ความสามารถนี้จะให้ความชัดเจนสำหรับกระบวนการรับรู้สำหรับลูกค้าที่มีปีของการลางานหรือนโยบายการรับรู้การลางานที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรับรู้การลางานสำหรับแต่ละบริษัทหรือสำหรับแผนการลางานแต่ละแผน](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan)
+ลูกค้าสามารถประมวลผลการรับรู้สำหรับบริษัทเดียวหรือแผนการลางานและการขาดงานเดียว ความสามารถนี้จะให้ความชัดเจนสำหรับกระบวนการรับรู้สำหรับลูกค้าที่มีปีของการลางานหรือนโยบายการรับรู้การลางานที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรับรู้การลางานสำหรับแต่ละบริษัทหรือสำหรับแผนการลางานแต่ละแผน](hr-leave-and-absence-accrue.md)
 
 ## <a name="add-attachments-to-time-off-requests"></a>เพิ่มเอกสารแนบไปยังคำขอเวลาหยุดพัก
 

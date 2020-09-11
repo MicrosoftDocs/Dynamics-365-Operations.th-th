@@ -3,7 +3,7 @@ title: ฟังก์ชัน VALUEIN ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) VALUEIN
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041710"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705130"
 ---
-# <a name="VALUEIN">ฟังก์ชัน VALUEIN ER</a>
+# <a name=""></a><a name="VALUEIN">ฟังก์ชัน VALUEIN ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ VALUEIN (input, list, list item expression)
 
 ## <a name="usage-notes"></a>บันทึกย่อการใช้งาน
 
-โดยทั่วไป ฟังก์ชัน `VALUEIN` จะถูกแปลเป็นชุดเงื่อนไข **OR**
+โดยทั่วไป ฟังก์ชัน `VALUEIN` จะถูกแปลเป็นชุดเงื่อนไข **OR** หากรายการเงื่อนไข **หรือ** มีขนาดใหญ่และเกินความยาวรวมสูงสุดของคำสั่ง SQL ให้ลองพิจารณาการใช้ฟังก์ชัน [`VALUEINLARGE`](er-functions-logical-valueinlarge.md)
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ VALUEIN (input, list, list item expression)
 
 ขีดจำกัดสูงสุดสำหรับจำนวนของอักขระในข้อความของเงื่อนไขดังกล่าวคือ 32,768 อักขระ ดังนั้น คุณไม่ควรสร้างแหล่งข้อมูลที่อาจมีขนาดเกินขีดจำกัดนี้ขณะใช้งานจริง ถ้าเกินขีดจำกัด แอปพลิเคชันจะหยุดทำงาน และจะแสดงข้อยกเว้น ตัวอย่างเช่น สถานการณ์นี้อาจเกิดขึ้น ถ้ามีการกำหนดค่าแหล่งข้อมูลเป็น `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` และรายการ **List1** and **List2** ประกอบด้วยเรกคอร์ดจำนวนมาก
 
-ในบางกรณี ฟังก์ชัน `VALUEIN` ถูกแปลเป็นคำสั่งฐานข้อมูล โดยใช้ตัวดำเนินการ `EXISTS JOIN` ลักษณะการทำงานนี้เกิดขึ้นเมื่อการใช้ฟังก์ชัน [ตัวกรอง](er-functions-list-filter.md) และเป็นไปตามเงื่อนไขต่อไปนี้:
+ในบางกรณี ฟังก์ชัน `VALUEIN` ถูกแปลเป็นคำสั่งฐานข้อมูล โดยใช้ตัวดำเนินการ `EXISTS JOIN` ลักษณะการทำงานนี้เกิดขึ้นเมื่อการใช้ฟังก์ชัน [`FILTER`](er-functions-list-filter.md) และเป็นไปตามเงื่อนไขต่อไปนี้:
 
 - ตัวเลือก **ขอการสอบถาม** ถูกปิดใช้งานสำหรับแหล่งข้อมูลของฟังก์ชัน `VALUEIN` ที่อ้างอิงถึงรายการของเรกคอร์ด ไม่มีการใช้เงื่อนไขเพิ่มเติมกับแหล่งข้อมูลนี้ในช่วงรันไทม์
 - ไม่มีนิพจน์แบบซ้อนถูกตั้งค่าคอนฟิกสำหรับแหล่งข้อมูลของฟังก์ชัน `VALUEIN` ที่อ้างอิงถึงรายการของเรกคอร์ด
 - สินค้าในรายการของฟังก์ชัน `VALUEIN` อ้างถึงฟิลด์ของแหล่งข้อมูลที่ระบุ ไม่ใช่นิพจน์หรือวิธีการของแหล่งข่อมูลนั้นๆ
 
-พิจารณาการใช้ตัวเลือกนี้แทนฟังก์ชัน [WHERE](er-functions-list-where.md) ที่อธิบายไว้ก่อนหน้านี้ในตัวอย่างนี้
+พิจารณาการใช้ตัวเลือกนี้แทนฟังก์ชัน [`WHERE`](er-functions-list-where.md) ที่อธิบายไว้ก่อนหน้านี้ในตัวอย่างนี้
 
 ## <a name="example-2"></a>ตัวอย่างที่ 2
 
@@ -115,6 +115,8 @@ where IntrastatPort.PortId = Intrastat.Port
 Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ```
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันตรรกะ](er-functions-category-logical.md)
+
+[ฟังก์ชัน VALUEINLARGE](er-functions-logical-valueinlarge.md)

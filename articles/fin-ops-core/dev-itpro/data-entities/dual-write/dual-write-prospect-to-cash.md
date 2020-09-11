@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443906"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719275"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 
@@ -79,7 +79,7 @@ ms.locfileid: "3443906"
 
 ใบสั่งขายสามารถถูกสร้างขึ้นใน Sales หรือ Supply Chain Management อย่างใดอย่างหนึ่ง ถ้าคุณสร้างใบสั่งขายใน Sales จะมีการซิงค์กับ Supply Chain Management ในเวลาจริง ในทำนองเดียวกัน ถ้าคุณสร้างใบสั่งขายใน Supply Chain Management จะมีการซิงค์กับ Sales ในเวลาจริง บันทึกคะแนนต่อไปนี้:
 
-+ คุณสามารถเรียกใช้งานและซิงค์ใบสั่งจาก Sales ได้ เฉพาะเมื่อผลิตภัณฑ์ทั้งหมดในใบสั่งมาจากแอป Finance and Operations เท่านั้น ดังนั้น จึงอาจไม่มีผลิตภัณฑ์ที่เขียนเพิ่ม
++ ผลิตภัณฑ์ที่เขียนเพิ่มใน Dynamics 365 Sales จะปรากฏเป็นประเภทผลิตภัณฑ์ใน Dynamics 365 Supply Chain Management
 + การคำนวณส่วนลดและการปัดเศษ:
 
     - รูปแบบการคำนวณส่วนลดใน Sales แตกต่างจากแบบจำลองการคำนวณส่วนลดใน Supply Chain Management ใน Supply Chain Management ยอดส่วนลดขั้นสุดท้ายในรายการขายอาจเป็นผลของชุดของเปอร์เซ็นต์ส่วนลดและยอดส่วนลด ถ้ายอดเงินส่วนลดขั้นสุดท้ายนี้ถูกหารด้วยปริมาณในรายการ การปัดเศษสามารถเกิดขึ้นได้ อย่างไรก็ตาม การปัดเศษนี้จะไม่ถูกพิจารณา หากยอดส่วนลดต่อหน่วยที่ถูกปัดเศษถูกซิงค์กับ Sales เพื่อช่วยให้แน่ใจว่า ยอดเงินส่วนลดทั้งหมดจากรายการขายใน Supply Chain Management ถูกซิงโครไนส์กับ Sales อย่างถูกต้อง ยอดเงินเต็มจำนวนต้องถูกซิงค์โดยไม่มีการหารด้วยปริมาณสำหรับรายการ ดังนั้น คุณต้องกำหนดวิธีการคำนวณส่วนลดเป็น **สินค้าในรายการ** ใน Sales

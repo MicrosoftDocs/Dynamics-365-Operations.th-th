@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (03 กุมภาพันธ์ 2020)
-description: บทความนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Human Resources
+description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 3 กุมภาพันธ์ 2020
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4abf2b8fee05005757388eb3127ec21de98aa3ad
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 2f8fb038ab45ca180f20fec7d4d72adc027cf860
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076043"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712339"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (3 กุมภาพันธ์ 2020)
 

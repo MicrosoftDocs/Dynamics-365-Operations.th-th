@@ -3,7 +3,7 @@ title: สถานการณ์ที่ได้รับการสนั�
 description: หัวข้อนี้จะอธิบายสถานการณ์ที่ได้รับการสนับสนุนสำหรับการตั้งค่าการรวมแบบสองทิศทาง
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172865"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706263"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>สถานการณ์ที่ได้รับการสนับสนุนสำหรับการตั้งค่าการรวมแบบสองทิศทาง
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172865"
 
 คุณสามารถตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทางระหว่างสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Common Data Service
 
-+ **สภาพแวดล้อม Finance and Operations** ให้แพลตฟอร์มพื้นฐานสำหรับ **แอป Finance and Operations** (ตัวอย่างเช่น Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management Dynamics 365 Retail และ Dynamics 365 Human Resources)
++ **สภาพแวดล้อม Finance and Operations** มีแพลตฟอร์มพื้นฐานสำหรับ **แอป Finance and Operations** (ตัวอย่างเช่น Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management และ Dynamics 365 Retail)
 + **สภาพแวดล้อม Common Data Service** ให้แพลตฟอร์มพื้นฐานสำหรับ **แอปที่เป็นแบบโมเดลใน Dynamics 365** (Dynamics 365 Sales Dynamics 365 Customer Service Dynamics 365 Field Service Dynamics 365 Marketing และ Dynamics 365 Project Service Automation)
+
+>[!IMPORTANT]
+>Human Resources ใน Finance and Operations รองรับการเชื่อมต่อการรวมแบบสองทิศทาง แต่แอป Dynamics 365 Human Resources ไม่รองรับ
 
 กลไกการตั้งค่าจะแตกต่างกันไป โดยขึ้นอยู่กับการบอกรับเป็นสมาชิกและสภาพแวดล้อมของคุณ
 

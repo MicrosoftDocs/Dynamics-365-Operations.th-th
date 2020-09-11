@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3bab048a58da7aa981cb807ccb0757ecb237c1ee
-ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
+ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3666345"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712192"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 
@@ -41,6 +41,7 @@ ms.locfileid: "3666345"
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของฝ่ายทรัพยากรบุคคล ให้ดูที่บทความต่อไปนี้:
 
+[20 สิงหาคม 2020](hr-whats-new-2020-08-20.md)</br>
 [6 สิงหาคม 2020](hr-whats-new-2020-08-06.md)</br>
 [23 กรกฎาคม 2020](hr-whats-new-2020-07-23.md)</br>
 [8 กรกฎาคม 2020](hr-whats-new-2020-07-08.md)</br>
