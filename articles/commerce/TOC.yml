@@ -92,6 +92,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (พฤศจิกายน 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (ตุลาคม 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (สิงหาคม 2020)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: การปรับใช้อย่างกว้างของส่วนประกอบระบบบริการตนเอง
                   href: dev-itpro/retail-mass-deployment.md
-                - name: เหตุการณ์ของส่วนประกอบการขายปลีกสำหรับการวินิจฉัยและการแก้ไขปัญหา
+                - name: เหตุการณ์ของคอมโพเนนต์ Commerce สำหรับการวินิจฉัยและการแก้ไขปัญหา
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: ใช้แพคเกจที่สามารถปรับใช้ได้
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: การชำระเงินใบสั่ง Commerce ผ่านช่องทาง Omni
                       href: dev-itpro/commerce-payments.md
+                    - name: ประมวลผลบัตรเครดิตโดยไม่มีสถานีฮาร์ดแวร์
+                      href: dev-itpro/cnp-pos.md
                     - name: FAQ เกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
                 - name: จัดการ Bing Maps สำหรับองค์กรของคุณ
@@ -700,7 +704,7 @@
           items:
             - name: ใบสั่งของลูกค้า
               items:
-                - name: ใบสั่งของลูกค้าใน MPOS
+                - name: ใบสั่งของลูกค้าในการขายหน้าร้าน (POS)
                   href: customer-orders-overview.md
                 - name: ใบสั่งของลูกค้าแบบไฮบริด
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: ตั้งค่าคอนฟิกผู้เช่า B2C หลายรายในสภาพแวดล้อม Commerce
                   href: configure-multi-B2C-tenants.md
+                - name: โดเมนใน Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: เพิ่มการสนับสนุนสำหรับเครือข่ายการให้บริการเนื้อหา (CDN)
                   href: add-cdn-support.md
                 - name: เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: โมดูลการให้คะแนนและบทวิจารณ์
                       href: ratings-reviews-modules.md
+                    - name: โมดูลการแชร์ในสังคมออนไลน์
+                      href: social-share-module.md
                 - name: โมดูลการซื้อ
                   items:
                     - name: โมดูลรถเข็น
@@ -1026,7 +1034,13 @@
                   items:
                     - name: โมดูลการแสดงเส้นทาง
                       href: add-breadcrumb.md
-            - name: การค้นหา
+                    - name: โมดูลเมนูนำทาง
+                      href: nav-menu-module.md
+                - name: โมดูลการปฏิบัติตามกฎระเบียบ
+                  items:
+                    - name: โมดูลการยินยอมใช้คุกกี้
+                      href: cookie-consent-module.md
+            - name: ค้นหา
               items:
                 - name: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
                   href: category-search-page-overview.md
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
                   items:
-                    - name: เลื่อนการดำเนินการขององค์ประกอบลำดับ
+                    - name: เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: เลื่อนการดำเนินการขององค์ประกอบ XML
+                    - name: เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
               items:
