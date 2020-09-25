@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
-ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
+ms.openlocfilehash: b4f88c0d71b6fa6980ee8e180ae5be482a463f1c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3705130"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744682"
 ---
-# <a name=""></a><a name="VALUEIN">ฟังก์ชัน VALUEIN ER</a>
+# <a name="valuein-er-function"></a>ฟังก์ชัน VALUEIN ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ VALUEIN (input, list, list item expression)
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 
-ในการแม็ปแบบจำลองของคุณ คุณสามารถกำหนดแหล่งข้อมูล **รายการ** ของชนิด *ฟิลด์ที่คำนวณได้* แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `SPLIT ("a,b,c", ",")`
+ในการแม็ปแบบจำลองของคุณ คุณสามารถกำหนดแหล่งข้อมูล **รายการ** ของชนิด *ฟิลด์ที่มีการคำนวณ* แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `SPLIT ("a,b,c", ",")`
 
 เมื่อแหล่งข้อมูลถูกเรียก ถ้ามีการกำหนดค่าเป็นนิพจน์ `VALUEIN ("B", List, List.Value)` จะส่งกลับเป็น **TRUE** ในกรณีนี้ ฟังก์ชัน `VALUEIN` จะถูกแปลเป็นชุดของเงื่อนไขต่อไปนี้: `(("B" = "a") or ("B" = "b") or ("B" = "c"))`, where `("B" = "b")` equals **TRUE**
 
@@ -106,7 +106,7 @@ where IntrastatPort.PortId = Intrastat.Port
 
 คุณกำหนดแหล่งข้อมูลต่อไปนี้ในการแม็ปแบบจำลองของคุณ:
 
-- แหล่งข้อมูล **Le** ของชนิดของ *ฟิลด์ที่คำนวณได้* แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `SPLIT ("DEMF,GBSI,USMF", ",")`
+- แหล่งข้อมูล **Le** ของชนิดของ *ฟิลด์ที่มีการคำนวณ* แหล่งข้อมูลนี้ประกอบด้วยนิพจน์ `SPLIT ("DEMF,GBSI,USMF", ",")`
 - แหล่งข้อมูล **In** ของชนิด *เรกคอร์ดตาราง* แหล่งข้อมูลนี้อ้างถึงตารางอินทราสแทต และตัวเลือก **ระหว่างบริษัท** ถูกเปิดใช้งาน
 
 เมื่อแหล่งข้อมูลถูกเรียกว่าถูกตั้งค่าคอนฟิกเป็นนิพจน์ `FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)` คำสั่ง SQL ขั้นสุดท้ายประกอบด้วยเงื่อนไขต่อไปนี้
