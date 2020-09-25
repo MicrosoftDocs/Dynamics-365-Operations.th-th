@@ -18,69 +18,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
-ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
+ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3740674"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745116"
 ---
-# <a name=""></a><span data-ttu-id="e75a3-103"><a name="LISTJOIN">ฟังก์ชัน LISTJOIN ER</a></span><span class="sxs-lookup"><span data-stu-id="e75a3-103"><a name="LISTJOIN">LISTJOIN ER function</a></span></span>
+# <a name="listjoin-er-function"></a><span data-ttu-id="2edda-103">ฟังก์ชัน LISTJOIN ER</span><span class="sxs-lookup"><span data-stu-id="2edda-103">LISTJOIN ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e75a3-104">ฟังก์ชัน `LISTJOIN` ส่งกลับค่า *รายการเรกคอร์ด* ที่แสดงรายการเข้าร่วมใหม่ของเรกคอร์ดที่สร้างขึ้นจากอาร์กิวเมนต์ที่ระบุของชนิด</span><span class="sxs-lookup"><span data-stu-id="e75a3-104">The `LISTJOIN` function returns a *Record list* value that represents a new joined list of records that is created from the specified arguments.</span></span>
+<span data-ttu-id="2edda-104">ฟังก์ชัน `LISTJOIN` ส่งกลับค่า *รายการเรกคอร์ด* ที่แสดงรายการเข้าร่วมใหม่ของเรกคอร์ดที่สร้างขึ้นจากอาร์กิวเมนต์ที่ระบุของชนิด</span><span class="sxs-lookup"><span data-stu-id="2edda-104">The `LISTJOIN` function returns a *Record list* value that represents a new joined list of records that is created from the specified arguments.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e75a3-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="e75a3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2edda-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="2edda-105">Syntax</span></span>
 
 ```vb
 LIST (list 1 [, list 2, …, list N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e75a3-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="e75a3-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2edda-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="2edda-106">Arguments</span></span>
 
-<span data-ttu-id="e75a3-107">`list 1`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e75a3-107">`list 1`: *Record list*</span></span>
+<span data-ttu-id="2edda-107">`list 1`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="2edda-107">`list 1`: *Record list*</span></span>
 
-<span data-ttu-id="e75a3-108">การอ้างอิงถึงแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e75a3-108">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="e75a3-109">อาร์กิวเมนต์นี้เป็นข้อบังคับ</span><span class="sxs-lookup"><span data-stu-id="e75a3-109">This argument is mandatory.</span></span>
+<span data-ttu-id="2edda-108">การอ้างอิงถึงแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="2edda-108">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="2edda-109">อาร์กิวเมนต์นี้เป็นข้อบังคับ</span><span class="sxs-lookup"><span data-stu-id="2edda-109">This argument is mandatory.</span></span>
 
-<span data-ttu-id="e75a3-110">`list N`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e75a3-110">`list N`: *Record list*</span></span>
+<span data-ttu-id="2edda-110">`list N`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="2edda-110">`list N`: *Record list*</span></span>
 
-<span data-ttu-id="e75a3-111">การอ้างอิงถึงแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e75a3-111">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="e75a3-112">อาร์กิวเมนต์เพิ่มเติมเหล่านี้เป็นตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="e75a3-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="2edda-111">การอ้างอิงถึงแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="2edda-111">A reference to a data source of the *Record list* data type.</span></span> <span data-ttu-id="2edda-112">อาร์กิวเมนต์เพิ่มเติมเหล่านี้เป็นตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="2edda-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e75a3-113">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="e75a3-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2edda-113">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="2edda-113">Return values</span></span>
 
-<span data-ttu-id="e75a3-114">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e75a3-114">*Record list*</span></span>
+<span data-ttu-id="2edda-114">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="2edda-114">*Record list*</span></span>
 
-<span data-ttu-id="e75a3-115">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="e75a3-115">The resulting list of records.</span></span>
+<span data-ttu-id="2edda-115">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="2edda-115">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e75a3-116">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="e75a3-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="2edda-116">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="2edda-116">Usage notes</span></span>
 
-<span data-ttu-id="e75a3-117">โครงสร้างของรายการที่สร้างขึ้นมีเฉพาะฟิลด์ที่แสดงในโครงสร้างของรายการเรกคอร์ดทั้งหมดที่มีการอ้างถึงในอาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="e75a3-117">The structure of the list that is created contains only the fields that are present in the structure of every record list that is referenced in the arguments.</span></span>
+<span data-ttu-id="2edda-117">โครงสร้างของรายการที่สร้างขึ้นมีเฉพาะฟิลด์ที่แสดงในโครงสร้างของรายการเรกคอร์ดทั้งหมดที่มีการอ้างถึงในอาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="2edda-117">The structure of the list that is created contains only the fields that are present in the structure of every record list that is referenced in the arguments.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e75a3-118">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="e75a3-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2edda-118">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="2edda-118">Example</span></span>
 
-<span data-ttu-id="e75a3-119">คุณป้อนแหล่งข้อมูล **เรกคอร์ด 1** ของชนิดของ `Container`</span><span class="sxs-lookup"><span data-stu-id="e75a3-119">You enter data source **Record 1** of the `Container` type.</span></span> <span data-ttu-id="e75a3-120">แหล่งข้อมูลนี้ประกอบด้วยฟิลด์ที่ซ้อนกันของชนิดฟิลด์ `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="e75a3-120">This data source contains the following nested fields of the `Calculated field` type:</span></span>
+<span data-ttu-id="2edda-119">คุณป้อนแหล่งข้อมูล **เรกคอร์ด 1** ของชนิดของ `Container`</span><span class="sxs-lookup"><span data-stu-id="2edda-119">You enter data source **Record 1** of the `Container` type.</span></span> <span data-ttu-id="2edda-120">แหล่งข้อมูลนี้ประกอบด้วยฟิลด์ที่ซ้อนกันของชนิดฟิลด์ `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="2edda-120">This data source contains the following nested fields of the `Calculated field` type:</span></span>
 
-- <span data-ttu-id="e75a3-121">**Code**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `String`</span><span class="sxs-lookup"><span data-stu-id="e75a3-121">**Code**: This field contains an expression that returns a value of the `String` type.</span></span>
-- <span data-ttu-id="e75a3-122">**Amount**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Real`</span><span class="sxs-lookup"><span data-stu-id="e75a3-122">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
+- <span data-ttu-id="2edda-121">**Code**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `String`</span><span class="sxs-lookup"><span data-stu-id="2edda-121">**Code**: This field contains an expression that returns a value of the `String` type.</span></span>
+- <span data-ttu-id="2edda-122">**Amount**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Real`</span><span class="sxs-lookup"><span data-stu-id="2edda-122">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
 
-<span data-ttu-id="e75a3-123">จากนั้นคุณป้อนแหล่งข้อมูล **เรกคอร์ด 2** ของชนิดของ `Container`</span><span class="sxs-lookup"><span data-stu-id="e75a3-123">You then enter data source **Record 2** of the `Container` type.</span></span> <span data-ttu-id="e75a3-124">แหล่งข้อมูลนี้ประกอบด้วยฟิลด์ที่ซ้อนกันของชนิดฟิลด์ `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="e75a3-124">This data source contains the following nested fields of the `Calculated field` type:</span></span>
+<span data-ttu-id="2edda-123">จากนั้นคุณป้อนแหล่งข้อมูล **เรกคอร์ด 2** ของชนิดของ `Container`</span><span class="sxs-lookup"><span data-stu-id="2edda-123">You then enter data source **Record 2** of the `Container` type.</span></span> <span data-ttu-id="2edda-124">แหล่งข้อมูลนี้ประกอบด้วยฟิลด์ที่ซ้อนกันของชนิดฟิลด์ `Calculated field`:</span><span class="sxs-lookup"><span data-stu-id="2edda-124">This data source contains the following nested fields of the `Calculated field` type:</span></span>
 
-- <span data-ttu-id="e75a3-125">**Amount**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Real`</span><span class="sxs-lookup"><span data-stu-id="e75a3-125">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
-- <span data-ttu-id="e75a3-126">**IsValid**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Boolean`</span><span class="sxs-lookup"><span data-stu-id="e75a3-126">**IsValid**: This field contains an expression that returns a value of the `Boolean` type.</span></span>
+- <span data-ttu-id="2edda-125">**Amount**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Real`</span><span class="sxs-lookup"><span data-stu-id="2edda-125">**Amount**: This field contains an expression that returns a value of the `Real` type.</span></span>
+- <span data-ttu-id="2edda-126">**IsValid**: ฟิลด์นี้ประกอบด้วยนิพจน์ที่ส่งกลับค่าของชนิด `Boolean`</span><span class="sxs-lookup"><span data-stu-id="2edda-126">**IsValid**: This field contains an expression that returns a value of the `Boolean` type.</span></span>
 
 ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image1.gif)
 
-<span data-ttu-id="e75a3-128">ในกรณีนี้นิพจน์ `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` ส่งกลับรายการใหม่ที่ประกอบด้วยสองเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="e75a3-128">In this case, the expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` returns a new list that contains two records.</span></span>
+<span data-ttu-id="2edda-128">ในกรณีนี้นิพจน์ `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` ส่งกลับรายการใหม่ที่ประกอบด้วยสองเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="2edda-128">In this case, the expression `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` returns a new list that contains two records.</span></span>
 
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image2.gif)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER ที่มีสองเรกคอร์ด](./media/er-functions-list-listjoin-image2.gif)
 
-<span data-ttu-id="e75a3-130">โครงสร้างของรายการนี้ประกอบด้วยฟิลด์ **ยอดเงิน** เดียวของชนิด `Real` เนื่องจากฟิลด์นี้เป็นฟิลด์เดียวที่จะแสดงในทุกอาร์กิวเมนต์ของฟังก์ชันที่เรียก</span><span class="sxs-lookup"><span data-stu-id="e75a3-130">The structure of this list consists of a single **Amount** field of the `Real` type, because this field is the only field that is presented in every argument of the called function.</span></span>
+<span data-ttu-id="2edda-130">โครงสร้างของรายการนี้ประกอบด้วยฟิลด์ **ยอดเงิน** เดียวของชนิด `Real` เนื่องจากฟิลด์นี้เป็นฟิลด์เดียวที่จะแสดงในทุกอาร์กิวเมนต์ของฟังก์ชันที่เรียก</span><span class="sxs-lookup"><span data-stu-id="2edda-130">The structure of this list consists of a single **Amount** field of the `Real` type, because this field is the only field that is presented in every argument of the called function.</span></span>
 
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image3.gif)
+![ฟิลด์จำนวนเงินของหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-functions-list-listjoin-image3.gif)
 
-## <a name="additional-resources"></a><span data-ttu-id="e75a3-132">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e75a3-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2edda-132">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="2edda-132">Additional resources</span></span>
 
-[<span data-ttu-id="e75a3-133">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="e75a3-133">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="2edda-133">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="2edda-133">List functions</span></span>](er-functions-category-list.md)
 
-[<span data-ttu-id="e75a3-134">ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล</span><span class="sxs-lookup"><span data-stu-id="e75a3-134">Debug data sources of an executed ER format to analyze data flow and transformation</span></span>](er-debug-data-sources.md)
+[<span data-ttu-id="2edda-134">ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล</span><span class="sxs-lookup"><span data-stu-id="2edda-134">Debug data sources of an executed ER format to analyze data flow and transformation</span></span>](er-debug-data-sources.md)
