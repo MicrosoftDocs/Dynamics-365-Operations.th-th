@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eeb66f4206eb39141a5b2573fcb9d15428ae52a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 13346c4810d6c93d4ef47ce525831332562c7f51
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042676"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743410"
 ---
-# <span data-ttu-id="be295-103"><a name="NUMBERVALUE">ฟังก์ชัน NUMBERVALUE ER</a></span><span class="sxs-lookup"><span data-stu-id="be295-103"><a name="NUMBERVALUE">NUMBERVALUE ER function</a></span></span>
+# <a name="numbervalue-er-function"></a><span data-ttu-id="4b694-103">ฟังก์ชัน NUMBERVALUE ER</span><span class="sxs-lookup"><span data-stu-id="4b694-103">NUMBERVALUE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="be295-104">ฟังก์ชัน `NUMBERVALUE` ส่งกลับค่า *จำนวนจริง* ที่ถูกแปลงจากค่า *สตริง* ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="be295-104">The `NUMBERVALUE` function returns a *Real* value that is converted from the specified *String* value.</span></span> <span data-ttu-id="be295-105">ในระหว่างการแปลงจะมีการพิจารณาตัวแบ่งการจัดกลุ่มทศนิยมและเลขฐานที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="be295-105">During the conversion, the specified decimal and digit grouping separators are considered.</span></span>
+<span data-ttu-id="4b694-104">ฟังก์ชัน `NUMBERVALUE` ส่งกลับค่า *จำนวนจริง* ที่ถูกแปลงจากค่า *สตริง* ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="4b694-104">The `NUMBERVALUE` function returns a *Real* value that is converted from the specified *String* value.</span></span> <span data-ttu-id="4b694-105">ในระหว่างการแปลงจะมีการพิจารณาตัวแบ่งการจัดกลุ่มทศนิยมและเลขฐานที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="4b694-105">During the conversion, the specified decimal and digit grouping separators are considered.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="be295-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="be295-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4b694-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="4b694-106">Syntax</span></span>
 
 ```vb
 NUMBERVALUE (text, decimal separator, digit grouping separator)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="be295-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="be295-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4b694-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="4b694-107">Arguments</span></span>
 
-<span data-ttu-id="be295-108">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="be295-108">`text`: *String*</span></span>
+<span data-ttu-id="4b694-108">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="4b694-108">`text`: *String*</span></span>
 
-<span data-ttu-id="be295-109">ค่าข้อความต้องถูกแปลงเป็นหมายเลย *จำนวนจริง*</span><span class="sxs-lookup"><span data-stu-id="be295-109">A text value that must be converted to a *Real* number.</span></span>
+<span data-ttu-id="4b694-109">ค่าข้อความต้องถูกแปลงเป็นหมายเลย *จำนวนจริง*</span><span class="sxs-lookup"><span data-stu-id="4b694-109">A text value that must be converted to a *Real* number.</span></span>
 
-<span data-ttu-id="be295-110">`decimal separator`: สตริง</span><span class="sxs-lookup"><span data-stu-id="be295-110">`decimal separator`: String</span></span>
+<span data-ttu-id="4b694-110">`decimal separator`: สตริง</span><span class="sxs-lookup"><span data-stu-id="4b694-110">`decimal separator`: String</span></span>
 
-<span data-ttu-id="be295-111">ตัวแบ่งทศนิยม</span><span class="sxs-lookup"><span data-stu-id="be295-111">A decimal separator.</span></span> <span data-ttu-id="be295-112">ใช้ในการแยกจำนวนเต็มและเศษส่วนของตัวเลขทศนิยม</span><span class="sxs-lookup"><span data-stu-id="be295-112">It's used to separate the integer and fractional parts of a decimal number.</span></span>
+<span data-ttu-id="4b694-111">ตัวแบ่งทศนิยม</span><span class="sxs-lookup"><span data-stu-id="4b694-111">A decimal separator.</span></span> <span data-ttu-id="4b694-112">ใช้ในการแยกจำนวนเต็มและเศษส่วนของตัวเลขทศนิยม</span><span class="sxs-lookup"><span data-stu-id="4b694-112">It's used to separate the integer and fractional parts of a decimal number.</span></span>
 
-<span data-ttu-id="be295-113">`digit grouping separator`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="be295-113">`digit grouping separator`: *String*</span></span>
+<span data-ttu-id="4b694-113">`digit grouping separator`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="4b694-113">`digit grouping separator`: *String*</span></span>
 
-<span data-ttu-id="be295-114">ตัวแบ่งการจัดกลุ่มตัวเลข</span><span class="sxs-lookup"><span data-stu-id="be295-114">A digit grouping separator.</span></span> <span data-ttu-id="be295-115">ใช้เป็นตัวแบ่งหลักพัน</span><span class="sxs-lookup"><span data-stu-id="be295-115">It's used as the thousands separator.</span></span>
+<span data-ttu-id="4b694-114">ตัวแบ่งการจัดกลุ่มตัวเลข</span><span class="sxs-lookup"><span data-stu-id="4b694-114">A digit grouping separator.</span></span> <span data-ttu-id="4b694-115">ใช้เป็นตัวแบ่งหลักพัน</span><span class="sxs-lookup"><span data-stu-id="4b694-115">It's used as the thousands separator.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="be295-116">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="be295-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4b694-116">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="4b694-116">Return values</span></span>
 
-<span data-ttu-id="be295-117">*จำนวนจริง*</span><span class="sxs-lookup"><span data-stu-id="be295-117">*Real*</span></span>
+<span data-ttu-id="4b694-117">*จำนวนจริง*</span><span class="sxs-lookup"><span data-stu-id="4b694-117">*Real*</span></span>
 
-<span data-ttu-id="be295-118">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="be295-118">The resulting numeric value.</span></span>
+<span data-ttu-id="4b694-118">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="4b694-118">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="be295-119">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="be295-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4b694-119">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="4b694-119">Example</span></span>
 
-<span data-ttu-id="be295-120">`NUMBERVALUE( "1 234,56", ",", " ")` ส่งกลับค่า **1234.56**</span><span class="sxs-lookup"><span data-stu-id="be295-120">`NUMBERVALUE( "1 234,56", ",", " ")` returns **1234.56**.</span></span>
+<span data-ttu-id="4b694-120">`NUMBERVALUE( "1 234,56", ",", " ")` ส่งกลับค่า **1234.56**</span><span class="sxs-lookup"><span data-stu-id="4b694-120">`NUMBERVALUE( "1 234,56", ",", " ")` returns **1234.56**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="be295-121">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="be295-121">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4b694-121">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="4b694-121">Additional resources</span></span>
 
-[<span data-ttu-id="be295-122">ฟังก์ชันการแปลงของชนิด</span><span class="sxs-lookup"><span data-stu-id="be295-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
+[<span data-ttu-id="4b694-122">ฟังก์ชันการแปลงของชนิด</span><span class="sxs-lookup"><span data-stu-id="4b694-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)

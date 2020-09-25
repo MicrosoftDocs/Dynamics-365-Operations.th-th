@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c858ad72db7afe63baca8288f312548c4fc37d5c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 21962952bb3bdd016831dc5e196af27c69ecc6db
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041411"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744082"
 ---
-# <span data-ttu-id="0bc90-103"><a name="ISVALIDCHARACTERISO7064">ฟังก์ชัน ISVALIDCHARACTERISO7064 ER</a></span><span class="sxs-lookup"><span data-stu-id="0bc90-103"><a name="ISVALIDCHARACTERISO7064">ISVALIDCHARACTERISO7064 ER function</a></span></span>
+# <a name="isvalidcharacteriso7064-er-function"></a><span data-ttu-id="5866b-103">ฟังก์ชัน ISVALIDCHARACTERISO7064 ER</span><span class="sxs-lookup"><span data-stu-id="5866b-103">ISVALIDCHARACTERISO7064 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0bc90-104">ฟังก์ชัน `ISVALIDCHARACTERISO7064` ส่งกลับค่า *บูลีน* เป็น **จริง** หากสตริงที่ระบุแสดงหมายเลขบัญชีธนาคารระหว่างประเทศที่ถูกต้อง (IBAN)</span><span class="sxs-lookup"><span data-stu-id="0bc90-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="0bc90-105">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="0bc90-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="5866b-104">ฟังก์ชัน `ISVALIDCHARACTERISO7064` ส่งกลับค่า *บูลีน* เป็น **จริง** หากสตริงที่ระบุแสดงหมายเลขบัญชีธนาคารระหว่างประเทศที่ถูกต้อง (IBAN)</span><span class="sxs-lookup"><span data-stu-id="5866b-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="5866b-105">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="5866b-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0bc90-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="0bc90-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5866b-106">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="5866b-106">Syntax</span></span>
 
 ```vb
 ISVALIDCHARACTERISO7064 (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="0bc90-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="0bc90-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5866b-107">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="5866b-107">Arguments</span></span>
 
-<span data-ttu-id="0bc90-108">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="0bc90-108">`text`: *String*</span></span>
+<span data-ttu-id="5866b-108">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="5866b-108">`text`: *String*</span></span>
 
-<span data-ttu-id="0bc90-109">ค่าข้อความที่แสดงถึง IBAN</span><span class="sxs-lookup"><span data-stu-id="0bc90-109">A text value that represents an IBAN.</span></span>
+<span data-ttu-id="5866b-109">ค่าข้อความที่แสดงถึง IBAN</span><span class="sxs-lookup"><span data-stu-id="5866b-109">A text value that represents an IBAN.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0bc90-110">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="0bc90-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5866b-110">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="5866b-110">Return values</span></span>
 
-<span data-ttu-id="0bc90-111">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="0bc90-111">*String*</span></span>
+<span data-ttu-id="5866b-111">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="5866b-111">*String*</span></span>
 
-<span data-ttu-id="0bc90-112">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="0bc90-112">The resulting text value.</span></span>
+<span data-ttu-id="5866b-112">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="5866b-112">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0bc90-113">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="0bc90-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5866b-113">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="5866b-113">Example</span></span>
 
-<span data-ttu-id="0bc90-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` ส่งกลับค่า **จริง**</span><span class="sxs-lookup"><span data-stu-id="0bc90-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
+<span data-ttu-id="5866b-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` ส่งกลับค่า **จริง**</span><span class="sxs-lookup"><span data-stu-id="5866b-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
 
-<span data-ttu-id="0bc90-115">`ISVALIDCHARACTERISO7064 ("AT61")` ส่งกลับค่า **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="0bc90-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
+<span data-ttu-id="5866b-115">`ISVALIDCHARACTERISO7064 ("AT61")` ส่งกลับค่า **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="5866b-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0bc90-116">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="0bc90-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5866b-116">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5866b-116">Additional resources</span></span>
 
-[<span data-ttu-id="0bc90-117">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="0bc90-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="5866b-117">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="5866b-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
