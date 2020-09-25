@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6c8c72a631d361d7dffb8d18e00636e51e7998d3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201950"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759651"
 ---
 # <a name="compare-item-prices-storage-report"></a>รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 
@@ -78,7 +78,7 @@ ms.locfileid: "3201950"
 
 1. หลังจากที่มุมมองที่เลือกเปิดขึ้น คุณสามารถดำเนินการต่อไปนี้:
 
-    - เลือกส่วนหัวของคอลัมน์ใดๆ เกือบทั้งหมดเพื่อเรียงลำดับหรือกรองข้อมูลตารางตามค่าในคอลัมน์นั้น เช่นเดียวกับฟอร์มมาตรฐานส่วนใหญ่ใน Supply Chain Management โปรดทราบว่า คุณไม่สามารถเรียงลำดับหรือกรองข้อมูลคอลัมน์ **ราคาเปลี่ยนแปลงสุทธิ %** ได้ เนื่องจากฟิลด์นี้เป็นฟิลด์ที่คำนวณได้
+    - เลือกส่วนหัวของคอลัมน์ใดๆ เกือบทั้งหมดเพื่อเรียงลำดับหรือกรองข้อมูลตารางตามค่าในคอลัมน์นั้น เช่นเดียวกับฟอร์มมาตรฐานส่วนใหญ่ใน Supply Chain Management โปรดทราบว่า คุณไม่สามารถเรียงลำดับหรือกรองข้อมูลคอลัมน์ **ราคาเปลี่ยนแปลงสุทธิ %** ได้ เนื่องจากฟิลด์นี้เป็นฟิลด์ที่มีการคำนวณ
     - เลือก **การแสดงมิติ** เพื่อเปิดบานหน้าต่างที่ซึ่งคุณสามารถเลือกคอลัมน์มิติที่จะรวมไว้ในฟอร์ม ตั้งค่า **บันทึกการตั้งค่า** เป็น **ใช่** ถ้าคุณต้องการบันทึกการตั้งค่าเหล่านี้ ดังนั้นจะมีการเก็บรักษาไว้ในครั้งต่อไปที่คุณเปิดรายงาน เลือก **ตกลง** เพื่อใช้การตั้งค่าของคุณและปิด
     - เลือกแถวใดก็ได้ในฟอร์ม แล้วเลือก **ดูรายละเอียด** เพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับสินค้าที่เลือก คุณจะสามารถดูรายละเอียดแนวลึกของข้อมูลจากที่นี่ได้
     - เลือกแถวใดก็ได้ในแบบฟอร์ม แล้วเลือก **ดูแผนภูมิเปรียบเทียบ** เพื่อดูการแสดงผลกราฟิกแบบโต้ตอบของผลลัพธ์ของคุณตามที่เกี่ยวข้องกับสินค้าที่คุณเลือก คุณสามารถสำรวจผลลัพธ์เหล่านี้ได้ด้วยการเลือกองค์ประกอบแบบกราฟิกต่างๆ ในแผนภูมิและสัญลักษณ์ของแผนภูมิ

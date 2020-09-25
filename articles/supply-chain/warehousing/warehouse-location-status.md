@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597517"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775185"
 ---
 # <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 
@@ -76,6 +76,9 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
     ตัวเลือกเหล่านี้จะควบคุมว่าฟิลด์การอ้างอิงในสถานที่ใช้งานอยู่หรือไม่
 
 1. ทำซ้ำขั้นตอนที่ 3 ถึง 4 สำหรับโพรไฟล์ **PICK-06**
+
+> [!NOTE]
+> เมื่อพารามิเตอร์บนโพรไฟล์สถานที่ (**เปิดใช้งานสินค้าในสถานที่**, **เปิดใช้งานกิจกรรมของสถานที่**, **เปิดใช้งานสถานะของสถานที่**) ตั้งค่าเป็น *ใช่* ระบบจะอัปเดตสถานที่ที่เกี่ยวข้องทันทีโดยใช้งาน *การตรวจสอบความสอดคล้องกันของสถานะสถานที่ตั้งคลังสินค้า*
 
 ### <a name="scenario"></a>สถานการณ์
 

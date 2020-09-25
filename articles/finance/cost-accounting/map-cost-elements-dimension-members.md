@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMDimension, CAMDimensionMember
+ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: deb9b5aab9cd69270c78d4e1ea0e2a6cac6ac370
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 835a542ad5f7606f76805e54fda9f49ecc79205f
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180159"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759291"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
 
@@ -48,8 +48,8 @@ ms.locfileid: "2180159"
 ## <a name="currency-conversion"></a>การแปลงสกุลเงิน
 ผังบัญชีต่างๆ ที่คุณใช้อาจถูกตั้งค่าให้ใช้สกุลเงินที่แตกต่างกัน ในกรณีนี้ ตรวจสอบให้แน่ใจว่าได้ระบุการแปลงสกุลเงิน เพื่อให้ข้อมูลต้นทุนมีการประมวลผลโดยใช้สกุลเงินที่ถูกต้อง ตามที่กำหนดไว้ในบัญชีแยกประเภทการบัญชีต้นทุนที่มีการใช้สมาชิกมิติองค์ประกอบต้นทุน ในตัวอย่างก่อนหน้านี้ ถ้ามีการใช้ดอลลาร์สหรัฐฯ (USD) ในบัญชีแยกประเภทการบัญชีต้นทุน คุณต้องสร้างการแปลงสกุลเงินจาก USD เป็นยูโร (EUR) เพื่อประมวลผลธุรกรรมสำหรับสมาชิกมิติองค์ประกอบต้นทุนที่มีการแม็ป
 
-## <a name="update-mappings-at-any-time"></a>อัพเดตการแม็ปได้ตลอดเวลา
-คุณสามารถอัพเดตคำนิยามการแม็ปสำหรับมิติองค์ประกอบต้นทุนได้ตลอดเวลา เนื่องจากการแม็ปไม่มีวันที่มีผลบังคับ การเปลี่ยนแปลงจะถูกนำมาใช้ในครั้งถัดไปที่คุณประมวลผลธุรกรรมต้นทุน หรือรันการคำนวณต้นทุน
+## <a name="update-mappings-at-any-time"></a>อัปเดตการแม็ปได้ตลอดเวลา
+คุณสามารถอัปเดตคำนิยามการแม็ปสำหรับมิติองค์ประกอบต้นทุนได้ตลอดเวลา เนื่องจากการแม็ปไม่มีวันที่มีผลบังคับ การเปลี่ยนแปลงจะถูกนำมาใช้ในครั้งถัดไปที่คุณประมวลผลธุรกรรมต้นทุน หรือรันการคำนวณต้นทุน
 
 
 

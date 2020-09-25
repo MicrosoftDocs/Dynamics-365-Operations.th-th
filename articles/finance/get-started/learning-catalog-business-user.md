@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b40952c8bfbeb62cb0fe6d609c2ec152ecfd120b
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646507"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793476"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>แค็ตตาล็อกการเรียนรู้ของผู้ใช้ Dynamics 365 Finance
 
@@ -50,7 +53,7 @@ ms.locfileid: "3646507"
 | [การทำงานบัญชีลูกหนี้ใน Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/work-accounts-receivable-dyn365-finance/)  | ตั้งค่าคอนฟิกโมดูลบัญชีลูกหนี้ใน Dynamics 365 Finance เพื่อสร้างใบแจ้งหนี้ของลูกค้า ลงรายการบัญชีบันทึกการจัดส่ง และใช้ใบแจ้งหนี้ข้อความอิสระที่ไม่เกี่ยวข้องกับใบสั่งขาย ในพาธการเรียนรู้นี้ คุณจะได้เรียนรู้วิธีการดำเนินงานประจำวันในบัญชีลูกหนี้      | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 7 ชั่วโมง   |
 | [ตั้งค่าคอนฟิกและใช้การจัดทำงบประมาณใน Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | ทุกองค์กรไม่ว่าจะเป็นส่วนตัวหรือสาธารณะให้ตั้งค่าเป้าหมายทางการเงินและการดำเนินงานโดยการสร้างงบประมาณ ด้วยลักษณะของการวางแผนงบประมาณที่ทำงานร่วมกันและคุณสามารถทำกระบวนการงบประมาณได้อย่างมีประสิทธิภาพ | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 3.5 ชั่วโมง |
 | [ตั้งค่าคอนฟิกและจัดการสินทรัพย์ถาวรใน Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | คุณสามารถตั้งค่าและป้อนข้อมูลการซื้อสินทรัพย์ถาวร แล้วจัดการสินทรัพย์ของคุณโดยการหักค่าเสื่อมราคา และกำหนดขีดจำกัดการจัดหาเงินทุน วิธีการจัดการสินทรัพย์ถาวรยังต้องสอดคล้องกับมาตรฐานการลงบัญชีระหว่างประเทศ และกฎหมายการลงบัญชีในแต่ละประเทศหรือภูมิภาค | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 4.5 ชั่วโมง |
-| [เริ่มต้นการบัญชีต้นทุนสำหรับห่วงโซ่อุปทานใน Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | การบัญชีต้นทุนช่วยให้คุณสามารถรวบรวมข้อมูลจากแหล่งที่มาหลายแหล่ง เช่น บัญชีแยกประเภททั่วไป บัญชีแยกประเภทย่อย งบประมาณ และข้อมูลทางสถิติ คุณสามารถวิเคราะห์ สรุป และประเมินข้อมูลต้นทุน เพื่อให้ฝ่ายบริหารสามารถทำการตัดสินใจที่ดีที่สุดได้สำหรับการอัพเดตราคา งบประมาณ การควบคุมต้นทุน และอื่นๆ  | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 1 ชั่วโมง  |
+| [เริ่มต้นการบัญชีต้นทุนสำหรับห่วงโซ่อุปทานใน Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | การบัญชีต้นทุนช่วยให้คุณสามารถรวบรวมข้อมูลจากแหล่งที่มาหลายแหล่ง เช่น บัญชีแยกประเภททั่วไป บัญชีแยกประเภทย่อย งบประมาณ และข้อมูลทางสถิติ คุณสามารถวิเคราะห์ สรุป และประเมินข้อมูลต้นทุน เพื่อให้ฝ่ายบริหารสามารถทำการตัดสินใจที่ดีที่สุดได้สำหรับการอัปเดตราคา งบประมาณ การควบคุมต้นทุน และอื่นๆ  | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 1 ชั่วโมง  |
 
 ## <a name="exam"></a>การสอบ<a name="exam"></a>
 

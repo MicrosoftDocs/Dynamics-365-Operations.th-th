@@ -5,18 +5,21 @@ author: margoc
 ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
+ms.prod: ''
+ms.service: Dynamics365Operations
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 03a610b228ead302451788215f163ec171ae71df
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: a3c9ae7f9347aedc9dfba669a788b93f339e9fe8
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646320"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793040"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>แค็ตตาล็อกการเรียนรู้สำหรับ Dynamics 365 Supply Chain Management
 
@@ -93,7 +96,7 @@ ms.locfileid: "3646320"
 
     [การพัฒนาหลัก](learning-catalog-administrator.md#core-development)
 
-    [การย้ายและการอัพเกรด](learning-catalog-administrator.md#migration-and-upgrade)
+    [การย้ายและการอัปเกรด](learning-catalog-administrator.md#migration-and-upgrade)
 
     [การบริการ](learning-catalog-administrator.md#servicing)
 
@@ -118,7 +121,7 @@ ms.locfileid: "3646320"
 
     [การบริการ](learning-catalog-developer.md#servicing)
 
-    [การย้ายและการอัพเกรด](learning-catalog-developer.md#migration-and-upgrade)
+    [การย้ายและการอัปเกรด](learning-catalog-developer.md#migration-and-upgrade)
 
     [กำลังทดสอบ](learning-catalog-developer.md#testing)
 
@@ -174,7 +177,7 @@ ms.locfileid: "3646320"
 
     [แนวคิดการพัฒนาหลัก](learning-catalog-solution-architect.md#core-development-concepts)
 
-    [การย้ายและการอัพเกรด](learning-catalog-solution-architect.md#migration-and-upgrade)
+    [การย้ายและการอัปเกรด](learning-catalog-solution-architect.md#migration-and-upgrade)
 
     [การบริการ](learning-catalog-solution-architect.md#servicing)
 

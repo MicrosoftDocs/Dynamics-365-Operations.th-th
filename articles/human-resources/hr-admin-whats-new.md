@@ -1,9 +1,9 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
-description: แต่ละสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources บทความที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละสัปดาห์
+description: แต่ละสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources หัวข้อที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละสัปดาห์
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712192"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760312"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 
-ทุกๆ สองสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources บทความในส่วนนี้จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละการนำออกใช้
+ทุกๆ สองสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources หัวข้อที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในการเผยแพร่แต่ละครั้ง
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะที่กำลังจะมาถึง หรือกระบวนการปรับปรุงสำหรับทรัพยากรบุคคล โปรดดูที่บทความต่อไปนี้
+>[!NOTE]
+>เมื่อต้องการลงบัญชีสำหรับวันหยุด กำหนดการเผยแพร่สำหรับเดือนพฤศจิกายนและธันวาคม 2020 มีดังต่อไปนี้
+>
+>- การเผยแพร่เดือนพฤศจิกายน: 2 พฤศจิกายน - 13 พฤศจิกายน
+>- การเผยแพร่เดือนธันวาคม: 30 พฤศจิกายน - 11 ธันวาคม
+> 
+>ลำดับการเผยแพร่แบบสองสัปดาห์จะดำเนินการต่อไปตามปกติในวันที่ 11 มกราคม 2021
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะที่กำลังจะมาถึง หรือกระบวนการปรับปรุงสำหรับทรัพยากรบุคคล โปรดดูที่บทความต่อไปนี้ 
 
 - [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -39,8 +47,9 @@ ms.locfileid: "3712192"
 
 ## <a name="human-resources-weekly-releases"></a>การนำออกใช้รายสัปดาห์ของฝ่ายทรัพยากรบุคคล
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของฝ่ายทรัพยากรบุคคล ให้ดูที่บทความต่อไปนี้:
+เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของ Human Resources ให้ดูที่บทความต่อไปนี้:
 
+[3 กันยายน 2020](hr-whats-new-2020-09-03.md)</br>
 [20 สิงหาคม 2020](hr-whats-new-2020-08-20.md)</br>
 [6 สิงหาคม 2020](hr-whats-new-2020-08-06.md)</br>
 [23 กรกฎาคม 2020](hr-whats-new-2020-07-23.md)</br>

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d51b59c437bd216c6d229546136bb604239fa92
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c288050fa1f9f1be9c38696e844e782794795471
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042009"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745092"
 ---
-# <a name="LISTOFFIELDS">ฟังก์ชัน LISTOFFIELDS ER</a>
+# <a name="listoffields-er-function"></a>ฟังก์ชัน LISTOFFIELDS ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -89,7 +89,7 @@ LISTOFFIELDS (path, language)
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 
-ในแผนภาพต่อไปนี้ การแจงนับถูกนำมาใช้ในแบบจำลองข้อมูล ER
+ในแผนภาพต่อไปนี้ การแจงนับถูกนำมาใช้ในรูปแบบข้อมูล ER
 
 <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
 
@@ -114,7 +114,7 @@ LISTOFFIELDS (path, language)
 
 ## <a name="example-2"></a>ตัวอย่างที่ 2
 
-คุณใช้ชนิดแหล่งข้อมูล *ฟิลด์ที่คำนวณได้* เพื่อตั้งค่าคอนฟิกแหล่งข้อมูล **enumType\_de** และ **enumType\_deCH** สำหรับการแจงนับแบบจำลองข้อมูล **enumType**
+คุณใช้ชนิดแหล่งข้อมูล *ฟิลด์ที่มีการคำนวณ* เพื่อตั้งค่าคอนฟิกแหล่งข้อมูล **enumType\_de** และ **enumType\_deCH** สำหรับการแจงนับรูปแบบข้อมูล **enumType**
 
 - **enumType\_เดอ** = `LISTOFFIELDS (enumType, "de")`
 - **enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`
