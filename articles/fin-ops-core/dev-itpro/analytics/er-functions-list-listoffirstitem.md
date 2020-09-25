@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd48732280c9af0b89129a32b42285207f97fb7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 069ec0c6d5578ca6ab68814adf325bd79e73b9e8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041986"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745068"
 ---
-# <span data-ttu-id="72f7e-103"><a name="LISTOFFIRSTITEM">ฟังก์ชัน ER LISTOFFIRSTITEM</a></span><span class="sxs-lookup"><span data-stu-id="72f7e-103"><a name="LISTOFFIRSTITEM">LISTOFFIRSTITEM ER function</a></span></span>
+# <a name="listoffirstitem-er-function"></a><span data-ttu-id="e2355-103">ฟังก์ชัน ER LISTOFFIRSTITEM</span><span class="sxs-lookup"><span data-stu-id="e2355-103">LISTOFFIRSTITEM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="72f7e-104">ฟังก์ชัน `LISTOFFIRSTITEM` ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยเฉพาะเรกคอร์ดแรกของรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="72f7e-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
+<span data-ttu-id="e2355-104">ฟังก์ชัน `LISTOFFIRSTITEM` ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยเฉพาะเรกคอร์ดแรกของรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="e2355-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="72f7e-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="72f7e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2355-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="e2355-105">Syntax</span></span>
 
 ```vb
 LISTOFFIRSTITEM (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="72f7e-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="72f7e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="e2355-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="e2355-106">Arguments</span></span>
 
-<span data-ttu-id="72f7e-107">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="72f7e-107">`list`: *Record list*</span></span>
+<span data-ttu-id="e2355-107">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e2355-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="72f7e-108">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="72f7e-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="e2355-108">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e2355-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="72f7e-109">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="72f7e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e2355-109">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="e2355-109">Return values</span></span>
 
-<span data-ttu-id="72f7e-110">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="72f7e-110">*Record list*</span></span>
+<span data-ttu-id="e2355-110">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="e2355-110">*Record list*</span></span>
 
-<span data-ttu-id="72f7e-111">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="72f7e-111">The resulting list of records.</span></span>
+<span data-ttu-id="e2355-111">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="e2355-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="72f7e-112">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="72f7e-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e2355-112">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="e2355-112">Example</span></span>
 
-<span data-ttu-id="72f7e-113">นิพจน์ `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` ส่งกลับค่าข้อความ **"A"**</span><span class="sxs-lookup"><span data-stu-id="72f7e-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="e2355-113">นิพจน์ `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` ส่งกลับค่าข้อความ **"A"**</span><span class="sxs-lookup"><span data-stu-id="e2355-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="72f7e-114">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="72f7e-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e2355-114">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e2355-114">Additional resources</span></span>
 
-[<span data-ttu-id="72f7e-115">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="72f7e-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="e2355-115">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="e2355-115">List functions</span></span>](er-functions-category-list.md)

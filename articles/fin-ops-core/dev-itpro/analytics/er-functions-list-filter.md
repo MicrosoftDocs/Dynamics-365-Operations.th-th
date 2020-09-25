@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adeefd08531f59e478efbb45ab294b3bc8216f4c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: d281fe710381b0ecb075a0d9281d46bd6edf987d
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042170"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745308"
 ---
-# <span data-ttu-id="eb96b-103"><a name="FILTER">ฟังก์ชัน FILTER ER</a></span><span class="sxs-lookup"><span data-stu-id="eb96b-103"><a name="FILTER">FILTER ER function</a></span></span>
+# <a name="filter-er-function"></a><span data-ttu-id="0b74b-103">ฟังก์ชัน FILTER ER</span><span class="sxs-lookup"><span data-stu-id="0b74b-103">FILTER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eb96b-104">ฟังก์ชัน `FILTER` ส่งกลับรายการที่ระบุเป็นค่า *รายการเรกคอร์ด* หลังจากที่การสอบถามถูกเปลี่ยนเพื่อให้กรองตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="eb96b-104">The `FILTER` function returns the specified list as a *Record list* value after the query has been changed so that it filters for the specified condition.</span></span>
+<span data-ttu-id="0b74b-104">ฟังก์ชัน `FILTER` ส่งกลับรายการที่ระบุเป็นค่า *รายการเรกคอร์ด* หลังจากที่การสอบถามถูกเปลี่ยนเพื่อให้กรองตามเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="0b74b-104">The `FILTER` function returns the specified list as a *Record list* value after the query has been changed so that it filters for the specified condition.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eb96b-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="eb96b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0b74b-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="0b74b-105">Syntax</span></span>
 
 ```vb
 FILTER (list, condition)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="eb96b-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="eb96b-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0b74b-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="0b74b-106">Arguments</span></span>
 
-<span data-ttu-id="eb96b-107">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="eb96b-107">`list`: *Record list*</span></span>
+<span data-ttu-id="0b74b-107">`list`: *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="0b74b-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="eb96b-108">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="eb96b-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="0b74b-108">พาธที่ถูกต้องของรายการแหล่งข้อมูลของชนิดข้อมูล *รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="0b74b-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="eb96b-109">`condition`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="eb96b-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="0b74b-109">`condition`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="0b74b-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="eb96b-110">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ใช้ในการกรองเรกคอร์ดของรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="eb96b-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
+<span data-ttu-id="0b74b-110">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ใช้ในการกรองเรกคอร์ดของรายการที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="0b74b-110">A valid conditional expression that is used to filter records of the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="eb96b-111">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="eb96b-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0b74b-111">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="0b74b-111">Return values</span></span>
 
-<span data-ttu-id="eb96b-112">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="eb96b-112">*Record list*</span></span>
+<span data-ttu-id="0b74b-112">*รายการเรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="0b74b-112">*Record list*</span></span>
 
-<span data-ttu-id="eb96b-113">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="eb96b-113">The resulting list of records.</span></span>
+<span data-ttu-id="0b74b-113">รายการผลลัพธ์ของเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="0b74b-113">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="eb96b-114">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="eb96b-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="0b74b-114">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="0b74b-114">Usage notes</span></span>
 
-<span data-ttu-id="eb96b-115">ฟังก์ชันนี้แตกต่างจากฟังก์ชัน [WHERE](er-functions-list-where.md) เนื่องจากเงื่อนไขที่ระบุจะถูกนำไปใช้กับการรายงานทางอิเล็กทรอนิกส์ (ER) ใดๆ แหล่งข้อมูลของชนิด *เรกคอร์ดตาราง* ที่ระดับฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="eb96b-115">This function differs from the [WHERE](er-functions-list-where.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Table records* type at the database level.</span></span> <span data-ttu-id="eb96b-116">สามารถกำหนดรายการและเงื่อนไขได้โดยใช้ตารางและความสัมพันธ์</span><span class="sxs-lookup"><span data-stu-id="eb96b-116">The list and condition can be defined by using tables and relations.</span></span>
+<span data-ttu-id="0b74b-115">ฟังก์ชันนี้แตกต่างจากฟังก์ชัน [WHERE](er-functions-list-where.md) เนื่องจากเงื่อนไขที่ระบุจะถูกนำไปใช้กับการรายงานทางอิเล็กทรอนิกส์ (ER) ใดๆ แหล่งข้อมูลของชนิด *เรกคอร์ดตาราง* ที่ระดับฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="0b74b-115">This function differs from the [WHERE](er-functions-list-where.md) function, because the specified condition is applied to any Electronic reporting (ER) data source of the *Table records* type at the database level.</span></span> <span data-ttu-id="0b74b-116">สามารถกำหนดรายการและเงื่อนไขได้โดยใช้ตารางและความสัมพันธ์</span><span class="sxs-lookup"><span data-stu-id="0b74b-116">The list and condition can be defined by using tables and relations.</span></span>
 
-<span data-ttu-id="eb96b-117">ถ้าอาร์กิวเมนต์หนึ่งหรือทั้งคู่ที่ถูกกำหนดค่าสำหรับฟังก์ชันนี้ (`list` และ `condition`) อนุญาตให้มีการแปลการร้องขอนี้ไปยังการเรียก SQL โดยตรง จะมีข้อยกเว้นเกิดขึ้นในเวลาออกแบบ</span><span class="sxs-lookup"><span data-stu-id="eb96b-117">If one or both arguments that are configured for this function (`list` and `condition`) don't allow this request to be translated to the direct SQL call, an exception is thrown at design time.</span></span> <span data-ttu-id="eb96b-118">ข้อยกเว้นนี้จะแจ้งให้ผู้ใช้ทั้ง `list` หรือ `condition` ทราบว่าหรือไม่สามารถใช้เพื่อสอบถามฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="eb96b-118">This exception informs the user that either `list` or `condition` can't be used to query the database.</span></span>
+<span data-ttu-id="0b74b-117">ถ้าอาร์กิวเมนต์หนึ่งหรือทั้งคู่ที่ถูกกำหนดค่าสำหรับฟังก์ชันนี้ (`list` และ `condition`) อนุญาตให้มีการแปลการร้องขอนี้ไปยังการเรียก SQL โดยตรง จะมีข้อยกเว้นเกิดขึ้นในเวลาออกแบบ</span><span class="sxs-lookup"><span data-stu-id="0b74b-117">If one or both arguments that are configured for this function (`list` and `condition`) don't allow this request to be translated to the direct SQL call, an exception is thrown at design time.</span></span> <span data-ttu-id="0b74b-118">ข้อยกเว้นนี้จะแจ้งให้ผู้ใช้ทั้ง `list` หรือ `condition` ทราบว่าหรือไม่สามารถใช้เพื่อสอบถามฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="0b74b-118">This exception informs the user that either `list` or `condition` can't be used to query the database.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="eb96b-119">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="eb96b-119">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="0b74b-119">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="0b74b-119">Example 1</span></span>
 
-<span data-ttu-id="eb96b-120">ถ้า **ผู้จัดจำหน่าย** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่อ้างอิงถึงตาราง VendTable นิพจน์ `FILTER (Vendors, Vendors.VendGroup = "40")` จะส่งกลับรายการของเพียงแค่ผู้จัดจำหน่ายที่เป็นของกลุ่มผู้จัดจำหน่าย 40</span><span class="sxs-lookup"><span data-stu-id="eb96b-120">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `FILTER (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
+<span data-ttu-id="0b74b-120">ถ้า **ผู้จัดจำหน่าย** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่อ้างอิงถึงตาราง VendTable นิพจน์ `FILTER (Vendors, Vendors.VendGroup = "40")` จะส่งกลับรายการของเพียงแค่ผู้จัดจำหน่ายที่เป็นของกลุ่มผู้จัดจำหน่าย 40</span><span class="sxs-lookup"><span data-stu-id="0b74b-120">If **Vendor** is configured as an ER data source that refers to the VendTable table, the expression `FILTER (Vendors, Vendors.VendGroup = "40")` returns a list of only vendors that belong to vendor group 40.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="eb96b-121">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="eb96b-121">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="0b74b-121">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="0b74b-121">Example 2</span></span>
 
-<span data-ttu-id="eb96b-122">ถ้า **ผู้จัดจำหน่าย** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่อ้างอิงถึงตาราง VendTable และถ้า **parmVendorBankGroup** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่ส่งกลับค่าเป็นชนิดข้อมูล *สตริง* นิพจน์ `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` จะส่งกลับรายการของบัญชีผู้จัดจำหน่ายที่เป็นของกลุ่มธนาคารหนึ่งๆ เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="eb96b-122">If **Vendor** is configured as an ER data source that refers to the VendTable table, and if **parmVendorBankGroup** is configured as an ER data source that returns a value of the *String* data type, the expression `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` returns a list of only vendor accounts that belong to a specific bank group.</span></span>
+<span data-ttu-id="0b74b-122">ถ้า **ผู้จัดจำหน่าย** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่อ้างอิงถึงตาราง VendTable และถ้า **parmVendorBankGroup** ถูกตั้งค่าคอนฟิกเป็นแหล่งข้อมูล ER ที่ส่งกลับค่าเป็นชนิดข้อมูล *สตริง* นิพจน์ `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` จะส่งกลับรายการของบัญชีผู้จัดจำหน่ายที่เป็นของกลุ่มธนาคารหนึ่งๆ เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="0b74b-122">If **Vendor** is configured as an ER data source that refers to the VendTable table, and if **parmVendorBankGroup** is configured as an ER data source that returns a value of the *String* data type, the expression `FILTER ( Vendor.'<Relations'.VendBankAccount, Vendor.'<Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)` returns a list of only vendor accounts that belong to a specific bank group.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="eb96b-123">ตัวอย่างที่ 3</span><span class="sxs-lookup"><span data-stu-id="eb96b-123">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="0b74b-123">ตัวอย่างที่ 3</span><span class="sxs-lookup"><span data-stu-id="0b74b-123">Example 3</span></span>
 
-<span data-ttu-id="eb96b-124">คุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่มีการคำนวณ* และประกอบด้วยนิพจน์ `SPLIT ("A,B,C", ",")`</span><span class="sxs-lookup"><span data-stu-id="eb96b-124">You enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A,B,C", ",")`.</span></span> <span data-ttu-id="eb96b-125">จากนั้นคุณป้อนนิพจน์อื่น `FILTER( DS, DS.Value = "B")`</span><span class="sxs-lookup"><span data-stu-id="eb96b-125">You then enter another expression, `FILTER( DS, DS.Value = "B")`.</span></span> <span data-ttu-id="eb96b-126">เมื่อคุณพยายามที่จะบันทึกนิพจน์นี้ในโปรแกรมออกแบบสูตร ER ข้อยกเว้นต่อไปนี้จะเกิดขึ้น: "ข้อผิดพลาดการตรวจสอบ: นิพจน์รายการของฟังก์ชันตัวกรองไม่สามารถเป็นแบบสอบถามได้"</span><span class="sxs-lookup"><span data-stu-id="eb96b-126">When you try to save this expression in the ER formula designer, the following exception is thrown: "Validation error: The list expression of FILTER function is not queryable."</span></span>
+<span data-ttu-id="0b74b-124">คุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่มีการคำนวณ* และประกอบด้วยนิพจน์ `SPLIT ("A,B,C", ",")`</span><span class="sxs-lookup"><span data-stu-id="0b74b-124">You enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A,B,C", ",")`.</span></span> <span data-ttu-id="0b74b-125">จากนั้นคุณป้อนนิพจน์อื่น `FILTER( DS, DS.Value = "B")`</span><span class="sxs-lookup"><span data-stu-id="0b74b-125">You then enter another expression, `FILTER( DS, DS.Value = "B")`.</span></span> <span data-ttu-id="0b74b-126">เมื่อคุณพยายามที่จะบันทึกนิพจน์นี้ในโปรแกรมออกแบบสูตร ER ข้อยกเว้นต่อไปนี้จะเกิดขึ้น: "ข้อผิดพลาดการตรวจสอบ: นิพจน์รายการของฟังก์ชันตัวกรองไม่สามารถเป็นแบบสอบถามได้"</span><span class="sxs-lookup"><span data-stu-id="0b74b-126">When you try to save this expression in the ER formula designer, the following exception is thrown: "Validation error: The list expression of FILTER function is not queryable."</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="eb96b-127">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="eb96b-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0b74b-127">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="0b74b-127">Additional resources</span></span>
 
-[<span data-ttu-id="eb96b-128">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="eb96b-128">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="0b74b-128">ฟังก์ชันรายการ</span><span class="sxs-lookup"><span data-stu-id="0b74b-128">List functions</span></span>](er-functions-category-list.md)

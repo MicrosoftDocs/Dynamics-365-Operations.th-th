@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f299a4bb697afce152a61ec35fcefab7157f356
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e8be55d9a90e841d64288b0c618c0012912ddbab
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042538"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745644"
 ---
-# <span data-ttu-id="8b792-103"><a name="FORMATELEMENTNAME">ฟังก์ชัน ER FORMATELEMENTNAME</a></span><span class="sxs-lookup"><span data-stu-id="8b792-103"><a name="FORMATELEMENTNAME">FORMATELEMENTNAME ER function</a></span></span>
+# <a name="formatelementname-er-function"></a><span data-ttu-id="83909-103">ฟังก์ชัน ER FORMATELEMENTNAME</span><span class="sxs-lookup"><span data-stu-id="83909-103">FORMATELEMENTNAME ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8b792-104">`FORMATELEMENTNAME` ฟังก์ชันส่งกลับค่า *สตริง* ที่แสดงถึงชื่อขององค์ประกอบรูปแบบการรายงานอิเล็กทรอนิกส์ปัจจุบัน (ER)</span><span class="sxs-lookup"><span data-stu-id="8b792-104">The `FORMATELEMENTNAME` function returns a *String* value that represents the name of the current Electronic reporting (ER) format's element.</span></span>
+<span data-ttu-id="83909-104">`FORMATELEMENTNAME` ฟังก์ชันส่งกลับค่า *สตริง* ที่แสดงถึงชื่อขององค์ประกอบรูปแบบการรายงานอิเล็กทรอนิกส์ปัจจุบัน (ER)</span><span class="sxs-lookup"><span data-stu-id="83909-104">The `FORMATELEMENTNAME` function returns a *String* value that represents the name of the current Electronic reporting (ER) format's element.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8b792-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="8b792-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="83909-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="83909-105">Syntax</span></span>
 
 ```vb
 FORMATELEMENTNAME ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="8b792-106">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="8b792-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="83909-106">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="83909-106">Return values</span></span>
 
-<span data-ttu-id="8b792-107">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="8b792-107">*String*</span></span>
+<span data-ttu-id="83909-107">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="83909-107">*String*</span></span>
 
-<span data-ttu-id="8b792-108">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="8b792-108">The resulting text value.</span></span>
+<span data-ttu-id="83909-108">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="83909-108">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="8b792-109">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="8b792-109">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="83909-109">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="83909-109">Usage notes</span></span>
 
-<span data-ttu-id="8b792-110">ฟังก์ชันนี้สามารถถูกเรียกในนิพจน์ ER ที่ถูกกำหนดค่าสำหรับ**ชื่อคีย์ข้อมูลที่เก็บรวบรวม** และคุณสมบัติ **ค่าคีย์ข้อมูลที่รวบรวมไว้** ของส่วนประกอบรูปแบบ ER จากกลุ่ม **ข้อความ** ที่อยู่ภายใต้ส่วนประกอบ **ทั่วไป\\ไฟล์** ซึ่งมีเปิดตัวเลือก **รายละเอียดของผลลัพธ์การรวบรวม**</span><span class="sxs-lookup"><span data-stu-id="8b792-110">This function can be called in ER expressions that were configured for the **Collected data key name** and **Collected data key value** properties of an ER format component from the **Text** group that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="83909-110">ฟังก์ชันนี้สามารถถูกเรียกในนิพจน์ ER ที่ถูกกำหนดค่าสำหรับ**ชื่อคีย์ข้อมูลที่เก็บรวบรวม** และคุณสมบัติ **ค่าคีย์ข้อมูลที่รวบรวมไว้** ของส่วนประกอบรูปแบบ ER จากกลุ่ม **ข้อความ** ที่อยู่ภายใต้ส่วนประกอบ **ทั่วไป\\ไฟล์** ซึ่งมีเปิดตัวเลือก **รายละเอียดของผลลัพธ์การรวบรวม**</span><span class="sxs-lookup"><span data-stu-id="83909-110">This function can be called in ER expressions that were configured for the **Collected data key name** and **Collected data key value** properties of an ER format component from the **Text** group that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8b792-111">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="8b792-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="83909-111">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="83909-111">Example</span></span>
 
-<span data-ttu-id="8b792-112">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้ฟังก์ชันนี้ ดูคู่มืองาน [ER ใช้ข้อมูลของผลลัพธ์รูปแบบสำหรับการตรวจนับและการรวม](tasks/er-format-counting-summing-1.md) ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **ซื้อ/พัฒนาบริการด้าน IT/ ส่วนประกอบโซลูชั่น**</span><span class="sxs-lookup"><span data-stu-id="8b792-112">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="83909-112">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้ฟังก์ชันนี้ ดูคู่มืองาน [ER ใช้ข้อมูลของผลลัพธ์รูปแบบสำหรับการตรวจนับและการรวม](tasks/er-format-counting-summing-1.md) ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **ซื้อ/พัฒนาบริการด้าน IT/ ส่วนประกอบโซลูชั่น**</span><span class="sxs-lookup"><span data-stu-id="83909-112">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8b792-113">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8b792-113">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="83909-113">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="83909-113">Additional resources</span></span>
 
-[<span data-ttu-id="8b792-114">ฟังก์ชันการรวบรวมข้อมูล</span><span class="sxs-lookup"><span data-stu-id="8b792-114">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="83909-114">ฟังก์ชันการรวบรวมข้อมูล</span><span class="sxs-lookup"><span data-stu-id="83909-114">Data collection functions</span></span>](er-functions-category-data-collection.md)

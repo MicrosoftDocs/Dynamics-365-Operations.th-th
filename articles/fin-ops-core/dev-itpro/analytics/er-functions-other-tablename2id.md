@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 951de1d1505508ebb6abeff5b80ecef10573e117
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: d9f9e38f46df8a93b5cb16b8d0d5e5afbff8558a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041286"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744010"
 ---
-# <span data-ttu-id="e7173-103"><a name="TABLENAME2ID">ฟังก์ชัน TABLENAME2ID ER</a></span><span class="sxs-lookup"><span data-stu-id="e7173-103"><a name="TABLENAME2ID">TABLENAME2ID ER function</a></span></span>
+# <a name="tablename2id-er-function"></a><span data-ttu-id="98557-103">ฟังก์ชัน TABLENAME2ID ER</span><span class="sxs-lookup"><span data-stu-id="98557-103">TABLENAME2ID ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e7173-104">ฟังก์ชัน `TABLENAME2ID` ส่งกลับการแสดงตัวเลขของรหัสตารางสำหรับชื่อตารางที่ระบุเป็นค่า *จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="e7173-104">The `TABLENAME2ID` function returns a numeric representation of the table ID for the specified table name as an *Integer* value.</span></span>
+<span data-ttu-id="98557-104">ฟังก์ชัน `TABLENAME2ID` ส่งกลับการแสดงตัวเลขของรหัสตารางสำหรับชื่อตารางที่ระบุเป็นค่า *จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="98557-104">The `TABLENAME2ID` function returns a numeric representation of the table ID for the specified table name as an *Integer* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e7173-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="e7173-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="98557-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="98557-105">Syntax</span></span>
 
 ```vb
 TABLENAME2ID (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e7173-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="e7173-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="98557-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="98557-106">Arguments</span></span>
 
-<span data-ttu-id="e7173-107">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="e7173-107">`text`: *String*</span></span>
+<span data-ttu-id="98557-107">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="98557-107">`text`: *String*</span></span>
 
-<span data-ttu-id="e7173-108">ค่าข้อความที่แสดงชื่อตารางที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="e7173-108">A text value that represents a valid table name.</span></span>
+<span data-ttu-id="98557-108">ค่าข้อความที่แสดงชื่อตารางที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="98557-108">A text value that represents a valid table name.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e7173-109">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="e7173-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="98557-109">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="98557-109">Return values</span></span>
 
-<span data-ttu-id="e7173-110">*จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="e7173-110">*Integer*</span></span>
+<span data-ttu-id="98557-110">*จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="98557-110">*Integer*</span></span>
 
-<span data-ttu-id="e7173-111">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="e7173-111">The resulting numeric value.</span></span>
+<span data-ttu-id="98557-111">ค่าตัวเลขที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="98557-111">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e7173-112">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="e7173-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="98557-112">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="98557-112">Usage notes</span></span>
 
-<span data-ttu-id="e7173-113">การดำเนินการของฟังก์ชันนี้สามารถมีผลลัพธ์ที่แตกต่างกันในอินสแตนซ์ต่างๆ ของ Microsoft Dynamics 365 Finance แม้ว่าจะมีการใช้ชื่อบริษัทเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="e7173-113">Execution of this function can have different results in different instances of Microsoft Dynamics 365 Finance, even if the same company name is used.</span></span>
+<span data-ttu-id="98557-113">การดำเนินการของฟังก์ชันนี้สามารถมีผลลัพธ์ที่แตกต่างกันในอินสแตนซ์ต่างๆ ของ Microsoft Dynamics 365 Finance แม้ว่าจะมีการใช้ชื่อบริษัทเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="98557-113">Execution of this function can have different results in different instances of Microsoft Dynamics 365 Finance, even if the same company name is used.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e7173-114">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="e7173-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="98557-114">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="98557-114">Example</span></span>
 
-<span data-ttu-id="e7173-115">`TABLENAME2ID ("Intrastat")` ส่งกลับค่า **1510**</span><span class="sxs-lookup"><span data-stu-id="e7173-115">`TABLENAME2ID ("Intrastat")` returns **1510**.</span></span>
+<span data-ttu-id="98557-115">`TABLENAME2ID ("Intrastat")` ส่งกลับค่า **1510**</span><span class="sxs-lookup"><span data-stu-id="98557-115">`TABLENAME2ID ("Intrastat")` returns **1510**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e7173-116">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e7173-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="98557-116">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="98557-116">Additional resources</span></span>
 
-[<span data-ttu-id="e7173-117">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="e7173-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="98557-117">ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)</span><span class="sxs-lookup"><span data-stu-id="98557-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

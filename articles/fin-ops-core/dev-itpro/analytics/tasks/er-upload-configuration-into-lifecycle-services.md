@@ -1,9 +1,9 @@
 ---
-title: ER อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
-description: 'ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) และอัพโหลดลงใน Microsoft Lifecycle Services (LCS) '
+title: อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
+description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) และอัปโหลดลงใน Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143303"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810702"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="62e4f-103">ER อัพโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="62e4f-103">ER Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="1f421-103">อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="1f421-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="62e4f-104">ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) และอัพโหลดลงใน Microsoft Lifecycle Services (LCS) </span><span class="sxs-lookup"><span data-stu-id="62e4f-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration and upload it into Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="1f421-104">หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้าง [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) ใหม่และอัปโหลดลงใน [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="1f421-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="62e4f-105">ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกและอัพโหลดไปยัง LCS สำหรับบริษัทตัวอย่างซึ่งคือ Litware, inc ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันระหว่างบริษัท </span><span class="sxs-lookup"><span data-stu-id="62e4f-105">In this example, you will create a configuration and upload it to LCS for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="62e4f-106">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่" ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="62e4f-106">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span> <span data-ttu-id="62e4f-107">การเข้าถึง LCS ยังต้องการสำหรับการเสร็จสมบูรณ์ของขั้นตอนเหล่านี้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="62e4f-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="1f421-105">ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกและอัปโหลดไปยัง LCS สำหรับบริษัทตัวอย่างที่ชื่อ Litware, inc ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันระหว่างบริษัท</span><span class="sxs-lookup"><span data-stu-id="1f421-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="1f421-106">เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ให้เสร็จสมบูรณ์ [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่](er-configuration-provider-mark-it-active-2016-11.md)</span><span class="sxs-lookup"><span data-stu-id="1f421-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="1f421-107">ต้องมีสิทธิ์เข้าถึง LCS ด้วยเช่นกัน</span><span class="sxs-lookup"><span data-stu-id="1f421-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="62e4f-108">ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="62e4f-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="62e4f-109">เลือก 'Litware, Inc.'</span><span class="sxs-lookup"><span data-stu-id="62e4f-109">Select 'Litware, Inc.'</span></span> <span data-ttu-id="62e4f-110">และกำหนดเป็นใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="62e4f-110">and set it as active.</span></span>
-3. <span data-ttu-id="62e4f-111">คลิกการตั้งค่าคอนฟลิก</span><span class="sxs-lookup"><span data-stu-id="62e4f-111">Click Configurations.</span></span>
+1. <span data-ttu-id="1f421-108">ลงชื่อเข้าใช้ในแอพลิเคชันโดยใช้หนึ่งในบทบาทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1f421-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="62e4f-112">สร้างแบบจำลองการจัดโครงแบบข้อมูลใหม่</span><span class="sxs-lookup"><span data-stu-id="62e4f-112">Create a new data model configuration</span></span>
-1. <span data-ttu-id="62e4f-113">คลิก สร้างการตั้งค่าคอนฟิก เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="62e4f-113">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="62e4f-114">คุณจะสร้างการตั้งค่าคอนฟิกที่ประกอบด้วย แบบจำลองข้อมูลตัวอย่างสำหรับเอกสารทางอิเล็กทรอนิกส์ </span><span class="sxs-lookup"><span data-stu-id="62e4f-114">You will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="62e4f-115">การตั้งค่าคอนฟิกแบบจำลองข้อมูลนี้จะถูกอัพโหลดลงใน LCS ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="62e4f-115">This data model configuration will be uploaded into LCS later.</span></span>  
-2. <span data-ttu-id="62e4f-116">ในฟิลด์ชื่อ พิมพ์ 'การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="62e4f-116">In the Name field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="62e4f-117">การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="62e4f-117">Sample model configuration</span></span>  
-3. <span data-ttu-id="62e4f-118">ในฟิลด์คำอธิบาย พิมพ์ 'การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="62e4f-118">In the Description field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="62e4f-119">การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="62e4f-119">Sample model configuration</span></span>  
-4. <span data-ttu-id="62e4f-120">คลิก สร้างการตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="62e4f-120">Click Create configuration.</span></span>
-5. <span data-ttu-id="62e4f-121">คลิก ตัวออกแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="62e4f-121">Click Model designer.</span></span>
-6. <span data-ttu-id="62e4f-122">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="62e4f-122">Click New.</span></span>
-7. <span data-ttu-id="62e4f-123">ในฟิลด์ชื่อ ให้พิมพ์ 'จุดเข้าใช้งาน'</span><span class="sxs-lookup"><span data-stu-id="62e4f-123">In the Name field, type 'Entry point'.</span></span>
-    * <span data-ttu-id="62e4f-124">จุดเข้าใช้งาน</span><span class="sxs-lookup"><span data-stu-id="62e4f-124">Entry point</span></span>  
-8. <span data-ttu-id="62e4f-125">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="62e4f-125">Click Add.</span></span>
-9. <span data-ttu-id="62e4f-126">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="62e4f-126">Click Save.</span></span>
-10. <span data-ttu-id="62e4f-127">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="62e4f-127">Close the page.</span></span>
-11. <span data-ttu-id="62e4f-128">คลิก เปลี่ยนแปลงสถานะ</span><span class="sxs-lookup"><span data-stu-id="62e4f-128">Click Change status.</span></span>
-12. <span data-ttu-id="62e4f-129">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="62e4f-129">Click Complete.</span></span>
-13. <span data-ttu-id="62e4f-130">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="62e4f-130">Click OK.</span></span>
+    - <span data-ttu-id="1f421-109">นักพัฒนาการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="1f421-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="1f421-110">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="1f421-110">System administrator</span></span>
 
-## <a name="register-a-new--repository"></a><span data-ttu-id="62e4f-131">ลงทะเบียนที่จัดเก็บใหม่</span><span class="sxs-lookup"><span data-stu-id="62e4f-131">Register a new  repository</span></span>
-1. <span data-ttu-id="62e4f-132">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="62e4f-132">Close the page.</span></span>
-2. <span data-ttu-id="62e4f-133">คลิก ที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="62e4f-133">Click Repositories.</span></span>
-    * <span data-ttu-id="62e4f-134">การดำเนินการนี้ทำให้คุณสามารถเปิดรายการในรายการของที่เก็บ สำหรับผู้ให้บริการการตั้งค่าคอนฟิก Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="62e4f-134">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-3. <span data-ttu-id="62e4f-135">คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="62e4f-135">Click Add to open the drop dialog.</span></span>
-    * <span data-ttu-id="62e4f-136">การดำเนินการนี้อนุญาตให้คุณเพิ่มที่เก็บใหม่ได้</span><span class="sxs-lookup"><span data-stu-id="62e4f-136">This allows you to add a new repository.</span></span>  
-4. <span data-ttu-id="62e4f-137">ในฟิลด์ชนิดที่เก็บของการตั้งค่าคอนฟิก เลือก LCS</span><span class="sxs-lookup"><span data-stu-id="62e4f-137">In the Configuration repository type field, select LCS.</span></span>
-5. <span data-ttu-id="62e4f-138">คลิกสร้างที่จัดเก็บ</span><span class="sxs-lookup"><span data-stu-id="62e4f-138">Click Create repository.</span></span>
-6. <span data-ttu-id="62e4f-139">ในฟิลด์โครงการ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="62e4f-139">In the Project field, enter or select a value.</span></span>
-    * <span data-ttu-id="62e4f-140">เลือกโครงการ LCS ที่ต้องการ </span><span class="sxs-lookup"><span data-stu-id="62e4f-140">Select the desired LCS project.</span></span> <span data-ttu-id="62e4f-141">คุณต้องมีการเข้าถึงโครงการ</span><span class="sxs-lookup"><span data-stu-id="62e4f-141">You must have access to the project.</span></span>  
-7. <span data-ttu-id="62e4f-142">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="62e4f-142">Click OK.</span></span>
-    * <span data-ttu-id="62e4f-143">ดำเนินการรายการที่เก็บใหม่ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="62e4f-143">Complete a new repository entry.</span></span>  
-8. <span data-ttu-id="62e4f-144">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62e4f-144">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="62e4f-145">เลือกเรกคอร์ดที่เก็บ LCS</span><span class="sxs-lookup"><span data-stu-id="62e4f-145">Select the LCS repository record.</span></span>  
-    * <span data-ttu-id="62e4f-146">หมายเหตุว่า ที่เก็บที่ลงทะเบียนแล้วถูกทำเครื่องหมายโดยผู้ให้บริการปัจจุบัน ซึ่งหมายถึงว่า เฉพาะการตั้งค่าคอนฟิกที่เป็นเจ้าของโดยผู้ให้บริการสามารถถูกวางในที่เก็บนี้ได้ และถูกอัพโหลดลงในโครงการ LCS ที่เลือกได้ ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="62e4f-146">Note that a registered repository is marked by the current provider meaning that the only configurations owned by that provider can be placed to this repository and, consequently, uploaded into the selected LCS project.</span></span>  
-9. <span data-ttu-id="62e4f-147">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="62e4f-147">Click Open.</span></span>
-    * <span data-ttu-id="62e4f-148">เปิดที่เก็บเพื่อดูรายการของการตั้งค่าคอนฟิก ER </span><span class="sxs-lookup"><span data-stu-id="62e4f-148">Open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="62e4f-149">ซึ่งจะว่างเปล่าถ้าโครงการนี้ยังไม่ได้ถูกใช้สำหรับการใช้การตั้งค่าคอนฟิก ER ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="62e4f-149">It will be empty if this project has not yet been used for ER configurations sharing.</span></span>  
-10. <span data-ttu-id="62e4f-150">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="62e4f-150">Close the page.</span></span>
-11. <span data-ttu-id="62e4f-151">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="62e4f-151">Close the page.</span></span>
+2. <span data-ttu-id="1f421-111">ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="1f421-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="1f421-112">เลือก **Litware, Inc.** และทำเครื่องหมายเป็น **ใช้งานอยู่**</span><span class="sxs-lookup"><span data-stu-id="1f421-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="1f421-113">เลือก **การตั้งค่าคอนฟิก**</span><span class="sxs-lookup"><span data-stu-id="1f421-113">Select **Configurations**.</span></span>
 
-## <a name="upload-configuration-into-lcs"></a><span data-ttu-id="62e4f-152">อัพโหลดการตั้งค่าคอนฟิกลงใน LCS</span><span class="sxs-lookup"><span data-stu-id="62e4f-152">Upload configuration into LCS</span></span>
-1. <span data-ttu-id="62e4f-153">คลิกการตั้งค่าคอนฟลิก</span><span class="sxs-lookup"><span data-stu-id="62e4f-153">Click Configurations.</span></span>
-2. <span data-ttu-id="62e4f-154">ในแผนภูมิ เลือก 'การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง'</span><span class="sxs-lookup"><span data-stu-id="62e4f-154">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="62e4f-155">เลือกการตั้งค่าคอนฟิกที่สร้างขึ้น ซึ่งได้เสร็จสมบูรณ์แล้ว</span><span class="sxs-lookup"><span data-stu-id="62e4f-155">Select a created configuration that has been already completed.</span></span>  
-3. <span data-ttu-id="62e4f-156">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62e4f-156">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="62e4f-157">เลือกรุ่นของการตั้งค่าคอนฟิกที่เลือกที่มีสถานะเป็น 'เสร็จสมบูรณ์แล้ว'</span><span class="sxs-lookup"><span data-stu-id="62e4f-157">Select the version of the selected configuration with the status of 'Completed'.</span></span>  
-4. <span data-ttu-id="62e4f-158">คลิก เปลี่ยนแปลงสถานะ</span><span class="sxs-lookup"><span data-stu-id="62e4f-158">Click Change status.</span></span>
-5. <span data-ttu-id="62e4f-159">คลิกใช้ร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="62e4f-159">Click Share.</span></span>
-    * <span data-ttu-id="62e4f-160">สถานะการตั้งค่าคอนฟิกจะเปลี่ยนจาก 'เสร็จสมบูรณ์แล้ว' เป็น 'ใช้ร่วมกัน' เมื่อมีการเผยแพร่ใน LCS</span><span class="sxs-lookup"><span data-stu-id="62e4f-160">The configuration status will change from 'Completed' to 'Shared' when it is published in LCS.</span></span>  
-6. <span data-ttu-id="62e4f-161">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="62e4f-161">Click OK.</span></span>
-7. <span data-ttu-id="62e4f-162">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="62e4f-162">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="62e4f-163">เลือกเวอร์ชันของการตั้งค่าคอนฟิกที่มีสถานะเป็น 'ใช้ร่วมกัน'</span><span class="sxs-lookup"><span data-stu-id="62e4f-163">Select the configuration version with the status of 'Shared'.</span></span>  
-    * <span data-ttu-id="62e4f-164">หมายเหตุว่า สถานะของรุ่นที่เลือกได้เปลี่ยนจาก 'เสร็จสมบูรณ์แล้ว' เป็น 'ใช้ร่วมกัน'</span><span class="sxs-lookup"><span data-stu-id="62e4f-164">Note that the status of the selected version has changed from 'Completed' to 'Shared'.</span></span>  
-8. <span data-ttu-id="62e4f-165">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="62e4f-165">Close the page.</span></span>
-9. <span data-ttu-id="62e4f-166">คลิก ที่เก็บ</span><span class="sxs-lookup"><span data-stu-id="62e4f-166">Click Repositories.</span></span>
-    * <span data-ttu-id="62e4f-167">การดำเนินการนี้ทำให้คุณสามารถเปิดรายการในรายการของที่เก็บ สำหรับผู้ให้บริการการตั้งค่าคอนฟิก Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="62e4f-167">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-10. <span data-ttu-id="62e4f-168">คลิก เปิด</span><span class="sxs-lookup"><span data-stu-id="62e4f-168">Click Open.</span></span>
-    * <span data-ttu-id="62e4f-169">เลือกที่เก็บ LCS และเปิดขึ้น</span><span class="sxs-lookup"><span data-stu-id="62e4f-169">Select the LCS repository and open it.</span></span>  
-    * <span data-ttu-id="62e4f-170">หมายเหตุว่า การตั้งค่าคอนฟิกที่เลือกถูกแสดงเป็นสินทรัพย์ของโครงการ LCS ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="62e4f-170">Note that the selected configuration is shown as an asset of the selected LCS project.</span></span>  
-    * <span data-ttu-id="62e4f-171">เปิดใช้ LCS โดยใช้ https://lcs.dynamics.com</span><span class="sxs-lookup"><span data-stu-id="62e4f-171">Open LCS using https://lcs.dynamics.com.</span></span> <span data-ttu-id="62e4f-172">เปิดโครงการที่ถูกใช้ก่อนหน้าสำหรับการลงทะเบียนที่เก็บ เปิด 'ไลบรารีแอสเซท' ของโครงการนี้และขยายเนื้อหาของชนิดสินทรัพย์ 'การตั้งค่าคอนฟิก GER' – การตั้งค่าคอนฟิก ER ที่อัพโหลดแล้วจะพร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="62e4f-172">Open a project that was used earlier for repository registration, open the 'Asset library' of this project, and expand the content of the 'GER configuration' asset type – the uploaded ER configuration will be available.</span></span> <span data-ttu-id="62e4f-173">โปรดทราบว่า การตั้งค่าคอนฟิก LCS ที่อัปโหลดสามารถถูกนำเข้าไปยังอินสแตนซ์อื่นได้ หากผู้ให้บริการมีการเข้าถึงไปยังโครงการ LCS นี้</span><span class="sxs-lookup"><span data-stu-id="62e4f-173">Note that the uploaded LCS configuration can be imported to another instance if providers have access to this LCS project.</span></span>  
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="1f421-114">ตรวจสอบให้แน่ใจว่าผู้ใช้ Dynamics 365 Finance ปัจจุบันเป็นสมาชิกของโครงการ LCS ที่มี [แอสเซทไลบรารี](../../lifecycle-services/asset-library.md#asset-library-support) ที่ใช้ในการนำเข้าการตั้งค่าคอนฟิก ER</span><span class="sxs-lookup"><span data-stu-id="1f421-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+>
+> <span data-ttu-id="1f421-115">คุณไม่สามารถเข้าถึงโครงการ LCS จากที่เก็บ ER ซึ่งแสดงถึงโดเมนอื่นที่ไม่ใช่โดเมนที่ใช้ใน Finance</span><span class="sxs-lookup"><span data-stu-id="1f421-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="1f421-116">ถ้าคุณพยายาม จะมีการแสดงรายการที่ว่างเปล่าของโครงการ LCS และคุณจะไม่สามารถนำเข้าการตั้งค่าคอนฟิก ER จากแอสเซทไลบรารีระดับโครงการใน LCS</span><span class="sxs-lookup"><span data-stu-id="1f421-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="1f421-117">ถ้าต้องการเข้าถึงแอสเซทไลบรารีระดับโครงการจากที่เก็บ ER ซึ่งใช้ในการนำเข้าการตั้งค่าคอนฟิก ER ให้ลงชื่อเข้าใช้ Finance โดยใช้ข้อมูลประจำตัวของผู้ใช้ที่เป็นสมาชิกของผู้เช่า (โดเมน) ที่มีการเตรียมใช้งานอินสแตนซ์ Finance ในปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="1f421-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="1f421-118">สร้างแบบจำลองการจัดโครงแบบข้อมูลใหม่</span><span class="sxs-lookup"><span data-stu-id="1f421-118">Create a new data model configuration</span></span>
+
+1. <span data-ttu-id="1f421-119">ไปที่ **การจัดการองค์กร \> การรายงานทางอิเล็กทรอนิกส์ \> การตั้งค่าคอนฟิก**</span><span class="sxs-lookup"><span data-stu-id="1f421-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="1f421-120">ในหน้า **การตั้งค่าคอนฟิก** เลือก **สร้างการตั้งค่าคอนฟิก** เพื่อเปิดกล่องโต้ตอบแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="1f421-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="1f421-121">ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกที่ประกอบด้วย รูปแบบข้อมูลตัวอย่างสำหรับเอกสารทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="1f421-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="1f421-122">การตั้งค่าคอนฟิกรูปแบบข้อมูลนี้จะถูกอัปโหลดลงใน LCS ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="1f421-122">This data model configuration will be uploaded into LCS later.</span></span>
+
+3. <span data-ttu-id="1f421-123">ในฟิลด์ **ชื่อ** ป้อน **การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง**</span><span class="sxs-lookup"><span data-stu-id="1f421-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="1f421-124">ในฟิลด์ **คำอธิบาย** ป้อน **การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง**</span><span class="sxs-lookup"><span data-stu-id="1f421-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="1f421-125">เลือก **สร้างการตั้งค่าคอนฟิก**</span><span class="sxs-lookup"><span data-stu-id="1f421-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="1f421-126">เลือก **ตัวออกแบบแบบจำลอง**</span><span class="sxs-lookup"><span data-stu-id="1f421-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="1f421-127">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="1f421-127">Select **New**.</span></span>
+8. <span data-ttu-id="1f421-128">ในฟิลด์ **ชื่อ** ป้อน **จุดเข้าใช้งาน**</span><span class="sxs-lookup"><span data-stu-id="1f421-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="1f421-129">เลือก **เพิ่ม**</span><span class="sxs-lookup"><span data-stu-id="1f421-129">Select **Add**.</span></span>
+10. <span data-ttu-id="1f421-130">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="1f421-130">Select **Save**.</span></span>
+11. <span data-ttu-id="1f421-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1f421-131">Close the page.</span></span>
+12. <span data-ttu-id="1f421-132">เลือก **เปลี่ยนแปลงสถานะ**</span><span class="sxs-lookup"><span data-stu-id="1f421-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="1f421-133">เลือก **เสร็จสมบูรณ์**</span><span class="sxs-lookup"><span data-stu-id="1f421-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="1f421-134">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1f421-134">Select **OK**.</span></span>
+15. <span data-ttu-id="1f421-135">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1f421-135">Close the page.</span></span>
+
+## <a name="register-a-new-repository"></a><span data-ttu-id="1f421-136">ลงทะเบียนที่จัดเก็บใหม่</span><span class="sxs-lookup"><span data-stu-id="1f421-136">Register a new repository</span></span>
+
+1. <span data-ttu-id="1f421-137">ไปที่ **การจัดการองค์กร \> พื้นที่ทำงาน \> การรายงานทางอิเล็กทรอนิกส์**</span><span class="sxs-lookup"><span data-stu-id="1f421-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="1f421-138">ในส่วน **ผู้ให้บริการการตั้งค่าคอนฟิก** เลือกไทล์ **Litware, Inc.**</span><span class="sxs-lookup"><span data-stu-id="1f421-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="1f421-139">บนไทล์ **Litware, Inc.** เลือก **ที่เก็บ**</span><span class="sxs-lookup"><span data-stu-id="1f421-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="1f421-140">ตอนนี้คุณสามารถเปิดรายการของที่เก็บสำหรับผู้ให้บริการการตั้งค่าคอนฟิก Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="1f421-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="1f421-141">เลือก **เพิ่ม** เพื่อเปิดกล่องโต้ตอบแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="1f421-141">Select **Add** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="1f421-142">ขณะนี้คุณสามารถเพิ่มที่เก็บใหม่ได้แล้ว</span><span class="sxs-lookup"><span data-stu-id="1f421-142">You can now add a new repository.</span></span>
+
+5. <span data-ttu-id="1f421-143">ในฟิลด์ **ชนิดที่เก็บการตั้งค่าคอนฟิก** ให้เลือก **LCS**</span><span class="sxs-lookup"><span data-stu-id="1f421-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="1f421-144">เลือก **สร้างที่เก็บ**</span><span class="sxs-lookup"><span data-stu-id="1f421-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="1f421-145">ในฟิลด์ **โครงการ** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="1f421-145">In the **Project** field, enter or select a value.</span></span>
+
+    <span data-ttu-id="1f421-146">สำหรับตัวอย่างนี้ ให้เลือกโครงการ LCS ที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="1f421-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="1f421-147">คุณต้องมีสิทธิ์ [เข้าถึง](#accessconditions) โครงการ</span><span class="sxs-lookup"><span data-stu-id="1f421-147">You must have [access](#accessconditions) to the project.</span></span>
+
+8. <span data-ttu-id="1f421-148">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1f421-148">Select **OK**.</span></span>
+
+    <span data-ttu-id="1f421-149">ดำเนินการรายการที่เก็บใหม่ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="1f421-149">Complete a new repository entry.</span></span>
+
+9. <span data-ttu-id="1f421-150">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1f421-150">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="1f421-151">สำหรับตัวอย่างนี้ ให้เลือกเรกคอร์ดที่เก็บ **LCS**</span><span class="sxs-lookup"><span data-stu-id="1f421-151">For this example, select the **LCS** repository record.</span></span>
+
+    <span data-ttu-id="1f421-152">โปรดสังเกตว่ามีการทำเครื่องหมายที่เก็บที่ลงทะเบียนไว้โดยผู้ให้บริการปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="1f421-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="1f421-153">กล่าวคือ การตั้งค่าคอนฟิกเฉพาะที่เป็นของผู้ให้บริการดังกล่าวเท่านั้นที่สามารถวางในที่เก็บนี้และสามารถอัปโหลดไปยังโครงการ LCS ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1f421-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+
+10. <span data-ttu-id="1f421-154">เลือก **เปิด**</span><span class="sxs-lookup"><span data-stu-id="1f421-154">Select **Open**.</span></span>
+
+    <span data-ttu-id="1f421-155">คุณเปิดที่เก็บเพื่อดูรายการของการตั้งค่าคอนฟิก ER</span><span class="sxs-lookup"><span data-stu-id="1f421-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="1f421-156">ถ้าโครงการที่เลือกยังไม่ได้ใช้สำหรับการใช้การตั้งค่าคอนฟิก ER ร่วมกัน รายการนี้จะว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="1f421-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+
+11. <span data-ttu-id="1f421-157">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1f421-157">Close the page.</span></span>
+12. <span data-ttu-id="1f421-158">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1f421-158">Close the page.</span></span>
+
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="1f421-159">อัปโหลดการตั้งค่าคอนฟิกไปยัง LCS</span><span class="sxs-lookup"><span data-stu-id="1f421-159">Upload a configuration into LCS</span></span>
+
+1. <span data-ttu-id="1f421-160">ไปที่ **การจัดการองค์กร \> การรายงานทางอิเล็กทรอนิกส์ \> การตั้งค่าคอนฟิก**</span><span class="sxs-lookup"><span data-stu-id="1f421-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="1f421-161">บนหน้า **การตั้งค่าคอนฟิก** ในแผนภูมิการตั้งค่าคอนฟิก เลือก **การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง**</span><span class="sxs-lookup"><span data-stu-id="1f421-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="1f421-162">คุณต้องเลือกการตั้งค่าคอนฟิกที่สร้างขึ้น ซึ่งได้เสร็จสมบูรณ์แล้ว</span><span class="sxs-lookup"><span data-stu-id="1f421-162">You must select a created configuration that has been already completed.</span></span>
+
+3. <span data-ttu-id="1f421-163">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="1f421-163">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="1f421-164">สำหรับตัวอย่างนี้ เลือกรุ่นของการตั้งค่าคอนฟิกที่เลือกที่มีสถานะเป็น **เสร็จสมบูรณ์แล้ว**</span><span class="sxs-lookup"><span data-stu-id="1f421-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+
+4. <span data-ttu-id="1f421-165">เลือก **เปลี่ยนแปลงสถานะ**</span><span class="sxs-lookup"><span data-stu-id="1f421-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="1f421-166">เลือก **ใช้ร่วมกัน**</span><span class="sxs-lookup"><span data-stu-id="1f421-166">Select **Share**.</span></span>
+
+    <span data-ttu-id="1f421-167">สถานะของการตั้งค่าคอนฟิกมีการเปลี่ยนแปลงจาก **เสร็จสมบูรณ์แล้ว** เป็น **ใช้ร่วมกัน** เมื่อมีการเผยแพร่การตั้งค่าคอนฟิกใน LCS</span><span class="sxs-lookup"><span data-stu-id="1f421-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+
+6. <span data-ttu-id="1f421-168">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1f421-168">Select **OK**.</span></span>
+7. <span data-ttu-id="1f421-169">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="1f421-169">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="1f421-170">สำหรับตัวอย่างนี้ เลือกรุ่นของการตั้งค่าคอนฟิกซึ่งมีสถานะเป็น **ใช้ร่วมกัน**</span><span class="sxs-lookup"><span data-stu-id="1f421-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="1f421-171">หมายเหตุว่า สถานะของรุ่นที่เลือกได้เปลี่ยนจาก **เสร็จสมบูรณ์แล้ว** เป็น **ใช้ร่วมกัน**</span><span class="sxs-lookup"><span data-stu-id="1f421-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+
+8. <span data-ttu-id="1f421-172">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1f421-172">Close the page.</span></span>
+9. <span data-ttu-id="1f421-173">เลือก **ที่เก็บ**</span><span class="sxs-lookup"><span data-stu-id="1f421-173">Select **Repositories**.</span></span>
+
+    <span data-ttu-id="1f421-174">ตอนนี้คุณสามารถเปิดรายการของที่เก็บสำหรับผู้ให้บริการการตั้งค่าคอนฟิก Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="1f421-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+10. <span data-ttu-id="1f421-175">เลือก **เปิด**</span><span class="sxs-lookup"><span data-stu-id="1f421-175">Select **Open**.</span></span>
+
+    <span data-ttu-id="1f421-176">สำหรับตัวอย่างนี้ ให้เลือกเรกคอร์ดที่เก็บ **LCS** และเปิด</span><span class="sxs-lookup"><span data-stu-id="1f421-176">For this example, select the **LCS** repository, and open it.</span></span>
+
+    <span data-ttu-id="1f421-177">โปรดทราบว่า การตั้งค่าคอนฟิกที่เลือกถูกแสดงเป็นสินทรัพย์ของโครงการ LCS ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1f421-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+
+11. <span data-ttu-id="1f421-178">เปิด LCS โดยไปที่ <https://lcs.dynamics.com></span><span class="sxs-lookup"><span data-stu-id="1f421-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="1f421-179">เปิดโครงการที่ใช้ก่อนหน้านี้สำหรับการลงทะเบียนที่จัดเก็บ</span><span class="sxs-lookup"><span data-stu-id="1f421-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="1f421-180">เปิดแอสเซทไลบรารีของโครงการ</span><span class="sxs-lookup"><span data-stu-id="1f421-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="1f421-181">เลือกชนิดแอสเซท **การตั้งค่าคอนฟิก GER**</span><span class="sxs-lookup"><span data-stu-id="1f421-181">Select the **GER configuration** asset type.</span></span>
+
+    <span data-ttu-id="1f421-182">ระบบควรแสดงการตั้งค่าคอนฟิก ER ที่คุณอัปโหลดไว้</span><span class="sxs-lookup"><span data-stu-id="1f421-182">The ER configuration that you uploaded should be listed.</span></span>
+
+    <span data-ttu-id="1f421-183">โปรดทราบว่า การตั้งค่าคอนฟิก LCS ที่อัปโหลดสามารถถูกนำเข้าไปยังอินสแตนซ์อื่นได้ หากผู้ให้บริการมีการเข้าถึงไปยังโครงการ LCS นี้</span><span class="sxs-lookup"><span data-stu-id="1f421-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>
