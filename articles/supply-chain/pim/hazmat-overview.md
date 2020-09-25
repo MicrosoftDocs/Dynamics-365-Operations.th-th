@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699665"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802760"
 ---
 # <a name="hazardous-materials-overview"></a>ภาพรวมของวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 เพื่อให้ยังคงเป็นไปตามกฎระเบียบการจัดส่งและการขนส่ง องค์กรที่จัดส่งวัตถุที่จัดประเภทเป็นสินค้าอันตรายต้องมีเอกสารเพิ่มเติมพร้อมกับการจัดส่งสินค้า คุณลักษณะวัตถุอันตรายให้ลูกค้าจัดเก็บข้อมูลที่เกี่ยวข้องกับสินค้าที่นำออกใช้ คุณสามารถใช้ข้อมูลนี้เพื่อช่วยจัดเตรียมเอกสารการจัดส่งได้ องค์กรที่จัดส่งสินค้าอันตรายต้องมีกระบวนการและขั้นตอนของตนเองสำหรับการจัดการกระบวนการจัดส่ง Microsoft Dynamics 365 Supply Chain Management เป็นเพียงเครื่องมือที่จะช่วยในการสร้างเอกสารที่จำเป็นเท่านั้น
 

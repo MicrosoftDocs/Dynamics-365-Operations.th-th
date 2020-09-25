@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651968"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.8 (กุมภาพันธ์ 2020)
 
@@ -31,8 +31,8 @@ ms.locfileid: "3651968"
 หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.8 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.319 และพร้อมใช้งานดังนี้:
 
 - **แสดงตัวอย่างการนำออกใช้:** ธันวาคม 2019
-- **ความพร้อมใช้งานทั่วไป (การอัพเดตด้วยตนเอง):** มกราคม 2020
-- **อัพเดตอัตโนมัติ:** กุมภาพันธ์ 2020
+- **ความพร้อมใช้งานทั่วไป (การอัปเดตด้วยตนเอง):** มกราคม 2020
+- **อัปเดตอัตโนมัติ:** กุมภาพันธ์ 2020
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
@@ -41,22 +41,22 @@ ms.locfileid: "3651968"
 - [โซนเวลาของสถานที่เพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [การจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการสินทรัพย์](../asset-management/index.md)
 - [ยกเลิกงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกงานของคลังสินค้าสำหรับการจัดการข้อยกเว้น](../warehousing/cancel-warehouse-work.md)
-- [เปลี่ยนกลุ่มงานในงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [ยืนยันและโอนย้าย](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [เปลี่ยนกลุ่มงานในงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [เปลี่ยนกลุ่มงานในการทำงาน](../warehousing/change-work-pool-on-work.md)
+- [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตำแหน่งคลัสเตอร์เต็ม](../warehousing/cluster-position-full.md)
+- [ยืนยันและโอนย้าย](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันและโอนย้าย](../warehousing/confirm-and-transfer.md)
+- [คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อายุหนี้ของการเบิกสินค้าคงคลังของคำสั่งสถานที่](../warehousing/location-directive-inventory-picking-aging.md)
 - [สถานะสถานที่](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [การจัดกลุ่มรายการการเบิกสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มรายการการเบิกสินค้า](../warehousing/pick-line-grouping.md)
-- [การอัพเดตอัตโนมัติของการจัดส่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัพเดตอัตโนมัติของการจัดส่ง](../warehousing/auto-update-shipment.md)
+- [การอัปเดตอัตโนมัติของการจัดส่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตอัตโนมัติของการจัดส่ง](../warehousing/auto-update-shipment.md)
 - [แบ่งงานการเติมสินค้าตามความต้องการจากขั้นตอนการสร้างงานการเบิกสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [แบ่งงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [การเบิกสินค้าคลัสเตอร์ตามระบบ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเบิกสินค้าคลัสเตอร์ตามระบบ](../warehousing/system-directed-cluster-pick.md)
 - [การตรวจสอบงานแอปคลังสินค้าที่มี RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [กฎการนำออกใช้ไปยังคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [การแสดงภาพของสถานะของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [การจัดกลุ่มเท็มเพลตเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [รายละเอียดรายการงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูวิดีโอ [รายละเอียดรายการงาน](https://www.microsoft.com/videoplayer/embed/RE4fcYN)
-- [การเติมสินค้าตามขีดจำกัดของโซน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [การจัดกลุ่มเท็มเพลตเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มเท็มเพลตของเวฟ](../warehousing/wave-template-grouping.md)
+- [รายละเอียดรายการงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายละเอียดรายการงาน](../warehousing/work-line-details.md) และวิดีโอ [รายละเอียดรายการงาน](https://www.microsoft.com/videoplayer/embed/RE4fcYN)
+- [การเติมสินค้าตามขีดจำกัดของโซน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเติมสินค้าตามขีดจำกัดของโซน](../warehousing/zone-threshold-replenishment.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -66,7 +66,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.8 รวมถึง Platfor
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา 
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัพเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.8 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=400368&dbType=3&qc=8405de0733ac4045859057a4e710a3ef07637ce2485f6a317ea49efe6f67f35f)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัปเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.8 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=400368&dbType=3&qc=8405de0733ac4045859057a4e710a3ef07637ce2485f6a317ea49efe6f67f35f)
 
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: 2019 แผนเวฟการนำออกใช้ 2
 
@@ -83,4 +83,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.8 รวมถึง Platfor
 
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
-สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัพเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์

@@ -3,7 +3,7 @@ title: สร้างปฏิทินทีมงาน
 description: ดูและสร้างปฏิทินทีมใน Dynamics 365 Human Resources
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712219"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796480"
 ---
 # <a name="view-team-and-company-calendars"></a>ดูปฏิทินของทีมและบริษัท
 
@@ -50,6 +50,22 @@ ms.locfileid: "3712219"
 2. ให้เลือก **ปฏิทินการลางานและขาดงาน**
 
 บทบาทของฝ่ายทรัพยากรบุคคลยังสามารถเข้าถึงปฏิทินของบริษัทจาก **คำขอการลางานและการขาดงาน** **การหยุดงานที่ได้รับการอนุมัติ** และ **คำขอการหยุดงาน** 
+
+[!include [banner](includes/preview-feature.md)]
+
+ในขณะนี้ ปฏิทินมีตัวกรองและตัวเลือกเพิ่มเติม ปฏิทินทั้งหมดมีตัวเลือกมุมมองสำหรับ:
+
+- คำขอที่อนุมัติแล้ว
+- คำขอที่ค้างอยู่
+- พนักงานที่มีคำขอการลางาน
+- พนักงานที่ไม่มีคำขอการลางาน
+- วันเกิดของพนักงาน
+- คำขอลาหยุด 
+- คำขอลาหยุด
+
+การตั้งค่าคอนฟิกปฏิทินในพารามิเตอร์การลางานและการขาดงานจะกำหนดตัวเลือกมุมมองที่มีอยู่
+
+นอกจากนี้ คุณยังสามารถกรองข้อมูลปฏิทินตามผู้จัดการหรือแผนก การกำหนดตำแหน่งหลักจะกำหนดพนักงานที่แสดงเมื่อมีการตั้งค่าตัวกรองเหล่านี้ 
 
 สำหรับข้อมูลเกี่ยวกับการตั้งค่าปฏิทิน ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์ปฏิทิน](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
 

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a6b5cddc325625dc5b3d677ffcc1da1f8b829cd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 6ff280d66fd2c418984f2d7fd31a32609932e89c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041963"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745020"
 ---
-# <a name="ORDERBY">ฟังก์ชัน ORDERBY ER</a>
+# <a name="orderby-er-function"></a>ฟังก์ชัน ORDERBY ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ ORDERBY (list , expression 1[, expression 2, …, expression N])
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 
-ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่คำนวณได้* และประกอบด้วยนิพจน์ `SPLIT ("C|B|A", "|")` นิพจน์ `FIRST( ORDERBY( DS, DS. Value)).Value` จะส่งกลับค่าข้อความ **A**
+ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่มีการคำนวณ* และประกอบด้วยนิพจน์ `SPLIT ("C|B|A", "|")` นิพจน์ `FIRST( ORDERBY( DS, DS. Value)).Value` จะส่งกลับค่าข้อความ **A**
 
 ## <a name="example-2"></a>ตัวอย่างที่ 2
 
