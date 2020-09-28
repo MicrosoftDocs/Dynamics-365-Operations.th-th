@@ -7,7 +7,7 @@ ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
-ms.technology: Dynamics 365 Human Resources;PowerApps;Flow;Common Data Service
+ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
+ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410115"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "3793622"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>ขยายด้วย Power Apps และ Power Automate
 
@@ -49,7 +49,7 @@ ms.locfileid: "3410115"
 
 แม่แบบ **Power Automate – การเชื่อมต่อและดำเนินการ SQL** เชื่อมต่อกับ Microsoft SQL Server และเปิดใช้งานให้การสอบถาม SQL รัน
 
-ถึงแม้ว่าแม่แบบนี้จะอ่านและอัพเดตตาราง SQL คุณสามารถขยายและใช้งานสำหรับสถานการณ์อื่นๆได้ ตัวอย่างเช่น คุณสามารถใช้เพื่อกรอกข้อมูลในตารางการจัดเตรียมใน Common Data Service ด้วยเรกคอร์ดจากเซิร์ฟเวอร์ SQL และเพื่อซิงโครไนส์ตารางการจัดเตรียมเป็นระยะ ๆ โดยใช้พุชส่วนเพิ่มจากเซิร์ฟเวอร์ SQL 
+ถึงแม้ว่าแม่แบบนี้จะอ่านและอัปเดตตาราง SQL คุณสามารถขยายและใช้งานสำหรับสถานการณ์อื่นๆได้ ตัวอย่างเช่น คุณสามารถใช้เพื่อกรอกข้อมูลในตารางการจัดเตรียมใน Common Data Service ด้วยเรกคอร์ดจากเซิร์ฟเวอร์ SQL และเพื่อซิงโครไนส์ตารางการจัดเตรียมเป็นระยะ ๆ โดยใช้พุชส่วนเพิ่มจากเซิร์ฟเวอร์ SQL 
 
 การสอบถามขั้นสูงถูกรวมเข้ากับขั้นตอนในการเปิดใช้งานการแปลงข้อมูลและการผลักข้อมูลเพิ่มเติม
 

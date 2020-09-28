@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209225"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813845"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -55,7 +55,7 @@ ms.locfileid: "3209225"
 -   [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
 -   [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](set-up-maintain-vendor-collaboration.md)
--   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(เอกสารทางเทคนิค)
+-   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [ทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md) (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
 -   [ความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (รุ่น 2016 และ พ.ค. 2016 ของ Finance and Operations เท่านั้น)
@@ -98,7 +98,7 @@ ms.locfileid: "3209225"
 -   [ลำดับงานการจัดซื้อและการจัดหา](procurement-sourcing-workflows.md)
 -   [บันทึกการรับสินค้าในใบสั่งซื้อ](tasks/record-receipt-goods-purchase-order.md)
 -   [เวิร์กโฟลว์การขอเสนอซื้อ](purchase-requisitions-workflow.md)
--   [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (เอกสาร)
+-   [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://www.microsoft.com/download/details.aspx?id=101821) (เอกสาร)
 -   [ภาพรวมของนโยบายการจัดซื้อ](purchase-policies.md)
 -   [สร้างนโยบายการจัดซื้อ](tasks/create-purchasing-policies.md)
 

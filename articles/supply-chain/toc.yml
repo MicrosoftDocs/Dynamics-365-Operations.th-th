@@ -70,12 +70,12 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (ตุลาคม 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (กรกฎาคม 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: รายการตรวจสอบการบำรุงรักษา
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: การหยุดทำงานของการบำรุงรักษา
+                - name: การหยุดทำงานของการบำรุงรักษาสำหรับใบสั่งงาน
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: เพิ่มข้อบกพร่องลงในใบสั่งงาน
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -367,7 +367,7 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: สร้างใบสั่งงาน
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: การหยุดทำงานของการบำรุงรักษา
+                - name: กิจกรรมการหยุดทำงานของการบำรุงรักษา
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: การวางแผนกำลังการผลิต
               items:
@@ -1345,8 +1345,6 @@
               items:
                 - name: ภาพรวมของการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: การวางแผนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบ
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/get-started.md
                 - name: การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
@@ -1355,16 +1353,22 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: ดูประวัติแผนและบันทึกการวางแผน
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: ค่าเผื่อความปลอดภัย
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: อนุมัติแผนการใบสั่ง
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: การวางแผนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบ
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: ดูประวัติแผนและบันทึกการวางแผน
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: ยกเลิกงานการวางแผน
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/extensibility.md
             - name: แผนหลัก
               items:
                 - name: ภาพรวมของแผนหลัก
@@ -2621,6 +2625,8 @@
                   items:
                     - name: ตั้งค่าการเลือกคลัสเตอร์
                       href: warehousing/set-up-cluster-picking.md
+                    - name: ตำแหน่งคลัสเตอร์เต็ม
+                      href: warehousing/cluster-position-full.md
                     - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
                       href: warehousing/system-directed-cluster-pick.md
                     - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า

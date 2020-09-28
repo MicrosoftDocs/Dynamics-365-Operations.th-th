@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 392cf7acebd7ad95bcc0f5d4b7a67500a412a795
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 94326986791c95eac7b0f5771f779014d865d3bb
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041848"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743455"
 ---
-# <a name="WHERE">ฟังก์ชั่น WHERE ER</a>
+# <a name="where-er-function"></a>ฟังก์ชั่น WHERE ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,7 +65,7 @@ WHERE (list, condition)
 
 ## <a name="example-2"></a>ตัวอย่างที่ 2
 
-ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิดของ *ฟิลด์ที่คำนวณได้* และมีนิพจน์ `SPLIT ("A|B|C", "|")` นิพจน์ `WHERE( DS, DS.Value = "B")` จะส่งคืนรายการเรกคอร์ดที่มีค่าข้อความ **"B"** ในฟิลด์ **ค่า**
+ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิดของ *ฟิลด์ที่มีการคำนวณ* และมีนิพจน์ `SPLIT ("A|B|C", "|")` นิพจน์ `WHERE( DS, DS.Value = "B")` จะส่งคืนรายการเรกคอร์ดที่มีค่าข้อความ **"B"** ในฟิลด์ **ค่า**
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 

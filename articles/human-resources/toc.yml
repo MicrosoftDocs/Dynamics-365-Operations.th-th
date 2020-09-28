@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 3 กันยายน 2020
+          href: hr-whats-new-2020-09-03.md
         - name: 20 สิงหาคม 2020
           href: hr-whats-new-2020-08-20.md
         - name: 6 สิงหาคม 2020
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 1 พฤษภาคม 2020
           href: hr-whats-new-2020-05-01.md
-        - name: 13 เมษายน 2020
-          href: hr-whats-new-2020-04-13.md
-        - name: 3 เมษายน 2020
-          href: hr-whats-new-2020-04-03.md
         - name: ข้อมูลเก็บถาวร 2020 มีอะไรใหม่
           items:
+            - name: 13 เมษายน 2020
+              href: hr-whats-new-2020-04-13.md
+            - name: 3 เมษายน 2020
+              href: hr-whats-new-2020-04-03.md
             - name: 24 มีนาคม 2020
               href: hr-whats-new-2020-03-24.md
             - name: 19 มีนาคม 2020

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6134ae7eb1a8044cf906f2a8d02eb153522a6cf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: ab953136b7500665bdb13e6ff585e3b76896c9ee
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041940"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744996"
 ---
-# <a name="REVERSE">ฟังก์ชัน REVERSE ER</a>
+# <a name="reverse-er-function"></a>ฟังก์ชัน REVERSE ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,7 +51,7 @@ REVERSE (list)
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 
-ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่คำนวณได้* และประกอบด้วยนิพจน์ `SPLIT ("C|B|A", "|")` นิพจน์ `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` จะส่งกลับค่าข้อความ **C**
+ถ้าคุณป้อนแหล่งข้อมูล **DS** ของชนิด *ฟิลด์ที่มีการคำนวณ* และประกอบด้วยนิพจน์ `SPLIT ("C|B|A", "|")` นิพจน์ `FIRST( REVERSE( ORDERBY( DS, DS. Value))).Value` จะส่งกลับค่าข้อความ **C**
 
 ## <a name="example-2"></a>ตัวอย่างที่ 2
 

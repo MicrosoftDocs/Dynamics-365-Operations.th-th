@@ -1,5 +1,5 @@
 ---
-title: คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Supply Chain Management รุ่น 10.0.13 (ตุลาคม 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.13 (ตุลาคม 2020)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.13
 author: kamaybac
 manager: tfehr
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652272"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802954"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Supply Chain Management รุ่น 10.0.13 (ตุลาคม 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.13 (ตุลาคม 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management รุ่นการแสดงตัวอย่าง 10.0.13 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.569 และพร้อมใช้งานดังนี้: 
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management รุ่นการแสดงตัวอย่าง 10.0.13 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.569 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** สิงหาคม 2020
-- **ความพร้อมใช้งานทั่วไป (การอัพเดตด้วยตนเอง):** กันยายน 2020
-- **อัพเดทอัตโนมัติ:** ตุลาคม 2020
+- **ความพร้อมใช้งานทั่วไป (การอัปเดตด้วยตนเอง):** กันยายน 2020
+- **อัปเดทอัตโนมัติ:** ตุลาคม 2020
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
@@ -61,11 +60,11 @@ ms.locfileid: "3652272"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update สำหรับแอป Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.13 ของแอป Finance and Operations (ตุลาคม 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.13 ของแอป Finance and Operations (ตุลาคม 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัพเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.13 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=476824&dbType=3&qc=18d329e7d9887a622bada690791f5814dbbef22bb6f4eaada3718299f40132fd) 
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัปเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.13 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=476824&dbType=3&qc=18d329e7d9887a622bada690791f5814dbbef22bb6f4eaada3718299f40132fd) 
 
 ### <a name="dynamics-365-2020-release-wave-2-plan"></a>Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2
 
@@ -82,4 +81,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platfo
 
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
-สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัพเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์

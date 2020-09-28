@@ -14,12 +14,12 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.14 (พฤศจิกายน 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform update สำหรับ 10.0.13 (ตุลาคม 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform update สำหรับ 10.0.12 (สิงหาคม 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platform update สำหรับ 10.0.11 (กรกฎาคม 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: การกำหนดรุ่นสำหรับแบบจำลอง X++ ใน Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: ดาวน์โหลดสินทรัพย์โดยใช้ Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: อัปโหลดสินทรัพย์โดยใช้ Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: ปรับใช้สินทรัพย์โดยใช้ Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: สร้างการเชื่อมต่อ Lifecycle Services (LCS) ใน Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: แอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
               items:
                 - name: สถานการณ์จำลองแบบครอบคลุมสำหรับแอปพลิเคชันตัวอย่างการจัดการยานพาหนะ

@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: kamaybac1
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c5ff02ea2d9b54272b260e951ca3626673bc0a77
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205011"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802882"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.7 (มกราคม 2020)
 
@@ -32,8 +32,8 @@ ms.locfileid: "3205011"
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.7 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.283 และพร้อมใช้งานดังนี้:
 
 - การนำออกใช้ของการแสดงตัวอย่างอยู่ในเดือนตุลาคม 2019
-- ความพร้อมใช้งานทั่วไป (การอัพเดตด้วยตนเอง) อยู่ในเดือนพฤศจิกายน 2019
-- การอัพเดทอัตโนมัติอยู่ในเดือนมกราคม 2020 
+- ความพร้อมใช้งานทั่วไป (การอัปเดตด้วยตนเอง) อยู่ในเดือนพฤศจิกายน 2019
+- การอัปเดทอัตโนมัติอยู่ในเดือนมกราคม 2020 
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรุ่น10.0.7 ให้ดูที่ [ทรัพยากรเพิ่มเติม](whats-new-scm-10-0-7.md#additional-resources)
 
@@ -45,7 +45,7 @@ ms.locfileid: "3205011"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัพเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.7 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแก้ไขบักที่รวมอยู่ในการอัปเดตแต่ละรายการที่เป็นส่วนหนึ่งของ 10.0.7 ให้ลงชื่อเข้าใช้ Lifecycle Services (LCS) และดู [บทความ KB](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e)
 
 ### <a name="platform-update-31"></a>แพลตฟอร์ม update 31
 Microsoft Dynamics 365 Supply Chain Management 10.0.7 รวมถึง Platform update 31 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Platform update 31 ให้ดูที่ [มีอะไรใหม่และมีการเปลี่ยนแปลงอะไรใน Platform update 31](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md)
@@ -64,4 +64,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.7 รวมถึง Platfor
 
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
-สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัพเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์

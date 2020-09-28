@@ -8,6 +8,8 @@
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
+            - name: 1 กันยายน 2020
+              href: whats-new-talent-september-01-2020.md
             - name: 21 มกราคม 2020
               href: whats-new-talent-january-21-2020.md
             - name: 14 มกราคม 2020

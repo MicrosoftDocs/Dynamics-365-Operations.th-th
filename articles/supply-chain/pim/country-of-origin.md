@@ -15,18 +15,26 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: d0d93a02817bab8e188818862c1bb7f84b498fc1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596282"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802808"
 ---
 # <a name="country-of-origin"></a>ประเทศของผู้ผลิต
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 องค์กรจำนวนมากออกใบรับรองให้กับผู้จัดจำหน่ายของพวกเขา เพื่อให้มั่นใจว่าผลิตภัณฑ์ตรงตามมาตรฐานการรับรองเฉพาะ ใบรับรองเหล่านี้มักจะขึ้นอยู่กับประเทศต้นทาง คุณลักษณะประเทศต้นทางช่วยให้คุณสามารถเชื่อมโยงผลิตภัณฑ์ไปยังประเทศต้นทางและติดตามการรับรองผลิตภัณฑ์
+
+## <a name="turn-on-the-country-of-origin-feature"></a>เปิดคุณลักษณะประเทศต้นทาง
+
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+
+- **โมดูล:** *การจัดการข้อมูลผลิตภัณฑ์*
+- **ชื่อคุณลักษณะ:** *คุณลักษณะการจัดการประเทศต้นทาง*
 
 ## <a name="configure-source-and-destination-countries"></a>ตั้งค่าคอนฟิกประเทศต้นทางและประเทศปลายทาง
 
