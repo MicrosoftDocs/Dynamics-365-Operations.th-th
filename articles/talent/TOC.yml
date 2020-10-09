@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: ส่งออกข้อมูลจาก Attract และ Onboard
           href: attract-onboard-export-data.md
-        - name: ฝัง Microsoft Power Apps
+        - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: รับการสนับสนุนสำหรับ Talent
           href: talent-support.md
@@ -252,3 +252,5 @@
           href: user-access-core-hr.md
         - name: ไม่พบผู้ใช้ Azure Active Directory ในตัวเลือกบุคคล
           href: people-picker-user-not-found.md
+        - name: ผู้ใช้ Attract ไม่สามารถสมัครงานจากพอร์ทัลการทำงานได้
+          href: attract-troubleshoot-career-portal.md

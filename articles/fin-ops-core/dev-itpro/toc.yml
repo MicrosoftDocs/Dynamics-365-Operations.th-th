@@ -20,11 +20,11 @@
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform update สำหรับ 10.0.12 (สิงหาคม 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-            - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+            - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: การควบคุมปริมาณตามระดับความสำคัญ
               hreF: data-entities/priority-based-throttling.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณตามระดับความสำคัญ
+              href: data-entities/throttling-faq.md
             - name: API การรวมข้อมูล
               items:
                 - name: REST API แพคเกจการจัดการข้อมูล
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: การจัดการการรวมแบบสองทิศทาง
                           items:
                             - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: เอเจนต์ภายในเครื่อง
                   items:
-                    - name: ความเข้ากันได้ของ AD FS Office 365
+                    - name: ความเข้ากันได้ของ AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: สคริปต์ก่อนการปรับใช้และหลักการปรับใช้เอเจนต์ภายในเครื่อง
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: บทช่วยสอนเครื่องมือการพัฒนา
                   href: dev-tools/introduction-visual-studio.md
                 - name: ตัวตรวจสอบแอปพลิเคชัน
-                  items:
-                    - name: ติดตั้ง BaseX สำหรับตัวตรวจสอบแอปพลิเคชัน
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: ตัวสำรวจแอปพลิเคชัน
                   href: dev-tools/application-explorer.md
                 - name: สร้างและดีบักโครงการ
@@ -1362,12 +1364,30 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
                     - name: ชนิดของแถว
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-                    - name: ชนิดค่า
+                    - name: ชนิดของมูลค่า
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
                     - name: ชนิดของ ValueDesign
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ชนิดของ ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: กรอบงานกระบวนการอัตโนมัติ
+          items:
+            - name: การพัฒนากรอบงานกระบวนการอัตโนมัติ
+              href: process-automation/process-automation-framework.md
+            - name: ชนิดการลงทะเบียน
+              href: process-automation/type-registration.md
+            - name: การลงทะเบียนชุด
+              href: process-automation/series-registration.md
+            - name: พารามิเตอร์กระบวนการ
+              href: process-automation/process-parameters.md
+            - name: การสอบถามที่สามารถกำหนดค่าผู้ใช้
+              href: process-automation/user-queries.md
+            - name: เรียกใช้กระบวนการ
+              href: process-automation/run-process.md
+            - name: ผลลัพธ์และข้อความล็อก
+              href: process-automation/log-results.md
+            - name: ปรับแต่งอินเทอร์เฟสผู้ใช้
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: ภาพรวมของ Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: พัฒนาและนำออกใช้
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: ขั้นและการเผยแพร่
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: เพิ่มระเบียบวิธี
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: ตั้งค่าไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ
@@ -1410,7 +1430,7 @@
               href: lcs-solutions/database-backup-lcs-solutions.md
             - name: คุณลักษณะการทำงานเฉพาะและบังคับ
               items:
-                - name: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+                - name: ทรัพยากรแบบโลกาภิวัตน์
                   href: lcs-solutions/country-region.md
                 - name: การจัดประเภทคุณลักษณะการทำงานเฉพาะ
                   href: lcs-solutions/classify-localization-features.md
@@ -1644,7 +1664,7 @@
                   href: dev-tools/update-development-tools.md
             - name: การเลิกสนับสนุน
               items:
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   href: migration-upgrade/deprecated-features.md
                 - name: การเลิกใช้วิธีการและองค์ประกอบข้อมูลเมตา
                   href: migration-upgrade/deprecation-deletion-apis.md
