@@ -76,11 +76,11 @@
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
-                    - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
+                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
+                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ฝัง Microsoft Power Apps
+                - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -196,9 +196,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
-        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+        - name: โลกาภิวัตน์
           items:
-            - name: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+            - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: ลำดับงานการจัดซื้อและการจัดหา
               href: procurement/procurement-sourcing-workflows.md
+            - name: แก้ไขปัญหาลำดับงานการจัดซื้อและการจัดหา
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: แค็ตตาล็อกการจัดซื้อ
               items:
                 - name: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: บันทึกการรับสินค้าในใบสั่งซื้อ
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: แก้ไขปัญหาใบสั่งซื้อ
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: การสร้างใบสั่งซื้อ
               items:
                 - name: สร้างใบสั่งซื้อด้วยตนเอง
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: เงินคืนของผู้จัดจำหน่าย
                   href: procurement/vendor-rebates.md
+                - name: แก้ไขปัญหาราคา ส่วนลด ข้อตกลง และเงินคืน
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: นโยบายการจัดซื้อ
               items:
                 - name: ภาพรวมของนโยบายการจัดซื้อ
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: แก้ไขปัญหาใบรับสินค้าและการออกใบแจ้งหนี้
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: การจัดการและการทำงานร่วมกันกับผู้จัดจำหน่าย
               items:
                 - name: ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
                   href: procurement/vendor-catalogs-import.md
-                - name: ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
+                - name: ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut e-procurement
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
+                - name: การปรับปรุง cXML การสั่งซื้อ
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut e-procurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: ยืนยันใบสั่งขาย
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: แก้ไขปัญหาใบสั่งขาย
+                  href: sales-marketing/troubleshooting-sales.md
             - name: ข้อตกลงการขาย
               items:
                 - name: ภาพรวมของข้อตกลงการขาย
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: สร้างและแก้ไขใบเสนอราคาขาย
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: แก้ไขปัญหาใบเสนอราคาขาย
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: การส่งคืนสินค้า
               items:
                 - name: การส่งคืนสินค้าจากการขาย
@@ -2807,18 +2821,20 @@
                   items:
                     - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปคลังสินค้า
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: การรับป้ายทะเบียนด้วยแอปคลังสินค้า
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ให้แสดงภาพรวมรายการการเบิกสินค้า
+                      href: warehousing/pick-line-overview.md
                     - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
