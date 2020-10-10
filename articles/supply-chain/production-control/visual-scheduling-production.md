@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210168"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887251"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 
@@ -38,7 +38,7 @@ ms.locfileid: "3210168"
 -   งานจากการใบสั่งผลิตที่วางแผนไว้
 -   งานจัดกำหนดการกิจกรรมโครงการของชนิดการคาดการณ์ชั่วโมงทำงาน
 
-สามารถเปิดแผนภูมิ Gantt ได้ในสองมุมมองที่ต่างกัน **มุมมองใบสั่ง** และ **มุมมองทรัพยากร**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true) ใน **มุมมองใบสั่ง** กิจกรรมจะถูกจัดกลุ่มอยู่ภายใต้ใบสั่งผลิต เช่นนี้อาจมีประโยชน์ ตัวอย่างเช่น ถ้าคุณต้องการรักษาภาพรวมของงานทั้งหมดที่เป็นของใบสั่งเดียวกัน ใน **มุมมองทรัพยากร** งานทั้งหมดจะถูกจัดกลุ่มภายใต้ทรัพยากรแต่ละรายการ มุมมองนี้มีประโยชน์เมื่อเพิ่มประสิทธิภาพแผนในระดับทรัพยากร ตัวอย่างเช่น กลุ่มของเครื่องจักรหรือเครื่องจักร แผนภูมิ Gantt ที่แสดงในภาพประกอบด้านล่างแสดง **มุมมองใบสั่ง** และ **มุมมองทรัพยากร** ที่มีองค์ประกอบหลักเหล่านี้:
+สามารถเปิดแผนภูมิ Gantt ได้ในสองมุมมองที่ต่างกัน **มุมมองใบสั่ง** และ **มุมมองทรัพยากร** ใน **มุมมองใบสั่ง** กิจกรรมจะถูกจัดกลุ่มอยู่ภายใต้ใบสั่งผลิต เช่นนี้อาจมีประโยชน์ ตัวอย่างเช่น ถ้าคุณต้องการรักษาภาพรวมของงานทั้งหมดที่เป็นของใบสั่งเดียวกัน ใน **มุมมองทรัพยากร** งานทั้งหมดจะถูกจัดกลุ่มภายใต้ทรัพยากรแต่ละรายการ มุมมองนี้มีประโยชน์เมื่อเพิ่มประสิทธิภาพแผนในระดับทรัพยากร ตัวอย่างเช่น กลุ่มของเครื่องจักรหรือเครื่องจักร แผนภูมิ Gantt ที่แสดงในภาพประกอบด้านล่างแสดง **มุมมองใบสั่ง** และ **มุมมองทรัพยากร** ที่มีองค์ประกอบหลักเหล่านี้:
 
 1.  กิจกรรมแผนภูมิ Gantt
 2.  ไอคอนขาดแคลนวัสดุ

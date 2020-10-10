@@ -3,7 +3,7 @@ title: โมดูลแกลเลอรี่สื่อ
 description: หัวข้อนี้ครอบคลุมถึงโมดูลแกลเลอรี่สื่อ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9df2b91b0a57c73e395242f840c423fa8c7f2c9f
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811169"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817193"
 ---
 # <a name="media-gallery-module"></a>โมดูลแกลเลอรี่สื่อ
 
@@ -97,10 +97,10 @@ ms.locfileid: "3811169"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 
 [โมดูลคอนเทนเนอร์](add-container-module.md)
 
-[อัปโหลดรูปภาพ](dam-upload-images.md)
+[อัพโหลดรูปภาพ](dam-upload-images.md)
