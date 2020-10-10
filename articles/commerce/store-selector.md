@@ -3,7 +3,7 @@ title: โมดูลตัวเลือกร้านค้า
 description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้า และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646146"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818261"
 ---
 # <a name="store-selector-module"></a>โมดูลตัวเลือกร้านค้า
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้า และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 
@@ -65,7 +64,7 @@ ms.locfileid: "3646146"
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูลตัวเลือกร้านค้าที่ใช้ใน PDP
 
-![ตัวอย่างของโมดูลตัวเลือกร้านค้า](./media/BOPIS.PNG)
+![ตัวอย่างของโมดูลตัวเลือกร้านค้าถูกใช้บน PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>โหมดค้นหาร้านค้า
 
@@ -73,7 +72,7 @@ ms.locfileid: "3646146"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของโมดูลตัวเลือกร้านค้าซึ่งใช้ร่วมกับโมดูลแผนที่บนหน้าที่ตั้งร้านค้า
 
-![ตัวอย่างของโมดูลตัวเลือกร้านค้า](./media/ecommerce-Storelocator.PNG)
+![ตัวอย่างของโมดูลการเลือกร้านค้าและโมดูลการแม็ปบนหน้าสถานที่ของร้านค้า](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>แสดงแผนที่
 
@@ -127,7 +126,7 @@ ms.locfileid: "3646146"
  
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 

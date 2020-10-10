@@ -3,7 +3,7 @@ title: FAQ เกี่ยวกับลำดับงาน
 description: หัวข้อนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบลำดับงาน
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076097"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826201"
 ---
 # <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
 
@@ -58,3 +58,5 @@ ms.locfileid: "3076097"
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>เพราะเหตุใดฉันจึงได้รับการชะงักงันของ SQL บนการประมวลผลลำดับงาน 
 ค่าฟิลด์เริ่มต้นสำหรับ **จำนวนของสินค้าในลำดับงานต่อชุดงาน** ในหน้า **พารามิเตอร์ลำดับงาน** คือ 0 ค่า 0 ทำให้ค่าเริ่มต้นเปลี่ยนเป็นสินค้า 20 รายการต่อชุดงาน โปรดใช้ความระมัดระวังเมื่อปรับค่านี้ เนื่องจากจำนวนสินค้าสูงสุดต่อชุดงาน (> 40) อาจทำให้เกิดการชะงักงันของ SQL
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>ลักษณะการทำงานข้อผิดพลาดขั้นสูงของลำดับงานคืออะไร
+ลักษณะการทำงานข้อผิดพลาดขั้นสูงของลำดับงานในเวอร์ชัน 10.0.13 เพิ่มรหัสข้อผิดพลาดเพื่อแยกความแตกต่างของข้อผิดพลาดของลำดับงาน ข้อความแสดงข้อผิดพลาดที่รายงานจะมีลักษณะคล้ายคลึงกันกับความแตกต่างเล็กๆ น้อยๆ เพื่อให้การทำงานชัดขึ้น

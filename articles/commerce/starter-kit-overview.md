@@ -1,9 +1,9 @@
 ---
-title: ภาพรวมของชุดเริ่มต้น
-description: หัวข้อนี้แสดงภาพรวมของ Microsoft Dynamics 365 Commerce ชุดเริ่มต้น
+title: ภาพรวมของไลบรารีโมดูล
+description: หัวข้อนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025913"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817837"
 ---
-# <a name="starter-kit-overview"></a>ภาพรวมของชุดเริ่มต้น
-
+# <a name="module-library-overview"></a>ภาพรวมของไลบรารีโมดูล
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของ Microsoft Dynamics 365 Commerce ชุดเริ่มต้น
+หัวข้อนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
-Dynamics 365 Commerce ชุดเริ่มต้น เป็นชุดของโมดูลที่สามารถใช้ในการสร้างเว็บไซต์อีคอมเมิร์ซ โมดูลมีทั้งด้านอินเทอร์เฟสผู้ใช้ (UI) และลักษณะการทำงาน
+ไลบรารีโมดูล Dynamics 365 Commerce เป็นชุดของโมดูลที่สามารถใช้ในการสร้างเว็บไซต์อีคอมเมิร์ซ โมดูลมีทั้งด้านอินเทอร์เฟสผู้ใช้ (UI) และลักษณะการทำงาน
 
-ชุดรูปแบบสามารถนำไปใช้กับโมดูลในชุดเริ่มต้น เพื่อเปลี่ยนลักษณะที่แสดง ชุดรูปแบบใช้ Cascading Style Sheets (CSS) ชุดรูปแบบสำหรับไซต์ e-Commerce ที่มีชื่อว่า "Fabrikam" ให้ไว้เป็นส่วนหนึ่งของชุดเริ่มต้น และสามารถใช้เป็นข้อมูลอ้างอิงได้
+ชุดรูปแบบสามารถนำไปใช้กับโมดูลในไลบรารีโมดูล เพื่อเปลี่ยนลักษณะที่แสดง ชุดรูปแบบใช้ Cascading Style Sheets (CSS) ธีมสำหรับไซต์ e-Commerce แบบสมมติที่มีชื่อว่า "Fabrikam" ให้ไว้เป็นส่วนหนึ่งของไลบรารีโมดูล และสามารถใช้เป็นข้อมูลอ้างอิงได้
 
-## <a name="starter-kit-modules"></a>โมดูลของชุดเริ่มต้น
+## <a name="module-library-modules"></a>โมดูลไลบรารีของโมดูล
 
-ชนิดของโมดูลต่อไปนี้มีไว้ในชุดเริ่มต้น:
+ชนิดของโมดูลต่อไปนี้มีให้ในไลบรารีโมดูล:
 
 - **โมดูลคอนเทนเนอร์** – โมดูลคอนเทนเนอร์เป็นโมดูลที่เรียบง่ายที่ทำหน้าที่เป็นโฮสต์สำหรับโมดูลอื่นๆ ซึ่งควบคุมโครงร่างของโมดูลที่อยู่ภายใน
 - **โมดูลการตลาด** – โมดูลการตลาด ได้แก่ บล็อคเนื้อหา บล็อคข้อความ เครื่องเล่นวิดีโอ และโมดูลแบบวงล้อ โมดูลเหล่านี้ทั้งหมดสามารถใช้ในการแสดงเนื้อหาได้ ซึ่งสามารถนำไปใช้ที่หน้าไหนก็ได้ และจะถูกขับเคลื่อนด้วยข้อมูลจากระบบการจัดการเนื้อหา (CMS)

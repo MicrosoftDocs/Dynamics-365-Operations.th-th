@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f7a784e6a66c0c2df9043468e9878de161c3be0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207427"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826815"
 ---
-# <a name="use-external-catalogs-for-punchout-eprocurement"></a>ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
+# <a name="use-external-catalogs-for-punchout-e-procurement"></a>ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +50,8 @@ ms.locfileid: "3207427"
 หลังจากที่มีการเพิ่มรายการไปยังใบขอซื้อ คุณสามารถเพิ่มรายการเพิ่มเติมโดยไม่ใช้แค็ตตาล็อกภายนอก หรือคุณยังคงสามารถใช้แค็ตตาล็อกภายนอกเพื่อเพิ่มรายการได้
 
 เมื่อใบขอซื้อพร้อมแล้ว ให้ใช้การดำเนินการ **ลำดับงาน** > **ส่ง** เพื่อที่จะส่งสำหรับการอนุมัติ
+
+### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+- [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
+- [การปรับปรุง cXML การสั่งซื้อ](purchasing-cxml-enhancements.md)
