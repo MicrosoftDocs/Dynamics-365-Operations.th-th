@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,118 +18,118 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6665e80342af1baa7176aee92693b77e83b368f0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 72d6c8d750a5a0903017b4c77b3ce5d9521cf99b
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205931"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889372"
 ---
-# <a name="fault-management"></a><span data-ttu-id="5754d-103">การจัดการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-103">Fault management</span></span>
+# <a name="fault-management"></a><span data-ttu-id="ea73e-103">การจัดการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-103">Fault management</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="5754d-104">ในการจัดการสินทรัพย์ คุณสามารถใช้โปรแกรมออกแบบข้อบกพร่องเพื่อตั้งค่าอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่องในชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="5754d-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="5754d-105">ด้วยวิธีนี้ คุณสามารถจัดการข้อบกพร่องที่ตรวจพบในสินทรัพย์ได้</span><span class="sxs-lookup"><span data-stu-id="5754d-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="5754d-106">นอกจากนี้ สาเหตุของข้อบกพร่อง เเละคำเเนะนำสำหรับการเเก้ไขข้อบกพร่องสามารถลงทะเบียนได้ในใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="5754d-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
+<span data-ttu-id="ea73e-104">ในการจัดการสินทรัพย์ คุณสามารถใช้โปรแกรมออกแบบข้อบกพร่องเพื่อตั้งค่าอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่องในชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="ea73e-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="ea73e-105">ด้วยวิธีนี้ คุณสามารถจัดการข้อบกพร่องที่ตรวจพบในสินทรัพย์ได้</span><span class="sxs-lookup"><span data-stu-id="ea73e-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="ea73e-106">นอกจากนี้ สาเหตุของข้อบกพร่อง เเละคำเเนะนำสำหรับการเเก้ไขข้อบกพร่องสามารถลงทะเบียนได้ในใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="ea73e-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
 
-<span data-ttu-id="5754d-107">กระบวนการสำหรับการลงทะเบียนข้อบกพร่อง และการจัดการประกอบด้วยขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5754d-107">The process for fault registration and management consists of these steps.</span></span>
+<span data-ttu-id="ea73e-107">กระบวนการสำหรับการลงทะเบียนข้อบกพร่อง และการจัดการประกอบด้วยขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ea73e-107">The process for fault registration and management consists of these steps.</span></span>
 
-1. <span data-ttu-id="5754d-108">สร้างรายการของอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง เเละชนิดข้อบกพร่องที่อาจเกิดขึ้นบนชนิดสินทรัพย์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5754d-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
-2. <span data-ttu-id="5754d-109">ในโปรแกรมออกแบบข้อบกพร่อง ตั้งค่าอาการ พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
+1. <span data-ttu-id="ea73e-108">สร้างรายการของอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง เเละชนิดข้อบกพร่องที่อาจเกิดขึ้นบนชนิดสินทรัพย์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="ea73e-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
+2. <span data-ttu-id="ea73e-109">ในโปรแกรมออกแบบข้อบกพร่อง ตั้งค่าอาการ พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="5754d-110">ต่อไปนี้เป็นตัวอย่างที่ช่วยให้คุณเข้าใจความแตกต่างระหว่างอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
+<span data-ttu-id="ea73e-110">ต่อไปนี้เป็นตัวอย่างที่ช่วยให้คุณเข้าใจความแตกต่างระหว่างอาการข้อบกพร่อง พื้นที่ข้อบกพร่อง และชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="5754d-111">**อาการข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-111">**Fault symptoms:**</span></span>
+<span data-ttu-id="ea73e-111">**อาการข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-111">**Fault symptoms:**</span></span>
 
-- <span data-ttu-id="5754d-112">แรงดันไฟฟ้าที่ไม่สมดุล</span><span class="sxs-lookup"><span data-stu-id="5754d-112">Unbalanced voltages</span></span>
-- <span data-ttu-id="5754d-113">ลัดวงจร</span><span class="sxs-lookup"><span data-stu-id="5754d-113">Short circuit</span></span>
-- <span data-ttu-id="5754d-114">เสียง</span><span class="sxs-lookup"><span data-stu-id="5754d-114">Noise</span></span>
-- <span data-ttu-id="5754d-115">รั่ว</span><span class="sxs-lookup"><span data-stu-id="5754d-115">Leak</span></span>
-- <span data-ttu-id="5754d-116">การสั่นสะเทือน</span><span class="sxs-lookup"><span data-stu-id="5754d-116">Vibrations</span></span>
+- <span data-ttu-id="ea73e-112">แรงดันไฟฟ้าที่ไม่สมดุล</span><span class="sxs-lookup"><span data-stu-id="ea73e-112">Unbalanced voltages</span></span>
+- <span data-ttu-id="ea73e-113">ลัดวงจร</span><span class="sxs-lookup"><span data-stu-id="ea73e-113">Short circuit</span></span>
+- <span data-ttu-id="ea73e-114">เสียง</span><span class="sxs-lookup"><span data-stu-id="ea73e-114">Noise</span></span>
+- <span data-ttu-id="ea73e-115">รั่ว</span><span class="sxs-lookup"><span data-stu-id="ea73e-115">Leak</span></span>
+- <span data-ttu-id="ea73e-116">การสั่นสะเทือน</span><span class="sxs-lookup"><span data-stu-id="ea73e-116">Vibrations</span></span>
 
-<span data-ttu-id="5754d-117">**พื้นที่ข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-117">**Fault areas:**</span></span>
+<span data-ttu-id="ea73e-117">**พื้นที่ข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-117">**Fault areas:**</span></span>
 
-- <span data-ttu-id="5754d-118">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="5754d-118">Electrical</span></span>
-- <span data-ttu-id="5754d-119">เชิงกล</span><span class="sxs-lookup"><span data-stu-id="5754d-119">Mechanical</span></span>
-- <span data-ttu-id="5754d-120">ไฮดรอลิก</span><span class="sxs-lookup"><span data-stu-id="5754d-120">Hydraulic</span></span>
-- <span data-ttu-id="5754d-121">นิวเมติก</span><span class="sxs-lookup"><span data-stu-id="5754d-121">Pneumatic</span></span>
+- <span data-ttu-id="ea73e-118">ไฟฟ้า</span><span class="sxs-lookup"><span data-stu-id="ea73e-118">Electrical</span></span>
+- <span data-ttu-id="ea73e-119">เชิงกล</span><span class="sxs-lookup"><span data-stu-id="ea73e-119">Mechanical</span></span>
+- <span data-ttu-id="ea73e-120">ไฮดรอลิก</span><span class="sxs-lookup"><span data-stu-id="ea73e-120">Hydraulic</span></span>
+- <span data-ttu-id="ea73e-121">นิวเมติก</span><span class="sxs-lookup"><span data-stu-id="ea73e-121">Pneumatic</span></span>
 
-<span data-ttu-id="5754d-122">**ชนิดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-122">**Fault types:**</span></span>
+<span data-ttu-id="ea73e-122">**ชนิดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-122">**Fault types:**</span></span>
 
-- <span data-ttu-id="5754d-123">สเตเตอร์หลักผิดพลาดในการหมุน</span><span class="sxs-lookup"><span data-stu-id="5754d-123">Faulty main stator winding</span></span>
-- <span data-ttu-id="5754d-124">ไดโอดผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="5754d-124">Faulty diode</span></span>
-- <span data-ttu-id="5754d-125">ขดลวดสกปรก</span><span class="sxs-lookup"><span data-stu-id="5754d-125">Dirty windings</span></span>
-- <span data-ttu-id="5754d-126">ตัวสร้างที่บกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-126">Defective generator</span></span>
-- <span data-ttu-id="5754d-127">เซ็นเซอร์ที่บกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-127">Defective sensor</span></span>
+- <span data-ttu-id="ea73e-123">สเตเตอร์หลักผิดพลาดในการหมุน</span><span class="sxs-lookup"><span data-stu-id="ea73e-123">Faulty main stator winding</span></span>
+- <span data-ttu-id="ea73e-124">ไดโอดผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="ea73e-124">Faulty diode</span></span>
+- <span data-ttu-id="ea73e-125">ขดลวดสกปรก</span><span class="sxs-lookup"><span data-stu-id="ea73e-125">Dirty windings</span></span>
+- <span data-ttu-id="ea73e-126">ตัวสร้างที่บกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-126">Defective generator</span></span>
+- <span data-ttu-id="ea73e-127">เซ็นเซอร์ที่บกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-127">Defective sensor</span></span>
 
-## <a name="create-fault-symptoms"></a><span data-ttu-id="5754d-128">สร้างอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-128">Create fault symptoms</span></span>
+## <a name="create-fault-symptoms"></a><span data-ttu-id="ea73e-128">สร้างอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-128">Create fault symptoms</span></span>
 
-<span data-ttu-id="5754d-129">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของอาการที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
+<span data-ttu-id="ea73e-129">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของอาการที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="5754d-130">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **อาการข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
-2. <span data-ttu-id="5754d-131">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="5754d-131">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="5754d-132">ในฟิล์ด **อาการข้อบกพร่อง** ป้อนชื่อสำหรับอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
-4. <span data-ttu-id="5754d-133">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5754d-133">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="5754d-134">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5754d-134">Select **Save**.</span></span>
+1. <span data-ttu-id="ea73e-130">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **อาการข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
+2. <span data-ttu-id="ea73e-131">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ea73e-131">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="ea73e-132">ในฟิล์ด **อาการข้อบกพร่อง** ป้อนชื่อสำหรับอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
+4. <span data-ttu-id="ea73e-133">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ea73e-133">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="ea73e-134">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="ea73e-134">Select **Save**.</span></span>
 
-## <a name="create-fault-areas"></a><span data-ttu-id="5754d-135">สร้างพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-135">Create fault areas</span></span>
+## <a name="create-fault-areas"></a><span data-ttu-id="ea73e-135">สร้างพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-135">Create fault areas</span></span>
 
-<span data-ttu-id="5754d-136">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของอาการ หรือสถานที่ที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
+<span data-ttu-id="ea73e-136">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของอาการ หรือสถานที่ที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="5754d-137">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **พื้นที่ข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
-2. <span data-ttu-id="5754d-138">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="5754d-138">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="5754d-139">ในฟิล์ด **พื้นที่ข้อบกพร่อง** ป้อนชื่อสำหรับพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-139">In the **Fault area** field, enter a name for the fault area.</span></span>
-4. <span data-ttu-id="5754d-140">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5754d-140">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="5754d-141">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5754d-141">Select **Save**.</span></span>
+1. <span data-ttu-id="ea73e-137">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **พื้นที่ข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
+2. <span data-ttu-id="ea73e-138">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ea73e-138">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="ea73e-139">ในฟิล์ด **พื้นที่ข้อบกพร่อง** ป้อนชื่อสำหรับพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-139">In the **Fault area** field, enter a name for the fault area.</span></span>
+4. <span data-ttu-id="ea73e-140">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ea73e-140">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="ea73e-141">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="ea73e-141">Select **Save**.</span></span>
 
-## <a name="create-fault-types"></a><span data-ttu-id="5754d-142">สร้างชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-142">Create fault types</span></span>
+## <a name="create-fault-types"></a><span data-ttu-id="ea73e-142">สร้างชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-142">Create fault types</span></span>
 
-<span data-ttu-id="5754d-143">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการชนิดข้อบกพร่องที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
+<span data-ttu-id="ea73e-143">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการชนิดข้อบกพร่องที่สามารถใช้ในโปรแกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="5754d-144">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **ชนิดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
-2. <span data-ttu-id="5754d-145">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="5754d-145">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="5754d-146">ในฟิลด์ **ชนิดข้อบกพร่อง** ให้ป้อนชื่อสำหรับชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-146">In the **Fault type** field, enter a name for the fault type.</span></span>
-4. <span data-ttu-id="5754d-147">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5754d-147">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="5754d-148">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5754d-148">Select **Save**.</span></span>
+1. <span data-ttu-id="ea73e-144">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **ชนิดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
+2. <span data-ttu-id="ea73e-145">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ea73e-145">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="ea73e-146">ในฟิลด์ **ชนิดข้อบกพร่อง** ให้ป้อนชื่อสำหรับชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-146">In the **Fault type** field, enter a name for the fault type.</span></span>
+4. <span data-ttu-id="ea73e-147">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ea73e-147">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="ea73e-148">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="ea73e-148">Select **Save**.</span></span>
 
-## <a name="set-up-the-fault-designer"></a><span data-ttu-id="5754d-149">ตั้งค่าโปรเเกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-149">Set up the fault designer</span></span>
+## <a name="set-up-the-fault-designer"></a><span data-ttu-id="ea73e-149">ตั้งค่าโปรเเกรมออกแบบข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-149">Set up the fault designer</span></span>
 
-<span data-ttu-id="5754d-150">ในโปรแกรมออกแบบข้อบกพร่อง คุณตั้งค่าข้อมูลบกพร่องบนชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="5754d-150">In the fault designer, you set up fault data on asset types.</span></span>
+<span data-ttu-id="ea73e-150">ในโปรแกรมออกแบบข้อบกพร่อง คุณตั้งค่าข้อมูลบกพร่องบนชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="ea73e-150">In the fault designer, you set up fault data on asset types.</span></span>
 
-1. <span data-ttu-id="5754d-151">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **โปรเเกรมออกเเบบข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
-2. <span data-ttu-id="5754d-152">ในบานหน้าต่างด้านซ้าย เลือกชนิดของสินทรัพย์เพื่อตั้งค่าเรกคอร์ดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
-3. <span data-ttu-id="5754d-153">บนแท็บด่วน **อาการข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **อาการข้อบกพร่อง** เลือกอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
-4. <span data-ttu-id="5754d-154">บนแท็บด่วน **พื้นที่ข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **พื้นที่ข้อบกพร่อง** เลือกพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
-5. <span data-ttu-id="5754d-155">บนแท็บด่วน **ชนิดข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **ชนิดข้อบกพร่อง** เลือกชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
-6. <span data-ttu-id="5754d-156">เมื่อต้องการสร้างชุดของอาการข้อบกพร่อง พื้นที่ และชนิดอย่างรวดเร็วสำหรับการเลือกชนิดสินทรัพย์ เลือก **สร้างชุดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="5754d-157">ฟังก์ชันนี้มีประโยชน์ถ้าคุณเพิ่มอาการข้อบกพร่อง พื้นที่ และชนิดต่างๆหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="5754d-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="5754d-158">เป็นการง่ายที่จะลบรายการสำหรับชุดใดๆที่ไม่เกี่ยวข้องกับชนิดสินทรัพย์กว่าการสร้างรายการใหม่ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="5754d-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
+1. <span data-ttu-id="ea73e-151">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **โปรเเกรมออกเเบบข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
+2. <span data-ttu-id="ea73e-152">ในบานหน้าต่างด้านซ้าย เลือกชนิดของสินทรัพย์เพื่อตั้งค่าเรกคอร์ดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
+3. <span data-ttu-id="ea73e-153">บนแท็บด่วน **อาการข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **อาการข้อบกพร่อง** เลือกอาการข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
+4. <span data-ttu-id="ea73e-154">บนแท็บด่วน **พื้นที่ข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **พื้นที่ข้อบกพร่อง** เลือกพื้นที่ข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
+5. <span data-ttu-id="ea73e-155">บนแท็บด่วน **ชนิดข้อบกพร่อง** เลือก **เพิ่มรายการ** เเละจากนั่น ในฟิล์ด **ชนิดข้อบกพร่อง** เลือกชนิดข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
+6. <span data-ttu-id="ea73e-156">เมื่อต้องการสร้างชุดของอาการข้อบกพร่อง พื้นที่ และชนิดอย่างรวดเร็วสำหรับการเลือกชนิดสินทรัพย์ เลือก **สร้างชุดข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="ea73e-157">ฟังก์ชันนี้มีประโยชน์ถ้าคุณเพิ่มอาการข้อบกพร่อง พื้นที่ และชนิดต่างๆหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="ea73e-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="ea73e-158">เป็นการง่ายที่จะลบรายการสำหรับชุดใดๆที่ไม่เกี่ยวข้องกับชนิดสินทรัพย์กว่าการสร้างรายการใหม่ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="ea73e-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="5754d-159">เมื่อต้องการคัดลอกการตั้งค่าของอาการข้อบกพร่อง พื้นที่ และชนิดจากสินทรัพย์ชนิดหนึ่งไปยังชนิดสินทรัพย์ที่่เลือก เลือก **คัดลอกจากชนิดสินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="5754d-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
+    > <span data-ttu-id="ea73e-159">เมื่อต้องการคัดลอกการตั้งค่าของอาการข้อบกพร่อง พื้นที่ และชนิดจากสินทรัพย์ชนิดหนึ่งไปยังชนิดสินทรัพย์ที่่เลือก เลือก **คัดลอกจากชนิดสินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="ea73e-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
 
-7. <span data-ttu-id="5754d-160">เลือก **บันทึก** เพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="5754d-160">Select **Save** to save your changes.</span></span>
+7. <span data-ttu-id="ea73e-160">เลือก **บันทึก** เพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="ea73e-160">Select **Save** to save your changes.</span></span>
 
 ![เพจตัวออกแบบข้อบกพร่อง](media/21-setup-for-work-orders.png)
 
-## <a name="create-fault-causes"></a><span data-ttu-id="5754d-162">สร้างสาเหตุข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-162">Create fault causes</span></span>
+## <a name="create-fault-causes"></a><span data-ttu-id="ea73e-162">สร้างสาเหตุข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-162">Create fault causes</span></span>
 
-<span data-ttu-id="5754d-163">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของสาเหตุข้อบกพร่องที่ทราบซึ่งสามารถเพิ่มเข้าไปในใบสั่งงาน หรือคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="5754d-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="ea73e-163">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของสาเหตุข้อบกพร่องที่ทราบซึ่งสามารถเพิ่มเข้าไปในใบสั่งงาน หรือคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="ea73e-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="5754d-164">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **สาเหตุข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
-2. <span data-ttu-id="5754d-165">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="5754d-165">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="5754d-166">ในฟิลด์ **สาเหตุข้อบกพร่อง** ให้ป้อนชื่อสำหรับสาเหตุข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
-4. <span data-ttu-id="5754d-167">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5754d-167">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="5754d-168">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5754d-168">Select **Save**.</span></span>
+1. <span data-ttu-id="ea73e-164">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **สาเหตุข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
+2. <span data-ttu-id="ea73e-165">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ea73e-165">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="ea73e-166">ในฟิลด์ **สาเหตุข้อบกพร่อง** ให้ป้อนชื่อสำหรับสาเหตุข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
+4. <span data-ttu-id="ea73e-167">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ea73e-167">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="ea73e-168">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="ea73e-168">Select **Save**.</span></span>
 
-## <a name="create-fault-remedies"></a><span data-ttu-id="5754d-169">สร้างการเเก้ไขข้อผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="5754d-169">Create fault remedies</span></span>
+## <a name="create-fault-remedies"></a><span data-ttu-id="ea73e-169">สร้างการเเก้ไขข้อผิดพลาด</span><span class="sxs-lookup"><span data-stu-id="ea73e-169">Create fault remedies</span></span>
 
-<span data-ttu-id="5754d-170">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของคำเเนะนำสำหรับการเเก้ไข เเละซ่อมเเซมซึ่งสามารถเพิ่มเข้าไปในใบสั่งงาน หรือคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="5754d-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="ea73e-170">ทำตามขั้นตอนต่อไปนี้เพื่อสร้างรายการของคำเเนะนำสำหรับการเเก้ไข เเละซ่อมเเซมซึ่งสามารถเพิ่มเข้าไปในใบสั่งงาน หรือคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="ea73e-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="5754d-171">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **การเเก้ไขข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="5754d-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
-2. <span data-ttu-id="5754d-172">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="5754d-172">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="5754d-173">ในฟิล์ด **การแก้ไขข้อบกพร่อง** ป้อนชื่อสำหรับการแก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="5754d-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
-4. <span data-ttu-id="5754d-174">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5754d-174">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="5754d-175">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5754d-175">Select **Save**.</span></span>
+1. <span data-ttu-id="ea73e-171">เลือก **การจัดการสินทรัพย์** \> **ตั้งต่า** \> **ข้อบกพร่อง** \> **การเเก้ไขข้อบกพร่อง**</span><span class="sxs-lookup"><span data-stu-id="ea73e-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
+2. <span data-ttu-id="ea73e-172">เลือก **สร้าง** เพื่อสร้างเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ea73e-172">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="ea73e-173">ในฟิล์ด **การแก้ไขข้อบกพร่อง** ป้อนชื่อสำหรับการแก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
+4. <span data-ttu-id="ea73e-174">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ea73e-174">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="ea73e-175">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="ea73e-175">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5754d-176">คุณสามารถเปลี่ยนชื่อของอาการข้อผิดพลาด พื้นที่ ชนิด สาเหตุ และการเเก้ไขของคุณตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="5754d-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="5754d-177">การเปลี่ยนแปลงชื่อจะสะท้อนให้เห็นโดยอัตโนมัติในการลงทะเบียนข้อบกพร่องที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="5754d-177">The name changes are automatically reflected in the related fault registrations.</span></span>
+> <span data-ttu-id="ea73e-176">คุณสามารถเปลี่ยนชื่อของอาการข้อผิดพลาด พื้นที่ ชนิด สาเหตุ และการเเก้ไขของคุณตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="ea73e-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="ea73e-177">การเปลี่ยนแปลงชื่อจะสะท้อนให้เห็นโดยอัตโนมัติในการลงทะเบียนข้อบกพร่องที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="ea73e-177">The name changes are automatically reflected in the related fault registrations.</span></span>

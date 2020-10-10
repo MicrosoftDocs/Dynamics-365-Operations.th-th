@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
+ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd, ProdSetupReportFinished
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,38 +17,38 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: def39fa86103bc69d1c88dde8d0660945c1de82e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 93193e6365bcf82fbbf93af81e2581a358899fa1
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210559"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826297"
 ---
-# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="4b53b-103">รายงานการเสร็จงานของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="4b53b-103">Report a production order as finished</span></span>
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="7ad1c-103">รายงานการเสร็จงานของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="7ad1c-103">Report a production order as finished</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4b53b-104">ขั้นตอนนี้แสดงถึงวิธีการรายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="4b53b-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="4b53b-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="4b53b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="4b53b-106">นี่เป็นขั้นตอนที่หกจากเจ็ดซึ่งอธิบายวงจรชีวิตใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="4b53b-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="7ad1c-104">ขั้นตอนนี้แสดงถึงวิธีการรายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="7ad1c-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="7ad1c-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="7ad1c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7ad1c-106">นี่เป็นขั้นตอนที่หกจากเจ็ดซึ่งอธิบายวงจรชีวิตใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="7ad1c-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="4b53b-107">รายงานการเสร็จงานของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="4b53b-107">Report a production order as finished</span></span>
-1. <span data-ttu-id="4b53b-108">ไปที่การควบคุมการผลิต > ใบสั่งผลิต > ใบสั่งผลิตทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="4b53b-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="4b53b-109">เลือกใบสั่งผลิตที่มีสถานะเริ่มต้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="4b53b-109">Select a production order that has the Started status.</span></span>  
-2. <span data-ttu-id="4b53b-110">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="4b53b-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="4b53b-111">คลิก รายงาน เมื่อเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="4b53b-111">Click Report as finished.</span></span>
-    * <span data-ttu-id="4b53b-112">บนหน้านี้ คุณสามารถยืนยันปริมาณของผลิตภัณฑ์สำเร็จรูปที่จะรายงานเมื่อเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="4b53b-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
-4. <span data-ttu-id="4b53b-113">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="4b53b-113">Click the General tab.</span></span>
-5. <span data-ttu-id="4b53b-114">ตั้งค่าปริมาณสินค้าที่ดีเป็น '18'</span><span class="sxs-lookup"><span data-stu-id="4b53b-114">Set Good quantity to '18'.</span></span>
-6. <span data-ttu-id="4b53b-115">กำหนดปริมาณสินค้าที่บกพร่องเป็น '2'</span><span class="sxs-lookup"><span data-stu-id="4b53b-115">Set Error quantity to '2'.</span></span>
-7. <span data-ttu-id="4b53b-116">ในฟิลด์สาเหตุของข้อผิดพลาด เลือก 'วัสดุ'</span><span class="sxs-lookup"><span data-stu-id="4b53b-116">In the Error cause field, select 'Material'.</span></span>
-8. <span data-ttu-id="4b53b-117">เลือกหรือล้างจบงานกล่องกาเครื่องหมาย</span><span class="sxs-lookup"><span data-stu-id="4b53b-117">Select or clear the End job check box.</span></span>
-9. <span data-ttu-id="4b53b-118">เลือกหรือยกเลิกยอมรับข้อผิดพลาดกล่องกาเครื่องหมาย</span><span class="sxs-lookup"><span data-stu-id="4b53b-118">Select or clear the Accept error check box.</span></span>
-10. <span data-ttu-id="4b53b-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="4b53b-119">Click OK.</span></span>
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="7ad1c-107">รายงานการเสร็จงานของใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="7ad1c-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="7ad1c-108">ไปที่การควบคุมการผลิต > ใบสั่งผลิต > ใบสั่งผลิตทั้งหมด </span><span class="sxs-lookup"><span data-stu-id="7ad1c-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="7ad1c-109">เลือกใบสั่งผลิตที่มีสถานะเริ่มต้นแล้ว</span><span class="sxs-lookup"><span data-stu-id="7ad1c-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="7ad1c-110">ในบานหน้าต่างการดำเนินการ ให้คลิก ใบสั่งผลิต</span><span class="sxs-lookup"><span data-stu-id="7ad1c-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="7ad1c-111">คลิก รายงาน เมื่อเสร็จสิ้น</span><span class="sxs-lookup"><span data-stu-id="7ad1c-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="7ad1c-112">บนหน้านี้ คุณสามารถยืนยันปริมาณของผลิตภัณฑ์สำเร็จรูปที่จะรายงานเมื่อเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="7ad1c-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="7ad1c-113">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7ad1c-113">Click the General tab.</span></span>
+5. <span data-ttu-id="7ad1c-114">ตั้งค่าปริมาณสินค้าที่ดีเป็น '18'</span><span class="sxs-lookup"><span data-stu-id="7ad1c-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="7ad1c-115">กำหนดปริมาณสินค้าที่บกพร่องเป็น '2'</span><span class="sxs-lookup"><span data-stu-id="7ad1c-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="7ad1c-116">ในฟิลด์สาเหตุของข้อผิดพลาด เลือก 'วัสดุ'</span><span class="sxs-lookup"><span data-stu-id="7ad1c-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="7ad1c-117">เลือกหรือล้างจบงานกล่องกาเครื่องหมาย</span><span class="sxs-lookup"><span data-stu-id="7ad1c-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="7ad1c-118">เลือกหรือยกเลิกยอมรับข้อผิดพลาดกล่องกาเครื่องหมาย</span><span class="sxs-lookup"><span data-stu-id="7ad1c-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="7ad1c-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="7ad1c-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="4b53b-120">ตรวจสอบรายงานสมุดรายวันเมื่อเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="4b53b-120">Verify the Report as finished journal</span></span>
-1. <span data-ttu-id="4b53b-121">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="4b53b-121">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="4b53b-122">คลิก รายงานเมื่อเสร็จสมบูรณ์แล้ว</span><span class="sxs-lookup"><span data-stu-id="4b53b-122">Click Reported as finished.</span></span>
-3. <span data-ttu-id="4b53b-123">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4b53b-123">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="4b53b-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="4b53b-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="4b53b-125">มีการงรายการบัญชีรายงานเมื่อสมุดรายวันเสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="4b53b-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="4b53b-126">ถ้าคุณต้องการทำการปรับปรุงสมุดรายวัน คุณสามารถสร้างสมุดรายวันใหม่ที่คุณสามารถสร้างการเปลี่ยนแปลงด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="4b53b-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="7ad1c-120">ตรวจสอบรายงานสมุดรายวันเมื่อเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="7ad1c-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="7ad1c-121">ในบานหน้าต่างการดำเนินการ ให้คลิก ดู</span><span class="sxs-lookup"><span data-stu-id="7ad1c-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="7ad1c-122">คลิก รายงานเมื่อเสร็จสมบูรณ์แล้ว</span><span class="sxs-lookup"><span data-stu-id="7ad1c-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="7ad1c-123">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7ad1c-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="7ad1c-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7ad1c-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="7ad1c-125">มีการงรายการบัญชีรายงานเมื่อสมุดรายวันเสร็จสมบูรณ์ </span><span class="sxs-lookup"><span data-stu-id="7ad1c-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="7ad1c-126">ถ้าคุณต้องการทำการปรับปรุงสมุดรายวัน คุณสามารถสร้างสมุดรายวันใหม่ที่คุณสามารถสร้างการเปลี่ยนแปลงด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="7ad1c-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 
