@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761140"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818286"
 ---
 # <a name="cart-module"></a>โมดูลรถเข็น
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูลรถเข็น และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 
@@ -41,11 +40,11 @@ ms.locfileid: "3761140"
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของหน้ารถเข็นบนไซต์ Fabrikam
 
-![ตัวอย่างของโมดูลรถเข็น](./media/cart2.PNG)
+![ตัวอย่างของโมดูลรถเข็นบนไซต์ Fabrikam](./media/cart2.PNG)
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของหน้ารถเข็นบนไซต์ Fabrikam ในตัวอย่างนี้ มีค่าธรรมเนียมการดำเนินการสำหรับสินค้าในรายการ
 
-![ตัวอย่างของโมดูลรถเข็น](./media/ecommerce-handling-fee.png)
+![ตัวอย่างของโมดูรถเข็นที่มีค่าธรรมเนียมการจัดการสำหรับสินค้าในรายการ](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>คุณสมบัติของโมดูลรถเข็นและช่อง
 

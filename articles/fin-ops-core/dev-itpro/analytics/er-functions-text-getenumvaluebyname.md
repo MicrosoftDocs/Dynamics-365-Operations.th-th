@@ -3,7 +3,7 @@ title: ฟังก์ชัน GETENUMVALUEBYNAME ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ GETENUMVALUEBYNAME (ER)
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743866"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885238"
 ---
 # <a name="getenumvaluebyname-er-function"></a>ฟังก์ชัน GETENUMVALUEBYNAME ER
 
@@ -61,11 +61,11 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 
 ไม่มีข้อยกเว้น หากไม่พบค่า *Enum* โดยใช้ชื่อของค่าการแจงนับที่ระบุเป็นค่า *สตริง*
 
-## <a name="example"></a>ตัวอย่าง
+## <a name="example-1"></a>ตัวอย่างที่ 1
 
 ในแผนภาพต่อไปนี้ การแจงนับ **ReportDirection** ถูกนำมาใช้ในรูปแบบข้อมูล โปรดทราบว่า ป้ายชื่อถูกกำหนดไว้สำหรับค่าแจงนับ
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![ค่าที่พร้อมใช้งานสำหรับการแจงนับรูปแบบข้อมูล](./media/ER-data-model-enumeration-values.PNG)
 
 ภาพประกอบต่อไปนี้แสดงรายละเอียดเหล่านี้:
 
@@ -73,8 +73,48 @@ GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 - นิพจน์ `$IsArrivals` ถูกออกแบบมาเพื่อใช้การแจงนับแบบจำลอง–ที่ขึ้นกับ **$ทิศทาง** เป็นพารามิเตอร์ของฟังก์ชันนี้
 - ค่าของนิพจน์การเปรียบเทียบนี้คือ **จริง**
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![ตัวอย่างของการแจงนับรูปแบบข้อมูล](./media/ER-data-model-enumeration-usage.PNG)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="example-2"></a>ตัวอย่างที่ 2
+
+ฟังก์ชัน `GETENUMVALUEBYNAME` และ [`LISTOFFIELDS`](er-functions-list-listoffields.md) ช่วยให้คุณสามารถนำค่าและป้ายชื่อของการแจงนับที่ได้รับการสนับสนุนเป็นค่าข้อความ (การแจงนับได้รับการสนับสนุนเป็นการแจงนับแอปพลิเคชัน การแจงนับรูปแบบข้อมูล และรูปแบบการแจงนับ)
+
+ในแผนภาพต่อไปนี้ แหล่งข้อมูล **TransType** ถูกนำมาใช้ในการแม็ปแบบจำลอง แหล่งข้อมูลนี้อ้างอิงถึงการแจงนับแอพลิเคชัน **LedgerTransType**
+
+![แหล่งข้อมูลของการแม็ปแบบจำลองที่อ้างอิงถึงการแจงนับของแอพลิเคชัน](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+ในแผนภาพต่อไปนี้แสเงแหล่งข้อมูล **TransTypeList** ที่ถูกตั้งค่าคอนฟิกในการแม็ปแบบจำลอง แหล่งข้อมูลนี้ถูกตั้งค่าคอนฟิกตามการแจงนับแอพลิเคชัน **TransType** ฟังก์ชัน `LISTOFFIELDS` ใช้เพื่อส่งคืนค่าการแจงนับทั้งหมดเป็นรายการเรกคอร์ดที่มีฟิลด์ ในลักษณะนี้ จะมีการเปิดเผยรายละเอียดของค่าการแจงนับทั้งหมด
+
+> [!NOTE]
+> ฟิลด์ **EnumValue** ถูกตั้งค่าคอนฟิกสำหรับแหล่งข้อมูล **TransTypeList** โดยใช้นิพจน์ `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` ฟิลด์นี้ส่งคืนค่าการแจงนับสำหรับเร็กคอร์ดทั้งหมดในรายการนี้
+
+![แหล่งข้อมูลของการแม็ปแบบจำลองที่ส่งคืนค่าการแจงนับทั้งหมดของการแจงนับที่เลือกเป็นรายการของเรกคอร์ด](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+ในแผนภาพต่อไปนี้แสเงแหล่งข้อมูล **VendTrans** ที่ถูกตั้งค่าคอนฟิกในการแม็ปแบบจำลอง แหล่งข้อมูลนี้ส่งคืนเรกคอร์ดธุรกรรมผู้จัดจำหน่ายจากตารางแอพลิเคชัน **VendTrans** ชนิดบัญชีแยกประเภทของธุรกรรมทั้งหมดจะถูกกำหนดโดยค่าของฟิลด์ **TransType**
+
+> [!NOTE]
+> ฟิลด์ **TransTypeTitle** ถูกตั้งค่าคอนฟิกสำหรับแหล่งข้อมูล **VendTrans** โดยใช้นิพจน์ `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` ฟิลด์นี้จะส่งคืนป้ายชื่อของค่าการแจงนับของธุรกรรมปัจจุบันเป็นข้อความ ถ้าค่าการแจงนับนี้พร้อมใช้งาน มิฉะนั้น จะส่งกลับค่าสตริงที่ว่างเปล่า
+>
+> ฟิลด์ **TransTypeTitle** ถูกผูกไว้กับฟิลด์ **LedgerType** ของรูปแบบข้อมูลซึ่งช่วยให้สามารถใช้ข้อมูลนี้ในทุกรูปแบบ ER ซึ่งใช้รูปแบบข้อมูลเป็นแหล่งที่มาของข้อมูล
+
+![แหล่งข้อมูลของการแม็ปแบบจำลองที่ส่งคืนธุรกรรมผู้จัดจำหน่าย](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+ภาพประกอบต่อไปนี้แสดงวิธีการที่คุณสามารถใช้ [ดีบักเกอร์แหล่งข้อมูล](er-debug-data-sources.md) เพื่อทดสอบการแม็ปแบบจำลองที่ตั้งค่าคอนฟิก
+
+![การใช้ดีบักเกอร์แหล่งข้อมูลเพื่อทดสอบการแม็ปแบบจำลองที่ตั้งค่าคอนฟิก](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+ฟิลด์ **LedgerType** ของป้ายชื่อที่แสดงรูปแบบข้อมูลของชนิดธุรกรรมตามที่คาดไว้
+
+ถ้าคุณวางแผนที่จะใช้วิธีการนี้สำหรับข้อมูลของธุรกรรมจำนวนมาก คุณต้องพิจารณาประสิทธิภาพของการดำเนินการ สำหรับข้อมูลเพิ่มเติม ให้ดู [ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ](trace-execution-er-troubleshoot-perf.md)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันข้อความ](er-functions-category-text.md)
+
+[ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ](trace-execution-er-troubleshoot-perf.md)
+
+[ฟังก์ชัน LISTOFFIELDS ER](er-functions-list-listoffields.md)
+
+[ฟังก์ชัน FIRSTORNULL ER](er-functions-list-firstornull.md)
+
+[ฟังก์ชั่น WHERE ER](er-functions-list-where.md)
