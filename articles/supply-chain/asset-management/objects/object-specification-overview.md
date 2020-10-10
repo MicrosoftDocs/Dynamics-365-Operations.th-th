@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,25 +18,25 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc7b6c5a415e233993b3cf14e499a2296b31e7fe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b91e88292acf8e67de924a746b02858664ae9ec6
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209202"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3890020"
 ---
-# <a name="asset-attribute-overview"></a><span data-ttu-id="06435-103">ภาพรวมแอททริบิวต์สินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="06435-103">Asset attribute overview</span></span>
+# <a name="asset-attribute-overview"></a><span data-ttu-id="d93f2-103">ภาพรวมแอททริบิวต์สินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="d93f2-103">Asset attribute overview</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="06435-104">หัวข้อนี้แสดงภาพรวมของแอททริบิวต์สินทรัพย์ในการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="06435-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="06435-105">แอททริบิวต์สินทรัพย์คือคุณสมบัติที่เกี่ยวข้องกับชนิดสินทรัพย์หรือสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="06435-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="06435-106">ถ้าคุณได้ตั้งค่า [ชนิดสินทรัพย์](../setup-for-functional-locations/specification-types.md) และใช้ในสินทรัพย์ คุณจะสามารถเรียกดูภาพรวมของค่าแอททริบิวต์ที่ตั้งค่าไว้ในสินทรัพย์ได้</span><span class="sxs-lookup"><span data-stu-id="06435-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="06435-107">ภาพรวมนี้จะแสดงอยู่ในหน้าสองหน้าในการจัดการสินทรัพย์: **ภาพรวมแอททริบิวต์สินทรัพย์** และ **แอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="06435-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
+<span data-ttu-id="d93f2-104">หัวข้อนี้แสดงภาพรวมของแอททริบิวต์สินทรัพย์ในการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="d93f2-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="d93f2-105">แอททริบิวต์สินทรัพย์คือคุณสมบัติที่เกี่ยวข้องกับชนิดสินทรัพย์หรือสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="d93f2-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="d93f2-106">ถ้าคุณได้ตั้งค่า [ชนิดสินทรัพย์](../setup-for-functional-locations/specification-types.md) และใช้ในสินทรัพย์ คุณจะสามารถเรียกดูภาพรวมของค่าแอททริบิวต์ที่ตั้งค่าไว้ในสินทรัพย์ได้</span><span class="sxs-lookup"><span data-stu-id="d93f2-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="d93f2-107">ภาพรวมนี้จะแสดงอยู่ในหน้าสองหน้าในการจัดการสินทรัพย์: **ภาพรวมแอททริบิวต์สินทรัพย์** และ **แอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="d93f2-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
 
-<span data-ttu-id="06435-108">หน้า **ภาพรวมแอททริบิวต์สินทรัพย์** แสดงรายการที่แยกต่างหากสำหรับสินทรัพย์แต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="06435-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="06435-109">รายการแสดงชนิดแอททริบิวต์ทั้งหมดที่เกี่ยวข้องกับสินทรัพย์นั้น</span><span class="sxs-lookup"><span data-stu-id="06435-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="06435-110">ทำตามขั้นตอนเหล่านี้เพื่อเปิด และใช้หน้า **ภาพรวมแอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="06435-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
+<span data-ttu-id="d93f2-108">หน้า **ภาพรวมแอททริบิวต์สินทรัพย์** แสดงรายการที่แยกต่างหากสำหรับสินทรัพย์แต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="d93f2-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="d93f2-109">รายการแสดงชนิดแอททริบิวต์ทั้งหมดที่เกี่ยวข้องกับสินทรัพย์นั้น</span><span class="sxs-lookup"><span data-stu-id="d93f2-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="d93f2-110">ทำตามขั้นตอนเหล่านี้เพื่อเปิด และใช้หน้า **ภาพรวมแอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="d93f2-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
 
-1. <span data-ttu-id="06435-111">เลือก **การจัดการสินทรัพย์** \> **การสอบถาม** \> **สินทรัพย์** \> **ภาพรวมแอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="06435-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
-2. <span data-ttu-id="06435-112">ในฟิลด์ **ชนิดสินทรัพย์** ให้เลือกชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="06435-112">In the **Asset type** field, select an asset type.</span></span>
-3. <span data-ttu-id="06435-113">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="06435-113">Select **OK**.</span></span> <span data-ttu-id="06435-114">รายการจะแสดงสินทรัพย์ทั้งหมดที่ใช้ชนิดสินทรัพย์ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="06435-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="06435-115">สำหรับสินทรัพย์แต่ละรายการ ชนิดแอททริบิวต์สินทรัพย์ที่เกี่ยวข้องทั้งหมดจะแสดงอยู่ในรายการเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="06435-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
+1. <span data-ttu-id="d93f2-111">เลือก **การจัดการสินทรัพย์** \> **การสอบถาม** \> **สินทรัพย์** \> **ภาพรวมแอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="d93f2-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
+2. <span data-ttu-id="d93f2-112">ในฟิลด์ **ชนิดสินทรัพย์** ให้เลือกชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="d93f2-112">In the **Asset type** field, select an asset type.</span></span>
+3. <span data-ttu-id="d93f2-113">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="d93f2-113">Select **OK**.</span></span> <span data-ttu-id="d93f2-114">รายการจะแสดงสินทรัพย์ทั้งหมดที่ใช้ชนิดสินทรัพย์ที่เลือก</span><span class="sxs-lookup"><span data-stu-id="d93f2-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="d93f2-115">สำหรับสินทรัพย์แต่ละรายการ ชนิดแอททริบิวต์สินทรัพย์ที่เกี่ยวข้องทั้งหมดจะแสดงอยู่ในรายการเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="d93f2-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
 
-<span data-ttu-id="06435-116">หน้า **แอททริบิวต์สินทรัพย์** แสดงรายการที่แยกต่างหากสำหรับชนิดแอททริบิวต์แต่ละชนิดที่ใช้ในสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="06435-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="06435-117">เพื่อเปิดหน้านี้ เลือก **การจัดการสินทรัพย์** \> **การสอบถาม** \> **สินทรัพย์** \> **แอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="06435-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>
+<span data-ttu-id="d93f2-116">หน้า **แอททริบิวต์สินทรัพย์** แสดงรายการที่แยกต่างหากสำหรับชนิดแอททริบิวต์แต่ละชนิดที่ใช้ในสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="d93f2-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="d93f2-117">เพื่อเปิดหน้านี้ เลือก **การจัดการสินทรัพย์** \> **การสอบถาม** \> **สินทรัพย์** \> **แอททริบิวต์สินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="d93f2-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>
