@@ -76,11 +76,9 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (สิงหาคม 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (กรกฎาคม 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
-            - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
+            - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: ฝัง Microsoft Power Apps
+                - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1222,12 +1220,28 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: รีเซ็ต Data Mart การรายงานทางการเงิน
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
-        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+        - name: โลกาภิวัตน์
           items:
-            - name: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+            - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
+            - name: Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+              items:
+                - name: ภาพรวมของ Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                  href: localizations/e-invoicing-service-overview.md
+                - name: สร้างบัญชีการจัดเก็บข้อมูล Azure และ Key Vault
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: เริ่มต้นใช้งาน Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                  href: localizations/e-invoicing-get-started.md
+                - name: เริ่มต้นใช้งาน Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์สำหรับบราซิล
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: เริ่มต้นใช้งาน Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์สำหรับอิตาลี
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: เริ่มต้นใช้งาน Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์สำหรับเม็กซิโก
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: ตั้งค่า Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                  href: localizations/e-invoicing-setup.md
             - name: ออสเตรเลีย
               items:
                 - name: ภาพรวมของออสเตรเลีย
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: การสร้างและโอนย้ายธุรกรรมไปยัง BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: ส่งออกธุรกรรมบัญชีแยกประเภท
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: การรายงานภาษี INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: รายงานการกระทบยอด
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: สร้างข้อมูลรายงาน GSTR สำหรับการคืนภาษี
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: เปิดใช้งานการประมวลผลหลายชุดงานสำหรับรายงาน GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: การสอบถามข้อมูลภาษี
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: กลไกจัดการภาษี
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: ออกแบบรายงานหลายภาษา
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: บีบอัดเอกสารขาออกขนาดใหญ่
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: พาธที่เกี่ยวข้องในการผูกข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations

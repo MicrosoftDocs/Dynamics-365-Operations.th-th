@@ -1,12 +1,12 @@
 ---
 title: ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
 description: หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005527"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817909"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
 
@@ -30,66 +30,42 @@ ms.locfileid: "3005527"
 
 หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
 
-## <a name="contact-support"></a>ติดต่อฝ่ายสนับสนุน
-
-ใช้ข้อมูลในบทความนี้เพื่อติดต่อ Microsoft ถ้าคุณมีคำถามทางเทคนิค หรือถ้าคุณต้องการวิธีใช้ในการเข้าถึง Microsoft Dynamics Lifecycle Services (LCS)
-
-### <a name="finance-and-operations-apps-support"></a>การสนับสนุนแอป Finance and Operations
-
-ในการรับการสนับสนุน ใช้ทรัพยากรในตารางต่อไปนี้ ทรัพยากรเหล่านี้จะแสดงรายการตามลำดับที่เราแนะนำให้คุณปฏิบัติตามเมื่อคุณกำลังแก้ไขปัญหา
-
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>งาน</th>
 <th>ข้อมูลเพิ่มเติม</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>สอบถามชุมชน</td>
-<td>ไปยัง <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">หน้าชุมชน</span></a> เพื่อค้นหาวิธีใช้ด้วยคำถามของคุณจากชุมชน Dynamics</td>
+<td>ไปยังหน้า <a href="https://community.dynamics.com/">Dynamics 365 Community</a> เพื่อรับความช่วยเหลือเกี่ยวกับคำถามของคุณจากชุมชน Microsoft Dynamics</td>
 </tr>
-<tr class="even">
-<td>ใช้เครื่องมือค้นหาปัญหา</td>
-<td>ใน <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> ใช้การค้นหาปัญหาเพื่อค้นหาบทความ Microsoft Knowledge Base (KB) โปรแกรมแก้ไขด่วน และวิธีแก้ไขปัญหาสำหรับปัญหาที่รายงานไว้อย่างรวดเร็ว คุณสามารถดูรายงานที่กำลังดำเนินการแก้ไขปัญหาหรือได้ถูกแก้ไขสำหรับพื้นที่ทำงานเฉพาะ สำหรับข้อมูลเพิ่มเติมให้ดู <a href="issue-search-lcs.md"><span style="color: #0066cc;">การค้นหาปัญหา (Lifecycle Services, LCS)</span></a></td>
+<tr>
+<td>รับความช่วยเหลือเกี่ยวกับคำถามในเรื่องลิขสิทธิ์ </td>
+<td>ติดต่อคู่ค้าของคุณหรือพนักงานขายของ Microsoft</td>
 </tr>
-<tr class="odd">
-<td>ใช้เครื่องมือการสนับสนุนที่ทำงานบน Cloud</td>
-<td>ใน <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> ไทล์ <strong>สนับสนุน</strong> คือเครื่องมือที่ช่วยคุณในการจัดการปัญหาด้านการสนับสนุน เมื่อต้องการส่งออกไปยัง Microsoft โดยตรง ไปที่ไทล์ <strong>สนับสนุน</strong> ในโครงการ LCS ของคุณ จากที่นี่ คุณสามารถส่งออกได้สองวิธี:
+<tr>
+<td>ใช้เครื่องมือ <strong>ค้นหาปัญหา</strong></td>
+<td>ใน <a href="https://lcs.dynamics.com/">LCS</a> ให้ใช้เครื่องมือ <strong>การค้นหาปัญหา</strong> เพื่อค้นหาบทความ Microsoft Knowledge Base (KB) โปรแกรมแก้ไขด่วน และวิธีแก้ไขปัญหาสำหรับปัญหาที่รายงานไว้อย่างรวดเร็ว คุณสามารถดูว่ารายงานใดที่กำลังดำเนินได้รับการแก้ไขปัญหาสำหรับพื้นที่ทำงานเฉพาะ รวมถึงที่ได้รับการแก้ไขเรียบร้อยแล้ว สำหรับข้อมูลเพิ่มเติม ให้ดู <a href="issue-search-lcs.md">การค้นหาปัญหา (Lifecycle Services, LCS)</a></td>
+</tr>
+<tr>
+<td>รับการสนับสนุนในแอป</td>
+<td>เลือกปุ่ม <strong>วิธีใช้</strong> (<strong>?</strong>) ในมุมบนขวาของหน้าของแอป แล้วเลือก <strong>ฝ่ายสนับสนุน</strong> ปัญหาจะถูกรายงานบนแท็บ <strong>ปัญหาที่เปิดอยู่</strong> ใน LCS ผู้ดูแลระบบสามารถกำหนดได้ว่าควรส่งรายงานภายในองค์กรหรือส่งปัญหาไปยัง Microsoft</td>
+</tr>
+<tr>
+<td>เปิดบัตรผ่านสำหรับการสนับสนุนด้วยฝ่ายสนับสนุน Microsoft</td>
+<td>ใน <a href="https://lcs.dynamics.com/">LCS</a> ไทล์ <strong>สนับสนุน</strong> จะเปิดเครื่องมือที่ช่วยคุณในการจัดการปัญหาด้านการสนับสนุน เมื่อต้องการส่งปัญหาไปยัง Microsoft โดยตรง ให้เลือกไทล์ <strong>สนับสนุน</strong> ในโครงการ LCS ของคุณ คุณสามารถส่งปัญหาได้สองวิธี:
 <ul>
-<li>ในแท็บ <strong>ปัญหาที่ใช้งานอยู่</strong> เลือกปัญหาของคุณ และจากนั้นคลิก <strong>ส่งไปยัง Microsoft</strong></li>
-<li>ในแท็บ <strong>ส่งไปยัง Microsoft</strong> คลิก <strong>ส่งเหตุการณ์ใหม่</strong> เพื่อแจ้งปัญหา</li>
+<li>ในแท็บ <strong>ปัญหาที่มีอยู่</strong> เลือกปัญหาของคุณ และจากนั้นเลือก <strong>ส่งไปยัง Microsoft</strong></li>
+<li>บนแท็บ <strong>ที่ส่งไปยัง Microsoft</strong>ให้เลือก <strong>ส่งเหตุการณ์แล้ว</strong> และทำตามคำแนะนำบนหน้าจอเพื่อส่งเหตุการณ์ หลังจากที่คุณส่งเหตุการณ์แล้ว คุณจะได้รับข้อความอีเมลจากวิศวกรฝ่ายสนับสนุนของ Microsoft ที่ได้รับมอบหมายให้ดูแลกรณีของคุณ</li>
 </ul>
-หมายเหตุ: นอกจากนี้ ลูกค้าและคู่ค้า Microsoft Premier ยังสามารถส่งบัตรผ่านการสนับสนุนพรีเมียร์ได้โดยใช้ขั้นตอนข้างต้น</td>
+</td>
 </tr>
-<tr class="even">
-<td>เปิดบัตรผ่านสำหรับการสนับสนุนที่มีทีมงานสนับสนุน</td>
-<td>ถ้าคุณมีปัญหาเมื่อคุณพยายามที่จะส่งตั๋วไปยัง Microsoft จากไทล์ <strong>การสนับสนุน</strong> ใน LCS ดู <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">ติดต่อ Microsoft Business Solutions Support</span></a> สำหรับข้อมูลเกี่ยวกับการติดต่อศูนย์การดำเนินการทางภูมิภาค Microsoft Dynamics ทีมสนับสนุนสามารถช่วยคุณแก้ปัญหาทางเทคนิคประเภทต่อไปนี้:
-<ul>
-<li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้ LCS หรือปัญหาที่เกิดขึ้นเมื่อคุณพยายามเข้าถึง LCS</li>
-<li>ข้อผิดพลาดที่เกิดขึ้นเมื่อคุณใช้แอป Finance and Operations</li>
-</ul>
-สำหรับคำถามทางเทคนิคที่สัมพันธ์กับการลงชื่อเข้าใช้และการเข้าถึง CustomerSource e-learning การค้นหา ฐานข้อมูลองค์ความรู้ การดาวน์โหลดไฟล์ และความผิดพลาดของหน้าหรือระบบ ไปที่ <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">การสนับสนุนเว็บไซต์</span></a></td>
-</tr>
-<tr class="odd">
-<td>รับความช่วยเหลือด้วยคำถามที่เกี่ยวกับการให้สิทธิ์ใช้งานแอป Finance and Operations</td>
-<td>ติดต่อคู่ค้า ผู้จำหน่ายบัญชีขนาดใหญ่ (LAR) หรือพนักงานขายของ Microsoft</td>
-</tr>
-<tr class="even">
-<td>ใช้เหตุการณ์ LCS ในการตรวจสอบแดชบอร์ด</td>
-<td>เมื่อต้องการดูสถานะความสมบูรณ์ปัจจุบันของแพลตฟอร์มและบริการ ไปที่ส่วน <strong>สภาพแวดล้อม</strong> ของโครงการ LCS ของคุณ</td>
+<tr>
+<td>ร้องขอคุณลักษณะและฟังก์ชันใหม่ใน</td>
+<td>ไปที่ <a href="https://experience.dynamics.com/ideas/">ความคิดในแอปพลิเคชัน Dynamics 365</a> เพื่อดู ค้นหา หรือลงคะแนนเสียงสำหรับความคิดที่มีอยู่ หรือเพื่อเพิ่มความคิดใหม่</td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
-- [รับการสนับสนุนสำหรับ Dynamics 365 Retail](../../../retail/retail-support.md)
-- [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
-- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอการสนับสุนน Microsoft Dynamics โปรดดู [จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations](cloud-powered-support-lcs.md)
-

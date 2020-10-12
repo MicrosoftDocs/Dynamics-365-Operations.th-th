@@ -3,7 +3,7 @@ title: โมดูลการรวบรวมผลิตภัณฑ์
 description: หัวข้อนี้แสดงภาพรวมของโมดูลการรวบรวมผลิตภัณฑ์ ใน Microsoft Dynamics 365 Commerce
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464964"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817584"
 ---
 # <a name="product-collection-modules"></a>โมดูลการรวบรวมผลิตภัณฑ์
 
@@ -96,9 +96,9 @@ ms.locfileid: "3464964"
 | ผู้คนชอบเช่นกัน           | รายการที่ใช้การเรียนรู้เครื่องจักรเพื่อวิเคราะห์รูปแบบการซื้อของผู้ใช้และแนะนำสินค้าที่เกี่ยวข้องกับผลิตภัณฑ์ที่กำหนด | รายการชนิดนี้ถูกใช้บน PDPs เพื่อแสดงผลิตภัณฑ์ที่ลูกค้าอื่นๆ ได้ซื้อ | บริบทของผลิตภัณฑ์จากหน้า | ผลิตภัณฑ์ที่ถูกจัดหาโดยผู้สร้างไซต์ | ได้รับการสนับสนุน |
 | เลือกมาสำหรับคุณ              | รายการที่ใช้ Machine Learning เพื่อกำหนดการกำหนดลักษณะของลูกค้า | คุณสามารถใช้รายการชนิดนี้บนหน้าใดก็ได้ | ใช้ไม่ได้| ใช้ไม่ได้ | ได้รับการสนับสนุน | 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลวงล้อ](add-carousel.md)
 

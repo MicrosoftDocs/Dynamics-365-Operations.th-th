@@ -3,7 +3,7 @@ title: สร้างการตั้งค่าคอนฟิก ER ใน
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ใน Microsoft Regulatory Configuration Services (RCS) และอัปโหลดไปยังที่เก็บส่วนกลาง
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834244"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Services (RCS) และอัปโหลดไปยังที่เก็บส่วนกลาง
 
@@ -54,7 +54,7 @@ ms.locfileid: "3371271"
 5. ป้อนชื่อและคำอธิบาย แล้วเลือก **สร้างการตั้งค่าคอนฟิก** เพื่อสร้างเวอร์ชันที่รับมาใหม่
 6. เลือกการตั้งค่าคอนฟิกที่สืบทอดมาใหม่ เพิ่มคำอธิบายของเวอร์ชัน แล้วเลือก **ตกลง** สถานะของธุรกรรมการตั้งค่าคอนฟิกเปลี่ยนเป็น **เสร็จสมบูรณ์**
 
-![เวอร์ชันการตั้งค่าคอนฟิกใหม่ใน RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![เวอร์ชันการตั้งค่าคอนฟิกใหม่ใน RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > เมื่อสถานะของการตั้งค่าคอนฟิกมีการเปลี่ยนแปลง คุณอาจได้รับข้อความแสดงข้อผิดพลาดของการตรวจสอบความถูกต้องที่เกี่ยวข้องกับแอปพลิเคชันที่เชื่อมต่อ เมื่อต้องการปิดใช้งานการตรวจสอบความถูกต้อง ในบานหน้าต่างการดำเนินการบนแท็บ **การตั้งค่าคอนฟิก** ให้เลือก **พารามิเตอร์ผู้ใช้** แล้วตั้งค่าตัวเลือก **ข้ามการตรวจสอบความถูกต้องของการเปลี่ยนแปลงสถานะและการปรับใช้ซ้ำของการตั้งค่าคอนฟิก** เป็น **ใช่** 
@@ -66,7 +66,7 @@ ms.locfileid: "3371271"
 1. เลือกเวอร์ชันที่เสร็จสมบูรณ์ของการตั้งค่าคอนฟิก แล้วเลือก **อัปโหลดลงในที่เก็บ**
 2. เลือกตัวเลือก **สากล (Microsoft)** แล้วเลือก **อัปโหลด**
 
-    ![อัปโหลดไปยังตัวเลือกของที่เก็บ](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![อัปโหลดไปยังตัวเลือกของที่เก็บ](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. ในกล่องข้อความยืนยัน เลือก **ใช่** 
 4. อัปเดตคำอธิบายของเวอร์ชันตามต้องการ แล้วเลือก **ตกลง** 
@@ -74,6 +74,27 @@ ms.locfileid: "3371271"
 สถานะของการตั้งค่าคอนฟิกถูกอัปเดตเป็น **ใช้ร่วมกัน** และมีการอัปโหลดการตั้งค่าคอนฟิกไปยังที่เก็บสากล จากที่นั่นคุณสามารถทำงานด้วยวิธีการดังต่อไปนี้:
 
 - นำเข้าไปในอินสแตนซ์ของ Dynamics 365 ของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดู [(ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md)
-- ใช้ร่วมกันกับบุคคลที่สามหรือองค์กรภายนอก ให้ดูที่ [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ของ RCS ร่วมกับองค์กรภายนอก](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- ใช้ร่วมกันกับบุคคลที่สามหรือองค์กรภายนอก ให้ดูที่ [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ของ RCS ร่วมกับองค์กรภายนอก](rcs-global-repo-share-configuration.md)
 
-![เวอร์ชันการตั้งค่าคอนฟิก Contoso อินทราสแทตที่ได้รับมาในที่เก็บสากล](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![เวอร์ชันการตั้งค่าคอนฟิก Contoso อินทราสแทตที่ได้รับมาในที่เก็บสากล](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>อัปโหลดการตั้งค่าคอนฟิกจากที่เก็บสากล
+ดำเนินการขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์เพื่อลบการตั้งค่าคอนฟิกที่องค์กรของคุณสร้างขึ้น
+
+1. ในพื้นที่ทำงาน **การรายงานอิเล็กทรอนิกส์** ให้ตรวจสอบว่าผู้ให้บริการการตั้งค่าคอนฟิกของคุณ **เปิดใช้งาน** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็นใช้งานอยู่](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md)
+2. บนตัวให้บริการการตั้งค่าคอนฟิกที่ใช้งานอยู่ ให้เลือก **ที่เก็บข้อมูล**
+3. เลือกชนิดของที่เก็บ **สากล** และเลือก **เปิด**
+4. บนแท็บด่วน **ตัวกรอง** ให้ค้นหาการตั้งค่าคอนฟิกที่คุณต้องการลบโดยใช้ฟังก์ชัน **ตัวกรอง**
+5. บนแท็บด่วน **เวอร์ชัน** ให้เลือกเวอร์ชันของการตั้งค่าคอนฟิกที่คุณต้องการลบแล้วเลือก **ลบ**:
+
+    ![ลบการตั้งค่าคอนฟิกจากที่เก็บสากล](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. ในกล่องข้อความยืนยัน เลือก **ใช่**
+
+    ![ลบข้อความยืนยันเวอร์ชันของการตั้งค่าคอนฟิก](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+มีการลบเวอร์ชันของการตั้งค่าคอนฟิกและข้อความยืนยันจะแสดงขึ้น 
+
+> [!NOTE]
+> การตั้งค่าคอนฟิกสามารถลบออกได้โดยผู้ให้บริการการตั้งค่าคอนฟิกที่สร้างขึ้นเท่านั้น ถ้ามีการใช้การตั้งค่าคอนฟิกร่วมกับองค์กรอื่น การตั้งค่าคอนฟิกจะต้องได้รับการยกเลิกหารใช้ร่วมกันก่อนที่จะลบ
+ 

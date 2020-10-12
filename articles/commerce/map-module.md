@@ -3,7 +3,7 @@ title: โมดูลแผนที่
 description: หัวข้อนี้ครอบคลุมถึงโมดูลแผนที่และอธิบายวิธีการกำหนดค่าใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811195"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817217"
 ---
 # <a name="map-module"></a>โมดูลแผนที่
 
@@ -38,7 +38,8 @@ ms.locfileid: "3811195"
 
 โมดูลแแผนที่จะทำงานร่วมกับโมดูลการเลือกร้านค้าเพื่อกำหนดสถานที่เก็บทางภูมิศาสตร์ของร้านค้าที่ต้องแสดงบนแผนที่ การเลือกร้านค้าและโมดูลแผนที่จะโต้ตอบเมื่อผู้ใช้เลือกร้านค้าในหนึ่งในโมดูลเหล่านี้บนหน้าไซต์ แผนผังอาจขยายสำหรับสถานการณ์อื่นๆนอกเหนือจากการโต้ตอบกับโมดูลการเลือกร้านค้า อย่างไรก็ตามต้องใช้การเลือกกำหนดโมดูล
 
-โมดูลแผนที่ถูกนำมาใช้ใน Commerce เวอร์ชัน 10.0.13
+> [!NOTE]
+> โมดูลการแม็ปมีอยู่ใน Dynamics 365 Commerce รุ่น 10.0.13
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูลแผนที่ที่ใช้ในหน้าที่ตั้งร้าน
 
@@ -70,7 +71,7 @@ ms.locfileid: "3811195"
  
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 

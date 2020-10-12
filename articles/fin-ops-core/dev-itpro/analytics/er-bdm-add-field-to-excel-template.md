@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809531"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893258"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>เพิ่มฟิลด์ใหม่ลงในแม่แบบเอกสารทางธุรกิจใน Microsoft Excel
 
@@ -67,7 +67,7 @@ ms.locfileid: "2809531"
 5.  ในฟิลด์ **ชื่อเรื่อง** ให้ป้อน **ใบแจ้งหนี้ข้อความอิสระ (Excel) Contoso** เป็นชื่อของแม่แบบใหม่
 6.  เลือก **ตกลง** เพื่อยืนยันการเริ่มต้นของกระบวนการแก้ไข
 
-เพจโปรแกรมแก้ไขแม่แบบ BDM ปรากฏขึ้น คุณสามารถใช้ Microsoft Office 365 เพื่อแก้ไขแม่แบบที่เลือกแบบออนไลน์ในตัวควบคุมฝังตัว
+เพจโปรแกรมแก้ไขแม่แบบ BDM ปรากฏขึ้น คุณสามารถใช้ Microsoft 365 เพื่อแก้ไขแม่แบบที่เลือกแบบออนไลน์ในตัวควบคุมแบบฝัง
 
 ![เพจโปรแกรมแก้ไขแม่แบบ BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 

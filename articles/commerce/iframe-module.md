@@ -3,7 +3,7 @@ title: โมดูล iFrame
 description: หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3647061"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818209"
 ---
 # <a name="iframe-module"></a>โมดูล iFrame
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 
@@ -37,6 +36,9 @@ ms.locfileid: "3647061"
 โมดูล iFrame มี iFrame (เฟรมอินไลน์) ที่โฮสต์เนื้อหาภายนอกบนไซต์ ตัวอย่างเช่น คุณสามารถใช้เพื่อโฮสต์วิดีโอ YouTube หรือตัวแสดงไฟล์ PDF บนหน้าไซต์ใดๆ 
 
 โมดูล iFrame ต้องใช้ URL เป้าหมาย จากนั้นจะโฮสต์เนื้อหาของหน้าเป้าหมายภายในองค์ประกอบของ **iFrame** HTML URL ภายนอก ต้องอยู่ในรายการอนุญาต (หรือที่เรียกอีกอย่างหนึ่งว่า "รายการที่ไม่ได้รับอนุญาต") ตามคำสั่งนโยบายความปลอดภัยของเนื้อหา (CSP) ของไซต์ สำหรับเนื้อหา iFrame ควรอนุญาตให้ใช้ URL โดยใช้คำสั่ง **frame-ancestor** สำหรับข้อมูลเพิ่มเติม ให้ดู [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
+
+> [!NOTE]
+> โมดูล iframe มีอยู่ใน Dynamics 365 Commerce รุ่น10.0.13
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูล iFrame ซึ่งแสดงวิดีโอภายนอกในบนหน้าไซต์
 
@@ -72,6 +74,6 @@ ms.locfileid: "3647061"
  
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)

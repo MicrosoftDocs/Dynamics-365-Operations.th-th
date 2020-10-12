@@ -1,0 +1,124 @@
+---
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (16 กันยายน 2020)
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 16 กันยายน 2020
+author: jcart1106
+manager: tfehr
+ms.date: 09/16/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2020-09-16
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: ad8513477c7f9243fa3ee5d99569c048ffada97d
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823733"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (16 กันยายน 2020)
+
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3557 ตัวเลขในวงเล็บถัดจากลักษณะการทำงานบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
+
+## <a name="included-in-this-release"></a>รวมอยู่ในการนำออกใช้นี้
+
+-  [มุมมองที่บันทึกไว้ - ความพร้อมใช้งานทั่วไป](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views) 
+
+- ฟอร์ม **การดำเนินการของตำแหน่ง** มีกริดมิติที่อัปเดตและกล่องโต้ตอบใหม่ (469495)
+
+- ถ้าคุณกำหนดให้ **จำกัดการเข้าถึงข้อมูลของผู้ปฏิบัติงาน** เป็นใช่ใน **การเข้าถึงขั้นสูง** ใน **พารามิเตอร์ที่ใช้ร่วมกันของฝ่ายทรัพยากรบุคคล** แบบฟอร์มสวัสดิการจะแสดงเฉพาะผู้ปฏิบัติงานที่เหมาะสมเท่านั้น (393384)
+
+- ตัวเลือกการสร้างปฏิทินใหม่ในเอนทิตี **WorkCalendar** (477055):<br>- เวลาสิ้นสุดเริ่มต้น<br>-    เวลาเริ่มต้นตามค่าเริ่มต้น<br>- วันศุกร์คือวันทำงานใช่หรือไม่<br>- วันจันทร์คือวันทำงานใช่หรือไม่<br>- วันเสาร์คือวันทำงานใช่หรือไม่<br>- วันอาทิตย์คือวันทำงานใช่หรือไม่<br>- วันพฤหัสบดีคือวันทำงานใช่หรือไม่<br>- วันอังคารคือวันทำงานใช่หรือไม่<br>- วันพุธคือวันทำงานใช่หรือไม่<br>- รหัสวันหยุดในปฏิทินการทำงาน
+
+- ขณะนี้เอนทิตี **LeaveBankTransactionV1** รวมรหัสเหตุผล (477823)
+
+- ขณะนี้คุณสามารถบันทึกการบันทึกงาน (492923)
+
+- ขณะนี้มีการเผยแพร่ข้อมูลจาก **HCMWorkerContactEntity** (427620) เสร็จเรียบร้อยแล้ว
+
+- แท็บด่วน **ค่าตอบแทน** แสดงอยู่ในขณะนี้สำหรับผู้ปฏิบัติงานที่เป็นผู้รับเหมาในฟอร์ม **การดำเนินการของผู้ปฏิบัติ** (482494)
+
+- ฟิลด์ **ระดับ** และ **แผน** ขณะนี้เป็นข้อบังคับถ้าคุณตั้งค่า **ค่าตอบแทนคงที่** ข้อความแสดงข้อผิดพลาดจะแสดงขึ้นถ้าคุณปล่อยฟิลด์เหล่านี้ว่างไว้ (482497)
+
+- ฟิลด์ **ชนิดของแผน** ใน **สวัสดิการ** เป็นรายการแบบหล่นลงในขณะนี้ (488768)
+
+- ขณะนี้ผู้ดูแลระบบได้รับการแจ้งเตือนถ้าฟิลด์ที่กำหนดเองถูกลบออกจากทรัพยากรบุคคล (481408)
+
+- ในระหว่างกระบวนการสิ้นสุดการจ้างงานของพนักงาน ทรัพยากรบุคคลจะปฏิบัติตามที่คาดไว้และไม่เปลี่ยนบริษัทที่เลือกหลังจากที่ปรากฏในการล็อก (479877) 
+
+- ผู้จัดการไม่สามารถเพิ่มคอลัมน์หมายเลขผ่านการตั้งค่าส่วนบุคคล (485317) ได้อีกต่อไป
+
+- ผู้จัดการไม่สามารถลบตัวกรองช่วงข้อมูลจากหมายเลขรหัสที่หมดอายุ (485321) ได้อีกต่อไป
+
+- เมื่อฟิลด์ **รายงานไปยัง** ว่างเปล่า รายละเอียดตำแหน่งยังคงแสดงขึ้นเมื่อเลื่อนเมาส์ไปยังตำแหน่ง (433328)
+
+- ขณะนี้พนักงานสามารถดูข้อมูลแผนสวัสดิการในบริการตนเองของพนักงาน (481676)
+
+- ขณะนี้พนักงานสามารถดูหลักสูตรที่ลงทะเบียนแล้วทั้งหมด (429048)
+
+- ขณะนี้คุณสามารถจำกัดตัวเลือกการดูสำหรับหน้า **ใบรับรองของวิชาชีพ** คุณสามารถจำกัดการดูตัวเลือกสำหรับนิติบุคคลปัจจุบันตามสถานะผู้ปฏิบัติงานและตามชนิดผู้ปฏิบัติงาน (451501) 
+
+
+## <a name="in-preview"></a>ในการแสดงตัวอย่าง
+
+### <a name="human-resources-app-in-teams"></a>แอป Human Resources ใน Teams
+
+พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
+
+- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
+- [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841) ในคู่มือ Human Resources
+
+### <a name="human-resources-app-in-teams-preview-features"></a>คุณลักษณะรุ่นพรีวิวของแอป Human Resources ใน Teams
+ 
+-  **การแจ้งเตือน**: ผู้ส่งและผู้อนุมัติที่ส่งคำขอการลาหยุดจะได้รับการแจ้งเตือนในแอป Human Resources ใน Teams ผู้อนุมัติสามารถอนุมัติหรือปฏิเสธคำขอการลาหยุดได้ ผู้ส่งจะได้รับการแจ้งเตือนถ้าคำขอได้รับการอนุมัติหรือถูกปฏิเสธ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
+   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+   - [เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) ในคู่มือ Human Resources
+   - [เปิดหรือปิดการแจ้งเตือนของ Teams สำหรับผู้ใช้แต่ละราย](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) ในคู่มือ Human Resources
+   - [การแจ้งเตือนของ Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) ในคู่มือ Human Resources
+   - [ดูปฏิทินการลางานของทีมของคุณ](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) ในคู่มือ Human Resources
+ 
+- **ปฏิทินการลาหยุดของผู้จัดการ**: ผู้จัดการสามารถดูการลาหยุดที่อนุมัติและที่ค้างอยู่สำหรับผู้ใต้บังคับบัญชาโดยตรงของตนในมุมมองปฏิทิน มุมมองนี้จะทำให้เข้าใจง่ายเมื่อสมาชิกในทีมของตนไม่มาทำงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
+   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+   - [ดูปฏิทินการลางานของทีมของคุณ](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) ในคู่มือ Human Resources
+
+### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน (477004)
+
+ขณะนี้ตัวเลือกใหม่จะพร้อมใช้งานในการกำหนดตำแหน่งรายการของ **รายการงานที่กำหนดให้กับฉัน** ในคอลัมน์ทางด้านขวาของแดชบอร์ด เมื่อมีการเปลี่ยนแปลงนี้ รายการงานและรายการสิ่งที่ต้องทำทั้งหมดแสดงในพื้นที่เดียวกัน เปิดใช้งานฟังก์ชันนี้โดยการเปิด **พรีวิว - การปรับปรุงประสบการณ์ของลำดับงาน** ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดคุณลักษณะพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+คุณลักษณะนี้จะส่งเสริมตัวเลือกลำดับงานที่จะปรากฏในแบบฟอร์มการดำเนินการด้านบุคลากร ตัวเลือกลำดับงานจะปรากฎในแท็บด่วนการดำเนินการเพื่อให้สามารถเข้าถึงได้อย่างรวดเร็ว สำหรับข้อมูลเพิ่มเติม ให้ดูที่  
+
+- [การปรับปรุงประสบการณ์การใช้งานลำดับงานการจัดการองค์กรและบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) ในแผน Dynamics 365 2020 การนำออกใช้เวฟ 2
+
+![รายการงานที่กำหนดให้กับฉัน](./media/hr-workflow-work-items-assigned-to-me.png)
+
+![การเข้าถึงด่วนของรายการลำดับงาน](./media/hr-workflow-quick-access.png)
+
+### <a name="leave-and-absence-calendar"></a>ปฏิทินการลางานและการขาดงาน
+
+การนำออกใช้นี้มีตัวเลือกปฏิทินเพิ่มเติมสำหรับปฏิทินการลางานและการขาดงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ดูทีมงานและปฏิทินของบริษัท](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar)
+
+## <a name="coming-soon"></a>เร็วๆ นี้
+
+### <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
+
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
+
+### <a name="benefits-management-reason-codes"></a>รหัสเหตุผลของการจัดการสวัสดิการ
+
+รหัสเหตุผลของการจัดการสวัสดิการจะมีการรวมเข้ากับรหัสเหตุผลที่มีอยู่ใน Human Resources ในเร็วๆ นี้ ถ้าคุณสร้างรหัสเหตุผลไว้ในการจัดการสวัสดิการที่มีอักขระเกินกว่า 15 ตัว คุณต้องเปลี่ยนชื่อของรหัสเหตุผลในแบบฟอร์ม **รหัสเหตุผล** ของการจัดการสวัสดิการเป็นอักขระ15 ตัวหรือน้อยกว่า หลังจากที่คุณอัปเดตชื่อ รหัสเหตุผลจะปรากฏขึ้นภายใต้แบบฟอร์มรหัสเหตุผลที่มีอยู่ในการจัดการบุคลากร การเปลี่ยนแปลงนี้จะพร้อมใช้งานในอนาคตและจะไม่มีผลกระทบต่อฟังก์ชันการทำงานที่มีอยู่
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
+[จัดการคุณลักษณะ](hr-admin-manage-features.md)

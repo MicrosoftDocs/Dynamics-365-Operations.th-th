@@ -1,14 +1,14 @@
 ---
 title: มิติของผลิตภัณฑ์
 description: ผลิตภัณฑ์มีห้ามิติ - สี โครงแบบ ขนาด ลักษณะ และรุ่น คุณได้รวมมิติสินค้าในกลุ่มมิติ และกำหนดกลุ่มมิติให้กับผลิตภัณฑ์หลัก การรวมชุดมิติของผลิตภัณฑ์กำหนดวิธีกำหนดผลิตภัณฑ์ย่อย
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657327"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895460"
 ---
 # <a name="product-dimensions"></a>มิติของผลิตภัณฑ์
 
@@ -107,7 +107,7 @@ ms.locfileid: "3657327"
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **แผนผัง:** ถ้าแผนผังที่ใดๆ ใช้มิติสินค้าคงคลัง ต้องมีการอัพเดตการแม็ปความสัมพันธ์ให้ตรงกันกับแผนผังเหล่านี้เพื่อให้รวมมิติรุ่น ในรูปแบบเพิ่มเติมหรือส่วนขยายของตาราง ให้ดูตารางที่มีฟิลด์ที่มีมิติสินค้าคงคลัง
-1. **ฟังก์ชันการทำงานของ Microsoft Dynamics 365 Commerce:** หลังจากเปิดแล้ว มิติรุ่นจะปรากฏในโค้ดเฉพาะ Commerce ใน Dynamics 365 Supply Chain Management อย่างไรก็ตาม มิติรุ่นยังไม่ได้รับการสนับสนุนโดยฐานข้อมูลช่องทาง Commerce หรือในแอปพลิเคชันการขายหน้าร้าน (POS) ลักษณะการทำงานนี้คล้ายกับลักษณะการทำงานปัจจุบันของมิติการตั้งค่าคอนฟิกใน Commerce
+1. **ฟังก์ชันการทำงานของ Microsoft Dynamics 365 Commerce:** หลังจากเปิดแล้ว มิติรุ่นจะปรากฏในโค้ดเฉพาะ Commerce ใน Dynamics 365 Supply Chain Management อย่างไรก็ตาม มิติรุ่นยังไม่ได้รับการสนับสนุนโดยฐานข้อมูลช่องทาง Commerce หรือในแอปพลิเคชันการขายหน้าร้าน (POS) หรือ e-Commerce แอปพลิเคชันเฉพาะ Commerce เหล่านี้จะไม่สนับสนุนผู้ใช้ในการขาย/การจัดส่งสินค้าหรือการรับสินค้า/การรับสินค้าตามมิติเวอร์ชัน ฟังก์ชันการค้นหาความพร้อมใช้งานของสินค้าคงคลังจะไม่พบสินค้าคงคลังตามมิติเวอร์ชันในแอป Commerce ลักษณะการทำงานนี้คล้ายกับลักษณะการทำงานปัจจุบันของมิติการตั้งค่าคอนฟิกใน Commerce
 
 #### <a name="turn-on-the-version-dimension"></a>เปิดมิติรุ่นของผลิตภัณฑ์
 

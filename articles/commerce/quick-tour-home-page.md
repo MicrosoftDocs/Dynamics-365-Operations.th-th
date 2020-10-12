@@ -3,7 +3,7 @@ title: ภาพรวมโฮมเพจ
 description: หัวข้อนี้แสดงภาพรวมของโฮมเพจใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527596"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817765"
 ---
 # <a name="home-page-overview"></a>ภาพรวมโฮมเพจ
 
@@ -34,7 +34,7 @@ ms.locfileid: "3527596"
 
 โฮมเพจจะเป็นหน้าเริ่มต้นที่นักช้อปไปเมื่อเข้าไปที่ไซต์อีคอมเมิร์ซ โดยทั่วไปหน้านี้แสดงผลิตภัณฑ์และการส่งเสริมการขายโดยใช้ชุดของโมดูลการตลาด โฮมเพจควรจะเต็มไปด้วยรูปภาพและข้อความที่จะทำให้นักช้อปมีส่วนร่วมอย่างเต็มที่
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของโฮมเพจที่สร้างขึ้นโดยใช้ชุดเริ่มต้นออนไลน์ และชุดรูปแบบ "Fabrikam"
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้าหลักที่สร้างขึ้นโดยใช้ไลบรารีโมดูลและธีม "Fabrikam"
 
 ![ตัวอย่างของโฮมเพจ](./media/Homepage2.PNG)
 

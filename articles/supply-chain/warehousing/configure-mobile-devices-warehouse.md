@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383101"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837274"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
 
@@ -399,6 +399,9 @@ ms.locfileid: "3383101"
 <tr class="odd">
 <td>รหัสเท็มเพลตงาน</td>
 <td>เลือกเท็มเพลตงานที่จะสร้างงานสำหรับกระบวนการ ตัวอย่างเช่น ถ้าคุณได้รับสินค้าสำหรับใบสั่งซื้อ การสำรองจะสร้างงานขึ้นอยู่กับเท็มเพลตงาน ถ้าคุณไม่&#39;เลือกแม่แบบงานงาน Supply Chain Management จะมอบหมายแม่แบบตามเกณฑ์การสอบถาม ดูข้อมูลเพิ่มเติมเกี่ยวกับเท็มเพลตงานที่ <a href="control-warehouse-location-directives.md">การควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่</a></td>
+<tr class="even">
+<td>แสดงรายการของรายการงาน</td>
+<td>เลือกตัวเลือกสำหรับวิธีการที่ผู้ปฏิบัติงานจะสามารถดูและโต้ตอบกับบรรทัดต่างๆ สำหรับงานการเบิกสินค้าที่เลือกในปัจจุบัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวเลือกนี้ ให้ดู <a href="pick-line-overview.md">การตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ เพื่อแสดงภาพรวมของบรรทัดการเบิกสินค้า</a></td>
 </tr>
 </tbody>
 </table>

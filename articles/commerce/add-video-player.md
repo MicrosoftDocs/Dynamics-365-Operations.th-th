@@ -3,7 +3,7 @@ title: โมดูลโปรแกรมเล่นวิดีโอ
 description: หัวข้อนี้ครอบคลุมถึงโมดูลโปรแกรมเล่นวิดีโอ และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411170"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817072"
 ---
 # <a name="video-player-module"></a>โมดูลโปรแกรมเล่นวิดีโอ
 
@@ -97,12 +97,12 @@ ms.locfileid: "3411170"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของชุดเริ่มต้น](starter-kit-overview.md)
+[ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลแบนเนอร์โปรโมชั่น](add-alert.md)
 
 [โมดูลวงล้อ](add-carousel.md)
 
-[โมดูลบล็อคข้อความ](add-content-rich-block.md)
+[โมดูลบล็อกข้อความ](add-content-rich-block.md)
 
 [โมดูลบล็อกเนื้อหา](add-hero-module.md)
