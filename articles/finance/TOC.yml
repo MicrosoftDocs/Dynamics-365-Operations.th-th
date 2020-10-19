@@ -68,8 +68,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Finance
                   items:
-                    - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Finance
+                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (มกราคม 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: Finance 10.0.14 (พฤศจิกายน 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (ตุลาคม 2020)
@@ -80,7 +82,7 @@
               items:
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
-                - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนในรุ่นก่อนหน้า
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
@@ -192,8 +194,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/finance/toc.json
                 - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
-                - name: ย้ายโครงการการใช้งาน LCS ไปยังผู้เช่า Azure AD อื่น
+                - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: บัญชีเจ้าหนี้
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
+              items:
+                - name: ภาพรวมกระบวนการออกใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: ตั้งค่าตัวเลือกสำหรับใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: ส่งใบแจ้งหนี้ไปที่ระบบลำดับงานและจับคู่รายการใบรับสินค้า
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: ดูผลลัพธ์การทำงานอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท
@@ -254,11 +268,11 @@
               href: accounts-payable/vendor-posting-profiles.md
             - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
-            - name: การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
+            - name: การอนุมัติใบแจ้งหนี้สำหรับอุปกรณ์เคลื่อนที่
               href: accounts-payable/mobile-invoice-approvals.md
             - name: พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
+            - name: การทำงานอัตโนมัติของใบแจ้งหนี้สำหรับเอกสารที่สแกน
               href: accounts-payable/vendor-invoice-automation.md
             - name: การจัดการสัญญาของนายหน้า
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: รายงานอายุหนี้ของลูกค้า
+              href: accounts-receivable/customer-aging.md
             - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: การจัดการบันทึกขั้นสูง
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: การคิดค่าเสื่อมราคาตามอายุการใช้งานแบบเส้นตรง
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: การเช่าสินทรัพย์
+          items:
+            - name: เริ่มต้นใช้งานการเช่าสินทรัพย์
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: บัญชีแยกประเภททั่วไป
           items:
             - name: ภาพรวมของบัญชีแยกประเภททั่วไป
@@ -1884,7 +1904,7 @@
                   items:
                     - name: ภาพรวมของ GST อินเดีย
                       href: localizations/apac-ind-gst.md
-                    - name: มีอะไรใหม่หรือเปลี่ยนแปลงอย่างไรบ้างสำหรับการแปลภาษาท้องถิ่น GST อินเดีย APAC
+                    - name: มีอะไรใหม่หรือเปลี่ยนแปลงอย่างไรบ้างสำหรับการแปลภาษาท้องถิ่น GST อินเดีย
                       items:
                         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: กลุ่มการอ้างอิง GST อินเดีย
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: ธุรกรรมสินค้าคงคลัง
                       items:
+                        - name: ใบสั่งโอนย้ายสินค้าคงคลัง
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: ธุรกรรมการชำระเงินของลูกค้า
@@ -2076,8 +2100,6 @@
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: FAQ เกี่ยวกับขีดจำกัดภาษี
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: การโอนย้ายสินค้าคงคลัง
-                  href: localizations/apac-ind-stock-transfer.md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี

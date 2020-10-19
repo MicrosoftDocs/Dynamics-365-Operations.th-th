@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
                   items:
-                    - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
+                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (ธันวาคม 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (ตุลาคม 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (สิงหาคม 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
@@ -192,8 +192,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ย้ายโครงการการใช้งาน LCS ไปยังผู้เช่า Azure AD อื่น
+                - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: โลกาภิวัตน์
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: อินเดีย
+              items:
+                - name: ใบสั่งโอนย้ายสินค้าคงคลัง
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: รัสเซีย
               items:
                 - name: ภาพรวมของรัสเซีย
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: ปรับปรุงประสิทธิภาพของการวางแผนหลัก
                   href: master-planning/master-planning-performance.md
+                - name: ปรับปรุงประสิทธิภาพของกลไกจัดการการจัดกำหนดการ
+                  href: master-planning/scheduling-engine-performance.md
                 - name: แผนหลักและฟังก์ชันหลายไซต์
                   items:
                     - name: ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: รักษากระบวนการผลิตสำหรับแบบจำลองผลิตภัณฑ์
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: ราคาขายที่ขึ้นอยู่กับแอททริบิวต์สำหรับการจัดโครงแบบผลิตภัณฑ์ตามข้อจำกัด
+                      href: pim/attribute-based-product-configurator.md
                     - name: อนุมัติแบบจำลองการจัดโครงแบบผลิตภัณฑ์
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: โอนย้ายข้อมูลรุ่นผลิตภัณฑ์
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน
                       href: production-control/report-finished-job-device.md
+                    - name: ให้คำแนะนำผสมความเป็นจริงสำหรับผู้ปฏิบัติงานในการผลิต
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: กลับสถานะใบสั่งผลิต
                       href: production-control/reverse-production-order-status.md
                     - name: การมองเห็นข้อยกเว้นของวัตถุดิบ
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: เปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
+                      href: warehousing/warehouse-app-events.md
                     - name: การยืนยันการเบิกสินค้าเป็นรายชิ้น
                       href: warehousing/piece-picking-confirmation.md
                     - name: วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: กรอบงานคู่มือกระบวนการ
                       href: warehousing/process-guide-framework.md
+                    - name: การแก้ไขปัญหาเกี่ยวกับการเชื่อมต่อกับแอปคลังสินค้า
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: การอัปเกรดและการย้าย
                   items:
                     - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
