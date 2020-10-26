@@ -3,7 +3,7 @@ title: สถานะและระยะเวลาใช้งานขอ�
 description: หัวข้อนี้จะครอบคลุมถึงสถานะเอกสารต่างๆขององค์ประกอบหน้าใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261524"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974041"
 ---
 # <a name="document-states-and-lifecycle"></a>สถานะและระยะเวลาใช้งานของเอกสาร
-
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +51,8 @@ ms.locfileid: "3261524"
 [อภิธานศัพท์ของรูปแบบหน้า](page-elements-overview.md)
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
+
+[เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง](cross-channel-sharing.md)
 
 [ใช้งานโมดูล](work-with-modules.md)
 

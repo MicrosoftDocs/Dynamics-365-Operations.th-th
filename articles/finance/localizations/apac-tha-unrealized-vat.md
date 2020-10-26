@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 265924
 ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f2133b7d8049cea2ec3ea5da54013f3b5698146e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9eee064bbf2b34306010d5ceeaea36650c1eeb73
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175238"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983962"
 ---
 # <a name="thailand-unrealized-vat"></a>VAT ที่ยังไม่รับรู้ของประเทศไทย
 

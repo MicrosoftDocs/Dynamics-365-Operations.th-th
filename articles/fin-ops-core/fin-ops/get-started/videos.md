@@ -3,7 +3,7 @@ title: วิดีโอ
 description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
+ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645376"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3991463"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -82,6 +82,7 @@ ms.locfileid: "3645376"
 - [วิธีการใช้ตัวบันทึกงานเพื่อสร้างกรณีการทดสอบสำหรับ Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
 - [วิธีการสร้างแผนการทดสอบใน Azure DevOps เพื่อใช้ Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
 - [วิธีใช้ Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
+- [ประสบการณ์การใช้งาน Excel ที่ปรับปรุงใน Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>วิดีโอสำหรับ Dynamics 365 Finance

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428650"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958854"
 ---
 # <a name="develop-succession-plan"></a>พัฒนาแผนการสืบทอด
 
@@ -37,8 +37,8 @@ ms.locfileid: "3428650"
 6. เลือกการดึงข้อมูลโพรไฟล์
 7. คลิกที่บุคคล
 8. ในฟิลด์บุคคล ให้พิมพ์ชื่อ หรือเลือกแบบหล่นลง   ตัวอย่าง: Cassie Hicks
-9. คลิก ตกลง ระบบจะนำเข้าข้อมูลการชำระเงิน
-10. ขยายใบรับรองแท็บด่วนเพื่อดูหรือแก้ไขใบรับรองที่รวมอยู่ในการแม็ปทักษะ
+9. คลิก ตกลง 
+10. ขยายแท็บด่วนใบรับรอง เพื่อดูหรือแก้ไขใบรับรองที่รวมอยู่ในการแม็ปทักษะ
 11. ขยายแท็บด่วนทักษะเพื่อดูหรือแก้ไขทักษะที่จะถูกรวมอยู่ด้วย
 12. ในรายการ ให้ทำเครื่องหมายที่แถวแรก   ตัวอย่าง:  การบัญชี
 13. คลิกกล่องกาเครื่องหมาย ไม่จำเป็นต้องระบุ

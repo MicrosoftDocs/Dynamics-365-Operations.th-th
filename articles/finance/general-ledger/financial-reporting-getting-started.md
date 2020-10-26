@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835121"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967269"
 ---
 # <a name="get-started-with-financial-reporting"></a>เริ่มต้นใช้งาน Financial Reporting 
 
@@ -149,7 +149,12 @@ ms.locfileid: "3835121"
 * ใน Internet Explorer เลือก **การตั้งค่า** จากนั้น เลือก **ตัวเลือกอินเทอร์เน็ต** เลือกแท็บ **ความปลอดภัย** เลือกไซต์ที่เชื่อถือได้ ในพื้นที่ที่ติดป้ายชื่อระดับความปลอดภัยสำหรับโซนนี้ ให้เปลี่ยนตัวเลือกเป็น **ปานกลาง-ต่ำ**
 * ปิดใช้งานตัวบล็อกป็อปอัพในเบราเซอร์ของคุณ
 * เวิร์กสเตชันจำเป็นต้องติดตั้ง Microsoft .NET Framework 4.6.2 หรือสูงกว่า รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53345)
-* ถ้าคุณใช้เบราเซอร์ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานใน incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว หากคุณไม่สามารถลงชื่อเข้าใช้ด้วย Chrome ได้ให้ลองทำตามขั้นตอนการตั้งค่าที่อธิบายไว้ในปัญหาที่ 1 โดยใช้ Internet Explorer หรือ Edge 
+* ถ้าคุณใช้ Microsoft Edge กับเบราเซอร์ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานใน incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว 
+     1. เปิดเบราว์เซอร์ใหม่ใน Microsoft Edge
+     2. ป้อน **edge://flags** และเลือก **Enter**
+     3. ค้นหาตัวเลือก **การสนับสนุน ClickOnce** หรือใช้ลิงค์นี้โดยตรง: **edge://flags/#edge-click-once**
+     4. ตั้งค่าตัวเลือกเมนูแบบหล่นลงเป็น **เปิดใช้งานแล้ว**
+     5. เลือก **รีสตาร์ทเบราว์เซอร์**
 
 ปัญหาที่ 2: ผู้ใช้ไม่ได้รับการกำหนดสิทธิ์ที่จำเป็นในการใช้ Financial Reporting 
 
