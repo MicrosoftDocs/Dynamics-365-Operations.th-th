@@ -15,28 +15,28 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff99161aa88e853790ddbf5f327bff5bb3898f56
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c65a63dc48be6241ea23c5330fc3fbe526207613
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202847"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987497"
 ---
-# <a name="create-reason-codes"></a><span data-ttu-id="b7fcb-103">การสร้างรหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="b7fcb-103">Create reason codes</span></span>    
+# <a name="create-reason-codes"></a><span data-ttu-id="06175-103">การสร้างรหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="06175-103">Create reason codes</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="b7fcb-104">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **ใบสั่งบริการ** \> **รหัสเหตุผลของขั้นตอน**</span><span class="sxs-lookup"><span data-stu-id="b7fcb-104">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
+1.  <span data-ttu-id="06175-104">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **ใบสั่งบริการ** \> **รหัสเหตุผลของขั้นตอน**</span><span class="sxs-lookup"><span data-stu-id="06175-104">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
 
-2.  <span data-ttu-id="b7fcb-105">กด CTRL+N เพื่อสร้างรหัสเหตุผลใหม่</span><span class="sxs-lookup"><span data-stu-id="b7fcb-105">Press CTRL+N to create a new reason code.</span></span>
+2.  <span data-ttu-id="06175-105">กด CTRL+N เพื่อสร้างรหัสเหตุผลใหม่</span><span class="sxs-lookup"><span data-stu-id="06175-105">Press CTRL+N to create a new reason code.</span></span>
 
-3.  <span data-ttu-id="b7fcb-106">กด CTRL+S เพื่อบันทึกรหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="b7fcb-106">Press CTRL+S to save the reason code.</span></span>
+3.  <span data-ttu-id="06175-106">กด CTRL+S เพื่อบันทึกรหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="06175-106">Press CTRL+S to save the reason code.</span></span>
 
-<span data-ttu-id="b7fcb-107">เมื่อระบบขอให้คุณป้อนรหัสเหตุผล เพื่ออธิบายเหตุผลที่คุณกำลังอัพเดตขั้นตอนของใบสั่งบริการ คุณสามารถเลือกได้จากรหัสเหตุผลใดๆ ที่คุณสร้างที่นี่</span><span class="sxs-lookup"><span data-stu-id="b7fcb-107">When you are prompted for a reason code to explain why you are updating a stage of the service order, you can select any of the reason codes that you create here.</span></span>
+<span data-ttu-id="06175-107">เมื่อระบบขอให้คุณป้อนรหัสเหตุผล เพื่ออธิบายเหตุผลที่คุณกำลังอัพเดตขั้นตอนของใบสั่งบริการ คุณสามารถเลือกได้จากรหัสเหตุผลใดๆ ที่คุณสร้างที่นี่</span><span class="sxs-lookup"><span data-stu-id="06175-107">When you are prompted for a reason code to explain why you are updating a stage of the service order, you can select any of the reason codes that you create here.</span></span>
 
   
 

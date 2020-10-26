@@ -15,60 +15,60 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54dae6edb6681e1ba29709ebeeea2e5094262257
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74594871e9eeed86ae2914d1e5a08c0af28ab643
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206484"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985105"
 ---
-# <a name="use-stage-reason-codes"></a><span data-ttu-id="fbc9a-103">ใช้รหัสเหตุผลของขั้น</span><span class="sxs-lookup"><span data-stu-id="fbc9a-103">Use stage reason codes</span></span> 
+# <a name="use-stage-reason-codes"></a><span data-ttu-id="31c26-103">ใช้รหัสเหตุผลของขั้น</span><span class="sxs-lookup"><span data-stu-id="31c26-103">Use stage reason codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="fbc9a-104">คุณใช้รหัสเหตุผลเพื่อระบุเหตุที่ข้อตกลงระดับบริการ (SLA) ถูกยกเลิก หรือเหตุใดที่ใบสั่งบริการเกินขอบเขตเวลาที่คุณตั้งไว้ใน SLA</span><span class="sxs-lookup"><span data-stu-id="fbc9a-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
+<span data-ttu-id="31c26-104">คุณใช้รหัสเหตุผลเพื่อระบุเหตุที่ข้อตกลงระดับบริการ (SLA) ถูกยกเลิก หรือเหตุใดที่ใบสั่งบริการเกินขอบเขตเวลาที่คุณตั้งไว้ใน SLA</span><span class="sxs-lookup"><span data-stu-id="31c26-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
 
-<span data-ttu-id="fbc9a-105">นอกจากนี้คุณสามารถระบุว่ารหัสเหตุผลจำเป็นหรือไม่เมื่อยกเลิก SLA หรือเมื่อขอบเขตเวลาที่จำกัดเกิดจากที่ระบุใน SLA สำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
+<span data-ttu-id="31c26-105">นอกจากนี้คุณสามารถระบุว่ารหัสเหตุผลจำเป็นหรือไม่เมื่อยกเลิก SLA หรือเมื่อขอบเขตเวลาที่จำกัดเกิดจากที่ระบุใน SLA สำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="31c26-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
 
-<span data-ttu-id="fbc9a-106">ถ้าคุณได้ระบุว่ารหัสเหตุผลจำเป็น คุณต้องป้อนรหัสเหตุผลในสถานการณ์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="fbc9a-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
+<span data-ttu-id="31c26-106">ถ้าคุณได้ระบุว่ารหัสเหตุผลจำเป็น คุณต้องป้อนรหัสเหตุผลในสถานการณ์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="31c26-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
 
-  - <span data-ttu-id="fbc9a-107">เมื่อใบสั่งบริการย้ายไปยังขั้นตอนที่หยุดการบันทึกเวลาเทียบกับ SLA สำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
+  - <span data-ttu-id="31c26-107">เมื่อใบสั่งบริการย้ายไปยังขั้นตอนที่หยุดการบันทึกเวลาเทียบกับ SLA สำหรับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="31c26-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
 
-  - <span data-ttu-id="fbc9a-108">เมื่อใบสั่งบริการออกจากระบบ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-108">When the service order is signed off.</span></span>
+  - <span data-ttu-id="31c26-108">เมื่อใบสั่งบริการออกจากระบบ</span><span class="sxs-lookup"><span data-stu-id="31c26-108">When the service order is signed off.</span></span>
 
-  - <span data-ttu-id="fbc9a-109">เมื่อหยุดบันทึกเวลาด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="fbc9a-109">When time recording is manually stopped.</span></span>
+  - <span data-ttu-id="31c26-109">เมื่อหยุดบันทึกเวลาด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="31c26-109">When time recording is manually stopped.</span></span>
 
-## <a name="set-up-reason-codes"></a><span data-ttu-id="fbc9a-110">ตั้งค่ารหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="fbc9a-110">Set up reason codes</span></span>
+## <a name="set-up-reason-codes"></a><span data-ttu-id="31c26-110">ตั้งค่ารหัสเหตุผล</span><span class="sxs-lookup"><span data-stu-id="31c26-110">Set up reason codes</span></span>
 
-1.  <span data-ttu-id="fbc9a-111">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **ใบสั่งบริการ** \> **รหัสเหตุผลของขั้นตอน**</span><span class="sxs-lookup"><span data-stu-id="fbc9a-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
+1.  <span data-ttu-id="31c26-111">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **ใบสั่งบริการ** \> **รหัสเหตุผลของขั้นตอน**</span><span class="sxs-lookup"><span data-stu-id="31c26-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
 
-2.  <span data-ttu-id="fbc9a-112">ในแบบฟอร์ม **รหัสเหตุผลของขั้นตอน** ให้คลิก **สร้าง** เพื่อสร้างรหัสเหตุผลใหม่</span><span class="sxs-lookup"><span data-stu-id="fbc9a-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
+2.  <span data-ttu-id="31c26-112">ในแบบฟอร์ม **รหัสเหตุผลของขั้นตอน** ให้คลิก **สร้าง** เพื่อสร้างรหัสเหตุผลใหม่</span><span class="sxs-lookup"><span data-stu-id="31c26-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
 
-3.  <span data-ttu-id="fbc9a-113">ในฟิลด์ **รหัสเหตุผลของขั้นตอน** ให้ป้อนรหัสเหตุผลของขั้นที่ไม่ซ้ำกัน</span><span class="sxs-lookup"><span data-stu-id="fbc9a-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
+3.  <span data-ttu-id="31c26-113">ในฟิลด์ **รหัสเหตุผลของขั้นตอน** ให้ป้อนรหัสเหตุผลของขั้นที่ไม่ซ้ำกัน</span><span class="sxs-lookup"><span data-stu-id="31c26-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
 
-4.  <span data-ttu-id="fbc9a-114">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบายของรหัสเหตุผลของขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="fbc9a-114">In the **Description** field, enter a description of the stage reason code.</span></span>
+4.  <span data-ttu-id="31c26-114">ในฟิลด์ **คำอธิบาย** ให้ป้อนคำอธิบายของรหัสเหตุผลของขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="31c26-114">In the **Description** field, enter a description of the stage reason code.</span></span>
 
-5.  <span data-ttu-id="fbc9a-115">ปิดแบบฟอร์มเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-115">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="31c26-115">ปิดแบบฟอร์มเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="31c26-115">Close the form to save your changes.</span></span>
 
-## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="fbc9a-116">การใช้รหัสเหตุผลเมื่อยกเลิกข้อตกลงระดับบริการ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-116">Require reason codes when a service level agreement is canceled</span></span>
+## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="31c26-116">การใช้รหัสเหตุผลเมื่อยกเลิกข้อตกลงระดับบริการ</span><span class="sxs-lookup"><span data-stu-id="31c26-116">Require reason codes when a service level agreement is canceled</span></span>
 
-1.  <span data-ttu-id="fbc9a-117">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **พารามิเตอร์การจัดการงานบริการ**</span><span class="sxs-lookup"><span data-stu-id="fbc9a-117">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="31c26-117">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **พารามิเตอร์การจัดการงานบริการ**</span><span class="sxs-lookup"><span data-stu-id="31c26-117">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
 
-2.  <span data-ttu-id="fbc9a-118">ในฟอร์ม **พารามิเตอร์การจัดการบริการ** คลิกที่ลิงค์ **ทั่วไป** และจากนั้นเลือกกล่องกาเครื่องหมาย **รหัสเหตุผลในการยกเลิก**</span><span class="sxs-lookup"><span data-stu-id="fbc9a-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
+2.  <span data-ttu-id="31c26-118">ในฟอร์ม **พารามิเตอร์การจัดการบริการ** คลิกที่ลิงค์ **ทั่วไป** และจากนั้นเลือกกล่องกาเครื่องหมาย **รหัสเหตุผลในการยกเลิก**</span><span class="sxs-lookup"><span data-stu-id="31c26-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
 
-## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="fbc9a-119">การใช้รหัสเหตุผลเมื่อเมื่อใบสั่งบริการเกิดขีดจำกัดเวลาที่ตั้งค่าไว้โดยข้อตกลงระดับการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
+## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="31c26-119">การใช้รหัสเหตุผลเมื่อเมื่อใบสั่งบริการเกิดขีดจำกัดเวลาที่ตั้งค่าไว้โดยข้อตกลงระดับการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="31c26-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
 
-1.  <span data-ttu-id="fbc9a-120">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **พารามิเตอร์การจัดการงานบริการ**</span><span class="sxs-lookup"><span data-stu-id="fbc9a-120">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="31c26-120">คลิก **การจัดการงานบริการ** \> **ตั้งค่า** \> **พารามิเตอร์การจัดการงานบริการ**</span><span class="sxs-lookup"><span data-stu-id="31c26-120">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
 
-2.  <span data-ttu-id="fbc9a-121">ในฟอร์ม **พารามิเตอร์การจัดการบริการ** คลิกที่ลิงค์ **ทั่วไป** และจากนั้นเลือกกล่องกาเครื่องหมาย **รหัสเหตุผลที่เกินเวลา**</span><span class="sxs-lookup"><span data-stu-id="fbc9a-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
+2.  <span data-ttu-id="31c26-121">ในฟอร์ม **พารามิเตอร์การจัดการบริการ** คลิกที่ลิงค์ **ทั่วไป** และจากนั้นเลือกกล่องกาเครื่องหมาย **รหัสเหตุผลที่เกินเวลา**</span><span class="sxs-lookup"><span data-stu-id="31c26-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fbc9a-122">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="fbc9a-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="31c26-122">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="31c26-122">See also</span></span>
 
-[<span data-ttu-id="fbc9a-123">การเริ่มต้นและหยุดการบันทึกเวลาของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="fbc9a-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
+[<span data-ttu-id="31c26-123">การเริ่มต้นและหยุดการบันทึกเวลาของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="31c26-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
 
   
 

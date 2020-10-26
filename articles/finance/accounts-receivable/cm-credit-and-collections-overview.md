@@ -12,68 +12,68 @@ audience: Application User
 ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a822e5f5a6cb71a0234b1776211788578470b0bb
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124311"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976606"
 ---
-# <a name="credit-and-collections-overview"></a><span data-ttu-id="e945e-103">ภาพรวมสินเชื่อและการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="e945e-103">Credit and collections overview</span></span>
+# <a name="credit-and-collections-overview"></a><span data-ttu-id="4c036-103">ภาพรวมสินเชื่อและการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="4c036-103">Credit and collections overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e945e-104">คุณสามารถจัดการวงเงินสินเชื่อสำหรับลูกค้าของคุณ และดำเนินกิจกรรมการเรียกเก็บเงินได้เมื่อจำเป็น</span><span class="sxs-lookup"><span data-stu-id="e945e-104">You can manage credit limits for your customers and perform collection activities when they become necessary.</span></span>
+<span data-ttu-id="4c036-104">คุณสามารถจัดการวงเงินสินเชื่อสำหรับลูกค้าของคุณ และดำเนินกิจกรรมการเรียกเก็บเงินได้เมื่อจำเป็น</span><span class="sxs-lookup"><span data-stu-id="4c036-104">You can manage credit limits for your customers and perform collection activities when they become necessary.</span></span>
 
-## <a name="credit-management"></a><span data-ttu-id="e945e-105">การจัดการสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="e945e-105">Credit management</span></span>
+## <a name="credit-management"></a><span data-ttu-id="4c036-105">การจัดการสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="4c036-105">Credit management</span></span>
 
-<span data-ttu-id="e945e-106">การจัดการเครดิตของลูกค้าช่วยให้คุณสามารถจัดการวงเงินสินเชื่อและควบคุมกระบวนการผลิตของใบสั่งขาย โดยใช้กระบวนการลงรายการบัญชีตามกฎเครดิตที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="e945e-106">Customer credit management lets you manage credit limits and control the flow of sales orders through the posting process, based on credit rules that you create.</span></span>
+<span data-ttu-id="4c036-106">การจัดการเครดิตของลูกค้าช่วยให้คุณสามารถจัดการวงเงินสินเชื่อและควบคุมกระบวนการผลิตของใบสั่งขาย โดยใช้กระบวนการลงรายการบัญชีตามกฎเครดิตที่คุณสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="4c036-106">Customer credit management lets you manage credit limits and control the flow of sales orders through the posting process, based on credit rules that you create.</span></span>
 
-<span data-ttu-id="e945e-107">กระบวนการการจัดการเครดิตอาจประกอบด้วยขั้นตอนใด ๆ ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="e945e-107">The credit management process can include any of the following steps:</span></span>
+<span data-ttu-id="4c036-107">กระบวนการการจัดการเครดิตอาจประกอบด้วยขั้นตอนใด ๆ ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="4c036-107">The credit management process can include any of the following steps:</span></span>
 
-- <span data-ttu-id="e945e-108">ปรับปรุงแอททริบิวต์เครดิตสำหรับลูกค้าเพื่อให้ข้อมูลเพิ่มเติมเกี่ยวกับความน่าเชื่อถือของผู้ถือบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="e945e-108">Update credit attributes for customers to provide additional information about their credit worthiness.</span></span>
-- <span data-ttu-id="e945e-109">สร้างวงเงินสินเชื่อสำหรับลูกค้าโดยใช้การปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="e945e-109">Create credit limits for customers by using credit limit adjustments.</span></span>
-- <span data-ttu-id="e945e-110">สร้างวงเงินสินเชื่อชั่วคราวสำหรับลูกค้าโดยใช้การปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="e945e-110">Create temporary credit limits for customers by using credit limit adjustments.</span></span> <span data-ttu-id="e945e-111">ด้วยวิธีนี้ คุณสามารถเพิ่มหรือลดวงเงินสินเชื่อของลูกค้าได้ชั่วคราว ตามความต้องการของธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="e945e-111">In this way, you can temporarily increase or decrease customer credit limits, based on business requirements.</span></span>
-- <span data-ttu-id="e945e-112">เพิ่มข้อมูลที่อาจส่งผลกระทบต่อวงเงินสินเชื่อ เช่น ข้อมูลเกี่ยวกับการประกันภัยและการค้ำประกัน</span><span class="sxs-lookup"><span data-stu-id="e945e-112">Add information that can affect the credit limit, such as information about insurance and guarantees.</span></span>
-- <span data-ttu-id="e945e-113">สร้างกลุ่มเครดิตของลูกค้าที่เชื่อมโยงกับลูกค้าด้วยกัน เพื่อให้พวกเขาสามารถใช้วงเงินสินเชื่อเดียวกันได้</span><span class="sxs-lookup"><span data-stu-id="e945e-113">Create customer credit groups that link customers together so that they share a single credit limit.</span></span>
-- <span data-ttu-id="e945e-114">กำหนดคะแนนความเสี่ยงให้กับลูกค้า แล้วใช้คะแนนเหล่านั้นเพื่อสร้างวงเงินสินเชื่อสำหรับลูกค้าเหล่านั้นโดยอัตโนมัติผ่านการปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="e945e-114">Assign risk scores to customers, and then use the scores to automatically generate credit limits for those customers through credit limit adjustments.</span></span>
-- <span data-ttu-id="e945e-115">สร้างกฎการบล็อคที่จะทำการระงับใบสั่งระหว่างกระบวนการลงรายการบัญชีอย่างน้อยหนึ่งรายการตามปัจจัยต่าง ๆ เช่น ความเสี่ยง เงื่อนไขการชำระเงิน วงเงินสินเชื่อ ยอดเงินที่พ้นกำหนดชำระ และเปอร์เซ็นต์ของวงเงินสินเชื่อที่ใช้</span><span class="sxs-lookup"><span data-stu-id="e945e-115">Create blocking rules that put an order on hold during one or more posting processes, based on factors such as risk, payment terms, credit limits, overdue amounts, and the percentage of the credit limit that has been used.</span></span>
-- <span data-ttu-id="e945e-116">จัดการรายการของใบสั่งขายที่ระงับ ตรวจสอบเหตุผลสำหรับการระงับ และลดปัญหา</span><span class="sxs-lookup"><span data-stu-id="e945e-116">Manage a list of sales orders that are on hold, review the reasons for the hold, and mitigate issues.</span></span>
-- <span data-ttu-id="e945e-117">นำใบสั่งขายออกใช้ เพื่อที่พวกเขาสามารถดำเนินการต่อโดยใช้กระบวนการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="e945e-117">Release sales orders so that they continue through the posting process.</span></span>
-- <span data-ttu-id="e945e-118">ตั้งค่าลำดับงานเพื่อจัดการการอนุมัติการเปลี่ยนแปลงวงเงินสินเชื่อ และการนำใบสั่งขายออกใช้</span><span class="sxs-lookup"><span data-stu-id="e945e-118">Set up a workflow to manage the approval of credit limit changes and sales order releases.</span></span>
+- <span data-ttu-id="4c036-108">ปรับปรุงแอททริบิวต์เครดิตสำหรับลูกค้าเพื่อให้ข้อมูลเพิ่มเติมเกี่ยวกับความน่าเชื่อถือของผู้ถือบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="4c036-108">Update credit attributes for customers to provide additional information about their credit worthiness.</span></span>
+- <span data-ttu-id="4c036-109">สร้างวงเงินสินเชื่อสำหรับลูกค้าโดยใช้การปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="4c036-109">Create credit limits for customers by using credit limit adjustments.</span></span>
+- <span data-ttu-id="4c036-110">สร้างวงเงินสินเชื่อชั่วคราวสำหรับลูกค้าโดยใช้การปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="4c036-110">Create temporary credit limits for customers by using credit limit adjustments.</span></span> <span data-ttu-id="4c036-111">ด้วยวิธีนี้ คุณสามารถเพิ่มหรือลดวงเงินสินเชื่อของลูกค้าได้ชั่วคราว ตามความต้องการของธุรกิจ</span><span class="sxs-lookup"><span data-stu-id="4c036-111">In this way, you can temporarily increase or decrease customer credit limits, based on business requirements.</span></span>
+- <span data-ttu-id="4c036-112">เพิ่มข้อมูลที่อาจส่งผลกระทบต่อวงเงินสินเชื่อ เช่น ข้อมูลเกี่ยวกับการประกันภัยและการค้ำประกัน</span><span class="sxs-lookup"><span data-stu-id="4c036-112">Add information that can affect the credit limit, such as information about insurance and guarantees.</span></span>
+- <span data-ttu-id="4c036-113">สร้างกลุ่มเครดิตของลูกค้าที่เชื่อมโยงกับลูกค้าด้วยกัน เพื่อให้พวกเขาสามารถใช้วงเงินสินเชื่อเดียวกันได้</span><span class="sxs-lookup"><span data-stu-id="4c036-113">Create customer credit groups that link customers together so that they share a single credit limit.</span></span>
+- <span data-ttu-id="4c036-114">กำหนดคะแนนความเสี่ยงให้กับลูกค้า แล้วใช้คะแนนเหล่านั้นเพื่อสร้างวงเงินสินเชื่อสำหรับลูกค้าเหล่านั้นโดยอัตโนมัติผ่านการปรับปรุงวงเงินสินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="4c036-114">Assign risk scores to customers, and then use the scores to automatically generate credit limits for those customers through credit limit adjustments.</span></span>
+- <span data-ttu-id="4c036-115">สร้างกฎการบล็อคที่จะทำการระงับใบสั่งระหว่างกระบวนการลงรายการบัญชีอย่างน้อยหนึ่งรายการตามปัจจัยต่าง ๆ เช่น ความเสี่ยง เงื่อนไขการชำระเงิน วงเงินสินเชื่อ ยอดเงินที่พ้นกำหนดชำระ และเปอร์เซ็นต์ของวงเงินสินเชื่อที่ใช้</span><span class="sxs-lookup"><span data-stu-id="4c036-115">Create blocking rules that put an order on hold during one or more posting processes, based on factors such as risk, payment terms, credit limits, overdue amounts, and the percentage of the credit limit that has been used.</span></span>
+- <span data-ttu-id="4c036-116">จัดการรายการของใบสั่งขายที่ระงับ ตรวจสอบเหตุผลสำหรับการระงับ และลดปัญหา</span><span class="sxs-lookup"><span data-stu-id="4c036-116">Manage a list of sales orders that are on hold, review the reasons for the hold, and mitigate issues.</span></span>
+- <span data-ttu-id="4c036-117">นำใบสั่งขายออกใช้ เพื่อที่พวกเขาสามารถดำเนินการต่อโดยใช้กระบวนการลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="4c036-117">Release sales orders so that they continue through the posting process.</span></span>
+- <span data-ttu-id="4c036-118">ตั้งค่าลำดับงานเพื่อจัดการการอนุมัติการเปลี่ยนแปลงวงเงินสินเชื่อ และการนำใบสั่งขายออกใช้</span><span class="sxs-lookup"><span data-stu-id="4c036-118">Set up a workflow to manage the approval of credit limit changes and sales order releases.</span></span>
 
-## <a name="collections-management"></a><span data-ttu-id="e945e-119">การจัดการการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="e945e-119">Collections management</span></span>
+## <a name="collections-management"></a><span data-ttu-id="4c036-119">การจัดการการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="4c036-119">Collections management</span></span>
 
-<span data-ttu-id="e945e-120">เพจ **การเรียกเก็บเงิน** ให้มุมมองส่วนกลางที่ข้อมูลการเรียกเก็บเงินบัญชีลูกหนี้ได้รับการจัดการ</span><span class="sxs-lookup"><span data-stu-id="e945e-120">The **Collections** page provides a centralized view where accounts receivable collections information is managed.</span></span> <span data-ttu-id="e945e-121">ผู้จัดการฝ่ายการเรียกเก็บเงินสามารถใช้มุมมองส่วนกลางนี้ เพื่อจัดการการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="e945e-121">Collections managers can use this centralized view to manage collections.</span></span> <span data-ttu-id="e945e-122">ตัวแทนเรียกเก็บเงินจะเริ่มกระบวนการเรียกเก็บเงินจากรายชื่อลูกค้าที่ถูกสร้างขึ้นโดยการใช้เกณฑ์การเรียกเก็บเงินที่กำหนดไว้ล่วงหน้าหรือจากเพจ **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="e945e-122">Collections agents can begin the collections process either from customer lists that are generated by using predefined collection criteria or from the **Customers** page.</span></span>
+<span data-ttu-id="4c036-120">เพจ **การเรียกเก็บเงิน** ให้มุมมองส่วนกลางที่ข้อมูลการเรียกเก็บเงินบัญชีลูกหนี้ได้รับการจัดการ</span><span class="sxs-lookup"><span data-stu-id="4c036-120">The **Collections** page provides a centralized view where accounts receivable collections information is managed.</span></span> <span data-ttu-id="4c036-121">ผู้จัดการฝ่ายการเรียกเก็บเงินสามารถใช้มุมมองส่วนกลางนี้ เพื่อจัดการการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="4c036-121">Collections managers can use this centralized view to manage collections.</span></span> <span data-ttu-id="4c036-122">ตัวแทนเรียกเก็บเงินจะเริ่มกระบวนการเรียกเก็บเงินจากรายชื่อลูกค้าที่ถูกสร้างขึ้นโดยการใช้เกณฑ์การเรียกเก็บเงินที่กำหนดไว้ล่วงหน้าหรือจากเพจ **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="4c036-122">Collections agents can begin the collections process either from customer lists that are generated by using predefined collection criteria or from the **Customers** page.</span></span>
 
-<span data-ttu-id="e945e-123">ก่อนที่คุณจะเริ่มตั้งค่าหรือทำงานกับการเรียกเก็บเงิน คุณควรทำความเข้าใจแนวคิดต่างๆต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="e945e-123">Before you start to set up or work with collections, you should understand the following concepts:</span></span>
+<span data-ttu-id="4c036-123">ก่อนที่คุณจะเริ่มตั้งค่าหรือทำงานกับการเรียกเก็บเงิน คุณควรทำความเข้าใจแนวคิดต่างๆต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="4c036-123">Before you start to set up or work with collections, you should understand the following concepts:</span></span>
 
-- <span data-ttu-id="e945e-124">สแนปช็อตอายุหนี้ลูกค้าประกอบด้วยข้อมูลยอดดุลอายุหนี้ ณ เวลาหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="e945e-124">Customer aging snapshots contain aged balance information at a specific point in time.</span></span>
-- <span data-ttu-id="e945e-125">การเรียกเก็บเงินกลุ่มลูกค้าช่วยคุณจัดระเบียบงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="e945e-125">Collections customer pools help you organize your work.</span></span>
-- <span data-ttu-id="e945e-126">ตัวแทนเรียกเก็บเงินสามารถมีกลุ่มลูกค้าของตนเองได้</span><span class="sxs-lookup"><span data-stu-id="e945e-126">Collections agents can have their own customer pools.</span></span>
-- <span data-ttu-id="e945e-127">หน้ารายการจัดระเบียบการเรียกเก็บเงินลูกค้า กิจกรรม และกรณีต่างๆ</span><span class="sxs-lookup"><span data-stu-id="e945e-127">List pages organize collections customers, activities, and cases.</span></span>
-- <span data-ttu-id="e945e-128">ข้อมูลการเรียกเก็บเงินทั้งหมดสำหรับลูกค้าอยู่บนหน้าหนึ่งหน้า และคุณสามารถดำเนินการได้จากหน้านั้น</span><span class="sxs-lookup"><span data-stu-id="e945e-128">All collections information for a customer is on one page, and you can take action from that page.</span></span>
-- <span data-ttu-id="e945e-129">ดอกเบี้ยและค่าธรรมเนียมสามารถยกเว้น กลับมาคิด หรือกลับรายการได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="e945e-129">Interest and fees can be waived, reinstated, or reversed in one step.</span></span>
-- <span data-ttu-id="e945e-130">ธุรกรรมการตัดจ่ายสามารถทำได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="e945e-130">Write-off transactions can be created in one step.</span></span>
-- <span data-ttu-id="e945e-131">การชำระเงินที่มีเงินในบัญชีไม่พอ (NSF) สามารถทำได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="e945e-131">Not sufficient funds (NSF) payments can be processed in one step.</span></span>
+- <span data-ttu-id="4c036-124">สแนปช็อตอายุหนี้ลูกค้าประกอบด้วยข้อมูลยอดดุลอายุหนี้ ณ เวลาหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="4c036-124">Customer aging snapshots contain aged balance information at a specific point in time.</span></span>
+- <span data-ttu-id="4c036-125">การเรียกเก็บเงินกลุ่มลูกค้าช่วยคุณจัดระเบียบงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="4c036-125">Collections customer pools help you organize your work.</span></span>
+- <span data-ttu-id="4c036-126">ตัวแทนเรียกเก็บเงินสามารถมีกลุ่มลูกค้าของตนเองได้</span><span class="sxs-lookup"><span data-stu-id="4c036-126">Collections agents can have their own customer pools.</span></span>
+- <span data-ttu-id="4c036-127">หน้ารายการจัดระเบียบการเรียกเก็บเงินลูกค้า กิจกรรม และกรณีต่างๆ</span><span class="sxs-lookup"><span data-stu-id="4c036-127">List pages organize collections customers, activities, and cases.</span></span>
+- <span data-ttu-id="4c036-128">ข้อมูลการเรียกเก็บเงินทั้งหมดสำหรับลูกค้าอยู่บนหน้าหนึ่งหน้า และคุณสามารถดำเนินการได้จากหน้านั้น</span><span class="sxs-lookup"><span data-stu-id="4c036-128">All collections information for a customer is on one page, and you can take action from that page.</span></span>
+- <span data-ttu-id="4c036-129">ดอกเบี้ยและค่าธรรมเนียมสามารถยกเว้น กลับมาคิด หรือกลับรายการได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="4c036-129">Interest and fees can be waived, reinstated, or reversed in one step.</span></span>
+- <span data-ttu-id="4c036-130">ธุรกรรมการตัดจ่ายสามารถทำได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="4c036-130">Write-off transactions can be created in one step.</span></span>
+- <span data-ttu-id="4c036-131">การชำระเงินที่มีเงินในบัญชีไม่พอ (NSF) สามารถทำได้ในขั้นตอนเดียว</span><span class="sxs-lookup"><span data-stu-id="4c036-131">Not sufficient funds (NSF) payments can be processed in one step.</span></span>
 
-<span data-ttu-id="e945e-132">สำหรับคำอธิบายแนวคิดเหล่านี้ โปรดดูที่ [แนวคิดหลักของการจัดการการเรียกเก็บเงิน](./cm-collections-concepts.md)</span><span class="sxs-lookup"><span data-stu-id="e945e-132">For descriptions of these concepts, see [Collections management key concepts](./cm-collections-concepts.md).</span></span>
+<span data-ttu-id="4c036-132">สำหรับคำอธิบายแนวคิดเหล่านี้ โปรดดูที่ [แนวคิดหลักของการจัดการการเรียกเก็บเงิน](./cm-collections-concepts.md)</span><span class="sxs-lookup"><span data-stu-id="4c036-132">For descriptions of these concepts, see [Collections management key concepts](./cm-collections-concepts.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e945e-133">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e945e-133">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4c036-133">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="4c036-133">Additional resources</span></span>
 
-[<span data-ttu-id="e945e-134">การตั้งค่าพารามิเตอร์การจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-134">Customer credit management parameters setup</span></span>](./cm-credit-mgmt-setup.md)
+[<span data-ttu-id="4c036-134">การตั้งค่าพารามิเตอร์การจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-134">Customer credit management parameters setup</span></span>](./cm-credit-mgmt-setup.md)
 
-[<span data-ttu-id="e945e-135">ข้อมูลการตั้งค่าการจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-135">Customer credit management setup information</span></span>](./cm-setup-information.md)
+[<span data-ttu-id="4c036-135">ข้อมูลการตั้งค่าการจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-135">Customer credit management setup information</span></span>](./cm-setup-information.md)
 
-[<span data-ttu-id="e945e-136">เพิ่มข้อมูลการตั้งค่าการจัดการเครดิตสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-136">Add credit management information for a customer</span></span>](./cm-add-credit-mgmt-information-customer.md)
+[<span data-ttu-id="4c036-136">เพิ่มข้อมูลการตั้งค่าการจัดการเครดิตสำหรับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-136">Add credit management information for a customer</span></span>](./cm-add-credit-mgmt-information-customer.md)
 
-[<span data-ttu-id="e945e-137">กลุ่มสินเชื่อลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-137">Customer credit groups</span></span>](./cm-customer-credit-groups.md)
+[<span data-ttu-id="4c036-137">กลุ่มสินเชื่อลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-137">Customer credit groups</span></span>](./cm-customer-credit-groups.md)
 
-[<span data-ttu-id="e945e-138">การปรับปรุงวงเงินเครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-138">Customer credit limit adjustments</span></span>](./cm-credit-limit-adjustments.md)
+[<span data-ttu-id="4c036-138">การปรับปรุงวงเงินเครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-138">Customer credit limit adjustments</span></span>](./cm-credit-limit-adjustments.md)
 
-[<span data-ttu-id="e945e-139">การระงับเครดิตสำหรับใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="e945e-139">Credit holds for sales orders</span></span>](./cm-sales-order-credit-holds.md)
+[<span data-ttu-id="4c036-139">การระงับเครดิตสำหรับใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="4c036-139">Credit holds for sales orders</span></span>](./cm-sales-order-credit-holds.md)
 
-[<span data-ttu-id="e945e-140">งานประจำงวดการจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e945e-140">Customer credit management periodic tasks</span></span>](./cm-periodic-tasks.md)
+[<span data-ttu-id="4c036-140">งานประจำงวดการจัดการเครดิตของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="4c036-140">Customer credit management periodic tasks</span></span>](./cm-periodic-tasks.md)
