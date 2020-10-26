@@ -15,45 +15,45 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa85bf4262216c780c3da523f65baf980fdc200f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bdc42f9c5ece8e2c2570cadf623f52648b7b174e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206576"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985802"
 ---
-# <a name="take-returned-items-through-inspection"></a><span data-ttu-id="fe352-103">การนำสินค้าที่ส่งคืนไปตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="fe352-103">Take returned items through inspection</span></span> 
+# <a name="take-returned-items-through-inspection"></a><span data-ttu-id="da265-103">การนำสินค้าที่ส่งคืนไปตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="da265-103">Take returned items through inspection</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="fe352-104">คลิก **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**</span><span class="sxs-lookup"><span data-stu-id="fe352-104">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="da265-104">คลิก **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**</span><span class="sxs-lookup"><span data-stu-id="da265-104">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="fe352-105">ค้นหาบรรทัดใบสั่งที่สอดคล้องกับสินค้าที่ส่งคืน ซึ่งคุณกำลังตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="fe352-105">Locate the order line that corresponds to the returned item that you are inspecting.</span></span>
+2.  <span data-ttu-id="da265-105">ค้นหาบรรทัดใบสั่งที่สอดคล้องกับสินค้าที่ส่งคืน ซึ่งคุณกำลังตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="da265-105">Locate the order line that corresponds to the returned item that you are inspecting.</span></span>
 
     > [!NOTE]
-    > <P><span data-ttu-id="fe352-106">ใบสั่งตรวจสอบสินค้าสามารถเชื่อมโยงกับหมายเลขสินค้าได้เพียงหมายเลขเดียวเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="fe352-106">A quarantine order can be associated with just a single item number.</span></span> <span data-ttu-id="fe352-107">ถ้ามีการส่งคืนสินค้า 10 รายการที่มีหมายเลขสินค้าแตกต่างกันในการจัดส่งคืนครั้งเดียว และถูกส่งไปตรวจสอบ ระบบจะสร้างใบสั่งตรวจสอบสินค้าสำหรับสินค้าแต่ละรายการขึ้น 10 ใบ</span><span class="sxs-lookup"><span data-stu-id="fe352-107">If 10 items that have different item numbers are returned in a single shipment and sent to quarantine, 10 individual quarantine orders are created.</span></span></P>
+    > <P><span data-ttu-id="da265-106">ใบสั่งตรวจสอบสินค้าสามารถเชื่อมโยงกับหมายเลขสินค้าได้เพียงหมายเลขเดียวเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="da265-106">A quarantine order can be associated with just a single item number.</span></span> <span data-ttu-id="da265-107">ถ้ามีการส่งคืนสินค้า 10 รายการที่มีหมายเลขสินค้าแตกต่างกันในการจัดส่งคืนครั้งเดียว และถูกส่งไปตรวจสอบ ระบบจะสร้างใบสั่งตรวจสอบสินค้าสำหรับสินค้าแต่ละรายการขึ้น 10 ใบ</span><span class="sxs-lookup"><span data-stu-id="da265-107">If 10 items that have different item numbers are returned in a single shipment and sent to quarantine, 10 individual quarantine orders are created.</span></span></P>
 
-3.  <span data-ttu-id="fe352-108">หลังจากการตรวจสอบสินค้า ให้ทำการเลือกในฟิลด์ **รหัสการโอนการครอบครอง** เพื่อบ่งชี้ว่าควรจะทำอะไรกับสินค้า และควรจะจัดการธุรกรรมการเงินที่เกี่ยวข้องอย่างไร</span><span class="sxs-lookup"><span data-stu-id="fe352-108">After examining the item, make a selection in the **Disposition code** field to indicate what should be done with the item and how to handle the related financial transaction.</span></span> <span data-ttu-id="fe352-109">ตัวอย่างเช่น การส่งคืนสินค้าไปที่สต็อกและคืนเงินให้แก่ลูกค้า การกำจัดสินค้าเป็นเศษซากและส่งสินค้าใหม่ไปเปลี่ยนให้ลูกค้า หรือการส่งคืนสินค้ากลับไปให้ลูกค้าโดยไม่ลดหนี้</span><span class="sxs-lookup"><span data-stu-id="fe352-109">Examples include returning the item to stock and refunding the customer, scrapping the item and sending a replacement to the customer, or returning the item to the customer without credit.</span></span>
+3.  <span data-ttu-id="da265-108">หลังจากการตรวจสอบสินค้า ให้ทำการเลือกในฟิลด์ **รหัสการโอนการครอบครอง** เพื่อบ่งชี้ว่าควรจะทำอะไรกับสินค้า และควรจะจัดการธุรกรรมการเงินที่เกี่ยวข้องอย่างไร</span><span class="sxs-lookup"><span data-stu-id="da265-108">After examining the item, make a selection in the **Disposition code** field to indicate what should be done with the item and how to handle the related financial transaction.</span></span> <span data-ttu-id="da265-109">ตัวอย่างเช่น การส่งคืนสินค้าไปที่สต็อกและคืนเงินให้แก่ลูกค้า การกำจัดสินค้าเป็นเศษซากและส่งสินค้าใหม่ไปเปลี่ยนให้ลูกค้า หรือการส่งคืนสินค้ากลับไปให้ลูกค้าโดยไม่ลดหนี้</span><span class="sxs-lookup"><span data-stu-id="da265-109">Examples include returning the item to stock and refunding the customer, scrapping the item and sending a replacement to the customer, or returning the item to the customer without credit.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="fe352-110">ถ้าสินค้าที่ส่งคืนหลายรายการในชุดหมายเลขสินค้าเดียวกัน ไม่สามารถถูกกำหนดให้กับรหัสการโอนการครอบครองเดียวกันได้ คุณต้องแบ่งใบสั่งตรวจสอบสินค้า (<STRONG>ฟังก์ชัน</STRONG> &gt; <STRONG>แบ่ง</STRONG>) เพื่อกำหนดรหัสการโอนการครอบครองที่แตกต่างกันให้กับชุดสินค้าย่อยแต่ละชุด</span><span class="sxs-lookup"><span data-stu-id="fe352-110">If multiple returned items in a single item number batch cannot be assigned the same disposition code, you must split the quarantine order (<STRONG>Functions</STRONG> &gt; <STRONG>Split</STRONG>) to assign a different disposition code to each sub-batch.</span></span></P>
+    > <P><span data-ttu-id="da265-110">ถ้าสินค้าที่ส่งคืนหลายรายการในชุดหมายเลขสินค้าเดียวกัน ไม่สามารถถูกกำหนดให้กับรหัสการโอนการครอบครองเดียวกันได้ คุณต้องแบ่งใบสั่งตรวจสอบสินค้า (<STRONG>ฟังก์ชัน</STRONG> &gt; <STRONG>แบ่ง</STRONG>) เพื่อกำหนดรหัสการโอนการครอบครองที่แตกต่างกันให้กับชุดสินค้าย่อยแต่ละชุด</span><span class="sxs-lookup"><span data-stu-id="da265-110">If multiple returned items in a single item number batch cannot be assigned the same disposition code, you must split the quarantine order (<STRONG>Functions</STRONG> &gt; <STRONG>Split</STRONG>) to assign a different disposition code to each sub-batch.</span></span></P>
 
 
-4.  <span data-ttu-id="fe352-111">เมื่อคุณตรวจสอบอย่างละเอียดเสร็จแล้ว ให้คลิก **รายงานเมื่อเสร็จสมบูรณ์** เพื่อนำออกใช้สินค้าที่ส่งคืน และสร้างรายการสมุดรายวันการมาถึงของสินค้า</span><span class="sxs-lookup"><span data-stu-id="fe352-111">When you are finished with the inspection, click **Report as finished** to release the returned items and create an item arrival journal entry.</span></span> <span data-ttu-id="fe352-112">จากนั้นบุคลากรหรือแผนกที่ได้รับสินค้าจะประมวลผลสมุดรายวันสำหรับสินค้าที่จะส่งคืนไปยังสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="fe352-112">The person or department that receives the items then processes the journal for the items to be returned to inventory.</span></span>
+4.  <span data-ttu-id="da265-111">เมื่อคุณตรวจสอบอย่างละเอียดเสร็จแล้ว ให้คลิก **รายงานเมื่อเสร็จสมบูรณ์** เพื่อนำออกใช้สินค้าที่ส่งคืน และสร้างรายการสมุดรายวันการมาถึงของสินค้า</span><span class="sxs-lookup"><span data-stu-id="da265-111">When you are finished with the inspection, click **Report as finished** to release the returned items and create an item arrival journal entry.</span></span> <span data-ttu-id="da265-112">จากนั้นบุคลากรหรือแผนกที่ได้รับสินค้าจะประมวลผลสมุดรายวันสำหรับสินค้าที่จะส่งคืนไปยังสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="da265-112">The person or department that receives the items then processes the journal for the items to be returned to inventory.</span></span>
     
-    <span data-ttu-id="fe352-113">หรือ</span><span class="sxs-lookup"><span data-stu-id="fe352-113">–or–</span></span>
+    <span data-ttu-id="da265-113">หรือ</span><span class="sxs-lookup"><span data-stu-id="da265-113">–or–</span></span>
     
-    <span data-ttu-id="fe352-114">สิ้นสุดใบสั่งตรวจสอบสินค้า และย้ายสินค้ากลับเข้าในสินค้าคงคลังโดยตรง โดยใช้หนึ่งในฟังก์ชัน **สินค้าคงคลัง**</span><span class="sxs-lookup"><span data-stu-id="fe352-114">End the quarantine order, and move the items back into inventory directly by using one of the **Inventory** functions.</span></span>
+    <span data-ttu-id="da265-114">สิ้นสุดใบสั่งตรวจสอบสินค้า และย้ายสินค้ากลับเข้าในสินค้าคงคลังโดยตรง โดยใช้หนึ่งในฟังก์ชัน **สินค้าคงคลัง**</span><span class="sxs-lookup"><span data-stu-id="da265-114">End the quarantine order, and move the items back into inventory directly by using one of the **Inventory** functions.</span></span>
 
-5.  <span data-ttu-id="fe352-115">ปิดแบบฟอร์มเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="fe352-115">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="da265-115">ปิดแบบฟอร์มเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="da265-115">Close the form to save your changes.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fe352-116">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="fe352-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da265-116">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="da265-116">See also</span></span>
 
-[<span data-ttu-id="fe352-117">การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="fe352-117">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
+[<span data-ttu-id="da265-117">การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="da265-117">Specify how to dispose of returned items</span></span>](specify-how-to-dispose-of-returned-items.md)
 
   
 
