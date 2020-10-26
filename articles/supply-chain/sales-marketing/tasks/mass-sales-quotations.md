@@ -13,91 +13,91 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bbe96e8e8fc2b7139c5d3064825f6ab527fc67e
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830318"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980729"
 ---
-# <a name="mass-create-sales-quotations"></a><span data-ttu-id="fa416-103">สร้างใบเสนอราคาขายจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="fa416-103">Mass create sales quotations</span></span>
+# <a name="mass-create-sales-quotations"></a><span data-ttu-id="ba142-103">สร้างใบเสนอราคาขายจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="ba142-103">Mass create sales quotations</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fa416-104">ขั้นตอนเหล่านี้อธิบายวิธีการสร้างใบเสนอราคาแบบมีประสิทธิภาพเพื่อนำเสนอรูปแบบของผลิตภัณฑ์หรือบริการสำหรับนำไปส่งให้กับลูกค้า </span><span class="sxs-lookup"><span data-stu-id="fa416-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="fa416-105">การสร้างใบเสนอราคาทั้งหมดนี้จะขึ้นอยู่กับเท็มเพลตของใบเสนอราคา </span><span class="sxs-lookup"><span data-stu-id="fa416-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="fa416-106">คุณสามารถทำตามขั้นตอนเหล่านี้กับข้อมูลของคุณ หรือกับบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="fa416-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
+<span data-ttu-id="ba142-104">ขั้นตอนเหล่านี้อธิบายวิธีการสร้างใบเสนอราคาแบบมีประสิทธิภาพเพื่อนำเสนอรูปแบบของผลิตภัณฑ์หรือบริการสำหรับนำไปส่งให้กับลูกค้า </span><span class="sxs-lookup"><span data-stu-id="ba142-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="ba142-105">การสร้างใบเสนอราคาทั้งหมดนี้จะขึ้นอยู่กับเท็มเพลตของใบเสนอราคา </span><span class="sxs-lookup"><span data-stu-id="ba142-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="ba142-106">คุณสามารถทำตามขั้นตอนเหล่านี้กับข้อมูลของคุณ หรือกับบริษัทข้อมูลสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="ba142-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-quotation-template"></a><span data-ttu-id="fa416-107">สร้างเท็มเพลตใบเสนอราคา</span><span class="sxs-lookup"><span data-stu-id="fa416-107">Create a quotation template</span></span>
-1. <span data-ttu-id="fa416-108">ไปยัง การขายและการตลาด > การตั้งค่า > ใบเสนอราคา > กลุ่มเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="fa416-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
-2. <span data-ttu-id="fa416-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fa416-109">Click New.</span></span>
-3. <span data-ttu-id="fa416-110">ในฟิลด์รหัสกลุ่ม พิมพ์รหัสที่คุณเลือก</span><span class="sxs-lookup"><span data-stu-id="fa416-110">In the Group ID field, type an ID of your choice.</span></span>
-4. <span data-ttu-id="fa416-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="fa416-112">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="fa416-112">Click Save.</span></span>
-6. <span data-ttu-id="fa416-113">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-113">Close the page.</span></span>
-7. <span data-ttu-id="fa416-114">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="fa416-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-8. <span data-ttu-id="fa416-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fa416-115">Click New.</span></span>
-9. <span data-ttu-id="fa416-116">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="fa416-116">In the Account type field, select 'Customer'.</span></span>
-10. <span data-ttu-id="fa416-117">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-117">In the Customer account field, enter or select a value.</span></span>
-11. <span data-ttu-id="fa416-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fa416-118">Click OK.</span></span>
-    * <span data-ttu-id="fa416-119">สำหรับใบเสนอราคาที่จะกลายเป็นเท็มเพลต คุณต้องดำเนินตามขั้นตอนการตั้งค่าในส่วนหัวของใบเสนอราคา </span><span class="sxs-lookup"><span data-stu-id="fa416-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="fa416-120">ต้องทำสิ่งนี้ก่อนที่คุณจะเพิ่มบรรทัดใบเสนอราคา</span><span class="sxs-lookup"><span data-stu-id="fa416-120">This must be done before you add lines to the quotation.</span></span>   
-12. <span data-ttu-id="fa416-121">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="fa416-121">On the Action Pane, click Options.</span></span>
-13. <span data-ttu-id="fa416-122">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="fa416-122">Click Change view.</span></span>
-14. <span data-ttu-id="fa416-123">คลิกมุมมองหัวข้อ </span><span class="sxs-lookup"><span data-stu-id="fa416-123">Click Header view.</span></span>
-15. <span data-ttu-id="fa416-124">ขยายส่วนการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-124">Expand the Setup section.</span></span>
-16. <span data-ttu-id="fa416-125">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-125">In the Group ID field, enter or select a value.</span></span>
-17. <span data-ttu-id="fa416-126">ในฟิลด์ชื่อเท็มเพลต ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-126">In the Template name field, type a value.</span></span>
-18. <span data-ttu-id="fa416-127">เลือก ใช่ ในฟิลด์ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="fa416-127">Select Yes in the Active field.</span></span>
-    * <span data-ttu-id="fa416-128">สามารถใช้เท็มเพลตที่ใช้งานอยู่เท่านั้น เมื่อคุณใช้เท็มเพลตกับใบเสนอราคาขายใหม่</span><span class="sxs-lookup"><span data-stu-id="fa416-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
-19. <span data-ttu-id="fa416-129">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="fa416-129">On the Action Pane, click Options.</span></span>
-20. <span data-ttu-id="fa416-130">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="fa416-130">Click Change view.</span></span>
-21. <span data-ttu-id="fa416-131">คลิกมุมมองรายการ</span><span class="sxs-lookup"><span data-stu-id="fa416-131">Click Line view.</span></span>
-22. <span data-ttu-id="fa416-132">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-132">In the Item field, enter or select a value.</span></span>
-23. <span data-ttu-id="fa416-133">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-133">In the Item field, type a value.</span></span>
-24. <span data-ttu-id="fa416-134">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-134">Close the page.</span></span>
-25. <span data-ttu-id="fa416-135">ในฟิลด์เปอร์เซนต์ส่วนลด ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="fa416-135">In the Discount percent field, enter a number.</span></span>
-26. <span data-ttu-id="fa416-136">คลิกเพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="fa416-136">Click Add line.</span></span>
-27. <span data-ttu-id="fa416-137">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-137">In the Item field, enter or select a value.</span></span>
-28. <span data-ttu-id="fa416-138">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-138">In the Item field, type a value.</span></span>
-29. <span data-ttu-id="fa416-139">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-139">Close the page.</span></span>
-30. <span data-ttu-id="fa416-140">ในฟิลด์ราคาต่อหน่วย ให้ป้อนราคาใหม่ หรือเปลี่ยนราคาปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="fa416-140">In the Unit price field, enter a new price or change the current one.</span></span>
-31. <span data-ttu-id="fa416-141">คลิกเพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="fa416-141">Click Add line.</span></span>
-32. <span data-ttu-id="fa416-142">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-142">In the Item field, enter or select a value.</span></span>
-33. <span data-ttu-id="fa416-143">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="fa416-143">In the Item field, type a value.</span></span>
-34. <span data-ttu-id="fa416-144">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-144">Close the page.</span></span>
-35. <span data-ttu-id="fa416-145">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="fa416-145">In the Quantity field, enter a number.</span></span>
-36. <span data-ttu-id="fa416-146">ในฟิลด์ส่วนลด ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="fa416-146">In the Discount field, enter a number.</span></span>
-37. <span data-ttu-id="fa416-147">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="fa416-147">Click Save.</span></span>
+## <a name="create-a-quotation-template"></a><span data-ttu-id="ba142-107">สร้างเท็มเพลตใบเสนอราคา</span><span class="sxs-lookup"><span data-stu-id="ba142-107">Create a quotation template</span></span>
+1. <span data-ttu-id="ba142-108">ไปยัง การขายและการตลาด > การตั้งค่า > ใบเสนอราคา > กลุ่มเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ba142-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
+2. <span data-ttu-id="ba142-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ba142-109">Click New.</span></span>
+3. <span data-ttu-id="ba142-110">ในฟิลด์รหัสกลุ่ม พิมพ์รหัสที่คุณเลือก</span><span class="sxs-lookup"><span data-stu-id="ba142-110">In the Group ID field, type an ID of your choice.</span></span>
+4. <span data-ttu-id="ba142-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="ba142-112">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ba142-112">Click Save.</span></span>
+6. <span data-ttu-id="ba142-113">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-113">Close the page.</span></span>
+7. <span data-ttu-id="ba142-114">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="ba142-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+8. <span data-ttu-id="ba142-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ba142-115">Click New.</span></span>
+9. <span data-ttu-id="ba142-116">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="ba142-116">In the Account type field, select 'Customer'.</span></span>
+10. <span data-ttu-id="ba142-117">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-117">In the Customer account field, enter or select a value.</span></span>
+11. <span data-ttu-id="ba142-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ba142-118">Click OK.</span></span>
+    * <span data-ttu-id="ba142-119">สำหรับใบเสนอราคาที่จะกลายเป็นเท็มเพลต คุณต้องดำเนินตามขั้นตอนการตั้งค่าในส่วนหัวของใบเสนอราคา </span><span class="sxs-lookup"><span data-stu-id="ba142-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="ba142-120">ต้องทำสิ่งนี้ก่อนที่คุณจะเพิ่มบรรทัดใบเสนอราคา</span><span class="sxs-lookup"><span data-stu-id="ba142-120">This must be done before you add lines to the quotation.</span></span>   
+12. <span data-ttu-id="ba142-121">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ba142-121">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="ba142-122">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="ba142-122">Click Change view.</span></span>
+14. <span data-ttu-id="ba142-123">คลิกมุมมองหัวข้อ </span><span class="sxs-lookup"><span data-stu-id="ba142-123">Click Header view.</span></span>
+15. <span data-ttu-id="ba142-124">ขยายส่วนการตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-124">Expand the Setup section.</span></span>
+16. <span data-ttu-id="ba142-125">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-125">In the Group ID field, enter or select a value.</span></span>
+17. <span data-ttu-id="ba142-126">ในฟิลด์ชื่อเท็มเพลต ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-126">In the Template name field, type a value.</span></span>
+18. <span data-ttu-id="ba142-127">เลือก ใช่ ในฟิลด์ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ba142-127">Select Yes in the Active field.</span></span>
+    * <span data-ttu-id="ba142-128">สามารถใช้เท็มเพลตที่ใช้งานอยู่เท่านั้น เมื่อคุณใช้เท็มเพลตกับใบเสนอราคาขายใหม่</span><span class="sxs-lookup"><span data-stu-id="ba142-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
+19. <span data-ttu-id="ba142-129">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="ba142-129">On the Action Pane, click Options.</span></span>
+20. <span data-ttu-id="ba142-130">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="ba142-130">Click Change view.</span></span>
+21. <span data-ttu-id="ba142-131">คลิกมุมมองรายการ</span><span class="sxs-lookup"><span data-stu-id="ba142-131">Click Line view.</span></span>
+22. <span data-ttu-id="ba142-132">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-132">In the Item field, enter or select a value.</span></span>
+23. <span data-ttu-id="ba142-133">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-133">In the Item field, type a value.</span></span>
+24. <span data-ttu-id="ba142-134">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-134">Close the page.</span></span>
+25. <span data-ttu-id="ba142-135">ในฟิลด์เปอร์เซนต์ส่วนลด ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ba142-135">In the Discount percent field, enter a number.</span></span>
+26. <span data-ttu-id="ba142-136">คลิกเพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="ba142-136">Click Add line.</span></span>
+27. <span data-ttu-id="ba142-137">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-137">In the Item field, enter or select a value.</span></span>
+28. <span data-ttu-id="ba142-138">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-138">In the Item field, type a value.</span></span>
+29. <span data-ttu-id="ba142-139">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-139">Close the page.</span></span>
+30. <span data-ttu-id="ba142-140">ในฟิลด์ราคาต่อหน่วย ให้ป้อนราคาใหม่ หรือเปลี่ยนราคาปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="ba142-140">In the Unit price field, enter a new price or change the current one.</span></span>
+31. <span data-ttu-id="ba142-141">คลิกเพิ่มรายการ</span><span class="sxs-lookup"><span data-stu-id="ba142-141">Click Add line.</span></span>
+32. <span data-ttu-id="ba142-142">ในฟิลด์สินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-142">In the Item field, enter or select a value.</span></span>
+33. <span data-ttu-id="ba142-143">ในฟิลด์สินค้า ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="ba142-143">In the Item field, type a value.</span></span>
+34. <span data-ttu-id="ba142-144">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-144">Close the page.</span></span>
+35. <span data-ttu-id="ba142-145">ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="ba142-145">In the Quantity field, enter a number.</span></span>
+36. <span data-ttu-id="ba142-146">ในฟิลด์ส่วนลด ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="ba142-146">In the Discount field, enter a number.</span></span>
+37. <span data-ttu-id="ba142-147">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="ba142-147">Click Save.</span></span>
 
-## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="fa416-148">ใช้เท็มเพลตเพื่อสร้างใบเสนอราคาใบเดียว</span><span class="sxs-lookup"><span data-stu-id="fa416-148">Apply the template to create a single quotation</span></span>
-1. <span data-ttu-id="fa416-149">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="fa416-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="fa416-150">โปรดทราบว่า คุณได้สร้างใบเสนอราคาซึ่งถูกทำเครื่องหมายเป็นเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="fa416-150">Note that the quotation you have just created is marked as template.</span></span>  
-2. <span data-ttu-id="fa416-151">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="fa416-151">Click New.</span></span>
-3. <span data-ttu-id="fa416-152">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="fa416-152">In the Account type field, select 'Customer'.</span></span>
-4. <span data-ttu-id="fa416-153">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-153">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="fa416-154">ขยายส่วนเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="fa416-154">Expand the Template section.</span></span>
-6. <span data-ttu-id="fa416-155">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-155">In the Group ID field, enter or select a value.</span></span>
-7. <span data-ttu-id="fa416-156">ในฟิลด์ชื่อเท็มเพลต ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-156">In the Template name field, enter or select a value.</span></span>
-8. <span data-ttu-id="fa416-157">ในฟิลด์วิธีการคำนวณ ให้เลือก 'ขึ้นอยู่กับค่าเท็มเพลต'</span><span class="sxs-lookup"><span data-stu-id="fa416-157">In the Calculation method field, select 'Based on template values'.</span></span>
-9. <span data-ttu-id="fa416-158">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fa416-158">Click OK.</span></span>
-    * <span data-ttu-id="fa416-159">ในขณะนี้ได้สร้างใบเสนอราคาใหม่แล้ว ตามข้อมูลและเงื่อนไขของเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="fa416-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
-10. <span data-ttu-id="fa416-160">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-160">Close the page.</span></span>
-11. <span data-ttu-id="fa416-161">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="fa416-161">Close the page.</span></span>
+## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="ba142-148">ใช้เท็มเพลตเพื่อสร้างใบเสนอราคาใบเดียว</span><span class="sxs-lookup"><span data-stu-id="ba142-148">Apply the template to create a single quotation</span></span>
+1. <span data-ttu-id="ba142-149">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="ba142-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="ba142-150">โปรดทราบว่า คุณได้สร้างใบเสนอราคาซึ่งถูกทำเครื่องหมายเป็นเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ba142-150">Note that the quotation you have just created is marked as template.</span></span>  
+2. <span data-ttu-id="ba142-151">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="ba142-151">Click New.</span></span>
+3. <span data-ttu-id="ba142-152">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="ba142-152">In the Account type field, select 'Customer'.</span></span>
+4. <span data-ttu-id="ba142-153">ในฟิลด์บัญชีลูกค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-153">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="ba142-154">ขยายส่วนเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ba142-154">Expand the Template section.</span></span>
+6. <span data-ttu-id="ba142-155">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-155">In the Group ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="ba142-156">ในฟิลด์ชื่อเท็มเพลต ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-156">In the Template name field, enter or select a value.</span></span>
+8. <span data-ttu-id="ba142-157">ในฟิลด์วิธีการคำนวณ ให้เลือก 'ขึ้นอยู่กับค่าเท็มเพลต'</span><span class="sxs-lookup"><span data-stu-id="ba142-157">In the Calculation method field, select 'Based on template values'.</span></span>
+9. <span data-ttu-id="ba142-158">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ba142-158">Click OK.</span></span>
+    * <span data-ttu-id="ba142-159">ในขณะนี้ได้สร้างใบเสนอราคาใหม่แล้ว ตามข้อมูลและเงื่อนไขของเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="ba142-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
+10. <span data-ttu-id="ba142-160">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-160">Close the page.</span></span>
+11. <span data-ttu-id="ba142-161">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="ba142-161">Close the page.</span></span>
 
-## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="fa416-162">ใช้เท็มเพลตเพื่อสร้างใบเสนอราคาจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="fa416-162">Apply the template to mass create quotations</span></span>
-1. <span data-ttu-id="fa416-163">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > อัพเดตใบเสนอราคา > สร้างใบเสนอราคาโดยรวม</span><span class="sxs-lookup"><span data-stu-id="fa416-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
-2. <span data-ttu-id="fa416-164">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="fa416-164">In the Account type field, select 'Customer'.</span></span>
-3. <span data-ttu-id="fa416-165">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-165">In the Group ID field, enter or select a value.</span></span>
-4. <span data-ttu-id="fa416-166">ในฟิลด์ชื่อเท็มเพลต ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="fa416-166">In the Template name field, enter or select a value.</span></span>
-5. <span data-ttu-id="fa416-167">ในฟิลด์วิธีการคำนวณ ให้เลือก 'ขึ้นอยู่กับค่าเท็มเพลต'</span><span class="sxs-lookup"><span data-stu-id="fa416-167">In the Calculation method field, select 'Based on template values'.</span></span>
-6. <span data-ttu-id="fa416-168">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="fa416-168">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="fa416-169">คลิกที่ตัวกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="fa416-169">Click Filter.</span></span>
-8. <span data-ttu-id="fa416-170">ในฟิลด์เงื่อนไข ให้ตั้งค่าตัวกรองเพื่อให้ครอบคลุมกลุ่มลูกค้าที่คุณต้องการรวมไว้ในการสร้างใบเสนอราคาจำนวนมาก </span><span class="sxs-lookup"><span data-stu-id="fa416-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="fa416-171">ใช้รูปแบบต่อไปนี้ "Customer1 ...CustomerN</span><span class="sxs-lookup"><span data-stu-id="fa416-171">Use the following format "Customer1..CustomerN.</span></span>
-    * <span data-ttu-id="fa416-172">ตัวอย่างเช่น คุณสามารถตั้งค่าตัวกรองเป็น สหรัฐอเมริกา-001 ... สหรัฐอเมริกา-004</span><span class="sxs-lookup"><span data-stu-id="fa416-172">For example, you could set the filter to: US-001..US-004</span></span>  
-9. <span data-ttu-id="fa416-173">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fa416-173">Click OK.</span></span>
-10. <span data-ttu-id="fa416-174">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="fa416-174">Click OK.</span></span>
-11. <span data-ttu-id="fa416-175">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="fa416-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="fa416-176">ตรวจสอบว่าใบเสนอราคาได้ถูกสร้างไว้สำหรับลูกค้าทั้งหมดที่ระบุไว้ในชุดคำสั่งการอัพเดตโดยรวม ตามเท็มเพลตที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fa416-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
+## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="ba142-162">ใช้เท็มเพลตเพื่อสร้างใบเสนอราคาจำนวนมาก</span><span class="sxs-lookup"><span data-stu-id="ba142-162">Apply the template to mass create quotations</span></span>
+1. <span data-ttu-id="ba142-163">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > อัพเดตใบเสนอราคา > สร้างใบเสนอราคาโดยรวม</span><span class="sxs-lookup"><span data-stu-id="ba142-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
+2. <span data-ttu-id="ba142-164">ในฟิลด์ ชนิดบัญชี ให้เลือก 'ลูกค้า'</span><span class="sxs-lookup"><span data-stu-id="ba142-164">In the Account type field, select 'Customer'.</span></span>
+3. <span data-ttu-id="ba142-165">ในฟิลด์รหัสกลุ่ม ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-165">In the Group ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="ba142-166">ในฟิลด์ชื่อเท็มเพลต ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="ba142-166">In the Template name field, enter or select a value.</span></span>
+5. <span data-ttu-id="ba142-167">ในฟิลด์วิธีการคำนวณ ให้เลือก 'ขึ้นอยู่กับค่าเท็มเพลต'</span><span class="sxs-lookup"><span data-stu-id="ba142-167">In the Calculation method field, select 'Based on template values'.</span></span>
+6. <span data-ttu-id="ba142-168">ขยายเรกคอร์ดเพื่อที่จะรวมส่วน</span><span class="sxs-lookup"><span data-stu-id="ba142-168">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="ba142-169">คลิกที่ตัวกรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ba142-169">Click Filter.</span></span>
+8. <span data-ttu-id="ba142-170">ในฟิลด์เงื่อนไข ให้ตั้งค่าตัวกรองเพื่อให้ครอบคลุมกลุ่มลูกค้าที่คุณต้องการรวมไว้ในการสร้างใบเสนอราคาจำนวนมาก </span><span class="sxs-lookup"><span data-stu-id="ba142-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="ba142-171">ใช้รูปแบบต่อไปนี้ "Customer1 ...CustomerN</span><span class="sxs-lookup"><span data-stu-id="ba142-171">Use the following format "Customer1..CustomerN.</span></span>
+    * <span data-ttu-id="ba142-172">ตัวอย่างเช่น คุณสามารถตั้งค่าตัวกรองเป็น สหรัฐอเมริกา-001 ... สหรัฐอเมริกา-004</span><span class="sxs-lookup"><span data-stu-id="ba142-172">For example, you could set the filter to: US-001..US-004</span></span>  
+9. <span data-ttu-id="ba142-173">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ba142-173">Click OK.</span></span>
+10. <span data-ttu-id="ba142-174">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="ba142-174">Click OK.</span></span>
+11. <span data-ttu-id="ba142-175">ไปยัง การขายและการตลาด > ใบเสนอราคาขาย > ใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="ba142-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="ba142-176">ตรวจสอบว่าใบเสนอราคาได้ถูกสร้างไว้สำหรับลูกค้าทั้งหมดที่ระบุไว้ในชุดคำสั่งการอัพเดตโดยรวม ตามเท็มเพลตที่เลือก</span><span class="sxs-lookup"><span data-stu-id="ba142-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
 

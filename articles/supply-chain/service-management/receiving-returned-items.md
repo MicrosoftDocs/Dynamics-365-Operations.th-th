@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 234d430d75611dc777bb03fff1070f2a8c78ea6f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4957d9a80ecb98b647ca73dfddc35cd450c6160e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211755"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975715"
 ---
-# <a name="receive-returned-items"></a><span data-ttu-id="62189-103">รับสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="62189-103">Receive returned items</span></span> 
+# <a name="receive-returned-items"></a><span data-ttu-id="dc626-103">รับสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="dc626-103">Receive returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="62189-104">เมื่อการจัดส่งสินค้าส่งคืนมาถึง คุณจับคู่การจัดส่งคืนนั้นกับใบสั่งส่งคืนสินค้าที่ได้ถูกสร้างขึ้นไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="62189-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
+<span data-ttu-id="dc626-104">เมื่อการจัดส่งสินค้าส่งคืนมาถึง คุณจับคู่การจัดส่งคืนนั้นกับใบสั่งส่งคืนสินค้าที่ได้ถูกสร้างขึ้นไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="dc626-104">When a return shipment arrives, you match it to a return order that has already been created.</span></span>
 
-<span data-ttu-id="62189-105">โดยขึ้นอยู่กับนโยบายของบริษัท คุณสามารถส่งสินค้าในการจัดส่งสินค้าที่ส่งคืนไปตรวจสอบสำหรับการตรวจสอบเพิ่มเติม หรือคุณสามารถส่งคืนไปยังสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="62189-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
+<span data-ttu-id="dc626-105">โดยขึ้นอยู่กับนโยบายของบริษัท คุณสามารถส่งสินค้าในการจัดส่งสินค้าที่ส่งคืนไปตรวจสอบสำหรับการตรวจสอบเพิ่มเติม หรือคุณสามารถส่งคืนไปยังสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="dc626-105">Depending on company policies, the items in the return shipment can be sent to quarantine for additional inspection or they can be returned to inventory.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="62189-106">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="62189-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc626-106">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="dc626-106">See also</span></span>
 
-[<span data-ttu-id="62189-107">การลงทะเบียนการรับสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="62189-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
+[<span data-ttu-id="dc626-107">การลงทะเบียนการรับสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="dc626-107">Register the receipt of returned items</span></span>](register-the-receipt-of-returned-items.md)
 
-[<span data-ttu-id="62189-108">ลงรายการบัญชีสมุดรายวันการมาถึงสำหรับผลิตภัณฑ์ที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="62189-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
+[<span data-ttu-id="dc626-108">ลงรายการบัญชีสมุดรายวันการมาถึงสำหรับผลิตภัณฑ์ที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="dc626-108">Post arrival journal for returned products</span></span>](post-arrival-journal-for-returned-products.md)
 
-[<span data-ttu-id="62189-109">การนำสินค้าที่ส่งคืนไปตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="62189-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
+[<span data-ttu-id="dc626-109">การนำสินค้าที่ส่งคืนไปตรวจสอบอย่างละเอียด</span><span class="sxs-lookup"><span data-stu-id="dc626-109">Take returned items through inspection</span></span>](take-returned-items-through-inspection.md)
 
   
 

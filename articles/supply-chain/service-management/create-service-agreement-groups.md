@@ -15,31 +15,31 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 077f0b609a84f20ee1cc11fbc0760bd119f547f4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0f76051d4d85d84362d171ba25330c7c260d88bb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202824"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978470"
 ---
-# <a name="create-service-agreement-groups"></a><span data-ttu-id="3d2ff-103">สร้างกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-103">Create service agreement groups</span></span> 
+# <a name="create-service-agreement-groups"></a><span data-ttu-id="b67e7-103">สร้างกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="b67e7-103">Create service agreement groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3d2ff-104">กลุ่มข้อตกลงการให้บริการมีประโยชน์สำหรับการเรียงลำดับและการกรองข้อมูลข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
+<span data-ttu-id="b67e7-104">กลุ่มข้อตกลงการให้บริการมีประโยชน์สำหรับการเรียงลำดับและการกรองข้อมูลข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="b67e7-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
 
-1. <span data-ttu-id="3d2ff-105">คลิก **การจัดการบริการ** \> **ตั้งค่า** \> **ข้อตกลงการให้บริการ** \> **กลุ่มข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="3d2ff-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
-2. <span data-ttu-id="3d2ff-106">กด **Alt+N** เพื่อสร้างกลุ่มข้อตกลงการให้บริการใหม่</span><span class="sxs-lookup"><span data-stu-id="3d2ff-106">Press **Alt+N** to create a new service agreement group.</span></span>
-3. <span data-ttu-id="3d2ff-107">ในฟิลด์ **กลุ่มข้อตกลงการให้บริการ** ป้อน ID สำหรับกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-107">In the **Service agreement group** field, enter an ID for the service agreement group.</span></span>
-4. <span data-ttu-id="3d2ff-108">ในฟิลด์ **คำอธิบาย** ป้อนคำอธิบายสำหรับกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-108">In the **Description** field, enter a description for the service agreement group.</span></span>
-5. <span data-ttu-id="3d2ff-109">ปิดหน้าเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-109">Close the page to save your changes.</span></span>
+1. <span data-ttu-id="b67e7-105">คลิก **การจัดการบริการ** \> **ตั้งค่า** \> **ข้อตกลงการให้บริการ** \> **กลุ่มข้อตกลงการให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="b67e7-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
+2. <span data-ttu-id="b67e7-106">กด **Alt+N** เพื่อสร้างกลุ่มข้อตกลงการให้บริการใหม่</span><span class="sxs-lookup"><span data-stu-id="b67e7-106">Press **Alt+N** to create a new service agreement group.</span></span>
+3. <span data-ttu-id="b67e7-107">ในฟิลด์ **กลุ่มข้อตกลงการให้บริการ** ป้อน ID สำหรับกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="b67e7-107">In the **Service agreement group** field, enter an ID for the service agreement group.</span></span>
+4. <span data-ttu-id="b67e7-108">ในฟิลด์ **คำอธิบาย** ป้อนคำอธิบายสำหรับกลุ่มข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="b67e7-108">In the **Description** field, enter a description for the service agreement group.</span></span>
+5. <span data-ttu-id="b67e7-109">ปิดหน้าเพื่อบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="b67e7-109">Close the page to save your changes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3d2ff-110">ถ้ามีการกำหนดกลุ่มข้อตกลงการให้บริการในฟิลด์ **กลุ่มข้อตกลงการให้บริการ** ของหน้า **พารามิเตอร์การจัดการบริการ** โปรแกรมจะแนะนำกลุ่มนี้สำหรับข้อตกลงการให้บริการใหม่ทั้งหมดที่คุณสร้าง</span><span class="sxs-lookup"><span data-stu-id="3d2ff-110">If a service agreement group is defined in the **Service agreement group** field of the **Service management parameters** page, the program suggests this group for all new service agreements that you create.</span></span>
+> <span data-ttu-id="b67e7-110">ถ้ามีการกำหนดกลุ่มข้อตกลงการให้บริการในฟิลด์ **กลุ่มข้อตกลงการให้บริการ** ของหน้า **พารามิเตอร์การจัดการบริการ** โปรแกรมจะแนะนำกลุ่มนี้สำหรับข้อตกลงการให้บริการใหม่ทั้งหมดที่คุณสร้าง</span><span class="sxs-lookup"><span data-stu-id="b67e7-110">If a service agreement group is defined in the **Service agreement group** field of the **Service management parameters** page, the program suggests this group for all new service agreements that you create.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="3d2ff-111">หัวข้อที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="3d2ff-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b67e7-111">หัวข้อที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="b67e7-111">Related topics</span></span>
 
-[<span data-ttu-id="3d2ff-112">ภาพรวมของข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="3d2ff-112">Service agreement overview</span></span>](service-agreement-groups.md)
+[<span data-ttu-id="b67e7-112">ภาพรวมของข้อตกลงการให้บริการ</span><span class="sxs-lookup"><span data-stu-id="b67e7-112">Service agreement overview</span></span>](service-agreement-groups.md)
