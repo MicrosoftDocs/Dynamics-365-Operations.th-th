@@ -3,7 +3,7 @@ title: อภิธานศัพท์ของแบบจำลองหน�
 description: หัวข้อนี้จะอธิบายถึงองค์ประกอบต่างๆ ที่ใช้ในหน้าของไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026005"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973920"
 ---
 # <a name="page-model-glossary"></a>อภิธานศัพท์ของแบบจำลองหน้า
 
@@ -54,6 +54,8 @@ ms.locfileid: "3026005"
 [สถานะและระยะเวลาใช้งานของเอกสาร](document-states-overview.md)
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
+
+[เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง](cross-channel-sharing.md)
 
 [ใช้งานโมดูล](work-with-modules.md)
 

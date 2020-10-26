@@ -3,7 +3,7 @@ title: แอปทรัพยากรบุคคลใน Teams
 description: หัวข้อนี้จะแนะนำแอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828925"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930028"
 ---
 # <a name="human-resources-app-in-teams"></a>แอปทรัพยากรบุคคลใน Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-แอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams ช่วยให้พนักงานสามารถขอลาหยุดและดูข้อมูลยอดการลาหยุดได้ใน Microsoft Teams ในทันที พนักงานสามารถโต้ตอบกับบอทเพื่อร้องขอข้อมูล แท็บ **การลาหยุด** แสดงรายละเอียดเพิ่มเติม นอกจากนี้ผู้ใช้จะสามารถส่งข้อมูลเกี่ยวกับการลาานที่กำลังจะเกิดขึ้นในทีมและการสนทนานอกแอปพลิเคชันทรัพยากรบุคคล
+แอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams ช่วยให้พนักงานสามารถขอลาหยุดและดูข้อมูลยอดการลาหยุดได้ใน Microsoft Teams ในทันที พนักงานสามารถโต้ตอบกับบอทเพื่อร้องขอข้อมูล แท็บ **การลาหยุด** แสดงข้อมูลเพิ่มเติมโดยละเอียด นอกจากนี้ พวหเขายังสามารถส่งข้อมูลเกี่ยวกับการลางานที่กำลังจะเกิดขึ้นของคุณในทีมและการสนทนาภายนอกแอปพลิเคชันทรัพยากรบุคคลได้
 
 ![บอทของแอปการลาหยุด Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -90,6 +90,22 @@ ms.locfileid: "3828925"
 | ยอดดุลไม่ถูกต้องเมื่อส่งเวลาสำหรับวันที่ในอนาคต | การคาดการณ์ยังไม่พร้อมใช้งาน ยอดดุลปัจจุบันแสดงสำหรับวันที่ปัจจุบัน |
 | ไม่สามารถยกเลิกการร้องขอ **รอการตรวจทาน** ได้ | ฟังก์ชันนี้ไม่ได้รับการสนับสนุนในขณะนี้และจะถูกเพิ่มในรุ่นต่อๆ ไป |
 | มีการคำนวณข้อมูลยอดดุล ณ วันที่วันนี้ | ระบบปัจจุบันไม่แสดงยอดดุล ณ วันที่ของรอบระยะเวลาการคงค้าง ถึงแม้ว่าจะมีการตั้งค่าคอนฟิกในพารามิเตอร์การลางานและการขาดงาน |
+
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
+
+ถ้าผู้ใช้กำลังมีปัญหาในการเข้าสู่ระบบ หรือใช้แอป Human Resources Teams ให้ลองปฏิบัติตามคำแนะนำในการแก้ไขปัญหาเหล่านี้ ถ้าคุณยังคงมีปัญหาหลังการแก้ไขปัญหา โปรดติดต่อฝ่ายสนับสนุน สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>ไม่สามารถเข้าสู่ระบบแอป Human Resources ใน Teams
+
+ถ้าผู้ติดต่อของผู้ใช้คุณ เนื่องจากไม่สามารถเข้าสู่ระบบแอปได้ ให้ตรวจสอบว่าผู้ใช้มีเรกคอร์ดพนักงานที่เกี่ยวข้องใน Human Resources
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>เกิดข้อผิดพลาดขณะอนุมัติคำขอการลางานในแอป Human Resources ใน Teams
+
+ถ้าผู้ใช้ได้รับข้อผิดพลาดขณะพยายามอนุมัติคำขอการลางานในแอป Teams ให้ทำตามขั้นตอนการแก้ไขปัญหาต่อไปนี้:
+
+1. ตรวจสอบว่าบัญชี Teams ของพวกเขาเป็นอันเดียวกับที่ใช้สำหรับการเข้าถึง Human Resources
+
+2. ตรวจสอบว่าพวกเขาเป็นผู้อนุมัติที่ถูกต้องสำหรับคำขอดังกล่าว โดยตรวจสอบการตั้งค่าลำดับงานสำหรับการอนุมัติการลางาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลำดับงานคำขอลางาน ดูที่ [สร้างลำดับงานคำขอลางาน](hr-leave-and-absence-workflow.md)
 
 ## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 

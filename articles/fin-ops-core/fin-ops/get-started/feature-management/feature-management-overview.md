@@ -3,7 +3,7 @@ title: ภาพรวมการจัดการคุณลักษณะ
 description: หัวข้อนี้จะอธิบายถึงคุณลักษณะของการจัดการคุณลักษณะและวิธีที่คุณสามารถใช้งาน
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499630"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967345"
 ---
 # <a name="feature-management-overview"></a>ภาพรวมของการจัดการคุณลักษณะ
 
@@ -179,3 +179,24 @@ ms.locfileid: "3499630"
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>เคยมีการสลับคุณลักษณะเป็นปิดโดยที่ลูกค้าไม่ทราบหรือไม่ 
 ใช่ ถ้าคุณลักษณะมีผลกระทบต่อการทำงานของสภาพแวดล้อมที่ไม่มีผลกระทบต่อการทำงาน จะสามารถเปิดใช้งานตามค่าเริ่มต้นได้
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>การเปิดใช้งานลักษณะการทำงานสามารถตรวจสอบรหัสได้อย่างไร
+ใช้วิธีการ **isFeatureEnabled** บนคลาส **FeatureStateProvider** ผ่านอินสแตนซ์ของคลาสของลักษณะการทำงาน ให้ใส่คำหรือวลีที่คุณกำลังค้นหาไว้ในเครื่องหมายคำพูด
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>การเปิดใช้งานลักษณะการทำงานสามารถตรวจสอบข้อมูลเมตาได้อย่างไร
+คุณสมบัติ **FeatureClass** สามารถใช้เพื่อบ่งชี้ว่าข้อมูลเมตาบางอย่างเชื่อมโยงกับลักษณะการทำงาน ชื่อคลาสที่ใช้สำหรับลักษณะการทำงานควรใช้ เช่น **BatchContentionPreventionFeature** ข้อมูลเมตานี้จะมองเห็นได้เฉพาะในลักษณะการทำงานนั้นเท่านั้น คุณสมบัติ **FeatureClass** มีอยู่บนเมนู รายการเมนู ค่า enum และฟิลด์ตาราง/มุมมอง
+
+### <a name="what-is-a-feature-class"></a>คลาสลักษณะการทำงานคืออะไร
+ลักษณะการทำงานในการจัดการลักษณะการทำงานกำหนดเป็น *คลาสลักษณะการทำงาน* คลาสลักษณะการทำงาน **ดำเนินการ IFeatureMetadata** และใช้แอททริบิวต์คลาสของลักษณะการทำงาน เพื่อระบุตัวเองให้กับพื้นที่ทำงานการจัดการลักษณะการทำงาน มีตัวอย่างจำนวนมากของคลาสลักษณะการทำงานที่สามารถตรวจสอบสำหรับการเปิดใช้งานในรหัสโดยใช้ API **FeatureStateProvider** และในเมตาดาต้าโดยใช้คุณสมบัติ **FeatureClass** ให้ใส่คำหรือวลีที่คุณกำลังค้นหาไว้ในเครื่องหมายคำพูด
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>IFeatureLifecycle ที่ใช้โดยคลาสที่มีลักษณะการทำงานคืออะไร
+IFeatureLifecycle เป็นกลไกภายในของ Microsoft สำหรับการบ่งชี้ระยะของววงจรการใช้งานของลักษณะการทำงาน ลักษณะการทำงานอาจเป็น:
+- PrivatePreview - ต้องการเที่ยวบินเพื่อให้มองเห็นได้
+- PublicPreview - แสดงตามค่าเริ่มต้นแต่มีคำเตือนว่าลักษณะการทำงานอยู่ในการแสดงตัวอย่าง
+- นำออกใช้แล้ว - เผยแพร่อย่างสมบูรณ์แล้ว
+
