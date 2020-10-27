@@ -3,7 +3,7 @@ title: จัดการคำขอลาหยุดใน Teams
 description: หัวข้อนี้จะแสดงวิธีการขอลาหยุดในแอป Dynamics 365 Human Resources ใน Microsoft Teams
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828955"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930004"
 ---
 # <a name="manage-leave-requests-in-teams"></a>จัดการคำขอลาหยุดใน Teams
 
@@ -171,6 +171,22 @@ ms.locfileid: "3828955"
 ปฏิทินแสดงการลาหยุดที่ได้รับอนุมัติและที่ค้างอยู่ของผู้บังคับบัญชาโดยตรงของคุณ
 
 ![ปฏิทินการลาหยุดในแอป Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
+
+ถ้าคุณกำลังมีปัญหาในการเข้าสู่ระบบ หรือใช้แอป Human Resources Teams ให้ลองปฏิบัติตามคำแนะนำในการแก้ไขปัญหาเหล่านี้ ถ้าคุณยังคงมีปัญหาหลังการแก้ไขปัญหา โปรดติดต่อฝ่ายสนับสนุน สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>ไม่สามารถเข้าสู่ระบบแอป Human Resources ใน Teams
+
+หากคุณไม่สามารถเข้าสู่ระบบแอปได้ อาจเป็นไปได้ว่าบัญชีที่คุณใช้ในการเข้าสู่ระบบ Microsoft Teams ไม่เชื่อมโยงกับเรกคอร์ดพนักงานใน Dynamics 365 Human Resources โปรดติดต่อผู้ดูแลระบบของคุณ เพื่อให้แน่ใจว่าเรกคอร์ดพนักงานของคุณเชื่อมโยงอย่างถูกต้อง
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>เกิดข้อผิดพลาดขณะอนุมัติคำขอการลางานในแอป Human Resources ใน Teams
+
+ถ้าคุณได้รับข้อผิดพลาดขณะที่คุณพยายามอนุมัติคำขอการลางานในแอป Teams ให้ทำตามขั้นตอนการแก้ไขปัญหาต่อไปนี้:
+
+1. ตรวจสอบว่าบัญชีที่คุณใช้ในการเข้าสู่ระบบ Microsoft Teams เป็นเดียวกันกับที่คุณใช้สำหรับการเข้าถึง Dynamics 365 Human Resources
+
+2. ตรวจสอบว่าคุณเป็นผู้อนุมัติที่ถูกต้องสำหรับคำขอดังกล่าว โดยตรวจสอบการตั้งค่าลำดับงานสำหรับการอนุมัติการลางาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลำดับงานคำขอลางาน ดูที่ [สร้างลำดับงานคำขอลางาน](hr-leave-and-absence-workflow.md)
 
 ## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 

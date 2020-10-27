@@ -3,7 +3,7 @@ title: วิธีการเพิ่มเนื้อหา
 description: หัวข้อนี้แสดงภาพรวม และเลือกลิงก์สำหรับสถานที่และวิธีการเริ่มต้นการจัดการเนื้อหา โดยใช้โปรแกรมสร้างไซต์ชุดเครื่องมือการเขียนแก้ไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025746"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973991"
 ---
 # <a name="ways-to-add-content"></a>วิธีการเพิ่มเนื้อหา
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,8 +48,12 @@ ms.locfileid: "3025746"
 - เมื่อต้องการจัดเรียงใหม่หรือเพิ่มตัวเลือกการนำทางใหม่ ให้ดูที่ [การเลือกกำหนดการนำทางของไซต์](customize-site-navigation.md)
 - เมื่อต้องการเรียนรู้เกี่ยวกับการเตรียมการ การแสดงตัวอย่าง และเผยแพร่การเปลี่ยนแปลงเนื้อหาเว็บที่เกิดขึ้นพร้อมกัน ดู [การทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของการสร้างหน้า](authoring-home-overview.md)
 
+[อภิธานศัพท์ของรูปแบบหน้า](page-elements-overview.md)
+
 [สถานะและระยะเวลาใช้งานของเอกสาร](document-states-overview.md)
+
+[เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง](cross-channel-sharing.md)

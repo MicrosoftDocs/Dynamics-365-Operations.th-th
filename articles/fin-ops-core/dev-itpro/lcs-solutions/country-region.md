@@ -1,5 +1,5 @@
 ---
-title: ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+title: ทรัพยากรแบบโลกาภิวัตน์
 description: หัวข้อนี้มีรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาคและข้อเสนอ
 author: ShylaThompson
 manager: AnnBe
@@ -14,17 +14,17 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
-ms.author: shylaw
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598192"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979315"
 ---
-# <a name="globalization-resources"></a>ทรัพยากรการพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+# <a name="globalization-resources"></a>ทรัพยากรแบบโลกาภิวัตน์
 
 ## <a name="local-and-regional-deployments"></a>การปรับใช้ในท้องถิ่นและภูมิภาค
 หากรัฐบาลของคุณมีข้อบังคับในการจัดเก็บหรือบริการข้อมูลแตกต่างจากข้อกำหนดของประเทศ/ภูมิภาคอื่น คุณต้องพิจารณาข้อกำหนดของประเทศ/ภูมิภาคระหว่างการปรับใช้ พิจารณาทรัพยากรต่อไปนี้ที่อาจเกี่ยวข้องกับคุณ:

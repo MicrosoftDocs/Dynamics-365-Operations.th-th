@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: รับการสนับสนุนสำหรับ Dynamics 365 Commerce
-              href: retail-support.md
+            - name: รับการสนับสนุน
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: การอัปเกรดและการสนับสนุน N-1
               items:
                 - name: การอัปเกรดและการสนับสนุน N-1 สำหรับ Commerce
@@ -90,8 +90,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
                   items:
-                    - name: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
+                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (มกราคม 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (พฤศจิกายน 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (ตุลาคม 2020)
@@ -272,8 +274,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
                 - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: ย้ายโครงการการใช้งาน LCS ไปยังผู้เช่า Azure AD อื่น
+                - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: ใช้งานโครงการ Finance and Operations Commerce
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: ใบสั่งของลูกค้าแบบไฮบริด
                   href: hybrid-customer-orders.md
+                - name: เรียกคืนการดำเนินงานใบสั่งใน POS
+                  href: enhancedorderrecall.md
             - name: ใบสั่งขาย
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
               href: batch.md
-            - name: ตั้งค่าคอนฟิกพารามิเตอร์การค้า ที่มีผลกับใบแจ้งยอด
-              href: tasks/parameter-configurations-retail-statements.md
             - name: ตั้งค่าคอนฟิกการกำหนดวิธีการชำระเงินที่มีผลกับใบแจ้งยอดการขายปลีก
               href: tasks/payment-configurations-retail-statements.md
             - name: ตั้งค่าคอนฟิกและดำเนินงานเพื่อการคำนวณใบแจ้งยอด
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: ทำงานกับกลุ่มการเผยแพร่
                   href: publish-groups.md
+                - name: เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง
+                  href: cross-channel-sharing.md
                 - name: กำหนดแบรนด์ให้กับไซต์ของคุณและเพิ่มรายละเอียดร้านค้า
                   items:
                     - name: เพิ่มโลโก้
@@ -1048,6 +1054,24 @@
               items:
                 - name: สร้างรายงานช่องทางออนไลน์
                   href: generate-reports.md
+            - name: การทดสอบ
+              items:
+                - name: การทดสอบใน Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: ระบุสมมติฐานและกำหนดตัวชี้วัดสำหรับการทดสอบ
+                  href: experimentation-identify.md
+                - name: การตั้งค่าการทดสอบ
+                  href: experimentation-setup.md
+                - name: เชื่อมต่อและแก้ไขการทดสอบ
+                  href: experimentation-connect-edit.md
+                - name: แสดงตัวอย่างและเผยแพร่การทดสอบ
+                  href: experimentation-preview-publish.md
+                - name: รันและตรวจสอบการทดสอบ
+                  href: experimentation-run-monitor.md
+                - name: โปรโมทการเปลี่ยนแปลงและทำการทดสอบให้เสร็จสมบูรณ์
+                  href: experimentation-review-complete.md
+                - name: ตรวจสอบสถานะของการทดสอบ
+                  href: experimentation-status.md
             - name: การจัดการข้อผิดพลาด
               items:
                 - name: สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx
@@ -1072,14 +1096,20 @@
               href: set-up-rfm-analysis.md
         - name: โลกาภิวัตน์
           items:
-            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทางการค้า
+            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทางการค้า
+            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: ออสเตรีย
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
                   href: localizations/emea-aut-fi-sample.md
+            - name: บราซิล
+              items:
+                - name: การแปล Commerce เป็นภาษาท้องถิ่นสำหรับบราซิล
+                  href: localizations/latam-bra-commerce-localization.md
             - name: ยุโรปตะวันออก
               items:
                 - name: ทั่วไป
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: ขยายธีมจากธีมพื้นฐาน
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: เพิ่มทรัพยากรที่กำหนดเองลงในรหัสการกำหนดเองของคุณ
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: ส่งสคริปต์
                   items:
                     - name: ตัวส่งสคริปต์
@@ -2158,12 +2190,14 @@
               items:
                 - name: API สำหรับลูกค้าและผู้ใช้งาน Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และใหม่กว่า)
+                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK รุ่น 10.0.11 และใหม่กว่า)
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และเก่ากว่า)
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript และพร็อกซี C#
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: ใช้ APIs ของ Retail Server ในโปรแกรมประยุกต์ภายนอก
+                  href: dev-itpro/consume-retail-server-api
             - name: ความสามารถในการเพิ่มฟังก์ชัน Commerce Runtime (CRT)
               items:
                 - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก CRT
