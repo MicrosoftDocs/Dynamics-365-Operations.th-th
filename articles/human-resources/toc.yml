@@ -5,6 +5,12 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 ตุลาคม 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 ตุลาคม 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 กันยายน 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 กันยายน 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 กันยายน 2020
@@ -83,6 +89,8 @@
               href: hr-admin-integration-dayforce.md
             - name: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
               href: hr-admin-integration-recurring-data-export.md
+            - name: รวมกับ LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: รวมกับ Office
               items:
                 - name: บทช่วยสอนการรวม Office
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: แอป Human Resources ใน Teams
           href: hr-admin-teams-leave-app.md
+        - name: จัดเตรียมสำหรับการโทรทันที
+          href: hr-admin-go-live-prepare.md
+        - name: FAQ เกี่ยวกับการโทรทันที
+          href: hr-admin-go-live-faq.md
         - name: แหล่งข้อมูลเอกสารประกอบ
           items:
             - name: ระบบวิธีใช้
@@ -669,6 +681,8 @@
           items:
             - name: ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ
               href: hr-employee-manager-self-service-overview.md
+            - name: สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
+              href: hr-employee-manager-self-service-custom-links.md
             - name: เปลี่ยนชื่อพื้นที่ทำงานระบบบริการตนเองของพนักงาน
               href: hr-employee-self-service-workspace-name.md
             - name: แก้ไขข้อมูลส่วนตัว
