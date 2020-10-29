@@ -142,8 +142,10 @@
                           items:
                             - name: ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: สถานการณ์จำลองที่สนับสนุนสำหรับการตั้งค่าการรวมแบบสองทิศทาง
+                            - name: คำแนะนำเกี่ยวกับวิธีการตั้งค่าการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/connection-setup.md
+                            - name: ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มแรก
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: การคืนค่าฐานข้อมูลการผลิต ณ จุดใดจุดหนึ่งของเวลาไปยังสภาพแวดล้อม Sandbox
                   href: database/database-pitr-prod-sandbox.md
+                - name: เปิดใช้งานการเข้าถึงฐานข้อมูลแบบทันเวลา
+                  href: database/database-just-in-time-jit-access.md
             - name: บทช่วยสอน
               items:
                 - name: รีเฟรชเพื่อวัตถุประสงค์ในการฝึกอบรม
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: ย้ายช่องสัญญาณไปยัง Commerce Scale Unit อื่น
+                  href: deployment/Reassign-CSU.md
                 - name: ถิ่นที่อยู่ของข้อมูล Retail
                   href: deployment/retail-data-residency.md
             - name: การปรับใช้ในสถานที่
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
-            - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับ Finance and Operations
+            - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: จัดการประสบการณ์การสนับสนุนของ Finance and Operations
+            - name: จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: การจัดการระบบ
           items:

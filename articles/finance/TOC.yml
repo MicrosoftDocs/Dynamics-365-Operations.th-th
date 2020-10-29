@@ -182,9 +182,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: การวางแผนสภาพแวดล้อม
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
-                - name: จัดเตรียมสำหรับการเริ่มใช้งานจริง
+                - name: จัดเตรียมสำหรับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับการเริ่มใช้งานจริง
+                - name: FAQ เกี่ยวกับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: ส่งคำขอรับบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: ดูผลลัพธ์การทำงานอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: พื้นที่ทำงานสำหรับการป้อนใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: การจับคู่ใบแจ้งหนี้และใบสั่งซื้อระหว่างบริษัท
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: ดูรายการสมุดรายวันและธุรกรรม
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: งบทดลองที่มีรายงานรายละเอียดของธุรกรรม
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: บันทึกบัญชีในสมุดรายวันเกี่ยวกับรายการสมุดรายวันที่ลงรายการบัญชี
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: สร้างรายการบัญชีแยกประเภทขั้นสูงในภาครัฐ
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: งบทดลองที่มีรายงานรายละเอียดของธุรกรรม
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: ใช้ขีดจำกัดการควบคุมเงินสด
                   href: public-sector/cash-control.md
                 - name: การประมวลผลสิ้นปีในภาครัฐ
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: ใบรับรอง NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: การตรวจสอบความถูกต้องของใบรับรองแบบกำหนดเอง NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: ตั้งค่า นำเข้า และตรวจสอบเอกสาร NF-e XML และ DANFE
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: การตั้งค่าพารามิเตอร์ของภาครัฐ NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: การสอบถามข้อมูลภาษี
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: ล้างข้อมูลตาราง TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: กลไกจัดการภาษี
                   items:
                     - name: ภาพรวมของกลไกจัดการภาษี
@@ -2651,7 +2657,7 @@
                         - name: ภาพรวมของโพรไฟล์สินค้าคงคลัง
                           href: localizations/rus-inventory-profile-overview.md
                         - name: ตั้งค่าโพรไฟล์สินค้าคงคลัง
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: ใช้โพรไฟล์สินค้าคงคลังในเอกสารและการสอบถาม
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: การรายงาน
