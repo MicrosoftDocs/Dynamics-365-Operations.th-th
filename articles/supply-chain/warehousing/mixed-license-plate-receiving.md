@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFAutoConfirm
+ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,35 +17,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15c058887da33b522c5d9a1a8d2c45a5d1566a5d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215780"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015860"
 ---
-# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="be004-103">การรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="be004-103">Mixed license plate receiving</span></span>
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="7b38c-103">การรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="7b38c-103">Mixed license plate receiving</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="be004-104">การรับป้ายทะเบียนแบบผสมช่วยให้คุณสร้างป้ายทะเบียนที่ประกอบด้วยสินค้าหลายรายการ ก่อนที่คุณจะลงทะเบียนและสร้างงานสำรอง</span><span class="sxs-lookup"><span data-stu-id="be004-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
+<span data-ttu-id="7b38c-104">การรับป้ายทะเบียนแบบผสมช่วยให้คุณสร้างป้ายทะเบียนที่ประกอบด้วยสินค้าหลายรายการ ก่อนที่คุณจะลงทะเบียนและสร้างงานสำรอง</span><span class="sxs-lookup"><span data-stu-id="7b38c-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-<span data-ttu-id="be004-105">ป้ายทะเบียนที่ประกอบด้วยสินค้าหลายรายการไม่จำเป็นต้องมีการแบ่ง ณ ท่ารับสินค้าเพื่อที่จะลงทะเบียนสินค้าแต่ละรายการสำหรับคุณ</span><span class="sxs-lookup"><span data-stu-id="be004-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
+<span data-ttu-id="7b38c-105">ป้ายทะเบียนที่ประกอบด้วยสินค้าหลายรายการไม่จำเป็นต้องมีการแบ่ง ณ ท่ารับสินค้าเพื่อที่จะลงทะเบียนสินค้าแต่ละรายการสำหรับคุณ</span><span class="sxs-lookup"><span data-stu-id="7b38c-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-<span data-ttu-id="be004-106">เมื่อใช้ขั้นตอนที่เกี่ยวข้องกับสินค้าเพื่อระบุรายการเอกสารต้นทาง คุณสามารถสแกนบาร์โค้ดในส่วนการควบคุมสินค้า</span><span class="sxs-lookup"><span data-stu-id="be004-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="be004-107">หากบาร์โค้ดมีปริมาณและหน่วยวัด (UOM) ตั้งค่าคอนฟิกไว้แล้ว สินค้าและปริมาณจะถูกเพิ่มไปยังป้ายทะเบียนแบบผสมโดยอัตโนมัติ และจะพาคุณกลับไปยังหน้าจอเพื่อสแกนสินค้าอื่น</span><span class="sxs-lookup"><span data-stu-id="be004-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="be004-108">ซึ่งช่วยให้คุณสามารถสแกนสินค้าทั้งหมดได้อย่างรวดเร็ว โดยไม่ต้องทำการยืนยันในแต่ละขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="be004-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
+<span data-ttu-id="7b38c-106">เมื่อใช้ขั้นตอนที่เกี่ยวข้องกับสินค้าเพื่อระบุรายการเอกสารต้นทาง คุณสามารถสแกนบาร์โค้ดในส่วนการควบคุมสินค้า</span><span class="sxs-lookup"><span data-stu-id="7b38c-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="7b38c-107">หากบาร์โค้ดมีปริมาณและหน่วยวัด (UOM) ตั้งค่าคอนฟิกไว้แล้ว สินค้าและปริมาณจะถูกเพิ่มไปยังป้ายทะเบียนแบบผสมโดยอัตโนมัติ และจะพาคุณกลับไปยังหน้าจอเพื่อสแกนสินค้าอื่น</span><span class="sxs-lookup"><span data-stu-id="7b38c-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="7b38c-108">ซึ่งช่วยให้คุณสามารถสแกนสินค้าทั้งหมดได้อย่างรวดเร็ว โดยไม่ต้องทำการยืนยันในแต่ละขั้นตอน</span><span class="sxs-lookup"><span data-stu-id="7b38c-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-<span data-ttu-id="be004-109">ในขั้นตอนของการรับป้ายทะเบียนแบบผสม คุณสามารถแสดงรายการของสินค้าที่ถูกสแกนไปยังป้ายทะเบียน และจากจุดนี้ คุณสามารถปรับเปลี่ยนหรือแก้ไขปริมาณของสินค้าได้</span><span class="sxs-lookup"><span data-stu-id="be004-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
+<span data-ttu-id="7b38c-109">ในขั้นตอนของการรับป้ายทะเบียนแบบผสม คุณสามารถแสดงรายการของสินค้าที่ถูกสแกนไปยังป้ายทะเบียน และจากจุดนี้ คุณสามารถปรับเปลี่ยนหรือแก้ไขปริมาณของสินค้าได้</span><span class="sxs-lookup"><span data-stu-id="7b38c-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="be004-110">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="be004-110">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="7b38c-110">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="7b38c-110">Where it applies</span></span>
 
-<span data-ttu-id="be004-111">การรับป้ายทะเบียนแบบผสมเป็นขั้นตอนการรับบนอุปกรณ์เคลื่อนที่เพื่อลงทะเบียนและสร้างงานสำหรับรายการ/สินค้าหลายรายการในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="be004-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="be004-112">ซึ่งมีประโยชน์ถ้าคุณรับป้ายทะเบียนขาเข้ากับสินค้าหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="be004-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
+<span data-ttu-id="7b38c-111">การรับป้ายทะเบียนแบบผสมเป็นขั้นตอนการรับบนอุปกรณ์เคลื่อนที่เพื่อลงทะเบียนและสร้างงานสำหรับรายการ/สินค้าหลายรายการในเวลาเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="7b38c-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="7b38c-112">ซึ่งมีประโยชน์ถ้าคุณรับป้ายทะเบียนขาเข้ากับสินค้าหลายรายการ</span><span class="sxs-lookup"><span data-stu-id="7b38c-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="be004-113">วิธีการตั้งค่าการรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="be004-113">How to set up mixed license plate receiving</span></span>
-<span data-ttu-id="be004-114">มีการตั้งค่าการรับป้ายทะเบียนแบบผสมให้เป็นรายการเมนูบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="be004-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="7b38c-113">วิธีการตั้งค่าการรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="7b38c-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="7b38c-114">มีการตั้งค่าการรับป้ายทะเบียนแบบผสมให้เป็นรายการเมนูบนอุปกรณ์เคลื่อนที่</span><span class="sxs-lookup"><span data-stu-id="7b38c-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-<span data-ttu-id="be004-115">คุณต้องสร้างรายการเมนูใหม่พร้อมกับงานของโหมดที่ไม่ได้ใช้งานที่มีอยู่ และใช้หนึ่งในวิธีต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="be004-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
+<span data-ttu-id="7b38c-115">คุณต้องสร้างรายการเมนูใหม่พร้อมกับงานของโหมดที่ไม่ได้ใช้งานที่มีอยู่ และใช้หนึ่งในวิธีต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="7b38c-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- <span data-ttu-id="be004-116">การรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="be004-116">Mixed license plate receiving</span></span>
-- <span data-ttu-id="be004-117">การรับป้ายทะเบียนแบบผสมและการสำรองสินค้า</span><span class="sxs-lookup"><span data-stu-id="be004-117">Mixed license plate receiving and put away</span></span>
+- <span data-ttu-id="7b38c-116">การรับป้ายทะเบียนแบบผสม</span><span class="sxs-lookup"><span data-stu-id="7b38c-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="7b38c-117">การรับป้ายทะเบียนแบบผสมและการสำรองสินค้า</span><span class="sxs-lookup"><span data-stu-id="7b38c-117">Mixed license plate receiving and put away</span></span>
 
-<span data-ttu-id="be004-118">ตัวเลือกในการระบุรายการเอกสารต้นทางเป็น สินค้าของใบสั่งซื้อ รายการของใบสั่งซื้อ ใบสั่งส่งคืนสินค้า สินค้าตามใบสั่งโอนย้าย และรายการใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="be004-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="be004-119">ตัวเลือกเหล่านี้สามารถเปลี่ยนใบสั่งรับสินค้าบนป้ายทะเบียนแบบเดียวได้</span><span class="sxs-lookup"><span data-stu-id="be004-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="be004-120">ตัวเลือกสุดท้ายจะเป็นสินค้าของจำนวนงานในศูนย์การผลิต</span><span class="sxs-lookup"><span data-stu-id="be004-120">The last option is by load item.</span></span> <span data-ttu-id="be004-121">คุณสามารถเพิ่มสินค้าหลายรายการไปยังป้ายทะเบียน แต่คุณจะไม่สามารถสลับไปมาระหว่างการบรรทุกหลายรายการได้</span><span class="sxs-lookup"><span data-stu-id="be004-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
+<span data-ttu-id="7b38c-118">ตัวเลือกในการระบุรายการเอกสารต้นทางเป็น สินค้าของใบสั่งซื้อ รายการของใบสั่งซื้อ ใบสั่งส่งคืนสินค้า สินค้าตามใบสั่งโอนย้าย และรายการใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="7b38c-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="7b38c-119">ตัวเลือกเหล่านี้สามารถเปลี่ยนใบสั่งรับสินค้าบนป้ายทะเบียนแบบเดียวได้</span><span class="sxs-lookup"><span data-stu-id="7b38c-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="7b38c-120">ตัวเลือกสุดท้ายจะเป็นสินค้าของจำนวนงานในศูนย์การผลิต</span><span class="sxs-lookup"><span data-stu-id="7b38c-120">The last option is by load item.</span></span> <span data-ttu-id="7b38c-121">คุณสามารถเพิ่มสินค้าหลายรายการไปยังป้ายทะเบียน แต่คุณจะไม่สามารถสลับไปมาระหว่างการบรรทุกหลายรายการได้</span><span class="sxs-lookup"><span data-stu-id="7b38c-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
