@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,337 +16,337 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017425"
 ---
-# <a name="warehouse-slotting"></a><span data-ttu-id="eca03-105">การแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-105">Warehouse slotting</span></span>
+# <a name="warehouse-slotting"></a><span data-ttu-id="c54eb-105">การแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-105">Warehouse slotting</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="eca03-106">การแบ่งช่วงเวลาของคลังสินค้าช่วยให้คุณสามารถรวมความต้องการตามสินค้าและหน่วยวัดจากใบสั่งที่มีสถานะเป็น *สั่งแล้ว* *จองแล้ว* หรือ *นำออกใช้แล้ว*</span><span class="sxs-lookup"><span data-stu-id="eca03-106">Warehouse slotting lets you consolidate demand by item and unit of measure from orders that have a status of *Ordered*, *Reserved*, or *Released*.</span></span> <span data-ttu-id="eca03-107">จากนั้น ความต้องการที่สร้างขึ้นสามารถนำไปใช้กับสถานที่ที่จะใช้สำหรับการเบิกสินค้าตามปริมาณ หน่วย มิติทางกายภาพ สถานที่คงที่ และอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="eca03-107">Generated demand can then be applied to locations that will be used for picking, based on quantity, unit, physical dimensions, fixed locations, and more.</span></span> <span data-ttu-id="eca03-108">หลังจากที่มีการสร้างแผนการแบ่งช่วงเวลาแล้ว คุณสามารถสร้างงานการเติมสินค้าเพื่อนำจำนวนของสินค้าคงคลังที่เหมาะสมไปยังสถานที่แต่ละแห่ง</span><span class="sxs-lookup"><span data-stu-id="eca03-108">After the slotting plan has been established, replenishment work can be created to bring the appropriate amount of inventory to each location.</span></span>
+<span data-ttu-id="c54eb-106">การแบ่งช่วงเวลาของคลังสินค้าช่วยให้คุณสามารถรวมความต้องการตามสินค้าและหน่วยวัดจากใบสั่งที่มีสถานะเป็น *สั่งแล้ว* *จองแล้ว* หรือ *นำออกใช้แล้ว*</span><span class="sxs-lookup"><span data-stu-id="c54eb-106">Warehouse slotting lets you consolidate demand by item and unit of measure from orders that have a status of *Ordered* , *Reserved* , or *Released*.</span></span> <span data-ttu-id="c54eb-107">จากนั้น ความต้องการที่สร้างขึ้นสามารถนำไปใช้กับสถานที่ที่จะใช้สำหรับการเบิกสินค้าตามปริมาณ หน่วย มิติทางกายภาพ สถานที่คงที่ และอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="c54eb-107">Generated demand can then be applied to locations that will be used for picking, based on quantity, unit, physical dimensions, fixed locations, and more.</span></span> <span data-ttu-id="c54eb-108">หลังจากที่มีการสร้างแผนการแบ่งช่วงเวลาแล้ว คุณสามารถสร้างงานการเติมสินค้าเพื่อนำจำนวนของสินค้าคงคลังที่เหมาะสมไปยังสถานที่แต่ละแห่ง</span><span class="sxs-lookup"><span data-stu-id="c54eb-108">After the slotting plan has been established, replenishment work can be created to bring the appropriate amount of inventory to each location.</span></span>
 
-<span data-ttu-id="eca03-109">ฟังก์ชันนี้ช่วยผู้จัดการคลังสินค้าในการวางแผนสถานที่เบิกสินค้าอย่างชาญฉลาด ก่อนที่พวกเขาจะนำใบสั่งออกใช้ไปยังคลังสินค้าและสร้างงานการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-109">This functionality helps warehouse managers intelligently plan picking locations before they release orders to the warehouse and create picking work.</span></span>
+<span data-ttu-id="c54eb-109">ฟังก์ชันนี้ช่วยผู้จัดการคลังสินค้าในการวางแผนสถานที่เบิกสินค้าอย่างชาญฉลาด ก่อนที่พวกเขาจะนำใบสั่งออกใช้ไปยังคลังสินค้าและสร้างงานการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-109">This functionality helps warehouse managers intelligently plan picking locations before they release orders to the warehouse and create picking work.</span></span>
 
-## <a name="turn-on-the-warehouse-slotting-feature"></a><span data-ttu-id="eca03-110">เปิดคุณลักษณะการแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-110">Turn on the warehouse slotting feature</span></span>
+## <a name="turn-on-the-warehouse-slotting-feature"></a><span data-ttu-id="c54eb-110">เปิดคุณลักษณะการแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-110">Turn on the warehouse slotting feature</span></span>
 
-<span data-ttu-id="eca03-111">ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ</span><span class="sxs-lookup"><span data-stu-id="eca03-111">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="eca03-112">ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น</span><span class="sxs-lookup"><span data-stu-id="eca03-112">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on if it's required.</span></span> <span data-ttu-id="eca03-113">ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-113">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+<span data-ttu-id="c54eb-111">ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ</span><span class="sxs-lookup"><span data-stu-id="c54eb-111">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="c54eb-112">ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น</span><span class="sxs-lookup"><span data-stu-id="c54eb-112">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on if it's required.</span></span> <span data-ttu-id="c54eb-113">ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-113">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
 
-- <span data-ttu-id="eca03-114">**โมดูล:** *การจัดการคลังสินค้า*</span><span class="sxs-lookup"><span data-stu-id="eca03-114">**Module:** *Warehouse management*</span></span>
-- <span data-ttu-id="eca03-115">**ชื่อคุณลักษณะ:** *คุณลักษณะการแบ่งช่วงเวลาของคลังสินค้า*</span><span class="sxs-lookup"><span data-stu-id="eca03-115">**Feature name:** *Warehouse slotting feature*</span></span>
+- <span data-ttu-id="c54eb-114">**โมดูล:** *การจัดการคลังสินค้า*</span><span class="sxs-lookup"><span data-stu-id="c54eb-114">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="c54eb-115">**ชื่อคุณลักษณะ:** *คุณลักษณะการแบ่งช่วงเวลาของคลังสินค้า*</span><span class="sxs-lookup"><span data-stu-id="c54eb-115">**Feature name:** *Warehouse slotting feature*</span></span>
 
-## <a name="set-up-warehouse-slotting"></a><span data-ttu-id="eca03-116">การตั้งค่าการแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-116">Set up warehouse slotting</span></span>
+## <a name="set-up-warehouse-slotting"></a><span data-ttu-id="c54eb-116">การตั้งค่าการแบ่งช่วงเวลาของคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-116">Set up warehouse slotting</span></span>
 
-<span data-ttu-id="eca03-117">เมื่อต้องการใช้การแบ่งช่วงเวลาของคลังสินค้า คุณต้องตั้งค่าองค์ประกอบต่อไปนี้ในระบบของคุณ</span><span class="sxs-lookup"><span data-stu-id="eca03-117">To use warehouse slotting, you must set up the following elements in your system.</span></span>
+<span data-ttu-id="c54eb-117">เมื่อต้องการใช้การแบ่งช่วงเวลาของคลังสินค้า คุณต้องตั้งค่าองค์ประกอบต่อไปนี้ในระบบของคุณ</span><span class="sxs-lookup"><span data-stu-id="c54eb-117">To use warehouse slotting, you must set up the following elements in your system.</span></span>
 
-### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a><span data-ttu-id="eca03-118">สร้างระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-118">Create unit-of-measure tiers for slotting</span></span>
+### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a><span data-ttu-id="c54eb-118">สร้างระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-118">Create unit-of-measure tiers for slotting</span></span>
 
-<span data-ttu-id="eca03-119">ระดับหน่วยวัดทำให้สามารถมีการจัดกลุ่มหน่วยวัดต่างๆ เข้าด้วยกันสำหรับวัตถุประสงค์ของการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-119">Unit-of-measure tiers enable multiple units of measure to be grouped together for the purposes of slotting.</span></span> <span data-ttu-id="eca03-120">ตัวอย่างเช่น ถ้ามีการเบิกกล่องหลายขนาดทั้งหมดจากพื้นที่เบิกกล่องเดียวกัน คุณสามารถสร้างระดับเดียวสำหรับทุกขนาดได้</span><span class="sxs-lookup"><span data-stu-id="eca03-120">For example, if multiple sizes of boxes are all picked from the same box picking area, one tier can be created for all the sizes.</span></span> <span data-ttu-id="eca03-121">**ต้องสร้างบรรทัดสำหรับแต่ละหน่วยวัดที่ควรจะเป็นส่วนหนึ่งของระดับ**</span><span class="sxs-lookup"><span data-stu-id="eca03-121">**A line must be created for each unit of measure that should be part of the tier.**</span></span>
+<span data-ttu-id="c54eb-119">ระดับหน่วยวัดทำให้สามารถมีการจัดกลุ่มหน่วยวัดต่างๆ เข้าด้วยกันสำหรับวัตถุประสงค์ของการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-119">Unit-of-measure tiers enable multiple units of measure to be grouped together for the purposes of slotting.</span></span> <span data-ttu-id="c54eb-120">ตัวอย่างเช่น ถ้ามีการเบิกกล่องหลายขนาดทั้งหมดจากพื้นที่เบิกกล่องเดียวกัน คุณสามารถสร้างระดับเดียวสำหรับทุกขนาดได้</span><span class="sxs-lookup"><span data-stu-id="c54eb-120">For example, if multiple sizes of boxes are all picked from the same box picking area, one tier can be created for all the sizes.</span></span> <span data-ttu-id="c54eb-121">**ต้องสร้างบรรทัดสำหรับแต่ละหน่วยวัดที่ควรจะเป็นส่วนหนึ่งของระดับ**</span><span class="sxs-lookup"><span data-stu-id="c54eb-121">**A line must be created for each unit of measure that should be part of the tier.**</span></span>
 
-1. <span data-ttu-id="eca03-122">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> ระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา**</span><span class="sxs-lookup"><span data-stu-id="eca03-122">Go to **Warehouse management \> Setup \> Replenishment \> Slotting unit of measure tiers**.</span></span>
-1. <span data-ttu-id="eca03-123">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="eca03-123">Select **New**.</span></span>
-1. <span data-ttu-id="eca03-124">บนส่วนหัว ให้กำหนดค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-124">In the header, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-122">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> ระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา**</span><span class="sxs-lookup"><span data-stu-id="c54eb-122">Go to **Warehouse management \> Setup \> Replenishment \> Slotting unit of measure tiers**.</span></span>
+1. <span data-ttu-id="c54eb-123">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="c54eb-123">Select **New**.</span></span>
+1. <span data-ttu-id="c54eb-124">บนส่วนหัว ให้กำหนดค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-124">In the header, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-125">**ระดับหน่วยวัด:** *EaBoxPl*</span><span class="sxs-lookup"><span data-stu-id="eca03-125">**Unit of measure tier:** *EaBoxPl*</span></span>
-    - <span data-ttu-id="eca03-126">**คำอธิบาย:** *แท่นวางสินค้าแต่ละกล่อง*</span><span class="sxs-lookup"><span data-stu-id="eca03-126">**Description:** *Each box pallet*</span></span>
+    - <span data-ttu-id="c54eb-125">**ระดับหน่วยวัด:** *EaBoxPl*</span><span class="sxs-lookup"><span data-stu-id="c54eb-125">**Unit of measure tier:** *EaBoxPl*</span></span>
+    - <span data-ttu-id="c54eb-126">**คำอธิบาย:** *แท่นวางสินค้าแต่ละกล่อง*</span><span class="sxs-lookup"><span data-stu-id="c54eb-126">**Description:** *Each box pallet*</span></span>
 
-1. <span data-ttu-id="eca03-127">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="eca03-127">Select **Save**.</span></span>
-1. <span data-ttu-id="eca03-128">บน FastTab **หน่วยวัด:** ให้เลือก **สร้าง** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="eca03-128">On the **Units of measure** FastTab, select **New** to add a line to the grid.</span></span>
-1. <span data-ttu-id="eca03-129">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-129">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-127">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c54eb-127">Select **Save**.</span></span>
+1. <span data-ttu-id="c54eb-128">บน FastTab **หน่วยวัด:** ให้เลือก **สร้าง** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="c54eb-128">On the **Units of measure** FastTab, select **New** to add a line to the grid.</span></span>
+1. <span data-ttu-id="c54eb-129">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-129">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-130">**หน่วย:** *กล่อง*</span><span class="sxs-lookup"><span data-stu-id="eca03-130">**Unit:** *Box*</span></span>
-    - <span data-ttu-id="eca03-131">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-131">**Description:** Leave this field blank.</span></span> <span data-ttu-id="eca03-132">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="eca03-132">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="eca03-133">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="eca03-133">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="c54eb-130">**หน่วย:** *กล่อง*</span><span class="sxs-lookup"><span data-stu-id="c54eb-130">**Unit:** *Box*</span></span>
+    - <span data-ttu-id="c54eb-131">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-131">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c54eb-132">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="c54eb-132">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="c54eb-133">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="c54eb-133">**Unit class:** *Quantity*</span></span>
 
-1. <span data-ttu-id="eca03-134">เลือก **สร้าง** เพื่อเพิ่มบรรทัดที่สองลงในกริด</span><span class="sxs-lookup"><span data-stu-id="eca03-134">Select **New** to add a second line to the grid.</span></span>
-1. <span data-ttu-id="eca03-135">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-135">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-134">เลือก **สร้าง** เพื่อเพิ่มบรรทัดที่สองลงในกริด</span><span class="sxs-lookup"><span data-stu-id="c54eb-134">Select **New** to add a second line to the grid.</span></span>
+1. <span data-ttu-id="c54eb-135">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-135">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-136">**หน่วย:** *ea*</span><span class="sxs-lookup"><span data-stu-id="eca03-136">**Unit:** *ea*</span></span>
-    - <span data-ttu-id="eca03-137">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-137">**Description:** Leave this field blank.</span></span> <span data-ttu-id="eca03-138">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="eca03-138">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="eca03-139">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="eca03-139">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="c54eb-136">**หน่วย:** *ea*</span><span class="sxs-lookup"><span data-stu-id="c54eb-136">**Unit:** *ea*</span></span>
+    - <span data-ttu-id="c54eb-137">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-137">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c54eb-138">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="c54eb-138">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="c54eb-139">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="c54eb-139">**Unit class:** *Quantity*</span></span>
 
-1. <span data-ttu-id="eca03-140">เลือก **สร้าง** เพื่อเพิ่มบรรทัดที่สามลงในกริด</span><span class="sxs-lookup"><span data-stu-id="eca03-140">Select **New** to add a third line to the grid.</span></span>
-1. <span data-ttu-id="eca03-141">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-141">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-140">เลือก **สร้าง** เพื่อเพิ่มบรรทัดที่สามลงในกริด</span><span class="sxs-lookup"><span data-stu-id="c54eb-140">Select **New** to add a third line to the grid.</span></span>
+1. <span data-ttu-id="c54eb-141">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-141">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-142">**หน่วย:** *PL*</span><span class="sxs-lookup"><span data-stu-id="eca03-142">**Unit:** *PL*</span></span>
-    - <span data-ttu-id="eca03-143">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-143">**Description:** Leave this field blank.</span></span> <span data-ttu-id="eca03-144">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="eca03-144">It will be filled in automatically when you save your changes.</span></span>
-    - <span data-ttu-id="eca03-145">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="eca03-145">**Unit class:** *Quantity*</span></span>
+    - <span data-ttu-id="c54eb-142">**หน่วย:** *PL*</span><span class="sxs-lookup"><span data-stu-id="c54eb-142">**Unit:** *PL*</span></span>
+    - <span data-ttu-id="c54eb-143">**คำอธิบาย:** ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-143">**Description:** Leave this field blank.</span></span> <span data-ttu-id="c54eb-144">จะมีการเติมข้อมูลนี้โดยอัตโนมัติ เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณ</span><span class="sxs-lookup"><span data-stu-id="c54eb-144">It will be filled in automatically when you save your changes.</span></span>
+    - <span data-ttu-id="c54eb-145">**คลาสหน่วย:** *ปริมาณ*</span><span class="sxs-lookup"><span data-stu-id="c54eb-145">**Unit class:** *Quantity*</span></span>
 
-1. <span data-ttu-id="eca03-146">เลือก **บันทึก** เพื่อบันทึกระดับ</span><span class="sxs-lookup"><span data-stu-id="eca03-146">Select **Save** to save the tier.</span></span>
+1. <span data-ttu-id="c54eb-146">เลือก **บันทึก** เพื่อบันทึกระดับ</span><span class="sxs-lookup"><span data-stu-id="c54eb-146">Select **Save** to save the tier.</span></span>
 
-### <a name="create-a-directive-code-for-slotting"></a><span data-ttu-id="eca03-147">สร้างรหัสคำสั่งสำหรับการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-147">Create a directive code for slotting</span></span>
+### <a name="create-a-directive-code-for-slotting"></a><span data-ttu-id="c54eb-147">สร้างรหัสคำสั่งสำหรับการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-147">Create a directive code for slotting</span></span>
 
-<span data-ttu-id="eca03-148">คุณต้องเลือกรหัสคำสั่งที่ควรเชื่อมโยงกับเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="eca03-148">You must select the directive code that should be associated with a template.</span></span>
+<span data-ttu-id="c54eb-148">คุณต้องเลือกรหัสคำสั่งที่ควรเชื่อมโยงกับเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="c54eb-148">You must select the directive code that should be associated with a template.</span></span>
 
-1. <span data-ttu-id="eca03-149">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> รหัสคำสั่ง**</span><span class="sxs-lookup"><span data-stu-id="eca03-149">Go to **Warehouse management \> Setup \> Directive codes**.</span></span>
-1. <span data-ttu-id="eca03-150">บนบานหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="eca03-150">On the Action Pane, select **New**.</span></span>
-1. <span data-ttu-id="eca03-151">ในฟิลด์ **รหัสคำสั่ง** ให้ป้อน *การแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="eca03-151">In the **Directive code** field, enter *Slotting*.</span></span>
-1. <span data-ttu-id="eca03-152">ในฟิลด์ **คำอธิบายคำสั่ง** ให้ป้อน *การแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="eca03-152">In the **Directive description** field, enter *Slotting*.</span></span>
+1. <span data-ttu-id="c54eb-149">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> รหัสคำสั่ง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-149">Go to **Warehouse management \> Setup \> Directive codes**.</span></span>
+1. <span data-ttu-id="c54eb-150">บนบานหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-150">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="c54eb-151">ในฟิลด์ **รหัสคำสั่ง** ให้ป้อน *การแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="c54eb-151">In the **Directive code** field, enter *Slotting*.</span></span>
+1. <span data-ttu-id="c54eb-152">ในฟิลด์ **คำอธิบายคำสั่ง** ให้ป้อน *การแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="c54eb-152">In the **Directive description** field, enter *Slotting*.</span></span>
 
-### <a name="set-up-slotting-templates"></a><span data-ttu-id="eca03-153">การตั้งค่าเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-153">Set up slotting templates</span></span>
+### <a name="set-up-slotting-templates"></a><span data-ttu-id="c54eb-153">การตั้งค่าเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-153">Set up slotting templates</span></span>
 
-<span data-ttu-id="eca03-154">เท็มเพลตการแบ่งช่วงเวลาแต่ละรายการจะควบคุมวิธีการกำหนดสินค้าคงคลังให้กับสถานที่สำหรับคลังสินค้าหนึ่งๆ</span><span class="sxs-lookup"><span data-stu-id="eca03-154">Each slotting template controls how inventory is assigned to locations for a specific warehouse.</span></span> <span data-ttu-id="eca03-155">เท็มเพลตแต่ละรายการจะต้องรวมบรรทัดสำหรับข้อมูลจำเพาะของการแบ่งช่วงเวลาแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="eca03-155">Each template must include a line for each slotting specification.</span></span> <span data-ttu-id="eca03-156">ใช้กระบวนงานในส่วนนี้เพื่อตั้งค่าเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-156">Use the procedures in this section to set up slotting templates.</span></span>
+<span data-ttu-id="c54eb-154">เท็มเพลตการแบ่งช่วงเวลาแต่ละรายการจะควบคุมวิธีการกำหนดสินค้าคงคลังให้กับสถานที่สำหรับคลังสินค้าหนึ่งๆ</span><span class="sxs-lookup"><span data-stu-id="c54eb-154">Each slotting template controls how inventory is assigned to locations for a specific warehouse.</span></span> <span data-ttu-id="c54eb-155">เท็มเพลตแต่ละรายการจะต้องรวมบรรทัดสำหรับข้อมูลจำเพาะของการแบ่งช่วงเวลาแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-155">Each template must include a line for each slotting specification.</span></span> <span data-ttu-id="c54eb-156">ใช้กระบวนงานในส่วนนี้เพื่อตั้งค่าเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-156">Use the procedures in this section to set up slotting templates.</span></span>
 
-1. <span data-ttu-id="eca03-157">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> เท็มเพลตการเติมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="eca03-157">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**.</span></span>
-1. <span data-ttu-id="eca03-158">เลือก **สร้าง** เพื่อสร้างเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="eca03-158">Select **New** to create a template.</span></span>
+1. <span data-ttu-id="c54eb-157">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> เท็มเพลตการเติมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="c54eb-157">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**.</span></span>
+1. <span data-ttu-id="c54eb-158">เลือก **สร้าง** เพื่อสร้างเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="c54eb-158">Select **New** to create a template.</span></span>
 
-<span data-ttu-id="eca03-159">ถัดไป คุณต้องตั้งค่าส่วนหัวของเท็มเพลต ข้อมูลจำเพาะของการแบ่งช่วงเวลา และคำสั่งสถานที่ ดังที่อธิบายไว้ในส่วนย่อยต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-159">Next, you must set up the template header, slotting specifications, and location directives, as explained in the following subsections.</span></span>
+<span data-ttu-id="c54eb-159">ถัดไป คุณต้องตั้งค่าส่วนหัวของเท็มเพลต ข้อมูลจำเพาะของการแบ่งช่วงเวลา และคำสั่งสถานที่ ดังที่อธิบายไว้ในส่วนย่อยต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-159">Next, you must set up the template header, slotting specifications, and location directives, as explained in the following subsections.</span></span>
 
-#### <a name="set-up-a-slotting-template-header"></a><span data-ttu-id="eca03-160">ตั้งค่าส่วนหัวของเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-160">Set up a slotting template header</span></span>
+#### <a name="set-up-a-slotting-template-header"></a><span data-ttu-id="c54eb-160">ตั้งค่าส่วนหัวของเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-160">Set up a slotting template header</span></span>
 
-1. <span data-ttu-id="eca03-161">ในส่วนหัวสำหรับเท็มเพลต ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-161">In the header for the template, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-161">ในส่วนหัวสำหรับเท็มเพลต ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-161">In the header for the template, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-162">**เท็มเพลตการแบ่งช่วงเวลา:** _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-162">**Slotting template:** _61_</span></span>
-    - <span data-ttu-id="eca03-163">**คำอธิบาย:** _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-163">**Description:** _61_</span></span>
-    - <span data-ttu-id="eca03-164">**ชนิดความต้องการ:** *ใบสั่งขาย*</span><span class="sxs-lookup"><span data-stu-id="eca03-164">**Demand type:** *Sales order*</span></span>
+    - <span data-ttu-id="c54eb-162">**เท็มเพลตการแบ่งช่วงเวลา:** _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-162">**Slotting template:** _61_</span></span>
+    - <span data-ttu-id="c54eb-163">**คำอธิบาย:** _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-163">**Description:** _61_</span></span>
+    - <span data-ttu-id="c54eb-164">**ชนิดความต้องการ:** *ใบสั่งขาย*</span><span class="sxs-lookup"><span data-stu-id="c54eb-164">**Demand type:** *Sales order*</span></span>
 
-        <span data-ttu-id="eca03-165">ในปัจจุบัน *ใบสั่งขาย* เป็นเพียงความต้องการชนิดเดียวที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="eca03-165">Currently, *Sales order* is the only demand type that is supported.</span></span>
+        <span data-ttu-id="c54eb-165">ในปัจจุบัน *ใบสั่งขาย* เป็นเพียงความต้องการชนิดเดียวที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="c54eb-165">Currently, *Sales order* is the only demand type that is supported.</span></span>
 
-    - <span data-ttu-id="eca03-166">**กลยุทธ์ความต้องการ:** _สั่งแล้ว_</span><span class="sxs-lookup"><span data-stu-id="eca03-166">**Demand strategy:** _Ordered_</span></span>
+    - <span data-ttu-id="c54eb-166">**กลยุทธ์ความต้องการ:** _สั่งแล้ว_</span><span class="sxs-lookup"><span data-stu-id="c54eb-166">**Demand strategy:** _Ordered_</span></span>
 
-        <span data-ttu-id="eca03-167">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-167">The following values are available in this field:</span></span>
+        <span data-ttu-id="c54eb-167">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-167">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="eca03-168">**สั่งแล้ว** – ปริมาณที่สั่งทั้งหมดในใบสั่งขายควรมีการพิจารณาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-168">**Ordered** – The full ordered quantity on the sales order should be considered demand.</span></span>
-        - <span data-ttu-id="eca03-169">**จองแล้ว** – เฉพาะปริมาณของบรรทัดใบสั่งขายที่จองไว้เท่านั้น (มีจริง และสั่งแล้ว) ที่ควรมีการพิจารณาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-169">**Reserved** – Only the sales order line quantities that are reserved (physical and ordered) should be considered demand.</span></span>
+        - <span data-ttu-id="c54eb-168">**สั่งแล้ว** – ปริมาณที่สั่งทั้งหมดในใบสั่งขายควรมีการพิจารณาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-168">**Ordered** – The full ordered quantity on the sales order should be considered demand.</span></span>
+        - <span data-ttu-id="c54eb-169">**จองแล้ว** – เฉพาะปริมาณของบรรทัดใบสั่งขายที่จองไว้เท่านั้น (มีจริง และสั่งแล้ว) ที่ควรมีการพิจารณาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-169">**Reserved** – Only the sales order line quantities that are reserved (physical and ordered) should be considered demand.</span></span>
 
-    - <span data-ttu-id="eca03-170">**คลังสินค้า:** _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-170">**Warehouse:** _61_</span></span>
-    - <span data-ttu-id="eca03-171">**อนุญาตให้ความต้องการเวฟใช้ปริมาณที่ไม่ได้จอง:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="eca03-171">**Allow wave demand to use unreserved quantities:** _Yes_</span></span>
+    - <span data-ttu-id="c54eb-170">**คลังสินค้า:** _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-170">**Warehouse:** _61_</span></span>
+    - <span data-ttu-id="c54eb-171">**อนุญาตให้ความต้องการเวฟใช้ปริมาณที่ไม่ได้จอง:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="c54eb-171">**Allow wave demand to use unreserved quantities:** _Yes_</span></span>
 
-<span data-ttu-id="eca03-172">นอกจากนี้ คุณยังสามารถระบุการสอบถามเพื่อจำกัดขอบเขตของความต้องการที่จะประเมิน</span><span class="sxs-lookup"><span data-stu-id="eca03-172">You can also specify a query to narrow the scope of the demand that is evaluated.</span></span>
+<span data-ttu-id="c54eb-172">นอกจากนี้ คุณยังสามารถระบุการสอบถามเพื่อจำกัดขอบเขตของความต้องการที่จะประเมิน</span><span class="sxs-lookup"><span data-stu-id="c54eb-172">You can also specify a query to narrow the scope of the demand that is evaluated.</span></span>
 
-#### <a name="set-up-slotting-specifications-for-each-template"></a><span data-ttu-id="eca03-173">ตั้งค่าข้อมูลจำเพาะของการแบ่งช่วงเวลาสำหรับเท็มเพลตแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="eca03-173">Set up slotting specifications for each template</span></span>
+#### <a name="set-up-slotting-specifications-for-each-template"></a><span data-ttu-id="c54eb-173">ตั้งค่าข้อมูลจำเพาะของการแบ่งช่วงเวลาสำหรับเท็มเพลตแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-173">Set up slotting specifications for each template</span></span>
 
-<span data-ttu-id="eca03-174">สำหรับเท็มเพลตแต่ละรายการที่คุณสร้าง ให้ทำตามขั้นตอนต่อไปนี้เพื่อเพิ่มบรรทัดสำหรับข้อมูลจำเพาะของการแบ่งช่วงเวลาแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="eca03-174">For each template that you create, follow these steps to add a line for each slotting specification.</span></span>
+<span data-ttu-id="c54eb-174">สำหรับเท็มเพลตแต่ละรายการที่คุณสร้าง ให้ทำตามขั้นตอนต่อไปนี้เพื่อเพิ่มบรรทัดสำหรับข้อมูลจำเพาะของการแบ่งช่วงเวลาแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-174">For each template that you create, follow these steps to add a line for each slotting specification.</span></span>
 
-1. <span data-ttu-id="eca03-175">บน FastTab **รายละเอียดเท็มเพลตการแบ่งช่วงเวลา** ให้เลือก **สร้าง** เพื่อสร้างบรรทัดเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="eca03-175">On the **Slotting template details** FastTab, select **New** to create a template line.</span></span>
-1. <span data-ttu-id="eca03-176">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-176">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-175">บน FastTab **รายละเอียดเท็มเพลตการแบ่งช่วงเวลา** ให้เลือก **สร้าง** เพื่อสร้างบรรทัดเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="c54eb-175">On the **Slotting template details** FastTab, select **New** to create a template line.</span></span>
+1. <span data-ttu-id="c54eb-176">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-176">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-177">**ลำดับ:** _1_</span><span class="sxs-lookup"><span data-stu-id="eca03-177">**Sequence:** _1_</span></span>
-    - <span data-ttu-id="eca03-178">**คำอธิบาย:** _สถานที่คงที่_</span><span class="sxs-lookup"><span data-stu-id="eca03-178">**Description:** _Fixed location_</span></span>
-    - <span data-ttu-id="eca03-179">**ปริมาณต่ำสุด:** _1_</span><span class="sxs-lookup"><span data-stu-id="eca03-179">**Minimum quantity:** _1_</span></span>
+    - <span data-ttu-id="c54eb-177">**ลำดับ:** _1_</span><span class="sxs-lookup"><span data-stu-id="c54eb-177">**Sequence:** _1_</span></span>
+    - <span data-ttu-id="c54eb-178">**คำอธิบาย:** _สถานที่คงที่_</span><span class="sxs-lookup"><span data-stu-id="c54eb-178">**Description:** _Fixed location_</span></span>
+    - <span data-ttu-id="c54eb-179">**ปริมาณต่ำสุด:** _1_</span><span class="sxs-lookup"><span data-stu-id="c54eb-179">**Minimum quantity:** _1_</span></span>
 
-        <span data-ttu-id="eca03-180">ฟิลด์นี้จะกำหนดปริมาณต่ำสุดของความต้องการที่จำเป็นสำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-180">This field defines the minimum quantity of demand that is required for the line.</span></span>
+        <span data-ttu-id="c54eb-180">ฟิลด์นี้จะกำหนดปริมาณต่ำสุดของความต้องการที่จำเป็นสำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-180">This field defines the minimum quantity of demand that is required for the line.</span></span>
 
-    - <span data-ttu-id="eca03-181">**ปริมาณสูงสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="eca03-181">**Maximum quantity:** _1000000_</span></span>
+    - <span data-ttu-id="c54eb-181">**ปริมาณสูงสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="c54eb-181">**Maximum quantity:** _1000000_</span></span>
 
-        <span data-ttu-id="eca03-182">ฟิลด์นี้จะกำหนดปริมาณสูงสุดของความต้องการที่มีผลบังคับใช้สำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-182">This field defines the maximum quantity of demand that is valid for the line.</span></span>
+        <span data-ttu-id="c54eb-182">ฟิลด์นี้จะกำหนดปริมาณสูงสุดของความต้องการที่มีผลบังคับใช้สำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-182">This field defines the maximum quantity of demand that is valid for the line.</span></span>
 
-    - <span data-ttu-id="eca03-183">**หน่วย:** ให้ปล่อยฟิลด์นี้ให้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-183">**Unit:** Leave this field blank.</span></span>
+    - <span data-ttu-id="c54eb-183">**หน่วย:** ให้ปล่อยฟิลด์นี้ให้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-183">**Unit:** Leave this field blank.</span></span>
 
-        <span data-ttu-id="eca03-184">ฟิลด์นี้จะกำหนดหน่วยวัดที่ปริมาณต่ำสุดและสูงสุดอ้างอิงถึง</span><span class="sxs-lookup"><span data-stu-id="eca03-184">This field defines the unit of measure that the minimum and maximum quantities refer to.</span></span>
+        <span data-ttu-id="c54eb-184">ฟิลด์นี้จะกำหนดหน่วยวัดที่ปริมาณต่ำสุดและสูงสุดอ้างอิงถึง</span><span class="sxs-lookup"><span data-stu-id="c54eb-184">This field defines the unit of measure that the minimum and maximum quantities refer to.</span></span>
 
-    - <span data-ttu-id="eca03-185">**ระดับหน่วยวัด:** _EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="eca03-185">**Unit of Measure Tier:** _EaBoxPl_</span></span>
+    - <span data-ttu-id="c54eb-185">**ระดับหน่วยวัด:** _EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="c54eb-185">**Unit of Measure Tier:** _EaBoxPl_</span></span>
 
-        <span data-ttu-id="eca03-186">ฟิลด์นี้จะกำหนดหน่วยวัดของความต้องการที่มีผลบังคับใช้สำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-186">This field defines the units of measure of demand that are valid for the line.</span></span> <span data-ttu-id="eca03-187">(สำหรับข้อมูลเพิ่มเติม ให้ดูที่ส่วน [ตั้งค่าระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา](#unit-tiers) ก่อนหน้าในหัวข้อนี้)</span><span class="sxs-lookup"><span data-stu-id="eca03-187">(For more information, see the [Set up unit-of-measure tiers for slotting](#unit-tiers) section earlier in this topic.)</span></span>
+        <span data-ttu-id="c54eb-186">ฟิลด์นี้จะกำหนดหน่วยวัดของความต้องการที่มีผลบังคับใช้สำหรับบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-186">This field defines the units of measure of demand that are valid for the line.</span></span> <span data-ttu-id="c54eb-187">(สำหรับข้อมูลเพิ่มเติม ให้ดูที่ส่วน [ตั้งค่าระดับหน่วยวัดสำหรับการแบ่งช่วงเวลา](#unit-tiers) ก่อนหน้าในหัวข้อนี้)</span><span class="sxs-lookup"><span data-stu-id="c54eb-187">(For more information, see the [Set up unit-of-measure tiers for slotting](#unit-tiers) section earlier in this topic.)</span></span>
 
-    - <span data-ttu-id="eca03-188">**กำหนดเกณฑ์ของช่วงเวลา:** _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="eca03-188">**Assign slot criteria:** _Consider qty_</span></span>
+    - <span data-ttu-id="c54eb-188">**กำหนดเกณฑ์ของช่วงเวลา:** _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="c54eb-188">**Assign slot criteria:** _Consider qty_</span></span>
 
-        <span data-ttu-id="eca03-189">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-189">The following values are available in this field:</span></span>
+        <span data-ttu-id="c54eb-189">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-189">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="eca03-190">**สมมติว่าว่างเปล่า** – ระบบนี้ควรสันนิษฐานว่าสถานที่ทั้งหมดในพื้นที่เบิกสินค้าว่างเปล่า และไม่ควรตรวจสอบสถานที่เหล่านั้นสำหรับสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="eca03-190">**Assume empty** – This system should assume that all locations in the picking area are empty and should not check those locations for inventory.</span></span>
-        - <span data-ttu-id="eca03-191">**พิจารณาปริมาณ** – ระบบนี้ควรตรวจสอบสถานที่ทั้งหมดในพื้นที่เบิกสินค้าสำหรับสินค้าคงคลัง และควรข้ามสถานที่ใดๆ ที่ไม่ว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="eca03-191">**Consider qty** – The system should check the locations in the picking area for inventory and should skip any locations that aren't empty.</span></span>
+        - <span data-ttu-id="c54eb-190">**สมมติว่าว่างเปล่า** – ระบบนี้ควรสันนิษฐานว่าสถานที่ทั้งหมดในพื้นที่เบิกสินค้าว่างเปล่า และไม่ควรตรวจสอบสถานที่เหล่านั้นสำหรับสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="c54eb-190">**Assume empty** – This system should assume that all locations in the picking area are empty and should not check those locations for inventory.</span></span>
+        - <span data-ttu-id="c54eb-191">**พิจารณาปริมาณ** – ระบบนี้ควรตรวจสอบสถานที่ทั้งหมดในพื้นที่เบิกสินค้าสำหรับสินค้าคงคลัง และควรข้ามสถานที่ใดๆ ที่ไม่ว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="c54eb-191">**Consider qty** – The system should check the locations in the picking area for inventory and should skip any locations that aren't empty.</span></span>
 
-    - <span data-ttu-id="eca03-192">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="eca03-192">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="c54eb-192">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="c54eb-192">**Directive code:** _Slotting_</span></span>
 
-        <span data-ttu-id="eca03-193">ฟิลด์นี้จะกำหนดคำสั่งสถานที่ที่ใช้ในการค้นหาสถานที่เบิกสินค้าของงานการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-193">This field defines the location directive that is used to find the picking location of the replenishment work.</span></span>
+        <span data-ttu-id="c54eb-193">ฟิลด์นี้จะกำหนดคำสั่งสถานที่ที่ใช้ในการค้นหาสถานที่เบิกสินค้าของงานการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-193">This field defines the location directive that is used to find the picking location of the replenishment work.</span></span>
 
-    - <span data-ttu-id="eca03-194">**สถานที่ที่มีปริมาณมากเกินไป:** ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-194">**Overflow location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="c54eb-194">**สถานที่ที่มีปริมาณมากเกินไป:** ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-194">**Overflow location:** Leave this field blank.</span></span>
 
-        <span data-ttu-id="eca03-195">ฟิลด์นี้จะกำหนดสถานที่ที่มีการเก็บสินค้าคงคลัง ถ้าไม่พบสถานที่สำหรับปริมาณ เมื่อมีการประมวลผลรายการ</span><span class="sxs-lookup"><span data-stu-id="eca03-195">This field defines the location that inventory that is put to if a location can't be found for the quantity when the line is processed.</span></span>
+        <span data-ttu-id="c54eb-195">ฟิลด์นี้จะกำหนดสถานที่ที่มีการเก็บสินค้าคงคลัง ถ้าไม่พบสถานที่สำหรับปริมาณ เมื่อมีการประมวลผลรายการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-195">This field defines the location that inventory that is put to if a location can't be found for the quantity when the line is processed.</span></span>
 
-    - <span data-ttu-id="eca03-196">**อนุญาตให้หยุด:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="eca03-196">**Allow let up:** _Yes_</span></span>
+    - <span data-ttu-id="c54eb-196">**อนุญาตให้หยุด:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="c54eb-196">**Allow let up:** _Yes_</span></span>
 
-        <span data-ttu-id="eca03-197">เมื่อมีการตั้งค่าตัวเลือกนี้เป็น *ใช่* ถ้าความต้องการใดๆ ไม่สามารถถูกจัดช่วงเวลาได้ งานการเคลื่อนไหวงานจะถูกสร้างขึ้นเพื่อนำสินค้าคงคลังออกจากสถานที่ที่ซึ่งมีสินค้าคงคลัง แต่ที่ซึ่งไม่มีการจัดช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-197">When this option is set to *Yes*, if any demand can't be slotted, movement work will be created to take inventory out of locations where there is inventory, but where nothing was slotted.</span></span> <span data-ttu-id="eca03-198">แล้วรันเท็มเพลตอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="eca03-198">The template is then run again.</span></span> <span data-ttu-id="eca03-199">ในเวลานี้ จะละเว้นสินค้าคงคลังในสถานที่</span><span class="sxs-lookup"><span data-stu-id="eca03-199">This time, it ignores the inventory in the locations.</span></span> <span data-ttu-id="eca03-200">ฟังก์ชันนี้จะทำงานได้ดีที่สุด เมื่อฟิลด์ **กำหนดเกณฑ์ของช่วงเวลา** ถูกตั้งค่าเป็น _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="eca03-200">This functionality works best when the **Assign slot criteria** field is set to _Consider qty_.</span></span>
+        <span data-ttu-id="c54eb-197">เมื่อมีการตั้งค่าตัวเลือกนี้เป็น *ใช่* ถ้าความต้องการใดๆ ไม่สามารถถูกจัดช่วงเวลาได้ งานการเคลื่อนไหวงานจะถูกสร้างขึ้นเพื่อนำสินค้าคงคลังออกจากสถานที่ที่ซึ่งมีสินค้าคงคลัง แต่ที่ซึ่งไม่มีการจัดช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-197">When this option is set to *Yes* , if any demand can't be slotted, movement work will be created to take inventory out of locations where there is inventory, but where nothing was slotted.</span></span> <span data-ttu-id="c54eb-198">แล้วรันเท็มเพลตอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="c54eb-198">The template is then run again.</span></span> <span data-ttu-id="c54eb-199">ในเวลานี้ จะละเว้นสินค้าคงคลังในสถานที่</span><span class="sxs-lookup"><span data-stu-id="c54eb-199">This time, it ignores the inventory in the locations.</span></span> <span data-ttu-id="c54eb-200">ฟังก์ชันนี้จะทำงานได้ดีที่สุด เมื่อฟิลด์ **กำหนดเกณฑ์ของช่วงเวลา** ถูกตั้งค่าเป็น _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="c54eb-200">This functionality works best when the **Assign slot criteria** field is set to _Consider qty_.</span></span>
 
-    - <span data-ttu-id="eca03-201">**การใช้สถานที่คงที่:** _เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์_</span><span class="sxs-lookup"><span data-stu-id="eca03-201">**Fixed location usage:** _Only fixed locations for the product_</span></span>
+    - <span data-ttu-id="c54eb-201">**การใช้สถานที่คงที่:** _เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์_</span><span class="sxs-lookup"><span data-stu-id="c54eb-201">**Fixed location usage:** _Only fixed locations for the product_</span></span>
 
-        <span data-ttu-id="eca03-202">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-202">The following values are available in this field:</span></span>
+        <span data-ttu-id="c54eb-202">ค่าต่อไปนี้จะพร้อมใช้งานในฟิลด์นี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-202">The following values are available in this field:</span></span>
 
-        - <span data-ttu-id="eca03-203">**สถานที่คงที่และไม่คงที่** – ระบบไม่ควรถูกจำกัดให้ใช้เฉพาะสถานที่คงที่เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="eca03-203">**Fixed and non-fixed locations** – The system should not be limited to using only fixed locations.</span></span>
-        - <span data-ttu-id="eca03-204">**เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์** – ระบบควรจะใช้เฉพาะกับสถานที่ที่เป็นสถานที่คงที่สำหรับผลิตภัณฑ์เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="eca03-204">**Only fixed locations for the product** – The system should slot only to locations that are fixed locations for the product.</span></span>
-        - <span data-ttu-id="eca03-205">**เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์ย่อย** – ระบบควรจะใช้เฉพาะกับสถานที่ที่เป็นสถานที่คงที่สำหรับผลิตภัณฑ์ย่อยเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="eca03-205">**Only fixed locations for the product variant** – The system should slot only to locations that are fixed locations for the product variant.</span></span>
+        - <span data-ttu-id="c54eb-203">**สถานที่คงที่และไม่คงที่** – ระบบไม่ควรถูกจำกัดให้ใช้เฉพาะสถานที่คงที่เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="c54eb-203">**Fixed and non-fixed locations** – The system should not be limited to using only fixed locations.</span></span>
+        - <span data-ttu-id="c54eb-204">**เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์** – ระบบควรจะใช้เฉพาะกับสถานที่ที่เป็นสถานที่คงที่สำหรับผลิตภัณฑ์เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="c54eb-204">**Only fixed locations for the product** – The system should slot only to locations that are fixed locations for the product.</span></span>
+        - <span data-ttu-id="c54eb-205">**เฉพาะสถานที่คงที่สำหรับผลิตภัณฑ์ย่อย** – ระบบควรจะใช้เฉพาะกับสถานที่ที่เป็นสถานที่คงที่สำหรับผลิตภัณฑ์ย่อยเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="c54eb-205">**Only fixed locations for the product variant** – The system should slot only to locations that are fixed locations for the product variant.</span></span>
 
-1. <span data-ttu-id="eca03-206">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="eca03-206">Select **Save**.</span></span>
-1. <span data-ttu-id="eca03-207">เลือก **สร้าง** เพื่อเพิ่มบรรทัดเท็มเพลตที่สอง</span><span class="sxs-lookup"><span data-stu-id="eca03-207">Select **New** to create a second template line.</span></span>
-1. <span data-ttu-id="eca03-208">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-208">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-206">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c54eb-206">Select **Save**.</span></span>
+1. <span data-ttu-id="c54eb-207">เลือก **สร้าง** เพื่อเพิ่มบรรทัดเท็มเพลตที่สอง</span><span class="sxs-lookup"><span data-stu-id="c54eb-207">Select **New** to create a second template line.</span></span>
+1. <span data-ttu-id="c54eb-208">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-208">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-209">**ลำดับ:** _2_</span><span class="sxs-lookup"><span data-stu-id="eca03-209">**Sequence:** _2_</span></span>
-    - <span data-ttu-id="eca03-210">**คำอธิบาย:** _อื่นๆ_</span><span class="sxs-lookup"><span data-stu-id="eca03-210">**Description:** _Other_</span></span>
-    - <span data-ttu-id="eca03-211">**ปริมาณต่ำสุด:** _1_</span><span class="sxs-lookup"><span data-stu-id="eca03-211">**Minimum Qty:** _1_</span></span>
-    - <span data-ttu-id="eca03-212">**ปริมาณสูงสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="eca03-212">**Maximum Qty:** _1000000_</span></span>
-    - <span data-ttu-id="eca03-213">**หน่วย:** ให้ปล่อยฟิลด์นี้ให้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-213">**Unit:** Leave this field blank.</span></span>
-    - <span data-ttu-id="eca03-214">**ระดับหน่วยวัด:** _EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="eca03-214">**Unit of measure tier:** _EaBoxPl_</span></span>
-    - <span data-ttu-id="eca03-215">**กำหนดเกณฑ์ของช่วงเวลา:** _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="eca03-215">**Assign slot criteria:** _Consider qty_</span></span>
-    - <span data-ttu-id="eca03-216">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="eca03-216">**Directive code:** _Slotting_</span></span>
-    - <span data-ttu-id="eca03-217">**สถานที่ที่มีปริมาณมากเกินไป:** ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="eca03-217">**Overflow location:** Leave this field blank.</span></span>
-    - <span data-ttu-id="eca03-218">**อนุญาตให้หยุด:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="eca03-218">**Allow let up:** _Yes_</span></span>
-    - <span data-ttu-id="eca03-219">**ใช้สถานที่คงที่:** _สถานที่คงที่และไม่คงที่_</span><span class="sxs-lookup"><span data-stu-id="eca03-219">**Use fixed locations:** _Fixed and non-fixed locations_</span></span>
+    - <span data-ttu-id="c54eb-209">**ลำดับ:** _2_</span><span class="sxs-lookup"><span data-stu-id="c54eb-209">**Sequence:** _2_</span></span>
+    - <span data-ttu-id="c54eb-210">**คำอธิบาย:** _อื่นๆ_</span><span class="sxs-lookup"><span data-stu-id="c54eb-210">**Description:** _Other_</span></span>
+    - <span data-ttu-id="c54eb-211">**ปริมาณต่ำสุด:** _1_</span><span class="sxs-lookup"><span data-stu-id="c54eb-211">**Minimum Qty:** _1_</span></span>
+    - <span data-ttu-id="c54eb-212">**ปริมาณสูงสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="c54eb-212">**Maximum Qty:** _1000000_</span></span>
+    - <span data-ttu-id="c54eb-213">**หน่วย:** ให้ปล่อยฟิลด์นี้ให้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-213">**Unit:** Leave this field blank.</span></span>
+    - <span data-ttu-id="c54eb-214">**ระดับหน่วยวัด:** _EaBoxPl_</span><span class="sxs-lookup"><span data-stu-id="c54eb-214">**Unit of measure tier:** _EaBoxPl_</span></span>
+    - <span data-ttu-id="c54eb-215">**กำหนดเกณฑ์ของช่วงเวลา:** _พิจารณาปริมาณ_</span><span class="sxs-lookup"><span data-stu-id="c54eb-215">**Assign slot criteria:** _Consider qty_</span></span>
+    - <span data-ttu-id="c54eb-216">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="c54eb-216">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="c54eb-217">**สถานที่ที่มีปริมาณมากเกินไป:** ให้ปล่อยฟิลด์นี้ว่างไว้</span><span class="sxs-lookup"><span data-stu-id="c54eb-217">**Overflow location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="c54eb-218">**อนุญาตให้หยุด:** _ใช่_</span><span class="sxs-lookup"><span data-stu-id="c54eb-218">**Allow let up:** _Yes_</span></span>
+    - <span data-ttu-id="c54eb-219">**ใช้สถานที่คงที่:** _สถานที่คงที่และไม่คงที่_</span><span class="sxs-lookup"><span data-stu-id="c54eb-219">**Use fixed locations:** _Fixed and non-fixed locations_</span></span>
 
-    <span data-ttu-id="eca03-220">ในการสอบถามสำหรับบรรทัดที่สอง คุณจะระบุเกณฑ์ที่จะใช้ในการกำหนดสถานที่ที่ความต้องการสำหรับบรรทัดดังกล่าวถูกจัดช่วงเวลาให้ในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-220">In the query for the second line, you will now specify the criteria that are used to determine what locations the demand for that line can be slotted to.</span></span>
+    <span data-ttu-id="c54eb-220">ในการสอบถามสำหรับบรรทัดที่สอง คุณจะระบุเกณฑ์ที่จะใช้ในการกำหนดสถานที่ที่ความต้องการสำหรับบรรทัดดังกล่าวถูกจัดช่วงเวลาให้ในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-220">In the query for the second line, you will now specify the criteria that are used to determine what locations the demand for that line can be slotted to.</span></span>
 
-1. <span data-ttu-id="eca03-221">เลือกบรรทัดที่ฟิลด์ **ลำดับ** ถูกตั้งค่าเป็น *2*</span><span class="sxs-lookup"><span data-stu-id="eca03-221">Select the line where the **Sequence** field is set to *2*.</span></span>
-1. <span data-ttu-id="eca03-222">เลือก **แก้ไขการสอบถาม**</span><span class="sxs-lookup"><span data-stu-id="eca03-222">Select **Edit query**.</span></span>
-1. <span data-ttu-id="eca03-223">บนแท็บ **ช่วงระยะ** ให้เลือก **เพิ่ม** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="eca03-223">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
-1. <span data-ttu-id="eca03-224">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-224">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-221">เลือกบรรทัดที่ฟิลด์ **ลำดับ** ถูกตั้งค่าเป็น *2*</span><span class="sxs-lookup"><span data-stu-id="c54eb-221">Select the line where the **Sequence** field is set to *2*.</span></span>
+1. <span data-ttu-id="c54eb-222">เลือก **แก้ไขการสอบถาม**</span><span class="sxs-lookup"><span data-stu-id="c54eb-222">Select **Edit query**.</span></span>
+1. <span data-ttu-id="c54eb-223">บนแท็บ **ช่วงระยะ** ให้เลือก **เพิ่ม** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="c54eb-223">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
+1. <span data-ttu-id="c54eb-224">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-224">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-225">**ตาราง:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="eca03-225">**Table:** *Locations*</span></span>
-    - <span data-ttu-id="eca03-226">**ตารางสืบทอด:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="eca03-226">**Derived table:** *Locations*</span></span>
-    - <span data-ttu-id="eca03-227">**ฟิลด์:** *รหัสโพรไฟล์สถานที่*</span><span class="sxs-lookup"><span data-stu-id="eca03-227">**Field:** *Location profile ID*</span></span>
-    - <span data-ttu-id="eca03-228">**เงื่อนไข:** *เบิกสินค้า-06* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *เบิกสินค้า-06* - *ไซต์เบิกสินค้า 6*)</span><span class="sxs-lookup"><span data-stu-id="eca03-228">**Criteria:** *Pick-06* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Pick-06* - *Picking Site 6*.)</span></span>
+    - <span data-ttu-id="c54eb-225">**ตาราง:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="c54eb-225">**Table:** *Locations*</span></span>
+    - <span data-ttu-id="c54eb-226">**ตารางสืบทอด:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="c54eb-226">**Derived table:** *Locations*</span></span>
+    - <span data-ttu-id="c54eb-227">**ฟิลด์:** *รหัสโพรไฟล์สถานที่*</span><span class="sxs-lookup"><span data-stu-id="c54eb-227">**Field:** *Location profile ID*</span></span>
+    - <span data-ttu-id="c54eb-228">**เงื่อนไข:** *เบิกสินค้า-06* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *เบิกสินค้า-06* - *ไซต์เบิกสินค้า 6* )</span><span class="sxs-lookup"><span data-stu-id="c54eb-228">**Criteria:** *Pick-06* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Pick-06* - *Picking Site 6*.)</span></span>
 
-1. <span data-ttu-id="eca03-229">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="eca03-229">Select **OK**.</span></span>
+1. <span data-ttu-id="c54eb-229">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-229">Select **OK**.</span></span>
 
-#### <a name="set-up-location-directives"></a><span data-ttu-id="eca03-230">ตั้งค่าคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="eca03-230">Set up location directives</span></span>
+#### <a name="set-up-location-directives"></a><span data-ttu-id="c54eb-230">ตั้งค่าคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="c54eb-230">Set up location directives</span></span>
 
-<span data-ttu-id="eca03-231">ต้องมีการตั้งค่าคำสั่งสถานที่อย่างน้อยหนึ่งรายการเพื่อสนับสนุนการเบิกสินค้าที่แบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-231">At least one location directive must be set up to support slotting picks.</span></span> <span data-ttu-id="eca03-232">ใช้กระบวนงานในส่วนนี้เพื่อตั้งค่า *คำสั่งสถานที่การเติมสินค้า* สำหรับการเบิกสินค้าที่แบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-232">Use the procedures in this section to set up a new *replenishment location directive* for slotting picks.</span></span>
+<span data-ttu-id="c54eb-231">ต้องมีการตั้งค่าคำสั่งสถานที่อย่างน้อยหนึ่งรายการเพื่อสนับสนุนการเบิกสินค้าที่แบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-231">At least one location directive must be set up to support slotting picks.</span></span> <span data-ttu-id="c54eb-232">ใช้กระบวนงานในส่วนนี้เพื่อตั้งค่า *คำสั่งสถานที่การเติมสินค้า* สำหรับการเบิกสินค้าที่แบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-232">Use the procedures in this section to set up a new *replenishment location directive* for slotting picks.</span></span>
 
-1. <span data-ttu-id="eca03-233">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> คำสั่งสถานที่**</span><span class="sxs-lookup"><span data-stu-id="eca03-233">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
-1. <span data-ttu-id="eca03-234">ในบานหน้าต่างด้านซ้าย ในฟิลด์ **ชนิดใบสั่งงาน** เลือก *การเติมสินค้า*</span><span class="sxs-lookup"><span data-stu-id="eca03-234">In the left pane, in the **Work order type** field, select *Replenishment*.</span></span>
-1. <span data-ttu-id="eca03-235">บนบานหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="eca03-235">On the Action Pane, select **New**.</span></span>
-1. <span data-ttu-id="eca03-236">ในส่วนหัวของคำสั่งสถานที่ใหม่ ในฟิลด์ **ชื่อ** ให้ป้อน *61 การเบิกสินค้าที่แบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="eca03-236">In the header for the new location directive, in the **Name** field, enter *61 Slotting pick*.</span></span>
+1. <span data-ttu-id="c54eb-233">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> คำสั่งสถานที่**</span><span class="sxs-lookup"><span data-stu-id="c54eb-233">Go to **Warehouse management \> Setup \> Location directives**.</span></span>
+1. <span data-ttu-id="c54eb-234">ในบานหน้าต่างด้านซ้าย ในฟิลด์ **ชนิดใบสั่งงาน** เลือก *การเติมสินค้า*</span><span class="sxs-lookup"><span data-stu-id="c54eb-234">In the left pane, in the **Work order type** field, select *Replenishment*.</span></span>
+1. <span data-ttu-id="c54eb-235">บนบานหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-235">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="c54eb-236">ในส่วนหัวของคำสั่งสถานที่ใหม่ ในฟิลด์ **ชื่อ** ให้ป้อน *61 การเบิกสินค้าที่แบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="c54eb-236">In the header for the new location directive, in the **Name** field, enter *61 Slotting pick*.</span></span>
 
-##### <a name="configure-the-location-directives-fasttab"></a><span data-ttu-id="eca03-237">ตั้งค่าคอนฟิก FastTab ของคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="eca03-237">Configure the Location directives FastTab</span></span>
+##### <a name="configure-the-location-directives-fasttab"></a><span data-ttu-id="c54eb-237">ตั้งค่าคอนฟิก FastTab ของคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="c54eb-237">Configure the Location directives FastTab</span></span>
 
-1. <span data-ttu-id="eca03-238">บน FastTab **คำสั่งสถานที่** ให้กำหนดค่าดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-238">On the **Location directives** FastTab, set the following values.</span></span> <span data-ttu-id="eca03-239">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="eca03-239">Accept the default values for all other fields.</span></span>
+1. <span data-ttu-id="c54eb-238">บน FastTab **คำสั่งสถานที่** ให้กำหนดค่าดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-238">On the **Location directives** FastTab, set the following values.</span></span> <span data-ttu-id="c54eb-239">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c54eb-239">Accept the default values for all other fields.</span></span>
 
-    - <span data-ttu-id="eca03-240">**ชนิดงาน:** _เบิกสินค้า_</span><span class="sxs-lookup"><span data-stu-id="eca03-240">**Work type:** _Pick_</span></span>
-    - <span data-ttu-id="eca03-241">**ไซต์:** _6_</span><span class="sxs-lookup"><span data-stu-id="eca03-241">**Site:** _6_</span></span>
-    - <span data-ttu-id="eca03-242">**คลังสินค้า:** _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-242">**Warehouse:** _61_</span></span>
-    - <span data-ttu-id="eca03-243">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="eca03-243">**Directive code:** _Slotting_</span></span>
+    - <span data-ttu-id="c54eb-240">**ชนิดงาน:** _เบิกสินค้า_</span><span class="sxs-lookup"><span data-stu-id="c54eb-240">**Work type:** _Pick_</span></span>
+    - <span data-ttu-id="c54eb-241">**ไซต์:** _6_</span><span class="sxs-lookup"><span data-stu-id="c54eb-241">**Site:** _6_</span></span>
+    - <span data-ttu-id="c54eb-242">**คลังสินค้า:** _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-242">**Warehouse:** _61_</span></span>
+    - <span data-ttu-id="c54eb-243">**รหัสคำสั่ง:** _การแบ่งช่วงเวลา_</span><span class="sxs-lookup"><span data-stu-id="c54eb-243">**Directive code:** _Slotting_</span></span>
 
-1. <span data-ttu-id="eca03-244">เลือก **บันทึก** เพื่อให้แท็บด่วน **รายการ** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="eca03-244">Select **Save** to make the **Lines** FastTab available.</span></span>
+1. <span data-ttu-id="c54eb-244">เลือก **บันทึก** เพื่อให้แท็บด่วน **รายการ** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-244">Select **Save** to make the **Lines** FastTab available.</span></span>
 
-##### <a name="configure-the-lines-fasttab"></a><span data-ttu-id="eca03-245">ตั้งค่าคอนฟิก FastTab บรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-245">Configure the Lines FastTab</span></span>
+##### <a name="configure-the-lines-fasttab"></a><span data-ttu-id="c54eb-245">ตั้งค่าคอนฟิก FastTab บรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-245">Configure the Lines FastTab</span></span>
 
-1. <span data-ttu-id="eca03-246">บน FastTab **รายการ** เลือก **สร้าง** เพื่อสร้างบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-246">On the **Lines** FastTab, select **New** to create a line.</span></span>
-1. <span data-ttu-id="eca03-247">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-247">On the new line, set the following values.</span></span> <span data-ttu-id="eca03-248">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="eca03-248">Accept the default values for all other fields.</span></span>
+1. <span data-ttu-id="c54eb-246">บน FastTab **รายการ** เลือก **สร้าง** เพื่อสร้างบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-246">On the **Lines** FastTab, select **New** to create a line.</span></span>
+1. <span data-ttu-id="c54eb-247">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-247">On the new line, set the following values.</span></span> <span data-ttu-id="c54eb-248">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c54eb-248">Accept the default values for all other fields.</span></span>
 
-    - <span data-ttu-id="eca03-249">**ปริมาณเริ่มต้น:** _0_</span><span class="sxs-lookup"><span data-stu-id="eca03-249">**From quantity:** _0_</span></span>
-    - <span data-ttu-id="eca03-250">**ปริมาณสิ้นสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="eca03-250">**To quantity:** _1000000_</span></span>
+    - <span data-ttu-id="c54eb-249">**ปริมาณเริ่มต้น:** _0_</span><span class="sxs-lookup"><span data-stu-id="c54eb-249">**From quantity:** _0_</span></span>
+    - <span data-ttu-id="c54eb-250">**ปริมาณสิ้นสุด:** _1000000_</span><span class="sxs-lookup"><span data-stu-id="c54eb-250">**To quantity:** _1000000_</span></span>
 
-1. <span data-ttu-id="eca03-251">เลือก **บันทึก** เพื่อให้แท็บด่วน **การดำเนินคำสั่งสถานที่** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="eca03-251">Select **Save** to make the **Location Directive Actions** FastTab available.</span></span>
+1. <span data-ttu-id="c54eb-251">เลือก **บันทึก** เพื่อให้แท็บด่วน **การดำเนินคำสั่งสถานที่** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-251">Select **Save** to make the **Location Directive Actions** FastTab available.</span></span>
 
-##### <a name="configure-the-location-directive-actions-fasttab"></a><span data-ttu-id="eca03-252">ตั้งค่าคอนฟิก FastTab การดำเนินการของคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="eca03-252">Configure the Location Directive Actions FastTab</span></span>
+##### <a name="configure-the-location-directive-actions-fasttab"></a><span data-ttu-id="c54eb-252">ตั้งค่าคอนฟิก FastTab การดำเนินการของคำสั่งสถานที่</span><span class="sxs-lookup"><span data-stu-id="c54eb-252">Configure the Location Directive Actions FastTab</span></span>
 
-1. <span data-ttu-id="eca03-253">บน FastTab **การดำเนินการของคำสั่งสถานที่** เลือก **สร้าง** เพื่อสร้างบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-253">On the **Location Directive Actions** FastTab, select **New** to create a line.</span></span>
-1. <span data-ttu-id="eca03-254">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-254">On the new line, set the following values.</span></span> <span data-ttu-id="eca03-255">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="eca03-255">Accept the default values for all other fields.</span></span>
+1. <span data-ttu-id="c54eb-253">บน FastTab **การดำเนินการของคำสั่งสถานที่** เลือก **สร้าง** เพื่อสร้างบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-253">On the **Location Directive Actions** FastTab, select **New** to create a line.</span></span>
+1. <span data-ttu-id="c54eb-254">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-254">On the new line, set the following values.</span></span> <span data-ttu-id="c54eb-255">ยอมรับค่าเริ่มต้นสำหรับฟิลด์อื่นๆ ทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="c54eb-255">Accept the default values for all other fields.</span></span>
 
-    - <span data-ttu-id="eca03-256">**ชื่อ:** _จำนวนมาก_</span><span class="sxs-lookup"><span data-stu-id="eca03-256">**Name:** _Bulk_</span></span>
-    - <span data-ttu-id="eca03-257">**กลยุทธ์:** _ไม่มี_</span><span class="sxs-lookup"><span data-stu-id="eca03-257">**Strategy:** _None_</span></span>
+    - <span data-ttu-id="c54eb-256">**ชื่อ:** _จำนวนมาก_</span><span class="sxs-lookup"><span data-stu-id="c54eb-256">**Name:** _Bulk_</span></span>
+    - <span data-ttu-id="c54eb-257">**กลยุทธ์:** _ไม่มี_</span><span class="sxs-lookup"><span data-stu-id="c54eb-257">**Strategy:** _None_</span></span>
 
-1. <span data-ttu-id="eca03-258">เลือก **บันทึก** เพื่อทำให้ปุ่ม **แก้ไขแบบสอบถาม** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="eca03-258">Select **Save** to make the **Edit query** button available.</span></span>
+1. <span data-ttu-id="c54eb-258">เลือก **บันทึก** เพื่อทำให้ปุ่ม **แก้ไขแบบสอบถาม** พร้อมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-258">Select **Save** to make the **Edit query** button available.</span></span>
 
-##### <a name="edit-the-query"></a><span data-ttu-id="eca03-259">แก้ไขการสอบถาม</span><span class="sxs-lookup"><span data-stu-id="eca03-259">Edit the query</span></span>
+##### <a name="edit-the-query"></a><span data-ttu-id="c54eb-259">แก้ไขการสอบถาม</span><span class="sxs-lookup"><span data-stu-id="c54eb-259">Edit the query</span></span>
 
-1. <span data-ttu-id="eca03-260">บน FastTab **การดำเนินการของคำสั่งสถานที่** เลือก **แก้ไขการสอบถาม**</span><span class="sxs-lookup"><span data-stu-id="eca03-260">On the **Location Directive Actions** FastTab, select **Edit query**.</span></span>
-1. <span data-ttu-id="eca03-261">บนแท็บ **ช่วงระยะ** ให้เลือก **เพิ่ม** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="eca03-261">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
-1. <span data-ttu-id="eca03-262">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-262">On the new line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-260">บน FastTab **การดำเนินการของคำสั่งสถานที่** เลือก **แก้ไขการสอบถาม**</span><span class="sxs-lookup"><span data-stu-id="c54eb-260">On the **Location Directive Actions** FastTab, select **Edit query**.</span></span>
+1. <span data-ttu-id="c54eb-261">บนแท็บ **ช่วงระยะ** ให้เลือก **เพิ่ม** เพื่อเพิ่มบรรทัดไปยังกริด</span><span class="sxs-lookup"><span data-stu-id="c54eb-261">On the **Range** tab, select **Add** to add a line to the grid.</span></span>
+1. <span data-ttu-id="c54eb-262">บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-262">On the new line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-263">**ตาราง:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="eca03-263">**Table:** *Locations*</span></span>
-    - <span data-ttu-id="eca03-264">**ตารางสืบทอด:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="eca03-264">**Derived table:** *Locations*</span></span>
-    - <span data-ttu-id="eca03-265">**ฟิลด์:** *รหัสโซน*</span><span class="sxs-lookup"><span data-stu-id="eca03-265">**Field:** *Zone ID*</span></span>
-    - <span data-ttu-id="eca03-266">**เงื่อนไข:** *จำนวนมาก* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *จำนวนมาก*)</span><span class="sxs-lookup"><span data-stu-id="eca03-266">**Criteria:** *Bulk* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Bulk*.)</span></span>
+    - <span data-ttu-id="c54eb-263">**ตาราง:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="c54eb-263">**Table:** *Locations*</span></span>
+    - <span data-ttu-id="c54eb-264">**ตารางสืบทอด:** *สถานที่*</span><span class="sxs-lookup"><span data-stu-id="c54eb-264">**Derived table:** *Locations*</span></span>
+    - <span data-ttu-id="c54eb-265">**ฟิลด์:** *รหัสโซน*</span><span class="sxs-lookup"><span data-stu-id="c54eb-265">**Field:** *Zone ID*</span></span>
+    - <span data-ttu-id="c54eb-266">**เงื่อนไข:** *จำนวนมาก* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *จำนวนมาก* )</span><span class="sxs-lookup"><span data-stu-id="c54eb-266">**Criteria:** *Bulk* (Select the double plus sign \[**++**\] in the field to expand the list, and then select *Bulk*.)</span></span>
 
-1. <span data-ttu-id="eca03-267">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="eca03-267">Select **OK**.</span></span>
+1. <span data-ttu-id="c54eb-267">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-267">Select **OK**.</span></span>
 
-## <a name="scenario"></a><span data-ttu-id="eca03-268">สถานการณ์</span><span class="sxs-lookup"><span data-stu-id="eca03-268">Scenario</span></span>
+## <a name="scenario"></a><span data-ttu-id="c54eb-268">สถานการณ์</span><span class="sxs-lookup"><span data-stu-id="c54eb-268">Scenario</span></span>
 
-### <a name="set-up-the-scenario"></a><span data-ttu-id="eca03-269">ตั้งค่าสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="eca03-269">Set up the scenario</span></span>
+### <a name="set-up-the-scenario"></a><span data-ttu-id="c54eb-269">ตั้งค่าสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="c54eb-269">Set up the scenario</span></span>
 
-<span data-ttu-id="eca03-270">สำหรับสถานการณ์จำลองนี้ ให้ใช้ข้อมูลตัวอย่างที่มีอยู่แล้วภายใน และสร้างเรกคอร์ดที่อธิบายไว้ในส่วนนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-270">For this scenario, use the built-in sample data, and create the records that are described in this section.</span></span>
+<span data-ttu-id="c54eb-270">สำหรับสถานการณ์จำลองนี้ ให้ใช้ข้อมูลตัวอย่างที่มีอยู่แล้วภายใน และสร้างเรกคอร์ดที่อธิบายไว้ในส่วนนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-270">For this scenario, use the built-in sample data, and create the records that are described in this section.</span></span>
 
-#### <a name="use-the-usmf-sample-data"></a><span data-ttu-id="eca03-271">ใช้ข้อมูลตัวอย่าง USMF</span><span class="sxs-lookup"><span data-stu-id="eca03-271">Use the USMF sample data</span></span>
+#### <a name="use-the-usmf-sample-data"></a><span data-ttu-id="c54eb-271">ใช้ข้อมูลตัวอย่าง USMF</span><span class="sxs-lookup"><span data-stu-id="c54eb-271">Use the USMF sample data</span></span>
 
-<span data-ttu-id="eca03-272">เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="eca03-272">To work through this scenario by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="eca03-273">นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="eca03-273">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
+<span data-ttu-id="c54eb-272">เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-272">To work through this scenario by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="c54eb-273">นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="c54eb-273">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
 
-#### <a name="create-demand"></a><span data-ttu-id="eca03-274">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-274">Create demand</span></span>
+#### <a name="create-demand"></a><span data-ttu-id="c54eb-274">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-274">Create demand</span></span>
 
-<span data-ttu-id="eca03-275">ทำตามขั้นตอนเหล่านี้เพื่อสร้างความต้องการที่คุณจะนำการแบ่งช่วงเวลาไปใช้</span><span class="sxs-lookup"><span data-stu-id="eca03-275">Follow these steps to create the demand that you will apply slotting to.</span></span>
+<span data-ttu-id="c54eb-275">ทำตามขั้นตอนเหล่านี้เพื่อสร้างความต้องการที่คุณจะนำการแบ่งช่วงเวลาไปใช้</span><span class="sxs-lookup"><span data-stu-id="c54eb-275">Follow these steps to create the demand that you will apply slotting to.</span></span>
 
-1. <span data-ttu-id="eca03-276">ไปยัง **การขายและการตลาด \> ใบสั่งขาย \> ใบสั่งขายทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="eca03-276">Go to **Sales and marketing \> Sales orders \> All sales order**.</span></span>
-1. <span data-ttu-id="eca03-277">เลือก **สร้าง** เพื่อสร้างใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="eca03-277">Select **New** to create a sales order.</span></span>
-1. <span data-ttu-id="eca03-278">ในกล่องโต้ตอบ **สร้างใบสั่งขาย** ในฟิลด์ **บัญชีลูกค้า** ให้เลือก _US-007_</span><span class="sxs-lookup"><span data-stu-id="eca03-278">In the **Create sales order** dialog box, in the **Customer account** field, select _US-007_.</span></span>
-1. <span data-ttu-id="eca03-279">ในฟิลด์  **คลังสินค้า** เลือก _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-279">In the **Warehouse** field, select _61_.</span></span>
-1. <span data-ttu-id="eca03-280">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="eca03-280">Select **OK**.</span></span>
-1. <span data-ttu-id="eca03-281">มีการเปิดใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="eca03-281">The new sales order is opened.</span></span> <span data-ttu-id="eca03-282">ซึ่งมีบรรทัดว่างบน FastTab **บรรทัดใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="eca03-282">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="eca03-283">บนบรรทัดนี้ ให้ตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-283">On this line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-276">ไปยัง **การขายและการตลาด \> ใบสั่งขาย \> ใบสั่งขายทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="c54eb-276">Go to **Sales and marketing \> Sales orders \> All sales order**.</span></span>
+1. <span data-ttu-id="c54eb-277">เลือก **สร้าง** เพื่อสร้างใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c54eb-277">Select **New** to create a sales order.</span></span>
+1. <span data-ttu-id="c54eb-278">ในกล่องโต้ตอบ **สร้างใบสั่งขาย** ในฟิลด์ **บัญชีลูกค้า** ให้เลือก _US-007_</span><span class="sxs-lookup"><span data-stu-id="c54eb-278">In the **Create sales order** dialog box, in the **Customer account** field, select _US-007_.</span></span>
+1. <span data-ttu-id="c54eb-279">ในฟิลด์  **คลังสินค้า** เลือก _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-279">In the **Warehouse** field, select _61_.</span></span>
+1. <span data-ttu-id="c54eb-280">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-280">Select **OK**.</span></span>
+1. <span data-ttu-id="c54eb-281">มีการเปิดใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="c54eb-281">The new sales order is opened.</span></span> <span data-ttu-id="c54eb-282">ซึ่งมีบรรทัดว่างบน FastTab **บรรทัดใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="c54eb-282">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="c54eb-283">บนบรรทัดนี้ ให้ตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-283">On this line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-284">**สินค้า:** _L0101_</span><span class="sxs-lookup"><span data-stu-id="eca03-284">**Item:** _L0101_</span></span>
-    - <span data-ttu-id="eca03-285">**ปริมาณ:** _20_</span><span class="sxs-lookup"><span data-stu-id="eca03-285">**Quantity:** _20_</span></span>
+    - <span data-ttu-id="c54eb-284">**สินค้า:** _L0101_</span><span class="sxs-lookup"><span data-stu-id="c54eb-284">**Item:** _L0101_</span></span>
+    - <span data-ttu-id="c54eb-285">**ปริมาณ:** _20_</span><span class="sxs-lookup"><span data-stu-id="c54eb-285">**Quantity:** _20_</span></span>
 
-1. <span data-ttu-id="eca03-286">เลือก **สร้างบรรทัด** เพื่อเพิ่มบรรทัดใหม่ และตั้งค่าค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-286">Select **Add line** to add a new line, and set the following values:</span></span>
+1. <span data-ttu-id="c54eb-286">เลือก **สร้างบรรทัด** เพื่อเพิ่มบรรทัดใหม่ และตั้งค่าค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-286">Select **Add line** to add a new line, and set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-287">**สินค้า:** _T0100_</span><span class="sxs-lookup"><span data-stu-id="eca03-287">**Item:** _T0100_</span></span>
-    - <span data-ttu-id="eca03-288">**ปริมาณ:** _8_</span><span class="sxs-lookup"><span data-stu-id="eca03-288">**Quantity:** _8_</span></span>
+    - <span data-ttu-id="c54eb-287">**สินค้า:** _T0100_</span><span class="sxs-lookup"><span data-stu-id="c54eb-287">**Item:** _T0100_</span></span>
+    - <span data-ttu-id="c54eb-288">**ปริมาณ:** _8_</span><span class="sxs-lookup"><span data-stu-id="c54eb-288">**Quantity:** _8_</span></span>
 
-1. <span data-ttu-id="eca03-289">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="eca03-289">Select **Save**.</span></span>
-1. <span data-ttu-id="eca03-290">เลือก **สร้าง** เพื่อสร้างใบสั่งขายที่สอง</span><span class="sxs-lookup"><span data-stu-id="eca03-290">Select **New** to create a second sales order.</span></span>
-1. <span data-ttu-id="eca03-291">ในกล่องโต้ตอบ **สร้างใบสั่งขาย** ในฟิลด์ **บัญชีลูกค้า** ให้เลือก _US-008_</span><span class="sxs-lookup"><span data-stu-id="eca03-291">In the **Create sales order** dialog box, in the **Customer account** field, select _US-008_.</span></span>
-1. <span data-ttu-id="eca03-292">ในฟิลด์  **คลังสินค้า** เลือก _61_</span><span class="sxs-lookup"><span data-stu-id="eca03-292">In the **Warehouse** field, select _61_.</span></span>
-1. <span data-ttu-id="eca03-293">มีการเปิดใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="eca03-293">The new sales order is opened.</span></span> <span data-ttu-id="eca03-294">ซึ่งมีบรรทัดว่างบน FastTab **บรรทัดใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="eca03-294">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="eca03-295">บนบรรทัดนี้ ให้ตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="eca03-295">On this line, set the following values:</span></span>
+1. <span data-ttu-id="c54eb-289">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c54eb-289">Select **Save**.</span></span>
+1. <span data-ttu-id="c54eb-290">เลือก **สร้าง** เพื่อสร้างใบสั่งขายที่สอง</span><span class="sxs-lookup"><span data-stu-id="c54eb-290">Select **New** to create a second sales order.</span></span>
+1. <span data-ttu-id="c54eb-291">ในกล่องโต้ตอบ **สร้างใบสั่งขาย** ในฟิลด์ **บัญชีลูกค้า** ให้เลือก _US-008_</span><span class="sxs-lookup"><span data-stu-id="c54eb-291">In the **Create sales order** dialog box, in the **Customer account** field, select _US-008_.</span></span>
+1. <span data-ttu-id="c54eb-292">ในฟิลด์  **คลังสินค้า** เลือก _61_</span><span class="sxs-lookup"><span data-stu-id="c54eb-292">In the **Warehouse** field, select _61_.</span></span>
+1. <span data-ttu-id="c54eb-293">มีการเปิดใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="c54eb-293">The new sales order is opened.</span></span> <span data-ttu-id="c54eb-294">ซึ่งมีบรรทัดว่างบน FastTab **บรรทัดใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="c54eb-294">It includes an empty line on the **Sales order lines** FastTab.</span></span> <span data-ttu-id="c54eb-295">บนบรรทัดนี้ ให้ตั้งค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c54eb-295">On this line, set the following values:</span></span>
 
-    - <span data-ttu-id="eca03-296">**สินค้า:** _T0100_</span><span class="sxs-lookup"><span data-stu-id="eca03-296">**Item:** _T0100_</span></span>
-    - <span data-ttu-id="eca03-297">**ปริมาณ:** _1_</span><span class="sxs-lookup"><span data-stu-id="eca03-297">**Quantity:** _1_</span></span>
+    - <span data-ttu-id="c54eb-296">**สินค้า:** _T0100_</span><span class="sxs-lookup"><span data-stu-id="c54eb-296">**Item:** _T0100_</span></span>
+    - <span data-ttu-id="c54eb-297">**ปริมาณ:** _1_</span><span class="sxs-lookup"><span data-stu-id="c54eb-297">**Quantity:** _1_</span></span>
 
-1. <span data-ttu-id="eca03-298">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="eca03-298">Select **Save**.</span></span>
+1. <span data-ttu-id="c54eb-298">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c54eb-298">Select **Save**.</span></span>
 
-### <a name="walk-through-a-typical-slotting-scenario"></a><span data-ttu-id="eca03-299">ศึกษาสถานการณ์จำลองการแบ่งช่วงเวลาทั่วไป</span><span class="sxs-lookup"><span data-stu-id="eca03-299">Walk through a typical slotting scenario</span></span>
+### <a name="walk-through-a-typical-slotting-scenario"></a><span data-ttu-id="c54eb-299">ศึกษาสถานการณ์จำลองการแบ่งช่วงเวลาทั่วไป</span><span class="sxs-lookup"><span data-stu-id="c54eb-299">Walk through a typical slotting scenario</span></span>
 
-<span data-ttu-id="eca03-300">หลังจากที่มีองค์ประกอบของข้อกำหนดเบื้องต้นทั้งหมดแล้ว ตามที่อธิบายไว้ในหัวข้อก่อนหน้านี้ คุณก็พร้อมแล้วที่จะลองใช้คุณลักษณะนี้โดยการศึกษาแบบฝึกหัดแต่ละรายการในส่วนนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-300">After all the prerequisite elements are in place, as described in the previous section, you're ready to try out the feature by working through each exercise in this section.</span></span>
+<span data-ttu-id="c54eb-300">หลังจากที่มีองค์ประกอบของข้อกำหนดเบื้องต้นทั้งหมดแล้ว ตามที่อธิบายไว้ในหัวข้อก่อนหน้านี้ คุณก็พร้อมแล้วที่จะลองใช้คุณลักษณะนี้โดยการศึกษาแบบฝึกหัดแต่ละรายการในส่วนนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-300">After all the prerequisite elements are in place, as described in the previous section, you're ready to try out the feature by working through each exercise in this section.</span></span>
 
-#### <a name="generate-demand"></a><span data-ttu-id="eca03-301">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-301">Generate demand</span></span>
+#### <a name="generate-demand"></a><span data-ttu-id="c54eb-301">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-301">Generate demand</span></span>
 
-1. <span data-ttu-id="eca03-302">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> เท็มเพลตการแบ่งช่วงเวลา** และเลือกเท็มเพลตการแบ่งช่วงเวลาที่คุณสร้างก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="eca03-302">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates**, and select the slotting template that you created earlier.</span></span>
-1. <span data-ttu-id="eca03-303">ในบานหน้าต่างการดำเนินการ เลือก **สร้างความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="eca03-303">On the Action Pane, select **Generate demand**.</span></span> <span data-ttu-id="eca03-304">คำสั่งนี้จะประเมินความต้องการทั้งหมดที่อยู่ในระบบ และที่ตรงกับการสอบถามเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-304">This command evaluates all demand that is in the system, and that matches the slotting template query.</span></span> <span data-ttu-id="eca03-305">จากนั้น จะมีการรวมความต้องการทั้งหมดในใบสั่งทั้งหมดไปยังบรรทัดเดียวต่อปริมาณ/หน่วยวัด</span><span class="sxs-lookup"><span data-stu-id="eca03-305">The total demand across all orders is then consolidated onto one line per quantity/unit of measure.</span></span> <span data-ttu-id="eca03-306">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="eca03-306">An informational message appears when the process is completed.</span></span>
+1. <span data-ttu-id="c54eb-302">ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> การเติมสินค้า \> เท็มเพลตการแบ่งช่วงเวลา** และเลือกเท็มเพลตการแบ่งช่วงเวลาที่คุณสร้างก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-302">Go to **Warehouse management \> Setup \> Replenishment \> Slotting templates** , and select the slotting template that you created earlier.</span></span>
+1. <span data-ttu-id="c54eb-303">ในบานหน้าต่างการดำเนินการ เลือก **สร้างความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="c54eb-303">On the Action Pane, select **Generate demand**.</span></span> <span data-ttu-id="c54eb-304">คำสั่งนี้จะประเมินความต้องการทั้งหมดที่อยู่ในระบบ และที่ตรงกับการสอบถามเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-304">This command evaluates all demand that is in the system, and that matches the slotting template query.</span></span> <span data-ttu-id="c54eb-305">จากนั้น จะมีการรวมความต้องการทั้งหมดในใบสั่งทั้งหมดไปยังบรรทัดเดียวต่อปริมาณ/หน่วยวัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-305">The total demand across all orders is then consolidated onto one line per quantity/unit of measure.</span></span> <span data-ttu-id="c54eb-306">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="c54eb-306">An informational message appears when the process is completed.</span></span>
 
-#### <a name="slotting-demand"></a><span data-ttu-id="eca03-307">ความต้องการในการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-307">Slotting demand</span></span>
+#### <a name="slotting-demand"></a><span data-ttu-id="c54eb-307">ความต้องการในการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-307">Slotting demand</span></span>
 
-<span data-ttu-id="eca03-308">*ความต้องการการแบ่งช่วงเวลา* แสดงผลลัพธ์ของการสร้างความต้องการ ตามการตั้งค่าของเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-308">The *slotting demand* shows the results of demand generation, based on the setup of the slotting template.</span></span>
+<span data-ttu-id="c54eb-308">*ความต้องการการแบ่งช่วงเวลา* แสดงผลลัพธ์ของการสร้างความต้องการ ตามการตั้งค่าของเท็มเพลตการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-308">The *slotting demand* shows the results of demand generation, based on the setup of the slotting template.</span></span>
 
-- <span data-ttu-id="eca03-309">ในบานหน้าต่างการดำเนินการ ให้เลือก **ความต้องการการแบ่งช่วงเวลา** เพื่อดูผลลัพธ์จากคำสั่ง **สร้างความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="eca03-309">On the Action Pane, select **Slotting demand** to view the results from the **Generate demand** command.</span></span> <span data-ttu-id="eca03-310">บรรทัดในความต้องการการแบ่งช่วงเวลาสามารถแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="eca03-310">The lines in the slotting demand can be edited.</span></span> <span data-ttu-id="eca03-311">คุณสามารถลบบรรทัด เพิ่มบรรทัดใหม่ หรือแก้ไขรายละเอียดของบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-311">You can delete a line, add a new line, or edit the line details.</span></span>
+- <span data-ttu-id="c54eb-309">ในบานหน้าต่างการดำเนินการ ให้เลือก **ความต้องการการแบ่งช่วงเวลา** เพื่อดูผลลัพธ์จากคำสั่ง **สร้างความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="c54eb-309">On the Action Pane, select **Slotting demand** to view the results from the **Generate demand** command.</span></span> <span data-ttu-id="c54eb-310">บรรทัดในความต้องการการแบ่งช่วงเวลาสามารถแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="c54eb-310">The lines in the slotting demand can be edited.</span></span> <span data-ttu-id="c54eb-311">คุณสามารถลบบรรทัด เพิ่มบรรทัดใหม่ หรือแก้ไขรายละเอียดของบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-311">You can delete a line, add a new line, or edit the line details.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="eca03-312">คุณสามารถแก้ไขความต้องการด้วยตนเอง หรือคุณสามารถนำเข้าจากระบบภายนอกโดยใช้การจัดการข้อมูล</span><span class="sxs-lookup"><span data-stu-id="eca03-312">You can edit demand manually, or you can import it from an external system by using data management.</span></span> <span data-ttu-id="eca03-313">สิ่งใดก็ตามที่อยู่ในความต้องการการแบ่งช่วงเวลาจะถูกนำมาใช้ในขั้นตอนต่อไป โดยไม่คำนึงถึงสถานที่ที่มา</span><span class="sxs-lookup"><span data-stu-id="eca03-313">Whatever is in the slotting demand will be used in the next step, regardless of where it came from.</span></span>
+> <span data-ttu-id="c54eb-312">คุณสามารถแก้ไขความต้องการด้วยตนเอง หรือคุณสามารถนำเข้าจากระบบภายนอกโดยใช้การจัดการข้อมูล</span><span class="sxs-lookup"><span data-stu-id="c54eb-312">You can edit demand manually, or you can import it from an external system by using data management.</span></span> <span data-ttu-id="c54eb-313">สิ่งใดก็ตามที่อยู่ในความต้องการการแบ่งช่วงเวลาจะถูกนำมาใช้ในขั้นตอนต่อไป โดยไม่คำนึงถึงสถานที่ที่มา</span><span class="sxs-lookup"><span data-stu-id="c54eb-313">Whatever is in the slotting demand will be used in the next step, regardless of where it came from.</span></span>
 
-#### <a name="locate-demand"></a><span data-ttu-id="eca03-314">ค้นหาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-314">Locate demand</span></span>
+#### <a name="locate-demand"></a><span data-ttu-id="c54eb-314">ค้นหาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-314">Locate demand</span></span>
 
-<span data-ttu-id="eca03-315">หลังจากที่สร้างความต้องการแล้ว คุณต้องใช้คำสั่ง **ค้นหาความต้องการ** เพื่อสร้าง *แผนการแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="eca03-315">After demand has been generated, you must use the **Locate demand** command to generate the *slotting plan*.</span></span>
+<span data-ttu-id="c54eb-315">หลังจากที่สร้างความต้องการแล้ว คุณต้องใช้คำสั่ง **ค้นหาความต้องการ** เพื่อสร้าง *แผนการแบ่งช่วงเวลา*</span><span class="sxs-lookup"><span data-stu-id="c54eb-315">After demand has been generated, you must use the **Locate demand** command to generate the *slotting plan*.</span></span>
 
-- <span data-ttu-id="eca03-316">ในบานหน้าต่างการดำเนินการ เลือก **ค้นหาความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="eca03-316">On the Action Pane, select **Locate demand**.</span></span> <span data-ttu-id="eca03-317">กระบวนการแบ่งช่วงเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="eca03-317">The slotting process runs.</span></span> <span data-ttu-id="eca03-318">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="eca03-318">An informational message appears when the process is completed.</span></span>
+- <span data-ttu-id="c54eb-316">ในบานหน้าต่างการดำเนินการ เลือก **ค้นหาความต้องการ**</span><span class="sxs-lookup"><span data-stu-id="c54eb-316">On the Action Pane, select **Locate demand**.</span></span> <span data-ttu-id="c54eb-317">กระบวนการแบ่งช่วงเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-317">The slotting process runs.</span></span> <span data-ttu-id="c54eb-318">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="c54eb-318">An informational message appears when the process is completed.</span></span>
 
-#### <a name="slotting-plan"></a><span data-ttu-id="eca03-319">แผนการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="eca03-319">Slotting plan</span></span>
+#### <a name="slotting-plan"></a><span data-ttu-id="c54eb-319">แผนการแบ่งช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="c54eb-319">Slotting plan</span></span>
 
-<span data-ttu-id="eca03-320">แผนการแบ่งช่วงเวลาแสดงสถานที่ที่กำหนดให้กับสินค้า/ปริมาณแต่ละรายการ ไม่ว่าจะมีการใช้มากเกินไปหรือไม่ หรือไม่ว่าจะมีการสร้างงานการหยุดหรือไม่ และบรรทัดเท็มเพลตที่ใช้</span><span class="sxs-lookup"><span data-stu-id="eca03-320">The slotting plan shows the location that each item/quantity was assigned to, whether overflow was used, whether let-up work was created, and the template line that was used.</span></span> <span data-ttu-id="eca03-321">**ความต้องการใดๆ ที่ไม่สามารถแบ่งช่วงเวลาได้ ถูกเน้นเป็นสีแดง**</span><span class="sxs-lookup"><span data-stu-id="eca03-321">**Any demand that could not be slotted is highlighted in red.**</span></span>
+<span data-ttu-id="c54eb-320">แผนการแบ่งช่วงเวลาแสดงสถานที่ที่กำหนดให้กับสินค้า/ปริมาณแต่ละรายการ ไม่ว่าจะมีการใช้มากเกินไปหรือไม่ หรือไม่ว่าจะมีการสร้างงานการหยุดหรือไม่ และบรรทัดเท็มเพลตที่ใช้</span><span class="sxs-lookup"><span data-stu-id="c54eb-320">The slotting plan shows the location that each item/quantity was assigned to, whether overflow was used, whether let-up work was created, and the template line that was used.</span></span> <span data-ttu-id="c54eb-321">**ความต้องการใดๆ ที่ไม่สามารถแบ่งช่วงเวลาได้ ถูกเน้นเป็นสีแดง**</span><span class="sxs-lookup"><span data-stu-id="c54eb-321">**Any demand that could not be slotted is highlighted in red.**</span></span>
 
-- <span data-ttu-id="eca03-322">ในบานหน้าต่างการดำเนินการ ให้เลือก **แผนการแบ่งช่วงเวลา** เพื่อดูผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="eca03-322">On the Action Pane, select **Slotting plan** to view the results.</span></span>
+- <span data-ttu-id="c54eb-322">ในบานหน้าต่างการดำเนินการ ให้เลือก **แผนการแบ่งช่วงเวลา** เพื่อดูผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="c54eb-322">On the Action Pane, select **Slotting plan** to view the results.</span></span>
 
-#### <a name="create-replenishment"></a><span data-ttu-id="eca03-323">สร้างการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-323">Create replenishment</span></span>
+#### <a name="create-replenishment"></a><span data-ttu-id="c54eb-323">สร้างการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-323">Create replenishment</span></span>
 
-<span data-ttu-id="eca03-324">หลังจากที่สร้างแผนการแบ่งช่วงเวลาแล้ว คุณต้องสร้าง *งานการเติมสินค้า* ตามแผน</span><span class="sxs-lookup"><span data-stu-id="eca03-324">After the slotting plan has been created, you must create *replenishment work*, based on the plan.</span></span>
+<span data-ttu-id="c54eb-324">หลังจากที่สร้างแผนการแบ่งช่วงเวลาแล้ว คุณต้องสร้าง *งานการเติมสินค้า* ตามแผน</span><span class="sxs-lookup"><span data-stu-id="c54eb-324">After the slotting plan has been created, you must create *replenishment work* , based on the plan.</span></span>
 
-- <span data-ttu-id="eca03-325">บนบานหน้าต่างการดำเนินการ เลือก **รันการเติมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="eca03-325">On the Action Pane, select **Run replenishment**.</span></span> <span data-ttu-id="eca03-326">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="eca03-326">An informational message appears when the process is completed.</span></span> <span data-ttu-id="eca03-327">ข้อความนี้แสดงจำนวนของส่วนหัวที่สร้างขึ้นสำหรับรหัสการสร้างงาน</span><span class="sxs-lookup"><span data-stu-id="eca03-327">This message indicates the number of headers that were created for the work build ID.</span></span>
+- <span data-ttu-id="c54eb-325">บนบานหน้าต่างการดำเนินการ เลือก **รันการเติมสินค้า**</span><span class="sxs-lookup"><span data-stu-id="c54eb-325">On the Action Pane, select **Run replenishment**.</span></span> <span data-ttu-id="c54eb-326">ข้อความแสดงข้อมูลจะปรากฏขึ้น เมื่อกระบวนการเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="c54eb-326">An informational message appears when the process is completed.</span></span> <span data-ttu-id="c54eb-327">ข้อความนี้แสดงจำนวนของส่วนหัวที่สร้างขึ้นสำหรับรหัสการสร้างงาน</span><span class="sxs-lookup"><span data-stu-id="c54eb-327">This message indicates the number of headers that were created for the work build ID.</span></span>
 
-<span data-ttu-id="eca03-328">มีการระบุคำสั่งสถานที่ที่จะใช้ตามรหัสคำสั่งที่มีการระบุไว้ในบรรทัดเท็มเพลตแต่ละบรรทัด</span><span class="sxs-lookup"><span data-stu-id="eca03-328">Location directives that will be used are identified based on the directive code that is specified on each template line.</span></span>
+<span data-ttu-id="c54eb-328">มีการระบุคำสั่งสถานที่ที่จะใช้ตามรหัสคำสั่งที่มีการระบุไว้ในบรรทัดเท็มเพลตแต่ละบรรทัด</span><span class="sxs-lookup"><span data-stu-id="c54eb-328">Location directives that will be used are identified based on the directive code that is specified on each template line.</span></span>
 
-## <a name="tips"></a><span data-ttu-id="eca03-329">คำแนะนำ</span><span class="sxs-lookup"><span data-stu-id="eca03-329">Tips</span></span>
+## <a name="tips"></a><span data-ttu-id="c54eb-329">คำแนะนำ</span><span class="sxs-lookup"><span data-stu-id="c54eb-329">Tips</span></span>
 
-### <a name="set-up-automatic-slotting"></a><span data-ttu-id="eca03-330">ตั้งค่าการแบ่งช่วงเวลาแบบอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="eca03-330">Set up automatic slotting</span></span>
+### <a name="set-up-automatic-slotting"></a><span data-ttu-id="c54eb-330">ตั้งค่าการแบ่งช่วงเวลาแบบอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="c54eb-330">Set up automatic slotting</span></span>
 
-<span data-ttu-id="eca03-331">หลังจากที่มีองค์ประกอบที่ต้องการทั้งหมด คุณสามารถตั้งค่าการแบ่งช่วงเวลาเพื่อรันโดยอัตโนมัติโดยปฏิบัติตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="eca03-331">After all the required elements are in place, you can set up slotting to run automatically by following these steps.</span></span>
+<span data-ttu-id="c54eb-331">หลังจากที่มีองค์ประกอบที่ต้องการทั้งหมด คุณสามารถตั้งค่าการแบ่งช่วงเวลาเพื่อรันโดยอัตโนมัติโดยปฏิบัติตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c54eb-331">After all the required elements are in place, you can set up slotting to run automatically by following these steps.</span></span>
 
-1. <span data-ttu-id="eca03-332">ไปที่ **การจัดการคลังสินค้า \> การเติมสินค้า \> รันการแบ่งช่วงเวลา**</span><span class="sxs-lookup"><span data-stu-id="eca03-332">Go to **Warehouse management \> Replenishment \> Run slotting**.</span></span>
-1. <span data-ttu-id="eca03-333">ระบุขั้นตอนการแบ่งช่วงเวลาที่จะรัน</span><span class="sxs-lookup"><span data-stu-id="eca03-333">Specify the slotting steps to run.</span></span> <span data-ttu-id="eca03-334">เลือกขั้นตอนการแบ่งช่วงเวลาต่อไปนี้อย่างน้อยหนึ่งขั้นตอน:</span><span class="sxs-lookup"><span data-stu-id="eca03-334">Select one or more of the following slotting steps:</span></span>
+1. <span data-ttu-id="c54eb-332">ไปที่ **การจัดการคลังสินค้า \> การเติมสินค้า \> รันการแบ่งช่วงเวลา**</span><span class="sxs-lookup"><span data-stu-id="c54eb-332">Go to **Warehouse management \> Replenishment \> Run slotting**.</span></span>
+1. <span data-ttu-id="c54eb-333">ระบุขั้นตอนการแบ่งช่วงเวลาที่จะรัน</span><span class="sxs-lookup"><span data-stu-id="c54eb-333">Specify the slotting steps to run.</span></span> <span data-ttu-id="c54eb-334">เลือกขั้นตอนการแบ่งช่วงเวลาต่อไปนี้อย่างน้อยหนึ่งขั้นตอน:</span><span class="sxs-lookup"><span data-stu-id="c54eb-334">Select one or more of the following slotting steps:</span></span>
 
-    - <span data-ttu-id="eca03-335">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-335">Generate demand</span></span>
-    - <span data-ttu-id="eca03-336">ค้นหาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-336">Locate demand</span></span>
-    - <span data-ttu-id="eca03-337">สร้างงานการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="eca03-337">Create replenishment work</span></span>
+    - <span data-ttu-id="c54eb-335">สร้างความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-335">Generate demand</span></span>
+    - <span data-ttu-id="c54eb-336">ค้นหาความต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-336">Locate demand</span></span>
+    - <span data-ttu-id="c54eb-337">สร้างงานการเติมสินค้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-337">Create replenishment work</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="eca03-338">ขั้นตอนการแบ่งช่วงเวลามีความก้าวหน้า</span><span class="sxs-lookup"><span data-stu-id="eca03-338">The slotting steps are progressive.</span></span> <span data-ttu-id="eca03-339">ถ้าคุณต้องการเลือก *ค้นหาความต้องการ* คุณต้องเลือก *สร้างความต้องการ* ก่อน</span><span class="sxs-lookup"><span data-stu-id="eca03-339">If you want to select *Locate demand*, you must first select *Generate demand*.</span></span>
+    > <span data-ttu-id="c54eb-338">ขั้นตอนการแบ่งช่วงเวลามีความก้าวหน้า</span><span class="sxs-lookup"><span data-stu-id="c54eb-338">The slotting steps are progressive.</span></span> <span data-ttu-id="c54eb-339">ถ้าคุณต้องการเลือก *ค้นหาความต้องการ* คุณต้องเลือก *สร้างความต้องการ* ก่อน</span><span class="sxs-lookup"><span data-stu-id="c54eb-339">If you want to select *Locate demand* , you must first select *Generate demand*.</span></span>
 
-1. <span data-ttu-id="eca03-340">ระบุเท็มเพลตการแบ่งช่วงเวลาที่จะใช้</span><span class="sxs-lookup"><span data-stu-id="eca03-340">Specify the slotting template to use.</span></span>
-1. <span data-ttu-id="eca03-341">ตั้งค่าการเกิดซ้ำเพื่อรันโดยอัตโนมัติ ถ้าคุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="eca03-341">Set the recurrence to run automatically, if you want.</span></span>
+1. <span data-ttu-id="c54eb-340">ระบุเท็มเพลตการแบ่งช่วงเวลาที่จะใช้</span><span class="sxs-lookup"><span data-stu-id="c54eb-340">Specify the slotting template to use.</span></span>
+1. <span data-ttu-id="c54eb-341">ตั้งค่าการเกิดซ้ำเพื่อรันโดยอัตโนมัติ ถ้าคุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="c54eb-341">Set the recurrence to run automatically, if you want.</span></span>
 
-<span data-ttu-id="eca03-342">สำหรับแบบฝึกหัดในสถานการณ์สมมติ **อย่า** ตั้งค่าการแบ่งช่วงเวลาแบบอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="eca03-342">For the exercises in the scenario, do **not** set up automatic slotting.</span></span>
+<span data-ttu-id="c54eb-342">สำหรับแบบฝึกหัดในสถานการณ์สมมติ **อย่า** ตั้งค่าการแบ่งช่วงเวลาแบบอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="c54eb-342">For the exercises in the scenario, do **not** set up automatic slotting.</span></span>
