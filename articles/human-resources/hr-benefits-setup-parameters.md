@@ -2,7 +2,7 @@
 title: กำหนดพารามิเตอร์การจัดการสิทธิประโยชน์
 description: ตั้งค่าคอนฟิกพารามิเตอร์สำหรับการจัดการสิทธิประโยชน์ใน Microsoft Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599367"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057039"
 ---
 # <a name="set-benefits-management-parameters"></a>ตั้งค่าพารามิเตอร์การจัดการสวัสดิการ
 
@@ -56,7 +56,7 @@ ms.locfileid: "3599367"
 
 1. ในพื้นที่ทำงาน **การจัดการสิทธิประโยชน์** ภายใต้ **การตั้งค่า** ให้เลือก **พารามิเตอร์ทรัพยากรบุคคล**
 
-2. ในแท็บ **การบริการตนเองของพนักงาน** ให้ระบุค่าในฟิลด์ต่อไปนี้
+2. ในแท็บ **การจัดการสวัสดิการ** ระบุค่าในฟิลด์ต่อไปนี้:
 
    | ฟิลด์ | คำอธิบาย |
    | --- | --- |

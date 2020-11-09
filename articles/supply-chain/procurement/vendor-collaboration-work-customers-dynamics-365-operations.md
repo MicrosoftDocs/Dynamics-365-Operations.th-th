@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018177"
 ---
 # <a name="vendor-collaboration-with-customers"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า
 
@@ -42,7 +42,7 @@ ms.locfileid: "3207358"
 
 พื้นที่ทำงาน **การยืนยันใบสั่งซื้อ** อนุญาตให้คุณสามารถตอบสนองต่อ PO ที่ถูกส่งเพื่อให้คุณตรวจทานได้ นอกจากนี้ยังอนุญาตให้คุณสามารถดูข้อมูลเกี่ยวกับ PO ที่กำลังรอการดำเนินการจากลูกค้า และ PO ที่ได้รับการยืนยันแล้ว แต่ยังคงเปิดอยู่
 
-มีสามรายการในพื้นที่ทำงาน **การยืนยันใบสั่งซื้อ**:
+มีสามรายการในพื้นที่ทำงาน **การยืนยันใบสั่งซื้อ** :
 
 - **ใบสั่งซื้อสำหรับการตรวจทาน** – รายการนี้แสดง PO ที่ส่งถึงคุณ และกำลังรอการตอบสนองจากคุณ หลังจากที่คุณตอบสนองแล้ว PO จะถูกลบออกจากรายการ ถ้าลูกค้าส่ง PO เวอร์ชันใหม่ให้กับคุณ ก่อนที่คุณจะตอบสนองเวอร์ชันก่อนหน้า ระบบจะแสดงเฉพาะเวอร์ชันล่าสุดเท่านั้น
 - **กำลังรอการดำเนินการของลูกค้า** – รายการนี้แสดง PO ที่คุณตอบสนองทั้งหมด แต่ยังไม่ได้ได้รับการยืนยันจากลูกค้า ถ้าคุณยอมรับ PO คุณสามารถตรวจสอบได้ในรายการนี้ จนกว่าสถานะจะถูกเปลี่ยนเป็น **ยืนยันแล้ว** ถ้าคุณปฏิเสธ PO หรือยอมรับพร้อมกับการเปลี่ยนแปลง คุณสามารถตรวจสอบได้ที่นี่จนกว่าลูกค้าจะส่งเวอร์ชันใหม่มา

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803102"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014946"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>ติดตั้ง Add-in เครื่องมือ IoT ใน LCS
 
@@ -52,7 +52,7 @@ ms.locfileid: "3803102"
 
 ## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>ถอนการติดตั้ง Add-in
 
-1. ใน Supply Chain Management [ปิดใช้งานสถานการณ์จำลอง](iot-scenario-setup.md#how-to-disable-a-scenario)
+1. ใน Supply Chain Management [ปิดใช้งานสถานการณ์จำลอง](iot-scenario-setup.md#disable-a-scenario)
 2. ใน LCS ไปยังรายละเอียดสภาพแวดล้อม Supply Chain Management ของคุณ
 3. เลื่อนลงไปที่ส่วน **Add-in ของสภาพแวดล้อม**
 4. เลือก **ถอนการติดตั้ง** สำหรับ Add-in ครื่องมือ IoT

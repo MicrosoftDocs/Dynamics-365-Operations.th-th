@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962531"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013191"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
@@ -239,7 +239,7 @@ ms.locfileid: "3962531"
 | ย้ายขึ้น/ลงหนึ่งหน้าในการค้นหา                                                                                       | เลื่อนหน้าขึ้น / เลื่อนหน้าลง              |
 | ย้ายไปด้านบน/ด้านล่างของการค้นหา                                                                                    | หน้าหลัก / สิ้นสุด                       |
 
-## <a name="task-recordershortcuts"></a>ทางลัด [ตัวบันทึกงาน](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>ทางลัด [ตัวบันทึกงาน](../../dev-itpro/user-interface/task-recorder.md) 
 
 | ถ้าต้องการดำเนินการนี้                                                                    | ให้กด                      |
 |-------------------------------------------------------------------------------|----------------------------|

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205563"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017095"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
@@ -54,7 +54,7 @@ ms.locfileid: "3205563"
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>ตั้งค่าคอนฟิกงานคลังสินค้าสำหรับการเบิกสินค้าคัมบังสำหรับคัมบังการเบิกถอน
 
-เมื่อต้องการเปิดใช้งานการเบิกวัตถุดิบสำหรับคัมบังการเบิกถอน ตั้งค่าคอนฟิกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่สำหรับชนิดใบสั่งงาน **การเบิกคัมบัง** ชนิดใบสั่งงานนี้ไม่เพียงแค่สนับสนุนกระบวนการเบิกสินค้าสำหรับคัมบังการเบิกถอน แต่ยังสนับสนุนกระบวนการเบิกสินค้าสำหรับคัมบังการผลิต อย่างไรก็ตาม คุณสามารถตั้งค่าตอนฟิกกระบวนการเบิกสินค้าแยกต่างหากสำหรับคัมบังแต่ละชนิด โดยแยกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่ เพื่อแยกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่ ตั้งค่าเงื่อนไขบนชนิดกิจกรรม (**กระบวนการ** หรือ **การโอนย้าย**) ในการสอบถามสำหรับเอนทิตีเหล่านั้น
+เมื่อต้องการเปิดใช้งานการเบิกวัตถุดิบสำหรับคัมบังการเบิกถอน ตั้งค่าคอนฟิกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่สำหรับชนิดใบสั่งงาน **การเบิกคัมบัง** ชนิดใบสั่งงานนี้ไม่เพียงแค่สนับสนุนกระบวนการเบิกสินค้าสำหรับคัมบังการเบิกถอน แต่ยังสนับสนุนกระบวนการเบิกสินค้าสำหรับคัมบังการผลิต อย่างไรก็ตาม คุณสามารถตั้งค่าตอนฟิกกระบวนการเบิกสินค้าแยกต่างหากสำหรับคัมบังแต่ละชนิด โดยแยกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่ เพื่อแยกเท็มเพลตเวฟ เท็มเพลตงาน และคำสั่งสถานที่ ตั้งค่าเงื่อนไขบนชนิดกิจกรรม ( **กระบวนการ** หรือ **การโอนย้าย** ) ในการสอบถามสำหรับเอนทิตีเหล่านั้น
 
 ## <a name="configure-the-withdrawal-kanban"></a>ตั้งค่าคอนฟิกคัมบังการเบิกถอน
 

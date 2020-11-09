@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017678"
 ---
 # <a name="work-policies"></a>นโยบายงาน
 
@@ -112,7 +113,7 @@ ms.locfileid: "3652016"
 
 ## <a name="example-scenario-warehouse-receiving"></a>ตัวอย่างสถานการณ์จำลอง: การรับของคลังสินค้า
 
-ผลิตภัณฑ์ทั้งหมดที่ได้รับโดยกระบวนการ *การรับสินค้าตามใบสั่งซื้อ (และการสำรองสินค้า)* ต้องลงทะเบียนในสถานที่ *FL-001* และต้องมีอยู่ในคลังสินค้า *24* อย่างไรก็ตาม งานไม่ควรถูกสร้าง ผลิตภัณฑ์ที่ได้รับโดยกระบวนการอื่นๆ (นั่นคือ โดยการใช้รายการเมนูของอุปกรณ์เคลื่อนที่อื่นๆ) ควรมีการลงทะเบียนที่สถานที่รับสินค้าเริ่มต้น (*RECV*) และควรสร้างงานตามปกติ (สถานการณ์จำลองนี้ไม่แสดงการตั้งค่าการรับสินค้าเริ่มต้น)
+ผลิตภัณฑ์ทั้งหมดที่ได้รับโดยกระบวนการ *การรับสินค้าตามใบสั่งซื้อ (และการสำรองสินค้า)* ต้องลงทะเบียนในสถานที่ *FL-001* และต้องมีอยู่ในคลังสินค้า *24* อย่างไรก็ตาม งานไม่ควรถูกสร้าง ผลิตภัณฑ์ที่ได้รับโดยกระบวนการอื่นๆ (นั่นคือ โดยการใช้รายการเมนูของอุปกรณ์เคลื่อนที่อื่นๆ) ควรมีการลงทะเบียนที่สถานที่รับสินค้าเริ่มต้น ( *RECV* ) และควรสร้างงานตามปกติ (สถานการณ์จำลองนี้ไม่แสดงการตั้งค่าการรับสินค้าเริ่มต้น)
 
 สถานการณ์จำลองนี้จำเป็นต้องมีองค์ประกอบต่อไปนี้:
 

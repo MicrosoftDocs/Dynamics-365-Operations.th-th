@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598069"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040064"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
@@ -51,6 +51,9 @@ ms.locfileid: "3598069"
 3. ไปที่ **บัญชีแยกประเภททั่วไป > การตั้งค่า > บัญชีแยกประเภท** และตั้งค่า **กุลเงินทางบัญชี** และ **ชนิดอัตราแลกเปลี่ยน**
 4. กำหนดอัตราแลกเปลี่ยนระหว่างสกุลเงินของธุรกรรมและสกุลเงินทางบัญชี สกุลเงินทางบัญชี และสกุลเงินของระบบ เมื่อต้องการทำเช่นนี้ ไปที่ **บัญชีแยกประเภททั่วไป > สกุลเงิน > อัตราแลกเปลี่ยนสกุลเงิน**
 5. ไปที่ **การจัดการระบบ > การตั้งค่า > ที่จัดเก็บเอนทิตี้** เพื่อรีเฟรชการวัดรวม **CustCollectionsBIMeasurementsV2**
+
+>[!NOTE] 
+> ต้องมีการตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ใน **พารามิเตอร์บัญชีลูกหนี้ > การเรียกเก็บเงิน > การเรียกเก็บเงินเริ่มต้น** เพื่อเปิดใช้งานข้อมูลอายุหนี้ในเนื้อหา Power BI
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: ae805d9aac790a1a58478cf54d033ce758c5eca3
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017770"
 ---
 # <a name="planned-cross-docking"></a>การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้
 
@@ -293,7 +294,7 @@ ms.locfileid: "3530109"
 1. บนอุปกรณ์เคลื่อนที่ ให้ไปที่ **ขาเข้า \> การสำรองการซื้อ** แล้วป้อนป้ายทะเบียนเป้าหมายจากงาน
 1. ในฟิลด์ **รหัส** ให้ป้อนรหัสป้ายทะเบียนเป้าหมายจากรายละเอียดงาน
 
-    หน้าการเบิกสินค้าของการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจะแสดงสถานที่เบิกสินค้า (*RECV*) ป้ายทะเบียนเป้าหมาย (*ป้ายทะเบียน*) สินค้า (*A0001*) และปริมาณ (*3*)
+    หน้าการเบิกสินค้าของการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจะแสดงสถานที่เบิกสินค้า ( *RECV* ) ป้ายทะเบียนเป้าหมาย ( *ป้ายทะเบียน* ) สินค้า ( *A0001* ) และปริมาณ ( *3* )
 
 1. เลือก **ตกลง**
 1. ในฟิลด์ **LP เป้าหมาย** ให้ป้อนป้ายทะเบียนเป้าหมายสำหรับรหัสป้ายทะเบียนที่ควรจะวาง (ส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า) ไปยังสถานที่จัดส่ง คุณสามารถเลือกรหัสป้ายทะเบียนใดๆ ที่คุณต้องการ

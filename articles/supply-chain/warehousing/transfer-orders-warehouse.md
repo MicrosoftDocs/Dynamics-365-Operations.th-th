@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: aa5786df72f87da992f1020bbaaa1c2185adf043
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216727"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017494"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>การตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย 
 
@@ -50,5 +51,5 @@ ms.locfileid: "3216727"
 คุณต้องตั้งค่าระยะเวลารอคอยสินค้าการขนส่งระหว่างคลังสินค้าบนหน้า **จำนวนวันที่ใช้ในการขนส่ง** 
 1. ไปยัง **การบริหารสินค้าคงคลัง > การตั้งค่า > การกระจาย > จำนวนวันที่ใช้ในการขนส่ง**
 2. ในฟิลด์ **จุดรับสินค้า** เลือก **คลังสินค้า**
-3. เลือก **คลังสินค้าที่จัดส่ง**, **คลังสินค้าที่รับเข้า** และ **จำนวนวันที่ใช้ในการขนส่ง** 
+3. เลือก **คลังสินค้าที่จัดส่ง** , **คลังสินค้าที่รับเข้า** และ **จำนวนวันที่ใช้ในการขนส่ง** 
 4. (ไม่จำเป็น) คุณยังสามารถตั้งค่าเวลาที่ใช้ในการขนส่งโดยขึ้นอยู่กับวิธีการจัดส่ง ภายใต้แท็บ **จำนวนวันที่ใช้ในการส่งต่อวิธีการจัดส่ง**

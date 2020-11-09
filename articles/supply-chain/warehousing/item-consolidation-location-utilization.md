@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017195"
 ---
 # <a name="item-consolidation---location-utilization"></a>การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 
@@ -30,7 +31,7 @@ ms.locfileid: "3598796"
 
 ## <a name="turn-on-the-features"></a>เปิดคุณลักษณะ
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะที่อธิบายไว้ในหัวข้อนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะเหล่านี้ และเปิดใช้งาน หากจำเป็น เปิดใช้งานคุณลักษณะทั้งสองรายการต่อไปนี้ ตามลำดับที่แสดงรายการ (คุณลักษณะทั้งสองรายการมีไว้สำหรับโมดูล **การบริหารคลังสินค้า**)
+ก่อนที่คุณจะสามารถใช้คุณลักษณะที่อธิบายไว้ในหัวข้อนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะเหล่านี้ และเปิดใช้งาน หากจำเป็น เปิดใช้งานคุณลักษณะทั้งสองรายการต่อไปนี้ ตามลำดับที่แสดงรายการ (คุณลักษณะทั้งสองรายการมีไว้สำหรับโมดูล **การบริหารคลังสินค้า** )
 
 1. สถานะสถานที่คลังสินค้า
 2. การใช้ประโยชน์สถานที่รวมบัญชีสินค้า
@@ -72,7 +73,7 @@ ms.locfileid: "3598796"
 1. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> คลังสินค้า \> โพรไฟล์สถานที่**
 1. ในรายการของโพรไฟล์สถานที่ ให้เลือก **FLOOR-05**
 1. บนบานหน้าต่างการดำเนินการ เลือก **แก้ไข**
-1. บน FastTab **ทั่วไป** โปรดตรวจสอบให้แน่ใจว่าได้ตั้งค่าทั้งสองตัวเลือกต่อไปนี้เป็น *ใช่*:
+1. บน FastTab **ทั่วไป** โปรดตรวจสอบให้แน่ใจว่าได้ตั้งค่าทั้งสองตัวเลือกต่อไปนี้เป็น *ใช่* :
 
     - เปิดใช้งานสินค้าในสถานที่
     - เปิดใช้งานสถานะสถานที่

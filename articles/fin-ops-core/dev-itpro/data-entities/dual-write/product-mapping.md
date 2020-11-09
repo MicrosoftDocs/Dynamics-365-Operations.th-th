@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835865"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000775"
 ---
 # <a name="unified-product-experience"></a>ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 เมื่อระบบนิเวศทางธุรกิจถูกสร้างขึ้นจากแอป Dynamics 365 เช่น Finance Supply Chain Management และ Sales บ่อยครั้งที่หน่ายงานธุรกิจจะใช้แอปเหล่านี้เพื่อค้นหาข้อมูลผลิตภัณฑ์ ทั้งนี้เนื่องจากแอปเหล่านี้แสดงโครงสร้างพื้นฐานของผลิตภัณฑ์ที่แข็งแกร่ง พร้อมกับแนวคิดการกำหนดราคาที่ซับซ้อนและข้อมูลปริมาณคงคลังคงเหลือที่ถูกต้อง หน่วยงานธุรกิจที่ใช้ระบบการจัดการรอบการขายของผลิตภัณฑ์ (PLM) สำหรับการค้นหาข้อมูลผลิตภัณฑ์ สามารถนำผลิตภัณฑ์จากแอป Finance and Operations ไปยังแอป Dynamics 365 อื่นๆได้ ประสบการณ์ใช้งานผลิตภัณฑ์โดยรวมจะนำแบบจำลองข้อมูลผลิตภัณฑ์รวมเข้าใน Common Data Service เพื่อให้ผู้ใช้แอปทั้งหมด รวมทั้งผู้ใช้ Power Platform สามารถใช้ประโยชน์จากข้อมูลผลิตภัณฑ์จำนวนมากที่มาจากแอป Finance and Operations
 
@@ -109,7 +106,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 มิติของผลิตภัณฑ์คือลักษณะที่ระบุผลิตภัณฑ์ย่อย นอกจากนี้ยังมีการแม็ปมิติของผลิตภัณฑ์สี่มิติ (สี ขนาด ลักษณะ และการตั้งค่าคอนฟิก) ไปที่ Common Data Service เพื่อกำหนดผลิตภัณฑ์ย่อย แผนภาพต่อไปนี้แสดงแบบจำลองข้อมูลสำหรับสีของมิติของผลิตภัณฑ์ แบบจำลองเดียวกันจะถูกนำไปใช้กับขนาด ลักษณะ และการตั้งค่าคอนฟิก 
 
-![แบบจำลองข้อมูลสำหรับผลิตภัณฑ์](media/dual-write-product-two.png)
+![แบบจำลองข้อมูลสำหรับมิติผลิตภัณฑ์](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 หน่วยวัดและการแปลงที่เกี่ยวข้องพร้อมใช้งานใน Common Data Service ตามแบบจำลองข้อมูลที่แสดงในแผนภาพ
 
-![แบบจำลองข้อมูลสำหรับผลิตภัณฑ์](media/dual-write-product-three.png)
+![แบบจำลองข้อมูลสำหรับหน่วยวัด](media/dual-write-product-three.png)
 
 แนวคิดหน่วยวัดถูกรวมกันระหว่างแอป Finance and Operations และแอปอื่นๆของ Dynamics 365 สำหรับประเภทของหน่วยแต่ละประเภทในแอป Finance and Operations กลุ่มหน่วยจะถูกสร้างขึ้นในแอป Dynamics 365 ซึ่งประกอบด้วยหน่วยที่อยู่ในประเภทของหน่วย นอกจากนี้ยังมีการสร้างหน่วยพื้นฐานเริ่มต้นสำหรับทุกกลุ่มหน่วยด้วย 
 
@@ -203,7 +200,7 @@ Common Data Service ผลิตภัณฑ์เฉพาะที่นำอ
 
 เมื่อต้องการระบุผลิตภัณฑ์ ระหว่าง Dynamics 365 for Finance and Operations และผลิตภัณฑ์ใน Common Data Service คีย์การรวมโดยเฉพาะ สำหรับผลิตภัณฑ์ **(productnumber)** เป็นคีย์เฉพาะที่ระบุผลิตภัณฑ์ใน Common Data Service ซึ่งประกอบด้วยการเรียงต่อกันของ: **(company, msdyn_productnumber)** **บริษัท** บ่งชี้ถึงนิติบุคคลใน Finance and Operations และ **msdyn_productnumber** บ่งชี้หมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ที่ระบุใน Finance and Operations 
 
-สำหรับผู้ใช้ของแอป Dynamics 365 อื่นๆ ผลิตภัณฑ์จะถูกระบุใน UI ด้วย **msdyn_productnumber** (หมายเหตุว่า ป้ายชื่อของฟิลด์คือ **หมายเลขผลิตภัณฑ์**) ในฟอร์มผลิตภัณฑ์ ทั้งบริษัทและ msydn_productnumber จะแสดงขึ้น อย่างไรก็ตาม ฟิลด์ (productnumber) คีย์เฉพาะสำหรับผลิตภัณฑ์จะไม่แสดงขึ้น 
+สำหรับผู้ใช้ของแอป Dynamics 365 อื่นๆ ผลิตภัณฑ์จะถูกระบุใน UI ด้วย **msdyn_productnumber** (หมายเหตุว่า ป้ายชื่อของฟิลด์คือ **หมายเลขผลิตภัณฑ์** ) ในฟอร์มผลิตภัณฑ์ ทั้งบริษัทและ msydn_productnumber จะแสดงขึ้น อย่างไรก็ตาม ฟิลด์ (productnumber) คีย์เฉพาะสำหรับผลิตภัณฑ์จะไม่แสดงขึ้น 
 
 ถ้าคุณสร้างแอปบน Common Data Service คุณควรให้ความสำคัญกับการใช้ **productnumber** (รหัสเฉพาะของผลิตภัณฑ์) เป็นคีย์การรวม อย่าใช้ **msdyn_productnumber** เนื่องจากไม่มีเอกลักษณ์เฉพาะ 
 
