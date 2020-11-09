@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 56a3a838374bb1cd0f4b839124ada7114205c1e7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017149"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
 

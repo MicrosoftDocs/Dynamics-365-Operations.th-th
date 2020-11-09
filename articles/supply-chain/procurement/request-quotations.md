@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ
+ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018410"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>ภาพรวมของคำขอใบเสนอราคา (RFQ)
 
@@ -44,7 +44,7 @@ ms.locfileid: "3973511"
 
 คุณสามารถสร้างกรณี RFQ ได้จากใบสั่งที่วางแผนไว้ จากใบขอซื้อ หรือโดยรายการที่กำหนดเองได้ กรณี RFQ เป็นเอกสารพื้นฐานที่คุณใช้เพื่อออก RFQ ให้กับผู้จัดจำหน่ายแต่ละราย
 
-หลังจากที่คุณจัดเตรียมกรณี RFQ และเพิ่มผู้จัดจำหน่าย เลือก **ส่ง** (**ส่งและเผยแพร่** สำหรับภาครัฐ) ในกรณี RFQ มีสร้างสมุดรายวัน RFQ สำหรับผู้จัดจำหน่ายแต่ละรายที่คุณส่ง RFQ ให้ คุณสามารถตั้งค่าคอนฟิกตัวเลือกการพิมพ์สำหรับการดำเนินการส่งได้ เพื่อให้พิมพ์รายงานสำหรับผู้จัดจำหน่ายแต่ละรายไปยังที่เก็บถาวร หรือส่งรายงานไปยังที่อยู่อีเมลของผู้จัดจำหน่ายแต่ละราย อย่างใดอย่างหนึ่ง นอกจากนี้ คุณสามารถใช้สมุดรายวัน RFQ สำหรับผู้จัดจำหน่ายแต่ละรายในการสร้างรายงานที่คุณสามารถส่งหรือส่งซ้ำให้กับผู้ขายในภายหลังได้ นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกการดำเนินการส่ง เพื่อให้สร้างแผ่นงานการตอบที่ผู้จัดจำหน่ายสามารถกรอกได้
+หลังจากที่คุณจัดเตรียมกรณี RFQ และเพิ่มผู้จัดจำหน่าย เลือก **ส่ง** ( **ส่งและเผยแพร่** สำหรับภาครัฐ) ในกรณี RFQ มีสร้างสมุดรายวัน RFQ สำหรับผู้จัดจำหน่ายแต่ละรายที่คุณส่ง RFQ ให้ คุณสามารถตั้งค่าคอนฟิกตัวเลือกการพิมพ์สำหรับการดำเนินการส่งได้ เพื่อให้พิมพ์รายงานสำหรับผู้จัดจำหน่ายแต่ละรายไปยังที่เก็บถาวร หรือส่งรายงานไปยังที่อยู่อีเมลของผู้จัดจำหน่ายแต่ละราย อย่างใดอย่างหนึ่ง นอกจากนี้ คุณสามารถใช้สมุดรายวัน RFQ สำหรับผู้จัดจำหน่ายแต่ละรายในการสร้างรายงานที่คุณสามารถส่งหรือส่งซ้ำให้กับผู้ขายในภายหลังได้ นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกการดำเนินการส่ง เพื่อให้สร้างแผ่นงานการตอบที่ผู้จัดจำหน่ายสามารถกรอกได้
 
 หัวข้อนี้ครอบคลุมกระบวนการสำหรับการจัดการ RFQs เมื่อไม่ได้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย ถ้าระบบของคุณถูกตั้งค่าสำหรับการทำงานร่วมกันของผู้จัดจำหน่าย ผู้จัดจำหน่ายสามารถป้อนบิดได้โดยตรงใน Supply Chain Management สำหรับข้อมูลเพิ่มเติม ดู [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) และ [การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก](vendor-collaboration-work-external-vendors.md)
 

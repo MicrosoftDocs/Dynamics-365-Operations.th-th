@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSTroubIeshootingSeIfService
+ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88c94306eda4eb462f6b3fae73e0cdb05ed647a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984045"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016253"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>ยกเลิกงานในคลังสินค้าสำหรับการจัดการข้อยกเว้น
 
@@ -29,7 +29,7 @@ ms.locfileid: "3984045"
 
 ฟังก์ชันยกเลิกงานใน Microsoft Dynamics 365 Supply Chain Management ช่วยให้ผู้ดูแลระบบยกเลิกงานคลังสินค้าที่กำลังดำเนินการอยู่ แต่ถูกบล็อกโดยระบบ หรือไม่สามารถทำให้สมบูรณ์ได้เนื่องจากสถานการณ์ยกเว้น ฟังก์ชันนี้เป็นตัวเลือกที่น่าสนใจและมีความปลอดภัยสำหรับสคริปต์แก้ไข SQL ที่แก้ไขข้อมูลที่ไม่สอดคล้องกัน อย่างไรก็ตาม ปกติแล้วสคริปต์เหล่านี้มักจะมีการร้องขอโดยผู้เชี่ยวชาญด้านไอที ผู้ใช้ในบริษัทสามารถใช้ฟังก์ชันยกเลิกงานได้หากมีสิทธิ์ของผู้ดูแลระบบ
 
-คุณสามารถเข้าถึงฟังก์ชันยกเลิกงานได้ที่ **การจัดการคลังสินค้า** \> **งานประจำงวด** \> **ล้างข้อมูล \> ยกเลิกงาน** ในกล่องโต้ตอบ **ยกเลิกงาน** ให้ระบุรหัสงานของงานที่จะยกเลิก แล้วเลือก**ตกลง**
+คุณสามารถเข้าถึงฟังก์ชันยกเลิกงานได้ที่ **การจัดการคลังสินค้า** \> **งานประจำงวด** \> **ล้างข้อมูล \> ยกเลิกงาน** ในกล่องโต้ตอบ **ยกเลิกงาน** ให้ระบุรหัสงานของงานที่จะยกเลิก แล้วเลือก **ตกลง**
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>งานคลังสินค้าที่สามารถยกเลิกได้
 

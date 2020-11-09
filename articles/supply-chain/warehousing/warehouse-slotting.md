@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017425"
 ---
 # <a name="warehouse-slotting"></a>การแบ่งช่วงเวลาของคลังสินค้า
 
@@ -194,7 +195,7 @@ ms.locfileid: "3597469"
     - **ตาราง:** *สถานที่*
     - **ตารางสืบทอด:** *สถานที่*
     - **ฟิลด์:** *รหัสโพรไฟล์สถานที่*
-    - **เงื่อนไข:** *เบิกสินค้า-06* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *เบิกสินค้า-06* - *ไซต์เบิกสินค้า 6*)
+    - **เงื่อนไข:** *เบิกสินค้า-06* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *เบิกสินค้า-06* - *ไซต์เบิกสินค้า 6* )
 
 1. เลือก **ตกลง**
 
@@ -247,7 +248,7 @@ ms.locfileid: "3597469"
     - **ตาราง:** *สถานที่*
     - **ตารางสืบทอด:** *สถานที่*
     - **ฟิลด์:** *รหัสโซน*
-    - **เงื่อนไข:** *จำนวนมาก* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *จำนวนมาก*)
+    - **เงื่อนไข:** *จำนวนมาก* (เลือกเครื่องหมายบวกคู่ \[**++**\] ในฟิลด์เพื่อขยายรายการ แล้วจากนั้น เลือก *จำนวนมาก* )
 
 1. เลือก **ตกลง**
 

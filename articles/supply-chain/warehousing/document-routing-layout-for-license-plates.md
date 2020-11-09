@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763466"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017724"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 ต่อไปนี้เป็นคำอธิบายของรูปแบบนี้:
 
-- `FieldName` คือชื่อของฟิลด์ข้อมูล (เช่น **ปริมาณ**)
+- `FieldName` คือชื่อของฟิลด์ข้อมูล (เช่น **ปริมาณ** )
 - `FormatString` กำหนดว่าต้องพิมพ์ข้อมูลอย่างไร
 
-ตัวอย่างต่อไปนี้แสดงวิธีการที่คุณสามารถกำหนดฟิลด์ปริมาณงาน (**ปริมาณ**):
+ตัวอย่างต่อไปนี้แสดงวิธีการที่คุณสามารถกำหนดฟิลด์ปริมาณงาน ( **ปริมาณ** ):
 
 - เมื่อต้องการแสดงตัวเลขสี่หลักเสมอ (โดยใช้เลขศูนย์เป็นตัวยึดตำแหน่ง) ให้ใช้ `$Qty:0000$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "0010"
 - เมื่อต้องการแสดงตำแหน่งทศนิยมสองตำแหน่งเสมอ ให้ใช้ `$Qty:0.00$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "10.00"

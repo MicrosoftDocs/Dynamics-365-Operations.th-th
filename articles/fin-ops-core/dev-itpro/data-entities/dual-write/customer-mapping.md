@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5643be99ac2c58f4da1a2a068e84bf526f8575cb
-ms.sourcegitcommit: 164de749f394a133f223c526aa0c46bf922d1ea8
+ms.openlocfilehash: 36716c302d86bc5715798bf4cf4899f666d0872c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3770023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997465"
 ---
 # <a name="integrated-customer-master"></a>ข้อมูลหลักของลูกค้าแบบรวม
 
@@ -35,7 +34,7 @@ ms.locfileid: "3770023"
 
 ## <a name="customer-data-flow"></a>โฟลว์ข้อมูลของลูกค้า
 
-*ลูกค้า*เป็นแนวคิดที่กำหนดไว้อย่างดีในแอปพลิเคชัน ดังนั้น การรวมของข้อมูลลูกค้าก็เกี่ยวข้องกับความสอดคล้องแนวคิดของลูกค้าระหว่างสองแอพลิเคชัน ภาพประกอบต่อไปนี้แสดงโฟลว์ข้อมูลของลูกค้า
+*ลูกค้า* เป็นแนวคิดที่กำหนดไว้อย่างดีในแอปพลิเคชัน ดังนั้น การรวมของข้อมูลลูกค้าก็เกี่ยวข้องกับความสอดคล้องแนวคิดของลูกค้าระหว่างสองแอพลิเคชัน ภาพประกอบต่อไปนี้แสดงโฟลว์ข้อมูลของลูกค้า
 
 ![โฟลว์ข้อมูลของลูกค้า](media/dual-write-customer-data-flow.png)
 

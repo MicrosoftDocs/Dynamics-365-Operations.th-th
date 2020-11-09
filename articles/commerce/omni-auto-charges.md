@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505622"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107386"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
 
@@ -32,7 +32,7 @@ ms.locfileid: "3505622"
 
 หัวข้อนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกและการปรับใช้งานของคุณลักษณะค่าธรรมเนียมอัตโนมัติขั้นสูง ซึ่งพร้อมใช้งานใน Dynamics 365 for Retail รุ่น 10.0
 
-มื่อเปิดใช้งานคุณลักษณะการคิดค่าบริการโดยอัตโนมัติขั้นสูง ใบสั่งที่สร้างในช่องทางการค้าใด ๆ ที่รองรับ (ระบบขายหน้าร้าน (POS) ศูนย์บริการและออนไลน์) สามารถใช้ประโยชน์จากการกำหนดค่า [ค่าบริการอัตโนมัติ](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) ที่กำหนดในแอปพลิเคชัน ERP สำหรับค่าใช้จ่ายที่เกี่ยวข้องกับส่วนหัวและระดับบรรทัด 
+มื่อเปิดใช้งานคุณลักษณะการคิดค่าบริการโดยอัตโนมัติขั้นสูง ใบสั่งที่สร้างในช่องทางการค้าใด ๆ ที่รองรับ (ระบบขายหน้าร้าน (POS) ศูนย์บริการและออนไลน์) สามารถใช้ประโยชน์จากการกำหนดค่า [ค่าบริการอัตโนมัติ](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) ที่กำหนดในแอปพลิเคชัน ERP สำหรับค่าใช้จ่ายที่เกี่ยวข้องกับส่วนหัวและระดับบรรทัด
 
 ในการนำออกใช้ก่อนหน้า Retail รุ่น 10.0 [ค่าธรรมเนียมอัตโนมัติ](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) การตั้งค่าคอนฟิกสามารถเข้าถึงได้โดยใบสั่งที่สร้างใน e-Commerce และช่องทางศูนย์บริการ ในรุ่น 10.0 และรุ่นที่ใหม่กว่า ใบสั่งที่สร้าง POS สามารถใช้ประโยชน์การตั้งค่าคอนฟิกค่าธรรมเนียมอัตโนมัติ วิธีนั้น ค่าธรรมเนียมเบ็ดเตล็ดเพิ่มเติมสามารถถูกเพิ่มไปยังธุรกรรมการขายอย่างเป็นระบบได้
 

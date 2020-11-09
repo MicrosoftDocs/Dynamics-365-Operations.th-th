@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b8e39539f767cc2944a9a7fdda09121921c64763
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836047"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039780"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>สร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 
 บริการ add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์จะรับผิดชอบสำหรับจัการดเก็บข้อมูลทางธุรกิจทั้งหมดของคุณในทรัพยากร Microsoft Azure ที่เป็นของบริษัทของคุณ เพื่อให้แน่ใจว่าการบริการทำงานได้อย่างถูกต้อง และมีการเข้าถึงข้อมูลทางธุรกิจทั้งหมดที่จำเป็นสำหรับและสร้างขึ้นโดย add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์โดย add-on เท่านั้น คุณต้องสร้างทรัพยากร Azure หลักสองอย่างต่อไปนี้

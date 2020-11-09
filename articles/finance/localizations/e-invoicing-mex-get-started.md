@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836044"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039833"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับเม็กซิโก
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับเม็กซิโก อาจไม่สนับสนุนฟังก์ชันทั้งหมดที่พร้อมใช้งานใน Comprobante Fiscal Digital for Internet (CFDI) และในการรวมที่เกี่ยวข้องที่สร้างขึ้นใน Microsoft Dynamics 365 Finance หรือ Dynamics 365 Supply Chain Management
@@ -216,7 +215,7 @@ ms.locfileid: "3836044"
 
 ### <a name="submit-cfdi-invoices"></a>ส่งใบแจ้งหนี้ CFDI
 
-หลังจากที่คุณเปิดใช้งานคุณลักษณะ **การรวม add-on ใบแจ้งหนี้อิเล็กทรอนิกส์ที่จัดโครงแบบ** กระบวนการ **ใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับการส่งออก/การนำเข้า** (**บัญชีลูกหนี้ \> ใบแจ้งหนี้ \> ใบแจ้งหนี้อิเล็กทรอนิกส์**) สำหรับการส่งใบแจ้งหนี้ CFDI ไม่สามารถใช้ได้อีกต่อไป ซึ่งถูกแทนที่โดยกระบวนการใหม่ที่ชื่อ **ส่งเอกสารอิเล็กทรอนิกส์**
+หลังจากที่คุณเปิดใช้งานคุณลักษณะ **การรวม add-on ใบแจ้งหนี้อิเล็กทรอนิกส์ที่จัดโครงแบบ** กระบวนการ **ใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับการส่งออก/การนำเข้า** ( **บัญชีลูกหนี้ \> ใบแจ้งหนี้ \> ใบแจ้งหนี้อิเล็กทรอนิกส์** ) สำหรับการส่งใบแจ้งหนี้ CFDI ไม่สามารถใช้ได้อีกต่อไป ซึ่งถูกแทนที่โดยกระบวนการใหม่ที่ชื่อ **ส่งเอกสารอิเล็กทรอนิกส์**
 
 > [!NOTE]
 > ก่อนที่คุณจะใช้กระบวนการ **ส่งเอกสารอิเล็กทรอนิกส์** ใหม่ ให้ตรวจสอบว่าการตั้งค่าที่จำเป็นสำหรับใบแจ้งหนี้อิเล็กทรอนิกส์ของเม็กซิโกเสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติม ให้ดู [โครงร่าง CFDI เวอรชัน 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3)

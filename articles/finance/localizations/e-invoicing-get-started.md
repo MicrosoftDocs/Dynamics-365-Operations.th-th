@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971483"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039857"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยให้คุณเริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ ก่อนอื่น จะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกใน Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) และ Dynamics 365 Finance ถัดไป จะอธิบายถึงกระบวนการสำหรับการส่งเอกสารผ่านทางบริการโดยใช้ Dynamics 365 Finance หรือ Dynamics 365 Supply Chain Management นอกจากนี้คุณจะได้เรียนรู้วิธีการแปลล็อกการส่ง
 

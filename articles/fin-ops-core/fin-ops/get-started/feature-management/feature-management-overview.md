@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015054"
 ---
 # <a name="feature-management-overview"></a>ภาพรวมของการจัดการคุณลักษณะ
 
@@ -66,7 +66,7 @@ ms.locfileid: "3967345"
 
 หลังจากการปิดคุณลักษณะ ข้อความจะปรากฏขึ้นด้านล่างลิงค์ **เรียนรู้เพิ่มเติม** ในบานหน้าต่างแสดงรายละเอียด ข้อความนี้ระบุว่าคุณลักษณะถูกเปิด หรือบ่งชี้วันที่ในอนาคตที่คุณลักษณะจะถูกจัดกำหนดการให้เปิด อย่างใดอย่างหนึ่ง ซึ่งจะปรากฏขึ้นทุกครั้งที่คุณเลือกคุณลักษณะในรายการคุณลักษณะ
 
-คุณลักษณะที่ถูกกำหนดให้เปิดอยู่ในอนาคตจะปรากฏบน**แท็บ**จัดตารางการผลิต กระบวนการชุดงานจะเปิดขึ้นในเวลาเที่ยงคืนของวันที่ที่ระบุตามโซนเวลาที่แสดงอยู่ในวันที่ของระบบ
+คุณลักษณะที่ถูกกำหนดให้เปิดอยู่ในอนาคตจะปรากฏบน **แท็บ** จัดตารางการผลิต กระบวนการชุดงานจะเปิดขึ้นในเวลาเที่ยงคืนของวันที่ที่ระบุตามโซนเวลาที่แสดงอยู่ในวันที่ของระบบ
 
 ## <a name="reschedule-a-feature"></a>จัดกำหนดการคุณลักษณะใหม่
 
@@ -183,7 +183,9 @@ ms.locfileid: "3967345"
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>การเปิดใช้งานลักษณะการทำงานสามารถตรวจสอบรหัสได้อย่างไร
 ใช้วิธีการ **isFeatureEnabled** บนคลาส **FeatureStateProvider** ผ่านอินสแตนซ์ของคลาสของลักษณะการทำงาน ให้ใส่คำหรือวลีที่คุณกำลังค้นหาไว้ในเครื่องหมายคำพูด
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>การเปิดใช้งานลักษณะการทำงานสามารถตรวจสอบข้อมูลเมตาได้อย่างไร
 คุณสมบัติ **FeatureClass** สามารถใช้เพื่อบ่งชี้ว่าข้อมูลเมตาบางอย่างเชื่อมโยงกับลักษณะการทำงาน ชื่อคลาสที่ใช้สำหรับลักษณะการทำงานควรใช้ เช่น **BatchContentionPreventionFeature** ข้อมูลเมตานี้จะมองเห็นได้เฉพาะในลักษณะการทำงานนั้นเท่านั้น คุณสมบัติ **FeatureClass** มีอยู่บนเมนู รายการเมนู ค่า enum และฟิลด์ตาราง/มุมมอง
@@ -191,9 +193,11 @@ ms.locfileid: "3967345"
 ### <a name="what-is-a-feature-class"></a>คลาสลักษณะการทำงานคืออะไร
 ลักษณะการทำงานในการจัดการลักษณะการทำงานกำหนดเป็น *คลาสลักษณะการทำงาน* คลาสลักษณะการทำงาน **ดำเนินการ IFeatureMetadata** และใช้แอททริบิวต์คลาสของลักษณะการทำงาน เพื่อระบุตัวเองให้กับพื้นที่ทำงานการจัดการลักษณะการทำงาน มีตัวอย่างจำนวนมากของคลาสลักษณะการทำงานที่สามารถตรวจสอบสำหรับการเปิดใช้งานในรหัสโดยใช้ API **FeatureStateProvider** และในเมตาดาต้าโดยใช้คุณสมบัติ **FeatureClass** ให้ใส่คำหรือวลีที่คุณกำลังค้นหาไว้ในเครื่องหมายคำพูด
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>IFeatureLifecycle ที่ใช้โดยคลาสที่มีลักษณะการทำงานคืออะไร
 IFeatureLifecycle เป็นกลไกภายในของ Microsoft สำหรับการบ่งชี้ระยะของววงจรการใช้งานของลักษณะการทำงาน ลักษณะการทำงานอาจเป็น:
 - PrivatePreview - ต้องการเที่ยวบินเพื่อให้มองเห็นได้

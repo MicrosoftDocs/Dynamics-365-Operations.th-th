@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 10eb32f75ccfe1521af9ebfe1e73ef08ea4238f7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017839"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -235,7 +236,7 @@ ms.locfileid: "3597565"
     - ตั้งค่าตัวเลือก **ประมวลผลเวฟเมื่อนำออกใช้ไปยังคลังสินค้า** เป็น *ไม่*
     - ตั้งค่าตัวเลือก **กำหนดให้เปิดเวฟ** เป็น *ใช่*
 
-1. บน FastTab **วิธีการ** ให้ตั้งค่าวิธีการ **การเรียงลำดับ**:
+1. บน FastTab **วิธีการ** ให้ตั้งค่าวิธีการ **การเรียงลำดับ** :
 
     1. ในกริด **วิธีการที่เหลือ** ให้เลือก **การเรียงลำดับ**
     2. เลือกปุ่มลูกศรขวาเพื่อย้าย **การเรียงลำดับ** ไปยังกริด **วิธีการที่เลือก**
@@ -342,13 +343,13 @@ ms.locfileid: "3597565"
 1. ในส่วน **รายละเอียดเท็มเพลตงาน** คุณจะสร้างสองบรรทัด เลือก **สร้าง** แล้วตั้งค่าค่าต่อไปนี้สำหรับบรรทัดที่ 1:
 
     - **ชนิดงาน:** *เบิกสินค้า*
-    - **ข้อบังคับ:** เลือก (= *ใช่*)
+    - **ข้อบังคับ:** เลือก (= *ใช่* )
     - **รหัสคลาสงาน:** *การเรียงลำดับ*
 
 1. เลือก **สร้าง** อีกครั้ง แล้วจากนั้น ตั้งค่าค่าต่อไปนี้สำหรับบรรทัดที่ 2:
 
     - **ชนิดงาน:** *ส่งสินค้า*
-    - **ข้อบังคับ:** เลือก (= *ใช่*)
+    - **ข้อบังคับ:** เลือก (= *ใช่* )
     - **รหัสคลาสงาน:** *การเรียงลำดับ*
 
 1. เลือก **บันทึก**

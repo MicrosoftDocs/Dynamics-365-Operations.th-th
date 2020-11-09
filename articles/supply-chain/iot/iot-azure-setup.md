@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014923"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
 
@@ -122,7 +122,7 @@ ms.locfileid: "3982905"
 1. ในทรัพยากรของคุณ ให้เลือกทรัพยากร Key Vault
 2. ในบานหน้าต่างนำทางทางด้านซ้าย ให้เลือก **นโยบายการเข้าถึง**
 3. เลือก **เพิ่มนโยบายการเข้าถึง**
-4. บนหน้า **เพิ่มนโยบายการเข้าถึง** ในฟิลด์**สิทธิ์ลับ** เลือก **รับ** และ **แสดงรายการ**
+4. บนหน้า **เพิ่มนโยบายการเข้าถึง** ในฟิลด์ **สิทธิ์ลับ** เลือก **รับ** และ **แสดงรายการ**
 5. คลิกใน **หลักการเลือก**
 6. ในกล่องโต้ตอบ **หลัก** ให้ค้นหาและเลือก **Microsoft Dynamics ERP Microservices** แล้วเลือก **เลือก**
 7. เลือก **เพิ่ม**

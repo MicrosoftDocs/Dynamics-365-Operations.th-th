@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (ตุลาคม 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (สิงหาคม 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Finance and Operations
@@ -262,9 +260,9 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
                 - name: การวางแผนสภาพแวดล้อม
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: จัดเตรียมสำหรับการเริ่มใช้งานจริง
+                - name: จัดเตรียมสำหรับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ เกี่ยวกับการเริ่มใช้งานจริง
+                - name: FAQ เกี่ยวกับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: ส่งคำขอรับบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: โมดูลเมนูนำทาง
                       href: nav-menu-module.md
+                    - name: โมดูลตัวเลือกไซต์
+                      href: site-selector.md
                 - name: โมดูลการปฏิบัติตามกฎระเบียบ
                   items:
                     - name: โมดูลการยินยอมใช้คุกกี้
@@ -1986,9 +1986,11 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: โครงสร้างของโมดูล
                   items:
+                    - name: ภาพรวมของโมดูล
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: ไฟล์คำนิยามของโมดูล
                       href: e-commerce-extensibility/module-definition-file.md
-                    - name: ไฟล์คอมโพเนนต์การตอบสนองต่อโมดูล
+                    - name: ไฟล์ส่วนประกอบการตอบสนองต่อโมดูล
                       href: e-commerce-extensibility/module-react-file.md
                     - name: ไฟล์มุมมองโมดูล
                       href: e-commerce-extensibility/module-view-file.md
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: ภาพรวมของส่วนประกอบแบบโต้ตอบ
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: จำลองสถานะลงชื่อเข้าใช้ระหว่างการพัฒนาภายในเครื่อง
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: กระจายโมดูลทั่วโลกโดยใช้คลาส CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: ตั้งค่า Azure Key Vault สำหรับการจัดการคีย์อย่างปลอดภัย
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: พัฒนาการดำเนินการกับข้อมูล
                   items:
                     - name: ภาพรวมของการดำเนินการกับข้อมูล
                       href: e-commerce-extensibility/data-actions.md
+                    - name: ตัวเลือกแคชของการดำเนินการกับข้อมูล
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: ทดสอบการดำเนินการกับข้อมูลด้วยการจำลอง
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: การดำเนินการกับข้อมูลการโหลดหน้า
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: ขยายธีมเพื่อเพิ่มส่วนขยายโมดูล
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: แทนที่ส่วนประกอบของไลบรารีโมดูลในธีม
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: ขยายธีมจากธีมพื้นฐาน
                       href: e-commerce-extensibility/extend-theme.md
                     - name: เพิ่มทรัพยากรที่กำหนดเองลงในรหัสการกำหนดเองของคุณ
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: การอัปเดต SDK และไลบรารีโมดูล
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: แนวทางปฏิบัติ
+                  items:
+                    - name: แนวทางปฏิบัติสำหรับการพัฒนา Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: สถาปัตยกรรมของ Retail SDK
@@ -2197,7 +2211,7 @@
                 - name: Retail Typescript และพร็อกซี C#
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: ใช้ APIs ของ Retail Server ในโปรแกรมประยุกต์ภายนอก
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: ความสามารถในการเพิ่มฟังก์ชัน Commerce Runtime (CRT)
               items:
                 - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก CRT
