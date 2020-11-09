@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728424"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997537"
 ---
 # <a name="company-concept-in-common-data-service"></a>แนวคิดของบริษัทใน Common Data Service
 
@@ -93,7 +92,7 @@ Common Data Service ไม่มีแนวคิดที่เทียบเ
 + หากคุณเป็นผู้ตั้งค่าคอนฟิกระบบหรือผู้ดูแลระบบ และคุณต้องการเติมข้อมูลบริษัทอัตโนมัติในแบบฟอร์มที่กำหนดเอง คุณก็สามารถใช้ [เหตุการณ์แบบฟอร์ม](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) เพิ่มการอ้างอิง JavaScript ไปยัง **msdyn_/DefaultCompany.js** และใช้เหตุการณ์ต่อไปนี้ คุณสามารถใช้แบบฟอร์มสำเร็จรูปใดๆ ก็ได้ ตัวอย่างเช่น แบบฟอร์ม **บัญชี**
 
     + เหตุการณ์ **OnLoad** สำหรับแบบฟอร์ม: ตั้งค่าฟิลด์ **defaultCompany**
-    + เหตุการณ์ **OnChange** สำหรับฟิลด์ **บริษัท**: ตั้งค่าฟิลด์ **updateDefaultCompany**
+    + เหตุการณ์ **OnChange** สำหรับฟิลด์ **บริษัท** : ตั้งค่าฟิลด์ **updateDefaultCompany**
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>ใช้การกรองตามบริบทของบริษัท
 

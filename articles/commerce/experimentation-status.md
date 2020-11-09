@@ -3,7 +3,7 @@ title: ตรวจสอบสถานะของการทดสอบ
 description: หัวข้อนี้อธิบายสถานะของการทดลองในวงจรการทดสอบใน Dynamics 365 Commerce
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 097206c0aa487e14499bdf3907465e17b7d337e2
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930297"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097081"
 ---
 # <a name="review-the-status-of-an-experiment"></a>ตรวจสอบสถานะของการทดสอบ
 มีขั้นตอนหลายอย่างที่เกี่ยวข้องกับการตั้งค่าและการรันการทดลองใน Dynamics 365 Commerce สำหรับข้อมูลเกี่ยวกับขั้นตอนวงจรการทดสอบ ให้ดูที่ [การทดสอบใน Dynamics 365 Commerce](experimentation-overview.md)
 
-เมื่อต้องการเรียนรู้ว่าการทดลองอยู่ตรงไหนในวงจรการใช้งาน ไปที่แท็บ **การทดลอง** ในโปรแกรมสร้างไซต์ รายการของการทดลองจะแสดงขึ้นพร้อมกับสถานะของการทดลองแต่ละอย่างในทั้ง Commerce และบริการของบุคคลที่สามที่ใช้ เพื่อเปิดใช้งานการสร้างการทดลอง กำหนดความแตกต่าง และวิเคราะห์ข้อมูล
+เมื่อต้องการเรียนรู้ว่าการทดลองอยู่ตรงไหนในวงจรการใช้งาน ในโปรแกรมสร้างไซต์ Commerce ให้เลือก **การทดลอง** ในบานหน้าต่างการนำทางด้านซ้าย รายการของการทดลองจะแสดงขึ้นพร้อมกับสถานะของการทดลองแต่ละอย่างในทั้ง Commerce และบริการของบุคคลที่สามที่ใช้ เพื่อเปิดใช้งานการสร้างการทดลอง กำหนดความแตกต่าง และวิเคราะห์ข้อมูล
 
 ในคอลัมน์ **สถานะ Commerce** อาจแสดงค่าต่อไปนี้ 
 - **แบบร่าง** - การทดลองเชื่อมโยงกับหน้าหรือส่วนใน Commerce และกำลังแก้ไข

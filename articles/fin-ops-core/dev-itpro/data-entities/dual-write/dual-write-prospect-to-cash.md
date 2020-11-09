@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829223"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997411"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 
@@ -57,7 +56,7 @@ ms.locfileid: "3829223"
 
 ลำดับหมายเลขสำหรับ Supply Chain Management และ Sales ไม่ได้เชื่อมต่อ เมื่อมีการสร้างและซิงค์ใบเสนอราคาและใบสั่งใน Sales และ Supply Chain Management ถ้าใบสั่งขายที่สร้างขึ้นใน Sales ถูกซิงค์กับ Supply Chain Management จะมีหมายเลขใบสั่งขายเดียวกันใน Supply Chain Management เมื่อต้องการตรวจสอบให้แน่ใจว่าหมายเลขใบสั่งขายไม่ซ้ำกัน คุณต้องใช้ระบบลำดับหมายเลขที่แตกต่างกันในแอปสองแอป
 
-ตัวอย่างเช่น ลำดับหมายเลขใน Supply Chain Management คือ **1, 2, 3, 4, 5, ...** และลำดับหมายเลขใน Sales คือ**100, 99, 98, ...** ถ้าคุณสร้างใบสั่งขาย 100 ใบใน Sales ในที่สุดหมายเลขใบสั่งจะถูกสร้างขึ้นซึ่งมีอยู่แล้วใน Supply Chain Management กล่าวคือ ลำดับหมายเลขสองลำดับจะทับซ้อนกันในที่สุดเมื่อมีการสร้างใบสั่งขายใน Supply Chain Management และ Sales แต่คุณอาจใช้ลำดับหมายเลข เช่น **F1, F2, F3, ...** ใน Supply Chain Management และลำดับหมายเลข เช่น **C1, C2, C3, ...** ใน Sales ลำดับหมายเลขเหล่านี้จะไม่มีการสร้างหมายเลขใบสั่งขายที่ซ้ำกัน
+ตัวอย่างเช่น ลำดับหมายเลขใน Supply Chain Management คือ **1, 2, 3, 4, 5, ...** และลำดับหมายเลขใน Sales คือ **100, 99, 98, ...** ถ้าคุณสร้างใบสั่งขาย 100 ใบใน Sales ในที่สุดหมายเลขใบสั่งจะถูกสร้างขึ้นซึ่งมีอยู่แล้วใน Supply Chain Management กล่าวคือ ลำดับหมายเลขสองลำดับจะทับซ้อนกันในที่สุดเมื่อมีการสร้างใบสั่งขายใน Supply Chain Management และ Sales แต่คุณอาจใช้ลำดับหมายเลข เช่น **F1, F2, F3, ...** ใน Supply Chain Management และลำดับหมายเลข เช่น **C1, C2, C3, ...** ใน Sales ลำดับหมายเลขเหล่านี้จะไม่มีการสร้างหมายเลขใบสั่งขายที่ซ้ำกัน
 
 ## <a name="sales-quotations"></a>ใบเสนอราคาขาย
 

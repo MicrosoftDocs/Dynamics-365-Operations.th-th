@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974872"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013064"
 ---
 # <a name="customer-aging-report"></a>รายงานอายุหนี้ของลูกค้า 
 
@@ -115,8 +115,9 @@ ms.locfileid: "3974872"
 <tr class="even">
 <td><p><strong>คำสั่งการพิมพ์</strong></p></td>
 <td><p>เลือกว่าจะคำนวณยอดดุลและพิมพ์รายงานอายุหนี้สำหรับรอบระยะเวลาในอดีตหรือในอนาคตหรือไม่ วันที่จะถูกประเมินโดยสัมพันธ์กับวันที่ที่เลือกในฟิลด์ <strong>ยอดดุล ณ วันที่</strong> โดยสัมพันธ์กับวันที่เลือกไว้ในฟิลด์ เลือก <strong>ย้อนหลัง</strong> เพื่อแสดงข้อมูลสำหรับรอบระยะเวลาในอดีต เลือก <strong>ไปข้างหน้า</strong> เพื่อแสดงข้อมูลสำหรับรอบระยะเวลาในอนาคต</p>
-
-**หมายเหตุ:** ข้อมูลที่คุณป้อนในฟิลด์นี้จะมีการใช้เฉพาะเมื่อคุณไม่ได้เลือกข้อกำหนดรอบระยะเวลาอายุหนี้ไว้เท่านั้น</P>
+<div class="alert">
+  
+<STRONG>หมายเหตุ:</STRONG> ข้อมูลที่คุณป้อนในฟิลด์นี้จะมีการใช้เฉพาะเมื่อคุณไม่ได้เลือกข้อกำหนดรอบระยะเวลาอายุหนี้ไว้เท่านั้น</P>
 
 
 </div></td>

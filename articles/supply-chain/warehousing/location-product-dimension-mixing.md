@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 968777b918d59b810a189139fbf4d6fee1b5d3f5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017172"
 ---
 # <a name="location-product-dimension-mixing"></a>การผสมมิติของผลิตภัณฑ์ในสถานที่
 
@@ -215,7 +216,7 @@ ms.locfileid: "3529994"
 1. ยืนยันการป้อนข้อมูลของคุณโดยเลือกปุ่มยืนยัน (✔) ที่ด้านล่างของหน้า
 1. ป้อนหมายเลขรายการจากใบสั่งซื้อที่ได้รับ เลือกฟิลด์ **LINENUM** แล้วใช้แผ่นหมายเลขเพื่อป้อน *1*
 1. ยืนยันรายการของคุณ
-1. ป้อนปริมาณที่จะรับ เลือกปุ่มเครื่องหมายบวก (**+**) สองครั้งเพื่อเพิ่มค่าในฟิลด์ **ปริมาณ** เป็น *2*
+1. ป้อนปริมาณที่จะรับ เลือกปุ่มเครื่องหมายบวก ( **+** ) สองครั้งเพื่อเพิ่มค่าในฟิลด์ **ปริมาณ** เป็น *2*
 1. ลงทะเบียนรายการของคุณโดยเลือกปุ่ม (✔) ที่ด้านล่างของหน้าแล้วยืนยันรายการของคุณโดยเลือกปุ่ม (✔) อีกครั้ง
 1. ดูข้อมูลในหน้า **ใบสั่งซื้อ: ใส่** หน้านี้แสดงงานที่สร้างขึ้นสำหรับการสำรองสินค้า (งาน 1)
 

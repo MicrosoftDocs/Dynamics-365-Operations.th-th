@@ -1,7 +1,7 @@
 ---
 title: ภาพรวมข้อมูลผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015140"
 ---
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 

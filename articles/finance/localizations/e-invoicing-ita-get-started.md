@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea0408f4ef72bf77a0659799075338e4e6b2aa30
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836043"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039803"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับอิตาลี
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลีอาจไม่สนับสนุนฟังก์ชันทั้งหมดที่พร้อมใช้งานสำหรับใบแจ้งหนี้อิเล็กทรอนิกส์ใน Microsoft Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ในขณะนี้ 

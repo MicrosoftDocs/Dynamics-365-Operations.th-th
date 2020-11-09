@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801469"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012332"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.8 (กุมภาพันธ์ 2020)
 
@@ -39,10 +39,11 @@ ms.locfileid: "3801469"
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น นอกจากนี้ คุณลักษณะเหล่านี้บางอย่างยังอาจถูกรวมไว้ในการนำออกใช้ส่วนเพิ่มก่อนหน้านี้ แต่ยังไม่ได้ประกาศในหัวข้อ *มีอะไรใหม่* ก่อนหน้านี้ ดังนั้นเราจึงเพิ่มไว้ที่นี่ คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 - [โซนเวลาของสถานที่เพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [การจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการสินทรัพย์](../asset-management/index.md)
 - [ยกเลิกงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกงานของคลังสินค้าสำหรับการจัดการข้อยกเว้น](../warehousing/cancel-warehouse-work.md)
 - [เปลี่ยนกลุ่มงานในงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [เปลี่ยนกลุ่มงานในการทำงาน](../warehousing/change-work-pool-on-work.md)
-- [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตำแหน่งคลัสเตอร์เต็ม](../warehousing/cluster-position-full.md)
+- [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตำแหน่งคลัสเตอร์เต็ม](../warehousing/cluster-position-full.md)
 - [ยืนยันและโอนย้าย](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันและโอนย้าย](../warehousing/confirm-and-transfer.md)
 - [คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อายุหนี้ของการเบิกสินค้าคงคลังของคำสั่งสถานที่](../warehousing/location-directive-inventory-picking-aging.md)
 - [สถานะสถานที่](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

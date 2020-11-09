@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fc5db8d04a2860df0c917816e2910c6fbda941ff
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173165"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000745"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>ลำดับชั้นขององค์กรใน Common Data Service
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 เนื่องจาก Dynamics 365 Finance เป็นระบบทางการเงิน *องค์กร* เป็นแนวคิดหลัก และการตั้งค่าระบบจะเริ่มต้นด้วยการตั้งค่าคอนฟิกของลำดับชั้นขององค์กร สามารถติดตามการเงินของธุรกิจได้ที่ระดับองค์กรและที่ระดับใดก็ได้ในลำดับชั้นขององค์กร
 
@@ -41,8 +38,6 @@ ms.locfileid: "3173165"
 ระบบแวดล้อมทางธุรกิจที่ประกอบด้วยแอป Finance and Operations และ Common Data Service จะยังคงมีลำดับชั้นขององค์กรต่อไป ลำดับชั้นขององค์กรนี้สร้างขึ้นบนแอป Finance and Operations แต่เปิดเผยใน Common Data Service เพื่อวัตถุประสงค์ในการให้ข้อมูลและการขยาย ภาพประกอบต่อไปนี้แสดงข้อมูลลำดับชั้นขององค์กรที่เปิดเผยใน Common Data Service เป็นโฟลว์ข้อมูลทางเดียวจากแอป Finance and Operations ไปยัง Common Data Service
 
 ![รูปภาพของสถาปัตยกรรม](media/dual-write-data-flow.png)
-
-## <a name="templates"></a>เท็มเพลต
 
 แผนผังเอนทิตีลำดับชั้นขององค์กรพร้อมใช้งานสำหรับการทำข้อมูลทางเดียวให้ตรงกันจากแอป Finance and Operations ไปยัง Common Data Service
 
@@ -55,10 +50,9 @@ ms.locfileid: "3173165"
 วัตถุประสงค์ลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchypurposes | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีวัตถุประสงค์ของลำดับชั้นขององค์กร
 ชนิดลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchytypes | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีชนิดของลำดับชั้นขององค์กร
 ลำดับชั้นขององค์กรที่เผยแพร่ | msdyn_internalorganizationhierarchies | เท็มเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับเอนทิตีที่เผยแพร่ของลำดับชั้นขององค์กร
-หน่วยปฏิบัติงาน | msdyn_internalorganizations | 
-นิติบุคคล | msdyn_internalorganizations | 
+หน่วยปฏิบัติงาน | msdyn_internalorganizations |
+นิติบุคคล | msdyn_internalorganizations |
 นิติบุคคล | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
-
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
@@ -77,4 +71,3 @@ ms.locfileid: "3173165"
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-

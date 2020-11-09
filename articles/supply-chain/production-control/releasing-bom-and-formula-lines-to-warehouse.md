@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse
+ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ab0a6e7de02b4b69d3f7a129392a1057482f0c26
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017241"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>นำรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า
 

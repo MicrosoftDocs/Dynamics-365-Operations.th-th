@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024671"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107172"
 ---
 # <a name="commerce-home-page"></a>โฮมเพจการค้า
-
 
 [!include [banner](includes/banner.md)]
 
@@ -50,7 +49,7 @@ Dynamics 365 Commerce ซึ่งต่อยอดมาจากความ�
 - [กำหนดค่าสภาพแวดล้อมการแสดงตัวอย่างของ Commerce](provisioning-guide.md)
 - [สถาปัตยกรรมการค้า](retail-components.md)
 - [ตั้งค่าช่องทางของคุณ](channels-overview.md)
-- [การจัดซื้อผลิตภัณฑ์และการบริการของคุณ](set-up-retail-products.md)
+- [การขายผลิตภัณฑ์และบริการของคุณ](set-up-retail-products.md)
 - [จัดการใบสั่งของคุณ](Order-fulfillment-overview.md)
 - [จัดการลูกค้าของคุณ](set-up-customer-loyalty-program.md)
 - [จัดการข้อมูลทางการเงินของคุณ](retail-statements.md)

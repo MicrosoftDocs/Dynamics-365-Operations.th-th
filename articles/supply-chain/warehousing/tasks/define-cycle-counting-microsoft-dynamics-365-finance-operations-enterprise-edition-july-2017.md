@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1503ef3646657a4b7bb7e240144af2ac559a62d0
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016159"
 ---
 # <a name="define-cycle-counting"></a>กำหนดการตรวจนับตามรอบ  
 
@@ -46,7 +47,7 @@ ms.locfileid: "3383032"
 7. ในฟิลด์ **สั่งการโดย** เลือก 'สั่งการโดยระบบ' เมื่อมีการเลือก "สั่งการโดยระบบ" ผู้ปฏิบัติงานคลังสินค้าจะถูกส่งการให้เปิดงานที่อยู่ในคลาสงานที่กำหนด (ถัดไปเราจะสร้างคลาสงานเหล่านี้)  
 8. ขยาย fastTab **คลาสงาน** ถัดไป เราจะสร้างคลาสงานสองชิ้นที่จะใช้กับรายการเมนูบนอุปกรณ์เคลื่อนที่นี้ เมื่อรายการเมนูถูกใช้ คลาสงานเหล่านี้จะถูกสอบถาม และจะแสดงงานที่มีระดับความสำคัญสูงสุดต่อผู้ใช้  
 9. คลิก **สร้าง**
-10. ในฟิลด์**รหัสคลาสงาน** เลือกค่าใดค่าหนึ่ง
+10. ในฟิลด์ **รหัสคลาสงาน** เลือกค่าใดค่าหนึ่ง
 11. คลิก **สร้าง**
 12. ในฟิลด์ **รหัสคลาสงาน** เลือกค่าใดค่าหนึ่ง
 13. ใน **บานหน้าต่างการดำเนินการ** คลิก **บันทึก**

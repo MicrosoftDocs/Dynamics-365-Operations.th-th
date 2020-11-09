@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017816"
 ---
 # <a name="wave-step-codes"></a>รหัสขั้นตอนของเวฟ
 
@@ -59,7 +59,7 @@ ms.locfileid: "3323588"
 
 หลังจากที่คุณได้แก้ไขความขัดแย้งใดๆ ที่ระบุในระหว่างการตรวจสอบแล้ว คุณสามารถลองเปิดใช้งานคุณลักษณะอีกครั้งได้
 
-เมื่อมีการเปิดใช้งานคุณลักษณะ หน้า **รหัสขั้นตอนเวฟ** (**การจัดการคลังสินค้า \> การตั้งค่า \> เวฟ \> รหัสขั้นตอนเวฟ**) จะกลายเป็นพร้อมใช้งาน หน้านี้จะแสดงรายการรหัสขั้นตอนเวฟที่ถูกปรับรุ่น เมื่อมีการเปิดใช้งานคุณลักษณะรหัสขั้นตอนของเวฟทั่วทั้งองค์กร
+เมื่อมีการเปิดใช้งานคุณลักษณะ หน้า **รหัสขั้นตอนเวฟ** ( **การจัดการคลังสินค้า \> การตั้งค่า \> เวฟ \> รหัสขั้นตอนเวฟ** ) จะกลายเป็นพร้อมใช้งาน หน้านี้จะแสดงรายการรหัสขั้นตอนเวฟที่ถูกปรับรุ่น เมื่อมีการเปิดใช้งานคุณลักษณะรหัสขั้นตอนของเวฟทั่วทั้งองค์กร
 
 ### <a name="create-new-wave-step-codes"></a>สร้างรหัสขั้นตอนของเวฟใหม่
 

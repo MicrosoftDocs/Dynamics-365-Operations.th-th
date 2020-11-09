@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66611e2d8a88269fe727c46ef4aa6aa809cc7836
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018364"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ
 
@@ -33,7 +33,7 @@ ms.locfileid: "3214055"
 ## <a name="create-a-consignment-replenishment-order"></a>สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > การจัดซื้อและการจัดหา > การส่งมอบ > ใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ**
 2. เลือก **ใหม่**
-3. ในฟิลด์ **บัญชีผู้จัดจำหน่าย** เลือกผู้จัดจำหน่าย **US-104** (คุณต้องเลือกผู้จัดจำหน่ายที่มีการลงทะเบียนเป็นเจ้าของในหน้า **เจ้าของสินค้าคงคลัง**) 
+3. ในฟิลด์ **บัญชีผู้จัดจำหน่าย** เลือกผู้จัดจำหน่าย **US-104** (คุณต้องเลือกผู้จัดจำหน่ายที่มีการลงทะเบียนเป็นเจ้าของในหน้า **เจ้าของสินค้าคงคลัง** ) 
 4. เลือก **ตกลง**
 5. เลือก **เพิ่มรายการ**
 6. ในฟิลด์ **หมายเลขสินค้า** ให้พิมพ์ `M9211CI` (คุณต้องเลือกสินค้าที่ตั้งค่าไว้สำหรับสินค้าคงคลังการส่งมอบ)
