@@ -14,6 +14,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
+                - name: จัดการการอัปเดตและวงจรการใช้งานโค้ดที่กำหนดเอง รวมถึง Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/commerce/toc.json
                 - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ในสถานที่
@@ -68,9 +70,9 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce Data Exchange คำแนะนำการใช้งาน
+                - name: คำแนะนำการใช้งาน Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+                - name: แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -92,22 +94,20 @@
                   items:
                     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.16 (กุมภาพันธ์ 2021)
+                      href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (มกราคม 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (พฤศจิกายน 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
-                    - name: Commerce 10.0.13 (ตุลาคม 2020)
-                      href: get-started/whats-new-commerce-10-0-13.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Commerce
+                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
-                - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
             - name: แหล่งข้อมูลเอกสารประกอบ
@@ -160,9 +160,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: การค้นหาการดำเนินการ
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/commerce/toc.json
-                - name: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
+                - name: การกรองขั้นสูงและไวยากรณ์แบบสอบถาม
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
+                - name: ตั้งค่าคอนฟิกและกรองพื้นที่ทำงาน
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/commerce/toc.json
                 - name: แสดงหน้าแบบเคียงข้างกันโดยใช้คุณสมบัติเปิดในหน้าต่างใหม่
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/commerce/toc.json
@@ -324,6 +324,8 @@
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
                         - name: การคำนวณการยกเว้นภาษี
                           href: tax-exempt-price-inclusive.md
+                        - name: ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
+                          href: sales-tax-config.md
                     - name: ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
                       href: email-notification-profiles.md
                     - name: ลำดับหมายเลข
@@ -362,12 +364,10 @@
                       href: MPOS-or-CPOS.md
                     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
                       href: pos-operations.md
-                    - name: การเรียกใช้อุปกรณ์ของ Modern POS ที่กำหนดเอง
+                    - name: การเปิดใช้งานอุปกรณ์ของ Modern POS ที่กำหนดเอง
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: เปิดใช้งานการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
                       href: aad-pos-logon.md
-                    - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS และ POS ระบบคลาวด์
-                      href: demo-data.md
                     - name: การค้นหาผลิตภัณฑ์และลูกค้าใน POS
                       href: POS-search-improvements.md
                     - name: ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยในระหว่างการป้อนข้อมูลใบสั่ง
@@ -510,6 +510,8 @@
                       href: cash-denominations.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลบัตรเครดิต
                       href: tasks/configure-credit-card-processing.md
+                    - name: ข้ามกล่องโต้ตอบ "เงินทอน" ใน POS
+                      href: dev-itpro/skip-change-due.md
                     - name: ตัวเชื่อมต่อการชำระเงิน Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen
@@ -530,10 +532,16 @@
                       href: dev-itpro/commerce-payments.md
                     - name: ประมวลผลบัตรเครดิตโดยไม่มีสถานีฮาร์ดแวร์
                       href: dev-itpro/cnp-pos.md
+                    - name: Dynamics 365 Payment Connector สำหรับ PayPal
+                      href: paypal.md
+                    - name: การสนับสนุนการชำระเงินด้วยกระเป๋าสตางค์
+                      href: wallets.md
                     - name: FAQ เกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
                 - name: จัดการ Bing Maps สำหรับองค์กรของคุณ
                   href: dev-itpro/manage-bing-maps.md
+                - name: สร้างและอัปเดตที่ช่วงเวลาสำหรับการรับสินค้าของลูกค้า
+                  href: dev-itpro/pickup-timeslots.md
         - name: การขายผลิตภัณฑ์และบริการของคุณ
           items:
             - name: ประเภท ผลิตภัณฑ์ และการจัดประเภท
@@ -710,10 +718,14 @@
                   href: hybrid-customer-orders.md
                 - name: เรียกคืนการดำเนินงานใบสั่งใน POS
                   href: enhancedorderrecall.md
+                - name: เปิดใช้งานวิธีการจัดส่งสำหรับการรับสินค้าหลายรายการ
+                  href: multiple-pickup-modes.md
             - name: ใบสั่งขาย
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
                   href: tasks/create-call-center-orders.md
+                - name: ปรับแต่งอีเมลของธุรกรรมตามวิธีการจัดส่ง
+                  href: customize-email-delivery-mode.md
                 - name: เปลี่ยนวิธีการจัดส่งใน POS
                   href: POS-change-delivery-mode.md
             - name: การจัดการใบสั่งแบบกระจาย
@@ -773,7 +785,17 @@
             - name: ปิดใช้งานกฎในตัวตรวจสอบความสอดคล้องกันของธุรกรรมการขายปลีก
               href: disable-consistency-check-rule.md
             - name: แก้ไขและตรวจสอบธุรกรรมของร้านค้าปลีก
-              href: edit-audit-retail-transactions.md
+              items:
+                - name: แก้ไขและตรวจสอบธุรกรรมเงินสดและการขนส่งและการจัดการเงินสด
+                  href: edit-cash-trans.md
+                - name: แก้ไขและตรวจสอบธุรกรรมใบสั่งออนไลน์และใบสั่งของลูกค้าแบบอะซิงโครนัส
+                  href: edit-order-trans.md
+                - name: แก้ไขมิติทางการเงินสำหรับธุรกรรมการขายปลีก
+                  href: edit-financial-dim.md
+                - name: สร้างเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก
+                  href: create-excel-edit.md
+                - name: เพิ่มฟิลด์ลงในเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก
+                  href: add-fields-excel.md
             - name: การสร้างใบสั่งตามฟีดแบบต่อเนื่องสำหรับธุรกรรมร้านค้าปลีก
               href: trickle-feed.md
             - name: สร้าง คำนวณ และลงรายการบัญชีใบแจ้งยอดสำหรับร้านค้าปลีก
@@ -808,7 +830,7 @@
               href: task-mgmt-pos.md
         - name: จัดการไซต์อีคอมเมิร์ซของคุณ
           items:
-            - name: ภาพรวมของร้านค้าออนไลน์
+            - name: ภาพรวมของไซต์อีคอมเมิร์ซ
               href: online-store-overview.md
             - name: สร้างไซต์อีคอมเมิร์ซ
               items:
@@ -818,11 +840,11 @@
                   href: deploy-ecommerce-site.md
                 - name: สร้างไซต์อีคอมเมิร์ซ
                   href: create-ecommerce-site.md
-                - name: เชื่อมโยงไซต์อีคอมเมิร์ซกับช่องทางออนไลน์
+                - name: เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์
                   href: associate-site-online-store.md
                 - name: จัดการไฟล์ robots.txt
                   href: manage-robots-txt-files.md
-                - name: อัพโหลดการเปลี่ยนเส้นทาง URL จำนวนมาก
+                - name: อัปโหลดการเปลี่ยนเส้นทาง URL จำนวนมาก
                   href: upload-bulk-redirects.md
                 - name: ตั้งค่าผู้เช่า B2C ใน Commerce
                   href: set-up-B2C-tenant.md
@@ -940,12 +962,14 @@
                   href: dam-upload-images.md
                 - name: อัพโหลดวิดีโอ
                   href: dam-upload-video.md
-                - name: อัพโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
+                - name: อัปโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
                   href: dam-upload-files.md
                 - name: ครอบตัดรูปภาพ
                   href: dam-crop-images.md
                 - name: ปรับแต่งจุดโฟกัสของรูปภาพ
                   href: dam-custom-focal-point.md
+                - name: อัปโหลดและให้บริการไฟล์แบบคงที่
+                  href: upload-serve-static-files.md
             - name: ทำให้เว็บไซต์ของคุณเป็นไปตามกฎระเบียบ
               items:
                 - name: ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ
@@ -1014,6 +1038,8 @@
                       href: ship-address-module.md
                     - name: โมดูลตัวเลือกการจัดส่ง
                       href: delivery-options-module.md
+                    - name: โมดูลข้อมูลการรับสินค้า
+                      href: pickup-info-module.md
                     - name: โมดูลรายละเอียดใบสั่ง
                       href: order-confirmation-module.md
                     - name: โมดูลบัตรของขวัญ
@@ -1966,21 +1992,23 @@
                   href: e-commerce-extensibility/overview.md
                 - name: เริ่มต้นใช้งาน
                   items:
+                    - name: เริ่มต้นใช้งานการพัฒนาความสามารถในการเพิ่มฟังก์ชันออนไลน์ของอีคอมเมิร์ซ
+                      href: e-commerce-extensibility/sdk-getting-started.md
                     - name: ความต้องการของระบบ
                       href: e-commerce-extensibility/system-requirements.md
                     - name: ตั้งค่าสภาพแวดล้อมการพัฒนา
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: ตั้งค่าคอนฟิกไฟล์สภาพแวดล้อมการพัฒนา (.env)
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: ดีบักสภาพแวดล้อมการพัฒนา Commerce ระดับ 1
+                    - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการพัฒนาอีคอมเมิร์ซกับสภาพแวดล้อม Commerce ในระบบคลาวด์
                       href: e-commerce-extensibility/debug-tier-1.md
-                    - name: ตั้งค่าการใช้รหัส Azure DevOps ร่วมกันและสร้างไปป์ไลน์การสร้าง
+                    - name: ตั้งค่าการใช้โค้ด Azure DevOps ร่วมกันและสร้างไปป์ไลน์การสร้าง
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: ภาพรวมของแพลตฟอร์ม
                   items:
-                    - name: ภาพรวมของสถาปัตยกรรม
+                    - name: ภาพรวมของสถาปัตยกรรมอีคอมเมิร์ซ
                       href: e-commerce-extensibility/architectural-overview.md
-                    - name: ส่วนประกอบออนไลน์
+                    - name: คอมโพเนนต์ของ Commerce
                       href: e-commerce-extensibility/ecommerce-components.md
                     - name: การอ้างอิงคำสั่ง CLI
                       href: e-commerce-extensibility/cli-command-reference.md
@@ -2112,10 +2140,12 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: การอัปเดต SDK และไลบรารีโมดูล
                       href: e-commerce-extensibility/sdk-updates.md
-                - name: แนวทางปฏิบัติ
+                - name: แนวทางปฏิบัติและ FAQ
                   items:
                     - name: แนวทางปฏิบัติสำหรับการพัฒนา Dynamics 365 Commerce
                       href: e-commerce-extensibility/best-practices-dev.md
+                    - name: FAQ เกี่ยวกับ Dynamics 365 Commerce Online SDK
+                      href: e-commerce-extensibility/sdk-faq.md
             - name: Retail SDK
               items:
                 - name: สถาปัตยกรรมของ Retail SDK
@@ -2136,6 +2166,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: ตั้งค่าไปป์ไลน์การสร้าง Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: ดาวน์โหลดตัวอย่างและแพคเกจจาก GitHub และ NuGet
+                  href: dev-itpro/retail-sdk/sdk-github.md
                 - name: FAQ เกี่ยวกับ Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน
@@ -2156,6 +2188,8 @@
                   href: dev-itpro/POS-APIs.md
                 - name: ส่วนขยายการชำระเงิน POS
                   href: dev-itpro/pos-payment-extension.md
+                - name: การสนับสนุนการให้ทิปใน SDK การชำระเงินของ POS
+                  href: dev-itpro/tipping.md
                 - name: การรองรับบัตรของขวัญภายนอก
                   href: dev-itpro/gift-card.md
                 - name: สร้างและใช้การสร้างแบรนด์กับแอป Retail Experience
@@ -2218,9 +2252,9 @@
                   href: dev-itpro/commerce-runtime-overview.md
                 - name: การบริการ CRT
                   href: dev-itpro/crt-services.md
-                - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และ Retail Server
+                - name: รูปแบบของส่วนขยาย CRT
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: จัดการข้อมูลความลับของช่องทางการขายปลีก
+                - name: จัดการข้อมูลความลับของช่องทาง Retail
                   href: dev-itpro/manage-secrets.md
                 - name: ความสามารถในการเพิ่มฟังก์ชันของ CRT และทริกเกอร์
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md

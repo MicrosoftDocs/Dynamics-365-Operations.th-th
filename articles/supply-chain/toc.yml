@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: จัดการการอัปเดตและวงจรการใช้งานโค้ดที่กำหนดเอง รวมถึง Dynamics 365 Commerce
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: นโยบายวงจรการใช้งานซอฟต์แวร์ - ในสถานที่
@@ -58,7 +60,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+                - name: แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,12 +72,12 @@
                   items:
                     - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.15 (ธันวาคม 2020)
+                    - name: Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (มกราคม 2021)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13 (ตุลาคม 2020)
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: แหล่งข้อมูลเอกสารประกอบ
@@ -138,9 +138,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การค้นหาการดำเนินการ
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
+                - name: การกรองขั้นสูงและไวยากรณ์แบบสอบถาม
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
+                - name: ตั้งค่าคอนฟิกและกรองพื้นที่ทำงาน
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/supply-chain/toc.json
                 - name: แสดงหน้าแบบเคียงข้างกันโดยใช้คุณสมบัติเปิดในหน้าต่างใหม่
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/supply-chain/toc.json
@@ -216,6 +216,14 @@
                   items:
                     - name: สินค้าที่อยู่ระหว่างส่งต่อจากผู้จัดจำหน่าย
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: ระบบคลาวด์และ Edge
+          items:
+            - name: สเกลยูนิตในระบบคลาวด์และ Edge สำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: การจัดการสินทรัพย์
           items:
             - name: ภาพรวมของการจัดการสินทรัพย์
@@ -230,9 +238,9 @@
                 - name: สถานะของวงจรการใช้ของตำแหน่งที่ทำงาน
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: ชนิดของแอททริบิวต์การบำรุงรักษา
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: ชนิดตำแหน่งที่ทำงาน
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: ชนิดตำแหน่งที่ทำงาน
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: ตำแหน่งที่ทำงาน
               items:
                 - name: บทนำเกี่ยวกับตำแหน่งที่ทำงาน
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: ชุดเนื้อหาของ Power BI สำหรับการจัดการต้นทุน
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: แก้ไขปัญหาการจัดการต้นทุน
+              href: cost-management/troubleshoot-costmanagement.md
         - name: การรายงานและการรวม Power BI
           items:
             - name: การรายงานและการวิเคราะห์ด้วย Power BI
@@ -1327,11 +1337,13 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Add-in การแสดงผลสินค้าคงคลัง
+              href: inventory/inventory-visibility.md
         - name: เครื่องมือ IoT
           items:
             - name: โฮมเพจเครื่องมือ IoT
               href: iot/iot-intelligence-home-page.md
-            - name: ตั้งค่าแหล่งข้อมูล Azure
+            - name: ตั้งค่าทรัพยากร Azure
               href: iot/iot-azure-setup.md
             - name: รูปแบบเค้าร่างข้อความสำหรับฮับ IoT
               href: iot/iot-schema-format.md
@@ -1347,6 +1359,8 @@
           items:
             - name: โฮมเพจการวางแผนหลัก
               href: master-planning/master-planning-home-page.md
+            - name: การย้ายไปยังเพิ่มประสิทธิภาพการวางแผนสำหรับการวางแผนหลัก
+              href: master-planning/new-master-planning-engine.md
             - name: การเพิ่มประสิทธิภาพการวางแผน
               items:
                 - name: ภาพรวมของการเพิ่มประสิทธิภาพการวางแผน
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: ใช้ตัวกรองกับแผน
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: การวางแผนหลักที่มีการคาดการณ์ความต้องการ
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: ค่าเผื่อความปลอดภัย
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/marking.md
+                - name: การวางแผนระหว่างบริษัท
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: ไม่รวมผลิตภัณฑ์ที่มีสถานะของวงจรการใช้ผลิตภัณฑ์ที่กำหนด
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: อนุมัติแผนการใบสั่ง
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: แก้ไขปัญหาการวางแผนหลัก
+              href: master-planning/troubleshoot-masterplanning.md
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
             - name: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: การคำนวณ BOM
                   href: cost-management/bom-calculations.md
+                - name: แก้ไขปัญหาข้อมูลผลิตภัณฑ์
+                  href: pim/troubleshooting-productinformation.md
             - name: การจัดโครงแบบผลิตภัณฑ์
               items:
                 - name: ภาพรวมของการจัดโครงแบบผลิตภัณฑ์
@@ -1955,6 +1981,34 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: โอนย้ายข้อมูลรุ่นผลิตภัณฑ์
                       href: pim/tasks/transfer-data-product-models.md
+                - name: แก้ไขปัญหาตัวจัดโครงแบบผลิตภัณฑ์
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: การจัดการการเปลี่ยนแปลงทางวิศวกรรม
+          items:
+            - name: ภาพรวมของการจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/product-engineering-overview.md
+            - name: การแนะนำคุณลักษณะการจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/engineering-scenarios.md
+            - name: พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/engineering-parameters.md
+            - name: สร้างค่าทั่วไปสำหรับการจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: องค์กรด้านวิศวกรรมและกฎความเป็นเจ้าของข้อมูล
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: เจ้าของผลิตภัณฑ์
+              href: engineering-change-management/product-owner.md
+            - name: แอททริบิวต์ทางวิศวกรรมและการค้นหาแอททริบิวต์ทางวิศวกรรม
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: รุุ่นทางวิศวกรรมและประเภทผลิตภัณฑ์ทางวิศวกรรม
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: สถานะของวงจรการใช้ผลิตภัณฑ์และธุรกรรม
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: จัดการการเปลี่ยนแปลงของผลิตภัณฑ์ทางวิศวกรรม
+              href: engineering-change-management/engineering-change-management.md
+            - name: ความพร้อมของผลิตภัณฑ์
+              href: engineering-change-management/product-readiness.md
+            - name: นำโครงสร้างผลิตภัณฑ์ออกใช้
+              href: engineering-change-management/release-product-structure.md
         - name: การควบคุมการผลิต
           items:
             - name: ภาพรวมของกระบวนการผลิต
@@ -2047,6 +2101,8 @@
                       items:
                         - name: ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
                           href: production-control/production-floor-execution-configure.md
+                        - name: ออกแบบอินเทอร์เฟสการดำเนินการผลิต
+                          href: production-control/production-floor-execution-tabs.md
                         - name: ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
                           href: production-control/production-floor-execution-setup.md
                         - name: วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต
@@ -2105,9 +2161,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: กลุ่มการทำงานแบบยืดหยุ่นเวลา
                       href: production-control/time-attendance-flex-groups.md
+                - name: แก้ไขปัญหาการผลิตที่แยกต่างหาก
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: การผลิตแบบ Lean
               items:
-                - name: ภาพรวม Lean manufacturing
+                - name: ภาพรวมของการผลิตแบบ Lean
                   href: production-control/lean-manufacturing-overview.md
                 - name: การรับเหมารายย่อยตามกิจกรรม
                   href: production-control/activity-based-subcontracting.md
@@ -2117,15 +2175,15 @@
                       href: production-control/lean-manufacturing-modeling-lean-organization.md
                     - name: ทรัพยากรของ Operations
                       href: production-control/operations-resources.md
-                    - name: กำหนดเซลล์ทำงานของ lean manufacturing
+                    - name: กำหนดเซลล์ทำงานของการผลิตแบบ Lean
                       href: production-control/tasks/define-lean-manufacturing-work-cells.md
                     - name: กำหนดกลุ่มกำหนดการแบบลีน
                       href: production-control/tasks/define-lean-schedule-groups.md
                 - name: จัดกำหนดการงานคัมบัง
                   items:
-                    - name: การกำหนดการแบบภาพสำหรับ Lean Manufacturing
+                    - name: การกำหนดการแบบภาพสำหรับการผลิตแบบ Lean
                       href: production-control/visual-scheduling-lean-manufacturing.md
-                    - name: การกำหนดการงานคัมบังสำหรับ Lean Manufacturing
+                    - name: การกำหนดการงานคัมบังสำหรับการผลิตแบบ Lean
                       href: production-control/lean-manufacturing-kanban-job-scheduling.md
                     - name: การจัดตารางการผลิตระดับงาน
                       href: production-control/job-scheduling.md
@@ -2137,9 +2195,9 @@
                       href: production-control/production-feedback.md
                     - name: สร้างเวอร์ชันขั้นตอนการผลิต
                       href: production-control/tasks/create-production-flow-version.md
-                    - name: สร้างกิจกรรมกระบวนการสำหรับ lean manufacturing
+                    - name: สร้างกิจกรรมกระบวนการสำหรับการผลิตแบบ Lean
                       href: production-control/tasks/create-process-activities-lean-manufacturing.md
-                    - name: สร้างกิจกรรมการโอนย้ายสำหรับ lean manufacturing
+                    - name: สร้างกิจกรรมการโอนย้ายสำหรับการผลิตแบบ Lean
                       href: production-control/tasks/create-transfer-activities-lean-manufacturing.md
                     - name: ตรวจสอบความถูกต้องของขั้นตอนการผลิตและรุ่น
                       href: production-control/tasks/validate-production-flow-version.md
@@ -2153,7 +2211,7 @@
                       href: production-control/tasks/create-value-stream.md
                     - name: การจำแนกประเภทแบบ Lean จากใบสั่งขาย
                       href: production-control/tasks/lean-pegging-sales-orders.md
-                    - name: สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับ lean manufacturing
+                    - name: สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับการผลิตแบบ Lean
                       href: production-control/tasks/create-subcontracted-work-cell-lean-manufacturing.md
                     - name: เพิ่มนโยบายการคำนวณปริมาณคัมบังให้กับกฎคัมบัง
                       href: production-control/tasks/add-kanban-quantity-calculation-policy-kanban-rule.md
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: การผลิตที่ลงรายการบัญชีแล้ว
                       href: cost-management/production-posting.md
+                - name: แก้ไขปัญหาการผลิตตามกระบวนการ
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: การขายและการตลาด
           items:
             - name: ภาพรวมของการขายและการตลาด
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: เชื่อมโยงดัชนีเชื้อเพลิงกับผู้ขนส่งเป็นค่าธรรมเนียมอุปกรณ์เสริม
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: การรับรองต้นทางของ USMCA
+              href: transportation/usmca-certification-of-origin.md
             - name: สร้างใบตราส่ง
               href: transportation/create-bill-of-lading.md
             - name: วางแผนกระบวนการผลิตการขนส่งค่าขนส่ง
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: ลงทะเบียนการเช็คอินและเช็คเอาท์ของพนักงานขนส่งสำหรับการนัดหมาย
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: ส่วนลด
+              href: transportation/transportation-management-discount.md
+            - name: ค่าธรรมเนียมเบ็ดเตล็ด
+              href: transportation/transportation-management-misc-charge.md
+            - name: โหมดและวิธีการ
+              href: transportation/transportation-management-modes-methods.md
+            - name: ลำดับหมายเลข
+              href: transportation/transportation-management-number-sequence.md
+            - name: สถานะ
+              href: transportation/transportation-management-status.md
+            - name: ต้นแบบโซน
+              href: transportation/transportation-management-zone-master.md
+            - name: กลุ่มผู้ขนส่ง
+              href: transportation/tasks/carrier-groups.md
+            - name: เวิร์กเบนช์การสร้างการบรรทุก
+              href: transportation/tasks/load-building-workbench.md
+            - name: เท็มเพลตการบรรทุก
+              href: transportation/tasks/load-template.md
+            - name: โพรไฟล์การจัดอันดับ
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: ตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่ง
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: ตั้งค่าวิธีการชำระเงินการขนส่ง
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
                   href: warehousing/location-product-dimension-mixing.md
+                - name: คลัสเตอร์การสำรองสินค้า
+                  href: warehousing/putaway-clusters.md
                 - name: การตรวจสอบคุณภาพ
                   href: warehousing/quality-check.md
+                - name: แก้ไขปัญหาการดำเนินงานคลังสินค้าขาเข้า
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: การดำเนินงานของคลังสินค้าขาออก
               items:
                 - name: การจองสินค้าในการจัดการคลังสินค้า
                   items:
                     - name: นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: แก้ไขการจองสินค้าในการจัดการคลังสินค้า
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: นำออกใช้บางส่วนและการจัดส่งบางส่วน
                   items:
                     - name: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: แก้ไขปัญหาการนำออกใช้บางส่วนและการจัดส่งบางส่วน
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: การเบิกสินค้าและการบรรจุสินค้า
                   items:
                     - name: ตั้งค่าการเลือกคลัสเตอร์
@@ -2691,12 +2781,16 @@
                       href: warehousing/pick-line-grouping.md
                     - name: การแบ่งช่วงเวลาของคลังสินค้า
                       href: warehousing/warehouse-slotting.md
-                    - name: คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
+                    - name: คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
                       href: warehousing/location-directive-inventory-picking-aging.md
                     - name: การเรียงลำดับขาออก
                       href: warehousing/outbound-sorting.md
                     - name: วางไปที่ผนัง - ใส่ไปที่ร้านค้า
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: แก้ไขปัญหาการเบิกสินค้าและการบรรจุสินค้า
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: การเติมสินค้า
                   items:
                     - name: ภาพรวมของการเติมสินค้า
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: การเติมสินค้าตามขีดจำกัดของโซน
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: กลยุทธ์การเติมสินค้า
+                      href: warehousing/replenishment-strategies.md
                     - name: การเติมสินค้าตามความจุของสถานที่
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: แก้ไขปัญหาการเติมสินค้าในคลังสินค้า
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: การสร้างและการจัดส่งสินค้าบรรทุก
                   items:
                     - name: ยืนยันและโอนย้าย
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: พิมพ์ใหม่และทำให้ป้ายชื่อของเวฟเป็นโมฆะ
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: แก้ไขปัญหาการสร้างและการจัดส่งสินค้าบรรทุก
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
                   items:
                     - name: นโยบายการรวมบัญชีการจัดส่ง
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: สถานการณ์จำลอง 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: แก้ไขปัญหาการดำเนินงานคลังสินค้าขาออก
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: การดำเนินงานคลังสินค้าในอีกด้าน
               items:
                 - name: นโยบายงานของคลังสินค้า
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: การรวมบัญชีสินค้า - การใช้ประโยชน์จากสถานที่
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: แก้ไขปัญหางานคลังสินค้า
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: การแบ่งงาน
+                      href: warehousing/work-split.md
             - name: การตั้งค่าคลังสินค้า
               items:
                 - name: การตั้งค่าคอนฟิกคลังสินค้า
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: สร้างคำสั่งสถานที่
+                    - name: การทำงานกับคำสั่งสถานที่
                       href: warehousing/create-location-directive.md
+                    - name: ขีดจำกัดการเก็บสินค้าคงคลังในสถานที่
+                      href: warehousing/location-stocking-limits.md
                     - name: รหัสขั้นตอนของเวฟ
                       href: warehousing/wave-step-codes.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
@@ -2839,10 +2947,12 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: การสนับสนุนบาร์โค้ดบนอุปกรณ์เคลื่อนที่
+                    - name: การรองรับบาร์โค้ดบนอุปกรณ์เคลื่อนที่
                       href: warehousing/mobile-barcode-support.md
                     - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: การแก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
                   items:
                     - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
@@ -2879,6 +2989,10 @@
                   items:
                     - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: แก้ไขปัญหาการอัปเกรดและการย้ายไปที่การจัดการคลังสินค้าขั้นสูง
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: แก้ไขปัญหาการตั้งค่าคลังสินค้า
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: การพัฒนา Supply Chain Management
           items:
             - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt

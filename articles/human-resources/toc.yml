@@ -5,7 +5,9 @@
       items:
         - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
           href: hr-admin-whats-new.md
-        - name: 22 ตุลาคม 2002
+        - name: 2 ธันวาคม 2020
+          href: hr-whats-new-2020-12-02.md
+        - name: 22 ตุลาคม 2020
           href: hr-whats-new-2020-10-22.md
         - name: 6 ตุลาคม 2020
           href: hr-whats-new-2020-10-06.md
@@ -125,7 +127,7 @@
                   href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
                 - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
                   href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ
+                - name: เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
                   href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
                 - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
                   href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
@@ -195,9 +197,9 @@
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
             - name: การค้นหาการดำเนินการ
               href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
-            - name: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
+            - name: การกรองขั้นสูงและไวยากรณ์แบบสอบถาม
               href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
-            - name: ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
+            - name: ตั้งค่าคอนฟิกและกรองพื้นที่ทำงาน
               href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
             - name: แสดงหน้าแบบเคียงข้างกันโดยใช้คุณสมบัติเปิดในหน้าต่างใหม่
               href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: สร้างปฏิทินเวลาการทำงาน
               href: hr-personnel-create-working-time-calendar.md
+            - name: สรรหาผู้สมัครงาน
+              href: hr-personnel-recruit.md
             - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
               href: hr-personnel-actions-faq.md
             - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: ตั้งค่าคอนฟิกการจัดการสวัสดิการ
                   items:
-                    - name: ตั้งค่าพารามิเตอร์การจัดการสวัสดิการ
+                    - name: ตั้งค่าคอนฟิกพารามิเตอร์การจัดการสวัสดิการต่อบริษัท
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: ตั้งค่าพารามิเตอร์การจัดการสวัสดิการและระบบบริการตนเองของพนักงานสำหรับบริษัททั้งหมด
                       href: hr-benefits-setup-parameters.md
                     - name: ตั้งค่าคอนฟิกกฎและตัวเลือกการมีคุณสมบัติ
                       href: hr-benefits-setup-eligibility-rules.md

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460017"
+---
 เมื่อคัดลอกฐานข้อมูลระหว่างสภาพแวดล้อม คุณจะต้องรันเครื่องมือการเตรียมใช้งานใหม่สำหรับสภาพแวดล้อม ก่อนที่ฐานข้อมูลที่คัดลอกไว้จะใช้งานได้อย่างเต็มความสามารถ เพื่อให้แน่ใจว่าคอมโพเนนต์ Commerce ทั้งหมดมีความทันสมัย
 
 > [!IMPORTANT]

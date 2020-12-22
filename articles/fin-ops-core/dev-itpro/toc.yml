@@ -14,14 +14,12 @@
               items:
                 - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.16 (กุมภาพันธ์ 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform update สำหรับ 10.0.15 (มกราคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform update สำหรับ 10.0.14 (พฤศจิกายน 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Platform update สำหรับ 10.0.13 (ตุลาคม 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Platform update สำหรับ 10.0.12 (สิงหาคม 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: ยังไม่มีการนำคุณลักษณะมาใช้ในการปรับใช้ในสถานที่
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: เหตุการณ์ทางธุรกิจ
@@ -158,10 +154,12 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
                                   href: data-entities/dual-write/enable-entity-map.md
-                            - name: การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
+                            - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: การจัดการการรวมแบบสองทิศทาง
                           items:
                             - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: ข้อมูลหลักของภาษีแบบรวม
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: ซิงค์กับกลไกจัดการการกำหนดราคาตามต้องการของ Dynamics 365 Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดในการรวมแบบสองทิศทาง
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: ซิงค์กับกลไกจัดการการกำหนดราคาตามต้องการของ Dynamics 365 Supply Chain Management
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: ใช้เครื่องมือการกำหนดราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
                               href: data-entities/dual-write/in-house-assets.md
                             - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
@@ -326,7 +326,7 @@
                   href: data-entities/entity-change-track.md
                 - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
                   href: data-entities/data-entities-report.md
-                - name: เท็มเพลตข้อมูลที่มีแผ่นงานหลายรายการ
+                - name: เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
                   href: data-entities/excel-template-multiple.md
                 - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
                   href: data-entities/entity-change-track.md
@@ -496,10 +496,12 @@
                   items:
                     - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
                       href: deployment/on-premises-overview.md
-                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
                       href: deployment/plan-onprem-deployment.md
                     - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: การตรวจสอบความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                   items:
                     - name: ตั้งค่าโครงการแบบในสถานที่ใน LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: สร้างการเชื่อมต่อ Lifecycle Services (LCS) ใน Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: อัปเดตไปป์ไลน์ดั้งเดิมใน Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: แอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
               items:
                 - name: สถานการณ์จำลองแบบครอบคลุมสำหรับแอปพลิเคชันตัวอย่างการจัดการยานพาหนะ
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: การเข้าถึงข้อมูลโดยใช้ SysDa API
                           href: dev-ref/sysda.md
+                        - name: ลดการโจมตีแบบแทรก SQL
+                          href: dev-ref/query-with-parameters.md
                     - name: แมโคร X++
                       href: dev-ref/xpp-macros.md
                     - name: คลาสแอททริบิวต์ X++
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในประเทศจีน
               href: lifecycle-services/21vianet-support.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
               href: lifecycle-services/support-experience.md
@@ -1498,6 +1504,8 @@
                   href: sysadmin/security-reports.md
                 - name: สร้างผู้ใช้ใหม่
                   href: sysadmin/tasks/create-new-users.md
+                - name: การจัดการเซสชันของผู้ใช้
+                  href: sysadmin/user-session-management.md
                 - name: นำเข้าผู้ใช้จำนวนมาก
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: ตั้งค่าการแบ่งแยกหน้าที่
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: การตั้งค่าไคลเอนต์ Azure Key Vault
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: การล้างข้อมูลกิจวัตร
+              href: sysadmin/cleanuproutines.md
         - name: การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
           items:
             - name: ทรัพยากรการอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: สร้างการนำทาง
                   href: user-interface/build-navigation.md
-                - name: สร้างพื้นที่ทำงาน
+                - name: ปรับเปลี่ยนพื้นที่ทำงาน
                   href: user-interface/build-workspace.md
             - name: แบบฟอร์ม
               items:
