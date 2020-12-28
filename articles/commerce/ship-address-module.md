@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7233b23020e6c82f39981d530095642902461807
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818409"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416290"
 ---
 # <a name="shipping-address-module"></a>โมดูลที่อยู่จัดส่ง
 
@@ -66,6 +66,8 @@ ms.locfileid: "3818409"
 [โมดูลการชำระเงิน](payment-module.md)
 
 [โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
+
+[โมดูลข้อมูลการเบิกสินค้า](pickup-info-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 

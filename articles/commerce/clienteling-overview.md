@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
 ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456518"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416124"
 ---
 # <a name="clienteling-overview"></a>ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
 
@@ -114,7 +114,7 @@ ms.locfileid: "3456518"
 
 3. สร้าง Azure Key Vault และบันทึกความลับของโปรแกรมประยุกต์ สำหรับคำแนะนำ ดู [การเริ่มต้นแบบด่วน: ตั้งค่าและดึงข้อมูลความลับจาก Azure Key Vault โดยใช้พอร์ทัล Azure ](https://docs.microsoft.com/azure/key-vault/quick-create-portal)
 4. เปิดใช้งานการเข้าถึง Azure Key Vault จาก Commerce เมื่อต้องการทำขั้นตอนนี้ให้เสร็จสมบูรณ์ คุณต้องมีรหัสโปรแกรมประยุกต์ และความลับ โปรแกรมประยุกต์อาจเป็นโปรแกรมประยุกต์เดียวกันกับที่คุณสร้างขึ้น ในขั้นตอนที่ 1 หรืออาจเป็นโปรแกรมประยุกต์ใหม่ก็ได้ (กล่าวคือ คุณสามารถใช้โปรแกรมประยุกต์ที่คุณสร้างขึ้นในขั้นตอนที่ 1 สำหรับทั้งการเข้าถึง Key Vault และ Customer Insights หรือคุณสามารถสร้างโปรแกรมประยุกเฉพาะ สำหรับการเข้าถึงแต่ละชนิดได้) สำหรับคำแนะนำ ดู [จัดเก็บข้อมูลประจำตัวหลัก ใน Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal)
-5. ในศูนย์ควบคุม ให้ไปที่ **การจัดการระบบ \> ตั้งค่า \> พารามิเตอร์ Key Vault**และป้อนข้อมูลที่จำเป็นสำหรับ key vault จากนั้นใน ฟิลด์ **ไคลเอนต์ของ Key Vault** ให้ป้อนรหัสของโปรแกมประยุกต์ที่คุณใช้ในขั้นตอนที่ 4 เพื่อให้ Commerce สามารถเข้าถึงความลับใน Key Vault
+5. ในศูนย์ควบคุม ให้ไปที่ **การจัดการระบบ \> ตั้งค่า \> พารามิเตอร์ Key Vault** และป้อนข้อมูลที่จำเป็นสำหรับ key vault จากนั้นใน ฟิลด์ **ไคลเอนต์ของ Key Vault** ให้ป้อนรหัสของโปรแกมประยุกต์ที่คุณใช้ในขั้นตอนที่ 4 เพื่อให้ Commerce สามารถเข้าถึงความลับใน Key Vault
 6. เมื่อต้องการเพิ่มแอปพลิเคชันที่คุณสร้างขึ้นในขั้นตอนที่ 1 ไปยังรายการของแอปพลิเคชันที่ปลอดภัย (บางครั้งเรียกว่า รายการที่ปลอดภัย) ให้ไปที่ Customer Insights และให้การเข้าถึง **มุมมอง** แก่แอปพลิเคชัน สำหรับคำแนะนำ ให้ดูที่ [สิทธิ์](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions)
 7. ใน Commerce บนหน้า **พารามิเตอร์ Commerce** ในแท็บ **ความสัมพันธ์อันดีกับลูกค้า** บน FastTab **Dynamics 365 Customer Insights** ให้ทำตามขั้นตอนต่อไปนี้
 

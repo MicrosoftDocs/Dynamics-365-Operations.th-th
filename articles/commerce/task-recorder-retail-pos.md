@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024208"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416190"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
@@ -67,7 +67,7 @@ ms.locfileid: "3024208"
     >
     > [![เครื่องหมายคำถาม](./media/help.jpg)](./media/help.jpg)
 
-4. หลังจากที่คุณคลิก **เริ่มต้น**ตัวบันทึกงานเข้าสู่โหมดการบันทึก บานหน้าต่าง **ตัวบันทึกงาน** แสดงรายละเอียดและตัวควบคุมที่เกี่ยวข้องกับกระบวนการบันทึก
+4. หลังจากที่คุณคลิก **เริ่มต้น** ตัวบันทึกงานเข้าสู่โหมดการบันทึก บานหน้าต่าง **ตัวบันทึกงาน** แสดงรายละเอียดและตัวควบคุมที่เกี่ยวข้องกับกระบวนการบันทึก
 5. ปฏิบัติการดำเนินการที่คุณต้องการดำเนินการในอินเทอร์เฟสผู้ใช้ (UI) ของ Retail Modern POS หรือ Cloud POS
 6. เมื่อต้องการสิ้นสุดรอบเวลาการบันทึก คลิก **หยุด**
 

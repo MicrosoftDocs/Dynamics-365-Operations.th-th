@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018525"
+ms.locfileid: "4438898"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443429"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527872"
 ---
 # <a name="overview"></a>ภาพรวม
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
 
@@ -51,9 +53,9 @@ ms.locfileid: "3443429"
 
 - [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 
-- [การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล](hr-admin-database-logging.md)
+- [ตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล](hr-admin-database-logging.md)
 
-- สำรวจอินเทอร์เฟซผู้ใช้
+- สำรวจอินเทอร์เฟสผู้ใช้
   - [องค์ประกอบอินเทอร์เฟสผู้ใช้](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [คุณลักษณะความสามารถในการเข้าถึง](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
   - [ภาพรวมของการจัดการคุณลักษณะ](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)

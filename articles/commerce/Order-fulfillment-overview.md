@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107218"
+ms.locfileid: "4416278"
 ---
 # <a name="store-order-fulfillment"></a>การเติมสินค้าของใบสั่งของร้านค้า
 

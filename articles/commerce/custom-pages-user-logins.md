@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817317"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517243"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
 
@@ -197,11 +197,11 @@ ms.locfileid: "3817317"
 
 [ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
-[ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
+[ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
 [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
-[เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
+[เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์](associate-site-online-store.md)
 
 [จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
 

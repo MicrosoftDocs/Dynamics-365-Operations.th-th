@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986514"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438498"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -34,7 +34,7 @@ ms.locfileid: "3986514"
 
 ## <a name="create-calculation-expression"></a>สร้างนิพจน์การคำนวณ
 1. คลิกแก้ไขนิพจน์
-2. ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish == "ขาว" 10, 15]'
+2. ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish=="White", 10, 15]'
 3. คลิก ตรวจสอบความถูกต้อง
 4. คลิก ปิด
 5. คลิก ตกลง

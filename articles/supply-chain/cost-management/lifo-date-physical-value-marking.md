@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980644"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438539"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
@@ -39,7 +39,7 @@ ms.locfileid: "3980644"
 ตัวอย่างต่อไปนี้จะแสดงผลกระทบของการใช้วันที่ LIFO ในค่าคอนฟิก 3 ชุด:
 
 -   วันที่ LIFO ที่ไม่มีตัวเลือก **รวมค่าทางกายภาพ**
--   วันที่ LIFO ที่มีตัวเลือก**รวมค่าทางกายภาพ**
+-   วันที่ LIFO ที่มีตัวเลือก **รวมค่าทางกายภาพ**
 -   วันที่ LIFO ที่มีการทำเครื่องหมาย
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>วันที่ LIFO ที่ไม่มีตัวเลือก รวมค่าทางกายภาพ

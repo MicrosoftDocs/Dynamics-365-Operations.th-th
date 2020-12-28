@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3886882"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438732"
 ---
 # <a name="cancel-a-master-planning-job"></a>ยกเลิกงานการวางแผนหลัก
 
@@ -51,5 +51,5 @@ ms.locfileid: "3886882"
 2. ถ้าไม่มีการแสดงรหัสงานในรายการให้คลิก **สลับไปยังแบบฟอร์มที่ปรับปรุงแล้ว** มิฉะนั้นดำเนินการขั้นตอนต่อไป
 3. เปิดชุดงาน คลิก **รหัสงาน** สำหรับชุดงานที่มีงานที่คุณต้องการสิ้นสุด
 4. ใน **ชุดงาน** เลือกงานที่จะสิ้นสุด
-5. คลิก **เปลี่ยนแปลงสถานะ**เลือก **การยกเลิก** และคลิก **ตกลง**
+5. คลิก **เปลี่ยนแปลงสถานะ** เลือก **การยกเลิก** และคลิก **ตกลง**
 6. บนแท็บ **ชุดงาน** ให้คลิก **ยกเลิก**

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0e83e7008c2547ba0d9e7061772db825e69469a0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985079"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438635"
 ---
 # <a name="view-dispatch-teams"></a>ดูทีมงานการจัดส่ง   
 
@@ -34,7 +34,7 @@ ms.locfileid: "3985079"
 
 1.  คลิก **การจัดการงานบริการ** \> **งานประจำงวด** \> **บอร์ดการจัดส่ง**
 
-2.  เลือกช่วงวัน และจากนั้น คลิก**ตกลง**
+2.  เลือกช่วงวัน และจากนั้น คลิก **ตกลง**
 
 3.  ในแบบฟอร์ม **บอร์ดการจัดส่ง** ในแผนภูมิ Gantt ที่ด้านบนของแบบฟอร์ม ให้ขยายรายชื่อทีมงานเพื่อตรวจทานชื่อของผู้ปฏิบัติงานในทีมงาน นอกจากนี้ คุณสามารถดูรายละเอียดเกี่ยวกับกิจกรรมการบริการที่กำหนดให้แก่ผู้ปฏิบัติงานแต่ละรายได้
 

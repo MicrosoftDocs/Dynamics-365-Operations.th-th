@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022016"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416293"
 ---
 # <a name="gift-card-module"></a>โมดูลบัตรของขวัญ
 
@@ -83,9 +83,11 @@ ms.locfileid: "4022016"
 
 [โมดูลการชำระเงิน](payment-module.md)
 
-[โมดูลที่อยู่จัดส่ง](ship-address-module.md)
+[โมดูลที่อยู่ที่จัดส่ง](ship-address-module.md)
 
 [โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
+
+[โมดูลข้อมูลการเบิกสินค้า](pickup-info-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 

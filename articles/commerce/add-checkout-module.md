@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8439b88ccda3f72e5a9b918c6c89bd406599b516
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818237"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416287"
 ---
 # <a name="checkout-module"></a>โมดูลเช็คเอาท์
 
@@ -118,9 +118,11 @@ ms.locfileid: "3818237"
 
 [โมดูลการชำระเงิน](payment-module.md)
 
-[โมดูลที่อยู่จัดส่ง](ship-address-module.md)
+[โมดูลที่อยู่ที่จัดส่ง](ship-address-module.md)
 
 [โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
+
+[โมดูลข้อมูลการเบิกสินค้า](pickup-info-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 

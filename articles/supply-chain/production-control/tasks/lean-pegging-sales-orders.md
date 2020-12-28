@@ -1,6 +1,6 @@
 ---
 title: การจำแนกประเภทแบบ Lean จากใบสั่งขาย
-description: 'กระบวนงานนี้เน้นไปที่ การตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อจากรายการขายที่ซึ่งสินค้าถูกผลิตด้วยคัมบัง '
+description: กระบวนงานนี้เน้นไปที่ การตรวจสอบความถูกต้องของแผนภูมิการเชื่อมโยงความต้องการกับการจัดซื้อจากรายการขายที่ซึ่งสินค้าถูกผลิตด้วยคัมบัง
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -18,11 +18,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e429fef6101f611d7a2c1b5323d6fe1e39d1cdd3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438450"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>การจำแนกประเภทแบบ Lean จากใบสั่งขาย
 

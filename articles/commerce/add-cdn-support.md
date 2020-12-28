@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646050"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517219"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)
 
@@ -97,8 +97,8 @@ ms.locfileid: "3646050"
 1. ในฟิลด์ **ชื่อ** ให้ป้อน **ค่าเริ่มต้น**
 1. ในฟิลด์ **โพรโทคอลที่ยอมรับ** เลือก **HTTP และ HTTPS**
 1. ในฟิลด์ **โฮสต์ Frontend** ให้ป้อน **dynamics-ecom-tenant-name.azurefd.net**
-1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบนให้ป้อน **/\***
-1. ภายใต้ **รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
+1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบน ให้ป้อน **/\** _
+1. ภายใต้ _*รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
 1. ในฟิลด์ **กลุ่ม Backend** ให้เลือก **ecom-backend**
 1. ในกลุ่มฟิลด์ **โพรโทคอลการส่งต่อ** เลือกตัวเลือก **การร้องขอการจับคู่** 
 1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
@@ -110,8 +110,8 @@ ms.locfileid: "3646050"
 1. ในฟิลด์ **ชื่อ** ให้ป้อน **สถิติ**
 1. ในฟิลด์ **โพรโทคอลที่ยอมรับ** เลือก **HTTP และ HTTPS**
 1. ในฟิลด์ **โฮสต์ Frontend** ให้ป้อน **dynamics-ecom-tenant-name.azurefd.net**
-1. ภายใต้ **Patterns to match** ในฟิลด์ด้านบนให้ป้อน **/\_msdyn365/\_scnr/\***
-1. ภายใต้ **รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
+1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบน **/\_msdyn365/\_scnr/\** _
+1. ภายใต้ _*รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
 1. ในฟิลด์ **กลุ่ม Backend** ให้เลือก **ecom-backend**
 1. ในกลุ่มฟิลด์ **โพรโทคอลการส่งต่อ** เลือกตัวเลือก **การร้องขอการจับคู่**
 1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
@@ -142,15 +142,15 @@ ms.locfileid: "3646050"
 
 ตอนนี้ CDN ของคุณควรได้รับการตั้งค่าคอนฟิกอย่างถูกต้อง เพื่อให้สามารถใช้กับไซต์ Commerce ของคุณได้
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
-[ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
+[ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
 [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
-[เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
+[เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์](associate-site-online-store.md)
 
 [จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
 

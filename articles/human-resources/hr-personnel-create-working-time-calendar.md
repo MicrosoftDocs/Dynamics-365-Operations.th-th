@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826108"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420689"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>สร้างปฏิทินและกำหนดเวลาการทำงาน
 

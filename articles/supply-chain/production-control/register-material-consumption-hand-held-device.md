@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211272"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438764"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>ลงทะเบียนปริมาณการใช้วัสดุโดยใช้อุปกรณ์เคลื่อนที่
 
@@ -68,7 +68,7 @@ ms.locfileid: "3211272"
 
 หลังจากที่มีการเริ่มต้นใบสั่งผลิต คุณสามารถลงทะเบียนปริมาณการใช้วัสดุที่มีลำดับงานสำหรับอุปกรณ์มือถือได้ ลองเริ่มต้นโดยการลงทะเบียนการใช้ 25 ปอนด์ของชุดงาน B1
 
-6.  เลือกรายการเมนู **ลงทะเบียนวัสดุ** **การใช้** ในเมนูสำหรับอุปกรณ์มือถือ ป้อนรายละเอียดต่อไปนี้: 
+6.  เลือกรายการเมนู  **ลงทะเบียนวัสดุ** **การใช้** ในเมนูสำหรับอุปกรณ์มือถือ ป้อนรายละเอียดต่อไปนี้: 
 
 -    หมายเลขใบสั่งผลิต 
 -    สถานที่ที่วัสดุจะถูกใช้ ในกรณีนี้ PIL-01 
