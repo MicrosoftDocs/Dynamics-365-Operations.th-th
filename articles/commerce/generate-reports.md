@@ -1,0 +1,140 @@
+---
+title: สร้างรายงานช่องทางออนไลน์
+description: หัวข้อนี้จะอธิบายวิธีการสร้างรายงานสำหรับช่องทางออนไลน์ของคุณใน Microsoft Dynamics 365 Commerce
+author: psimolin
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: samjar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: ae7b73c7a51ffa606876072d607fc219f5f6a2ba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416154"
+---
+# <a name="generate-online-channel-reports"></a><span data-ttu-id="3ad3b-103">สร้างรายงานช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-103">Generate online channel reports</span></span>
+
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="3ad3b-104">หัวข้อนี้จะอธิบายวิธีการสร้างรายงานสำหรับช่องทางออนไลน์ของคุณใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="3ad3b-104">This topic describes how to generate reports for your online channel in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="3ad3b-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="3ad3b-105">Overview</span></span>
+
+<span data-ttu-id="3ad3b-106">คุณสามารถสร้างและดูรายงานต่างๆใน Commerce เพื่อดูว่าช่องทางออนไลน์ของคุณกำลังดำเนินการเป็นอย่างไร</span><span class="sxs-lookup"><span data-stu-id="3ad3b-106">You can generate and view several reports in Commerce to see how your online channel is performing.</span></span>
+
+## <a name="channel-summary-report"></a><span data-ttu-id="3ad3b-107">รายงานสรุปช่องทาง</span><span class="sxs-lookup"><span data-stu-id="3ad3b-107">Channel summary report</span></span>
+
+<span data-ttu-id="3ad3b-108">รายงาน **สรุปช่องทาง** แสดงสรุปของธุรกรรมต่อไปนี้สำหรับช่องทางที่เลือกดังนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-108">The **Channel summary** report shows a summary of the following transactions for the selected channel:</span></span>
+
+- <span data-ttu-id="3ad3b-109">ธุรกรรมการขาย</span><span class="sxs-lookup"><span data-stu-id="3ad3b-109">Sales transactions</span></span>
+- <span data-ttu-id="3ad3b-110">ธุรกรรมการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="3ad3b-110">Payment transactions</span></span>
+- <span data-ttu-id="3ad3b-111">ธุรกรรมภาษี</span><span class="sxs-lookup"><span data-stu-id="3ad3b-111">Tax transactions</span></span>
+- <span data-ttu-id="3ad3b-112">ธุรกรรมที่ลดราคา</span><span class="sxs-lookup"><span data-stu-id="3ad3b-112">Discounted transactions</span></span>
+
+<span data-ttu-id="3ad3b-113">หากต้องการสร้างรายงาน **สรุปช่องทาง** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-113">To generate a **Channel summary** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-114">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานสรุปช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-114">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel summary report**.</span></span>
+1. <span data-ttu-id="3ad3b-115">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-115">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-116">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-116">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-117">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-117">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-118">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-118">Select **OK**.</span></span>
+ 
+## <a name="channel-sales-by-year-report"></a><span data-ttu-id="3ad3b-119">รายงานการขายผ่านช่องทางตามปี</span><span class="sxs-lookup"><span data-stu-id="3ad3b-119">Channel sales by year report</span></span> 
+
+<span data-ttu-id="3ad3b-120">รายงาน **ช่องทางการขายรายปี** แสดงการเปรียบเทียบยอดขายปีต่อปี สำหรับร้านค้าเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="3ad3b-120">The **Channel sales by year** report shows a comparison of year-over-year sales for a specific store.</span></span> <span data-ttu-id="3ad3b-121">คุณเลือกปีที่ต้องการเปรียบเทียบยอดขายด้วย และรายงานจะเปรียบเทียบการขายสำหรับปีที่เลือกกับการขายสำหรับปีก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-121">You select the year to compare the sales against, and the report compares sales for the selected year with sales for the previous year.</span></span>
+
+<span data-ttu-id="3ad3b-122">หากต้องการสร้างรายงาน **ช่องทางการขายรายปี** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-122">To generate a **Channel sales by year** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-123">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานสรุปช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-123">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel sales by year report**.</span></span>
+1. <span data-ttu-id="3ad3b-124">ในฟิลด์ **ปีปฏิทินเริ่มต้น** ให้ระบุปี</span><span class="sxs-lookup"><span data-stu-id="3ad3b-124">In the **From calendar year** field, enter a year.</span></span>
+1. <span data-ttu-id="3ad3b-125">ในฟิลด์ **ปีปฏิทินสิ้นสุด** ให้ระบุปี</span><span class="sxs-lookup"><span data-stu-id="3ad3b-125">In the **To calendar year** field, enter a year.</span></span>
+1. <span data-ttu-id="3ad3b-126">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-126">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-127">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-127">Select **OK**.</span></span>
+
+## <a name="channel-sales-by-hour-report"></a><span data-ttu-id="3ad3b-128">รายงานการขายผ่านช่องทางตามชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="3ad3b-128">Channel sales by hour report</span></span>
+
+<span data-ttu-id="3ad3b-129">รายงาน **ช่องทางการขายรายชั่วโมง** แสดงเมตริกการขายต่อชั่วโมงสำหรับช่องทางหรือหน่วยปฏิบัติงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-129">The **Channel sales by hour** report shows sales metrics per hour for a selected channel or operating unit.</span></span>
+
+<span data-ttu-id="3ad3b-130">หากต้องการสร้างรายงาน **ช่องทางการขายรายชั่วโมง** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-130">To generate a **Channel sales by hour** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-131">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานช่องทางการขายตามชั่วโมง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-131">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Channel sales by hour report**.</span></span>
+1. <span data-ttu-id="3ad3b-132">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-132">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-133">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-133">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-134">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-134">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-135">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-135">Select **OK**.</span></span>
+
+## <a name="top-customers-report"></a><span data-ttu-id="3ad3b-136">รายงานลูกค้าอันดับแรก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-136">Top customers report</span></span>
+
+<span data-ttu-id="3ad3b-137">รายงาน **ลูกค้าอันดับแรก** แสดงเมตริกการขายสำหรับลูกค้า *N* รายแรกสำหรับช่องทางหรือหน่วยปฏิบัติงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-137">The **Top customers** report shows sales metrics for the top *N* customers for a selected channel or operating unit.</span></span> <span data-ttu-id="3ad3b-138">ค่า *N* คือตัวเลขตั้งแต่ 10 ถึง 100 และขึ้นอยู่กับการวัดโดยรวมที่ผู้ใช้เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-138">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="3ad3b-139">หากต้องการสร้างรายงาน **ลูกค้าอันดับแรก** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-139">To generate a **Top customers** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-140">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานลูกค้าอันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-140">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top customers report**.</span></span>
+1. <span data-ttu-id="3ad3b-141">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-141">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-142">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-142">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-143">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-143">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-144">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-144">Select **OK**.</span></span>
+
+## <a name="top-discounts-report"></a><span data-ttu-id="3ad3b-145">รายงานส่วนลดอันดับแรก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-145">Top discounts report</span></span>
+
+<span data-ttu-id="3ad3b-146">รายงาน **ส่วนลดอันดับแรก** แสดงเมตริกการขายสำหรับส่วนลด *N* ส่วนลดแรกสำหรับช่องทางหรือหน่วยปฏิบัติงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-146">The **Top discounts** report shows sales metrics for the top *N* discounts for a selected channel or operating unit.</span></span> <span data-ttu-id="3ad3b-147">ค่า *N* คือตัวเลขตั้งแต่ 10 ถึง 100 และขึ้นอยู่กับการวัดโดยรวมที่ผู้ใช้เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-147">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="3ad3b-148">หากต้องการสร้างรายงาน **ส่วนลดอันดับแรก** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-148">To generate a **Top discounts** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-149">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานส่วนลดอันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-149">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top discounts report**.</span></span>
+1. <span data-ttu-id="3ad3b-150">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-150">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-151">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-151">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-152">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-152">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-153">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-153">Select **OK**.</span></span>
+
+## <a name="top-products-report"></a><span data-ttu-id="3ad3b-154">รายงานผลิตภัณฑ์อันดับแรก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-154">Top products report</span></span>
+
+<span data-ttu-id="3ad3b-155">รายงาน **ผลิตภัณฑ์อันดับแรก** แสดงเมตริกการขายสำหรับผลิตภัณฑ์ *N* ผลิตภัณฑ์แรกสำหรับช่องทางหรือหน่วยปฏิบัติงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-155">The **Top products** report shows sales metrics for the top *N* products for a selected channel or operating unit.</span></span> <span data-ttu-id="3ad3b-156">ค่า *N* คือตัวเลขตั้งแต่ 10 ถึง 100 และขึ้นอยู่กับการวัดโดยรวมที่ผู้ใช้เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-156">The value *N* is a number from 10 to 100 and is based on a user-selected aggregate measure.</span></span>
+
+<span data-ttu-id="3ad3b-157">หากต้องการสร้างรายงาน **ผลิตภัณฑ์อันดับแรก** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-157">To generate a **Top products** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-158">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานผลิตภัณฑ์อันดับแรก**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-158">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Top products report**.</span></span>
+1. <span data-ttu-id="3ad3b-159">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-159">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-160">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-160">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-161">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-161">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-162">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-162">Select **OK**.</span></span>
+
+## <a name="category-sales-report"></a><span data-ttu-id="3ad3b-163">รายงานการขายตามประเภท</span><span class="sxs-lookup"><span data-stu-id="3ad3b-163">Category sales report</span></span>
+
+<span data-ttu-id="3ad3b-164">รายงาน **การขายตามประเภท** แสดงการวัดยอดขายในรอบระยะเวลาที่เลือก สำหรับแต่ละโหนดของการจัดประเภทตามลำดับชั้น สำหรับช่องทางหรือหน่วยปฏิบัติงานที่เลือก</span><span class="sxs-lookup"><span data-stu-id="3ad3b-164">The **Category sales** report shows sales metrics over a selected period for each node of a category hierarchy for a selected channel or operating unit.</span></span>
+
+<span data-ttu-id="3ad3b-165">หากต้องการสร้างรายงาน **การขายตามประเภท** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-165">To generate a **Category sales** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-166">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานการขายตามประเภท**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-166">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Category sales report**.</span></span>
+1. <span data-ttu-id="3ad3b-167">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-167">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-168">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-168">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-169">ในฟิลด์ **ช่องทาง** ให้เลือกช่องทางออนไลน์</span><span class="sxs-lookup"><span data-stu-id="3ad3b-169">In the **Channel** field, select the online channel.</span></span>
+1. <span data-ttu-id="3ad3b-170">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-170">Select **OK**.</span></span>
+
+## <a name="organization-sales-report"></a><span data-ttu-id="3ad3b-171">รายงานยอดขายขององค์กร</span><span class="sxs-lookup"><span data-stu-id="3ad3b-171">Organization sales report</span></span>
+
+<span data-ttu-id="3ad3b-172">รายงาน **การขายขององค์กร** จะแสดงประสิทธิภาพร้านค้าของคุณตามหน่วยองค์กร</span><span class="sxs-lookup"><span data-stu-id="3ad3b-172">The **Organization sales** report shows the performance of your stores by organization unit.</span></span> <span data-ttu-id="3ad3b-173">รายงานนี้รวมถึงปริมาณการขายและยอดเงินตามร้านค้าและกำไรขั้นต้นสำหรับร้านค้าแต่ละร้าน</span><span class="sxs-lookup"><span data-stu-id="3ad3b-173">This report includes the sales quantity and amount by store, and the profit margin for each store.</span></span> <span data-ttu-id="3ad3b-174">หน่วยงานจะขึ้นอยู่กับลำดับชั้นการรายงานเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="3ad3b-174">The organization unit is based on the default reporting hierarchy.</span></span>
+
+<span data-ttu-id="3ad3b-175">หากต้องการสร้างรายงาน **ยอดขายขององค์กร** ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="3ad3b-175">To generate an **Organization sales** report, follow these steps.</span></span>
+
+1. <span data-ttu-id="3ad3b-176">ไปที่ **Retail และ Commerce \> การสอบถามและรายงาน \> รายงานการขาย \> รายงานยอดขายขององค์กร**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-176">Go to **Retail and Commerce \> Inquiries and reports \> Sales reports \> Organization sales report**.</span></span>
+1. <span data-ttu-id="3ad3b-177">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-177">In the **From date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-178">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="3ad3b-178">In the **To date** field, enter a date.</span></span>
+1. <span data-ttu-id="3ad3b-179">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="3ad3b-179">Select **OK**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="3ad3b-180">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="3ad3b-180">Additional resources</span></span>
+
+- [<span data-ttu-id="3ad3b-181">โฮมเพจการค้า</span><span class="sxs-lookup"><span data-stu-id="3ad3b-181">Commerce home page</span></span>](../retail/index.md)

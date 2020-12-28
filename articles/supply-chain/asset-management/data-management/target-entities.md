@@ -1,0 +1,55 @@
+---
+title: เอนทิตี้เป้าหมาย
+description: หัวข้อนี้จะอธิบายถึงวิธีการเรียกดูภาพรวมของเอนทิตีเป้าหมายในการจัดการสินทรัพย์
+author: josaw1
+manager: tfehr
+ms.date: 09/26/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 58027fcb29efbac847f3018ae1eb6677241ed87b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438378"
+---
+# <a name="target-entities"></a><span data-ttu-id="74dc5-103">เอนทิตี้เป้าหมาย</span><span class="sxs-lookup"><span data-stu-id="74dc5-103">Target entities</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+ 
+
+<span data-ttu-id="74dc5-104">ในพื้นที่ทำงาน **การจัดการข้อมูล** คุณสามารถเรียกดูภาพรวมของเอนทิตีเป้าหมาย ชนิดเอนทิตีที่เกี่ยวข้อง และตารางการแบ่งระยะที่เกี่ยวข้องกับโมดูล **การจัดการสินทรัพย์**</span><span class="sxs-lookup"><span data-stu-id="74dc5-104">In the **Data management** workspace, you can get an overview of target entities, related entity types and staging tables related to the **Asset management** module.</span></span> 
+
+1. <span data-ttu-id="74dc5-105">คลิกปุ่ม **Finance and Operations** ในมุมซ้ายบนของหน้าจอ และคลิก **การจัดการข้อมูล**</span><span class="sxs-lookup"><span data-stu-id="74dc5-105">Click the **Finance and Operations** button in the upper-left corner of the screen, and click **Data management**.</span></span>
+
+2. <span data-ttu-id="74dc5-106">ในส่วน **นำเข้า/ส่งออก** ให้คลิก **เอนทิตีข้อมูล**</span><span class="sxs-lookup"><span data-stu-id="74dc5-106">In the **Import / Export** section, click **Data entities**.</span></span> 
+
+    ![รูปที่ 1](media/01-data-management.png)
+
+3. <span data-ttu-id="74dc5-108">บนหน้า **เอนทิตีเป้าหมาย** ให้ค้นหา "การจัดการสินทรัพย์" ในตัวกรองข้อมูล และกดป้อนเพื่อดูรายชื่อของเอนทิตีที่เกี่ยวข้องกับการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="74dc5-108">On the **Target entities** page, search for "asset management" in the filter, and press Enter to see a list of the entities related to Asset management.</span></span>
+
+    <span data-ttu-id="74dc5-109">ตัวเลขด้านล่างแสดงเอนทิตีการจัดการสินทรัพย์บางรายการ</span><span class="sxs-lookup"><span data-stu-id="74dc5-109">The figure below shows some of the Asset management entities.</span></span>
+
+   ![รูปที่ 2](media/02-data-management.png)
+
+4. <span data-ttu-id="74dc5-111">เลือกเอนทิตี และคลิก **ปรับเปลี่ยนการแม็ปเป้าหมาย**</span><span class="sxs-lookup"><span data-stu-id="74dc5-111">Select an entity and click **Modify target mapping**.</span></span>
+
+5. <span data-ttu-id="74dc5-112">บนหน้า **แม็ปการแบ่งระยะไปยังเป้าหมาย** คุณจะเห็นรายการของฟิลด์การแบ่งระยะที่เกี่ยวข้องกับเอนทิตีที่เลือก</span><span class="sxs-lookup"><span data-stu-id="74dc5-112">On the **Map staging to target** page, you see a list of the staging fields related to the selected entity.</span></span> <span data-ttu-id="74dc5-113">คลิก **การแสดงภาพการแม็ป** เพื่อดูภาพรวมกราฟิกของลักษณะที่ข้อมูลการแบ่งระยะและข้อมูลเป้าหมายเกี่ยวข้องกัน</span><span class="sxs-lookup"><span data-stu-id="74dc5-113">Click **Mapping visualization** to see a graphic overview of how staging data and target data are related.</span></span> 
+
+    <span data-ttu-id="74dc5-114">ในรูปด้านล่าง แสดงการแสดงภาพของฟิลด์ที่เกี่ยวข้องกับเอนทิตีชนิดสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="74dc5-114">In the figure below, a visualization of the fields related to the asset types entity is shown.</span></span>
+
+    ![รูปที่ 3](media/03-data-management.png)
+

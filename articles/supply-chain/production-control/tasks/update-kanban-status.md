@@ -1,0 +1,50 @@
+---
+title: การอัพเดตสถานะคัมบัง
+description: 'เมื่อคัมบังถูกทำให้ว่างโดยไม่ได้ตั้งใจหรือคัมบังที่ได้รับต้องถูกทำให้ว่าง คุณต้องอัพเดตสถานะคัมบัง '
+author: ChristianRytt
+manager: tfehr
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: Kanban, KanbanResetEmpty
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: crytt
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bb8559c0843d7e6e538b5b29dc394a50d05462ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438650"
+---
+# <a name="update-kanban-status"></a><span data-ttu-id="95b19-103">การอัพเดตสถานะคัมบัง</span><span class="sxs-lookup"><span data-stu-id="95b19-103">Update kanban status</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="95b19-104">เมื่อคัมบังถูกทำให้ว่างโดยไม่ได้ตั้งใจหรือคัมบังที่ได้รับต้องถูกทำให้ว่าง คุณต้องอัพเดตสถานะคัมบัง </span><span class="sxs-lookup"><span data-stu-id="95b19-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="95b19-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="95b19-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="95b19-106">กระบวนงานนี้มีไว้สำหรับผู้ดูแลร้าน</span><span class="sxs-lookup"><span data-stu-id="95b19-106">This procedure is intended for the shop supervisor.</span></span>
+
+
+## <a name="find-the-kanban"></a><span data-ttu-id="95b19-107">ค้นหาคัมบัง</span><span class="sxs-lookup"><span data-stu-id="95b19-107">Find the kanban.</span></span>
+1. <span data-ttu-id="95b19-108">ไปที่การควบคุมการผลิต > คัมบัง > คัมบัง</span><span class="sxs-lookup"><span data-stu-id="95b19-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="95b19-109">เปิดตัวกรองคอลัมน์สถานะหน่วยจัดการวัสดุ</span><span class="sxs-lookup"><span data-stu-id="95b19-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="95b19-110">คลิกล้างข้อมูล</span><span class="sxs-lookup"><span data-stu-id="95b19-110">Click Clear.</span></span>
+    * <span data-ttu-id="95b19-111">นี่จะรีเซ็ตตัวกรอง</span><span class="sxs-lookup"><span data-stu-id="95b19-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="95b19-112">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="95b19-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="95b19-113">ตัวอย่างเช่น กรองข้อมูลในฟิลด์หมายเลขบัตรด้วยค่า '000149'</span><span class="sxs-lookup"><span data-stu-id="95b19-113">For example, filter on the Card number field with a value of '000149'.</span></span>
+
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="95b19-114">เปลี่ยนสถานะว่างเปล่า เป็นสถานะได้รับแล้ว</span><span class="sxs-lookup"><span data-stu-id="95b19-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="95b19-115">คลิกกลับหน่วยจัดการวัสดุที่ว่าง</span><span class="sxs-lookup"><span data-stu-id="95b19-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="95b19-116">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="95b19-116">Click OK.</span></span>
+    * <span data-ttu-id="95b19-117">สังเกตว่าสถานะหน่วยจัดการวัสดุเป็น ได้รับแล้ว</span><span class="sxs-lookup"><span data-stu-id="95b19-117">Notice that the Handling unit status is Received.</span></span>  
+
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="95b19-118">เปลี่ยนสถานะได้รับแล้ว เป็นสถานะว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="95b19-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="95b19-119">คลิกคัมบังที่ว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="95b19-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="95b19-120">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="95b19-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="95b19-121">สังเกตว่าสถานะหน่วยจัดการวัสดุเป็น ว่างแล้ว</span><span class="sxs-lookup"><span data-stu-id="95b19-121">Notice that the Handling unit status is Emptied.</span></span>  
+
