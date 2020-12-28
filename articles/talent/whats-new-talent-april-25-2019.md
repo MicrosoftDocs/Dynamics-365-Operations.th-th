@@ -1,0 +1,82 @@
+---
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (23 เมษายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
+author: Darinkramer
+manager: AnnBe
+ms.date: 04/23/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-04-23
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527204"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a><span data-ttu-id="6dffb-103">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (23 เมษายน 2019)</span><span class="sxs-lookup"><span data-stu-id="6dffb-103">What's new or changed in Dynamics 365 Talent (April 23, 2019)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="6dffb-104">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="6dffb-104">This topic describes features that are either new or changed in Dynamics 365 Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="6dffb-105">การเปลี่ยนแปลงใน Attract</span><span class="sxs-lookup"><span data-stu-id="6dffb-105">Changes in Attract</span></span>
+<span data-ttu-id="6dffb-106">รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Attract</span><span class="sxs-lookup"><span data-stu-id="6dffb-106">This release includes minor bug fixes for Dynamics 365 Talent: Attract.</span></span>
+
+## <a name="changes-in-onboard"></a><span data-ttu-id="6dffb-107">การเปลี่ยนแปลงในการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="6dffb-107">Changes in Onboard</span></span>
+<span data-ttu-id="6dffb-108">รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="6dffb-108">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="6dffb-109">การเปลี่ยนแปลงใน Core HR</span><span class="sxs-lookup"><span data-stu-id="6dffb-109">Changes in Core HR</span></span>
+<span data-ttu-id="6dffb-110">การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2253</span><span class="sxs-lookup"><span data-stu-id="6dffb-110">Changes described in this section apply to build number 8.1.2253.</span></span> <span data-ttu-id="6dffb-111">ตัวเลขในวงเล็บอ้างอิงถึงหมายเลขที่สนับสนุนใน Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="6dffb-111">Numbers in parentheses refer to support numbers in Lifecycle Services (LCS).</span></span>
+
+### <a name="common-data-service-entity-support-for-custom-fields"></a><span data-ttu-id="6dffb-112">การสนับสนุนเอนทิตี Common Data Service สำหรับฟิลด์ที่กำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="6dffb-112">Common Data Service entity support for custom fields</span></span>
+<span data-ttu-id="6dffb-113">ด้วยการนำออกใช้ของสัปดาห์นี้ เอนทิตีต่อไปนี้สนับสนุนฟิลด์ที่กำหนดเอง: ระดับค่าตอบแทน ตัวเลือกสวัสดิการ ชนิดทักษะ และภูมิภาคค่าตอบแทน</span><span class="sxs-lookup"><span data-stu-id="6dffb-113">With this week's release, the following entities support custom fields: Compensation level, Benefit option, Skill type, and Compensation region.</span></span>
+
+### <a name="additional-odata-entities-302992"></a><span data-ttu-id="6dffb-114">เอนทิตี OData เพิ่มเติม (302992)</span><span class="sxs-lookup"><span data-stu-id="6dffb-114">Additional OData entities (302992)</span></span>
+<span data-ttu-id="6dffb-115">ขณะนี้ มีการสนับสนุนเอนทิตีต่อไปนี้ภายใน OData: ประสบการณ์การทำงานของผู้ปฏิบัติงาน และการศึกษาผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-115">The following entities are now supported within OData: Worker professional experience and Worker education.</span></span>
+   
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a><span data-ttu-id="6dffb-116">เอกสารแนบของสมุดรายวันประสิทธิภาพสำหรับผู้จัดการและพนักงาน (308248)</span><span class="sxs-lookup"><span data-stu-id="6dffb-116">Performance journal attachments for managers and employees (308248)</span></span>
+<span data-ttu-id="6dffb-117">ด้วยการนำออกใช้นี้ ขณะนี้ไฟล์แนบพร้อมใช้งานสำหรับทั้งผู้จัดการและพนักงาน เมื่อสร้างและอัพเดตรายการสมุดรายวันประสิทธิภาพการทำงาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-117">With this release, attachments are now available for both managers and employees when creating and updating performance journal entries.</span></span>
+
+### <a name="employee-rehire-flag-always-available-310047"></a><span data-ttu-id="6dffb-118">แฟล็กการจ้างงานพนักงานอีกครั้งพร้อมใช้งานเสมอ (310047)</span><span class="sxs-lookup"><span data-stu-id="6dffb-118">Employee rehire flag always available (310047)</span></span>
+<span data-ttu-id="6dffb-119">ขณะนี้ตัวเลือกการจ้างงานพนักงานอีกครั้งจะพร้อมใช้งานสำหรับการปรับปรุงภายนอกกระบวนการสิ้นสุดการจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-119">The employee rehire option is now available for updating outside of the termination process.</span></span> 
+
+### <a name="cannot-change-the-name-of-my-payment-method-308815"></a><span data-ttu-id="6dffb-120">ไม่สามารถเปลี่ยนชื่อของ **วิธีการชำระเงินของฉัน** (308815)</span><span class="sxs-lookup"><span data-stu-id="6dffb-120">Cannot change the name of **My payment method** (308815)</span></span>
+<span data-ttu-id="6dffb-121">มีการเปิดใช้งานการกำหนดเป็นแบบส่วนบุคคลเพื่ออนุญาตให้ป้ายชื่อ **วิธีการชำระเงินของฉัน** มีการเปลี่ยนแปลงในการบริการตนเองของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-121">Personalization has been enabled to allow for the **My payment method** label to be changed in Employee self-service.</span></span>
+
+### <a name="financial-dimensions-against-a-position-cant-be-deleted-293908"></a><span data-ttu-id="6dffb-122">ไม่สามารถลบมิติทางการเงินกับตำแหน่งงาน (293908)</span><span class="sxs-lookup"><span data-stu-id="6dffb-122">Financial dimensions against a Position can't be deleted (293908)</span></span>
+<span data-ttu-id="6dffb-123">ขณะนี้ คุณสามารถลบมิติทางการเงินในขณะที่ร้องขอการเปลี่ยนแปลงสำหรับตำแหน่งที่มีอยู่และมิติทางการเงินในขอบเขตของบริษัทได้</span><span class="sxs-lookup"><span data-stu-id="6dffb-123">Financial dimensions can now be removed when requesting a change for an existing position and the financial dimensions cross company boundaries.</span></span> 
+
+### <a name="customer-is-unable-to-publish-back-data-into-talent-when-opening-the-data-from-excel-302955"></a><span data-ttu-id="6dffb-124">ลูกค้าไม่สามารถเผยแพร่ข้อมูลย้อนกลับไปยัง Talent เมื่อเปิดข้อมูลจาก Excel (302955)</span><span class="sxs-lookup"><span data-stu-id="6dffb-124">Customer is unable to publish back data into Talent when opening the data from Excel (302955)</span></span>
+<span data-ttu-id="6dffb-125">การเปลี่ยนแปลงนี้แก้ไขปัญหาในการเผยแพร่ เมื่อใช้ตารางที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="6dffb-125">This change corrects a publishing issue when using related tables.</span></span>
+
+## <a name="in-preview"></a><span data-ttu-id="6dffb-126">ในการแสดงตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="6dffb-126">In preview</span></span>
+
+### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a><span data-ttu-id="6dffb-127">อนุญาตให้ระบุรหัสเหตุผลในชนิดการลางาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-127">Allow reason codes to be specified on leave types</span></span>
+<span data-ttu-id="6dffb-128">องค์กรอาจต้องการข้อมูลเพิ่มเติมเกี่ยวกับคำขอเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="6dffb-128">Organizations might need additional information about time-off requests.</span></span> <span data-ttu-id="6dffb-129">ขณะนี้คุณสามารถระบุรหัสเหตุผลสำหรับชนิดการลางาน และเปิดใช้งานให้พนักงานสามารถเลือกรหัสเหตุผลในคำขอเวลาหยุดพักของพวกเขาได้</span><span class="sxs-lookup"><span data-stu-id="6dffb-129">You can now specify reason codes for leave types and enable employees to select a reason code on their time-off requests.</span></span>
+
+### <a name="require-reason-codes-for-certain-leave-types-on-time-off-requests"></a><span data-ttu-id="6dffb-130">ต้องมีรหัสเหตุผลสำหรับชนิดการลางานบางชนิดในคำขอเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="6dffb-130">Require reason codes for certain leave types on time-off requests</span></span>
+<span data-ttu-id="6dffb-131">องค์กรอาจต้องมีรหัสเหตุผลในชนิดการลางานเฉพาะ เมื่อพนักงานส่งเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="6dffb-131">Organizations might require reason codes for specific leave types when employees submit time off.</span></span> <span data-ttu-id="6dffb-132">ซึ่งอาจเกิดจากนโยบายบริษัทหรือข้อกำหนดที่เป็นระเบียบข้อบังคับ</span><span class="sxs-lookup"><span data-stu-id="6dffb-132">This might be due to company policy or regulatory requirements.</span></span> <span data-ttu-id="6dffb-133">ขณะนี้คุณสามารถระบุชนิดการลางานที่ต้องใช้รหัสเหตุผล และคุณสามารถกำหนดให้พนักงานระบุรหัสเหตุผลสำหรับชนิดการลางานในคำขอเวลาหยุดพักพวกเขา</span><span class="sxs-lookup"><span data-stu-id="6dffb-133">You can now specify which leave types require a reason code, and you can require employees to provide a reason code for the leave type on their time-off requests.</span></span>
+
+### <a name="provide-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="6dffb-134">แสดงรายการธุรกรรมการขาดงานและการลางานสำหรับฝ่ายทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="6dffb-134">Provide leave and absence transaction list for HR</span></span>
+<span data-ttu-id="6dffb-135">การติดตามเวลาหยุดพักของพนักงาน และการทำความเข้าใจวิธีคำนวณเวลาหยุดพัก ไม่เพียงช่วยฝ่ายทรัพยากรบุคคลในการตอบคำถามพนักงานเท่านั้น แต่ยังช่วยให้มั่นใจถึงรางวัลเวลาหยุดพักที่ถูกต้องสำหรับพนักงานอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="6dffb-135">Tracking employee time off and understanding how time off is calculated not only helps HR answer employee questions, but also ensures accurate time-off awards for employees.</span></span> <span data-ttu-id="6dffb-136">ขณะนี้ฝ่ายทรัพยากรบุคคลมีมุมมองใหม่เกี่ยวกับธุรกรรม (เงินช่วยเหลือ การค้างรับค้างจ่าย การปรับปรุง และคำขอ) เพื่อดูเหตุผลหลังยอดดุล</span><span class="sxs-lookup"><span data-stu-id="6dffb-136">HR now has a new view into the transactions (grants, accruals, adjustments, and requests) to see the reasons behind balances.</span></span>
+
+## <a name="coming-soon"></a><span data-ttu-id="6dffb-137">เร็วๆ นี้</span><span class="sxs-lookup"><span data-stu-id="6dffb-137">Coming soon</span></span>
+
+### <a name="improvements-to-the-user-interface-for-duplicate-employee-check"></a><span data-ttu-id="6dffb-138">การปรับปรุงถึงอินเทอร์เฟสผู้ใช้สำหรับ ทำซ้ำการตรวจสอบพนักงาน</span><span class="sxs-lookup"><span data-stu-id="6dffb-138">Improvements to the user interface for duplicate employee check</span></span>
+<span data-ttu-id="6dffb-139">ด้วยการเปลี่ยนแปลงนี้ ข้อมูลซ้ำจะถูกตรวจพบขณะที่คุณป้อนในฟิลด์ชื่อ และสถานะจะแสดงจำนวนของข้อมูลซ้ำที่พบ</span><span class="sxs-lookup"><span data-stu-id="6dffb-139">With this change, duplicates are detected as you enter name fields, and a status displays the number of duplicates found.</span></span> <span data-ttu-id="6dffb-140">คุณสามารถเลือกการเชื่อมโยงที่ให้มาเพื่อเปิดหน้าใหม่เพื่อประเมินว่าจะใช้การจับคู่ที่ตรวจพบหรือไม่</span><span class="sxs-lookup"><span data-stu-id="6dffb-140">You can select the provided link to open a new page to evaluate whether to use the detected match.</span></span> <span data-ttu-id="6dffb-141">หากต้องการหลีกเลี่ยงการรบกวนการป้อนข้อมูล ฟอร์มที่ซ้ำกันจะไม่เปิดขึ้นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="6dffb-141">To avoid interrupting data entry, the duplicates form doesn't automatically open.</span></span>
+## <a name="known-issues"></a><span data-ttu-id="6dffb-142">ปัญหาที่ทราบ</span><span class="sxs-lookup"><span data-stu-id="6dffb-142">Known issues</span></span>
+
+### <a name="email-support-for-alerts"></a><span data-ttu-id="6dffb-143">การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="6dffb-143">Email support for alerts</span></span>
+<span data-ttu-id="6dffb-144">ด้วย Platform update 26 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="6dffb-144">With Platform update 26 for Finance and Operations, users can create alert rules that automatically send email notifications to contacts when triggered by an event.</span></span>

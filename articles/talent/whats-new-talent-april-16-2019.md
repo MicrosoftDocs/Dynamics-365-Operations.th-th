@@ -1,0 +1,96 @@
+---
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (16 เมษายน 2019)
+description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
+author: Darinkramer
+manager: AnnBe
+ms.date: 04/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-04-16
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: d9802848c90b2b1c8d5e3cb3280dfa6ebc948ff2
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527200"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a><span data-ttu-id="22af3-103">มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (16 เมษายน 2019)</span><span class="sxs-lookup"><span data-stu-id="22af3-103">What's new or changed in Dynamics 365 Talent (April 16, 2019)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="22af3-104">หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="22af3-104">This topic describes features that are either new or changed in Dynamics 365 Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="22af3-105">การเปลี่ยนแปลงใน Attract</span><span class="sxs-lookup"><span data-stu-id="22af3-105">Changes in Attract</span></span>
+
+### <a name="process-auditing"></a><span data-ttu-id="22af3-106">การตรวจสอบกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="22af3-106">Process auditing</span></span>
+
+<span data-ttu-id="22af3-107">ขณะนี้คุณสามารถติดตามการเปลี่ยนแปลงที่ทำกับผู้สมัคร งานที่เปิดรับ และใบสมัครงาน</span><span class="sxs-lookup"><span data-stu-id="22af3-107">You can now track the changes made to candidates, job openings, and job applications.</span></span> <span data-ttu-id="22af3-108">สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตามการเปลี่ยนแปลงในข้อมูลการสรรหาบุคลากร](process-auditing.md)</span><span class="sxs-lookup"><span data-stu-id="22af3-108">For more information, see [Track changes in recruiting data](process-auditing.md).</span></span>
+
+## <a name="changes-in-onboard"></a><span data-ttu-id="22af3-109">การเปลี่ยนแปลงในการเตรียมความพร้อม</span><span class="sxs-lookup"><span data-stu-id="22af3-109">Changes in Onboard</span></span>
+
+<span data-ttu-id="22af3-110">รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="22af3-110">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="22af3-111">การเปลี่ยนแปลงใน Core HR</span><span class="sxs-lookup"><span data-stu-id="22af3-111">Changes in Core HR</span></span>
+
+<span data-ttu-id="22af3-112">การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2239</span><span class="sxs-lookup"><span data-stu-id="22af3-112">Changes described in this section apply to build number 8.1.2239.</span></span> <span data-ttu-id="22af3-113">ตัวเลขในวงเล็บอ้างอิงถึงหมายเลขที่สนับสนุนใน Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="22af3-113">Numbers in parentheses refer to support numbers in Lifecycle Services (LCS).</span></span>
+
+### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a><span data-ttu-id="22af3-114">ภูมิภาคของค่าตอบแทน ระดับค่าตอบแทน ตัวเลือกสวัสดิการ และเอนทิตีชนิดทักษะใน Common Data Service ที่ปรับปรุงเพื่อรวมการสนับสนุนฟิลด์ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="22af3-114">Compensation region, Compensation level, Benefit option and Skill type entities in Common Data Service updated to include customer field support</span></span>
+
+<span data-ttu-id="22af3-115">ด้วยการนำออกใช้นี้ เอนทิตี Common Data Service เหล่านี้ได้รับการปรับปรุงเพื่อรวมความสามารถในการรวมฟิลด์ที่กำหนดเองที่เพิ่มโดยผ่าน Talent: Core HR</span><span class="sxs-lookup"><span data-stu-id="22af3-115">With this release, these Common Data Service entities have been updated to include the ability to include custom field added through Talent: Core HR.</span></span>
+
+### <a name="powerbi-refresh-issues-314342"></a><span data-ttu-id="22af3-116">ปัญหาการรีเฟรช PowerBI (314342)</span><span class="sxs-lookup"><span data-stu-id="22af3-116">PowerBI refresh issues (314342)</span></span>
+
+<span data-ttu-id="22af3-117">การเปลี่ยนแปลงนี้แก้ไขปัญหาที่เกิดขึ้นกับการรีเฟรชรายงาน PowerBI อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="22af3-117">This change corrects an issue with PowerBI reports refreshing correctly.</span></span>
+
+### <a name="unable-to-click-directly-through-on-transition-tasks-in-employee-self-service-303309"></a><span data-ttu-id="22af3-118">ไม่สามารถคลิกโดยตรงผ่านทางงานการเปลี่ยนแปลงในระบบบริการตนเองของพนักงาน (303309)</span><span class="sxs-lookup"><span data-stu-id="22af3-118">Unable to click directly through on transition tasks in employee self-service (303309)</span></span>
+
+<span data-ttu-id="22af3-119">การเปลี่ยนแปลงนี้เปิดใช้งานผู้ใช้ด้วยบทบาทพนักงานให้เลือกและอัพเดตการเปลี่ยนงานจากรายการสิ่งที่ต้องทำของ Talent</span><span class="sxs-lookup"><span data-stu-id="22af3-119">This change enables users with the employee role to select and update transition tasks from the Talent to-do list.</span></span>
+
+### <a name="performance-feedback-email-message-updated-309615"></a><span data-ttu-id="22af3-120">ปรับปรุงข้อความอีเมลผลป้อนกลับประสิทธิภาพแล้ว (309615)</span><span class="sxs-lookup"><span data-stu-id="22af3-120">Performance feedback email message updated (309615)</span></span>
+
+<span data-ttu-id="22af3-121">ด้วยการเปลี่ยนแปลงนี้ ข้อความยืนยันจะแสดงขึ้นเมื่อมีการส่งข้อคิดเห็นเสร็จเรียบร้อยแล้ว</span><span class="sxs-lookup"><span data-stu-id="22af3-121">With this change, a confirmation message displays when feedback is successfully submitted.</span></span>
+
+### <a name="missing-tables-in-word-template-308048"></a><span data-ttu-id="22af3-122">ตารางที่ขาดไปในเท็มเพลต Word (308048)</span><span class="sxs-lookup"><span data-stu-id="22af3-122">Missing tables in Word template (308048)</span></span>
+
+<span data-ttu-id="22af3-123">ด้วยการเปลี่ยนแปลงนี้ เมื่อสร้างเท็มเพลต Word พร้อมด้วยข้อมูลพนักงานและทักษะ เฉพาะทักษะสำหรับพนักงานที่เลือกเท่านั้นที่จะปรากฏในเอกสาร Word</span><span class="sxs-lookup"><span data-stu-id="22af3-123">With this change, when creating a Word template with employee and skill information, only the skills for the selected employee appear in the Word document.</span></span>
+
+### <a name="when-applying-an-offboarding-checklist-an-error-is-displayed-299877"></a><span data-ttu-id="22af3-124">เมื่อใช้รายการตรวจสอบ offboarding ข้อผิดพลาดจะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="22af3-124">When applying an offboarding checklist an error is displayed.</span></span> <span data-ttu-id="22af3-125">(299877)</span><span class="sxs-lookup"><span data-stu-id="22af3-125">(299877)</span></span>
+
+<span data-ttu-id="22af3-126">การเปลี่ยนแปลงนี้แก้ไขปัญหา เมื่อใช้รายการตรวจสอบ offboarding โดยตรงจากแบบฟอร์มผู้ปฏิบัติงาน</span><span class="sxs-lookup"><span data-stu-id="22af3-126">This change corrects an issue when applying an offboarding checklist directly from the worker form.</span></span>
+
+## <a name="in-preview"></a><span data-ttu-id="22af3-127">ในการแสดงตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="22af3-127">In preview</span></span>
+
+### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a><span data-ttu-id="22af3-128">อนุญาตให้ระบุรหัสเหตุผลในชนิดการลางาน</span><span class="sxs-lookup"><span data-stu-id="22af3-128">Allow reason codes to be specified on leave types</span></span>
+
+<span data-ttu-id="22af3-129">องค์กรอาจต้องการข้อมูลเพิ่มเติมเกี่ยวกับคำขอเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="22af3-129">Organizations might need additional information about time-off requests.</span></span> <span data-ttu-id="22af3-130">ขณะนี้คุณสามารถระบุรหัสเหตุผลสำหรับชนิดการลางาน และเปิดใช้งานให้พนักงานสามารถเลือกรหัสเหตุผลในคำขอเวลาหยุดพักของพวกเขาได้</span><span class="sxs-lookup"><span data-stu-id="22af3-130">You can now specify reason codes for leave types and enable employees to select a reason code on their time-off requests.</span></span>
+
+### <a name="require-reason-codes-for-certain-leave-types-on-time-off-requests"></a><span data-ttu-id="22af3-131">ต้องมีรหัสเหตุผลสำหรับชนิดการลางานบางชนิดในคำขอเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="22af3-131">Require reason codes for certain leave types on time-off requests</span></span>
+
+<span data-ttu-id="22af3-132">องค์กรอาจต้องมีรหัสเหตุผลในชนิดการลางานเฉพาะ เมื่อพนักงานส่งเวลาหยุดพัก</span><span class="sxs-lookup"><span data-stu-id="22af3-132">Organizations might require reason codes for specific leave types when employees submit time off.</span></span> <span data-ttu-id="22af3-133">ซึ่งอาจเกิดจากนโยบายบริษัทหรือข้อกำหนดที่เป็นระเบียบข้อบังคับ</span><span class="sxs-lookup"><span data-stu-id="22af3-133">This might be due to company policy or regulatory requirements.</span></span> <span data-ttu-id="22af3-134">ขณะนี้คุณสามารถระบุชนิดการลางานที่ต้องใช้รหัสเหตุผล และคุณสามารถกำหนดให้พนักงานระบุรหัสเหตุผลสำหรับชนิดการลางานในคำขอเวลาหยุดพักพวกเขา</span><span class="sxs-lookup"><span data-stu-id="22af3-134">You can now specify which leave types require a reason code, and you can require employees to provide a reason code for the leave type on their time-off requests.</span></span>
+
+### <a name="provide-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="22af3-135">แสดงรายการธุรกรรมการขาดงานและการลางานสำหรับฝ่ายทรัพยากรบุคคล</span><span class="sxs-lookup"><span data-stu-id="22af3-135">Provide leave and absence transaction list for HR</span></span>
+
+<span data-ttu-id="22af3-136">การติดตามเวลาหยุดพักของพนักงาน และการทำความเข้าใจวิธีคำนวณเวลาหยุดพัก ไม่เพียงช่วยฝ่ายทรัพยากรบุคคลในการตอบคำถามพนักงานเท่านั้น แต่ยังช่วยให้มั่นใจถึงรางวัลเวลาหยุดพักที่ถูกต้องสำหรับพนักงานอีกด้วย</span><span class="sxs-lookup"><span data-stu-id="22af3-136">Tracking employee time off and understanding how time off is calculated not only helps HR answer employee questions, but also ensures accurate time-off awards for employees.</span></span> <span data-ttu-id="22af3-137">ขณะนี้ฝ่ายทรัพยากรบุคคลมีมุมมองใหม่เกี่ยวกับธุรกรรม (เงินช่วยเหลือ การค้างรับค้างจ่าย การปรับปรุง และคำขอ) เพื่อดูเหตุผลหลังยอดดุล</span><span class="sxs-lookup"><span data-stu-id="22af3-137">HR now has a new view into the transactions (grants, accruals, adjustments, and requests) to see the reasons behind balances.</span></span>
+
+## <a name="coming-soon"></a><span data-ttu-id="22af3-138">เร็วๆ นี้</span><span class="sxs-lookup"><span data-stu-id="22af3-138">Coming soon</span></span>
+
+### <a name="improvements-to-the-user-interface-for-duplicate-employee-check"></a><span data-ttu-id="22af3-139">การปรับปรุงถึงอินเทอร์เฟสผู้ใช้สำหรับ ทำซ้ำการตรวจสอบพนักงาน</span><span class="sxs-lookup"><span data-stu-id="22af3-139">Improvements to the user interface for duplicate employee check</span></span>
+
+<span data-ttu-id="22af3-140">ด้วยการเปลี่ยนแปลงนี้ ข้อมูลซ้ำจะถูกตรวจพบขณะที่คุณป้อนในฟิลด์ชื่อ และสถานะจะแสดงจำนวนของข้อมูลซ้ำที่พบ</span><span class="sxs-lookup"><span data-stu-id="22af3-140">With this change, duplicates are detected as you enter name fields, and a status displays the number of duplicates found.</span></span> <span data-ttu-id="22af3-141">คุณสามารถเลือกการเชื่อมโยงที่ให้มาเพื่อเปิดหน้าใหม่เพื่อประเมินว่าจะใช้การจับคู่ที่ตรวจพบหรือไม่</span><span class="sxs-lookup"><span data-stu-id="22af3-141">You can select the provided link to open a new page to evaluate whether to use the detected match.</span></span> <span data-ttu-id="22af3-142">หากต้องการหลีกเลี่ยงการรบกวนการป้อนข้อมูล ฟอร์มที่ซ้ำกันจะไม่เปิดขึ้นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="22af3-142">To avoid interrupting data entry, the duplicates form doesn't automatically open.</span></span>
+
+### <a name="email-support-for-alerts"></a><span data-ttu-id="22af3-143">การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน</span><span class="sxs-lookup"><span data-stu-id="22af3-143">Email support for alerts</span></span>
+
+<span data-ttu-id="22af3-144">ด้วย Platform update 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="22af3-144">With Platform update 25 for Finance and Operations, users can create alert rules that automatically send email notifications to contacts when triggered by an event.</span></span>
+
+
