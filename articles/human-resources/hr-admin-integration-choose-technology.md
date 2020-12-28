@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6bb754ca80af0a0793b5ee162a378ebbe92524c5
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197301"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528352"
 ---
 # <a name="choose-a-data-integration-technology"></a>เลือกเทคโนโลยีการรวมข้อมูล
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 บทความนี้ให้ข้อมูลสำหรับการรวมกับข้อมูลที่จัดการโดย Dynamics 365 Human Resources ซึ่งอธิบายถึงเทคโนโลยีการรวมที่แตกต่างกัน ที่ช่วยให้คุณตัดสินใจเลือกเทคโนโลยีที่เหมาะกับความต้องการของคุณที่สุด
 

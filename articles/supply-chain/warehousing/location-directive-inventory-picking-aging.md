@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017149"
+ms.locfileid: "4438804"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
 

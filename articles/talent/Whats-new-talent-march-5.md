@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898930"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527301"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (5 มีนาคม 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Talent
 
@@ -77,4 +79,4 @@ ms.locfileid: "2898930"
 ในหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการสามารถเข้าถึงได้เฉพาะเรกคอร์ดค่าตอบแทนบางรายการ เช่น เรกคอร์ดสำหรับผู้บริหารหรือพนักงานตามภูมิภาค ด้วยการเปลี่ยนแปลงนี้ คุณสามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ แผนคงที่และผันแปรสามารถถูกกำหนด security role ซึ่งจะกำหนดการเข้าถึงแผนและข้อมูลพนักงานที่เกี่ยวข้องกับแผน เช่น เรกคอร์ดเงินโบนัสหรือเงินเดือน เฉพาะบทบาทที่มีการเข้าถึงที่กำหนด จะสามารถดำเนินการค่าตอบแทนสำหรับพนักงานเหล่านั้นได้
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 24 สำหรับ Finance and Operations
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 24 สำหรับ Finance and Operations ให้ดู [มีอะไรใหม่หรือเปลี่ยนแปลงบ้างในการอัพเดตแพลตฟอร์ม 24 สำหรับ Finance and Operations (มีนาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 24 สำหรับ Finance and Operations ดู [มีอะไรใหม่ หรือเปลี่ยนแปลงใน Finance and Operations การอัพเดตแพลตฟอร์ม 24 (มีนาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)

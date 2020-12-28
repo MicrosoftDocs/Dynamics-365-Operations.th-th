@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897591"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528680"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Talent (11 มิถุนายน 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Talent
 
@@ -56,7 +58,7 @@ ms.locfileid: "2897591"
 
 ### <a name="platform-update-27-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 27 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 27 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 27 (มิถุนายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการปรับปรุงแพลตฟอร์ม 27 สำหรับ Finance and Operations ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Finance and Operations การปรับปรุงแพลตฟอร์ม 27 (มิถุนายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27)
 
 ### <a name="feature-management-workspace-in-talent"></a>พื้นที่ทำงานในการจัดการคุณลักษณะใน Talent
 

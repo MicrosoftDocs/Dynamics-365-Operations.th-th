@@ -1,9 +1,9 @@
 ---
 title: จัดการการลางานของพนักงาน
-description: กำหนดพารามิเตอร์ทรัพยากรบุคคลสำหรับการลางานและการขาดงานใน Dynamics 365 Human Resources
+description: จัดการการลางานของพนักงานใน Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712144"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420852"
 ---
 # <a name="manage-employee-leave"></a>จัดการการลางานของพนักงาน
 
@@ -44,6 +44,13 @@ ms.locfileid: "3712144"
 6. หรือคุณสามารถเลือก **วันที่** ได้ 
 
 คุณสามารถรวมรหัสเหตุผลและข้อคิดเห็นเมื่อทำการปรับปรุงยอดดุลการลางานของพนักงาน 
+
+>[!IMPORTANT]
+>การดูข้อมูลเพิ่มเติมเกี่ยวกับยอดดุลการลางานอยู่ในพรีวิว คุณจำเป็นต้องเปิดใช้งานในสภาพแวดล้อม **Sandbox** ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)<br>
+>เมื่อวางเมาส์เหนือยอดดุลการลางานใดๆ ตอนนี้คุณจะเห็น:<br>
+>- **พร้อมใช้งาน**: ยอดรวมปีนี้ - ใช้ในปีนี้
+>- **ยอดรวมของปีนี้**: การรับรู้ การปรับปรุง และการยกยอดไปสำหรับปีทั้งหมด
+>- **ดำเนินการในปีนี้**: การหยุดพักที่อนุมัติทั้งหมด
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

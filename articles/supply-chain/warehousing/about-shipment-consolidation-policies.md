@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016366"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654231"
 ---
 # <a name="shipment-consolidation-policies"></a>นโยบายการรวมบัญชีการจัดส่ง
 
@@ -121,7 +121,7 @@ ms.locfileid: "4016366"
 
 | โดยไม่มีนโยบายการรวมบัญชีการจัดส่ง | โดยมีนโยบายการรวมบัญชีการจัดส่ง |
 |---|----|
-| ใช้ไม่ได้ | การจัดส่งการขายหรือการโอนย้ายที่ถูกเลือกสำหรับการรวมบัญชีต้องมีนโยบายการรวมบัญชีเดียวกันกับการจัดส่งที่กำลังถูกสร้าง หรือต้องมีการกำหนดให้กับการจัดส่งที่เปิดค้างไว้ (เมื่อมีการเปิดใช้งานตัวเลือก **รวมบัญชีกับการจัดส่งที่มีอยู่** ) |
+| ใช้ไม่ได้ | การจัดส่งการขายหรือการโอนย้ายที่ถูกเลือกสำหรับการรวมบัญชีต้องมีนโยบายการรวมบัญชีเดียวกันกับการจัดส่งที่กำลังถูกสร้าง หรือต้องมีการกำหนดให้กับการจัดส่งที่เปิดค้างไว้ (เมื่อมีการเปิดใช้งานตัวเลือก **รวมบัญชีกับการจัดส่งที่มีอยู่**) |
 | กระบวนงาน *นำออกใช้ไปยังคลังสินค้า* ไม่ได้ค้นหาทั่วทั้งการจัดส่งที่มีอยู่เพื่อหาการจัดส่งสำหรับการรวมบัญชี เฉพาะการจัดส่งที่สร้างขึ้นโดยอินสแตนซ์ปัจจุบันของกระบวนงาน *นำออกใช้ไปยังคลังสินค้า* ถูกใช้ในการค้นหาการจัดส่งสำหรับการรวมบัญชี | ถ้ามีการเปิดใช้งานตัวเลือก **รวมบัญชีกับการจัดส่งที่มีอยู่** สำหรับนโยบายการรวมบัญชีที่มีการใช้อยู่ในปัจจุบัน กระบวนงาน *นำออกใช้ไปยังคลังสินค้า* จะค้นหาทั่วทั้งการจัดส่งที่มีอยู่ซึ่งถูกสร้างขึ้นตามนโยบายการรวมบัญชีเดียวกันเพื่อค้นหาการจัดส่งสำหรับการรวมบัญชี ดังนั้น ถ้าคุณมีนโยบายสองประการ การจัดส่งที่ถูกสร้างขึ้นตามนโยบาย 2 จะไม่มีการรวมบัญชีกับการจัดส่งที่ถูกสร้างขึ้นตามนโยบาย 1 |
 | ใช้ไม่ได้ | ถ้ารายการของฟิลด์นโยบายการรวมบัญชีว่างเปล่า หรือถ้าไม่พบนโยบาย จะมีการสร้างการจัดส่งใหม่สำหรับใบสั่งขายหรือรายการใบสั่งโอนย้ายแต่ละรายการ |
 | ฟิลด์การรวมบัญชีต่อไปนี้กำหนดชุดของค่าที่ไม่ซ้ำกันที่ใช้ในการรวมบัญชีการจัดส่งสำหรับ *รายการโอนย้าย* (ฟิลด์อื่นทั้งหมดจะถูกละเว้น)<ul><li>หมายเลขใบสั่ง (OrderNum)</li></ul> | ฟิลด์การรวมบัญชีต่อไปนี้กำหนดชุดของค่าที่ไม่ซ้ำกันที่ใช้ในการรวมบัญชีการจัดส่งสำหรับ *รายการโอนย้าย* (ฟิลด์อื่นทั้งหมดจะถูกละเว้น)<ul><li>หมายเลขใบสั่ง (OrderNum)</li><li>ผู้รับการจัดส่ง (DeliveryName)</li><li>ที่อยู่ทางไปรษณีย์ (DeliveryPostalAddress)</li><li>รหัสประเทศ ISO (CountryRegionISOCode)</li><li>ที่อยู่ (ที่อยู่)</li><li>ไซต์ (InventSiteId)</li><li>คลังสินค้า (InventLocationId)</li><li>ผู้ขนส่งสินค้า (CarrierCode)</li><li>บริการขนส่ง (CarrierServiceCode)</li><li>โหมดการจัดส่ง (ModeCode)</li><li>กลุ่มผู้ขนส่ง (CarrierGroupCode)</li><li>เงื่อนไขการจัดส่ง (DlvTermId)</li></ul>ฟิลด์เหล่านี้เป็นฟิลด์เฉพาะที่พร้อมใช้งานและเริ่มต้นเมื่อมีการสร้างการจัดส่งใหม่ |

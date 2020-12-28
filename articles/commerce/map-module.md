@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817217"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665431"
 ---
 # <a name="map-module"></a>โมดูลแผนที่
 
@@ -58,7 +58,7 @@ ms.locfileid: "3817217"
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>เพิ่ม URL การแม็ปที่อนุญาตให้กับคำสั่งนโยบายความปลอดภัยของเนื้อหาของไซต์
 
-สำหรับโมดูลแผนที่เพื่อโต้ตอบกับ Bing Maps คุณต้องตรวจสอบให้แน่ใจว่าได้อนุญาตให้มีการแม็ป URL ต่อไปนี้ (หรือที่เรียกอีกอย่างว่า "ผู้ใช้ที่ได้รับอนุญาต") ตามนโยบายความปลอดภัยเนื้อหาของไซต์ (CSP) ของคุณ การตั้งค่านี้ดำเนินการในโปรแกรมสร้างไซต์ Commerce โดยการเพิ่ม URL ที่อนุญาตให้กับคำสั่ง CSP ไซต์ต่างๆ (ตัวอย่างเช่น **img-src**) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายความปลอดภัยของเนื้อหา](manage-csp.md) 
+สำหรับโมดูลแผนที่เพื่อโต้ตอบกับ Bing Maps คุณต้องตรวจสอบให้แน่ใจว่าได้อนุญาตให้มีการแม็ป URL ต่อไปนี้ตามนโยบายความปลอดภัยเนื้อหาของไซต์ (CSP) ของคุณ การตั้งค่านี้ดำเนินการในโปรแกรมสร้างไซต์ Commerce โดยการเพิ่ม URL ที่อนุญาตให้กับคำสั่ง CSP ไซต์ต่างๆ (ตัวอย่างเช่น **img-src**) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายความปลอดภัยของเนื้อหา](manage-csp.md) 
 
 - ไปที่คำสั่ง **connect-src** เพิ่ม **&#42;bing.com**
 - ไปที่คำสั่ง **img-src** เพิ่ม **&#42;virtualearth.net**

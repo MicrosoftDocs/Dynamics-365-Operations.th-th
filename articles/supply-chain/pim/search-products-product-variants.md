@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018341"
+ms.locfileid: "4438888"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยในระหว่างการป้อนข้อมูลใบสั่ง
 

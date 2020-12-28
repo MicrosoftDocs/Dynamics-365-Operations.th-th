@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0a4d4de6cf28e24d1265395d6440df85edf71a0d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462764"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (9 เมษายน 2019)
 
@@ -89,4 +89,4 @@ Attract สามารถช่วยในการเริ่มหางา
 ด้วยการเปลี่ยนแปลงนี้ ข้อมูลซ้ำจะถูกตรวจพบขณะที่คุณป้อนในฟิลด์ชื่อ และสถานะจะแสดงจำนวนของข้อมูลซ้ำที่พบ คุณสามารถเลือกการเชื่อมโยงที่ให้มาเพื่อเปิดหน้าใหม่เพื่อประเมินว่าจะใช้การจับคู่ที่ตรวจพบหรือไม่ หากต้องการหลีกเลี่ยงการรบกวนการป้อนข้อมูล ฟอร์มที่ซ้ำกันจะไม่เปิดขึ้นโดยอัตโนมัติ
 
 ###  <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
-ด้วยการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์ 
+ด้วย Platform update 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์ 

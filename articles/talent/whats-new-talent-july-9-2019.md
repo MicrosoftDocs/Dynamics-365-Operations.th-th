@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: feb39966d98fa7bde9a6bfad26b07fbd224da59b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897637"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528052"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent (9 กรกฎาคม 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
@@ -49,7 +51,7 @@ ms.locfileid: "2897637"
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 28 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 28 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 28 (กรกฎาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28)
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการปรับปรุงแพลตฟอร์ม 28 สำหรับ Finance and Operations ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Finance and Operations การปรับปรุงแพลตฟอร์ม 28 (กรกฎาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28)
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>การสนับสนุนเอนทิตีสำหรับฟิลด์ที่กำหนดเองใน Common Data Service 
 

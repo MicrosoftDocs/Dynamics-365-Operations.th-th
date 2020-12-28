@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832872"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527253"
 ---
 # <a name="extensibility-in-attract"></a>ความสามารถในการเพิ่มฟังก์ชันใน Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Talent ถูกสร้างไว้ด้านบนของแพลตฟอร์ม Common Data Service และสามารถถูกขยายได้หลากหลายวิธีโดยใช้ Microsoft Power Platform และความสามารถที่ Common Data Service เสนอ ดังนั้น คุณสามารถตั้งค่าคอนฟิก และปรับแต่งระบบได้โดยใช้ Microsoft Power Apps และ Microsoft Power Automate คุณยังสามารถรับการวิเคราะห์เพิ่มเติมเกี่ยวกับบุคคล โดยใช้ Microsoft Power BI ได้ด้วย ยิ่งไปกว่านั้น กิจกรรมที่กำหนดขึ้นใหม่ เช่น กิจกรรม Power Apps และเว็บคอนเทนท์ (iframe) ทำให้กระบวนการว่าจ้างสามารถปรับเปลี่ยนได้มากยิ่งกว่าที่เคย โดยใช้กิจกรรมเหล่านี้ คุณสามารถปรับแต่งกระบวนการว่าจ้างให้ตรงกับความต้องการและกระบวนการทางธุรกิจของคุณ และสามารถตรวจสอบว่า ทั้งทีมงานว่าจ้างและผู้สมัครมีประสบการณ์ที่กำหนดเองแบบราบรื่น
 

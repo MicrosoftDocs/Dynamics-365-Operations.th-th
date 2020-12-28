@@ -20,11 +20,11 @@ ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
 ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416122"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>จำกัดวิธีการชำระเงินสำหรับการส่งคืนที่ไม่มีใบเสร็จ
 
@@ -46,7 +46,7 @@ ms.locfileid: "3024255"
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>จำกัดวิธีการชำระเงินสำหรับการส่งคืนที่ไม่มีใบเสร็จ
 
-สำหรับวิธีการชำระเงินของแต่ละร้าน ในหน้า **การจัดการร้านค้า** ภายใต้  **การคืนที่ไม่มีใบเสร็จรับเงิน** ตั้งค่า **จำกัดการคืนเงินโดยไม่มีใบเสร็จรับเงิน**เป็น **ใช่** 
+สำหรับวิธีการชำระเงินของแต่ละร้าน ในหน้า **การจัดการร้านค้า** ภายใต้  **การคืนที่ไม่มีใบเสร็จรับเงิน** ตั้งค่า **จำกัดการคืนเงินโดยไม่มีใบเสร็จรับเงิน** เป็น **ใช่** 
 
 ค่าเริ่มต้นของสลับคือ **ไม่ใช่** ซึ่งช่วยให้มั่นใจว่าวิธีการชำระเงินได้รับอนุญาตสำหรับการขอคืนเงิน 
 

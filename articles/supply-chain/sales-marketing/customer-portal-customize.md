@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414016"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527374"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>การเลือกกำหนดและใช้พอร์ทัลลูกค้า
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้จะอธิบายถึงหน้าที่แตกต่างกันที่มีอยู่ในพอร์ทัลลูกค้าตั้งแต่เริ่มต้น การทำเช่นนี้จะอธิบายถึงหน้าที่ของหน้า และวิธีที่คุณสามารถเลือกกำหนดได้
 
 พอร์ทัลลูกค้ามีเว็บเพจและการดำเนินการให้บางส่วนตั้งแต่เริ่มต้น แผนผังไซต์ต่อไปนี้จะแสดงภาพรวมของเว็บเพจและการดำเนินการเหล่านั้น และบทบาทที่สามารถทำการดำเนินการได้
 
-![![แผนผังไซต์ของพอร์ทัลของลูกค้า](media/customer-portal-site-map.png "แผนผังไซต์ของพอร์ทัลของลูกค้า")](media/customer-portal-site-map.png "Customer portal site map")
+![แผนผังไซต์ของพอร์ทัลของลูกค้า](media/customer-portal-site-map.png "แผนผังไซต์ของพอร์ทัลของลูกค้า")
 
 ## <a name="typical-customizations"></a>การเลือกกำหนดโดยทั่วไป
 
@@ -62,12 +64,12 @@ ms.locfileid: "3414016"
     - **หมายเลขการจัดหาวัตถุดิบ** – ป้อนหมายเลขการจัดหาวัตถุดิบของใบสั่ง ฟิลด์นี้ไม่เป็นฟิลด์บังคับ
     - **จัดส่งไปยังประเทศ/ภูมิภาค** – ป้อนประเทศหรือภูมิภาคที่จะจัดส่งสินค้าไป ฟิลด์นี้จะได้รับการตั้งค่าสำหรับผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบโดยอัตโนมัติ
 
-    ![![หน้าข้อมูลใบสั่ง](media/customer-portal-order-information.png "หน้าข้อมูลใบสั่ง")](media/customer-portal-order-information.png "Order Information page")
+    ![หน้าข้อมูลใบสั่ง](media/customer-portal-order-information.png "หน้าข้อมูลใบสั่ง")
 
 1. เลือก **ถัดไป**
 1. บนหน้า **สินค้า** เลือก **เพิ่มสินค้า**
 
-    ![![หน้าสินค้า](media/customer-portal-items.png "หน้าสินค้า")](media/customer-portal-items.png "Items page")
+    ![หน้าสินค้า](media/customer-portal-items.png "หน้าสินค้า")
 
 1. ในกล่องโต้ตอบ **ข้อมูลของสินค้า** ตั้งค่าฟิลด์ต่อไปนี้:
 
@@ -76,14 +78,14 @@ ms.locfileid: "3414016"
     - **หน่วย** – ระบุหน่วยวัด (ตัวอย่างเช่น **ชิ้น** **กก.** หรือ **กล่อง**)
     - **ยอดเงินสุทธิที่ประมาณไว้** – มูลค่านี้จะคำนวณจากราคาโดยประมาณของสินค้า × ปริมาณสำหรับหน่วยที่เลือก
 
-    ![![กล่องโต้ตอบข้อมูลของสินค้า](media/customer-portal-item-information.png "กล่องโต้ตอบข้อมูลของสินค้า")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![กล่องโต้ตอบข้อมูลของสินค้า](media/customer-portal-item-information.png "กล่องโต้ตอบข้อมูลของสินค้า")
 
 1. เลือก **ส่ง** เพื่อเพิ่มสินค้าไปยังใบสั่ง
 1. ทำซ้ำขั้นตอนที่ 4 ถึง 6 จนกว่าคุณจะเพิ่มสินค้าทั้งหมดที่คุณต้องการสั่งซื้อ
 1. เมื่อคุณเพิ่มสินค้าเสร็จแล้ว ให้เลือก **ถัดไป** บนหน้า **สินค้า**
 1. หน้า **ข้อมูลของใบสั่ง** แสดงสรุปของใบสั่ง ตรวจทานเนื้อหาของใบสั่งและรายละเอียดการจัดส่ง ถ้าทุกอย่างดูถูกต้อง ให้เลือก **ส่ง** เพื่อส่งใบสั่ง
 
-    ![![หน้าข้อมูลใบสั่ง](media/customer-portal-order-submit.png "หน้าข้อมูลใบสั่ง")](media/customer-portal-order-submit.png "Order Information page")
+    ![หน้าข้อมูลใบสั่ง](media/customer-portal-order-submit.png "หน้าข้อมูลใบสั่ง")
 
 ### <a name="standard-data-setup"></a>การตั้งค่าข้อมูลมาตรฐาน
 
@@ -148,19 +150,19 @@ ms.locfileid: "3414016"
 
 มีการใช้เพียงแค่ตัวควบคุมแบบกำหนดเองที่รวมอยู่ในแม่แบบพอร์ทัลลูกค้า ในการสร้างไทล์บนโฮมเพจ
 
-![![ไทล์บนโฮมเพจ](media/customer-portal-home-page-tiles.png "ไทล์บนโฮมเพจ")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![ไทล์บนโฮมเพจ](media/customer-portal-home-page-tiles.png "ไทล์บนโฮมเพจ")
 
 ในการปรับเปลี่ยนไทล์ ให้ทำตามขั้นตอนเหล่านี้
 
 1. เปิด [แอปการจัดการพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)
 1. ในบานหน้าต่างนำทางทางด้านซ้าย ให้เลือก **แม่แบบของหน้า**
 
-    ![![บานหน้าต่างนำทางการจัดการพอร์ทัล](media/customer-portal-nav.png "บานหน้าต่างนำทางการจัดการพอร์ทัล")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![บานหน้าต่างนำทางการจัดการพอร์ทัล](media/customer-portal-nav.png "บานหน้าต่างนำทางการจัดการพอร์ทัล")
 
 1. เลือกแม่แบบของหน้าซึ่งชื่อ **โฮม**
 1. ใน **แม่แบบเว็บ** เลือกลิงก์ **โฮม** เพื่อเปิดซอร์สโค้ดสำหรับหน้านั้น
 
-    ![![ฟิลด์แม่แบบเว็บ](media/customer-portal-web-template.png "ฟิลด์แม่แบบเว็บ")](media/customer-portal-web-template.png "Web Template field")
+    ![ฟิลด์แม่แบบเว็บ](media/customer-portal-web-template.png "ฟิลด์แม่แบบเว็บ")
 
 1. ขณะนี้คุณควรดูซอร์สโค้ดทั้งหมดสำหรับโฮมเพจได้ และสามารถปรับเปลี่ยนได้ตามต้องการ
 

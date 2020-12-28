@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987201"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4438923"
 ---
 # <a name="create-a-baseline-forecast"></a>สร้างการคาดการณ์พื้นฐาน
 
@@ -43,7 +43,7 @@ ms.locfileid: "3987201"
 7. ปิดหน้า
 8. ปิดหน้า
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>ตั้งค่าพารามิเตอร์การคาดการณ์ความต้องการ
+## <a name="set-up-the-demand-forecasting-parameters"></a>ตั้งค่าพารามิเตอร์การคาดการณ์ความต้องการ
 1. ไปที่ การวางแผนหลัก >การตั้งค่า > การคาดการณ์ความต้องการ > พารามิเตอร์การคาดการณ์ความต้องการ
 2. ขยายส่วนพารามิเตอร์อัลกอริทึมการคาดการณ์
 3. ในฟิลด์กลยุทธ์การสร้างการคาดการณ์ เลือก 'คัดลอกความต้องการในอดีต' 

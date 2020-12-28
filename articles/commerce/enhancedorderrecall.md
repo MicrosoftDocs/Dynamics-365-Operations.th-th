@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974849"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665309"
 ---
 # <a name="recall-order-operation-in-pos"></a>เรียกคืนการดำเนินงานใบสั่งใน POS
 
 [!include [banner](includes/banner.md)]
 
-การดำเนินงานเรียกคืนใบสั่งในการขายหน้าร้านค้า (POS) ของ Commerce ให้การค้นหาใบสั่งที่มีการอัปเดต และการกรองข้อมูลและข้อมูลเฉพาะใบสั่ง คุณลักษณะนี้พร้อมใช้งานใน Commerce รุ่น 10.0.15 และรุ่นที่ใหม่กว่า
+การดำเนินงาน **เรียกคืนใบสั่ง** ในการขายหน้าร้าน (POS) ของ Commerce ให้คุณลักษณะการค้นหาใบสั่งที่มีการอัปเดตและการกรองข้อมูล และข้อมูลเฉพาะใบสั่ง คุณลักษณะนี้พร้อมใช้งานใน Commerce รุ่น 10.0.15 และรุ่นที่ใหม่กว่า
 
 เมื่อต้องการเปิดใช้งานฟังก์ชันนี้ ให้เปิดลักษณะการทำงาน **การดำเนินงานเรียกคืนใบสั่งที่ดีขึ้นใน POS** ในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** ในศูนย์ควบคุม Commerce หลังจากที่คุณเปิดใช้งานลักษณะการทำงานแล้ว ให้พิจารณาการอัปเดต [เค้าโครงหน้าจอของคุณ](pos-screen-layouts.md) ใน POS เพื่อใช้ประโยชน์จากความสามารถในการเปลี่ยนแปลงบางอย่าง
 

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429577"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420827"
 ---
 # <a name="design-questionnaires"></a>ออกแบบแบบสอบถาม
 
@@ -91,7 +91,7 @@ ms.locfileid: "3429577"
 คุณควรกำหนดพารามิเตอร์ทั้งหมดก่อนที่คุณจะเริ่มสร้างข้อมูลของคุณ คุณสามารถปรับเปลี่ยนการตั้งค่าพารามิเตอร์แบบสอบถามได้ตลอดเวลา
 
 ## <a name="questionnaire-components"></a>ส่วนประกอบของแบบสอบถาม
-แบบสอบถามประกอบด้วยสามองค์ประกอบหลัก: กลุ่มคำตอบที่ประกอบด้วยคำตอบสำหรับคำถามเลือกตอบหลายตัวเลือก คำถาม และแบบสอบถามเอง คุณสามารถเลือกจัดกลุ่มคำถามในแบบสอบถามเป็นกลุ่มผลลัพธ์ได้ กลุ่มผลคะแนนช่วยให้คุณสามารถจัดประเภทคำถาม และให้การวิเคราะห์เพิ่มเติมในแบบสอบถาม 
+แบบสอบถามประกอบด้วยสามองค์ประกอบหลัก: กลุ่มคำตอบที่ประกอบด้วยคำตอบสำหรับคำถามเลือกตอบหลายตัวเลือก คำถาม และแบบสอบถามเอง  คุณสามารถเลือกจัดกลุ่มคำถามในแบบสอบถามเป็นกลุ่มผลลัพธ์ได้ กลุ่มผลคะแนนช่วยให้คุณสามารถจัดประเภทคำถาม และให้การวิเคราะห์เพิ่มเติมในแบบสอบถาม 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

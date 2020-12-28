@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897522"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529719"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (6 พฤษภาคม 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
@@ -45,7 +47,7 @@ ms.locfileid: "2897522"
 
 ### <a name="platform-update-26-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 26 สำหรับ Finance and Operations
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 26 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 26 (พฤษภาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26) 
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับ Platform update 26 สำหรับ Finance and Operations ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Finance and Operations การปรับปรุงแพลตฟอร์ม 26 (พฤษภาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26) 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>การสนับสนุนเอนทิตี Common Data Service สำหรับฟิลด์ที่กำหนดเอง
 

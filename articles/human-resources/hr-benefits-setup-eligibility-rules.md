@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430681"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420716"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>ตั้งค่าคอนฟิกกฎการใช้สิทธิ์และตัวเลือก
 
@@ -141,7 +141,7 @@ ms.locfileid: "3430681"
 
 2. ในแท็บ **รอบระยะเวลา** เลือก **โปรแกรมเครดิตแบบยืดหยุ่น**
 
-3. เลือกโปรแกรมเครดิตแบบยืดหยุ่นที่จะใช้ ในฟิลด์จะมีข้อมูลต่อไปนี้ 
+3. เลือกโปรแกรมเครดิตแบบยืดหยุ่นที่จะใช้ ในฟิลด์จะมีข้อมูลต่อไปนี้
 
    | ฟิลด์ | คำอธิบาย |
    | --- | --- |

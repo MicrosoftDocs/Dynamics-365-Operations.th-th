@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793814"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516630"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>แค็ตตาล็อกการเรียนรู้ของผู้ดูแลระบบ Dynamics 365 Supply Chain Management
 
@@ -46,7 +46,7 @@ ms.locfileid: "3793814"
 | [จัดการโครงการการใช้งานสำหรับ Finance and Operations](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | เรียนรู้องค์ประกอบที่สำคัญที่สุดและแนวทางปฏิบัติที่ดีที่สุดในการจัดการโครงการการใช้งาน Finance and Operations ที่ประสบความสำเร็จ จากขั้นตอนแรกที่คุณกำลังวางแผนและออกแบบระเบียบของโครงการของคุณ การใช้บริการ FastTrack กลยุทธ์การพัฒนา การจัดการข้อมูล และอีกมากมาย ไปจนถึงวิธีการที่ดีที่สุดในการรักษาและตรวจสอบการดำเนินงานของคุณหลังจากการเริ่มใช้งานจริง | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 11.5 ชั่วโมง |
 | [โฮมเพจการดูแลระบบ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | หัวข้อนี้ชี้ไปที่เนื้อหาสำหรับผู้ดูแลระบบ Microsoft Dynamics 365 for Finance and Operations เนื้อหานี้จะช่วยคุณในการตั้งค่าคอนฟิกระบบเพื่อให้ทำงานได้อย่างราบรื่นและอย่างมีประสิทธิภาพสำหรับองค์กรของคุณ | การจัดทำเอกสารประกอบ | |
 | [Finance and Operations: การเตรียมความพร้อม Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack เสนอให้บริการการเตรียมความพร้อมทุกโครงการ Dynamics 365 for Finance and Operations ในการพูดคุยเกี่ยวกับเทคโนโลยีนี้เราจะอธิบายกระบวนการเตรียมความพร้อม มาดูเนื้อหาของรอบเวลาการเตรียมความพร้อมกับคุณและเปิดเผยว่าเรากำลังทำการเตรียมความพร้อมอย่างมีประสิทธิภาพและสะดวกสบายมากขึ้นในอนาคตอันใกล้ รอบเวลานี้มีความเกี่ยวข้องโดยเฉพาะอย่างยิ่งกับทุกคนที่ทำงานกับลูกค้าในขั้นแรกของโครงการระหว่างการปิดข้อตกลงลิขสิทธิ์และการเริ่มต้นการดำเนินโครงการ | การบันทึกการประชุมผ่านเว็บฟรี | 62 นาที |
-| [On-Premises (ข้อมูลทางธุรกิจ) การปรับใช้ (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | โปรดเข้าร่วมกับการพูดคุยเกี่ยวกับเทคโนโลยีนี้สำหรับตัวเลือกภาพรวมของการปรับใช้ขอ Dynamics 365 for Finance and Operations Enterprise Edition ในรอบเวลานี้เราจะดูที่สถาปัตยกรรมด้านโซลูชันของการปรับใช้ในสถานที่, แง่มุม ALM, ด้านความต้องการของระบบและวิธีทำส่วนสำรองโครงการบริการวงจรชีวิต | การบันทึกการประชุมผ่านเว็บฟรี | 48 นาที |
+| [On-Premises (ข้อมูลทางธุรกิจ) การปรับใช้ (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | โปรดเข้าร่วมกับการพูดคุยเกี่ยวกับเทคโนโลยีนี้สำหรับตัวเลือกภาพรวมของการปรับใช้ขอ Dynamics 365 for Finance and Operations Enterprise Edition ในรอบเวลานี้เราจะดูที่สถาปัตยกรรมด้านโซลูชันของการปรับใช้ในสถานที่ แง่มุม ALM ด้านความต้องการของระบบและวิธีทำส่วนสำรองโครงการบริการวงจรชีวิต | การบันทึกการประชุมผ่านเว็บฟรี | 48 นาที |
 | [คัดลอกไปยังนิติบุคคล (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | ในรอบเวลานี้เราจะกล่าวถึงคุณลักษณะใหม่ในกรอบงานการจัดการข้อมูลที่คัดลอกไปยังนิติบุคคล เราจะตรวจสอบความถูกต้องแบบสั้นๆก่อนว่าคุณลักษณะใหม่ที่เพิ่มเข้าไปในกรอบงานการจัดการข้อมูลในแพลตฟอร์ม 8 สำหรับพื้นที่ทำงาน เท็มเพลตและโครงการข้อมูลแล้วอธิบายฟังก์ชันเพิ่มเติมสำหรับการคัดลอกไปยังนิติบุคคล | การบันทึกการประชุมผ่านเว็บฟรี | 54 นาที |
 
 ## <a name="core-development"></a>การพัฒนาหลัก<a name="core-development"></a>

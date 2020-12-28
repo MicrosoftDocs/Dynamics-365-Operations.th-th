@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017133"
+ms.locfileid: "4438805"
 ---
 # <a name="location-license-plate-positioning"></a>การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
 

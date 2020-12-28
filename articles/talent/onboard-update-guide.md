@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551967"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462756"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>อัพเดตคู่มือการเตรียมความพร้อมใน Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>อัพเดตคู่มือการเตรียมความพร้อม
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "2551967"
 2. เลือกคู่มือที่คุณต้องการแก้ไข
 3. ทำการเปลี่ยนแปลงที่ต้องการทั้งหมด แล้วเลือกปุ่ม **บันทึก** (สัญลักษณ์ดิสก์)
 
-    ![[การบันทึกการเปลี่ยนแปลงไปยังคู่มือการเตรียมความพร้อม](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[การบันทึกการเปลี่ยนแปลงของคู่มือการเตรียมความพร้อม](./media/onboard-save.png)](./media/onboard-save.png)
 
 Onboard จะส่งอีเมลที่ระบุว่าการเปลี่ยนแปลงนั้นมีอะไรบ้างไปยังพนักงานใหม่โดยอัตโนมัติ สำหรับการระบุรหัสประจำตัวอย่างง่าย ป้าย **ใหม่** สีแดงจะปรากฏขึ้นถัดจากการเปลี่ยนแปลงแต่ละรายการ
 

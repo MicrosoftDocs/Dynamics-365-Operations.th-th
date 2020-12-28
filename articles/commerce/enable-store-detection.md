@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533401"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517317"
 ---
 # <a name="enable-location-based-store-detection"></a>เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง
 
@@ -48,15 +48,15 @@ ms.locfileid: "3533401"
 1. เลือก **การตั้งค่าไซต์**
 1. ตั้งค่าตัวเลือก **เปิดใช้งานการตรวจสอบร้านค้าตามสถานที่** เป็น **เปิด**
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
-[ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
+[ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
 [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
-[เชื่อมโยงไซต์ออนไลน์กับช่องทาง](associate-site-online-store.md)
+[เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์](associate-site-online-store.md)
 
 [จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
 

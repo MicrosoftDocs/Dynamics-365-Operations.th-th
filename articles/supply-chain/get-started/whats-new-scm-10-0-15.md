@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.15
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012286"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700968"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.15 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.644 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.15 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.644 และพร้อมใช้งานดังนี้:
 
 - **การแสดงตัวอย่างของการนำออกใช้:** ตุลาคม 2020
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** พฤศจิกายน 2020
@@ -39,19 +38,23 @@ ms.locfileid: "4012286"
 
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-- การจัดการ Cloud และ edge scale unit ด้วยปริมาณงานในการดำเนินการผลิตและคลังสินค้า<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- การจัดการ Cloud และ edge scale unit ด้วยปริมาณงานในการดำเนินการผลิตและคลังสินค้า<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า](../cloud-edge/cloud-edge-landing-page.md)
 
 - [สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า](../warehousing/create-transfer-order-from-warehouse-app.md)
 
 - [ฟิลด์การตอบ RFQ เริ่มต้นสำหรับการประมูลของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [ภาพรวมคำขอใบเสนอราคา (RFQ)](../procurement/request-quotations.md)
 
-- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md)
 
 - [คู่มือแบบผสมความจริงสำหรับการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ให้คู่มือแบบผสมความจริงสำหรับผู้ปฏิบัติงานในการผลิต](../production-control/instruction-guides-in-production-overview.md)
 
 - [ประสบการณ์การใช้งานของผู้ใช้ใหม่สำหรับการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
 
 - [ประมวลผลเหตุการณ์ของแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลเหตุการณ์ของแอปคลังสินค้า](../warehousing/warehouse-app-events.md)
+
+- [มุมมองที่บันทึกไว้สำหรับหน้าผลิตภัณฑ์ที่นำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../../fin-ops-core/fin-ops/get-started/saved-views.md)
+
+- เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบรับรองแหล่งกำเนิดสินค้า USMCA](../transportation/usmca-certification-of-origin.md)
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 

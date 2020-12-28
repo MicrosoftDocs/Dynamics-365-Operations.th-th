@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e37777b8000fb3afbc72ff9c61347085816e36c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431233"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527814"
 ---
 # <a name="provision-human-resources"></a>เตรียมใช้งาน Human Resources
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 บทความนี้นำคุณไปสู่กระบวนการของการเตรียมใช้งานสภาพแวดล้อมการใช้งานจริงสำหรับ Microsoft Dynamics 365 Human Resources บทความนี้สันนิษฐานว่า คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 ที่มีอยู่ ซึ่งรวมแผนบริการทรัพยากรบุคคล และคุณไม่สามารถทำตามขั้นตอนในบทความนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
 
