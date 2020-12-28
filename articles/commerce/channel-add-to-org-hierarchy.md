@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416092"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>เพิ่มช่องทางในลำดับชั้นขององค์กร
 
@@ -43,7 +43,7 @@ ms.locfileid: "3002484"
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> ลำดับชั้นขององค์กร**
 1. จากรายการ ให้เลือกลำดับชั้นขององค์กรที่คุณจะเพิ่มช่องทางให้
-1. ในบานหน้าต่างการดำเนินการ ให้เลือก **มุมมอง**เพื่อดูรายละเอียดของลำดับชั้น
+1. ในบานหน้าต่างการดำเนินการ ให้เลือก **มุมมอง** เพื่อดูรายละเอียดของลำดับชั้น
 
 รูปภาพต่อไปนี้แสดงรายละเอียดลำดับชั้นขององค์กรสำหรับลำดับชั้นที่เลือก
 

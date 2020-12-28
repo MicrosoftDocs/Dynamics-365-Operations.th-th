@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896945"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528230"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Talent (2 เมษายน 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Talent
 
@@ -55,7 +57,7 @@ ms.locfileid: "2896945"
 การเปลี่ยนแปลงที่อธิบายไว้ในส่วนนี้นำไปใช้กับการสร้างหมายเลข 8.1.2216
 
 ### <a name="platform-update-25-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ดูที่ [คุณลักษณะตัวอย่างใน Dynamics 365 for Finance and Operations การอัพเดตแพลตฟอร์ม 25 (เมษายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
+ดูข้อมูลเพิ่มเติมเกี่ยวกับ Platform update 25 สำหรับ Finance and Operations ได้ที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 for Finance and Operations การปรับปรุงแพลตฟอร์ม platform update 25 (เมษายน 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25)
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>ความปลอดภัยของค่าตอบแทนขั้นสูง (คงที่และผันแปร)
 ในองค์กรหลายองค์กร ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการอาจมีการเข้าถึงเรกคอร์ดค่าตอบแทนบางรายการเท่านั้น ซึ่งอาจรวมเรกคอร์ดสำหรับผู้บริหารหรือพนักงานในภูมิภาค การเปลี่ยนแปลงนี้ช่วยให้ HR สามารถจัดการและรักษาแผนค่าตอบแทนสำหรับกลุ่มพนักงานอื่นๆ ในองค์กรได้ คุณสามารถกำหนดบทบาทความปลอดภัยกับแผนที่คงที่และผันแปร บทบาทความปลอดภัยเหล่านี้จะกำหนดการเข้าถึงแผนและข้อมูลของพนักงานที่เกี่ยวข้อง เช่น เรกคอร์ดเงินโบนัสหรือเงินเดือน เพื่อให้เฉพาะบทบาทต่าง ๆ สามารถประมวลผลค่าตอบแทนสำหรับกลุ่มพนักงาน
@@ -77,4 +79,4 @@ ms.locfileid: "2896945"
 ด้วยการเปลี่ยนแปลงนี้ ข้อมูลซ้ำจะถูกตรวจพบขณะที่คุณป้อนในฟิลด์ชื่อ และสถานะจะแสดงจำนวนของข้อมูลซ้ำที่พบ คุณสามารถเลือกการเชื่อมโยงที่ให้มาเพื่อเปิดหน้าใหม่เพื่อประเมินว่าจะใช้การจับคู่ที่ตรวจพบหรือไม่ หากต้องการหลีกเลี่ยงการรบกวนการป้อนข้อมูล ฟอร์มที่ซ้ำกันจะไม่เปิดขึ้นโดยอัตโนมัติ
 
 ###  <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
-ด้วยการอัพเดตแพลตฟอร์ม 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่ส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อเมื่อมีการทริกเกอร์โดยเหตุการณ์ 
+ด้วย Platform update 25 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์ 

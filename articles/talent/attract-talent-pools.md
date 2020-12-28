@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078054"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527704"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>จัดหาผู้สมัครที่มีกลุ่มผู้มีความสามารถพิเศษ ใน Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ผู้สรรหาและผู้จัดการว่าจ้างสามารถจัดระเบียบผู้สมัครของพวกเขาได้โดยใช้ฟังก์ชันกลุ่ม Talent ใน Attract กลุ่ม talent สามารถช่วยให้คุณสามารถติดตาม และเข้าร่วมกับผู้สมัครทั้งหมดที่ใช้สำหรับงานที่บริษัทของคุณ
 
@@ -113,7 +115,7 @@ ms.locfileid: "3078054"
 
 - แท็บ **เอกสาร** แสดงเอกสารใดๆ ที่มีการเพิ่มผู้สมัคร จากโพรไฟล์ของเขาหรือเธอ หรือในระหว่างใบสมัครงาน คุณสามารถใช้แท็บนี้ในการจัดการประวัติย่อของผู้สมัคร จดหมายปะหน้า งานกลุ่มธุรกิจ และอื่นๆ คุณยังสามารถใช้แท็บนี้เพื่อเพิ่มเอกสารได้ด้วย
 
-    เมื่อต้องการดูเอกสาร เลือกชื่อเอกสารในรายการเอกสาร คุณสามารถดูเอกสาร Microsoft Word ในแอพลิเคชันได้โดยใช้ Microsoft Office 365 คุณยังสามารถดาวน์โหลดเอกสารไปยังคอมพิวเตอร์ของคุณได้ โดยใช้ตัวเลือก **ดาวน์โหลด** สำหรับเอกสารแต่ละฉบับได้
+    เมื่อต้องการดูเอกสาร เลือกชื่อเอกสารในรายการเอกสาร คุณสามารถดูเอกสาร Microsoft Word ในแอพลิเคชันได้ โดยใช้ Microsoft 365 คุณยังสามารถดาวน์โหลดเอกสารไปยังคอมพิวเตอร์ของคุณได้ โดยใช้ตัวเลือก **ดาวน์โหลด** สำหรับเอกสารแต่ละฉบับได้
 
 - แท็บ **LinkedIn** แสดงข้อมูล LinkedIn ของผู้สมัคร เพื่อใช้แท็บนี้ คุณต้องเชื่อมโยงบัญชี LinkedIn ของคุณในการตั้งค่าผู้ใช้ และต้องมีการสร้างการเชื่อมต่อ LinkedIn Recruiter ของสภาพแวดล้อมของคุณ สำหรับข้อมูลเพิ่มเติมให้ ดู [จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 

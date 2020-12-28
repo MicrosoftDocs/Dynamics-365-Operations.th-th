@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015140"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527397"
 ---
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย 
 

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056108"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527896"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>รวมกับฮับความสามารถพิเศษของ LinkedIn
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [ฮับความสามารถพิเศษของของ LinkedIn](https://business.linkedin.com/talent-solutions/talent-hub) เป็นแพลตฟอร์มของระบบติดตามผู้สมัคร (ATS) ซึ่งช่วยให้คุณสามารถจัดหา จัดการ และจ้างงานพนักงานทั้งหมดได้ในที่เดียว โดยการรวม Microsoft Dynamics 365 Human Resources เข้ากับฮับความสามารถพิเศษของของ LinkedIn คุณสามารถสร้างเรกคอร์ดพนักงานในทรัพยากรบุคคลสำหรับผู้สมัครที่ได้รับการว่าจ้างสำหรับตำแหน่งได้
 
@@ -121,9 +123,9 @@ ms.locfileid: "4056108"
 1. ใน Dynamics 365 Human Resources ให้เปิดหน้า **ใบสมัคร Azure Active Directory**
 2. เพิ่มเรกคอร์ดใหม่ไปยังรายการ และตั้งค่าฟิลด์ต่อไปนี้:
 
-    - **รหัสไคลเอนต์** : ป้อน **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**
-    - **ชื่อ** : ให้ป้อนชื่อของบทบาทความปลอดภัย Power Apps ที่คุณสร้างไว้ก่อนหน้านี้ เช่น **การรวม HRIS ของฮับความสามารถพิเศษของ LinkedIn**
-    - **รหัสผู้ใช้** : เลือกผู้ใช้ที่มีสิทธิ์ในการเขียนข้อมูลในการจัดการบุคลากร
+    - **รหัสไคลเอนต์**: ป้อน **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**
+    - **ชื่อ**: ให้ป้อนชื่อของบทบาทความปลอดภัย Power Apps ที่คุณสร้างไว้ก่อนหน้านี้ เช่น **การรวม HRIS ของฮับความสามารถพิเศษของ LinkedIn**
+    - **รหัสผู้ใช้**: เลือกผู้ใช้ที่มีสิทธิ์ในการเขียนข้อมูลในการจัดการบุคลากร
 
 ### <a name="create-the-entity-in-common-data-service"></a>สร้างเอนทิตีใน Common Data Service
 
@@ -152,7 +154,7 @@ ms.locfileid: "4056108"
 
 3. เลือก **เปลี่ยนขั้น** และจากนั้น เลือก **ได้รับการจ้างงาน**
 
-4. บนเมนูจุดไข่ปลา ( **...** ) สำหรับผู้สมัคร เลือก **ส่งออกไปที่ HRIS**
+4. บนเมนูจุดไข่ปลา (**...**) สำหรับผู้สมัคร เลือก **ส่งออกไปที่ HRIS**
 
 5. ในบานหน้าต่าง **ส่งออกไปยัง HRIS** ให้ป้อนข้อมูลที่ต้องส่งออก:
 
