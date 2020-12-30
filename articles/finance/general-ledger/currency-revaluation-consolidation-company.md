@@ -1,0 +1,91 @@
+---
+title: การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
+description: หัวข้อนี้อธิบายวิธีการประเมินค่าสกุลเงินในบริษัทสำหรับการรวมบัญชี
+author: roschlom
+manager: AnnBe
+ms.date: 10/02/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LedgerExchAdjHist
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 62183
+ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
+ms.search.region: Global
+ms.author: roschlom
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4448579"
+---
+# <a name="currency-revaluation-in-a-consolidation-company"></a><span data-ttu-id="12a75-103">การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="12a75-103">Currency revaluation in a consolidation company</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="12a75-104">เมื่อคุณรวมข้อมูลจากสกุลเงินทางบัญชีหนึ่งไปอีกสกุลเงินทางบัญชีหนึ่ง คุณต้องรันการประเมินค่าสกุลเงินใหม่หากมีการเปลี่ยนแปลงอัตราแลกเปลี่ยน จากนั้นยอดดุลบัญชีของคุณถึงจะได้ประเมินค่าใหม่ได้อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="12a75-104">When you consolidate data from one accounting currency to another, you must still run currency revaluation if there is a change in exchange rates, so that your account balances  are correctly revalued.</span></span> <span data-ttu-id="12a75-105">เมื่อคุณรวมข้อมูลไว้ในตอนแรก ใช้แท็บ **การแปลงสกุลเงิน** เพื่อเลือกอัตราแลกเปลี่ยนเริ่มต้นสำหรับการแปลงในระหว่างกระบวนการรวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="12a75-105">When you originally consolidate the data, use the **Currency translation** tab to select the initial exchange rates to for translation during the consolidation process.</span></span> <span data-ttu-id="12a75-106">หลังจากป้อนอัตราแลกเปลี่ยนใหม่ (ตัวอย่างเช่น ในเดือนถัดไป) คุณต้องประเมินค่ายอดดุลบัญชีใหม่</span><span class="sxs-lookup"><span data-stu-id="12a75-106">After a new exchange rate is entered (for example, in the next month), you must revalue the account balances.</span></span> <span data-ttu-id="12a75-107">กำไรหรือขาดทุนที่ยังไม่รับรู้จะถูกอัพเดตไปตามนั้น ตามอัตราแลกเปลี่ยนและวันใหม่</span><span class="sxs-lookup"><span data-stu-id="12a75-107">The unrealized gains or losses are then updated accordingly, based on the new exchange rate and date.</span></span> <span data-ttu-id="12a75-108">ตัวอย่างต่อไปนี้แสดงให้เห็นรายการบัญชีที่สร้างขึ้นในระหว่างกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="12a75-108">The following example illustrates the accounting entries that are created during the process.</span></span>
+
+## <a name="company-setup"></a><span data-ttu-id="12a75-109">การจัดเตรียมบริษัท</span><span class="sxs-lookup"><span data-stu-id="12a75-109">Company setup</span></span>
+-   <span data-ttu-id="12a75-110">**แหล่งที่มา/บริษัทที่ดำเนินการ (USMF)** – ดอลลาร์สหรัฐฯ (USD) จะถูกใช้ในสกุลเงินทางบัญชีและสกุลเงินการรายงาน</span><span class="sxs-lookup"><span data-stu-id="12a75-110">**Source/operating company (USMF)** – US dollars (USD) are used as the accounting and reporting currency.</span></span>
+-   <span data-ttu-id="12a75-111">**บริษัทแบบรวมบัญชี(CON)** – ยูโร (EUR) จะถูกใช้ในสกุลเงินทางบัญชีและสกุลเงินการรายงาน</span><span class="sxs-lookup"><span data-stu-id="12a75-111">**Consolidated company (CON)** – Euros (EUR) are used as the accounting and reporting currency.</span></span>
+    -   <span data-ttu-id="12a75-112">**กำไรที่รับรู้**– บัญชีแยกประเภท 801500</span><span class="sxs-lookup"><span data-stu-id="12a75-112">**Realized gain**– Ledger account 801500</span></span>
+    -   <span data-ttu-id="12a75-113">**ขาดทุนที่รับรู้** – บัญชีแยกประเภท 801600</span><span class="sxs-lookup"><span data-stu-id="12a75-113">**Realized loss** – Ledger account 801600</span></span>
+    -   <span data-ttu-id="12a75-114">**กำไรที่ยังไม่รับรู้**– บัญชีแยกประเภท 801600</span><span class="sxs-lookup"><span data-stu-id="12a75-114">**Unrealized gain** – Ledger account 801600</span></span>
+    -   <span data-ttu-id="12a75-115">**ขาดทุนที่ยังไม่รับรู้**– บัญชีแยกประเภท 801400</span><span class="sxs-lookup"><span data-stu-id="12a75-115">**Unrealized loss** – Ledger account 801400</span></span>
+
+## <a name="original-transactions"></a><span data-ttu-id="12a75-116">ธุรกรรมดั้งเดิม</span><span class="sxs-lookup"><span data-stu-id="12a75-116">Original transactions</span></span>
+### <a name="cash-receipt-transactions-in-usmf"></a><span data-ttu-id="12a75-117">ธุรกรรมของใบเสร็จรับเงินใน USMF</span><span class="sxs-lookup"><span data-stu-id="12a75-117">Cash receipt transactions in USMF</span></span>
+
+| <span data-ttu-id="12a75-118">วันที่</span><span class="sxs-lookup"><span data-stu-id="12a75-118">Date</span></span>       | <span data-ttu-id="12a75-119">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="12a75-119">Ledger account</span></span>               | <span data-ttu-id="12a75-120">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-120">Currency</span></span> | <span data-ttu-id="12a75-121">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-121">Amount</span></span> |
+|------------|------------------------------|----------|--------|
+| <span data-ttu-id="12a75-122">วันที่ 11 ตุลาคม 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-122">10/11/2015</span></span> | <span data-ttu-id="12a75-123">110110 - เงินสด</span><span class="sxs-lookup"><span data-stu-id="12a75-123">110110 – Cash</span></span>                | <span data-ttu-id="12a75-124">USD</span><span class="sxs-lookup"><span data-stu-id="12a75-124">USD</span></span>      | <span data-ttu-id="12a75-125">500</span><span class="sxs-lookup"><span data-stu-id="12a75-125">500</span></span>    |
+| <span data-ttu-id="12a75-126">วันที่ 11 ตุลาคม 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-126">10/11/2015</span></span> | <span data-ttu-id="12a75-127">130100 – บัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="12a75-127">130100 – Accounts Receivable</span></span> | <span data-ttu-id="12a75-128">USD</span><span class="sxs-lookup"><span data-stu-id="12a75-128">USD</span></span>      | <span data-ttu-id="12a75-129">-500</span><span class="sxs-lookup"><span data-stu-id="12a75-129">-500</span></span>   |
+
+## <a name="exchange-rates"></a><span data-ttu-id="12a75-130">อัตราแลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="12a75-130">Exchange rates</span></span>
+
+| <span data-ttu-id="12a75-131">สกุลเงินต้นทาง</span><span class="sxs-lookup"><span data-stu-id="12a75-131">From currency</span></span> | <span data-ttu-id="12a75-132">สกุลเงินสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="12a75-132">To currency</span></span> | <span data-ttu-id="12a75-133">วันที่เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="12a75-133">Start date</span></span> | <span data-ttu-id="12a75-134">อัตราแลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="12a75-134">Exchange rate</span></span> |
+|---------------|-------------|------------|---------------|
+| <span data-ttu-id="12a75-135">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-135">EUR</span></span>           | <span data-ttu-id="12a75-136">USD</span><span class="sxs-lookup"><span data-stu-id="12a75-136">USD</span></span>         | <span data-ttu-id="12a75-137">วันที่ 1 ตุลาคม 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-137">10/1/2015</span></span>  | <span data-ttu-id="12a75-138">200</span><span class="sxs-lookup"><span data-stu-id="12a75-138">200</span></span>           |
+| <span data-ttu-id="12a75-139">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-139">EUR</span></span>           | <span data-ttu-id="12a75-140">USD</span><span class="sxs-lookup"><span data-stu-id="12a75-140">USD</span></span>         | <span data-ttu-id="12a75-141">วันที่ 1 พฤษจิกายน 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-141">11/1/2015</span></span>  | <span data-ttu-id="12a75-142">150</span><span class="sxs-lookup"><span data-stu-id="12a75-142">150</span></span>           |
+| <span data-ttu-id="12a75-143">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-143">EUR</span></span>           | <span data-ttu-id="12a75-144">USD</span><span class="sxs-lookup"><span data-stu-id="12a75-144">USD</span></span>         | <span data-ttu-id="12a75-145">1 ธันวาคม 2012</span><span class="sxs-lookup"><span data-stu-id="12a75-145">12/1/2012</span></span>  | <span data-ttu-id="12a75-146">100</span><span class="sxs-lookup"><span data-stu-id="12a75-146">100</span></span>           |
+
+## <a name="perform-the-consolidation-for-october-2015"></a><span data-ttu-id="12a75-147">ดำเนินการรวมบัญชีสำหรับเดือนตุลาคม 2015 </span><span class="sxs-lookup"><span data-stu-id="12a75-147">Perform the consolidation for October 2015</span></span>
+### <a name="balances-in-the-consolidation-company"></a><span data-ttu-id="12a75-148">ยอดดุลในบริษัทที่รวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="12a75-148">Balances in the consolidation company</span></span>
+
+| <span data-ttu-id="12a75-149">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="12a75-149">Ledger account</span></span> | <span data-ttu-id="12a75-150">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-150">Currency</span></span> | <span data-ttu-id="12a75-151">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-151">Amount</span></span> | <span data-ttu-id="12a75-152">การคำนวณ</span><span class="sxs-lookup"><span data-stu-id="12a75-152">Calculation</span></span>    |
+|----------------|----------|--------|----------------|
+| <span data-ttu-id="12a75-153">110110</span><span class="sxs-lookup"><span data-stu-id="12a75-153">110110</span></span>         | <span data-ttu-id="12a75-154">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-154">EUR</span></span>      | <span data-ttu-id="12a75-155">250</span><span class="sxs-lookup"><span data-stu-id="12a75-155">250</span></span>    | <span data-ttu-id="12a75-156">500 ดอลลาร์สหรัฐ × 50%</span><span class="sxs-lookup"><span data-stu-id="12a75-156">500 USD × 50%</span></span>  |
+| <span data-ttu-id="12a75-157">130100</span><span class="sxs-lookup"><span data-stu-id="12a75-157">130100</span></span>         | <span data-ttu-id="12a75-158">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-158">EUR</span></span>      | <span data-ttu-id="12a75-159">-250</span><span class="sxs-lookup"><span data-stu-id="12a75-159">-250</span></span>   | <span data-ttu-id="12a75-160">-500 ดอลลาร์สหรัฐ × 50%</span><span class="sxs-lookup"><span data-stu-id="12a75-160">-500 USD × 50%</span></span> |
+
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a><span data-ttu-id="12a75-161">ดำเนินการประเมินค่าสกุลเงินใหม่สำหรับบัญชีจาก 1 ตุลาคม 2015 ถึง 30 พฤศจิกายน 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-161">Perform currency revaluation for the accounts from October 1, 2015, through November 30, 2015</span></span>
+### <a name="balances-in-the-consolidation-company"></a><span data-ttu-id="12a75-162">ยอดดุลในบริษัทที่รวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="12a75-162">Balances in the consolidation company</span></span>
+
+| <span data-ttu-id="12a75-163">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="12a75-163">Ledger account</span></span> | <span data-ttu-id="12a75-164">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-164">Currency</span></span> | <span data-ttu-id="12a75-165">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-165">Amount</span></span>  | <span data-ttu-id="12a75-166">การคำนวณ</span><span class="sxs-lookup"><span data-stu-id="12a75-166">Calculation</span></span>                        |
+|----------------|----------|---------|------------------------------------|
+| <span data-ttu-id="12a75-167">110110</span><span class="sxs-lookup"><span data-stu-id="12a75-167">110110</span></span>         | <span data-ttu-id="12a75-168">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-168">EUR</span></span>      | <span data-ttu-id="12a75-169">333.33</span><span class="sxs-lookup"><span data-stu-id="12a75-169">333.33</span></span>  | <span data-ttu-id="12a75-170">ยอดเงินเดิมของ 500 × 66.6667%</span><span class="sxs-lookup"><span data-stu-id="12a75-170">Original amount of 500 × 66.6667%</span></span>  |
+| <span data-ttu-id="12a75-171">130100</span><span class="sxs-lookup"><span data-stu-id="12a75-171">130100</span></span>         | <span data-ttu-id="12a75-172">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-172">EUR</span></span>      | <span data-ttu-id="12a75-173">-333.33</span><span class="sxs-lookup"><span data-stu-id="12a75-173">-333.33</span></span> | <span data-ttu-id="12a75-174">ยอดเงินเดิมของ -500 × 66.6667%</span><span class="sxs-lookup"><span data-stu-id="12a75-174">Original amount of -500 × 66.6667%</span></span> |
+| <span data-ttu-id="12a75-175">801400</span><span class="sxs-lookup"><span data-stu-id="12a75-175">801400</span></span>         | <span data-ttu-id="12a75-176">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-176">EUR</span></span>      | <span data-ttu-id="12a75-177">83.33</span><span class="sxs-lookup"><span data-stu-id="12a75-177">83.33</span></span>   | <span data-ttu-id="12a75-178">333.33 – 250</span><span class="sxs-lookup"><span data-stu-id="12a75-178">333.33 – 250</span></span>                       |
+| <span data-ttu-id="12a75-179">801600</span><span class="sxs-lookup"><span data-stu-id="12a75-179">801600</span></span>         | <span data-ttu-id="12a75-180">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-180">EUR</span></span>      | <span data-ttu-id="12a75-181">-83.33</span><span class="sxs-lookup"><span data-stu-id="12a75-181">-83.33</span></span>  | <span data-ttu-id="12a75-182">-333.33 – (-250)</span><span class="sxs-lookup"><span data-stu-id="12a75-182">-333.33 – (-250)</span></span>                   |
+
+<span data-ttu-id="12a75-183">คุณจะเห็นธุรกรรมเพิ่มเติมสำหรับยอดสกุลเงินการรายงาน</span><span class="sxs-lookup"><span data-stu-id="12a75-183">You will see additional transactions for the reporting currency amounts.</span></span>
+
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a><span data-ttu-id="12a75-184">ดำเนินการประเมินค่าสกุลเงินใหม่สำหรับบัญชีจาก 1 ตุลาคม 2015 ถึง 31 ธันวาคม 2015</span><span class="sxs-lookup"><span data-stu-id="12a75-184">Perform currency revaluation for the accounts from October 1, 2015, through December 31, 2015</span></span>
+### <a name="balances-in-the-consolidation-company"></a><span data-ttu-id="12a75-185">ยอดดุลในบริษัทที่รวมบัญชี</span><span class="sxs-lookup"><span data-stu-id="12a75-185">Balances in the consolidation company</span></span>
+
+| <span data-ttu-id="12a75-186">บัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="12a75-186">Ledger account</span></span> | <span data-ttu-id="12a75-187">สกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-187">Currency</span></span> | <span data-ttu-id="12a75-188">จำนวนเงิน</span><span class="sxs-lookup"><span data-stu-id="12a75-188">Amount</span></span>  | <span data-ttu-id="12a75-189">การคำนวณ</span><span class="sxs-lookup"><span data-stu-id="12a75-189">Calculation</span></span>                                          |
+|----------------|----------|---------|------------------------------------------------------|
+| <span data-ttu-id="12a75-190">110110</span><span class="sxs-lookup"><span data-stu-id="12a75-190">110110</span></span>         | <span data-ttu-id="12a75-191">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-191">EUR</span></span>      | <span data-ttu-id="12a75-192">500.00</span><span class="sxs-lookup"><span data-stu-id="12a75-192">500.00</span></span>  | <span data-ttu-id="12a75-193">ยอดเงินเดิมของ 500 × 1</span><span class="sxs-lookup"><span data-stu-id="12a75-193">Original amount of 500 × 1</span></span>                           |
+| <span data-ttu-id="12a75-194">130100</span><span class="sxs-lookup"><span data-stu-id="12a75-194">130100</span></span>         | <span data-ttu-id="12a75-195">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-195">EUR</span></span>      | <span data-ttu-id="12a75-196">-500.00.</span><span class="sxs-lookup"><span data-stu-id="12a75-196">-500.00</span></span> | <span data-ttu-id="12a75-197">ยอดเงินเดิมของ -500 × 1</span><span class="sxs-lookup"><span data-stu-id="12a75-197">Original amount of -500 × 1</span></span>                          |
+| <span data-ttu-id="12a75-198">801400</span><span class="sxs-lookup"><span data-stu-id="12a75-198">801400</span></span>         | <span data-ttu-id="12a75-199">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-199">EUR</span></span>      | <span data-ttu-id="12a75-200">250</span><span class="sxs-lookup"><span data-stu-id="12a75-200">250</span></span>     | <span data-ttu-id="12a75-201">500 – 333.33 = 166.67 166.67 + 83.33 = 250</span><span class="sxs-lookup"><span data-stu-id="12a75-201">500 – 333.33 = 166.67 166.67 + 83.33 = 250</span></span>           |
+| <span data-ttu-id="12a75-202">801600</span><span class="sxs-lookup"><span data-stu-id="12a75-202">801600</span></span>         | <span data-ttu-id="12a75-203">EUR</span><span class="sxs-lookup"><span data-stu-id="12a75-203">EUR</span></span>      | <span data-ttu-id="12a75-204">-250</span><span class="sxs-lookup"><span data-stu-id="12a75-204">-250</span></span>    | <span data-ttu-id="12a75-205">-500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250</span><span class="sxs-lookup"><span data-stu-id="12a75-205">-500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250</span></span> |
+
+
+
+
+

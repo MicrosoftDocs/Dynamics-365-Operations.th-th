@@ -1,0 +1,50 @@
+---
+title: เปิดใช้งานข้อเสนองบประมาณ (ตัวอย่าง)
+description: หัวข้อนี้จะอธิบายวิธีการเปิดและตั้งค่าคอนฟิกลักษณะการทำงานข้อเสนองบประมาณในข้อมูลเชิงลึกทางการเงิน
+author: ShivamPandey-msft
+manager: AnnBe
+ms.date: 07/24/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 14151
+ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
+ms.search.region: Global
+ms.author: shpandey
+ms.search.validFrom: 2020-07-24
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: d8443c4e3e6f3d3a90acedc7c05b2846d6b68369
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646216"
+---
+# <a name="enable-budget-proposals-preview"></a><span data-ttu-id="5f343-103">เปิดใช้งานข้อเสนองบประมาณ (ตัวอย่าง)</span><span class="sxs-lookup"><span data-stu-id="5f343-103">Enable budget proposals (preview)</span></span>
+
+[!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="5f343-104">หัวข้อนี้จะอธิบายวิธีการเปิดและตั้งค่าคอนฟิกลักษณะการทำงานข้อเสนองบประมาณในข้อมูลเชิงลึกทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="5f343-104">This topic explains how to turn on the Budget proposal feature in Finance Insights.</span></span>
+
+1. <span data-ttu-id="5f343-105">ใช้ข้อมูลจากหน้าสภาพแวดล้อมใน Microsoft Dynamics Lifecycle Services (LCS) เพื่อเชื่อมต่อกับอินสแตนซ์หลักของ AZURE SQL สำหรับสภาพแวดล้อมดังกล่าว</span><span class="sxs-lookup"><span data-stu-id="5f343-105">Use information from the environment page in Microsoft Dynamics Lifecycle Services (LCS) to connect to the primary instance of Azure SQL for that environment.</span></span> <span data-ttu-id="5f343-106">รันคำสั่ง Transact-SQL (T-SQL) ต่อไปนี้เพื่อเปิดใช้งานเที่ยวบินสำหรับสภาพแวดล้อม sandbox</span><span class="sxs-lookup"><span data-stu-id="5f343-106">Run the following Transact-SQL (T-SQL) command to turn on flights for the sandbox environment.</span></span> <span data-ttu-id="5f343-107">(คุณอาจต้องเปิดใช้งานการเข้าถึงสำหรับที่อยู่ IP ของคุณใน LCS ก่อนที่คุณจะสามารถเชื่อมต่อระยะไกลกับเซิร์ฟเวอออบเจ็กต์โปรแกรมประยุกต์ \[AOS\])</span><span class="sxs-lookup"><span data-stu-id="5f343-107">(You might have to turn on access for your IP address in LCS before you can connect remotely to Application Object Server \[AOS\].)</span></span>
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
+
+    > [!NOTE]
+    > <span data-ttu-id="5f343-108">ถ้าการปรับใช้ Microsoft Dynamics 365 Finance ของคุณเป็นการปรับใช้การให้บริการ คุณสามารถข้ามขั้นตอนนี้ได้</span><span class="sxs-lookup"><span data-stu-id="5f343-108">If your deployment of Microsoft Dynamics 365 Finance is a Service Fabric deployment, you can skip this step.</span></span> <span data-ttu-id="5f343-109">ทีมงานในเชิงลึกของการเงินควรมีการเปิดใช้งานเที่ยวบินให้คุณแล้ว</span><span class="sxs-lookup"><span data-stu-id="5f343-109">The Finance Insights team should already have turned on the flight for you.</span></span> <span data-ttu-id="5f343-110">ถ้าคุณไม่เห็นคุณสมบัตินี้ในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** หรือหากคุณประสบปัญหาเมื่อพยายามเปิดใช้งาน ให้ส่งอีเมลไปที่ [ทีมแสดงตัวอย่างข้อมูลเชิงลึกของการเงิน](mailto:fiap@microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="5f343-110">If you don't see the feature in the **Feature management** workspace, or if you experience issues when you try to turn it on, send email to the [Finance Insights App Preview team](mailto:fiap@microsoft.com).</span></span>
+
+2. <span data-ttu-id="5f343-111">เปิดพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** และปฏิบัติตามขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="5f343-111">Open the **Feature management** workspace, and follow these steps:</span></span>
+
+    1. <span data-ttu-id="5f343-112">เลือก **ตรวจหาการอัพเดต**</span><span class="sxs-lookup"><span data-stu-id="5f343-112">Select **Check for updates**.</span></span>
+    2. <span data-ttu-id="5f343-113">ค้นหา **ข้อเสนองบประมาณ** และเปิดใช้งานลักษณะการทำงานนั้น</span><span class="sxs-lookup"><span data-stu-id="5f343-113">Search for **Budget proposal**, and turn on that feature.</span></span>
+
+3. <span data-ttu-id="5f343-114">ไปที่ **การจัดงบประมาณ \> การตั้งค่า \> การจัดงบประมาณพื้นฐาน \> ข้อเสนองบประมาณ (ตัวอย่าง)** และเลือก **เปิดใช้งานคุณลักษณะ**</span><span class="sxs-lookup"><span data-stu-id="5f343-114">Go to **Budgeting \> Setup \> basic Budgeting \> Budget proposal (preview)**, and select **Enable feature**.</span></span>
+
+#### <a name="privacy-notice"></a><span data-ttu-id="5f343-115">ประกาศความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="5f343-115">Privacy notice</span></span>
+<span data-ttu-id="5f343-116">การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="5f343-116">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
