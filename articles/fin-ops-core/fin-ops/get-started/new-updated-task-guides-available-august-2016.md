@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812543"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695000"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (สิงหาคม 2016)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812543"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>คู่มืองานใน (สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics AX
 
-(สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม 2 (สิงหาคม 2016) Microsoft Dynamics AX การอัพเดตแอพลิเคชัน Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรุ่นเหล่านี้ ดู [มีอะไรใหม่หรือมีการเปลี่ยนแปลงในโฮมเพจ Finance and Operations](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
+(สิงหาคม 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม 2 (สิงหาคม 2016) Microsoft Dynamics AX การอัพเดตแอพลิเคชัน Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้เหล่านี้ ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในหน้าหลัก Finance and Operations](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
 
 ### <a name="data-access"></a>การเข้าถึงข้อมูล
 

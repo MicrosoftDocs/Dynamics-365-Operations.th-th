@@ -1,6 +1,6 @@
 ---
-title: ลำดับชั้นขององค์กรใน Common Data Service
-description: ในหัวข้อนี้อธิบายการรวมข้อมูลองค์กรระหว่างแอป Finance and Operations กับ Common Data Service
+title: ลำดับชั้นขององค์กรใน Dataverse
+description: ในหัวข้อนี้อธิบายการรวมข้อมูลองค์กรระหว่างแอป Finance and Operations กับ Dataverse
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,32 +18,34 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f502519ba419cb8fa322eb1d22f06d2b805f5f05
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000745"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680083"
 ---
-# <a name="organization-hierarchy-in-common-data-service"></a>ลำดับชั้นขององค์กรใน Common Data Service
+# <a name="organization-hierarchy-in-dataverse"></a>ลำดับชั้นขององค์กรใน Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 เนื่องจาก Dynamics 365 Finance เป็นระบบทางการเงิน *องค์กร* เป็นแนวคิดหลัก และการตั้งค่าระบบจะเริ่มต้นด้วยการตั้งค่าคอนฟิกของลำดับชั้นขององค์กร สามารถติดตามการเงินของธุรกิจได้ที่ระดับองค์กรและที่ระดับใดก็ได้ในลำดับชั้นขององค์กร
 
-แม้ว่า Common Data Service จะไม่มีแนวคิดของลำดับชั้นขององค์กร แต่ก็มีแนวคิดคร่าวๆ สองสามรายการ เช่น รายได้จากการขายรวม ในฐานะที่เป็นส่วนหนึ่งของการรวม Common Data Service โครงสร้างข้อมูลลำดับชั้นขององค์กรจะถูกเพิ่มไปยัง Common Data Service
+แม้ว่า Dataverse จะไม่มีแนวคิดของลำดับชั้นขององค์กร แต่ก็มีแนวคิดคร่าวๆ สองสามรายการ เช่น รายได้จากการขายรวม ในฐานะที่เป็นส่วนหนึ่งของการรวม Dataverse โครงสร้างข้อมูลลำดับชั้นขององค์กรจะถูกเพิ่มไปยัง Dataverse
 
 ## <a name="data-flow"></a>โฟลว์ข้อมูล
 
-ระบบแวดล้อมทางธุรกิจที่ประกอบด้วยแอป Finance and Operations และ Common Data Service จะยังคงมีลำดับชั้นขององค์กรต่อไป ลำดับชั้นขององค์กรนี้สร้างขึ้นบนแอป Finance and Operations แต่เปิดเผยใน Common Data Service เพื่อวัตถุประสงค์ในการให้ข้อมูลและการขยาย ภาพประกอบต่อไปนี้แสดงข้อมูลลำดับชั้นขององค์กรที่เปิดเผยใน Common Data Service เป็นโฟลว์ข้อมูลทางเดียวจากแอป Finance and Operations ไปยัง Common Data Service
+ระบบแวดล้อมทางธุรกิจที่ประกอบด้วยแอป Finance and Operations และ Dataverse จะยังคงมีลำดับชั้นขององค์กรต่อไป ลำดับชั้นขององค์กรนี้สร้างขึ้นบนแอป Finance and Operations แต่เปิดเผยใน Dataverse เพื่อวัตถุประสงค์ในการให้ข้อมูลและการขยาย ภาพประกอบต่อไปนี้แสดงข้อมูลลำดับชั้นขององค์กรที่เปิดเผยใน Dataverse เป็นโฟลว์ข้อมูลทางเดียวจากแอป Finance and Operations ไปยัง Dataverse
 
 ![รูปภาพของสถาปัตยกรรม](media/dual-write-data-flow.png)
 
-แผนผังเอนทิตีลำดับชั้นขององค์กรพร้อมใช้งานสำหรับการทำข้อมูลทางเดียวให้ตรงกันจากแอป Finance and Operations ไปยัง Common Data Service
+แผนผังตารางลำดับชั้นขององค์กรพร้อมใช้งานสำหรับการทำข้อมูลทางเดียวให้ตรงกันจากแอป Finance and Operations ไปยัง Dataverse
 
 ## <a name="templates"></a>เท็มเพลต
 
-ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังเอนทิตี้ถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
+ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังตารางถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
 
 แอป Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
 -----------------------|--------------------------------|---
@@ -64,7 +66,7 @@ ms.locfileid: "4000745"
 
 ## <a name="internal-organization"></a>องค์กรภายใน
 
-ข้อมูลองค์กรภายในใน Common Data Service มาจากเอนทิตีสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
+ข้อมูลองค์กรภายในใน Dataverse มาจากตารางสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
 
 [!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
 

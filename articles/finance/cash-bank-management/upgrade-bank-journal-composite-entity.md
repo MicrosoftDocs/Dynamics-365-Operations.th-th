@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899653"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448275"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>อัพเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
 
@@ -40,7 +40,7 @@ ms.locfileid: "3899653"
     -   ตาราง\\BankJournalLineStaging
 
 2.  การจัดการข้อมูล\\โครงการข้อมูล
-    -   แสดงข้อมูลชนิด **ธุรกรรมธนาคาร**บนโครงร่าง **ข้อมูลต้นทาง**
+    -   แสดงข้อมูลชนิด **ธุรกรรมธนาคาร** บนโครงร่าง **ข้อมูลต้นทาง**
         -   รูปแบบข้อมูลต้นทาง = XML-Element
         -   ชื่อเอนทิตี้ = สมุดรายวันธนาคาร
         -   อัพโหลดไฟล์ข้อมูล = SampleBankJournalCompositeEntity.xml เวอร์ชันใหม่

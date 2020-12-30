@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของงบประมาณ
-description: เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
+description: เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการตั้งค่าคอนฟิกต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,17 +19,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667471"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448422"
 ---
-# <a name="budgeting-overview"></a>ภาพรวมของงบประมาณ 
+# <a name="budgeting-overview"></a>ภาพรวมของการจัดงบประมาณ
 
 [!include [banner](../includes/banner.md)]
 
-เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
+เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการตั้งค่าคอนฟิกต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
 
 <a name="overview"></a>ภาพรวม
 --------

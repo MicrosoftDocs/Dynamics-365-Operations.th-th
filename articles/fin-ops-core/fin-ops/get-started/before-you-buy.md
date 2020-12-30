@@ -3,25 +3,24 @@ title: ก่อนที่คุณจะซื้อ
 description: คำแนะนำทีละขั้นตอนในการใช้ เมื่อคุณกำลังพิจารณาการซื้อ Dynamics 365 Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027735"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694147"
 ---
 # <a name="before-you-buy"></a>ก่อนที่คุณจะซื้อ
 
@@ -41,7 +40,7 @@ ms.locfileid: "3027735"
 
 - ความต้องการตามข้อบังคับและการปฏิบัติตามกฎระเบียบที่ไม่พร้อมใช้งานในใบรับรอง cloud
 - กระบวนการทางธุรกิจที่ไม่ต่อเนื่องที่มีการเชื่อมต่ออินเตอร์เน็ตแบบครั้งคราวที่ต้องการเข้าถึงการจัดการวงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS) สำหรับแอพลิเคชัน
-- [คุณลักษณะยังไม่มีการนำมาใช้ในการปรับใช้ในสถานที่](features-not-implemented-on-prem.md)
+- [การเปรียบเทียบคุณลักษณะบนระบบคลาวด์และในสถานที่](cloud-prem-comparison.md)
 - [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](system-requirements-on-prem.md)
 
 > [!IMPORTANT]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 07f49e63fc2e0410d2673f3ca9378325e9b4ebf8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 779548dc49be0a92456df791017045803f70bd86
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174155"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683122"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>ข้อกำหนดของรายงานในผู้ออกแบบรายงานทางการเงิน
 
@@ -40,8 +39,8 @@ ms.locfileid: "2174155"
 อย่างไรก็ตาม โดยขึ้นอยู่กับวิธีการจัดเก็บข้อมูลในระบบ Microsoft Dynamics ERP รายละเอียดธุรกรรมอาจไม่พร้อมใช้งานในรายงาน
 
 ## <a name="create-a-report-definition"></a>สร้างข้อกำหนดของรายงาน
-1. ในโปรแกรมออกแบบรายงาน บนไฟล์ **เมนู** คลิก **สร้าง**แล้ว เลือก **ข้อกำหนดของรายงาน**
-2. ระบุข้อมูลที่เหมาะสมบน **รายงาน** **ผลที่ได้และการกระจาย**, **หัวกระดาษและท้ายกระดาษ**และแท็บ **การตั้งค่า**
+1. ในโปรแกรมออกแบบรายงาน บนไฟล์ **เมนู** คลิก **สร้าง** แล้ว เลือก **ข้อกำหนดของรายงาน**
+2. ระบุข้อมูลที่เหมาะสมบน **รายงาน** **ผลที่ได้และการกระจาย**, **หัวกระดาษและท้ายกระดาษ** และแท็บ **การตั้งค่า**
 
 ## <a name="contents-of-a-report-definition"></a>เนื้อหาของข้อกำหนดของรายงาน
 ตารางต่อไปนี้อธิบายถึงแท็บในข้อกำหนดของรายงานและวิธีใช้ข้อมูล

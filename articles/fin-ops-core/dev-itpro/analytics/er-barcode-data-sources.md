@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088208"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681435"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>การใช้แหล่งข้อมูลบาร์โค้ดเพื่อสร้างรูปภาพของบาร์โค้ด
 
@@ -192,7 +191,7 @@ ms.locfileid: "4088208"
     ![การผูกองค์ประกอบรูปแบบเซลล์กับแหล่งข้อมูลในตัวออกแบบการดำเนินการ ER](./media/er-barcode-data-source-cells-bound.png)
 
 7. เลือกแท็บ **รูปแบบ** ทางด้านขวาของหน้า
-8. ในบานหน้าต่างการดำเนินการ ให้เลือกจุดไข่ปลา ( **...** ) แล้วจากนั้น เลือก **นำเข้า**
+8. ในบานหน้าต่างการดำเนินการ ให้เลือกจุดไข่ปลา (**...**) แล้วจากนั้น เลือก **นำเข้า**
 9. ในกลุ่ม **นำเข้า** เลือก **ปรับปรุงจาก Excel** และจากนั้น เลือก **ปรับปรุงเท็มเพลต**
 10. ในกล่องโต้ตอบ ให้เลือกดูไฟล์ **Cheque template Excel.xlsx** ที่บันทึกไว้บนคอมพิวเตอร์ของคุณ ให้เลือกไฟล์นั้น และจากนั้น เลือก **ตกลง** เพื่อยืนยันว่าควรใช้เท็มเพลตที่เลือก
 11. เลือกแท็บ **การแม็ป** ทางด้านขวาของหน้า และจากนั้น ในบานหน้าต่างแผนภูมิรูปแบบทางด้านซ้าย ให้เลือก **ขยาย/ยุบ**

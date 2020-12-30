@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039903"
+ms.locfileid: "4448590"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>ตั้งค่า add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -194,7 +194,7 @@ ms.locfileid: "4039903"
 |-----------------------------|-------------|
 | URL ของบริการเว็บ             | URL ที่จะส่งคำขอไปยัง |
 | การหมดเวลาของคำขอเว็บ         | จำนวนเวลาสูงสุด (ในหน่วยวินาที) ที่จะรอให้มีการตอบสนองการบริการเว็บ |
-| ชนิดของการดำเนินงานที่ร้องขอ      | ชนิดของการดำเนินการคำขอ HTTP (ตัวอย่างเช่น **GET** , **POST** , or **DELETE** ) |
+| ชนิดของการดำเนินงานที่ร้องขอ      | ชนิดของการดำเนินการคำขอ HTTP (ตัวอย่างเช่น **GET**, **POST**, or **DELETE**) |
 | ชื่อใบรับรอง           | ชื่อใบรับรอง |
 | การเข้ารหัสเนื้อหาการตอบสนอง      | การเข้ารหัสที่คาดไว้ของเนื้อหาการตอบสนองของ HTTP เพื่อให้สามารถถอดรหัสได้อย่างถูกต้อง |
 | ชนิดของเนื้อหาคำขอ HTTP   | อินพุตส่วนหัวของชนิดเนื้อหาของคำขอ HTTP |

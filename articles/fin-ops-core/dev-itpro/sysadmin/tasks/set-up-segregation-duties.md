@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าการแบ่งแยกหน้าที่
 description: 'คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ '
-author: maertenm
+author: peakerbl
 manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47747cba7f83d0b43a284750cff232824e00053a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 57c7c436c91ab11404cac3ea056b028023a0617a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982417"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688184"
 ---
 # <a name="set-up-segregation-of-duties"></a>ตั้งค่าการแบ่งแยกหน้าที่
 
@@ -31,7 +30,7 @@ ms.locfileid: "3982417"
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > การดูแลระบบ > ความปลอดภัย > การแบ่งแยกหน้าที่ > กฎการแบ่งแยกหน้าที่**
 2. คลิก **สร้าง**
-3. ในฟิลด์ **ชื่อ**ให้พิมพ์ค่าสำหรับกฎนี้
+3. ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าสำหรับกฎนี้
 4. ในฟิลด์ **หน้าที่แรก** ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 5. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ เลือกหน้าที่แรกที่ถูกควบคุมโดยกฎ
 6. ในฟิลด์ **หน้าที่ที่สอง** ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา 

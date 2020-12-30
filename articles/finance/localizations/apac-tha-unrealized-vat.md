@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9eee064bbf2b34306010d5ceeaea36650c1eeb73
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983962"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408635"
 ---
 # <a name="thailand-unrealized-vat"></a>VAT ที่ยังไม่รับรู้ของประเทศไทย
 

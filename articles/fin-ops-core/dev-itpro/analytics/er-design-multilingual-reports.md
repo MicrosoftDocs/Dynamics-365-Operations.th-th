@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810678"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679713"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>ออกแบบรายงานหลายภาษาในการรายงานทางอิเล็กทรอนิกส์
 
@@ -78,15 +77,15 @@ ms.locfileid: "3810678"
 
 เมื่อมีการตั้งค่าคอนฟิกรูปแบบข้อมูล ER ในลักษณะนี้ เนื้อหาจะแสดงต่อผู้ใช้ของโปรแกรมออกแบบรูปแบบข้อมูล ER ในภาษาที่ผู้ใช้แต่ละคนต้องการ ดังนั้น การบำรุงรักษาแบบจำลองจะลดความยุ่งยากลง ภาพประกอบต่อไปนี้แสดงวิธีการทำงานของฟังก์ชันนี้สำหรับผู้ใช้ที่มี DE-AT และ JA ที่ตั้งค่าเป็นภาษาที่ต้องการ
 
-![โครงร่างของตัวออกแบบรูปแบบข้อมูล ER สำหรับผู้ใช้ที่มี DE-AT ที่กำหนดเป็นภาษาที่ต้องการของเขา](./media/er-multilingual-labels-refer-de.png)
+![โครงร่างของตัวออกแบบรูปแบบข้อมูล ER สำหรับผู้ใช้ที่มี DE-AT ที่กำหนดเป็นภาษาที่ต้องการ](./media/er-multilingual-labels-refer-de.png)
 
-![โครงร่างของตัวออกแบบรูปแบบข้อมูล ER สำหรับผู้ใช้ที่มี JA ที่กำหนดเป็นภาษาที่ต้องการของเขา](./media/er-multilingual-labels-refer-ja.png)
+![โครงร่างของตัวออกแบบรูปแบบข้อมูล ER สำหรับผู้ใช้ที่มี JA ที่กำหนดเป็นภาษาที่ต้องการ](./media/er-multilingual-labels-refer-ja.png)
 
 ### <a name="model-mapping-component"></a>ส่วนประกอบการแม็ปแบบจำลอง
 
 เนื่องจากการแม็ปแบบจำลอง ER จะขึ้นอยู่กับรูปแบบข้อมูล ER ป้ายชื่อขององค์ประกอบรูปแบบข้อมูลที่อ้างถึงจะปรากฏในภาษาที่ต้องการของผู้ใช้ในโปรแกรมออกแบบการแม็ปแบบจำลอง ภาพประกอบต่อไปนี้แสดงวิธีการอธิบายความหมายของฟิลด์ **PurchaseOrder** ในการแม็ปแบบจำลองที่แก้ไขได้ โดยใช้ป้ายชื่อของแอททริบิวต์ **คำอธิบาย** ที่มีการเพิ่มลงในรูปแบบข้อมูลที่ตั้งค่าคอนฟิก โปรดสังเกตว่าป้ายชื่อนี้แสดงอยู่ในภาษาที่ผู้ใช้ต้องการ (DE-AT ในตัวอย่างนี้)
 
-![โครงร่างของตัวออกแบบการแม็ปแบบจำลอง ER สำหรับผู้ใช้ที่มี DE-AT ที่กำหนดเป็นภาษาที่ต้องการของเขา](./media/er-multilingual-labels-show-mapping.png)
+![โครงร่างของตัวออกแบบการแม็ปแบบจำลอง ER สำหรับผู้ใช้ที่มี DE-AT ที่กำหนดเป็นภาษาที่ต้องการ](./media/er-multilingual-labels-show-mapping.png)
 
 เมื่อมีการตั้งค่าคอนฟิกแอททริบิวต์ **ป้ายชื่อ** ของแหล่งข้อมูล **พารามิเตอร์ป้อนเข้าของผู้ใช้** เป็นเชื่อมโยงกับป้ายชื่อ ER ฟิลด์พารามิเตอร์ที่สอดคล้องกับแหล่งข้อมูลนี้จะถูกแสดงอยู่ในกล่องโต้ตอบผู้ใช้ที่รันไทม์แก่ผู้ใช้ในภาษาที่พวกเขาต้องการ
 

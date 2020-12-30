@@ -1,6 +1,6 @@
 ---
 title: การแก้ไขปัญหาเบื้องต้นทั่วไป
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Common Data Service
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997265"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688270"
 ---
 # <a name="general-troubleshooting"></a>การแก้ไขปัญหาเบื้องต้นทั่วไป
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Common Data Service
+
+หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse
 
 > [!IMPORTANT]
 > ปัญหาบางอย่างที่ที่อยู่ของหัวข้อนี้อาจจำเป็นต้องใช้บทบาทผู้ดูแลระบบ หรือข้อมูลประจำตัวผู้ดูแลระบบของผู้เช่า Microsoft Azure Active Directory (Azure AD) ส่วนสำหรับปัญหาแต่ละอย่างอธิบายว่าจำเป็นต้องมีบทบาทเฉพาะหรือข้อมูลประจำตัวหรือไม่
@@ -51,11 +53,11 @@ ms.locfileid: "3997265"
     ![เนื้อหาของโฟลเดอร์ Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
 
 3. วางไฟล์ที่คัดลอกทั้งหมดไปยังโฟลเดอร์ **เครื่องมือ** ของเครื่องมือ Package Deployer 
-4. รัน **PackageDeployer.exe** เพื่อเลือกสภาพแวดล้อม Common Data Service และติดตั้งโซลูชัน
+4. รัน **PackageDeployer.exe** เพื่อเลือกสภาพแวดล้อม Dataverse และติดตั้งโซลูชัน
 
     ![เนื้อหาของโฟลเดอร์เครื่องมือ](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>เปิดใช้งานและดูล็อกการติดตามปลั๊กอินใน Common Data Service เพื่อดูรายละเอียดข้อผิดพลาด
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>เปิดใช้งานและดูล็อกการติดตามปลั๊กอินใน Dataverse เพื่อดูรายละเอียดข้อผิดพลาด
 
 **บทบาทที่จำเป็นในการเปิดล็อกการติดตามและดูข้อผิดพลาด:** ผู้ดูแลระบบ
 
@@ -74,7 +76,7 @@ ms.locfileid: "3997265"
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>เปิดใช้งานโหมดดีบักเมื่อต้องการแก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริงในแอป Finance and Operations
 
-**บทบาทที่จำเป็นในการดูข้อผิดพลาด:** ข้อผิดพลาดในการรวมแบบสองทิศทางของผู้ดูแลระบบซึ่งเกิดขึ้นใน Common Data Service สามารถปรากฏขึ้นในแอป Finance and Operations ในบางกรณี ข้อความแบบเต็มของข้อความแสดงข้อผิดพลาดจะไม่พร้อมใช้งาน เนื่องจากข้อความยาวเกินไปหรือมีข้อมูลการระบุถึงตัวบุคคล (PII) คุณสามารถเปิดใช้งานการบันทึกก verbose สำหรับข้อผิดพลาดได้โดยปฏิบัติตามขั้นตอนเหล่านี้
+**บทบาทที่จำเป็นในการดูข้อผิดพลาด:** ข้อผิดพลาดในการรวมแบบสองทิศทางของผู้ดูแลระบบซึ่งเกิดขึ้นใน Dataverse สามารถปรากฏขึ้นในแอป Finance and Operations ในบางกรณี ข้อความแบบเต็มของข้อความแสดงข้อผิดพลาดจะไม่พร้อมใช้งาน เนื่องจากข้อความยาวเกินไปหรือมีข้อมูลการระบุถึงตัวบุคคล (PII) คุณสามารถเปิดใช้งานการบันทึกก verbose สำหรับข้อผิดพลาดได้โดยปฏิบัติตามขั้นตอนเหล่านี้
 
 1. การตั้งค่าคอนฟิกโครงการทั้งหมดในแอป Finance and Operations มีคุณสมบัติ **IsDebugMode** ในเอนทิตี้ **DualWriteProjectConfiguration** เปิดเอนทิตี้ **DualWriteProjectConfiguration** โดยใช้ add-in ของ Excel
 
@@ -85,7 +87,7 @@ ms.locfileid: "3997265"
 3. รันสถานการณ์จำลองที่กำลังสร้างข้อผิดพลาด
 4. ล็อก verbose พร้อมใช้งานในตาราง DualWriteErrorLog เมื่อต้องการค้นหาข้อมูลในเบราว์เซอร์ตาราง ให้ใช้ URL ต่อไปนี้ (แทนที่ **XXX** ตามความเหมาะสม):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>ตรวจสอบข้อผิดพลาดของการซิงโครไนส์บนเครื่องเสมือนสำหรับแอป Finance and Operations
 
@@ -99,9 +101,9 @@ ms.locfileid: "3997265"
 6. เลือก **ล็อกของแอพลิเคชันและบริการ \> Microsoft \> Dynamics \> AX-DualWriteSync \> การดำเนินงาน**
 7. ตรวจทานรายการของข้อผิดพลาดล่าสุด
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อม Common Data Service อื่นจากแอป Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อม Dataverse อื่นจากแอป Finance and Operations
 
-**บทบาทที่จำเป็นในการยกเลิกการเชื่อมโยงสภาพแวดล้อม:** ผู้ดูแลระบบสำหรับแอป Finance and Operations หรือ Common Data Service
+**บทบาทที่จำเป็นในการยกเลิกการเชื่อมโยงสภาพแวดล้อม:** ผู้ดูแลระบบสำหรับแอป Finance and Operations หรือ Dataverse
 
 1. ลงชื่อเข้าใช้แอป Finance and Operations
 2. ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** และเลือกไทล์ **การรวมแบบสองทิศทาง**
@@ -113,7 +115,7 @@ ms.locfileid: "3997265"
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>ไม่สามารถดูฟอร์มข้อมูลรายการใบสั่งขายได้ 
 
-เมื่อคุณสร้างใบสั่งขายใน Dynamics 365 Sales การคลิก **+ เพิ่มผลิตภัณฑ์** อาจเปลี่ยนเส้นทางคุณไปยังฟอร์มรายการใบสั่งการดำเนินงานของโครงการ Dynamics 365 ไม่มีวิธีการจากฟอร์มนั้นในการดูฟอร์ม **ข้อมูล** รายการใบสั่งขาย ตัวเลือกสำหรับ **ข้อมูล** ไม่ปรากฏในรายการแบบหล่นลงด้านล่าง **รายการใบสั่งใหม่** นี่เกิดขึ้นเนื่องจากมีการติดตั้งการดำเนินงานโครงการในสภาพแวดล้อมของคุณ
+เมื่อคุณสร้างใบสั่งขายใน Dynamics 365 Sales การคลิก **+เพิ่มผลิตภัณฑ์** อาจเปลี่ยนเส้นทางคุณไปยังฟอร์มรายการใบสั่งการดำเนินงานของโครงการ Dynamics 365 Project Operations ไม่มีวิธีการจากฟอร์มนั้นในการดูฟอร์ม **ข้อมูล** รายการใบสั่งขาย ตัวเลือกสำหรับ **ข้อมูล** ไม่ปรากฏในรายการแบบหล่นลงด้านล่าง **รายการใบสั่งใหม่** นี่เกิดขึ้นเนื่องจากมีการติดตั้งการดำเนินงานโครงการในสภาพแวดล้อมของคุณ
 
 เมื่อต้องการเปิดใช้งานตัวเลือกฟอร์ม **ข้อมูล** อีกครั้ง ให้ทำตามขั้นตอนต่อไปนี้:
 1. นำทางไปยังเอนทิตี้ **รายการใบสั่ง**

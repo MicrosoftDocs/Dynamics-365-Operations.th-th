@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771455"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681459"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
 
@@ -60,7 +59,7 @@ ms.locfileid: "2771455"
 ก่อนที่คุณจะสามารถทำงานให้เสร็จสมบูรณ์ในหัวข้อนี้ คุณต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์:
 
 - ปรับใช้โทโพโลยีที่สนับสนุนการทดสอบแบบระบบอัตโนมัติ คุณต้องมีสิทธิ์เข้าถึงอินสแตนซ์ของโทโพโลยีนี้สำหรับบทบาท **ผู้ดูแลระบบ** โทโพโลยีนี้ต้องมีข้อมูลสาธิตซึ่งจะใช้ในตัวอย่างนี้ สำหรับข้อมูลเพิ่มเติม ดูที่ [ปรับใช้และใช้สภาพแวดล้อมที่สนับสนุนการสร้างอย่างต่อเนื่องและระบบอัตโนมัติของการทดสอบ](../perf-test/continuous-build-test-automation.md)
-- เมื่อต้องการรันการทดสอบการยอมรับและการรวมของผู้ใช้โดยอัตโนมัติ คุณต้องติดตั้ง RSAT ในโทโพโลยีที่คุณกำลังใช้และตั้งค่าคอนฟิกในลักษณะที่เหมาะสม สำหรับข้อมูลเกี่ยวกับวิธีการติดตั้งและตั้งค่า RSAT และตั้งค่าคอนฟิกให้ทำงานกับแอพ Finance and Operations และ  Azure DevOps ดู [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) ให้ความสำคัญกับข้อกำหนดเบื้องต้นสำหรับการใช้เครื่องมือ ภาพประกอบต่อไปนี้แสดงตัวอย่างของการตั้งค่า RSAT สี่เหลี่ยมสีน้ำเงินล้อมรอบพารามิเตอร์ที่ระบุสิทธิ์การเข้าถึง Azure DevOps สี่เหลี่ยมสีเขียวล้อมรอบพารามิเตอร์ที่ระบุการเข้าถึงอินสแตนซ์
+- เมื่อต้องการรันการทดสอบการยอมรับและการรวมของผู้ใช้โดยอัตโนมัติ คุณต้องติดตั้ง RSAT ในโทโพโลยีที่คุณกำลังใช้และตั้งค่าคอนฟิกในลักษณะที่เหมาะสม สำหรับข้อมูลเกี่ยวกับวิธีการติดตั้งและตั้งค่า RSAT และตั้งค่าคอนฟิกให้ทำงานกับแอป Finance and Operations และ Azure DevOps ดูที่ [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) ให้ความสำคัญกับข้อกำหนดเบื้องต้นสำหรับการใช้เครื่องมือ ภาพประกอบต่อไปนี้แสดงตัวอย่างของการตั้งค่า RSAT สี่เหลี่ยมสีน้ำเงินล้อมรอบพารามิเตอร์ที่ระบุสิทธิ์การเข้าถึง Azure DevOps สี่เหลี่ยมสีเขียวล้อมรอบพารามิเตอร์ที่ระบุการเข้าถึงอินสแตนซ์
 
     ![การตั้งค่า RSAT](media/GER-Configure.png "ภาพหน้าจอของกล่องโต้ตอบการตั้งค่า RSAT")
 
@@ -162,7 +161,7 @@ ms.locfileid: "2771455"
 ### <a name="configure-er-baselines-for-vendor-payment-processing"></a>ตั้งค่าคอนฟิกข้อมูลพื้นฐาน ER สำหรับการประมวลผลการชำระเงินให้แก่ผู้จัดจำหน่าย
 
 1. ไปที่ **การจัดการองค์กร \> การรายงานทางอิเล็กทรอนิกส์ \> การตั้งค่าคอนฟิก**
-2. เลือก**พื้นฐาน**
+2. เลือก **พื้นฐาน**
 3. เลือก **ใหม่**
 4. ใน **การอ้างอิง** ให้เลือกรูปแบบ **BACS (UK)**
 5. เลือก **เอกสารแนบ**

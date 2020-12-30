@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000806"
+ms.locfileid: "4448570"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>พื้นที่ทำงานรายการใบแจ้งหนี้ของผู้จัดจำหน่าย
 

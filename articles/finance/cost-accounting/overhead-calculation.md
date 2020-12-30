@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976486"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448521"
 ---
 # <a name="overhead-calculation"></a>การคำนวณค่าโสหุ้ย
 
@@ -80,7 +80,7 @@ ms.locfileid: "3976486"
 
 ### <a name="step-1-process-the-cost-behavior-calculation"></a>ขั้นตอนที่ 1: ดำเนินการคำนวณพฤติกรรมต้นทุน
 
-โดยค่าเริ่มต้น เมื่อมีการนำเข้ารายการต้นทุนจากข้อมูลแหล่งที่มา จะได้รับการจัดประเภทของพฤติกรรมต้นทุน **ไม่ได้จัดประเภท** ในการบัญชีต้นทุน โดยการใช้กฎนโยบายพฤติกรรมต้นทุน คุณสามารถจัดประเภทรายการต้นทุนเป็น **ต้นทุนคงที่** หรือ **ต้นทุนผันแปร**ได้
+โดยค่าเริ่มต้น เมื่อมีการนำเข้ารายการต้นทุนจากข้อมูลแหล่งที่มา จะได้รับการจัดประเภทของพฤติกรรมต้นทุน **ไม่ได้จัดประเภท** ในการบัญชีต้นทุน โดยการใช้กฎนโยบายพฤติกรรมต้นทุน คุณสามารถจัดประเภทรายการต้นทุนเป็น **ต้นทุนคงที่** หรือ **ต้นทุนผันแปร** ได้
 
 #### <a name="define-the-cost-behavior-rule"></a>กำหนดกฎพฤติกรรมต้นทุน
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564178"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682686"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>คำนิยามแผนภูมิรายงานในรายงานทางการเงิน
 
@@ -165,9 +164,9 @@ ms.locfileid: "2564178"
 3. ในกล่องโต้ตอบ **หน่วยความปลอดภัย** เลือกชื่อ เเละจากนั้นคลิก **ลบ**
 4. คลิก **ตกลง** ระบบจะนำเข้าข้อมูลการชำระเงิน
 
-### <a name="link-toreports"></a>ลิงค์ไปยังรายงาน
+### <a name="link-to-reports"></a>ลิงค์ไปยังรายงาน
 
-หลังจากที่คุณได้สร้างคอลัมน์ **รายงาน** ในข้อกำหนดแถว และได้ระบุรายงานเพื่อรวมในรายงาน คุณต้องปรับปรุงแผนภูมิการรายงานที่มีคอลัมน์ที่เชื่อมโยงและข้อมูลเกี่ยวกับรายงาน รายงานสามารถนำเข้าไปยังหน่วยใดๆ ในแผนภูมิการรายงาน
+หลังจากที่คุณได้สร้างคอลัมน์ **รายงาน** ในคำนิยามแถว และระบุรายงานเพื่อรวมไว้ในรายงาน คุณต้องอัพเดตแผนภูมิการรายงานด้วยคอลัมน์ที่เชื่อมโยง และข้อมูลเกี่ยวกับรายงานนั้น รายงานสามารถนำเข้าไปยังหน่วยใดๆ ในแผนภูมิการรายงาน
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>ระบุรายงานในแผนภูมิการรายงาน
 

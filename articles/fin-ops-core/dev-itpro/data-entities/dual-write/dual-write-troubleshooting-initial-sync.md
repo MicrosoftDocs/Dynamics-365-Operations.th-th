@@ -18,18 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997337"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683582"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>แก้ไขปัญหาในระหว่างการซิงโครไนส์เริ่มต้น
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Common Data Service กล่าวคือ จะแสดงข้อมูลที่สามารถช่วยคุณแก้ไขปัญหาที่อาจเกิดขึ้นในระหว่างการซิงโครไนส์เริ่มต้น
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse กล่าวคือ จะแสดงข้อมูลที่สามารถช่วยคุณแก้ไขปัญหาที่อาจเกิดขึ้นในระหว่างการซิงโครไนส์เริ่มต้น
 
 > [!IMPORTANT]
 > ปัญหาบางอย่างที่ที่อยู่ของหัวข้อนี้อาจจำเป็นต้องใช้บทบาทผู้ดูแลระบบ หรือข้อมูลประจำตัวผู้ดูแลระบบของผู้เช่า Microsoft Azure Active Directory (Azure AD) ส่วนสำหรับปัญหาแต่ละอย่างอธิบายว่าจำเป็นต้องมีบทบาทเฉพาะหรือข้อมูลประจำตัวหรือไม่
@@ -91,12 +93,12 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 คุณอาจได้รับข้อความแสดงข้อผิดพลาด ถ้าการแม็ปใดๆ ของคุณมีการอ้างอิงตนเองหรือการอ้างอิงหมุนเวียน ข้อผิดพลาดจะอยู่ในประเภทเหล่านี้:
 
-- [ข้อผิดพลาดในผู้จัดจำหน่าย V2–สำหรับ–การแม็ปเอนทิตี msdyn_vendors](#error-vendor-map)
-- [ข้อผิดพลาดในลูกค้า V3–สำหรับ–การแม็ปเอนทิตีบัญชี](#error-customer-map)
+- [ข้อผิดพลาดในผู้จัดจำหน่าย V2–สำหรับ–การแม็ปตาราง msdyn_vendors](#error-vendor-map)
+- [ข้อผิดพลาดในลูกค้า V3–สำหรับ–การแม็ปตารางบัญชี](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>แก้ไขข้อผิดพลาดในผู้จัดจำหน่าย V2–สำหรับ–การแม็ปเอนทิตี msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>แก้ไขข้อผิดพลาดในผู้จัดจำหน่าย V2–สำหรับ–การแม็ปตาราง msdyn_vendors
 
-คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ผู้จัดจำหน่าย V2** สำหรับ **msdyn\_vendors** ถ้าเอนทิตีมีเรกคอร์ดที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceVendorAccountNumber** เป็นฟิลด์ที่อ้างอิงถึงตนเอง และ **PrimaryContactPersonId** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
+คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ผู้จัดจำหน่าย V2** สำหรับ **msdyn\_vendors** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceVendorAccountNumber** เป็นฟิลด์ที่อ้างอิงถึงตนเอง และ **PrimaryContactPersonId** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
 
 ข้อความแสดงข้อผิดพลาดที่คุณได้รับจะมีฟอร์มต่อไปนี้
 
@@ -107,11 +109,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid ไม่พบการค้นหา: 000056 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber ไม่พบการค้นหา: V24-1 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-ถ้าเรกคอร์ดใดๆ ในเอนทิตีของผู้จัดจำหน่ายมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์
+ถ้าแถวใดๆ ในเอนทิตีของผู้จัดจำหน่ายมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์
 
 1. ในแอป Finance and Operations ให้ลบฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** จากการแม็ป และจากนั้น บันทึกการแม็ป
 
-    1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** บนแท็บ **การแม็ปเอนทิตี** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations apps.Vendors V2** ในตัวกรองสิทธิ์ เลือก **Sales.Vendor**
+    1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** บนแท็บ **การแม็ปตาราง** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations apps.Vendors V2** ในตัวกรองสิทธิ์ เลือก **Sales.Vendor**
     2. ค้นหา **primarycontactperson** เพื่อค้นหาฟิลด์ต้นทาง **PrimaryContactPersonId**
     3. เลือก **การดำเนินการ** แล้วจากนั้น เลือก **ลบ**
 
@@ -125,7 +127,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี **ผู้จัดจำหน่าย V2**
 
-    1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **เอนทิตีข้อมูล**
+    1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **ตารางข้อมูล**
     2. เลือกเอนทิตี **ผู้จัดจำหน่าย V2**
     3. ในบานหน้าต่างการดำเนินการ ให้เลือก **ตัวเลือก** แล้วจากนั้น เลือก **การติดตามการเปลี่ยนแปลง**
 
@@ -136,14 +138,14 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
         ![การเลือกปิดใช้งานการติดตามการเปลี่ยนแปลง](media/selfref_tracking.png)
 
 3. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** การซิงโครไนส์เริ่มต้นควรรันเสร็จเรียบร้อย โดยไม่มีข้อผิดพลาดใดๆ
-4. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้ติดต่อของ CDS V2 (ผู้ติดต่อ)** คุณต้องซิงค์การแม็ปนี้ ถ้าคุณต้องการซิงค์ฟิลด์ผู้ติดต่อหลักบนเอนทิตีของผู้จัดจำหน่าย เนื่องจากยังต้องทำการซิงโครไนส์เริ่มต้นสำหรับเรกคอร์ดผู้ติดต่อด้วย
+4. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้ติดต่อของ CDS V2 (ผู้ติดต่อ)** คุณต้องซิงค์การแม็ปนี้ ถ้าคุณต้องการซิงค์ฟิลด์ผู้ติดต่อหลักบนเอนทิตีของผู้จัดจำหน่าย เนื่องจากยังต้องทำการซิงโครไนส์เริ่มต้นสำหรับแถวผู้ติดต่อด้วย
 5. เพิ่มฟิลด์ **PrimaryContactPersonId** และฟิลด์ **InvoiceVendorAccountNumber** กลับไปยังการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** และจากนั้น บันทึกการแม็ป
-6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** เนื่องจากมีการปิดใช้งานการติดตามการเปลี่ยนแปลง เรกคอร์ดทั้งหมดจะถูกซิงค์
+6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** เนื่องจากมีการปิดใช้งานการติดตามการเปลี่ยนแปลง แถวทั้งหมดจะถูกซิงค์
 7. เปิดการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับเอนทิตี **ผู้จัดจำหน่าย V2**
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>แก้ไขข้อผิดพลาดในลูกค้า V3–สำหรับ–การแม็ปเอนทิตีบัญชี
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>แก้ไขข้อผิดพลาดในลูกค้า V3–สำหรับ–การแม็ปตารางบัญชี
 
-คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ลูกค้า V3** สำหรับ **บัญชี** ถ้าเอนทิตีมีเรกคอร์ดที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **ContactPersonID** และฟิลด์ **InvoiceAccount** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceAccount** เป็นฟิลด์ที่อ้างอิงตนเอง และ **ContactPersonID** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
+คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ลูกค้า V3** สำหรับ **บัญชี** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **ContactPersonID** และฟิลด์ **InvoiceAccount** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceAccount** เป็นฟิลด์ที่อ้างอิงตนเอง และ **ContactPersonID** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
 
 ข้อความแสดงข้อผิดพลาดที่คุณได้รับจะมีฟอร์มต่อไปนี้
 
@@ -154,11 +156,11 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: primarycontactid.msdyn\_contactpersonid ไม่พบการค้นหา: 000056 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_billingaccount.accountnumber ไม่พบการค้นหา: 1206-1 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-ถ้าเรกคอร์ดใดๆ ในเอนทิตีของลูกค้ามีค่าในฟิลด์ **ContactPersonID** และ **InvoiceAccount** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์ คุณสามารถใช้วิธีการนี้สำหรับเอนทิตีแบบสำเร็จรูปใดๆ เช่น **บัญชี** และ **ผู้ติดต่อ**
+ถ้าแถวใดๆ ในเอนทิตีของลูกค้ามีค่าในฟิลด์ **ContactPersonID** และ **InvoiceAccount** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์ คุณสามารถใช้วิธีการนี้สำหรับตารางแบบสำเร็จรูปใดๆ เช่น **บัญชี** และ **ผู้ติดต่อ**
 
 1. ในแอป Finance and Operations ลบฟิลด์ **ContactPersonID** และฟิลด์ **InvoiceAccount** จากการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป
 
-    1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ลูกค้า V3 (บัญชี)** บนแท็บ **การแม็ปเอนทิตี** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations app.Customers V3** ในตัวกรองสิทธิ์ เลือก **Common Data Service.Account**
+    1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ลูกค้า V3 (บัญชี)** บนแท็บ **การแม็ปตาราง** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations app.Customers V3** ในตัวกรองสิทธิ์ เลือก **Dataverse.Account**
     2. ค้นหา **contactperson** เพื่อค้นหาฟิลด์ต้นทาง **ContactPersonID**
     3. เลือก **การดำเนินการ** แล้วจากนั้น เลือก **ลบ**
 
@@ -172,7 +174,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี **ลูกค้า V3**
 
-    1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **เอนทิตีข้อมูล**
+    1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **ตารางข้อมูล**
     2. เลือกเอนทิตี **ลูกค้า V3**
     3. ในบานหน้าต่างการดำเนินการ ให้เลือก **ตัวเลือก** แล้วจากนั้น เลือก **การติดตามการเปลี่ยนแปลง**
 
@@ -186,26 +188,26 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 4. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้ติดต่อของ CDS V2 (ผู้ติดต่อ)**
 
     > [!NOTE]
-    > มีแผนที่สองรายการที่มีชื่อเดียวกัน ตรวจสอบให้แน่ใจว่าได้เลือกแม็ปที่มีคำอธิบายต่อไปนี้บนแท็บ **รายละเอียด** : **แม่แบบการรวมแบบสองทิศทางสำหรับการซิงค์ระหว่าง FO.CDS Vendor Contacts V2 ไปยัง CDS.Contacts. Requires new package \[Dynamics365SupplyChainExtended\]**
+    > มีแผนที่สองรายการที่มีชื่อเดียวกัน ตรวจสอบให้แน่ใจว่าได้เลือกแม็ปที่มีคำอธิบายต่อไปนี้บนแท็บ **รายละเอียด**: **แม่แบบการรวมแบบสองทิศทางสำหรับการซิงค์ระหว่าง FO.CDS Vendor Contacts V2 ไปยัง CDS.Contacts. Requires new package \[Dynamics365SupplyChainExtended\]**
 
 5. เพิ่มฟิลด์ **InvoiceAccount** และฟิลด์ **ContactPersonId** กลับไปยังการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป ตอนนี้ทั้งฟิลด์ **InvoiceAccount** และฟิลด์ **ContactPersonId** เป็นส่วนหนึ่งของโหมดการซิงโครไนส์ที่เริ่มใช้งานจริงอีกครั้ง ในขั้นตอนถัดไป คุณจะดำเนินการซิงค์เริ่มต้นสำหรับฟิลด์เหล่านี้
-6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ลูกค้า V3 (บัญชี)** เนื่องจากการติดตามการเปลี่ยนแปลงถูกปิด จะมีการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จากแอป Finance and Operations ไปยัง Common Data Service
-7. เมื่อต้องการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จาก Common Data Service ไปยังแอป Finance and Operations คุณต้องใช้โครงการการรวมข้อมูล
+6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ลูกค้า V3 (บัญชี)** เนื่องจากการติดตามการเปลี่ยนแปลงถูกปิด จะมีการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จากแอป Finance and Operations ไปยัง Dataverse
+7. เมื่อต้องการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จาก Dataverse ไปยังแอป Finance and Operations คุณต้องใช้โครงการการรวมข้อมูล
 
-    1. ใน Power Apps ให้สร้างโครงการการรวมข้อมูลระหว่างเอนทิตี **Sales.Account** และ **Finance and Operations apps.Customers V3** ทิศทางของข้อมูลต้องมาจาก Common Data Service ไปยังแอป Finance and Operations เนื่องจาก **InvoiceAccount** เป็นแอททริบิวต์ใหม่ในการรวมแบบสองทิศทาง คุณอาจต้องการข้ามการซิงโครไนส์เริ่มต้นสำหรับแอททริบิวต์นี้ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator)
+    1. ใน Power Apps ให้สร้างโครงการการรวมข้อมูลระหว่างตาราง **Sales.Account** และ **Finance and Operations apps.Customers V3** ทิศทางของข้อมูลต้องมาจาก Dataverse ไปยังแอป Finance and Operations เนื่องจาก **InvoiceAccount** เป็นแอททริบิวต์ใหม่ในการรวมแบบสองทิศทาง คุณอาจต้องการข้ามการซิงโครไนส์เริ่มต้นสำหรับแอททริบิวต์นี้ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator)
 
         ภาพประกอบต่อไปนี้แสดงโครงการที่ปรับปรุง **CustomerAccount** และ **ContactPersonId**
 
         ![โครงการการรวมข้อมูลเพื่อปรับปรุง CustomerAccount และ ContactPersonId](media/cust_selfref6.png)
 
-    2. เพิ่มเงื่อนไขของบริษัทในตัวกรองในฝั่ง Common Data Service เพื่อให้เฉพาะเรกคอร์ดที่ตรงกับเงื่อนไขตัวกรองจะถูกปรับปรุงในแอป Finance and Operations เมื่อต้องการเพิ่มตัวกรอง ให้เลือกปุ่มตัวกรอง จากนั้น ในกล่องโต้ตอบ **แก้ไขการสอบถาม** คุณสามารถเพิ่มการสอบถามตัวกรอง เช่น **\_msdyn\_company\_value eq '\<guid\>'** 
+    2. เพิ่มเงื่อนไขของบริษัทในตัวกรองในฝั่ง Dataverse เพื่อให้เฉพาะแถวที่ตรงกับเงื่อนไขตัวกรองจะถูกปรับปรุงในแอป Finance and Operations เมื่อต้องการเพิ่มตัวกรอง ให้เลือกปุ่มตัวกรอง จากนั้น ในกล่องโต้ตอบ **แก้ไขการสอบถาม** คุณสามารถเพิ่มการสอบถามตัวกรอง เช่น **\_msdyn\_company\_value eq '\<guid\>'** 
 
         > [หมายเหตุ] ถ้าไม่มีปุ่มตัวกรองอยู่ ให้สร้างตั๋วการสนับสนุนเพื่อขอให้ทีมงานการรวมข้อมูลเปิดใช้งานความสามารถในการกรองของผู้เช่าของคุณ
 
-        ถ้าคุณไม่ได้ป้อนการสอบถามตัวกรองสำหรับ **\_msdyn\_company\_value** เรกคอร์ดทั้งหมดจะถูกซิงค์
+        ถ้าคุณไม่ได้ป้อนการสอบถามตัวกรองสำหรับ **\_msdyn\_company\_value** แถวทั้งหมดจะถูกซิงค์
 
         ![การเพิ่มการสอบถามตัวกรอง](media/cust_selfref7.png)
 
-    การซิงโครไนส์เริ่มต้นของเรกคอร์ดเสร็จสมบูรณ์ในขณะนี้
+    การซิงโครไนส์เริ่มต้นของแถวเสร็จสมบูรณ์ในขณะนี้
 
 8. ในแอป Finance and Operations เปิดใช้งานการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับเอนทิตี **ลูกค้า V3**

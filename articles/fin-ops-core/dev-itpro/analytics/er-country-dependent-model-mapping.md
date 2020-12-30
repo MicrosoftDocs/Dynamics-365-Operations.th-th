@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781156"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680888"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>ตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ที่ขึ้นกับบริบทของประเทศ
 
@@ -202,7 +201,7 @@ ms.locfileid: "2781156"
 
 โปรดสังเกตว่าเรกคอร์ดใหม่ถูกเพิ่มลงในล็อกการดีบัก ER สำหรับรูปแบบ ER ที่ดำเนินการ เนื่องจากฟิลด์ **ระดับ** ของเรกคอร์ดนี้ถูกตั้งค่าเป็น **ข้อมูล** เรกคอร์ดจะให้ข้อมูล เนื่องจากฟิลด์ส่วนประกอบรูปแบบถูกตั้งค่าเป็น **การตั้งค่าคอนฟิกการแม็ป** เรกคอร์ดจะแจ้งให้คุณทราบเกี่ยวกับการแม็ปแบบจำลองที่ใช้ในระหว่างการดำเนินการของรูปแบบ ER **รูปแบบเพื่อเรียนรู้การแม็ป** (เลือกไว้ในฟิลด์ **ชื่อการตั้งค่าคอนฟิก**) เนื้อหาของฟิลด์ **ข้อความที่สร้างขึ้น** จะแจ้งให้ทราบว่าส่วนประกอบการแม็ป **การแม็ป (FR)** ที่อยู่ในการตั้งค่าคอนฟิก **การแม็ป (FR)** ถูกใช้เพื่อรันรายงานนี้
 
-## <a name="appendix1"></a> ภาคผนวก 1
+## <a name="appendix-1"></a><a name="appendix1"></a> ภาคผนวก 1
 
 ### <a name="configure-a-sample-data-model"></a>ตั้งค่าคอนฟิกแบบจำลองข้อมูลตัวอย่าง
 
@@ -343,7 +342,7 @@ ms.locfileid: "2781156"
 4.  เลือก **บันทึก**
 5.  ปิดหน้า
 
-## <a name="appendix2"></a> ภาคผนวก 2
+## <a name="appendix-2"></a><a name="appendix2"></a> ภาคผนวก 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>ตั้งค่าคอนฟิกการแม็ปแบบจำลองตัวอย่างสำหรับการเลือกกำหนดทั่วไป
 
@@ -403,7 +402,7 @@ ms.locfileid: "2781156"
 
 โปรดสังเกตว่าโครงแบบที่สร้างขึ้นถูกบันทึกเป็นรุ่น 1 เสร็จสมบูรณ์
 
-## <a name="appendix3"></a> ภาคผนวก 3
+## <a name="appendix-3"></a><a name="appendix3"></a> ภาคผนวก 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>ตั้งค่าคอนฟิกการแม็ปแบบจำลองตัวอย่างสำหรับการเลือกกำหนดเฉพาะประเทศ/ภูมิภาค
 
@@ -428,7 +427,7 @@ ms.locfileid: "2781156"
     > โปรดสังเกตว่ามีการคัดลอกการแม็ปแบบจำลองของโครงแบบพื้นฐานไปที่การตั้งค่าคอนฟิกนี้โดยอัตโนมัติ
 
 2.  เลือกการแม็ป **สำเนาของสำเนาการแม็ป (ทั่วไป)**
-3.  เปลี่ยนชื่อ**การแม็ป (FR)**
+3.  เปลี่ยนชื่อ **การแม็ป (FR)**
 4.  เลือก **ตัวออกแบบ**
 5.  ในส่วน **แบบจำลองข้อมูล** เลือก **แก้ไข**
 6.  ในฟิลด์ **สูตร** ให้ป้อน **"ฟังก์ชัน FR 1"**
@@ -440,7 +439,7 @@ ms.locfileid: "2781156"
 9.  เลือก **บันทึก**
 10. ปิดหน้า
 11. เลือกการแม็ป **สำเนาของสำเนาการแม็ป (ทั่วไป) 2**
-12. เปลี่ยนชื่อ**การแม็ป (FR) 2**
+12. เปลี่ยนชื่อ **การแม็ป (FR) 2**
 13. เลือก **ตัวออกแบบ**
 14. ในส่วน **แบบจำลองข้อมูล** เลือก **แก้ไข**
 15. ในฟิลด์ **สูตร** ให้ป้อน **"ฟังก์ชัน FR 2"**

@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014994"
+ms.locfileid: "4448579"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>การประเมินค่าสกุลเงินใหม่ในบริษัทที่รวมบัญชี
 
@@ -34,10 +34,10 @@ ms.locfileid: "4014994"
 ## <a name="company-setup"></a>การจัดเตรียมบริษัท
 -   **แหล่งที่มา/บริษัทที่ดำเนินการ (USMF)** – ดอลลาร์สหรัฐฯ (USD) จะถูกใช้ในสกุลเงินทางบัญชีและสกุลเงินการรายงาน
 -   **บริษัทแบบรวมบัญชี(CON)** – ยูโร (EUR) จะถูกใช้ในสกุลเงินทางบัญชีและสกุลเงินการรายงาน
-    -   **กำไรที่รับรู้** – บัญชีแยกประเภท 801500
+    -   **กำไรที่รับรู้**– บัญชีแยกประเภท 801500
     -   **ขาดทุนที่รับรู้** – บัญชีแยกประเภท 801600
-    -   **กำไรที่ยังไม่รับรู้** – บัญชีแยกประเภท 801600
-    -   **ขาดทุนที่ยังไม่รับรู้** – บัญชีแยกประเภท 801400
+    -   **กำไรที่ยังไม่รับรู้**– บัญชีแยกประเภท 801600
+    -   **ขาดทุนที่ยังไม่รับรู้**– บัญชีแยกประเภท 801400
 
 ## <a name="original-transactions"></a>ธุรกรรมดั้งเดิม
 ### <a name="cash-receipt-transactions-in-usmf"></a>ธุรกรรมของใบเสร็จรับเงินใน USMF

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771271"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680205"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>จัดเตรียมข้อมูลเมตาเฉพาะของแอพลิเคชันสำหรับ RCS และ ER
 
@@ -221,7 +220,7 @@ ms.locfileid: "2771271"
 
 1. ไปที่ **พื้นที่ทำงานทั้งหมด \> การรายงานทางอิเล็กทรอนิกส์**
 2. เลือก **แอพลิเคชันที่เชื่อมต่อ**
-3. ตรวจสอบให้แน่ใจว่าแอพลิเคชันที่ตั้งค่าคอนฟิกเป็นไปตาม Microsoft Azure และเข้าถึงได้โดยทั่วไปสำหรับผู้ใช้ RCS ผู้ใช้ RCS ปัจจุบันต้องมีสิทธิ์เข้าถึงแอพลิเคชันที่ตั้งค่าคอนฟิกที่มีการลงทะเบียนเป็นผู้ใช้ของแอพลิเคชันนี้ ในบทบาทที่ให้เขาหรือเธอมีสิทธิ์ในการเข้าถึงข้อมูลเมตาของแอพลิเคชัน
+3. ตรวจสอบให้แน่ใจว่าแอพลิเคชันที่ตั้งค่าคอนฟิกเป็นไปตาม Microsoft Azure และเข้าถึงได้โดยทั่วไปสำหรับผู้ใช้ RCS ผู้ใช้ RCS ปัจจุบันต้องมีสิทธิ์เข้าถึงโปรแกรมประยุกต์ที่ตั้งค่าคอนฟิกที่มีการลงทะเบียนเป็นผู้ใช้ของโปรแกรมประยุกต์นี้ ในบทบาทที่ให้พวกเขามีสิทธิ์ในการเข้าถึงข้อมูลเมตาของโปรแกรมประยุกต์
 4. เลือก **ใหม่**
 5. ในฟิลด์ **ชื่อ** ให้ป้อน **MyConnectedApp** เป็นชื่อของแอพลิเคชันที่เชื่อมต่อ
 6. ในฟิลด์ **แอพลิเคชัน** ให้ระบุ URL ของแอพลิเคชัน

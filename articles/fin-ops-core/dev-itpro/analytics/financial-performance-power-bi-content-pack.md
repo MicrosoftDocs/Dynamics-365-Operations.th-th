@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771130"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682756"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
@@ -34,7 +33,7 @@ ms.locfileid: "2771130"
 หัวข้อนี้อธิบายถึงโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน** และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างโซลูชันนี้
 
 ## <a name="main-account-setup"></a>การตั้งค่าบัญชีหลัก
-เนื่องจากองค์กรต้องการให้ยอดเงินหนี้สินและรายได้ปรากฏเป็นจำนวนค่าบวกในรายงาน การตั้งค่าบัญชีหลักจึงมีความสำคัญ สำหรับบัญชีหลักเหล่านี้ที่จะปรากฏเป็นจำนวนค่าบวก คุณต้องกำหนดชนิดบัญชีหลักเป็น **หนี้สิน** หรือ **รายได้** เมื่อมีการใช้ชนิดลูกค้าองค์กรเหล่านี้ การรายงานผ่าน Power BI จะกลับรายการเครื่องหมายและแสดงจำนวนเป็นบวก
+เนื่องจากองค์กรต้องการให้ยอดเงินหนี้สินและรายได้ปรากฏเป็นจำนวนค่าบวกในรายงาน การตั้งค่าบัญชีหลักจึงมีความสำคัญ สำหรับบัญชีหลักเหล่านี้ที่จะปรากฏเป็นจำนวนค่าบวก คุณต้องกำหนดชนิดบัญชีหลักเป็น **หนี้สิน** หรือ **รายได้** เมื่อมีการใช้ชนิดลูกค้าองค์กรเหล่านี้ การรายงานผ่าน Power BI จะกลับรายการเครื่องหมายและแสดงจำนวนเป็นบวก
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>แดชบอร์ดและรายงานที่ถูกรวมอยู่ในโซลูชัน PowerBI.com
 แดชบอร์ดประกอบด้วยไทล์สรุปของข้อมูลที่เป็นไปตามรายงานที่เน้น แต่ละไทล์ประกอบด้วยข้อมูลสรุปของปีปัจจุบันระหว่างบริษัททั้งหมดในองค์กร ต่อไปนี้เป็นตัวอย่างของไฟล์ดังกล่าว:

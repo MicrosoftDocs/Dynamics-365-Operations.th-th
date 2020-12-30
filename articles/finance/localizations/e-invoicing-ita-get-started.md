@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039803"
+ms.locfileid: "4448589"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับอิตาลี
 

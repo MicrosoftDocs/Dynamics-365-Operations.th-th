@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0cf5a48a0f6beafad3c9a657c44079b290a7ebd5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772225"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448362"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>ภาพรวมของการแก้ไขส่วนต่างในระหว่างการจับคู่ผลรวมในใบแจ้งหนี้
 

@@ -17,11 +17,11 @@ ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 501dea392b4c348d2a1ceffa266ae7fde8b1eb0c
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552358"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408634"
 ---
 # <a name="substitutionadjustment-tax-invoices-for-thailand"></a>ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 

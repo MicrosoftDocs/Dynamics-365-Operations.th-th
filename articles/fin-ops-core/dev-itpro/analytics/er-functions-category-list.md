@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
-ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
+ms.openlocfilehash: e2e708c59bceebf845ee78c98057133bb2892cf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3687969"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686199"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>รายการของฟังก์ชั่น ER ในประเภทรายการ
 
@@ -42,7 +41,7 @@ ms.locfileid: "3687969"
 | [แจงนับ](er-functions-list-enumerate.md)               | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ใหม่ที่ประกอบด้วยเฉพาะเรกคอร์ดที่ระบุรายการที่ระบุ |
 | [ตัวกรองข้อมูล](er-functions-list-filter.md)                     | ฟังก์ชันนี้ส่งกลับรายการที่ระบุเป็นค่า *รายการเรกคอร์ด* หลังจากที่การสอบถามถูกเปลี่ยนเพื่อให้กรองตามเงื่อนไขที่ระบุ |
 | [ลำดับแรก](er-functions-list-first.md)                       | ฟังก์ชันนี้ส่งกลับเรกคอร์ดแรกของรายการที่ระบุเป็นค่า *คอนเทนเนอร์ (เรกคอร์ด)* หากรายการนั้นไม่ว่าง ถ้ารายการว่าง ฟังก์ชันนี้จะแสดงข้อยกเว้น |
-| [FirstOrNull](er-functions-list-firstornull.md)           | ฟังก์ชันนี้ส่งกลับเรกคอร์ดแรกของรายการที่ระบุเป็นค่า *คอนเทนเนอร์ (เรกคอร์ด)* หากเรกคอร์ดไม่ว่าง ถ้าเรกคอร์ดว่าง ฟังก์ชันนี้จะส่งกลับค่า*คอนเทนเนอร์ (เรกคอร์ด)* ที่เป็น null |
+| [FirstOrNull](er-functions-list-firstornull.md)           | ฟังก์ชันนี้ส่งกลับเรกคอร์ดแรกของรายการที่ระบุเป็นค่า *คอนเทนเนอร์ (เรกคอร์ด)* หากเรกคอร์ดไม่ว่าง ถ้าเรกคอร์ดว่าง ฟังก์ชันนี้จะส่งกลับค่า *คอนเทนเนอร์ (เรกคอร์ด)* ที่เป็น null |
 | [Index](er-functions-list-index.md)                       | ฟังก์ชันนี้ส่งกลับค่า *คอนเทนเนอร์ (เรกคอร์ด)* ที่เลือกโดยใช้ดัชนีตัวเลขที่ระบุในรายการที่ระบุ ถ้าดัชนีอยู่นอกช่วสำหรับเรกคอร์ดในรายการที่ระบุ ฟังก์ชันนี้จะมีข้อยกเว้นเกิดขึ้น |
 | [IsEmpty](er-functions-list-isempty.md)                   | ฟังก์ชันนี้ส่งกลับค่า *บูลีน* ของ **TRUE** ถ้ารายการที่ระบุไม่มีเรกคอร์ด มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ** |
 | [รายการ](er-functions-list-list.md)                         | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยรายการใหม่ที่สร้างขึ้นจากอาร์กิวเมนต์ที่ระบุของชนิด|

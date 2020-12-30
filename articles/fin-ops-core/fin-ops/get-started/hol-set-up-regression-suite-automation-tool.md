@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248724"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695126"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>ตั้งค่าและติดตั้งบทช่วยสอนของ Regression Suite Automation Tool
 หัวข้อนี้เป็นบทช่วยสอนที่ช่วยให้คุณได้รับการตั้งค่าและเริ่มต้นด้วย RSAT และเครื่องมือที่เกี่ยวข้องกับการใช้ RSAT 
@@ -387,7 +386,7 @@ RSAT สามารถติดตั้งบนคอมพิวเตอร
 
     ![AOSService ในรายการของไซต์](./media/setup_rsa_tool_49.png)
 
-3. คลิกขวา **สำรวจ** เพื่อเปิดโฟลเดอร์ **\<ไดรฟ์\>: \\AosService\\WebRoot** ค้นหาไฟล์ **wif.config**
+3. คลิกขวา **สำรวจ** เพื่อเปิดโฟลเดอร์: **\<Drive\>: \\AosService\\WebRoot** ค้นหาไฟล์ **wif.config**
 
     ![ไฟล์ Wif.config ในโฟลเดอร์ WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ RSAT สามารถติดตั้งบนคอมพิวเตอร
     ```
 
     > [!NOTE]
-    > ถ้าผู้ใช้หลายรายใช้แอพลิเคชันเดียวกัน ผู้ใช้แต่ละรายจะต้องสร้างรหัสประจำตัวที่แยกต่างหาก และต้องเพิ่มรหัสประจำตัวแต่ละรหัสลงในส่วนของ **\<คีย์\>**
+    > ถ้าผู้ใช้หลายรายใช้แอพลิเคชันเดียวกัน ผู้ใช้แต่ละรายจะต้องสร้างรหัสประจำตัวที่แยกต่างหาก และต้องเพิ่มรหัสประจำตัวแต่ละรหัสลงในส่วนของ **\<keys\>**
 
 5. ถ้ามีคอมพิวเตอร์ AOS มากกว่าหนึ่งเครื่อง ให้ทำซ้ำขั้นตอนที่ 3 ถึง 4 สำหรับคอมพิวเตอร์เพิ่มเติมแต่ละเครื่อง
 
@@ -502,7 +501,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **ชื่อโครงการ** – เลือกชื่อของโครงการ Azure DevOps ของคุณ
     - **แผนการทดสอบ** – เลือกแผนการทดสอบ Azure DevOps ที่มีกรณีการทดสอบของคุณ สำหรับข้อมูลเพิ่มเติม ดู [สร้างแผนการทดสอบและชุดการทดสอบ](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan) หลังจากที่คุณเลือกแผนการทดสอบ ให้เลือก **ทดสอบการเชื่อมต่อ** เพื่อทดสอบการเชื่อมต่อของคุณกับ Azure DevOps
     - **Hostname** – ป้อนชื่อโฮสต์ของสภาพแวดล้อมที่ทดสอบ เช่น **\<myaos\>.cloudax.dynamics.com** อย่ารวมคำนำหน้า **https://** หรือ **http://**
-    - **SOAP Hostname** – ป้อนชื่อโฮสต์ SOAP ของสภาพแวดล้อมที่ทดสอบ โดยทั่วไป ชื่อโฮสต์ SOAP จะเหมือนกับชื่อโฮสต์ แต่มีคำต่อท้าย **soap** นี่คือตัวอย่าง **\<myaos\>soap.cloudax.dynamics.com** อย่ารวมคำนำหน้า **https://** หรือ **http://**
+    - **SOAP Hostname** – ป้อนชื่อโฮสต์ SOAP ของสภาพแวดล้อมที่ทดสอบ โดยทั่วไป ชื่อโฮสต์ SOAP จะเหมือนกับชื่อโฮสต์ แต่มีคำต่อท้าย **soap** นี่คือตัวอย่าง: **\<myaos\>soap.cloudax.dynamics.com** อย่ารวมคำนำหน้า **https://** หรือ **http://**
 
         > [!NOTE]
         > เมื่อต้องการค้นหาชื่อโฮสต์และชื่อโฮสต์ SOAP ให้เปิดโปรแกรมจัดการ IIS คลิกขวา **ไซต์ \> AOSService** และจากนั้น เลือก **แก้ไขการผูก** ค่าในคอลัมน์ **ชื่อโฮสต์** จะให้ชื่อโฮสต์และชื่อโฮสต์ SOAP (ชื่อโฮสต์ SOAP มีคำต่อท้าย **soap** ใน URL)
@@ -563,7 +562,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![ความละเอียดเดสก์ท็อปที่ถูกตั้งค่าเป็น 100%](./media/setup_rsa_tool_68.png)
 
-6. ถ้าไม่ได้ติดตั้งไดรเวอร์ของเบราว์เซอร์ไว้ในระบบ คุณจะได้รับข้อความแจ้งเตือนที่ระบุว่า "การดำเนินการนี้จำเป็นต้องมีไดรเวอร์ \<ชื่อเบราว์เซอร์\> คุณต้องการดาวน์โหลดและติดตั้งเดี๋ยวนี้โดยอัตโนมัติหรือไม่?" เลือก **ใช่**
+6. ถ้าไม่ได้ติดตั้งไดรเวอร์ของเบราว์เซอร์ไว้ในระบบ คุณจะได้รับข้อความแจ้งเตือนที่ระบุว่า "การดำเนินการนี้จำเป็นต้องมีไดรเวอร์ \<browser name\> คุณต้องการดาวน์โหลดและติดตั้งเดี๋ยวนี้โดยอัตโนมัติหรือไม่?" เลือก **ใช่**
 
     ![ข้อความเตือนสำหรับ Internet Explorer](./media/setup_rsa_tool_69.png)
 

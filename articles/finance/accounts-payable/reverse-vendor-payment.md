@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180224"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448361"
 ---
 # <a name="reverse-a-vendor-payment"></a>กลับรายการชำระเงินให้แก่ผู้จัดจำหน่าย
 
@@ -58,7 +58,7 @@ ms.locfileid: "2180224"
 -   เพื่อปฏิเสธการกลับรายการ ให้ลบสมุดรายวันการกลับรายการเช็ค
 
 > [!NOTE]
-> ถ้าคุณลบสมุดรายวัน การกลับบัญชีจะถูกลบจากระบบ แต่เช็คต้นฉบับยังคงอยู่ในหน้า **ตรวจสอบ** สถานะของเช็คจะไม่ใช่ **การยกเลิกที่ค้างอยู่**อีกต่อไป
+> ถ้าคุณลบสมุดรายวัน การกลับบัญชีจะถูกลบจากระบบ แต่เช็คต้นฉบับยังคงอยู่ในหน้า **ตรวจสอบ** สถานะของเช็คจะไม่ใช่ **การยกเลิกที่ค้างอยู่** อีกต่อไป
 
 ## <a name="results-of-posting-a-reversal"></a>ผลลัพธ์ของการลงรายการบัญชีการกลับรายการ
 เมื่อคุณลงรายการบัญชีการกลับเช็ค จะเกิดเหตุการณ์ต่อไปนี้

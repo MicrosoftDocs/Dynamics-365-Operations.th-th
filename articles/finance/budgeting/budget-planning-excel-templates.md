@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448537"
 ---
 # <a name="budget-planning-templates-for-excel"></a>เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 
@@ -67,7 +67,7 @@ ms.locfileid: "2772110"
 
 ชี้เคอร์เซอร์ไปยังตำแหน่งที่ต้องการในไฟล์ Excel คลิก **เพิ่มป้ายชื่อ** เพื่อเพิ่มป้ายชื่อฟิลด์ไปยังตำแหน่งที่เลือก เลือก **เพิ่มค่า** เพื่อเพิ่มฟิลด์ค่าไปยังตำแหน่งที่เลือก คลิก **เสร็จสิ้น** เพื่อปิดตัวออกแบบ
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![เลือก เพิ่มค่า](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![เลือก เพิ่มค่า](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>เพิ่มคอลัมน์ที่คำนวณแล้วไปยังตารางเท็มเพลตเอกสารแผนงบประมาณ
 --------------------------------------------------------------
@@ -120,7 +120,7 @@ ms.locfileid: "2772110"
 
 คลิกลูกศรเพื่อดูเมนูเพิ่มเติม เลือก **ล็อค**
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![เลือก ล็อค](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![เลือก ล็อค](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>ฉันสามารถใช้คุณลักษณะอื่นๆ ของ Excel เช่น การจัดรูปแบบเซลล์ สี การจัดรูปแบบตามเงื่อนไข และแผนภูมิกับเท็มเพลตแผนงบประมาณของฉันได้หรือไม่
 

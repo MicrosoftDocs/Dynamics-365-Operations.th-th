@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5e121ce7d87ee50a4e6b367a170eea4375d64fb3
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144892"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448333"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>ตั้งค่าบัญชีธนาคารของบริษัทสำหรับการโอนย้ายเครดิต ISO20022
 

@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI การฝึกเชิงองค์กร
-description: หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI การฝึกเชิงองค์กร
+description: หัวข้อนี้อธิบายเนื้อหา Finance and Operations - การฝึกอบรมขององค์กร Power BI
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c9025baccf34195c753fc50ad38cd3016c65b53
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182979"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685846"
 ---
 # <a name="organizational-training-power-bi-content"></a>เนื้อหา Power BI การฝึกเชิงองค์กร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบาย Finance and Operations - เนื้อหา Power BI การฝึกเชิงองค์กร
+หัวข้อนี้อธิบายเนื้อหา Finance and Operations - การฝึกอบรมขององค์กร Power BI
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูลของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน

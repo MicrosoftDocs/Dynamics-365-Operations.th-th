@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448351"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>การนำเข้า MT940 การกระทบยอดบัญชีธนาคารขั้นสูง – การอัพเกรดเอนทิตี้ข้อมูลแบบรวม
 
@@ -55,7 +55,7 @@ ms.locfileid: "3899384"
             3.  อัพโหลดไฟล์ข้อมูล = SampleBankCompositeEntity.xml เวอร์ชันใหม่
             4.  คลิก **ใช่** เพื่อบันทึกทับไฟล์ที่มีอยู่
             5.  คลิก **ใช่** เพื่อสร้างการแม็ปใหม่
-            6.  ตรวจสอบว่ามีการแม็ป S**equenceNumber**
+            6.  ตรวจสอบว่ามีการแม็ป S **equenceNumber**
                 -   คลิก **ดูแผนที่** บนเอนทิตี้ใบแจ้งยอด
                 -   ตรวจสอบว่ามีการแม็ป **SequenceNumber** จากต้นทางไปยังการแบ่งระยะหรือไม่
 

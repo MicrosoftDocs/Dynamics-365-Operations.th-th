@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039857"
+ms.locfileid: "4448593"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์
 

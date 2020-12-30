@@ -1,0 +1,108 @@
+---
+title: อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ
+description: หัวข้อนี้จะอธิบายถึงวิธีการอัพเดตโครงสร้างของแม่แบบเอกสารธุรกิจโดยใช้ลักษณะการทำงานการจัดการเอกสารทางธุรกิจ
+author: NickSelin
+manager: AnnBe
+ms.date: 11/19/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2019-12-01
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681339"
+---
+# <a name="update-the-structure-of-a-business-document-template"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ 
+
+[!include[banner](../includes/banner.md)]
+
+ในบานหน้าต่าง **โครงสร้างแม่แบบ** ของโปรแกรมแก้ไขแม่แบบ [การจัดการเอกสารทางธุรกิจ](er-business-document-management.md) คุณสามารถปรับเปลี่ยนแม่แบบเอกสารธุรกิจโดย [การเพิ่มฟิลด์ใหม่](er-bdm-add-field-to-excel-template.md) ลงในแม่แบบใน Microsoft Excel หลังจากนั้นจะมีการปรับปรุงโครงสร้างของแม่แบบโดยอัตโนมัติใน Dynamics 365 Finance เพื่อให้สะท้อนถึงการเปลี่ยนแปลงที่คุณทำไว้ในบานหน้าต่าง **โครงสร้างแม่แบบ**
+
+นอกจากนี้คุณยังสามารถแก้ไขแม่แบบได้โดยใช้ฟังก์ชัน Office 365 ออนไลน์ ตัวอย่างเช่น คุณสามารถเพิ่มรายการใหม่ที่มีการระบุชื่อ เช่น รูปภาพหรือรูปร่าง ไปยังแผ่นงานที่แก้ไขได้ ในกรณีนี้ โครงสร้างของแม่แบบจะไม่ได้รับการอัพเดตโดยอัตโนมัติในการเงิน และสินค้าที่คุณเพิ่มจะไม่ปรากฏในบานหน้าต่าง **โครงสร้างแม่แบบ** อัพเดตโครงสร้างแม่แบบด้วยตนเองในการเงินโดยเลือก **อัพเดตโครงสร้าง** บนหน้าโปรแกรมแก้ไขแม่แบบ
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะนี้ ให้ดำเนินการตัวอย่างต่อไปนี้ให้เสร็จสมบูรณ์
+
+## <a name="example-update-the-structure-of-a-business-document-template"></a>ตัวอย่าง: อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ
+
+ตัวอย่างนี้แสดงวิธีการที่ผู้ดูแลระบบสามารถอัพเดตโครงสร้างของแม่แบบเอกสารธุรกิจในการเงินหลังจากที่มีการปรับเปลี่ยนแม่แบบได้ใน Office Online ส่วนต่อไปนี้อธิบายขั้นตอนที่เกี่ยวข้อง
+
+### <a name="prepare-a-business-document-template-for-editing"></a>การจัดเตรียมแม่แบบเอกสารธุรกิจสำหรับการแก้ไข
+
+ดำเนินการขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์ใน [ภาพรวมของการจัดการเอกสารธุรกิจ](er-business-document-management.md)
+
+1. [ตั้งค่าคอนฟิกพารามิเตอร์ ER](er-business-document-management.md#configure-er-parameters)
+2. [นำเข้าโซลูชัน ER](er-business-document-management.md#import-er-solutions)
+3. [เปิดใช้งานการจัดการเอกสารทางธุรกิจ](er-business-document-management.md#enable-business-document-management)
+4. [ตั้งค่าคอนฟิกพารามิเตอร์](er-business-document-management.md#configure-parameters)
+
+### <a name="edit-a-business-document-template"></a>แก้ไขแม่แบบเอกสารทางธุรกิจ
+
+1. ในพื้นที่ทำงาน **การจัดการเอกสารทางธุรกิจ** เลือก **เอกสารใหม่**
+2. บนหน้า **สร้างแม่แบบใหม่** ให้เลือกแม่แบบ **ใบแจ้งหนี้ข้อความอิสระ (ตัวอย่าง ER) (Excel)**
+3. เลือก **สร้างเอกสาร**
+4. ในฟิลด์ **ชื่อ** ให้ป้อน **Litware ตัวอย่างของ FTI**
+5. เลือก **ตกลง** เพื่อสร้างแม่แบบใหม่
+
+    > [!NOTE]
+    > หากคุณยังไม่ได้เข้าสู่ระบบ Office Online คุณจะ [ถูกนำไปยังหน้าลงชื่อเข้าใช้ Office 365](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page) เมื่อต้องการกลับไปยังสภาพแวดล้อมทางการเงินของคุณ ให้เลือกปุ่ม **ย้อนกลับ** ในเบราว์เซอร์ของคุณ
+
+    มีการเปิดแม่แบบใหม่สำหรับการแก้ไขในตัวควบคุมฝังตัวแบบออนไลน์ของ Excel บนหน้าโปรแกรมแก้ไขแม่แบบ
+
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเริ่มต้นการแก้ไขแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+
+### <a name="review-the-current-structure-of-the-editable-template"></a>ตรวจทานโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้
+
+1. ใน Excel Online บน ribbon บนแท็บ **มุมมอง** ในกลุ่ม **แสดง** เลือก **เส้นตาราง**
+2. ในแม่แบบที่สามารถแก้ไขได้ ให้เลือกสี่เหลี่ยมด้านบนชื่อแม่แบบ สี่เหลี่ยมนี้เป็นรูปภาพที่ชื่อ **rptHeaderCompLogo**
+3. ถ้าบานหน้าต่าง **โครงสร้างแม่แบบ** ซ่อนอยู่ ให้เลือก **แสดงโครงสร้าง**
+4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
+5. โปรดสังเกตว่าในโครงสร้างแม่แบบในทางการเงิน รายการ **rptHeaderCompLogo** จะมีการแสดงเป็นรายการรองของ **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
+
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อทบทวนโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+
+### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>อัปเดตโครงสร้างของเท็มเพลตเอกสารทางธุรกิจโดยการลบรูปภาพ
+
+1. ใน Excel Online ในแม่แบบที่สามารถแก้ไขได้ ให้เลือกรูปภาพ **rptHeaderCompLogo**
+2. ทำตามขั้นตอนใดขั้นตอนหนึ่งต่อไปนี้เพื่อลบรูปภาพที่เลือกจากแม่แบบที่สามารถแก้ไขได้:
+
+    - เลือกคีย์ **ลบ** บนแป้นพิมพ์ของคุณ
+    - เลือกค้างไว้ (หรือคลิกขวา) ที่รูปภาพแล้วเลือก **ตัด**
+
+    > [!NOTE]
+    > ปัจจุบันรายการ **rptHeaderCompLogo** ยังคงอยู่ในโครงสร้างแม่แบบในการเงินถึง แม้ว่ารูปภาพจะไม่รวมอยู่ในแม่แบบ Excel อีกต่อไป
+
+3. เลือก **อัพเดตโครงสร้าง** เพื่อซิงค์โครงสร้างของแม่แบบที่สามารถแก้ไขได้ใน Excel และการเงิน
+4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
+5. โปรดสังเกตว่า รายการ **rptHeaderCompLogo** ไม่รวมอยู่ในโครงสร้างแม่แบบในการเงินอีกต่อไป
+
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อลบรูปภาพจากแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+
+### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจโดยการเพิ่มรูปภาพ
+
+1. ใน Excel Online บน ribbon บนแท็บ **แทรก** ในกลุ่ม **ภาพประกอบ** เลือก **รูปภาพ**
+2. เลือก **เลือกไฟล์** ไปที่รูปภาพที่คุณต้องการเพิ่ม เลือก แล้วเลือก **ตกลง**
+3. เลือก **แทรก**
+4. ย้ายรูปภาพใหม่จนกว่าจะอยู่ในสถานที่ที่ถูกต้อง ตามค่าเริ่มต้น Excel จะตั้งชื่อรูปภาพ ตัวอย่างเช่น อาจใช้ชื่อรูปภาพ **2**
+5. เลือก **อัพเดตโครงสร้าง** เพื่อซิงค์โครงสร้างของแม่แบบที่สามารถแก้ไขได้ใน Excel และการเงิน
+6. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
+7. โปรดสังเกตว่ารูปภาพใหม่รวมเป็นรายการในโครงสร้างแม่แบบในการเงิน
+
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเพิ่มรูปภาพแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+
+## <a name="related-links"></a>ลิงค์ที่เกี่ยวข้อง
+
+[ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
+
+[ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)

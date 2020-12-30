@@ -10,37 +10,36 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181024"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688478"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>เปิดข้อมูลเอนทิตี้ใน Excel และปรับปรุงโดยใช้ add-in ของ Excel
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Finance and Operations
+หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัพเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics Office สำหรับ Excel เมื่อต้องการเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือ Finance and Operations
 
 โดยการเปิดข้อมูลเอนทิตีใน Excel คุณสามารถดูและแก้ไขข้อมูลได้อย่างรวดเร็วและอย่างง่ายดายโดยใช้ Add-in ของ Excel Add-in นี้จำเป็นต้องมี Microsoft Excel 2016
 
 > [!NOTE]
-> หากผู้เช่า Microsoft Azure Active Directory (Azure AD) ของคุณถูกตั้งค่าคอนฟิกให้ใช้ Active Directory Federation Services (AD FS) คุณต้องแน่ใจว่ามีการใช้การอัพเดตเดือนพฤษภาคม 2016 สำหรับ Office เพื่อให้ Add-in ของ Excel สามารถนำคุณเข้าสู่ระบบได้อย่างถูกต้อง
+> หากผู้เช่า Microsoft Azure Active Directory (Azure AD) ของคุณถูกตั้งค่าคอนฟิกให้ใช้ Active Directory Federation Services (AD FS) คุณต้องแน่ใจว่ามีการใช้การอัพเดตเดือนพฤษภาคม 2016 สำหรับ Office เพื่อให้ Add-in ของ Excel สามารถนำคุณเข้าสู่ระบบได้อย่างถูกต้อง
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการใช้ add-in ของ Excel ให้ดูวิดีโอ [สร้างเท็มเพลต Excel สำหรับหัวข้อและรูปแบบรายการในDynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) แบบย่อ
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>เปิดข้อมูลเอนทิตีใน Excel เมื่อคุณเริ่มการทำงานจาก Finance and Operations
-1. ในหน้าใน Finance and Operations เลือก **เปิดใน Microsoft Office**
+1. บนหน้าใน Finance and Operations ให้เลือก **เปิดใน Microsoft Office**
 
-    ถ้าแหล่งข้อมูลราก (ตาราง) สำหรับหน้าเหมือนกับแหล่งข้อมูลรากสำหรับเอนทิตีใดๆ ตัวเลือก **เปิดใน Excel** จะถูกสร้างขึ้นสำหรับหน้านั้น สามารถดูตัวเลือก **เปิดใน Excel**ได้ในหน้าที่ใช้บ่อย เช่น **ผู้จัดจำหน่ายทั้งหมด** และ **ลูกค้าทั้งหมด**
+    ถ้าแหล่งข้อมูลราก (ตาราง) สำหรับหน้าเหมือนกับแหล่งข้อมูลรากสำหรับเอนทิตีใดๆ ตัวเลือก **เปิดใน Excel** จะถูกสร้างขึ้นสำหรับหน้านั้น สามารถดูตัวเลือก **เปิดใน Excel** ได้ในหน้าที่ใช้บ่อย เช่น **ผู้จัดจำหน่ายทั้งหมด** และ **ลูกค้าทั้งหมด**
  
 2. เลือกตัวเลือก **เปิดใน Excel** และเปิดสมุดงานที่สร้างขึ้น สมุดงานนี้มีข้อมูลการผูกข้อมูลสำหรับเอนทิตี ตัวชี้ไปยังสภาพแวดล้อมของคุณ และตัวชี้ไปยัง Add-in ของ Excel
 3. ใน Excel เลือก **เปิดใช้งานการแก้ไข** เพื่อเปิดใช้งาน Add-in ของ Excel เพื่อให้รัน Add-in ของ Excel จะทำงานในบานหน้าต่างด้านขวาของหน้าต่าง Excel

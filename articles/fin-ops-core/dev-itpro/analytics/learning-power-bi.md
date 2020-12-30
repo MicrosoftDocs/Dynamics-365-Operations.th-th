@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8f97d4f59765840e215710e666079df3d4ecb878
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005790"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685260"
 ---
 # <a name="learning-power-bi-content"></a>เนื้อหา Power BI การเรียนรู้
 
@@ -35,7 +34,7 @@ ms.locfileid: "3005790"
 | รายงาน                | เนื้อหา |
 |-----------------------|----------|
 | ภาพรวมของการเรียนรู้     | สรุปการรายงานอื่น ๆ |
-| การวิเคราะห์หลักสูตร       | การลงทะเบียนโดยเรียงตามสถานที่ ผู้เข้าร่วมโดยเรียงตามสถานะ หลักสูตรโดยเรียงตามชนิดต่อบริษัท และการเข้าเรียนในหลักสูตรโดยเรียงตามงาน |
+| การวิเคราะห์หลักสูตร       | การลงทะเบียนโดยเรียงตามสถานที่ ผู้เข้าร่วมโดยเรียงตามสถานะ หลักสูตรโดยเรียงตามชนิดต่อบริษัท และการเข้าเรียนในหลักสูตรโดยเรียงตามงาน |
 | การวิเคราะห์การลงทะเบียน | รายการลงทะเบียน |
 | ชนิดของหลักสูตร          | ชนิดของหลักสูตรตามทักษะ |
 | การวิเคราะห์ผู้สอน   | อัตราส่วนของหลักสูตรต่อผู้สอน จำนวนผู้สอน หลักสูตรโดยเรียงตามผู้สอน หลักสูตรต่อผู้สอน และวาระการประชุมโดยเรียงตามผู้สอน |

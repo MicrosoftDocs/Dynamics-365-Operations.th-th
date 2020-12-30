@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265434
 ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2d31aaf14f6399baca8531707864c48cd2d56ac2
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3f556cf2e506c57e465c2a86485d2cdd4cf8b65e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769982"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680625"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการวิเคราะห์การซื้อและการใช้จ่าย
 
@@ -51,9 +50,9 @@ ms.locfileid: "2769982"
 ### <a name="purchase-by-vendor-report-page"></a>การซื้อโดยเรียงตามหน้ารายงานของผู้จัดจำหน่าย
 **แผนภูมิ**
 - ผู้จัดจำหน่าย 10 อันดับแรกโดยเรียงตามการซื้อ (แผนภูมิแท่งแบบเรียงซ้อน)
-- ยอดรวมการซื้อโดยเรียงตามกลุ่มผู้จัดจำหน่าย/ ประเทศ / ชื่อ (แผนภูมิวงกลม)
-- การซื้อโดยเรียงตามกลุ่มผู้จัดจำหน่าย/ ประเทศ / ชื่อ (แผนภูมิคอลัมน์)
-- การซื้อเฉลี่ยโดยเรียงตามกลุ่มผู้จัดจำหน่าย/ ประเทศ / ชื่อ (แผนภูมิคอลัมน์)
+- ยอดรวมการซื้อโดยเรียงตามกลุ่มผู้จัดจำหน่าย / ประเทศ / ชื่อ (แผนภูมิวงกลม)
+- การซื้อโดยเรียงตามกลุ่มผู้จัดจำหน่าย / ประเทศ / ชื่อ (แผนภูมิคอลัมน์)
+- การซื้อเฉลี่ยโดยเรียงตามกลุ่มผู้จัดจำหน่าย / ประเทศ / ชื่อ (แผนภูมิคอลัมน์)
 
 **ไทล์**
 - การซื้อรวม

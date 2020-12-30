@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d4ea1d81b0e4f92974ceb7d46386c9d9f6e48979
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249014"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683419"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
@@ -28,7 +27,7 @@ ms.locfileid: "2249014"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของ **การอนุมัติใบแจ้งหนี้** แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย 
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -63,7 +62,7 @@ ms.locfileid: "2249014"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Finance and Operations
+ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

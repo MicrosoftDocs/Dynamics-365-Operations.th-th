@@ -3,7 +3,7 @@ title: ชนิดของปลายทาง ER ที่เก็บถา
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกปลายทางของที่เก็บถาวรสำหรับแต่ละโฟลเดอร์หรือส่วนประกอบของไฟล์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,27 +11,26 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8797a68507a5116c6adbf1f2d805838fa507958c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745596"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679689"
 ---
-# <a name="archive-destination"></a>ปลายทางที่เก็บถาวร
+# <a name="archive-er-destination-type"></a>ชนิดของปลายทาง ER ที่เก็บถาวร
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถตั้งค่าคอนฟิกปลายทางที่เก็บถาวรของไฟล์สำหรับแต่ละโฟลเดอร์หรือส่วนประกอบของไฟล์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก เอกสารที่สร้างขึ้นจะถูกจัดเก็บเป็นเอกสารแนบของเรกคอร์ดของรายการงาน ER โดยยึดตามการตั้งค่าปลายทาง
+คุณสามารถตั้งค่าคอนฟิกปลายทางที่เก็บถาวรของไฟล์สำหรับแต่ละ **โฟลเดอร์** หรือส่วนประกอบของ **ไฟล์** ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก เอกสารที่สร้างขึ้นจะถูกจัดเก็บเป็นเอกสารแนบของเรกคอร์ดของรายการงาน ER โดยยึดตามการตั้งค่าปลายทาง หากต้องการดูผลลัพธ์ ไปที่ **การจัดการองค์กร** \> **การรายงานทางอิเล็กทรอนิกส์** \> **งานของการรายงานทางอิเล็กทรอนิกส์**
 
-คุณสามารถใช้ตัวเลือกนี้เพื่อส่งเอกสารที่สร้างขึ้นไปยังโฟลเดอร์ Microsoft SharePoint หรือที่จัดเก็บ Microsoft Azure ตั้งค่า **เปิดใช้งานอยู่** เป็น **ใช่**เพื่อส่งเอาท์พุทไปยังปลายทางที่กำหนดโดยชนิดเอกสารที่เลือก สามารถเลือกได้เฉพาะชนิดเอกสารที่กลุ่มที่ถูกตั้งค่าเป็น **ไฟล์** คุณกำหนด [ชนิด](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) เอกสารได้ที่ **การจัดการองค์กร** \> **การจัดการเอกสาร** \> **ชนิดเอกสาร** การตั้งค่าคอนฟิกปลายทาง ER เหมือนกับการตั้งค่าคอนฟิกระบบการจัดการเอกสาร
+คุณสามารถใช้ตัวเลือกนี้เพื่อส่งเอกสารที่สร้างขึ้นไปยังโฟลเดอร์ Microsoft SharePoint หรือที่จัดเก็บ Microsoft Azure ตั้งค่า **เปิดใช้งานอยู่** เป็น **ใช่** เพื่อส่งเอาท์พุทไปยังปลายทางที่กำหนดโดยชนิดเอกสารที่เลือก สามารถเลือกได้เฉพาะชนิดเอกสารที่กลุ่มที่ถูกตั้งค่าเป็น **ไฟล์** คุณกำหนด [ชนิด](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) เอกสารได้ที่ **การจัดการองค์กร** \> **การจัดการเอกสาร** \> **ชนิดเอกสาร** การตั้งค่าคอนฟิกปลายทาง ER เหมือนกับการตั้งค่าคอนฟิกระบบการจัดการเอกสาร
 
 [![หน้าชนิดเอกสาร](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
@@ -50,7 +49,10 @@ ms.locfileid: "3745596"
 
 เมื่อตำแหน่งที่ตั้งชนิดเอกสารถูกตั้งค่าเป็น **ที่เก็บข้อมูล Azure** คุณสามารถบันทึกไฟล์ไปยังที่เก็บข้อมูล Azure ได้
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+> [!NOTE] 
+> กรอบงาน ER จัดเก็บไฟล์ใน Azure Blob จัดเก็บไฟล์อย่างถาวรซึ่งแตกต่างจากกรอบงานการจัดการข้อมูลที่ใช้นโยบายการเก็บข้อมูลแบบเจ็ดวันสำหรับเอกสารที่ต้องมีการประมวลผล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [API สำหรับการรับสถานะข้อความ](../data-entities/recurring-integrations.md#api-for-getting-message-status) และ [API การตรวจสอบสถานะ](../data-entities/data-management-api.md#status-check-api) ไฟล์ที่เกี่ยวข้องกับ ER จะถูกจัดเก็บไว้ในที่จัดเก็บ Blob Azure เป็นเอกสารแนบของเรกคอร์ดตารางของโปรแกรมประยุกต์ตราบใดที่จำเป็น ไฟล์เดียวจะถูกลบออกจากพื้นที่จัดเก็บ Blob Azure พร้อมกับเรกคอร์ดตารางของโปรแกรมประยุกต์ที่ไฟล์นี้แนบอยู่
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
