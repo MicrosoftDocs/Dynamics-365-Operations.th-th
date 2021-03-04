@@ -96,3 +96,6 @@ ms.locfileid: "4416237"
 
 [ภาพรวมของรถเข็นและหน้าเช็คเอาท์](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

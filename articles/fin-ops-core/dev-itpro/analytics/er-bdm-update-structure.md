@@ -106,3 +106,6 @@ ms.locfileid: "4681339"
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 [ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

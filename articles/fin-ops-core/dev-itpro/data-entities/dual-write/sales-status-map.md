@@ -150,3 +150,6 @@ ms.locfileid: "4457809"
     ![การเปลี่ยนค่าของฟิลด์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
 
 ขณะนี้มีการแม็ปใบสั่งขายของคุณ
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

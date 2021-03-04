@@ -49,3 +49,6 @@ ms.locfileid: "4527728"
 **วิธีแก้ปัญหาระยะยาว**
 
 ตัวเลือก Power BI เพิ่มเติมจะพร้อมใช้งาน และข้อมูลและเอนทิตีเพิ่มเติมจะเป็นส่วนหนึ่งของ Common Data Service
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

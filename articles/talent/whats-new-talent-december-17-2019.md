@@ -56,3 +56,6 @@ ms.locfileid: "4462661"
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>รายงานยอดดุลปัจจุบันที่เหลือ PBI ทำให้ยอดดุลของพนักงานเป็นสองเท่า (385581)
 
 การเปลี่ยนแปลงนี้แก้ไขรายงานยอดดุลปัจจุบันในสถานการณ์นี้
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

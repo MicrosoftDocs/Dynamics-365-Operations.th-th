@@ -70,3 +70,6 @@ ms.locfileid: "4462749"
 #### <a name="platform-update-29-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations
 
 สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการอัพเดตแพลตฟอร์ม 29 สำหรับ Finance and Operations ดูที่ [คุณลักษณะการแสดงตัวอย่างใน Dynamics 365 Finance and Operations การอัพเดตแพลตฟอร์ม 29 (ตุลาคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

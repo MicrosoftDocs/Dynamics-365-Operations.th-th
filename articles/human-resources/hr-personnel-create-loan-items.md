@@ -59,3 +59,6 @@ ms.locfileid: "4420759"
 14. คลิก ตกลง
 15. รีเฟรชหน้า
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

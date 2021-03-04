@@ -671,3 +671,6 @@ ms.locfileid: "4683033"
 - [ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก](er-download-configurations-global-repo.md)
 - [สร้างใบแจ้งหนี้ข้อความอิสระ](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

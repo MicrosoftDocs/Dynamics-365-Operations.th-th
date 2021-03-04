@@ -54,3 +54,6 @@ ms.locfileid: "4438343"
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก คลิกลิงค์สำหรับ StaticPlan  คุณจำเป็นต้องอยู่ในบริษัท USMF  
 3. คลิก **แผนการใบสั่ง**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

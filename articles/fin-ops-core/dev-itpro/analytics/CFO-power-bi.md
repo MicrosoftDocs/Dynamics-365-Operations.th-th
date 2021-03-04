@@ -43,3 +43,6 @@ ms.locfileid: "4688160"
 | [การขายและความสามารถในการทำกำไร](sales-profitability-performance-content-pack.md) | <ul><li>รายได้โดยเรียงตามภูมิภาค</li><li>ลูกค้า 10 อันดับแรกโดยเรียงตามรายได้</li><li>ผลิตภัณฑ์ 10 อันดับแรกโดยเรียงตามรายได้</li></ul> |
 | [การจัดการสินเชื่อและการเรียกเก็บเงิน](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>เลยกำหนดชำระของลูกค้า</li><li>เกินวงเงินสินเชื่อของลูกค้า</li><li>ยอดดุลตามอายุหนี้</li></ul> |
 | [การวิเคราะห์การซื้อและการใช้จ่าย](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>การซื้อโดยเรียงตามเดือน/วันที่</li><li>ผู้จัดจำหน่ายที่มียอดสูงสุด 10 อันดับแรกโดยเรียงตามยอดซื้อ</li><li>ผลิตภัณฑ์ที่มียอดสูงสุด 10 อันดับแรก โดยเรียงตามยอดซื้อ</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

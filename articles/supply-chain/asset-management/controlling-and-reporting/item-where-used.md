@@ -71,3 +71,6 @@ ms.locfileid: "4438380"
 
 ![ตัวอย่างของสินค้าที่ใช้การคำนวณ](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

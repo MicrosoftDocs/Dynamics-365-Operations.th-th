@@ -207,3 +207,6 @@ ms.locfileid: "4682858"
 
 - [ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน](er-trace-reports-compare-baseline.md)
 - [ทรัพยากรตัวบันทึกงาน](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

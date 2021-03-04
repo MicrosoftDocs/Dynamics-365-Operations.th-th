@@ -39,3 +39,6 @@ ms.locfileid: "4438477"
 8. ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า
 9. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ ms.locfileid: "4438261"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ข้อตกลงการซื้อ](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

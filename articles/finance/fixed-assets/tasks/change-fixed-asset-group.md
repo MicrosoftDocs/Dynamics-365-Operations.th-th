@@ -46,3 +46,6 @@ ms.locfileid: "4448265"
 6. คลิก ตกลง
 7. คลิก ใช่
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

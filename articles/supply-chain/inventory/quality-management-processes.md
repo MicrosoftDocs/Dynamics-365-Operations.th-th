@@ -101,3 +101,6 @@ ms.locfileid: "4438758"
 [ตั้งค่าใบสั่งตรวจสอบคุณภาพ](tasks/set-up-quality-orders.md)
 
 [ตรวจสอบคุณภาพของสินค้า](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

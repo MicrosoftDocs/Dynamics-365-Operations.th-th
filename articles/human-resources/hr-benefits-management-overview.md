@@ -97,3 +97,6 @@ ms.locfileid: "4420728"
 - [ประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต](hr-benefits-process-life-event-eligibility.md)
 - [การเปลี่ยนแปลงอัตราของกระบวนการ](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

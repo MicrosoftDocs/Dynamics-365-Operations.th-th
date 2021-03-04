@@ -88,3 +88,6 @@ BOM แสดงส่วนประกอบตัวจัดโครงแ�
 7.  [สร้างกฏการปรับเปลี่ยน](tasks/create-configuration-rules.md)
 8.  [สร้างการจัดโครงแบบตามมิติ](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

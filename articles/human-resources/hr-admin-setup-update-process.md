@@ -105,3 +105,6 @@ Microsoft Dynamics 365 Human Resources เป็นซอฟต์แวร์�
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
 [นโยบายวงจรการใช้งานซอฟต์แวร์](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

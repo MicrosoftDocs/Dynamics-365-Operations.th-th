@@ -59,3 +59,6 @@ ms.locfileid: "4416187"
 24. คลิกแท็บกฎราคาประเภท
     * ประเภทกฎการกำหนดราคาของช่องทางเฉพาะจะแสดงในรายการนี้  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ ms.locfileid: "4512222"
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

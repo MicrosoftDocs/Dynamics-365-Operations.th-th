@@ -117,3 +117,6 @@ LinkedIn ประมวลผลประกาศงานในชุดง�
 [จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

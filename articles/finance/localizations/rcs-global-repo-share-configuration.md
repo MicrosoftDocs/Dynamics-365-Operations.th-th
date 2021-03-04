@@ -75,3 +75,6 @@ ms.locfileid: "4448471"
 ![การตั้งค่าคอนฟิกที่ใช้ร่วมกันกับองค์กรภายนอก](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. เมื่อต้องการยกเลิกการใช้ร่วมกันของการตั้งค่าคอนฟิกร่วมกับองค์กรภายนอกก่อนหน้านี้ โปรดเลือกการตั้งค่าคอนฟิก แล้วคลิก **ยกเลิกการใช้ร่วมกัน** แล้วเลือก **ตกลง**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

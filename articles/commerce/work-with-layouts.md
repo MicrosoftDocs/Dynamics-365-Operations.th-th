@@ -109,3 +109,6 @@ ms.locfileid: "4416147"
 [ภาพรวมของเท็มเพลตและเค้าโครง](templates-layouts-overview.md)
 
 [ใช้งานเท็มเพลต](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

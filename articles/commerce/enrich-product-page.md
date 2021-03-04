@@ -73,3 +73,6 @@ ms.locfileid: "4416053"
 [ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์](enrich-category-page.md)
 
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

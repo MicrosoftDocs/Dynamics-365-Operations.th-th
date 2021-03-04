@@ -109,3 +109,6 @@ ms.locfileid: "4416000"
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

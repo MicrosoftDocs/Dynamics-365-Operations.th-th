@@ -42,3 +42,6 @@ ms.locfileid: "4438594"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด**
 
 ![หน้ารายการคำขอการบำรุงรักษาทั้งหมด](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

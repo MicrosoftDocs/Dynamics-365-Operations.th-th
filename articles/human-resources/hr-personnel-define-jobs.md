@@ -71,3 +71,6 @@ ms.locfileid: "4420783"
 33. สลับการขยายของส่วนการศึกษา
 34. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

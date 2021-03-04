@@ -55,3 +55,6 @@ ms.locfileid: "4416168"
 1. คลิกที่เผยแพร่ข้อมูล
 2. คลิก ใช่
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

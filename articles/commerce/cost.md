@@ -171,3 +171,6 @@ ms.locfileid: "5001060"
 
 > [!IMPORTANT]
 > สำหรับ DOM ที่จะพิจารณาต้นทุนเหล่านี้เมื่อดำเนินการ คุณต้องเพิ่มตัวแปรต้นทุนลงในโพรไฟล์การเติมสินค้า
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

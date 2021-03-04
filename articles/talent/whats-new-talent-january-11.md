@@ -67,3 +67,6 @@ ms.locfileid: "4462728"
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>รหัสเหตุผลการสิ้นสุดการจ้างจะปรับปรุงเรกคอร์ดการมอบหมายตำแหน่ง
 ในตอนนี้รหัสเหตุผลการสิ้นสุดการจ้างจะปรับปรุงการมอบหมายตำแหน่งงานขณะเลิกว่าจ้างพนักงานและสิ้นสุดตำแหน่ง 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -301,3 +301,6 @@ ms.locfileid: "4448575"
 -  [มิติองค์ประกอบต้นทุน](cost-elements.md)
 -  [ลำดับชั้นของมิติ](dimension-hierarchy.md)
 -  [การคำนวณค่าโสหุ้ย](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

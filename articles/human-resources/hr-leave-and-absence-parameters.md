@@ -92,3 +92,6 @@ ms.locfileid: "4420853"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

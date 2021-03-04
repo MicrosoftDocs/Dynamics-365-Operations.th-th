@@ -35,3 +35,6 @@ ms.locfileid: "4685180"
 3. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 4. คลิก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

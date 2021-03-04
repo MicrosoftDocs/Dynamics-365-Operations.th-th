@@ -246,3 +246,6 @@ ms.locfileid: "4462664"
 
 [ดูและประเมินผลลัพธ์ของแบบสอบถาม](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

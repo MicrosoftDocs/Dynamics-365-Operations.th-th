@@ -77,3 +77,6 @@ ms.locfileid: "4665407"
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ NUMBERVALUE (text, decimal separator, digit grouping separator)
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันการแปลงของชนิด](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1233,3 +1233,6 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 - [ฟังก์ชัน IF](er-functions-logical-if.md)
 - [ฟังก์ชัน ORDERBY](er-functions-list-orderby.md)
 - [ฟังก์ชัน SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

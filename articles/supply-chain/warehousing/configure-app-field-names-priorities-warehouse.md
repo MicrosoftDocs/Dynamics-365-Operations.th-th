@@ -144,3 +144,6 @@ ms.locfileid: "4438406"
 --------
 
 [ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

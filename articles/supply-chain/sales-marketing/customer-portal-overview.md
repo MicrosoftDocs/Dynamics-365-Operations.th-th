@@ -69,3 +69,6 @@ ms.locfileid: "4529589"
 ![ความเชื่อมโยงของพอร์ทัลลูกค้า](media/customer-portal-elements.png "ความเชื่อมโยงของพอร์ทัลลูกค้า")
 
 พอร์ทัลลูกค้าทำหน้าที่เป็นจุดเริ่มต้นสำหรับองค์กรที่ต้องการใช้พอร์ทัล Power Apps เพื่อสร้างเว็บไซต์ที่เชื่อมต่อกับภายนอก ซึ่งใช้ข้อมูลจากการติดตั้ง Supply Chain Management โดยจะช่วยให้องค์กรเชื่อมโยง การรวมแบบสองทิศทาง Supply Chain Management และพอร์ทัล Power Apps
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

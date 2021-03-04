@@ -47,3 +47,6 @@ ms.locfileid: "4420709"
 - กระบวนการ:
 
     - [ประมวลผลค่าตอบแทน](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

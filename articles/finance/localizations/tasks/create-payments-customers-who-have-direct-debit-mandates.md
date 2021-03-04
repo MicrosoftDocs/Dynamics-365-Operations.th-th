@@ -68,3 +68,6 @@ ms.locfileid: "4448509"
 11. คลิก ตกลง 
 12. คลิก ตกลง 
 13. คลิกสร้างการชำระเงิน
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

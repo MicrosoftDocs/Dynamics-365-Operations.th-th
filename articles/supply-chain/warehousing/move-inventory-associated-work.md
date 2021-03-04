@@ -59,3 +59,6 @@ ms.locfileid: "4438447"
 คุณลักษณะนี้ยังได้ถูกส่งกลับไปยัง Microsoft Dynamics AX 2012 R3 และจะพร้อมใช้งานเป็นส่วนหนึ่งของ CU12
 และยังสามารถดาวน์โหลดทีละรายการโดยใช้หมายเลข KB 3192548 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

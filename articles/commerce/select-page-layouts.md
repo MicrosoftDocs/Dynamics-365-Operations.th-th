@@ -78,3 +78,6 @@ ms.locfileid: "4416252"
 
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

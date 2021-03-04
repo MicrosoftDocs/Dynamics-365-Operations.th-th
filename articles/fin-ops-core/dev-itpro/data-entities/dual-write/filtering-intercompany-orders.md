@@ -65,3 +65,6 @@ ms.locfileid: "4701044"
 7. หลังจากที่คุณขยายใช้เอนทิตี **ใบเสนอราคา** แล้ว ให้ใช้ตัวกรองข้อมูลกับ `CUSTGROUP !=  "<company>"` เป็นสตริงการสอบถาม
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="หัวข้อของใบเสนอราคาขาย แก้ไขการสอบถาม":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

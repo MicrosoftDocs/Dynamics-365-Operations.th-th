@@ -91,3 +91,6 @@ ms.locfileid: "4681826"
 26. คลิกเสร็จสมบูรณ์
 27. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

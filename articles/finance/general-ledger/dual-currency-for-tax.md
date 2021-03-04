@@ -145,3 +145,6 @@ ms.locfileid: "4448368"
 - [สกุลเงินแบบคู่](dual-currency.md)
 - [ภาพรวมของภาษีขาย](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

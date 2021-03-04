@@ -82,3 +82,6 @@ ms.locfileid: "4665431"
 [จัดการ Bing Maps สำหรับองค์กรของคุณ](./dev-itpro/manage-bing-maps.md)
 
 [การควบคุมเว็บของ Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

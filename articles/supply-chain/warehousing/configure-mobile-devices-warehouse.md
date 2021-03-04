@@ -439,3 +439,6 @@ ms.locfileid: "4438848"
 [สถานะสินค้าคงคลัง](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

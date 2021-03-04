@@ -81,3 +81,6 @@ ms.locfileid: "4529517"
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>คลังสินค้า (Supply Chain Management ไปยัง Field Service): คลังสินค้า
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

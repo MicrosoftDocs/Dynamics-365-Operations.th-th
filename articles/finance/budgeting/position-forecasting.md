@@ -218,3 +218,6 @@ Jodi ไม่ต้องการให้ผู้จัดการเปล
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

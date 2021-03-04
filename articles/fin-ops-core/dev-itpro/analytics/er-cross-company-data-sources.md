@@ -76,3 +76,6 @@ FILTER (MyTable,
 
 - [การตั้งค่าคอนฟิกแบบจำลอง ER - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [การตั้งค่าคอนฟิกรูปแบบ ER - CrossCompanyDataAccessFormat](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

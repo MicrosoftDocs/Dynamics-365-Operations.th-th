@@ -73,3 +73,6 @@ Dynamics 365 Commerce รองรับตัวแปรต่าง ๆ ส�
 [ตั้งค่าผลิตภัณฑ์ขายปลีก](set-up-retail-products.md)
 
 [มิติของผลิตภัณฑ์](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

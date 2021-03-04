@@ -59,3 +59,6 @@ ms.locfileid: "4438453"
 [ดูประวัติการวางแผนและล็อกการวางแผน](plan-history-logs.md)
 
 [ยกเลิกงานการวางแผน](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

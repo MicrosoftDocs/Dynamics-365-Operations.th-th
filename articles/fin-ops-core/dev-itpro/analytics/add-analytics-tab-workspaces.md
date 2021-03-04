@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างตัวกรอง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่     |
 | showNavPane      | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างนำทาง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่ |
 | defaultFilters   | ตัวกรองเริ่มต้นสำหรับรายงาน Power BI                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

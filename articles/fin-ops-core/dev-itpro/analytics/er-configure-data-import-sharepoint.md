@@ -206,3 +206,6 @@ ms.locfileid: "4680913"
 
 [การเปลี่ยนแปลง API กรอบงาน ER สำหรับ Application update 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

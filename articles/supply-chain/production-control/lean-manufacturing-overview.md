@@ -83,3 +83,6 @@ Lean manufacturing แสดงการมองเห็นของสถา�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

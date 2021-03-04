@@ -107,3 +107,6 @@ ms.locfileid: "4438771"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [จัดการหน่วยวัด](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

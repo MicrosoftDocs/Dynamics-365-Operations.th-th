@@ -60,3 +60,6 @@ ms.locfileid: "4448332"
     * ตัวอย่างเช่น เลือกบัญชีธนาคาร "DEMF OPER"  
 6. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

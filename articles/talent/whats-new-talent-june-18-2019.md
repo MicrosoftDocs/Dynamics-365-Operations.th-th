@@ -86,3 +86,6 @@ ms.locfileid: "4528086"
 ### <a name="print-performance-reviews"></a>พิมพ์การตรวจทานประสิทธิภาพ
 
 พนักงาน ผู้จัดการ และ HR จะสามารถพิมพ์การตรวจทานประสิทธิภาพของพนักงาน
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

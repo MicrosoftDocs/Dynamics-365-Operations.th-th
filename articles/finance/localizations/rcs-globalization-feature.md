@@ -252,3 +252,6 @@ ms.locfileid: "4448319"
 10. เลือก **เผยแพร่** เพื่อเผยแพร่สภาพแวดล้อม
 
     ![สภาพแวดล้อมที่เผยแพร่](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

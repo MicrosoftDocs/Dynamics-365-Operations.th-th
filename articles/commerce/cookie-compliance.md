@@ -73,3 +73,6 @@ ms.locfileid: "4416029"
 [โมดูลการยินยอมใช้คุกกี้](cookie-consent-module.md) 
  
 [โมดูลส่วนหัว](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

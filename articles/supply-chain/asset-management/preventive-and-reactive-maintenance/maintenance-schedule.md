@@ -68,3 +68,6 @@ ms.locfileid: "4438514"
 
 ![รูปที่ 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

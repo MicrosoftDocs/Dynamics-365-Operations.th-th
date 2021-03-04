@@ -45,3 +45,6 @@ ms.locfileid: "4416270"
 แผนภาพด้านล่างจะแสดงสถานะทั้งสองชุด และวิธีที่เกี่ยวข้องกับแต่ละชุด
 
 [ ![สถานะการทดสอบ](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4438599"
 >[!NOTE]
 >นอกจากนี้คุณยังสามารถสร้าง [รายงานใบสั่งงาน](../work-orders/work-order-report.md) ซึ่งประกอบด้วยรายละเอียดของใบสั่งงานเพิ่มเติม
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

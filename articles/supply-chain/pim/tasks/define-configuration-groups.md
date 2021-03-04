@@ -40,3 +40,6 @@ ms.locfileid: "4438471"
 7. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
 8. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

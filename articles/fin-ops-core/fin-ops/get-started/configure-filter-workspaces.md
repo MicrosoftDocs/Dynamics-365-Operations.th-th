@@ -63,3 +63,6 @@ ms.locfileid: "4694530"
 [![ตัวกรองพื้นที่ทำงานตามส่วน](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 จากตัวกรองทั้งพื้นที่ทำงาน ให้เลือกหรือป้อนค่าตัวกรองที่ต้องการเพื่อจำกัดการแสดงเนื้อหาของส่วน
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ ROUNDAMOUNT (number, decimals, round rule)
 [ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)](er-functions-category-other.md)
 
 [ฟังก์ชันคณิตศาสตร์](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

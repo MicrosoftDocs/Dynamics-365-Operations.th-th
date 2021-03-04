@@ -55,3 +55,6 @@ ms.locfileid: "4679851"
 4. เลือก **นำเข้าผู้ใช้**
 5. เลือก **ปิด**
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

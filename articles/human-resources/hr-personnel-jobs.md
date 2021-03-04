@@ -87,3 +87,6 @@ ms.locfileid: "4420753"
 
 ## <a name="steps-for-creating-a-job"></a>ขั้นตอนสำหรับการสร้างงาน
 อ้างอิงถึงบทความ [กำหนดงานใหม่](../fin-and-ops/hr/tasks/define-new-jobs.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างงานใหม่ 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ ms.locfileid: "4438279"
 #### <a name="blogs"></a>บล็อก
 
 คุณสามารถค้นหาภาพรวมของกระบวนการขายในโพสต์ [วิธีการที่การขายทำงานใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

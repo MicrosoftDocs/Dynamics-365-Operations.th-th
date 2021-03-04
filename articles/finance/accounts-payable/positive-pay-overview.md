@@ -49,3 +49,6 @@ Positive pay ถูกเรียกอีกอย่างว่า SafePay
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

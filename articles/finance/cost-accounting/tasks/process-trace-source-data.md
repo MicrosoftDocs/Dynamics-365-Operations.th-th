@@ -45,3 +45,6 @@ ms.locfileid: "4448542"
     * สำหรับตัวอย่างนี้ เลือก ทางการเงิน 2017 รอบระยะเวลา 9  
 14. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

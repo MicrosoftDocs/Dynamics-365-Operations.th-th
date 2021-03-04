@@ -49,3 +49,6 @@ ms.locfileid: "4420816"
 - [ตั้งค่าคอนฟิกชนิดการลางานและการขาดงาน](hr-leave-and-absence-types.md)
 - [การรับรู้แผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

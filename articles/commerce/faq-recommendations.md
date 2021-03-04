@@ -100,3 +100,6 @@ ms.locfileid: "4416019"
 [สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
 
 [สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

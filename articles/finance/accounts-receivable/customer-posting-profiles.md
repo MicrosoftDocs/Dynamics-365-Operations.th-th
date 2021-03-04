@@ -140,3 +140,6 @@ ms.locfileid: "4448273"
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ภาพรวมการชำระเงินของลูกค้า](../cash-bank-management/tasks/customer-payment-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

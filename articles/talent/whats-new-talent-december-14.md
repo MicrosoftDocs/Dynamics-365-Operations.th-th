@@ -151,3 +151,6 @@ ms.locfileid: "4529767"
 ![ผู้ปฏิบัติงานไปยังงานของผู้ปฏิบัติงาน](./media/WorkerMapping.png)
 
 ![การแปลงฟิลด์เพศ](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

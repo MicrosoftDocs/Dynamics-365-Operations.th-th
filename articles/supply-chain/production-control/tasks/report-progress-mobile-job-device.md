@@ -65,3 +65,6 @@ ms.locfileid: "4438467"
 29. คลิก ตกลง
 30. เลือกเหตุผลที่คุณจะตอกบัตรออกก่อนเวลา
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

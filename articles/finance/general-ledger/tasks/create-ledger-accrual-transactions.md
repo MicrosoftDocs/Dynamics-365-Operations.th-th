@@ -49,3 +49,6 @@ ms.locfileid: "4448315"
 17. คลิก ตกลง
 18. คลิก ลงรายการบัญชี
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

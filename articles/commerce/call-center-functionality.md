@@ -69,3 +69,6 @@ ms.locfileid: "4416275"
 ## <a name="configure-continuity-programs"></a>ตั้งค่าคอนฟิกโปรแกรมความต่อเนื่อง
 
 [ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

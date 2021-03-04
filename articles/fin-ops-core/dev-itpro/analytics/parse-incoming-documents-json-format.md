@@ -50,3 +50,6 @@ ms.locfileid: "4685774"
 | ตำแหน่ง                  | ชื่อไฟล์ |
 |------------------------|-----------|
 | การตั้งค่าคอนฟิกแบบจำลอง ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

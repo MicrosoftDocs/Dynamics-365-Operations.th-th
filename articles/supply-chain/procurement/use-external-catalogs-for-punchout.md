@@ -55,3 +55,5 @@ ms.locfileid: "4438905"
 
 - [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [การปรับปรุง cXML การสั่งซื้อ](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4448544"
 14. ในฟิลด์ ชั้นของการลงรายการบัญชี เลือกปัจจุบัน
 15. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

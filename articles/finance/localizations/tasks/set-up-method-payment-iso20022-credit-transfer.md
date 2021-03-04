@@ -48,3 +48,6 @@ ms.locfileid: "4448257"
 10. ในฟิลด์บัญชีการชำระเงิน ให้ระบุค่า 'DEMF OPER'
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4438739"
 9. คลิก **ใบสั่งขายที่จัดส่งสินค้าแล้ว**
 10. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

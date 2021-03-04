@@ -39,3 +39,6 @@ ms.locfileid: "4420740"
 3. เลือก **บันทึก**
 
 ![พารามิเตอร์สมุดที่อยู่สากล](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

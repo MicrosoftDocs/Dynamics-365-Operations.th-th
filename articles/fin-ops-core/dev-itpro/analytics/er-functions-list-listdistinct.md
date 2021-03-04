@@ -97,3 +97,6 @@ LISTDISTINCT (list, selector)
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันรายการ](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

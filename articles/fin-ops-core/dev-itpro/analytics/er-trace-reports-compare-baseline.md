@@ -243,3 +243,6 @@ ms.locfileid: "4682834"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 - [ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

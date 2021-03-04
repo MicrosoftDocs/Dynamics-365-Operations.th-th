@@ -65,3 +65,6 @@ ms.locfileid: "4682080"
     * การแม็ปตัวอย่างอินทราสแทต  
 5. คลิก สร้างการตั้งค่าคอนฟิก
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

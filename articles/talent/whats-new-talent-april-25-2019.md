@@ -80,3 +80,6 @@ ms.locfileid: "4527204"
 
 ### <a name="email-support-for-alerts"></a>การสนับสนุนอีเมลสำหรับข้อความแจ้งเตือน
 ด้วย Platform update 26 สำหรับ Finance and Operations ผู้ใช้สามารถสร้างกฎการแจ้งเตือนที่จัดส่งการแจ้งเตือนทางอีเมลโดยอัตโนมัติไปยังผู้ติดต่อที่ถูกทริกเกอร์โดยเหตุการณ์
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

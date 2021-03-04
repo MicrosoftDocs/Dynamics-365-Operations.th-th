@@ -44,3 +44,6 @@ ms.locfileid: "4438191"
 3. ในฟิลด์ค่า ให้พิมพ์ค่าใดค่าหนึ่ง 
 4. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

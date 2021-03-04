@@ -69,3 +69,6 @@ ms.locfileid: "4438695"
 5. เลือกลูกศรที่ชี้ไปทางขวา
 6. เลือก **บันทึก**
 7. ปิดหน้า
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

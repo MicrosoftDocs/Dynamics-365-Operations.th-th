@@ -180,3 +180,6 @@ Microsoft Dynamics 365 Human Resources ใช้ Common Data Service เพื�
 
 [เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)</br>
 [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

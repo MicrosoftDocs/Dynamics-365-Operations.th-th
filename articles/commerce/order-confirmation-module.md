@@ -87,3 +87,6 @@ ms.locfileid: "4416292"
 [โมดูลข้อมูลการเบิกสินค้า](pickup-info-module.md)
 
 [โมดูลบัตรของขวัญ](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

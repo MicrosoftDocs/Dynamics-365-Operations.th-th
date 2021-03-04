@@ -303,3 +303,6 @@ ms.locfileid: "4681435"
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 - [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)
 - [ฟังก์ชัน NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

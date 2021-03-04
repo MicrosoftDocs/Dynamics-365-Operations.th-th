@@ -175,3 +175,6 @@ ms.locfileid: "4416003"
 [ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni](omni-auto-charges.md)
 
 [เปิดใช้งานและตั้งค่าคอนฟิกค่าธรรมเนียมอัตโนมัติตามช่องทาง](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

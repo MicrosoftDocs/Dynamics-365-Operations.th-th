@@ -35,3 +35,6 @@ ms.locfileid: "4438338"
 3. ในฟิลด์สถานะ ให้พิมพ์ค่าใดค่าหนึ่ง
 4. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

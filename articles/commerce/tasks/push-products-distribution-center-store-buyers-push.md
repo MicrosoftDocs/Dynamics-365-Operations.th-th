@@ -53,3 +53,6 @@ ms.locfileid: "4416163"
 19. คลิกสร้างใบสั่ง
 20. คลิก ใช่
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

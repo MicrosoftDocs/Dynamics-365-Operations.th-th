@@ -111,3 +111,6 @@ ms.locfileid: "4416194"
 [กำหนดรายการงานให้กับร้านค้าหรือพนักงาน](task-mgmt-assign-lists.md)
 
 [การจัดการงานใน POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "4448397"
 18. คลิกขยาย
 19. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

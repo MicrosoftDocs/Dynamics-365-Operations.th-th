@@ -51,3 +51,6 @@ ms.locfileid: "4438566"
 
 [การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

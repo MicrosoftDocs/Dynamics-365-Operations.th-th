@@ -97,3 +97,6 @@ ms.locfileid: "4995553"
 กำหนดการรับรู้รายได้ที่คาดไว้จะถูกลบออกและแทนที่ด้วยกำหนดการรับรู้รายได้ขั้นสุดท้าย รายละเอียดของกำหนดการรายได้จะถูกรักษาไว้สำหรับรายการใบสั่งขายแต่ละรายการ และใช้ในการนำรายได้ที่รอการตัดบัญชีออกไปเป็นรายได้จริง เนื่องจากเป็นไปตามข้อผูกมัดของสัญญา
 
 [![กำหนดการรับรู้รายได้ขั้นสุดท้าย](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

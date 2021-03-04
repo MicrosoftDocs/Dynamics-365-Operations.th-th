@@ -129,3 +129,6 @@ ms.locfileid: "4420826"
 2. คลิกสิ้นสุด
 3. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4438243"
 
 ### <a name="task-guides"></a>คู่มืองาน
 วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

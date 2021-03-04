@@ -170,3 +170,6 @@ ms.locfileid: "4416115"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ใบสั่งของลูกค้าแบบไฮบริด](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

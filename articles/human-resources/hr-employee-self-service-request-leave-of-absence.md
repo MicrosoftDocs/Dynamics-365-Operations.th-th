@@ -53,3 +53,6 @@ ms.locfileid: "4420837"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ระงับการลางาน](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

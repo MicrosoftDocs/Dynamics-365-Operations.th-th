@@ -167,3 +167,6 @@ ms.locfileid: "4693580"
 [การพูดคุยเกี่ยวกับเทคโนโลยี FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) มุ่งเน้นในการให้ความลึกทางเทคนิคและแนวทางปฏิบัติที่ดีที่สุดที่ให้ลูกค้าและคู่ค้ามีความรู้อย่างละเอียดที่เฉพาะเจาะจงต่อพื้นที่ชื่อเรื่อง
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

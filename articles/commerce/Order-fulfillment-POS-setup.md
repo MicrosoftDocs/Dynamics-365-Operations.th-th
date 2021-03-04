@@ -131,3 +131,6 @@ ms.locfileid: "4416035"
 - วันที่สร้าง
 - วันที่จัดส่ง
 - วันที่รับสินค้า
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

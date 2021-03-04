@@ -58,3 +58,6 @@ ms.locfileid: "4438815"
 2. คลิก ใบรับสินค้า
 3. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

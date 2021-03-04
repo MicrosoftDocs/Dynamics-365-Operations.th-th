@@ -66,3 +66,6 @@ ms.locfileid: "4438427"
 7. เลือก **เพิ่มลงในรายการ**
 8. เลือก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

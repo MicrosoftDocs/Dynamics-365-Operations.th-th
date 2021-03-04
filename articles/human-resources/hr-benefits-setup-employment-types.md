@@ -41,3 +41,6 @@ ms.locfileid: "4420723"
    | **คำอธิบาย** | คำอธิบายเกี่ยวกับประเภทการจ้างงาน |
 
 4. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "4438572"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [การสร้างข้อตกลงการให้บริการ](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -247,3 +247,6 @@ Power BI ไม่ได้จัดเตรียมตัวเลือก�
 - [การเข้าถึงพื้นที่ทำงานวิเคราะห์และรายงานเกี่ยวกับสภาพแวดล้อมแบบ 1 กล่อง](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

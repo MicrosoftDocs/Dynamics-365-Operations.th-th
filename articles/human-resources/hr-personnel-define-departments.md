@@ -52,3 +52,6 @@ ms.locfileid: "4420784"
 16. ในฟิลด์อธิบายการเปลี่ยนแปลง ให้พิมพ์ค่า
 17. คลิกที่เผยแพร่ข้อมูล
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

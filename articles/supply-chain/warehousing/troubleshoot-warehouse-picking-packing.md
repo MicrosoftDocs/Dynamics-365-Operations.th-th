@@ -110,3 +110,6 @@ ms.locfileid: "4645488"
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
 เมื่อต้องการแก้ไขปัญหานี้ แก้ไขโพรไฟล์ของคลัสเตอร์ และตั้งค่าตัวเลือก **การเรียกใช้ตำแหน่ง** เป็น *ไม่*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

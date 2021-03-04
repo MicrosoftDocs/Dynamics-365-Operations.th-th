@@ -53,3 +53,6 @@ ms.locfileid: "4594929"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

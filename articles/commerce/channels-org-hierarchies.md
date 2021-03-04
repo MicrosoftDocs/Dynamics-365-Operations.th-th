@@ -88,3 +88,6 @@ ms.locfileid: "4416090"
 [ภาพรวมของช่องทาง](channels-overview.md)
 
 [ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

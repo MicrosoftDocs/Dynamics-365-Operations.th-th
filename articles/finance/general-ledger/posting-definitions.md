@@ -62,3 +62,6 @@ ms.locfileid: "4448434"
 สำหรับข้อมูลเพิ่มเติม ดู [ตัวอย่างข้อกำหนดการลงรายการบัญชี](example-posting-definitions.md) 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ ms.locfileid: "4681696"
 4. คลิกเสร็จสมบูรณ์
 5. คลิก ตกลง 
 ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

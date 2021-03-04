@@ -40,3 +40,6 @@ ms.locfileid: "4438615"
 8. ยกเลิกการเลือกกล่องกาเครื่องหมายตรงตำแหน่ง
 9. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

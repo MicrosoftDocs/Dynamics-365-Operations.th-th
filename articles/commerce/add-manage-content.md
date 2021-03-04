@@ -57,3 +57,6 @@ ms.locfileid: "4416076"
 [สถานะและระยะเวลาใช้งานของเอกสาร](document-states-overview.md)
 
 [เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

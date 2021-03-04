@@ -109,3 +109,6 @@ ms.locfileid: "4438222"
 ### <a name="calculate-and-approve-absence"></a>คำนวณ และอนุมัติการขาดงาน
 
 - เลือก **เวลา การเข้างาน** &gt; **ตรวจทาน และอนุมัติ** &gt; **อนุมัติหรือคำนวณ**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

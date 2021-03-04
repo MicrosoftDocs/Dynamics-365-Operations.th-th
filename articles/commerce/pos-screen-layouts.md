@@ -205,3 +205,6 @@ ms.locfileid: "4416261"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

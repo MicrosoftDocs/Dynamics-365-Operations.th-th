@@ -115,3 +115,6 @@ ms.locfileid: "4416087"
 [สร้างนิติบุคคล](channels-legal-entities.md)
 
 [สร้างกลุ่มตัวแปร](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

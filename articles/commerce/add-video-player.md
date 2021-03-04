@@ -106,3 +106,6 @@ ms.locfileid: "4416084"
 [โมดูลบล็อกข้อความ](add-content-rich-block.md)
 
 [โมดูลบล็อกเนื้อหา](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

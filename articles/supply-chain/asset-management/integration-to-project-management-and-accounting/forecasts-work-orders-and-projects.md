@@ -101,3 +101,6 @@ ms.locfileid: "4438371"
 
 ![รูปที่ 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

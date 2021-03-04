@@ -110,3 +110,6 @@ ms.locfileid: "4438908"
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
 ทั้งนี้ขึ้นอยู่กับการตั้งค่าพารามิเตอร์สำหรับใบแจ้งหนี้และกลุ่มใบแจ้งหนี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่การลงรายการบัญชีบล็อกต่อไปนี้: [การลงบัญชีสำหรับค่าธรรมเนียมการซื้อและการเปลี่ยนแปลงสินค้าคงคลัง](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

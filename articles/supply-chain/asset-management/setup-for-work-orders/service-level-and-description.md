@@ -56,3 +56,6 @@ ms.locfileid: "4438534"
 2. เลือก **ใหม่**
 3. ในฟิลด์ **คำอธิบาย** ป้อนคำอธิบาย
 4. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

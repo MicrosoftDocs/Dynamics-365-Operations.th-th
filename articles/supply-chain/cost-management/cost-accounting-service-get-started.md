@@ -111,3 +111,6 @@ ms.locfileid: "4438384"
 ## <a name="related-resources"></a>ทรัพยากรที่เกี่ยวข้อง
 
 [โฮมเพจบริการการบัญชีต้นทุน](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

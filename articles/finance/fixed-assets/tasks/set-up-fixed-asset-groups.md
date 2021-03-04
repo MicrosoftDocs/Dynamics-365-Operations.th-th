@@ -39,3 +39,6 @@ ms.locfileid: "4448263"
 8. ในฟิลด์ **แบบแผนการคิดค่าเสื่อมราคา** ให้เลือกหนึ่งตัวเลือก
 9. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

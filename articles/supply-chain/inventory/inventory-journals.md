@@ -117,3 +117,6 @@ ms.locfileid: "4438242"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [เอนทิตี้ข้อมูล](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

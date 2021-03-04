@@ -45,3 +45,6 @@ ms.locfileid: "4683149"
 - [พื้นที่ทำงานการชำระเงินให้แก่ผู้จัดจำหน่าย](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [เนื้อหา Power BI ประสิทธิภาพคลังสินค้า](warehouse-power-bi-content.md)
 - [เนื้อหา Power BI การวัดพนักงาน](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

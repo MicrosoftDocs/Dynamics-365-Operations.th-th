@@ -48,3 +48,6 @@ ms.locfileid: "4416159"
 14. ในฟิลด์น้ำหนัก ป้อนตัวเลข 
 15. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

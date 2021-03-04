@@ -60,3 +60,6 @@ ms.locfileid: "4438270"
 [เท็มเพลตการบริการ](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

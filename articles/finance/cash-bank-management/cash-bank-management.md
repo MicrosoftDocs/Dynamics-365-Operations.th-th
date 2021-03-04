@@ -99,3 +99,6 @@ ms.locfileid: "4985397"
 #### <a name="videos"></a>วิดีโอ
 
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

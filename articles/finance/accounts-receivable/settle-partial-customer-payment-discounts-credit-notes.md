@@ -61,3 +61,6 @@ Fabrikam อนุญาตให้ลูกค้านำส่วนลด�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

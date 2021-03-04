@@ -137,3 +137,6 @@ ms.locfileid: "4416258"
 [สถานะและระยะเวลาใช้งานของเอกสาร](document-states-overview.md)
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

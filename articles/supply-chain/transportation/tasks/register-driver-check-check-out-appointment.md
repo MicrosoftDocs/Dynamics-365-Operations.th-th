@@ -46,3 +46,6 @@ ms.locfileid: "4438856"
 1. คลิก การเช็คเอาท์ของพนักงานขนส่ง
 2. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

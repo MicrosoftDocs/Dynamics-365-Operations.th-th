@@ -82,3 +82,6 @@ ms.locfileid: "4416092"
 [ตั้งค่าช่องทางการขายปลีก](channel-setup-retail.md)
     
 [ตั้งค่าช่องทางออนไลน์](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

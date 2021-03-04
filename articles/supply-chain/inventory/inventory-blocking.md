@@ -70,3 +70,6 @@ ms.locfileid: "4438553"
 [กระบวนการการจัดการคุณภาพ](quality-management-processes.md)
 
 [ตรวจสอบคุณภาพของสินค้า](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

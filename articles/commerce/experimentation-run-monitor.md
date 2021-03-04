@@ -53,3 +53,6 @@ ms.locfileid: "4416273"
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
 [โปรโมทการเปลี่ยนแปลงและทำการทดสอบให้เสร็จสมบูรณ์](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

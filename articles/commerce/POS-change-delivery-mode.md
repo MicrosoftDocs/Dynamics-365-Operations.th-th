@@ -47,3 +47,6 @@ ms.locfileid: "4594148"
 [สร้างใบสั่งของศูนย์บริการ](tasks/create-call-center-orders.md)
 
 [กำหนดอีเมลของธุรกรรมตามวิธีการจัดส่ง](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

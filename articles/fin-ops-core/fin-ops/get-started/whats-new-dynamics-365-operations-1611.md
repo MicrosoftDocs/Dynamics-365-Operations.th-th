@@ -945,3 +945,6 @@ ms.locfileid: "4693442"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

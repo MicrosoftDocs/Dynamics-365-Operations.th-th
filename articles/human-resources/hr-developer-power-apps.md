@@ -60,3 +60,5 @@ ms.locfileid: "4527037"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

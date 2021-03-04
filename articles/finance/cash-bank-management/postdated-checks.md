@@ -99,3 +99,6 @@ Dynamics 365 Finance สนับสนุนวงจรการจัดก�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

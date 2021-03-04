@@ -51,3 +51,6 @@ ms.locfileid: "4448546"
 ## <a name="view-the-imported-cost-centers"></a>ดูศูนย์ต้นทุนที่นำเข้า
 1. คลิก ดูสมาชิกมิติ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

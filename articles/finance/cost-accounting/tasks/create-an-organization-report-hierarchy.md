@@ -95,3 +95,6 @@ ms.locfileid: "4448558"
     * เลือกสมาชิกมิติที่สอดคล้องกับโหนด  
 59. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -211,3 +211,6 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     การซิงโครไนส์เริ่มต้นของแถวเสร็จสมบูรณ์ในขณะนี้
 
 8. ในแอป Finance and Operations เปิดใช้งานการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับเอนทิตี **ลูกค้า V3**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

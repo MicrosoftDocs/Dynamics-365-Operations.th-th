@@ -94,3 +94,6 @@ ms.locfileid: "4682548"
 [สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](./create-rules-optimization-advisor.md)
 
 [ผู้แนะนำการเพิ่มประสิทธิภาพใน Dynamics 365 for Finance and Operations (วิดีโอ)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4416226"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ตั้งค่าบาร์โค้ดมาสก์](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

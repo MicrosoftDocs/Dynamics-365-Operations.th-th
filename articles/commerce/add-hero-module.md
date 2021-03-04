@@ -107,3 +107,6 @@ ms.locfileid: "4416067"
 [โมดูลบล็อกข้อความ](add-content-rich-block.md)
 
 [โมดูลโปรแกรมเล่นวิดีโอ](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

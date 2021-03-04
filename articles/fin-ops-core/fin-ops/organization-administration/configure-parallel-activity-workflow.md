@@ -53,3 +53,6 @@ ms.locfileid: "4693365"
     > ลำดับของสาขาไม่สำคัญ เพราะสาขาทั้งหมดของกิจกรรมคู่ขนานรันพร้อมกัน
 
 3. การตั้งค่าคอนฟิกแต่ละสาขา ดูที่ [ตั้งค่าคอนฟิกสาขาคู่ขนานในเวิร์กโฟลว์](configure-parallel-branch-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

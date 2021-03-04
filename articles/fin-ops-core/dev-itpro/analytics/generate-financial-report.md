@@ -156,3 +156,6 @@ ms.locfileid: "4688328"
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 
 [อินเทอร์เฟสใน Report Designer](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

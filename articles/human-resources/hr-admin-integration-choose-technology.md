@@ -144,3 +144,6 @@ Add-in ของ Excel มีความเหมาะสมสำหรับ
 <sup>2</sup>Microsoft ลงทุนอย่างมากในการเพิ่มความครอบคลุมข้อมูลสำหรับเอนทิตี้ Common Data Service เราขอแนะนำให้ใช้ Common Data Service เมื่อความครอบคลุมพร้อมใช้งาน ปัจจุบัน ความครอบคลุมของข้อมูล Common Data Service นั้นต่ำเมื่อเทียบกับเอนทิตี้ DMF และ OData ที่เปิดใช้งาน
 
 ฐานข้อมูล <sup>3</sup>SQL สามารถเข้าถึงได้ทางโปรแกรม
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

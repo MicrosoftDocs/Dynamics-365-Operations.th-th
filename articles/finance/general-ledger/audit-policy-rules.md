@@ -101,3 +101,6 @@ ms.locfileid: "4448370"
 [กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

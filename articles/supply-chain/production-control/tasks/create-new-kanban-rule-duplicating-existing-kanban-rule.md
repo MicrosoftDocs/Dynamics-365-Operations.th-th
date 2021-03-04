@@ -44,3 +44,6 @@ ms.locfileid: "4438203"
 3. คลิก ตกลง
     * โปรดทราบว่ามีการสร้างซ้ำของกฎคัมบัง 000017    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

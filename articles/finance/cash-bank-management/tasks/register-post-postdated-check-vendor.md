@@ -56,3 +56,6 @@ ms.locfileid: "4448445"
 16. ปิดหน้า
 17. คลิกแท็บเช็คลงวันที่ล่วงหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

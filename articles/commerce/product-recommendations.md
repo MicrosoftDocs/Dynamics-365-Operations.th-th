@@ -88,3 +88,6 @@ Microsoft Dynamics 365 Commerce สามารถใช้แสดงคำแ
 [สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
 
 [FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ ms.locfileid: "5154290"
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 
 สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Supply Chain Management ใน Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

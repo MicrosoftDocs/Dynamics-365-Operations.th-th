@@ -54,3 +54,6 @@ ms.locfileid: "4438474"
 4. ในฟิลด์ เกณฑ์ ให้เลือก 'กลุ่มลูกค้า 10' 
 5. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

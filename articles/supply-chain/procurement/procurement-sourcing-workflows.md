@@ -80,3 +80,6 @@ ms.locfileid: "4654159"
 - [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://www.microsoft.com/download/details.aspx?id=101821)
 - [ลำดับงานของใบขอซื้อ](purchase-requisitions-workflow.md)
 - [เตรียมความพร้อมผู้จัดจำหน่าย](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

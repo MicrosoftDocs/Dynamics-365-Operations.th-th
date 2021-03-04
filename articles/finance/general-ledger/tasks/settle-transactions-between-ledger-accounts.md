@@ -49,3 +49,6 @@ ms.locfileid: "4448433"
 7. คลิกการชำระบัญชีแยกประเภท
 8. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

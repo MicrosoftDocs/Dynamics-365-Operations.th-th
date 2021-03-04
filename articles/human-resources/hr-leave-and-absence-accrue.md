@@ -111,3 +111,6 @@ ms.locfileid: "4420822"
 
 [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)</br>
 [สร้างแผนการลางานและการขาดงาน](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

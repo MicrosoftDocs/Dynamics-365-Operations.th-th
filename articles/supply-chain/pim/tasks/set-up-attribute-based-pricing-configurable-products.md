@@ -52,3 +52,6 @@ ms.locfileid: "4438332"
 8. ในฟิลด์ **นิพจน์** ให้พิมพ์ค่า ตัวอย่างเช่น พิมพ์ `50` 
 9. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

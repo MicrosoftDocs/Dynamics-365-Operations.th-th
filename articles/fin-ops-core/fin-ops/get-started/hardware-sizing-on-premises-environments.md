@@ -141,3 +141,6 @@ ms.locfileid: "4694480"
 ## <a name="virtualization-and-oversubscription"></a>การจำลองเสมือนและการบอกรับเป็นสมาชิกที่มากเกินไป
 
 บริการที่เป็นภารกิจที่สำคัญ เช่น AOS ควรได้รับการโฮสต์บนโฮสต์เสมือนที่มีทรัพยากรเฉพาะ – หลัก หน่วยความจำ และดิสก์
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

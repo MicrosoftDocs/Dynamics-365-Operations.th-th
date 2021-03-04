@@ -107,3 +107,6 @@ ms.locfileid: "4416025"
 [ตั้งค่าการจัดประเภท](set-up-assortments.md)
 
 [จัดการแอททริบิวต์และกลุ่มแอททริบิวต์](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

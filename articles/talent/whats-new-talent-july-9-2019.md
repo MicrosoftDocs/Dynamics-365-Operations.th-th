@@ -115,3 +115,6 @@ ms.locfileid: "4528052"
 - **ชนิดของการลางาน**
 - **บัญชีธนาคารของผู้ปฏิบัติงาน**
 - **ปฏิทินการทำงาน**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

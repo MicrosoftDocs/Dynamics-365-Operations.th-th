@@ -64,3 +64,6 @@ ms.locfileid: "4665234"
 [โมดูลการแสดงเส้นทาง](add-breadcrumb.md)
 
 [โมดูลเมนูนำทาง](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ ms.locfileid: "4646118"
 - **แสดงสถานะสินค้าคงคลัง:** *ใช่*
 
 คุณสามารถตั้งฟิลด์อื่น ๆ บนหน้าได้ตามต้องการ
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

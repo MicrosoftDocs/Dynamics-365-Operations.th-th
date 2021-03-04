@@ -239,3 +239,6 @@ Dynamics 365 Commerce แสดงฟังก์ชันที่ช่วย�
 [ตั้งค่าการจัดประเภท](set-up-assortments.md)
 
 [ภาพรวมของลำดับหมายเลข](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

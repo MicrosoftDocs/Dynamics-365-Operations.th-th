@@ -249,3 +249,6 @@ ms.locfileid: "4680745"
 - [ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวม](./tasks/er-format-counting-summing-1.md)
 - [การดำเนินการติดตามของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพการทำงาน](trace-execution-er-troubleshoot-perf.md)
 - [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

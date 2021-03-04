@@ -43,3 +43,6 @@ ms.locfileid: "4646322"
 12. คลิก **ลงรายการบัญชี**
 13. คลิก **ใบสำคัญ**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

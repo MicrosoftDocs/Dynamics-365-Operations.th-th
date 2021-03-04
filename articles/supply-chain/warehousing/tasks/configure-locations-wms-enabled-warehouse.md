@@ -175,3 +175,6 @@ ms.locfileid: "4438350"
 6. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 7. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

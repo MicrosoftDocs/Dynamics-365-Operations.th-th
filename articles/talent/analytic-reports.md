@@ -88,3 +88,6 @@ ms.locfileid: "4462739"
 ## <a name="export-to-excel"></a>ส่งออกไปที่ Excel
 
 เมื่อต้องการดูข้อมูลรายงานใน Excel คุณสามารถคลิกที่เมนูตัวเลือก (สามจุด) บนภาพ และเลือก **ส่งออกข้อมูลพื้นฐาน** ข้อมูลที่ส่งออกจะส่งออกเป็นถูกกรองแล้ว โดยคำนึงถึงสิทธิ์ของผู้ใช้ใน Attract สำหรับข้อมูลเพิ่มเติม ดู [ส่งออกข้อมูลจากการแสดงภาพ](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

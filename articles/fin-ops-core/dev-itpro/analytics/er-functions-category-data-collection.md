@@ -48,3 +48,6 @@ ms.locfileid: "4686304"
 [ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
 
 [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

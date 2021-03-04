@@ -65,3 +65,6 @@ Commerce จะให้หน้าเริ่มต้นที่จะใ�
 [ทำให้หน้าผลิตภัณฑ์สมบูรณ์](enrich-product-page.md)
 
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ ms.locfileid: "4416295"
 [แบ่งค่าธรรมเนียมในส่วนหัวตามสัดส่วนให้ตรงกับรายการขาย](pro-rate-charges-matching-lines.md)
 
 [ตั้งค่าวิธีการจัดส่ง](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

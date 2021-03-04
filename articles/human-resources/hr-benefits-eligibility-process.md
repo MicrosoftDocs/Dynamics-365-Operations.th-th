@@ -54,3 +54,6 @@ ms.locfileid: "4420683"
 25. เปิด สถานะตัวกรองคอลัมน์
 26. เรียงลำดับจาก ก ถึง ฮ
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

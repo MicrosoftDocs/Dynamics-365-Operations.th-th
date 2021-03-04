@@ -91,3 +91,6 @@ Dynamics 365 Talent อนุญาตให้มีการป้อนข้
 
 [![ตำแหน่งงาน](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

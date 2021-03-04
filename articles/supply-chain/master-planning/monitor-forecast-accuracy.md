@@ -50,3 +50,6 @@ Supply Chain Management คำนวณชนิดของความถู�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

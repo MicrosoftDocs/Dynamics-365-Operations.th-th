@@ -119,3 +119,6 @@ ms.locfileid: "4681864"
 23. คลิก บันทึก
 24. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4438378"
 
     ![รูปที่ 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

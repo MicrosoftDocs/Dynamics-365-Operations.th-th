@@ -57,3 +57,6 @@ ms.locfileid: "4457847"
 - ปริมาณที่รับ
 - ปริมาณการออกใช้
 - ปริมาณคงคลังคงเหลือ
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

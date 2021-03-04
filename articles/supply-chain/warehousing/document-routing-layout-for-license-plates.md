@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>ข้อมูลเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ป้ายชื่อ
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและพิมพ์ป้ายชื่อ ให้ดูที่ [การเปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน](tasks/license-plate-label-printing.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4416265"
 [การคาดการณ์ความต้องการคุกกี้](cookie-compliance.md)
 
 [โมดูลส่วนหัว](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

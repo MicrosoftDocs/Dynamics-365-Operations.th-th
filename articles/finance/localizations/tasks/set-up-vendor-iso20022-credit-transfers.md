@@ -52,3 +52,6 @@ ms.locfileid: "4448237"
 4. ในรายการนี้ ให้คลิกลิงค์ในแถว SEPA CT
 5. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

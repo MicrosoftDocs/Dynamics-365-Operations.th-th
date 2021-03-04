@@ -57,3 +57,6 @@ ms.locfileid: "4438530"
 6. ในฟิลด์ปริมาณสินค้าที่ดี ให้ป้อนตัวเลข
 7. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

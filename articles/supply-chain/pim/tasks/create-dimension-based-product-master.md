@@ -42,3 +42,6 @@ ms.locfileid: "4438486"
     * เลือกเทคโนโลยีการตั้งค่าคอนฟิกตามมิติ  
 9. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

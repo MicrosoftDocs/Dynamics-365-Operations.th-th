@@ -90,3 +90,6 @@ ms.locfileid: "4438165"
 2. บนแท็บ **ตั้งค่า** เลือก **ตามภารกิจการให้บริการ** ในฟิลด์ **รวมใบสั่งบริการ**
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

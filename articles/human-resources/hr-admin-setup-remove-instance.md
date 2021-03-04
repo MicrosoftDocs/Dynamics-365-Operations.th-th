@@ -85,3 +85,6 @@ ms.locfileid: "4420799"
 
 > [!Warning]
 > สภาพแวดล้อม Power Apps จะถูกบันทึกไว้เป็นเวลาเจ็ดวันหลังจากลบ คุณต้องกู้คืนสภาพแวดล้อมภายในรอบระยะเวลาเจ็ดวัน
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

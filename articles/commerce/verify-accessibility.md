@@ -85,3 +85,6 @@ ms.locfileid: "4416255"
 [ทำให้หน้าผลิตภัณฑ์สมบูรณ์](enrich-product-page.md)
 
 [ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

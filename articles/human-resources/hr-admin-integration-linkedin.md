@@ -190,3 +190,6 @@ ms.locfileid: "4527896"
 
 [ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Common Data Service คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

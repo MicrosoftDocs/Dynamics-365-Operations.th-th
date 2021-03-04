@@ -58,3 +58,6 @@ ms.locfileid: "4416185"
 23. ในฟิลด์รหัสเทอร์มินัลEFT ให้พิมพ์ค่าใดค่าหนึ่ง
 24. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

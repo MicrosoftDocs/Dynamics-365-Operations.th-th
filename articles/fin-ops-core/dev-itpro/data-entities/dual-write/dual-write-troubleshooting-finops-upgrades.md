@@ -91,3 +91,6 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 4. เปิดหน้า **การแม็ปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอป Finance and Operations
 5. ถ้าแอททริบิวต์ไม่ถูกเติมข้อมูลโดยอัตโนมัติบนแผนที่ ให้เพิ่มด้วยตนเองโดยการคลิกปุ่ม **เพิ่มแอททริบิวต์** แล้วคลิก **บันทึก** 
 6. เลือกแผนที่ และคลิก **รัน**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

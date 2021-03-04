@@ -65,3 +65,6 @@ ms.locfileid: "4685744"
 - การจัดการต้นทุน
 - [ประสิทธิภาพทางการเงิน](financial-performance-power-bi-content-pack.md)
 - [ประสิทธิภาพของช่องทางการขายปลีก ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

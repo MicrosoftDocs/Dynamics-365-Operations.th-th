@@ -60,3 +60,6 @@ ms.locfileid: "4681888"
 21. ในฟิลด์ชื่อเรื่อง ให้พิมพ์ค่า
 22. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

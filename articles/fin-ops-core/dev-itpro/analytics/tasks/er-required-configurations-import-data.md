@@ -254,3 +254,6 @@ ER ทำให้ผู้ใช้ทางธุรกิจสามาร�
 27. ปิดหน้า
 28. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

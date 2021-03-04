@@ -72,3 +72,6 @@ ms.locfileid: "4438269"
 11. ในฟิลด์เหตุผลการชำระน้อยเกิน ให้ป้อนหรือเลือกค่า
 12. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

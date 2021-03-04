@@ -145,3 +145,6 @@ ms.locfileid: "4684798"
 46. ปิดหน้า
 ![เพจตัวออกแบบการดำเนินงาน ER](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

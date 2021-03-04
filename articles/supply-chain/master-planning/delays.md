@@ -59,3 +59,6 @@ ms.locfileid: "4438728"
 --------
 
 [การตั้งค่าความครอบคลุม](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

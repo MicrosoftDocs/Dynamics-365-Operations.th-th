@@ -35,3 +35,6 @@ ms.locfileid: "4448508"
 5. เลือก ใช่ ในฟิลด์สร้างเอกสารภาษีทางอิเล็กทรอนิกส์
 6. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

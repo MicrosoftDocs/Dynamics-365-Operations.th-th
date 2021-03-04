@@ -150,3 +150,6 @@ ms.locfileid: "4416142"
 [ภาพรวมของเท็มเพลตและเค้าโครง](templates-layouts-overview.md)
 
 [ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

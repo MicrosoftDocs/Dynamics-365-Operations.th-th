@@ -95,3 +95,6 @@ ms.locfileid: "4438867"
 8. ในฟิลด์หน่วยน้ำหนัก ให้ป้อนหรือเลือกค่า
 9. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4438544"
 
     ![เปิดใบสั่งงานใหม่](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

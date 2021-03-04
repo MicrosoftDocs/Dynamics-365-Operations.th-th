@@ -46,3 +46,6 @@ ms.locfileid: "4416172"
 10. ในฟิลด์หน่วยเวลาหมดอายุ ให้เลือกหนึ่งตัวเลือก
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

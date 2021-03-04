@@ -56,3 +56,6 @@ ms.locfileid: "4438508"
 
 [การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

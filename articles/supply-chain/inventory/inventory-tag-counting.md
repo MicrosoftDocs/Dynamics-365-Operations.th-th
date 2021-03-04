@@ -36,3 +36,6 @@ ms.locfileid: "4438239"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การตรวจนับตามรอบ](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

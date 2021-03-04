@@ -75,3 +75,6 @@ ms.locfileid: "4516887"
 
 - *ResultDecimal* = *อินพุต* × *เปอร์เซ็นต์* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

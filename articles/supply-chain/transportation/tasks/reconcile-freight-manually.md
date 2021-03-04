@@ -61,3 +61,6 @@ ms.locfileid: "4438857"
 5. คลิกเพื่อติดตามลิงค์ในฟิลด์หมายเลขสมุดรายวันการอ้างอิง
 6. คลิก รายการ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

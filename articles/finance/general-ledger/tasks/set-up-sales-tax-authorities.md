@@ -41,3 +41,6 @@ ms.locfileid: "4448335"
 10. ในฟิลด์การปัดเศษ ให้ป้อนตัวเลข
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

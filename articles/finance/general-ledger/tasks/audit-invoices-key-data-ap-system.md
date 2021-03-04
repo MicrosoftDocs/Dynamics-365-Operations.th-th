@@ -62,3 +62,6 @@ ms.locfileid: "4448294"
 9. บนบานหน้าต่างการดำเนินการ ให้คลิก **ทบทวน**
 10. คลิก **รายละเอียดการจับคู่**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4448274"
 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [นำฝากการชำระเงินของลูกค้า](tasks/deposit-customer-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

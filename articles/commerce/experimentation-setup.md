@@ -54,3 +54,6 @@ ms.locfileid: "4416271"
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
 [เชื่อมต่อและแก้ไขการทดสอบ](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

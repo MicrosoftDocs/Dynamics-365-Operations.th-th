@@ -229,3 +229,6 @@ Dynamics 365 Human Resources ส่งคำขอการลางานขอ
 [ดาวน์โหลดและติดตั้ง Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [ศูนย์ความช่วยเหลือ Microsoft Teams](https://support.office.com/teams)</br>
 [แอป Human Resources ใน Teams](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

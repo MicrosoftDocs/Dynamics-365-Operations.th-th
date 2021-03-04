@@ -258,3 +258,6 @@ ms.locfileid: "4517487"
 
 - วีดิโอ: [สำรวจดูรายละเอียดการตั้งค่าคอนฟิกการจัดการคลังสินค้า](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - หัวข้อวิธีใช้: [ควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

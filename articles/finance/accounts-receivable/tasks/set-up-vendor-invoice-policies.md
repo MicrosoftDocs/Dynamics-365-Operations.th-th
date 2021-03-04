@@ -73,3 +73,6 @@ ms.locfileid: "4448429"
 16. เลือก **ตกลง**
 17. ปิดหน้าเพื่อกลับไปที่โฮมเพจ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

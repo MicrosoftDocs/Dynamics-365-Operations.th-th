@@ -67,3 +67,6 @@ SUMIF (key name for summing, condition range, condition value)
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันการรวบรวมข้อมูล](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

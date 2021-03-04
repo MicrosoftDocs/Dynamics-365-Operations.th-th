@@ -35,3 +35,6 @@ ms.locfileid: "4694604"
 5. ในฟิลด์ **โซนเวลา** ให้เลือกตัวเลือกจากรายการแบบหล่นลง
 6. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

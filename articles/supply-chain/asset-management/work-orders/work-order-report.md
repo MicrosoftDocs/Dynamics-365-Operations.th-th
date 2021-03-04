@@ -51,3 +51,6 @@ ms.locfileid: "4438693"
 
 ![รูปที่ 2](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

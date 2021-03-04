@@ -53,3 +53,6 @@ ms.locfileid: "4420721"
 6. ในฟิลด์วันที่มีผลบังคับใช้ ให้ป้อนวันที่และเวลา
 7. คลิกที่สร้างสวัสดิการ
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

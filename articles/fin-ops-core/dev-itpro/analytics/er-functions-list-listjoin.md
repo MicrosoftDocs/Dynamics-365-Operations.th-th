@@ -83,3 +83,6 @@ LIST (list 1 [, list 2, …, list N])
 [ฟังก์ชันรายการ](er-functions-category-list.md)
 
 [ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

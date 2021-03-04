@@ -102,3 +102,6 @@ ms.locfileid: "4438500"
 11. ในฟิลด์ **เวลาที่ซื้อ** ให้ป้อน '5'
 12. คลิก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

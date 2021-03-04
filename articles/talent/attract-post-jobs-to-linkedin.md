@@ -80,3 +80,6 @@ Attract ช่วยให้คุณสามารถลงประกาศ
 [จัดหาผู้สมัครด้วย LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [แก้ไขปัญหาการรวมกับ LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

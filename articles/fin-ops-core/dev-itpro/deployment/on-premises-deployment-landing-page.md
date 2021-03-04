@@ -72,3 +72,6 @@ ms.locfileid: "4679355"
 - [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ April สามารถตรวจทานธุรกรรมผู้จ�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ ms.locfileid: "4448449"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | กระแสเงินสดเข้าและกระแสเงินสดออกและยอดดุลแบบสรุปยอดโดยใช้สกุลเงินทางบัญชีของบริษัทแต่ละบริษัท |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | กระแสเงินสดเข้าและกระแสเงินสดออกและยอดดุลแบบสรุปยอดโดยการใช้สกุลเงินของระบบสำหรับทุกบริษัท |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | จำนวนธุรกรรมสุทธิแบบสรุปยอดและยอดดุลของสกุลเงินโดยการใช้สกุลเงินของธุรกรรม |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

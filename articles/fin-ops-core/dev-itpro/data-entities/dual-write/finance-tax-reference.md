@@ -37,3 +37,6 @@ ms.locfileid: "4684044"
 
 + [บัญชีแยกประเภทแบบรวม](ledger-mapping.md)
 + [ข้อมูลหลักของภาษีแบบรวม](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

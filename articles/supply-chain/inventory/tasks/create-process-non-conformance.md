@@ -67,3 +67,6 @@ ms.locfileid: "4438747"
 2. เลือก **ปิดความไม่สอดคล้อง**
 3. เลือก **ใช่**
 4. ปิดหน้า
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

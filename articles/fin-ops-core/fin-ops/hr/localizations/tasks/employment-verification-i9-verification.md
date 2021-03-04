@@ -54,3 +54,6 @@ ms.locfileid: "4694223"
 22. ในฟิลด์หมายเลขเอกสาร ให้ป้อนหรือเลือกค่า
 23. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

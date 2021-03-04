@@ -72,3 +72,6 @@ ms.locfileid: "4420851"
 
 สำหรับข้อมูลเกี่ยวกับการตั้งค่าปฏิทิน ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์ปฏิทิน](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

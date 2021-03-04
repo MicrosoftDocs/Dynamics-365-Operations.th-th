@@ -41,3 +41,6 @@ ms.locfileid: "4416059"
 > การตั้งค่าเหล่านี้ไม่จำกัดการดำเนินการแทนที่ราคา เนื่องจากจะเป็นการกำหนดราคาพื้นฐานและไม่ถือว่าเป็นส่วนลด
 
 [![ฟิลด์ป้องกันไม่ให้มีส่วนลด](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

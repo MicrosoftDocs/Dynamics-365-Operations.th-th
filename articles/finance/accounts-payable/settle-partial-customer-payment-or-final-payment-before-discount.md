@@ -149,3 +149,6 @@ Fabrikam ขายสินค้าให้กับลูกค้า 4028 Fa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -169,3 +169,6 @@ ms.locfileid: "4681387"
 [ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
 
 [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

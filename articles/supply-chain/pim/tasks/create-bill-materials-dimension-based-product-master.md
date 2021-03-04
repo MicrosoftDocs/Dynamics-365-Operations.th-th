@@ -79,3 +79,6 @@ ms.locfileid: "4438489"
 5. คลิก ตกลง
 6. คลิกเรียกใช้
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

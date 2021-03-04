@@ -47,3 +47,6 @@ ms.locfileid: "4438589"
 14. ในฟิลด์ช่วงเริ่มต้น ให้ป้อนตัวเลข
 15. ในฟิลด์ช่วงสิ้นสุด ให้ป้อนตัวเลข
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

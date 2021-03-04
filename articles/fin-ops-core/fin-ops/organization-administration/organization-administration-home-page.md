@@ -101,3 +101,6 @@ ms.locfileid: "4694013"
 - [ตั้งค่าคอนฟิกการจัดการเอกสาร](configure-document-management.md)
 - [ตั้งค่าคอนฟิกและส่งอีเมล](configure-email.md)
 - [ข้อมูลวันที่/เวลาและโซนเวลา](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4687489"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาษาสูตร ER](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

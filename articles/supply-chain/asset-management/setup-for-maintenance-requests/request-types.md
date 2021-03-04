@@ -45,3 +45,6 @@ ms.locfileid: "4438595"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้า **ชนิดคำขอการบำรุงรักษา**
 
 ![หน้าชนิดคำขอการบำรุงรักษา](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

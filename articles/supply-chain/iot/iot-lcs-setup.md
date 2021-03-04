@@ -56,3 +56,6 @@ ms.locfileid: "4438795"
 2. ใน LCS ไปยังรายละเอียดสภาพแวดล้อม Supply Chain Management ของคุณ
 3. เลื่อนลงไปที่ส่วน **Add-in ของสภาพแวดล้อม**
 4. เลือก **ถอนการติดตั้ง** สำหรับ Add-in ครื่องมือ IoT
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

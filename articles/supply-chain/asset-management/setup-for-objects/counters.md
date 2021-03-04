@@ -67,3 +67,6 @@ ms.locfileid: "4438591"
 
 ![รูปที่ 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ ms.locfileid: "4416114"
 [สร้าง URL ของหน้า](create-page-url.md)
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4438296"
 21. ในฟิลด์ **ข้อคิดเห็น** ให้พิมพ์ค่าใดค่าหนึ่ง
 22. คลิก **ส่ง** 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

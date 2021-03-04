@@ -151,3 +151,6 @@ ms.locfileid: "4683469"
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 [ทรัพยากรแพลตฟอร์มเคลื่อนที่](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

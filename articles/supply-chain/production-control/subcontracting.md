@@ -303,3 +303,6 @@ ms.locfileid: "4438219"
     ![แผนภูมิการเปรียบเทียบต้นทุน](./media/subcontract35_cost-comparison-charts.png)
 
 การตั้งค่าที่ขาดหายไปในข้อมูล
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

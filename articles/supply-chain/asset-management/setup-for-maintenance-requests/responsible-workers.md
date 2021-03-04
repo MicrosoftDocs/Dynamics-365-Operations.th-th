@@ -54,3 +54,6 @@ ms.locfileid: "4438593"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้า **เจ้าหน้าที่บำรุงรักษาที่รับผิดชอบ**
 
 ![หน้าเจ้าหน้าที่บำรุงรักษาที่รับผิดชอบ](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

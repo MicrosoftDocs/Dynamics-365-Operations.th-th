@@ -55,3 +55,6 @@ ms.locfileid: "4980417"
 [แก้ไขมิติทางการเงินสำหรับธุรกรรมการขายปลีก](edit-financial-dim.md)
 
 [สร้างเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4685798"
 | คำอธิบายเนื้อหา    | ไฟล์                                                            |
 |------------------------|-----------------------------------------------------------------|
 | การตั้งค่าคอนฟิกแบบจำลอง ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ ms.locfileid: "4438238"
 
 [การกำหนดการงานคัมบังสำหรับ Lean Manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

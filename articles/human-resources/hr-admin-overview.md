@@ -102,3 +102,5 @@ ms.locfileid: "4527872"
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
 - [คู่มือนักพัฒนา](hr-developer-overview.md)
 - [คู่มือผู้ใช้](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

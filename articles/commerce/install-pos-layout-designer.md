@@ -63,3 +63,6 @@ ms.locfileid: "4416118"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ตั้งค่าคอนฟิก ติดตั้ง และเริ่มการใช้งาน Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

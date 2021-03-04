@@ -246,3 +246,6 @@ ms.locfileid: "4448589"
 - [ภาพรวมของ add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-service-overview.md)
 - [เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started.md)
 - [ตั้งค่า add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

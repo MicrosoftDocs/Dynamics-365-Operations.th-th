@@ -73,3 +73,6 @@ ms.locfileid: "4438337"
 
 8. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

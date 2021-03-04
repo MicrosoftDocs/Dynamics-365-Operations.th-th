@@ -58,3 +58,6 @@ ms.locfileid: "4679825"
 ## <a name="run-in-a-sandbox-environment"></a>รันในสภาพแวดล้อม Sandbox
 1. เลือก **การนำเข้าชุดงาน**
 2. เลือก **ตกลง**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

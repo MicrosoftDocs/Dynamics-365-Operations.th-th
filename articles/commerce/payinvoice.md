@@ -45,3 +45,6 @@ ms.locfileid: "4972668"
 
 > [!NOTE]
 > การชำระเงินหรือการชำระบัญชีสำหรับยอดเงินบางส่วนยังไม่ได้รับการสนับสนุน
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

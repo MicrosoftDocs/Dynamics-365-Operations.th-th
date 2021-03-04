@@ -59,3 +59,6 @@ OR (condition 1[, condition 2, …, condition N])
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันตรรกะ](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

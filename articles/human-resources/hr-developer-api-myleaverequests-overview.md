@@ -64,3 +64,5 @@ ms.locfileid: "4420695"
 
 - [ส่งคำขอลางานไปที่ลำดับงาน](hr-developer-api-myleaverequests-submit.md)
 - [การรับรองความถูกต้อง](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

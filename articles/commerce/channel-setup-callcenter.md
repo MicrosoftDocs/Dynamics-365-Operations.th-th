@@ -136,3 +136,6 @@ ms.locfileid: "4416281"
 [ตั้งค่าและทำงานกับข้อความแจ้งเตือนการฉ้อโกง](set-up-fraud-alerts.md)
 
 [ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

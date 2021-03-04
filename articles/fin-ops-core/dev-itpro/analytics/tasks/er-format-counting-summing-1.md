@@ -56,3 +56,6 @@ ms.locfileid: "4684726"
 8. ในแผนภูมิ ขยาย 'Intrastat model'
 9. ในแผนภูมิ เลือก 'Intrastat model\Intrastat (DE)'
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ ms.locfileid: "4448531"
 สำหรับข้อมูลเพิ่มเติม ดู [การประเมินค่าใหม่ตามสกุลเงินในบริษัทที่รวมบัญชี](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

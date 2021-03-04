@@ -83,3 +83,6 @@ ms.locfileid: "4438482"
 17. ในฟิลด์ต่อชุด ให้ป้อนตัวเลข
 18. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ ms.locfileid: "4646346"
 5. ในฟิลด์ **วันที่ทำธุรกรรม** ให้ป้อนวันที่
 6. คลิก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

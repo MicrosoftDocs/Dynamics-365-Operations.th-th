@@ -89,3 +89,6 @@ ms.locfileid: "4687288"
 - [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](../sysadmin/license-codes-configuration-keys-report.md)
 - [รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่](SSRS-report.md)
 - [รายงานชนิดลำดับงาน](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4438621"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีคำนวณการใช้กำลังการผลิตบนรายการกำหนดการบำรุงรักษาและใบสั่งงานที่ไม่ได้กำหนดเวลา อ้างอิงไปยัง [คำนวณการใช้กำลังการผลิต](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ ms.locfileid: "4646144"
 [![ตัวอย่างที่ 2](media/ReplenTemp_example_2.png "ตัวอย่างที่ 2")](media/ReplenTemp_example_2_large.png)
 
 ดังนั้น เพื่อให้ได้ปริมาณสูงสุดสำหรับสถานที่ที่เติมสินค้า คุณควรตั้งค่าตัวเลือก **อนุญาตให้แบ่งได้** เป็น *ใช่* บนคำสั่งสถานที่สำหรับการเบิกสินค้าที่เพิ่มเติม
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

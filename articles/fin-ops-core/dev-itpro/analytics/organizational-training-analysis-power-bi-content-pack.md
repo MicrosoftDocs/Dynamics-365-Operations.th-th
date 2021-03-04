@@ -57,3 +57,6 @@ ms.locfileid: "4685846"
 | การฝึกอบรม\_ตำแหน่ง        | ตำแหน่งงาน ชื่อ และเทียบเท่าเต็มเวลา (FTE)                  | การฝึกอบรม\_CourseAgenda การฝึกอบรม\_CourseAttendees |
 | การฝึกอบรม\_WorkerName      | ชื่อจริง นามสกุล และชื่อเต็ม                             | การฝึกอบรม\_CourseAttendees |
 | การฝึกอบรม\_WorkerTitle     | ตำแหน่งงานและวันที่อายุงาน                                         | การฝึกอบรม\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

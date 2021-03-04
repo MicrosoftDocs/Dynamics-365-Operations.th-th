@@ -91,3 +91,6 @@ ms.locfileid: "4679497"
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 - [API กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](er-apis-app73.md)
 - [จัดการวงจรการตั้งค่าคอนฟิกของรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

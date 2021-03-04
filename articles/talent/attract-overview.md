@@ -49,3 +49,6 @@ Attract มีกระบวนการว่าจ้างที่กำห
 
 ## <a name="analytic-reports"></a>รายงานการวิเคราะห์
 ทีมการจ้างงานสามารถใช้ ดูการวัดกระบวนการจ้างงานสำคัญ สำหรับงานหนึ่งๆ หรือแบบรวมในงานทั้งหมดที่มี [รายงานการวิเคราะห์ใน Attract](analytic-reports.md) คุณลักษณะนี้กำลังอยู่ใน [การแสดงตัวอย่าง](access-preview-feature.md) สำหรับลูกค้า กับ [เวอร์ชันใดของ Microsoft Dynamics 365 Talent- Attract](attract-comprehensive-hiring.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

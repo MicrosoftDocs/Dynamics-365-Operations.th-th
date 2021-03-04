@@ -66,3 +66,6 @@ ms.locfileid: "4438729"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของแผนหลัก](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

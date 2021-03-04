@@ -169,3 +169,6 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
 
 > [!NOTE]
 > มีการปร้บปรุงฟิลด์สถานที่โดยธุรกรรมคลังสินค้าเท่านั้น ถ้าคุณย้ายสินค้าคงคลังโดยใช้สมุดรายวันหรือกระบวนการที่ไม่ใช่ WHS อื่นๆ ฟิลด์จะไม่ได้รับการปร้บปรุง
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "4594319"
 [ปรับแต่งจุดโฟกัสของรูปภาพ](dam-custom-focal-point.md)
 
 [อัปโหลดและให้บริการไฟล์แบบคงที่](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

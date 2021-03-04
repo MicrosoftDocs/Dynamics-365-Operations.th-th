@@ -127,3 +127,6 @@ ms.locfileid: "4685575"
 
 3. ตรวจสอบให้แน่ใจว่าคอลัมน์ **externalenvironmentURL** มี Dataverse หรือ URL ของแอปที่ถูกต้อง ลบแถวที่ซ้ำกันใดๆ ที่ชี้ไปที่ URL Dataverse ที่ไม่ถูกต้อง ลบแถวที่สอดคล้องกันในตาราง DUALWRITEPROJECTFIELDCONFIGURATION และ DUALWRITEPROJECTCONFIGURATION
 4. หยุดการแม็ปตาราง แล้วเริ่มการทำงานใหม่
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

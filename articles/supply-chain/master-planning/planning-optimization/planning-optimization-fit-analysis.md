@@ -114,3 +114,6 @@ ms.locfileid: "4438507"
 [ใช้ตัวกรองกับแผน](plan-filters.md)
 
 [ยกเลิกงานการวางแผน](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "4438673"
 [ภาพรวมของการพัฒนาและจัดทำข้อตกลงการให้บริการ](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

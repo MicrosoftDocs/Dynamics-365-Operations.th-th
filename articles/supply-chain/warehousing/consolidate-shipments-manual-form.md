@@ -98,3 +98,5 @@ ms.locfileid: "4438249"
 
 - [นโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
 - [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

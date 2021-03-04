@@ -67,3 +67,6 @@ ms.locfileid: "4416182"
 3. รันกำหนดการการกระจาย 1070 เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

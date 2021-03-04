@@ -44,3 +44,6 @@ BOM เวอร์ชันที่ถูกต้อง ไม่ว่าจ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

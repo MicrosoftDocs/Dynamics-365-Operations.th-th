@@ -44,3 +44,6 @@ ms.locfileid: "4448238"
 13. เลือก **ตกลง**
 14. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

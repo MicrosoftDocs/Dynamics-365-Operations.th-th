@@ -47,3 +47,6 @@ ms.locfileid: "4682882"
 [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
 
 [โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

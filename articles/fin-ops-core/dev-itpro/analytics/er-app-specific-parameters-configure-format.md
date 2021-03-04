@@ -309,3 +309,6 @@ ms.locfileid: "4679737"
 [ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
 
 [ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับแต่ละนิติบุคคล](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

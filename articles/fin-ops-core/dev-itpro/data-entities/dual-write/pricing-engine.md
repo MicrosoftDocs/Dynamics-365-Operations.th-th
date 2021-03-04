@@ -69,3 +69,6 @@ Microsoft Dynamics 365 Supply Chain Management รวมกลไกการก
 + การตั้งค่าค่าธรรมเนียมและการปันส่วนค่าธรรมเนียมใน Supply Chain Management ไม่ถูกคัดลอกใน Sales
 + การกำหนดราคาไม่ได้พิจารณาการกำหนดราคาขายปลีกพิเศษที่ระบุไว้ในฟิลด์ **ช่องทางการขายปลีก** บนหน้ารายการใบสั่งขายใน Supply Chain Management
 + ส่วนลดที่กำหนดในส่วน **การจัดการการให้ส่วนลดทางการค้า** ของ Supply Chain Management ไม่ได้รับการพิจารณา
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

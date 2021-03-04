@@ -80,3 +80,6 @@ ms.locfileid: "4420817"
 [ตั้งรายการค้างรับแผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)</br>
 [ซื้อและขายวันลางาน](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

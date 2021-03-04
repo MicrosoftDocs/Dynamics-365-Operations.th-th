@@ -84,3 +84,6 @@ Single Euro Payments Area (SEPA) ถูกตั้งขึ้นโดยค�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4438455"
 [ดูประวัติการวางแผนและล็อกการวางแผน](plan-history-logs.md)
 
 [ใช้ตัวกรองกับแผน](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

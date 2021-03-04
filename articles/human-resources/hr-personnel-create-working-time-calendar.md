@@ -43,3 +43,6 @@ ms.locfileid: "4420689"
 12. เลือก **ตกลง**
 13. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

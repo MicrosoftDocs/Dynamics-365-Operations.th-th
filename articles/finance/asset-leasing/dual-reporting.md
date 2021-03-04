@@ -523,3 +523,6 @@ ms.locfileid: "4448597"
 | 11         | ค่าเสื่อมราคาสะสม |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

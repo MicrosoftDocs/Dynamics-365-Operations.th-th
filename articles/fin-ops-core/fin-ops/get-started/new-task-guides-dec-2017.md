@@ -368,3 +368,6 @@ ms.locfileid: "4695024"
 **ลบรายการ BPM แล้ว**
 
 - ย้ายงานคัมบังที่จัดกำหนด
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

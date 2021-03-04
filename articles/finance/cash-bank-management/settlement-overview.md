@@ -78,3 +78,6 @@ ms.locfileid: "4448398"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ส่วนที่เหลือที่ต้องชำระบัญชี](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

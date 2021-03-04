@@ -56,3 +56,6 @@ ms.locfileid: "4687548"
 
 - [ฟังก์ชันการขายหน้าร้าน (POS) แบบออฟไลน์](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และออฟไลน์](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

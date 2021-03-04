@@ -182,3 +182,6 @@ ms.locfileid: "4448528"
 
 ## <a name="generating-consolidated-financial-statements"></a>การสร้างงบการเงินที่รวมบัญชี
 สำหรับข้อมูลเกี่ยวกับสถานการณ์ที่คุณอาจสร้างการรวมบัญชีงบการเงิน ดู [สร้างงบการเงินที่รวมบัญชี](./generating-consolidated-financial-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

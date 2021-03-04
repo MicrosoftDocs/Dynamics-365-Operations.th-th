@@ -176,3 +176,6 @@ ms.locfileid: "4416284"
 [พอร์ทัล Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [เว็บไซต์ Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

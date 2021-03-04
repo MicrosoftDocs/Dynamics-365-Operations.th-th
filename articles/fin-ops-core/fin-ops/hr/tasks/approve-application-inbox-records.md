@@ -48,3 +48,6 @@ ms.locfileid: "4693470"
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 3. ขยายส่วนเอกสารแนบ
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

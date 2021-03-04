@@ -376,3 +376,6 @@ ms.locfileid: "4687438"
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

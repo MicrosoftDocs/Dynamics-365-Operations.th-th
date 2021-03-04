@@ -107,3 +107,6 @@ ms.locfileid: "4438912"
 ## <a name="view-the-purchase-order-that-is-generated"></a>ดูใบสั่งซื้อที่ถูกสร้าง
 
 บนบานหน้าต่างการดำเนินการ บนแท็บ **ทั่วไป** เลือก **ใบสั่งซื้อ** หน้าที่ปรากฏจะแสดงใบสั่งซื้อที่ถูกสร้าง เมื่อคุณยอมรับการประมูล
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

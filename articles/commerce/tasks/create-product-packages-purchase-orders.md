@@ -73,3 +73,6 @@ ms.locfileid: "4416177"
 17. คลิก สร้าง
 18. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

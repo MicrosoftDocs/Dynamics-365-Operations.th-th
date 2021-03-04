@@ -45,3 +45,6 @@ ms.locfileid: "4420835"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

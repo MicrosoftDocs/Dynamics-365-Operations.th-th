@@ -53,3 +53,6 @@ FORMATELEMENTNAME ()
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันการรวบรวมข้อมูล](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ ms.locfileid: "4665359"
 [โมดูลการยืนยันใบสั่ง](order-confirmation-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

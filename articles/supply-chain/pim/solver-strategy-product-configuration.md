@@ -73,3 +73,6 @@ ms.locfileid: "4438714"
 [การศึกษาสำนึก](https://techterms.com/definition/heuristic)
 
 [ปัญหาความพึงพอใจของข้อจำกัด](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -380,3 +380,6 @@ ms.locfileid: "4681459"
 - [ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน](er-trace-reports-compare-baseline.md)
 - [ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น](tasks/er-upgrade-format.md)
 - [ER นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

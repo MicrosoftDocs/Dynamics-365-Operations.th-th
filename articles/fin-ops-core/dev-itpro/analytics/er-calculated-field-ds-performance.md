@@ -300,3 +300,6 @@ ms.locfileid: "4681291"
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ](trace-execution-er-troubleshoot-perf.md)
 - [สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4448400"
 6. คลิก ลงรายการบัญชี
     * ลงรายการบัญชีใบแจ้งหนี้ที่เลือก  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

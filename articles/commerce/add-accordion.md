@@ -87,3 +87,6 @@ ms.locfileid: "4416047"
 [โมดูลแท็บ](add-tab.md)
 
 [โมดูลบล็อกข้อความ](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

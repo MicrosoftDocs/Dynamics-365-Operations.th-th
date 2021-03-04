@@ -67,3 +67,6 @@ ms.locfileid: "4438340"
 15. ในฟิลด์ความต้องการ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 16. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

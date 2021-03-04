@@ -354,3 +354,6 @@ ms.locfileid: "4438827"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [นโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

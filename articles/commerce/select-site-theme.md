@@ -68,3 +68,6 @@ ms.locfileid: "4556440"
 
 [สร้างธีมใหม่](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

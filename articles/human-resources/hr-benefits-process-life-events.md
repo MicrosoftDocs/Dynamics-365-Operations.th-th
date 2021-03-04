@@ -57,3 +57,6 @@ ms.locfileid: "4420713"
    4. เลือก **ตกลง** กระบวนการจะดำเนินการกับพารามิเตอร์ที่คุณตั้งไว้
 
 4. เลือก **ตกลง**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

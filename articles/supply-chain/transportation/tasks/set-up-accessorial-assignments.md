@@ -50,3 +50,6 @@ ms.locfileid: "4438855"
 14. ในฟิลด์ค่าธรรมเนียมอุปกรณ์เสริม ให้ป้อนตัวเลข
 15. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

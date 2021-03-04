@@ -89,3 +89,6 @@ ms.locfileid: "4645076"
 
 > [!NOTE]
 > การดำเนินการนี้จะจำกัดรอบระยะเวลาสำหรับการกระจายสำหรับแผนหลักนี้เป็นวันเดียว
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ ms.locfileid: "4438510"
 
 [การสร้างใบสั่งบริการ (แบบฟอร์มคลาส)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

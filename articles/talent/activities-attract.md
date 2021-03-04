@@ -91,3 +91,6 @@ ms.locfileid: "4462740"
 > แอพลิเคชันการจัดการข้อเสนอรวมพร้อมใช้งานเฉพาะกับ add-on การว่าจ้างที่ครอบคลุม สำหรับข้อมูลเพิ่มเติม ดู [รุ่นใดของ Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

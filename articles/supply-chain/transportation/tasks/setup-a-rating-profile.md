@@ -61,3 +61,6 @@ ms.locfileid: "4646439"
 
 > [!NOTE]
 > โพรไฟล์ที่สร้างขึ้นบนหน้า **ผู้ขนส่ง** จะแสดงอยู่บนหน้า **โพรไฟล์การจัดอันดับ**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

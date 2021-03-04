@@ -83,3 +83,6 @@ ms.locfileid: "4684246"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>ใช้เวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับการประมวลผลสมุดรายวันการชำระเงิน
 
 ตรวจทานแผ่นงานที่สร้างขึ้น รวมทั้งรายละเอียดใหม่ของบรรทัดการชำระเงิน – วันที่ชำระเงิน  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

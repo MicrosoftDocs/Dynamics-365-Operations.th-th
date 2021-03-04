@@ -106,3 +106,6 @@ ms.locfileid: "4448444"
 - [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
 - [ลำดับชั้นของมิติ](dimension-hierarchy.md)
 - [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

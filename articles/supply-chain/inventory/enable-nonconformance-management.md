@@ -54,3 +54,6 @@ ms.locfileid: "4438556"
 [กระบวนการการจัดการคุณภาพ](quality-management-processes.md)
 
 [ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการความไม่สอดคล้องกัน](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

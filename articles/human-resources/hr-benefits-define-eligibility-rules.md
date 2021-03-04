@@ -69,3 +69,6 @@ ms.locfileid: "4420756"
 10. คลิก บันทึก
 11. ปิดแบบฟอร์ม
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ ms.locfileid: "4448513"
 4. บนแท็บ **การตั้งค่า** ให้ตั้งค่าตัวเลือก **การคำนวณภาษีที่ล่าช้า** เป็น **ใช่**
 
 ![รูปภาพเพจสมุดรายวันทั่วไป](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

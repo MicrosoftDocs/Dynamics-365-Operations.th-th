@@ -95,3 +95,6 @@ ms.locfileid: "4416031"
 [ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์](ratings-reviews-modules.md)
 
 [ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4693941"
 **การตัดสินใจ:**
 
 - คุณจะสร้างสมุดที่อยู่เพิ่มเติมจำนวนเท่าไหร่
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

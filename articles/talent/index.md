@@ -35,3 +35,6 @@ Talent ประกอบด้วยแอป Attract ซึ่งสามา�
 > [!IMPORTANT]
 > ฟังก์ชันการทำงานใน Dynamics 365 Talent: Core HR เป็นส่วนหนึ่งของ Dynamics 365 Human Resources แล้วตอนนี้ คุณสามารถดูเอกสารประกอบของ Human Resources ได้ที่ [ยินดีต้อนรับสู่ Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

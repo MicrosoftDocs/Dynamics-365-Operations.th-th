@@ -100,3 +100,6 @@ ms.locfileid: "4416230"
 [โมดูหัวข้อ](author-header-module.md)
 
 [โมดูลของส่วนท้าย](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

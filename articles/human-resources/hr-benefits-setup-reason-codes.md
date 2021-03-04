@@ -41,3 +41,6 @@ Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่
    | **คำอธิบาย** | คำอธิบายเกี่ยวกับรหัสเหตุผล |
 
 4. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

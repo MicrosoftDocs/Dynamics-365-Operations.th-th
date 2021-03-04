@@ -227,3 +227,6 @@ ms.locfileid: "4687486"
 [การรายงานทางการเงิน](financial-reporting-intro.md)
 
 [สร้างรายงานทางการเงิน](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

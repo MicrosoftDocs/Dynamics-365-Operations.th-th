@@ -63,3 +63,6 @@ ms.locfileid: "4416169"
 29. คลิกที่เผยแพร่ข้อมูล
 30. คลิก ปิด
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

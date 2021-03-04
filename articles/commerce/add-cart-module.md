@@ -117,3 +117,6 @@ ms.locfileid: "4416286"
 [คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก](calculated-inventory-retail-channels.md)
 
 [สร้างโพรไฟล์ฟังก์ชันการทำงานออนไลน์](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

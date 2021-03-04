@@ -93,3 +93,6 @@ ms.locfileid: "4683932"
 13. คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**
 
     [![ปิด Reporting Services Configuration Manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

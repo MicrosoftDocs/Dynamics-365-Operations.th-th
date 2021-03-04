@@ -224,3 +224,6 @@ ms.locfileid: "4686748"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

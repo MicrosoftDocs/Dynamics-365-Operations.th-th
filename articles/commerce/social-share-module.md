@@ -82,3 +82,6 @@ ms.locfileid: "4416259"
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 
 [การคาดการณ์ความต้องการคุกกี้](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "4420697"
 
 ## <a name="steps-for-creating-a-department"></a>ขั้นตอนสำหรับการสร้างแผนก
 อ้างอิงถึงบทความ [กำหนดแผนกใหม่](../fin-and-ops/hr/tasks/define-new-departments.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างแผนกใหม่ 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

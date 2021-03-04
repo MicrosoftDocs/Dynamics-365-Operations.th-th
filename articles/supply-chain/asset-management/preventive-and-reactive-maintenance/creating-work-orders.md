@@ -52,3 +52,6 @@ ms.locfileid: "4438523"
 
 5. คลิก **ตกลง** หนึ่งใบสั่งงานหรือมากกว่าถูกสร้างขึ้น
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
