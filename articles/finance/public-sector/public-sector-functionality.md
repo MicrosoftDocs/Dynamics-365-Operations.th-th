@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจภาครัฐ
-description: Microsoft Dynamics 365 Finance ช่วยให้สามารถดำเนินกระบวนการทางธุรกิจที่ใช้ร่วมกันได้ทั้งในภาครัฐและภาคเอกชน เช่น งานสำหรับการจัดทำงบประมาณ การจัดซื้อ บัญชีเจ้าหนี้ และบัญชีลูกหนี้
+description: Dynamics 365 Finance รองรับกระบวนการทางธุรกิจสำหรับภาครัฐทั่วไป ซึ่งรวมถึงงานเกี่ยวกับการจัดงบประมาณ การซื้อ บัญชีเจ้าหนี้ และบัญชีลูกหนี้
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984695"
 ---
 # <a name="public-sector-home-page"></a>โฮมเพจภาครัฐ
 
@@ -60,9 +59,8 @@ ms.locfileid: "4460009"
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>คีย์การตั้งค่าคอนฟิกของภาครัฐสัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ อย่างไร
 ตารางต่อไปนี้มีข้อมูลเกี่ยวกับวิธีการที่คีย์การตั้งค่าคอนฟิกนี้สัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ
 
-|            |                                                                                                                                                                                                                     |
+|   **รายละเอียด**         |              **คำอธิบาย**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **รายละเอียด** | **คำอธิบาย**                                                                                                                                                                                                     |
 | คีย์หลัก | ไม่มี                                                                                                                                                                                                                |
 | คีย์รอง | คีย์การตั้งค่าคอนฟิก **รายการข้อมูลบัญชีแยกประเภทขั้นสูง** (AdvancedLedgerEntry) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099G** (Tax1099G) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099S** (Tax1099S) คีย์การตั้งค่าคอนฟิก **ระเบียบบังคับของฝรั่งเศส** |
 

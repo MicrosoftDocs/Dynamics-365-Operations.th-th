@@ -3,14 +3,13 @@ title: โฮมเพจ Supply Chain Management
 description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
 author: kamaybac
 manager: tfehr
-ms.date: 06/30/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 17c8b95dd9cf05813d765d4552f493a1a1b00f31
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460059"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154290"
 ---
 # <a name="supply-chain-management-home-page"></a>โฮมเพจ Supply Chain Management
 
@@ -89,7 +88,6 @@ ms.locfileid: "4460059"
   - [ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **การจัดการคลังสินค้า:**
   - [สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในชีวิตกับการผลิตตามกระบวนการ](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **วิดีโอการควบคุมการผลิต:**
   - [การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต](https://youtu.be/y1jrd3A_k70)
@@ -102,7 +100,7 @@ ms.locfileid: "4460059"
 
 ## <a name="white-papers"></a>เอกสาร
 
-- [Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง](https://docs.microsoft.com/dynamics/s-e/)
 - [การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง

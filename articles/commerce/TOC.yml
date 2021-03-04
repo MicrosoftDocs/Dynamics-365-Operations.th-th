@@ -86,20 +86,20 @@
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: อัปเกรดส่วนขยายช่องทาง Retail เป็น Retail SDK ล่าสุด
                   href: dev-itpro/RetailSDK-update.md
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Commerce
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   items:
-                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Commerce
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.17 (เมษายน 2021)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: Commerce 10.0.16 (กุมภาพันธ์ 2021)
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (มกราคม 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: Commerce 10.0.14 (พฤศจิกายน 2020)
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: ทำความเข้าใจเกี่ยวกับ Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: การจัดการวงจรการใช้งานสำหรับการดำเนินการ
+              items:
+                - name: โฮมเพจการจัดการวงจรการใช้งานสำหรับการดำเนินการ
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: สถาปัตยกรรมสำหรับแอป Finance and Operations
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: การวางแผนสภาพแวดล้อม
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: จัดเตรียมสำหรับการโทรทันที
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: FAQ เกี่ยวกับการโทรทันที
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: ส่งคำขอรับบริการ
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: FAQ เกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: ย้ายสภาพแวดล้อมระหว่างศูนย์ข้อมูล
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: ใช้งานโครงการ Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'ตั้งค่าสภาพแวดล้อมใหม่, Azure DevOps และสาขาสำหรับโครงการ'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: อัปเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Commerce
+                  href: dev-itpro/updating-environments.md
+                - name: ปัญหาการทดสอบและประสิทธิภาพ
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: ภาพรวมของสถาปัตยกรรม
           items:
             - name: สถาปัตยกรรม
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: เตรียมใช้งานข้อมูลเบื้องต้นในสภาพแวดล้อม Commerce ใหม่
                   href: enable-configure-retail-functionality.md
-            - name: การจัดการวงจรการใช้งานสำหรับการดำเนินการ
-              items:
-                - name: โฮมเพจการจัดการวงจรการใช้งานสำหรับการดำเนินการ
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: สถาปัตยกรรมสำหรับแอป Finance and Operations
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: การวางแผนสภาพแวดล้อม
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: จัดเตรียมสำหรับการโทรทันที
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ เกี่ยวกับการโทรทันที
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: ส่งคำขอรับบริการ
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ เกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: ย้ายสภาพแวดล้อมระหว่างศูนย์ข้อมูล
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: ย้ายสิทธิ์การใช้งานระหว่างข้อตกลงชนิดต่างๆ
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: ใช้งานโครงการ Finance and Operations Commerce
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'ตั้งค่าสภาพแวดล้อมใหม่, Azure DevOps และสาขาสำหรับโครงการ Commerce'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: อัปเดตรหัสและสภาพแวดล้อมสำหรับโครงการ Commerce
-                  href: dev-itpro/updating-environments.md
-                - name: ปัญหาการทดสอบและประสิทธิภาพ
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: ตั้งค่าช่องทางของคุณ
           items:
             - name: ภาพรวมของช่องทาง
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: วิธีการชำระเงินในศูนย์บริการ
                       href: work-with-payments.md
+                    - name: การประมวลผลการขอคืนการชำระเงินในศูนย์บริการ
+                      href: call-center-refund-payments.md
                     - name: การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS
@@ -646,8 +648,10 @@
                       href: personalized-recommendations.md
                     - name: เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล
                       href: personalization-gdpr.md
-                - name: เปิดใช้งานคำแนะนำ "ร้านค้าที่คล้ายกัน"
+                - name: เปิดใช้งานคำแนะนำ "เลือกซื้อสินค้าที่คล้ายกัน"
                   href: shop-similar-looks.md
+                - name: เปิดใช้งานคำแนะนำ "คำอธิบายเลือกซื้อสินค้าที่คล้ายกัน"
+                  href: shop-similar-description.md
                 - name: ประสบการณ์ใช้งาน POS
                   items:
                     - name: เพิ่มคำแนะนำผลิตภัณฑ์ใน POS
@@ -712,7 +716,7 @@
           items:
             - name: ใบสั่งของลูกค้า
               items:
-                - name: ใบสั่งของลูกค้าในการขายหน้าร้าน (POS)
+                - name: ใบสั่งของลูกค้าใน POS
                   href: customer-orders-overview.md
                 - name: ใบสั่งของลูกค้าแบบไฮบริด
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: เปิดใช้งานวิธีการจัดส่งสำหรับการรับสินค้าหลายรายการ
                   href: multiple-pickup-modes.md
+                - name: ประมวลผลการเบิกสินค้าตามใบสั่งของลูกค้าใน POS
+                  href: process-order-pickup-POS.md
             - name: ใบสั่งขาย
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง
                   href: enable-store-detection.md
+                - name: บัตรของขวัญดิจิทัลอีคอมเมิร์ซ
+                  href: digital-gift-cards.md
+                - name: ข้อกำหนดเบราว์เซอร์สำหรับไซต์ Dynamics 365 Commerce
+                  href: browser-requirements.md
             - name: ภาพรวมของไซต์ตัวอย่าง
               items:
                 - name: ภาพรวมของโฮมเพจ
@@ -944,10 +954,12 @@
                       href: save-preview-publish-page.md
                     - name: ทำให้หน้าผลิตภัณฑ์สมบูรณ์
                       href: enrich-product-page.md
-                    - name: ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์
+                    - name: เพิ่มข้อมูลหน้าเริ่มต้นของประเภท
                       href: enrich-category-page.md
                     - name: ตรวจสอบการเข้าถึงเนื้อหาของหน้า
                       href: verify-accessibility.md
+                    - name: สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์ URL
+                      href: create-dynamic-pages.md
                 - name: การนำทางของไซต์
                   items:
                     - name: เลือกกำหนดการนำทางของไซต์
@@ -1058,6 +1070,8 @@
                   items:
                     - name: โมดูลคอลเลกชันผลิตภัณฑ์
                       href: product-collection-module-overview.md
+                    - name: โมดูลการแสดงผลแบบด่วน
+                      href: quick-view-module.md
                 - name: โมดูลการนำทาง
                   items:
                     - name: โมดูลการแสดงเส้นทาง
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: โมดูลตัวเลือกไซต์
                       href: site-selector.md
+                - name: ค้นหาโมดูล
+                  items:
+                    - name: โมดูลผลการค้นหา
+                      href: search-result-module.md
                 - name: โมดูลการปฏิบัติตามกฎระเบียบ
                   items:
                     - name: โมดูลการยินยอมใช้คุกกี้
@@ -1106,6 +1124,18 @@
           items:
             - name: การรวม Dynamics 365 Fraud Protection กับ Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: อีคอมเมิร์ซ B2B
+          items:
+            - name: ตั้งค่าไซต์อีคอมเมิร์ซ B2B
+              href: b2b/set-up-b2b-site.md
+            - name: สร้างระดับชั้นการสร้างแบบจำลองขององค์กรสำหรับองค์กร B2B
+              href: b2b/org-model.md
+            - name: จัดการผู้ใช้คู่ค้าทางธุรกิจบนไซต์อีคอมเมิร์ซ B2B
+              href: b2b/manage-b2b-users.md
+            - name: ตั้งค่าคอนฟิกวิธีการชำระเงินด้วยบัญชีลูกค้าจากไซต์อีคอมเมิร์ซ B2B
+              href: b2b/payment-method.md
+            - name: ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เฉพาะไซต์อีคอมเมิร์ซ B2B
+              href: b2b/quantity-limits.md
         - name: การตรวจสอบและการวิเคราะห์
           items:
             - name: ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: จำลองสถานะลงชื่อเข้าใช้ระหว่างการพัฒนาภายในเครื่อง
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: ตั้งค่าคอนฟิกคุณสมบัติของโมดูลที่จะแสดงตามบริบท
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: กระจายโมดูลทั่วโลกโดยใช้คลาส CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: ตั้งค่า Azure Key Vault สำหรับการจัดการคีย์อย่างปลอดภัย
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: การเปลี่ยนแปลงที่จะมาถึงใน Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: การพัฒนาที่สำคัญและการเปลี่ยนแปลง ALM จากเวอร์ชัน 10.0.10 เป็น 10.0.13
+                - name: การพัฒนาและการเปลี่ยนแปลง ALM จากรุ่น 10.0.10 เป็น 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: ผสานระบบการสร้างสำหรับ Commerce และ Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: สร้างแพคเกจที่สามารถปรับใช้ได้
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: การพัฒนาในสภาพแวดล้อมการพัฒนาที่โฮสต์ในระบบคลาวด์โดยไม่มีสิทธิ์การเข้าถึงของผู้ดูแลระบบ
+                - name: การพัฒนาในสภาพแวดล้อมที่โฮสต์ในระบบคลาวด์โดยไม่มีสิทธิ์การเข้าถึงของผู้ดูแลระบบ
                   href: dev-itpro/cloud-dev-box.md
                 - name: ตั้งค่าไปป์ไลน์การสร้าง Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: API สำหรับลูกค้าและผู้ใช้งาน Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK รุ่น 10.0.11 และใหม่กว่า)
+                - name: สร้าง API ส่วนขยายของ Retail Server (Retail SDK รุ่น 10.0.11 และใหม่กว่า)
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และเก่ากว่า)
                   href: dev-itpro/retail-server-extension.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: เปิดใช้งานการป้องกันการชำระเงินซ้ำสำหรับตัวเชื่อมต่อการชำระเงิน
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: สร้างการทำแพคเกจการชำระเงินสำหรับสำหรับโปรแกรมตรวจดูแอพลิเคชันในการปรับใช้ Service Fabric
+                - name: สร้างการจัดทำแพคเกจการชำระเงินของ Commerce สำหรับการปรับใช้งาน Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: ความสามารถในการเพิ่มฟังก์ชันอีคอมเมิร์ซของบุคคลที่สาม
               items:

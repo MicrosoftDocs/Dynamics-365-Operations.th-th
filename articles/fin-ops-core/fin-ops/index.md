@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: rhaertle
 ms.custom: 62303
 ms.search.region: Global
-ms.author: margoc
+ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
+ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694397"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "5073118"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
@@ -55,7 +55,7 @@ ms.locfileid: "4694397"
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ในสถานที่</a></p>
 <p><a href="get-started/public-preview-releases.md">การอัปเดตบริการรีลีสครั้งแรกและมาตรฐาน</a></p>
-<p><a href="get-started/whats-new-changed.md">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง</a></p>
+<p><a href="get-started/whats-new-changed.md">มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วน</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">ตั้งค่าคอนฟิกการอัปเดตบริการ</a></p>
