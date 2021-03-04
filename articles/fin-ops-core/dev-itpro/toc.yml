@@ -6,23 +6,23 @@
           href: ../fin-ops/index.md
         - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
           href: index.md
-        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
           items:
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Platform updates
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.17 (เมษายน 2021)
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform update สำหรับ 10.0.16 (กุมภาพันธ์ 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform update สำหรับ 10.0.15 (มกราคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: Platform update สำหรับ 10.0.14 (พฤศจิกายน 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
-                - name: คุณลักษณะของ Platform ที่เอาออกหรือเลิกสนับสนุน
+                - name: คุณลักษณะของ Platform ที่เอาออกหรือไม่สนับสนุน
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -122,15 +122,15 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: การรวมข้อมูลโดยใช้ Common Data Service
+                - name: การรวมข้อมูลโดยใช้ Dataverse
                   items:
-                    - name: ภาพรวมของการรวมข้อมูลโดยใช้ Common Data Service
+                    - name: ภาพรวมของการรวมข้อมูลโดยใช้ Dataverse
                       href: data-entities/data-integration-cds.md
                     - name: การรวมแบบสองทิศทาง
                       items:
                         - name: โฮมเพจการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-home-page.md
-                        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในการรวมแบบสองทิศทาง
+                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/whats-new-dual-write.md
                         - name: ภาพรวมของการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-overview.md
@@ -192,25 +192,27 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: การรวมบริษัท
                               items:
-                                - name: แนวคิดของบริษัทใน Common Data Services
+                                - name: แนวคิดของบริษัทใน Dataverse
                                   href: data-entities/dual-write/company-data.md
-                                - name: การเริ่มต้นระบบด้วยข้อมูลของบริษัท
+                                - name: เริ่มต้นข้อมูลบริษัท
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: ลำดับชั้นขององค์กรใน Common Data Service
+                            - name: ลำดับชั้นขององค์กรใน Dataverse
                               href: data-entities/dual-write/organization-mapping.md
-                            - name: ข้อมูลทางการเงินและภาษี
+                            - name: ข้อมูลการเงินและภาษี
                               items:
-                                - name: การเข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
+                                - name: เข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
                                   href: data-entities/dual-write/finance-tax-reference.md
                                 - name: บัญชีแยกประเภทแบบรวม
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: ข้อมูลหลักของภาษีแบบรวม
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดในการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: ซิงค์กับกลไกจัดการการกำหนดราคาตามต้องการของ Dynamics 365 Supply Chain Management
+                            - name: รวมการจัดซื้อใน Supply Chain Management กับ Field Service
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: ซิงค์แบบตามความต้องการกับกลไกจัดการราคาของ Supply Chain Management
                               href: data-entities/dual-write/pricing-engine.md
-                            - name: ใช้เครื่องมือการกำหนดราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
+                            - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดในการรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: ใช้กลไกจัดการราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
                               href: data-entities/dual-write/in-house-assets.md
@@ -220,27 +222,29 @@
                               href: data-entities/dual-write/inventory-availability.md
                         - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
                           items:
-                            - name: การสนับสนุนสำหรับโซลูชัน Field Service และโซลูชัน Project Service Automation
+                            - name: การสนับสนุนสำหรับโซลูชัน Field Service และ Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: ย้ายข้อมูลผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดจากตัวรวมข้อมูลไปที่การรวมแบบสองทิศทาง
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: การแก้ไขปัญหา
                               items:
-                                - name: ตรวจสอบว่ามีการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Common Data Service
+                                - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: แก้ไขปัญหาระหว่างการซิงโครไนส์เริ่มแรก
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: แก้ไขปัญหาเกี่ยวกับโมดูลการรวมแบบสองทิศทางในแอป Finance and Operations
+                                - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: แก้ไขปัญหาการซิงโครไนส์แบบสด
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: แก้ไขปัญหาที่เกี่ยวข้องกับการรับรู้โซลูชัน
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: แก้ไขปัญหาที่เกี่ยวข้องกับการอัปเกรดแอป Finance and Operations
+                                - name: แก้ไขปัญหาจากการอัปเกรดแอป Finance and Operations
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: การแก้ไขปัญหาทั่วไป
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: คำถามที่ถามบ่อยแบบสองทิศทาง
+                        - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/dual-write-faq.md
                     - name: การรวมกับ Power Platform
                       items:
@@ -338,8 +342,12 @@
               items:
                 - name: ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
                   href: data-entities/data-import-export-job.md
-                - name: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
+                - name: ซิงโครไนส์วันที่และเวลาของงานการนําเข้า
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: การนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: การเพิ่มประสิทธิภาพการย้ายข้อมูลสำหรับแอป Finance and Operations
+                  href: sysadmin/optimize-data-migration.md
             - name: การพัฒนาเอนทิตี้ข้อมูล
               items:
                 - name: หลักการออกแบบและแนวทางปฏิบัติสำหรับเอนทิตี้ข้อมูล
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: เรียกสถานะกิจกรรมการดำเนินงาน
                       href: database/api/v1/reference-get-status.md
+                    - name: เริ่มต้นและหยุดสภาพแวดล้อม
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: ข้อมูลสาธิต
           items:
             - name: ภาพรวมของข้อมูลสาธิต
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: ตารางระบบ
                   href: dev-ref/system-tables.md
-                - name: คลาสระบบ
-                  items:
-                    - name: รายการคลาสของระบบ
-                      href: dev-ref/system-classes/toc.yml
-                    - name: คลาสของระบบที่จัดกลุ่มตามตัวอักษร
-                      items:
-                        - name: คลาส A
-                          href: dev-ref/a-classes.md
-                        - name: คลาส B
-                          href: dev-ref/b-classes.md
-                        - name: คลาส C
-                          href: dev-ref/c-classes.md
-                        - name: คลาส D
-                          href: dev-ref/d-classes.md
-                        - name: คลาส E
-                          href: dev-ref/e-classes.md
-                        - name: คลาส F
-                          href: dev-ref/f-classes.md
-                        - name: คลาส G
-                          href: dev-ref/g-classes.md
-                        - name: คลาส H
-                          href: dev-ref/h-classes.md
-                        - name: คลาส I
-                          href: dev-ref/i-classes.md
-                        - name: คลาส J
-                          href: dev-ref/j-classes.md
-                        - name: คลาส K
-                          href: dev-ref/k-classes.md
-                        - name: คลาส L
-                          href: dev-ref/l-classes.md
-                        - name: คลาส M
-                          href: dev-ref/m-classes.md
-                        - name: คลาส N
-                          href: dev-ref/n-classes.md
-                        - name: คลาส O
-                          href: dev-ref/o-classes.md
-                        - name: คลาส P
-                          href: dev-ref/p-classes.md
-                        - name: คลาส Q
-                          href: dev-ref/q-classes.md
-                        - name: คลาส R
-                          href: dev-ref/r-classes.md
-                        - name: คลาส S
-                          href: dev-ref/s-classes.md
-                        - name: คลาส T
-                          href: dev-ref/t-classes.md
-                        - name: คลาส U
-                          href: dev-ref/u-classes.md
-                        - name: คลาส V
-                          href: dev-ref/v-classes.md
-                        - name: คลาส W
-                          href: dev-ref/w-classes.md
-                        - name: คลาส X
-                          href: dev-ref/x-classes.md
             - name: ความสามารถในการเพิ่มฟังก์ชัน
               items:
                 - name: หน้าแรกของความสามารถในการเพิ่มฟังก์ชัน
@@ -882,7 +838,7 @@
                       href: extensibility/customization-overlayering-extensions.md
                 - name: มีอะไรใหม่
                   items:
-                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างสำหรับความสามารถในการเพิ่มฟังก์ชัน
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในสำหรับความสามารถในการเพิ่มฟังก์ชัน
                       href: extensibility/extensibility-new.md
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.3
                       href: extensibility/extensibility-changes-10-3.md
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: การทดสอบแบบผู้ใช้รายเดียวด้วยตัวบันทึกงานและ Performance SDK
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: การทดสอบแบบหลายผู้ใช้ด้วย Performance SDK และตัวควบคุมการทดสอบแบบเฉพาะที่
+                - name: การทดสอบ Performance SDK แบบหลายผู้ใช้ด้วยตัวควบคุมการทดสอบแบบเฉพาะที่
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: การทดสอบแบบหลายผู้ใช้ด้วย Performance SDK และ Azure DevOps
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: คู่มือการแก้ไขปัญหาสำหรับการทดสอบแบบผู้ใช้รายเดียวหรือแบบหลายผู้ใช้ด้วย Performance SDK
+                - name: คู่มือการแก้ไขปัญหาสำหรับการทดสอบ Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: ทดสอบโครงการใน Visual Studio
                   href: perf-test/testing-support.md
-                - name: ปรับใช้สภาพแวดล้อมที่รองรับระบบอัตโนมัติของบิลด์และการทดสอบแบบต่อเนื่อง
+                - name: ปรับใช้และใช้งานสภาพแวดล้อมระบบอัตโนมัติของการสร้างและการทดสอบแบบต่อเนื่อง
                   href: perf-test/continuous-build-test-automation.md
                 - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
                   href: perf-test/systest-filtering.md
@@ -1088,7 +1044,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS สำหรับคู่ค้า
                   href: lifecycle-services/getting-started-lcs.md
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Lifecycle Services
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: ปัญหาที่ทราบ
                   href: lifecycle-services/known-issues.md
@@ -1164,7 +1120,7 @@
                   href: lifecycle-services/translation-service-overview.md
                 - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
                   href: lifecycle-services/use-translation-service.md
-                - name: แปลไฟล์เอกสารประกอบ
+                - name: แปลไฟล์คู่มือ
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
@@ -1172,11 +1128,13 @@
           items:
             - name: การรวม Microsoft Power Platform กับ Finance and Operations
               href: power-platform/overview.md
+            - name: ภาพรวมของส่วนเพิ่มเติม
+              href: power-platform/add-ins-overview.md
             - name: การสร้างแบบจำลองเอนทิตี้
               href: power-platform/entity-modeling.md
             - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
               href: power-platform/application-lifecycle-management.md
-            - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Common Data Service
+            - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Dataverse
               href: power-platform/admin-reference.md
             - name: พอร์ทัล Power Apps ที่มี Finance and Operations
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: กรณีทดสอบที่ได้รับมา
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: บทช่วยสอน Regression Suite Automation Tool และคุณลักษณะอื่นๆ
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: บทช่วยสอน Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-tutorial.md
             - name: แนวทางปฏิบัติ
               href: perf-test/rsat/rsat-best-practices.md
             - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
@@ -1467,7 +1425,7 @@
             - name: ขอรับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในประเทศจีน
               href: lifecycle-services/21vianet-support.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: การจัดการเซสชันของผู้ใช้
                   href: sysadmin/user-session-management.md
+                - name: บล็อกการเข้าถึงตามที่ตั้งด้วยการเข้าถึงแบบมีเงื่อนไขของ Azure AD
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: นำเข้าผู้ใช้จำนวนมาก
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: ตั้งค่าการแบ่งแยกหน้าที่
@@ -1524,6 +1484,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: ปฏิบัติตามข้อกำหนดด้านการให้สิทธิ์ใช้งานของผู้ใช้
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: ดูสถานะลิขสิทธิ์ผู้จัดจำหน่ายซอฟต์แวร์อิสระ
+              href: sysadmin/view-isv-license-status.md
             - name: ประมวลผลอัตโนมัติ
               href: sysadmin/process-automation.md
             - name: การประมวลผลชุดงาน
@@ -1542,8 +1504,6 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: บทบาทความปลอดภัยสำหรับผู้จัดการชุดงาน
                   href: sysadmin/runby.md
-                - name: ชุดงานสำหรับการจัดการการจัดเรียงข้อมูลดัชนี SQL
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: ตั้งค่าคอนฟิกการแจ้งเตือนชุดงาน
                   href: sysadmin/alerts.md
                 - name: แบบฟอร์มชุดงานขั้นสูง
@@ -1552,7 +1512,7 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: ยกเลิกชุดงานที่กำลังดำเนินการ
                   href: sysadmin/batch-abort.md
-            - name: ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+            - name: ที่ปรึกษาการเพิ่มประสิทธิภาพ
               items:
                 - name: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
                   href: sysadmin/optimization-advisor-overview.md

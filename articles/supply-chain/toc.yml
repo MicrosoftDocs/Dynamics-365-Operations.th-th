@@ -64,20 +64,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   items:
-                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Supply Chain Management
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (เมษายน 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (มกราคม 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: มุมมองที่บันทึก
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: มุมมองที่บันทึกไว้มาตรฐานของ Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: ความสามารถของกริด
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สถาปัตยกรรมสำหรับแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การวางแผนสภาพแวดล้อม
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: ใบสั่งของคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: การจัดการสินทรัพย์
           items:
             - name: ภาพรวมของการจัดการสินทรัพย์
@@ -363,6 +367,8 @@
               items:
                 - name: การคาดการณ์ ใบสั่งงาน และโครงการ
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: ใบเรียกเก็บเงินสำหรับการบํารุงรักษาสินทรัพย์ที่ลูกค้าเป็นเจ้าของ
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: รวมการจัดการสินทรัพย์ด้วยสินทรัพย์ถาวร
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: การบำรุงรักษาเชิงป้องกันและเชิงรับ
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: สถานะการบำรุงรักษา
                   href: asset-management/controlling-and-reporting/maintenance-status.md
-            - name: รวมการจัดการสินทรัพย์ด้วย Dynamics 365 Guides
+            - name: การจัดการสินทรัพย์จากแอปสำหรับอุปกรณ์เคลื่อนที่
+              items:
+                - name: ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: ใช้พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
+                  href: asset-management/asset-management-mobile-workspace.md
+            - name: รวมการจัดการสินทรัพย์กับ Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
-              href: asset-management/asset-management-mobile-workspace.md
         - name: การจัดการข้อมูล
           items:
             - name: เอนทิตี้เป้าหมาย
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของปริมาณสินค้าคงคลังคงเหลือ
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: แก้ไขปัญหาการดําเนินการสินค้าคงคลัง
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: กระบวนการขาออก
               items:
                 - name: ภาพรวมของกระบวนการขาออก
@@ -1377,12 +1389,18 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: ค่าเผื่อความปลอดภัย
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: ใบขอซื้อ
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: การวางแผนการผลิต
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/marking.md
                 - name: การวางแผนระหว่างบริษัท
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: ไม่รวมผลิตภัณฑ์ที่มีสถานะของวงจรการใช้ผลิตภัณฑ์ที่กำหนด
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: กรอบเวลาความครอบคลุม
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: อนุมัติแผนการใบสั่ง
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: ใช้ตัวออกแบบสูตร
                   href: production-control/formula-designer.md
+                - name: แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต
+                  href: production-control/override-default-reservation-principle.md
                 - name: เพิ่มผลิตภัณฑ์ย่อยโดยใช้น้ำหนักย่อยใบสั่งซื้อ
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: สร้างใบสั่งขายสำหรับผลิตภัณฑ์ที่จัดโครงแบบได้
@@ -2025,8 +2045,10 @@
                       href: production-control/production-set-up-requirements.md
                     - name: สูตรและสูตรการผลิต
                       href: production-control/bill-of-material-bom.md
-                    - name: ฟังก์ชันผู้ออกแบบ BOM
+                    - name: ฟังก์ชันตัวออกแบบ BOM
                       href: production-control/bom-designer-functionality.md
+                    - name: แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต
+                      href: production-control/override-default-reservation-principle.md
                     - name: สินค้าแฝง
                       href: production-control/phantom-items.md
                     - name: การคำนวณ BOM
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: ตั้งค่ามิติที่แตกต่างกันสำหรับการบรรจุและการจัดเก็บ
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
                       href: warehousing/tasks/set-up-containerization.md
                     - name: การยืนยันชุดงานและป้ายทะเบียน
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: พิมพ์ใหม่และทำให้ป้ายชื่อของเวฟเป็นโมฆะ
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: การจัดส่งพัสดุขนาดเล็ก
+                      href: warehousing/small-parcel-shipping.md
                     - name: แก้ไขปัญหาการสร้างและการจัดส่งสินค้าบรรทุก
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: การทำงานกับคำสั่งสถานที่
                       href: warehousing/create-location-directive.md
-                    - name: ขีดจำกัดการเก็บสินค้าคงคลังในสถานที่
+                    - name: ตั้งค่าคอนฟิกตัวกรองผลิตภัณฑ์ในธุรกรรมคลังสินค้า
+                      href: warehousing/filters-and-filter-codes.md
+                    - name: ขีดจำกัดการเก็บสินค้าคงคลังในที่ตั้ง
                       href: warehousing/location-stocking-limits.md
                     - name: รหัสขั้นตอนของเวฟ
                       href: warehousing/wave-step-codes.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: จัดกำหนดการสร้างงานระหว่างเวฟ
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: ตั้งค่าและใช้การพิมพ์ป้ายชื่อของเวฟ
                       href: warehousing/configure-wave-label-printing.md
                     - name: อัปเดตการจัดส่งอัตโนมัติ
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
                   items:
+                    - name: ติดตั้งและเชื่อมต่อแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
                       href: warehousing/install-configure-warehousing-app.md
                     - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
