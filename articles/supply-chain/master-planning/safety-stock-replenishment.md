@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438260"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987265"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
 
@@ -116,6 +115,3 @@ ms.locfileid: "4438260"
 ในระหว่างขั้นตอนความครอบคลุมของการวางแผนหลัก ไม่มีการลดระดับความสำคัญการเติมสินค้าคงคลังที่ปลอดภัยอีกต่อไป สามารถใช้สินค้าคงคลังคงเหลือ ก่อนชนิดความต้องการอื่นๆ ได้ สินค้าคงคลังในระหว่างการคำนวณความล่าช้า ตรรกะใหม่จะถูกเพิ่มไปที่บรรทัดการขายที่ล่าช้า ข้อกำหนดของบรรทัด BOM และทั้งหมดความต้องการ ชนิดอื่น ๆ เพื่อกำหนดว่า จะไม่สามารถส่งข้อความในเวลา ถ้ามีการใช้สินค้าคงคลังที่ปลอดภัย ถ้าระบบระบุว่า จะสามารถลดความล่าช้าได้โดยใช้สินค้าคงคลังที่ปลอดภัย จากนั้น รายการขายหรือรายการ BOM จะแทนที่ความครอบคลุมเริ่มต้นของพวกเขาด้วยสินค้าคงคลังที่ปลอดภัย แล้วระบบจะทริกเกอร์การเติมสินค้าสำหรับสินค้าคงคลังปลอดภัยแทน
 
 ถ้าแผนหรือสินค้าไม่ได้ถูกตั้งค่าสำหรับการคำนวณที่ล่าช้า จากนั้นข้อจำกัดสินค้าคงคลังด้านความปลอดภัยจะมีระดับความสำคัญเดียวกันกับชนิดความต้องการอื่นๆ ซึ่งหมายความว่า ไม่มีการสำรองของสินค้าคงคลังคงเหลือและสินค้าคงคลังอื่นๆ ก่อนความต้องการชนิดอื่นๆ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

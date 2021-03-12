@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4809a352f87cc3d88429461a06dfe36189ed5f31
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a7245824c53ab594d62e9296e1f32d32a96ab84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448237"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988031"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>ตั้งค่าผู้จัดจำหน่ายและบัญชีธนาคารของผู้จัดจำหน่ายสำหรับการโอนย้ายเครดิต ISO20022
 
@@ -52,6 +51,3 @@ ms.locfileid: "4448237"
 4. ในรายการนี้ ให้คลิกลิงค์ในแถว SEPA CT
 5. คลิก บันทึก
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49d09a3544631960e3f6b292dbdd8927dd499f07
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987065"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>เพิ่มการคำนวณไปยังแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -34,11 +33,8 @@ ms.locfileid: "4438498"
 
 ## <a name="create-calculation-expression"></a>สร้างนิพจน์การคำนวณ
 1. คลิกแก้ไขนิพจน์
-2. ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish=="White", 10, 15]'
+2. ในฟิลด์ ConstraintBody ให้ป้อน ' ถ้า[CabinetFinish == "ขาว" 10, 15]'
 3. คลิก ตรวจสอบความถูกต้อง
 4. คลิก ปิด
 5. คลิก ตกลง
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

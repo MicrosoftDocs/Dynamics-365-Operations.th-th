@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527397"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987215"
 ---
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 
@@ -59,7 +58,7 @@ ms.locfileid: "4527397"
 
 สามารถสร้างข้อกำหนดผลิตภัณฑ์ได้ในการบริหารห่วงโซ่อุปทาน ซึ่งยังสามารถถูกนำเข้าจากการจัดการวัฏจักรผลิตภัณฑ์ (PLM) การจัดการข้อมูลผลิตภัณฑ์ (PDM) หรือระบบการจัดการข้อมูลผลิตภัณฑ์ (PIM) ได้ เมื่อมีการใช้อินสแตนซ์ของ Supply Chain Management มากกว่าหนึ่งรายการ โดยทั่วไป อินสแตนซ์หนึ่งจะถูกใช้เป็นข้อมูลหลักของข้อมูลผลิตภัณฑ์สำหรับอินสแตนซ์อื่น ๆ ทั้งหมด วิธีการนี้ได้รับการสนับสนุนโดยชุดของเอนทิตีข้อมูลขนาดใหญ่ ซึ่งเปิดใช้งานการส่งออกและนำเข้าข้อมูลคำนิยามผลิตภัณฑ์จากอินสแตนซ์หนึ่งไปยังอีกอินสแตนซ์หนึ่งได้
 
-เพื่อสนับสนุนการกระจายของข้อมูลผลิตภัณฑ์ไปยังอินสแตนซ์ต่างๆ Supply Chain Management อนุญาตให้คุณใช้ Common Data Service สามารถส่งออกข้อกำหนดผลิตภัณฑ์จากอินสแตนซ์ของ Supply Chain Management ไปยัง Common Data Service ได้ จากนั้น สามารถใช้ข้อกำหนดผลิตภัณฑ์เพื่อเตรียมใช้งานแอพลิเคชันทางธุรกิจอื่นๆ เช่น Dynamics 365 Sales ด้วยข้อมูลผลิตภัณฑ์
+เพื่อสนับสนุนการกระจายของข้อมูลผลิตภัณฑ์ไปยังอินสแตนซ์ต่างๆ Supply Chain Management อนุญาตให้คุณใช้ Microsoft Dataverse สามารถส่งออกข้อกำหนดผลิตภัณฑ์จากอินสแตนซ์ของ Supply Chain Management ไปยัง Microsoft Dataverse ได้ จากนั้น สามารถใช้ข้อกำหนดผลิตภัณฑ์เพื่อเตรียมใช้งานแอพลิเคชันทางธุรกิจอื่นๆ เช่น Dynamics 365 Sales ด้วยข้อมูลผลิตภัณฑ์
 
 โปรดสังเกตว่า ในองค์กรแบบไดนามิกและแบบคล่อง ข้อมูลผลิตภัณฑ์เปลี่ยนแปลงทุกวัน ดังนั้น การบำรุงรักษาข้อมูลผลิตภัณฑ์ตามจริงและถูกต้องคือ กระบวนการทางธุรกิจที่สำคัญเอง
 
@@ -96,6 +95,3 @@ ms.locfileid: "4527397"
 ### <a name="manually-creating-a-new-released-product"></a>การสร้างผลิตภัณฑ์ที่นำออกใช้ใหม่ด้วยตนเอง
 
 คุณสามารถสร้างผลิตภัณฑ์นำออกใช้ในการรันหนึ่ง ๆ ได้ด้วยตนเอง โดยขึ้นอยู่กับกระบวนการทางธุรกิจขององค์กรและกฎใด ๆ เกี่ยวกับว่าควรจะใช้ฟังก์ชันนี้หรือไม่ ฟังก์ชันนี้สร้างผลิตภัณฑ์ใหม่ และจะนำออกใช้กับนิติบุคคลปัจจุบันโดยอัตโนมัติ เมื่อต้องการสร้างผลิตภัณฑ์ใหม่ คลิก **ผลิตภัณฑ์ที่นำออกใช้** ในพื้นที่ทำงาน **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** หรือในหน้ารายการ **ผลิตภัณฑ์ที่นำออกใช้**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

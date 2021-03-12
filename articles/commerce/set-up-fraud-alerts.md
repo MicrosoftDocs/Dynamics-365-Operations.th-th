@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416208"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985797"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ
 
@@ -69,6 +68,3 @@ ms.locfileid: "4416208"
 เมื่อต้องการดูและจัดการใบสั่งที่ถูกระงับเพื่อการตรวจทานการฉ้อโกง ไปที่ **การขายปลีกและการค้า** \> **ลูกค้า** \> **การระงับใบสั่ง** ในหน้า **การระงับใบสั่ง** เลือกการป้อนข้อมูลในรายการ และจากนั้น คลิก **การระงับใบสั่ง** เพื่อดูมุมมองโดยละเอียดเพิ่มเติมที่มีข้อมูลเกี่ยวกับเหตุผลสำหรับการระงับ บน FastTab **รายละเอียดการฉ้อโกง** คุณสามารถดูเกณฑ์การฉ้อโกงเป็นระบบที่ถูกพบซึ่งจะตรงกับใบสั่งและคะแนนที่นำไปใช้ ถ้าใบสั่งถูกระงับด้วยตนเอง คุณสามารถทบทวนข้อคิดเห็นใดๆ ที่ป้อนโดยผู้ใช้ที่ระงับใบสั่ง โดยดูที่ส่วน **หมายเหตุการฉ้อโกง** บน FastTab **หมายเหตุ** ได้
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการทำงานกับใบสั่งที่ระงับ โปรดดูที่ [การระงับใบสั่ง](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

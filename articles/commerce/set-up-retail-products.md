@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985722"
 ---
 # <a name="set-up-retail-products"></a>ตั้งค่าผลิตภัณฑ์ขายปลีก
 
@@ -40,6 +39,3 @@ ms.locfileid: "4416206"
 4. **เพิ่มผลิตภัณฑ์ลงในการจัดประเภท** การจัดประเภทแสดงถึงชุดของผลิตภัณฑ์ที่คุณเสนอในช่องทางของคุณ คุณสามารถกำหนดการจัดประเภทอย่างน้อยหนึ่งรายการ และแต่ละผลิตภัณฑ์สามารถถูกกำหนดให้กับการจัดประเภทหนึ่งรายการขึ้นไป ในการกำหนดผลิตภัณฑ์ให้กับช่องทาง คุณกำหนดการจัดประเภทให้ช่องทางเหล่านั้น เมื่อคุณสร้างการจัดประเภท คุณสามารถเพิ่มผลิตภัณฑ์ที่ยังไม่ได้ถูกนำออกใช้กับนิติบุคคล อย่างไรก็ตาม คุณต้องนำผลิตภัณฑ์ออกใช้ไปยังนิติบุคคล ก่อนที่จะสามารถทำให้ผลิตภัณฑ์เหล่านั้นพร้อมใช้งานสำหรับช่องทาง
 5. **เพิ่มผลิตภัณฑ์ไปยังลำดับชั้นการนำทาง** ก่อนที่ผลิตภัณฑ์จะสามารถถูกเรียกดูแบบออนไลน์หรือแบบขายหน้าร้าน (POS) ต้องมีการจัดประเภทในลำดับชั้นการนำทาง Commerce
 6. **เพิ่มผลิตภัณฑ์ลงในแค็ตตาล็อก** แม้ว่าขั้นตอนนี้ไม่จำเป็นสำหรับ POS แต่ร้านค้าออนไลน์จำเป็นต้องกำหนดว่าผลิตภัณฑ์ถูกรวมอยู่ในอย่างน้อยหนึ่งแค็ตตาล็อก
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
