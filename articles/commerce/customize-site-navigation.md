@@ -10,103 +10,102 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d45f116acc19130e09108a246d276bb4b62a1e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416114"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972918"
 ---
-# <a name="customize-site-navigation"></a><span data-ttu-id="5a8de-103">เลือกกำหนดการนำทางของไซต์</span><span class="sxs-lookup"><span data-stu-id="5a8de-103">Customize site navigation</span></span>
+# <a name="customize-site-navigation"></a><span data-ttu-id="445a0-103">เลือกกำหนดการนำทางของไซต์</span><span class="sxs-lookup"><span data-stu-id="445a0-103">Customize site navigation</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5a8de-104">หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองได้ เพื่อจัดระเบียบผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-104">This topic describes how to create a customized online navigation hierarchy to organize your products for browsing on your Microsoft Dynamics 365 Commerce site.</span></span>
+<span data-ttu-id="445a0-104">หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองได้ เพื่อจัดระเบียบผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-104">This topic describes how to create a customized online navigation hierarchy to organize your products for browsing on your Microsoft Dynamics 365 Commerce site.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5a8de-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="5a8de-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="445a0-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="445a0-105">Overview</span></span>
 
-<span data-ttu-id="5a8de-106">หน้าร้านออนไลน์โดยทั่วไปจะให้ลูกค้าค้นพบและเลือกดูผลิตภัณฑ์โดยใช้การนำทางตามประเภทผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="5a8de-106">Online storefronts typically let customers discover and browse products by navigating through product categories.</span></span> <span data-ttu-id="5a8de-107">โดยทั่วไปจะมีการจัดเรียงตามแท็บที่ด้านบนของหน้าหรือโดยแถบนำทางทางด้านซ้าย</span><span class="sxs-lookup"><span data-stu-id="5a8de-107">This capability is usually provided by tabs at the top of the page or by a navigation bar on the left.</span></span> <span data-ttu-id="5a8de-108">ใน Dynamics 365 Commerce คุณสามารถสร้างและจัดการโครงสร้างลำดับชั้นของการนำทางประเภทของคุณและผลิตภัณฑ์ที่รวมอยู่ในประเภทต่างๆ</span><span class="sxs-lookup"><span data-stu-id="5a8de-108">In Dynamics 365 Commerce, you can create and manage the hierarchal structure of your category navigation and the products that are included in the various categories.</span></span>
+<span data-ttu-id="445a0-106">หน้าร้านออนไลน์โดยทั่วไปจะให้ลูกค้าค้นพบและเลือกดูผลิตภัณฑ์โดยใช้การนำทางตามประเภทผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="445a0-106">Online storefronts typically let customers discover and browse products by navigating through product categories.</span></span> <span data-ttu-id="445a0-107">โดยทั่วไปจะมีการจัดเรียงตามแท็บที่ด้านบนของหน้าหรือโดยแถบนำทางทางด้านซ้าย</span><span class="sxs-lookup"><span data-stu-id="445a0-107">This capability is usually provided by tabs at the top of the page or by a navigation bar on the left.</span></span> <span data-ttu-id="445a0-108">ใน Dynamics 365 Commerce คุณสามารถสร้างและจัดการโครงสร้างลำดับชั้นของการนำทางประเภทของคุณและผลิตภัณฑ์ที่รวมอยู่ในประเภทต่างๆ</span><span class="sxs-lookup"><span data-stu-id="445a0-108">In Dynamics 365 Commerce, you can create and manage the hierarchal structure of your category navigation and the products that are included in the various categories.</span></span>
 
-## <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="5a8de-109">สร้างลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5a8de-109">Create a channel navigation hierarchy</span></span>
+## <a name="create-a-channel-navigation-hierarchy"></a><span data-ttu-id="445a0-109">สร้างลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="445a0-109">Create a channel navigation hierarchy</span></span>
 
-<span data-ttu-id="5a8de-110">ในการสร้างลำดับชั้นการนำทางของช่องทาง ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="5a8de-110">To create a channel navigation hierarchy, follow these steps.</span></span>
+<span data-ttu-id="445a0-110">ในการสร้างลำดับชั้นการนำทางของช่องทาง ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="445a0-110">To create a channel navigation hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="5a8de-111">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทและการจัดการผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="5a8de-111">Go to **Retail and Commerce \> Products and categories \> Category and product management**.</span></span>
-1. <span data-ttu-id="5a8de-112">เลือก **การจัดประเภทตามลำดับชั้น** แล้วเลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="5a8de-112">Select **Category hierarchies**, and then select **New**.</span></span>
-1. <span data-ttu-id="5a8de-113">ตั้งชื่อการลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="5a8de-113">Name the hierarchy.</span></span>
+1. <span data-ttu-id="445a0-111">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทและการจัดการผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="445a0-111">Go to **Retail and Commerce \> Products and categories \> Category and product management**.</span></span>
+1. <span data-ttu-id="445a0-112">เลือก **การจัดประเภทตามลำดับชั้น** แล้วเลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="445a0-112">Select **Category hierarchies**, and then select **New**.</span></span>
+1. <span data-ttu-id="445a0-113">ตั้งชื่อการลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="445a0-113">Name the hierarchy.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="5a8de-114">ประเภทสูงสุดที่คุณสร้างคือโหนดประเภทราก</span><span class="sxs-lookup"><span data-stu-id="5a8de-114">The topmost category that you create is the root category node.</span></span> <span data-ttu-id="5a8de-115">จะไม่มีการแสดงบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-115">It won't be shown on your site.</span></span> <span data-ttu-id="5a8de-116">เมื่อต้องการสร้างการจัดประเภทตามลำดับชั้นที่โหนดระดับบนสุดหนึ่งๆ จะแสดงบนไซต์ของคุณ ให้สร้างและตั้งชื่อประเภทเป็นรองของประเภทราก</span><span class="sxs-lookup"><span data-stu-id="5a8de-116">To create a category hierarchy where a single top-level node is shown on your site, create and name the category as a child of the root category.</span></span>
+    > <span data-ttu-id="445a0-114">ประเภทสูงสุดที่คุณสร้างคือโหนดประเภทราก</span><span class="sxs-lookup"><span data-stu-id="445a0-114">The topmost category that you create is the root category node.</span></span> <span data-ttu-id="445a0-115">จะไม่มีการแสดงบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-115">It won't be shown on your site.</span></span> <span data-ttu-id="445a0-116">เมื่อต้องการสร้างการจัดประเภทตามลำดับชั้นที่โหนดระดับบนสุดหนึ่งๆ จะแสดงบนไซต์ของคุณ ให้สร้างและตั้งชื่อประเภทเป็นรองของประเภทราก</span><span class="sxs-lookup"><span data-stu-id="445a0-116">To create a category hierarchy where a single top-level node is shown on your site, create and name the category as a child of the root category.</span></span>
 
-1. <span data-ttu-id="5a8de-117">เลือก **โหนดประเภทใหม่** และตั้งชื่อประเภท</span><span class="sxs-lookup"><span data-stu-id="5a8de-117">Select **New category node**, and name the category.</span></span>
-1. <span data-ttu-id="5a8de-118">ดำเนินการต่อเพื่อสร้างประเภทระดับเดียวกันและประเภทรองตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="5a8de-118">Continue to create sibling and child categories as you require.</span></span>
+1. <span data-ttu-id="445a0-117">เลือก **โหนดประเภทใหม่** และตั้งชื่อประเภท</span><span class="sxs-lookup"><span data-stu-id="445a0-117">Select **New category node**, and name the category.</span></span>
+1. <span data-ttu-id="445a0-118">ดำเนินการต่อเพื่อสร้างประเภทระดับเดียวกันและประเภทรองตามที่คุณต้องการ</span><span class="sxs-lookup"><span data-stu-id="445a0-118">Continue to create sibling and child categories as you require.</span></span>
 
-<span data-ttu-id="5a8de-119">ขณะนี้คุณสามารถกำหนดผลิตภัณฑ์ให้กับแต่ละประเภทที่คุณสร้างไว้ภายใต้ประเภทระดับบนสุด</span><span class="sxs-lookup"><span data-stu-id="5a8de-119">You can now assign products to each category that you created under the top-level category.</span></span>
+<span data-ttu-id="445a0-119">ขณะนี้คุณสามารถกำหนดผลิตภัณฑ์ให้กับแต่ละประเภทที่คุณสร้างไว้ภายใต้ประเภทระดับบนสุด</span><span class="sxs-lookup"><span data-stu-id="445a0-119">You can now assign products to each category that you created under the top-level category.</span></span>
 
-## <a name="customize-the-order-of-categories"></a><span data-ttu-id="5a8de-120">การกำหนดลำดับของประเภทด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="5a8de-120">Customize the order of categories</span></span>
+## <a name="customize-the-order-of-categories"></a><span data-ttu-id="445a0-120">การกำหนดลำดับของประเภทด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="445a0-120">Customize the order of categories</span></span>
 
-<span data-ttu-id="5a8de-121">ตามค่าเริ่มต้นประเภทที่คุณกำหนดจะปรากฏตามลำดับตัวอักษรบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-121">By default, the categories that you define will appear in alphabetical order on your site.</span></span> <span data-ttu-id="5a8de-122">คุณยังสามารถกำหนดลำดับการแสดงผลของประเภทได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="5a8de-122">However, you can also customize the display order of categories.</span></span>
+<span data-ttu-id="445a0-121">ตามค่าเริ่มต้นประเภทที่คุณกำหนดจะปรากฏตามลำดับตัวอักษรบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-121">By default, the categories that you define will appear in alphabetical order on your site.</span></span> <span data-ttu-id="445a0-122">คุณยังสามารถกำหนดลำดับการแสดงผลของประเภทได้ด้วย</span><span class="sxs-lookup"><span data-stu-id="445a0-122">However, you can also customize the display order of categories.</span></span>
 
-## <a name="assign-a-category-hierarchy-type"></a><span data-ttu-id="5a8de-123">กำหนดชนิดของการจัดประเภทตามลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="5a8de-123">Assign a category hierarchy type</span></span>
+## <a name="assign-a-category-hierarchy-type"></a><span data-ttu-id="445a0-123">กำหนดชนิดของการจัดประเภทตามลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="445a0-123">Assign a category hierarchy type</span></span>
 
-1. <span data-ttu-id="5a8de-124">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทและการจัดการผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="5a8de-124">Go to **Retail and Commerce \> Products and categories \> Category and product management**.</span></span>
-1. <span data-ttu-id="5a8de-125">เลือก **การจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="5a8de-125">Select **Category hierarchies**.</span></span>
-1. <span data-ttu-id="5a8de-126">จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ **การจัดประเภทตามลำดับชั้น** ในกลุ่ม **การตั้งค่า** ให้เลือก **เชื่อมโยงการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="5a8de-126">On the Action Pane, on the **Category hierarchy** tab, in the **Set up** group, select **Associate hierarchy type**.</span></span>
-1. <span data-ttu-id="5a8de-127">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="5a8de-127">Select **New**.</span></span>
-1. <span data-ttu-id="5a8de-128">ในฟิลด์ **ชนิดของลำดับชั้นของประเภท** เลือก **ลำดับชั้นการนำทางของช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="5a8de-128">In the **Category hierarchy type** field, select **Channel navigation hierarchy**.</span></span>
-1. <span data-ttu-id="5a8de-129">ในฟิลด์ **การจัดประเภทตามลำดับชั้น** ให้เลือกลำดับชั้นการนำทางช่องทางที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="5a8de-129">In the **Category hierarchy** field, select the channel navigation hierarchy that you created earlier.</span></span>
+1. <span data-ttu-id="445a0-124">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทและการจัดการผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="445a0-124">Go to **Retail and Commerce \> Products and categories \> Category and product management**.</span></span>
+1. <span data-ttu-id="445a0-125">เลือก **การจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="445a0-125">Select **Category hierarchies**.</span></span>
+1. <span data-ttu-id="445a0-126">จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ **การจัดประเภทตามลำดับชั้น** ในกลุ่ม **การตั้งค่า** ให้เลือก **เชื่อมโยงการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="445a0-126">On the Action Pane, on the **Category hierarchy** tab, in the **Set up** group, select **Associate hierarchy type**.</span></span>
+1. <span data-ttu-id="445a0-127">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="445a0-127">Select **New**.</span></span>
+1. <span data-ttu-id="445a0-128">ในฟิลด์ **ชนิดของลำดับชั้นของประเภท** เลือก **ลำดับชั้นการนำทางของช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="445a0-128">In the **Category hierarchy type** field, select **Channel navigation hierarchy**.</span></span>
+1. <span data-ttu-id="445a0-129">ในฟิลด์ **การจัดประเภทตามลำดับชั้น** ให้เลือกลำดับชั้นการนำทางช่องทางที่คุณสร้างไว้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="445a0-129">In the **Category hierarchy** field, select the channel navigation hierarchy that you created earlier.</span></span>
 
-## <a name="publish-new-or-updated-navigation-hierarchies"></a><span data-ttu-id="5a8de-130">เผยแพร่ลำดับชั้นการนำทางใหม่หรือที่มีการอัพเดต</span><span class="sxs-lookup"><span data-stu-id="5a8de-130">Publish new or updated navigation hierarchies</span></span>
+## <a name="publish-new-or-updated-navigation-hierarchies"></a><span data-ttu-id="445a0-130">เผยแพร่ลำดับชั้นการนำทางใหม่หรือที่มีการอัพเดต</span><span class="sxs-lookup"><span data-stu-id="445a0-130">Publish new or updated navigation hierarchies</span></span>
 
-<span data-ttu-id="5a8de-131">เมื่อต้องการให้ลำดับชั้นการนำทางพร้อมใช้งานสำหรับหน้าร้านออนไลน์ของคุณ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5a8de-131">To make your navigation hierarchy available to your online storefront, follow these steps.</span></span>
+<span data-ttu-id="445a0-131">เมื่อต้องการให้ลำดับชั้นการนำทางพร้อมใช้งานสำหรับหน้าร้านออนไลน์ของคุณ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="445a0-131">To make your navigation hierarchy available to your online storefront, follow these steps.</span></span>
 
-1. <span data-ttu-id="5a8de-132">ไปยัง **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> ประเภทช่องทางและแอตทริบิวต์ผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="5a8de-132">Go to **Retail and Commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
-1. <span data-ttu-id="5a8de-133">ในแผนภูมิด้านซ้ายให้เลือกร้านค้าออนไลน์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-133">In the tree on the left, select your online store.</span></span>
-1. <span data-ttu-id="5a8de-134">เลือก **เผยแพร่การอัพเดตช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="5a8de-134">Select **Publish channel updates**.</span></span>
-1. <span data-ttu-id="5a8de-135">ไปยัง **การขายปลีกและการค้า \> การขายปลีกและไอทีเชิงพาณิชย์ \> กำหนดการการจัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="5a8de-135">Go to **Retail and Commerce \> Retail and Commerce IT \> Distribution schedule**.</span></span>
-1. <span data-ttu-id="5a8de-136">ในรายการนี้ ให้ค้นหาและเลือก **Job 1040**</span><span class="sxs-lookup"><span data-stu-id="5a8de-136">In the list, find and select **Job 1040**.</span></span>
-1. <span data-ttu-id="5a8de-137">เลือก **รันเดี๋ยวนี้**</span><span class="sxs-lookup"><span data-stu-id="5a8de-137">Select **Run now**.</span></span>
-1. <span data-ttu-id="5a8de-138">ทำซ้ำขั้นตอนที่ 5 และ 6 สำหรับงาน 1070 และ 1150</span><span class="sxs-lookup"><span data-stu-id="5a8de-138">Repeat steps 5 and 6 for jobs 1070 and 1150.</span></span>
+1. <span data-ttu-id="445a0-132">ไปยัง **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> ประเภทช่องทางและแอตทริบิวต์ผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="445a0-132">Go to **Retail and Commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
+1. <span data-ttu-id="445a0-133">ในแผนภูมิด้านซ้ายให้เลือกร้านค้าออนไลน์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-133">In the tree on the left, select your online store.</span></span>
+1. <span data-ttu-id="445a0-134">เลือก **เผยแพร่การอัพเดตช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="445a0-134">Select **Publish channel updates**.</span></span>
+1. <span data-ttu-id="445a0-135">ไปยัง **การขายปลีกและการค้า \> การขายปลีกและไอทีเชิงพาณิชย์ \> กำหนดการการจัดจำหน่าย**</span><span class="sxs-lookup"><span data-stu-id="445a0-135">Go to **Retail and Commerce \> Retail and Commerce IT \> Distribution schedule**.</span></span>
+1. <span data-ttu-id="445a0-136">ในรายการนี้ ให้ค้นหาและเลือก **Job 1040**</span><span class="sxs-lookup"><span data-stu-id="445a0-136">In the list, find and select **Job 1040**.</span></span>
+1. <span data-ttu-id="445a0-137">เลือก **รันเดี๋ยวนี้**</span><span class="sxs-lookup"><span data-stu-id="445a0-137">Select **Run now**.</span></span>
+1. <span data-ttu-id="445a0-138">ทำซ้ำขั้นตอนที่ 5 และ 6 สำหรับงาน 1070 และ 1150</span><span class="sxs-lookup"><span data-stu-id="445a0-138">Repeat steps 5 and 6 for jobs 1070 and 1150.</span></span>
 
-## <a name="show-categories-on-your-site"></a><span data-ttu-id="5a8de-139">แสดงประเภทบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-139">Show categories on your site</span></span>
+## <a name="show-categories-on-your-site"></a><span data-ttu-id="445a0-139">แสดงประเภทบนไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-139">Show categories on your site</span></span>
 
-<span data-ttu-id="5a8de-140">เมื่อต้องการแสดงการจัดประเภทตามลำดับชั้นบนหน้าร้านออนไลน์ของคุณ คุณต้องเพิ่มโมดูลของเมนูนำทางในตำแหน่งที่เหมาะสมในเท็มเพลตหรือส่วน</span><span class="sxs-lookup"><span data-stu-id="5a8de-140">To show your category hierarchy on your online storefront, you must add the navigation menu module in the appropriate location in a template or fragment.</span></span> <span data-ttu-id="5a8de-141">จากนั้นโมดูลเมนูการนำทางจะแสดงลำดับชั้นการนำทางของคุณ หากคุณเผยแพร่ลำดับชั้นนำทางไปยังช่องทางที่ไซต์ของคุณเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="5a8de-141">The navigation menu module will then show your navigation hierarchy, provided that you've published your navigation hierarchy to the channel that your site is bound to.</span></span>
+<span data-ttu-id="445a0-140">เมื่อต้องการแสดงการจัดประเภทตามลำดับชั้นบนหน้าร้านออนไลน์ของคุณ คุณต้องเพิ่มโมดูลของเมนูนำทางในตำแหน่งที่เหมาะสมในเท็มเพลตหรือส่วน</span><span class="sxs-lookup"><span data-stu-id="445a0-140">To show your category hierarchy on your online storefront, you must add the navigation menu module in the appropriate location in a template or fragment.</span></span> <span data-ttu-id="445a0-141">จากนั้นโมดูลเมนูการนำทางจะแสดงลำดับชั้นการนำทางของคุณ หากคุณเผยแพร่ลำดับชั้นนำทางไปยังช่องทางที่ไซต์ของคุณเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="445a0-141">The navigation menu module will then show your navigation hierarchy, provided that you've published your navigation hierarchy to the channel that your site is bound to.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5a8de-142">โมดูลของเมนูนำทางที่รวมอยู่ในไลบรารีโมดูล ช่วยให้ผู้ใช้สามารถนำทางไปยังประเภทที่ไม่มีประเภทย่อยเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="5a8de-142">The navigation menu module that is included in the module library lets users navigate only to categories that don't have subcategories.</span></span> <span data-ttu-id="5a8de-143">ถ้าลูกค้าของคุณควรสามารถนำทางไปยังประเภทที่มีประเภทย่อยคุณต้องกำหนดโมดูลของเมนูนำทางด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="5a8de-143">If your customers should be able to navigate to categories that have subcategories, you must customize the navigation menu module.</span></span>
+> <span data-ttu-id="445a0-142">โมดูลของเมนูนำทางที่รวมอยู่ในไลบรารีโมดูล ช่วยให้ผู้ใช้สามารถนำทางไปยังประเภทที่ไม่มีประเภทย่อยเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="445a0-142">The navigation menu module that is included in the module library lets users navigate only to categories that don't have subcategories.</span></span> <span data-ttu-id="445a0-143">ถ้าลูกค้าของคุณควรสามารถนำทางไปยังประเภทที่มีประเภทย่อยคุณต้องกำหนดโมดูลของเมนูนำทางด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="445a0-143">If your customers should be able to navigate to categories that have subcategories, you must customize the navigation menu module.</span></span>
 
-## <a name="add-custom-navigation-options"></a><span data-ttu-id="5a8de-144">เพิ่มตัวเลือกการนำทางแบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="5a8de-144">Add custom navigation options</span></span>
+## <a name="add-custom-navigation-options"></a><span data-ttu-id="445a0-144">เพิ่มตัวเลือกการนำทางแบบกำหนดเอง</span><span class="sxs-lookup"><span data-stu-id="445a0-144">Add custom navigation options</span></span>
 
-<span data-ttu-id="5a8de-145">คุณสามารถเพิ่มตัวเลือกการนำทางที่ไม่ได้เป็นส่วนหนึ่งของการจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ของคุณได้</span><span class="sxs-lookup"><span data-stu-id="5a8de-145">On your navigation menu, you can add navigation options that aren't part of your product category hierarchy.</span></span> <span data-ttu-id="5a8de-146">ตัวอย่างเช่น เมื่อสิ้นสุดรายการของประเภทผลิตภัณฑ์ คุณสามารถเพิ่มรายการ **ติดต่อเรา** ที่ชี้ไปยังหน้าผู้ติดต่อที่คุณได้สร้างไว้สำหรับไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="5a8de-146">For example, at the end of the list of product categories, you can add a **Contact Us** item that points to a contact page that you've built for your site.</span></span>
+<span data-ttu-id="445a0-145">คุณสามารถเพิ่มตัวเลือกการนำทางที่ไม่ได้เป็นส่วนหนึ่งของการจัดประเภทตามลำดับชั้นของผลิตภัณฑ์ของคุณได้</span><span class="sxs-lookup"><span data-stu-id="445a0-145">On your navigation menu, you can add navigation options that aren't part of your product category hierarchy.</span></span> <span data-ttu-id="445a0-146">ตัวอย่างเช่น เมื่อสิ้นสุดรายการของประเภทผลิตภัณฑ์ คุณสามารถเพิ่มรายการ **ติดต่อเรา** ที่ชี้ไปยังหน้าผู้ติดต่อที่คุณได้สร้างไว้สำหรับไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="445a0-146">For example, at the end of the list of product categories, you can add a **Contact Us** item that points to a contact page that you've built for your site.</span></span>
 
-<span data-ttu-id="5a8de-147">เมื่อต้องการเพิ่มตัวเลือกการนำทางแบบกำหนดเองลงในเมนูนำทางของคุณ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="5a8de-147">To add custom navigation options to your navigation menu, follow these steps.</span></span>
+<span data-ttu-id="445a0-147">เมื่อต้องการเพิ่มตัวเลือกการนำทางแบบกำหนดเองลงในเมนูนำทางของคุณ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="445a0-147">To add custom navigation options to your navigation menu, follow these steps.</span></span>
 
-1. <span data-ttu-id="5a8de-148">ในเท็มเพลตหรือส่วนที่คุณต้องการกำหนดเอง ให้เลือกโมดูลเมนูการนำทาง</span><span class="sxs-lookup"><span data-stu-id="5a8de-148">In the template or fragment that you want to customize, select the navigation menu module.</span></span>
-1. <span data-ttu-id="5a8de-149">ในบานหน้าต่างคุณสมบัติบนแท็บ **ข้อมูล** ให้เลือก **เพิ่มสินค้า** เพื่อสร้างสินค้านำทางของระบบการจัดการเนื้อหา (CMS) ใหม่</span><span class="sxs-lookup"><span data-stu-id="5a8de-149">In the property pane, on the **Data** tab, select **Add item** to create a new content management system (CMS) navigation item.</span></span>
-1. <span data-ttu-id="5a8de-150">ป้อนข้อความลิงก์และ URL</span><span class="sxs-lookup"><span data-stu-id="5a8de-150">Enter link text and a URL.</span></span>
-1. <span data-ttu-id="5a8de-151">ทำซ้ำขั้นตอนที่ 2 และ 3 เพื่อเพิ่มตัวเลือกนำทางแบบกำหนดเองเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5a8de-151">Repeat steps 2 and 3 to add more custom navigation options.</span></span>
-1. <span data-ttu-id="5a8de-152">เมื่อคุณดำเนินการเสร็จสิ้นแล้ว ให้เลือก **บันทึก** เพื่อบันทึกเท็มเพลตหรือส่วน และจากนั้น เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="5a8de-152">When you've finished, select **Save** to save the template or fragment, and then select **Finish editing** to check it in.</span></span>
+1. <span data-ttu-id="445a0-148">ในเท็มเพลตหรือส่วนที่คุณต้องการกำหนดเอง ให้เลือกโมดูลเมนูการนำทาง</span><span class="sxs-lookup"><span data-stu-id="445a0-148">In the template or fragment that you want to customize, select the navigation menu module.</span></span>
+1. <span data-ttu-id="445a0-149">ในบานหน้าต่างคุณสมบัติบนแท็บ **ข้อมูล** ให้เลือก **เพิ่มสินค้า** เพื่อสร้างสินค้านำทางของระบบการจัดการเนื้อหา (CMS) ใหม่</span><span class="sxs-lookup"><span data-stu-id="445a0-149">In the property pane, on the **Data** tab, select **Add item** to create a new content management system (CMS) navigation item.</span></span>
+1. <span data-ttu-id="445a0-150">ป้อนข้อความลิงก์และ URL</span><span class="sxs-lookup"><span data-stu-id="445a0-150">Enter link text and a URL.</span></span>
+1. <span data-ttu-id="445a0-151">ทำซ้ำขั้นตอนที่ 2 และ 3 เพื่อเพิ่มตัวเลือกนำทางแบบกำหนดเองเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="445a0-151">Repeat steps 2 and 3 to add more custom navigation options.</span></span>
+1. <span data-ttu-id="445a0-152">เมื่อคุณดำเนินการเสร็จสิ้นแล้ว ให้เลือก **บันทึก** เพื่อบันทึกเท็มเพลตหรือส่วน และจากนั้น เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบ</span><span class="sxs-lookup"><span data-stu-id="445a0-152">When you've finished, select **Save** to save the template or fragment, and then select **Finish editing** to check it in.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5a8de-153">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5a8de-153">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="445a0-153">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="445a0-153">Additional resources</span></span>
 
-[<span data-ttu-id="5a8de-154">ภาพรวมของเท็มเพลตและเค้าโครง</span><span class="sxs-lookup"><span data-stu-id="5a8de-154">Templates and layouts overview</span></span>](templates-layouts-overview.md)
+[<span data-ttu-id="445a0-154">ภาพรวมของเท็มเพลตและเค้าโครง</span><span class="sxs-lookup"><span data-stu-id="445a0-154">Templates and layouts overview</span></span>](templates-layouts-overview.md)
 
-[<span data-ttu-id="5a8de-155">ใช้งานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="5a8de-155">Work with templates</span></span>](work-with-templates.md)
+[<span data-ttu-id="445a0-155">ใช้งานเท็มเพลต</span><span class="sxs-lookup"><span data-stu-id="445a0-155">Work with templates</span></span>](work-with-templates.md)
 
-[<span data-ttu-id="5a8de-156">ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="5a8de-156">Work with preset layouts</span></span>](work-with-layouts.md)
+[<span data-ttu-id="445a0-156">ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="445a0-156">Work with preset layouts</span></span>](work-with-layouts.md)
 
-[<span data-ttu-id="5a8de-157">ใช้งานส่วนย่อย</span><span class="sxs-lookup"><span data-stu-id="5a8de-157">Work with fragments</span></span>](work-with-fragments.md)
+[<span data-ttu-id="445a0-157">ใช้งานส่วนย่อย</span><span class="sxs-lookup"><span data-stu-id="445a0-157">Work with fragments</span></span>](work-with-fragments.md)
 
-[<span data-ttu-id="5a8de-158">ใช้งานโมดูล</span><span class="sxs-lookup"><span data-stu-id="5a8de-158">Work with modules</span></span>](work-with-modules.md)
+[<span data-ttu-id="445a0-158">ใช้งานโมดูล</span><span class="sxs-lookup"><span data-stu-id="445a0-158">Work with modules</span></span>](work-with-modules.md)
 
-[<span data-ttu-id="5a8de-159">สร้าง URL ของหน้า</span><span class="sxs-lookup"><span data-stu-id="5a8de-159">Create a page URL</span></span>](create-page-url.md)
+[<span data-ttu-id="445a0-159">สร้าง URL ของหน้า</span><span class="sxs-lookup"><span data-stu-id="445a0-159">Create a page URL</span></span>](create-page-url.md)
 
-[<span data-ttu-id="5a8de-160">ทำงานกับกลุ่มการเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="5a8de-160">Work with publish groups</span></span>](publish-groups.md)
+[<span data-ttu-id="445a0-160">ทำงานกับกลุ่มการเผยแพร่</span><span class="sxs-lookup"><span data-stu-id="445a0-160">Work with publish groups</span></span>](publish-groups.md)

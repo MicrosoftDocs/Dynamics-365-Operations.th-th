@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,43 +18,43 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9ddf9934965bd06ec805731a1cc1a667846fa180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438453"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970392"
 ---
-# <a name="apply-filters-to-a-plan"></a><span data-ttu-id="7dd99-103">ใช้ตัวกรองกับแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-103">Apply filters to a plan</span></span>
+# <a name="apply-filters-to-a-plan"></a><span data-ttu-id="64296-103">ใช้ตัวกรองกับแผน</span><span class="sxs-lookup"><span data-stu-id="64296-103">Apply filters to a plan</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7dd99-104">เมื่อมีการใช้ฟังก์ชันการเพิ่มประสิทธิภาพการวางแผน คุณสามารถใช้ตัวกรองข้อมูลกับแผนได้</span><span class="sxs-lookup"><span data-stu-id="7dd99-104">When the Planning Optimization functionality is used, you can apply a filter to a plan.</span></span> <span data-ttu-id="7dd99-105">**ตัวกรองแผน** จะถูกนำไปใช้ในระหว่างการรันการวางแผนหลักเสมอ</span><span class="sxs-lookup"><span data-stu-id="7dd99-105">The **Plan filter** will always be applied during a master planning run.</span></span> <span data-ttu-id="7dd99-106">**ตัวกรองแผน** มีประโยชน์เมื่อคุณต้องการจำกัดแผนให้กับกลุ่มสินค้าหนึ่งๆ และตรวจสอบให้แน่ใจว่าไม่มีสินค้าอื่นๆ ที่รวมอยู่ในส่วนหนึ่งของการวางแผนหลักที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="7dd99-106">A **Plan filter** is useful when you want to limit a plan to a specific group of items and make sure that no other items are included as part of the resulting master planning.</span></span>
+<span data-ttu-id="64296-104">เมื่อมีการใช้ฟังก์ชันการเพิ่มประสิทธิภาพการวางแผน คุณสามารถใช้ตัวกรองข้อมูลกับแผนได้</span><span class="sxs-lookup"><span data-stu-id="64296-104">When the Planning Optimization functionality is used, you can apply a filter to a plan.</span></span> <span data-ttu-id="64296-105">**ตัวกรองแผน** จะถูกนำไปใช้ในระหว่างการรันการวางแผนหลักเสมอ</span><span class="sxs-lookup"><span data-stu-id="64296-105">The **Plan filter** will always be applied during a master planning run.</span></span> <span data-ttu-id="64296-106">**ตัวกรองแผน** มีประโยชน์เมื่อคุณต้องการจำกัดแผนให้กับกลุ่มสินค้าหนึ่งๆ และตรวจสอบให้แน่ใจว่าไม่มีสินค้าอื่นๆ ที่รวมอยู่ในส่วนหนึ่งของการวางแผนหลักที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="64296-106">A **Plan filter** is useful when you want to limit a plan to a specific group of items and make sure that no other items are included as part of the resulting master planning.</span></span>
 
-<span data-ttu-id="7dd99-107">ถ้ามีการใช้ **ตัวกรองแผน** แล้ว และยังมีการใช้ตัวกรองข้อมูลรันไทม์ในระหว่างการรันการวางแผนหลักด้วย เฉพาะจุดตัดของตัวกรองทั้งสองเท่านั้นที่จะรวมอยู่ในการรันการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-107">If a **Plan filter** is applied, and a runtime filter is also applied during the master planning run, only the intersection of the two filters is included in the planning run.</span></span>
+<span data-ttu-id="64296-107">ถ้ามีการใช้ **ตัวกรองแผน** แล้ว และยังมีการใช้ตัวกรองข้อมูลรันไทม์ในระหว่างการรันการวางแผนหลักด้วย เฉพาะจุดตัดของตัวกรองทั้งสองเท่านั้นที่จะรวมอยู่ในการรันการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-107">If a **Plan filter** is applied, and a runtime filter is also applied during the master planning run, only the intersection of the two filters is included in the planning run.</span></span>
 
-<span data-ttu-id="7dd99-108">**ตัวกรองแผน** สามารถเข้าถึงได้จาก **แผนหลัก** เมื่อมีการใช้การเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-108">The **Plan filter** can be accessed from **Master plans** when Planning Optimization is used.</span></span>
+<span data-ttu-id="64296-108">**ตัวกรองแผน** สามารถเข้าถึงได้จาก **แผนหลัก** เมื่อมีการใช้การเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-108">The **Plan filter** can be accessed from **Master plans** when Planning Optimization is used.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="7dd99-109">ตัวอย่างสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="7dd99-109">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="64296-109">ตัวอย่างสถานการณ์จำลอง</span><span class="sxs-lookup"><span data-stu-id="64296-109">Example scenario</span></span>
 
-<span data-ttu-id="7dd99-110">มีการตั้งค่าตัวกรองข้อมูลที่รวม A B และ C การรันการวางแผนหลักจะถูกรันสำหรับแผนเดียวกัน แต่มีการใช้ตัวกรองข้อมูลรันไทม์ที่แตกต่างกัน:</span><span class="sxs-lookup"><span data-stu-id="7dd99-110">A plan filter is set up that includes items A, B, and C. Master planning runs are then run for the same plan, but different runtime filters are applied:</span></span>
+<span data-ttu-id="64296-110">มีการตั้งค่าตัวกรองข้อมูลที่รวม A B และ C การรันการวางแผนหลักจะถูกรันสำหรับแผนเดียวกัน แต่มีการใช้ตัวกรองข้อมูลรันไทม์ที่แตกต่างกัน:</span><span class="sxs-lookup"><span data-stu-id="64296-110">A plan filter is set up that includes items A, B, and C. Master planning runs are then run for the same plan, but different runtime filters are applied:</span></span>
 
-- <span data-ttu-id="7dd99-111">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการ D:** ไม่มีการวางแผนรายการ เนื่องจากไม่มีการแยกระหว่างตัวกรองข้อมูลแผนและตัวกรองข้อมูลรันไทม์</span><span class="sxs-lookup"><span data-stu-id="7dd99-111">**Runtime filter that includes item D:** No items are planned, because there is no intersection between the plan filter and the runtime filter.</span></span>
-- <span data-ttu-id="7dd99-112">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการ A และ D:** เฉพาะรายการ A เท่านั้นที่จะรวมอยู่ในการวางแผนรัน เนื่องจากรายการ D ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลของแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-112">**Runtime filter that includes item A and D:** Only item A is included in the planning run, because item D isn't part of the plan filter.</span></span>
-- <span data-ttu-id="7dd99-113">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการฺ:** เฉพาะรายการ B เท่านั้นที่จะรวมอยู่ในการวางแผนรัน และผลการวางแผนของรายการ A จะถูกเก็บไว้</span><span class="sxs-lookup"><span data-stu-id="7dd99-113">**Runtime filter that includes item B:** Only item B is included in the planning run, and the previous planning output for item A is kept.</span></span>
-- <span data-ttu-id="7dd99-114">**ตัวกรองข้อมูลรันไทม์ที่มีรายการทั้งหมด (ตัวกรองเปล่า):** รายการ A B และ C จะรวมอยู่ในการรันการวางแผน และผลของการวางแผนก่อนหน้านี้สำหรับรายการ A และ B ถูกเขียนทับ</span><span class="sxs-lookup"><span data-stu-id="7dd99-114">**Runtime filter that includes all items (blank filter):** Items A, B, and C are included in the planning run, and the previous planning output for items A and B is overwritten.</span></span>
+- <span data-ttu-id="64296-111">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการ D:** ไม่มีการวางแผนรายการ เนื่องจากไม่มีการแยกระหว่างตัวกรองข้อมูลแผนและตัวกรองข้อมูลรันไทม์</span><span class="sxs-lookup"><span data-stu-id="64296-111">**Runtime filter that includes item D:** No items are planned, because there is no intersection between the plan filter and the runtime filter.</span></span>
+- <span data-ttu-id="64296-112">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการ A และ D:** เฉพาะรายการ A เท่านั้นที่จะรวมอยู่ในการวางแผนรัน เนื่องจากรายการ D ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลของแผน</span><span class="sxs-lookup"><span data-stu-id="64296-112">**Runtime filter that includes item A and D:** Only item A is included in the planning run, because item D isn't part of the plan filter.</span></span>
+- <span data-ttu-id="64296-113">**ตัวกรองข้อมูลรันไทม์ที่รวมรายการฺ:** เฉพาะรายการ B เท่านั้นที่จะรวมอยู่ในการวางแผนรัน และผลการวางแผนของรายการ A จะถูกเก็บไว้</span><span class="sxs-lookup"><span data-stu-id="64296-113">**Runtime filter that includes item B:** Only item B is included in the planning run, and the previous planning output for item A is kept.</span></span>
+- <span data-ttu-id="64296-114">**ตัวกรองข้อมูลรันไทม์ที่มีรายการทั้งหมด (ตัวกรองเปล่า):** รายการ A B และ C จะรวมอยู่ในการรันการวางแผน และผลของการวางแผนก่อนหน้านี้สำหรับรายการ A และ B ถูกเขียนทับ</span><span class="sxs-lookup"><span data-stu-id="64296-114">**Runtime filter that includes all items (blank filter):** Items A, B, and C are included in the planning run, and the previous planning output for items A and B is overwritten.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="7dd99-115">คุณควรหลีกเลี่ยงการตั้งค่าตัวกรองข้อมูลแผนบนแผนที่เลือกเป็น **แผนหลักชั่วคราวปัจจุบัน** บนหน้า **พารามิเตอร์การวางแผนหลัก**</span><span class="sxs-lookup"><span data-stu-id="7dd99-115">You should avoid setting a plan filter on the plan that is selected as **Current dynamic master plan** on the **Master planning parameters** page.</span></span> <span data-ttu-id="7dd99-116">มิฉะนั้น ฟังก์ชันแผนหลักแบบไดนามิกจะถูกจำกัดให้กับรายการที่กรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="7dd99-116">Otherwise, the dynamic master plan functionality will be limited to the filtered items.</span></span> <span data-ttu-id="7dd99-117">ตัวอย่างเช่น ถ้ามีการอัพเดตความต้องการสุทธิสำหรับสินค้าที่ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลแผนจะไม่มีการสร้างผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="7dd99-117">For example, if the net requirements are updated for an item that isn't part of the plan filter, no result will be generated.</span></span>
+> <span data-ttu-id="64296-115">คุณควรหลีกเลี่ยงการตั้งค่าตัวกรองข้อมูลแผนบนแผนที่เลือกเป็น **แผนหลักชั่วคราวปัจจุบัน** บนหน้า **พารามิเตอร์การวางแผนหลัก**</span><span class="sxs-lookup"><span data-stu-id="64296-115">You should avoid setting a plan filter on the plan that is selected as **Current dynamic master plan** on the **Master planning parameters** page.</span></span> <span data-ttu-id="64296-116">มิฉะนั้น ฟังก์ชันแผนหลักแบบไดนามิกจะถูกจำกัดให้กับรายการที่กรองข้อมูล</span><span class="sxs-lookup"><span data-stu-id="64296-116">Otherwise, the dynamic master plan functionality will be limited to the filtered items.</span></span> <span data-ttu-id="64296-117">ตัวอย่างเช่น ถ้ามีการอัพเดตความต้องการสุทธิสำหรับสินค้าที่ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลแผนจะไม่มีการสร้างผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="64296-117">For example, if the net requirements are updated for an item that isn't part of the plan filter, no result will be generated.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="7dd99-118">ทรัพยากรที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="7dd99-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="64296-118">ทรัพยากรที่เกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="64296-118">Related resources</span></span>
 
-[<span data-ttu-id="7dd99-119">ภาพรวมการเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-119">Planning Optimization overview</span></span>](planning-optimization-overview.md)
+[<span data-ttu-id="64296-119">ภาพรวมการเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-119">Planning Optimization overview</span></span>](planning-optimization-overview.md)
 
-[<span data-ttu-id="7dd99-120">เริ่มต้นด้วยการเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-120">Get started with Planning Optimization</span></span>](get-started.md)
+[<span data-ttu-id="64296-120">เริ่มต้นด้วยการเพิ่มประสิทธิภาพการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-120">Get started with Planning Optimization</span></span>](get-started.md)
 
-[<span data-ttu-id="7dd99-121">การวิเคราะห์การปรับให้เหมาะสมกับการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-121">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
+[<span data-ttu-id="64296-121">การวิเคราะห์การปรับให้เหมาะสมกับการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-121">Planning Optimization fit analysis</span></span>](planning-optimization-fit-analysis.md)
 
-[<span data-ttu-id="7dd99-122">ดูประวัติการวางแผนและล็อกการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-122">View plan history and planning logs</span></span>](plan-history-logs.md)
+[<span data-ttu-id="64296-122">ดูประวัติการวางแผนและล็อกการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-122">View plan history and planning logs</span></span>](plan-history-logs.md)
 
-[<span data-ttu-id="7dd99-123">ยกเลิกงานการวางแผน</span><span class="sxs-lookup"><span data-stu-id="7dd99-123">Cancel a planning job</span></span>](cancel-planning-job.md)
+[<span data-ttu-id="64296-123">ยกเลิกงานการวางแผน</span><span class="sxs-lookup"><span data-stu-id="64296-123">Cancel a planning job</span></span>](cancel-planning-job.md)
