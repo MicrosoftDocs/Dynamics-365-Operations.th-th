@@ -11,33 +11,32 @@ ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63b1b023181e1ead16571102c524a61edfdabdca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4847b5f3f50cc74c5b4854e1f0daedd64785baf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994576"
 ---
-# <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="7b095-103">การตั้งค่าหน่วยงานจัดเก็บภาษี</span><span class="sxs-lookup"><span data-stu-id="7b095-103">Set up sales tax authorities</span></span>
+# <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="d2c20-103">การตั้งค่าหน่วยงานจัดเก็บภาษี</span><span class="sxs-lookup"><span data-stu-id="d2c20-103">Set up sales tax authorities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7b095-104">หน่วยงานจัดเก็บภาษีขายเป็นองค์กรอิสระที่เก็บรวบรวมภาษีขายที่จะต้องถูกรายงานและชำระ </span><span class="sxs-lookup"><span data-stu-id="7b095-104">Sales tax authorities are entities to which collected sales tax needs to be reported and paid.</span></span> <span data-ttu-id="7b095-105">คุณสามารถชำระภาษีขายที่หน่วยงานโดยตรงหรือผ่านบัญชีผู้จัดจำหน่ายที่คุณสร้างขึ้นสำหรับหน่วยงานจัดเก็บภาษีขาย </span><span class="sxs-lookup"><span data-stu-id="7b095-105">You can pay sales taxes to the authority directly or through a vendor account that you create for the sales tax authority.</span></span> <span data-ttu-id="7b095-106">บริษัทจะสามารถใช้งานประจำในการชำระเงินโดยปกติของตนในการชำระเงินต่อหน่วยงานจัดเก็บภาษีขายได้ตามเวลา</span><span class="sxs-lookup"><span data-stu-id="7b095-106">If you do this, the company can use its usual payment routines to pay the sales tax authority on time.</span></span> <span data-ttu-id="7b095-107">หากไม่ได้ตั้งค่าหน่วยงานจัดเก็บภาษีเป็นผู้จัดจำหน่าย คุณต้องมีบุคคลเตรียมการชำระเงินด้วยตนเองแก่หน่วยงานจัดเก็บภาษีตามเวลาครบกำหนดที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="7b095-107">If you do not set up the tax authority as a vendor, someone must prepare a manual payment to the tax authority on the appropriate due date.</span></span> <span data-ttu-id="7b095-108">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="7b095-108">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="d2c20-104">หน่วยงานจัดเก็บภาษีขายเป็นองค์กรอิสระที่เก็บรวบรวมภาษีขายที่จะต้องถูกรายงานและชำระ </span><span class="sxs-lookup"><span data-stu-id="d2c20-104">Sales tax authorities are entities to which collected sales tax needs to be reported and paid.</span></span> <span data-ttu-id="d2c20-105">คุณสามารถชำระภาษีขายที่หน่วยงานโดยตรงหรือผ่านบัญชีผู้จัดจำหน่ายที่คุณสร้างขึ้นสำหรับหน่วยงานจัดเก็บภาษีขาย </span><span class="sxs-lookup"><span data-stu-id="d2c20-105">You can pay sales taxes to the authority directly or through a vendor account that you create for the sales tax authority.</span></span> <span data-ttu-id="d2c20-106">บริษัทจะสามารถใช้งานประจำในการชำระเงินโดยปกติของตนในการชำระเงินต่อหน่วยงานจัดเก็บภาษีขายได้ตามเวลา</span><span class="sxs-lookup"><span data-stu-id="d2c20-106">If you do this, the company can use its usual payment routines to pay the sales tax authority on time.</span></span> <span data-ttu-id="d2c20-107">หากไม่ได้ตั้งค่าหน่วยงานจัดเก็บภาษีเป็นผู้จัดจำหน่าย คุณต้องมีบุคคลเตรียมการชำระเงินด้วยตนเองแก่หน่วยงานจัดเก็บภาษีตามเวลาครบกำหนดที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="d2c20-107">If you do not set up the tax authority as a vendor, someone must prepare a manual payment to the tax authority on the appropriate due date.</span></span> <span data-ttu-id="d2c20-108">งานนี้ใช้บริษัทสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="d2c20-108">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="7b095-109">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > หน่วยงานจัดเก็บภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="7b095-109">Go to Tax > Indirect taxes > Sales tax > Sales tax authorities.</span></span>
-2. <span data-ttu-id="7b095-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7b095-110">Click New.</span></span>
-3. <span data-ttu-id="7b095-111">ในฟิลด์หน่วยงานจัดเก็บภาษี ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="7b095-111">In the Authority field, type a value.</span></span>
-4. <span data-ttu-id="7b095-112">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="7b095-112">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="7b095-113">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7b095-113">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="7b095-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7b095-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="7b095-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="7b095-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="7b095-116">เลือกโครงร่างรายงานสำหรับประเทศ/ภูมิภาคของคุณ ถ้ามี </span><span class="sxs-lookup"><span data-stu-id="7b095-116">Select the report layout for your country/region, if one is available.</span></span> <span data-ttu-id="7b095-117">ถ้าโครงร่างรายงานไม่สอดคล้องกับความต้องการของหน่วยงานจัดเก็บภาษีขาย ให้ใช้รูปแบบเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="7b095-117">If the report layouts do not correspond to the requirements of the sales tax authority, use default layout.</span></span>
-9. <span data-ttu-id="7b095-118">ป้อนค่าในแบบฟอร์มการปัดเศษและฟิลด์การปัดเศษเพื่อระบุวิธีการชำระยอดเงินภาษีรวมว่าควรจะมีการปัดเศษอย่างไร </span><span class="sxs-lookup"><span data-stu-id="7b095-118">Enter values in the Rounding form and the Round-off fields to specify how the tax total amount to be paid should be rounded.</span></span> <span data-ttu-id="7b095-119">ผลต่างจากการปัดเศษใด ๆ จะถูกลงรายการบัญชีสำหรับธุรกรรมอัตโนมัติที่ตั้งค่าไว้ในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="7b095-119">Any rounding differences will be posted to Accounts for automatic transactions set up in General ledger.</span></span>
-10. <span data-ttu-id="7b095-120">ในฟิลด์การปัดเศษ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="7b095-120">In the Round-off field, enter a number.</span></span>
-11. <span data-ttu-id="7b095-121">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7b095-121">Click Save.</span></span>
+1. <span data-ttu-id="d2c20-109">ไปที่ภาษี > ภาษีทางอ้อม > ภาษีขาย > หน่วยงานจัดเก็บภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d2c20-109">Go to Tax > Indirect taxes > Sales tax > Sales tax authorities.</span></span>
+2. <span data-ttu-id="d2c20-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="d2c20-110">Click New.</span></span>
+3. <span data-ttu-id="d2c20-111">ในฟิลด์หน่วยงานจัดเก็บภาษี ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="d2c20-111">In the Authority field, type a value.</span></span>
+4. <span data-ttu-id="d2c20-112">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="d2c20-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="d2c20-113">ในฟิลด์บัญชีผู้จัดจำหน่าย ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="d2c20-113">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="d2c20-114">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="d2c20-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="d2c20-115">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="d2c20-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="d2c20-116">เลือกโครงร่างรายงานสำหรับประเทศ/ภูมิภาคของคุณ ถ้ามี </span><span class="sxs-lookup"><span data-stu-id="d2c20-116">Select the report layout for your country/region, if one is available.</span></span> <span data-ttu-id="d2c20-117">ถ้าโครงร่างรายงานไม่สอดคล้องกับความต้องการของหน่วยงานจัดเก็บภาษีขาย ให้ใช้รูปแบบเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="d2c20-117">If the report layouts do not correspond to the requirements of the sales tax authority, use default layout.</span></span>
+9. <span data-ttu-id="d2c20-118">ป้อนค่าในแบบฟอร์มการปัดเศษและฟิลด์การปัดเศษเพื่อระบุวิธีการชำระยอดเงินภาษีรวมว่าควรจะมีการปัดเศษอย่างไร </span><span class="sxs-lookup"><span data-stu-id="d2c20-118">Enter values in the Rounding form and the Round-off fields to specify how the tax total amount to be paid should be rounded.</span></span> <span data-ttu-id="d2c20-119">ผลต่างจากการปัดเศษใด ๆ จะถูกลงรายการบัญชีสำหรับธุรกรรมอัตโนมัติที่ตั้งค่าไว้ในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="d2c20-119">Any rounding differences will be posted to Accounts for automatic transactions set up in General ledger.</span></span>
+10. <span data-ttu-id="d2c20-120">ในฟิลด์การปัดเศษ ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="d2c20-120">In the Round-off field, enter a number.</span></span>
+11. <span data-ttu-id="d2c20-121">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="d2c20-121">Click Save.</span></span>
 
