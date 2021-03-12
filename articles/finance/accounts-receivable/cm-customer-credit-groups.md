@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1ddf41d88d085b102a7d69eeeff0ec463d8b4137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fb17a94cd4a472ad609a0c2f688c4a700f072072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979125"
 ---
 # <a name="customer-credit-groups"></a>กลุ่มสินเชื่อลูกค้า
 
@@ -39,6 +38,3 @@ ms.locfileid: "4448375"
 หลังจากที่คุณตั้งค่ากลุ่มเครดิตของลูกค้าเสร็จแล้ว คุณสามารถเพิ่มลูกค้าลงในกลุ่มได้โดยการระบุนิติบุคคลและรหัสบัญชีลูกค้า เมื่อคุณเพิ่มลูกค้าใหม่เข้าในกลุ่มเครดิตของลูกค้า ระบบจะค้นหาบัญชีลูกค้าเดียวกันระหว่างนิติบุคคลทั้งหมด และแจ้งให้คุณเพิ่มลูกค้าในกลุ่มเครดิตของลูกค้า
 
 ใช้เมนู **ยอดดุลตามอายุหนี้** เพื่อดูรายละเอียดของยอดดุลอายุหนี้สำหรับลูกค้าในใบแจ้งหนี้ทั้งหมดในกลุ่มเครดิตของลูกค้า หน้า **ยอดดุลอายุหนี้** จะแสดงสรุปของยอดดุลตามอายุหนี้สำหรับบัญชีลูกค้าในใบแจ้งหนี้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

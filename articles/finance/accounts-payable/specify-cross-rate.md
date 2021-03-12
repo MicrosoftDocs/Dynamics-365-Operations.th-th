@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 146794557a3a6ba1801598fe6b814e209d9f5fc6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 317cad877cec4d9f02f53762af65f0b226d0aad6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448254"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979399"
 ---
 # <a name="specify-the-cross-rate"></a>ระบุอัตราไขว้
 
@@ -44,6 +43,3 @@ ms.locfileid: "4448254"
 3.  สำหรับลูกค้า บนหน้ารายการ **ลูกค้าทั้งหมด** ไปยัง **รวบรวม > ชำระธุรกรรมที่ค้างอยู่** สำหรับผู้จัดจำหน่าย บนหน้ารายการ **ผู้จัดจำหน่ายทั้งหมด** ไปยัง **ใบแจ้งหนี้ > ชำระธุรกรรมที่ค้างอยู่** 
 4.  เลือกธุรกรรมที่เป็นการชำระเงินหลัก แล้วจากนั้น คลิก **ทำเครื่องหมายการชำระเงิน** กล่องกาเครื่องหมายในคอลัมน์ **ทำเครื่องหมาย** จะถูกเลือก และไอคอนข้อมูลจะแสดงในคอลัมน์ **การชำระเงินหลัก** 
 5.  ในฟิลด์ **อัตราไขว้** ให้ป้อนอัตราแลกเปลี่ยนระหว่างสกุลเงินใบแจ้งหนี้และสกุลเงินการชำระเงิน ณ วันที่ชำระเงิน 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd32ad1b745d1bfda25abf57330fb1385014e4fc
-ms.sourcegitcommit: f0f5545a8ff99583e0131f435d91c64bb68a1c38
+ms.openlocfilehash: 944139a8b3d7d549bd7be83918bd680717e6fdf0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4448627"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979050"
 ---
 # <a name="asset-leasing-home-page"></a>โฮมเพจการเช่าสินทรัพย์
 
@@ -46,7 +45,7 @@ ms.locfileid: "4448627"
   - [สร้างกลุ่มการเช่า](create-lease-group.md)
   - [ตั้งค่าอัตราดัชนี](set-up-index-rate-types.md)
   - [ตั้งค่าชนิดค่าใช้จ่าย](set-up-expense-types.md)
-  - [การตั้งค่าชื่อสมุดรายวันการเช่า](set-up-lease-journal-names.md)
+  - [ตั้งค่าชื่อสมุดรายวันสัญญาเช่า](set-up-lease-journal-names.md)
   - [การตั้งค่าการลงรายการบัญชีการเช่า](set-up-lease-posting-accts.md)
   - [กำหนดลำดับหมายเลข](leasing-number-sequences.md)
   - [กำหนดบทบาทผู้ใช้](lease-user-roles.md)
@@ -96,6 +95,3 @@ ms.locfileid: "4448627"
 ### <a name="videos"></a>วิดีโอ
 
 ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

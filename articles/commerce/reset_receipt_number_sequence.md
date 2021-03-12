@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416061"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979735"
 ---
 # <a name="reset-receipt-numbers"></a>รีเซ็ตหมายเลขใบเสร็จ 
 
@@ -68,6 +67,3 @@ ms.locfileid: "4416061"
 
 > [!NOTE]
 > ทั้งนี้ขึ้นอยู่กับวันที่รีเซ็ตที่คุณเลือก และรูปแบบใบเสร็จ คุณอาจมีหมายเลขใบเสร็จที่ซ้ำกัน ถึงแม้ว่าระบบการขายหน้าร้าน (POS) สามารถจัดการกับสถานการณ์เหล่านี้ได้ เวลาที่จำเป็นต้องใช้ในการประมวลผลการส่งคืนสินค้าจะเพิ่มขึ้น เนื่องจากผู้ประกอบการขายต้องเลือกระหว่างใบเสร็จที่ซ้ำกัน ความซับซ้อนอื่น ๆ ที่เกี่ยวข้องกับการล้างข้อมูลที่เกี่ยวข้อง อาจเกิดขึ้นได้ถ้าการรับสินค้าที่ซ้ำกันไม่ได้เป็นผลตามแผน ดังนั้น เราขอแนะนำให้คุณใช้อักขระวันที่แบบไดนามิก (ตัวอย่างเช่น **ddd** **MM** **DD** และ **YY**) เพื่อช่วยป้องกันหมายเลขการรับสินค้าที่ซ้ำกันหลังจากที่รีเซ็ต
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

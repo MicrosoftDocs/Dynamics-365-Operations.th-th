@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416233"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979764"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>ตั้งค่าและออกแบบรูปแบบใบเสร็จ
 
@@ -46,6 +45,10 @@ ms.locfileid: "4416233"
     - **ไม่ต้องพิมพ์**– ไม่มีการพิมพ์ใบเสร็จ
     - **พร้อมต์ผู้ใช้**– มีการเตือนผู้ใช้ให้พิมพ์ใบเสร็จ
     - **ตามความจำเป็น**– ตัวเลือกนี้จะใช้สำหรับใบรับของขวัญเท่านั้น เมื่อมีการเลือกตัวเลือกนี้ ผู้ใช้สามารถพิมพ์ใบรับของขวัญจากหน้า **เปลี่ยน** ถ้าต้องการใบรับของขวัญ
+
+## <a name="print-images"></a>พิมพ์รูปภาพ
+
+ผู้ออกแบบใบเสร็จมีตัวแปร **โลโก้** ที่สามารถใช้เพื่อระบุรูปภาพที่จะพิมพ์บนใบเสร็จได้ รูปภาพที่รวมอยู่ในการรับสินค้าโดยใช้ตัวแปร **โลโก้** ควรเป็นชนิดไฟล์บิตแมป (.bmp) ใหม่ ถ้ามีการระบุรูปภาพ .bmp โปรแกรมออกแบบใบเสร็จ แต่ไม่ได้พิมพ์เมื่อส่งไปยังเครื่องพิมพ์ ขนาดไฟล์อาจใหญ่เกินไปหรือมิติพิกเซลบนรูปภาพไม่เข้ากันกับเครื่องพิมพ์ หากเกิดกรณีนี้ ให้ลองลดความละเอียดของไฟล์รูปภาพ   
 
 ## <a name="design-a-receipt-format"></a>ออกแบบรูปแบบใบเสร็จ
 
@@ -82,6 +85,3 @@ ms.locfileid: "4416233"
 
 > [!NOTE]
 > ถ้ามีการใช้เครื่องพิมพ์สองเครื่อง เครื่องพิมพ์หนึ่งสามารถใช้เพื่อพิมพ์ใบรับทางความร้อน 40 คอลัมน์มาตรฐานได้  โดยทั่วไปจะมีใช้เครื่องพิมพ์เครื่องที่สองเพื่อพิมพ์ใบเสร็จแบบเต็มหน้าที่ต้องการข้อมูลเพิ่มเติม ชนิดใบเสร็จเหล่านี้รวมการรับใบสั่งของลูกค้าและใบแจ้งหนี้ของลูกค้า
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

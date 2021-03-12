@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4448594"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979150"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับการจัดการสินเชื่อและการเรียกเก็บเงิน
 
@@ -77,6 +76,3 @@ ms.locfileid: "4448594"
 | จดหมายเรียกเก็บเงิน         | <ul><li>ยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>รายละเอียดยอดเงินสำหรับรหัสการเรียกเก็บเงิน</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับแต่ละบริษัท</li><li>จำนวนจดหมายเรียกเก็บเงินสำหรับกลุ่มลูกค้าแต่ละกลุ่ม</li><li>จำนวนจดหมายเรียกเก็บเงินตามภูมิภาค</li></ul> |
 
 สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองข้อมูลและตรึงใน Power BI ได้ที่ [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) คุณยังสามารถใช้ฟังก์ชันส่งออกข้อมูลพื้นฐาน เพื่อส่งออกข้อมูลพื้นฐานที่มีการสรุปในการแสดงภาพ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529589"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980817"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>ภาพรวมพอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ ms.locfileid: "4529589"
 
 [พอร์ทัล Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) คือคุณลักษณะที่ช่วยให้ผู้ใช้สามารถสร้างเว็บไซต์ที่เชื่อมต่อกับภายนอก ที่ผู้ใช้จากภายนอกองค์กรสามารถล็อกอินเข้าได้ แทบจะไม่จำเป็นต้องมีการเขียนโค้ดเพื่อสร้างพอร์ทัล พอร์ทัลลูกค้าเป็นหนึ่งใน [แม่แบบ Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) ซึ่งพร้อมใช้งานจาก Microsoft
 
-[การรวมแบบสองทิศทาง](https://docs.microsoft.com/powerapps/maker/portals/overview) เป็นโครงสร้างพื้นฐานแบบสำเร็จรูปที่ให้การโต้ตอบแบบใกล้เรียลไทม์ระหว่างแอปที่เป็นแบบโมเดลใน Dynamics 365 และแอป Finance and Operations การรวมแบบสองทิศทางมอบการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Common Data Service ดังนั้น นี่จะให้ประสบการณ์ผู้ใช้แบบรวมทั่วทั้งแอป พอร์ทัลลูกค้าจะขึ้นอยู่กับเอนทิตี้ที่ซิงค์กับการรวมแบบสองทิศทาง ก่อนที่จะมีการใช้ข้อมูลจาก Supply Chain Management ในพอร์ทัลของลูกค้าจะต้องมีการเปิดใช้งานการรวมแบบสองทิศทาง สำหรับเอนทิตี้ทั้งหมดที่เหมาะสม
+[การรวมแบบสองทิศทาง](https://docs.microsoft.com/powerapps/maker/portals/overview) เป็นผลิตภัณฑ์โครงสร้างพื้นฐานแบบสำเร็จรูปที่ให้การโต้ตอบแบบใกล้เรียลไทม์ระหว่างแอป Customer Engagement และแอป Finance and Operations การรวมแบบสองทิศทางมอบการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Microsoft Dataverse ดังนั้น นี่จะให้ประสบการณ์ผู้ใช้แบบรวมทั่วทั้งแอป พอร์ทัลลูกค้าจะขึ้นอยู่กับตารางที่ซิงค์กับการรวมแบบสองทิศทาง ก่อนที่จะมีการใช้ข้อมูลจาก Supply Chain Management ในพอร์ทัลของลูกค้า จะต้องมีการเปิดใช้งานการรวมแบบสองทิศทางสำหรับตารางที่เหมาะสมทั้งหมด
 
 ![ความเชื่อมโยงของพอร์ทัลลูกค้า](media/customer-portal-elements.png "ความเชื่อมโยงของพอร์ทัลลูกค้า")
 
 พอร์ทัลลูกค้าทำหน้าที่เป็นจุดเริ่มต้นสำหรับองค์กรที่ต้องการใช้พอร์ทัล Power Apps เพื่อสร้างเว็บไซต์ที่เชื่อมต่อกับภายนอก ซึ่งใช้ข้อมูลจากการติดตั้ง Supply Chain Management โดยจะช่วยให้องค์กรเชื่อมโยง การรวมแบบสองทิศทาง Supply Chain Management และพอร์ทัล Power Apps
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

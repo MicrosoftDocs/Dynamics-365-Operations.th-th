@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416058"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979686"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>ตั้งค่าคูปองสำหรับการขายปลีก
 
@@ -82,6 +81,3 @@ ms.locfileid: "4416058"
 - **มีการอัพเดต HQ บางส่วน แต่ Commerce Scale Unit และ POS ไม่ได้รับการอัพเดต** ในการอัพเดต HQ หน้าคูปองและส่วนลดจะถูกอัพเดต และยังมีการอัพเดตกลไกราคาการค้าอีกด้วย ถ้าเพียงหนึ่งในองค์ประกอบสองส่วนดังกล่าวมีการอัพเดต หน้าบางหน้าใน Commerce จะไม่ตรงกับข้อมูลการคำนวณราคา ดังนั้น การคำนวณส่วนลดหรือข้อผิดพลาดที่ไม่คาดคิดอาจเกิดขึ้นในระหว่างการคำนวณส่วนลด
 - **มีการอัพเดต HQ แต่ Commerce Scale Unit และ POS ไม่ได้รับการอัพเดต (N-1)** เนื่องจากไม่ใช่ร้านค้าทั้งหมดที่สามารถถูกอัพเดตในเวลาเดียวกันได้ เราขอแนะนำให้คุณอัพเดต HQ ก่อนที่คุณจะอัพเดตร้านค้า ในสถานการณ์จำลอง N-1 ฟังก์ชันใหม่ที่เกี่ยวข้องกับคูปองจะไม่พร้อมใช้งานในร้านค้าที่ยังไม่ได้อัพเดต ตัวอย่างเช่น ฟังก์ชันคูปองแนะนำรายการ "ไม่รวม" เมื่อคุณใช้ไม่รวมรายการในส่วนลด จะไม่สามารถใช้ได้ในร้านค้าที่กำลังเรียกใช้เวอร์ชันก่อนหน้านี้
 - **ไม่มีการอัพเดต HQ แต่ Commerce Scale Unit และ POS ได้รับการอัพเดต (N+1)** เนื่องจากกลไกราคาที่อัพเดตใน Commerce Scale Unit สามารถจัดการรหัสส่วนลดเดิมได้ในระหว่างการคำนวณราคา การอัพเดตไม่ควรมีผลกระทบต่อฟังก์ชันในสถานการณ์จำลองนี้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

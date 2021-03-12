@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416055"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980009"
 ---
 # <a name="assortment-management"></a>การจัดการการจัดประเภท
 
@@ -107,6 +106,3 @@ Dynamics 365 Commerce ให้ *การจัดประเภท* ที่
 - **การขายและการส่งคืนนอกการจัดประเภท** – ความสามารถนี้ช่วยให้ผู้ค้าปลีกจัดการการจัดประเภทของพวกเขาได้อย่างมีประสิทธิภาพ โดยให้พวกเขาสามารถจำกัดจำนวนของผลิตภัณฑ์ที่มีอยู่ไปยังผลิตภัณฑ์ที่อยู่ในการคละกันของผลิตภัณฑ์หลักสำหรับร้านค้า ความสามารถนี้ยังช่วยให้ผู้ค้าปลีกสามารถจัดการกับสถานการณ์ที่ซึ่งผลิตภัณฑ์ถูกละเว้นไว้โดยไม่ได้ตั้งใจจากการจัดประเภท หรือที่ซึ่งมีการส่งคืนผลิตภัณฑ์นอกวันที่มีผลบังคับใช้สำหรับการจัดประเภท
 
 ถ้าข้อมูลผลิตภัณฑ์ไม่มีอยู่ในฐานข้อมูลช่องทาง POS จะทำการโทรแบบเรียลไทม์ไปยังสำนักงานใหญ่เพื่อดึงข้อมูลที่จำเป็น เพื่อให้ผลิตภัณฑ์สามารถถูกขาย ส่งคืน หรือวางใบสั่งของลูกค้าได้ ข้อมูลผลิตภัณฑ์ที่จะถูกดึงมาในลักษณะนี้จะพร้อมใช้งานเฉพาะระหว่างขอบเขตของธุรกรรม ผลิตภัณฑ์ไม่ได้ถูกเพิ่มไปยังคำนิยามการจัดประเภท ดังนั้น จึงจะทำการโทรแบบเรียลไทม์ในเวลาต่อมาตามความจำเป็น
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
