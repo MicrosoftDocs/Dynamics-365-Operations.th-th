@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529541"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977749"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529541"
 เมื่อต้องการใช้งานพอร์ทัลลูกค้า คุณต้องมีสิทธิ์ใช้งานดังต่อไปนี้
 
 - **พอร์ทัล Power Apps** – สิทธิ์การใช้งานนี้จำเป็นต้องใช้เพื่อโฮสต์พอร์ทัลของลูกค้า พอร์ทัลจะได้รับสิทธิ์ใช้งานตามการใช้งาน สำหรับข้อมูลเพิ่มเติม ดูที่ [พอร์ทัล Power Apps ข้อกำหนดสิทธิใช้งาน](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals)
-- **การรวมแบบสองทิศทาง** – คุณต้องมีสิทธิ์การใช้งานที่จำเป็นเพื่อเปิดใช้งานการรวมแบบสองทิศทาง สำหรับเอนทิตี้ Supply Chain Management สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
+- **การรวมแบบสองทิศทาง** – คุณต้องมีสิทธิ์การใช้งานที่จำเป็นเพื่อเปิดใช้งานการรวมแบบสองทิศทางสำหรับตาราง Supply Chain Management สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>การดำเนินการที่ขึ้นกับการรวมแบบสองทิศทาง และพอร์ทัล Power Apps
 
@@ -39,13 +38,13 @@ ms.locfileid: "4529541"
 
 ![ความเชื่อมโยงของพอร์ทัลลูกค้า](media/customer-portal-elements.png "ความเชื่อมโยงของพอร์ทัลลูกค้า")
 
-ซึ่งแตกต่างจากลักษณะการทำงานอื่น ๆ จาก Supply Chain Management แม่แบบพอร์ทัลลูกค้าจะอยู่ในพอร์ทัล Power Apps เพราะฉะนั้น พอร์ทัลลูกค้าจะถูกจำกัดโดยฟังก์ชัน และความสามารถที่มาจากพอร์ทัล Power Apps และเอนทิตี้ในการรวมแบบสองทิศทาง
+ซึ่งแตกต่างจากลักษณะการทำงานอื่น ๆ จาก Supply Chain Management แม่แบบพอร์ทัลลูกค้าจะอยู่ในพอร์ทัล Power Apps เพราะฉะนั้น พอร์ทัลลูกค้าจะถูกจำกัดโดยฟังก์ชันและความสามารถที่มาจากพอร์ทัล Power Apps และตารางในการรวมแบบสองทิศทาง
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a> การตั้งค่าที่จำเป็นเพื่อเปิดใช้งานพอร์ทัลลูกค้า
 
 หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md)
 
-ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแม็ปเอนทิตี้ต่อไปนี้ในการรวมแบบสองทิศทาง:
+ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแม็ปตารางต่อไปนี้ในการรวมแบบสองทิศทาง:
 
 - ส่วนหัวของใบสั่งขาย
 - รายละเอียดใบสั่งขาย
@@ -80,12 +79,9 @@ ms.locfileid: "4529541"
 - [เอกสารพอร์ทัล Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [เอกสารการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-ในการจัดการพอร์ทัลของคุณอย่างมีประสิทธิภาพ คุณต้องเข้าใจพอร์ทัล Power Apps และวงจรของ Common Data Service สำหรับข้อมูลเพิ่มเติม ให้ดูทรัพยากรต่อไปนี้:
+ในการจัดการพอร์ทัลของคุณอย่างมีประสิทธิภาพ คุณต้องเข้าใจพอร์ทัล Power Apps และวงจรของ Microsoft Dataverse สำหรับข้อมูลเพิ่มเติม ให้ดูทรัพยากรต่อไปนี้:
 
 - [เกี่ยวกับวงจรชีวิตของพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [อัพเกรดพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: แอป Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

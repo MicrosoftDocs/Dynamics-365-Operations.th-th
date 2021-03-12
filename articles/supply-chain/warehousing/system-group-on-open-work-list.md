@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438347"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977374"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>การจัดกลุ่มระบบในรายการงานที่เปิด
 
@@ -42,6 +41,3 @@ ms.locfileid: "4438347"
 | ฟิลด์การจัดกลุ่มระบบ | พร้อมใช้งานได้ก็ต่อเมื่อ <strong>อนุญาตงานของระบบ</strong> ตั้งค่าเป็น <strong>ใช่</strong> เลือกฟิลด์ที่จะกำหนดวิธีการจัดกลุ่มงานการเบิกสินค้าสำหรับผู้ปฏิบัติงาน  ตัวอย่างเช่น ถ้าคุณเลือกฟิลด์ <strong>ShipmentId</strong> ผู้ปฏิบัติงานจะสแกนรหัสการจัดส่งเพื่อจัดกลุ่มงานการเบิกสินค้า งานทั้งหมดสำหรับการจัดส่งนั้นถูกกำหนดให้กับผู้ปฏิบัติงาน ฟิลด์นี้ต้องระบุว่าคุณสร้างรายการเมนูที่ใช้งานที่มีอยู่ที่ถูกจัดกลุ่มโดยระบบ ใช้ฟิลด์ <strong>ป้ายชื่อการจัดกลุ่มระบบ</strong> เพื่อแจ้งให้ผู้ปฏิบัติงานทราบถึงสิ่งที่ต้องสแกน |
 | ป้ายชื่อการจัดกลุ่มระบบ |                       พร้อมใช้งานได้ก็ต่อเมื่อ <strong>อนุญาตงานของระบบ</strong> ตั้งค่าเป็น <strong>ใช่</strong> ป้อนข้อมูลสำหรับผู้ปฏิบัติงานเกี่ยวกับสิ่งที่ต้องสแกนเมื่อทำการเบิกสินค้าจะจัดกลุ่ม ตัวอย่างเช่น ถ้าคุณใช้ฟิลด์ <strong>ShipmentId</strong> เพื่อจัดกลุ่มงานการเบิกสินค้าโดยการจัดส่ง คุณอาจป้อน Shipment ID ในฟิลด์ ฟิลด์นี้ต้องระบุว่าคุณสร้างรายการเมนูที่ใช้งานที่มีอยู่ที่ถูกจัดกลุ่มโดยระบบ คุณต้องเลือกฟิลด์เพื่อจัดกลุ่มตามฟิลด์ <strong>การจัดกลุ่มระบบ</strong>                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

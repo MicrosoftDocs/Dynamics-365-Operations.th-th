@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438282"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977499"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>การจัดส่งแบบนำออกใช้อัตโนมัติสำหรับการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
 
@@ -179,6 +178,3 @@ ms.locfileid: "4438282"
 - การนำออกใช้ไปยังคลังสินค้ามีการทริกเกอร์สำหรับใบสั่งขายที่เชื่อมโยง
 - โดยอิงตามการนำออกใช้ จะมีการสร้างงานการจัดส่งและการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า งานนี้จะแนะนำตัวดำเนินการคลังสินค้าให้เบิกปริมาณที่ต้องการเติมในรายการใบสั่งขาย และส่งสินค้าในสถานที่ขาออกที่ระบุไว้ในคำสั่งสถานที่การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
 - หากปริมาณใบสั่งผลิตมีมากกว่าปริมาณที่ต้องการโดยใบสั่งขาย จะมีการสร้างงานการส่งสินค้าปกติ งานนี้จะแนะนำให้ตัวดำเนินการคลังสินค้าทำการเบิกปริมาณของสินค้าสำเร็จรูปที่คงเหลืออยู่หลังจากการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า และเคลื่อนย้ายไปยังที่จัดเก็บปกติ ตามคำสั่งสถานที่
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

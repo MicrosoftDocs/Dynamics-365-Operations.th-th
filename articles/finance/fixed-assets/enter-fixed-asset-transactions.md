@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 494087bc7a1247999d3f63dcdc0a0f403dcfdb2d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448348"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978700"
 ---
 # <a name="fixed-asset-transaction-options"></a>ตัวเลือกธุรกรรมสินทรัพย์ถาวร
 
@@ -68,6 +67,3 @@ ms.locfileid: "4448348"
 ค่าที่เหลือของระยะเวลาการคิดค่าเสื่อมราคาของสินทรัพย์ถาวรไม่ไดัรับการปรับปรุง เมื่อบรรทัดสมุดรายวันของชนิดธุรกรรมการคิดค่าเสื่อมราคาถูกสร้างหรือนำเข้าด้วยตนเองผ่านเอนทิตีข้อมูล ค่านี้ถูกปรับปรุงเมื่อกระบวนการการประชุมข้อเสนอการคิดค่าเสื่อมราคาถูกใช้เพื่อสร้างบรรทัดสมุดรายวัน
 
 สำหรับข้อมูลเพิ่มเติม ดู [การรวมสินทรัพย์ถาวร](fixed-asset-integration.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

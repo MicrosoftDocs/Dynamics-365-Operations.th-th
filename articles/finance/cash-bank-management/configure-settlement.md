@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448550"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976472"
 ---
 # <a name="configure-settlement"></a>ตั้งค่าคอนฟิกการชำระเงิน
 
@@ -67,6 +66,3 @@ ms.locfileid: "4448550"
 
 -   องค์กรมักจะใช้มิติคงที่เพื่อเติมศูนย์ในมิติทางการเงินที่ไม่จำเป็น นี่เป็นกรณีทั่วไปสำหรับบัญชีงบดุล เช่น บัญชีลูกหนี้/บัญชีเจ้าหนี้ โครงสร้างทางบัญชีสามารถใช้ในการติดตามมิติทางการเงิน ซึ่งโดยปกติแล้วจะถูกเติมเป็นศูนย์  คุณสามารถลบมิติทางการเงินสำหรับบัญชีงบดุลได้ โดยไม่จำเป็นต้องใช้มิติคงที่
 -   ถ้าองค์กรของคุณต้องใช้มิติคงที่ในบัญชีหลักของบัญชีลูกหนี้/บัญชีเจ้าหนี้ ค้นหาวิธีในการตั้งค่ามิติคงที่เริ่มต้นในการชำระเงิน เพื่อให้มีการจัดเก็บค่ามิติคงที่ในธุรกรรมผู้จัดจำหน่ายสำหรับการชำระเงิน ซึ่งจะอนุญาตให้ระบบสร้างบัญชีหลักของบัญชีลูกหนี้/บัญชีเจ้าหนี้เพื่อรวมค่ามิติคงที่ คุณสามารถกำหนดค่ามิติคงที่เป็นค่าเริ่มต้นในผู้จัดจำหน่ายหรือชื่อสมุดรายวัน อย่างใดอย่างหนึ่ง สำหรับสมุดรายวันการชำระเงิน
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

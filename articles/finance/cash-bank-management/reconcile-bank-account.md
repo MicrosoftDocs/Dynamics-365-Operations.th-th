@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976377"
 ---
 # <a name="reconcile-a-bank-account"></a>การกระทบยอดบัญชีธนาคาร
 
@@ -71,6 +70,3 @@ ms.locfileid: "4448484"
 การกระทบยอดใบแจ้งยอดจากธนาคารสามารถยกเลิกได้ตามลำดับเวลาที่ถูกป้อนเท่านั้น เมื่อยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคาร จะมีการกลับรายการธุรกรรมและการแก้ไขใหม่ และธุรกรรมอื่นๆ ทั้งหมดจะถูกทำเครื่องหมายเป็นยกเลิกการกระทบยอด
  
 ถ้าต้องการยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคาร ให้เลือกใบแจ้งยอดจากธนาคาร และเลือก **ใบแจ้งยอดจากธนาคาร > ยกเลิกการกระทบยอดบัญชีธนาคาร** บนหน้า **ยกเลิกการกระทบยอดบัญชีธนาคาร** ให้ระบุ **รหัสเหตุผล** **ข้อคิดเห็นเกี่ยวกับเหตุผล** และ **วันที่ยกเลิก** เลือก **ตกลง** เพื่อเริ่มการยกเลิก หมายเหตุ วันที่ยกเลิกใบแจ้งยอดจากธนาคารต้องอยู่ในหรือหลังจากวันที่ใบแจ้งยอดจากธนาคาร หลังจากที่ยกเลิกการกระทบยอดใบแจ้งยอดจากธนาคารแล้ว จะมีการปรับปรุงฟิลด์ **วันที่ยกเลิก** สำหรับใบแจ้งยอดจากธนาคารด้วย **วันที่ยกเลิก** ที่มีให้ เลือกปุ่ม **ธุรกรรม** เพื่อดูธุรกรรมที่มีการยกเลิกการกระทบยอด
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
