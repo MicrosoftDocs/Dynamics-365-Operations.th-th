@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645449"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965563"
 ---
 # <a name="outbound-workload-visualization"></a>การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 
@@ -98,6 +97,3 @@ ms.locfileid: "4645449"
 ![การจัดรูปแบบการแสดงข้อมูลสถานะของงานเทียบกับโซน](media/work-viz-chart.png "การจัดรูปแบบการแสดงข้อมูลสถานะของงานเทียบกับโซน")
 
 แผนภูมินี้แสดงสองโซนที่มีการตั้งชื่อว่า **ชั้น** และ **จำนวนมาก** บวกโซนที่ชื่อ **ว่างเปล่า** โซน **ว่างเปล่า** แสดงรายการงานทั้งหมดที่ไม่ได้เป็นสมาชิกของโซนใดก็ แผนภูมิจะแสดงข้อมูลที่ถูกกรองทั้งหมดที่ไม่เกี่ยวข้องทั้งหมดเป็น **ว่างเปล่า** เพื่อให้สามารถมองเห็นได้มากที่สุดเท่าที่จะเป็นไปได้ ในโซน **ชั้น** แผนภูมิจะแสดงบรรทัดที่ปิด 3 บรรทัดและมีบรรทัดเปิดสี่บรรทัด ในโซน **จำนวนมาก** แผนภูมิจะแสดงบรรทัดที่ปิดสี่บรรทัด มีบรรทัดเปิดหนึ่งบรรทัด และ 24 บรรทัดยกเลิก ในขั้นสุดท้าย แผนภูมิจะแสดงบรรทัดที่ปิดอยู่แปดบรรทัดที่ไม่ได้เป็นส่วนหนึ่งของโซนใดก็ตาม ดังนั้นจึงแสดงรายการเป็น **ว่างเปล่า**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

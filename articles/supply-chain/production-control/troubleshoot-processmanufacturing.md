@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63993fca2164301d31dbfa1474a4cf5eb16273e6
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: d999c91aa1cc14f29ebfa6be8e456e45ef0d3fa4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516883"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966191"
 ---
 # <a name="troubleshoot-process-manufacturing"></a>แก้ไขปัญหาการผลิตแบบกระบวนการ
 
@@ -41,6 +40,3 @@ ms.locfileid: "4516883"
 > คุณกำลังจะดำเนินการปิดบัญชีสินค้าคงคลังที่มีวันที่ %1 ไม่มีการดำเนินการคำนวณการคิดต้นทุนแบบย้อนกลับที่มีวันที่ %1 สิ้นสุดรอบระยะเวลาที่ตรงกันแล้ว โปรดจำไว้ว่าไม่มีการดำเนินการคำนวณการคิดต้นทุนแบบย้อนกลับที่มีวันที่ %1 สิ้นสุดรอบระยะเวลาที่ตรงกันแล้ว การประเมินค่าสินค้าคงคลัง ต้นทุนของสินค้าที่ขายและผลต่างอาจไม่ถูกต้องในบัญชีแยกประเภทย่อยหรือบัญชีแยกประเภททั่วไปจนกว่าจะมีการดำเนินการนี้
 
 มีการแก้ไขปัญหานี้ในรุ่น10.0.13 และในภายหลัง สำหรับข้อมูลเพิ่มเติม ให้ดู [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438737"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967191"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>การติดตามสินค้าและวัตถุดิบในสินค้าคงคลัง การผลิต และการขาย
 
@@ -140,6 +139,3 @@ ms.locfileid: "4438737"
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>ฉันสามารถติดตามสินค้าร่วมและสินค้าพลอยได้หรือไม่
 คุณสามารถติดตามสินค้าร่วม แต่คุณไม่สามารถสืบค้นกลับสินค้าพลอยได้ เนื่องจากโดยทั่วไป มิติการติดตามไม่ได้กำหนดให้กับสินค้าพลอยได้  เมื่อคุณติดตามสินค้า รายละเอียดการติดตามรวมถึงผลิตภัณฑ์ร่วมใดๆ ที่เกี่ยวข้อง โหนดที่ประกอบด้วยผลิตภัณฑ์ร่วมมีคำว่า "สินค้าร่วม" ในรายละเอียด คุณยังสามารถดูรายละเอียดเกี่ยวกับผลิตภัณฑ์ร่วมได้ด้วยการเลือกโหนดในรายละเอียดการติดตาม แล้วคลิกแท็บด่วน **การผลิต**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

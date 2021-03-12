@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: eea67ddc1718902198b74614ee1a910fc6e29c1d
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 5ae29fe5ac49d92c261c59d115664b50e87880a0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4416270"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965137"
 ---
 # <a name="review-the-status-of-an-experiment"></a>ตรวจสอบสถานะของการทดสอบ
 มีขั้นตอนหลายอย่างที่เกี่ยวข้องกับการตั้งค่าและการรันการทดลองใน Dynamics 365 Commerce สำหรับข้อมูลเกี่ยวกับขั้นตอนวงจรการทดสอบ ให้ดูที่ [การทดสอบใน Dynamics 365 Commerce](experimentation-overview.md)
@@ -45,6 +44,3 @@ ms.locfileid: "4416270"
 แผนภาพด้านล่างจะแสดงสถานะทั้งสองชุด และวิธีที่เกี่ยวข้องกับแต่ละชุด
 
 [ ![สถานะการทดสอบ](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967344"
 ---
 # <a name="product-owners"></a>เจ้าของผลิตภัณฑ์
 
@@ -61,6 +60,3 @@ ms.locfileid: "4438932"
 ## <a name="product-owners-and-approvals"></a>เจ้าของผลิตภัณฑ์และการอนุมัติ
 
 เนื่องจากเจ้าของผลิตภัณฑ์ทราบว่าการเปลี่ยนแปลงทางวิศวกรรมเฉพาะจะเป็นประโยชน์กับผลิตภัณฑ์ของตนบ่อยเพียงใด จึงทำให้เกิดความรู้สึกเพื่อรวมไว้เป็นส่วนหนึ่งของกระบวนการอนุมัติในการจัดการการเปลี่ยนแปลงทางวิศวกรรม คุณสามารถใช้วิธีการนี้ได้โดยการตั้งค่าเจ้าของผลิตภัณฑ์เป็นผู้ให้บริการเข้าร่วมในลำดับงานที่ใช้สำหรับการจัดการการเปลี่ยนแปลงทางวิศวกรรม ระบบจะกำหนดงานการอนุมัติในลำดับงานโดยยึด ตามผลิตภัณฑ์ที่อยู่ในคำขอเปลี่ยนแปลงทางวิศวกรรมและใบสั่งเปลี่ยนแปลงทางวิศวกรรม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดการการเปลี่ยนแปลงที่เกิดขึ้นกับผลิตภัณฑ์วิศวกรรม](engineering-change-management.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

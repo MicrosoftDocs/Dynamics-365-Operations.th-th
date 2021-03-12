@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcdf4b735587b76b7f761f59c56da1ca358a2e37
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 267ac5447d36f63094fdb57c0d450e4d79cf138b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966866"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>รักษา BOM สำหรับแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -58,6 +57,3 @@ ms.locfileid: "4438341"
     * ตรวจสอบถ้ามีมิติของผลิตภัณฑ์ใดๆมีการใช้งานอยู่ และดังนั้น ต้องมีค่าหรือคุณลักษณะที่กำหนดให้  
 9. คลิก ตกลง
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

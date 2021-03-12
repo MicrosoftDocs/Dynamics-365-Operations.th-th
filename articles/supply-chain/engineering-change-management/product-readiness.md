@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438939"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967269"
 ---
 # <a name="product-readiness"></a>ความพร้อมของผลิตภัณฑ์
 
@@ -148,6 +147,3 @@ ms.locfileid: "4438939"
 | แบบสอบถาม | เลือกแบบสอบถามที่ควรใช้สำหรับรายการตรวจสอบ รายการตรวจสอบเป็นรายการตรวจสอบเฉพาะที่ในบริษัทที่ทำการตรวจสอบความพร้อม ระบบต้องสามารถประเมินว่ารายการตรวจสอบได้รับการตอบอย่างถูกต้องหรือไม่ ดังนั้น จึงต้องตั้งค่ารายการตรวจสอบเพื่อให้การประเมินทำตามคำตอบที่ถูกต้อง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างแบบสอบถาม ให้ดู [การใช้แบบสอบถาม](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) และหัวข้อที่เกี่ยวข้อง |
 | การอนุมัติอัตโนมัติ | เรกคอร์ดการตรวจสอบความพร้อมจะรวมกล่องกาเครื่องหมาย **ที่อนุมัติ** ซึ่งแสดงสถานะการอนุมัติ เลือกกล่องกาเครื่องหมาย **การอนุมัติโดยอัตโนมัติ** สำหรับการตรวจสอบที่ควรตั้งค่าให้อนุมัติทันทีหลังจากที่ผู้ใช้ที่ได้รับมอบหมายเสร็จสมบูรณ์แล้ว ยกเลิกการเลือกกล่องกาเครื่องหมายนี้เพื่อกำหนดให้มีการอนุมัติแบบชัดแจ้งเป็นขั้นตอนพิเศษ |
 | ข้อบังคับ | เลือกกล่องกาเครื่องหมายนี้สำหรับการตรวจสอบที่ต้องทำให้เสร็จสมบูรณ์โดยผู้ใช้ที่ได้รับมอบหมาย ไม่สามารถข้ามการตรวจสอบบังคับ |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

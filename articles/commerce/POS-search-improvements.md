@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416052"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965289"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>การค้นหาผลิตภัณฑ์และการค้นหาลูกค้าในการขายหน้าร้าน (POS)
 
@@ -118,6 +117,3 @@ ms.locfileid: "4416052"
 
 เพื่อช่วยป้องกันปัญหาประสิทธิภาพที่ไม่คาดคิด การตั้งค่าคอนฟิกนี้จะถูกซ่อนอยู่หลังแฟล็กการสลับที่ชื่อว่า **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** ดังนั้น เพื่อแสดง **โหมดการค้นหาลูกค้าเริ่มต้น** ที่ตั้งค่าอินเทอร์เฟสผู้ใช้ (UI) ผู้ค้าปลีกควรสร้างตั๋วสนับสนุนสำหรับการทดสอบการยอมรับของผู้ใช้ (UAT) และสภาพแวดล้อมการผลิต หลังจากที่ได้รับตั๋วแล้ว ทีมงานวิศวกรรมจะทำงานร่วมกับผู้ค้าปลีกเพื่อให้แน่ใจว่าผู้จัดจำหน่ายจะมีการทดสอบในสภาพแวดล้อมที่ไม่ใช่การผลิต เพื่อประเมินผลการปฏิบัติงานและดำเนินการปรับแต่งใดๆ ที่จำเป็น
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

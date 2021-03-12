@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4438792"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966290"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
 
@@ -80,6 +79,3 @@ ms.locfileid: "4438792"
 โดยค่าเริ่มต้น อินเทอร์เฟสการดำเนินการผลิตจะมีการลงชื่อออกโดยอัตโนมัติถ้าไม่มีผู้ใช้เป็นเวลา 12 ชั่วโมง ผู้ใช้ Supply Chain Management ต้องลงชื่อเข้าใช้อีกครั้ง อย่างไรก็ตาม คุณสามารถขยายขีดจำกัดการหมดเวลาถึง 90 วัน
 
 เมื่อต้องการขยายขีดจำกัดการหมดเวลา ให้ลงชื่อเข้าสู่ Supply Chain Management และไปที่ **การจัดการระบบ \> ผู้ใช้ \> ส่วนขยายของรอบเวลา** ระบุบัญชีผู้ใช้ Supply Chain Management ที่ใช้ในการลงชื่อเข้าใช้บนอุปกรณ์และจำนวนชั่วโมงที่รอบเวลาควรมีการใช้งานอยู่
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

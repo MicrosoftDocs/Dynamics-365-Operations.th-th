@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6c4dcafa5d997bce21d37d02f87fbf604568c24e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438798"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965660"
 ---
 # <a name="mixed-license-plate-receiving"></a>การรับป้ายทะเบียนแบบผสม
 
@@ -49,6 +48,3 @@ ms.locfileid: "4438798"
 - การรับป้ายทะเบียนแบบผสมและการสำรองสินค้า
 
 ตัวเลือกในการระบุรายการเอกสารต้นทางเป็น สินค้าของใบสั่งซื้อ รายการของใบสั่งซื้อ ใบสั่งส่งคืนสินค้า สินค้าตามใบสั่งโอนย้าย และรายการใบสั่งโอนย้าย ตัวเลือกเหล่านี้สามารถเปลี่ยนใบสั่งรับสินค้าบนป้ายทะเบียนแบบเดียวได้ ตัวเลือกสุดท้ายจะเป็นสินค้าของจำนวนงานในศูนย์การผลิต คุณสามารถเพิ่มสินค้าหลายรายการไปยังป้ายทะเบียน แต่คุณจะไม่สามารถสลับไปมาระหว่างการบรรทุกหลายรายการได้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

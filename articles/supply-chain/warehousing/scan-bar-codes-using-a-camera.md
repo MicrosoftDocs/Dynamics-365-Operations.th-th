@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71ec15b2568eefd8bea99e64c258a65461a7ad95
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965659"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
 
@@ -55,6 +54,3 @@ ms.locfileid: "4438276"
 
 เมื่อคุณหันกล้องไปที่บาร์โค้ด รักษาให้บาร์โค้ดอยู่ในระดับภายในเครื่องหมายวงเล็บเพื่อผลลัพธ์ที่ดีที่สุด เมื่อมีการสแกนบาร์โค้ดเสร็จเรียบร้อยแล้ว ผลลัพธ์จะถูกประมวลผล และคุณจะถูกนำไปยังขั้นตอนถัดไป ถ้าขั้นตอนถัดไปประกอบด้วย ฟิลด์อินพุทอีกฟิลด์หนึ่งที่มีโหมดอินพุทที่ต้องการซึ่งถูกตั้งค่าเป็น การสแกน หน้ากล้องจะเริ่มต้นอีกครั้ง ถ้าขั้นตอนถัดไปไม่ใช่ฟิลด์การสแกน จากนั้นหน้ากล้องจะไม่มีการเริ่มต้น
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

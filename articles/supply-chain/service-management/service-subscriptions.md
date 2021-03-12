@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438166"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965816"
 ---
 # <a name="service-subscriptions"></a>การบอกรับเป็นสมาชิกการบริการ
 
@@ -38,6 +37,3 @@ ms.locfileid: "4438166"
 มีการกำหนดรหัสรอบระยะเวลาในกลุ่มการบอกรับเป็นสมาชิกการบริการ จะมีการกำหนดสำหรับการบอกรับเป็นสมาชิกโดยใช้การบอกรับเป็นสมาชิกการบริการ ค่าธรรมเนียมการบอกรับเป็นสมาชิกใหม่ใดๆ ที่คุณสร้าง มีวันที่เริ่มต้นที่แนะนำ นี่คือวันที่เริ่มต้นของรอบระยะเวลา หากเป็นรอบระยะเวลาแรกที่ถูกสร้าง หรือจุดสิ้นสุดของรอบระยะเวลาก่อนหน้า หากเป็นรอบระยะเวลาที่สองหรือรอบระยะเวลาต่อมา
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

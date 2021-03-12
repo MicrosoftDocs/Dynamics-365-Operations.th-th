@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 66fdc26b0b967a04a3c6a6e3444e00b1372dc504
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438735"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967141"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>ตั้งค่าคลังสินค้า โดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
 
@@ -98,6 +97,3 @@ ms.locfileid: "4438735"
 ## <a name="related-topic"></a>หัวข้อที่เกี่ยวข้อง
 
 [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../../dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
