@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694726"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796641"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>ตั้งค่าลำดับหมายเลขแต่ละตัว
 
@@ -40,6 +40,3 @@ ms.locfileid: "4694726"
 8. ขยายส่วน **ทั่วไป** ใน FastTab ทั่วไป ให้ระบุว่าลำดับหมายเลขเป็นแบบกำหนดเองหรือไม่ และแบบต่อเนื่องหรือไม่ต่อเนื่อง  นอกจากนี้ ให้ป้อนหมายเลขต่ำสุดและสูงสุดที่สามารถถูกใช้ได้ในลำดับหมายเลข เราไม่แนะนำการเปลี่ยนลำดับหมายเลขแบบไม่ต่อเนื่อง เป็นลำดับหมายเลขแบบต่อเนื่อง ลำดับหมายเลขจะไม่เป็นแบบต่อเนื่องอย่างแท้จริง การเปลี่ยนแปลงนี้ยังอาจทำให้เกิดการละเมิดคีย์ที่ซ้ำกันในฐานข้อมูล นอกจากนี้ ลำดับหมายเลขที่ต่อเนื่องจะส่งผลกระทบมากกว่าต่อประสิทธิภาพการทำงาน   
 9. คลิก **บันทึก**
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

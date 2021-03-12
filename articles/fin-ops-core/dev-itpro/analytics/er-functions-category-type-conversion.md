@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686086"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740819"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>รายการของฟังก์ชั่น ER ในประเภทการแปลงข้อมูล
 
@@ -38,6 +38,14 @@ ms.locfileid: "4686086"
 | [IntValue](er-functions-conversion-intvalue.md)       | ฟังก์ชันนี้ส่งกลับค่า *Int* ที่แสดงถึงสตริงที่ระบุ |
 | [NumberValue](er-functions-conversion-numbervalue.md) | ฟังก์ชันนี้ส่งกลับค่า *จำนวนจริง* ที่ถูกแปลงจากค่า *สตริง* ที่ระบุ ในระหว่างการแปลงจะมีการพิจารณาตัวแบ่งการจัดกลุ่มทศนิยมและเลขฐานที่ระบุ |
 | [มูลค่า](er-functions-conversion-value.md)             | ฟังก์ชันนี้ส่งกลับค่า *จำนวนจริง* ที่ถูกแปลงจากค่า *สตริง* ที่ระบุ |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>ฟังก์ชั่นการแปลงของชนิดในประเภทคอนเทนเนอร์
+
+ตารางต่อไปนี้อธิบายฟังก์ชันการแปลงชนิดในประเภท [คอนเทนเนอร์](er-functions-category-container.md)
+
+| ฟังก์ชัน | คำอธิบาย |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | ฟังก์ชันนี้ แปลงอินพุตที่ระบุของชนิด *สตริง* เป็นรายการข้อมูลของชนิด *คอนเทนเนอร์* |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>ฟังก์ชันการแปลงชนิดในประเภทวันที่และเวลา
 
@@ -79,6 +87,3 @@ ms.locfileid: "4686086"
 [ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting-formula-designer.md)
 
 [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

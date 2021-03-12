@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 4a4899ad01065b835a6a63a0a418b34d89c4cd3b
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8e7890b6cf25d50e135e3d82d45647dfe8697655
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693628"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797947"
 ---
 # <a name="websearchax-page-has-been-retired"></a>มีการถอนหน้า WebSearchAX
 
@@ -34,6 +34,3 @@ ms.locfileid: "4693628"
 หรือ
 
 ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

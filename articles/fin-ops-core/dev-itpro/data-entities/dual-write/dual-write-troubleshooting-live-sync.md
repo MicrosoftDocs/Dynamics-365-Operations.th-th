@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685575"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744624"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>แก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริง
 
@@ -46,11 +46,11 @@ ms.locfileid: "4685575"
 
 เมื่อต้องการแก้ไขปัญหานี้ ให้ทำตามขั้นตอนใน [ข้อกำหนดของระบบและข้อกำหนดเบื้องต้น](requirements-and-prerequisites.md) เมื่อต้องการดำเนินการตามขั้นตอนดังกล่าวให้เสร็จสมบูรณ์ ผู้ใช้แอพลิเคชันการรวมแบบสองทิศทางที่สร้างขึ้นใน Dataverse ต้องมีบทบาทผู้ดูแลระบบ นอกจากนี้ ทีมงานที่เป็นเจ้าของเริ่มต้นต้องมีบทบาทผู้ดูแลระบบ
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>การซิงโครไนส์ที่เริ่มใช้งานจริงสำหรับเอนทิตี้ใดๆ แสดงข้อผิดพลาดที่คล้ายกันอย่างสม่ำเสมอ เมื่อคุณสร้างแถวในแอป Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>การซิงโครไนส์ที่เริ่มใช้งานจริงสำหรับตารางใดๆ แสดงข้อผิดพลาดที่คล้ายกันอย่างสม่ำเสมอ เมื่อคุณสร้างแถวในแอป Finance and Operations
 
 **บทบาทที่จำเป็นในการแก้ไขปัญหา:** ผู้ดูแลระบบ
 
-คุณอาจได้รับข้อความแสดงข้อผิดพลาดเช่นต่อไปนี้ทุกครั้งที่คุณพยายามบันทึกข้อมูลเอนทิตี้ในแอป Finance and Operations:
+คุณอาจได้รับข้อความแสดงข้อผิดพลาดเช่นต่อไปนี้ทุกครั้งที่คุณพยายามบันทึกข้อมูลตารางในแอป Finance and Operations:
 
 *ไม่สามารถบันทึกการเปลี่ยนแปลงไปยังฐานข้อมูล หน่วยของงานไม่สามารถส่งธุรกรรมได้ ไม่สามารถเขียนข้อมูลไปยังเอนทิตี้ uoms ได้ เขียนไปยัง UnitOfMeasureEntity ล้มเหลว โดยมีข้อความแสดงข้อผิดพลาดว่า ไม่สามารถซิงค์กับเอนทิตี้ uoms ได้*
 
@@ -58,8 +58,8 @@ ms.locfileid: "4685575"
 
 ถ้ามีข้อมูลอยู่ในทั้งสองด้าน และคุณยืนยันว่าปัญหานี้ไม่เกี่ยวข้องกับข้อมูล ให้ทำตามขั้นตอนต่อไปนี้
 
-1. หยุดเอนทิตี้ที่เกี่ยวข้อง
-2. ลงชื่อเข้าใช้ในแอป Finance and Operations และตรวจสอบให้แน่ใจว่าแถวสำหรับเอนทิตี้ที่ล้มเหลวมีอยู่ในตาราง DualWriteProjectConfiguration และ DualWriteProjectFieldConfiguration ตัวอย่างเช่น นี่คือลักษณะของแบบสอบถาม ถ้าเอนทิตี้ **ลูกค้า** ล้มเหลว
+1. หยุดตารางที่เกี่ยวข้อง
+2. ลงชื่อเข้าใช้ในแอป Finance and Operations และตรวจสอบให้แน่ใจว่ามีแถวสำหรับตารางที่ล้มเหลวอยู่ในตาราง DualWriteProjectConfiguration และตาราง DualWriteProjectFieldConfiguration ตัวอย่างเช่น นี่คือลักษณะของแบบสอบถาม ถ้าตาราง **ลูกค้า** ล้มเหลว
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ ms.locfileid: "4685575"
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. ถ้ามีแถวสำหรับเอนทิตี้ที่ล้มเหลว แม้แต่หลังจากที่คุณหยุดการแม็ปตาราง ให้ลบแถวที่เกี่ยวข้องกับเอนทิตี้ที่ล้มเหลว ทำให้บันทึกของคอลัมน์ **projectname** ในตาราง DualWriteProjectConfiguration และดึงข้อมูลเรกคอร์ดในตาราง DualWriteProjectFieldConfiguration โดยใช้ชื่อโครงการเพื่อลบแถว
+3. ถ้ามีแถวสำหรับตารางที่ล้มเหลว แม้แต่หลังจากที่คุณหยุดการแม็ปตาราง ให้ลบแถวที่เกี่ยวข้องกับตารางที่ล้มเหลว ทำให้บันทึกของคอลัมน์ **projectname** ในตาราง DualWriteProjectConfiguration และดึงข้อมูลแถวในตาราง DualWriteProjectFieldConfiguration โดยใช้ชื่อโครงการเพื่อลบแถว
 4. เริ่มต้นการแม็ปตาราง ตรวจสอบว่าข้อมูลถูกซิงค์โดยไม่มีปัญหาใดๆ หรือไม่
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>จัดการข้อผิดพลาดของสิทธิ์ในการอ่านหรือเขียน เมื่อคุณสร้างข้อมูลในแอป Finance and Operations
@@ -127,6 +127,3 @@ ms.locfileid: "4685575"
 
 3. ตรวจสอบให้แน่ใจว่าคอลัมน์ **externalenvironmentURL** มี Dataverse หรือ URL ของแอปที่ถูกต้อง ลบแถวที่ซ้ำกันใดๆ ที่ชี้ไปที่ URL Dataverse ที่ไม่ถูกต้อง ลบแถวที่สอดคล้องกันในตาราง DUALWRITEPROJECTFIELDCONFIGURATION และ DUALWRITEPROJECTCONFIGURATION
 4. หยุดการแม็ปตาราง แล้วเริ่มการทำงานใหม่
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

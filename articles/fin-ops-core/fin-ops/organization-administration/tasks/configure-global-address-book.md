@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694676"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796813"
 ---
 # <a name="configure-the-global-address-book"></a>ตั้งค่าคอนฟิกสมุดที่อยู่สากล
 
@@ -45,6 +45,3 @@ ms.locfileid: "4694676"
 13. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ กดคีย์ Shift เพื่อเลือกหลายบทบาทที่จะเพิ่มไปที่บานหน้าต่าง **บทบาทที่เลือก** และจากนั้น ให้คลิกลูกศรเพื่อเพิ่มบทบาทที่เลือก  
 14. คลิก **บันทึก**
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

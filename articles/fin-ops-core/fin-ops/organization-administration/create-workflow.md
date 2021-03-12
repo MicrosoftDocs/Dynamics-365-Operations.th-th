@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 23fe13f7e3c7e8138b690c96fafc075c4700a60f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693317"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797663"
 ---
 # <a name="create-workflows-overview"></a>ภาพรวมของการสร้างลำดับงาน
 
@@ -83,6 +83,3 @@ ms.locfileid: "4693317"
 
     - เมื่อต้องการเรียกใช้เวอร์ชันนี้ของลำดับงาน คลิก **เรียกใช้เวอร์ชันใหม่** เมื่อลำดับงานทำงานอยู่ ผู้ใช้สามารถส่งเอกสารเพื่อการประมวลผลได้
     - ถ้าคุณไม่ต้องการเรียกใช้เวอร์ชันนี้ คลิก **ไม่เรียกใช้เวอร์ชันใหม่** คุณสามารถเรียกใช้ลำดับงานได้ในภายหลัง 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

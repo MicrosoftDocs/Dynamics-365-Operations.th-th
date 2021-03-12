@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694147"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798560"
 ---
 # <a name="before-you-buy"></a>ก่อนที่คุณจะซื้อ
 
@@ -30,7 +30,7 @@ ms.locfileid: "4694147"
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>ขั้นตอนที่หนึ่ง: ลองใช้ Finance and Operations ฟรี30วัน
 
-คุณสามารถลองใช้ Dynamics 365 for Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เป็นเวลา 30 วันได้ผ่านการลงทะเบียนอีเมลอย่างง่าย รุ่นทดลองใช้ของแอพลิเคชัน Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอน ซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations)
+คุณสามารถลองใช้ Dynamics 365 for Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เป็นเวลา 30 วันได้ผ่านการลงทะเบียนอีเมลอย่างง่าย รุ่นทดลองใช้ของแอพลิเคชัน Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอน ซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [ลงทะเบียนเพื่อการสมัครใช้งานพรีวิว](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)
 
 ## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
 
@@ -93,6 +93,3 @@ Microsoft FastTrack สำหรับ Dynamics 365 คือ บริการ
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>ถ้าคุณกำลังอัพเกรดจาก Dynamics AX 2012 หรือกำลังย้ายจาก AX 2009
 
 ถ้าคุณเป็นลูกค้าที่กำลังอัพเกรดจาก Microsoft Dynamics AX 2012 หรือกำลังย้ายจาก Microsoft Dynamics AX 2009 คุณอาจมีสิทธิ์ได้รับการทดลองใช้งานที่นานขึ้น สำหรับข้อมูลเพิ่มเติม ให้ติดต่อ <daxcf@microsoft.com>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

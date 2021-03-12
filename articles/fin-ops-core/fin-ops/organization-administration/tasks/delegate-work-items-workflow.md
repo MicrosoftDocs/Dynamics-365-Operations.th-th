@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4b9abff57386fda61e3a83b0b8f18e533c8758c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694652"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796717"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>มอบหมายรายการงานในลำดับงาน
 
@@ -60,6 +60,3 @@ ms.locfileid: "4694652"
 8. ในฟิลด์ **วันที่/เวลาสิ้นสุด** ให้ป้อนวันที่และเวลา
 9. เลือกกล่องกาเครื่องหมาย **เปิดใช้งาน** เพื่อใช้กฎการมอบหมาย 
 10. ในฟิลด์ **ข้อคิดเห็น** ป้อนข้อคิดเห็นที่อธิบายว่าเพราะเหตุใดคุณจึงจะมอบหมายรายการงาน
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

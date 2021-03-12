@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693123"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797270"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
 
@@ -40,6 +40,3 @@ ms.locfileid: "4693123"
 9. คลิก เปลี่ยนตำแหน่ง
     * คุณอาจจะเปลี่ยนค่าตอบแทน ณ เวลานี้ ถ้าคุณไม่ได้กำหนดค่าตอบแทน ณ เวลานี้ คุณยังสามารถเปลี่ยนค่าได้ โดยไปที่แบบฟอร์มผู้ปฏิบัติงาน เลือกแท็บค่าตอบแทน และเลือก 'แผนคงที่'  หลังจากที่คุณเลือก 'เปลี่ยนตำแหน่ง' สถานะในใบสมัครจะถูกอัพเดตเป็น 'จ้างแล้ว'  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

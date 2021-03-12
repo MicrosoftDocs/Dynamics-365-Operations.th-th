@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0495bbc008ed1760b98c2c1ace63fc4a8b1ab5cc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694432"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798291"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอป Finance and Operations
 
@@ -99,6 +99,3 @@ Microsoft มีชุดเครื่องมือเพื่อช่ว�
 [ทรัพยากรตัวบันทึกงาน](../../dev-itpro/user-interface/task-recorder.md)  
 [สร้างเอกสารประกอบหรือการฝึกอบรมด้วยการบันทึกงาน](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [ที่เก็บข้อมูล GitHub ของวิธีใช้แบบกำหนดเอง](https://github.com/microsoft/dynamics356f-o-custom-help)  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

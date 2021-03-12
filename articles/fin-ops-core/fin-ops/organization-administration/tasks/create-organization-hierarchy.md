@@ -3,7 +3,7 @@ title: สร้างลำดับชั้นองค์กร
 description: 'ใช้กระบวนงานต่อไปนี้เพื่อสร้างลำดับชั้นองค์กร '
 author: sericks007
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8627c1aa0ce9ec011b568224040b1143f0f54c31
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694800"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796933"
 ---
 # <a name="create-an-organization-hierarchy"></a>สร้างลำดับชั้นองค์กร
 
@@ -48,6 +48,3 @@ ms.locfileid: "4694800"
     - เพิ่มองค์กรตามความจำเป็น  
     - เพื่อเพิ่มองค์กร ให้คลิก **แก้ไข** แล้วจากนั้น **แทรก** เพื่อเพิ่มไปที่องค์กร เมื่อคุณดำเนินการเปลี่ยนแปลงเสร็จสิ้น คุณสามารถ **บันทึก** แบบร่างและ/หรือ **เผยแพร่** การเปลี่ยนแปลง  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0c58ac63a4eae61c9a1cc6134bd0857394895e30
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693604"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797957"
 ---
 # <a name="user-interface-elements"></a>องค์ประกอบอินเทอร์เฟสผู้ใช้
 
@@ -86,6 +86,3 @@ ms.locfileid: "4693604"
 *รายการ* เป็นชื่อที่กำหนดให้กับชุดข้อมูลของเรกคอร์ดที่คุณสามารถเลื่อนดูได้ คุณสามารถนำเรกคอร์ดเหล่านี้มาไว้ในหน้าได้โดยการเลือกเรกคอร์ดเหล่านี้ บ่อยครั้งที่การทำเช่นนี้จะเปิดกริด
 
 ![รูปภาพต่อไปนี้แสดงตัวอย่างของแถบเครื่องมือ กริด และรายการ](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

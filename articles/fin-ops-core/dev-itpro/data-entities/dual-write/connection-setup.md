@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685676"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744864"
 ---
 # <a name="guidance-for-dual-write-setup"></a>คำแนะนำการตั้งค่าการรวมแบบสองทิศทาง
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685676"
 คุณสามารถตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทางระหว่างสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Dataverse
 
 + **สภาพแวดล้อม Finance and Operations** ให้แพลตฟอร์มพื้นฐานสำหรับ **แอป Finance and Operations** (ตัวอย่างเช่น Microsoft Dynamics 365 Finance Dynamics 365 Supply Chain Management Dynamics 365 Commerce และ Dynamics 365 Human Resources)
-+ **สภาพแวดล้อม Dataverse** ให้แพลตฟอร์มพื้นฐานสำหรับ **แอป Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing และ Dynamics 365 Project Service Automation)
++ **สภาพแวดล้อม Dataverse** ให้แพลตฟอร์มพื้นฐานสำหรับ **แอป Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing และ Dynamics 365 Project Service Automation)
 
 > [!IMPORTANT]
 > โมดูล Human Resources ใน Dynamics 365 Finance รองรับการเชื่อมต่อการรวมแบบสองทิศทาง แต่แอป Dynamics 365 Human Resources ไม่รองรับ
@@ -138,6 +138,3 @@ ms.locfileid: "4685676"
 สำหรับตัวอย่างเช่น ให้ดูที่ [การเปิดใช้งานลูกค้า V3 —แผนผังตารางของผู้ติดต่อ](enable-entity-map.md#enable-table-map)
 
 สำหรับแนวทางอื่นที่ยึดตามปริมาณข้อมูลในแต่ละเอนทิตีที่ต้องรันการซิงค์เริ่มต้น ให้ดูที่ [ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มต้น](initial-sync-guidance.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

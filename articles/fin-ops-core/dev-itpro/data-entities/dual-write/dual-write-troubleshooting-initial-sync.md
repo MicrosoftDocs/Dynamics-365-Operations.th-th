@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683582"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744648"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>แก้ไขปัญหาในระหว่างการซิงโครไนส์เริ่มต้น
 
@@ -98,7 +98,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>แก้ไขข้อผิดพลาดในผู้จัดจำหน่าย V2–สำหรับ–การแม็ปตาราง msdyn_vendors
 
-คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ผู้จัดจำหน่าย V2** สำหรับ **msdyn\_vendors** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceVendorAccountNumber** เป็นฟิลด์ที่อ้างอิงถึงตนเอง และ **PrimaryContactPersonId** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
+คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ผู้จัดจำหน่าย V2** สำหรับ **msdyn\_vendors** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในคอลัมน์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceVendorAccountNumber** เป็นคอลัมน์ที่อ้างอิงถึงตนเอง และ **PrimaryContactPersonId** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
 
 ข้อความแสดงข้อผิดพลาดที่คุณได้รับจะมีฟอร์มต่อไปนี้
 
@@ -109,26 +109,26 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid ไม่พบการค้นหา: 000056 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber ไม่พบการค้นหา: V24-1 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-ถ้าแถวใดๆ ในเอนทิตีของผู้จัดจำหน่ายมีค่าในฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์
+ถ้าแถวใดๆ ในตารางของผู้จัดจำหน่ายมีค่าในคอลัมน์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์
 
-1. ในแอป Finance and Operations ให้ลบฟิลด์ **PrimaryContactPersonId** และ **InvoiceVendorAccountNumber** จากการแม็ป และจากนั้น บันทึกการแม็ป
+1. ในแอป Finance and Operations ให้ลบคอลัมน์ **PrimaryContactPersonId** และคอลัมน์ **InvoiceVendorAccountNumber** จากการแม็ป และจากนั้น บันทึกการแม็ป
 
     1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** บนแท็บ **การแม็ปตาราง** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations apps.Vendors V2** ในตัวกรองสิทธิ์ เลือก **Sales.Vendor**
-    2. ค้นหา **primarycontactperson** เพื่อค้นหาฟิลด์ต้นทาง **PrimaryContactPersonId**
+    2. ค้นหา **primarycontactperson** เพื่อค้นหาคอลัมน์ต้นทาง **PrimaryContactPersonId**
     3. เลือก **การดำเนินการ** แล้วจากนั้น เลือก **ลบ**
 
-        ![การลบฟิลด์ PrimaryContactPersonId](media/vend_selfref3.png)
+        ![การลบคอลัมน์ PrimaryContactPersonId](media/vend_selfref3.png)
 
-    4. ทำซ้ำขั้นตอนเหล่านี้เพื่อลบฟิลด์ **InvoiceVendorAccountNumber**
+    4. ทำซ้ำขั้นตอนเหล่านี้เพื่อลบคอลัมน์ **InvoiceVendorAccountNumber**
 
-        ![การลบฟิลด์ InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![การลบคอลัมน์ InvoiceVendorAccountNumber](media/vend-selfref4.png)
 
     5. บันทึกการเปลี่ยนแปลงของคุณไปยังการแม็ป
 
-2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี **ผู้จัดจำหน่าย V2**
+2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับตาราง **ผู้จัดจำหน่าย V2**
 
     1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **ตารางข้อมูล**
-    2. เลือกเอนทิตี **ผู้จัดจำหน่าย V2**
+    2. เลือกตาราง **ผู้จัดจำหน่าย V2**
     3. ในบานหน้าต่างการดำเนินการ ให้เลือก **ตัวเลือก** แล้วจากนั้น เลือก **การติดตามการเปลี่ยนแปลง**
 
         ![การเลือกตัวเลือกการติดตามการเปลี่ยนแปลง](media/selfref_options.png)
@@ -138,14 +138,14 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
         ![การเลือกปิดใช้งานการติดตามการเปลี่ยนแปลง](media/selfref_tracking.png)
 
 3. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** การซิงโครไนส์เริ่มต้นควรรันเสร็จเรียบร้อย โดยไม่มีข้อผิดพลาดใดๆ
-4. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้ติดต่อของ CDS V2 (ผู้ติดต่อ)** คุณต้องซิงค์การแม็ปนี้ ถ้าคุณต้องการซิงค์ฟิลด์ผู้ติดต่อหลักบนเอนทิตีของผู้จัดจำหน่าย เนื่องจากยังต้องทำการซิงโครไนส์เริ่มต้นสำหรับแถวผู้ติดต่อด้วย
-5. เพิ่มฟิลด์ **PrimaryContactPersonId** และฟิลด์ **InvoiceVendorAccountNumber** กลับไปยังการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** และจากนั้น บันทึกการแม็ป
+4. รันการซิงโครไนส์เริ่มต้นสำหรับการแม็ป **ผู้ติดต่อของ CDS V2 (ผู้ติดต่อ)** คุณต้องซิงค์การแม็ปนี้ ถ้าคุณต้องการซิงค์คอลัมน์ผู้ติดต่อหลักบนตารางของผู้จัดจำหน่าย เนื่องจากยังต้องทำการซิงโครไนส์เริ่มต้นสำหรับแถวผู้ติดต่อด้วย
+5. เพิ่มคอลัมน์ **PrimaryContactPersonId** และคอลัมน์ **InvoiceVendorAccountNumber** กลับไปยังการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** และจากนั้น บันทึกการแม็ป
 6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ผู้จัดจำหน่าย V2 (msdyn\_vendors)** เนื่องจากมีการปิดใช้งานการติดตามการเปลี่ยนแปลง แถวทั้งหมดจะถูกซิงค์
-7. เปิดการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับเอนทิตี **ผู้จัดจำหน่าย V2**
+7. เปิดการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับตาราง **ผู้จัดจำหน่าย V2**
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>แก้ไขข้อผิดพลาดในลูกค้า V3–สำหรับ–การแม็ปตารางบัญชี
 
-คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ลูกค้า V3** สำหรับ **บัญชี** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในฟิลด์ **ContactPersonID** และฟิลด์ **InvoiceAccount** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceAccount** เป็นฟิลด์ที่อ้างอิงตนเอง และ **ContactPersonID** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
+คุณอาจพบข้อผิดพลาดในการซิงโครไนส์เริ่มต้นสำหรับการแม็ปของ **ลูกค้า V3** ไปยัง **บัญชี** ถ้าตารางมีแถวที่มีอยู่ที่ซึ่งมีค่าในคอลัมน์ **ContactPersonID** และคอลัมน์ **InvoiceAccount** ข้อผิดพลาดเหล่านี้เกิดขึ้นเนื่องจาก **InvoiceAccount** เป็นคอลัมน์ที่อ้างอิงตนเอง และ **ContactPersonID** เป็นการอ้างอิงหมุนเวียนในการแม็ปผู้จัดจำหน่าย
 
 ข้อความแสดงข้อผิดพลาดที่คุณได้รับจะมีฟอร์มต่อไปนี้
 
@@ -156,26 +156,26 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: primarycontactid.msdyn\_contactpersonid ไม่พบการค้นหา: 000056 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *ไม่สามารถแก้ไข guid สำหรับฟิลด์: msdyn\_billingaccount.accountnumber ไม่พบการค้นหา: 1206-1 ลองใช้ URL นี้เพื่อตรวจสอบว่ามีข้อมูลอ้างอิงอยู่หรือไม่: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-ถ้าแถวใดๆ ในเอนทิตีของลูกค้ามีค่าในฟิลด์ **ContactPersonID** และ **InvoiceAccount** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์ คุณสามารถใช้วิธีการนี้สำหรับตารางแบบสำเร็จรูปใดๆ เช่น **บัญชี** และ **ผู้ติดต่อ**
+ถ้าแถวใดๆ ในตารางของลูกค้ามีค่าในคอลัมน์ **ContactPersonID** และคอลัมน์ **InvoiceAccount** ให้ทำตามขั้นตอนเหล่านี้เพื่อทำให้การซิงโครไนส์เริ่มต้นเสร็จสมบูรณ์ คุณสามารถใช้วิธีการนี้สำหรับตารางแบบสำเร็จรูปใดๆ เช่น **บัญชี** และ **ผู้ติดต่อ**
 
-1. ในแอป Finance and Operations ลบฟิลด์ **ContactPersonID** และฟิลด์ **InvoiceAccount** จากการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป
+1. ในแอป Finance and Operations ลบคอลัมน์ **ContactPersonID** และคอลัมน์ **InvoiceAccount** จากการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป
 
     1. บนหน้าการแม็ปการรวมแบบสองทิศทางสำหรับ **ลูกค้า V3 (บัญชี)** บนแท็บ **การแม็ปตาราง** ในตัวกรองด้านซ้าย ให้เลือก **Finance and Operations app.Customers V3** ในตัวกรองสิทธิ์ เลือก **Dataverse.Account**
-    2. ค้นหา **contactperson** เพื่อค้นหาฟิลด์ต้นทาง **ContactPersonID**
+    2. ค้นหา **contactperson** เพื่อค้นหาคอลัมน์ต้นทาง **ContactPersonID**
     3. เลือก **การดำเนินการ** แล้วจากนั้น เลือก **ลบ**
 
-        ![การลบฟิลด์ ContactPersonID](media/cust_selfref3.png)
+        ![การลบคอลัมน์ ContactPersonID](media/cust_selfref3.png)
 
-    4. ทำซ้ำขั้นตอนเหล่านี้เพื่อลบฟิลด์ **InvoiceAccount**
+    4. ทำซ้ำขั้นตอนเหล่านี้เพื่อลบคอลัมน์ **InvoiceAccount**
 
-        ![การลบฟิลด์ InvoiceAccount](media/cust_selfref4.png)
+        ![การลบคอลัมน์ InvoiceAccount](media/cust_selfref4.png)
 
     5. บันทึกการเปลี่ยนแปลงของคุณไปยังการแม็ป
 
-2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี **ลูกค้า V3**
+2. ปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับตาราง **ลูกค้า V3**
 
     1. ในพื้นที่ทำงาน **การจัดการข้อมูล** เลือกไทล์ **ตารางข้อมูล**
-    2. เลือกเอนทิตี **ลูกค้า V3**
+    2. เลือกตาราง **ลูกค้า V3**
     3. ในบานหน้าต่างการดำเนินการ ให้เลือก **ตัวเลือก** แล้วจากนั้น เลือก **การติดตามการเปลี่ยนแปลง**
 
         ![การเลือกตัวเลือกการติดตามการเปลี่ยนแปลง](media/selfref_options.png)
@@ -190,7 +190,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     > [!NOTE]
     > มีแผนที่สองรายการที่มีชื่อเดียวกัน ตรวจสอบให้แน่ใจว่าได้เลือกแม็ปที่มีคำอธิบายต่อไปนี้บนแท็บ **รายละเอียด**: **แม่แบบการรวมแบบสองทิศทางสำหรับการซิงค์ระหว่าง FO.CDS Vendor Contacts V2 ไปยัง CDS.Contacts. Requires new package \[Dynamics365SupplyChainExtended\]**
 
-5. เพิ่มฟิลด์ **InvoiceAccount** และฟิลด์ **ContactPersonId** กลับไปยังการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป ตอนนี้ทั้งฟิลด์ **InvoiceAccount** และฟิลด์ **ContactPersonId** เป็นส่วนหนึ่งของโหมดการซิงโครไนส์ที่เริ่มใช้งานจริงอีกครั้ง ในขั้นตอนถัดไป คุณจะดำเนินการซิงค์เริ่มต้นสำหรับฟิลด์เหล่านี้
+5. เพิ่มคอลัมน์ **InvoiceAccount** และคอลัมน์ **ContactPersonId** กลับไปยังการแม็ป **ลูกค้า V3 (บัญชี)** และจากนั้น บันทึกการแม็ป ตอนนี้ทั้งคอลัมน์ **InvoiceAccount** และคอลัมน์ **ContactPersonId** เป็นส่วนหนึ่งของโหมดการซิงโครไนส์ที่เริ่มใช้งานจริงอีกครั้ง ในขั้นตอนถัดไป คุณจะดำเนินการซิงค์เริ่มต้นสำหรับคอลัมน์เหล่านี้
 6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ลูกค้า V3 (บัญชี)** เนื่องจากการติดตามการเปลี่ยนแปลงถูกปิด จะมีการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จากแอป Finance and Operations ไปยัง Dataverse
 7. เมื่อต้องการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จาก Dataverse ไปยังแอป Finance and Operations คุณต้องใช้โครงการการรวมข้อมูล
 
@@ -210,7 +210,4 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
     การซิงโครไนส์เริ่มต้นของแถวเสร็จสมบูรณ์ในขณะนี้
 
-8. ในแอป Finance and Operations เปิดใช้งานการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับเอนทิตี **ลูกค้า V3**
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. ในแอป Finance and Operations เปิดใช้งานการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับตาราง **ลูกค้า V3**

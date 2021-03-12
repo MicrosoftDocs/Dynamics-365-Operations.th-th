@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693413"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797795"
 ---
 # <a name="enter-payroll-beginning-balances"></a>ป้อนยอดดุลต้นงวดของค่าจ้าง
 
@@ -166,6 +166,3 @@ ms.locfileid: "4693413"
 2. คลิก **ใช่** เมื่อข้อความ "เมื่อคุณกลับรายการใบแจ้งยอดการชำระเงินนี้ ใบแจ้งยอดการชำระเงินกลับบัญชีจะถูกสร้างเพื่อออฟเซ็ตใบแจ้งยอดการชำระค่าจ้างนี้ ใบแจ้งยอดค่าจ้างไม่สามารถถูกแก้ไขได้ คุณต้องการกลับรายการใบแจ้งยอดการชำระค่าจ้างนี้หรือไม่" การแสดง 
 
 หลังจากที่คุณกลับรายการใบแจ้งยอดค่าจ้าง คุณสามารถสร้างใบแจ้งยอดการชำระค่าจ้างใหม่สำหรับผู้ปฏิบัติงานจากใบแจ้งยอดรายได้ที่คุณสร้างไว้ก่อนหน้านี้ ตรวจสอบให้แน่ใจว่าได้ทำการแก้ไขบรรทัดที่ไม่ถูกต้องในใบแจ้งยอดรายได้ก่อนที่คุณจะสร้างใบแจ้งยอดค่าจ้างใหม่ จากนั้นให้สร้างใบแจ้งยอดค่าจ้างใหม่ที่มียอดเงินที่ถูกต้อง 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

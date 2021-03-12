@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693761"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798213"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>การทดสอบแบบวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
 
@@ -49,6 +49,3 @@ ms.locfileid: "4693761"
     - ตรวจสอบความถูกต้องหลังจากที่คุณกรองข้อมูลธุรกรรมเฉพาะแทนการตรวจสอบทั่วไปเท่านั้น ตัวอย่างเช่นสำหรับหมายเลขของเรกคอร์ดให้กรองข้อมูลสำหรับหมายเลขธุรกรรมหรือวันที่ทำธุรกรรมเพื่อให้การตรวจสอบความถูกต้องไม่รวมธุรกรรมอื่นๆทั้งหมด 
     - ถ้าคุณกำลังตรวจสอบยอดดุลลูกค้าหรือการตรวจสอบงบประมาณ ให้บันทึกค่าก่อนแล้วจึงเพิ่มมูลค่าของธุรกรรมของคุณเพื่อตรวจสอบความถูกต้องของผลลัพธ์ที่คาดไว้แทนที่จะตรวจสอบความถูกต้องของค่าที่คาดอย่างคงที่ 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

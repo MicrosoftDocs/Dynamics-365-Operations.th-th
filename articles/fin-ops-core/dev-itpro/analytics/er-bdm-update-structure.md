@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681339"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728100"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ 
 
@@ -56,7 +56,7 @@ ms.locfileid: "4681339"
 5. เลือก **ตกลง** เพื่อสร้างแม่แบบใหม่
 
     > [!NOTE]
-    > หากคุณยังไม่ได้เข้าสู่ระบบ Office Online คุณจะ [ถูกนำไปยังหน้าลงชื่อเข้าใช้ Office 365](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page) เมื่อต้องการกลับไปยังสภาพแวดล้อมทางการเงินของคุณ ให้เลือกปุ่ม **ย้อนกลับ** ในเบราว์เซอร์ของคุณ
+    > หากคุณยังไม่ได้เข้าสู่ระบบ Office Online คุณจะ [ถูกนำไปยังหน้าลงชื่อเข้าใช้ Office 365](er-business-document-management.md#frequently-asked-questions) เมื่อต้องการกลับไปยังสภาพแวดล้อมทางการเงินของคุณ ให้เลือกปุ่ม **ย้อนกลับ** ในเบราว์เซอร์ของคุณ
 
     มีการเปิดแม่แบบใหม่สำหรับการแก้ไขในตัวควบคุมฝังตัวแบบออนไลน์ของ Excel บนหน้าโปรแกรมแก้ไขแม่แบบ
 
@@ -106,6 +106,3 @@ ms.locfileid: "4681339"
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 [ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
