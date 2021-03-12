@@ -11,86 +11,85 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: d9626f33ced0433bc96ed58429e95d4f75af6508
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4416293"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980393"
 ---
-# <a name="gift-card-module"></a><span data-ttu-id="122ec-103">โมดูลบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="122ec-103">Gift card module</span></span>
+# <a name="gift-card-module"></a><span data-ttu-id="6687a-103">โมดูลบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="6687a-103">Gift card module</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="122ec-104">หัวข้อนี้ครอบคลุมถึงโมดูลบัตรของขวัญและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="122ec-104">This topic covers gift card modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="6687a-104">หัวข้อนี้ครอบคลุมถึงโมดูลบัตรของขวัญและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6687a-104">This topic covers gift card modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="122ec-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="122ec-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="6687a-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="6687a-105">Overview</span></span>
 
-<span data-ttu-id="122ec-106">โมดูลบัตรของขวัญสามารถใช้ในโมดูลเช็คเอาท์เพื่อรับบัตรของขวัญ ซึ่งเป็นรูปแบบการชำระเงินทั่วไปที่ใช้สำหรับธุรกรรมอีคอมเมิร์ซ</span><span class="sxs-lookup"><span data-stu-id="122ec-106">Gift card modules can be used in checkout modules to accept gift cards, a common form of payment used for e-Commerce transactions.</span></span> <span data-ttu-id="122ec-107">โมดูลบัตรของขวัญสนับสนุนบัตรของขวัญ Dynamics 365, SVS, และ Givex </span><span class="sxs-lookup"><span data-stu-id="122ec-107">The gift card module supports Dynamics 365, SVS, and Givex gift cards.</span></span> <span data-ttu-id="122ec-108">บัตรของขวัญ SVS และ Givex จะถูกแลกรางวัลผ่านผู้ให้บริการชำระเงิน Adyen</span><span class="sxs-lookup"><span data-stu-id="122ec-108">SVS and Givex gift cards are redeemed via the Adyen payment provider.</span></span> <span data-ttu-id="122ec-109">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนสำหรับบัตรของขวัญภายนอก เช่น SVS และ Givex โปรดดูที่ [การสนับสนุนบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)</span><span class="sxs-lookup"><span data-stu-id="122ec-109">For more information about support for external gift cards such as SVS and Givex, see [Support for external gift cards](./dev-itpro/gift-card.md).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="122ec-110">การสนับสนุนสำหรับการแลกบัตรของขวัญ SVS และ Givex ในระหว่างขั้นตอนการชำระเงิน จะพร้อมใช้งานใน Dynamics 365 Commerce รุ่น 10.0.11</span><span class="sxs-lookup"><span data-stu-id="122ec-110">Support for redeeming SVS and Givex gift cards during checkout flow is available in the Dynamics 365 Commerce 10.0.11 release.</span></span> 
-
-<span data-ttu-id="122ec-111">มีโมดูลบัตรของขวัญสองรายการที่พร้อมใช้งาน:</span><span class="sxs-lookup"><span data-stu-id="122ec-111">There are two gift card modules available:</span></span>
-
-- <span data-ttu-id="122ec-112">**บัตรของขวัญ** - สำหรับโมดูลนี้สามารถใช้ในหน้าเช็คเอาท์เพื่อแลกบัตรของขวัญเป็นวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="122ec-112">**Gift card** - This module can be used on a checkout page to redeem a gift card as tender.</span></span> 
-- <span data-ttu-id="122ec-113">**การตรวจสอบยอดคงเหลือในบัตรของขวัญ** โมดูลนี้สามารถใช้ในหน้าใดก็ได้เพื่อตรวจสอบยอดคงเหลือในบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="122ec-113">**Gift card balance check** - This module can be used on any page to check the balance on a gift card.</span></span> <span data-ttu-id="122ec-114">โมดูลนี้พร้อมใช้งานใน Commerce รีลีส 10.0.14 และรุ่นที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="122ec-114">This module is available in Commerce release 10.0.14 and later.</span></span>
+<span data-ttu-id="6687a-106">โมดูลบัตรของขวัญสามารถใช้ในโมดูลเช็คเอาท์เพื่อรับบัตรของขวัญ ซึ่งเป็นรูปแบบการชำระเงินทั่วไปที่ใช้สำหรับธุรกรรมอีคอมเมิร์ซ</span><span class="sxs-lookup"><span data-stu-id="6687a-106">Gift card modules can be used in checkout modules to accept gift cards, a common form of payment used for e-Commerce transactions.</span></span> <span data-ttu-id="6687a-107">โมดูลบัตรของขวัญสนับสนุนบัตรของขวัญ Dynamics 365, SVS, และ Givex </span><span class="sxs-lookup"><span data-stu-id="6687a-107">The gift card module supports Dynamics 365, SVS, and Givex gift cards.</span></span> <span data-ttu-id="6687a-108">บัตรของขวัญ SVS และ Givex จะถูกแลกรางวัลผ่านผู้ให้บริการชำระเงิน Adyen</span><span class="sxs-lookup"><span data-stu-id="6687a-108">SVS and Givex gift cards are redeemed via the Adyen payment provider.</span></span> <span data-ttu-id="6687a-109">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนสำหรับบัตรของขวัญภายนอก เช่น SVS และ Givex โปรดดูที่ [การสนับสนุนบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)</span><span class="sxs-lookup"><span data-stu-id="6687a-109">For more information about support for external gift cards such as SVS and Givex, see [Support for external gift cards](./dev-itpro/gift-card.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="122ec-115">สนับสนุนสำหรับโมดูลการตรวจสอบยอดคงเหลือในบัตรของขวัญ มีอยู่ใน Dynamics 365 Commerce รุ่น 10.0.14</span><span class="sxs-lookup"><span data-stu-id="122ec-115">Support for the gift card balance check module is available in the Dynamics 365 Commerce 10.0.14 release.</span></span>
+> <span data-ttu-id="6687a-110">การสนับสนุนสำหรับการแลกบัตรของขวัญ SVS และ Givex ในระหว่างขั้นตอนการชำระเงิน จะพร้อมใช้งานใน Dynamics 365 Commerce รุ่น 10.0.11</span><span class="sxs-lookup"><span data-stu-id="6687a-110">Support for redeeming SVS and Givex gift cards during checkout flow is available in the Dynamics 365 Commerce 10.0.11 release.</span></span> 
 
-<span data-ttu-id="122ec-116">รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูลบัตรของขวัญบนหน้าเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="122ec-116">The following image shows an example of a gift card module on a checkout page.</span></span>
+<span data-ttu-id="6687a-111">มีโมดูลบัตรของขวัญสองรายการที่พร้อมใช้งาน:</span><span class="sxs-lookup"><span data-stu-id="6687a-111">There are two gift card modules available:</span></span>
+
+- <span data-ttu-id="6687a-112">**บัตรของขวัญ** - สำหรับโมดูลนี้สามารถใช้ในหน้าเช็คเอาท์เพื่อแลกบัตรของขวัญเป็นวิธีการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6687a-112">**Gift card** - This module can be used on a checkout page to redeem a gift card as tender.</span></span> 
+- <span data-ttu-id="6687a-113">**การตรวจสอบยอดคงเหลือในบัตรของขวัญ** โมดูลนี้สามารถใช้ในหน้าใดก็ได้เพื่อตรวจสอบยอดคงเหลือในบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="6687a-113">**Gift card balance check** - This module can be used on any page to check the balance on a gift card.</span></span> <span data-ttu-id="6687a-114">โมดูลนี้พร้อมใช้งานใน Commerce รีลีส 10.0.14 และรุ่นที่ใหม่กว่า</span><span class="sxs-lookup"><span data-stu-id="6687a-114">This module is available in Commerce release 10.0.14 and later.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6687a-115">สนับสนุนสำหรับโมดูลการตรวจสอบยอดคงเหลือในบัตรของขวัญ มีอยู่ใน Dynamics 365 Commerce รุ่น 10.0.14</span><span class="sxs-lookup"><span data-stu-id="6687a-115">Support for the gift card balance check module is available in the Dynamics 365 Commerce 10.0.14 release.</span></span>
+
+<span data-ttu-id="6687a-116">รูปภาพต่อไปนี้แสดงตัวอย่างของโมดูลบัตรของขวัญบนหน้าเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="6687a-116">The following image shows an example of a gift card module on a checkout page.</span></span>
 
 ![ตัวอย่างของโมดูลบัตรของขวัญ](./media/ecommerce-giftcard.PNG)
 
-## <a name="module-properties"></a><span data-ttu-id="122ec-118">คุณสมบัติของโมดูล</span><span class="sxs-lookup"><span data-stu-id="122ec-118">Module properties</span></span>
+## <a name="module-properties"></a><span data-ttu-id="6687a-118">คุณสมบัติของโมดูล</span><span class="sxs-lookup"><span data-stu-id="6687a-118">Module properties</span></span>
 
-- <span data-ttu-id="122ec-119">**แสดงฟิลด์เพิ่มเติม** - คุณสมบัตินี้กำหนดว่าควรแสดงฟิลด์ใดสำหรับบัตรของขวัญนอกเหนือจากหมายเลขบัตรของขวัญ ซึ่งจะแสดงตามค่าเริ่มต้นเสมอ</span><span class="sxs-lookup"><span data-stu-id="122ec-119">**Show additional fields** - This property defines what fields should be displayed for gift cards in addition to the gift card number, which is always displayed by default.</span></span> <span data-ttu-id="122ec-120">ตัวอย่างเช่น บัตรของขวัญบางชิ้นสนับสนุนการแสดงหมายเลขรหัสประจำตัว (PIN) และการสนับสนุนอื่นๆ ที่แสดง PIN และวันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="122ec-120">For example, some gift cards support displaying a personal identification number (PIN), and others support displaying a PIN and expiration date.</span></span> <span data-ttu-id="122ec-121">อีกทางหนึ่งคือ คุณสมบัตินี้อาจถูกตั้งค่าเป็น "ไม่มี" ซึ่งจะแสดงหมายเลขบัตรของขวัญเท่านั้นและไม่มีฟิลด์เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="122ec-121">Alternatively, this property could be set to "None", which would only display the gift card number and no additional fields.</span></span>
+- <span data-ttu-id="6687a-119">**แสดงฟิลด์เพิ่มเติม** - คุณสมบัตินี้กำหนดว่าควรแสดงฟิลด์ใดสำหรับบัตรของขวัญนอกเหนือจากหมายเลขบัตรของขวัญ ซึ่งจะแสดงตามค่าเริ่มต้นเสมอ</span><span class="sxs-lookup"><span data-stu-id="6687a-119">**Show additional fields** - This property defines what fields should be displayed for gift cards in addition to the gift card number, which is always displayed by default.</span></span> <span data-ttu-id="6687a-120">ตัวอย่างเช่น บัตรของขวัญบางชิ้นสนับสนุนการแสดงหมายเลขรหัสประจำตัว (PIN) และการสนับสนุนอื่นๆ ที่แสดง PIN และวันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="6687a-120">For example, some gift cards support displaying a personal identification number (PIN), and others support displaying a PIN and expiration date.</span></span> <span data-ttu-id="6687a-121">อีกทางหนึ่งคือ คุณสมบัตินี้อาจถูกตั้งค่าเป็น "ไม่มี" ซึ่งจะแสดงหมายเลขบัตรของขวัญเท่านั้นและไม่มีฟิลด์เพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6687a-121">Alternatively, this property could be set to "None", which would only display the gift card number and no additional fields.</span></span>
 
-<span data-ttu-id="122ec-122">ค่าที่สนับสนุน:</span><span class="sxs-lookup"><span data-stu-id="122ec-122">Supported values:</span></span>
--   <span data-ttu-id="122ec-123">PIN</span><span class="sxs-lookup"><span data-stu-id="122ec-123">PIN</span></span>
--   <span data-ttu-id="122ec-124">วันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="122ec-124">Expiration date</span></span>
--   <span data-ttu-id="122ec-125">รหัส PIN และวันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="122ec-125">PIN and expiration date</span></span> 
--   <span data-ttu-id="122ec-126">None</span><span class="sxs-lookup"><span data-stu-id="122ec-126">None</span></span>
+<span data-ttu-id="6687a-122">ค่าที่สนับสนุน:</span><span class="sxs-lookup"><span data-stu-id="6687a-122">Supported values:</span></span>
+-   <span data-ttu-id="6687a-123">PIN</span><span class="sxs-lookup"><span data-stu-id="6687a-123">PIN</span></span>
+-   <span data-ttu-id="6687a-124">วันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="6687a-124">Expiration date</span></span>
+-   <span data-ttu-id="6687a-125">รหัส PIN และวันหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="6687a-125">PIN and expiration date</span></span> 
+-   <span data-ttu-id="6687a-126">None</span><span class="sxs-lookup"><span data-stu-id="6687a-126">None</span></span>
 
-## <a name="site-settings-for-gift-card-modules"></a><span data-ttu-id="122ec-127">การตั้งค่าไซต์สำหรับโมดูลบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="122ec-127">Site settings for gift card modules</span></span>
+## <a name="site-settings-for-gift-card-modules"></a><span data-ttu-id="6687a-127">การตั้งค่าไซต์สำหรับโมดูลบัตรของขวัญ</span><span class="sxs-lookup"><span data-stu-id="6687a-127">Site settings for gift card modules</span></span>
 
-<span data-ttu-id="122ec-128">ในโปรแกรมสร้างไซต์ Commerce ภายใต้ **การตั้งค่าไซต์ \> ส่วนขยาย** จะมีการตั้งค่าโมดูลสำหรับบัตรของขวัญที่เรียกว่า **ชนิดบัตรของขวัญที่สนับสนุน**</span><span class="sxs-lookup"><span data-stu-id="122ec-128">In Commerce site builder under **Site Settings \> Extensions**, there is a gift card module setting called **Supported gift card type**.</span></span> <span data-ttu-id="122ec-129">การตั้งค่านี้สนับสนุนค่าสามค่า:</span><span class="sxs-lookup"><span data-stu-id="122ec-129">This setting supports three values:</span></span>
-- <span data-ttu-id="122ec-130">**บัตรของขวัญ Dynamics 365** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ Dynamics 365 เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="122ec-130">**Dynamics 365 gift card** - When this setting is applied, the gift card module only allows the redemption of Dynamics 365 gift cards.</span></span> <span data-ttu-id="122ec-131">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อในไซต์อีคอมเมิร์ซเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="122ec-131">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
-- <span data-ttu-id="122ec-132">**บัตรของขวัญ SVS และ Givex** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ SVS และ Givex เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="122ec-132">**SVS and Givex gift cards** - When this setting is applied, the gift card module only allows the redemption of Givex and SVS gift cards.</span></span> <span data-ttu-id="122ec-133">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อและผู้ใช้ที่ไม่ระบุชื่อในไซต์อีคอมเมิร์ซ</span><span class="sxs-lookup"><span data-stu-id="122ec-133">This setting is supported for signed-in and anonymous users on the e-Commerce site.</span></span>
-- <span data-ttu-id="122ec-134">**บัตรของขวัญ Dynamics 365, SVS และ Givex** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ Dynamics 365, SVS และ Givex</span><span class="sxs-lookup"><span data-stu-id="122ec-134">**Dynamics 365, SVS, and Givex gift cards** - When this setting is applied, the gift card module allows the redemption of Dynamics 365, Givex, and SVS gift cards.</span></span> <span data-ttu-id="122ec-135">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อในไซต์อีคอมเมิร์ซเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="122ec-135">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
+<span data-ttu-id="6687a-128">ในโปรแกรมสร้างไซต์ Commerce ภายใต้ **การตั้งค่าไซต์ \> ส่วนขยาย** จะมีการตั้งค่าโมดูลสำหรับบัตรของขวัญที่เรียกว่า **ชนิดบัตรของขวัญที่สนับสนุน**</span><span class="sxs-lookup"><span data-stu-id="6687a-128">In Commerce site builder under **Site Settings \> Extensions**, there is a gift card module setting called **Supported gift card type**.</span></span> <span data-ttu-id="6687a-129">การตั้งค่านี้สนับสนุนค่าสามค่า:</span><span class="sxs-lookup"><span data-stu-id="6687a-129">This setting supports three values:</span></span>
+- <span data-ttu-id="6687a-130">**บัตรของขวัญ Dynamics 365** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ Dynamics 365 เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6687a-130">**Dynamics 365 gift card** - When this setting is applied, the gift card module only allows the redemption of Dynamics 365 gift cards.</span></span> <span data-ttu-id="6687a-131">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อในไซต์อีคอมเมิร์ซเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6687a-131">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
+- <span data-ttu-id="6687a-132">**บัตรของขวัญ SVS และ Givex** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ SVS และ Givex เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6687a-132">**SVS and Givex gift cards** - When this setting is applied, the gift card module only allows the redemption of Givex and SVS gift cards.</span></span> <span data-ttu-id="6687a-133">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อและผู้ใช้ที่ไม่ระบุชื่อในไซต์อีคอมเมิร์ซ</span><span class="sxs-lookup"><span data-stu-id="6687a-133">This setting is supported for signed-in and anonymous users on the e-Commerce site.</span></span>
+- <span data-ttu-id="6687a-134">**บัตรของขวัญ Dynamics 365, SVS และ Givex** - เมื่อมีการใช้การตั้งค่านี้ โมดูลบัตรของขวัญจะอนุญาตให้มีการแลกรางวัลบัตรของขวัญของ Dynamics 365, SVS และ Givex</span><span class="sxs-lookup"><span data-stu-id="6687a-134">**Dynamics 365, SVS, and Givex gift cards** - When this setting is applied, the gift card module allows the redemption of Dynamics 365, Givex, and SVS gift cards.</span></span> <span data-ttu-id="6687a-135">การตั้งค่านี้ได้รับการสนับสนุนสำหรับผู้ใช้ที่ลงชื่อในไซต์อีคอมเมิร์ซเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6687a-135">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="122ec-136">การตั้งค่าเหล่านี้มีอยู่ใน Dynamics 365 Commerce รุ่น 10.0.11 และจำเป็นต้องใช้เฉพาะเมื่อคุณต้องการการสนับสนุนสำหรับบัตรของขวัญ SVS หรือ Givex เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="122ec-136">These settings are available in the Dynamics 365 Commerce 10.0.11 release and are required only if you need support for SVS or Givex gift cards.</span></span> <span data-ttu-id="122ec-137">ถ้าคุณกำลังอัพปเดตจากเวอร์ชันที่เก่ากว่าของ Dynamics 365 Commerce คุณต้องอัปเดตไฟล์ appsettings.json ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="122ec-137">If you are updating from an older version of Dynamics 365 Commerce, you must manually update the appsettings.json file.</span></span> <span data-ttu-id="122ec-138">สำหรับคำแนะนำเกี่ยวกับการอัปเดตไฟล์ appsettings.json ให้ดูที่ [อัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)</span><span class="sxs-lookup"><span data-stu-id="122ec-138">For instructions on updating the appsettings.json file, see [SDK and module library updates](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).</span></span> 
+> <span data-ttu-id="6687a-136">การตั้งค่าเหล่านี้มีอยู่ใน Dynamics 365 Commerce รุ่น 10.0.11 และจำเป็นต้องใช้เฉพาะเมื่อคุณต้องการการสนับสนุนสำหรับบัตรของขวัญ SVS หรือ Givex เท่านั้น</span><span class="sxs-lookup"><span data-stu-id="6687a-136">These settings are available in the Dynamics 365 Commerce 10.0.11 release and are required only if you need support for SVS or Givex gift cards.</span></span> <span data-ttu-id="6687a-137">ถ้าคุณกำลังอัพปเดตจากเวอร์ชันที่เก่ากว่าของ Dynamics 365 Commerce คุณต้องอัปเดตไฟล์ appsettings.json ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="6687a-137">If you are updating from an older version of Dynamics 365 Commerce, you must manually update the appsettings.json file.</span></span> <span data-ttu-id="6687a-138">สำหรับคำแนะนำเกี่ยวกับการอัปเดตไฟล์ appsettings.json ให้ดูที่ [อัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)</span><span class="sxs-lookup"><span data-stu-id="6687a-138">For instructions on updating the appsettings.json file, see [SDK and module library updates](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).</span></span> 
 
-## <a name="add-a-gift-card-module-to-a-page"></a><span data-ttu-id="122ec-139">เพิ่มโมดูลบัตรของขวัญไปยังเพจ</span><span class="sxs-lookup"><span data-stu-id="122ec-139">Add a gift card module to a page</span></span>
+## <a name="add-a-gift-card-module-to-a-page"></a><span data-ttu-id="6687a-139">เพิ่มโมดูลบัตรของขวัญไปยังเพจ</span><span class="sxs-lookup"><span data-stu-id="6687a-139">Add a gift card module to a page</span></span>
 
-<span data-ttu-id="122ec-140">สำหรับคำแนะนำเกี่ยวกับวิธีการเพิ่มโมดูลบัตรของขวัญลงในหน้าเช็คเอาท์และตั้งค่าคุณสมบัติที่จำเป็น ให้ดูที่ [โมดูลเช็คเอาท์](add-checkout-module.md)</span><span class="sxs-lookup"><span data-stu-id="122ec-140">For instructions on how to add a gift card module to a checkout page and set the required properties, see [Checkout module](add-checkout-module.md).</span></span>
+<span data-ttu-id="6687a-140">สำหรับคำแนะนำเกี่ยวกับวิธีการเพิ่มโมดูลบัตรของขวัญลงในหน้าเช็คเอาท์และตั้งค่าคุณสมบัติที่จำเป็น ให้ดูที่ [โมดูลเช็คเอาท์](add-checkout-module.md)</span><span class="sxs-lookup"><span data-stu-id="6687a-140">For instructions on how to add a gift card module to a checkout page and set the required properties, see [Checkout module](add-checkout-module.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="122ec-141">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="122ec-141">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6687a-141">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="6687a-141">Additional resources</span></span>
 
-[<span data-ttu-id="122ec-142">โมดูลรถเข็น</span><span class="sxs-lookup"><span data-stu-id="122ec-142">Cart module</span></span>](add-cart-module.md)
+[<span data-ttu-id="6687a-142">โมดูลรถเข็น</span><span class="sxs-lookup"><span data-stu-id="6687a-142">Cart module</span></span>](add-cart-module.md)
 
-[<span data-ttu-id="122ec-143">โมดูลไอคอนรถเข็น</span><span class="sxs-lookup"><span data-stu-id="122ec-143">Cart icon module</span></span>](cart-icon-module.md)
+[<span data-ttu-id="6687a-143">โมดูลไอคอนรถเข็น</span><span class="sxs-lookup"><span data-stu-id="6687a-143">Cart icon module</span></span>](cart-icon-module.md)
 
-[<span data-ttu-id="122ec-144">โมดูลเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="122ec-144">Checkout module</span></span>](add-checkout-module.md)
+[<span data-ttu-id="6687a-144">โมดูลเช็คเอาท์</span><span class="sxs-lookup"><span data-stu-id="6687a-144">Checkout module</span></span>](add-checkout-module.md)
 
-[<span data-ttu-id="122ec-145">โมดูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="122ec-145">Payment module</span></span>](payment-module.md)
+[<span data-ttu-id="6687a-145">โมดูลการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="6687a-145">Payment module</span></span>](payment-module.md)
 
-[<span data-ttu-id="122ec-146">โมดูลที่อยู่ที่จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="122ec-146">Shipping address module</span></span>](ship-address-module.md)
+[<span data-ttu-id="6687a-146">โมดูลที่อยู่ที่จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="6687a-146">Shipping address module</span></span>](ship-address-module.md)
 
-[<span data-ttu-id="122ec-147">โมดูลตัวเลือกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="122ec-147">Delivery options module</span></span>](delivery-options-module.md)
+[<span data-ttu-id="6687a-147">โมดูลตัวเลือกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="6687a-147">Delivery options module</span></span>](delivery-options-module.md)
 
-[<span data-ttu-id="122ec-148">โมดูลข้อมูลการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="122ec-148">Pickup information module</span></span>](pickup-info-module.md)
+[<span data-ttu-id="6687a-148">โมดูลข้อมูลการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="6687a-148">Pickup information module</span></span>](pickup-info-module.md)
 
-[<span data-ttu-id="122ec-149">โมดูลรายละเอียดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="122ec-149">Order details module</span></span>](order-confirmation-module.md)
+[<span data-ttu-id="6687a-149">โมดูลรายละเอียดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="6687a-149">Order details module</span></span>](order-confirmation-module.md)
 
-[<span data-ttu-id="122ec-150">การรองรับบัตรของขวัญภายนอก</span><span class="sxs-lookup"><span data-stu-id="122ec-150">Support for external gift cards</span></span>](./dev-itpro/gift-card.md)
+[<span data-ttu-id="6687a-150">การรองรับบัตรของขวัญภายนอก</span><span class="sxs-lookup"><span data-stu-id="6687a-150">Support for external gift cards</span></span>](./dev-itpro/gift-card.md)
 
-[<span data-ttu-id="122ec-151">การอัปเดต SDK และไลบรารีโมดูล</span><span class="sxs-lookup"><span data-stu-id="122ec-151">SDK and module library updates</span></span>](e-commerce-extensibility/sdk-updates.md)
+[<span data-ttu-id="6687a-151">การอัปเดต SDK และไลบรารีโมดูล</span><span class="sxs-lookup"><span data-stu-id="6687a-151">SDK and module library updates</span></span>](e-commerce-extensibility/sdk-updates.md)
