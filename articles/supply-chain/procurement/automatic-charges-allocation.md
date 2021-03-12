@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438783"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983191"
 ---
 # <a name="automatic-allocation-of-charges"></a>การปันส่วนค่าธรรมเนียมโดยอัตโนมัติ
 
@@ -177,6 +176,3 @@ ms.locfileid: "4438783"
         > เมื่อคุณทำงานกับกริด **เลือกรายการที่จะแยกจากการปันส่วน** ให้ตรวจสอบให้แน่ใจว่าปล่อยให้กริดเปิดไว้จนกว่าคุณจะเลือก **ปันส่วน** ถ้าคุณปิดกริดก่อนที่คุณจะเลือก **ปันส่วน** การตั้งค่าของคุณในกริดจะสูญหาย ดังนั้น ค่าธรรมเนียมจะถูกปันส่วนตามเงื่อนไขที่คุณได้กำหนดไว้ก่อนหน้านี้
 
 1. เลือก **ปันส่วน** เพื่อใช้การตั้งค่าของคุณ และปิดกล่องโต้ตอบ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

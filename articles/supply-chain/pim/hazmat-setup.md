@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438668"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983352"
 ---
 # <a name="set-up-hazardous-materials"></a>ตั้งค่าวัตถุอันตราย
 
@@ -284,6 +283,3 @@ Microsoft Dynamics 365 Supply Chain Management มีข้อมูลจำเ
 ข้อมูลจำเพาะ *อุโมงค์ในการขนส่งวัตถุอันตราย* จะจำกัดชนิดของอุโมงค์ที่สามารถขนส่งวัตถุอันตรายโดยการระบุชนิดของอุโมงค์ที่ต้องใช้ ประเภทของอุโมงค์กำหนดตามกฎระเบียบที่บังคับใช้สำหรับการขนส่งวัตถุอันตราย โดยทั่วไปแล้ว ข้อมูลจำเพาะนี้จะใช้กับการขนส่งทางถนนเท่านั้น
 
 เมื่อต้องการตั้งค่าสำหรับข้อมูลจำเพาะนี้ ให้ไปที่ **การจัดการข้อมูลผลิตภัณฑ์ \> การตั้งค่า \> เอกสารประกอบการจัดส่งวัตถุอันตราย \> อุโมงค์ในการขนส่งวัตถุอันตราย** บนหน้า **อุโมงค์ในการขนส่งวัตถุอันตราย** คุณสามารถสร้าตัวระบุอุโมงค์จำนวนเท่าใดก็ได้และตั้งค่าคอนฟิกแต่ละรายการด้วยรหัสที่ระบุและคำอธิบายโดยย่อ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

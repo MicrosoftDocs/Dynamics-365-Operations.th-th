@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672211"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983502"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
 
@@ -49,6 +48,3 @@ ms.locfileid: "4672211"
 - **ไม่** – ไม่มีการทำเครื่องหมายสินค้าคงคลัง
 - **มาตรฐาน** – อัพเดตการทำเครื่องหมายสินค้าคงคลังตามการเชื่อมโยงความต้องการกับการจัดซื้อ มีการทำเครื่องหมายใบสั่งความต้องการ (อุปสงค์) ตามใบสั่งการเติมสินค้า (อุปทาน) ถ้าปริมาณบางปริมาณยังคงอยู่ในใบสั่งการเติมสินค้า จะไม่มีการทำเครื่องหมาย และข้อมูลอ้างอิงจะถูกปล่อยว่างไว้ ตัวอย่างเช่น ถ้าใบสั่งขายสำหรับ 100 ea ถูกโยงกับใบสั่งซื้อสำหรับ 150 ea จะมีการกำหนดข้อมูลอ้างอิงให้กับใบสั่งขายเท่านั้น
 - **ขยาย** – ทำเครื่องหมายทั้งใบสั่งความต้องการ (อุปสงค์) และใบสั่งการเติมสินค้า (อุปทาน) โดยไม่คำนึงว่ายังคงมีปริมาณอยู่บนใบสั่งการเติมสินค้าหรือไม่ ตัวอย่างเช่น ถ้าใบสั่งขายสำหรับ 100 ea ถูกโยงกับใบสั่งซื้อสำหรับ 150 ea จะมีการกำหนดข้อมูลอ้างอิงให้กับทั้งใบสั่งขายและใบสั่งซื้อ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
