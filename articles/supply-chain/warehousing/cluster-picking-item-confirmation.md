@@ -11,34 +11,33 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c8f81d760e8c181891aeba92834577e8869fbdd8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438522"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001135"
 ---
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="4c8b8-103">การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-103">Product confirmation for cluster picking</span></span>
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="0e313-103">การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0e313-103">Product confirmation for cluster picking</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4c8b8-104">การเบิกสินค้าคลัสเตอร์ช่วยให้คุณสามารถเบิกสินค้าสำหรับใบสั่งหลายใบพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="4c8b8-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="4c8b8-105">เมื่อมีการนำการเบิกสินค้าคลัสเตอร์มาใช้ การยืนยันสินค้าเป็นสิ่งสำคัญยิ่งในการตรวจสอบสินค้าที่ถูกเพิ่มลงในคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="4c8b8-106">คุณสามารถตรวจสอบสินค้าในการเบิกสินค้าคลัสเตอร์ในระหว่างกระบวนการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+<span data-ttu-id="0e313-104">การเบิกสินค้าคลัสเตอร์ช่วยให้คุณสามารถเบิกสินค้าสำหรับใบสั่งหลายใบพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="0e313-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="0e313-105">เมื่อมีการนำการเบิกสินค้าคลัสเตอร์มาใช้ การยืนยันสินค้าเป็นสิ่งสำคัญยิ่งในการตรวจสอบสินค้าที่ถูกเพิ่มลงในคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0e313-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="0e313-106">คุณสามารถตรวจสอบสินค้าในการเบิกสินค้าคลัสเตอร์ในระหว่างกระบวนการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0e313-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="4c8b8-107">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="4c8b8-107">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="0e313-107">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="0e313-107">Where it applies</span></span>
 
-<span data-ttu-id="4c8b8-108">การตรวจสอบสินค้าสำหรับการเบิกสินค้าคลัสเตอร์มีลักษณะเดียวกับเมื่อคุณตรวจสอบสินค้าในกระบวนการเบิกสินค้าที่ไม่ใช่คลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="4c8b8-109">การตั้งค่าขึ้นอยู่กับการตั้งค่าบาร์โค้ดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-109">The setup is based on the product bar code setup.</span></span>
+<span data-ttu-id="0e313-108">การตรวจสอบสินค้าสำหรับการเบิกสินค้าคลัสเตอร์มีลักษณะเดียวกับเมื่อคุณตรวจสอบสินค้าในกระบวนการเบิกสินค้าที่ไม่ใช่คลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0e313-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="0e313-109">การตั้งค่าขึ้นอยู่กับการตั้งค่าบาร์โค้ดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="0e313-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="4c8b8-110">ตั้งค่าการตรวจสอบสินค้าที่มีการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-110">Set up item verification with cluster picking</span></span>
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="0e313-110">ตั้งค่าการตรวจสอบสินค้าที่มีการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0e313-110">Set up item verification with cluster picking</span></span>
 
-1. <span data-ttu-id="4c8b8-111">บนรายการเมนูอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งค่าสำหรับการยืนยันงาน: **การบริหารคลังสินค้า** > **การบริหารคลังสินค้า** > **การตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="4c8b8-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-1. <span data-ttu-id="4c8b8-112">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน**</span><span class="sxs-lookup"><span data-stu-id="4c8b8-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+1. <span data-ttu-id="0e313-111">บนรายการเมนูอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งค่าสำหรับการยืนยันงาน: **การบริหารคลังสินค้า** > **การบริหารคลังสินค้า** > **การตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="0e313-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+1. <span data-ttu-id="0e313-112">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน**</span><span class="sxs-lookup"><span data-stu-id="0e313-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-|        <span data-ttu-id="4c8b8-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="4c8b8-113">Option</span></span>        |                                    <span data-ttu-id="4c8b8-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="4c8b8-114">Description</span></span>                                    |
+|        <span data-ttu-id="0e313-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="0e313-113">Option</span></span>        |                                    <span data-ttu-id="0e313-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="0e313-114">Description</span></span>                                    |
 |----------------------|-----------------------------------------------------------------------------------|
-| <span data-ttu-id="4c8b8-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4c8b8-115">Product confirmation</span></span> | <span data-ttu-id="4c8b8-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="4c8b8-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+| <span data-ttu-id="0e313-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="0e313-115">Product confirmation</span></span> | <span data-ttu-id="0e313-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="0e313-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
