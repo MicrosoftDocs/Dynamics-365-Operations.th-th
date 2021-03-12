@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,36 +18,36 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416097"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961570"
 ---
-# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a><span data-ttu-id="092fd-103">ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)</span><span class="sxs-lookup"><span data-stu-id="092fd-103">Configure cash denominations for the point of sale (POS)</span></span>
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a><span data-ttu-id="7349a-103">ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)</span><span class="sxs-lookup"><span data-stu-id="7349a-103">Configure cash denominations for the point of sale (POS)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="092fd-104">คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS</span><span class="sxs-lookup"><span data-stu-id="092fd-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="092fd-105">คุณสามารถใช้หน่วยเงินเหล่านี้เพื่อช่วยในการตรวจนับเงินสดสำหรับการตรวจนับเงินในช่วงท้ายของวันหรือเพื่อให้สามารถชำระเงินการขายได้อย่างรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="092fd-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
+<span data-ttu-id="7349a-104">คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS</span><span class="sxs-lookup"><span data-stu-id="7349a-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="7349a-105">คุณสามารถใช้หน่วยเงินเหล่านี้เพื่อช่วยในการตรวจนับเงินสดสำหรับการตรวจนับเงินในช่วงท้ายของวันหรือเพื่อให้สามารถชำระเงินการขายได้อย่างรวดเร็ว</span><span class="sxs-lookup"><span data-stu-id="7349a-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 
-## <a name="define-denominations"></a><span data-ttu-id="092fd-106">กำหนดหน่วยเงิน</span><span class="sxs-lookup"><span data-stu-id="092fd-106">Define denominations</span></span>
+## <a name="define-denominations"></a><span data-ttu-id="7349a-106">กำหนดหน่วยเงิน</span><span class="sxs-lookup"><span data-stu-id="7349a-106">Define denominations</span></span>
 
-<span data-ttu-id="092fd-107">หน่วยเงินจะถูกตั้งค่าสำหรับแต่ละร้านค้าในตัวเลือก **ตั้งค่า** \> **การตรวจนับเงินสด** จากหน้าคุณสมบัติร้านค้า</span><span class="sxs-lookup"><span data-stu-id="092fd-107">The denominations are set up per store on the **Set up** \> **Cash declaration** option from the store property page.</span></span>
+<span data-ttu-id="7349a-107">หน่วยเงินจะถูกตั้งค่าสำหรับแต่ละร้านค้าในตัวเลือก **ตั้งค่า** \> **การตรวจนับเงินสด** จากหน้าคุณสมบัติร้านค้า</span><span class="sxs-lookup"><span data-stu-id="7349a-107">The denominations are set up per store on the **Set up** \> **Cash declaration** option from the store property page.</span></span>
 
 ![ตัวเลือกการตรวจนับเงินสด](./media/image1-denomination.png)
 
-<span data-ttu-id="092fd-109">เมื่อต้องการกำหนดหน่วยเงิน:</span><span class="sxs-lookup"><span data-stu-id="092fd-109">To define a denomination:</span></span>
+<span data-ttu-id="7349a-109">เมื่อต้องการกำหนดหน่วยเงิน:</span><span class="sxs-lookup"><span data-stu-id="7349a-109">To define a denomination:</span></span>
 
-1. <span data-ttu-id="092fd-110">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="092fd-110">Click **New**.</span></span>
-1. <span data-ttu-id="092fd-111">ระบุชนิด (เหรียญหรือธนบัตร)</span><span class="sxs-lookup"><span data-stu-id="092fd-111">Specify the type (coin or note).</span></span>
-1. <span data-ttu-id="092fd-112">ระบุจำนวนเงิน (ค่า)</span><span class="sxs-lookup"><span data-stu-id="092fd-112">Specify the amount (value).</span></span>
+1. <span data-ttu-id="7349a-110">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="7349a-110">Click **New**.</span></span>
+1. <span data-ttu-id="7349a-111">ระบุชนิด (เหรียญหรือธนบัตร)</span><span class="sxs-lookup"><span data-stu-id="7349a-111">Specify the type (coin or note).</span></span>
+1. <span data-ttu-id="7349a-112">ระบุจำนวนเงิน (ค่า)</span><span class="sxs-lookup"><span data-stu-id="7349a-112">Specify the amount (value).</span></span>
 
 ![หน้าหน่วยเงินของการตรวจนับเงินสด](./media/image2-denomination.png)
 
-## <a name="configure-the-functionality-profile"></a><span data-ttu-id="092fd-114">ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="092fd-114">Configure the functionality profile</span></span>
+## <a name="configure-the-functionality-profile"></a><span data-ttu-id="7349a-114">ตั้งค่าคอนฟิกโพรไฟล์ฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="7349a-114">Configure the functionality profile</span></span>
 
-<span data-ttu-id="092fd-115">เมื่อชำระเงินด้วยเงินสดใน POS ผู้ใช้สามารถใช้หน่วยเงินของธนบัตรเพื่อป้อนยอดเงินที่ชำระโดยลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="092fd-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="092fd-116">ในโพรไฟล์ฟังก์ชัน คุณสามารถตั้งค่าคอนฟิกตัวเลือกสองตัวสำหรับการแสดงหน่วยเงินใน POS</span><span class="sxs-lookup"><span data-stu-id="092fd-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
+<span data-ttu-id="7349a-115">เมื่อชำระเงินด้วยเงินสดใน POS ผู้ใช้สามารถใช้หน่วยเงินของธนบัตรเพื่อป้อนยอดเงินที่ชำระโดยลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="7349a-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="7349a-116">ในโพรไฟล์ฟังก์ชัน คุณสามารถตั้งค่าคอนฟิกตัวเลือกสองตัวสำหรับการแสดงหน่วยเงินใน POS</span><span class="sxs-lookup"><span data-stu-id="7349a-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
 
-- <span data-ttu-id="092fd-117">**มากกว่าหรือเท่ากับจำนวนที่ครบกำหนด** – โดยค่าเริ่มต้น POS จะแสดงเฉพาะหน่วยเงินของธนบัตรที่มีมูลค่ามากกว่าจำนวนที่ครบกำหนด ซึ่งอนุญาตให้การชำระเงินแบบสัมผัสเดียว</span><span class="sxs-lookup"><span data-stu-id="092fd-117">**Greater or equal to amount due** – By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="092fd-118">ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $7.50 POS จะแสดงหน่วยต่อไปนี้: $10, $20, $50 และ $100</span><span class="sxs-lookup"><span data-stu-id="092fd-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="092fd-119">การสัมผัสจำนวนใด ๆ เหล่านี้จะเป็นการชำระเงินการขายสำหรับจำนวนนั้นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="092fd-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="092fd-120">ธนบัตร $1 และ $5 จะไม่ถูกแสดงเนื่องจากจำนวนเหล่านี้มีค่าน้อยกว่าจำนวนที่ครบกำหนด</span><span class="sxs-lookup"><span data-stu-id="092fd-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
-- <span data-ttu-id="092fd-121">**หน่วยเงินทั้งหมด** – เลือกตัวเลือกนี้เพื่อแสดงหน่วยเงินของธนบัตรทั้งหมดใน POS โดยไม่คำนึงถึงจำนวนที่ครบกำหนด</span><span class="sxs-lookup"><span data-stu-id="092fd-121">**All denominations** – Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="092fd-122">ซึ่งหมายความว่าผู้ใช้สามารถใช้ชุดของธนบัตรเพื่อไปถึงจำนวนที่ครบกำหนดได้</span><span class="sxs-lookup"><span data-stu-id="092fd-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="092fd-123">ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $25.00 ผู้ใช้สามารถเลือก $20 และ $5 เพื่อทำให้การขายเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="092fd-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>
+- <span data-ttu-id="7349a-117">**มากกว่าหรือเท่ากับจำนวนที่ครบกำหนด** – โดยค่าเริ่มต้น POS จะแสดงเฉพาะหน่วยเงินของธนบัตรที่มีมูลค่ามากกว่าจำนวนที่ครบกำหนด ซึ่งอนุญาตให้การชำระเงินแบบสัมผัสเดียว</span><span class="sxs-lookup"><span data-stu-id="7349a-117">**Greater or equal to amount due** – By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="7349a-118">ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $7.50 POS จะแสดงหน่วยต่อไปนี้: $10, $20, $50 และ $100</span><span class="sxs-lookup"><span data-stu-id="7349a-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="7349a-119">การสัมผัสจำนวนใด ๆ เหล่านี้จะเป็นการชำระเงินการขายสำหรับจำนวนนั้นโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="7349a-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="7349a-120">ธนบัตร $1 และ $5 จะไม่ถูกแสดงเนื่องจากจำนวนเหล่านี้มีค่าน้อยกว่าจำนวนที่ครบกำหนด</span><span class="sxs-lookup"><span data-stu-id="7349a-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
+- <span data-ttu-id="7349a-121">**หน่วยเงินทั้งหมด** – เลือกตัวเลือกนี้เพื่อแสดงหน่วยเงินของธนบัตรทั้งหมดใน POS โดยไม่คำนึงถึงจำนวนที่ครบกำหนด</span><span class="sxs-lookup"><span data-stu-id="7349a-121">**All denominations** – Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="7349a-122">ซึ่งหมายความว่าผู้ใช้สามารถใช้ชุดของธนบัตรเพื่อไปถึงจำนวนที่ครบกำหนดได้</span><span class="sxs-lookup"><span data-stu-id="7349a-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="7349a-123">ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $25.00 ผู้ใช้สามารถเลือก $20 และ $5 เพื่อทำให้การขายเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="7349a-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>
