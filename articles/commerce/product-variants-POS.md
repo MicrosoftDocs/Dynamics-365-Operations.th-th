@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 1d6133d80d7674a1d896bc19a743a6bd4d0fb40f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f08906c14f80b07368d88d820acae83cf1157e6c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969962"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>การค้นหาสินค้าคงคลังในการขายหน้าร้าน (POS)
 
@@ -115,6 +114,3 @@ ms.locfileid: "4416240"
 | ความพร้อมใช้งาน         | แสดงข้อมูล ATP สำหรับชุดข้อมูลตัวแปรที่เลือกสำหรับที่ตั้งที่เลือก |
 | แสดงทุกที่ตั้ง   | สลับไปยังมุมมองการค้นหาสินค้าคงคลังมาตรฐาน และเน้นข้อมูลความพร้อมใช้งานสินค้าคงคลังสำหรับตัวแปรสินค้าสำหรับร้านค้าทั้งหมดในกลุ่มรหัสที่ตั้งร้านค้า และในศูนย์กระจายสินค้าของชนิด **มาตรฐาน/เริ่มต้น** ด้วย |
 | ดูรายละเอียดผลิตภัณฑ์ | เปลี่ยนเส้นทางผู้ใช้ไปยังหน้า **รายละเอียดผลิตภัณฑ์** ของข้อมูลหลักของผลิตภัณฑ์ที่เกี่ยวข้อง |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16081
 ms.assetid: 426a9be7-a931-4780-b372-e06f6083dd60
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 738841407b63ef604da092b7c8f4d0f2064d3886
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416007"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969762"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ
 
@@ -50,6 +49,3 @@ ms.locfileid: "4416007"
 - **ขยายรายการที่ต่อเนื่อง** (ถ้าจำเป็น) – ขยายจำนวนครั้งของเหตุการณ์ที่ความต่อเนื่องนี้สามารถทำซ้ำ การทำซ้ำการจัดส่งสามารถขยายเกินข้อจำกัดที่ได้ตั้งค่าไว้ใน **ฟิลด์ความต่อเนื่องขีดจำกัดซ้ำ** ในพารามิเตอร์ศูนย์บริการได้
 - **ดำเนินการอัพเดตความต่อเนื่อง** (ถ้าจำเป็น) – ซิงโครไนส์การเปลี่ยนแปลงระหว่างโปรแกรมความต่อเนื่องกับใบสั่งขายหลักต่อเนื่อง
 - **ปิดรายการและใบสั่งหลักที่มีความต่อเนื่อง** – ปิดใบสั่งที่มีความต่อเนื่อง
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

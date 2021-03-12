@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: baa2f1f55dfb9bb93b4f27c45db563e39850dd37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4448582"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969737"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>ดูผลลัพธ์การทำงานอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย
 
@@ -38,6 +37,3 @@ ms.locfileid: "4448582"
 - **หยุดชั่วคราวแล้ว** – กระบวนการแบบอัตโนมัติที่ถูกกำหนดไว้ในหน้า **พารามิเตอร์ของบัญชีเจ้าหนี้** มีการรัน แต่ล้มเหลวอย่างน้อยหนึ่งขั้นตอนในกระบวนการ นอกจากนี้ สถานะ **หยุดชั่วคราวแล้ว** ยังถูกนำไปใช้ ถ้ามีการตั้งค่าฟิลด์ **รวมในการประมวลผลแบบอัตโนมัติ** เป็น **ไม่** คุณสามารถดูความผิดพลาดได้โดยเลือก **ดูผลลัพธ์ล่าสุด**
 - **ในลำดับงาน** – มีการส่งใบแจ้งหนี้ที่นำเข้าไปยังระบบลำดับงาน โดยกระบวนการส่งไปยังลำดับงานแบบอัตโนมัติหรือด้วยตนเอง
 - **ลำดับงานที่เสร็จสมบูรณ์** – กระบวนการลำดับงานเสร็จสมบูรณ์แล้วสำหรับใบแจ้งหนี้ที่นำเข้า
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

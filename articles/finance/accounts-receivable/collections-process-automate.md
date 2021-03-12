@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448281"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969712"
 ---
 # <a name="collections-process-automation"></a>กระบวนการเรียกเก็บเงินระบบอัตโนมัติ
 
@@ -118,6 +117,3 @@ ms.locfileid: "4448281"
 |     พารามิเตอร์บัญชีลูกหนี้ > กระบวนการเรียกเก็บเงินระบบอัตโนมัติ     |     ส่งจดหมาย   เรียกเก็บเงินโดยอัตโนมัติ           |     ชนิดการดำเนินการจดหมายเรียกเก็บเงินจะมีการลงส่งจดหมายในระหว่างการดำเนินการอัตโนมัติ                                      |
 |     พารามิเตอร์บัญชีลูกหนี้ > กระบวนการเรียกเก็บเงินระบบอัตโนมัติ     |     สร้าง   กิจกรรมสำหรับระบบอัตโนมัติ                |     สร้างและปิดกิจกรรมสำหรับชนิดการดำเนินการที่ไม่ใช่กิจกรรมเพื่อดูขั้นตอนอัตโนมัติทั้งหมดที่นำมาใช้ในบัญชี        |
 |     พารามิเตอร์บัญชีลูกหนี้ > กระบวนการเรียกเก็บเงินระบบอัตโนมัติ     |     จำนวนวัน   ที่จะคงกระบวนการเรียกเก็บเงินระบบอัตโนมัติไว้     |     กำหนด   จำนวนวันที่จัดเก็บประวัติการเรียกเก็บเงิน                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a149b35c6964166207effc799a02cd4c59bbb843
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968740"
 ---
 # <a name="mass-financial-period-close"></a>การปิดรอบระยะเวลาทางการเงินโดยรวม
 
@@ -42,6 +41,3 @@ ms.locfileid: "4448338"
 11. เลือก **ปรับปรุงสถานะรอบระยะเวลา** และตั้งค่าสถานะเป็น **ระงับ** **เปิด** หรือ **ปิดอย่างถาวร** **เปิด** หมายถึงสามารถลงรายการบัญชีรอบระยะเวลาได้ ซึ่งทำให้ผู้ใช้มีสิทธิ์การเข้าถึง **ระงับ** หมายถึงไม่สามารถลงรายการบัญชีรอบระยะเวลาได้ แต่สามารถเปิดรอบระยะเวลาใหม่ได้ **ปิดถาวร** หมายถึงปิดรอบระยะเวลาแล้ว และไม่สามารถเปิดได้อีก ไม่สามารถลงรายการบัญชีการปรับปรุงได้  เราไม่แนะนำให้ตั้งค่ารอบระยะเวลาเป็น **ปิดถาวร** จนกว่าการปรับปรุงและการตรวจสอบทั้งหมดจะเสร็จสมบูรณ์  
 12. เลือก **ปรับปรุง**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

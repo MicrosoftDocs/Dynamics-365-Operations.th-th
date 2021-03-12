@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5af050fb6099b583be4e9c60ba56dacf38d31c08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448529"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969239"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 125%
 
@@ -84,10 +83,7 @@ ms.locfileid: "4448529"
 | ปีที่ 3 | 5,625 × 25% = 1,406.25                        | (6,625 – 1,406.25) = 5,218.75 | (5,625 – 1,406.25) = 4,218.75         |
 
 > [!NOTE] 
-> โดยทั่วไป เมื่อจำนวนเงินที่ถูกคำนวณโดยใช้วิธีการคิดค่าเสื่อมราคายอดดุลที่ลดลง 125% กลายเป็นน้อยกว่าจำนวนเงินที่จะถูกคำนวณโดยใช้วิธีแบบเส้นตรง มีการแปลงเป็นวิธีแบบเส้นตรงสำหรับชีวิตที่เหลือ
+> โดยทั่วไป เมื่อยอดเงินถูกคำนวณโดยใช้วิธีค่าเสื่อมราคายอดดุลที่ลดลง 125% มีน้อยกว่ายอดเงินที่จะถูกคำนวณโดยใช้วิธีเส้นตรง จะมีการแปลงไปยังวิธีเส้นตรงสำหรับอายุที่เหลือ
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
