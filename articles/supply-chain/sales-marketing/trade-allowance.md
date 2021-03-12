@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15f324f66240380f698dbc67b95f3bea19314a18
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438439"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974921"
 ---
 # <a name="trade-allowance-management"></a>การจัดการการให้ส่วนลดทางการค้า
 
@@ -200,6 +199,3 @@ FastTab **สินค้า** แสดงสินค้าที่รวม�
 
 เพื่อให้ได้รับภาพด้านการวิเคราะห์เพิ่มเติมของการวัดผลด้านประสิทธิภาพต่างๆ สำหรับโปรโมชัน คุณสามารถใช้มุมมองการวิเคราะห์ได้ เมื่อต้องการไปยังมุมมองการวิเคราะห์ คลิก **การขายและการตลาด** \> **การให้ส่วนลดทางการค้า** \> **ข้อตกลงการให้ส่วนลดทางการค้า** ในบานหน้าต่างการดำเนินการ ให้คลิก **วิเคราะห์** 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

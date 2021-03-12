@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e818d3d75be8b24531afc6280ae0c37eca4de23
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0664dd40464000abef0041ef32863a3c9494d9b8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975146"
 ---
 # <a name="deactivate-a-production-flow-version"></a>ยกเลิกการเรียกใช้เวอร์ชันขั้นตอนการผลิต
 
@@ -46,6 +45,3 @@ ms.locfileid: "4438189"
     * อย่าดำเนินการต่อ หากคุณไม่มั่นใจ 100% ว่ารุ่นของขั้นตอนการผลิตนี้ล้าสมัย  เมื่อคลิก ตกลง หมายความว่ากฎคัมบังที่ใช้งานอยู่ทั้งหมดจะหมดอายุลง และกิจกรรมการผลิตและการเติมสินค้าของรุ่นของขั้นตอนการผลิตนี้จะหยุดทันที  
 6. คลิก ตกลง
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

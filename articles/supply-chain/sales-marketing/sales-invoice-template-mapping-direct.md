@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6cbc4d86ac41d90480428ec5439d1360c4d67137
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d7f104b3f2e132b5b517443577a020fda7fa9af3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975021"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
 
@@ -138,6 +137,3 @@ ms.locfileid: "4438358"
 [ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อหรือรายชื่อลูกค้าใน Supply Chain Management](contacts-template-mapping-direct.md)
 
 [การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

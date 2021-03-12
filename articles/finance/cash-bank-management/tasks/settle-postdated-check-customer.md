@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f8f2f8fe0dfd0eccd61ef76242e2a77c75b3983
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448475"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976252"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>ชำระเช็คลงวันที่ล่วงหน้าจากลูกค้า
 
@@ -56,6 +55,3 @@ ms.locfileid: "4448475"
 10. คลิกใบสำคัญ
 11. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

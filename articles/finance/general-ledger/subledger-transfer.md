@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975494"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>การโอนย้ายบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป
 
@@ -42,6 +41,3 @@ ms.locfileid: "4645181"
 ในรุ่น 10.0.8 มีการปรับปรุงเพื่อเพิ่มประสิทธิภาพการทำงานของตัวเลือกอะซิงโครนัส คุณลักษณะนี้ถูกเปิดใช้งานภายใต้ชื่อคุณลักษณะ **การโอนย้ายบัญชีแยกประเภทย่อยไปยังการเพิ่มประสิทธิภาพบัญชีแยกประเภททั่วไป** 
  
 ฟังก์ชันนี้ช่วยปรับปรุงการโอนย้ายข้อมูลจากบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป ซึ่งจะช่วยให้กระบวนการมีประสิทธิภาพมากขึ้น และจะจัดกลุ่มชุดของธุรกรรมที่มีขนาดเล็กลงเข้าด้วยกันเพื่อโอนย้าย การทำเช่นนี้ช่วยให้สามารถใช้เซิร์ฟเวอร์ชุดงานได้อย่างมีประสิทธิภาพมากขึ้น ฟังก์ชันนี้จำเป็นต้องมีการตั้งค่าเซิร์ฟเวอร์ชุดงานแบบออนไลน์และทำงานเพื่อให้ตัวเลือกการโอนย้ายอะซิงโครนัสทำงาน 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

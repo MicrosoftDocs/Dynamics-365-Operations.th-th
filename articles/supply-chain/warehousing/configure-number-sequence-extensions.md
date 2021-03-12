@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4438925"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973846"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>ตั้งค่าคอนฟิกลำดับหมายเลขสำหรับลำดับของคลังสินค้า
 
@@ -92,6 +91,3 @@ ms.locfileid: "4438925"
     | ตรวจสอบตำแหน่ง | ชนิดของเซ็กเมนต์นี้จะเพิ่มตัวเลขการตรวจสอบซึ่งเป็นการคำนวณ modulo 10 (ลักษณะการทำงานนี้ตรงกับตรรกะที่มีอยู่สำหรับรหัสป้ายทะเบียน) สำหรับชนิดเซ็กเมนต์นี้ ฟิลด์ **ค่า** จะถูกตั้งค่าเป็นรูปตัววีคว่ำ (*^*) เสมอ และฟิลด์ **ความยาว** จะถูกตั้งค่าเป็น *1* เสมอ |
 
 1. เมื่อต้องการดูตัวอย่างของรูปแบบหมายเลขสุดท้ายของคุณ ให้ตรวจสอบฟิลด์ **รูปแบบ** ที่ด้านล่างของ FastTab **เซ็กเมนต์**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

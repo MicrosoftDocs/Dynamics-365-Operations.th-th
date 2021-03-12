@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438440"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974796"
 ---
 # <a name="troubleshoot-sales-orders"></a>แก้ไขปัญหาใบสั่งขาย
 
@@ -59,6 +58,8 @@ ms.locfileid: "4438440"
 คุณสามารถยกเลิกได้เฉพาะใบสั่งขายและใบสั่งส่งคืนสินค้าที่อยู่ในสถานะ *สร้างแล้ว* เท่านั้น สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกใบสั่งส่งคืน](../service-management/cancel-return-order.md)
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>เมื่อฉันพยายามยกเลิกใบสั่งขาย ฉันจะได้รับข้อผิดพลาด "ไม่สามารถลบการจองได้เนื่องจากมีงานที่สร้างขึ้นซึ่งอาศัยการจอง"
+
+รหัสข้อผิดพลาด: WAX4661
 
 ถ้างานสัมพันธ์กับใบสั่งขาย คุณจะไม่สามารถยกเลิกใบสั่งขายได้จนกว่างานจะถูกยกเลิกและกลับรายการ ข้อกำหนดนี้ใช้ได้ ถึงแม้ว่างานที่เชื่อมโยงกับใบสั่งขายปิดแล้ว
 
@@ -111,6 +112,3 @@ ms.locfileid: "4438440"
 สินค้าที่มีการขายรวมจะไม่พร้อมใช้งานสำหรับใบสั่งซื้อเนื่องจากถ้าคุณตรวจสอบบรรทัดใบสั่งขายสำหรับสินค้าที่มีการขายรวม คุณจะสังเกตเห็นว่าปริมาณเป็น *0* (ศูนย์) และสถานะคือ *ยกเลิก* ลักษณะการทำงานนี้เกิดจากการออกแบบ ใบสั่งขายจะซื้อเฉพาะส่วนประกอบของสินค้าที่มีการขายรวมเท่านั้น ไม่มีการซื้อสินค้าที่มีการขายรวม
 
 ถ้าคุณต้องการซื้อกลุ่มงาน ให้พิจารณาว่าคุณต้องทำเครื่องหมายเป็นสินค้าที่มีการขายรวม เนื่องจากฟังก์ชันนี้ได้รับการออกแบบมาสำหรับสถานการณ์การรับรู้รายได้จริงหรือไม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสินค้าที่มีการขายรวม ให้ดูที่ [การขายรวม](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

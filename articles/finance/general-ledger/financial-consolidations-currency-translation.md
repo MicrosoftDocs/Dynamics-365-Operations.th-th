@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975775"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>ภาพรวมของการรวมบัญชีทางการเงินและการแปลงสกุลเงิน
 
@@ -125,7 +124,7 @@ ms.locfileid: "4448528"
 
 หลังจากที่คุณได้กำหนดคุณสมบัติพื้นฐาน เลือก **รายการ** เพื่อกำหนดกฎการประมวลผลจริง มีตัวเลือกสองตัวเลือกสำหรับการตัดออก: คุณสามารถตัดยอดเงินการเปลี่ยนแปลงสุทธิ หรือกำหนดจำนวนเงินคงที่
 
-เลือกบัญชีต้นทาง คุณสามารถใช้เครื่องหมายดอกจัน (\*) เป็นอักขระพิเศษได้ ตัวอย่างเช่น **1\*** เลือกบัญชีทั้งหมดที่เริ่มต้นด้วย **1** เป็นต้นทางของข้อมูลสำหรับการปันส่วน
+เลือกบัญชีต้นทาง คุณสามารถใช้เครื่องหมายดอกจัน (\*) เป็นอักขระพิเศษได้ ตัวอย่างเช่น **1\**เลือกบัญชีทั้งหมดที่เริ่มต้นด้วย* 1** เป็นแหล่งที่มาของข้อมูลสำหรับการปันส่วน
 
 หลังจากที่คุณได้เลือกบัญชีต้นทางแล้ว ใช้ฟิลด์ **ข้อมูลจำเพาะเกี่ยวกับบัญชี** เพื่อระบุบัญชีที่ใช้จากบริษัทปลายทางที่ใช้ เลือก **ต้นทาง** เพื่อใช้บัญชีหลักเดียวกันที่ถูกกำหนดไว้ในบัญชีต้นทาง ถ้าคุณเลือก **ผู้ใช้ที่กำหนด** คุณต้องระบุบัญชีปลายทาง
 
@@ -182,6 +181,3 @@ ms.locfileid: "4448528"
 
 ## <a name="generating-consolidated-financial-statements"></a>การสร้างงบการเงินที่รวมบัญชี
 สำหรับข้อมูลเกี่ยวกับสถานการณ์ที่คุณอาจสร้างการรวมบัญชีงบการเงิน ดู [สร้างงบการเงินที่รวมบัญชี](./generating-consolidated-financial-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

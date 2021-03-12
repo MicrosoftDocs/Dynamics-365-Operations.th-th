@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 14a2f4c7d8d053ffd7b4b5d090113e1d9c3294c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974121"
 ---
 # <a name="carrier-groups"></a>กลุ่มผู้ขนส่ง
 
@@ -38,6 +37,3 @@ ms.locfileid: "4646442"
 1. ในฟิลด์ **ชื่อ** ให้ป้อนชื่อที่เป็นคำอธิบายสำหรับกลุ่ม
 1. บนแท็บด่วน **รายละเอียด** ให้เพิ่มแถว และเลือกผู้ขนส่งสินค้าและบริการผู้ขนส่งสำหรับผู้ขนส่ง ทำซ้ำขั้นตอนนี้จนกว่าคุณจะเพิ่มผู้ขนส่งมากเท่าที่คุณต้องการสำหรับกลุ่ม
 1. ปิดหน้า
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
