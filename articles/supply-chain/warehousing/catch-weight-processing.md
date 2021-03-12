@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438844"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001190"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>การประมวลผลผลิตภัณฑ์ของน้ำหนักที่เลือกได้ที่มีการจัดการคลังสินค้า
 
@@ -210,6 +209,3 @@ ms.locfileid: "4438844"
 
 > [!NOTE]
 > ข้อมูลก่อนหน้านี้เกี่ยวกับป้ายน้ำหนักจริงจะมีผลบังคับใช้เฉพาะเมื่อ ผลิตภัณฑ์ที่มีน้ำหนักจริงมีวิธีการติดตามมิติของแท็กน้ำหนักจริงซึ่งถูกติดตามเต็มรูปแบบ (นั่นคือถ้าพารามิเตอร์ **วิธีการติดตามมิติของแท็กน้ำหนักจริง** ของป้ายตามน้ำหนักจริง ที่มีการตั้งค่านโยบายการจัดการสินค้าตามน้ำหนักจริงเป็น **มิติของผลิตภัณฑ์ มิติการติดตาม และมิติการจัดเก็บทั้งหมด**) ถ้าสินค้าตามน้ำหนักจริงเพียงบางส่วนติดป้ายเท่านั้น (นั่นคือถ้ามีการตั้งค่าพารามิเตอร์ **วิธีการติดตามมิติของป้ายตามน้ำหนักจริง** ในนโยบายการจัดการสินค้าตามน้ำหนักจริงไว้เป็น **มิติของผลิตภัณฑ์มิติการติดตามและสถานะของสินค้าคงคลัง**) จะมีข้อจำกัดเพิ่มเติม เนื่องจากการมองเห็นขาดหายไประหว่างแท็กและสินค้าคงคลัง ในกรณีนี้สถานการณ์จำลองเพิ่มเติมบางอย่างไม่ได้รับการสนับสนุน
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
