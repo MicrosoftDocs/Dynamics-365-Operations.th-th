@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005338"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>สถานะของวงจรการใช้และธุรกรรมผลิตภัณฑ์
 
@@ -76,6 +75,3 @@ ms.locfileid: "4438935"
 | กรมธรรม์ | เลือกค่าอย่างใดอย่างหนึ่งต่อไปนี้เพื่อควบคุมว่าจะอนุญาตให้ใช้กระบวนการปัจจุบันสำหรับผลิตภัณฑ์ที่อยู่ในสถานะของวงจรการใช้นี้อย่างใดอย่างหนึ่งดังนี้<ul><li>**เปิดใช้งาน** – อนุญาตให้ใช้กระบวนการทางธุรกิจ</li><li>**ถูกบล็อค** – ไม่อนุญาตให้ใช้กระบวนการ ถ้าผู้ใช้พยายามใช้กระบวนการในผลิตภัณฑ์ที่อยู่ในสถานะของวงจรการใช้นี้ ระบบจะบล็อคความพยายามและแสดงข้อผิดพลาดแทน ตัวอย่างเช่น คุณอาจบล็อคผลิตภัณฑ์สิ้นสุดของอายุการใช้งานอยู่</li><li>**เปิดใช้งานโดยมีคำเตือน** – อนุญาตให้ใช้กระบวนการแต่จะมีการแสดงคำเตือน ตัวอย่างเช่น คุณอาจต้องการให้ผลิตภัณฑ์ต้นแบบถูกวางบนใบสั่งผลิตที่สร้างขึ้นโดยแผนกวิจัยและพัฒนา อย่างไรก็ตาม แผนกอื่น ๆ ควรตระหนักว่าผู้ใช้ไม่ควรผลิตผลิตภัณฑ์</li></ul> |
 
 ถ้าคุณกำลังเพิ่มกฎของสถานะของวงจรการใช้เพิ่มเติมเป็นการเลือกกำหนด คุณสามารถดูกฎเหล่านั้นในอินเทอร์เฟสผู้ใช้ (UI) โดยการเลือก **กระบวนการรีเฟรช** ในบานหน้าต่างด้านบน ปุ่ม **รีเฟรช** จะพร้อมใช้งานสำหรับผู้ดูแลระบบเท่านั้น
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438811"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004813"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>นโยบายการจองมิติในระดับคลังสินค้าที่ยืดหยุ่นได้
 
@@ -854,6 +853,3 @@ ms.locfileid: "4438811"
     - ใบสั่งโอนย้ายและการเบิกวัตถุดิบ
 
 - กฎการรวมคอนเทนเนอร์สำหรับการบรรจุตามหน่วยคำสั่งมีข้อจำกัด สำหรับการจองที่กำหนดให้กับใบสั่ง เราขอแนะนำว่าคุณไม่ควรใช้เท็มเพลตการสร้างคอนเทนเนอร์ที่ซึ่งฟิลด์ **บรรจุตามหน่วยคำสั่ง** ถูกเปิดใช้งาน ในการออกแบบปัจจุบัน คำสั่งสถานที่ไม่ได้ถูกใช้ เมื่อมีการสร้างงานในคลังสินค้า ดังนั้น จึงมีการใช้เฉพาะหน่วยที่ต่ำที่สุดในกลุ่มลำดับหน่วย (หน่วยสินค้าคงคลัง) ในระหว่างขั้นตอนการเวฟการบรรจุลงตู้บรรจุสินค้า
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

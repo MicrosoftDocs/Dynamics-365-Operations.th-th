@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448621"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003267"
 ---
 # <a name="impair-right-of-use-assets"></a>ด้อยค่าสิทธิ์การใช้สินทรัพย์
 
@@ -102,6 +101,3 @@ ms.locfileid: "4448621"
 7. เมื่อต้องการดูผลกระทบสุทธิของการด้อยค่า ให้ไปที่ตารางธุรกรรมหนี้สินและสินทรัพย์ โปรดสังเกตว่าค่าใช้จ่ายการด้อยค่าลดลงของสิทธิ์การใช้สินทรัพย์ แต่ยอดเงินที่ต้องรับผิดชอบในหนี้สินสัญญาเช่าไม่เปลี่ยนแปลง
 
 การด้อยค่ามีผลอีกประการหนึ่งที่คุณควรพิจารณา เนื่องจากยอดเงินสิทธิ์การใช้สินทรัพย์อยู่ในขณะนี้มากน้อยกว่าหนี้สินสัญญาเช่า ยอดเงินต้องมีค่าเสื่อมราคาแตกต่างจากที่เคย โดยเฉพาะอย่างยิ่ง สินทรัพย์จะถูกคิดค่าเสื่อมราคาในลักษณะแบบเส้นตรงตลอดทั้งระยะเวลาที่เหลือ 84 เดือนของการเช่าเริ่มต้นในวันที่ธุรกรรม
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

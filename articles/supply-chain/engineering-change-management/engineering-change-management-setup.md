@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: b46bc10f8b75a58b8baefd88aa6a0b79c59d6544
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438937"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005413"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>สร้างค่าทั่วไปสำหรับการจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -91,6 +90,3 @@ ms.locfileid: "4438937"
 - **ความรุนแรง** – เลือกระดับความร้ายแรงเพื่อสร้างกฎ คุณสามารถใช้หน้า **ความรุนแรงในการเปลี่ยนแปลงทางวิศวกรรม** เพื่อสร้างและตั้งชื่อระดับ (สำหรับข้อมูลเพิ่มเติม ให้ดูที่ส่วนก่อนหน้านี้)
 
 ใช้ปุ่มบน FastTab **กฎ** เพื่อเพิ่มหรือลบกฎสำหรับการตั้งค่าความรุนแรงปัจจุบัน แต่ละกฎมีฟิลด์ **กฎ** และฟิลด์ **ชื่อ** กฎจะถูกสร้างขึ้นโดยระบบและระบุชนิดของการเปลี่ยนแปลงที่ผลิตภัณฑ์สามารถมีได้ ชื่อจะบ่งชี้ชนิดของการเปลี่ยนแปลง
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

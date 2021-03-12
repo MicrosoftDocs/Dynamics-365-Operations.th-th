@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c4e42864bfde9ed0650a88961b5a71b33b34c89d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438806"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004613"
 ---
 # <a name="location-product-dimension-mixing"></a>การผสมมิติของผลิตภัณฑ์ในสถานที่
 
@@ -239,5 +238,3 @@ ms.locfileid: "4438806"
 
 > [!TIP]
 > คุณสามารถทำซ้ำสถานการณ์จำลองนี้ได้ แต่ครั้งนี้ให้ตั้งค่า **ขนาด** - *ไม่* ภายใต้แท็บด่วน **อนุญาตการรวมมิติของผลิตภัณฑ์** บน *จำนวนมาก* ของ **โพรไฟล์สถานที่** ดังนั้นจึงไม่สามารถผสมมิติของผลิตภัณฑ์ได้ ในกรณีนี้เมื่อคุณได้รับใบสั่งซื้อ ผลิตภัณฑ์ย่อยแต่ละรายการจะถูกวางไปยังที่ตั้งใหม่
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

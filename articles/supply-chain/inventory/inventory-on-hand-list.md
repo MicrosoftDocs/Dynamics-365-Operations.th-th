@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005213"
 ---
 # <a name="inventory-on-hand-list"></a>รายการปริมาณคงคลังคงเหลือ
 
@@ -146,6 +145,3 @@ ms.locfileid: "4438899"
 | IA0001 | 1 | 2 | 2 |
 
 โปรดทราบว่าการตั้งค่าในบานหน้าต่าง **ตัวกรอง** จะใช้กับตารางสินค้าคงคลังที่มีรายละเอียด (ที่ไม่รวม) ซึ่งแสดงอยู่ในตอนต้นของส่วนนี้ ดังนั้น เงื่อนไข **มีอยู่จริง** \| **น้อยกว่าหรือเท่ากับ** \| _1_ พบแถวสองแถวจากตารางนั้น (แถวแรกและแถวที่สาม ซึ่งแสดง **ที่มีอยู่จริง** ค่าของ _1_) อย่างไรก็ตาม ในสถานการณ์สมมตินี้ หน้า **รายการปริมาณคงคลังคงเหลือ** ไม่ได้ถูกตั้งค่าให้แสดงมิติ **คลังสินค้า** ดังนั้น จึงรวมแถวดั้งเดิมสองแถวไว้ในแถวผลลัพธ์เดี่ยว เนื่องจากแถวทั้งสองจะมีค่าเหมือนกันในมิติทั้งหมดที่แสดง แถวนี้จะปรากฏขึ้นเพื่อละเมิดเงื่อนไขการกรองข้อมูล เนื่องจากค่า **ที่มีอยู่จริง** แสดงเป็น _2_ อย่างไรก็ตาม ผลลัพธ์มีความถูกต้อง เนื่องจากการตั้งค่าในบานหน้าต่าง **ตัวกรอง** ใช้กับตารางต้นทาง ไม่ใช่ตารางรวมที่แสดงอยู่บนหน้า **ปริมาณคงคลังคงเหลือ**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

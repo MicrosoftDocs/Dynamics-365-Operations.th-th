@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4448632"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003589"
 ---
 # <a name="automate-vendor-payment-proposals"></a>ข้อเสนอการชำระเงินของผู้จัดจำหน่ายอัตโนมัติ
 
@@ -144,6 +143,3 @@ ms.locfileid: "4448632"
 | การสอบถามเกี่ยวกับการเกิดขึ้นของกำหนดการ | เจ้าหน้าที่ชำระเงินของบัญชีเจ้าหนี้ เจ้าหน้าที่ฝ่ายชำระเงินส่วนกลางของบัญชีเจ้าหนี้ | หน้าที่นี้จะมอบสิทธิ์ในการดูการเกิดขึ้นของการทำงานอัตโนมัติของข้อเสนอการชำระเงินโดยใช้สิทธิ์ต่อไปนี้:<ul><li>ดูการเกิดขึ้นของกำหนดการ</li><li>ดูมุมมองรายสัปดาห์ของการเกิดขึ้น</li></ul> |
 | สอบถามเกี่ยวกับชุดกำหนดการ      | None                                                                       | หน้าที่นี้จะมอบสิทธิ์ในการดูการตั้งค่าชุดข้อมูลและการเกิดขึ้นโดยใช้สิทธิ์ต่อไปนี้:<ul><li>ดูการเกิดขึ้นของกำหนดการ</li><li>ดูหน้ารายการของการเกิดขึ้น</li><li>ดูมุมมองรายสัปดาห์ของการเกิดขึ้น</li></ul>|
 | รักษาการเกิดขึ้นของกำหนดการ     | None                                                                       | หน้าที่นี้จะมอบสิทธิ์ในการสร้างและรักษาการเกิดขึ้นโดยผ่านสิทธิ์การใช้ดังต่อไปนี้:<ul><li>รักษาการเกิดขึ้นของกำหนดการ</li><li>ดูมุมมองรายสัปดาห์ของการเกิดขึ้น</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

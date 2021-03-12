@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438771"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001710"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>การแปลงหน่วยวัดต่อผลิตภัณฑ์ย่อย
 
@@ -59,7 +58,7 @@ ms.locfileid: "4438771"
     - **ผลิตภัณฑ์** – ถ้าคุณเลือกค่านี้ คุณสามารถตั้งค่าการแปลงหน่วยสำหรับผลิตภัณฑ์หลักได้ การแปลงหน่วยที่จะใช้สำรองสำหรับผลิตภัณฑ์ย่อยทั้งหมดที่ไม่ได้กำหนดให้มีการแปลงหน่วย
     - **ผลิตภัณฑ์ย่อย** – ถ้าคุณเลือกค่านี้ คุณสามารถตั้งค่าการแปลงหน่วยสำหรับผลิตภัณฑ์ย่อยที่เฉพาะเจาะจง ใช้ฟิลด์ **ผลิตภัณฑ์ย่อย** เพื่อเลือกตัวแปร
 
-    ![![การเพิ่มการแปลงหน่วยใหม่](media/uom-new-conversion.png "การเพิ่มการแปลงหน่วยใหม่")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![การเพิ่มการแปลงหน่วยใหม่](media/uom-new-conversion.png "การเพิ่มการแปลงหน่วยใหม่")
 
 1. ใช้ฟิลด์อื่นๆ ที่จะกำหนดให้มีการตั้งค่าการแปลงหน่วยของคุณ
 1. เลือก **ตกลง** เพื่อบันทึกการแปลงหน่วยใหม่
@@ -107,6 +106,3 @@ ms.locfileid: "4438771"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [จัดการหน่วยวัด](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
