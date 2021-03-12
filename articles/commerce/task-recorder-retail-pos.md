@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006146"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
@@ -34,7 +33,7 @@ ms.locfileid: "4416190"
 
 ## <a name="overview"></a>ภาพรวม
 
-ตัวบันทึกงานใน Retail Modern POS หรือ Cloud POS คือโซลูชันใหม่ที่ถูกสร้างขึ้นโดยเน้นที่การตอบสนองสูง ซึ่งเป็น Application Programming Interface (API) ที่ยืดหยุ่นสำหรับการเพิ่มความสามารถและการรวมที่ต่อเนื่องสำหรับผู้บริโภคในการบันทึกกระบวนการทางธุรกิจ นอกจากนี้ การรวมตัวบันทึกงานด้วยเครื่องมือตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บน Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) ยังถูกเลื่อนออกไปอีกด้วย ดังนั้น ผู้ใช้สามารถผลิตไดอะแกรมกระบวนการทางธุรกิจที่หลากหลายจากการบันทึกเพื่อวิเคราะห์และออกแบบแอพลิเคชันของตนต่อไปได้
+ตัวบันทึกงานใน Retail Modern POS หรือ Cloud POS คือโซลูชันใหม่ที่ถูกสร้างขึ้นโดยเน้นที่การตอบสนองสูง ซึ่งเป็น Application Programming Interface (API) ที่ยืดหยุ่นสำหรับการเพิ่มความสามารถและการรวมที่ต่อเนื่องสำหรับผู้บริโภคในการบันทึกกระบวนการทางธุรกิจ นอกจากนี้ การรวมตัวบันทึกงานด้วยเครื่องมือตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บน Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) ยังถูกเลื่อนออกไปอีกด้วย ดังนั้น ผู้ใช้สามารถผลิตไดอะแกรมกระบวนการทางธุรกิจที่หลากหลายจากการบันทึกเพื่อวิเคราะห์และออกแบบแอพลิเคชันของตนต่อไปได้
 
 ## <a name="architecture"></a>สถาปัตยกรรม
 
@@ -146,6 +145,3 @@ ms.locfileid: "4416190"
 
 > [!NOTE]
 > วิธีใช้ใน Retail Modern POS และ Cloud POS จะไม่เรียกคู่มืองานตามแบบฟอร์มที่คุณกำลังทำหรือการดำเนินงานที่คุณกำลังทำอยู่ คุณต้องพิมพ์ชื่อกระบวนการในกล่องค้นหา และคลิก **ค้นหา**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

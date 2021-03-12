@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654209"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006402"
 ---
 # <a name="advanced-load-building-during-wave"></a>การสร้างการบรรทุกขั้นสูงในระหว่างเวฟ
 
@@ -250,6 +249,3 @@ ms.locfileid: "4654209"
 1. ในใบสั่งขายที่คุณเพิ่งสร้างขึ้นบนแท็บด่วน **บรรทัดใบสั่งขาย** ให้เลือก **เพิ่มบรรทัด** เพื่อเพิ่มบรรทัดอื่น
 1. บนบรรทัดใหม่นี้ให้ตั้งค่าฟิลด์ **หมายเลขสินค้า** เป็น *M9200* และฟิลด์ **ปริมาณ** เป็น *1*
 1. ทำซ้ำบรรทัด 6 ถึง 9 เพื่อจองบรรทัดและนำออกไปใช้ในคลังสินค้า เหมือนก่อนหน้า ระบบจะสร้างการจัดส่ง **ใหม่** สำหรับรายการที่คุณเพิ่ม อย่างไรก็ตามเนื่องจากสินค้ามาจากกลุ่มสินค้า **CarAudio** จึง **ไม่สามารถส่งผ่านข้อจำกัดที่คุณตั้งค่าสำหรับกลุ่มการรวมการบรรทุก** ดังนั้นจึง **เพิ่มไปยังการบรรทุกใหม่** ถ้าคุณไม่ได้ระบุกลุ่มการรวมการบรรทุกในเท็มเพลตการสร้างการบรรทุก การจัดส่งนี้จะถูกเพิ่มลงในการบรรทุกครั้งแรก
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
