@@ -11,40 +11,39 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07337063c01f146c72ca6d9e0f9096907cdc9638
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3d62e982d26afbec7ac04dd80592a73f4a3286f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968915"
 ---
-# <a name="create-a-depreciation-proposal"></a><span data-ttu-id="714cf-103">สร้างข้อเสนอค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="714cf-103">Create a depreciation proposal</span></span>
+# <a name="create-a-depreciation-proposal"></a><span data-ttu-id="a6e0f-103">สร้างข้อเสนอค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="a6e0f-103">Create a depreciation proposal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="714cf-104">หัวข้อนี้อธิบายวิธีการทำงานของข้อเสนอชุดงานค่าเสื่อมราคา และอธิบายวิธีการเสนอค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="714cf-104">This topic describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="714cf-105">งานนี้ใช้บริษัทสาธิต USMF และบทบาทของนักบัญชี</span><span class="sxs-lookup"><span data-stu-id="714cf-105">This task uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="a6e0f-104">หัวข้อนี้อธิบายวิธีการทำงานของข้อเสนอชุดงานค่าเสื่อมราคา และอธิบายวิธีการเสนอค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="a6e0f-104">This topic describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="a6e0f-105">งานนี้ใช้บริษัทสาธิต USMF และบทบาทของนักบัญชี</span><span class="sxs-lookup"><span data-stu-id="a6e0f-105">This task uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-a-depreciation-proposal"></a><span data-ttu-id="714cf-106">สร้างข้อเสนอค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="714cf-106">Create a depreciation proposal</span></span>
-1. <span data-ttu-id="714cf-107">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > รายการสมุดรายวัน > สร้างข้อเสนอค่าเสื่อมราคา**</span><span class="sxs-lookup"><span data-stu-id="714cf-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Create depreciation proposal**.</span></span>
-2. <span data-ttu-id="714cf-108">ในฟิลด์ **ชื่อของสมุดรายวัน** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="714cf-108">In the **Name of journal** field, select an option from the drop-down menu.</span></span>
-3. <span data-ttu-id="714cf-109">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="714cf-109">In the **To date** field, enter a date.</span></span>
+## <a name="create-a-depreciation-proposal"></a><span data-ttu-id="a6e0f-106">สร้างข้อเสนอค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="a6e0f-106">Create a depreciation proposal</span></span>
+1. <span data-ttu-id="a6e0f-107">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > รายการสมุดรายวัน > สร้างข้อเสนอค่าเสื่อมราคา**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Create depreciation proposal**.</span></span>
+2. <span data-ttu-id="a6e0f-108">ในฟิลด์ **ชื่อของสมุดรายวัน** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง</span><span class="sxs-lookup"><span data-stu-id="a6e0f-108">In the **Name of journal** field, select an option from the drop-down menu.</span></span>
+3. <span data-ttu-id="a6e0f-109">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="a6e0f-109">In the **To date** field, enter a date.</span></span>
 
-    - <span data-ttu-id="714cf-110">เลือกตัวเลือก **สรุปค่าเสื่อมราคา** เพื่อสรุปค่าเสื่อมราคารายเดือนลงในรายการสมุดรายวันหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="714cf-110">Select the **Summarize depreciation** option to summarize monthly depreciations into one journal line.</span></span>  
-    - <span data-ttu-id="714cf-111">ตัวอย่างเช่น ถ้าค่าวันที่สิ้นสุดคือวันที่ 31 มีนาคม 2015 คำอธิบายต่อไปนี้จะถูกสร้างขึ้น: "ค่าเสื่อมราคาตั้งแต่วันที่ 31 มกราคม 2015"</span><span class="sxs-lookup"><span data-stu-id="714cf-111">For example, if the To date value is March 31, 2015, the following description is generated: "Depreciation since January 31, 2015."</span></span> <span data-ttu-id="714cf-112">จากนั้น ฟิลด์ **วันที่** บนรายการสมุดรายวันที่เสนอจะถูกตั้งเป็น 31 มีนาคม 2015</span><span class="sxs-lookup"><span data-stu-id="714cf-112">The **Date** field on the proposed journal lines is then set to March 31, 2015.</span></span>  
-    - <span data-ttu-id="714cf-113">ข้อเสนอค่าเสื่อมราคาสามารถถูกกรองตามสินทรัพย์ กลุ่มสินทรัพย์ หรือเกณฑ์อื่นๆ โดยใช้ตัวเลือก **ตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="714cf-113">The depreciation proposal can be filtered by asset, asset group, or other criteria using the **Filter** option.</span></span>  
-    - <span data-ttu-id="714cf-114">เมื่อคุณใช้ฟอร์ม **สร้างข้อเสนอการซื้อสินทรัพย์หรือค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร** คุณสามารถเสนอค่าเสื่อมราคาในชุดงานได้</span><span class="sxs-lookup"><span data-stu-id="714cf-114">When you use the **Create acquisition or depreciation proposals for fixed assets** form, you can propose depreciation in batches.</span></span> <span data-ttu-id="714cf-115">นี่คือคำแนะนำสำหรับข้อเสนอใหญ่ที่จะใช้ทรัพยากรของระบบมากขึ้น </span><span class="sxs-lookup"><span data-stu-id="714cf-115">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="714cf-116">ถ้าคุณเลือกตัวเลือกชุดงาน คุณยังคงสามารถดำเนินงานอื่นๆ ให้สำเร็จในช่วงเวลานั้น </span><span class="sxs-lookup"><span data-stu-id="714cf-116">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="714cf-117">เมื่อคุณเสนอค่าเสื่อมราคาในลักษณะนี้ จะมีการคำนวณค่าเสื่อมราคาสำหรับรูปแบบมูลค่าสำหรับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="714cf-117">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
+    - <span data-ttu-id="a6e0f-110">เลือกตัวเลือก **สรุปค่าเสื่อมราคา** เพื่อสรุปค่าเสื่อมราคารายเดือนลงในรายการสมุดรายวันหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="a6e0f-110">Select the **Summarize depreciation** option to summarize monthly depreciations into one journal line.</span></span>  
+    - <span data-ttu-id="a6e0f-111">ตัวอย่างเช่น ถ้าค่าวันที่สิ้นสุดคือวันที่ 31 มีนาคม 2015 คำอธิบายต่อไปนี้จะถูกสร้างขึ้น: "ค่าเสื่อมราคาตั้งแต่วันที่ 31 มกราคม 2015"</span><span class="sxs-lookup"><span data-stu-id="a6e0f-111">For example, if the To date value is March 31, 2015, the following description is generated: "Depreciation since January 31, 2015."</span></span> <span data-ttu-id="a6e0f-112">จากนั้น ฟิลด์ **วันที่** บนรายการสมุดรายวันที่เสนอจะถูกตั้งเป็น 31 มีนาคม 2015</span><span class="sxs-lookup"><span data-stu-id="a6e0f-112">The **Date** field on the proposed journal lines is then set to March 31, 2015.</span></span>  
+    - <span data-ttu-id="a6e0f-113">ข้อเสนอค่าเสื่อมราคาสามารถถูกกรองตามสินทรัพย์ กลุ่มสินทรัพย์ หรือเกณฑ์อื่นๆ โดยใช้ตัวเลือก **ตัวกรอง**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-113">The depreciation proposal can be filtered by asset, asset group, or other criteria using the **Filter** option.</span></span>  
+    - <span data-ttu-id="a6e0f-114">เมื่อคุณใช้ฟอร์ม **สร้างข้อเสนอการซื้อสินทรัพย์หรือค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร** คุณสามารถเสนอค่าเสื่อมราคาในชุดงานได้</span><span class="sxs-lookup"><span data-stu-id="a6e0f-114">When you use the **Create acquisition or depreciation proposals for fixed assets** form, you can propose depreciation in batches.</span></span> <span data-ttu-id="a6e0f-115">นี่คือคำแนะนำสำหรับข้อเสนอใหญ่ที่จะใช้ทรัพยากรของระบบมากขึ้น </span><span class="sxs-lookup"><span data-stu-id="a6e0f-115">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="a6e0f-116">ถ้าคุณเลือกตัวเลือกชุดงาน คุณยังคงสามารถดำเนินงานอื่นๆ ให้สำเร็จในช่วงเวลานั้น </span><span class="sxs-lookup"><span data-stu-id="a6e0f-116">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="a6e0f-117">เมื่อคุณเสนอค่าเสื่อมราคาในลักษณะนี้ จะมีการคำนวณค่าเสื่อมราคาสำหรับรูปแบบมูลค่าสำหรับสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="a6e0f-117">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
 
-4. <span data-ttu-id="714cf-118">เลือก **สร้างสมุดรายวัน**</span><span class="sxs-lookup"><span data-stu-id="714cf-118">Select **Create journal**.</span></span>
+4. <span data-ttu-id="a6e0f-118">เลือก **สร้างสมุดรายวัน**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-118">Select **Create journal**.</span></span>
 
-## <a name="review-depreciation-entries"></a><span data-ttu-id="714cf-119">ตรวจทานรายการค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="714cf-119">Review depreciation entries</span></span>
-1. <span data-ttu-id="714cf-120">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > รายการสมุดรายวัน > สมุดรายวันของสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="714cf-120">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
-2. <span data-ttu-id="714cf-121">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="714cf-121">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="714cf-122">เลือก **รายการ**</span><span class="sxs-lookup"><span data-stu-id="714cf-122">Select **Lines**.</span></span>
-4. <span data-ttu-id="714cf-123">เลือก **ลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="714cf-123">Select **Post**.</span></span>
+## <a name="review-depreciation-entries"></a><span data-ttu-id="a6e0f-119">ตรวจทานรายการค่าเสื่อมราคา</span><span class="sxs-lookup"><span data-stu-id="a6e0f-119">Review depreciation entries</span></span>
+1. <span data-ttu-id="a6e0f-120">ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > รายการสมุดรายวัน > สมุดรายวันของสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-120">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="a6e0f-121">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="a6e0f-121">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="a6e0f-122">เลือก **รายการ**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-122">Select **Lines**.</span></span>
+4. <span data-ttu-id="a6e0f-123">เลือก **ลงรายการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="a6e0f-123">Select **Post**.</span></span>
 
