@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b69b505996b5536088578885c11a7e8c27f4975
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971864"
 ---
 # <a name="define-vendor-payment-terms"></a>กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย
 
@@ -47,6 +46,3 @@ ms.locfileid: "4448249"
 16. ป้อนบัญชีหลักที่จะลงรายการบัญชีส่วนลดเงินสดสำหรับใบแจ้งหนี้ของลูกค้า จากนั้น ป้อนบัญชีหลักที่จะลงรายการบัญชีส่วนลดเงินสดสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย ถ้า **บัญชีตรงข้ามส่วนลด** ถูกกำหนดเป็น **ใช้บัญชีหลักสำหรับส่วนลดของผู้จัดจำหน่าย** จากนั้นบัญชีหลักจะถูกใช้ ถ้าตัวเลือกถูกตั้งเป็น **บัญชีในรายการใบแจ้งหนี้** ส่วนลดเงินสดจะถูกลงรายการบัญชีสินทรัพย์/ค่าใช้จ่ายในรายการของใบแจ้งหนี้  
 17. เลือก **บันทึก**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

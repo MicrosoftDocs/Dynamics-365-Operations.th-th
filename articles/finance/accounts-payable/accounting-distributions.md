@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448566"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972264"
 ---
 # <a name="accounting-distributions"></a>การกระจายการลงบัญชี
 
@@ -57,6 +56,3 @@ ms.locfileid: "4448566"
 ในรุ่น 10.0.13 มีการเพิ่มคุณลักษณะที่ตรวจสอบความถูกต้องของตารางการกระจายการลงบัญชี เพื่อให้แน่ใจว่ามีการตั้งค่าฟิลด์ใหม่อย่างถูกต้อง คุณลักษณะนี้เรียกว่า **เปิดใช้งานการตรวจสอบความถูกต้องของข้อมูลเพิ่มเติมสำหรับเอกสาร โดยใช้กรอบงานการบัญชีเอกสารต้นทาง** เมื่อต้องการใช้คุณลักษณะ คุณต้องเปิดใช้งานคุณลักษณะนี้ โดยใช้พื้นที่ทำงาน **การจัดการคุณลักษณะ** เมื่อต้องการเปิดใช้งานคุณลักษณะนี้ ให้ค้นหาชื่อคุณลักษณะในฟิลด์ **ค้นหา** บนหน้า **การจัดการคุณลักษณะ** แล้วเลือก **เปิดใช้งานเดี๋ยวนี้**
 
 สำหรับข้อมูลเพิ่มเติม ดู [การกระจายการลงบัญชี และรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ผู้จัดจำหน่าย](accounting-distributions-subledger-journal-entries-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

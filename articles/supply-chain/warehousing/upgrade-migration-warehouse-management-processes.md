@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 123be2430f910dfbea438cb6a51be7203eb39fc8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438145"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970292"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>อัพเกรดการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปยัง Supply Chain Management 
 
@@ -83,6 +82,3 @@ Supply Chain Management ไม่สนับสนุนโมดูล **WMSII
 6.  ในหน้า **เปลี่ยนกลุ่มมิติการจัดเก็บสำหรับสินค้า** เพิ่มหมายเลขสินค้า กลุ่มมิติการจัดเก็บ และกลุ่มลำดับหน่วย คุณสามารถทำขั้นตอนนี้ให้เสร็จสมบูรณ์ได้โดยตรงในหน้า โดยใช้การรวม Microsoft Office หรือโดยใช้กระบวนการเอนทิตี้ข้อมูลใน [การจัดการข้อมูล](../../dev-itpro/data-entities/data-entities.md)
 7.  ตรวจสอบความถูกต้องของการเปลี่ยนแปลง ในฐานะที่เป็นส่วนหนึ่งของกระบวนการตรวจสอบ การตรวจสอบความถูกต้องต่าง ๆของข้อมูลเกิดขึ้น ในฐานะที่เป็นส่วนหนึ่งของกระบวนการอัพเกรดที่ใหญ่ขึ้น ปัญหาที่เกิดขึ้นอาจต้องถูกปรับปรุงในการใช้งานต้นทาง ในกรณีนี้ การอัพเกรดข้อมูลเพิ่มเติมจะจำเป็น
 8.  ประมวลผลการเปลี่ยนแปลง การอัพเดตของมิติสินค้าคงคลังทั้งหมดอาจใช้เวลาชั่วขณะ คุณสามารถติดตามความคืบหน้าได้ โดยใช้งานชุดงาน
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

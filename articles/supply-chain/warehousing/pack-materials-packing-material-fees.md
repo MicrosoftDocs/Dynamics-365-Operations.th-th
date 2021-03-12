@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e5364336c5336cbb91caf3c03564f68371273079
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438367"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973646"
 ---
 # <a name="packing-materials-and-fees"></a>วัสดุและค่าธรรมเนียมบรรจุภัณฑ์
 
@@ -112,6 +111,3 @@ ms.locfileid: "4438367"
 
 1. ไปที่ **บัญชีลูกหนี้ \> การตั้งค่า \> พารามิเตอร์บัญชีลูกหนี้**
 1. บนแท็บ **การปรับปรุง** บน FastTab **ใบแจ้งหนี้** ให้ตั้งค่าตัวเลือก **พิมพ์น้ำหนักบรรจุภัณฑ์** เป็น **ใช่**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a04180a5dbec1e08d0149beeed0495a0d13af76c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448380"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971739"
 ---
 # <a name="add-credit-management-information-for-customers"></a>เพิ่มข้อมูลการตั้งค่าการจัดการเครดิตสำหรับลูกค้า
 
@@ -102,6 +101,3 @@ ms.locfileid: "4448380"
     ในกรณีนี้ วงเงินสินเชื่อที่มีผล คือ 125,000 (= A + \[B × C\])
     
     อย่างไรก็ตาม ถ้าคุณเลือกกล่องกาเครื่องหมาย **ที่รวมอยู่ในความเสี่ยง** ค่า **วงเงินสินเชื่ออัพเดต** ของ 50,000 (= 50.00 เปอร์เซ็นต์ของ 100,000) จะถูกลบออกและค่าความเสี่ยงเป็น 75,000 (= A + \[B × C\] – B)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

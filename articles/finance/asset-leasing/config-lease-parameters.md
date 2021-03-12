@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f71006570cd8f2bdc0385388eae0800cd29d3ec8
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: ff0aa5fd0b78814dfa5bb00d6d5ef2984c566d14
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448612"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971414"
 ---
 # <a name="configure-lease-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์สัญญาเช่า
 
@@ -46,6 +45,3 @@ ms.locfileid: "4448612"
 
     > [!NOTE]
     > เราขอแนะนำให้คุณตั้งค่าตัวเลือกนี้เป็น **ไม่** การตั้งค่าของตัวเลือกนี้จะใช้เป็นการตรวจสอบความถูกต้องและการควบคุม เพื่อป้องกันไม่ให้มีการคิดค่าเสื่อมราคารุ่นของสมุดบัญชีที่ปิดโดยบังเอิญ โดยการตั้งค่าตัวเลือกเป็น **ไม่** คุณช่วยในการรักษามูลค่าตามบัญชีสุทธิและในการคำนวณค่าเสื่อมราคาในอนาคตให้ถูกต้อง
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

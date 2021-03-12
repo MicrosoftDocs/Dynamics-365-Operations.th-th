@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448614"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971489"
 ---
 # <a name="asset-leasing-reports"></a>รายงานการเช่าสินทรัพย์
 
@@ -165,6 +164,3 @@ ms.locfileid: "4448614"
 |     สกุลเงิน                          |     ตัวย่อของที่อยู่สำหรับสกุลเงินที่ธุรกรรมใช้ รายงานทั้งหมดจะมีการแปลงสกุลเงินของธุรกรรมเป็นสกุลเงินการรายงาน  |
 |     การชำระค่าเช่าที่เหลือ          |     ยอดเงินรวมของการชำระเงินที่ยังไม่ได้ชำระจากกำหนดการชำระเงินที่เหลือ จากวันที่ **ณ**            |
 |     การชำระเงินแบบถ่วงน้ำหนักที่เหลือ       |     การชำระเงินตามสัญญาเช่าที่เหลือคูณด้วยอัตราส่วนลดที่ใช้   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

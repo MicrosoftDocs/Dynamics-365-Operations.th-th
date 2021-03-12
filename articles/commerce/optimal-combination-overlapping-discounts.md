@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416141"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972718"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>กำหนดชุดของส่วนลดที่ซ้อนทับกันที่ดีที่สุด
 
@@ -84,6 +83,3 @@ ms.locfileid: "4416141"
 ![สูตรสำหรับการคำนวณมูลค่ากำไร](./media/overlapping-discount-combo-06.jpg)
 
 หลังจากที่มีการคำนวณมูลค่ากำไรของแต่ละส่วนลดบนชุดของผลิตภัณฑ์ที่ใช้ร่วมกัน ส่วนลดจะถูกนำไปใช้กับผลิตภัณฑ์ที่ใช้ร่วมกันตามใบสั่งจากมูลค่ากำไรสูงสุดถึงมูลค่ากำไรต่ำสุดอย่างละเอียดถี่ถ้วน สำหรับวิธีการนี้ ความเป็นไปได้ของส่วนลดที่เหลืออยู่ทั้งหมดจะไม่ถูกเปรียบเทียบทุกครั้งหลังจากที่มีการใช้อินสแตนซ์เดียวของส่วนลด แต่ส่วนลดที่ซ้อนทับกันจะถูกเปรียบเทียบหนึ่งครั้ง และถูกนำไปใช้ตามลำดับ ไม่มีการดำเนินการเปรียบเทียบเพิ่มเติม คุณสามารถกำหนดค่าเกณฑ์เพื่อเปลี่ยนเป็นวิธีใช้ค่าส่วนเพิ่มบนแท็บ **ลดราคา** ของหน้า **พารามิเตอร์การค้า** เวลาที่ยอมรับได้ในการคำนวณส่วนลดรวมแตกต่างกันตามแต่อุตสาหกรรมการขายปลีก อย่างไรก็ตาม โดยทั่วไปเวลานี้จะอยู่ในช่วงของมิลลิวินาทีหลักสิบถึงหนึ่งวินาที
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
