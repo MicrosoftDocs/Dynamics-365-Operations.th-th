@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438893"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998389"
 ---
 # <a name="wave-template-grouping"></a>การจัดกลุ่มเท็มเพลตเวฟ
 
@@ -201,6 +200,3 @@ ms.locfileid: "4438893"
 1. เลือกรหัสเวฟที่สร้างขึ้นจากใบสั่งขายที่สาม
 1. เลือกลิงก์รหัสเวฟเพื่อเปิดหน้ารายละเอียดเวฟ
 1. โปรดสังเกตว่ามีการเพิ่มการจัดส่งไปยัง FastTab **รายการเวฟ** พร้อมกับการจัดส่งสำหรับใบสั่งขายแรก
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8c2288a18398f71a75dad6e51d51ba4b09561e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416120"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997686"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง
 
@@ -42,6 +41,3 @@ ms.locfileid: "4416120"
 ความสามารถในการการเลือกที่อยู่ "จัดส่งไปยัง" ยังคงไม่เปลี่ยนแปลง
 
 วิธีการจัดส่งที่สามารถใช้ในกาเติมเต็มรายการใบสั่ง เป็นไปตามการตั้งค่าคอนฟิกโหมดการจัดส่งสำหรับผลิตภัณฑ์และที่อยู่ที่ถูกต้อง เนื่องจากมีการรักษากฎเกี่ยวกับโหมดการจัดส่งถูกในศูนย์ควบคุม (HQ) เท่านั้น ไคลเอนต์ POS ทำให้การเรียกแบบเรียลไทม์จะนำโหมดการจัดส่งสำหรับรายการการจัดส่งที่ถูกต้องมาใช้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

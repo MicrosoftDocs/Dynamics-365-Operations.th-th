@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997811"
 ---
 # <a name="call-center-catalogs"></a>แค็ตตาล็อกของศูนย์บริการ
 
@@ -101,6 +100,3 @@ ms.locfileid: "4416276"
 ## <a name="additional-notes"></a>บันทึกเพิ่มเติม
 
 ในปัจจุบัน เมื่อรหัสโค้ดต้นทางถูกนำไปใช้กับใบสั่งขายในศูนย์บริการ จะมีการใช้เพื่อไดรฟ์ราคา โปรโมชัน สคริปต์ และการเพิ่มการขาย/การขายสินค้าชนิดอื่นทที่เฉพาะเจาะจงกับแค็ตตาล็อก ระบบจะไม่ห้ามหรือป้องกันผลิตภัณฑ์ที่ไม่ได้อยู่ในแค็ตตาล็อกจากที่มีการสั่งซื้อในใบสั่งขาย ถ้ามีการสั่งสินค้าที่ไม่ได้เป็นส่วนหนึ่งของแค็ตตาล็อก อันดับแรก ระบบจะใช้ **กลุ่มราคา** ที่กำหนดไว้ในช่องทางศูนย์บริการ (**Retail และ Commerce** \> **ช่องทาง** \> **ศูนย์บริการ** \> **ศูนย์บริการทั้งหมด**) สำหรับราคาสินค้าหรือการส่งเสริมการขาย ถ้าไม่พบราคาในช่องทางเฉพาะ ราคาการขายฐานของสินค้าจะถูกใช้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528934"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998514"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
 
@@ -62,13 +61,13 @@ ms.locfileid: "4528934"
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | ส่วนหัวของใบสั่งขาย CDS |
-| msdyn_workorderservices | รายการในใบสั่งขาย CDS   |
-| msdyn_workorderproducts | รายการในใบสั่งขาย CDS   |
+| msdyn_workorders        | Dataverse ส่วนหัวของใบสั่งขาย |
+| msdyn_workorderservices | Dataverse รายการในใบสั่งขาย   |
+| msdyn_workorderproducts | Dataverse รายการในใบสั่งขาย   |
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-มีการสร้างใบสั่งงานใน Field Service ถ้าใบสั่งงานรวมเฉพาะผลิตภัณฑ์ที่ถูกเก็บรักษาโดยภายนอก และถ้าค่า **Work order status** แตกต่างจาก **ไม่ได้จัดกำหนดการแบบเปิด**  และ **ปิด – ยกเลิก** ใบสั่งงานสามารถซิงโครไนส์ไปยัง Supply Chain Management ได้โดย ผ่านทางโครงการรวมข้อมูล Common Data Service การอัพเดตใบสั่งงานจะถูกซิงโครไนส์เป็นใบสั่งขายใน Supply Chain Management การอัพเดตเหล่านี้ประกอบด้วย ข้อมูลเกี่ยวกับชนิดจุดเริ่มต้นและสถานะ
+มีการสร้างใบสั่งงานใน Field Service ถ้าใบสั่งงานรวมเฉพาะผลิตภัณฑ์ที่ถูกเก็บรักษาโดยภายนอก และถ้าค่า **Work order status** แตกต่างจาก **ไม่ได้จัดกำหนดการแบบเปิด**  และ **ปิด – ยกเลิก** ใบสั่งงานสามารถซิงโครไนส์ไปยัง Supply Chain Management ได้โดย ผ่านทางโครงการรวมข้อมูล Microsoft Dataverse การอัพเดตใบสั่งงานจะถูกซิงโครไนส์เป็นใบสั่งขายใน Supply Chain Management การอัพเดตเหล่านี้ประกอบด้วย ข้อมูลเกี่ยวกับชนิดจุดเริ่มต้นและสถานะ
 
 ## <a name="estimated-versus-used"></a>ที่ประเมิน เทียบกับ ที่ใช้
 
@@ -273,6 +272,3 @@ ms.locfileid: "4528934"
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004) หรือ (msdyn_allocated ne true))
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
