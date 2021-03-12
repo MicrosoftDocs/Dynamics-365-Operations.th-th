@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438298"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963749"
 ---
 # <a name="weighted-average-date"></a>วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 
@@ -38,7 +37,7 @@ ms.locfileid: "4438298"
 
 สูตรต่อไปนี้จะใช้ในการคำนวณวิธีการคิดต้นทุนของวันที่ค่าเฉลี่ยถ่วงน้ำหนัก: 
 
-ค่าเฉลี่ยถ่วงน้ำหนัก = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+ค่าเฉลี่ยถ่วงน้ำหนัก = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 ในระหว่างที่ปิดสินค้าคงคลัง จะมีการคำนวณทุกวันตามรอบระยะเวลาการปิดดังที่แสดงในภาพต่อไปนี้ 
 
@@ -51,7 +50,7 @@ ms.locfileid: "4438298"
 
 การหักลบ คือ การลงรายการบัญชีปิดสินค้าคงคลังที่มีการปรับสินค้าที่ตัดออกให้ตรงกับค่าเฉลี่ยถ่วงน้ำหนักที่ถูกต้อง ณ วันที่ปิด 
 
-**หมายเหตุ:**  สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการชำระเงิน ดูบทความเกี่ยวกับการปิดสินค้าคงคลัง ตัวอย่างต่อไปนี้แสดงผลของการใช้ค่าเฉลี่ยถ่วงน้ำหนักกับการตั้งค่าคอนฟิกห้าแบบที่แตกต่างกัน:
+**หมายเหตุ:** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจับคู่ ให้ดูบทความเกี่ยวกับการปิดสินค้าคงคลัง ตัวอย่างต่อไปนี้แสดงผลของการใช้ค่าเฉลี่ยถ่วงน้ำหนักกับการตั้งค่าคอนฟิกห้าแบบที่แตกต่างกัน:
 
 -   การหักลบโดยตรงตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักเมื่อไม่มีการใช้ตัวเลือก **รวมมูลค่าจริง**
 -   การหักลบแบบรวบยอดตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักเมื่อไม่มีการใช้ตัวเลือก **รวมมูลค่าจริง**
@@ -196,6 +195,3 @@ ms.locfileid: "4438298"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109c047a35154f6d4c0ebcd71e1c72990d0f4971
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693389"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798816"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
 
@@ -381,6 +381,3 @@ ms.locfileid: "4693389"
 5. เลือกกล่องกาเครื่องหมาย **มอบหมาย** หากผู้ใช้ควรสามารถกำหนดงานนี้ให้ผู้ใช้รายอื่นได้
 6. เลือกกล่องกาเครื่องหมาย **กำหนดใหม่** หากผู้ใช้ควรสามารถกำหนดงานนี้ใหม่ให้ผู้ใช้รายอื่นในคิวรายการงานได้
 7. เลือกกล่องกาเครื่องหมาย **นำออกใช้** หากผู้ใช้ควรสามารถกำหนดงานนี้ใหม่ในคิวรายการงานได้ จากนั้นผู้ใช้รายอื่นจึงจะสามารถทำงานให้เสร็จสมบูรณ์ได้
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

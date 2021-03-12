@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457847"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839560"
 ---
 # <a name="inventory-availability-in-dual-write"></a>ความพร้อมของสินค้าคงคลังในการรวมแบบสองทิศทาง
 
@@ -58,5 +58,63 @@ ms.locfileid: "4457847"
 - ปริมาณการออกใช้
 - ปริมาณคงคลังคงเหลือ
 
+## <a name="how-it-works"></a>วิธีการทำงาน
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+เมื่อคุณเลือกปุ่ม **สินค้าคงคลังคงเหลือ** บนหน้า **ใบเสนอราคา** **ใบสั่งซื้อ** หรือ **ใบแจ้งหนี้** การเรียกการรวมแบบสองทิศทางแบบสดจะเรียกใช้ API **สินค้าคงคลังคงเหลือ** API จะคํานวณปริมาณสินค้าคงคลังคงเหลือของผลิตภัณฑ์ที่ระบุ ผลลัพธ์จะถูกจัดเก็บอยู่ในตาราง **InventCDSInventoryOnHandRequestEntity** และ **InventCDSInventoryOnHandEntryEntity** และเขียนไปยัง Dataverse โดยการรวมแบบสองทิศทาง หากต้องการใช้ฟังก์ชันนี้ คุณต้องรันแผนผังการรวมแบบสองทิศทางต่อไปนี้ ข้ามการซิงโครไนส์เริ่มแรก เมื่อคุณรันแผนผัง
+
+- รายการสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandentries)
+- การร้องขอสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>เท็มเพลต
+เท็มเพลตต่อไปนี้มีให้ใช้งานกับข้อมูลของสินค้าคงคลังคงเหลือที่จัดการอยู่
+
+แอป Finance and Operations | แอป Customer Engagement | คำอธิบาย 
+---|---|---
+[รายการปริมาณสินค้าคงคลังคงเหลือของ CDS](#145) | msdyn_inventoryonhandentries |
+[คำขอปริมาณสินค้าคงคลังคงเหลือของ CDS](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>รายการสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandentries)
+
+เท็มเพลตนี้ซิงโครไนส์ข้อมูลระหว่างแอป Finance and Operations และ Dataverse
+
+ฟิลด์ Finance and Operations | ชนิดของการแม็ป | ฟิลด์ Customer Engagement | ค่าเริ่มต้น
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>การร้องขอสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandrequests)
+
+เท็มเพลตนี้ซิงโครไนส์ข้อมูลระหว่างแอป Finance and Operations และ Dataverse
+
+ฟิลด์ Finance and Operations | ชนิดของการแม็ป | ฟิลด์ Customer Engagement | ค่าเริ่มต้น
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 5585ad96ec689b55c00e123fc465684436028823
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516680"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963621"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>แค็ตตาล็อกการเรียนรู้ของผู้จัดการโครงการสำหรับการใช้งานที่ทำงานกับ Dynamics 365 Supply Chain Management
 
@@ -107,6 +106,3 @@ ms.locfileid: "4516680"
 | [การสอบ MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ใช้ฟังก์ชันทั่วไปและเครื่องมือการใช้งาน ตั้งค่าคอนฟิกความปลอดภัย กระบวนการ และตัวเลือก ดำเนินการย้ายข้อมูล และตรวจสอบความถูกต้องและการสนับสนุนโซลูชัน | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [การสอบ MB-320: การผลิต Microsoft Dynamics 365 for Finance and Operations](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ตั้งค่าและตั้งค่าคอนฟิกการผลิต สร้างและจัดการใบสั่งผลิตและใบสั่งผลิต สร้างประมวลผลและจัดการใบสั่งชุดงานการผลิต | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [Exam MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | การทดสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ใช้การจัดการข้อมูลผลิตภัณฑ์ ดำเนินการบริหารสินค้าคงคลัง ดำเนินการและจัดการกระบวนการของห่วงโซ่อุปทาน และใช้การจัดการคลังสินค้าและการจัดการการขนส่งและดำเนินกระบวนการทางธุรกิจ | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
