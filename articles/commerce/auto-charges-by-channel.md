@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416107"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993739"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>เปิดใช้งานและตั้งค่าคอนฟิกค่าธรรมเนียมอัตโนมัติตามช่องทาง
 
@@ -77,7 +76,7 @@ ms.locfileid: "4416107"
 
 เมื่อต้องการกำหนดค่าธรรมเนียมอัตโนมัติตามช่องทางใน Commerce ให้ทำตามขั้นตอนต่อไปนี้
 
-1. ไปยัง **บัญชีลูกหนี้ \> การตั้งค่าค่าธรรมเนียม \> ค่าธรรมเนียมอัตโนมัติ**
+1. ไปยัง **บัญชีลูกหนี้ \> การตั้งค่าค่าธรรมเนียม \> ค่าธรรมเนียมอัตโนมัติ**
 1. ในบานหน้าต่างด้านซ้าย ในฟิลด์ **ระดับ** ให้เลือก **ส่วนหัว** หรือ **รายการ** ทั้งนี้ขึ้นอยู่กับความต้องการทางธุรกิจของคุณ
 1. ในฟิลด์ **รหัสช่องทางการขายปลีก** ให้เลือกรหัสช่องทางที่เหมาะสม (ตัวอย่างเช่น **ตาราง** หรือ **กลุ่ม**) ถ้ามีการใช้การตั้งค่าเริ่มต้น **ทั้งหมด** จะมีการใช้กฎค่าธรรมเนียมกับช่องทางทั้งหมด
 
@@ -128,6 +127,3 @@ ms.locfileid: "4416107"
 [ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni](omni-auto-charges.md)
 
 [แบ่งค่าธรรมเนียมส่วนหัวตามส่วนไปยังรายการขายที่ตรงกัน](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

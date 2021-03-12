@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66a5ca8a679563b59ca23992f7e0b4ee6fab470b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438344"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993822"
 ---
 # <a name="warehouse-app-event-processing"></a>การประมวลผลเหตุการณ์ของแอปคลังสินค้า
 
@@ -78,6 +77,3 @@ ms.locfileid: "4438344"
 1. ทำงานต่อไปจนกว่าข้อความที่เกี่ยวข้องทั้งหมดจะถูกรีเซ็ต
 
 นอกจากนี้ คุณยังสามารถลบข้อความเหตุการณ์ที่ **ล้มเหลว** โดยใช้ตัวเลือก **ลบ** บนแถบเครื่องมือ **ข้อความเหตุการณ์ของแอปคลังสินค้า**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

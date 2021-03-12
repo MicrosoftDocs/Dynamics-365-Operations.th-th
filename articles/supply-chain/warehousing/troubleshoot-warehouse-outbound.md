@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 56bd91d8a6fe895317021d806e180df3a2db302b
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 165ac8145ad75c2c6619764b9abe855b9d32eb46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645464"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993989"
 ---
 # <a name="troubleshoot-outbound-warehouse-operations"></a>แก้ไขปัญหาการดำเนินงานคลังสินค้าขาออก
 
@@ -62,6 +61,3 @@ ms.locfileid: "4645464"
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
 Microsoft ได้ประเมินปัญหานี้แล้วและได้ระบุว่าเป็นข้อจำกัดของลักษณะการทำงาน ปัจจุบัน WMS ไม่สนับสนุนการจัดส่งสินค้าโดยตรง เมื่อต้องการใช้การจัดส่งสินค้าโดยตรง คุณต้องเลือกสินค้าที่ไม่ใช่ WMS และคลังสินค้า
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

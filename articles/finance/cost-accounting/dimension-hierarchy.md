@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995201"
 ---
 # <a name="dimension-hierarchy"></a>ลำดับชั้นของมิติ
 
@@ -333,6 +332,3 @@ ms.locfileid: "4448328"
 > [!NOTE] 
 > - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - ลำดับชั้นรายการการเข้าถึงไม่ช่วยรักษาความปลอดภัยการส่งออกข้อมูลไปยัง Excel ดังนั้น จึงควรมีการใช้เครื่องมือที่ใช้รายงาน โดยผู้จัดทำบัญชีต้นทุนและผู้จัดการที่ต้องมีการเข้าถึงแบบเต็มรูปแบบในการดูข้อมูล
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

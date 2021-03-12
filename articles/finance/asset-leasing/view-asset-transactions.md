@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7008891d194dc990d13a9f56db155c6990aae0c0
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 76c7eff17df92b01317544112099e391fd05d105
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448624"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995379"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>ดูธุรกรรมการหนี้สิน สินทรัพย์ และค่าใช้จ่าย
 
@@ -48,6 +47,3 @@ ms.locfileid: "4448624"
 ถ้าต้องการดูธุรกรรมค่าใช้จ่ายสัญญาเช่า ให้เลือกสัญญาเช่าในหน้า **สรุปสัญญาเช่า** แล้วเลือก **สมุดบัญชี** ที่จะเปิดสมุดบัญชีสัญญาเช่าที่แนบกับเรกคอร์ดสัญญาเช่า จากนั้นเลือก **ธุรกรรมค่าใช้จ่าย**
 
 หน้า **ธุรกรรมค่าใช้จ่าย** จะแสดงค่าใช้จ่ายทั้งหมดที่ได้ลงรายการบัญชีสำหรับสัญญาเช่า เช่น ค่าใช้จ่ายดอกเบี้ย ค่าเสื่อมราคา และค่าใช้จ่ายในการจัดการสินทรัพย์ใด ๆ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
