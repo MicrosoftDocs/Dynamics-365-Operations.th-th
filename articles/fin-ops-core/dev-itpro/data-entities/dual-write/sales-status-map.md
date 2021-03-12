@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าฟิลด์สถานะของใบสั่งขายสำหรับการรวมแบบสองทิศทาง
+title: ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอลัมน์สถานะของใบสั่งขายสำหรับการรวมแบบสองทิศทาง
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,135 +18,135 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457809"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744310"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a><span data-ttu-id="c8cdd-103">ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-103">Set up the mapping for the sales order status fields</span></span>
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a><span data-ttu-id="8dfc4-103">ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-103">Set up the mapping for the sales order status columns</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c8cdd-104">ฟิลด์ที่บ่งชี้สถานะของใบสั่งขายมีค่าการแจงนับที่แตกต่างกันใน Microsoft Dynamics 365 Supply Chain Management และ Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="c8cdd-104">The fields that indicate sales order status have different enumeration values in Microsoft Dynamics 365 Supply Chain Management and Dynamics 365 Sales.</span></span> <span data-ttu-id="c8cdd-105">ต้องมีการตั้งค่าเพิ่มเติมเพื่อแม็ปฟิลด์เหล่านี้ในการรวมแบบสองทิศทาง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-105">Additional setup is required to map these fields in dual-write.</span></span>
+<span data-ttu-id="8dfc4-104">คอลัมน์ที่บ่งชี้สถานะของใบสั่งขายมีค่าการแจงนับที่แตกต่างกันใน Microsoft Dynamics 365 Supply Chain Management และ Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="8dfc4-104">The columns that indicate sales order status have different enumeration values in Microsoft Dynamics 365 Supply Chain Management and Dynamics 365 Sales.</span></span> <span data-ttu-id="8dfc4-105">ต้องมีการตั้งค่าเพิ่มเติมเพื่อแม็ปคอลัมน์เหล่านี้ในการรวมแบบสองทิศทาง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-105">Additional setup is required to map these columns in dual-write.</span></span>
 
-## <a name="fields-in-supply-chain-management"></a><span data-ttu-id="c8cdd-106">ฟิลด์ใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-106">Fields in Supply Chain Management</span></span>
+## <a name="columns-in-supply-chain-management"></a><span data-ttu-id="8dfc4-106">คอลัมน์ใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-106">columns in Supply Chain Management</span></span>
 
-<span data-ttu-id="c8cdd-107">ใน Supply Chain Management ฟิลด์สองฟิลด์จะสะท้อนถึงสถานะของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-107">In Supply Chain Management, two fields reflect the status of the sales order.</span></span> <span data-ttu-id="c8cdd-108">ฟิลด์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะเอกสาร**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-108">The fields that you must map are **Status** and **Document Status**.</span></span>
+<span data-ttu-id="8dfc4-107">ใน Supply Chain Management คอลัมน์สองคอลัมน์จะสะท้อนถึงสถานะของใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-107">In Supply Chain Management, two columns reflect the status of the sales order.</span></span> <span data-ttu-id="8dfc4-108">คอลัมน์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะเอกสาร**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-108">The columns that you must map are **Status** and **Document Status**.</span></span>
 
-<span data-ttu-id="c8cdd-109">การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-109">The **Status** enumeration specifies the overall status of the order.</span></span> <span data-ttu-id="c8cdd-110">สถานะนี้จะแสดงอยู่บนส่วนหน้าของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-110">This status is shown on the order header.</span></span>
+<span data-ttu-id="8dfc4-109">การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-109">The **Status** enumeration specifies the overall status of the order.</span></span> <span data-ttu-id="8dfc4-110">สถานะนี้จะแสดงอยู่บนส่วนหน้าของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-110">This status is shown on the order header.</span></span>
 
-<span data-ttu-id="c8cdd-111">การแจงนับ **สถานะ** มีค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c8cdd-111">The **Status** enumeration has the following values:</span></span>
+<span data-ttu-id="8dfc4-111">การแจงนับ **สถานะ** มีค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8dfc4-111">The **Status** enumeration has the following values:</span></span>
 
-- <span data-ttu-id="c8cdd-112">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-112">Open Order</span></span>
-- <span data-ttu-id="c8cdd-113">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-113">Delivered</span></span>
-- <span data-ttu-id="c8cdd-114">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-114">Invoiced</span></span>
-- <span data-ttu-id="c8cdd-115">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-115">Cancelled</span></span>
+- <span data-ttu-id="8dfc4-112">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-112">Open Order</span></span>
+- <span data-ttu-id="8dfc4-113">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-113">Delivered</span></span>
+- <span data-ttu-id="8dfc4-114">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-114">Invoiced</span></span>
+- <span data-ttu-id="8dfc4-115">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-115">Cancelled</span></span>
 
-<span data-ttu-id="c8cdd-116">การแจง **สถานะของเอกสาร** ระบุเอกสารล่าสุดที่สร้างขึ้นสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-116">The **Document Status** enumeration specifies the most recent document that was generated for the order.</span></span> <span data-ttu-id="c8cdd-117">ตัวอย่างเช่น ถ้ายืนยันใบสั่งแล้ว เอกสารนี้เป็นการยืนยันใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-117">For example, if the order is confirmed, this document is a sales order confirmation.</span></span> <span data-ttu-id="c8cdd-118">ถ้าใบสั่งขายมีการออกใบแจ้งหนี้แล้วบางส่วน บรรทัดที่เหลือจะถูกยืนยัน สถานะเอกสารยังคงมีการ **ออกใบแจ้งหนี้** เนื่องจากมีการสร้างใบแจ้งหนี้ในภายหลังในกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="c8cdd-118">If a sales order is partially invoiced, and then the remaining line is confirmed, the document status remains **Invoice**, because the invoice is generated later in the process.</span></span>
+<span data-ttu-id="8dfc4-116">การแจง **สถานะของเอกสาร** ระบุเอกสารล่าสุดที่สร้างขึ้นสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-116">The **Document Status** enumeration specifies the most recent document that was generated for the order.</span></span> <span data-ttu-id="8dfc4-117">ตัวอย่างเช่น ถ้ายืนยันใบสั่งแล้ว เอกสารนี้เป็นการยืนยันใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-117">For example, if the order is confirmed, this document is a sales order confirmation.</span></span> <span data-ttu-id="8dfc4-118">ถ้าใบสั่งขายมีการออกใบแจ้งหนี้แล้วบางส่วน บรรทัดที่เหลือจะถูกยืนยัน สถานะเอกสารยังคงมีการ **ออกใบแจ้งหนี้** เนื่องจากมีการสร้างใบแจ้งหนี้ในภายหลังในกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="8dfc4-118">If a sales order is partially invoiced, and then the remaining line is confirmed, the document status remains **Invoice**, because the invoice is generated later in the process.</span></span>
 
-<span data-ttu-id="c8cdd-119">การแจงนับ **สถานะเอกสาร** มีค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c8cdd-119">The **Document Status** enumeration has the following values:</span></span>
+<span data-ttu-id="8dfc4-119">การแจงนับ **สถานะเอกสาร** มีค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8dfc4-119">The **Document Status** enumeration has the following values:</span></span>
 
-- <span data-ttu-id="c8cdd-120">ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-120">Confirmation</span></span>
-- <span data-ttu-id="c8cdd-121">รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c8cdd-121">Picking List</span></span>
-- <span data-ttu-id="c8cdd-122">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-122">Packing Slip</span></span>
-- <span data-ttu-id="c8cdd-123">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-123">Invoice</span></span>
+- <span data-ttu-id="8dfc4-120">ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-120">Confirmation</span></span>
+- <span data-ttu-id="8dfc4-121">รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="8dfc4-121">Picking List</span></span>
+- <span data-ttu-id="8dfc4-122">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-122">Packing Slip</span></span>
+- <span data-ttu-id="8dfc4-123">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-123">Invoice</span></span>
 
-## <a name="fields-in-sales"></a><span data-ttu-id="c8cdd-124">ฟิลด์ในการขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-124">Fields in Sales</span></span>
+## <a name="columns-in-sales"></a><span data-ttu-id="8dfc4-124">คอลัมน์ใน Sales</span><span class="sxs-lookup"><span data-stu-id="8dfc4-124">columns in Sales</span></span>
 
-<span data-ttu-id="c8cdd-125">ในการขาย มีสองฟิลด์ที่บ่งชี้สถานะของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-125">In Sales, two fields indicate the status of the order.</span></span> <span data-ttu-id="c8cdd-126">ฟิลด์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะการประมวลผล**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-126">The fields that you must map are **Status** and **Processing Status**.</span></span>
+<span data-ttu-id="8dfc4-125">ในการขาย มีสองคอลัมน์ที่บ่งชี้สถานะของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-125">In Sales, two columns indicate the status of the order.</span></span> <span data-ttu-id="8dfc4-126">คอลัมน์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะการประมวลผล**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-126">The columns that you must map are **Status** and **Processing Status**.</span></span>
 
-<span data-ttu-id="c8cdd-127">การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-127">The **Status** enumeration specifies the overall status of the order.</span></span> <span data-ttu-id="c8cdd-128">ซึ่งมีค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="c8cdd-128">It has the following values:</span></span>
+<span data-ttu-id="8dfc4-127">การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-127">The **Status** enumeration specifies the overall status of the order.</span></span> <span data-ttu-id="8dfc4-128">ซึ่งมีค่าดังต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8dfc4-128">It has the following values:</span></span>
 
-- <span data-ttu-id="c8cdd-129">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-129">Active</span></span>
-- <span data-ttu-id="c8cdd-130">ส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-130">Submitted</span></span>
-- <span data-ttu-id="c8cdd-131">เติมเต็มแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-131">Fulfilled</span></span>
-- <span data-ttu-id="c8cdd-132">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-132">Invoiced</span></span>
-- <span data-ttu-id="c8cdd-133">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-133">Cancelled</span></span>
+- <span data-ttu-id="8dfc4-129">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-129">Active</span></span>
+- <span data-ttu-id="8dfc4-130">ส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-130">Submitted</span></span>
+- <span data-ttu-id="8dfc4-131">เติมเต็มแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-131">Fulfilled</span></span>
+- <span data-ttu-id="8dfc4-132">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-132">Invoiced</span></span>
+- <span data-ttu-id="8dfc4-133">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-133">Cancelled</span></span>
 
-<span data-ttu-id="c8cdd-134">การแจงนับ **สถานะการประมวลผล** ถูกนำมาใช้เพื่อให้สามารถแม็ปสถานะได้อย่างถูกต้องกับ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-134">The **Processing Status** enumeration was introduced so that the status can be mapped more accurately with Supply Chain Management.</span></span>
+<span data-ttu-id="8dfc4-134">การแจงนับ **สถานะการประมวลผล** ถูกนำมาใช้เพื่อให้สามารถแม็ปสถานะได้อย่างถูกต้องกับ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-134">The **Processing Status** enumeration was introduced so that the status can be mapped more accurately with Supply Chain Management.</span></span>
 
-<span data-ttu-id="c8cdd-135">ตารางต่อไปนี้แสดงการแม็ป **สถานะการประมวลผล** ใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-135">The following table shows the mapping of **Processing Status** in Supply Chain Management.</span></span>
+<span data-ttu-id="8dfc4-135">ตารางต่อไปนี้แสดงการแม็ป **สถานะการประมวลผล** ใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-135">The following table shows the mapping of **Processing Status** in Supply Chain Management.</span></span>
 
-| <span data-ttu-id="c8cdd-136">สถานะการประมวลผล</span><span class="sxs-lookup"><span data-stu-id="c8cdd-136">Processing Status</span></span>   | <span data-ttu-id="c8cdd-137">สถานะใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-137">Status in Supply Chain Management</span></span> | <span data-ttu-id="c8cdd-138">สถานะเอกสารใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-138">Document Status in Supply Chain Management</span></span> |
+| <span data-ttu-id="8dfc4-136">สถานะการประมวลผล</span><span class="sxs-lookup"><span data-stu-id="8dfc4-136">Processing Status</span></span>   | <span data-ttu-id="8dfc4-137">สถานะใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-137">Status in Supply Chain Management</span></span> | <span data-ttu-id="8dfc4-138">สถานะเอกสารใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-138">Document Status in Supply Chain Management</span></span> |
 |---------------------|-----------------------------------|--------------------------------------------|
-| <span data-ttu-id="c8cdd-139">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-139">Active</span></span>              | <span data-ttu-id="c8cdd-140">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-140">Open Order</span></span>                        | <span data-ttu-id="c8cdd-141">None</span><span class="sxs-lookup"><span data-stu-id="c8cdd-141">None</span></span>                                       |
-| <span data-ttu-id="c8cdd-142">ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-142">Confirmed</span></span>           | <span data-ttu-id="c8cdd-143">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-143">Open Order</span></span>                        | <span data-ttu-id="c8cdd-144">ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-144">Confirmation</span></span>                               |
-| <span data-ttu-id="c8cdd-145">เบิกสินค้าแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-145">Picked</span></span>              | <span data-ttu-id="c8cdd-146">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-146">Open Order</span></span>                        | <span data-ttu-id="c8cdd-147">รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="c8cdd-147">Picking List</span></span>                               |
-| <span data-ttu-id="c8cdd-148">จัดส่งสินค้าแล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-148">Partially Delivered</span></span> | <span data-ttu-id="c8cdd-149">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-149">Open Order</span></span>                        | <span data-ttu-id="c8cdd-150">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-150">Packing Slip</span></span>                               |
-| <span data-ttu-id="c8cdd-151">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-151">Delivered</span></span>           | <span data-ttu-id="c8cdd-152">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-152">Delivered</span></span>                         | <span data-ttu-id="c8cdd-153">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-153">Packing Slip</span></span>                               |
-| <span data-ttu-id="c8cdd-154">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-154">Partially Invoiced</span></span>  | <span data-ttu-id="c8cdd-155">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-155">Delivered</span></span>                         | <span data-ttu-id="c8cdd-156">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-156">Invoice</span></span>                                    |
-| <span data-ttu-id="c8cdd-157">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-157">Invoiced</span></span>            | <span data-ttu-id="c8cdd-158">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-158">Invoiced</span></span>                          | <span data-ttu-id="c8cdd-159">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-159">Invoice</span></span>                                    |
-| <span data-ttu-id="c8cdd-160">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-160">Cancelled</span></span>           | <span data-ttu-id="c8cdd-161">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-161">Cancelled</span></span>                         | <span data-ttu-id="c8cdd-162">ใช้ไม่ได้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-162">Not applicable</span></span>                             |
+| <span data-ttu-id="8dfc4-139">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-139">Active</span></span>              | <span data-ttu-id="8dfc4-140">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-140">Open Order</span></span>                        | <span data-ttu-id="8dfc4-141">None</span><span class="sxs-lookup"><span data-stu-id="8dfc4-141">None</span></span>                                       |
+| <span data-ttu-id="8dfc4-142">ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-142">Confirmed</span></span>           | <span data-ttu-id="8dfc4-143">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-143">Open Order</span></span>                        | <span data-ttu-id="8dfc4-144">ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-144">Confirmation</span></span>                               |
+| <span data-ttu-id="8dfc4-145">เบิกสินค้าแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-145">Picked</span></span>              | <span data-ttu-id="8dfc4-146">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-146">Open Order</span></span>                        | <span data-ttu-id="8dfc4-147">รายการเบิกสินค้า</span><span class="sxs-lookup"><span data-stu-id="8dfc4-147">Picking List</span></span>                               |
+| <span data-ttu-id="8dfc4-148">จัดส่งสินค้าแล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-148">Partially Delivered</span></span> | <span data-ttu-id="8dfc4-149">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-149">Open Order</span></span>                        | <span data-ttu-id="8dfc4-150">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-150">Packing Slip</span></span>                               |
+| <span data-ttu-id="8dfc4-151">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-151">Delivered</span></span>           | <span data-ttu-id="8dfc4-152">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-152">Delivered</span></span>                         | <span data-ttu-id="8dfc4-153">บันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-153">Packing Slip</span></span>                               |
+| <span data-ttu-id="8dfc4-154">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-154">Partially Invoiced</span></span>  | <span data-ttu-id="8dfc4-155">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-155">Delivered</span></span>                         | <span data-ttu-id="8dfc4-156">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-156">Invoice</span></span>                                    |
+| <span data-ttu-id="8dfc4-157">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-157">Invoiced</span></span>            | <span data-ttu-id="8dfc4-158">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-158">Invoiced</span></span>                          | <span data-ttu-id="8dfc4-159">ใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-159">Invoice</span></span>                                    |
+| <span data-ttu-id="8dfc4-160">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-160">Cancelled</span></span>           | <span data-ttu-id="8dfc4-161">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-161">Cancelled</span></span>                         | <span data-ttu-id="8dfc4-162">ใช้ไม่ได้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-162">Not applicable</span></span>                             |
 
-<span data-ttu-id="c8cdd-163">ตารางต่อไปนี้แสดงการแม็ป **สถานะการประมวลผล** ระหว่างการขายและ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-163">The following table shows the mapping of **Processing Status** between Sales and Supply Chain Management.</span></span>
+<span data-ttu-id="8dfc4-163">ตารางต่อไปนี้แสดงการแม็ป **สถานะการประมวลผล** ระหว่างการขายและ Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-163">The following table shows the mapping of **Processing Status** between Sales and Supply Chain Management.</span></span>
 
-| <span data-ttu-id="c8cdd-164">สถานะการประมวลผล</span><span class="sxs-lookup"><span data-stu-id="c8cdd-164">Processing Status</span></span>   | <span data-ttu-id="c8cdd-165">สถานะในการขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-165">Status in Sales</span></span> | <span data-ttu-id="c8cdd-166">สถานะใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="c8cdd-166">Status in Supply Chain Management</span></span> |
+| <span data-ttu-id="8dfc4-164">สถานะการประมวลผล</span><span class="sxs-lookup"><span data-stu-id="8dfc4-164">Processing Status</span></span>   | <span data-ttu-id="8dfc4-165">สถานะในการขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-165">Status in Sales</span></span> | <span data-ttu-id="8dfc4-166">สถานะใน Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="8dfc4-166">Status in Supply Chain Management</span></span> |
 |---------------------|-----------------|-----------------------------------|
-| <span data-ttu-id="c8cdd-167">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-167">Active</span></span>              | <span data-ttu-id="c8cdd-168">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-168">Active</span></span>          | <span data-ttu-id="c8cdd-169">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-169">Open Order</span></span>                        |
-| <span data-ttu-id="c8cdd-170">ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-170">Confirmed</span></span>           | <span data-ttu-id="c8cdd-171">ส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-171">Submitted</span></span>       | <span data-ttu-id="c8cdd-172">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-172">Open Order</span></span>                        |
-| <span data-ttu-id="c8cdd-173">เบิกสินค้าแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-173">Picked</span></span>              | <span data-ttu-id="c8cdd-174">ส่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-174">Submitted</span></span>       | <span data-ttu-id="c8cdd-175">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-175">Open Order</span></span>                        |
-| <span data-ttu-id="c8cdd-176">จัดส่งสินค้าแล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-176">Partially Delivered</span></span> | <span data-ttu-id="c8cdd-177">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-177">Active</span></span>          | <span data-ttu-id="c8cdd-178">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-178">Open Order</span></span>                        |
-| <span data-ttu-id="c8cdd-179">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-179">Partially Invoiced</span></span>  | <span data-ttu-id="c8cdd-180">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="c8cdd-180">Active</span></span>          | <span data-ttu-id="c8cdd-181">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-181">Open Order</span></span>                        |
-| <span data-ttu-id="c8cdd-182">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="c8cdd-182">Partially Invoiced</span></span>  | <span data-ttu-id="c8cdd-183">เติมเต็มแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-183">Fulfilled</span></span>       | <span data-ttu-id="c8cdd-184">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-184">Delivered</span></span>                         |
-| <span data-ttu-id="c8cdd-185">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-185">Invoiced</span></span>            | <span data-ttu-id="c8cdd-186">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-186">Invoiced</span></span>        | <span data-ttu-id="c8cdd-187">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-187">Invoiced</span></span>                          |
-| <span data-ttu-id="c8cdd-188">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-188">Cancelled</span></span>           | <span data-ttu-id="c8cdd-189">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-189">Cancelled</span></span>       | <span data-ttu-id="c8cdd-190">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="c8cdd-190">Cancelled</span></span>                         |
+| <span data-ttu-id="8dfc4-167">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-167">Active</span></span>              | <span data-ttu-id="8dfc4-168">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-168">Active</span></span>          | <span data-ttu-id="8dfc4-169">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-169">Open Order</span></span>                        |
+| <span data-ttu-id="8dfc4-170">ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-170">Confirmed</span></span>           | <span data-ttu-id="8dfc4-171">ส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-171">Submitted</span></span>       | <span data-ttu-id="8dfc4-172">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-172">Open Order</span></span>                        |
+| <span data-ttu-id="8dfc4-173">เบิกสินค้าแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-173">Picked</span></span>              | <span data-ttu-id="8dfc4-174">ส่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-174">Submitted</span></span>       | <span data-ttu-id="8dfc4-175">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-175">Open Order</span></span>                        |
+| <span data-ttu-id="8dfc4-176">จัดส่งสินค้าแล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-176">Partially Delivered</span></span> | <span data-ttu-id="8dfc4-177">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-177">Active</span></span>          | <span data-ttu-id="8dfc4-178">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-178">Open Order</span></span>                        |
+| <span data-ttu-id="8dfc4-179">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-179">Partially Invoiced</span></span>  | <span data-ttu-id="8dfc4-180">ที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="8dfc4-180">Active</span></span>          | <span data-ttu-id="8dfc4-181">เปิดใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-181">Open Order</span></span>                        |
+| <span data-ttu-id="8dfc4-182">ออกใบแจ้งหนี้แล้วบางส่วน</span><span class="sxs-lookup"><span data-stu-id="8dfc4-182">Partially Invoiced</span></span>  | <span data-ttu-id="8dfc4-183">เติมเต็มแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-183">Fulfilled</span></span>       | <span data-ttu-id="8dfc4-184">จัดส่งแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-184">Delivered</span></span>                         |
+| <span data-ttu-id="8dfc4-185">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-185">Invoiced</span></span>            | <span data-ttu-id="8dfc4-186">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-186">Invoiced</span></span>        | <span data-ttu-id="8dfc4-187">ออกใบแจ้งหนี้แล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-187">Invoiced</span></span>                          |
+| <span data-ttu-id="8dfc4-188">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-188">Cancelled</span></span>           | <span data-ttu-id="8dfc4-189">ยกเลิกแล้ว</span><span class="sxs-lookup"><span data-stu-id="8dfc4-189">Cancelled</span></span>       | <span data-ttu-id="8dfc4-190">ถูกยกเลิก</span><span class="sxs-lookup"><span data-stu-id="8dfc4-190">Cancelled</span></span>                         |
 
-## <a name="setup"></a><span data-ttu-id="c8cdd-191">การตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="c8cdd-191">Setup</span></span>
+## <a name="setup"></a><span data-ttu-id="8dfc4-191">ตั้งค่า</span><span class="sxs-lookup"><span data-stu-id="8dfc4-191">Setup</span></span>
 
-<span data-ttu-id="c8cdd-192">เมื่อต้องการตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย คุณต้องเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** **isIntegrationUser**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-192">To set up the mapping for the sales order status fields, you must enable the **IsSOPIntegrationEnabled** and **isIntegrationUser** attributes.</span></span>
+<span data-ttu-id="8dfc4-192">เมื่อต้องการตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย คุณต้องเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** **isIntegrationUser**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-192">To set up the mapping for the sales order status columns, you must enable the **IsSOPIntegrationEnabled** and **isIntegrationUser** attributes.</span></span>
 
-<span data-ttu-id="c8cdd-193">เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-193">To enable the **IsSOPIntegrationEnabled** attribute, follow these steps.</span></span>
+<span data-ttu-id="8dfc4-193">เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-193">To enable the **IsSOPIntegrationEnabled** attribute, follow these steps.</span></span>
 
-1. <span data-ttu-id="c8cdd-194">ในเบราเซอร์ ไปที่ `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`</span><span class="sxs-lookup"><span data-stu-id="c8cdd-194">In a browser, go to `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`.</span></span> <span data-ttu-id="c8cdd-195">แทนที่ **\<test-name\>** ด้วยลิงก์ของบริษัทของคุณไปยังการขาย</span><span class="sxs-lookup"><span data-stu-id="c8cdd-195">Replace **\<test-name\>** with your company's link to Sales.</span></span>
-2. <span data-ttu-id="c8cdd-196">บนหน้าที่เปิดอยู่ ให้ค้นหา **organizationid** และจดบันทึกค่า</span><span class="sxs-lookup"><span data-stu-id="c8cdd-196">On the page that is opened, find **organizationid**, and make a note of the value.</span></span>
+1. <span data-ttu-id="8dfc4-194">ในเบราเซอร์ ไปที่ `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`</span><span class="sxs-lookup"><span data-stu-id="8dfc4-194">In a browser, go to `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`.</span></span> <span data-ttu-id="8dfc4-195">แทนที่ **\<test-name\>** ด้วยลิงก์ของบริษัทของคุณไปยังการขาย</span><span class="sxs-lookup"><span data-stu-id="8dfc4-195">Replace **\<test-name\>** with your company's link to Sales.</span></span>
+2. <span data-ttu-id="8dfc4-196">บนหน้าที่เปิดอยู่ ให้ค้นหา **organizationid** และจดบันทึกค่า</span><span class="sxs-lookup"><span data-stu-id="8dfc4-196">On the page that is opened, find **organizationid**, and make a note of the value.</span></span>
 
     ![การค้นหา organizationid](media/sales-map-orgid.png)
 
-3. <span data-ttu-id="c8cdd-198">ในการขาย ให้เปิดคอนโซลของเบราว์เซอร์แล้วรันสคริปต์ต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-198">In Sales, open the browser console, and run following script.</span></span> <span data-ttu-id="c8cdd-199">ใช้ค่า **organizationid** จากขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="c8cdd-199">Use the **organizationid** value from step 2.</span></span>
+3. <span data-ttu-id="8dfc4-198">ในการขาย ให้เปิดคอนโซลของเบราว์เซอร์แล้วรันสคริปต์ต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-198">In Sales, open the browser console, and run following script.</span></span> <span data-ttu-id="8dfc4-199">ใช้ค่า **organizationid** จากขั้นตอนที่ 2</span><span class="sxs-lookup"><span data-stu-id="8dfc4-199">Use the **organizationid** value from step 2.</span></span>
 
     ```javascript
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
     ![รหัส JavaScript ในคอนโซลของเบราว์เซอร์](media/sales-map-script.png)
 
-4. <span data-ttu-id="c8cdd-201">ตรวจสอบว่ามีการตั้งค่า **IsSOPIntegrationEnabled** เป็น **จริง**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-201">Verify that **IsSOPIntegrationEnabled** is set to **true**.</span></span> <span data-ttu-id="c8cdd-202">ใช้ URL จากขั้นตอนที่ 1 เพื่อตรวจสอบค่า</span><span class="sxs-lookup"><span data-stu-id="c8cdd-202">Use the URL from step 1 to check the value.</span></span>
+4. <span data-ttu-id="8dfc4-201">ตรวจสอบว่ามีการตั้งค่า **IsSOPIntegrationEnabled** เป็น **จริง**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-201">Verify that **IsSOPIntegrationEnabled** is set to **true**.</span></span> <span data-ttu-id="8dfc4-202">ใช้ URL จากขั้นตอนที่ 1 เพื่อตรวจสอบค่า</span><span class="sxs-lookup"><span data-stu-id="8dfc4-202">Use the URL from step 1 to check the value.</span></span>
 
     ![ตั้งค่า IsSOPIntegrationEnabled เป็นจริง](media/sales-map-integration-enabled.png)
 
-<span data-ttu-id="c8cdd-204">เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **isIntegrationUser** ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c8cdd-204">To enable the **isIntegrationUser** attribute, follow these steps.</span></span>
+<span data-ttu-id="8dfc4-204">เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **isIntegrationUser** ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="8dfc4-204">To enable the **isIntegrationUser** attribute, follow these steps.</span></span>
 
-1. <span data-ttu-id="c8cdd-205">ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **เอนทิตีผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-205">In Sales, go to **Setting \> Customization \> Customize the System**, select **User entity**, and then open **Form \> User**.</span></span>
+1. <span data-ttu-id="8dfc4-205">ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **ตารางผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-205">In Sales, go to **Setting \> Customization \> Customize the System**, select **User table**, and then open **Form \> User**.</span></span>
 
     ![การเปิดแบบฟอร์มผู้ใช้](media/sales-map-user.png)
 
-2. <span data-ttu-id="c8cdd-207">ในฟิลด์ Explorer ให้ค้นหา **โหมดผู้ใช้การรวม** และคลิกสองครั้งเพื่อเพิ่มในแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="c8cdd-207">In Field Explorer, find **Integration user mode**, and double-click it to add it to the form.</span></span> <span data-ttu-id="c8cdd-208">บันทึกการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="c8cdd-208">Save your change.</span></span>
+2. <span data-ttu-id="8dfc4-207">ในฟิลด์ Explorer ให้ค้นหา **โหมดผู้ใช้การรวม** และคลิกสองครั้งเพื่อเพิ่มในแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="8dfc4-207">In Field Explorer, find **Integration user mode**, and double-click it to add it to the form.</span></span> <span data-ttu-id="8dfc4-208">บันทึกการเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="8dfc4-208">Save your change.</span></span>
 
-    ![กำลังเพิ่มฟิลด์โหมดผู้ใช้ในการรวมกับแบบฟอร์ม](media/sales-map-field-explorer.png)
+    ![กำลังเพิ่มคอลัมน์โหมดผู้ใช้ในการรวมกับแบบฟอร์ม](media/sales-map-field-explorer.png)
 
-3. <span data-ttu-id="c8cdd-210">ในการขาย ให้ไปที่ **การตั้งค่า \> ความปลอดภัย \> ผู้ใช้** และเปลี่ยนมุมมองจาก **ผู้ใช้ที่เปิดใช้งาน** เป็น **ผู้ใช้แอปพลิเคชัน**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-210">In Sales, go to **Setting \> Security \> Users**, and change the view from **Enabled Users** to **Application Users**.</span></span>
+3. <span data-ttu-id="8dfc4-210">ในการขาย ให้ไปที่ **การตั้งค่า \> ความปลอดภัย \> ผู้ใช้** และเปลี่ยนมุมมองจาก **ผู้ใช้ที่เปิดใช้งาน** เป็น **ผู้ใช้แอปพลิเคชัน**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-210">In Sales, go to **Setting \> Security \> Users**, and change the view from **Enabled Users** to **Application Users**.</span></span>
 
     ![การเปลี่ยนมุมมองจากผู้ใช้ที่เปิดใช้งานเป็นผู้ใช้แอปพลิเคชัน](media/sales-map-enabled-users.png)
 
-4. <span data-ttu-id="c8cdd-212">เลือกรายการสองรายการสำหรับ **DualWrite IntegrationUser**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-212">Select the two entries for **DualWrite IntegrationUser**.</span></span>
+4. <span data-ttu-id="8dfc4-212">เลือกรายการสองรายการสำหรับ **DualWrite IntegrationUser**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-212">Select the two entries for **DualWrite IntegrationUser**.</span></span>
 
     ![รายการของผู้ใช้แอปพลิเคชัน](media/sales-map-user-mode.png)
 
-5. <span data-ttu-id="c8cdd-214">เปลี่ยนค่าของฟิลด์ **โหมดผู้ใช้การรวม** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="c8cdd-214">Change the value of the **Integration user mode** field to **Yes**.</span></span>
+5. <span data-ttu-id="8dfc4-214">เปลี่ยนค่าของคอลัมน์ **โหมดผู้ใช้การรวม** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="8dfc4-214">Change the value of the **Integration user mode** column to **Yes**.</span></span>
 
-    ![การเปลี่ยนค่าของฟิลด์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
+    ![การเปลี่ยนค่าของคอลัมน์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
 
-<span data-ttu-id="c8cdd-216">ขณะนี้มีการแม็ปใบสั่งขายของคุณ</span><span class="sxs-lookup"><span data-stu-id="c8cdd-216">Your sales orders are now mapped.</span></span>
+<span data-ttu-id="8dfc4-216">ขณะนี้มีการแม็ปใบสั่งขายของคุณ</span><span class="sxs-lookup"><span data-stu-id="8dfc4-216">Your sales orders are now mapped.</span></span>
