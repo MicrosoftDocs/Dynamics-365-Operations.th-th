@@ -11,65 +11,64 @@ ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5d9279e1076796bb455429e5ff004c89ec5829e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416127"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965164"
 ---
-# <a name="create-a-variant-group"></a><span data-ttu-id="e6c13-103">การสร้างกลุ่มตัวแปร</span><span class="sxs-lookup"><span data-stu-id="e6c13-103">Create a variant group</span></span>
+# <a name="create-a-variant-group"></a><span data-ttu-id="84e5a-103">การสร้างกลุ่มตัวแปร</span><span class="sxs-lookup"><span data-stu-id="84e5a-103">Create a variant group</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="e6c13-104">หัวข้อนี้อธิบายวิธีสร้างกลุ่มตัวแปรขนาด ลักษณะ หรือสีของผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="e6c13-104">This topic describes how to create a size, style, or color variant group for a product in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="84e5a-104">หัวข้อนี้อธิบายวิธีสร้างกลุ่มตัวแปรขนาด ลักษณะ หรือสีของผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="84e5a-104">This topic describes how to create a size, style, or color variant group for a product in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="e6c13-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="e6c13-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="84e5a-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="84e5a-105">Overview</span></span>
 
-<span data-ttu-id="e6c13-106">Dynamics 365 Commerce รองรับตัวแปรต่าง ๆ สำหรับผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e6c13-106">Dynamics 365 Commerce supports multiple variants for products.</span></span> <span data-ttu-id="e6c13-107">เหมาะที่จะตั้งค่ากลุ่มตัวแปรสำหรับประเภทผลิตภัณฑ์ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="e6c13-107">It is ideal to set up variant groups for different product categories.</span></span> <span data-ttu-id="e6c13-108">ตัวอย่างเช่น สามารถสร้างกลุ่มขนาดสำหรับเสื้อยืดที่มีขนาดเล็กพิเศษ เล็ก กลาง ใหญ่ และใหญ่พิเศษ หรือสามารถสร้างกลุ่มสีเพื่อรวมสีที่มีทั้งหมดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e6c13-108">For example, a size group can be created for t-shirts with sizes extra small, small, medium, large, and extra large, or a color group could be created to include all available colors of a product.</span></span> <span data-ttu-id="e6c13-109">ควรเพิ่มกลุ่มตัวแปรก่อนที่จะเพิ่มผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e6c13-109">Variant groups should be added before products are added.</span></span>
+<span data-ttu-id="84e5a-106">Dynamics 365 Commerce รองรับตัวแปรต่าง ๆ สำหรับผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84e5a-106">Dynamics 365 Commerce supports multiple variants for products.</span></span> <span data-ttu-id="84e5a-107">เหมาะที่จะตั้งค่ากลุ่มตัวแปรสำหรับประเภทผลิตภัณฑ์ที่แตกต่างกัน</span><span class="sxs-lookup"><span data-stu-id="84e5a-107">It is ideal to set up variant groups for different product categories.</span></span> <span data-ttu-id="84e5a-108">ตัวอย่างเช่น สามารถสร้างกลุ่มขนาดสำหรับเสื้อยืดที่มีขนาดเล็กพิเศษ เล็ก กลาง ใหญ่ และใหญ่พิเศษ หรือสามารถสร้างกลุ่มสีเพื่อรวมสีที่มีทั้งหมดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84e5a-108">For example, a size group can be created for t-shirts with sizes extra small, small, medium, large, and extra large, or a color group could be created to include all available colors of a product.</span></span> <span data-ttu-id="84e5a-109">ควรเพิ่มกลุ่มตัวแปรก่อนที่จะเพิ่มผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84e5a-109">Variant groups should be added before products are added.</span></span>
 
-<span data-ttu-id="e6c13-110">ในหัวข้อนี้ กลุ่มขนาดจะถูกสร้างขึ้นและกำหนดค่า</span><span class="sxs-lookup"><span data-stu-id="e6c13-110">In this topic, a size group will be created and configured.</span></span> <span data-ttu-id="e6c13-111">กระบวนการที่คล้ายกันสามารถใช้สำหรับการเพิ่มและกำหนดค่ากลุ่มลักษณะและกลุ่มสี</span><span class="sxs-lookup"><span data-stu-id="e6c13-111">Similar procedures can be used for adding and configuring style groups and color groups.</span></span>
+<span data-ttu-id="84e5a-110">ในหัวข้อนี้ กลุ่มขนาดจะถูกสร้างขึ้นและกำหนดค่า</span><span class="sxs-lookup"><span data-stu-id="84e5a-110">In this topic, a size group will be created and configured.</span></span> <span data-ttu-id="84e5a-111">กระบวนการที่คล้ายกันสามารถใช้สำหรับการเพิ่มและกำหนดค่ากลุ่มลักษณะและกลุ่มสี</span><span class="sxs-lookup"><span data-stu-id="84e5a-111">Similar procedures can be used for adding and configuring style groups and color groups.</span></span>
 
-## <a name="create-a-size-group"></a><span data-ttu-id="e6c13-112">การสร้างกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="e6c13-112">Create a size group</span></span>
+## <a name="create-a-size-group"></a><span data-ttu-id="84e5a-112">การสร้างกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="84e5a-112">Create a size group</span></span>
 
-<span data-ttu-id="e6c13-113">ทำตามขั้นตอนเหล่านี้เพื่อสร้างกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="e6c13-113">To create a size group, follow these steps.</span></span>
+<span data-ttu-id="84e5a-113">ทำตามขั้นตอนเหล่านี้เพื่อสร้างกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="84e5a-113">To create a size group, follow these steps.</span></span>
  
-1. <span data-ttu-id="e6c13-114">ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> กลุ่มตัวแปร \> กลุ่มขนาด**</span><span class="sxs-lookup"><span data-stu-id="e6c13-114">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Variant groups \> Size groups**.</span></span>
-1. <span data-ttu-id="e6c13-115">บนหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="e6c13-115">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="e6c13-116">ในกล่อง **กลุ่มขนาด** ป้อนชื่อสำหรับกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="e6c13-116">In the **Size group** box, enter a name for the size group.</span></span>
-1. <span data-ttu-id="e6c13-117">ในกล่อง **คำอธิบาย** ป้อนคำอธิบายที่เหมาะสมลงไป</span><span class="sxs-lookup"><span data-stu-id="e6c13-117">In the **Description** box, enter an appropriate description.</span></span>
-1. <span data-ttu-id="e6c13-118">บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="e6c13-118">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="84e5a-114">ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> กลุ่มตัวแปร \> กลุ่มขนาด**</span><span class="sxs-lookup"><span data-stu-id="84e5a-114">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Variant groups \> Size groups**.</span></span>
+1. <span data-ttu-id="84e5a-115">บนหน้าต่างการดำเนินการ เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="84e5a-115">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="84e5a-116">ในกล่อง **กลุ่มขนาด** ป้อนชื่อสำหรับกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="84e5a-116">In the **Size group** box, enter a name for the size group.</span></span>
+1. <span data-ttu-id="84e5a-117">ในกล่อง **คำอธิบาย** ป้อนคำอธิบายที่เหมาะสมลงไป</span><span class="sxs-lookup"><span data-stu-id="84e5a-117">In the **Description** box, enter an appropriate description.</span></span>
+1. <span data-ttu-id="84e5a-118">บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="84e5a-118">On the action pane, select **Save**.</span></span>
 
-## <a name="add-attributes-to-the-size-group"></a><span data-ttu-id="e6c13-119">เพิ่มแอตทริบิวต์ในกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="e6c13-119">Add attributes to the size group</span></span>
+## <a name="add-attributes-to-the-size-group"></a><span data-ttu-id="84e5a-119">เพิ่มแอตทริบิวต์ในกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="84e5a-119">Add attributes to the size group</span></span>
 
-<span data-ttu-id="e6c13-120">เมื่อต้องการเพิ่มแอตทริบิวต์ไปยังกลุ่มขนาด ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="e6c13-120">To add attributes to a size group, follow these steps.</span></span>
+<span data-ttu-id="84e5a-120">เมื่อต้องการเพิ่มแอตทริบิวต์ไปยังกลุ่มขนาด ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="84e5a-120">To add attributes to a size group, follow these steps.</span></span>
 
-1. <span data-ttu-id="e6c13-121">ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> กลุ่มตัวแปร \> กลุ่มขนาด**</span><span class="sxs-lookup"><span data-stu-id="e6c13-121">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Variant groups \> Size groups**</span></span>
-1. <span data-ttu-id="e6c13-122">ในบานหน้าต่างนำทาง ให้เลือกกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="e6c13-122">In the navigation pane, select a size group.</span></span>
-1. <span data-ttu-id="e6c13-123">ใต้ **บรรทัดกลุ่มขนาด** เลือก **เพิ่ม**</span><span class="sxs-lookup"><span data-stu-id="e6c13-123">Under **Size group lines**, select **Add**.</span></span>
-1. <span data-ttu-id="e6c13-124">ในกล่อง **ขนาด** ป้อนสตริงที่แทนขนาด (ตัวอย่างเช่น "XL")</span><span class="sxs-lookup"><span data-stu-id="e6c13-124">In the **Size** box, enter a string representing the size (for example, "XL").</span></span>
-1. <span data-ttu-id="e6c13-125">ในกล่อง **ชื่อขนาด** ป้อนชื่อสำหรับขนาด (ตัวอย่างเช่น "ใหญ่พิเศษ")</span><span class="sxs-lookup"><span data-stu-id="e6c13-125">In the **Size name** box, enter a name for the size (for example, "Extra Large").</span></span>
-1. <span data-ttu-id="e6c13-126">ในกล่อง **การเติมเต็มน้ำหนัก** ให้ป้อนตัวเลขที่แสดงถึงน้ำหนักการเติมเต็ม</span><span class="sxs-lookup"><span data-stu-id="e6c13-126">In the **Replenishment weight** box, enter a number representing the replenishment weight.</span></span>
-1. <span data-ttu-id="e6c13-127">ในกล่อง **หมายเลขในบาร์โค้ด** ให้ป้อนตัวเลขที่แสดงถึงบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="e6c13-127">In the **Number in bar code** box, enter a number representing the bar code.</span></span>
-1. <span data-ttu-id="e6c13-128">ในกล่อง **ลำดับการแสดงผล** ให้ป้อนหมายเลขที่แทนลำดับการแสดงผล</span><span class="sxs-lookup"><span data-stu-id="e6c13-128">In the **Display order** box, enter a number representing the display order.</span></span>
-1. <span data-ttu-id="e6c13-129">เมื่อเพิ่มขนาดเสร็จแล้ว ให้เลือก **บันทึก** บนบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="e6c13-129">When finished adding sizes, select **Save** on the action pane.</span></span>
+1. <span data-ttu-id="84e5a-121">ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> กลุ่มตัวแปร \> กลุ่มขนาด**</span><span class="sxs-lookup"><span data-stu-id="84e5a-121">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Variant groups \> Size groups**</span></span>
+1. <span data-ttu-id="84e5a-122">ในบานหน้าต่างนำทาง ให้เลือกกลุ่มขนาด</span><span class="sxs-lookup"><span data-stu-id="84e5a-122">In the navigation pane, select a size group.</span></span>
+1. <span data-ttu-id="84e5a-123">ใต้ **บรรทัดกลุ่มขนาด** เลือก **เพิ่ม**</span><span class="sxs-lookup"><span data-stu-id="84e5a-123">Under **Size group lines**, select **Add**.</span></span>
+1. <span data-ttu-id="84e5a-124">ในกล่อง **ขนาด** ป้อนสตริงที่แทนขนาด (ตัวอย่างเช่น "XL")</span><span class="sxs-lookup"><span data-stu-id="84e5a-124">In the **Size** box, enter a string representing the size (for example, "XL").</span></span>
+1. <span data-ttu-id="84e5a-125">ในกล่อง **ชื่อขนาด** ป้อนชื่อสำหรับขนาด (ตัวอย่างเช่น "ใหญ่พิเศษ")</span><span class="sxs-lookup"><span data-stu-id="84e5a-125">In the **Size name** box, enter a name for the size (for example, "Extra Large").</span></span>
+1. <span data-ttu-id="84e5a-126">ในกล่อง **การเติมเต็มน้ำหนัก** ให้ป้อนตัวเลขที่แสดงถึงน้ำหนักการเติมเต็ม</span><span class="sxs-lookup"><span data-stu-id="84e5a-126">In the **Replenishment weight** box, enter a number representing the replenishment weight.</span></span>
+1. <span data-ttu-id="84e5a-127">ในกล่อง **หมายเลขในบาร์โค้ด** ให้ป้อนตัวเลขที่แสดงถึงบาร์โค้ด</span><span class="sxs-lookup"><span data-stu-id="84e5a-127">In the **Number in bar code** box, enter a number representing the bar code.</span></span>
+1. <span data-ttu-id="84e5a-128">ในกล่อง **ลำดับการแสดงผล** ให้ป้อนหมายเลขที่แทนลำดับการแสดงผล</span><span class="sxs-lookup"><span data-stu-id="84e5a-128">In the **Display order** box, enter a number representing the display order.</span></span>
+1. <span data-ttu-id="84e5a-129">เมื่อเพิ่มขนาดเสร็จแล้ว ให้เลือก **บันทึก** บนบานหน้าต่างการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="84e5a-129">When finished adding sizes, select **Save** on the action pane.</span></span>
 
-<span data-ttu-id="e6c13-130">ภาพต่อไปนี้แสดงตัวอย่างของกลุ่มขนาดสำหรับ "ขนาดเสื้อเชิ้ตลำลอง"</span><span class="sxs-lookup"><span data-stu-id="e6c13-130">The following image shows an example of a size group for "casual shirt sizes".</span></span>
+<span data-ttu-id="84e5a-130">ภาพต่อไปนี้แสดงตัวอย่างของกลุ่มขนาดสำหรับ "ขนาดเสื้อเชิ้ตลำลอง"</span><span class="sxs-lookup"><span data-stu-id="84e5a-130">The following image shows an example of a size group for "casual shirt sizes".</span></span>
 
 ![การสร้างกลุ่มขนาด](media/create-variant-group.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="e6c13-132">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e6c13-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="84e5a-132">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="84e5a-132">Additional resources</span></span>
 
-[<span data-ttu-id="e6c13-133">ภาพรวมของข้อมูลผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e6c13-133">Product information overview</span></span>](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="84e5a-133">ภาพรวมของข้อมูลผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84e5a-133">Product information overview</span></span>](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
 
-[<span data-ttu-id="e6c13-134">ตั้งค่าผลิตภัณฑ์ขายปลีก</span><span class="sxs-lookup"><span data-stu-id="e6c13-134">Set up retail products</span></span>](set-up-retail-products.md)
+[<span data-ttu-id="84e5a-134">ตั้งค่าผลิตภัณฑ์ขายปลีก</span><span class="sxs-lookup"><span data-stu-id="84e5a-134">Set up retail products</span></span>](set-up-retail-products.md)
 
-[<span data-ttu-id="e6c13-135">มิติของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="e6c13-135">Product dimensions</span></span>](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="84e5a-135">มิติของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="84e5a-135">Product dimensions</span></span>](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
