@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9162bb9b56432dbeb4638e0598dcbf436ab0b1b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416248"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989512"
 ---
 # <a name="retail-statements"></a>ใบแจ้งยอดการขายปลีก
 
@@ -88,6 +87,3 @@ ms.locfileid: "4416248"
 - การขายซึ่งลูกค้าถูกเพิ่มไปยังธุรกรรมใน POS สร้างใบสั่งการขายที่แยกต่างหากและใบแจ้งหนี้ รายการหนึ่งสำหรับลูกค้าที่ไม่ซ้ำกันแต่ละราย
 
 สมุดรายวันการชำระเงินจะถูกสร้างโดยอัตโนมัติสำหรับการชำระเงินในใบแจ้งยอด และมีการอัพเดตสินค้าคงคลังสำหรับร้านค้า POS 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

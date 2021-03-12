@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448463"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988815"
 ---
 # <a name="sales-tax-overview"></a>ภาพรวมของภาษีขาย
 
@@ -97,6 +96,3 @@ ms.locfileid: "4448463"
 ถ้าคุณใช้เช็คลงวันที่ล่วงหน้าเป็นวิธีการชำระเงิน เมื่อมีการสร้างการชำระเงิน บัญชีธนาคารจะไม่ถูกชำระเงิน ในบางประเทศ VAT จะกลายเป็นหนี้สิน ' รับรู้ ' เมื่อการชำระเงินชำระกับธนาคาร ซึ่งหมายความว่าเช็คลงวันที่ล่วงหน้าจะมีการชำระ คุณสามารถเปิดใช้งานได้โดยการเลือก **รับรู้ภาษีแบบมีเงื่อนไขเมื่อออกเช็คลงวันที่ล่วงหน้า** ใน **การจัดการเงินสดและธนาคาร > การตั้งค่า > พารามิเตอร์การจัดการเงินสดและธนาคาร > เช็คลงวันที่ล่วงหน้า**
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าภาษีหัก ณ ที่จ่าย](tasks/set-up-withholding-tax.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

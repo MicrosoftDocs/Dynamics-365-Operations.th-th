@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f235c34d6369c6f0584a7bac1c1be75f3d84c9c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fdf6335bd333569e278ccd9cf3972c0ec57d4e6c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438363"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989679"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
 
@@ -41,6 +40,3 @@ ms.locfileid: "4438363"
 **เตือน** และ **บังคับ**: รายการของชุดงานที่มีวันหมดอายุที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมชุดงานเมื่อผู้ปฏิบัติงานเลือกชุดงาน ถ้าสถานที่มีการควบคุมป้ายทะเบียน รายการของป้ายทะเบียนที่มีชุดงานที่เก่าที่สุดจะแสดงอยู่เหนือการควบคุมป้ายทะเบียน 
 -   **เตือน**: ถ้าผู้ปฏิบัติงานเลือกป้ายทะเบียนหรือชุดงานที่ไม่ได้อยู่ในรายการที่แสดง การควบคุมจะว่างเปล่า และจะมีการแสดงคำเตือนว่าไม่มีชุดงานที่เก่ากว่าที่จะเลือกได้ เมื่อต้องการให้สามารถดำเนินการงานต่อไป ผู้ปฏิบัติงานสามารถเลือกป้ายทะเบียนหรือชุดงานเดิมอีกครั้งได้  
 -   **หน่วยงาน**: ผู้ปฏิบัติงานจะได้รับข้อความว่ามีชุดงานที่เก่ากว่าที่จะเลือกต่อไป
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
