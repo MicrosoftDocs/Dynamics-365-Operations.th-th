@@ -11,66 +11,65 @@ ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ebc070f591b03256b6a9043e88967581394fe07
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982080"
 ---
-# <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="9fe9a-103">สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน</span><span class="sxs-lookup"><span data-stu-id="9fe9a-103">Generate a transfer document for an internal inventory transfer</span></span>
+# <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="426db-103">สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน</span><span class="sxs-lookup"><span data-stu-id="426db-103">Generate a transfer document for an internal inventory transfer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9fe9a-104">กระบวนงานนี้แสดงวิธีการสร้างเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท </span><span class="sxs-lookup"><span data-stu-id="9fe9a-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="9fe9a-105">กระบวนงานนี้จะพร้อมใช้งานสำหรับนิติบุคคลที่มีที่อยู่หลักในลิทัวเนียเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="9fe9a-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="9fe9a-106">กระบวนงานจะถูกสร้างขึ้นโดยใช้ข้อมูลบริษัทสาธิต DEMF ที่มีที่อยู่หลักในลิทัวเนีย </span><span class="sxs-lookup"><span data-stu-id="9fe9a-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="9fe9a-107">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ คุณจะต้องดำเนินกระบวนงาน "ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท" ให้เสร็จสมบูรณ์ก่อน</span><span class="sxs-lookup"><span data-stu-id="9fe9a-107">Before you can complete this procedure, you must complete the "Set up transfer documents for goods movement inside a company" procedure.</span></span> <span data-ttu-id="9fe9a-108">กระบวนงานนี้มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="9fe9a-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="9fe9a-109">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="9fe9a-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="426db-104">กระบวนงานนี้แสดงวิธีการสร้างเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท </span><span class="sxs-lookup"><span data-stu-id="426db-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="426db-105">กระบวนงานนี้จะพร้อมใช้งานสำหรับนิติบุคคลที่มีที่อยู่หลักในลิทัวเนียเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="426db-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="426db-106">กระบวนงานจะถูกสร้างขึ้นโดยใช้ข้อมูลบริษัทสาธิต DEMF ที่มีที่อยู่หลักในลิทัวเนีย </span><span class="sxs-lookup"><span data-stu-id="426db-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="426db-107">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ คุณจะต้องดำเนินกระบวนงาน "ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท" ให้เสร็จสมบูรณ์ก่อน</span><span class="sxs-lookup"><span data-stu-id="426db-107">Before you can complete this procedure, you must complete the "Set up transfer documents for goods movement inside a company" procedure.</span></span> <span data-ttu-id="426db-108">กระบวนงานนี้มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลัง </span><span class="sxs-lookup"><span data-stu-id="426db-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="426db-109">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="426db-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a><span data-ttu-id="9fe9a-110">สร้างใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="9fe9a-110">Create a transfer order</span></span>
-1. <span data-ttu-id="9fe9a-111">ไปที่ การบริหารสินค้าคงคลัง > ใบสั่งขาเข้า > ใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="9fe9a-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
-2. <span data-ttu-id="9fe9a-112">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-112">Click New.</span></span>
-3. <span data-ttu-id="9fe9a-113">ในฟิลด์จากคลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-113">In the From warehouse field, enter or select a value.</span></span>
-4. <span data-ttu-id="9fe9a-114">ในฟิลด์ไปยังคลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-114">In the To warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="9fe9a-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="9fe9a-115">Click Add.</span></span>
-6. <span data-ttu-id="9fe9a-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="9fe9a-116">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="9fe9a-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-117">In the Item number field, enter or select a value.</span></span>
+## <a name="create-a-transfer-order"></a><span data-ttu-id="426db-110">สร้างใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="426db-110">Create a transfer order</span></span>
+1. <span data-ttu-id="426db-111">ไปที่ การบริหารสินค้าคงคลัง > ใบสั่งขาเข้า > ใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="426db-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="426db-112">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="426db-112">Click New.</span></span>
+3. <span data-ttu-id="426db-113">ในฟิลด์จากคลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="426db-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="426db-114">ในฟิลด์ไปยังคลังสินค้า ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="426db-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="426db-115">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="426db-115">Click Add.</span></span>
+6. <span data-ttu-id="426db-116">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="426db-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="426db-117">ในฟิลด์หมายเลขสินค้า ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="426db-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="9fe9a-118">ป้อนรายละเอียดการขนส่งสำหรับใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="9fe9a-118">Enter transportation details for the transfer order</span></span>
-1. <span data-ttu-id="9fe9a-119">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="9fe9a-119">Click Save.</span></span>
-2. <span data-ttu-id="9fe9a-120">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-120">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="9fe9a-121">คลิก รายละเอียดการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-121">Click Transportation details.</span></span>
-4. <span data-ttu-id="9fe9a-122">เลือก ใช่ ในฟิลด์ พิมพ์รายละเอียดการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-122">Select Yes in the Print transportation details field.</span></span>
-5. <span data-ttu-id="9fe9a-123">ในฟิลด์สินค้าที่ออก ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-123">In the Goods issued by field, enter or select a value.</span></span>
-6. <span data-ttu-id="9fe9a-124">ในฟิลด์บรรจุภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-124">In the Package field, type a value.</span></span>
-7. <span data-ttu-id="9fe9a-125">ในฟิลด์ระดับความเสี่ยงของจำนวนงานในศูนย์การผลิต ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-125">In the Risk level of the load field, type a value.</span></span>
-8. <span data-ttu-id="9fe9a-126">ในฟิลด์ด์ผู้ขนส่ง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-126">In the Carrier field, enter or select a value.</span></span>
-9. <span data-ttu-id="9fe9a-127">ในฟิลด์แบบจำลอง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-127">In the Model field, enter or select a value.</span></span>
-10. <span data-ttu-id="9fe9a-128">ในฟิลด์หมายเลขการลงทะเบียน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-128">In the Registration number field, type a value.</span></span>
-11. <span data-ttu-id="9fe9a-129">ในฟิลด์หมายเลขทะเบียนปิดท้าย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-129">In the Trailer registration number field, type a value.</span></span>
-12. <span data-ttu-id="9fe9a-130">ในฟิลด์พนักงานขนส่ง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-130">In the Driver field, enter or select a value.</span></span>
-13. <span data-ttu-id="9fe9a-131">ในฟิลด์ชื่อพนักงานขนส่ง ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-131">In the Driver name field, type a value.</span></span>
-14. <span data-ttu-id="9fe9a-132">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="9fe9a-132">Click Save.</span></span>
-15. <span data-ttu-id="9fe9a-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-133">Close the page.</span></span>
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="426db-118">ป้อนรายละเอียดการขนส่งสำหรับใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="426db-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="426db-119">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="426db-119">Click Save.</span></span>
+2. <span data-ttu-id="426db-120">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="426db-121">คลิก รายละเอียดการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="426db-122">เลือก ใช่ ในฟิลด์ พิมพ์รายละเอียดการขนส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="426db-123">ในฟิลด์สินค้าที่ออก ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="426db-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="426db-124">ในฟิลด์บรรจุภัณฑ์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="426db-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="426db-125">ในฟิลด์ระดับความเสี่ยงของจำนวนงานในศูนย์การผลิต ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="426db-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="426db-126">ในฟิลด์ด์ผู้ขนส่ง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="426db-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="426db-127">ในฟิลด์แบบจำลอง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="426db-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="426db-128">ในฟิลด์หมายเลขการลงทะเบียน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="426db-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="426db-129">ในฟิลด์หมายเลขทะเบียนปิดท้าย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="426db-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="426db-130">ในฟิลด์พนักงานขนส่ง ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="426db-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="426db-131">ในฟิลด์ชื่อพนักงานขนส่ง ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="426db-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="426db-132">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="426db-132">Click Save.</span></span>
+15. <span data-ttu-id="426db-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="426db-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="9fe9a-134">ดูบันทึกการจัดส่งสำหรับใบสั่งโอนย้ายที่ไม่ได้ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="9fe9a-134">View the packing slip for the unposted transfer order</span></span>
-1. <span data-ttu-id="9fe9a-135">คลิกบันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-135">Click Packing slip.</span></span>
-2. <span data-ttu-id="9fe9a-136">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-136">Click OK.</span></span>
-3. <span data-ttu-id="9fe9a-137">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="9fe9a-137">Close the page.</span></span>
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="426db-134">ดูบันทึกการจัดส่งสำหรับใบสั่งโอนย้ายที่ไม่ได้ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="426db-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="426db-135">คลิกบันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="426db-136">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="426db-136">Click OK.</span></span>
+3. <span data-ttu-id="426db-137">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="426db-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="9fe9a-138">ดูบันทึกการจัดส่งสำหรับใบสั่งโอนย้ายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="9fe9a-138">View the packing slip for the posted transfer order</span></span>
-1. <span data-ttu-id="9fe9a-139">ในบานหน้าต่างการดำเนินการ คลิก ใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="9fe9a-139">On the Action Pane, click Transfer order.</span></span>
-2. <span data-ttu-id="9fe9a-140">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-140">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="9fe9a-141">คลิก ใบสั่งโอนย้ายการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-141">Click Ship transfer order.</span></span>
-4. <span data-ttu-id="9fe9a-142">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="9fe9a-142">Click the General tab.</span></span>
-5. <span data-ttu-id="9fe9a-143">ในฟิลด์อัพเดต ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="9fe9a-143">In the Update field, select an option.</span></span>
-6. <span data-ttu-id="9fe9a-144">คลิกแท็บ ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="9fe9a-144">Click the Overview tab.</span></span>
-7. <span data-ttu-id="9fe9a-145">ในฟิลด์ บันทึกการจัดส่ง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-145">In the Packing slip field, type a value.</span></span>
-8. <span data-ttu-id="9fe9a-146">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-146">Click OK.</span></span>
-9. <span data-ttu-id="9fe9a-147">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-147">On the Action Pane, click Ship.</span></span>
-10. <span data-ttu-id="9fe9a-148">คลิกบันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-148">Click Packing slip.</span></span>
-11. <span data-ttu-id="9fe9a-149">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="9fe9a-149">Click OK.</span></span>
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="426db-138">ดูบันทึกการจัดส่งสำหรับใบสั่งโอนย้ายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="426db-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="426db-139">ในบานหน้าต่างการดำเนินการ คลิก ใบสั่งโอนย้าย</span><span class="sxs-lookup"><span data-stu-id="426db-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="426db-140">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="426db-141">คลิก ใบสั่งโอนย้ายการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="426db-142">คลิกแท็บ ทั่วไป</span><span class="sxs-lookup"><span data-stu-id="426db-142">Click the General tab.</span></span>
+5. <span data-ttu-id="426db-143">ในฟิลด์อัพเดต ให้เลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="426db-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="426db-144">คลิกแท็บ ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="426db-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="426db-145">ในฟิลด์ บันทึกการจัดส่ง ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="426db-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="426db-146">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="426db-146">Click OK.</span></span>
+9. <span data-ttu-id="426db-147">ในบานหน้าต่างการดำเนินการ คลิก จัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="426db-148">คลิกบันทึกการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="426db-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="426db-149">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="426db-149">Click OK.</span></span>
 

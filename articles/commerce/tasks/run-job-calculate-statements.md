@@ -11,37 +11,36 @@ ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 973236acca0cb8c0d57171e4bb9d4daaa7faaf38
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 402ddf9a2646b2db0346e01504e8188120f16ae5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416162"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982224"
 ---
-# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="0b224-103">ตั้งค่าคอนฟิก และดำเนินงานเพื่อการคำนวณใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="0b224-103">Configure and run job to calculate statements</span></span>
+# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="a8cb0-103">ตั้งค่าคอนฟิก และดำเนินงานเพื่อการคำนวณใบแจ้งยอด</span><span class="sxs-lookup"><span data-stu-id="a8cb0-103">Configure and run job to calculate statements</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0b224-104">กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกและการรันงานในชุดงานที่เกิดซ้ำ เพื่อสร้างและคำนวณรายงานการเงินสำหรับร้านค้าหรือกลุ่มของร้านค้าที่เลือก </span><span class="sxs-lookup"><span data-stu-id="0b224-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="0b224-105">กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="0b224-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="a8cb0-104">กระบวนการนี้นำไปสู่การตั้งค่าคอนฟิกและการรันงานในชุดงานที่เกิดซ้ำ เพื่อสร้างและคำนวณรายงานการเงินสำหรับร้านค้าหรือกลุ่มของร้านค้าที่เลือก </span><span class="sxs-lookup"><span data-stu-id="a8cb0-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="a8cb0-105">กระบวนงานนี้ใช้บริษัท USRT ในข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="a8cb0-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="0b224-106">ไปยังพื้นที่ทำงานทั้งหมด > การเงินของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="0b224-106">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="0b224-107">คลิกคำนวณใบแจ้งยอด </span><span class="sxs-lookup"><span data-stu-id="0b224-107">Click Calculate statements.</span></span>
-    * <span data-ttu-id="0b224-108">เลือกร้านค้าหรือโหนด ถ้าคุณต้องการสร้างชุดงานสำหรับกลุ่มร้านค้า </span><span class="sxs-lookup"><span data-stu-id="0b224-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="0b224-109">คลิกลูกศรเพื่อเพิ่มสิ่งที่คุณเลือก </span><span class="sxs-lookup"><span data-stu-id="0b224-109">Click the arrow to add your selection.</span></span>  
-3. <span data-ttu-id="0b224-110">คลิกรันในแท็บเบื้องหลัง </span><span class="sxs-lookup"><span data-stu-id="0b224-110">Click the Run in the background tab.</span></span>
-4. <span data-ttu-id="0b224-111">ภายใต้การประมวลผลชุดงาน เลือก 'ใช่' </span><span class="sxs-lookup"><span data-stu-id="0b224-111">Under Batch processing, select 'Yes'.</span></span>
-5. <span data-ttu-id="0b224-112">คลิกการเกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="0b224-112">Click Recurrence.</span></span>
-6. <span data-ttu-id="0b224-113">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่ </span><span class="sxs-lookup"><span data-stu-id="0b224-113">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="0b224-114">ในฟิลด์เวลาเริ่มต้น ให้ป้อนเวลา </span><span class="sxs-lookup"><span data-stu-id="0b224-114">In the Start time field, enter a time.</span></span>
-8. <span data-ttu-id="0b224-115">เลือกตัวเลือก ไม่มีวันที่สิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="0b224-115">Select the No end date option.</span></span>
-9. <span data-ttu-id="0b224-116">ในฟิลด์ PatternUnit ให้ป้อน 'วัน' </span><span class="sxs-lookup"><span data-stu-id="0b224-116">In the PatternUnit field, enter 'Days'.</span></span>
-10. <span data-ttu-id="0b224-117">ในฟิลด์ Per ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="0b224-117">In the Per field, enter a number.</span></span>
-11. <span data-ttu-id="0b224-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="0b224-118">Click OK.</span></span>
-12. <span data-ttu-id="0b224-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="0b224-119">Click OK.</span></span>
+1. <span data-ttu-id="a8cb0-106">ไปยังพื้นที่ทำงานทั้งหมด > การเงินของร้านค้า</span><span class="sxs-lookup"><span data-stu-id="a8cb0-106">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="a8cb0-107">คลิกคำนวณใบแจ้งยอด </span><span class="sxs-lookup"><span data-stu-id="a8cb0-107">Click Calculate statements.</span></span>
+    * <span data-ttu-id="a8cb0-108">เลือกร้านค้าหรือโหนด ถ้าคุณต้องการสร้างชุดงานสำหรับกลุ่มร้านค้า </span><span class="sxs-lookup"><span data-stu-id="a8cb0-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="a8cb0-109">คลิกลูกศรเพื่อเพิ่มสิ่งที่คุณเลือก </span><span class="sxs-lookup"><span data-stu-id="a8cb0-109">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="a8cb0-110">คลิกรันในแท็บเบื้องหลัง </span><span class="sxs-lookup"><span data-stu-id="a8cb0-110">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="a8cb0-111">ภายใต้การประมวลผลชุดงาน เลือก 'ใช่' </span><span class="sxs-lookup"><span data-stu-id="a8cb0-111">Under Batch processing, select 'Yes'.</span></span>
+5. <span data-ttu-id="a8cb0-112">คลิกการเกิดซ้ำ</span><span class="sxs-lookup"><span data-stu-id="a8cb0-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="a8cb0-113">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่ </span><span class="sxs-lookup"><span data-stu-id="a8cb0-113">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="a8cb0-114">ในฟิลด์เวลาเริ่มต้น ให้ป้อนเวลา </span><span class="sxs-lookup"><span data-stu-id="a8cb0-114">In the Start time field, enter a time.</span></span>
+8. <span data-ttu-id="a8cb0-115">เลือกตัวเลือก ไม่มีวันที่สิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="a8cb0-115">Select the No end date option.</span></span>
+9. <span data-ttu-id="a8cb0-116">ในฟิลด์ PatternUnit ให้ป้อน 'วัน' </span><span class="sxs-lookup"><span data-stu-id="a8cb0-116">In the PatternUnit field, enter 'Days'.</span></span>
+10. <span data-ttu-id="a8cb0-117">ในฟิลด์ Per ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="a8cb0-117">In the Per field, enter a number.</span></span>
+11. <span data-ttu-id="a8cb0-118">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a8cb0-118">Click OK.</span></span>
+12. <span data-ttu-id="a8cb0-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="a8cb0-119">Click OK.</span></span>
 
