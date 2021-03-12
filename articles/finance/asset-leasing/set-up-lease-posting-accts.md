@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8ca1c6eea854577e5aa34b1a9b9d1731b209527b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 26e046b627d71721f4a4d7b6a60171a482e3e357
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448600"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992800"
 ---
 # <a name="set-up-lease-posting-accounts"></a>ตั้งค่าบัญชีการลงรายการบัญชีสัญญาเช่า
 
@@ -84,6 +83,3 @@ ms.locfileid: "4448600"
     > [!NOTE]
     > บัญชีการเงินหรือบัญชีการดำเนินงานที่เลือกจะถูกเดบิตเมื่อมีการลงรายการบัญชีใบแจ้งหนี้สำหรับค่าใช้จ่ายที่จัดกำหนดการไว้
     > **บัญชีตรงข้ามค่าใช้จ่ายของสัญญาเช่า** จะใช้เป็นชนิดการลงรายการบัญชีสำหรับธุรกรรมค่าใช้จ่ายในการจัดการสินทรัพย์ แต่ลงรายการบัญชีไปที่ **บัญชีตรงข้าม** ที่กำหนดไว้ใน **รายการกำหนดการชำระเงินค่าใช้จ่ายในการจัดการสินทรัพย์** ในฟอร์มรายละเอียดสัญญาเช่าหรือฟอร์มสมุดบัญชีสัญญาเช่า   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

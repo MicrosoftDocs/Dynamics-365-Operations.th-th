@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e8b1b908dfd6d1d6072b6efa83f13ae5784c85c1
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 89c5fc768aafe9e5de9adcde32e7b4d0a084941b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990928"
 ---
 # <a name="set-up-lease-journal-names"></a>ตั้งค่าชื่อสมุดรายวันสัญญาเช่า
 
@@ -37,6 +36,3 @@ ms.locfileid: "4448601"
 2. บนแท็บ **ทั่วไป** ในฟิลด์ **ชื่อสมุดรายวันการรับรู้เริ่มต้น** และเลือกสมุดรายวัน รายการสมุดรายวันการรับรู้เริ่มต้นทั้งหมดจะถูกลงรายการบัญชีในชื่อสมุดรายวันนี้
 3. ในฟิลด์ **ชื่อสมุดรายวันใบแจ้งหนี้** ให้เลือกสมุดรายวัน ถ้าตัวเลือก **ชำระให้แก่ผู้จัดจำหน่าย** ตั้งค่าเป็น **ใช่** สำหรับสมุดบัญชีค่าเช่า สัญญาเช่า และใบแจ้งหนี้การชำระเงินค่าใช้จ่ายจะถูกลงรายการบัญชีในชื่อสมุดรายวันนี้
 4. ในฟิลด์ **ชื่อสมุดรายวันสัญญาเช่า** ให้เลือกสมุดรายวัน การคิดค่าเสื่อมราคา ดอกเบี้ย และรายการที่จัดประเภทระยะสั้นทั้งหมดจะมีการลงรายการบัญชีในชื่อสมุดรายวันนี้ ถ้าตัวเลือก **ชำระให้แก่ผู้จัดจำหน่าย** ตั้งค่าเป็น **ไม่** สำหรับสมุดบัญชีค่าเช่า การชำระค่าเช่า และรายการการชำระเงินค่าใช้จ่ายจะถูกลงรายการบัญชีในชื่อสมุดรายวันนี้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

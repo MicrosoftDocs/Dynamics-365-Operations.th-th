@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448570"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993274"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>พื้นที่ทำงานรายการใบแจ้งหนี้ของผู้จัดจำหน่าย
 
@@ -117,6 +116,3 @@ ms.locfileid: "4448570"
 | ใบแจ้งหนี้ที่ล้มเหลวในการนำเข้า | <ul><li>ใบแจ้งหนี้ที่ล้มเหลวในการนำเข้า</li><li>ใบแจ้งหนี้ที่ล้มเหลวในการนำเข้าโดยบริษัท</li></ul> |
 | เหตุผลสำหรับความล้มเหลวในการทำงานอัตโนมัติ | <ul><li>ใบแจ้งหนี้ล้มเหลว</li><li>ใบแจ้งหนี้ล้มเหลวโดยบริษัท</li><li>ใบแจ้งหนี้ล้มเหลวโดยกลุ่มผู้จัดจำหน่าย</li></ul> |
 | สถานะลำดับงาน                | <ul><li>ใบแจ้งหนี้ในลำดับงาน</li><li>อินสแตนซ์ลำดับงานใบแจ้งหนี้ของผู้จัดจำหน่าย</li><li>การกำหนดสำหรับแต่ละผู้อนุมัติ</li><li>ลำดับงานใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับแต่ละบริษัท</li><li>จำนวนวันเฉลี่ยในลำดับงานโดยเรียงตามผู้อนุมัติ</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

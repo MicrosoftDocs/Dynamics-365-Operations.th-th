@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448282"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991275"
 ---
 # <a name="credit-management-setup"></a>การตั้งค่าการจัดการสินเชื่อ 
 
@@ -153,6 +152,3 @@ ms.locfileid: "4448282"
 2. เลือกตัวดำเนินการเปรียบเทียบที่กำหนดวิธีการที่ควรประเมินข้อมูลกลุ่มการให้คะแนน
 3. ป้อนค่าที่ควรจะเปรียบเทียบกับค่าที่ระบุไว้สำหรับกลุ่มการให้คะแนน
 4. ป้อนวงเงินสินเชื่อที่ควรถูกกำหนด ถ้าข้อมูลลูกค้าตรงกับค่าที่ระบุไว้สำหรับกลุ่มการให้คะแนน ตัวอย่างเช่น คุณสร้างวงเงินสินเชื่ออัตโนมัติสำหรับกลุ่มการให้คะแนน **ต่ำ** ถ้าปีในธุรกิจเป็นหนึ่งในกลุ่มการให้คะแนน คุณสามารถกำหนดหนึ่งรายการที่กำหนดวงเงินสินเชื่อเป็น 100,000 ถ้าลูกค้าได้อยู่ในธุรกิจนานห้าปี และอีกรายการหนึ่งที่กำหนดวงเงินสินเชื่อเป็น 200,000 ถ้าลูกค้าอยู่ในธุรกิจเป็นเวลา 10 ปี
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

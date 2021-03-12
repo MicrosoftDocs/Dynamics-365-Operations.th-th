@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 726d4979059417871a00626c55da32fa4286cb53
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991128"
 ---
 # <a name="create-a-free-text-invoice"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
@@ -30,7 +29,7 @@ ms.locfileid: "4448278"
 
 ## <a name="create-a-free-text-invoice"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
-1. ไปที่ **บัญชีลูกหนี้ \> ใบแจ้งหนี้ \> ใบแจ้งหนี้ข้อความอิสระทั้งหมด**
+1. ไปที่ **บัญชีลูกหนี้การค้า (หรือบัญชีแยกประเภทลูกหนี้) \> ใบแจ้งหนี้ \> ใบแจ้งหนี้ข้อความอิสระทั้งหมด**
 2. เลือก **ใหม่**
 3. ในฟิลด์ **บัญชีลูกค้า** ให้พิมพ์ค่า
 
@@ -85,6 +84,3 @@ ms.locfileid: "4448278"
 คุณสามารถสร้างใบแจ้งหนี้ข้อความอิสระจากเท็มเพลตได้ เมื่อคุณเลือก **สร้างจากเท็มเพลต** ในแท็บ **ใบแจ้งหนี้** คุณสามารถเลือกชื่อเท็มเพลตและบัญชีลูกค้าสำหรับใบแจ้งหนี้ข้อความอิสระใหม่ได้ ค่าเริ่มต้น เช่น เงื่อนไขในการชำระเงิน และวิธีของการชำระเงิน สามารถถูกเติมข้อมูลโดยอัตโนมัติได้จากลูกค้า หรือคุณสามารถใช้ค่าที่ถูกบันทึกไว้ในเท็มเพลตได้
 
 ใบแจ้งหนี้ข้อความอิสระใหม่จะถูกสร้างขึ้น และคุณสามารถแก้ไขค่าตามที่คุณต้องการได้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

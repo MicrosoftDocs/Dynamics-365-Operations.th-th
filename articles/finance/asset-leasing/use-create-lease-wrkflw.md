@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4448625"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992769"
 ---
 # <a name="use-lease-approval-workflows"></a>ใช้ลำดับงานการอนุมัติสัญญาเช่า
 
@@ -45,6 +44,3 @@ ms.locfileid: "4448625"
 
 8. เมื่อต้องการหยุดลำดับงาน บนหน้า **ประวัติลำดับงาน** ให้เลือก **เรียกคืน** ในกล่องโต้ตอบที่ปรากฎ ป้อนข้อคิดเห็น จากนั้นเลือก **ตกลง**
 9. เมื่อต้องการยกเลิกการเรียกใช้ลำดับงาน หรือเรียกใช้งานลำดับงานที่สร้างไว้ก่อนหน้านี้ ให้ไปที่ **การเช่าสินทรัพย์ \> การตั้งค่า \> ลำดับงานสัญญาเช่า** บนหน้า **ลำดับงานสัญญาเช่า** ให้เลือก **ลำดับงาน \> รุ่น** เมื่อต้องการทำให้ลำดับงานปัจจุบันไม่ได้ใช้งานอยู่ ให้เลือกสัญญาเช่าที่ใช้งานอยู่ในกล่องโต้ตอบรุ่นสัญญาเช่า แล้วเลือก **ทำให้ไม่มีการใช้งาน** เมื่อต้องการสร้างลำดับงานที่มีอยู่ ให้เลือกลำดับงาน แล้วเลือก **ทำงาน**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
