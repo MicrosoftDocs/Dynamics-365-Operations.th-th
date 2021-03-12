@@ -11,45 +11,44 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20dd6ce5b12d39f0207244c404ae20cd61e3fa60
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 32003409ca070f98d3b3db75c790489c42be6081
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448302"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989063"
 ---
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="43d67-103">โฮมเพจการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="b8deb-103">โฮมเพจการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-103">Cost accounting home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="43d67-104">แผนผังการเรียนรู้</span><span class="sxs-lookup"><span data-stu-id="43d67-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="b8deb-104">แผนผังการเรียนรู้</span><span class="sxs-lookup"><span data-stu-id="b8deb-104">Learning map</span></span> 
 
-<span data-ttu-id="43d67-105">แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่สร้างกรอบงานของโมดูลการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="43d67-106">คลิกที่ลิงค์ในส่วน [ลิงค์ด่วน](#quick-links) เพื่อทราบถึงวิธีการใช้โมดูล</span><span class="sxs-lookup"><span data-stu-id="43d67-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="b8deb-105">แผนผังการเรียนรู้ต่อไปนี้แสดงแนวคิดหลักและงานที่สร้างกรอบงานของโมดูลการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="b8deb-106">คลิกที่ลิงค์ในส่วน [ลิงค์ด่วน](#quick-links) เพื่อทราบถึงวิธีการใช้โมดูล</span><span class="sxs-lookup"><span data-stu-id="b8deb-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="43d67-107">[![แผนผังการเรียนรู้สำหรับการบัญชีต้นทุน](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="43d67-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="b8deb-107">[![แผนผังการเรียนรู้สำหรับการบัญชีต้นทุน](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="b8deb-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="43d67-108">ลิงค์ด่วน</span><span class="sxs-lookup"><span data-stu-id="43d67-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="b8deb-108">ลิงค์ด่วน</span><span class="sxs-lookup"><span data-stu-id="b8deb-108">Quick links</span></span>
 
 |      |   |
 |------|---|
-|  <span data-ttu-id="43d67-109">[ตั้งค่าคอนฟิกเอนทิตีฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องการลูกค้าองค์กร CustomerSource )</span><span class="sxs-lookup"><span data-stu-id="43d67-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="43d67-110">มิติองค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-110">Cost element dimensions</span></span>](cost-elements.md)  |
-|  [<span data-ttu-id="43d67-111">ลำดับชั้นของมิติ</span><span class="sxs-lookup"><span data-stu-id="43d67-111">Dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="43d67-112">กำหนดหน่วยการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-112">Define cost control units</span></span>](./tasks/define-cost-control-units.md)| 
-| [<span data-ttu-id="43d67-113">ฐานของการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="43d67-113">Allocation bases</span></span>](allocation-bases.md)|[<span data-ttu-id="43d67-114">สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-114">Create and assign a cost allocation policy to a cost control unit</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [<span data-ttu-id="43d67-115">จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-115">Manage a data source for the cost accounting ledger</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="43d67-116">ประมวลผลและติดตามข้อมูลต้นทาง</span><span class="sxs-lookup"><span data-stu-id="43d67-116">Process and trace source data</span></span>](./tasks/process-trace-source-data.md)     | 
-|[<span data-ttu-id="43d67-117">การคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="43d67-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="43d67-118">พื้นที่ทำงานการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-118">Cost control workspace</span></span>](cost-control-workspace.md)   |
+|  <span data-ttu-id="b8deb-109">[ตั้งค่าคอนฟิกเอนทิตีฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องการลูกค้าองค์กร CustomerSource )</span><span class="sxs-lookup"><span data-stu-id="b8deb-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="b8deb-110">มิติองค์ประกอบต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-110">Cost element dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="b8deb-111">ลำดับชั้นของมิติ</span><span class="sxs-lookup"><span data-stu-id="b8deb-111">Dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="b8deb-112">กำหนดหน่วยการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-112">Define cost control units</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="b8deb-113">ฐานของการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="b8deb-113">Allocation bases</span></span>](allocation-bases.md)|[<span data-ttu-id="b8deb-114">สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-114">Create and assign a cost allocation policy to a cost control unit</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="b8deb-115">จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-115">Manage a data source for the cost accounting ledger</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="b8deb-116">ประมวลผลและติดตามข้อมูลต้นทาง</span><span class="sxs-lookup"><span data-stu-id="b8deb-116">Process and trace source data</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="b8deb-117">การคำนวณค่าโสหุ้ย</span><span class="sxs-lookup"><span data-stu-id="b8deb-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="b8deb-118">พื้นที่ทำงานการควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-118">Cost control workspace</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="43d67-119">เริ่มต้นใช้งานวิดีโอ</span><span class="sxs-lookup"><span data-stu-id="43d67-119">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="b8deb-119">เริ่มต้นใช้งานวิดีโอ</span><span class="sxs-lookup"><span data-stu-id="b8deb-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| [<span data-ttu-id="43d67-120">เริ่มต้นใช้งานการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="43d67-121">พื้นที่ทำงานแบบเคลื่อนที่ของการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="43d67-122">ใช้ Excel สำหรับการวิเคราะห์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="43d67-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
+| [<span data-ttu-id="b8deb-120">เริ่มต้นใช้งานการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="b8deb-121">พื้นที่ทำงานแบบเคลื่อนที่ของการบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="b8deb-122">ใช้ Excel สำหรับการวิเคราะห์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b8deb-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 
 
 
