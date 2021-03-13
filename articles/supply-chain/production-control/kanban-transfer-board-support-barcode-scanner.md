@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438710"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007077"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>การสนับสนุนบอร์ดการโอนย้ายคัมบังสำหรับเครื่องสแกนบาร์โค้ด
 
@@ -44,11 +43,11 @@ ms.locfileid: "4438710"
 | ว่าง                 | ลงทะเบียนหน่วยจัดการวัสดุที่อ้างอิงโดยบัตรคัมบังเป็นว่างเปล่า              |
 | เลือก                | ลงทะเบียนหมายเลขบัตรคัมบังและเลือกงานที่อ้างอิงในรายการคัมบังโดยอัตโนมัติ |
 
- 
-โหมดการลงทะเบียน เลือก
+ 
+<a name="registration-mode-select"></a>โหมดการลงทะเบียน เลือก
 ------------------------
 
-เมื่อคุณใช้ตัวอ่านบาร์โค้ดเพื่อเลือกงาน โหมดการแสดงผลของการเปลี่ยนแปลงบอร์ดคัมบัง ในโหมดนี้ เงื่อนไขต่อไปนี้นำไปใช้:
+เมื่อคุณใช้ตัวอ่านบาร์โค้ดเพื่อเลือกงาน โหมดการแสดงผลของการเปลี่ยนแปลงบอร์ดคัมบัง ในโหมดนี้ เงื่อนไขต่อไปนี้นำไปใช้:
 
 -   เฉพาะงานคัมบังที่สแกนจะถูกแสดง
 -   รายละเอียดเกี่ยวกับงานที่เลือกจะแสดงในแท็บด่วน **รายละเอียด**
@@ -192,6 +191,3 @@ ms.locfileid: "4438710"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

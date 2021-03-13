@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007502"
 ---
 # <a name="troubleshoot-purchase-orders"></a>แก้ไขปัญหาใบสั่งซื้อ
 
@@ -132,7 +131,7 @@ ms.locfileid: "4438906"
 
 สำหรับสถานการณ์จำลองตัวอย่างที่อธิบายไว้ในคำอธิบายปัญหา ซึ่งเรกคอร์ดมีวันที่มีผลบังคับใช้ *01/11/2018* และวันหมดอายุ *ไม่เคย* คุณสามารถนำเข้าเรกคอร์ดใหม่ที่มีวันที่มีผลบังคับใช้ของ *01/10/2018* และวันที่หมดอายุ *ไม่มี* อย่างไรก็ตามคุณไม่สามารถลดรอบระยะเวลาเพื่อให้วันที่มีผลบังคับใช้มีการอัปเดตเป็น *01/12/2018* ผ่านทางการจัดการข้อมูล คุณต้องทำการเปลี่ยนแปลงนี้ผ่าน UI
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>หลังจากที่เปลี่ยนที่อยู่ที่จัดส่งในส่วนหัวของใบสั่งซื้อ จะไม่มีการซิงค์ชื่อการจัดส่ง
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>หลังจากที่เปลี่ยนที่อยู่ที่จัดส่งในส่วนหัวของใบสั่งซื้อ จะไม่มีการซิงค์ชื่อการจัดส่ง
 
 ### <a name="issue-description"></a>คำอธิบายปัญหา
 
@@ -145,6 +144,3 @@ ms.locfileid: "4438906"
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>ฉันสามารถหาผู้ใช้ที่ยกเลิกใบสั่งซื้อได้หรือไม่
 
 ข้อมูลนี้จะถูกติดตามเฉพาะเมื่อใบสั่งซื้ออาจมีการจัดการการเปลี่ยนแปลง ถ้าคุณใช้การจัดการการเปลี่ยนแปลง คุณสามารถดูว่าใครเป็นผู้ส่งการเปลี่ยนแปลง (การยกเลิก) และใครเป็นผู้อนุมัติ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

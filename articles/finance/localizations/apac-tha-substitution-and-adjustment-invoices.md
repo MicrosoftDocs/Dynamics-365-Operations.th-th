@@ -11,17 +11,16 @@ manager: vastrup
 ms.search.form: CustInvoiceJournal, CustInvoiceJourAdjustment, ProjInvoiceListPage, CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Thailand
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 501dea392b4c348d2a1ceffa266ae7fde8b1eb0c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e9df9cedcc5b72ea0acbbd2823f3586c2e0f4a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408634"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009122"
 ---
 # <a name="substitutionadjustment-tax-invoices-for-thailand"></a>ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 
@@ -87,6 +86,3 @@ ms.locfileid: "4408634"
 ใบกำกับภาษีที่ปรับปรุงรวมถึงหมายเลขใบกำกับภาษีใหม่ และข้อมูลของลูกค้าที่ปรับปรุง ข้อมูลอื่น ๆ ทั้งหมดจะเหมือนกับข้อมูลในใบกำกับภาษีเดิม ข้อคิดเห็นจะถูกเพิ่มที่ด้านล่างของใบกำกับภาษีที่ปรับปรุง ข้อคิดเห็นนี้มีการอ้างอิงถึงใบกำกับภาษีเดิม เหตุผลสำหรับการปรับปรุง และวันที่ของการปรับปรุง
 
 คุณสามารถปรับปรุงใบกำกับภาษีได้หลายครั้ง สำหรับการปรับปรุงแต่ละครั้ง จะมีการปันส่วนหมายเลขใบกำกับภาษีใหม่ และใบแจ้งหนี้ที่ปรับปรุงจะอ้างอิงถึงการปรับปรุงก่อนหน้านี้หรือใบกำกับภาษีเดิม
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

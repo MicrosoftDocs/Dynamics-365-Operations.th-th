@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438682"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007721"
 ---
 # <a name="dual-use-goods"></a>สินค้าที่ใช้ได้สองทาง
 
@@ -108,6 +107,3 @@ ms.locfileid: "4438682"
     | พิมพ์บนใบแจ้งหนี้ | เลือกกล่องกาเครื่องหมายนี้เพื่อพิมพ์หมายเลขใบรับรองในใบแจ้งหนี้ที่ระบุให้กับประเทศที่ระบุในระหว่างช่วงวันที่ที่ระบุ |
     | พิมพ์ในบันทึกการจัดส่ง | เลือกกล่องกาเครื่องหมายนี้เพื่อพิมพ์หมายเลขใบรับรองในบันทึกการจัดส่งที่ระบุให้กับประเทศที่ระบุในระหว่างช่วงวันที่ที่ระบุ |
     | พิมพ์ในใบสั่งขาย | เลือกกล่องกาเครื่องหมายนี้เพื่อพิมพ์หมายเลขใบรับรองในใบสั่งขายที่ระบุให้กับประเทศที่ระบุในระหว่างช่วงวันที่ที่ระบุ |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

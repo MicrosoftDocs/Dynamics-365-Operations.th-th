@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2202b6b50d4b4b675759275379023a182b01af17
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438776"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007277"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
 
@@ -204,6 +203,3 @@ ms.locfileid: "4438776"
 1. บนแท็บ **ทั่วไป** ให้ตั้งค่า **การตรวจสอบความถูกต้องของปริมาณในใบสั่งเริ่มต้น** เป็นค่าใดค่าหนึ่งต่อไปนี้:
     - **อย่างเข้มงวด** -เลือกตัวเลือกนี้เพื่อให้แน่ใจว่าค่า **ปริมาณใบสั่งมาตรฐาน** ทั้งหมดจะเป็นค่า **หลาย** หลายค่าสำหรับแท็บด่วนแต่ละรายการ (**ใบสั่งซื้อ** **สินค้าคงคลัง** และ **ใบสั่งขาย**)
     - **มาตรฐาน** - เลือกตัวเลือกนี้เพื่อใช้การตรวจสอบความถูกต้องมาตรฐาน (ซึ่งทำงานเช่นเดียวกับเมื่อลักษณะการทำงานนี้ไม่ได้เปิดใช้งาน)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

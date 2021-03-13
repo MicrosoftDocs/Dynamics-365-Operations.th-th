@@ -10,19 +10,18 @@ ms.service: dynamics-ax-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 38d57ed5f8d2b8725cd11156f0135988bb76e047
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcacb4243e78607d19d2c57aff5debe04d85d6f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416216"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009734"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>ซ่อนวิธีการจัดส่งที่ไม่ใช่ผู้ขนส่งจากตัวเลือกการจัดส่งใน POS
 
@@ -36,6 +35,3 @@ ms.locfileid: "4416216"
 ตามค่าเริ่มต้น กล่องโต้ตอบที่มีการเลือกวิธีการจัดส่งจะแสดงวิธีการจัดส่งที่ใช้ได้ทั้งหมดสำหรับชุดของช่องทาง สินค้าและที่อยู่ที่จัดส่ง วิธีการจัดส่งเหล่านี้มีการกำหนดไว้บนหน้า **วิธีการจัดส่ง** ในศูนย์ควบคุม (**การขายและการตลาด \> การตั้งค่า \> การกระจายสินค้า \>  วิธีการจัดส่ง**) วิธีการจัดส่งที่ไม่ใช่ผู้ขนส่ง เช่น **ยกของ** หรือ **รถบรรทุก** อาจปรากฏขึ้นให้เลือกในกล่องโต้ตอบ
 
 อย่างไร ก็ตามมีคุณลักษณะที่ช่วยให้คุณสามารถซ่อนวิธีการจัดส่งที่ไม่ใช่ผู้ขนส่งในกล่องโต้ตอบ ในการเปิดคุณลักษณะนี้ บนหน้า **พารามิเตอร์ Commerce** บนแท็บ **ใบสั่งของลูกค้า** ให้ตั้งค่าตัวเลือก **แสดงเฉพาะตัวเลือกวิธีการจัดส่งที่ใช้ผู้ขนส่งสำหรับการส่งสินค้า** เป็น **ใช่** หลังจากที่คุณเปิดใช้งานคุณลักษณะนี้และเรียกใช้งานการกระจายสินค้าที่เหมาะสมเพื่อซิงค์ข้อมูลไปยังฐานข้อมูลช่องทาง วิธีการจัดส่งที่ไม่ใช่ผู้ขนส่งจะไม่ปรากฏให้เลือกในระหว่างกระบวนการสร้างใบสั่งจัดส่งใน POS
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

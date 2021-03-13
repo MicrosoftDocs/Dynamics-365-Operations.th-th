@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f0d0bdde8b69148c72b8c645e040f0e596ecba92
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a07749533e84cb26ce59b80e4bde12c96eaf0a3f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645636"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009354"
 ---
 # <a name="snapshots-overview-preview"></a>ภาพรวมของสแนปช็อต (ตัวอย่าง)
 
@@ -48,6 +47,3 @@ ms.locfileid: "4645636"
 
 #### <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

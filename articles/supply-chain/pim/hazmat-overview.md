@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff285e7e8bcdd2a3197f0ccae569ac880b796028
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007602"
 ---
 # <a name="hazardous-materials-overview"></a>ภาพรวมของวัตถุอันตราย
 
@@ -62,6 +61,3 @@ ms.locfileid: "4438236"
 ## <a name="warehouse-management"></a>การจัดการคลังสินค้า
 
 เมื่อคุณจัดเตรียมการจัดส่งในการจัดการคลังสินค้า คุณจะสามารถพิมพ์รายงานใหม่ได้หลายฉบับ ซึ่งใช้ข้อมูลที่คุณตั้งค่าไว้ในการจัดการข้อมูลผลิตภัณฑ์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรายงานที่มีอยู่และวิธีการใช้รายงาน ให้ดูที่ [การสอบถามและรายงานเกี่ยวกับวัตถุอันตราย](hazmat-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

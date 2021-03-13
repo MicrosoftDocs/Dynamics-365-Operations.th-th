@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448401"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009579"
 ---
 # <a name="settle-remainder"></a>ส่วนที่เหลือที่ต้องชำระบัญชี
 
@@ -70,6 +69,3 @@ ms.locfileid: "4448401"
 7)  นอกจากนี้ คุณยังสามารถเลือกที่จะสร้างสมุดรายวันการชำระเงินที่มียอดค้างชำระ หรือเพียงแค่ลงรายการบัญชีโดยไม่มีสมุดรายวัน เลือก **ใช่** สำหรับ **แก้ไขในสมุดรายวัน** เพื่อสร้างสมุดรายวันการชำระเงิน คุณจะสามารถแก้ไขสมุดรายวันการชำระเงินที่คุณสร้างขึ้น
 8)  คลิก **ส่วนที่เหลือที่ต้องชำระบัญชี** ถ้าคุณเลือกที่จะสร้างสมุดรายวัน ปุ่มจะเปลี่ยนเป็น **สร้างสมุดรายวัน** คลิก **สร้างสมุดรายวัน** แทน
 9)  ถ้าคุณสร้างสมุดรายวันการชำระเงิน หน้าสมุดรายวันจะเปิด หลังจากที่คุณคลิก **ส่วนที่เหลือที่ต้องชำระบัญชี** รายการสมุดรายวันจะถูกเพิ่มในสมุดรายวันพร้อมกับยอดเงินส่วนที่เหลือที่ต้องชำระบัญชีเป็นยอดเงิน และพร้อมกับบัญชีส่วนที่เหลือที่ต้องชำระบัญชีเป็นบัญชีตรงข้าม ถ้าคุณเพิ่มลูกค้าหรือผู้จัดจำหน่าย เพื่อให้คุณสามารถย้ายยอดการชำระเงินให้กับลูกค้าหรือผู้จัดจำหน่ายอื่น จากนั้นรายการเพิ่มเติมจะถูกเพิ่มในสมุดรายวันเพื่อย้ายยอดการชำระเงินไปยังลูกค้าหรือผู้จัดจำหน่ายนั้น
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

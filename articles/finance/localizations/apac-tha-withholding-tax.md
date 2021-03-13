@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265904
 ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05fbf790c5c71afc34a95f8ef7c6211c19714d6e
-ms.sourcegitcommit: 0297fd1f594c59a39014a592231ce5999b173848
+ms.openlocfilehash: 4ad9002de2115ca4a8bf2dcf3d04ec42dfbc221a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4663264"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009116"
 ---
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
@@ -78,6 +77,3 @@ ms.locfileid: "4663264"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

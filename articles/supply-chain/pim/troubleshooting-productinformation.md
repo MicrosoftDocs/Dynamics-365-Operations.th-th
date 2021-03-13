@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007527"
 ---
 # <a name="troubleshoot-product-information"></a>แก้ไขปัญหาข้อมูลผลิตภัณฑ์
 
@@ -152,6 +151,3 @@ ms.locfileid: "4516889"
 ปุ่ม **สร้าง** บนหน้า **ผลิตภัณฑ์ย่อยที่นำออกใช้** สร้างผลิตภัณฑ์ย่อยและนำออกใช้ในบริบทของบริษัท ถ้ามีการสร้างผลิตภัณฑ์ย่อยนี้แล้ว คุณจะไม่สามารถใช้ปุ่ม **สร้าง** เพื่อนำออกใช้ในบริษัทอื่นได้
 
 เมื่อต้องการแก้ไขปัญหานี้ ให้เปิดหน้า **ผลิตภัณฑ์หลัก** แล้วเลือก **นำออกใช้ผลิตภัณฑ์** เพื่อปล่อยผลิตภัณฑ์ย่อยที่มีอยู่ในบริษัทที่ต้องการ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

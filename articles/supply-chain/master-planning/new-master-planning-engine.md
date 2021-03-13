@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 8a55958a4b9573a7c3527d3d97cbcb818457b995
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646007"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008001"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>การย้ายไปการเพิ่มประสิทธิภาพการวางแผนสำหรับการวางแผนหลัก
 
@@ -116,6 +115,3 @@ ELSE
 > โปรดกรอกแบบสอบถามต่อไปนี้ให้ครบถ้วนเพื่อเริ่มต้นใช้งานและถ้าข้อยกเว้นของคำขอเกี่ยวข้องจากการโยกย้ายไปยังการเพิ่มประสิทธิภาพการวางแผน
 
 **คำตอบ:** ไม่ การวางแผนหลักไม่ถูกบล็อค การเรียกใช้การวางแผนหลักของคุณเสร็จสมบูรณ์แล้ว และคุณสามารถใช้ผลลัพธ์ในลักษณะปกติได้ อย่างไรก็ตาม เมื่อต้องการหลีกเลี่ยงการได้รับข้อความแสดงข้อผิดพลาดนี้ในระหว่างการเรียกใช้ การวางแผนหลักในอนาคตคุณต้องโยกย้ายเพื่อเพิ่มประสิทธิภาพการวางแผนทันที หรือร้องขอข้อยกเว้นโดยใช้การเชื่อมโยงในข้อความแสดงข้อผิดพลาด
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

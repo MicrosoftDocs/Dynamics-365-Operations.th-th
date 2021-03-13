@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665309"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010085"
 ---
 # <a name="recall-order-operation-in-pos"></a>เรียกคืนการดำเนินงานใบสั่งใน POS
 
@@ -64,6 +63,3 @@ ms.locfileid: "4665309"
 - **แก้ไข** – อนุญาตให้ผู้ใช้ทำการเปลี่ยนแปลงใบสั่งของลูกค้าที่เลือก
 
 - **เบิกสินค้า** – เปิดใช้งานขั้นตอนการเบิกสินค้า ซึ่งช่วยให้ผู้ใช้สามารถเลือกผลิตภัณฑ์ที่จะเบิกสินค้า และสร้างธุรกรรมการเบิกสินค้าสำหรับการขาย
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
