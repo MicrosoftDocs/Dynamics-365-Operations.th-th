@@ -1,6 +1,6 @@
 ---
 title: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทางระหว่างสภาพแวดล้อม Finance and Operations ใหม่ และสภาพแวดล้อม Dataverse ใหม่จาก Microsoft Dynamics Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทาง จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683536"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127604"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ ms.locfileid: "4683536"
     - ถ้ามีการเตรียมใช้งานสภาพแวดล้อม Dataverse สำหรับผู้เช่าของคุณแล้ว คุณสามารถเลือกสภาพแวดล้อมได้
 
         1. ตั้งค่าตัวเลือก **ตั้งค่าคอนฟิก Dataverse** เป็น **ใช่**
-        2. ในฟิลด์ **สภาพแวดล้อมที่พร้อมใช้งาน** ให้เลือกสภาพแวดล้อมที่จะรวมกับข้อมูล Finance and Operations ของคุณ รายการนี้รวมถึงสภาพแวดล้อมทั้งหมดที่ซึ่งคุณมีสิทธิ์ของผู้ดูแลระบบ
+        2. ในคอลัมน์ **สภาพแวดล้อมที่พร้อมใช้งาน** ให้เลือกสภาพแวดล้อมที่จะรวมกับข้อมูล Finance and Operations ของคุณ รายการนี้รวมถึงสภาพแวดล้อมทั้งหมดที่ซึ่งคุณมีสิทธิ์ของผู้ดูแลระบบ
         3. เลือกกล่องกาเครื่องหมาย **ยินยอม** เพื่อระบุว่าคุณยอมรับข้อกำหนดและเงื่อนไข
 
         ![แท็บ Dataverse เมื่อมีการเตรียมใช้งานสภาพแวดล้อม Dataverse สำหรับผู้เช่าของคุณแล้ว](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ ms.locfileid: "4683536"
         ![แท็บ Dataverse เมื่อผู้เช่าของคุณไม่มีสภาพแวดล้อม Dataverse อยู่แล้ว](../dual-write/media/lcs_setup_2.png)
 
 7. ปฏิบัติตามขั้นตอนที่เหลือในวิซาร์ด **การตั้งค่าการปรับใช้** ให้เสร็จสมบูรณ์
-8. หลังจากที่สภาพแวดล้อมมีสถานะเป็น **ปรับใช้แล้ว** ให้เปิดหน้ารายละเอียดของสภาพแวดล้อม ส่วน **ข้อมูลสภาพแวดล้อม Dataverse** แสดงชื่อของสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Dataverse ที่มีการเชื่อมโยง
+8. หลังจากที่สภาพแวดล้อมมีสถานะเป็น **ปรับใช้แล้ว** ให้เปิดหน้ารายละเอียดของสภาพแวดล้อม ส่วน **การรวม Power Platform** แสดงชื่อของสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Dataverse ที่มีการเชื่อมโยง
 
-    ![ส่วนข้อมูลสภาพแวดล้อมของ Dataverse](../dual-write/media/lcs_setup_3.png)
+    ![ส่วนการรวม Power Platform](../dual-write/media/lcs_setup_3.png)
 
 9. ผู้ดูแลระบบของสภาพแวดล้อม Finance and Operations ต้องลงชื่อเข้าใช้ใน LCS และเลือก **ลิงค์ไปยัง CDS for Apps** เพื่อทำให้การเชื่อมโยงเสร็จสมบูรณ์ หน้ารายละเอียดของสภาพแวดล้อมจะแสดงข้อมูลผู้ติดต่อของผู้ดูแลระบบ
 
@@ -86,10 +84,8 @@ ms.locfileid: "4683536"
 
 10. เมื่อต้องการเปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และควบคุมเท็มเพลตที่พร้อมใช้งาน เลือก **เชื่อมโยงกับ CDS for Apps**
 
-    ![ปุ่มลิงค์ไปยัง CDS for Apps ในส่วนข้อมูลสภาพแวดล้อมของ Dataverse](../dual-write/media/lcs_setup_4.png)
+    ![ปุ่มลิงค์ไปยัง CDS for Apps ในส่วนการรวม Power Platform](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และจากนั้น เลือก **ยกเลิกการเชื่อมโยง**
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

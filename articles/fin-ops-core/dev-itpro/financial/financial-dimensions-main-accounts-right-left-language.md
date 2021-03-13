@@ -1,6 +1,6 @@
 ---
 title: มิติทางการเงินและบัญชีหลักในภาษาที่เรียงจากขวาไปซ้าย
-description: หัวข้อนี้อธิบายการตัดสินใจการนำไปใช้บางอย่างที่คุณควรพิจารณาเมื่อคุณใช้ภาษาที่เรียงจากขวาไปซ้าย และคุณต้องตั้งค่ามิติทางการเงินและบัญชีหลัก
+description: หัวข้อนี้อธิบายการตัดสินใจที่คุณจำเป็นต้องทำเมื่อคุณใช้ภาษาที่เรียงจากขวาไปซ้าย และคุณต้องตั้งค่ามิติทางการเงินและบัญชีหลัก
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680493"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127658"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>มิติทางการเงินและบัญชีหลักในภาษาที่เรียงจากขวาไปซ้าย
 
@@ -38,6 +38,3 @@ ms.locfileid: "4680493"
 - หลีกเลี่ยงการใช้ตัวกำหนดเขตผังบัญชีที่เลือกไว้ในค่ามิติทางการเงินและบัญชีหลัก
 
 โดยปฏิบัติตามแนวทางปฏิบัติเหล่านี้ คุณช่วยรับประกันการแสดงที่สอดคล้องกันของลำดับที่ผู้ใช้กำหนดทั่วทั้งระบบ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

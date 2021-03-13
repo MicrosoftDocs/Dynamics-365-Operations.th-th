@@ -2,7 +2,7 @@
 title: จัดการคำขอลาหยุดใน Teams
 description: หัวข้อนี้จะแสดงวิธีการขอลาหยุดในแอป Dynamics 365 Human Resources ใน Microsoft Teams
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4420850"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128172"
 ---
 # <a name="manage-leave-requests-in-teams"></a>จัดการคำขอลาหยุดใน Teams
 
@@ -196,7 +196,6 @@ ms.locfileid: "4420850"
 | --- | --- |
 | การซูมภาพเป็น 400% บนเดสก์ท็อปจะซ่อนปุ่มการดำเนินการบางปุ่มจากมุมมอง | เราขอแนะนำให้ใช้แว่นขยายแทน จนกว่าเราจะสามารถสนับสนุนระดับการย่อ/ขยายนี้ได้ |
 | บนแท็บ **เวลาหยุดพัก** voiceover ประกาศการดำเนินการปุ่ม ในขณะที่อ่านส่วนหัวสำหรับกริดเวลาหยุดพัก | ส่วนหัวและองค์ประกอบภายในกริดมีการจัดกลุ่มตามปี และจะสามารถยุบได้ Voiceover จะแปลเป็นสินค้าที่สามารถดำเนินการได้ แต่ไม่ใช่ |
-| ถ้าคุณปัดนิ้วในขณะที่ป็อปอัพหรือเมนูเปิดอยู่ voiceover จะข้ามการอ่านเนื้อหาของป็อปอัพหรือเมนู | สำรวจเนื้อหาโดยใช้การสแกนนิ้ว |
 | บนแท็บ **เวลาหยุดพัก** มีท่าทางการรูดพิเศษเมื่อนำทางไปยัง **รหัสเหตุผล** ในคำขอใหม่ | ไม่มีตัวควบคุมที่ซ่อนอยู่ซึ่งการนำทางการรูดกำลังพยายามเข้าถึง |
 | บนแท็บ **เวลาหยุดพัก** ถ้าคุณปัดนิ้วในขณะที่ปฏิทินเปิดอยู่ คุณจะไปอยู่ที่ภายนอกตัวควบคุม แทนที่จะอยู่ด้านบนในคำขอใหม่ หรือในขณะที่แก้ไขคำขอ | เมื่อคุณเข้าถึง **ไปยังวันนี้** ให้พิจารณาว่าจะเป็นจุดสิ้นสุดของการควบคุมและปัดนิ้วในทิศทางย้อนกลับเพื่อกลับไปด้านบน |
 | Voiceover ไม่ได้อ่านป้ายชื่อสำหรับวันที่ | วันที่ที่พบเป็นคู่จะเป็น **วันที่เริ่มต้น** และ **วันที่สิ้นสุด** เสมอ |
@@ -229,6 +228,3 @@ Dynamics 365 Human Resources ส่งคำขอการลางานขอ
 [ดาวน์โหลดและติดตั้ง Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [ศูนย์ความช่วยเหลือ Microsoft Teams](https://support.office.com/teams)</br>
 [แอป Human Resources ใน Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

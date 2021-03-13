@@ -1,8 +1,8 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (19 มีนาคม 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 19 มีนาคม 2020
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6eddce5b8efa1d62dff3238a5a0b69510ed4c387
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526877"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127980"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (19 มีนาคม 2020)
 
@@ -53,7 +53,7 @@ ms.locfileid: "4526877"
 
 สำหรับพนักงานที่มีการจ้างงานที่สิ้นสุด ตำแหน่งหลักที่ใช้งานอยู่ในขณะที่การยกเลิกแสดงขึ้นอยู่ในเอนทิตี้ สำหรับการรวม เรกคอร์ดที่ซ้ำกันจะไม่ถูกสร้างขึ้นสำหรับการกำหนดตำแหน่งผู้ปฏิบัติงานของพนักงานอีกต่อไป 
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>ขณะนี้โซลูชัน Common Data Service พร้อมใช้งาน โดยมีการเปลี่ยนแปลงต่อไปนี้:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>ขณะนี้โซลูชัน Dataverse พร้อมใช้งาน โดยมีการเปลี่ยนแปลงต่อไปนี้:
 
 | คำอธิบาย | เงินทอน |
 | --- | --- |
@@ -65,12 +65,12 @@ ms.locfileid: "4526877"
 | เอนทิตีการตั้งค่าค่าตอบแทนผันแปรใหม่ | <ul><li>**ชนิดแผนตัวแปรค่าตอบแทน**</li><li>**แผนค่าตอบแทนผันแปร**</li><li>**กฎสิทธิพึงได้**</li><li>**ระดับแผนตัวแปรค่าตอบแทน**</li></ul> |
 | เอนทตี **การจ้างงานในปฏิทินของผู้ปฏิบัติงาน** ใหม่ | <ul><li>เพิ่ม **เอนทิตีปฏิทินงาน** แล้ว</li></ul> |
 | เอนทตี **รายละเอียดตำแหน่งที่มีค่าจ้าง** ใหม่ | <ul><li>เพิ่ม **รายละเอียดตำแหน่งที่มีค่าจ้าง** แล้ว</li></ul> |
-| เอนทิตี้ **ชื่อ** ใหม่ | <ul><li>เพิ่ม **ชื่อเรื่อง** แล้ว</li></ul>เอนทิตี **ชื่อเรื่อง** ใหม่จะรวมอยู่ใน Common Data Service แต่ไม่ได้อ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในขณะนี้ |
+| เอนทิตี้ **ชื่อ** ใหม่ | <ul><li>เพิ่ม **ชื่อเรื่อง** แล้ว</li></ul>เอนทิตี **ชื่อเรื่อง** ใหม่จะรวมอยู่ใน Dataverse แต่ไม่ได้อ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในขณะนี้ |
 
 > [!NOTE]
-> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัพเดตจากทรัพยากรบุคคลเป็น Common Data Service การอัพเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Common Data Service กับทรัพยากรบุคคลในขณะนี้
+> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัพเดตจากทรัพยากรบุคคลเป็น Dataverse การอัพเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Dataverse กับทรัพยากรบุคคลในขณะนี้
 
-ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Common Data Service ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
+ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Dataverse ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
 
 1.  ไปยัง [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
 
@@ -130,5 +130,3 @@ ms.locfileid: "4526877"
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

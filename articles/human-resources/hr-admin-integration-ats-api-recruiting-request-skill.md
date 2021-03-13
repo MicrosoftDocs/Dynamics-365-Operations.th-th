@@ -1,0 +1,79 @@
+---
+title: การสรรหาบุคลากรที่มีคำขอทักษะ
+description: หัวข้อนี้อธิบายเอนทิตีทักษะคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
+author: jaredha
+manager: tfehr
+ms.date: 02/05/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-human-resources
+ms.technology: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: jaredha
+ms.search.validFrom: 2021-02-05
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 83a9956b9aa820e8aca9bf6b2ab920a45c1061f6
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5126013"
+---
+# <a name="recruiting-request-skill"></a>การสรรหาบุคลากรที่มีคำขอทักษะ
+
+หัวข้อนี้อธิบายเอนทิตีทักษะคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
+
+ชื่อทางกายภาพ: mshr_hcmrecruitingrequestskillentity
+
+### <a name="description"></a>คำอธิบาย
+
+อธิบายความต้องการทักษะของ RecruitingRequest
+
+### <a name="json-representation"></a>การแสดง JSON
+
+```json
+{
+    "mshr_recruitingrequestid": "String",
+    "mshr_skillid": "String",
+    "mshr_skilldescription": "String",
+    "mshr_ratinglevelid": "String",
+    "mshr_ratingmodelid": "String",
+    "mshr_ratingleveldescription": "String",
+    "mshr_dataareaid": "String",
+    "_mshr_dataareaid_id_value": "Guid",
+    "mshr_primaryfield": "String",
+    "_mshr_fk_recruitingrequest_id_value": "Guid",
+    "_mshr_fk_skill_id_value": "Guid",
+    "_mshr_fk_ratinglevel_id_value": "Guid",
+    "_mshr_fk_ratingmodel_id_value": "Guid",
+    "mshr_hcmrecruitingrequestskillentityid": "Guid"
+}
+```
+
+### <a name="properties"></a>คุณสมบัติ
+
+| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| --- | --- | --- |
+| **รหัสเอนทิตีการสรรหาบุคลากรที่มีคำขอทักษะ**<br>mshr_hcmrecruitingrequestskillentityid<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของเรกคอร์ด **การสรรหาบุคลากรที่มีคำขอทักษะ** |
+| **รหัสคำขอสรรหา**<br>mshr_recruitingrequestid<br>*สตริง* | เขียนเพียงครั้งเดียว<br>จำเป็นต้องระบุ | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของคำขอการสรรหาบุคลากรที่เกี่ยวข้อง |
+| **ค่ารหัสคำขอสรรหา**<br>_mshr_fk_recruitingrequest_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br> คีย์นอก: mshr_hcmrecruitingrequestentityid ของเอนทิตี mshr_hcmrecruitingrequestentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของคำขอการสรรหาบุคลากรที่เกี่ยวข้อง |
+| **รหัสทักษะ**<br>mshr_skillid<br>*สตริง*<br> | เขียนเพียงครั้งเดียว<br>จำเป็นต้องระบุ | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของทักษะจำเป็น |
+| **ค่ารหัสทักษะ**<br>_mshr_fk_skill_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmskillentityid ของเอนทิตี mshr_hcmskillentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของทักษะจำเป็น |
+| **รหัสระดับของการจัดอันดับ**<br>mshr_ratinglevelid<br>*สตริง* | เขียนเพียงครั้งเดียว<br>ไม่จำเป็นต้องระบุ | ค่าระดับทักษะที่ต้องการซึ่งเลือกไว้ให้กับงาน ตามรูปแบบการประเมินที่มอบหมายให้กับทักษะ |
+| **ค่ารหัสระดับการจัดอันดับ**<br>_mshr_fk_ratinglevel_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmratinglevelentityid ของเอนทิตี mshr_hcmratinglevelentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นสำหรับระดับ |
+| **คำอธิบายทักษะ**<br>mshr_skilldescription<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ | คำอธิบายทักษะ |
+| **คำอธิบายระดับการจัดอันดับ**<br>mshr_ratingleveldescription<br>*สตริง* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ | คำอธิบายของระดับทักษะที่เลือก |
+| **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
+| **ค่ารหัสพื้นที่ข้อมูล**<br>_mshr_dataareaid_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: cdm_companyid ของเอนทิตี cdm_company | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) |
+| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ | การเชื่อมต่อของค่าคำขอการสรรหาบุคลากรและรหัสทักษะเป็นวิธีการอื่นเพื่อระบุเรกคอร์ดเฉพาะ |
+| **รหัสแบบจำลองการจัดอันดับ**<br>mshr_ratingmodelid<br>*สตริง* | อ่าน-เขียน<br>จำเป็นต้องระบุ | แบบจำลองการประเมินที่ใช้เพื่อจัดอันดับทักษะ |
+| **ค่ารหัสแบบจำลองการจัดอันดับ**<br>_mshr_fk_hcmratingmodel_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmratingmodelentityid ของเอนทิตี mshr_hcmratingmodelentity | ตัวระบุที่เฉพาะที่ระบบสร้างขึ้นของแบบจำลองการประเมินที่ใช้ในการจัดอันดับทักษะ |
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[บทนํา API การรวมระบบการติดตามผู้สมัคร](hr-admin-integration-ats-api-introduction.md)<br>
+[ตัวอย่างการสอบถามเกี่ยวกับคำขอการสรรหาบุคลากร](hr-admin-integration-ats-api-recruiting-request-example-query.md)

@@ -1,6 +1,6 @@
 ---
 title: พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683419"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127580"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
@@ -86,6 +86,3 @@ ms.locfileid: "4683419"
 7.  เลือก **สิ่งที่แนบ** เพื่อดูบันทึกหรือไฟล์ใดๆ ที่แนบไปกับใบแจ้งหนี้
 8.  ในหน้า **รายละเอียกใบแจ้งหนี้** เลือกการดำเนินการลำดับงานที่เหมาะสม เพื่อดำเนินการกระบวนการตรวจทานให้เสร็จสมบูรณ์
 9.  เลือก **เสร็จสิ้น**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

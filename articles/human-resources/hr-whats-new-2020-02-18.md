@@ -1,8 +1,8 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (18 กุมภาพันธ์ 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 18 กุมภาพันธ์ 2020
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526990"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128076"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (18 กุมภาพันธ์ 2020)
 
@@ -43,17 +43,17 @@ ms.locfileid: "4526990"
 
 ไทล์การจัดการค่าตอบแทนคงที่และผันแปรแสดงเรกคอร์ดที่ถูกต้องในฟอร์ม **ผู้ปฏิบัติงาน** ใหม่ในขณะนี้ ใช้กับคุณลักษณะการแสดงตัวอย่างฟอร์มพนักงานที่มีประสิทธิภาพเท่านั้น คุณสามารถเปิดใช้งานคุณลักษณะการแสดงตัวอย่างนี้ได้ใน **การจัดการคุณลักษณะ** สำหรับข้อมูลเพิ่มเติม โปรดดู [จัดการผู้คุณลักษณะ](hr-admin-manage-features.md)
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>ฟิลด์สถานะว่างเปล่าสำหรับเรกคอร์ดคำขอลางานบางรายการใน Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>ฟิลด์สถานะว่างเปล่าสำหรับเรกคอร์ดคำขอลางานบางรายการใน Dataverse (414915)
 
-การเปลี่ยนแปลงนี้แก้ไขปัญหาใน Common Data Service เมื่อฟิลด์ **สถานะ** ในคำขอลางานถูกตั้งค่าเป็น **ตรวจทาน** Common Data Service ขณะนี้แสดงสถานะ
+การเปลี่ยนแปลงนี้แก้ไขปัญหาใน Dataverse เมื่อฟิลด์ **สถานะ** ในคำขอลางานถูกตั้งค่าเป็น **ตรวจทาน** Dataverse ขณะนี้แสดงสถานะ
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>การวิเคราะห์ช่องว่างของทักษะเป็นไปได้สำหรับงานที่มอบหมายเท่านั้น (411390)
 
 ขณะนี้คุณสามารถทำการวิเคราะห์ช่องว่างของทักษะสำหรับงานใดๆ ที่กำหนดไว้ในทรัพยากรบุคคล
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>สกุลเงินของระบบไม่ซิงค์จาก Common Data Service ไปยังทรัพยากรบุคคลในสภาพแวดล้อมใหม่ (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>สกุลเงินของระบบไม่ซิงค์จาก Dataverse ไปยังทรัพยากรบุคคลในสภาพแวดล้อมใหม่ (418011)
 
-ขณะนี้สกุลเงินของระบบใน Common Data Service สามารถซิงค์กับทรัพยากรบุคคลได้
+ขณะนี้สกุลเงินของระบบใน Dataverse สามารถซิงค์กับทรัพยากรบุคคลได้
 
 ## <a name="in-preview"></a>ในการแสดงตัวอย่าง
 
@@ -63,9 +63,9 @@ ms.locfileid: "4526990"
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-### <a name="updated-common-data-service-solution"></a>โซลูชัน Common Data Service ที่ปรับปรุง
+### <a name="updated-dataverse-solution"></a>โซลูชัน Dataverse ที่ปรับปรุง
 
-โซลูชัน Common Data Service ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
+โซลูชัน Dataverse ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
 
 | คำอธิบาย | เปลี่ยน |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ ms.locfileid: "4526990"
 | เอนทิตีการตั้งค่าค่าตอบแทนผันแปรใหม่ | **ชนิดแผนตัวแปรค่าตอบแทน**</br>**แผนค่าตอบแทนผันแปร**</br>**กฎสิทธิพึงได้**</br>**ระดับแผนตัวแปรค่าตอบแทน** |
 | เอนทตี **การจ้างงานในปฏิทินของผู้ปฏิบัติงาน** ใหม่ | เพิ่ม **เอนทิตีปฏิทินงาน** แล้ว |
 | เอนทตี **รายละเอียดตำแหน่งที่มีค่าจ้าง** ใหม่ | เพิ่ม **รายละเอียดตำแหน่งที่มีค่าจ้าง** แล้ว |
-| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Common Data Service จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
+| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Dataverse จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
@@ -84,5 +84,3 @@ ms.locfileid: "4526990"
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
