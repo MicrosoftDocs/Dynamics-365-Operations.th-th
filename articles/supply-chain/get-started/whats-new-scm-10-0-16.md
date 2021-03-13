@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.16
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626813"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5105000"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.16 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.689 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.16 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.689 และพร้อมใช้งานดังนี้:
 
 - **การแสดงตัวอย่างของการนำออกใช้:** พฤศจิกายน 2020
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตเอง):** มกราคม 2021
@@ -40,8 +38,11 @@ ms.locfileid: "4626813"
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
 - [อินเทอร์เฟสการดำเนินการผลิตที่กำหนดเองได้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-setup.md)
+
 - [Add-in การแสดงผลสินค้าคงคลังสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)
+
 - [ตรวจสอบความถูกต้องของป้ายทะเบียนบนรายการเอกสารต้นทาง](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/warehouse-configuration.md)
+
 - [การจัดรูปแบบการแสดงข้อมูลของปริมาณงานขาออกของการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดรูปแบบการแสดงข้อมูลของปริมาณงาน](../warehousing/outbound-workload-visualization.md).
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
@@ -88,7 +89,7 @@ ms.locfileid: "4626813"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update สำหรับแอป Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.16 ของแอป Finance and Operations (ตุลาคม 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.16 ของแอป Finance and Operations (กุมภาพันธ์ 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -110,6 +111,3 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 รวมถึง Platfo
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

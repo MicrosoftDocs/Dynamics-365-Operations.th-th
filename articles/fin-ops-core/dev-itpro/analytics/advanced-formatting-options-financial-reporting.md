@@ -1,7 +1,7 @@
 ---
 title: ตัวเลือกการจัดรูปแบบขั้นสูงในรายงานทางการเงิน
-description: เมื่อคุณสร้างรายงานในรายงานทางการเงิน ฟังก์ชันการจัดรูปแบบเพิ่มเติมจะพร้อมใช้งาน รวมถึงตัวกรองสำหรับขนาด ข้อจำกัดสำหรับคอลัมน์ และหน่วยการรายงาน แถวที่ไม่มีการพิมพ์ และคำสั่ง IF/THEN/ELSE ในการคำนวณ
-author: ryansandness
+description: หัวข้อนี้จะอธิบายถึงฟังก์ชันการจัดรูปแบบขั้นสูง ซึ่งรวมถึงตัวกรองข้อมูล ข้อจํากัด แถวที่ไม่มีการพิมพ์ และใบแจ้งยอดแบบมีเงื่อนไข ในการคํานวณ
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683174"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093173"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>ตัวเลือกการจัดรูปแบบขั้นสูงในรายงานทางการเงิน
 
@@ -310,6 +310,3 @@ ms.locfileid: "4683174"
 คุณสามารถออกแบบรายงานได้โดยใช้ค่ามิติที่มีเครื่องหมายและ (&)
 
 ภายในฟิลด์ **ลิงค์ไปยังมิติทางการเงิน** ใดๆ คุณสามารถป้อนค่าได้ เช่น **'P&L'** การรวมถึงใบเสนอราคาเดี่ยว (' ') ในทั้งสองด้านของค่ามิติ บ่งชี้ว่าคุณกำลังใช้ค่าตัวอักษร เช่น การรวมถึงเครื่องหมายและ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

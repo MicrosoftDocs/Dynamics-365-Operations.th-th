@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของประโยชน์
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ของประโยชน์ และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
+description: หัวข้อนี้อธิบายเนื้อหา Power BI ของประโยชน์
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687275"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093092"
 ---
 # <a name="benefits-power-bi-content"></a>เนื้อหา Power BI ของประโยชน์
 
@@ -69,6 +69,3 @@ ms.locfileid: "4687275"
 | ชื่อพนักงาน            | ชื่อจริง นามสกุล และชื่อเต็ม                                                                       | พนักงานปัจจุบัน พนักงานที่เลิกจ้างไปแล้ว แนวโน้มของพนักงาน |
 | ตำแหน่งของพนักงาน           | ตำแหน่งงานและวันที่อายุงาน                                                                                   | พนักงานปัจจุบัน พนักงานที่เลิกจ้างไปแล้ว แนวโน้มของพนักงาน |
 | แนวโน้มของพนักงาน           | ผู้ปฏิบัติงานล่วงเวลา จำนวนพนักงาน บริษัท และตำแหน่ง                                                        | บริษัท ค่าตอบแทน ที่ตั้งทางภูมิศาสตร์ ชื่อพนักงาน รายงานไปยัง ออฟเซ็ตของปฏิทิน วันที่ ชื่อพนักงาน ข้อมูลประชากร การจ้างงาน งาน ผลประโยชน์ |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

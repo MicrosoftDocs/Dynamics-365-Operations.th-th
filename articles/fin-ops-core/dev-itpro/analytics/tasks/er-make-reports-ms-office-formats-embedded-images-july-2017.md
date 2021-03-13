@@ -1,6 +1,6 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-description: ขั้นตอนในหัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างเอกสารทางอิเล็กทรอนิกส์ใน Microsoft Office formats (Excel และ Word) ที่ประกอบด้วยภาพที่ฝัง
+description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกที่สร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ Excel และ Word ที่ประกอบด้วยภาพที่ฝัง
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684414"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093681"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
 
@@ -90,6 +90,3 @@ ms.locfileid: "4684414"
  30. เลือก ใช่ ในฟิลด์ อนุญาตให้สร้างบันทึกย่อในบัญชีธนาคารที่ไม่ได้ใช้งานอยู่:  
  31. คลิก บันทึก  
  32. ปิดหน้า  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

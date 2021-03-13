@@ -3,35 +3,32 @@ title: โมดูลการรวบรวมผลิตภัณฑ์
 description: หัวข้อนี้แสดงภาพรวมของโมดูลการรวบรวมผลิตภัณฑ์ ใน Microsoft Dynamics 365 Commerce
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416000"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097114"
 ---
 # <a name="product-collection-modules"></a>โมดูลการรวบรวมผลิตภัณฑ์
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของโมดูลการรวบรวมผลิตภัณฑ์ ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 การค้นหาผลิตภัณฑ์เป็นเครื่องมือหลักที่ร้านค้าปลีกใช้ในการมีส่วนร่วมกับลูกค้าของตนบนเว็บไซต์อีคอมเมิร์ซ โมดูลการรวบรวมผลิตภัณฑ์ช่วยให้ผู้ค้าปลีกสร้างประสบการณ์การซื้อสินค้าที่น่าสนใจโดยการจัดหาอินเทอร์เฟสแสดงผลที่ใช้งานง่าย ซึ่งสามารถใช้ในการสร้างการรวบรวมผลิตภัณฑ์อย่างรวดเร็ว
 
@@ -67,6 +64,10 @@ ms.locfileid: "4416000"
 | สิ่งที่มักซื้อพร้อมกัน | ปัญญาประดิษฐ์/การเรียนรู้เครื่องจักร | โมดูลนี้ใช้ Machine Learning เพื่อวิเคราะห์รูปแบบการซื้อของลูกค้า และแนะนำสินค้าที่เกี่ยวข้องที่มีการซื้อพร้อมกับผลิตภัณฑ์ที่กำหนดบ่อยๆ รายการนี้สามารถแสดงผลลัพธ์ที่กำหนดเป็นแบบส่วนบุคคลสำหรับผู้ใช้ที่ลงชื่อเข้าสู่ระบบได้ หากผู้สร้างไซต์เลือกตัวเลือกนั้น |
 | ผู้คนชอบเช่นกัน           | ปัญญาประดิษฐ์/การเรียนรู้เครื่องจักร | โมดูลนี้ใช้ Machine Learning เพื่อวิเคราะห์รูปแบบการซื้อของลูกค้า และแนะนำสินค้าที่เกี่ยวข้องกับผลิตภัณฑ์ที่กำหนด รายการนี้สามารถแสดงผลลัพธ์ที่กำหนดเป็นแบบส่วนบุคคลสำหรับผู้ใช้ที่ลงชื่อเข้าสู่ระบบได้ หากผู้สร้างไซต์เลือกตัวเลือกนั้น |
 | เลือกมาสำหรับคุณ              | ปัญญาประดิษฐ์/การเรียนรู้เครื่องจักร | โมดูลนี้ใช้ Machine Learning เพื่อวิเคราะห์รูปแบบการซื้อของผู้ใช้ที่ลงชื่อเข้าใช้ และให้คำแนะนำที่กำหนดเป็นแบบส่วนบุคคลที่ขึ้นอยู่กับรูปแบบการซื้อเหล่านั้น สำหรับผู้ใช้ที่เป็นแขก รายการนี้จะถูกยุบ |
+
+## <a name="supported-modules"></a>โมดูลที่รองรับ 
+
+โมดูลชุดผลิตภัณฑ์สนับสนุน [โมดูลมุมมองด่วน](quick-view-module.md) ซึ่งช่วยให้ผู้ใช้ดูข้อมูลผลิตภัณฑ์และเพิ่มสินค้าลงในรถเข็นจากหน้าชุดผลิตภัณฑ์
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>เพิ่มโมดูลการรวบรวมผลิตภัณฑ์ให้กับหน้าประเภท
 
@@ -110,5 +111,4 @@ ms.locfileid: "4416000"
 
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[โมดูลมุมมองด่วน](quick-view-module.md)

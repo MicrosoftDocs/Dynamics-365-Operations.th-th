@@ -1,6 +1,6 @@
 ---
 title: การกำหนดลักษณะผู้ใช้ในผู้ออกแบบรายงานทางการเงิน
-description: บทความนี้อธิบายวิธีการตั้งค่าการกำหนดลักษณะผู้ใช้เพื่อปรับแต่งการโต้ตอบของผู้ใช้ของคุณในผู้ออกแบบรายงานทางการเงิน และควบคุมประสบการณ์การเข้าสู่ระบบเริ่มต้น นอกจากนี้คุณสามารถควบคุมวิธีแสดงแต่ละรายงาน ไลบรารีรายงาน และตำแหน่งที่ตั้งไฟล์เริ่มต้น
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าการกำหนดลักษณะผู้ใช้เพื่อปรับแต่งการโต้ตอบของผู้ใช้ของคุณในผู้ออกแบบรายงานทางการเงิน และควบคุมประสบการณ์การเข้าสู่ระบบเริ่มต้น
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687388"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093198"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>การกำหนดลักษณะผู้ใช้ในผู้ออกแบบรายงานทางการเงิน
 
@@ -72,6 +72,3 @@ ms.locfileid: "4687388"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

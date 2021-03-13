@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
-description: หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683882"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093397"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
+# <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับการวิเคราะห์การบัญชีต้นทุน
 
 [!include [banner](../includes/banner.md)]
 
@@ -123,6 +123,3 @@ ms.locfileid: "4683882"
 | ปฏิทินทางการเงิน                   | ปฏิทิน คำอธิบายเกี่ยวกับปฏิทิน                                                                                       |
 | ปีบัญชี                       | ปีปฏิทิน                                                                                                        |
 | รอบระยะเวลาทางบัญชี                     | รอบระยะเวลาปีปฏิทิน                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

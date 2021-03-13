@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4448588"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104240"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>สร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 
 [!include [banner](../includes/banner.md)]
-
-
-
-บริการ add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์จะรับผิดชอบสำหรับจัการดเก็บข้อมูลทางธุรกิจทั้งหมดของคุณในทรัพยากร Microsoft Azure ที่เป็นของบริษัทของคุณ เพื่อให้แน่ใจว่าการบริการทำงานได้อย่างถูกต้อง และมีการเข้าถึงข้อมูลทางธุรกิจทั้งหมดที่จำเป็นสำหรับและสร้างขึ้นโดย add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์โดย add-on เท่านั้น คุณต้องสร้างทรัพยากร Azure หลักสองอย่างต่อไปนี้
-
-- บัญชีการจัดเก็บของ Azure (ที่เก็บ Blob) เพื่อจัดเก็บใบแจ้งหนี้อิเล็กทรอนิกส์
-- Azure Key Vault สำหรับจัดเก็บใบรับรองและ Uniform Resource Identifier (URI) ของบัญชีการจัดเก็บ
-
-> [!NOTE]
-> ต้องมีการปันส่วนทรัพยากร Key Vault เฉพาะและการจัดเก็บของ Blob ของลูกค้าโดยเฉพาะ สำหรับใช้กับ add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
@@ -91,6 +80,3 @@ ms.locfileid: "4448588"
 9. ในกล่องโต้ตอบ **หลัก** ให้เลือกหลักโดยการเพิ่ม **add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์**
 10. เลือก **เพิ่ม** แล้วเลือก **บันทึกการเปลี่ยนแปลง Key Vault**
 11. บนหน้า **ภาพรวม** สำเนาค่า **ชื่อ DNS** สำหรับ Key Vault ค่านี้จะใช้ในระหว่างการตั้งค่าของบริการใน RCS และจะถูกอ้างอิงเป็น *URI ของ Key Vault*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

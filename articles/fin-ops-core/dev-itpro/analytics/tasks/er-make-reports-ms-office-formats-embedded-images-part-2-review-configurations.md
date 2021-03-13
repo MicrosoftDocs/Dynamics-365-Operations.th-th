@@ -1,6 +1,6 @@
 ---
 title: ตรวจทานการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-description: เมื่อต้องการทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำตามขั้นตอนในคู่มืองาน "ER ทำรายงานในรูปแบบ MS Office ที่มีรูปภาพที่ฝัง (ส่วนที่ 1 - ตั้งค่าพารามิเตอร์)"
+description: หัวข้อนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงาน เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ที่ประกอบด้วยภาพที่ฝัง (ส่วนที่ 1 - ตั้งค่าพารามิเตอร์)
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3eee6300350dd96c34f2eab44704d1895e6171ff
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684366"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093656"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>ตรวจทานการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
 
@@ -91,6 +91,3 @@ ms.locfileid: "4684366"
     * ป้ายชื่อบางรายการที่แสดงอยู่ในฟอร์มเช็คที่พิมพ์ไว้ล่วงหน้าจะถูกรวมในรายงาน เมื่อมีการสร้างขึ้นเพื่อวัตถุประสงค์ในการทดสอบ อย่างไรก็ตาม จะไม่สามารถพิมพ์ป้ายชื่อเหล่านั้นในระหว่างการพิมพ์จริงได้ เนื่องจากฟอร์มที่พิมพ์ไว้ล่วงหน้าได้รวมรายการเหล่านั้นไว้แล้ว  
 15. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

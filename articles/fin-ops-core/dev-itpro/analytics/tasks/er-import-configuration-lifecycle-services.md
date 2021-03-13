@@ -1,6 +1,6 @@
 ---
 title: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) รุ่นใหม่จาก Microsoft Dynamics Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการนําเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เวอร์ชันใหม่ จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684462"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093706"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 
@@ -103,6 +103,3 @@ ms.locfileid: "4684462"
     สำหรับตัวอย่างนี้ เลือกรุ่นของการตั้งค่าคอนฟิกซึ่งมีสถานะเป็น **ใช้ร่วมกัน**
 
     สังเกตว่า รุ่นที่ใช้ร่วมกัน 1 ของการตั้งค่าคอนฟิกรูปแบบข้อมูลที่เลือกพร้อมใช้งานแล้วในขณะนี้
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

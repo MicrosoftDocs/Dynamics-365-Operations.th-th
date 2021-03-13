@@ -1,7 +1,7 @@
 ---
 title: เนื้อหา Power BI ข้อมูลจริงเทียบกับงบประมาณ
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ข้อมูลจริงเทียบกับงบประมาณ และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
-author: ryansandness
+description: หัวข้อนี้อธิบายเนื้อหา Power BI ข้อมูลจริงเทียบกับงบประมาณ ซึ่งอธิบายวิธีการเข้าถึงรายงาน และแสดงข้อมูลเกี่ยวกับรูปแบบข้อมูล
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685284"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093859"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>เนื้อหา Power BI ข้อมูลจริงเทียบกับงบประมาณ
 
@@ -57,6 +57,3 @@ ms.locfileid: "4685284"
 | บัญชีแยกประเภท                   | บัญชีแยกประเภทที่สามารถนำมาใช้เพื่อกรองข้อมูลรายงานในบัญชีแยกประเภทปัจจุบันได้              |
 | รหัสงบประมาณ              | รหัสงบประมาณเพื่อกรองข้อมูลรายงานโดย                                                |
 | นิติบุคคล            | นิติบุคคลที่สามารถนำมาใช้เพื่อกรองข้อมูลรายงานในนิติบุคคลปัจจุบันได้ |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

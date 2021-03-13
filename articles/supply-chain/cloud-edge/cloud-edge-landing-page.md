@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 28301cdfb86d00ea6f04e996fe7fb1485e83b2d4
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516888"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104975"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า
 
@@ -165,7 +164,7 @@ Microsoft จะตรวจสอบความถูกต้องของ�
 
 > [!IMPORTANT]
 > เมื่อคุณตั้งค่าคอนฟิก cloud scale unit คุณสามารถ [ทำตามขั้นตอนทั้งหมดที่จำเป็นในพอร์ทัล Scale Unit Manager](#scale-unit-manager-portal)
-<!-- >
+<!-- 
 > If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>จัดการ scale unit และปริมาณงานในระบบ cloud โดยใช้พอร์ทัล Scale Unit Manager
@@ -176,7 +175,7 @@ Microsoft จะตรวจสอบความถูกต้องของ�
 
 เมื่อต้องการเพิ่ม scale unit หนึ่งหน่วยขึ้นไปที่มีอยู่ในโทโพโลยีของคุณ ให้เลือก **เพิ่ม scale unit** ในการแสดงตัวอย่าง คุณควรเห็น cloud scale unit ที่คุณปรับใช้จากรหัสโปรโมชันอย่างใดอย่างหนึ่งที่คุณได้รับเป็นส่วนหนึ่งของโปรแกรมแสดงตัวอย่าง
 
-<!-- > [!IMPORTANT]
+<!--  [!IMPORTANT]
 > In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
 บนแท็บ **ปริมาณงานที่กำหนด** ให้ใช้ปุ่ม **สร้างปริมาณงาน** เพื่อเพิ่มการจัดการคลังสินค้าหรือปริมาณงานการดำเนินการผลิตเป็น scale unit หนึ่งของคุณ สำหรับแต่ละปริมาณงาน คุณต้องระบุบริบทของกระบวนการที่จะเป็นของปริมาณงาน สำหรับปริมาณงานการจัดการคลังสินค้า บริบทคือคลังสินค้าเฉพาะ ในไซต์ที่ระบุ และนิติบุคคล สำหรับปริมาณการดำเนินการผลิต บริบทคือไซต์ที่ระบุ ในนิติบุคคล
@@ -189,6 +188,3 @@ Microsoft จะตรวจสอบความถูกต้องของ�
 <!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
 In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

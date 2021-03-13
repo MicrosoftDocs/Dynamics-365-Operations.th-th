@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถเผยแพร่ความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนไปยังความปลอดภัยระดับแถวใน Microsoft Power BI ฟังก์ชันนี้ช่วยรับประกันว่าผู้ใช้เห็นเฉพาะข้อมูล Power BI ที่พวกเขาได้รับอนุญาตให้เข้าถึง
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถเผยแพร่ความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนไปยังความปลอดภัยระดับแถวใน Microsoft Power BI
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d54ced21de112288c2f98c0bc895ca0d49c217e3
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682200"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093366"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหาของ Power BI เกี่ยวกับการบัญชีต้นทุน
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,6 +63,3 @@ ms.locfileid: "4682200"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับแถวของ Power BI ดู [จัดการความปลอดภัยในแบบจำลองของคุณใน Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

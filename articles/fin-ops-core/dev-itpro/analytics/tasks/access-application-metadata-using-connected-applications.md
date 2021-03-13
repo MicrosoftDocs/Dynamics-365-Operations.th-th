@@ -1,6 +1,6 @@
 ---
 title: เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้แอพลิเคชันที่เชื่อมต่อ
-description: ขั้นตอนในหัวข้อนี้จะอธิบายวิธีการที่ผู้ใช้ Regulatory configuration service (RCS) สามารถออกแบบการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ โดยใช้ข้อมูลเมตาใน Finance and Operations
+description: ขั้นตอนในหัวข้อนี้จะอธิบายวิธีการที่ผู้ใช้ Regulatory configuration service สามารถออกแบบการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ใหม่โดยใช้ข้อมูลเมตา
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682152"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093341"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้แอพลิเคชันที่เชื่อมต่อ
 
@@ -113,6 +113,3 @@ ms.locfileid: "4682152"
 11. ปิดหน้า 
 
 เมื่อคุณต้องการประเมินการแม็ปแบบจำลองนี้โดยใช้ข้อมูลเมตาของแอพลิเคชันรุ่นอื่น ลงทะเบียนแอพลิเคชันอื่นที่เชื่อมต่อ กำหนดให้กับการแม็ปแบบจำลองนี้ และตรวจสอบความถูกต้องเทียบกับข้อมูลเมตาใหม่
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

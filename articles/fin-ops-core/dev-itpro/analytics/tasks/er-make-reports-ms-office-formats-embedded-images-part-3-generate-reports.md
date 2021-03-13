@@ -1,6 +1,6 @@
 ---
 title: สร้างรายงานในรูปแบบ Office ที่ได้ฝังรูปภาพ
-description: ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ที่มีบทบาท ‘ผู้ดูแลระบบ‘ หรือ ‘นักพัฒนาการรายงานทางอิเล็กทรอนิกส์’ สามารถออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ MS office (Excel และ Word) ที่มีรูปภาพที่ฝัง
+description: หัวข้อนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ใน Excel และ Word ที่ประกอบด้วยภาพที่ฝัง
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684391"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093834"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>สร้างรายงานในรูปแบบ Office ที่ได้ฝังรูปภาพ
 
@@ -119,6 +119,3 @@ ms.locfileid: "4684391"
 23. คลิก ตกลง 
     * ตรวจทานผลลัพธ์ที่สร้างขึ้น ผลลัพธ์ได้ถูกสร้างขึ้นโดยเป็นเอกสาร Word ด้วยรูปภาพแบบฝังที่นำเสนอโลโก้บริษัท ลายเซ็นของบุคคลที่ได้รับอนุญาตและข้อความลายน้ำที่เลือก  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
