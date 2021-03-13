@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566036c6361194d910a0fc34bd5d72147585ec4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438389"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016563"
 ---
 # <a name="asset-lifecycle-states"></a>สถานะของวงจรการใช้ของสินทรัพย์
 
@@ -70,6 +69,3 @@ ms.locfileid: "4438389"
 
 6. เลือก **การปรับปรุงสถานะของวงจรการใช้** เพื่อกำหนดสถานะของวงจรการใช้สินทรัพย์ที่สามารถทำตามสถานะของวงจรการใช้ที่เลือกได้
 7. คุณใช้ FastTab **สถานะสินทรัพย์** ถ้าคุณจัดการกับสินทรัพย์ที่คุณได้รับสำหรับการซ่อมแซม ในส่วน **ขาเข้า/ขาออก** คุณสามารถเลือกสถานะของวงจรการใช้ของสินทรัพย์เพื่อบ่งชี้ลำดับงานของสินทรัพย์ที่คุณได้รับสำหรับการซ่อมแซม หากคุณมีสินทรัพย์ที่ให้ยืมแก่ลูกค้าหรือแผนกในส่วน **การกู้ยืม** คุณสามารถเลือกสถานะของวงจรการใช้สำหรับสินทรัพย์ที่ให้ยืมได้
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: เนื้อหา Power BI การจัดการค่าใช้จ่าย
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI ของการจัดการค่าใช้จ่าย
-author: RyanSand
+author: panolte
 manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9391676beea6aac831648d5fa55eae5eba3f6397
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682808"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016463"
 ---
 # <a name="expense-management-power-bi-content"></a>เนื้อหา Power BI การจัดการค่าใช้จ่าย
 
@@ -93,6 +93,3 @@ ms.locfileid: "4682808"
 | สถิติของพนักงาน | รายงานค่าใช้จ่ายตามชนิดต้นทุน            |
 |                     | ค่าใช้จ่ายส่วนบุคคล                       |
 |                     | รายงานค่าใช้จ่ายโดยเรียงตามกลุ่มสถิติ     |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
