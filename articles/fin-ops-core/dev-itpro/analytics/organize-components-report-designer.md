@@ -1,6 +1,6 @@
 ---
 title: ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
-description: หลังจากที่คุณได้ออกแบบบล็อคส่วนประกอบและสร้างรายงานแล้ว คุณควรจัดเรียงออบเจ็กต์เหล่านี้เพื่อให้ผู้ใช้สามารถค้นหาได้ง่ายขึ้น บทความนี้อธิบายถึงวิธีการจัดระเบียบรายงานที่มีอยู่ บล็อคส่วนประกอบ และออบเจ็กต์ในตัวออกแบบรายงาน
+description: หัวข้อนี้อธิบายถึงวิธีการจัดระเบียบรายงานที่มีอยู่ บล็อคส่วนประกอบ และออบเจ็กต์ในตัวออกแบบรายงาน
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685822"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092434"
 ---
 # <a name="organize-report-components-in-report-designer"></a>ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
 
@@ -148,6 +148,3 @@ ms.locfileid: "4685822"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

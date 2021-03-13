@@ -1,6 +1,6 @@
 ---
 title: เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI
-description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687412"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092827"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>เนื้อหาประสิทธิภาพการทำงานของคลังสินค้าใน Power BI
 
@@ -111,6 +111,3 @@ ms.locfileid: "4687412"
 | ประสิทธิภาพการจัดส่ง        | ที่จัดส่งแล้วโดยเรียงตามผลิตภัณฑ์                       | CustPackingSlipOnTimeStatus           | ก่อนเวลา ตรงเวลา และล่าช้า (ดูคำอธิบายในตารางนี้ก่อนหน้านี้) |
 | ประสิทธิภาพการจัดส่ง        | ที่จัดส่งแล้วโดยเรียงตามลูกค้า                      | CustPackingSlipOnTimeStatus           | ก่อนเวลา ตรงเวลา และล่าช้า (ดูคำอธิบายในตารางนี้ก่อนหน้านี้) |
 | ประสิทธิภาพการจัดส่ง        | ที่จัดส่งแล้วโดยเรียงตามไซต์ / คลังสินค้า              | CustPackingSlipOnTimeStatus           | ก่อนเวลา ตรงเวลา และล่าช้า (ดูคำอธิบายในตารางนี้ก่อนหน้านี้) |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

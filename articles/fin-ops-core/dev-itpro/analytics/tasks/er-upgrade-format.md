@@ -1,6 +1,6 @@
 ---
 title: ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น
-description: ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถรักษาการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: หัวข้อนี้อธิบายวิธีการรักษาการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b76fb09ff961a3100b6a4bf890c1b12e6a0a2771
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684275"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092577"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น
 
@@ -243,6 +243,3 @@ Litware, Inc. ต้องอัพเดตการตั้งค่าคอ
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>ทดสอบรูปแบบที่กำหนดเองสำหรับการสร้างไฟล์การชำระเงิน
 ดำเนินการขั้นตอนให้เสร็จสมบูรณ์ในกระบวนงาน "ใช้รูปแบบที่สร้างไว้เพื่อสร้างเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงิน" ในรอบเวลา Finance and Operations แบบขนาน เลือกรูปแบบ 'BACS (การกำหนดเองแบบสมมติของ UK)' ในพารามิเตอร์วิธีการชำระเงินทางอิเล็กทรอนิกส์ ตรวจสอบให้แน่ใจว่าไฟล์การชำระเงินที่สร้างประกอบด้วยข้อมูลที่นำมาใช้ล่าสุดโดยโหนด XML ของ Proseware, Inc. ซึ่งแสดงรหัส IBAN ที่สอดคล้องกับความต้องการทางภูมิภาค ไฟล์นี้ยังควรประกอบด้วยข้อมูลที่นำมาใช้ล่าสุดโดยโหนด XML ของ Litware, Inc. ซึ่งแสดงรหัส SWIFT ที่สอดคล้องกับความต้องการของประเทศ  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

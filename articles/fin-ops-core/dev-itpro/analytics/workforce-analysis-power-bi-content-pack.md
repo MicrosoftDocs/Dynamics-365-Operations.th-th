@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของการวัดของพนักงาน
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ของการวัดของพนักงาน และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายเนื้อหา Power BI ของการวัดของพนักงาน
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687362"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092802"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>เนื้อหา Power BI ของการวัดของพนักงาน
 
@@ -86,6 +86,3 @@ ms.locfileid: "4687362"
 | แนวโน้มของพนักงาน           | ผู้ปฏิบัติงานล่วงเวลา จำนวนพนักงาน บริษัท และตำแหน่ง                                 | บริษัท ที่ตั้งทางภูมิศาสตร์ ชื่อพนักงาน รายงานไปยัง ออฟเซ็ตของปฏิทิน วันที่ ชื่อพนักงาน ข้อมูลประชากร การจ้างงาน งาน |
 | โครงการจ้างงานโดยรวม        | หมายเลขโครงการจ้างงานโดยรวม เจ้าของโครงการ และสถานะของโครงการ                     | บริษัท การจ้างงานโดยรวม |
 | รายการจ้างงานโดยรวม           | แผนก ชนิดการจ้างงาน และตำแหน่ง                                           | วันที่ งาน โครงการจ้างงานโดยรวม |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

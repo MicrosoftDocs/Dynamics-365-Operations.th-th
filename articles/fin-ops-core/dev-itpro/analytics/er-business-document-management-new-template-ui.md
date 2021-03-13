@@ -1,6 +1,6 @@
 ---
 title: ส่วนติดต่อผู้ใช้เอกสารใหม่ในการจัดการเอกสารทางธุรกิจ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้ส่วนติดต่อผู้ใช้เอกสารใหม่ (UI) ในคุณลักษณะการจัดการเอกสารทางธุรกิจของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้ส่วนติดต่อผู้ใช้เอกสารใหม่ ในคุณลักษณะการจัดการเอกสารทางธุรกิจของการรายงานทางอิเล็กทรอนิกส์
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681363"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092236"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>ส่วนติดต่อผู้ใช้เอกสารใหม่ในการจัดการเอกสารทางธุรกิจ
+# <a name="new-document-user-interface-in-business-document-management"></a>อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ในการจัดการเอกสารทางธุรกิจ
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ ms.locfileid: "4681363"
 ปุ่ม **เอกสารใหม่** ใช้ในการสร้างและแก้ไขแม่แบบในการกำหนดค่ารูปแบบรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดทำโดยผู้ให้บริการรายอื่น ตัวอย่างในหัวข้อนี้ ผู้ให้บริการ คือ Microsoft เมื่อคุณเลือก **เอกสารใหม่** คุณสามารถดูแม่แบบทั้งหมดที่เป็นของผู้ให้บริการปัจจุบันและผู้ให้บริการรายอื่นได้ หลังจากที่คุณเลือกแม่แบบแล้ว แม่แบบจะเปิดให้แก้ไขได้ จากนั้น เท็มเพลตที่แก้ไขจะถูกจัดเก็บไว้ในการตั้งค่าคอนฟิกรูปแบบ ER ใหม่ที่สร้างขึ้นโดยอัตโนมัติ
 
 สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595001"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053424"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>เปิดใช้งานวิธีการจัดส่งหลายครั้งสำหรับใบสั่งของลูกค้า
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 ใน Microsoft Dynamics 365 Commerce รุ่น10.0.16 และรุ่นที่ใหม่กว่า องค์กรสามารถกำหนดวิธีการจัดส่งหลายวิธีให้กับผู้ซื้อหรือบริษัทผู้ขายสามารถเลือกได้เมื่อสร้างใบสั่งที่จะมีการเบิกสินค้าที่ร้านค้า ในลักษณะนี้ องค์กรสามารถให้ตัวเลือกการเบิกสินค้าได้หลายตัวเลือกสำหรับผู้ซื้อ ตัวอย่างเช่น ในขณะนี้ร้านค้าปลีกจำนวนมากให้ผู้ซื้อเลือกเบิกสินค้าในร้านค้าหรือรับสินค้าหน้าร้านสำหรับใบสั่งซื้อ Commerce สนับสนุนการตั้งค่าคอนฟิกของวิธีการจัดส่งที่แตกต่างกันเหล่านี้ ใช้จะสามารถใช้ประโยชน์จากแล้วเมื่อสร้างใบสั่งของลูกค้าในช่องทาง Commerce ใด ๆ ที่ได้รับการสนับสนุน (อีคอมเมิร์ซ ศูนย์บริการ หรือร้านค้า)
 
@@ -86,6 +85,3 @@ ms.locfileid: "4595001"
 ## <a name="considerations-for-distributed-order-management"></a>การตั้งค่าคอนฟิกสำหรับการจัดการใบสั่งแบบกระจาย
 
 ลักษณะการทำงาน [การจัดการใบสั่งแบบกระจาย (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) ใน Commerce ละเว้นบรรทัดการขายใด ๆ ที่ทำเครื่องหมายไว้สำหรับการเบิกสินค้าของร้านค้า ลักษณะการทำงานเหล่านี้ได้รับการอัพเดตแล้วเพื่อให้แน่ใจว่าบรรทัดการขายที่เชื่อมโยงกับวิธีการจัดส่งของการจัดส่งที่ตั้งค่าคอนฟิกข้ามตรรกะ DOM และจะไม่ถูกจัดสรรไปยังคลังสินค้าการเติมสินค้าใหม่
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

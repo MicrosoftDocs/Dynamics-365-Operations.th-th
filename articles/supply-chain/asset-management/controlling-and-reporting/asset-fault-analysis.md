@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e911f7ca3b67acd9d5a1b170d8c99135da730847
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438598"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022392"
 ---
 # <a name="asset-fault-analysis"></a>การวิเคราะห์ข้อบกพร่องของสินทรัพย์
 
@@ -109,6 +108,3 @@ ms.locfileid: "4438598"
 >[!NOTE]
 >สำหรับภาพรวมของการลงทะเบียนความผิดพลาดทั้งหมดที่สร้างขึ้นในใบสั่งงานและคำขอการบำรุงรักษา คลิก **การจัดการสินทรัพย์** > **การสอบถาม** > **ข้อบกพร่องของสินทรัพย์** > **ข้อบกพร่องของสินทรัพย์** บนหน้า **ข้อบกพร่องของสินทรัพย์** ให้เลือกการลงทะเบียนข้อบกพร่องของสินทรัพย์ที่และขยายหน้าต่าง **ข้อมูลที่เกี่ยวข้อง** เพื่อดูข้อมูลเกี่ยวกับใบสั่งงานหรือคำขอการบำรุงรักษาที่เกี่ยวข้อง
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

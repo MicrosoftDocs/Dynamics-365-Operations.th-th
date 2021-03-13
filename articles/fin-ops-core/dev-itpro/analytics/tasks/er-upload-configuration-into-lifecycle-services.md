@@ -1,6 +1,6 @@
 ---
 title: อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) และอัปโหลดลงใน Microsoft Dynamics Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ และอัปโหลดไปยัง Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684174"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092552"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684174"
     ระบบควรแสดงการตั้งค่าคอนฟิก ER ที่คุณอัปโหลดไว้
 
     โปรดทราบว่า การตั้งค่าคอนฟิก LCS ที่อัปโหลดสามารถถูกนำเข้าไปยังอินสแตนซ์อื่นได้ หากผู้ให้บริการมีการเข้าถึงไปยังโครงการ LCS นี้
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

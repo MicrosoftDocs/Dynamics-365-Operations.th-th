@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438554"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043404"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>ขยายเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือ
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management มีคุณลักษณะ [ความสามารถในการเพิ่มฟังก์ชัน](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) ซึ่งช่วยให้คุณสามารถ [เพิ่มฟิลด์ลงในตารางผ่านส่วนขยาย](../../fin-ops-core/dev-itpro/extensibility/add-field-extension) หัวข้อนี้มีตัวอย่างที่แสดงวิธีการเพิ่มฟิลด์แบบขยายลงในมุมมอง `INVENTORSITEONHANDENTITY` และ `INVENTWAREHOUSEONHANDENTITY` เพื่อให้สามารถทำงานกับเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือที่สามารถทำงานร่วมกับส่วนขยายได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเอนทิตี้ข้อมูล โปรดดูที่ [ภาพรวมของการจัดการข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
+Microsoft Dynamics 365 Supply Chain Management มีคุณลักษณะ [ความสามารถในการเพิ่มฟังก์ชัน](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) ซึ่งช่วยให้คุณสามารถ [เพิ่มฟิลด์ลงในตารางผ่านส่วนขยาย](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md) หัวข้อนี้มีตัวอย่างที่แสดงวิธีการเพิ่มฟิลด์แบบขยายลงในมุมมอง `INVENTORSITEONHANDENTITY` และ `INVENTWAREHOUSEONHANDENTITY` เพื่อให้สามารถทำงานกับเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือที่สามารถทำงานร่วมกับส่วนขยายได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเอนทิตี้ข้อมูล โปรดดูที่ [ภาพรวมของการจัดการข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 > [!NOTE]
 > ต่อไปนี้เป็นรายการเอนทิตี้ข้อมูลของปริมาณสินค้าคงคลังคงเหลือบางรายการ:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 หลังจากที่คุณทำตามขั้นตอนต่อไปนี้แล้ว คุณสามารถขยายปริมาณสินค้าคงคลังคงเหลือโดยเรียงตามไซต์และปริมาณสินค้าคงคลังคงเหลือโดยใช้เอนทิตี้ข้อมูลคลังสินค้าโดยการเพิ่มฟิลด์ใหม่ ด้วยวิธีนี้ คุณต้องตรวจสอบให้แน่ใจว่ามีการรับรู้และรวมฟิลด์แบบขยายในระหว่างการย้ายข้อมูลที่ใช้เอนทิตี้ข้อมูลเหล่านั้น
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

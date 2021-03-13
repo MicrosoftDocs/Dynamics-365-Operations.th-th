@@ -1,6 +1,6 @@
 ---
 title: ออกแบบนิพจน์ ER เพื่อเรียกใช้วิธีการของคลาสแอพลิเคชัน
-description: คู่มือนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ซ้ำตรรกะแอพลิเคชันที่มีอยู่ในการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ (ER) โดยการเรียกใช้วิธีที่ต้องการของคลาสแอพลิเคชันในนิพจน์ ER
+description: หัวข้อนี้อธิบายวิธีการใช้ซ้ำตรรกะแอปพลิเคชันที่มีอยู่ในการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์ โดยการเรียกใช้วิธีที่ต้องการของคลาสแอปพลิเคชัน
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682032"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092096"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ออกแบบนิพจน์ ER เพื่อเรียกใช้วิธีการของคลาสแอพลิเคชัน
 
@@ -157,6 +157,3 @@ ms.locfileid: "4682032"
 2. คลิก ตกลง
     * ตรวจสอบเอาท์พุทในรูปแบบ XML ซึ่งแสดงข้อมูลที่ได้ถูกนำเข้าจากไฟล์ที่เลือก และถูกนำไปยังแบบจำลองข้อมูล โปรดทราบว่า มีการประมวลผลรายการของไฟล์ TXT ที่นำเข้า 3 รายการเท่านั้น รหัส IBAN บนรายการที่ 4 ที่ไม่ถูกต้อง ถูกข้าม และมีการระบุข้อความแสดงข้อผิดพลาดใน Infolog  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

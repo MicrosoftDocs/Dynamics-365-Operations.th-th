@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98b8586eddc19d4567fb113e41d2ed13172c309e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d664fafb1a034794eaf6b555f2e8ba3d26264dc1
+ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408631"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "5060616"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
@@ -32,12 +31,11 @@ ms.locfileid: "4408631"
 - [รายงานบัตรสินค้าคงคลัง](apac-tha-stock-card-reports.md)
 - [หมายเลขของใบกำกับภาษีการปรับปรุง/ใบแทน](apac-tha-substitution-and-adjustment-invoices.md)
 - [VAT ที่ยังไม่รับรู้ของประเทศไทย](apac-tha-unrealized-vat.md)
+- [มิติสำนักงานสาขาย่อยที่ยื่น](apac-tha-tax-branch-dimensions.md)
+- [รายงานภาษีขาย](apac-tha-sales-vat-report.md)
 - [ภาษีหัก ณ ที่จ่าย](apac-tha-withholding-tax.md)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [Microsoft Dynamics Localization Portal: รายงานของประเทศจีน](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/thailand.html)
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ CSV ภายนอก
-description: ใช้กระบวนงานนี้เพื่อออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อนำเข้าข้อมูลในแอพลิเคชัน Finance and Operations จากไฟล์ภายนอกในรูปแบบ CSV
+description: ใช้กระบวนงานนี้เพื่อออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าข้อมูลลงในแอป Finance and Operations จากไฟล์ภายนอกในรูปแบบ CSV
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682056"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092777"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ CSV ภายนอก
 
@@ -124,6 +124,3 @@ ms.locfileid: "4682056"
     * ตรวจสอบเอาท์พุทในรูปแบบ XML ซึ่งแสดงข้อมูลที่ได้ถูกนำเข้าจากไฟล์ที่เลือก และถูกนำไปยังแบบจำลองข้อมูล โปรดทราบว่า มีการประมวลผลรายการทั้ง 7 รายการของไฟล์ CSV ที่นำเข้า ชื่อของฟิลด์บรรจุ รายการที่ 1 ถูกข้าม ธุรกรรม 4 รายการถูกแยกวิเคราะห์อย่างถูกต้อง และมีการรับรู้ธุรกรรม 2 รายการว่าไม่ถูกต้อง
 3. ปิดหน้า
 4. ปิดหน้า
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

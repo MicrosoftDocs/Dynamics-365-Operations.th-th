@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4416261"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032944"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
 
@@ -117,6 +116,9 @@ ms.locfileid: "4416261"
 
 ![กริดปุ่มเค้าโครงแบบย่อ](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> ขนาดของปุ่มในตัวออกแบบจะปรับขนาดให้พอดีกับขนาดของหน้าต่าง ดังนั้นขนาดของหน้าต่างจึงอาจสะท้อนถึงปุ่มจริงที่แสดงใน POS ไม่ถูกต้อง เมื่อต้องการจําเลยโครงร่างกริดปุ่มอย่างดีที่สุด ให้ปรับหน้าต่างของตัวออกแบบให้มีขนาดเดียวกันกับ POS
+
 ### <a name="images"></a>รูป
 
 สำหรับขนาดโครงร่างแต่ละขนาดในโครงร่างหน้าจอ คุณสามารถระบุรูปที่จะรวมไว้ใน POS UI ได้ สำหรับโครงร่าง POS แบบเต็ม คุณสามารถระบุรูปเดี่ยวสำหรับหน้าจอต้อนรับได้ รูปภาพนี้ปรากฏขึ้นเป็นองค์ประกอบ UI แรกทางด้านซ้าย บนหน้าจอ **ธุรกรรม** คุณสามารถใช้รูปภาพเป็นรูปภาพของแท็บหรือเป็นโลโก้ได้ โครงร่าง POS แบบย่อไม่ต้องใช้รูปเหล่านี้
@@ -205,6 +207,3 @@ ms.locfileid: "4416261"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

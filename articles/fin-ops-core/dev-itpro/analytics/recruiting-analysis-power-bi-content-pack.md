@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI การสรรหาบุคลากร
-description: หัวข้อนี้อธิบายเนื้อหา Power BI การสรรหาบุคลากร และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายเนื้อหา Power BI การสรรหาบุคลากร
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680573"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092752"
 ---
 # <a name="recruiting-power-bi-content"></a>เนื้อหา Power BI การสรรหาบุคลากร
 
@@ -64,6 +64,3 @@ ms.locfileid: "4680573"
 | ประสิทธิภาพ          | การจัดอันดับ คำอธิบาย และแบบจำลองการจัดอันดับ                            | ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน |
 | โครงการสรรหาบุคลากร  | คำอธิบายโครงการ สถานะโครงการ และตำแหน่งที่เปิดรับ                | ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน |
 | ผู้สมัครที่สิ้นสุดการจ้างงาน | ผู้สมัครที่ถูกสิ้นสุดงานแล้ว เหตุผล ประสิทธิภาพการทำงาน และวันที่สิ้นสุด | บริษัท ออฟเซ็ตปฏิทิน วันที่ ที่ตั้งทางภูมิศาสตร์ ประสิทธิภาพ สถิติประชากร การจ้างงาน สื่อ โครงการสรรหาบุคลากร ชื่อผู้สมัคร |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
