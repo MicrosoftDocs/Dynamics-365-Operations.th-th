@@ -1,5 +1,5 @@
 ---
-title: นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น
+title: เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
 description: หัวข้อนี้อธิบายวิธีการนำเข้าข้อมูลโดยใช้เท็มเพลตเอนทิตีข้อมูล Excel ลงใน Finance and Operations
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688090"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130592"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>นำเข้าข้อมูลจากเท็มเพลตเอนทิตีข้อมูล Excel ที่มีแผ่นงานหลายแผ่น
+# <a name="data-templates-with-multiple-worksheets"></a>เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ ms.locfileid: "4688090"
 ## <a name="upload-a-file-using-run-project"></a>อัพโหลดไฟล์โดยใช้ รันโครงการ
 
 คุณสามารถอัปโหลดไฟล์ Excel ได้ในขณะที่ใช้ตัวเลือก **รันโครงการ** เพื่อดำเนินการโครงการที่นำเข้าได้ คุณต้องระมัดระวังในการอัพโหลดเฉพาะไฟล์ที่มีแผ่นงานเหมือนกับการแม็ปที่มีอยู่ในเอนทิตี้ข้อมูลในโครงการข้อมูล ถ้าไม่พบแผ่นงานในไฟล์ที่เพิ่งอัพโหลด ระบบจะแสดงข้อผิดพลาด และจะหยุดการนำเข้า ถ้าต้องเปลี่ยนการแม็ปไปยังแผ่นงานสำหรับเอนทิตี้ การแม็ปในโครงการข้อมูลจึงต้องมีการอัพเดตจากภายในโครงการข้อมูลเป็นอันดับแรก ก่อนที่จะใช้ไฟล์ในประสบการณ์ **รันโครงการ**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

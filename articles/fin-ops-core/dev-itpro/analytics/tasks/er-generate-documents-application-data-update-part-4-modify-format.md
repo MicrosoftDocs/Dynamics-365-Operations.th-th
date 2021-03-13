@@ -1,6 +1,6 @@
 ---
 title: แก้ไขรูปแบบเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
-description: เมื่อต้องการทำขั้นตอนในกระบวนงานนี้ให้เสร็จเรียบร้อย ก่อนอื่นคุณต้องดำเนินกระบวนงาน ”สร้างเอกสารที่มีการอัพเดตข้อมูลแอพลิเคชัน (ส่วนที่ 3 - แก้ไขแบบจำลองและการแม็ป) ของ ER” ให้เสร็จเรียบร้อยก่อน
+description: หัวข้อนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงาน เพื่อสร้างเอกสารอิเล็กทรอนิกส์ส์และอัพเดตข้อมูลแอพลิเคชัน
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684558"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129408"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>แก้ไขรูปแบบเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 
@@ -149,6 +149,3 @@ ms.locfileid: "4684558"
 46. ปิดหน้า
 47. ปิดหน้า
 48. ปิดหน้า
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

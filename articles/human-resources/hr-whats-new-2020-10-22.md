@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 22 ตุลาคม 2020
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Human Resources
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 22 ตุลาคม 2020
 author: jcart1106
 manager: tfehr
 ms.date: 10/22/2020
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 41b4e92720c6a9f830d940900c3c6e5b0a173de0
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529993"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130842"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 22 ตุลาคม 2020
 
@@ -76,7 +75,7 @@ ms.locfileid: "4529993"
 | --- | --- | --- |
 | แอป Human Resources ใน Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
 | คำขอและการอนุมัติลำดับงานที่ดีขึ้น | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| เอนทิตีเสมือนใน Common Data Service สำหรับทรัพยากรบุคคล | [ขยายข้อมูลหลัก Dynamics 365 Human Resources ใน Common Data Service](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md) |
+| เอนทิตีเสมือนใน Dataverse สำหรับทรัพยากรบุคคล | [ขยายข้อมูลหลัก Dynamics 365 Human Resources ใน Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [ตั้งค่าคอนฟิกเอนทิตีเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
 | การรวมกับ LinkedIn Talent Hub | [การรวมกับ LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [รวมกับ LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
 | ลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ | [ลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [ลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](https://aka.ms/MSSCustomLinks) |
 
@@ -91,6 +90,3 @@ ms.locfileid: "4529993"
 [ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

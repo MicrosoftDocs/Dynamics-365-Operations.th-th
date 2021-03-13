@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกัน
 description: คุณต้องตั้งค่าพารามิเตอร์ที่ใช้ร่วมกันสำหรับเรกคอร์ดที่ใช้ร่วมกันระหว่างบริษัท เช่นเรกคอร์ดตำแหน่ง บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7b399e0e8972a15837648d7ae6ec0eaacb5196b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420706"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130434"
 ---
 # <a name="configure-shared-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกัน
 
@@ -45,6 +45,3 @@ ms.locfileid: "4420706"
 
 -   **ตลอดเวลา** – คุณไม่สามารถมอบหมายผู้ปฏิบัติงานไปยังตำแหน่งใหม่เมื่อตำแหน่งนั้นถูกสร้าง เมื่อตำแหน่งดังกล่าวถูกสร้างขึ้น วันที่และเวลาของ **ความพร้อมในการกำหนด** ในแท็บ **ทั่วไป** ของ **ตำแหน่ง** จะถูกตั้งค่าโดยอัตโนมัติเป็นวันที่และเวลาที่สร้าง
 -   **ไม่มีวัน** – คุณไม่สามารถมอบหมายผู้ปฏิบัติงานไปยังตำแหน่งใหม่เมื่อตำแหน่งนั้นถูกสร้าง ถ้าคุณเลือกตัวเลือกนี้ คุณต้องเปิดหน้า **ตำแหน่ง** สำหรับแต่ละตำแหน่งใหม่เมื่อพร้อมใช้งาน จากนั้น ในแท็บ **ทั่วไป** ป้อนวันที่ **พร้อมใช้งานสำหรับการกำหนด** เพื่อเปิดใช้งานการกำหนดผู้ปฏิบัติงาน
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: แก้ไขปัญหาที่เกี่ยวข้องกับการปรับปรุงแอป Finance and Operations
+title: แก้ไขปัญหาจากการอัปเกรดของแอป Finance and Operations
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับการแก้ไขปัญหาซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่เกี่ยวข้องกับการปรับปรุงแอป Finance and Operations
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683610"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131232"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>แก้ไขปัญหาที่เกี่ยวข้องกับการปรับปรุงแอป Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>แก้ไขปัญหาจากการอัปเกรดของแอป Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "4683610"
 
 **บทบาทที่จำเป็นในการแก้ไขปัญหา:** ผู้ดูแลระบบ
 
-คุณอาจได้รับข้อความแสดงข้อผิดพลาดที่คล้ายกับตัวอย่างต่อไปนี้ เมื่อคุณพยายามใช้เอนทิตี้ **DualWriteProjectConfiguration** เพื่อปรับปรุงแอป Finance and Operations เป็น Platform update 30
+คุณอาจได้รับข้อความแสดงข้อผิดพลาดที่คล้ายกับตัวอย่างต่อไปนี้ เมื่อคุณพยายามใช้ตาราง **DualWriteProjectConfiguration** เพื่ออัพเดตแอป Finance and Operations เป็น Platform update 30
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 8. เลือก **ซิงโครไนส์** เพื่อทำการซิงโครไนส์ฐานข้อมูลแบบเต็ม
 9. หลังจากการซิงโครไนส์ฐานข้อมูลทั้งหมดเสร็จเรียบร้อยแล้ว รันขั้นตอนการซิงโครไนส์ฐานข้อมูลอีกครั้งใน Microsoft Dynamics Lifecycle Services (LCS) และใช้สคริปต์การอัพเกรดด้วยตนเองตามความเหมาะสม เพื่อให้คุณสามารถดำเนินการปรับปรุงต่อไปได้
 
-## <a name="missing-entity-fields-issue-on-maps"></a>ปัญหาฟิลด์เอนทิตี้ที่หายไปบนแผนที่
+## <a name="missing-table-columns-issue-on-maps"></a>ปัญหาคอลัมน์ตารางที่ขาดหายไปในแผนผัง
 
 **บทบาทที่จำเป็นในการแก้ไขปัญหา:** ผู้ดูแลระบบ
 
@@ -70,27 +70,24 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 *ฟิลด์แหล่งข้อมูลที่ขาดหายไป \<field name\> ในเค้าร่าง*
 
-![ตัวอย่างของข้อความแสดงข้อผิดพลาดของฟิลด์ต้นทางที่ขาดหายไป](media/error_missing_field.png)
+![ตัวอย่างของข้อความแสดงข้อผิดพลาดของคอลัมน์ต้นทางที่ขาดหายไป](media/error_missing_field.png)
 
-เมื่อต้องการแก้ไขปัญหานี้ อันดับแรกให้ทำตามขั้นตอนเหล่านี้เพื่อตรวจสอบให้แน่ใจว่าฟิลด์อยู่ในเอนทิตี้
+เมื่อต้องการแก้ไขปัญหานี้ อันดับแรกให้ทำตามขั้นตอนเหล่านี้เพื่อตรวจสอบให้แน่ใจว่าคอลัมน์อยู่ในตาราง
 
 1. ลงชื่อเข้าใช้ใน VM สำหรับแอป Finance and Operations
-2. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกไทล์ **พารามิเตอร์กรอบงาน** และจากนั้น บนแท็บ **การตั้งค่าตาราง** เลือก **รีเฟรชรายการเอนทิตี** เพื่อรีเฟรชตาราง
-3. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกแท็บ **ตารางข้อมูล** และตรวจสอบให้แน่ใจว่ามีการแสดงรายการเอนทิตี้ ถ้าไม่มีการแสดงรายการเอนทิตี้ ให้ลงชื่อเข้าใช้ใน VM สำหรับแอป Finance and Operations และตรวจสอบให้แน่ใจว่าเอนทิตี้พร้อมใช้งาน
+2. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกไทล์ **พารามิเตอร์กรอบงาน** และจากนั้น บนแท็บ **การตั้งค่าตาราง** เลือก **รีเฟรชรายการตาราง** เพื่อรีเฟรชตาราง
+3. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกแท็บ **ตารางข้อมูล** และตรวจสอบให้แน่ใจว่ามีการแสดงรายการตาราง ถ้าไม่มีการแสดงรายการตาราง ให้ลงชื่อเข้าใช้ใน VM สำหรับแอป Finance and Operations และตรวจสอบให้แน่ใจว่าตารางพร้อมใช้งาน
 4. เปิดหน้า **การแม็ปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอป Finance and Operations
-5. เลือก **รีเฟรชรายการเอนทิตี้** เพื่อเติมข้อมูลในฟิลด์โดยอัตโนมัติในการแม็ปตาราง
+5. เลือก **รีเฟรชรายการตาราง** เพื่อเติมข้อมูลคอลัมน์โดยอัตโนมัติในการแม็ปตาราง
 
 ถ้ายังไม่มีการแก้ไขปัญหา ให้ทำตามขั้นตอนเหล่านี้
 
 > [!IMPORTANT]
-> ขั้นตอนเหล่านี้จะให้คำแนะนำเกี่ยวกับกระบวนการลบเอนทิตี้ แล้วเพิ่มอีกครั้ง เมื่อต้องการหลีกเลี่ยงปัญหา ให้ตรวจสอบให้แน่ใจว่าได้ปฏิบัติตามขั้นตอนต่างๆ อย่างแม่นยำ
+> ขั้นตอนเหล่านี้จะให้คำแนะนำเกี่ยวกับกระบวนการลบตาราง แล้วจากนั้น เพิ่มอีกครั้ง เมื่อต้องการหลีกเลี่ยงปัญหา ให้ตรวจสอบให้แน่ใจว่าได้ปฏิบัติตามขั้นตอนต่างๆ อย่างแม่นยำ
 
 1. ในแอป Finance and Operations ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** และเลือกไทล์ **ตารางข้อมูล**
-2. ค้นหาเอนทิตี้ที่ขาดแอททริบิวต์ คลิก **ปรับเปลี่ยนการแม็ปเป้าหมาย** ในแถบเครื่องมือ
+2. ค้นหาตารางที่ขาดแอททริบิวต์ คลิก **ปรับเปลี่ยนการแม็ปเป้าหมาย** ในแถบเครื่องมือ
 3. บนบานหน้าต่าง **แม็ปการแบ่งระยะไปยังเป้าหมาย** คลิก **สร้างการแม็ป**
 4. เปิดหน้า **การแม็ปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอป Finance and Operations
 5. ถ้าแอททริบิวต์ไม่ถูกเติมข้อมูลโดยอัตโนมัติบนแผนที่ ให้เพิ่มด้วยตนเองโดยการคลิกปุ่ม **เพิ่มแอททริบิวต์** แล้วคลิก **บันทึก** 
 6. เลือกแผนที่ และคลิก **รัน**
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

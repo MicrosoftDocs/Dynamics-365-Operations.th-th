@@ -1,5 +1,5 @@
 ---
-title: ซิงค์กับกลไกจัดการการกำหนดราคาของ Dynamics 365 Supply Chain Management
+title: ซิงค์ตามต้องการกับกลไกจัดการการกำหนดราคา Supply Chain Management
 description: หัวข้อนี้จะอธิบายวิธีการใช้กลไกการกำหนดราคาใน Microsoft Dynamics 365 Supply Chain Management จาก Dynamics 365 Sales
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457875"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130664"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>ซิงค์กับกลไกจัดการการกำหนดราคาของ Dynamics 365 Supply Chain Management
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>ซิงค์ตามต้องการกับกลไกจัดการการกำหนดราคา Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management รวมกลไกการก
 3. เพิ่มรายการในใบสั่งใหม่
 4. ถ้าคุณกำลังสร้างใบสั่งใหม่ ให้เลือก **ใบสั่งราคา** ในบานหน้าต่างการดำเนินการ ถ้าคุณกำลังปรับปรุงใบสั่งที่มีอยู่ ให้เลือก **คำนวณใหม่** ในบานหน้าต่างการดำเนินการ
 
-    ฟิลด์ต่อไปนี้จะถูกเติมโดยอัตโนมัติใน:
+    คอลัมน์ต่อไปนี้จะถูกเติมโดยอัตโนมัติใน:
 
     + ยอดรายละเอียด
     + % ส่วนลด
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management รวมกลไกการก
 
 ## <a name="how-it-works"></a>วิธีการทำงาน
 
-เมื่อคุณเลือก **ใบสั่งราคา** ในการขาย ฟังก์ชัน **ยอดรวม** บนแท็บ **ใบสั่งขาย \> มุมมอง** ใน Supply Chain Management ถูกเรียกสำหรับใบสั่งขายที่เกี่ยวข้อง ค่าในยอดรวมของใบสั่งใน Sales จะใช้ในการกรอกข้อมูลในฟิลด์ที่เกี่ยวข้องใน Supply Chain Management
+เมื่อคุณเลือก **ใบสั่งราคา** ในการขาย ฟังก์ชัน **ยอดรวม** บนแท็บ **ใบสั่งขาย \> มุมมอง** ใน Supply Chain Management ถูกเรียกสำหรับใบสั่งขายที่เกี่ยวข้อง ค่าในยอดรวมของใบสั่งใน Sales จะใช้ในการกรอกข้อมูลในคอลัมน์ที่เกี่ยวข้องใน Supply Chain Management
 
 เมื่อมีการคำนวณผลรวมของใบสั่งขายใน Supply Chain Management การคำนวณจะประเมินข้อตกลงทางการค้าที่มีอยู่และข้อตกลงการขายสำหรับลูกค้าและผลิตภัณฑ์ที่แสดงรายการอยู่ในใบสั่งขาย ข้อมูลนี้จะใช้เพื่อคำนวณผลรวม เมื่อมีการเลือก **ใบสั่งราคา** Sales จะสะท้อนถึงการตั้งค่าทั้งหมดที่มีการดำเนินการใน Supply Chain Management
 
 ## <a name="limitations"></a>การจำกัด
 
-เมื่อมีการกรอกข้อมูลในฟิลด์ใน Sales จะมีการใช้ข้อจำกัดต่อไปนี้:
+เมื่อมีการกรอกข้อมูลในคอลัมน์ใน Sales จะมีการใช้ข้อจำกัดต่อไปนี้:
 
 + การตั้งค่าค่าธรรมเนียมและการปันส่วนค่าธรรมเนียมใน Supply Chain Management ไม่ถูกคัดลอกใน Sales
-+ การกำหนดราคาไม่ได้พิจารณาการกำหนดราคาขายปลีกพิเศษที่ระบุไว้ในฟิลด์ **ช่องทางการขายปลีก** บนหน้ารายการใบสั่งขายใน Supply Chain Management
++ การกำหนดราคาไม่ได้พิจารณาการกำหนดราคาขายปลีกพิเศษที่ระบุไว้ในคอลัมน์ **ช่องทางการขายปลีก** บนหน้ารายการใบสั่งขายใน Supply Chain Management
 + ส่วนลดที่กำหนดในส่วน **การจัดการการให้ส่วนลดทางการค้า** ของ Supply Chain Management ไม่ได้รับการพิจารณา
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
+title: การนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
 description: หัวข้อนี้มีคำแนะนำสำหรับการนำเข้าข้อมูลลงในสมุดรายวันทั่วไปโดยใช้เอนทิตีสมุดรายวันทั่วไป
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687654"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129610"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>การนำเข้าใบสำคัญโดยใช้เอนทิตีสมุดรายวันทั่วไป
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ ms.locfileid: "4687654"
 - ถ้าฟิลด์ **หมายเลขใบสำคัญ** ถูกตั้งค่าเป็น **สร้างโดยอัตโนมัติ** การนำเข้าจะไม่สำเร็จ การตั้งค่า **สร้างโดยอัตโนมัติ** สำหรับฟิลด์ **หมายเลขใบสำคัญ** จะไม่ได้รับการสนับสนุน
 
 โดยค่าเริ่มต้น เอนทิตีสมุดรายวันทั่วไปใช้การประมวลผลตามการตั้งค่า หลังจากที่คุณประเมินความต้องการทางธุรกิจสำหรับองค์กรของคุณแล้ว คุณสามารถเปลี่ยนการตั้งค่า **การประมวลผลตามการตั้งค่า** ได้โดยการคลิก **เอนทิตีข้อมูล** ในพื้นที่ทำงาน **การจัดการข้อมูล** การประมวลผลตามการตั้งค่าถูกใช้เพื่อเร่งความเร็วกระบวนการนำเข้า ถ้าคุณไม่ได้ใช้การประมวลผลตามการตั้งค่า การนำเข้าของการนำเข้าเอนทิตีสมุดรายวันทั่วไปจะช้าลง
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

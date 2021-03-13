@@ -2,7 +2,7 @@
 title: ดูและจัดการการเปลี่ยนแปลงที่อยู่
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถดูและจัดการการเปลี่ยนแปลงที่อยู่ใน Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420708"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152064"
 ---
 # <a name="view-and-manage-address-changes"></a>ดูและจัดการการเปลี่ยนแปลงที่อยู่
 
@@ -125,9 +125,6 @@ ms.locfileid: "4420708"
 เมื่อคุณเลือกไทล์ **การเปลี่ยนแปลงที่อยู่** หน้าใหม่จะแสดงรายละเอียดของการเปลี่ยนแปลงที่อยู่ใดๆ คุณสามารถเลือก **รวมการเปลี่ยนแปลงที่อยู่ในอนาคต** ในมุมด้านขวาบนเพื่อแสดงการเปลี่ยนแปลงที่อยู่ด้วยวันที่ในอนาคต
 
 > [!NOTE]
-> ถ้าคุณต้องการรับข้อความแจ้งเตือนหรืออีเมลเกี่ยวกับการเปลี่ยนแปลงที่อยู่เหล่านี้ คุณสามารถสร้างกฎการแจ้งเตือนใหม่บนแท็บ **ตัวเลือก** ในบานหน้าต่างการดำเนินการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกฎการแจ้งเตือน ให้ดูที่ [สร้างกฎการแจ้งเตือน](/fin-ops-core/fin-ops/get-started/create-alert-rules.md)<br><br>
+> ถ้าคุณต้องการรับข้อความแจ้งเตือนหรืออีเมลเกี่ยวกับการเปลี่ยนแปลงที่อยู่เหล่านี้ คุณสามารถสร้างกฎการแจ้งเตือนใหม่บนแท็บ **ตัวเลือก** ในบานหน้าต่างการดำเนินการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกฎการแจ้งเตือน ให้ดูที่ [สร้างกฎการแจ้งเตือน](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts)<br><br>
 
-> ถ้าคุณต้องการตั้งค่าคอนฟิกลำดับงานสำหรับการเปลี่ยนแปลงที่อยู่ คุณสามารถเลือกตัวเลือก **ส่งจากภายนอก** ในกฎการแจ้งเตือนของคุณ แล้วใช้ Power Automate เพื่อทริกเกอร์เหตุการณ์ทางธุรกิจและตั้งค่าคอนฟิกลำดับงาน สำหรับข้อมูลเพิ่มเติม ให้ดู [การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ถ้าคุณต้องการตั้งค่าคอนฟิกลำดับงานสำหรับการเปลี่ยนแปลงที่อยู่ คุณสามารถเลือกตัวเลือก **ส่งจากภายนอก** ในกฎการแจ้งเตือนของคุณ แล้วใช้ Power Automate เพื่อทริกเกอร์เหตุการณ์ทางธุรกิจและตั้งค่าคอนฟิกลำดับงาน สำหรับข้อมูลเพิ่มเติม ให้ดู [การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events)

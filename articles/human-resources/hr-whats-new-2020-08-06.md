@@ -1,9 +1,9 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (06 สิงหาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 6 สิงหาคม 2020
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5f4a4de6cbed0a3ecb3e85782fac65d399731cf2
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528436"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129838"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (06 สิงหาคม 2020)
 
@@ -142,9 +142,9 @@ ms.locfileid: "4528436"
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-## <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Dataverse
 
-เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Dataverse
 
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
@@ -175,6 +175,3 @@ ms.locfileid: "4528436"
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

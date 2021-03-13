@@ -1,8 +1,8 @@
 ---
 title: การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
 description: คุณสามารถติดตามการเปลี่ยนแปลงไปยังตารางและฟิลด์ใน Dynamics 365 Human Resources ด้วยการบันทึกฐานข้อมูล
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420762"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129290"
 ---
 # <a name="configure-and-manage-database-logging"></a>การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
 
@@ -87,6 +87,3 @@ ms.locfileid: "4420762"
    - วันที่และเวลาที่สร้าง
 
 3. ใช้แท็บ **การล้างข้อมูลล็อกฐานข้อมูล** เพื่อกำหนดเวลาที่จะรันงานการล้างข้อมูลล็อก โดยค่าเริ่มต้น ล็อกฐานข้อมูลจะพร้อมใช้งานเป็นเวลา 30 วัน
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
