@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c66481b1dd8650960cad2947425c1e6c7450afcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438724"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154238"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
@@ -34,31 +33,31 @@ ms.locfileid: "4438724"
 ในพื้นที่ทำงาน **การจัดการข้อมูล** คุณสามารถดูภาพรวมของฟิลด์ทั้งหมดในเอนทิตี้ได้
 
 1. เปิดพื้นที่ทำงาน **การจัดการข้อมูล**
-2. คลิกไทล์ **เอนทิตี้ข้อมูล**
+2. เลือกไทล์ **เอนทิตี้ข้อมูล**
 3. ค้นหารายการเอนทิตี้สำหรับ **ความต้องการภายนอกในอดีต**
-4. คลิก **ฟิลด์เป้าหมาย** ฟิลด์เอนทิตี้ต่อไปนี้เป็นฟิลด์บังคับ: ไซต์ (**DeliveringSiteId**) วันที่ (**DemandDate**) ปริมาณ (**DemandQuantity**) และหมายเลขสินค้า (**ItemNumber**) หรือคีย์การปันส่วนสินค้า (**ProductAllocationKeyId**) อย่างใดอย่างหนึ่ง
+4. เลือก **ฟิลด์เป้าหมาย** ฟิลด์เอนทิตี้ต่อไปนี้เป็นฟิลด์บังคับ: ไซต์ (**DeliveringSiteId**) วันที่ (**DemandDate**) ปริมาณ (**DemandQuantity**) และหมายเลขสินค้า (**ItemNumber**) หรือคีย์การปันส่วนสินค้า (**ProductAllocationKeyId**) อย่างใดอย่างหนึ่ง
 
 เพื่อใช้เอนทิตีข้อมูล คุณต้องมีไฟล์ Microsoft Excel หรือไฟล์ค่าที่คั่นด้วยจุลภาค (CSV) ที่ประกอบด้วยข้อมูลความต้องการที่ผ่านมา ตัวอย่างต่อไปนี้แสดงวิธีการนำเข้าข้อมูลจากไฟล์ CSV
 
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนําเข้าข้อมูล รวมถึงวิธีการล้างข้อมูลหลังจากการนําเข้า โปรดดู [ภาพรวมของงานการนําเข้าและส่งออกข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) และหัวข้อที่เกี่ยวข้อง
+
 ## <a name="example"></a>ตัวอย่าง
 
-คุณสามารถใช้ไฟล์ต่อไปนี้เป็นตัวอย่างได้ ดาวน์โหลด [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast) ไฟล์นี้ประกอบด้วยข้อมูลความต้องการในอดีตสำหรับสินค้า D0001 ซึ่งประกอบด้วยฟิลด์บังคับต่อไปนี้เท่านั้น: ไซต์ ปริมาณ และวันที่ของความต้องการ
+คุณสามารถใช้ไฟล์ต่อไปนี้เป็นตัวอย่างได้ ดาวน์โหลด [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/) ไฟล์นี้ประกอบด้วยข้อมูลความต้องการในอดีตสำหรับสินค้า D0001 ซึ่งประกอบด้วยฟิลด์บังคับต่อไปนี้เท่านั้น: ไซต์ ปริมาณ และวันที่ของความต้องการ
 
 1. เลือกบริษัทที่จะนำเข้าข้อมูลความต้องการในอดีต
 2. เปิดพื้นที่ทำงาน **การจัดการข้อมูล**
-3. คลิกไทล์ **นำเข้า**
+3. เลือกไทล์ **นำเข้า**
 4. ป้อนชื่อสำหรับโครงการนำเข้า เช่น **นำเข้าความต้องการในอดีตสำหรับสินค้า D0001**
 5. ในฟิลด์ **รูปแบบข้อมูลต้นทาง** เลือกรูปแบบไฟล์ของไฟล์ที่คุณกำลังนำเข้า เมื่อต้องการนำเข้าไฟล์ HistoricalDemandData สำหรับตัวอย่างนี้ เลือก **CSV**
 6. ในฟิลด์ **ชื่อเอนทิตี้** เลือก **ความต้องการภายนอกในอดีต**
 7. บันทึกไฟล์ลงในคอมพิวเตอร์ของคุณ แล้วอัพโหลด
-8. คลิก **นำเข้า**
+8. เลือก **นำเข้า**
 9. หน้า **สรุปการดำเนินการ** เปิดขึ้นโดยอัตโนมัติ ตรวจสอบข้อมูลที่นำเข้าบนหน้า
 
 หลังจากที่คุณนำเข้าข้อมูลความต้องการในอดีต คุณสามารถสร้างการคาดการณ์ความต้องการได้
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)  
+[ภาพรวมของงานการนำเข้าและส่งออกข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)

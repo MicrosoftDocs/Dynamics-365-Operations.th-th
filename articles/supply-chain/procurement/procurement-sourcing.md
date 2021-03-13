@@ -1,7 +1,7 @@
 ---
 title: โฮมเพจการจัดซื้อและการจัดหา
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d189213a691d752f02160d7ed9b6f5f60329eebd
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438765"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154344"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -86,7 +85,7 @@ ms.locfileid: "4438765"
 ## <a name="prices-and-discounts"></a>ราคาและส่วนลด
 -   [ข้อตกลงการซื้อ](purchase-agreements.md)
 -   [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
--   [เงินคืนของผู้จัดจำหน่าย](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (เอกสาร)
+-   [เงินคืนของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics/s-e/) (เอกสาร)
 
 ## <a name="product-receipt-and-invoicing"></a>ใบรับสินค้าและการออกใบแจ้งหนี้
 -   [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
@@ -104,6 +103,3 @@ ms.locfileid: "4438765"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

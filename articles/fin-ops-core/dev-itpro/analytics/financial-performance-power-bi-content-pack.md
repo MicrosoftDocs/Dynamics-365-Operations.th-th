@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 53dbf90b09ce532731ecaabc45418926da6083d5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682756"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154372"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
@@ -87,7 +87,4 @@ ms.locfileid: "4682756"
 - บัญชีแยกประเภท
 - ChartofAccounts
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เพื่อรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงานMicrosoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi) สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เพื่อรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงานMicrosoft Excel](https://docs.microsoft.com/dynamics/s-e/) สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา

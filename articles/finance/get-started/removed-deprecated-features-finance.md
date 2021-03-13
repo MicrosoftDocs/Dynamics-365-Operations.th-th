@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689505"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154188"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -34,9 +33,19 @@ ms.locfileid: "4689505"
 รายการนี้มีไว้เพื่อช่วยคุณพิจารณาการลบออกและการยกเลิกการใช้งานเหล่านี้สำหรับการวางแผนของคุณเอง 
 
 > [!NOTE]
-> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://docs.microsoft.com/dynamics/s-e/) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.16
+
+### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>"การรายงาน VAT (CZ)" และรูปแบบการรายงานทางอิเล็กทรอนิกส์ "รายงานการควบคุมการส่งออก (CZ)" ของสาธารณรัฐเช็ก
+
+|   |  |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบใหม่ |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | ไม่ได้รับการสนับสนุน: โดยวันที่ 22 มกราคม 2022 เราวางแผนที่จะไม่สนับสนุนรูปแบบ "การรายงาน VAT (CZ)" อีกต่อไป "รายงานการควบคุมการส่งออก (CZ)" การรายงานทางอิเล็กทรอนิกส์ (ER) XML การรายงานภาษี VAT ใหม่ (CZ), EXCEL การรายงาน VAT (CZ), รูปแบบ XML (CZ) ของงบควบคุม VAT จะถูกแนะเส้นใต้รูปแบบ "การรายงานภาษี" แทน |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"รูปแบบการส่งออกธุรกรรมบัญชีแยกประเภท (BE)" รูปแบบการรายงานทางอิเล็กทรอนิกส์ และแบบจำลอง "การส่งออกธุรกรรมบัญชีแยกประเภท (BE)" ที่สอดคล้องกัน สำหรับเบลเยียม
 
@@ -107,6 +116,3 @@ ms.locfileid: "4689505"
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>ประกาศก่อนหน้านี้เกี่ยวกับคุณลักษณะที่ถูกลบหรือเลิกสนับสนุน
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับคุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนในรุ่นก่อนหน้านี้ ให้ดูที่ [คุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนในรุ่นก่อนหน้านี้](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
