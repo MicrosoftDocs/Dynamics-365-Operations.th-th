@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19b60d5fcfba995d08f12d0548f41a0c3d2781fb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448430"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012097"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
 
@@ -59,6 +58,3 @@ ms.locfileid: "4448430"
 2. เลือกลูกค้าที่มียอดดุล
 3. ขยายพื้นที่กล่องแสดง **ข้อมูลย่ออายุหนี้** เพื่อดูยอดดุลตามอายุหนี้ การกำหนดรอบระยะเวลาอายุหนี้สำหรับกล่องแสดงข้อมูลย่อจะนำมาจากค่าเริ่มต้นของข้อกำหนดรอบระยะเวลาอายุหนี้ที่ระบุในพารามิเตอร์  คุณสามารถเปลี่ยนโดยใช้เมนูการรวบรวม  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

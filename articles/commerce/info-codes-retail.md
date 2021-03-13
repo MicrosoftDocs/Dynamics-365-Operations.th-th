@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 046204d36e2fc7a69129aaf7fe027b2abc7e8dd9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416119"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012480"
 ---
 # <a name="info-codes-and-info-code-groups"></a>รหัสข้อมูลและกลุ่มรหัสข้อมูล
 
@@ -56,6 +55,3 @@ ms.locfileid: "4416119"
 **ตัวอย่างที่ 2: เชื่อมโยงรหัสข้อมูลกับกลุ่มรหัสข้อมูล**
 
 เมื่อคุณขายผลิตภัณฑ์บางอย่าง ตัวอย่างเช่น อุปกรณ์เคลื่อนที่ คุณต้องการรวบรวมชุดข้อมูลเฉพาะเสมอ เช่น หมายเลขโทรศัพท์ ตัวระบุอุปกรณ์เคลื่อนที่ (MEID) และหมายเลขลำดับประจำสินค้า อย่างไรก็ตาม คุณต้องการรวบรวมข้อมูลที่แตกต่างกันสำหรับแท็บเล็ตเทียบกับโทรศัพท์เคลื่อนด้วย คุณสามารถตั้งค่ากลุ่มรหัสข้อมูลที่รวมการแสดงสำหรับหมายเลขโทรศัพท์ MEID และหมายเลขลำดับประจำสินค้า แล้วเชื่อมโยงกลุ่มรหัสข้อมูลกับรหัสข้อมูลแต่ละตัว เมื่อรหัสข้อมูลเฉพาะของผลิตภัณฑ์มีการทริกเกอร์ กลุ่มรหัสข้อมูลก็สามารถมีการทริกเกอร์ถัดไป เพื่อให้คุณสามารถรวบรวมข้อมูลทั่วไปได้โดยไม่ต้องกำหนดรหัสข้อมูลที่เชื่อมโยงสำหรับแต่ละอุปกรณ์หลายชุด
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

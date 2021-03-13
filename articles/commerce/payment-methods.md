@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54bff6b7962ade09ea5c1f5f8d7721757dea1fc3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012377"
 ---
 # <a name="payment-methods"></a>วิธีการชำระเงิน
 
@@ -49,6 +48,3 @@ ms.locfileid: "4416140"
 2. สร้างชนิดของบัตรทั่วทั้งองค์กรและหมายเลขบัตร ถ้าบัตรเครดิตหรือบัตรเดบิตเป็นที่ยอมรับ คุณต้องสร้างวิธีการชำระเงินอีกหนึ่งรายการสำหรับบัตรบัตรเครดิตหรือบัตรเดบิต จากนั้น ให้สร้างชนิดของบัตรทั่วทั้งองค์กรและหมายเลขบัตร
 3. ตั้งค่าวิธีการชำระเงินของร้านค้า วิธีการชำระเงินการเชื่อมโยงกับร้านค้าแต่ละ และจากนั้น ป้อนการตั้งค่าร้านค้าเฉพาะสำหรับแต่ละวิธีการชำระเงิน
 4. ตั้งค่าวิธีการชำระเงินด้วยบัตรสำหรับร้านค้า สำหรับวิธีการชำระเงินใดๆที่เป็นที่ยอมรับในการจัดเก็บ ดำเนินการตั้งค่าบัตร
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

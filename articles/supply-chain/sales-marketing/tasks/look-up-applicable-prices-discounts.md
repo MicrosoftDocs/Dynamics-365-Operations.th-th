@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438284"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010783"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>ค้นหาราคาและส่วนลดที่เกี่ยวข้อง
 
@@ -60,6 +59,3 @@ ms.locfileid: "4438284"
     * มีสองรายการข้อตกลงส่วนลดสำหรับผลิตภัณฑ์ T0012 ระบุส่วนลด 5 เปอร์เซ็นต์สำหรับปริมาณรายการใบสั่งจาก 1 ถึง 10 และ ส่วนลด 7 เปอร์เซ็นต์สำหรับปริมาณใบสั่งสูงกว่า 10 โปรดทราบว่าส่วนลดที่ใช้กับกลุ่มของผลิตภัณฑ์ ในตัวอย่างนี้ กลุ่มรหัส 01 ผลิตภัณฑ์ใด T0012 เป็นสมาชิก  
 4. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

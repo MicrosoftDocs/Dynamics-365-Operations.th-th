@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438241"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011683"
 ---
 # <a name="inventory-journal-approval-workflows"></a>ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
 
@@ -31,6 +30,13 @@ ms.locfileid: "4438241"
 
 > [!NOTE]
 > ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลังจะใช้กับธุรกรรมที่บันทึกไว้โดยใช้โมดูลการบริหารสินค้าคงคลังเท่านั้น ผู้ใช้ไม่ได้ทำงานกับสมุดรายวันสินค้าคงคลังซึ่งทริกเกอร์มาจากโมดูลการบริหารคลังสินค้า
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>เปิดใช้งานคุณลักษณะลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
+
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+
+- **โมดูล:** *การจัดการสินค้าคงคลังและคลังสินค้า*
+- **ชื่อคุณลักษณะ:** *ลำดับงานการอนุมัติของสมุดรายวันสินค้าคงคลัง*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>สร้างลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลังของคุณ
 
@@ -112,6 +118,3 @@ ms.locfileid: "4438241"
 1. ในบานหน้าต่างนำทาง ให้ขยาย **การบริหารสินค้าคงคลัง \> รายการสมุดรายวัน \> รายการ** แล้วเลือกชนิดสมุดรายวันสินค้าคงคลัง
 1. เปิดสมุดรายวันที่เกี่ยวข้อง
 1. เลือกปุ่ม **ลำดับงาน** บนบานหน้าต่างการดำเนินการ เพื่อเปิดกล่องโต้ตอบแบบหล่นลง เลือก **ประวัติลำดับงาน** สำหรับข้อมูลเพิ่มเติม ให้ดู [ดูประวัติลำดับงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

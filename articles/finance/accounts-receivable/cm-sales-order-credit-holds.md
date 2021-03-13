@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448283"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012274"
 ---
 # <a name="credit-holds-for-sales-orders"></a>การระงับสินเชื่อสำหรับใบสั่งขาย
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ ms.locfileid: "4448283"
 ในปัจจุบันสามารถใช้การจัดการเครดิตสำหรับใบสั่งขายได้เท่านั้น ใบแจ้งหนี้ข้อความอิสระ ใบสั่งขายหน้าร้าน และใบสั่งของศูนย์บริการ จะใช้วงเงินสินเชื่อชั่วคราวและการประกันภัย/การค้ำประกันที่คุณเพิ่มเพื่อปรับปรุงวงเงินสินเชื่อ รายการเหล่านั้นจะไม่ใช้กฎการบล็อค และจะไม่มีการวางไว้ในรายการระงับ ถ้ามีปัญหากับวงเงินสินเชื่อ
 
 ไม่มีการสนับสนุนสำหรับใบแจ้งหนี้โครงการในการจัดการเครดิต
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
