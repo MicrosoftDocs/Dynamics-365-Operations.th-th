@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70713fb25584e26f97bcb7c769da6954aa36b81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b8b3de89235c6dac52f059af9665ea70f80d83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438146"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007810"
 ---
-# <a name="configuration-rules"></a><span data-ttu-id="d6bfa-104">กฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-104">Configuration rules</span></span>
+# <a name="configuration-rules"></a><span data-ttu-id="b550d-104">กฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="b550d-104">Configuration rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d6bfa-105">บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="d6bfa-106">กฎโครงแบบกำหนดความสัมพันธ์ระหว่างสินค้าในรายการวัสดุและส่วนประกอบ (BOM) สำหรับผลิตภัณฑ์ที่ใช้เทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
+<span data-ttu-id="b550d-105">บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="b550d-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="b550d-106">กฎโครงแบบกำหนดความสัมพันธ์ระหว่างสินค้าในรายการวัสดุและส่วนประกอบ (BOM) สำหรับผลิตภัณฑ์ที่ใช้เทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="b550d-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 
-<span data-ttu-id="d6bfa-107">กฎโครงแบบพร้อมใช้งานเมื่อคุณกำหนดแบบจำลองการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="d6bfa-108">กฎโครงแบบถูกใช้เพื่อบังคับใช้ หรือไม่อนุญาตในการรวมสินค้าเฉพาะในสูตรการผลิต (BOM)</span><span class="sxs-lookup"><span data-stu-id="d6bfa-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="d6bfa-109">หลัง BOM ได้ถูกสร้างแล้วและสินค้าเกี่ยวข้องได้ถูกกำหนดให้กับกลุ่มการกำหนดค่าที่สอดคล้องกันของพวกเขา มากกว่าหนึ่งกฎโครงแบบสามารถถูกกำหนดได้</span><span class="sxs-lookup"><span data-stu-id="d6bfa-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="d6bfa-110">ถ้าสินค้าสองรายการอยู่ร่วมกัน ตัวดำเนินการ **ที่เลือก** ถูกใช้เพื่อให้แน่ใจว่าเป็นการรวม</span><span class="sxs-lookup"><span data-stu-id="d6bfa-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="d6bfa-111">ถ้าสินค้าสองรายการเป็นแบบเฉพาะร่วมกัน ตัวดำเนินการ **ที่ยกเลิกการเลือก** ถูกใช้เพื่อให้แน่ใจว่าเป็นข้อยกเว้น</span><span class="sxs-lookup"><span data-stu-id="d6bfa-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
+<span data-ttu-id="b550d-107">กฎโครงแบบพร้อมใช้งานเมื่อคุณกำหนดแบบจำลองการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="b550d-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="b550d-108">กฎโครงแบบถูกใช้เพื่อบังคับใช้ หรือไม่อนุญาตในการรวมสินค้าเฉพาะในสูตรการผลิต (BOM)</span><span class="sxs-lookup"><span data-stu-id="b550d-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="b550d-109">หลัง BOM ได้ถูกสร้างแล้วและสินค้าเกี่ยวข้องได้ถูกกำหนดให้กับกลุ่มการกำหนดค่าที่สอดคล้องกันของพวกเขา มากกว่าหนึ่งกฎโครงแบบสามารถถูกกำหนดได้</span><span class="sxs-lookup"><span data-stu-id="b550d-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="b550d-110">ถ้าสินค้าสองรายการอยู่ร่วมกัน ตัวดำเนินการ **ที่เลือก** ถูกใช้เพื่อให้แน่ใจว่าเป็นการรวม</span><span class="sxs-lookup"><span data-stu-id="b550d-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="b550d-111">ถ้าสินค้าสองรายการเป็นแบบเฉพาะร่วมกัน ตัวดำเนินการ **ที่ยกเลิกการเลือก** ถูกใช้เพื่อให้แน่ใจว่าเป็นข้อยกเว้น</span><span class="sxs-lookup"><span data-stu-id="b550d-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
 
-<span data-ttu-id="d6bfa-112">**หมายเหตุ:** ข้อมูลนี้ใช้กับผลิตภัณฑ์หลักเท่านั้นที่ใช้เทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
+<span data-ttu-id="b550d-112">**หมายเหตุ:** ข้อมูลนี้ใช้กับผลิตภัณฑ์หลักเท่านั้นที่ใช้เทคโนโลยีการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="b550d-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
 
-<span data-ttu-id="d6bfa-113">โครงแบบที่มีอยู่ไม่ได้รับผลกระทบจากการเปลี่ยนแปลงในเวลาต่อมากับกฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="d6bfa-114">อย่างไรก็ตาม เป็นสิ่งสำคัญที่คุณได้ตั้งค่ากฎก่อนที่คุณกำหนดโครงแบบใหม่ และให้คุณตรวจสอบกฎถ้าคุณคิดว่ากฏได้ถูกเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="d6bfa-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
+<span data-ttu-id="b550d-113">โครงแบบที่มีอยู่ไม่ได้รับผลกระทบจากการเปลี่ยนแปลงในเวลาต่อมากับกฎโครงแบบ</span><span class="sxs-lookup"><span data-stu-id="b550d-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="b550d-114">อย่างไรก็ตาม เป็นสิ่งสำคัญที่คุณได้ตั้งค่ากฎก่อนที่คุณกำหนดโครงแบบใหม่ และให้คุณตรวจสอบกฎถ้าคุณคิดว่ากฏได้ถูกเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="b550d-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
 
-<span data-ttu-id="d6bfa-115">**หมายเหตุ:** สำหรับวิธี **ที่เลือก** กลุ่มการปรับเปลี่ยนที่ได้รับ หมายเลขสินค้า และโครงแบบที่ถูกเลือกโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="d6bfa-116">สำหรับวิธี **ที่ยกเลิกการเลือก** กลุ่มการปรับเปลี่ยนที่ได้รับ หมายเลขสินค้า และโครงแบบไม่สามารถเลือกได้</span><span class="sxs-lookup"><span data-stu-id="d6bfa-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
+<span data-ttu-id="b550d-115">**หมายเหตุ:** สำหรับวิธี **ที่เลือก** กลุ่มการปรับเปลี่ยนที่ได้รับ หมายเลขสินค้า และโครงแบบที่ถูกเลือกโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="b550d-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="b550d-116">สำหรับวิธี **ที่ยกเลิกการเลือก** กลุ่มการปรับเปลี่ยนที่ได้รับ หมายเลขสินค้า และโครงแบบไม่สามารถเลือกได้</span><span class="sxs-lookup"><span data-stu-id="b550d-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="d6bfa-117">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="d6bfa-117">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="b550d-117">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="b550d-117">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="d6bfa-118">ภาพรวมของการจัดโครงแบบผลิตภัณฑ์ตามมิติ</span><span class="sxs-lookup"><span data-stu-id="d6bfa-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
+[<span data-ttu-id="b550d-118">ภาพรวมของการจัดโครงแบบผลิตภัณฑ์ตามมิติ</span><span class="sxs-lookup"><span data-stu-id="b550d-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
 
 
 
