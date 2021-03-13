@@ -1,8 +1,8 @@
 ---
-title: จัดการคุณลักษณะ
+title: จัดการคุณลักษณะใน Human Resources
 description: เรียนรู้วิธีเปิดหรือปิดคุณลักษณะใหม่ใน Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420803"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114494"
 ---
-# <a name="manage-features"></a>จัดการคุณลักษณะ
+# <a name="manage-features-in-human-resources"></a>จัดการคุณลักษณะใน Human Resources
 
 เนื่องจากเป็นส่วนหนึ่งของการเปิดตัวความสามารถใหม่สำหรับ Microsoft Dynamics 365 Human Resources เราต้องการให้ลูกค้าพบกับคุณลักษณะใหม่โดยเร็วที่สุด เรามีคุณลักษณะตัวอย่างซึ่งเกือบพร้อมสำหรับการใช้งานทั่วไปแล้ว และได้ผ่านการทดสอบอย่างครอบคลุมแล้ว เรากำลังมองหาความคิดเห็นและการตรวจสอบความถูกต้องของลูกค้าในขั้นตอนสุดท้าย ก่อนที่เราจะนำคุณลักษณะเหล่านี้ออกไปใช้งานสำหรับความพร้อมใช้งานทั่วไป
 
@@ -94,5 +94,3 @@ ms.locfileid: "4420803"
 
 - [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md)
 - [แผนการเผยแพร่ Dynamics 365 และ Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

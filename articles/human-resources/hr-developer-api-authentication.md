@@ -2,7 +2,7 @@
 title: การรับรองความถูกต้อง
 description: บทความนี้แสดงข้อมูลภาพรวมเกี่ยวกับวิธีการรับรองความถูกต้องของข้อมูลอินเทอร์เฟสโปรแกรมประยุกต์ (API) ของ Microsoft Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 963bec2b817c59e3b5860c5ff5885e165ec8656a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420696"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115571"
 ---
 # <a name="authentication"></a>การรับรองความถูกต้อง
 
@@ -185,6 +185,3 @@ namespace TalentODataPoC
 ```
 
 หลังจากที่คุณได้ดึงโทเคนการเข้าถึงแล้ว คุณจะผ่านโทเคนในส่วนหัวของการตรวจสอบเป็นโทเคนผู้ถือสิทธิ์โดยมีคำขอแต่ละรายการที่คุณจะส่งไปยัง API ข้อมูลดังที่อธิบายไว้ข้างต้น
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

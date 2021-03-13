@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
 description: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420785"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114456"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
 
@@ -45,6 +45,3 @@ ms.locfileid: "4420785"
    | **อายุ** | อายุสูงสุดของผู้ที่มีความสัมพันธ์ส่วนบุคคลที่มีสิทธิ์สำหรับแผนสิทธิประโยชน์ ฟิลด์นี้จะเปิดใช้งานก็ต่อเมื่อคุณเลือกความสัมพันธ์เท่านั้น อายุนี้จะถูกใช้ในการเปรียบเทียบกับอายุที่คำนวณได้ของผู้ที่มีความสัมพันธ์ส่วนบุคคล อายุที่คำนวณได้คือ (วันที่มีความคุ้มครอง – วันเกิดของผู้ที่มีความสัมพันธ์ส่วนบุคคล / 365) ตัวเลขที่คำนวณได้จะเป็นจำนวนเต็มเสมอ |
 
 4. เลือก **บันทึก** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

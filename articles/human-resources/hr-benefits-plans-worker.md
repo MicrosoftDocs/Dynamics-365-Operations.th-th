@@ -2,7 +2,7 @@
 title: สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
 description: คุณสามารถสร้างแผนสวัสดิการของผู้ปฏิบัติงานใน Microsoft Dynamics 365 Human Resources เพื่อเลือกแผนสวัสดิการสำหรับพนักงาน และเพื่อยืนยันการเลือกแผนสวัสดิการ
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420715"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114484"
 ---
 # <a name="create-worker-benefit-plans"></a>สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
 
@@ -49,6 +49,3 @@ ms.locfileid: "4420715"
    | แผน | แท็บด่วนของ Plans มีแผนที่ตรงกับเกณฑ์ตัวกรองที่คุณระบุ ตัวเลือกการตั้งค่าคอนฟิกที่เกี่ยวข้องซึ่งตั้งค่าโดยเจ้าหน้าที่ฝ่ายทรัพยากรบุคคล และการเลือกการลงทะเบียนที่ถูกเลือกโดยพนักงานจะรวมไว้ในแต่ละบรรทัด ฟิลด์ที่เข้าเกณฑ์ระบุว่ามีความขัดแย้งในการตรวจสอบความถูกต้องกับการเลือกแผนหรือไม่ |
 
 4. เลือก **บันทึก**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: ความต้องการของระบบ
 description: บทความนี้อธิบายถึงข้อกำหนดสำหรับ Microsoft Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f68b8f642ada1345e7097b5e7220e222b132b1dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e7d7389c1bcf0f6024464e37b36d39efae5b832
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420796"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114418"
 ---
 # <a name="system-requirements"></a>ความต้องการของระบบ
 
@@ -64,6 +64,3 @@ ms.locfileid: "4420796"
 > ในขณะที่อินเทอร์เฟสผู้ใช้ถูกแปลเป็นภาษาอื่นๆ ข้อมูลผู้ใช้ทั้งหมดจะถูกจัดเก็บอยู่ในภาษาที่ป้อนไว้ คุณสามารถสร้างอีเมลและเท็มเพลตในภาษาอื่นๆ ได้ แต่ข้อมูล เช่น ข้อมูลการจัดกำหนดการพร้อมใช้งานเฉพาะในภาษาอังกฤษเท่านั้นในขณะนี้
 
 ถ้าคุณเป็นนักพัฒนาที่สนใจในการสร้างการเลือกกำหนดเฉพาะประเทศหรือภูมิภาค หรือในการสร้างโซลูชันสำหรับประเทศหรือภูมิภาคที่ Microsoft ไม่สนับสนุนในขณะนี้ โปรดดู [โลกาภิวัตน์](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

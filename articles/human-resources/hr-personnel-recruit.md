@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669193"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114369"
 ---
 # <a name="recruit-job-candidates"></a>สรรหาผู้สมัครงาน
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources ช่วยคุณในการจัดกา
 ถ้าคุณไม่ได้ใช้แอปพลิเคชันการสรรหาบุคลากรที่แยกต่างหาก คุณยังสามารถจัดการผู้สมัครในทรัพยากรบุคคลด้วยตนเองได้ด้วย
 
 >[!NOTE]
->ถ้าคุณเป็นผู้ดูแลระบบหรือนักพัฒนาและต้องการรวมทรัพยากรบุคคลกับแอปพลิเคชันการสรรหาบุคลากรที่สาม โปรดดูที่ [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md) และ [ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>ถ้าคุณเป็นผู้ดูแลระบบหรือนักพัฒนาและต้องการรวมทรัพยากรบุคคลกับแอปพลิเคชันการสรรหาบุคลากรที่สาม โปรดดูที่ [ตั้งค่าคอนฟิกการรวม Dataverse](hr-admin-integration-common-data-service.md) และ [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > นอกจากนี้ คุณยังสามารถพบแอปการรวมการสรรหาบุคลากรใน [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics) ได้ด้วย
 >
@@ -46,15 +46,13 @@ Dynamics 365 Human Resources ช่วยคุณในการจัดกา
 
 ## <a name="enable-recruiting-requests"></a>เปิดใช้งานคำขอสรรหาบุคลากร
 
-ถ้าคุณต้องการส่งคำขอสรรหาบุคลากรในทรัพยากรบุคคล ก่อนอื่นคุณต้องเปิดใช้งานฟังก์ชันใน **พารามิเตอร์ทรัพยากรบุคคล**
+ถ้าคุณต้องการส่งคำขอสรรหาบุคลากรในทรัพยากรบุคคล ก่อนอื่นคุณต้องเปิดใช้งานฟังก์ชันใน **พารามิเตอร์ทรัพยากรบุคคลที่แบ่งปัน**
 
 1. ในพื้นที่ทำงาน **การจัดการบุคลากร** ให้เลือก **ลิงค์**
 
-2. ภายใต้ **ตั้งค่า** พารามิเตอร์ **ทรัพยากรบุคคล**
+2. ภายใต้ **ตั้งค่า** เลือก **พารามิเตอร์ที่ใช้ร่วมกันของทรัพยากรบุคคล**
 
-3. บนแท็บ **ทั่วไป** ภายใต้ **การสรรหาบุคลากร** ให้ตั้งค่า **เปิดใช้งานคำขอการสรรหาบุคลากร** เป็น **ใช่**
-
-   ![เปิดใช้งานคำขอสรรหาบุคลากร](./media/hr-recruit-0-enable-requests.png)
+3. บนแท็บ **การสรรหา** ภายใต้ **การสรรหาบุคลากร** ให้ตั้งค่า **เปิดใช้งานคำขอการสรรหาบุคลากร** เป็น **ใช่**
 
 ## <a name="add-a-recruiting-request-location"></a>เพิ่มสถานที่ร้องขอการสรรหาบุคลากร
 
@@ -224,8 +222,6 @@ Dynamics 365 Human Resources ช่วยคุณในการจัดกา
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [จัดระเบียบบุคลากรของคุณ](hr-personnel-departments-jobs-positions.md)<br>
 [ตั้งค่าส่วนประกอบของงาน](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

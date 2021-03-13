@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกรายการหัก
 description: ใช้การหักลดใน Microsoft Dynamics 365 Human Resources เพื่อกำหนดจำนวนเงิน ถ้ามี เพื่อหักจากเงินเดือนของพนักงานสำหรับแต่ละสิทธิประโยชน์
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c84e44e784e18c82098d63909f198049ae5f995c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420681"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114443"
 ---
 # <a name="configure-deductions"></a>ตั้งค่าคอนฟิกรายการหัก
 
@@ -52,6 +52,3 @@ ms.locfileid: "4420681"
 4. การติดตามและรักษาการเปลี่ยนแปลงการตั้งค่าอัตราสิทธิประโยชน์ ให้เลือก **ดำเนินการ** จากนั้นเลือก **รักษาเวอร์ชัน**
 
 5. เลือก **บันทึก** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

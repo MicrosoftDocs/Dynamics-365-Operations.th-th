@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกการรวมกับการเงิน
 description: บทความนี้อธิบายถึงฟังก์ชันที่พร้อมใช้งานสำหรับการรวมจาก Dynamics 365 Human Resources และ Dynamics 365 Finance
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527937"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114458"
 ---
 # <a name="configure-integration-with-finance"></a>ตั้งค่าคอนฟิกการรวมกับ Finance
 
@@ -44,7 +44,7 @@ ms.locfileid: "4527937"
 
 โซลูชันการรวมจำเป็นต้องใช้ทรัพยากรบุคคลและการเงินรุ่นต่อไปนี้: 
 
-- Dynamics 365 Human Resources ใน Common Data Service
+- Dynamics 365 Human Resources ใน Dataverse
 - Dynamics 365 Finance รุ่น 7.2 และรุ่นที่ใหม่กว่า
 
 ## <a name="template-and-tasks"></a>เท็มเพลตและงาน
@@ -55,7 +55,7 @@ ms.locfileid: "4527937"
 
 2. เลือก **โครงการ** แล้วเลือก **โครงการใหม่** ในมุมด้านขวาบน สร้างโครงการใหม่สำหรับนิติบุคคลแต่ละรายที่คุณต้องการรวมเข้าไปใน Finance
 
-3. เลือก **Human Resources (Human Resources Common Data Service ไปยัง Finance**) เพื่อซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance
+3. เลือก **Human Resources (Human Resources Dataverse ไปยัง Finance**) เพื่อซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance
 
 เท็มเพลตใช้งานพื้นฐานต่อไปนี้ในการซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance:
 
@@ -81,14 +81,14 @@ ms.locfileid: "4527937"
 
 ### <a name="job-functions-to-compensation-job-function"></a>ฟังก์ชันงานสำหรับฟังก์ชันงานค่าตอบแทน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา) | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (ชื่อฟังก์ชัน cdm_Job)  | JOBFUNCTIONID (JOBFUNCTIONID)            |
 | cdm_description (cdm_description) | คำอธิบาย (คำอธิบาย)                 |
 
 ### <a name="departments-to-operating-unit"></a>แผนกไปยังหน่วยปฏิบัติงาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | ชื่อ (ชื่อ)                                 |
 | cdm_departmentnumber (cdm_departmentnumber) | OPERATINGUNITNUMBER (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ ms.locfileid: "4527937"
 
 ### <a name="job-types-to-compensation-job-type"></a>ชนิดงานไปยังชนิดงานค่าตอบแทน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service   | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)   | เอนทิตี้ Finance (ปลายทาง) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID (JOBTYPEID)                     |
 | cdm_description (cdm_description)   | คำอธิบาย (คำอธิบาย)                 |
@@ -105,7 +105,7 @@ ms.locfileid: "4527937"
 
 ### <a name="jobs-to-jobs"></a>งานไปยังงาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                           | เอนทิตี้ Finance (ปลายทาง)           |
+| ตาราง Dataverse (แหล่งที่มา)                           | เอนทิตี้ Finance (ปลายทาง)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ ms.locfileid: "4527937"
 
 ### <a name="jobs-to-job-detail"></a>งานไปยังรายละเอียดงาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid cdm_name (ชนิดงาน (ชื่อชนิดงาน))             | JOBTYPEID (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ ms.locfileid: "4527937"
 
 ### <a name="position-types-to-position-type"></a>ชนิดของตำแหน่งไปยังชนิดของตำแหน่ง
 
-| เอนทิตี (แหล่งที่มา) Common Data Service       | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)       | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID (POSITIONTYPEID)           |
 | cdm_description (cdm_description)       | คำอธิบาย (คำอธิบาย)                 |
@@ -134,13 +134,13 @@ ms.locfileid: "4527937"
 
 ### <a name="job-positions-to-base-position"></a>ตำแหน่งงานไปยังตำแหน่งฐาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>ตำแหน่งงานไปยังรายละเอียดตำแหน่ง
 
-| เอนทิตี (แหล่งที่มา) Common Data Service              | เอนทิตี้ Finance (ปลายทาง)       |
+| ตาราง Dataverse (แหล่งที่มา)              | เอนทิตี้ Finance (ปลายทาง)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name (งาน (ชื่อ))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ ms.locfileid: "4527937"
 
 ### <a name="job-positions-to-position-durations"></a>ตำแหน่งงานไปยังช่วงเวลาของตำแหน่ง
 
-| เอนทิตี (แหล่งที่มา) Common Data Service             | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)             | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)   | POSITIONID (POSITIONID)                      |
 | การเรียกใช้ที่คำนวณได้ (การเรียกใช้ที่คำนวณได้) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ ms.locfileid: "4527937"
 
 ### <a name="job-positions-to-position-hierarchies"></a>ตำแหน่งงานไปยังลำดับชั้นของตำแหน่ง
 
-| เอนทิตี (แหล่งที่มา) Common Data Service        | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)        | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                                                 | POSITIONID (POSITIONID)                      |
 | cdm_parentjobpositionid cdmjobpositionnumber (cdm_parentjobpositionid cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ ms.locfileid: "4527937"
 
 
 ### <a name="workers-to-worker"></a>ผู้ปฏิบัติงานไปยังผู้ปฏิบัติงาน
-| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง)       |
+| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate (cdm_birthdate)               | BIRTHDATE (BIRTHDATE)                           |
 | cdm_gender (cdm_gender)                     | เพศ (เพศ)                                   |
@@ -191,7 +191,7 @@ ms.locfileid: "4527937"
 
 ### <a name="employments-to-employment"></a>การจ้างงานไปยังการจ้างงาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง) |
+| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE (EMPLOYMENTSTARTDATE) |
 | cdm_employmentstartdate (cdm_employmentstartdate)                 | EMPLOYMENTENDDATE (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ ms.locfileid: "4527937"
 
 ### <a name="employments-to-employment-detail"></a>การจ้างงานไปยังรายละเอียดการจ้างงาน
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
+| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentstartdate (cdm_employmentstartdate)                 | EMPLOYMENTENDDATE (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ ms.locfileid: "4527937"
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>การมอบหมายผู้ปฏิบัติงานของตำแหน่งไปยังการมอบหมายผู้ปฏิบัติงานของตำแหน่ง
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
+| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                   | POSITIONID (POSITIONID)                        |
@@ -228,7 +228,7 @@ ms.locfileid: "4527937"
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>ที่อยู่ของผู้ปฏิบัติงานไปยังที่อยู่ทางไปรษณีย์ของผู้ปฏิบัติงาน V2
 
-| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
+| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER (PERSONNELNUMBER)           |
 | cdm_addresstype (cdm_addresstype)                             | ADDRESSLOCATIONROLES (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ ms.locfileid: "4527937"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในตัวรวมข้อมูล 
 
 ![การแม็ปเท็มเพลต](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

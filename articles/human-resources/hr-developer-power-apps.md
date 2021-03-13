@@ -2,7 +2,7 @@
 title: ขยาย Talent ด้วย Power Apps และ Power Automate
 description: บทความนี้อธิบายถึงตัวอย่างบางอย่างของสถานการณ์การเพิ่มความสามารถของ Microsoft Dynamics 365 Human Resources ที่ใช้ Microsoft Power Apps และ Microsoft Power Automate
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527037"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115377"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>ขยายด้วย Power Apps และ Power Automate
 
@@ -51,7 +51,7 @@ ms.locfileid: "4527037"
 
 แม่แบบ **Power Automate – การเชื่อมต่อและดำเนินการ SQL** เชื่อมต่อกับ Microsoft SQL Server และเปิดใช้งานให้การสอบถาม SQL รัน
 
-ถึงแม้ว่าแม่แบบนี้จะอ่านและอัปเดตตาราง SQL คุณสามารถขยายและใช้งานสำหรับสถานการณ์อื่นๆได้ ตัวอย่างเช่น คุณสามารถใช้เพื่อกรอกข้อมูลในตารางการจัดเตรียมใน Common Data Service ด้วยเรกคอร์ดจากเซิร์ฟเวอร์ SQL และเพื่อซิงโครไนส์ตารางการจัดเตรียมเป็นระยะ ๆ โดยใช้พุชส่วนเพิ่มจากเซิร์ฟเวอร์ SQL 
+ถึงแม้ว่าแม่แบบนี้จะอ่านและอัปเดตตาราง SQL คุณสามารถขยายและใช้งานสำหรับสถานการณ์อื่นๆได้ ตัวอย่างเช่น คุณสามารถใช้เพื่อกรอกข้อมูลในตารางการจัดเตรียมใน Dataverse ด้วยเรกคอร์ดจากเซิร์ฟเวอร์ SQL และเพื่อซิงโครไนส์ตารางการจัดเตรียมเป็นระยะ ๆ โดยใช้พุชส่วนเพิ่มจากเซิร์ฟเวอร์ SQL 
 
 การสอบถามขั้นสูงถูกรวมเข้ากับขั้นตอนในการเปิดใช้งานการแปลงข้อมูลและการผลักข้อมูลเพิ่มเติม
 
@@ -60,5 +60,3 @@ ms.locfileid: "4527037"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

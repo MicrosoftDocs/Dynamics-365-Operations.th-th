@@ -2,7 +2,7 @@
 title: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
 description: บทความนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources การตัดข้อความสามารถทำให้ยากในการจับภาพหน้าจอหรือพิมพ์ลำดับชั้น
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420770"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114434"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
 
@@ -104,6 +104,3 @@ ms.locfileid: "4420770"
 **ตัวเลือกเพิ่มเติม**
 
 ในทรัพยากรบุคคล คุณยังอาจจะสามารถใช้พื้นที่ทำงาน **ผู้คน** เพื่อดูข้อมูลบางอย่างที่เกี่ยวข้องกับลำดับชั้น
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

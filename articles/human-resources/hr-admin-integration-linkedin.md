@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527896"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114511"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>รวมกับฮับความสามารถพิเศษของ LinkedIn
 
@@ -127,14 +127,14 @@ ms.locfileid: "4527896"
     - **ชื่อ**: ให้ป้อนชื่อของบทบาทความปลอดภัย Power Apps ที่คุณสร้างไว้ก่อนหน้านี้ เช่น **การรวม HRIS ของฮับความสามารถพิเศษของ LinkedIn**
     - **รหัสผู้ใช้**: เลือกผู้ใช้ที่มีสิทธิ์ในการเขียนข้อมูลในการจัดการบุคลากร
 
-### <a name="create-the-entity-in-common-data-service"></a>สร้างเอนทิตีใน Common Data Service
+### <a name="create-the-table-in-dataverse"></a>สร้างตารางใน Dataverse
 
 > [!IMPORTANT]
-> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับเอนทิตีเสมือนใน Common Data Service สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกเอนทิตีเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกเอนทิตีเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
+> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับตารางเสมือนใน Dataverse สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกตารางเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกตารางเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
 
-1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Common Data Service (CDS)**
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Dataverse**
 
-2. เลือกแท็บ **เอนทิตีเสมือน**
+2. เลือกแท็บ **ตารางเสมือน**
 
 3. กรองรายการเอนทิตีตามป้ายชื่อเอนทิตีเพื่อค้นหา **ผู้สมัครที่ส่งออก LinkedIn**
 
@@ -188,8 +188,5 @@ ms.locfileid: "4527896"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Common Data Service คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

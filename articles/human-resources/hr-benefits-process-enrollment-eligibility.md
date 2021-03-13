@@ -2,7 +2,7 @@
 title: ประมวลผลการมีสิทธิ์ในการลงทะเบียน
 description: บทความนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69ea23e4051a6975a5892cd027777c5a88472509
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420717"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114473"
 ---
 # <a name="process-enrollment-eligibility"></a>ประมวลผลการมีสิทธิ์ในการลงทะเบียน
 
@@ -72,6 +72,3 @@ ms.locfileid: "4420717"
    | **สถานะของผลลัพธ์** | การทำเช่นนี้จะเป็นมีสิทธิ์หรือไม่มีสิทธิ์ สถานะผลลัพธ์จะไม่สามารถใช้ได้ ถ้าผู้ปฏิบัติงานไม่ตรงกับเกณฑ์ของกฎการมีสิทธิ์ ถ้าผู้ปฏิบัติงานไม่มีข้อมูลที่จำเป็น เช่น ความถี่ในการชำระค่าจ้างหรือค่าตอบแทนคงที่ หรือหากมีข้อมูลที่ขาดหายไปในแผนสวัสดิการที่ทำให้ผู้ปฏิบัติงานไม่ได้ลงทะเบียน |
    | **ข้อความผลลัพธ์** | บ่งชี้ว่าเหตุใดผู้ปฏิบัติงานจึงไม่มีสิทธิ์สำหรับแผนสวัสดิการ หรือมีการส่งผ่านกฎการมีสิทธิ์ที่เหมาะสมหรือไม่ |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

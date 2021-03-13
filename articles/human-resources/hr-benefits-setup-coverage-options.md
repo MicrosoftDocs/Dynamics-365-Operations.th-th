@@ -2,7 +2,7 @@
 title: สร้างตัวเลือกความคุ้มครอง
 description: ตัวเลือกความครอบคลุมใน Microsoft Dynamics 365 Human Resources คือระดับความครอบคลุมสำหรับการเลือกตั้งของผู้เข้าร่วมในแผนสวัสดิการหรือโปรแกรม
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420810"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114432"
 ---
 # <a name="create-coverage-options"></a>สร้างตัวเลือกความคุ้มครอง
 
@@ -59,6 +59,3 @@ ms.locfileid: "4420810"
    | **อนุญาตจำนวนเงินของความคุ้มครองของพนักงาน** | ระบุว่าจะอนุญาตให้พนักงานปรับเปลี่ยนยอดเงินที่คุ้มครองของสิทธิประโยชน์ด้วยตนเองเมื่อพวกเขาเลือกสิทธิประโยชน์ได้หรือไม่ ถ้าคุณเลือกกล่องกาเครื่องหมายนี้ ระบบจะคำนวณพารามิเตอร์ของแผนสิทธิประโยชน์ตามยอดความคุ้มครองที่พนักงานป้อนไว้ในการบริการตนเองของพนักงาน |
 
 6. เลือก **บันทึก** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

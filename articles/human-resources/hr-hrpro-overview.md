@@ -2,7 +2,7 @@
 title: ภาพรวม
 description: คู่มือผู้ใช้ Dynamics 365 Human Resources จะให้คำแนะนำเกี่ยวกับการตั้งค่าทรัพยากรบุคคล ให้ตั้งค่าค่าตอบแทนและสวัสดิการสำหรับพนักงาน และการจัดการพนักงานของคุณ
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420831"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115257"
 ---
 # <a name="overview"></a>ภาพรวม
 
@@ -60,7 +60,6 @@ ms.locfileid: "4420831"
 [แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง](hr-personnel-modify-reporting-relationships-position.md)</br>
 [ป้อนข้อมูลผู้ปฏิบัติงาน](hr-personnel-enter-worker-information.md)</br>
 [รายการกู้ยืมของผู้ปฏิบัติงาน](hr-personnel-loan-item-worker.md)</br>
-[ป้อนแผ่นเวลาโครงการ](hr-personnel-enter-project-timesheets.md)</br>
 [โครงการจ้างงานโดยรวม](hr-personnel-mass-hire-projects.md)</br>
 [ตั้งค่าตำแหน่ง](hr-personnel-set-up-positions.md)</br>
 [ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,6 +127,3 @@ ms.locfileid: "4420831"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

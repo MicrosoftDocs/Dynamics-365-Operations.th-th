@@ -2,7 +2,7 @@
 title: สร้างชนิดแผน
 description: ชนิดของแผนใน Microsoft Dynamics 365 Human Resources เป็นการจัดกลุ่มในระดับสูงของสิทธิประโยชน์ชนิดเฉพาะทาง แต่ละชนิดของแผนจะมีรหัสชนิดของแผนซึ่งกำหนดกฎสำหรับชนิดของแผนนั้น ๆ
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420787"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114439"
 ---
 # <a name="create-plan-types"></a>สร้างชนิดแผน
 
@@ -63,6 +63,3 @@ ms.locfileid: "4420787"
    | **กรอบเวลาการรายงาน** | ระบุกรอบเวลาการรายงานเหตุการณ์ของชีวิตเป็นวัน **หมายเหตุ** ถ้าคุณไม่ได้ป้อนจำนวน ระบบจะสันนิษฐานว่าหน้าต่างการรายงานเป็นศูนย์และไม่สามารถประมวลผลเหตุการณ์ในชีวิตได้ |
 
 5. เลือก **บันทึก** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

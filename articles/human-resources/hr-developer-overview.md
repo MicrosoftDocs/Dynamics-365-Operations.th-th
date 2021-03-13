@@ -1,8 +1,8 @@
 ---
-title: ภาพรวม
+title: ภาพรวมการพัฒนา
 description: คำแนะนำสำหรับนักพัฒนานี้แสดงข้อมูลอ้างอิงฟิลด์ API และแบบกำหนดเอง นอกจากนี้ยังให้ข้อมูลเกี่ยวกับการรวมกับแอปอื่นๆ
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528328"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115401"
 ---
-# <a name="overview"></a>ภาพรวม
+# <a name="development-overview"></a>ภาพรวมการพัฒนา
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "4528328"
 
 - [ขยายด้วย Power Apps และ Power Automate](hr-developer-power-apps.md)
 
-- [เพิ่มเอนทิตี้ทรัพยากรบุคคลใน Common Data Service](hr-developer-entities.md)
+- [เพิ่มเอนทิตี้ทรัพยากรบุคคลใน Dataverse](hr-developer-entities.md)
 
 - [ฟิลด์ที่กำหนดเอง](hr-developer-custom-fields.md)
 
 - ตั้งค่าการรวมข้อมูล
   - [เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)
-  - [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)
+  - [ตั้งค่าคอนฟิกการรวม Dataverse](hr-admin-integration-common-data-service.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Finance](hr-admin-integration-finance.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ ms.locfileid: "4528328"
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
 - [คำแนะนำผู้ดูแลระบบ](hr-admin-overview.md)
 - [คู่มือผู้ใช้](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

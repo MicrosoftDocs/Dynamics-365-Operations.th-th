@@ -2,7 +2,7 @@
 title: การลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
 description: 'ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการสามารถกำหนดพนักงานไปยังแผนค่าตอบแทนคงที่เพื่อจัดการค่าจ้างพื้นฐานของพวกเขา '
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3029e52a7cc1fb6dfda390f5d892c89f1eda8509
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc8373a4a39a1a212ab445b2b300fbddfe0e4a39
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420746"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114455"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>การลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
 
@@ -39,6 +39,3 @@ ms.locfileid: "4420746"
     * ถ้าแผนค่าตอบแทนคงที่เป็นแผนขั้นตอน เลือกขั้นตอนที่ประกอบด้วยอัตราค่าจ้างที่ถูกต้องสำหรับพนักงาน  ถ้าแผนค่าตอบแทนคงที่เป็นแผนระดับหรือแถบ ให้ป้อนอัตราค่าจ้างสำหรับพนักงาน  อัตราค่าจ้างจะถูกตรวจสอบโดยเทียบกับการตั้งค่าค่าเผื่อสำหรับแผน และจุดอ้างอิงค่าต่ำสุดและสูงสุดสำหรับระดับค่าตอบแทนของงาน  
 8. คลิก ตกลง
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

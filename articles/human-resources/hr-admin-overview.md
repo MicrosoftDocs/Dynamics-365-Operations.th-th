@@ -1,8 +1,8 @@
 ---
-title: ภาพรวม
+title: ภาพรวมการจัดการ
 description: คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527872"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114504"
 ---
-# <a name="overview"></a>ภาพรวม
+# <a name="administration-overview"></a>ภาพรวมการจัดการ
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527872"
 
 - ตั้งค่าการรวมข้อมูล
   - [เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)
-  - [ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)
+  - [ตั้งค่าคอนฟิกการรวม Dataverse](hr-admin-integration-common-data-service.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Finance](hr-admin-integration-finance.md)
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ ms.locfileid: "4527872"
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
 - [คู่มือนักพัฒนา](hr-developer-overview.md)
 - [คู่มือผู้ใช้](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
