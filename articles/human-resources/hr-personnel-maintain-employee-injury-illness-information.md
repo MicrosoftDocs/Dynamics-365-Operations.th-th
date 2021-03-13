@@ -2,7 +2,7 @@
 title: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
 description: "ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ "
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,85 +11,85 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420729"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130120"
 ---
-# <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="885e3-103">รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="885e3-103">Maintain employee injury and illness information</span></span>
+# <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="524e0-103">รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="524e0-103">Maintain employee injury and illness information</span></span>
 
 
 
-<span data-ttu-id="885e3-104">ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="885e3-104">It is recommended to complete the 'Setup injury and illness' task guide first, as some of the setup information is used here.</span></span> 
+<span data-ttu-id="524e0-104">ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ </span><span class="sxs-lookup"><span data-stu-id="524e0-104">It is recommended to complete the 'Setup injury and illness' task guide first, as some of the setup information is used here.</span></span> 
 
 
 
-<span data-ttu-id="885e3-105">การบันทึกงานนี้ครอบคลุมขั้นตอนพื้นฐานในการสร้างกรณีการบาดเจ็บหรือการเจ็บป่วย </span><span class="sxs-lookup"><span data-stu-id="885e3-105">This task recording covers the basic steps to creating an injury or illness case.</span></span> <span data-ttu-id="885e3-106">นอกจากการติดตามรายละเอียดของการบาดเจ็บหรือการเจ็บป่วย ยังมีสถานะกรณีที่มีต้องมีการติดตามข้อมูลด้วยเช่นกัน </span><span class="sxs-lookup"><span data-stu-id="885e3-106">Besides tracking the details of the injury or illness, there is a case status that is tracked as well.</span></span>  <span data-ttu-id="885e3-107">กรณีมีค่าเริ่มต้นที่สถานะ 'เปิด' </span><span class="sxs-lookup"><span data-stu-id="885e3-107">The case defaults with an 'open' status.</span></span>  <span data-ttu-id="885e3-108">สถานะต่างๆสามารถจัดการได้จากเมนู 'สถานะกรณี' ที่รายการด้านบนของหน้า</span><span class="sxs-lookup"><span data-stu-id="885e3-108">The statuses can be managed from the 'Case status' menu item at the top of the page.</span></span>
+<span data-ttu-id="524e0-105">การบันทึกงานนี้ครอบคลุมขั้นตอนพื้นฐานในการสร้างกรณีการบาดเจ็บหรือการเจ็บป่วย </span><span class="sxs-lookup"><span data-stu-id="524e0-105">This task recording covers the basic steps to creating an injury or illness case.</span></span> <span data-ttu-id="524e0-106">นอกจากการติดตามรายละเอียดของการบาดเจ็บหรือการเจ็บป่วย ยังมีสถานะกรณีที่มีต้องมีการติดตามข้อมูลด้วยเช่นกัน </span><span class="sxs-lookup"><span data-stu-id="524e0-106">Besides tracking the details of the injury or illness, there is a case status that is tracked as well.</span></span>  <span data-ttu-id="524e0-107">กรณีมีค่าเริ่มต้นที่สถานะ 'เปิด' </span><span class="sxs-lookup"><span data-stu-id="524e0-107">The case defaults with an 'open' status.</span></span>  <span data-ttu-id="524e0-108">สถานะต่างๆสามารถจัดการได้จากเมนู 'สถานะกรณี' ที่รายการด้านบนของหน้า</span><span class="sxs-lookup"><span data-stu-id="524e0-108">The statuses can be managed from the 'Case status' menu item at the top of the page.</span></span>
 
-1. <span data-ttu-id="885e3-109">ไปที่ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > การบาดเจ็บและการเจ็บป่วย > เหตุการณ์การบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="885e3-109">Go to Human resources > Workers > Injury and illness > Injury or illness incidents.</span></span>
-2. <span data-ttu-id="885e3-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="885e3-110">Click New.</span></span>
-3. <span data-ttu-id="885e3-111">ในฟิลด์คำอธิบายกรณี ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-111">In the Case description field, type a value.</span></span>
-    * <span data-ttu-id="885e3-112">ตัวอย่างเช่น การบาดเจ็บข้อมือ</span><span class="sxs-lookup"><span data-stu-id="885e3-112">Example:  Wrist injury</span></span>  
-4. <span data-ttu-id="885e3-113">ในฟิลด์ผู้ปฏิบัติงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="885e3-113">In the Worker field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-114">ตัวอย่าง Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="885e3-114">Example: Ahmed Barnett</span></span>  
-5. <span data-ttu-id="885e3-115">ในฟิลด์วันที่และเวลาของเหตุการณ์ ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="885e3-115">In the Date and time of incident field, enter a date and time.</span></span>
-    * <span data-ttu-id="885e3-116">ตัวอย่าง 1/20/2016 10:00 น.</span><span class="sxs-lookup"><span data-stu-id="885e3-116">Example:  1/20/2016 10:00 AM</span></span>  
-6. <span data-ttu-id="885e3-117">ในฟิลด์ชนิดการบาดเจ็บหรือการเจ็บป่วย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-117">In the Injury or illness type field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-118">ตัวอย่าง: การแตกร้าว</span><span class="sxs-lookup"><span data-stu-id="885e3-118">Example:  Fracture</span></span>  
-7. <span data-ttu-id="885e3-119">ในฟิลด์อวัยวะ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="885e3-119">In the Body part field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-120">ตัวอย่าง: ข้อมือ</span><span class="sxs-lookup"><span data-stu-id="885e3-120">Example:  Wrist</span></span>  
-8. <span data-ttu-id="885e3-121">ในฟิลด์ชนิดของผลลัพธ์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-121">In the Outcome type field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-122">ตัวอย่าง: การบำบัด</span><span class="sxs-lookup"><span data-stu-id="885e3-122">Example:  Therapy</span></span>  
-9. <span data-ttu-id="885e3-123">ในฟิลด์วันที่และเวลาที่รายงาน ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="885e3-123">In the Date and time reported field, enter a date and time.</span></span>
-    * <span data-ttu-id="885e3-124">วันที่และเวลาที่รายงานต้องเป็นวันหลังจากวันที่และวันเกิดเหตุ</span><span class="sxs-lookup"><span data-stu-id="885e3-124">The date and time reported must be later than the date and time of incident.</span></span>  
-10. <span data-ttu-id="885e3-125">ในฟิลด์บุคคลที่รายงานกรณี ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-125">In the Person who reported case field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-126">นี่อาจเป็นพนักงานหรือพยานอื่นในเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="885e3-126">This could be the employee or another witness to the incident.</span></span>  <span data-ttu-id="885e3-127">ตัวอย่าง Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="885e3-127">Example: Ahmed Barnett</span></span>  
-11. <span data-ttu-id="885e3-128">ขยายส่วนเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="885e3-128">Expand the Incident section.</span></span>
-12. <span data-ttu-id="885e3-129">ในฟิลด์สถานที่เกิดเหตุ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-129">In the Where incident occurred field, type a value.</span></span>
-    * <span data-ttu-id="885e3-130">ตัวอย่าง คลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="885e3-130">Example:  Warehouse</span></span>  
-13. <span data-ttu-id="885e3-131">เลือก ใช่ ในฟิลด์ในบริเวณสถานที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="885e3-131">Select Yes in the On work premises field.</span></span>
-    * <span data-ttu-id="885e3-132">ถ้าเหตุการณ์เกิดขึ้นในบริเวณสถานที่ทำงาน ให้เลือก ใช่</span><span class="sxs-lookup"><span data-stu-id="885e3-132">If the incident occurred on work premises, select yes.</span></span>  
-14. <span data-ttu-id="885e3-133">ในฟิลด์วันที่และเวลาที่เริ่มการทำงาน ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="885e3-133">In the Date and time began work field, enter a date and time.</span></span>
-    * <span data-ttu-id="885e3-134">ป้อนวันที่และเวลาที่ส่งผลกระทบต่อการเริ่มทำงานแต่ละครั้ง ก่อนที่จะเกิดเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="885e3-134">Enter the date and time that affected individual started working, prior to the incident occurring.</span></span>  
-15. <span data-ttu-id="885e3-135">ในฟิลด์งานหรืองานของพนักงาน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-135">In the Employee job or task field, type a value.</span></span>
-    * <span data-ttu-id="885e3-136">ป้อนงานหรืองานที่ผู้ปฏิบัติงานกำลังดำเนินการอยู่เมื่อเกิดเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="885e3-136">Enter the job or task the worker was performing when the incident occurred.</span></span>  <span data-ttu-id="885e3-137">ตัวอย่าง:  การโหลดกล่อง</span><span class="sxs-lookup"><span data-stu-id="885e3-137">Example:  Loading boxes</span></span>  
-16. <span data-ttu-id="885e3-138">ในฟิลด์สาเหตุของเหตุการณ์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="885e3-138">In the Cause of incident field, type a value.</span></span>
-    * <span data-ttu-id="885e3-139">ป้อนสาเหตุของเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="885e3-139">Enter the cause of the incident.</span></span>  <span data-ttu-id="885e3-140">ตัวอย่าง:  ลื่นบนพื้นเปียก</span><span class="sxs-lookup"><span data-stu-id="885e3-140">Example:  Slipped on wet floor</span></span>  
-17. <span data-ttu-id="885e3-141">ในฟิลด์ระดับความรุนแรง ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="885e3-141">In the Severity level field, enter or select a value.</span></span>
-18. <span data-ttu-id="885e3-142">ในฟิลด์การดำเนินการที่จะใช้ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="885e3-142">In the Action to be taken field, type a value.</span></span>
-    * <span data-ttu-id="885e3-143">ตัวอย่าง ล้างสิ่งที่หกโดยทันที</span><span class="sxs-lookup"><span data-stu-id="885e3-143">Example:  Clean up spills promptly</span></span>  
-19. <span data-ttu-id="885e3-144">ในฟิลด์จำนวนวันหยุดงานที่คาดไว้ ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="885e3-144">In the Expected days away from work field, enter a number.</span></span>
-    * <span data-ttu-id="885e3-145">ป้อนจำนวนวันที่คาดว่าบุคคลจะหยุดงาน </span><span class="sxs-lookup"><span data-stu-id="885e3-145">Enter the number of days that the individual is expected to be away from work.</span></span>  <span data-ttu-id="885e3-146">หลังจากที่แต่ละบุคคลกลับมาทำงาน ให้อัพเดตฟิลด์ 'จำนวนวันหยุดงาน' ด้วยจำนวนวันที่หยุดจริง</span><span class="sxs-lookup"><span data-stu-id="885e3-146">Once the individual returns to work, update the 'Days away from work' field with the actual number of days away.</span></span>  
-20. <span data-ttu-id="885e3-147">ขยายส่วนต้นทุนการบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="885e3-147">Expand the Injury or illness costs section.</span></span>
-21. <span data-ttu-id="885e3-148">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="885e3-148">Click Add.</span></span>
-22. <span data-ttu-id="885e3-149">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="885e3-149">In the Date field, enter a date.</span></span>
-23. <span data-ttu-id="885e3-150">ในฟิลด์ชนิดต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-150">In the Cost type field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-151">ตัวอย่าง:  การบำบัด    คุณยังสามารถป้อนยอดเงินและแนบเอกสารประกอบการสนับสนุนใดๆ เช่น ใบแจ้งหนี้ หรือบันทึกย่อของแพทย์ ไปยังต้นทุน</span><span class="sxs-lookup"><span data-stu-id="885e3-151">Example:  Therapy    You can also enter in an amount, and attach any supporting documentation such as invoices or doctor's notes to the cost.</span></span>  
-24. <span data-ttu-id="885e3-152">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="885e3-152">Click Add.</span></span>
-25. <span data-ttu-id="885e3-153">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="885e3-153">In the Date field, enter a date.</span></span>
-26. <span data-ttu-id="885e3-154">ในฟิลด์ชนิดต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-154">In the Cost type field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-155">ตัวอย่าง แพทย์</span><span class="sxs-lookup"><span data-stu-id="885e3-155">Example: Doctor</span></span>  
-27. <span data-ttu-id="885e3-156">ขยายส่วนการรักษาการบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="885e3-156">Expand the Injury or illness treatments section.</span></span>
-28. <span data-ttu-id="885e3-157">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="885e3-157">Click Add.</span></span>
-29. <span data-ttu-id="885e3-158">ในฟิลด์วันที่การรักษา ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="885e3-158">In the Treatment date field, enter a date and time.</span></span>
-30. <span data-ttu-id="885e3-159">ในฟิลด์ชนิดการรักษา ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-159">In the Treatment type field, enter or select a value.</span></span>
-    * <span data-ttu-id="885e3-160">ตัวอย่าง เข้าเฝือก</span><span class="sxs-lookup"><span data-stu-id="885e3-160">Example:  Splint</span></span>  
-31. <span data-ttu-id="885e3-161">ไม่จำเป็นต้องตั้งให้การเข้ารับบริการที่ห้องฉุกเฉินของโรงพยาบาลเป็น ใช่</span><span class="sxs-lookup"><span data-stu-id="885e3-161">Optionally, set the emergency room hospital visit section to Yes.</span></span>
-32. <span data-ttu-id="885e3-162">ในฟิลด์ข้อคิดเห็นเกี่ยวกับการรักษา ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-162">In the Treatment comments field, type a value.</span></span>
-    * <span data-ttu-id="885e3-163">ตัวอย่าง เข้าเฝือกเป็นเวลา 2 สัปดาห์</span><span class="sxs-lookup"><span data-stu-id="885e3-163">Example:  Splint for 2 weeks</span></span>  
-33. <span data-ttu-id="885e3-164">ในฟิลด์ชื่อแพทย์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-164">In the Physician name field, type a value.</span></span>
-    * <span data-ttu-id="885e3-165">ตัวอย่าง นายแพทย์แอนเดอร์สัน</span><span class="sxs-lookup"><span data-stu-id="885e3-165">Example:  Dr. Anderson</span></span>  
-34. <span data-ttu-id="885e3-166">ในฟิลด์สถานประกอบการรักษาพยาบาลและที่ตั้ง ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-166">In the Treatment facility and location field, type a value.</span></span>
-    * <span data-ttu-id="885e3-167">ตัวอย่าง Elm St. ฉุกเฉิน</span><span class="sxs-lookup"><span data-stu-id="885e3-167">Example:  Elm St. Emergency</span></span>  
-35. <span data-ttu-id="885e3-168">ในฟิลด์รายละเอียดการรักษา ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="885e3-168">In the Treatment details field, type a value.</span></span>
-    * <span data-ttu-id="885e3-169">ตัวอย่าง Xray ยืนยันการแตกร้าว เข้าเฝือก</span><span class="sxs-lookup"><span data-stu-id="885e3-169">Example:  Xray confirms fracture, wear splint</span></span>  
-36. <span data-ttu-id="885e3-170">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="885e3-170">Click Save.</span></span>
-    * <span data-ttu-id="885e3-171">สถานะกรณีสามารถอัพเดตได้ตลอดเวลา</span><span class="sxs-lookup"><span data-stu-id="885e3-171">The case status can be updated at any time.</span></span>  <span data-ttu-id="885e3-172">ตั้งค่ากรณีเป็น อยู่ระหว่างดำเนินการ หากระหว่างการประมวลผลการบาดเจ็บหรือการเจ็บป่วยอยู่ระหว่างการดำเนินการ </span><span class="sxs-lookup"><span data-stu-id="885e3-172">Set the case to in process, if the processing of the injury or illness is in process.</span></span>  <span data-ttu-id="885e3-173">เมื่อคุณปิดเหตุการณ์ คุณสามารถเพิ่มเท่านั้นหรือลบต้นทุน การรักษาพยาบาลหรือการยื่นเอกสารแจ้งที่เกี่ยวข้องกับเหตุการณ์ได้เท่านั้น </span><span class="sxs-lookup"><span data-stu-id="885e3-173">Once you close the incident you can only add or remove costs, treatments or filings related to the incident.</span></span>  <span data-ttu-id="885e3-174">เพื่อปรับเปลี่ยนข้อมูลอื่น ให้เปิดกรณีอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="885e3-174">To modify other information, reopen the case.</span></span>  
+1. <span data-ttu-id="524e0-109">ไปที่ทรัพยากรบุคคล > ผู้ปฏิบัติงาน > การบาดเจ็บและการเจ็บป่วย > เหตุการณ์การบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="524e0-109">Go to Human resources > Workers > Injury and illness > Injury or illness incidents.</span></span>
+2. <span data-ttu-id="524e0-110">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="524e0-110">Click New.</span></span>
+3. <span data-ttu-id="524e0-111">ในฟิลด์คำอธิบายกรณี ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-111">In the Case description field, type a value.</span></span>
+    * <span data-ttu-id="524e0-112">ตัวอย่างเช่น การบาดเจ็บข้อมือ</span><span class="sxs-lookup"><span data-stu-id="524e0-112">Example:  Wrist injury</span></span>  
+4. <span data-ttu-id="524e0-113">ในฟิลด์ผู้ปฏิบัติงาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="524e0-113">In the Worker field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-114">ตัวอย่าง Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="524e0-114">Example: Ahmed Barnett</span></span>  
+5. <span data-ttu-id="524e0-115">ในฟิลด์วันที่และเวลาของเหตุการณ์ ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="524e0-115">In the Date and time of incident field, enter a date and time.</span></span>
+    * <span data-ttu-id="524e0-116">ตัวอย่าง 1/20/2016 10:00 น.</span><span class="sxs-lookup"><span data-stu-id="524e0-116">Example:  1/20/2016 10:00 AM</span></span>  
+6. <span data-ttu-id="524e0-117">ในฟิลด์ชนิดการบาดเจ็บหรือการเจ็บป่วย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-117">In the Injury or illness type field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-118">ตัวอย่าง: การแตกร้าว</span><span class="sxs-lookup"><span data-stu-id="524e0-118">Example:  Fracture</span></span>  
+7. <span data-ttu-id="524e0-119">ในฟิลด์อวัยวะ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="524e0-119">In the Body part field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-120">ตัวอย่าง: ข้อมือ</span><span class="sxs-lookup"><span data-stu-id="524e0-120">Example:  Wrist</span></span>  
+8. <span data-ttu-id="524e0-121">ในฟิลด์ชนิดของผลลัพธ์ ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-121">In the Outcome type field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-122">ตัวอย่าง: การบำบัด</span><span class="sxs-lookup"><span data-stu-id="524e0-122">Example:  Therapy</span></span>  
+9. <span data-ttu-id="524e0-123">ในฟิลด์วันที่และเวลาที่รายงาน ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="524e0-123">In the Date and time reported field, enter a date and time.</span></span>
+    * <span data-ttu-id="524e0-124">วันที่และเวลาที่รายงานต้องเป็นวันหลังจากวันที่และวันเกิดเหตุ</span><span class="sxs-lookup"><span data-stu-id="524e0-124">The date and time reported must be later than the date and time of incident.</span></span>  
+10. <span data-ttu-id="524e0-125">ในฟิลด์บุคคลที่รายงานกรณี ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-125">In the Person who reported case field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-126">นี่อาจเป็นพนักงานหรือพยานอื่นในเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="524e0-126">This could be the employee or another witness to the incident.</span></span>  <span data-ttu-id="524e0-127">ตัวอย่าง Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="524e0-127">Example: Ahmed Barnett</span></span>  
+11. <span data-ttu-id="524e0-128">ขยายส่วนเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="524e0-128">Expand the Incident section.</span></span>
+12. <span data-ttu-id="524e0-129">ในฟิลด์สถานที่เกิดเหตุ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-129">In the Where incident occurred field, type a value.</span></span>
+    * <span data-ttu-id="524e0-130">ตัวอย่าง คลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="524e0-130">Example:  Warehouse</span></span>  
+13. <span data-ttu-id="524e0-131">เลือก ใช่ ในฟิลด์ในบริเวณสถานที่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="524e0-131">Select Yes in the On work premises field.</span></span>
+    * <span data-ttu-id="524e0-132">ถ้าเหตุการณ์เกิดขึ้นในบริเวณสถานที่ทำงาน ให้เลือก ใช่</span><span class="sxs-lookup"><span data-stu-id="524e0-132">If the incident occurred on work premises, select yes.</span></span>  
+14. <span data-ttu-id="524e0-133">ในฟิลด์วันที่และเวลาที่เริ่มการทำงาน ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="524e0-133">In the Date and time began work field, enter a date and time.</span></span>
+    * <span data-ttu-id="524e0-134">ป้อนวันที่และเวลาที่ส่งผลกระทบต่อการเริ่มทำงานแต่ละครั้ง ก่อนที่จะเกิดเหตุการณ์</span><span class="sxs-lookup"><span data-stu-id="524e0-134">Enter the date and time that affected individual started working, prior to the incident occurring.</span></span>  
+15. <span data-ttu-id="524e0-135">ในฟิลด์งานหรืองานของพนักงาน ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-135">In the Employee job or task field, type a value.</span></span>
+    * <span data-ttu-id="524e0-136">ป้อนงานหรืองานที่ผู้ปฏิบัติงานกำลังดำเนินการอยู่เมื่อเกิดเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="524e0-136">Enter the job or task the worker was performing when the incident occurred.</span></span>  <span data-ttu-id="524e0-137">ตัวอย่าง:  การโหลดกล่อง</span><span class="sxs-lookup"><span data-stu-id="524e0-137">Example:  Loading boxes</span></span>  
+16. <span data-ttu-id="524e0-138">ในฟิลด์สาเหตุของเหตุการณ์ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="524e0-138">In the Cause of incident field, type a value.</span></span>
+    * <span data-ttu-id="524e0-139">ป้อนสาเหตุของเหตุการณ์ </span><span class="sxs-lookup"><span data-stu-id="524e0-139">Enter the cause of the incident.</span></span>  <span data-ttu-id="524e0-140">ตัวอย่าง:  ลื่นบนพื้นเปียก</span><span class="sxs-lookup"><span data-stu-id="524e0-140">Example:  Slipped on wet floor</span></span>  
+17. <span data-ttu-id="524e0-141">ในฟิลด์ระดับความรุนแรง ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="524e0-141">In the Severity level field, enter or select a value.</span></span>
+18. <span data-ttu-id="524e0-142">ในฟิลด์การดำเนินการที่จะใช้ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="524e0-142">In the Action to be taken field, type a value.</span></span>
+    * <span data-ttu-id="524e0-143">ตัวอย่าง ล้างสิ่งที่หกโดยทันที</span><span class="sxs-lookup"><span data-stu-id="524e0-143">Example:  Clean up spills promptly</span></span>  
+19. <span data-ttu-id="524e0-144">ในฟิลด์จำนวนวันหยุดงานที่คาดไว้ ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="524e0-144">In the Expected days away from work field, enter a number.</span></span>
+    * <span data-ttu-id="524e0-145">ป้อนจำนวนวันที่คาดว่าบุคคลจะหยุดงาน </span><span class="sxs-lookup"><span data-stu-id="524e0-145">Enter the number of days that the individual is expected to be away from work.</span></span>  <span data-ttu-id="524e0-146">หลังจากที่แต่ละบุคคลกลับมาทำงาน ให้อัพเดตฟิลด์ 'จำนวนวันหยุดงาน' ด้วยจำนวนวันที่หยุดจริง</span><span class="sxs-lookup"><span data-stu-id="524e0-146">Once the individual returns to work, update the 'Days away from work' field with the actual number of days away.</span></span>  
+20. <span data-ttu-id="524e0-147">ขยายส่วนต้นทุนการบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="524e0-147">Expand the Injury or illness costs section.</span></span>
+21. <span data-ttu-id="524e0-148">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="524e0-148">Click Add.</span></span>
+22. <span data-ttu-id="524e0-149">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="524e0-149">In the Date field, enter a date.</span></span>
+23. <span data-ttu-id="524e0-150">ในฟิลด์ชนิดต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-150">In the Cost type field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-151">ตัวอย่าง:  การบำบัด    คุณยังสามารถป้อนยอดเงินและแนบเอกสารประกอบการสนับสนุนใดๆ เช่น ใบแจ้งหนี้ หรือบันทึกย่อของแพทย์ ไปยังต้นทุน</span><span class="sxs-lookup"><span data-stu-id="524e0-151">Example:  Therapy    You can also enter in an amount, and attach any supporting documentation such as invoices or doctor's notes to the cost.</span></span>  
+24. <span data-ttu-id="524e0-152">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="524e0-152">Click Add.</span></span>
+25. <span data-ttu-id="524e0-153">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="524e0-153">In the Date field, enter a date.</span></span>
+26. <span data-ttu-id="524e0-154">ในฟิลด์ชนิดต้นทุน ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-154">In the Cost type field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-155">ตัวอย่าง แพทย์</span><span class="sxs-lookup"><span data-stu-id="524e0-155">Example: Doctor</span></span>  
+27. <span data-ttu-id="524e0-156">ขยายส่วนการรักษาการบาดเจ็บหรือการเจ็บป่วย</span><span class="sxs-lookup"><span data-stu-id="524e0-156">Expand the Injury or illness treatments section.</span></span>
+28. <span data-ttu-id="524e0-157">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="524e0-157">Click Add.</span></span>
+29. <span data-ttu-id="524e0-158">ในฟิลด์วันที่การรักษา ให้ป้อนวันที่และเวลา</span><span class="sxs-lookup"><span data-stu-id="524e0-158">In the Treatment date field, enter a date and time.</span></span>
+30. <span data-ttu-id="524e0-159">ในฟิลด์ชนิดการรักษา ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-159">In the Treatment type field, enter or select a value.</span></span>
+    * <span data-ttu-id="524e0-160">ตัวอย่าง เข้าเฝือก</span><span class="sxs-lookup"><span data-stu-id="524e0-160">Example:  Splint</span></span>  
+31. <span data-ttu-id="524e0-161">ไม่จำเป็นต้องตั้งให้การเข้ารับบริการที่ห้องฉุกเฉินของโรงพยาบาลเป็น ใช่</span><span class="sxs-lookup"><span data-stu-id="524e0-161">Optionally, set the emergency room hospital visit section to Yes.</span></span>
+32. <span data-ttu-id="524e0-162">ในฟิลด์ข้อคิดเห็นเกี่ยวกับการรักษา ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-162">In the Treatment comments field, type a value.</span></span>
+    * <span data-ttu-id="524e0-163">ตัวอย่าง เข้าเฝือกเป็นเวลา 2 สัปดาห์</span><span class="sxs-lookup"><span data-stu-id="524e0-163">Example:  Splint for 2 weeks</span></span>  
+33. <span data-ttu-id="524e0-164">ในฟิลด์ชื่อแพทย์ ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-164">In the Physician name field, type a value.</span></span>
+    * <span data-ttu-id="524e0-165">ตัวอย่าง นายแพทย์แอนเดอร์สัน</span><span class="sxs-lookup"><span data-stu-id="524e0-165">Example:  Dr. Anderson</span></span>  
+34. <span data-ttu-id="524e0-166">ในฟิลด์สถานประกอบการรักษาพยาบาลและที่ตั้ง ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-166">In the Treatment facility and location field, type a value.</span></span>
+    * <span data-ttu-id="524e0-167">ตัวอย่าง Elm St. ฉุกเฉิน</span><span class="sxs-lookup"><span data-stu-id="524e0-167">Example:  Elm St. Emergency</span></span>  
+35. <span data-ttu-id="524e0-168">ในฟิลด์รายละเอียดการรักษา ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="524e0-168">In the Treatment details field, type a value.</span></span>
+    * <span data-ttu-id="524e0-169">ตัวอย่าง Xray ยืนยันการแตกร้าว เข้าเฝือก</span><span class="sxs-lookup"><span data-stu-id="524e0-169">Example:  Xray confirms fracture, wear splint</span></span>  
+36. <span data-ttu-id="524e0-170">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="524e0-170">Click Save.</span></span>
+    * <span data-ttu-id="524e0-171">สถานะกรณีสามารถอัพเดตได้ตลอดเวลา</span><span class="sxs-lookup"><span data-stu-id="524e0-171">The case status can be updated at any time.</span></span>  <span data-ttu-id="524e0-172">ตั้งค่ากรณีเป็น อยู่ระหว่างดำเนินการ หากระหว่างการประมวลผลการบาดเจ็บหรือการเจ็บป่วยอยู่ระหว่างการดำเนินการ </span><span class="sxs-lookup"><span data-stu-id="524e0-172">Set the case to in process, if the processing of the injury or illness is in process.</span></span>  <span data-ttu-id="524e0-173">เมื่อคุณปิดเหตุการณ์ คุณสามารถเพิ่มเท่านั้นหรือลบต้นทุน การรักษาพยาบาลหรือการยื่นเอกสารแจ้งที่เกี่ยวข้องกับเหตุการณ์ได้เท่านั้น </span><span class="sxs-lookup"><span data-stu-id="524e0-173">Once you close the incident you can only add or remove costs, treatments or filings related to the incident.</span></span>  <span data-ttu-id="524e0-174">เพื่อปรับเปลี่ยนข้อมูลอื่น ให้เปิดกรณีอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="524e0-174">To modify other information, reopen the case.</span></span>  
 

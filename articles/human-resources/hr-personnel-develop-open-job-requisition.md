@@ -1,68 +1,68 @@
 ---
-title: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
-description: 'โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากร '
+title: สร้างและเปิดคำขอจัดจ้างพนักงาน
+description: โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากรของคุณ
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+manager: tfehr
+ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420700"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129578"
 ---
-# <a name="develop-and-open-job-requisition"></a><span data-ttu-id="c488e-103">พัฒนาและเปิดคำขอจัดจ้างพนักงาน</span><span class="sxs-lookup"><span data-stu-id="c488e-103">Develop and open job requisition</span></span>
+# <a name="create-and-open-job-requisition"></a><span data-ttu-id="84f30-103">สร้างและเปิดคำขอจัดจ้างพนักงาน</span><span class="sxs-lookup"><span data-stu-id="84f30-103">Create and open job requisition</span></span>
 
+<span data-ttu-id="84f30-104">โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากรของคุณ</span><span class="sxs-lookup"><span data-stu-id="84f30-104">Recruitment projects help you manage your recruiting process.</span></span> <span data-ttu-id="84f30-105">เมื่อสร้างโครงการสรรหาบุคลากรแล้ว คุณสามารถการปฏิบัติงานต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="84f30-105">After creating a recruitment project, you can do the following tasks:</span></span>
 
+- <span data-ttu-id="84f30-106">เขียนโฆษณารับสมัครงานของโครงการ</span><span class="sxs-lookup"><span data-stu-id="84f30-106">Write a job advertisement for the project.</span></span>
+- <span data-ttu-id="84f30-107">เผยแพร่โฆษณาบนหน้าระบบพนักงานบริการตนเอง</span><span class="sxs-lookup"><span data-stu-id="84f30-107">Publish the ad on Employee self-service pages.</span></span>
+- <span data-ttu-id="84f30-108">เชื่อมโยงใบสมัครงานกับโครงการ</span><span class="sxs-lookup"><span data-stu-id="84f30-108">Associate applications for employment with the project.</span></span>
+- <span data-ttu-id="84f30-109">ติดตามกิจกรรมของโครงการนั้น</span><span class="sxs-lookup"><span data-stu-id="84f30-109">Track activities for that project.</span></span> 
 
-<span data-ttu-id="c488e-104">โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากร </span><span class="sxs-lookup"><span data-stu-id="c488e-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="c488e-105">สำหรับแต่ละโครงการสรรหาบุคลากร คุณสามารถตั้งค่าข้อมูล เช่น งานที่มาจากการสรรหาบุคลากร ชื่อของผู้ที่สรรหา สถานะของโครงการและแผนกที่งานจะอยู่</span><span class="sxs-lookup"><span data-stu-id="c488e-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="c488e-106">หลังจากการสร้างโครงการสรรหาบุคลากร คุณสามารถเขียนการโฆษณารับสมัครงานสำหรับโครงการ การเผยแพร่โฆษณารับสมัครในหน้าบริการตนเองของพนักงาน เชื่อมโยงใบสมัครสำหรับการจ้างงานกับโครงการ และติดตามกิจกรรมสำหรับโครงการนั้น</span><span class="sxs-lookup"><span data-stu-id="c488e-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="c488e-107">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c488e-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c488e-108">ในการเริ่มต้นกระบวนงาน ให้ไปที่ ทรัพยากรบุคคล > การสรรหาบุคลากร > โครงการสรรหาบุคลากร > โครงการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="c488e-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
-
-1. <span data-ttu-id="c488e-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c488e-109">Click New.</span></span>
-2. <span data-ttu-id="c488e-110">ในฟิลด์การสรรหาบุคลากร ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c488e-110">In the Recruitment project field, type a value.</span></span>
-3. <span data-ttu-id="c488e-111">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c488e-111">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="c488e-112">ในฟิลด์ผู้สรรหาบุคลากร ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c488e-112">In the Recruiter field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="c488e-113">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c488e-113">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="c488e-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-114">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="c488e-115">คลิก เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-115">Click Select.</span></span>
-8. <span data-ttu-id="c488e-116">ในฟิลด์แผนก ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c488e-116">In the Department field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="c488e-117">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-117">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="c488e-118">ในฟิลด์งาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c488e-118">In the Job field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="c488e-119">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c488e-119">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="c488e-120">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-120">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="c488e-121">ในฟิลด์จำนวนตำแหน่งที่เปิดรับ ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="c488e-121">In the Number of openings field, enter a number.</span></span>
-14. <span data-ttu-id="c488e-122">ในฟิลด์การว่าจ้างผู้จัดการ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c488e-122">In the Hiring manager field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="c488e-123">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c488e-123">In the list, find and select the desired record.</span></span>
-16. <span data-ttu-id="c488e-124">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-124">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="c488e-125">คลิก เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-125">Click Select.</span></span>
-18. <span data-ttu-id="c488e-126">ในฟิลด์กำหนดเวลาของใบสมัคร ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="c488e-126">In the Application deadline field, enter a date.</span></span>
-19. <span data-ttu-id="c488e-127">คลิกที่สื่อ</span><span class="sxs-lookup"><span data-stu-id="c488e-127">Click Media.</span></span>
-    * <span data-ttu-id="c488e-128">โครงการสรรหาบุคลากรได้รวมตัวเลือกเพื่อระบุเต้ารับสื่อที่จะใช้เพื่อลงโฆษณาตำแหน่งที่เปิด</span><span class="sxs-lookup"><span data-stu-id="c488e-128">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
-20. <span data-ttu-id="c488e-129">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="c488e-129">Click New.</span></span>
-21. <span data-ttu-id="c488e-130">ในฟิลด์สื่อ ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="c488e-130">In the Media field, click the drop-down button to open the lookup.</span></span>
-22. <span data-ttu-id="c488e-131">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="c488e-131">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="c488e-132">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่ </span><span class="sxs-lookup"><span data-stu-id="c488e-132">In the Start date field, enter a date.</span></span>
-24. <span data-ttu-id="c488e-133">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="c488e-133">In the End date field, enter a date.</span></span>
-25. <span data-ttu-id="c488e-134">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="c488e-134">Click Save.</span></span>
-26. <span data-ttu-id="c488e-135">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c488e-135">Close the page.</span></span>
-27. <span data-ttu-id="c488e-136">คลิกที่โฆษณารับสมัครงาน</span><span class="sxs-lookup"><span data-stu-id="c488e-136">Click Job ads.</span></span>
-28. <span data-ttu-id="c488e-137">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="c488e-137">Click Save.</span></span>
-29. <span data-ttu-id="c488e-138">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c488e-138">Close the page.</span></span>
-30. <span data-ttu-id="c488e-139">เลือกหรือยกเลิกการแสดงผลที่กล่องกาเครื่องหมายบริการตนเองของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="c488e-139">Check or uncheck the Display on employee self service checkbox.</span></span>
-    * <span data-ttu-id="c488e-140">เลือกการแสดงผลกล่องกาเครื่องหมายด้วยตนเองของพนักงาน เพื่อให้พนักงานสามารถมองเห็นโครงการสรรหาบุคลากรในหน้าบริการตนเองของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="c488e-140">Select the Display on employee self service check box to make the recruitment project visible to employees on their Employee self-service pages.</span></span>  
-31. <span data-ttu-id="c488e-141">คลิกที่สถานะของโครงการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="c488e-141">Click Recruitment project status.</span></span>
-32. <span data-ttu-id="c488e-142">คลิก เริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="c488e-142">Click Start.</span></span>
-    * <span data-ttu-id="c488e-143">สถานะเริ่มต้นหมายถึงโครงการพร้อมที่จะรับใบสมัคร</span><span class="sxs-lookup"><span data-stu-id="c488e-143">The Started status means that the project is ready to receive applications.</span></span>  
-33. <span data-ttu-id="c488e-144">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="c488e-144">Click OK.</span></span>
-
+1. <span data-ttu-id="84f30-110">ให้ไปที่ **ทรัพยากรบุคคล > การสรรหาบุคลากร > โครงการสรรหาบุคลากร > โครงการสรรหาบุคลากร**</span><span class="sxs-lookup"><span data-stu-id="84f30-110">Go to **Human resources > Recruitment > Recruitment projects > Recruitment projects**.</span></span>
+2. <span data-ttu-id="84f30-111">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="84f30-111">Select **New**.</span></span>
+3. <span data-ttu-id="84f30-112">ในฟิลด์ **โครงการสรรหาบุคลากร** ให้ป้อนค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="84f30-112">In the **Recruitment project** field, enter a value.</span></span>
+4. <span data-ttu-id="84f30-113">ในฟิลด์ **คำอธิบาย** ให้ป้อนค่า</span><span class="sxs-lookup"><span data-stu-id="84f30-113">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="84f30-114">ในฟิลด์ **ผู้สรรหาบุคลากร** ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="84f30-114">In the **Recruiter** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="84f30-115">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดของคุณ</span><span class="sxs-lookup"><span data-stu-id="84f30-115">In the list, find and select your record.</span></span>
+7. <span data-ttu-id="84f30-116">ในรายการนี้ ให้เลือกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="84f30-116">In the list, select the link in the selected row.</span></span>
+8. <span data-ttu-id="84f30-117">เลือก **เลือก**</span><span class="sxs-lookup"><span data-stu-id="84f30-117">Choose **Select**.</span></span>
+9. <span data-ttu-id="84f30-118">ในฟิลด์แผนก ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="84f30-118">In the Department field, select the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="84f30-119">ในรายการนี้ ให้เลือกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="84f30-119">In the list, select the link in the selected row.</span></span>
+11. <span data-ttu-id="84f30-120">ในฟิลด์ **งาน** ให้เลือกปุ่มรายการแบบหล่นลงเพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="84f30-120">In the **Job** field, select the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="84f30-121">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดของคุณ</span><span class="sxs-lookup"><span data-stu-id="84f30-121">In the list, find and select your record.</span></span>
+13. <span data-ttu-id="84f30-122">ในรายการนี้ ให้เลือกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="84f30-122">In the list, select the link in the selected row.</span></span>
+14. <span data-ttu-id="84f30-123">ใน **ฟิลด์จำนวนตำแหน่งที่เปิดรับ** ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="84f30-123">In the **Number of openings field**, enter a number.</span></span>
+15. <span data-ttu-id="84f30-124">ในฟิลด์ **การว่าจ้างผู้จัดการ** ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="84f30-124">In the **Hiring manager** field, select the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="84f30-125">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดของคุณ</span><span class="sxs-lookup"><span data-stu-id="84f30-125">In the list, find and select your record.</span></span>
+17. <span data-ttu-id="84f30-126">ในรายการนี้ ให้เลือกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="84f30-126">In the list, select the link in the selected row.</span></span>
+18. <span data-ttu-id="84f30-127">เลือก **เลือก**</span><span class="sxs-lookup"><span data-stu-id="84f30-127">Choose **Select**.</span></span>
+19. <span data-ttu-id="84f30-128">ในฟิลด์ **กำหนดเวลาของใบสมัคร** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="84f30-128">In the **Application deadline** field, enter a date.</span></span>
+20. <span data-ttu-id="84f30-129">เลือก **สื่อ**</span><span class="sxs-lookup"><span data-stu-id="84f30-129">Select **Media**.</span></span> <span data-ttu-id="84f30-130">โครงการสรรหาบุคลากรได้รวมตัวเลือกเพื่อระบุเต้ารับสื่อที่จะใช้เพื่อลงโฆษณาตำแหน่งที่เปิด</span><span class="sxs-lookup"><span data-stu-id="84f30-130">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
+21. <span data-ttu-id="84f30-131">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="84f30-131">Select **New**.</span></span>
+22. <span data-ttu-id="84f30-132">ในฟิลด์ **สื่อ** ให้เลือกปุ่มรายการแบบหล่นลงเพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="84f30-132">In the **Media** field, select the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="84f30-133">ในรายการนี้ ให้เลือกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="84f30-133">In the list, select the link in the selected row.</span></span>
+24. <span data-ttu-id="84f30-134">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="84f30-134">In the **Start date** field, enter a date.</span></span>
+25. <span data-ttu-id="84f30-135">ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="84f30-135">In the **End date** field, enter a date.</span></span>
+26. <span data-ttu-id="84f30-136">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="84f30-136">Select **Save**.</span></span>
+27. <span data-ttu-id="84f30-137">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="84f30-137">Close the page.</span></span>
+28. <span data-ttu-id="84f30-138">เลือกโฆษณารับสมัครงาน</span><span class="sxs-lookup"><span data-stu-id="84f30-138">Select Job ads.</span></span>
+29. <span data-ttu-id="84f30-139">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="84f30-139">Select **Save**.</span></span>
+30. <span data-ttu-id="84f30-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="84f30-140">Close the page.</span></span>
+31. <span data-ttu-id="84f30-141">เลือกหรือยกเลิกกล่องกาเครื่องหมาย **การแสดงผลที่บริการตนเองของพนักงาน**</span><span class="sxs-lookup"><span data-stu-id="84f30-141">Check or uncheck the **Display on employee self-service** checkbox.</span></span> <span data-ttu-id="84f30-142">เลือกกล่องกาเครื่องหมาย **การแสดงผลที่บริการตนเองของพนักงาน**</span><span class="sxs-lookup"><span data-stu-id="84f30-142">Select the **Display on employee self-service** check box.</span></span> <span data-ttu-id="84f30-143">การเลือกนี้ช่วยให้โครงการสรรหาบุคลากรมองเห็นได้เฉพาะพนักงานในหน้าบริการตนเองของพนักงาน</span><span class="sxs-lookup"><span data-stu-id="84f30-143">This selection makes the recruitment project visible to employees on their Employee self-service pages.</span></span>
+32. <span data-ttu-id="84f30-144">เลือก **สถานะของโครงการสรรหาบุคลากร**</span><span class="sxs-lookup"><span data-stu-id="84f30-144">Select **Recruitment project status**.</span></span>
+33. <span data-ttu-id="84f30-145">เลือก **เริ่มต้น**</span><span class="sxs-lookup"><span data-stu-id="84f30-145">Select **Start**.</span></span> <span data-ttu-id="84f30-146">สถานะ **เริ่มต้น** หมายถึงโครงการพร้อมที่จะรับใบสมัคร</span><span class="sxs-lookup"><span data-stu-id="84f30-146">The **Started** status means that the project is ready to receive applications.</span></span>  
+34. <span data-ttu-id="84f30-147">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="84f30-147">Select **OK**.</span></span>
