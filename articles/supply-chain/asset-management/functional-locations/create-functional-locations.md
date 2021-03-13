@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438376"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018232"
 ---
 # <a name="create-functional-locations"></a>สร้างตำแหน่งที่ทำงาน
 
@@ -132,6 +131,3 @@ ms.locfileid: "4438376"
 
 >[!NOTE]
 >ถ้าคุณไม่สามารถลบตำแหน่งที่ทำงาน คุณสามารถจัดการการลบได้โดยการตั้งค่าสถานะของวงจรการใช้ของตำแหน่งที่ทำงานสำหรับวัตถุประสงค์นี้แทน ตัวอย่างเช่น คุณสามารถตั้งค่าขั้นตอน "ตัดจำหน่ายเป็นเศษซาก" หรือ "ลบ" ซึ่งไม่ควรเป็นขั้นตอนที่ใช้งานอยู่ ในฟอร์ม **สถานะของวงจรการใช้ของตำแหน่งที่ทำงาน**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

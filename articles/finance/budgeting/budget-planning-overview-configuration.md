@@ -1,7 +1,7 @@
 ---
 title: ภาพรวมของการวางแผนงบประมาณ
 description: หัวข้อนี้อธิบายการวางแผนงบประมาณ ซึ่งประกอบด้วยข้อมูลที่สามารถช่วยคุณในการตั้งค่าคอนฟิกการวางแผนงบประมาณ และตั้งค่ากระบวนการวางแผนงบประมาณ
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3744fd823576b597b4550008338e3cc96cb585d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448536"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019239"
 ---
 # <a name="budget-planning-overview"></a>ภาพรวมของการวางแผนงบประมาณ
 
@@ -205,6 +204,3 @@ ms.locfileid: "4448536"
 คำสั่งที่มีประโยชน์อีกคำสั่งหนึ่งในเมนู **การดำเนินการ** คือ **ดูสถานะกระบวนการงบประมาณ** คำสั่งนี้แสดงแผนงบประมาณในกระบวนการแบบกราฟิก พร้อมด้วยข้อมูลที่เกี่ยวข้อง เช่น สถานะลำดับงานของแผน สรุปตามยอดเงินและตามหน่วย และการนำทางแบบคลิกเดียวไปที่แผนงบประมาณ
 
 [![สถานะกระบวนการวางแผนงบประมาณ](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: สร้างใบสั่งส่งคืนสินค้าซื้อ
 description: 'ขั้นตอนนี้แสดงวิธีการสร้างใบสั่งส่งคืนสินค้าที่ซื้อ โดยใช้การดำเนินการใบลดหนี้เพื่อคัดลอกบรรทัดจากเอกสารใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังใบสั่งซื้อใหม่ '
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438835"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017070"
 ---
 # <a name="create-a-purchase-return-order"></a>สร้างใบสั่งส่งคืนสินค้าซื้อ
 
@@ -68,6 +67,3 @@ ms.locfileid: "4438835"
 4. ในฟิลด์ **ใบรับสินค้า** ให้พิมพ์ค่า ฟิลด์นี้จะใช้ในการป้อนข้อมูลอ้างอิงที่จะใช้เป็นใบสำคัญสำหรับมุดรายวันใบรับสินค้าจากใบสั่งซื้อ  
 5. คลิก **ตกลง** ขณะนี้สินค้ามีการบันทึกเป็นจัดส่งในใบสั่งส่งคืนสินค้าที่ซื้อ และมีการสร้างสมุดรายวันใบรับสินค้า  คุณสามารถใช้การดำเนินการรับผลิตภัณฑ์เพื่อตรวจสอบสมุดรายวันที่สร้างด้วยใบสั่งซื้อ และดูรายการที่ได้รับหรือส่งคืนและเวลาที่ได้รับหรือส่งคืน  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

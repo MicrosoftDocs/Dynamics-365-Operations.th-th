@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438517"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018557"
 ---
 # <a name="maintenance-rounds"></a>รอบการบำรุงรักษา
 
@@ -117,6 +116,3 @@ ms.locfileid: "4438517"
 - คุณสามารถตั้งค่าชุดงาน บนแท็บด่วน **รันในแบบเบื้องหลัง** เพื่อจัดกำหนดการรอบอย่างสม่ำเสมอ  
 - หากรอบถูกรวมอยู่ในกลุ่มใบสั่งงานหลายแห่ง (อ้างถึง [กลุ่มใบสั่งงาน](../work-orders/work-order-pools.md)) แต่ละกลุ่มจะแสดงหนึ่งเรกคอร์ด ใน **กลุ่มกำหนดการบำรุงรักษาแบบเปิด** การดำเนินการนี้จะทำให้ตัวเลือกการกรองข้อมูลสำหรับกลุ่มใบสั่งงานมีประสิทธิภาพมากขึ้น
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

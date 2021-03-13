@@ -1,7 +1,7 @@
 ---
 title: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
 description: หัวข้อนี้อธิบายถึงวิธีที่คุณจะไม่สามารถมีตัวคั่นเดียวกันได้สำหรับผังบัญชีและค่ามิติ คุณต้องเปลี่ยนค่าตัวคั่นหลังจากการอัพเกรด
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 2ce91557334a4342fa85848fc1b746b6b12c8992
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688538"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020115"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
 
@@ -41,6 +41,3 @@ ms.locfileid: "4688538"
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>วิธีการตรวจสอบว่า สภาพแวดล้อมของคุณต้องใช้ตัวคั่นที่มีการปรับปรุงหรือไม่ 
 ถ้าตัวคั่นในสภาพแวดล้อมที่มีการอัพเกรดของคุณขัดแย้งกัน คุณอาจพบความไม่มีเสถียรภาพ เมื่อป้อนค่าในตัวควบคุมรายการที่มีการแบ่งส่วนหรือตัวควบคุมรายการมิติ ซึ่งหมายความว่า คุณจะต้องใช้การใช้การค้นหาหรือเมนูแบบลอยขึ้นเสมอ เมื่อป้อนชุดบัญชีและมิติ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

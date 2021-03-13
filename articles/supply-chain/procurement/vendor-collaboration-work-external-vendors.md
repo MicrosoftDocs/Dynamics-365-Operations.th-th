@@ -1,7 +1,7 @@
 ---
 title: การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
 description: หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถทำงานร่วมกันกับผู้จัดจำหน่ายภายนอก เพื่อแลกเปลี่ยนข้อมูลเกี่ยวกับใบสั่งซื้อและสินค้าคงคลังที่มีการส่งมอบ
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438885"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016764"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
 
@@ -259,6 +258,3 @@ PO ที่ถูกส่งไปยังผู้จัดจำหน่�
 - %createddate%
 
 ถ้าการแก้ไขจำเป็น และจะถูกส่งหลังจากที่มีการส่ง RFQ จะมีการส่ง RFQ อีกครั้งให้แก่ผู้จัดจำหน่ายที่ได้รับเชิญทั้งหมด นอกจากนี้ จะปรับปรุงเอกสารที่เผยแพร่บนหน้า **เปิดคำขอใบเสนอราคาที่เผยแพร่** อีกด้วย
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

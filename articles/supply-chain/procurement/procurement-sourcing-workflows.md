@@ -1,7 +1,7 @@
 ---
 title: ลำดับงานการจัดซื้อและการจัดหา
 description: องค์กรบางองค์กรต้องการให้ใบขอซื้อและใบสั่งซื้อ ได้รับการอนุมัติโดยผู้ใช้อื่นที่ไม่ใช่บุคคลที่ป้อนธุรกรรม เพื่อตั้งค่ากระบวนการอนุมัติ คุณสามารถสร้างลำดับงานได้
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654159"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019765"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 
@@ -80,6 +79,3 @@ ms.locfileid: "4654159"
 - [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://www.microsoft.com/download/details.aspx?id=101821)
 - [ลำดับงานของใบขอซื้อ](purchase-requisitions-workflow.md)
 - [เตรียมความพร้อมผู้จัดจำหน่าย](vendor-onboarding.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

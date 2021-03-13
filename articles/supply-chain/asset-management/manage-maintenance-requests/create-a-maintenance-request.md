@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 22d5e371c386abc71946bf64ed8792647f78cf1b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438545"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019189"
 ---
 # <a name="create-maintenance-requests"></a>สร้างคำขอการบำรุงรักษา
 
@@ -74,6 +73,3 @@ ms.locfileid: "4438545"
 
 > [!NOTE]
 > ถ้าคุณเลือกสินทรัพย์เมื่อคุณสร้างคำขอการบำรุงรักษา คุณสามารถเพิ่มข้อบกพร่องหนึ่งรายการไปยังสินทรัพย์ได้ หลังจากที่มีการสร้างคำขอการบำรุงรักษาแล้ว คุณสามารถเพิ่มข้อบกพร่องเพิ่มเติมได้ตามที่คุณต้องการ เมื่อต้องการเพิ่มข้อบกพร่อง ให้เลือก **ข้อบกพร่องของสินทรัพย์** ในหน้า **คำขอการบำรุงรักษาทั้งหมด**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

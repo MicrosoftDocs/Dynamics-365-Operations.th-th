@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438377"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018482"
 ---
 # <a name="work-hour-control"></a>การควบคุมชั่วโมงการทำงาน
 
@@ -74,6 +73,3 @@ ms.locfileid: "4438377"
 อีกวิธีหนึ่งในการทำการคำนวณชั่วโมงเป็นการเลือกสินทรัพย์หลายรายการใน **สินทรัพย์ทั้งหมด** หรือ **สินทรัพย์ที่ใช้งานอยู่** จากนั้น คุณคลิกปุ่ม **การควบคุมชั่วโมง** บน FastTab **ทั่วไป** สินทรัพย์ที่เลือกจะถูกแทรกโดยอัตโนมัติในฟิลด์ **สินทรัพย์** บนเเท็บด่วน **เรกคอร์ดเพื่อรวม** คลิก **ตกลง** ในกล่องโต้ตอบ **การควบคุมชั่วโมงของสินทรัพย์** และการคำนวณสำหรับสินทรัพย์ที่เลือกจะแสดงขึ้น กระบวนงานเดียวกันสามารถใช้สำหรับตำเเหน่งที่ทำงานใน **ตำเเหน่งที่ทำงานทั้งหมด** หรือ **ตำเเหน่งที่ทำงานที่ใช้งานอยู่** เเละสำหรับใบสั่งงานใน **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

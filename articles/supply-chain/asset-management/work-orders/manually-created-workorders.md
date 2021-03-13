@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438300"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017879"
 ---
 # <a name="manually-created-work-orders"></a>ใบสั่งงานที่สร้างด้วยตนเอง
 
@@ -166,6 +165,3 @@ ms.locfileid: "4438300"
 >[!NOTE]
 >ถ้าคุณต้องการให้ใบสั่งงานถูกสร้างขึ้นโดยอัตโนมัติ คุณสามารถจัดกำหนดการงานแผนการบำรุงรักษา หรือคุณสามารถตั้งค่า "สร้างอัตโนมัติ" [แผนการบำรุงรักษาs](../preventive-and-reactive-maintenance/maintenance-plans.md) หรือ [รอบการบำรุงรักษา](../preventive-and-reactive-maintenance/maintenance-rounds.md) ในสินทรัพย์ ใบสั่งงานที่ถูกสร้างขึ้นจากคำขอการบำรุงรักษาบนหน้ารายการ **กำหนดการบำรุงรักษาทั้งหมด** มีชนิดงานบำรุงรักษาที่ถูกเลือกไว้ในคำขอการบำรุงรักษา
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

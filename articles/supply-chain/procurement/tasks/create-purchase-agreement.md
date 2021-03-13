@@ -1,7 +1,7 @@
 ---
 title: สร้างข้อตกลงการซื้อ
 description: หัวข้อนี้นำคุณผ่านการสร้างข้อตกลงการซื้อ
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1edfd4e56910376d0596eec5eff2af888f7dc98d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438426"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016842"
 ---
 # <a name="create-a-purchase-agreement"></a>สร้างข้อตกลงการซื้อ
 
@@ -72,6 +71,3 @@ ms.locfileid: "4438426"
 5. เลือก **การยืนยันข้อตกลงการซื้อ** ตัวเลือก **การแสดงตัวอย่าง/พิมพ์** อนุญาตให้คุณสร้างเอกสารสำหรับข้อตกลงการซื้อ ซึ่งคุณสามารถพิมพ์หรือส่งไปยังผู้จัดจำหน่ายได้ ถ้าคุณอัพเดตข้อตกลงในภายหลัง และยืนยันอีกครั้ง เวอร์ชันทั้งสองจะถูกแสดงที่นี่  
 6. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
