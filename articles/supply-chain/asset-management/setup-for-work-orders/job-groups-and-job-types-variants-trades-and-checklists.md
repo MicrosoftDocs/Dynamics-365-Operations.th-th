@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438465"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021300"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>ประเภทของชนิดงานบำรุงรักษาและชนิดงานบำรุงรักษา ตัวแปรชนิดงานบำรุงรักษา และการค้าของชนิดงานบำรุงรักษา และรายการตรวจสอบการบำรุงรักษา
 
@@ -267,6 +266,3 @@ ms.locfileid: "4438465"
 2. ในกล่องโต้ตอบ **ปรับปรุงการคาดการณ์ของชนิดงานบำรุงรักษา** บน FastTab **เรกคอร์ดที่จะรวม** คุณสามารถเพิ่มการเลือกสำหรับชนิดงานการบำรุงรักษาเฉพาะได้ตามที่คุณต้องการ เลือก **ตัวกรอง** แล้วจากนั้น เลือก **เลือก** เพื่อทำการเลือก
 3. บน FastTab **รันในเบื้องหลัง** คุณสามารถตั้งค่าการปรับปรุงอัตโนมัติเป็นชุดงานได้ตามที่คุณต้องการ
 4. เลือก **ตกลง** เพื่อเริ่มต้นการปรับปรุงการคาดการณ์
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
