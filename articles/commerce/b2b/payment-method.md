@@ -76,3 +76,6 @@ ms.locfileid: "5035971"
 [ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เกี่ยวกับไซต์อีคอมเมิร์ซของ B2B](quantity-limits.md)
 
 [การอัปเดต SDK และไลบรารีโมดูล](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.locfileid: "4982277"
 5. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 6. คลิกดาวน์โหลด
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

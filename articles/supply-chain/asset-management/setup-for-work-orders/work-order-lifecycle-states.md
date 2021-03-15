@@ -138,3 +138,6 @@ ms.locfileid: "5021590"
 9. บันทึกแบบจำลองวงจรงานใบสั่งงาน
 
 ![หน้าแบบจำลองวงจรการใช้งานของใบสั่งงาน](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

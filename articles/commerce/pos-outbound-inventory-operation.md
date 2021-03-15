@@ -192,3 +192,6 @@ ms.locfileid: "4976625"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [การดำเนินงานของสินค้าคงคลังขาเข้าใน POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

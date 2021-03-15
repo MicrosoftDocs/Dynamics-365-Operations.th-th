@@ -78,3 +78,6 @@ ms.locfileid: "5006828"
 3. ขยายส่วนวันอาทิตย์ 
 4. เลือกใช่ในฟิลด์ปิดการเบิกสินค้า 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

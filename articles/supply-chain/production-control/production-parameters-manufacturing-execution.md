@@ -153,3 +153,6 @@ ms.locfileid: "5001585"
 | รายงานการเสร็จงาน |   การใช้ BOM อัตโนมัติ    | <strong>ไม่เคย</strong>  |
 | รายงานการเสร็จงาน | อัพเดตรายงานการเสร็จงานทางออนไลน์ | <strong>สถานะ</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

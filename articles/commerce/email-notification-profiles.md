@@ -95,3 +95,6 @@ ms.locfileid: "5000835"
 [ข้อกำหนดเบื้องต้นในการตั้งค่าช่องทาง](channels-prerequisites.md)
 
 [ภาพรวมขององค์กรและลำดับชั้นขององค์กร](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

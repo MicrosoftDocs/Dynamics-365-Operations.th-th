@@ -61,3 +61,6 @@ ms.locfileid: "4964856"
 
 [เปลี่ยนวิธีการจัดส่งใน POS](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

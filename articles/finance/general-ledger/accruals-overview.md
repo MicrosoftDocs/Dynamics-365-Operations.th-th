@@ -45,3 +45,6 @@ ms.locfileid: "4985073"
 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างแผนงานการค้างรับค้างจ่าย](tasks/create-accrual-schemes.md) และ [สร้างธุรกรรมค้างรับค้างจ่ายในบัญชีแยกประเภท](tasks/create-ledger-accrual-transactions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

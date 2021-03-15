@@ -77,3 +77,6 @@ ms.locfileid: "5007992"
 - [ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
 
 - [อนุมัติการคาดการณ์ที่ปรับปรุง](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

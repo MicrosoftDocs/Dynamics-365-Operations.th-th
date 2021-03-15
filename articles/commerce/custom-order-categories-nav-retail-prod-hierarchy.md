@@ -87,3 +87,6 @@ ms.locfileid: "4976774"
 
 > [!NOTE]
 > ตามค่าเริ่มต้น คุณลักษณะการเรียงลำดับเเบบกำหนดเองจะถูกปิด เมื่อต้องการเรียนรู้วิธีการเปิดใช้งานลักษณะ เเละคุณลักษณะอื่นๆ ดูที่ [การจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

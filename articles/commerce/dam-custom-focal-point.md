@@ -59,3 +59,6 @@ ms.locfileid: "4972943"
 [ครอบตัดรูปภาพ](dam-crop-images.md)
 
 [อัปโหลดและให้บริการไฟล์แบบคงที่](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ ms.locfileid: "4982249"
 [ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า](work-with-layouts.md)
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

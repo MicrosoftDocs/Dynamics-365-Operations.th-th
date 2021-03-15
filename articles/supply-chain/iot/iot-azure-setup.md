@@ -161,3 +161,6 @@ ms.locfileid: "4989832"
 > เมื่อใดก็ตามที่คุณอัปเดตสตริงการเชื่อมต่ออใดๆ คุณต้องอัปเดตค่าข้อมูลลับเช่นกัน
 
 ขณะนี้คุณได้เสร็จสิ้นการเตรียมใช้งานทรัพยากร Azure ที่จำเป็นแล้ว ขั้นตอนต่อไปคือการ [ติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

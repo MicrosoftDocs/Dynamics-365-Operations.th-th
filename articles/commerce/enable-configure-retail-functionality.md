@@ -68,3 +68,6 @@ ms.locfileid: "5000757"
 - ช่องทางการค้า
 - การลงทะเบียนและอุปกรณ์
 - การจัดประเภท
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

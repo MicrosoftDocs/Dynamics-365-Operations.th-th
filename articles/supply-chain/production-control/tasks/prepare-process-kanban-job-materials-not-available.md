@@ -51,3 +51,6 @@ ms.locfileid: "4994103"
 6. คลิกจัดเตรียม 
     * โปรดสังเกตว่า ไอคอนในสถานะงานแสดงให้เห็นว่า ขณะนี้งานพร้อม  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

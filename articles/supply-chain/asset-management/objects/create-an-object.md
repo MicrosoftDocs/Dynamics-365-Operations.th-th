@@ -115,3 +115,6 @@ ms.locfileid: "5019440"
 ## <a name="financial-dimensions"></a>มิติทางการเงิน
 
 คุณสามารถเลือกมิติทางการเงินสำหรับสินทรัพย์ได้
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

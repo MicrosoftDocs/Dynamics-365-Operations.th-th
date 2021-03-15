@@ -162,3 +162,6 @@ ms.locfileid: "4798129"
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>ฉันสามารถอ้างอิงฟิลด์ที่กำหนดเองจากเครื่องมือสำหรับนักพัฒนาได้หรือไม่  
 
 สามารถจัดการฟิลด์ที่กำหนดเองโดยใช้อินเทอร์เฟซผู้ใช้เท่านั้น และไม่สามารถอ้างอิงโดยรหัสได้ 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

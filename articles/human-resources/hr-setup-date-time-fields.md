@@ -95,3 +95,6 @@ ms.locfileid: "5130458"
 
 [ข้อมูลวันที่และเวลา](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [โซนเวลาที่ผู้ใช้ต้องการ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

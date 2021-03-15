@@ -123,3 +123,6 @@ ms.locfileid: "5020882"
 ภาพประกอบด้านล่างแสดงตัวอย่างของกล่องโต้ตอบ **อัพเดตการคาดการณ์ใบสั่งงาน**
 
 ![รูปที่ 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

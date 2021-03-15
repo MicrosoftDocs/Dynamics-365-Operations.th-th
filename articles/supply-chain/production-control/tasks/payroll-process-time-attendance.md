@@ -69,3 +69,6 @@ ms.locfileid: "4977799"
 7. คลิก แก้ไข
 8. ในฟิลด์ข้อตกลงการชำระค่าจ้าง ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

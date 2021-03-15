@@ -55,3 +55,6 @@ ms.locfileid: "4989363"
 [เพิ่มโค้ดสคริปต์ให้กับหน้าไซต์เพื่อสนับสนุนการตรวจวัดระยะไกล](add-telemetry.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

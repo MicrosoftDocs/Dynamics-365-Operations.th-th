@@ -280,3 +280,6 @@ ms.locfileid: "5004689"
     ![สถานที่ของตำแหน่ง 1](media/LocationLicensePlatePositioning.png "สถานที่ของตำแหน่ง 1")
 
 1. ป้อนรหัสป้ายทะเบียนที่คุณสร้างไว้สำหรับสถานที่เก็บแล้วทำตามพร้อมต์เพื่อเบิกสินค้าตามใบสั่งขาย
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

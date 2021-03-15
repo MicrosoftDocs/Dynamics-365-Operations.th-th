@@ -46,3 +46,6 @@ ms.locfileid: "4798005"
     * ตัวอย่างเช่น: ยกเลิกการนำไปใช้  
 12. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

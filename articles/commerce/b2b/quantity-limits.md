@@ -84,3 +84,6 @@ ms.locfileid: "5035972"
 [จัดการผู้ใช้คู่ค้าทางธุรกิจบนไซต์อีคอมเมิร์ซของ B2B](manage-b2b-users.md)
 
 [ตั้งค่าคอนฟิกวิธีการชำระเงินด้วยบัญชีลูกค้าสำหรับไซต์อีคอมเมิร์ซของ B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

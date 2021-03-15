@@ -94,3 +94,6 @@ ms.locfileid: "4986090"
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 
 [การอัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

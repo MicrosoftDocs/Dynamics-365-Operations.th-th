@@ -66,3 +66,6 @@ ms.locfileid: "4969987"
 [ตั้งค่าช่องทางการขายปลีก](channel-setup-retail.md)
 
 [ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

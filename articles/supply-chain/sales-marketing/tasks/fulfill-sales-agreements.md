@@ -89,3 +89,6 @@ ms.locfileid: "4991776"
 23. คลิกข้อตกลงการขายที่แนบ
 24. คลิกแท็บการเติมสินค้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

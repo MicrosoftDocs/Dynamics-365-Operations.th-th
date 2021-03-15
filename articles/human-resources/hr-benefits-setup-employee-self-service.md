@@ -72,3 +72,6 @@ ms.locfileid: "5114442"
    | **End** | วันที่และเวลาสิ้นสุดของไทล์ควรพร้อมใช้งาน |
 
 4. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

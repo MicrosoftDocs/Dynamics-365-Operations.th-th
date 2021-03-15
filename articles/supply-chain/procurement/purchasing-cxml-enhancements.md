@@ -276,3 +276,6 @@ ms.locfileid: "4992206"
 
 - [ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

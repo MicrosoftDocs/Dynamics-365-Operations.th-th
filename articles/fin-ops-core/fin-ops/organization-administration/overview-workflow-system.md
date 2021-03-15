@@ -71,3 +71,6 @@ ms.locfileid: "4797007"
 + [ตั้งค่าคอนฟิกสาขาคู่ขนานในลำดับงาน](configure-parallel-branch-workflow.md)
 + [ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ](configure-line-item-workflow.md)
 + [FAQ เกี่ยวกับลำดับงาน](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

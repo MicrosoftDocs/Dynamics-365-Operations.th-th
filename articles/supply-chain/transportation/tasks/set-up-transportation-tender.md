@@ -47,3 +47,6 @@ ms.locfileid: "5005113"
 7. คลิก ส่ง 
 8. เลือก กระบวนการผลิต
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

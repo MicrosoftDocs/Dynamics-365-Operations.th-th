@@ -121,3 +121,6 @@ ms.locfileid: "4993025"
 [การระงับเครดิตสำหรับใบสั่งขาย](./cm-sales-order-credit-holds.md)
 
 [งานประจำงวดการจัดการเครดิตของลูกค้า](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

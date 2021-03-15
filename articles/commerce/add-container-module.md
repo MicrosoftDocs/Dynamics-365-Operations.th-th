@@ -141,3 +141,6 @@ ms.locfileid: "4980542"
 [โมดูลส่วนหัว](author-header-module.md)
 
 [โมดูลของส่วนท้าย](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

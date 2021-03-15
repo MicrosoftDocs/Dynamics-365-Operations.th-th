@@ -52,3 +52,6 @@ ms.locfileid: "4992332"
 
 ## <a name="select-the-product-configuration"></a>เลือกการจัดโครงแบบผลิตภัณฑ์
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

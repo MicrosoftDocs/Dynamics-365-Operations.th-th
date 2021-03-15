@@ -77,3 +77,6 @@ ms.locfileid: "4976279"
 10. คลิกบันทึก
 11. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

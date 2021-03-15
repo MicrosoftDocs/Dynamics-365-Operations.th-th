@@ -107,3 +107,6 @@ ms.locfileid: "4980842"
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): ลำดับใบแจ้งหนี้
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

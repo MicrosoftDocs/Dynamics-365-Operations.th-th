@@ -159,3 +159,6 @@ ms.locfileid: "5154262"
 
 [การจัดกำหนดการแบบภาพสำหรับการผลิต (สคริปต์สาธิต)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

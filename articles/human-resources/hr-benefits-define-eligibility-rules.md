@@ -67,3 +67,6 @@ ms.locfileid: "5114413"
 10. เลือก **บันทึก**
 11. ปิดแบบฟอร์ม
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ ms.locfileid: "5001285"
 
 [ความต้องการสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

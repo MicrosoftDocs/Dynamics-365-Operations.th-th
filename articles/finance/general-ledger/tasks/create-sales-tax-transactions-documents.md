@@ -59,3 +59,6 @@ ms.locfileid: "4968665"
 29. คลิกภาษีขาย
 30. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ ms.locfileid: "5033233"
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานพื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ โปรดดูที่ [ใช้งานพื้นที่ทำงานการจัดการสินทรัพย์บนมือถือ](asset-management-mobile-workspace.md)
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแอป Finance and Operations บนมือถือ (Dynamics 365) โปรดดูที่ [หน้าแรกของแอปบนมือถือ](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

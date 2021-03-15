@@ -44,3 +44,6 @@ ms.locfileid: "5114445"
 
 1. ไปที่ [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments)
 2. สร้างสภาพแวดล้อมโดยการปฏิบัติตามคำแนะนำใน [การเตรียมใช้งานทรัพยากรบุคคล](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

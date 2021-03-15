@@ -102,3 +102,6 @@ USMF ดำเนินกระบวนการประจำงวดเพ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

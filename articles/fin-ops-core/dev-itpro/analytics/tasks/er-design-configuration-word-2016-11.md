@@ -164,3 +164,6 @@ ms.locfileid: "5092727"
 
 - [ออกแบบการตั้งค่าคอนฟิก ER ใหม่ เพื่อสร้างรายงานในรูปแบบ Word](../er-design-configuration-word.md)
 - [ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้างโดยใช้ ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

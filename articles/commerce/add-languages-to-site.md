@@ -175,3 +175,6 @@ ms.locfileid: "4980343"
 [เพิ่มข้อความสงวนลิขสิทธิ์](add-copyright-notice.md)
 
 [เพิ่มโค้ดสคริปต์ให้กับหน้าไซต์เพื่อสนับสนุนการตรวจวัดระยะไกล](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

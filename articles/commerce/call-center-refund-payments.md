@@ -108,3 +108,6 @@ ms.locfileid: "4991426"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [วิธีการชำระเงินในศูนย์บริการ](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ On the **System parameters** page, follow these steps:
 | [ชุมชน Dynamics](https://community.dynamics.com/) | ไซต์นี้โฮสต์บล็อก ฟอรัม และวิดีโอ |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | ไซต์นี้แสดงข้อมูลการประเมินและการขาย |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | ไซต์นี้โฮสต์ทรัพยากรการฝึกอบรม รายงานและเอกสารที่สามารถดาวน์โหลดได้ และเป็นไซต์สนับสนุนหลักสำหรับผู้ถือครองแผนการบริการ การเข้าถึงทรัพยากรบางรายการบนไซต์นี้อาจต้องใช้แผนการบริการ |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

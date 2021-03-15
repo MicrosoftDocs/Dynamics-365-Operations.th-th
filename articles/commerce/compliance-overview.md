@@ -45,3 +45,6 @@ ms.locfileid: "4997636"
 [เพิ่มหน้านโยบายความเป็นส่วนตัว](add-privacy-page.md)
 
 [แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

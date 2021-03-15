@@ -139,3 +139,6 @@ ms.locfileid: "5035973"
 [ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เกี่ยวกับไซต์อีคอมเมิร์ซของ B2B](quantity-limits.md)
 
 [ภาพรวมของลำดับหมายเลข](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "5130336"
     * อีกทางหนึ่งคือ เลือกแผนกสำหรับตำแหน่งใหม่  
 13. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

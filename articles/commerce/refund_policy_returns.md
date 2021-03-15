@@ -103,3 +103,6 @@ ms.locfileid: "4979736"
 
 
 ![รายการวิธีการชำระเงิน](media/Return-policy-page5.PNG "ประเภทการคืนเงินได้รับอนุญาต")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

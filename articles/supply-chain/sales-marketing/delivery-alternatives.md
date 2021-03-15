@@ -150,3 +150,6 @@ FastTab นี้เน้นถึงผลกระทบของทางเ
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [สัญญาใบสั่ง](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

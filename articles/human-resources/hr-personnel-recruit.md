@@ -225,3 +225,6 @@ Dynamics 365 Human Resources ช่วยคุณในการจัดกา
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [จัดระเบียบบุคลากรของคุณ](hr-personnel-departments-jobs-positions.md)<br>
 [ตั้งค่าส่วนประกอบของงาน](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

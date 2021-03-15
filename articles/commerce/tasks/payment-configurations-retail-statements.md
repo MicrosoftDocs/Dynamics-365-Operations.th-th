@@ -52,3 +52,6 @@ ms.locfileid: "4982327"
     * เลือกบัญชีเพื่อลงรายการบัญชียอดการนำเงินฝากเข้าเซฟเข้าไป  
 8. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

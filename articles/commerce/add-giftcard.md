@@ -93,3 +93,6 @@ ms.locfileid: "4980393"
 [การรองรับบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)
 
 [การอัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

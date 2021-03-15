@@ -41,3 +41,6 @@ Dynamics 365 Human Resources ใช้รหัสระดับที่มี
    | **คำอธิบาย** | คำอธิบายย่อเกี่ยวกับชนิดของรหัสระดับสวัสดิการ |
 
 4. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

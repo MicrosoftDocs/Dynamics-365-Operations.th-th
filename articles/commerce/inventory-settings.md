@@ -92,3 +92,6 @@ Dynamics 365 Commerce แสดงการประเมินความพ�
 [โมดูลตัวเลือกการจัดเก็บ](store-selector.md)
 
 [การอัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

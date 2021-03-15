@@ -60,3 +60,6 @@ ms.locfileid: "4982627"
 [ภาพรวมของเท็มเพลตและเค้าโครง](templates-layouts-overview.md)
 
 [เลือกกำหนดการนำทางของไซต์](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "4967419"
 
 [ตั้งค่าผลิตภัณฑ์ที่สามารถถูกผลิตหรือจัดซื้อ](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

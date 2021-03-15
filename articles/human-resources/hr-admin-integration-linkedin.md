@@ -190,3 +190,6 @@ ms.locfileid: "5114511"
 
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

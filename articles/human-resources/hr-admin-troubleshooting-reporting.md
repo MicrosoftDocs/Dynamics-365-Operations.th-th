@@ -49,3 +49,6 @@ ms.locfileid: "5114416"
 **วิธีแก้ปัญหาระยะยาว**
 
 ตัวเลือก Power BI เพิ่มเติมจะพร้อมใช้งาน และข้อมูลและเอนทิตีเพิ่มเติมจะเป็นส่วนหนึ่งของ Dataverse
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ ms.locfileid: "4828222"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [โมดูลข้อมูลการเบิกสินค้า](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

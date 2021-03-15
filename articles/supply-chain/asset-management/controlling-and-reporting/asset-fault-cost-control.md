@@ -61,3 +61,6 @@ ms.locfileid: "5019964"
     ![รูปที่ 1](media/05-controlling-and-reporting.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าข้อบกพร่อง ดูที่หัวข้อ [การจัดการข้อบกพร่อง](../setup-for-work-orders/fault-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

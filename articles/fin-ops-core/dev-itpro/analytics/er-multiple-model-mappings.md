@@ -182,3 +182,6 @@ ms.locfileid: "4826120"
 - [จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ](er-country-dependent-model-mapping.md)
 - [การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

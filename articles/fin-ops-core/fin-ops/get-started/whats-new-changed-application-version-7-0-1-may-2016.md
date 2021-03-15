@@ -106,3 +106,6 @@ ms.locfileid: "4797176"
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Finance and Operations](whats-new-changed.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ ms.locfileid: "4798154"
 หลังจากที่ได้นำตัวกรองมาใช้ (ดูรูปภาพด้านล่าง) ผู้ใช้สามารถค้นหาและเลือกแถวได้ตามปกติ
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

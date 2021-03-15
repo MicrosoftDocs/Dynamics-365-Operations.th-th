@@ -96,3 +96,6 @@ ms.locfileid: "5098651"
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
 
 [ความสามารถในการเพิ่มฟังก์ชันช่องทางออนไลน์](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

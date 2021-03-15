@@ -108,3 +108,6 @@ ms.locfileid: "4980218"
 [การคาดการณ์ความต้องการคุกกี้](cookie-compliance.md)
 
 [แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

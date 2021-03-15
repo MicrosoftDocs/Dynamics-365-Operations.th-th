@@ -49,3 +49,6 @@ ms.locfileid: "4991356"
 15. คลิกธุรกรรมบัตร
 16. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

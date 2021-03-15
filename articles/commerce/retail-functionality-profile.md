@@ -63,3 +63,6 @@ ms.locfileid: "4979658"
 [ภาพรวมโครงร่างหน้าจอ](pos-screen-layouts.md)       
 
 [ตั้งค่าคอนฟิกและติดตั้ง Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

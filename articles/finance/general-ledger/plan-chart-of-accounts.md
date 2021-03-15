@@ -59,3 +59,6 @@ ms.locfileid: "4990375"
 
 - [มิติทางการเงิน](financial-dimensions.md)
 - [สร้างและกำหนดโครงสร้างกฎขั้นสูง](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

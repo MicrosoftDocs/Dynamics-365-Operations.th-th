@@ -91,3 +91,6 @@ ms.locfileid: "5006271"
 [สร้างรายการงานและเพิ่มงาน](task-mgmt-create-lists.md)
 
 [การจัดการงานใน POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

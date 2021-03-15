@@ -90,3 +90,6 @@ ms.locfileid: "5007826"
 รายงานที่แสดงข้อมูลเกี่ยวกับประเทศต้นทางของแต่ละส่วนจะถูกสร้างและแสดงขึ้น นี่เป็นตัวอย่างของรายงาน
 
 ![รายงานประเทศต้นทาง](media/country-of-origin-report.png "รายงานประเทศต้นทาง")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -203,3 +203,6 @@ IFeatureLifecycle เป็นกลไกภายในของ Microsoft ส
 - `PublicPreview` - แสดงตามค่าเริ่มต้นแต่มีคำเตือนว่าลักษณะการทำงานอยู่ในการแสดงตัวอย่าง
 - `Released` - ออกใช้ทั้งหมด
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

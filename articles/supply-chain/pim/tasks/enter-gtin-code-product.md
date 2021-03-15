@@ -41,3 +41,6 @@ ms.locfileid: "5011258"
 11. ในฟิลด์ GTIN ให้พิมพ์ค่า
 12. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

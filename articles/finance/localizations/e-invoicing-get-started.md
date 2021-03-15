@@ -235,3 +235,6 @@ ms.locfileid: "5111231"
 - [เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับเม็กซิโก](e-invoicing-mex-get-started.md)
 - [เริ่มต้นใช้งาน add-on ของใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับอิตาลี](e-invoicing-ita-get-started.md)
 - [ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในอียิปต์](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

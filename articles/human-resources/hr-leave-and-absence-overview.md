@@ -54,3 +54,6 @@ Dynamics 365 Human Resources ช่วยให้คุณสามารถท
 [ส่งคำขอลาหยุด](hr-employee-self-service-request-time-off.md)
 [จัดการคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ ms.locfileid: "4976799"
 ภาพประกอบต่อไปนี้แสดงผลของการเลือก **ด้านบนขวา** เทียบกับ **กึ่งกลาง** ในฟิลด์ **การจัดแนวเนื้อหา** สำหรับปุ่มขนาดต่างๆ
 
 ![เนื้อหาแบบสดบนปุ่ม POS](./media/ButtonsWithLiveContent.png "เนื้อหาแบบสดบนปุ่ม POS")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

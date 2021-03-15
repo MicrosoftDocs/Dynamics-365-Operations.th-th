@@ -72,3 +72,6 @@ Phantom BOMs ยังสามารถใช้ได้สำหรับ BOM
 ในภาพประกอบต่อไปนี้ (a) คือ BOM สำหรับผลิตภัณฑ์ G และส่วน F และ G และ (b) คือแผ่นงานกระบวนการผลิตสำหรับผลิตภัณฑ์ G และส่วน F
 
 ![ผลิตภัณฑ์ G และส่วน F ที่มีแผ่นงานในกระบวนการผลิต](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

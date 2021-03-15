@@ -138,3 +138,6 @@ ms.locfileid: "4989388"
 - ลงทะเบียนการขาดงาน
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนเวลาและการเข้างานของกระบวนการ ดู [ประมวลผลการลงทะเบียนเวลาและการเข้างาน](https://technet.microsoft.com/library/aa573180.aspx)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

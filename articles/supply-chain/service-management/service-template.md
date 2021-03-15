@@ -57,3 +57,6 @@ ms.locfileid: "4974296"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [การคัดลอกบรรทัดเท็มเพลตการบริการ](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

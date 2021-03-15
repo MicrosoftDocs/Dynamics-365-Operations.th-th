@@ -184,3 +184,6 @@ ms.locfileid: "4980917"
 | 06:00 น. | 08:00 น. | 2    | 1.5       | 3            |
 | 08:00 น. | 09:00 น. | 1    | 2         | 2            |
 |          |          |      | **ยอดรวม** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "4797947"
 หรือ
 
 ไซต์:msdn.microsoft.com dynamics ax 2012 "คำที่ใช้ค้นหา"
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

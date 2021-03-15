@@ -48,3 +48,6 @@ ms.locfileid: "4966316"
 2. ปิดหน้า
 3. รีเฟรชหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,5 @@ ms.locfileid: "5115499"
 [ตาราง Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [การแสดงฟิลด์ที่กำหนดเองบนเอนทิตี้ข้อมูล](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

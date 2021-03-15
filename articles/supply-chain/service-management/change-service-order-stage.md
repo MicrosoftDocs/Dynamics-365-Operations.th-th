@@ -40,3 +40,6 @@ ms.locfileid: "4996761"
 4.  ในฟอร์ม **เปลี่ยนขั้นตอนการบริการ** เลือกขั้นตอนที่เหมาะสม
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

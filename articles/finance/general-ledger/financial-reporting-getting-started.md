@@ -174,3 +174,6 @@ ms.locfileid: "4975697"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 - [ดูรายงานทางการเงิน](view-financial-reports.md)
 - [คำนิยามแผนภูมิรายงานในรายงานทางการเงิน](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ ms.locfileid: "4973796"
 ## <a name="deleting-completed-tasks"></a>การลบงานที่เสร็จสมบูรณ์
 
 คุณสามารถลบงานการประมวลผลการส่งสินค้าที่รอการตัดบัญชีซึ่งเสร็จสมบูรณ์แล้ว โดยการเลือกและการลบออกในหน้า
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

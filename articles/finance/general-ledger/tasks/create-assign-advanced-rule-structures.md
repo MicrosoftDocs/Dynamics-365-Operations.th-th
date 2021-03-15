@@ -58,3 +58,6 @@ ms.locfileid: "4968623"
 17. ปิดหน้า
 18. เลือก **เปิดใช้งาน**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "4988056"
 10. คลิกบันทึกการจัดส่ง
 11. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

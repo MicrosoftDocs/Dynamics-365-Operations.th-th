@@ -39,3 +39,5 @@ ms.locfileid: "5115305"
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [การสร้างแผนการลางานและขาดงาน](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

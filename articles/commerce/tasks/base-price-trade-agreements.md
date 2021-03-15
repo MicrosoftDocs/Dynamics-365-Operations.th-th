@@ -69,3 +69,6 @@ ms.locfileid: "5006069"
 38. บน **บานหน้าต่างการดำเนินการ** คลิกขาย
 39. คลิก **ราคาขาย**
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

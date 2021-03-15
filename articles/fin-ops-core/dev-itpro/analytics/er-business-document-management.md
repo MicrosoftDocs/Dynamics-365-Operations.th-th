@@ -579,3 +579,6 @@ ms.locfileid: "4740967"
 |                             | บันทึกการจัดส่งของใบสั่งขาย (LT) (Excel)           |
 |                             | บันทึกการจัดส่งของใบสั่งขาย (PL) (Excel)           |
 |                             | บันทึกการจัดส่งของใบสั่งขาย (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

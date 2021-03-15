@@ -52,3 +52,6 @@ ms.locfileid: "4987040"
 20. ปิดหน้า
 21. ปิดฟอร์ม **รายละเอียดผลิตภัณฑ์ที่นำออกใช้**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

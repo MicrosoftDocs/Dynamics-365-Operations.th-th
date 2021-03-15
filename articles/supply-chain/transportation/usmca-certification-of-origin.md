@@ -139,3 +139,6 @@ ms.locfileid: "5006427"
 ### <a name="page-numbers"></a>หมายเลขหน้า
 
 หน้าปัจจุบันและจำนวนหน้าที่พิมพ์ที่ด้านล่างของเอกสาร
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

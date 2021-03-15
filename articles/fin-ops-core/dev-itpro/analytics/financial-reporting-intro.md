@@ -96,3 +96,6 @@ ms.locfileid: "5093962"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 [สร้างรายงานทางการเงิน](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

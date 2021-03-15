@@ -47,3 +47,6 @@ ms.locfileid: "4975927"
     * ตรวจทานผลลัพธ์ก่อนที่จะมีการโอนสมุดบัญชีสินทรัพย์ถาวร  
 10. คลิก **โอนย้าย** 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

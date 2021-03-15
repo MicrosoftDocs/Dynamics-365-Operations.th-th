@@ -239,3 +239,6 @@ ms.locfileid: "5033163"
 1. เลือก **เสร็จสิ้น**
 
     ![เพิ่มไฟล์แนบไปยังคำขอการบำรุงรักษา](media/am-mobile-10.png "เพิ่มไฟล์แนบไปยังคำขอการบำรุงรักษา")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

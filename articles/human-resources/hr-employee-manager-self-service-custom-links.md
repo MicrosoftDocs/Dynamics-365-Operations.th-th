@@ -48,3 +48,6 @@ ms.locfileid: "5114502"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -255,3 +255,6 @@ ms.locfileid: "4798237"
 
 [แป้นพิมพ์ลัดสำหรับการวิเคราะห์บัญชีที่สูญหาย](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

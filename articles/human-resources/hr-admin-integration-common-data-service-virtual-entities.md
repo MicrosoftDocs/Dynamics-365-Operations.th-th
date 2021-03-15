@@ -221,3 +221,6 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 [สร้างและแก้ไขตารางเสมือนที่มีข้อมูลจากแหล่งข้อมูลภายนอก](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [พอร์ทัล Power Apps คืออะไร](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [ภาพรวมของการสร้างแอปใน Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

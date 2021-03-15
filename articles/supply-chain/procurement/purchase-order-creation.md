@@ -95,3 +95,6 @@ PO สามารถถูกกำหนดค่าเพื่อกำห�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

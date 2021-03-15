@@ -42,3 +42,6 @@ ms.locfileid: "5019490"
 
 สำหรับคำอธิบายโดยย่อของปุ่มบนหน้ารายการ **งานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่** อ้างอิงถึง [บทนำเกี่ยวกับใบสั่งงาน](../work-orders/introduction-to-work-orders.md) ซึ่งมีการอธิบายปุ่มที่เหมือนกัน
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

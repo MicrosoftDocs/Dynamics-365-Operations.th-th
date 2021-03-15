@@ -102,3 +102,6 @@ ms.locfileid: "4798439"
     ```
 2. สร้างข้อความแจ้งเตือนจากฟอร์ม SysTableBrowser
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

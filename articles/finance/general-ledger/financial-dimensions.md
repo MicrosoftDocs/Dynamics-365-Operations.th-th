@@ -139,3 +139,6 @@ ms.locfileid: "4975750"
 
 - [กำหนดมิติทางการเงิน](tasks/define-financial-dimensions.md)
 - [รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

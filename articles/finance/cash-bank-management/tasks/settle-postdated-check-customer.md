@@ -55,3 +55,6 @@ ms.locfileid: "4976252"
 10. คลิกใบสำคัญ
 11. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

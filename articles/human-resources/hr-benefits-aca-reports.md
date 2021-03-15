@@ -87,3 +87,6 @@ ms.locfileid: "5142167"
 
 > [!NOTE]
 > เฉพาะแผนสวัสดิการที่ทำเครื่องหมายเป็นการแสดงผล **ACA สามารถรายงาน** ในหน้าต่างการสอบถาม
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

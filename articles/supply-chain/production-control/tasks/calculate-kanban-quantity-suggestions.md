@@ -84,3 +84,6 @@ ms.locfileid: "4981392"
     * โปรดสังเกตว่า นี่คือปริมาณคัมบังแบบคงที่ที่เท่ากับ 4 จากการคำนวณปริมาณตามระบบคัมบัง  
 5. คลิก ListPanelแท็บ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

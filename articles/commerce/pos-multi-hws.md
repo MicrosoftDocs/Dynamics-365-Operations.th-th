@@ -153,3 +153,6 @@ Microsoft Dynamics 365 Commerce สนับสนุนแนวโน้มเ
 - [ตั้งค่าแอป POS Hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [ภาพรวมการสนับสนุนอุปกรณ์ต่อพ่วงของเครือข่าย](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

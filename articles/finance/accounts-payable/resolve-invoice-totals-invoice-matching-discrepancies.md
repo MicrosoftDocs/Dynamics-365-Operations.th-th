@@ -43,3 +43,6 @@ ms.locfileid: "4972067"
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ค้นคว้า/แก้ไขข้อยกเว้น](tasks/research-resolve-exceptions.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

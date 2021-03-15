@@ -100,3 +100,6 @@ ms.locfileid: "4982677"
 [สร้างโพรไฟล์ฟังก์ชันการทำงานออนไลน์](online-functionality-profile.md)
 
 [การรองรับบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

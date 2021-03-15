@@ -68,3 +68,6 @@ ms.locfileid: "5114967"
 5. ในฟิลด์กลุ่มคำตอบ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 6. ในฟิลด์ข้อความ ให้พิมพ์ค่า 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ ms.locfileid: "5114488"
 
 > [!NOTE]
 > หน้าแสดงเฉพาะแผนสวัสดิการที่ระบุว่า **ACA สามารถรายงาน** ได้เท่านั้น
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

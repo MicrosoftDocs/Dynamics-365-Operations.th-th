@@ -53,3 +53,6 @@ ms.locfileid: "4996312"
 1. เลือก **ตกลง** บนกล่องโต้ตอบ **ยืนยันการจัดส่ง** เพื่อเพิ่มชุดงานเข้าในคิวชุดงาน
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของการประมวลผลชุดงาน](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

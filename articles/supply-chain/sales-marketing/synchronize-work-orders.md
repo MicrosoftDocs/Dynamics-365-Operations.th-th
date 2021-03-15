@@ -76,3 +76,6 @@ ms.locfileid: "5010829"
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>ใบสั่งงานกับโครงการ (Field Service ไปยัง Supply Chain Management): WorkOrderService
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

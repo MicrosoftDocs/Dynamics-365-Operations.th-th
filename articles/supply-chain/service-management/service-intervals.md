@@ -93,3 +93,6 @@ ms.locfileid: "4974421"
 
 [การตั้งค่าช่วงการบริการ](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ ms.locfileid: "5006346"
 [REST APIs ของ Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [โมดูลแผนที่](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

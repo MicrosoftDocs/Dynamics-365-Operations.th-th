@@ -81,3 +81,6 @@ ms.locfileid: "5116055"
 [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)<br>
 [จัดการนโยบายซื้อและขายวันลางาน](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

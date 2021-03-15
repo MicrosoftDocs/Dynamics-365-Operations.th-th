@@ -88,3 +88,6 @@ ms.locfileid: "4798604"
 [ตัวเลือกกฎการแจ้งเตือน](https://youtu.be/cpzimwOjicM) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

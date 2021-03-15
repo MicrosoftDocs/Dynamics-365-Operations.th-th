@@ -67,3 +67,6 @@ ms.locfileid: "4992950"
 5. คลิก **ตกลง**
 6. ในฟิลด์ **สถานะ** เลือก 'ลงรายการบัญชีแล้ว'
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ ms.locfileid: "4983402"
 19. เลือก ไม่ ในฟิลด์การปิดใช้งานกระบวนการวางแผนทั้งหมด
 20. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

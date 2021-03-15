@@ -176,3 +176,6 @@ ms.locfileid: "4959905"
 
 \* ในสภาพแวดล้อมในสถานที่ PerfTimer แสดงเฉพาะผลลัพธ์สำหรับไคลเอนต์เท่านั้น
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

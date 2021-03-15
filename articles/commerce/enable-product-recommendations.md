@@ -113,3 +113,6 @@ ms.locfileid: "5010137"
 
 [FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

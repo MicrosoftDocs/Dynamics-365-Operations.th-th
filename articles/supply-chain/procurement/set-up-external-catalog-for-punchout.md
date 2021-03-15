@@ -112,3 +112,5 @@ ms.locfileid: "5016388"
 
 - [การปรับปรุง cXML การสั่งซื้อ](purchasing-cxml-enhancements.md)
 - [ใช้แค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

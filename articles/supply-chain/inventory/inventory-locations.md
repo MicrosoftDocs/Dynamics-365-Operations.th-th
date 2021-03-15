@@ -65,3 +65,6 @@ ms.locfileid: "4978024"
 --------
 
 [สร้างการจัดวางพื้นที่คลังสินค้าใหม่](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

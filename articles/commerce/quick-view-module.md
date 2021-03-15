@@ -77,3 +77,6 @@ ms.locfileid: "5097063"
 [โมดูลการรวบรวมผลิตภัณฑ์](product-collection-module-overview.md)
 
 [โมดูลผลการค้นหา](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

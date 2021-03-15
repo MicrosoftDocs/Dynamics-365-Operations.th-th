@@ -47,3 +47,6 @@ ms.locfileid: "4967016"
 17. กำหนดปริมาณเป็น '1000'
 18. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ ATP = ATP สำหรับรอบระยะเวลาก่อนหน�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

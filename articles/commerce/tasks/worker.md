@@ -56,3 +56,6 @@ ms.locfileid: "5003614"
 6. ในฟิลด์กลุ่มเริ่มต้น ให้ป้อนหรือเลือกค่า
 7. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "5022594"
 >[!NOTE]
 >ถ้าคุณต้องการโฟกัสเฉพาะการวางแผนกำลังการผลิตที่เกี่ยวกับใบสั่งงานที่จัดกำหนดการ ดูที่ [คำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการ](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

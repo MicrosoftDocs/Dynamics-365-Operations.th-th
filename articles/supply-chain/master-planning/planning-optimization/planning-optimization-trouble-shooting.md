@@ -74,3 +74,6 @@ ms.locfileid: "4992581"
 [เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
 
 [การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

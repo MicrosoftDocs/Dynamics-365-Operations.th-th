@@ -88,3 +88,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
 
 [การตั้งค่าลำดับชั้นองค์กร](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Web analytics เป็นเครื่องมือที่จำเป็
 [เพิ่มข้อความสงวนลิขสิทธิ์](add-copyright-notice.md)
 
 [เพิ่มภาษาลงในไซต์ของคุณ](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

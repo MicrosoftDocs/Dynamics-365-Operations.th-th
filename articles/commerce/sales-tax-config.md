@@ -81,3 +81,6 @@ ms.locfileid: "5031800"
 
 [การคำนวณการยกเว้นภาษี](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

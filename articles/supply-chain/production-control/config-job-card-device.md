@@ -94,3 +94,6 @@ ms.locfileid: "4998989"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [รายงานเป็นเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

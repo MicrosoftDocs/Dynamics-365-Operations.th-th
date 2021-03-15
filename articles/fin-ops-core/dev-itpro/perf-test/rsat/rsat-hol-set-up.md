@@ -803,3 +803,6 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 2. ตรวจสอบว่ากรณีการทดสอบทั้งสองกรณีผ่าน
 
     ![ฟิลด์ผลลัพธ์ที่ถูกตั้งค่าเป็น ผ่าน สำหรับกรณีการทดสอบทั้งสองกรณี](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

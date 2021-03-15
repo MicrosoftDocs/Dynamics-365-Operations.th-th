@@ -43,3 +43,6 @@ ms.locfileid: "4990225"
 > [!NOTE]
 > คุณไม่สามารถใช้กฎการปันส่วนบัญชีแยกประเภทระหว่างบริษัทสำหรับการวางแผนงบประมาณ
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

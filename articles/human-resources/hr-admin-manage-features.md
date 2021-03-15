@@ -94,3 +94,5 @@ ms.locfileid: "5114494"
 
 - [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md)
 - [แผนการเผยแพร่ Dynamics 365 และ Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

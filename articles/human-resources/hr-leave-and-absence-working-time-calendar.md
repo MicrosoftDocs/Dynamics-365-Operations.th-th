@@ -75,3 +75,6 @@ ms.locfileid: "5115113"
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [ตั้งค่าคอนฟิกชนิดการลางานและการหยุดงาน](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

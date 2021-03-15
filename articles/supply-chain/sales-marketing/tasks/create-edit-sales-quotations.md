@@ -69,3 +69,6 @@ ms.locfileid: "4974946"
 13. คลิก **ใบสั่งขาย**
 14. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

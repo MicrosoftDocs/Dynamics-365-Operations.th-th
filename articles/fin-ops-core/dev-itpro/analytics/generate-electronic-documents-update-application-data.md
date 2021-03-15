@@ -40,3 +40,6 @@ ms.locfileid: "5093884"
 - [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER: อินทราสแทต (แบบจำลอง)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER: อินทราสแทต (การแม็ป)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [การตั้งค่าคอนฟิกรูปแบบ ER: อินทราสแทต (รูปแบบ)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

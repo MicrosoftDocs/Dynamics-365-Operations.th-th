@@ -72,3 +72,6 @@ ms.locfileid: "5094165"
 
 - [ใช้การตั้งค่าคอนฟิก ER กับเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word](./tasks/er-design-configuration-word-2016-11.md)
 - [ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้างโดยใช้ ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

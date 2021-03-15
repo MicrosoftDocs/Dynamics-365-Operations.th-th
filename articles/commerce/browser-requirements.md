@@ -47,3 +47,6 @@ ms.locfileid: "4991501"
 [จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
 
 [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

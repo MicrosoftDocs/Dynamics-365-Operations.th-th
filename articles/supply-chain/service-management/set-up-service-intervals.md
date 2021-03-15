@@ -53,3 +53,6 @@ ms.locfileid: "4991676"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [ช่วงการบริการ](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

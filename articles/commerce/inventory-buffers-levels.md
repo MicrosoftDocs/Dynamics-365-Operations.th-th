@@ -148,3 +148,6 @@ ms.locfileid: "5012451"
 [ใช้การตั้งค่าสินค้าคงคลัง](inventory-settings.md)
 
 [คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

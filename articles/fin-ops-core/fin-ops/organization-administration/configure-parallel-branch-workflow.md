@@ -50,3 +50,6 @@ ms.locfileid: "4797712"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของการสร้างลำดับงาน](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ ms.locfileid: "5092880"
 [ตัวบันทึกงาน](task-recorder.md)
 
 [สร้างหัวข้อวิธีใช้ที่สมบูรณ์ด้วยตัวบันทึกงาน (ลิงค์ภายนอก)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

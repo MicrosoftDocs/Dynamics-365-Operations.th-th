@@ -50,3 +50,6 @@ ms.locfileid: "4798634"
 ภาพต่อไปนี้แสดงโครงสร้างของการแจ้งเตือน เมื่อได้รับทางอีเมล
 
 [![การแจ้งเตือนตามเท็มเพลตสำหรับการสร้างเรกคอร์ด การเปลี่ยนแปลงฟิลด์ และการลบเท็มเพลต](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

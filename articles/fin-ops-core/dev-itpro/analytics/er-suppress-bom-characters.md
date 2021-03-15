@@ -66,3 +66,6 @@ ms.locfileid: "5060830"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ ms.locfileid: "4994401"
 12. ในบานหน้าต่างการดำเนินการ คลิก **เอกสารต้นฉบับ**
 13. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

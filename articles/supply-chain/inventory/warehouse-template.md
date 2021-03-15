@@ -97,3 +97,6 @@ ms.locfileid: "4967141"
 ## <a name="related-topic"></a>หัวข้อที่เกี่ยวข้อง
 
 [เท็มเพลตข้อมูลการตั้งค่าคอนฟิก](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

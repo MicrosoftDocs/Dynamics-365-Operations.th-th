@@ -66,3 +66,6 @@ Lean manufacturing รวมคัมบังสำหรับผลิตภ�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

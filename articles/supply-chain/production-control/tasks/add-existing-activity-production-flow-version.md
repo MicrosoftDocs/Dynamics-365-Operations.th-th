@@ -55,3 +55,6 @@ ms.locfileid: "5006952"
 3. ในฟิลด์กิจกรรม ให้ป้อนหรือเลือกค่า
 4. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "5115883"
 20. ในฟิลด์คำอธิบาย ป้อน 'ขอบคุณสำหรับความช่วยเหลือทั้งหมดในการประชุม'
 21. คลิก ส่ง
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

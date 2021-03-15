@@ -63,3 +63,6 @@ ms.locfileid: "5003729"
 5. คลิก ส่งออก
 6. คลิก PDF
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

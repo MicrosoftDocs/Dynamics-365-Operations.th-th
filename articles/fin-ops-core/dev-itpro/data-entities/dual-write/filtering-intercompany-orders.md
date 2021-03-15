@@ -66,3 +66,6 @@ ms.locfileid: "4796617"
 8. หลังจากที่ขยาย **ใบเสนอราคา** แล้ว ให้ใช้ตัวกรองที่มี `CUSTGROUP != "<company>"` เป็นสตริงการสอบถาม
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับส่วนหัวของใบเสนอราคาการขาย CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

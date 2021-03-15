@@ -73,3 +73,6 @@ ms.locfileid: "4982751"
 [สร้างโพรไฟล์ฟังก์ชันการขายปลีก](retail-functionality-profile.md)
 
 [ ตั้งค่าคอนฟิกผู้ปฏิบัติงาน](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

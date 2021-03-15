@@ -52,3 +52,6 @@ ms.locfileid: "5012352"
 19. คลิกสร้างใบสั่ง
 20. คลิก ใช่
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

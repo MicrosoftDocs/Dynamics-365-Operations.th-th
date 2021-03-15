@@ -144,3 +144,6 @@ Fabrikam ดำเนินงานร่วมกับนิติบุค�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

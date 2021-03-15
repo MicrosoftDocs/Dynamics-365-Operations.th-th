@@ -89,3 +89,6 @@ ms.locfileid: "4972388"
 [สร้างคำแนะนำที่ระบุด้วยตนเอง](create-editorial-recommendation-lists.md)
 
 [FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

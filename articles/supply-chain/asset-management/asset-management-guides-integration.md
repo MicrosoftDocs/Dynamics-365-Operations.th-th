@@ -113,3 +113,6 @@ ms.locfileid: "5000295"
 
 - [ภาพรวมของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [ภาพรวมของการจัดการสินทรัพย์](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

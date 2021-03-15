@@ -66,3 +66,6 @@ ms.locfileid: "5004938"
 12. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 13. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

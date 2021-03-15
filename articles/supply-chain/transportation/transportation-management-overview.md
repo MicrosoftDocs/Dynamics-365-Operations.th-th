@@ -86,3 +86,6 @@ Supply Chain Management แสดงกลยุทธ์การสร้า�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

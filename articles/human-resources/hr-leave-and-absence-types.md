@@ -82,3 +82,6 @@ ms.locfileid: "5115087"
 - [สร้างปฏิทินเวลาการทำงาน](hr-leave-and-absence-working-time-calendar.md)
 - [ระงับการลางาน](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

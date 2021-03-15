@@ -95,3 +95,6 @@ ms.locfileid: "5009254"
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมบัญชีและการแปลสกุลเงิน ดูหัวข้อหลักของหัวข้อนี้ [ภาพรวมการรวมบัญชีทางการเงินและการแปลงสกุลเงิน](./financial-consolidations-currency-translation.md)
 
 สำหรับข้อมูลเกี่ยวกับสถานการณ์ที่คุณอาจสร้างการรวมบัญชีงบการเงิน ดู [สร้างงบการเงินที่รวมบัญชี](./generating-consolidated-financial-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

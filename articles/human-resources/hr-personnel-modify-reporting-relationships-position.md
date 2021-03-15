@@ -44,3 +44,6 @@ ms.locfileid: "5127066"
 12. ในฟิลด์รายงานไปยังตำแหน่ง ให้ป้อนหรือเลือกค่า   ตัวอย่าง:  000437
 13. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

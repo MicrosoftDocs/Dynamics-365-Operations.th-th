@@ -65,3 +65,6 @@ ms.locfileid: "4797999"
     * สถานะเริ่มต้นหมายถึงโครงการพร้อมที่จะรับใบสมัคร  
 33. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

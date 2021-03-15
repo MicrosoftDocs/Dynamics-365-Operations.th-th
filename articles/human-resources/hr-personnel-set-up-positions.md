@@ -67,3 +67,6 @@ ms.locfileid: "5130484"
 30. ในฟิลด์แผนก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 31. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

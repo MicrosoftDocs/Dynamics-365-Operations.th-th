@@ -302,3 +302,6 @@ ms.locfileid: "5035974"
 [โมดูลบล็อกเนื้อหา](../add-hero-module.md)
 
 [คอลเลกชันผลิตภัณฑ์](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

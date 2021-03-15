@@ -42,3 +42,6 @@ ms.locfileid: "4977274"
 10. เลือก **ใช่** ในฟิลด์ **อนุญาตการตรวจนับตามรอบ**
 11. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

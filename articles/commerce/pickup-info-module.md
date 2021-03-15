@@ -69,3 +69,6 @@ ms.locfileid: "5000620"
 [โมดูลการยืนยันใบสั่ง](order-confirmation-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4975877"
 10. ป้อนหรือเลือกค่าในฟิลด์ **สินทรัพย์ถาวร**
 11. เลือก **ลงรายการบัญชี** 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

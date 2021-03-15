@@ -36,3 +36,6 @@ ms.locfileid: "4987090"
 5. คลิก สร้าง
     * คลิกเรียกดู ค้นหารูปภาพที่คุณต้องการใช้ เลือก แล้วปิดกล่องโต้ตอบ    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

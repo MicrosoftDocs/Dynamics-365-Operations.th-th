@@ -53,3 +53,6 @@ ms.locfileid: "4994376"
 3. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
 4. คลิกใบสำคัญ
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

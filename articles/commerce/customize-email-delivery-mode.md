@@ -71,3 +71,6 @@ ms.locfileid: "5031859"
 [สร้างใบสั่งของศูนย์บริการ](tasks/create-call-center-orders.md)
 
 [เปลี่ยนวิธีการจัดส่งใน POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ ms.locfileid: "5097292"
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 [ตั้งค่าคอนฟิกปลายทาง ER ที่ขึ้นอยู่กับการดำเนินการ](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

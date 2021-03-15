@@ -181,3 +181,6 @@ Dynamics 365 Commerce รองรับช่องทางการขาย�
 
 [ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

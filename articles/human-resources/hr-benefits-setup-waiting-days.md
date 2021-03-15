@@ -42,3 +42,6 @@ ms.locfileid: "5114438"
    | **วัน** | วันของเดือนที่ระบบควรตั้งค่าวันที่ของรอบระยะเวลาการรอ |
    
 4. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ ms.locfileid: "5114435"
 [เอาอินสแตนซ์ออก](hr-admin-setup-remove-instance.md)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

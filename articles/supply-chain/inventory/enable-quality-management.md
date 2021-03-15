@@ -503,3 +503,6 @@ ms.locfileid: "5005238"
 [การจัดการความไม่สอดคล้องกัน](enable-nonconformance-management.md)
 
 [การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

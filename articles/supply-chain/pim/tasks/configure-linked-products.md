@@ -39,3 +39,6 @@ ms.locfileid: "4986990"
 10. ในฟิลด์ ปริมาณ ให้ป้อนตัวเลข
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

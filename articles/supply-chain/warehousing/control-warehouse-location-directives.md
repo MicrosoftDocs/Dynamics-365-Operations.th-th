@@ -76,3 +76,6 @@ ms.locfileid: "4970442"
 
 - วีดิโอ: [สำรวจดูรายละเอียดการตั้งค่าคอนฟิกการจัดการคลังสินค้า](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - หัวข้อวิธีใช้: [สร้างคำสั่งสถานที่](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

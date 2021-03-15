@@ -44,3 +44,6 @@ ms.locfileid: "5130168"
 2. คลิก แก้ไข
 3. ในฟิลด์การส่งคืนจริง ให้ป้อนวันที่และเวลา
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

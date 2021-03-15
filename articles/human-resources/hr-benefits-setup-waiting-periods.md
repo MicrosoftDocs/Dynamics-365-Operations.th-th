@@ -45,3 +45,6 @@ ms.locfileid: "5114368"
    | **จำนวนวันที่รอ** | เลือกวันที่รอเพื่อใช้ในการคำนวณวันที่รอ |
 
 4. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

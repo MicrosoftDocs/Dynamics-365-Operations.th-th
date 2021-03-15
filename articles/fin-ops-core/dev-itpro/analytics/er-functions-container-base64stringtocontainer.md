@@ -80,3 +80,6 @@ BASE64STRINGTOCONTAINER (input)
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันคอนเทนเนอร์](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

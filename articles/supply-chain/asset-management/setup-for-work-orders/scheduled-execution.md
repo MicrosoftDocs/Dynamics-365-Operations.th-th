@@ -42,3 +42,6 @@ ms.locfileid: "5022418"
 6. เลือก **บันทึก**
 
 ![การดำเนินการที่จัดกำหนดการไว้](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

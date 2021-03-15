@@ -39,3 +39,6 @@ ms.locfileid: "5010010"
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
 [การตั้งค่าการทดสอบ](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

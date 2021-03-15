@@ -55,3 +55,6 @@ ms.locfileid: "5017378"
 >[!NOTE]
 >เมื่อต้องการจัดกำหนดการให้กับเจ้าหน้าที่บำรุงรักษาสำหรับใบสั่งงาน เจ้าหน้าที่บำรุงรักษานั้นต้องพร้อมใช้งานในวันที่และเวลาเริ่มต้นที่คาดไว้ ความพร้อมของผู้ปฏิบัติงาน ตั้งค่าใน [ปฏิทินของผู้ปฏิบัติงาน](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md) 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

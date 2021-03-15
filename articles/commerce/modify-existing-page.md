@@ -88,3 +88,6 @@ ms.locfileid: "5097317"
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
 
 [สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์บน URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "5055950"
 21. คลิก **ส่ง** 
 22. คลิก **ส่ง** 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

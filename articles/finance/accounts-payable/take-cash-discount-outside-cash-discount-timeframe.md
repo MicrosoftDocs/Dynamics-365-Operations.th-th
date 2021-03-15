@@ -90,3 +90,6 @@ April เปลี่ยนแปลงราคาในช่อง **ยอ�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ ms.locfileid: "4969314"
 15. ในฟิลด์หน่วยการควบคุมต้นทุน ให้ป้อนหรือเลือกค่า
 16. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

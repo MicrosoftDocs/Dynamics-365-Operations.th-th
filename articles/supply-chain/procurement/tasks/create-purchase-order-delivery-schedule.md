@@ -73,3 +73,6 @@ ms.locfileid: "5021815"
 6. ยุบส่วน **รายการ**
 7. เลือก **ตกลง** เพื่อลงรายการบัญชีการรับสินค้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

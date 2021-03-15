@@ -58,3 +58,6 @@ ms.locfileid: "4977924"
     * โปรดสังเกตว่าคัมบังมีงานกระบวนการสองรายการจากขั้นตอนการผลิต  รายการแรกคือ SpeakerAssemblyAndPolish และรายการที่สองเป็คือ SpeakerTestAndPackaging  
     * นี่เป็นขั้นตอนสุดท้าย!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

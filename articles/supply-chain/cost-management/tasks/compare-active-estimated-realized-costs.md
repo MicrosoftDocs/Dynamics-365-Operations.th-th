@@ -39,3 +39,6 @@ ms.locfileid: "5011758"
 6. คลิกดูการเปรียบเทียบต้นทุน
 7. คลิก ปิด
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

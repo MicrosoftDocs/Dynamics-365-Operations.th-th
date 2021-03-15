@@ -130,3 +130,6 @@ ms.locfileid: "4990200"
 - [ฟังก์ชันการปัดเศษ](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

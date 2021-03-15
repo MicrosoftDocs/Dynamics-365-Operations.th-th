@@ -65,3 +65,6 @@ ms.locfileid: "4981042"
 2. คลิกเสร็จสมบูรณ์
     * การโอนย้ายนี้จะสำเร็จทั้ง2งาน  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

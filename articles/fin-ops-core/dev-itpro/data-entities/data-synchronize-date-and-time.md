@@ -40,3 +40,6 @@ ms.locfileid: "4798730"
 4. เปลี่ยน **โซนเวลา** เป็น **Coordinated Universal Timezone** และเปลี่ยน **ภาษา** เป็น **En-US**
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

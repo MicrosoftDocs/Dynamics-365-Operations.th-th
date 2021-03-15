@@ -81,3 +81,6 @@ ms.locfileid: "4977649"
 
 - Dynamics 365 Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์หรือรุ่นที่ใหม่กว่า
 - โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดสำหรับ Dynamics 365 Sales รุ่น 1.15.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

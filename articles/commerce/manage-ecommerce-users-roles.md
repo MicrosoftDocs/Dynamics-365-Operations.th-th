@@ -70,3 +70,6 @@ ms.locfileid: "4995702"
 [ข้อควรพิจารณาเกี่ยวกับการเพิ่มประสิทธิภาพโปรแกรมค้นหา (SEO) สำหรับไซต์ของคุณ](search-engine-optimization-considerations.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

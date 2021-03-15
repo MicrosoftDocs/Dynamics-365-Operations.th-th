@@ -46,3 +46,6 @@ ms.locfileid: "5114485"
    | บรรทัด | หมายเลขบรรทัดของเหตุการณ์ของชีวิตในอนาคต |
 
 4. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

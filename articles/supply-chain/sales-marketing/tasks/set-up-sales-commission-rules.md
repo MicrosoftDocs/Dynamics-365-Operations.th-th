@@ -95,3 +95,6 @@ ms.locfileid: "5010733"
 17. ในรายการ ให้เลือกกลุ่มค่าคอมมชชันที่คุณสร้างก่อนหน้า
 18. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

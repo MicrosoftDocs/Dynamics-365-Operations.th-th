@@ -598,3 +598,6 @@ ms.locfileid: "5093120"
 [คำนิยามแถวในผู้ออกแบบรายงานทางการเงิน](row-definitions-financial-reporting.md)
 
 [ตัวเลือกการจัดรูปแบบขั้นสูงในรายงานทางการเงิน](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

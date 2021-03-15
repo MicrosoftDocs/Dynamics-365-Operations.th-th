@@ -40,3 +40,6 @@ ms.locfileid: "5060802"
 7. คลิก **ตกลง**
 
 ![พารามิเตอร์การชำระภาษีหัก ณ ที่จ่าย](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

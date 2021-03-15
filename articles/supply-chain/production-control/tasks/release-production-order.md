@@ -40,3 +40,6 @@ ms.locfileid: "4966274"
 6. คลิก ตกลง
 7. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

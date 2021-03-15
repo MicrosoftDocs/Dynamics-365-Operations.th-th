@@ -36,3 +36,6 @@ ms.locfileid: "4977249"
 5. ในฟิลด์โหมด เลือก 'ทางอ้อม'
 6. ในฟิลด์รหัสกิจกรรม เลือก 'รวมป้ายทะเบียน'
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

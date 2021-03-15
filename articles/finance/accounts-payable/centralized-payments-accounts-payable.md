@@ -300,3 +300,6 @@ Fabrikam สร้างการชำระเงินจำนวน 75.00 �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

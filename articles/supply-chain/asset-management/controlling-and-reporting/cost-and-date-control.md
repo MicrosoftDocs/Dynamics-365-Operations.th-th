@@ -107,3 +107,6 @@ ms.locfileid: "5019086"
 ![ตัวอย่างผลลัพธ์ของการคำนวณในการควบคุมวันที่ของใบสั่งงาน](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

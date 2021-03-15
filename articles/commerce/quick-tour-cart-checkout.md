@@ -106,3 +106,6 @@ ms.locfileid: "5000520"
 [ภาพรวมของหน้ารายละเอียดผลิตภัณฑ์](quick-tour-pdp.md)
 
 [ภาพรวมของหน้าการจัดการบัญชี](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

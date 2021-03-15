@@ -56,3 +56,6 @@ ms.locfileid: "5009985"
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
 [ระบุสมมติฐานและกำหนดตัวชี้วัดความสำเร็จสำหรับการทดสอบ](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -290,3 +290,6 @@ ms.locfileid: "5104446"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [การออกใบแจ้งหนี้อิเล็กทรอนิกส์ในการเงิน และ Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

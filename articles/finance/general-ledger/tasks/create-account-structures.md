@@ -60,3 +60,6 @@ ms.locfileid: "4968612"
 29. บน **บานหน้าต่างการดำเนินการ** คลิก **เรียกใช้**
 30. คลิก **เรียกใช้**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "5019615"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของรายงาน **รายการคำขอการบำรุงรักษา** สำหรับคำขอการบำรุงรักษาที่ใช้งานอยู่ทั้งหมด
 
 ![รายงานรายการคำขอการบำรุงรักษา](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

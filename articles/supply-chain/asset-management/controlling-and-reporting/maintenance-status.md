@@ -67,3 +67,6 @@ ms.locfileid: "5018507"
 
 ![ตัวอย่างของปริมาณงานรายเดือนที่มีตำแหน่งที่ทำงาน](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ ms.locfileid: "5097114"
 [ภาพรวมของคำแนะนำผลิตภัณฑ์](product-recommendations.md)
 
 [โมดูลมุมมองด่วน](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

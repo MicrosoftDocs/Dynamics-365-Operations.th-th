@@ -43,3 +43,6 @@ ms.locfileid: "4990678"
     * ตัวอย่างนี้ เลือกสมาชิกมิติ 6001004 Telefono  
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

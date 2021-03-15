@@ -44,3 +44,6 @@ ms.locfileid: "5092071"
 2. เลือก **กำหนดเป็นใช้งานอยู่**
 
 ![พื้นที่ทำงานการรายงานทางอิเล็กทรอนิกส์](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

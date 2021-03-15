@@ -66,3 +66,6 @@ ms.locfileid: "5011708"
 --------
 
 [การบล็อคสินค้าคงคลัง](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

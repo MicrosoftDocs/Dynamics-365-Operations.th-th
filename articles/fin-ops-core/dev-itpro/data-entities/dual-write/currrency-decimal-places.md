@@ -95,3 +95,6 @@ ms.locfileid: "4744386"
 ### <a name="tables-currency-column"></a>ตาราง: คอลัมน์สกุลเงิน
 
 จำนวนตำแหน่งทศนิยมที่สามารถตั้งค่าคอนฟิกสำหรับคอลัมน์สกุลเงินเฉพาะ จะถูกจำกัดไว้ที่สี่ตำแหน่ง
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

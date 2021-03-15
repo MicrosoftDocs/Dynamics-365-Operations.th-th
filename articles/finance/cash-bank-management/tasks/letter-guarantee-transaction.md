@@ -147,3 +147,6 @@ ms.locfileid: "4976348"
     * ตรวจสอบการลงบัญชีรายการสมุดรายวันที่ลงรายการแล้ว  
 16. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -272,3 +272,6 @@ ms.locfileid: "4998514"
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004) หรือ (msdyn_allocated ne true))
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

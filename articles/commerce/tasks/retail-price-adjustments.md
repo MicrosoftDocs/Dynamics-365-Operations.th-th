@@ -52,3 +52,6 @@ ms.locfileid: "4962996"
 14. ปิดหน้า
 15. รีเฟรชหน้า
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

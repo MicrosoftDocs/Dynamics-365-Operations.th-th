@@ -51,3 +51,6 @@ ms.locfileid: "5021540"
 8. เลือก **บันทึก**
 
 ![ชนิดใบสั่งงาน](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Supply Chain Management ช่วยให้มั่นใจว่าขั�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

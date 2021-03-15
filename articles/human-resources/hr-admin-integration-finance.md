@@ -255,3 +255,5 @@ ms.locfileid: "5114458"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในตัวรวมข้อมูล 
 
 ![การแม็ปเท็มเพลต](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

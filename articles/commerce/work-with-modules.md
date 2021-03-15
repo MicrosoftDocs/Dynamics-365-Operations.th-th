@@ -172,3 +172,6 @@ ms.locfileid: "5000470"
 
 [ทำงานกับกลุ่มการเผยแพร่](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

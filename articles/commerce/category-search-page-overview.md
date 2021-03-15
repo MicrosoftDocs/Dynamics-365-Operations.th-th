@@ -110,3 +110,6 @@ ms.locfileid: "4997860"
 
 [ภาพรวมของหน้าการจัดการบัญชี](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

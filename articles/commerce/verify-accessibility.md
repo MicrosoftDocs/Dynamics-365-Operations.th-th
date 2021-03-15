@@ -86,3 +86,6 @@ ms.locfileid: "5097376"
 [ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์](enrich-category-page.md)
 
 [สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์บน URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ ms.locfileid: "4980867"
 - [อัพเกรดพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: แอป Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

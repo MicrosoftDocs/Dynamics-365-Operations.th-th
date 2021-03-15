@@ -133,3 +133,6 @@ Dynamics 365 Commerce รองรับช่องทางการขาย�
 [ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
 
 [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

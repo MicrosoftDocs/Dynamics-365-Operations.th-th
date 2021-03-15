@@ -53,3 +53,6 @@ ms.locfileid: "4991218"
 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [ภาพรวมการชำระเงินของผู้จัดจำหน่าย](../cash-bank-management/tasks/vendor-payment-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

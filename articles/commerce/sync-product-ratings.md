@@ -134,3 +134,6 @@ ms.locfileid: "5006296"
 [จัดการการให้คะแนนและบทวิจารณ์](manage-reviews.md)
 
 [ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

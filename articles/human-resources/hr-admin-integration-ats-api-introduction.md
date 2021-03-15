@@ -137,3 +137,5 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [ใช้ Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [สร้างและอัพเดตชุดตัวเลือกโดยใช้ Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

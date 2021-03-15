@@ -117,3 +117,6 @@ ms.locfileid: "5000676"
 [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ PayPal](paypal.md)
 
 [การยืนยันตัวตนของลูกค้าแบบขั้นสูงโดยใช้ Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

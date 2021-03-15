@@ -61,3 +61,6 @@ ms.locfileid: "4991401"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การปรับปรุงราคาและส่วนลด](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

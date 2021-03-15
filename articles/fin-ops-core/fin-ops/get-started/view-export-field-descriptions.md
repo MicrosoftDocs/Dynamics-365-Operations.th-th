@@ -107,3 +107,6 @@ ms.locfileid: "4797910"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [กำหนดคำอธิบายฟิลด์เอง](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

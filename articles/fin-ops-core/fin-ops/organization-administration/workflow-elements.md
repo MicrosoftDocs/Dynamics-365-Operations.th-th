@@ -89,3 +89,6 @@ ms.locfileid: "4797587"
 ### <a name="subworkflow"></a>ลำดับงานย่อย
 
 หนึ่ง *ลำดับงานย่อย* เป็นลำดับงานที่รันภายในบริบทของลำดับงานอื่น
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

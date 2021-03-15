@@ -59,3 +59,6 @@ ms.locfileid: "5011582"
 5. ปิดแบบฟอร์ม
 6. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

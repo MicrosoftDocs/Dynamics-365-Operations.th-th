@@ -92,3 +92,6 @@ Supply Chain Management จะทำหน้าที่เป็นต้น�
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>สินค้าคงคลัง (Supply Chain Management ไปยัง Field Service): สินค้าคงคลัง
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

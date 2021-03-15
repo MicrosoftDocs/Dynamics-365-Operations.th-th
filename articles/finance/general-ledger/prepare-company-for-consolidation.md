@@ -67,3 +67,6 @@ ms.locfileid: "4990321"
 
 > [!NOTE]
 > ก่อนที่คุณจะสามารถประมวลผลการรวมบัญชี คุณต้องจัดเตรียมนิติบุคคลในเครือสำหรับการรวมบัญชี สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่านิติบุคคลบริษัทในเครือไว้สำหรับการรวมบัญชี](set-up-subsidiary-company-for-consolidation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

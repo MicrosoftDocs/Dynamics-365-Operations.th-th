@@ -79,3 +79,5 @@ Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่
 หลังจากรหัสเหตุผลย้ายไปยังการจัดการบุคลากร ตัวเลือกในการใช้รหัสเหตุผลในการจัดการสวัสดิการจะถูกตั้งค่าเป็น **ใช่** โดยอัตโนมัติ
 
 [![ใช้รหัสเหตุผลของการจัดการสวัสดิการ](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

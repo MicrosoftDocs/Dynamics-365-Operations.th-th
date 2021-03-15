@@ -237,3 +237,6 @@ SDK ของการชำระเงินขึ้นอยู่กับ�
 - [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4963724"
 4. คลิก ข้อผิดพลาดหรือคำเตือนของการตรวจสอบงบประมาณ
 5. คลิก ปิด
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

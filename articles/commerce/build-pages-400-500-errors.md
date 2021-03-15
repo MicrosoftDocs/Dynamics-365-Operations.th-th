@@ -82,3 +82,6 @@ ms.locfileid: "4991476"
 [เพิ่มหน้าไซต์ใหม่](add-new-page.md)
 
 [สร้าง URL ของหน้า](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

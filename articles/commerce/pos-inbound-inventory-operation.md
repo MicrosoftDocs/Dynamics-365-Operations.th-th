@@ -220,3 +220,6 @@ ms.locfileid: "4972641"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [การดำเนินงานของสินค้าคงคลังขาออกใน POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

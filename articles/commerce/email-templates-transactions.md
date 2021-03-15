@@ -202,3 +202,6 @@ Dynamics 365 Commerce มีโซลูชันสำเร็จรูปส�
 [ตั้งค่าใบเสร็จทางอีเมล](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [ส่งใบเสร็จทางอีเมลจาก Modern POS](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

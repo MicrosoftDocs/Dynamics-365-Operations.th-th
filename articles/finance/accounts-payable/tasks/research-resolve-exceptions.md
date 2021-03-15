@@ -85,3 +85,6 @@ ms.locfileid: "4971789"
 24. ปิดหน้า
 25. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

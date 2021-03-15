@@ -99,3 +99,6 @@ ms.locfileid: "5114401"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [FAQ เกี่ยวกับการเริ่มใช้งานจริง](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

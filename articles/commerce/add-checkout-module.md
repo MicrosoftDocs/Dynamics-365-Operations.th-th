@@ -126,3 +126,6 @@ ms.locfileid: "4980517"
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 
 [โมดูลบัตรของขวัญ](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

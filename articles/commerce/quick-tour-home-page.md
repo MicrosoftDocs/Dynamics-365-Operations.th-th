@@ -72,3 +72,6 @@ ms.locfileid: "4979864"
 [ภาพรวมของรถเข็นและหน้าเช็คเอาท์](quick-tour-cart-checkout.md)
 
 [ภาพรวมของหน้าการจัดการบัญชี](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

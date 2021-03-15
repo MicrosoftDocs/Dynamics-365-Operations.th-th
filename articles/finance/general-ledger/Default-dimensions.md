@@ -126,3 +126,6 @@ ms.locfileid: "4985098"
 [มิติที่กำหนดค่าเริ่มต้นในการกระจายการลงบัญชี](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [มิติที่กำหนดค่าเริ่มต้นในกรอบงานมิติ](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

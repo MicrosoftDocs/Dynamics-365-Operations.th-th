@@ -66,3 +66,6 @@ ms.locfileid: "5010883"
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>โครงการ (Supply Chain Management ไปยัง Field Service): โครงการ
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

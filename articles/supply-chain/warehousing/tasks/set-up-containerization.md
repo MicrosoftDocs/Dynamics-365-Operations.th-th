@@ -80,3 +80,6 @@ ms.locfileid: "4977049"
 11. ในฟิลด์ **การเลือกฟิลด์** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 12. เลือก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "5000017"
 + [เชื่อมต่อ IoT DevKit AZ3166 กับฮับ Azure IoT](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [เชื่อมต่อกับโปรแกรมจำลอง Raspberry Pi ออนไลน์กับฮับ Azure IoT (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [ภาพรวมส่วนช่วยดำเนินการของโซลูชันการจำลองอุปกรณ์](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

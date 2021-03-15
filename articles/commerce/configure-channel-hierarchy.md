@@ -83,3 +83,6 @@ ms.locfileid: "5001036"
 [สร้างลำดับชั้นการนำทางของช่องทาง](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Arnie สามารถดูธุรกรรมนี้ในหน้า *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

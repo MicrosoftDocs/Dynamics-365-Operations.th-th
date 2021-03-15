@@ -48,3 +48,6 @@ ms.locfileid: "4971839"
 12. คลิก **ลงรายการบัญชี**
 13. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

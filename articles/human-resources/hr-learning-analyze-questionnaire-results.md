@@ -69,3 +69,6 @@ ms.locfileid: "5115185"
 2. คลิกผลลัพธ์
 3. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

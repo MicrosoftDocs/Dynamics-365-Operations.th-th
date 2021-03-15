@@ -83,3 +83,6 @@ ms.locfileid: "4980193"
 [โมดูล Accordion](add-accordion.md)
 
 [โมดูลบล็อกข้อความ](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

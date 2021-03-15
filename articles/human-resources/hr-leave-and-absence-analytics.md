@@ -45,3 +45,5 @@ Dynamics 365 Human Resources จัดหาการวิเคราะห์
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [การสร้างแผนการลางานและขาดงาน](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ ms.locfileid: "4972566"
 [การดำเนินงานของสินค้าคงคลังขาเข้าใน POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [การดำเนินงานของสินค้าคงคลังขาออกใน POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

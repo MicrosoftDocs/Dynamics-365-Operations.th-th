@@ -134,3 +134,6 @@ Dynamics 365 Human Resources ส่งคำขอการลางานขอ
 [ศูนย์ความช่วยเหลือ Microsoft Teams](https://support.office.com/teams)</br>
 [จัดการคำขอลางานใน Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

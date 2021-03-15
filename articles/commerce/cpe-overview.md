@@ -63,3 +63,6 @@ ms.locfileid: "5000961"
 [ตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-optional-features.md)
 
 [FAQ เกี่ยวกับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

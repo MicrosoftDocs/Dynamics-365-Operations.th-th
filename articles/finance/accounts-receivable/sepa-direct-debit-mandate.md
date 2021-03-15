@@ -53,3 +53,6 @@ ms.locfileid: "4995504"
 
 [สร้างข้อตกลงการหักบัญชีเงินฝากอัตโนมัติสำหรับลูกค้า](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -383,3 +383,6 @@ ms.locfileid: "5115959"
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [ตั้งค่าคอนฟิกชนิดการลางานและการขาดงาน](hr-leave-and-absence-types.md)
 - [การรับรู้แผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

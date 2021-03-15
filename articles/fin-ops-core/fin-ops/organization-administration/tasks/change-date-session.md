@@ -32,3 +32,6 @@ ms.locfileid: "4796885"
 2. ในฟิลด์ **วันที่** ให้ป้อนวันที่
 3. เลือก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

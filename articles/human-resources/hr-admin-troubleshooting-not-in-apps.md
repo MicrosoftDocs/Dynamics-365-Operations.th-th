@@ -55,3 +55,6 @@ ms.locfileid: "5114489"
     ![ซิงค์ปุ่ม](media/get-more.png)
 
     หลังจากการซิงโครไนส์เสร็จสมบูรณ์ ทรัพยากรบุคคลจะปรากฏขึ้นบนโฮมเพจ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

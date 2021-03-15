@@ -98,3 +98,6 @@ ms.locfileid: "5018907"
 8. เลือกหน้า
 9. เลือกเสร็จสมบูรณ์
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

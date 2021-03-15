@@ -105,3 +105,6 @@ ms.locfileid: "5031831"
 [ครอบตัดรูปภาพ](dam-crop-images.md)
 
 [ปรับแต่งจุดโฟกัสของรูปภาพ](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

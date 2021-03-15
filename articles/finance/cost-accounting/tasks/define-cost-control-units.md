@@ -40,3 +40,6 @@ ms.locfileid: "4990703"
 10. ในฟิลด์มิติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 11. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

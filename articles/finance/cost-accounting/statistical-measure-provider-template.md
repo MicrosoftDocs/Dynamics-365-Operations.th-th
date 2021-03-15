@@ -345,3 +345,6 @@ ms.locfileid: "4969464"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฐานของการปันส่วน](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

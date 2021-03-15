@@ -79,3 +79,6 @@ ms.locfileid: "5097089"
 
 [สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์บน URL](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

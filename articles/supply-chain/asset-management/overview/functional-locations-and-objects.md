@@ -57,3 +57,6 @@ ms.locfileid: "5018057"
 รูปต่อไปนี้แสดงตัวอย่างของตำแหน่งที่ทำงานที่ขึ้นอยู่กับลูกค้า
 
 ![แผนภาพแสดงสถานที่ทำงานตามลูกค้า](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

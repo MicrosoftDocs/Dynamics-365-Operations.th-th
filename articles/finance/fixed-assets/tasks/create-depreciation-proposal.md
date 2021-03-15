@@ -47,3 +47,6 @@ ms.locfileid: "4968915"
 3. เลือก **รายการ**
 4. เลือก **ลงรายการบัญชี**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

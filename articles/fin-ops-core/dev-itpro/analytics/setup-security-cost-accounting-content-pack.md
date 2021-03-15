@@ -63,3 +63,6 @@ ms.locfileid: "5093366"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับแถวของ Power BI ดู [จัดการความปลอดภัยในแบบจำลองของคุณใน Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

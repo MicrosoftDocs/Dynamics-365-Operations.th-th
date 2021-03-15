@@ -44,3 +44,6 @@ ms.locfileid: "5009629"
 - สรุปภาษี
 - สรุปการแทนที่ราคา
 - สรุปส่วนลด
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

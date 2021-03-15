@@ -118,3 +118,6 @@ ms.locfileid: "4991526"
 [โมดูลตัวเลือกไซต์](site-selector.md)
 
 [โมดูลตัวเลือกการจัดเก็บ](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

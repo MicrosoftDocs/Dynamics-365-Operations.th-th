@@ -39,3 +39,6 @@ ms.locfileid: "4994876"
 7. ในฟิลด์ **ความถี่ของรอบระยะเวลา** ให้เลือกหนึ่งตัวเลือก
 8. ปิดแบบฟอร์ม
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

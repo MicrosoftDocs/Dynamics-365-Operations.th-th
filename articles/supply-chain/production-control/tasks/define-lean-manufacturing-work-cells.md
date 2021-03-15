@@ -99,3 +99,6 @@ ms.locfileid: "5001560"
 ## <a name="save"></a>บันทึก
 1. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ ms.locfileid: "4971689"
 
  - [การตรวจทานข้อมูลการเรียกเก็บเงิน](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

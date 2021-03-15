@@ -78,3 +78,6 @@ Dynamics 365 Human Resources แสดงข้อมูลเชิงลึก
 [จัดการกับการลางานและการหยุดงาน](hr-leave-and-absence-overview.md)</br>
 [พัฒนาพนักงาน](hr-develop-performance-management-overview.md)</br>
 [สร้างหลักสูตร](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ ms.locfileid: "4970053"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 - [โฮมเพจการค้า](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

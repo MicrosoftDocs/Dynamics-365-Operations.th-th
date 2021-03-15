@@ -82,3 +82,6 @@ Microsoft Dynamics 365 Commerce รุ่น 10.0.10 และรุ่นที
 ## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [ทริกเกอร์และการพิมพ์ Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

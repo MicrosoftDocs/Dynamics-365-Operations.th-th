@@ -59,3 +59,6 @@ ms.locfileid: "5008227"
 [ดูประวัติการวางแผนและล็อกการวางแผน](plan-history-logs.md)
 
 [ใช้ตัวกรองกับแผน](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

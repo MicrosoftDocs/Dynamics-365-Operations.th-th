@@ -63,3 +63,6 @@ ms.locfileid: "5006196"
 [สร้างรายการงานและเพิ่มงาน](task-mgmt-create-lists.md)
 
 [กำหนดรายการงานให้กับร้านค้าหรือพนักงาน](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

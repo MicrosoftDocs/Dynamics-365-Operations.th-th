@@ -99,3 +99,6 @@ ms.locfileid: "4796567"
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤษภาคม 2016)](new-updated-task-guides-available-may-2016.md)
 
 [คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

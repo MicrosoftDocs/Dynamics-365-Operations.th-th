@@ -56,3 +56,6 @@ ms.locfileid: "4970667"
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [จัดการกับคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

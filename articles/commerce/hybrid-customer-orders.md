@@ -40,3 +40,6 @@ ms.locfileid: "5009704"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ใบสั่งของลูกค้าใน Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

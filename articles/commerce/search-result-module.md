@@ -90,3 +90,6 @@ ms.locfileid: "5097189"
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลมุมมองด่วน](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

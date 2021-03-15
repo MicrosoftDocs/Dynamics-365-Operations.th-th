@@ -52,3 +52,6 @@ ms.locfileid: "4999867"
 3. เลือก **ตกลง**
 4. เลือก **แผนการใบสั่ง**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
