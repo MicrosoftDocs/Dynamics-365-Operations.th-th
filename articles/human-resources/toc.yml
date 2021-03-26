@@ -5,6 +5,10 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 8 มีนาคม 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22 กุมภาพันธ์ 2021
+          href: hr-whats-new-2021-02-22.md
         - name: 28 มกราคม 2021
           href: hr-whats-new-2021-01-28.md
         - name: 21 มกราคม 2021
@@ -89,9 +93,9 @@
               href: hr-admin-integration-common-data-service.md
             - name: ตาราง Dataverse
               href: hr-developer-entities.md
-            - name: ตั้งค่าคอนฟิกเอนทิตี้เสมือน Dataverse
+            - name: ตั้งค่าคอนฟิกตารางเสมือน Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: FAQ เกี่ยวกับเอนทิตี้เสมือน Human Resources
+            - name: FAQ เกี่ยวกับตารางเสมือน Human Resources
               href: hr-admin-virtual-entity-faq.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Finance
               href: hr-admin-integration-finance.md
@@ -623,6 +627,8 @@
               items:
                 - name: ภาพรวมของการจัดการสวัสดิการ
                   href: hr-benefits-management-overview.md
+                - name: พื้นที่ทำงานการจัดการสวัสดิการ
+                  href: hr-benefits-management-workspace.md
                 - name: ตั้งค่าคอนฟิกการจัดการสวัสดิการ
                   items:
                     - name: ตั้งค่าคอนฟิกพารามิเตอร์การจัดการสวัสดิการต่อบริษัท
@@ -783,3 +789,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: แก้ไขข้อมูลส่วนตัว
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: จํากัดการแก้ไขข้อมูลส่วนตัว
+              href: hr-employee-self-service-restrict-editing.md

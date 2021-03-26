@@ -18,57 +18,60 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7d4b499337d26e2209ee73f2f8ea93f55a124652
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218743"
 ---
-# <a name="public-sector-home-page"></a><span data-ttu-id="9a4cf-104">โฮมเพจภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-104">Public sector home page</span></span>
+# <a name="public-sector-home-page"></a><span data-ttu-id="96cb5-104">โฮมเพจภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-104">Public sector home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9a4cf-105">คุณสามารถเปิดใช้งานกระบวนการทางธุรกิจที่ใช้ร่วมกันได้ทั้งในภาครัฐและภาคเอกชน เช่น งานสำหรับการจัดทำงบประมาณ การจัดซื้อ บัญชีเจ้าหนี้ และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="9a4cf-105">You can enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
+<span data-ttu-id="96cb5-105">คุณสามารถเปิดใช้งานกระบวนการทางธุรกิจที่ใช้ร่วมกันได้ทั้งในภาครัฐและภาคเอกชน เช่น งานสำหรับการจัดทำงบประมาณ การจัดซื้อ บัญชีเจ้าหนี้ และบัญชีลูกหนี้</span><span class="sxs-lookup"><span data-stu-id="96cb5-105">You can enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</span></span> 
 
-<span data-ttu-id="9a4cf-106">ใช้ฟังก์ชันการทำงานของภาครัฐเพื่อให้สามารถทำตามกฎ ระเบียบ และข้อกำหนดในการรายงานสำหรับองค์กรที่ให้บริการสาธารณะ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-106">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="9a4cf-107">กระบวนการทางธุรกิจที่ได้รับผลได้แก่:</span><span class="sxs-lookup"><span data-stu-id="9a4cf-107">The business processes affected include:</span></span> 
+<span data-ttu-id="96cb5-106">ใช้ฟังก์ชันการทำงานของภาครัฐเพื่อให้สามารถทำตามกฎ ระเบียบ และข้อกำหนดในการรายงานสำหรับองค์กรที่ให้บริการสาธารณะ</span><span class="sxs-lookup"><span data-stu-id="96cb5-106">Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</span></span> <span data-ttu-id="96cb5-107">กระบวนการทางธุรกิจที่ได้รับผลได้แก่:</span><span class="sxs-lookup"><span data-stu-id="96cb5-107">The business processes affected include:</span></span> 
 
-- <span data-ttu-id="9a4cf-108">การบัญชีเงินทุน ลำดับชั้นทางการเงินที่ได้รับมา และข้อกำหนดการลงรายการบัญชีสำหรับบัญชีลูกหนี้และบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="9a4cf-108">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
-- <span data-ttu-id="9a4cf-109">งบประมาณเบื้องต้น การแบ่งตามส่วน และข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="9a4cf-109">Preliminary budgets, apportionments, and commitments.</span></span>
-- <span data-ttu-id="9a4cf-110">รหัสการเรียกเก็บเงิน การจัดประเภทการเรียกเก็บเงิน รหัสคู่ค้า และฟิลด์ที่กำหนดเองสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-110">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
-- <span data-ttu-id="9a4cf-111">การดำเนินการตอนสิ้นปีของบัญชีแยกประเภททั่วไป ซึ่งมีภาระผูกพันและข้อผูกมัดเกี่ยวกับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-111">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
-- <span data-ttu-id="9a4cf-112">การชำระเงินทางอิเล็กทรอนิกส์ให้กับผู้จัดจำหน่าย หน้าลายเซ็นสำหรับรายงานการชำระเงิน และการระงับการชำระเงินตามใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="9a4cf-112">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
+- <span data-ttu-id="96cb5-108">การบัญชีเงินทุน ลำดับชั้นทางการเงินที่ได้รับมา และข้อกำหนดการลงรายการบัญชีสำหรับบัญชีลูกหนี้และบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="96cb5-108">Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</span></span>
+- <span data-ttu-id="96cb5-109">งบประมาณเบื้องต้น การแบ่งตามส่วน และข้อผูกมัด</span><span class="sxs-lookup"><span data-stu-id="96cb5-109">Preliminary budgets, apportionments, and commitments.</span></span>
+- <span data-ttu-id="96cb5-110">รหัสการเรียกเก็บเงิน การจัดประเภทการเรียกเก็บเงิน รหัสคู่ค้า และฟิลด์ที่กำหนดเองสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="96cb5-110">Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</span></span>
+- <span data-ttu-id="96cb5-111">การดำเนินการตอนสิ้นปีของบัญชีแยกประเภททั่วไป ซึ่งมีภาระผูกพันและข้อผูกมัดเกี่ยวกับใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="96cb5-111">General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</span></span>
+- <span data-ttu-id="96cb5-112">การชำระเงินทางอิเล็กทรอนิกส์ให้กับผู้จัดจำหน่าย หน้าลายเซ็นสำหรับรายงานการชำระเงิน และการระงับการชำระเงินตามใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="96cb5-112">Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</span></span>
 
-  <span data-ttu-id="9a4cf-113">สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="9a4cf-113">For more information, see the following topics:</span></span>
+  <span data-ttu-id="96cb5-113">สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="96cb5-113">For more information, see the following topics:</span></span>
 
-- [<span data-ttu-id="9a4cf-114">แผนสำหรับฟังก์ชันการทำงานของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-114">Plan for public sector functionality</span></span>](plan-public-sector-functionality.md)
-- [<span data-ttu-id="9a4cf-115">ภาพรวมของบัญชีเจ้าหนี้ในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-115">Accounts payable in the public sector overview</span></span>](accounts-payable-public-sector.md)
-- [<span data-ttu-id="9a4cf-116">ภาพรวมของบัญชีลูกหนี้ในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-116">Accounts receivable in the public sector overview</span></span>](accounts-receivable-public-sector.md)
-- [<span data-ttu-id="9a4cf-117">ภาพรวมของการจัดงบประมาณในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-117">Budgeting in the public sector overview</span></span>](budgeting-public-sector.md)
-- [<span data-ttu-id="9a4cf-118">สินทรัพย์ถาวรในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-118">Fixed assets in the public sector</span></span>](fixed-asset-public-sector.md)
-- [<span data-ttu-id="9a4cf-119">การลงบัญชีภาครัฐในฝรั่งเศส</span><span class="sxs-lookup"><span data-stu-id="9a4cf-119">Public sector accounting in France</span></span>](../localizations/emea-fra-public-sector-accounting.md)
-- [<span data-ttu-id="9a4cf-120">ภาพรวมของบัญชีแยกประเภททั่วไปในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-120">General ledger in the public sector overview</span></span>](general-ledger-public-sector.md)
-- [<span data-ttu-id="9a4cf-121">การจัดซื้อและการจัดหาในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-121">Procurement and sourcing in the public sector</span></span>](procurement-sourcing-public-sector.md)
-- [<span data-ttu-id="9a4cf-122">บทบาทความปลอดภัยในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-122">Security roles in the public sector</span></span>](security-roles-public-sector.md)
+- [<span data-ttu-id="96cb5-114">แผนสำหรับฟังก์ชันการทำงานของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-114">Plan for public sector functionality</span></span>](plan-public-sector-functionality.md)
+- [<span data-ttu-id="96cb5-115">ภาพรวมของบัญชีเจ้าหนี้ในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-115">Accounts payable in the public sector overview</span></span>](accounts-payable-public-sector.md)
+- [<span data-ttu-id="96cb5-116">ภาพรวมของบัญชีลูกหนี้ในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-116">Accounts receivable in the public sector overview</span></span>](accounts-receivable-public-sector.md)
+- [<span data-ttu-id="96cb5-117">ภาพรวมของการจัดงบประมาณในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-117">Budgeting in the public sector overview</span></span>](budgeting-public-sector.md)
+- [<span data-ttu-id="96cb5-118">สินทรัพย์ถาวรในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-118">Fixed assets in the public sector</span></span>](fixed-asset-public-sector.md)
+- [<span data-ttu-id="96cb5-119">การลงบัญชีภาครัฐในฝรั่งเศส</span><span class="sxs-lookup"><span data-stu-id="96cb5-119">Public sector accounting in France</span></span>](../localizations/emea-fra-public-sector-accounting.md)
+- [<span data-ttu-id="96cb5-120">ภาพรวมของบัญชีแยกประเภททั่วไปในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-120">General ledger in the public sector overview</span></span>](general-ledger-public-sector.md)
+- [<span data-ttu-id="96cb5-121">การจัดซื้อและการจัดหาในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-121">Procurement and sourcing in the public sector</span></span>](procurement-sourcing-public-sector.md)
+- [<span data-ttu-id="96cb5-122">บทบาทความปลอดภัยในภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-122">Security roles in the public sector</span></span>](security-roles-public-sector.md)
 
-<span data-ttu-id="9a4cf-123">\* ใช้ได้หากองค์กรของคุณอยู่ในฝรั่งเศสเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="9a4cf-123">\* Applicable only if your organization is in France.</span></span>
+<span data-ttu-id="96cb5-123">\* ใช้ได้หากองค์กรของคุณอยู่ในฝรั่งเศสเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="96cb5-123">\* Applicable only if your organization is in France.</span></span>
 
-## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="9a4cf-124">ทำไมฉันจึงต้องใช้คีย์การตั้งค่าคอนฟิกของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-124">Why do I need the Public sector configuration key?</span></span>
-<span data-ttu-id="9a4cf-125">คีย์การตั้งค่าคอนฟิกของ **ภาครัฐ** จะเปิดใช้งานหน้าและตัวควบคุมที่จะเสริมแอปหลัก</span><span class="sxs-lookup"><span data-stu-id="9a4cf-125">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="9a4cf-126">คุณสามารถเปิดใช้งานหรือปิดใช้งานคีย์นี้ได้ในหน้า **การตั้งค่าคอนฟิกลิขสิทธิ์**</span><span class="sxs-lookup"><span data-stu-id="9a4cf-126">You can enable or disable this key on the **License configuration** page.</span></span>
+## <a name="why-do-i-need-the-public-sector-configuration-key"></a><span data-ttu-id="96cb5-124">ทำไมฉันจึงต้องใช้คีย์การตั้งค่าคอนฟิกของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-124">Why do I need the Public sector configuration key?</span></span>
+<span data-ttu-id="96cb5-125">คีย์การตั้งค่าคอนฟิกของ **ภาครัฐ** จะเปิดใช้งานหน้าและตัวควบคุมที่จะเสริมแอปหลัก</span><span class="sxs-lookup"><span data-stu-id="96cb5-125">The **Public sector** configuration key enables pages and controls that supplement the core apps .</span></span> <span data-ttu-id="96cb5-126">คุณสามารถเปิดใช้งานหรือปิดใช้งานคีย์นี้ได้ในหน้า **การตั้งค่าคอนฟิกลิขสิทธิ์**</span><span class="sxs-lookup"><span data-stu-id="96cb5-126">You can enable or disable this key on the **License configuration** page.</span></span>
 
-## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="9a4cf-127">คีย์การตั้งค่าคอนฟิกของภาครัฐสัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ อย่างไร</span><span class="sxs-lookup"><span data-stu-id="9a4cf-127">How does the Public sector configuration key relate to other configuration keys?</span></span>
-<span data-ttu-id="9a4cf-128">ตารางต่อไปนี้มีข้อมูลเกี่ยวกับวิธีการที่คีย์การตั้งค่าคอนฟิกนี้สัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-128">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
+## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a><span data-ttu-id="96cb5-127">คีย์การตั้งค่าคอนฟิกของภาครัฐสัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ อย่างไร</span><span class="sxs-lookup"><span data-stu-id="96cb5-127">How does the Public sector configuration key relate to other configuration keys?</span></span>
+<span data-ttu-id="96cb5-128">ตารางต่อไปนี้มีข้อมูลเกี่ยวกับวิธีการที่คีย์การตั้งค่าคอนฟิกนี้สัมพันธ์กับคีย์การตั้งค่าคอนฟิกอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="96cb5-128">The following table provides information about how this configuration key relates to other configuration keys.</span></span>
 
-|   <span data-ttu-id="9a4cf-129">**รายละเอียด**</span><span class="sxs-lookup"><span data-stu-id="9a4cf-129">**Detail**</span></span>         |              <span data-ttu-id="9a4cf-130">**คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="9a4cf-130">**Description**</span></span>                                                                                                                                                                                        |
+|   <span data-ttu-id="96cb5-129">**รายละเอียด**</span><span class="sxs-lookup"><span data-stu-id="96cb5-129">**Detail**</span></span>         |              <span data-ttu-id="96cb5-130">**คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="96cb5-130">**Description**</span></span>                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="9a4cf-131">คีย์หลัก</span><span class="sxs-lookup"><span data-stu-id="9a4cf-131">Parent key</span></span> | <span data-ttu-id="9a4cf-132">ไม่มี</span><span class="sxs-lookup"><span data-stu-id="9a4cf-132">None</span></span>                                                                                                                                                                                                                |
-| <span data-ttu-id="9a4cf-133">คีย์รอง</span><span class="sxs-lookup"><span data-stu-id="9a4cf-133">Child keys</span></span> | <span data-ttu-id="9a4cf-134">คีย์การตั้งค่าคอนฟิก **รายการข้อมูลบัญชีแยกประเภทขั้นสูง** (AdvancedLedgerEntry) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099G** (Tax1099G) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099S** (Tax1099S) คีย์การตั้งค่าคอนฟิก **ระเบียบบังคับของฝรั่งเศส**</span><span class="sxs-lookup"><span data-stu-id="9a4cf-134">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
+| <span data-ttu-id="96cb5-131">คีย์หลัก</span><span class="sxs-lookup"><span data-stu-id="96cb5-131">Parent key</span></span> | <span data-ttu-id="96cb5-132">ไม่มี</span><span class="sxs-lookup"><span data-stu-id="96cb5-132">None</span></span>                                                                                                                                                                                                                |
+| <span data-ttu-id="96cb5-133">คีย์รอง</span><span class="sxs-lookup"><span data-stu-id="96cb5-133">Child keys</span></span> | <span data-ttu-id="96cb5-134">คีย์การตั้งค่าคอนฟิก **รายการข้อมูลบัญชีแยกประเภทขั้นสูง** (AdvancedLedgerEntry) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099G** (Tax1099G) คีย์การตั้งค่าคอนฟิก **ภาครัฐ 1099S** (Tax1099S) คีย์การตั้งค่าคอนฟิก **ระเบียบบังคับของฝรั่งเศส**</span><span class="sxs-lookup"><span data-stu-id="96cb5-134">**Advanced ledger entry** configuration key (AdvancedLedgerEntry) **Public sector 1099G** configuration key (Tax1099G) **Public sector 1099S** configuration key (Tax1099S) **French regulatory** configuration key</span></span> |
 
 
-<a name="additional-resources"></a><span data-ttu-id="9a4cf-135">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="9a4cf-135">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="96cb5-135">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="96cb5-135">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="9a4cf-136">แผนสำหรับฟังก์ชันการทำงานของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="9a4cf-136">Plan for public sector functionality</span></span>](plan-public-sector-functionality.md)
+[<span data-ttu-id="96cb5-136">แผนสำหรับฟังก์ชันการทำงานของภาครัฐ</span><span class="sxs-lookup"><span data-stu-id="96cb5-136">Plan for public sector functionality</span></span>](plan-public-sector-functionality.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

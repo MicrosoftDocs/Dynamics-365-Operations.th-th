@@ -72,7 +72,9 @@
                   items:
                     - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (มีนาคม 2021)
+                    - name: Finance 10.0.18 (พฤษภาคม 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (เมษายน 2021)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (กุมภาพันธ์ 2021)
                       href: get-started/whats-new-changed-10-0-16.md
@@ -80,6 +82,8 @@
                       href: get-started/whats-new-changed-10-0-15.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: ดำเนินการกับจดหมายเรียกเก็บเงิน
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: ดำเนินการกับจดหมายเรียกเก็บเงินตัวอย่าง
+              href: accounts-receivable/process-collection-letters-example.md
             - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: รายงานอายุหนี้ของลูกค้า
@@ -486,6 +492,8 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: การกำหนดหมายเลขเอกสารและใบสำคัญตามลำดับเวลา
               href: accounts-receivable/chrono-numbers.md
+            - name: เก็บถาวรใบแจ้งหนี้ของลูกค้าที่พิมพ์ออกมาด้วยหมายเลขแฮช
+              href: accounts-receivable/archive-printed-invoices.md
         - name: การจัดงบประมาณ
           items:
             - name: โฮมเพจของการจัดงบประมาณ
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: นำเข้าและสร้างผู้จัดจำหน่ายขาจรหลายรายในใบแจ้งหนี้ภาครัฐ
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: จํากัดการแก้ไขการกระจายการลงบัญชีในใบแจ้งหนี้
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: วางแผนสำหรับผู้จัดจำหน่ายขาจรในภาครัฐ
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: ควบคุมการเข้าถึงข้อตกลงการซื้อขายในภาครัฐ
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในอียิปต์
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 – แพลตฟอร์มดิจิทัลการขายผ่านตัวกลางสำหรับ NF-e
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - สิทธิประโยชน์ด้านภาษีและกฎการยกเว้นสำหรับ NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: ตั้งค่าคอนฟิกโครงร่างใบแจ้งหนี้สำหรับอียิปต์
                   href: localizations/emea-egy-invoice-layout.md
+                - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในอียิปต์
+                  href: localizations/emea-egy-e-invoices.md
             - name: เอสโตเนีย
               items:
                 - name: ภาพรวมของเอสโตเนีย
@@ -2008,12 +2022,14 @@
                   items:
                     - name: ภาพรวมของไฟล์การตรวจสอบภาษาเยอรมัน
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: เลือกกำหนดการตั้งค่าไฟล์การตรวจสอบ
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: สร้างไฟล์การตรวจสอบ
-                      href: localizations/tasks/german-audit-file.md
                     - name: นำเข้าการตั้งค่าคอนฟิกไฟล์การตรวจสอบ
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: สร้างไฟล์การตรวจสอบ
+                      href: localizations/tasks/german-audit-file.md
+                    - name: เลือกกำหนดการตั้งค่าไฟล์การตรวจสอบ
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: เพิ่มตัวกรองในการตั้งค่าคอนฟิกไฟล์การตรวจสอบ
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: การปรับปรุงค่าเสื่อมราคาสำหรับการซื้อสินทรัพย์เพิ่มเติมในปีที่สอง
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
@@ -2306,7 +2322,7 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: รายงานรายชื่อต้องห้าม
                   href: localizations/emea-ita-black-list-report.md
-                - name: วันที่ใช้ได้
+                - name: วันที่สำหรับความสามารถและสมุดรายวันทางการเงิน
                   href: localizations/emea-ita-competence-date.md
                 - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: ประสิทธิภาพทางการเงิน
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: ข้อมูลเชิงลึกทางการเงิน
+                - name: การวิเคราะห์ทางการเงิน
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: การจัดการสินทรัพย์ถาวร
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3399,7 +3415,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: ฟังก์ชัน
                   items:
-                    - name: คอนเทนเนอร์
+                    - name: Container
                       items:
                         - name: ฟังก์ชันคอนเทนเนอร์
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: นำการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเท็มเพลต PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: ฝังรูปภาพและรูปร่าง
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
