@@ -15,33 +15,36 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a0234fcce4f108fc6b03f0c4221613bb8526e86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a6ea4abcb0a9b51680e3cdbb4533eb127b3a04a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216068"
 ---
-# <a name="define-configuration-route"></a><span data-ttu-id="fe0b5-103">กำหนดโครงแบบเส้นทาง</span><span class="sxs-lookup"><span data-stu-id="fe0b5-103">Define configuration route</span></span>
+# <a name="define-configuration-route"></a><span data-ttu-id="dc55a-103">กำหนดโครงแบบเส้นทาง</span><span class="sxs-lookup"><span data-stu-id="dc55a-103">Define configuration route</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fe0b5-104">ขั้นตอนนี้มุ่งเน้นการกำหนดกระบวนการผลิตที่ปรับเปลี่ยนได้ที่กำหนดลำดับสำหรับกลุ่มการปรับเปลี่ยนที่จะนำเสนอ </span><span class="sxs-lookup"><span data-stu-id="fe0b5-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="fe0b5-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="fe0b5-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="fe0b5-106">นี่เป็นกระบวนงานที่หกจากแปดกระบวนงาน ที่อธิบายวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="fe0b5-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="dc55a-104">ขั้นตอนนี้มุ่งเน้นการกำหนดกระบวนการผลิตที่ปรับเปลี่ยนได้ที่กำหนดลำดับสำหรับกลุ่มการปรับเปลี่ยนที่จะนำเสนอ </span><span class="sxs-lookup"><span data-stu-id="dc55a-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="dc55a-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="dc55a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="dc55a-106">นี่เป็นกระบวนงานที่หกจากแปดกระบวนงาน ที่อธิบายวิธีการสร้างชุดสำหรับการจัดโครงแบบตามมิติ</span><span class="sxs-lookup"><span data-stu-id="dc55a-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="fe0b5-107">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > สูตรและสูตรการผลิต > สูตรการผลิต</span><span class="sxs-lookup"><span data-stu-id="fe0b5-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="fe0b5-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="fe0b5-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="fe0b5-109">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-109">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="fe0b5-110">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="fe0b5-110">Click Change view.</span></span>
-5. <span data-ttu-id="fe0b5-111">คลิกมุมมองหัวข้อ </span><span class="sxs-lookup"><span data-stu-id="fe0b5-111">Click Header view.</span></span>
-6. <span data-ttu-id="fe0b5-112">ขยายหรือยุบส่วนกระบวนการผลิตที่ปรับเปลี่ยนได้</span><span class="sxs-lookup"><span data-stu-id="fe0b5-112">Expand or collapse the Configuration route section.</span></span>
-7. <span data-ttu-id="fe0b5-113">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="fe0b5-113">Click Add.</span></span>
-8. <span data-ttu-id="fe0b5-114">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-114">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="fe0b5-115">ในฟิลด์กลุ่มการปรับเปลี่ยน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fe0b5-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="fe0b5-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-116">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="fe0b5-117">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="fe0b5-117">Click Add.</span></span>
-12. <span data-ttu-id="fe0b5-118">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-118">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="fe0b5-119">ในฟิลด์กลุ่มการปรับเปลี่ยน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="fe0b5-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="fe0b5-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="fe0b5-120">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="fe0b5-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-121">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="fe0b5-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="fe0b5-122">Click Save.</span></span>
+1. <span data-ttu-id="dc55a-107">ไปที่การจัดการข้อมูลผลิตภัณฑ์ > สูตรและสูตรการผลิต > สูตรการผลิต</span><span class="sxs-lookup"><span data-stu-id="dc55a-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="dc55a-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="dc55a-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="dc55a-109">ในบานหน้าต่างการดำเนินการ คลิกที่ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="dc55a-109">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="dc55a-110">คลิกเปลี่ยนมุมมอง</span><span class="sxs-lookup"><span data-stu-id="dc55a-110">Click Change view.</span></span>
+5. <span data-ttu-id="dc55a-111">คลิกมุมมองหัวข้อ </span><span class="sxs-lookup"><span data-stu-id="dc55a-111">Click Header view.</span></span>
+6. <span data-ttu-id="dc55a-112">ขยายหรือยุบส่วนกระบวนการผลิตที่ปรับเปลี่ยนได้</span><span class="sxs-lookup"><span data-stu-id="dc55a-112">Expand or collapse the Configuration route section.</span></span>
+7. <span data-ttu-id="dc55a-113">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="dc55a-113">Click Add.</span></span>
+8. <span data-ttu-id="dc55a-114">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="dc55a-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="dc55a-115">ในฟิลด์กลุ่มการปรับเปลี่ยน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="dc55a-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="dc55a-116">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="dc55a-116">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="dc55a-117">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="dc55a-117">Click Add.</span></span>
+12. <span data-ttu-id="dc55a-118">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="dc55a-118">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="dc55a-119">ในฟิลด์กลุ่มการปรับเปลี่ยน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="dc55a-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="dc55a-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="dc55a-120">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="dc55a-121">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="dc55a-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="dc55a-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="dc55a-122">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

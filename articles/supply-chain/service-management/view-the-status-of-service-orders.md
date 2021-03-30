@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 899c81842a48133ec72a55002c7fd0fefc90001c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 429e1cf525854a87f55e4d4f900931f61223e0d1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231332"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="22c12-103">ดูสถานะของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="e5fac-103">ดูสถานะของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="22c12-104">คุณสามารถใช้ฟอร์ม **บอร์ดการจัดส่ง** ได้ เพื่อดูสถานะของกิจกรรมการบริการในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="e5fac-104">คุณสามารถใช้ฟอร์ม **บอร์ดการจัดส่ง** ได้ เพื่อดูสถานะของกิจกรรมการบริการในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="22c12-105">ข้อมูลเพิ่มเติมเกี่ยวกับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="e5fac-105">ข้อมูลเพิ่มเติมเกี่ยวกับใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-105">More information about service orders</span></span>
 
-<span data-ttu-id="22c12-106">แบบฟอร์มยังให้เครื่องมือในการติดตามขั้นตอนของใบสั่งบริการ และมีรายละเอียดเพิ่มเติมที่จะช่วยคุณในการประเมินความเร่งด่วนของใบสั่งบริการ เช่น ข้อตกลงการให้บริการ และข้อตกลงระดับการบริการ ซึ่งใบสั่งบริการเกี่ยวข้องด้วย</span><span class="sxs-lookup"><span data-stu-id="22c12-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="e5fac-106">แบบฟอร์มยังให้เครื่องมือในการติดตามขั้นตอนของใบสั่งบริการ และมีรายละเอียดเพิ่มเติมที่จะช่วยคุณในการประเมินความเร่งด่วนของใบสั่งบริการ เช่น ข้อตกลงการให้บริการ และข้อตกลงระดับการบริการ ซึ่งใบสั่งบริการเกี่ยวข้องด้วย</span><span class="sxs-lookup"><span data-stu-id="e5fac-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="22c12-107">เพื่อช่วยให้คุณสามารถประเมินความเร่งด่วนของใบสั่งบริการได้อย่างรวดเร็ว แผนภูมิ Gantt จะสนับสนุนการใช้สี</span><span class="sxs-lookup"><span data-stu-id="22c12-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="22c12-108">มีการใช้สีเพื่อแยกแยะระดับความสำคัญของการเรียกการบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="22c12-109">ตามค่าเริ่มต้น สีเหล่านี้เป็นสีแดงสำหรับระดับความสำคัญสูง สีเหลืองสำหรับระดับความสำคัญทั่วไป และสีเขียวสำหรับระดับความสำคัญต่ำ</span><span class="sxs-lookup"><span data-stu-id="22c12-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="e5fac-107">เพื่อช่วยให้คุณสามารถประเมินความเร่งด่วนของใบสั่งบริการได้อย่างรวดเร็ว แผนภูมิ Gantt จะสนับสนุนการใช้สี</span><span class="sxs-lookup"><span data-stu-id="e5fac-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="e5fac-108">มีการใช้สีเพื่อแยกแยะระดับความสำคัญของการเรียกการบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="e5fac-109">ตามค่าเริ่มต้น สีเหล่านี้เป็นสีแดงสำหรับระดับความสำคัญสูง สีเหลืองสำหรับระดับความสำคัญทั่วไป และสีเขียวสำหรับระดับความสำคัญต่ำ</span><span class="sxs-lookup"><span data-stu-id="e5fac-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="22c12-110">คุณสามารถเปลี่ยนสีได้ในแท็บ <STRONG>การจัดส่ง</STRONG> ในแบบฟอร์ม <STRONG>พารามิเตอร์การจัดการบริการ</STRONG> ได้</span><span class="sxs-lookup"><span data-stu-id="22c12-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="e5fac-110">คุณสามารถเปลี่ยนสีได้ในแท็บ <STRONG>การจัดส่ง</STRONG> ในแบบฟอร์ม <STRONG>พารามิเตอร์การจัดการบริการ</STRONG> ได้</span><span class="sxs-lookup"><span data-stu-id="e5fac-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="22c12-111">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="22c12-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5fac-111">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="e5fac-111">See also</span></span>
 
-[<span data-ttu-id="22c12-112">การจัดระดับความสำคัญของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="e5fac-112">การจัดระดับความสำคัญของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="22c12-113">การติดตามกิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="22c12-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="e5fac-113">การติดตามกิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="e5fac-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="22c12-114">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="22c12-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="e5fac-114">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e5fac-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

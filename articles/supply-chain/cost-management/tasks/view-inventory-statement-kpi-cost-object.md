@@ -16,25 +16,28 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5801b23906ef89b1681b5dc3742c075ee2e5a964
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e2169cc13842328973cabf01c49c60a0f369c16c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001984"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239409"
 ---
-# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="f3f57-103">ดูใบแจ้งยอดของสินค้าคงคลังและ KPI ตามออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="f3f57-103">View inventory statement and KPI by cost object</span></span>
+# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="b0356-103">ดูใบแจ้งยอดของสินค้าคงคลังและ KPI ตามออบเจ็กต์ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b0356-103">View inventory statement and KPI by cost object</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f3f57-104">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="f3f57-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f3f57-105">กระบวนการนี้มีไว้สำหรับผู้ควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="f3f57-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="b0356-104">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="b0356-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b0356-105">กระบวนการนี้มีไว้สำหรับผู้ควบคุมต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b0356-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="f3f57-106">คลิกการบริหารต้นทุน</span><span class="sxs-lookup"><span data-stu-id="f3f57-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="f3f57-107">คลิกผลิตภัณฑ์ต่างๆที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="f3f57-107">Click Released products.</span></span>
-3. <span data-ttu-id="f3f57-108">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="f3f57-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f3f57-109">ตัวอย่างเช่น ใช้ตัวกรองบนฟิลด์หมายเลขสินค้าด้วยค่า 'd0005'</span><span class="sxs-lookup"><span data-stu-id="f3f57-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
-4. <span data-ttu-id="f3f57-110">ในบานหน้าต่างการดำเนินการ คลิกการจัดการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="f3f57-110">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="f3f57-111">คลิกวัตถุต้นทุน</span><span class="sxs-lookup"><span data-stu-id="f3f57-111">Click Cost objects.</span></span>
-6. <span data-ttu-id="f3f57-112">คลิกใบแจ้งยอดของสินค้าคงคลังและ KPI</span><span class="sxs-lookup"><span data-stu-id="f3f57-112">Click Inventory statement and KPIs.</span></span>
-7. <span data-ttu-id="f3f57-113">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="f3f57-113">In the From date field, enter a date.</span></span>
-8. <span data-ttu-id="f3f57-114">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="f3f57-114">In the To date field, enter a date.</span></span>
+1. <span data-ttu-id="b0356-106">คลิกการบริหารต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b0356-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="b0356-107">คลิกผลิตภัณฑ์ต่างๆที่นำออกใช้</span><span class="sxs-lookup"><span data-stu-id="b0356-107">Click Released products.</span></span>
+3. <span data-ttu-id="b0356-108">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="b0356-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="b0356-109">ตัวอย่างเช่น ใช้ตัวกรองบนฟิลด์หมายเลขสินค้าด้วยค่า 'd0005'</span><span class="sxs-lookup"><span data-stu-id="b0356-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
+4. <span data-ttu-id="b0356-110">ในบานหน้าต่างการดำเนินการ คลิกการจัดการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b0356-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="b0356-111">คลิกวัตถุต้นทุน</span><span class="sxs-lookup"><span data-stu-id="b0356-111">Click Cost objects.</span></span>
+6. <span data-ttu-id="b0356-112">คลิกใบแจ้งยอดของสินค้าคงคลังและ KPI</span><span class="sxs-lookup"><span data-stu-id="b0356-112">Click Inventory statement and KPIs.</span></span>
+7. <span data-ttu-id="b0356-113">ในฟิลด์วันที่เริ่มต้น ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="b0356-113">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="b0356-114">ในฟิลด์วันที่สิ้นสุด ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="b0356-114">In the To date field, enter a date.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

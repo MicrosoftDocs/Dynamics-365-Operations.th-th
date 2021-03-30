@@ -16,26 +16,29 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49b110b93e6f0f886d180f9f2725245faad7afab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977224"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239049"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="87497-103">การสร้างคลาสการผลิต</span><span class="sxs-lookup"><span data-stu-id="87497-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="0a29d-103">การสร้างคลาสการผลิต</span><span class="sxs-lookup"><span data-stu-id="0a29d-103">Create a work class</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="87497-104">ขั้นตอนนี้แสดงวิธีการตั้งค่าคลาสงาน </span><span class="sxs-lookup"><span data-stu-id="87497-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="87497-105">คลาสงานถูกใช้เพื่อกำหนดและ/หรือจำกัดชนิดของรายการใบสั่งงานที่ผู้ปฏิบัติงานคลังสินค้าสามารถประมวลผลบนอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="87497-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="87497-106">รายการที่ผู้ปฏิบัติงานสามารถประมวลผลจะถูกกำหนดจากคลาสงานบนรายการเมนูอุปกรณ์เคลื่อนที่ที่ผู้ปฏิบัติงานคลังสินค้ามีการเข้าถึงและคลาสงานที่ระบุไว้ในรายการงาน</span><span class="sxs-lookup"><span data-stu-id="87497-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="87497-107">คลาสงานสามารถใช้เพื่อตรวจสอบสถานที่ส่งสินค้าสำหรับรายการใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="87497-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="87497-108">คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="87497-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="87497-109">ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="87497-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="0a29d-104">ขั้นตอนนี้แสดงวิธีการตั้งค่าคลาสงาน </span><span class="sxs-lookup"><span data-stu-id="0a29d-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="0a29d-105">คลาสงานถูกใช้เพื่อกำหนดและ/หรือจำกัดชนิดของรายการใบสั่งงานที่ผู้ปฏิบัติงานคลังสินค้าสามารถประมวลผลบนอุปกรณ์เคลื่อนที่ </span><span class="sxs-lookup"><span data-stu-id="0a29d-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="0a29d-106">รายการที่ผู้ปฏิบัติงานสามารถประมวลผลจะถูกกำหนดจากคลาสงานบนรายการเมนูอุปกรณ์เคลื่อนที่ที่ผู้ปฏิบัติงานคลังสินค้ามีการเข้าถึงและคลาสงานที่ระบุไว้ในรายการงาน</span><span class="sxs-lookup"><span data-stu-id="0a29d-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="0a29d-107">คลาสงานสามารถใช้เพื่อตรวจสอบสถานที่ส่งสินค้าสำหรับรายการใบสั่งงาน</span><span class="sxs-lookup"><span data-stu-id="0a29d-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="0a29d-108">คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="0a29d-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="0a29d-109">ขั้นตอนนี้มีไว้สำหรับผู้จัดการคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="0a29d-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="87497-110">ไปที่การจัดการคลังสินค้า > การตั้งค่า > งาน > คลาสงาน</span><span class="sxs-lookup"><span data-stu-id="87497-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="87497-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="87497-111">Click New.</span></span>
-3. <span data-ttu-id="87497-112">ในฟิลด์รหัสคลาสงาน ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="87497-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="87497-113">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="87497-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="87497-114">ในฟิลด์ชนิดใบสั่งงาน ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="87497-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="87497-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="87497-115">Click New.</span></span>
-7. <span data-ttu-id="87497-116">ในฟิลด์ชนิดสถานที่ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="87497-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="87497-117">ถ้าคุณเลือกชนิดสถานที่ นี่จะตั้งค่าข้อจำกัดสำหรับสถานที่ที่สามารถจัดเก็บสินค้าหลังจากที่ได้เบิกสินค้าไป</span><span class="sxs-lookup"><span data-stu-id="87497-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="87497-118">การตั้งค่านี้จะใช้เมื่อคำสั่งสถานที่พยายามแก้ไขที่ตั้ง หรือถ้าผู้ปฏิบัติงานคลังสินค้าระบุสถานที่จัดเก็บสินค้าในอุปกรณ์เคลื่อนที่ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="87497-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="87497-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="87497-119">Close the page.</span></span>
+1. <span data-ttu-id="0a29d-110">ไปที่การจัดการคลังสินค้า > การตั้งค่า > งาน > คลาสงาน</span><span class="sxs-lookup"><span data-stu-id="0a29d-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="0a29d-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="0a29d-111">Click New.</span></span>
+3. <span data-ttu-id="0a29d-112">ในฟิลด์รหัสคลาสงาน ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="0a29d-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="0a29d-113">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="0a29d-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="0a29d-114">ในฟิลด์ชนิดใบสั่งงาน ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="0a29d-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="0a29d-115">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="0a29d-115">Click New.</span></span>
+7. <span data-ttu-id="0a29d-116">ในฟิลด์ชนิดสถานที่ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="0a29d-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="0a29d-117">ถ้าคุณเลือกชนิดสถานที่ นี่จะตั้งค่าข้อจำกัดสำหรับสถานที่ที่สามารถจัดเก็บสินค้าหลังจากที่ได้เบิกสินค้าไป</span><span class="sxs-lookup"><span data-stu-id="0a29d-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="0a29d-118">การตั้งค่านี้จะใช้เมื่อคำสั่งสถานที่พยายามแก้ไขที่ตั้ง หรือถ้าผู้ปฏิบัติงานคลังสินค้าระบุสถานที่จัดเก็บสินค้าในอุปกรณ์เคลื่อนที่ด้วยตนเอง</span><span class="sxs-lookup"><span data-stu-id="0a29d-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="0a29d-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="0a29d-119">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
