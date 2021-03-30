@@ -15,33 +15,36 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 566a174c631391577441e0f890bd9553dac0891c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961626"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204531"
 ---
-# <a name="remove-a-kanban-job-from-the-schedule"></a><span data-ttu-id="1ed85-103">ลบงานคัมบังออกจากกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="1ed85-103">Remove a kanban job from the schedule</span></span>
+# <a name="remove-a-kanban-job-from-the-schedule"></a><span data-ttu-id="f91ce-103">ลบงานคัมบังออกจากกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="f91ce-103">Remove a kanban job from the schedule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1ed85-104">ขั้นตอนนี้มุ่งเน้นไปที่การลบกระบวนงานคัมบังที่วางแผนไว้แล้วจากตารางกำหนดการโดยการแปลงกลับสถานะของงานไปเป็นไม่ได้วางแผน</span><span class="sxs-lookup"><span data-stu-id="1ed85-104">This procedure focuses on removing a planned process kanban job from the schedule by reverting the job status to Not planned.</span></span> <span data-ttu-id="1ed85-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="1ed85-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1ed85-106">ขั้นตอนนี้มีไว้สำหรับหัวหน้างานผลิตหรือนักวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="1ed85-106">This procedure is intended for the shop floor supervisor or production planner.</span></span>
+<span data-ttu-id="f91ce-104">ขั้นตอนนี้มุ่งเน้นไปที่การลบกระบวนงานคัมบังที่วางแผนไว้แล้วจากตารางกำหนดการโดยการแปลงกลับสถานะของงานไปเป็นไม่ได้วางแผน</span><span class="sxs-lookup"><span data-stu-id="f91ce-104">This procedure focuses on removing a planned process kanban job from the schedule by reverting the job status to Not planned.</span></span> <span data-ttu-id="f91ce-105">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="f91ce-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f91ce-106">ขั้นตอนนี้มีไว้สำหรับหัวหน้างานผลิตหรือนักวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="f91ce-106">This procedure is intended for the shop floor supervisor or production planner.</span></span>
 
 
-## <a name="find-a-planned-kanban-job"></a><span data-ttu-id="1ed85-107">ค้นหางานคัมบังที่วางแผนไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="1ed85-107">Find a planned kanban job</span></span>
-1. <span data-ttu-id="1ed85-108">ไปที่การควบคุมการผลิต > คัมบัง > การกำหนดเวลางานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="1ed85-108">Go to Production control > Kanban > Kanban job scheduling.</span></span>
-2. <span data-ttu-id="1ed85-109">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="1ed85-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="1ed85-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="1ed85-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="1ed85-111">เลือกเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="1ed85-111">Select work cell 1250.</span></span>  
-4. <span data-ttu-id="1ed85-112">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="1ed85-112">Click Select.</span></span>
-5. <span data-ttu-id="1ed85-113">ในฟิลด์แสดงสถานะงาน เลือก 'จัดกำหนดการแล้ว' </span><span class="sxs-lookup"><span data-stu-id="1ed85-113">In the Display job status field, select 'Scheduled'.</span></span>
+## <a name="find-a-planned-kanban-job"></a><span data-ttu-id="f91ce-107">ค้นหางานคัมบังที่วางแผนไว้แล้ว</span><span class="sxs-lookup"><span data-stu-id="f91ce-107">Find a planned kanban job</span></span>
+1. <span data-ttu-id="f91ce-108">ไปที่การควบคุมการผลิต > คัมบัง > การกำหนดเวลางานคัมบัง </span><span class="sxs-lookup"><span data-stu-id="f91ce-108">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="f91ce-109">ในฟิลด์เซลล์ทำงาน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา </span><span class="sxs-lookup"><span data-stu-id="f91ce-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="f91ce-110">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="f91ce-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f91ce-111">เลือกเซลล์ทำงาน 1250</span><span class="sxs-lookup"><span data-stu-id="f91ce-111">Select work cell 1250.</span></span>  
+4. <span data-ttu-id="f91ce-112">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="f91ce-112">Click Select.</span></span>
+5. <span data-ttu-id="f91ce-113">ในฟิลด์แสดงสถานะงาน เลือก 'จัดกำหนดการแล้ว' </span><span class="sxs-lookup"><span data-stu-id="f91ce-113">In the Display job status field, select 'Scheduled'.</span></span>
 
-## <a name="remove-the-planned-kanban-job-from-the-schedule"></a><span data-ttu-id="1ed85-114">ลบงานคัมบังที่วางแผนไว้แล้วออกจากกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="1ed85-114">Remove the planned kanban job from the schedule</span></span>
-1. <span data-ttu-id="1ed85-115">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="1ed85-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="1ed85-116">เลือกงานที่มีสถานะวางแผนไว้แล้ว ตัวอย่างเช่น งานจากวันที่ 19 ธันวาคม 2012</span><span class="sxs-lookup"><span data-stu-id="1ed85-116">Select a job that has the Planned status, for example, a job from December 19, 2012.</span></span>  
-2. <span data-ttu-id="1ed85-117">ในบานหน้าต่างการดำเนินการ ให้คลิก วางแผน</span><span class="sxs-lookup"><span data-stu-id="1ed85-117">On the Action Pane, click Plan.</span></span>
-3. <span data-ttu-id="1ed85-118">คลิก แปลงกลับสถานะงาน </span><span class="sxs-lookup"><span data-stu-id="1ed85-118">Click Revert job status.</span></span>
-4. <span data-ttu-id="1ed85-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="1ed85-119">Click OK.</span></span>
-    * <span data-ttu-id="1ed85-120">นี่จะแปลงกลับสถานะของงานปัจจุบันจาก 'วางแผนไว้แล้ว' เป็น 'ไม่ได้วางแผน' และลบออกจากบอร์ดกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="1ed85-120">This will revert the current job status from 'Planned' to 'Not planned' and remove it from the process board.</span></span>   
+## <a name="remove-the-planned-kanban-job-from-the-schedule"></a><span data-ttu-id="f91ce-114">ลบงานคัมบังที่วางแผนไว้แล้วออกจากกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="f91ce-114">Remove the planned kanban job from the schedule</span></span>
+1. <span data-ttu-id="f91ce-115">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="f91ce-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f91ce-116">เลือกงานที่มีสถานะวางแผนไว้แล้ว ตัวอย่างเช่น งานจากวันที่ 19 ธันวาคม 2012</span><span class="sxs-lookup"><span data-stu-id="f91ce-116">Select a job that has the Planned status, for example, a job from December 19, 2012.</span></span>  
+2. <span data-ttu-id="f91ce-117">ในบานหน้าต่างการดำเนินการ ให้คลิก วางแผน</span><span class="sxs-lookup"><span data-stu-id="f91ce-117">On the Action Pane, click Plan.</span></span>
+3. <span data-ttu-id="f91ce-118">คลิก แปลงกลับสถานะงาน </span><span class="sxs-lookup"><span data-stu-id="f91ce-118">Click Revert job status.</span></span>
+4. <span data-ttu-id="f91ce-119">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="f91ce-119">Click OK.</span></span>
+    * <span data-ttu-id="f91ce-120">นี่จะแปลงกลับสถานะของงานปัจจุบันจาก 'วางแผนไว้แล้ว' เป็น 'ไม่ได้วางแผน' และลบออกจากบอร์ดกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="f91ce-120">This will revert the current job status from 'Planned' to 'Not planned' and remove it from the process board.</span></span>   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

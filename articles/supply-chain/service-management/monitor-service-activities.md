@@ -17,45 +17,48 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13659fd1505b4957e71384d08a8118df6fe68e6d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d2cd65140dd550d0bf4ae2fef4d5a50e1e2ab31c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006777"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204289"
 ---
-# <a name="monitor-service-activities"></a><span data-ttu-id="d73da-103">การติดตามกิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="d73da-103">Monitor service activities</span></span> 
+# <a name="monitor-service-activities"></a><span data-ttu-id="f3238-103">การติดตามกิจกรรมการบริการ</span><span class="sxs-lookup"><span data-stu-id="f3238-103">Monitor service activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d73da-104">แบบฟอร์ม **บอร์ดการจัดส่ง** จะให้การอัพเดตสถานะแบบทันทีสำหรับกิจกรรมบริการตามกำหนดการต่างๆ และเครื่องมือสำหรับการติดตามขั้นตอนทั่วไปของใบสั่งบริการในบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="d73da-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
+<span data-ttu-id="f3238-104">แบบฟอร์ม **บอร์ดการจัดส่ง** จะให้การอัพเดตสถานะแบบทันทีสำหรับกิจกรรมบริการตามกำหนดการต่างๆ และเครื่องมือสำหรับการติดตามขั้นตอนทั่วไปของใบสั่งบริการในบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="f3238-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="d73da-105">ถ้าต้องการดูรายละเอียดเกี่ยวกับกิจกรรมการบริการ ให้เลือกกิจกรรมนั้นในแผนภูมิ Gantt ที่ด้านบนของแบบฟอร์ม <STRONG>บอร์ดการจัดส่ง</STRONG> คลิกขวา และจากนั้นคลิก <STRONG>ข้อมูล</STRONG></span><span class="sxs-lookup"><span data-stu-id="d73da-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
+> <P><span data-ttu-id="f3238-105">ถ้าต้องการดูรายละเอียดเกี่ยวกับกิจกรรมการบริการ ให้เลือกกิจกรรมนั้นในแผนภูมิ Gantt ที่ด้านบนของแบบฟอร์ม <STRONG>บอร์ดการจัดส่ง</STRONG> คลิกขวา และจากนั้นคลิก <STRONG>ข้อมูล</STRONG></span><span class="sxs-lookup"><span data-stu-id="f3238-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
 
 
-<span data-ttu-id="d73da-106">โดยใช้เครื่องมือบนแบบฟอร์มนี้ คุณจะสามารถเรียงลำดับใบสั่งบริการตามวันที่ ระดับความสำคัญ หรือชนิดของกิจกรรมการบริการ สามารถดูระดับความสำคัญที่กำหนดให้กับใบสั่งบริการ และตรวจสอบกิจกรรมที่กำหนดให้กับใบสั่งบริการแต่ละใบได้</span><span class="sxs-lookup"><span data-stu-id="d73da-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
+<span data-ttu-id="f3238-106">โดยใช้เครื่องมือบนแบบฟอร์มนี้ คุณจะสามารถเรียงลำดับใบสั่งบริการตามวันที่ ระดับความสำคัญ หรือชนิดของกิจกรรมการบริการ สามารถดูระดับความสำคัญที่กำหนดให้กับใบสั่งบริการ และตรวจสอบกิจกรรมที่กำหนดให้กับใบสั่งบริการแต่ละใบได้</span><span class="sxs-lookup"><span data-stu-id="f3238-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
 
-<span data-ttu-id="d73da-107">ถ้าคุณต้องการกระจายการกำหนดกิจกรรมการบริการอีกครั้ง คุณสามารถย้ายการแสดงด้วยรูปภาพของกิจกรรมบริการเพื่อกำหนดให้กับพนักงานอื่นหรือวันและเวลาอื่นได้</span><span class="sxs-lookup"><span data-stu-id="d73da-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
+<span data-ttu-id="f3238-107">ถ้าคุณต้องการกระจายการกำหนดกิจกรรมการบริการอีกครั้ง คุณสามารถย้ายการแสดงด้วยรูปภาพของกิจกรรมบริการเพื่อกำหนดให้กับพนักงานอื่นหรือวันและเวลาอื่นได้</span><span class="sxs-lookup"><span data-stu-id="f3238-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d73da-108">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="d73da-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f3238-108">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="f3238-108">Example</span></span>
 
-<span data-ttu-id="d73da-109">ในขณะที่ติดตามกิจกรรมการบริการของวัน </span><span class="sxs-lookup"><span data-stu-id="d73da-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="d73da-110">คุณยังจะสังเกตได้ว่าการให้บริการครั้งสุดในรายการของเขาจะต้องเสร็จสิ้นเมื่อสิ้นสุดวัน เพื่อให้ตรงกับข้อกำหนดของข้อตกลงระดับการบริการ </span><span class="sxs-lookup"><span data-stu-id="d73da-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="d73da-111">โดยใช้ฟังก์ชันการลากและปล่อยของแผนภูมิ Gantt คุณจึงสามารถกำหนดใหม่ให้ Meg รับผิดชอบการให้บริการนั้นแทน ซึ่งทำงานบริการของตัวเองเสร็จก่อนกำหนด</span><span class="sxs-lookup"><span data-stu-id="d73da-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
+<span data-ttu-id="f3238-109">ในขณะที่ติดตามกิจกรรมการบริการของวัน </span><span class="sxs-lookup"><span data-stu-id="f3238-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="f3238-110">คุณยังจะสังเกตได้ว่าการให้บริการครั้งสุดในรายการของเขาจะต้องเสร็จสิ้นเมื่อสิ้นสุดวัน เพื่อให้ตรงกับข้อกำหนดของข้อตกลงระดับการบริการ </span><span class="sxs-lookup"><span data-stu-id="f3238-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="f3238-111">โดยใช้ฟังก์ชันการลากและปล่อยของแผนภูมิ Gantt คุณจึงสามารถกำหนดใหม่ให้ Meg รับผิดชอบการให้บริการนั้นแทน ซึ่งทำงานบริการของตัวเองเสร็จก่อนกำหนด</span><span class="sxs-lookup"><span data-stu-id="f3238-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
 
-## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="d73da-112">การเปิดแบบฟอร์มบอร์ดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="d73da-112">Open the Dispatch board form</span></span>
+## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="f3238-112">การเปิดแบบฟอร์มบอร์ดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="f3238-112">Open the Dispatch board form</span></span>
 
-<span data-ttu-id="d73da-113">คลิก **การจัดการงานบริการ** \> **งานประจำงวด** \> **บอร์ดการจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="d73da-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+<span data-ttu-id="f3238-113">คลิก **การจัดการงานบริการ** \> **งานประจำงวด** \> **บอร์ดการจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="f3238-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d73da-114">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="d73da-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f3238-114">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="f3238-114">See also</span></span>
 
-[<span data-ttu-id="d73da-115">การจัดระดับความสำคัญของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="d73da-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="f3238-115">การจัดระดับความสำคัญของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="f3238-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="d73da-116">ดูสถานะของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="d73da-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="f3238-116">ดูสถานะของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="f3238-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
-<span data-ttu-id="d73da-117">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d73da-117">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="f3238-117">[บอร์ดการจัดส่ง (แบบฟอร์ม)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="f3238-117">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
