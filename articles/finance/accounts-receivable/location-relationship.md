@@ -17,59 +17,62 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 00810576d36339bf7ce0657b1577e1e322c36bf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13157700b9311e93aa035162ed89ed006e1453b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979100"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228184"
 ---
-# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="33465-103">เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย</span><span class="sxs-lookup"><span data-stu-id="33465-103">Add location and party relationship types</span></span> 
+# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="1ba1e-103">เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย</span><span class="sxs-lookup"><span data-stu-id="1ba1e-103">Add location and party relationship types</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="add-location-roles"></a><span data-ttu-id="33465-104">เพิ่มบทบาทสถานที่</span><span class="sxs-lookup"><span data-stu-id="33465-104">Add location roles</span></span>
+## <a name="add-location-roles"></a><span data-ttu-id="1ba1e-104">เพิ่มบทบาทสถานที่</span><span class="sxs-lookup"><span data-stu-id="1ba1e-104">Add location roles</span></span>
 
-<span data-ttu-id="33465-105">มีวิธีสองวิธีที่จะเพิ่มบทบาทสถานที่ใหม่สำหรับที่อยู่และข้อมูลผู้ติดต่อ:</span><span class="sxs-lookup"><span data-stu-id="33465-105">There are two ways to add a new location roles for address and contact information:</span></span>
+<span data-ttu-id="1ba1e-105">มีวิธีสองวิธีที่จะเพิ่มบทบาทสถานที่ใหม่สำหรับที่อยู่และข้อมูลผู้ติดต่อ:</span><span class="sxs-lookup"><span data-stu-id="1ba1e-105">There are two ways to add a new location roles for address and contact information:</span></span>
 
--  <span data-ttu-id="33465-106">เพิ่มผ่านทางหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลการติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="33465-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="33465-107">บทบาทใหม่จะถูกบันทึกไปยังตาราง **LogisticsLocationRole** ที่มีชนิด = 0 ซึ่งบ่งชี้ว่า บทบาทไม่ใช่บทบาทของระบบที่กำหนดไว้ใน enum **LogisticsLocationRoleType** และส่วนขยาย</span><span class="sxs-lookup"><span data-stu-id="33465-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="33465-108">ผู้ใช้จะสามารถใช้บทบาทนี้ได้ เมื่อสร้างข้อมูลที่อยู่หรือผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="33465-108">A user will be able to use this role when creating address or contact information.</span></span>
+-  <span data-ttu-id="1ba1e-106">เพิ่มผ่านทางหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลการติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="1ba1e-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="1ba1e-107">บทบาทใหม่จะถูกบันทึกไปยังตาราง **LogisticsLocationRole** ที่มีชนิด = 0 ซึ่งบ่งชี้ว่า บทบาทไม่ใช่บทบาทของระบบที่กำหนดไว้ใน enum **LogisticsLocationRoleType** และส่วนขยาย</span><span class="sxs-lookup"><span data-stu-id="1ba1e-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="1ba1e-108">ผู้ใช้จะสามารถใช้บทบาทนี้ได้ เมื่อสร้างข้อมูลที่อยู่หรือผู้ติดต่อ</span><span class="sxs-lookup"><span data-stu-id="1ba1e-108">A user will be able to use this role when creating address or contact information.</span></span>
 
     ![วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ](media/Address-Contact.PNG)
 
--  <span data-ttu-id="33465-110">เพิ่มเข้าไปยังส่วนขยาย enum **LogisticsLocationRoleType** และปล่อยให้โปรแกรมเติมข้อมูลผ่านกระบวนการซิงค์ฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="33465-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
+-  <span data-ttu-id="1ba1e-110">เพิ่มเข้าไปยังส่วนขยาย enum **LogisticsLocationRoleType** และปล่อยให้โปรแกรมเติมข้อมูลผ่านกระบวนการซิงค์ฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="1ba1e-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
 
-    1.  <span data-ttu-id="33465-111">สร้างการขยายไปยัง enum **LogisticsLocationRoleType** และเพิ่มบทบาทใหม่ในส่วนขยาย</span><span class="sxs-lookup"><span data-stu-id="33465-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
+    1.  <span data-ttu-id="1ba1e-111">สร้างการขยายไปยัง enum **LogisticsLocationRoleType** และเพิ่มบทบาทใหม่ในส่วนขยาย</span><span class="sxs-lookup"><span data-stu-id="1ba1e-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
   
         ![ส่วนขยายไปยังการแจงนับ LogisticsLocationRoleType](media/Logistics.PNG)
 
-    2. <span data-ttu-id="33465-113">สร้างไฟล์ทรัพยากรใหม่สำหรับบทบาทใหม่ และจากนั้น กำหนดค่าสำหรับคุณสมบัติ</span><span class="sxs-lookup"><span data-stu-id="33465-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
+    2. <span data-ttu-id="1ba1e-113">สร้างไฟล์ทรัพยากรใหม่สำหรับบทบาทใหม่ และจากนั้น กำหนดค่าสำหรับคุณสมบัติ</span><span class="sxs-lookup"><span data-stu-id="1ba1e-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
      
      ![ไฟล์ทรัพยากรใหม่](media/Resource.PNG)
         
-    3.  <span data-ttu-id="33465-115">สร้างคลาสการเติมข้อมูล และให้วิธีการจัดการเพื่อเติมข้อมูลบทบาทใหม่</span><span class="sxs-lookup"><span data-stu-id="33465-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
+    3.  <span data-ttu-id="1ba1e-115">สร้างคลาสการเติมข้อมูล และให้วิธีการจัดการเพื่อเติมข้อมูลบทบาทใหม่</span><span class="sxs-lookup"><span data-stu-id="1ba1e-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
 
         ![การเติมข้อมูล](media/Dirdata.PNG)
 
-    4.  <span data-ttu-id="33465-117">เพื่อทดสอบการนำเข้าข้อมูลบทบาทสถานที่ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertLogisticsLocationRoles() ใน Main()</span><span class="sxs-lookup"><span data-stu-id="33465-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="33465-118">หลังจากกระบวนการนี้เสร็จสมบูรณ์ คุณควรเห็นบทบาทใหม่ที่เติมข้อมูลในตาราง **LogisticsLocationRole** ที่มีชนิด \> 0</span><span class="sxs-lookup"><span data-stu-id="33465-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="33465-119">บทบาทใหม่จะแสดงบนหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="33465-119">The new role will display on the **Address and contact information purpose** page.</span></span>
+    4.  <span data-ttu-id="1ba1e-117">เพื่อทดสอบการนำเข้าข้อมูลบทบาทสถานที่ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertLogisticsLocationRoles() ใน Main()</span><span class="sxs-lookup"><span data-stu-id="1ba1e-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="1ba1e-118">หลังจากกระบวนการนี้เสร็จสมบูรณ์ คุณควรเห็นบทบาทใหม่ที่เติมข้อมูลในตาราง **LogisticsLocationRole** ที่มีชนิด \> 0</span><span class="sxs-lookup"><span data-stu-id="1ba1e-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="1ba1e-119">บทบาทใหม่จะแสดงบนหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ**</span><span class="sxs-lookup"><span data-stu-id="1ba1e-119">The new role will display on the **Address and contact information purpose** page.</span></span>
 
         ![แทรกสถานที่ใหม่](media/InsertNewLocation.PNG)
 
-## <a name="add-party-relationship-types"></a><span data-ttu-id="33465-121">เพิ่มชนิดความสัมพันธ์ของฝ่าย</span><span class="sxs-lookup"><span data-stu-id="33465-121">Add party relationship types</span></span> 
+## <a name="add-party-relationship-types"></a><span data-ttu-id="1ba1e-121">เพิ่มชนิดความสัมพันธ์ของฝ่าย</span><span class="sxs-lookup"><span data-stu-id="1ba1e-121">Add party relationship types</span></span> 
 
-<span data-ttu-id="33465-122">มีวิธีสองวิธีในการเพิ่มชนิดความสัมพันธ์ใหม่:</span><span class="sxs-lookup"><span data-stu-id="33465-122">There are two ways to add a new relationship type:</span></span>
+<span data-ttu-id="1ba1e-122">มีวิธีสองวิธีในการเพิ่มชนิดความสัมพันธ์ใหม่:</span><span class="sxs-lookup"><span data-stu-id="1ba1e-122">There are two ways to add a new relationship type:</span></span>
 
--   <span data-ttu-id="33465-123">เพิ่มผ่านหน้า **ชนิดของความสัมพันธ์**</span><span class="sxs-lookup"><span data-stu-id="33465-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="33465-124">ความสัมพันธ์ใหม่จะถูกบันทึกลงใน **DirRelationshipTypeTable** ที่มี systemtype = 0</span><span class="sxs-lookup"><span data-stu-id="33465-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
+-   <span data-ttu-id="1ba1e-123">เพิ่มผ่านหน้า **ชนิดของความสัมพันธ์**</span><span class="sxs-lookup"><span data-stu-id="1ba1e-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="1ba1e-124">ความสัมพันธ์ใหม่จะถูกบันทึกลงใน **DirRelationshipTypeTable** ที่มี systemtype = 0</span><span class="sxs-lookup"><span data-stu-id="1ba1e-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
 
     ![ชนิดของความสัมพันธ์](media/Relationship.PNG)
 
--  <span data-ttu-id="33465-126">เพิ่มเข้าไปยังส่วนขยายของ enum **DirSystemRelationshipType** และปล่อยให้โปรแกรมเติมข้อมูลผ่านกระบวนการซิงค์ฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="33465-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
+-  <span data-ttu-id="1ba1e-126">เพิ่มเข้าไปยังส่วนขยายของ enum **DirSystemRelationshipType** และปล่อยให้โปรแกรมเติมข้อมูลผ่านกระบวนการซิงค์ฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="1ba1e-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
 
-    1.  <span data-ttu-id="33465-127">สร้างการขยายไปยัง enum **DirSystemRelationshipType** และเพิ่มชนิดความสัมพันธ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="33465-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
+    1.  <span data-ttu-id="1ba1e-127">สร้างการขยายไปยัง enum **DirSystemRelationshipType** และเพิ่มชนิดความสัมพันธ์ใหม่</span><span class="sxs-lookup"><span data-stu-id="1ba1e-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
 
-    2. <span data-ttu-id="33465-128">สร้างตัวเริ่มต้นสำหรับชนิดใหม่นี้</span><span class="sxs-lookup"><span data-stu-id="33465-128">Create an initializer for this new type.</span></span> <span data-ttu-id="33465-129">คุณสามารถค้นหาตัวอย่างที่หลากหลายในรหัสหลัก หนึ่งในนั้นคือ  **DirRelationshipTypeChildInitialize**</span><span class="sxs-lookup"><span data-stu-id="33465-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="33465-130">นี่คือคลาสตัวเริ่มต้นสำหรับชนิดความสัมพันธ์ของฝ่าย "รอง"</span><span class="sxs-lookup"><span data-stu-id="33465-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="33465-131">คุณสามารถเริ่มต้นด้วยตัวเริ่มต้นของคุณโดยการคัดลอกและการวางรหัสนี้ และจากนั้น อัพเดตพื้นที่ที่เน้น</span><span class="sxs-lookup"><span data-stu-id="33465-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
+    2. <span data-ttu-id="1ba1e-128">สร้างตัวเริ่มต้นสำหรับชนิดใหม่นี้</span><span class="sxs-lookup"><span data-stu-id="1ba1e-128">Create an initializer for this new type.</span></span> <span data-ttu-id="1ba1e-129">คุณสามารถค้นหาตัวอย่างที่หลากหลายในรหัสหลัก หนึ่งในนั้นคือ  **DirRelationshipTypeChildInitialize**</span><span class="sxs-lookup"><span data-stu-id="1ba1e-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="1ba1e-130">นี่คือคลาสตัวเริ่มต้นสำหรับชนิดความสัมพันธ์ของฝ่าย "รอง"</span><span class="sxs-lookup"><span data-stu-id="1ba1e-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="1ba1e-131">คุณสามารถเริ่มต้นด้วยตัวเริ่มต้นของคุณโดยการคัดลอกและการวางรหัสนี้ และจากนั้น อัพเดตพื้นที่ที่เน้น</span><span class="sxs-lookup"><span data-stu-id="1ba1e-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
     
     ![ตัวเริ่มต้น DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  <span data-ttu-id="33465-133">เพื่อทดสอบการนำเข้าข้อมูลชนิดความสัมพันธ์ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertDirRelationshipTypes() ใน Main()</span><span class="sxs-lookup"><span data-stu-id="33465-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="33465-134">คุณควรเห็นชนิดความสัมพันธ์ใหม่ใน **DirRelationshipTypeTable** และชนิดความสัมพันธ์ใหม่จะพร้อมใช้งานบนหน้า **ชนิดของความสัมพันธ์**</span><span class="sxs-lookup"><span data-stu-id="33465-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
+    3.  <span data-ttu-id="1ba1e-133">เพื่อทดสอบการนำเข้าข้อมูลชนิดความสัมพันธ์ใหม่ คุณสามารถสร้างคลาสที่สามารถรันได้ และเรียกใช้ DirDataPopulation::insertDirRelationshipTypes() ใน Main()</span><span class="sxs-lookup"><span data-stu-id="1ba1e-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="1ba1e-134">คุณควรเห็นชนิดความสัมพันธ์ใหม่ใน **DirRelationshipTypeTable** และชนิดความสัมพันธ์ใหม่จะพร้อมใช้งานบนหน้า **ชนิดของความสัมพันธ์**</span><span class="sxs-lookup"><span data-stu-id="1ba1e-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
 
         ![คลาสที่สามารถรันได้](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
