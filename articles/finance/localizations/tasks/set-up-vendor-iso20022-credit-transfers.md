@@ -15,39 +15,42 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a7245824c53ab594d62e9296e1f32d32a96ab84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b3a16d614efed0aafbf13fc59c17ab568811d82
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988031"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222050"
 ---
-# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="d65ea-103">ตั้งค่าผู้จัดจำหน่ายและบัญชีธนาคารของผู้จัดจำหน่ายสำหรับการโอนย้ายเครดิต ISO20022</span><span class="sxs-lookup"><span data-stu-id="d65ea-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>
+# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="4b766-103">ตั้งค่าผู้จัดจำหน่ายและบัญชีธนาคารของผู้จัดจำหน่ายสำหรับการโอนย้ายเครดิต ISO20022</span><span class="sxs-lookup"><span data-stu-id="4b766-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d65ea-104">กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลของผู้จัดจำหน่ายและข้อมูลของบัญชีธนาคารของผู้จัดจำหน่ายเฉพาะที่จำเป็นสำหรับการโอนย้ายเครดิต ISO20022 หรือการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายอื่นใดๆ </span><span class="sxs-lookup"><span data-stu-id="d65ea-104">This procedure demonstrates how to set up the vendor and vendor specific bank account information required for ISO20022 Credit transfer or any other vendor payment file generation.</span></span> 
+<span data-ttu-id="4b766-104">กระบวนงานนี้แสดงวิธีการตั้งค่าข้อมูลของผู้จัดจำหน่ายและข้อมูลของบัญชีธนาคารของผู้จัดจำหน่ายเฉพาะที่จำเป็นสำหรับการโอนย้ายเครดิต ISO20022 หรือการสร้างไฟล์การชำระเงินของผู้จัดจำหน่ายอื่นใดๆ </span><span class="sxs-lookup"><span data-stu-id="4b766-104">This procedure demonstrates how to set up the vendor and vendor specific bank account information required for ISO20022 Credit transfer or any other vendor payment file generation.</span></span> 
 
-<span data-ttu-id="d65ea-105">บริษัทข้อมูลสาธิตที่ใช้สร้างกระบวนการนี้คือ DEMF</span><span class="sxs-lookup"><span data-stu-id="d65ea-105">The demo data company used to create this procedure is DEMF.</span></span>
-<span data-ttu-id="d65ea-106">นี่คือกระบวนงานที่สี่จากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ </span><span class="sxs-lookup"><span data-stu-id="d65ea-106">This is the fourth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="d65ea-107">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="d65ea-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="4b766-105">บริษัทข้อมูลสาธิตที่ใช้สร้างกระบวนการนี้คือ DEMF</span><span class="sxs-lookup"><span data-stu-id="4b766-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="4b766-106">นี่คือกระบวนงานที่สี่จากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ </span><span class="sxs-lookup"><span data-stu-id="4b766-106">This is the fourth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="4b766-107">กระบวนงานนี้ใช้สำหรับคุณลักษณะทั้ที่ถูกเพิ่มลงใน Dynamics 365 for Operations รุ่น 1611</span><span class="sxs-lookup"><span data-stu-id="4b766-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-bank-details"></a><span data-ttu-id="d65ea-108">ตั้งค่าข้อมูลธนาคาร</span><span class="sxs-lookup"><span data-stu-id="d65ea-108">Set up bank details</span></span>
-1. <span data-ttu-id="d65ea-109">ไปที่บัญชีเจ้าหนี้ > ผู้จัดจำหน่าย > ผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="d65ea-109">Go to Accounts payable > Vendors > All vendors.</span></span>
-2. <span data-ttu-id="d65ea-110">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="d65ea-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="d65ea-111">เช่น กรองข้อมูลในฟิลด์บัญชีผู้จัดจำหน่าย ด้วยค่า 'DE-001'</span><span class="sxs-lookup"><span data-stu-id="d65ea-111">For example, filter on the Vendor account field with a value of 'DE-001'.</span></span>
-3. <span data-ttu-id="d65ea-112">คลิก DE-001 เพื่อเปิดรายละเอียดผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="d65ea-112">Click DE-001 to open vendor details.</span></span>
-4. <span data-ttu-id="d65ea-113">ในบานหน้าต่างการดำเนินการ คลิกผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="d65ea-113">On the Action Pane, click Vendor.</span></span>
-5. <span data-ttu-id="d65ea-114">คลิก บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="d65ea-114">Click Bank accounts.</span></span>
-6. <span data-ttu-id="d65ea-115">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="d65ea-115">Click Edit.</span></span>
-    * <span data-ttu-id="d65ea-116">ถ้าไม่มีบัญชีธนาคารที่ใช้งานได้ คุณต้องสร้างบัญชีใหม่</span><span class="sxs-lookup"><span data-stu-id="d65ea-116">If there is no bank account available, you need to create a new one.</span></span>  
-7. <span data-ttu-id="d65ea-117">ในฟิลด์รหัส SWIFT ให้พิมพ์ 'COBADEFFXXX'</span><span class="sxs-lookup"><span data-stu-id="d65ea-117">In the SWIFT code field, type 'COBADEFFXXX'.</span></span>
-8. <span data-ttu-id="d65ea-118">ในฟิลด์ IBAN ให้พิมพ์ 'DE36200400000628808808'</span><span class="sxs-lookup"><span data-stu-id="d65ea-118">In the IBAN field, type 'DE36200400000628808808'.</span></span>
-9. <span data-ttu-id="d65ea-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="d65ea-119">Close the page.</span></span>
+## <a name="set-up-bank-details"></a><span data-ttu-id="4b766-108">ตั้งค่าข้อมูลธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b766-108">Set up bank details</span></span>
+1. <span data-ttu-id="4b766-109">ไปที่บัญชีเจ้าหนี้ > ผู้จัดจำหน่าย > ผู้จัดจำหน่ายทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="4b766-109">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="4b766-110">ใช้ตัวกรองข้อมูลด่วนเพื่อค้นหาเรกคอร์ด </span><span class="sxs-lookup"><span data-stu-id="4b766-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4b766-111">เช่น กรองข้อมูลในฟิลด์บัญชีผู้จัดจำหน่าย ด้วยค่า 'DE-001'</span><span class="sxs-lookup"><span data-stu-id="4b766-111">For example, filter on the Vendor account field with a value of 'DE-001'.</span></span>
+3. <span data-ttu-id="4b766-112">คลิก DE-001 เพื่อเปิดรายละเอียดผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="4b766-112">Click DE-001 to open vendor details.</span></span>
+4. <span data-ttu-id="4b766-113">ในบานหน้าต่างการดำเนินการ คลิกผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="4b766-113">On the Action Pane, click Vendor.</span></span>
+5. <span data-ttu-id="4b766-114">คลิก บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="4b766-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="4b766-115">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4b766-115">Click Edit.</span></span>
+    * <span data-ttu-id="4b766-116">ถ้าไม่มีบัญชีธนาคารที่ใช้งานได้ คุณต้องสร้างบัญชีใหม่</span><span class="sxs-lookup"><span data-stu-id="4b766-116">If there is no bank account available, you need to create a new one.</span></span>  
+7. <span data-ttu-id="4b766-117">ในฟิลด์รหัส SWIFT ให้พิมพ์ 'COBADEFFXXX'</span><span class="sxs-lookup"><span data-stu-id="4b766-117">In the SWIFT code field, type 'COBADEFFXXX'.</span></span>
+8. <span data-ttu-id="4b766-118">ในฟิลด์ IBAN ให้พิมพ์ 'DE36200400000628808808'</span><span class="sxs-lookup"><span data-stu-id="4b766-118">In the IBAN field, type 'DE36200400000628808808'.</span></span>
+9. <span data-ttu-id="4b766-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="4b766-119">Close the page.</span></span>
 
-## <a name="set-up-a-method-of-payment-for-the-vendor"></a><span data-ttu-id="d65ea-120">ตั้งค่าวิธีการชำระเงินสำหรับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="d65ea-120">Set up a method of payment for the vendor</span></span>
-1. <span data-ttu-id="d65ea-121">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="d65ea-121">Click Edit.</span></span>
-2. <span data-ttu-id="d65ea-122">ขยายหรือยุบส่วนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="d65ea-122">Expand or collapse the Payment section.</span></span>
-3. <span data-ttu-id="d65ea-123">ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="d65ea-123">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="d65ea-124">ในรายการนี้ ให้คลิกลิงค์ในแถว SEPA CT</span><span class="sxs-lookup"><span data-stu-id="d65ea-124">In the list, click the link in the SEPA CT row.</span></span>
-5. <span data-ttu-id="d65ea-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="d65ea-125">Click Save.</span></span>
+## <a name="set-up-a-method-of-payment-for-the-vendor"></a><span data-ttu-id="4b766-120">ตั้งค่าวิธีการชำระเงินสำหรับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="4b766-120">Set up a method of payment for the vendor</span></span>
+1. <span data-ttu-id="4b766-121">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="4b766-121">Click Edit.</span></span>
+2. <span data-ttu-id="4b766-122">ขยายหรือยุบส่วนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="4b766-122">Expand or collapse the Payment section.</span></span>
+3. <span data-ttu-id="4b766-123">ในฟิลด์วิธีการชำระเงิน ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="4b766-123">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="4b766-124">ในรายการนี้ ให้คลิกลิงค์ในแถว SEPA CT</span><span class="sxs-lookup"><span data-stu-id="4b766-124">In the list, click the link in the SEPA CT row.</span></span>
+5. <span data-ttu-id="4b766-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="4b766-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

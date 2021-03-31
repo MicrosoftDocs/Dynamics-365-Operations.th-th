@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าไซต์อีคอมเมิร์ซเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/17/2020
@@ -16,81 +16,84 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fcdf571378c25d71b3ef4f3baad062a25390417
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 130c80c1d68c7fb207a4fa073fe2b0476cbdd409
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993561"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220545"
 ---
-# <a name="configure-ratings-and-reviews"></a><span data-ttu-id="c856f-103">ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="c856f-103">Configure ratings and reviews</span></span>
+# <a name="configure-ratings-and-reviews"></a><span data-ttu-id="4d391-103">ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="4d391-103">Configure ratings and reviews</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c856f-104">หัวข้อนี้จะอธิบายวิธีการตั้งค่าไซต์อีคอมเมิร์ซเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c856f-104">This topic describes how to configure your e-Commerce site to show customer ratings and reviews in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="4d391-104">หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4d391-104">This topic describes how to configure your e-Commerce site to show customer ratings and reviews in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="c856f-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="c856f-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="4d391-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="4d391-105">Overview</span></span>
 
-<span data-ttu-id="c856f-106">การให้คะแนนและบทวิจารณ์บนเว็บไซต์อีคอมเมิร์ซช่วยให้ลูกค้าเรียนรู้เกี่ยวกับผลิตภัณฑ์ก่อนที่พวกเขาทำการตัดสินใจซื้อ โดยแสดงให้พวกเขาเห็นว่าลูกค้าคนอื่นคิดอะไรเกี่ยวกับผลิตภัณฑ์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="c856f-106">Ratings and reviews on e-Commerce websites help customers learn about products before they make a purchase decision by showing them what other customers think about those products.</span></span> <span data-ttu-id="c856f-107">สำหรับเว็บไซต์อีคอมเมิร์ซ การให้คะแนนและบทวิจารณ์ยังเป็นกลไกสำหรับการรวบรวมความคิดเห็นของลูกค้าเกี่ยวกับผลิตภัณฑ์ด้วย</span><span class="sxs-lookup"><span data-stu-id="c856f-107">For e-Commerce websites, ratings and reviews are also a mechanism for collecting customer feedback about products.</span></span> 
+<span data-ttu-id="4d391-106">การให้คะแนนและบทวิจารณ์บนเว็บไซต์อีคอมเมิร์ซช่วยให้ลูกค้าเรียนรู้เกี่ยวกับผลิตภัณฑ์ก่อนที่พวกเขาทำการตัดสินใจซื้อ โดยแสดงให้พวกเขาเห็นว่าลูกค้าคนอื่นคิดอะไรเกี่ยวกับผลิตภัณฑ์เหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="4d391-106">Ratings and reviews on e-Commerce websites help customers learn about products before they make a purchase decision by showing them what other customers think about those products.</span></span> <span data-ttu-id="4d391-107">สำหรับเว็บไซต์อีคอมเมิร์ซ การให้คะแนนและบทวิจารณ์ยังเป็นกลไกสำหรับการรวบรวมความคิดเห็นของลูกค้าเกี่ยวกับผลิตภัณฑ์ด้วย</span><span class="sxs-lookup"><span data-stu-id="4d391-107">For e-Commerce websites, ratings and reviews are also a mechanism for collecting customer feedback about products.</span></span> 
 
-## <a name="configure-a-site-to-show-ratings-and-reviews"></a><span data-ttu-id="c856f-108">ตั้งค่าไซต์เพื่อการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="c856f-108">Configure a site to show ratings and reviews</span></span>
+## <a name="configure-a-site-to-show-ratings-and-reviews"></a><span data-ttu-id="4d391-108">ตั้งค่าไซต์เพื่อการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="4d391-108">Configure a site to show ratings and reviews</span></span>
 
-<span data-ttu-id="c856f-109">การตั้งค่าค่าสำหรับการให้คะแนนและบทวิจารณ์ เช่น รหัสผู้เช่า ความยาวของข้อความบทวิจารณ์ และความยาวของชื่อบทวิจารณ์ จะตั้งค่าในระดับไซต์</span><span class="sxs-lookup"><span data-stu-id="c856f-109">Configuration values for ratings and reviews, such as the tenant ID, review text length, and review title length, are configured at the site level.</span></span> 
+<span data-ttu-id="4d391-109">การตั้งค่าค่าสำหรับการให้คะแนนและบทวิจารณ์ เช่น รหัสผู้เช่า ความยาวของข้อความบทวิจารณ์ และความยาวของชื่อบทวิจารณ์ จะตั้งค่าในระดับไซต์</span><span class="sxs-lookup"><span data-stu-id="4d391-109">Configuration values for ratings and reviews, such as the tenant ID, review text length, and review title length, are configured at the site level.</span></span> 
 
-<span data-ttu-id="c856f-110">เมื่อต้องการตั้งค่าไซต์เพื่อแสดงการให้คะแนนและบทวิจารณ์ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c856f-110">To configure a site to show ratings and reviews, follow these steps.</span></span> 
+<span data-ttu-id="4d391-110">เมื่อต้องการตั้งค่าไซต์เพื่อแสดงการให้คะแนนและบทวิจารณ์ ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="4d391-110">To configure a site to show ratings and reviews, follow these steps.</span></span> 
 
-1. <span data-ttu-id="c856f-111">ไปที่ **หน้าหลัก \> ไซต์**</span><span class="sxs-lookup"><span data-stu-id="c856f-111">Go to **Home \> Sites**.</span></span>
-1. <span data-ttu-id="c856f-112">เลือกชื่อไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="c856f-112">Select the name of your site.</span></span> 
-1. <span data-ttu-id="c856f-113">ไปที่ **การตั้งค่าไซต์\> ส่วนขยาย**</span><span class="sxs-lookup"><span data-stu-id="c856f-113">Go to **Site settings \> Extensions**.</span></span> 
-1. <span data-ttu-id="c856f-114">ในฟิลด์ **ความยาวสูงสุดของข้อความบทวิจารณ์** ให้ป้อนจำนวนสูงสุดของอักขระที่ข้อความบทวิจารณ์จะมีได้ (ตัวอย่างเช่น **1000**)</span><span class="sxs-lookup"><span data-stu-id="c856f-114">In the **Review text max length** field, enter the maximum number of characters that review text can have (for example, **1000**).</span></span> 
-1. <span data-ttu-id="c856f-115">ในฟิลด์ **ความยาวสูงสุดของชื่อบทวิจารณ์** ให้ป้อนจำนวนสูงสุดของอักขระที่ชื่อบทวิจารณ์จะมีได้ (ตัวอย่างเช่น **55**)</span><span class="sxs-lookup"><span data-stu-id="c856f-115">In the **Review title max length** field, enter the maximum number of characters that review titles can have (for example, **55**).</span></span> 
-1. <span data-ttu-id="c856f-116">เลือก **บันทึกและเผยแพร่**</span><span class="sxs-lookup"><span data-stu-id="c856f-116">Select **Save and Publish**.</span></span> 
+1. <span data-ttu-id="4d391-111">ไปที่ **หน้าหลัก \> ไซต์**</span><span class="sxs-lookup"><span data-stu-id="4d391-111">Go to **Home \> Sites**.</span></span>
+1. <span data-ttu-id="4d391-112">เลือกชื่อไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="4d391-112">Select the name of your site.</span></span> 
+1. <span data-ttu-id="4d391-113">ไปที่ **การตั้งค่าไซต์\> ส่วนขยาย**</span><span class="sxs-lookup"><span data-stu-id="4d391-113">Go to **Site settings \> Extensions**.</span></span> 
+1. <span data-ttu-id="4d391-114">ในฟิลด์ **ความยาวสูงสุดของข้อความบทวิจารณ์** ให้ป้อนจำนวนสูงสุดของอักขระที่ข้อความบทวิจารณ์จะมีได้ (ตัวอย่างเช่น **1000**)</span><span class="sxs-lookup"><span data-stu-id="4d391-114">In the **Review text max length** field, enter the maximum number of characters that review text can have (for example, **1000**).</span></span> 
+1. <span data-ttu-id="4d391-115">ในฟิลด์ **ความยาวสูงสุดของชื่อบทวิจารณ์** ให้ป้อนจำนวนสูงสุดของอักขระที่ชื่อบทวิจารณ์จะมีได้ (ตัวอย่างเช่น **55**)</span><span class="sxs-lookup"><span data-stu-id="4d391-115">In the **Review title max length** field, enter the maximum number of characters that review titles can have (for example, **55**).</span></span> 
+1. <span data-ttu-id="4d391-116">เลือก **บันทึกและเผยแพร่**</span><span class="sxs-lookup"><span data-stu-id="4d391-116">Select **Save and Publish**.</span></span> 
 
-<span data-ttu-id="c856f-117">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c856f-117">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="4d391-117">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4d391-117">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
 
 ![การตั้งค่าไซต์เพื่อแสดงการให้คะแนนและบทวิจารณ์](media/rnr-eCommerce-site-appsettings.png)
 
-## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a><span data-ttu-id="c856f-119">เชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วนบทวิจารณ์ของ PDP</span><span class="sxs-lookup"><span data-stu-id="c856f-119">Link a product rating to the Reviews section of a PDP</span></span>
+## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a><span data-ttu-id="4d391-119">เชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วนบทวิจารณ์ของ PDP</span><span class="sxs-lookup"><span data-stu-id="4d391-119">Link a product rating to the Reviews section of a PDP</span></span>
 
-<span data-ttu-id="c856f-120">การให้คะแนนผลิตภัณฑ์จะแสดงอยู่ด้านล่างของชื่อผลิตภัณฑ์ที่ด้านบนของ PDP</span><span class="sxs-lookup"><span data-stu-id="c856f-120">A product rating is shown below the product title at the top of PDP.</span></span> <span data-ttu-id="c856f-121">การให้คะแนนผลิตภัณฑ์สามารถตั้งค่าได้เพื่อให้เชื่อมโยงไปยังส่วน **บทวิจารณ์** ของ PDP เดียวกัน</span><span class="sxs-lookup"><span data-stu-id="c856f-121">The product rating can be configured so that it's linked to the **Reviews** section of the same PDP.</span></span> 
+<span data-ttu-id="4d391-120">การให้คะแนนผลิตภัณฑ์จะแสดงอยู่ด้านล่างของชื่อผลิตภัณฑ์ที่ด้านบนของ PDP</span><span class="sxs-lookup"><span data-stu-id="4d391-120">A product rating is shown below the product title at the top of PDP.</span></span> <span data-ttu-id="4d391-121">การให้คะแนนผลิตภัณฑ์สามารถตั้งค่าได้เพื่อให้เชื่อมโยงไปยังส่วน **บทวิจารณ์** ของ PDP เดียวกัน</span><span class="sxs-lookup"><span data-stu-id="4d391-121">The product rating can be configured so that it's linked to the **Reviews** section of the same PDP.</span></span> 
 
-<span data-ttu-id="c856f-122">เมื่อต้องการเชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วน **บทวิจารณ์** ของ PDP ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c856f-122">To link a product rating to the **Reviews** section of the PDP, follow these steps.</span></span>
+<span data-ttu-id="4d391-122">เมื่อต้องการเชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วน **บทวิจารณ์** ของ PDP ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="4d391-122">To link a product rating to the **Reviews** section of the PDP, follow these steps.</span></span>
 
-1. <span data-ttu-id="c856f-123">เปิดเท็มเพลต PDP</span><span class="sxs-lookup"><span data-stu-id="c856f-123">Open the PDP template.</span></span> 
-1. <span data-ttu-id="c856f-124">ไปที่ **การตั้งค่าโมดูลคอนเทนเนอร์กล่องการซื้อ**</span><span class="sxs-lookup"><span data-stu-id="c856f-124">Go to **Buy box container module settings**.</span></span>
-1. <span data-ttu-id="c856f-125">ภายใต้ **กล่องการซื้อ** ให้เลือก **การให้คะแนนผลิตภัณฑ์** จากนั้นเลือกกล่องการเครื่องหมาย **เชื่อมโยงการคลิกกับโมดูลบทวิจารณ์แบบเต็ม**</span><span class="sxs-lookup"><span data-stu-id="c856f-125">Under **Buy box**, select **Product ratings**, and then select the **Link the click to full reviews module** check box.</span></span>
+1. <span data-ttu-id="4d391-123">เปิดเท็มเพลต PDP</span><span class="sxs-lookup"><span data-stu-id="4d391-123">Open the PDP template.</span></span> 
+1. <span data-ttu-id="4d391-124">ไปที่ **การตั้งค่าโมดูลคอนเทนเนอร์กล่องการซื้อ**</span><span class="sxs-lookup"><span data-stu-id="4d391-124">Go to **Buy box container module settings**.</span></span>
+1. <span data-ttu-id="4d391-125">ภายใต้ **กล่องการซื้อ** ให้เลือก **การให้คะแนนผลิตภัณฑ์** จากนั้นเลือกกล่องการเครื่องหมาย **เชื่อมโยงการคลิกกับโมดูลบทวิจารณ์แบบเต็ม**</span><span class="sxs-lookup"><span data-stu-id="4d391-125">Under **Buy box**, select **Product ratings**, and then select the **Link the click to full reviews module** check box.</span></span>
 
-<span data-ttu-id="c856f-126">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c856f-126">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="4d391-126">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4d391-126">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
 
 ![เชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วนบทวิจารณ์ของ PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
 
-## <a name="configure-the-link-for-the-privacy-and-policy-page"></a><span data-ttu-id="c856f-128">ตั้งค่าลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย</span><span class="sxs-lookup"><span data-stu-id="c856f-128">Configure the link for the privacy and policy page</span></span>
+## <a name="configure-the-link-for-the-privacy-and-policy-page"></a><span data-ttu-id="4d391-128">ตั้งค่าลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย</span><span class="sxs-lookup"><span data-stu-id="4d391-128">Configure the link for the privacy and policy page</span></span>
 
-<span data-ttu-id="c856f-129">เมื่อต้องการตั้งค่าลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="c856f-129">To configure the link for the privacy and policy page, follow these steps.</span></span>
+<span data-ttu-id="4d391-129">เมื่อต้องการตั้งค่าลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย ให้ทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="4d391-129">To configure the link for the privacy and policy page, follow these steps.</span></span>
 
-1. <span data-ttu-id="c856f-130">ไปที่ **หน้าหลัก \> ไซต์**</span><span class="sxs-lookup"><span data-stu-id="c856f-130">Go to **Home \> Sites**.</span></span>
-1. <span data-ttu-id="c856f-131">เลือกชื่อไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="c856f-131">Select the name of your site.</span></span> 
-1. <span data-ttu-id="c856f-132">ไปที่ **การตั้งค่าไซต์\> ส่วนขยาย**</span><span class="sxs-lookup"><span data-stu-id="c856f-132">Go to **Site settings \> Extensions**.</span></span>
-1. <span data-ttu-id="c856f-133">บนแท็บ **เส้นทาง** ภายใต้ **ความเป็นส่วนตัวและนโยบาย RNR** ให้เลือก **เพิ่มลิงก์**</span><span class="sxs-lookup"><span data-stu-id="c856f-133">On the **Routes** tab, under **RNR Privacy and Policy**, select **Add a link**.</span></span> <span data-ttu-id="c856f-134">ถ้าลิงก์ลิงก์หนึ่งถูกป้อนไว้แล้ว และคุณต้องการแทนที่ ให้เลือกลิงก์นั้น</span><span class="sxs-lookup"><span data-stu-id="c856f-134">If a link is already entered, and you want to replace it, select the link.</span></span> 
-1. <span data-ttu-id="c856f-135">ในกล่องโต้ตอบ **เพิ่มลิงก์** ให้เลือกลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="c856f-135">In the **Add a link** dialog box, select the link for the privacy and policy page, and then select **OK**.</span></span> 
-1. <span data-ttu-id="c856f-136">เลือก **บันทึกและเผยแพร่**</span><span class="sxs-lookup"><span data-stu-id="c856f-136">Select **Save and Publish**.</span></span> 
+1. <span data-ttu-id="4d391-130">ไปที่ **หน้าหลัก \> ไซต์**</span><span class="sxs-lookup"><span data-stu-id="4d391-130">Go to **Home \> Sites**.</span></span>
+1. <span data-ttu-id="4d391-131">เลือกชื่อไซต์ของคุณ</span><span class="sxs-lookup"><span data-stu-id="4d391-131">Select the name of your site.</span></span> 
+1. <span data-ttu-id="4d391-132">ไปที่ **การตั้งค่าไซต์\> ส่วนขยาย**</span><span class="sxs-lookup"><span data-stu-id="4d391-132">Go to **Site settings \> Extensions**.</span></span>
+1. <span data-ttu-id="4d391-133">บนแท็บ **เส้นทาง** ภายใต้ **ความเป็นส่วนตัวและนโยบาย RNR** ให้เลือก **เพิ่มลิงก์**</span><span class="sxs-lookup"><span data-stu-id="4d391-133">On the **Routes** tab, under **RNR Privacy and Policy**, select **Add a link**.</span></span> <span data-ttu-id="4d391-134">ถ้าลิงก์ลิงก์หนึ่งถูกป้อนไว้แล้ว และคุณต้องการแทนที่ ให้เลือกลิงก์นั้น</span><span class="sxs-lookup"><span data-stu-id="4d391-134">If a link is already entered, and you want to replace it, select the link.</span></span> 
+1. <span data-ttu-id="4d391-135">ในกล่องโต้ตอบ **เพิ่มลิงก์** ให้เลือกลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย แล้วเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="4d391-135">In the **Add a link** dialog box, select the link for the privacy and policy page, and then select **OK**.</span></span> 
+1. <span data-ttu-id="4d391-136">เลือก **บันทึกและเผยแพร่**</span><span class="sxs-lookup"><span data-stu-id="4d391-136">Select **Save and Publish**.</span></span> 
 
-<span data-ttu-id="c856f-137">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="c856f-137">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="4d391-137">ภาพประกอบต่อไปนี้แสดงว่าการตั้งค่าเป็นอย่างไรใน Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4d391-137">The following illustration shows what this configuration looks like in Dynamics 365 Commerce.</span></span>
 
 ![การตั้งค่าลิงก์สำหรับหน้าความเป็นส่วนตัวและนโยบาย](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
-## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a><span data-ttu-id="c856f-139">ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c856f-139">Configure ratings and reviews modules on product details pages</span></span>
+## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a><span data-ttu-id="4d391-139">ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4d391-139">Configure ratings and reviews modules on product details pages</span></span>
 
-<span data-ttu-id="c856f-140">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์ โปรดดูที่ [โมดูลการจัดอันดับและบทวิจารณ์](ratings-reviews-modules.md)</span><span class="sxs-lookup"><span data-stu-id="c856f-140">For information on configuring ratings and reviews modules on product details pages, see [Ratings and reviews modules](ratings-reviews-modules.md).</span></span>
+<span data-ttu-id="4d391-140">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์ โปรดดูที่ [โมดูลการจัดอันดับและบทวิจารณ์](ratings-reviews-modules.md)</span><span class="sxs-lookup"><span data-stu-id="4d391-140">For information on configuring ratings and reviews modules on product details pages, see [Ratings and reviews modules](ratings-reviews-modules.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c856f-141">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="c856f-141">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4d391-141">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="4d391-141">Additional resources</span></span>
 
-[<span data-ttu-id="c856f-142">ภาพรวมของการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="c856f-142">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
+[<span data-ttu-id="4d391-142">ภาพรวมของการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="4d391-142">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
 
-[<span data-ttu-id="c856f-143">เลือกที่จะใช้การให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="c856f-143">Opt in to use ratings and reviews</span></span>](opt-in-ratings-reviews.md)
+[<span data-ttu-id="4d391-143">เลือกที่จะใช้การให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="4d391-143">Opt in to use ratings and reviews</span></span>](opt-in-ratings-reviews.md)
 
-[<span data-ttu-id="c856f-144">จัดการการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="c856f-144">Manage ratings and reviews</span></span>](manage-reviews.md)
+[<span data-ttu-id="4d391-144">จัดการการให้คะแนนและบทวิจารณ์</span><span class="sxs-lookup"><span data-stu-id="4d391-144">Manage ratings and reviews</span></span>](manage-reviews.md)
 
-[<span data-ttu-id="c856f-145">ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c856f-145">Configure ratings and reviews modules on product details pages</span></span>](ratings-reviews-modules.md)
+[<span data-ttu-id="4d391-145">ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="4d391-145">Configure ratings and reviews modules on product details pages</span></span>](ratings-reviews-modules.md)
 
-[<span data-ttu-id="c856f-146">ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="c856f-146">Sync product ratings in Dynamics 365 Retail</span></span>](sync-product-ratings.md)
+[<span data-ttu-id="4d391-146">ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Retail</span><span class="sxs-lookup"><span data-stu-id="4d391-146">Sync product ratings in Dynamics 365 Retail</span></span>](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

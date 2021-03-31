@@ -17,67 +17,67 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 694f95e274dc068cba02a2a519c1ce3ed186eaf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 67807c53a6ffc6dd09cc6f0e48218e2ee2de559f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976774"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207786"
 ---
-# <a name="change-the-sort-order-for-merchandising-entities"></a><span data-ttu-id="cc765-103">เปลี่ยนลำดับการจัดเรียงสำหรับการจัดซื้อสินค้าเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="cc765-103">Change the sort order for merchandising entities</span></span>
+# <a name="change-the-sort-order-for-merchandising-entities"></a><span data-ttu-id="c75e5-103">เปลี่ยนลำดับการจัดเรียงสำหรับการจัดซื้อสินค้าเอนทิตี้</span><span class="sxs-lookup"><span data-stu-id="c75e5-103">Change the sort order for merchandising entities</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="cc765-104">ผู้ค้าปลีกพิจารณาการค้นพบผลิตภัณฑ์เป็นเครื่องมือหลักสำหรับการโต้ตอบกับลูกค้าในทุกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cc765-104">Retailers consider product discovery a primary tool for customer interaction across all channels.</span></span> <span data-ttu-id="cc765-105">ฟังก์ชันต่างๆสามารถช่วยลูกค้าในการค้นหาผลิตภัณฑ์ได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="cc765-105">Various functionality can help customers easily discover products.</span></span> <span data-ttu-id="cc765-106">ตัวอย่างเช่น ลูกค้าสามารถเรียกดูประเภท การค้นหา เเละตัวกรองข้อมูลได้</span><span class="sxs-lookup"><span data-stu-id="cc765-106">For example, they can browse categories, search, and filter.</span></span>
+<span data-ttu-id="c75e5-104">ผู้ค้าปลีกพิจารณาการค้นพบผลิตภัณฑ์เป็นเครื่องมือหลักสำหรับการโต้ตอบกับลูกค้าในทุกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="c75e5-104">Retailers consider product discovery a primary tool for customer interaction across all channels.</span></span> <span data-ttu-id="c75e5-105">ฟังก์ชันต่างๆสามารถช่วยลูกค้าในการค้นหาผลิตภัณฑ์ได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="c75e5-105">Various functionality can help customers easily discover products.</span></span> <span data-ttu-id="c75e5-106">ตัวอย่างเช่น ลูกค้าสามารถเรียกดูประเภท การค้นหา เเละตัวกรองข้อมูลได้</span><span class="sxs-lookup"><span data-stu-id="c75e5-106">For example, they can browse categories, search, and filter.</span></span>
 
-<span data-ttu-id="cc765-107">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับการควบคุมลำดับการแสดงผลสำหรับการจัดซื้อสินค้าที่เกี่ยวข้องกับเอนทิตี้อื่นๆใน</span><span class="sxs-lookup"><span data-stu-id="cc765-107">This topic explains the concepts that are related to controlling the display order for various merchandising-related entities.</span></span> <span data-ttu-id="cc765-108">นอกจากนี้ยังอธิบายวิธีการเปลี่ยนลำดับการเรียงลำดับ</span><span class="sxs-lookup"><span data-stu-id="cc765-108">It also explains how to change the sort order.</span></span>
+<span data-ttu-id="c75e5-107">หัวข้อนี้อธิบายแนวคิดที่เกี่ยวข้องกับการควบคุมลำดับการแสดงผลสำหรับการจัดซื้อสินค้าที่เกี่ยวข้องกับเอนทิตี้อื่นๆใน</span><span class="sxs-lookup"><span data-stu-id="c75e5-107">This topic explains the concepts that are related to controlling the display order for various merchandising-related entities.</span></span> <span data-ttu-id="c75e5-108">นอกจากนี้ยังอธิบายวิธีการเปลี่ยนลำดับการเรียงลำดับ</span><span class="sxs-lookup"><span data-stu-id="c75e5-108">It also explains how to change the sort order.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="cc765-109">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="cc765-109">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="c75e5-109">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="c75e5-109">Overview</span></span>
 
-<span data-ttu-id="cc765-110">การสนับสนุนสำหรับการเรียงลำดับเอนทิตี้ที่เกี่ยวข้องกับการจัดซื้อสินค้าที่หลายรายการได้รับการปรับปรุงแล้ว</span><span class="sxs-lookup"><span data-stu-id="cc765-110">The support for sorting various merchandising-related entities has been enhanced.</span></span> <span data-ttu-id="cc765-111">ขณะนี้การสนับสนุนนี้มีความสอดคล้องดีขึ้นกับสถานการณ์จำลองของลูกค้าที่มีอยู่ซึ่งเป็นส่วนขยายที่จำเป็นก่อนหน้านี้สำหรับการใช้งานของคู่ค้า</span><span class="sxs-lookup"><span data-stu-id="cc765-111">This support is now better aligned with existing customer scenarios that previously required extensions from implementation partners.</span></span>
+<span data-ttu-id="c75e5-110">การสนับสนุนสำหรับการเรียงลำดับเอนทิตี้ที่เกี่ยวข้องกับการจัดซื้อสินค้าที่หลายรายการได้รับการปรับปรุงแล้ว</span><span class="sxs-lookup"><span data-stu-id="c75e5-110">The support for sorting various merchandising-related entities has been enhanced.</span></span> <span data-ttu-id="c75e5-111">ขณะนี้การสนับสนุนนี้มีความสอดคล้องดีขึ้นกับสถานการณ์จำลองของลูกค้าที่มีอยู่ซึ่งเป็นส่วนขยายที่จำเป็นก่อนหน้านี้สำหรับการใช้งานของคู่ค้า</span><span class="sxs-lookup"><span data-stu-id="c75e5-111">This support is now better aligned with existing customer scenarios that previously required extensions from implementation partners.</span></span>
 
-<span data-ttu-id="cc765-112">ในรุ่น Retail ที่เก่ากว่ารุ่น 10.0.5 การจัดเรียงลำดับสำหรับประเภทในลำดับชั้นการนำทางจะจัดลำดับตามลำดับตัวอักษร</span><span class="sxs-lookup"><span data-stu-id="cc765-112">In versions of Retail that are earlier than version 10.0.5, the sort order for categories in the navigation hierarchy was alphabetical.</span></span> <span data-ttu-id="cc765-113">ฟังก์ชันลำดับการเรียงใหม่แบบกำหนดเองช่วยให้ผู้จัดการฝ่ายจัดซื้อการจัดโครงแบบการเรียงสำหรับเอนทิตี้ที่เกี่ยวข้องกับการจัดซื้อสินค้าต่างๆไปยังไคลเอนต์ผู้ใช้ปลายทาง</span><span class="sxs-lookup"><span data-stu-id="cc765-113">The new custom sort order functionality lets merchandising managers configure the sort order for various merchandising-related entities across all end-user clients.</span></span> <span data-ttu-id="cc765-114">ไคลเอนต์เหล่านี้รวมถึงสำนักงานใหญ่ (HQ) และศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="cc765-114">These clients include headquarters (HQ) and call centers.</span></span>
+<span data-ttu-id="c75e5-112">ในรุ่น Retail ที่เก่ากว่ารุ่น 10.0.5 การจัดเรียงลำดับสำหรับประเภทในลำดับชั้นการนำทางจะจัดลำดับตามลำดับตัวอักษร</span><span class="sxs-lookup"><span data-stu-id="c75e5-112">In versions of Retail that are earlier than version 10.0.5, the sort order for categories in the navigation hierarchy was alphabetical.</span></span> <span data-ttu-id="c75e5-113">ฟังก์ชันลำดับการเรียงใหม่แบบกำหนดเองช่วยให้ผู้จัดการฝ่ายจัดซื้อการจัดโครงแบบการเรียงสำหรับเอนทิตี้ที่เกี่ยวข้องกับการจัดซื้อสินค้าต่างๆไปยังไคลเอนต์ผู้ใช้ปลายทาง</span><span class="sxs-lookup"><span data-stu-id="c75e5-113">The new custom sort order functionality lets merchandising managers configure the sort order for various merchandising-related entities across all end-user clients.</span></span> <span data-ttu-id="c75e5-114">ไคลเอนต์เหล่านี้รวมถึงสำนักงานใหญ่ (HQ) และศูนย์บริการ</span><span class="sxs-lookup"><span data-stu-id="c75e5-114">These clients include headquarters (HQ) and call centers.</span></span>
 
-## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a><span data-ttu-id="cc765-115">กำหนดค่าลำดับการแสดงผลสำหรับประเภทในลำดับชั้นผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="cc765-115">Configure the display order for categories in the product hierarchy</span></span>
+## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a><span data-ttu-id="c75e5-115">กำหนดค่าลำดับการแสดงผลสำหรับประเภทในลำดับชั้นผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c75e5-115">Configure the display order for categories in the product hierarchy</span></span>
 
-<span data-ttu-id="cc765-116">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ได้ ข้อมูลสาธิตต้องถูกติดตั้งในสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="cc765-116">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
+<span data-ttu-id="c75e5-116">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ได้ ข้อมูลสาธิตต้องถูกติดตั้งในสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="c75e5-116">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
 
-1. <span data-ttu-id="cc765-117">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ลำดับชั้นผลิตภัณฑ์เชิงพาณิชย์**</span><span class="sxs-lookup"><span data-stu-id="cc765-117">Go to **Retail and Commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
-2. <span data-ttu-id="cc765-118">คลิก **แก้ไขการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="cc765-118">Click **Edit category hierarchy**.</span></span>
-3. <span data-ttu-id="cc765-119">คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="cc765-119">Click **Edit**.</span></span>
-4. <span data-ttu-id="cc765-120">ในเเผนภูมิ ขยาย **ALL \> Action Sports**</span><span class="sxs-lookup"><span data-stu-id="cc765-120">In the tree, expand **ALL \> Action Sports**.</span></span>
-5. <span data-ttu-id="cc765-121">ในเเผนภูมิ ขยาย **ALL \> Team Sports**</span><span class="sxs-lookup"><span data-stu-id="cc765-121">In the tree, expand **ALL \> Team Sports**.</span></span>
-6. <span data-ttu-id="cc765-122">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cc765-122">In the **Display order** field, enter a number.</span></span> <span data-ttu-id="cc765-123">(ตัวเลขสามารถเป็นค่าลบ)</span><span class="sxs-lookup"><span data-stu-id="cc765-123">(The number can be negative.)</span></span>
-7. <span data-ttu-id="cc765-124">ทำซ้ำขั้นตอนที่4ถึง6สำหรับประเภทเพิ่มเติมใดๆที่คุณต้องการเปลี่ยนแปลงลำดับ</span><span class="sxs-lookup"><span data-stu-id="cc765-124">Repeat steps 4 through 6 for any additional categories that you want to change the order of.</span></span>
+1. <span data-ttu-id="c75e5-117">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ลำดับชั้นผลิตภัณฑ์เชิงพาณิชย์**</span><span class="sxs-lookup"><span data-stu-id="c75e5-117">Go to **Retail and Commerce \> Products and categories \> Commerce product hierarchy**.</span></span>
+2. <span data-ttu-id="c75e5-118">คลิก **แก้ไขการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="c75e5-118">Click **Edit category hierarchy**.</span></span>
+3. <span data-ttu-id="c75e5-119">คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="c75e5-119">Click **Edit**.</span></span>
+4. <span data-ttu-id="c75e5-120">ในเเผนภูมิ ขยาย **ALL \> Action Sports**</span><span class="sxs-lookup"><span data-stu-id="c75e5-120">In the tree, expand **ALL \> Action Sports**.</span></span>
+5. <span data-ttu-id="c75e5-121">ในเเผนภูมิ ขยาย **ALL \> Team Sports**</span><span class="sxs-lookup"><span data-stu-id="c75e5-121">In the tree, expand **ALL \> Team Sports**.</span></span>
+6. <span data-ttu-id="c75e5-122">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c75e5-122">In the **Display order** field, enter a number.</span></span> <span data-ttu-id="c75e5-123">(ตัวเลขสามารถเป็นค่าลบ)</span><span class="sxs-lookup"><span data-stu-id="c75e5-123">(The number can be negative.)</span></span>
+7. <span data-ttu-id="c75e5-124">ทำซ้ำขั้นตอนที่4ถึง6สำหรับประเภทเพิ่มเติมใดๆที่คุณต้องการเปลี่ยนแปลงลำดับ</span><span class="sxs-lookup"><span data-stu-id="c75e5-124">Repeat steps 4 through 6 for any additional categories that you want to change the order of.</span></span>
 
-<span data-ttu-id="cc765-125">ลำดับการแสดงผลสำหรับลำดับชั้นการนำทางของช่องทางจะปรากฏใน HQ สำหรับลำดับชั้นของผลิตภัณฑ์เชิงพาณิชย์และผลิตภัณฑ์ที่วางจำหน่ายตามประเภท</span><span class="sxs-lookup"><span data-stu-id="cc765-125">The display order for the channel navigation hierarchy will be reflected in HQ for the commerce product hierarchy and released products by category.</span></span>
+<span data-ttu-id="c75e5-125">ลำดับการแสดงผลสำหรับลำดับชั้นการนำทางของช่องทางจะปรากฏใน HQ สำหรับลำดับชั้นของผลิตภัณฑ์เชิงพาณิชย์และผลิตภัณฑ์ที่วางจำหน่ายตามประเภท</span><span class="sxs-lookup"><span data-stu-id="c75e5-125">The display order for the channel navigation hierarchy will be reflected in HQ for the commerce product hierarchy and released products by category.</span></span>
 
 ![ลำดับชั้นผลิตภัณฑ์ที่กำหนดเองเรียงลำดับด้วยค่าลบ](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
 ![เปิดตัวผลิตภัณฑ์ตามประเภทที่กำหนดเองเรียงลำดับตามลำดับชั้นของผลิตภัณฑ์](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
-## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a><span data-ttu-id="cc765-128">ตั้งค่าคอนฟิกลำดับการแสดงผลสำหรับประเภทในลำดับชั้นของช่องทางการนำทาง</span><span class="sxs-lookup"><span data-stu-id="cc765-128">Configure the display order for categories in the channel navigation hierarchy</span></span>
+## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a><span data-ttu-id="c75e5-128">ตั้งค่าคอนฟิกลำดับการแสดงผลสำหรับประเภทในลำดับชั้นของช่องทางการนำทาง</span><span class="sxs-lookup"><span data-stu-id="c75e5-128">Configure the display order for categories in the channel navigation hierarchy</span></span>
 
-<span data-ttu-id="cc765-129">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ได้ ข้อมูลสาธิตต้องถูกติดตั้งในสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="cc765-129">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
+<span data-ttu-id="c75e5-129">ก่อนที่คุณจะสามารถทำกระบวนงานนี้ให้เสร็จสมบูรณ์ได้ ข้อมูลสาธิตต้องถูกติดตั้งในสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="c75e5-129">Before you can complete this procedure, demo data must be installed in your environment.</span></span>
 
-1. <span data-ttu-id="cc765-130">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทการนำทางของช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="cc765-130">Go to **Retail and Commerce \> Products and categories \> Channel navigation categories**.</span></span>
-2. <span data-ttu-id="cc765-131">ในรายการ เลือก **ลำดับชั้นการนำทางแฟชั่น** </span><span class="sxs-lookup"><span data-stu-id="cc765-131">In the list, select the **Fashion navigation** hierarchy.</span></span>
-3. <span data-ttu-id="cc765-132">คลิก **แก้ไขการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="cc765-132">Click **Edit category hierarchy**.</span></span>
-4. <span data-ttu-id="cc765-133">คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="cc765-133">Click **Edit**.</span></span>
-5. <span data-ttu-id="cc765-134">ในแผนภูมิ เลือก **Fashion \> Womenswear \> Womens Shoes**</span><span class="sxs-lookup"><span data-stu-id="cc765-134">In the tree, select **Fashion \> Womenswear \> Womens Shoes**.</span></span>
-6. <span data-ttu-id="cc765-135">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cc765-135">In the **Display order** field, enter a number.</span></span>
-7. <span data-ttu-id="cc765-136">ในแผนภูมิ เลือก **Fashion \> Womenswear \> Tops**</span><span class="sxs-lookup"><span data-stu-id="cc765-136">In the tree, select **Fashion \> Womenswear \> Tops**.</span></span>
+1. <span data-ttu-id="c75e5-130">ไปยัง **การขายปลีกและการค้า \> ผลิตภัณฑ์และประเภท \> ประเภทการนำทางของช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="c75e5-130">Go to **Retail and Commerce \> Products and categories \> Channel navigation categories**.</span></span>
+2. <span data-ttu-id="c75e5-131">ในรายการ เลือก **ลำดับชั้นการนำทางแฟชั่น** </span><span class="sxs-lookup"><span data-stu-id="c75e5-131">In the list, select the **Fashion navigation** hierarchy.</span></span>
+3. <span data-ttu-id="c75e5-132">คลิก **แก้ไขการจัดประเภทตามลำดับชั้น**</span><span class="sxs-lookup"><span data-stu-id="c75e5-132">Click **Edit category hierarchy**.</span></span>
+4. <span data-ttu-id="c75e5-133">คลิก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="c75e5-133">Click **Edit**.</span></span>
+5. <span data-ttu-id="c75e5-134">ในแผนภูมิ เลือก **Fashion \> Womenswear \> Womens Shoes**</span><span class="sxs-lookup"><span data-stu-id="c75e5-134">In the tree, select **Fashion \> Womenswear \> Womens Shoes**.</span></span>
+6. <span data-ttu-id="c75e5-135">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c75e5-135">In the **Display order** field, enter a number.</span></span>
+7. <span data-ttu-id="c75e5-136">ในแผนภูมิ เลือก **Fashion \> Womenswear \> Tops**</span><span class="sxs-lookup"><span data-stu-id="c75e5-136">In the tree, select **Fashion \> Womenswear \> Tops**.</span></span>
 
-    <span data-ttu-id="cc765-137">เช่นเดียวกัน คุณยังสามารถกำหนดลำดับการจัดเรียงสำหรับประเภทย่อยได้</span><span class="sxs-lookup"><span data-stu-id="cc765-137">Likewise, you can define the sort order for the sub-categories.</span></span>
+    <span data-ttu-id="c75e5-137">เช่นเดียวกัน คุณยังสามารถกำหนดลำดับการจัดเรียงสำหรับประเภทย่อยได้</span><span class="sxs-lookup"><span data-stu-id="c75e5-137">Likewise, you can define the sort order for the sub-categories.</span></span>
 
-8. <span data-ttu-id="cc765-138">ในแผนภูมิ เลือก **Fashion \> Menswear \> Womens Shoes**</span><span class="sxs-lookup"><span data-stu-id="cc765-138">In the tree, select **Fashion \> Menswear \> Casual Shirts**.</span></span>
-9. <span data-ttu-id="cc765-139">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cc765-139">In the **Display order** field, enter a number.</span></span>
-10. <span data-ttu-id="cc765-140">ในแผนภูมิ เลือก **Fashion \> Menswear \> Coats & Jackets**</span><span class="sxs-lookup"><span data-stu-id="cc765-140">In the tree, select **Fashion \> Menswear \> Coats & Jackets**.</span></span>
-11. <span data-ttu-id="cc765-141">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="cc765-141">In the **Display order** field, enter a number.</span></span>
-12. <span data-ttu-id="cc765-142">ทำซ้ำสำหรับประเภทเพิ่มเติมใดๆที่คุณต้องการเปลี่ยนแปลงลำดับ</span><span class="sxs-lookup"><span data-stu-id="cc765-142">Repeat for any additional categories that you want to change the order of.</span></span>
+8. <span data-ttu-id="c75e5-138">ในแผนภูมิ เลือก **Fashion \> Menswear \> Womens Shoes**</span><span class="sxs-lookup"><span data-stu-id="c75e5-138">In the tree, select **Fashion \> Menswear \> Casual Shirts**.</span></span>
+9. <span data-ttu-id="c75e5-139">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c75e5-139">In the **Display order** field, enter a number.</span></span>
+10. <span data-ttu-id="c75e5-140">ในแผนภูมิ เลือก **Fashion \> Menswear \> Coats & Jackets**</span><span class="sxs-lookup"><span data-stu-id="c75e5-140">In the tree, select **Fashion \> Menswear \> Coats & Jackets**.</span></span>
+11. <span data-ttu-id="c75e5-141">ในฟิลด์ **ลำดับการเเสดงผล** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c75e5-141">In the **Display order** field, enter a number.</span></span>
+12. <span data-ttu-id="c75e5-142">ทำซ้ำสำหรับประเภทเพิ่มเติมใดๆที่คุณต้องการเปลี่ยนแปลงลำดับ</span><span class="sxs-lookup"><span data-stu-id="c75e5-142">Repeat for any additional categories that you want to change the order of.</span></span>
 
-<span data-ttu-id="cc765-143">ลำดับการแสดงผลสำหรับลำดับชั้นการนำทางของช่องทางปรากฏใน HQ แค็ตตาล็อก และช่องทาง</span><span class="sxs-lookup"><span data-stu-id="cc765-143">The display order for the channel navigation hierarchy is reflected in HQ, catalog, and channels.</span></span>
+<span data-ttu-id="c75e5-143">ลำดับการแสดงผลสำหรับลำดับชั้นการนำทางของช่องทางปรากฏใน HQ แค็ตตาล็อก และช่องทาง</span><span class="sxs-lookup"><span data-stu-id="c75e5-143">The display order for the channel navigation hierarchy is reflected in HQ, catalog, and channels.</span></span>
 
 ![ลำดับชั้นการนำทางของช่องทางเเบบกำหนดเองตามลำดับ](./media/ChannelNavCustomSorted.png)
 
@@ -86,4 +86,7 @@ ms.locfileid: "4976774"
 ![POS ที่มีประเภทการเรียงลำดับแบบกำหนดเอง](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> <span data-ttu-id="cc765-147">ตามค่าเริ่มต้น คุณลักษณะการเรียงลำดับเเบบกำหนดเองจะถูกปิด</span><span class="sxs-lookup"><span data-stu-id="cc765-147">By default the custom sort order feature is turned off.</span></span> <span data-ttu-id="cc765-148">เมื่อต้องการเรียนรู้วิธีการเปิดใช้งานลักษณะ เเละคุณลักษณะอื่นๆ ดูที่ [การจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)</span><span class="sxs-lookup"><span data-stu-id="cc765-148">To learn how to turn on this feature and other features, see [Feature management](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).</span></span>
+> <span data-ttu-id="c75e5-147">ตามค่าเริ่มต้น คุณลักษณะการเรียงลำดับเเบบกำหนดเองจะถูกปิด</span><span class="sxs-lookup"><span data-stu-id="c75e5-147">By default the custom sort order feature is turned off.</span></span> <span data-ttu-id="c75e5-148">เมื่อต้องการเรียนรู้วิธีการเปิดใช้งานลักษณะ เเละคุณลักษณะอื่นๆ ดูที่ [การจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)</span><span class="sxs-lookup"><span data-stu-id="c75e5-148">To learn how to turn on this feature and other features, see [Feature management](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

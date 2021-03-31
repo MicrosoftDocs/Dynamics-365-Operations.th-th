@@ -17,102 +17,102 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8d7e402614b35a77a0283d31377a073b0a6b357
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7be9be728a6515bb1fc1c9bc90938a3d33ea8da8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990200"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204965"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="d468b-103">การชำระภาษีขายและกฎการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="d468b-103">Sales tax payments and rounding rules</span></span>
+# <a name="sales-tax-payments-and-rounding-rules"></a><span data-ttu-id="9c688-103">การชำระภาษีขายและกฎการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="9c688-103">Sales tax payments and rounding rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d468b-104">บทความนี้อธิบายวิธีการตั้งค่ากฎการปัดเศษการในการทำงานของหน่วยงานจัดเก็บภาษีขายและการปัดเศษภาษีขายยอดดุลในระหว่างงานและลงรายการบัญชีการชำระภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
+<span data-ttu-id="9c688-104">บทความนี้อธิบายวิธีการตั้งค่ากฎการปัดเศษการในการทำงานของหน่วยงานจัดเก็บภาษีขายและการปัดเศษภาษีขายยอดดุลในระหว่างงานและลงรายการบัญชีการชำระภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-104">This article explains how the rounding rule setup on the Sales tax authorities works and rounding the sales tax balance during the Settle and post sales tax job.</span></span>
 
-<span data-ttu-id="d468b-105">ภาษีขายจำเป็นต้องมีรายงานและมีการชำระให้กับหน่วยจัดเก็บภาษีเป็นงวดๆ</span><span class="sxs-lookup"><span data-stu-id="d468b-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="d468b-106">การดำเนินการนี้สามารถทำได้โดยการดำเนินการชำระและลงรายการบัญชีกระบวนการภาษีขายในหน้าภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="d468b-107">ภาษีขายสำหรับรอบระยะเวลาจะถูกจับคู่กับบัญชีภาษีขาย และยอดดุลภาษีขายจะถูกลงรายการบัญชีการชำระเงินภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="d468b-108">ยอดดุลภาษีขายซึ่งมีการลงรายการญชีการชำระภาษีขาย สามารถถูกปัดเศษตามความจำเป็นโดยหน่วยงานจัดเก็บภาษีด้วยการตั้งค่ากฎการปัดเศษในหน้าภาษีขายได้</span><span class="sxs-lookup"><span data-stu-id="d468b-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
+<span data-ttu-id="9c688-105">ภาษีขายจำเป็นต้องมีรายงานและมีการชำระให้กับหน่วยจัดเก็บภาษีเป็นงวดๆ</span><span class="sxs-lookup"><span data-stu-id="9c688-105">Periodically, sales tax needs to be reported and paid to tax authorities.</span></span> <span data-ttu-id="9c688-106">การดำเนินการนี้สามารถทำได้โดยการดำเนินการชำระและลงรายการบัญชีกระบวนการภาษีขายในหน้าภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-106">This can be done by running the settle and post sales tax process in the Sales tax page.</span></span> <span data-ttu-id="9c688-107">ภาษีขายสำหรับรอบระยะเวลาจะถูกจับคู่กับบัญชีภาษีขาย และยอดดุลภาษีขายจะถูกลงรายการบัญชีการชำระเงินภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-107">Sales tax for a period will be settled against the sales tax accounts and the sales tax balance will be posted to the Sales tax settlement account.</span></span> <span data-ttu-id="9c688-108">ยอดดุลภาษีขายซึ่งมีการลงรายการญชีการชำระภาษีขาย สามารถถูกปัดเศษตามความจำเป็นโดยหน่วยงานจัดเก็บภาษีด้วยการตั้งค่ากฎการปัดเศษในหน้าภาษีขายได้</span><span class="sxs-lookup"><span data-stu-id="9c688-108">The sales tax balance, which is posted on the Sales tax settlement account, can be rounded as required by tax authorities by setting up a rounding rule on the Sales tax page.</span></span> 
 
-<span data-ttu-id="d468b-109">ผลต่างการปัดเศษถูกลงรายการบัญชีไปยังบัญชีการปัดเศษภาษีขาย ที่ถูกเลือกในบัญชีฟิลด์ธุรกรรมอัตโนมัติในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="d468b-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
+<span data-ttu-id="9c688-109">ผลต่างการปัดเศษถูกลงรายการบัญชีไปยังบัญชีการปัดเศษภาษีขาย ที่ถูกเลือกในบัญชีฟิลด์ธุรกรรมอัตโนมัติในบัญชีแยกประเภททั่วไป</span><span class="sxs-lookup"><span data-stu-id="9c688-109">The rounding difference is posted to the Sales tax rounding account that is selected in the Accounts for automatic transactions field in the General ledger.</span></span>
 
-<span data-ttu-id="d468b-110">ในตัวอย่างด้านล่างนี้แสดงให้เห็นถึงวิธีการทำงานของกฎการปัดเศษในหน่วยงานจัดเก็บภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
+<span data-ttu-id="9c688-110">ในตัวอย่างด้านล่างนี้แสดงให้เห็นถึงวิธีการทำงานของกฎการปัดเศษในหน่วยงานจัดเก็บภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-110">The below example illustrates how the rounding rule on Sales tax authority works.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="d468b-111">ตัวอย่างเช่น</span><span class="sxs-lookup"><span data-stu-id="d468b-111">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="9c688-111">ตัวอย่างเช่น</span><span class="sxs-lookup"><span data-stu-id="9c688-111">Examples</span></span>
 
-<span data-ttu-id="d468b-112">ภาษีขายรวมสำหรับรอบระยะเวลาแสดงยอดดุลเครดิตเป็น -98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="d468b-113">นิติบุคคลรวบรวมภาษีขายได้มากกว่าที่ได้ชำระไป</span><span class="sxs-lookup"><span data-stu-id="d468b-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="d468b-114">ดังนั้น นิติบุคคลค้างชำระเงินหน่วยงานจัดเก็บภาษี</span><span class="sxs-lookup"><span data-stu-id="d468b-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
+<span data-ttu-id="9c688-112">ภาษีขายรวมสำหรับรอบระยะเวลาแสดงยอดดุลเครดิตเป็น -98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-112">The total sales tax for a period shows a credit balance of -98,765.43.</span></span> <span data-ttu-id="9c688-113">นิติบุคคลรวบรวมภาษีขายได้มากกว่าที่ได้ชำระไป</span><span class="sxs-lookup"><span data-stu-id="9c688-113">The legal entity collected more sales taxes than it paid.</span></span> <span data-ttu-id="9c688-114">ดังนั้น นิติบุคคลค้างชำระเงินหน่วยงานจัดเก็บภาษี</span><span class="sxs-lookup"><span data-stu-id="9c688-114">Therefore, the legal entity owes money to the tax authority.</span></span> 
 
-<span data-ttu-id="d468b-115">นิติบุคคลต้องการใช้วิธีการปัดเศษซึ่งจะปัดเศษยอดดุลลงให้ใกล้เคียงกับ 1.00 มากที่สุด</span><span class="sxs-lookup"><span data-stu-id="d468b-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="d468b-116">พนักงานผู้รับผิดชอบการลงบัญชีภาษีขายต้องดำเนินการขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="d468b-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
+<span data-ttu-id="9c688-115">นิติบุคคลต้องการใช้วิธีการปัดเศษซึ่งจะปัดเศษยอดดุลลงให้ใกล้เคียงกับ 1.00 มากที่สุด</span><span class="sxs-lookup"><span data-stu-id="9c688-115">The legal entity wants to use a rounding method that rounds the balance to the nearest 1.00.</span></span> <span data-ttu-id="9c688-116">พนักงานผู้รับผิดชอบการลงบัญชีภาษีขายต้องดำเนินการขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="9c688-116">The user who is responsible for sales tax accounting performs the following steps.</span></span>
 
-1. <span data-ttu-id="d468b-117">คลิก **ภาษี** > **ภาษีทางอ้อม** > **ภาษีขาย** > **หน่วยงานจัดเก็บภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="d468b-117">Click **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax authorities**.</span></span>
-2. <span data-ttu-id="d468b-118">บน FastTab **ทั่วไป** เลือกฟิลด์ **ฟอร์มการปัดเศษ** เลือก **ปกติ**</span><span class="sxs-lookup"><span data-stu-id="d468b-118">On the **General** FastTab, in the **Rounding form** field, select **Normal**.</span></span>
-3. <span data-ttu-id="d468b-119">ในฟิลด์ **ปัดเศษ** ให้ป้อน 1.00</span><span class="sxs-lookup"><span data-stu-id="d468b-119">In the **Round-off** field, enter 1.00.</span></span>
-4. <span data-ttu-id="d468b-120">เมื่อถึงเวลาชำระภาษีขายให้แก่หน่วยงานจัดเก็บภาษี ไปที่ **ภาษี** > **ประกาศต่างๆ** > **ภาษีขาย** > **ชำระและลงรายการบัญชีภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="d468b-120">When it is time to pay the sales taxes to the tax authority, go to **Tax** > **Declarations** > **Sales tax** > **Settle and post sale tax**.</span></span> <span data-ttu-id="d468b-121">ในบัญชีการชำระภาษีขาย คุณสามารถดูว่ายอดภาระภาษีจำนวน **98,765.43** ถูกปัดเศษเป็น **98,765**</span><span class="sxs-lookup"><span data-stu-id="d468b-121">On the sales tax settlement account, you can see that the tax liability amount of **98,765.43** is rounded to **98,765**.</span></span>
+1. <span data-ttu-id="9c688-117">คลิก **ภาษี** > **ภาษีทางอ้อม** > **ภาษีขาย** > **หน่วยงานจัดเก็บภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="9c688-117">Click **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax authorities**.</span></span>
+2. <span data-ttu-id="9c688-118">บน FastTab **ทั่วไป** เลือกฟิลด์ **ฟอร์มการปัดเศษ** เลือก **ปกติ**</span><span class="sxs-lookup"><span data-stu-id="9c688-118">On the **General** FastTab, in the **Rounding form** field, select **Normal**.</span></span>
+3. <span data-ttu-id="9c688-119">ในฟิลด์ **ปัดเศษ** ให้ป้อน 1.00</span><span class="sxs-lookup"><span data-stu-id="9c688-119">In the **Round-off** field, enter 1.00.</span></span>
+4. <span data-ttu-id="9c688-120">เมื่อถึงเวลาชำระภาษีขายให้แก่หน่วยงานจัดเก็บภาษี ไปที่ **ภาษี** > **ประกาศต่างๆ** > **ภาษีขาย** > **ชำระและลงรายการบัญชีภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="9c688-120">When it is time to pay the sales taxes to the tax authority, go to **Tax** > **Declarations** > **Sales tax** > **Settle and post sale tax**.</span></span> <span data-ttu-id="9c688-121">ในบัญชีการชำระภาษีขาย คุณสามารถดูว่ายอดภาระภาษีจำนวน **98,765.43** ถูกปัดเศษเป็น **98,765**</span><span class="sxs-lookup"><span data-stu-id="9c688-121">On the sales tax settlement account, you can see that the tax liability amount of **98,765.43** is rounded to **98,765**.</span></span>
 
-<span data-ttu-id="d468b-122">ตารางต่อไปนี้แสดงวิธีการปัดเศษจำนวน 98,765.43 โดยใช้วิธีการปัดเศษแต่ละวิธีที่พร้อมใช้งานในฟิลด์ **ฟอร์มการปัดเศษ** ในหน้าของ **หน่วยงานจัดเก็บภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="d468b-122">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the **Rounding form** field in the **Sales tax authorities** page.</span></span>
+<span data-ttu-id="9c688-122">ตารางต่อไปนี้แสดงวิธีการปัดเศษจำนวน 98,765.43 โดยใช้วิธีการปัดเศษแต่ละวิธีที่พร้อมใช้งานในฟิลด์ **ฟอร์มการปัดเศษ** ในหน้าของ **หน่วยงานจัดเก็บภาษีขาย**</span><span class="sxs-lookup"><span data-stu-id="9c688-122">The following table shows how an amount of 98,765.43 is rounded by using each rounding method that is available in the **Rounding form** field in the **Sales tax authorities** page.</span></span>
 
 > [!NOTE]                                                                                  
-> <span data-ttu-id="d468b-123">ถ้ามีการตั้งค่าการปัดเศษเป็น 0.00 จากนั้น:</span><span class="sxs-lookup"><span data-stu-id="d468b-123">If the round-off value is set as 0.00, then:</span></span>
+> <span data-ttu-id="9c688-123">ถ้ามีการตั้งค่าการปัดเศษเป็น 0.00 จากนั้น:</span><span class="sxs-lookup"><span data-stu-id="9c688-123">If the round-off value is set as 0.00, then:</span></span>
 >
-> - <span data-ttu-id="d468b-124">สำหรับการปัดเศษปกติ ลักษณะการปัดเศษจะเหมือนกันสำหรับ **การปัดเศษ = 0.01**</span><span class="sxs-lookup"><span data-stu-id="d468b-124">For normal rounding, the rounding behavior is the same as for **Round-off = 0.01**.</span></span>
-> - <span data-ttu-id="d468b-125">สำหรับ **ตัวเลือกฟอร์มการปัดเศษ** **ลงข้างล่าง** **การปัดเศษขึ้น** และ **ผลประโยชน์ของตนเอง** ลักษณะการทำงานจะเหมือนกันสำหรับ **การปัดเศษ = 1.00**</span><span class="sxs-lookup"><span data-stu-id="d468b-125">For the **Rounding form options**, **Downward**, **Rounding-up**, and **Own advantage**, the behavior is the same as for **Round-off = 1.00**.</span></span>
+> - <span data-ttu-id="9c688-124">สำหรับการปัดเศษปกติ ลักษณะการปัดเศษจะเหมือนกันสำหรับ **การปัดเศษ = 0.01**</span><span class="sxs-lookup"><span data-stu-id="9c688-124">For normal rounding, the rounding behavior is the same as for **Round-off = 0.01**.</span></span>
+> - <span data-ttu-id="9c688-125">สำหรับ **ตัวเลือกฟอร์มการปัดเศษ** **ลงข้างล่าง** **การปัดเศษขึ้น** และ **ผลประโยชน์ของตนเอง** ลักษณะการทำงานจะเหมือนกันสำหรับ **การปัดเศษ = 1.00**</span><span class="sxs-lookup"><span data-stu-id="9c688-125">For the **Rounding form options**, **Downward**, **Rounding-up**, and **Own advantage**, the behavior is the same as for **Round-off = 1.00**.</span></span>
 
-| <span data-ttu-id="d468b-126">ตัวเลือกแบบฟอร์มการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="d468b-126">Rounding form option</span></span>                | <span data-ttu-id="d468b-127">ค่าปัดเศษ = 0.01</span><span class="sxs-lookup"><span data-stu-id="d468b-127">Round-off value = 0.01</span></span> | <span data-ttu-id="d468b-128">ค่าปัดเศษ = 0.10</span><span class="sxs-lookup"><span data-stu-id="d468b-128">Round-off value = 0.10</span></span> | <span data-ttu-id="d468b-129">ค่าปัดเศษ = 1.00</span><span class="sxs-lookup"><span data-stu-id="d468b-129">Round-off value = 1.00</span></span> | <span data-ttu-id="d468b-130">ค่าปัดเศษ = 100.00</span><span class="sxs-lookup"><span data-stu-id="d468b-130">Round-off value = 100.00</span></span> | <span data-ttu-id="d468b-131">ค่าปัดเศษ = 0.00</span><span class="sxs-lookup"><span data-stu-id="d468b-131">Round-off value = 0.00</span></span>   |
+| <span data-ttu-id="9c688-126">ตัวเลือกแบบฟอร์มการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="9c688-126">Rounding form option</span></span>                | <span data-ttu-id="9c688-127">ค่าปัดเศษ = 0.01</span><span class="sxs-lookup"><span data-stu-id="9c688-127">Round-off value = 0.01</span></span> | <span data-ttu-id="9c688-128">ค่าปัดเศษ = 0.10</span><span class="sxs-lookup"><span data-stu-id="9c688-128">Round-off value = 0.10</span></span> | <span data-ttu-id="9c688-129">ค่าปัดเศษ = 1.00</span><span class="sxs-lookup"><span data-stu-id="9c688-129">Round-off value = 1.00</span></span> | <span data-ttu-id="9c688-130">ค่าปัดเศษ = 100.00</span><span class="sxs-lookup"><span data-stu-id="9c688-130">Round-off value = 100.00</span></span> | <span data-ttu-id="9c688-131">ค่าปัดเศษ = 0.00</span><span class="sxs-lookup"><span data-stu-id="9c688-131">Round-off value = 0.00</span></span>   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
-| <span data-ttu-id="d468b-132">ปกติ</span><span class="sxs-lookup"><span data-stu-id="d468b-132">Normal</span></span>                              | <span data-ttu-id="d468b-133">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-133">98,765.43</span></span>              | <span data-ttu-id="d468b-134">98,765.40</span><span class="sxs-lookup"><span data-stu-id="d468b-134">98,765.40</span></span>              | <span data-ttu-id="d468b-135">98,765.00</span><span class="sxs-lookup"><span data-stu-id="d468b-135">98,765.00</span></span>              | <span data-ttu-id="d468b-136">98,800.00</span><span class="sxs-lookup"><span data-stu-id="d468b-136">98,800.00</span></span>                | <span data-ttu-id="d468b-137">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-137">98,765.43</span></span>                |
-| <span data-ttu-id="d468b-138">ลงข้างล่าง</span><span class="sxs-lookup"><span data-stu-id="d468b-138">Downward</span></span>                            | <span data-ttu-id="d468b-139">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-139">98,765.43</span></span>              | <span data-ttu-id="d468b-140">98,765.40</span><span class="sxs-lookup"><span data-stu-id="d468b-140">98,765.40</span></span>              | <span data-ttu-id="d468b-141">98,765.00</span><span class="sxs-lookup"><span data-stu-id="d468b-141">98,765.00</span></span>              | <span data-ttu-id="d468b-142">98,700.00</span><span class="sxs-lookup"><span data-stu-id="d468b-142">98,700.00</span></span>                | <span data-ttu-id="d468b-143">98,765.00</span><span class="sxs-lookup"><span data-stu-id="d468b-143">98,765.00</span></span>                |
-| <span data-ttu-id="d468b-144">การปัดเศษขึ้น</span><span class="sxs-lookup"><span data-stu-id="d468b-144">Rounding-up</span></span>                         | <span data-ttu-id="d468b-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-145">98,765.43</span></span>              | <span data-ttu-id="d468b-146">98,765.50</span><span class="sxs-lookup"><span data-stu-id="d468b-146">98,765.50</span></span>              | <span data-ttu-id="d468b-147">98,766.00</span><span class="sxs-lookup"><span data-stu-id="d468b-147">98,766.00</span></span>              | <span data-ttu-id="d468b-148">98,800.00</span><span class="sxs-lookup"><span data-stu-id="d468b-148">98,800.00</span></span>                | <span data-ttu-id="d468b-149">98,766.00</span><span class="sxs-lookup"><span data-stu-id="d468b-149">98,766.00</span></span>                |
-| <span data-ttu-id="d468b-150">มีข้อได้เปรียบ สำหรับยอดดุลเครดิต</span><span class="sxs-lookup"><span data-stu-id="d468b-150">Own advantage, for a credit balance</span></span> | <span data-ttu-id="d468b-151">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-151">98,765.43</span></span>              | <span data-ttu-id="d468b-152">98,765.40</span><span class="sxs-lookup"><span data-stu-id="d468b-152">98,765.40</span></span>              | <span data-ttu-id="d468b-153">98,765.00</span><span class="sxs-lookup"><span data-stu-id="d468b-153">98,765.00</span></span>              | <span data-ttu-id="d468b-154">98,700.00</span><span class="sxs-lookup"><span data-stu-id="d468b-154">98,700.00</span></span>                | <span data-ttu-id="d468b-155">98,765.00</span><span class="sxs-lookup"><span data-stu-id="d468b-155">98,765.00</span></span>                |
-| <span data-ttu-id="d468b-156">มีข้อได้เปรียบ สำหรับยอดดุลเดบิต</span><span class="sxs-lookup"><span data-stu-id="d468b-156">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="d468b-157">98,765.43</span><span class="sxs-lookup"><span data-stu-id="d468b-157">98,765.43</span></span>              | <span data-ttu-id="d468b-158">98,765.50</span><span class="sxs-lookup"><span data-stu-id="d468b-158">98,765.50</span></span>              | <span data-ttu-id="d468b-159">98,766.00</span><span class="sxs-lookup"><span data-stu-id="d468b-159">98,766.00</span></span>              | <span data-ttu-id="d468b-160">98,800.00</span><span class="sxs-lookup"><span data-stu-id="d468b-160">98,800.00</span></span>                | <span data-ttu-id="d468b-161">98,766.00</span><span class="sxs-lookup"><span data-stu-id="d468b-161">98,766.00</span></span>                |
+| <span data-ttu-id="9c688-132">ปกติ</span><span class="sxs-lookup"><span data-stu-id="9c688-132">Normal</span></span>                              | <span data-ttu-id="9c688-133">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-133">98,765.43</span></span>              | <span data-ttu-id="9c688-134">98,765.40</span><span class="sxs-lookup"><span data-stu-id="9c688-134">98,765.40</span></span>              | <span data-ttu-id="9c688-135">98,765.00</span><span class="sxs-lookup"><span data-stu-id="9c688-135">98,765.00</span></span>              | <span data-ttu-id="9c688-136">98,800.00</span><span class="sxs-lookup"><span data-stu-id="9c688-136">98,800.00</span></span>                | <span data-ttu-id="9c688-137">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-137">98,765.43</span></span>                |
+| <span data-ttu-id="9c688-138">ลงข้างล่าง</span><span class="sxs-lookup"><span data-stu-id="9c688-138">Downward</span></span>                            | <span data-ttu-id="9c688-139">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-139">98,765.43</span></span>              | <span data-ttu-id="9c688-140">98,765.40</span><span class="sxs-lookup"><span data-stu-id="9c688-140">98,765.40</span></span>              | <span data-ttu-id="9c688-141">98,765.00</span><span class="sxs-lookup"><span data-stu-id="9c688-141">98,765.00</span></span>              | <span data-ttu-id="9c688-142">98,700.00</span><span class="sxs-lookup"><span data-stu-id="9c688-142">98,700.00</span></span>                | <span data-ttu-id="9c688-143">98,765.00</span><span class="sxs-lookup"><span data-stu-id="9c688-143">98,765.00</span></span>                |
+| <span data-ttu-id="9c688-144">การปัดเศษขึ้น</span><span class="sxs-lookup"><span data-stu-id="9c688-144">Rounding-up</span></span>                         | <span data-ttu-id="9c688-145">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-145">98,765.43</span></span>              | <span data-ttu-id="9c688-146">98,765.50</span><span class="sxs-lookup"><span data-stu-id="9c688-146">98,765.50</span></span>              | <span data-ttu-id="9c688-147">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9c688-147">98,766.00</span></span>              | <span data-ttu-id="9c688-148">98,800.00</span><span class="sxs-lookup"><span data-stu-id="9c688-148">98,800.00</span></span>                | <span data-ttu-id="9c688-149">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9c688-149">98,766.00</span></span>                |
+| <span data-ttu-id="9c688-150">มีข้อได้เปรียบ สำหรับยอดดุลเครดิต</span><span class="sxs-lookup"><span data-stu-id="9c688-150">Own advantage, for a credit balance</span></span> | <span data-ttu-id="9c688-151">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-151">98,765.43</span></span>              | <span data-ttu-id="9c688-152">98,765.40</span><span class="sxs-lookup"><span data-stu-id="9c688-152">98,765.40</span></span>              | <span data-ttu-id="9c688-153">98,765.00</span><span class="sxs-lookup"><span data-stu-id="9c688-153">98,765.00</span></span>              | <span data-ttu-id="9c688-154">98,700.00</span><span class="sxs-lookup"><span data-stu-id="9c688-154">98,700.00</span></span>                | <span data-ttu-id="9c688-155">98,765.00</span><span class="sxs-lookup"><span data-stu-id="9c688-155">98,765.00</span></span>                |
+| <span data-ttu-id="9c688-156">มีข้อได้เปรียบ สำหรับยอดดุลเดบิต</span><span class="sxs-lookup"><span data-stu-id="9c688-156">Own advantage, for a debit balance</span></span>  | <span data-ttu-id="9c688-157">98,765.43</span><span class="sxs-lookup"><span data-stu-id="9c688-157">98,765.43</span></span>              | <span data-ttu-id="9c688-158">98,765.50</span><span class="sxs-lookup"><span data-stu-id="9c688-158">98,765.50</span></span>              | <span data-ttu-id="9c688-159">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9c688-159">98,766.00</span></span>              | <span data-ttu-id="9c688-160">98,800.00</span><span class="sxs-lookup"><span data-stu-id="9c688-160">98,800.00</span></span>                | <span data-ttu-id="9c688-161">98,766.00</span><span class="sxs-lookup"><span data-stu-id="9c688-161">98,766.00</span></span>                |
 
-### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="d468b-162">การปัดเศษปกติ และความแม่นยำในการปัดเศษเป็น 0.01</span><span class="sxs-lookup"><span data-stu-id="d468b-162">Normal round, and round precision is 0.01</span></span>
+### <a name="normal-round-and-round-precision-is-001"></a><span data-ttu-id="9c688-162">การปัดเศษปกติ และความแม่นยำในการปัดเศษเป็น 0.01</span><span class="sxs-lookup"><span data-stu-id="9c688-162">Normal round, and round precision is 0.01</span></span>
 
 <table>
   <tr>
-    <td><span data-ttu-id="d468b-163">การปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="d468b-163">Rounding</span></span>
+    <td><span data-ttu-id="9c688-163">การปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="9c688-163">Rounding</span></span>
     </td>
-    <td><span data-ttu-id="d468b-164">กระบวนการในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="d468b-164">Calculation process</span></span>
+    <td><span data-ttu-id="9c688-164">กระบวนการในการคำนวณ</span><span class="sxs-lookup"><span data-stu-id="9c688-164">Calculation process</span></span>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="d468b-165">round(1.015, 0.01) = 1.02</span><span class="sxs-lookup"><span data-stu-id="d468b-165">round(1.015, 0.01) = 1.02</span></span>
+    <td><span data-ttu-id="9c688-165">round(1.015, 0.01) = 1.02</span><span class="sxs-lookup"><span data-stu-id="9c688-165">round(1.015, 0.01) = 1.02</span></span>
     </td>
     <td>
       <ol>
-        <li><span data-ttu-id="d468b-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="d468b-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
+        <li><span data-ttu-id="9c688-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span><span class="sxs-lookup"><span data-stu-id="9c688-166">round(1.015 / 0.01, 0) = round(101.5, 0) = 102</span></span>
         </li>
-        <li><span data-ttu-id="d468b-167">102 \* 0.01 = 1.02</span><span class="sxs-lookup"><span data-stu-id="d468b-167">102 \* 0.01 = 1.02</span></span>
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td><span data-ttu-id="d468b-168">round(1.014, 0.01) = 1.01</span><span class="sxs-lookup"><span data-stu-id="d468b-168">round(1.014, 0.01) = 1.01</span></span>
-    </td>
-    <td> <ol>
-        <li><span data-ttu-id="d468b-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="d468b-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
-        </li>
-        <li><span data-ttu-id="d468b-170">101 \* 0.01 = 1.01</span><span class="sxs-lookup"><span data-stu-id="d468b-170">101 \* 0.01 = 1.01</span></span>
+        <li><span data-ttu-id="9c688-167">102 \* 0.01 = 1.02</span><span class="sxs-lookup"><span data-stu-id="9c688-167">102 \* 0.01 = 1.02</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="d468b-171">round(1.011, 0.02) = 1.02</span><span class="sxs-lookup"><span data-stu-id="d468b-171">round(1.011, 0.02) = 1.02</span></span>
+    <td><span data-ttu-id="9c688-168">round(1.014, 0.01) = 1.01</span><span class="sxs-lookup"><span data-stu-id="9c688-168">round(1.014, 0.01) = 1.01</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="d468b-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="d468b-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
+        <li><span data-ttu-id="9c688-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span><span class="sxs-lookup"><span data-stu-id="9c688-169">round(1.014 / 0.01, 0) = round(101.4, 0) = 101</span></span>
         </li>
-        <li><span data-ttu-id="d468b-173">51 \* 0.02 = 1.02</span><span class="sxs-lookup"><span data-stu-id="d468b-173">51 \* 0.02 = 1.02</span></span>
+        <li><span data-ttu-id="9c688-170">101 \* 0.01 = 1.01</span><span class="sxs-lookup"><span data-stu-id="9c688-170">101 \* 0.01 = 1.01</span></span>
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td><span data-ttu-id="d468b-174">round(1.009, 0.02) = 1.00</span><span class="sxs-lookup"><span data-stu-id="d468b-174">round(1.009, 0.02) = 1.00</span></span>
+    <td><span data-ttu-id="9c688-171">round(1.011, 0.02) = 1.02</span><span class="sxs-lookup"><span data-stu-id="9c688-171">round(1.011, 0.02) = 1.02</span></span>
     </td>
     <td> <ol>
-        <li><span data-ttu-id="d468b-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="d468b-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        <li><span data-ttu-id="9c688-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span><span class="sxs-lookup"><span data-stu-id="9c688-172">round(1.011 / 0.02, 0) = round(50.55, 0) = 51</span></span>
         </li>
-        <li><span data-ttu-id="d468b-176">50 \* 0.02 = 1.00</span><span class="sxs-lookup"><span data-stu-id="d468b-176">50 \* 0.02 = 1.00</span></span>
+        <li><span data-ttu-id="9c688-173">51 \* 0.02 = 1.02</span><span class="sxs-lookup"><span data-stu-id="9c688-173">51 \* 0.02 = 1.02</span></span>
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td><span data-ttu-id="9c688-174">round(1.009, 0.02) = 1.00</span><span class="sxs-lookup"><span data-stu-id="9c688-174">round(1.009, 0.02) = 1.00</span></span>
+    </td>
+    <td> <ol>
+        <li><span data-ttu-id="9c688-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span><span class="sxs-lookup"><span data-stu-id="9c688-175">round(1.009 / 0.02, 0) = round(50.45, 0) = 50</span></span>
+        </li>
+        <li><span data-ttu-id="9c688-176">50 \* 0.02 = 1.00</span><span class="sxs-lookup"><span data-stu-id="9c688-176">50 \* 0.02 = 1.00</span></span>
         </li>
       </ol>
     </td>
@@ -120,13 +120,16 @@ ms.locfileid: "4990200"
 </table>
 
 > [!NOTE]                                                                                  
-> <span data-ttu-id="d468b-177">ถ้าคุณเลือกมีข้อได้เปรียบ การปัดเศษจะเป็นข้อได้เปรียบของนิติบุคคลเสมอ</span><span class="sxs-lookup"><span data-stu-id="d468b-177">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
+> <span data-ttu-id="9c688-177">ถ้าคุณเลือกมีข้อได้เปรียบ การปัดเศษจะเป็นข้อได้เปรียบของนิติบุคคลเสมอ</span><span class="sxs-lookup"><span data-stu-id="9c688-177">If you select Own advantage, the rounding is always to the advantage of the legal entity.</span></span> 
 
-<span data-ttu-id="d468b-178">สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="d468b-178">For more information, see the following topics:</span></span>
-- [<span data-ttu-id="d468b-179">ภาพรวมของภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-179">Sales tax overview</span></span>](indirect-taxes-overview.md)
-- [<span data-ttu-id="d468b-180">การสร้างการชำระเงินภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-180">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
-- [<span data-ttu-id="d468b-181">สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="d468b-181">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
-- [<span data-ttu-id="d468b-182">ดูธุรกรรมภาษีขายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="d468b-182">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
-- [<span data-ttu-id="d468b-183">ฟังก์ชันการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="d468b-183">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
+<span data-ttu-id="9c688-178">สำหรับข้อมูลเพิ่มเติม ให้ดูที่หัวข้อต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="9c688-178">For more information, see the following topics:</span></span>
+- [<span data-ttu-id="9c688-179">ภาพรวมของภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-179">Sales tax overview</span></span>](indirect-taxes-overview.md)
+- [<span data-ttu-id="9c688-180">การสร้างการชำระเงินภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-180">Create a sales tax payment</span></span>](tasks/create-sales-tax-payment.md)
+- [<span data-ttu-id="9c688-181">สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="9c688-181">Create sales tax transactions on documents</span></span>](tasks/create-sales-tax-transactions-documents.md)
+- [<span data-ttu-id="9c688-182">ดูธุรกรรมภาษีขายที่ลงรายการบัญชี</span><span class="sxs-lookup"><span data-stu-id="9c688-182">View posted sales tax transactions</span></span>](tasks/view-posted-sales-tax-transactions.md)
+- [<span data-ttu-id="9c688-183">ฟังก์ชันการปัดเศษ</span><span class="sxs-lookup"><span data-stu-id="9c688-183">round Function</span></span>](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

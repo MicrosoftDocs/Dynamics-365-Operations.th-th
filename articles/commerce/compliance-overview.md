@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ
-description: หัวข้อนี้เป็นภาพรวมของคำแนะนำการปฏิบัติตามกฎระเบียบ ที่ให้ไว้กับ Microsoft Dynamics 365 Commerce เพื่อช่วยให้คุณทำให้ไซต์ของบริษัทของคุณสอดคล้อง
+description: หัวข้อนี้เป็นภาพรวมของคำแนะนำการปฏิบัติตามกฎระเบียบที่ให้ไว้กับ Microsoft Dynamics 365 Commerce เพื่อช่วยให้คุณทำให้ไซต์ของบริษัทของคุณสอดคล้องกับข้อกำหนด
 author: BrianShook
 manager: annbe
 ms.date: 01/08/2020
@@ -16,32 +16,35 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c06d4e02affc48cf8b9b533d2cd4c1cd0d85e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220641"
 ---
-# <a name="compliance-overview"></a><span data-ttu-id="5ce68-103">ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ</span><span class="sxs-lookup"><span data-stu-id="5ce68-103">Compliance overview</span></span>
+# <a name="compliance-overview"></a><span data-ttu-id="e2b32-103">ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ</span><span class="sxs-lookup"><span data-stu-id="e2b32-103">Compliance overview</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5ce68-104">หัวข้อนี้เป็นภาพรวมของคำแนะนำการปฏิบัติตามกฎระเบียบ ที่ให้ไว้กับ Microsoft Dynamics 365 Commerce เพื่อช่วยให้คุณทำให้ไซต์ของบริษัทของคุณสอดคล้อง</span><span class="sxs-lookup"><span data-stu-id="5ce68-104">This topic is an overview of the compliance guidance that is provided with Microsoft Dynamics 365 Commerce to help you make your company's sites compliant.</span></span> <span data-ttu-id="5ce68-105">การปฏิบัติตามข้อกำหนดเป็นปัจจัยสำคัญสำหรับธุรกิจทั้งหมด เนื่องจากจะช่วยให้ฐานผู้ใช้เชื่อมต่อกับเนื้อหาไซต์ของตนได้</span><span class="sxs-lookup"><span data-stu-id="5ce68-105">Compliance is an important factor for all businesses, because it helps their user base connect with their site content.</span></span> <span data-ttu-id="5ce68-106">นอกจากนี้คุณยังสามารถช่วยปกป้องบริษัทของคุณจากการดำเนินการทางกฎหมายที่มีราคาแพงหรือค่าปรับหนัก</span><span class="sxs-lookup"><span data-stu-id="5ce68-106">By staying compliant, you can also help protect your company from expensive legal action or hefty fines.</span></span>
+<span data-ttu-id="e2b32-104">หัวข้อนี้เป็นภาพรวมของคำแนะนำการปฏิบัติตามกฎระเบียบที่ให้ไว้กับ Microsoft Dynamics 365 Commerce เพื่อช่วยให้คุณทำให้ไซต์ของบริษัทของคุณสอดคล้องกับข้อกำหนด</span><span class="sxs-lookup"><span data-stu-id="e2b32-104">This topic is an overview of the compliance guidance that is provided with Microsoft Dynamics 365 Commerce to help you make your company's sites compliant.</span></span> <span data-ttu-id="e2b32-105">การปฏิบัติตามข้อกำหนดเป็นปัจจัยสำคัญสำหรับธุรกิจทั้งหมด เนื่องจากจะช่วยให้ฐานผู้ใช้เชื่อมต่อกับเนื้อหาไซต์ของตนได้</span><span class="sxs-lookup"><span data-stu-id="e2b32-105">Compliance is an important factor for all businesses, because it helps their user base connect with their site content.</span></span> <span data-ttu-id="e2b32-106">นอกจากนี้คุณยังสามารถช่วยปกป้องบริษัทของคุณจากการดำเนินการทางกฎหมายที่มีราคาแพงหรือค่าปรับหนัก</span><span class="sxs-lookup"><span data-stu-id="e2b32-106">By staying compliant, you can also help protect your company from expensive legal action or hefty fines.</span></span>
 
-<span data-ttu-id="5ce68-107">เอกสารการปฏิบัติตามกฎระเบียบรวมถึงการตรวจสอบพื้นที่ที่คุณควรพิจารณาเมื่อคุณใช้ Dynamics 365 Commerce เพื่อช่วยให้คุณบรรลุข้อกำหนดในการปฏิบัติตามกฎระเบียบของบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="5ce68-107">The compliance documentation includes a review of areas that you should consider when you use Dynamics 365 Commerce, to help you meet your company's compliance requirements.</span></span>
+<span data-ttu-id="e2b32-107">เอกสารการปฏิบัติตามกฎระเบียบรวมถึงการตรวจสอบพื้นที่ที่คุณควรพิจารณาเมื่อคุณใช้ Dynamics 365 Commerce เพื่อช่วยให้คุณบรรลุข้อกำหนดในการปฏิบัติตามกฎระเบียบของบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="e2b32-107">The compliance documentation includes a review of areas that you should consider when you use Dynamics 365 Commerce, to help you meet your company's compliance requirements.</span></span>
 
-<span data-ttu-id="5ce68-108">คุณจะต้องรับผิดชอบในการตรวจสอบข้อกำหนดในการปฏิบัติตามกฎระเบียบของบริษัทของคุณ และสำหรับการเขียนและสร้างไซต์ที่ตรงตามมาตรฐานของข้อกำหนดเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="5ce68-108">You're responsible for reviewing your company's compliance requirements, and for authoring and building sites that meet the standards of those requirements.</span></span> <span data-ttu-id="5ce68-109">หัวข้อต่อไปนี้แสดงตัวอย่างวิธีที่คุณสามารถดำเนินการตามข้อกำหนดของบัญชีเมื่อคุณใช้เครื่องมือการเขียน Commerce</span><span class="sxs-lookup"><span data-stu-id="5ce68-109">The following topics provide examples that show how you can take compliance into account as you use the Commerce authoring tools.</span></span>
+<span data-ttu-id="e2b32-108">คุณจะต้องรับผิดชอบในการตรวจสอบข้อกำหนดในการปฏิบัติตามกฎระเบียบของบริษัทของคุณ และสำหรับการเขียนและสร้างไซต์ที่ตรงตามมาตรฐานของข้อกำหนดเหล่านั้น</span><span class="sxs-lookup"><span data-stu-id="e2b32-108">You're responsible for reviewing your company's compliance requirements, and for authoring and building sites that meet the standards of those requirements.</span></span> <span data-ttu-id="e2b32-109">หัวข้อต่อไปนี้แสดงตัวอย่างวิธีที่คุณสามารถดำเนินการตามข้อกำหนดของบัญชีเมื่อคุณใช้เครื่องมือการเขียน Commerce</span><span class="sxs-lookup"><span data-stu-id="e2b32-109">The following topics provide examples that show how you can take compliance into account as you use the Commerce authoring tools.</span></span>
 
-<span data-ttu-id="5ce68-110">หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับหลักการพื้นฐานที่ Microsoft ใช้ ให้ไปที่ [ศูนย์ความเชื่อถือของ Microsoft](https://www.microsoft.com/trust-center)</span><span class="sxs-lookup"><span data-stu-id="5ce68-110">To learn more about the basic principles that Microsoft uses, visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center).</span></span> <span data-ttu-id="5ce68-111">นอกจากนี้คุณยังสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ของการปฏิบัติตามกฎระเบียบและความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="5ce68-111">On that site, you can also get more information about areas of compliance.</span></span>
+<span data-ttu-id="e2b32-110">หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับหลักการพื้นฐานที่ Microsoft ใช้ ให้ไปที่ [ศูนย์ความเชื่อถือของ Microsoft](https://www.microsoft.com/trust-center)</span><span class="sxs-lookup"><span data-stu-id="e2b32-110">To learn more about the basic principles that Microsoft uses, visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center).</span></span> <span data-ttu-id="e2b32-111">นอกจากนี้คุณยังสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ของการปฏิบัติตามกฎระเบียบและความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="e2b32-111">On that site, you can also get more information about areas of compliance.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5ce68-112">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5ce68-112">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e2b32-112">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e2b32-112">Additional resources</span></span>
 
-[<span data-ttu-id="5ce68-113">คุณลักษณะและความสามารถของการช่วยการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="5ce68-113">Accessibility features and capabilities</span></span>](accessibility.md)
+[<span data-ttu-id="e2b32-113">คุณลักษณะและความสามารถของการช่วยการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="e2b32-113">Accessibility features and capabilities</span></span>](accessibility.md)
 
-[<span data-ttu-id="5ce68-114">การคาดการณ์ความต้องการคุกกี้</span><span class="sxs-lookup"><span data-stu-id="5ce68-114">Cookie compliance</span></span>](cookie-compliance.md)
+[<span data-ttu-id="e2b32-114">การคาดการณ์ความต้องการคุกกี้</span><span class="sxs-lookup"><span data-stu-id="e2b32-114">Cookie compliance</span></span>](cookie-compliance.md)
 
-[<span data-ttu-id="5ce68-115">เพิ่มหน้านโยบายความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="5ce68-115">Add a privacy policy page</span></span>](add-privacy-page.md)
+[<span data-ttu-id="e2b32-115">เพิ่มหน้านโยบายความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="e2b32-115">Add a privacy policy page</span></span>](add-privacy-page.md)
 
-[<span data-ttu-id="5ce68-116">แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม</span><span class="sxs-lookup"><span data-stu-id="5ce68-116">Replace user IDs associated with tracked content changes</span></span>](replace-IDs-tracked-changes.md)
+[<span data-ttu-id="e2b32-116">แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม</span><span class="sxs-lookup"><span data-stu-id="e2b32-116">Replace user IDs associated with tracked content changes</span></span>](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
