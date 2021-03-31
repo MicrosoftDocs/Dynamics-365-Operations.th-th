@@ -17,27 +17,30 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e8a7efcc2d4033a6cb1306c665af5eb1b0ba522
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d6bd7184852def3ffb60bef5675a65a03ea8a3fb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022016"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217208"
 ---
-# <a name="maintenance-requests"></a><span data-ttu-id="5493f-103">คำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="5493f-103">Maintenance requests</span></span>
+# <a name="maintenance-requests"></a><span data-ttu-id="9cd6a-103">คำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="9cd6a-103">Maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="5493f-104">คุณสามารถตั้งค่าชนิดต่างๆ ของคำขอที่จะใช้ในบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="5493f-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="5493f-105">คำขอการบำรุงรักษาเป็นชนิดหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="5493f-105">Maintenance requests are one type.</span></span> <span data-ttu-id="5493f-106">คำขอการบำรุงรักษาจะถูกใช้ในการร้องขอให้ใบสั่งงานจำเป็นสำหรับงานที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="5493f-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="5493f-107">คำขอการบำรุงรักษาสามารถสร้างขึ้นโดยผู้ใช้ใดๆที่มีการเข้าถึงฟังก์ชันการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="5493f-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="5493f-108">โปรแกรมวางแผนหรือผู้จัดการสามารถตัดสินใจได้ว่า คำขอการบำรุงรักษาควรถูกแปลงเป็นใบสั่งงานหรือไม่ หรือว่าควรจะดำเนินการวงจรชีวิตของตนเองให้เสร็จสมบูรณ์หรือไม่</span><span class="sxs-lookup"><span data-stu-id="5493f-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
+<span data-ttu-id="9cd6a-104">คุณสามารถตั้งค่าชนิดต่างๆ ของคำขอที่จะใช้ในบริษัทของคุณ</span><span class="sxs-lookup"><span data-stu-id="9cd6a-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="9cd6a-105">คำขอการบำรุงรักษาเป็นชนิดหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="9cd6a-105">Maintenance requests are one type.</span></span> <span data-ttu-id="9cd6a-106">คำขอการบำรุงรักษาจะถูกใช้ในการร้องขอให้ใบสั่งงานจำเป็นสำหรับงานที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="9cd6a-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="9cd6a-107">คำขอการบำรุงรักษาสามารถสร้างขึ้นโดยผู้ใช้ใดๆที่มีการเข้าถึงฟังก์ชันการจัดการสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="9cd6a-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="9cd6a-108">โปรแกรมวางแผนหรือผู้จัดการสามารถตัดสินใจได้ว่า คำขอการบำรุงรักษาควรถูกแปลงเป็นใบสั่งงานหรือไม่ หรือว่าควรจะดำเนินการวงจรชีวิตของตนเองให้เสร็จสมบูรณ์หรือไม่</span><span class="sxs-lookup"><span data-stu-id="9cd6a-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
 
-## <a name="view-maintenance-requests"></a><span data-ttu-id="5493f-109">ดูคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="5493f-109">View maintenance requests</span></span>
+## <a name="view-maintenance-requests"></a><span data-ttu-id="9cd6a-109">ดูคำขอการบำรุงรักษา</span><span class="sxs-lookup"><span data-stu-id="9cd6a-109">View maintenance requests</span></span>
 
-- <span data-ttu-id="5493f-110">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **คำขอการบำรุงรักษา** \> **คำขอการบำรุงรักษาทั้งหมด** หรือ **คำขอการบำรุงรักษาที่ใช้งานอยู่**</span><span class="sxs-lookup"><span data-stu-id="5493f-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
+- <span data-ttu-id="9cd6a-110">เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **คำขอการบำรุงรักษา** \> **คำขอการบำรุงรักษาทั้งหมด** หรือ **คำขอการบำรุงรักษาที่ใช้งานอยู่**</span><span class="sxs-lookup"><span data-stu-id="9cd6a-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-    <span data-ttu-id="5493f-111">หน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** แสดงคำขอการบำรุงรักษาทั้งหมด โดยไม่คำนึงถึงสถานะของวงจรการใช้</span><span class="sxs-lookup"><span data-stu-id="5493f-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="5493f-112">หน้า **คำขอการบำรุงรักษาที่ใช้งานอยู่** แสดงเฉพาะคำขอการบำรุงรักษาที่อยู่ในสถานะที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="5493f-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
+    <span data-ttu-id="9cd6a-111">หน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** แสดงคำขอการบำรุงรักษาทั้งหมด โดยไม่คำนึงถึงสถานะของวงจรการใช้</span><span class="sxs-lookup"><span data-stu-id="9cd6a-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="9cd6a-112">หน้า **คำขอการบำรุงรักษาที่ใช้งานอยู่** แสดงเฉพาะคำขอการบำรุงรักษาที่อยู่ในสถานะที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="9cd6a-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
 
-<span data-ttu-id="5493f-113">ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="5493f-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
+<span data-ttu-id="9cd6a-113">ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="9cd6a-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
 
 ![หน้ารายการคำขอการบำรุงรักษาทั้งหมด](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
