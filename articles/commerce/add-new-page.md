@@ -1,6 +1,6 @@
 ---
 title: เพิ่มหน้าไซต์ใหม่
-description: หัวข้อนี้อธิบายวิธีการเพิ่มเพจของไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54e690b0dde048b17ce074fcc30cf20a9ff7a4ca
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097140"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208050"
 ---
 # <a name="add-a-new-site-page"></a>เพิ่มหน้าไซต์ใหม่
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มเพจของไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -87,7 +87,7 @@ ms.locfileid: "5097140"
 
 [ทำให้หน้าผลิตภัณฑ์สมบูรณ์](enrich-product-page.md)
 
-[ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์](enrich-category-page.md)
+[เพิ่มข้อมูลหน้าเริ่มต้นของประเภท](enrich-category-page.md)
 
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
 

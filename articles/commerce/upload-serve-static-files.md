@@ -1,6 +1,6 @@
 ---
 title: อัปโหลดและให้บริการไฟล์แบบคงที่
-description: หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์แบบคงที่ไปยังตัวสร้างไซต์ Microsoft Dynamics 365 Commerce และวิธีสร้าง URL ที่กำหนดเองและชื่อไฟล์ที่สามารถใช้ในการร้องขอไฟล์นั้นได้
+description: หัวข้อนี้อธิบายวิธีการอัพโหลดไฟล์แบบคงที่ไปยังตัวสร้างไซต์ Microsoft Dynamics 365 Commerce และวิธีสร้าง URL ที่กำหนดเองและชื่อไฟล์ที่สามารถใช้ในการร้องขอไฟล์นั้นได้
 author: StuHarg
 manager: annbe
 ms.date: 11/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1d709d99737ad05af1fb19d9f3ef7b87a8db80d3
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: aba9dde2ed9d5fa09e92fcdd784a53f208930eda
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031831"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211030"
 ---
 # <a name="upload-and-serve-static-files"></a>อัปโหลดและให้บริการไฟล์แบบคงที่
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์แบบคงที่ไปยังตัวสร้างไซต์ Microsoft Dynamics 365 Commerce และวิธีสร้าง URL ที่กำหนดเองและชื่อไฟล์ที่สามารถใช้ในการร้องขอไฟล์นั้นได้
+หัวข้อนี้อธิบายวิธีการอัพโหลดไฟล์แบบคงที่ไปยังตัวสร้างไซต์ Microsoft Dynamics 365 Commerce และวิธีสร้าง URL ที่กำหนดเองและชื่อไฟล์ที่สามารถใช้ในการร้องขอไฟล์นั้นได้
 
 ตัวเชื่อมต่อของบุคคลที่สามบางรายจำเป็นต้องมีไฟล์โฮสต์และทำหน้าที่จากไซต์อีคอมเมิร์ซ ตัวเชื่อมต่อเหล่านี้คาดว่าไฟล์จะถูกส่งคืนโดยการร้องขอไปยังพาธและชื่อไฟล์ที่โทรกลับเฉพาะ หัวข้อนี้จะอธิบายถึงวิธีการอัพโหลดและทำหน้าที่ไฟล์แบบคงที่ที่มี URL ของผู้ใช้ที่ระบุได้และชื่อไฟล์บนไซต์อีคอมเมิร์ซ Dynamics 365 Commerce
 

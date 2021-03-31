@@ -1,6 +1,6 @@
 ---
 title: โมดูลแท็บ
-description: หัวข้อนี้ครอบคลุมถึงโมดูลแท็บ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมโมดูลแท็บและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209238"
 ---
 # <a name="tab-module"></a>โมดูลแท็บ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลแท็บ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้ครอบคลุมโมดูลแท็บและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลแท็บเป็นโมดูลที่เหมือนกับคอนเทนเนอร์ที่ใช้ในการจัดระเบียบข้อมูลบนหน้าไซต์บนแท็บ ผู้ใช้สามารถใช้ในหน้าใดก็ได้ที่ต้องแสดงข้อมูลบนแท็บ
 

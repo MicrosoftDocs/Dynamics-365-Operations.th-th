@@ -1,6 +1,6 @@
 ---
 title: วิธีการเพิ่มเนื้อหา
-description: หัวข้อนี้แสดงภาพรวม และเลือกลิงก์สำหรับสถานที่และวิธีการเริ่มต้นการจัดการเนื้อหา โดยใช้โปรแกรมสร้างไซต์ชุดเครื่องมือการเขียนแก้ไซต์ Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้แสดงภาพรวมและเลือกลิงก์สำหรับสถานที่และวิธีการเริ่มต้นการจัดการเนื้อหาโดยใช้ชุดเครื่องมือการเขียนเว็บตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d818ab91af7b1a74b580e145e4b602cca0ea1662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208074"
 ---
 # <a name="ways-to-add-content"></a>วิธีการเพิ่มเนื้อหา
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวม และเลือกลิงก์ไปยังเอกสารที่แสดงวิธีการจัดการเนื้อหา โดยใช้โปรแกรมสร้างไซต์ชุดเครื่องมือการเขียนแก้ไซต์ Microsoft Dynamics 365 Commerce
+หัวข้อนี้แสดงภาพรวมและลิงก์ไปยังเอกสารเกี่ยวกับวิธีการจัดการเนื้อหาโดยใช้ชุดเครื่องมือการเขียนตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 

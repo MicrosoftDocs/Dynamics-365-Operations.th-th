@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035971"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211212"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>ตั้งค่าคอนฟิกวิธีการชำระเงินด้วยบัญชีลูกค้าสำหรับไซต์อีคอมเมิร์ซของ B2B
 
@@ -29,7 +29,7 @@ ms.locfileid: "5035971"
 
 ในหัวข้อนี้จะอธิบายวิธีตั้งค่าคอนฟิกวิธีการชำระเงินของบัญชีลูกค้าให้กับไซต์อีคอมเมิร์ซระหว่างธุรกิจ (B2B)
 
-ผู้ค้าปลีกสามารถยอมรับการชำระเงินที่หลากหลายในซื้อสินค้าและบริการที่ผู้ค้าปลีกจำหน่ายในช่องทางอีคอมเมิร์ซ ชนิดการชำระเงินแต่ละชนิดที่ผู้ขายปลีกยอมรับ ต้องถูกตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce เมื่อมีการตั้งค่าระบบ ต้องสนับสนุนการชำระเงินบัญชีลูกค้า (หรือ "ในบัญชี") บนไซต์อีคอมเมิร์ซของ B2B 
+ผู้ค้าปลีกสามารถยอมรับการชำระเงินที่หลากหลายในซื้อสินค้าและบริการที่ผู้ค้าปลีกจำหน่ายในช่องทางอีคอมเมิร์ซ ชนิดการชำระเงินแต่ละชนิดที่ผู้ขายปลีกยอมรับ ต้องตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce เมื่อมีการตั้งค่าระบบ ต้องสนับสนุนการชำระเงินบัญชีลูกค้า (หรือ "ในบัญชี") บนไซต์อีคอมเมิร์ซของ B2B 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 

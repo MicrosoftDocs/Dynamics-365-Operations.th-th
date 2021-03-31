@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งาน
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการจัดเตรียมแล้ว
 author: rubendel
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ec1c556a70ed92a40d3cb2bf45fb6156b7dbf7fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71f2fb3882b51cdaed9b231cd605949195deca17
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213877"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการเตรียมใช้งานสภาพแวดล้อม
+หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกการซื้อออนไลน์ การเบิกสินค้าในร้านค้า (BOPIS) ในสภาพแวดล้อมการประเมิน Microsoft Dynamics 365 Commerce หลังจากที่มีการจัดเตรียมสภาพแวดล้อม
 
 ## <a name="prerequisite"></a>ข้อกำหนดเบื้องต้น
 

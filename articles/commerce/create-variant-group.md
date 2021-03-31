@@ -1,6 +1,6 @@
 ---
 title: การสร้างกลุ่มตัวแปร
-description: หัวข้อนี้อธิบายวิธีสร้างกลุ่มตัวแปรขนาด ลักษณะ หรือสีของผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4c34aca043f10fef38f186800c429cac36c41ce7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207858"
 ---
-# <a name="create-a-variant-group"></a>การสร้างกลุ่มตัวแปร
+# <a name="create-a-variant-group"></a>สร้างกลุ่มตัวแปร
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีสร้างกลุ่มตัวแปรขนาด ลักษณะ หรือสีของผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 

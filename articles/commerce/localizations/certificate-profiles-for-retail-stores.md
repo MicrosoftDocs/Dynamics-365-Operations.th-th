@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 03fe3d7fb64b2e9d0a06dc56654933f0c672782a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018879"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225756"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 
@@ -30,7 +30,7 @@ ms.locfileid: "5018879"
 
 ## <a name="overview"></a>ภาพรวม
 
-หัวข้อนี้อธิบายภาพรวมของโพรไฟล์ที่รับรองที่พร้อมใช้งานใน Microsoft Dynamics 365 Commerce ฟังก์ชันนี้ขยายคุณลักษณะ [จัดการความลับสำหรับช่องทางการขายปลีก](../dev-itpro/manage-secrets.md) โดยการเพิ่มการสนับสนุนสำหรับใบรับรองเฉพาะที่
+หัวข้อนี้อธิบายภาพรวมของโพรไฟล์ใบรับรองที่พร้อมใช้งานใน Microsoft Dynamics 365 Commerce ฟังก์ชันนี้ขยายคุณลักษณะ [จัดการความลับสำหรับช่องทางการขายปลีก](../dev-itpro/manage-secrets.md) โดยการเพิ่มการสนับสนุนสำหรับใบรับรองเฉพาะที่
 
 ในขณะที่การขายหน้าร้าน (POS) กำลังรันอยู่ในโหมดออฟไลน์ จะไม่สามารถเข้าถึงใบรับรองที่จัดเก็บอยู่ใน Key Vault ควรใช้ใบรับรองเฉพาะที่แทน ระบบสนับสนุนความสามารถต่อไปนี้:
 

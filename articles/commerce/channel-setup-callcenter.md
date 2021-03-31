@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าช่องทางศูนย์บริการ
-description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางศูนย์บริการใหม่ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางคอลเซ็นเตอร์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
 ms.date: 03/13/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b25626dafc07d576699ceba3cc9ca691db45cb9f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 878774c8e5485211525e7e7b63973173f6874b26
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997761"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218380"
 ---
-# <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางศูนย์บริการ
+# <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางของศูนย์บริการ
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางศูนย์บริการใหม่ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางคอลเซ็นเตอร์ใหม่ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 

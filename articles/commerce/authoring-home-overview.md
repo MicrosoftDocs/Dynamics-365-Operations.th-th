@@ -1,6 +1,6 @@
 ---
-title: ภาพรวมการสร้างหน้า
-description: หัวข้อนี้แสดงภาพรวมการสร้างหน้าใน Microsoft Dynamics 365 Commerce
+title: ภาพรวมของการสร้างหน้า
+description: หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 author: brendans
 manager: annbe
 ms.date: 10/31/2019
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d91857a9d1f0b1280a842b0a26578fbb561851
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211308"
 ---
-# <a name="authoring-page-overview"></a>ภาพรวมการสร้างหน้า
+# <a name="authoring-page-overview"></a>ภาพรวมของการสร้างหน้า
 
   
  [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมการสร้างหน้าใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 

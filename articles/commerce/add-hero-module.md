@@ -1,6 +1,6 @@
 ---
 title: โมดูลบล็อกเนื้อหา
-description: หัวข้อนี้ครอบคลุมถึงโมดูลคโมดูลบล็อกเนื้อหา และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลบล็อกเนื้อหาและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206282"
 ---
 # <a name="content-block-module"></a>โมดูลบล็อกเนื้อหา
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลคโมดูลบล็อกเนื้อหา และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้ครอบคลุมถึงโมดูลบล็อกเนื้อหาและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลบล็อกเนื้อหาใช้ในการทำตลาดผลิตภัณฑ์ หรือโปรโมชันผ่านการรวมกันของรูปภาพและข้อความ ตัวอย่างเช่น ผู้ค้าปลีกสามารถเพิ่มโมดูลบล็อกเนื้อหาไปยังโฮมเพจของไซต์อีคอมเมิร์ซเพื่อส่งเสริมผลิตภัณฑ์ใหม่ และดึงดูดความสนใจของลูกค้า
 

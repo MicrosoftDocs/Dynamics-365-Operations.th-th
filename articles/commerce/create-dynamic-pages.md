@@ -1,6 +1,6 @@
 ---
-title: สร้างหน้า e-commerce แบบไดนามิกตามพารามิเตอร์ URL
-description: หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก ตามพารามิเตอร์ URL
+title: สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์ URL
+description: หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
 author: StuHarg
 manager: AnnBe
 ms.date: 01/28/2021
@@ -17,19 +17,19 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098651"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208026"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>สร้างหน้า e-commerce แบบไดนามิกตามพารามิเตอร์ URL
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์ URL
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก ตามพารามิเตอร์ URL
+หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
 
 หน้า e-commerce สามารถตั้งค่าคอนฟิกให้แสดงเนื้อหาที่แตกต่างกันตามเซ็กเมนต์ในพาธ URL ได้ ดังนั้น จึงสามารถเรียกหน้านี้ได้อีกอย่างหนึ่งว่าหน้าแบบไดนามิก เซ็กเมนต์นี้จะใช้เป็นพารามิเตอร์เพื่อดึงข้อมูลเนื้อหาของหน้า ตัวอย่างเช่น หน้าที่มีชื่อว่า **blog\_viewer** จะถูกสร้างและเชื่อมโยงกับ URL `https://fabrikam.com/blog` จากนั้นสามารถใช้หน้านี้เพื่อแสดงเนื้อหาที่แตกต่างกันตามเซ็กเมนต์สุดท้ายในพาธ URL ตัวอย่างเช่น เซ็กเมนต์สุดท้ายใน URL `https://fabrikam.com/blog/article-1` คือ **article-1**
 

@@ -1,6 +1,6 @@
 ---
 title: การเลือกปฏิเสธการรวบรวมข้อมูลกิจกรรมบนเว็บ
-description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถอนุญาตให้ผู้เยี่ยมชมเว็บไซต์ของคุณเลือกใช้งานการรวบรวมข้อมูลกิจกรรมบนเว็บใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายถึงวิธีการที่คุณสามารถอนุญาตให้ผู้เยี่ยมชมเว็บไซต์ของคุณเลือกใช้งานการรวบรวมข้อมูลกิจกรรมบนเว็บใน Microsoft Dynamics 365 Commerce
 author: aamiral
 manager: AnnBe
 ms.date: 05/15/2020
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2c396060017db6d7ce830b350f242d3097876e50
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 244d612fa01529df4fff250df50a06526632fcf1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012324"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210934"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>การเลือกปฏิเสธการรวบรวมข้อมูลกิจกรรมบนเว็บ
 [!include [banner](includes/banner.md)]

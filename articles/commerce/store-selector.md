@@ -1,6 +1,6 @@
 ---
 title: โมดูลตัวเลือกร้านค้า
-description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้า และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้าและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006346"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205133"
 ---
-# <a name="store-selector-module"></a>โมดูลตัวเลือกร้านค้า
+# <a name="store-selector-module"></a>โมดูลตัวเลือกการจัดเก็บ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้า และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้าและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 
 ลูกค้าสามารถใช้โมดูลตัวเลือกร้านค้าเพื่อเบิกสินค้าในร้านค้าที่เลือกหลังจากการซื้อสินค้าออนไลน์ ใน Commerce รุ่น 10.0.13 โมดูลตัวเลือกร้านค้ามีความสามารถเพิ่มเติมที่สามารถแสดงให้เห็นหน้า **ค้นหาร้านค้า** ที่แสดงร้านค้าใกล้เคียง
 

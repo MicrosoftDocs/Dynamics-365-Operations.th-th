@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9626f33ced0433bc96ed58429e95d4f75af6508
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c024cc1b16ca60b2277eba2d7045020c2e67c3a0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980393"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206306"
 ---
 # <a name="gift-card-module"></a>โมดูลบัตรของขวัญ
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูลบัตรของขวัญและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โมดูลบัตรของขวัญสามารถใช้ในโมดูลเช็คเอาท์เพื่อรับบัตรของขวัญ ซึ่งเป็นรูปแบบการชำระเงินทั่วไปที่ใช้สำหรับธุรกรรมอีคอมเมิร์ซ โมดูลบัตรของขวัญสนับสนุนบัตรของขวัญ Dynamics 365, SVS, และ Givex  บัตรของขวัญ SVS และ Givex จะถูกแลกรางวัลผ่านผู้ให้บริการชำระเงิน Adyen สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนสำหรับบัตรของขวัญภายนอก เช่น SVS และ Givex โปรดดูที่ [การสนับสนุนบัตรของขวัญภายนอก](./dev-itpro/gift-card.md)
 

@@ -1,6 +1,6 @@
 ---
 title: ปรับเปลี่ยนหน้าไซต์ที่มีอยู่
-description: หัวข้อนี้จะอธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 47a7d17b97631ba469a9b68f5f6cf492ebccde6f
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223058"
 ---
 # <a name="modify-an-existing-site-page"></a>ปรับเปลี่ยนหน้าไซต์ที่มีอยู่
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้อธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -83,7 +83,7 @@ ms.locfileid: "5097317"
 
 [ทำให้หน้าผลิตภัณฑ์สมบูรณ์](enrich-product-page.md)
 
-[ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์](enrich-category-page.md)
+[เพิ่มข้อมูลหน้าเริ่มต้นของประเภท](enrich-category-page.md)
 
 [ตรวจสอบการเข้าถึงเนื้อหาของหน้า](verify-accessibility.md)
 

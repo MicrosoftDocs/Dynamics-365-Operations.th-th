@@ -1,6 +1,6 @@
 ---
 title: โมดูลหัวข้อ
-description: หัวข้อนี้ครอบคลุมถึงโมดูลหัวข้อและอธิบายวิธีการสร้างส่วนหัวของหน้าใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลส่วนหัวและอธิบายวิธีการสร้างส่วนหัวของหน้าใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211435"
 ---
 # <a name="header-module"></a>โมดูลส่วนหัว
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลหัวข้อและอธิบายวิธีการสร้างส่วนหัวของหน้าใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้ครอบคลุมถึงโมดูลส่วนหัวและอธิบายวิธีการสร้างส่วนหัวของหน้าใน Microsoft Dynamics 365 Commerce
 
 ใน Dynamics 365 Commerce ส่วนหัวของหน้าจะมีการตั้งค่าคอนฟิกเป็นส่วนย่อยซึ่งมีโมดูลส่วนหัว แบนเนอร์โปรโมชัน และโมดูลการยินยอมใช้คุกกี้ 
 

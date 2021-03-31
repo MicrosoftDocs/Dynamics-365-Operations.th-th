@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213829"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -102,7 +102,7 @@ ms.locfileid: "4993461"
 
 คุณอาจต้องการปรับแต่งเท็มเพลตอีเมลเพื่อให้ใช้รูปภาพที่แตกต่างกัน หรือคุณอาจต้องการปรับปรุงการเชื่อมโยงในเท็มเพลตเพื่อให้ไปที่สภาพแวดล้อมการประเมินของคุณ กระบวนการนี้จะอธิบายวิธีการดาวน์โหลดเท็มเพลตเริ่มต้น เลือกกำหนดเท็มเพลตเหล่านั้น และอัปเดตเท็มเพลตในระบบ
 
-1. ใช้เว็บเบราว์เซอร์ ดาวน์โหลด [ไฟล์ .zip เท็มเพลตอีเมลเริ่มต้นของ Microsoft Dynamics 365 Commerce Evaluation](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) ลงในคอมพิวเตอร์ของคุณ ไฟล์นี้จะประกอบด้วยเอกสาร HTML ต่อไปนี้
+1. ในเว็บเบราว์เซอร์ ดาวน์โหลด [ไฟล์ .zip เท็มเพลตอีเมลเริ่มต้นของการประเมินผล Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) ลงในคอมพิวเตอร์ของคุณ ไฟล์นี้จะประกอบด้วยเอกสาร HTML ต่อไปนี้
 
     - เท็มเพลตการยืนยันใบสั่ง
     - เท็มเพลตการออกบัตรของขวัญ
@@ -135,7 +135,7 @@ ms.locfileid: "4993461"
 
 | ชื่อของโทเคน | โทเคน |
 |-------------------|-------|
-| หมายเลขใบสั่ง      | %salesId% |
+| หมายเลขใบสั่ง      | %salesid% |
 | ชื่อของลูกค้า   | %customername% |
 | ที่อยู่ที่จัดส่ง  | %deliveryaddress% |
 | ที่อยู่ที่เรียกเก็บเงิน   | %customeraddress% |
@@ -159,7 +159,7 @@ ms.locfileid: "4993461"
 | ชื่อผลิตภัณฑ์           | %lineproductname% |
 | คำอธิบาย            | %lineproductdescription% |
 | ปริมาณ               | %linequantity% |
-| ราคาต่อหน่วยในรายการ        | % lineprice% (ตรวจสอบ) |
+| ราคาต่อหน่วยในรายการ        | %lineprice% (ตรวจสอบ) |
 | จำนวนสินค้าทั้งหมดในรายการ        | %linenetamount% |
 | line discount / ส่วนลดต่อรายการสินค้า          | %linediscount% |
 | วันที่จัดส่ง              | %lineshipdate% |

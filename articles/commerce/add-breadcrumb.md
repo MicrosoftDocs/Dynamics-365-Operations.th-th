@@ -1,6 +1,6 @@
 ---
 title: โมดูลการแสดงเส้นทาง
-description: หัวข้อนี้ครอบคลุมถึงโมดูลการแสดงเส้นทาง และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลเบรดครัมบ์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06f8ffdecd1f77468ed88043929f29b6957c2e6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986090"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206570"
 ---
 # <a name="breadcrumb-module"></a>โมดูลการแสดงเส้นทาง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลการแสดงเส้นทาง และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้ครอบคลุมถึงโมดูลเบรดครัมบ์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลการแสดงเส้นทางใช้เพื่อให้การนำทางรองบนหน้าไซต์ โดยทั่วไปจะแสดงอยู่ที่ด้านบนของหน้า ด้านล่างของหัวข้อ ถึงแม้ว่าคุณจะสามารถเพิ่มโมดูลแถบในหน้าใดก็ได้ โดยทั่วไปจะใช้ในหน้ารายละเอียดของผลิตภัณฑ์ (PDPs) เพื่อแสดงการจัดประเภทของผลิตภัณฑ์ตามลำดับชั้นและจัดให้มีวิธีที่รวดเร็วในการเลื่อนดูไซต์ นอกจากนี้ยังสามารถใช้โมดูลการแสดงเส้นทางเพื่อแสดงการเชื่อมโยง "กลับไปที่ผลลัพธ์" เมื่อผู้ใช้เปิด PDP จากการค้นหาหรือหน้ารายการ ด้วยวิธีนี้ผู้ใช้สามารถกลับไปยังหน้ารายการที่ถูกกรองของตนเพื่อดำเนินการซื้อของต่อไปได้อย่างรวดเร็ว
 

@@ -1,6 +1,6 @@
 ---
 title: เปิดใช้งานการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกประสบการณ์ในการลงชื่อเข้าใช้สำหรับการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce เพื่อให้ใช้การรับรองความถูกต้อง Azure Active Directory
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกประสบการณ์ในการลงชื่อเข้าใช้สำหรับการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce เพื่อใช้ในการรับรองความถูกต้อง Azure Active Directory
 author: boycezhu
 manager: annbe
 ms.date: 07/27/2020
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d6073a04814adf8237b4caa952b31b011f4b34bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982751"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206690"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>เปิดใช้งานการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
 [!include [banner](includes/banner.md)]
