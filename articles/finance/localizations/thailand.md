@@ -15,12 +15,12 @@ ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d664fafb1a034794eaf6b555f2e8ba3d26264dc1
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: 426b80239a61827c9a8fb96d1475827d1eacf95f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060616"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216407"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
