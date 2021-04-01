@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5594b81d09eade263487244a14c0305d589ff94e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91614cda804cae4574fce4c9cfb31c63d876f19b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238641"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>ระบุสมมติฐานและกำหนดตัวชี้วัดความสำเร็จสำหรับการทดสอบ
 ระยะแรกในวงจรการทดสอบรวมถึงการระบุสมมติฐานสำหรับการทดสอบ และการกำหนดตัวชี้วัดที่คุณจะติดตามเพื่อประเมินความสำเร็จ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับ [การตั้งค่าและการรันการทดลอง](experimentation-overview.md) บนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก 

@@ -17,21 +17,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e93358a9c76e8eb7bfb4ade4f772dece2aa5f7d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 74991a2979540dab344f39976005250637fab29c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252593"
 ---
-# <a name="map-module"></a>โมดูลแผนที่
+# <a name="map-module"></a>โมดูลการแม็ป
 
 [!include [banner](includes/banner.md)]
 
 
 หัวข้อนี้ครอบคลุมถึงโมดูลแผนที่และอธิบายวิธีการกำหนดค่าใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โมดูลแผนที่แสดงสถานที่เก็บบนแผนที่แบบโต้ตอบซึ่งแสดงโดยใช้การ [ควบคุมเว็บของ Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/) ต้องใช้คีย์ API ของ Bing Maps และต้องเพิ่มลงในหน้าพารามิเตอร์ที่ใช้ร่วมกันในศูนย์ควบคุม Commerce โมดูลแผนที่มีมุมมองต่างๆ เช่น ถนน สภาพอากาศ และทางเดิน ผู้ใช้สามารถเลือกที่จะดูที่ตั้งแผนที่ได้ นอกจากนี้ยังอนุญาตให้มีการโต้ตอบ เช่น การซูม และการใช้สถานที่ของผู้ใช้
 
