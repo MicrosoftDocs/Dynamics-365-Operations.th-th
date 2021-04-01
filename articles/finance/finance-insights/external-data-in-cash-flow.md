@@ -17,48 +17,51 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae0eba6d397725cf425d9781a597d904e1958d44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 03318eaae0b3329dc758c48202f8f47ca2c4ab08
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245579"
 ---
-# <a name="use-external-data-in-cash-flow-forecasts-preview"></a><span data-ttu-id="d6408-103">ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด (ตัวอย่าง)</span><span class="sxs-lookup"><span data-stu-id="d6408-103">Use external data in cash flow forecasts (preview)</span></span>
+# <a name="use-external-data-in-cash-flow-forecasts-preview"></a><span data-ttu-id="52baf-103">ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด (ตัวอย่าง)</span><span class="sxs-lookup"><span data-stu-id="52baf-103">Use external data in cash flow forecasts (preview)</span></span>
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="d6408-104">คุณสามารถป้อนหรือนำเข้าข้อมูลภายนอกเข้าในการคาดการณ์กระแสเงินสดได้</span><span class="sxs-lookup"><span data-stu-id="d6408-104">External data can be entered or imported into cash flow forecasts.</span></span> <span data-ttu-id="d6408-105">หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าที่เกี่ยวข้องกับการใช้ข้อมูลภายนอกโดยเฉพาะและเปิดใช้งานข้อมูลภายนอกที่จะรวมไว้ในการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="d6408-105">This topic describes the setup steps that are specific to the use of external data and that enable the external data to be included in a cash flow forecast.</span></span>
+<span data-ttu-id="52baf-104">คุณสามารถป้อนหรือนำเข้าข้อมูลภายนอกเข้าในการคาดการณ์กระแสเงินสดได้</span><span class="sxs-lookup"><span data-stu-id="52baf-104">External data can be entered or imported into cash flow forecasts.</span></span> <span data-ttu-id="52baf-105">หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าที่เกี่ยวข้องกับการใช้ข้อมูลภายนอกโดยเฉพาะและเปิดใช้งานข้อมูลภายนอกที่จะรวมไว้ในการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="52baf-105">This topic describes the setup steps that are specific to the use of external data and that enable the external data to be included in a cash flow forecast.</span></span>
 
-## <a name="external-data-setup"></a><span data-ttu-id="d6408-106">การตั้งค่าข้อมูลจากภายนอก</span><span class="sxs-lookup"><span data-stu-id="d6408-106">External data setup</span></span>
+## <a name="external-data-setup"></a><span data-ttu-id="52baf-106">การตั้งค่าข้อมูลจากภายนอก</span><span class="sxs-lookup"><span data-stu-id="52baf-106">External data setup</span></span>
 
-<span data-ttu-id="d6408-107">ใช้แท็บ **แหล่งที่มาภายนอก** ในหน้า **การตั้งค่าการคาดการณ์กระแสเงินสด** (**การจัดการเงินสดและธนาคาร \> การคาดการณ์กระแสเงินสด**) เพื่อป้อนการตั้งค่าที่สนับสนุนการใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="d6408-107">Use the **External source** tab on the **Cash flow forecast setup** page (**Cash and bank management \> Cash flow forecasting**) to enter settings that support the use of external data in cash flow forecasts.</span></span>
+<span data-ttu-id="52baf-107">ใช้แท็บ **แหล่งที่มาภายนอก** ในหน้า **การตั้งค่าการคาดการณ์กระแสเงินสด** (**การจัดการเงินสดและธนาคาร \> การคาดการณ์กระแสเงินสด**) เพื่อป้อนการตั้งค่าที่สนับสนุนการใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="52baf-107">Use the **External source** tab on the **Cash flow forecast setup** page (**Cash and bank management \> Cash flow forecasting**) to enter settings that support the use of external data in cash flow forecasts.</span></span>
 
-<span data-ttu-id="d6408-108">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่า ให้ดูที่ [การคาดการณ์กระแสเงินสด](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)</span><span class="sxs-lookup"><span data-stu-id="d6408-108">For more information about the setup, see [Cash flow forecasting](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).</span></span>
+<span data-ttu-id="52baf-108">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่า ให้ดูที่ [การคาดการณ์กระแสเงินสด](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)</span><span class="sxs-lookup"><span data-stu-id="52baf-108">For more information about the setup, see [Cash flow forecasting](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).</span></span>
 
-<span data-ttu-id="d6408-109">เมื่อต้องการป้อนข้อมูลภายนอกสำหรับการคาดการณ์กระแสเงินสด คุณสามารถใช้ประสบการณ์เปิดใน Excel สำหรับการป้อนและการปรับเปลี่ยนข้อมูลภายนอก</span><span class="sxs-lookup"><span data-stu-id="d6408-109">To enter external data for cash flow forecasts, you can use the Open in Excel experience for entering and modifying external data.</span></span> <span data-ttu-id="d6408-110">เลือกปุ่ม **ข้อมูลภายนอก** แล้วเลือก **เพิ่มข้อมูลภายนอก** หรือ **แก้ไขข้อมูลภายนอกที่มีอยู่**</span><span class="sxs-lookup"><span data-stu-id="d6408-110">Select the **External data** button, and then select either **Add External Data** or **Edit existing external data**.</span></span> <span data-ttu-id="d6408-111">เมื่อ Microsoft Excel เปิดไฟล์แล้ว คุณสามารถป้อนข้อมูลในฟิลด์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="d6408-111">When the Microsoft Excel file is opened, you can enter information in the following fields:</span></span>
+<span data-ttu-id="52baf-109">เมื่อต้องการป้อนข้อมูลภายนอกสำหรับการคาดการณ์กระแสเงินสด คุณสามารถใช้ประสบการณ์เปิดใน Excel สำหรับการป้อนและการปรับเปลี่ยนข้อมูลภายนอก</span><span class="sxs-lookup"><span data-stu-id="52baf-109">To enter external data for cash flow forecasts, you can use the Open in Excel experience for entering and modifying external data.</span></span> <span data-ttu-id="52baf-110">เลือกปุ่ม **ข้อมูลภายนอก** แล้วเลือก **เพิ่มข้อมูลภายนอก** หรือ **แก้ไขข้อมูลภายนอกที่มีอยู่**</span><span class="sxs-lookup"><span data-stu-id="52baf-110">Select the **External data** button, and then select either **Add External Data** or **Edit existing external data**.</span></span> <span data-ttu-id="52baf-111">เมื่อ Microsoft Excel เปิดไฟล์แล้ว คุณสามารถป้อนข้อมูลในฟิลด์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="52baf-111">When the Microsoft Excel file is opened, you can enter information in the following fields:</span></span>
 
-- <span data-ttu-id="d6408-112">**รหัสรายการ**</span><span class="sxs-lookup"><span data-stu-id="d6408-112">**Entry ID**</span></span>
-- <span data-ttu-id="d6408-113">**คำอธิบาย** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="d6408-113">**Description** (optional)</span></span>
-- <span data-ttu-id="d6408-114">**ชื่อแหล่งที่มาภายนอก** – เลือกค่าใดค่าหนึ่งในรายการที่คุณได้กำหนดไว้เมื่อคุณตั้งค่าข้อมูลเชิงลึกทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="d6408-114">**External Source name** – Select one of the values in the list that you defined when you set up Finance Insights.</span></span>
-- <span data-ttu-id="d6408-115">**นิติบุคคล**</span><span class="sxs-lookup"><span data-stu-id="d6408-115">**Legal Entity**</span></span>
-- <span data-ttu-id="d6408-116">**วัน เดือน**</span><span class="sxs-lookup"><span data-stu-id="d6408-116">**Date**</span></span>
-- <span data-ttu-id="d6408-117">**จำนวนเงินในสกุลเงินของธุรกรรม**</span><span class="sxs-lookup"><span data-stu-id="d6408-117">**Amount in transaction currency**</span></span>
-- <span data-ttu-id="d6408-118">**รหัสสกุลเงิน**</span><span class="sxs-lookup"><span data-stu-id="d6408-118">**Currency Code**</span></span>
-- <span data-ttu-id="d6408-119">**มิติเริ่มต้น** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="d6408-119">**Default Dimension** (optional)</span></span>
-- <span data-ttu-id="d6408-120">**หมายเลขเอกสาร** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="d6408-120">**Document number** (optional)</span></span>
-- <span data-ttu-id="d6408-121">**หมายเลขบัญชี** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="d6408-121">**Account number** (optional)</span></span>
-- <span data-ttu-id="d6408-122">**ชื่อบัญชี** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="d6408-122">**Account name** (optional)</span></span>
+- <span data-ttu-id="52baf-112">**รหัสรายการ**</span><span class="sxs-lookup"><span data-stu-id="52baf-112">**Entry ID**</span></span>
+- <span data-ttu-id="52baf-113">**คำอธิบาย** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="52baf-113">**Description** (optional)</span></span>
+- <span data-ttu-id="52baf-114">**ชื่อแหล่งที่มาภายนอก** – เลือกค่าใดค่าหนึ่งในรายการที่คุณได้กำหนดไว้เมื่อคุณตั้งค่าข้อมูลเชิงลึกทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="52baf-114">**External Source name** – Select one of the values in the list that you defined when you set up Finance Insights.</span></span>
+- <span data-ttu-id="52baf-115">**นิติบุคคล**</span><span class="sxs-lookup"><span data-stu-id="52baf-115">**Legal Entity**</span></span>
+- <span data-ttu-id="52baf-116">**วัน เดือน**</span><span class="sxs-lookup"><span data-stu-id="52baf-116">**Date**</span></span>
+- <span data-ttu-id="52baf-117">**จำนวนเงินในสกุลเงินของธุรกรรม**</span><span class="sxs-lookup"><span data-stu-id="52baf-117">**Amount in transaction currency**</span></span>
+- <span data-ttu-id="52baf-118">**รหัสสกุลเงิน**</span><span class="sxs-lookup"><span data-stu-id="52baf-118">**Currency Code**</span></span>
+- <span data-ttu-id="52baf-119">**มิติเริ่มต้น** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="52baf-119">**Default Dimension** (optional)</span></span>
+- <span data-ttu-id="52baf-120">**หมายเลขเอกสาร** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="52baf-120">**Document number** (optional)</span></span>
+- <span data-ttu-id="52baf-121">**หมายเลขบัญชี** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="52baf-121">**Account number** (optional)</span></span>
+- <span data-ttu-id="52baf-122">**ชื่อบัญชี** (ไม่จำเป็น)</span><span class="sxs-lookup"><span data-stu-id="52baf-122">**Account name** (optional)</span></span>
 
-## <a name="importing-external-data-by-using-the-data-management-framework"></a><span data-ttu-id="d6408-123">การนำเข้าข้อมูลภายนอกโดยใช้กรอบงานการจัดการข้อมูล</span><span class="sxs-lookup"><span data-stu-id="d6408-123">Importing external data by using the Data Management framework</span></span>
+## <a name="importing-external-data-by-using-the-data-management-framework"></a><span data-ttu-id="52baf-123">การนำเข้าข้อมูลภายนอกโดยใช้กรอบงานการจัดการข้อมูล</span><span class="sxs-lookup"><span data-stu-id="52baf-123">Importing external data by using the Data Management framework</span></span>
 
-<span data-ttu-id="d6408-124">คุณสามารถนำเข้าข้อมูลภายนอกสำหรับการคาดการณ์กระแสเงินสดโดยใช้พื้นที่ทำงาน **การจัดการข้อมูล** และเอนทิตีที่มีการตั้งชื่อ **การคาดการณ์กระแสเงินสดสำหรับการคาดการณ์กระแสเงินสด**</span><span class="sxs-lookup"><span data-stu-id="d6408-124">You can import external data for cash flow forecasts by using the **Data Management** workspace and the entity that is named **Cash flow forecast external source entry**.</span></span>
+<span data-ttu-id="52baf-124">คุณสามารถนำเข้าข้อมูลภายนอกสำหรับการคาดการณ์กระแสเงินสดโดยใช้พื้นที่ทำงาน **การจัดการข้อมูล** และเอนทิตีที่มีการตั้งชื่อ **การคาดการณ์กระแสเงินสดสำหรับการคาดการณ์กระแสเงินสด**</span><span class="sxs-lookup"><span data-stu-id="52baf-124">You can import external data for cash flow forecasts by using the **Data Management** workspace and the entity that is named **Cash flow forecast external source entry**.</span></span>
 
-<span data-ttu-id="d6408-125">นอกจากนี้ ถ้าคุณต้องการย้ายข้อมูลการตั้งค่าจากสภาพแวดล้อมหนึ่งไปยังอีกพื้นที่หนึ่ง เอนทิตีที่พร้อมใช้งานสำหรับตารางการตั้งค่าที่จำเป็นต้องใช้:</span><span class="sxs-lookup"><span data-stu-id="d6408-125">Additionally, if you must move setup data from one environment to another, the following entities area available for the setup tables that are required:</span></span>
+<span data-ttu-id="52baf-125">นอกจากนี้ ถ้าคุณต้องการย้ายข้อมูลการตั้งค่าจากสภาพแวดล้อมหนึ่งไปยังอีกพื้นที่หนึ่ง เอนทิตีที่พร้อมใช้งานสำหรับตารางการตั้งค่าที่จำเป็นต้องใช้:</span><span class="sxs-lookup"><span data-stu-id="52baf-125">Additionally, if you must move setup data from one environment to another, the following entities area available for the setup tables that are required:</span></span>
 
-- <span data-ttu-id="d6408-126">การตั้งค่าแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="d6408-126">Cash flow forecast external source setup</span></span>
-- <span data-ttu-id="d6408-127">การตั้งค่านิติบุคคลที่เป็นแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="d6408-127">Cash flow forecast external source legal entity setup</span></span>
+- <span data-ttu-id="52baf-126">การตั้งค่าแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="52baf-126">Cash flow forecast external source setup</span></span>
+- <span data-ttu-id="52baf-127">การตั้งค่านิติบุคคลที่เป็นแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="52baf-127">Cash flow forecast external source legal entity setup</span></span>
 
-#### <a name="privacy-notice"></a><span data-ttu-id="d6408-128">ประกาศความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="d6408-128">Privacy notice</span></span>
-<span data-ttu-id="d6408-129">การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="d6408-129">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
+#### <a name="privacy-notice"></a><span data-ttu-id="52baf-128">ประกาศความเป็นส่วนตัว</span><span class="sxs-lookup"><span data-stu-id="52baf-128">Privacy notice</span></span>
+<span data-ttu-id="52baf-129">การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด</span><span class="sxs-lookup"><span data-stu-id="52baf-129">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

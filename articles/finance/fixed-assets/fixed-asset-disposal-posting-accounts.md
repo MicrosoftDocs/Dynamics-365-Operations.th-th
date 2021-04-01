@@ -17,28 +17,31 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67d9c386b5da90918226e8b1a224bf628c65702b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 92b653d50744884d56c19601cff74c420eb1b397
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989013"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240981"
 ---
-# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="61c5b-103">บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="61c5b-103">Fixed asset disposal posting accounts</span></span>
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="5e4c5-103">บัญชีการลงรายการการตัดจำหน่ายสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="5e4c5-103">Fixed asset disposal posting accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="61c5b-104">หัวข้อนี้อธิบายวิธีการตั้งค่าการลงรายการบัญชีของบัญชีแยกประเภททั่วไปสำหรับการตัดจำหน่ายสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="61c5b-104">This topic explains how to set up general ledger posting accounts for disposing of assets.</span></span>
+<span data-ttu-id="5e4c5-104">หัวข้อนี้อธิบายวิธีการตั้งค่าการลงรายการบัญชีของบัญชีแยกประเภททั่วไปสำหรับการตัดจำหน่ายสินทรัพย์</span><span class="sxs-lookup"><span data-stu-id="5e4c5-104">This topic explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-<span data-ttu-id="61c5b-105">ในหน้าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวรบนแท็บด่วนบัญชีแยกประเภท ให้เลือกการตัดจำหน่าย - การขายและการตัดจำหน่าย - ของเสีย เพื่อตั้งค่าการลงรายการบัญชีในบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="61c5b-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
+<span data-ttu-id="5e4c5-105">ในหน้าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวรบนแท็บด่วนบัญชีแยกประเภท ให้เลือกการตัดจำหน่าย - การขายและการตัดจำหน่าย - ของเสีย เพื่อตั้งค่าการลงรายการบัญชีในบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="5e4c5-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-<span data-ttu-id="61c5b-106">สำหรับทั้งสองชนิดธุรกรรม บัญชีแยกประเภทจะถูกเครดิตสำหรับมูลค่าการตัดจำหน่ายของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="61c5b-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="61c5b-107">มีการลงรายการบัญชีเดบิตไปยังบัญชีตรงข้าม ซึ่งอาจเป็น ตัวอย่างเช่น บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="61c5b-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="61c5b-108">ถ้าสินทรัพย์ถาวรถูกขายให้กับลูกค้า จะมีการใช้บัญชีลูกค้าแทนที่บัญชีตรงข้าม</span><span class="sxs-lookup"><span data-stu-id="61c5b-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
+<span data-ttu-id="5e4c5-106">สำหรับทั้งสองชนิดธุรกรรม บัญชีแยกประเภทจะถูกเครดิตสำหรับมูลค่าการตัดจำหน่ายของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="5e4c5-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="5e4c5-107">มีการลงรายการบัญชีเดบิตไปยังบัญชีตรงข้าม ซึ่งอาจเป็น ตัวอย่างเช่น บัญชีธนาคาร</span><span class="sxs-lookup"><span data-stu-id="5e4c5-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="5e4c5-108">ถ้าสินทรัพย์ถาวรถูกขายให้กับลูกค้า จะมีการใช้บัญชีลูกค้าแทนที่บัญชีตรงข้าม</span><span class="sxs-lookup"><span data-stu-id="5e4c5-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-<span data-ttu-id="61c5b-109">คลิกการตัดจำหน่าย และจากนั้นคลิกการขายหรือเศษซาก และจากนั้นตั้งค่ารายละเอียดของบัญชีเพื่อกลับรายการมูลค่าตามบัญชีสุทธิของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="61c5b-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="61c5b-110">คุณยังสามารถป้อนข้อมูลในฟิลด์มูลค่าการลงรายการบัญชีและมูลค่าการขาย ในหน้าพารามิเตอร์การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="61c5b-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
+<span data-ttu-id="5e4c5-109">คลิกการตัดจำหน่าย และจากนั้นคลิกการขายหรือเศษซาก และจากนั้นตั้งค่ารายละเอียดของบัญชีเพื่อกลับรายการมูลค่าตามบัญชีสุทธิของสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="5e4c5-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="5e4c5-110">คุณยังสามารถป้อนข้อมูลในฟิลด์มูลค่าการลงรายการบัญชีและมูลค่าการขาย ในหน้าพารามิเตอร์การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="5e4c5-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-<span data-ttu-id="61c5b-111">ธุรกรรมการตัดจำหน่ายสำหรับสินทรัพย์ในกลุ่มสินทรัพย์มูลค่าต่ำ ลดมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำตามยอดเงินที่ตัดจำหน่ายเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="61c5b-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="61c5b-112">อย่างไรก็ตาม เมื่อการขายสินทรัพย์นั้นเกินมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำ มูลค่าตามบัญชีสุทธิจะถูกลดลงเป็นศูนย์</span><span class="sxs-lookup"><span data-stu-id="61c5b-112">However, when the sale of an asset exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
-
-
+<span data-ttu-id="5e4c5-111">ธุรกรรมการตัดจำหน่ายสำหรับสินทรัพย์ในกลุ่มสินทรัพย์มูลค่าต่ำ ลดมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำตามยอดเงินที่ตัดจำหน่ายเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="5e4c5-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="5e4c5-112">อย่างไรก็ตาม เมื่อการขายสินทรัพย์นั้นเกินมูลค่าตามบัญชีสุทธิของกลุ่มสินทรัพย์มูลค่าต่ำ มูลค่าตามบัญชีสุทธิจะถูกลดลงเป็นศูนย์</span><span class="sxs-lookup"><span data-stu-id="5e4c5-112">However, when the sale of an asset exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
