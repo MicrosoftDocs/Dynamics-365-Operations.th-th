@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252569"
 ---
 # <a name="media-gallery-module"></a>โมดูลแกลเลอรี่สื่อ
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูลแกลเลอรี่สื่อ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โมดูลแกลเลอรี่สื่อแสดงรูปภาพอย่างน้อยหนึ่งรูปภาพในมุมมองแกลเลอรี โมดูลแกลเลอรี่สื่อสนับสนุนภาพขนาดย่อ ซึ่งสามารถจัดเรียงอย่างใดอย่างหนึ่งตามแนวนอน (โดยเป็นแถวด้านล่างรูป) หรือในแนวตั้ง (เป็นคอลัมน์ที่อยู่ถัดจากรูปภาพ) โมดูลแกลเลอรี่สื่อยังให้ความสามารถที่เปิดใช้งานการซูมภาพ (ขยาย) หรือดูในโหมดเต็มหน้าจอ เมื่อต้องการแสดงในโมดูลแกลเลอรี่สื่อ รูปภาพต้องมีอยู่ในไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ในปัจจุบันโมดูลแกลเลอรี่สื่อสนับสนุนรูปภาพเท่านั้น
 
