@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237527"
 ---
 # <a name="asset-leasing-conventions"></a>แบบแผนการเช่าสินทรัพย์
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายแบบแผนสินทรัพย์ที่ให้เช่า แบบแผนการเช่าใช้ในการระบุวันที่เริ่มต้นของสมุดบัญชีการเช่า หากแบบแผนการเช่าได้รับการตั้งค่าเป็น **ไม่มี** วันที่เริ่มต้นจะเหมือนกับวันที่เริ่มต้นของการเช่า (กล่าวคือ ค่าของฟิลด์ **วันที่เริ่มต้นการเช่า** ) หากแบบแผนการเช่าได้รับการตั้งค่าเป็น **เต็มเดือน** วันที่เริ่มต้นคือวันแรกของเดือนที่เป็นวันที่เริ่มต้นของสัญญาเช่า
 
