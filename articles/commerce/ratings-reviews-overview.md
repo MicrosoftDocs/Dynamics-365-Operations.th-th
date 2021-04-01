@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของการให้คะแนนและบทวิจารณ์
-description: หัวข้อนี้จะครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 manager: annbe
 ms.date: 10/01/2019
@@ -17,19 +17,19 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ed31982dad8af4509d8dd0615ae53e3d3806640f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16c9411687acc4d9cb46b09ab2f258855c53df96
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979789"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243843"
 ---
 # <a name="ratings-and-reviews-overview"></a>ภาพรวมของการให้คะแนนและบทวิจารณ์
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
