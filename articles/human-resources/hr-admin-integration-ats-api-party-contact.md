@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38f53d402ebe9f9f358281dd3996797a20923056
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: f5a942ef93af4348404c74d8b15d98ae6fa796ff
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125484"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466747"
 ---
 # <a name="party-contact"></a>ผู้ติดต่อฝ่าย
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายเอนทิตี้ผู้ติดต่อฝ่ายสำหรับ Dynamics 365 Human Resources
 
@@ -60,7 +62,7 @@ ms.locfileid: "5125484"
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
 | **รหัสเอนทิตี้ผู้ติดต่อฝ่าย**<br>mshr_dirpartycontactentityid<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ | ตัวระบุเฉพาะที่ระบบสร้างขึ้นสำหรับบันทึกเอนทิตี้ |
-| **หมายเลขฝ่าย**<br>msdyn_partynumber<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | รหัสของบันทึกฝ่าย (บุคคล) ที่เกี่ยวข้อง |
+| **หมายเลขฝ่าย**<br>mshr_partynumber<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | รหัสของบันทึกฝ่าย (บุคคล) ที่เกี่ยวข้อง |
 | **ค่ารหัสบุคคล**<br>_mshr_fk_person_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_dirpersonentityid ของ mshr_dirpersonentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของเรกคอร์ดเอนทิตี้ฝ่าย (บุคคล) |
 | **รหัสสถานที่**<br>mshr_locationid<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | รหัสสถานที่เก็บของบันทึกที่อยู่ ตั้งค่าในเอนทิตี้ mshr_logisticspostaladdresslocationcdsentity |
 | **คำอธิบาย**<br>mshr_description<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | คำอธิบายของรายละเอียดผู้ติดต่อ |

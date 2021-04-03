@@ -3,7 +3,7 @@ title: ภาพรวมของยุโรป
 description: หัวข้อนี้แสดงการเชื่อมโยงไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 Finance สำหรับยุโรป
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099910"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557435"
 ---
 # <a name="europe-overview"></a>ภาพรวมของยุโรป
 
@@ -40,6 +40,7 @@ ms.locfileid: "5099910"
 - [การรายงานรายการขายใน EU](emea-eu-sales-list.md)
 - [การปรับปรุงอัตราแลกเปลี่ยน](emea-exchange-rate-adjustments.md)
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
+- [แนวทางด้านการเงิน (แบบใช้ทั่วโลก) เกี่ยวกับผลกระทบของ Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [การรวมบริการทางการเงิน (ESR)](emea-fiscal-service-integration.md)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
 - [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,7 +66,7 @@ ms.locfileid: "5099910"
 - [ออกใบรับรองรายการของยุโรป](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [มาตรฐานที่สนับสนุนสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์](emea-oioubl-standards-electronic-invoicing.md)
 - [การสร้างใบแจ้งหนี้อิเล็กทรอนิกส์ที่บังคับ](emea-eur-forced-einvoices.md)
-- [การอ้างอิงใบแจ้งหนี้ต้นฉบับ (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
+- [การอ้างอิงใบแจ้งหนี้เดิม (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
 - [ค้นหาฝ่ายโดยใช้รหัส VAT](tasks/eur-00015-party-search-vat-id.md)
 - [เครื่องมือการสร้างการอ้างอิงการชำระเงิน](tasks/ee-00015-payment-reference-generation-tool.md)
 - [รายงานใบสำคัญการชำระเงิน](emea-eur-payment-slip-report-giro.md)
