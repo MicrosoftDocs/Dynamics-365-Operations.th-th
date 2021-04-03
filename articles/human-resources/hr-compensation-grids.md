@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13415f68f41555f3e86cbe699cf921e9a2cf6d5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: b7e68ec4d172ced7ac66837e9580971d22b23b5f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114380"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465761"
 ---
 # <a name="set-up-compensation-grids"></a>ตั้งค่ากริดค่าตอบแทน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 กริดค่าตอบแทนจะใช้ในการกำหนด และรักษาโครงสร้างค่าตอบแทนสำหรับแผนค่าตอบแทนที่คงที่  กริดค่าตอบแทนสามารถใช้ร่วมกันระหว่างหลายแผน หรือคัดลอกมาเมื่อสร้างแผนค่าตอบแทนใหม่   ก่อนที่จะสร้างกริดค่าตอบแทน ระดับ และจุดอ้างอิงต้องถูกตั้งค่าก่อน  ตัวอย่างนี้จะสร้างชนิดของระดับใหม่ของกริดค่าตอบแทนโดยใช้ข้อมูลสาธิตสำหรับระดับ และจุดอ้างอิง  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 

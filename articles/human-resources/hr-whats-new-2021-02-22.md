@@ -1,0 +1,108 @@
+---
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 22 กุมภาพันธ์ 2021
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 22 กุมภาพันธ์ 2021
+author: marcelbf
+manager: tfehr
+ms.date: 02/22/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-human-resources
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: marcelbf
+ms.search.validFrom: 2021-02-22
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 363ea7d47a46234b2854a073029859c31277d88f
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579366"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 22 กุมภาพันธ์ 2021
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+
+## <a name="in-this-release"></a>ในการเผยแพร่นี้
+
+รุ่นนี้ประกอบด้วยลักษณะการทำงานและการแก้ไขปัญหาบักใหม่ๆ ดังต่อไปนี้ การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3988
+
+### <a name="new-features"></a>ลักษณะการทำงานใหม่ๆ
+
+โดยทั่วไปลักษณะการทำงานต่อไปนี้จะพร้อมใช้งานกับรุ่นนี้
+
+| ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
+| --- | --- | --- |
+| แอป Dynamics 365 Human Resources สำหรับ Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
+
+### <a name="bug-fixes"></a>การแก้ไขปัญหา
+
+การแก้ไขปัญหาต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้
+
+> [!NOTE]
+> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ พวกเราอาจมีการอัปเดตในหัวข้อนี้เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+
+| หมายเลขปัญหา | ออก |  คำอธิบาย |
+| --- | --- | --- |
+| 529994 | การปรับเปลี่ยนฟิลด์ **เรียกว่า** บนฟอร์ม **ผู้ปฏิบัติงาน** ไม่ได้ทริกเกอร์การอัปเดต Dataverse | แก้ไขปัญหาที่ Dataverse ไม่อัปเดตเมื่ออัปเดตฟิลด์ **เรียกว่า** บนฟอร์ม **ผู้ปฏิบัติงาน** |
+| 532651 | รายงานการวิเคราะห์ค่าตอบแทน PBI ไม่ได้ใช้การแปลงสกุลเงิน เมื่อคํานวณเมตริกสำหรับบริษัททั้งหมด | แก้ไขปัญหาที่รายงาน PBI การวิเคราะห์ค่าตอบแทน ไม่ได้ทำการแปลงสกุลเงินอย่างถูกต้อง |
+| 552226 | การประมวลผลเหตุการณ์ของชีวิตปิดและเปิดแผนอีกหลายครั้งสำหรับเหตุการณ์ของชีวิตเดียว  | แก้ไขปัญหาที่พนักงานอยู่ในนิติบุคคลหลายราย และมีเหตุการณ์ของชีวิตเกิดขึ้น เรกคอร์ดเหตุการณ์ของชีวิตจะถูกสร้างขึ้นสำหรับแต่ละนิติบุคคลที่พนักงานนั้นอยู่ เมื่อประมวลผลเหตุการณ์ของชีวิต ต้องเลือกนิติบุคคลที่จะประมวลผล อย่างไรก็ตาม ตรรกะการประมวลผลไม่ได้ควบคุมตัวเองให้กับนิติบุคคลนี้ แต่จะประมวลผลนิติบุคคลทั้งหมด และปิด และเปิดแผนที่เลือกอีกครั้งในนิติบุคคล การดำเนินการเหตุการณ์ของชีวิตนี้ประมวลผลหลายครั้งในนิติบุคคลเดียวกัน ซึ่งส่งผลให้มีการปิด/เปิดแผนแต่ละแผนอีกครั้งหลายครั้งที่ได้รับผลกระทบจากเหตุการณ์ของชีวิต |
+| 518064 | มีเพียงการเลือกที่ขึ้นอยู่กับแผนที่มีสิทธิ์เดียว เมื่อมีการทำเครื่องหมายผู้ถูกกำหนดเริ่มต้นมากกว่าหนึ่งรายการ | แก้ไขปัญหาที่ผู้ถูกกำหนดเริ่มต้นหลายรายไม่ได้ถูกเลือกโดยอัตโนมัติในแผนที่มีสิทธิ์ ขณะนี้คุณยังสามารถกำหนดผู้รับผลประโยชน์หลัก เป็นผู้ติดต่อส่วนบุคคลได้แล้ว ผู้รับผลประโยชน์หลักแสดงรายการเป็น 100% ในแผนมีสิทธิ์ เมื่อมีผู้รับผลประโยชน์หลายคน |
+| 552365 | ใช้ฐานข้อมูลของคุณเอง (BYOD) ส่งออกงานล้มเหลว หลังจากอัปเกรดเป็นการอัปเดตแพลตฟอร์ม 40 | แก้ไขปัญหาที่การส่งออก BYOD ล้มเหลว หลังจากใช้การอัปเดตแพลตฟอร์ม 40 กับสภาพแวดล้อม |
+| 547123 | จํากัดจํานวนงานที่แบบสอบถามในรายการสิ่งที่ต้องทำในแดชบอร์ด | ขณะนี้จํานวนงานที่แสดงในรายการสิ่งที่ต้องทำถูกจํากัดที่ 15 รายการ เพื่อแก้ปัญหาประสิทธิภาพที่เกิดจากจํานวนงานที่พยายามโหลดมากเกินไป |
+
+## <a name="in-preview"></a>ในการแสดงตัวอย่าง
+
+ลักษณะการทำงานใหม่ต่อไปนี้อยู่ในการแสดงตัวอย่าง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดและปิดคุณลักษณะ ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+| ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
+| --- | --- | --- |
+| มุมมองข้ามบริษัทของการลางานสำหรับผู้จัดการ | [มุมมองข้ามบริษัทของการลางานของพนักงานสำหรับผู้จัดการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
+| จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ | [การจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [การจํากัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)|
+
+## <a name="coming-soon"></a>เร็วๆ นี้
+
+| ลักษณะการทำงาน | รายละเอียด |
+| --- | --- |
+| ทักษะที่ป้อนโดยผู้จัดการของพนักงานสามารถอนุมัติโดยอัตโนมัติโดยลำดับงานได้ | เร็วๆ นี้ |
+
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+
+## <a name="terminology-updates-for-microsoft-dataverse"></a>การอัปเดตศัพท์ Microsoft Dataverse
+
+มีผลบังคับใช้ พฤศจิกายน 2020 Common Data Service เปลี่ยนชื่อเป็น [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) ดู [ประกาศอย่างเป็นทางการ](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) ของบล็อก Power Apps ในการเรียนรู้เพิ่มเติม พร้อมกับการเปลี่ยนแปลงชื่อนี้ มีการอัปเดตศัพท์ใน Dataverse บางอย่างแล้ว ตัวอย่างเช่น *เอนทิตี้* ตอนนี้เป็น *ตาราง* และ *ฟิลด์* ตอนนี้เป็น *คอลัมน์* สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การอัปเดตคำศัพท์](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+ในการเผยแพร่นี้ ศัพท์ที่เกี่ยวข้องกับการรวม Dynamics 365 Human Resources ได้ถูก Dataverse อัปเดตตลอดทั้งแอปพลิเคชันเพื่อสะท้อนถึงการเปลี่ยนแปลงเหล่านี้ ตัวอย่างเช่น ขณะนี้ฟอร์ม **การรวม Common Data Service** เป็น **การรวม Microsoft Dataverse**
+
+หากต้องการทราบเกี่ยวกับการรวม Dynamics 365 Human Resources ให้ดูที่ Microsoft Dataverse [การตั้งค่าคอนฟิกการรวม Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) และ [การตั้งค่าคอนฟิกตารางเสมือน Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
+
+## <a name="updates-to-service-deployment"></a>อัปเดตเป็นการปรับใช้บริการ
+
+ตั้งแต่การนำออกใช้วันที่ 22 กุมภาพันธ์ 2021 เราจะปรับปรุงการปรับใช้การอัปเดตบริการภูมิภาคของเรา การปรับปรุงจะรวมการหมุนเวียนใบสั่งในภูมิภาคทั่วโลกที่ได้รับการอัปเดตบริการสำหรับบริการทรัพยากรบุคคล และการแก้ไขเวลารอระหว่างขั้นตอนการอัปเดต การเปลี่ยนแปลงเหล่านี้จะให้แนวทางที่พึงปฏิบัติแก่เรามากขึ้นเกี่ยวกับ Safe Deployment Practices (SDP) เพื่อปรับปรุงเสถียรภาพของบริการ คุณภาพ และความสามารถในการสนับสนุน
+
+เราจะติดตามระยะความถี่ของการปรับใช้ในสองสัปดาห์ต่อไป อย่างไรก็ตาม ลูกค้าอาจสังเกตเห็นว่าการอัปเดตมักใช้กับสภาพแวดล้อมทรัพยากรบุคคลของพวกเขาในวันต่างกันของวงจรสองสัปดาห์มากกว่าในรุ่นก่อนหน้า
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตบริการ ให้ดูที่ [กระบวนการอัปเดต](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process)
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
+[จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

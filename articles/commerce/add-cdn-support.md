@@ -1,6 +1,6 @@
 ---
 title: เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)
-description: หัวข้อนี้อธิบายวิธีการเพิ่มเครือข่ายการจัดส่งเนื้อหา (CDN) ไปยังสภาพแวดล้อม Microsoft Dynamics 365 Commerce ของคุณ
+description: หัวข้อนี้อธิบายวิธีการเพิ่มเครือข่ายการจัดส่งเนื้อหา (CDN) ไปยังสภาพแวดล้อม Microsoft Microsoft Dynamics 365 Commerce ของคุณ
 author: brianshook
 manager: annbe
 ms.date: 07/31/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985965"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582730"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>เพิ่มการสนับสนุนสำหรับเครือข่ายการให้บริการเนื้อหา (CDN)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มเครือข่ายการจัดส่งเนื้อหา (CDN) ไปยังสภาพแวดล้อม Microsoft Dynamics 365 Commerce ของคุณ
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีการเพิ่มเครือข่ายการจัดส่งเนื้อหา (CDN) ไปยังสภาพแวดล้อม Microsoft Microsoft Dynamics 365 Commerce ของคุณ
 
 เมื่อคุณตั้งค่าสภาพแวดล้อมของอีคอมเมิร์ซ ใน Dynamics 365 Commerce คุณสามารถตั้งค่าคอนฟิกให้ทำงานร่วมกับบริการ CDN ของคุณได้ 
 
@@ -96,8 +93,8 @@ ms.locfileid: "4985965"
 1. ในฟิลด์ **ชื่อ** ให้ป้อน **ค่าเริ่มต้น**
 1. ในฟิลด์ **โพรโทคอลที่ยอมรับ** เลือก **HTTP และ HTTPS**
 1. ในฟิลด์ **โฮสต์ Frontend** ให้ป้อน **dynamics-ecom-tenant-name.azurefd.net**
-1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบน ให้ป้อน **/\** _
-1. ภายใต้ _*รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
+1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบนให้ป้อน **/\***
+1. ภายใต้ **รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
 1. ในฟิลด์ **กลุ่ม Backend** ให้เลือก **ecom-backend**
 1. ในกลุ่มฟิลด์ **โพรโทคอลการส่งต่อ** เลือกตัวเลือก **การร้องขอการจับคู่** 
 1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
@@ -109,8 +106,8 @@ ms.locfileid: "4985965"
 1. ในฟิลด์ **ชื่อ** ให้ป้อน **สถิติ**
 1. ในฟิลด์ **โพรโทคอลที่ยอมรับ** เลือก **HTTP และ HTTPS**
 1. ในฟิลด์ **โฮสต์ Frontend** ให้ป้อน **dynamics-ecom-tenant-name.azurefd.net**
-1. ภายใต้ **รูปแบบที่เข้ากัน** ในฟิลด์ด้านบน **/\_msdyn365/\_scnr/\** _
-1. ภายใต้ _*รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
+1. ภายใต้ **Patterns to match** ในฟิลด์ด้านบนให้ป้อน **/\_msdyn365/\_scnr/\***
+1. ภายใต้ **รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
 1. ในฟิลด์ **กลุ่ม Backend** ให้เลือก **ecom-backend**
 1. ในกลุ่มฟิลด์ **โพรโทคอลการส่งต่อ** เลือกตัวเลือก **การร้องขอการจับคู่**
 1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
@@ -143,25 +140,7 @@ ms.locfileid: "4985965"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
-
-[ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
-
-[สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
-
-[เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์](associate-site-online-store.md)
-
-[จัดการไฟล์ robots.txt](manage-robots-txt-files.md)
-
-[อัพโหลดการเปลี่ยนเส้นทาง URL จำนวนมาก](upload-bulk-redirects.md)
-
-[ตั้งค่าผู้เช่า B2C ใน Commerce](set-up-B2C-tenant.md)
-
-[ตั้งค่าหน้าแบบกำหนดเองสำหรับการล็อกอินของผู้ใช้](custom-pages-user-logins.md)
-
-[ตั้งค่าคอนฟิกผู้เช่า B2C หลายรายในสภาพแวดล้อม Commerce](configure-multi-B2C-tenants.md)
-
-[เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
+[ตัวเลือกการใช้งานเครือข่ายการจัดส่งเนื้อหา](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

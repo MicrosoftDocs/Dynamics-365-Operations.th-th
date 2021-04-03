@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131804"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500585"
 ---
 # <a name="creating-work-orders"></a>การสร้างใบสั่งงาน
 
@@ -62,8 +62,7 @@ ms.locfileid: "5131804"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>จัดกลุ่มรายการใบสั่งงานที่สร้างโดยอัตโนมัติ ในขณะที่รันแผนการบำรุงรักษา
 
-> [!IMPORTANT]
-> ฟังก์ชันการทำงานที่อธิบายในหัวส่วนพร้อมใช้งานเป็นส่วนหนึ่งของการเผยแพร่รุ่นพรีวิว เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้การแสดงตัวอย่าง ให้ดูที่ [FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 คุณลักษณะนี้จะช่วยให้คุณสามารถกําหนดกฎสำหรับการจัดกลุ่มรายการใบสั่งงานภายใต้ใบสั่งงานหนึ่งๆ เมื่อมีการตั้งค่าระบบให้สร้างใบสั่งงานโดยอัตโนมัติ โดยยึดตามแผนการบำรุงรักษา ก่อนหน้านี้ ใบสั่งงานที่สร้างโดยอัตโนมัติสามารถมีรายการได้เพียงรายการเดียว อย่างไรก็ตาม ขณะนี้คุณสามารถจัดกลุ่มใบสั่งงานตาม ตัวอย่างเช่น สินทรัพย์ ชนิดสินทรัพย์ หรือตำแหน่งที่ทำงาน (สามารถจัดกลุ่มใบสั่งงานที่สร้างขึ้นด้วยตนเองด้วยวิธีนี้ได้ ตามที่อธิบายไว้ในส่วนก่อนหน้านี้ของหัวข้อนี้)
 

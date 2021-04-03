@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141915"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579983"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>รวมการจัดซื้อระหว่าง Supply Chain Management และ Field Service
 
@@ -47,8 +46,8 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-+ **การรวมแบบสองทิศทาง** – สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจการรวมแบบสองทิศทาง](dual-write-home-page.md#dual-write-setup)
-+ **Dynamics 365 Field Service** – สำหรับข้อมูลเพิ่มเติม ดูที่ [วิธีการติดตั้ง Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)
+- **การรวมแบบสองทิศทาง** – สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจการรวมแบบสองทิศทาง](dual-write-home-page.md#dual-write-setup)
+- **Dynamics 365 Field Service** – สำหรับข้อมูลเพิ่มเติม ดูที่ [วิธีการติดตั้ง Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service)
 
 เมื่อเปิดใช้งานใน Microsoft Dataverse แล้ว การรวมแบบสองทิศทางและ Field Service จะแนะนำชั้นโซลูชันต่าง ๆ ที่ขยายสภาพแวดล้อมด้วยข้อมูลเมตา ฟอร์ม มุมมอง และตรรกะใหม่ โซลูชันเหล่านี้สามารถเปิดใช้งานใดก่อนก็ได้ ถึงแม้ว่าโดยปกติแล้วคุณจะติดตั้งตามลำดับที่ระบุที่นี่:
 
@@ -57,8 +56,8 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 3. **Supply Chain Management แบบขยาย** – Supply Chain Management แบบขยายจะถูกติดตั้งโดยอัตโนมัติเมื่อการรวมแบบสองทิศทางเปิดใช้งานในสภาพแวดล้อม 
 4. **โซลูชัน OneFSSCM** – OneFSSCM จะถูกติดตั้งโดยอัตโนมัติโดยโซลูชันใดก็ตาม (Field Service หรือ Supply Chain Management) จะถูกติดตั้งหลังสุด
 
-    + ถ้ามีการติดตั้ง Field Service ในสภาพแวดล้อมแล้ว และคุณเปิดใช้งานการรวมแบบสองทิศทาง ซึ่งติดตั้ง Supply Chain Management แบบขยาย OneFSSCM จะถูกติดตั้ง
-    + ถ้ามีการติดตั้ง Supply Chain Management แบบขยาย ในสภาพแวดล้อมแล้ว และคุณติดตั้ง Field Service OneFSSCM จะถูกติดตั้ง
+    - ถ้ามีการติดตั้ง Field Service ในสภาพแวดล้อมแล้ว และคุณเปิดใช้งานการรวมแบบสองทิศทาง ซึ่งติดตั้ง Supply Chain Management แบบขยาย OneFSSCM จะถูกติดตั้ง
+    - ถ้ามีการติดตั้ง Supply Chain Management แบบขยาย ในสภาพแวดล้อมแล้ว และคุณติดตั้ง Field Service OneFSSCM จะถูกติดตั้ง
 
 ## <a name="initial-synchronization"></a>การซิงโครไนส์ครั้งแรก
 
@@ -124,22 +123,22 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 ## <a name="supported-scenarios"></a>สถานการณ์จำลองที่ได้รับการสนับสนุน
 
-+ ใบสั่งซื้อสามารถสร้างขึ้นและอัปเดตได้โดยผู้ใช้ Dataverse อย่างไรก็ตาม กระบวนการและข้อมูลจะถูกควบคุมโดย Supply Chain Management ข้อจำกัดจากการอัปเดตในคอลัมน์ใบสั่งซื้อใน Supply Chain Management มีผลบังคับเมื่อการอัปเดตมาจาก Field Service ตัวอย่างเช่น คุณไม่สามารถอัปเดตใบสั่งซื้อถ้าใบสั่งซื้อมีการสรุปเป็นขั้นสุดท้ายแล้ว 
-+ ถ้าใบสั่งซื้อถูกควบคุมโดยการจัดการการเปลี่ยนแปลงใน Supply Chain Management ผู้ใช้ Field Service จะสามารถอัปเดตใบสั่งซื้อได้เฉพาะเมื่อสถานะการอนุมัติของ Supply Chain Management เป็น *แบบร่าง* เท่านั้น
-+ หลายคอลัมน์มีการจัดการโดย Supply Chain Management เท่านั้น จึงไม่สามารถอัปเดตใน Field Service ได้ หากต้องการทราบคอลัมน์ที่สามารถอัปเดตได้ ให้ตรวจทานตารางการแม็ปในผลิตภัณฑ์ เพื่อความเรียบง่าย คอลัมน์ส่วนใหญ่เหล่านี้ถูกตั้งค่าเป็นอ่านอย่างเดียวบนหน้า Dataverse 
+- ใบสั่งซื้อสามารถสร้างขึ้นและอัปเดตได้โดยผู้ใช้ Dataverse อย่างไรก็ตาม กระบวนการและข้อมูลจะถูกควบคุมโดย Supply Chain Management ข้อจำกัดจากการอัปเดตในคอลัมน์ใบสั่งซื้อใน Supply Chain Management มีผลบังคับเมื่อการอัปเดตมาจาก Field Service ตัวอย่างเช่น คุณไม่สามารถอัปเดตใบสั่งซื้อถ้าใบสั่งซื้อมีการสรุปเป็นขั้นสุดท้ายแล้ว 
+- ถ้าใบสั่งซื้อถูกควบคุมโดยการจัดการการเปลี่ยนแปลงใน Supply Chain Management ผู้ใช้ Field Service จะสามารถอัปเดตใบสั่งซื้อได้เฉพาะเมื่อสถานะการอนุมัติของ Supply Chain Management เป็น *แบบร่าง* เท่านั้น
+- หลายคอลัมน์มีการจัดการโดย Supply Chain Management เท่านั้น จึงไม่สามารถอัปเดตใน Field Service ได้ หากต้องการทราบคอลัมน์ที่สามารถอัปเดตได้ ให้ตรวจทานตารางการแม็ปในผลิตภัณฑ์ เพื่อความเรียบง่าย คอลัมน์ส่วนใหญ่เหล่านี้ถูกตั้งค่าเป็นอ่านอย่างเดียวบนหน้า Dataverse 
 
     ตัวอย่างเช่น คอลัมน์ข้อมูลราคาจะจัดการโดย Supply Chain Management Supply Chain Management มีข้อตกลงทางการค้าที่ Field Service สามารถได้รับประโยชน์ คอลัมน์ เช่น **ราคาต่อหน่วย** **ส่วนลด** และ **ยอดเงินสุทธิ** จะมาจาก Supply Chain Management เท่านั้น เพื่อให้แน่ใจว่าราคาจะถูกซิงค์กับ Field Service คุณควรใช้คุณลักษณะ **ซิงค์** บนหน้า **ใบสั่งซื้อ** และ **ผลิตภัณฑ์ตามใบสั่งซื้อ** ใน Dataverse เมื่อมีการป้อนข้อมูลใบสั่งซื้อแล้ว สำหรับข้อมูลเพิ่มเติม ให้ดู [ซิงค์กับข้อมูลการจัดซื้อ Dynamics 365 Supply Chain Management ตามความต้องการ](#sync-procurement)
 
-+ คอลัมน์ **ผลรวม** พร้อมใช้งานเฉพาะใน Field Service เท่านั้น เนื่องจากไม่มีผลรวมที่เป็นปัจจุบันของใบสั่งซื้อใน Supply Chain Management ยอดรวมใน Supply Chain Management จะคํานวณตามพารามิเตอร์หลายตัวที่ไม่พร้อมใช้งานใน Field Service
-+ รายการใบสั่งซื้อที่มีการระบุเฉพาะประเภทการจัดซื้อ หรือที่ผลิตภัณฑ์ที่ระบุเป็นสินค้าที่มีชนิดเป็นผลิตภัณฑ์ *บริการ* หรือชนิดผลิตภัณฑ์ Field Service สามารถเริ่มต้นได้เฉพาะใน Supply Chain Management เท่านั้น จากนั้นรายการจะซิงค์ Dataverse และมองเห็นได้ใน Field Service
-+ ถ้ามีการติดตั้งเฉพาะ Field Service เท่านั้น ไม่ใช่ Supply Chain Management คอลัมน์ **คลังสินค้า** ถือเป็นข้อมูลบังคับในใบสั่งซื้อ อย่างไรก็ตาม ถ้ามีการติดตั้ง Supply Chain Management ข้อกําหนดนี้ไม่เข้มงวด เนื่องจาก Supply Chain Management อนุญาตให้มีการระบุบรรทัดใบสั่งซื้อที่ไม่มีการระบุคลังสินค้าในบางสถานการณ์
-+ ใบรับสินค้า (การรับใบสั่งซื้อใน Dataverse) มีการจัดการโดย Supply Chain Management และไม่สามารถสร้างจาก Dataverse ถ้ามีการติดตั้ง Supply Chain Management ใบรับสินค้าจาก Supply Chain Management จะถูกซิงค์จาก Supply Chain Management ไปยัง Dataverse
-+ ขีดจำกัดการรับสินค้าต่ำกว่าปริมาณการสั่งอนุญาตใน Supply Chain Management โซลูชัน OneFSSCM จะเพิ่มตรรกะ เพื่อให้เมื่อสร้างหรืออัปเดตรายการใบรับสินค้า (หรือผลิตภัณฑ์ในใบรับสินค้าตามใบสั่งซื้อใน Dataverse) แถวสมุดรายวันสินค้าคงคลังจะถูกสร้างขึ้นใน Dataverse เพื่อปรับปรุงปริมาณที่เหลืออยู่ซึ่งอยู่ระหว่างสถานการณ์ขีดจำกัดการรับสินค้าต่ำกว่าปริมาณการสั่งดังกล่าว
+- คอลัมน์ **ผลรวม** พร้อมใช้งานเฉพาะใน Field Service เท่านั้น เนื่องจากไม่มีผลรวมที่เป็นปัจจุบันของใบสั่งซื้อใน Supply Chain Management ยอดรวมใน Supply Chain Management จะคํานวณตามพารามิเตอร์หลายตัวที่ไม่พร้อมใช้งานใน Field Service
+- รายการใบสั่งซื้อที่มีการระบุเฉพาะประเภทการจัดซื้อ หรือที่ผลิตภัณฑ์ที่ระบุเป็นสินค้าที่มีชนิดเป็นผลิตภัณฑ์ *บริการ* หรือชนิดผลิตภัณฑ์ Field Service สามารถเริ่มต้นได้เฉพาะใน Supply Chain Management เท่านั้น จากนั้นรายการจะซิงค์ Dataverse และมองเห็นได้ใน Field Service
+- ถ้ามีการติดตั้งเฉพาะ Field Service เท่านั้น ไม่ใช่ Supply Chain Management คอลัมน์ **คลังสินค้า** ถือเป็นข้อมูลบังคับในใบสั่งซื้อ อย่างไรก็ตาม ถ้ามีการติดตั้ง Supply Chain Management ข้อกําหนดนี้ไม่เข้มงวด เนื่องจาก Supply Chain Management อนุญาตให้มีการระบุบรรทัดใบสั่งซื้อที่ไม่มีการระบุคลังสินค้าในบางสถานการณ์
+- ใบรับสินค้า (การรับใบสั่งซื้อใน Dataverse) มีการจัดการโดย Supply Chain Management และไม่สามารถสร้างจาก Dataverse ถ้ามีการติดตั้ง Supply Chain Management ใบรับสินค้าจาก Supply Chain Management จะถูกซิงค์จาก Supply Chain Management ไปยัง Dataverse
+- ขีดจำกัดการรับสินค้าต่ำกว่าปริมาณการสั่งอนุญาตใน Supply Chain Management โซลูชัน OneFSSCM จะเพิ่มตรรกะ เพื่อให้เมื่อสร้างหรืออัปเดตรายการใบรับสินค้า (หรือผลิตภัณฑ์ในใบรับสินค้าตามใบสั่งซื้อใน Dataverse) แถวสมุดรายวันสินค้าคงคลังจะถูกสร้างขึ้นใน Dataverse เพื่อปรับปรุงปริมาณที่เหลืออยู่ซึ่งอยู่ระหว่างสถานการณ์ขีดจำกัดการรับสินค้าต่ำกว่าปริมาณการสั่งดังกล่าว
 
 ## <a name="unsupported-scenarios"></a>สถานการณ์จำลองที่ไม่ได้รับการสนับสนุน
 
-+ Field Service ป้องกันไม่ให้มีการเพิ่มรายการในใบสั่งซื้อที่ถูกยกเลิกใน Supply Chain Management การแก้ปัญหา คุณสามารถเปลี่ยนสถานะของระบบของใบสั่งซื้อใน Field Service แล้วเพิ่มบรรทัดใหม่ใน Field Service หรือ Supply Chain Management
-+ แม้ว่าแถวการจัดซื้อจะมีผลกระทบต่อระดับสินค้าคงคลังในทั้งสองระบบ แต่การรวมนี้จะไม่ตรวจสอบให้แน่ใจถึงการปรับแนวสินค้าคงคลังระหว่าง Supply Chain Management และ Field Service ทั้ง Field Service และ Supply Chain Management มีกระบวนการอื่นๆ ที่อัปเดตระดับสินค้าคงคลัง กระบวนการเหล่านั้นอยู่นอกขอบเขตการจัดซื้อ
+- Field Service ป้องกันไม่ให้มีการเพิ่มรายการในใบสั่งซื้อที่ถูกยกเลิกใน Supply Chain Management การแก้ปัญหา คุณสามารถเปลี่ยนสถานะของระบบของใบสั่งซื้อใน Field Service แล้วเพิ่มบรรทัดใหม่ใน Field Service หรือ Supply Chain Management
+- แม้ว่าแถวการจัดซื้อจะมีผลกระทบต่อระดับสินค้าคงคลังในทั้งสองระบบ แต่การรวมนี้จะไม่ตรวจสอบให้แน่ใจถึงการปรับแนวสินค้าคงคลังระหว่าง Supply Chain Management และ Field Service ทั้ง Field Service และ Supply Chain Management มีกระบวนการอื่นๆ ที่อัปเดตระดับสินค้าคงคลัง กระบวนการเหล่านั้นอยู่นอกขอบเขตการจัดซื้อ
 
 ## <a name="status-management"></a>การจัดการสถานะ
 
@@ -161,13 +160,13 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 กฎต่อไปนี้จะใช้กับคอลัมน์สถานะ
 
-+ สถานะใน Supply Chain Management ไม่สามารถอัปเดตจาก Field Service ได้ อย่างไรก็ตาม ในบางกรณี สถานะใน Field Service จะถูกอัปเดตเมื่อสถานะของใบสั่งซื้อใน Supply Chain Management มีการเปลี่ยนแปลง
-+ ถ้าใบสั่งซื้อใน Supply Chain Management อยู่ภายใต้การจัดการการเปลี่ยนแปลง และการเปลี่ยนแปลงอยู่ระหว่างการประมวลผล สถานะการอนุมัติคือ *แบบร่าง* หรือ *อยู่ระหว่างการตรวจทาน* ในกรณีนี้ สถานะการอนุมัติ Field Service จะถูกตั้งค่าเป็น *Null*
-+ ถ้าสถานะการอนุมัติใบสั่งซื้อใน Supply Chain Management ได้รับการตั้งค่าเป็น *อนุมัติแล้ว* *ในการตรวจทานจากภายนอก* *ยืนยันแล้ว* หรือ *ขั้นสุดท้าย* สถานะการอนุมัติใบสั่งซื้อ Field Service จะตั้งค่าเป็น *อนุมัติแล้ว*
-+ ถ้าสถานะการอนุมัติใบสั่งซื้อใน Supply Chain Management ได้รับการตั้งค่าเป็น *ถูกปฏิเสธ* สถานะการอนุมัติใบสั่งซื้อ Field Service จะตั้งค่าเป็น *ถูกปฏิเสธ*
-+ ถ้าสถานะส่วนหน้าของเอกสารใน Supply Chain Management เปลี่ยนเป็น *ใบสั่งส่งคืนสินค้า" (สินค้าค้างส่ง)* และสถานะฟิลด์ใบสั่งซื้อของ Field Service เป็น *ร่าง* หรือ *ยกเลิก* สถานะใบสั่งซื้อของ Field Service จะเปลี่ยนเป็น *ส่งแล้ว*
-+ ถ้าสถานะส่วนหัวของเอกสารใน Supply Chain Management เปลี่ยนเป็น *ยกเลิก* และไม่มีผลิตภัณฑ์การรับสินค้าตามใบสั่งซื้อใน Field Service สัมพันธ์กับใบสั่งซื้อ (ผ่านผลิตภัณฑ์ตามใบสั่งซื้อ) สถานะของระบบ Field Service จะตั้งค่าเป็น *ยกเลิก*
-+ ถ้าสถานะของรายการใบสั่งซื้อใน Supply Chain Management เป็น *ยกเลิก* สถานะผลิตภัณฑ์ตามใบสั่งซื้อใน Field Service จะถูกตั้งค่าเป็น *ยกเลิก* นอกจากนี้ ถ้าสถานะของบรรทัดใบสั่งซื้อใน Supply Chain Management มีการเปลี่ยนแปลงจาก *ยกเลิก* เป็นField Service *สินค้าค้างส่ง* สถานะสินค้าของผลิตภัณฑ์ตามใบสั่งซื้อใน Field Service จะถูกตั้งค่าเป็น *ค้างอยู่*
+- สถานะใน Supply Chain Management ไม่สามารถอัปเดตจาก Field Service ได้ อย่างไรก็ตาม ในบางกรณี สถานะใน Field Service จะถูกอัปเดตเมื่อสถานะของใบสั่งซื้อใน Supply Chain Management มีการเปลี่ยนแปลง
+- ถ้าใบสั่งซื้อใน Supply Chain Management อยู่ภายใต้การจัดการการเปลี่ยนแปลง และการเปลี่ยนแปลงอยู่ระหว่างการประมวลผล สถานะการอนุมัติคือ *แบบร่าง* หรือ *อยู่ระหว่างการตรวจทาน* ในกรณีนี้ สถานะการอนุมัติ Field Service จะถูกตั้งค่าเป็น *Null*
+- ถ้าสถานะการอนุมัติใบสั่งซื้อใน Supply Chain Management ได้รับการตั้งค่าเป็น *อนุมัติแล้ว* *ในการตรวจทานจากภายนอก* *ยืนยันแล้ว* หรือ *ขั้นสุดท้าย* สถานะการอนุมัติใบสั่งซื้อ Field Service จะตั้งค่าเป็น *อนุมัติแล้ว*
+- ถ้าสถานะการอนุมัติใบสั่งซื้อใน Supply Chain Management ได้รับการตั้งค่าเป็น *ถูกปฏิเสธ* สถานะการอนุมัติใบสั่งซื้อ Field Service จะตั้งค่าเป็น *ถูกปฏิเสธ*
+- ถ้าสถานะส่วนหน้าของเอกสารใน Supply Chain Management เปลี่ยนเป็น *ใบสั่งส่งคืนสินค้า" (สินค้าค้างส่ง)* และสถานะฟิลด์ใบสั่งซื้อของ Field Service เป็น *ร่าง* หรือ *ยกเลิก* สถานะใบสั่งซื้อของ Field Service จะเปลี่ยนเป็น *ส่งแล้ว*
+- ถ้าสถานะส่วนหัวของเอกสารใน Supply Chain Management เปลี่ยนเป็น *ยกเลิก* และไม่มีผลิตภัณฑ์การรับสินค้าตามใบสั่งซื้อใน Field Service สัมพันธ์กับใบสั่งซื้อ (ผ่านผลิตภัณฑ์ตามใบสั่งซื้อ) สถานะของระบบ Field Service จะตั้งค่าเป็น *ยกเลิก*
+- ถ้าสถานะของรายการใบสั่งซื้อใน Supply Chain Management เป็น *ยกเลิก* สถานะผลิตภัณฑ์ตามใบสั่งซื้อใน Field Service จะถูกตั้งค่าเป็น *ยกเลิก* นอกจากนี้ ถ้าสถานะของบรรทัดใบสั่งซื้อใน Supply Chain Management มีการเปลี่ยนแปลงจาก *ยกเลิก* เป็นField Service *สินค้าค้างส่ง* สถานะสินค้าของผลิตภัณฑ์ตามใบสั่งซื้อใน Field Service จะถูกตั้งค่าเป็น *ค้างอยู่*
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>ซิงค์กับข้อมูลการจัดซื้อของ Supply Chain Management ตามความต้องการ
 
