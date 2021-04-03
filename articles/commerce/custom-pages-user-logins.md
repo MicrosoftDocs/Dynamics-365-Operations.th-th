@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
-description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าแบบกำหนดเองใน Microsoft Dynamics 365 Commerce ที่จัดการการลงชื่อเข้าใช้สำหรับผู้ใช้ของ Azure Active Directory (Azure AD) ที่เป็นผู้เช่าธุรกิจ-ลูกค้า (B2C)
+description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าแบบกำหนดเองใน Microsoft Dynamics 365 Commerce ที่จัดการการลงชื่อเข้าใช้แบบกำหนดเองสำหรับผู้ใช้ Azure Active Directory (Azure AD) ที่เป็นผู้เช่าแบบธุรกิจ-ลูกค้า (B2C)
 author: brianshook
 manager: annbe
 ms.date: 09/15/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a55da9683c43ac75109fd256e481b02a4d565914
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970089"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477959"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าแบบกำหนดเองใน Microsoft Dynamics 365 Commerce ที่จัดการการลงชื่อเข้าใช้สำหรับผู้ใช้ของ Azure Active Directory (Azure AD) ที่เป็นผู้เช่าธุรกิจ-ลูกค้า (B2C)
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าแบบกำหนดเองใน Microsoft Dynamics 365 Commerce ที่จัดการการลงชื่อเข้าใช้แบบกำหนดเองสำหรับผู้ใช้ Azure Active Directory (Azure AD) ที่เป็นผู้เช่าแบบธุรกิจ-ลูกค้า (B2C)
 
 เมื่อต้องการใช้หน้าแบบกำหนดเองที่มีการสร้างใน Dynamics 365 Commerce เพื่อจัดการขั้นตอนการลงชื่อเข้า คุณต้องตั้งค่านโยบาย Azure AD ที่จะถูกอ้างอิงในสภาพแวดล้อม Commerce คุณสามารถตั้งค่าคอนฟิก "ลงทะเบียนและลงชื่อเข้าใช้" "แก้ไขโพรไฟล์" และ "รีเซ็ตรหัสผ่าน" นโยบาย B2C Azure AD โดยใช้แอพลิเคชัน B2C Azure AD ชื่อผู้เช่าและนโยบาย B2C Azure AD สามารถอ้างอิงในระหว่างกระบวนการเตรียมใช้งานที่ทำไว้สำหรับสภาพแวดล้อม Commerce โดยใช้วงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS)
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84e44e784e18c82098d63909f198049ae5f995c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 8cbe4de18334872e5a4c691864d703c95bd35559
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114443"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466169"
 ---
 # <a name="configure-deductions"></a>ตั้งค่าคอนฟิกรายการหัก
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ใช้การหักลดใน Microsoft Dynamics 365 Human Resources เพื่อกำหนดจำนวนเงิน ถ้ามี เพื่อหักจากเงินเดือนของพนักงานสำหรับแต่ละสิทธิประโยชน์ การหักลดจะมีผลในวันที่บังคับใช้ ดังนั้นคุณจึงสามารถจัดเก็บบันทึกประวัติของข้อมูลการหักลดได้ 
 

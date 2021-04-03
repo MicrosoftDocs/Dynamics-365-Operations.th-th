@@ -1,5 +1,5 @@
 ---
-title: เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce
+title: เตรียมใช้งานสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 description: หัวข้อนี้อธิบายวิธีการเตรียมใช้งานสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce
 author: psimolin
 manager: annbe
@@ -17,14 +17,14 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969912"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478175"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>เตรียมใช้งานสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
@@ -34,8 +34,6 @@ ms.locfileid: "4969912"
 
 > [!NOTE]
 > สภาพแวดล้อมการประเมิน Commerce โดยทั่วไปไม่พร้อมใช้งาน และจะถูกกำหนดให้กับคู่ค้าและลูกค้าในแต่ละคำขอ สำหรับข้อมูลเพิ่มเติม ติดต่อคู่ค้า Microsoft ของคุณ
-
-## <a name="overview"></a>ภาพรวม
 
 เพื่อเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ให้สำเร็จ คุณต้องสร้างโครงการที่มีชื่อและชนิดของผลิตภัณฑ์ที่เฉพาะเจาะจง นอกจากนี้ สภาพแวดล้อมและ Commerce Scale Unit (CSU) ยังมีพารามิเตอร์เฉพาะบางอย่างที่คุณต้องใช้ เมื่อคุณคาดว่าจะเตรียมใช้งานอีคอมเมิร์ซในภายหลัง คำแนะนำในหัวข้อนี้อธิบายขั้นตอนที่จำเป็นทั้งหมดที่คุณต้องทำการเตรียมใช้งานให้เสร็จสมบูรณ์ และพารามิเตอร์ที่คุณต้องใช้
 

@@ -1,6 +1,6 @@
 ---
 title: การจัดการงานใน POS
-description: หัวข้อนี้จะอธิบายถึงการจัดการงานในแอปพลิเคชันการขายหน้าร้าน (POS) Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายถึงการจัดการงานในแอปพลิเคชันการขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006196"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478373"
 ---
 # <a name="task-management-in-pos"></a>การจัดการงานใน POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงการจัดการงานในแอปพลิเคชันการขายหน้าร้าน (POS) Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้จะอธิบายถึงการจัดการงานในแอปพลิเคชันการขายหน้าร้าน (POS) ใน Microsoft Dynamics 365 Commerce
 
 แอปพลิเคชัน POS Dynamics 365 Commerce มีลักษณะการทำงานในการจัดการงานที่ให้ผู้จัดการร้านค้าและผู้ปฏิบัติงานจัดการงานและอัปเดตสถานะของงาน ผู้ปฏิบัติงานในร้านค้าสามารถเข้าถึงงานได้ด้วยการเลือกไทล์ **งาน** บนโฮมเพจของ POS หรือโดยการเลือกการแจ้งเตือนของงาน ตามค่าเริ่มต้น จะมีการใช้ผู้ปฏิบัติงานในแท็บ **งานของฉัน** ซึ่งผู้ใช้จะสามารถดูงานที่ได้รับมอบหมายได้ อย่างไรก็ตาม ผู้ใช้สามารถสลับไปยังแท็บ **งานที่พ้นกำหนดงาน** **เปิดงาน** และ **รายการงาน** ได้อย่างง่ายดาย
 

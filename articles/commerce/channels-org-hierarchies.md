@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าลำดับชั้นขององค์กร
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นขององค์กรใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b887616ef29396ba99ca0c7428ab89df01b3008c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 490d466c10cfe0640f8fbcf8fe2298536e499d9b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997786"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478007"
 ---
 # <a name="set-up-organization-hierarchies"></a>ตั้งค่าลำดับชั้นขององค์กร
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นขององค์กรใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
 
 ก่อนที่จะสร้างช่องทาง คุณต้องตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าลำดับชั้นขององค์กรของคุณแล้ว
 

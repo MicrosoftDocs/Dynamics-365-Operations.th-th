@@ -3,7 +3,7 @@ title: แอปทรัพยากรบุคคลใน Teams
 description: หัวข้อนี้จะแนะนำแอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114449"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487884"
 ---
 # <a name="human-resources-app-in-teams"></a>แอปทรัพยากรบุคคลใน Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 แอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams ช่วยให้พนักงานสามารถขอลาหยุดและดูข้อมูลยอดการลาหยุดได้ใน Microsoft Teams ในทันที พนักงานสามารถโต้ตอบกับบอทเพื่อร้องขอข้อมูล แท็บ **การลาหยุด** แสดงข้อมูลเพิ่มเติมโดยละเอียด นอกจากนี้ พวหเขายังสามารถส่งข้อมูลเกี่ยวกับการลางานที่กำลังจะเกิดขึ้นของคุณในทีมและการสนทนาภายนอกแอปพลิเคชันทรัพยากรบุคคลได้
 
-![บอทของแอปการลาหยุด Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
+![บอทของแอปการลาหยุด Human Resources Teams](./media/hr-teams-leave-app-bot.png)
 
 ![แท็บการลาหยุดในแอปการลาหยุด Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ ms.locfileid: "5114449"
 
 ## <a name="install-and-setup"></a>ติดตั้งและตั้งค่า
 
-คุณสามารถค้นหาแอปพลิเคชันทรัพยากรบุคคลในร้านค้า Teams สำหรับข้อมูลเกี่ยวกับการติดตั้งแอป Teams ให้ดูที่ [การจัดการคำร้องขอการลาหยุดใน Teams](hr-teams-leave-app.md)
+คุณสามารถค้นหาแอป Dynamics 365 Human Resources ในร้านค้า Teams สำหรับข้อมูลเกี่ยวกับการติดตั้งแอป Teams ให้ดูที่ [การจัดการคำร้องขอการลาหยุดใน Teams](hr-teams-leave-app.md)
 
 สำหรับข้อมูลเกี่ยวกับการจัดการสิทธิ์การได้รับอนุญาตของแอปใน Teams ให้ดูที่ [การจัดการนโยบายสิทธิ์ของแอปใน Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies)
 
+หากคุณต้องการให้ผู้ใช้ของคุณดูปฏิทินการลางานและการขาดงานในแอป คุณจะต้องเปิดใช้งาน **ปฏิทินการลางานและการขาดงานใน Teams** ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะ ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams
 
-ถ้าคุณต้องการให้ผู้ใช้ได้รับการแจ้งเตือนคำขอการลางานในแอป Teams คุณต้องเปิดใช้งานการแจ้งเตือนใน Human Resources
+ถ้าคุณต้องการให้ผู้ใช้ได้รับการแจ้งเตือนคำขอการลางานในแอป Teams คุณต้องเปิดใช้งานการแจ้งเตือนใน Dynamics 365 Human Resources
 
 >[!NOTE]
->เฉพาะผู้ใช้ที่ลงชื่อเข้าใช้ Teams และใช้แอป Human Resources Teams เท่านั้นที่จะได้รับการแจ้งเตือน
+>เฉพาะผู้ใช้ที่ลงชื่อเข้าใช้ Teams และใช้แอป Dynamics 365 Human Resources Teams เท่านั้นที่จะได้รับการแจ้งเตือน
 
 1. ในทรัพยากรบุคคล เลือก **การจัดการระบบ**
 
@@ -66,7 +68,7 @@ ms.locfileid: "5114449"
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>เปิดหรือปิดการแจ้งเตือนของ Teams สำหรับผู้ใช้แต่ละราย
 
-หลังจากที่คุณได้เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources Teams แล้ว คุณสามารถเปิดหรือปิดการแจ้งเตือนสำหรับผู้ใช้แต่ละรายได้
+หลังจากที่คุณได้เปิดใช้งานการแจ้งเตือนสำหรับแอป Dynamics 365 Human Resources Teams แล้ว คุณสามารถเปิดหรือปิดการแจ้งเตือนสำหรับผู้ใช้แต่ละรายได้
 
 1. ในทรัพยากรบุคคล เลือก **การจัดการระบบ**
 
@@ -82,9 +84,28 @@ ms.locfileid: "5114449"
 
 6. เลือก **บันทึก**
 
-## <a name="known-issues"></a>ปัญหาที่ทราบ
+## <a name="supported-languages"></a>ภาษาที่สนับสนุน
 
-| ออก | สถานะ |
+แอป Dynamics 365 Human Resources ใน Teams สนับสนุนภาษาต่อไปนี้:
+
+| รหัสภาษา | ภาษา |
+| --- | --- |
+| de-DE | ภาษาเยอรมัน (เยอรมนี) |
+| es-ES | ภาษาสเปน (สเปน) |
+| es-MX | ภาษาสเปน (เม็กซิโก) |
+| fr-CA | ภาษาฝรั่งเศส (แคนาดา) |
+| fr-FR | ภาษาฝรั่งเศส (ฝรั่งเศส) |
+| it-IT | ภาษาอิตาลี (อิตาลี) |
+| nl-NL | ภาษาดัตช์ (เนเธอร์แลนด์) |
+| pt-BR | ภาษาโปรตุเกส (บราซิล) |
+| tr-TR | ภาษาตุรกี (ตุรกี) |
+| zh-CN | จีน (ประยุกต์) |
+
+## <a name="notes"></a>บันทึกย่อ
+
+รายการงานต่อไปนี้ถูกเลื่อนออกใช้ในอนาคต:
+
+| รายการงาน | สถานะ |
 | --- | --- |
 | ยอดดุลไม่ถูกต้องเมื่อส่งเวลาสำหรับวันที่ในอนาคต | การคาดการณ์ยังไม่พร้อมใช้งาน ยอดดุลปัจจุบันแสดงสำหรับวันที่ปัจจุบัน |
 | ไม่สามารถยกเลิกการร้องขอ **รอการตรวจทาน** ได้ | ฟังก์ชันนี้ไม่ได้รับการสนับสนุนในขณะนี้และจะถูกเพิ่มในรุ่นต่อๆ ไป |
@@ -96,11 +117,11 @@ ms.locfileid: "5114449"
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>ไม่สามารถเข้าสู่ระบบแอป Human Resources ใน Teams
 
-ถ้าผู้ติดต่อของผู้ใช้คุณ เนื่องจากไม่สามารถเข้าสู่ระบบแอปได้ ให้ตรวจสอบว่าผู้ใช้มีเรกคอร์ดพนักงานที่เกี่ยวข้องใน Human Resources
+หากผู้ใช้ติดต่อคุณ เนื่องจากไม่สามารถเข้าสู่ระบบแอปได้ ให้ตรวจสอบว่าผู้ใช้มีเรกคอร์ดพนักงานที่เกี่ยวข้องใน Human Resources
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>เกิดข้อผิดพลาดขณะอนุมัติคำขอการลางานในแอป Human Resources ใน Teams
 
-ถ้าผู้ใช้ได้รับข้อผิดพลาดขณะพยายามอนุมัติคำขอการลางานในแอป Teams ให้ทำตามขั้นตอนการแก้ไขปัญหาต่อไปนี้:
+หากผู้ใช้ได้รับข้อผิดพลาดขณะพยายามอนุมัติคำขอการลางานในแอป Teams ให้ทำตามขั้นตอนการแก้ไขปัญหาต่อไปนี้:
 
 1. ตรวจสอบว่าบัญชี Teams ของพวกเขาเป็นอันเดียวกับที่ใช้สำหรับการเข้าถึง Human Resources
 

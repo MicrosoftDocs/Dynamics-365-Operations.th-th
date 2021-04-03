@@ -1,6 +1,6 @@
 ---
 title: สร้างลูกค้าเริ่มต้น
-description: หัวข้อนี้อธิบายวิธีสร้างลูกค้าเริ่มต้นเมื่อสร้างช่องทางใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีสร้างลูกค้าเริ่มต้นเพื่อใช้เมื่อสร้างช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1dd4dfc5b8ca7af66941d081b4c20be0f5d6001d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993411"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477911"
 ---
 # <a name="create-a-default-customer"></a>สร้างลูกค้าเริ่มต้น
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีสร้างลูกค้าเริ่มต้นเมื่อสร้างช่องทางใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีสร้างลูกค้าเริ่มต้นเพื่อใช้เมื่อสร้างช่องทางใน Microsoft Dynamics 365 Commerce
 
 เมื่อสร้างช่องทาง คุณจะต้องระบุลูกค้าเริ่มต้น ลูกค้าเริ่มต้นสามารถสร้างได้อย่างง่ายดายหลังจากสร้างกลุ่มลูกค้าและสมุดรายชื่อลูกค้าครั้งแรก
 
