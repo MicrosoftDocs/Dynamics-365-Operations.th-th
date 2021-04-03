@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,53 +13,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 146e7fb5fefbecabc99c2978b52eb0e782da0322
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680769"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562225"
 ---
-# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="41145-103">ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ</span><span class="sxs-lookup"><span data-stu-id="41145-103">Specify custom storage locations for generated documents</span></span>
+# <a name="specify-custom-storage-locations-for-generated-documents"></a><span data-ttu-id="a683e-103">ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ</span><span class="sxs-lookup"><span data-stu-id="a683e-103">Specify custom storage locations for generated documents</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="41145-104">Application Programming Interface (API) ของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถขยายรายการของสถานที่เก็บสำหรับเอกสารที่รูปแบบ ER สร้าง</span><span class="sxs-lookup"><span data-stu-id="41145-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="41145-105">หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มสถานที่เก็บที่กำหนดเองสำหรับเอกสารที่สร้างขึ้นโดยการมอบหมายงานของการสร้างปลายทาง ER ให้กับโรงงานปลายทางเริ่มต้นแล้วใช้คลาสที่กำหนดเองที่มีตรรกะปลายทางของตนเอง</span><span class="sxs-lookup"><span data-stu-id="41145-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
+<span data-ttu-id="a683e-104">Application Programming Interface (API) ของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถขยายรายการของสถานที่เก็บสำหรับเอกสารที่รูปแบบ ER สร้าง</span><span class="sxs-lookup"><span data-stu-id="a683e-104">The application programming interface (API) of the Electronic reporting (ER) framework lets you extend the list of storage locations for documents that ER formats generate.</span></span> <span data-ttu-id="a683e-105">หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มสถานที่เก็บที่กำหนดเองสำหรับเอกสารที่สร้างขึ้นโดยการมอบหมายงานของการสร้างปลายทาง ER ให้กับโรงงานปลายทางเริ่มต้นแล้วใช้คลาสที่กำหนดเองที่มีตรรกะปลายทางของตนเอง</span><span class="sxs-lookup"><span data-stu-id="a683e-105">This topic explains how to add a custom storage location for generated documents by delegating the task of creating ER destinations to the default destination factory and then implementing a custom class that has its own destination logic.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="41145-106">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="41145-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="a683e-106">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="a683e-106">Prerequisites</span></span>
 
-<span data-ttu-id="41145-107">ปรับใช้โทโพโลยีที่สนับสนุนการสร้างแบบต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="41145-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="41145-108">สำหรับข้อมูลเพิ่มเติม ดู [ปรับใช้โทโพโลยีซึ่งสนับสนุนการสร้างอย่างต่อเนื่องและระบบอัตโนมัติของการทดสอบ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)</span><span class="sxs-lookup"><span data-stu-id="41145-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="41145-109">คุณต้องมีการเข้าถึงโทโพโลยีนี้สำหรับหนึ่งในบทบาทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="41145-109">You must have access to this topology for one of the following roles:</span></span>
+<span data-ttu-id="a683e-107">ปรับใช้โทโพโลยีที่สนับสนุนการสร้างแบบต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="a683e-107">Deploy a topology that supports continuous build.</span></span> <span data-ttu-id="a683e-108">สำหรับข้อมูลเพิ่มเติม ดู [ปรับใช้โทโพโลยีซึ่งสนับสนุนการสร้างอย่างต่อเนื่องและระบบอัตโนมัติของการทดสอบ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation)</span><span class="sxs-lookup"><span data-stu-id="a683e-108">For more information, see [Deploy topologies that support continuous build and test automation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).</span></span> <span data-ttu-id="a683e-109">คุณต้องมีการเข้าถึงโทโพโลยีนี้สำหรับหนึ่งในบทบาทต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="a683e-109">You must have access to this topology for one of the following roles:</span></span>
 
-- <span data-ttu-id="41145-110">นักพัฒนาการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="41145-110">Electronic reporting developer</span></span>
-- <span data-ttu-id="41145-111">ที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="41145-111">Electronic reporting functional consultant</span></span>
-- <span data-ttu-id="41145-112">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="41145-112">System administrator</span></span>
+- <span data-ttu-id="a683e-110">นักพัฒนาการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a683e-110">Electronic reporting developer</span></span>
+- <span data-ttu-id="a683e-111">ที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="a683e-111">Electronic reporting functional consultant</span></span>
+- <span data-ttu-id="a683e-112">ผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="a683e-112">System administrator</span></span>
 
-<span data-ttu-id="41145-113">คุณต้องมีการเข้าถึงไปยังสภาพแวดล้อมการพัฒนาสำหรับโทโพโลยีนี้</span><span class="sxs-lookup"><span data-stu-id="41145-113">You must also have access to the development environment for this topology.</span></span>
+<span data-ttu-id="a683e-113">คุณต้องมีการเข้าถึงไปยังสภาพแวดล้อมการพัฒนาสำหรับโทโพโลยีนี้</span><span class="sxs-lookup"><span data-stu-id="a683e-113">You must also have access to the development environment for this topology.</span></span>
 
-<span data-ttu-id="41145-114">คุณสามารถดำเนินงานทั้งหมดในหัวข้อนี้ให้เสร็จสมบูรณ์ได้ในบริษัท **USMF**</span><span class="sxs-lookup"><span data-stu-id="41145-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
+<span data-ttu-id="a683e-114">คุณสามารถดำเนินงานทั้งหมดในหัวข้อนี้ให้เสร็จสมบูรณ์ได้ในบริษัท **USMF**</span><span class="sxs-lookup"><span data-stu-id="a683e-114">All the tasks in this topic can be completed in the **USMF** company.</span></span>
 
-## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="41145-115">นำเข้ารูปแบบ ER การกระทบยอดสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="41145-115">Import the Fixed asset roll forward ER format</span></span>
+## <a name="import-the-fixed-asset-roll-forward-er-format"></a><span data-ttu-id="a683e-115">นำเข้ารูปแบบ ER การกระทบยอดสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="a683e-115">Import the Fixed asset roll forward ER format</span></span>
 
-<span data-ttu-id="41145-116">เมื่อต้องการสร้างเอกสารที่คุณต้องการเพิ่มที่ตั้งที่จัดเก็บแบบกำหนดเอง สำหรับ [การนำเข้า](er-download-configurations-global-repo.md) ตั้งค่าคอนฟิกรูปแบบ ER **การกระทบยอดสินทรัพย์ถาวร** ในโทโพโลยีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="41145-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
+<span data-ttu-id="a683e-116">เมื่อต้องการสร้างเอกสารที่คุณต้องการเพิ่มที่ตั้งที่จัดเก็บแบบกำหนดเอง สำหรับ [การนำเข้า](er-download-configurations-global-repo.md) ตั้งค่าคอนฟิกรูปแบบ ER **การกระทบยอดสินทรัพย์ถาวร** ในโทโพโลยีปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="a683e-116">To generate the documents that you plan to add a custom storage location for, [import](er-download-configurations-global-repo.md) the **Fixed asset roll forward** ER format configuration into the current topology.</span></span>
 
 ![หน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-custom-storage-generated-files-import-format.png)
 
-## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="41145-118">เรียกใช้รายงานการกระทบยอดสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="41145-118">Run the Fixed asset roll forward report</span></span>
+## <a name="run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="a683e-118">เรียกใช้รายงานการกระทบยอดสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="a683e-118">Run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="41145-119">ไปที่ **สินทรัพย์ถาวร** \> **การสอบถามและรายงาน** \> **รายงานธุรกรรม** \> **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="41145-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="41145-120">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่ **1/1/2017** (มกราคม 1 2017)</span><span class="sxs-lookup"><span data-stu-id="41145-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
-3. <span data-ttu-id="41145-121">ในฟิลด์ **วันที่นื้สิ้นสุด** ให้ป้อนวันที่ **1/31/2017** (มกราคม 31 2017)</span><span class="sxs-lookup"><span data-stu-id="41145-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
-4. <span data-ttu-id="41145-122">ใน **ฟิลด์สกุลเงิน** ให้เลือก **สกุลเงินการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="41145-122">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="41145-123">ในฟิลด์ **รูปแบบการแม็ป** ให้เลือก **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="41145-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="41145-124">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="41145-124">Select **OK**.</span></span>
+1. <span data-ttu-id="a683e-119">ไปที่ **สินทรัพย์ถาวร** \> **การสอบถามและรายงาน** \> **รายงานธุรกรรม** \> **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a683e-119">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="a683e-120">ในฟิลด์ **วันที่เริ่มต้น** ให้ป้อนวันที่ **1/1/2017** (มกราคม 1 2017)</span><span class="sxs-lookup"><span data-stu-id="a683e-120">In the **From date** field, enter **1/1/2017** (January 1, 2017).</span></span>
+3. <span data-ttu-id="a683e-121">ในฟิลด์ **วันที่นื้สิ้นสุด** ให้ป้อนวันที่ **1/31/2017** (มกราคม 31 2017)</span><span class="sxs-lookup"><span data-stu-id="a683e-121">In the **To date** field, enter **1/31/2017** (January 31, 2017).</span></span>
+4. <span data-ttu-id="a683e-122">ใน **ฟิลด์สกุลเงิน** ให้เลือก **สกุลเงินการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="a683e-122">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="a683e-123">ในฟิลด์ **รูปแบบการแม็ป** ให้เลือก **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a683e-123">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="a683e-124">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="a683e-124">Select **OK**.</span></span>
 
 ![กล่องโต้ตอบรันไทม์สำหรับรายงานการกระทบยอดสินทรัพย์ถาวร](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
-<span data-ttu-id="41145-126">ใน Microsoft Excel ให้ตรวจสอบเอกสารขาออกที่สร้างขึ้นและพร้อมใช้งานสำหรับการดาวน์โหลด</span><span class="sxs-lookup"><span data-stu-id="41145-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="41145-127">ลักษณะการทำงานนี้เป็น [ลักษณะการทำงานเริ่มต้น](electronic-reporting-destinations.md#default-behavior) สำหรับรูปแบบ ER ที่ไม่มีการตั้งค่าคอนฟิก [ปลายทาง](electronic-reporting-destinations.md) และที่กำลังทำงานในโหมดแบบโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="41145-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
+<span data-ttu-id="a683e-126">ใน Microsoft Excel ให้ตรวจสอบเอกสารขาออกที่สร้างขึ้นและพร้อมใช้งานสำหรับการดาวน์โหลด</span><span class="sxs-lookup"><span data-stu-id="a683e-126">In Microsoft Excel, review the outbound document that is generated and available for download.</span></span> <span data-ttu-id="a683e-127">ลักษณะการทำงานนี้เป็น [ลักษณะการทำงานเริ่มต้น](electronic-reporting-destinations.md#default-behavior) สำหรับรูปแบบ ER ที่ไม่มีการตั้งค่าคอนฟิก [ปลายทาง](electronic-reporting-destinations.md) และที่กำลังทำงานในโหมดแบบโต้ตอบ</span><span class="sxs-lookup"><span data-stu-id="a683e-127">This behavior is the [default behavior](electronic-reporting-destinations.md#default-behavior) for an ER format that no [destinations](electronic-reporting-destinations.md) are configured for, and that is running in interactive mode.</span></span>
 
-## <a name="review-the-source-code"></a><span data-ttu-id="41145-128">ตรวจสอบโค้ดต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="41145-128">Review the source code</span></span>
+## <a name="review-the-source-code"></a><span data-ttu-id="a683e-128">ตรวจสอบโค้ดต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="a683e-128">Review the source code</span></span>
 
-<span data-ttu-id="41145-129">ทบทวนรหัสของวิธีการ `generateReportByGER()` ของคลาส `AssetRollForwardService`</span><span class="sxs-lookup"><span data-stu-id="41145-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="41145-130">โปรดสังเกตว่า `Run()` มีการใช้วิธีการที่จะเรียกกรอบงาน ER และสร้างรายงาน **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="41145-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
+<span data-ttu-id="a683e-129">ทบทวนรหัสของวิธีการ `generateReportByGER()` ของคลาส `AssetRollForwardService`</span><span class="sxs-lookup"><span data-stu-id="a683e-129">Review the code of the `generateReportByGER()` method of the `AssetRollForwardService` class.</span></span> <span data-ttu-id="a683e-130">โปรดสังเกตว่า `Run()` มีการใช้วิธีการที่จะเรียกกรอบงาน ER และสร้างรายงาน **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a683e-130">Notice that the `Run()` method is used to call the ER framework and generate the **Fixed asset roll forward** report.</span></span>
 
 ```xpp
 class AssetRollForwardService extends SysOperationServiceBase
@@ -114,12 +113,12 @@ class AssetRollForwardService extends SysOperationServiceBase
 }
 ```
 
-## <a name="modify-the-source-code"></a><span data-ttu-id="41145-131">ปรับเปลี่ยนโค้ดต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="41145-131">Modify the source code</span></span>
+## <a name="modify-the-source-code"></a><span data-ttu-id="a683e-131">ปรับเปลี่ยนโค้ดต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="a683e-131">Modify the source code</span></span>
 
-1. <span data-ttu-id="41145-132">ในโครงการของคุณ Visual Studio ให้เพิ่มคลาสใหม่ (`AssetRollForwardDestination` ในตัวอย่างนี้) และเขียนรหัสเพื่อใช้ปลายทางที่กำหนดเองของคุณสำหรับรายงาน **การกระทบยอดสินทรัพย์ถาวร** ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="41145-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
+1. <span data-ttu-id="a683e-132">ในโครงการของคุณ Visual Studio ให้เพิ่มคลาสใหม่ (`AssetRollForwardDestination` ในตัวอย่างนี้) และเขียนรหัสเพื่อใช้ปลายทางที่กำหนดเองของคุณสำหรับรายงาน **การกระทบยอดสินทรัพย์ถาวร** ที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a683e-132">In your Visual Studio project, add a new class (`AssetRollForwardDestination` in this example), and write code to implement your custom destination for **Fixed asset roll forward** reports that are generated.</span></span>
 
-    - <span data-ttu-id="41145-133">วิธีการ `new()` ได้รับการออกแบบมาเพื่อให้มีออบเจ็กต์ปลายทางของ ER ดั้งเดิมและพารามิเตอร์ที่ควบคุมโดยตรรกะของโปรแกรมประยุกต์ที่ระบุที่ตั้งที่กำหนดเองซึ่งควรจัดเก็บรายงานที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="41145-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="41145-134">ในตัวอย่างนี้ ที่ตั้งที่กำหนดเองคือชื่อของโฟลเดอร์ของระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการเซิร์ฟเวอร์โปรแกรมประยุกต์ออบเจ็กต์ (AOS)</span><span class="sxs-lookup"><span data-stu-id="41145-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
-    - <span data-ttu-id="41145-135">วิธีการ `saveFile()` นี้ได้รับการออกแบบมาเพื่อบันทึกเอกสารที่สร้างขึ้นไปยังโฟลเดอร์ของระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการ AOS</span><span class="sxs-lookup"><span data-stu-id="41145-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
+    - <span data-ttu-id="a683e-133">วิธีการ `new()` ได้รับการออกแบบมาเพื่อให้มีออบเจ็กต์ปลายทางของ ER ดั้งเดิมและพารามิเตอร์ที่ควบคุมโดยตรรกะของโปรแกรมประยุกต์ที่ระบุที่ตั้งที่กำหนดเองซึ่งควรจัดเก็บรายงานที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="a683e-133">The `new()` method is designed to get the original ER destination object and the application logic–driven parameter that specifies the custom location where generated reports should be stored.</span></span> <span data-ttu-id="a683e-134">ในตัวอย่างนี้ ที่ตั้งที่กำหนดเองคือชื่อของโฟลเดอร์ของระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการเซิร์ฟเวอร์โปรแกรมประยุกต์ออบเจ็กต์ (AOS)</span><span class="sxs-lookup"><span data-stu-id="a683e-134">In this example, the custom location is the name of a folder of the local file system of the server that runs the Application Object Server (AOS) service.</span></span>
+    - <span data-ttu-id="a683e-135">วิธีการ `saveFile()` นี้ได้รับการออกแบบมาเพื่อบันทึกเอกสารที่สร้างขึ้นไปยังโฟลเดอร์ของระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการ AOS</span><span class="sxs-lookup"><span data-stu-id="a683e-135">The `saveFile()` method is designed to save a generated document to a folder of the local file system of the server that runs the AOS service.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -177,7 +176,7 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-2. <span data-ttu-id="41145-136">ในโครงการ Visual Studio ของคุณ ให้เพิ่มคลาสใหม่ (`AssetRollForwardDestinationFactory` ในตัวอย่างนี้) และรหัสเขียนเพื่อตั้งค่าโรงงานปลายทางที่กำหนดเองซึ่งมอบสิทธิ์ในการสร้างปลายทางให้กับโรงงานปลายทางเริ่มต้น และตัดปลายทางไฟล์ด้วยปลายทางของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="41145-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
+2. <span data-ttu-id="a683e-136">ในโครงการ Visual Studio ของคุณ ให้เพิ่มคลาสใหม่ (`AssetRollForwardDestinationFactory` ในตัวอย่างนี้) และรหัสเขียนเพื่อตั้งค่าโรงงานปลายทางที่กำหนดเองซึ่งมอบสิทธิ์ในการสร้างปลายทางให้กับโรงงานปลายทางเริ่มต้น และตัดปลายทางไฟล์ด้วยปลายทางของคุณเอง</span><span class="sxs-lookup"><span data-stu-id="a683e-136">In your Visual Studio project, add a new class (`AssetRollForwardDestinationFactory` in this example), and write code to set up a custom destination factory that delegates the creation of a destination to the default destination factory, and to wrap a file destination with your own destination.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -254,10 +253,10 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-3. <span data-ttu-id="41145-137">ปรับเปลี่ยนคลาส `AssetRollForwardService` ที่มีอยู่ และเขียนโค้ดเพื่อตั้งค่าโรงงานปลายทางที่กำหนดเองสำหรับผู้วิ่งรายงาน</span><span class="sxs-lookup"><span data-stu-id="41145-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="41145-138">โปรดสังเกตว่าเมื่อมีการสร้างโรงงานปลายทางที่กำหนดเอง จะมีการส่งผ่านพารามิเตอร์ที่ใช้ในการควบคุมโปรแกรมประยุกต์ที่ระบุโฟลเดอร์เป้าหมาย</span><span class="sxs-lookup"><span data-stu-id="41145-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="41145-139">เมื่อต้องการจัดเก็บไฟล์ที่สร้างขึ้นในลักษณะนี้</span><span class="sxs-lookup"><span data-stu-id="41145-139">In this way, that target folder is used to store generated files.</span></span>
+3. <span data-ttu-id="a683e-137">ปรับเปลี่ยนคลาส `AssetRollForwardService` ที่มีอยู่ และเขียนโค้ดเพื่อตั้งค่าโรงงานปลายทางที่กำหนดเองสำหรับผู้วิ่งรายงาน</span><span class="sxs-lookup"><span data-stu-id="a683e-137">Modify the existing `AssetRollForwardService` class, and write code to set up a custom destination factory for the report runner.</span></span> <span data-ttu-id="a683e-138">โปรดสังเกตว่าเมื่อมีการสร้างโรงงานปลายทางที่กำหนดเอง จะมีการส่งผ่านพารามิเตอร์ที่ใช้ในการควบคุมโปรแกรมประยุกต์ที่ระบุโฟลเดอร์เป้าหมาย</span><span class="sxs-lookup"><span data-stu-id="a683e-138">Notice that when a custom destination factory is constructed, the application-driven parameter that specifies a target folder is passed.</span></span> <span data-ttu-id="a683e-139">เมื่อต้องการจัดเก็บไฟล์ที่สร้างขึ้นในลักษณะนี้</span><span class="sxs-lookup"><span data-stu-id="a683e-139">In this way, that target folder is used to store generated files.</span></span>
 
     > [!NOTE] 
-    > <span data-ttu-id="41145-140">ตรวจสอบให้แน่ใจว่าโฟลเดอร์ที่ระบุ (**c:\\0** ในตัวอย่างนี้) แสดงอยู่ในระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการ AOS</span><span class="sxs-lookup"><span data-stu-id="41145-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="41145-141">มิฉะนั้น ข้อยกเว้น [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) จะเกิดขึ้นในขณะรันไทม์</span><span class="sxs-lookup"><span data-stu-id="41145-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
+    > <span data-ttu-id="a683e-140">ตรวจสอบให้แน่ใจว่าโฟลเดอร์ที่ระบุ (**c:\\0** ในตัวอย่างนี้) แสดงอยู่ในระบบไฟล์ท้องถิ่นของเซิร์ฟเวอร์ที่รันบริการ AOS</span><span class="sxs-lookup"><span data-stu-id="a683e-140">Make sure that the specified folder (**c:\\0** in this example) is present in the local file system of the server that runs the AOS service.</span></span> <span data-ttu-id="a683e-141">มิฉะนั้น ข้อยกเว้น [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) จะเกิดขึ้นในขณะรันไทม์</span><span class="sxs-lookup"><span data-stu-id="a683e-141">Otherwise, a [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) exception will be thrown at runtime.</span></span>
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -322,22 +321,25 @@ class AssetRollForwardService extends SysOperationServiceBase
     }
     ```
 
-4. <span data-ttu-id="41145-142">สร้างโครงการของคุณใหม่</span><span class="sxs-lookup"><span data-stu-id="41145-142">Rebuild your project.</span></span>
+4. <span data-ttu-id="a683e-142">สร้างโครงการของคุณใหม่</span><span class="sxs-lookup"><span data-stu-id="a683e-142">Rebuild your project.</span></span>
 
-## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="41145-143">เรียกใช้รายงานการกระทบยอดสินทรัพย์ถาวรอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="41145-143">Re-run the Fixed asset roll forward report</span></span>
+## <a name="re-run-the-fixed-asset-roll-forward-report"></a><span data-ttu-id="a683e-143">เรียกใช้รายงานการกระทบยอดสินทรัพย์ถาวรอีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="a683e-143">Re-run the Fixed asset roll forward report</span></span>
 
-1. <span data-ttu-id="41145-144">ไปที่ **สินทรัพย์ถาวร** \> **การสอบถามและรายงาน** \> **รายงานธุรกรรม** \> **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="41145-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
-2. <span data-ttu-id="41145-145">ในฟิลด์ **จากวันที่** ให้ป้อน **1/1/2017**</span><span class="sxs-lookup"><span data-stu-id="41145-145">In the **From date** field, enter **1/1/2017**.</span></span>
-3. <span data-ttu-id="41145-146">ในฟิลด์ **ถึงวันที่** ให้ป้อน **1/31/2017**</span><span class="sxs-lookup"><span data-stu-id="41145-146">In the **To date** field, enter **1/31/2017**.</span></span>
-4. <span data-ttu-id="41145-147">ใน **ฟิลด์สกุลเงิน** ให้เลือก **สกุลเงินการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="41145-147">In the **Currency field**, select **Accounting currency**.</span></span>
-5. <span data-ttu-id="41145-148">ในฟิลด์ **รูปแบบการแม็ป** ให้เลือก **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="41145-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
-6. <span data-ttu-id="41145-149">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="41145-149">Select **OK**.</span></span>
-7. <span data-ttu-id="41145-150">เลือกดูโฟลเดอร์ **c:\\0** ท้องถิ่น เพื่อค้นหาไฟล์ที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="41145-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
+1. <span data-ttu-id="a683e-144">ไปที่ **สินทรัพย์ถาวร** \> **การสอบถามและรายงาน** \> **รายงานธุรกรรม** \> **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a683e-144">Go to **Fixed assets** \> **Inquiries and reports** \> **Transaction reports** \> **Fixed asset roll forward**.</span></span>
+2. <span data-ttu-id="a683e-145">ในฟิลด์ **จากวันที่** ให้ป้อน **1/1/2017**</span><span class="sxs-lookup"><span data-stu-id="a683e-145">In the **From date** field, enter **1/1/2017**.</span></span>
+3. <span data-ttu-id="a683e-146">ในฟิลด์ **ถึงวันที่** ให้ป้อน **1/31/2017**</span><span class="sxs-lookup"><span data-stu-id="a683e-146">In the **To date** field, enter **1/31/2017**.</span></span>
+4. <span data-ttu-id="a683e-147">ใน **ฟิลด์สกุลเงิน** ให้เลือก **สกุลเงินการบัญชี**</span><span class="sxs-lookup"><span data-stu-id="a683e-147">In the **Currency field**, select **Accounting currency**.</span></span>
+5. <span data-ttu-id="a683e-148">ในฟิลด์ **รูปแบบการแม็ป** ให้เลือก **การกระทบยอดสินทรัพย์ถาวร**</span><span class="sxs-lookup"><span data-stu-id="a683e-148">In the **Format mapping** field, select **Fixed asset roll forward**.</span></span>
+6. <span data-ttu-id="a683e-149">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="a683e-149">Select **OK**.</span></span>
+7. <span data-ttu-id="a683e-150">เลือกดูโฟลเดอร์ **c:\\0** ท้องถิ่น เพื่อค้นหาไฟล์ที่สร้าง</span><span class="sxs-lookup"><span data-stu-id="a683e-150">Browse the local **C:\\0** folder to find the generated file.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="41145-151">เนื่องจาก `originDestination` ไม่มีการใช้ออบเจ็กต์ในออบเจ็กต์ `AssetRollForwardDestination` ในตัวอย่างนี้ การตั้งค่าคอนฟิกสำหรับ [ปลายทาง](electronic-reporting-destinations.md) รูปแบบ ER จะถูกละเว้นเมื่อรันไทม์</span><span class="sxs-lookup"><span data-stu-id="41145-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
+> <span data-ttu-id="a683e-151">เนื่องจาก `originDestination` ไม่มีการใช้ออบเจ็กต์ในออบเจ็กต์ `AssetRollForwardDestination` ในตัวอย่างนี้ การตั้งค่าคอนฟิกสำหรับ [ปลายทาง](electronic-reporting-destinations.md) รูปแบบ ER จะถูกละเว้นเมื่อรันไทม์</span><span class="sxs-lookup"><span data-stu-id="a683e-151">Because the `originDestination` object isn't used in the `AssetRollForwardDestination` object in this example, the configurations for the ER format [destinations](electronic-reporting-destinations.md) will be ignored at runtime.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="41145-152">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="41145-152">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a683e-152">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a683e-152">Additional resources</span></span>
 
-- [<span data-ttu-id="41145-153">ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="41145-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
-- [<span data-ttu-id="41145-154">หน้าแรกของความสามารถในการเพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="41145-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
+- [<span data-ttu-id="a683e-153">ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)</span><span class="sxs-lookup"><span data-stu-id="a683e-153">Electronic reporting (ER) destinations</span></span>](electronic-reporting-destinations.md)
+- [<span data-ttu-id="a683e-154">หน้าแรกของความสามารถในการเพิ่มฟังก์ชัน</span><span class="sxs-lookup"><span data-stu-id="a683e-154">Extensibility home page</span></span>](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

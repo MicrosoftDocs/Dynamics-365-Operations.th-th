@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
@@ -17,51 +16,54 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ea5b4e6a4a82845bb973ffd6b16b3f83e8c7b0d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685744"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564474"
 ---
-# <a name="power-bi-content-home-page"></a><span data-ttu-id="e8447-103">โฮมเพจเนื้อหาของ Power BI</span><span class="sxs-lookup"><span data-stu-id="e8447-103">Power BI content home page</span></span>
+# <a name="power-bi-content-home-page"></a><span data-ttu-id="82c51-103">โฮมเพจเนื้อหาของ Power BI</span><span class="sxs-lookup"><span data-stu-id="82c51-103">Power BI content home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e8447-104">โซลูชัน PowerBI.com ต่อไปนี้พร้อมใช้งานสำหรับสภาพแวดล้อมของแอพลิเคชั่น</span><span class="sxs-lookup"><span data-stu-id="e8447-104">The following PowerBI.com solutions are available for application environments.</span></span>
+<span data-ttu-id="82c51-104">โซลูชัน PowerBI.com ต่อไปนี้พร้อมใช้งานสำหรับสภาพแวดล้อมของแอพลิเคชั่น</span><span class="sxs-lookup"><span data-stu-id="82c51-104">The following PowerBI.com solutions are available for application environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="e8447-105">โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="e8447-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="82c51-105">โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="82c51-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="e8447-106">โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานในไลบรารีสินทรัพย์ที่ใช้ร่วมกันของ LCS</span><span class="sxs-lookup"><span data-stu-id="e8447-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="e8447-107">อ้างอิงถึงข้อมูลเวอร์ชันในไลบรารีสินทรัพย์ที่ใช้ร่วมกัน เพื่อดาวน์โหลดรุ่นที่ถูกต้องสำหรับสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="e8447-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="e8447-108">โซลูชัน PowerBI.com ส่วนใหญ่ในรายการต่อไปนี้ได้ถูกฝังอยู่ในพื้นที่ทำงานเชิงวิเคราะห์ในรุ่นล่าสุด</span><span class="sxs-lookup"><span data-stu-id="e8447-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="e8447-109">การใช้พื้นที่ทำงานเชิงวิเคราะห์จะตัดความจำเป็นในการดาวน์โหลดโซลูชันเหล่านี้จากไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS</span><span class="sxs-lookup"><span data-stu-id="e8447-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="e8447-110">หัวข้อในรายการนี้บ่งชี้ที่ซึ่งโซลูชัน PowerBI.com เหล่านี้ได้ถูกฝังอยู่ในที่ซึ่งเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="e8447-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
-
-- [<span data-ttu-id="e8447-111">ที่เกิดขึ้นจริงเทียบกับงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="e8447-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="e8447-112">ภาพรวมของเงินสด</span><span class="sxs-lookup"><span data-stu-id="e8447-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="e8447-113">ค่าตอบแทนและสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="e8447-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-114">การวิเคราะห์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8447-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
-- [<span data-ttu-id="e8447-115">การจัดการสินเชื่อและการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="e8447-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="e8447-116">ความสามารถของพนักงานและการพัฒนา</span><span class="sxs-lookup"><span data-stu-id="e8447-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-117">ประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="e8447-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-118">การจัดการสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="e8447-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="e8447-119">การฝึกอบรมขององค์กร</span><span class="sxs-lookup"><span data-stu-id="e8447-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-120">ผู้จัดการแนวทางปฏิบัติ</span><span class="sxs-lookup"><span data-stu-id="e8447-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="e8447-121">ประสิทธิภาพของการผลิต</span><span class="sxs-lookup"><span data-stu-id="e8447-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="e8447-122">การวิเคราะห์การซื้อและการใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="e8447-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
-- [<span data-ttu-id="e8447-123">การสรรหา</span><span class="sxs-lookup"><span data-stu-id="e8447-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-124">ประสิทธิภาพการขายและความสามารถในการทำกำไร</span><span class="sxs-lookup"><span data-stu-id="e8447-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="e8447-125">การชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="e8447-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="e8447-126">ประสิทธิภาพคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="e8447-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="e8447-127">เมตริกบุคลากร</span><span class="sxs-lookup"><span data-stu-id="e8447-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
-
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="e8447-128">โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก AppSource</span><span class="sxs-lookup"><span data-stu-id="e8447-128">PowerBI.com solutions available from AppSource</span></span>
-
-<span data-ttu-id="e8447-129">โซลูชัน PowerBI.com ต่อไปนี้พร้อมใช้งานจาก [Microsoft AppSource](https://appsource.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="e8447-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="82c51-106">โซลูชัน PowerBI.com ต่อไปนี้จะพร้อมใช้งานในไลบรารีสินทรัพย์ที่ใช้ร่วมกันของ LCS</span><span class="sxs-lookup"><span data-stu-id="82c51-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="82c51-107">อ้างอิงถึงข้อมูลเวอร์ชันในไลบรารีสินทรัพย์ที่ใช้ร่วมกัน เพื่อดาวน์โหลดรุ่นที่ถูกต้องสำหรับสภาพแวดล้อมของคุณ</span><span class="sxs-lookup"><span data-stu-id="82c51-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e8447-130">โซลูชันเหล่านี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่พร้อมใช้งานใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)</span><span class="sxs-lookup"><span data-stu-id="e8447-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> <span data-ttu-id="82c51-108">โซลูชัน PowerBI.com ส่วนใหญ่ในรายการต่อไปนี้ได้ถูกฝังอยู่ในพื้นที่ทำงานเชิงวิเคราะห์ในรุ่นล่าสุด</span><span class="sxs-lookup"><span data-stu-id="82c51-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="82c51-109">การใช้พื้นที่ทำงานเชิงวิเคราะห์จะตัดความจำเป็นในการดาวน์โหลดโซลูชันเหล่านี้จากไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน LCS</span><span class="sxs-lookup"><span data-stu-id="82c51-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="82c51-110">หัวข้อในรายการนี้บ่งชี้ที่ซึ่งโซลูชัน PowerBI.com เหล่านี้ได้ถูกฝังอยู่ในที่ซึ่งเกี่ยวข้อง</span><span class="sxs-lookup"><span data-stu-id="82c51-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
 
-- <span data-ttu-id="e8447-131">การจัดการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="e8447-131">Cost management</span></span>
-- [<span data-ttu-id="e8447-132">ประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="e8447-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="e8447-133">ประสิทธิภาพของช่องทางการขายปลีก </span><span class="sxs-lookup"><span data-stu-id="e8447-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+- [<span data-ttu-id="82c51-111">ที่เกิดขึ้นจริงเทียบกับงบประมาณ</span><span class="sxs-lookup"><span data-stu-id="82c51-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="82c51-112">ภาพรวมของเงินสด</span><span class="sxs-lookup"><span data-stu-id="82c51-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="82c51-113">ค่าตอบแทนและสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="82c51-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-114">การวิเคราะห์การบัญชีต้นทุน</span><span class="sxs-lookup"><span data-stu-id="82c51-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="82c51-115">การจัดการสินเชื่อและการเรียกเก็บเงิน</span><span class="sxs-lookup"><span data-stu-id="82c51-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="82c51-116">ความสามารถของพนักงานและการพัฒนา</span><span class="sxs-lookup"><span data-stu-id="82c51-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-117">ประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="82c51-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-118">การจัดการสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="82c51-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="82c51-119">การฝึกอบรมขององค์กร</span><span class="sxs-lookup"><span data-stu-id="82c51-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-120">ผู้จัดการแนวทางปฏิบัติ</span><span class="sxs-lookup"><span data-stu-id="82c51-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="82c51-121">ประสิทธิภาพของการผลิต</span><span class="sxs-lookup"><span data-stu-id="82c51-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="82c51-122">การวิเคราะห์การซื้อและการใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="82c51-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="82c51-123">การสรรหา</span><span class="sxs-lookup"><span data-stu-id="82c51-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-124">ประสิทธิภาพการขายและความสามารถในการทำกำไร</span><span class="sxs-lookup"><span data-stu-id="82c51-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="82c51-125">การชำระเงินให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="82c51-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="82c51-126">ประสิทธิภาพคลังสินค้า</span><span class="sxs-lookup"><span data-stu-id="82c51-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="82c51-127">เมตริกบุคลากร</span><span class="sxs-lookup"><span data-stu-id="82c51-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
+
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="82c51-128">โซลูชัน PowerBI.com ที่พร้อมใช้งานจาก AppSource</span><span class="sxs-lookup"><span data-stu-id="82c51-128">PowerBI.com solutions available from AppSource</span></span>
+
+<span data-ttu-id="82c51-129">โซลูชัน PowerBI.com ต่อไปนี้พร้อมใช้งานจาก [Microsoft AppSource](https://appsource.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="82c51-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="82c51-130">โซลูชันเหล่านี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [ชุดเนื้อหา Power BI ที่พร้อมใช้งานใน AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)</span><span class="sxs-lookup"><span data-stu-id="82c51-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="82c51-131">การจัดการต้นทุน</span><span class="sxs-lookup"><span data-stu-id="82c51-131">Cost management</span></span>
+- [<span data-ttu-id="82c51-132">ประสิทธิภาพทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="82c51-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="82c51-133">ประสิทธิภาพของช่องทางการขายปลีก </span><span class="sxs-lookup"><span data-stu-id="82c51-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
