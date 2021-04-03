@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024681"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500609"
 ---
 # <a name="manage-standard-cost-updates"></a>จัดการการอัพเดตต้นทุนมาตรฐาน
 
@@ -45,6 +45,8 @@ ms.locfileid: "5024681"
 ตัวอย่างนี้ใช้หนึ่งเวอร์ชันการคำนวณต้นทุนเพิ่มเติมสำหรับการจัดการการอัพเดตตลอดปี 2020 สามารถใช้มากกว่าหนึ่งเวอร์ชันการคำนวณต้นทุนเพิ่มเติม เช่น เวอร์ชันแยกกันสำหรับแต่ละชุดงานของการอัพเดต เมื่อมีการใช้การคำนวณต้นทุนเพิ่มเติมมากกว่าหนึ่ง การสำรองต้องแสดงในฐานะต้นทุนใช้งานอยู่ เนื่องจากมีการกระจายต้นทุนใช้งานอยู่ผ่านหลายเวอร์ชันของการคำนวณต้นทุน
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>มิติทางการเงินสำหรับการประเมินค่าต้นทุนมาตรฐานใหม่
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 การเรียกใช้ราคามาตรฐานใหม่จะประเมินค่ามูลค่าปริมาณคงคลังคงเหลือใหม่โดยเรียงตามธุรกรรมการประเมินค่าต้นทุนมาตรฐานใหม่ โดยปกติแล้ว จะมีการลงรายการบัญชีมิติทางการเงินของสินค้าในธุรกรรม อย่างไรก็ตาม ถ้าคุณต้องการควบคุมไม่ว่ามิติทางการเงินจะมีการลงรายการบัญชีอย่างไร ให้ใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดคุณลักษณะที่ชื่อว่า *ตัวเลือกมิติทางการเงินเริ่มต้นของการประเมินค่าต้นทุนสินค้าคงคลังมาตรฐานใหม่* หลังจากเปิดใช้งานคุณลักษณะนี้ ให้ไปที่ **การจัดการต้นทุน > การตั้งค่านโยบายการบัญชีสินค้าคงคลัง > พารามิเตอร์** และตั้งค่ารายการแบบหล่นลงของ **จุดเริ่มต้นใหม่ของมิติทางการเงิน** เป็นค่าใดค่าหนึ่งต่อไปนี้
 

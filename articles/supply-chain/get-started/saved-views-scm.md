@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123479"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500705"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management รวมมุมมองที่บันทึกไว้หลายมุมมอง ที่คุณสามารถเปิดใช้งานและใช้งานได้ตามต้องการ มุมมองมาตรฐานที่บันทึกไว้แบบมาตรฐานบางมุมมองเหล่านี้ได้รับการปรับปรุงประสิทธิภาพและตั้งชื่อให้กับบทบาทหรืองานเฉพาะ (ตัวอย่างเช่น "การควบคุมคุณภาพ" หรือ "การรับสินค้า") ข้อมูลอื่น ๆ มีประสิทธิภาพสูงสุด เพื่อให้ลูกค้าใช้เฉพาะฟิลด์และการตั้งค่าที่สถิติการใช้ Microsoft ระบุว่าลูกค้ามักใช้มากที่สุด โดยปกติ มุมมองที่บันทึกไว้เหล่านี้เรียกอีกอย่างว่ามุมมอง *แบบง่าย* หัวข้อนี้อธิบายมุมมองที่บันทึกไว้แบบมาตรฐานที่พร้อมใช้งาน และอธิบายวิธีการเปิดใช้งานและเลือกกำหนดมุมมองนั้น
 
