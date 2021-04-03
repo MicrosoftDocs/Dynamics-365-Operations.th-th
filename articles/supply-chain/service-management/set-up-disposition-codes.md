@@ -17,42 +17,45 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977549"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470702"
 ---
-# <a name="set-up-disposition-codes"></a><span data-ttu-id="1a2a3-103">ตั้งค่ารหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="1a2a3-103">Set up disposition codes</span></span> 
+# <a name="set-up-disposition-codes"></a><span data-ttu-id="e49a6-103">ตั้งค่ารหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="e49a6-103">Set up disposition codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="1a2a3-104">คุณสามารถตั้งค่ารหัสการโอนการครอบครอง เพื่อระบุวิธีการประมวลผลสินค้าที่ถูกส่งคืนโดยลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="1a2a3-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="1a2a3-105">ตัวอย่างเช่น สร้างรหัสการโอนการครอบครองที่ชื่อว่า **ซ่อมแซมและส่งคืน** เพื่อบ่งชี้ว่า สินค้าที่ส่งคืนจะถูกซ่อมแซม แล้วถูกส่งคืนให้แก่ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="1a2a3-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="1a2a3-106">สำหรับตัวอย่างเพิ่มเติมเกี่ยวกับรหัสการโอนการครอบครองที่ถูกใช้โดยทั่วไปสำหรับสินค้าที่ถูกส่งคืนโดยลูกค้า โปรดดู [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="1a2a3-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
+<span data-ttu-id="e49a6-104">คุณสามารถตั้งค่ารหัสการโอนการครอบครอง เพื่อระบุวิธีการประมวลผลสินค้าที่ถูกส่งคืนโดยลูกค้าได้</span><span class="sxs-lookup"><span data-stu-id="e49a6-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="e49a6-105">ตัวอย่างเช่น สร้างรหัสการโอนการครอบครองที่ชื่อว่า **ซ่อมแซมและส่งคืน** เพื่อบ่งชี้ว่า สินค้าที่ส่งคืนจะถูกซ่อมแซม แล้วถูกส่งคืนให้แก่ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e49a6-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="e49a6-106">สำหรับตัวอย่างเพิ่มเติมเกี่ยวกับรหัสการโอนการครอบครองที่ถูกใช้โดยทั่วไปสำหรับสินค้าที่ถูกส่งคืนโดยลูกค้า โปรดดู [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="e49a6-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
 
-<span data-ttu-id="1a2a3-107">นอกจากนี้ คุณยังสามารถตั้งค่ารหัสเหตุผลเพื่อช่วยอธิบายว่า เพราะเหตุใดจึงมีการส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="1a2a3-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="1a2a3-108">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรหัสเหตุผล ให้ดูที่ [ตั้งค่ารหัสเหตุผลในการส่งคืน](set-up-return-reason-code.md)</span><span class="sxs-lookup"><span data-stu-id="1a2a3-108">For more information about reason codes, see [Set up return reason codes](set-up-return-reason-code.md).</span></span>
+<span data-ttu-id="e49a6-107">นอกจากนี้ คุณยังสามารถตั้งค่ารหัสเหตุผลเพื่อช่วยอธิบายว่า เพราะเหตุใดจึงมีการส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="e49a6-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="e49a6-108">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรหัสเหตุผล ให้ดูที่ [ตั้งค่ารหัสเหตุผลในการส่งคืน](set-up-return-reason-code.md)</span><span class="sxs-lookup"><span data-stu-id="e49a6-108">For more information about reason codes, see [Set up return reason codes](set-up-return-reason-code.md).</span></span>
 
-1.  <span data-ttu-id="1a2a3-109">คลิก **การขายและการตลาด** \> **ตั้งค่า** \> **ใบสั่งขาย** \> **การส่งคืนสินค้า** \> **รหัสการโอนการครอบครอง**</span><span class="sxs-lookup"><span data-stu-id="1a2a3-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
+1.  <span data-ttu-id="e49a6-109">ไปที่ **การขายและการตลาด** \> **ตั้งค่า** \> **ใบสั่งขาย** \> **การส่งคืนสินค้า** \> **รหัสการโอนการครอบครอง**</span><span class="sxs-lookup"><span data-stu-id="e49a6-109">Go to **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
 
-2.  <span data-ttu-id="1a2a3-110">คลิก **สร้าง** หรือกด CTRL+N เพื่อสร้างรหัสการโอนการครอบครองใหม่</span><span class="sxs-lookup"><span data-stu-id="1a2a3-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
+2.  <span data-ttu-id="e49a6-110">เลือก **สร้าง** เพื่อสร้างรหัสการโอนการครอบครองใหม่</span><span class="sxs-lookup"><span data-stu-id="e49a6-110">Select **New** to create a new disposition code.</span></span>
 
-3.  <span data-ttu-id="1a2a3-111">ป้อนชื่อที่เป็นคำอธิบายที่ไม่ซ้ำ เลือกการดำเนินการ และป้อนคำอธิบายสำหรับรหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="1a2a3-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
+3.  <span data-ttu-id="e49a6-111">ป้อนชื่อที่เป็นคำอธิบายที่ไม่ซ้ำ เลือกการดำเนินการ และป้อนคำอธิบายสำหรับรหัสการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="e49a6-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
 
-4.  <span data-ttu-id="1a2a3-112">ถ้าคุณต้องการเชื่อมโยงค่าธรรมเนียมของลูกค้าใดๆ เข้ากับรหัสการโอนการครอบครองนี้ ให้คลิกปุ่ม **ค่าธรรมเนียม** เพื่อเปิดแบบฟอร์ม **ตั้งค่าค่าธรรมเนียม**</span><span class="sxs-lookup"><span data-stu-id="1a2a3-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
+4.  <span data-ttu-id="e49a6-112">ถ้าคุณต้องการเชื่อมโยงค่าธรรมเนียมของลูกค้าใดๆ เข้ากับรหัสการโอนการครอบครองนี้ ให้เลือกปุ่ม **ค่าธรรมเนียม** เพื่อเปิดแบบฟอร์ม **ตั้งค่าค่าธรรมเนียม**</span><span class="sxs-lookup"><span data-stu-id="e49a6-112">If you want to associate any customer charges with this disposition code, select the **Charges** button to open the **Set up charges** form.</span></span>
 
-5.  <span data-ttu-id="1a2a3-113">ถ้าคุณต้องการกำหนดรหัสภายนอกเพื่อจับคู่กับรหัสการโอนการครอบครองของบริษัทของคุณเอง ให้คลิกปุ่ม **รหัสภายนอก** เพื่อเปิดแบบฟอร์ม **รหัสภายนอก**</span><span class="sxs-lookup"><span data-stu-id="1a2a3-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
+5.  <span data-ttu-id="e49a6-113">ถ้าคุณต้องการกำหนดรหัสภายนอกเพื่อจับคู่กับรหัสการโอนการครอบครองของบริษัทของคุณเอง ให้เลือกปุ่ม **รหัสภายนอก** เพื่อเปิดแบบฟอร์ม **รหัสภายนอก**</span><span class="sxs-lookup"><span data-stu-id="e49a6-113">If you want to define any external codes to match with the company's own disposition codes, select the **External codes** button to open the **External codes** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="1a2a3-114">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="1a2a3-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e49a6-114">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="e49a6-114">See also</span></span>
 
-[<span data-ttu-id="1a2a3-115">ภาพรวมของการส่งคืนของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="1a2a3-115">Customer returns overview</span></span>](disposition-and-return-reason-codes.md)
+[<span data-ttu-id="e49a6-115">ภาพรวมของการส่งคืนของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="e49a6-115">Customer returns overview</span></span>](disposition-and-return-reason-codes.md)
 
-<span data-ttu-id="1a2a3-116">[รหัสการจัดการ (แบบฟอร์ม)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1a2a3-116">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="e49a6-116">[รหัสการจัดการ (แบบฟอร์ม)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e49a6-116">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
-<span data-ttu-id="1a2a3-117">[ค่าธรรมเนียมอัตโนมัติ (แบบฟอร์ม)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1a2a3-117">[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span></span>
+<span data-ttu-id="e49a6-117">[ค่าธรรมเนียมอัตโนมัติ (แบบฟอร์ม)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e49a6-117">[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span></span>
 
-<span data-ttu-id="1a2a3-118">[รหัสภายนอก (แบบฟอร์ม)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="1a2a3-118">[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span></span>
+<span data-ttu-id="e49a6-118">[รหัสภายนอก (แบบฟอร์ม)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="e49a6-118">[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

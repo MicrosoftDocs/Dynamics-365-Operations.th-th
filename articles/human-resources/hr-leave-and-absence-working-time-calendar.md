@@ -18,60 +18,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115113"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467180"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="6b0f2-103">สร้างปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="e5d6b-103">สร้างปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="6b0f2-104">ปฏิทินเวลาทำงานใน Dynamics 365 Human Resources แสดงวันและชั่วโมงที่พนักงานทำงานในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="6b0f2-105">เมื่อพนักงานส่งคำขอการเวลาหยุดพัก พนักงานไม่ต้องกังวลเกี่ยวกับวันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="6b0f2-106">เมื่อต้องการปรับปรุงการร้องขอเวลาหยุดพักให้ตั้งค่าคอนฟิกรายการเหล่านี้สำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="e5d6b-104">ปฏิทินเวลาทำงานใน Dynamics 365 Human Resources แสดงวันและชั่วโมงที่พนักงานทำงานในองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="e5d6b-105">เมื่อพนักงานส่งคำขอการเวลาหยุดพัก พนักงานไม่ต้องกังวลเกี่ยวกับวันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-- <span data-ttu-id="6b0f2-107">ปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-107">Working time calendar</span></span>
-- <span data-ttu-id="6b0f2-108">วันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-108">Holidays and closures</span></span>
-- <span data-ttu-id="6b0f2-109">เวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-109">Non-work time</span></span>
+<span data-ttu-id="e5d6b-106">เมื่อต้องการปรับปรุงการร้องขอเวลาหยุดพักให้ตั้งค่าคอนฟิกรายการเหล่านี้สำหรับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-<span data-ttu-id="6b0f2-110">คุณสามารถเพิ่มรายการสองรายการในขณะที่คุณกำลังตั้งค่าปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="6b0f2-111">นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกหรืออัพเดตได้โดยแยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="6b0f2-111">You can also configure or update them separately.</span></span>
+- <span data-ttu-id="e5d6b-107">ปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-107">Working time calendar</span></span>
+- <span data-ttu-id="e5d6b-108">วันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-108">Holidays and closures</span></span>
+- <span data-ttu-id="e5d6b-109">เวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-109">Non-work time</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="6b0f2-112">ตั้งค่าปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-112">Set up a working time calendar</span></span>
+<span data-ttu-id="e5d6b-110">คุณสามารถเพิ่มรายการสองรายการในขณะที่คุณกำลังตั้งค่าปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="e5d6b-111">นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกหรืออัพเดตได้โดยแยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="e5d6b-111">You can also configure or update them separately.</span></span>
 
-<span data-ttu-id="6b0f2-113">ตั้งค่าปฏิทินเวลาทำงานอย่างน้อยหนึ่งปฏิทินที่แสดงวันและชั่วโมงของการดำเนินงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="6b0f2-114">ถ้าคุณมีสถานที่ในหลายประเทศและภูมิภาคคุณอาจต้องการที่จะตั้งค่าปฏิทินเวลาการทำงานสำหรับแต่ละพื้นที่</span><span class="sxs-lookup"><span data-stu-id="6b0f2-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="e5d6b-112">ตั้งค่าปฏิทินเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-112">Set up a working time calendar</span></span>
 
-1. <span data-ttu-id="6b0f2-115">ในหน้า **การจัดการองค์กร** เลือก **ปฏิทิน**</span><span class="sxs-lookup"><span data-stu-id="6b0f2-115">On the **Organization administration** page, select **Calendars**.</span></span>
+<span data-ttu-id="e5d6b-113">ตั้งค่าปฏิทินเวลาทำงานอย่างน้อยหนึ่งปฏิทินที่แสดงวันและชั่วโมงของการดำเนินงานของคุณ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="e5d6b-114">ถ้าคุณมีสถานที่ในหลายประเทศและภูมิภาคคุณอาจต้องการที่จะตั้งค่าปฏิทินเวลาการทำงานสำหรับแต่ละพื้นที่</span><span class="sxs-lookup"><span data-stu-id="e5d6b-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-2. <span data-ttu-id="6b0f2-116">เลือก **ใหม่** และป้อนชื่อและคำอธิบายสำหรับปฏิทินของคุณ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-116">Select **New** and enter a name and description for your calendar.</span></span>
+1. <span data-ttu-id="e5d6b-115">ในหน้า **การจัดการองค์กร** เลือก **ปฏิทิน**</span><span class="sxs-lookup"><span data-stu-id="e5d6b-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-3. <span data-ttu-id="6b0f2-117">ภายใต้ **ตัวเลือกการสร้าง** ให้เลือกวันทำงานสำหรับองค์กรของคุณและป้อนเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="6b0f2-118">เมื่อต้องการเพิ่มวันหยุดหรือปิดทำการให้เลือกปุ่ม **เพิ่ม** ที่อยู่ถัดจาก **วันหยุดและการปิดทำการ**</span><span class="sxs-lookup"><span data-stu-id="6b0f2-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="6b0f2-119">เมื่อต้องการเพิ่มเวลาที่ไม่ทำงานเช่นพักกลางวันหรือพักทานของว่าง ให้เลือก **เพิ่ม** ภายใต้ **เวลาที่ไม่ทำงาน** แล้วป้อนชื่อและช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="6b0f2-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+2. <span data-ttu-id="e5d6b-116">เลือก **ใหม่** และป้อนชื่อและคำอธิบายสำหรับปฏิทินของคุณ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-4. <span data-ttu-id="6b0f2-120">ภายใต้ **วัน** เลือก **สร้าง** เพื่อสร้างวันในปฏิทินของคุณ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="6b0f2-121">ป้อนช่วงวันที่สำหรับปฏิทินของคุณแล้วเลือก **สร้างวัน**</span><span class="sxs-lookup"><span data-stu-id="6b0f2-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+3. <span data-ttu-id="e5d6b-117">ภายใต้ **ตัวเลือกการสร้าง** ให้เลือกวันทำงานสำหรับองค์กรของคุณและป้อนเวลาทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="e5d6b-118">เมื่อต้องการเพิ่มวันหยุดหรือปิดทำการให้เลือกปุ่ม **เพิ่ม** ที่อยู่ถัดจาก **วันหยุดและการปิดทำการ**</span><span class="sxs-lookup"><span data-stu-id="e5d6b-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="e5d6b-119">เมื่อต้องการเพิ่มเวลาที่ไม่ทำงานเช่นพักกลางวันหรือพักทานของว่าง ให้เลือก **เพิ่ม** ภายใต้ **เวลาที่ไม่ทำงาน** แล้วป้อนชื่อและช่วงเวลา</span><span class="sxs-lookup"><span data-stu-id="e5d6b-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-5. <span data-ttu-id="6b0f2-122">ถ้าต้องการเพิ่มกำหนดการทำงานภายใต้ **กำหนดการทำงาน** ให้เลือก **เพิ่ม** แล้วป้อนเวลาสำหรับแต่ละกำหนดการทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+4. <span data-ttu-id="e5d6b-120">ภายใต้ **วัน** เลือก **สร้าง** เพื่อสร้างวันในปฏิทินของคุณ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="e5d6b-121">ป้อนช่วงวันที่สำหรับปฏิทินของคุณแล้วเลือก **สร้างวัน**</span><span class="sxs-lookup"><span data-stu-id="e5d6b-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="6b0f2-123">ตั้งค่าคอนฟิกวันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-123">Configure holidays and closures</span></span>
+5. <span data-ttu-id="e5d6b-122">ถ้าต้องการเพิ่มกำหนดการทำงานภายใต้ **กำหนดการทำงาน** ให้เลือก **เพิ่ม** แล้วป้อนเวลาสำหรับแต่ละกำหนดการทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-<span data-ttu-id="6b0f2-124">คุณสามารถเพิ่มหรือเปลี่ยนแปลงวันหยุดและการปิดทำการแยกต่างหากจากปฏิทินเวลาทำงานได้</span><span class="sxs-lookup"><span data-stu-id="6b0f2-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="e5d6b-123">ตั้งค่าคอนฟิกวันหยุดและการปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-123">Configure holidays and closures</span></span>
 
-1. <span data-ttu-id="6b0f2-125">ในหน้า **การจัดการองค์กร** เลือก **วันหยุดและปิดทำการ**</span><span class="sxs-lookup"><span data-stu-id="6b0f2-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+<span data-ttu-id="e5d6b-124">คุณสามารถเพิ่มหรือเปลี่ยนแปลงวันหยุดและการปิดทำการแยกต่างหากจากปฏิทินเวลาทำงานได้</span><span class="sxs-lookup"><span data-stu-id="e5d6b-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="6b0f2-126">เลือก **ใหม่** และป้อนชื่อและวันที่คำอธิบายสำหรับวันหยุดและปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="6b0f2-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+1. <span data-ttu-id="e5d6b-125">ในหน้า **การจัดการองค์กร** เลือก **วันหยุดและปิดทำการ**</span><span class="sxs-lookup"><span data-stu-id="e5d6b-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="6b0f2-127">ตั้งค่าคอนฟิกเวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-127">Configure non-work time</span></span>
+2. <span data-ttu-id="e5d6b-126">เลือก **ใหม่** และป้อนชื่อและวันที่คำอธิบายสำหรับวันหยุดและปิดทำการ</span><span class="sxs-lookup"><span data-stu-id="e5d6b-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-<span data-ttu-id="6b0f2-128">คุณสามารถเพิ่มหรือเปลี่ยนแปลงวันที่ไม่ทำงานแยกต่างหากจากปฏิทินเวลาทำงานได้</span><span class="sxs-lookup"><span data-stu-id="6b0f2-128">You can add or change non-work times separately from a working time calendar.</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="e5d6b-127">ตั้งค่าคอนฟิกเวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-127">Configure non-work time</span></span>
 
-1. <span data-ttu-id="6b0f2-129">ในหน้า **การจัดการองค์กร** เลือก **เวลาที่ไม่ทำงาน**</span><span class="sxs-lookup"><span data-stu-id="6b0f2-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+<span data-ttu-id="e5d6b-128">คุณสามารถเพิ่มหรือเปลี่ยนแปลงวันที่ไม่ทำงานแยกต่างหากจากปฏิทินเวลาทำงานได้</span><span class="sxs-lookup"><span data-stu-id="e5d6b-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="6b0f2-130">เลือก **ใหม่** และป้อนชื่อและช่วงเวลาสำหรับเวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+1. <span data-ttu-id="e5d6b-129">ในหน้า **การจัดการองค์กร** เลือก **เวลาที่ไม่ทำงาน**</span><span class="sxs-lookup"><span data-stu-id="e5d6b-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-<span data-ttu-id="6b0f2-131">ถ้าคุณได้เปิดใช้งานคุณลักษณะตัวอย่างการแก้ไขวันหยุดของธนาคารการลางานและการขาดงาน ทรัพยากรบุคคลจะใช้วันหยุดและเวลาปิดทำการเพื่อกำหนดจำนวนวันที่จะปรับปรุงสำหรับพนักงานที่ลงทะเบียนในปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+2. <span data-ttu-id="e5d6b-130">เลือก **ใหม่** และป้อนชื่อและช่วงเวลาสำหรับเวลาที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6b0f2-132">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="6b0f2-132">See also</span></span>
+<span data-ttu-id="e5d6b-131">ถ้าคุณได้เปิดใช้งานคุณลักษณะตัวอย่างการแก้ไขวันหยุดของธนาคารการลางานและการขาดงาน ทรัพยากรบุคคลจะใช้วันหยุดและเวลาปิดทำการเพื่อกำหนดจำนวนวันที่จะปรับปรุงสำหรับพนักงานที่ลงทะเบียนในปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-- [<span data-ttu-id="6b0f2-133">ภาพรวมการลางานและการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="6b0f2-134">ตั้งค่าคอนฟิกชนิดการลางานและการหยุดงาน</span><span class="sxs-lookup"><span data-stu-id="6b0f2-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+## <a name="see-also"></a><span data-ttu-id="e5d6b-132">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="e5d6b-132">See also</span></span>
+
+- [<span data-ttu-id="e5d6b-133">ภาพรวมการลางานและการขาดงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="e5d6b-134">ตั้งค่าคอนฟิกชนิดการลางานและการหยุดงาน</span><span class="sxs-lookup"><span data-stu-id="e5d6b-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
