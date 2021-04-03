@@ -15,35 +15,38 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4042fb9da0fe38de50ad7e0c8e64b98925ea1188
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964784"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265970"
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="7858a-103"> สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="7858a-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="de47c-103"> สร้างค่ามิติทางการเงินสำหรับเครื่องบันทึกเงินสด POS และตั้งค่าคอนฟิกค่ามิติบนเครื่องบันทึกเงินสด</span><span class="sxs-lookup"><span data-stu-id="de47c-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7858a-104">กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินสำหรับการลงทะเบียนการขายหน้าร้าน (POS) และแสดงวิธีการตั้งค่าคอนฟิกค่ามิติทางการเงินบนเครื่องบันทึกเงินสด </span><span class="sxs-lookup"><span data-stu-id="7858a-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="7858a-105">กระบวนงานนี้ไม่รวมขั้นตอนที่เกี่ยวข้องอื่นๆ เช่น การสร้างชุดมิติและโครงสร้างทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="7858a-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="7858a-106">งานเหล่านั้นจะถูกพบได้ในหัวข้ออื่นๆ</span><span class="sxs-lookup"><span data-stu-id="7858a-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="7858a-107">บันทึกนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="7858a-107">This recording uses USRT demo company.</span></span>
+<span data-ttu-id="de47c-104">กระบวนการนี้นำไปสู่การสร้างมิติทางการเงินสำหรับการลงทะเบียนการขายหน้าร้าน (POS) และแสดงวิธีการตั้งค่าคอนฟิกค่ามิติทางการเงินบนเครื่องบันทึกเงินสด </span><span class="sxs-lookup"><span data-stu-id="de47c-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="de47c-105">กระบวนงานนี้ไม่รวมขั้นตอนที่เกี่ยวข้องอื่นๆ เช่น การสร้างชุดมิติและโครงสร้างทางบัญชี</span><span class="sxs-lookup"><span data-stu-id="de47c-105">This procedure doesn't include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="de47c-106">งานเหล่านั้นจะถูกพบได้ในหัวข้ออื่นๆ</span><span class="sxs-lookup"><span data-stu-id="de47c-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="de47c-107">บันทึกนี้ใช้บริษัทสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="de47c-107">This recording uses USRT demo company.</span></span>
 
-1. <span data-ttu-id="7858a-108">ไปที่บัญชีแยกประเภททั่วไป > ผังบัญชี > มิติ > มิติทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="7858a-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="7858a-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="7858a-109">Click New.</span></span>
-3. <span data-ttu-id="7858a-110">ในฟิลด์ ใช้ค่าจาก เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="7858a-110">In the Use values from field, select an option.</span></span>
-4. <span data-ttu-id="7858a-111">ในฟิลด์ชื่อมิติ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="7858a-111">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="7858a-112">คลิกเรียกใช้</span><span class="sxs-lookup"><span data-stu-id="7858a-112">Click Activate.</span></span>
-6. <span data-ttu-id="7858a-113">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="7858a-113">Click Close.</span></span>
-7. <span data-ttu-id="7858a-114">คลิกเรียกใช้</span><span class="sxs-lookup"><span data-stu-id="7858a-114">Click Activate.</span></span>
-8. <span data-ttu-id="7858a-115">คลิกค่ามิติ</span><span class="sxs-lookup"><span data-stu-id="7858a-115">Click Dimension values.</span></span>
-9. <span data-ttu-id="7858a-116">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7858a-116">Close the page.</span></span>
-10. <span data-ttu-id="7858a-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7858a-117">Click Save.</span></span>
-11. <span data-ttu-id="7858a-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="7858a-118">Close the page.</span></span>
-12. <span data-ttu-id="7858a-119">ไปยัง Retail และ Commerce > การตั้งค่าช่องทาง > การตั้งค่า POS > การลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="7858a-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
-13. <span data-ttu-id="7858a-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="7858a-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="7858a-121">สลับการขยายของส่วนมิติการเงิน</span><span class="sxs-lookup"><span data-stu-id="7858a-121">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="7858a-122">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="7858a-122">Click Edit.</span></span>
-16. <span data-ttu-id="7858a-123">ในฟิลด์ เทอร์มินัล คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="7858a-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="7858a-124">ในรายการ ให้ค้นหาและเลือกค่ามิติสำหรับการลงทะเบียนที่กำลังถูกอัพเดต</span><span class="sxs-lookup"><span data-stu-id="7858a-124">In the list, find and select the dimension value for the register being updated.</span></span>
-18. <span data-ttu-id="7858a-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="7858a-125">Click Save.</span></span>
+1. <span data-ttu-id="de47c-108">ไปที่บัญชีแยกประเภททั่วไป > ผังบัญชี > มิติ > มิติทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="de47c-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="de47c-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="de47c-109">Click New.</span></span>
+3. <span data-ttu-id="de47c-110">ในฟิลด์ ใช้ค่าจาก เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="de47c-110">In the Use values from field, select an option.</span></span>
+4. <span data-ttu-id="de47c-111">ในฟิลด์ชื่อมิติ ให้พิมพ์ค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="de47c-111">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="de47c-112">คลิกเรียกใช้</span><span class="sxs-lookup"><span data-stu-id="de47c-112">Click Activate.</span></span>
+6. <span data-ttu-id="de47c-113">คลิก ปิด</span><span class="sxs-lookup"><span data-stu-id="de47c-113">Click Close.</span></span>
+7. <span data-ttu-id="de47c-114">คลิกเรียกใช้</span><span class="sxs-lookup"><span data-stu-id="de47c-114">Click Activate.</span></span>
+8. <span data-ttu-id="de47c-115">คลิกค่ามิติ</span><span class="sxs-lookup"><span data-stu-id="de47c-115">Click Dimension values.</span></span>
+9. <span data-ttu-id="de47c-116">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="de47c-116">Close the page.</span></span>
+10. <span data-ttu-id="de47c-117">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="de47c-117">Click Save.</span></span>
+11. <span data-ttu-id="de47c-118">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="de47c-118">Close the page.</span></span>
+12. <span data-ttu-id="de47c-119">ไปยัง Retail และ Commerce > การตั้งค่าช่องทาง > การตั้งค่า POS > การลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="de47c-119">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
+13. <span data-ttu-id="de47c-120">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="de47c-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="de47c-121">สลับการขยายของส่วนมิติการเงิน</span><span class="sxs-lookup"><span data-stu-id="de47c-121">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="de47c-122">คลิกแก้ไข</span><span class="sxs-lookup"><span data-stu-id="de47c-122">Click Edit.</span></span>
+16. <span data-ttu-id="de47c-123">ในฟิลด์ เทอร์มินัล คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา</span><span class="sxs-lookup"><span data-stu-id="de47c-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="de47c-124">ในรายการ ให้ค้นหาและเลือกค่ามิติสำหรับการลงทะเบียนที่กำลังถูกอัพเดต</span><span class="sxs-lookup"><span data-stu-id="de47c-124">In the list, find and select the dimension value for the register being updated.</span></span>
+18. <span data-ttu-id="de47c-125">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="de47c-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
