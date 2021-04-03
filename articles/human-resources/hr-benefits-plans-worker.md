@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 5ac357bbef4bf84b9eaf153834bc7a609240c45e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114484"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464237"
 ---
 # <a name="create-worker-benefit-plans"></a>สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณสามารถสร้างแผนสวัสดิการของผู้ปฏิบัติงานใน Microsoft Dynamics 365 Human Resources เพื่อเลือกแผนสวัสดิการสำหรับพนักงาน และเพื่อยืนยันการเลือกแผนสวัสดิการ โดยทั่วไป พนักงานเลือกแผนสวัสดิการด้วยตนเอง โดยใช้การบริการตนเองของพนักงาน แล้วผู้ดูแลระบบสวัสดิการจะยืนยันการเลือก 
 

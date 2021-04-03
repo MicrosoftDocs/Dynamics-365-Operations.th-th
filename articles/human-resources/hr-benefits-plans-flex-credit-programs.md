@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f701d9e38e04769f1255e6f8cb3ee757bf22f96c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3a4966aeb0adb50c82e4edd626ea9c0289703e3
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114486"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464313"
 ---
 # <a name="set-up-flex-credit-programs"></a>ตั้งค่าโปรแกรมเครดิตการทำงานแบบยืดหยุ่นเวลา
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณสามารถใช้โปรแกรมเครดิตการทำงานแบบยืดหยุ่นเวลาใน Microsoft Dynamics 365 Human Resources เพื่อลงทะเบียนพนักงานในสวัสดิการตามหมายเลขที่กำหนดไว้ล่วงหน้าที่มีการทำงานแบบยืดหยุ่นเวลา พนักงานสามารถเลือกวิธีการปันส่วนเครดิตการทำงานแบบยืดหยุ่นเวลาได้ ตัวอย่างเช่น ถ้าพนักงานครอบคลุมภายใต้แผนประกันภัยสุขภาพของคู่สมรสของตนเอง พนักงานอาจต้องการใช้เครดิตที่พวกเขาจะใช้ในความคุ้มครองด้านสุขภาพกับสวัสดิการอื่น ๆ 
 

@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115425"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467131"
 ---
 # <a name="personnel-actions-faq"></a>FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 บทความนี้ประกอบด้วยคำตอบของคำถามที่คุณอาจมีถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร ตัวอย่างของงานที่อาจต้องต้องการการดำเนินการด้านบุคลากร คือ เมื่อคุณสร้างตำแหน่งใหม่ ปรับเปลี่ยนค่าตำแหน่งที่มีอยู่ ว่าจ้างผู้ปฏิบัติงานใหม่ โอนย้ายผู้ปฏิบัติงาน เปลี่ยนค่าตอบแทนของผู้ปฏิบัติงาน เปลี่ยนการมอบหมายตำแหน่งงาน หรือเลิกจ้างผู้ปฏิบัติงาน
 

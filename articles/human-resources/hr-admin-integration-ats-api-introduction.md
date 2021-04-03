@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125604"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464043"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>บทนํา API การรวมระบบการติดตามผู้สมัคร
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายระบบติดตามผู้สมัคร (ATS) Dynamics 365 Human Resources การรวม API  วัตถุประสงค์ของ API คือการเปิดใช้งานการรวมอย่างมีประสิทธิภาพระหว่าง Dynamics 365 Human Resources และการเป็นพันธมิตร ATS
 
@@ -121,11 +123,11 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 - [ว่าง ใช่ ไม่ใช่](hr-admin-integration-ats-api-blank-yes-no.md)
 - [สถานะการเสร็จสมบูรณ์](hr-admin-integration-ats-api-completion-status.md)
 - [ชนิดผู้ติดต่อ](hr-admin-integration-ats-api-contact-type.md)
-- [เกณฑ์เครดิตการศึกษา](hr-admin-integration-ats-api-education-credit-basis.md)
+- [เกณฑ์หน่วยกิตการศึกษา](hr-admin-integration-ats-api-education-credit-basis.md)
 - [เพศ](hr-admin-integration-ats-api-gender.md)
 - [สถานภาพการสมรส](hr-admin-integration-ats-api-marital-status.md)
-- [เดือนต่างๆของปี](hr-admin-integration-ats-api-months-of-year.md)
-- [ไม่ใช่ ใช่](hr-admin-integration-ats-api-no-yes.md)
+- [เดือนของปี](hr-admin-integration-ats-api-months-of-year.md)
+- [ไม่ ใช่](hr-admin-integration-ats-api-no-yes.md)
 - [หน่วยของรอบระยะเวลา](hr-admin-integration-ats-api-period-unit.md)
 - [ความถี่ในการคัดกรอง](hr-admin-integration-ats-api-screening-frequency.md)
 - [ความถี่ในการคัดกรองที่สร้างจาก](hr-admin-integration-ats-api-screening-frequency-generate-from.md)
