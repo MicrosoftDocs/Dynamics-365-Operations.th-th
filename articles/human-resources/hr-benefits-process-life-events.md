@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114409"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466265"
 ---
 # <a name="process-life-events"></a>ประมวลผลเหตุการณ์ของชีวิต
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ในระหว่างววงจรชีวิตของพนักงานใน Microsoft Dynamics 365 Human Resources พนักงานแต่ละคนอาจพบการเปลี่ยนแปลงเหตุการณ์ของชีวิตต่าง ๆ ตัวอย่างเช่น การแต่งงาน การเปลี่ยนแปลงในการจ้างงาน หรือการเปลี่ยนแปลงของผู้รับผลประโยชน์/ผู้รับผลประโยชน์ เมื่อต้องการใช้เหตุการณ์ของชีวิต คุณต้องเปิดใช้งานเหตุการณ์ของชีวิตในฟอร์มพารามิเตอร์สวัสดิ ตั้งค่าชนิดเหตุการณ์ของชีวิต และตั้งค่าตัวเลือกเหตุการณ์ของชีวิตสำหรับชนิดของแผน
 

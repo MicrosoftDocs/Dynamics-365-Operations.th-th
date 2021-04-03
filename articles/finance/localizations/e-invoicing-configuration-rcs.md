@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104446"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592633"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>ตั้งค่าคอนฟิก Add-on ของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ ms.locfileid: "5104446"
 | เบลเยียม        | ใบแจ้งหนี้อิเล็กทรอนิกส์เบลเยียม (BE)      | ใบแจ้งหนี้การขายและใบแจ้งหนี้โครงการ |
 | บราซิล         | NF-e (BR) ของบราซิล                  | แบบจำลองเอกสารทางการเงิน 55 จดหมายการแก้ไข การยกเลิก และการละทิ้ง |
 | บราซิล         | NFS-e ABRASF Curitiba (BR) ของบราซิล | เอกสารทางการเงินของบริการ |
-| บราซิล         | NFS-e São Paulo (BR) ของบราซิล       | เอกสารทางการเงินของบริการ |
 | เดนมาร์ก        | ใบแจ้งหนี้อิเล็กทรอนิกส์เดนมาร์ก (DK)       | ใบแจ้งหนี้การขายและใบแจ้งหนี้โครงการ |
 | อียิปต์          | ใบแจ้งหนี้อิเล็กทรอนิกส์ของอียิปต์ (EG) | ใบแจ้งหนี้การขายและใบแจ้งหนี้โครงการ |
 | เอสโตเนีย        | ใบแจ้งหนี้อิเล็กทรอนิกส์เอสโตเนีย (EE)     | ใบแจ้งหนี้การขายและใบแจ้งหนี้โครงการ |
@@ -119,10 +118,6 @@ ms.locfileid: "5104446"
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF สอบถาม Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>NFS-e ของบราซิล (BR): NFS-e เมือง São Paulo
-
-- NFS-e Sao Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>ใบแจ้งหนี้อิเล็กทรอนิกส์ของเดนมาร์ก (DK): ใบแจ้งหนี้การขายและโครงการสำหรับเดนมาร์ก
 
@@ -210,7 +205,7 @@ ms.locfileid: "5104446"
 | เรียกบริการ Brazilian SEFAZ                  | รวมกับบริการ SEFAZ ของบราซิลเพื่อการส่งเอกสารทางการเงิน       | ในการแสดงตัวอย่าง           |
 | เรียกบริการ Mexican PAC                      | รวมกับบริการ PAC ของเม็กซิโกสำหรับการส่ง CFDI                      | ในการแสดงตัวอย่าง           |
 | ประมวลผลการตอบสนอง                              | วิเคราะห์การตอบสนองที่ได้รับจากการเรียกบริการเว็บ                     | พร้อมใช้งานโดยทั่วไป  |
-| ใช้ MS Power Automate                         | รวมกับโฟลว์ที่สร้างใน Microsoft Power Automate                       | ในการแสดงตัวอย่าง           |
+| ใช้ MS Power Automate                         | รวมกับขั้นตอนในตัว Microsoft Power Automate                       | ในการแสดงตัวอย่าง           |
 
 ## <a name="configuration-providers"></a>ผู้ให้บริการการตั้งค่าคอนฟิก
 

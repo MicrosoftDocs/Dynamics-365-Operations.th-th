@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142286"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486988"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ (อยู่ในพรีวิวแบบสาธารณะ) ให้ดู [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](install-configure-warehouse-management-app.md)
+> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](install-configure-warehouse-management-app.md)
 
 > [!NOTE]
 > หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าสำหรับการปรับใช้ระบบคลาวด์ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าแอปคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)

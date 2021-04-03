@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 68e72bc17005c11f28f572114357f906098cc045
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993355"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478151"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>ตั้งค่าผู้เช่า B2C ใน Commerce
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการตั้งค่าผู้เช่าของธุรกิจ-ผู้บริโภค (B2C) ของ Azure Active Directory (Azure AD) ของคุณสำหรับการตรวจสอบความถูกต้องของไซต์ของผู้ใช้ใน Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 Dynamics 365 Commerce ใช้ Azure AD B2C เพื่อสนับสนุนข้อมูลประจำตัวของผู้ใช้และขั้นตอนการตรวจสอบความถูกต้อง ผู้ใช้สามารถลงชื่อสมัคร ลงชื่อเข้าใช้ และรีเซ็ตรหัสผ่านของพวกเขาได้ผ่านขั้นตอนเหล่านี้ Azure AD B2C จัดเก็บข้อมูลการตรวจสอบความถูกต้องของผู้ใช้ที่สำคัญ เช่น ชื่อผู้ใช้ และรหัสผ่าน เรกคอร์ดผู้ใช้ในผู้เช่าของ B2C จะจัดเก็บเรกคอร์ดบัญชีเฉพาะที่ของ B2C หรือเรกคอร์ดผู้ให้บริการข้อมูลเฉพาะตัวทางสังคมของ B2C เรกคอร์ด B2C เหล่านี้จะเชื่อมโยงกลับไปยังเรกคอร์ดลูกค้าในสภาพแวดล้อม Commerce
 
