@@ -15,49 +15,52 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e173d2efe0d5acb1be60c9ba315c21563c2bf105
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6188b10327e4827cf5752fa56c3d491ef315b955
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204772"
 ---
-# <a name="audit-invoices-and-key-data-in-accounts-payable"></a><span data-ttu-id="33f5a-103">ตรวจสอบใบแจ้งหนี้และข้อมูลสำคัญในบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="33f5a-103">Audit invoices and key data in accounts payable</span></span>
+# <a name="audit-invoices-and-key-data-in-accounts-payable"></a><span data-ttu-id="de92d-103">ตรวจสอบใบแจ้งหนี้และข้อมูลสำคัญในบัญชีเจ้าหนี้</span><span class="sxs-lookup"><span data-stu-id="de92d-103">Audit invoices and key data in accounts payable</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="33f5a-104">เมื่อคุณได้รับใบแจ้งหนี้จากผู้จัดจำหน่ายสำหรับสินค้าหรือบริการในใบสั่งซื้อ กระบวนการทางธุรกิจอาจต้องการได้รับสินค้าหรือบริการก่อนที่จะสามารถอนุมัติใบแจ้งหนี้สำหรับการชำระเงินได้ </span><span class="sxs-lookup"><span data-stu-id="33f5a-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="33f5a-105">ก่อนการเริ่มต้น ให้ตรวจสอบให้แน่ใจว่า มีเลือกคีย์การตั้งค่าคอนฟิกการจับคู่ใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="33f5a-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
+<span data-ttu-id="de92d-104">เมื่อคุณได้รับใบแจ้งหนี้จากผู้จัดจำหน่ายสำหรับสินค้าหรือบริการในใบสั่งซื้อ กระบวนการทางธุรกิจอาจต้องการได้รับสินค้าหรือบริการก่อนที่จะสามารถอนุมัติใบแจ้งหนี้สำหรับการชำระเงินได้ </span><span class="sxs-lookup"><span data-stu-id="de92d-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="de92d-105">ก่อนการเริ่มต้น ให้ตรวจสอบให้แน่ใจว่า มีเลือกคีย์การตั้งค่าคอนฟิกการจับคู่ใบแจ้งหนี้ </span><span class="sxs-lookup"><span data-stu-id="de92d-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-<span data-ttu-id="33f5a-106">ในหน้าพารามิเตอร์ **บัญชีเจ้าหนี้** ยืนยันว่ามีการเลือกตัวเลือกการเปิดใช้งานการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ ตั้งค่าฟิลด์ **ลงรายการบัญชีใบแจ้งหนี้ที่มีส่วนต่าง** เป็น **ต้องมีการอนุมัติ** และฟิลด์ **นโยบายการจับคู่รายการ** เป็น **นโยบายการจับคู่สามทาง**</span><span class="sxs-lookup"><span data-stu-id="33f5a-106">In the **Accounts payable parameters** page, ensure that the Enable invoice matching validation option is selected, the **Post invoice with discrepancies** field is set to **Require approval**, and the **Line matching policy** field is set to **Three-way matching**.</span></span>
+<span data-ttu-id="de92d-106">ในหน้าพารามิเตอร์ **บัญชีเจ้าหนี้** ยืนยันว่ามีการเลือกตัวเลือกการเปิดใช้งานการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ ตั้งค่าฟิลด์ **ลงรายการบัญชีใบแจ้งหนี้ที่มีส่วนต่าง** เป็น **ต้องมีการอนุมัติ** และฟิลด์ **นโยบายการจับคู่รายการ** เป็น **นโยบายการจับคู่สามทาง**</span><span class="sxs-lookup"><span data-stu-id="de92d-106">In the **Accounts payable parameters** page, ensure that the Enable invoice matching validation option is selected, the **Post invoice with discrepancies** field is set to **Require approval**, and the **Line matching policy** field is set to **Three-way matching**.</span></span>
 
-<span data-ttu-id="33f5a-107">กระบวนงานนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="33f5a-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="33f5a-108">บทบาทของผู้จัดการฝ่ายบัญชีเจ้าหนี้หรือผู้จัดการฝ่ายบัญชีจะต้องดำเนินการขั้นตอนเหล่านี้ </span><span class="sxs-lookup"><span data-stu-id="33f5a-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
+<span data-ttu-id="de92d-107">กระบวนงานนี้ใช้บริษัทสาธิต USMF</span><span class="sxs-lookup"><span data-stu-id="de92d-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="de92d-108">บทบาทของผู้จัดการฝ่ายบัญชีเจ้าหนี้หรือผู้จัดการฝ่ายบัญชีจะต้องดำเนินการขั้นตอนเหล่านี้ </span><span class="sxs-lookup"><span data-stu-id="de92d-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="33f5a-109">สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="33f5a-109">Create a purchase order</span></span>
-1. <span data-ttu-id="33f5a-110">ไปที่ **ใบสั่งซื้อทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="33f5a-110">Go to **All purchase orders**.</span></span>
-2. <span data-ttu-id="33f5a-111">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="33f5a-111">Click **New**.</span></span>
-3. <span data-ttu-id="33f5a-112">ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33f5a-112">In the **Vendor account** field, type a value.</span></span>
-4. <span data-ttu-id="33f5a-113">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="33f5a-113">Click **OK**.</span></span>
-5. <span data-ttu-id="33f5a-114">คลิก **เพิ่มรายการ**</span><span class="sxs-lookup"><span data-stu-id="33f5a-114">Click **Add line**.</span></span>
-6. <span data-ttu-id="33f5a-115">ในฟิลด์ **หมายเลขสินค้า** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33f5a-115">In the **Item number** field, type a value.</span></span>
-7. <span data-ttu-id="33f5a-116">บนบานหน้าต่างการดำเนินการ คลิก **ซื้อ**</span><span class="sxs-lookup"><span data-stu-id="33f5a-116">On the Action Pane, click **Purchase**.</span></span>
-8. <span data-ttu-id="33f5a-117">คลิก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="33f5a-117">Click **Confirm**.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="de92d-109">สร้างใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="de92d-109">Create a purchase order</span></span>
+1. <span data-ttu-id="de92d-110">ไปที่ **ใบสั่งซื้อทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="de92d-110">Go to **All purchase orders**.</span></span>
+2. <span data-ttu-id="de92d-111">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="de92d-111">Click **New**.</span></span>
+3. <span data-ttu-id="de92d-112">ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="de92d-112">In the **Vendor account** field, type a value.</span></span>
+4. <span data-ttu-id="de92d-113">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="de92d-113">Click **OK**.</span></span>
+5. <span data-ttu-id="de92d-114">คลิก **เพิ่มรายการ**</span><span class="sxs-lookup"><span data-stu-id="de92d-114">Click **Add line**.</span></span>
+6. <span data-ttu-id="de92d-115">ในฟิลด์ **หมายเลขสินค้า** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="de92d-115">In the **Item number** field, type a value.</span></span>
+7. <span data-ttu-id="de92d-116">บนบานหน้าต่างการดำเนินการ คลิก **ซื้อ**</span><span class="sxs-lookup"><span data-stu-id="de92d-116">On the Action Pane, click **Purchase**.</span></span>
+8. <span data-ttu-id="de92d-117">คลิก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="de92d-117">Click **Confirm**.</span></span>
 
-## <a name="post-a-product-receipt"></a><span data-ttu-id="33f5a-118">ลงรายการบัญชีใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="33f5a-118">Post a product receipt</span></span>
-1. <span data-ttu-id="33f5a-119">บนบานหน้าต่างการดำเนินการ คลิก **รับ**</span><span class="sxs-lookup"><span data-stu-id="33f5a-119">On the Action Pane, click **Receive**.</span></span>
-2. <span data-ttu-id="33f5a-120">คลิก **ใบรับสินค้า**</span><span class="sxs-lookup"><span data-stu-id="33f5a-120">Click **Product receipt**.</span></span>
-3. <span data-ttu-id="33f5a-121">ในฟิลด์ **ใบรับสินค้า** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33f5a-121">In the **Product receipt** field, type a value.</span></span>
-4. <span data-ttu-id="33f5a-122">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="33f5a-122">Click **OK**.</span></span>
+## <a name="post-a-product-receipt"></a><span data-ttu-id="de92d-118">ลงรายการบัญชีใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="de92d-118">Post a product receipt</span></span>
+1. <span data-ttu-id="de92d-119">บนบานหน้าต่างการดำเนินการ คลิก **รับ**</span><span class="sxs-lookup"><span data-stu-id="de92d-119">On the Action Pane, click **Receive**.</span></span>
+2. <span data-ttu-id="de92d-120">คลิก **ใบรับสินค้า**</span><span class="sxs-lookup"><span data-stu-id="de92d-120">Click **Product receipt**.</span></span>
+3. <span data-ttu-id="de92d-121">ในฟิลด์ **ใบรับสินค้า** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="de92d-121">In the **Product receipt** field, type a value.</span></span>
+4. <span data-ttu-id="de92d-122">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="de92d-122">Click **OK**.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="33f5a-123">บันทึกและจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่ายกับใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="33f5a-123">Record and match a vendor invoice to a product receipt</span></span>
-1. <span data-ttu-id="33f5a-124">บนบานหน้าต่างการดำเนินการ คลิก **ใบแจ้งหนี้ > ใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="33f5a-124">On the Action Pane, click **Invoice > Invoice**.</span></span>
-2. <span data-ttu-id="33f5a-125">ในฟิลด์ **หมายเลข** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="33f5a-125">In the **Number** field, type a value.</span></span>
-3. <span data-ttu-id="33f5a-126">คลิก **ค่าเริ่มต้นจาก: ปริมาณที่สั่ง** เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="33f5a-126">Click **Default from: Ordered quantity** to open the drop dialog.</span></span>
-4. <span data-ttu-id="33f5a-127">ในฟิลด์ **ปริมาณเริ่มต้นสำหรับรายการ** ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="33f5a-127">In the **Default quantity for lines** field, select an option.</span></span>
-5. <span data-ttu-id="33f5a-128">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="33f5a-128">Click **OK**.</span></span>
-6. <span data-ttu-id="33f5a-129">คลิก **ใช่** </span><span class="sxs-lookup"><span data-stu-id="33f5a-129">Click **Yes**.</span></span>
-7. <span data-ttu-id="33f5a-130">คลิกที่ **จับคู่ใบรับสินค้า**</span><span class="sxs-lookup"><span data-stu-id="33f5a-130">Click **Match product receipts**.</span></span>
-8. <span data-ttu-id="33f5a-131">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="33f5a-131">Click **OK**.</span></span>
-9. <span data-ttu-id="33f5a-132">บนบานหน้าต่างการดำเนินการ ให้คลิก **ทบทวน**</span><span class="sxs-lookup"><span data-stu-id="33f5a-132">On the Action Pane, click **Review**.</span></span>
-10. <span data-ttu-id="33f5a-133">คลิก **รายละเอียดการจับคู่**</span><span class="sxs-lookup"><span data-stu-id="33f5a-133">Click **Matching details**.</span></span>
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="de92d-123">บันทึกและจับคู่ใบแจ้งหนี้ของผู้จัดจำหน่ายกับใบรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="de92d-123">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="de92d-124">บนบานหน้าต่างการดำเนินการ คลิก **ใบแจ้งหนี้ > ใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="de92d-124">On the Action Pane, click **Invoice > Invoice**.</span></span>
+2. <span data-ttu-id="de92d-125">ในฟิลด์ **หมายเลข** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="de92d-125">In the **Number** field, type a value.</span></span>
+3. <span data-ttu-id="de92d-126">คลิก **ค่าเริ่มต้นจาก: ปริมาณที่สั่ง** เพื่อเปิดกล่องโต้ตอบการวาง</span><span class="sxs-lookup"><span data-stu-id="de92d-126">Click **Default from: Ordered quantity** to open the drop dialog.</span></span>
+4. <span data-ttu-id="de92d-127">ในฟิลด์ **ปริมาณเริ่มต้นสำหรับรายการ** ให้เลือกตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="de92d-127">In the **Default quantity for lines** field, select an option.</span></span>
+5. <span data-ttu-id="de92d-128">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="de92d-128">Click **OK**.</span></span>
+6. <span data-ttu-id="de92d-129">คลิก **ใช่** </span><span class="sxs-lookup"><span data-stu-id="de92d-129">Click **Yes**.</span></span>
+7. <span data-ttu-id="de92d-130">คลิกที่ **จับคู่ใบรับสินค้า**</span><span class="sxs-lookup"><span data-stu-id="de92d-130">Click **Match product receipts**.</span></span>
+8. <span data-ttu-id="de92d-131">คลิก **ตกลง** </span><span class="sxs-lookup"><span data-stu-id="de92d-131">Click **OK**.</span></span>
+9. <span data-ttu-id="de92d-132">บนบานหน้าต่างการดำเนินการ ให้คลิก **ทบทวน**</span><span class="sxs-lookup"><span data-stu-id="de92d-132">On the Action Pane, click **Review**.</span></span>
+10. <span data-ttu-id="de92d-133">คลิก **รายละเอียดการจับคู่**</span><span class="sxs-lookup"><span data-stu-id="de92d-133">Click **Matching details**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
