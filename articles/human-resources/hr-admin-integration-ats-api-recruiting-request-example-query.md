@@ -16,26 +16,28 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42028b175d717bec01180dc9a6bc4cb7b289be05
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125941"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466001"
 ---
-# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="d5471-103">ตัวอย่างการสอบถามเกี่ยวกับคำขอการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="d5471-103">Example query for Recruiting request</span></span>
+# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="f9899-103">ตัวอย่างการสอบถามเกี่ยวกับคำขอการสรรหาบุคลากร</span><span class="sxs-lookup"><span data-stu-id="f9899-103">Example query for Recruiting request</span></span>
 
-<span data-ttu-id="d5471-104">หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตีคำขอการสรรหาบุคลากรใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="d5471-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="d5471-105">การสอบถามต่อไปนี้แสดงวิธีการที่คุณสามารถใช้ตัวเลือก $expandในการดําเนินงาน GET เพื่อดึงข้อมูลเรกคอร์ดคำขอการสรรหาบุคลากรที่ระบุ และตําแหน่งงานที่เกี่ยวข้องทั้งหมด ทักษะที่ต้องการ และความต้องการด้านการศึกษาของคำขอที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="d5471-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="d5471-106">การตอบสนองตัวอย่างแสดงคำขอการสรรหาบุคลากรจากสองตําแหน่ง และทักษะที่ต้องใช้และการศึกษาของตําแหน่งที่ร้องขอ</span><span class="sxs-lookup"><span data-stu-id="d5471-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+<span data-ttu-id="f9899-104">หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตีคำขอการสรรหาบุคลากรใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="f9899-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="d5471-107">**คำขอ**</span><span class="sxs-lookup"><span data-stu-id="d5471-107">**Request**</span></span>
+<span data-ttu-id="f9899-105">การสอบถามต่อไปนี้แสดงวิธีการที่คุณสามารถใช้ตัวเลือก $expandในการดําเนินงาน GET เพื่อดึงข้อมูลเรกคอร์ดคำขอการสรรหาบุคลากรที่ระบุ และตําแหน่งงานที่เกี่ยวข้องทั้งหมด ทักษะที่ต้องการ และความต้องการด้านการศึกษาของคำขอที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="f9899-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="f9899-106">การตอบสนองตัวอย่างแสดงคำขอการสรรหาบุคลากรจากสองตําแหน่ง และทักษะที่ต้องใช้และการศึกษาของตําแหน่งที่ร้องขอ</span><span class="sxs-lookup"><span data-stu-id="f9899-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+
+<span data-ttu-id="f9899-107">**คำขอ**</span><span class="sxs-lookup"><span data-stu-id="f9899-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruiting request entity ID>)?$expand=mshr_FK_HcmRecruitingRequestPositionEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestSkillEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestEducationEntity_RecruitingRequest
 ```
 
-<span data-ttu-id="d5471-108">**การตอบสนอง**</span><span class="sxs-lookup"><span data-stu-id="d5471-108">**Response**</span></span>
+<span data-ttu-id="f9899-108">**การตอบสนอง**</span><span class="sxs-lookup"><span data-stu-id="f9899-108">**Response**</span></span>
 
 ```json
 {
@@ -180,6 +182,8 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d5471-109">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="d5471-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9899-109">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="f9899-109">See also</span></span>
 
-[<span data-ttu-id="d5471-110">บทนํา API การรวมระบบการติดตามผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="d5471-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="f9899-110">บทนํา API การรวมระบบการติดตามผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="f9899-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

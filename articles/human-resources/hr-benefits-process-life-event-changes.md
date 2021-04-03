@@ -18,37 +18,42 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d32d6ba893a99149e27f644ac80e430db3c08fa0
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2726dcb3c847c9af2a431358de04a27341b9e66c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114472"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464261"
 ---
-# <a name="process-life-event-changes"></a><span data-ttu-id="1b466-103">ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="1b466-103">Process life event changes</span></span>
+# <a name="process-life-event-changes"></a><span data-ttu-id="ad741-103">ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ad741-103">Process life event changes</span></span>
 
-<span data-ttu-id="1b466-104">ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับสองการเปลี่ยนแปลงเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="1b466-104">Process life event changes in Microsoft Dynamics 365 Human Resources for two life event changes:</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-- <span data-ttu-id="1b466-105">การเปลี่ยนแปลงวันเกิด</span><span class="sxs-lookup"><span data-stu-id="1b466-105">Birthday changes</span></span>
-- <span data-ttu-id="1b466-106">กฎการใช้สิทธิ์แทนที่การเปลี่ยนการหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="1b466-106">Eligibility rule override expiration changes</span></span> 
+<span data-ttu-id="ad741-104">ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับสองการเปลี่ยนแปลงเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ad741-104">Process life event changes in Microsoft Dynamics 365 Human Resources for two life event changes:</span></span>
 
-1. <span data-ttu-id="1b466-107">ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต**</span><span class="sxs-lookup"><span data-stu-id="1b466-107">In the **Benefits management** workspace, under **Processing**, select **Life event change processing**.</span></span>
+- <span data-ttu-id="ad741-105">การเปลี่ยนแปลงวันเกิด</span><span class="sxs-lookup"><span data-stu-id="ad741-105">Birthday changes</span></span>
+- <span data-ttu-id="ad741-106">กฎการใช้สิทธิ์แทนที่การเปลี่ยนการหมดอายุ</span><span class="sxs-lookup"><span data-stu-id="ad741-106">Eligibility rule override expiration changes</span></span> 
 
-2. <span data-ttu-id="1b466-108">ในกล่องโต้ตอบ **ดำเนินการประมวลผลการเปลี่ยนแปลงเหตุการณ์ของชีวิต** ให้ระบุค่าสำหรับฟิลด์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1b466-108">In the **Run life event change process** dialog box, specify values for the following fields:</span></span>
+1. <span data-ttu-id="ad741-107">ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต**</span><span class="sxs-lookup"><span data-stu-id="ad741-107">In the **Benefits management** workspace, under **Processing**, select **Life event change processing**.</span></span>
 
-   | <span data-ttu-id="1b466-109">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="1b466-109">Field</span></span> | <span data-ttu-id="1b466-110">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="1b466-110">Description</span></span> |
+2. <span data-ttu-id="ad741-108">ในกล่องโต้ตอบ **ดำเนินการประมวลผลการเปลี่ยนแปลงเหตุการณ์ของชีวิต** ให้ระบุค่าสำหรับฟิลด์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ad741-108">In the **Run life event change process** dialog box, specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="ad741-109">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="ad741-109">Field</span></span> | <span data-ttu-id="ad741-110">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="ad741-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="1b466-111">รอบระยะเวลาการลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="1b466-111">Enrollment period</span></span> | <span data-ttu-id="1b466-112">รอบระยะเวลาการลงทะเบียนที่จะประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="1b466-112">The enrollment period to process life event changes for.</span></span> |
-   | <span data-ttu-id="1b466-113">นิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="1b466-113">Legal entity</span></span> | <span data-ttu-id="1b466-114">นิติบุคคลที่จะประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="1b466-114">The legal entity to process life event changes for.</span></span> |
+   | <span data-ttu-id="ad741-111">รอบระยะเวลาการลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="ad741-111">Enrollment period</span></span> | <span data-ttu-id="ad741-112">รอบระยะเวลาการลงทะเบียนที่จะประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ad741-112">The enrollment period to process life event changes for.</span></span> |
+   | <span data-ttu-id="ad741-113">นิติบุคคล</span><span class="sxs-lookup"><span data-stu-id="ad741-113">Legal entity</span></span> | <span data-ttu-id="ad741-114">นิติบุคคลที่จะประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ad741-114">The legal entity to process life event changes for.</span></span> |
 
-3. <span data-ttu-id="1b466-115">ถ้าคุณต้องการดำเนินการกระบวนการในพื้นหลัง ให้เลือก **ดำเนินการในพื้นหลัง** และงานต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1b466-115">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="ad741-115">ถ้าคุณต้องการดำเนินการกระบวนการในพื้นหลัง ให้เลือก **ดำเนินการในพื้นหลัง** และงานต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ad741-115">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="1b466-116">ป้อนข้อมูลสำหรับกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="1b466-116">Enter information for the process.</span></span>
+   1. <span data-ttu-id="ad741-116">ป้อนข้อมูลสำหรับกระบวนการ</span><span class="sxs-lookup"><span data-stu-id="ad741-116">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="1b466-117">หากต้องการตั้งค่าให้มีการรันงานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1b466-117">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="ad741-117">หากต้องการตั้งค่าให้มีการรันงานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="ad741-117">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="1b466-118">เมื่อต้องการตั้งค่าการแจ้งเตือนงาน เลือก **การแจ้งเตือน** เลือกการแจ้งเตือนที่จะรับ และจากนั้นเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1b466-118">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="ad741-118">เมื่อต้องการตั้งค่าการแจ้งเตือนงาน เลือก **การแจ้งเตือน** เลือกการแจ้งเตือนที่จะรับ และจากนั้นเลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="ad741-118">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="1b466-119">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1b466-119">Select **OK**.</span></span> <span data-ttu-id="1b466-120">กระบวนการจะดำเนินการกับพารามิเตอร์ที่คุณตั้งไว้</span><span class="sxs-lookup"><span data-stu-id="1b466-120">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="ad741-119">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="ad741-119">Select **OK**.</span></span> <span data-ttu-id="ad741-120">กระบวนการจะดำเนินการกับพารามิเตอร์ที่คุณตั้งไว้</span><span class="sxs-lookup"><span data-stu-id="ad741-120">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="1b466-121">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="1b466-121">Select **OK**.</span></span>
+4. <span data-ttu-id="ad741-121">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="ad741-121">Select **OK**.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
