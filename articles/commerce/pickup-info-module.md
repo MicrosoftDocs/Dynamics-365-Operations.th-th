@@ -1,6 +1,6 @@
 ---
 title: โมดูลข้อมูลการเบิกสินค้า
-description: หัวข้อนี้ครอบคลุมถึงโมดูลข้อมูลการเบิกสินค้าและอธิบายวิธีการเพิ่มลงในเพจของเช็คเอาท์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลข้อมูลการเบิกสินค้าและอธิบายวิธีการเพิ่มลงในหน้าเช็คเอาท์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
 ms.date: 11/06/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d04e2650f9c601d008ebf19080059b70416d7917
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263191"
 ---
-# <a name="pickup-information-module"></a>โมดูลข้อมูลการเบิกสินค้า
+# <a name="pickup-information-module"></a>โมดูลข้อมูลการรับสินค้า
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลข้อมูลการเบิกสินค้าและอธิบายวิธีการเพิ่มลงในเพจของเช็คเอาท์ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้ครอบคลุมถึงโมดูลข้อมูลการเบิกสินค้าและอธิบายวิธีการเพิ่มลงในหน้าเช็คเอาท์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลการเบิกสินค้าสามารถใช้ในโมดูลการเช็คเอาท์เพื่อแสดงข้อมูลการเบิกสินค้าตามใบสั่ง ลูกค้าสามารถดูวันที่และช่องเวลาที่มีการเบิกสินค้าที่พร้อมใช้งาน แล้วเลือกเวลาที่เหมาะสมเพื่อเบิกสินค้าตามใบสั่ง ตัวอย่างเช่น ลูกค้าสามารถเลือกที่จะเบิกสินค้าในเวลา 15 น. เมื่อวันที่ 21 มีนาคมจากร้านค้าของซานฟรานซิสโก
 
