@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าคอนฟิกสภาพแวดล้อม Dynamics 365 Commerce
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากเตรียมใช้งาน
+title: ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
 author: psimolin
 manager: annbe
 ms.date: 07/16/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa92a581a96de6bed26b4a0c6601ebd9d5088347
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9b11ab600bb2aa17cf330947304f5b22dd522081
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993436"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477984"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อม Dynamics 365 Commerce
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากเตรียมใช้งาน
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
 
 ดำเนินการกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณ ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce](provisioning-guide.md)
 

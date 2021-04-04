@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f90e49c6191134a99b306fdc9de6b46c07844dea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115959"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463417"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>การสร้างแผนการลางานและขาดงาน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 กำหนดแผนการลางานและการขาดงานใน Dynamics 365 Human Resources สำหรับแต่ละชนิดของการลางานที่คุณเสนอ แผนการลางานและการขาดงานอาจสะสมที่ความถี่ต่างๆเช่นรายปี รายเดือน หรือทุกครึ่งเดือน นอกจากนี้คุณสามารถกำหนดแผนเป็นเงินช่วยเหลือที่มีการคงค้างเดียวเกิดขึ้นในวันที่เฉพาะ ตัวอย่างเช่นคุณอาจสร้างแผนที่ให้เงินช่วยเหลือวันหยุดที่ลอยตัวเป็นประจำทุกปี
 

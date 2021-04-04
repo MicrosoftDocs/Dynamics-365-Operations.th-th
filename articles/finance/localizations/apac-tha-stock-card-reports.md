@@ -17,12 +17,12 @@ ms.search.region: Thailand
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66e6610143e6dbcc272a1dc965d52c69c3a764f1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49819fde4101f31a90425c498e741a93e5683e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265025"
 ---
 # <a name="stock-card-report-for-thailand"></a>รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
 

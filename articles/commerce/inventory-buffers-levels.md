@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012451"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478399"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>ตั้งค่าคอนฟิกบัฟเฟอร์สินค้าคงคลังและระดับสินค้าคงคลัง
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>ตั้งค่าคอนฟิกสินค้าคงคลังสำรองและระดับสินค้าคงคลัง
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกบัฟเฟอร์สินค้าคงคลังและระดับสินค้าคงคลังที่กำหนดข้อความเกี่ยวกับความพร้อมใช้งานของสินค้าคงคลังบนไซต์ Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 ศูนย์ควบคุม Dynamics 365 Commerce มีข้อมูลสินค้าคงคลังและช่องทางต่างๆ เช่น ใบสมัครการขายหน้าร้าน (POS) หน้าร้านพาณิชย์อิเล็กทรอนิก และใบสมัครรวมแบบกำหนดเองอื่นๆ ที่ดึงและผลักดันสินค้าคงคลังในลักษณะแบบอสมวาร ดังนั้น ค่าสินค้าคงคลังที่พร้อมใช้งานที่ได้รับผ่านทางหน้าปริมาณคงคลังคงเหลือในศูนย์ควบคุม Commerce ผ่านทางอินเทอร์เฟสผู้ใช้ POS (UI) และผ่าน API ความพร้อมใช้งานของสินค้าคงคลังอีคอมเมิร์ซถูกต้อง 100 เปอร์เซ็นต์เสมอในเวลาจริง
 

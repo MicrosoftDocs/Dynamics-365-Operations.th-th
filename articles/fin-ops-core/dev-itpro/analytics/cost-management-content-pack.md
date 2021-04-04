@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 38f499a18e6757c60755a91ba62937350ef7550a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683906"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564903"
 ---
 # <a name="cost-management-power-bi-content"></a>ชุดเนื้อหาการจัดการต้นทุน Power BI
 
@@ -31,7 +30,7 @@ ms.locfileid: "4683906"
 
 ## <a name="overview"></a>ภาพรวม
 
-เนื้อหา Microsoft Power BI ของ **การจัดการต้นทุน** มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลังหรือบุคคลในองค์กรที่รับผิดชอบ หรือสนใจสถานะของสินค้าคงคลังหรืองานระหว่างทำ (WIP) หรือผู้ที่รับผิดชอบ หรือสนใจในการวิเคราะห์ผลต่างต้นทุนมาตรฐาน
+เนื้อหา **การจัดการต้นทุน** ของ Microsoft Power BI มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลัง หรือบุคคลในองค์กรที่รับผิดชอบหรือสนใจสถานะของสินค้าคงคลังหรืองานระหว่างทำ (WIP)  หรือผู้ที่รับผิดชอบหรือสนใจในการวิเคราะห์ผลต่างต้นทุนมาตรฐาน
 
 > [!NOTE]
 > เนื้อหา **การจัดการต้นทุน** Power BI ที่อธิบายไว้ในนี้ใช้ได้กับ Dynamics 365 Finance and Operations 8.0
