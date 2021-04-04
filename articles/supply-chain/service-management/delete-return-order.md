@@ -17,29 +17,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d03054563cf41f7dbe5a64d8f72f283bba7bcab6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 054d56969a373c62d29fa12ef22024ff0e7e9558
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247489"
 ---
-# <a name="delete-a-return-order"></a><span data-ttu-id="5387c-103">การลบใบสั่งส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="5387c-103">Delete a return order</span></span> 
+# <a name="delete-a-return-order"></a><span data-ttu-id="2e3dc-103">การลบใบสั่งส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="2e3dc-103">Delete a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="5387c-104">ใช้แบบฟอร์ม **ลบใบสั่งส่งคืนสินค้า** เพื่อลบใบสั่งส่งคืนสินค้าหลายใบ</span><span class="sxs-lookup"><span data-stu-id="5387c-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
+<span data-ttu-id="2e3dc-104">ใช้แบบฟอร์ม **ลบใบสั่งส่งคืนสินค้า** เพื่อลบใบสั่งส่งคืนสินค้าหลายใบ</span><span class="sxs-lookup"><span data-stu-id="2e3dc-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
 
-1.  <span data-ttu-id="5387c-105">คลิก **การขายและการตลาด** \> **งานประจำงวด** \> **ล้าง** \> **ลบใบสั่งส่งคืนสินค้า**</span><span class="sxs-lookup"><span data-stu-id="5387c-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
+1.  <span data-ttu-id="2e3dc-105">คลิก **การขายและการตลาด** \> **งานประจำงวด** \> **ล้าง** \> **ลบใบสั่งส่งคืนสินค้า**</span><span class="sxs-lookup"><span data-stu-id="2e3dc-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
 
-2.  <span data-ttu-id="5387c-106">คลิก **เลือก** เพื่อเปิดแบบฟอร์ม **การอัพเดตการขาย**</span><span class="sxs-lookup"><span data-stu-id="5387c-106">Click **Select** to open the **Sales update** form.</span></span>
+2.  <span data-ttu-id="2e3dc-106">คลิก **เลือก** เพื่อเปิดแบบฟอร์ม **การอัพเดตการขาย**</span><span class="sxs-lookup"><span data-stu-id="2e3dc-106">Click **Select** to open the **Sales update** form.</span></span>
 
-3.  <span data-ttu-id="5387c-107">ระบุเกณฑ์ และจากนั้นคลิก **ตกลง** เพื่อกลับไปยังแบบฟอร์ม **ลบใบสั่งส่งคืนสินค้า**</span><span class="sxs-lookup"><span data-stu-id="5387c-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="5387c-108">ใบสั่งส่งคืนสินค้าที่สร้างขึ้นในนิติบุคคลจะปรากฏโดยขึ้นอยู่กับเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="5387c-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
+3.  <span data-ttu-id="2e3dc-107">ระบุเกณฑ์ และจากนั้นคลิก **ตกลง** เพื่อกลับไปยังแบบฟอร์ม **ลบใบสั่งส่งคืนสินค้า**</span><span class="sxs-lookup"><span data-stu-id="2e3dc-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="2e3dc-108">ใบสั่งส่งคืนสินค้าที่สร้างขึ้นในนิติบุคคลจะปรากฏโดยขึ้นอยู่กับเงื่อนไขที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="2e3dc-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
 
-4.  <span data-ttu-id="5387c-109">เลือกบรรทัดของใบสั่งส่งคืนสินค้าที่ต้องการลบ แล้วคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="5387c-109">Select the return order line to delete, and then click **OK**.</span></span>
+4.  <span data-ttu-id="2e3dc-109">เลือกบรรทัดของใบสั่งส่งคืนสินค้าที่ต้องการลบ แล้วคลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="2e3dc-109">Select the return order line to delete, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="5387c-110">คลิก **ใช่** เพื่อลบใบสั่งส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="5387c-110">Click **Yes** to delete the return orders.</span></span>
+5.  <span data-ttu-id="2e3dc-110">คลิก **ใช่** เพื่อลบใบสั่งส่งคืนสินค้า</span><span class="sxs-lookup"><span data-stu-id="2e3dc-110">Click **Yes** to delete the return orders.</span></span>
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
