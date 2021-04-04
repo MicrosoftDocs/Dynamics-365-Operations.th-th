@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142334"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487036"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142334"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> หัวข้อนี้จะอธิบายวิธีตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ซึ่งขณะนี้อยู่ในพรีวิวสำหรับสาธารณะ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า โปรดดู [ติดตั้งและเชื่อมต่อแอปคลังสินค้า](../../supply-chain/warehousing/install-configure-warehousing-app.md)
+> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า โปรดดู [ติดตั้งและเชื่อมต่อแอปคลังสินค้า](../../supply-chain/warehousing/install-configure-warehousing-app.md)
 
-พรีวิวสำหรับสาธารณะของแอปการจัดการคลังสินค้าบนมือถือ พร้อมให้ดาวน์โหลดบน Microsoft App Center มีไว้เป็นส่วนประกอบแบบสแตนด์อโลน ดังนั้นคุณต้องดาวน์โหลดบนแต่ละอุปกรณ์แล้วกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ
-
-หัวข้อนี้จะอธิบายวิธีการติดตั้งแอปการจัดการคลังสินค้าบนมือถือ ในแต่ละอุปกรณ์เคลื่อนที่ของคุณ และกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
+หัวข้อนี้จะอธิบายวิธีการดาวน์โหลดและติดตั้งแอปการจัดการคลังสินค้าบนมือถือ ในแต่ละอุปกรณ์เคลื่อนที่ของคุณ และวิธีกำหนดค่าแอปเพื่อเชื่อมต่อกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
 
 ## <a name="system-requirements"></a>ความต้องการของระบบ
 
@@ -53,17 +51,27 @@ ms.locfileid: "5142334"
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>รับแอปการจัดการคลังสินค้าบนมือถือ
 
-ใช้ลิงก์ใดลิงก์หนึ่งต่อไปนี้เพื่อดาวน์โหลดแอป:
+สำหรับการปรับใช้ที่มีขนาดเล็ก โดยทั่วไปคุณอาจติดตั้งแอปบนแต่ละอุปกรณ์จากร้านค้าที่เกี่ยวข้อง แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง
 
-- **Windows (UWP):** [โปรแกรมแสดงตัวอย่าง App Center - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+เพื่อการปรับใช้ที่ใหญ่ขึ้น คุณสามารถกําหนดการปรับใช้แอป และ/หรือการตั้งค่าคอนฟิกโดยอัตโนมัติ ซึ่งอาจสะดวกขึ้นถ้าคุณจัดการอุปกรณ์หลายรายการ ตัวอย่างเช่น คุณอาจใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปสำหรับอุปกรณ์เคลื่อนที่ เช่น [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add)
 
-    เนื่องจากแอปนี้เป็นแอปการแสดงตัวอย่าง คุณจึงต้องติดตั้งขั้นตอนพิเศษสองสามขั้นตอน สำหรับรายละเอียด ดูที่ [ติดตั้งการสร้างจาก App Center](https://docs.microsoft.com/appcenter/distribution/installation)
+### <a name="install-the-app-from-an-app-store"></a>ติดตั้งแอปจากร้านค้าแอป
 
-- **Android:** [โปรแกรมแสดงตัวอย่าง App Center - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+วิธีที่ง่ายที่สุดในการติดตั้งแอปบนอุปกรณ์เดียวคือการติดตั้งจากร้านค้าแอป ซึ่งจะมีเวอร์ชันที่พร้อมใช้งานทั่วไปล่าสุดเสมอ Microsoft Intune ยังสามารถดึงข้อมูลแอปจากร้านค้าแอปได้ ใช้ลิงก์ใดลิงก์หนึ่งต่อไปนี้ เพื่อติดตั้งแอปจากร้านค้าแอป
 
-    เนื่องจากแอปนี้เป็นแอปการแสดงตัวอย่าง คุณจึงต้องติดตั้งขั้นตอนพิเศษสองสามขั้นตอน สำหรับรายละเอียด โปรดดู [การทดสอบ แอป Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android)
+- **Windows (UWP):** [การจัดการคลังสินค้าบน Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-สำหรับการปรับใช้ที่มีขนาดเล็ก คุณอาจต้องติดตั้งแอปบนแต่ละอุปกรณ์จากร้านค้าที่เกี่ยวข้อง แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง อย่างไรก็ตาม คุณยังสามารถทำให้การปรับใช้ และ/หรือ การตั้งค่าคอนฟิก เป็นแบบอัตโนมัติได้ คุณอาจพบวิธีการที่สะดวกนี้ ถ้าคุณจัดการอุปกรณ์จำนวนมากและคุณกำลังใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปพลิเคชันบนอุปกรณ์เคลื่อนที่ เช่น [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add)
+- **Android:** [การจัดการคลังสินค้าบน Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>ดาวน์โหลดแอปจาก Microsoft App Center
+
+อีกวิธีหนึ่งในการติดตั้งจากร้านค้าแอป คุณสามารถดาวน์โหลดแอปจาก Microsoft App Center แทนได้ App Center จะให้แพคเกจที่สามารถติดตั้งได้ ซึ่งคุณสามารถไซด์โหลดได้ นอกจากเวอร์ชันปัจจุบันแล้ว App Center ยังช่วยให้คุณสามารถดาวน์โหลดเวอร์ชันก่อนหน้านี้ได้ และอาจแสดงเวอร์ชันพรีวิวที่มีคุณลักษณะที่กำลังจะมาถึงในเร็วๆ นี้ ที่คุณสามารถทดลองได้ เมื่อต้องการดาวน์โหลดเวอร์ชันปัจจุบัน ก่อนหน้านี้ หรือเวอร์ชันพรีวิวของแอปการจัดการคลังสินค้าบนมือถือ จาก Microsoft App Center ให้ใช้ลิงก์ใดลิงก์หนึ่งต่อไปนี้
+
+- **Windows (UWP):** [การจัดการคลังสินค้า (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    หากต้องการทราบคําแนะนําเกี่ยวกับวิธีการติดตั้งแพคเกจที่ดาวน์โหลดบนอุปกรณ์ Windows แล้วตั้งค่าใบรับรองที่จำเป็น ให้ดูที่ [ติดตั้งการสร้างจาก App Center](https://docs.microsoft.com/appcenter/distribution/installation)
+
+- **Android:** [การจัดการคลังสินค้า (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    หากคุณดาวน์โหลดรุ่นพรีวิว คุณต้องดำเนินการขั้นตอนเพิ่มเติมสองสามขั้นตอนเพื่อติดตั้ง สำหรับรายละเอียด โปรดดู [การทดสอบ แอป Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android)
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>สร้างแอปพลิเคชันบริการใน Azure Active Directory
 

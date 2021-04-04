@@ -1,6 +1,6 @@
 ---
 title: จัดการไฟล์ robots.txt
-description: หัวข้อนี้จะอธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
 author: BrianShook
 manager: annbe
 ms.date: 07/02/2020
@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982552"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477719"
 ---
 # <a name="manage-robotstxt-files"></a>จัดการไฟล์ robots.txt
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
 
 มาตรฐานการแยก robots หรือ robots.txt เป็นมาตรฐานที่เว็บไซต์ใช้ในการสื่อสารกับ robots บนเว็บ ซึ่งแนะนำ robots บนเว็บเกี่ยวกับพื้นที่ใดๆ ของเว็บไซต์ที่ไม่ควรไปเยี่ยมชม Robots มักจะถูกใช้โดยเครื่องมือค้นหาเพื่อทำดัชนีเว็บไซต์
 

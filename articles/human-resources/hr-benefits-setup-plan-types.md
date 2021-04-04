@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114439"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463923"
 ---
 # <a name="create-plan-types"></a>สร้างชนิดแผน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ชนิดของแผนใน Microsoft Dynamics 365 Human Resources เป็นการจัดกลุ่มในระดับสูงของสิทธิประโยชน์ชนิดเฉพาะทาง แต่ละชนิดของแผนจะมีรหัสชนิดของแผนซึ่งกำหนดกฎสำหรับชนิดของแผนนั้น ๆ ตัวอย่างเช่น ชนิดของการประกันตนขั้นพื้นฐานจะมีรหัสชนิดของแผนว่า Life เนื่องจากเป็นแผนประกันชีวิตชนิดหนึ่งและต้องสอดคล้องกับกฎที่กำหนดไว้สำหรับรหัสชนิดของแผน Life แผนชนิดอื่นอาจเป็นการประกันตนส่วนเพิ่ม รวมถึงรหัสชนิดของแผน Life ด้วย
 
