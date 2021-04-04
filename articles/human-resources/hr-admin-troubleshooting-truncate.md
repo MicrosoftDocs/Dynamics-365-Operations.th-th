@@ -17,90 +17,95 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: a745543f4d2a2e2a94a820f4ff5f35f8067a83d7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114434"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466387"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="9bf5b-104">หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio</span><span class="sxs-lookup"><span data-stu-id="9bf5b-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="afd8b-104">หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio</span><span class="sxs-lookup"><span data-stu-id="afd8b-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
 
-<span data-ttu-id="9bf5b-105">**ออกใช้**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-105">**Issue**</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="9bf5b-106">เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources ชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด</span><span class="sxs-lookup"><span data-stu-id="9bf5b-106">When a customer views the position hierarchy in Microsoft Dynamics 365 Human Resources, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="9bf5b-107">ดังนั้น จึงอาจจะยากในการจับภาพหน้าจอ หรือในการพิมพ์และเผยแพร่ลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="9bf5b-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
+<span data-ttu-id="afd8b-105">**ออกใช้**</span><span class="sxs-lookup"><span data-stu-id="afd8b-105">**Issue**</span></span>
+
+<span data-ttu-id="afd8b-106">เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources ชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด</span><span class="sxs-lookup"><span data-stu-id="afd8b-106">When a customer views the position hierarchy in Microsoft Dynamics 365 Human Resources, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="afd8b-107">ดังนั้น จึงอาจจะยากในการจับภาพหน้าจอ หรือในการพิมพ์และเผยแพร่ลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="afd8b-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
 
 ![ลำดับชั้นของตำแหน่งงาน](media/position-h.png)
 
-<span data-ttu-id="9bf5b-109">**สาเหตุ**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-109">**Cause**</span></span>
+<span data-ttu-id="afd8b-109">**สาเหตุ**</span><span class="sxs-lookup"><span data-stu-id="afd8b-109">**Cause**</span></span>
 
-<span data-ttu-id="9bf5b-110">ลักษณะการทำงานนี้เกิดจากการออกแบบ</span><span class="sxs-lookup"><span data-stu-id="9bf5b-110">This behavior is by design.</span></span>
+<span data-ttu-id="afd8b-110">ลักษณะการทำงานนี้เกิดจากการออกแบบ</span><span class="sxs-lookup"><span data-stu-id="afd8b-110">This behavior is by design.</span></span>
 
-<span data-ttu-id="9bf5b-111">**การแก้ปัญหา**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-111">**Resolution**</span></span>
+<span data-ttu-id="afd8b-111">**การแก้ปัญหา**</span><span class="sxs-lookup"><span data-stu-id="afd8b-111">**Resolution**</span></span>
 
-<span data-ttu-id="9bf5b-112">โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="9bf5b-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="9bf5b-113">อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="9bf5b-113">However, you can export the position hierarchy out of Human Resources and then import it into Microsoft Visio.</span></span> <span data-ttu-id="9bf5b-114">ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)</span><span class="sxs-lookup"><span data-stu-id="9bf5b-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Human Resources: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
+<span data-ttu-id="afd8b-112">โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย</span><span class="sxs-lookup"><span data-stu-id="afd8b-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="afd8b-113">อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="afd8b-113">However, you can export the position hierarchy out of Human Resources and then import it into Microsoft Visio.</span></span> <span data-ttu-id="afd8b-114">ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)</span><span class="sxs-lookup"><span data-stu-id="afd8b-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Human Resources: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
 
-<span data-ttu-id="9bf5b-115">ทำตามขั้นตอนเหล่านี้เพื่อส่งออกไปยัง Visio</span><span class="sxs-lookup"><span data-stu-id="9bf5b-115">Follow these steps to export to Visio.</span></span>
+<span data-ttu-id="afd8b-115">ทำตามขั้นตอนเหล่านี้เพื่อส่งออกไปยัง Visio</span><span class="sxs-lookup"><span data-stu-id="afd8b-115">Follow these steps to export to Visio.</span></span>
 
-1. <span data-ttu-id="9bf5b-116">ในทรัพยากรบุคคล ให้เปิดเพจรายการ **ตำแหน่ง**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-116">In Human Resources, open the **Positions** list page.</span></span>
+1. <span data-ttu-id="afd8b-116">ในทรัพยากรบุคคล ให้เปิดเพจรายการ **ตำแหน่ง**</span><span class="sxs-lookup"><span data-stu-id="afd8b-116">In Human Resources, open the **Positions** list page.</span></span>
 
-    <span data-ttu-id="9bf5b-117">เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้วิซาร์ดนี้ภายหลังในกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="9bf5b-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
+    <span data-ttu-id="afd8b-117">เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้วิซาร์ดนี้ภายหลังในกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="afd8b-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
 
-2. <span data-ttu-id="9bf5b-118">บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปยัง Excel** เลือก **ตำแหน่ง**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="9bf5b-119">อีกทางหนึ่งคือ กด Ctrl+T</span><span class="sxs-lookup"><span data-stu-id="9bf5b-119">Alternatively, press Ctrl+T.</span></span>
+2. <span data-ttu-id="afd8b-118">บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปยัง Excel** เลือก **ตำแหน่ง**</span><span class="sxs-lookup"><span data-stu-id="afd8b-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="afd8b-119">อีกทางหนึ่งคือ กด Ctrl+T</span><span class="sxs-lookup"><span data-stu-id="afd8b-119">Alternatively, press Ctrl+T.</span></span>
 
     ![ส่งออกหน้ารายการตำแหน่งไปยัง Excel](media/org-admin.png)
 
-3. <span data-ttu-id="9bf5b-121">บันทึกไฟล์ Excel ที่ถูกส่งออก</span><span class="sxs-lookup"><span data-stu-id="9bf5b-121">Save the Excel file that is exported.</span></span>
+3. <span data-ttu-id="afd8b-121">บันทึกไฟล์ Excel ที่ถูกส่งออก</span><span class="sxs-lookup"><span data-stu-id="afd8b-121">Save the Excel file that is exported.</span></span>
 
     ![ส่งออกไปที่กล่องโต้ตอบ Excel](media/export-excel.png)
 
-4. <span data-ttu-id="9bf5b-123">ใน Visio เลือก **Visio - สร้างใหม่** และเลือกประเภทเท็มเพลต **ธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
+4. <span data-ttu-id="afd8b-123">ใน Visio เลือก **Visio - สร้างใหม่** และเลือกประเภทเท็มเพลต **ธุรกิจ**</span><span class="sxs-lookup"><span data-stu-id="afd8b-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
 
     ![ไดอะแกรมใหม่](media/new.png)
 
-5. <span data-ttu-id="9bf5b-125">เลือก **ตัวช่วยสร้างแผนภูมิองค์กร** แล้วจากนั้น เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
+5. <span data-ttu-id="afd8b-125">เลือก **ตัวช่วยสร้างแผนภูมิองค์กร** แล้วจากนั้น เลือก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="afd8b-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
 
     ![กล่องโต้ตอบตัวช่วยสร้างแผนภูมิองค์กร](media/orgchart-wizard.png)
 
-6. <span data-ttu-id="9bf5b-127">เลือก **ข้อมูลที่ถูกเก็บอยู่ในไฟล์หรือฐานข้อมูลแล้ว** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
+6. <span data-ttu-id="afd8b-127">เลือก **ข้อมูลที่ถูกเก็บอยู่ในไฟล์หรือฐานข้อมูลแล้ว** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 1](media/orgchart-wizard7.png)
 
-7. <span data-ttu-id="9bf5b-129">เลือก **ข้อความ Org Plus (\*.txt) หรือไฟล์ Excel** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
+7. <span data-ttu-id="afd8b-129">เลือก **ข้อความ Org Plus (\*.txt) หรือไฟล์ Excel** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 2](media/orgchart-wizard3.png)
 
-8. <span data-ttu-id="9bf5b-131">เรียกดูเพื่อเลือกแฟ้ม Excel ที่ส่งออกซึ่งประกอบด้วยลำดับชั้นของตำแหน่ง และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
+8. <span data-ttu-id="afd8b-131">เรียกดูเพื่อเลือกแฟ้ม Excel ที่ส่งออกซึ่งประกอบด้วยลำดับชั้นของตำแหน่ง และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 3](media/orgchart-wizard2.png)
 
-9. <span data-ttu-id="9bf5b-133">ตั้งค่าฟิลด์ **ชื่อ** เป็น **ตำแหน่ง** ตั้งค่าฟิลด์ **รายงานไปยัง** **รายงานไปยังตำแหน่ง** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
+9. <span data-ttu-id="afd8b-133">ตั้งค่าฟิลด์ **ชื่อ** เป็น **ตำแหน่ง** ตั้งค่าฟิลด์ **รายงานไปยัง** **รายงานไปยังตำแหน่ง** แล้วจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 4](media/orgchart-wizard1.png)
 
-10. <span data-ttu-id="9bf5b-135">เลือกฟิลด์ที่ควรจะแสดงบนแต่ละโหนด และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
+10. <span data-ttu-id="afd8b-135">เลือกฟิลด์ที่ควรจะแสดงบนแต่ละโหนด และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 5](media/orgchart-wizard5.png)
 
-11. <span data-ttu-id="9bf5b-137">เพิ่มคอลัมน์ **ตำแหน่ง** ไปยังรายการ **ฟิลด์ข้อมูลรูปร่าง** และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
+11. <span data-ttu-id="afd8b-137">เพิ่มคอลัมน์ **ตำแหน่ง** ไปยังรายการ **ฟิลด์ข้อมูลรูปร่าง** และจากนั้น เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 6](media/orgchart-wizard6.png)
 
-12. <span data-ttu-id="9bf5b-139">รูปภาพไม่พร้อมใช้งานในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="9bf5b-139">Pictures aren't currently available.</span></span> <span data-ttu-id="9bf5b-140">ดังนั้น บนหน้าถัดไป เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-140">Therefore, on the next page, select **Next**.</span></span>
-13. <span data-ttu-id="9bf5b-141">เลือก **ฉันต้องการให้วิซาร์ดแบ่งแผนผังองค์กรของฉันทั้งหน้าโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
+12. <span data-ttu-id="afd8b-139">รูปภาพไม่พร้อมใช้งานในขณะนี้</span><span class="sxs-lookup"><span data-stu-id="afd8b-139">Pictures aren't currently available.</span></span> <span data-ttu-id="afd8b-140">ดังนั้น บนหน้าถัดไป เลือก **ถัดไป**</span><span class="sxs-lookup"><span data-stu-id="afd8b-140">Therefore, on the next page, select **Next**.</span></span>
+13. <span data-ttu-id="afd8b-141">เลือก **ฉันต้องการให้วิซาร์ดแบ่งแผนผังองค์กรของฉันทั้งหน้าโดยอัตโนมัติ**</span><span class="sxs-lookup"><span data-stu-id="afd8b-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
 
     ![ตัวช่วยสร้างแผนภูมิองค์กร 7](media/orgchart-wizard4.png)
 
-14. <span data-ttu-id="9bf5b-143">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-143">Select **Finish**.</span></span>
+14. <span data-ttu-id="afd8b-143">เลือก **เสร็จสิ้น**</span><span class="sxs-lookup"><span data-stu-id="afd8b-143">Select **Finish**.</span></span>
 
-    <span data-ttu-id="9bf5b-144">ถ้ามีตำแหน่งใดๆ ที่ไม่ได้อยู่ในโครงสร้าง คุณจะถูกขอให้รวมรายการเหล่านั้นไว้ในไดอะแกรม</span><span class="sxs-lookup"><span data-stu-id="9bf5b-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
+    <span data-ttu-id="afd8b-144">ถ้ามีตำแหน่งใดๆ ที่ไม่ได้อยู่ในโครงสร้าง คุณจะถูกขอให้รวมรายการเหล่านั้นไว้ในไดอะแกรม</span><span class="sxs-lookup"><span data-stu-id="afd8b-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
 
-<span data-ttu-id="9bf5b-145">ไดอะแกรมที่ถูกสร้างขึ้นใน Visio แสดงผู้จัดการแต่ละรายบนแผ่นงานที่แยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="9bf5b-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
+<span data-ttu-id="afd8b-145">ไดอะแกรมที่ถูกสร้างขึ้นใน Visio แสดงผู้จัดการแต่ละรายบนแผ่นงานที่แยกต่างหาก</span><span class="sxs-lookup"><span data-stu-id="afd8b-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
 
-<span data-ttu-id="9bf5b-146">ขึ้นอยู่กับฟิลด์ที่คุณเลือกที่จะรวมไว้ในไดอะแกรม โหนดแต่ละโหนดแสดงข้อมูลที่เหมาะสม เมื่อมีการสร้างไฟล์ Visio</span><span class="sxs-lookup"><span data-stu-id="9bf5b-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
+<span data-ttu-id="afd8b-146">ขึ้นอยู่กับฟิลด์ที่คุณเลือกที่จะรวมไว้ในไดอะแกรม โหนดแต่ละโหนดแสดงข้อมูลที่เหมาะสม เมื่อมีการสร้างไฟล์ Visio</span><span class="sxs-lookup"><span data-stu-id="afd8b-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
 
 ![ไดอะแกรมลำดับชั้น](media/hierarchy.png)
 
-<span data-ttu-id="9bf5b-148">**ตัวเลือกเพิ่มเติม**</span><span class="sxs-lookup"><span data-stu-id="9bf5b-148">**Additional option**</span></span>
+<span data-ttu-id="afd8b-148">**ตัวเลือกเพิ่มเติม**</span><span class="sxs-lookup"><span data-stu-id="afd8b-148">**Additional option**</span></span>
 
-<span data-ttu-id="9bf5b-149">ในทรัพยากรบุคคล คุณยังอาจจะสามารถใช้พื้นที่ทำงาน **ผู้คน** เพื่อดูข้อมูลบางอย่างที่เกี่ยวข้องกับลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="9bf5b-149">In Human Resources, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
+<span data-ttu-id="afd8b-149">ในทรัพยากรบุคคล คุณยังอาจจะสามารถใช้พื้นที่ทำงาน **ผู้คน** เพื่อดูข้อมูลบางอย่างที่เกี่ยวข้องกับลำดับชั้น</span><span class="sxs-lookup"><span data-stu-id="afd8b-149">In Human Resources, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
