@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680947"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568501"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
@@ -28,12 +27,12 @@ ms.locfileid: "4680947"
 > [!NOTE]
 > คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และรุ่นที่ใหม่กว่า)
 
-## <a name="introduction"></a>คำนำ
+## <a name="introduction"></a>บทนำ
 หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 + เข้าถึงสภาพแวดล้อมนักพัฒนาที่รันการอัพเดตแพลตฟอร์ม 8 หรือรุ่นที่ใหม่กว่า
-+ รายงานการวิเคราะห์ (.pbix file) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และที่มีแบบจำลองข้อมูลที่มีแหล่งที่มาจากฐานข้อมูลที่จัดเก็บเอนทิตี
++ รายงานการวิเคราะห์ (.pbix file) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และมีแบบจำลองข้อมูลที่มีแหล่งที่มาจากฐานข้อมูลที่จัดเก็บเอนทิตี
 
 ## <a name="overview"></a>ภาพรวม
 ไม่ว่าคุณจะขยายพื้นที่ทำงานของแอพลิเคชันที่มีอยู่ หรือใช้พื้นที่ทำงานใหม่ของคุณเอง คุณสามารถใช้มุมมองการวิเคราะห์แบบฝังเพื่อจัดส่งมุมมองที่ชาญฉลาดและเชิงโต้ตอบของข้อมูลธุรกิจของคุณ กระบวนการสำหรับการเพิ่มแท็บพื้นที่ทำงานเชิงวิเคราะห์มีสี่ขั้นตอน

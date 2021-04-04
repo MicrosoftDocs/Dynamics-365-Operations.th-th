@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec952f8c121f97396c135d10258a6431e8f2257e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e3412f446fe9fb8e3c2ca5407b22680dec3c3b82
+ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114509"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579342"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ทุกๆ สองสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources หัวข้อที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในการเผยแพร่แต่ละครั้ง
 
@@ -49,9 +51,11 @@ ms.locfileid: "5114509"
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของ Human Resources ให้ดูที่บทความต่อไปนี้:
 
+[8 มีนาคม 2021](hr-whats-new-2021-03-08.md)</br>
+[22 กุมภาพันธ์ 2021](hr-whats-new-2021-02-22.md)</br>
 [28 มกราคม 2021](hr-whats-new-2021-01-28.md)</br>
 [21 มกราคม 2021](hr-whats-new-2021-01-21.md)</br>
-[02 ธันวาคม 2020](hr-whats-new-2020-12-02.md)</br>
+[2 ธันวาคม 2020](hr-whats-new-2020-12-02.md)</br>
 [22 ตุลาคม 2020](hr-whats-new-2020-10-22.md)</br>
 [16 กันยายน 2020](hr-whats-new-2020-09-16.md)</br>
 [3 กันยายน 2020](hr-whats-new-2020-09-03.md)</br>
