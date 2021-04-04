@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
@@ -15,45 +14,48 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8015d4e32da2ba80230aa0ad48576948f2fd1678
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 58a4d0d6a2ccb79d602bcb8c236a6740d38ee1cd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797761"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569770"
 ---
-# <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="dc56f-103">ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="dc56f-103">Identify and deploy candidate selection tools</span></span>
+# <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="1613a-103">ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="1613a-103">Identify and deploy candidate selection tools</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dc56f-104">การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="dc56f-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="dc56f-105">อย่างไรก็ตาม คุณอาจมีผู้สมัคร ที่มีทักษะตามที่คุณต้องการทำงานอยู่ในองค์กรของคุณอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="dc56f-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="dc56f-106">คุณสามารถค้นหาชุดของทักษะเฉพาะของพนักงานที่คุณมีอยู่ หรือผู้สมัครใหม่</span><span class="sxs-lookup"><span data-stu-id="dc56f-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="dc56f-107">ซึ่งช่วยให้ผู้สรรหารวบรวมและกรั่นกรองผู้สมัครที่ได้มาสมัครในตำแหน่งงานที่เปิดรับทั้งในอดีตและปัจจุบันได้อย่างรวดเร็ว หรือช่วยให้ค้นหาผู้สมัครที่มีศักยภาพจากกลุ่มพนักงานที่มีอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="dc56f-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="dc56f-108">ใช้การบันทึกงานนี้เพื่อเรียนรู้ว่าฟังก์ชันการแม็ปทักษะสามารถช่วยคุณค้นหาบุคคลที่เหมาะสมสำหรับตำแหน่งที่เปิดรับได้อย่างไร </span><span class="sxs-lookup"><span data-stu-id="dc56f-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="dc56f-109">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="dc56f-109">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="1613a-104">การค้นหากลุ่มผู้สมัครที่เข้าเกณฑ์เพื่อบรรจุลงในตำแหน่งว่างอาจเป็นเรื่องยาก โดยเฉพาะอย่างยิ่งเมื่อตำแหน่งต้องการชุดของทักษะเฉพาะ </span><span class="sxs-lookup"><span data-stu-id="1613a-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="1613a-105">อย่างไรก็ตาม คุณอาจมีผู้สมัคร ที่มีทักษะตามที่คุณต้องการทำงานอยู่ในองค์กรของคุณอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="1613a-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="1613a-106">คุณสามารถค้นหาชุดของทักษะเฉพาะของพนักงานที่คุณมีอยู่ หรือผู้สมัครใหม่</span><span class="sxs-lookup"><span data-stu-id="1613a-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="1613a-107">ซึ่งช่วยให้ผู้สรรหารวบรวมและกรั่นกรองผู้สมัครที่ได้มาสมัครในตำแหน่งงานที่เปิดรับทั้งในอดีตและปัจจุบันได้อย่างรวดเร็ว หรือช่วยให้ค้นหาผู้สมัครที่มีศักยภาพจากกลุ่มพนักงานที่มีอยู่แล้ว </span><span class="sxs-lookup"><span data-stu-id="1613a-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="1613a-108">ใช้การบันทึกงานนี้เพื่อเรียนรู้ว่าฟังก์ชันการแม็ปทักษะสามารถช่วยคุณค้นหาบุคคลที่เหมาะสมสำหรับตำแหน่งที่เปิดรับได้อย่างไร </span><span class="sxs-lookup"><span data-stu-id="1613a-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="1613a-109">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="1613a-109">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="dc56f-110">ไปที่ทรัพยากรบุคคล > ความสามารถ > การวิเคราะห์ทักษะ > โพรไฟล์การแม็ปทักษะ</span><span class="sxs-lookup"><span data-stu-id="dc56f-110">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
-2. <span data-ttu-id="dc56f-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="dc56f-111">Click New.</span></span>
-3. <span data-ttu-id="dc56f-112">ในฟิลด์การแม็ปทักษะ ให้ป้อนชื่อสำหรับการแม็ปทักษะของคุณ </span><span class="sxs-lookup"><span data-stu-id="dc56f-112">In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="dc56f-113">ตัวอย่าง: นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="dc56f-113">Example: Accountant.</span></span>
-4. <span data-ttu-id="dc56f-114">ในฟิลด์คำอธิบายงาน ให้ป้อนคำอธิบายของการแม็ปทักษะ</span><span class="sxs-lookup"><span data-stu-id="dc56f-114">In the Description field, enter a description of the skill mapping..</span></span>
-5. <span data-ttu-id="dc56f-115">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="dc56f-115">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="dc56f-116">เลือกการดึงข้อมูลโพรไฟล์</span><span class="sxs-lookup"><span data-stu-id="dc56f-116">Click Retrieve profile.</span></span>
-    * <span data-ttu-id="dc56f-117">ใช้การดึงข้อมูลโพรไฟล์เพื่อดึงข้อมูลใบรับรอง ทักษะ และข้อมูลการศึกษาจากบุคคลที่ถูกเลือก งานหรือหลักสูตรเป็นข้อมูลพื้นฐานสำหรับการค้นหาของคุณ จากนั้นคุณสามารถเพิ่มหรือลบเกณฑ์ </span><span class="sxs-lookup"><span data-stu-id="dc56f-117">Use Retrieve profile to pull in the Certificate, Skill, and Education data from a selected Person, Job or Course as the basis for your search.</span></span>   <span data-ttu-id="dc56f-118">คุณสามารถบอกได้หากเงื่อนไขนั้นไม่จำเป็นและจัดอันดับความสำคัญของเกณฑ์</span><span class="sxs-lookup"><span data-stu-id="dc56f-118">You can then add or remove criteria, state if the criteria is optional and rank the importance of the criteria.</span></span>  
-7. <span data-ttu-id="dc56f-119">คลิกงาน</span><span class="sxs-lookup"><span data-stu-id="dc56f-119">Click Job.</span></span>
-8. <span data-ttu-id="dc56f-120">ในฟิลด์งาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="dc56f-120">In the Job field, enter or select a value.</span></span>
-9. <span data-ttu-id="dc56f-121">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="dc56f-121">Click OK.</span></span>
-10. <span data-ttu-id="dc56f-122">ขยายแท็บด่วนช่วง และเพิ่มเติมข้อมูลอื่นๆเช่น แผนก</span><span class="sxs-lookup"><span data-stu-id="dc56f-122">Expand the Range FastTab, and add any additional information, such as department.</span></span>
-11. <span data-ttu-id="dc56f-123">ขยายแท็บด่วนใบรับรอง เพื่อดูหรือแก้ไขประกาศนียบัตร</span><span class="sxs-lookup"><span data-stu-id="dc56f-123">Expand the Certificates FastTab to view or edit the certificates.</span></span>
-12. <span data-ttu-id="dc56f-124">ขยายแท็บด่วนทักษะ เพื่อดูหรือแก้ไขทักษะ</span><span class="sxs-lookup"><span data-stu-id="dc56f-124">Expand the Skills FastTab to view or edit the skills.</span></span>
-13. <span data-ttu-id="dc56f-125">ขยายแท็บด่วนการศึกษา เพื่อดูหรือแก้ไขเกณฑ์การศึกษา</span><span class="sxs-lookup"><span data-stu-id="dc56f-125">Expand the Education FastTab to view or edit the education criteria.</span></span>
-14. <span data-ttu-id="dc56f-126">คลิกดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="dc56f-126">Click Execute.</span></span>
-15. <span data-ttu-id="dc56f-127">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="dc56f-127">Click OK.</span></span>
-16. <span data-ttu-id="dc56f-128">คลิกผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="dc56f-128">Click Result.</span></span>
-17. <span data-ttu-id="dc56f-129">คลิกผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="dc56f-129">Click Result.</span></span>
-18. <span data-ttu-id="dc56f-130">คลิก ดำเนินการต่อ</span><span class="sxs-lookup"><span data-stu-id="dc56f-130">Click Resume.</span></span>
-19. <span data-ttu-id="dc56f-131">คลิกประกาศนียบัตร</span><span class="sxs-lookup"><span data-stu-id="dc56f-131">Click Certificates.</span></span>
-    * <span data-ttu-id="dc56f-132">คุณสามารถดูรายละเอียดเพิ่มเติมในแต่ละบุคคลที่แสดงในรายการ และดูรายละเอียดเกี่ยวกับการศึกษา ทักษะ และประสบการณ์การทำงานได้</span><span class="sxs-lookup"><span data-stu-id="dc56f-132">You can drill further into each person listed and see details regarding their education, skills, and professional experience.</span></span>  
-20. <span data-ttu-id="dc56f-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="dc56f-133">Close the page.</span></span>
-21. <span data-ttu-id="dc56f-134">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="dc56f-134">Close the page.</span></span>
-22. <span data-ttu-id="dc56f-135">เลือกผลลัพธ์อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="dc56f-135">Select result again.</span></span>
-23. <span data-ttu-id="dc56f-136">คลิกรายงาน</span><span class="sxs-lookup"><span data-stu-id="dc56f-136">Click Report.</span></span>
-    * <span data-ttu-id="dc56f-137">รายงานจะแสดงรายการการจับคู่ที่ดีที่สุดที่ด้านบนของรายงาน </span><span class="sxs-lookup"><span data-stu-id="dc56f-137">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="dc56f-138">คุณสามารถเห็นว่ามีองค์ประกอบช่องว่างอยู่ในรายการ</span><span class="sxs-lookup"><span data-stu-id="dc56f-138">You can see that a gap element is listed.</span></span>  <span data-ttu-id="dc56f-139">นี่คือความแตกต่างระหว่างระดับที่มีการแสดงรายการอยู่ในการแม็ปทักษะ และระดับของทักษะที่กำหนดให้กับบุคคล</span><span class="sxs-lookup"><span data-stu-id="dc56f-139">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
-24. <span data-ttu-id="dc56f-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="dc56f-140">Close the page.</span></span>
-25. <span data-ttu-id="dc56f-141">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="dc56f-141">Click Save.</span></span>
+1. <span data-ttu-id="1613a-110">ไปที่ทรัพยากรบุคคล > ความสามารถ > การวิเคราะห์ทักษะ > โพรไฟล์การแม็ปทักษะ</span><span class="sxs-lookup"><span data-stu-id="1613a-110">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
+2. <span data-ttu-id="1613a-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="1613a-111">Click New.</span></span>
+3. <span data-ttu-id="1613a-112">ในฟิลด์การแม็ปทักษะ ให้ป้อนชื่อสำหรับการแม็ปทักษะของคุณ </span><span class="sxs-lookup"><span data-stu-id="1613a-112">In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="1613a-113">ตัวอย่าง: นักบัญชี</span><span class="sxs-lookup"><span data-stu-id="1613a-113">Example: Accountant.</span></span>
+4. <span data-ttu-id="1613a-114">ในฟิลด์คำอธิบายงาน ให้ป้อนคำอธิบายของการแม็ปทักษะ</span><span class="sxs-lookup"><span data-stu-id="1613a-114">In the Description field, enter a description of the skill mapping..</span></span>
+5. <span data-ttu-id="1613a-115">ในฟิลด์วันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="1613a-115">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="1613a-116">เลือกการดึงข้อมูลโพรไฟล์</span><span class="sxs-lookup"><span data-stu-id="1613a-116">Click Retrieve profile.</span></span>
+    * <span data-ttu-id="1613a-117">ใช้การดึงข้อมูลโพรไฟล์เพื่อดึงข้อมูลใบรับรอง ทักษะ และข้อมูลการศึกษาจากบุคคลที่ถูกเลือก งานหรือหลักสูตรเป็นข้อมูลพื้นฐานสำหรับการค้นหาของคุณ จากนั้นคุณสามารถเพิ่มหรือลบเกณฑ์ </span><span class="sxs-lookup"><span data-stu-id="1613a-117">Use Retrieve profile to pull in the Certificate, Skill, and Education data from a selected Person, Job or Course as the basis for your search.</span></span>   <span data-ttu-id="1613a-118">คุณสามารถบอกได้หากเงื่อนไขนั้นไม่จำเป็นและจัดอันดับความสำคัญของเกณฑ์</span><span class="sxs-lookup"><span data-stu-id="1613a-118">You can then add or remove criteria, state if the criteria is optional and rank the importance of the criteria.</span></span>  
+7. <span data-ttu-id="1613a-119">คลิกงาน</span><span class="sxs-lookup"><span data-stu-id="1613a-119">Click Job.</span></span>
+8. <span data-ttu-id="1613a-120">ในฟิลด์งาน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="1613a-120">In the Job field, enter or select a value.</span></span>
+9. <span data-ttu-id="1613a-121">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="1613a-121">Click OK.</span></span>
+10. <span data-ttu-id="1613a-122">ขยายแท็บด่วนช่วง และเพิ่มเติมข้อมูลอื่นๆเช่น แผนก</span><span class="sxs-lookup"><span data-stu-id="1613a-122">Expand the Range FastTab, and add any additional information, such as department.</span></span>
+11. <span data-ttu-id="1613a-123">ขยายแท็บด่วนใบรับรอง เพื่อดูหรือแก้ไขประกาศนียบัตร</span><span class="sxs-lookup"><span data-stu-id="1613a-123">Expand the Certificates FastTab to view or edit the certificates.</span></span>
+12. <span data-ttu-id="1613a-124">ขยายแท็บด่วนทักษะ เพื่อดูหรือแก้ไขทักษะ</span><span class="sxs-lookup"><span data-stu-id="1613a-124">Expand the Skills FastTab to view or edit the skills.</span></span>
+13. <span data-ttu-id="1613a-125">ขยายแท็บด่วนการศึกษา เพื่อดูหรือแก้ไขเกณฑ์การศึกษา</span><span class="sxs-lookup"><span data-stu-id="1613a-125">Expand the Education FastTab to view or edit the education criteria.</span></span>
+14. <span data-ttu-id="1613a-126">คลิกดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="1613a-126">Click Execute.</span></span>
+15. <span data-ttu-id="1613a-127">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="1613a-127">Click OK.</span></span>
+16. <span data-ttu-id="1613a-128">คลิกผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="1613a-128">Click Result.</span></span>
+17. <span data-ttu-id="1613a-129">คลิกผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="1613a-129">Click Result.</span></span>
+18. <span data-ttu-id="1613a-130">คลิก ดำเนินการต่อ</span><span class="sxs-lookup"><span data-stu-id="1613a-130">Click Resume.</span></span>
+19. <span data-ttu-id="1613a-131">คลิกประกาศนียบัตร</span><span class="sxs-lookup"><span data-stu-id="1613a-131">Click Certificates.</span></span>
+    * <span data-ttu-id="1613a-132">คุณสามารถดูรายละเอียดเพิ่มเติมในแต่ละบุคคลที่แสดงในรายการ และดูรายละเอียดเกี่ยวกับการศึกษา ทักษะ และประสบการณ์การทำงานได้</span><span class="sxs-lookup"><span data-stu-id="1613a-132">You can drill further into each person listed and see details regarding their education, skills, and professional experience.</span></span>  
+20. <span data-ttu-id="1613a-133">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1613a-133">Close the page.</span></span>
+21. <span data-ttu-id="1613a-134">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1613a-134">Close the page.</span></span>
+22. <span data-ttu-id="1613a-135">เลือกผลลัพธ์อีกครั้ง</span><span class="sxs-lookup"><span data-stu-id="1613a-135">Select result again.</span></span>
+23. <span data-ttu-id="1613a-136">คลิกรายงาน</span><span class="sxs-lookup"><span data-stu-id="1613a-136">Click Report.</span></span>
+    * <span data-ttu-id="1613a-137">รายงานจะแสดงรายการการจับคู่ที่ดีที่สุดที่ด้านบนของรายงาน </span><span class="sxs-lookup"><span data-stu-id="1613a-137">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="1613a-138">คุณสามารถเห็นว่ามีองค์ประกอบช่องว่างอยู่ในรายการ</span><span class="sxs-lookup"><span data-stu-id="1613a-138">You can see that a gap element is listed.</span></span>  <span data-ttu-id="1613a-139">นี่คือความแตกต่างระหว่างระดับที่มีการแสดงรายการอยู่ในการแม็ปทักษะ และระดับของทักษะที่กำหนดให้กับบุคคล</span><span class="sxs-lookup"><span data-stu-id="1613a-139">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
+24. <span data-ttu-id="1613a-140">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="1613a-140">Close the page.</span></span>
+25. <span data-ttu-id="1613a-141">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="1613a-141">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
