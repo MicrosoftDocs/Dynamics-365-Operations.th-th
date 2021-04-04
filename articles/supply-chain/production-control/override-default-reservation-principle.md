@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078311"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501113"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 
@@ -38,11 +39,11 @@ ms.locfileid: "5078311"
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การควบคุมการผลิต*
-- **ชื่อคุณลักษณะ:** *แทนที่การจองการผลิตเริ่มต้น*
+- **ชื่อคุณลักษณะ:** *(ตัวอย่าง) แทนที่การจองการผลิตเริ่มต้น*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>การกําหนดนโยบายการจองการผลิตให้กับกลุ่มแบบจำลองสินค้า
 
-1. ไปที่ **การจัดการต้นทุน &gt; การตั้งค่านโยบายการบัญชีสินค้าคงคลัง &gt; กลุ่มแบบจำลองสินค้า**
+1. ไปที่ **การจัดการต้นทุน \> การตั้งค่านโยบายการบัญชีสินค้าคงคลัง \> กลุ่มแบบจำลองสินค้า**
 1. สร้างหรือเลือกกลุ่มแบบจำลองสินค้า
 1. บนแท็บด่วน **นโยบายสินค้าคงคลัง** ให้เลือกกล่องกาเครื่องหมาย **แทนที่การจองการผลิตสินค้า**
 1. ในฟิลด์ **การจอง** ให้เลือกหลักการจองของสินค้าที่เป็นของกลุ่มแบบจำลองที่เลือก (สินค้าเหล่านั้นรวมสินค้าที่อยู่บน BOM หรือรายการสูตร)

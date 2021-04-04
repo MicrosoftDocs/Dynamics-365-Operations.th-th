@@ -16,18 +16,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965336"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477815"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>ตั้งค่าการเติมสินค้าตามใบสั่งสำหรับร้านค้า
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>ภาพรวม
 
 ผู้ค้าปลีกหลายรายต้องการปรับปรุงการเติมสินค้าของใบสั่ง โดยการเปิดใช้งานร้านค้าเพื่อกรอกข้อมูลใบสั่ง การเติมสินค้าของใบสั่งในระดับร้านค้าสามารถช่วยให้สถานการณ์การเก็บสินค้ามากเกินไปง่ายขึ้นสำหรับร้านค้าเฉพาะ หรืออาจเป็นที่ต้องการจากจุดยืนเชิงตรรกะ ในกรณีที่ร้านค้ามีกำลังการผลิตพิเศษ หรือตั้งอยู่ภายในระยะการจัดส่งที่ใกล้เคียงยิ่งขึ้นให้กับลูกค้า เพื่อระบุความต้องการนี้ การดำเนินการเติมสินค้าตามใบสั่งแบบรวมจะพร้อมใช้งานที่จุดขายหน้าร้าน
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3f7f7d68caf12c33059d2f871fe3f4a036c89f35
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: eb4632d7f7d73dbef690be16419e5f3aa25e880e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115137"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467830"
 ---
 # <a name="create-questionnaires"></a>สร้างแบบสอบถาม
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 บทความนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้ 
 

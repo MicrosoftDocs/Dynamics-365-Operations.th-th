@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973771"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558273"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
 [!include [banner](../includes/banner.md)]
+
 
 โครงร่างการกำหนดเส้นทางเอกสารจะกำหนดโครงร่างของป้ายชื่อทะเบียนและข้อมูลที่พิมพ์ไว้ คุณตั้งค่าคอนฟิกจุดทริกเกอร์การพิมพ์เมื่อคุณตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่และเท็มเพลตการทำงาน
 
@@ -51,6 +52,10 @@ ms.locfileid: "4973771"
 เมื่อต้องการดูค่าที่จะพิมพ์ ให้ไปที่ **การจัดการคลังสินค้า \> การสอบถามและรายงาน \> ป้ายชื่อทะเบียน**
 
 เครื่องมือการสร้างป้ายชื่อที่มีอยู่หลายตัวสามารถช่วยคุณจัดรูปแบบข้อความสำหรับโครงร่างป้ายชื่อ หลายๆ เครื่องมือเหล่านี้สนับสนุนรูปแบบ `$FieldName$` นอกจากนี้ Microsoft Dynamics 365 Supply Chain Management ยังใช้ตรรกะการจัดรูปแบบพิเศษ โดยเป็นส่วนหนึ่งของการแม็ปฟิลด์สำหรับโครงร่างการกำหนดเส้นทางเอกสาร
+
+## <a name="turn-on-this-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะนี้สำหรับระบบของคุณ
+
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และ เปิดคุณลักษณะ *โครงร่างป้ายชื่อป้ายทะเบียนขั้นสูง*
 
 ## <a name="custom-number-formats"></a>รูปแบบตัวเลขที่กำหนดเอง
 

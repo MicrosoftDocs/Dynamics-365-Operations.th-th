@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69149f55371f64b4907f6040e9de03843fc11717
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 07a8be0a4c333e9d465341d9384e4b9a706f9e75
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687217"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559832"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>เนื้อหา Power BI ของค่าตอบแทนและประโยชน์
 
@@ -30,7 +29,7 @@ ms.locfileid: "4687217"
 หัวข้อนี้อธิบายเนื้อหาค่าตอบแทนและสวัสดิการของ Power BI 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
-หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูลของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าการเรียนรู้ที่แนะนำสำหรับ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
+หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูลของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าแนวทางการเรียนรู้สำหรับ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
 
 | รายงาน                     | เนื้อหา                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|

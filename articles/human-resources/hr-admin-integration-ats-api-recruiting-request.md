@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125436"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500633"
 ---
 # <a name="recruiting-request"></a>คำขอสรรหาบุคลากร
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายเอนทิตีคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
 
@@ -98,7 +100,8 @@ ms.locfileid: "5125436"
 | **ค่ารหัสชนิดงาน**<br>_mshr_fk_jobtype_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmjobtypeentityid ของเอนทิตี mshr_hcmjobtypenentity | ตัวระบุเฉพาะที่สร้างโดยระบบของชนิดงานที่เชื่อมโยงกับงานสำหรับคำขอการสรรหาบุคลากรนี้ |
 | **สถานะยกเว้น**<br>mshr_exemptstatus<br>ชุดตัวเลือก *JobExemptStatus* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ | สถานะยกเว้น FLSA ตามชนิดงาน |
 | **วันที่เริ่มต้นโดยประมาณ**<br>mshr_estimatedstartdate<br>*วัน เดือน* | อ่าน/เขียน<br>จำเป็นต้องระบุ | วันที่ประเมินที่ผู้สมัครจะเริ่มต้นงาน |
-| **คำอธิบายภายนอก**<br>mshr_externaldescription<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | คำอธิบายงานที่/ตําแหน่งที่เชื่อมต่อกับผู้สมัคร | ขีดจำกัดต่ำสุดของค่าตอบแทน<br>mshr_compensationlowthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตล่างของระดับค่าตอบแทน |
+| **คำอธิบายภายนอก**<br>mshr_externaldescription<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | คำอธิบายงานที่/ตําแหน่งที่เชื่อมต่อกับผู้สมัคร | 
+| **ขีดจำกัดต่ำสุดของค่าตอบแทน**<br>mshr_compensationlowthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตล่างของระดับค่าตอบแทน |
 | **จุดควบคุมค่าตอบแทน**<br>mshr_compensationcontrolpoint<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | จุดควบคุมเกี่ยวกับระดับค่าตอบแทน |
 | **ขีดจำกัดสูงสุดของค่าตอบแทน**<br>mshr_compensationhighthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตบนของระดับค่าตอบแทน |
 | **ระดับค่าตอบแทน**<br>mshr_compensationlevelid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ระดับค่าตอบแทนของงาน งานสามารถตั้งค่าด้วยระดับค่าตอบแทนหลายระดับได้ แอททริบิวต์นี้จะบ่งชี้ระดับค่าตอบแทนของงานที่เลือกของคำขอนี้ |

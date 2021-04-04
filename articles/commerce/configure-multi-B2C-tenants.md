@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997611"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477767"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>ตั้งค่าคอนฟิกผู้เช่า B2C หลายรายในสภาพแวดล้อม Commerce
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายเกี่ยวกับเวลาและวิธีการตั้งค่าผู้เช่าธุรกิจ-ผู้บริโภค (B2C) ของ Microsoft Azure Active Directory (Azure AD) ต่อหนึ่งช่องทาง สำหรับการตรวจสอบความถูกต้องของผู้ใช้ในสภาพแวดล้อม Dynamics 365 Commerce เฉพาะ
-
-## <a name="overview"></a>ภาพรวม
 
 Dynamics 365 Commerce ใช้บริการตัวระบุข้อมูลเฉพาะตัวระบบคลาวด์ของ Azure AD B2C เพื่อสนับสนุนข้อมูลประจำตัวของผู้ใช้และขั้นตอนการตรวจสอบความถูกต้อง ผู้ใช้สามารถใช้ขั้นตอนการรับรองความถูกต้องในการลงชื่อสมัคร ลงชื่อเข้าใช้ และรีเซ็ตรหัสผ่านของตน Azure AD B2C จัดเก็บข้อมูลการตรวจสอบความถูกต้องที่สำคัญของผู้ใช้ เช่น ชื่อผู้ใช้และรหัสผ่านของเขาหรือเธอ เรกคอร์ดผู้ใช้ไม่ซ้ำกันสำหรับผู้เช่า B2C แต่ละราย และใช้ข้อมูลส่วนบุคคลของชื่อผู้ใช้ (ที่อยู่อีเมล) หรือข้อมูลส่วนบุคคลของผู้ให้บริการข้อมูลประจำตัวทางสังคม
 
