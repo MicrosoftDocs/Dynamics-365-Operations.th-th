@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2e1d5fc80d93e41626da8eb5bdf8f389fb0bd531
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114432"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466193"
 ---
 # <a name="create-coverage-options"></a>สร้างตัวเลือกความคุ้มครอง
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ตัวเลือกความครอบคลุมใน Microsoft Dynamics 365 Human Resources คือระดับความครอบคลุมสำหรับการเลือกตั้งของผู้เข้าร่วมในแผนสวัสดิการหรือโปรแกรม ตัวอย่างเช่น ความครอบคลุมอาจรวมถึง **เฉพาะพนักงาน** สำหรับแผนการรักษาพยาบาลหรือ **2 เท่าของเงินเดือน** สำหรับแผนประกันชีวิต เมื่อกำหนดแล้ว คุณสามารถนำตัวเลือกความครอบคลุมสวัสดิการมาใช้ใหม่ได้ คุณสามารถเชื่อมโยงตัวเลือกกับแผนหนึ่งแผนขึ้นไป
 
