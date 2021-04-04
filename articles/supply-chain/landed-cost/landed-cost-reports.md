@@ -1,0 +1,120 @@
+---
+title: รายงานต้นทุนแฝง
+description: หัวข้อนี้จะอธิบายวิธีการค้นหาและใช้รายงานชนิดต่างๆ ที่พร้อมใช้งานกับโมดูลต้นทุนแฝง
+author: sherry-zheng
+manager: tfehr
+ms.date: 02/01/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SysOperationTemplateForm
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2021-02-21
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 565303a4f51d1726c62a85faaf8c4d8692c110fc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500657"
+---
+# <a name="landed-cost-reports"></a><span data-ttu-id="fd480-103">รายงานต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="fd480-103">Landed cost reports</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+## <a name="outstanding-invoices"></a><span data-ttu-id="fd480-104">ใบแจ้งหนี้คงค้าง</span><span class="sxs-lookup"><span data-stu-id="fd480-104">Outstanding invoices</span></span>
+
+<span data-ttu-id="fd480-105">รายงานใบแจ้งหนี้ที่คงค้างมีรายการใบแจ้งหนี้ที่คงค้างทั้งหมดของระดับต้นทุนต่าง ๆ ที่เกี่ยวข้องกับการเดินทางทุกครั้ง</span><span class="sxs-lookup"><span data-stu-id="fd480-105">The outstanding invoices report contains a list of all outstanding invoices of the various cost levels that are associated with every voyage.</span></span> <span data-ttu-id="fd480-106">ใช้เพื่อกระทบยอดต้นทุนการเดินทางและค่าใช้จ่ายการเดินทาง พร้อมกับรายการธุรกรรมบัญชีแยกประเภทเป็นรายเดือนเป็นปกติ</span><span class="sxs-lookup"><span data-stu-id="fd480-106">It's used to reconcile the voyage and voyage costs together with the ledger transactions list on a regular basis.</span></span> <span data-ttu-id="fd480-107">หลังจากออกใบแจ้งหนี้ต้นทุนค่าโสหุ้ยแล้ว ต้นทุนค่าโสหุ้ยจะถูกลบออกจากรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-107">After an overhead cost has been invoiced, it's removed from the report.</span></span>
+
+<span data-ttu-id="fd480-108">หากต้องการสร้างรายงานใบแจ้งหนี้ที่คงค้าง ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-108">To generate an outstanding invoices report, follow these steps.</span></span>
+
+1. <span data-ttu-id="fd480-109">ไปที่ **ต้นทุนแฝง \> รายงาน \> การติดตาม \> ใบแจ้งหนี้ที่คงค้าง**</span><span class="sxs-lookup"><span data-stu-id="fd480-109">Go to **Landed cost \> Reports \> Tracking \> Outstanding invoices**.</span></span>
+1. <span data-ttu-id="fd480-110">ในกล่องโต้ตอบ **ใบแจ้งหนี้ที่คงค้าง** ในฟิลด์ **ณ วันที่** ให้ระบุวันที่</span><span class="sxs-lookup"><span data-stu-id="fd480-110">In the **Outstanding invoices** dialog box, in the **As at date** field, specify a date.</span></span> <span data-ttu-id="fd480-111">ใบแจ้งหนี้ใด ๆ ที่คงค้างในวันที่หรือก่อนหน้านั้นจะถูกรวมไว้ในเอาพุต</span><span class="sxs-lookup"><span data-stu-id="fd480-111">Any invoice that was outstanding on or before that date will be included in the output.</span></span>
+1. <span data-ttu-id="fd480-112">ใต้ **แสดง** เลือกตัวเลือกต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="fd480-112">Under **Show**, select one of the following options:</span></span>
+
+    - <span data-ttu-id="fd480-113">**ต้นทุนที่ยังไม่ได้ออกใบแจ้งหนี้** – รวมต้นทุนของการจัดส่งที่ออกใบแจ้งหนี้แล้วที่มีค่าต้นทุนที่ประเมินไว้ แต่ไม่มีต้นทุนจริง</span><span class="sxs-lookup"><span data-stu-id="fd480-113">**Cost not invoiced** – Include costs for invoiced shipments that have an estimated cost value but no actual cost.</span></span>
+    - <span data-ttu-id="fd480-114">**สินค้าคงคลังที่ยังไม่ได้ออกใบแจ้งหนี้** – รวมต้นทุนที่ออกใบแจ้งหนี้แล้ว แต่ยังไม่ได้รับสินค้าตามใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="fd480-114">**Stock not invoiced** – Include costs that have been invoiced, but that the purchase order hasn't yet been received for.</span></span>
+    - <span data-ttu-id="fd480-115">**ทั้งหมดที่ยังไม่ออกใบแจ้งหนี้** – รวมผลลัพธ์ของทั้งตัวเลือก **ต้นทุนที่ยังไม่ได้ออกใบแจ้งหนี้** และตัวเลือก **สินค้าคงคลังที่ยังไม่ได้ออกใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="fd480-115">**All not invoiced** – Include the results of both the **Cost not invoiced** option and the **Stock not invoiced** option.</span></span>
+
+1. <span data-ttu-id="fd480-116">ตั้งค่าตัวเลือก **รวมต้นทุนใหม่** เป็น *ใช่* เพื่อรวมต้นทุนที่ยังไม่มีต้นทุนจริงและไม่ได้รับสินค้าคงคลัง</span><span class="sxs-lookup"><span data-stu-id="fd480-116">Set the **Include new costs** option to *Yes* to include costs that don't yet have an actual cost, and that inventory hasn't been received for.</span></span> <span data-ttu-id="fd480-117">ถ้าคุณตั้งค่าเป็น *ไม่* รายงานจะรวมเฉพาะต้นทุนที่ออกใบแจ้งหนี้แล้วเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="fd480-117">If you set it to *No*, the report will include only costs that have been invoiced.</span></span>
+1. <span data-ttu-id="fd480-118">ในส่วน **มุมมอง** ให้เปิดใช้งานรายละเอียดแต่ละชนิดที่คุณต้องการรวมไว้ในรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-118">In the **View** section, enable each type of detail that you want to include on the report.</span></span>
+1. <span data-ttu-id="fd480-119">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Microsoft Dynamics 365 Supply Chain Management ให้ใช้แท็บด่วน **ปลายทาง** เพื่อเลือกรูปแบบผลลัพธ์ของรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-119">As you do for other types of reports in Microsoft Dynamics 365 Supply Chain Management, use the **Destination** FastTab to select the output format of the report.</span></span>
+1. <span data-ttu-id="fd480-120">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **เรกคอร์ดเพื่อรวม** เพื่อจํากัดเรกคอร์ดที่จะรวมอยู่ในรายงานต่อไป</span><span class="sxs-lookup"><span data-stu-id="fd480-120">As you do for other types of reports in Supply Chain Management, use the **Records to include** FastTab to further limit the records that will be included on the report.</span></span>
+1. <span data-ttu-id="fd480-121">เลือก **ตกลง** เพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-121">Select **OK** to generate the report.</span></span>
+
+## <a name="activityprovider-analysis-reports"></a><span data-ttu-id="fd480-122">รายงานการวิเคราะห์กิจกรรม/ผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="fd480-122">Activity/provider analysis reports</span></span>
+
+<span data-ttu-id="fd480-123">รายงานการวิเคราะห์กิจกรรม/ผู้ให้บริการช่วยให้คุณทบทวนความถูกต้องของการประเมินเวลาของคุณต่อผู้ให้บริการแต่ละตัว</span><span class="sxs-lookup"><span data-stu-id="fd480-123">The activity/provider analysis reports let you review the accuracy of your time estimates for each provider.</span></span>
+
+<span data-ttu-id="fd480-124">หากต้องการสร้างรายงานการวิเคราะห์กิจกรรม/ผู้ให้บริการ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-124">To generate an activity/provider analysis report, follow these steps.</span></span>
+
+1. <span data-ttu-id="fd480-125">ขึ้นอยู่กับชนิดของรายงานที่คุณต้องการสร้าง ให้ปฏิบัติตามขั้นตอนใดขั้นตอนหนึ่งต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-125">Depending on the type of report that you want to create, follow one of these steps:</span></span>
+
+    - <span data-ttu-id="fd480-126">ไปที่ **ต้นทุนแฝง \> รายงาน \> การวิเคราะห์กิจกรรม/ผู้ให้บริการตามกิจกรรม**</span><span class="sxs-lookup"><span data-stu-id="fd480-126">Go to **Landed cost \> Reports \> Analysis of activity/provider by activity**.</span></span> <span data-ttu-id="fd480-127">ในกรณีนี้ การประเมินเวลาจะถูกจัดกลุ่มตามกิจกรรม</span><span class="sxs-lookup"><span data-stu-id="fd480-127">In this case, the time estimates will be grouped by activity.</span></span>
+    - <span data-ttu-id="fd480-128">ไปที่ **ต้นทุนแฝง \> รายงาน \> การวิเคราะห์กิจกรรม/ผู้ให้บริการตามผู้ให้บริการ**</span><span class="sxs-lookup"><span data-stu-id="fd480-128">Go to **Landed cost \> Reports \> Analysis of activity/provider by provider**.</span></span> <span data-ttu-id="fd480-129">ในกรณีนี้ การประเมินเวลาจะถูกจัดกลุ่มตามผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="fd480-129">In this case, the time estimates will be grouped by provider.</span></span>
+
+    <span data-ttu-id="fd480-130">กล่องโต้ตอบ **การวิเคราะห์กิจกรรม/ผู้ให้บริการตามกิจกรรม** หรือกล่องโต้ตอบ **การวิเคราะห์กิจกรรม/ผู้ให้บริการตามผู้ให้บริการ** จะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="fd480-130">Either the **Analysis of activity/provider by activity** dialog box or the **Analysis of activity/provider by provider** dialog box appears.</span></span> <span data-ttu-id="fd480-131">กล่องโต้ตอบทั้งสองจะให้ตัวเลือกเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="fd480-131">Both dialog boxes provide the same options.</span></span>
+
+1. <span data-ttu-id="fd480-132">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **ปลายทาง** เพื่อเลือกรูปแบบผลลัพธ์ของรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-132">As you do for other types of reports in Supply Chain Management, use the **Destination** FastTab to select the output format of the report.</span></span>
+1. <span data-ttu-id="fd480-133">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **เรกคอร์ดเพื่อรวม** เพื่อจํากัดเรกคอร์ดที่จะรวมอยู่ในรายงานต่อไป</span><span class="sxs-lookup"><span data-stu-id="fd480-133">As you do for other types of reports in Supply Chain Management, use the **Records to include** FastTab to further limit the records that will be included on the report.</span></span>
+1. <span data-ttu-id="fd480-134">เลือก **ตกลง** เพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-134">Select **OK** to generate the report.</span></span>
+
+## <a name="voyage-costing-reports"></a><span data-ttu-id="fd480-135">รายงานการคิดต้นทุนการเดินทาง</span><span class="sxs-lookup"><span data-stu-id="fd480-135">Voyage costing reports</span></span>
+
+<span data-ttu-id="fd480-136">รายงานการคิดต้นทุนการเดินทางจะแสดงต้นทุนของสินค้าและต้นทุนการนําเข้าต่อใบแจ้งรายการ คอนเทนเนอร์การจัดส่ง หรือการเดินทาง ทั้งนี้ขึ้นอยู่กับตัวเลือกที่คุณเลือกไว้เมื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-136">The voyage costing reports show the cost of the items and the import costs per folio, shipping container, or voyage, depending on the options that you select when you generate the report.</span></span> <span data-ttu-id="fd480-137">รายงานการคิดต้นทุนการเดินทางแต่ละรายงานช่วยให้คุณสามารถดูต้นทุนการเดินทางที่ประเมินไว้เทียบกับต้นทุนจริง และสามารถแบ่งย่อยด้วยตัวระบุหลายตัว</span><span class="sxs-lookup"><span data-stu-id="fd480-137">Each voyage costing report lets you view the estimated cost of a voyage versus the actual cost, and it can be broken down by the several identifying factors.</span></span>
+
+<span data-ttu-id="fd480-138">หากต้องการสร้างรายงานการคิดต้นทุนการเดินทาง ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-138">To generate a voyage costing report, follow these steps.</span></span>
+
+1. <span data-ttu-id="fd480-139">ขึ้นอยู่กับชนิดของรายงานที่คุณต้องการสร้าง ให้ปฏิบัติตามขั้นตอนใดขั้นตอนหนึ่งต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-139">Depending on the type of report that you want to create, follow one of these steps:</span></span>
+
+    - <span data-ttu-id="fd480-140">ไปที่ **ต้นทุนแฝง \> รายงาน \> การคิดต้นทุน \> การคิดต้นทุนการเดินทางตามต้นทุนแต่ละรายการ**</span><span class="sxs-lookup"><span data-stu-id="fd480-140">Go to **Landed cost \> Reports \> Costing \> Voyage costing by individual cost**.</span></span> <span data-ttu-id="fd480-141">ในกรณีนี้ ตัวเลือกต้นทุนแต่ละตัวจะแสดงต้นทุนการนําเข้าต่อพื้นที่ต้นทุนต่อรหัสชนิดต้นทุน</span><span class="sxs-lookup"><span data-stu-id="fd480-141">In this case, the individual cost option will show import costs per cost area per cost type code.</span></span>
+    - <span data-ttu-id="fd480-142">ไปที่ **ต้นทุนแฝง \> รายงาน \> การคิดต้นทุน \> การคิดต้นทุนการเดินทางตามประเภทการรายงาน**</span><span class="sxs-lookup"><span data-stu-id="fd480-142">Go to **Landed cost \> Reports \> Costing \> Voyage costing by reporting category**.</span></span> <span data-ttu-id="fd480-143">ในกรณีนี้ ต้นทุนการนําเข้าจะถูกแบ่งย่อยออกเป็นประเภทการรายงานต่างๆ</span><span class="sxs-lookup"><span data-stu-id="fd480-143">In this case, the import cost will be broken down into the various reporting categories.</span></span> <span data-ttu-id="fd480-144">ชนิดต้นทุนจะจัดกลุ่มตามประเภทการรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-144">Cost types are grouped by reporting categories.</span></span>
+
+    <span data-ttu-id="fd480-145">กล่องโต้ตอบ **การคิดต้นทุนการเดินทางตามต้นทุนแต่ละรายการ** หรือกล่องโต้ตอบ **การคิดต้นทุนการเดินทางตามประเภทการรายงาน** จะปรากฏขึ้น</span><span class="sxs-lookup"><span data-stu-id="fd480-145">Either the **Voyage costing by individual cost** dialog box or the **Voyage costing by reporting category** dialog box appears.</span></span> <span data-ttu-id="fd480-146">กล่องโต้ตอบเหล่านี้จะคล้ายกัน</span><span class="sxs-lookup"><span data-stu-id="fd480-146">These dialog boxes are similar.</span></span> <span data-ttu-id="fd480-147">ความแตกต่างใด ๆ จะไม่อยู่ในส่วนอื่นของกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-147">Any differences are noted in the rest of this procedure.</span></span>
+
+1. <span data-ttu-id="fd480-148">ถ้าคุณเปิดกล่องโต้ตอบ **การคิดต้นทุนการเดินทางตามประเภทการรายงาน** ในฟิลด์ **ต้นทุน** ให้เลือกค่าอย่างใดอย่างหนึ่งต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-148">If you opened the **Voyage costing by reporting category** dialog box, in the **Cost** field, select one of the following values:</span></span>
+
+    - <span data-ttu-id="fd480-149">**มูลค่าต้นทุน** – คํานวณค่าโดยใช้ต้นทุนอัตโนมัติหรือสร้างขึ้นด้วยตนเองในพื้นที่ต้นทุน</span><span class="sxs-lookup"><span data-stu-id="fd480-149">**Cost value** – The value is either calculated by using auto costs or manually created in the cost area.</span></span>
+    - <span data-ttu-id="fd480-150">**ประเมิน** – หลังจากที่ได้รับสินค้าแล้ว จะมีการตั้งค่าต้นทุนที่ประเมิน</span><span class="sxs-lookup"><span data-stu-id="fd480-150">**Estimated** – After the goods have been received, the estimated cost is set.</span></span>
+    - <span data-ttu-id="fd480-151">**ที่เกิดขึ้นจริง** – หลังจากที่ออกใบแจ้งหนี้ตามใบสั่งแล้ว ต้นทุนจริงจะถูกตั้งค่าเป็นต้นทุนในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-151">**Actual** – After the order has been invoiced, the actual cost is set to the cost on the invoice.</span></span>
+    - <span data-ttu-id="fd480-152">**ดีที่สุด** – ระบบจะใช้ตัวเลือกใดจากสามตัวเลือกก่อนหน้านี้ที่ถูกต้องที่สุด</span><span class="sxs-lookup"><span data-stu-id="fd480-152">**Best** – The system will use whichever of the previous three options is most accurate.</span></span> <span data-ttu-id="fd480-153">(เราขอแนะนำให้คุณเลือกตัวเลือกนี้)</span><span class="sxs-lookup"><span data-stu-id="fd480-153">(We recommend that you select this option.)</span></span>
+
+1. <span data-ttu-id="fd480-154">ตั้งค่าตัวเลือก **ต่อสินค้า** เป็น *ใช่* เพื่อแสดงต้นทุนของสินค้าแต่ละรายการ</span><span class="sxs-lookup"><span data-stu-id="fd480-154">Set the **Per item** option to *Yes* to show the cost of each item.</span></span> <span data-ttu-id="fd480-155">ตั้งค่าเป็น *ไม่* เพื่อแสดงต้นทุนต่อการเดินทาง</span><span class="sxs-lookup"><span data-stu-id="fd480-155">Set it to *No* to show costs per voyage.</span></span>
+1. <span data-ttu-id="fd480-156">ในส่วน **มุมมอง** ให้เลือกประเภทที่จะแบ่งต้นทุน</span><span class="sxs-lookup"><span data-stu-id="fd480-156">In the **View** section, select the categories to break down the cost by.</span></span>
+1. <span data-ttu-id="fd480-157">ในส่วน **มิติ** ให้เลือกมิติที่จะรวมไว้ในรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-157">In the **Dimensions** section, select the dimensions to include on the report.</span></span>
+1. <span data-ttu-id="fd480-158">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **ปลายทาง** เพื่อเลือกรูปแบบผลลัพธ์ของรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-158">As you do for other types of reports in Supply Chain Management, use the **Destination** FastTab to select the output format of the report.</span></span>
+1. <span data-ttu-id="fd480-159">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **เรกคอร์ดเพื่อรวม** เพื่อจํากัดเรกคอร์ดที่จะรวมอยู่ในรายงานต่อไป</span><span class="sxs-lookup"><span data-stu-id="fd480-159">As you do for other types of reports in Supply Chain Management, use the **Records to include** FastTab to further limit the records that will be included on the report.</span></span>
+1. <span data-ttu-id="fd480-160">เลือก **ตกลง** เพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-160">Select **OK** to generate the report.</span></span>
+
+## <a name="shipping-container-receipts-list"></a><span data-ttu-id="fd480-161">รายการรับคอนเทนเนอร์การจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="fd480-161">Shipping container receipts list</span></span>
+
+<span data-ttu-id="fd480-162">รายการใบรับสินค้าของคอนเทนเนอร์การจัดส่งมีปริมาณที่ยังไม่ได้รับทั้งหมดที่ครบกําหนดในวันที่หรือก่อนหน้าวันที่ที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="fd480-162">The shipping container receipts list contains all unreceived quantities that are due on or before an expected date.</span></span> <span data-ttu-id="fd480-163">พนักงานคลังสินค้าสามารถใช้รายงานนี้เพื่อระบุสินค้าที่คาดไว้บนคอนเทนเนอร์</span><span class="sxs-lookup"><span data-stu-id="fd480-163">Warehouse staff can use this report to identify the expected goods on a shipping container.</span></span> <span data-ttu-id="fd480-164">นอกจากนี้ คุณยังสามารถใช้เพื่อตรวจสอบความถูกต้องของสินค้าด้วยตนเองเมื่อได้รับสินค้าในคอนเทนเนอร์</span><span class="sxs-lookup"><span data-stu-id="fd480-164">It can also be used to manually validate goods as they are received on a shipping container.</span></span>
+
+<span data-ttu-id="fd480-165">เมื่อต้องการสร้างรายการใบรับสินค้าของคอนเทนเนอร์ ให้ปฏิบัติตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="fd480-165">To generate a shipping container receipts list, follow these steps.</span></span>
+
+1. <span data-ttu-id="fd480-166">ไปที่ **ต้นทุนแฝง \> รายงาน \> การติดตาม \> รายการรับสินค้าของคอนเทนเนอร์การจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="fd480-166">Go to **Landed cost \> Reports \> Tracking \> Shipping container receipts list**.</span></span>
+1. <span data-ttu-id="fd480-167">ในกล่องโต้ตอบ **รายการการรับสินค้าของคอนเทนเนอร์การจัดส่ง** ในฟิลด์ **วันที่ที่คาดไว้** ให้ระบุวันที่</span><span class="sxs-lookup"><span data-stu-id="fd480-167">In the **Shipping container receipts list** dialog box, in the **Expected date** field, specify a date.</span></span> <span data-ttu-id="fd480-168">ปริมาณใด ๆ ที่ยังไม่ได้รับในวันที่หรือก่อนหน้านั้นจะถูกรวมไว้ในเอาพุต</span><span class="sxs-lookup"><span data-stu-id="fd480-168">Any quantities that were unreceived on or before that date will be included in the output.</span></span>
+1. <span data-ttu-id="fd480-169">ในส่วน **มิติ** ให้เลือกมิติที่จะรวมไว้ในรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-169">In the **Dimensions** section, select the dimensions to include on the report.</span></span>
+1. <span data-ttu-id="fd480-170">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **ปลายทาง** เพื่อเลือกรูปแบบผลลัพธ์ของรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-170">As you do for other types of reports in Supply Chain Management, use the **Destination** FastTab to select the output format of the report.</span></span>
+1. <span data-ttu-id="fd480-171">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **เรกคอร์ดเพื่อรวม** เพื่อจํากัดเรกคอร์ดที่จะรวมอยู่ในรายงานต่อไป</span><span class="sxs-lookup"><span data-stu-id="fd480-171">As you do for other types of reports in Supply Chain Management, use the **Records to include** FastTab to further limit the records that will be included on the report.</span></span>
+1. <span data-ttu-id="fd480-172">เลือก **ตกลง** เพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-172">Select **OK** to generate the report.</span></span>
+
+## <a name="expected-delivery-report"></a><span data-ttu-id="fd480-173">รายงานการจัดส่งที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="fd480-173">Expected delivery report</span></span>
+
+<span data-ttu-id="fd480-174">รายงานการจัดส่งที่คาดไว้จะมีข้อมูลพื้นฐานเกี่ยวกับการเดินทาง คอนเทนเนอร์ ใบแจ้งรายการ และวันที่จัดส่งที่คาดไว้</span><span class="sxs-lookup"><span data-stu-id="fd480-174">The expected delivery report contains basic information about the voyage, shipping container, folio, items, and expected date of delivery.</span></span>
+
+<span data-ttu-id="fd480-175">หากต้องการสร้างรายงานการจัดส่งที่คาดไว้ ให้ดำเนินการตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="fd480-175">To generate an expected delivery report, follow these steps.</span></span>
+
+1. <span data-ttu-id="fd480-176">ไปที่ **ต้นทุนแฝง \> รายงาน \> การติดตาม \> การจัดส่งที่คาดไว้**</span><span class="sxs-lookup"><span data-stu-id="fd480-176">Go to **Landed cost \> Reports \> Tracking \> Expected Delivery**.</span></span>
+1. <span data-ttu-id="fd480-177">ในกล่องโต้ตอบ **การจัดส่งที่คาดไว้** ในฟิลด์ **วันที่ที่คาดไว้** ให้เลือกวันที่คาดว่าจะจัดส่งสินค้าไปยังคลังสินค้าปลายทางขั้นสุดท้าย</span><span class="sxs-lookup"><span data-stu-id="fd480-177">In the **Expected delivery** dialog box, in the **Expected date** field, select the date when delivery of the goods to the final destination warehouse is expected.</span></span> <span data-ttu-id="fd480-178">รายการการเดินทางใด ๆ ที่มีวันที่ที่คาดไว้ในวันที่หรือก่อนหน้าวันที่นั้นและยังไม่ได้รับจะรวมอยู่ในเอาท์พุท</span><span class="sxs-lookup"><span data-stu-id="fd480-178">Any voyage line that has an expected date on or before that date, and that hasn't yet been received, will be included in the output.</span></span>
+1. <span data-ttu-id="fd480-179">ไม่จำเป็น: ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้เลือกบัญชีผู้จัดจำหน่ายที่จะรวมเฉพาะการจัดส่งสินค้าจากผู้จัดจำหน่ายเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="fd480-179">Optional: In the **Vendor account** field, select a vendor account to include only deliveries from a specific vendor.</span></span>
+1. <span data-ttu-id="fd480-180">ในส่วน **มิติ** ให้เลือกมิติที่จะรวมไว้ในรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-180">In the **Dimensions** section, select the dimensions to include on the report.</span></span>
+1. <span data-ttu-id="fd480-181">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **ปลายทาง** เพื่อเลือกรูปแบบผลลัพธ์ของรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-181">As you do for other types of reports in Supply Chain Management, use the **Destination** FastTab to select the output format of the report.</span></span>
+1. <span data-ttu-id="fd480-182">เช่นเดียวกับที่คุณรายงานชนิดอื่น ๆ ใน Supply Chain Management ให้ใช้แท็บด่วน **เรกคอร์ดเพื่อรวม** เพื่อจํากัดเรกคอร์ดที่จะรวมอยู่ในรายงานต่อไป</span><span class="sxs-lookup"><span data-stu-id="fd480-182">As you do for other types of reports in Supply Chain Management, use the **Records to include** FastTab to further limit the records that will be included on the report.</span></span>
+1. <span data-ttu-id="fd480-183">เลือก **ตกลง** เพื่อสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="fd480-183">Select **OK** to generate the report.</span></span>

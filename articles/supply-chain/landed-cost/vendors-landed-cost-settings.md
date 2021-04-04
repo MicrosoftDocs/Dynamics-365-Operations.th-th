@@ -1,0 +1,44 @@
+---
+title: การตั้งค่าผู้จัดจำหน่ายที่เพิ่มให้กับต้นทุนแฝง
+description: หัวข้อนี้จะอธิบายถึงฟิลด์ใหม่ที่จะเพิ่มเข้าในหน้าผู้จัดจำหน่ายที่มีอยู่ เมื่อคุณเปิดใช้งานโมดูลต้นทุนแฝง คุณใช้ฟิลด์เหล่านี้เพื่อตั้งค่าผู้จัดจำหน่ายที่คุณจะใช้ร่วมกับคุณลักษณะของต้นทุนแฝง
+author: sherry-zheng
+manager: tfehr
+ms.date: 12/07/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendTable
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2020-12-07
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500921"
+---
+# <a name="vendor-settings-added-for-landed-cost"></a><span data-ttu-id="45b5a-104">การตั้งค่าผู้จัดจำหน่ายที่เพิ่มให้กับต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="45b5a-104">Vendor settings added for Landed cost</span></span>
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="45b5a-105">เมื่อคุณเปิดใช้งานโมดูล **ต้นทุนแฝง** ฟิลด์ใหม่จะเพิ่มเข้าในหน้า **ผู้จัดจำหน่าย** ที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="45b5a-105">When you enable the **Landed cost** module, several new fields are added to the existing **Vendors** page.</span></span> <span data-ttu-id="45b5a-106">คุณใช้ฟิลด์เหล่านี้เพื่อตั้งค่าผู้จัดจำหน่ายที่คุณจะใช้ร่วมกับคุณลักษณะของต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="45b5a-106">You use these fields to set up the vendors that you will use together with Landed cost features.</span></span>
+
+<span data-ttu-id="45b5a-107">เมื่อต้องการตั้งค่าฟิลด์ที่เกี่ยวข้อง ให้ไปที่ **การจัดซื้อและการจัดหา \> ผู้จัดจำหน่าย \> ผู้จัดจำหน่ายทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="45b5a-107">To set the relevant fields, go to **Procurement and sourcing \> Vendors \> All vendors**.</span></span> <span data-ttu-id="45b5a-108">เปิดผู้จัดจำหน่ายที่มีอยู่ หรือสร้างผู้จัดจำหน่ายใหม่ แล้วเลือกแท็บด่วน **รายละเอียดเบ็ดเตล็ด**</span><span class="sxs-lookup"><span data-stu-id="45b5a-108">Open an existing vendor, or create a new vendor, and then select the **Miscellaneous details** FastTab.</span></span> <span data-ttu-id="45b5a-109">ฟิลด์ใหม่ทั้งหมดที่โมดูล **ต้นทุนแฝง** เพิ่มจะปรากฏขึ้นภายใต้หัวข้อ **การเดินทาง**</span><span class="sxs-lookup"><span data-stu-id="45b5a-109">All the new fields that the **Landed cost** module adds appear under the **Voyages** heading.</span></span> <span data-ttu-id="45b5a-110">ตารางต่อไปนี้อธิบายฟิลด์เหล่านี้</span><span class="sxs-lookup"><span data-stu-id="45b5a-110">The following table describes these fields.</span></span>
+
+| <span data-ttu-id="45b5a-111">ฟิลด์</span><span class="sxs-lookup"><span data-stu-id="45b5a-111">Field</span></span> | <span data-ttu-id="45b5a-112">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="45b5a-112">Description</span></span> |
+|---|---|
+| <span data-ttu-id="45b5a-113">ชนิดการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="45b5a-113">Shipping type</span></span> | <p><span data-ttu-id="45b5a-114">เลือกบทบาทของผู้จัดจำหน่ายที่เกี่ยวข้องกับต้นทุนแฝง:</span><span class="sxs-lookup"><span data-stu-id="45b5a-114">Select the vendor's role in relation to Landed cost:</span></span></p><ul><li><span data-ttu-id="45b5a-115">**ไม่มี** – ผู้จัดจำหน่ายไม่มีบทบาทเฉพาะที่เกี่ยวข้องกับต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="45b5a-115">**None** – The vendor has no specific role that is related to Landed cost.</span></span> <span data-ttu-id="45b5a-116">ค่านี้เป็นการตั้งค่าเริ่มต้น เนื่องจากผู้จัดจำหน่ายส่วนใหญ่จะไม่มีบทบาทเฉพาะ</span><span class="sxs-lookup"><span data-stu-id="45b5a-116">This value is the default setting, because most vendors will probably have no specific role.</span></span></li><li><span data-ttu-id="45b5a-117">**บริษัทผู้จัดส่ง** – ผู้จัดจำหน่ายเป็นบริษัทขนส่ง</span><span class="sxs-lookup"><span data-stu-id="45b5a-117">**Shipping company** – The vendor is a shipping company.</span></span> <span data-ttu-id="45b5a-118">ผู้จัดจำหน่ายที่มีชนิดการจัดส่งนี้พร้อมใช้งานเฉพาะเมื่อเลือกในฟิลด์ **บริษัทการจัดส่ง** ในหน้า **การเดินทาง**</span><span class="sxs-lookup"><span data-stu-id="45b5a-118">Vendors that have this shipping type are available for selection in the **Shipping company** field on the **Voyages** page.</span></span></li><li><span data-ttu-id="45b5a-119">**นายหน้าศุลกากร** – ผู้จัดจำหน่ายเป็นนายหน้าศุลกากร</span><span class="sxs-lookup"><span data-stu-id="45b5a-119">**Customs broker** – The vendor is a customs broker.</span></span> <span data-ttu-id="45b5a-120">ผู้จัดจำหน่ายที่มีชนิดการจัดส่งนี้พร้อมใช้งานเฉพาะเมื่อเลือกในฟิลด์ **นายหน้าศุลกากร** ในหน้า **ใบแจ้งรายการ**</span><span class="sxs-lookup"><span data-stu-id="45b5a-120">Vendors that have this shipping type are available for selection in the **Customs broker** field on the **Folios** page.</span></span></li><li><span data-ttu-id="45b5a-121">**ตัวแทน** – ผู้จัดจำหน่ายเป็นตัวแทน</span><span class="sxs-lookup"><span data-stu-id="45b5a-121">**Agent** – The vendor is an agent.</span></span> <span data-ttu-id="45b5a-122">ผู้จัดจำหน่ายที่มีชนิดการจัดส่งนี้พร้อมใช้งานเฉพาะเมื่อเลือกในฟิลด์ **ตัวแทน** ในหน้า **ผู้จัดจำหน่าย** และ **ใบสั่งซื้อ**</span><span class="sxs-lookup"><span data-stu-id="45b5a-122">Vendors that have this shipping type are available for selection in the **Agent** field on the **Vendors** and **Purchase orders** pages.</span></span></li></ul> |
+| <span data-ttu-id="45b5a-123">กลุ่มชนิดต้นทุน</span><span class="sxs-lookup"><span data-stu-id="45b5a-123">Cost type group</span></span> | <span data-ttu-id="45b5a-124">กําหนดผู้จัดจำหน่ายให้กับกลุ่มชนิดต้นทุน เพื่อวัตถุประสงค์ในการเลือก [ต้นทุนอัตโนมัติ](auto-cost-setup.md)</span><span class="sxs-lookup"><span data-stu-id="45b5a-124">Assign the vendor to a cost type group for the purpose of selecting [auto costs](auto-cost-setup.md).</span></span> |
+| <span data-ttu-id="45b5a-125">จากท่าเรือ</span><span class="sxs-lookup"><span data-stu-id="45b5a-125">From port</span></span> | <span data-ttu-id="45b5a-126">เลือกท่าเรือผู้ผลิตสำหรับการเดินทาง</span><span class="sxs-lookup"><span data-stu-id="45b5a-126">Select the port of origin for the voyage.</span></span> |
+| <span data-ttu-id="45b5a-127">ตัวแทน</span><span class="sxs-lookup"><span data-stu-id="45b5a-127">Agent</span></span> | <span data-ttu-id="45b5a-128">ตัวแทนเริ่มต้นเมื่อจัดซื้อจากผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="45b5a-128">The default agent when purchases are made from the vendor.</span></span> |
+| <span data-ttu-id="45b5a-129">นำเข้าผู้จัดจำหน่ายการคิดต้นทุน</span><span class="sxs-lookup"><span data-stu-id="45b5a-129">Import costing vendor</span></span> | <p><span data-ttu-id="45b5a-130">บ่งชี้ว่าผู้จัดจำหน่ายเป็นผู้จัดจำหน่ายต้นทุนแฝงหรือไม่</span><span class="sxs-lookup"><span data-stu-id="45b5a-130">Indicate whether the vendor is a Landed cost vendor.</span></span></p><p><span data-ttu-id="45b5a-131">**คำแนะนำ:** คุณสามารถใช้ฟิลด์นี้ร่วมกับความปลอดภัยระดับเรกคอร์ดเพื่อจํากัดใบสั่งซื้อที่แสดงเมื่อสร้างการเดินทาง</span><span class="sxs-lookup"><span data-stu-id="45b5a-131">**Tip:** You can use this field together with record-level security to limit the purchase orders that are shown when a voyage is created.</span></span></p> |
+| <span data-ttu-id="45b5a-132">บริษัทจัดส่งสินค้า</span><span class="sxs-lookup"><span data-stu-id="45b5a-132">Shipping company</span></span> | <span data-ttu-id="45b5a-133">เลือกบริษัทที่จัดส่งเริ่มต้นที่จะใช้เมื่อสร้างใบสั่งซื้อส้รับให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="45b5a-133">Select the default shipping company that is used when purchase orders are created for the vendor.</span></span> |
+| <span data-ttu-id="45b5a-134">ผู้ให้บริการ</span><span class="sxs-lookup"><span data-stu-id="45b5a-134">Services provider</span></span> | <span data-ttu-id="45b5a-135">บ่งชี้ว่าผู้จัดจำหน่ายเป็นผู้ให้บริการหรือไม่</span><span class="sxs-lookup"><span data-stu-id="45b5a-135">Indicate whether the vendor is services provider.</span></span> |
+| <span data-ttu-id="45b5a-136">กลุ่มการยอมรับมาก/น้อยเกินไป</span><span class="sxs-lookup"><span data-stu-id="45b5a-136">Over/Under tolerance group</span></span> | <span data-ttu-id="45b5a-137">เลือกกลุ่มการยอมรับมากเกิน/ต่ำกว่าค่าเริ่มต้นสำหรับผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="45b5a-137">Select the default over/under tolerance group for the vendor.</span></span> |

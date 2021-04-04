@@ -16,29 +16,31 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 963e12e9114664a995b92ffe22063c14f904da35
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125772"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467636"
 ---
-# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="344cf-103">ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="344cf-103">Example query for Candidate to hire</span></span>
+# <a name="example-query-for-candidate-to-hire"></a><span data-ttu-id="09af2-103">ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน</span><span class="sxs-lookup"><span data-stu-id="09af2-103">Example query for Candidate to hire</span></span>
 
-<span data-ttu-id="344cf-104">หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="344cf-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="344cf-105">หัวข้อนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว</span><span class="sxs-lookup"><span data-stu-id="344cf-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="344cf-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)</span><span class="sxs-lookup"><span data-stu-id="344cf-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
+<span data-ttu-id="09af2-104">หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="09af2-104">This topic provides an example query for the Candidate to hire entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="344cf-107">เอนทิตี **mshr_hcmcandidatetohireentity** ที่ไม่ซ้ำกันเนื่องจากความสัมพันธ์กับเอนทิตี้ **mshr_dirpersonentity**</span><span class="sxs-lookup"><span data-stu-id="344cf-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="344cf-108">คุณสมบัติหลายอย่างบน **mshr_hcmcandidatetohireentity** (ตัวอย่างเช่น **mshr_firstname** **mshr_lastname** และ **mshr_birthdate**) ได้รับมาจากบันทึก **mshr_dirpersonentity**</span><span class="sxs-lookup"><span data-stu-id="344cf-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="344cf-109">ถ้าคุณลงรายการบัญชีบันทึกผู้สมัครใหม่ไปยัง **mshr_hcmcandidatetohireentity** โดยไม่ใช้การแทรกแบบลึก คุณสามารถกําหนดค่าสำหรับคุณสมบัติเหล่านี้โดยตรงบนบันทึก **mshr_hcmcandidatetohireentity**</span><span class="sxs-lookup"><span data-stu-id="344cf-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="344cf-110">บันทึก **mshr_dirpersonentity** ที่เกี่ยวข้องจะถูกสร้างขึ้นอย่างชัดเจนกับค่าที่กําหนดไว้สำหรับคุณสมบัติ</span><span class="sxs-lookup"><span data-stu-id="344cf-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="344cf-111">จากนั้นคุณสามารถสร้างบันทึกเอนทิตี้ที่เกี่ยวข้องอื่นๆ (เช่น ทักษะหรือการศึกษา) เป็นการเรียก API ที่แยกต่างหากได้</span><span class="sxs-lookup"><span data-stu-id="344cf-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
+<span data-ttu-id="09af2-105">หัวข้อนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว</span><span class="sxs-lookup"><span data-stu-id="09af2-105">This topic provides an example demonstrating how you can use *deep inserts* to create all the detail of a new candidate record in a single API operation.</span></span> <span data-ttu-id="09af2-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)</span><span class="sxs-lookup"><span data-stu-id="09af2-106">For more information about deep inserts, see [Create related entity records in one operation](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).</span></span>
 
-<span data-ttu-id="344cf-112">อย่างไรก็ตาม ถ้าคุณต้องการใช้การแทรกแบบลึกเพื่อสร้างเอนทิตี้ที่เกี่ยวข้องทั้งหมดในการดําเนินงานเดียว คุณสมบัติเฉพาะของเอนทิตี้ **mshr_dirpersonentity** ต้องถูกกำหนดในระดับที่ซ้อนกันของการดําเนินงาน</span><span class="sxs-lookup"><span data-stu-id="344cf-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
+<span data-ttu-id="09af2-107">เอนทิตี **mshr_hcmcandidatetohireentity** ที่ไม่ซ้ำกันเนื่องจากความสัมพันธ์กับเอนทิตี้ **mshr_dirpersonentity**</span><span class="sxs-lookup"><span data-stu-id="09af2-107">The **mshr_hcmcandidatetohireentity** entity is unique because of its relationship to the **mshr_dirpersonentity** entity.</span></span> <span data-ttu-id="09af2-108">คุณสมบัติหลายอย่างบน **mshr_hcmcandidatetohireentity** (ตัวอย่างเช่น **mshr_firstname** **mshr_lastname** และ **mshr_birthdate**) ได้รับมาจากบันทึก **mshr_dirpersonentity**</span><span class="sxs-lookup"><span data-stu-id="09af2-108">Many of the properties on the **mshr_hcmcandidatetohireentity** (for example, **mshr_firstname**, **mshr_lastname**, and **mshr_birthdate**) are derived from the **mshr_dirpersonentity** record.</span></span> <span data-ttu-id="09af2-109">ถ้าคุณลงรายการบัญชีบันทึกผู้สมัครใหม่ไปยัง **mshr_hcmcandidatetohireentity** โดยไม่ใช้การแทรกแบบลึก คุณสามารถกําหนดค่าสำหรับคุณสมบัติเหล่านี้โดยตรงบนบันทึก **mshr_hcmcandidatetohireentity**</span><span class="sxs-lookup"><span data-stu-id="09af2-109">If you post a new candidate record to **mshr_hcmcandidatetohireentity** without using deep inserts, you can define values for these properties directly on the **mshr_hcmcandidatetohireentity** record.</span></span> <span data-ttu-id="09af2-110">บันทึก **mshr_dirpersonentity** ที่เกี่ยวข้องจะถูกสร้างขึ้นอย่างชัดเจนกับค่าที่กําหนดไว้สำหรับคุณสมบัติ</span><span class="sxs-lookup"><span data-stu-id="09af2-110">The associated **mshr_dirpersonentity** record is created implicitly with the defined values for the properties.</span></span> <span data-ttu-id="09af2-111">จากนั้นคุณสามารถสร้างบันทึกเอนทิตี้ที่เกี่ยวข้องอื่นๆ (เช่น ทักษะหรือการศึกษา) เป็นการเรียก API ที่แยกต่างหากได้</span><span class="sxs-lookup"><span data-stu-id="09af2-111">You can then create any other related entity records (such as skills or education) as separate API calls.</span></span>
 
-<span data-ttu-id="344cf-113">ตัวอย่างนี้แสดงวิธีการสร้างบันทึกผู้สมัคร บันทึกบุคคลที่เกี่ยวข้อง และทักษะและการศึกษาของบุคคลในระดับที่ซ้อนกันสามระดับ โดยใช้การแทรกแบบลึกในการดําเนินงาน API เดียว</span><span class="sxs-lookup"><span data-stu-id="344cf-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
+<span data-ttu-id="09af2-112">อย่างไรก็ตาม ถ้าคุณต้องการใช้การแทรกแบบลึกเพื่อสร้างเอนทิตี้ที่เกี่ยวข้องทั้งหมดในการดําเนินงานเดียว คุณสมบัติเฉพาะของเอนทิตี้ **mshr_dirpersonentity** ต้องถูกกำหนดในระดับที่ซ้อนกันของการดําเนินงาน</span><span class="sxs-lookup"><span data-stu-id="09af2-112">If, however, you want to use deep inserts to create all related entities in one operation, the properties specific to the **mshr_dirpersonentity** entity must be defined on that nested level of the operation.</span></span>
+
+<span data-ttu-id="09af2-113">ตัวอย่างนี้แสดงวิธีการสร้างบันทึกผู้สมัคร บันทึกบุคคลที่เกี่ยวข้อง และทักษะและการศึกษาของบุคคลในระดับที่ซ้อนกันสามระดับ โดยใช้การแทรกแบบลึกในการดําเนินงาน API เดียว</span><span class="sxs-lookup"><span data-stu-id="09af2-113">This example shows how you can create a candidate record, the associated person record, and the person's skills and education in three nested levels using deep inserts in a single API operation.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="344cf-114">ตัวอย่างจะไม่รวมคุณสมบัติทั้งหมดของแต่ละเอนทิตี้ API</span><span class="sxs-lookup"><span data-stu-id="344cf-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="344cf-115">จะง่ายขึ้นสำหรับใช้เพื่อวัตถุประสงค์ในการสาธิต</span><span class="sxs-lookup"><span data-stu-id="344cf-115">It is simplified for demonstration purposes.</span></span>
+> <span data-ttu-id="09af2-114">ตัวอย่างจะไม่รวมคุณสมบัติทั้งหมดของแต่ละเอนทิตี้ API</span><span class="sxs-lookup"><span data-stu-id="09af2-114">The example does not include all properties of each of the API entities.</span></span> <span data-ttu-id="09af2-115">จะง่ายขึ้นสำหรับใช้เพื่อวัตถุประสงค์ในการสาธิต</span><span class="sxs-lookup"><span data-stu-id="09af2-115">It is simplified for demonstration purposes.</span></span>
 
-<span data-ttu-id="344cf-116">**คำขอ**</span><span class="sxs-lookup"><span data-stu-id="344cf-116">**Request**</span></span>
+<span data-ttu-id="09af2-116">**คำขอ**</span><span class="sxs-lookup"><span data-stu-id="09af2-116">**Request**</span></span>
 
 ```http
 
@@ -100,7 +102,7 @@ Accept: application/json
 }
 ```
 
-<span data-ttu-id="344cf-117">**การตอบสนอง**</span><span class="sxs-lookup"><span data-stu-id="344cf-117">**Response**</span></span>
+<span data-ttu-id="09af2-117">**การตอบสนอง**</span><span class="sxs-lookup"><span data-stu-id="09af2-117">**Response**</span></span>
 
 ```http
 
@@ -110,6 +112,9 @@ OData-EntityId: [Organization URI]/api/data/v9.1/mshr_hcmcandidatetohireentities
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="344cf-118">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="344cf-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09af2-118">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="09af2-118">See also</span></span>
 
-[<span data-ttu-id="344cf-119">บทนํา API การรวมระบบการติดตามผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="344cf-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="09af2-119">บทนํา API การรวมระบบการติดตามผู้สมัคร</span><span class="sxs-lookup"><span data-stu-id="09af2-119">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
