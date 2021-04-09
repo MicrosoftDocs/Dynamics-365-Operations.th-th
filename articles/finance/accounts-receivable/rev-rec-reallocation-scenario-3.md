@@ -2,11 +2,9 @@
 title: การปันส่วนใหม่ของการรับรู้รายได้ - สถานการณ์ที่ 3
 description: หัวข้อนี้จะกล่าวถึงสถานการณ์การปันส่วนใหม่ที่มีการเพิ่มรายการใหม่ลงในใบสั่งขายที่ออกใบแจ้งหนี้แล้วที่มีอยู่ เมื่อเพิ่มสินค้าใหม่ลงในสัญญา คุณสามารถเพิ่มสินค้ารายการนั้นลงใบสั่งขายใหม่หรือใบสั่งขายที่มีอยู่ได้
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ca61a64199d9a61d0ddaa95c49e847e4be35c07b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2105973470877f59fd9c4e8d1b1bfc1875a394b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833148"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>การปันส่วนใหม่ของการรับรู้รายได้ – สถานการณ์ที่ 3
 

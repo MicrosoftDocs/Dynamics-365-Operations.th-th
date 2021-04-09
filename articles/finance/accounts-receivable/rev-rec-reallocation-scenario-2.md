@@ -2,11 +2,9 @@
 title: การปันส่วนใหม่ของการรับรู้รายได้ - สถานการณ์ที่ 2
 description: หัวข้อนี้จะกล่าวถึงสถานการณ์การปันส่วนใหม่ที่มีการป้อนใบสั่งขายสองใบ และลูกค้าเพิ่มสินค้าลงในสัญญาหลังจากออกใบแจ้งหนี้ของใบสั่งขายแล้ว เมื่อเพิ่มสินค้าใหม่ลงในสัญญา คุณสามารถเพิ่มสินค้ารายการนั้นลงใบสั่งขายใหม่หรือใบสั่งขายที่มีอยู่ได้
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aed5e30f09b69ffa70025b8339b0f1782afe587a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 31a0b26fbf2383c90caaa8c1ea0e56ab5f377609
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238363"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814211"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>การปันส่วนใหม่ของการรับรู้รายได้ – สถานการณ์ที่ 2
 

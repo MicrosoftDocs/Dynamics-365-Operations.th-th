@@ -2,11 +2,9 @@
 title: โฮมเพจ Finance
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218894"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813494"
 ---
 # <a name="finance-home-page"></a>โฮมเพจ Finance
 
@@ -71,8 +69,10 @@ ms.locfileid: "5218894"
 
 ### <a name="additional-content"></a>เนื้อหาเพิ่มเติม
 
-ฟังก์ชันการบริหารห่วงโซ่อุปทานครอบคลุมถึงส่วนของกระบวนการการสั่งซื้อจนถึงการได้รับเงินสดที่ประกอบด้วยการขอซื้อ การสั่งซื้อ การรับสินค้า การออกใบแจ้งหนี้ และการชำระเงินสำหรับสินค้าและบริการที่องค์กรของคุณซื้อ โปรดดูที่ [โฮมเพจการบริหารห่วงโซ่อุปทาน](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) สำหรับข้อมูลเกี่ยวกับความสามารถในการจัดการกับการซื้อ สินค้าคงคลัง และการผลิต 
+ฟังก์ชันการบริหารห่วงโซ่อุปทานครอบคลุมถึงส่วนของกระบวนการการสั่งซื้อจนถึงการได้รับเงินสดที่ประกอบด้วยการขอซื้อ การสั่งซื้อ การรับสินค้า การออกใบแจ้งหนี้ และการชำระเงินสำหรับสินค้าและบริการที่องค์กรของคุณซื้อ โปรดดูที่ [โฮมเพจ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) สำหรับข้อมูลเกี่ยวกับความสามารถในการจัดการกับการซื้อ สินค้าคงคลัง และการผลิต
 
+## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Finance ใน Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

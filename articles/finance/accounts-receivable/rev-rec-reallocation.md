@@ -2,11 +2,9 @@
 title: การปันส่วนใหม่ของการรับรู้รายได้
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการปันส่วนใหม่ ซึ่งช่วยให้องค์กรสามารถคํานวณราคาสำหรับรายได้ใหม่เมื่อมีการเปลี่ยนแปลงเงื่อนไขการขายตามสัญญา โดยจะมีลิงก์ไปยังหัวข้ออื่นๆ ที่อธิบายวิธีการรับรู้รายได้ในหลายสถานการณ์
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 45fa888508e3d9c6be1e26ebcf2896ca0b538caf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238291"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820580"
 ---
 # <a name="revenue-recognition-reallocation"></a>การปันส่วนใหม่ของการรับรู้รายได้
 

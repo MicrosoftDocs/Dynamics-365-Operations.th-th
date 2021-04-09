@@ -2,7 +2,6 @@
 title: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 description: เอกสารประกอบของแอป Finance and Operations
 author: robinarh
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9421cbe9eeb44fcd0d0f0c688e84ae2043610ac
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562392"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751837"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
@@ -50,7 +49,7 @@ ms.locfileid: "5562392"
 <p><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></p>
 
 <h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">การอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></h3>
-<p><a href="get-started/one-version.md">FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></p>
+<p><a href="get-started/one-version.md">คำถามที่ถามบ่อยเกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ในสถานที่</a></p>
 <p><a href="get-started/public-preview-releases.md">การอัปเดตบริการรีลีสครั้งแรกและมาตรฐาน</a></p>

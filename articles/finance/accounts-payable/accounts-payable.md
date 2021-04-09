@@ -2,11 +2,9 @@
 title: โฮมเพจบัญชีเจ้าหนี้
 description: หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250709"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820870"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
@@ -64,7 +62,7 @@ ms.locfileid: "5250709"
 
 [บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้](default-offset-accounts-vendor-invoice-journals.md)
 
-[การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่](mobile-invoice-approvals.md)
+[การอนุมัติใบแจ้งหนี้บนอุปกรณ์เคลื่อนที่](mobile-invoice-approvals.md)
 
 [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](vendor-portal-invoicing-workspace.md)
 
