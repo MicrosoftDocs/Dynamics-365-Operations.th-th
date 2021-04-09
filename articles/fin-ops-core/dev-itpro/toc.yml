@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform update สำหรับ 10.0.16 (กุมภาพันธ์ 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform update สำหรับ 10.0.15 (มกราคม 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
@@ -74,7 +72,7 @@
           items:
             - name: โฮมเพจการจัดส่งแบบต่อเนื่อง
               href: dev-tools/continuous-delivery-home-page.md
-            - name: FAQ เกี่ยวกับการพัฒนาและการจัดส่งแบบต่อเนื่อง
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการพัฒนาและการจัดส่งแบบต่อเนื่อง
               href: dev-tools/continuous-delivery-faq.md
             - name: ไม่รวมแพคเกจทดสอบจากเอาท์พุทบิลด์
               href: dev-tools/exclude-test-packages.md
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: สมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                              href: data-entities/dual-write/party-gab.md
+                            - name: การใช้ Power Portal กับรูปแบบข้อมูลของฝ่าย
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: การรวมบันทึกย่อ
                               href: data-entities/dual-write/notes-integration.md
                             - name: การอ้างอิงการแม็ป
@@ -482,7 +484,7 @@
                       href: deployment/infrastructure-stack.md
                     - name: ปรับใช้สภาพแวดล้อมใหม่
                       href: deployment/deployenvironment-newinfrastructure.md
-                    - name: FAQ เกี่ยวกับการปรับใช้
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการปรับใช้
                       href: deployment/deploymentFAQ.md
                     - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
                       href: deployment/known-issues-new-deployment-experience.md
@@ -526,13 +528,15 @@
                   items:
                     - name: ตั้งค่าโครงการแบบในสถานที่ใน LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 ถึง 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
                     - name: พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: การบำรุงรักษาสภาพแวดล้อม
+                - name: การดําเนินงานของสภาพแวดล้อม
                   items:
                     - name: ใช้การอัปเดตกับการปรับใช้ในสถานที่
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: ตั้งค่าคอนฟิกโหนด AOS เฉพาะชุดงานและเฉพาะแบบโต้ตอบในการปรับใช้ในสถานที่
                       href: deployment/onprem-batchonly.md
+                    - name: ตั้งค่าคอนฟิกความพร้อมใช้งานสูงของโหนด SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
                     - name: การวินิจฉัยแบบในสถานที่
@@ -626,7 +632,7 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
                   href: dev-tools/enable-development-machine.md
-                - name: FAQ เกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
+                - name: คำถามที่ถามบ่อยเกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
                   href: sysadmin/VMs-no-admin-access.md
                 - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
@@ -840,7 +846,7 @@
                       href: extensibility/extensibility-roadmap.md
                     - name: คำขอความสามารถในการเพิ่มฟังก์ชัน
                       href: extensibility/extensibility-requests.md
-                    - name: FAQ เกี่ยวกับความสามารถในการเพิ่มฟังก์ชัน
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับความสามารถในการเพิ่มฟังก์ชัน
                       href: extensibility/app-sealing-faq.md
                     - name: ย้ายจากการโอเวอร์เลย์ไปยังส่วนขยาย
                       href: extensibility/migrate-overlayer-extension.md
@@ -1108,7 +1114,7 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: ส่งคำขอการบริการไปยังทีมงานวิศวกรรมบริการของ Dynamics
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: FAQ เกี่ยวกับกรอบการบำรุงรักษาตามแผน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับกรอบการบำรุงรักษาตามแผน
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: การตรวจสอบและการวินิจฉัย
               href: lifecycle-services/monitoring-diagnostics.md
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: การรวม Microsoft Power Platform
           items:
-            - name: การรวม Microsoft Power Platform กับ Finance and Operations
-              href: power-platform/overview.md
-            - name: ภาพรวมของส่วนเพิ่มเติม
-              href: power-platform/add-ins-overview.md
-            - name: การสร้างแบบจำลองเอนทิตี้
-              href: power-platform/entity-modeling.md
-            - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
-              href: power-platform/application-lifecycle-management.md
-            - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Dataverse
-              href: power-platform/admin-reference.md
-            - name: พอร์ทัล Power Apps ที่มี Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: FAQ เกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
-              href: power-platform/faq.md
+            - name: เอนทิตี้เสมือน
+              items:
+                - name: การรวม Microsoft Power Platform กับ Finance and Operations
+                  href: power-platform/overview.md
+                - name: การสร้างแบบจำลองเอนทิตี้
+                  href: power-platform/entity-modeling.md
+                - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
+                  href: power-platform/application-lifecycle-management.md
+                - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Dataverse
+                  href: power-platform/admin-reference.md
+                - name: พอร์ทัล Power Apps ที่มี Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
+                  href: power-platform/faq.md
+            - name: Add-In
+              items:
+                - name: ภาพรวมของส่วนเพิ่มเติม
+                  href: power-platform/add-ins-overview.md
         - name: แพลตฟอร์มเคลื่อนที่
           items:
             - name: ทรัพยากรแพลตฟอร์มเคลื่อนที่
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: บทช่วยสอน Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: ตั้งค่าคอนฟิกผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: แนวทางปฏิบัติ
               href: perf-test/rsat/rsat-best-practices.md
             - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
@@ -1748,7 +1760,7 @@
                   href: user-interface/slider-messagebox.md
                 - name: ศูนย์ข้อความ แถบข้อความ และ API รายละเอียดข้อความ
                   href: user-interface/messaging-api-center-bar-details.md
-                - name: FAQ เกี่ยวกับศูนย์ข้อความ แถบข้อความ และรายละเอียดข้อความ
+                - name: คำถามที่ถามบ่อยเกี่ยวกับศูนย์ข้อความ แถบข้อความ และรายละเอียดข้อความ
                   href: user-interface/messaging-user.md
             - name: คำแนะนำรูปแบบของแบบฟอร์ม
               items:

@@ -14,7 +14,7 @@
               items:
                 - name: ภาพรวมของการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: จัดการการอัปเดตและวงจรการใช้งานโค้ดที่กำหนดเอง รวมถึง Dynamics 365 Commerce
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/finance/toc.json
@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (กุมภาพันธ์ 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (มกราคม 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
@@ -138,7 +136,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/finance/toc.json
                 - name: ภาพรวมของการจัดการคุณลักษณะ
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับไคลเอนต์
+                - name: คำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/finance/toc.json
                 - name: การค้นหาการดำเนินการ
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/finance/toc.json
@@ -186,11 +184,11 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/finance/toc.json
                 - name: จัดเตรียมสำหรับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับการโทรทันที
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการโทรทันที
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/finance/toc.json
                 - name: ส่งคำขอรับบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/finance/toc.json
                 - name: ย้ายสภาพแวดล้อมระหว่างศูนย์ข้อมูล
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/finance/toc.json
@@ -1044,7 +1042,7 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: ใบสำคัญหนึ่งใบ
                   href: general-ledger/one-voucher.md
-                - name: FAQ เกี่ยวกับใบสำคัญหนึ่งใบ
+                - name: คำถามที่ถามบ่อยเกี่ยวกับใบสำคัญหนึ่งใบ
                   href: general-ledger/one-voucher-faq.md
                 - name: การชำระบัญชีแยกประเภท
                   href: general-ledger/ledger-settlements.md
@@ -1060,7 +1058,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: การปิดรอบระยะเวลาทางการเงินโดยรวม
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: FAQ เกี่ยวกับกิจกรรมตอนสิ้นปี
+                - name: คำถามที่ถามบ่อยเกี่ยวกับกิจกรรมตอนสิ้นปี
                   href: general-ledger/faq-year-end-activities.md
             - name: ภาษีขาย
               items:
@@ -1172,7 +1170,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
             - name: เวลาที่จะรีเซ็ต Data Mart
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
-            - name: FAQ เกี่ยวกับการรายงานทางการเงิน
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน
               href: general-ledger/financial-reporting-faq.md
         - name: ข้อมูลเชิงลึกทางการเงิน
           items:
@@ -1418,13 +1416,13 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
-            - name: Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+            - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
               items:
-                - name: ภาพรวมของ Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                   href: localizations/e-invoicing-service-overview.md
-                - name: ส่วนประกอบการจัดการ Add-on การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                - name: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                   href: localizations/e-invoicing-service-administration.md
-                - name: ตั้งค่าคอนฟิก Add-on การออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
+                - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: ออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Finance และ Supply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
@@ -1432,20 +1430,22 @@
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: เริ่มต้นใช้งาน
                   items:
-                    - name: เริ่มต้นใช้งานการจัดการบริการ Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                    - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                    - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-get-started.md
-                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
+                    - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
+                    - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
+                    - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: เริ่มต้นใช้งาน Add-On การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
+                    - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: ตั้งค่า Add-On ของใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                    - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-setup.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                  href: localizations/e-invoicing-faq.md
             - name: ออสเตรเลีย
               items:
                 - name: ภาพรวมของออสเตรเลีย
@@ -1728,7 +1728,7 @@
                   href: localizations/apac-chn-negative-debits-credits.md
                 - name: ล็อกการดำเนินงานของผู้ใช้ โดยกฎการทำงานของจีน
                   href: localizations/tasks/user-operation-log-china-working-rule.md
-                - name: FAQ เกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
+                - name: คำถามที่ถามบ่อยเกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: สาธารณรัฐเช็ก
               items:
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในอียิปต์
                   href: localizations/emea-egy-e-invoices.md
+                - name: การรายงานภาษี VAT สำหรับอียิปต์
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: การรายงานภาษีหัก ณ ที่จ่ายสำหรับอียิปต์
+                  href: localizations/emea-egy-wht-declaration.md
             - name: เอสโตเนีย
               items:
                 - name: ภาพรวมของเอสโตเนีย
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: ขอบเขตของการแปลเป็นภาษาอินเดีย
                   href: localizations/apac-ind-scope.md
+                - name: มีอะไรใหม่หรือเปลี่ยนแปลงอย่างไรบ้างสำหรับการแปลเป็นภาษาอินเดีย
+                  items:
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: สินทรัพย์ถาวร
                   items:
                     - name: ภาพรวมของสินทรัพย์ถาวรของอินเดีย
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST อินเดีย
+                - name: ภาษีทางอ้อม
                   items:
-                    - name: ภาพรวมของ GST อินเดีย
-                      href: localizations/apac-ind-gst.md
-                    - name: มีอะไรใหม่หรือเปลี่ยนแปลงอย่างไรบ้างสำหรับการแปลภาษาท้องถิ่น GST อินเดีย
+                    - name: GST อินเดีย
                       items:
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: กลุ่มการอ้างอิง GST อินเดีย
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: การรวม GST สำหรับเครื่องบันทึกเงินสด
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: การตั้งค่าข้อมูลหลัก
-                      items:
-                        - name: สร้างรูปแบบแนวดิ่งของธุรกิจ
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: อัปเดตรหัสรัฐและดินแดนสหภาพของรัฐบาลกลาง
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: สร้างข้อมูลหลัก GSTIN
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: กำหนด GSTIN และลำดับหมายเลขการอ้างอิง
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: กำหนดรหัส HSN และรหัสการบัญชีบริการ
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: สร้างชนิดอัตราภาษี
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: สร้างบัญชีหลักสำหรับชนิดการลงรายการบัญชี GST
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: สร้างรอบระยะเวลาการชำระภาษี
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: แนบ GSTIN กับกลุ่มทะเบียนภาษี
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: การตั้งค่าภาษี
-                      items:
-                        - name: กำหนดการตั้งค่าคอนฟิกภาษีและปรับใช้กับนิติบุคคล
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: แมปชนิดภาษีของการตั้งค่าคอนฟิก - ศุลกากร
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: ตั้งค่าตารางอัตราและเปอร์เซ็นต์
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: ตั้งค่าลำดับชั้นภาษีขายและกฎการตัดบัญชี
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: ธุรกรรมการซื้อ
-                      items:
-                        - name: การซื้อจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: ซื้อสินค้าที่ต้องเสียภาษีจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: การซื้อจากผู้จัดจำหน่ายที่ลงทะเบียน
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: การซื้อสินค้าที่ลดราคา
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: การซื้อสินค้าที่ยกเว้นภาษี
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: การซื้อสินค้าที่มีอัตราศูนย์
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: การซื้อสินค้าที่ไม่ใช่ GST
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: การซื้อจากผู้จัดจำหน่ายแบบส่วนร่วม
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: การซื้อสินค้าที่ต้องเสียภาษีที่มีค่าธรรมเนียมการจัดส่ง
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: ปรับปรุงใบแจ้งหนี้การซื้อของสินค้าที่ต้องเสียภาษี
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: การซื้อสินทรัพย์ถาวร
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การซื้อ
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การซื้อ
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: ใบสั่งตรวจสอบคุณภาพที่เกี่ยวข้องกับการทำลายสินค้าตัวอย่าง
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: ใบสั่งส่งคืนสินค้าที่ซื้อ
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: การชำระเงินล่วงหน้าของผู้จัดจำหน่ายที่มีการเก็บภาษีย้อนกลับ
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: ธุรกรรมการขาย
-                      items:
-                        - name: การขายสินค้าที่ต้องเสียภาษีให้ผู้บริโภค
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: การขายให้ลูกค้าที่ลงทะเบียน
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: ใบแจ้งหนี้ข้อความอิสระ
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: การขายสินค้าที่ต้องเสียภาษีที่มีการเก็บภาษีย้อนกลับ
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: การขายสินค้าที่ได้รับยกเว้นภาษี
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: การขายสินค้าที่มีอัตราศูนย์
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: การขายสินค้าที่ไม่ใช่ GST
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: การขายสินค้าที่ต้องเสียภาษีที่มีส่วนลดและการประเมินสำรอง
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: การขายสินค้าที่ต้องเสียภาษีที่คิดภาษีสำหรับค่าธรรมเนียมการจัดส่ง
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: การขายที่มีราคารวมภาษีและไม่รวมภาษี
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การขาย
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การขาย
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: ใบแจ้งหนี้การขายที่แบ่งตามที่อยู่ที่จัดส่ง
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: ใบสั่งส่งคืนสินค้า
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: ธุรกรรมต่างประเทศ
-                      items:
-                        - name: นำเข้าสินค้าที่มี GST
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: นำเข้าบริการที่มี GST
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: ส่งออกสินค้าที่มีภาษีอัตราศูนย์
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: ส่งออกบริการที่มีภาษีอัตราศูนย์
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: ธุรกรรมสินค้าคงคลัง
-                      items:
-                        - name: ใบสั่งโอนย้ายสินค้าคงคลัง
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: ธุรกรรมการชำระเงินของลูกค้า
-                      items:
-                        - name: การชำระเงินล่วงหน้าที่มีรวมภาษี
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: การชำระเงินล่วงหน้าที่มีการชำระในระหว่างการลงรายการบัญชีใบแจ้งหนี้
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: การชำระบัญชีด้วยตนเองสำหรับการชำระเงินล่วงหน้าและใบแจ้งหนี้ที่รวมภาษี
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: การชำระเงินสำหรับใบแจ้งหนี้ที่รวมภาษี
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: ปรับปรุงการชำระเงินล่วงหน้าที่รวมภาษี
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: การขอคืนเงินสำหรับการชำระเงินของลูกค้า
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: ธุรกรรมภาษีทางตรง
+                        - name: ภาพรวมของ GST อินเดีย
+                          href: localizations/apac-ind-gst.md
+                        - name: กลไกจัดการภาษี
+                          items:
+                            - name: ภาพรวมของกลไกจัดการภาษี
+                              href: general-ledger/tax-engine.md
+                            - name: นำเข้าการตั้งค่าคอนฟิก
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: โปรแกรมออกแบบสูตรขั้นสูง
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: การใช้งานกลไกจัดการภาษี
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: สร้างส่วนประกอบของภาษี
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: การรวมกลไกจัดการภาษี
+                              href: general-ledger/tax-engine-integration.md
+                            - name: การขยายกลไกจัดการภาษี
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: ล้างข้อมูลตาราง TaxDocumentJSON
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: แก้ไขปัญหา GTE
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: การตั้งค่าข้อมูลหลัก
+                          items:
+                            - name: สร้างรูปแบบแนวดิ่งของธุรกิจ
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: อัปเดตรหัสรัฐและดินแดนสหภาพของรัฐบาลกลาง
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: สร้างข้อมูลหลัก GSTIN
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: กำหนด GSTIN และลำดับหมายเลขการอ้างอิง
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: กำหนดรหัส HSN และรหัสการบัญชีบริการ
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: สร้างชนิดอัตราภาษี
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: สร้างบัญชีหลักสำหรับชนิดการลงรายการบัญชี GST
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: สร้างรอบระยะเวลาการชำระภาษี
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: แนบ GSTIN กับกลุ่มทะเบียนภาษี
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: การตั้งค่าภาษี
+                          items:
+                            - name: กำหนดการตั้งค่าคอนฟิกภาษีและปรับใช้กับนิติบุคคล
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: แมปชนิดภาษีของการตั้งค่าคอนฟิก - ศุลกากร
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: ตั้งค่าตารางอัตราและเปอร์เซ็นต์
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: ตั้งค่าลำดับชั้นภาษีขายและกฎการตัดบัญชี
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: กลุ่มการอ้างอิง GST อินเดีย
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: ธุรกรรมภาษี
+                          items:
+                            - name: ธุรกรรมการซื้อ
+                              items:
+                                - name: การซื้อจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: ซื้อสินค้าที่ต้องเสียภาษีจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: การซื้อจากผู้จัดจำหน่ายที่ลงทะเบียน
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: การซื้อสินค้าที่ลดราคา
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: การซื้อสินค้าที่ยกเว้นภาษี
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: การซื้อสินค้าที่มีอัตราศูนย์
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: การซื้อสินค้าที่ไม่ใช่ GST
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: การซื้อจากผู้จัดจำหน่ายแบบส่วนร่วม
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: การซื้อสินค้าที่ต้องเสียภาษีที่มีค่าธรรมเนียมการจัดส่ง
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: ปรับปรุงใบแจ้งหนี้การซื้อของสินค้าที่ต้องเสียภาษี
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: การซื้อสินทรัพย์ถาวร
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การซื้อ
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การซื้อ
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: ใบสั่งตรวจสอบคุณภาพที่เกี่ยวข้องกับการทำลายสินค้าตัวอย่าง
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: ใบสั่งส่งคืนสินค้าที่ซื้อ
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: การชำระเงินล่วงหน้าของผู้จัดจำหน่ายที่มีการเก็บภาษีย้อนกลับ
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: ธุรกรรมการขาย
+                              items:
+                                - name: การขายสินค้าที่ต้องเสียภาษีให้ผู้บริโภค
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: การขายให้ลูกค้าที่ลงทะเบียน
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: ใบแจ้งหนี้ข้อความอิสระ
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: การขายสินค้าที่ต้องเสียภาษีที่มีการเก็บภาษีย้อนกลับ
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: การขายสินค้าที่ได้รับยกเว้นภาษี
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: การขายสินค้าที่มีอัตราศูนย์
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: การขายสินค้าที่ไม่ใช่ GST
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: การขายสินค้าที่ต้องเสียภาษีที่มีส่วนลดและการประเมินสำรอง
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: การขายสินค้าที่ต้องเสียภาษีที่คิดภาษีสำหรับค่าธรรมเนียมการจัดส่ง
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: การขายที่มีราคารวมภาษีและไม่รวมภาษี
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: สร้างใบเพิ่มหนี้สำหรับใบแจ้งหนี้การขาย
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: สร้างใบลดหนี้สำหรับใบแจ้งหนี้การขาย
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: ใบแจ้งหนี้การขายที่แบ่งตามที่อยู่ที่จัดส่ง
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: ใบสั่งส่งคืนสินค้า
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: ธุรกรรมต่างประเทศ
+                              items:
+                                - name: นำเข้าสินค้าที่มี GST
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: นำเข้าบริการที่มี GST
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: ส่งออกสินค้าที่มีภาษีอัตราศูนย์
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: ส่งออกบริการที่มีภาษีอัตราศูนย์
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: ใบลดหนี้หรือใบเพิ่มหนี้กับใบสั่งส่งออก
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: ธุรกรรมการโอนย้ายสินค้าคงคลัง
+                              items:
+                                - name: ใบสั่งโอนย้ายสินค้าคงคลัง
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: ธุรกรรมการชำระเงินของลูกค้า
+                              items:
+                                - name: การชำระเงินล่วงหน้าที่มีรวมภาษี
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: การชำระเงินล่วงหน้าที่มีการชำระในระหว่างการลงรายการบัญชีใบแจ้งหนี้
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: การชำระบัญชีด้วยตนเองสำหรับการชำระเงินล่วงหน้าและใบแจ้งหนี้ที่รวมภาษี
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: การชำระเงินสำหรับใบแจ้งหนี้ที่รวมภาษี
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: ปรับปรุงการชำระเงินล่วงหน้าที่รวมภาษี
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: การขอคืนเงินสำหรับการชำระเงินของลูกค้า
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: การปรับปรุงการชำระภาษี
+                              items:
+                                - name: การปรับปรุงยอดเงินภาษี
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: สร้างสมุดรายวันภาษี
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: การสอบถามเกี่ยวกับเอกสารภาษี
+                              items:
+                                - name: การสอบถามข้อมูลภาษี
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: การชำระเงินภาษี
+                          items:
+                            - name: การชำระภาษีตามกฎ
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: รายงาน GSTR
+                          items:
+                            - name: รูปแบบการขอคืน GSTR-1 และ GSTR-2 ใหม่
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: เครื่องมือออฟไลน์ GSTR ใหม่สำหรับ ANX-1 และทะเบียนการซื้อ
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: สร้างข้อมูลรายงาน GSTR สำหรับการคืนภาษี
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: เปิดใช้งานการประมวลผลหลายชุดงานสำหรับรายงาน GSTR
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: ภาษีทางตรง
+                  items:
+                    - name: ภาษีหัก ณ ที่จ่ายของอินเดีย
                       items:
                         - name: รวม GST เมื่อคำนวณการหักลดภาษี
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: รวม GST เมื่อคำนวณการจัดเก็บภาษี
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: การปรับปรุงยอดเงินภาษี
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: การชำระภาษีตามกฎ
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: สร้างสมุดรายวันภาษี
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: สร้างข้อมูลรายงาน GSTR สำหรับการคืนภาษี
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: เปิดใช้งานการประมวลผลหลายชุดงานสำหรับรายงาน GSTR
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: การสอบถามข้อมูลภาษี
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: ล้างข้อมูลตาราง TaxDocumentJSON
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: กลไกจัดการภาษี
-                  items:
-                    - name: ภาพรวมของกลไกจัดการภาษี
-                      href: general-ledger/tax-engine.md
-                    - name: นำเข้าการตั้งค่าคอนฟิก
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: โปรแกรมออกแบบสูตรขั้นสูง
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: การใช้งานกลไกจัดการภาษี
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: สร้างส่วนประกอบของภาษี
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: การรวมกลไกจัดการภาษี
-                      href: general-ledger/tax-engine-integration.md
-                    - name: การขยายกลไกจัดการภาษี
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: แก้ไขปัญหา GTE
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: FAQ เกี่ยวกับขีดจำกัดภาษี
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: คำถามที่ถามบ่อยเกี่ยวกับขีดจำกัดภาษี
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: ภาษีที่เรียกเก็บจากต้นทางในการขายสินค้า
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี
@@ -2436,7 +2460,7 @@
                   href: localizations/tasks/depreciate-accrue-interest-expense.md
                 - name: คิดค่าเสื่อมราคาของสินทรัพย์ถาวรที่มีการลงรายการบัญชีที่มีการลด
                   href: localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: FAQ ค่าเสื่อมราคา
+                - name: คำถามที่ถามบ่อยเกี่ยวกับค่าเสื่อมราคา
                   href: localizations/apac-jpn-fixed-asset-depreciation.md
                 - name: ตัดจำหน่ายสินทรัพย์ถาวรที่มีรายการการลด
                   href: localizations/tasks/dispose-fixed-asset-reduction-entry.md
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: การรายงาน i.SAF สำหรับลิทัวเนีย
                   href: localizations/emea-ltu-isaf.md
+                - name: ไฟล์การตรวจสอบมาตรฐานสำหรับภาษี (SAF-T) สำหรับลิทัวเนีย
+                  href: localizations/emea-ltu-saf-t.md
             - name: มาเลเซีย
               items:
                 - name: ภาพรวมของมาเลเซีย
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: ทะเบียนภาษีกระแสเงินสด
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: ทะเบียนค่าใช้จ่ายที่กำหนดอัตรา
+                      href: localizations/rus-rated-expenses-registers.md
             - name: ซาอุดีอาระเบีย
               items:
                 - name: ภาพรวมของซาอุดีอาระเบีย
@@ -3082,7 +3110,7 @@
                   href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
                 - name: สร้างปฏิทินเวลาการทำงาน
                   href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการดำเนินการด้านบุคลากร
                   href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
                 - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
                   href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
@@ -3377,15 +3405,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: จัดเตรียมส่วนประกอบของโซลูชันการรายงานทางอิเล็กทรอนิกส์
                   items:
-                    - name: ออกแบบแบบจำลองข้อมูลเฉพาะโดเมน
+                    - name: ออกแบบรูปแบบข้อมูลเฉพาะโดเมน
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: จัดเตรียมข้อมูลเมตาเฉพาะแอปพลิเคชัน
                       items:
-                        - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
+                        - name: จัดเตรียมข้อมูลเมตาของแอปพลิเคชันในการรายงานทางอิเล็กทรอนิกส์ที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                        - name: เข้าถึงข้อมูลเมตาของแอปพลิเคชันใน RCS โดยใช้การตั้งค่าคอนฟิก ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
+                        - name: เข้าถึงข้อมูลเมตาของแอปพลิเคชันใน RCS โดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: กำหนดการแมปแบบจำลองและเลือกแหล่งข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
+            - name: โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
               items:
                 - name: โปรแกรมออกแบบสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารขาออกในรูปแบบต่างๆ
               items:
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบ Excel
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: ฝังรูปภาพและรูปร่าง
                   items:
-                    - name: (ER) ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
+                    - name: ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: ตัวอย่างของการฝังรูปภาพและรูปร่าง
                       items:
@@ -3763,8 +3791,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) - คุณลักษณะแบบใช้ทั่วโลก
-                      href: localizations/rcs-globalization-feature.md
+                    - name: คุณลักษณะที่ใช้ทั่วโลกใน RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
                       items:
                         - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
@@ -3896,17 +3924,17 @@
                     - name: ชนิดปลายทาง
                       items:
                         - name: ปลายทางของที่เก็บถาวร
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: ปลายทางของอีเมล
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: ปลายทางของไฟล์
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: ปลายทางของ Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: ปลายทางของเครื่องพิมพ์
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: ปลายทางของหน้าจอ
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทาง
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทางที่ขึ้นอยู่กับการดำเนินการ
@@ -3919,11 +3947,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
+                    - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: ดำเนินกระบวนการทางธุรกิจอัตโนมัติโดยใช้การตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์
                   items:
-                    - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI
+                    - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลลงใน Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
@@ -4049,7 +4077,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับสมุดที่อยู่
+                - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/finance/toc.json
@@ -4115,7 +4143,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/finance/toc.json
                 - name: รายงานชนิดลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ เกี่ยวกับลำดับงาน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/finance/toc.json
             - name: การแจ้งเตือน
               items:
@@ -4179,7 +4207,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-earning-code-group-tasks.md
                 - name: ตั้งค่าภาษี ภูมิภาคของภาษี รหัสภาษี และกลุ่มภาษี
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-information-tasks.md
-                - name: FAQ เกี่ยวกับรหัสภาษี กลุ่มภาษี และข้อกำหนดการลงรายการบัญชีภาษี
+                - name: คำถามที่ถามบ่อยเกี่ยวกับรหัสภาษี กลุ่มภาษี และข้อกำหนดการลงรายการบัญชีภาษี
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
                 - name: ป้อนยอดดุลต้นงวดของค่าจ้าง
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-enter-beginning-balances.md
@@ -4191,13 +4219,13 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
                 - name: ตั้งค่ารายได้ค่าจ้างพิเศษ
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-premium-earning-setup-tasks.md
-                - name: FAQ เกี่ยวกับการอายัดเงิน การจัดเก็บภาษี และค่าธรรมเนียมการจัดการ
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการอายัดเงิน การจัดเก็บภาษี และค่าธรรมเนียมการจัดการ
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
             - name: ติดตามเวลาหยุดพักสำหรับกฎหมายการลาครอบครัวและลาป่วย
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-track-time-for-fmla.md
             - name: งานการดำเนินการชำระค่าจ้าง
               items:
-                - name: FAQ เกี่ยวกับรายได้และการสร้างรายได้
+                - name: คำถามที่ถามบ่อยเกี่ยวกับรายได้และการสร้างรายได้
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-earnings-generation-process.md
                 - name: สร้างรายได้สำหรับผู้ปฏิบัติงาน
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-earnings.md
@@ -4205,7 +4233,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-issue-worker-payments.md
                 - name: ลงรายการบัญชีการกระจายค่าจ้างและสร้างใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: FAQ เกี่ยวกับใบแจ้งยอดการชำระและการสร้างการชำระเงิน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับใบแจ้งยอดการชำระและการสร้างการชำระเงิน
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: ดำเนินกระบวนการชำระเงินให้เสร็จสมบูรณ์
               items:
@@ -4217,7 +4245,7 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-pay-statements.md
             - name: การบำรุงรักษาและการรายงาน
               items:
-                - name: FAQ เกี่ยวกับการอัปเดตข้อมูลบัญชีค่าจ้าง
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการอัปเดตข้อมูลบัญชีค่าจ้าง
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-payroll-data-updates.md
                 - name: รายงานบัญชีค่าจ้างมาตรฐาน
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-generate-payroll-reports.md
