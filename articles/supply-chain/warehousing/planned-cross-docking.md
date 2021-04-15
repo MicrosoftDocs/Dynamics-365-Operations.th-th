@@ -2,11 +2,9 @@
 title: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้
 description: หัวข้อนี้จะอธิบายถึงการส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้ล่วงหน้า ซึ่งปริมาณสินค้าคงคลังที่จำเป็นสำหรับใบสั่งจะถูกส่งตรงจากการรับสินค้าหรือการสร้างไปยังท่าออกที่ถูกต้องหรือพื้นที่ที่จัดเตรียม สินค้าคงคลังที่เหลือทั้งหมดจากต้นทางขาเข้าจะถูกส่งไปยังสถานที่เก็บสินค้าที่ถูกต้องโดยผ่านกระบวนการสำรองสินค้าปกติ
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556277"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810425"
 ---
 # <a name="planned-cross-docking"></a>การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าที่วางแผนไว้
 

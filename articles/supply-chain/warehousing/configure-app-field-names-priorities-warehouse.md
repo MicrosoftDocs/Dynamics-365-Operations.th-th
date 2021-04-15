@@ -1,12 +1,10 @@
 ---
-title: ตั้งค่าคอนฟิกชื่อฟิลด์แอปในแอปคลังสินค้า
-description: หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้าและระดับความสำคัญใน Dynamics 365 Supply Chain Management
+title: ตั้งค่าฟิลด์สำหรับแอปการจัดการคลังสินค้าบนมือถือ
+description: หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอปการจัดการคลังสินค้าบนมือถือ
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232970"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808833"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>ตั้งค่าคอนฟิกชื่อฟิลด์แอปในแอปคลังสินค้า
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>ตั้งค่าฟิลด์สำหรับแอปการจัดการคลังสินค้าบนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้าและระดับความสำคัญใน Dynamics 365 Supply Chain Management 
+หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอปการจัดการคลังสินค้าบนมือถือ
 
 > [!NOTE]
-> หัวข้อนี้ใช้กับคุณลักษณะในการบริหารคลังสินค้า ไม่สามารถใช้กับคุณลักษณะในการจัดการสินค้าคงคลังได้ คลังสินค้าเป็นแอพลิเคชันที่คุณสามารถใช้เพื่อทำงานเกี่ยวกับคลังสินค้า คุณสามารถกำหนดและตั้งค่าคอนฟิกชื่อฟิลด์ที่ใช้ในแอพลิเคชัน ตลอดจนตั้งค่าคอนฟิกระดับความสำคัญที่ควรจะกำหนดชื่อฟิลด์ หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้าและระดับความสำคัญเหล่านี้ และวิธีการใช้ในคลังสินค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการเชื่อมต่อกับคลังสินค้า ให้ดูบทสอน [ติดตั้งและตั้งค่าภาพรวมของแอปคลังสินค้า](install-configure-warehousing-app.md)
+> หัวข้อนี้ใช้กับคุณลักษณะในการบริหารคลังสินค้า ไม่สามารถใช้กับคุณลักษณะในการจัดการสินค้าคงคลังได้ แอปการจัดการคลังสินค้าบนมือถือเป็นแอปที่คุณสามารถใช้เพื่อทำงานในคลังสินค้า คุณสามารถกำหนดและตั้งค่าคอนฟิกชื่อฟิลด์ที่ใช้ในแอพลิเคชัน ตลอดจนตั้งค่าคอนฟิกระดับความสำคัญที่ควรจะกำหนดชื่อฟิลด์ หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอปการจัดการคลังสินค้าบนมือถือและระดับความสำคัญเหล่านี้ และวิธีการใช้
 
 ## <a name="configure-warehouse-app-field-names"></a>ตั้งค่าคอนฟิกชื่อฟิลด์แอพลิเคชันคลังสินค้า
 
@@ -142,7 +140,7 @@ ms.locfileid: "5232970"
 <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 --------
 
-[ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า](install-configure-warehousing-app.md)
+[ติดตั้งและเชื่อมต่อแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

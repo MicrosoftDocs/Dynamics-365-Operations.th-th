@@ -1,12 +1,10 @@
 ---
-title: ตัวอย่าง Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.17
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571823"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813182"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>ตัวอย่าง Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.17 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.761 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.17 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.761 และพร้อมใช้งานดังนี้:
 
 - **ตัวอย่างการนำออกใช้:** กุมภาพันธ์ 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตเอง):** มีนาคม 2021
@@ -36,9 +33,9 @@ ms.locfileid: "5571823"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้  ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่ส่วนใหญ่อาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
 
 ### <a name="asset-management"></a>การจัดการสินทรัพย์
 
@@ -68,9 +65,13 @@ ms.locfileid: "5571823"
 
 - [แอปพลิเคชันการจัดการคลังสินค้าบนมือถือ](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้า](../warehousing/install-configure-warehouse-management-app.md) และ [การตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่](../warehousing/mobile-device-user-settings.md)
 
+- การแจ้งเตือนการดำเนินการเวฟ<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การแจ้งเตือนการดำเนินการของเวฟ](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>การผลิต
 
-- [ความสามารถในการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
+- [ความสามารถในการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
+
+- ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่: 
 
 - [แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต](../production-control/override-default-reservation-principle.md)
 

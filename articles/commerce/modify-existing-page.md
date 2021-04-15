@@ -2,11 +2,9 @@
 title: ปรับเปลี่ยนหน้าไซต์ที่มีอยู่
 description: หัวข้อนี้อธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803740"
 ---
 # <a name="modify-an-existing-site-page"></a>ปรับเปลี่ยนหน้าไซต์ที่มีอยู่
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการปรับเปลี่ยนหน้าไซต์ที่มีอยู่ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 เมื่อคุณต้องปรับเปลี่ยนหน้า ขั้นตอนแรกคือการเปิดขึ้นในโปรแกรมแก้ไขหน้า ไปที่ไซต์ที่มีหน้าของคุณ จากนั้นในรายการของหน้าให้ค้นหาหน้าที่คุณต้องการ ถ้าคุณไม่พบหน้า คุณสามารถใช้ฟังก์ชันการค้นหาที่สมบูรณ์ของเครื่องมือการสร้าง พิมพ์ชื่อหน้าที่ถูกต้องหรือพิมพ์ตัวอักษรสองสามตัวแรกและเครื่องหมายดอกจัน (\*) รายการที่ถูกกรองของหน้าจะปรากฏขึ้น คุณสามารถใช้รายการนี้เพื่อค้นหาหน้าที่คุณต้องการ หลังจากที่คุณพบหน้าที่ถูกต้องแล้ว ให้เลือกชื่อหน้าเพื่อเปิดหน้าในโปรแกรมแก้ไขหน้า
 

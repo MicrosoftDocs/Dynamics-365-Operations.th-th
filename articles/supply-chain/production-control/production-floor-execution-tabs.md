@@ -2,11 +2,9 @@
 title: ออกแบบอินเทอร์เฟสการดำเนินการผลิต
 description: หัวข้อนี้จะอธิบายวิธีการออกแบบเนื้อหาของอินเทอร์เฟสผู้ใช้สำหรับการตั้งค่าคอนฟิกแต่ละครั้ง
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501041"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814691"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>ออกแบบอินเทอร์เฟสการดำเนินการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 คุณสามารถออกแบบเนื้อหาของอินเทอร์เฟสผู้ใช้สำหรับการตั้งค่าคอนฟิกแต่ละครั้งที่ใช้โดยอินเทอร์เฟสการดำเนินการของพื้นที่การผลิต ตัวอย่างเช่น ผู้ปฏิบัติงานในเซลล์ทำงานหนึ่งอาจจำเป็นต้องสามารถเปิดคำสั่งของงานบนชั้นการผลิต ในขณะที่อยู่ในเซลล์ทำงานอื่น ไม่จำเป็นต้องมีคำแนะนำ ในกรณีนี้ ควรสร้างการตั้งค่าคอนฟิกสองครั้ง โดยมีปุ่มสำหรับเปิดไฟล์แนบเอกสารและรายการที่ไม่มีปุ่มนี้
 
