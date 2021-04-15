@@ -2,11 +2,9 @@
 title: นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 description: เพื่อให้ได้การคาดการณ์ความต้องการที่ถูกต้อง คุณจำเป็นต้องมีข้อมูลความต้องการในอดีตสำหรับแต่ละสินค้าหรือคีย์การปันส่วนสินค้า หัวข้อนี้อธิบายวิธีการใช้เอนทิตี้ข้อมูลเพื่อนำเข้าข้อมูลความต้องการในอดีตจากระบบใด ๆ เพื่อให้คุณทราบประวัติของข้อมูลการคาดการณ์ความต้องการที่ยาวนานขึ้น
 author: roxanadiaconu
-manager: tfehr
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d415895bd05b9ab1a2311ab69cc3757047df91db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204627"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816495"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
