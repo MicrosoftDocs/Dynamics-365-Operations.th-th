@@ -2,7 +2,6 @@
 title: ฟังก์ชัน IF ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) IF
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,58 +15,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a69675e3c743154e8119ba6c04da5897f23a8422
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3674618acae79170daf94413895d17d86a491996
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565915"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753179"
 ---
-# <a name="if-er-function"></a><span data-ttu-id="301ba-103">ฟังก์ชัน IF ER</span><span class="sxs-lookup"><span data-stu-id="301ba-103">IF ER function</span></span>
+# <a name="if-er-function"></a><span data-ttu-id="2763d-103">ฟังก์ชัน IF ER</span><span class="sxs-lookup"><span data-stu-id="2763d-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="301ba-104">ฟังก์ชัน `IF` ส่งคืนค่าที่ระบุค่าแรก หากตรงตามเงื่อนไขที่ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="301ba-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="301ba-105">มิฉะนั้นจะส่งคืนค่าที่สองที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="301ba-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="301ba-106">ค่าที่ถูกส่งกลับอาจเป็นค่าใดๆ ของชนิดข้อมูลที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="301ba-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="2763d-104">ฟังก์ชัน `IF` ส่งคืนค่าที่ระบุค่าแรก หากตรงตามเงื่อนไขที่ที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="2763d-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="2763d-105">มิฉะนั้นจะส่งคืนค่าที่สองที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="2763d-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="2763d-106">ค่าที่ถูกส่งกลับอาจเป็นค่าใดๆ ของชนิดข้อมูลที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="2763d-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="301ba-107">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="301ba-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2763d-107">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="2763d-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="301ba-108">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="301ba-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2763d-108">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="2763d-108">Arguments</span></span>
 
-<span data-ttu-id="301ba-109">`condition`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="301ba-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="2763d-109">`condition`: *บูลีน*</span><span class="sxs-lookup"><span data-stu-id="2763d-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="301ba-110">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="301ba-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="2763d-110">นิพจน์แบบมีเงื่อนไขที่ถูกต้องที่ต้องถูกทดสอบ</span><span class="sxs-lookup"><span data-stu-id="2763d-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="301ba-111">`first value`: *ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="301ba-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="2763d-111">`first value`: *ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="2763d-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="301ba-112">ผลลัพธ์ที่ถูกส่งกลับถ้าเป็นไปตามเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="301ba-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="2763d-112">ผลลัพธ์ที่ถูกส่งกลับถ้าเป็นไปตามเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="2763d-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="301ba-113">`second value`: *ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="301ba-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="2763d-113">`second value`: *ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="2763d-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="301ba-114">ผลลัพธ์ที่ถูกส่งกลับถ้าไม่เป็นไปตามเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="301ba-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="2763d-114">ผลลัพธ์ที่ถูกส่งกลับถ้าไม่เป็นไปตามเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="2763d-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="301ba-115">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="301ba-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2763d-115">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="2763d-115">Return values</span></span>
 
-<span data-ttu-id="301ba-116">*ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="301ba-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="2763d-116">*ชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน*</span><span class="sxs-lookup"><span data-stu-id="2763d-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="301ba-117">ค่าผลลัพธ์ของชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="301ba-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="2763d-117">ค่าผลลัพธ์ของชนิดข้อมูลใดๆ ที่ได้รับการสนับสนุน</span><span class="sxs-lookup"><span data-stu-id="2763d-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="301ba-118">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="301ba-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="2763d-118">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="2763d-118">Usage notes</span></span>
 
-<span data-ttu-id="301ba-119">อาร์กิวเมนต์ `first value` และ `second value` ต้องถูกระบุและโดยใช้ชนิดข้อมูลเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="301ba-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="301ba-120">มีข้อยกเว้นเกิดขึ้นในเวลาออกแบบถ้าชนิดข้อมูลของค่าที่ถูกกำหนดค่าไม่ตรงกัน</span><span class="sxs-lookup"><span data-stu-id="301ba-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="2763d-119">อาร์กิวเมนต์ `first value` และ `second value` ต้องถูกระบุและโดยใช้ชนิดข้อมูลเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="2763d-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="2763d-120">มีข้อยกเว้นเกิดขึ้นในเวลาออกแบบถ้าชนิดข้อมูลของค่าที่ถูกกำหนดค่าไม่ตรงกัน</span><span class="sxs-lookup"><span data-stu-id="2763d-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="301ba-121">ถ้าค่าแรกและค่าที่สองคือค่าของชนิดข้อมูลของ *คอนเทนเนอร์ (เรกคอร์ด)* หรือชนิดข้อมูล *รายการเรกคอร์ด* ผลลัพธ์จะมีเฉพาะฟิลด์ที่มีอยู่ในค่าทั้งสองเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="301ba-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="2763d-121">ถ้าค่าแรกและค่าที่สองคือค่าของชนิดข้อมูลของ *คอนเทนเนอร์ (เรกคอร์ด)* หรือชนิดข้อมูล *รายการเรกคอร์ด* ผลลัพธ์จะมีเฉพาะฟิลด์ที่มีอยู่ในค่าทั้งสองเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="2763d-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="301ba-122">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="301ba-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2763d-122">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="2763d-122">Example</span></span>
 
-<span data-ttu-id="301ba-123">`IF (1=2, "condition is met", "condition is not met")` จะส่งกลับสตริง **"ไม่เป็นไปตามเงื่อนไข"**</span><span class="sxs-lookup"><span data-stu-id="301ba-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="2763d-123">`IF (1=2, "condition is met", "condition is not met")` จะส่งกลับสตริง **"ไม่เป็นไปตามเงื่อนไข"**</span><span class="sxs-lookup"><span data-stu-id="2763d-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="301ba-124">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="301ba-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2763d-124">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="2763d-124">Additional resources</span></span>
 
-[<span data-ttu-id="301ba-125">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="301ba-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="2763d-125">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="2763d-125">Logical functions</span></span>](er-functions-category-logical.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
