@@ -2,11 +2,9 @@
 title: ใช้งานโมดูล
 description: หัวข้อนี้จะอธิบายว่าจะใช้โมดูลเมื่อไรและอย่างไรใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210910"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801372"
 ---
 # <a name="work-with-modules"></a>ใช้งานโมดูล
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายว่าจะใช้โมดูลเมื่อไรและอย่างไรใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โมดูลเป็นบล็อกส่วนประกอบเชิงตรรกะที่ประกอบขึ้นเป็นโครงสร้างหน้าของคุณ และมีวัตถุประสงค์และขอบเขตที่หลากหลาย โมดูลบางโมดูลเป็นคอนเทนเนอร์ระดับสูง และวัตถุประสงค์ของโมดูลคือรองรับและจัดระเบียบโมดูลอื่น ๆ (โมดูลรอง) เท่านั้น โมดูลอื่น ๆ เช่น โมดูลการจัดวางภาพอย่างง่าย มีวัตถุประสงค์ที่เฉพาะเจาะจงมาก โมดูลอื่น ๆ เช่น โมดูลแบบวงล้อ จะอยู่ระหว่างโมดูลสองประเภทนั้น
 

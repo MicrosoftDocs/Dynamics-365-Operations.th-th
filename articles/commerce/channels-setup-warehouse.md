@@ -2,11 +2,9 @@
 title: ตั้งค่าคลังสินค้า
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคลังสินค้าที่จะใช้กับช่องทางใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800506"
 ---
 # <a name="warehouse-set-up"></a>การตั้งค่าคลังสินค้า
 
@@ -49,7 +47,7 @@ ms.locfileid: "5477645"
 
 ![ตัวอย่างไซต์คลังสินค้า](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>ตั้งค่าคลังสินค้า
+## <a name="set-up-a-warehouse&quot;></a>ตั้งค่าคลังสินค้า
 
 หากต้องการตั้งค่าคลังสินค้า ให้ดำเนินการตามขั้นตอนเหล่านี้:
 
@@ -63,14 +61,14 @@ ms.locfileid: "5477645"
     - ถ้าคุณต้องการกำหนด **คลังสินค้าส่งต่อ** ก่อนอื่นคุณจำเป็นต้องทำตามขั้นตอนต่อไปนี้เพื่อสร้างคลังสินค้าเพิ่มเติมที่ **ชนิด** ตั้งค่าเป็น **ส่งต่อ**
 1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
 
-## <a name="set-up-inventory-aisles"></a>ตั้งค่าที่เก็บสินค้าคงคลัง
+## <a name=&quot;set-up-inventory-aisles&quot;></a>ตั้งค่าที่เก็บสินค้าคงคลัง
 
 หากต้องการตั้งค่าที่เก็บสินค้าคงคลัง ให้ดำเนินการตามขั้นตอนต่อไปนี้
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่าสถานที่ \> ที่เก็บสินค้าคงคลัง**
 1. บนหน้าต่างการดำเนินการ เลือก **สร้าง**
 1. ในรายการแบบหล่นลงของ **คลังสินค้า** ให้เลือกคลังสินค้าที่สร้างไว้ก่อนหน้านี้
-1. ในฟิลด์ **ที่เก็บ** ให้ป้อนชื่อ (ตัวอย่างเช่น "Def")
+1. ในฟิลด์ **ที่เก็บ** ให้ป้อนชื่อ (ตัวอย่างเช่น &quot;Def")
 1. ในฟิลด์ **ชื่อ** ให้ป้อนชื่อ (ตัวอย่างเช่น "ที่เก็บเริ่มต้น")
 1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
 

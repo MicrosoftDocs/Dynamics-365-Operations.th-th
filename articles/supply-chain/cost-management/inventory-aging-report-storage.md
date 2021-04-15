@@ -2,11 +2,9 @@
 title: การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
 description: หัวข้อนี้อธิบายถึงฟังก์ชันที่อนุญาตให้คุณรันรายงานการแยกสินค้าคงคลัง และทำให้ผลลัพธ์พร้อมใช้งานเป็นฟอร์มและแผนภูมิ
 author: AndersGirke
-manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 40b15448677f319c650c667cd7c4981c343f7a02
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 17ca0a105521f3216dfefcc170d60c1eb7137bf6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205357"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809769"
 ---
 # <a name="inventory-aging-report-storage"></a>การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
 

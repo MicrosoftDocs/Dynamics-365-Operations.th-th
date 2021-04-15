@@ -2,11 +2,9 @@
 title: นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่
 description: คุณสามารถระบุว่าคุณต้องการนำการตั้งค่าคอนฟิกที่มีอยู่กลับมาใช้ใหม่โดยอัตโนมัติสำหรับผลิตภัณฑ์ จากนั้น เมื่อผู้ใช้ดำเนินการรอบเวลาการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว ระบบจะตรวจสอบว่ามีการตั้งค่าคอนฟิกที่สอดคล้องกับการเลือกของผู้ใช้อยู่แล้วหรือไม่ ถ้าพบการตั้งค่าคอนฟิกที่ตรงกัน รหัสการตั้งค่าคอนฟิก ใบตราส่ง (BOM) ที่สอดคล้องกัน และกระบวนการผลิตจะถูกนำกลับมาใช้ใหม่
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21dc25b878ff65b57b060fe3d74b5d120fa4b5cd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260610"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812798"
 ---
 # <a name="reuse-product-configurations"></a>นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่
 

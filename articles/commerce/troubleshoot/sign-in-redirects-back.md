@@ -2,7 +2,6 @@
 title: ลิงค์การลงชื่อเข้าใช้จะเปลี่ยนเส้นทางกลับไปยังไซต์อีคอมเมิร์ซ
 description: หัวข้อนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อลิงค์การลงชื่อเข้าใช้เปลี่ยนเส้นทางกลับไปที่ไซต์อีคอมเมิร์ซ แทนที่จะไปที่หน้าลงชื่อเข้าใช้
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 36f10c9f68570a6c67da6b4b6e4155f4634f633a
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: ee2ac8636dad8d31719971b2cc17c8b923f07959
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585547"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801470"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>ลิงค์การลงชื่อเข้าใช้จะเปลี่ยนเส้นทางกลับไปยังไซต์อีคอมเมิร์ซ
 

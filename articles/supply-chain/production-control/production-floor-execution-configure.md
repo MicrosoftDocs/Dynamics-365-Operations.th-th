@@ -2,11 +2,9 @@
 title: ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการสร้างการตั้งค่าคอนฟิกหนึ่งรายการขึ้นไปสำหรับอินเทอร์เฟสการดำเนินการผลิต เมื่อคุณเปิดอินเทอร์เฟสการดำเนินการผลิต ระบบจะโหลดการตั้งค่าคอนฟิกและตัวกรองงานที่เลือกโดยอัตโนมัติโดยเฉพาะสำหรับเบราว์เซอร์และอุปกรณ์ ในการตั้งค่าคอนฟิก คุณตั้งค่านโยบายที่ต้องใช้สำหรับการใช้งานที่ระบุ
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556325"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814741"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ผู้ปฏิบัติงานการผลิตจะใช้อินเทอร์เฟสการดำเนินการผลิตโดยในการลงทะเบียนงานประจำวัน เช่น เมื่อพวกเขาเริ่มต้นงาน รายงานผลป้อนกลับเกี่ยวกับงาน ลงทะเบียนกิจกรรมทางอ้อม และรายงานการขาดงาน การลงทะเบียนเหล่านี้เป็นข้อมูลพื้นฐานสำหรับการติดตามความคืบหน้าและต้นทุนของใบสั่งผลิตและสำหรับการคำนวณข้อมูลพื้นฐานสำหรับการชำระเงินค่าจ้างของผู้ปฏิบัติงาน
 
@@ -67,6 +64,8 @@ ms.locfileid: "5556325"
 - คุณลักษณะสำหรับการล็อคอุปกรณ์บัตรงานและเทอร์มินัลบัตรงานเพื่อให้ทำความสะอาดได้
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>ฟังก์ชันการจัดการสินทรัพย์สำหรับอินเทอร์เฟสการดำเนินการผลิต
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 คุณลักษณะนี้จะเพิ่มแท็บการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต ผู้ปฏิบัติงานสามารถใช้แท็บนี้เพื่อเลือกสินทรัพย์ที่เชื่อมต่อกับทรัพยากรเครื่องซึ่งอยู่ภายในตัวกรองที่เลือกของรายการงาน สินทรัพย์เครื่องที่เลือก ผู้ปฏิบัติงานสามารถดูสถานะและสภาพของสินทรัพย์จากค่าตัวนับสูงสุดสี่ตัวนับที่เลือก หากคุณต้องการใช้คุณลักษณะนี้ เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
