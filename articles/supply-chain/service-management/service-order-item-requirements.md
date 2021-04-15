@@ -2,11 +2,9 @@
 title: ความต้องการสินค้าในใบสั่งบริการ
 description: ถ้าคุณต้องการจองสินค้าเฉพาะสำหรับใบสั่งบริการ คุณสามารถสร้างความต้องการสินค้าคงคลังได้
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjSalesItemReq
 audience: Application User
@@ -17,57 +15,57 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a0ce40c26e3d3028064b73a80a247180d6a9009
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4bbd15ca83ab116286a3d681887f076896653c76
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226676"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810593"
 ---
-# <a name="service-order-item-requirements"></a><span data-ttu-id="350b5-103">ความต้องการสินค้าในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="350b5-103">Service order item requirements</span></span>   
+# <a name="service-order-item-requirements"></a><span data-ttu-id="b63b1-103">ความต้องการสินค้าในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-103">Service order item requirements</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="350b5-104">คุณสามารถสร้างใบสั่งบริการเพื่อติดตาม และจัดการบริการซึ่งคุณนำเสนอให้แก่ลูกค้าของคุณได้</span><span class="sxs-lookup"><span data-stu-id="350b5-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="350b5-105">ถ้าคุณต้องการจองสินค้าเฉพาะสำหรับใบสั่งบริการ คุณสามารถสร้างความต้องการสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="350b5-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="350b5-106">ความต้องการสินค้าอาจถูกใช้ทันทีจากสินค้าคงคลัง หรือจะสามารถเริ่มต้นใบสั่งผลิตสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="350b5-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
+<span data-ttu-id="b63b1-104">คุณสามารถสร้างใบสั่งบริการเพื่อติดตาม และจัดการบริการซึ่งคุณนำเสนอให้แก่ลูกค้าของคุณได้</span><span class="sxs-lookup"><span data-stu-id="b63b1-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="b63b1-105">ถ้าคุณต้องการจองสินค้าเฉพาะสำหรับใบสั่งบริการ คุณสามารถสร้างความต้องการสินค้าคงคลังได้</span><span class="sxs-lookup"><span data-stu-id="b63b1-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="b63b1-106">ความต้องการสินค้าอาจถูกใช้ทันทีจากสินค้าคงคลัง หรือจะสามารถเริ่มต้นใบสั่งผลิตสำหรับสินค้า</span><span class="sxs-lookup"><span data-stu-id="b63b1-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
 
-<span data-ttu-id="350b5-107">โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="350b5-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
+<span data-ttu-id="b63b1-107">โดยการใช้ข้อกำหนดรายการแทนธุรกรรมรายการ คุณสามารถวางแผนให้กับการส่งมอบก่อนการใช้รายการจริง สร้างใบสั่งซื้อ รวมรายการในโครงงานข้อตกลงการค้า และรวมในข้อกำหนดรายการในการวางแผนการผลิต</span><span class="sxs-lookup"><span data-stu-id="b63b1-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
 
-<span data-ttu-id="350b5-108">ข้อกำหนดรายการสำหรับใบสั่งรายการมีการประมวลผลผ่านโครงการ </span><span class="sxs-lookup"><span data-stu-id="350b5-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="350b5-109">ในการสร้างข้อกำหนดรายการบนใบสั่งบริการ ใบสั่งบริการจะต้องแนบกับโครงการ</span><span class="sxs-lookup"><span data-stu-id="350b5-109">To create an item requirement on a service order, the service order must be attached to a project.</span></span>
+<span data-ttu-id="b63b1-108">ข้อกำหนดรายการสำหรับใบสั่งรายการมีการประมวลผลผ่านโครงการ </span><span class="sxs-lookup"><span data-stu-id="b63b1-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="b63b1-109">ในการสร้างข้อกำหนดรายการบนใบสั่งบริการ ใบสั่งบริการจะต้องแนบกับโครงการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-109">To create an item requirement on a service order, the service order must be attached to a project.</span></span>
 
-<span data-ttu-id="350b5-110">ทันทีที่ข้อกำหนดรายการถูกสร้างขึ้นสำหรับใบสั่งบริการ จะสามารถดูได้จาก **โครงการ** ในใบสั่งบริการแต่ละรายการ หรือผ่านฟอร์ม **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="350b5-110">As soon as an item requirement is created for a service order, it can be viewed from **Project** in the individual service order or through the **Sales order** form.</span></span>
+<span data-ttu-id="b63b1-110">ทันทีที่ข้อกำหนดรายการถูกสร้างขึ้นสำหรับใบสั่งบริการ จะสามารถดูได้จาก **โครงการ** ในใบสั่งบริการแต่ละรายการ หรือผ่านฟอร์ม **ใบสั่งขาย**</span><span class="sxs-lookup"><span data-stu-id="b63b1-110">As soon as an item requirement is created for a service order, it can be viewed from **Project** in the individual service order or through the **Sales order** form.</span></span>
 
-## <a name="view-an-item-requirement-from-a-service-order"></a><span data-ttu-id="350b5-111">การดูข้อกำหนดรายการจากใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="350b5-111">View an item requirement from a service order</span></span>
+## <a name="view-an-item-requirement-from-a-service-order"></a><span data-ttu-id="b63b1-111">การดูข้อกำหนดรายการจากใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-111">View an item requirement from a service order</span></span>
 
-1.  <span data-ttu-id="350b5-112">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="350b5-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="b63b1-112">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="b63b1-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="350b5-113">คลิก **ส่ง** แล้วคลิก **ความต้องการสินค้า** เพื่อเปิดแบบฟอร์ม **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="350b5-113">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span>
+2.  <span data-ttu-id="b63b1-113">คลิก **ส่ง** แล้วคลิก **ความต้องการสินค้า** เพื่อเปิดแบบฟอร์ม **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="b63b1-113">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span>
 
-3.  <span data-ttu-id="350b5-114">คลิกแท็บ **โครงการ** และตรวจสอบฟิลด์ **ใบสั่งบริการ** เพื่อดูใบสั่งบริการของความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="350b5-114">Click the **Project** tab, and check the **Service order** field to see the service orders of the item requirement.</span></span>
+3.  <span data-ttu-id="b63b1-114">คลิกแท็บ **โครงการ** และตรวจสอบฟิลด์ **ใบสั่งบริการ** เพื่อดูใบสั่งบริการของความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="b63b1-114">Click the **Project** tab, and check the **Service order** field to see the service orders of the item requirement.</span></span>
 
-## <a name="delete-service-orders-with-item-requirements"></a><span data-ttu-id="350b5-115">การลบใบสั่งบริการที่มีข้อกำหนดรายการ</span><span class="sxs-lookup"><span data-stu-id="350b5-115">Delete service orders with item requirements</span></span>
+## <a name="delete-service-orders-with-item-requirements"></a><span data-ttu-id="b63b1-115">การลบใบสั่งบริการที่มีข้อกำหนดรายการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-115">Delete service orders with item requirements</span></span>
 
-<span data-ttu-id="350b5-116">ถ้าข้อกำหนดรายการสร้างขึ้นบนใบสั่งบริการ คุณไม่สามารถลบใบสั่งบริการได้ </span><span class="sxs-lookup"><span data-stu-id="350b5-116">If an item requirement is created on a service order, you cannot delete the service order.</span></span> <span data-ttu-id="350b5-117">คุณต้องลบความต้องการสินค้าก่อนที่คุณจะสามารถลบใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="350b5-117">You must delete the item requirement before you can delete the service order.</span></span>
+<span data-ttu-id="b63b1-116">ถ้าข้อกำหนดรายการสร้างขึ้นบนใบสั่งบริการ คุณไม่สามารถลบใบสั่งบริการได้ </span><span class="sxs-lookup"><span data-stu-id="b63b1-116">If an item requirement is created on a service order, you cannot delete the service order.</span></span> <span data-ttu-id="b63b1-117">คุณต้องลบความต้องการสินค้าก่อนที่คุณจะสามารถลบใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-117">You must delete the item requirement before you can delete the service order.</span></span>
 
-1.  <span data-ttu-id="350b5-118">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="350b5-118">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="b63b1-118">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="b63b1-118">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="350b5-119">คลิก **ส่ง** แล้วคลิก **ความต้องการสินค้า** เพื่อเปิดแบบฟอร์ม **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="350b5-119">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span> <span data-ttu-id="350b5-120">แบบฟอร์มนี้แสดงความต้องการสินค้าที่สร้างขึ้นในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="350b5-120">This form lists the item requirements that are created on the service order.</span></span>
+2.  <span data-ttu-id="b63b1-119">คลิก **ส่ง** แล้วคลิก **ความต้องการสินค้า** เพื่อเปิดแบบฟอร์ม **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="b63b1-119">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span> <span data-ttu-id="b63b1-120">แบบฟอร์มนี้แสดงความต้องการสินค้าที่สร้างขึ้นในใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="b63b1-120">This form lists the item requirements that are created on the service order.</span></span>
 
-3.  <span data-ttu-id="350b5-121">เลือกความต้องการสินค้าที่จะลบ แล้วคลิก **ลบ**</span><span class="sxs-lookup"><span data-stu-id="350b5-121">Select the item requirement to delete, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="b63b1-121">เลือกความต้องการสินค้าที่จะลบ แล้วคลิก **ลบ**</span><span class="sxs-lookup"><span data-stu-id="b63b1-121">Select the item requirement to delete, and then click **Delete**.</span></span>
 
-<span data-ttu-id="350b5-122">หรือ</span><span class="sxs-lookup"><span data-stu-id="350b5-122">–or–</span></span>
+<span data-ttu-id="b63b1-122">หรือ</span><span class="sxs-lookup"><span data-stu-id="b63b1-122">–or–</span></span>
 
-1.  <span data-ttu-id="350b5-123">คลิก **การจัดการโครงการและการบัญชี** \> **ทั่วไป** \> **โครงการ** \> **โครงการทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="350b5-123">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
+1.  <span data-ttu-id="b63b1-123">คลิก **การจัดการโครงการและการบัญชี** \> **ทั่วไป** \> **โครงการ** \> **โครงการทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="b63b1-123">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
 
-2.  <span data-ttu-id="350b5-124">เปิดโครงการที่มีใบสั่งบริการที่สร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="350b5-124">Open the project that has the service order in which an item requirement is created.</span></span>
+2.  <span data-ttu-id="b63b1-124">เปิดโครงการที่มีใบสั่งบริการที่สร้างความต้องการสินค้า</span><span class="sxs-lookup"><span data-stu-id="b63b1-124">Open the project that has the service order in which an item requirement is created.</span></span>
 
-3.  <span data-ttu-id="350b5-125">ในแบบฟอร์ม **โครงการ** ในบานหน้าต่างด้านขวา คลิก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="350b5-125">In the **Projects** form, in the right pane, click **Item requirements**.</span></span> <span data-ttu-id="350b5-126">ฟอร์ม **ความต้องการสินค้า** แสดงรายการความต้องการสินค้าที่มีความสัมพันธ์กับโครงการที่เลือก</span><span class="sxs-lookup"><span data-stu-id="350b5-126">The **Item requirements** form lists the item requirements that are associated with the selected project.</span></span>
+3.  <span data-ttu-id="b63b1-125">ในแบบฟอร์ม **โครงการ** ในบานหน้าต่างด้านขวา คลิก **ความต้องการสินค้า**</span><span class="sxs-lookup"><span data-stu-id="b63b1-125">In the **Projects** form, in the right pane, click **Item requirements**.</span></span> <span data-ttu-id="b63b1-126">ฟอร์ม **ความต้องการสินค้า** แสดงรายการความต้องการสินค้าที่มีความสัมพันธ์กับโครงการที่เลือก</span><span class="sxs-lookup"><span data-stu-id="b63b1-126">The **Item requirements** form lists the item requirements that are associated with the selected project.</span></span>
 
-4.  <span data-ttu-id="350b5-127">เลือกความต้องการสินค้าที่จะลบ แล้วคลิก **ลบ**</span><span class="sxs-lookup"><span data-stu-id="350b5-127">Select the item requirement to delete, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="b63b1-127">เลือกความต้องการสินค้าที่จะลบ แล้วคลิก **ลบ**</span><span class="sxs-lookup"><span data-stu-id="b63b1-127">Select the item requirement to delete, and then click **Delete**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="350b5-128">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="350b5-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b63b1-128">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="b63b1-128">See also</span></span>
 
-<span data-ttu-id="350b5-129">[ความต้องการสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="350b5-129">[Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))</span></span>
+<span data-ttu-id="b63b1-129">[ความต้องการสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="b63b1-129">[Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))</span></span>
 
 
 

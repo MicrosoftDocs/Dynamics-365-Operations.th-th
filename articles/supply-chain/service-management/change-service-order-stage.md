@@ -2,11 +2,9 @@
 title: การเปลี่ยนขั้นของใบสั่งบริการ
 description: คุณสามารถเปลี่ยนแปลงขั้นตอนของใบสั่งบริการ
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,27 +15,27 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5956629332547022068e7e9420b87bb6c8276adf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b35efb92de1ed91001561d39126d10063290a346
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243020"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810833"
 ---
-# <a name="change-the-service-order-stage"></a><span data-ttu-id="c1c67-103">การเปลี่ยนขั้นของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="c1c67-103">Change the service order stage</span></span> 
+# <a name="change-the-service-order-stage"></a><span data-ttu-id="3d3f2-103">การเปลี่ยนขั้นของใบสั่งบริการ</span><span class="sxs-lookup"><span data-stu-id="3d3f2-103">Change the service order stage</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c1c67-104">ทำตามขั้นตอนเหล่านี้เพื่อย้ายใบสั่งบริการไปยังขั้นตอนถัดไปในลำดับงานการบริการ หรือเปลี่ยนกลับไปยังขั้นก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="c1c67-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
+<span data-ttu-id="3d3f2-104">ทำตามขั้นตอนเหล่านี้เพื่อย้ายใบสั่งบริการไปยังขั้นตอนถัดไปในลำดับงานการบริการ หรือเปลี่ยนกลับไปยังขั้นก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="3d3f2-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
 
-1.  <span data-ttu-id="c1c67-105">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="c1c67-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="3d3f2-105">คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ใบสั่งบริการ** \> **ใบสั่งบริการ**</span><span class="sxs-lookup"><span data-stu-id="3d3f2-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="c1c67-106">เลือกใบสั่งบริการ และจากนั้นคลิกแท็บ **การจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="c1c67-106">Select the service order, and then click the **Dispatch** tab.</span></span>
+2.  <span data-ttu-id="3d3f2-106">เลือกใบสั่งบริการ และจากนั้นคลิกแท็บ **การจัดส่ง**</span><span class="sxs-lookup"><span data-stu-id="3d3f2-106">Select the service order, and then click the **Dispatch** tab.</span></span>
 
-3.  <span data-ttu-id="c1c67-107">บน **บานหน้าต่างการดำเนินการ** คลิก **ขั้นตอนถัดไป** หรือ **ขั้นตอนก่อนหน้านี้** อย่างใดอย่างหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c1c67-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
+3.  <span data-ttu-id="3d3f2-107">บน **บานหน้าต่างการดำเนินการ** คลิก **ขั้นตอนถัดไป** หรือ **ขั้นตอนก่อนหน้านี้** อย่างใดอย่างหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="3d3f2-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
 
-4.  <span data-ttu-id="c1c67-108">ในฟอร์ม **เปลี่ยนขั้นตอนการบริการ** เลือกขั้นตอนที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="c1c67-108">In the **Change service stage** form, select the appropriate stage.</span></span>
+4.  <span data-ttu-id="3d3f2-108">ในฟอร์ม **เปลี่ยนขั้นตอนการบริการ** เลือกขั้นตอนที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="3d3f2-108">In the **Change service stage** form, select the appropriate stage.</span></span>
 
 
 

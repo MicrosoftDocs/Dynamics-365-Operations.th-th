@@ -2,11 +2,9 @@
 title: การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์
 description: หัวข้อนี้อธิบายวิธีตั้งค่าการตรวจสอบสินค้าพร้อมทั้งการเบิกสินค้าคลัสเตอร์
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,31 +14,31 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e30022377cb02e7516cb98f48dc12e4f9e2ce172
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 530129ba6877c68475217d3a035775e25930cd07
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233042"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808881"
 ---
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="0336d-103">การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0336d-103">Product confirmation for cluster picking</span></span>
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="5edba-103">การยืนยันผลิตภัณฑ์สำหรับการเลือกคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="5edba-103">Product confirmation for cluster picking</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0336d-104">การเบิกสินค้าคลัสเตอร์ช่วยให้คุณสามารถเบิกสินค้าสำหรับใบสั่งหลายใบพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="0336d-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="0336d-105">เมื่อมีการนำการเบิกสินค้าคลัสเตอร์มาใช้ การยืนยันสินค้าเป็นสิ่งสำคัญยิ่งในการตรวจสอบสินค้าที่ถูกเพิ่มลงในคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0336d-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="0336d-106">คุณสามารถตรวจสอบสินค้าในการเบิกสินค้าคลัสเตอร์ในระหว่างกระบวนการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0336d-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+<span data-ttu-id="5edba-104">การเบิกสินค้าคลัสเตอร์ช่วยให้คุณสามารถเบิกสินค้าสำหรับใบสั่งหลายใบพร้อมกัน</span><span class="sxs-lookup"><span data-stu-id="5edba-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="5edba-105">เมื่อมีการนำการเบิกสินค้าคลัสเตอร์มาใช้ การยืนยันสินค้าเป็นสิ่งสำคัญยิ่งในการตรวจสอบสินค้าที่ถูกเพิ่มลงในคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="5edba-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="5edba-106">คุณสามารถตรวจสอบสินค้าในการเบิกสินค้าคลัสเตอร์ในระหว่างกระบวนการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="5edba-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="0336d-107">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="0336d-107">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="5edba-107">ตำแหน่งที่ใช้</span><span class="sxs-lookup"><span data-stu-id="5edba-107">Where it applies</span></span>
 
-<span data-ttu-id="0336d-108">การตรวจสอบสินค้าสำหรับการเบิกสินค้าคลัสเตอร์มีลักษณะเดียวกับเมื่อคุณตรวจสอบสินค้าในกระบวนการเบิกสินค้าที่ไม่ใช่คลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0336d-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="0336d-109">การตั้งค่าขึ้นอยู่กับการตั้งค่าบาร์โค้ดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="0336d-109">The setup is based on the product bar code setup.</span></span>
+<span data-ttu-id="5edba-108">การตรวจสอบสินค้าสำหรับการเบิกสินค้าคลัสเตอร์มีลักษณะเดียวกับเมื่อคุณตรวจสอบสินค้าในกระบวนการเบิกสินค้าที่ไม่ใช่คลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="5edba-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="5edba-109">การตั้งค่าขึ้นอยู่กับการตั้งค่าบาร์โค้ดของผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="5edba-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="0336d-110">ตั้งค่าการตรวจสอบสินค้าที่มีการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="0336d-110">Set up item verification with cluster picking</span></span>
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="5edba-110">ตั้งค่าการตรวจสอบสินค้าที่มีการเบิกสินค้าคลัสเตอร์</span><span class="sxs-lookup"><span data-stu-id="5edba-110">Set up item verification with cluster picking</span></span>
 
-1. <span data-ttu-id="0336d-111">บนรายการเมนูอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งค่าสำหรับการยืนยันงาน: **การบริหารคลังสินค้า** > **การบริหารคลังสินค้า** > **การตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="0336d-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-1. <span data-ttu-id="0336d-112">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน**</span><span class="sxs-lookup"><span data-stu-id="0336d-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+1. <span data-ttu-id="5edba-111">บนรายการเมนูอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งค่าสำหรับการยืนยันงาน: **การบริหารคลังสินค้า** > **การบริหารคลังสินค้า** > **การตั้งค่า** > **อุปกรณ์เคลื่อนที่** > **รายการเมนูของอุปกรณ์เคลื่อนที่**</span><span class="sxs-lookup"><span data-stu-id="5edba-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+1. <span data-ttu-id="5edba-112">จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน**</span><span class="sxs-lookup"><span data-stu-id="5edba-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-|        <span data-ttu-id="0336d-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="0336d-113">Option</span></span>        |                                    <span data-ttu-id="0336d-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="0336d-114">Description</span></span>                                    |
+|        <span data-ttu-id="5edba-113">ตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="5edba-113">Option</span></span>        |                                    <span data-ttu-id="5edba-114">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="5edba-114">Description</span></span>                                    |
 |----------------------|-----------------------------------------------------------------------------------|
-| <span data-ttu-id="0336d-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="0336d-115">Product confirmation</span></span> | <span data-ttu-id="0336d-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="0336d-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+| <span data-ttu-id="5edba-115">การยืนยันผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="5edba-115">Product confirmation</span></span> | <span data-ttu-id="5edba-116">ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่เมื่อมีการสแกน</span><span class="sxs-lookup"><span data-stu-id="5edba-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
