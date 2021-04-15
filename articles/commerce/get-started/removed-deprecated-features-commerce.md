@@ -2,11 +2,9 @@
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Commerce
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Commerce
 author: josaw
-manager: AnnBe
 ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 357f4673d77ee990c4e1b0ce84a704fd4d778402
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ccfbab6055b8b64ce0926cda04090583e0d7a6ae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797191"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Commerce
 
@@ -36,9 +34,6 @@ ms.locfileid: "5240230"
 > ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://docs.microsoft.com/dynamics/s-e/) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Commerce 10.0.17
-
-> [!Important]
-> รุ่น 10.0.17 พร้อมใช้งานโดยเป็นส่วนหนึ่งของการปลดตัวอย่างก่อนพิมพ์ เนื้อหาและฟังก์ชันการทำงานอาจเปลี่ยนแปลงได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้การแสดงตัวอย่าง ให้ดูที่ [FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version)
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>ไม่สนับสนุนช่วงการสร้างชุดข้อมูลแบบเต็ม
 

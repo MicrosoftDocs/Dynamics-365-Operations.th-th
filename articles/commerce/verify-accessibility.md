@@ -2,11 +2,9 @@
 title: ตรวจสอบความสามารถในการเข้าถึงเนื้อหาของหน้า
 description: หัวข้อนี้จะอธิบายวิธีการตรวจสอบความสามารถในการเข้าถึงเนื้อหาของหน้าใน Microsoft Dynamics 365 Commerce
 author: josaw1
-manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 885696c13b0e5353e6dbd9dc21cf075d5e301786
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210982"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791642"
 ---
 # <a name="verify-page-content-accessibility"></a>ตรวจสอบการเข้าถึงเนื้อหาของหน้า
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการตรวจสอบความสามารถในการเข้าถึงเนื้อหาของหน้าใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 เมื่อคุณเปลี่ยนหน้าเสร็จแล้ว คุณควรตรวจสอบให้แน่ใจว่าเนื้อหานั้นสามารถเข้าถึงได้สำหรับทุกคนบนเว็บ ในเครื่องมือการสร้าง Commerce คุณสามารถตรวจสอบความสามารถในการเข้าถึงเนื้อหาของหน้าได้อย่างง่ายดายโดยใช้บริการ [Microsoft Accessibility Insights](https://accessibilityinsights.io/) บริการนี้จะตรวจสอบเนื้อหาของเพจของคุณเทียบกับแนวทาง [ความสามารถในการเข้าถึง World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility) ล่าสุด
 

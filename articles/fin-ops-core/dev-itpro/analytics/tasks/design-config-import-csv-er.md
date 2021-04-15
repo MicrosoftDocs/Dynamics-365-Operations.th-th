@@ -2,7 +2,6 @@
 title: ออกแบบการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ CSV ภายนอก
 description: ใช้กระบวนงานนี้เพื่อออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าข้อมูลลงในแอป Finance and Operations จากไฟล์ภายนอกในรูปแบบ CSV
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82c3af7d49f725a045b17cbef00b56fdfa0383f3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 05beb15413362aea557fb80fb471c10e1f832184
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564129"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752543"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อนำเข้าข้อมูลจากไฟล์ CSV ภายนอก
 

@@ -2,8 +2,7 @@
 title: ฟังก์ชัน ER SPLITLIST
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) SPLITLIST
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559149"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745580"
 ---
 # <a name="splitlist-er-function"></a>ฟังก์ชัน ER SPLITLIST
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559149"
 
 ฟังก์ชัน `SPLITLIST` แบ่งรายการที่ระบุเป็นชุดย่อย (หรือชุดงาน) ซึ่งแต่ละชุดประกอบด้วยจำนวนเรกคอร์ดที่ระบุ จากนั้นจะส่งกลับผลลัพธ์เป็นค่า *รายการเรกคอร์ด* ใหม่ที่ประกอบด้วยชุดงาน
 
-## <a name="syntax"></a>ไวยากรณ์
+## <a name="syntax-1"></a>ไวยากรณ์ 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>ไวยากรณ์ 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>อาร์กิวเมนต์
@@ -44,6 +49,10 @@ SPLITLIST (list, number)
 `number`: *เลขจำนวนเต็ม*
 
 จำนวนสูงสุดของเรกคอร์ดต่อชุดงาน
+
+`on-demand reading flag`: *บูลีน*
+
+ค่า *บูลีน* ที่ระบุว่าควรมีการสร้างองค์ประกอบของรายการย่อยตามความต้องการหรือไม่
 
 ## <a name="return-values"></a>ค่าที่ส่งคืน
 
@@ -62,6 +71,8 @@ SPLITLIST (list, number)
 - **Batchnumber:** *จำนวนเต็ม*
 
     หมายเลขของชุดงานปัจจุบันในรายการที่ส่งคืน
+
+เมื่อตั้งค่าแฟล็กการอ่านตามความต้องการเป็น **จริง** รายการย่อยจะถูกสร้างขึ้นตามการร้องขอ ซึ่งอนุญาตให้ลดปริมาณการใช้หน่วยความจํา แต่อาจทําให้ประสิทธิภาพการลดลง ถ้าองค์ประกอบไม่ได้ถูกใช้ตามลำดับ
 
 ## <a name="example"></a>ตัวอย่าง
 

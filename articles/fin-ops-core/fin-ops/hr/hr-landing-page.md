@@ -1,8 +1,7 @@
 ---
-title: ภาพรวมของทรัพยากรบุคคล
-description: ทรัพยากรบุคคลช่วยลดขั้นตอนซ้ำซ้อนของงานเก็บเรกคอร์ดประจำและทำให้กระบวนการหลายอย่างที่เกี่ยวข้องกับการจัดหาพนักงานให้กับองค์กรของคุณทำงานโดยอัตโนมัติ และยังให้กรอบงานสำหรับพนักงานฝ่ายทรัพยากรบุคคลในการจัดการพื้นที่ควบคุมดูแล พื้นที่เหล่านี้รวมถึงการสรรหาพนักงานและเงินวางประกัน การจัดการสวัสดิการ การฝึกอบรม การตรวจสอบประสิทธิภาพการทำงาน และการจัดการการเปลี่ยนแปลง
+title: ภาพรวมของ Human Resources
+description: ทรัพยากรบุคคลลดขั้นตอนซ้ำซ้อนของงานการเก็บเรกคอร์ดตามปกติ ทำให้กระบวนการที่เกี่ยวข้องกับการจัดพนักงานให้กับองค์กรของคุณเป็นแบบอัตโนมัติ และให้กรอบงานสำหรับพนักงานฝ่ายทรัพยากรบุคคลเพื่อจัดการพื้นที่ควบคุมดูแล
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566709"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752191"
 ---
-# <a name="human-resources-overview"></a>ภาพรวมของทรัพยากรบุคคล
+# <a name="human-resources-overview"></a>ภาพรวมของ Human Resources
 
 [!include [banner](../includes/banner.md)]
 

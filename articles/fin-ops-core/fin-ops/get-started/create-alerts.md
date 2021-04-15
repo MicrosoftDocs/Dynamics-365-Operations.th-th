@@ -1,8 +1,7 @@
 ---
 title: การสร้างกฎการแจ้งเตือน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแจ้งเตือน และอธิบายวิธีการสร้างกฎการแจ้งเตือน เพื่อให้คุณได้รับแจ้งเกี่ยวกับเหตุการณ์ เช่น วันที่ที่มาถึง หรือการเปลี่ยนแปลงเฉพาะที่เกิดขึ้น
-author: tjvass
-manager: AnnBe
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแจ้งเตือน และอธิบายวิธีการสร้างกฎการแจ้งเตือน
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,21 +10,21 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559419"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749208"
 ---
-# <a name="create-alert-rules"></a>การสร้างกฎการแจ้งเตือน
+# <a name="create-alert-rules"></a>สร้างกฎการแจ้งเตือน
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="getting-started"></a>การเริ่มต้นใช้งาน
+## <a name="getting-started"></a>การเริ่มต้น
 
 ก่อนที่คุณจะตั้งค่ากฎการแจ้งเตือน ควรตัดสินใจว่าคุณต้องการรับข้อความแจ้งเตือนเมื่อใดหรือในสถานการณ์ใดบ้าง เมื่อคุณทราบแล้วว่าเหตุการณ์ใดที่คุณต้องการได้รับการแจ้งเตือน ให้ค้นหาหน้าของข้อมูลที่ทำให้เกิดการปรากฎของเหตุการณ์นั้น เหตุการณ์อาจเป็นวันที่ที่มาถึง หรือการเปลี่ยนแปลงบางอย่างที่เกิดขึ้น ดังนั้น คุณต้องค้นหาหน้าที่ซึ่งมีการระบุวันที่ หรือที่ซึ่งฟิลด์ที่เปลี่ยนแปลงหรือเรกคอร์ดใหม่ที่ถูกสร้างขึ้น ปรากฏขึ้น หลังจากที่คุณมีข้อมูลดังกล่าวแล้ว คุณก็สามารถสร้างกฎการแจ้งเตือนได้
 

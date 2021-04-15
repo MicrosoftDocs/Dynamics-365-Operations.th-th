@@ -2,11 +2,9 @@
 title: ผลการรวมผู้สมัคร
 description: หัวข้อนี้อธิบายชุดตัวเลือกผลลัพธ์การรวมผู้สมัครสำหรับ Dynamics 365 Human Resources
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd25eca9cccf46ec4e4bb2a1d948ca98985e73e4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e8e41fe485cc70a668d4610ce6eabba5cd16ac86
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795128"
 ---
 # <a name="applicant-integration-result"></a>ผลการรวมผู้สมัคร
 
