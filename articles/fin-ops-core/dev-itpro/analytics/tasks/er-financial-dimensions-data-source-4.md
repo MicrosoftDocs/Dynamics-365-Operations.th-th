@@ -2,7 +2,6 @@
 title: ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 4 - รันรายงาน)
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแบบโมเดลการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลของรายงาน ER (ส่วนที่ 4)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7cc1a60234ef09b80950cbf0c7f18b0d65709d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565225"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752399"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 4 - รันรายงาน)
 

@@ -2,8 +2,7 @@
 title: โฮมเพจการปรับใช้ในสถานที่
 description: หัวข้อนี้แสดงข้อมูลและลิงค์ไปยังเนื้อหาเกี่ยวกับการปรับใช้ในองค์กร
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564071"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749316"
 ---
 # <a name="on-premises-deployment-home-page"></a>โฮมเพจตัวเลือกการปรับใช้ในสถานที่
 
@@ -38,14 +37,16 @@ ms.locfileid: "5564071"
 
 ## <a name="onboard"></a>เตรียมความพร้อม
 - [ตั้งค่าโครงการ on-premises ใน Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [ตั้งค่าและปรับใช้สภาพแวดล้อม on-premises (การอัพเดตแพลตฟอร์ม 12 และรุ่นที่ใหม่กว่า)](setup-deploy-on-premises-pu12.md)
+- [ตั้งค่าและปรับใช้สภาพแวดล้อม on-premises (การอัพเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)](setup-deploy-on-premises-pu41.md)
+- [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัพเดต Platform 12 ผ่าน 40)](setup-deploy-on-premises-pu12.md)
 - [ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่](../analytics/install-network-printer-onprem.md)
 - [ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises](../analytics/configure-ssrs-on-premises.md)
-- [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในองค์กร](develop-deploy-custom-models-on-premises.md)
+- [พัฒนาและปรับใช้แบบจำลองที่กำหนดเองสำหรับสภาพแวดล้อมในสถานที่](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>งานในการปรับใช้ในองค์กรของคุณ
+- [ตั้งค่าคอนฟิกความพร้อมใช้งานสูงสำหรับโหนด SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [ตั้งค่าคอนฟิกการจัดการเอกสาร](../../fin-ops/organization-administration/configure-document-management.md)
-- [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [การสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร](../analytics/printing-capabilities-on-premises.md)
 - [ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่](onprem-reverseproxy.md)
 - [ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations](../lifecycle-services/support-experience.md)

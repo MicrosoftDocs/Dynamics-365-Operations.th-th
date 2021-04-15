@@ -2,11 +2,9 @@
 title: สร้างลูกค้าเริ่มต้น
 description: หัวข้อนี้อธิบายวิธีสร้างลูกค้าเริ่มต้นเพื่อใช้เมื่อสร้างช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477911"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799190"
 ---
 # <a name="create-a-default-customer"></a>สร้างลูกค้าเริ่มต้น
 
@@ -67,14 +65,14 @@ ms.locfileid: "5477911"
 
 ![สมุดที่อยู่](media/address-book.png)
 
-## <a name="create-a-default-customer"></a>สร้างลูกค้าเริ่มต้น
+## <a name="create-a-default-customer&quot;></a>สร้างลูกค้าเริ่มต้น
 
 ทำตามขั้นตอนเหล่านี้เพื่อสร้างลูกค้าเริ่มต้น
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล \> การขายปลีกและการค้า \> ลูกค้า \> ลูกค้าทั้งหมด**
 1. บนหน้าต่างการดำเนินการ เลือก **สร้าง**
-1. ในรายการแบบหล่นลง **ชนิด** ให้เลือก "บุคคล"
-1. ในรายการแบบหล่นลง **บัญชีของลูกค้า** เลือกหรือป้อนหมายเลขลูกค้าองค์กร (ตัวอย่างเช่น "100001")
+1. ในรายการแบบหล่นลง **ชนิด** ให้เลือก &quot;บุคคล&quot;
+1. ในรายการแบบหล่นลง **บัญชีของลูกค้า** เลือกหรือป้อนหมายเลขลูกค้าองค์กร (ตัวอย่างเช่น &quot;100001")
 1. ในรายการแบบหล่นลง **ชื่อ** เลือกหรือป้อนชื่อ (ตัวอย่างเช่น "ค่าเริ่มต้น")
 1. ในรายการแบบหล่นลง **ชื่อกลาง** เลือกหรือป้อนชื่อ (ตัวอย่างเช่น "การขายปลีก")
 1. ในรายการแบบหล่นลง **นามสกุล** เลือกหรือป้อนชื่อ (ตัวอย่างเช่น "ลูกค้า")
