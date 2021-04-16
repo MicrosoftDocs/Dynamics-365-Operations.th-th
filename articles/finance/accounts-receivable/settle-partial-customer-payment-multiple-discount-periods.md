@@ -2,11 +2,9 @@
 title: ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ
 description: บทความนี้แสดงวิธีการชำระเงินบางส่วนของผู้ซิ้อเมื่อมีหลายรอบระยะเวลาส่วนลด
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241725"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835111"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ
 
@@ -56,7 +54,7 @@ Arnie สามารถดูธุรกรรมนี้ในหน้า *
 
 ข้อมูลส่วนลดที่ปรากฏขึ้นที่ด้านล่างของหน้า **ชำระธุรกรรมที่ค้างอยู่** ถ้าคุณไม่เปลี่ยนค่า **ยอดเงินที่จะชำระ** เป็น **294.00** ค่า **ยอดส่วนลดเงินสด** ปรากฏแตกต่างกัน อย่างไรก็ตาม 6.00 จะถือเป็นส่วนลดเงินสดเมื่อลงรายการบัญชีการชำระเงิน เนื่องจากการชำระเงินโดยอัตโนมัติปรับเปลี่ยน **ยอดเงินที่จะชำระ** สำหรับคุณ
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | วันที่ให้ส่วนลดเงินสด           | วันที่ 30 มิถุนายน 2015 |
 | ยอดส่วนลดเงินสด         | 20.00     |
@@ -75,7 +73,7 @@ Arnie สามารถดูธุรกรรมนี้ในหน้า *
 
 ข้อมูลส่วนลดที่ปรากฏขึ้นที่ด้านล่างของหน้า **ชำระธุรกรรมที่ค้างอยู่**
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | วันที่ให้ส่วนลดเงินสด           | วันที่ 9 กรกฎาคม 2015 |
 | ยอดส่วนลดเงินสด         | 30.00     |

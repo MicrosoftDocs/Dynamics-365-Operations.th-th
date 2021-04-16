@@ -2,11 +2,9 @@
 title: การวางแผนการผลิต
 description: หัวข้อนี้อธิบายการวางแผนการผลิตและอธิบายวิธีการแก้ไขแผนการใบสั่งผลิตโดยใช้การเพิ่มประสิทธิภาพการวางแผน
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470844"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839234"
 ---
 # <a name="production-planning"></a>การวางแผนการผลิต
 
 การเพิ่มประสิทธิภาพการวางแผนสนับสนุนสถานการณ์การผลิตต่างๆ ถ้าคุณย้ายมาจากกลไกจัดการการวางแผนหลักในตัวที่มีอยู่ คุณควรทราบถึงลักษณะการทำงานที่เปลี่ยนแปลงบางอย่าง
 
 ภาพต่อไปนี้แสดงบทนําย่อเกี่ยวกับแนวคิดบางแนวคิดที่อธิบายไว้ในหัวข้อนี้: [การปรับปรุงประสิทธิภาพการวางแผน Dynamics 365 Supply Chain Management](https://youtu.be/u1pcmZuZBTw)
+
+## <a name="turn-on-this-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะนี้สำหรับระบบของคุณ
+
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *แผนการใบสั่งผลิตสำหรับการเพิ่มประสิทธิภาพการวางแผน*
 
 ## <a name="planned-production-orders"></a>แผนการใบสั่งผลิต
 

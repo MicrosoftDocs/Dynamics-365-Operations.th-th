@@ -1,12 +1,10 @@
 ---
 title: การแก้ไขปัญหาเบื้องต้นเกี่ยวกับการจัดการต้นทุน
 description: หัวข้อนี้จะอธิบายวิธีการแก้ไขปัญหาที่คุณอาจพบขณะทำงานกับการจัดการต้นทุน
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262464"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834300"
 ---
 # <a name="troubleshoot-cost-management"></a>การแก้ไขปัญหาเบื้องต้นเกี่ยวกับการจัดการต้นทุน
 
@@ -37,7 +35,7 @@ ms.locfileid: "5262464"
 
 ผลรวมย่อยอาจทำให้เกิดปัญหาเมื่อส่งออกผลลัพธ์ โดยเฉพาะถ้าผู้ใช้เปลี่ยนลำดับเรกคอร์ด
 
-เมื่อต้องการตรวจสอบผลรวมย่อย คุณสามารถส่งออกผลลัพธ์ไปยัง Microsoft Excel ได้ อีกทางหนึ่งคือ ถ้าคุณต้องการตรวจสอบผลรวมย่อยภายใน Supply Chain Management ให้ใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งาน *ตัวควบคุมกริดใหม่* และคุณลักษณะ *(การแสดงตัวอย่าง) การจัดกลุ่มในกริด* ซึ่งช่วยให้คุณสามารถดูผลรวมย่อยของกลุ่มใดก็ได้ตามต้องการ สำหรับข้อมูลเพิ่มเติม โปรดดูที่: [ความสามารถของกริด](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md)
+เมื่อต้องการตรวจสอบผลรวมย่อย คุณสามารถส่งออกผลลัพธ์ไปยัง Microsoft Excel ได้ อีกทางหนึ่งคือ ถ้าคุณต้องการตรวจสอบผลรวมย่อยภายใน Supply Chain Management ให้ใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งาน *ตัวควบคุมกริดใหม่* และคุณลักษณะ *การจัดกลุ่มในกริด* ซึ่งช่วยให้คุณสามารถดูผลรวมย่อยของกลุ่มใดก็ได้ตามต้องการ สำหรับข้อมูลเพิ่มเติม โปรดดูที่: [ความสามารถของกริด](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md)
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>รายงานการจัดเก็บมูลค่าสินค้าคงคลังไม่สนับสนุนข้อมูลบัญชีแยกประเภท
 

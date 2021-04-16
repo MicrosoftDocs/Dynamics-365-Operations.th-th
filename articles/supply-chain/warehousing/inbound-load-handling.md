@@ -2,11 +2,9 @@
 title: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
 description: หัวข้อนี้จะอธิบายกระบวนการจัดการคลังสินค้าสำหรับจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235351"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835641"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ
 
@@ -66,7 +64,7 @@ Microsoft Dynamics 365 Supply Chain Management สนับสนุนวิธ
 
 - **เมนูของอุปกรณ์เคลื่อนที่ที่ได้รับการตั้งค่าคอนฟิกเพื่อสนับสนุนการรับจำนวนงานในศูนย์การผลิต**
 
-    [แอปคลังสินค้า](install-configure-warehousing-app.md) สำหรับอุปกรณ์เคลื่อนที่จะสนับสนุนกระบวนการสร้างงานต่อไปนี้:
+    [แอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md) สำหรับอุปกรณ์เคลื่อนที่จะสนับสนุนกระบวนการสร้างงานต่อไปนี้:
 
     - การรับสินค้าของจำนวนงานในศูนย์การผลิต
     - การรับสินค้าของจำนวนงานในศูนย์การผลิตและการสำรองสินค้า
@@ -285,7 +283,7 @@ Microsoft Dynamics 365 Supply Chain Management สนับสนุนวิธ
 
 ก่อนที่เจ้าหน้าที่รับสินค้าของคลังสินค้าจะสามารถใช้อุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าคงคลังขาเข้าที่เชื่อมโยงกับจำนวนงานในศูนย์การผลิตได้ คุณต้องสร้างรายการเมนูบนอุปกรณ์เคลื่อนที่สำหรับวัตถุประสงค์ดังกล่าว
 
-ในส่วนนี้ คุณจะสร้างรายการเมนูบนอุปกรณ์เคลื่อนที่ และเพิ่มในเมนูที่มีอยู่ จากนั้นผู้ปฏิบัติงานคลังสินค้าสามารถเลือกรายการเมนูในแอปคลังสินค้าได้
+ในส่วนนี้ คุณจะสร้างรายการเมนูบนอุปกรณ์เคลื่อนที่ และเพิ่มในเมนูที่มีอยู่ จากนั้นผู้ปฏิบัติงานคลังสินค้าสามารถเลือกรายการเมนูในแอปการจัดการคลังสินค้าบนมือถือได้
 
 1. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> อุปกรณ์เคลื่อนที่ \> รายการเมนูบนอุปกรณ์เคลื่อนที่** และตรวจสอบให้แน่ใจว่าเมนูบนอุปกรณ์เคลื่อนที่ของคุณรวมรายการเมนูที่มีการตั้งค่าต่อไปนี้:
 

@@ -2,11 +2,9 @@
 title: ภาษีหัก ณ ที่จ่ายในประเทศไทย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b0d565a28650568b2a41e11f864bd02252b4b27
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: 54e214b6918f3cecbd9c5f1ca5737f951fb7fb9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555227"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840327"
 ---
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
