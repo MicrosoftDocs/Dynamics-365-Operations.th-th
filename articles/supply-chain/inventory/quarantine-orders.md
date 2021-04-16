@@ -2,11 +2,9 @@
 title: ใบสั่งตรวจสอบสินค้า
 description: หัวข้อนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
 author: perlynne
-manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08bb75228c79a0575e8476f41c935d0a03e00f35
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5a44909a7880b0cd53e39ccbadf8b79ae5c9dafc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209626"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834228"
 ---
 # <a name="quarantine-orders"></a>ใบสั่งตรวจสอบสินค้า
 

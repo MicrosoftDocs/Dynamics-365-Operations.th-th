@@ -2,11 +2,9 @@
 title: ภาพรวมของวัตถุอันตราย
 description: หัวข้อนี้แสดงภาพรวมของคุณลักษณะที่เกี่ยวข้องกับการจัดการและการจัดทำเอกสารวัตถุอันตรายระหว่างการจัดการข้อมูลผลิตภัณฑ์และการจัดการคลังสินค้า
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231899"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829389"
 ---
 # <a name="hazardous-materials-overview"></a>ภาพรวมของวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 เพื่อให้ยังคงเป็นไปตามกฎระเบียบการจัดส่งและการขนส่ง องค์กรที่จัดส่งวัตถุที่จัดประเภทเป็นสินค้าอันตรายต้องมีเอกสารเพิ่มเติมพร้อมกับการจัดส่งสินค้า คุณลักษณะวัตถุอันตรายให้ลูกค้าจัดเก็บข้อมูลที่เกี่ยวข้องกับสินค้าที่นำออกใช้ คุณสามารถใช้ข้อมูลนี้เพื่อช่วยจัดเตรียมเอกสารการจัดส่งได้ องค์กรที่จัดส่งสินค้าอันตรายต้องมีกระบวนการและขั้นตอนของตนเองสำหรับการจัดการกระบวนการจัดส่ง Microsoft Dynamics 365 Supply Chain Management เป็นเพียงเครื่องมือที่จะช่วยในการสร้างเอกสารที่จำเป็นเท่านั้น
 

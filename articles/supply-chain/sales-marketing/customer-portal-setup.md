@@ -2,11 +2,9 @@
 title: ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 description: หัวข้อนี้แสดงรายละเอียดของการให้สิทธิ์ใช้งาน และคำแนะนำการตั้งค่าสำหรับพอร์ทัลลูกค้า
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fa95995320a0f81c040eeebe6fd796200fbff13f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255048"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840736"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 

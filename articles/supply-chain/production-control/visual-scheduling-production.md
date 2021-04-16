@@ -2,11 +2,9 @@
 title: การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 description: ผู้วางแผนการผลิตสามารถควบคุมและปรับปรุงแผนการผลิตโดยใช้แผนภูมิ Gantt
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99a7955178ae97e5b696fce04c665d9a251c4a0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce2c20874b0dc901ff8684da2881c7f16ce622c9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215876"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836553"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 
