@@ -2,11 +2,9 @@
 title: สร้างบาร์โค้ดให้ผลิตภัณฑ์
 description: หัวข้อนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
@@ -15,32 +13,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ea98002343e776851525bcba4d555a8309e85d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62d789edea1bcce544693046d47d52473e2280f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218596"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820141"
 ---
-# <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="c5757-103">สร้างบาร์โค้ดให้ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="c5757-103">Create a bar code for a product</span></span>
+# <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="16f45-103">สร้างบาร์โค้ดให้ผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="16f45-103">Create a bar code for a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c5757-104">หัวข้อนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="c5757-104">This topic shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="c5757-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="c5757-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="16f45-104">หัวข้อนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="16f45-104">This topic shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="16f45-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="16f45-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="c5757-106">เลือก **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** บนหน้าแรก</span><span class="sxs-lookup"><span data-stu-id="c5757-106">Select **Released product maintenance** on the homepage.</span></span>
-2. <span data-ttu-id="c5757-107">ไปที่ **ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้** ภายใต้ส่วน **การเชื่อมโยง**</span><span class="sxs-lookup"><span data-stu-id="c5757-107">Go to **Products > Released products** under the **Links** section.</span></span>
-3. <span data-ttu-id="c5757-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="c5757-108">In the list, find and select the desired record.</span></span> <span data-ttu-id="c5757-109">สำหรับตัวอย่างนี้ ให้เลือก หมายเลขสินค้า **M0001**</span><span class="sxs-lookup"><span data-stu-id="c5757-109">For this example, select item number **M0001**.</span></span>
-4. <span data-ttu-id="c5757-110">ในบานหน้าต่างการดำเนินการ เลือก **จัดการสินค้าคงคลัง**</span><span class="sxs-lookup"><span data-stu-id="c5757-110">On the Action Pane, select **Manage inventory**.</span></span>
-5. <span data-ttu-id="c5757-111">เลือก **บาร์โค้ด**</span><span class="sxs-lookup"><span data-stu-id="c5757-111">Select **Bar codes**.</span></span>
-6. <span data-ttu-id="c5757-112">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="c5757-112">Select **New**.</span></span>
-7. <span data-ttu-id="c5757-113">ทำเครื่องหมายแถวที่เลือกที่สร้างไว้ในรายการด้านล่าง</span><span class="sxs-lookup"><span data-stu-id="c5757-113">Mark the selected row that is created in the list below.</span></span>
-8. <span data-ttu-id="c5757-114">ในฟิลด์ **การตั้งค่าบาร์โค้ด** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="c5757-114">In the **Barcode setup** field, enter or select a value.</span></span>
-9. <span data-ttu-id="c5757-115">ในฟิลด์ **บาร์โค้ด** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="c5757-115">In the **Bar code** field, enter or select a value.</span></span>
-10. <span data-ttu-id="c5757-116">ในฟิลด์ **บาร์โค้ด** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="c5757-116">In the **Bar code** field, type a value.</span></span>  
-11. <span data-ttu-id="c5757-117">ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="c5757-117">In the **Quantity** field, enter a number.</span></span>
-12. <span data-ttu-id="c5757-118">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="c5757-118">Select **Save**.</span></span>
-13. <span data-ttu-id="c5757-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="c5757-119">Close the page.</span></span> 
+1. <span data-ttu-id="16f45-106">เลือก **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** บนหน้าแรก</span><span class="sxs-lookup"><span data-stu-id="16f45-106">Select **Released product maintenance** on the homepage.</span></span>
+2. <span data-ttu-id="16f45-107">ไปที่ **ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้** ภายใต้ส่วน **การเชื่อมโยง**</span><span class="sxs-lookup"><span data-stu-id="16f45-107">Go to **Products > Released products** under the **Links** section.</span></span>
+3. <span data-ttu-id="16f45-108">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="16f45-108">In the list, find and select the desired record.</span></span> <span data-ttu-id="16f45-109">สำหรับตัวอย่างนี้ ให้เลือก หมายเลขสินค้า **M0001**</span><span class="sxs-lookup"><span data-stu-id="16f45-109">For this example, select item number **M0001**.</span></span>
+4. <span data-ttu-id="16f45-110">ในบานหน้าต่างการดำเนินการ เลือก **จัดการสินค้าคงคลัง**</span><span class="sxs-lookup"><span data-stu-id="16f45-110">On the Action Pane, select **Manage inventory**.</span></span>
+5. <span data-ttu-id="16f45-111">เลือก **บาร์โค้ด**</span><span class="sxs-lookup"><span data-stu-id="16f45-111">Select **Bar codes**.</span></span>
+6. <span data-ttu-id="16f45-112">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="16f45-112">Select **New**.</span></span>
+7. <span data-ttu-id="16f45-113">ทำเครื่องหมายแถวที่เลือกที่สร้างไว้ในรายการด้านล่าง</span><span class="sxs-lookup"><span data-stu-id="16f45-113">Mark the selected row that is created in the list below.</span></span>
+8. <span data-ttu-id="16f45-114">ในฟิลด์ **การตั้งค่าบาร์โค้ด** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="16f45-114">In the **Barcode setup** field, enter or select a value.</span></span>
+9. <span data-ttu-id="16f45-115">ในฟิลด์ **บาร์โค้ด** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="16f45-115">In the **Bar code** field, enter or select a value.</span></span>
+10. <span data-ttu-id="16f45-116">ในฟิลด์ **บาร์โค้ด** ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="16f45-116">In the **Bar code** field, type a value.</span></span>  
+11. <span data-ttu-id="16f45-117">ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข</span><span class="sxs-lookup"><span data-stu-id="16f45-117">In the **Quantity** field, enter a number.</span></span>
+12. <span data-ttu-id="16f45-118">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="16f45-118">Select **Save**.</span></span>
+13. <span data-ttu-id="16f45-119">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="16f45-119">Close the page.</span></span> 
 
 
 

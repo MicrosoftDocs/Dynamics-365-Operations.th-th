@@ -2,11 +2,9 @@
 title: สร้างกฎคัมบังการเบิกถอน
 description: 'กระบวนงานนี้แสดงการตั้งค่าที่จำเป็นในการสร้างกฎคัมบังการถอน สำหรับการโอนย้ายวัสดุในสภาพแวดล้อมแบบลีน '
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
@@ -16,52 +14,52 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1e1fc6dff80457cecdcd1659ffa42fd6c9c4447
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2adbcdbb2d278b25dce1d8c027e66367e9c0930e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828837"
 ---
-# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="abb0f-103">สร้างกฎคัมบังการเบิกถอน</span><span class="sxs-lookup"><span data-stu-id="abb0f-103">Create a withdrawal kanban rule</span></span>
+# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="8ca06-103">สร้างกฎคัมบังการเบิกถอน</span><span class="sxs-lookup"><span data-stu-id="8ca06-103">Create a withdrawal kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="abb0f-104">กระบวนงานนี้แสดงการตั้งค่าที่จำเป็นในการสร้างกฎคัมบังการถอน สำหรับการโอนย้ายวัสดุในสภาพแวดล้อมแบบลีน </span><span class="sxs-lookup"><span data-stu-id="abb0f-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="abb0f-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="abb0f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="abb0f-106">กระบวนงานนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสายธารคุณค่า เนื่องจากพวกเขาจัดเตรียมการเพิ่มเติมสินค้าหรือวัสดุที่มีการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="abb0f-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
+<span data-ttu-id="8ca06-104">กระบวนงานนี้แสดงการตั้งค่าที่จำเป็นในการสร้างกฎคัมบังการถอน สำหรับการโอนย้ายวัสดุในสภาพแวดล้อมแบบลีน </span><span class="sxs-lookup"><span data-stu-id="8ca06-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="8ca06-105">บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="8ca06-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8ca06-106">กระบวนงานนี้มีไว้สำหรับวิศวกรกระบวนการหรือผู้จัดการสายธารคุณค่า เนื่องจากพวกเขาจัดเตรียมการเพิ่มเติมสินค้าหรือวัสดุที่มีการแก้ไข</span><span class="sxs-lookup"><span data-stu-id="8ca06-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a><span data-ttu-id="abb0f-107">สร้างกฎคัมบังใหม่</span><span class="sxs-lookup"><span data-stu-id="abb0f-107">Create new kanban rule</span></span>
-1. <span data-ttu-id="abb0f-108">ไปที่กฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-108">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="abb0f-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="abb0f-109">Click New.</span></span>
-3. <span data-ttu-id="abb0f-110">ในฟิลด์ชนิด เลือก 'การถอน'</span><span class="sxs-lookup"><span data-stu-id="abb0f-110">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="abb0f-111">ชนิดการถอนถูกใช้สำหรับกฎคัมบัง เพื่อโอนย้ายวัสดุหรือสินค้า</span><span class="sxs-lookup"><span data-stu-id="abb0f-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
-4. <span data-ttu-id="abb0f-112">ในฟิลด์กิจกรรมการวางแผนแรก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="abb0f-112">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="abb0f-113">เลือก ReplenishSpeakerComponents </span><span class="sxs-lookup"><span data-stu-id="abb0f-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="abb0f-114">กิจกรรมนี้ถูกตั้งขึ้นเพื่อย้ายส่วนประกอบจากคลังสินค้า 11 สถานที่ 11 ไปยังคลังสินค้า 12 สถานที่ 12</span><span class="sxs-lookup"><span data-stu-id="abb0f-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
-5. <span data-ttu-id="abb0f-115">ในฟิลด์ผลิตภัณฑ์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="abb0f-115">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="abb0f-116">เลือก M0007</span><span class="sxs-lookup"><span data-stu-id="abb0f-116">Select M0007.</span></span>  
-6. <span data-ttu-id="abb0f-117">ในฟิลด์ระยะเวลารอคอยสินค้า ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="abb0f-117">In the Lead time field, enter a number.</span></span>
-    * <span data-ttu-id="abb0f-118">ตัวอย่างเช่น 60</span><span class="sxs-lookup"><span data-stu-id="abb0f-118">For example, 60.</span></span>  
-7. <span data-ttu-id="abb0f-119">ในฟิลด์หน่วยวัด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="abb0f-119">In the Unit of measure field, enter or select a value.</span></span>
-    * <span data-ttu-id="abb0f-120">ตัวอย่างเช่น นาที</span><span class="sxs-lookup"><span data-stu-id="abb0f-120">For example, Minutes.</span></span>  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="8ca06-107">สร้างกฎคัมบังใหม่</span><span class="sxs-lookup"><span data-stu-id="8ca06-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="8ca06-108">ไปที่กฎคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="8ca06-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="8ca06-109">Click New.</span></span>
+3. <span data-ttu-id="8ca06-110">ในฟิลด์ชนิด เลือก 'การถอน'</span><span class="sxs-lookup"><span data-stu-id="8ca06-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="8ca06-111">ชนิดการถอนถูกใช้สำหรับกฎคัมบัง เพื่อโอนย้ายวัสดุหรือสินค้า</span><span class="sxs-lookup"><span data-stu-id="8ca06-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
+4. <span data-ttu-id="8ca06-112">ในฟิลด์กิจกรรมการวางแผนแรก ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="8ca06-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="8ca06-113">เลือก ReplenishSpeakerComponents </span><span class="sxs-lookup"><span data-stu-id="8ca06-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="8ca06-114">กิจกรรมนี้ถูกตั้งขึ้นเพื่อย้ายส่วนประกอบจากคลังสินค้า 11 สถานที่ 11 ไปยังคลังสินค้า 12 สถานที่ 12</span><span class="sxs-lookup"><span data-stu-id="8ca06-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
+5. <span data-ttu-id="8ca06-115">ในฟิลด์ผลิตภัณฑ์ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="8ca06-115">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="8ca06-116">เลือก M0007</span><span class="sxs-lookup"><span data-stu-id="8ca06-116">Select M0007.</span></span>  
+6. <span data-ttu-id="8ca06-117">ในฟิลด์ระยะเวลารอคอยสินค้า ให้ป้อนหมายเลข</span><span class="sxs-lookup"><span data-stu-id="8ca06-117">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="8ca06-118">ตัวอย่างเช่น 60</span><span class="sxs-lookup"><span data-stu-id="8ca06-118">For example, 60.</span></span>  
+7. <span data-ttu-id="8ca06-119">ในฟิลด์หน่วยวัด ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="8ca06-119">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="8ca06-120">ตัวอย่างเช่น นาที</span><span class="sxs-lookup"><span data-stu-id="8ca06-120">For example, Minutes.</span></span>  
 
-## <a name="set-quantities-for-kanban"></a><span data-ttu-id="abb0f-121">ตั้งค่าปริมาณสำหรับคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-121">Set quantities for kanban</span></span>
-1. <span data-ttu-id="abb0f-122">กำหนดปริมาณเริ่มต้นเป็น '5'</span><span class="sxs-lookup"><span data-stu-id="abb0f-122">Set Default quantity to '5'.</span></span>
-    * <span data-ttu-id="abb0f-123">นี่คือปริมาณที่จะถูกโอนย้ายสำหรับแต่ละคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-123">This is the quantity that will be transferred for each kanban.</span></span>  
-2. <span data-ttu-id="abb0f-124">ในฟิลด์ปริมาณตามระบบคัมบังแบบคงที่ ให้ป้อน '2'</span><span class="sxs-lookup"><span data-stu-id="abb0f-124">In the Fixed kanban quantity field, enter '2'.</span></span>
-    * <span data-ttu-id="abb0f-125">จำนวนของคัมบังที่ควรเปิดใช้งานอยู่ </span><span class="sxs-lookup"><span data-stu-id="abb0f-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="abb0f-126">ในกรณีนี้ คัมบัง 2 รายการ ซึ่งแต่ละรายการโอนย้าย 5 รายการ</span><span class="sxs-lookup"><span data-stu-id="abb0f-126">In this case, 2 kanbans transferring 5 each.</span></span>  
-3. <span data-ttu-id="abb0f-127">ในฟิลด์ค่าต่ำสุดของขอบเขตการแจ้งเตือน ให้ป้อน '1'</span><span class="sxs-lookup"><span data-stu-id="abb0f-127">In the Alert boundary minimum field, enter '1'.</span></span>
-    * <span data-ttu-id="abb0f-128">ใช้เพื่อติดตามจำนวนเงินต่ำสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="abb0f-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="abb0f-129">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-129">For example, this is used on the kanban quantity overview.</span></span>  
-4. <span data-ttu-id="abb0f-130">ในฟิลด์ค่าสูงสุดของขอบเขตการแจ้งเตือน ให้ป้อน '2'</span><span class="sxs-lookup"><span data-stu-id="abb0f-130">In the Alert boundary maximum field, enter '2'.</span></span>
-    * <span data-ttu-id="abb0f-131">ใช้เพื่อติดตามจำนวนเงินสูงสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="abb0f-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="abb0f-132">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-132">For example, this is used on the kanban quantity overview.</span></span>  
+## <a name="set-quantities-for-kanban"></a><span data-ttu-id="8ca06-121">ตั้งค่าปริมาณสำหรับคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-121">Set quantities for kanban</span></span>
+1. <span data-ttu-id="8ca06-122">กำหนดปริมาณเริ่มต้นเป็น '5'</span><span class="sxs-lookup"><span data-stu-id="8ca06-122">Set Default quantity to '5'.</span></span>
+    * <span data-ttu-id="8ca06-123">นี่คือปริมาณที่จะถูกโอนย้ายสำหรับแต่ละคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-123">This is the quantity that will be transferred for each kanban.</span></span>  
+2. <span data-ttu-id="8ca06-124">ในฟิลด์ปริมาณตามระบบคัมบังแบบคงที่ ให้ป้อน '2'</span><span class="sxs-lookup"><span data-stu-id="8ca06-124">In the Fixed kanban quantity field, enter '2'.</span></span>
+    * <span data-ttu-id="8ca06-125">จำนวนของคัมบังที่ควรเปิดใช้งานอยู่ </span><span class="sxs-lookup"><span data-stu-id="8ca06-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="8ca06-126">ในกรณีนี้ คัมบัง 2 รายการ ซึ่งแต่ละรายการโอนย้าย 5 รายการ</span><span class="sxs-lookup"><span data-stu-id="8ca06-126">In this case, 2 kanbans transferring 5 each.</span></span>  
+3. <span data-ttu-id="8ca06-127">ในฟิลด์ค่าต่ำสุดของขอบเขตการแจ้งเตือน ให้ป้อน '1'</span><span class="sxs-lookup"><span data-stu-id="8ca06-127">In the Alert boundary minimum field, enter '1'.</span></span>
+    * <span data-ttu-id="8ca06-128">ใช้เพื่อติดตามจำนวนเงินต่ำสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="8ca06-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="8ca06-129">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-129">For example, this is used on the kanban quantity overview.</span></span>  
+4. <span data-ttu-id="8ca06-130">ในฟิลด์ค่าสูงสุดของขอบเขตการแจ้งเตือน ให้ป้อน '2'</span><span class="sxs-lookup"><span data-stu-id="8ca06-130">In the Alert boundary maximum field, enter '2'.</span></span>
+    * <span data-ttu-id="8ca06-131">ใช้เพื่อติดตามจำนวนเงินสูงสุดของคัมบังทั้งหมดซึ่งควรอยู่ที่ปลายทาง </span><span class="sxs-lookup"><span data-stu-id="8ca06-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="8ca06-132">ตัวอย่างเช่น นี่จะถูกใช้ในภาพรวมของปริมาณคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-132">For example, this is used on the kanban quantity overview.</span></span>  
 
-## <a name="create-kanbans"></a><span data-ttu-id="abb0f-133">สร้างคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-133">Create kanbans</span></span>
-1. <span data-ttu-id="abb0f-134">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="abb0f-134">Click Save.</span></span>
-    * <span data-ttu-id="abb0f-135">กฎคัมบังจำเป็นต้องถูกบันทึกก่อนจึงจะสามารถสร้างคัมบังได้</span><span class="sxs-lookup"><span data-stu-id="abb0f-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
-2. <span data-ttu-id="abb0f-136">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="abb0f-136">Click Add.</span></span>
-    * <span data-ttu-id="abb0f-137">หมายเหตุว่า ไม่มีคัมบังที่ใช้งานอยู่ เนื่องจาก 'จำนวนของคัมบังใหม่' ที่แนะนำคือ 2 ซึ่งเท่ากับ 'คัมบังแบบปริมาณคงที่'</span><span class="sxs-lookup"><span data-stu-id="abb0f-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
-3. <span data-ttu-id="abb0f-138">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="abb0f-138">Click Create.</span></span>
-    * <span data-ttu-id="abb0f-139">นี่จะสร้างสองคัมบัง</span><span class="sxs-lookup"><span data-stu-id="abb0f-139">This will create two kanbans.</span></span>  
-    * <span data-ttu-id="abb0f-140">หมายเหตุว่า คัมบัง 2 คัมบังสำหรับแต่ละ 5 รายการ ถูกสร้างขึ้นสำหรับกฎคัมบังการถอน </span><span class="sxs-lookup"><span data-stu-id="abb0f-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="abb0f-141">นี่เป็นขั้นตอนสุดท้ายในกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="abb0f-141">This is the last step in this procedure.</span></span>  
+## <a name="create-kanbans"></a><span data-ttu-id="8ca06-133">สร้างคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-133">Create kanbans</span></span>
+1. <span data-ttu-id="8ca06-134">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="8ca06-134">Click Save.</span></span>
+    * <span data-ttu-id="8ca06-135">กฎคัมบังจำเป็นต้องถูกบันทึกก่อนจึงจะสามารถสร้างคัมบังได้</span><span class="sxs-lookup"><span data-stu-id="8ca06-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+2. <span data-ttu-id="8ca06-136">คลิก เพิ่ม</span><span class="sxs-lookup"><span data-stu-id="8ca06-136">Click Add.</span></span>
+    * <span data-ttu-id="8ca06-137">หมายเหตุว่า ไม่มีคัมบังที่ใช้งานอยู่ เนื่องจาก 'จำนวนของคัมบังใหม่' ที่แนะนำคือ 2 ซึ่งเท่ากับ 'คัมบังแบบปริมาณคงที่'</span><span class="sxs-lookup"><span data-stu-id="8ca06-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
+3. <span data-ttu-id="8ca06-138">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="8ca06-138">Click Create.</span></span>
+    * <span data-ttu-id="8ca06-139">นี่จะสร้างสองคัมบัง</span><span class="sxs-lookup"><span data-stu-id="8ca06-139">This will create two kanbans.</span></span>  
+    * <span data-ttu-id="8ca06-140">หมายเหตุว่า คัมบัง 2 คัมบังสำหรับแต่ละ 5 รายการ ถูกสร้างขึ้นสำหรับกฎคัมบังการถอน </span><span class="sxs-lookup"><span data-stu-id="8ca06-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="8ca06-141">นี่เป็นขั้นตอนสุดท้ายในกระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="8ca06-141">This is the last step in this procedure.</span></span>  
 
 
 
