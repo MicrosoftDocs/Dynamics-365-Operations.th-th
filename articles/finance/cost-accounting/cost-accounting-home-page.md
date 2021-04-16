@@ -2,11 +2,9 @@
 title: โฮมเพจการบัญชีต้นทุน
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่น ๆ ที่พร้อมใช้งานสำหรับการบัญชีต้นทุน
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841128"
 ---
 # <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
 
@@ -36,7 +34,7 @@ ms.locfileid: "5219974"
 
 ## <a name="quick-links"></a>ลิงค์ด่วน
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [ตั้งค่าคอนฟิกเอนทิตีฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องการลูกค้าองค์กร CustomerSource )  |[มิติองค์ประกอบต้นทุน](cost-elements.md)  |
 |  [ลำดับชั้นของมิติ](dimension-hierarchy.md)  |[กำหนดหน่วยการควบคุมต้นทุน](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ ms.locfileid: "5219974"
 
 ## <a name="get-started-videosbr"></a>เริ่มต้นใช้งานวิดีโอ<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [เริ่มต้นใช้งานการบัญชีต้นทุน](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [พื้นที่ทำงานแบบเคลื่อนที่ของการบัญชีต้นทุน](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [ใช้ Excel สำหรับการวิเคราะห์การบัญชีต้นทุน](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

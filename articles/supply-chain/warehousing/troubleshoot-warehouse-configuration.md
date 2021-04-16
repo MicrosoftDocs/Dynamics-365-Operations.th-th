@@ -2,11 +2,9 @@
 title: แก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า
 description: หัวข้อนี้อธิบายวิธีการแก้ไขปัญหาทั่วไปที่คุณอาจพบในระหว่างที่คุณตั้ตั้งค่าคอนฟิก Microsoft Dynamics 365 Supply Chain Management
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487108"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814403"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>แก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า
 
@@ -38,7 +36,7 @@ ms.locfileid: "5487108"
 
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
-ตรวจสอบให้แน่ใจว่ารหัสป้ายทะเบียนไม่ถูกจองโดยอย่างอื่น ปัญหานี้จะเกิดขึ้นเมื่อมีการใช้ค่าที่ผู้ใช้สแกนในแอปคลังสินค้าเป็นทั้งสถานที่ที่ถูกต้องและรหัสป้ายทะเบียนที่ถูกต้อง อย่างไรก็ตาม ปัญหานี้ได้รับการแก้ไขแล้วในรุ่น10.0.11
+ตรวจสอบให้แน่ใจว่ารหัสป้ายทะเบียนไม่ถูกจองโดยอย่างอื่น ปัญหานี้จะเกิดขึ้นเมื่อมีการใช้ค่าที่ผู้ใช้สแกนในแอปการจัดการคลังสินค้าบนมือถือเป็นทั้งสถานที่ที่ถูกต้องและรหัสป้ายทะเบียนที่ถูกต้อง อย่างไรก็ตาม ปัญหานี้ได้รับการแก้ไขแล้วในรุ่น10.0.11
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>ฉันได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "ป้ายทะเบียต้องระบุสำหรับสถานที่"
 
@@ -82,7 +80,7 @@ ms.locfileid: "5487108"
 
 ลักษณะการทำงานใหม่ *ประเมินการดำเนินการทั้งหมดสำหรับคำสั่งที่ตั้งหลาย SKU* ซึ่งถูกเพิ่มเข้าในรุ่น 10.0.15 (โปรดดูที่ [4579866 KB](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)) ลักษณะการทำงานนี้จะประเมินการดำเนินการทั้งหมดสำหรับคำสั่งที่ตั้งหลาย SKU ถ้าคุณต้องการใช้ลักษณะการทำงานนี้ ให้ใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งาน
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>ฉันไม่สามารถใช้แอปคลังสินค้าเพื่อทำการเบิกสินค้าบางส่วน
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>ฉันไม่สามารถใช้แอปการจัดการคลังสินค้าบนมือถือเพื่อทำการเบิกสินค้าบางส่วน
 
 ### <a name="issue-description"></a>คำอธิบายปัญหา
 
@@ -100,7 +98,7 @@ ms.locfileid: "5487108"
 
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
-เมื่อต้องการให้ผู้ปฏิบัติงานสามารถทำการเปลี่ยนแปลงนี้ได้ คุณสามารถสร้างรายการเมนูสำหรับแอปคลังสินค้าได้ ในหน้า **รายการเมนูของอุปกรณ์เคลื่อนที่** สร้าง (หรือแก้ไข) รายการเมนูสำหรับหนึ่งในวิธีต่อไปนี้ :
+เมื่อต้องการให้ผู้ปฏิบัติงานสามารถทำการเปลี่ยนแปลงนี้ได้ คุณสามารถสร้างรายการเมนูสำหรับแอปการจัดการคลังสินค้าบนมือถือได้ ในหน้า **รายการเมนูของอุปกรณ์เคลื่อนที่** สร้าง (หรือแก้ไข) รายการเมนูสำหรับหนึ่งในวิธีต่อไปนี้ :
 
 - **โหมด:** *งาน*
 - **ใช้งานที่มีอยู่:** *ไม่*

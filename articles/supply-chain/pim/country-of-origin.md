@@ -2,11 +2,9 @@
 title: ประเทศของผู้ผลิต
 description: องค์กรจำนวนมากออกใบรับรองให้กับผู้จัดจำหน่ายของพวกเขา เพื่อให้มั่นใจว่าผลิตภัณฑ์ตรงตามมาตรฐานการรับรองเฉพาะ ใบรับรองเหล่านี้มักจะขึ้นอยู่กับประเทศต้นทาง หัวข้อนี้จะให้ข้อมูลเกี่ยวกับคุณลักษณะประเทศต้นทาง ซึ่งช่วยให้คุณสามารถเชื่อมโยงผลิตภัณฑ์ไปยังประเทศต้นทางและติดตามการรับรองผลิตภัณฑ์
 author: dasani-madipalli
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COOVendorCerts
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: bb35770f32c21a685b21a41dc7c369ee01fe3891
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243308"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829557"
 ---
 # <a name="country-of-origin"></a>ประเทศของผู้ผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 องค์กรจำนวนมากออกใบรับรองให้กับผู้จัดจำหน่ายของพวกเขา เพื่อให้มั่นใจว่าผลิตภัณฑ์ตรงตามมาตรฐานการรับรองเฉพาะ ใบรับรองเหล่านี้มักจะขึ้นอยู่กับประเทศต้นทาง คุณลักษณะประเทศต้นทางช่วยให้คุณสามารถเชื่อมโยงผลิตภัณฑ์ไปยังประเทศต้นทางและติดตามการรับรองผลิตภัณฑ์
 

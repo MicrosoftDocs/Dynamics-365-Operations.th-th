@@ -2,11 +2,9 @@
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้ว่าจะลบใน Dynamics 365 Supply Chain Management
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259102"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821284"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ ms.locfileid: "5259102"
 
 > [!NOTE]
 > ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://docs.microsoft.com/dynamics/s-e/) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.18
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- คลังสินค้า (แอปคลังสินค้า)
+
+|   |  |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | มีผลบังคับใช้วันที่ 2021 *Dynamics 365 for Finance and Operations - คลังสินค้า* (แอปคลังสินค้า) ไม่ได้รับการสนับสนุนและจะไม่ได้รับการสนับสนุนหลังจากเดือนเมษายน 2022 ซึ่งถูกแทนที่ด้วย *แอปการจัดการคลังสินค้าบนมือถือ* ซึ่งถูกปล่อยออกใช้ด้วยรุ่น 10.0.17 ของ Supply Chain Management แอปใหม่เป็นการแทนที่โดยสมบูรณ์แต่ใช้กรอบงานการทดแทนเดียวกันซึ่งช่วยให้การย้ายข้อมูลได้ง่าย หากต้องการ แอปสองแอปสามารถใช้ได้ทีละขั้นตอนเพื่อช่วยให้ผู้ใช้ปรับปรุงทีละน้อยเมื่อผู้ใช้เรียนรู้ที่จะใช้แอปใหม่<br><br>สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [แอปการจัดการคลังสินค้าบนมือถือใหม่](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) และ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md) |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ แทนที่ด้วยแอปการจัดการคลังสินค้าบนมือถือใหม่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | Supply Chain Management - แอปคลังสินค้า |
+| **ตัวเลือกการปรับใช้**              | ระบบคลาวด์และในองค์กร |
+| **สถานะ**                         | ยกเลิกการใช้งาน แอปคลังสินค้าจะได้รับการสนับสนุนเกี่ยวกับการแก้ไขบักและการรักษาความปลอดภัย แต่จะไม่มีการปรับปรุงคุณลักษณะอีกต่อไป หลังจากวันที่ 2022 เมษายน แอปคลังสินค้าเก่าจะไม่ได้รับการสนับสนุนอีกต่อไป และลูกค้าจะถูกขอให้ย้ายไปยังแอปการจัดการคลังสินค้าบนมือถือใหม่ จากนั้นแอปคลังสินค้าเก่าจะถูกลบออกจาก Microsoft Store และร้านค้า Google Play  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.15
 

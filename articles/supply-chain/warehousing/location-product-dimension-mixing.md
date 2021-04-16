@@ -2,11 +2,9 @@
 title: การผสมมิติของผลิตภัณฑ์ในสถานที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการผสมมิติผลิตภัณฑ์ของตำแหน่งที่ตั้ง ฟังก์ชันของโพรไฟล์สถานที่นี้จะช่วยปรับปรุงการจัดการสถานที่เมื่อมีการใช้ผลิตภัณฑ์ย่อยหรือผลิตภัณฑ์ที่มีมิติ เช่น ในอุตสาหกรรมแฟชั่น ซึ่งช่วยให้คุณสามารถเลือกว่าจะรวมการตั้งค่าคอนฟิก สี ลักษณะ และขนาด ให้กับโพรไฟล์ที่ตั้งเฉพาะหรือไม่ หรือมีมิติหรือหนึ่งในมิติเหล่านี้เท่านั้นที่สามารถนำไปวางกับสถานที่เดียวกันได้
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217040"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831301"
 ---
 # <a name="location-product-dimension-mixing"></a>การผสมมิติของผลิตภัณฑ์ในสถานที่
 
@@ -206,9 +204,9 @@ ms.locfileid: "5217040"
 
 1.เลือก **บันทึก**
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>รับบรรทัดใบสั่งซื้อในแอปคลังสินค้า
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>รับบรรทัดใบสั่งซื้อในแอปการจัดการคลังสินค้าบนมือถือ
 
-1. ลงชื่อเข้าใช้ไปยังแอปคลังสินค้าในฐานะผู้ใช้ที่สามารถใช้งานคลังสินค้า *24*
+1. ลงชื่อเข้าใช้ไปยังแอปการจัดการคลังสินค้าบนมือถือในฐานะผู้ใช้ที่เปิดใช้งานคลังสินค้า *24*
 1. เลือกเมนู **ขาเข้า**
 1. เลือก **การรับรายการ PO**
 1. เลือกฟิลด์ **PONUM** จากนั้นป้อนหมายเลขใบสั่งซื้อ

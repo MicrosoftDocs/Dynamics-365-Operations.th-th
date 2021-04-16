@@ -2,11 +2,9 @@
 title: ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้
 description: บทความนี้แนะนำคุณผ่านสถานการณ์ที่ใบลดหนี้ถูกชำระด้วยใบแจ้งหนี้
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227315"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827853"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>ชำระเงินบางส่วนให้แก่ผู้จัดจำหน่ายที่มีส่วนลดบนใบลดหนี้
 
@@ -42,7 +40,7 @@ ms.locfileid: "5227315"
 
 ข้อมูลส่วนลดสำหรับใบลดหนี้จะปรากฏขึ้นที่ด้านล่างของหน้า **ชำระธุรกรรมที่ค้างอยู่**
 
-|                              |           |
+| ฟิลด์                        | มูลค่า     |
 |------------------------------|-----------|
 | วันที่ให้ส่วนลดเงินสด           | 13 กรกฎาคม 2015 |
 | ยอดส่วนลดเงินสด         | 2.00      |

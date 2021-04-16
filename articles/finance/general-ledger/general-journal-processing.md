@@ -2,11 +2,9 @@
 title: การประมวลผลสมุดรายวันทั่วไป
 description: หัวข้อนี้อธิบายความสามารถของ Microsoft Dynamics 365 Finance ที่สามารถช่วยทำให้การประมวลผลสมุดรายวันทั่วไปง่ายขึ้น และยังสามารถช่วยให้มั่นใจว่าข้อมูลที่ถูกต้องได้รับการจัดเก็บและการควบคุมภายในไม่ได้ถูกลดทอน
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f9f19f0714fc160792a29261e21fe4ec8d62c4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249250"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815583"
 ---
 # <a name="general-journal-processing"></a>การประมวลผลสมุดรายวันทั่วไป
 

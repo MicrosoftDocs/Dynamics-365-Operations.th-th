@@ -2,11 +2,9 @@
 title: การตั้งค่าการบัญชีระหว่างบริษัท
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการบัญชีระหว่างบริษัทเพื่อให้คุณสามารถใช้สมุดรายวันระหว่างบริษัทสำหรับการปันส่วนบัญชีแยกประเภทและสมุดรายวันทางการเงิน เช่น สมุดรายวันประจำวัน สมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่าย และสมุดรายวันการชำระเงิน
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6e7aa7bde493a1527b3c953e0ff2c6ce61df4c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0f74a70c5db4f70b9850fb5093f1afea2a4f7240
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249034"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826605"
 ---
 # <a name="intercompany-accounting-setup"></a>การตั้งค่าการบัญชีระหว่างบริษัท
 
