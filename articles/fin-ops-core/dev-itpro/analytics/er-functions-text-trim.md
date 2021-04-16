@@ -2,7 +2,6 @@
 title: ฟังก์ชัน TRIM ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ TRIM (ER)
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
@@ -16,44 +15,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b671ef72a3558c17fb16db939770394b225656da
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 93b08792a7aab7245d0443da05e0330bf8b2d56e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560048"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746060"
 ---
-# <a name="trim-er-function"></a><span data-ttu-id="4c7b5-103">ฟังก์ชัน TRIM ER</span><span class="sxs-lookup"><span data-stu-id="4c7b5-103">TRIM ER function</span></span>
+# <a name="trim-er-function"></a><span data-ttu-id="29c43-103">ฟังก์ชัน TRIM ER</span><span class="sxs-lookup"><span data-stu-id="29c43-103">TRIM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4c7b5-104">ฟังก์ชัน `TRIM` ส่งคืนสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากช่องว่างนำหน้าและต่อท้ายถูกตัดออกแล้ว และหลังจากที่ได้ลบช่องว่างหลายช่องระหว่างคำ</span><span class="sxs-lookup"><span data-stu-id="4c7b5-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
+<span data-ttu-id="29c43-104">ฟังก์ชัน `TRIM` ส่งคืนสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากช่องว่างนำหน้าและต่อท้ายถูกตัดออกแล้ว และหลังจากที่ได้ลบช่องว่างหลายช่องระหว่างคำ</span><span class="sxs-lookup"><span data-stu-id="29c43-104">The `TRIM` function returns the specified text string as a *String* value after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4c7b5-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="4c7b5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="29c43-105">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="29c43-105">Syntax</span></span>
 
 ```vb
 TRIM (text )
 ```
 
-## <a name="arguments"></a><span data-ttu-id="4c7b5-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="4c7b5-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="29c43-106">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="29c43-106">Arguments</span></span>
 
-<span data-ttu-id="4c7b5-107">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="4c7b5-107">`text`: *String*</span></span>
+<span data-ttu-id="29c43-107">`text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="29c43-107">`text`: *String*</span></span>
 
-<span data-ttu-id="4c7b5-108">พาธที่ถูกต้องของแหล่งข้อมูลของชนิด *สตริง*</span><span class="sxs-lookup"><span data-stu-id="4c7b5-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="29c43-108">พาธที่ถูกต้องของแหล่งข้อมูลของชนิด *สตริง*</span><span class="sxs-lookup"><span data-stu-id="29c43-108">The valid path of a data source of the *String* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4c7b5-109">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="4c7b5-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="29c43-109">ส่งคืนค่า</span><span class="sxs-lookup"><span data-stu-id="29c43-109">Return values</span></span>
 
-<span data-ttu-id="4c7b5-110">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="4c7b5-110">*String*</span></span>
+<span data-ttu-id="29c43-110">*สตริง*</span><span class="sxs-lookup"><span data-stu-id="29c43-110">*String*</span></span>
 
-<span data-ttu-id="4c7b5-111">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="4c7b5-111">The resulting text value.</span></span>
+<span data-ttu-id="29c43-111">ค่าข้อความที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="29c43-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4c7b5-112">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="4c7b5-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="29c43-112">ตัวอย่าง</span><span class="sxs-lookup"><span data-stu-id="29c43-112">Example</span></span>
 
-<span data-ttu-id="4c7b5-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` ส่งกลับ **"ข้อความตัวอย่าง"**</span><span class="sxs-lookup"><span data-stu-id="4c7b5-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
+<span data-ttu-id="29c43-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` ส่งกลับ **"ข้อความตัวอย่าง"**</span><span class="sxs-lookup"><span data-stu-id="29c43-113">`TRIM ("`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Sample`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`text`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`")` returns **"Sample text"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="4c7b5-114">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="4c7b5-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="29c43-114">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="29c43-114">Additional resources</span></span>
 
-[<span data-ttu-id="4c7b5-115">ฟังก์ชันข้อความ</span><span class="sxs-lookup"><span data-stu-id="4c7b5-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="29c43-115">ฟังก์ชันข้อความ</span><span class="sxs-lookup"><span data-stu-id="29c43-115">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
