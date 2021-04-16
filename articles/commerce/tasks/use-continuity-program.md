@@ -2,11 +2,9 @@
 title: การใช้โปรแกรมความต่อเนื่อง
 description: 'กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง '
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
@@ -16,50 +14,50 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1de6d2cd88ba31f526621497d6fab36db631933e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58eca42634ad995f174350bc3a1996ddc4c449b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232652"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804100"
 ---
-# <a name="using-continuity-program"></a><span data-ttu-id="81fa8-103">การใช้โปรแกรมความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="81fa8-103">Using continuity program</span></span>
+# <a name="using-continuity-program"></a><span data-ttu-id="789ba-103">การใช้โปรแกรมความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="789ba-103">Using continuity program</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="81fa8-104">กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง </span><span class="sxs-lookup"><span data-stu-id="81fa8-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="81fa8-105">เมื่อต้องการดำเนินกระบวนงานนี้ให้เสร็จสมบูรณ์ จะต้องตั้งค่าผู้ใช้เป็นผู้ใช้ศูนย์บริการ </span><span class="sxs-lookup"><span data-stu-id="81fa8-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="81fa8-106">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="81fa8-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="789ba-104">กระบวนงานนี้แนะนำการขายโปรแกรมความต่อเนื่อง และการประมวลผลใบสั่งขายที่เกี่ยวข้อง </span><span class="sxs-lookup"><span data-stu-id="789ba-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="789ba-105">เมื่อต้องการดำเนินกระบวนงานนี้ให้เสร็จสมบูรณ์ จะต้องตั้งค่าผู้ใช้เป็นผู้ใช้ศูนย์บริการ </span><span class="sxs-lookup"><span data-stu-id="789ba-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="789ba-106">ขั้นตอนนี้ใช้บริษัทข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="789ba-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="81fa8-107">ไปที่ Retail และ Commerce > ลูกค้า > บริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="81fa8-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="81fa8-108">ในฟิลด์ SearchText พิมพ์ 'Karen' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="81fa8-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
-    * <span data-ttu-id="81fa8-109">กล่องโต้ตอบการค้นหาขั้นสูงควรป๊อปอัพขึ้นมา </span><span class="sxs-lookup"><span data-stu-id="81fa8-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="81fa8-110">หากไม่ป๊อปอัพขึ้นมา ให้คลิก ค้นหา ที่ด้านขวาของฟิลด์นี้</span><span class="sxs-lookup"><span data-stu-id="81fa8-110">If it doesn't, click Search to the right of this field.</span></span>  
-3. <span data-ttu-id="81fa8-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="81fa8-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="81fa8-112">ควรมีเพียงแถวเดียวที่แสดง Karen Berg </span><span class="sxs-lookup"><span data-stu-id="81fa8-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="81fa8-113">เลือกแถวโดยคลิกที่คอลัมน์เครื่องหมายเลือกทางด้านซ้ายสุดของกริด</span><span class="sxs-lookup"><span data-stu-id="81fa8-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
-4. <span data-ttu-id="81fa8-114">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="81fa8-114">Click Select.</span></span>
-5. <span data-ttu-id="81fa8-115">คลิกใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="81fa8-115">Click New sales order.</span></span>
-    * <span data-ttu-id="81fa8-116">เป็นความคิดที่ดีที่จะบันทึกหมายเลขใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="81fa8-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="81fa8-117">คุณจะจำเป็นต้องใช้ในกระบวนงานนี้ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="81fa8-117">You'll need it later in this procedure.</span></span>  
-6. <span data-ttu-id="81fa8-118">ในฟิลด์หมายเลขสินค้า พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="81fa8-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="81fa8-119">นี่คือสินค้าที่ต่อเนื่องในข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="81fa8-119">This is a continuity item in the USRT demo data.</span></span>  
-7. <span data-ttu-id="81fa8-120">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="81fa8-120">Click Complete.</span></span>
-8. <span data-ttu-id="81fa8-121">ในฟิลด์วิธีการชำระเงิน ให้ป้อน 'Visa'</span><span class="sxs-lookup"><span data-stu-id="81fa8-121">In the Payment method field, enter 'Visa'.</span></span>
-9. <span data-ttu-id="81fa8-122">คลิก เพิ่มบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="81fa8-122">Click Add credit card.</span></span>
-    * <span data-ttu-id="81fa8-123">ป้อนข้อมูลบัตรเครดิตที่จำเป็นในหน้านี้</span><span class="sxs-lookup"><span data-stu-id="81fa8-123">Enter the required credit card information on this page.</span></span>  
-10. <span data-ttu-id="81fa8-124">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="81fa8-124">Click OK.</span></span>
-11. <span data-ttu-id="81fa8-125">ขยายส่วนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="81fa8-125">Expand the Payment section.</span></span>
-    * <span data-ttu-id="81fa8-126">เมื่อต้องการส่งใบสั่งศูนย์บริการ จะต้องป้อนการชำระเงินสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="81fa8-126">To submit a call center order, payments have to be entered for the order.</span></span>  
-12. <span data-ttu-id="81fa8-127">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="81fa8-127">Click OK.</span></span>
-13. <span data-ttu-id="81fa8-128">คลิก ส่ง </span><span class="sxs-lookup"><span data-stu-id="81fa8-128">Click Submit.</span></span>
-    * <span data-ttu-id="81fa8-129">คุณดำเนินการสร้างใบสั่งที่มีความต่อเนื่องใหม่เสร็จแล้ว </span><span class="sxs-lookup"><span data-stu-id="81fa8-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="81fa8-130">ถัดไป คุณจะรันการประมวลผลชุดงานสองรายการที่จะใช้ในการประมวลผลใบสั่งที่มีความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="81fa8-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
-14. <span data-ttu-id="81fa8-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="81fa8-131">Close the page.</span></span>
-15. <span data-ttu-id="81fa8-132">ไปที่ Retail และ Commerce > ความต่อเนื่อง > ดำเนินการชำระเงินที่ต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="81fa8-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
-16. <span data-ttu-id="81fa8-133">ในฟิลด์สินค้าที่ต่อเนื่อง พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="81fa8-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-17. <span data-ttu-id="81fa8-134">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="81fa8-134">Click OK.</span></span>
-18. <span data-ttu-id="81fa8-135">ไปที่ Retail และ Commerce > ความต่อเนื่อง > สร้างใบสั่งรองที่มีความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="81fa8-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
-    * <span data-ttu-id="81fa8-136">กระบวนการนี้จะสร้างใบสั่งขายใหม่ที่ขึ้นอยู่กับการตั้งค่าของโปรแกรมความต่อเนื่องของคุณ</span><span class="sxs-lookup"><span data-stu-id="81fa8-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
-19. <span data-ttu-id="81fa8-137">ในฟิลด์สินค้าที่ต่อเนื่อง พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="81fa8-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="81fa8-138">สินค้า '88000' คือสินค้าที่ต่อเนื่องในข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="81fa8-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
-20. <span data-ttu-id="81fa8-139">ในฟิลด์ใบสั่งขาย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="81fa8-139">In the Sales order field, enter or select a value.</span></span>
-    * <span data-ttu-id="81fa8-140">ป้อนหมายเลขใบสั่งขายที่คุณบันทึกไว้ก่อนหน้านี้ในกระบวนงาน </span><span class="sxs-lookup"><span data-stu-id="81fa8-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="81fa8-141">ซึ่งจะทำให้ใช้เวลาในการประมวลผลสำหรับกระบวนงานนี้น้อยที่สุด </span><span class="sxs-lookup"><span data-stu-id="81fa8-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="81fa8-142">ฟิลด์ใบสั่งขายไม่จำเป็นต้องระบุ คุณสามารถประมวลผลใบสั่งทั้งหมดสำหรับโปรแกรมหนึ่งๆ ได้</span><span class="sxs-lookup"><span data-stu-id="81fa8-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
-21. <span data-ttu-id="81fa8-143">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="81fa8-143">Click OK.</span></span>
+1. <span data-ttu-id="789ba-107">ไปที่ Retail และ Commerce > ลูกค้า > บริการลูกค้า</span><span class="sxs-lookup"><span data-stu-id="789ba-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="789ba-108">ในฟิลด์ SearchText พิมพ์ 'Karen' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="789ba-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="789ba-109">กล่องโต้ตอบการค้นหาขั้นสูงควรป๊อปอัพขึ้นมา </span><span class="sxs-lookup"><span data-stu-id="789ba-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="789ba-110">หากไม่ป๊อปอัพขึ้นมา ให้คลิก ค้นหา ที่ด้านขวาของฟิลด์นี้</span><span class="sxs-lookup"><span data-stu-id="789ba-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="789ba-111">ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="789ba-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="789ba-112">ควรมีเพียงแถวเดียวที่แสดง Karen Berg </span><span class="sxs-lookup"><span data-stu-id="789ba-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="789ba-113">เลือกแถวโดยคลิกที่คอลัมน์เครื่องหมายเลือกทางด้านซ้ายสุดของกริด</span><span class="sxs-lookup"><span data-stu-id="789ba-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="789ba-114">คลิกเลือก </span><span class="sxs-lookup"><span data-stu-id="789ba-114">Click Select.</span></span>
+5. <span data-ttu-id="789ba-115">คลิกใบสั่งขายใหม่</span><span class="sxs-lookup"><span data-stu-id="789ba-115">Click New sales order.</span></span>
+    * <span data-ttu-id="789ba-116">เป็นความคิดที่ดีที่จะบันทึกหมายเลขใบสั่งขาย </span><span class="sxs-lookup"><span data-stu-id="789ba-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="789ba-117">คุณจะจำเป็นต้องใช้ในกระบวนงานนี้ในภายหลัง</span><span class="sxs-lookup"><span data-stu-id="789ba-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="789ba-118">ในฟิลด์หมายเลขสินค้า พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="789ba-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="789ba-119">นี่คือสินค้าที่ต่อเนื่องในข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="789ba-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="789ba-120">คลิกเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="789ba-120">Click Complete.</span></span>
+8. <span data-ttu-id="789ba-121">ในฟิลด์วิธีการชำระเงิน ให้ป้อน 'Visa'</span><span class="sxs-lookup"><span data-stu-id="789ba-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="789ba-122">คลิก เพิ่มบัตรเครดิต</span><span class="sxs-lookup"><span data-stu-id="789ba-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="789ba-123">ป้อนข้อมูลบัตรเครดิตที่จำเป็นในหน้านี้</span><span class="sxs-lookup"><span data-stu-id="789ba-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="789ba-124">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="789ba-124">Click OK.</span></span>
+11. <span data-ttu-id="789ba-125">ขยายส่วนการชำระเงิน</span><span class="sxs-lookup"><span data-stu-id="789ba-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="789ba-126">เมื่อต้องการส่งใบสั่งศูนย์บริการ จะต้องป้อนการชำระเงินสำหรับใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="789ba-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="789ba-127">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="789ba-127">Click OK.</span></span>
+13. <span data-ttu-id="789ba-128">คลิก ส่ง </span><span class="sxs-lookup"><span data-stu-id="789ba-128">Click Submit.</span></span>
+    * <span data-ttu-id="789ba-129">คุณดำเนินการสร้างใบสั่งที่มีความต่อเนื่องใหม่เสร็จแล้ว </span><span class="sxs-lookup"><span data-stu-id="789ba-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="789ba-130">ถัดไป คุณจะรันการประมวลผลชุดงานสองรายการที่จะใช้ในการประมวลผลใบสั่งที่มีความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="789ba-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="789ba-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="789ba-131">Close the page.</span></span>
+15. <span data-ttu-id="789ba-132">ไปที่ Retail และ Commerce > ความต่อเนื่อง > ดำเนินการชำระเงินที่ต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="789ba-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="789ba-133">ในฟิลด์สินค้าที่ต่อเนื่อง พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="789ba-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="789ba-134">คลิก ตกลง </span><span class="sxs-lookup"><span data-stu-id="789ba-134">Click OK.</span></span>
+18. <span data-ttu-id="789ba-135">ไปที่ Retail และ Commerce > ความต่อเนื่อง > สร้างใบสั่งรองที่มีความต่อเนื่อง</span><span class="sxs-lookup"><span data-stu-id="789ba-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="789ba-136">กระบวนการนี้จะสร้างใบสั่งขายใหม่ที่ขึ้นอยู่กับการตั้งค่าของโปรแกรมความต่อเนื่องของคุณ</span><span class="sxs-lookup"><span data-stu-id="789ba-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="789ba-137">ในฟิลด์สินค้าที่ต่อเนื่อง พิมพ์ '88000' จากนั้น กดคีย์ Tab</span><span class="sxs-lookup"><span data-stu-id="789ba-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="789ba-138">สินค้า '88000' คือสินค้าที่ต่อเนื่องในข้อมูลสาธิต USRT</span><span class="sxs-lookup"><span data-stu-id="789ba-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="789ba-139">ในฟิลด์ใบสั่งขาย ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="789ba-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="789ba-140">ป้อนหมายเลขใบสั่งขายที่คุณบันทึกไว้ก่อนหน้านี้ในกระบวนงาน </span><span class="sxs-lookup"><span data-stu-id="789ba-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="789ba-141">ซึ่งจะทำให้ใช้เวลาในการประมวลผลสำหรับกระบวนงานนี้น้อยที่สุด </span><span class="sxs-lookup"><span data-stu-id="789ba-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="789ba-142">ฟิลด์ใบสั่งขายไม่จำเป็นต้องระบุ คุณสามารถประมวลผลใบสั่งทั้งหมดสำหรับโปรแกรมหนึ่งๆ ได้</span><span class="sxs-lookup"><span data-stu-id="789ba-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="789ba-143">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="789ba-143">Click OK.</span></span>
 
 
 

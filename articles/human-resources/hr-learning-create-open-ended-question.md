@@ -2,11 +2,9 @@
 title: สร้างคำถามปลายเปิดแบบสิ้นสุด
 description: 'คำถามปลายเปิดช่วยให้ผู้ตอบให้ตอบแสดงการตอบสนองของตนเอง '
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMQuestion, HcmLearningWorkspace
 audience: Application User
@@ -16,29 +14,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f140690f3abe32ab3ba8b8ff4b5fca30b9fa51b2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e5d20e8f22c640091e1ddad5bf45aafafd701c8b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467878"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800320"
 ---
-# <a name="create-an-open-ended-question"></a><span data-ttu-id="68909-103">สร้างคำถามปลายเปิดแบบสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="68909-103">Create an open ended question</span></span>
+# <a name="create-an-open-ended-question"></a><span data-ttu-id="639f8-103">สร้างคำถามปลายเปิดแบบสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="639f8-103">Create an open ended question</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="68909-104">คำถามปลายเปิดช่วยให้ผู้ตอบให้ตอบแสดงการตอบสนองของตนเอง </span><span class="sxs-lookup"><span data-stu-id="68909-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="68909-105">คุณสามารถควบคุมการตอบสนองที่เป็นตัวเลข ทศนิยม วัน ข้อคิดเห็น และอื่น ๆ </span><span class="sxs-lookup"><span data-stu-id="68909-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="68909-106">ขั้นตอนนี้นำไปสู่กระบวนการสร้างชนิดของคำถามที่เฉพาะเจาะจง คำถามปลายเปิด </span><span class="sxs-lookup"><span data-stu-id="68909-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="68909-107">เพื่อเริ่มต้นกระบวนงานนี้ ไปที่แบบสอบถาม > การออกแบบ > คำถาม </span><span class="sxs-lookup"><span data-stu-id="68909-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="68909-108">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="68909-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="639f8-104">คำถามปลายเปิดช่วยให้ผู้ตอบให้ตอบแสดงการตอบสนองของตนเอง </span><span class="sxs-lookup"><span data-stu-id="639f8-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="639f8-105">คุณสามารถควบคุมการตอบสนองที่เป็นตัวเลข ทศนิยม วัน ข้อคิดเห็น และอื่น ๆ </span><span class="sxs-lookup"><span data-stu-id="639f8-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="639f8-106">ขั้นตอนนี้นำไปสู่กระบวนการสร้างชนิดของคำถามที่เฉพาะเจาะจง คำถามปลายเปิด </span><span class="sxs-lookup"><span data-stu-id="639f8-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="639f8-107">เพื่อเริ่มต้นกระบวนงานนี้ ไปที่แบบสอบถาม > การออกแบบ > คำถาม </span><span class="sxs-lookup"><span data-stu-id="639f8-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="639f8-108">ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF</span><span class="sxs-lookup"><span data-stu-id="639f8-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="68909-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="68909-109">Click New.</span></span>
-2. <span data-ttu-id="68909-110">เลือกชนิดเพื่อจัดกลุ่มคำถามที่เกี่ยวข้องกัน</span><span class="sxs-lookup"><span data-stu-id="68909-110">Select a Type to group related questions.</span></span>
-3. <span data-ttu-id="68909-111">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="68909-111">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="68909-112">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="68909-112">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="68909-113">ป้อนชนิดของข้อความ จำนวนเต็ม จำนวนจริง วัน เวลา และหมายเหตุที่จะใช้สำหรับคำถามปลายเปิด</span><span class="sxs-lookup"><span data-stu-id="68909-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
-5. <span data-ttu-id="68909-114">ในฟิลด์ชนิดของข้อมูลป้อนเข้า ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="68909-114">In the Input type field, select an option.</span></span>
-    * <span data-ttu-id="68909-115">ชนิดของการป้อนข้อมูลของข้อความหรือหมายเหตุสำหรับคำถามปลายเปิด</span><span class="sxs-lookup"><span data-stu-id="68909-115">An input type of Text or Note is used for an open-ended question.</span></span>  
-6. <span data-ttu-id="68909-116">ในฟิลด์ข้อความ ให้ป้อนคำถามของคุณ</span><span class="sxs-lookup"><span data-stu-id="68909-116">In the Text field, enter your question.</span></span>
+1. <span data-ttu-id="639f8-109">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="639f8-109">Click New.</span></span>
+2. <span data-ttu-id="639f8-110">เลือกชนิดเพื่อจัดกลุ่มคำถามที่เกี่ยวข้องกัน</span><span class="sxs-lookup"><span data-stu-id="639f8-110">Select a Type to group related questions.</span></span>
+3. <span data-ttu-id="639f8-111">ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ</span><span class="sxs-lookup"><span data-stu-id="639f8-111">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="639f8-112">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="639f8-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="639f8-113">ป้อนชนิดของข้อความ จำนวนเต็ม จำนวนจริง วัน เวลา และหมายเหตุที่จะใช้สำหรับคำถามปลายเปิด</span><span class="sxs-lookup"><span data-stu-id="639f8-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
+5. <span data-ttu-id="639f8-114">ในฟิลด์ชนิดของข้อมูลป้อนเข้า ให้เลือกตัวเลือกหนึ่งตัวเลือก</span><span class="sxs-lookup"><span data-stu-id="639f8-114">In the Input type field, select an option.</span></span>
+    * <span data-ttu-id="639f8-115">ชนิดของการป้อนข้อมูลของข้อความหรือหมายเหตุสำหรับคำถามปลายเปิด</span><span class="sxs-lookup"><span data-stu-id="639f8-115">An input type of Text or Note is used for an open-ended question.</span></span>  
+6. <span data-ttu-id="639f8-116">ในฟิลด์ข้อความ ให้ป้อนคำถามของคุณ</span><span class="sxs-lookup"><span data-stu-id="639f8-116">In the Text field, enter your question.</span></span>
 
 
 

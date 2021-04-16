@@ -2,11 +2,9 @@
 title: ตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,71 +14,71 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220594"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796135"
 ---
-# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="5d7a4-103">ตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-103">Configure a channel to use a channel navigation hierarchy</span></span>
+# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="155a8-103">ตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-103">Configure a channel to use a channel navigation hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5d7a4-104">หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทางใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="5d7a4-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="155a8-104">หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทางใน Microsoft Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="155a8-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5d7a4-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="5d7a4-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="155a8-105">ภาพรวม</span><span class="sxs-lookup"><span data-stu-id="155a8-105">Overview</span></span>
 
-<span data-ttu-id="5d7a4-106">ลำดับชั้นการนำทางช่องทางจัดระเบียบผลิตภัณฑ์ให้เป็นประเภท เพื่อให้สามารถเรียกดูผลิตภัณฑ์บนไซต์อีคอมเมิร์ซหรือที่จุดขาย (POS)</span><span class="sxs-lookup"><span data-stu-id="5d7a4-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="5d7a4-107">ต้องมีการตั้งค่าคอนฟิกช่องทาง Retail และออนไลน์ด้วยลำดับชั้นการนำทางช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
+<span data-ttu-id="155a8-106">ลำดับชั้นการนำทางช่องทางจัดระเบียบผลิตภัณฑ์ให้เป็นประเภท เพื่อให้สามารถเรียกดูผลิตภัณฑ์บนไซต์อีคอมเมิร์ซหรือที่จุดขาย (POS)</span><span class="sxs-lookup"><span data-stu-id="155a8-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="155a8-107">ต้องมีการตั้งค่าคอนฟิกช่องทาง Retail และออนไลน์ด้วยลำดับชั้นการนำทางช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
 
-## <a name="configure-the-channel"></a><span data-ttu-id="5d7a4-108">ตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-108">Configure the channel</span></span>
+## <a name="configure-the-channel"></a><span data-ttu-id="155a8-108">ตั้งค่าคอนฟิกช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-108">Configure the channel</span></span>
 
-<span data-ttu-id="5d7a4-109">ในการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="5d7a4-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
+<span data-ttu-id="155a8-109">ในการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง ให้ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="155a8-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="5d7a4-110">ในบานหน้าต่างนำทาง ไปยัง **โมดูล \> Retail และการค้า \> การตั้งค่าช่องทาง \> ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
-1. <span data-ttu-id="5d7a4-111">เลือกช่องทางเพื่อตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="5d7a4-111">Select the channel to configure.</span></span>
-1. <span data-ttu-id="5d7a4-112">บนบานหน้าต่างการดำเนินการ เลือก **ตั้งค่าข้อมูลเมตาของแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-112">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="5d7a4-113">ในรายการแบบหล่นลง **การจัดประเภทตามลำดับชั้น** ให้เลือกลำดับชั้นการนำทางช่องทางที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="5d7a4-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
-1. <span data-ttu-id="5d7a4-114">บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-114">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="5d7a4-115">ภายใต้ **กลุ่มแอตทริบิวต์** ให้เพิ่มกลุ่มแอตทริบิวต์ใดๆ ที่จะเป็นแอตทริบิวต์ส่วนกลางสำหรับโหนดทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="5d7a4-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
+1. <span data-ttu-id="155a8-110">ในบานหน้าต่างนำทาง ไปยัง **โมดูล \> Retail และการค้า \> การตั้งค่าช่องทาง \> ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="155a8-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
+1. <span data-ttu-id="155a8-111">เลือกช่องทางเพื่อตั้งค่าคอนฟิก</span><span class="sxs-lookup"><span data-stu-id="155a8-111">Select the channel to configure.</span></span>
+1. <span data-ttu-id="155a8-112">บนบานหน้าต่างการดำเนินการ เลือก **ตั้งค่าข้อมูลเมตาของแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="155a8-112">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="155a8-113">ในรายการแบบหล่นลง **การจัดประเภทตามลำดับชั้น** ให้เลือกลำดับชั้นการนำทางช่องทางที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="155a8-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
+1. <span data-ttu-id="155a8-114">บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="155a8-114">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="155a8-115">ภายใต้ **กลุ่มแอตทริบิวต์** ให้เพิ่มกลุ่มแอตทริบิวต์ใดๆ ที่จะเป็นแอตทริบิวต์ส่วนกลางสำหรับโหนดทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="155a8-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
 
-<span data-ttu-id="5d7a4-116">ภาพต่อไปนี้แสดงวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
+<span data-ttu-id="155a8-116">ภาพต่อไปนี้แสดงวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
 
 ![การตั้งค่าคอนฟิกช่องทางตัวอย่าง](media/configure-channel-hierarchy-1.png)
 
-## <a name="set-attribute-metadata"></a><span data-ttu-id="5d7a4-118">ตั้งค่าข้อมูลเมตาของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="5d7a4-118">Set attribute metadata</span></span>
+## <a name="set-attribute-metadata"></a><span data-ttu-id="155a8-118">ตั้งค่าข้อมูลเมตาของแอททริบิวต์</span><span class="sxs-lookup"><span data-stu-id="155a8-118">Set attribute metadata</span></span>
 
-<span data-ttu-id="5d7a4-119">การตั้งค่าข้อมูลเมตาของแอตทริบิวต์จะอนุญาตการตั้งค่าคอนฟิกของแอตทริบิวต์บนโหนดแต่ละโหนด</span><span class="sxs-lookup"><span data-stu-id="5d7a4-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
+<span data-ttu-id="155a8-119">การตั้งค่าข้อมูลเมตาของแอตทริบิวต์จะอนุญาตการตั้งค่าคอนฟิกของแอตทริบิวต์บนโหนดแต่ละโหนด</span><span class="sxs-lookup"><span data-stu-id="155a8-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
 
-<span data-ttu-id="5d7a4-120">หากต้องการตั้งค่าข้อมูลเมตาของแอตทริบิวต์ ให้ดำเนินการตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="5d7a4-120">To set attribute metadata, follow these steps.</span></span>
+<span data-ttu-id="155a8-120">หากต้องการตั้งค่าข้อมูลเมตาของแอตทริบิวต์ ให้ดำเนินการตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="155a8-120">To set attribute metadata, follow these steps.</span></span>
 
-1. <span data-ttu-id="5d7a4-121">บนบานหน้าต่างการดำเนินการ เลือก **ตั้งค่าข้อมูลเมตาของแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-121">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="5d7a4-122">สำหรับโหนดแต่ละโหนด เลือก **แอตทริบิวต์ของผลิตภัณฑ์ช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-122">For each node select **Channel product attributes**.</span></span>
-1. <span data-ttu-id="5d7a4-123">ตั้งค่า **แสดงแอตทริบิวต์บนช่องทาง** เป็น **ใช่** และ **สามารถจำกัดได้** เป็น **ใช่** เพื่อเปิดใช้งานผู้ปรับปรุงบนช่องสัญญาณนั้น</span><span class="sxs-lookup"><span data-stu-id="5d7a4-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
-1. <span data-ttu-id="5d7a4-124">หลังจากการตั้งค่าคอนฟิกโหนดแต่ละโหนดตามต้องการ **บานหน้าต่างการดำเนินการ** เลือกปุ่ม **บันทึก** เพื่อบันทึก</span><span class="sxs-lookup"><span data-stu-id="5d7a4-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
-1. <span data-ttu-id="5d7a4-125">เลือก **X** ที่มุมขวาบนเพื่อออกจากหน้าจอนี้ กลับไปที่หน้า **ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
+1. <span data-ttu-id="155a8-121">บนบานหน้าต่างการดำเนินการ เลือก **ตั้งค่าข้อมูลเมตาของแอททริบิวต์**</span><span class="sxs-lookup"><span data-stu-id="155a8-121">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="155a8-122">สำหรับโหนดแต่ละโหนด เลือก **แอตทริบิวต์ของผลิตภัณฑ์ช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="155a8-122">For each node select **Channel product attributes**.</span></span>
+1. <span data-ttu-id="155a8-123">ตั้งค่า **แสดงแอตทริบิวต์บนช่องทาง** เป็น **ใช่** และ **สามารถจำกัดได้** เป็น **ใช่** เพื่อเปิดใช้งานผู้ปรับปรุงบนช่องสัญญาณนั้น</span><span class="sxs-lookup"><span data-stu-id="155a8-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
+1. <span data-ttu-id="155a8-124">หลังจากการตั้งค่าคอนฟิกโหนดแต่ละโหนดตามต้องการ **บานหน้าต่างการดำเนินการ** เลือกปุ่ม **บันทึก** เพื่อบันทึก</span><span class="sxs-lookup"><span data-stu-id="155a8-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
+1. <span data-ttu-id="155a8-125">เลือก **X** ที่มุมขวาบนเพื่อออกจากหน้าจอนี้ กลับไปที่หน้า **ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="155a8-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
 
-<span data-ttu-id="5d7a4-126">รูปภาพต่อไปนี้แสดงชุดตัวอย่างของคุณลักษณะของผลิตภัณฑ์ช่องทางที่ตั้งค่าคอนฟิกบนโหนดประเภทของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
+<span data-ttu-id="155a8-126">รูปภาพต่อไปนี้แสดงชุดตัวอย่างของคุณลักษณะของผลิตภัณฑ์ช่องทางที่ตั้งค่าคอนฟิกบนโหนดประเภทของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
 
 ![แอตทริบิวต์ช่องทางบนโหนดประเภทของช่องทาง](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a><span data-ttu-id="5d7a4-128">เผยแพร่การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-128">Publish changes</span></span>
+## <a name="publish-changes"></a><span data-ttu-id="155a8-128">เผยแพร่การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="155a8-128">Publish changes</span></span>
 
-<span data-ttu-id="5d7a4-129">เพื่อให้การเปลี่ยนแปลงของคุณมีผล คุณจะต้องเผยแพร่การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-129">For changes to take effect, you will need to publish the changes.</span></span>
+<span data-ttu-id="155a8-129">เพื่อให้การเปลี่ยนแปลงของคุณมีผล คุณจะต้องเผยแพร่การเปลี่ยนแปลง</span><span class="sxs-lookup"><span data-stu-id="155a8-129">For changes to take effect, you will need to publish the changes.</span></span>
 
-<span data-ttu-id="5d7a4-130">หากต้องการเผยแพร่การเปลี่ยนแปลง ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="5d7a4-130">To publish changes, follow these steps.</span></span>
+<span data-ttu-id="155a8-130">หากต้องการเผยแพร่การเปลี่ยนแปลง ทำตามขั้นตอนเหล่านี้</span><span class="sxs-lookup"><span data-stu-id="155a8-130">To publish changes, follow these steps.</span></span>
 
-1. <span data-ttu-id="5d7a4-131">บนบานหน้าต่างการดำเนินการ ให้เลือก **เผยแพร่การปรับปรุงช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-131">On the action pane, select **Publish channel updates**.</span></span>
-1. <span data-ttu-id="5d7a4-132">ในบานหน้าต่าง **เผยแพร่การปรับปรุงช่องทาง** เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="5d7a4-132">In the **Publish channel updates** pane, select **OK**.</span></span>
+1. <span data-ttu-id="155a8-131">บนบานหน้าต่างการดำเนินการ ให้เลือก **เผยแพร่การปรับปรุงช่องทาง**</span><span class="sxs-lookup"><span data-stu-id="155a8-131">On the action pane, select **Publish channel updates**.</span></span>
+1. <span data-ttu-id="155a8-132">ในบานหน้าต่าง **เผยแพร่การปรับปรุงช่องทาง** เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="155a8-132">In the **Publish channel updates** pane, select **OK**.</span></span>
 
-<span data-ttu-id="5d7a4-133">รูปภาพต่อไปนี้แสดงวิธีการเผยแพร่การปรับปรุงช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-133">The following image shows how to publish channel updates.</span></span>
+<span data-ttu-id="155a8-133">รูปภาพต่อไปนี้แสดงวิธีการเผยแพร่การปรับปรุงช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-133">The following image shows how to publish channel updates.</span></span>
 
 ![เผยแพร่การอัพเดตช่องทาง](media/configure-channel-hierarchy-3.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="5d7a4-135">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="5d7a4-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="155a8-135">แหล่งข้อมูลเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="155a8-135">Additional resources</span></span>
 
-[<span data-ttu-id="5d7a4-136">สร้างลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="5d7a4-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
+[<span data-ttu-id="155a8-136">สร้างลำดับชั้นการนำทางของช่องทาง</span><span class="sxs-lookup"><span data-stu-id="155a8-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
 
 
 
