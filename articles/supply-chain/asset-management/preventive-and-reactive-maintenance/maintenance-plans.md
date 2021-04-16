@@ -1,12 +1,10 @@
 ---
 title: แผนการบำรุงรักษา
 description: หัวข้อนี้อธิบายถึงแผนการบำรุงรักษาในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839618"
 ---
 # <a name="maintenance-plans"></a>แผนการบำรุงรักษา
 
@@ -195,8 +193,6 @@ ms.locfileid: "5500825"
 
 ## <a name="counter-based-maintenance-enhancements"></a>การปรับปรุงการบํารุงรักษาตามตัวนับ
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 คุณลักษณะ *การปรับปรุงการบํารุงรักษาตามตัวนับ* มีฟังก์ชันดังต่อไปนี้:
 
 - ตัวเลือกในการแทรกตัวนับที่มีค่าเป็น *0* (ศูนย์) โดยอัตโนมัติ เมื่อสร้างสินทรัพย์ ตัวเลือกนี้มีประโยชน์เมื่อคุณใช้การบำรุงรักษาที่คาดการณ์ไว้ ซึ่งขึ้นอยู่กับตัวนับ เมื่อไม่ได้ใช้คุณลักษณะ *การปรับปรุงการบํารุงรักษาตามตัวนับ* ต้องแทรกตัวนับที่มีค่าเป็น *0* (ศูนย์) ด้วยตนเอง
@@ -209,7 +205,7 @@ ms.locfileid: "5500825"
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การจัดการสินทรัพย์*
-- **ชื่อคุณลักษณะ:** *(พรีวิว) การปรับปรุงการบำรุงรักษาตามตัวนับ*
+- **ชื่อคุณลักษณะ:** *การปรับปรุงการบำรุงรักษาตามตัวนับ*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>สร้างและเริ่มต้นตัวนับเมื่อสร้างสินทรัพย์
 

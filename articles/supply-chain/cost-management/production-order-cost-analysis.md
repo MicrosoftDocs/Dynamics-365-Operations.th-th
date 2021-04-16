@@ -2,11 +2,9 @@
 title: การวิเคราะห์ต้นทุนใบสั่งผลิต
 description: บทความนี้แสดงข้อมูลเกี่ยวกับการวิเคราะห์ต้นทุนที่คุณสามารถทำได้ สำหรับใบสั่งผลิตที่เสร็จสมบูรณ์และปัจจุบัน  คุณสามารถวิเคราะห์ต้นทุนที่ประเมินและต้นทุนจริง โดยการใช้หน้าการคำนวณราคา หรือการประเมินต้นทุน และการคิดต้นทุนรายงาน  คุณสามารถดูข้อมูลเกี่ยวกับต้นทุนที่ประเมิน และที่เกิดขึ้นจริง (และปริมาณ) สำหรับแต่ละสินค้าส่วนประกอบ การดำเนินงาน และต้นทุนทางอ้อม
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90145c07ac4f0273288f6d1dddb0d99e9cd4cfd6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50df2a63584d3db0d3b91fabd224e12dffa809d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245310"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809649"
 ---
 # <a name="production-order-cost-analysis"></a>การวิเคราะห์ต้นทุนใบสั่งผลิต
 

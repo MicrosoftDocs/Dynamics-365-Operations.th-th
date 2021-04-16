@@ -2,11 +2,9 @@
 title: ภาพรวมการชำระเงินของผู้จัดจำหน่าย
 description: 'คำแนะนำของงานนี้จะนำคุณผ่านวิธีการต่างๆที่ใช้ในการสร้างการชำระเงินของผู้จัดจำหน่าย รวมถึงวิธีการใช้ข้อเสนอการชำระเงิน หรือการชำระเงินด้วยตนเองแบบครั้งเดียว '
 author: kweekley
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3216e0479851e58b345508e27c97b69d8a1077b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4402be4be52f71bf346a1f85155aad4b9890b3bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236382"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827301"
 ---
 # <a name="vendor-payment-overview"></a>ภาพรวมการชำระเงินของผู้จัดจำหน่าย
 

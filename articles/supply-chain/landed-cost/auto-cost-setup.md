@@ -2,7 +2,6 @@
 title: การตั้งค่าต้นทุนอัตโนมัติ
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่ากฎต้นทุนสำหรับระดับการเดินทางขาเข้าต่างๆ โดยยึดตามกฎเหล่านี้ ระบบจะคํานวณต้นทุนและเพิ่มโดยอัตโนมัติ ดังนั้น ผู้ใช้จึงไม่ต้องเพิ่มต้นทุนด้วยตนเอง
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501161"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841970"
 ---
 # <a name="auto-costs-setup"></a>การตั้งค่าต้นทุนอัตโนมัติ
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 คุณสามารถใช้หน้า **ต้นทุนอัตโนมัติ** เพื่อตั้งค่ากฎต้นทุนสำหรับพื้นที่ต้นทุนต่างๆ (เช่น การเดินทาง คอนเทนเนอร์การจัดส่งสินค้า ใบแจ้งรายการ ใบสั่งซื้อ สินค้า หรือบรรทัดใบสั่งโอนย้าย) โดยยึดตามกฎ และฟิลด์ที่ผู้ใช้เลือก เมื่อพวกเขาสร้างเรกคอร์ดสำหรับพื้นที่ต้นทุนพื้นที่ใดพื้นที่หนึ่ง ระบบจะคํานวณต้นทุนและเพิ่มโดยอัตโนมัติ ดังนั้น ผู้ใช้จึงไม่ต้องเพิ่มต้นทุนด้วยตนเอง
 

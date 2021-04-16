@@ -2,11 +2,9 @@
 title: การออกใบแจ้งหนี้โครงการ
 description: หัวข้อนี้แสดงภาพรวมของโครงการที่ออกใบแจ้งหนี้สำหรับเวลา และวัสดุโครงการ และโครงการที่มีราคาคงที่ รวมข้อมูลเกี่ยวกับข้อเสนอใบแจ้งหนี้ (ใบแจ้งหนี้เบื้องต้น), การควบคุมใบแจ้งหนี้, การออกใบแจ้งหนี้, การออกใบแจ้งหนี้ของผู้จัดจำหน่าย และบันทึกสินเชื่อ
 author: TaylorVH
-manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41c5e53969b5ee88e869196e8749dddd58047de2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ec5de48112e473f5570bc4641d58cb1becc0986
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227509"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827973"
 ---
 # <a name="project-invoicing"></a>การออกใบแจ้งหนี้โครงการ
 

@@ -2,11 +2,9 @@
 title: ตั้งค่าตัวเลือกสำหรับระบบอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย (พรีวิว)
 description: หัวข้อนี้จะอธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับการตั้งค่าและการตั้งค่าคอนฟิกระบบอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4411e2c6113c7e42abd4247f79c59ed2cc47c7af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 32da8dc569f4eabfe3d7ddbfac55e827f469d871
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837212"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>ตั้งค่าตัวเลือกสำหรับใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
 
