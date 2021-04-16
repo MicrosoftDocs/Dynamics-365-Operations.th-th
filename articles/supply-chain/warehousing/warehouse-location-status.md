@@ -2,11 +2,9 @@
 title: สถานะสถานที่คลังสินค้า
 description: หัวข้อนี้แสดงภาพรวมของคุณลักษณะสถานะสถานที่ของคลังสินค้า
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248630"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837356"
 ---
 # <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 
@@ -53,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>จัดเตรียมข้อมูลตัวอย่างที่จำเป็นสำหรับสถานการณ์จำลองตัวอย่าง
 
-ก่อนที่คุณจะเริ่มทำงานในสถานการณ์สมมติ คุณต้องเรียกใช้ข้อมูลตัวอย่างและตั้งค่าคุณลักษณะตามที่อธิบายไว้ในส่วนนี้ เมื่อต้องการดำเนินการตัวอย่างสถานการณ์จำลองให้เสร็จสมบูรณ์ คุณต้องใช้แอปคลังสินค้าหรือตัวเลียนแบบตามเบราว์เซอร์ ขั้นตอนที่ระบุไว้ที่นี่จะใช้แอปคลังสินค้า ขั้นตอนต่างๆ สำหรับตัวเลียนแบบตามเบราว์เซอร์มีลักษณะคล้ายกัน
+ก่อนที่คุณจะเริ่มทำงานในสถานการณ์สมมติ คุณต้องเรียกใช้ข้อมูลตัวอย่างและตั้งค่าคุณลักษณะตามที่อธิบายไว้ในส่วนนี้ เมื่อต้องการดำเนินการตัวอย่างสถานการณ์จำลองให้เสร็จสมบูรณ์ คุณต้องใช้แอปการจัดการคลังสินค้าบนมือถือหรือตัวเลียนแบบตามเบราว์เซอร์ ขั้นตอนที่ระบุไว้ที่นี่จะใช้แอปการจัดการคลังสินค้าบนมือถือ ขั้นตอนต่างๆ สำหรับตัวเลียนแบบตามเบราว์เซอร์มีลักษณะคล้ายกัน
 
 #### <a name="use-the-usmf-legal-entity"></a>ใช้นิติบุคคล USMF
 

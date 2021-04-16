@@ -2,7 +2,6 @@
 title: การตั้งค่าผู้จัดจำหน่ายที่เพิ่มให้กับต้นทุนแฝง
 description: หัวข้อนี้จะอธิบายถึงฟิลด์ใหม่ที่จะเพิ่มเข้าในหน้าผู้จัดจำหน่ายที่มีอยู่ เมื่อคุณเปิดใช้งานโมดูลต้นทุนแฝง คุณใช้ฟิลด์เหล่านี้เพื่อตั้งค่าผู้จัดจำหน่ายที่คุณจะใช้ร่วมกับคุณลักษณะของต้นทุนแฝง
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3a288517f77d1618f94f8539506d01a108e63fa5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500921"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829774"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>การตั้งค่าผู้จัดจำหน่ายที่เพิ่มให้กับต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 เมื่อคุณเปิดใช้งานโมดูล **ต้นทุนแฝง** ฟิลด์ใหม่จะเพิ่มเข้าในหน้า **ผู้จัดจำหน่าย** ที่มีอยู่ คุณใช้ฟิลด์เหล่านี้เพื่อตั้งค่าผู้จัดจำหน่ายที่คุณจะใช้ร่วมกับคุณลักษณะของต้นทุนแฝง
 

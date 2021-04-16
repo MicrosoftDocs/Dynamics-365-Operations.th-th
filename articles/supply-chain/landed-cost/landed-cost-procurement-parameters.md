@@ -2,7 +2,6 @@
 title: พารามิเตอร์การจัดซื้อและการจัดหาสำหรับต้นทุนแฝง
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าพารามิเตอร์การจัดซื้อและการจัดหาที่เกี่ยวข้อง เมื่อคุณใช้โมดูลต้นทุนแฝง
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500753"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833940"
 ---
 # <a name="procurement-and-sourcing-parameters-for-landed-cost"></a>พารามิเตอร์การจัดซื้อและการจัดหาสำหรับต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หน้า **พารามิเตอร์การจัดซื้อและการจัดหา** มีการตั้งค่าสองสามรายการที่เกี่ยวข้อง โดยเฉพาะเมื่อคุณใช้โมดูล **ต้นทุนแฝง** ใช้กล่องโต้ตอบ **อัปเดตบรรทัดใบสั่ง** ที่เปิดจากหน้า **พารามิเตอร์การจัดซื้อและการจัดหา** เพื่อระบุว่าควรอัปเดตบรรทัดใบสั่งซื้อโดยอัตโนมัติหรือไม่ เมื่อมีการเปลี่ยนแปลงบนส่วนหัวของใบสั่งซื้อ
 

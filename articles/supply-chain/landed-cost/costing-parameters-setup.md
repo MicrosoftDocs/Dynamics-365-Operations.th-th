@@ -2,7 +2,6 @@
 title: การตั้งค่าค่าพารามิเตอร์การคิดต้นทุน
 description: เมื่อคุณตั้งค่าโมดูลต้นทุนแฝง คุณสามารถกําหนดชุดของค่าทั่วไปหลายชุดที่จะพร้อมใช้งาน เมื่อคุณเลือกชนิดของค่าพารามิเตอร์การคิดต้นทุนเฉพาะในส่วนอื่นๆ ของแอป หัวข้อนี้อธิบายวิธีการตั้งค่าชุดของค่าเหล่านี้
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500489"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841946"
 ---
 # <a name="costing-parameter-values-setup"></a>การตั้งค่าค่าพารามิเตอร์การคิดต้นทุน
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 เมื่อคุณตั้งค่าโมดูล **ต้นทุนแฝง** คุณสามารถกําหนดชุดของค่าทั่วไปและการตั้งค่าที่เกี่ยวข้องหลายชุดต่อค่า จากนั้น ค่าเหล่านี้จะพร้อมใช้งาน เมื่อคุณเลือกค่าพารามิเตอร์การคิดต้นทุนชนิดที่ระบุในส่วนอื่นๆ ของแอป หัวข้อนี้อธิบายวิธีการตั้งค่าชุดของค่าเหล่านี้
 

@@ -2,11 +2,9 @@
 title: การรับเหมารายย่อย
 description: หัวข้อนี้จะช่วยให้คุณสามารถสร้างการฝึกปฏิบัติของการทำสัญญาย่อยในการผลิตใน Dynamics 365 Supply Chain Management
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255552"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825193"
 ---
 # <a name="subcontracting"></a>การรับเหมารายย่อย
 
@@ -210,7 +208,7 @@ ms.locfileid: "5255552"
 
     ![ชุดงานสองชุดสำหรับการเบิกวัตถุดิบในหน้างาน](./media/subcontract22_work-page.png)
 
-26. เริ่มต้นแอปคลังสินค้าเพื่อดำเนินงานคลังสินค้าสำหรับการดำเนินงาน 10
+26. เริ่มต้นแอปการจัดการคลังสินค้าบนมือถือเพื่อดำเนินงานคลังสินค้าสำหรับการดำเนินงาน 10
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ ms.locfileid: "5255552"
     - ใน **หมายเลขการดำเนินงานเริ่มต้น** ฟิลด์ เลือก **10**
     - ใน **ไปที่หมายเลขการดำเนินงาน** ฟิลด์ เลือก **10**
 
-    ![การตั้งค่าบนแท็บทั่วไป](./media/subcontract23_start-dialog.png)
+    ![การตั้งค่าบนแท็บทั่วไป 1](./media/subcontract23_start-dialog.png)
 
 31. เลือก **ตกลง** เพื่อปิดกล่องโต้ตอบ **เริ่มต้น** และกลับไปยังหน้า **ใบสั่งผลิตทั้งหมด**
 
     ขอให้สังเกตว่าขณะนี้สถานะของใบสั่งผลิตเป็น **เริ่มต้นแล้ว** มีการใช้วัสดุสำหรับการดำเนินงาน 10 โดยการลงรายการบัญชีโดยอัตโนมัติของสมุดรายวันรายการเบิกสินค้า ปริมาณการใช้เวลาสำหรับการดำเนินงาน 10 ถูกนำมาพิจารณา โดยการลงรายการของสมุดรายวันบัตรกระบวนการผลิตอัตโนมัติ
 
-32. เริ่มต้นแอปคลังสินค้าเพื่อดำเนินงานคลังสินค้าสำหรับการดำเนินงาน 20
+32. เริ่มต้นแอปการจัดการคลังสินค้าบนมือถือเพื่อดำเนินงานคลังสินค้าสำหรับการดำเนินงาน 20
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ ms.locfileid: "5255552"
     - ในฟิลด์ **ปริมาณ** ให้ป้อน **10**
     - ตั้งค่าตัวเลือก **ลงรายการบัญชีรายการเบิกสินค้าทันที** เป็น **ไม่**
 
-    ![การตั้งค่าบนแท็บทั่วไป](./media/subcontract24_general-tab.png)
+    ![การตั้งค่าบนแท็บทั่วไป 2](./media/subcontract24_general-tab.png)
 
 35. เลือก **ตกลง** เพื่อปิดกล่องโต้ตอบ **เริ่มต้น** และกลับไปยังหน้า **ใบสั่งผลิตทั้งหมด**
 

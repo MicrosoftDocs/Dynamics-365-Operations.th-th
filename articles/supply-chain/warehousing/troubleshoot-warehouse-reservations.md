@@ -2,11 +2,9 @@
 title: แก้ไขการจองสินค้าในการจัดการคลังสินค้า
 description: หัวข้อนี้อธิบายวิธีการแก้ไขปัญหาทั่วไปที่คุณอาจพบในระหว่างที่คุณทำงานการจองในคลังสินค้าใน Microsoft Dynamics 365 Supply Chain Management
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248726"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828117"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>แก้ไขการจองสินค้าในการจัดการคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการแก้ไขปัญหาทั่วไปที่คุณอาจพบในระหว่างที่คุณทำงานการจองในคลังสินค้าใน Microsoft Dynamics 365 Supply Chain Management
+
+สำหรับหัวข้อที่เกี่ยวกับชุดงานและการลงทะเบียนหมายเลขลำดับประจำสินค้า ดูที่ [แก้ไขปัญหาชุดงานคลังสินค้าและลำดับชั้นการจองหมายเลขลำดับประจำสินค้า](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md)
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>ฉันได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "ไม่สามารถลบการจองได้เนื่องจากมีงานที่สร้างขึ้นซึ่งอาศัยการจอง"
 
@@ -63,20 +63,6 @@ ms.locfileid: "5248726"
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
 ปัญหานี้อาจเกิดจากการเปิดงาน ทำงานให้เสร็จสมบูรณ์หรือได้รับโดยไม่มีการสร้างงาน ตรวจสอบให้แน่ใจว่าไม่มีรายการความเคลื่อนไหวของสินค้าคงคลังที่มีการจองปริมาณทางกายภาพ ตัวอย่างเช่น ธุรกรรมเหล่านี้อาจเปิดใบสั่งตรวจสอบคุณภาพ เรกคอร์ดการบล็อคสินค้าคงคลัง หรือใบสั่งเอาพุต
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>ฉันได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "หากต้องการให้กำหนดให้กับเวฟ บรรทัดการโหลดต้องระบุมิติเหนือสถานที่ ถ้าต้องการกำหนดมิติเหล่านี้ ให้จองและสร้างรายการจำนวนงานในศูนย์การผลิตใหม่"
-
-### <a name="issue-description"></a>คำอธิบายปัญหา
-
-เมื่อคุณใช้สินค้าที่มีลำดับชั้นการจอง "ชุดงานข้างบน" (โดยมีมิติ **หมายเลขชุดงาน** ที่อยู่ *ด้านบน* มิติ **สถานที่เก็บ**) คำสั่ง **นำออกใช้ไปยังคลังสินค้า** บนหน้า **เวิร์กเบนช์การวางแผนการบรรทุก** สำหรับปริมาณบางส่วนไม่ทำงาน คุณได้รับข้อความแสดงข้อความแสดงข้อผิดพลาดนี้และไม่มีการสร้างงานสำหรับปริมาณบางส่วน
-
-อย่างไรก็ตาม ถ้าคุณใช้สินค้าที่มีลำดับชั้นการจอง "ชุดงานด้านล่าง" (โดยมีมิติ **หมายเลขชุดงาน** ที่อยู่ *ด้านล่าง* มิติ **สถานที่เก็บ**) คุณจึงสามารถนำโหลดออกใช้ได้จากหน้า **เวิร์กเบนช์การวางแผน** สำหรับปริมาณบางส่วนไม่ทำงาน
-
-### <a name="issue-resolution"></a>การแก้ไขปัญหา
-
-ลักษณะการทำงานนี้เกิดจากการออกแบบ ถ้าคุณกำหนดมิติที่อยู่ด้านบนของมิติ **สถานที่** ในลำดับชั้นการจอง ต้องระบุก่อนการนำออกใช้ไปยังคลังสินค้า Microsoft ได้ประเมินปัญหานี้แล้ว และระบุว่าเป็นข้อจำกัดของลักษณะการทำงานในระหว่างการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก ไม่สามารถปล่อยปริมาณบางส่วนได้ ถ้าไม่ได้ระบุอย่างน้อยหนึ่งมิติข้างบน **สถานที่เก็บ**
-
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น](flexible-warehouse-level-dimension-reservation.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

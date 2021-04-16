@@ -2,11 +2,9 @@
 title: ข้อมูลใบแจ้งหนี้ที่สำคัญใน AP ที่ใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย
 description: คู่มืองานนี้จะช่วยคุณสร้างใบแจ้งหนี้ของผู้จัดจำหน่ายจากใบสั่งซื้อ และดูผลลัพธ์ของการจับคู่ใบสั่งซื้อ ใบรับ และใบแจ้งหนี้ (วิธีการจับคู่ 3 ทาง)
 author: abruer
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a058eb17bcab11056c91ab3570d6cd5b84b631
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d3f9fc1fb7724632dbc9c4c3e1e28c6e85eaf61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227219"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827805"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>ข้อมูลใบแจ้งหนี้ที่สำคัญใน AP ที่ใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย
 
