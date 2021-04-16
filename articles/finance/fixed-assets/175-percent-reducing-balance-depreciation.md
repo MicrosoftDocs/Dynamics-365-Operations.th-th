@@ -2,11 +2,9 @@
 title: ค่าเสื่อมราคายอดดุลที่ลดลง 175%
 description: หัวข้อนี้แสดงภาพรวมวิธีการที่ยอดดุลลดลง 175% ของค่าเสื่อมราคา
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230357"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827157"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>ค่าเสื่อมราคายอดดุลที่ลดลง 175%
 
@@ -64,9 +62,9 @@ ms.locfileid: "5230357"
 -   **รายปี** ลงรายการบัญชียอดรวมของค่าเสื่อมราคาที่คำนวณไว้สำหรับปีบัญชีในวันที่สุดท้ายของปีบัญชี
 -   **รอบระยะเวลาทางบัญชี** คำนวณยอดรวมของค่าเสื่อมราคาสำหรับปีบัญชี ยอดเงินนี้ถูกสะสมไว้ในรอบระยะเวลาทางบัญชีที่กำหนดไว้ในหน้า **ปฏิทินทางการเงิน**
 
-## <a name="example-of-175-reducing-balance-depreciation"></a>ตัวอย่างเช่น การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 175%
+## <a name="example-of-175-reducing-balance-depreciation"></a>ตัวอย่างของการคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 175%
 
-|                                |        |
+| ฟิลด์                          | มูลค่า  |
 |--------------------------------|--------|
 | ต้นทุนการซื้อสินทรัพย์               | 11,000 |
 | มูลค่าซาก                  | 1,000  |

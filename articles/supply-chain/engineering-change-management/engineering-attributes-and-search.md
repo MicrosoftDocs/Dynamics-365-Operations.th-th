@@ -2,11 +2,9 @@
 title: การค้นหาแอททริบิวต์ด้านวิศวกรรมและแอททริบิวต์ของวิศวกรรม
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้แอททริบิวต์วิศวกรรมเพื่อระบุลักษณะที่ไม่ใช่มาตรฐานทั้งหมด เพื่อให้แน่ใจว่าข้อมูลของผลิตภัณฑ์หลักทั้งหมดสามารถลงทะเบียนในระบบได้ นอกจากนี้ ยังอธิบายถึงวิธีการที่คุณสามารถใช้การค้นหาแอททริบิวต์ของวิศวกรรมเพื่อค้นหาผลิตภัณฑ์ได้อย่างง่ายดาย โดยยึดตามลักษณะที่มีการลงทะเบียนเหล่านั้น
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ddb271535f0f2151f46a37a3ab3f3742e67ca87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 01752bfc9bab662064baf30635ae6879358c5bbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262392"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830087"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>การค้นหาแอททริบิวต์ด้านวิศวกรรมและแอททริบิวต์ของวิศวกรรม
 

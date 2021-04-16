@@ -2,11 +2,9 @@
 title: การรวมสินทรัพย์ถาวร
 description: สามารถรวมสินทรัพย์ถาวรกับบัญชีแยกประเภททั่วไป การจัดการสินค้าคงคลัง บัญชีลูกหนี้ และบัญชีเจ้าหนี้ได้  คุณยังสามารถตั้งค่าสินทรัพย์ถาวร เพื่อให้รวมกับใบสั่งซื้อได้ด้วย
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba1fad55082abaaeaf1874698d7475597f23904f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240926"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826845"
 ---
 # <a name="fixed-assets-integration"></a>การรวมสินทรัพย์ถาวร
 

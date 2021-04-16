@@ -2,7 +2,6 @@
 title: ติดตามการเดินทางขาเข้าและการเดินทางของคอนเทนเนอร์จัดส่ง
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้หน้าการติดตามขาเข้า เพื่อติดตามความคืบหน้าของการเดินทางและการเดินทางของคอนเทนเนอร์จัดส่ง
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501257"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823396"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>ติดตามการเดินทางขาเข้าและการเดินทางของคอนเทนเนอร์จัดส่ง
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หน้า **Iการติดตามขาเข้า** ช่วยให้คุณติดตามความคืบหน้าของการเดินทางและการเดินทางของคอนเทนเนอร์จัดส่ง การเดินทางและการเดินทางแต่ละครั้งจะแบ่งตาม *กิจกรรม* ซึ่งแต่ละกิจกรรมจะมีแถวของตนเองบนหน้า คุณสามารถใช้หน้าเพื่อดูและป้อนวันที่ที่ประเมินและวันที่จริงตามกิจกรรม
 
