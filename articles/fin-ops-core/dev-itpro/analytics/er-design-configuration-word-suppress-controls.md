@@ -2,7 +2,6 @@
 title: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 description: หัวข้อนี้อธิบายวิธีการกำหนดค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word ที่ถูกระงับตัวควบคุมเนื้อหา
 author: NickSelin
-manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 81ad25514154dd8982aa4f849f0b2bfeb85270f7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562129"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753619"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 

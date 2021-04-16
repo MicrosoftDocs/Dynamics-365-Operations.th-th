@@ -2,11 +2,9 @@
 title: ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่ากฎเพื่อแจ้งเตือนพนักงานฝ่ายบริการลูกค้าถึงข้อมูลการฉ้อโกงที่อาจเป็นไปได้เมื่อมีการดำเนินการกับใบสั่ง  คุณสามารถกำหนดรหัสเฉพาะที่ถูกใช้ระงับใบสั่งที่น่าสงสัยโดยอัตโนมัติหรือด้วยตนเอง
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65e6e065317311395a5a5ca2b049d1c277aa5003
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264539"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793980"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>ตั้งค่า และทำงานกับข้อความแจ้งเตือนการฉ้อโกงของศูนย์บริการ
 

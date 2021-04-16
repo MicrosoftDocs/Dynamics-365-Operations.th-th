@@ -2,7 +2,6 @@
 title: สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับวิธีการใช้ชนิดฟิลด์ที่มีการคำนวณสำหรับแหล่งข้อมูล ER
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569212"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749500"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ
 
@@ -194,7 +193,7 @@ ms.locfileid: "5569212"
 
 ![รายการที่ขยายของระดับฟิลด์ที่มีการคำนวณ](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>ใช้ฟิลด์ที่มีการคำนวณที่ตั้งค่าคอนฟิกสำหรับองค์ประกอบรูปแบบการผูก
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>ใช้ฟิลด์ที่มีการคำนวณที่ตั้งค่าคอนฟิกสำหรับองค์ประกอบรูปแบบการผูก
 
 1. เลือก **Model.Data2.Levels** เพื่อเลือกฟิลด์ที่มีการคำนวณที่ตั้งค่าคอนฟิก
 2. เลือกองค์ประกอบรูปแบบ **Statement.Taxation.Regular**
@@ -215,7 +214,7 @@ ms.locfileid: "5569212"
 9. เลือก **ผูก**
 10. เลือก **ใช่** เพื่อยืนยันการแทนที่ของแหล่งข้อมูลที่ใช้อยู่ในปัจจุบัน **Level3** โดยแหล่งข้อมูลใหม่ **Levels** ในองค์ประกอบรูปแบบซ้อนกันทั้งหมดภายใต้องค์ประกอบรูปแบบที่เลือก
 
-   เมื่อคุณระบุอาร์กิวเมนต์ของฟิลด์ที่มีการคำนวณแบบพารามิเตอร์สำหรับองค์ประกอบ XML ซึ่งแสดงถึงระดับภาษี (ตัวอย่าง เช่น **Model.Data2.Levels("ลดลง")** เป็นค่าข้อความ) คุณไม่จำเป็นต้องทำแบบเดียวกันสำหรับแอททริบิวต์ XML ที่ซ้อนกัน— การผูกจะสืบทอดค่าของอาร์กิวเมนต์ที่กำหนดไว้ในระดับหลัก (**Model.Data2.Levels.aggregated.Base** ไม่ใช่ **Model.Data2.Levels("Reduced").aggregated.Base**) โดยอัตโนมัติ
+   เมื่อคุณระบุอาร์กิวเมนต์ของฟิลด์ที่มีการคำนวณแบบพารามิเตอร์สำหรับองค์ประกอบ XML ซึ่งแสดงถึงระดับภาษี (ตัวอย่าง เช่น **Model.Data2.Levels(&quot;ลดลง")** เป็นค่าข้อความ) คุณไม่จำเป็นต้องทำแบบเดียวกันสำหรับแอททริบิวต์ XML ที่ซ้อนกัน— การผูกจะสืบทอดค่าของอาร์กิวเมนต์ที่กำหนดไว้ในระดับหลัก (**Model.Data2.Levels.aggregated.Base** ไม่ใช่ **Model.Data2.Levels("Reduced").aggregated.Base**) โดยอัตโนมัติ
 
 ไม่สนับสนุนการเรียกซ้ำของฟิลด์ที่มีการคำนวณแบบพารามิเตอร์ใดๆ
 
