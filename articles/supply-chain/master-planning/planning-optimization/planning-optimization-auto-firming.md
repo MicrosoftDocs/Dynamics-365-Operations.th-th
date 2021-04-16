@@ -2,11 +2,9 @@
 title: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
 description: หัวข้อนี้จะอธิบายถึงวิธีการใช้การยืนยันยอดอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 9106137fe6dd097beea9914cdde541e581946f46
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3542e343de29c9fd9d19ed99cab4b4eebacd2899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227809"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813014"
 ---
 # <a name="autofirming-with-planning-optimization"></a>การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
 
@@ -33,6 +31,8 @@ ms.locfileid: "5227809"
 
 > [!NOTE]
 > การยืนยันยอดแบบอัตโนมัติของแผนการใบสั่งซื้อสามารถเกิดขึ้นได้ เฉพาะเมื่อสินค้าเชื่อมโยงกับผู้จัดจำหน่าย
+> 
+> ใบสั่งที่ได้รับมาซึ่งยืนยันแล้ว (ใบสั่งซื้อของผู้รับเหมารายย่อย) จะแสดงสถานะ *ระหว่างการตรวจทาน* เมื่อการติดตามการเปลี่ยนแปลงกรณีเปิดใช้งาน
 
 ## <a name="turn-on-autofirming"></a>เปิดการยืนยันยอดอัตโนมัติ
 

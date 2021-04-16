@@ -2,7 +2,6 @@
 title: โมดูลต้นทุนแฝง
 description: โมดูลต้นทุนแฝง ช่วยให้ธุรกิจสามารถลดขั้นตอนการดำเนินการจัดส่งสินค้าขาเข้าได้ โดยการให้ผู้ใช้สามารถดําเนินการควบคุมทางการเงินและลอจิสติกส์การขนส่งที่นําเข้า จากผู้ผลิตไปยังคลังสินค้าได้
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500343"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823348"
 ---
 # <a name="landed-cost-module"></a>โมดูลต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 **โมดูลต้นทุนแฝงt** ช่วยให้ธุรกิจสามารถลดขั้นตอนการดำเนินการจัดส่งสินค้าขาเข้าได้ โดยการให้ผู้ใช้สามารถดําเนินการควบคุมทางการเงินและลอจิสติกส์การขนส่งที่นําเข้า จากผู้ผลิตไปยังคลังสินค้าได้ สำหรับสินค้าที่นําเข้า ต้นทุนแฝงสามารถคิดเป็นต้นทุนรวม 40 เปอร์เซ็นต์หรือมากกว่า ของต้นทุนรวมของสินค้าแต่ละรายการที่นําเข้า ดังนั้น การให้การประเมินที่ถูกต้องอาจทำได้ยาก
 

@@ -1,8 +1,7 @@
 ---
-title: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
-description: หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามที่พร้อมใช้งาน เมื่อคุณใช้กล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง หรือตัวดำเนินการการจับคู่ ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
+title: การกรองขั้นสูงและไวยากรณ์แบบสอบถาม
+description: หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามสำหรับกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูงและตัวดำเนินการการจับคู่ ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15805e24c46603afd34d40c5f94c1422b01cab4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744110"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
 

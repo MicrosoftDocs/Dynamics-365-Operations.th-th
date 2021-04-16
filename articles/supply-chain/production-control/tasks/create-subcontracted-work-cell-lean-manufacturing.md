@@ -2,11 +2,9 @@
 title: สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับ lean manufacturing
 description: เมื่อต้องการสร้างแบบจำลองงานที่รับเหมารายย่อยสำหรับ Lean Manufacturing คุณต้องสร้างเซลล์ทำงานที่เกี่ยวข้องกับผู้จัดจำหน่ายที่มีการทำงาน
 author: cvocph
-manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 236ce97fcf4ca76f07ae5f9308cf45240590b399
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0dc1e28202c42502cbec0f0066863d24d4396c88
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228550"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828909"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>สร้างเซลล์ทำงานที่รับเหมารายย่อยสำหรับ lean manufacturing
 

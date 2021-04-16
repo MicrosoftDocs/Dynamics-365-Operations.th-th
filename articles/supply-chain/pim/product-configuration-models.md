@@ -2,11 +2,9 @@
 title: ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 description: บทความนี้กำหนดเงื่อนไขและแนวคิดที่เกี่ยวข้องกับแบบจำลองการจัดโครงแบบผลิตภัณฑ์ แบบจำลองการจัดโครงแบบผลิตภัณฑ์ช่วยให้คุณสร้างโครงสร้างผลิตภัณฑ์ทั่วไปที่สามารถใช้เพื่อตั้งค่าคอนฟิกผลิตภัณฑ์ย่อยหลายรายการสำหรับผลิตภัณฑ์เดียว
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26abf7afbbe3c6d0b4e13639d9f57f6e82fc9ad3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8629c2af9d28d821996707532ae0c77b072a8f94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233810"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820309"
 ---
 # <a name="product-configuration-models-overview"></a>ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 

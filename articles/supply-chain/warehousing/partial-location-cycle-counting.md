@@ -2,11 +2,9 @@
 title: การตรวจนับตามรอบของสถานที่บางส่วน
 description: แผนการตรวจนับตามรอบเป็นคู่มือการดำเนินงานการนับตามจริง คุณสามารถร้องขอผลิตภัณฑ์เฉพาะอย่างและผลิตภัณฑ์ย่อยที่จะตรวจนับแทนสินค้าคงคลังคงเหลือในสถานที่เก็บทั้งหมด
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234692"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818907"
 ---
 # <a name="partial-location-cycle-counting"></a>การตรวจนับตามรอบของสถานที่บางส่วน
 
@@ -48,7 +46,7 @@ ms.locfileid: "5234692"
 สำหรับกระบวนการตรวจนับตามรอบบางส่วน จะไม่มีการอัปเดตวันที่/เวลาของ **การตรวจนับรอบลาสุด** สำหรับสถานที่ ถึงแม้ว่าจะมีการตรวจนับสินค้าทั้งหมดในปริมาณคงเหลือในสถานที่ที่กำหนด การตรวจนับตามรอบบางส่วนไม่ได้พิจารณาพารามิเตอร์ **จำนวนวันระหว่างการตรวจนับตามรอบ** ในหน้า **แผนการตรวจนับตามรอบ** การตรวจนับตามรอบบางส่วนไม่สนับสนุนการตรวจนับสินค้าจำนวนมากพร้อมกันในสถานที่เดียวกัน ฟังก์ชันการตรวจนับตามรอบบางส่วนอาจส่งผลให้มีการตรวจนับสถานที่เดียวกันหลายครั้งสำหรับสินค้าเมื่อเรียกใช้ **ดำเนินการตามแผนการตรวจนับตามรอบ** เมื่อต้องการหลีกเลี่ยงสถานการณ์ดังกล่าว ให้ระบุตัวกรองในฟิลด์ **เลือกสถานที่**
 
 > [!NOTE]
-> แอปคลังสินค้าไม่ให้ปุ่ม **เพิ่ม LP หรือสินค้า** เมื่อคุณใช้กระบวนการตรวจนับตามรอบบางส่วน
+> แอปการจัดการคลังสินค้าบนมือถือไม่ให้ปุ่ม **เพิ่ม LP หรือสินค้า** เมื่อคุณใช้กระบวนการตรวจนับตามรอบบางส่วน
 
 ## <a name="example"></a>ตัวอย่าง
 
