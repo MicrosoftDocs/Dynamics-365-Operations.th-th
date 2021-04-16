@@ -2,11 +2,9 @@
 title: ภาพรวมของประเทศไทย
 description: หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 426b80239a61827c9a8fb96d1475827d1eacf95f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 51eaaac2745ab13e432fcc3d73584d2e6dbf4a9d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216407"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820480"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 

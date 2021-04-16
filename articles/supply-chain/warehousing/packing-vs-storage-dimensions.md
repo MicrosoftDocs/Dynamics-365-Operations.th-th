@@ -2,11 +2,9 @@
 title: ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 description: หัวข้อนี้แสดงวิธีการระบุกระบวนการที่ (การบรรจุ การจัดเก็บ หรือการบรรจุที่ซ้อนกัน) แต่ละมิติที่ระบุจะใช้
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818931"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 สินค้าบางรายการจะถูกบรรจุหรือจัดเก็บในลักษณะที่คุณอาจต้องใช้ในการติดตามมิติทางกายภาพที่แตกต่างกันในแต่ละกระบวนการที่แตกต่างกัน คุณลักษณะ *มิติของผลิตภัณฑ์บรรจุภัณฑ์* ช่วยให้คุณตั้งค่ามิติหนึ่งชนิดขึ้นไปให้กับผลิตภัณฑ์แต่ละรายการได้ แต่ละชนิดมิติจะมีชุดของการวัดทางกายภาพ (น้ำหนัก ความกว้าง ความลึก และความสูง) และกําหนดกระบวนการที่ใช้ค่าการวัดทางกายภาพดังกล่าว เมื่อเปิดใช้งานคุณลักษณะนี้ ระบบของคุณจะสนับสนุนชนิดของมิติต่อไปนี้:
 

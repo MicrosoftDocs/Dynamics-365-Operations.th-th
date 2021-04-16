@@ -2,11 +2,9 @@
 title: ข้อเสนอการชำระเงินของผู้จัดจำหน่ายอัตโนมัติ
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่องค์กรที่ชำระเงินของผู้จัดจำหน่ายในกำหนดที่เกิดซ้ำสามารถทำให้กระบวนการสร้างข้อเสนอการชำระเงินของผู้จัดจำหน่ายโดยอัตโนมัติ
 author: kweekley
-manager: AnnBe
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d6a53b2cb48856083f3b2e40fca8adb92f4e5113
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250661"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820822"
 ---
 # <a name="automate-vendor-payment-proposals"></a>ข้อเสนอการชำระเงินของผู้จัดจำหน่ายอัตโนมัติ
 

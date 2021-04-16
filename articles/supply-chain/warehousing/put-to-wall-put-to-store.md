@@ -2,11 +2,9 @@
 title: ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับฟังก์ชันย้ายไปที่ผนัง - ย้ายไปยังร้านค้า ฟังก์ชันนี้ช่วยให้คุณสามารถจัดการกับสถานการณ์ที่คุณต้องรวมผลิตภัณฑ์กับพื้นที่การแบ่งระยะการจัดเตรียม โดยยึดตามเงื่อนไขที่ตั้งค่าคอนฟิกได้ ซึ่งจะช่วยลดเวลาในการเบิกสินค้า เนื่องจากจะอนุญาตการเบิกสินค้าไปยังป้ายทะเบียนเป้าหมายเดียว และสามารถใช้ตำแหน่งการสำรองได้มากกว่าการเบิกสินค้าคลัสเตอร์
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228524"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823298"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -524,7 +522,7 @@ ms.locfileid: "5228524"
 
 ถ้าควรปิดตำแหน่งการเรียงลำดับด้วยตนเอง จะต้องมีการตั้งค่าตัวเลือก **ปิดตำแหน่งการเรียงลำดับอัตโนมัติ** สำหรับเท็มเพลตการเรียงลำดับขาออกเป็น *ไม่* และต้องทำการปิดก่อนที่จะสามารถย้ายสินค้าคงคลังไปยังพื้นที่ประตูได้ ตำแหน่งสามารถปิดได้หลายวิธีดังนี้:
 
-- ผ่านแอปคลังสินค้า:
+- ผ่านแอปการจัดการคลังสินค้าบนมือถือ:
 
     - ผู้ใช้สามารถสแกนหนึ่งในสินค้าที่มีอยู่แล้วในตำแหน่ง แล้วจากนั้น เลือก **ปิด** เพื่อปิดตำแหน่ง
     - ถ้าผู้ใช้สแกนคอนเทนเนอร์ที่มีคอนเทนเนอร์ที่เรียงลำดับอยู่แล้ว ข้อความแสดงข้อผิดพลาดจะแสดงขึ้น อย่างไรก็ตาม ผู้ใช้ยังคงสามารถดำเนินการต่อเพื่อปิดตำแหน่งได้

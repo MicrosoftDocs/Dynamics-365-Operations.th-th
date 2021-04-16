@@ -2,11 +2,9 @@
 title: ตั้งค่าวัตถุอันตราย
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าข้อมูลที่จำเป็นสำหรับการจัดประเภทสินค้าเป็นวัตถุอันตราย เมื่อคุณสร้างใบสั่งขายที่มีสินค้าที่จัดประเภทเป็นวัตถุอันตราย ระบบจะสร้างเอกสารประกอบวัตถุอันตรายสำหรับใบสั่งขายนั้นเมื่อมีการจัดส่งสินค้า
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266114"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820357"
 ---
 # <a name="set-up-hazardous-materials"></a>ตั้งค่าวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 เมื่อต้องการใช้ฟังก์ชันวัตถุอันตราย คุณต้องตั้งค่าข้อมูลที่จำเป็นในการจัดประเภทสินค้าเป็นวัตุอันตราย ดังนั้น เมื่อคุณสร้างใบสั่งขายที่มีสินค้าที่จัดประเภทเป็นวัตถุอันตราย ระบบจะสร้างเอกสารประกอบวัตถุอันตรายสำหรับใบสั่งขายนั้นเมื่อมีการจัดส่ง
 

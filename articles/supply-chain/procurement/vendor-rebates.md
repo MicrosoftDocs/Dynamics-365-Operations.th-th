@@ -2,11 +2,9 @@
 title: เงินคืนของผู้จัดจำหน่าย
 description: หัวข้อนี้แสดงภาพรวมของงานทั่วไปที่คุณอาจต้องการดำเนินการเมื่อคุณทำงานกับเงินคืนของผู้จัดจำหน่าย เงินคืนของผู้จัดจำหน่ายช่วยให้บริษัทสามารถจัดการโปรแกรมเงินคืนของซัพพลายเออร์ได้ดีขึ้นโดยการทำงานที่จำเป็นในการจัดการ ติดตาม และอ้างสิทธิ์เงินคืนที่จะได้รับโดยอัตโนมัติ
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246608"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822478"
 ---
 # <a name="vendor-rebates"></a>เงินคืนของผู้จัดจำหน่าย
 

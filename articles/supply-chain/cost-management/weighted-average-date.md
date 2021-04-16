@@ -2,11 +2,9 @@
 title: วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 description: วันที่ถัวเฉลี่ยถ่วงน้ำหนักคือแบบจำลองสินค้าคงคลังที่ใช้หลักการถัวเฉลี่ยถ่วงน้ำหนัก โดยที่มูลค่าการนำสินค้าออกใช้จากสินค้าคงคลังคือมูลค่าเฉลี่ยของสินค้าที่รับเข้าในสินค้าคงคลัง สำหรับแต่ละวันในรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f82a7b9f21d27ff368bc7c5824055bf29ce20e8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235495"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821308"
 ---
 # <a name="weighted-average-date"></a>วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 

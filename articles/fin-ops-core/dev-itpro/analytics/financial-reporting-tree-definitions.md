@@ -1,27 +1,26 @@
 ---
 title: คำนิยามแผนภูมิรายงานในรายงานทางการเงิน
 description: บทความนี้อธิบายข้อกำหนดแผนภูมิการรายงาน ข้อกำหนดแผนภูมิการรายงานเป็นส่วนประกอบของรายงาน ที่กําหนดโครงสร้างขององค์กร
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568786"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819949"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>คำนิยามแผนภูมิรายงานในรายงานทางการเงิน
 
@@ -74,7 +73,7 @@ ms.locfileid: "5568786"
     | รวม/ตำแหน่งอักขระ       | ส่วนนี้แสดงรายการมิติที่กำหนดไว้ในข้อมูลทางการเงิน และแสดงจำนวนของอักขระในค่ากำหนดที่ยาวที่สุดสำหรับแต่ละมิติ เลือกกล่องกาเครื่องหมายสำหรับมิติเพื่อรวมมิติในลำดับชั้นของแผนภูมิการรายงาน |
     | เซ็กเมนต์ลำดับชั้น และช่วง     | ส่วนนี้แสดงลำดับชั้นของมิติ คุณสามารถย้ายมิติในรายการเพื่อเปลี่ยนใบสั่งการรายงาน ในฟิลด์ **มิติต้นทาง** และ **มิติปลายทาง** คุณสามารถระบุช่วงของค่าภายในแต่ละมิติ ถ้าคุณไม่ได้ระบุช่วง ค่ามิติทั้งหมดจะถูกแทรกลงในแผนภูมิการรายงาน<blockquote>[!NOTE] หากคุณกำลังใช้มิติมากกว่าหนึ่งมิติ จะมีเพียงชุดมิติที่ลงรายการไว้เท่านั้นที่ถูกส่งคืนในผลลัพธ์</blockquote> |
 
-    สำหรับภาพหน้าจอที่แสดงตัวอย่างของกล่องโต้ตอบ **แทรกหน่วยการรายงานจากมิติ** ให้ดูส่วน "ตัวอย่างของกล่องโต้ตอบแทรกหน่วยการรายงานจากมิติ" ในบทความนี้
+    สำหรับภาพประกอบที่แสดงตัวอย่างของกล่องโต้ตอบ **แทรกหน่วยการรายงานจากมิติ** ให้ดูส่วน "ตัวอย่างของกล่องโต้ตอบแทรกหน่วยการรายงานจากมิติ" ในภายหลังในบทความนี้
 
 5. สร้างเซ็กเมนต์เพิ่มเติม (ตัวอย่างเช่น โดยการแบ่งหนึ่งเซ็กเมนต์เป็นสองเซ็กเมนต์ที่สั้นกว่า) คลิกตำแหน่งที่ถูกต้องในฟิลด์ **ตำแหน่งอักขระ** จากนั้นคลิก **แบ่งเซ็กเมนต์**
 6. เพื่อผสานสองเซ็กเมนต์เป็นหนึ่งเซ็กเมนต์ คลิกในกล่องเซ็กเมนต์ใดเซ็กเมนต์หนึ่งเพื่อผสาน จากนั้นคลิก **รวมเซ็กเมนต์**
@@ -186,23 +185,23 @@ ms.locfileid: "5568786"
 - หน่วยการรายงานรายละเอียดในระดับต่ำสุด (Home Sales, Auto Sales, Client Services และ Operations) แสดงถึงแผนกในข้อมูลทางการเงิน หน่วยงานรายงานเหล่านี้อยู่ในพื้นที่มีแรเงาของไดอะแกรม
 - หน่วยการสรุประดับที่สูงกว่าสรุปข้อมูลจากหน่วยรายละเอียด
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![โครงสร้างรายงานสรุป Contoso - ตัวอย่าง 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>โครงสร้างหน่วยการรายงาน – ตัวอย่างที่ 2
 
 ในแผนภาพต่อไปนี้ แผนภูมิการรายงานมีโครงสร้างองค์กรที่หารด้วยฟังก์ชันทางธุรกิจ
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![โครงสร้างรายงานสรุป Contoso - ตัวอย่าง 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>ตัวอย่างกล่องโต้ตอบของการแทรกหน่วยการรายงานจากมิติ
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของกล่องโต้ตอบ **แทรกหน่วยการรายงานจากมิติ** สำหรับตัวอย่างนี้ ผลลัพธ์จะส่งคืนชุดหน่วยธุรกิจ ศูนย์ต้นทุน และแผนก
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![แทรกหน่วยการรายงาน](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 คำนิยามแผนภูมิรายงานจะเรียงลำดับตามหน่วยธุรกิจ แล้วจึงตามศูนย์ต้นทุน และจากนั้นตามแผนก มีมิติสำหรับหน่วยการรายงานหน่วยที่ห้าคือ **หน่วยธุรกิจ = = \[001\] ศูนย์ต้นทุน =\[\] แผนก = \[022\]** และระบุหน่วยการรายงานสำหรับบัญชีที่เกี่ยวข้องกับ 001 หน่วยธุรกิจและแผนก 022 โดยเฉพาะ
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![ภาพประกอบของแผนภูมิการรายงาน](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>ตัวอย่างของการรวมข้อมูล
 
@@ -210,11 +209,11 @@ ms.locfileid: "5568786"
 
 #### <a name="example-1"></a>ตัวอย่างที่ 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![การรวบรวมหลายบริษัท](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>ตัวอย่างที่ 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![การรวบรวมแผนกระหว่างบริษัท](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

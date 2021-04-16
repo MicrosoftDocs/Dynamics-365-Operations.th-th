@@ -2,11 +2,9 @@
 title: แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าหลักการจองสินค้าเริ่มต้นให้กับกลุ่มแบบจำลองสินค้าแต่ละกลุ่ม เพื่อให้สามารถใช้หลักการจองสินค้าที่แตกต่างกันได้โดยอัตโนมัติกับสินค้าแต่ละรายการ ที่เป็นส่วนหนึ่งของรายการวัสดุและส่วนประกอบสำหรับการผลิต (BOM) หรือสูตรใบสั่งชุดงาน
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501113"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814813"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 คุณลักษณะ *แทนที่การจองการผลิตเริ่มต้น* ช่วยให้คุณสามารถตั้งค่าหลักการจองเริ่มต้นสำหรับแต่ละกลุ่มแบบจำลองสินค้า ด้วยเหตุนี้ จึงสามารถใช้หลักการจองสินค้าที่แตกต่างกันได้โดยอัตโนมัติกับสินค้าแต่ละรายการที่เป็นส่วนหนึ่งของรายการวัสดุและส่วนประกอบสำหรับการผลิต (BOM) หรือสูตรใบสั่งชุดงาน คุณสามารถเลือกว่ากลุ่มแบบลองสินค้าแต่ละกลุ่มควรแทนที่หลักการจองสินค้าเริ่มต้นที่ตั้งค่าไว้ให้กับใบสั่งหรือไม่ และควรใช้หลักการจองสินค้าใดแทน (*ด้วยตนเอง* *การประเมิน* *การจัดตารางการผลิต* *การปล่อยงานลงในสายการผลิต* หรือ *เริ่มต้น*)
 
