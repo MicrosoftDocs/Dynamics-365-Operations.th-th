@@ -2,11 +2,9 @@
 title: การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
 description: ใช้หน้าการปรับปรุงปริมาณสินค้าคงคลังคงเหลือเพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
@@ -18,31 +16,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66323e99c04a141aa5dc5ab828e0e261c61b83ce
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9ddb2962926e78fda80a9db7b9e5915550bc5965
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254346"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842212"
 ---
-# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="16d87-103">การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="16d87-103">Adjust on-hand inventory cost values</span></span>
+# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="76a56-103">การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ</span><span class="sxs-lookup"><span data-stu-id="76a56-103">Adjust on-hand inventory cost values</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="16d87-104">ใช้หน้าการปรับปรุงปริมาณสินค้าคงคลังคงเหลือเพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน</span><span class="sxs-lookup"><span data-stu-id="16d87-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
+<span data-ttu-id="76a56-104">ใช้หน้าการปรับปรุงปริมาณสินค้าคงคลังคงเหลือเพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน</span><span class="sxs-lookup"><span data-stu-id="76a56-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 
-<span data-ttu-id="16d87-105">คุณสามารถใช้หน้า **การปรับปรุงปริมาณสินค้าคงคลังคงเหลือ** เพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน</span><span class="sxs-lookup"><span data-stu-id="16d87-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="16d87-106">**หมายเหตุ:** เพื่อเปิดหน้า **การปรับปรุงสินค้าคงคลังคงเหลือ** ในหน้า **การปิดและการปรับปรุง** เลือกเรกคอร์ดของกระบวนการปิดสินค้าคงคลังที่สมบูรณ์ และจากนั้น คลิก **การปรับปรุง** &gt; **คงเหลือ**</span><span class="sxs-lookup"><span data-stu-id="16d87-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="16d87-107">**ตัวอย่าง:** คุณมีธุรกรรมต่อไปนี้ในเดือนกุมภาพันธ์:</span><span class="sxs-lookup"><span data-stu-id="16d87-107">**Example:** You have the following transactions in February:</span></span>
+<span data-ttu-id="76a56-105">คุณสามารถใช้หน้า **การปรับปรุงปริมาณสินค้าคงคลังคงเหลือ** เพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน</span><span class="sxs-lookup"><span data-stu-id="76a56-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="76a56-106">**หมายเหตุ:** เพื่อเปิดหน้า **การปรับปรุงสินค้าคงคลังคงเหลือ** ในหน้า **การปิดและการปรับปรุง** เลือกเรกคอร์ดของกระบวนการปิดสินค้าคงคลังที่สมบูรณ์ และจากนั้น คลิก **การปรับปรุง** &gt; **คงเหลือ**</span><span class="sxs-lookup"><span data-stu-id="76a56-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="76a56-107">**ตัวอย่าง:** คุณมีธุรกรรมต่อไปนี้ในเดือนกุมภาพันธ์:</span><span class="sxs-lookup"><span data-stu-id="76a56-107">**Example:** You have the following transactions in February:</span></span>
 
--   <span data-ttu-id="16d87-108">1 กุมภาพันธ์: ใบเสร็จรับเงินสินค้าคงคลังในปริมาณเท่ากับ 2 หน่วย ในราคาต้นทุน USD 10.00</span><span class="sxs-lookup"><span data-stu-id="16d87-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
--   <span data-ttu-id="16d87-109">5 กุมภาพันธ์: ใบเสร็จรับเงินสินค้าคงคลังในปริมาณเท่ากับ 1 หน่วย ในราคาต้นทุน USD 13.00</span><span class="sxs-lookup"><span data-stu-id="16d87-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
--   <span data-ttu-id="16d87-110">19 กุมภาพันธ์: นำสินค้าคงคลังทางการเงินออกใช้ในปริมาณ 1 หน่วย ที่ต้นทุนเฉลี่ยต่อเนื่อง USD 11.00</span><span class="sxs-lookup"><span data-stu-id="16d87-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
+-   <span data-ttu-id="76a56-108">1 กุมภาพันธ์: ใบเสร็จรับเงินสินค้าคงคลังในปริมาณเท่ากับ 2 หน่วย ในราคาต้นทุน USD 10.00</span><span class="sxs-lookup"><span data-stu-id="76a56-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="76a56-109">5 กุมภาพันธ์: ใบเสร็จรับเงินสินค้าคงคลังในปริมาณเท่ากับ 1 หน่วย ในราคาต้นทุน USD 13.00</span><span class="sxs-lookup"><span data-stu-id="76a56-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="76a56-110">19 กุมภาพันธ์: นำสินค้าคงคลังทางการเงินออกใช้ในปริมาณ 1 หน่วย ที่ต้นทุนเฉลี่ยต่อเนื่อง USD 11.00</span><span class="sxs-lookup"><span data-stu-id="76a56-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
 
-<span data-ttu-id="16d87-111">สินค้านี้มีการตั้งค่าโดยใช้แบบจำลองสินค้าคงคลังแบบเข้าก่อนออกก่อน (FIFO) และมีการปิดบัญชีสินค้าคงคลัง ณ วันที่ 28 กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="16d87-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="16d87-112">ธุรกรรมการออกใช้ทางการเงินมูลค่า USD 11.00 จะถูกจับคู่กับใบเสร็จรับเงินลงวันที่ 1 กุมภาพันธ์ และจะมีการปรับปรุง USD 1.00</span><span class="sxs-lookup"><span data-stu-id="16d87-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="16d87-113">การรับสินค้าคงคลังต่อไปนี้จะมีปริมาณสินค้าคงคลังที่เปิดไว้:</span><span class="sxs-lookup"><span data-stu-id="16d87-113">The following inventory receipts will then contain open inventory quantities:</span></span>
+<span data-ttu-id="76a56-111">สินค้านี้มีการตั้งค่าโดยใช้แบบจำลองสินค้าคงคลังแบบเข้าก่อนออกก่อน (FIFO) และมีการปิดบัญชีสินค้าคงคลัง ณ วันที่ 28 กุมภาพันธ์</span><span class="sxs-lookup"><span data-stu-id="76a56-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="76a56-112">ธุรกรรมการออกใช้ทางการเงินมูลค่า USD 11.00 จะถูกจับคู่กับใบเสร็จรับเงินลงวันที่ 1 กุมภาพันธ์ และจะมีการปรับปรุง USD 1.00</span><span class="sxs-lookup"><span data-stu-id="76a56-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="76a56-113">การรับสินค้าคงคลังต่อไปนี้จะมีปริมาณสินค้าคงคลังที่เปิดไว้:</span><span class="sxs-lookup"><span data-stu-id="76a56-113">The following inventory receipts will then contain open inventory quantities:</span></span>
 
--   <span data-ttu-id="16d87-114">1 กุมภาพันธ์: ปริมาณ 1 หน่วย ที่ต้นทุน USD 10.00</span><span class="sxs-lookup"><span data-stu-id="16d87-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
--   <span data-ttu-id="16d87-115">5 กุมภาพันธ์: ปริมาณ 1 หน่วย ที่ต้นทุน USD 13.00</span><span class="sxs-lookup"><span data-stu-id="16d87-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="76a56-114">1 กุมภาพันธ์: ปริมาณ 1 หน่วย ที่ต้นทุน USD 10.00</span><span class="sxs-lookup"><span data-stu-id="76a56-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="76a56-115">5 กุมภาพันธ์: ปริมาณ 1 หน่วย ที่ต้นทุน USD 13.00</span><span class="sxs-lookup"><span data-stu-id="76a56-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
 
-<span data-ttu-id="16d87-116">ในการตั้งค่าต้นทุนของสินค้าทั้งสองนี้เป็น USD 15.00 ให้ใช้ตัวเลือกการปรับปรุงคงเหลือเพื่อปรับปรุงปริมาณคงเหลือที่เปิด ณ รอบระยะเวลาการปิดบัญชีสินค้าคงคลังล่าสุด</span><span class="sxs-lookup"><span data-stu-id="16d87-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="16d87-117">**หมายเหตุ:** วันที่ลงรายการบัญชีของธุรกรรมการปรับปรุงคงเหลือจะเป็นวันที่ปิดบัญชีสินค้าคงคลังล่าสุด</span><span class="sxs-lookup"><span data-stu-id="16d87-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="16d87-118">วันที่นี้ไม่สามารถแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="16d87-118">This date can't be modified.</span></span>
+<span data-ttu-id="76a56-116">ในการตั้งค่าต้นทุนของสินค้าทั้งสองนี้เป็น USD 15.00 ให้ใช้ตัวเลือกการปรับปรุงคงเหลือเพื่อปรับปรุงปริมาณคงเหลือที่เปิด ณ รอบระยะเวลาการปิดบัญชีสินค้าคงคลังล่าสุด</span><span class="sxs-lookup"><span data-stu-id="76a56-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="76a56-117">**หมายเหตุ:** วันที่ลงรายการบัญชีของธุรกรรมการปรับปรุงคงเหลือจะเป็นวันที่ปิดบัญชีสินค้าคงคลังล่าสุด</span><span class="sxs-lookup"><span data-stu-id="76a56-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="76a56-118">วันที่นี้ไม่สามารถแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="76a56-118">This date can't be modified.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
