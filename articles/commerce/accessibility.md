@@ -2,11 +2,9 @@
 title: คุณลักษณะและความสามารถในการเข้าถึง
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับคุณลักษณะและความสามารถสำหรับการเข้าถึงใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 094ad8d34e13051ce7596be462070ead4cbc4f14
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206666"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796329"
 ---
 # <a name="accessibility-features-and-capabilities"></a>คุณลักษณะและความสามารถของการช่วยการเข้าถึง
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับคุณลักษณะและความสามารถสำหรับการเข้าถึงใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 คุณลักษณะและความสามารถในการเข้าถึงช่วยให้ผู้ใช้ทุกคนสามารถเข้าถึงและดำเนินการต่างๆ ที่ต้องทำให้สำเร็จได้อย่างมีประสิทธิภาพ ผู้ใช้ที่หลากหลายนี้อาจต้องใช้เครื่องมือช่วยเหลือสำหรับการได้ยิน วิสัยทัศน์ การเคลื่อนไหว หรือความหลากหลายทางประสาท
 

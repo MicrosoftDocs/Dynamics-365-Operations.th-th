@@ -2,11 +2,9 @@
 title: ประมวลผลค่าตอบแทน
 description: การประมวลผลค่าตอบแทนช่วยให้คุณสามารถคำนวณยอดเงินค่าตอบแทนพื้นฐานใหม่ สำหรับพนักงานของคุณตามการปรับปรุงของผู้ถือหุ้น เป้าหมายการขึ้นค่าตอบแทนตามผลงาน และประสิทธิภาพการทำงาน
 author: andreabichsel
-manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3ab2117ea0d4cf7413dddf09d953e0da39e6882a
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465713"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800938"
 ---
 # <a name="process-compensation"></a>ประมวลผลค่าตอบแทน
 

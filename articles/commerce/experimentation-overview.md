@@ -2,11 +2,9 @@
 title: การทดสอบใน Dynamics 365 Commerce
 description: การทดสอบเปิดใช้งานการสร้าง การแก้ไข และการจัดการโครงร่างหน้าและการจัดการเนื้อหาในโปรแกรมสร้างไซต์ การสนับสนุนการทดสอบแบบครอบคลุมเปิดใช้งานสำหรับหน้าอีคอมเมิร์ซ และเอนทิตีภายในหน้า
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238617"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798998"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>การทดสอบใน Dynamics 365 Commerce
 ใช้การทดสอบ Dynamics 365 Commerce เพื่อตรวจสอบความถูกต้องของสมมติฐานเกี่ยวกับประสิทธิภาพของหน้าอีคอมเมิร์ซของคุณ และตัดสินใจด้วยความมั่นใจที่ขับเคลื่อนด้วยข้อมูล Commerce จะสนับสนุนการทดสอบ A/B บนหน้า โมดูล และส่วนต่างๆ และช่วยให้คุณสามารถประเมินผลของการเปลี่ยนแปลงที่นำเสนอไปยังเว็บไซต์ของคุณได้

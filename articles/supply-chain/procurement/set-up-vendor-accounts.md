@@ -1,12 +1,10 @@
 ---
 title: ตั้งค่าบัญชีผู้จัดจำหน่าย
 description: หัวข้อนี้อธิบายถึงชนิดของข้อมูลที่คุณต้องระบุเมื่อคุณสร้างบัญชีผู้จัดจำหน่ายใหม่
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27ca519ad0e0529c0d04c2f94a548c00532a9a45
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 587555f5d2631d09175fec67d3707b2aa9e7919d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237310"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812481"
 ---
 # <a name="set-up-vendor-accounts"></a>ตั้งค่าบัญชีผู้จัดจำหน่าย
 

@@ -2,11 +2,9 @@
 title: เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)
 description: หัวข้อนี้อธิบายวิธีการเพิ่มเครือข่ายการจัดส่งเนื้อหา (CDN) ไปยังสภาพแวดล้อม Microsoft Microsoft Dynamics 365 Commerce ของคุณ
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797850"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>เพิ่มการสนับสนุนสำหรับเครือข่ายการให้บริการเนื้อหา (CDN)
 
@@ -41,11 +39,7 @@ ms.locfileid: "5582730"
 
 ## <a name="set-up-ssl"></a>ตั้งค่า SSL
 
-เพื่อช่วยรับประกันว่ามีการตั้งค่า SSL และสถิตที่มีการแคช คุณต้องตั้งค่าคอนฟิก CDN ของคุณเพื่อให้เชื่อมโยงกับชื่อโฮสต์ที่ Commerce สร้างขึ้นสำหรับสภาพแวดล้อมของคุณ นอกจากนี้คุณต้องแคชรูปแบบต่อไปนี้สำหรับสถิตเท่านั้น: 
-
-/\_msdyn365/\_scnr/\*
-
-หลังจากที่คุณจัดเตรียมสภาพแวดล้อม Commerce กับโดเมนแบบกำหนดเองที่ให้ไว้ หรือหลังจากที่คุณระบุโดเมนที่กำหนดเองสำหรับสภาพแวดล้อมของคุณ โดยใช้คำขอการบริการ ให้กำหนดโดเมนที่กำหนดเองของคุณไปยังชื่อโฮสต์หรือปลายทางที่ Commerce สร้างขึ้น
+หลังจากที่คุณจัดเตรียมสภาพแวดล้อม Commerce กับโดเมนแบบกำหนดเองที่ให้ไว้ หรือหลังจากที่คุณระบุโดเมนที่กำหนดเองสำหรับสภาพแวดล้อมของคุณ โดยใช้คำขอการบริการ คุณต้องทำงานกับทีมเตรียมความพร้อมของ Commerce เพื่อวางแผนการเปลี่ยนแปลง DNS
 
 ดังที่ได้กล่าวถึงก่อนหน้านี้ ชื่อโฮสต์หรือปลายทางที่สร้างขึ้นจะสนับสนุนใบรับรอง SSL สำหรับ \*.commerce.dynamics.com เท่านั้น ไม่สนับสนุน SSL สำหรับโดเมนที่กำหนดเอง
 
@@ -62,7 +56,7 @@ ms.locfileid: "5582730"
 
 1. เพิ่มโฮสต์ front-end
 1. ตั้งค่าคอนฟิกกลุ่ม back-end
-1. ตั้งค่ากฎสำหรับการกำหนดเส้นทางและการแคช
+1. ตั้งค่ากฎการกำหนดเส้นทาง
 
 ### <a name="add-a-front-end-host"></a>เพิ่มโฮสต์ front-end
 
@@ -74,8 +68,9 @@ ms.locfileid: "5582730"
 
 การตั้งค่าคอนฟิกกลุ่ม back-end ใน Front Door Service ของ Azure ให้ทำตามขั้นตอนต่อไปนี้
 
-1. เพิ่ม **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** ไปยังกลุ่ม back-end เพื่อเป็นโฮสต์ที่กำหนดเอง ที่มีส่วนหัวของโฮสต์ back-end ที่ว่างเปล่า
+1. เพิ่ม **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** ลงในกลุ่มเสริมเป็นโฮสต์ที่ศุลกากรที่มีส่วนหัวของโฮสต์เสริมที่เหมือนกับ **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**
 1. ภายใต้ **สร้างสมดุลในการโหลด** ให้เว้นค่าเริ่มต้น
+1. ปิดใช้งานการตรวจสอบความสมบูรณ์ของกลุ่มเสริม
 
 ภาพประกอบต่อไปนี้แสดงกล่องโต้ตอบ **เพิ่มกลุ่ม back-end** ใน Front Door Service ของ Azure โดยมีการป้อนชื่อโฮสต์ back-end
 
@@ -84,6 +79,10 @@ ms.locfileid: "5582730"
 ภาพประกอบต่อไปนี้แสดงกล่องโต้ตอบ **เพิ่มกลุ่ม back-end** ใน Front Door Service ของ Azure ด้วยค่าเริ่มต้นการสร้างสมดุลในการโหลด
 
 ![เพิ่มกล่องโต้ตอบกลุ่ม back-end ต่อไป](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> ตรวจสอบให้แน่ใจว่าได้ปิดใช้งาน **ปัญหาสุขภาพ** เมื่อตั้งค่าบริการ Front Door Service ของ Azure ของคุณเองใน Commerce
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>ตั้งค่ากฎใน Front Door Service ของ Azure
 
@@ -100,24 +99,6 @@ ms.locfileid: "5582730"
 1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
 1. ตั้งค่า่ตัวเลือก **การแคช** เป็น **ปิดใช้งาน**
 
-การตั้งค่ากฎการแคชใน Front Door Service ของ Azure ให้ทำตามขั้นตอนต่อไปนี้
-
-1. เพิ่มกฎการแคช
-1. ในฟิลด์ **ชื่อ** ให้ป้อน **สถิติ**
-1. ในฟิลด์ **โพรโทคอลที่ยอมรับ** เลือก **HTTP และ HTTPS**
-1. ในฟิลด์ **โฮสต์ Frontend** ให้ป้อน **dynamics-ecom-tenant-name.azurefd.net**
-1. ภายใต้ **Patterns to match** ในฟิลด์ด้านบนให้ป้อน **/\_msdyn365/\_scnr/\***
-1. ภายใต้ **รายละเอียดกระบวนการ** ตั้งค่าตัวเลือก **ชนิดของกระบวนการ** เป็น **ส่งต่อ**
-1. ในฟิลด์ **กลุ่ม Backend** ให้เลือก **ecom-backend**
-1. ในกลุ่มฟิลด์ **โพรโทคอลการส่งต่อ** เลือกตัวเลือก **การร้องขอการจับคู่**
-1. ตั้งค่า่ตัวเลือก **เขียน URL ใหม่** เป็น **ปิดใช้งาน**
-1. ตั้งค่า่ตัวเลือก **การแคช** เป็น **ปิดใช้งาน**
-1. ในฟิลด์ **พฤติกรรมแคชสตริงการสอบถาม** เลือก **แคลทุก URL ที่ไม่ซ้ำกัน**
-1. ในกลุ่มฟิลด์ **การบีบอัดแบบไดนามิก** ให้เลือกตัวเลือก **เปิดใช้งาน**
-
-ภาพประกอบต่อไปนี้แสดงกล่องโต้ตอบ **เพิ่มกฎ** ใน Front Door Service ของ Azure
-
-![กล่องโต้ตอบกฎ](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > หากโดเมนที่คุณจะใช้เปิดใช้งานอยู่และมีอยู่แล้ว ให้สร้างตั๋วการสนับสนุนจากไทล์ **สนับสนุน** ใน [Lifecycle Services ของ Microsoft Dynamics ](https://lcs.dynamics.com/) เพื่อรับความช่วยเหลือสำหรับขั้นตอนถัดไป สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การขอความช่วยเหลือสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)

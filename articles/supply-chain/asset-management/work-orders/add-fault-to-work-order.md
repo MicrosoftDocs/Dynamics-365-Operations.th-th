@@ -1,12 +1,10 @@
 ---
 title: เพิ่มข้อบกพร่องลงในใบสั่งงาน
 description: หัวข้อนี้อธิบายวิธีการเพิ่มการลงทะเบียนข้อบกพร่องให้กับใบสั่งงานในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 489add5befe3660ad49e238b659bc8adbe1418a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a79986e3b477865bc1816a1d28c1b7094ae3974
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263769"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809817"
 ---
 # <a name="add-fault-to-work-order"></a>เพิ่มข้อบกพร่องลงในใบสั่งงาน
 

@@ -2,11 +2,9 @@
 title: วิธีการเพิ่มเนื้อหา
 description: หัวข้อนี้แสดงภาพรวมและเลือกลิงก์สำหรับสถานที่และวิธีการเริ่มต้นการจัดการเนื้อหาโดยใช้ชุดเครื่องมือการเขียนเว็บตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208074"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797586"
 ---
 # <a name="ways-to-add-content"></a>วิธีการเพิ่มเนื้อหา
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมและลิงก์ไปยังเอกสารเกี่ยวกับวิธีการจัดการเนื้อหาโดยใช้ชุดเครื่องมือการเขียนตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 มีหลายวิธีในการเปลี่ยนรูปลักษณ์ ความรู้สึก และเนื้อหาของเว็บไซต์ของคุณ ทั้งนี้ขึ้นอยู่กับระดับที่กำหนดของการเลือกกำหนด การเปลี่ยนแปลงเหล่านี้อาจดำเนินการได้โดยผู้ที่ไม่ใช่นักพัฒนาโดยใช้โปรแกรมสร้างไซต์ ซึ่งคือชุดเครื่องมือการเขียนแก้ไซต์ที่รวมอยู่ใน Dynamics 365 Commerce โปรแกรมสร้างไซต์ช่วยให้คุณสามารถสร้างแม่แบบ ได้เลือกชุดรูปแบบ และเลือกและตั้งค่าคอนฟิกโมดูลโดยที่ไม่ต้องมีการเขียนโค้ดใด ๆ ในทางกลับกัน ทักษะการพัฒนาต้องใช้ในการสร้างชุดรูปแบบหรือโมดูลใหม่ เนื่องจากชุดพัฒนาซอฟต์แวร์อีคอมเมิร์ซ (SDK) และ Microsoft Dynamics Lifecycle Services (LCS) ต้องใช้ลำดับงานการปรับใช้
 
