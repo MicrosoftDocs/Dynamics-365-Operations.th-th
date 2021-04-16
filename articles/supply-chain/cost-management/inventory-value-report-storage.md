@@ -2,11 +2,9 @@
 title: รายงานการจัดเก็บมูลค่าสินค้าคงคลัง
 description: หัวข้อนี้จะอธิบายถึงวิธีการรันรายงานการจัดเก็บมูลค่าสินค้าคงคลัง และทำให้ผลลัพธ์พร้อมใช้งานแบบดิจิตอล เป็นหน้าแบบโต้ตอบใน Microsoft Dynamics 365 Supply Chain Management หรือเป็นเอกสารที่ส่งออกในรูปแบบใดรูปแบบหนึ่ง
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6f0c382c56ea0c576134f2871cba7a71b44e6528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262488"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821572"
 ---
 # <a name="inventory-value-storage-report"></a>รายงานการจัดเก็บมูลค่าสินค้าคงคลัง
 

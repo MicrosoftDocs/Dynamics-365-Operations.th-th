@@ -2,11 +2,9 @@
 title: VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับภาษีมูลค่าเพิ่ม (VAT) ที่ยังไม่รับรู้และที่รับรู้ในประเทศไทย
 author: anasyash
-manager: tfehr
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e074836b78559c589ecb4242b0e5805e41bbcb99
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2af0e511fd2ac85376be34a8295d8c521faafb3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265020"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840329"
 ---
 # <a name="thailand-unrealized-and-realized-vat"></a>VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 
