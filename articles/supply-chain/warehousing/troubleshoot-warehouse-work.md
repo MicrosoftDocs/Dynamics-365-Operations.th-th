@@ -2,11 +2,9 @@
 title: แก้ไขปัญหางานคลังสินค้า
 description: หัวข้อนี้อธิบายวิธีการแก้ไขปัญหาทั่วไปที่คุณอาจพบในระหว่างที่คุณทำงานในคลังสินค้าใน Microsoft Dynamics 365 Supply Chain Management
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237070"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837452"
 ---
 # <a name="troubleshoot-warehouse-work"></a>แก้ไขปัญหางานคลังสินค้า
 
@@ -40,11 +38,11 @@ ms.locfileid: "5237070"
 
 ปัญหานี้จะได้รับการแก้ไขโดยการเปลี่ยนแปลงที่มีการปรับใช้ใน [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687) การเปลี่ยนแปลงดังกล่าวจะทำให้ฟิลด์ **หมายเลขประจำสินค้า** ไม่จำเป็นต้องระบุเมื่อการตัดสินค้าที่ว่างเปล่าได้และการรับสินค้าที่ว่างเปล่าสามารถทำได้
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>ฉันได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้ในแอปคลังสินค้าเมื่อฉันประมวลผลการย้ายสินค้า: "เจ้าของสินค้าคงคลัง %1 ไม่ได้รับอนุญาตในกระบวนการนี้"
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>ฉันได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้ในแอปการจัดการคลังสินค้าบนมือถือเมื่อฉันประมวลผลการย้ายสินค้า: "เจ้าของสินค้าคงคลัง %1 ไม่ได้รับอนุญาตในกระบวนการนี้"
 
 ### <a name="issue-description"></a>คำอธิบายปัญหา
 
-มิติการติดตาม **เจ้าของ** หายไปเมื่อแอปคลังสินค้าใช้เพื่อทำการเคลื่อนย้าย สมุดรายวันการโอนย้ายสินค้าคงคลังปกติจากไคลเอนต์ Supply Chain Management จะปรากฏขึ้นเพื่อให้คุณสามารถลงรายการบัญชีได้อย่างถูกต้อง และสามารถลงรายการบัญชีได้เฉพาะเมื่อมีการกรอกข้อมูลมิติ **เจ้าของ** ไว้เท่านั้น
+มิติการติดตาม **เจ้าของ** หายไปเมื่อแอปการจัดการคลังสินค้าบนมือถือใช้เพื่อทำการเคลื่อนย้าย สมุดรายวันการโอนย้ายสินค้าคงคลังปกติจากไคลเอนต์ Supply Chain Management จะปรากฏขึ้นเพื่อให้คุณสามารถลงรายการบัญชีได้อย่างถูกต้อง และสามารถลงรายการบัญชีได้เฉพาะเมื่อมีการกรอกข้อมูลมิติ **เจ้าของ** ไว้เท่านั้น
 
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 

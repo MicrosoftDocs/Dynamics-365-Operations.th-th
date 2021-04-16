@@ -2,11 +2,9 @@
 title: การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
 description: หัวข้อนี้อธิบายวิธีการจัดการการตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่ของผู้ปฏิบัติงานคลังสินค้า
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501209"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837476"
 ---
 # <a name="mobile-device-user-settings"></a>การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 แอปการจัดการคลังสินค้าใหม่บนมือถือมีชุดการตั้งค่าเฉพาะแอปที่ช่วยปรับประสบการณ์ของผู้ใช้ให้เหมาะสม เนื่องจากแอปนี้สามารถใช้งานบนอุปกรณ์ที่มีขนาดและการตั้งค่าคอนฟิกต่าง ๆ บนจอภาพ (เช่น แท็บเล็ต โทรศัพท์ หรือที่ยก) จึงอาจเป็นประโยชน์ที่จะจัดการการตั้งค่าเหล่านี้จาก Microsoft Dynamics 365 Supply Chain Management แบบครอบคลุม
 

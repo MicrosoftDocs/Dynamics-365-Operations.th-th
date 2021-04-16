@@ -2,7 +2,6 @@
 title: การตั้งค่าพารามิเตอร์ต้นทุนแฝง
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าข้อมูลทั่วไปและการตั้งค่าการตั้งค่าคอนฟิกที่ใช้ระหว่างโมดูลต้นทุนแฝงสำหรับการลงรายการบัญชี การอัปเดตสถานะ ลำดับหมายเลข และลักษณะการทำงาน
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 489c0db50d52c1e58eab73ad19a73babf22b4de7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500777"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833916"
 ---
 # <a name="landed-cost-parameters-setup"></a>การตั้งค่าพารามิเตอร์ต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 คุณใช้หน้า **พารามิเตอร์ต้นทุนแฝง** เพื่อตั้งค่าข้อมูลทั่วไปและการตั้งค่าการตั้งค่าคอนฟิกที่ใช้ระหว่างโมดูล **ต้นทุนแฝง** สำหรับการลงรายการบัญชี การอัปเดตสถานะ ลำดับหมายเลข และลักษณะการทำงาน มีการใช้การตั้งค่าพารามิเตอร์ร่วมกันระหว่างนิติบุคคล และสามารถแก้ไขได้โดยผู้ดูแลระบบ
 

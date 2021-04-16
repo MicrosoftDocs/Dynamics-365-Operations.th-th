@@ -2,11 +2,9 @@
 title: ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA
 description: Single Euro Payments Area (SEPA) ถูกตั้งขึ้นโดยคณะกรรมาธิการยุโรป และกำหนดว่าการชำระเงินทางอิเล็กทรอนิกส์ทั้งหมดถือว่าเป็นภายในประเทศ โดยไม่คำนึงถึงประเทศ/ภูมิภาคซึ่งบุคคล ธุรกิจ หรือองค์กร และธนาคารตั้งอยู่  ไม่มีความแตกต่างระหว่างการชำระเงินในประเทศและข้ามแดน SEPA ประกอบด้วย 28 รัฐสมาชิกสหภาพยุโรป (EU) รวมถึงไอซ์แลนด์ ลิกเตนสไตน์ นอร์เวย์ สวิตเซอร์แลนด์ รัฐโมนาโก และซานมารีโน  SEPA ช่วยจัดรูปแบบตลาดเดี่ยวสำหรับธุรกรรมการชำระเงินภายในเขตเศรษฐกิจยุโรป (EEA)  ท้ายที่สุด SEPA ถูกคาดว่าจะลดจำนวนของรูปแบบการชำระเงินที่ธนาคาร ธุรกิจ และบุคคลต้องใช้
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c0a64e2bfefb7c4ed0e0f07be60e9f5293f8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229633"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835279"
 ---
 # <a name="sepa-direct-debit-overview"></a>ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA
 

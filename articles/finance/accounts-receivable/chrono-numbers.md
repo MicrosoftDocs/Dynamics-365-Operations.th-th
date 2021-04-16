@@ -2,11 +2,9 @@
 title: การกำหนดหมายเลขเอกสารและใบสำคัญตามลำดับเวลา
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าและการกำหนดหมายเลขตามลำดับเวลาสำหรับเอกสารที่ใช้ได้และใบสำคัญที่เกี่ยวข้อง
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254543"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838872"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>การกำหนดหมายเลขเอกสารและใบสำคัญตามลำดับเวลา
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ในบางประเทศ มีข้อกําหนดทางกฎหมายว่าต้องกําหนดหมายเลขเอกสารและใบสำคัญที่เกี่ยวข้องตามลำดับเวลา ลำดับระยะเวลาต้องได้รับการสนับสนุนตามช่วงเวลา ตัวเลขทั้งหมดที่เป็นของรอบระยะเวลาก่อนหน้านี้ต้องน้อยกว่าตัวเลขที่เป็นของรอบระยะเวลาต่อมา เพื่อตอบสนองความต้องการนี้ จึงมีการใช้ฟังก์ชันการกำหนดหมายเลขตามลำดับเวลา หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกและการใช้การกำหนดหมายเลขตามลำดับเวลาสำหรับเอกสารที่ใช้ได้และใบสำคัญที่เกี่ยวข้อง
 
