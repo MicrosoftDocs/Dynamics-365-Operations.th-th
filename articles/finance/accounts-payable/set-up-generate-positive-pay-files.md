@@ -2,11 +2,9 @@
 title: ตั้งค่าและสร้างไฟล์ Positve Pay
 description: หัวข้อนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227387"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830723"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>ตั้งค่าและสร้างไฟล์ Positve Pay
 
@@ -140,6 +138,9 @@ ms.locfileid: "5227387"
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> ชื่อ XML ใน XSLT ต้องตรงกับกรอบของโหนดใน XML ทั้งไฟล์ XSLT และไฟล์ XML ต้องตรงตามตัวพิมพ์ใหญ่เล็ก 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>กำหนดรูปแบบ Positve Pay ให้กับบัญชีธนาคาร
 สำหรับแต่ละบัญชีธนาคารที่คุณต้องการสร้างข้อมูล positive pay ให้ คุณต้องกำหนดรูปแบบ positive pay ที่คุณระบุไว้ในส่วนก่อนหน้านี้  ในหน้า **บัญชีธนาคาร** เลือกรูปแบบ positive pay ที่สอดคล้องกับบัญชีธนาคาร ในฟิลด์ **วันที่เริ่มต้น Positive pay** ป้อนวันที่แรกในการสร้างไฟล์ Positive pay เป็นสิ่งสำคัญที่คุณป้อนวันที่ในฟิลด์นี้  มิฉะนั้น ไฟล์ positive pay แรกที่คุณสร้างขึ้นจะรวมเช็คทั้งหมดที่เคยสร้างไว้สำหรับบัญชีธนาคารนี้

@@ -2,11 +2,9 @@
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.12 (สิงหาคม 2020)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.12
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258982"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832213"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.12 (สิงหาคม 2020)
 
@@ -47,9 +45,9 @@ ms.locfileid: "5258982"
 
 - [ข้อมูลเชิงลึกหลักของเครื่องมือ IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจเครื่องมือ IoT](../iot/iot-intelligence-home-page.md)
 
-- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า (ต่อ)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปคลังสินค้า](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า (ต่อ)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
 
-- [การปรับใช้อย่างกว้างสำหรับ Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า](../warehousing/install-configure-warehousing-app.md)
+- [การปรับใช้อย่างกว้างสำหรับ Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md)
 
 - [เวลาดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการปริมาณคงคลังคงเหลือในการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า](../warehousing/onhand-cleanup.md)
 

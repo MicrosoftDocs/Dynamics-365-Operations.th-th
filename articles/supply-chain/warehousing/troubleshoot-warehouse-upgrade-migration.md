@@ -2,11 +2,9 @@
 title: แก้ไขการอัปเกรดและการโยกย้ายไปที่การจัดการคลังสินค้าขั้นสูง
 description: หัวข้อนี้อธิบายวิธีการแก้ไขปัญหาทั่วไปที่คุณอาจพบในระหว่างที่คุณอัปเกรดและการโยกย้ายไปที่การจัดการคลังสินค้าขั้นสูง
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208098"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826406"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>แก้ไขการอัปเกรดและการโยกย้ายไปที่การจัดการคลังสินค้าขั้นสูง
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208098"
 
 ### <a name="issue-description"></a>คำอธิบายปัญหา
 
-คุณได้รับข้อความแสดงข้อความแสดงข้อผิดพลาดในแอปคลังสินค้าเนื่องจากใบรับรองที่มีการลงชื่อด้วยตนเองไม่ได้รับความไว้วางใจในสภาพแวดล้อม Android 8+ ในสถานที่
+คุณได้รับข้อความแสดงข้อความในแอปการจัดการคลังสินค้าบนมือถือ เนื่องจากใบรับรองที่มีการลงชื่อด้วยตนเองไม่ได้รับความไว้วางใจในสภาพแวดล้อม Android 8+ ในสถานที่
 
 ### <a name="issue-resolution"></a>การแก้ไขปัญหา
 
-ใช้หน่วยงานรับรองภายนอก (สาธารณะ) (CA) การแก้ไขสำหรับปัญหานี้จะพร้อมใช้งานในรุ่น 1.9.0.0 ของแอปคลังสินค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตัดสินค้าจากคลังและวิธีการแก้ไข ให้ดูที่ [แก้ไขปัญหาเกี่ยวกับการเชื่อมต่อของแอปคลังสินค้า](troubleshoot-warehouse-app-connection.md)
+ใช้หน่วยงานรับรองภายนอก (สาธารณะ) (CA) การแก้ไขสำหรับปัญหานี้จะพร้อมใช้งานในรุ่น 1.9.0.0 ของแอปคลังสินค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตัดสินค้าจากคลังและวิธีการแก้ไข ให้ดูที่ [แก้ไขปัญหาเกี่ยวกับการเชื่อมต่อของแอปการจัดการคลังสินค้าบนมือถือ](troubleshoot-warehouse-app-connection.md)
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>กระบวนการที่ได้รับการอนุมัติสำหรับการเคลื่อนย้ายจากคลังสินค้าขั้นพื้นฐานไปยังคลังสินค้าขั้นสูงมีอะไรบ้าง
 

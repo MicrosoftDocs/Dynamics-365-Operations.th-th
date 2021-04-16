@@ -2,11 +2,9 @@
 title: การคาดคะเนการชำระเงินของลูกค้า (พรีวิว)
 description: หัวข้อนี้อธิบายความสามารถในการคาดคะเนการชำระเงินซึ่งช่วยให้คุณเข้าใจแนวทางการชำระเงินโดยทั่วไปของลูกค้าได้ดียิ่งขึ้น ลักษณะการทำงานนี้ยังสามารถช่วยระบุสถานการณ์ที่ควรทำให้คุณต้องเริ่มต้นกระบวนการเรียกเก็บเงินก่อนที่คุณอาจเริ่มต้นการเรียกเก็บเงินดังกล่าว
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 398320726a5749f80584ba281095a5dbd668ae87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241349"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827277"
 ---
 # <a name="customer-payment-predictions-preview"></a>การคาดคะเนการชำระเงินของลูกค้า (พรีวิว)
 

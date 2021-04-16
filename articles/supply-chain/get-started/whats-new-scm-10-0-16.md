@@ -2,11 +2,9 @@
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.16
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236086"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829996"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236086"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
 - [อินเทอร์เฟสการดำเนินการผลิตที่กำหนดเองได้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-setup.md)
 
 - [Add-in การแสดงผลสินค้าคงคลังสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)
+
+- ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - ดูข้อมูลเพิ่มเติมที่ ดูที่ [สำดับหมายเลขแบบรวมของรหัสงาน](../production-control/unified-job-ids.md)
 
 - [ตรวจสอบความถูกต้องของป้ายทะเบียนบนรายการเอกสารต้นทาง](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/warehouse-configuration.md)
 
@@ -75,7 +75,7 @@ ms.locfileid: "5236086"
 - [แก้ไขปัญหาใบสั่งขาย](../sales-marketing/troubleshooting-sales.md)
 - [แก้ไขปัญหาใบเสนอราคาขาย](../sales-marketing/troubleshooting-salesquotation.md)
 - [แก้ไขปัญหาการอัปเกรดและการย้ายไปที่การจัดการคลังสินค้าขั้นสูง](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [การแก้ไขปัญหาเกี่ยวกับการเชื่อมต่อกับแอปคลังสินค้า](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [การแก้ไขปัญหาแก้ไขปัญหาการเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [แก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/troubleshoot-warehouse-configuration.md)
 - [แก้ไขปัญหาการเติมสินค้าในคลังสินค้า](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [แก้ไขปัญหาการตั้งค่าคลังสินค้า](../warehousing/troubleshoot-warehouse-setup.md)

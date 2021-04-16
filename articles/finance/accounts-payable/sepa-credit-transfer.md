@@ -2,11 +2,9 @@
 title: ภาพรวมของการโอนย้ายเครดิต SEPA
 description: บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับการโอนย้ายเครดิต ISO 20022 ซึ่งรวมถึงการโอนย้ายเครดิต Single Euro Payments Area (SEPA) และการชำระเงินทางอิเล็กทรอนิกส์อื่นๆ สำหรับผู้จัดจำหน่าย การโอนย้ายเครดิต SEPA คือชนิดเฉพาะของการชำระเงินในสกุลเงินยูโรจากบริษัทหนึ่งหรือจากบุคคลหนึ่ง ให้แก่บริษัทอีกแห่งหนึ่งหรือบุคคลหนึ่ง นอกจากนี้หัวข้อนี้ยังอธิบายถึงวิธีการตั้งค่า และส่งไฟล์การชำระเงินโอนย้ายเครดิต
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227411"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830747"
 ---
 # <a name="sepa-credit-transfer-overview"></a>ภาพรวมของการโอนย้ายเครดิต SEPA
 
