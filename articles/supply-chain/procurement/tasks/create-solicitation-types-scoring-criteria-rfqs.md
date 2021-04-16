@@ -1,55 +1,53 @@
 ---
 title: สร้างชนิดการร้องขอ และเกณฑ์การให้คะแนนสำหรับ RFQ
 description: 'คำแนะนำนี้แสดงวิธีการสร้างชนิดการร้องขอ และการเชื่อมโยงกับวิธีการให้คะแนน '
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf196711799b78d7f4106b6693127d7f356b1d4e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2d28cb4bf20ba50aae6b85e835339e2df711c99d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262224"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812073"
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="050e8-103">สร้างชนิดการร้องขอ และเกณฑ์การให้คะแนนสำหรับ RFQ</span><span class="sxs-lookup"><span data-stu-id="050e8-103">Create solicitation types and scoring criteria for RFQs</span></span>
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="3168d-103">สร้างชนิดการร้องขอ และเกณฑ์การให้คะแนนสำหรับ RFQ</span><span class="sxs-lookup"><span data-stu-id="3168d-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="050e8-104">คำแนะนำนี้แสดงวิธีการสร้างชนิดการร้องขอ และการเชื่อมโยงกับวิธีการให้คะแนน </span><span class="sxs-lookup"><span data-stu-id="050e8-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="050e8-105">นอกจากนี้ยังแสดงวิธีการใช้ชนิดการร้องขอในคำขอใบเสนอราคา (RFQ) ซึ่งจะกำหนดวิธีการให้คะแนนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="050e8-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="050e8-106">โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="050e8-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="050e8-107">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเองได้</span><span class="sxs-lookup"><span data-stu-id="050e8-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="050e8-108">คุณต้องมีวิธีการให้คะแนนที่พร้อมใช้ก่อนที่จะเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="050e8-108">You need to have a scoring method available before you start.</span></span>
+<span data-ttu-id="3168d-104">คำแนะนำนี้แสดงวิธีการสร้างชนิดการร้องขอ และการเชื่อมโยงกับวิธีการให้คะแนน </span><span class="sxs-lookup"><span data-stu-id="3168d-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="3168d-105">นอกจากนี้ยังแสดงวิธีการใช้ชนิดการร้องขอในคำขอใบเสนอราคา (RFQ) ซึ่งจะกำหนดวิธีการให้คะแนนเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="3168d-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="3168d-106">โดยทั่วไปงานเหล่านี้จะดำเนินการโดยผู้จัดการฝ่ายจัดซื้อ</span><span class="sxs-lookup"><span data-stu-id="3168d-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="3168d-107">คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเองได้</span><span class="sxs-lookup"><span data-stu-id="3168d-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="3168d-108">คุณต้องมีวิธีการให้คะแนนที่พร้อมใช้ก่อนที่จะเริ่มต้น</span><span class="sxs-lookup"><span data-stu-id="3168d-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a><span data-ttu-id="050e8-109">สร้างชนิดการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="050e8-109">Create a solicitation type</span></span>
-1. <span data-ttu-id="050e8-110">ไปที่การจัดซื้อและการจัดหา > การตั้งค่า > คำขอใบเสนอราคา > ชนิดการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="050e8-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
-2. <span data-ttu-id="050e8-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="050e8-111">Click New.</span></span>
-3. <span data-ttu-id="050e8-112">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="050e8-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="050e8-113">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="050e8-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="050e8-114">ในฟิลด์วิธีการให้คะแนน เลือกวิธีการให้คะแนนที่คุณต้องการใช้สำหรับชนิดการร้องขอนี้</span><span class="sxs-lookup"><span data-stu-id="050e8-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
-6. <span data-ttu-id="050e8-115">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="050e8-115">Click Save.</span></span>
-7. <span data-ttu-id="050e8-116">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="050e8-116">Close the page.</span></span>
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="3168d-109">สร้างชนิดการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="3168d-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="3168d-110">ไปที่การจัดซื้อและการจัดหา > การตั้งค่า > คำขอใบเสนอราคา > ชนิดการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="3168d-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="3168d-111">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="3168d-111">Click New.</span></span>
+3. <span data-ttu-id="3168d-112">ในฟิลด์ชื่อ ให้พิมพ์ค่า </span><span class="sxs-lookup"><span data-stu-id="3168d-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="3168d-113">ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า</span><span class="sxs-lookup"><span data-stu-id="3168d-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3168d-114">ในฟิลด์วิธีการให้คะแนน เลือกวิธีการให้คะแนนที่คุณต้องการใช้สำหรับชนิดการร้องขอนี้</span><span class="sxs-lookup"><span data-stu-id="3168d-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="3168d-115">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="3168d-115">Click Save.</span></span>
+7. <span data-ttu-id="3168d-116">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="3168d-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a><span data-ttu-id="050e8-117">ใช้ชนิดของการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="050e8-117">Use the solicitation type</span></span>
-1. <span data-ttu-id="050e8-118">ไปที่การจัดซื้อและการจัดหา > คำขอใบเสนอราคา > คำขอใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="050e8-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
-2. <span data-ttu-id="050e8-119">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="050e8-119">Click New.</span></span>
-3. <span data-ttu-id="050e8-120">ในฟิลด์ชนิดการร้องขอ เลือกชนิดการร้องขอที่คุณเพิ่งสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="050e8-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="3168d-117">ใช้ชนิดของการร้องขอ</span><span class="sxs-lookup"><span data-stu-id="3168d-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="3168d-118">ไปที่การจัดซื้อและการจัดหา > คำขอใบเสนอราคา > คำขอใบเสนอราคาทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="3168d-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="3168d-119">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="3168d-119">Click New.</span></span>
+3. <span data-ttu-id="3168d-120">ในฟิลด์ชนิดการร้องขอ เลือกชนิดการร้องขอที่คุณเพิ่งสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="3168d-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
     *   
-4. <span data-ttu-id="050e8-121">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="050e8-121">Click OK.</span></span>
-5. <span data-ttu-id="050e8-122">คลิกเกณฑ์การให้คะแนน</span><span class="sxs-lookup"><span data-stu-id="050e8-122">Click Scoring criteria.</span></span>
-    * <span data-ttu-id="050e8-123">เกณฑ์การให้คะแนนที่แสดงมาจากวิธีการให้คะแนนที่คุณเชื่อมโยงกับชนิดการร้องขอ </span><span class="sxs-lookup"><span data-stu-id="050e8-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="050e8-124">คุณสามารถเลือกที่จะเพิ่ม หรือลบเงื่อนไขบนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="050e8-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="050e8-125">และยังสามารถเพิ่มเงื่อนไขใหม่ได้โดยการคัดลอกออกจากวิธีการให้คะแนนอื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="050e8-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
-6. <span data-ttu-id="050e8-126">คลิกคัดลอกเกณฑ์</span><span class="sxs-lookup"><span data-stu-id="050e8-126">Click Copy criteria.</span></span>
-7. <span data-ttu-id="050e8-127">ในฟิลด์วิธีการให้คะแนน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="050e8-127">In the Scoring method field, enter or select a value.</span></span>
-8. <span data-ttu-id="050e8-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="050e8-128">Click OK.</span></span>
-9. <span data-ttu-id="050e8-129">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="050e8-129">Close the page.</span></span>
+4. <span data-ttu-id="3168d-121">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="3168d-121">Click OK.</span></span>
+5. <span data-ttu-id="3168d-122">คลิกเกณฑ์การให้คะแนน</span><span class="sxs-lookup"><span data-stu-id="3168d-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="3168d-123">เกณฑ์การให้คะแนนที่แสดงมาจากวิธีการให้คะแนนที่คุณเชื่อมโยงกับชนิดการร้องขอ </span><span class="sxs-lookup"><span data-stu-id="3168d-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="3168d-124">คุณสามารถเลือกที่จะเพิ่ม หรือลบเงื่อนไขบนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="3168d-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="3168d-125">และยังสามารถเพิ่มเงื่อนไขใหม่ได้โดยการคัดลอกออกจากวิธีการให้คะแนนอื่น ๆ</span><span class="sxs-lookup"><span data-stu-id="3168d-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="3168d-126">คลิกคัดลอกเกณฑ์</span><span class="sxs-lookup"><span data-stu-id="3168d-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="3168d-127">ในฟิลด์วิธีการให้คะแนน ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง</span><span class="sxs-lookup"><span data-stu-id="3168d-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="3168d-128">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="3168d-128">Click OK.</span></span>
+9. <span data-ttu-id="3168d-129">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="3168d-129">Close the page.</span></span>
 
 
 
