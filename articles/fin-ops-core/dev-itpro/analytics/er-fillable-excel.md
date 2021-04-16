@@ -2,7 +2,6 @@
 title: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 description: หัวข้อนี้อธิบายวิธีการออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะกรอกข้อมูลในเท็มเพลต Excel แล้วสร้างเอกสารการจัดรูปแบบของ Excel ขาออก
 author: NickSelin
-manager: AnnBe
 ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574184"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753323"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -230,7 +229,7 @@ ms.locfileid: "5574184"
     1. [สร้าง](er-quick-start2-customize-report.md#DeriveProvidedFormat) รูปแบบ ER **ใบแจ้งหนี้ข้อความอิสระ (Excel) ที่กำหนดเอง** ที่สืบทอดมาโดยยึดตามรูปแบบ ER ตัวอย่าง
     2. เพิ่มส่วนประกอบ **สตริง** คู่แรกคู่ใหม่สำหรับส่วนประกอบ **ส่วนท้าย** ของแผ่นงาน **ใบแจ้งหนี้** 
 
-        1. เพิ่มส่วนประกอบ **สตริง** ที่จัดเรียงชื่อบริษัทไว้ทางด้านซ้ายและแสดงเป็นแบบอักษร "Segoe UI Regular" ขนาด 8 พอยท์ (**"&L&"Segoe UI,Regular"&8")**
+        1. เพิ่มส่วนประกอบ **สตริง** ที่จัดเรียงชื่อบริษัทไว้ทางด้านซ้ายและแสดงเป็นแบบอักษร "Segoe UI Regular&quot; ขนาด 8 พอยท์ (**&quot;&L&&quot;Segoe UI,Regular&quot;&8")**
         2. เพิ่มส่วนประกอบ **สตริง** ที่กรอกในชื่อบริษัท (**model.InvoiceBase.CompanyInfo.Name)**
 
     3. เพิ่มส่วนประกอบคู่ที่สองของ **สตริง** สำหรับส่วนประกอบ **ส่วนท้าย** ของแผ่นงาน **ใบแจ้งหนี้** 

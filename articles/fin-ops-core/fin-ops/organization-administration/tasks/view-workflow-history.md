@@ -2,7 +2,6 @@
 title: ดูประวัติลำดับงาน
 description: หัวข้อนี้อธิบายขั้นตอนในการดูสถานะของเอกสารที่ถูกส่งให้กับระบบลำดับงานเพื่อการประมวลผลและการอนุมัติ
 author: jasongre
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a7c6edd53ebafb0bab894fec9c50d834d24b990
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 351f9c80eab8e9810fa6a4538f003eaef1a4a4fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568015"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747236"
 ---
 # <a name="view-workflow-history"></a>ดูประวัติลำดับงาน
 

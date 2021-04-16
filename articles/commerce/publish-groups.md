@@ -2,11 +2,9 @@
 title: ทำงานกับกลุ่มการเผยแพร่
 description: หัวข้อนี้อธิบายคุณลักษณะของกลุ่มการเผยแพร่ใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792326"
 ---
 # <a name="work-with-publish-groups"></a>ทำงานกับกลุ่มการเผยแพร่
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายคุณลักษณะของกลุ่มการเผยแพร่ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 เว็บไซต์อีคอมเมิร์ซมีการปรับปรุงอย่างต่อเนื่องด้วยเนื้อหาใหม่ตลอดทั้งปี การปรับปรุงมักจะถูกเผยแพร่ในชุดงานรอบเหตุการณ์อีคอมเมิร์ซที่ไม่ว่าง เช่น วันหยุด การส่งเสริมการขายตามฤดูกาล หรือการเปิดตัวโปรโมชัน การปรับปรุงเหล่านี้มักจะต้องใช้กลุ่มของเนื้อหาเว็บไซต์ (ตัวอย่างเช่น หน้า รูปภาพ ชิ้นส่วน และเท็มเพลต) จะถูกจัดฉาก ตรวจสอบ และเผยแพร่ พร้อมกันในการดำเนินการเดียว
 

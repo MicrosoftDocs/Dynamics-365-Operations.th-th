@@ -2,7 +2,6 @@
 title: ชนิดของปลายทาง ER ที่เก็บถาวร
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกปลายทางที่เก็บถาวรให้กับแต่ละส่วนประกอบโฟลเดอร์หรือไฟล์ ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72b896ca692a54200ff79b14d0b5dc6ab4b0fe27
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562057"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753539"
 ---
 # <a name="archive-er-destination-type"></a>ชนิดของปลายทาง ER ที่เก็บถาวร
 
