@@ -2,11 +2,9 @@
 title: ชนิดการลงรายการบัญชีสัญญาเช่า
 description: หัวข้อนี้จะอธิบายถึงชนิดการลงรายการบัญชีที่ใช้สำหรับธุรกรรมการเช่าสินทรัพย์
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229513"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841152"
 ---
 # <a name="lease-posting-types"></a>ชนิดการลงรายการบัญชีสัญญาเช่า
 
@@ -90,15 +88,6 @@ ms.locfileid: "5229513"
 **ตัวอย่างรายการสมุดรายวัน:** ค่าเสื่อมราคาค้างรับ<br>
 **เดบิต:** ค่าเสื่อมราคา XXX<br>
 **เครดิต:** ค่าเสื่อมราคาสะสม XXX
-
-## <a name="retained-earnings"></a>กำไรสะสม
-
-บัญชีที่สัมพันธ์กับกำไรสะสม บัญชีนี้อาจถูกเดบิตหรือเครดิตในรายการสมุดรายวันการปรับปรุงการเปลี่ยนแปลง โดยใช้ตัวเลือกการติดตามย้อนหลังหรือสะสมแบบเต็มวิธี A ผลต่างระหว่างสิทธิ์การใช้สินทรัพย์และหนี้สินสัญญาเช่าเริ่มต้นจะถูกจองเพื่อกำไรสะสม ในบางกรณี รายได้สะสมอาจได้รับผลกระทบในระหว่างการปรับเปลี่ยนสัญญาเช่า ถ้าการจัดประเภทของสัญญาเช่ามีการเปลี่ยนแปลงจากการเงินไปยังการดำเนินงานเพื่อเขียนสิทธิ์การใช้สินทรัพย์ขึ้นหรือลงเพื่อให้เท่ากับหนี้สินสัญญาเช่า
-
-**รายการในสมุดรายวันตัวอย่าง:** การปรับปรุงการเปลี่ยน (ตัวเลือกการติดตามย้อนหลังหรือสะสมแบบเต็มวิธี A)<br>
-**เดดิต:** หนี้สินสัญญาเช่า XXX<br>
-**เครดิต:** สินทรัพย์สัญญาเช่า XXX<br>
-**เครดิต:** กำไรสะสม XXX
 
 ## <a name="variable-payment"></a>การชำระเงินแบบผันแปร
 

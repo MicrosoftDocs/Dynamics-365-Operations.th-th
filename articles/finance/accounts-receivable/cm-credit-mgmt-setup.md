@@ -2,11 +2,9 @@
 title: การตั้งค่าพารามิเตอร์การจัดการเครดิต
 description: หัวข้อนี้จะอธิบายถึงตัวเลือกที่คุณสามารถใช้เพื่อตั้งค่าคอนฟิกการจัดการเครดิต เพื่อให้ตรงกับความต้องการของธุรกิจของคุณได้
 author: mikefalkner
-manager: AnnBe
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 126cae03228b1fb49ded877af69643ec8676c1ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4243b7163d822f8b496fb79f6c72cf8d5502ca7e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242894"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835351"
 ---
 # <a name="credit-management-parameters-setup"></a>การตั้งค่าพารามิเตอร์การจัดการเครดิต
 

@@ -2,11 +2,9 @@
 title: การแบ่งช่วงเวลาของคลังสินค้า
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการแบ่งช่วงเวลาของคลังสินค้า การแบ่งช่วงเวลาของคลังสินค้าช่วยให้คุณสามารถรวมความต้องการตามสินค้าและหน่วยวัดจากใบสั่งที่มีสถานะเป็นสั่งแล้ว จองแล้ว หรือนำออกใช้แล้ว ซึ่งช่วยผู้จัดการคลังสินค้าในการวางแผนสถานที่เบิกสินค้าอย่างชาญฉลาด ก่อนที่พวกเขาจะนำใบสั่งออกใช้ไปยังคลังสินค้าและสร้างงานการเบิกสินค้า
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0851af976dd73b7f13372880587187f546091bec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0dd1f42b7bb337ccb65b7e4bdd9d307d074ae0d0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248606"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838165"
 ---
 # <a name="warehouse-slotting"></a>การแบ่งช่วงเวลาของคลังสินค้า
 

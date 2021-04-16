@@ -2,11 +2,9 @@
 title: การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันที่ช่วยให้ง่ายสำหรับผู้จัดการคลังสินค้าในการดูและกรองการใช้ประโยชน์สถานที่เชิงปริมาตรในคลังสินค้า ผู้จัดการสามารถเลือกสถานที่และสร้างงานการย้ายสินค้าคงคลังได้โดยตรงจากหน้าการรวมบัญชีสินค้าเพื่อรวมบัญชีสินค้า และดังนั้นจึงทำให้มีการใช้พื้นที่คลังสินค้าได้มากขึ้น
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217016"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835592"
 ---
 # <a name="item-consolidation---location-utilization"></a>การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 
@@ -149,7 +147,7 @@ ms.locfileid: "5217016"
 
 ## <a name="example-scenario"></a>ตัวอย่างสถานการณ์จำลอง
 
-สถานการณ์จำลองต่อไปนี้ใช้แอปคลังสินค้าบนอุปกรณ์เคลื่อนที่เพื่อทำ *การปรับปรุงใน* สินค้าคงคลังเป็นสถานที่สองแห่งในคลังสินค้า
+สถานการณ์จำลองต่อไปนี้ใช้แอปการจัดการคลังสินค้าบนมือถือเพื่อทำ *การปรับปรุงใน* สินค้าคงคลังเป็นสถานที่สองแห่งในคลังสินค้า
 
 ### <a name="add-inventory-to-locations"></a>เพิ่มสินค้าคงคลังไปยังสถานที่
 

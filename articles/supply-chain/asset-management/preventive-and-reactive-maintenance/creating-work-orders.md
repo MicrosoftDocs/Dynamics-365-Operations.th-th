@@ -2,11 +2,9 @@
 title: การสร้างใบสั่งงาน
 description: หัวข้อนี้อธิบายวิธีการสร้างใบสั่งงานในการจัดการสินทรัพย์
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500585"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836745"
 ---
 # <a name="creating-work-orders"></a>การสร้างใบสั่งงาน
 
@@ -62,8 +60,6 @@ ms.locfileid: "5500585"
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>จัดกลุ่มรายการใบสั่งงานที่สร้างโดยอัตโนมัติ ในขณะที่รันแผนการบำรุงรักษา
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 คุณลักษณะนี้จะช่วยให้คุณสามารถกําหนดกฎสำหรับการจัดกลุ่มรายการใบสั่งงานภายใต้ใบสั่งงานหนึ่งๆ เมื่อมีการตั้งค่าระบบให้สร้างใบสั่งงานโดยอัตโนมัติ โดยยึดตามแผนการบำรุงรักษา ก่อนหน้านี้ ใบสั่งงานที่สร้างโดยอัตโนมัติสามารถมีรายการได้เพียงรายการเดียว อย่างไรก็ตาม ขณะนี้คุณสามารถจัดกลุ่มใบสั่งงานตาม ตัวอย่างเช่น สินทรัพย์ ชนิดสินทรัพย์ หรือตำแหน่งที่ทำงาน (สามารถจัดกลุ่มใบสั่งงานที่สร้างขึ้นด้วยตนเองด้วยวิธีนี้ได้ ตามที่อธิบายไว้ในส่วนก่อนหน้านี้ของหัวข้อนี้)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>เปิดใช้งานการจัดกลุ่มสำหรับใบสั่งงานที่สร้างโดยอัตโนมัติ
@@ -71,7 +67,7 @@ ms.locfileid: "5500585"
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การจัดการสินทรัพย์*
-- **ชื่อคุณลักษณะ:** *(พรีวิว) ใช้กฎสำหรับการจัดกลุ่มใบสั่งงาน ในขณะที่รันแผนการบำรุงรักษา*
+- **ชื่อคุณลักษณะ:** *ใช้กฎสำหรับการจัดกลุ่มใบสั่งงาน ในขณะที่รันแผนการบำรุงรักษา*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>ตั้งค่าการจัดกลุ่มสำหรับใบสั่งงานที่สร้างโดยอัตโนมัติ
 

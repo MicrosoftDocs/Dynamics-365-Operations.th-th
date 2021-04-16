@@ -2,11 +2,9 @@
 title: วงเงินสินเชื่อสำหรับลูกค้า
 description: บทความนี้ให้ภาพรวมของวิธีการที่ข้อจำกัดเครดิตทำงานใน Dynamics 365 Supply Chain Management
 author: omulvad
-manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e93716742c3777d7e2164784aa0e5f91e2b80f16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824929"
 ---
 # <a name="credit-limits-for-customers"></a>วงเงินสินเชื่อสำหรับลูกค้า
 

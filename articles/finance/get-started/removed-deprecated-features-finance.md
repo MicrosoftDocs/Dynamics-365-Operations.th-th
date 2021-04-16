@@ -2,11 +2,9 @@
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474074"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836924"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ ms.locfileid: "5474074"
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>ที่เก็บ LCS เป็นตัวเลือกการจัดเก็บของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยที่เก็บส่วนกลางของ Regulatory Configuration Service (RCS) ใหม่ |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
@@ -51,7 +49,7 @@ ms.locfileid: "5474074"
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>"การรายงาน VAT (CZ)" และรูปแบบการรายงานทางอิเล็กทรอนิกส์ "รายงานการควบคุมการส่งออก (CZ)" ของสาธารณรัฐเช็ก
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบใหม่ |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
@@ -61,7 +59,7 @@ ms.locfileid: "5474074"
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"รูปแบบการส่งออกธุรกรรมบัญชีแยกประเภท (BE)" รูปแบบการรายงานทางอิเล็กทรอนิกส์ และแบบจำลอง "การส่งออกธุรกรรมบัญชีแยกประเภท (BE)" ที่สอดคล้องกัน สำหรับเบลเยียม
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบ ER ใหม่ ภายใต้แบบจำลอง "ไฟล์การตรวจสอบมาตรฐาน (SAF-T)"  |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
@@ -71,7 +69,7 @@ ms.locfileid: "5474074"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>รายงาน "VAT 100" สำหรับสหราชอาณาจักร ในรูปแบบ SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบ ER ใหม่ - รูปแบบ "การรายงานภาษี VAT ใน Excel (UK)" ภายใต้แบบจำลอง "การรายงานภาษี"  |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
@@ -83,7 +81,7 @@ ms.locfileid: "5474074"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>การสนับสนุน Internet Explorer 11 สำหรับ Dynamics 365 ไม่สนับสนุน
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | มีผลบังคับใช้ตั้งแต่เดือนธันวาคม 2020 การสนับสนุนของ Microsoft Internet Explorer 11 สำหรับผลิตภัณฑ์ Dynamics 365 ทั้งหมดจะไม่ได้รับการสนับสนุน และ Internet Explorer 11 จะไม่ได้รับการสนับสนุนหลังจากสิงหาคม 2021<br><br>การทำเช่นนี้จะส่งผลกระทบต่อลูกค้าที่ใช้ผลิตภัณฑ์ Dynamics 365 ที่ได้รับการออกแบบมาให้ใช้ผ่านอินเทอร์เฟส Internet Explorer 11 หลังจากสิงหาคม 2021 Internet Explorer 11 จะไม่ได้รับการสนับสนุนสำหรับผลิตภัณฑ์ Dynamics 365 ดังกล่าว |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | เราขอแนะนำให้ลูกค้าเปลี่ยนไปใช้ Microsoft Edge|
@@ -95,7 +93,7 @@ ms.locfileid: "5474074"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>รายงาน SSRS โปแลนด์: ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ไม่จำเป็นทางกฎหมาย  |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ (รูปแบบ Excel สำหรับไฟล์การตรวจสอบมาตรฐานที่มีการรายงานภาษี VAT - JPK_VDEK) |
@@ -107,7 +105,7 @@ ms.locfileid: "5474074"
 
 ### <a name="norwegian-standard-main-accounts"></a>บัญชีหลักมาตรฐานของนอร์เวย์
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ออกแบบใหม่  |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ (แทนที่ด้วยพารามิเตอร์เฉพาะของแอพลิเคชันรูปแบบ ER) |
@@ -118,7 +116,8 @@ ms.locfileid: "5474074"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>กล่องโต้ตอบการเปลี่ยนแปลงคำขอของลำดับงานไม่รวมรายการแบบหล่นลงของการเลือกผู้ใช้ไว้อีกต่อไป
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | เปลี่ยนเป็นคุณลักษณะการเลือกกลุ่มบัญชี  |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |

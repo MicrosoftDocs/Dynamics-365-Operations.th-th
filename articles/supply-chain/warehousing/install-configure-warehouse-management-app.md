@@ -2,11 +2,9 @@
 title: ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ
 description: หัวข้อนี้จะอธิบายวิธีการติดตั้งแอปคลังสินค้าบนมือถือในแต่ละอุปกรณ์เคลื่อนที่ของคุณ และการกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487036"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835617"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า โปรดดู [ติดตั้งและเชื่อมต่อแอปคลังสินค้า](../../supply-chain/warehousing/install-configure-warehousing-app.md)
+> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) โปรดดู [ติดตั้งและเชื่อมต่อแอปคลังสินค้า](../../supply-chain/warehousing/install-configure-warehousing-app.md)
 
 หัวข้อนี้จะอธิบายวิธีการดาวน์โหลดและติดตั้งแอปการจัดการคลังสินค้าบนมือถือ ในแต่ละอุปกรณ์เคลื่อนที่ของคุณ และวิธีกำหนดค่าแอปเพื่อเชื่อมต่อกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
 

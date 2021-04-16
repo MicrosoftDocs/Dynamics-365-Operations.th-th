@@ -2,11 +2,9 @@
 title: จำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไดนามิก
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับจำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไดนามิก และวิธีการที่คุณสามารถใช้เพื่อช่วยธุรกิจของคุณได้
 author: t-benebo
-manager: tfehr
 ms.date: 06/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea21134fd45cfd284297e778a96789f329f379c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 184f0f22d4587b25b02ca3d425ab26a6f8ab23f6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264053"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836625"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>จำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไดนามิก
 
