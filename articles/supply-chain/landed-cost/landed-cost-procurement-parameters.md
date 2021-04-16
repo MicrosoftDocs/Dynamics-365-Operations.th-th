@@ -2,7 +2,6 @@
 title: พารามิเตอร์การจัดซื้อและการจัดหาสำหรับต้นทุนแฝง
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าพารามิเตอร์การจัดซื้อและการจัดหาที่เกี่ยวข้อง เมื่อคุณใช้โมดูลต้นทุนแฝง
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,26 +15,25 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 49e046a1437917cfa866f690511789496fac2c53
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: df91fcb97794be32924707fcecf2b5fb34844596
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500753"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833940"
 ---
-# <a name="procurement-and-sourcing-parameters-for-landed-cost"></a><span data-ttu-id="1da90-103">พารามิเตอร์การจัดซื้อและการจัดหาสำหรับต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="1da90-103">Procurement and sourcing parameters for Landed cost</span></span>
+# <a name="procurement-and-sourcing-parameters-for-landed-cost"></a><span data-ttu-id="3bc95-103">พารามิเตอร์การจัดซื้อและการจัดหาสำหรับต้นทุนแฝง</span><span class="sxs-lookup"><span data-stu-id="3bc95-103">Procurement and sourcing parameters for Landed cost</span></span>
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="1da90-104">หน้า **พารามิเตอร์การจัดซื้อและการจัดหา** มีการตั้งค่าสองสามรายการที่เกี่ยวข้อง โดยเฉพาะเมื่อคุณใช้โมดูล **ต้นทุนแฝง**</span><span class="sxs-lookup"><span data-stu-id="1da90-104">The **Procurement and sourcing parameters** page has a few settings that are especially relevant when you use the **Landed cost** module.</span></span> <span data-ttu-id="1da90-105">ใช้กล่องโต้ตอบ **อัปเดตบรรทัดใบสั่ง** ที่เปิดจากหน้า **พารามิเตอร์การจัดซื้อและการจัดหา** เพื่อระบุว่าควรอัปเดตบรรทัดใบสั่งซื้อโดยอัตโนมัติหรือไม่ เมื่อมีการเปลี่ยนแปลงบนส่วนหัวของใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="1da90-105">Use the **Update order lines** dialog box that is opened from the **Procurement and sourcing parameters** page to specify whether purchase order lines should automatically be updated when changes are made on the purchase order header.</span></span>
+<span data-ttu-id="3bc95-104">หน้า **พารามิเตอร์การจัดซื้อและการจัดหา** มีการตั้งค่าสองสามรายการที่เกี่ยวข้อง โดยเฉพาะเมื่อคุณใช้โมดูล **ต้นทุนแฝง**</span><span class="sxs-lookup"><span data-stu-id="3bc95-104">The **Procurement and sourcing parameters** page has a few settings that are especially relevant when you use the **Landed cost** module.</span></span> <span data-ttu-id="3bc95-105">ใช้กล่องโต้ตอบ **อัปเดตบรรทัดใบสั่ง** ที่เปิดจากหน้า **พารามิเตอร์การจัดซื้อและการจัดหา** เพื่อระบุว่าควรอัปเดตบรรทัดใบสั่งซื้อโดยอัตโนมัติหรือไม่ เมื่อมีการเปลี่ยนแปลงบนส่วนหัวของใบสั่งซื้อ</span><span class="sxs-lookup"><span data-stu-id="3bc95-105">Use the **Update order lines** dialog box that is opened from the **Procurement and sourcing parameters** page to specify whether purchase order lines should automatically be updated when changes are made on the purchase order header.</span></span>
 
-<span data-ttu-id="1da90-106">เพื่อให้การตั้งค่านี้เสร็จสมบูรณ์ ให้ปฏิบัติดังนี้</span><span class="sxs-lookup"><span data-stu-id="1da90-106">To complete this setup, follow these steps.</span></span>
+<span data-ttu-id="3bc95-106">เพื่อให้การตั้งค่านี้เสร็จสมบูรณ์ ให้ปฏิบัติดังนี้</span><span class="sxs-lookup"><span data-stu-id="3bc95-106">To complete this setup, follow these steps.</span></span>
 
-1. <span data-ttu-id="1da90-107">ไปที่ **การจัดซื้อและการจัดหา \> การตั้งค่า \> พารามิเตอร์การจัดซื้อและการจัดหา**</span><span class="sxs-lookup"><span data-stu-id="1da90-107">Go to **Procurement and sourcing \> Setup \> Procurement and sourcing parameters**.</span></span>
-1. <span data-ttu-id="1da90-108">บนแท็บ **ทั่วไป** ให้เลือกลิงก์ **อัปเดตบรรทัดใบสั่ง**</span><span class="sxs-lookup"><span data-stu-id="1da90-108">On the **General** tab, select the **Update order lines** link.</span></span>
-1. <span data-ttu-id="1da90-109">กล่องโต้ตอบ **อัปเดตบรรทัดใบสั่ง** แสดงรายการฟิลด์บนส่วนหัวของใบสั่ง ที่สามารถใช้การอัปเดตอัตโนมัติกับฟิลด์ที่เกี่ยวข้องบนบรรทัดใบสั่งได้</span><span class="sxs-lookup"><span data-stu-id="1da90-109">The **Update order lines** dialog box lists the fields on the order header that can also apply automatic updates to related fields on the order lines.</span></span> <span data-ttu-id="1da90-110">ตั้งค่าแต่ละฟิลด์ในรายการให้เป็นหนึ่งในค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="1da90-110">Set each field in the list to one of the following values:</span></span>
+1. <span data-ttu-id="3bc95-107">ไปที่ **การจัดซื้อและการจัดหา \> การตั้งค่า \> พารามิเตอร์การจัดซื้อและการจัดหา**</span><span class="sxs-lookup"><span data-stu-id="3bc95-107">Go to **Procurement and sourcing \> Setup \> Procurement and sourcing parameters**.</span></span>
+1. <span data-ttu-id="3bc95-108">บนแท็บ **ทั่วไป** ให้เลือกลิงก์ **อัปเดตบรรทัดใบสั่ง**</span><span class="sxs-lookup"><span data-stu-id="3bc95-108">On the **General** tab, select the **Update order lines** link.</span></span>
+1. <span data-ttu-id="3bc95-109">กล่องโต้ตอบ **อัปเดตบรรทัดใบสั่ง** แสดงรายการฟิลด์บนส่วนหัวของใบสั่ง ที่สามารถใช้การอัปเดตอัตโนมัติกับฟิลด์ที่เกี่ยวข้องบนบรรทัดใบสั่งได้</span><span class="sxs-lookup"><span data-stu-id="3bc95-109">The **Update order lines** dialog box lists the fields on the order header that can also apply automatic updates to related fields on the order lines.</span></span> <span data-ttu-id="3bc95-110">ตั้งค่าแต่ละฟิลด์ในรายการให้เป็นหนึ่งในค่าต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="3bc95-110">Set each field in the list to one of the following values:</span></span>
 
-    - <span data-ttu-id="1da90-111">**เสมอ** – บรรทัดใบสั่งควรอัปเดตโดยอัตโนมัติ เมื่อมีการอัพเดตส่วนหัวของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="1da90-111">**Always** – The order lines should automatically be updated when the order header is updated.</span></span>
-    - <span data-ttu-id="1da90-112">**ไม่เคย** – บรรทัดใบสั่งควรไม่อัปเดต เมื่อมีการอัพเดตส่วนหัวของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="1da90-112">**Never** – The order lines should never be updated when the order header is updated.</span></span>
-    - <span data-ttu-id="1da90-113">**พร้อมต์** – ผู้ใช้จะได้รับพร้อมต์เพื่อเลือกว่าควรจะอัปเดตบรรทัดใบสั่งหรือไม่</span><span class="sxs-lookup"><span data-stu-id="1da90-113">**Prompt** – The user will be prompted to select whether the order lines should be updated.</span></span>
+    - <span data-ttu-id="3bc95-111">**เสมอ** – บรรทัดใบสั่งควรอัปเดตโดยอัตโนมัติ เมื่อมีการอัพเดตส่วนหัวของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="3bc95-111">**Always** – The order lines should automatically be updated when the order header is updated.</span></span>
+    - <span data-ttu-id="3bc95-112">**ไม่เคย** – บรรทัดใบสั่งควรไม่อัปเดต เมื่อมีการอัพเดตส่วนหัวของใบสั่ง</span><span class="sxs-lookup"><span data-stu-id="3bc95-112">**Never** – The order lines should never be updated when the order header is updated.</span></span>
+    - <span data-ttu-id="3bc95-113">**พร้อมต์** – ผู้ใช้จะได้รับพร้อมต์เพื่อเลือกว่าควรจะอัปเดตบรรทัดใบสั่งหรือไม่</span><span class="sxs-lookup"><span data-stu-id="3bc95-113">**Prompt** – The user will be prompted to select whether the order lines should be updated.</span></span>

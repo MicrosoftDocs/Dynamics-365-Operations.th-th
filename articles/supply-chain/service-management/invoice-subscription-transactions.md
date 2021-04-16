@@ -2,11 +2,9 @@
 title: การออกอินวอยซ์ธุรกรรมการบอกรับเป็นสมาชิก
 description: การออกอินวอยซ์ธุรกรรมการบอกรับเป็นสมาชิก
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,32 +15,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a2e8e4e5226c98da20530b9a8a3a89eb9ed1647
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ffe2c25df4677002f97b579e8827ebd1ac4fee47
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247297"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828524"
 ---
-# <a name="invoice-subscription-transactions"></a><span data-ttu-id="d059a-103">การออกอินวอยซ์ธุรกรรมการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="d059a-103">Invoice subscription transactions</span></span> 
+# <a name="invoice-subscription-transactions"></a><span data-ttu-id="41cfd-103">การออกอินวอยซ์ธุรกรรมการบอกรับเป็นสมาชิก</span><span class="sxs-lookup"><span data-stu-id="41cfd-103">Invoice subscription transactions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
 
-1.  <span data-ttu-id="d059a-104">คลิก **การจัดการงานบริการ** \> **ทั่วไป** \> **การบอกรับเป็นสมาชิกการบริการ** \> **การบอกรับเป็นสมาชิกการบริการทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="d059a-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="41cfd-104">คลิก **การจัดการงานบริการ** \> **ทั่วไป** \> **การบอกรับเป็นสมาชิกการบริการ** \> **การบอกรับเป็นสมาชิกการบริการทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="41cfd-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="d059a-105">เลือกการบอกรับเป็นสมาชิกการบริการ แล้วคลิก **แก้ไข** หรือคลิก **การบอกรับเป็นสมาชิก** เพื่อสร้างการบอกรับเป็นสมาชิกการบริการ</span><span class="sxs-lookup"><span data-stu-id="d059a-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
+2.  <span data-ttu-id="41cfd-105">เลือกการบอกรับเป็นสมาชิกการบริการ แล้วคลิก **แก้ไข** หรือคลิก **การบอกรับเป็นสมาชิก** เพื่อสร้างการบอกรับเป็นสมาชิกการบริการ</span><span class="sxs-lookup"><span data-stu-id="41cfd-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
 
-3.  <span data-ttu-id="d059a-106">คลิก **วิเคราะห์** \> **ธุรกรรมค่าธรรมเนียม**</span><span class="sxs-lookup"><span data-stu-id="d059a-106">Click **Analyze** \> **Fee transactions**.</span></span>
+3.  <span data-ttu-id="41cfd-106">คลิก **วิเคราะห์** \> **ธุรกรรมค่าธรรมเนียม**</span><span class="sxs-lookup"><span data-stu-id="41cfd-106">Click **Analyze** \> **Fee transactions**.</span></span>
 
-4.  <span data-ttu-id="d059a-107">เลือกธุรกรรมค่าธรรมเนียมอย่างน้อยหนึ่งรายการเพื่อออกใบแจ้งหนี้ แล้วคลิก **ฟังก์ชัน** \> **ข้อเสนอใบแจ้งหนี้** เพื่อเปิดแบบฟอร์ม **ข้อเสนอใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="d059a-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
+4.  <span data-ttu-id="41cfd-107">เลือกธุรกรรมค่าธรรมเนียมอย่างน้อยหนึ่งรายการเพื่อออกใบแจ้งหนี้ แล้วคลิก **ฟังก์ชัน** \> **ข้อเสนอใบแจ้งหนี้** เพื่อเปิดแบบฟอร์ม **ข้อเสนอใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="41cfd-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
 
-5.  <span data-ttu-id="d059a-108">คลิก **สร้างใบแจ้งหนี้** และป้อนพารามิเตอร์ที่เหมาะสมในแบบฟอร์ม **สร้างใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="d059a-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
+5.  <span data-ttu-id="41cfd-108">คลิก **สร้างใบแจ้งหนี้** และป้อนพารามิเตอร์ที่เหมาะสมในแบบฟอร์ม **สร้างใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="41cfd-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
 
-6.  <span data-ttu-id="d059a-109">คลิก **ตกลง** เพื่อสร้างข้อเสนอใบแจ้งหนี้ในแบบฟอร์ม **ข้อเสนอใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="d059a-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
+6.  <span data-ttu-id="41cfd-109">คลิก **ตกลง** เพื่อสร้างข้อเสนอใบแจ้งหนี้ในแบบฟอร์ม **ข้อเสนอใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="41cfd-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
 
-7.  <span data-ttu-id="d059a-110">ตรวจสอบเนื้อหาของใบแจ้งหนี้ คลิก **ลงรายการบัญชีใบแจ้งหนี้** เพื่อเปิดแบบฟอร์ม **ลงรายการบัญชีใบแจ้งหนี้** เพื่อลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="d059a-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="d059a-111">คุณยังสามารถพิมพ์ใบแจ้งหนี้จากแบบฟอร์ม **ลงรายการบัญชีใบแจ้งหนี้** ได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="d059a-111">You can also print the invoice from the **Post invoice** form.</span></span>
+7.  <span data-ttu-id="41cfd-110">ตรวจสอบเนื้อหาของใบแจ้งหนี้ คลิก **ลงรายการบัญชีใบแจ้งหนี้** เพื่อเปิดแบบฟอร์ม **ลงรายการบัญชีใบแจ้งหนี้** เพื่อลงรายการบัญชีใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="41cfd-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="41cfd-111">คุณยังสามารถพิมพ์ใบแจ้งหนี้จากแบบฟอร์ม **ลงรายการบัญชีใบแจ้งหนี้** ได้อีกด้วย</span><span class="sxs-lookup"><span data-stu-id="41cfd-111">You can also print the invoice from the **Post invoice** form.</span></span>
 
   
 
