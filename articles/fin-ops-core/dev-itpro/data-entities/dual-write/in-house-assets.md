@@ -2,7 +2,6 @@
 title: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถใช้ Microsoft Dtnamics 365 Field Service เพื่อให้บริการทั้งสินทรัพย์ของลูกค้าและสินทรัพย์ภายในองค์กร
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: d4d681b2362c90b69007ea44c01c886f96cc1db1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568089"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748604"
 ---
 # <a name="in-house-assets-for-servicing"></a>สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
 
