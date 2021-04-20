@@ -37,9 +37,9 @@ ms.locfileid: "5830351"
 
 ต่อไปนี้เป็นรายการของออบเจ็กต์หลัก:
 
-* ออบเจ็กต์ AxClass/TaxIntegration **Document**
-* ออบเจ็กต์ AxClass/TaxIntegration **Line**
-* ออบเจ็กต์ AxClass/TaxIntegration **TaxLine**
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 รูปภาพประกอบต่อไปนี้แสดงวิธีที่ออบเจ็กต์เหล่านี้เกี่ยวข้อง
 
