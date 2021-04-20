@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: การใช้ Power Portal กับรูปแบบข้อมูลของฝ่าย
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: การรวมบันทึกย่อ
                               href: data-entities/dual-write/notes-integration.md
                             - name: การอ้างอิงการแม็ป
@@ -714,6 +716,8 @@
               items:
                 - name: X++ และคุณสมบัติของดีบักเกอร์
                   href: dev-tools/new-x-debugger-features.md
+                - name: ความต้องการของ Visual Studio 2017 สำหรับ X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: ดีบักโค้ด X++
                   href: dev-tools/debug-xpp.md
                 - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: วันที่มีผลบังคับใช้
               href: dev-tools/date-effectivity.md
-            - name: การให้สิทธิ์ใช้งาน ISV
-              href: dev-tools/isv-licensing.md
-            - name: การให้สิทธิ์ ISV แบบในสถานที่
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: การพัฒนาสำหรับผู้จัดจำหน่ายซอฟต์แวร์อิสระ
+              items:
+                - name: เชื่อมโยงโมดูล X++ กับแพคเกจโดยใช้ ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: การให้สิทธิ์ใช้งาน ISV
+                  href: dev-tools/isv-licensing.md
+                - name: การให้สิทธิ์ ISV แบบในสถานที่
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: ข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล (GDPR)
           items:
             - name: ภาพรวมของข้อบังคับทั่วไปเกี่ยวกับการคุ้มครองข้อมูล
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: การรวม Microsoft Power Platform
           items:
+            - name: การรวม Microsoft Power Platform กับ Finance and Operations
+              href: power-platform/overview.md
             - name: เอนทิตี้เสมือน
               items:
-                - name: การรวม Microsoft Power Platform กับ Finance and Operations
-                  href: power-platform/overview.md
                 - name: การสร้างแบบจำลองเอนทิตี้
                   href: power-platform/entity-modeling.md
                 - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
@@ -1436,7 +1444,7 @@
                   href: lcs-solutions/apply-country-context.md
                 - name: ข้อมูลการรับรองที่เป็นระเบียบบังคับในชื่อคุณสมบัติ
                   href: lcs-solutions/regulatory-certifications.md
-                - name: การอัปเดตที่เป็นระเบียบบังคับ
+                - name: การอัพเดตที่เป็นระเบียบบังคับ
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: การแยกแบบจำลองการแปลเป็นภาษาท้องถิ่น
                   href: lcs-solutions/separate-localization-models.md
@@ -1448,13 +1456,15 @@
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในประเทศจีน
+            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
-        - name: การจัดการระบบ
+            - name: การสนับสนุนและการตรวจสอบการใช้งานจริง
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
+        - name: การดูแลระบบ
           items:
             - name: โฮมเพจการดูแลระบบ
               href: sysadmin/system-administration-home-page.md

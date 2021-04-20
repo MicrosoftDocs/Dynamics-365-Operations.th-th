@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 5 เมษายน 2021
+          href: hr-whats-new-2021-04-05.md
         - name: 22 มีนาคม 2021
           href: hr-whats-new-2021-03-22.md
         - name: 8 มีนาคม 2021
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: ตั้งค่าคอนฟิกการรวม Dataverse
               href: hr-admin-integration-common-data-service.md
+            - name: ตั้งค่าคอนฟิกตารางเสมือน Dataverse
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Finance
               href: hr-admin-integration-finance.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce
@@ -321,6 +325,12 @@
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: แก้ไขปัญหาการรวม Office
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: แก้ไขปัญหาการพัฒนาด้วยตารางเสมือน Dataverse
+          items:
+            - name: เพิ่มประสิทธิภาพการสอบถามตารางเสมือน Dataverse
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับตารางเสมือน Human Resources
+              href: hr-admin-virtual-entity-faq.md
         - name: การอ้างอิง API ของเอนทิตี้
           items:
             - name: การรับรองความถูกต้อง
@@ -419,6 +429,22 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: ชนิดระดับทักษะ
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: API การรวมบัญชีเงินเดือน
+          items:
+            - name: บทนำ
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: สร้างและตรวจทานเอนทิตี้บัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: พนักงานในบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: งานของตําแหน่งในบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: ตําแหน่งในบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: คู่มือผู้ใช้
       items:
         - name: ภาพรวม

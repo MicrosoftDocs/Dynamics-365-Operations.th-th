@@ -70,9 +70,9 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: คำแนะนำการใช้งาน Commerce Data Exchange
+                - name: Commerce Data Exchange คำแนะนำการใช้งาน
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน
+                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: การตั้งค่าคอนฟิกและการติดตั้ง Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
-                - name: การปรับใช้อย่างกว้างของส่วนประกอบระบบบริการตนเอง
+                - name: การปรับใช้อย่างกว้างของส่วนประกอบแบบบริการตนเองดั้งเดิม
                   href: dev-itpro/retail-mass-deployment.md
                 - name: เหตุการณ์ของคอมโพเนนต์ Commerce สำหรับการวินิจฉัยและการแก้ไขปัญหา
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: โมดูลส่วนท้าย
                       href: author-footer-module.md
+                - name: โมดูลหน้า ข้อมูลเมตา และสคริปต์
+                  items:
+                    - name: โมดูลหน้าเริ่มต้น
+                      href: default-page-module.md
+                    - name: โมดูลสรุปข้อมูลหน้า
+                      href: page-summary-module.md
+                    - name: โมดูลเมตาแท็ก
+                      href: metatags-module.md
+                    - name: โมดูลสคริปต์ภายนอกและแบบอินไลน์
+                      href: script-module.md
                 - name: โมดูลหน้ารายละเอียดผลิตภัณฑ์
                   items:
                     - name: โมดูลกล่องการซื้อ
