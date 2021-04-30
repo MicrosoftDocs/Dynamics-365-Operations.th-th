@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1762425642ee976b32c9daf3fbb90961fa983d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b7d26144421b9a9bd0550a2fe9e73312ed8e8fa5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819411"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909292"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.8 (กุมภาพันธ์ 2020)
 
@@ -33,28 +33,28 @@ ms.locfileid: "5819411"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น นอกจากนี้ คุณลักษณะเหล่านี้บางอย่างยังอาจถูกรวมไว้ในการนำออกใช้ส่วนเพิ่มก่อนหน้านี้ แต่ยังไม่ได้ประกาศในหัวข้อ *มีอะไรใหม่* ก่อนหน้านี้ ดังนั้นเราจึงเพิ่มไว้ที่นี่ คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น นอกจากนี้ คุณลักษณะเหล่านี้บางอย่างยังอาจถูกรวมไว้ในการนำออกใช้ส่วนเพิ่มก่อนหน้านี้ แต่ยังไม่ได้ประกาศในหัวข้อ *มีอะไรใหม่* ก่อนหน้านี้ ดังนั้นเราจึงเพิ่มไว้ที่นี่ คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
-- [โซนเวลาของสถานที่เพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [โซนเวลาของสถานที่เพิ่มเติม](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 
-- [การจัดการสินทรัพย์](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการสินทรัพย์](../asset-management/index.md)
-- [ยกเลิกงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกงานของคลังสินค้าสำหรับการจัดการข้อยกเว้น](../warehousing/cancel-warehouse-work.md)
-- [เปลี่ยนกลุ่มงานในงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [เปลี่ยนกลุ่มงานในการทำงาน](../warehousing/change-work-pool-on-work.md)
-- [ตำแหน่งคลัสเตอร์เต็ม](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตำแหน่งคลัสเตอร์เต็ม](../warehousing/cluster-position-full.md)
-- [ยืนยันและโอนย้าย](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันและโอนย้าย](../warehousing/confirm-and-transfer.md)
-- [คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อายุหนี้ของการเบิกสินค้าคงคลังของคำสั่งสถานที่](../warehousing/location-directive-inventory-picking-aging.md)
-- [สถานะสถานที่](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
-- [การจัดกลุ่มรายการการเบิกสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มรายการการเบิกสินค้า](../warehousing/pick-line-grouping.md)
-- [การอัปเดตอัตโนมัติของการจัดส่ง](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตอัตโนมัติของการจัดส่ง](../warehousing/auto-update-shipment.md)
-- [แบ่งงานการเติมสินค้าตามความต้องการจากขั้นตอนการสร้างงานการเบิกสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
-- [แบ่งงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
-- [การเบิกสินค้าคลัสเตอร์ตามระบบ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเบิกสินค้าคลัสเตอร์ตามระบบ](../warehousing/system-directed-cluster-pick.md)
-- [การตรวจสอบงานแอปคลังสินค้าที่มี RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
-- [กฎการนำออกใช้ไปยังคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
-- [การแสดงภาพของสถานะของเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [การจัดกลุ่มเท็มเพลตเวฟ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มเท็มเพลตของเวฟ](../warehousing/wave-template-grouping.md)
-- [รายละเอียดรายการงาน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายละเอียดรายการงาน](../warehousing/work-line-details.md) และวิดีโอ [รายละเอียดรายการงาน](https://www.microsoft.com/videoplayer/embed/RE4fcYN)
-- [การเติมสินค้าตามขีดจำกัดของโซน](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเติมสินค้าตามขีดจำกัดของโซน](../warehousing/zone-threshold-replenishment.md)
+- [การจัดการสินทรัพย์](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการสินทรัพย์](../asset-management/index.md)
+- [ยกเลิกงาน](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยกเลิกงานของคลังสินค้าสำหรับการจัดการข้อยกเว้น](../warehousing/cancel-warehouse-work.md)
+- [เปลี่ยนกลุ่มงานในงาน](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [เปลี่ยนกลุ่มงานในการทำงาน](../warehousing/change-work-pool-on-work.md)
+- [ตำแหน่งคลัสเตอร์เต็ม](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตำแหน่งคลัสเตอร์เต็ม](../warehousing/cluster-position-full.md)
+- [ยืนยันและโอนย้าย](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันและโอนย้าย](../warehousing/confirm-and-transfer.md)
+- [คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อายุหนี้ของการเบิกสินค้าคงคลังของคำสั่งสถานที่](../warehousing/location-directive-inventory-picking-aging.md)
+- [สถานะสถานที่](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
+- [การจัดกลุ่มรายการการเบิกสินค้า](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มรายการการเบิกสินค้า](../warehousing/pick-line-grouping.md)
+- [การอัปเดตอัตโนมัติของการจัดส่ง](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตอัตโนมัติของการจัดส่ง](../warehousing/auto-update-shipment.md)
+- [แบ่งงานการเติมสินค้าตามความต้องการจากขั้นตอนการสร้างงานการเบิกสินค้า](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
+- [แบ่งงาน](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
+- [การเบิกสินค้าคลัสเตอร์ตามระบบ](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเบิกสินค้าคลัสเตอร์ตามระบบ](../warehousing/system-directed-cluster-pick.md)
+- [การตรวจสอบงานแอปคลังสินค้าที่มี RSAT](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [กฎการนำออกใช้ไปยังคลังสินค้า](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
+- [การแสดงภาพของสถานะของเวฟ](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
+- [การจัดกลุ่มเท็มเพลตเวฟ](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดกลุ่มเท็มเพลตของเวฟ](../warehousing/wave-template-grouping.md)
+- [รายละเอียดรายการงาน](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายละเอียดรายการงาน](../warehousing/work-line-details.md) และวิดีโอ [รายละเอียดรายการงาน](https://www.microsoft.com/videoplayer/embed/RE4fcYN)
+- [การเติมสินค้าตามขีดจำกัดของโซน](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเติมสินค้าตามขีดจำกัดของโซน](../warehousing/zone-threshold-replenishment.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.8 รวมถึง Platfor
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2019 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2019 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2019wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

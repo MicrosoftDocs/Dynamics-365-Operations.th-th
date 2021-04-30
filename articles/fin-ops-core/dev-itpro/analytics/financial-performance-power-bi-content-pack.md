@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743388"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893237"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
@@ -85,7 +85,7 @@ ms.locfileid: "5743388"
 - บัญชีแยกประเภท
 - ChartofAccounts
 
-เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เพื่อรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงานMicrosoft Excel](https://docs.microsoft.com/dynamics/s-e/) สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา
+เอนทิตีเหล่านี้ถูกใช้เพื่อสร้างการวัดที่คำนวณในแบบจำลองข้อมูล มีการใช้การวัดที่คำนวณเพื่อคำนวณตัวบ่งชี้ประสิทธิภาพหลัก (KPI) และรายงานที่ใช้ในเนื้อหา โดยค่าเริ่มต้น เนื้อหาจะนำเข้าข้อมูลของสามปีที่ผ่านมาและหนึ่งปีในอนาคต เพื่อรวมการคำนวณเพิ่มเติมในรายงานและแดชบอร์ดของคุณ คุณสามารถปรับเปลี่ยน [สมุดงานMicrosoft Excel](/dynamics/s-e/) สมุดงานนี้เป็นแบบจำลองข้อมูลเริ่มต้นที่ใช้ในการสร้างเนื้อหา
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

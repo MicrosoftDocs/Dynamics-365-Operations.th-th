@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bdf4a1ae691e50f7e41374db6c2dde10b9329cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 40d443e52a2b781a40e2db1dbccd2351405ffff1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809577"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909754"
 ---
 # <a name="inventory-management-overview"></a>ภาพรวมของการจัดการสินค้าคงคลัง
 
@@ -51,7 +51,7 @@ ms.locfileid: "5809577"
 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>บล็อกการผลิตและ Supply Chain Management
-คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
+คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการสินค้าคงคลังและโซลูชันอื่นใน [บล็อกทีม R&D การผลิตของ Dynamics AX](/archive/blogs/axmfg/) และ [Supply Chain Management ในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm)
 
 ### <a name="task-guides"></a>คู่มืองาน
 วิธีใช้เพิ่มเติมพร้อมใช้งานเป็นคำแนะนำงาน ในการเข้าถึงคู่มืองาน ให้คลิกปุ่ม **วิธีใช้** บนหน้าใดๆ

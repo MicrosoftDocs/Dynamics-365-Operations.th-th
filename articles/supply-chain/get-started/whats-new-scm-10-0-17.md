@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813182"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907974"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
 
@@ -33,65 +33,65 @@ ms.locfileid: "5813182"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้  ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้  ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่ส่วนใหญ่อาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
 
 ### <a name="asset-management"></a>การจัดการสินทรัพย์
 
-- [ใช้กฎสำหรับการจัดกลุ่มใบสั่งงาน ในขณะที่รันแผนการบำรุงรักษา](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างใบสั่งบริการ ให้ดูที่ [การสร้างใบสั่งงาน](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md)
+- [ใช้กฎสำหรับการจัดกลุ่มใบสั่งงาน ในขณะที่รันแผนการบำรุงรักษา](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างใบสั่งบริการ ให้ดูที่ [การสร้างใบสั่งงาน](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md)
 
-- [เรียกเก็บเงินจากลูกค้าเพื่องานการบํารุงรักษา](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบเรียกเก็บเงินการบํารุงรักษาสินทรัพย์ที่ลูกค้าเป็นเจ้าของ](../asset-management/integration-to-project-management-and-accounting/customer-billing.md)
+- [เรียกเก็บเงินจากลูกค้าเพื่องานการบํารุงรักษา](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบเรียกเก็บเงินการบํารุงรักษาสินทรัพย์ที่ลูกค้าเป็นเจ้าของ](../asset-management/integration-to-project-management-and-accounting/customer-billing.md)
 
-- [วางแผนการบํารุงรักษาตามค่าตัวนับสินทรัพย์สะสม](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แผนการบำรุงรักษา](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md)
+- [วางแผนการบํารุงรักษาตามค่าตัวนับสินทรัพย์สะสม](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แผนการบำรุงรักษา](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md)
 
 ### <a name="inventory-and-logistics"></a>สินค้าคงคลังและลอจิสติกส์
 
-- [กรอบงานการรวมเครื่องมือจัดการวัสดุเพื่อกระบวนการคลังสินค้าอัตโนมัติ (ก่อนหน้านี้คือ MHAX)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [อินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX)](../warehousing/mhax.md)
+- [กรอบงานการรวมเครื่องมือจัดการวัสดุเพื่อกระบวนการคลังสินค้าอัตโนมัติ (ก่อนหน้านี้คือ MHAX)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [อินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX)](../warehousing/mhax.md)
 
-- [ต้นทุนแฝง](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โมดูลต้นทุนแฝง](../landed-cost/landed-cost-overview.md)
+- [ต้นทุนแฝง](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โมดูลต้นทุนแฝง](../landed-cost/landed-cost-overview.md)
 
-- [การจัดส่งเทียบกับมิติการจัดเก็บ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่ามิติต่าง ๆ ของการบรรจุและการจัดเก็บ](../warehousing/packing-vs-storage-dimensions.md)
+- [การจัดส่งเทียบกับมิติการจัดเก็บ](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่ามิติต่าง ๆ ของการบรรจุและการจัดเก็บ](../warehousing/packing-vs-storage-dimensions.md)
 
-- [มุมมองที่บันทึกไว้ของสินค้าคงคลังและโลจิสติกส์](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
+- [มุมมองที่บันทึกไว้ของสินค้าคงคลังและโลจิสติกส์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
 
-- [จัดกำหนดการการสร้างงานของคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดกำหนดการการสร้างงานระหว่างเวฟ](../warehousing/configure-wave-schedule-work-creation.md)ฟ
+- [จัดกำหนดการการสร้างงานของคลังสินค้า](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดกำหนดการการสร้างงานระหว่างเวฟ](../warehousing/configure-wave-schedule-work-creation.md)ฟ
 
-- [ตั้งค่ามิติทางการเงินเริ่มต้นในใบสำคัญการประเมินค่าต้นทุนแบบมาตรฐานใหม่ของสินค้าคงคลัง](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดการการอัปเดตต้นทุนมาตรฐาน](../cost-management/manage-standard-cost-updates.md)
+- [ตั้งค่ามิติทางการเงินเริ่มต้นในใบสำคัญการประเมินค่าต้นทุนแบบมาตรฐานใหม่ของสินค้าคงคลัง](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดการการอัปเดตต้นทุนมาตรฐาน](../cost-management/manage-standard-cost-updates.md)
 
-- [การจัดส่งพัสดุขนาดเล็ก (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดส่งพัสดุขนาดเล็ก](../warehousing/small-parcel-shipping.md)
+- [การจัดส่งพัสดุขนาดเล็ก (SPS)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดส่งพัสดุขนาดเล็ก](../warehousing/small-parcel-shipping.md)
 
-- [การดำเนินการคลังสินค้าด้วยสเกลยูนิตในระบบคลาวด์](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md) และ [ใบสั่งคลังสินค้าสำหรับ scale unit ของระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-warehouse-order.md)
+- [การดำเนินการคลังสินค้าด้วยสเกลยูนิตในระบบคลาวด์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md) และ [ใบสั่งคลังสินค้าสำหรับ scale unit ของระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-warehouse-order.md)
 
-- [แอปพลิเคชันการจัดการคลังสินค้าบนมือถือ](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้า](../warehousing/install-configure-warehouse-management-app.md) และ [การตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่](../warehousing/mobile-device-user-settings.md)
+- [แอปพลิเคชันการจัดการคลังสินค้าบนมือถือ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้า](../warehousing/install-configure-warehouse-management-app.md) และ [การตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่](../warehousing/mobile-device-user-settings.md)
 
 - การแจ้งเตือนการดำเนินการเวฟ<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การแจ้งเตือนการดำเนินการของเวฟ](../warehousing/wave-execution-notifications.md)
 
 ### <a name="manufacturing"></a>การผลิต
 
-- [ความสามารถในการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
+- [ความสามารถในการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
 
 - ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่: 
 
-- [แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต](../production-control/override-default-reservation-principle.md)
+- [แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต](../production-control/override-default-reservation-principle.md)
 
-- [มุมมองที่บันทึกไว้ของการควบคุมการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
+- [มุมมองที่บันทึกไว้ของการควบคุมการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
 
-- [การดำเนินการผลิตด้วยสเกลยูนิตในระบบคลาวด์](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-manufacturing.md)
+- [การดำเนินการผลิตด้วยสเกลยูนิตในระบบคลาวด์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-manufacturing.md)
 
 ### <a name="planning"></a>การวางแผน
 
-- [การสนับสนุนกรอบเวลาความครอบคลุมเพื่อการเพิ่มประสิทธิภาพการวางแผน](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [กรอบเวลาความครอบคลุม](../master-planning/planning-optimization/coverage-time-fence.md)
+- [การสนับสนุนกรอบเวลาความครอบคลุมเพื่อการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [กรอบเวลาความครอบคลุม](../master-planning/planning-optimization/coverage-time-fence.md)
 
-- [การสนับสนุนแบบจำลองย่อยของการคาดการณ์เพื่อเพิ่มประสิทธิภาพการวางแผน](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนหลักที่มีการคาดการณ์ความต้องการ](../master-planning/planning-optimization/demand-forecast.md)
+- [การสนับสนุนแบบจำลองย่อยของการคาดการณ์เพื่อเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนหลักที่มีการคาดการณ์ความต้องการ](../master-planning/planning-optimization/demand-forecast.md)
 
-- [การสนับสนุนใบขอซื้อสำหรับการเพิ่มประสิทธิภาพการวางแผน](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบขอซื้อ](../master-planning/planning-optimization/purchase-requisitions.md)
+- [การสนับสนุนใบขอซื้อสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบขอซื้อ](../master-planning/planning-optimization/purchase-requisitions.md)
 
-- [มุมมองที่บันทึกไว้สำหรับแผนการใบสั่ง](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
+- [มุมมองที่บันทึกไว้สำหรับแผนการใบสั่ง](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
 
 ### <a name="product-information-management"></a>การจัดการข้อมูลผลิตภัณฑ์
 
-- [เปิดใช้งานการจัดการการเปลี่ยนแปลงในผลิตภัณฑ์ที่มีอยู่](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการจัดการการเปลี่ยนแปลงผลิตภัณฑ์ที่มีอยู่](../engineering-change-management/change-management-existing-products.md)
+- [เปิดใช้งานการจัดการการเปลี่ยนแปลงในผลิตภัณฑ์ที่มีอยู่](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการจัดการการเปลี่ยนแปลงผลิตภัณฑ์ที่มีอยู่](../engineering-change-management/change-management-existing-products.md)
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัพเดต
 
@@ -145,7 +145,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.17 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2021 แผนเวฟการนำออกใช้ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2021 แผนเวฟการนำออกใช้ 1](/dynamics365-release-plan/2021wave1/) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5854fa8c89f1a72c32bd480e71c1cd0a743c6cd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b973be365b3afa8461f7709c1ecee835c5dcf2f1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803356"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890662"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 22 มีนาคม 2021
 
@@ -32,7 +32,7 @@ ms.locfileid: "5803356"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
 
 ## <a name="in-this-release"></a>ในการเผยแพร่นี้
 
@@ -44,7 +44,7 @@ ms.locfileid: "5803356"
 
 | ลักษณะการทำงาน | แผนการรีลีส | คู่มือ |
 | --- | --- | --- |
-| ตัวเลือกในการบังคับการยกเลิกและการรีเซ็ตชุดงานที่ติดขัด (560976) | NA | [รีเซ็ตชุดงานที่ติดขัด](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-troubleshooting-batch-execution) |
+| ตัวเลือกในการบังคับการยกเลิกและการรีเซ็ตชุดงานที่ติดขัด (560976) | NA | [รีเซ็ตชุดงานที่ติดขัด](./hr-admin-troubleshooting-batch-execution.md) |
 | การอัพเดต UX รองสำหรับการสร้างแผนสวัสดิการใหม่ (419941) | NA | [สร้างแผนสวัสดิการ](hr-benefits-plans-setup.md) |
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
@@ -74,8 +74,8 @@ ms.locfileid: "5803356"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
-| จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ | [การจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [การจํากัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)|
+| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
+| จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ | [การจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [การจํากัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -83,12 +83,12 @@ ms.locfileid: "5803356"
 | --- | --- |
 | ทักษะที่ป้อนโดยผู้จัดการของพนักงานสามารถอนุมัติโดยอัตโนมัติโดยลำดับงานได้ | เร็วๆ นี้ |
 
-สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

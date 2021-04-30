@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827109"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897683"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>รายงานการกระทบยอดสินทรัพย์ถาวร
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827109"
 
 รายงาน **โรลฟอร์เวิร์ดสินทรัพย์ถาวร** ให้ ในรูปแบบ Microsoft Excel ที่ง่ายต่อการอ่าน ข้อมูลสินทรัพย์ถาวรโดยละเอียดที่คุณต้องการสำหรับการปิดระยะเวลา ใบแจ้งยอดทางการเงิน และการรายงานภาษี รายงานรวมยอดดุลเริ่มต้นและยอดดุลสิ้นสุดสำหรับสินทรัพย์ถาวร รวมทั้งความเคลื่อนไหวของการประเมินค่าสำหรับรอบระยะเวลา และการซื้อสินทรัพย์ใหม่ และการตัดจำหน่ายใดๆ ที่เกิดขึ้นในระหว่างรอบระยะเวลา มีการรายงานข้อมูลสำหรับสินทรัพย์ถาวรแต่ละรายการ และยังมีการสรุปค่าสำหรับกลุ่มสินทรัพย์ถาวรและนิติบุคคลอีกด้วย
 
-รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
 

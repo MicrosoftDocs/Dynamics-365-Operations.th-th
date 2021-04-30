@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd66cb4f5ac02407250e15ae134b36f5ccd4d290
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802418"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889943"
 ---
 # <a name="configure-human-resources-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
 
@@ -92,7 +92,7 @@ ms.locfileid: "5802418"
 
 การรักษาการอ้างอิงลำดับหมายเลขและรหัส ใช้หน้ารายการ **ลำดับหมายเลข** (เลือก **การจัดการองค์กร > ลำดับหมายเลข > ลำดับหมายเลข**)
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของลำดับหมายเลข](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json)
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของลำดับหมายเลข](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 > [!NOTE]
 > จำนวนชั่วโมงที่ทำงานต้องไม่เกินจำนวน 1250 ชั่วโมงและความยาวของการจ้างงานต้องไม่เกิน 12 เดือน ค่าสูงสุดเหล่านี้จะสอดคล้องกับกฎหมายในสหรัฐอเมริกา

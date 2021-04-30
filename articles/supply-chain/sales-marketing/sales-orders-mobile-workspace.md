@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 32e87699f6ad89ea28d622cc5b0f07608222fb11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dbef5a3071eea0514bc656477001358c6a5b561
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817760"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910340"
 ---
 # <a name="sales-orders-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 
@@ -81,7 +81,7 @@ ms.locfileid: "5817760"
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management 
-ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -101,17 +101,17 @@ ms.locfileid: "5817760"
 
 <td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>

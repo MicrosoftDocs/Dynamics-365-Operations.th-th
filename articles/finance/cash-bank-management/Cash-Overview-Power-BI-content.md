@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830603"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897463"
 ---
 # <a name="cash-overview-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับภาพรวมของเงินสด
 
@@ -38,7 +38,7 @@ ms.locfileid: "5830603"
 2. ไปที่ **บัญชีแยกประเภททั่วไป > ปฏิทิน > ปฏิทินทางการเงิน** เพื่อตรวจสอบความถูกต้องของวันที่ในปฏิทินทางการเงินที่กำหนดให้กับรอบระยะเวลาที่ใช้งานอยู่
 3. ไปที่ **บัญชีแยกประเภททั่วไป > การตั้งค่า > บัญชีแยกประเภท** เพื่อตั้งค่า **สกุลเงินทางบัญชี** และ **ชนิดอัตราแลกเปลี่ยน**
 4. กำหนดอัตราแลกเปลี่ยนระหว่างสกุลเงินของธุรกรรมและสกุลเงินทางบัญชี สกุลเงินทางบัญชีและสกุลเงินของระบบ และสกุลเงินทางบัญชีและสกุลเงินของธนาคาร เมื่อต้องการทำเช่นนี้ ไปที่ **บัญชีแยกประเภททั่วไป > สกุลเงิน > อัตราแลกเปลี่ยนสกุลเงิน**
-5. ตั้งค่าคอนฟิกและรันการคาดการณ์กระแสเงินสด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าการคาดการณ์กระแสเงินสด ให้ดู [การคาดการณ์กระแสเงินสด](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting) 
+5. ตั้งค่าคอนฟิกและรันการคาดการณ์กระแสเงินสด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าการคาดการณ์กระแสเงินสด ให้ดู [การคาดการณ์กระแสเงินสด](./cash-flow-forecasting.md) 
 6. ไปที่ **การจัดการระบบ > การตั้งค่า > ที่จัดเก็บเอนทิตี** เพื่อรีเฟรชการวัดรวม **LedgerCovLiquidityMeasurement**
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI

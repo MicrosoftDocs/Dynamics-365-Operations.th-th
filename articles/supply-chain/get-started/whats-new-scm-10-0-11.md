@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821188"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909608"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.11 (กรกฎาคม 2020)
 
@@ -33,19 +33,19 @@ ms.locfileid: "5821188"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
-- [การจัดเก็บรายงานปริมาณสินค้าคงคลังคงเหลือ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [การจัดเก็บรายงานปริมาณสินค้าคงคลังคงเหลือ](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
 
-- [การปรับปรุงการจองรายการสำหรับฟอร์มการจองหมายเลขชุดงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [จองชุดงานเดียวกันสำหรับใบสั่งขาย](../sales-marketing/reserve-same-batch-sales-order.md)
+- [การปรับปรุงการจองรายการสำหรับฟอร์มการจองหมายเลขชุดงาน](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [จองชุดงานเดียวกันสำหรับใบสั่งขาย](../sales-marketing/reserve-same-batch-sales-order.md)
 
-- [เอนทิตี้ข้อมูลใหม่สำหรับพื้นที่การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [เอนทิตี้ข้อมูลใหม่สำหรับพื้นที่การผลิต](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [การรับเกินปริมาณของการบรรทุก](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
+- [การรับเกินปริมาณของการบรรทุก](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ](../warehousing/inbound-load-handling.md)
 
-- [รายงานเป็นเสร็จสิ้นในหมายเลขชุดงานจากอุปกรณ์บัตรงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
+- [รายงานเป็นเสร็จสิ้นในหมายเลขชุดงานจากอุปกรณ์บัตรงาน](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -61,7 +61,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.11 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 1](/dynamics365-release-plan/2020wave1/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

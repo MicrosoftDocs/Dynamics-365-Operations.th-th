@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49853eaaf9d4e0fa44c22b3f0927ae4ab034cf8e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 15e40152041ca6f531350a8403492dd98f8f3f0c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802322"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891924"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (23 มิถุนายน 2020)
 
@@ -75,7 +75,7 @@ ms.locfileid: "5802322"
 
 ## <a name="human-resources-application-in-teams"></a>โปรแกรมประบุกต์ Human Resources ใน Teams
 
-พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841) 
+พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md) 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
@@ -125,7 +125,7 @@ ms.locfileid: "5802322"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

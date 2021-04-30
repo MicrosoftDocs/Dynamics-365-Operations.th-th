@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818637"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897899"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด (ตัวอย่าง)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5818637"
 
 ใช้แท็บ **แหล่งที่มาภายนอก** ในหน้า **การตั้งค่าการคาดการณ์กระแสเงินสด** (**การจัดการเงินสดและธนาคาร \> การคาดการณ์กระแสเงินสด**) เพื่อป้อนการตั้งค่าที่สนับสนุนการใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่า ให้ดูที่ [การคาดการณ์กระแสเงินสด](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่า ให้ดูที่ [การคาดการณ์กระแสเงินสด](../cash-bank-management/cash-flow-forecasting.md)
 
 เมื่อต้องการป้อนข้อมูลภายนอกสำหรับการคาดการณ์กระแสเงินสด คุณสามารถใช้ประสบการณ์เปิดใน Excel สำหรับการป้อนและการปรับเปลี่ยนข้อมูลภายนอก เลือกปุ่ม **ข้อมูลภายนอก** แล้วเลือก **เพิ่มข้อมูลภายนอก** หรือ **แก้ไขข้อมูลภายนอกที่มีอยู่** เมื่อ Microsoft Excel เปิดไฟล์แล้ว คุณสามารถป้อนข้อมูลในฟิลด์ต่อไปนี้:
 

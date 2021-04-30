@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835689"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910244"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
 
@@ -854,7 +854,7 @@ ms.locfileid: "5835689"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-- [หมายเลขชุดงานในการจัดการคลังสินค้า](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [หมายเลขชุดงานในการจัดการคลังสินค้า](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
 - [สำรองชุดงานเดียวกันสำหรับใบสั่งขาย](../sales-marketing/reserve-same-batch-sales-order.md)
 - [เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่](pick-oldest-batch.md)
 - [การยืนยันชุดงานและป้ายทะเบียน](batch-and-license-plate-confirmation.md)

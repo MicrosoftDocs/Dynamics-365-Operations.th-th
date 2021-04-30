@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811308"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897047"
 ---
 # <a name="get-started-with-financial-reporting"></a>เริ่มต้นใช้งาน Financial Reporting 
 
@@ -148,7 +148,7 @@ ms.locfileid: "5811308"
 * ใน Internet Explorer เลือก **การตั้งค่า** จากนั้น เลือก **ตัวเลือกอินเทอร์เน็ต** เลือกแท็บ **ความปลอดภัย** เลือกไซต์ที่เชื่อถือได้ ในพื้นที่ที่ติดป้ายชื่อระดับความปลอดภัยสำหรับโซนนี้ ให้เปลี่ยนตัวเลือกเป็น **ปานกลาง-ต่ำ**
 * ปิดใช้งานตัวบล็อกป็อปอัพในเบราเซอร์ของคุณ
 * เวิร์กสเตชันจำเป็นต้องติดตั้ง Microsoft .NET Framework 4.6.2 หรือสูงกว่า รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53345)
-* ถ้าคุณใช้เบราเซอร์ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงาน Chrome ในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนขยาย ClickOnce ของ Chrome ดูที่ [ความต้องการของระบบสำหรับการปรับใช้ cloud](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements)
+* ถ้าคุณใช้เบราเซอร์ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงาน Chrome ในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนขยาย ClickOnce ของ Chrome ดูที่ [ความต้องการของระบบสำหรับการปรับใช้ cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md)
 * ถ้าคุณกำลังใช้ Microsoft Edge ร่วมกับเบราว์เซอร์ Chrome คุณไม่จำเป็นต้องติดตั้งส่วนขยาย ClickOnce สำหรับ Edge Chromium อย่างไรก็ตาม คุณต้องเปิดใช้งานตัวเลือก ClickOnce เพื่อดาวน์โหลดไคลเอนต์ของโปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานใน incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว
      1. เปิดเบราว์เซอร์ใหม่ใน Microsoft Edge
      2. ป้อน **edge://flags** และเลือก **Enter**

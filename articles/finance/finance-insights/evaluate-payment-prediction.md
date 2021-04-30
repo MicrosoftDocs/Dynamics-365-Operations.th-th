@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818642"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897923"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>ประเมินแบบจำลองการคาดการณ์การชำระเงินของลูกค้าเริ่มต้น (ตัวอย่าง)
 
@@ -41,7 +41,7 @@ ms.locfileid: "5818642"
 
 หน้าที่เปิดขึ้นแสดงข้อมูลต่อไปนี้:
 
-- ในส่วน **ประสิทธิภาพ** ระดับประสิทธิภาพของแบบจำลองจะให้มุมมองเกี่ยวกับคุณภาพของแบบจำลอง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระดับชั้นนี้ โปรดดู [ประสิทธิภาพของแบบจำลองการคาดการณ์](https://docs.microsoft.com/ai-builder/prediction-performance) ในคู่มือ AI Builder
+- ในส่วน **ประสิทธิภาพ** ระดับประสิทธิภาพของแบบจำลองจะให้มุมมองเกี่ยวกับคุณภาพของแบบจำลอง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับระดับชั้นนี้ โปรดดู [ประสิทธิภาพของแบบจำลองการคาดการณ์](/ai-builder/prediction-performance) ในคู่มือ AI Builder
 - ส่วน **ข้อมูลที่มีอิทธิพลมากที่สุด** จะแสดงให้เห็นถึงความสำคัญของชนิดข้อมูลสำหรับการป้อนค่าที่แตกต่างกันสำหรับแบบจำลองของคุณ คุณสามารถประเมินรายการนี้และเปอร์เซ็นต์ที่สอดคล้องกันเพื่อตรวจสอบว่าข้อมูลสอดคล้องกับสิ่งที่คุณทราบเกี่ยวกับธุรกิจและตลาดของคุณหรือไม่
 
     [![ประสิทธิภาพและส่วนของข้อมูลที่มีอิทธิพลมากที่สุดสำหรับแบบจำลองการคาดการณ์](./media/models.png)](./media/models.png)

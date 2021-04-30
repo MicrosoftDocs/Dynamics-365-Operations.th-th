@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9cc8e93259119236093e02924d29df64dcc876bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45a989604d829db715756b6cd206a5675a18acf2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810905"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910002"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>การซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5810905"
 
 หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำซิงโครไนส์ผลิตภัณฑ์จาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365  Field Service
 
-เท็มเพลตที่ใช้กับ **ผลิตภัณฑ์ใน Field Service (Supply Chain Management ไปยัง Field Service)** มีพื้นฐานบนเท็มเพลตของ **ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง** เท็มเพลตของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสด สำหรับข้อมูลเพิ่มเติม ดู [ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)
+เท็มเพลตที่ใช้กับ **ผลิตภัณฑ์ใน Field Service (Supply Chain Management ไปยัง Field Service)** มีพื้นฐานบนเท็มเพลตของ **ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง** เท็มเพลตของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสด สำหรับข้อมูลเพิ่มเติม ดู [ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)
 
 หัวข้อนี้อธิบายเพียวความแตกต่างระหว่างเท็มเพลต **ผลิตภัณฑ์ของ Field Service (Supply Chain Management ไปยัง Field Service)** และ **ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) – โดยตรง**
 

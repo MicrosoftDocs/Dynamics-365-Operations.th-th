@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743544"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893287"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อระงับอักขระ BOM ในไฟล์ที่สร้างขึ้น
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถออกแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [โซลูชัน](er-quick-start1-new-solution.md) เพื่อสร้างเอกสารขาออกได้ เมื่อต้องการสร้างเอกสารเป็นไฟล์ข้อความหรือไฟล์ XML โซลูชันต้องรวม [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่มีส่วนประกอบ [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) ER เมื่อต้องการระบุ [การเข้ารหัสอักขระ](https://docs.microsoft.com/windows/win32/intl/character-sets) ที่แสดงถึงชุดของอักขระในไฟล์ที่สร้างขึ้น รูปแบบ ER ต้องมีองค์ประกอบรูปแบบ **ทั่วไป\\ไฟล์** เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER ให้เปิดเวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของการตั้งค่าคอนฟิก ER ในโปรแกรมออกแบบรูปแบบ ER และเพิ่มองค์ประกอบ **ทั่วไป\\ไฟล์** ในฟิลด์ **การเข้ารหัส** ให้ระบุการเข้ารหัสไฟล์ขาออกที่สร้างขณะรันไทม์ โดยใช้ส่วนประกอบนี้
+คุณสามารถออกแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [โซลูชัน](er-quick-start1-new-solution.md) เพื่อสร้างเอกสารขาออกได้ เมื่อต้องการสร้างเอกสารเป็นไฟล์ข้อความหรือไฟล์ XML โซลูชันต้องรวม [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่มีส่วนประกอบ [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) ER เมื่อต้องการระบุ [การเข้ารหัสอักขระ](/windows/win32/intl/character-sets) ที่แสดงถึงชุดของอักขระในไฟล์ที่สร้างขึ้น รูปแบบ ER ต้องมีองค์ประกอบรูปแบบ **ทั่วไป\\ไฟล์** เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER ให้เปิดเวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของการตั้งค่าคอนฟิก ER ในโปรแกรมออกแบบรูปแบบ ER และเพิ่มองค์ประกอบ **ทั่วไป\\ไฟล์** ในฟิลด์ **การเข้ารหัส** ให้ระบุการเข้ารหัสไฟล์ขาออกที่สร้างขณะรันไทม์ โดยใช้ส่วนประกอบนี้
 
 > [!NOTE]
 > ถ้ารูปแบบมีชื่อการเข้ารหัสที่ไม่ถูกต้อง ระบบจะแสดงข้อผิดพลาดเมื่อคุณบันทึกการเปลี่ยนแปลงของคุณไปยังการตั้งค่าของรูปแบบ
 
 ![การเพิ่มองค์ประกอบรากบนหน้าตัวออกแบบรูปแบบ](./media/er-suppress-bom-characters-image1.gif)
 
-ถ้าคุณระบุ **UTF-8** **UTF-16** หรือ **UTF-32** เป็นการเข้ารหัส ตัวเลือก **ระงับอักขระ BOM** จะพร้อมใช้งาน ตั้งค่าตัวเลือกนี้เป็น **ใช่** เพื่อระงับ [เครื่องหมายการจัดลำดับไบต์ (BOM)](https://docs.microsoft.com/globalization/encoding/byte-order-mark) ในไฟล์ขาออกที่สร้างขึ้นขณะรันไทม์ เมื่อรันรูปแบบ ER ที่แก้ไขได้
+ถ้าคุณระบุ **UTF-8** **UTF-16** หรือ **UTF-32** เป็นการเข้ารหัส ตัวเลือก **ระงับอักขระ BOM** จะพร้อมใช้งาน ตั้งค่าตัวเลือกนี้เป็น **ใช่** เพื่อระงับ [เครื่องหมายการจัดลำดับไบต์ (BOM)](/globalization/encoding/byte-order-mark) ในไฟล์ขาออกที่สร้างขึ้นขณะรันไทม์ เมื่อรันรูปแบบ ER ที่แก้ไขได้
 
 > [!NOTE]
 > ถ้าคุณปล่อยฟิลด์ **การเข้ารหัส** ว่างไว้ จะมีการใช้การเข้ารหัส **UTF-8** ตามค่าเริ่มต้น

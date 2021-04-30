@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840712"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907776"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า
 
@@ -44,26 +44,26 @@ ms.locfileid: "5840712"
 
 ## <a name="the-invitation-process"></a>กระบวนการเชิญ
 
-เมื่อต้องการเชิญผู้ติดต่อที่มีอยู่ไปยังพอร์ทัลลูกค้า ให้ทำตามขั้นตอนใน [เชิญผู้ติดต่อไปยังพอร์ทัลของคุณ](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
+เมื่อต้องการเชิญผู้ติดต่อที่มีอยู่ไปยังพอร์ทัลลูกค้า ให้ทำตามขั้นตอนใน [เชิญผู้ติดต่อไปยังพอร์ทัลของคุณ](/powerapps/maker/portals/configure/invite-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
 
-ก่อนที่คุณจะเชิญลูกค้าให้เข้าร่วมพอร์ทัลของลูกค้า โปรดตรวจสอบให้แน่ใจว่า [เรกคอร์ดผู้ติดต่อ](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ของลูกค้าพร้อมใช้งาน และตั้งค่าในลักษณะต่อไปนี้:
+ก่อนที่คุณจะเชิญลูกค้าให้เข้าร่วมพอร์ทัลของลูกค้า โปรดตรวจสอบให้แน่ใจว่า [เรกคอร์ดผู้ติดต่อ](/powerapps/maker/portals/configure/configure-contacts) ของลูกค้าพร้อมใช้งาน และตั้งค่าในลักษณะต่อไปนี้:
 
 1. ตั้งค่าฟิลด์ **บริษัท** เป็นนิติบุคคลที่คุณต้องการให้ลูกค้าเป็นสมาชิกใน Supply Chain Management
 2. ตั้งค่าฟิลด์ **หมายเลขบัญชี** เป็นหมายเลขบัญชีของลูกค้าที่คุณต้องการให้ผู้ใช้มีใน Supply Chain Management
 
 หลังจากที่มีการสร้างผู้ติดต่อ คุณจะสามารถดูได้ใน Supply Chain Management
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](/powerapps/maker/portals/configure/configure-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>บทบาทของเว็บแบบสำเร็จรูปและสิทธิ์ของตาราง
 
-บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของตาราง](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
+บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของตาราง](/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
 
 ### <a name="out-of-box-web-roles"></a>บทบาทของเว็บแบบสำเร็จรูป
 
 ในส่วนนี้จะอธิบายถึงบทบาทของเว็บที่มีการจัดส่งด้วยพอร์ทัลของลูกค้า
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์ตารางสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) ในคู่มือพอร์ทัล Power Apps
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์ตารางสำหรับพอร์ทัล](/powerapps/maker/portals/configure/assign-entity-permissions) ในคู่มือพอร์ทัล Power Apps
 
 #### <a name="administrator"></a>ผู้ดูแลระบบ
 

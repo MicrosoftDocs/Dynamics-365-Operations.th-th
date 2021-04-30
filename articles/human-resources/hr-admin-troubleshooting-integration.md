@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794864"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892262"
 ---
 # <a name="integration-with-finance-faq"></a>การรวมกับคำถามที่พบบ่อยเกี่ยวกับ Finance
 
@@ -50,7 +50,7 @@ ms.locfileid: "5794864"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>ฉันสามารถสร้างการแม็ปใหม่โดยไม่ใช้เท็มเพลได้หรือไม่
 
-เท็มเพลตเป็นจุดเริ่มต้น คุณสามารถสร้างเท็มเพลตของคุณเอง แต่จำเป็นต้องใช้เท็มเพลเสมอเมื่อสร้างโครงการการรวม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวรวมข้อมูล (DI) เท็มเพลต และโครงการ ดูที่ [รวมข้อมูลลงใน Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+เท็มเพลตเป็นจุดเริ่มต้น คุณสามารถสร้างเท็มเพลตของคุณเอง แต่จำเป็นต้องใช้เท็มเพลเสมอเมื่อสร้างโครงการการรวม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวรวมข้อมูล (DI) เท็มเพลต และโครงการ ดูที่ [รวมข้อมูลลงใน Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>ฉันสามารถแม็ปมิติทางการเงินที่จะโอนย้ายระหว่าง Human Resources และ Finance ได้หรือไม่
 
@@ -145,7 +145,7 @@ ms.locfileid: "5794864"
 
 ถ้าข้อมูลไม่ปรากฏตามที่คาดไว้ใน Dataverse ให้ตรวจสอบว่าเอนทิตีได้รับการสนับสนุนในการรวม เพื่อรวมข้อมูลเพิ่มเติมใน Dataverse จะต้องทำการเปลี่ยนแปลงทางฝั่ง Microsoft
 
-ถ้าเอนทิตีได้รับการสนับสนุน และข้อมูลมีอยู่ใน Dataverse ให้ตรวจสอบว่าการแม็ปถูกต้องในตัวรวมข้อมูล ถ้าการค้นหาการแม็ปตัวรวมเป็นปกติ ให้ตรวจสอบมีการรันงานการจัดการข้อมูลเสร็จเรียบร้อยแล้ว ข้อผิดพลาดอาจเกิดขึ้นในระหว่างการดำเนินการชุดงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการข้อมูล ดู [การจัดการข้อมูล](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+ถ้าเอนทิตีได้รับการสนับสนุน และข้อมูลมีอยู่ใน Dataverse ให้ตรวจสอบว่าการแม็ปถูกต้องในตัวรวมข้อมูล ถ้าการค้นหาการแม็ปตัวรวมเป็นปกติ ให้ตรวจสอบมีการรันงานการจัดการข้อมูลเสร็จเรียบร้อยแล้ว ข้อผิดพลาดอาจเกิดขึ้นในระหว่างการดำเนินการชุดงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการข้อมูล ดู [การจัดการข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>ที่อยู่สำหรับพนักงานของฉันไม่ถูกต้อง หลังจากที่ฉันนำเข้าไปยัง Finance ฉันควรทำอย่างไร
 
@@ -172,15 +172,15 @@ ms.locfileid: "5794864"
 
 - ตัวรวมข้อมูล (DI): 
 
-  - [รวมข้อมูลลงใน Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [รวมข้อมูลลงใน Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [การจัดการข้อผิดพลาดตัวรวมข้อมูลและการแก้ไขปัญหาเบื้องต้น](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [การจัดการข้อผิดพลาดตัวรวมข้อมูลและการแก้ไขปัญหาเบื้องต้น](/powerapps/administrator/data-integrator-error-management)
 
-  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน Power Apps Microsoft Power Automate และ Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [การตอบสนองคำขอ DSR สำหรับล็อกที่ระบบสร้างขึ้นใน Power Apps Microsoft Power Automate และ Dataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - การจัดการข้อมูล:
 
-  - [การจัดการข้อมูล](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [การจัดการข้อมูล](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821164"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909978"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5821164"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
 - การจัดการ Cloud และ edge scale unit ด้วยปริมาณงานในการดำเนินการผลิตและคลังสินค้า<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า](../cloud-edge/cloud-edge-landing-page.md)
 
-- [สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า](../warehousing/create-transfer-order-from-warehouse-app.md)
+- [สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า](../warehousing/create-transfer-order-from-warehouse-app.md)
 
-- [ฟิลด์การตอบ RFQ เริ่มต้นสำหรับการประมูลของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [ภาพรวมคำขอใบเสนอราคา (RFQ)](../procurement/request-quotations.md)
+- [ฟิลด์การตอบ RFQ เริ่มต้นสำหรับการประมูลของผู้จัดจำหน่าย](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [ภาพรวมคำขอใบเสนอราคา (RFQ)](../procurement/request-quotations.md)
 
-- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md)
+- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md)
 
-- [คู่มือแบบผสมความจริงสำหรับการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ให้คู่มือแบบผสมความจริงสำหรับผู้ปฏิบัติงานในการผลิต](../production-control/instruction-guides-in-production-overview.md)
+- [คู่มือแบบผสมความจริงสำหรับการผลิต](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ให้คู่มือแบบผสมความจริงสำหรับผู้ปฏิบัติงานในการผลิต](../production-control/instruction-guides-in-production-overview.md)
 
-- [ประสบการณ์การใช้งานของผู้ใช้ใหม่สำหรับการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
+- [ประสบการณ์การใช้งานของผู้ใช้ใหม่สำหรับการดำเนินการผลิต](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
 
-- [ประมวลผลเหตุการณ์ของแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลเหตุการณ์ของแอปคลังสินค้า](../warehousing/warehouse-app-events.md)
+- [ประมวลผลเหตุการณ์ของแอปคลังสินค้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลเหตุการณ์ของแอปคลังสินค้า](../warehousing/warehouse-app-events.md)
 
-- [มุมมองที่บันทึกไว้สำหรับหน้าผลิตภัณฑ์ที่นำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../../fin-ops-core/fin-ops/get-started/saved-views.md)
+- [มุมมองที่บันทึกไว้สำหรับหน้าผลิตภัณฑ์ที่นำออกใช้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../../fin-ops-core/fin-ops/get-started/saved-views.md)
 
 - เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบรับรองแหล่งกำเนิดสินค้า USMCA](../transportation/usmca-certification-of-origin.md)
 
@@ -69,7 +69,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

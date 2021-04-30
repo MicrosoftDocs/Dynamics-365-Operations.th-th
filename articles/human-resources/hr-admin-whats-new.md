@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806029"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892188"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 
@@ -39,7 +39,7 @@ ms.locfileid: "5806029"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะที่กำลังจะมาถึง หรือกระบวนการปรับปรุงสำหรับทรัพยากรบุคคล โปรดดูที่บทความต่อไปนี้ 
 
-- [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ ms.locfileid: "5806029"
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของ Human Resources ให้ดูที่บทความต่อไปนี้:
 
+[5 เมษายน 2021](hr-whats-new-2021-04-05.md)</br>
 [22 มีนาคม 2021](hr-whats-new-2021-03-22.md)</br>
 [8 มีนาคม 2021](hr-whats-new-2021-03-08.md)</br>
 [22 กุมภาพันธ์ 2021](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ ms.locfileid: "5806029"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

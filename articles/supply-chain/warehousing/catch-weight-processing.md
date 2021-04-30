@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808929"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907630"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>การประมวลผลผลิตภัณฑ์ของน้ำหนักที่เลือกได้ที่มีการจัดการคลังสินค้า
 
@@ -40,7 +40,7 @@ ms.locfileid: "5808929"
 - ตั้งค่ากลุ่มลำดับของหน่วยที่ซึ่งหน่วยน้ำหนักที่เลือกได้ถูกกำหนดเป็นหน่วยการเก็บสต็อคต่ำสุด (SKU)
 - ตั้งค่านโยบายการจัดการสินค้าที่มีน้ำหนักที่เลือกได้
 
-สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าและการรักษาสินค้าที่มีน้ำหนักที่เลือกได้](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)
+สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าและการรักษาสินค้าที่มีน้ำหนักที่เลือกได้](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items)
 
 ## <a name="transaction-adjustments"></a>การปรับปรุงธุรกรรม
 

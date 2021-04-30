@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9253537b7d306384747ca1e492def13c48aa678
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755511"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893345"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับการวิเคราะห์การบัญชีต้นทุน
 
@@ -40,7 +40,7 @@ ms.locfileid: "5755511"
 โดยการกำหนดความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุน และการผสมเข้ากับความปลอดภัยระดับแถวใน Power BI คุณสามารถได้รับการเข้าถึงของเจ้าของออบเจ็กต์ต้นทุนทั้งหมดไปยังเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** จากนั้นข้อมูลทั้งหมดในการแสดงภาพประกอบจะถูกกรองข้อมูลตามระดับการเข้าถึงที่ถูกควบคุมในการบัญชีต้นทุน เรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับการเข้าถึงและความปลอดภัยระดับแถว ดู [ตั้งค่าความปลอดภัยสำหรับการวิเคราะห์การบัญชีต้นทุน เนื้อหา Power BI](setup-security-cost-accounting-content-pack.md)
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-คุณสามารถค้นหาเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** ในไลบรารีสินทรัพย์ที่แบ่งปันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)
+คุณสามารถค้นหาเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** ในไลบรารีสินทรัพย์ที่แบ่งปันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)
 
 ต้องแน่ใจว่าดาวน์โหลดเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837668"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910412"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
 
@@ -33,7 +33,7 @@ ms.locfileid: "5837668"
 > [!NOTE]
 > ข้อมูลเกี่ยวกับการทำงานร่วมกันกับผู้จัดจำหน่ายในหัวข้อนี้ ใช้เฉพาะกับกับรุ่นปัจจุบันของ Supply Chain Management ใน Microsoft Dynamics AX 7.0 (กุมภาพันธ์ 2016) และแอพลิเคชัน Microsoft Dynamics AX รุ่น 7.0.1 (พฤษภาคม 2016) คุณทำงานร่วมกับผู้จัดจำหน่ายโดยใช้โมดูล **พอร์ทัลผู้จัดจำหน่าย** สำหรับข้อมูลเกี่ยวกับโมดูล **พอร์ทัลของผู้จัดจำหน่าย** ดู [ทำงานร่วมกันกับผู้จัดจำหน่ายโดยการใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)
 
-ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีที่ผู้จัดจำหน่ายสามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่ายในกระบวนการออกใบแจ้งหนี้ที่ [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) ดูข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายที่ [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
+ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีที่ผู้จัดจำหน่ายสามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่ายในกระบวนการออกใบแจ้งหนี้ที่ [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) ดูข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายที่ [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>การกำหนดข้อมูลที่ถูกแสดงแก่ผู้จัดจำหน่าย เมื่อพวกเขาตอบสนองต่อ POs
 

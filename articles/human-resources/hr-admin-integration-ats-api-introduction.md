@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798445"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890136"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>บทนํา API การรวมระบบการติดตามผู้สมัคร
 
@@ -45,21 +45,21 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 
 สำหรับข้อมูลเพิ่มเติมทั่วไปเกี่ยวกับ Microsoft Dataverse Web API ให้ดูที่
 
-- [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [ใช้ Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse คู่มือสำหรับนักพัฒนา](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
+- [ใช้ Microsoft Dataverse Web API](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse คู่มือสำหรับนักพัฒนา](/powerapps/developer/data-platform)
 
-เอกสารข้างต้นจะประกอบด้วยรายละเอียดและแนวทางของนักพัฒนาในการใช้ Dataverse Web API เช่น [การจัดการการพิสูจน์ตัวจริง](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api) [การดำเนินงาน](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api) [การใช้บุรุษไปรษณีย์กับ API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) และ [การใช้การเปลี่ยนแปลงการติดตามหรือโทเคนที่ว่างเปล่า](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) กับ the API
+เอกสารข้างต้นจะประกอบด้วยรายละเอียดและแนวทางของนักพัฒนาในการใช้ Dataverse Web API เช่น [การจัดการการพิสูจน์ตัวจริง](/powerapps/developer/data-platform/webapi/authenticate-web-api) [การดำเนินงาน](/powerapps/developer/data-platform/webapi/perform-operations-web-api) [การใช้บุรุษไปรษณีย์กับ API](/powerapps/developer/data-platform/webapi/use-postman-web-api) และ [การใช้การเปลี่ยนแปลงการติดตามหรือโทเคนที่ว่างเปล่า](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) กับ the API
 
 ### <a name="option-sets"></a>ชุดตัวเลือก
 
-แบบจำลองข้อมูลสำหรับการรวม ATS API อธิบายไว้ในเอกสารนี้รวมถึงชุดตัวเลือกที่ระบุค่าที่ระบุหมายเลขที่สัมพันธ์กับคุณสมบัติเอนทิตี้ สำหรับรายละเอียดเกี่ยวกับชุดตัวเลือกใน Dataverse Web API ให้ดูที่ [ชุดตัวเลือกการสร้างและการอัพเดตโดยใช้ Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets) ชุดตัวเลือกถูกกําหนดไว้ให้กับ Dataverse แต่ละสภาพแวดล้อม
+แบบจำลองข้อมูลสำหรับการรวม ATS API อธิบายไว้ในเอกสารนี้รวมถึงชุดตัวเลือกที่ระบุค่าที่ระบุหมายเลขที่สัมพันธ์กับคุณสมบัติเอนทิตี้ สำหรับรายละเอียดเกี่ยวกับชุดตัวเลือกใน Dataverse Web API ให้ดูที่ [ชุดตัวเลือกการสร้างและการอัพเดตโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets) ชุดตัวเลือกถูกกําหนดไว้ให้กับ Dataverse แต่ละสภาพแวดล้อม
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>ตารางเสมือนสำหรับทรัพยากรบุคคล Dataverse
 
 ปลายทางสำหรับ API การรวม ATS ใช้ความสามารถของแพลตฟอร์มตารางเสมือนของ Microsoft Dataverse โดยค่าเริ่มต้น ตารางเสมือนและปลายทาง API ที่เกี่ยวข้องจะไม่ปรับใช้กับสภาพแวดล้อมของทรัพยากรบุคคล การเปิดใช้งานองค์กรเพื่อระบุว่าปลายทาง OData ใดจะแสดงต่อสภาพแวดล้อม เมื่อต้องการใช้ API ตารางเสมือนของเอนทิตี้ทรัพยากรบุคคลจะต้องสร้างให้กับสภาพแวดล้อม 
 
-สำหรับข้อมูลเกี่ยวกับการสร้างตารางเสมือนของ API ให้ดูที่ [การตั้งค่าคอนฟิกตารางเสมือน Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
+สำหรับข้อมูลเกี่ยวกับการสร้างตารางเสมือนของ API ให้ดูที่ [การตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)
 
 ## <a name="data-model"></a>แบบจำลองข้อมูล
 
@@ -134,8 +134,8 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [สรรหาผู้สมัครงาน](hr-personnel-recruit.md)<br>
-[Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[ใช้ Microsoft Dataverse Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[สร้างและอัพเดตชุดตัวเลือกโดยใช้ Web API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
+[ใช้ Microsoft Dataverse Web API](/powerapps/developer/data-platform/webapi/overview)<br>
+[สร้างและอัพเดตชุดตัวเลือกโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

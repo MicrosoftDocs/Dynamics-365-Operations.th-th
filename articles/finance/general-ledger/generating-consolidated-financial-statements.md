@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826701"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897875"
 ---
 # <a name="generate-consolidated-financial-statements"></a>สร้างงบการเงินที่รวมบัญชี
 
@@ -34,7 +34,7 @@ ms.locfileid: "5826701"
 3. สร้างแผนภูมิการรายงานซึ่งรวมถึงโหนดรายงาน สำหรับบริษัทแต่ละบริษัทที่คุณกำลังใช้ในรายงานที่รวมบัญชี
 
 > [!TIP]
-> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างและจัดการคำนิยามแถว คำนิยามคอลัมน์ และแผนภูมิรายงาน ดู [ส่วนประกอบของรายงานทางการเงิน](../../dev-itpro/analytics/financial-report-components.md)
+> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างและจัดการคำนิยามแถว คำนิยามคอลัมน์ และแผนภูมิรายงาน ดู [ส่วนประกอบของรายงานทางการเงิน](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md)
 
 ภาพต่อไปนี้แสดงวิธีการใช้คำนิยามแผนภูมิรายงานในการรายงานทางการเงิน เพื่อระบุบริษัทแต่ละบริษัทที่คุณจะรวมบัญชีไว้
 
