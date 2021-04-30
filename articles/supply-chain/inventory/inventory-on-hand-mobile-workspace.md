@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816663"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908741"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง
 
@@ -56,7 +56,7 @@ ms.locfileid: "5816663"
 ข้อกำหนดเบื้องต้นจะแตกต่าง โดยขึ้นอยู่กับรุ่นของ Supply Chain Management ที่นำไปใช้งานสำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management
-ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่ **สินค้าคงคลังที่มีอยู่** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่ **สินค้าคงคลังที่มีอยู่** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้แพลตฟอร์ม 3 หรือใหม่กว่า 
 ถ้ามีการปรับใช้แพลตฟอร์ม 3 หรือใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการตามข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -76,17 +76,17 @@ ms.locfileid: "5816663"
 
 <td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ปริมาณคงคลังคงเหลือ</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ปริมาณคงคลังคงเหลือ</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ ms.locfileid: "5816663"
 
 1.  บนอุปกรณ์เคลื่อนที่ เลือกพื้นที่ทำงาน **ปริมาณคงคลังคงเหลือ**
 
-2.  เลือก **ตรวจสอบปริมาณคงคลังคงเหลือสำหรับสินค้า** คุณเห็นรายการของผลิตภัณฑ์ที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)
+2.  เลือก **ตรวจสอบปริมาณคงคลังคงเหลือสำหรับสินค้า** คุณเห็นรายการของผลิตภัณฑ์ที่ถูกโหลดลงในแอพของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น จะมีการโหลดไว้ 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนแปลงจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม นักพัฒนาควรดูที่ [แพลตฟอร์มเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)
 3.  ถ้าสินค้าของคุณไม่ได้อยู่ในรายการ เลือก **ค้นหาข้อมูลเพิ่มเติม** ค้นหาโดยใช้หมายเลขผลิตภัณฑ์ หรือสลับไปยังการค้นหาตามชื่อผลิตภัณฑ์
 
 4.  เลือกผลิตภัณฑ์ >  ถ้าสินค้ามีรูปภาพ รูปภาพจะแสดงขึ้น

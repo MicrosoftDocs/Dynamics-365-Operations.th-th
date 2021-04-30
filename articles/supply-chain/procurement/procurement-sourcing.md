@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825529"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909215"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -83,12 +83,12 @@ ms.locfileid: "5825529"
 ## <a name="prices-and-discounts"></a>ราคาและส่วนลด
 -   [ข้อตกลงการซื้อ](purchase-agreements.md)
 -   [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
--   [เงินคืนของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics/s-e/) (เอกสาร)
+-   [เงินคืนของผู้จัดจำหน่าย](/dynamics/s-e/) (เอกสาร)
 
 ## <a name="product-receipt-and-invoicing"></a>ใบรับสินค้าและการออกใบแจ้งหนี้
 -   [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
--   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 -   [ภาพรวมของการจัดซื้อและการจัดหา](procurement-sourcing-overview.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 263650cae4b8408f1f7a4a27c43294d2f51c1444
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800152"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891852"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (06 สิงหาคม 2020)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5800152"
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform update 10.0.12(36) พร้อมใช้งานแล้วในขณะนี้
 
-เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.12 ของแอป Finance and Operations (สิงหาคม 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12)
+เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.12 ของแอป Finance and Operations (สิงหาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md)
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
 เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย แม่แบบการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล แม่แบบส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [การสนับสนุนเอนทิตี้ DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
-- [ภาพรวมของการจัดการข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [การสนับสนุนเอนทิตี้ DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
+- [ภาพรวมของการจัดการข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire สร้างลำดับงานสำหรับคำขอการซื้อและการขายวันลา (446557)
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [อนุญาตให้พนักงานซื้อและขายวันลา](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-- [จัดการนโยบายซื้อและขายวันลางาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [ซื้อและขายวันลางาน](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [อนุญาตให้พนักงานซื้อและขายวันลา](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+- [จัดการนโยบายซื้อและขายวันลางาน](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [ซื้อและขายวันลางาน](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>เอนทิตี้ที่อยู่ไปรษณีย์ของผู้ปฏิบัติงาน V2 มีสิทธิ์เข้าถึงในนิติบุคคลที่มีการจำกัดการเข้าถึง (459126)
@@ -62,7 +62,7 @@ ms.locfileid: "5800152"
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>เอนทิตี้ใหม่สำหรับการซื้อและการขายวันลา (473180)
 
-ขณะนี้มีเอนทิตี้กรอบงานการจัดการข้อมูลสามารถใช้งานสำหรับการซื้อและการขายวันลาได้แล้ว สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+ขณะนี้มีเอนทิตี้กรอบงานการจัดการข้อมูลสามารถใช้งานสำหรับการซื้อและการขายวันลาได้แล้ว สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>เมื่อดูข้อมูลเรกคอร์ดและการใช้ตัวกรองขั้นสูง ผู้ใช้สามารถเข้าถึงเรกคอร์ดของพนักงานรายอื่น (472490)
 
@@ -96,9 +96,9 @@ ms.locfileid: "5800152"
 
 บางองค์กรจะให้สวัสดิการ ซึ่งช่วยให้พนักงานสามารถซื้อหรือขายการลางานของพนักงานได้ กระบวนการนี้มักจะมีการจัดการด้วยตนเอง คุณลักษณะนี้จะทำให้การจัดการนโยบายและการร้องขอสำหรับแผนก HR เป็นอัตโนมัติ ซึ่งช่วยลดขั้นตอนซ้ำซ้อนของกระบวนการการจัดการลางาน และช่วยกำจัดข้อผิดพลาด สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [อนุญาตให้พนักงานซื้อและขายวันลา](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-- [จัดการนโยบายซื้อและขายวันลางาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [ซื้อและขายวันลางาน](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [อนุญาตให้พนักงานซื้อและขายวันลา](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+- [จัดการนโยบายซื้อและขายวันลางาน](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [ซื้อและขายวันลางาน](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>การลางานคงค้างสำหรับบริษัทเดียวหรือแผนเดียว
 
@@ -126,15 +126,15 @@ ms.locfileid: "5800152"
 
 คุณสามารถทำให้ฟิลด์บังคับโดยใช้ความสามารถในการตั้งค่าส่วนบุคคลของทรัพยากรบุคคล ลักษณะการทำงานนี้จำเป็นต้องใช้ **มุมมองที่บันทึกไว้** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับมุมมองที่บันทึกไว้ ให้ดูที่:
 
-- [มุมมองที่บันทึกไว้ - มีความพร้อมใช้งานทั่วไป](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-- [สร้างแบบฟอร์มที่ใช้มุมมองที่บันทึกไว้ทั้งหมด](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [มุมมองที่บันทึกไว้ - มีความพร้อมใช้งานทั่วไป](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+- [สร้างแบบฟอร์มที่ใช้มุมมองที่บันทึกไว้ทั้งหมด](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>โปรแกรมประบุกต์ Human Resources ใน Teams
 
 พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
-- [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
+- [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>เอนทิตี DMF ที่พร้อมใช้งานสำหรับการระงับการคงค้าง
 
@@ -172,7 +172,7 @@ ms.locfileid: "5800152"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

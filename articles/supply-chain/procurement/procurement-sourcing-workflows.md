@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807955"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909242"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 
@@ -47,7 +47,7 @@ ms.locfileid: "5807955"
 | ลำดับงานการเพิ่มใบสมัครของผู้จัดจำหน่าย | สร้างการทบทานและลำดับงานการอนุมัติสำหรับการเพิ่มผู้จัดจำหน่ายใหม่ โดยใช้คำขอของผู้จัดจำหน่าย |
 
 > [!IMPORTANT]
-> เมื่อคุณกำลังเพิ่มลำดับงานใหม่ คุณอาจจะเห็นลำดับงานที่ล้าสมัยต่อไปนี้แสดงรายการอยู่ในกล่องโต้ตอบ **สร้างลำดับงาน** ข้อมูลเหล่านี้เกี่ยวข้องกับฟังก์ชัน *การยืนยันการรับสินค้า* ที่พร้อมใช้งานใน [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) แต่ขณะนี้ไม่สนับสนุน ลำดับงานเหล่านี้ไม่ได้รับการสนับสนุนในขณะนี้
+> เมื่อคุณกำลังเพิ่มลำดับงานใหม่ คุณอาจจะเห็นลำดับงานที่ล้าสมัยต่อไปนี้แสดงรายการอยู่ในกล่องโต้ตอบ **สร้างลำดับงาน** ข้อมูลเหล่านี้เกี่ยวข้องกับฟังก์ชัน *การยืนยันการรับสินค้า* ที่พร้อมใช้งานใน [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) แต่ขณะนี้ไม่สนับสนุน ลำดับงานเหล่านี้ไม่ได้รับการสนับสนุนในขณะนี้
 > 
 > - ลำดับงานการแจ้งเตือนวันที่ครบกำหนดจัดส่ง
 > - ลำดับงานการแจ้งเตือนใบแจ้งหนี้ที่ได้รับ

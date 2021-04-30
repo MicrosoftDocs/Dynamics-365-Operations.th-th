@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743738"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891804"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 
@@ -119,7 +119,7 @@ ms.locfileid: "5743738"
 
 - [ทรัพยากรเพิ่มเติม](#References)
 
-ในตัวอย่างนี้ คุณจะสร้างโซลูชัน ER ใหม่สำหรับโมดูล [แบบสอบถาม](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) โซลูชัน ER ใหม่นี้ช่วยให้คุณสามารถออกแบบรายงานโดยใช้เวิร์กชีต Microsoft Excel เป็นเท็มเพลต จากนั้น คุณจะสามารถสร้างรายงาน **แบบสอบถาม** ในรูปแบบ Excel หรือ PDF นอกจากนี้ เมื่อต้องการสร้างรายงาน SQL Server Reporting Services (SSRS) ที่มีอยู่ นอกจากนี้ คุณยังสามารถปรับเปลี่ยนรายงานใหม่ได้ในภายหลังเมื่อมีการร้องขอ ไม่จำเป็นต้องมีการเขียนโค้ด
+ในตัวอย่างนี้ คุณจะสร้างโซลูชัน ER ใหม่สำหรับโมดูล [แบบสอบถาม](../../../human-resources/hr-learning-questionnaires.md) โซลูชัน ER ใหม่นี้ช่วยให้คุณสามารถออกแบบรายงานโดยใช้เวิร์กชีต Microsoft Excel เป็นเท็มเพลต จากนั้น คุณจะสามารถสร้างรายงาน **แบบสอบถาม** ในรูปแบบ Excel หรือ PDF นอกจากนี้ เมื่อต้องการสร้างรายงาน SQL Server Reporting Services (SSRS) ที่มีอยู่ นอกจากนี้ คุณยังสามารถปรับเปลี่ยนรายงานใหม่ได้ในภายหลังเมื่อมีการร้องขอ ไม่จำเป็นต้องมีการเขียนโค้ด
 
 1. เมื่อต้องการเรียกใช้รายงานที่มีอยู่ ให้ไปที่ **แบบสอบถาม** \> **ออกแบบ** \> **รายงานแบบสอบถาม**
 

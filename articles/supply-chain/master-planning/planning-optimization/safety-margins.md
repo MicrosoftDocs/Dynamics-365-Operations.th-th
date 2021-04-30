@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841874"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908304"
 ---
 # <a name="safety-margins"></a>ค่าเผื่อความปลอดภัย
 
@@ -87,7 +87,7 @@ ms.locfileid: "5841874"
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>เปิดค่าเผื่อความปลอดภัยในการจัดการคุณลักษณะ
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้กับการการเพิ่มประสิทธิภาพการวางแผน คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้กับการการเพิ่มประสิทธิภาพการวางแผน คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
 
 - **โมดูล:** _การวางแผนหลัก_
 - **ชื่อคุณลักษณะ:** _ค่าเผื่อสำหรับการเพิ่มประสิทธิภาพการวางแผน_

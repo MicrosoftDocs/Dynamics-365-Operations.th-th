@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: f21e9b94b5aa30b2cdb18692e8cc9c8d00f758d6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805045"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890087"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>เพิ่มประสิทธิภาพชุดงานตามกำหนดการ BYOD
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการเพิ่มประสิทธิภาพการทำงานเมื่อคุณกำลังใช้คุณลักษณะการใช้ฐานข้อมูลของคุณเอง (BYOD) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ BYOD ให้ดูที่ [การใช้ฐานข้อมูลของคุณเอง (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)
+หัวข้อนี้อธิบายถึงวิธีการเพิ่มประสิทธิภาพการทำงานเมื่อคุณกำลังใช้คุณลักษณะการใช้ฐานข้อมูลของคุณเอง (BYOD) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ BYOD ให้ดูที่ [การใช้ฐานข้อมูลของคุณเอง (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 ## <a name="performance-considerations-for-data-export"></a>ข้อควรพิจารณาด้านประสิทธิภาพสำหรับการส่งออกข้อมูล
 
-หลังจากที่เผยแพร่เอนทิตี้ไปยังฐานข้อมูลปลายทางแล้ว คุณสามารถใช้ฟังก์ชันการส่งออกในพื้นที่ทำงาน **การจัดการข้อมูล** เพื่อย้ายข้อมูลได้ ฟังก์ชันการส่งออกช่วยให้คุณสามารถกำหนดงานการเคลื่อนย้ายข้อมูลที่มีเอนทิตี้หนึ่งเอนทิตี้ขึ้นไป สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการส่งออกข้อมูล ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)
+หลังจากที่เผยแพร่เอนทิตี้ไปยังฐานข้อมูลปลายทางแล้ว คุณสามารถใช้ฟังก์ชันการส่งออกในพื้นที่ทำงาน **การจัดการข้อมูล** เพื่อย้ายข้อมูลได้ ฟังก์ชันการส่งออกช่วยให้คุณสามารถกำหนดงานการเคลื่อนย้ายข้อมูลที่มีเอนทิตี้หนึ่งเอนทิตี้ขึ้นไป สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการส่งออกข้อมูล ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 คุณสามารถใช้หน้า **ส่งออก** เพื่อส่งออกข้อมูลเป็นรูปแบบข้อมูลเป้าหมายต่างๆ เช่น ไฟล์ค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) หน้านี้ยังรองรับฐานข้อมูล SQL เป็นปลายทางอื่นด้วย
 
@@ -61,7 +61,7 @@ ms.locfileid: "5805045"
 
 เมื่อคุณเพิ่มเอนทิตี้สำหรับการส่งออกข้อมูล คุณสามารถส่ง (ส่งออก) ส่วนเพิ่มหรือส่งข้อมูลทั้งหมดอย่างใดอย่างหนึ่ง การส่งข้อมูลทั้งหมดจะเป็นการลบเรกคอร์ดที่มีอยู่ทั้งหมดออกจากเอนทิตี้ในฐานข้อมูล BYOD แล้วแทรกชุดเรกคอร์ดปัจจุบันจากเอนทิตี้ Human Resources
 
-เมื่อต้องการส่งส่วนเพิ่ม คุณต้องเปิดการติดตามการเปลี่ยนแปลงสำหรับแต่ละเอนทิตี้ในหน้า **เอนทิตี้** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+เมื่อต้องการส่งส่วนเพิ่ม คุณต้องเปิดการติดตามการเปลี่ยนแปลงสำหรับแต่ละเอนทิตี้ในหน้า **เอนทิตี้** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 ถ้าคุณเลือกส่งส่วนเพิ่ม การส่งครั้งแรกจะเป็นการส่งข้อมูลทั้งหมดเสมอ SQL ติดตามการเปลี่ยนแปลงจากการส่งข้อมูลทั้งหมดครั้งแรกนี้ เมื่อมีการแทรกเรกคอร์ดใหม่ หรือเมื่อมีการอัพเดตหรือลบเรกคอร์ด การเปลี่ยนแปลงจะแสดงให้เห็นในเอนทิตี้ปลายทาง
 
@@ -88,14 +88,14 @@ ms.locfileid: "5805045"
 
 **ปัญหา:** เมื่อมีการส่งข้อมูลทั้งหมดสำหรับเอนทิตี้ คุณเห็นชุดเรกคอร์ดขนาดใหญ่ใน BYOD เมื่อคุณใช้คำสั่ง **select** อย่างไรก็ตาม เมื่อคุณส่งส่วนเพิ่ม คุณจะเห็นเพียงไม่กี่เรกคอร์ดใน BYOD ดูเหมือนว่าการส่งส่วนเพิ่มจะลบเรกคอร์ดทั้งหมดและเพิ่มเฉพาะเรกคอร์ดที่เปลี่ยนแปลงใน BYOD เท่านั้น
 
-**วิธีแก้ไข:** ตารางการติดตามการเปลี่ยนแปลง SQL อาจไม่ได้อยู่ในสถานะที่คาดไว้ ในกรณีชนิดนี้ เราขอแนะนำให้คุณปิดการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้ แล้วเปิดใหม่อีกครั้ง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+**วิธีแก้ไข:** ตารางการติดตามการเปลี่ยนแปลง SQL อาจไม่ได้อยู่ในสถานะที่คาดไว้ ในกรณีชนิดนี้ เราขอแนะนำให้คุณปิดการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้ แล้วเปิดใหม่อีกครั้ง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ภาพรวมของการจัดการข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[ใช้ฐานข้อมูลของคุณเอง (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[ภาพรวมของงานการนำเข้าและส่งออกข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[ภาพรวมของการจัดการข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[ใช้ฐานข้อมูลของคุณเอง (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[ภาพรวมของงานการนำเข้าและส่งออกข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

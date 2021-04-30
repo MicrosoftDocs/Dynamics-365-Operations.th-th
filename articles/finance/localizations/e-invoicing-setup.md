@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840015"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890842"
 ---
 # <a name="set-up-electronic-invoicing"></a>ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -75,7 +75,7 @@ ms.locfileid: "5840015"
     > [!NOTE]
     > ขณะที่คุณกำลังแก้ไขรูปแบบ สถานะของเวอร์ชันการตั้งค่าคอนฟิกจะถูกตั้งค่าเป็น **แบบร่าง**
 
-3. ใช้หน้า **ตัวออกแบบรูปแบบ** เพื่อเปลี่ยนการตั้งค่าคอนฟิกรูปแบบไฟล์ สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างการตั้งค่าคอนฟิกเอกสารอิเล็กทรอนิกส์](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration)
+3. ใช้หน้า **ตัวออกแบบรูปแบบ** เพื่อเปลี่ยนการตั้งค่าคอนฟิกรูปแบบไฟล์ สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างการตั้งค่าคอนฟิกเอกสารอิเล็กทรอนิกส์](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)
 
     ![หน้าตัวออกแบบรูปแบบ](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 

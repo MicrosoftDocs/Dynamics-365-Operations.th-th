@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825217"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908046"
 ---
 # <a name="vendor-collaboration-with-customers"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า
 
@@ -31,7 +31,7 @@ ms.locfileid: "5825217"
 - **การยืนยันใบสั่งซื้อ** – ตรวจสอบและตอบสนองใบสั่งซื้อ (POs)
 - **การประมูลของผู้จัดจำหน่าย** – ดูคำขอใบเสนอราคา (RFQs) และการโต้ตอบด้วยการป้อนการประมูล
 - **ข้อมูลผู้จัดจำหน่าย** – ดูและปรับปรุงข้อมูลหลักของผู้จัดจำหน่าย
-- **การออกใบแจ้งหนี้** – ทำงานกับใบแจ้งหนี้ หัวข้อนี้ไม่ครอบคลุมพื้นที่ทำงาน **การออกใบแจ้งหนี้** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ทำงานนี้ ดู [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+- **การออกใบแจ้งหนี้** – ทำงานกับใบแจ้งหนี้ หัวข้อนี้ไม่ครอบคลุมพื้นที่ทำงาน **การออกใบแจ้งหนี้** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ทำงานนี้ ดู [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 ผู้จัดจำหน่ายยังสามารถตรวจสอบข้อมูลเกี่ยวกับการส่งมอบสินค้าคงคลังได้ด้วย
 

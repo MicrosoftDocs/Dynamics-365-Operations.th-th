@@ -2,7 +2,7 @@
 title: การปฏิบัติตามกฎระเบียบคุกกี้
 description: หัวข้อนี้อธิบายถึงข้อควรพิจารณาสำหรับการปฏิบัติตามข้อกำหนดของคุกกี้และนโยบายเริ่มต้นที่รวมอยู่ใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796038"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908195"
 ---
 # <a name="cookie-compliance"></a>การคาดการณ์ความต้องการคุกกี้
 
@@ -50,6 +50,57 @@ ms.locfileid: "5796038"
 | x-ms-cpim-slice                             | ซึ่งใช้เพื่อกำหนดเส้นทางคำขอไปยังอินสแตนซ์ของเซิร์ฟเวอร์การตรวจสอบความถูกต้องของการผลิตที่เหมาะสม |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | ซึ่งใช้สำหรับการรักษารอบเวลา SSO                        |
 | x-ms-cpim-trans                             | ซึ่งใช้สำหรับการติดตามธุรกรรม (จำนวนของแท็บที่เปิดที่ตรวจสอบความถูกต้องเทียบกับไซต์ธุรกิจ-ผู้บริโภค (B2C)) ซึ่งรวมถึงธุรกรรมปัจจุบัน |
+| \_msdyn365___muid_                            | ใช้ถ้ามีการเรียกใช้งานการทดลองสภาพแวดล้อม; ใช้เป็น userId เพื่อวัตถุประสงค์ในการลองใช้ |
+| \_msdyn365___exp_                             | ใช้ถ้ามีการเรียกใช้งานการทดลองสภาพแวดล้อม; ใช้เพื่อวัดการสร้างสมดุลของปริมาณงานที่มีประสิทธิภาพ         |
+
+
+
+หากผู้ใช้ไซต์เลือกลิงค์สื่อสังคมภายในไซต์ คุกกี้ในตารางต่อไปนี้จะถูกติดตามบนเบราเซอร์ด้วย
+
+
+| โดเมน                      | คุกกี้               | คำอธิบาย                                                  | ต้นทาง                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | การซิงค์รหัสโฆษณา LinkedIn                                      | หน้าฟีด LinkedIn และแท็ก Insights                                |
+| .linkedin.com               | li_sugr                  | รหัสเบราเซอร์                                           | แท็ก LinkedIn หากที่อยู่ IP ไม่อยู่ในประเทศที่ได้รับมอบหมาย |
+| .linkedin.com               | BizographicsOptOut       | ตรวจสอบสถานะการปฏิเสธเข้าร่วมในการติดตามของบุคคลที่สาม              | ตัวควบคุมแขก LinkedIn และหน้าการปฏิเสธเข้าร่วมของอุตสาหกรรม           |
+| .linkedin.com               | \_guid                    | รหัสเบราเซอร์ของ Google Ads                            | หน้าฟีด LinkedIn                                                |
+| .linkedin.com               | li_oatml                 | รหัสทางอ้อมของสมาชิกในการติดตามการแปลง การตั้งค่าใหม่ และการวิเคราะห์ | โฆษณา LinkedIn และแท็ก Insights                                |
+| โดเมนของฝ่ายแรกต่าง ๆ | li_fat_id                | รหัสทางอ้อมของสมาชิกในการติดตามการแปลง การตั้งค่าใหม่ และการวิเคราะห์ | โฆษณา LinkedIn และแท็ก Insights                                |
+| .adsymptotic.com            | U                        | รหัสเบราเซอร์                                           | แท็ก LinkedIn หากที่อยู่ IP ไม่อยู่ในประเทศที่ได้รับมอบหมาย |
+| .linkedin.com                | bcookie                  | คุกกี้รหัสเบราเซอร์                                            | คำขอไปยัง LinkedIn                                         |
+| .linkedin.com                | bscookie                 | รักษาความปลอดภัยของคุกกี้เบราเซอร์                                        | คำขอไปยัง LinkedIn                                         |
+| .linkedin.com               | lang                     | ตั้งค่าที่ตั้งและภาษาเริ่มต้น                                 | คำขอไปยัง LinkedIn                                         |
+| .linkedin.com                | lidc                     | ใช้สำหรับการกำหนดเส้นทาง                                             | คำขอไปยัง LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | คุกกี้โปรแกรมจัดการผู้ชม Adobe                                                     | ตั้งค่าเพื่อซิงค์รหัส                                              |
+| .linkedin.com               | \_ga                      | คุกกี้ Google Analytics                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | คุกกี้ Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | คุกกี้ Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | คุกกี้มีรหัสผู้ใช้ของผู้ใช้ที่ลงชื่อเข้าใช้ในปัจจุบัน  |   Facebook                                                           |
+| .facebook.com               | datr                     | ใช้ในการระบุเว็บเบราเซอร์ที่ใช้ในการเชื่อมต่อกับผู้ใช้ที่ลงชื่อเข้าใช้ Facebook อิสระ | Facebook                                                             |
+| .facebook.com               | wd                       | จัดเก็บมิติหน้าต่างเบราเซอร์และใช้งาน Facebook เพื่อให้การแสดงหน้ามีประสิทธิภาพสูงสุด | Facebook                                                             |
+| .facebook.com               | xs                       | หมายเลขสองหลักที่แสดงถึงหมายเลขรอบเวลา ส่วนที่สองของค่าข้อมูลลับของรอบเวลา |  Facebook                                                            |
+| .facebook.com               | fr                       | มีเบราเซอร์และรหัสผู้ใช้เฉพาะ ซึ่งใช้สำหรับเป็นเป้าหมายในการโฆษณา |  Facebook                                                            |
+| .facebook.com               | sb                       | ใช้เพื่อปรับปรุงคำแนะนำเพื่อนบน Facebook                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | คุกกี้มีรหัสผู้ใช้ของผู้ใช้ที่ลงชื่อเข้าใช้ในปัจจุบัน  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | คุกกี้มีรหัสผู้ใช้ของผู้ใช้ที่ลงชื่อเข้าใช้ในปัจจุบัน  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | คุกกี้มีหน้าเมื่อผู้ใช้เลือกปุ่ม Pinterest      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | คุกกี้มีหน้าเมื่อผู้ใช้เลือกปุ่ม Pinterest      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | มีรหัสผู้ใช้และการประทับเวลาเมื่อสร้างคุกกี้ |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | คุกกี้มีหน้าเมื่อผู้ใช้เลือกปุ่ม Pinterest      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | คุกกี้มีหน้าเมื่อผู้ใช้เลือกปุ่ม Pinterest      | Pinterest                                                             |
+| .pinterest.com              | การจัดเก็บในระบบ            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | พนักงานให้บริการ          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>การยินยอมใช้คุกกี้ของผู้ใช้ไซต์บนไซต์อีคอมเมิร์ซ 
 

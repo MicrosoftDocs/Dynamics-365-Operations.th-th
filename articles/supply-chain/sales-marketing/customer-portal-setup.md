@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840736"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907826"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840736"
 
 เมื่อต้องการใช้งานพอร์ทัลลูกค้า คุณต้องมีสิทธิ์ใช้งานดังต่อไปนี้
 
-- **พอร์ทัล Power Apps** – สิทธิ์การใช้งานนี้จำเป็นต้องใช้เพื่อโฮสต์พอร์ทัลของลูกค้า พอร์ทัลจะได้รับสิทธิ์ใช้งานตามการใช้งาน สำหรับข้อมูลเพิ่มเติม ดูที่ [พอร์ทัล Power Apps ข้อกำหนดสิทธิใช้งาน](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals)
+- **พอร์ทัล Power Apps** – สิทธิ์การใช้งานนี้จำเป็นต้องใช้เพื่อโฮสต์พอร์ทัลของลูกค้า พอร์ทัลจะได้รับสิทธิ์ใช้งานตามการใช้งาน สำหรับข้อมูลเพิ่มเติม ดูที่ [พอร์ทัล Power Apps ข้อกำหนดสิทธิใช้งาน](/power-platform/admin/powerapps-flow-licensing-faq#portals)
 - **การรวมแบบสองทิศทาง** – คุณต้องมีสิทธิ์การใช้งานที่จำเป็นเพื่อเปิดใช้งานการรวมแบบสองทิศทางสำหรับตาราง Supply Chain Management สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>การดำเนินการที่ขึ้นกับการรวมแบบสองทิศทาง และพอร์ทัล Power Apps
@@ -40,7 +40,7 @@ ms.locfileid: "5840736"
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a> การตั้งค่าที่จำเป็นเพื่อเปิดใช้งานพอร์ทัลลูกค้า
 
-หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md)
+หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](/dynamics365/supply-chain/sales-marketing/enable-entity-map)
 
 ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแม็ปตารางต่อไปนี้ในการรวมแบบสองทิศทาง:
 
@@ -74,14 +74,14 @@ ms.locfileid: "5840736"
 
 เมื่อต้องการเรียนรู้ว่าคุณสามารถตั้งค่าและกำหนดค่าพอร์ทัลของลูกค้าเองได้อย่างไร คุณควรเริ่มต้นด้วยการดูเอกสารประกอบต่อไปนี้สำหรับเทคโนโลยีพื้นฐานดังนี้
 
-- [เอกสารพอร์ทัล Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [เอกสารพอร์ทัล Power Apps](/powerapps/maker/portals/overview)
 - [เอกสารการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 ในการจัดการพอร์ทัลของคุณอย่างมีประสิทธิภาพ คุณต้องเข้าใจพอร์ทัล Power Apps และวงจรของ Microsoft Dataverse สำหรับข้อมูลเพิ่มเติม ให้ดูทรัพยากรต่อไปนี้:
 
-- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [อัพเกรดพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](/powerapps/maker/portals/admin/portal-lifecycle)
+- [อัพเกรดพอร์ทัล](/powerapps/maker/portals/admin/upgrade-portal)
+- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: แอป Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

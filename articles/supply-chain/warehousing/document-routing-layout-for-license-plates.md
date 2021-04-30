@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838285"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907998"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
@@ -73,7 +73,7 @@ $FieldName:FormatString$
 - เมื่อต้องการแสดงตัวเลขสี่หลักเสมอ (โดยใช้เลขศูนย์เป็นตัวยึดตำแหน่ง) ให้ใช้ `$Qty:0000$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "0010"
 - เมื่อต้องการแสดงตำแหน่งทศนิยมสองตำแหน่งเสมอ ให้ใช้ `$Qty:0.00$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "10.00"
 
-สำหรับรายการทั้งหมดของสตริงรูปแบบตัวเลขที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบตัวเลขที่กำหนดเอง](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings)
+สำหรับรายการทั้งหมดของสตริงรูปแบบตัวเลขที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบตัวเลขที่กำหนดเอง](/dotnet/standard/base-types/custom-numeric-format-strings)
 
 ## <a name="custom-string-formats"></a>รูปแบบสตริงที่กำหนดเอง
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 ในตัวอย่างนี้ วันที่ 30 เมษายน 2020 จะถูกพิมพ์เป็น "30-04-2020"
 
-สำหรับรายการทั้งหมดของรูปแบบวันที่/เวลาที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบเวลาและวันที่ที่กำหนดเอง](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)
+สำหรับรายการทั้งหมดของรูปแบบวันที่/เวลาที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบเวลาและวันที่ที่กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 ## <a name="print-individual-lines-from-multiline-data"></a>พิมพ์แต่ละบรรทัดจากข้อมูลหลายบรรทัด
 
@@ -109,7 +109,7 @@ $FieldName[#]$
 
 ตัวอย่างเช่น ระบบของคุณมีฟิลด์ `AdditionalAddress` ที่จัดเก็บที่อยู่หลายบรรทัดต่อไปนี้:
 
-Contoso Inc  
+Contoso Inc.  
 ชื่อถนน 123  
 บางเมือง บางรัฐ
 
@@ -117,7 +117,7 @@ Contoso Inc
 
 | รหัส | ข้อความที่พิมพ์ |
 |---|---|
-| `$AdditionalAddress[1]$` | Contoso Inc |
+| `$AdditionalAddress[1]$` | Contoso Inc. |
 | `$AdditionalAddress[2]$` | ชื่อถนน 123 |
 | `$AdditionalAddress[3]$` | บางเมือง บางรัฐ |
 

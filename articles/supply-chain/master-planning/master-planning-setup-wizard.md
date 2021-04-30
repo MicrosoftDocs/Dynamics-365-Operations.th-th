@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829703"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909438"
 ---
 # <a name="master-planning-setup-wizard"></a>วิซาร์ดการตั้งค่าการวางแผนหลัก
 
@@ -45,13 +45,13 @@ ms.locfileid: "5829703"
 
 ถ้าจำนวนของเธรดที่ถูกคำนวณเกิน 75 เปอร์เซ็นต์ของจำนวนเธรดที่พร้อมใช้งาน จะมีการจำกัดไว้ที่ 75 เปอร์เซ็นต์ของจำนวนเธรดที่พร้อมใช้งานสำหรับลูกค้าแต่ละราย (จำนวนของเธรดที่พร้อมใช้งานจะถูกกำหนดให้กับลูกค้าแต่ละราย)
 
-สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของเธรด](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)
+สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของเธรด](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)
 
 ### <a name="bundle-size"></a>ขนาดกลุ่มงาน
 
 ขนาดของกลุ่มจะถูกตั้งค่าเป็น **1** ค่านี้มักจะเป็นค่าที่ดีที่สุด เนื่องจากจะช่วยปรับปรุงประสิทธิภาพการทำงานของการวางแผนหลัก
 
-สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของงานในกลุ่มงานผู้ช่วยเหลือ](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)
+สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของงานในกลุ่มงานผู้ช่วยเหลือ](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)
 
 ### <a name="firming-bundle-size"></a>ขนาดของกลุ่มการยืนยัน
 
@@ -64,7 +64,7 @@ ms.locfileid: "5829703"
 
 ขนาดแคชจะถูกตั้งค่าเป็น **สูงสุด** ค่านี้มักจะเป็นค่าที่ดีที่สุด เนื่องจากจะช่วยปรับปรุงประสิทธิภาพการทำงานของการวางแผนหลัก
 
-สำหรับข้อมูลเพิ่มเติม ดู [ปันส่วนเวลาให้กับงานในกลุ่มงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)
+สำหรับข้อมูลเพิ่มเติม ดู [ปันส่วนเวลาให้กับงานในกลุ่มงาน](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)
 
 ### <a name="manufacturing-setup"></a>การตั้งค่าการผลิต
 
@@ -88,7 +88,7 @@ ms.locfileid: "5829703"
 - **ใช่ ตามที่กำหนดไว้ในแผนหลักนี้** – ตัวเลือก **แผนการคาดการณ์ (กรอบเวลา)** จะถูกตั้งค่าเป็น **ใช่** จำนวนของวันที่คุณป้อนจะถูกใช้ และจะแทนที่ค่าที่ถูกตั้งค่าไว้ในกลุ่มความครอบคลุม
 - **ใช่ ตามที่กำหนดไว้ในกลุ่มความครอบคลุม** – มีการตั้งค่าตัวเลือก **แผนการคาดการณ์ (กรอบเวลา)** เป็น **ไม่**
 
-สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
+สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการงาน](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
 
 ## <a name="scheduling-options"></a>ตัวเลือกการจัดกำหนดการ
 
@@ -99,7 +99,7 @@ ms.locfileid: "5829703"
 - **ใช่** – จะมีการใช้การจัดกำหนดการงาน
 - **ไม่** – จะมีการใช้การจัดกำหนดการการดำเนินงาน
 
-สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการของการดำเนินการ](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) และ [การจัดกำหนดการงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
+สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการของการดำเนินการ](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) และ [การจัดกำหนดการงาน](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
 
 ## <a name="updates-of-demand-and-supply"></a>การปรับปรุงของอุปสงค์และอุปทาน
 
@@ -176,7 +176,7 @@ ms.locfileid: "5829703"
 
     สินค้าทั้งหมดที่ใช้สำหรับการผลิตต้องได้รับการวางแผน เนื่องจากสินค้ามีระยะเวลารอคอยสินค้าที่แตกต่างกันมากๆ การวางแผนหลักจะมีประสิทธิภาพที่ดีขึ้น เมื่อใช้กลุ่มความครอบคลุม อีกครั้ง สามารถป้อนขอบของหนึ่งสัปดาห์ และการกระจายสามารถทำได้ในเวลาเดียวกันกับความคุ้มครอง
 
-### <a name="example-2-contoso-retailer"></a>ตัวอย่างที่ 2: ร้านค้าปลีก Contoso
+### <a name="example-2-contoso-retailer"></a>ตัวอย่างที่ 2: ผู้ค้าปลีก Contoso
 
 ผู้ค้าปลีก Contoso เป็นบริษัทผู้จัดจำหน่ายในอุตสาหกรรมแฟชั่น จะใช้การวางแผนหลักในการคำนวณ เมื่อควรวางใบสั่งซื้อตามการขายที่คาดการณ์ไว้ นี่คือบางส่วนของลักษณะ:
 
@@ -198,7 +198,7 @@ ms.locfileid: "5829703"
     - **คำถาม:** "คุณต้องการการวางแผนหลักเพื่อยืนยันแผนการใบสั่งในเอกสารใบสั่งโดยอัตโนมัติ เช่น การผลิต หรือใบสั่งซื้อ หรือไม่"
     - **คำตอบ:** "ใช่ ตามที่กำหนดไว้ในแผนหลักนี้" **1 วัน** ถูกป้อน
 
-    เนื่องจากร้านค้าปลีก Contoso จะสร้างใบสั่งซื้อโดยตรงจากแผนการใบสั่งซื้อ จะมีประโยชน์ถ้าแผนการใบสั่งซื้อได้รับการยืนยันโดยอัตโนมัติ เนื่องจากบริษัทรันการวางแผนหลักทุกวัน กรอบเวลาการยืนยันของวันหนึ่งวันจะยืนยันใบสั่งทั้งหมดที่จำเป็นสำหรับวันถัดไปโดยอัตโนมัติ
+    เนื่องจากผู้ค้าปลีก Contoso จะสร้างใบสั่งซื้อโดยตรงจากแผนการใบสั่งซื้อ จะมีประโยชน์ถ้าแผนการใบสั่งซื้อได้รับการยืนยันโดยอัตโนมัติ เนื่องจากบริษัทรันการวางแผนหลักทุกวัน กรอบเวลาการยืนยันของวันหนึ่งวันจะยืนยันใบสั่งทั้งหมดที่จำเป็นสำหรับวันถัดไปโดยอัตโนมัติ
 
 - **ใบขอซื้อที่อนุมัติ:**
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810209"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897635"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>สิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
 
@@ -62,9 +62,8 @@ ms.locfileid: "5810209"
 
 คุณสามารถใช้แท็บด่วน **ผู้ใช้** ในโปรแกรมออกแบบลำดับชั้นเพื่อแทรกรหัสผู้ใช้หนึ่งรหัสหรือมากกว่าในแต่ละโหนด
 
-|                                   | ผู้ใช้            | ช่วงสมาชิกมิติ   |                         |
+|             โหนด                 | ผู้ใช้            | สมาชิกมิติเริ่มต้น     |   สมาชิกมิติปลายทาง   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **โหนด**                         | **รหัสผู้ใช้**      | **สมาชิกมิติเริ่มต้น** | **สมาชิกมิติสิ้นสุด** |
 | องค์กร                      | เบนจามิน แคลร์ |                           |                         |
 | &nbsp;&nbsp;ผู้ดูแลระบบ                 | เมษายน            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;การเงิน   | อลิเซีย           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ ms.locfileid: "5810209"
     - การจัดรูปแบบการแสดง Power BI ของข้อมูลที่ถูกฝังในไคลเอ็นต์ Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**
 
 ทรัพยากรเพิ่มเติม
 
 - [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
 - [ลำดับชั้นของมิติ](dimension-hierarchy.md)
-- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

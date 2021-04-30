@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753371"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893967"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753371"
 
 [การจัดเก็บ](general-electronic-reporting.md#Repository) การรายงานทางอิเล็กทรอนิกส์ (ER) ที่ใช้ในการแชร์ [การตั้งค่าคอนฟิก ER](general-electronic-reporting.md#Configuration) คุณสามารถ [นำเข้า](download-electronic-reporting-configuration-lcs.md) การตั้งค่าคอนฟิก ER จากคลังที่แตกต่างกันเข้ากับอินสแตนซ์ของ Microsoft Dynamics 365 Finance เมื่อคุณนำเข้าการตั้งค่าคอนฟิก ER [ผู้ให้บริการการตั้งค่าคอนฟิก](general-electronic-reporting.md#Provider) สามารถเผยแพร่การจัดเก็บ [รุ่น](general-electronic-reporting.md#component-versioning) ใหม่เพื่อให้สามารถใช้ร่วมกันได้
 
-หัวข้อนี้จะอธิบายถึงวิธีการนำเข้ารุ่นที่อัปเดตของการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
+หัวข้อนี้จะอธิบายถึงวิธีการนำเข้ารุ่นที่อัปเดตของการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
 
 ## <a name="review-the-available-updated-versions"></a>ตรวจทานเวอร์ชันที่อัปเดตที่พร้อมใช้งาน
 

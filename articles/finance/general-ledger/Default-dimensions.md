@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823871"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897319"
 ---
 # <a name="financial-dimensions-and-posting"></a>มิติทางการเงินและการลงรายการบัญชี 
 
@@ -83,17 +83,17 @@ ms.locfileid: "5823871"
 
 อย่างไรก็ตาม เมื่อรายการถูกลงรายการบัญชี มิติถาวรถูกนำไปใช้ และรายการถูกลงรายการบัญชีไปที่แผนก 022 แผนภาพต่อไปนี้แสดงใบสำคัญที่ลงรายการบัญชี ที่มีการใช้มิติถาวรสำหรับบัญชีการขาย
 
-[![ธุรกรรมใบสำคัญ](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![ใช้ธุรกรรมใบสำคัญที่มีมิติคงที่](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>ตัวอย่างที่ 2
 
 ตัวอย่างนี้ใช้การตั้งค่าเดียวกันเป็นตัวอย่างแรก อย่างไรก็ตาม เราจะเพิ่มส่วนประกอบที่สอง และใช้มิติแผนกเป็นมิติยอดดุล ในแผนภาพต่อไปนี้ **แผนก** ถูกตั้งค่าเป็นมิติทางการเงินยอดดุลสำหรับบัญชีแยกประเภท USMF
 
-[![บัญชีแยกประเภท](./media/ledger.png)](./media/ledger.png)
+[![ภาพประกอบที่แสดงการแบ่งเป็นมิติทางการเงินของยอดดุล](./media/ledger.png)](./media/ledger.png)
 
 เมื่อมีการใช้การตั้งค่าส่วนหัวสมุดรายวันเดียวกัน และมีการลงรายบัญชีธุรกรรมเดียวกัน มิติถาวรจะถูกนำไปใช้ก่อน จากนั้นตรรกะยอดดุลจะถูกนำไปใช้เพื่อช่วยรับประกันว่าทุกแผนกมีรายการแบบสมดุล แผนภาพต่อไปนี้แสดงธุรกรรมใบสำคัญที่มีรายการยอดดุลหลังจากที่มีการใช้มิติถาวร
 
-[![ธุรกรรมใบสำคัญ](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![ธุรกรรมใบสำคัญหลังจากใช้รายการสร้างสมดุล](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>ตัวอย่างที่ 3
 
@@ -119,11 +119,11 @@ ms.locfileid: "5823871"
 
 [วางแผนชื่อผังบัญชีของคุณ](plan-chart-of-accounts.md) 
 
-[บล็อกการวางแผนแผนภูมิของบัญชีของคุณใน AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – ลิงค์นี้ไปยังส่วนที่ 1 ของชุดข้อมูลเจ็ดส่วน
+[บล็อกการวางแผนแผนภูมิของบัญชีของคุณใน AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – ลิงค์นี้ไปยังส่วนที่ 1 ของชุดข้อมูลเจ็ดส่วน
 
-[มิติที่กำหนดค่าเริ่มต้นในการกระจายการลงบัญชี](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[มิติที่กำหนดค่าเริ่มต้นในการกระจายการลงบัญชี](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[มิติที่กำหนดค่าเริ่มต้นในกรอบงานมิติ](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[มิติที่กำหนดค่าเริ่มต้นในกรอบงานมิติ](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

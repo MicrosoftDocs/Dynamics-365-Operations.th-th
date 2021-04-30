@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793836"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889847"
 ---
 # <a name="manage-features-in-human-resources"></a>จัดการคุณลักษณะใน Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793836"
 
 เนื่องจากเป็นส่วนหนึ่งของการเปิดตัวความสามารถใหม่สำหรับ Microsoft Dynamics 365 Human Resources เราต้องการให้ลูกค้าพบกับคุณลักษณะใหม่โดยเร็วที่สุด เรามีคุณลักษณะตัวอย่างซึ่งเกือบพร้อมสำหรับการใช้งานทั่วไปแล้ว และได้ผ่านการทดสอบอย่างครอบคลุมแล้ว เรากำลังมองหาความคิดเห็นและการตรวจสอบความถูกต้องของลูกค้าในขั้นตอนสุดท้าย ก่อนที่เราจะนำคุณลักษณะเหล่านี้ออกไปใช้งานสำหรับความพร้อมใช้งานทั่วไป
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่ในทรัพยากรบุคคล ดูที่ [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md) และ [Dynamics 365 and Power Platform แผนการวางจำหน่าย](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่ในทรัพยากรบุคคล ดูที่ [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md) และ [Dynamics 365 and Power Platform แผนการวางจำหน่าย](/dynamics365/release-plans/?panel=products1#pivot=products)
 
-พื้นที่ **การจัดการลักษณะการทำงาน** แสดงรายการของลักษณะการทำงานที่จัดส่งในแต่ละรุ่น ตามค่าเริ่มต้น คุณลักษณะใหม่จะถูกปิด คุณสามารถใช้พื้นที่ทำงานเพื่อเปิดและดูเอกสารประกอบได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)
+พื้นที่ **การจัดการลักษณะการทำงาน** แสดงรายการของลักษณะการทำงานที่จัดส่งในแต่ละรุ่น ตามค่าเริ่มต้น คุณลักษณะใหม่จะถูกปิด คุณสามารถใช้พื้นที่ทำงานเพื่อเปิดและดูเอกสารประกอบได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ลักษณะการทำงานใหม่ทั้งหมดยังคงอยู่ในการแสดงตัวอย่างอย่างน้อย 30 วัน และโดยปกติจะคงอยู่ 30-60 วัน ลักษณะการทำงานที่สำคัญโดยทั่วไปจะมีอยู่ในเดือนตุลาคมและเดือนเมษายนของแต่ละปีตามรอบระยะเวลาการแสดงตัวอย่าง ทันทีที่คุณเห็นความสามารถใหม่ในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** คุณสามารถเปิดใช้งานได้ ลักษณะการทำงานบางอย่างอาจเปิดใช้งานตามค่าเริ่มต้น
 
@@ -93,6 +93,6 @@ ms.locfileid: "5793836"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md)
-- [แผนการเผยแพร่ Dynamics 365 และ Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [แผนการเผยแพร่ Dynamics 365 และ Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

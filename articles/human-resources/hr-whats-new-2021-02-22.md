@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802226"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892620"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 22 กุมภาพันธ์ 2021
 
@@ -32,7 +32,7 @@ ms.locfileid: "5802226"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
 
 ## <a name="in-this-release"></a>ในการเผยแพร่นี้
 
@@ -44,7 +44,7 @@ ms.locfileid: "5802226"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| แอป Dynamics 365 Human Resources สำหรับ Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
+| แอป Dynamics 365 Human Resources สำหรับ Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -68,9 +68,9 @@ ms.locfileid: "5802226"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| มุมมองข้ามบริษัทของการลางานสำหรับผู้จัดการ | [มุมมองข้ามบริษัทของการลางานของพนักงานสำหรับผู้จัดการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
-| จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ | [การจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [การจํากัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)|
+| มุมมองข้ามบริษัทของการลางานสำหรับผู้จัดการ | [มุมมองข้ามบริษัทของการลางานของพนักงานสำหรับผู้จัดการ](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](./hr-leave-and-absence-parameters.md) |
+| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
+| จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ | [การจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อทางธุรกิจ](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [การจํากัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -78,15 +78,15 @@ ms.locfileid: "5802226"
 | --- | --- |
 | ทักษะที่ป้อนโดยผู้จัดการของพนักงานสามารถอนุมัติโดยอัตโนมัติโดยลำดับงานได้ | เร็วๆ นี้ |
 
-สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>การอัปเดตศัพท์ Microsoft Dataverse
 
-มีผลบังคับใช้ พฤศจิกายน 2020 Common Data Service เปลี่ยนชื่อเป็น [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) ดู [ประกาศอย่างเป็นทางการ](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) ของบล็อก Power Apps ในการเรียนรู้เพิ่มเติม พร้อมกับการเปลี่ยนแปลงชื่อนี้ มีการอัปเดตศัพท์ใน Dataverse บางอย่างแล้ว ตัวอย่างเช่น *เอนทิตี้* ตอนนี้เป็น *ตาราง* และ *ฟิลด์* ตอนนี้เป็น *คอลัมน์* สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การอัปเดตคำศัพท์](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+มีผลบังคับใช้ พฤศจิกายน 2020 Common Data Service เปลี่ยนชื่อเป็น [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro) ดู [ประกาศอย่างเป็นทางการ](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) ของบล็อก Power Apps ในการเรียนรู้เพิ่มเติม พร้อมกับการเปลี่ยนแปลงชื่อนี้ มีการอัปเดตศัพท์ใน Dataverse บางอย่างแล้ว ตัวอย่างเช่น *เอนทิตี้* ตอนนี้เป็น *ตาราง* และ *ฟิลด์* ตอนนี้เป็น *คอลัมน์* สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การอัปเดตคำศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 ในการเผยแพร่นี้ ศัพท์ที่เกี่ยวข้องกับการรวม Dynamics 365 Human Resources ได้ถูก Dataverse อัปเดตตลอดทั้งแอปพลิเคชันเพื่อสะท้อนถึงการเปลี่ยนแปลงเหล่านี้ ตัวอย่างเช่น ขณะนี้ฟอร์ม **การรวม Common Data Service** เป็น **การรวม Microsoft Dataverse**
 
-หากต้องการทราบเกี่ยวกับการรวม Dynamics 365 Human Resources ให้ดูที่ Microsoft Dataverse [การตั้งค่าคอนฟิกการรวม Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) และ [การตั้งค่าคอนฟิกตารางเสมือน Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
+หากต้องการทราบเกี่ยวกับการรวม Dynamics 365 Human Resources ให้ดูที่ Microsoft Dataverse [การตั้งค่าคอนฟิกการรวม Microsoft Dataverse](./hr-admin-integration-common-data-service.md) และ [การตั้งค่าคอนฟิกตารางเสมือน Microsoft Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)
 
 ## <a name="updates-to-service-deployment"></a>อัปเดตเป็นการปรับใช้บริการ
 
@@ -94,12 +94,12 @@ ms.locfileid: "5802226"
 
 เราจะติดตามระยะความถี่ของการปรับใช้ในสองสัปดาห์ต่อไป อย่างไรก็ตาม ลูกค้าอาจสังเกตเห็นว่าการอัปเดตมักใช้กับสภาพแวดล้อมทรัพยากรบุคคลของพวกเขาในวันต่างกันของวงจรสองสัปดาห์มากกว่าในรุ่นก่อนหน้า
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตบริการ ให้ดูที่ [กระบวนการอัปเดต](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตบริการ ให้ดูที่ [กระบวนการอัปเดต](./hr-admin-setup-update-process.md)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

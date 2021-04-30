@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751327"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893615"
 ---
 # <a name="electronic-reporting-er-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -57,7 +57,7 @@ ms.locfileid: "5751327"
 
 ในกล่องโต้ตอบ **รายงานอินทราสแทต** บนแท็บด่วน **รันในแบบเบื้องหลัง** ถ้าคุณตั้งค่าตัวเลือก **การประมวลผลชุดงาน** เป็น **ไม่ใช่** รูปแบบ ER จะรันทันทีในโหมดโต้ตอบ เมื่อการดําเนินการนี้เสร็จสมบูรณ์ เอกสารขาออกที่สร้างขึ้นจะพร้อมสำหรับการดาวน์โหลด
 
-ถ้าคุณตั้งค่าตัวเลือก **การประมวลผลชุดงาน** เป็น **ใช่** รูปแบบ ER จะรันในโหมด [ชุดงาน](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) ชุดงานที่เหมาะสมจะถูกสร้างขึ้น ตามพารามิเตอร์ที่คุณระบุบนแท็บ **รันในแบบเบื้องหลัง** ของกล่องโต้ตอบ **พารามิเตอร์ ER**
+ถ้าคุณตั้งค่าตัวเลือก **การประมวลผลชุดงาน** เป็น **ใช่** รูปแบบ ER จะรันในโหมด [ชุดงาน](../sysadmin/batch-processing-overview.md) ชุดงานที่เหมาะสมจะถูกสร้างขึ้น ตามพารามิเตอร์ที่คุณระบุบนแท็บ **รันในแบบเบื้องหลัง** ของกล่องโต้ตอบ **พารามิเตอร์ ER**
 
 > [!NOTE]
 > คําอธิบายงานแจ้งให้คุณทราบเกี่ยวกับการรันการแม็ปรูปแบบ ER นอกจากนี้ ยังประกอบด้วยชื่อของส่วนประกอบ ER ที่ถูกรัน
@@ -70,7 +70,7 @@ ms.locfileid: "5751327"
 - ไปที่ **การจัดการองค์กร** \> **การรายงานทางอิเล็กทรอนิกส์** \> **งานการรายงานทางอิเล็กทรอนิกส์** เพื่อตรวจสอบสถานะของงานที่จัดกําหนดการไว้ และผลลัพธ์การดําเนินการของงานที่เสร็จสมบูรณ์แล้ว เมื่อการดําเนินการงานเสร็จสมบูรณ์ ให้เลือก **แสดงไฟล์** บนหน้า **งานการรายงานทางอิเล็กทรอนิกส์** เพื่อขอรับเอกสารขาออกที่สร้างขึ้น
 
     > [!NOTE]
-    > เอกสารนี้จะถูกจัดเก็บเป็นสิ่งที่แนบของเรกคอร์ดงานปัจจุบัน และถูกควบคุมโดยกรอบงาน [การจัดการเอกสาร](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) [ชนิดเอกสาร](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) ที่ใช้เพื่อจัดเก็บสิ่งประดิษฐ์ ER ชนิดนี้มีการตั้งค่าคอนฟิกใน [พารามิเตอร์ ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)
+    > เอกสารนี้จะถูกจัดเก็บเป็นสิ่งที่แนบของเรกคอร์ดงานปัจจุบัน และถูกควบคุมโดยกรอบงาน [การจัดการเอกสาร](../../fin-ops/organization-administration/configure-document-management.md) [ชนิดเอกสาร](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) ที่ใช้เพื่อจัดเก็บสิ่งประดิษฐ์ ER ชนิดนี้มีการตั้งค่าคอนฟิกใน [พารามิเตอร์ ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)
 
 - บนหน้า **งานการรายงานทางอิเล็กทรอนิกส์** ให้เลือก **แสดงไฟล์** เพื่อดูรายการของข้อผิดพลาดและคําเตือนใดๆ ที่สร้างขึ้นในระหว่างการดําเนินการงาน
 

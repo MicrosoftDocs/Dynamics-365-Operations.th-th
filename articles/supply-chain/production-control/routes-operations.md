@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819291"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908939"
 ---
 # <a name="routes-and-operations"></a>กระบวนการผลิตและการดำเนินงาน
 
@@ -79,7 +79,7 @@ ms.locfileid: "5819291"
 
 กระบวนการผลิตแต่ละรายการอาจได้รับการอนุมัติหรือไม่อนุมัติแยกกัน อย่างไรก็ตาม โปรดสังเกตว่าเมื่อกระบวนการผลิตยังไม่ได้รับการอนุมัติ เวอร์ชันของกระบวนการผลิตที่เกี่ยวข้องทั้งหมดจะยังไม่ได้รับการอนุมัติ ในพารามิเตอร์การควบคุมการผลิต คุณสามารถระบุว่าจะไม่อนุมัติกระบวนการผลิต หรือจะเปลี่ยนแปลงกระบวนการผลิตที่อนุมัติแล้วได้  
 
-ถ้าคุณต้องเก็บล็อกที่บันทึกผู้ที่อนุมัติแต่ละกระบวนการผลิต คุณสามารถกำหนดให้มีลายเซ็นอิเล็กทรอนิกส์สำหรับการอนุมัติกระบวนการผลิต ผู้ใช้จะต้องยืนยันข้อมูลประจำตัวของตนโดยใช้ [ลายเซ็นอิเล็กทรอนิกส์](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+ถ้าคุณต้องเก็บล็อกที่บันทึกผู้ที่อนุมัติแต่ละกระบวนการผลิต คุณสามารถกำหนดให้มีลายเซ็นอิเล็กทรอนิกส์สำหรับการอนุมัติกระบวนการผลิต ผู้ใช้จะต้องยืนยันข้อมูลประจำตัวของตนโดยใช้ [ลายเซ็นอิเล็กทรอนิกส์](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 ## <a name="operations"></a>Operations
 การดำเนินงานคือขั้นตอนในกระบวนการผลิต แต่ละการดำเนินงานจะมีรหัสและคำอธิบายอย่างง่าย ตารางต่อไปนี้แสดงตัวอย่างทั่วไปของการดำเนินงานจากร้านค้าเครื่องจักร
@@ -185,7 +185,7 @@ ms.locfileid: "5819291"
 
 ### <a name="electronic-signatures"></a>ลายเซ็นอิเล็กทรอนิกส์
 
-ถ้าคุณต้องเก็บล็อกที่บันทึกผู้ที่อนุมัติและเรียกใช้แต่ละเวอร์ชันกระบวนการผลิต คุณสามารถกำหนดให้มีลายเซ็นอิเล็กทรอนิกส์สำหรับงานเหล่านี้ จากนั้นผู้ใช้ที่อนุมัติและเรียกใช้เวอร์ชันกระบวนการผลิตจะต้องยืนยันข้อมูลเฉพาะตัวของตนเองโดยการใช้ [ลายเซ็นอิเล็กทรอนิกส์](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+ถ้าคุณต้องเก็บล็อกที่บันทึกผู้ที่อนุมัติและเรียกใช้แต่ละเวอร์ชันกระบวนการผลิต คุณสามารถกำหนดให้มีลายเซ็นอิเล็กทรอนิกส์สำหรับงานเหล่านี้ จากนั้นผู้ใช้ที่อนุมัติและเรียกใช้เวอร์ชันกระบวนการผลิตจะต้องยืนยันข้อมูลเฉพาะตัวของตนเองโดยการใช้ [ลายเซ็นอิเล็กทรอนิกส์](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 ### <a name="product-change-that-uses-case-management"></a>การเปลี่ยนแปลงของผลิตภัณฑ์ที่ใช้การจัดการกรณี
 
@@ -253,7 +253,7 @@ ms.locfileid: "5819291"
 
 - [ความสามารถของทรัพยากร](resource-capabilities.md)
 
-- [ภาพรวมของลายเซ็นอิเล็กทรอนิกส์](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [ภาพรวมของลายเซ็นอิเล็กทรอนิกส์](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

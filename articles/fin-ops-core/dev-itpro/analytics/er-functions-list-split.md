@@ -2,7 +2,7 @@
 title: ฟังก์ชัน ER SPLIT
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) SPLIT
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745604"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853454"
 ---
 # <a name="split-er-function"></a>ฟังก์ชัน ER SPLIT
 
@@ -80,7 +80,15 @@ SPLIT (input, delimiter)
 
 `SPLIT ("XAb aBy", "aB")` ส่งคืนรายการใหม่ที่ประกอบด้วยสามเรกคอร์ดที่มีฟิลด์ **ค่า** ของชนิด *สตริง* ฟิลด์ **ค่า** ในเรกคอร์ดแรกประกอบด้วยข้อความ **"X"** ฟิลด์ **ค่า** ในเรกคอร์ดที่สองประกอบด้วยข้อความ **"&nbsp;"** และฟิลด์ **ค่า** ในเรกคอร์ดที่สามประกอบด้วยข้อความ **"y"** 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="example-3"></a>ตัวอย่างที่ 3
+
+คุณสามารถใช้ฟังก์ชัน [INDEX](er-functions-list-index.md) เพื่อเข้าถึงแต่ละองค์ประกอบของสตริงอินพุทที่ระบุ ถ้าคุณป้อนแหล่งข้อมูล **MyList** ของชนิด **ฟิลด์ที่มีการคำนวณ** และกำหนดด้วยนิพจน์ `SPLIT("abc", 1)` นิพจน์ `INDEX(MyList,2).Value` จะส่งกลับค่าข้อความ **"b"**
+
+## <a name="example-4"></a>ตัวอย่างที่ 4
+
+ฟังก์ชัน [ENUMERATE](er-functions-list-enumerate.md) สามารถช่วยคุณเข้าถึงแต่ละองค์ประกอบของสตริงอินพุทที่ระบุ ถ้าคุณป้อนแหล่งข้อมูล **MyList** ของชนิด **ฟิลด์ที่มีการคำนวณ** และกำหนดด้วยนิพจน์ `SPLIT("abc", 1)` แล้วป้อนแหล่งข้อมูล **EnumeratedList** ของชนิด **ฟิลด์ที่มีการคำนวณ** และกำหนดด้วยนิพจน์ `ENUMERATE(MyList)` นิพจน์ `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` จะส่งคืนข้อความ **"b"**
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันรายการ](er-functions-category-list.md)
 

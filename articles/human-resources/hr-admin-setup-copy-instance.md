@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801106"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889823"
 ---
 # <a name="copy-an-instance"></a>คัดลอกอินสแตนซ์
 
@@ -39,7 +39,7 @@ ms.locfileid: "5801106"
 
 - คุณต้องเป็นผู้ดูแลระบบในสภาพแวดล้อมเป้าหมายเพื่อให้คุณสามารถลงชื่อเข้าใช้สู่ระบบได้หลังจากการคัดลอกอินสแตนซ์แล้ว
 
-- เมื่อคุณคัดลอกฐานข้อมูลทรัพยากรบุคคล คุณจะไม่คัดลอกองค์ประกอบ (แอปหรือข้อมูล) ที่มีอยู่ในสภาพแวดล้อม Microsoft Power Apps สำหรับข้อมูลเกี่ยวกับการคัดลอกองค์ประกอบในสภาพแวดล้อม Power Apps ให้ดูที่ [คัดลอกสภาพแวดล้อม](https://docs.microsoft.com/power-platform/admin/copy-environment) สภาพแวดล้อม Power Apps ที่คุณต้องการเขียนทับต้องเป็นสภาพแวดล้อม Sandbox คุณต้องเป็นผู้ดูแลระบบผู้เช่าทั่วโลกเพื่อเปลี่ยนสภาพแวดล้อมการใช้จริง Power Apps ไปยังสภาพแวดล้อม Sandbox สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปลี่ยนสภาพแวดล้อม ให้ดู Power Apps [สลับอินสแตนซ์](https://docs.microsoft.com/dynamics365/admin/switch-instance)
+- เมื่อคุณคัดลอกฐานข้อมูลทรัพยากรบุคคล คุณจะไม่คัดลอกองค์ประกอบ (แอปหรือข้อมูล) ที่มีอยู่ในสภาพแวดล้อม Microsoft Power Apps สำหรับข้อมูลเกี่ยวกับการคัดลอกองค์ประกอบในสภาพแวดล้อม Power Apps ให้ดูที่ [คัดลอกสภาพแวดล้อม](/power-platform/admin/copy-environment) สภาพแวดล้อม Power Apps ที่คุณต้องการเขียนทับต้องเป็นสภาพแวดล้อม Sandbox คุณต้องเป็นผู้ดูแลระบบผู้เช่าทั่วโลกเพื่อเปลี่ยนสภาพแวดล้อมการใช้จริง Power Apps ไปยังสภาพแวดล้อม Sandbox สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปลี่ยนสภาพแวดล้อม ให้ดู Power Apps [สลับอินสแตนซ์](/dynamics365/admin/switch-instance)
 
 - ถ้าคุณคัดลอกอินสแตนซ์ไปยังสภาพแวดล้อม Sandbox และต้องการรวมสภาพแวดล้อม Sandbox กับ Dataverseคุณต้องนำฟิลด์ที่กำหนดเองไปใช้กับตาราง Dataverse ใหม่อีกครั้ง ดูที่ [ใช้ฟิลด์ที่กำหนดเองกับ Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)
 
@@ -80,7 +80,7 @@ ms.locfileid: "5801106"
 
 6. เลือกอินสแตนซ์ Power Apps ที่จะคัดลอก แล้วเลือก **คัดลอก**
 
-7. เมื่อกระบวนการคัดลอกเสร็จสมบูรณ์ ให้ลงชื่อเข้าใช้ไปยังอินสแตนซ์เป้าหมาย และเปิดใช้งานการรวม Dataverse สำหรับข้อมูลและคำแนะนำเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกการรวม Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)
+7. เมื่อกระบวนการคัดลอกเสร็จสมบูรณ์ ให้ลงชื่อเข้าใช้ไปยังอินสแตนซ์เป้าหมาย และเปิดใช้งานการรวม Dataverse สำหรับข้อมูลและคำแนะนำเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกการรวม Dataverse](./hr-admin-integration-common-data-service.md)
 
 ## <a name="data-elements-and-statuses"></a>องค์ประกอบและสถานะของข้อมูล
 
@@ -142,7 +142,7 @@ ms.locfileid: "5801106"
 
 กระบวนการยกเลิกการเลือก การใช้การเปลี่ยนแปลง การเลือกใหม่ และการใช้การเปลี่ยนแปลงอีกครั้งจะพร้อมท์ Schema เพื่ออัพเดตใน Dataverse ให้รวมฟิลด์ที่กำหนดเอง
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่กำหนดเอง ให้ดูที่ [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่กำหนดเอง ให้ดูที่ [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](../fin-ops-core/fin-ops/get-started/user-defined-fields.md)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

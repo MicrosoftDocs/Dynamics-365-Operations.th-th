@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753323"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893919"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -159,7 +159,7 @@ ms.locfileid: "5753323"
 
 ภายใต้ส่วนประกอบ **ส่วนท้าย** ที่เพิ่มเข้ามา ให้เพิ่มส่วนประกอบที่ซ้อนกันที่จำเป็นของ **ข้อความ\\สตริง**, **ข้อความ\\DateTime** หรือประเภทอื่น กำหนดค่าคอนฟิกการผูกข้อมูลสำหรับส่วนประกอบเหล่านั้นเพื่อระบุวิธีการเติมส่วนท้ายของหน้าของคุณ
 
-คุณยังสามารถใช้ [รหัสการจัดรูปแบบ](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) พิเศษ เพื่อจัดรูปแบบเนื้อหาของส่วนท้ายที่สร้างขึ้นอย่างถูกต้อง หากต้องการทราบวิธีการใช้วิธีการนี้ ให้ปฏิบัติตามขั้นตอนใน [ตัวอย่างที่ 1 ](#example-1) ในภายหลังในหัวข้อนี้
+คุณยังสามารถใช้ [รหัสการจัดรูปแบบ](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) พิเศษ เพื่อจัดรูปแบบเนื้อหาของส่วนท้ายที่สร้างขึ้นอย่างถูกต้อง หากต้องการทราบวิธีการใช้วิธีการนี้ ให้ปฏิบัติตามขั้นตอนใน [ตัวอย่างที่ 1 ](#example-1) ในภายหลังในหัวข้อนี้
 
 > [!NOTE]
 > เมื่อคุณกำหนดค่าคอนฟิกรูปแบบ ER ต้องแน่ใจว่าได้พิจารณา [ขีดจํากัด](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ของ Excel และจํานวนอักขระสูงสุดในส่วนหัวหรือส่วนท้ายเดียว

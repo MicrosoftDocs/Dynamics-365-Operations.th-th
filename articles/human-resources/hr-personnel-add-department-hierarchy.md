@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794480"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891089"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>สร้างแผนก และรวมในลำดับชั้นของแผนก
 
@@ -53,7 +53,7 @@ ms.locfileid: "5794480"
 6.  เมื่อคุณพร้อม คลิก **เผยแพร่** ในโปรแกรมออกแบบลำดับชั้น คุณสามารถป้อนวันที่มีผลบังคับใช้ที่บ่งชี้ว่าลำดับชั้นควรถูกเผยแพร่เมื่อใด ตัวอย่างเช่น การเพิ่มแผนกใหม่ที่จุดเริ่มต้นของปีปฏิทินถัดไป ตั้งค่าวันที่มีผลบังคับใช้เป็นวันที่ 1 มกราคมของปีปฏิทินใหม่ การเปลี่ยนแปลงลำดับชั้นจะมีผลในวันที่ดังกล่าว
 
 ## <a name="steps-for-creating-a-department"></a>ขั้นตอนสำหรับการสร้างแผนก
-อ้างอิงถึงบทความ [กำหนดแผนกใหม่](../fin-and-ops/hr/tasks/define-new-departments.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างแผนกใหม่ 
+อ้างอิงถึงบทความ [กำหนดแผนกใหม่](./hr-personnel-define-departments.md) สำหรับกระบวนงานแบบเป็นขั้นตอนสำหรับการสร้างแผนกใหม่ 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

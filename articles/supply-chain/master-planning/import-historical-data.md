@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816495"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908891"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
@@ -41,7 +41,7 @@ ms.locfileid: "5816495"
 
 ## <a name="example"></a>ตัวอย่าง
 
-คุณสามารถใช้ไฟล์ต่อไปนี้เป็นตัวอย่างได้ ดาวน์โหลด [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/) ไฟล์นี้ประกอบด้วยข้อมูลความต้องการในอดีตสำหรับสินค้า D0001 ซึ่งประกอบด้วยฟิลด์บังคับต่อไปนี้เท่านั้น: ไซต์ ปริมาณ และวันที่ของความต้องการ
+คุณสามารถใช้ไฟล์ต่อไปนี้เป็นตัวอย่างได้ ดาวน์โหลด [HistoricalDemandData](/dynamics/s-e/) ไฟล์นี้ประกอบด้วยข้อมูลความต้องการในอดีตสำหรับสินค้า D0001 ซึ่งประกอบด้วยฟิลด์บังคับต่อไปนี้เท่านั้น: ไซต์ ปริมาณ และวันที่ของความต้องการ
 
 1. เลือกบริษัทที่จะนำเข้าข้อมูลความต้องการในอดีต
 2. เปิดพื้นที่ทำงาน **การจัดการข้อมูล**
