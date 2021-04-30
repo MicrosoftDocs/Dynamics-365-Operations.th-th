@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755069"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891706"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ใช้การตั้งค่าคอนฟิก ER กับเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -90,7 +90,7 @@ ms.locfileid: "5755069"
 
 ตอนนี้คุณสามารถแม็ปองค์ประกอบของส่วน XML **รายงาน** แบบกำหนดเองให้กับตัวควบคุมเนื้อหาของเอกสาร Word
 
-ถ้าคุณคุ้นเคยกับกระบวนการของการออกแบบเอกสาร Word ที่เป็นแบบฟอร์มที่มี [ตัวควบคุมเนื้อหา](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) ซึ่งถูกแม็บกับองค์ประกอบของ [ส่วน XML แบบกำหนดเอง](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ดำเนินการขั้นตอนทั้งหมดในกระบวนงานถัดไปให้เสร็จสิ้น เพื่อสร้างเอกสาร สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างฟอร์มที่ผู้ใช้ดำเนินการให้เสร็จสิ้นหรือพิมพ์ใน Words](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b) มิฉะนั้น ข้ามกระบวนงานถัดไป
+ถ้าคุณคุ้นเคยกับกระบวนการของการออกแบบเอกสาร Word ที่เป็นแบบฟอร์มที่มี [ตัวควบคุมเนื้อหา](/office/client-developer/word/content-controls-in-word) ซึ่งถูกแม็บกับองค์ประกอบของ [ส่วน XML แบบกำหนดเอง](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ดำเนินการขั้นตอนทั้งหมดในกระบวนงานถัดไปให้เสร็จสิ้น เพื่อสร้างเอกสาร สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างฟอร์มที่ผู้ใช้ดำเนินการให้เสร็จสิ้นหรือพิมพ์ใน Words](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b) มิฉะนั้น ข้ามกระบวนงานถัดไป
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>รับเอกสาร Word ที่มีส่วน XML แบบกำหนดเอง และแม็ปข้อมูล
 

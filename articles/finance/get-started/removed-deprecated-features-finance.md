@@ -2,7 +2,7 @@
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836924"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898298"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ ms.locfileid: "5836924"
 รายการนี้มีไว้เพื่อช่วยคุณพิจารณาการลบออกและการยกเลิกการใช้งานเหล่านี้สำหรับการวางแผนของคุณเอง 
 
 > [!NOTE]
-> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.20
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>การตั้งค่าคอนฟิกรูปแบบคำขอข้อมูลใบแจ้งหนี้การสอบถาม RTIR (HU)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แยกออกจากการประมวลผลการส่งข้อความอิเล็กทรอนิกส์ของการดำเนินการระหว่างบริษัทกับระบบใบแจ้งหนี้ออนไลน์ของฮังการี |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ไม่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | ไม่สนับสนุน: โดยวันที่ 15 เมษายน 2022 เราวางแผนที่จะไม่สนับสนุนการตั้งค่าคอนฟิกรูปแบบ "คำขอข้อมูลใบแจ้งหนี้การสอบถาม RTIR (HU)" อีกต่อไป |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.17
 

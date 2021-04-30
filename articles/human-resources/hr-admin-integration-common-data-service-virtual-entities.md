@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805117"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890063"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 เมื่อต้องการเปิดใช้งานการดำเนินงาน CRUD บนเอนทิตีทรัพยากรบุคคลจาก Dataverse คุณต้องทำให้เอนทิตีพร้อมใช้งานเป็นตารางเสมือนใน Dataverse ซึ่งช่วยให้คุณสามารถทำการดำเนินงาน CRUD จาก Dataverse และ Microsoft Power Platform บนข้อมูลที่อยู่ในทรัพยากรบุคคล การดำเนินงานยังสนับสนุนการตรวจสอบตรรกะทางธุรกิจทั้งหมดของทรัพยากรบุคคล เพื่อให้มั่นใจในความสมบูรณ์ของข้อมูลเมื่อเขียนข้อมูลไปยังเอนทิตี
 
 > [!NOTE]
-> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>ตารางเสมือนพร้อมใช้งานสำหรับทรัพยากรบุคคล
 
@@ -51,7 +51,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 ตารางธรรมชาติสำหรับทรัพยากรบุคคลสร้างขึ้นแยกต่างหาก และรักษาไว้ในโซลูชันทั่วไปของ HCM ใน Dataverse ด้วยตารางธรรมชาติ ข้อมูลจะถูกจัดเก็บไว้ใน Dataverse และต้องมีการซิงโครไนส์กับฐานข้อมูลใบสมัครทรัพยากรบุคคล
 
 > [!NOTE]
-> สำหรับรายการของตาราง Dataverse ธรรมชาติสำหรับทรัพยากรบุคคล ให้ดูที่ [ตาราง Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)
+> สำหรับรายการของตาราง Dataverse ธรรมชาติสำหรับทรัพยากรบุคคล ให้ดูที่ [ตาราง Dataverse](./hr-developer-entities.md)
 
 ## <a name="setup"></a>ตั้งค่า
 
@@ -71,7 +71,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 ### <a name="register-the-app-in-microsoft-azure"></a>ลงทะเบียนแอปใน Microsoft Azure
 
-คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
 
 1. เปิด [พอร์ทัล Microsoft Azure](https://portal.azure.com)
 
@@ -93,7 +93,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 10. ระบุคำอธิบาย เลือกช่วงเวลา และเลือก **เพิ่ม**
 
-11. บันทึกค่าของข้อมูลลับ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
+11. บันทึกค่าของข้อมูลลับจากคุณสมบัติ **ค่า** ของตาราง คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
 
     > [!IMPORTANT]
     > ตรวจสอบให้แน่ใจว่าได้จดบันทึกค่าของข้อมูลลับไว้ในขณะนี้ ข้อมูลลับจะไม่มีการแสดงอีกครั้งหลังจากที่คุณออกจากหน้านี้
@@ -215,12 +215,11 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[ตารางใน Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[ภาพรวมความสัมพันธ์ของตาราง](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[สร้างและแก้ไขตารางเสมือนที่มีข้อมูลจากแหล่งข้อมูลภายนอก](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[พอร์ทัล Power Apps คืออะไร](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[ภาพรวมของการสร้างแอปใน Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Dataverse คืออะไร](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[ตารางใน Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[ภาพรวมความสัมพันธ์ของตาราง](/powerapps/maker/common-data-service/relationships-overview)<br>
+[สร้างและแก้ไขตารางเสมือนที่มีข้อมูลจากแหล่งข้อมูลภายนอก](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[พอร์ทัล Power Apps คืออะไร](/powerapps/maker/portals/overview)<br>
+[ภาพรวมของการสร้างแอปใน Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

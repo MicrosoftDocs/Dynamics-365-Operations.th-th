@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795080"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893483"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน
 
@@ -27,7 +27,7 @@ ms.locfileid: "5795080"
 
 หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources
 
-หัวข้อนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)
+หัวข้อนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)
 
 เอนทิตี **mshr_hcmcandidatetohireentity** ที่ไม่ซ้ำกันเนื่องจากความสัมพันธ์กับเอนทิตี้ **mshr_dirpersonentity** คุณสมบัติหลายอย่างบน **mshr_hcmcandidatetohireentity** (ตัวอย่างเช่น **mshr_firstname** **mshr_lastname** และ **mshr_birthdate**) ได้รับมาจากบันทึก **mshr_dirpersonentity** ถ้าคุณลงรายการบัญชีบันทึกผู้สมัครใหม่ไปยัง **mshr_hcmcandidatetohireentity** โดยไม่ใช้การแทรกแบบลึก คุณสามารถกําหนดค่าสำหรับคุณสมบัติเหล่านี้โดยตรงบนบันทึก **mshr_hcmcandidatetohireentity** บันทึก **mshr_dirpersonentity** ที่เกี่ยวข้องจะถูกสร้างขึ้นอย่างชัดเจนกับค่าที่กําหนดไว้สำหรับคุณสมบัติ จากนั้นคุณสามารถสร้างบันทึกเอนทิตี้ที่เกี่ยวข้องอื่นๆ (เช่น ทักษะหรือการศึกษา) เป็นการเรียก API ที่แยกต่างหากได้
 

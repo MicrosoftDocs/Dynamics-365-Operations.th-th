@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838333"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908022"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838333"
 
 ฟังก์ชันการประมวลผลที่รอการตัดบัญชีจะทำให้ผู้ปฏิบัติงานคลังสินค้ายังคงสามารถดำเนินการงานอื่นได้ ในขณะที่การดำเนินการส่งสินค้าถูกประมวลผลในเบื้องหลัง การประมวลผลที่รอการตัดบัญชีจะมีประโยชน์ เมื่อต้องมีการประมวลผลรายการงานจำนวนมาก และผู้ปฏิบัติงานสามารถทำให้งานนั้นถูกประมวลผลแบบอะซิงโครนัสได้ นอกจากนี้ ยังมีประโยชน์เมื่อเซิร์ฟเวอร์สามารถมีการเพิ่มเฉพาะกิจหรือไม่ได้วางแผนไว้ในเวลาประมวลผล และเวลาการประมวลผลที่เพิ่มขึ้นอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของผู้ใช้
 
-การประมวลผลเบื้องหลังจะประสบความสำเร็จได้โดยใช้กรอบงาน SysOperation สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมกรอบงาน SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview)
+การประมวลผลเบื้องหลังจะประสบความสำเร็จได้โดยใช้กรอบงาน SysOperation สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมกรอบงาน SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview)
 
 ## <a name="configuring-the-work-processing-policies"></a>การตั้งค่าคอนฟิกนโยบายการประมวลผลงาน
 

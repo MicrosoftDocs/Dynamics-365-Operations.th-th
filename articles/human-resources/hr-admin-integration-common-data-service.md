@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801202"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890039"
 ---
 # <a name="configure-dataverse-integration"></a>ตั้งค่าคอนฟิกการรวม Dataverse
 
@@ -30,7 +30,7 @@ ms.locfileid: "5801202"
 คุณสามารถเปิดหรือปิดการรวม Microsoft Dataverse กับ Dynamics 365 Human Resources นอกจากนี้คุณยังสามารถดูรายละเอียดของการซิงโครไนส์ ลบข้อมูลการติดตาม และรีซิงค์ตารางเพื่อช่วยในการแก้ไขปัญหาข้อมูลระหว่างสภาพแวดล้อมของทั้งสองได้
 
 > [!NOTE]
-> หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
 
 เมื่อคุณปิดการรวม ผู้ใช้สามารถทำการเปลี่ยนแปลงในทรัพยากรบุคคลหรือ Dataverse แต่การเปลี่ยนแปลงดังกล่าวจะไม่มีการซิงค์ระหว่างสภาพแวดล้อมทั้งสอง
 
@@ -124,8 +124,8 @@ ms.locfileid: "5801202"
 [ตาราง Dataverse](hr-developer-entities.md)<br>
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [FAQ เกี่ยวกับตารางเสมือนสำหรับ Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[การอัปเดตศัพท์](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
+[การอัปเดตศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

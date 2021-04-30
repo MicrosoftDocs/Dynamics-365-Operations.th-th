@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832165"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909536"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832165"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-การเผยแพร่นี้มีการอัปเดตแพลตฟอร์มและการปรับปรุงทั่วไป แต่ไม่มีคุณลักษณะใหม่ๆ ที่เฉพาะเจาะจงสำหรับ Supply Chain Management สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะที่กำลังจะมี ให้ดูที่ไซต์ [แผนการเผยแพร่](https://docs.microsoft.com/dynamics365/release-plans/)
+การเผยแพร่นี้มีการอัปเดตแพลตฟอร์มและการปรับปรุงทั่วไป แต่ไม่มีคุณลักษณะใหม่ๆ ที่เฉพาะเจาะจงสำหรับ Supply Chain Management สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะที่กำลังจะมี ให้ดูที่ไซต์ [แผนการเผยแพร่](/dynamics365/release-plans/)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -49,7 +49,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

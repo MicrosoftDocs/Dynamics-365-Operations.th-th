@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829996"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909930"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 
@@ -33,17 +33,17 @@ ms.locfileid: "5829996"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-- [อินเทอร์เฟสการดำเนินการผลิตที่กำหนดเองได้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-setup.md)
+- [อินเทอร์เฟสการดำเนินการผลิตที่กำหนดเองได้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-setup.md)
 
-- [Add-in การแสดงผลสินค้าคงคลังสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)
+- [Add-in การแสดงผลสินค้าคงคลังสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)
 
 - ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - ดูข้อมูลเพิ่มเติมที่ ดูที่ [สำดับหมายเลขแบบรวมของรหัสงาน](../production-control/unified-job-ids.md)
 
-- [ตรวจสอบความถูกต้องของป้ายทะเบียนบนรายการเอกสารต้นทาง](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/warehouse-configuration.md)
+- [ตรวจสอบความถูกต้องของป้ายทะเบียนบนรายการเอกสารต้นทาง](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/warehouse-configuration.md)
 
-- [การจัดรูปแบบการแสดงข้อมูลของปริมาณงานขาออกของการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดรูปแบบการแสดงข้อมูลของปริมาณงาน](../warehousing/outbound-workload-visualization.md).
+- [การจัดรูปแบบการแสดงข้อมูลของปริมาณงานขาออกของการจัดการคลังสินค้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจัดรูปแบบการแสดงข้อมูลของปริมาณงาน](../warehousing/outbound-workload-visualization.md).
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
@@ -99,7 +99,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

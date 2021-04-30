@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2f1354572422994cfa2a220f59d2fe223eebd36a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754331"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890895"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>เนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
 
@@ -76,7 +76,7 @@ ms.locfileid: "5754331"
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมรายงานในเนื้อหา Power BI ของ **การขายและประสิทธิภาพความสามารถในการทำกำไร** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี้ ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
-การวัดการรวมในเนื้อหานี้เป็นชุดย่อยของการวัดการรวมที่พร้อมใช้งานใน Sales Cube ใน Microsoft Dynamics AX 2012 และ Microsoft Dynamics AX 2012 R3 เมื่อต้องการแบ่งระยะของการวัดแบบรวมของ Cube ในร้านค้าเอนทิตี คุณจะต้องทำให้สามารถปรับใช้ได้ สำหรับข้อมูลเพิ่มเติม ดูกระบวนงานสำหรับการจัดเตรียมการรวมการวัดในร้านค้าเอนทิตีในโพสต์บล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
+การวัดการรวมในเนื้อหานี้เป็นชุดย่อยของการวัดการรวมที่พร้อมใช้งานใน Sales Cube ใน Microsoft Dynamics AX 2012 และ Microsoft Dynamics AX 2012 R3 เมื่อต้องการแบ่งระยะของการวัดแบบรวมของ Cube ในร้านค้าเอนทิตี คุณจะต้องทำให้สามารถปรับใช้ได้ สำหรับข้อมูลเพิ่มเติม ดูกระบวนงานสำหรับการจัดเตรียมการรวมการวัดในร้านค้าเอนทิตีในโพสต์บล็อก [การรวม Power BI กับร้านค้าเอนทิตีใน Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update)
 
 การวัดแบบรวมหลักต่อไปนี้ของเอนทิตีในบรรทัดใบแจ้งหนี้และจะถูกใช้เป็นข้อมูลพื้นฐานของเนื้อหา
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793620"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893411"
 ---
 # <a name="dataverse-tables"></a>ตาราง Dataverse
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793620"
 Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเปิดใช้งานความสามารถในการเพิ่มและสถานการณ์การรวม
 
 > [!NOTE]
-> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
 
 ตาราง Dataverse ต่อไปนี้พร้อมใช้งานในเอนทิตี Human Resources
 
@@ -181,8 +181,8 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 [ตั้งค่าคอนฟิกการรวม Dataverse](hr-admin-integration-common-data-service.md)<br>
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [FAQ เกี่ยวกับตารางเสมือนสำหรับ Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[การอัปเดตศัพท์](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
+[การอัปเดตศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

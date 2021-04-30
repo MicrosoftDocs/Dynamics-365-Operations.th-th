@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809793"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899106"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการดำเนินการผลิตสำหรับ Cloud และ edge scale unit
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> ปริมาณงานการเริ่มการผลิตมีให้แสดงตัวอย่าง ณ เวลานี้
 > ฟังก์ชันธุรกิจบางอย่างไม่ได้รับการสนับสนุนอย่างเต็มที่ในตัวอย่างสำหรับสาธารณะเมื่อมีการใช้ปริมาณงาน scale unit
 
-ในการดำเนินการผลิต cloud and edge scale unit จัดส่งความสามารถต่อไปนี้ ถึงแม้ว่า edge unit จะไม่ได้เชื่อมต่อกับฮับ:
+ในการดำเนินการผลิต scale units จะจัดส่งความสามารถต่อไปนี้
 
 - ผู้ปฏิบัติงานเครื่องจักรและหัวหน้างานฝ่ายผลิตสามารถเข้าถึงแผนการผลิตที่มีการดำเนินงาน
 - ผู้ปฏิบัติงานในเครื่องสามารถรักษาแผนให้ทันสมัยอยู่เสมอโดยการรันงานการผลิตที่แยกต่างหากและมีการประมวลผล
@@ -108,5 +109,6 @@ ms.locfileid: "5809793"
 
 งาน _ตัวประมวลผลข้อความของฮับการผลิตไปยัง scale unit_ ประมวลผลข้อมูลจากฮับไปยัง scale unit งานนี้จะเริ่มต้นโดยอัตโนมัติเมื่อมีการปรับใช้ปริมาณงานการดำเนินการผลิต อย่างไรก็ตาม คุณสามารถรันด้วยตนเองได้ตลอดเวลา โดยไปที่ **การควบคุมการผลิต \> งานประจำงวดของ \> การจัดการปริมาณงานของฝ่ายสนับสนุน \> ตัวประมวลผลข้อความของฮับการผลิตไปยัง scale unit**
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

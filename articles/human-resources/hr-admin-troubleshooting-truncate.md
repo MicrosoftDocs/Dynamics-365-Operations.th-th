@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dc723728801909c67cb823a043a2ae3e7eaf9f05
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803884"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892214"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803884"
 
 **การแก้ปัญหา**
 
-โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
+โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
 
 ทำตามขั้นตอนเหล่านี้เพื่อส่งออกไปยัง Visio
 

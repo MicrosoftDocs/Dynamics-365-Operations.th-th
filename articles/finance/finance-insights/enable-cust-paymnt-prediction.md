@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ecc3851cc91c8fe17a7582f2be06e84cf9bc2d83
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0f972b6f3c0c7c4fcf69b3644a5e73d863cd817d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818667"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897367"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>เปิดใช้งานการคาดคะเนการชำระเงินของลูกค้า (ตัวอย่าง)
 
@@ -83,7 +83,7 @@ ms.locfileid: "5818667"
 
 ตัวอย่างข้อมูลเชิงลึกของการเงินสำหรับสาธารณะจะพร้อมใช้งานสำหรับการใช้งานทดลองในสหรัฐอเมริกา ยุโรป และสหราชอาณาจักร Microsoft กำลังเพิ่มการสนับสนุนสำหรับภูมิภาคเพิ่มเติมมากขึ้น
 
-คุณลักษณะตัวอย่างสำหรับสาธารณะควรเปิดใช้งานเฉพาะในสภาพแวดล้อมที่มี Sandbox ระดับ 2 เท่านั้น การตั้งค่าและโมเดล AI ที่สร้างขึ้นในสภาพแวดล้อม Sandbox ไม่สามารถถูกย้ายไปยังสภาพแวดล้อมการผลิต สำหรับข้อมูลเพิ่มเติม ให้ดู [เงื่อนไขการใช้เพิ่มเติมสำหรับการแสดงตัวอย่าง Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms)
+คุณลักษณะตัวอย่างสำหรับสาธารณะควรเปิดใช้งานเฉพาะในสภาพแวดล้อมที่มี Sandbox ระดับ 2 เท่านั้น การตั้งค่าและโมเดล AI ที่สร้างขึ้นในสภาพแวดล้อม Sandbox ไม่สามารถถูกย้ายไปยังสภาพแวดล้อมการผลิต สำหรับข้อมูลเพิ่มเติม ให้ดู [เงื่อนไขการใช้เพิ่มเติมสำหรับการแสดงตัวอย่าง Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)
 
 ## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 

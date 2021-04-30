@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: adfedbfeb3f4602d0c4d9b8cccec80749eaae2a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b2b9f2b244f0f49d1ae0bd1cb220653583ee23a5
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790535"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890993"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (7 กุมภาพันธ์ 2020)
 
@@ -55,7 +55,7 @@ ms.locfileid: "5790535"
 
 ### <a name="platform-update-32"></a>แพลตฟอร์ม update 32 
 
-แพลตฟอร์มที่อัพเดต 32 จะพร้อมใช้งานในไม่ช้า [ค้นหาข้อมูลเพิ่มเติมเกี่ยวกับแพลตฟอร์มที่อัพเดต 32 ได้ที่นี่](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)
+แพลตฟอร์มที่อัพเดต 32 จะพร้อมใช้งานในไม่ช้า [ค้นหาข้อมูลเพิ่มเติมเกี่ยวกับแพลตฟอร์มที่อัพเดต 32 ได้ที่นี่](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)
 
 ### <a name="updated-dataverse-solution"></a>อัพเดตโซลูชัน Dataverse
 
@@ -75,7 +75,7 @@ ms.locfileid: "5790535"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

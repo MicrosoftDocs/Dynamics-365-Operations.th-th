@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841490"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910172"
 ---
 # <a name="automatic-allocation-of-charges"></a>การปันส่วนค่าธรรมเนียมโดยอัตโนมัติ
 
@@ -144,7 +144,7 @@ ms.locfileid: "5841490"
     - **ไซต์** และ **คลังสินค้า** – ระบุไซต์และคลังสินค้า ถ้าควรนำค่าธรรมเนียมไปใช้เฉพาะสำหรับไซต์และคลังสินค้าเฉพาะเท่านั้น
     - **เก็บ** – เลือกกล่องกาเครื่องหมายนี้เพื่อเก็บธุรกรรมค่าธรรมเนียม หลังที่การออกใบแจ้งหนี้เสร็จสมบูรณ์ เพื่อให้ค่าธรรมเนียมจะถูกนำไปใช้ทุกครั้งที่คุณสร้างใบแจ้งหนี้ใหม่สำหรับบัญชีลูกค้าที่เลือก
 
-1. **สำหรับใบสั่งขายเท่านั้น:** ถ้าคุณต้องการคำนวณค่าธรรมเนียมที่จัดระดับ ให้ดูที่ [ค่าธรรมเนียมที่จัดระดับในใบสั่งขาย](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) สำหรับข้อมูล
+1. **สำหรับใบสั่งขายเท่านั้น:** ถ้าคุณต้องการคำนวณค่าธรรมเนียมที่จัดระดับ ให้ดูที่ [ค่าธรรมเนียมที่จัดระดับในใบสั่งขาย](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) สำหรับข้อมูล
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>ปันส่วนค่าธรรมเนียมจากส่วนหัวไปยังรายการ
 

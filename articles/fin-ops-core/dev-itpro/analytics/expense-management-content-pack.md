@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743518"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893263"
 ---
 # <a name="expense-management-power-bi-content"></a>เนื้อหา Power BI การจัดการค่าใช้จ่าย
 
@@ -41,7 +41,7 @@ ms.locfileid: "5743518"
 ยอดเงินทั้งหมดถูกแสดงในสกุลเงินของบริษัท มีการแสดงข้อมูลสำหรับบริษัททั้งหมด แต่ถ้าจำเป็น คุณสามารถเพิ่มตัวกรองข้อมูลของบริษัท 
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-คุณสามารถค้นหา Expense Admin Dashboard.pbix และเนื้อหา Expense Personal Dashboard.pbix Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)
+คุณสามารถค้นหา Expense Admin Dashboard.pbix และเนื้อหา Expense Personal Dashboard.pbix Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)
 เนื้อหาที่พร้อมใช้งานจากพื้นที่ทำงานการจัดการค่าใช้จ่ายเป็นเนื้อหา Power Bi แบบฝัง เจ้าของค่าใช้จ่ายใดๆ สามารถเข้าถึงค่าใช้จ่ายส่วนส่วนบุคคลสำหรับตัวเอง ขณะที่เสมียนและผู้จัดการฝ่ายบัญชีเจ้าหนี้เท่านั้นที่สามารถเข้าถึงเนื้อหาการจัดการ เพื่อดูข้อมูลค่าใช้จ่ายของผู้ใช้ทั้งหมด
 
 ## <a name="refreshing-the-power-bi-content"></a>การรีเฟรชเนื้อหา Power BI

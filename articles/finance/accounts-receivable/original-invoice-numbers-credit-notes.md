@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811521"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897343"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับในใบลดหนี้
 
@@ -30,7 +30,7 @@ ms.locfileid: "5811521"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-- ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** ให้เปิดคุณลักษณะ **โครงร่างการออกใบแจ้งหนี้เครดิตสำหรับการขายและรายงานใบแจ้งหนี้โครงการ** สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการคุณลักษณะ](../../fin-and-ops/get-started/feature-management/feature-management-overview.md)
+- ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** ให้เปิดคุณลักษณะ **โครงร่างการออกใบแจ้งหนี้เครดิตสำหรับการขายและรายงานใบแจ้งหนี้โครงการ** สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 - ต้องตั้งค่าคอนฟิกรูปแบบที่สามารถพิมพ์ได้ของเอกสารที่กําหนดในการจัดการการพิมพ์
 
 ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้จะใช้กับเอกสารต่อไปนี้

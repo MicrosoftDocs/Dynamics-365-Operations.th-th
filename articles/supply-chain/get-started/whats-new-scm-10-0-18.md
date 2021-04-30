@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832141"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909364"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.18 (พฤษภาคม 2021)
 
@@ -35,15 +35,15 @@ ms.locfileid: "5832141"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-- การนำออกใช้ใบสั่งซื้อโดยอัตโนมัติ (การปรับปรุง [การปฏิบัติการกับคลังสินค้าด้วยหน่วยสเกลในระบบคลาวด์](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md)
+- การนำออกใช้ใบสั่งซื้อโดยอัตโนมัติ (การปรับปรุง [การปฏิบัติการกับคลังสินค้าด้วยหน่วยสเกลในระบบคลาวด์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md)
 
-- [การปรับปรุงประสิทธิภาพสินค้าคงคลังในระดับองค์กรและการเก็บถาวร](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรายการความเคลื่อนไหวของสินค้าคงคลัง ให้ดูที่ [เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง](../inventory/archive-inventory-transactions.md)
+- [การปรับปรุงประสิทธิภาพสินค้าคงคลังในระดับองค์กรและการเก็บถาวร](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรายการความเคลื่อนไหวของสินค้าคงคลัง ให้ดูที่ [เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง](../inventory/archive-inventory-transactions.md)
 
-- [การจัดการเงินคืน](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมโมดูลการจัดการเงินคืน](../rebate-management/rebate-management-overview.md)
+- [การจัดการเงินคืน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - สำหรับข้อมูลเพิ่มเติม ดู [ภาพรวมโมดูลการจัดการเงินคืน](../rebate-management/rebate-management-overview.md)
 
-- อินเทอร์เฟสแบบง่ายเฉพาะเมื่อตอกบัตรเข้าและออกเท่านั้น (การปรับปรุง [อินเทอร์เฟสการดำเนินการผลิตขั้นสูงของการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
+- อินเทอร์เฟสแบบง่ายเฉพาะเมื่อตอกบัตรเข้าและออกเท่านั้น (การปรับปรุง [อินเทอร์เฟสการดำเนินการผลิตขั้นสูงของการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว 
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.18 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2021 แผนเวฟการนำออกใช้ 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2021 แผนเวฟการนำออกใช้ 1](/dynamics365-release-plan/2021wave1/) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

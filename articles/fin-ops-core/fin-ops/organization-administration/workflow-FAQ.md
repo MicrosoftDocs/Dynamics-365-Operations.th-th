@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747212"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890368"
 ---
 # <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
 
@@ -45,9 +45,9 @@ ms.locfileid: "5747212"
     - ในการปรับปรุงในอนาคต เราจะเพิ่มข้อความของศูนย์ปฏิบัติการ เพื่อให้ผู้ใช้ได้รับการกำหนดรายการงานของลำดับงาน 
 - การเพิ่มการแจ้งเตือนไปยังลำดับงาน
     - สามารถสร้างข้อความของศูนย์ปฏิบัติการสำหรับผู้ใช้เฉพาะ เช่น ข้อความที่สร้างขึ้นจากลำดับงานใน X++
-    - [ลำดับงานมีเหตุการณ์ทางธุรกิจ](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ที่ลูกค้าสามารถใช้เพื่อทริกเกอร์โฟลว์ให้มีการแจ้งเตือนที่พวกเขากำลังค้นหา   
+    - [ลำดับงานมีเหตุการณ์ทางธุรกิจ](../../dev-itpro/business-events/business-events-workflow.md) ที่ลูกค้าสามารถใช้เพื่อทริกเกอร์โฟลว์ให้มีการแจ้งเตือนที่พวกเขากำลังค้นหา   
 
-โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ด้วย Microsoft Power Automate เพื่อให้มีการแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
+โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](../../dev-itpro/business-events/business-events-workflow.md) ด้วย Microsoft Power Automate เพื่อให้มีการแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>ทำไมโปรแกรมแก้ไขลำดับงานจึงไม่สามารถเริ่มต้นภายใต้ AD FS ได้
 เมื่อทำงานภายใต้ Active Directory Federation Services (AD FS) ในสภาพแวดล้อมที่มีการอัพเกรด ตัวแก้ไขลำดับงานอาจมีปัญหาในการเริ่มต้น ถ้าเป็นเช่นนั้น ให้ตรวจสอบให้แน่ใจว่า URL "https://dynamicsaxworkfloweditor/" ถูกเพิ่มไปยังคุณสมบัติ **Microsoft Dynamics 365 for Operations แบบในสถานที่ -ลำดับงาน - แอพลิเคชันดั้งเดิม** ในการตั้งค่า ADFS

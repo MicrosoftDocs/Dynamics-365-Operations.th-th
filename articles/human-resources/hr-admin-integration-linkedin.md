@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 208998b5c09416407612352da7a8ef5dd9491914
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805069"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889991"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>รวมกับฮับความสามารถพิเศษของ LinkedIn
 
@@ -130,7 +130,7 @@ ms.locfileid: "5805069"
 ### <a name="create-the-table-in-dataverse"></a>สร้างตารางใน Dataverse
 
 > [!IMPORTANT]
-> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับตารางเสมือนใน Dataverse สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกตารางเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกตารางเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
+> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับตารางเสมือนใน Dataverse สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกตารางเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกตารางเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)
 
 1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Dataverse**
 
@@ -189,7 +189,7 @@ ms.locfileid: "5805069"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Microsoft Dataverse คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Microsoft Dataverse คืออะไร](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

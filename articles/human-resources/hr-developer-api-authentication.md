@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793692"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893459"
 ---
 # <a name="authentication"></a>การรับรองความถูกต้อง
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - สำหรับแอปเว็บ ระบุ URL พื้นฐานของแอป ตัวอย่างเช่น `http://localhost:31544` อาจเป็น URL สำหรับเว็บแอปพลิเคชันที่ดำเนินการบนเครื่องเฉพาะที่ของคุณ จากนั้น ผู้ใช้ใช้ URL นี้เพื่อล็อกอินไปยังแอปพลิเคชันไคลเอนต์ของเว็บ
         - สำหรับแอปพลิเคชันไคลเอนต์สาธารณะให้ URL ที่ Azure AD ใช้เพื่อส่งคืนการตอบสนองโทเคน ป้อนค่าที่เกี่ยวข้องกับแอปของคุณโดยเฉพาะเช่น`myapp://auth`
 
-        เมื่อต้องการดูตัวอย่างเฉพาะสำหรับ web apps หรือแอปพลิเคชันดังเดิม ให้ดูที่ quickstarts ใน [แพลตฟอร์ม Microsoft identity (Azure Active Directory เดิมสำหรับนักพัฒนา)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts)
+        เมื่อต้องการดูตัวอย่างเฉพาะสำหรับ web apps หรือแอปพลิเคชันดังเดิม ให้ดูที่ quickstarts ใน [แพลตฟอร์ม Microsoft identity (Azure Active Directory เดิมสำหรับนักพัฒนา)](/azure/active-directory/develop/#quickstarts)
 
 5. ภายใต้ **สิทธิ์ของ API** ให้เลือก **เพิ่มสิทธิการได้รับอนุญาต** จากนั้น บนแท็บ **APIs องค์กรของฉันใช้** ให้ค้นหา **Dynamics 365 Human Resources** และเพิ่มสิทธิ์ **ผู้ใช้\_การเลียนแบบ** กับแอปของคุณ รหัสแอปพลิเคชันสำหรับทรัพยากรบุคคลคือ f9be0c49-aa22-4ec6-911a-c5da515226ff ใช้รหัสนี้เพื่อให้แน่ใจว่าคุณได้เลือกแอปพลิเคชันที่ถูกต้อง
 

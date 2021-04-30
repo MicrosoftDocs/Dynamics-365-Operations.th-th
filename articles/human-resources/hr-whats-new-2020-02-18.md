@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790439"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890969"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (18 กุมภาพันธ์ 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5790439"
 
 ## <a name="platform-update-32"></a>แพลตฟอร์ม update 32 
 
-การปรับปรุงแพลตฟอร์ม 32 พร้อมใช้งานแล้วในขณะนี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการปรับปรุงแพลตฟอร์ม 32 สำหรับ Finance and Operations (กุมภาพันธ์ 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)
+การปรับปรุงแพลตฟอร์ม 32 พร้อมใช้งานแล้วในขณะนี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการปรับปรุงแพลตฟอร์ม 32 สำหรับ Finance and Operations (กุมภาพันธ์ 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>ค่าการค้นหาจะถูกจดจำเมื่อมีการเปลี่ยนแปลงตัวเลือกมุมมองในฟอร์มพนักงานที่มีประสิทธิภาพ (383833)
 
@@ -81,7 +81,7 @@ ms.locfileid: "5790439"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

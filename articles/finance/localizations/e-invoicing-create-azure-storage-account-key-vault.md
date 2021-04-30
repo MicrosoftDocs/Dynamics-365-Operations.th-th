@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840231"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893813"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>สร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840231"
 
 ก่อนที่คุณจะสามารถทำขั้นตอนต่างๆ ให้เสร็จสมบูรณ์ในหัวข้อนี้ คุณต้องแน่ใจว่างานต่อไปนี้ได้เสร็จสมบูรณ์แล้ว:
 
-- สร้างทรัพยากร Key Vault ใน Azure สำหรับข้อมูลเพิ่มเติม ให้ดู [About Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview)
-- สร้างบัญชีการจัดเก็บของ Azure (ที่จัดเก็บ Blob) สำหรับข้อมูลเพิ่มเติม ให้ดู [Maintaining Azure Storage Account](https://docs.microsoft.com/azure/storage/blobs/)
+- สร้างทรัพยากร Key Vault ใน Azure สำหรับข้อมูลเพิ่มเติม ให้ดู [About Azure Key Vault](/azure/key-vault/general/overview)
+- สร้างบัญชีการจัดเก็บของ Azure (ที่จัดเก็บ Blob) สำหรับข้อมูลเพิ่มเติม ให้ดู [Maintaining Azure Storage Account](/azure/storage/blobs/)
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -83,4 +83,3 @@ ms.locfileid: "5840231"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

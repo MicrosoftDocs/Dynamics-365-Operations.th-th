@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839378"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908793"
 ---
 # <a name="cost-management-home-page"></a>โฮมเพจการจัดการต้นทุน
 
@@ -43,7 +43,7 @@ ms.locfileid: "5839378"
 
 การบัญชีการผลิตช่วยให้คุณสามารถจัดการกับ [การคิดต้นทุนตามใบสั่งงาน](production-order-cost-analysis.md) ในใบสั่งผลิตและใบสั่งชุดงานได้ รวมทั้ง [การคิดต้นทุนแบบย้อนกลับ](backflush-costing.md) ใน lean manufacturing
 
-[เนื้อหา Power BI ของการจัดการต้นทุน](../../dev-itpro/analytics/cost-management-content-pack.md) ให้ข้อมูลเชิงลึกด้านการจัดการลงในคลังสินค้าและคลังสินค้างานที่กำลังดำเนินการ (WIP) และวิธีการที่เงินสดไหลเวียนผ่านตามประเภทตามเวลา นอกจากนี้ยังสามารถใช้ข้อมูลเป็นรายละเอียดภาคผนวกสำหรับงบการเงิน
+[เนื้อหา Power BI ของการจัดการต้นทุน](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) ให้ข้อมูลเชิงลึกด้านการจัดการลงในคลังสินค้าและคลังสินค้างานที่กำลังดำเนินการ (WIP) และวิธีการที่เงินสดไหลเวียนผ่านตามประเภทตามเวลา นอกจากนี้ยังสามารถใช้ข้อมูลเป็นรายละเอียดภาคผนวกสำหรับงบการเงิน
 
 ### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -57,7 +57,7 @@ ms.locfileid: "5839378"
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการต้นทุนใน [บล็อกทีม R&D การผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) และ [การจัดการห่วงโซ่อุปทานในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) แม้ว่าโพสต์เหล่านี้บางโพสต์ถูกเขียนขึ้นสำหรับการจัดการต้นทุนเวอร์ชันก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงคล้ายกันในเวอร์ชันปัจจุบันอีกด้วย
+คุณสามารถค้นหาความคิดเห็น ข่าว และข้อมูลอื่นเกี่ยวกับการจัดการต้นทุนใน [บล็อกทีม R&D การผลิตของ Dynamics AX](/archive/blogs/axmfg/) และ [การจัดการห่วงโซ่อุปทานในบล็อกทีม R&D ของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) แม้ว่าโพสต์เหล่านี้บางโพสต์ถูกเขียนขึ้นสำหรับการจัดการต้นทุนเวอร์ชันก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานยังคงคล้ายกันในเวอร์ชันปัจจุบันอีกด้วย
 
 #### <a name="task-guides"></a>คู่มืองาน
 

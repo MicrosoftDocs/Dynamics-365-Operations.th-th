@@ -2,7 +2,7 @@
 title: วิดีโอ
 description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754715"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881747"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -84,6 +84,9 @@ ms.locfileid: "5754715"
 
 ## <a name="videos-for-dynamics-365-finance"></a>วิดีโอสำหรับ Dynamics 365 Finance
 
+### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
+- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>ปรับแต่งแอป
 - [เพิ่มฟิลด์ที่กำหนดเอง](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [ฝัง Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -112,6 +115,9 @@ ms.locfileid: "5754715"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>วิดีโอสำหรับ Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
+- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>ต้นทุน
 - [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)

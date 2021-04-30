@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810185"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897587"
 ---
 # <a name="dimension-hierarchy"></a>ลำดับชั้นของมิติ
 
@@ -331,7 +331,7 @@ ms.locfileid: "5810185"
     - การจัดรูปแบบการแสดง Power BI ของข้อมูลที่ถูกฝังในไคลเอ็นต์ Dynamics 365 Finance
 
 > [!NOTE] 
-> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - ลำดับชั้นรายการการเข้าถึงไม่ช่วยรักษาความปลอดภัยการส่งออกข้อมูลไปยัง Excel ดังนั้น จึงควรมีการใช้เครื่องมือที่ใช้รายงาน โดยผู้จัดทำบัญชีต้นทุนและผู้จัดการที่ต้องมีการเข้าถึงแบบเต็มรูปแบบในการดูข้อมูล
 
 

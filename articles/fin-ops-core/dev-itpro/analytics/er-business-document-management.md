@@ -2,7 +2,7 @@
 title: ภาพรวมของการจัดการเอกสารทางธุรกิจ
 description: หัวข้อนี้จะนำเสนอข้อมูลเกี่ยวกับวิธีการใช้คุณลักษณะการจัดการเอกสารทางธุรกิจของกรอบงาน ER
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749548"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891316"
 ---
 # <a name="business-document-management-overview"></a>ภาพรวมของการจัดการเอกสารทางธุรกิจ
 
@@ -45,9 +45,9 @@ ms.locfileid: "5749548"
 
 ## <a name="business-document-availability"></a>ความพร้อมใช้งานของเอกสารทางธุรกิจ
 
-สำหรับรายการทั้งหมดของรายงานทั้งหมดที่วางแผนไว้สำหรับการนำออกใช้ในเดือนตุลาคม 2019 ดูที่ [การรายงานเอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิกได้ใน Word และ Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)
+สำหรับรายการทั้งหมดของรายงานทั้งหมดที่วางแผนไว้สำหรับการนำออกใช้ในเดือนตุลาคม 2019 ดูที่ [การรายงานเอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิกได้ใน Word และ Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details)
 
-สำหรับรายการทั้งหมดของรายงานทั้งหมดที่วางแผนไว้สำหรับการนำออกใช้ในเดือนตุลาคม 2020 ดูที่ [เอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิกได้ – เท็มเพลต Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates)
+สำหรับรายการทั้งหมดของรายงานทั้งหมดที่วางแผนไว้สำหรับการนำออกใช้ในเดือนตุลาคม 2020 ดูที่ [เอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิกได้ – เท็มเพลต Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates)
 
 รายงานเพิ่มเติมจะพร้อมใช้งานในการเผยแพร่ในอนาคต การแจ้งเตือนพิเศษเกี่ยวกับรายงานเพิ่มเติมจะถูกส่งโดยแยกต่างหาก หากต้องการทราบวิธีการทบทวนรายการรายงานที่พร้อมใช้งานในปัจจุบัน ให้ดูที่ส่วน [รายการการตั้งค่าคอนฟิก ER ที่ออกใช้ใน Finance เพื่อสนับสนุนเอกสารทางธุรกิจที่สามารถตั้งค่าคอนฟิก](#list-of-configurations-cbd) ด้านล่างนี้
 
@@ -272,7 +272,23 @@ ms.locfileid: "5749548"
 
 ![ยืนยันการเริ่มต้นของกระบวนการแก้ไขเพื่อสร้างเท็มเพลตใหม่](./media/BDM-Overview-EditingTemplate4.png)
 
+ถ้าไม่มีผู้ให้บริการใด ๆ ที่จะได้รับการเสนอให้สร้าง ถ้าไม่มีผู้ให้บริการที่ใช้งานอยู่ จะเสนอให้เลือกผู้ให้บริการนั้นเพื่อเรียกใช้
+
+เมื่อต้องการสร้างตัวให้บริการ ให้เปลี่ยนชื่อตัวให้บริการในฟิลด์ **ชื่อ** ให้อัปเดตที่อยู่อินเทอร์เน็ตของผู้ให้บริการใหม่ในฟิลด์ **ที่อยู่อินเทอร์เน็ต** และเลือก **ตกลง** เพื่อยืนยัน
+
+   ![สร้างตัวให้บริการใหม่ใน BDM](./media/bdm_create_provider.png)
+
+เมื่อต้องการเรียกใช้ผู้ให้บริการที่มีอยู่ ให้เลือกชื่อของผู้ให้บริการในฟิลด์ **ผู้ให้บริการการตั้งค่าคอนฟิก** และเลือก **ตกลง** เพื่อตั้งค่าผู้ให้บริการเป็นใช้งานอยู่
+
+   ![เรียกใช้ตัวให้บริการใน BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> แต่ละแม่แบบ BDM จะอ้างถึงตัวให้บริการให้เป็นผู้สร้างการตั้งค่าคอนฟิก นี่คือเหตุที่ตัวให้บริการที่ใช้งานอยู่จึงถูกต้องใช้ในแม่แบบนี้
+
+
 ตัวเลือก **เอกสารใหม่** มีให้เสมอสำหรับแม่แบบในการกำหนดค่ารูปแบบ ER ที่จัดทำโดยผู้ให้บริการปัจจุบันและผู้ให้บริการรายอื่น (Microsoft ในตัวอย่างนี้) ที่ไม่มีการแก้ไขใด ๆ จากนั้น เท็มเพลตที่แก้ไขจะถูกจัดเก็บไว้ในการตั้งค่าคอนฟิกรูปแบบ ER ใหม่ที่สร้างขึ้นโดยอัตโนมัติ
+
+
 
 ### <a name="start-editing-a-template"></a>เริ่มต้นการแก้ไขเท็มเพลต
 
@@ -419,7 +435,7 @@ ms.locfileid: "5749548"
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>รายการการตั้งค่าคอนฟิก ER ที่ออกใช้ใน Finance เพื่อสนับสนุนเอกสารทางธุรกิจที่ตั้งค่าคอนฟิกได้
 
-[รายการ](general-electronic-reporting.md#list-of-configurations) ของการตั้งค่าคอนฟิก ER ของ Finance มีการอัปเดตอย่างต่อเนื่อง เปิด [ที่เก็บส่วนกลาง](er-download-configurations-global-repo.md) เพื่อตรวจทานรายการการตั้งค่าคอนฟิก ER ที่ได้รับการสนับสนุนในปัจจุบัน คุณสามารถ [กรอง](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) ที่เก็บส่วนกลางเพื่อตรวจทานรายการการตั้งค่าคอนฟิก ER ที่ใช้เพื่อสนับสนุนเอกสารทางธุรกิจที่ตั้งค่าคอนฟิกได้
+[รายการ](general-electronic-reporting.md#list-of-configurations) ของการตั้งค่าคอนฟิก ER ของ Finance มีการอัปเดตอย่างต่อเนื่อง เปิด [ที่เก็บส่วนกลาง](er-download-configurations-global-repo.md) เพื่อตรวจทานรายการการตั้งค่าคอนฟิก ER ที่ได้รับการสนับสนุนในปัจจุบัน คุณสามารถ [กรอง](../../../finance/localizations/enhanced-filtering-global-repo.md) ที่เก็บส่วนกลางเพื่อตรวจทานรายการการตั้งค่าคอนฟิก ER ที่ใช้เพื่อสนับสนุนเอกสารทางธุรกิจที่ตั้งค่าคอนฟิกได้
 
 ![การกรองข้อมูลเนื้อหาของที่เก็บส่วนกลางในหน้าที่เก็บการตั้งค่าคอนฟิก](./media/bdm-overview-filterglobalrepo.gif)
 

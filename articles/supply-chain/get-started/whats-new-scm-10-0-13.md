@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832189"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909560"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.13 (ตุลาคม 2020)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5832189"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
-- [เปลี่ยนคำศัพท์ของ "การยกเลิกการปิดบัญชีสินค้าคงคลัง" เป็น "การย้อนกลับการปิดบัญชีสินค้าคงคลัง"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
+- [เปลี่ยนคำศัพท์ของ "การยกเลิกการปิดบัญชีสินค้าคงคลัง" เป็น "การย้อนกลับการปิดบัญชีสินค้าคงคลัง"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
 
-- [ยืนยันการจัดส่งขาออกจากชุดงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันการจัดส่งขาออกจากชุดงาน](../warehousing/confirm-outbound-shipments-from-batch-jobs.md)
+- [ยืนยันการจัดส่งขาออกจากชุดงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันการจัดส่งขาออกจากชุดงาน](../warehousing/confirm-outbound-shipments-from-batch-jobs.md)
 
-- [การมอบหมายรายการงานการจัดซื้อหลายรายการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มอบหมายรายการงานในลำดับงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md)
+- [การมอบหมายรายการงานการจัดซื้อหลายรายการ](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มอบหมายรายการงานในลำดับงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md)
 
-- [ป้อนหมายเลขลำดับประจำสินค้าขณะมีการรายงานการเสร็จงานจากอุปกรณ์บัตรงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
+- [ป้อนหมายเลขลำดับประจำสินค้าขณะมีการรายงานการเสร็จงานจากอุปกรณ์บัตรงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
 
-- [มิติสินค้าคงคลังใหม่สำหรับการติดตามรุ่นผลิตภัณฑ์และความสามารถในการเพิ่มฟังก์ชันเพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มิติของผลิตภัณฑ์](../pim/product-dimensions.md)
+- [มิติสินค้าคงคลังใหม่สำหรับการติดตามรุ่นผลิตภัณฑ์และความสามารถในการเพิ่มฟังก์ชันเพิ่มเติม](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มิติของผลิตภัณฑ์](../pim/product-dimensions.md)
 
-- [การจองที่กำหนดให้กับใบสั่งตามป้ายทะเบียน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจองป้ายทะเบียนแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation)
+- [การจองที่กำหนดให้กับใบสั่งตามป้ายทะเบียน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจองป้ายทะเบียนแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation)
 
-- [ภาพรวมของรายการเลือกงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [ภาพรวมของรายการเลือกงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [การปรับปรุงนโยบายงานสำหรับงานขาเข้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่  [นโยบายของคลังสินค้า](../warehousing/warehouse-work-policies.md)
+- [การปรับปรุงนโยบายงานสำหรับงานขาเข้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่  [นโยบายของคลังสินค้า](../warehousing/warehouse-work-policies.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -65,7 +65,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 

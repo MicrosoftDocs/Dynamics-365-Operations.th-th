@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835588"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909390"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835588"
 > หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](install-configure-warehouse-management-app.md)
 
 > [!NOTE]
-> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าสำหรับการปรับใช้ระบบคลาวด์ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าแอปคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
+> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าสำหรับการปรับใช้ระบบคลาวด์ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าแอปคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 แอปคลังสินค้ามีอยู่ใน Google Play Store และ Microsoft Store มีไว้เป็นส่วนประกอบแบบสแตนด์อโลน ดังนั้นคุณต้องดาวน์โหลดบนแต่ละอุปกรณ์แล้วกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ
 
@@ -54,7 +54,7 @@ ms.locfileid: "5835588"
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - คลังสินค้าบน Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 บน Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-สำหรับการปรับใช้ที่มีขนาดเล็ก คุณอาจต้องติดตั้งแอปพลิเคชันจากร้านค้าที่เกี่ยวข้องบนแต่ละอุปกรณ์แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง อย่างไรก็ตาม ในรุ่น 1.7.0.0 และรุ่นที่ใหม่กว่าของแอปคลังสินค้า คุณยังสามารถปรับใช้และ/หรือกำหนดค่าแอปโดยอัตโนมัติได้ด้วย คุณอาจพบวิธีการที่สะดวกนี้ ถ้าคุณจัดการอุปกรณ์จำนวนมากและคุณกำลังใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปพลิเคชันบนอุปกรณ์เคลื่อนที่ เช่น [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add)
+สำหรับการปรับใช้ที่มีขนาดเล็ก คุณอาจต้องติดตั้งแอปพลิเคชันจากร้านค้าที่เกี่ยวข้องบนแต่ละอุปกรณ์แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง อย่างไรก็ตาม ในรุ่น 1.7.0.0 และรุ่นที่ใหม่กว่าของแอปคลังสินค้า คุณยังสามารถปรับใช้และ/หรือกำหนดค่าแอปโดยอัตโนมัติได้ด้วย คุณอาจพบวิธีการที่สะดวกนี้ ถ้าคุณจัดการอุปกรณ์จำนวนมากและคุณกำลังใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปพลิเคชันบนอุปกรณ์เคลื่อนที่ เช่น [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](/mem/intune/apps/apps-add)
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>สร้างแอปพลิเคชันบริการใน Azure Active Directory
 
@@ -89,11 +89,11 @@ ms.locfileid: "5835588"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ทรัพยากรต่อไปนี้:
 
-- สำหรับคำแนะนำที่แสดงวิธีการใช้ Windows PowerShell เพื่อตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ [วิธีการ: ใช้ Azure PowerShell เพื่อสร้างผู้ใช้งานบริการด้วยใบรับรอง](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+- สำหรับคำแนะนำที่แสดงวิธีการใช้ Windows PowerShell เพื่อตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ [วิธีการ: ใช้ Azure PowerShell เพื่อสร้างผู้ใช้งานบริการด้วยใบรับรอง](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 - สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการสร้างแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่หัวข้อต่อไปนี้:
 
-    - [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [วิธีการ: ใช้พอร์ทัลเพื่อสร้างแอปพลิเคชัน Azure AD และผู้ใช้งานบริการที่สามารถเข้าถึงทรัพยากร](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [วิธีการ: ใช้พอร์ทัลเพื่อสร้างแอปพลิเคชัน Azure AD และผู้ใช้งานบริการที่สามารถเข้าถึงทรัพยากร](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>สร้างและตั้งค่าคอนฟิกบัญชีผู้ใช้ใน Supply Chain Management
 
@@ -121,7 +121,7 @@ ms.locfileid: "5835588"
 
 ใบรับรองสามารถใช้เป็นข้อมูลลับเพื่อพิสูจน์ข้อมูลเฉพาะตัวของใบสมัครเมื่อมีการร้องขอโทเคน ส่วนสาธารณะของใบรับรองถูกอัปโหลดไปยังการลงทะเบียนแอปในพอร์ทัล Azure ในขณะที่ต้องจัดวางใบรับรองแบบเต็มบนอุปกรณ์แต่ละเครื่องที่มีการติดตั้งแอปคลังสินค้า องค์กรของคุณเป็นผู้รับผิดชอบในการจัดการใบรับรองในแง่ของการหมุนเวียนและอื่นๆ คุณสามารถใช้ใบรับรองที่มีการลงชื่อด้วยตนเองได้ แต่คุณควรใช้ใบรับรองที่ไม่สามารถส่งออกได้เสมอ
 
-คุณต้องทำให้ใบรับรองพร้อมใช้งานเฉพาะบนอุปกรณ์แต่ละเครื่องที่คุณเรียกใช้แอปคลังสินค้า สำหรับข้อมูลเกี่ยวกับวิธีการจัดการใบรับรองสำหรับอุปกรณ์ที่ควบคุมโดย Intune ถ้าคุณกำลังใช้ Intune ให้ดูที่ [การใช้ใบรับรองสำหรับการรับรองความถูกต้องใน Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure)
+คุณต้องทำให้ใบรับรองพร้อมใช้งานเฉพาะบนอุปกรณ์แต่ละเครื่องที่คุณเรียกใช้แอปคลังสินค้า สำหรับข้อมูลเกี่ยวกับวิธีการจัดการใบรับรองสำหรับอุปกรณ์ที่ควบคุมโดย Intune ถ้าคุณกำลังใช้ Intune ให้ดูที่ [การใช้ใบรับรองสำหรับการรับรองความถูกต้องใน Microsoft Intune](/mem/intune/protect/certificates-configure)
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>กำหนดค่าแอปพลิเคชันโดยการนำเข้าการตั้งค่าการเชื่อมต่อ
 

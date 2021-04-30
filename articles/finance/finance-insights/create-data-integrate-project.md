@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818691"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867458"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>สร้างโครงการตัวรวมข้อมูล (ตัวอย่าง)
 
@@ -59,6 +59,7 @@ ms.locfileid: "5818691"
     1. สร้างโครงการการรวมข้อมูลสำหรัแม่แบบต่อไปนี้โดยใช้การตั้งค่าการเชื่อมต่อที่คุณเพิ่งสร้างขึ้น:
 
         - ผลลัพธ์เชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops)
+            - ถ้าคุณใช้รุ่น 10.0.17 หรือใหม่กว่า คุณต้องใช้แม่แบบที่ชื่อ ผลลัพธ์เชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops 10.0.17+)
         - ผลลัพธ์ของชุดเวลาของกระแสเงินสด (CD to Fin และ Ops)
         - ผลลัพธ์ของชุดเวลาของงบประมาณ (CD to Fin และ Ops)
 

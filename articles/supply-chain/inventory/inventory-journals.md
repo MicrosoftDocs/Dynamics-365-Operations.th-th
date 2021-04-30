@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826046"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910196"
 ---
 # <a name="inventory-journals"></a>สมุดรายวันสินค้าคงคลัง
 
@@ -95,7 +95,7 @@ ms.locfileid: "5826046"
 -    บริการซิงโครนัส (OData)
 -  การรวมแบบอะซิงโครนัส
 
-สำหรับข้อมูลเพิ่มเติม ให้ดู [เอนทิตีข้อมูล](../../dev-itpro/data-entities/data-entities.md)
+สำหรับข้อมูลเพิ่มเติม ให้ดู [เอนทิตีข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 > [!NOTE]
 > ไม่ใช่สมุดรายวันสินค้าคงคลังทั้งหมดที่ถูกเปิดใช้งานด้วย OData ดังนั้นคุณจึงไม่สามารถใช้ตัวเชื่อมต่อข้อมูล Excel เพื่อรับข้อมูลที่เผยแพร่ ปรับปรุง และนำเข้า กลับไปยัง Supply Chain Management 
@@ -113,7 +113,7 @@ ms.locfileid: "5826046"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[เอนทิตี้ข้อมูล](../../dev-itpro/data-entities/data-entities.md)
+[เอนทิตี้ข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

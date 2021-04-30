@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6ab1edf6f3c1053f65c6d89786de5bfcc6c268e9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822962"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897947"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
@@ -76,7 +76,7 @@ ms.locfileid: "5822962"
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 Finance
-ถ้ามีการปรับใช้ Finance สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้ามีการปรับใช้ Finance สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการตามข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์
@@ -96,17 +96,17 @@ ms.locfileid: "5822962"
 
 <td>KB 4013633 คือการอัปเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การควบคุมต้นทุน</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัปโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัปโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การควบคุมต้นทุน</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>

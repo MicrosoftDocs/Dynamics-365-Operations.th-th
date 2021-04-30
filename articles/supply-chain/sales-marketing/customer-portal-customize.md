@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840784"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909011"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>การเลือกกำหนดและใช้พอร์ทัลลูกค้า
 
@@ -33,14 +33,14 @@ ms.locfileid: "5840784"
 
 หัวข้อต่อไปนี้จะช่วยให้คุณเรียนรู้พื้นฐานเกี่ยวกับพอร์ทัล Power Apps และวิธีที่คุณสามารถเลือกกำหนดพอทัลได้:
 
-- [การทำงานกับแม่แบบ](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – หัวข้อนี้แสดงภาพรวมทั่วไปของวิธีการทำงานของพอร์ทัล Power Apps และวิธีการที่คุณสามารถเลือกกำหนดพอร์ทัลอย่างง่าย
-- [จัดการเนื้อหาของพอร์ทัล](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถจัดการและเลือกกำหนดเนื้อหาที่คุณแสดงในพอร์ทัลของคุณ
-- [แก้ไข CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – หัวข้อนี้ช่วยให้คุณสามารถเลือกกำหนดแบบซับซ้อนมากขึ้นให้กับอินเทอร์เฟสผู้ใช้ (UI) ของพอร์ทัลของคุณ
-- [สร้างธีมแบบสำหรับพอร์ทัลของคุณ](https://docs.microsoft.com/dynamics365/portals/create-theme) – หัวข้อนี้จะช่วยคุณสร้างธีม UI สำหรับพอร์ทัลของคุณ
-- [สร้างและแสดงเนื้อหาของพอร์ทัลอย่างง่าย](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – หัวข้อนี้ช่วยคุณในการจัดการข้อมูลพื้นฐานและตารางที่คุณใช้สำหรับพอร์ทัลของคุณ
-- [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – หัวข้อนี้จะอธิบายถึงวิธีการสร้างและกำหนดบทบาทผู้ใช้และความปลอดภัย และการตรวจสอบความถูกต้องของงานในพอร์ทัล Power Apps
-- [ตั้งค่าคอนฟิกหมายเหตุสำหรับฟอร์มตารางและฟอร์มเว็บบนพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มเอกสารและการจัดเก็บเพิ่มเติมไปยังพอร์ทัลของคุณ
-- [การจัดการข้อผิดพลาดสำหรับเว็บไซต์พอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – หัวข้อนี้จะอธิบายถึงวิธีการดูล็อกข้อผิดพลาดของพอร์ทัล และจัดเก็บไว้ในบัญชีการจัดเก็บ Microsoft Azure Blob ของคุณ
+- [การทำงานกับแม่แบบ](/powerapps/maker/portals/work-with-templates) – หัวข้อนี้แสดงภาพรวมทั่วไปของวิธีการทำงานของพอร์ทัล Power Apps และวิธีการที่คุณสามารถเลือกกำหนดพอร์ทัลอย่างง่าย
+- [จัดการเนื้อหาของพอร์ทัล](/dynamics365/portals/manage-portal-content) – หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถจัดการและเลือกกำหนดเนื้อหาที่คุณแสดงในพอร์ทัลของคุณ
+- [แก้ไข CSS](/powerapps/maker/portals/edit-css) – หัวข้อนี้ช่วยให้คุณสามารถเลือกกำหนดแบบซับซ้อนมากขึ้นให้กับอินเทอร์เฟสผู้ใช้ (UI) ของพอร์ทัลของคุณ
+- [สร้างธีมแบบสำหรับพอร์ทัลของคุณ](/dynamics365/portals/create-theme) – หัวข้อนี้จะช่วยคุณสร้างธีม UI สำหรับพอร์ทัลของคุณ
+- [สร้างและแสดงเนื้อหาของพอร์ทัลอย่างง่าย](/dynamics365/portals/create-expose-portal-content) – หัวข้อนี้ช่วยคุณในการจัดการข้อมูลพื้นฐานและตารางที่คุณใช้สำหรับพอร์ทัลของคุณ
+- [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](/powerapps/maker/portals/configure/configure-contacts) – หัวข้อนี้จะอธิบายถึงวิธีการสร้างและกำหนดบทบาทผู้ใช้และความปลอดภัย และการตรวจสอบความถูกต้องของงานในพอร์ทัล Power Apps
+- [ตั้งค่าคอนฟิกหมายเหตุสำหรับฟอร์มตารางและฟอร์มเว็บบนพอร์ทัล](/powerapps/maker/portals/configure-notes) – หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มเอกสารและการจัดเก็บเพิ่มเติมไปยังพอร์ทัลของคุณ
+- [การจัดการข้อผิดพลาดสำหรับเว็บไซต์พอร์ทัล](/powerapps/maker/portals/admin/view-portal-error-log) – หัวข้อนี้จะอธิบายถึงวิธีการดูล็อกข้อผิดพลาดของพอร์ทัล และจัดเก็บไว้ในบัญชีการจัดเก็บ Microsoft Azure Blob ของคุณ
 
 ## <a name="customize-the-order-creation-process"></a>เลือกกำหนดกระบวนการสร้างใบสั่ง
 
@@ -88,7 +88,7 @@ ms.locfileid: "5840784"
 
 เพื่อช่วยให้มั่นใจว่าผู้ใช้ได้รับประสบการณ์ของผู้ใช้ที่ราบรื่น พอร์ทัลลูกค้าจะกรอกข้อมูลโดยอัตโนมัติสำหรับฟิลด์ต่าง ๆ ที่จำเป็น ค่าเหล่านี้จะขึ้นอยู่กับข้อมูลในเรกคอร์ดผู้ติดต่อของลูกค้าที่ส่งใบสั่ง
 
-สำหรับ [แถวผู้ติดต่อ](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) แต่ละแถว ที่เป็นของลูกค้าที่จะใช้พอร์ทัลของลูกค้าเพื่อส่งใบสั่ง จะต้องระบุค่าที่จำเป็นสำหรับฟิลด์ที่จำเป็นต่อไปนี้ มิฉะนั้นจะเกิดข้อผิดพลาดขึ้น
+สำหรับ [แถวผู้ติดต่อ](/powerapps/maker/portals/configure/configure-contacts) แต่ละแถว ที่เป็นของลูกค้าที่จะใช้พอร์ทัลของลูกค้าเพื่อส่งใบสั่ง จะต้องระบุค่าที่จำเป็นสำหรับฟิลด์ที่จำเป็นต่อไปนี้ มิฉะนั้นจะเกิดข้อผิดพลาดขึ้น
 
 - **บริษัท** – นิติบุคคลที่เป็นเจ้าของใบสั่ง
 - **ผู้ที่มีแนวโน้มจะเป็นลูกค้า** – รหัสลูกค้าที่สัมพันธ์กับใบสั่ง
@@ -134,16 +134,16 @@ ms.locfileid: "5840784"
 
 คุณต้องตรวจสอบให้แน่ใจว่าพอร์ทัลของลูกค้าของคุณส่งค่าสำหรับคอลัมน์เหล่านี้ทั้งหมด
 
-ถ้าคุณต้องการเพิ่มคอลัมน์ให้กับหน้า หรือลบคอลัมน์ ให้ดู [สร้างหรือแก้ไขฟอร์มอย่างรวดเร็ว สำหรับประสบการณ์การป้อนข้อมูลที่มีประสิทธิภาพ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)
+ถ้าคุณต้องการเพิ่มคอลัมน์ให้กับหน้า หรือลบคอลัมน์ ให้ดู [สร้างหรือแก้ไขฟอร์มอย่างรวดเร็ว สำหรับประสบการณ์การป้อนข้อมูลที่มีประสิทธิภาพ](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms)
 
 ถ้าคุณต้องการเปลี่ยนวิธีการกำหนดค่าคอลัมน์ล่วงหน้า และวิธีการตั้งค่าค่าเมื่อมีการบันทึกหน้า ให้ดูที่ข้อมูลต่อไปนี้ในคู่มือพอร์ทัล Power Apps:
 
-- [เติมข้อมูลลงในฟิลด์ล่วงหน้า](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [ตั้งค่าเมื่อบันทึก](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [เติมข้อมูลลงในฟิลด์ล่วงหน้า](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [ตั้งค่าเมื่อบันทึก](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>การเลือกกำหนดโฮมเพจ
 
-ตัวควบคุมทั้งหมดในพอร์ทัลลูกค้าเป็นตัวควบคุมพอร์ทัล Power Apps ในตัว คุณสามารถเลือกกำหนดโดยปฏิบัติตามขั้นตอนใน [กำหนดหน้า](https://docs.microsoft.com/powerapps/maker/portals/compose-page) ในเอกสารของพอร์ทัล Power Apps
+ตัวควบคุมทั้งหมดในพอร์ทัลลูกค้าเป็นตัวควบคุมพอร์ทัล Power Apps ในตัว คุณสามารถเลือกกำหนดโดยปฏิบัติตามขั้นตอนใน [กำหนดหน้า](/powerapps/maker/portals/compose-page) ในเอกสารของพอร์ทัล Power Apps
 
 มีการใช้เพียงแค่ตัวควบคุมแบบกำหนดเองที่รวมอยู่ในแม่แบบพอร์ทัลลูกค้า ในการสร้างไทล์บนโฮมเพจ
 
@@ -151,7 +151,7 @@ ms.locfileid: "5840784"
 
 ในการปรับเปลี่ยนไทล์ ให้ทำตามขั้นตอนเหล่านี้
 
-1. เปิด [แอปการจัดการพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal)
+1. เปิด [แอปการจัดการพอร์ทัล](/powerapps/maker/portals/configure/configure-portal)
 1. ในบานหน้าต่างนำทางทางด้านซ้าย ให้เลือก **แม่แบบของหน้า**
 
     ![บานหน้าต่างนำทางการจัดการพอร์ทัล](media/customer-portal-nav.png "บานหน้าต่างนำทางการจัดการพอร์ทัล")
@@ -167,11 +167,11 @@ ms.locfileid: "5840784"
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและการกำหนดพอร์ทัลลูกค้าเอง ให้ดูที่ทรัพยากรต่อไปนี้:
 
-- [เอกสารพอร์ทัล Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [เอกสารพอร์ทัล Power Apps](/powerapps/maker/portals/overview)
 - [เอกสารการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [อัพเกรดพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](/powerapps/maker/portals/admin/portal-lifecycle)
+- [อัพเกรดพอร์ทัล](/powerapps/maker/portals/admin/upgrade-portal)
+- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: แอป Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

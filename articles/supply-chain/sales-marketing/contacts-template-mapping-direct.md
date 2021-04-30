@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 81cf79c866ad70bf5bf2a9475a235bf3135d6e50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840808"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908119"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
 
@@ -30,7 +30,7 @@ ms.locfileid: "5840808"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](/powerapps/administrator/data-integrator)
 
 หัวข้อนี้จะอธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ตารางผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) โดยตรงจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
 

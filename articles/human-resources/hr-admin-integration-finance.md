@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801178"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889967"
 ---
 # <a name="configure-integration-with-finance"></a>ตั้งค่าคอนฟิกการรวมกับ Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801178"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เท็มเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](https://docs.microsoft.com/powerapps/administrator/data-integrator) ได้ เท็มเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เท็มเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
+เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เท็มเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) ได้ เท็มเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เท็มเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
 
 ![ทรัพยากรบุคคลไปยังโฟลว์การรวมทางการเงิน](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ ms.locfileid: "5801178"
 
 ปัญหานี้อาจเกิดขึ้นได้กับ **ผู้ปฏิบัติงาน** ซึ่งจะใช้ **หมายเลขบุคลากร** เพื่อทำการจับคู่ และ **ตำแหน่งงาน** งานไม่ได้ใช้ลำดับหมายเลข ด้วยเหตุนี้ ถ้ารหัสงานเดียวกันมีอยู่ในทั้ง Human Resources และ Finance ข้อมูล Human Resources จะเขียนทับข้อมูล Dynamics 365 Finance 
 
-เมื่อต้องการป้องกันไม่ให้เกิดปัญหากับรหัสที่ซ้ำกัน คุณสามารถเพิ่มคำนำหน้าบน [ลำดับหมายเลข](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) หรือตั้งค่าหมายเลขเริ่มต้นบนลำดับหมายเลขที่อยู่นอกช่วงของระบบอื่นได้ 
+เมื่อต้องการป้องกันไม่ให้เกิดปัญหากับรหัสที่ซ้ำกัน คุณสามารถเพิ่มคำนำหน้าบน [ลำดับหมายเลข](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) หรือตั้งค่าหมายเลขเริ่มต้นบนลำดับหมายเลขที่อยู่นอกช่วงของระบบอื่นได้ 
 
 รหัสที่ตั้งที่ใช้สำหรับที่อยู่ของผู้ปฏิบัติงานไม่ได้เป็นส่วนหนึ่งของลำดับหมายเลข เมื่อรวมที่อยู่ของผู้ปฏิบัติงานจากทรัพยากรบุคคลไปยังการเงิน ถ้าที่อยู่ของผู้ปฏิบัติงานมีอยู่แล้วในการเงินคุณ อาจมีการสร้างเรกคอร์ดที่อยู่ที่ซ้ำกัน 
 

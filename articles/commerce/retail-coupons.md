@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792036"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906660"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>ตั้งค่าคูปองสำหรับการขายปลีก
 
@@ -38,6 +38,8 @@ ms.locfileid: "5792036"
 
 > [!NOTE]
 > หลังจากคูปองถูกเชื่อมโยงไปยังส่วนลด ฟิลด์ต่าง ๆ บนหน้าส่วนลดในการค้าจะกลายเป็นอ่านอย่างเดียว เนื่องจากมีการจัดการโดยการตั้งค่าของคูปอง ฟิลด์เหล่านี้ประกอบด้วย ฟิลด์สำหรับสถานะและช่วงวันที่มาตรฐาน
+> 
+> ในขณะที่ใช้คูปองในช่องทางศูนย์บริการ คุณต้องเลือกปุ่ม **คํานวณใหม่** **(แท็บขาย > คํานวณ > คํานวณใหม่)** เพื่อใช้ส่วนลดที่เชื่อมโยงกับคูปอง ขั้นตอนเพิ่มเติมนี้จะถูกลบออกจากรุ่นในอนาคต
 
 ### <a name="limited-use-coupons"></a>คูปองที่จำกัดการใช้
 

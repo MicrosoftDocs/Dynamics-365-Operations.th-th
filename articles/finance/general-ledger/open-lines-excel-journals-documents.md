@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d95584ff02eac7353b01c2159be02e694b4c83fe
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834487"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897755"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>เผยแพร่รายการสมุดรายวันและเอกสารจาก Excel
 
@@ -45,7 +45,7 @@ ms.locfileid: "5834487"
 
 เมื่อมีการเผยแพร่รายการเหล่านั้น รายการเหล่านั้นจะถูกตรวจสอบเพื่อให้แน่ใจว่าเป็นไปตามกฎที่ตั้งค่าไว้ในสมุดรายวันทางการเงิน หลังจากรายการถูกเผยแพร่ ผู้ใช้สามารถแก้ไขหรือลงรายการบัญชีใบสำคัญจาก Dynamics 365 Finance 
 
-เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ดู [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
+เมื่อต้องการเพิ่มมิติทางการเงินให้กับเท็มเพลต จำเป็นต้องมีการเปลี่ยนแปลงเพิ่มเติม สำหรับข้อมูลเพิ่มเติม ดู [เพิ่มมิติไปยังเท็มเพลต Microsoft Excel](../../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md) หลังจากที่มีการเพิ่มมิติไปยังเอนทิตีเหล่านั้น เอนทิตีเหล่านั้นจะพร้อมใช้งานในตัวออกแบบแบบ Excel และคุณสามารถเพิ่มลงในเท็มเพลตได้
 
 
 

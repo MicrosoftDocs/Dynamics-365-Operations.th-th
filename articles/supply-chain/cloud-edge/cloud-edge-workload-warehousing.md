@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832405"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899178"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832405"
 
 ## <a name="warehouse-execution-on-scale-units"></a>การดำเนินการของคลังสินค้าใน scale unit
 
-คุณลักษณะนี้ช่วยให้ scale unit รันกระบวนการที่เลือกจากความสามารถการจัดการคลังสินค้า Cloud scale unit จะรันปริมาณงานของตนใน cloud โดยใช้กำลังการประมวลผลโดยเฉพาะในภูมิภาค Microsoft Azure ที่คุณเลือก สำหรับ edge scale unit คุณสามารถรันปริมาณงานได้อย่างอิสระในสถานที่ แม้ในขณะที่ scale units ถูกยกเลิกการเชื่อมต่อจากระบบคลาวด์ชั่วคราว
+คุณลักษณะนี้ช่วยให้ scale unit รันกระบวนการที่เลือกจากความสามารถการจัดการคลังสินค้า
 
 ในหัวข้อนี้ การดำเนินการจัดการคลังสินค้าในคลังสินค้าที่กำหนดเป็น scale unit เรียกว่า *ระบบปฏิบัติการของคลังสินค้า* (*WES*)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-คุณต้องมีฮับ Dynamics 365 Supply Chain Management และ scale unit ที่มีการปรับใช้กับปริมาณงานการจัดการคลังสินค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสถาปัตยกรรมและกระบวนการปรับใช้ ให้ดูที่ [Cloud และ edge scale units สำหรับปริมาณงานการจัดการการผลิตและคลังสินค้า](cloud-edge-landing-page.md)
+คุณต้องมีฮับ Dynamics 365 Supply Chain Management และ scale unit ที่มีการปรับใช้กับปริมาณงานการจัดการคลังสินค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสถาปัตยกรรมและกระบวนการปรับใช้ ให้ดูที่ [ใช้ scale units เพื่อเพิ่มปริมาณงานสำหรับปริมาณงาน Supply Chain Management](cloud-edge-landing-page.md)
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>วิธีการทำงานของปริมาณงาน WES บน scale unit
 
@@ -297,6 +297,8 @@ scale unit เป็นเจ้าของการประมวลผลเ
 - ประมวลผลเรกคอร์ดตารางเวฟ
 - ตัวประมวลผลข้อความของฮับคลังสินค้ากับ Scale Unit
 - ประมวลผลคำขอการอัพเดตปริมาณสำหรับรายการใบสั่งของคลังสินค้า
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

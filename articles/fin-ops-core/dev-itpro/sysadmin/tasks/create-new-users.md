@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745848"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907922"
 ---
 # <a name="create-new-users"></a>สร้างผู้ใช้ใหม่
 
@@ -29,10 +29,10 @@ ms.locfileid: "5745848"
 สำหรับข้อมูลเกี่ยวกับวิธีการการซื้อและมอบสิทธิ์สำหรับแอป Finance and Operations โปรดดูที่ [คู่มือการให้สิทธิ์การใช้งาน Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409)
 
 ## <a name="assign-a-license-to-a-user"></a>กำหนดสิทธิ์ให้กับผู้ใช้
-ผู้ดูแลระบบสามารถ [กำหนดสิทธิ์การใช้งานให้กับผู้ใช้](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) ใน [Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
+ผู้ดูแลระบบสามารถ [กำหนดสิทธิ์การใช้งานให้กับผู้ใช้](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) ใน [Microsoft 365 admin center](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>เพิ่มผู้ใช้ภายนอกใน Azure AD และกําหนดสิทธิ์ 
-ผู้ใช้ภายนอกต้องถูกแสดงในไดเรกทอรีผู้เช่าของคุณ (Azure Active Directory (Azure AD)) เพื่อให้มีการกำหนดสิทธิ์ ควรเพิ่มผู้ใช้ภายนอกเหล่านั้นในผู้เช่าใน Azure AD ให้เป็นผู้ใช้ที่เป็นผู้เยี่ยมชม แล้วจึงมอบสิทธิ์การใช้งานที่เหมาะสม ความต้องการสำหรับแอป Finance and Operations คือบริษัทของผู้ใช้ที่เป็นแขกจะต้องใช้ Azure AD สำหรับข้อมูลเพิ่มเติม ดู [เพิ่ม Azure Active Directory ผู้ใช้ที่ทำงานร่วมกันแบบ B2B ในพอร์ทัล Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)
+ผู้ใช้ภายนอกต้องถูกแสดงในไดเรกทอรีผู้เช่าของคุณ (Azure Active Directory (Azure AD)) เพื่อให้มีการกำหนดสิทธิ์ ควรเพิ่มผู้ใช้ภายนอกเหล่านั้นในผู้เช่าใน Azure AD ให้เป็นผู้ใช้ที่เป็นผู้เยี่ยมชม แล้วจึงมอบสิทธิ์การใช้งานที่เหมาะสม ความต้องการสำหรับแอป Finance and Operations คือบริษัทของผู้ใช้ที่เป็นแขกจะต้องใช้ Azure AD สำหรับข้อมูลเพิ่มเติม ดู [เพิ่ม Azure Active Directory ผู้ใช้ที่ทำงานร่วมกันแบบ B2B ในพอร์ทัล Azure](/azure/active-directory/b2b/add-users-administrator)
 
 ## <a name="import-new-users-from-azure-ad"></a>นำเข้าผู้ใช้ใหม่จาก Azure AD 
 1. ไปที่ **การจัดการระบบ** \> **ผู้ใช้** \> **ผู้ใช้**
@@ -57,7 +57,7 @@ ms.locfileid: "5745848"
 7. ในฟิลด์ **บริษัท** ให้เลือกบริษัทเริ่มต้นสำหรับผู้ใช้ 
 8. เลือก **บันทึก**
 
-ค่าต่างๆ สำหรับผู้ให้บริการข้อมูลประจำตัวและรหัสการวัดและส่งข้อมูลทางไกล จะได้รับการอัพเดตตามการเรียก [กราฟ Microsoft](https://docs.microsoft.com/graph/overview) เมื่อมีการบันทึกเรกคอร์ดผู้ใช้ รหัสการวัดและส่งข้อมูลทางไกลจะขึ้นอยู่กับรหัสออบเจ็กต์/รหัสความปลอดภัย (SID) ของผู้ใช้ใน Azure AD
+ค่าต่างๆ สำหรับผู้ให้บริการข้อมูลประจำตัวและรหัสการวัดและส่งข้อมูลทางไกล จะได้รับการอัพเดตตามการเรียก [กราฟ Microsoft](/graph/overview) เมื่อมีการบันทึกเรกคอร์ดผู้ใช้ รหัสการวัดและส่งข้อมูลทางไกลจะขึ้นอยู่กับรหัสออบเจ็กต์/รหัสความปลอดภัย (SID) ของผู้ใช้ใน Azure AD
 
 > [!NOTE]
 > หลังจากที่คุณเพิ่มผู้ใช้แล้ว คุณต้องกําหนดบทบาทและองค์กรตามที่เกี่ยวข้อง สำหรับข้อมูลเพิ่มเติม ดู [มอบหมาย Security role ให้กับผู้ใช้](assign-users-security-roles.md) นอกจากนี้ ยังอาจต้องเชื่อมโยงผู้ใช้กับ **บุคคล** และอัพเดต **ตัวเลือกผู้ใช้** เช่น ภาษา แบบมีเงื่อนไข
