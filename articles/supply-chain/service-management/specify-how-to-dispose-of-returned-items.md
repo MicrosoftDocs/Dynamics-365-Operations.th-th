@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eaeb2589329809e57ac01aba85067e94c15477c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c827df81621346733953dc77e16e269f8c3767a8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817496"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910124"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="7d614-103">การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="7d614-103">Specify how to dispose of returned items</span></span> 
+# <a name="specify-how-to-dispose-of-returned-items"></a><span data-ttu-id="f5d73-103">การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="f5d73-103">Specify how to dispose of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="7d614-104">เมื่อคุณจัดการใบสั่งส่งคืนสินค้า คุณต้องระบุรหัสเหตุผลการส่งคืนเพื่อระบุสาเหตุที่ส่งคืนผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="7d614-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="7d614-105">และคุณยังต้องระบุรหัสการโอนการครอบครองและการดำเนินการจัดการต่อรายการสินค้าเพื่อกำหนดสิ่งที่ควรจะดำเนินการกับตัวสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="7d614-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
+<span data-ttu-id="f5d73-104">เมื่อคุณจัดการใบสั่งส่งคืนสินค้า คุณต้องระบุรหัสเหตุผลการส่งคืนเพื่อระบุสาเหตุที่ส่งคืนผลิตภัณฑ์ </span><span class="sxs-lookup"><span data-stu-id="f5d73-104">When you handle a return order, you must specify a reason return code to identify why the product is being returned.</span></span> <span data-ttu-id="f5d73-105">และคุณยังต้องระบุรหัสการโอนการครอบครองและการดำเนินการจัดการต่อรายการสินค้าเพื่อกำหนดสิ่งที่ควรจะดำเนินการกับตัวสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="f5d73-105">You must also specify a disposition code and a disposition action to determine what should be done with the returned product itself.</span></span>
 
-<span data-ttu-id="7d614-106">รหัสการโอนการครอบครองสามารถใช้ได้เมื่อคุณสร้างใบสั่งส่งคืนสินค้า ลงทะเบียนการมาถึงของสินค้า หรืออัพเดตบันทึกการจัดส่งตามการมาถึงของสินค้า และเมื่อสิ้นสุดใบสั่งตรวจสอบสินค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
+<span data-ttu-id="f5d73-106">รหัสการโอนการครอบครองสามารถใช้ได้เมื่อคุณสร้างใบสั่งส่งคืนสินค้า ลงทะเบียนการมาถึงของสินค้า หรืออัพเดตบันทึกการจัดส่งตามการมาถึงของสินค้า และเมื่อสิ้นสุดใบสั่งตรวจสอบสินค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-106">A disposition code can be applied when you create the return order, register item arrival or packing-slip update an item arrival, and end a quarantine order.</span></span>
 
-<span data-ttu-id="7d614-107">คุณสามารถกำหนดรหัสการโอนการครอบครองใดๆ ที่คุณต้องใช้เพื่อสนับสนุนกระบวนการทางธุรกิจได้ </span><span class="sxs-lookup"><span data-stu-id="7d614-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="7d614-108">ตารางต่อไปนี้แสดงชุดของรหัสที่ใช้กันโดยทั่วไปเพื่อกำหนดการโอนการครอบครองสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="7d614-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
+<span data-ttu-id="f5d73-107">คุณสามารถกำหนดรหัสการโอนการครอบครองใดๆ ที่คุณต้องใช้เพื่อสนับสนุนกระบวนการทางธุรกิจได้ </span><span class="sxs-lookup"><span data-stu-id="f5d73-107">You can define any disposition codes that you need in order to support the business processes.</span></span> <span data-ttu-id="f5d73-108">ตารางต่อไปนี้แสดงชุดของรหัสที่ใช้กันโดยทั่วไปเพื่อกำหนดการโอนการครอบครองสินค้าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="f5d73-108">The following table provides a set of typically used codes to assign return-item disposition.</span></span>
 
 <table>
 <colgroup>
@@ -41,87 +41,87 @@ ms.locfileid: "5817496"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7d614-109">ชนิดการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="7d614-109">Disposition type</span></span></p></th>
-<th><p><span data-ttu-id="7d614-110">รหัสทั่วไป</span><span class="sxs-lookup"><span data-stu-id="7d614-110">Common code</span></span></p></th>
-<th><p><span data-ttu-id="7d614-111">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="7d614-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="f5d73-109">ชนิดการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="f5d73-109">Disposition type</span></span></p></th>
+<th><p><span data-ttu-id="f5d73-110">รหัสทั่วไป</span><span class="sxs-lookup"><span data-stu-id="f5d73-110">Common code</span></span></p></th>
+<th><p><span data-ttu-id="f5d73-111">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="f5d73-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-112">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-112">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="7d614-113">SC</span><span class="sxs-lookup"><span data-stu-id="7d614-113">SC</span></span></p></td>
-<td><p><span data-ttu-id="7d614-114">การกำจัดเป็นเศษซาก/ทำลาย</span><span class="sxs-lookup"><span data-stu-id="7d614-114">Scrap/Destroy</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-112">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-112">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-113">SC</span><span class="sxs-lookup"><span data-stu-id="f5d73-113">SC</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-114">การกำจัดเป็นเศษซาก/ทำลาย</span><span class="sxs-lookup"><span data-stu-id="f5d73-114">Scrap/Destroy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-115">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-115">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="7d614-116">DC</span><span class="sxs-lookup"><span data-stu-id="7d614-116">DC</span></span></p></td>
-<td><p><span data-ttu-id="7d614-117">การบริจาค</span><span class="sxs-lookup"><span data-stu-id="7d614-117">Donate to Charity</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-115">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-115">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-116">DC</span><span class="sxs-lookup"><span data-stu-id="f5d73-116">DC</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-117">การบริจาค</span><span class="sxs-lookup"><span data-stu-id="f5d73-117">Donate to Charity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-118">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-118">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="7d614-119">TD</span><span class="sxs-lookup"><span data-stu-id="7d614-119">TD</span></span></p></td>
-<td><p><span data-ttu-id="7d614-120">การตัดจำหน่ายให้แก่บุคคลที่สาม</span><span class="sxs-lookup"><span data-stu-id="7d614-120">Third-Party Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-118">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-118">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-119">TD</span><span class="sxs-lookup"><span data-stu-id="f5d73-119">TD</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-120">การตัดจำหน่ายให้แก่บุคคลที่สาม</span><span class="sxs-lookup"><span data-stu-id="f5d73-120">Third-Party Disposal</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-121">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-121">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="7d614-122">SL</span><span class="sxs-lookup"><span data-stu-id="7d614-122">SL</span></span></p></td>
-<td><p><span data-ttu-id="7d614-123">เศษซาก</span><span class="sxs-lookup"><span data-stu-id="7d614-123">Salvage</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-121">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-121">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-122">SL</span><span class="sxs-lookup"><span data-stu-id="f5d73-122">SL</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-123">เศษซาก</span><span class="sxs-lookup"><span data-stu-id="f5d73-123">Salvage</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-124">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-124">Disposal</span></span></p></td>
-<td><p><span data-ttu-id="7d614-125">TS</span><span class="sxs-lookup"><span data-stu-id="7d614-125">TS</span></span></p></td>
-<td><p><span data-ttu-id="7d614-126">การขายให้แก่บุคคลที่สาม (ตลาดสินค้ามือสอง)</span><span class="sxs-lookup"><span data-stu-id="7d614-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-124">การตัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-124">Disposal</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-125">TS</span><span class="sxs-lookup"><span data-stu-id="f5d73-125">TS</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-126">การขายให้แก่บุคคลที่สาม (ตลาดสินค้ามือสอง)</span><span class="sxs-lookup"><span data-stu-id="f5d73-126">Third-Party Sale (Secondary Markets)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-127">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-127">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="7d614-128">RW</span><span class="sxs-lookup"><span data-stu-id="7d614-128">RW</span></span></p></td>
-<td><p><span data-ttu-id="7d614-129">การทำใหม่</span><span class="sxs-lookup"><span data-stu-id="7d614-129">Rework</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-127">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-127">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-128">RW</span><span class="sxs-lookup"><span data-stu-id="f5d73-128">RW</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-129">การทำใหม่</span><span class="sxs-lookup"><span data-stu-id="f5d73-129">Rework</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-130">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-130">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="7d614-131">RF</span><span class="sxs-lookup"><span data-stu-id="7d614-131">RF</span></span></p></td>
-<td><p><span data-ttu-id="7d614-132">การผลิตใหม่/ตกแต่งใหม่</span><span class="sxs-lookup"><span data-stu-id="7d614-132">Remanufacture/Refurbish</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-130">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-130">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-131">RF</span><span class="sxs-lookup"><span data-stu-id="f5d73-131">RF</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-132">การผลิตใหม่/ตกแต่งใหม่</span><span class="sxs-lookup"><span data-stu-id="f5d73-132">Remanufacture/Refurbish</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-133">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-133">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="7d614-134">MD</span><span class="sxs-lookup"><span data-stu-id="7d614-134">MD</span></span></p></td>
-<td><p><span data-ttu-id="7d614-135">การปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-135">Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-133">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-133">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-134">MD</span><span class="sxs-lookup"><span data-stu-id="f5d73-134">MD</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-135">การปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-135">Modify</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-136">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-136">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="7d614-137">RP</span><span class="sxs-lookup"><span data-stu-id="7d614-137">RP</span></span></p></td>
-<td><p><span data-ttu-id="7d614-138">การซ่อมแซม</span><span class="sxs-lookup"><span data-stu-id="7d614-138">Repair</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-136">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-136">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-137">RP</span><span class="sxs-lookup"><span data-stu-id="f5d73-137">RP</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-138">การซ่อมแซม</span><span class="sxs-lookup"><span data-stu-id="f5d73-138">Repair</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-139">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-139">Repair/Modify</span></span></p></td>
-<td><p><span data-ttu-id="7d614-140">RV</span><span class="sxs-lookup"><span data-stu-id="7d614-140">RV</span></span></p></td>
-<td><p><span data-ttu-id="7d614-141">การส่งคืนให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="7d614-141">Return to Vendor</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-139">การซ่อมแซม/ปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-139">Repair/Modify</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-140">RV</span><span class="sxs-lookup"><span data-stu-id="f5d73-140">RV</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-141">การส่งคืนให้แก่ผู้จัดจำหน่าย</span><span class="sxs-lookup"><span data-stu-id="f5d73-141">Return to Vendor</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-142">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="7d614-142">Other</span></span></p></td>
-<td><p><span data-ttu-id="7d614-143">AI</span><span class="sxs-lookup"><span data-stu-id="7d614-143">AI</span></span></p></td>
-<td><p><span data-ttu-id="7d614-144">การใช้ตามสภาพ</span><span class="sxs-lookup"><span data-stu-id="7d614-144">Use as is</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-142">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="f5d73-142">Other</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-143">AI</span><span class="sxs-lookup"><span data-stu-id="f5d73-143">AI</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-144">การใช้ตามสภาพ</span><span class="sxs-lookup"><span data-stu-id="f5d73-144">Use as is</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-145">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="7d614-145">Other</span></span></p></td>
-<td><p><span data-ttu-id="7d614-146">RS</span><span class="sxs-lookup"><span data-stu-id="7d614-146">RS</span></span></p></td>
-<td><p><span data-ttu-id="7d614-147">การขายใหม่</span><span class="sxs-lookup"><span data-stu-id="7d614-147">Resale</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-145">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="f5d73-145">Other</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-146">RS</span><span class="sxs-lookup"><span data-stu-id="f5d73-146">RS</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-147">การขายใหม่</span><span class="sxs-lookup"><span data-stu-id="f5d73-147">Resale</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-148">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="7d614-148">Other</span></span></p></td>
-<td><p><span data-ttu-id="7d614-149">EX</span><span class="sxs-lookup"><span data-stu-id="7d614-149">EX</span></span></p></td>
-<td><p><span data-ttu-id="7d614-150">แลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="7d614-150">Exchange</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-148">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="f5d73-148">Other</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-149">EX</span><span class="sxs-lookup"><span data-stu-id="f5d73-149">EX</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-150">แลกเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="f5d73-150">Exchange</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-151">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="7d614-151">Other</span></span></p></td>
-<td><p><span data-ttu-id="7d614-152">MS</span><span class="sxs-lookup"><span data-stu-id="7d614-152">MS</span></span></p></td>
-<td><p><span data-ttu-id="7d614-153">เบ็ดเตล็ด</span><span class="sxs-lookup"><span data-stu-id="7d614-153">Miscellaneous</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-151">อื่นๆ</span><span class="sxs-lookup"><span data-stu-id="f5d73-151">Other</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-152">MS</span><span class="sxs-lookup"><span data-stu-id="f5d73-152">MS</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-153">เบ็ดเตล็ด</span><span class="sxs-lookup"><span data-stu-id="f5d73-153">Miscellaneous</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="7d614-154">สำหรับแต่ละรหัสการโอนการครอบครองที่คุณกำหนด คุณต้องเลือกการดำเนินการโอนการครอบครอง </span><span class="sxs-lookup"><span data-stu-id="7d614-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="7d614-155">การดำเนินการโอนการครอบครองจะกำหนดผลกระทบทางกายภาพและทางการเงินของรหัสการโอนการครอบครอง </span><span class="sxs-lookup"><span data-stu-id="7d614-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="7d614-156">ตัวอย่างเช่น การดำเนินการโอนการครอบครองจะกำหนดว่าการจัดการที่เกิดขึ้นจริงของสินค้าที่ส่งคืน ผลกระทบทางการเงินของสินค้าที่ส่งคืน และถ้าสินค้าทดแทนต้องถูกส่งไปยังลูกค้า </span><span class="sxs-lookup"><span data-stu-id="7d614-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="7d614-157">คุณสามารถกำหนดจำนวนที่ไม่จำกัดของรหัสการโอนการครอบครองตามความต้องการทางธุรกิจของคุณได้ แต่คุณสามารถเลือกการดำเนินการโอนการครอบครองที่กำหนดไว้ล่วงหน้าได้เพียงหกแบบเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="7d614-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="7d614-158">ตารางต่อไปนี้แสดงการดำเนินการโอนการครอบครองและคำนิยาม</span><span class="sxs-lookup"><span data-stu-id="7d614-158">The following table provides the disposition actions and their definitions.</span></span>
+<span data-ttu-id="f5d73-154">สำหรับแต่ละรหัสการโอนการครอบครองที่คุณกำหนด คุณต้องเลือกการดำเนินการโอนการครอบครอง </span><span class="sxs-lookup"><span data-stu-id="f5d73-154">For each disposition code that you define, you must select a disposition action.</span></span> <span data-ttu-id="f5d73-155">การดำเนินการโอนการครอบครองจะกำหนดผลกระทบทางกายภาพและทางการเงินของรหัสการโอนการครอบครอง </span><span class="sxs-lookup"><span data-stu-id="f5d73-155">The disposition action determines the physical and financial implications of the disposition codes.</span></span> <span data-ttu-id="f5d73-156">ตัวอย่างเช่น การดำเนินการโอนการครอบครองจะกำหนดว่าการจัดการที่เกิดขึ้นจริงของสินค้าที่ส่งคืน ผลกระทบทางการเงินของสินค้าที่ส่งคืน และถ้าสินค้าทดแทนต้องถูกส่งไปยังลูกค้า </span><span class="sxs-lookup"><span data-stu-id="f5d73-156">For example, the disposition action determines the physical handling of the returned item, the financial effect of the returned item, and if a replacement item must be sent to the customer.</span></span> <span data-ttu-id="f5d73-157">คุณสามารถกำหนดจำนวนที่ไม่จำกัดของรหัสการโอนการครอบครองตามความต้องการทางธุรกิจของคุณได้ แต่คุณสามารถเลือกการดำเนินการโอนการครอบครองที่กำหนดไว้ล่วงหน้าได้เพียงหกแบบเท่านั้น </span><span class="sxs-lookup"><span data-stu-id="f5d73-157">You can define an unlimited number of disposition codes according to your business needs, but there are only six predefined disposition actions that you can select from.</span></span> <span data-ttu-id="f5d73-158">ตารางต่อไปนี้แสดงการดำเนินการโอนการครอบครองและคำนิยาม</span><span class="sxs-lookup"><span data-stu-id="f5d73-158">The following table provides the disposition actions and their definitions.</span></span>
 
 <table>
 <colgroup>
@@ -130,52 +130,52 @@ ms.locfileid: "5817496"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7d614-159">การดำเนินการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="7d614-159">Disposition action</span></span></p></th>
-<th><p><span data-ttu-id="7d614-160">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="7d614-160">Description</span></span></p></th>
+<th><p><span data-ttu-id="f5d73-159">การดำเนินการโอนการครอบครอง</span><span class="sxs-lookup"><span data-stu-id="f5d73-159">Disposition action</span></span></p></th>
+<th><p><span data-ttu-id="f5d73-160">คำอธิบาย</span><span class="sxs-lookup"><span data-stu-id="f5d73-160">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-161"><strong>เครดิต</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-161"><strong>Credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-162">ส่งคืนสินค้าไปยังสินค้าคงคลังและให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-162">Return the item to inventory and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-161"><strong>เครดิต</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-161"><strong>Credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-162">ส่งคืนสินค้าไปยังสินค้าคงคลังและให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-162">Return the item to inventory and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-163"><strong>เครดิตอย่างเดียว</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-163"><strong>Credit only</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-164">ให้เครดิตลูกค้าได้โดยไม่จำเป็นต้องใช้หรือต้องการรับสินค้าคืน</span><span class="sxs-lookup"><span data-stu-id="7d614-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-163"><strong>เครดิตอย่างเดียว</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-163"><strong>Credit only</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-164">ให้เครดิตลูกค้าได้โดยไม่จำเป็นต้องใช้หรือต้องการรับสินค้าคืน</span><span class="sxs-lookup"><span data-stu-id="f5d73-164">Credit the customer without requiring or expecting the item to be returned.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-165"><strong>เศษซาก</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-165"><strong>Scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-166">คิดสินค้าเป็นของเสีย และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-166">Scrap the item and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-165"><strong>เศษซาก</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-165"><strong>Scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-166">คิดสินค้าเป็นของเสีย และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-166">Scrap the item and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-167"><strong>แทนที่และเครดิต</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-167"><strong>Replace and credit</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-168">ส่งคืนสินค้าไปยังสินค้าคงคลัง สร้างใบสั่งเปลี่ยนทดแทน และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-167"><strong>แทนที่และเครดิต</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-167"><strong>Replace and credit</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-168">ส่งคืนสินค้าไปยังสินค้าคงคลัง สร้างใบสั่งเปลี่ยนทดแทน และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-168">Return the item to inventory, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d614-169"><strong>แทนที่และหักของเสีย</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-169"><strong>Replace and scrap</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-170">คิดสินค้าเป็นของเสีย สร้างใบสั่งเปลี่ยนทดแทน และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-169"><strong>แทนที่และหักของเสีย</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-169"><strong>Replace and scrap</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-170">คิดสินค้าเป็นของเสีย สร้างใบสั่งเปลี่ยนทดแทน และให้เครดิตลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-170">Scrap the item, create a replacement order, and credit the customer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d614-171"><strong>ส่งคืนให้ลูกค้า</strong></span><span class="sxs-lookup"><span data-stu-id="7d614-171"><strong>Return to customer</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d614-172">ปฏิเสธสินค้าที่ส่งคืน และส่งคืนสินค้าให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-172">Reject the returned item and return it to the customer.</span></span></p></td>
+<td><p><span data-ttu-id="f5d73-171"><strong>ส่งคืนให้ลูกค้า</strong></span><span class="sxs-lookup"><span data-stu-id="f5d73-171"><strong>Return to customer</strong></span></span></p></td>
+<td><p><span data-ttu-id="f5d73-172">ปฏิเสธสินค้าที่ส่งคืน และส่งคืนสินค้าให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-172">Reject the returned item and return it to the customer.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="7d614-173">การเลือกรหัสการโอนการครอบครองสำหรับใบสั่งตรวจสอบสินค้า</span><span class="sxs-lookup"><span data-stu-id="7d614-173">Select a disposition code for a quarantine order</span></span>
+## <a name="select-a-disposition-code-for-a-quarantine-order"></a><span data-ttu-id="f5d73-173">การเลือกรหัสการโอนการครอบครองสำหรับใบสั่งตรวจสอบสินค้า</span><span class="sxs-lookup"><span data-stu-id="f5d73-173">Select a disposition code for a quarantine order</span></span>
 
-1.  <span data-ttu-id="7d614-174">คลิก **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**</span><span class="sxs-lookup"><span data-stu-id="7d614-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
+1.  <span data-ttu-id="f5d73-174">คลิก **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**</span><span class="sxs-lookup"><span data-stu-id="f5d73-174">Click **Inventory management** \> **Periodic** \> **Quality management** \> **Quarantine orders**.</span></span>
 
-2.  <span data-ttu-id="7d614-175">สำหรับใบสั่งตรวจสอบสินค้าที่มีอยู่ ให้เลือกการดำเนินการจากฟิลด์ **รหัสการโอนการครอบครอง** บนแท็บ **ภาพรวม**</span><span class="sxs-lookup"><span data-stu-id="7d614-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
+2.  <span data-ttu-id="f5d73-175">สำหรับใบสั่งตรวจสอบสินค้าที่มีอยู่ ให้เลือกการดำเนินการจากฟิลด์ **รหัสการโอนการครอบครอง** บนแท็บ **ภาพรวม**</span><span class="sxs-lookup"><span data-stu-id="f5d73-175">For an existing quarantine order, select an action from the **Disposition code** field on the **Overview** tab.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7d614-176">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="7d614-176">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5d73-176">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="f5d73-176">See also</span></span>
 
-<span data-ttu-id="7d614-177">[ใบสั่งตรวจสอบสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span><span class="sxs-lookup"><span data-stu-id="7d614-177">[Quarantine order (form)](https://technet.microsoft.com/library/aa554073(v=ax.60))</span></span>
+[<span data-ttu-id="f5d73-177">ใบสั่งตรวจสอบสินค้า (แบบฟอร์ม)</span><span class="sxs-lookup"><span data-stu-id="f5d73-177">Quarantine order (form)</span></span>](/dynamicsax-2012//quarantine-order-form)
 
-<span data-ttu-id="7d614-178">[รหัสการจัดการ (แบบฟอร์ม)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7d614-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="f5d73-178">[รหัสการจัดการ (แบบฟอร์ม)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="f5d73-178">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
   
 
