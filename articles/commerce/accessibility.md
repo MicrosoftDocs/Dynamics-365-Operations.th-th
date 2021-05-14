@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13f035a080eb41b4a69cc31b7275d87a5836c686
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796329"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936691"
 ---
 # <a name="accessibility-features-and-capabilities"></a>คุณลักษณะและความสามารถของการช่วยการเข้าถึง
 
@@ -95,11 +95,11 @@ CC และไฟล์การถอดเสียงสามารถแ�
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ความสามารถในการเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และตัวควบคุม](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
+[ความสามารถในการเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และตัวควบคุม](/dynamics365/unified-operations/dev-itpro/user-interface/enable-accessibility)
 
 [ศูนย์การเข้าถึงของ Microsoft](https://www.microsoft.com/accessibility)
 
-[ศูนย์การเข้าถึงของ Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/accessibility/index)
+[ศูนย์การเข้าถึงของ Dynamics 365](/dynamics365/get-started/accessibility/index)
 
 [ภาพรวมเกี่ยวกับการปฏิบัติตามกฎระเบียบ](compliance-overview.md)
 

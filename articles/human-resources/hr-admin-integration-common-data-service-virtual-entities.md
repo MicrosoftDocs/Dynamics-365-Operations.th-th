@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890063"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935764"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 
@@ -102,27 +102,15 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 ติดตั้งแอปตารางเสมือน Dynamics 365 HR ในสภาพแวดล้อม Power Apps ของคุณ เพื่อจัดวางแพคเกจโซลูชันตารางเสมือนไปยัง Dataverse
 
-1. เปิด [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Microsoft Dataverse**
 
-2. ในรายการ **สภาพแวดล้อม** ให้เลือกสภาพแวดล้อม Power Apps ที่สัมพันธ์กับอินสแตนซ์ทรัพยากรบุคคลของคุณ
+2. เลือกแท็บ **ตารางเสมือน**
 
-3. ในส่วน **ทรัพยากร** ของหน้า ให้เลือก **แอป Dynamics 365**
+3. เลือก **ติดตั้งแอปตารางเสมือน**
 
-4. เลือกการดำเนินการ **ติดตั้งแอป**
+### <a name="configure-the-virtual-table-data-source"></a>ตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือน
 
-5. เลือก **ตารางเสมือน Dynamics 365 HR** และเลือก **ถัดไป**
-
-6. ตรวจทานและทำเครื่องหมายเพื่อยอมรับข้อตกลงการให้บริการ
-
-7. เลือก **ติดตั้ง**
-
-การติดตั้งใช้เวลาสองสามนาที เมื่อเสร็จสิ้น ให้ดำเนินการขั้นตอนต่อไป
-
-![ติดตั้งแอปตารางเสมือน Dynamics 365 HR จากศูนย์การจัดการ Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>ตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือน 
-
-ขั้นตอนต่อไปคือการตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือนในสภาพแวดล้อม Power Apps 
+ขั้นตอนต่อไปคือการตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือนในสภาพแวดล้อม Power Apps
 
 1. เปิด [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
 
@@ -133,6 +121,9 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 4. ใน **ฮับความสมบูรณ์ของโซลูชัน** ให้เลือกไอคอน **การค้นหาขั้นสูง** ที่ด้านบนขวาของหน้าโปรแกรมประยุกต์
 
 5. บนหน้า **การค้นหาขั้นสูง** ในรายการแบบเลื่อนลง **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือน Finance and Operations**
+
+   > [!NOTE]
+   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของ Finance and Operations** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
 
 6. เลือก **ผลลัพธ์**
 
@@ -186,7 +177,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 เมื่อการตั้งค่าเสร็จสมบูรณ์ คุณสามารถเลือกตารางเสมือนที่คุณต้องการสร้างและเปิดใช้งานในอินสแตนซ์ Dataverse ของคุณได้
 
-1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Dataverse**
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Microsoft Dataverse**
 
 2. เลือกแท็บ **ตารางเสมือน**
 
@@ -197,7 +188,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 4. เลือก **สร้าง/รีเฟรช**
 
-![การรวม Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![การรวม Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>ตรวจสอบสถานะการสร้างตาราง
 

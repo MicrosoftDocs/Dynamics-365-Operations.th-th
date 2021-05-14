@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907974"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935616"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5907974"
 
 คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้  ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่ส่วนใหญ่อาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
+คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 ### <a name="asset-management"></a>การจัดการสินทรัพย์
 
@@ -71,13 +71,13 @@ ms.locfileid: "5907974"
 
 - [ความสามารถในการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md)
 
-- ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - สำหรับข้อมูลเพิ่มเติม โปรดดูที่: 
+- [การดำเนินการผลิตด้วยสเกลยูนิตในระบบคลาวด์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-manufacturing.md)
 
 - [แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต](../production-control/override-default-reservation-principle.md)
 
 - [มุมมองที่บันทึกไว้ของการควบคุมการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
 
-- [การดำเนินการผลิตด้วยสเกลยูนิตในระบบคลาวด์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปริมาณงานในการจัดการการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-manufacturing.md)
+- ลำดับหมายเลขแบบรวมสำหรับรหัสงาน<br> - ดูข้อมูลเพิ่มเติมที่ ดูที่ [สำดับหมายเลขแบบรวมของรหัสงาน](../production-control/unified-job-ids.md)
 
 ### <a name="planning"></a>การวางแผน
 

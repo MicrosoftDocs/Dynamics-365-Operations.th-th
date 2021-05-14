@@ -2,7 +2,7 @@
 title: สร้างลำดับชั้นการนำทางของช่องทาง
 description: หัวข้อนี้จะอธิบายวิธีการสร้างลำดับชั้นการนำทางของช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795846"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951919"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>สร้างลำดับชั้นการนำทางของช่องทาง
 
@@ -77,7 +77,7 @@ ms.locfileid: "5795846"
 1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
 
 > [!NOTE]
-> การเพิ่มผลิตภัณฑ์ลงในโหนดในลำดับชั้นการนำทางช่องทางไม่เพียงพอสำหรับผลิตภัณฑ์ที่จะแสดงบนช่องทางที่เลือก ผลิตภัณฑ์ต้องถูกจัดประเภทไปยังผลิตภัณฑ์ด้วยเช่นกัน
+> การเพิ่มผลิตภัณฑ์ลงในโหนดในลำดับชั้นการนำทางช่องทาง ไม่เพียงพอสำหรับผลิตภัณฑ์ที่จะแสดงบนช่องทางที่เลือก ผลิตภัณฑ์ต้องถูกจัดประเภทไปยังช่องทางด้วยเช่นกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดประเภท ให้ดูที่ [การจัดการการจัดประเภท](assortments.md)
 
 รูปภาพต่อไปนี้แสดงโหนดตัวอย่างที่มีผลิตภัณฑ์ที่เพิ่ม
 

@@ -2,7 +2,7 @@
 title: สร้างเอกสารทางอิเล็กทรอนิกส์และอัพเดตข้อมูลแอพลิเคชันโดยการใช้ ER
 description: คุณสามารถออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สามารถใช้ในแอพลิเคชันเพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออก
 author: NickSelin
-ms.date: 11/01/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5f66a173c7d66f915a7802e42caf1a36f661eea1
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750045"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944328"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชันโดยใช้ ER
 
@@ -35,9 +35,9 @@ ms.locfileid: "5750045"
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะนี้ ให้เปิดชุดเอกสารการสร้าง ER ที่มีคู่มืองานการอัพเดตข้อมูลแอพลิเคชัน (ส่วนหนึ่งของ 7.5.4.3 รับ/พัฒนาบริการ IT/ส่วนประกอบของโซลูชัน IT (10677 )กระบวนการทางธุรกิจ) ที่แนะนำเกี่ยวกับรายละเอียดของการรายงานและการเก็บอินทราสแทต ไฟล์ต่อไปนี้จำเป็นต้องใช้เพื่อทำตามขั้นตอนบางอย่างในคู่มืองานเหล่านี้ ดาวน์โหลดและบันทึกแฟ้มเหล่านี้ลงในเครื่องคอมพิวเตอร์ของคุณ
 
-- [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER: อินทราสแทต (แบบจำลอง)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER: อินทราสแทต (การแม็ป)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [การตั้งค่าคอนฟิกรูปแบบ ER: อินทราสแทต (รูปแบบ)](https://go.microsoft.com/fwlink/?linkid=849038)
+- [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER: อินทราสแทต (แบบจำลอง)](https://download.microsoft.com/download/9/c/e/9ceeacbe-c13e-422e-96f2-594c4a6b45b7/Intrastatmodel.xml)
+- [การตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER: อินทราสแทต (การแม็ป)](https://download.microsoft.com/download/2/1/d/21ddaaeb-64c5-4408-a35f-1ccb922d40a4/Intrastatmapping.xml)
+- [การตั้งค่าคอนฟิกรูปแบบ ER: อินทราสแทต (รูปแบบ)](https://download.microsoft.com/download/8/b/b/8bbb8891-e88d-4739-b92a-2d1d2fffcb79/Intrastatformat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

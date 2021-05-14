@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857381"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941094"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 
@@ -52,11 +52,11 @@ ms.locfileid: "5857381"
 
 2. ลงชื่อเข้าใช้ [Microsoft Azure](https://portal.azure.com/)
 
-3. สร้าง [กลุ่มทรัพยากร](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)
+3. สร้าง [กลุ่มทรัพยากร](/azure/azure-resource-manager/management/manage-resource-groups-portal)
 
-4. สร้าง [บัญชีการจัดเก็บ](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) ในกลุ่มทรัพยากรที่คุณสร้างขึ้น
+4. สร้าง [บัญชีการจัดเก็บ](/azure/storage/common/storage-account-create?tabs=azure-portal) ในกลุ่มทรัพยากรที่คุณสร้างขึ้น
 
-5. สร้าง [Data Factory](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) เหนือกลุ่มทรัพยากรที่คุณสร้างขึ้น
+5. สร้าง [Data Factory](/azure/data-factory/quickstart-create-data-factory-portal) เหนือกลุ่มทรัพยากรที่คุณสร้างขึ้น
 
 6. เปิด Data Factory และเลือกไทล์ **สร้าง & ตรวจสอบ**
 
@@ -81,7 +81,7 @@ ms.locfileid: "5857381"
     FO Linked Service_properties_type Properties_service Principal Id | ระบุรหัสไคลเอนต์ของโปรแกรมประยุกต์
     Dynamics Crm Linked Service_properties_type Properties_username | ชื่อผู้ใช้ที่จะเชื่อมต่อกับ Dynamics
 
-    หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [เลื่อนระดับแม่แบบ Resource Manager ด้วยตนเองในแต่ละสภาพแวดล้อม](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment) [คุณสมบัติบริการที่เชื่อมโยง](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) และ [คัดลอกข้อมูลโดยใช้ Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [เลื่อนระดับแม่แบบ Resource Manager ด้วยตนเองในแต่ละสภาพแวดล้อม](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment) [คุณสมบัติบริการที่เชื่อมโยง](/azure/data-factory/connector-dynamics-ax#linked-service-properties) และ [คัดลอกข้อมูลโดยใช้ Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. หลังจากใช้งานแล้ว ให้ตรวจสอบความถูกต้องของชุดข้อมูล ลำดับข้อมูล และบริการที่เชื่อมโยงของ Data Factory
 
@@ -158,7 +158,7 @@ ms.locfileid: "5857381"
 8. นําเข้าเรกคอร์ด **ฝ่าย** ในแอป Finance and Operations
 
     + ดาวน์โหลดไฟล์ `FONewParty.csv` จากที่จัดเก็บ Azure blob พาธคือ `partybootstrapping/output/FONewParty.csv`
-    + แปลงไฟล์ `FONewParty.csv` เป็นไฟล์ Excel และนําเข้าไฟล์ Excel ไปยังแอป Finance and Operations  หากการนําเข้า csv ใช้ได้ คุณสามารถนําเข้าไฟล์ csv ได้โดยตรง การนําเข้าอาจใช้เวลาสองสามชั่วโมงในการรัน ทั้งนี้ขึ้นอยู่กับปริมาณข้อมูล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job)
+    + แปลงไฟล์ `FONewParty.csv` เป็นไฟล์ Excel และนําเข้าไฟล์ Excel ไปยังแอป Finance and Operations  หากการนําเข้า csv ใช้ได้ คุณสามารถนําเข้าไฟล์ csv ได้โดยตรง การนําเข้าอาจใช้เวลาสองสามชั่วโมงในการรัน ทั้งนี้ขึ้นอยู่กับปริมาณข้อมูล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](../data-import-export-job.md)
 
     ![นําเข้าเรกคอร์ดฝ่ายของ Datavers](media/data-factory-import-party.png)
 

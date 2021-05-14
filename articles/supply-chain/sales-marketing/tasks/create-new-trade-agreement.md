@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836409"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919952"
 ---
 # <a name="create-a-new-trade-agreement"></a>สร้างข้อตกลงทางการค้าใหม่
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836409"
 
 ขั้นตอนนี้แสดงวิธีการสร้างข้อตกลงทางการค้าที่คุณลงทะเบียนราคาขายใหม่ของผลิตภัณฑ์ซึ่งคุณได้ตกลงกับลูกค้าแต่ละราย  คุณสามารถเรียกใช้ขั้นตอนนี้ ในบริษัทข้อมูลสาธิต USMF หรือข้อมูลของคุณเอง ถ้าคุณกำลังใช้ข้อมูลของคุณเอง ก่อนที่คุณเริ่มทำตามคำแนะนำนี้ คุณจำเป็นต้องแน่ใจว่าชื่อสมุดรายวันข้อตกลงทางการค้าปรากฎอยู่ที่ที่ความสัมพันธ์เริ่มต้นถูกตั้งค่าเป็น "ราคา (การขาย)"
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>สร้างและลงรายการสมุดรายวันข้อตกลงทางการค้าใหม่
+
 1. ไปยัง **บานหน้าต่างนำทาง > โมดูล > การขายและการตลาด > ราคาและส่วนลด > สมุดรายวันข้อตกลงทางค้า**
 2. คลิก **สร้าง**
 3. ในฟิลด์ **ชื่อ** ให้คลิกปุ่มรายการแบบหล่นลงเพื่อเปิดการค้นหา
@@ -58,22 +58,26 @@ ms.locfileid: "5836409"
 20. คลิก **ตกลง**
 
 ## <a name="view-trade-agreements-for-a-product"></a>ดูข้อตกลงทางการค้าที่สำหรับผลิตภัณฑ์
+
 1. ไปยัง **บานหน้าต่างนำทาง > โมดูล > การจัดการข้อมูลผลิตภัณฑ์ >ผลิตภัณฑ์ > ผลิตภัณฑ์ที่นำออกใช้**
 2. ในรายการ ค้นหาและเลือกผลิตภัณฑ์ที่คุณอัพเดตราคา
 3. ใน **บานหน้าต่างการดำเนินการ** คลิก **ขาย**
 4. คลิก **ดูข้อตกลงทางการค้า**
     
-    ตรวจทานรายละเอียดของราคาที่ตกลงทางการค้าที่คุณเพิ่งสร้าง    
+    ตรวจทานรายละเอียดของราคาที่ตกลงทางการค้าที่คุณเพิ่งสร้าง
 
 5. ปิดหน้า
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="whitepaper"></a>เอกสารทางเทคนิค
+
 สำหรับข้อมูลเพิ่มเติม ดาวน์โหลดเอกสารทางเทคนิคต่อไปนี้ (ซึ่งเขียนขึ้นเพื่อสนับสนุน AX2012 แต่ยังคงใช้สำหรับ Dynamics 365 Supply Chain Management)
-- [ข้อตกลงทางการค้า](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [ข้อตกลงทางการค้า](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>บล็อกคอมมูนิตี
+
 - [ราคาขายใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

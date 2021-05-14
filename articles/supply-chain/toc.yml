@@ -60,27 +60,27 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน
+                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
+            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
               items:
-                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
+                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   items:
-                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Supply Chain Management
+                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.19 (กรกฎาคม 2021)
+                      href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (เมษายน 2021)
                       href: get-started/whats-new-scm-10-0-17.md
-                    - name: Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
-                      href: get-started/whats-new-scm-10-0-16.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
-                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
+                    - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
@@ -164,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ฝังแอปของบุคคลที่สาม
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
@@ -179,7 +181,7 @@
                 - name: สถาปัตยกรรมสำหรับแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การวางแผนสภาพแวดล้อม
@@ -198,7 +200,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยังระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
@@ -206,6 +208,64 @@
           items:
             - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
+            - name: บริการแบบโลกาภิวัตน์
+              items:
+                - name: ภาพรวมบริการแบบโลกาภิวัตน์
+                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: ภาพรวม Regulatory Configuration Service
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory configuration service และอัปโหลดไปยังที่เก็บส่วนกลาง
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                  items:
+                    - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
+                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Finance และ Supply Chain Management
+                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สร้างบัญชีการจัดเก็บข้อมูล Azure และ Key Vault
+                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เริ่มต้นใช้งาน
+                      items:
+                        - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
+                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
+                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
+                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
+                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การคำนวณภาษี
+                  items:
+                    - name: ภาพรวมการคำนวณภาษี
+                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เริ่มต้นใช้งานการคํานวณภาษี
+                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
+                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: หมายเลขทะเบียน VAT หลายหมายเลข
+                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
+                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: อินเดีย
@@ -222,14 +282,20 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
         - name: ระบบคลาวด์และ Edge
           items:
-            - name: สเกลยูนิตในระบบคลาวด์และ Edge สำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
+            - name: สเกลยูนิตในระบบคลาวด์และแบบปลายทางสำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
               href: cloud-edge/cloud-edge-landing-page.md
-            - name: ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+            - name: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD
+              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
+            - name: ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
               href: cloud-edge/cloud-edge-workload-manufacturing.md
-            - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+            - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
               href: cloud-edge/cloud-edge-workload-warehousing.md
-            - name: ใบสั่งของคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+            - name: ใบสั่งของคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
               href: cloud-edge/cloud-edge-warehouse-order.md
+            - name: การปรับปรุงสินค้าคงคลังของคลังสินค้า
+              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
+            - name: ข้อความตัวประมวลผลข้อความ
+              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: การจัดการสินทรัพย์
           items:
             - name: ภาพรวมของการจัดการสินทรัพย์
@@ -1083,9 +1149,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
                   items:
-                    - name: ออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างรายงานในรูปแบบ Word
+                    - name: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: นำการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
+                    - name: นำการตั้งค่าคอนฟิก ER ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/supply-chain/toc.json
@@ -1363,24 +1429,46 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: การจัดการคุณภาพ
               items:
-                - name: ภาพรวมของการจัดการคุณภาพ
-                  href: inventory/enable-quality-management.md
-                - name: กระบวนการการจัดการคุณภาพ
+                - name: ภาพรวมของการจัดการคุณภาพและความไม่สอดคล้องกัน
                   href: inventory/quality-management-processes.md
-                - name: การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
-                  href: inventory/quality-management-for-warehouses-processes.md
-                - name: การจัดการความไม่สอดคล้องกัน
-                  href: inventory/enable-nonconformance-management.md
-                - name: ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ
-                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
-                - name: สร้างและประมวลผลความสอดคล้องกัน
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: ใบสั่งตรวจสอบสินค้า
-                  href: inventory/quarantine-orders.md
-                - name: ตั้งค่าใบสั่งตรวจสอบคุณภาพ
-                  href: inventory/tasks/set-up-quality-orders.md
+                - name: เปิดใช้งานและตั้งค่าคอนฟิกการจัดการคุณภาพและความไม่สอดคล้องกัน
+                  items:
+                    - name: เปิดใช้งานการจัดการคุณภาพและความไม่สอดคล้องกัน
+                      href: inventory/enable-quality-management.md
+                    - name: เครื่องมือทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-instruments.md
+                    - name: การทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-tests.md
+                    - name: ตัวแปรการทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-variables.md
+                    - name: กลุ่มการทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-groups.md
+                    - name: กลุ่มรายการของการจัดการคุณภาพ
+                      href: inventory/quality-groups.md
+                    - name: การสุ่มตัวอย่างรายการของการจัดการคุณภาพ
+                      href: inventory/quality-item-sampling.md
+                    - name: การเชื่อมโยงคุณภาพ
+                      href: inventory/quality-associations.md
+                    - name: ผู้ปฏิบัติงานที่รับผิดชอบการอนุมัติความไม่สอดคล้องกัน
+                      href: inventory/quality-responsible-workers.md
+                    - name: ชนิดของปัญหาความไม่สอดคล้องกัน
+                      href: inventory/quality-problem-types.md
+                    - name: โซนการตรวจสอบสินค้าที่ไม่สอดคล้องกัน
+                      href: inventory/quality-quarantine-zones.md
+                    - name: ชนิดการวิเคราะห์ความไม่สอดคล้องกัน
+                      href: inventory/quality-diagnostic-types.md
+                    - name: การดําเนินงานด้านความไม่สอดคล้องกัน
+                      href: inventory/quality-operations.md
+                    - name: ค่าธรรมเนียมการดําเนินงานด้านความไม่สอดคล้องกัน
+                      href: inventory/quality-charges.md
+                - name: ทำงานกับใบสั่งตรวจสอบคุณภาพ
+                  href: inventory/quality-orders.md
                 - name: ตรวจสอบคุณภาพของสินค้า
                   href: inventory/tasks/inspect-quality-goods.md
+                - name: สร้างและประมวลผลความไม่สอดคล้องกัน
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: ทำงานกับใบสั่งตรวจสอบสินค้า
+                  href: inventory/quarantine-orders.md
                 - name: การบล็อคสินค้าคงคลัง
                   href: inventory/inventory-blocking.md
                 - name: สร้างและรักษาการบล็อคสินค้าคงคลัง
@@ -1511,8 +1599,8 @@
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: อนุมัติแผนการใบสั่ง
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
-                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: ยืนยันแผนการใบสั่ง
+                  href: master-planning/planning-optimization/planned-order-firming.md
                 - name: การวางแผนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบ
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: ดูประวัติแผนและบันทึกการวางแผน
@@ -1628,7 +1716,7 @@
                 - name: การควบคุมต้นทุน
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การจัดการค่าใช้จ่าย
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: ปริมาณสินค้าคงคลังคงเหลือ
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การอนุมัติใบแจ้งหนี้
@@ -1636,11 +1724,11 @@
                 - name: ทีมงานของฉัน
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: รายการข้อมูลเวลาของโครงการ
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: การอนุมัติใบสั่งซื้อ
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ใบสั่งขาย
@@ -1925,10 +2013,16 @@
                   href: procurement/vendor-request-configurations.md
                 - name: การเตรียมความพร้อมของผู้จัดจำหน่าย
                   href: procurement/vendor-onboarding.md
-                - name: การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
+                - name: การทำงานร่วมกันของผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
                   href: procurement/vendor-collaboration-work-external-vendors.md
-                - name: การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า
+                - name: รักษาใบรับรองของผู้จัดจำหน่าย
+                  href: ../finance/public-sector/manage-vendor-certification.md
+                - name: คำขอประเภทจากผู้จัดจำหน่าย
+                  href: procurement/category-requests-from-vendors.md
+                - name: การทำงานร่วมกันของผู้จัดจำหน่ายกับลูกค้า
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
+                - name: รักษาข้อมูลบัญชีธนาคารของผู้จัดจำหน่าย
+                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
                   href: procurement/vendor-catalogs-import.md
                 - name: ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut e-procurement
@@ -1979,6 +2073,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: จัดการหน่วยวัด
+                  href: pim/tasks/manage-unit-measure.md
                 - name: การแปลงหน่วยวัดต่อผลิตภัณฑ์ย่อย
                   href: pim/uom-conversion-per-product-variant.md
                 - name: สร้างผลิตภัณฑ์ที่นำออกใช้สำหรับบริษัทเดียว
@@ -2141,6 +2237,8 @@
               href: engineering-change-management/product-readiness.md
             - name: นำโครงสร้างผลิตภัณฑ์ออกใช้
               href: engineering-change-management/release-product-structure.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/change-management-faq.md
         - name: การควบคุมการผลิต
           items:
             - name: ภาพรวมของกระบวนการผลิต
@@ -2167,8 +2265,6 @@
                       href: production-control/phantom-items.md
                     - name: การคำนวณ BOM
                       href: cost-management/bom-calculations.md
-                    - name: จัดการหน่วยวัด
-                      href: pim/tasks/manage-unit-measure.md
                     - name: พารามิเตอร์การผลิตในการดำเนินการผลิต
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: ทรัพยากรของ Operations
@@ -2849,6 +2945,10 @@
               href: transportation/tasks/load-template.md
             - name: โพรไฟล์การจัดอันดับ
               href: transportation/tasks/setup-a-rating-profile.md
+            - name: คลาส LTL
+              href: transportation/ltl-class.md
+            - name: รหัส NMFC
+              href: transportation/nmfc-codes.md
             - name: ตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่ง
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: ตั้งค่าวิธีการชำระเงินการขนส่ง
@@ -2937,6 +3037,8 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: คลัสเตอร์การสำรองสินค้า
                   href: warehousing/putaway-clusters.md
+                - name: การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: การตรวจสอบคุณภาพ
                   href: warehousing/quality-check.md
                 - name: แก้ไขปัญหาการดำเนินงานคลังสินค้าขาเข้า
@@ -3069,6 +3171,8 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: การดำเนินการที่เลื่อนเวลาของงานคลังสินค้า
                       href: warehousing/deferred-put.md
+                    - name: การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง
+                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
                   items:
                     - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
@@ -3237,6 +3341,40 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: ขยายเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือ
               href: inventory/extend-on-hand-entities.md
+        - name: การแก้ไขปัญหา
+          items:
+            - name: การจัดการคลังสินค้า
+              items:
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากปัญหาของปฏิทิน
+                  href: troubleshooting/warehousing/load-has-active-appo.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากงานที่ไม่สมบูรณ์หรือขาดหายไป
+                  href: troubleshooting/warehousing/open-or-no-work-exis.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากสินค้ายังไม่ได้รับการเบิก
+                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเป็นศูนย์
+                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
+                - name: ไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเกินเปอร์เซ็นต์การจัดส่งมากกว่าปริมาณที่สั่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
+                - name: ไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเกินเปอร์เซ็นต์การจัดส่งน้อยกว่าปริมาณที่สั่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-und.md
+                - name: รายการงานที่ปิดครั้งสุดท้ายต้องเป็นส่งสินค้า
+                  href: troubleshooting/warehousing/the-last-closed-work.md
+                - name: ฟิลด์น้ำหนักในรายการที่บรรทุกไม่ตรงกับฟิลด์น้ำหนักในการบรรทุก
+                  href: troubleshooting/warehousing/the-weight-fields-on.md
+                - name: เวฟไม่มีสิทธิ์ในการล้างข้อมูล
+                  href: troubleshooting/warehousing/wave-is-not-eligible.md
+                - name: น้ำหนักต้องเป็นค่าบวก
+                  href: troubleshooting/warehousing/weight-must-be-posit.md
+                - name: ไม่สามารถยกเลิกงานได้เนื่องจากงานถูกบล็อค
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
+                - name: ไม่สามารถยกเลิกงานได้เนื่องจากสถานะ
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
+                - name: งานไม่ถูกบล็อค
+                  href: troubleshooting/warehousing/work-is-not-blocked.md
+                - name: งานยังคงถูกบล็อค
+                  href: troubleshooting/warehousing/work-remains-blocked.md
+                - name: คุณไม่สามารถยกเลิกงานที่อยู่กับผู้ใช้ได้
+                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

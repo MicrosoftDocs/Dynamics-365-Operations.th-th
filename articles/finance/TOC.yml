@@ -70,8 +70,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   items:
-                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance
+                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.19 (กรกฎาคม 2021)
+                      href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (เมษายน 2021)
@@ -80,7 +82,7 @@
                       href: get-started/whats-new-changed-10-0-16.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
-                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
+                - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
@@ -162,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: ฝังแอปของบุคคลที่สาม
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
@@ -196,7 +200,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
-                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยังระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
@@ -683,45 +687,45 @@
         - name: การจัดการค่าใช้จ่าย
           items:
             - name: ภาพรวมของการจัดการค่าใช้จ่าย
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: คิดรูปแบบรายงานค่าใช้จ่ายใหม่แล้ว
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: การจัดการวางแผนค่าใช้จ่าย
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: พารามิเตอร์การจัดการค่าใช้จ่าย
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: ตั้งค่าลำดับงานสำหรับการจัดการค่าใช้จ่าย
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: ลำดับงานการจัดการค่าใช้จ่าย
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: จัดการการมอบหมายค่าใช้จ่าย
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: การประมวลผลใบเสร็จค่าใช้จ่าย
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: นำเข้าและรักษาธุรกรรมบัตรเครดิต
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: การกระจายในรายงานค่าใช้จ่าย
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: ค่าใช้จ่ายระหว่างบริษัท
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: กำหนดนโยบายค่าใช้จ่าย
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: ดูรายงานค่าใช้จ่าย
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: ลงรายการบัญชีรายงานค่าใช้จ่าย
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: การขอคืน VAT ในการจัดการค่าใช้จ่าย
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: กฎค่าเบี้ยเลี้ยงต่อวัน
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: ใบเบิกค่าเดินทาง
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: สินทรัพย์ถาวร
           items:
             - name: โฮมเพจสินทรัพย์ถาวร
@@ -1104,6 +1108,20 @@
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: พิมพ์รายงานการชำระภาษีขายโดยเรียงตามรหัส
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: การแก้ไขปัญหาภาษีขาย
+                  items:
+                    - name: ไม่ได้คํานวณภาษีหรือยอดเงินภาษีเป็นศูนย์
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: ประสิทธิภาพการคํานวณภาษีมีผลกระทบต่อธุรกรรม
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: ค่าฟิลด์ใน TaxTrans ไม่ถูกต้อง
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: ไม่ได้สร้างเรกคอร์ด TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: มีการลงรายการบัญชีภาษีไปยังบัญชีแยกประเภทไม่ถูกต้องในใบสำคัญ
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: ไม่ได้สร้างใบสำคัญ
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: ภาษีหัก ณ ที่จ่าย
               items:
                 - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
@@ -1215,85 +1233,85 @@
         - name: การจัดการและการบัญชีโครงการ
           items:
             - name: ภาพรวมของการจัดการและการบัญชีโครงการ
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: การออกใบแจ้งหนี้ระหว่างบริษัท
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้โครงการระหว่างบริษัท
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: ตั้งค่าคอนฟิกต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: สร้างและใช้เงื่อนไขเงินประกันสำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: ตั้งค่าและใช้การชำระเงินผู้จัดจำหน่ายแบบชำระเงินเมื่อได้รับเงิน
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: การออกใบแจ้งหนี้โครงการ
               href: accounts-payable/project-invoicing.md
             - name: สัญญาโครงการ
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: การคาดการณ์โครงการและงบประมาณ
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: สร้างแบบจำลองการคาดการณ์สำหรับงบประมาณโครงการ
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: โอนงบประมาณโครงการเมื่อสิ้นสุดปีบัญชี
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: ใบสั่งขายโครงการ
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: ใบสั่งซื้อสำหรับโครงการ
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: ใบเสนอราคาโครงการ
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: ยืนยัน อัปเดต และส่งใบเสนอราคาโครงการ
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: โอนใบเสนอราคาไปยังโครงการ
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: การจัดหาทรัพยากรของโครงการ
               items:
                 - name: ภาพรวมการจัดหาทรัพยากรของโครงการ
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: ตั้งค่าทรัพยากรโครงการ
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: จัดการความสามารถของทรัพยากร
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: สร้างโครงการใหม่
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: ตั้งค่าการกำหนดราคาตามบทบาท
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: สร้างทีมงานของโครงการ
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: ซิงโครไนส์กำลังการผลิตของทรัพยากร
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: ประสิทธิภาพการจัดกำหนดการทรัพยากรของโครงการ
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: ตั้งค่าบทบาทสำหรับเท็มเพลตโครงสร้างการแบ่งงาน
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: การเติมสินค้าทรัพยากรสำหรับทรัพยากรที่วางแผนไว้
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: โครงสร้างการแบ่งงาน
               items:
                 - name: ภาพรวมของโครงสร้างการแบ่งงาน
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: การรวม Microsoft Project Client
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: แอป Project Timesheet สำหรับอุปกรณ์เคลื่อนที่
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: ใช้งานฟิลด์ที่กำหนดเองสำหรับแอป Project Timesheet บนอุปกรณ์เคลื่อนที่
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: เงินช่วยเหลือโครงการ
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: ตัดการประเมินโครงการ
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: ภาครัฐ
           items:
             - name: โฮมเพจภาครัฐ
@@ -1419,62 +1437,62 @@
             - name: บริการแบบโลกาภิวัตน์
               items:
                 - name: ภาพรวมบริการแบบโลกาภิวัตน์
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: ภาพรวม Regulatory Configuration Service
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
-                      href: localizations/rcs-globalization-feature.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory configuration service และอัปโหลดไปยังที่เก็บส่วนกลาง
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
                   items:
                     - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: ออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Finance และ Supply Chain Management
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างบัญชีการจัดเก็บข้อมูล Azure และ Key Vault
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: เริ่มต้นใช้งาน
                       items:
                         - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: การคำนวณภาษี
                   items:
                     - name: ภาพรวมการคำนวณภาษี
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: เริ่มต้นใช้งานการคํานวณภาษี
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: หมายเลขทะเบียน VAT หลายหมายเลข
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
-            - name: การอัพเดตที่เป็นระเบียบบังคับ
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+            - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ออสเตรเลีย
               items:
@@ -3139,7 +3157,7 @@
                 - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของ Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าลำดับงาน Human Resources
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: ทำความเข้าใจฟิลด์วันที่และเวลา
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: จัดการบุคลากร
@@ -3189,15 +3207,15 @@
                 - name: จัดการกระบวนการสรรหาบุคลากร
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: โครงการจ้างงานโดยรวม
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: สร้างโครงการจ้างงานโดยรวม
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: ตั้งค่าตำแหน่ง
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
@@ -3767,9 +3785,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
                   items:
-                    - name: ออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างรายงานในรูปแบบ Word
+                    - name: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
-                    - name: นำการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
+                    - name: นำการตั้งค่าคอนฟิก ER ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
@@ -4052,7 +4070,7 @@
                 - name: การควบคุมต้นทุน
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: การจัดการค่าใช้จ่าย
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: ปริมาณสินค้าคงคลังคงเหลือ
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: การอนุมัติใบแจ้งหนี้
@@ -4060,11 +4078,11 @@
                 - name: ทีมงานของฉัน
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: รายการข้อมูลเวลาของโครงการ
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Project Timesheet
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: การอนุมัติใบสั่งซื้อ
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: ใบสั่งขาย

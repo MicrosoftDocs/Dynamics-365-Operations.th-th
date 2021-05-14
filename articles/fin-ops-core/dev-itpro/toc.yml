@@ -12,17 +12,17 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Platform updates
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับ 10.0.19 (กรกฎาคม 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform update สำหรับ 10.0.18 (พฤษภาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform update สำหรับ 10.0.17 (เมษายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Platform update สำหรับ 10.0.16 (กุมภาพันธ์ 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
-                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในโฮมเพจ
+                - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: คุณลักษณะของ Platform ที่เอาออกหรือไม่สนับสนุน
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -303,19 +303,19 @@
                         - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                           items:
                             - name: ภาพรวมของ Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: พารามิเตอร์การรวม Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: ซิงโครไนส์สัญญาของโครงการและโครงการ
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: ซิงโครไนส์งานโครงการ
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: ซิงโครไนส์ประเภทของค่าใช้จ่ายในโครงการ
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: ซิงโครไนส์การประเมินโครงการจาก/ไปยังการคาดการณ์โครงการ
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: ซิงโครไนส์ข้อมูลจริงของโครงการไปยังสมุดรายวันการรวมโครงการ
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: การใช้บริการเว็บภายนอก
               href: data-entities/consume-external-web-service.md
             - name: การส่งข้อความทางอิเล็กทรอนิกส์
@@ -691,7 +691,7 @@
                     - name: ภาพรวมของการสร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
                       href: dev-tools/create-data-model-elements.md
                     - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน
                       href: dev-tools/lock-models.md
                 - name: รายงานการวิเคราะห์การกำหนดเอง
@@ -1072,9 +1072,7 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: ปัญหาที่ทราบ
-                  href: lifecycle-services/known-issues.md
-                - name: คุณลักษณะที่ถูกเอาออกหรือเลิกสนับสนุนใน Lifecycle Services (LCS)
+                - name: คุณลักษณะที่ถูกเอาออกหรือไม่สนับสนุนใน Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: คู่มือผู้ใช้ Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: ใช้ Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: รักษากรณีการทดสอบภายใน Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: ตรวจสอบความถูกต้องตรวจสอบค่าที่คาดไว้
               href: perf-test/rsat/rsat-validate-expected.md
             - name: กรณีทดสอบลำดับ
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: กรณีทดสอบที่ได้รับมา
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: อัปเกรดไฟล์พารามิเตอร์
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: บทช่วยสอน Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: ตั้งค่าคอนฟิกผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ
@@ -1444,7 +1446,7 @@
                   href: lcs-solutions/apply-country-context.md
                 - name: ข้อมูลการรับรองที่เป็นระเบียบบังคับในชื่อคุณสมบัติ
                   href: lcs-solutions/regulatory-certifications.md
-                - name: การอัพเดตที่เป็นระเบียบบังคับ
+                - name: การอัปเดตที่เป็นระเบียบบังคับ
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: การแยกแบบจำลองการแปลเป็นภาษาท้องถิ่น
                   href: lcs-solutions/separate-localization-models.md
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อม Sandbox โดยใช้กระบวนการ dacpac
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: อัปเกรดจาก AX 2012 - การจำลองแบบธุรกรรม SQL
+                  href: database/replication-setup.md
                 - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อม Sandbox
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: การอัปเกรด AX 2012 - สภาพแวดล้อมในสถานที่

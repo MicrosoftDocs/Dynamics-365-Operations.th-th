@@ -2,7 +2,7 @@
 title: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับส่วนประกอบที่เกี่ยวข้องกับการจัดการของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840039"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963202"
 ---
 # <a name="electronic-invoicing-administration-components"></a>ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -31,7 +31,7 @@ ms.locfileid: "5840039"
 
 ## <a name="azure"></a>Azure
 
-ใช้ Microsoft Azure เพื่อสร้างข้อมูลลับสำหรับที่จัดเก็บหลักและบัญชีการจัดเก็บ จากนั้น ใช้ข้อมูลลับในการตั้งค่าคอนฟิกของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+ใช้ Microsoft Azure เพื่อสร้างข้อมูลลับสำหรับ Key Vault และบัญชีการจัดเก็บ จากนั้น ใช้ข้อมูลลับในการตั้งค่าคอนฟิกของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -87,10 +87,12 @@ Dynamics 365 Regulatory Configuration Services (RCS) เป็นอินเท
 - บัญชีการจัดเก็บของ Azure (Blob storage) ที่จะจัดเก็บใบแจ้งหนี้อิเล็กทรอนิกส์
 - Azure Key Vault ที่จะจัดเก็บใบรับรองและตัวระบุทรัพยากรที่เหมือนกัน (URI) ของบัญชีการจัดเก็บ
 
-> [!NOTE]
-> ต้องมีการปันส่วน Key Vault ที่จัดสรรไว้และบัญชีการจัดเก็บของลูกค้า โดยเฉพาะสำหรับการใช้กับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
-สำหรับข้อมูลเพิ่มเติม ดู [สร้างบัญชีการจัดเก็บของ Azure และ Key Vault](e-invoicing-create-azure-storage-account-key-vault.md)
+ต้องมีการปันส่วน Key Vault ที่จัดสรรไว้และบัญชีการจัดเก็บของลูกค้า โดยเฉพาะสำหรับการใช้กับการออกใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับข้อมูลเพิ่มเติม ดู [สร้างบัญชีการจัดเก็บของ Azure และ Key Vault](e-invoicing-create-azure-storage-account-key-vault.md)
+
+เมื่อต้องการตรวจสอบความสมบูรณ์ของ Key Azure และรับการแจ้งเตือน ให้ตั้งค่าคอนฟิก Azure Monitor for key Vault โดยการเปิดใช้การบันทึก Key Vault คุณสามารถตรวจสอบวิธีการ เวลา และผู้ที่เข้าถึง Key Vaults ของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การตรวจสอบและการแจ้งเตือนของ Azure Key Vault](/azure/key-vault/general/alert) และ [วิธีเปิดใช้งานการบันทึก Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli)
+
+ตามแนวทางที่พึงปฏิบัติ ให้หมุนข้อมูลลับเป็นระยะๆ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือข้อมูลลับ](/azure/key-vault/secrets/)
 
 #### <a name="users"></a>ผู้ใช้
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 412a1f8d6aac597476fb2043caa72731e0437905
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750521"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923352"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอป Finance and Operations
 
@@ -33,7 +33,7 @@ ms.locfileid: "5750521"
 
 - **การเงิน:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
 - **Supply Chain Management:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
-- **Commerce:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน มีการเปลี่ยนแปลงอะไรใน Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)
+- **Commerce:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน มีการเปลี่ยนแปลงอะไรใน Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
 - **ทรัพยากรบุคคล:** [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>การอัพเดตแพลตฟอร์ม

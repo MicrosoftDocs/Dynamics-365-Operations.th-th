@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797268"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936815"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>จัดการแอททริบิวต์และกลุ่มแอททริบิวต์
 
@@ -101,7 +101,7 @@ ms.locfileid: "5797268"
 
 ในตอนแรก ตัวเลือกเหล่านี้มีเป้าหมายเพื่อปรับปรุงฟังก์ชันการค้นหาสำหรับ storefront ออนไลน์ ถึงแม้ว่า Commerce ไม่มีหน้าร้านออนไลน์แบบใช้ได้ทันทีมาให้ แต่ยังมีชุดเครื่องมือพัฒนาซอฟต์แวร์การเผยแพร่ (SDK) ของ eCommerce ให้ใช้งาน ลูกค้าสามารถใช้ SDK นี้เพื่อใส่ผลิตภัณฑ์ลงในดัชนีการค้นหาที่พวกเขาเลือก ถึงแม้ว่าจะมีการนำเข้าข้อมูลผลิตภัณฑ์ ลูกค้ายังควรสามารถแยกแยะข้อมูลที่สามารถค้นหาได้ ข้อมูลที่สามารถสอบถามได้ และอื่นๆ ในวิธีนั้น พวกเขาสามารถสร้างดัชนีที่ดีที่สุดเพื่อให้แน่ใจว่า พวกเขาจัดดัชนีเฉพาะแอททริบิวต์ที่ *ในความคิดเห็นของพวกเขา* ควรจะถูกจัดทำดัชนี
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวัตถุประสงค์ของตัวเลือกที่เหลือเหล่านี้ ดู [ภาพรวมของ Schema การค้นหาในเซิร์ฟเวอร์ SharePoint 2013](https://technet.microsoft.com/library/jj219669.aspx)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวัตถุประสงค์ของตัวเลือกที่เหลือเหล่านี้ ดู [ภาพรวมของ Schema การค้นหาในเซิร์ฟเวอร์ SharePoint 2013](/SharePoint/search/search-schema-overview)
 
 ## <a name="filter-settings-for-attributes"></a>การตั้งค่าตัวกรองสำหรับแอททริบิวต์
 

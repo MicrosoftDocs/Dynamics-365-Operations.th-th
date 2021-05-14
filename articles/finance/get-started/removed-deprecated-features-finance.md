@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898298"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965321"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -104,7 +104,7 @@ ms.locfileid: "5898298"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.12
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>รายงาน SSRS โปแลนด์: ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>ไม่ได้รับการสนับสนุน: รายงาน SSRS โปแลนด์: ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -112,7 +112,7 @@ ms.locfileid: "5898298"
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ (รูปแบบ Excel สำหรับไฟล์การตรวจสอบมาตรฐานที่มีการรายงานภาษี VAT - JPK_VDEK) |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
-| **สถานะ**                         | เลิกสนับสนุน: ภายในวันที่ 1 กรกฎาคม 2021 เราวางแผนจะไม่สนับสนุนรายงาน SSRS อีกต่อไป: **ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014** ตัวอย่างรูปแบบ Excel สำหรับไฟล์การตรวจสอบมาตรฐานที่มีการรายงานภาษี VAT (JPK_VDEK) จะถูกนำมาใช้แทน |
+| **สถานะ**                         | ไม่เลิกสนับสนุน: ณ วันที่ 27 เมษายน 2021 เราวางแผนจะสนับสนุนรายงาน SSRS อีกต่อไป: **ทะเบียน VAT ขาย ทะเบียน VAT ซื้อ ทะเบียน VAT สรุปของสหภาพยุโรป – การอ้างอิงคุณลักษณะ PL-00014** ตัวอย่างรูปแบบ Excel สำหรับไฟล์การตรวจสอบมาตรฐานที่มีการรายงานภาษี VAT (JPK_VDEK) ถูกนำมาใช้แล้ว |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.11
 

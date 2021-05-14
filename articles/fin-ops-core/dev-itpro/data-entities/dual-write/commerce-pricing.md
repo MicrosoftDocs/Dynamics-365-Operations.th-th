@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751445"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941177"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>ใช้กลไกการกำหนดราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
 
@@ -31,7 +31,7 @@ ms.locfileid: "5751445"
 
 กลไกการกำหนดราคา Dynamics 365 Commerce สนับสนุนสถานการณ์จำลองการกำหนดราคาสำหรับธุรกิจต่อผู้บริโภค (B2C) ส่วนมาก เช่น การกำหนดราคาในระดับร้านค้า การกำหนดราคาที่ยึดตามความภักดีและที่ยึดตามรายได้ ส่วนลดในการซื้อคละกัน ส่วนลดปริมาณ และส่วนลดจำกัด กลไกการกำหนดราคาจะใช้กฎที่ซับซ้อนเพื่อกำหนดราคาที่ดีที่สุดสำหรับใบเสนอราคาหรือใบสั่งที่กำหนด
 
-เมื่อคุณใช้ [การรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) คุณมีสามตัวเลือกสำหรับความต้องการในการกำหนดราคาของคุณ คุณสามารถใช้การกำหนดราคาแบบคงที่ที่มาจากรายการราคาใน Dynamics 365 Sales กลไกการกำหนดราคาใน Dynamics 365 Supply Chain Management หรือกลไกการกำหนดราคาใน Dynamics 365 Commerce ในระหว่างตัวเลือกเหล่านี้ กลไกการกำหนดราคา Commerce เหมาะกับสถานการณ์ B2C ที่สุด
+เมื่อคุณใช้ [การรวมแบบสองทิศทาง](./dual-write-overview.md) คุณมีสามตัวเลือกสำหรับความต้องการในการกำหนดราคาของคุณ คุณสามารถใช้การกำหนดราคาแบบคงที่ที่มาจากรายการราคาใน Dynamics 365 Sales กลไกการกำหนดราคาใน Dynamics 365 Supply Chain Management หรือกลไกการกำหนดราคาใน Dynamics 365 Commerce ในระหว่างตัวเลือกเหล่านี้ กลไกการกำหนดราคา Commerce เหมาะกับสถานการณ์ B2C ที่สุด
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>ใช้กลไกการกำหนดราคา Commerce ใน Sales
 
@@ -42,7 +42,7 @@ ms.locfileid: "5751445"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-- ก่อนที่คุณจะสามารถใช้กลไกการกำหนดราคา Commerce ใน Sales ได้ คุณต้องปฏิบัติตามขั้นตอนใน [ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+- ก่อนที่คุณจะสามารถใช้กลไกการกำหนดราคา Commerce ใน Sales ได้ คุณต้องปฏิบัติตามขั้นตอนใน [ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](./dual-write-prospect-to-cash.md)
 - คุณต้องปิดการประเมินข้อตกลงทางการค้าสำหรับการป้อนข้อมูลด้วยตนเองโดยปฏิบัติตามขั้นตอนต่อไปนี้:
 
     1. ในสภาพแวดล้อม Commerce ของคุณ ไปที่ **บัญชีลูกหนี้ \> การตั้งค่า \> พารามิเตอร์บัญชีลูกหนี้**
@@ -50,7 +50,7 @@ ms.locfileid: "5751445"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

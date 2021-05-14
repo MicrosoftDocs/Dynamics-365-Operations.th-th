@@ -2,7 +2,7 @@
 title: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 description: หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี
 author: qire
-ms.date: 03/26/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fdf112bbdd5245d19ab1d07cfcf94c58bf8208c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e3573f9c9971d4a5af33ece08b7e0b43f2e813a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830351"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921176"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี ฟิลด์เหล่านี้สามารถขยายไปยังรูปแบบข้อมูลภาษีของบริการภาษี และใช้เพื่อระบุรหัสภาษี สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ฟิลด์เพิ่มข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
 

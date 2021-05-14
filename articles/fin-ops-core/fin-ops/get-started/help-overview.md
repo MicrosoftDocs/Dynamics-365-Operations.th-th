@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897827"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923457"
 ---
 # <a name="help-system"></a>ระบบวิธีใช้
 
@@ -39,7 +39,7 @@ ms.locfileid: "5897827"
 
 ## <a name="help-on-docsmicrosoftcom"></a>วิธีใช้เกี่ยวกับ docs.microsoft.com
 
-ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
+ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
 
 - **เข้าถึงเนื้อหาล่าสุด** – ไซต์ทำให้ Microsoft สร้าง จัดส่ง และอัปเดตเอกสารผลิตภัณฑ์ได้รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น คุณจึงเข้าถึงข้อมูลทางเทคนิคล่าสุดได้ง่าย
 - **เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ** – เนื้อหาบนไซต์เปิดให้เข้าร่วมโดยสมาชิกของชุมชนทั้งภายในและภายนอก Microsoft
@@ -50,7 +50,7 @@ ms.locfileid: "5897827"
 
 เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล Really Simple Syndication (RSS) ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com ให้ใช้การเชื่อมโยงต่อไปนี้:
 
-[ตัวดึงข้อมูล RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[ตัวดึงข้อมูล RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>ฝากคำติชมให้พวกเรา
 
@@ -73,7 +73,7 @@ ms.locfileid: "5897827"
 
 วิดีโอ [วิธีการสนับสนุน Microsoft Dynamics 365 documentation](https://youtu.be/m5djioozRbg) (ที่แสดงด้านบน) จะรวมอยู่ในช่อง Microsoft Dynamics 365 บน YouTube
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุนเอกสาร](https://docs.microsoft.com/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ docs.microsoft.com
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุนเอกสาร](/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ docs.microsoft.com
 
 > [!NOTE]
 > เรายอมรับการจัดสรรไปยังเนื้อหาภาษาอังกฤษของเราในขณะนี้เท่านั้น
@@ -155,12 +155,13 @@ On the **System parameters** page, follow these steps:
 | ไซต์ | คำอธิบาย |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | ไซต์นี้โฮสต์หรือเชื่อมโยงเอกสารผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | ไซต์นี้เป็นไซต์ eLearning ฟรีของ Microsoft |
+| [Microsoft Learn](/learn/) | ไซต์นี้เป็นไซต์ eLearning ฟรีของ Microsoft |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | ไซต์นี้ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการจากการขายล่วงหน้าไปถึงการนำไปใช้และการดำเนินการ ซึ่งมีประโยชน์ในขั้นตอนการใช้งานทั้งหมด |
 | [บล็อกสนับสนุน](https://aka.ms/AXSupportBlog) | ไซต์นี้ให้คำแนะนำและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน  |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | ไซต์นี้โฮสต์เนื้อหาจากรุ่นก่อน |
 | [ชุมชน Dynamics](https://community.dynamics.com/) | ไซต์นี้โฮสต์บล็อก ฟอรัม และวิดีโอ |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | ไซต์นี้แสดงข้อมูลการประเมินและการขาย |
+
 
 
 

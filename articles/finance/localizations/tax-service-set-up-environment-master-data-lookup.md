@@ -2,7 +2,7 @@
 title: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าสภาพแวดล้อมของคุณเพื่อใช้ฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869103"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924165"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 หัวข้อนี้อธิบายวิธีการตั้งค่าสภาพแวดล้อมของคุณเพื่อใช้ฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี
 
 1. ตั้งค่าการรวม Power Platform ใน Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรวม Microsoft Power Platform - ภาพรวม Add-in](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)
 2. ตั้งค่า Dynamics 365 Finance และ Microsoft Dataverse สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การรับโซลูชัน](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) และ [การรับรองความถูกต้องและการตรวจสอบความถูกต้อง](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization)
-3. นําเข้า *โซลูชันเอนทิตีเสมือนของบริการภาษีตามข้อกำหนดเบื้องต้น* จาก [เอนทิตีเสมือนของบริการภาษี](https://go.microsoft.com/fwlink/?linkid=2158160)
+3. ตั้งค่าเอนทิตีต่อไปนี้ สำหรับข้อมูลเพิ่มเติม ให้ดู [เปิดใช้งานเอนทิตีเสมือน](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities)
+      - CompanyInfoEntity
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogisticsAddressTarEntity
+      - LogisticsAddressCountryRegionTranslationEntity
+      - LogisticsAddressStateEntity
+      - PurchProcurementChargeCDSEntity
+      - SalesChargeCDSEntity
+      - TaxGroupEntity
+      - TaxItemGroupHeadingEntity
+      - VendVendorV2Entity
 4. ตั้งค่า Dynamics 365 Regulatory Configuration Service (RCS) 
 5. สร้างคำขอบริการเพื่อให้ Microsoft สามารถเปิดใช้งานเที่ยวบินของคุณลักษณะต่อไปนี้:
 
       - ERCdsFeature
       - TaxServiceCDSFeature
 
-6. ใน Finance ไปที่พื้นที่ทำงาน **การจัดการคุณลักษณะ** และเปิดใช้งานคุณลักษณะต่อไปนี้
+6. ไปที่พื้นที่ทำงาน **การจัดการคุณลักษณะ** และเปิดใช้งานคุณลักษณะต่อไปนี้
 
       - (การแสดงตัวอย่าง) การสนับสนุนแหล่งข้อมูล Dataverse การรายงานทางอิเล็กทรอนิกส์
       - (พรีวิว) การสนับสนุนแหล่งข้อมูล Dataverse สำหรับบริการด้านภาษี

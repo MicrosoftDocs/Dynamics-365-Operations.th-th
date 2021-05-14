@@ -2,7 +2,7 @@
 title: การวิเคราะห์ทางการเงิน
 description: การวิเคราะห์ทางการเงินใช้ Microsoft Power BI เพื่อรวมตัวบ่งชี้ประสิทธิภาพหลักทางการเงิน (KPIs) แผนภูมิ และงบการเงิน
 author: kweekley
-ms.date: 04/09/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894919"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935894"
 ---
 # <a name="financial-analysis"></a>การวิเคราะห์ทางการเงิน
 
@@ -66,7 +66,6 @@ ms.locfileid: "5894919"
 
 - ข้อมูลธุรกรรมของการรายงานทางการเงินรุ่น 3 
 - สินเชื่อและการเรียกเก็บเงิน V2
-- CustCollectionsBIMeasurements
 - LedgerCovLiquidityMeasurement
 - คิวบ์การซื้อ
 - คิวบ์การขาย

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799864"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936667"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>จัดการผู้ใช้คู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซของ B2B
 
@@ -43,7 +43,7 @@ ms.locfileid: "5799864"
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>สร้างลำดับหมายเลขและเพิ่มในพารามิเตอร์ที่ใช้ร่วมกันของ Commerce
 
-ลำดับหมายเลขที่ใช้ในการสร้างตัวระบุเฉพาะที่สามารถอ่านได้สำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลำดับหมายเลข ให้ดู [ภาพรวมลำดับหมายเลข](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+ลำดับหมายเลขที่ใช้ในการสร้างตัวระบุเฉพาะที่สามารถอ่านได้สำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลำดับหมายเลข ให้ดู [ภาพรวมลำดับหมายเลข](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 เมื่อต้องการสร้างลำดับหมายเลขและเพิ่มลำดับหมายเลขนั้นในพารามิเตอร์ที่ใช้ร่วมกันของ Commerce ในศูนย์ควบคุม Commerce ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
@@ -136,7 +136,7 @@ ms.locfileid: "5799864"
 
 [ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เกี่ยวกับไซต์อีคอมเมิร์ซของ B2B](quantity-limits.md)
 
-[ภาพรวมของลำดับหมายเลข](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[ภาพรวมของลำดับหมายเลข](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

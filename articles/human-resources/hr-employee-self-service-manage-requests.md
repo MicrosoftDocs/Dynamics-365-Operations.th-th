@@ -2,7 +2,7 @@
 title: จัดการคำขอลางานและหยุดงาน
 description: ดูและอนุมัติคำขอลางานและหยุดงานใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790751"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924814"
 ---
 # <a name="manage-leave-and-absence-requests"></a>จัดการกับคำขอการลางานและการขาดงาน
 
@@ -31,13 +31,24 @@ ms.locfileid: "5790751"
 
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ทีมของฉัน**
 
-2. ภายใต้ **ข้อมูลทีมของฉัน** ให้เลือกแท็บ **ลางานและขาดงาน** 
+2. ภายใต้ **ข้อมูลทีมของฉัน** ให้เลือกแท็บ **ลางานและขาดงาน**
 
 3. ดูและอนุมัติคำขอเวลาหยุดพักของสมาชิกทีมงานได้ตามความจำเป็น
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(พรีวิว) การปรับปรุงประสบการณ์ของลำดับงานการขอลางาน
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+คุณลักษณะพรีวิวนี้จะมีการปรับปรุงดังต่อไปนี้:
+
+- คุณสามารถเลือกคำขอลางานได้หลายรายการ และทำการดำเนินการเดียวกันกับคำขอทั้งหมดได้
+- Ribbon ทั่วทั้งปุ่มลำดับงานด้านบนและใหม่บนหน้า แสดงกิจกรรมที่คุณสามารถใช้ในคำขอลางานได้
+
+![ประสบการณ์ผู้จัดการ](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
-- [การสร้างแผนการลางานและขาดงาน](hr-leave-and-absence-plans.md)
+- [สร้างแผนการลางานและการขาดงาน](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

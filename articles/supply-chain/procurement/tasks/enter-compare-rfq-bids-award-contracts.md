@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812001"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920592"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา
 
@@ -32,7 +32,7 @@ ms.locfileid: "5812001"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>ป้อนการตอบเป็นผู้จัดจำหน่าย
 
-1. บนแดชบอร์ด ให้เลือก **การประมูลของผู้จัดจำหน่าย**
+1. ไปที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย \> พื้นที่ทำงาน \> การประมูลของผู้จัดจำหน่าย**
 2. ในรายการ **คำเชิญการประมูลใหม่** ให้ค้นหา RFQ ที่เพิ่งถูกส่ง เลือก RFQ เพื่อตรวจทานสิ่งที่ถูกร้องขอ
 3. เลือก **สิ่งที่แนบ RFQ** เพื่อตรวจสอบสิ่งที่แนบใดๆ ที่ถูกเพิ่ม
 4. เลือก **การประมูล** เพื่อทำให้ฟิลด์สามารถแก้ไขได้ โปรดสังเกตว่า ฟิลด์ **กระบวนการประมูล** ถูกตั้งค่าเป็น **ผู้จัดจำหน่ายกำลังปรับปรุง**

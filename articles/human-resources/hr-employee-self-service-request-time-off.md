@@ -2,7 +2,7 @@
 title: คำขอเวลาหยุดพัก
 description: คำขอเวลาหยุดพักใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790703"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924865"
 ---
 # <a name="request-time-off"></a>คำขอเวลาหยุดพัก
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790703"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>เพิ่มส่วนแนบไปยังคำขอที่มีอยู่
 
-เมื่อปรับปรุงคำขอการหยุดพักที่มีอยู่ คุณสามารถเพิ่มส่วนแนบ นอกจากนี้ คุณยังสามารถดูคำขอที่เกี่ยวข้องทั้งหมดสำหรับวันที่ที่ระบุได้ด้วย 
+เมื่อปรับปรุงคำขอการหยุดพักที่มีอยู่ คุณสามารถเพิ่มส่วนแนบ นอกจากนี้ คุณยังสามารถดูคำขอที่เกี่ยวข้องทั้งหมดสำหรับวันที่ที่ระบุได้ด้วย
 
 ## <a name="view-leave-balances"></a>ดูยอดดุลของการลา
 
@@ -58,6 +58,20 @@ ms.locfileid: "5790703"
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **อื่นๆ** (...) ในไทล์ **ยอดดุลเวลาหยุดพัก**
 
 2. เพื่อดูคำขอเวลาหยุดพักที่อนุมัติแล้ว ให้เลือก **อนุมัติเวลาหยุดพัก** เพื่อดูคำขอเวลาหยุดพักที่กำลังรอ ให้เลือก **คำขอเวลาหยุดพัก**
+
+## <a name="cancel-time-off-requests"></a>ยกเลิกคำขอเวลาหยุดพัก
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ดูเวลาหยุดพัก** ในไทล์ **ยอดดุลเวลาหยุดพัก**
+
+2. บนฟอร์ม **เวลาหยุดพัก** ให้เลือกคำขอเวลาหยุดพักอย่างน้อยหนึ่งรายการเพื่อยกเลิก
+
+3. เลือกปุ่ม **ยกเลิก**
+
+4. ในบานหน้าต่าง **รายละเอียดการยกเลิก** ให้ป้อนข้อคิดเห็น แล้วจากนั้น เลือก **ส่ง**
+
+   ![ยกเลิกคำขอการลางาน](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

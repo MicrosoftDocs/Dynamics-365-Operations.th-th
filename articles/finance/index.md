@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813494"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890340"
 ---
 # <a name="finance-home-page"></a>โฮมเพจ Finance
 
@@ -38,11 +38,11 @@ ms.locfileid: "5813494"
         - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [การจัดการค่าใช้จ่าย](expense-management/expense-management.md)
-        - [การรายงานทางการเงิน](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [การจัดการค่าใช้จ่าย](/dynamics365/project-operations/prod-exp/expense-management)
+        - [การรายงานทางการเงิน](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [สินทรัพย์ถาวร](fixed-assets/fixed-assets.md)
         - [บัญชีแยกประเภททั่วไปและการรายงานทางการเงิน](general-ledger/general-ledger.md) 
-        - [การจัดการและการบัญชีโครงการ](project-management/overview-project-management-accounting.md)
+        - [การจัดการและการบัญชีโครงการ](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [ภาครัฐ](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ ms.locfileid: "5813494"
 
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 
-ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน ดูส่วน [คุณลักษณะการทำงานเฉพาะและบังคับ](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) ในเนื้อหาความช่วยเหลือของเราเพื่อเรียนรู้เกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค
+ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน ดูส่วน [คุณลักษณะการทำงานเฉพาะและบังคับ](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) ในเนื้อหาความช่วยเหลือของเราเพื่อเรียนรู้เกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค
 
 ### <a name="additional-content"></a>เนื้อหาเพิ่มเติม
 
@@ -73,6 +73,6 @@ ms.locfileid: "5813494"
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 
-สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Finance ใน Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path)
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Finance ใน Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

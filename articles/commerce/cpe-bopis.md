@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795966"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936922"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795966"
 
 ## <a name="prerequisite"></a>ข้อกำหนดเบื้องต้น
 
-ทำตามกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานและตั้งค่าคอนฟิกสภาพแวดล้อมของคุณ ให้ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](provisioning-guide.md) และ [ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning)
+ทำตามกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานและตั้งค่าคอนฟิกสภาพแวดล้อมของคุณ ให้ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](provisioning-guide.md) และ [ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](./cpe-post-provisioning.md)
 
 หลังจากที่มีการเตรียมใช้งานและการตั้งค่าคอนฟิกสภาพแวดล้อม Commerce ของคุณตั้งแต่ต้นจนจบ คุณสามารถใช้หัวข้อนี้เพื่อเปิดใช้งานสถานการณ์จำลอง BOPIS
 
@@ -37,7 +37,7 @@ ms.locfileid: "5795966"
 
 ### <a name="configure-modern-pos"></a>ตั้งค่าคอนฟิก Modern POS
 
-สถานการณ์จำลอง BOPIS ที่เกี่ยวข้องกับการชำระเงินด้วยบัตรเครดิต ต้องมีสถานีฮาร์ดแวร์ สถานีฮาร์ดแวร์ถูกสร้างขึ้นในไคลเอนต์ Modern POS for Windows และ Android ถ้าคุณกำลังใช้ Cloud POS หรือ Modern POS สำหรับ iOS ไคลเอนต์การขายหน้าร้าน (POS) ต้องมีการจับคู่กับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิก BOPIS สำหรับ Windows และไคลเอนต์ Android สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ดู [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์ Retail](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation)
+สถานการณ์จำลอง BOPIS ที่เกี่ยวข้องกับการชำระเงินด้วยบัตรเครดิต ต้องมีสถานีฮาร์ดแวร์ สถานีฮาร์ดแวร์ถูกสร้างขึ้นในไคลเอนต์ Modern POS for Windows และ Android ถ้าคุณกำลังใช้ Cloud POS หรือ Modern POS สำหรับ iOS ไคลเอนต์การขายหน้าร้าน (POS) ต้องมีการจับคู่กับสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิก BOPIS สำหรับ Windows และไคลเอนต์ Android สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าสถานีฮาร์ดแวร์ที่ใช้ร่วมกัน ให้ดู [ตั้งค่าคอนฟิกและติดตั้งสถานีฮาร์ดแวร์ Retail](./retail-hardware-station-configuration-installation.md)
 
 1. ไปยัง **Retail และ Commerce \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> เครื่องบันทึกเงินสด**
 2. เลือกลงทะเบียน **SANFRAN-5** แล้วเลือก **แก้ไข**
@@ -87,7 +87,7 @@ ms.locfileid: "5795966"
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>สร้างใบสั่งหน้าร้านสำหรับการเบิกสินค้าในร้านค้า
 
-1. ไปที่ URL ที่คุณระบุไว้ในขั้นตอน [เริ่มต้นอีคอมเมิร์ซ](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) ในระหว่างการตั้งค่าคอนฟิกสภาพแวดล้อม
+1. ไปที่ URL ที่คุณระบุไว้ในขั้นตอน [เริ่มต้นอีคอมเมิร์ซ](./provisioning-guide.md#initialize-e-commerce) ในระหว่างการตั้งค่าคอนฟิกสภาพแวดล้อม
 2. เลือกสินค้า และเลือก **เพิ่มไปยังรถเข็น**
 3. บนหน้าถุงช้อปปิ้ง ให้เลือก **เบิกสินค้านี้** สำหรับรายการใบสั่งที่คุณเพิ่งเพิ่ม
 4. ในกล่องโต้ตอบ **เลือกร้านค้า** ให้ป้อน **San Francisco** แล้วเลือกปุ่ม **ค้นหา**
@@ -112,7 +112,7 @@ ms.locfileid: "5795966"
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>ซิงโครไนส์ใบสั่งออนไลน์ไปยังฝ่ายสนับสนุน
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการซิงโครไนส์ใบสั่งออนไลน์ ให้ดูที่ [การลงรายการบัญชีการขายและการชำระเงินออนไลน์](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการซิงโครไนส์ใบสั่งออนไลน์ ให้ดูที่ [การลงรายการบัญชีการขายและการชำระเงินออนไลน์](./tasks/posting-online-sales-payments.md)
 
 ### <a name="pick-up-an-order-in-the-store"></a>เบิกสินค้าในร้านค้า
 
@@ -148,19 +148,19 @@ ms.locfileid: "5795966"
 
 [FAQ เกี่ยวกับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [พอร์ทัล Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [เว็บไซต์ Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[ตัวเชื่อมต่อการชำระเงิน Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[ตัวเชื่อมต่อการชำระเงิน Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen](./dev-itpro/adyen-connector-listpi.md)
 
-[ภาพรวมของการชำระเงินผ่านช่องทาง Omni](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[ภาพรวมของการชำระเงินผ่านช่องทาง Omni](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

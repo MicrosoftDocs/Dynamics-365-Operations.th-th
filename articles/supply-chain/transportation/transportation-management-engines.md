@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828381"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920120"
 ---
 # <a name="transportation-management-engines"></a>กลไกจัดการการจัดการขนส่ง
 
@@ -94,8 +94,14 @@ ms.locfileid: "5828381"
 | 1        | รหัสไปรษณีย์ต้นทาง            | การมอบหมาย | สตริง    | รหัสไปรษณีย์    | เลือกแล้ว  |
 | 2        | รัฐปลายทาง             | การมอบหมาย | สตริง    | รัฐ          |           |
 | 3        | รหัสไปรษณีย์เริ่มต้นของปลายทาง | การมอบหมาย | สตริง    | รหัสไปรษณีย์    | เลือกแล้ว  |
-| 4 ชั่วโมง        | รหัสไปรษณีย์สิ้นสุดของปลายทาง   | การมอบหมาย | สตริง    | รหัสไปรษณีย์    | เลือกแล้ว  |
-| 5        | ประเทศปลายทาง           | การมอบหมาย | สตริง    | ประเทศ/ภูมิภาค |           |
+| 4 ชั่วโมง        | รหัสไปรษณีย์สิ้นสุดของปลายทาง   | การมอบหมาย | สตริง    | รหัสไปรษณีย์    | เลือกไว้  |
+| 5        | ประเทศปลายทาง           | การกำหนด | สตริง    | ประเทศ/ภูมิภาค |           |
+
+### <a name="whitepaper"></a>เอกสารทางเทคนิค
+
+สำหรับข้อมูลเพิ่มเติม ดาวน์โหลดเอกสารทางเทคนิคต่อไปนี้ (ซึ่งเขียนขึ้นเพื่อสนับสนุน AX2012 แต่ยังคงใช้สำหรับ Dynamics 365 Supply Chain Management)
+
+- [กลไกจัดการการจัดการการขนส่ง](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754811"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923318"
 ---
 # <a name="feature-management-overview"></a>ภาพรวมของการจัดการคุณลักษณะ
 
@@ -140,7 +140,7 @@ ms.locfileid: "5754811"
 
 ## <a name="new-features-are-optional-for-12-months"></a>คุณลักษณะใหม่นี้ไม่จำเป็นต้องระบุเป็นเวลา 12 เดือน
 
-เมื่อมีการติดตั้งลักษณะการทำงานที่ไม่ใช่ที่สำคัญใหม่ จะไม่จำเป็นต้องระบุสำหรับรอบระยะเวลา 12 เดือน การทำเช่นนี้จะช่วยให้คุณและองค์กรของคุณมีเวลาวางแผนไปข้างหน้าเพื่อให้เกิดการใช้คุณลักษณะและมีการทดสอบกับการดำเนินงานประจำวันของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features)
+เมื่อมีการติดตั้งลักษณะการทำงานที่ไม่ใช่ที่สำคัญใหม่ จะไม่จำเป็นต้องระบุสำหรับรอบระยะเวลา 12 เดือน การทำเช่นนี้จะช่วยให้คุณและองค์กรของคุณมีเวลาวางแผนไปข้างหน้าเพื่อให้เกิดการใช้คุณลักษณะและมีการทดสอบกับการดำเนินงานประจำวันของคุณ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน](../one-version.md#what-about-new-features)
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>การใช้การจัดการคุณลักษณะเพื่อเปิดคุณลักษณะ ISV หรือคุณลักษณะที่กำหนดเอง
 
@@ -161,7 +161,7 @@ ms.locfileid: "5754811"
 การปรับปรุงช่วงเวลาที่นำออกใช้เป็นตัวแปร ช่วงเวลาการปรับปรุงสภาพแวดล้อมเป็นตัวแปร และลูกค้าสามารถเลือกที่จะข้ามการปรับปรุงบางอย่างได้ ด้วยเหตุนี้ วันที่ที่เฉพาะเจาะจงจึงยากที่จะกำหนด 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>เอกสารประกอบสำหรับคุณลักษณะที่ถูกทำให้เป็นแบบบังคับอยู่ที่ใด 
-เอกสารประกอบนี้มาจากทึมแอพลิเคชัน บ่อยครั้งที่รายการเหล่านี้จะถูกกล่าวถึงใน [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features) 
+เอกสารประกอบนี้มาจากทึมแอพลิเคชัน บ่อยครั้งที่รายการเหล่านี้จะถูกกล่าวถึงใน [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้](../../../dev-itpro/migration-upgrade/deprecated-features.md) 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>มีการแจ้งเตือนหรือสัญญาณแบบในผลิตภัณฑ์ที่จะมีการเปิดใช้งานคุณลักษณะให้เป็นแบบบังคับหรือไม่ 
 ไม่มีกลไกการแจ้งเตือนที่เกี่ยวข้องกับการทำให้คุณลักษณะเป็นแบบบังคับอยู่ในปัจจุบัน

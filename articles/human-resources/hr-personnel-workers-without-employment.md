@@ -1,0 +1,62 @@
+---
+title: ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน
+description: ผู้ปฏิบัติงานที่ไม่มีการจ้างงานในอนาคต ปัจจุบัน หรือในอดีตกับองค์กรของคุณ จะปรากฏในฟอร์มผู้ปฏิบัติงานที่ไม่มีการจ้างงาน
+author: andreabichsel
+ms.date: 04/06/2021
+ms.topic: ''
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelManagementWorkspace
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2021-04-06
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e1a137de25924f4c4ec6f6b1fe70f9d21af591c0
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924582"
+---
+# <a name="workers-without-employment"></a>ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+ผู้ปฏิบัติงานที่ไม่มีการจ้างงานในอนาคต ปัจจุบัน หรือในอดีตกับองค์กรของคุณ จะปรากฏในฟอร์ม **ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน** ผู้ปฏิบัติงานที่มีสถานะนี้สามารถปรากฏขึ้น เมื่อคุณนําเข้าผู้ปฏิบัติงานที่ไม่มีเรกคอร์ดการจ้างงาน หรือเมื่อคุณลบการจ้างงานของผู้ปฏิบัติงานผ่านทาง **ผู้ปฏิบัติงาน > ประวัติการจ้างงาน**
+
+โดยค่าเริ่มต้น ฟอร์ม **ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน** จะพร้อมให้ใช้งานกับบทบาทต่อไปนี้:
+
+- ผู้ช่วยฝ่ายทรัพยากรบุคคล
+- ผู้จัดการฝ่ายทรัพยากรบุคคล
+- ผู้สรรหาบุคลากร
+- ผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการ
+- ผู้ดูแลระบบค่าจ้าง
+- ผู้จัดการฝ่ายค่าจ้าง
+- ผู้จัดการฝ่ายฝึกอบรม
+
+ในรายการ **ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน** คุณสามารถลบบุคคลที่แสดงรายการไว้ได้ โดยค่าเริ่มต้น จะมอบสิทธิ์นี้ให้กับบทบาทผู้ช่วยฝ่ายทรัพยากรบุคคล คุณสามารถให้สิทธิ์นี้แก่บทบาทอื่นโดยใช้ขั้นตอนต่อไปนี้:
+
+1. เลือก **การจัดการระบบ** แล้วเลือกแท็บ **การตั้งค่าคอนฟิกด้านความปลอดภัย**
+
+2. ในแท็บ **สิทธิ์** ให้กรองรายการ **สิทธิ์** ไปยัง **รักษาผู้ปฏิบัติงาน**
+
+   [![รายการสิทธิ์ตัวกรอง](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+
+3. ในคอลัมน์ **อ้างอิง** เลือก **รายการเมนูที่แสดง**
+
+4. ใน **รายการเมนูที่แสดง** เลือก **HcmWorkersWithoutEmployment**
+
+   [![เลือกแบบฟอร์ม](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+
+5. ตั้งค่าสิทธิ์ **ลบ** เพื่อ **มอบสิทธิ์**
+
+6. เลือกแท็บ **ออบเจ็กต์ที่ยังไม่ได้เผยแพร่**
+
+7. เลือก **เผยแพร่ทั้งหมด**
+
+   [![เผยแพร่กการเปลี่ยนแปลง](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

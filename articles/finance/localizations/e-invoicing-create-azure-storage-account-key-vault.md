@@ -2,7 +2,7 @@
 title: สร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893813"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963250"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>สร้างบัญชีการจัดเก็บของ Azure และ Key Vault
 
@@ -80,6 +80,10 @@ ms.locfileid: "5893813"
 11. เลือก **เพิ่ม** แล้วเลือก **บันทึกการเปลี่ยนแปลง Key Vault**
 12. บนหน้า **ภาพรวม** สำเนาค่า **ชื่อ DNS** สำหรับ Key Vault ค่านี้จะใช้ในระหว่างการตั้งค่าของบริการใน RCS และจะถูกอ้างอิงเป็น *URI ของ Key Vault*
 
+> [!NOTE]
+> สำหรับความปลอดภัยเพิ่มเติมในบัญชีการจัดเก็บ ให้ตั้งค่าคอนฟิก Azure Azure For Storage
+> 
+> สำหรับข้อมูลเพิ่มเติม ดูที่ [บทนําเกี่ยวกับ Azure Azure Azure for Storage](/azure/security-center/defender-for-storage-introduction)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

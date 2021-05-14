@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891041"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953423"
 ---
 # <a name="manage-leave-requests-in-teams"></a>จัดการคำขอลางานใน Teams
 
@@ -207,6 +207,14 @@ ms.locfileid: "5891041"
 1. ตรวจสอบว่าบัญชีที่คุณใช้ในการเข้าสู่ระบบ Microsoft Teams เป็นเดียวกันกับที่คุณใช้สำหรับการเข้าถึง Dynamics 365 Human Resources
 
 2. ตรวจสอบว่าคุณเป็นผู้อนุมัติที่ถูกต้องสำหรับคำขอดังกล่าว โดยตรวจสอบการตั้งค่าลำดับงานสำหรับการอนุมัติการลางาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลำดับงานคำขอลางาน ดูที่ [สร้างลำดับงานคำขอลางาน](hr-leave-and-absence-workflow.md)
+
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>ปล่อยให้ผู้อนุมัติไม่ได้รับข้อความสนทนาของ Teams ในการอนุมัติคำขอลางาน
+
+1. ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแจ้งเตือนสำหรับสภาพแวดล้อมและผู้ใช้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) และ [เปิดหรือปิดการแจ้งเตือน Teams สำหรับผู้ใช้แต่ละราย](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users)
+
+2. ตรวจสอบให้แน่ใจว่าผู้ใช้ลงชื่อเข้าใช้แท็บ **การสนทนา** โดยใช้ข้อมูลส่วนบุคคลเดียวกับที่ผู้ใช้ใช้ในการอนุมัติคำขอลางาน ใช้ข้อความ "ลงชื่อออก" แล้ว "ลงชื่อเข้าใช้" เพื่อลงชื่อเข้าใช้ด้วยข้อมูลส่วนบุคคลที่ถูกต้อง
+
+3. หากปัญหายังคงอยู่ ให้ตรวจสอบสถานะของชุดงานระบบเหตุการณ์ทางธุรกิจในฐานะผู้ดูแลระบบ ถ้าอยู่ในขั้นที่รออยู่หรือปฏิบัติการ ให้ตรวจสอบย้อนกลับในอีกสองสามนาที หากสถานะยังคงไม่เปลี่ยนแปลง ให้บันทึกตั๋วการสนับสนุน เพื่อให้ทีมงานของเราสามารถแก้ปัญหาได้
 
 ## <a name="known-accessibility-issues"></a>ปัญหาเกี่ยวกับความสามารถในการเข้าถึงที่ทราบ
 
