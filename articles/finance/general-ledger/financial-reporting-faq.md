@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811321"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923036"
 ---
-# <a name="financial-reporting-faq"></a><span data-ttu-id="88afa-103">คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="88afa-103">Financial reporting FAQ</span></span> 
+# <a name="financial-reporting-faq"></a><span data-ttu-id="d1742-103">คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="d1742-103">Financial reporting FAQ</span></span> 
 
-<span data-ttu-id="88afa-104">หัวข้อนี้แสดงรายการคำถามที่เกี่ยวข้องกับการรายงานทางการเงินที่ผู้ใช้รายอื่นมี</span><span class="sxs-lookup"><span data-stu-id="88afa-104">This topic lists questions related to financial reporting that other users have had.</span></span> 
+<span data-ttu-id="d1742-104">หัวข้อนี้แสดงคําตอบของคําถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="d1742-104">This topic provides answers to frequently asked questions about financial reporting.</span></span> 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="d1742-105">ฉันจะจํากัดการเข้าถึงรายงานโดยใช้ความปลอดภัยแบบแผนผังได้อย่างไร</span><span class="sxs-lookup"><span data-stu-id="d1742-105">How do I restrict access to a report using tree security?</span></span>
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a><span data-ttu-id="88afa-105">ฉันจะจํากัดการเข้าถึงรายงานโดยใช้ความปลอดภัยแบบแผนผังได้อย่างไร</span><span class="sxs-lookup"><span data-stu-id="88afa-105">How do I restrict access to a report using Tree security?</span></span>
+<span data-ttu-id="d1742-106">ตัวอย่างต่อไปนี้แสดงวิธีการจํากัดการเข้าถึงรายงานโดยใช้ความปลอดภัยแบบแผนผัง</span><span class="sxs-lookup"><span data-stu-id="d1742-106">The following example shows how to restrict access to a report using tree security.</span></span>
 
-<span data-ttu-id="88afa-106">สถานการณ์จำลอง: บริษัทสาธิต USMF มีรายงานงบดุลซึ่งไม่ต้องการให้ผู้ใช้รายงานทางการเงินทั้งหมดสามารถดูได้ใน D365</span><span class="sxs-lookup"><span data-stu-id="88afa-106">Scenario: The USMF demo company has a Balance sheet report that it doesn’t want all Financial reporting users to be able to view in D365.</span></span> <span data-ttu-id="88afa-107">วิธีการ: คุณสามารถใช้ความปลอดภัยแบบแผนผังเพื่อจํากัดการเข้าถึงรายงานเดียว เพื่อให้ผู้ใช้บางรายเท่านั้นที่สามารถเข้าถึงรายงานได้</span><span class="sxs-lookup"><span data-stu-id="88afa-107">Solution: You can utilize Tree security to restrict access to a single report so that only certain users can access the report.</span></span> 
+<span data-ttu-id="d1742-107">บริษัทสาธิต USMF มีรายงานงบดุลที่ผู้ใช้รายงานทางการเงินบางรายเท่านั้นควรมีสิทธิ์เข้าถึง</span><span class="sxs-lookup"><span data-stu-id="d1742-107">The USMF demo company has a Balance sheet report that not all Financial reporting users should have access to.</span></span> <span data-ttu-id="d1742-108">หากต้องการจำกัดการเข้าถึง คุณสามารถใช้ความปลอดภัยแบบแผนผังเพื่อจํากัดการเข้าถึงรายงานเดียว เพื่อให้ผู้ใช้บางรายเท่านั้นที่สามารถเข้าถึงรายงานได้</span><span class="sxs-lookup"><span data-stu-id="d1742-108">To restrict access, you can use tree security to restrict access to a single report so that only certain users can access the report.</span></span> <span data-ttu-id="d1742-109">ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อจํากัดการเข้าถึง</span><span class="sxs-lookup"><span data-stu-id="d1742-109">Follow these steps to restrict access:</span></span> 
 
-1.  <span data-ttu-id="88afa-108">ล็อกอินเข้าสู่ตัวออกแบบรายงานของโปรแกรมรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="88afa-108">Log into Financial Reporter Report Designer</span></span>
+1. <span data-ttu-id="d1742-110">ลงชื่อเข้าใช้ Financial Reporter Report Designer</span><span class="sxs-lookup"><span data-stu-id="d1742-110">Sign in to Financial Reporter Report Designer.</span></span>
+2. <span data-ttu-id="d1742-111">สร้างข้อกำหนดของแผนผังใหม่</span><span class="sxs-lookup"><span data-stu-id="d1742-111">Create a new tree definition.</span></span> <span data-ttu-id="d1742-112">ไปที่ **ไฟล์ > ใหม่ > ข้อกำหนดของแผนผัง**</span><span class="sxs-lookup"><span data-stu-id="d1742-112">Go to **File > New > Tree Definition**.</span></span>
+3. <span data-ttu-id="d1742-113">ดับเบิลคลิกรายการ **สรุป** ในคอลัมน์ **ความปลอดภัยของหน่วย**</span><span class="sxs-lookup"><span data-stu-id="d1742-113">Double-click the **Summary** line in the **Unit Security** column.</span></span>
+4. <span data-ttu-id="d1742-114">เลือก **ผู้ใช้และกลุ่ม**</span><span class="sxs-lookup"><span data-stu-id="d1742-114">Select **Users and Groups**.</span></span>  
+5. <span data-ttu-id="d1742-115">เลือกผู้ใช้หรือกลุ่มที่ต้องเข้าถึงรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="d1742-115">Select the users or groups that need access to this report.</span></span> 
+6. <span data-ttu-id="d1742-116">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="d1742-116">Select **Save**.</span></span>
+7. <span data-ttu-id="d1742-117">ในข้อกำหนดของรายงาน ให้เพิ่มข้อกำหนดแผนผังใหม่</span><span class="sxs-lookup"><span data-stu-id="d1742-117">In the report definition, add your new tree definition.</span></span>
+8. <span data-ttu-id="d1742-118">ในข้อกำหนดของแผนผัง ให้เลือก **การตั้งค่า**</span><span class="sxs-lookup"><span data-stu-id="d1742-118">In the tree definition, select **Setting**.</span></span> <span data-ttu-id="d1742-119">ภายใต้ **การเลือกหน่วยการรายงาน** ให้เลือก **รวมหน่วยทั้งหมด**</span><span class="sxs-lookup"><span data-stu-id="d1742-119">Under **Reporting unit selection**, select **Include all units**.</span></span>
 
-2.  <span data-ttu-id="88afa-109">สร้างข้อกำหนดแผนผังใหม่ (ไฟล์ | สร้าง | ข้อกำหนดแผนภูมิ) a.</span><span class="sxs-lookup"><span data-stu-id="88afa-109">Create a new Tree Definition (File | New | Tree Definition) a.</span></span>    <span data-ttu-id="88afa-110">ดับเบิลคลิกรายการ **สรุป** ในคอลัมน์ **ความปลอดภัยของหน่วย**</span><span class="sxs-lookup"><span data-stu-id="88afa-110">Double-click the **Summary** line in the **Unit Security** column.</span></span>
-  <span data-ttu-id="88afa-111">i.</span><span class="sxs-lookup"><span data-stu-id="88afa-111">i.</span></span>    <span data-ttu-id="88afa-112">คลิก ผู้ใช้และกลุ่ม</span><span class="sxs-lookup"><span data-stu-id="88afa-112">Click Users and Groups.</span></span>  
-          <span data-ttu-id="88afa-113">1.    เลือกผู้ใช้หรือกลุ่มที่ต้องการเข้าถึงรายงานนี้</span><span class="sxs-lookup"><span data-stu-id="88afa-113">1.    Select the User(s) or Group that would like to access this report.</span></span> 
-          
-<span data-ttu-id="88afa-114">[![หน้าจอผู้ใช้](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-114">[![user screen](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)</span></span>
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a><span data-ttu-id="d1742-120">ฉันจะระบุได้อย่างไรว่าบัญชีใดไม่ตรงกับยอดดุลของฉัน</span><span class="sxs-lookup"><span data-stu-id="d1742-120">How do I identify which accounts do not match my balances?</span></span>
 
-<span data-ttu-id="88afa-115">[![หน้าจอความปลอดภัย](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span><span class="sxs-lookup"><span data-stu-id="88afa-115">[![security screen](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)</span></span>
+<span data-ttu-id="d1742-121">หากคุณมีรายงานที่ไม่มียอดดุลตรงกัน ต่อไปนี้เป็นบางขั้นตอนที่คุณสามารถใช้ระบุแต่ละบัญชีเหล่านั้นและส่วนแตกต่าง</span><span class="sxs-lookup"><span data-stu-id="d1742-121">If you have a report that doesn't have matching balances, here are some steps you can take to identify each of the accounts and variances.</span></span> 
 
-  <span data-ttu-id="88afa-116">b.</span><span class="sxs-lookup"><span data-stu-id="88afa-116">b.</span></span>    <span data-ttu-id="88afa-117">คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="88afa-117">Click **Save**.</span></span>
-  
-<span data-ttu-id="88afa-118">[![ปุ่มบันทึก](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-118">[![save button](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)</span></span>
+<span data-ttu-id="d1742-122">**Financial Reporter Report Designer**</span><span class="sxs-lookup"><span data-stu-id="d1742-122">**Financial Reporter Report Designer**</span></span>
+1. <span data-ttu-id="d1742-123">ใน Financial Reporter Report Designer ให้สร้างข้อกำหนดของแถวใหม่</span><span class="sxs-lookup"><span data-stu-id="d1742-123">In Financial Reporter Report Designer, create a new row definition.</span></span> 
+2. <span data-ttu-id="d1742-124">เลือก **แก้ไข > แทรกแถวจากมิติ**</span><span class="sxs-lookup"><span data-stu-id="d1742-124">Select **Edit > Insert Rows from Dimensions**.</span></span>
+3. <span data-ttu-id="d1742-125">เลือก **MainAccount**</span><span class="sxs-lookup"><span data-stu-id="d1742-125">Select **MainAccount**.</span></span>  
+4. <span data-ttu-id="d1742-126">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="d1742-126">Select **OK**.</span></span>
+5. <span data-ttu-id="d1742-127">บันทึกข้อกำหนดของแถว</span><span class="sxs-lookup"><span data-stu-id="d1742-127">Save the row definition.</span></span>
+6. <span data-ttu-id="d1742-128">สร้างข้อกำหนดของคอลัมน์ใหม่</span><span class="sxs-lookup"><span data-stu-id="d1742-128">Create a new column definition</span></span>
+7. <span data-ttu-id="d1742-129">สร้างข้อกำหนดของรายงานใหม่</span><span class="sxs-lookup"><span data-stu-id="d1742-129">Create a new report definition.</span></span>
+8. <span data-ttu-id="d1742-130">เลือก **การตั้งค่า** และยกเลิกการเลือกตัวเลือกนี้</span><span class="sxs-lookup"><span data-stu-id="d1742-130">Select **Settings** and unmark this option.</span></span>  
+9. <span data-ttu-id="d1742-131">สร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="d1742-131">Generate the report.</span></span> 
+10. <span data-ttu-id="d1742-132">ส่งออกรายงานไปยัง Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="d1742-132">Export the report to Microsoft Excel.</span></span>
 
-3.  <span data-ttu-id="88afa-119">ในข้อกำหนดของรายงานของคุณ ให้เพิ่มข้อกำหนดแผนผังใหม่</span><span class="sxs-lookup"><span data-stu-id="88afa-119">In your Report Definition add your new Tree Definition</span></span>
+<span data-ttu-id="d1742-133">**Dynamics 365 Finance**</span><span class="sxs-lookup"><span data-stu-id="d1742-133">**Dynamics 365 Finance**</span></span> 
+1. <span data-ttu-id="d1742-134">ใน Dynamics 365 Finance ไปที่ **บัญชีแยกประเภททั่วไป > การสอบถามและรายงาน > งบทดลอง**</span><span class="sxs-lookup"><span data-stu-id="d1742-134">In Dynamics 365 Finance, go to **General Ledger > Inquiries and Reports > Trial Balance**.</span></span>
+2. <span data-ttu-id="d1742-135">ตั้งค่าพารามิเตอร์ดังต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="d1742-135">Set the following parameters:</span></span>
+   - <span data-ttu-id="d1742-136">**วันที่เริ่มต้น** - ป้อนการเริ่มต้นของปีบัญชี</span><span class="sxs-lookup"><span data-stu-id="d1742-136">**From Date** - Enter the start of the fiscal year.</span></span>
+   - <span data-ttu-id="d1742-137">**วันที่สิ้นสุด** - ป้อนวันที่ที่คุณสร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="d1742-137">**To Date** - Enter the date you are generating the report for.</span></span>
+   - <span data-ttu-id="d1742-138">**มิติทางการเงิน** - ตั้งค่าฟิลด์นี้เป็น **ชุดบัญชีหลัก**</span><span class="sxs-lookup"><span data-stu-id="d1742-138">**Financial Dimension** - Set this field to **Main Account set**.</span></span>
+ 3. <span data-ttu-id="d1742-139">เลือก **คำนวณ**</span><span class="sxs-lookup"><span data-stu-id="d1742-139">Select **Calculate**.</span></span>
+ 4. <span data-ttu-id="d1742-140">ส่งออกรายงานไปยัง Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="d1742-140">Export the report to Microsoft Excel.</span></span>
 
-<span data-ttu-id="88afa-120">[![แบบฟอร์มข้อกำหนดแผนผัง](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span><span class="sxs-lookup"><span data-stu-id="88afa-120">[![tree definition form](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)</span></span>
-
-<span data-ttu-id="88afa-121">A.</span><span class="sxs-lookup"><span data-stu-id="88afa-121">A.</span></span>  <span data-ttu-id="88afa-122">ขณะอยู่ในข้อกำหนดแผนผัง คลิก ตั้งค่า และภายใต้ "การเลือกหน่วยการรายงาน" เลือก "รวมหน่วยทั้งหมด"</span><span class="sxs-lookup"><span data-stu-id="88afa-122">While in the Tree Definition click on Setting and under “Reporting unit selection” check “Include all units”</span></span>
-
-<span data-ttu-id="88afa-123">[![แบบฟอร์มการเลือกหน่วยการรายงาน](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span><span class="sxs-lookup"><span data-stu-id="88afa-123">[![reporting unit selection form](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)</span></span>
-
-<span data-ttu-id="88afa-124">**ก่อนหน้า:** [![ภาพหน้าจอก่อนหน้า](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-124">**Before:** [![before screenshot](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)</span></span>
-
-<span data-ttu-id="88afa-125">**หลังจาก:** [![ภาพหน้าจอหลังจาก](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-125">**After:** [![after screenshot](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)</span></span>
-
-<span data-ttu-id="88afa-126">หมายเหตุ: สาเหตุของข้อความข้างต้นคือผู้ใช้ของฉันไม่มีสิทธิ์เข้าถึงรายงานนั้นหลังจากที่ใช้ความปลอดภัยของหน่วย</span><span class="sxs-lookup"><span data-stu-id="88afa-126">Note: Reason for the above message is my user does not have access to that report after applying Unit Security</span></span>
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a><span data-ttu-id="88afa-127">ฉันจะหาได้อย่างไรว่าบัญชีใดที่ไม่ตรงกับยอดดุลของฉันใน D365</span><span class="sxs-lookup"><span data-stu-id="88afa-127">How do I determine which account(s) do not matching my balances in D365?</span></span>
-
-<span data-ttu-id="88afa-128">เมื่อคุณมีรายงานที่ไม่ตรงกับสิ่งที่คุณคาดไว้ใน D365 ต่อไปนี้เป็นบางขั้นตอนที่คุณสามารถใช้ระบุบัญชีเหล่านั้นและส่วนแตกต่าง</span><span class="sxs-lookup"><span data-stu-id="88afa-128">When you have a report that doesn't match what you would expect in D365, here are some steps you could take to identify those accounts and the variances.</span></span> 
-
-### <a name="in-financial-reporter-report-designer"></a><span data-ttu-id="88afa-129">ในตัวออกแบบรายงานของโปรแกรมรายงานทางการเงิน</span><span class="sxs-lookup"><span data-stu-id="88afa-129">In Financial Reporter Report Designer</span></span>
-
-1.  <span data-ttu-id="88afa-130">สร้างข้อกำหนดของแถว a.</span><span class="sxs-lookup"><span data-stu-id="88afa-130">Create a new Row Definition a.</span></span>    <span data-ttu-id="88afa-131">คลิก แก้ไข | แทรกแถวจากมิติ i.</span><span class="sxs-lookup"><span data-stu-id="88afa-131">Click Edit | Insert Rows from Dimensions i.</span></span>  <span data-ttu-id="88afa-132">เลือก MainAccount [![เลือกหน้าจอหลัก_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-132">Select MainAccount [![Select Main screen_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)</span></span>
-    
-    <span data-ttu-id="88afa-133">ii.</span><span class="sxs-lookup"><span data-stu-id="88afa-133">ii.</span></span> <span data-ttu-id="88afa-134">คลิก ตกลง b.</span><span class="sxs-lookup"><span data-stu-id="88afa-134">Click Ok b.</span></span>    <span data-ttu-id="88afa-135">บันทึกข้อกำหนดของแถว</span><span class="sxs-lookup"><span data-stu-id="88afa-135">Save the Row Definition</span></span>
-
-2.  <span data-ttu-id="88afa-136">สร้างข้อกำหนดของคอลัมน์ใหม่     [![สร้างข้อกำหนดของคอลัมน์ใหม่](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-136">Create a new Column Definition     [![Create a new column definition](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)</span></span>
-
-3.  <span data-ttu-id="88afa-137">สร้างข้อกำหนดของรายงาน a.</span><span class="sxs-lookup"><span data-stu-id="88afa-137">Create a new Report Definition a.</span></span>    <span data-ttu-id="88afa-138">คลิก การตั้งค่า และยกเลิกการเลือก [![แบบฟอร์มการตั้งค่า](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-138">Click Settings and uncheck [![Settings form](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)</span></span>
-   
-4.  <span data-ttu-id="88afa-139">สร้างรายงาน</span><span class="sxs-lookup"><span data-stu-id="88afa-139">Generate the Report.</span></span> 
-
-5.  <span data-ttu-id="88afa-140">ส่งออกรายงานไปยัง Excel</span><span class="sxs-lookup"><span data-stu-id="88afa-140">Export the Report to Excel.</span></span>
-
-### <a name="in-d365"></a><span data-ttu-id="88afa-141">ใน D365:</span><span class="sxs-lookup"><span data-stu-id="88afa-141">In D365:</span></span> 
-1.  <span data-ttu-id="88afa-142">คลิก บัญชีแยกประเภททั่วไป | การสอบถามและรายงาน | งบทดลอง a.</span><span class="sxs-lookup"><span data-stu-id="88afa-142">Click General Ledger | Inquiries and Reports | Trial Balance a.</span></span>    <span data-ttu-id="88afa-143">พารามิเตอร์ i.</span><span class="sxs-lookup"><span data-stu-id="88afa-143">Parameters i.</span></span>  <span data-ttu-id="88afa-144">วันที่เริ่มต้น: เริ่มต้นปีบัญชี ii.</span><span class="sxs-lookup"><span data-stu-id="88afa-144">From Date: Start of Fiscal Year ii.</span></span> <span data-ttu-id="88afa-145">วันที่สิ้นสุด: วันที่คุณสร้างรายงาน iii.</span><span class="sxs-lookup"><span data-stu-id="88afa-145">To Date: Date you generated the report for iii.</span></span>    <span data-ttu-id="88afa-146">ชุดมิติทางการเงิน “ชุดบัญชีหลัก” [![แบบฟอร์มบัญชีหลัก](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span><span class="sxs-lookup"><span data-stu-id="88afa-146">Financial Dimension Set “Main Account set” [![Main Account Form](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)</span></span>
-      
-  <span data-ttu-id="88afa-147">b.</span><span class="sxs-lookup"><span data-stu-id="88afa-147">b.</span></span>    <span data-ttu-id="88afa-148">คลิก คำนวณ</span><span class="sxs-lookup"><span data-stu-id="88afa-148">Click Calculate</span></span>
-
-2.  <span data-ttu-id="88afa-149">ส่งออกรายงานไปยัง Excel</span><span class="sxs-lookup"><span data-stu-id="88afa-149">Export the report to Excel</span></span>
-
-<span data-ttu-id="88afa-150">ตอนนี้ คุณจะสามารถคัดลอกข้อมูลจากรายงาน FR Excel และไปยังรายงานงบทดลอง D365 และเปรียบเทียบคอลัมน์ "ยอดดุลการปิดบัญชี" ได้</span><span class="sxs-lookup"><span data-stu-id="88afa-150">You should now be able to copy the data from the FR Excel Report and to the D365 Trial Balance report and compare the “Closing Balance” columns.</span></span>
-
+<span data-ttu-id="d1742-141">ตอนนี้ คุณจะสามารถคัดลอกข้อมูลจากรายงาน Excel ของโปรแกรมรายงานทางการเงินไปยังรายงานงบทดลอง เพื่อให้คุณสามารถเปรียบเทียบคอลัมน์ **ยอดดุลการปิดบัญชี** ได้</span><span class="sxs-lookup"><span data-stu-id="d1742-141">You should now be able to copy the data from the Financial Reporter Excel report to the Trial Balance report, so you can compare the **Closing Balance** columns.</span></span>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

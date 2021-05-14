@@ -15,37 +15,37 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 67bac122593f53b1c43fcad74c39c2f40d091791
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 412a1f8d6aac597476fb2043caa72731e0437905
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750521"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923352"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="dffbe-103">โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอป Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="dffbe-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="ad1b2-103">โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอป Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ad1b2-103">What's new or changed in Finance and Operations apps home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="application-releases"></a><span data-ttu-id="dffbe-104">การนำออกใช้ของแอพลิเคชัน</span><span class="sxs-lookup"><span data-stu-id="dffbe-104">Application releases</span></span>
+## <a name="application-releases"></a><span data-ttu-id="ad1b2-104">การนำออกใช้ของแอพลิเคชัน</span><span class="sxs-lookup"><span data-stu-id="ad1b2-104">Application releases</span></span>
 
-<span data-ttu-id="dffbe-105">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นของ Finance and Operations แต่ละรุ่นข ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="dffbe-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+<span data-ttu-id="ad1b2-105">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นของ Finance and Operations แต่ละรุ่นข ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ad1b2-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-- <span data-ttu-id="dffbe-106">**การเงิน:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="dffbe-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="dffbe-107">**Supply Chain Management:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="dffbe-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="dffbe-108">**Commerce:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน มีการเปลี่ยนแปลงอะไรใน Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="dffbe-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="dffbe-109">**ทรัพยากรบุคคล:** [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="dffbe-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+- <span data-ttu-id="ad1b2-106">**การเงิน:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ad1b2-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="ad1b2-107">**Supply Chain Management:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ad1b2-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="ad1b2-108">**Commerce:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน มีการเปลี่ยนแปลงอะไรใน Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="ad1b2-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="ad1b2-109">**ทรัพยากรบุคคล:** [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="ad1b2-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="dffbe-110">การอัพเดตแพลตฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="dffbe-110">Platform updates</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="ad1b2-110">การอัพเดตแพลตฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="ad1b2-110">Platform updates</span></span>
 
-<span data-ttu-id="dffbe-111">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์มสำหรับแอป Finance and Operations ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="dffbe-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+<span data-ttu-id="ad1b2-111">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัพเดตแพลตฟอร์มสำหรับแอป Finance and Operations ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ad1b2-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-- [<span data-ttu-id="dffbe-112">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update</span><span class="sxs-lookup"><span data-stu-id="dffbe-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+- [<span data-ttu-id="ad1b2-112">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Platform update</span><span class="sxs-lookup"><span data-stu-id="ad1b2-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="dffbe-113">การนำออกใช้ของ Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="dffbe-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="dffbe-114">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Lifecycle Services ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="dffbe-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="ad1b2-113">การนำออกใช้ของ Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="ad1b2-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="ad1b2-114">เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Lifecycle Services ให้ดูที่หัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="ad1b2-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-- [<span data-ttu-id="dffbe-115">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="dffbe-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="ad1b2-115">มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="ad1b2-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
 

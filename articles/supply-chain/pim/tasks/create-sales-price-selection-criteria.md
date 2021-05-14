@@ -13,43 +13,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a616dcfdd755efc9bf0473e9239acb9127f11f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d22c3321beaa2667ee20bff00acd746714b993
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818168"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920542"
 ---
-# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="718ac-103">สร้างเกณฑ์การเลือกราคาขาย</span><span class="sxs-lookup"><span data-stu-id="718ac-103">Create sales price selection criteria</span></span>
+# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="8a234-103">สร้างเกณฑ์การเลือกราคาขาย</span><span class="sxs-lookup"><span data-stu-id="8a234-103">Create sales price selection criteria</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="718ac-104">กระบวนงานนี้แสดงวิธีการสร้างเกณฑ์การเลือกราคาขายสำหรับแบบจำลองราคาขายตามแอททริบิวต์ </span><span class="sxs-lookup"><span data-stu-id="718ac-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="718ac-105">ขั้นตอนนี้จำเป็นต้องใช้แบบจำลองราคาขายที่มีอยู่อย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="718ac-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="718ac-106">ตัวอย่างนี้ใช้แบบจำลองราคาสำหรับแบบจำลองราคาขายของโซลูชันลำโพงในบริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="718ac-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="718ac-107">โดยทั่วไปผู้จัดการผลิตภัณฑ์จะใช้กระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="718ac-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="8a234-104">กระบวนงานนี้แสดงวิธีการสร้างเกณฑ์การเลือกราคาขายสำหรับแบบจำลองราคาขายตามแอททริบิวต์ </span><span class="sxs-lookup"><span data-stu-id="8a234-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="8a234-105">ขั้นตอนนี้จำเป็นต้องใช้แบบจำลองราคาขายที่มีอยู่อย่างน้อยหนึ่งรายการ</span><span class="sxs-lookup"><span data-stu-id="8a234-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="8a234-106">ตัวอย่างนี้ใช้แบบจำลองราคาสำหรับแบบจำลองราคาขายของโซลูชันลำโพงในบริษัทข้อมูลสาธิต USMF </span><span class="sxs-lookup"><span data-stu-id="8a234-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="8a234-107">โดยทั่วไปผู้จัดการผลิตภัณฑ์จะใช้กระบวนงานนี้</span><span class="sxs-lookup"><span data-stu-id="8a234-107">Typically, a product manager uses this procedure.</span></span>
 
+## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="8a234-108">เพิ่มเกณฑ์ใหม่สำหรับแบบจำลองราคาขายที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="8a234-108">Add a new criterion for an existing sales price model</span></span>
 
-## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="718ac-108">เพิ่มเกณฑ์ใหม่สำหรับแบบจำลองราคาขายที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="718ac-108">Add a new criterion for an existing sales price model</span></span>
-1. <span data-ttu-id="718ac-109">คลิก ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย</span><span class="sxs-lookup"><span data-stu-id="718ac-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="718ac-110">คลิก แบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์</span><span class="sxs-lookup"><span data-stu-id="718ac-110">Click Product configuration models.</span></span>
-3. <span data-ttu-id="718ac-111">ในรายการ เลือกแถวสำหรับแบบจำลองผลิตภัณฑ์โซลูชันลำโพง แต่อย่าคลิกลิงค์สำหรับชื่อแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="718ac-111">In the list, select the row for the Speaker solution product model, but don't click the link for the model name.</span></span>
-4. <span data-ttu-id="718ac-112">ในบานหน้าต่างการดำเนินการ คลิก แบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="718ac-112">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="718ac-113">คลิก เกณฑ์แบบจำลองราคา</span><span class="sxs-lookup"><span data-stu-id="718ac-113">Click Price model criteria.</span></span>
-6. <span data-ttu-id="718ac-114">คลิก สร้าง</span><span class="sxs-lookup"><span data-stu-id="718ac-114">Click New.</span></span>
-7. <span data-ttu-id="718ac-115">ในฟิลด์ชื่อ ให้พิมพ์ 'กลุ่มลูกค้า 10'</span><span class="sxs-lookup"><span data-stu-id="718ac-115">In the Name field, type 'Customer group 10'.</span></span>
-    * <span data-ttu-id="718ac-116">ใช้ชื่อของเกณฑ์แบบจำลองราคาเพื่อช่วยในการระบุเกณฑ์การเลือกที่อยู่ภายใต้</span><span class="sxs-lookup"><span data-stu-id="718ac-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
-8. <span data-ttu-id="718ac-117">ในฟิลด์แบบจำลองราคา ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="718ac-117">In the Price model field, enter or select a value.</span></span>
-9. <span data-ttu-id="718ac-118">ในฟิลด์ชนิดใบสั่ง เลือก ใบสั่งขาย</span><span class="sxs-lookup"><span data-stu-id="718ac-118">In the Order type field, select Sales order.</span></span>
-    * <span data-ttu-id="718ac-119">ชนิดใบสั่งกำหนดฟิลด์ฐานข้อมูลที่จะใช้สำหรับการสอบถามเลือก</span><span class="sxs-lookup"><span data-stu-id="718ac-119">The order type determines the database fields that will be available for the selection query.</span></span>  
-10. <span data-ttu-id="718ac-120">ในฟิลด์ ใช้ได้ตั้งแต่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="718ac-120">In the Valid from field, enter a date.</span></span>
-11. <span data-ttu-id="718ac-121">ในฟิลด์ หมดอายุวันที่ ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="718ac-121">In the Expire by field, enter a date.</span></span>
-12. <span data-ttu-id="718ac-122">คลิก บันทึก</span><span class="sxs-lookup"><span data-stu-id="718ac-122">Click Save.</span></span>
+1. <span data-ttu-id="8a234-109">ไปที่ **การจัดการข้อมูลผลิตภัณฑ์ \> ผลิตภัณฑ์ \> แบบจำลองการจัดโครงแบบผลิตภัณฑ์**</span><span class="sxs-lookup"><span data-stu-id="8a234-109">Go to **Product information management \> Products \> Product configuration models**.</span></span>
+1. <span data-ttu-id="8a234-110">ในรายการ เลือกแถวสำหรับแบบจำลองผลิตภัณฑ์โซลูชันลำโพง แต่อย่าเลือกลิงค์สำหรับชื่อแบบจำลอง</span><span class="sxs-lookup"><span data-stu-id="8a234-110">In the list, select the row for the Speaker solution product model, but don't select the link for the model name.</span></span>
+1. <span data-ttu-id="8a234-111">บนบานหน้าต่างการดำเนินการ เลือก **แบบจำลอง**</span><span class="sxs-lookup"><span data-stu-id="8a234-111">On the Action Pane, select **Model**.</span></span>
+1. <span data-ttu-id="8a234-112">เลือก **เกณฑ์แบบจำลองราคา**</span><span class="sxs-lookup"><span data-stu-id="8a234-112">Select **Price model criteria**.</span></span>
+1. <span data-ttu-id="8a234-113">เลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="8a234-113">Select **New**.</span></span>
+1. <span data-ttu-id="8a234-114">ในฟิลด์ **ชื่อ** ให้พิมพ์ 'กลุ่มลูกค้า 10'</span><span class="sxs-lookup"><span data-stu-id="8a234-114">In the **Name** field, type 'Customer group 10'.</span></span>
+    * <span data-ttu-id="8a234-115">ใช้ชื่อของเกณฑ์แบบจำลองราคาเพื่อช่วยในการระบุเกณฑ์การเลือกที่อยู่ภายใต้</span><span class="sxs-lookup"><span data-stu-id="8a234-115">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
+1. <span data-ttu-id="8a234-116">ในฟิลด์ **แบบจำลองราคา** ให้ป้อนหรือเลือกค่า</span><span class="sxs-lookup"><span data-stu-id="8a234-116">In the **Price model** field, enter or select a value.</span></span>
+1. <span data-ttu-id="8a234-117">ในฟิลด์ **ชนิดใบสั่ง** เลือก *ใบสั่งขาย*</span><span class="sxs-lookup"><span data-stu-id="8a234-117">In the **Order type** field, select *Sales order*.</span></span>
+    * <span data-ttu-id="8a234-118">ชนิดใบสั่งกำหนดฟิลด์ฐานข้อมูลที่จะใช้สำหรับการสอบถามเลือก</span><span class="sxs-lookup"><span data-stu-id="8a234-118">The order type determines the database fields that will be available for the selection query.</span></span>  
+1. <span data-ttu-id="8a234-119">ในฟิลด์ **ใช้ได้ตั้งแต่** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="8a234-119">In the **Valid from** field, enter a date.</span></span>
+1. <span data-ttu-id="8a234-120">ในฟิลด์ **หมดอายุวันที่** ให้ป้อนวันที่</span><span class="sxs-lookup"><span data-stu-id="8a234-120">In the **Expire by** field, enter a date.</span></span>
+1. <span data-ttu-id="8a234-121">เลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="8a234-121">Select **Save**.</span></span>
 
-## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="718ac-123">สร้างการสอบถามสำหรับเกณฑ์การเลือก</span><span class="sxs-lookup"><span data-stu-id="718ac-123">Create the query for the selection criteria</span></span>
-1. <span data-ttu-id="718ac-124">คลิก แก้ไข</span><span class="sxs-lookup"><span data-stu-id="718ac-124">Click Edit.</span></span>
-2. <span data-ttu-id="718ac-125">ในฟิลด์ตาราง ให้เลือก ลูกค้า</span><span class="sxs-lookup"><span data-stu-id="718ac-125">In the Table field, select Customers.</span></span> 
-3. <span data-ttu-id="718ac-126">ในฟิลด์ ฟิลด์ ให้เลือก กลุ่มลูกค้า</span><span class="sxs-lookup"><span data-stu-id="718ac-126">In the Field field, select Customer group.</span></span>
-    * <span data-ttu-id="718ac-127">ในตัวอย่างนี้ เราจะใช้กลุ่มลูกค้าเฉพาะสำหรับเกณฑ์การเลือก</span><span class="sxs-lookup"><span data-stu-id="718ac-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
-4. <span data-ttu-id="718ac-128">ในฟิลด์ เกณฑ์ ให้เลือก 'กลุ่มลูกค้า 10'</span><span class="sxs-lookup"><span data-stu-id="718ac-128">In the Criteria field, select Customer group 10.</span></span> 
-5. <span data-ttu-id="718ac-129">คลิก ตกลง</span><span class="sxs-lookup"><span data-stu-id="718ac-129">Click OK.</span></span>
+## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="8a234-122">สร้างการสอบถามสำหรับเกณฑ์การเลือก</span><span class="sxs-lookup"><span data-stu-id="8a234-122">Create the query for the selection criteria</span></span>
+
+1. <span data-ttu-id="8a234-123">เลือก **แก้ไข**</span><span class="sxs-lookup"><span data-stu-id="8a234-123">Select **Edit**.</span></span>
+2. <span data-ttu-id="8a234-124">ในฟิลด์ **ตาราง** ให้เลือก *ลูกค้า*</span><span class="sxs-lookup"><span data-stu-id="8a234-124">In the **Table** field, select *Customers*.</span></span>
+3. <span data-ttu-id="8a234-125">ในฟิลด์ **ฟิลด์** ให้เลือก *กลุ่มลูกค้า*</span><span class="sxs-lookup"><span data-stu-id="8a234-125">In the **Field** field, select *Customer group*.</span></span>
+    * <span data-ttu-id="8a234-126">ในตัวอย่างนี้ เราจะใช้กลุ่มลูกค้าเฉพาะสำหรับเกณฑ์การเลือก</span><span class="sxs-lookup"><span data-stu-id="8a234-126">In this example, we will use a specific customer group for the selection criteria.</span></span>  
+4. <span data-ttu-id="8a234-127">ในฟิลด์ **เกณฑ์** ให้เลือก *กลุ่มลูกค้า 10*</span><span class="sxs-lookup"><span data-stu-id="8a234-127">In the **Criteria** field, select *Customer group 10*.</span></span>
+5. <span data-ttu-id="8a234-128">เลือก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="8a234-128">Select **OK**.</span></span>
 
 
 
