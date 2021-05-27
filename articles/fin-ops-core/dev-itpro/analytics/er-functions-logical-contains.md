@@ -5,7 +5,6 @@ author: NickSelin
 ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -16,53 +15,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: AX 10.0.18
-ms.openlocfilehash: c1d2d761a38d0edfb9abd439e0f710b336f54927
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a31d89f036a6e821bea2b6733c0c646145d2a47c
+ms.sourcegitcommit: 17cee26b03f7b5afe8a089a0a9b2380e8d377d70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745436"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "6048881"
 ---
-# <a name="contains-er-function"></a><span data-ttu-id="49c21-103">ฟังก์ชัน CONTAINS ER</span><span class="sxs-lookup"><span data-stu-id="49c21-103">CONTAINS ER function</span></span>
+# <a name="contains-er-function"></a><span data-ttu-id="e9d46-103">ฟังก์ชัน CONTAINS ER</span><span class="sxs-lookup"><span data-stu-id="e9d46-103">CONTAINS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="49c21-104">ฟังก์ชัน `CONTAINS` นี้จะระบุว่าข้อมูลป้อนเข้าที่ระบุมีข้อความที่ระบุหรือไม่</span><span class="sxs-lookup"><span data-stu-id="49c21-104">The `CONTAINS` function determines whether the specified input contains the specified text.</span></span> <span data-ttu-id="49c21-105">จะส่งกลับค่า *Boolean* ของ **TRUE** หากอินพุตที่ระบุมีข้อความที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="49c21-105">It returns a *Boolean* value of **TRUE** if the specified input contains the specified text.</span></span> <span data-ttu-id="49c21-106">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="49c21-106">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="e9d46-104">ฟังก์ชัน `CONTAINS` นี้จะระบุว่าข้อมูลป้อนเข้าที่ระบุมีข้อความที่ระบุหรือไม่</span><span class="sxs-lookup"><span data-stu-id="e9d46-104">The `CONTAINS` function determines whether the specified input contains the specified text.</span></span> <span data-ttu-id="e9d46-105">จะส่งกลับค่า *Boolean* ของ **TRUE** หากอินพุตที่ระบุมีข้อความที่ระบุ</span><span class="sxs-lookup"><span data-stu-id="e9d46-105">It returns a *Boolean* value of **TRUE** if the specified input contains the specified text.</span></span> <span data-ttu-id="e9d46-106">มิฉะนั้น จะส่งคืนค่า *บูลีน* เป็น **เท็จ**</span><span class="sxs-lookup"><span data-stu-id="e9d46-106">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="49c21-107">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="49c21-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e9d46-107">ไวยากรณ์</span><span class="sxs-lookup"><span data-stu-id="e9d46-107">Syntax</span></span>
 
 ```vb
 CONTAINS (input, search text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="49c21-108">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="49c21-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="e9d46-108">อาร์กิวเมนต์</span><span class="sxs-lookup"><span data-stu-id="e9d46-108">Arguments</span></span>
 
-<span data-ttu-id="49c21-109">`input`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="49c21-109">`input`: *String*</span></span>
+<span data-ttu-id="e9d46-109">`input`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="e9d46-109">`input`: *String*</span></span>
 
-<span data-ttu-id="49c21-110">พาธที่ถูกต้องของสินค้าของแหล่งข้อมูลของชนิด *สตริง* หรือค่าคงที่ของสตริง ค่าที่อาจมีอาร์กิวเมนต์ที่สอง</span><span class="sxs-lookup"><span data-stu-id="49c21-110">The valid path of an item of a data source of the *String* type or a string constant, the value of which might contain the second argument.</span></span>
+<span data-ttu-id="e9d46-110">พาธที่ถูกต้องของสินค้าของแหล่งข้อมูลของชนิด *สตริง* หรือค่าคงที่ของสตริง ค่าที่อาจมีอาร์กิวเมนต์ที่สอง</span><span class="sxs-lookup"><span data-stu-id="e9d46-110">The valid path of an item of a data source of the *String* type or a string constant, the value of which might contain the second argument.</span></span>
 
-<span data-ttu-id="49c21-111">`search text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="49c21-111">`search text`: *String*</span></span>
+<span data-ttu-id="e9d46-111">`search text`: *สตริง*</span><span class="sxs-lookup"><span data-stu-id="e9d46-111">`search text`: *String*</span></span>
 
-<span data-ttu-id="49c21-112">พาธที่ถูกต้องของสินค้าของแหล่งข้อมูลของชนิด *สตริง* หรือค่าคงที่ของสตริง ค่าที่อาจมีอาร์กิวเมนต์แรก</span><span class="sxs-lookup"><span data-stu-id="49c21-112">The valid path of a data source of the *String* data type or a string constant, the value of which might be contained in the first argument.</span></span>
+<span data-ttu-id="e9d46-112">พาธที่ถูกต้องของสินค้าของแหล่งข้อมูลของชนิด *สตริง* หรือค่าคงที่ของสตริง ค่าที่อาจมีอาร์กิวเมนต์แรก</span><span class="sxs-lookup"><span data-stu-id="e9d46-112">The valid path of a data source of the *String* data type or a string constant, the value of which might be contained in the first argument.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="49c21-113">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="49c21-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="e9d46-113">ค่าที่ส่งคืน</span><span class="sxs-lookup"><span data-stu-id="e9d46-113">Return values</span></span>
 
-<span data-ttu-id="49c21-114">*บูลีน*</span><span class="sxs-lookup"><span data-stu-id="49c21-114">*Boolean*</span></span>
+<span data-ttu-id="e9d46-114">*บูลีน*</span><span class="sxs-lookup"><span data-stu-id="e9d46-114">*Boolean*</span></span>
 
-<span data-ttu-id="49c21-115">ค่า *บูลีน* ที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="49c21-115">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="e9d46-115">ค่า *บูลีน* ที่เป็นผลลัพธ์</span><span class="sxs-lookup"><span data-stu-id="e9d46-115">The resulting *Boolean* value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="49c21-116">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="49c21-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="e9d46-116">บันทึกย่อการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="e9d46-116">Usage notes</span></span>
 
-<span data-ttu-id="49c21-117">ฟังก์ชันนี้สามารถใช้เพื่อระบุนิพจน์เงื่อนไขของฟังก์ชัน [ตัวกรองข้อมูล](er-functions-list-filter.md) เฉพาะเมื่อตั้งค่าคอนฟิกการแม็ปที่เกี่ยวข้องใน [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) เพื่อเข้าถึง [Microsoft Dataverse](../data-entities/data-integration-cds.md)</span><span class="sxs-lookup"><span data-stu-id="49c21-117">This function can be used to specify a condition expression of the [FILTER](er-functions-list-filter.md) function only when the relevant mapping is configured in [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) to access [Microsoft Dataverse](../data-entities/data-integration-cds.md).</span></span> <span data-ttu-id="49c21-118">มิฉะนั้น ข้อยกเว้นจะเกิดขึ้นในขณะออกแบบ</span><span class="sxs-lookup"><span data-stu-id="49c21-118">Otherwise, an exception is thrown at design time.</span></span> <span data-ttu-id="49c21-119">ข้อความที่คุณได้รับจะแนะนำให้คุณใช้ฟังก์ชัน [WHERE](er-functions-list-where.md) แทนที่จะใช้ฟังก์ชัน `FILTER`</span><span class="sxs-lookup"><span data-stu-id="49c21-119">The message that you receive recommends that you use the [WHERE](er-functions-list-where.md) function instead of the `FILTER` function.</span></span>
+<span data-ttu-id="e9d46-117">ฟังก์ชันนี้สามารถใช้เพื่อระบุนิพจน์เงื่อนไขของฟังก์ชัน [ตัวกรองข้อมูล](er-functions-list-filter.md) เฉพาะเมื่อตั้งค่าคอนฟิกการแม็ปที่เกี่ยวข้องใน [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) เพื่อเข้าถึง [Microsoft Dataverse](/power-platform/admin/data-integrator)</span><span class="sxs-lookup"><span data-stu-id="e9d46-117">This function can be used to specify a condition expression of the [FILTER](er-functions-list-filter.md) function only when the relevant mapping is configured in [Regulatory Configuration Services](../../../finance/localizations/rcs-globalization-feature.md) to access [Microsoft Dataverse](/power-platform/admin/data-integrator).</span></span> <span data-ttu-id="e9d46-118">มิฉะนั้น ข้อยกเว้นจะเกิดขึ้นในขณะออกแบบ</span><span class="sxs-lookup"><span data-stu-id="e9d46-118">Otherwise, an exception is thrown at design time.</span></span> <span data-ttu-id="e9d46-119">ข้อความที่คุณได้รับจะแนะนำให้คุณใช้ฟังก์ชัน [WHERE](er-functions-list-where.md) แทนที่จะใช้ฟังก์ชัน `FILTER`</span><span class="sxs-lookup"><span data-stu-id="e9d46-119">The message that you receive recommends that you use the [WHERE](er-functions-list-where.md) function instead of the `FILTER` function.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="49c21-120">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="49c21-120">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="e9d46-120">ตัวอย่างที่ 1</span><span class="sxs-lookup"><span data-stu-id="e9d46-120">Example 1</span></span>
 
-<span data-ttu-id="49c21-121">นิพจน์ `CONTAINS ("abc", "d")` จะส่งคืน **FALSE** ในขณะที่นิพจน์ `CONTAINS ("abc", "C")` ส่งคืน **TRUE**</span><span class="sxs-lookup"><span data-stu-id="49c21-121">The expression `CONTAINS ("abc", "d")` returns **FALSE**, whereas the expression `CONTAINS ("abc", "C")` returns **TRUE**.</span></span>
+<span data-ttu-id="e9d46-121">นิพจน์ `CONTAINS ("abc", "d")` จะส่งคืน **FALSE** ในขณะที่นิพจน์ `CONTAINS ("abc", "C")` ส่งคืน **TRUE**</span><span class="sxs-lookup"><span data-stu-id="e9d46-121">The expression `CONTAINS ("abc", "d")` returns **FALSE**, whereas the expression `CONTAINS ("abc", "C")` returns **TRUE**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="49c21-122">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="49c21-122">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="e9d46-122">ตัวอย่างที่ 2</span><span class="sxs-lookup"><span data-stu-id="e9d46-122">Example 2</span></span>
 
-<span data-ttu-id="49c21-123">นิพจน์ `CONTAINS (model.InvoiceBase.Customer.PostalAddress.Address, "DEU")` จะส่งคืน **TRUE** ถ้าค่าของฟิลด์ **ที่อยู่** ของแหล่งข้อมูล **แบบจำลอง** มีสตริง **DEU**</span><span class="sxs-lookup"><span data-stu-id="49c21-123">The expression `CONTAINS (model.InvoiceBase.Customer.PostalAddress.Address, "DEU")` returns **TRUE** if the value of the **Address** field of the **model** data source contains the string **DEU**.</span></span> <span data-ttu-id="49c21-124">มิฉะนั้น จะส่งคืน **FALSE**</span><span class="sxs-lookup"><span data-stu-id="49c21-124">Otherwise, it returns **FALSE**.</span></span>
+<span data-ttu-id="e9d46-123">นิพจน์ `CONTAINS (model.InvoiceBase.Customer.PostalAddress.Address, "DEU")` จะส่งคืน **TRUE** ถ้าค่าของฟิลด์ **ที่อยู่** ของแหล่งข้อมูล **แบบจำลอง** มีสตริง **DEU**</span><span class="sxs-lookup"><span data-stu-id="e9d46-123">The expression `CONTAINS (model.InvoiceBase.Customer.PostalAddress.Address, "DEU")` returns **TRUE** if the value of the **Address** field of the **model** data source contains the string **DEU**.</span></span> <span data-ttu-id="e9d46-124">มิฉะนั้น จะส่งคืน **FALSE**</span><span class="sxs-lookup"><span data-stu-id="e9d46-124">Otherwise, it returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="49c21-125">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="49c21-125">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e9d46-125">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="e9d46-125">Additional resources</span></span>
 
-[<span data-ttu-id="49c21-126">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="49c21-126">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="e9d46-126">ฟังก์ชันตรรกะ</span><span class="sxs-lookup"><span data-stu-id="e9d46-126">Logical functions</span></span>](er-functions-category-logical.md)
