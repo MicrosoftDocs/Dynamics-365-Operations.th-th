@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801518"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020743"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>ไม่สามารถตั้งค่าคอนฟิกกลุ่มความปลอดภัยของโปรแกรมสร้างไซต์ Commerce ในระหว่างการปรับใช้ครั้งแรก
 
@@ -38,7 +37,7 @@ ms.locfileid: "5801518"
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>เตรียมใช้งานไซต์อีคอมเมิร์ซให้กับผู้ใช้ในผู้เช่าที่ถูกต้อง
 
 1. ไปที่ [พอร์ทัล Azure](https://portal.azure.com/)
-1. ภายใต้ผู้เช่าที่เตรียมใช้งานโครงการ LCS สำหรับไซต์อีคอมเมิร์ซของคุณ ให้ปฏิบัติตามคําแนะนํา [การสร้างกลุ่มพื้นฐานและเพิ่มสมาชิกโดยใช้ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+1. ภายใต้ผู้เช่าที่เตรียมใช้งานโครงการ LCS สำหรับไซต์อีคอมเมิร์ซของคุณ ให้ปฏิบัติตามคําแนะนํา [การสร้างกลุ่มพื้นฐานและเพิ่มสมาชิกโดยใช้ Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 1. ไปที่ [LCS ](https://lcs.dynamics.com/) และลงชื่อเข้าใช้งานโดยใช้บัญชีที่ใช้ผู้เช่าเดียวกันกับกลุ่มรักษาความปลอดภัย Azure AD ที่คุณเพิ่งสร้างขึ้นร่วมกัน บัญชีต้องมีสิทธิ์เข้าดูกลุ่มรักษาความปลอดภัย Azure AD
 1. ทำขั้นตอนการตั้งค่าเพื่อตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซให้เสร็จ เมื่อคุณเตรียมใช้งานส่วนประกอบของอีคอมเมิร์ซ ขณะนี้กลุ่มรักษาความปลอดภัยควรปรากฏเป็นตัวเลือกในกล่องโต้ตอบ
 
@@ -47,6 +46,6 @@ ms.locfileid: "5801518"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[การสร้างกลุ่มพื้นฐานและเพิ่มสมาชิกโดยใช้ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[การสร้างกลุ่มพื้นฐานและเพิ่มสมาชิกโดยใช้ Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](../deploy-ecommerce-site.md)

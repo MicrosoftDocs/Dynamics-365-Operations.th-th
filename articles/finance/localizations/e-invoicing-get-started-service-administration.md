@@ -2,7 +2,7 @@
 title: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 description: หัวข้อนี้จะอธิบายวิธีการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840159"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980987"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -33,10 +33,10 @@ ms.locfileid: "5840159"
 - คุณต้องมีสิทธิ์เข้าถึงบัญชี Microsoft Dynamics Lifecycle Services (LCS) ของคุณ
 - คุณต้องมีโครงการ LCS ที่มีรุ่น 10.0.17 หรือใหม่กว่าของ Microsoft Dynamics 365 Finance และ Dynamics 365 Supply Chain Management นอกจากนี้ แอปเหล่านี้ต้องถูกปรับใช้ในหนึ่งในภูมิศาสตร์ Azure ต่อไปนี้:
 
-    - สหรัฐอเมริกาตะวันออก
-    - สหรัฐอเมริกาตะวันตก
-    - EU เหนือ
-    - EU ตะวันตก
+    - สหรัฐ
+    - ยุโรป
+    - สหราชอาณาจักร
+    - เอเชีย
 
 - คุณต้องมีสิทธิ์เข้าถึงบัญชี Dynamics 365 Regulatory Configuration Services (RCS) ของคุณ
 - คุณต้องเปิดใช้งานคุณลักษณะที่ใช้ทั่วโลกสำหรับบัญชี RCS ของคุณในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติม ดู [Regulatory Configuration Services (RCS) - คุณลักษณะที่ใช้ทั่วโลก](rcs-globalization-feature.md)
@@ -46,11 +46,12 @@ ms.locfileid: "5840159"
 
 1. ลงชื่อเข้าใช้บัญชี LCS ของคุณ
 2. เลือกไทล์ **การจัดการคุณลักษณะพรีวิว**
-3. ในส่วน **คุณลักษณะพรีวิวสำหรับสาธารณะ** ให้เลือก **บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์**
+3. ในส่วน **คุณลักษณะพรีวิวสำหรับสาธารณะ** ให้เลือก **ใบแจ้งหนี้อิเล็กทรอนิกส์**
 4. ตรวจสอบให้แน่ใจว่าตัวเลือก **เปิดใช้งานคุณลักษณะพรีวิวแล้ว** ได้ถูกตั้งค่าเป็น **ใช่**
-5. บนกระดานข้อมูล LCS ของคุณ ให้เลือกโครงการปรับใช้ LCS ของคุณ โครงการ LCS ต้องทำงานอยู่
-7. บนแท็บ **add-in ของสภาพแวดล้อม** ให้เลือก **ติดตั้ง add-in ใหม่**
-8. เลือก **บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์**
+5. บนแดชบอร์ดโครงการ LCS ของคุณ ให้เลือกโครงการ LCS
+6. ในโครงการ LCS บนแดชบอร์ดสภาพแวดล้อม LCS ให้เลือกโครงการปรับใช้ LCS ของคุณ โครงการปรับใช้ LCS ต้องทำงานอยู่
+7. บนแท็บ **การรวม Power Platform** ในฟิลด์ **Add-in ของสภาพแวดล้อม** ให้เลือก **ติดตั้ง Add-in ใหม่**
+8. เลือก **การออกใบแจ้งหนี้อิเล็กทรอนิกส์**
 9. ในฟิลด์ **รหัสแอปพลิเคชัน AAD** ให้ป้อน **091c98b0-a1c9-4b02-b62c-7753395ccabe** ค่านี้เป็นค่าคงที่
 10. ในเขตข้อมูล **รหัสผู้เช่า AAD** ป้อนรหัสผู้เช่าของบัญชีสมัครสมาชิก Azure ของคุณ
 11. ตรวจสอบข้อกำหนดและเงื่อนไข จากนั้นเลือกกล่องกาเครื่องหมาย
@@ -65,10 +66,10 @@ ms.locfileid: "5840159"
 
     | ภูมิศาสตร์ของ Datacenter Azure | URI ปลายทางของบริการ                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | สหรัฐอเมริกาตะวันออก                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | สหรัฐอเมริกาตะวันตก                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | EU เหนือ                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | EU ตะวันตก                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | สหรัฐ              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ยุโรป                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | สหราชอาณาจักร             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | เอเชีย                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. ตรวจสอบว่ามีการตั้งค่าฟิลด์ **รหัสแอปพลิเคชัน** เป็น **0cdb527f-a8d1-4bf8-9436-b352c68682b2** ค่านี้เป็นค่าคงที่
 5. ในฟิลด์ **รหัสสภาพแวดล้อม LCS** ป้อนรหัสของสภาพแวดล้อม LCS ของคุณ
@@ -152,12 +153,12 @@ ms.locfileid: "5840159"
 1. ไปที่ **การจัดการองค์กร \> การตั้งค่า \> พารามิเตอร์เอกสารอิเล็กทรอนิกส์**
 2. บนแท็บ **บริการการส่ง** ในฟิลด์ **URL ปลายทางของบริการ** ให้ป้อนปลายทางของบริการที่เหมาะสมสำหรับภูมิศาสตร์ Azure ของคุณ ดังแสดงในตารางต่อไปนี้
 
-    | ภูมิศาสตร์ของ Datacenter Azure | URL ปลายทางของบริการ                                                       |
+    | ภูมิศาสตร์ของ Datacenter Azure | URI ปลายทางของบริการ                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | สหรัฐอเมริกาตะวันออก                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | สหรัฐอเมริกาตะวันตก                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | EU เหนือ                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | EU ตะวันตก                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | สหรัฐ              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ยุโรป                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | สหราชอาณาจักร             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | เอเชีย                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. ในฟิลด์ **สภาพแวดล้อม** ป้อนชื่อของสภาพแวดล้อมบริการที่เผยแพร่ในการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 4. เลือก **ตกลง** และจากนั้นปิดหน้า

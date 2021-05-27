@@ -2,11 +2,9 @@
 title: เปิดใช้งานการรวม Dynamics 365 Commerce และ Microsoft Teams
 description: หัวข้อนี้อธิบายวิธีการเปิดใช้งานการรวม Microsoft Dynamics 365 Commerce และ Microsoft Teams
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908406"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019846"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>เปิดใช้งานการรวม Dynamics 365 Commerce และ Microsoft Teams
 
@@ -39,9 +37,9 @@ ms.locfileid: "5908406"
 
 หากต้องการลงทะเบียนโปรแกรมประยุกต์ Teams กับผู้เช่าในพอร์ทัล Azure ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-1. ปฏิบัติตามขั้นตอนใน [เริ่มต้นใช้งานด่วน: ลงทะเบียนแอปในแพลตฟอร์มเอกลักษณ์ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) เพื่อลงทะเบียนโปรแกรมประยุกต์ Teams กับผู้เช่าในพอร์ทัล Azure
+1. ปฏิบัติตามขั้นตอนใน [เริ่มต้นใช้งานด่วน: ลงทะเบียนแอปในแพลตฟอร์มเอกลักษณ์ Microsoft](/azure/active-directory/develop/quickstart-register-app) เพื่อลงทะเบียนโปรแกรมประยุกต์ Teams กับผู้เช่าในพอร์ทัล Azure
 1. คัดลอก **ค่ารหัสโปรแกรมประยุกต์ (ไคลเอนต์)** จากหน้า **ภาพรวม** ของแอปที่ลงทะเบียน คุณจะใช้ค่านี้เปิดใช้งานการรวม Teams ในศูนย์ควบคุม Commerce
-1. คัดลอกค่าใบรับรองที่ป้อนเมื่อคุณ [เพิ่มใบรับรอง](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) ในขั้นตอนที่ 1 ใบรับรองเรียกอีกอย่างว่าคีย์สาธารณะหรือคีย์โปรแกรมประยุกต์ คุณจะใช้ค่านี้เปิดใช้งานการรวม Teams ในศูนย์ควบคุม Commerce
+1. คัดลอกค่าใบรับรองที่ป้อนเมื่อคุณ [เพิ่มใบรับรอง](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) ในขั้นตอนที่ 1 ใบรับรองเรียกอีกอย่างว่าคีย์สาธารณะหรือคีย์โปรแกรมประยุกต์ คุณจะใช้ค่านี้เปิดใช้งานการรวม Teams ในศูนย์ควบคุม Commerce
 
 เมื่อต้องการเปิดใช้งานการรวม Teams ในศูนย์ควบคุม Commerce ให้ทําตามขั้นตอนต่อไปนี้
 

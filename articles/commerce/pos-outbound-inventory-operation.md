@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795656"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022742"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>การดำเนินงานของสินค้าคงคลังขาออกใน POS
 
@@ -71,7 +71,7 @@ ms.locfileid: "5795656"
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>ข้อกำหนดเบื้องต้น: เพิ่มการดำเนินงานขาออกไปยังโครงร่างหน้าจอ POS
 
-ก่อนที่องค์กรของคุณจะสามารถใช้ฟังก์ชันการดำเนินงานขาออกได้ ต้องตั้งค่าคอนฟิกการดำเนินงาน POS **การดำเนินงานขาออก** ใน [โครงร่างหน้าจอ POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) ของคุณหนึ่งรายการขึ้นไป ก่อนที่คุณจะปรับใช้การดำเนินงานใหม่ในสภาพแวดล้อมการผลิต โปรดตรวจสอบให้แน่ใจว่าคุณได้ทดสอบและฝึกอบรมผู้ใช้ของคุณให้ใช้งานได้อย่างถี่ถ้วน
+ก่อนที่องค์กรของคุณจะสามารถใช้ฟังก์ชันการดำเนินงานขาออกได้ ต้องตั้งค่าคอนฟิกการดำเนินงาน POS **การดำเนินงานขาออก** ใน [โครงร่างหน้าจอ POS](/dynamics365/unified-operations/retail/pos-screen-layouts) ของคุณหนึ่งรายการขึ้นไป ก่อนที่คุณจะปรับใช้การดำเนินงานใหม่ในสภาพแวดล้อมการผลิต โปรดตรวจสอบให้แน่ใจว่าคุณได้ทดสอบและฝึกอบรมผู้ใช้ของคุณให้ใช้งานได้อย่างถี่ถ้วน
 
 ## <a name="overview"></a>ภาพรวม
 

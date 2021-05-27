@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 125cc9dd1fb2ba0d3aeced8018d15e615b5d78e6
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820772"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027853"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>สร้างการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้ข้อเสนอการชำระเงิน
 
@@ -62,7 +62,7 @@ ms.locfileid: "5820772"
 | 3075   | 1003    | 15 มิถุนายน      | 250.00         | 29 มิถุนายน  |                    | 0.00                 |
 | 3100   | 1004    | 17 มิถุนายน      | 100.00         | 17 กรกฎาคม  | 1 กรกฎาคม             | 1.00                 |
 
-ณ วันที่ 1 กรกฎาคม เดือนเมษายนชำระเงินให้แก่ผู้จัดจำหน่าย เธอใช้ข้อเสนอการชำระเงินเพื่อช่วยเธอทำงานนี้ให้เสร็จสมบูรณ์ได้อย่างมีประสิทธิภาพมากขึ้น
+ณ วันที่ 1 กรกฎาคม เดือนเมษายนชำระเงินให้แก่ผู้จัดจำหน่าย เธอใช้ข้อเสนอการชำระเงินเพื่อทำงานนี้ให้เสร็จสมบูรณ์ได้อย่างมีประสิทธิภาพมากขึ้น
 
 ### <a name="option-1-by-cash-discount"></a>ทางเลือกที่ 1: โดยเรียงตามส่วนลดเงินสด
 

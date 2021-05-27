@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: 081d23c85d3555210b54597920a49e800ffe284b
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963202"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980935"
 ---
 # <a name="electronic-invoicing-administration-components"></a>ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -59,10 +59,10 @@ Dynamics 365 Regulatory Configuration Services (RCS) เป็นอินเท
 
 | ลักษณะของศูนย์ข้อมูล Azure |
 |----------------------------|
-| สหรัฐอเมริกาตะวันออก                    |
-| สหรัฐอเมริกาตะวันตก                    |
-| EU เหนือ                   |
-| EU ตะวันตก                    |
+| สหรัฐ              |
+| ยุโรป                     |
+| สหราชอาณาจักร             |
+| เอเชีย                       |
 
 ### <a name="service-environments"></a>สภาพแวดล้อมของบริการ
 

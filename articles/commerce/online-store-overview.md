@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791089"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022483"
 ---
 # <a name="e-commerce-site-overview"></a>ภาพรวมของไซต์อีคอมเมิร์ซ
 
@@ -37,11 +37,11 @@ ms.locfileid: "5791089"
 
 มีเพียงช่องทางร้านค้าออนไลน์เดียวเท่านั้นที่จะได้รับการตั้งค่า ก่อนที่คุณจะสามารถเริ่มต้นใช้งาน Dynamics 365 Commerce อย่างไรก็ตาม ไซต์อีคอมเมิร์ซเดียวสามารถให้ประสบการณ์การใช้งานแบบออนไลน์สำหรับร้านค้าออนไลน์หลายแห่ง ตัวอย่างเช่น ถ้าร้านค้าออนไลน์หลายแห่งมีการตั้งค่าเพื่อสนับสนุนภูมิภาคทางภูมิศาสตร์ที่แตกต่างกัน หน้าอีคอมเมิร์ซชุดเดียวสามารถใช้เพื่อให้ประสบการณ์ที่ไม่ซ้ำกันที่กำหนดโดยแต่ละร้านค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกไซต์เพื่อสนับสนุนร้านค้าออนไลน์หลายแห่ง ให้ดู [เชื่อมโยงไซต์แบบออนไลน์กับช่องทาง](associate-site-online-store.md)
 
-หลังจากตั้งค่าร้านค้าออนไลน์แล้ว จะสามารถเชื่อมโยงกับไซต์ Dynamics 365 Commerce ที่จะทำหน้าที่เป็นหน้าร้านออนไลน์ของคุณได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับร้านค้าออนไลน์และวิธีการตั้งค่า ให้ดูที่ [การตั้งค่าร้านค้าออนไลน์](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores)
+หลังจากตั้งค่าร้านค้าออนไลน์แล้ว จะสามารถเชื่อมโยงกับไซต์ Dynamics 365 Commerce ที่จะทำหน้าที่เป็นหน้าร้านออนไลน์ของคุณได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับร้านค้าออนไลน์และวิธีการตั้งค่า ให้ดูที่ [การตั้งค่าร้านค้าออนไลน์](/dynamics365/unified-operations/retail/online-stores)
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
 
-ระหว่างการเริ่มต้นไซต์อีคอมเมิร์ซ คุณจะได้รับพร้อมท์ให้ป้อนชื่อโดเมน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโดเมนใน Commerce โปรดดู [การตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md) และ [โดเมนใน Dynamics 365 Commerce](domains-commerce.md) เมื่อต้องการจัดวางผู้เช่าอีคอมเมิร์ซใหม่โดยใช้ [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) ให้ทำตามขั้นตอนใน [การจัดวางผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md) หลังจากที่ผู้เช่าอีคอมเมิร์ซของคุณถูกตั้งค่าใน LCS จะมีการระบุลิงค์ไปยังตัวสร้างไซต์ Commerce จากนั้นคุณสามารถใช้ตัวสร้างไซต์ Commerce เพื่อเริ่มต้นและตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณได้
+ระหว่างการเริ่มต้นไซต์อีคอมเมิร์ซ คุณจะได้รับพร้อมท์ให้ป้อนชื่อโดเมน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโดเมนใน Commerce โปรดดู [การตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md) และ [โดเมนใน Dynamics 365 Commerce](domains-commerce.md) เมื่อต้องการจัดวางผู้เช่าอีคอมเมิร์ซใหม่โดยใช้ [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) ให้ทำตามขั้นตอนใน [การจัดวางผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md) หลังจากที่ผู้เช่าอีคอมเมิร์ซของคุณถูกตั้งค่าใน LCS จะมีการระบุลิงค์ไปยังตัวสร้างไซต์ Commerce จากนั้นคุณสามารถใช้ตัวสร้างไซต์ Commerce เพื่อเริ่มต้นและตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณได้
 
 ## <a name="initialize-your-e-commerce-site"></a>เริ่มต้นไซต์อีคอมเมิร์ซของคุณ
 

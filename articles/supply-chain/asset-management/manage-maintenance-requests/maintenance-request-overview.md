@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dceb179d0a17d8025d88c5945b9571de65c86449
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838621"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015889"
 ---
 # <a name="maintenance-requests"></a>คำขอการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 คำขอการบำรุงรักษาเป็นบันทึกย่อหรือการรายงานที่สร้างขึ้นเพื่อแจ้งให้ผู้จัดการหรือผู้วางแผนทราบว่า สินทรัพย์อาจต้องการการบำรุงรักษาหรืองานซ่อมแซม แต่ไม่มีการสร้างใบสั่งงาน ถ้าเนื้อหาของคำขอการบำรุงรักษาถูกพิจารณาแล้วว่าถูกต้อง จากนั้น จะสามารถสร้างใบสั่งงานตามคำขอการบำรุงรักษาได้
 
