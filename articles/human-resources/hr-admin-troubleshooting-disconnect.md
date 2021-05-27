@@ -1,6 +1,6 @@
 ---
 title: ไคลเอนต์ยกเลิกการเชื่อมต่อ
-description: บทความนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อมของเขาหรือเธอ และไม่รู้ว่าเพราะอะไร
+description: บทความนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อม และไม่รู้ว่าเพราะอะไร
 author: andreabichsel
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9ec43ad0a7d121eb247d81d4b506556a0fa2214
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db0e8efec1a5a6f01c9b7c4d9334a959fc42886b
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794912"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027998"
 ---
-# <a name="client-disconnects"></a>ไคลเอนต์ยกเลิกการเชื่อมต่อ
+# <a name="client-disconnects"></a>การยกเลิกการเชื่อมต่อไคลเอนต์
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "5794912"
  
 **อาการ** 
 
-ลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อมของเขาหรือเธอ และไม่รู้ว่าเพราะอะไร ลูกค้าจะได้รับหนึ่งในข้อความแสดงข้อผิดพลาดต่อไปนี้:
+ลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อม และไม่รู้ว่าเพราะอะไร ลูกค้าจะได้รับหนึ่งในข้อความแสดงข้อผิดพลาดต่อไปนี้:
 
 - เราได้เสียการเชื่อมต่อของคุณ คลิกปิดเพื่อทำงานต่อไป
 - การเชื่อมต่อเครือข่ายของคุณอาจขาดหายไป คลิก ลองอีกครั้ง เพื่อลองใหม่

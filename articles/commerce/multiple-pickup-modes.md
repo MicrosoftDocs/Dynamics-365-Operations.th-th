@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796898"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020662"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>เปิดใช้งานวิธีการจัดส่งหลายครั้งสำหรับใบสั่งของลูกค้า
 
@@ -82,7 +82,7 @@ ms.locfileid: "5796898"
 
 ## <a name="considerations-for-distributed-order-management"></a>การตั้งค่าคอนฟิกสำหรับการจัดการใบสั่งแบบกระจาย
 
-ลักษณะการทำงาน [การจัดการใบสั่งแบบกระจาย (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) ใน Commerce ละเว้นบรรทัดการขายใด ๆ ที่ทำเครื่องหมายไว้สำหรับการเบิกสินค้าของร้านค้า ลักษณะการทำงานเหล่านี้ได้รับการอัพเดตแล้วเพื่อให้แน่ใจว่าบรรทัดการขายที่เชื่อมโยงกับวิธีการจัดส่งของการจัดส่งที่ตั้งค่าคอนฟิกข้ามตรรกะ DOM และจะไม่ถูกจัดสรรไปยังคลังสินค้าการเติมสินค้าใหม่
+ลักษณะการทำงาน [การจัดการใบสั่งแบบกระจาย (DOM)](./dom.md) ใน Commerce ละเว้นบรรทัดการขายใด ๆ ที่ทำเครื่องหมายไว้สำหรับการเบิกสินค้าของร้านค้า ลักษณะการทำงานเหล่านี้ได้รับการอัพเดตแล้วเพื่อให้แน่ใจว่าบรรทัดการขายที่เชื่อมโยงกับวิธีการจัดส่งของการจัดส่งที่ตั้งค่าคอนฟิกข้ามตรรกะ DOM และจะไม่ถูกจัดสรรไปยังคลังสินค้าการเติมสินค้าใหม่
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

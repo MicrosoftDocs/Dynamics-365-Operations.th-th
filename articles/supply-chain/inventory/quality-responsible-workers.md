@@ -2,11 +2,9 @@
 title: ผู้ปฏิบัติงานที่รับผิดชอบการอนุมัติความไม่สอดคล้องกัน
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกผู้ปฏิบัติงานที่รับผิดชอบการอนุมัติความไม่สอดคล้องกัน
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5979cb33146a00c3ea49ada9577140b24c07928f
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 2d3f647de2c188661c2c9c5f31e2642c3f8ca0b5
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956852"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021791"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>ผู้ปฏิบัติงานที่รับผิดชอบการอนุมัติความไม่สอดคล้องกัน
 

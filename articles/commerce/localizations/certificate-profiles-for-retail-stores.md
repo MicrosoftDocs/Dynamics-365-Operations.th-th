@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798872"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020324"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 
@@ -79,7 +79,7 @@ ms.locfileid: "5798872"
 - **ใบรับรอง Key Vault** – จำเป็นต้องใช้ฟิลด์นี้ถ้าคุณตั้งค่าฟิลด์ **ชนิดของสถานที่ที่** เป็น **Key Vault** ใช้เพื่อระบุความลับของใบรับรอง Key Vault
 
     > [!NOTE]
-    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอนต์ Key Vault ของ Azure](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client)
+    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอนต์ Key Vault ของ Azure](../../finance/localizations/setting-up-azure-key-vault-client.md)
 
 - **ชื่อร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุชื่อร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่
 - **ที่ตั้งร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุที่ตั้งร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่

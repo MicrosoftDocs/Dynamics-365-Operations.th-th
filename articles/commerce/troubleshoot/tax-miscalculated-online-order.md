@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801422"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021114"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>การคํานวณภาษีในใบสั่งออนไลน์ไม่ถูกต้อง
 
@@ -44,7 +43,7 @@ ms.locfileid: "5801422"
 1. บนแท็บด่วน **ทั่วไป** ในส่วน **ภาษีขาย** ให้ตั้งค่าคอนฟิกข้อมูลภาษีขายของร้านค้า
 
 > [!NOTE]
-> สำหรับการเบิกสินค้าจากร้านค้า กลุ่มภาษีจะมาจากร้านค้าที่เลือกเพื่อเบิกสินค้า ดูข้อมูลเพิ่มเติมที่ [ตั้งค่าตัวเลือกภาษีอื่นๆ สำหรับร้านค้า](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)
+> สำหรับการเบิกสินค้าจากร้านค้า กลุ่มภาษีจะมาจากร้านค้าที่เลือกเพื่อเบิกสินค้า ดูข้อมูลเพิ่มเติมที่ [ตั้งค่าตัวเลือกภาษีอื่นๆ สำหรับร้านค้า](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores)
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกภาษีขายสำหรับที่อยู่ของลูกค้าในศูนย์ควบคุม Commerce
 
@@ -68,7 +67,7 @@ ms.locfileid: "5801422"
 1. บนแท็บด่วน **ภาษีตามปลายทางการขายปลีก** ให้ตั้งค่าคอนฟิกภาษีของกลุ่มภาษีขาย
 
 > [!NOTE]
-> การจัดส่งที่ไม่เกี่ยวข้องกับภาษีขายในที่อยู่ของลูกค้า ที่อยู่ที่จัดส่งในบรรทัดและภาษีฐานปลายทางซึ่งตั้งค่าคอนฟิกไว้สำหรับกลุ่มภาษีจะกําหนดกลุ่มภาษี สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าภาษีสำหรับร้านค้าออนไลน์ตามปลายทาง](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+> การจัดส่งที่ไม่เกี่ยวข้องกับภาษีขายในที่อยู่ของลูกค้า ที่อยู่ที่จัดส่งในบรรทัดและภาษีฐานปลายทางซึ่งตั้งค่าคอนฟิกไว้สำหรับกลุ่มภาษีจะกําหนดกลุ่มภาษี สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าภาษีสำหรับร้านค้าออนไลน์ตามปลายทาง](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

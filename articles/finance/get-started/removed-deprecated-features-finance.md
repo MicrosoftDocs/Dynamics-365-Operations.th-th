@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965321"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980909"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ ms.locfileid: "5965321"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.20
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>การตั้งค่าคอนฟิกรูปแบบคำขอข้อมูลใบแจ้งหนี้การสอบถาม RTIR (HU)
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>การตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ของ "คำขอข้อมูลใบแจ้งหนี้การสอบถาม RTIR (HU)"
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ ms.locfileid: "5965321"
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
 | **สถานะ**                         | ไม่สนับสนุน: โดยวันที่ 15 เมษายน 2022 เราวางแผนที่จะไม่สนับสนุนการตั้งค่าคอนฟิกรูปแบบ "คำขอข้อมูลใบแจ้งหนี้การสอบถาม RTIR (HU)" อีกต่อไป |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ของ "ไฟล์การตรวจสอบ FEC ของฝรั่งเศส" สำหรับฝรั่งเศสภายใต้รูปแบบ "ผลลัพธ์ไฟล์การตรวจสอบของเยอรมัน"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบ "ไฟล์การตรวจสอบ FEC (FR)" ใหม่ |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | ไม่สนับสนุน: โดยวันที่ 1 พฤษภาคม 2022 เราวางแผนที่จะไม่สนับสนุนรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ของไฟล์การตรวจสอบภาษาฝรั่งเศส (ER) ของฝรั่งเศสอีกต่อไปภายใต้รูปแบบ "ผลลัพธ์ไฟล์การตรวจสอบของเยอรมัน" มีการใช้ไฟล์การตรวจสอบ FEC ใหม่ (FR) แทนภายใต้ "แบบลองการส่งออกข้อมูล" |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.17
 

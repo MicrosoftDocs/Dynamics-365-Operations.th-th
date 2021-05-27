@@ -2,11 +2,9 @@
 title: การสุ่มตัวอย่างสินค้าในการจัดการคุณภาพ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการสุ่มตัวอย่างสินค้า
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495bef32d63738e367167ee69f2028bc77945cc4
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: ae8bfd329ca0d7c30adcd93a759ee6bea7b76278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956842"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022239"
 ---
 # <a name="quality-management-item-sampling"></a>การสุ่มตัวอย่างสินค้าในการจัดการคุณภาพ
 

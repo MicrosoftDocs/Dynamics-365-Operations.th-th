@@ -1,0 +1,31 @@
+---
+title: ผู้ใช้สามารถยกเลิกการเบิกรายการวัสดุของผลิตภัณฑ์ที่รายงานเมื่อเสร็จสมบูรณ์ได้
+description: ระบบอนุญาตให้ผู้ใช้สามารถยกเลิกการเบิกรายการวัตถุดิบของผลิตภัณฑ์ที่รายงานเมื่อเสร็จสมบูรณ์ได้
+author: johanhoffmann
+ms.date: 4/11/2021
+ms.topic: troubleshooting
+ms.search.form: ProdTableListPage
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: johanho
+ms.search.validFrom: 2021-04-11
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 5a4e2ffd24904f822f4993525cc196a050db1ba4
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026937"
+---
+# <a name="users-can-unpick-material-lines-for-products-that-have-been-reported-as-finished"></a>ผู้ใช้สามารถยกเลิกการเบิกรายการวัสดุของผลิตภัณฑ์ที่รายงานเมื่อเสร็จสมบูรณ์ได้
+
+หมายเลข KB: 4614721
+
+## <a name="symptoms"></a>อาการ
+
+ระบบอนุญาตให้ผู้ใช้สามารถยกเลิกการเบิกรายการวัตถุดิบของผลิตภัณฑ์ที่รายงานเมื่อเสร็จสมบูรณ์ได้
+
+## <a name="resolution"></a>ความละเอียด
+
+ระบบมีการทำงานตามที่ออกแบบ ปริมาณการใช้วัตถุดิบสามารถปรับได้จนกว่าใบสั่งผลิตจะมีสถานะ *สิ้นสุด*

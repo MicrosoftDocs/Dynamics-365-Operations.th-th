@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59d6b298896c92cbc0f6bbae17096ee1f027b922
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799166"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019870"
 ---
 # <a name="enable-product-recommendations"></a>เปิดใช้งานคำแนะนำผลิตภัณฑ์
 
@@ -39,7 +39,7 @@ ms.locfileid: "5799166"
 2. ตรวจสอบให้แน่ใจว่ามีการรีเฟรชที่จัดเก็บเอนทิตี้โดยอัตโนมัติ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตรวจสอบให้แน่ใจว่ามีการรีเฟรชที่จัดเก็บเอนทิตี้โดยอัตโนมัติ](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
 3. ยืนยันว่าการตั้งค่าคอนฟิกข้อมูลเฉพาะตัว Azure AD มีรายการสำหรับคำแนะนำ ข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดำเนินการนี้อยู่ด้านล่าง
 
-นอกจากนี้ ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการวัด RetailSale แล้ว เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับขั้นตอนการตั้งค่านี้ ให้ดูที่ [การทำงานกับการวัด](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
+นอกจากนี้ ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการวัด RetailSale แล้ว เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับขั้นตอนการตั้งค่านี้ ให้ดูที่ [การทำงานกับการวัด](/dynamics365/ai/customer-insights/pm-measures)
 
 ## <a name="azure-ad-identity-configuration"></a>การตั้งค่าคอนฟิกข้อมูลประจำตัวของ Azure AD
 

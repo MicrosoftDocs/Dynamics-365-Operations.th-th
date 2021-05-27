@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857284"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018842"
 ---
 # <a name="peripherals"></a>อุปกรณ์ต่อพ่วง
 
@@ -158,7 +158,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="dedicated"></a>เฉพาะเจาะจง
 
-ไคลเอนต์ POS สมัยใหม่สำหรับ Windows และ Android รวมถึง **เฉพาะเจาะจง** หรือที่มีอยู่แล้วภายใน ลูกค้าเหล่านั้นสามารถสื่อสารกับอุปกรณ์ต่อพ่วงโดยตรงโดยใช้ตรรกะทางธุรกิจที่สร้างขึ้นในแอปพลิเคชัน แอปพลิเคชัน Android สนับสนุนอุปกรณ์เครือข่ายเท่านั้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนอุปกรณ์ต่อพ่วงสำหรับ Android ให้ไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
+ไคลเอนต์ POS สมัยใหม่สำหรับ Windows และ Android รวมถึง **เฉพาะเจาะจง** หรือที่มีอยู่แล้วภายใน ลูกค้าเหล่านั้นสามารถสื่อสารกับอุปกรณ์ต่อพ่วงโดยตรงโดยใช้ตรรกะทางธุรกิจที่สร้างขึ้นในแอปพลิเคชัน แอปพลิเคชัน Android สนับสนุนอุปกรณ์เครือข่ายเท่านั้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสนับสนุนอุปกรณ์ต่อพ่วงสำหรับ Android ให้ไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](./dev-itpro/hybridapp.md)
 
 เมื่อต้องการใช้สถานีฮาร์ดแวร์เฉพาะ ให้กำหนดโพรไฟล์ฮาร์ดแวร์ให้กับการลงทะเบียนที่จะใช้ Modern POS สำหรับแอปพลิเคชัน Windows หรือ Android จากนั้น สร้างสถานีฮาร์ดแวร์ของชนิด **เฉพาะเจาะจง** สำหรับร้านค้าที่จะใช้เครื่องบันทึกเงินสดนั้น เริ่มต้น POS แบบสมัยใหม่ในโหมดไม่มีลิ้นชักและใช้ดำเนินการใช้ **จัดการสถานีฮาร์ดแวร์** เพื่อเปิดใช้งานความสามารถของสถานีฮาร์ดแวร์ สถานีฮาร์ดแวร์เฉพาะจะใช้งานโดยค่าเริ่มต้น ถัดไป ให้ออกจากระบบ POS สมัยใหม่ แล้วล็อกอินกลับเข้า และเปิดกะและอุปกรณ์ต่อพ่วงที่ตั้งค่าคอนฟิกไว้ในโพรไฟล์ฮาร์ดแวร์จะใช้งานได้ 
 
@@ -199,7 +199,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิก Modern POS สำหรับ Android และ iOS
 
-สำหรับข้อมูล ให้ดู [ตั้งค่าแอป POS Hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
+สำหรับข้อมูล ให้ดู [ตั้งค่าแอป POS Hybrid บน Android และ iOS](./dev-itpro/hybridapp.md)
 
 ### <a name="opos-device-setup-and-configuration"></a>การตั้งค่าและการตั้งค่าคอนฟิกอุปกรณ์ OPOS
 
@@ -494,7 +494,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS สำหรับ Android ที่มีสถานีฮาร์ดแวร์ของ IPC (ในตัว)
 
-**ใหม่สำหรับ 10.0.8** - Epson เครื่องพิมพ์บนเครือข่ายและลิ้นชักเงินสดที่เชื่อมต่อกับเครื่องพิมพ์เหล่านั้นผ่านพอร์ท DK ได้รับการสนับสนุนในขณะนี้สำหรับแอพลิเคชัน POS สำหรับ Android ที่ทันสมัย สำหรับรายละเอียด โปรดไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
+**ใหม่สำหรับ 10.0.8** - Epson เครื่องพิมพ์บนเครือข่ายและลิ้นชักเงินสดที่เชื่อมต่อกับเครื่องพิมพ์เหล่านั้นผ่านพอร์ท DK ได้รับการสนับสนุนในขณะนี้สำหรับแอพลิเคชัน POS สำหรับ Android ที่ทันสมัย สำหรับรายละเอียด โปรดไปที่บทความ [ตั้งค่าแอป POS hybrid บน Android และ iOS](./dev-itpro/hybridapp.md)
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>ไคลเอนต์ Modern POS ทั้งหมดที่มีการผูกมัด ''ที่ใช้ร่วมกัน'' ของสถานีฮาร์ดแวร์ของ IIS 
 
@@ -614,6 +614,9 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 | Star         | TSP650II | กำหนดเอง    | เชื่อมต่อผ่านเครือข่าย   |
 | Star         | mPOP     | OPOS      | เชื่อมต่อผ่านบลูทูธ |
 | HP           | F7M67AA  | OPOS      | USB ที่มีการจัดการ             |
+
+> [!NOTE]
+> เครื่องพิมพ์ TSP 100 ของ Windows ไม่สนับสนุนสถานีฮาร์ดแวร์ในตัว สถานีฮาร์ดแวร์ในตัวจะใช้กระบวนการ 64 บิต ซึ่งไม่เข้ากันกับโปรแกรมควบคุม TP 100 ที่มีอยู่ 
 
 #### <a name="bar-code-scanner"></a>สแกนเนอร์บาร์โค้ด
 

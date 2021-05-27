@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920966"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021380"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
 
@@ -41,7 +40,7 @@ ms.locfileid: "5920966"
 
 1. บนหน้า **คุณลักษณะภาษี** บนแท็บ **รุ่น** ให้เลือกรุ่นคุณลักษณะแบบร่าง แล้วจากนั้น เลือก **แก้ไข**
 
-    ![การเลือกแก้ไข](../media/image1.png)
+    ![การเลือกแก้ไข](../media/tax-feature-support-01.png)
 
 2. บนหน้า **การตั้งค่าคุณลักษณะภาษี** บนแท็บ **รหัสภาษี** ให้เลือก **เพิ่ม** เพื่อสร้างรหัสภาษีใหม่ สำหรับตัวอย่างนี้ มีการสร้างรหัสภาษีสามรหัส: **NL-Exempt**, **BE-RC-21** และ **BE-RC+21**
 
@@ -54,7 +53,7 @@ ms.locfileid: "5920966"
         4. เลือก **เพิ่ม** ในตาราง **อัตรา**
         5. สลับ **ได้รับยกเว้น** เป็น **ใช่** ในส่วน **ทั่วไป**
 
-        ![รหัสภาษี NL-Exempt](../media/image2.png)
+        ![รหัสภาษี NL-Exempt](../media/tax-feature-support-02.png)
 
     - เมื่อได้รับใบสั่งโอนย้ายที่คลังสินค้าของเบลเยียม จะมีการใช้ระบบการเก็บภาษีย้อนกลับโดยใช้รหัสภาษี **BE-RC-21** และ **BE-RC+21**
         
@@ -67,7 +66,7 @@ ms.locfileid: "5920966"
         6. สลับ **เป็นการเก็บภาษีย้อนกลับ** เป็น **ใช่** ในส่วน **ทั่วไป**
         7. เลือก **บันทึก**
 
-        ![รหัสภาษี BE-RC-21 สำหรับการเก็บภาษีย้อนกลับ](../media/image3.png)
+        ![รหัสภาษี BE-RC-21 สำหรับการเก็บภาษีย้อนกลับ](../media/tax-feature-support-03.png)
         
         สร้างรหัสภาษี **BE-RC+21**
         1. เลือก **เพิ่ม** ป้อน **BE-RC-21** ในฟิลด์ **รหัสภาษี**
@@ -77,7 +76,7 @@ ms.locfileid: "5920966"
         5. ป้อน **21** ในฟิลด์ **อัตราภาษี**
         6. เลือก **บันทึก**
 
-        ![รหัสภาษี BE-RC+21 สำหรับการเก็บภาษีย้อนกลับ](../media/image4.png)
+        ![รหัสภาษี BE-RC+21 สำหรับการเก็บภาษีย้อนกลับ](../media/tax-feature-support-04.png)
 
 3. กําหนดการใช้งานของรหัสภาษี
 

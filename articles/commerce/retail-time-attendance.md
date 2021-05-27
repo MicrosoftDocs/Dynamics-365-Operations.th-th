@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791906"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021499"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>การจัดการเวลาและการเข้างานใน Retail
 
@@ -38,9 +38,9 @@ ms.locfileid: "5791906"
 
 ### <a name="plan-worker-schedules"></a>วางแผนกำหนดการของผู้ปฏิบัติงาน
 
-- การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน สำหรับข้อมูลเพิ่มเติม ดู [นำโพรไฟล์ไปใช้โดยใช้โปรแกรมการวางแผนงาน](https://technet.microsoft.com/library/aa551234.aspx)
+- การนำโพรไฟล์มาใช้โดยการใช้โปรแกรมวางแผนงาน สำหรับข้อมูลเพิ่มเติม ดู [นำโพรไฟล์ไปใช้โดยใช้โปรแกรมการวางแผนงาน](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าตอนฟิกขั้นตอน โปรดดู [ตั้งค่าเวลาและการเข้างาน](https://technet.microsoft.com/library/aa496971.aspx)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าตอนฟิกขั้นตอน โปรดดู [ตั้งค่าเวลาและการเข้างาน](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance)
 
 ### <a name="commerce-specific-configuration"></a>การตั้งค่าคอนฟิกเฉพาะทางการค้า
 
@@ -135,7 +135,7 @@ ms.locfileid: "5791906"
 - การตอกบัตรออกจำนวนมาก
 - ลงทะเบียนการขาดงาน
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนเวลาและการเข้างานของกระบวนการ ดู [ประมวลผลการลงทะเบียนเวลาและการเข้างาน](https://technet.microsoft.com/library/aa573180.aspx)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนเวลาและการเข้างานของกระบวนการ ดู [ประมวลผลการลงทะเบียนเวลาและการเข้างาน](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
