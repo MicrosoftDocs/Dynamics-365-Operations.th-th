@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: การรวมข้อมูล
           items:
-            - name: เลือกกลยุทธ์การรวมข้อมูล (นำเข้า/ส่งออก)
+            - name: การรวมระหว่างแอป Finance and Operations และบริการของบุคคลที่สาม
               href: data-entities/integration-overview.md
             - name: การควบคุมปริมาณตามระดับความสำคัญ
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: การรวมข้อมูลโดยใช้ Dataverse
+                - name: ตัวรวมข้อมูล
                   items:
-                    - name: ภาพรวมของการรวมข้อมูลโดยใช้ Dataverse
-                      href: data-entities/data-integration-cds.md
-                    - name: การรวมแบบสองทิศทาง
+                    - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
                       items:
-                        - name: โฮมเพจการรวมแบบสองทิศทาง
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการรวมแบบสองทิศทาง
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: ภาพรวมของการรวมแบบสองทิศทาง
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: การตั้งค่าการรวมแบบสองทิศทาง
-                          items:
-                            - name: ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: คำแนะนำเกี่ยวกับวิธีการตั้งค่าการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มแรก
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
-                              items:
-                                - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: ความต้องการของระบบและข้อกำหนดเบื้องต้น
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: วิธีใช้วิซาร์ดการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: การจัดการการรวมแบบสองทิศทาง
-                          items:
-                            - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: การจัดการแม็ปเอนทิตี้หลายรายการ
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: การจัดการข้อผิดพลาดและการแจ้งเตือน
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: การแม็ปแนวคิดระหว่างแอป
-                          items:
-                            - name: ข้อมูลหลักของลูกค้าแบบรวม
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: การรวมผู้จัดจำหน่าย
-                              items:
-                                - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: สลับการออกแบบของผู้จัดจำหน่าย
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: บัตรสมาชิกของลูกค้าและคะแนนรางวัล
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: การรวมผลิตภัณฑ์
-                              items:
-                                - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: ไซต์และคลังสินค้าแบบรวม
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: การรวมบริษัท
-                              items:
-                                - name: แนวคิดของบริษัทใน Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: เริ่มต้นข้อมูลบริษัท
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: ลำดับชั้นขององค์กรใน Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: ข้อมูลการเงินและภาษี
-                              items:
-                                - name: เข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: บัญชีแยกประเภทแบบรวม
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: ข้อมูลหลักของภาษีแบบรวม
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: รวมการจัดซื้อใน Supply Chain Management กับ Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: ซิงค์แบบตามความต้องการกับกลไกจัดการราคาของ Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดในการรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: ใช้กลไกจัดการราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: ความพร้อมของสินค้าคงคลัง
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: สมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
-                              href: data-entities/dual-write/party-gab.md
-                            - name: การใช้ Power Portal กับรูปแบบข้อมูลของฝ่าย
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: การรวมบันทึกย่อ
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: การอ้างอิงการแม็ป
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
-                          items:
-                            - name: การสนับสนุนสำหรับโซลูชัน Field Service และ Project Service Automation
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: ย้ายข้อมูลผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดจากตัวรวมข้อมูลไปที่การรวมแบบสองทิศทาง
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: การแก้ไขปัญหา
-                              items:
-                                - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: แก้ไขปัญหาระหว่างการซิงโครไนส์เริ่มแรก
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: แก้ไขปัญหาการซิงโครไนส์แบบสด
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: แก้ไขปัญหาที่เกี่ยวข้องกับการรับรู้โซลูชัน
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: แก้ไขปัญหาจากการอัปเกรดแอป Finance and Operations
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: การแก้ไขปัญหาทั่วไป
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: การรวมกับ Power Platform
+                        - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                       items:
-                        - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
-                          items:
-                            - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
-                          items:
-                            - name: ภาพรวมของการตั้งค่าคอนฟิกการรวมกับ Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: ซิงโครไนส์การโอนและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยัง Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: ซิงโครไนส์ข้อมูลระดับสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: ซิงโครไนส์ผลิตภัณฑ์ที่มีหน่วยสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: ซิงโครไนส์รายการโครงการจาก Finance and Operations ไปยัง Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
-                          items:
-                            - name: ภาพรวมของ Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: พารามิเตอร์การรวม Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: ซิงโครไนส์สัญญาของโครงการและโครงการ
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: ซิงโครไนส์งานโครงการ
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: ซิงโครไนส์ประเภทของค่าใช้จ่ายในโครงการ
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: ซิงโครไนส์การประเมินโครงการจาก/ไปยังการคาดการณ์โครงการ
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: ซิงโครไนส์ข้อมูลจริงของโครงการไปยังสมุดรายวันการรวมโครงการ
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: ภาพรวมของการตั้งค่าคอนฟิกการรวมกับ Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: ซิงโครไนส์การโอนและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยัง Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: ซิงโครไนส์ข้อมูลระดับสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: ซิงโครไนส์ผลิตภัณฑ์ที่มีหน่วยสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: ซิงโครไนส์รายการโครงการจาก Finance and Operations ไปยัง Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
+                      items:
+                        - name: ภาพรวมของ Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: พารามิเตอร์การรวม Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: ซิงโครไนส์สัญญาของโครงการและโครงการ
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: ซิงโครไนส์งานโครงการ
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: ซิงโครไนส์ประเภทของค่าใช้จ่ายในโครงการ
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: ซิงโครไนส์การประเมินโครงการจาก/ไปยังการคาดการณ์โครงการ
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: ซิงโครไนส์ข้อมูลจริงของโครงการไปยังสมุดรายวันการรวมโครงการ
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: การใช้บริการเว็บภายนอก
               href: data-entities/consume-external-web-service.md
             - name: การส่งข้อความทางอิเล็กทรอนิกส์
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการบํารุงรักษาที่วางแผนไว้ในสภาพแวดล้อมแบบบริการตนเอง
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: ทำให้การเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute และ Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: การรวม Microsoft Power Platform กับ Finance and Operations
               href: power-platform/overview.md
+            - name: การรวมแบบสองทิศทาง
+              items:
+                - name: โฮมเพจการรวมแบบสองทิศทาง
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการรวมแบบสองทิศทาง
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: ภาพรวมของการรวมแบบสองทิศทาง
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: การตั้งค่าการรวมแบบสองทิศทาง
+                  items:
+                    - name: ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: คำแนะนำเกี่ยวกับวิธีการตั้งค่าการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มแรก
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                      items:
+                        - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: ความต้องการของระบบและข้อกำหนดเบื้องต้น
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: วิธีใช้วิซาร์ดการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: การจัดการการรวมแบบสองทิศทาง
+                  items:
+                    - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: การจัดการแม็ปเอนทิตี้หลายรายการ
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: การจัดการข้อผิดพลาดและการแจ้งเตือน
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: การแม็ปแนวคิดระหว่างแอป
+                  items:
+                    - name: ข้อมูลหลักของลูกค้าแบบรวม
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: การรวมผู้จัดจำหน่าย
+                      items:
+                        - name: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: สลับการออกแบบของผู้จัดจำหน่าย
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: บัตรสมาชิกของลูกค้าและคะแนนรางวัล
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: การรวมผลิตภัณฑ์
+                      items:
+                        - name: ประสบการณ์ใช้งานผลิตภัณฑ์แบบครบวงจร
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: ไซต์และคลังสินค้าแบบรวม
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: การรวมบริษัท
+                      items:
+                        - name: แนวคิดของบริษัทใน Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: เริ่มต้นข้อมูลบริษัท
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: ลำดับชั้นขององค์กรใน Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: ข้อมูลการเงินและภาษี
+                      items:
+                        - name: เข้าถึงข้อมูลอ้างอิงทางการเงินและภาษี
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: บัญชีแยกประเภทแบบรวม
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: ข้อมูลหลักของภาษีแบบรวม
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: รวมการจัดซื้อใน Supply Chain Management กับ Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: ซิงค์แบบตามความต้องการกับกลไกจัดการราคาของ Supply Chain Management
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดในการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: ใช้กลไกจัดการราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: สินทรัพย์ภายในองค์กรสำหรับการให้บริการ
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: ความพร้อมของสินค้าคงคลัง
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: ผู้ปฏิบัติงาน งาน และตำแหน่งแบบรวม
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: สมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                      href: data-entities/dual-write/party-gab.md
+                    - name: การใช้ Power Portal กับรูปแบบข้อมูลของฝ่าย
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: การรวมบันทึกย่อ
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: การอ้างอิงการแม็ป
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
+                  items:
+                    - name: การสนับสนุนสำหรับโซลูชัน Field Service และ Project Service Automation
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: ย้ายข้อมูลผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสดจากตัวรวมข้อมูลไปที่การรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: การแก้ไขปัญหา
+                      items:
+                        - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: แก้ไขปัญหาระหว่างการซิงโครไนส์เริ่มแรก
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: แก้ไขปัญหาการซิงโครไนส์แบบสด
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: แก้ไขปัญหาที่เกี่ยวข้องกับการรับรู้โซลูชัน
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: แก้ไขปัญหาจากการอัปเกรดแอป Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: การแก้ไขปัญหาทั่วไป
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: เอนทิตี้เสมือน
               items:
+                - name: ภาพรวมของเอนทิตี้เสมือน
+                  href: power-platform/virtual-entities-overview.md
                 - name: การสร้างแบบจำลองเอนทิตี้
                   href: power-platform/entity-modeling.md
                 - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน

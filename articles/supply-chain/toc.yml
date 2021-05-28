@@ -361,12 +361,10 @@
                   href: asset-management/objects/object-timeline.md
                 - name: มุมมองสินทรัพย์
                   href: asset-management/objects/object-view.md
-                - name: ภาพรวมของแอททริบิวต์สินทรัพย์
+                - name: ภาพรวมแอททริบิวต์สินทรัพย์
                   href: asset-management/objects/object-specification-overview.md
             - name: การตั้งค่าสำหรับคำขอการบำรุงรักษา
               items:
-                - name: คำขอการบำรุงรักษา
-                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: สถานะของวงจรการใช้ของคำขอการบำรุงรักษา
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: ชนิดคำขอการบำรุงรักษา
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: การแก้ไขปัญหา
           items:
+            - name: การจัดการต้นทุน
+              items:
+                - name: การตั้งค่าฟิลด์หายไปในการคัดลอกกลุ่มแบบจำลองสินค้าไปที่นิติบุคคลอื่น
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: รายงาน "ต้นทุนทางอ้อมในกระบวนการ" จะรวมใบสั่งผลิตที่ลบออก
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: ลงรายการบัญชีการซื้อคงค้างด้วยยอดเงินเป็นศูนย์สำหรับใบรับสินค้าที่มีมูลค่าเป็นศูนย์
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: ใบสั่งซื้อที่ได้รับจริงไม่ปรากฏในรายงานการปิดบัญชีสินค้าคงคลัง
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: ไม่มีวันที่เริ่มต้นบนแท็บ ราคาที่ใช้งานอยู่ ของหน้าราคาสินค้า
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: การบริหารสินค้าคงคลัง
+              items:
+                - name: ธุรกรรมสินค้าคงคลังหลายรายการสำหรับหมายเลขชุดงานที่ไม่มี "เมื่ออัพเดตตามจริง"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: การกลับรายการรายงานเมื่อเสร็จสมบูรณ์สร้างธุรกรรมเปิดที่ไม่คาดคิด
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: ไม่สามารถแสดงหมายเหตุใหม่ที่แนบกับสมุดรายวันในรายงานรายการเบิกสินค้า
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: ปริมาณในใบสั่งตรวจสอบสินค้าที่เริ่มต้นแล้วจะไม่อัพเดตเมื่อมีการแบ่งใบสั่ง
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: ฟิลด์ "วันที่ทดสอบล่าสุด" ไม่มีการอัพเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: เมื่อแบ่งปริมาณตามน้ำหนักจริง มีการใช้ปริมาณต่ำสุดแทนที่จะเป็นปริมาณที่ตั้งไว้
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: การวางแผนหลัก
+              items:
+                - name: ใบสั่งที่ยืนยันซึ่งสืบทอดมาโดยตรงจะได้รับการประมวลผลโดยลำดับงานที่อยู่ระหว่างการตรวจทาน
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: การวางแผนหลักสร้างแผนการใบสั่งสหรับผลิตภัณฑ์แฝง
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: แผนการใบสั่งซื้อที่สร้างขึ้นเมื่อมีการซื้ออยู่ภายในจำนวนวันค่าลบ
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: ไม่สามารถอัพโหลดราคาต้นทุนในรายการการคาดการณ์ความต้องการ
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: ไม่สามารถลบมิติการคาดการณ์ความต้องการคลังสินค้าจากรายการการคาดการณ์
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: การจัดซื้อ
+              items:
+                - name: ไม่สามารถออกใบแจ้งหนี้ใบสั่งขายที่เชื่อมต่อกับลูกค้าในบริษัท VEL ได้
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: ไม่สามารถเพิ่มรายการในใบขอซื้อหลังจากร้องขอการเปลี่ยนแปลงได้
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: การจัดการข้อมูลผลิตภัณฑ์
+              items:
+                - name: ไม่สามารถใช้เท็มเพลตเพื่อสร้างผลิตภัณฑ์ที่นำออกใช้ได้
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: ไม่สามารถนําเข้าสินค้าโดยใช้เอนทิตี้ผลิตภัณฑ์ที่นำออกใช้ V2 ได้
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: ใบสั่งซื้อจะไม่แสดงข้อความผลิตภัณฑ์ที่แปล
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: การควบคุมการผลิต
+              items:
+                - name: ไม่ได้ปฏิบัติตามการตั้งค่าหลักการของการล้างบนรายการ BOM
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: หมายเลขชุดงานถูกล้างเมื่อเลือกรหัสล็อตใหม่
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: ไม่ยอมรับการเลือกที่ล่าช้าเมื่อรีเซ็ตใบสั่งผลิตผ่านชุดงาน
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: ผู้ใช้สามารถยกเลิกการเบิกรายการวัสดุสำหรับผลิตภัณฑ์ที่รายงานการเสร็จงานแล้ว
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: ข้อผิดพลาดเกี่ยวกับการลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: คลังสินค้าในสมุดรายวันรายการเบิกสินค้าไม่ได้รับการอัพเดตในรายการ BOM
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: การจัดการเงินคืน
+              items:
+                - name: การสะสมเงินคืนของลูกค้าโดยใช้กลุ่มเงินคืนของสินค้าล้มเหลว
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: การขายและการตลาด
+              items:
+                - name: ผู้ดูแลระบบไม่สามารถล้างข้อมูลการระงับใบสั่งเนื่องจากไม่ได้รับอนุญาต
+                  href: troubleshooting/sales/system-administrator.md
+            - name: การจัดการการขนส่ง
+              items:
+                - name: สามารถเพิ่มบัญชีหลักเป็นบัญชีเครดิตเพื่อเหตุผลในการกระทบยอดเท่านั้น
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: การจัดการคลังสินค้า
               items:
+                - name: เกิดข้อผิดพลาดขณะเลือกสถานที่ในระหว่างการลงทะเบียนรายการเบิกสินค้า
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: สถานีบรรจุสินค้าไม่แสดงหมายเหตุผลิตภัณฑ์
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: โพรไฟล์สถานที่ไม่อนุญาตให้มีสินค้าคงคลังค่าลบ แต่อนุญาตให้ใช้ปริมาณคงคลังคงเหลือที่เป็นค่าลบได้
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: พิมพ์ป้ายชื่อได้เพียงป้ายเดียวสำหรับหลายหัวข้องานบนใบเสร็จเดียว
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากปัญหาของปฏิทิน
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากงานที่ไม่สมบูรณ์หรือขาดหายไป

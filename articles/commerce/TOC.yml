@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: การปรับปรุงการจัดการเงินสด
                       href: cash-mgmt.md
-                    - name: การค้นหาสินค้าคงคลังใน POS
-                      href: product-variants-POS.md
                     - name: ต้องการระงับและดำเนินการธุรกรรมต่อใน POS หรือไม่
                       href: pos-suspend-recall-transactions.md
                     - name: ฟังก์ชัน POS แบบออฟไลน์
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก
                       href: calculated-inventory-retail-channels.md
+                    - name: การดำเนินการค้นหาสินค้าคงคลังใน POS
+                      href: pos-inventory-lookup-operation.md
                 - name: ใบสั่งซื้อ
                   items:
                     - name: ภาพรวมของใบสั่งซื้อ
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: สร้างโครงการแพคเกจส่วนขยาย POS
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: สร้างไฟล์ appx ส่วนขยาย Modern POS
+                    - name: สร้างไฟล์ .appx สำหรับแพคเกจส่วนขยาย Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
                     - name: ดีบักส่วนขยาย POS
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: การบรรจุภัณฑ์และการปรับใช้ส่วนขยาย
+                      items:
+                        - name: สร้างแพคเกจส่วนขยาย Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: รหัสที่ลงชื่อในแพคเกจส่วนขยาย Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: สร้างแพคเกจส่วนขยาย POS ระบบคลาวด์
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: ย้ายส่วนขยาย POS ไปที่แบบจำลองการจัดทำแพคเกจแบบอิสระ
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: คู่มือการพัฒนาส่วนขยายของ POS
+                      items:
+                        - name: ข้อมูลพื้นฐานส่วนขยาย POS
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: สร้างมุมมองที่กำหนดเองใน POS
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: ใช้การควบคุม POS ในส่วนขยาย
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: งาน
+                          items:
+                            - name: ใช้ Knockout.js ในส่วนขยาย POS
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: ใช้ Commerce API แบบไม่มีส่วนหัวที่กำหนดเอง
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: ความสามารถในการเพิ่มฟังก์ชัน Hardware Station
               items:
                 - name: Hardware Station และความสามารถในการเพิ่มฟังก์ชัน
