@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (เมษายน 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (กุมภาพันธ์ 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: ชำระการชำระเงินของลูกค้าบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: การชำระเงินล่วงหน้าของลูกค้า
+                  href: accounts-receivable/customer-prepayments.md
                 - name: ชำระเงินคืนลูกค้า
                   href: accounts-receivable/reimburse-customers.md
                 - name: การชำระเงินของลูกค้าสำหรับยอดเงินบางส่วน
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: สแนปช็อตอายุหนี้ของลูกค้า
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: รายงานอายุหนี้ของลูกค้า
               href: accounts-receivable/customer-aging.md
             - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: สร้างงบประมาณจากบัญชีธุรกรรมและบัญชีผลรวม
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: คำบรรยายแผนงบประมาณ
+              href: budgeting/budget-narrative.md
             - name: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: ขยายโครงร่างการวางแผนงบประมาณ
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: กำหนดนโยบายการตรวจสอบสำหรับเอกสารต้นทาง
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: การแก้ไขปัญหา
+              items:
+                - name: เปลี่ยนสกุลเงินทางบัญชีหรือการรายงาน
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: เปลี่ยนหรือกำหนดปฏิทินบัญชีแยกประเภทใหม่
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: กลับรายการการตั้งค่าในสมุดรายวันและรายการ
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: การปิดบัญชีสิ้นปีขาดยอดดุลยกมา
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: การรายงานทางการเงิน
           items:
             - name: เริ่มต้นการรายงานทางการเงิน
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: รายงานภาษี SPED-Reinf
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: ภาพรวมของ SPED-Reinf
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: ตั้งค่าข้อความอิเล็กทรอนิกส์
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: ตั้งค่าสมุดการเงิน
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: เหตุการณ์
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: การแก้ปัญหาทางการเงินของ SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED ทางการเงินปี 2020 - การให้ข้อมูลเสริมของ ICMS-ST สำหรับเค้าโครงทางการเงิน SPED 014
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับใบแจ้งหนี้ของลูกค้า VAT
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: การส่งออก GB/T 24589-2010
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: สาธารณรัฐเช็ก
               items:
                 - name: สาธารณรัฐเช็ก
@@ -2034,12 +2058,22 @@
                       href: localizations/emea-fra-titres-de-recette-public-sector.md
                     - name: การระงับการชำระเงินตามใบแจ้งหนี้ของผู้จัดจำหน่าย
                       href: localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: อนุมัติและลงรายการการออกตั๋วแลกเงิน
+                - name: อนุมัติและลงรายการบัญชีการออกตั๋วแลกเงิน
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: ใบสำคัญใบแจ้งหนี้ตามลำดับเวลา
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: สร้างไฟล์การตรวจสอบมาตรฐานสำหรับฝรั่งเศส (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: ไฟล์การตรวจสอบของฝรั่งเศส
+                  items:
+                    - name: ภาพรวมของไฟล์การตรวจสอบของฝรั่งเศส (FEC)
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: ข้อกำหนดเบื้องต้นสำหรับการสร้างไฟล์การตรวจสอบ FEC ในฝรั่งเศส
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: โครงสร้างแหล่งข้อมูล Finance สำหรับ FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: การจัดเตรียมสภาพแวดล้อมของคุณเพื่อสร้าง FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: สร้าง FEC ใน Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: ใบแจ้งยอดบัญชีลูกค้าและผู้จัดจำหน่าย
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: การคำนวณดอกเบี้ยประจำวันสำหรับการชำระเงินล่าช้าและจำนวนเงินรวมทั้งหมดในจดหมายเรียกเก็บเงินและใบแจ้งหนี้
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: TDS อินเดีย
+                  items:
+                    - name: ภาพรวมของการหักภาษีของอินเดียที่ต้นทาง (TDS)
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: การตั้งค่าพื้นฐานเกี่ยวกับ TDS
+                      items:
+                        - name: ตั้งค่าพารามิเตอร์ TDS
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: ตั้งค่าบัญชีแยกประเภท TDS
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: ตั้งค่าหมายเลขทะเบียน TDS สำหรับนิติบุคคล
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: ตั้งค่าหน่วยงานจัดเก็บภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: ตั้งค่าส่วนประกอบของภาษีสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: ตั้งค่าระยะเวลาการชำระภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: ตั้งค่ารหัสการรายงานภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: แนบรหัสภาษี TDS กับกลุ่มภาษี TDS และกําหนดสูตรในการคํานวณ TDS
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: บันทึกหมายเลขใบรับรองการสัมปทาน TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: ตั้งค่าพารามิเตอร์ TDS ในบัญชีเจ้าหนี้และบัญชีลูกหนี้
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: ตั้งค่ากำหนดการชำระเงินด้วยการปันส่วน TDS
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับการชำระเงินของหน่วยงาน TDS
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'การตั้งค่าข้อมูลกลุ่ม TDS, PAN, และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: ตัวออกแบบสูตรและขีดจํากัดในการคํานวณ TDS
+                      items:
+                        - name: ตัวออกแบบสูตรสำหรับการคํานวณ TDS
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: ขีดจํากัดและขีดจํากัดข้อยกเว้น
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: การคํานวณ TDS ในใบแจ้งหนี้
+                      items:
+                        - name: การคํานวณ TDS ในใบแจ้งหนี้
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: คํานวณ TDS บนใบแจ้งหนี้โดยใช้สมุดรายวัน
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: คํานวณใบแจ้งหนี้ TDS โดยใช้แบบฟอร์มใบสั่งซื้อและแบบฟอร์มใบสั่งขาย
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: การคํานวณ TDS ในใบแจ้งหนี้จากหน้าใบแจ้งหนี้ข้อความอิสระ
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: ฟังก์ชันการแบ่งใบแจ้งหนี้
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: กระบวนการชําระเงิน TDS
+                      items:
+                        - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: กระบวนการชําระเงิน TDS
+                          items:
+                            - name: รันกระบวนการชําระเงิน TDS ประจำงวด
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: ชำระเงิน TDS ให้แก่ผู้จัดจำหน่ายของหน่วยงาน TDS และสร้าง TDS challan
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: ดูการชําระเงินและธุรกรรม TDS ที่ลงรายการบัญชีในรอบระยะเวลาการชําระเงิน TDS
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: บันทึกและอัพเดตหมายเลขและวันที่ในใบรับรอง TDS
+                          items:
+                            - name: บันทึกหมายเลขใบรับรอง TDS ที่ได้รับคืน
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: อัพเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี
