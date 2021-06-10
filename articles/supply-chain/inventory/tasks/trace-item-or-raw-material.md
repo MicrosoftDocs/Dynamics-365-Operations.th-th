@@ -1,7 +1,7 @@
 ---
 title: ติดตามสินค้าหรือวัตถุดิบ
 description: 'ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ '
-author: pjacobse
+author: sherry-zheng
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,51 +11,51 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e46d75ecab3ec2e94372aecfd2c29783756446
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829823"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102889"
 ---
-# <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="70d43-103">ติดตามสินค้าหรือวัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="70d43-103">Trace an item or raw material</span></span>
+# <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="33cc9-103">ติดตามสินค้าหรือวัตถุดิบ</span><span class="sxs-lookup"><span data-stu-id="33cc9-103">Trace an item or raw material</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="70d43-104">ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ </span><span class="sxs-lookup"><span data-stu-id="70d43-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="70d43-105">ด้วยกระบวนงานนี้ คุณสามารถระบุสินค้า ติดตามสินค้ากลับไปยังแหล่งที่มา แล้วติดตามการผลิตไปข้างหน้าผ่านการผลิตและการขายผลิตภัณฑ์สำเร็จรูป </span><span class="sxs-lookup"><span data-stu-id="70d43-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="70d43-106">ขั้นตอนนี้สามารถนำมาใช้ในการตรวจสอบผลกระทบของลูกค้า ใบสั่งขายที่ได้รับผลกระทบ และอีกมากมาย </span><span class="sxs-lookup"><span data-stu-id="70d43-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="70d43-107">ขั้นตอนนี้จะใช้ข้อมูลสาธิตบริษัท USP2</span><span class="sxs-lookup"><span data-stu-id="70d43-107">This procedure uses demo data company USP2.</span></span>
+<span data-ttu-id="33cc9-104">ขั้นตอนนี้แสดงถึงวิธีใช้การติดตามสินค้าเพื่อระบุบสถานที่ของสินค้า หรือวัตถุดิบที่ถูกใช้ หรือกำลังใช้ </span><span class="sxs-lookup"><span data-stu-id="33cc9-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="33cc9-105">ด้วยกระบวนงานนี้ คุณสามารถระบุสินค้า ติดตามสินค้ากลับไปยังแหล่งที่มา แล้วติดตามการผลิตไปข้างหน้าผ่านการผลิตและการขายผลิตภัณฑ์สำเร็จรูป </span><span class="sxs-lookup"><span data-stu-id="33cc9-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="33cc9-106">ขั้นตอนนี้สามารถนำมาใช้ในการตรวจสอบผลกระทบของลูกค้า ใบสั่งขายที่ได้รับผลกระทบ และอีกมากมาย </span><span class="sxs-lookup"><span data-stu-id="33cc9-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="33cc9-107">ขั้นตอนนี้จะใช้ข้อมูลสาธิตบริษัท USP2</span><span class="sxs-lookup"><span data-stu-id="33cc9-107">This procedure uses demo data company USP2.</span></span>
 
 
-## <a name="trace-an-item-backwards-using-a-known-batch-number"></a><span data-ttu-id="70d43-108">ติดตามสินค้ากลับมาโดยใช้หมายเลขชุดงานที่รู้จัก</span><span class="sxs-lookup"><span data-stu-id="70d43-108">Trace an item backwards using a known batch number</span></span>
-1. <span data-ttu-id="70d43-109">In the **บานหน้าต่างนำทาง** ไปที่ **โมดูล > การบริหารสินค้าคงคลัง > การสอบถามและรายงาน > มิติการติดตาม > การติดตามสินค้า**</span><span class="sxs-lookup"><span data-stu-id="70d43-109">In the **Navigation pane**, go to **Modules > Inventory management > Inquiries and reports > Tracking dimensions > Item tracing**.</span></span>
-2. <span data-ttu-id="70d43-110">ในฟิลด์ **หมายเลขสินค้า** ให้เลือก 'P9100'</span><span class="sxs-lookup"><span data-stu-id="70d43-110">In the **Item number** field, select 'P9100'.</span></span>
-3. <span data-ttu-id="70d43-111">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70d43-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="70d43-112">ในฟิลด์ **ไปข้างหน้า หรือย้อนหลัง** เลือก 'ย้อนหลัง'</span><span class="sxs-lookup"><span data-stu-id="70d43-112">In the **Forward or backward** field, select 'Backward'.</span></span>
-5. <span data-ttu-id="70d43-113">ในฟิลด์ **หมายเลขชุดงาน** เลือก 'เป็น-12-344-01'</span><span class="sxs-lookup"><span data-stu-id="70d43-113">In the **Batch number** field, select 'as-12-344-01'.</span></span>
-6. <span data-ttu-id="70d43-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="70d43-114">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="70d43-115">คลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="70d43-115">Click **OK**.</span></span>
+## <a name="trace-an-item-backwards-using-a-known-batch-number"></a><span data-ttu-id="33cc9-108">ติดตามสินค้ากลับมาโดยใช้หมายเลขชุดงานที่รู้จัก</span><span class="sxs-lookup"><span data-stu-id="33cc9-108">Trace an item backwards using a known batch number</span></span>
+1. <span data-ttu-id="33cc9-109">In the **บานหน้าต่างนำทาง** ไปที่ **โมดูล > การบริหารสินค้าคงคลัง > การสอบถามและรายงาน > มิติการติดตาม > การติดตามสินค้า**</span><span class="sxs-lookup"><span data-stu-id="33cc9-109">In the **Navigation pane**, go to **Modules > Inventory management > Inquiries and reports > Tracking dimensions > Item tracing**.</span></span>
+2. <span data-ttu-id="33cc9-110">ในฟิลด์ **หมายเลขสินค้า** ให้เลือก 'P9100'</span><span class="sxs-lookup"><span data-stu-id="33cc9-110">In the **Item number** field, select 'P9100'.</span></span>
+3. <span data-ttu-id="33cc9-111">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="33cc9-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="33cc9-112">ในฟิลด์ **ไปข้างหน้า หรือย้อนหลัง** เลือก 'ย้อนหลัง'</span><span class="sxs-lookup"><span data-stu-id="33cc9-112">In the **Forward or backward** field, select 'Backward'.</span></span>
+5. <span data-ttu-id="33cc9-113">ในฟิลด์ **หมายเลขชุดงาน** เลือก 'เป็น-12-344-01'</span><span class="sxs-lookup"><span data-stu-id="33cc9-113">In the **Batch number** field, select 'as-12-344-01'.</span></span>
+6. <span data-ttu-id="33cc9-114">ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก</span><span class="sxs-lookup"><span data-stu-id="33cc9-114">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="33cc9-115">คลิก **ตกลง**</span><span class="sxs-lookup"><span data-stu-id="33cc9-115">Click **OK**.</span></span>
 
-## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a><span data-ttu-id="70d43-116">ระบุสินค้า ติดตามไปข้างหน้า และทำการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="70d43-116">Identify an item, trace it forward, and make an analysis</span></span>
+## <a name="identify-an-item-trace-it-forward-and-make-an-analysis"></a><span data-ttu-id="33cc9-116">ระบุสินค้า ติดตามไปข้างหน้า และทำการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="33cc9-116">Identify an item, trace it forward, and make an analysis</span></span>
 
-<span data-ttu-id="70d43-117">โหนดบนสุดของแผนภูมิแสดงถึงปริมาณคงคลังของสินค้าและชุดงานที่ถูกเลือก </span><span class="sxs-lookup"><span data-stu-id="70d43-117">The top node of the tree represents the on hand quantity of the selected item and batch.</span></span> <span data-ttu-id="70d43-118">คุณต้องขยายโหนดของแผนภูมิ เพื่อค้นหาสินค้าที่มีควรจะมีดำเนินการการติดตามแบบไปข้างหน้า</span><span class="sxs-lookup"><span data-stu-id="70d43-118">You need to expand the nodes of the tree to find the item that the forward trace should be executed on.</span></span>   
-1. <span data-ttu-id="70d43-119">ในแผนภูมิ ให้ขยาย 'โหนดที่อธิบายด้านล่าง แล้วเลือกโหนดสุดท้าย'</span><span class="sxs-lookup"><span data-stu-id="70d43-119">In the tree, expand 'the nodes described below, and then select the last node'.</span></span>
+<span data-ttu-id="33cc9-117">โหนดบนสุดของแผนภูมิแสดงถึงปริมาณคงคลังของสินค้าและชุดงานที่ถูกเลือก </span><span class="sxs-lookup"><span data-stu-id="33cc9-117">The top node of the tree represents the on hand quantity of the selected item and batch.</span></span> <span data-ttu-id="33cc9-118">คุณต้องขยายโหนดของแผนภูมิ เพื่อค้นหาสินค้าที่มีควรจะมีดำเนินการการติดตามแบบไปข้างหน้า</span><span class="sxs-lookup"><span data-stu-id="33cc9-118">You need to expand the nodes of the tree to find the item that the forward trace should be executed on.</span></span>   
+1. <span data-ttu-id="33cc9-119">ในแผนภูมิ ให้ขยาย 'โหนดที่อธิบายด้านล่าง แล้วเลือกโหนดสุดท้าย'</span><span class="sxs-lookup"><span data-stu-id="33cc9-119">In the tree, expand 'the nodes described below, and then select the last node'.</span></span>
     
-    <span data-ttu-id="70d43-120">ขยาย: 'P9100 / 1 / 10 / เป็น-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● เบิกสินค้าแล้ว ● ใบสั่งขาย 000072 ● 22 ธันวาคม 2015 ● -1 keg ● -4.00 gal ● ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=เป็น-12-344-01  \P9100 ● การผลิต B-000050 ● 9 ธันวาคม 2015● 7 keg ● 27.00 gal ● ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=as-12-344-01 ● ผลิตภัณฑ์ร่วม: P9101' แล้วเลือกโหนดนั้น</span><span class="sxs-lookup"><span data-stu-id="70d43-120">Expand: 'P9100 / 1 / 10 / as-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● Picked ● Sales order 000072 ● 12/22/2015  ● -1 keg ● -4.00 gal ● Site=1, Warehouse=10, Batch number=as-12-344-01  \P9100 ● Production B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Site=1,Warehouse=10,Batch number=as-12-344-01 ● Co-products: P9101' and then select that node.</span></span>     
-2. <span data-ttu-id="70d43-121">ในแผนภูมิ ให้ขยาย 'โหนดที่อธิบายด้านล่าง แล้วเลือกโหนดนั้น'</span><span class="sxs-lookup"><span data-stu-id="70d43-121">In the tree, expand 'the node described below and then select that node'.</span></span>
+    <span data-ttu-id="33cc9-120">ขยาย: 'P9100 / 1 / 10 / เป็น-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● เบิกสินค้าแล้ว ● ใบสั่งขาย 000072 ● 22 ธันวาคม 2015 ● -1 keg ● -4.00 gal ● ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=เป็น-12-344-01  \P9100 ● การผลิต B-000050 ● 9 ธันวาคม 2015● 7 keg ● 27.00 gal ● ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=as-12-344-01 ● ผลิตภัณฑ์ร่วม: P9101' แล้วเลือกโหนดนั้น</span><span class="sxs-lookup"><span data-stu-id="33cc9-120">Expand: 'P9100 / 1 / 10 / as-12-344-01 ● 2 keg ● 7.00 gal  \P9100 ● Picked ● Sales order 000072 ● 12/22/2015  ● -1 keg ● -4.00 gal ● Site=1, Warehouse=10, Batch number=as-12-344-01  \P9100 ● Production B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Site=1,Warehouse=10,Batch number=as-12-344-01 ● Co-products: P9101' and then select that node.</span></span>     
+2. <span data-ttu-id="33cc9-121">ในแผนภูมิ ให้ขยาย 'โหนดที่อธิบายด้านล่าง แล้วเลือกโหนดนั้น'</span><span class="sxs-lookup"><span data-stu-id="33cc9-121">In the tree, expand 'the node described below and then select that node'.</span></span>
     
-    <span data-ttu-id="70d43-122">โดยเริ่มต้นจากโหนดที่คุณเพิ่งเลือก ขยาย 'M9103 ● สายการผลิต B-000050 ● 12/9/2015 ● -160.00 ปอนด์ ● ขนาด=70 สี=ตกลง ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=App01' และจากนั้นให้เลือกโหนดนั้น</span><span class="sxs-lookup"><span data-stu-id="70d43-122">Starting from the node that you've just selected,  expand 'M9103 ● Production line B-000050 ● 12/9/2015  ● -160.00 lb ● Size=70, Color=OK, Site=1, Warehouse=10, Batch number=App01' and then select that node.</span></span>  
-3. <span data-ttu-id="70d43-123">คลิก **ติดตามจากโหนด**</span><span class="sxs-lookup"><span data-stu-id="70d43-123">Click **Trace from node**.</span></span>
-4. <span data-ttu-id="70d43-124">คลิก **ไปข้างหน้า**</span><span class="sxs-lookup"><span data-stu-id="70d43-124">Click **Forward**.</span></span>
-5. <span data-ttu-id="70d43-125">บน **บานหน้าต่างการดำเนินการ** คลิก **การติดตาม**</span><span class="sxs-lookup"><span data-stu-id="70d43-125">On the **Action Pane**, click **Tracing**.</span></span>
+    <span data-ttu-id="33cc9-122">โดยเริ่มต้นจากโหนดที่คุณเพิ่งเลือก ขยาย 'M9103 ● สายการผลิต B-000050 ● 12/9/2015 ● -160.00 ปอนด์ ● ขนาด=70 สี=ตกลง ไซต์=1 คลังสินค้า=10 หมายเลขชุดงาน=App01' และจากนั้นให้เลือกโหนดนั้น</span><span class="sxs-lookup"><span data-stu-id="33cc9-122">Starting from the node that you've just selected,  expand 'M9103 ● Production line B-000050 ● 12/9/2015  ● -160.00 lb ● Size=70, Color=OK, Site=1, Warehouse=10, Batch number=App01' and then select that node.</span></span>  
+3. <span data-ttu-id="33cc9-123">คลิก **ติดตามจากโหนด**</span><span class="sxs-lookup"><span data-stu-id="33cc9-123">Click **Trace from node**.</span></span>
+4. <span data-ttu-id="33cc9-124">คลิก **ไปข้างหน้า**</span><span class="sxs-lookup"><span data-stu-id="33cc9-124">Click **Forward**.</span></span>
+5. <span data-ttu-id="33cc9-125">บน **บานหน้าต่างการดำเนินการ** คลิก **การติดตาม**</span><span class="sxs-lookup"><span data-stu-id="33cc9-125">On the **Action Pane**, click **Tracing**.</span></span>
     
-    <span data-ttu-id="70d43-126">มีตัวเลือกการติดตามหลายตัวเลือกที่ให้ข้อมูลเกี่ยวกับลูกค้าที่ได้รับผลกระทบจากสินค้าที่คุณกำลังติดตาม และใบสั่งขายที่เกี่ยวข้องกับสินค้าที่ได้จัดส่งแล้วและยังไม่มีการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="70d43-126">There are several tracing options which provide information about the customers impacted by the item that you're tracing, and the sales orders related to the item which have and haven't been shipped.</span></span>   
-6. <span data-ttu-id="70d43-127">คลิก **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="70d43-127">Click **Customers**.</span></span>
-7. <span data-ttu-id="70d43-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="70d43-128">Close the page.</span></span>
-8. <span data-ttu-id="70d43-129">บน **บานหน้าต่างการดำเนินการ** คลิก **การติดตาม**</span><span class="sxs-lookup"><span data-stu-id="70d43-129">On the **Action Pane**, click **Tracing**.</span></span>
-9. <span data-ttu-id="70d43-130">คลิก **ใบสั่งขายที่จัดส่งสินค้าแล้ว**</span><span class="sxs-lookup"><span data-stu-id="70d43-130">Click **Shipped sales orders**.</span></span>
-10. <span data-ttu-id="70d43-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="70d43-131">Close the page.</span></span>
+    <span data-ttu-id="33cc9-126">มีตัวเลือกการติดตามหลายตัวเลือกที่ให้ข้อมูลเกี่ยวกับลูกค้าที่ได้รับผลกระทบจากสินค้าที่คุณกำลังติดตาม และใบสั่งขายที่เกี่ยวข้องกับสินค้าที่ได้จัดส่งแล้วและยังไม่มีการจัดส่ง</span><span class="sxs-lookup"><span data-stu-id="33cc9-126">There are several tracing options which provide information about the customers impacted by the item that you're tracing, and the sales orders related to the item which have and haven't been shipped.</span></span>   
+6. <span data-ttu-id="33cc9-127">คลิก **ลูกค้า**</span><span class="sxs-lookup"><span data-stu-id="33cc9-127">Click **Customers**.</span></span>
+7. <span data-ttu-id="33cc9-128">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="33cc9-128">Close the page.</span></span>
+8. <span data-ttu-id="33cc9-129">บน **บานหน้าต่างการดำเนินการ** คลิก **การติดตาม**</span><span class="sxs-lookup"><span data-stu-id="33cc9-129">On the **Action Pane**, click **Tracing**.</span></span>
+9. <span data-ttu-id="33cc9-130">คลิก **ใบสั่งขายที่จัดส่งสินค้าแล้ว**</span><span class="sxs-lookup"><span data-stu-id="33cc9-130">Click **Shipped sales orders**.</span></span>
+10. <span data-ttu-id="33cc9-131">ปิดหน้า</span><span class="sxs-lookup"><span data-stu-id="33cc9-131">Close the page.</span></span>
 
 
 
