@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,85 +15,85 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a2325da54b8d47ef39d0aacb5dac87107ebdd5bf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019574"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052252"
 ---
-# <a name="benefits-management-workspace"></a><span data-ttu-id="ff07d-103">พื้นที่ทำงานการจัดการสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="ff07d-103">Benefits management workspace</span></span>
+# <a name="benefits-management-workspace"></a><span data-ttu-id="199bf-103">พื้นที่ทำงานการจัดการสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="199bf-103">Benefits management workspace</span></span>
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
 [!include [preview feature](./includes/preview-feature.md)]
 
-<span data-ttu-id="ff07d-104">หัวข้อนี้อธิบายพื้นที่ทำงาน **การจัดการสวัสดิการ** ใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="ff07d-104">This topic describes the **Benefits management** workspace in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="199bf-104">หัวข้อนี้อธิบายพื้นที่ทำงาน **การจัดการสวัสดิการ** ใน Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="199bf-104">This topic describes the **Benefits management** workspace in Dynamics 365 Human Resources.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ff07d-105">เมื่อต้องการดูพื้นที่ทำงาน **การจัดการสวัสดิการ** คุณต้องเปิดใช้งานคุณลักษณะ **พื้นที่งานการจัดการสวัสดิการ (พรีวิว)** ก่อน ในการจัดการคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="ff07d-105">To view the **Benefits management** workspace, you must first enable the **(Preview) Benefits management workspace** feature in Feature management.</span></span> <span data-ttu-id="ff07d-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](../hr-admin-manage-features.md)</span><span class="sxs-lookup"><span data-stu-id="ff07d-106">For more information about enabling preview features, see [Manage features](../hr-admin-manage-features.md).</span></span><br><br><span data-ttu-id="ff07d-107">![เปิดใช้งานพื้นที่ทำงานการจัดการสวัสดิการ](./media/hr-benefits-management-workspace-enable.png)</span><span class="sxs-lookup"><span data-stu-id="ff07d-107">![Enable Benefits management workspace](./media/hr-benefits-management-workspace-enable.png)</span></span>
+> <span data-ttu-id="199bf-105">เมื่อต้องการดูพื้นที่ทำงาน **การจัดการสวัสดิการ** คุณต้องเปิดใช้งานคุณลักษณะ **พื้นที่งานการจัดการสวัสดิการ (พรีวิว)** ก่อน ในการจัดการคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="199bf-105">To view the **Benefits management** workspace, you must first enable the **(Preview) Benefits management workspace** feature in Feature management.</span></span> <span data-ttu-id="199bf-106">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](../hr-admin-manage-features.md)</span><span class="sxs-lookup"><span data-stu-id="199bf-106">For more information about enabling preview features, see [Manage features](../hr-admin-manage-features.md).</span></span><br><br><span data-ttu-id="199bf-107">![เปิดใช้งานพื้นที่ทำงานการจัดการสวัสดิการ](./media/hr-benefits-management-workspace-enable.png)</span><span class="sxs-lookup"><span data-stu-id="199bf-107">![Enable Benefits management workspace](./media/hr-benefits-management-workspace-enable.png)</span></span>
 
-<span data-ttu-id="ff07d-108">พื้นที่ทำงาน **การจัดการสวัสดิการ** ช่วยให้คุณเห็นมุมมองด่วนของรายการสวัสดิการที่คุณจำเป็นต้องให้ความสนใจ</span><span class="sxs-lookup"><span data-stu-id="ff07d-108">The **Benefits management** workspace gives you a quick view of benefits items that require your attention.</span></span> <span data-ttu-id="ff07d-109">บนหน้านี้ คุณสามารถเห็น:</span><span class="sxs-lookup"><span data-stu-id="ff07d-109">On this page, you can see:</span></span>
+<span data-ttu-id="199bf-108">พื้นที่ทำงาน **การจัดการสวัสดิการ** ช่วยให้คุณเห็นมุมมองด่วนของรายการสวัสดิการที่คุณจำเป็นต้องให้ความสนใจ</span><span class="sxs-lookup"><span data-stu-id="199bf-108">The **Benefits management** workspace gives you a quick view of benefits items that require your attention.</span></span> <span data-ttu-id="199bf-109">บนหน้านี้ คุณสามารถเห็น:</span><span class="sxs-lookup"><span data-stu-id="199bf-109">On this page, you can see:</span></span>
 
-- <span data-ttu-id="ff07d-110">ผลรวมของรายการที่รอการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="ff07d-110">Totals for items awaiting action</span></span>
-- <span data-ttu-id="ff07d-111">ผู้ปฏิบัติงานที่มีการเลือกที่ยังไม่ได้ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="ff07d-111">Workers with unconfirmed selections</span></span>
-- <span data-ttu-id="ff07d-112">ผู้ปฏิบัติงานที่ลงทะเบียนสวัสดิการเมื่อเร็วๆ นี้</span><span class="sxs-lookup"><span data-stu-id="ff07d-112">Workers who recently enrolled in benefits</span></span>
-- <span data-ttu-id="ff07d-113">ผู้ปฏิบัติงานที่มีเหตุการณ์ของชีวิตในอนาคต</span><span class="sxs-lookup"><span data-stu-id="ff07d-113">Workers with future life events</span></span>
-- <span data-ttu-id="ff07d-114">การจ้างงานใหม่ที่ไม่ได้ลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="ff07d-114">New hires who aren't enrolled</span></span>
-- <span data-ttu-id="ff07d-115">ผู้ปฏิบัติงานที่มีเหตุการณ์ของชีวิตที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="ff07d-115">Workers with active life events</span></span>
-- <span data-ttu-id="ff07d-116">ผู้ปฏิบัติงานที่มีการลงทะเบียนที่เปิดซึ่งไม่ได้เลือกไว้แผนใดๆ</span><span class="sxs-lookup"><span data-stu-id="ff07d-116">Workers with open enrollments who haven't opted for any plans</span></span>
+- <span data-ttu-id="199bf-110">ผลรวมของรายการที่รอการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="199bf-110">Totals for items awaiting action</span></span>
+- <span data-ttu-id="199bf-111">ผู้ปฏิบัติงานที่มีการเลือกที่ยังไม่ได้ยืนยัน</span><span class="sxs-lookup"><span data-stu-id="199bf-111">Workers with unconfirmed selections</span></span>
+- <span data-ttu-id="199bf-112">ผู้ปฏิบัติงานที่ลงทะเบียนสวัสดิการเมื่อเร็วๆ นี้</span><span class="sxs-lookup"><span data-stu-id="199bf-112">Workers who recently enrolled in benefits</span></span>
+- <span data-ttu-id="199bf-113">ผู้ปฏิบัติงานที่มีเหตุการณ์ของชีวิตในอนาคต</span><span class="sxs-lookup"><span data-stu-id="199bf-113">Workers with future life events</span></span>
+- <span data-ttu-id="199bf-114">การจ้างงานใหม่ที่ไม่ได้ลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="199bf-114">New hires who aren't enrolled</span></span>
+- <span data-ttu-id="199bf-115">ผู้ปฏิบัติงานที่มีเหตุการณ์ของชีวิตที่ใช้งานอยู่</span><span class="sxs-lookup"><span data-stu-id="199bf-115">Workers with active life events</span></span>
+- <span data-ttu-id="199bf-116">ผู้ปฏิบัติงานที่มีการลงทะเบียนที่เปิดซึ่งไม่ได้เลือกไว้แผนใดๆ</span><span class="sxs-lookup"><span data-stu-id="199bf-116">Workers with open enrollments who haven't opted for any plans</span></span>
 
 ![พื้นที่ทำงานการจัดการสวัสดิการ](./media/hr-benefits-management-workspace.png)
 
-## <a name="view-action-items"></a><span data-ttu-id="ff07d-118">ดูรายการการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="ff07d-118">View action items</span></span>
+## <a name="view-action-items"></a><span data-ttu-id="199bf-118">ดูรายการการดำเนินการ</span><span class="sxs-lookup"><span data-stu-id="199bf-118">View action items</span></span>
 
-<span data-ttu-id="ff07d-119">คุณสามารถดูรายการการดำเนินการของคุณโดยการเลือกไทล์หรือแท็บ ถ้าคุณเลือกแท็บ คุณสามารถดูและเลือกผู้ปฏิบัติงานได้ในหน้าพื้นที่งาน</span><span class="sxs-lookup"><span data-stu-id="ff07d-119">You can view your action items by either selecting a tile or a tab. If you select a tab, you can view and select workers right on the workspace page.</span></span>
+<span data-ttu-id="199bf-119">คุณสามารถดูรายการการดำเนินการของคุณโดยการเลือกไทล์หรือแท็บ ถ้าคุณเลือกแท็บ คุณสามารถดูและเลือกผู้ปฏิบัติงานได้ในหน้าพื้นที่งาน</span><span class="sxs-lookup"><span data-stu-id="199bf-119">You can view your action items by either selecting a tile or a tab. If you select a tab, you can view and select workers right on the workspace page.</span></span>
 
 ![รายการการดำเนินการ](./media/hr-benefits-management-workspace-action-items.png)
 
-<span data-ttu-id="ff07d-121">ถ้าคุณเลือกไทล์ คุณจะไปที่หน้าของพื้นที่นั้น</span><span class="sxs-lookup"><span data-stu-id="ff07d-121">If you select a tile, you go to the page for that area.</span></span> <span data-ttu-id="ff07d-122">ตัวอย่างเช่น การเลือกไทล์ใดๆ เหล่านี้จะแสดงหน้า **แผนสวัสดิการของผู้ปฏิบัติงาน** ซึ่งกรองข้อมูลเพื่อให้พนักงานที่คุณต้องดำเนินการ:</span><span class="sxs-lookup"><span data-stu-id="ff07d-122">For example, selecting any of these tiles displays the **Worker benefits plans** page, filtered for employees you need to take action on:</span></span>
+<span data-ttu-id="199bf-121">ถ้าคุณเลือกไทล์ คุณจะไปที่หน้าของพื้นที่นั้น</span><span class="sxs-lookup"><span data-stu-id="199bf-121">If you select a tile, you go to the page for that area.</span></span> <span data-ttu-id="199bf-122">ตัวอย่างเช่น การเลือกไทล์ใดๆ เหล่านี้จะแสดงหน้า **แผนสวัสดิการของผู้ปฏิบัติงาน** ซึ่งกรองข้อมูลเพื่อให้พนักงานที่คุณต้องดำเนินการ:</span><span class="sxs-lookup"><span data-stu-id="199bf-122">For example, selecting any of these tiles displays the **Worker benefits plans** page, filtered for employees you need to take action on:</span></span>
 
-- <span data-ttu-id="ff07d-123">**ตัวเลือกที่ยังไม่ได้ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="ff07d-123">**Unconfirmed selections**</span></span>
-- <span data-ttu-id="ff07d-124">**เปิดการลงทะเบียนที่ไม่มีแผนเช็คเอาท์**</span><span class="sxs-lookup"><span data-stu-id="ff07d-124">**Open enrollments with no checked out plans**</span></span>
-- <span data-ttu-id="ff07d-125">**ลงทะเบียนในสวัสดิการ**</span><span class="sxs-lookup"><span data-stu-id="ff07d-125">**Enrolled in benefits**</span></span>
-- <span data-ttu-id="ff07d-126">**พนักงานใหม่ที่ไม่ได้ลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="ff07d-126">**New hire not enrolled**</span></span>
+- <span data-ttu-id="199bf-123">**ตัวเลือกที่ยังไม่ได้ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="199bf-123">**Unconfirmed selections**</span></span>
+- <span data-ttu-id="199bf-124">**เปิดการลงทะเบียนที่ไม่มีแผนเช็คเอาท์**</span><span class="sxs-lookup"><span data-stu-id="199bf-124">**Open enrollments with no checked out plans**</span></span>
+- <span data-ttu-id="199bf-125">**ลงทะเบียนในสวัสดิการ**</span><span class="sxs-lookup"><span data-stu-id="199bf-125">**Enrolled in benefits**</span></span>
+- <span data-ttu-id="199bf-126">**พนักงานใหม่ที่ไม่ได้ลงทะเบียน**</span><span class="sxs-lookup"><span data-stu-id="199bf-126">**New hire not enrolled**</span></span>
 
 ![แผนสวัสดิการของผู้ปฏิบัติงาน](./media/hr-benefits-management-workspace-plans.png)
 
-<span data-ttu-id="ff07d-128">การเลือกเหตุการณ์ **เหตุการณ์ของชีวิตที่ใช้งานอยู่** หรือ **เหตุการณ์ของชีวิตในอนาคต** จะให้คุณไปยังรายการของเหตุการณ์ที่ใช้งานอยู่หรือเหตุการณ์ในอนาคต</span><span class="sxs-lookup"><span data-stu-id="ff07d-128">Selecting the **Active life events** or **Future life events** tiles takes you to a list of active or future life events.</span></span>
+<span data-ttu-id="199bf-128">การเลือกเหตุการณ์ **เหตุการณ์ของชีวิตที่ใช้งานอยู่** หรือ **เหตุการณ์ของชีวิตในอนาคต** จะให้คุณไปยังรายการของเหตุการณ์ที่ใช้งานอยู่หรือเหตุการณ์ในอนาคต</span><span class="sxs-lookup"><span data-stu-id="199bf-128">Selecting the **Active life events** or **Future life events** tiles takes you to a list of active or future life events.</span></span>
 
 ![เหตุการณ์ของชีวิต](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a><span data-ttu-id="ff07d-130">การประมวลผล</span><span class="sxs-lookup"><span data-stu-id="ff07d-130">Processing</span></span>
+## <a name="processing"></a><span data-ttu-id="199bf-130">การประมวลผล</span><span class="sxs-lookup"><span data-stu-id="199bf-130">Processing</span></span>
 
-<span data-ttu-id="ff07d-131">เมื่อต้องการประมวลผลสิทธิ์การลงทะเบียน เหตุการณ์ชีวิต หรือการอัปเดตการเปลี่ยนแปลงอัตรา ให้เลือกรายการที่เหมาะสมบนแถบนําทาง</span><span class="sxs-lookup"><span data-stu-id="ff07d-131">To process enrollment eligibility, life events, or rate change updates, select the appropriate item on the navigation bar.</span></span>
+<span data-ttu-id="199bf-131">เมื่อต้องการประมวลผลสิทธิ์การลงทะเบียน เหตุการณ์ชีวิต หรือการอัปเดตการเปลี่ยนแปลงอัตรา ให้เลือกรายการที่เหมาะสมบนแถบนําทาง</span><span class="sxs-lookup"><span data-stu-id="199bf-131">To process enrollment eligibility, life events, or rate change updates, select the appropriate item on the navigation bar.</span></span>
 
 ![การประมวลผล](./media/hr-benefits-management-workspace-processing.png)
 
-<span data-ttu-id="ff07d-133">เมื่อต้องการดูผลลัพธ์ของกระบวนการ ให้เลืออก **ผลลัพธ์ของกระบวนการ** บนหน้า</span><span class="sxs-lookup"><span data-stu-id="ff07d-133">To view process results, select **Process results** on the page.</span></span>
+<span data-ttu-id="199bf-133">เมื่อต้องการดูผลลัพธ์ของกระบวนการ ให้เลืออก **ผลลัพธ์ของกระบวนการ** บนหน้า</span><span class="sxs-lookup"><span data-stu-id="199bf-133">To view process results, select **Process results** on the page.</span></span>
 
 ![ผลลัพธ์ของกระบวนการ](./media/hr-benefits-management-workspace-process-results.png)
 
-<span data-ttu-id="ff07d-135">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการประมวลผลสวัสดิการ ให้ดูที่:</span><span class="sxs-lookup"><span data-stu-id="ff07d-135">For more information about benefits processing, see:</span></span>
+<span data-ttu-id="199bf-135">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการประมวลผลสวัสดิการ ให้ดูที่:</span><span class="sxs-lookup"><span data-stu-id="199bf-135">For more information about benefits processing, see:</span></span>
 
-- [<span data-ttu-id="ff07d-136">ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="ff07d-136">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
-- [<span data-ttu-id="ff07d-137">ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ff07d-137">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
-- [<span data-ttu-id="ff07d-138">ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ff07d-138">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
-- [<span data-ttu-id="ff07d-139">ดำเนินการกับเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="ff07d-139">Process life events</span></span>](hr-benefits-process-life-events.md)
-- [<span data-ttu-id="ff07d-140">ดำเนินการกับการเปลี่ยนแปลงอัตรา</span><span class="sxs-lookup"><span data-stu-id="ff07d-140">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
+- [<span data-ttu-id="199bf-136">ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน</span><span class="sxs-lookup"><span data-stu-id="199bf-136">Process enrollment eligibility</span></span>](hr-benefits-process-enrollment-eligibility.md)
+- [<span data-ttu-id="199bf-137">ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="199bf-137">Process life event changes</span></span>](hr-benefits-process-life-event-changes.md)
+- [<span data-ttu-id="199bf-138">ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="199bf-138">Process life event eligibility</span></span>](hr-benefits-process-life-event-eligibility.md)
+- [<span data-ttu-id="199bf-139">ดำเนินการกับเหตุการณ์ของชีวิต</span><span class="sxs-lookup"><span data-stu-id="199bf-139">Process life events</span></span>](hr-benefits-process-life-events.md)
+- [<span data-ttu-id="199bf-140">ดำเนินการกับการเปลี่ยนแปลงอัตรา</span><span class="sxs-lookup"><span data-stu-id="199bf-140">Process rate changes</span></span>](hr-benefits-process-rate-changes.md)
 
-## <a name="change-period"></a><span data-ttu-id="ff07d-141">เปลี่ยนรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="ff07d-141">Change period</span></span>
+## <a name="change-period"></a><span data-ttu-id="199bf-141">เปลี่ยนรอบระยะเวลา</span><span class="sxs-lookup"><span data-stu-id="199bf-141">Change period</span></span>
 
-<span data-ttu-id="ff07d-142">เมื่อต้องการดูรอบระยะเวลาสวัสดิการอื่น ให้เลือกรอบระยะเวลาจากรายการแบบหล่นลง **รอบระยะเวลา**</span><span class="sxs-lookup"><span data-stu-id="ff07d-142">To view a different benefits period, select it from the **Period** dropdown.</span></span>
+<span data-ttu-id="199bf-142">เมื่อต้องการดูรอบระยะเวลาสวัสดิการอื่น ให้เลือกรอบระยะเวลาจากรายการแบบหล่นลง **รอบระยะเวลา**</span><span class="sxs-lookup"><span data-stu-id="199bf-142">To view a different benefits period, select it from the **Period** dropdown.</span></span>
 
 ![เปลี่ยนรอบระยะเวลา](./media/hr-benefits-management-workspace-period.png)
 
-## <a name="view-more-options"></a><span data-ttu-id="ff07d-144">ดูตัวเลือกเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="ff07d-144">View more options</span></span>
+## <a name="view-more-options"></a><span data-ttu-id="199bf-144">ดูตัวเลือกเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="199bf-144">View more options</span></span>
 
-<span data-ttu-id="ff07d-145">หากต้องการดูข้อมูลเพิ่มเติมและการดำเนินการที่คุณเลือก ให้เลือก **ลิงก์**</span><span class="sxs-lookup"><span data-stu-id="ff07d-145">To view more information and actions you can take, select **Links**.</span></span>
+<span data-ttu-id="199bf-145">หากต้องการดูข้อมูลเพิ่มเติมและการดำเนินการที่คุณเลือก ให้เลือก **ลิงก์**</span><span class="sxs-lookup"><span data-stu-id="199bf-145">To view more information and actions you can take, select **Links**.</span></span>
 
 ![ลิงค์](./media/hr-benefits-management-workspace-links.png)
 
-## <a name="see-also"></a><span data-ttu-id="ff07d-147">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="ff07d-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="199bf-147">ดูเพิ่มเติมที่</span><span class="sxs-lookup"><span data-stu-id="199bf-147">See also</span></span>
 
-[<span data-ttu-id="ff07d-148">ภาพรวมของการจัดการสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="ff07d-148">Benefits management overview</span></span>](hr-benefits-management-overview.md)
+[<span data-ttu-id="199bf-148">ภาพรวมของการจัดการสวัสดิการ</span><span class="sxs-lookup"><span data-stu-id="199bf-148">Benefits management overview</span></span>](hr-benefits-management-overview.md)
