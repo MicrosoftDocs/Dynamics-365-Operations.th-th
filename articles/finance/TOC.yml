@@ -64,14 +64,16 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (กรกฎาคม 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (กรกฎาคม 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (พฤษภาคม 2021)
@@ -1160,9 +1162,11 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: การปิดบัญชีสิ้นปีขาดยอดดุลยกมา
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: เปิดเท็มเพลตสมุดรายวันทางการเงินใน Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: การรายงานทางการเงิน
           items:
-            - name: เริ่มต้นการรายงานทางการเงิน
+            - name: เริ่มต้นใช้งานการรายงานทางการเงิน
               href: general-ledger/financial-reporting-getting-started.md
             - name: ภาพรวมของการรายงานทางการเงิน
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: หมายเลขทะเบียน VAT หลายหมายเลข
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: หมายเลขทะเบียน VAT หลายหมายเลข
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: การรายงานการลงทะเบียน VAT หลายรายการ
+                      items:
+                        - name: การรายงานการลงทะเบียน VAT หลายรายการ
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: การรายงานของเนเธอร์แลนด์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: รายการขายใน EU
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ออสเตรเลีย
@@ -2172,7 +2186,7 @@
                   href: localizations/india.md
                 - name: ขอบเขตของการแปลเป็นภาษาอินเดีย
                   href: localizations/apac-ind-scope.md
-                - name: มีอะไรใหม่หรือเปลี่ยนแปลงอย่างไรบ้างสำหรับการแปลเป็นภาษาอินเดีย
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงสำหรับการแปลเป็นภาษาอินเดีย
                   items:
                     - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.0
                       href: localizations/apac-ind-news-letter-10-0-00.md
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: เปิดใช้งานการประมวลผลหลายชุดงานสำหรับรายงาน GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: การแก้ไขปัญหา GST
+                          items:
+                            - name: ยอดภาษีหลังการคำนวณไม่ถูกต้อง
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: ข้อผิดพลาดในการตั้งค่าคอนฟิกภาษี
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: ไม่ได้คํานวณภาษี
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: การเรียกใช้กฎการตัดบัญชีใช้เวลานานกว่าที่คาดไว้
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: ไม่มีการสร้าง TaxTrans หรือใบสำคัญ
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: รหัสธุรกรรมภาษีไม่ถูกต้อง
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: ภาษีทางตรง
                   items:
                     - name: ภาษีหัก ณ ที่จ่ายของอินเดีย
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: ไฟล์การตรวจสอบ (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: การรายงานภาษี VAT (เนเธอร์แลนด์)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: นอร์เวย์
               items:
                 - name: ภาพรวมของนอร์เวย์
@@ -4123,7 +4155,7 @@
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

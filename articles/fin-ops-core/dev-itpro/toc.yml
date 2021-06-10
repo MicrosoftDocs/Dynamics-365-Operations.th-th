@@ -14,7 +14,9 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform update สำหรับ 10.0.19 (กรกฎาคม 2021)
+                - name: Platform update สำหรับรุ่น 10.0.20 (กรกฎาคม 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platform update สำหรับ 10.0.19 (มิถุนายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform update สำหรับ 10.0.18 (พฤษภาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -728,7 +730,7 @@
                       href: extensibility/customization-overlayering-extensions.md
                 - name: มีอะไรใหม่
                   items:
-                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในสำหรับความสามารถในการเพิ่มฟังก์ชัน
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงสำหรับความสามารถในการเพิ่มฟังก์ชัน
                       href: extensibility/extensibility-new.md
                     - name: การเปลี่ยนแปลงความสามารถในการเพิ่มฟังก์ชันในรุ่น 10.0.3
                       href: extensibility/extensibility-changes-10-3.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: คุณลักษณะที่ถูกเอาออกหรือไม่สนับสนุนใน Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: คู่มือผู้ใช้ Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: การเตรียมความพร้อมสำหรับโครงการ
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: เจ้าของทีมงานที่ผู้ใช้ระบุ
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อมการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/relink-environments.md
                 - name: การแม็ปแนวคิดระหว่างแอป
                   items:
                     - name: ข้อมูลหลักของลูกค้าแบบรวม
@@ -1164,8 +1168,10 @@
                   href: power-platform/faq.md
             - name: Add-In
               items:
-                - name: ภาพรวมของส่วนเพิ่มเติม
+                - name: ภาพรวมของ Add-In
                   href: power-platform/add-ins-overview.md
+            - name: นโยบายและการสื่อสาร
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: แพลตฟอร์มเคลื่อนที่
           items:
             - name: ทรัพยากรแพลตฟอร์มเคลื่อนที่
