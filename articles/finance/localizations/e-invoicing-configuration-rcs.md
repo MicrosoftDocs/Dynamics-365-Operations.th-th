@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ใน Dynamics 365 Regulatory Configuration Services (RCS)
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897731"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075154"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
 
@@ -194,6 +194,8 @@ ms.locfileid: "5897731"
 
 - ใบแจ้งหนี้การขาย (ES)
 - ใบแจ้งหนี้โครงการ (ES)
+
+นอกจากการตั้งค่าคอนฟิกรูปแบบ ER ที่พร้อมใช้งานสำเร็จรูปเพื่อใช้กับบริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์แล้ว คุณยังสามารถสร้างการตั้งค่าคอนฟิกรูปแบบ ER ของคุณเองได้ อย่างไรก็ตาม การตั้งค่าคอนฟิกรูปแบบที่สร้างขึ้นเพื่อใช้กับคุณลักษณะการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ ไม่สนับสนุนการอ้างอิงโดยตรงไปยังตารางการเงินหรือ Supply Chain Management หรือข้อมูลเมตาที่สอดคล้องกันใดๆ สนับสนุนเฉพาะการอ้างอิงไปยังการแม็ปแบบโมเดล ER เท่านั้น
 
 ### <a name="actions"></a>การดำเนินการ
 

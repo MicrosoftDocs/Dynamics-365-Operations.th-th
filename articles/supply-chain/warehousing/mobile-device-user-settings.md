@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837476"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049303"
 ---
 # <a name="mobile-device-user-settings"></a>การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
 
@@ -94,3 +94,8 @@ ms.locfileid: "5837476"
 
     - **รหัสรุ่นของอุปกรณ์** – รหัสรุ่นของอุปกรณ์ เช่น *Surface Book 2*
     - **คำอธิบาย** – คุณสามารถป้อนข้อความเพื่อแยกแยะรหัสรุ่นได้
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+- [ติดตั้งและเชื่อมต่อแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่](install-configure-warehouse-management-app.md)
+- [กําหนดไอคอนและชื่อขั้นตอนสำหรับแอป Warehouse Management บนมือถือ](step-icons-titles.md)

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819219"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102745"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
 
@@ -100,11 +100,11 @@ ms.locfileid: "5819219"
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): หัวเรื่องใบแจ้งหนี้
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![การแม็ปแม่แบบในการรวมข้อมูลของส่วนหัวของใบแจ้งหนี้](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): ลำดับใบแจ้งหนี้
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![การแม็ปแม่แบบในการรวมข้อมูลของรายการของใบแจ้งหนี้](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

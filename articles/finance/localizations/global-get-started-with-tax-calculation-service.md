@@ -2,7 +2,7 @@
 title: เริ่มต้นใช้งานการคํานวณภาษี
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการคํานวณภาษี
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018890"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060574"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>เริ่มต้นใช้งานการคํานวณภาษี (ตัวอย่าง)
 
@@ -41,7 +41,7 @@ ms.locfileid: "6018890"
 
 ก่อนที่คุณจะสามารถดำเนินการกระบวนงานต่างๆ ในหัวข้อนี้ให้เสร็จสมบูรณ์ ต้องมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
-- คุณสามารถเข้าถึงบัญชี LCS ของคุณ และคุณได้ปรับใช้โครงการ LCS ที่มีสภาพแวดล้อมระดับ 2 (หรือสูงกว่า) ที่รัน Dynamics 365 เวอร์ชัน 10.0.18 หรือใหม่กว่า
+- คุณสามารถเข้าถึงบัญชี LCS ของคุณ และคุณได้ปรับใช้โครงการ LCS ที่มีสภาพแวดล้อมระดับ 2 (หรือสูงกว่า) ที่รัน Dynamics 365 รุ่น 10.0.18 พร้อม [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) หรือใหม่กว่า
 - คุณสามารถเข้าถึงบัญชี RCS ของคุณ
 - คุณได้ติดต่อ Microsoft เพื่อเปิดใช้งานการสลับในสภาพแวดล้อม Finance และ Supply Chain Management ที่ปรับใช้ของคุณ
 

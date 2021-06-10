@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82104e401f21c459081f48a5d1f9a0a264288106
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794840"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055471"
 ---
 # <a name="create-a-goal"></a>สร้างเป้าหมาย
 
@@ -30,7 +29,7 @@ ms.locfileid: "5794840"
 1. ไปที่ พื้นที่ทำงานทั้งหมด > ระบบลูกค้าบริการตนเอง
 2. คลิก ดูเป้าหมายทั้งหมด
 3. คลิก สร้าง
-4. ในฟิลด์ชื่อ ให้พิมพ์ 'ดำเนินการโครงการ contoso ให้เสร็จสมบูรณ์'
+4. ในฟิลด์ชื่อ ให้พิมพ์ 'ดำเนินการโครงการ Contoso ให้เสร็จสมบูรณ์'
 5. ในฟิลด์ภาพรวม ให้ป้อน 'ฉันจะดำเนินการโครงการ Contoso ให้เสร็จสมบูรณ์ใน 30 วัน'
     * สามารถใช้เป้าหมายกับบุคคล ทีม หรือแม้กระทั่งบริษัท  การตั้งค่าเริ่มต้นสำหรับเป้าหมายของพนักงานถือเป็นบุคคล  
 6. ในฟิลด์ประเภทเป้าหมาย ให้ป้อนหรือเลือกค่า

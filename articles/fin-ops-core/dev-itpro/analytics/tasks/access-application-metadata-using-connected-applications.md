@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b113f0db1d44dc5fbda30e10d62ff939550f299
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88fb3a947dd15f80238baab5f315c889f47f5b3b
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748704"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087026"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้แอพลิเคชันที่เชื่อมต่อ
 
 [!include [banner](../../includes/banner.md)]
 
-ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ Regulatory configuration service (RCS) ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถออกแบบการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ โดยใช้ข้อมูลเมตาใน Finance and Operations จะมีการเข้าถึงข้อมูลเมตาของแอพลิเคชันแบบออนไลน์โดยใช้แอพลิเคชันที่เชื่อมต่อ RCS จะมีการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ของตัวอย่างเพื่อเข้าถึงธุรกรรมการค้าต่างประเทศ เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ใน RCS อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในหัวข้อให้เสร็จสมบูรณ์ [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็นใช้งานอยู่](er-configuration-provider-mark-it-active-2016-11.md) ถ้าคุณยังไม่ได้ดำเนินการขั้นตอนในหัวข้อให้เสร็จสมบูรณ์ [ให้เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER](access-application-metadata-er-configuration.md) ให้ไปที่ [หน้าตัวอย่างการรายงานทางอิเล็กทรอนิกส์](https://go.microsoft.com/fwlink/?linkid=862266) เพื่อดาวน์โหลดและบันทึกการตั้งค่าคอนฟิก ER ต่อไปนี้: Foreign trade metadata.xml Foreign trade model.xml Foreign trade mapping.xml และจากนั้น ดำเนินการขั้นตอนต่างๆ ในกระบวนงานให้เสร็จสมบูรณ์
+ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ Regulatory configuration service (RCS) ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถออกแบบการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ โดยใช้ข้อมูลเมตาใน Finance and Operations จะมีการเข้าถึงข้อมูลเมตาของแอพลิเคชันแบบออนไลน์โดยใช้แอพลิเคชันที่เชื่อมต่อ RCS จะมีการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ของตัวอย่างเพื่อเข้าถึงธุรกรรมการค้าต่างประเทศ เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ใน RCS อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในหัวข้อให้เสร็จสมบูรณ์ [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็นใช้งานอยู่](er-configuration-provider-mark-it-active-2016-11.md) ถ้าคุณยังไม่ได้ดำเนินการขั้นตอนในหัวข้อให้เสร็จสมบูรณ์ [ให้เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER](access-application-metadata-er-configuration.md) ให้ดาวน์โหลด [ตัวอย่างการรายงานทางอิเล็กทรอนิกส์](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) และบันทึกการตั้งค่าคอนฟิก ER ต่อไปนี้: Foreign trade metadata.xml Foreign trade model.xml Foreign trade mapping.xml และจากนั้น ดำเนินการขั้นตอนต่างๆ ในกระบวนงานให้เสร็จสมบูรณ์
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 1. ไปที่ **พื้นที่ทำงานทั้งหมด** > **การรายงานทางอิเล็กทรอนิกส์** 
