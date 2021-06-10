@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 พฤษภาคม 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 พฤษภาคม 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 เมษายน 2021
@@ -785,8 +787,14 @@
           items:
             - name: ภาพรวมของการบริหารประสิทธิภาพ
               href: hr-develop-performance-management-overview.md
-            - name: เสริมทักษะของบุคลากร
-              href: hr-develop-skills.md
+            - name: ทักษะ
+              items:
+                - name: การตั้งค่าคอนฟิกทักษะ
+                  href: hr-develop-skills.md
+                - name: ป้อนทักษะ
+                  href: hr-develop-enter-skills.md
+                - name: แม็ปทักษะ
+                  href: hr-develop-map-skills.md
             - name: เพิ่มลงในสมุดรายวันประสิทธิภาพการทำงานของคุณ
               href: hr-develop-add-performance-journal.md
             - name: สร้างเป้าหมาย

@@ -94,7 +94,9 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (กรกฎาคม 2021)
+                    - name: Commerce 10.0.20 (กรกฎาคม 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (มิถุนายน 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: สร้างและอัปเดตที่ช่วงเวลาสำหรับการรับสินค้าของลูกค้า
                   href: dev-itpro/pickup-timeslots.md
+                - name: ตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์ให้ปรากฏเป็นชุดสี
+                  href: dev-itpro/dimensions-swatch.md
         - name: การขายผลิตภัณฑ์และบริการของคุณ
           items:
             - name: ประเภท ผลิตภัณฑ์ และการจัดประเภท
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: ใช้การตั้งค่าหน่วยวัด
                   href: unit-of-measure.md
+                - name: ใช้การตั้งค่าการแสดงผลสำหรับมิติของผลิตภัณฑ์
+                  href: dimension-settings.md
             - name: จัดการเนื้อหาไซต์ของคุณ
               items:
                 - name: วิธีการเพิ่มเนื้อหา
@@ -1210,9 +1216,9 @@
               href: set-up-clarity.md
         - name: โลกาภิวัตน์
           items:
-            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทางการค้า
+            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทางการค้า
+            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
               href: localizations/certificate-profiles-for-retail-stores.md
@@ -1946,7 +1952,7 @@
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: การตั้งค่าแอป
                       href: e-commerce-extensibility/app-settings.md
+                    - name: ตั้งค่าคอนฟิกการตั้งค่าคอนฟิกส่วนกลางของโปรแกรมสร้างไซต์ตามลักษณะการงานที่ใช้ได้
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: ไฟล์การตั้งค่าแพลตฟอร์ม
                       href: e-commerce-extensibility/platform-settings.md
                     - name: ขยายข้อกำหนดโมดูล
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: การพัฒนาและการเปลี่ยนแปลง ALM จากรุ่น 10.0.10 เป็น 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: ตั้งค่าไปป์ไลน์การสร้างสำหรับ SDK การจัดทำแพคเกจแบบอิสระ
+                  href: dev-itpro/build-pipeline.md
                 - name: ผสานระบบการสร้างสำหรับ Commerce และ Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: ย้าย Retail SDK จาก Visual Studio 2015 ไปยัง Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: โครงร่างหน้าจอ POS
                   href: pos-screen-layouts.md
+                - name: แอป Store Commerce ใน Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: เปิด URL ใน POS
                   href: Open-URL-in-POS.md
                 - name: ติดตั้งตัวออกแบบโครงร่าง POS

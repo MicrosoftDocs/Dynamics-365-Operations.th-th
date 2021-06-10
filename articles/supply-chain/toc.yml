@@ -64,15 +64,17 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
                 - name: แอป Finance and Operations ในฝรั่งเศส
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (กรกฎาคม 2021)
+                    - name: Supply Chain Management 10.0.20 (กรกฎาคม 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (มิถุนายน 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: ตั้งค่าสำหรับใบสั่งงาน
               items:
-                - name: 'ประเภทของชนิดงานบำรุงรักษาและชนิดงานบำรุงรักษา, ตัวแปรชนิดงานบำรุงรักษา และการค้าของชนิดงานบำรุงรักษา และรายการตรวจสอบการบำรุงรักษา'
+                - name: ชนิดงานบำรุงรักษา ประเภท ตัวแปร การค้า และรายการตรวจสอบ
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: สถานะของวงจรการใช้ของใบสั่งงาน
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: รุ่นทางวิศวกรรมและประเภทผลิตภัณฑ์ทางวิศวกรรม
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: จัดการการเปลี่ยนแปลงในสูตรและส่วนผสมของสูตร
+              href: engineering-change-management/manage-formula-changes.md
             - name: เปิดใช้งานการจัดการการเปลี่ยนแปลงในผลิตภัณฑ์ที่มีอยู่
               href: engineering-change-management/change-management-existing-products.md
             - name: สถานะของวงจรการใช้ผลิตภัณฑ์และธุรกรรม
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: ลำดับหมายเลขแบบรวมสำหรับรหัสงาน
               href: production-control/unified-job-ids.md
+            - name: เรียกขั้นตอนของกระบวนการอัตโนมัติเพื่อสร้างใบสั่งตรวจสอบคุณภาพ
+              href: production-control/process-automation-quality-orders.md
             - name: การผลิตแบบไม่ต่อเนื่อง
               items:
                 - name: รักษาข้อมูลหลักของการผลิต
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต
                           href: production-control/production-floor-execution-use.md
-                        - name: ลักษณะการควบคุมอินเทอร์เฟสผู้ใช้สำหรับการดำเนินการผลิต
+                        - name: กำหนดรูปแบบอินเทอร์เฟสการดำเนินการผลิต
                           href: production-control/production-floor-execution-styles.md
                     - name: ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งเมื่อนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อมีการแทนที่นโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยใช้การนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
+                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3295,15 +3301,17 @@
                       href: warehousing/mobile-device-user-settings.md
                     - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: ตั้งค่าคอนฟิกฟิลด์สำหรับแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                    - name: ตั้งค่าคอนฟิกฟิลด์สำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: กําหนดไอคอนและชื่อของขั้นตอน
+                      href: warehousing/step-icons-titles.md
                     - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
                       href: warehousing/warehouse-app-events.md
-                    - name: การรับป้ายทะเบียนผ่านแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                    - name: การรับป้ายทะเบียนผ่านแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3321,7 +3329,7 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: กรอบงานคู่มือกระบวนการ
                       href: warehousing/process-guide-framework.md
-                    - name: แก้ไขปัญหาการเชื่อมต่อแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                    - name: แก้ไขปัญหาการเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: การอัปเกรดและการย้าย
                   items:
@@ -3345,7 +3353,7 @@
               items:
                 - name: การตั้งค่าฟิลด์หายไปในการคัดลอกกลุ่มแบบจำลองสินค้าไปที่นิติบุคคลอื่น
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: รายงาน "ต้นทุนทางอ้อมในกระบวนการ" จะรวมใบสั่งผลิตที่ลบออก
+                - name: รายงานต้นทุนทางอ้อมในกระบวนการจะรวมใบสั่งผลิตที่ลบออก
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: ลงรายการบัญชีการซื้อคงค้างด้วยยอดเงินเป็นศูนย์สำหรับใบรับสินค้าที่มีมูลค่าเป็นศูนย์
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,11 +3367,11 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: การกลับรายการรายงานเมื่อเสร็จสมบูรณ์สร้างธุรกรรมเปิดที่ไม่คาดคิด
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: ไม่สามารถแสดงหมายเหตุใหม่ที่แนบกับสมุดรายวันในรายงานรายการเบิกสินค้า
+                - name: รายงานรายการเบิกสินค้าไม่แสดงหมายเหตุใหม่ที่แนบกับสมุดรายวัน
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: ปริมาณในใบสั่งตรวจสอบสินค้าที่เริ่มต้นแล้วจะไม่อัพเดตเมื่อมีการแบ่งใบสั่ง
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: ฟิลด์ "วันที่ทดสอบล่าสุด" ไม่มีการอัพเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
+                - name: ฟิลด์ วันที่ทดสอบล่าสุด ไม่มีการอัพเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: เมื่อแบ่งปริมาณตามน้ำหนักจริง มีการใช้ปริมาณต่ำสุดแทนที่จะเป็นปริมาณที่ตั้งไว้
                   href: troubleshooting/inventory/while-splitting-the.md
@@ -3371,25 +3379,29 @@
               items:
                 - name: ใบสั่งที่ยืนยันซึ่งสืบทอดมาโดยตรงจะได้รับการประมวลผลโดยลำดับงานที่อยู่ระหว่างการตรวจทาน
                   href: troubleshooting/planning/firmed-directly-deri.md
-                - name: การวางแผนหลักสร้างแผนการใบสั่งสหรับผลิตภัณฑ์แฝง
+                - name: คุณไม่สามารถกรองสินค้าในการวางแผนหลักตามมูลค่ากลุ่มความครอบคลุมที่เกี่ยวข้องของสินค้า
+                  href: troubleshooting/planning/master-planning-batc.md
+                - name: การวางแผนหลักสร้างแผนการใบสั่งสำหรับผลิตภัณฑ์แฝง
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: แผนการใบสั่งซื้อที่สร้างขึ้นเมื่อมีการซื้ออยู่ภายในจำนวนวันค่าลบ
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: ไม่สามารถอัพโหลดราคาต้นทุนในรายการการคาดการณ์ความต้องการ
+                - name: ไม่สามารถอัปเดตต้นทุนต่อหน่วยที่คาดการณ์เมื่อคุณนําเข้าเรกคอร์ดการคาดการณ์ความต้องการ
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: ไม่สามารถลบมิติการคาดการณ์ความต้องการคลังสินค้าจากรายการการคาดการณ์
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: ระบบขอให้คุณบันทึกการตั้งค่าความครอบคลุมของสินค้าถึงแม้ว่าคุณจะไม่ได้เปลี่ยนแปลงข้อมูลใดๆ
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: การจัดซื้อ
               items:
-                - name: ไม่สามารถออกใบแจ้งหนี้ใบสั่งขายที่เชื่อมต่อกับลูกค้าในบริษัท VEL ได้
+                - name: คุณไม่สามารถออกใบแจ้งหนี้ใบสั่งขายที่แสดงต่อลูกค้าได้
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: ไม่สามารถเพิ่มรายการในใบขอซื้อหลังจากร้องขอการเปลี่ยนแปลงได้
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: การจัดการข้อมูลผลิตภัณฑ์
               items:
-                - name: ไม่สามารถใช้เท็มเพลตเพื่อสร้างผลิตภัณฑ์ที่นำออกใช้ได้
+                - name: คุณไม่สามารถใช้เท็มเพลตเพื่อสร้างผลิตภัณฑ์ที่นำออกใช้ได้
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: ไม่สามารถนําเข้าสินค้าโดยใช้เอนทิตี้ผลิตภัณฑ์ที่นำออกใช้ V2 ได้
+                - name: คุณไม่สามารถนําเข้าสินค้าโดยใช้เอนทิตี้ผลิตภัณฑ์ที่นำออกใช้ V2 ได้
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: ใบสั่งซื้อจะไม่แสดงข้อความผลิตภัณฑ์ที่แปล
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: ผู้ใช้สามารถยกเลิกการเบิกรายการวัสดุสำหรับผลิตภัณฑ์ที่รายงานการเสร็จงานแล้ว
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: ข้อผิดพลาดเกี่ยวกับการลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
+                - name: ข้อผิดพลาดเมื่อลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
                   href: troubleshooting/production/posting-report-as-.md
                 - name: คลังสินค้าในสมุดรายวันรายการเบิกสินค้าไม่ได้รับการอัพเดตในรายการ BOM
                   href: troubleshooting/production/the-warehouse-in-pic.md
