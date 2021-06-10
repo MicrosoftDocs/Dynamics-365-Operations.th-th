@@ -2,7 +2,7 @@
 title: การปฏิบัติตามกฎระเบียบคุกกี้
 description: หัวข้อนี้อธิบายถึงข้อควรพิจารณาสำหรับการปฏิบัติตามข้อกำหนดของคุกกี้และนโยบายเริ่มต้นที่รวมอยู่ใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908195"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088398"
 ---
 # <a name="cookie-compliance"></a>การคาดการณ์ความต้องการคุกกี้
 
@@ -52,8 +52,7 @@ ms.locfileid: "5908195"
 | x-ms-cpim-trans                             | ซึ่งใช้สำหรับการติดตามธุรกรรม (จำนวนของแท็บที่เปิดที่ตรวจสอบความถูกต้องเทียบกับไซต์ธุรกิจ-ผู้บริโภค (B2C)) ซึ่งรวมถึงธุรกรรมปัจจุบัน |
 | \_msdyn365___muid_                            | ใช้ถ้ามีการเรียกใช้งานการทดลองสภาพแวดล้อม; ใช้เป็น userId เพื่อวัตถุประสงค์ในการลองใช้ |
 | \_msdyn365___exp_                             | ใช้ถ้ามีการเรียกใช้งานการทดลองสภาพแวดล้อม; ใช้เพื่อวัดการสร้างสมดุลของปริมาณงานที่มีประสิทธิภาพ         |
-
-
+| d365mkt                                       | ใช้ถ้าการตรวจหาตามสถานที่เพื่อติดตามที่อยู่ IP ของผู้ใช้เปิดใช้งานอยู่ในตัวสร้างไซต์ Commerce ที่ **การตั้งค่าไซต์ >ทั่วไป> เปิดใช้งานการตรวจสอบร้านค้าตามสถานที่**      |
 
 หากผู้ใช้ไซต์เลือกลิงค์สื่อสังคมภายในไซต์ คุกกี้ในตารางต่อไปนี้จะถูกติดตามบนเบราเซอร์ด้วย
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018323"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112684"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 
@@ -22,22 +22,23 @@ ms.locfileid: "6018323"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[แม่แบบ Azure Data Factory](https://aka.ms/dual-write-gab-adf) ช่วยคุณในการอัปเกรดข้อมูลตาราง **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** แบบสองทิศทางให้กับไปยังรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล แม่แบบจะกระทบยอดข้อมูลจากทั้งแอป Finance and Operations และแอปการมีส่วนร่วมกับลูกค้า เมื่อสิ้นสุดกระบวนการ ฟิลด์ **ฝ่าย** และ **ผู้ติดต่อ** ของเรกคอร์ด **ฝ่าย** จะมีการสร้างและเชื่อมโยงกับเรกคอร์ด **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ในแอปการมีส่วนร่วมกับลูกค้า ไฟล์ .csv (`FONewParty.csv`) ถูกสร้างขึ้นเพื่อสร้างเรกคอร์ด **ฝ่าย** ใหม่ภายในแอป Finance and Operations หัวข้อนี้จะให้คําแนะนําในการใช้แม่แบบ Data Factory และอัปเกรดข้อมูลของคุณ
+[แม่แบบ Microsoft Azure Data Factory](https://aka.ms/dual-write-gab-adf) ช่วยคุณในการอัปเกรดข้อมูลตาราง **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** แบบสองทิศทางให้กับไปยังรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล แม่แบบจะกระทบยอดข้อมูลจากทั้งแอป Finance and Operations และแอปการมีส่วนร่วมกับลูกค้า เมื่อสิ้นสุดกระบวนการ ฟิลด์ **ฝ่าย** และ **ผู้ติดต่อ** ของเรกคอร์ด **ฝ่าย** จะมีการสร้างและเชื่อมโยงกับเรกคอร์ด **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ในแอปการมีส่วนร่วมกับลูกค้า ไฟล์ .csv (`FONewParty.csv`) ถูกสร้างขึ้นเพื่อสร้างเรกคอร์ด **ฝ่าย** ใหม่ภายในแอป Finance and Operations หัวข้อนี้จะให้คําแนะนําในการใช้แม่แบบ Data Factory และอัปเกรดข้อมูลของคุณ
 
 ถ้าคุณไม่มีการกำหนดใด ๆ คุณสามารถใช้แม่แบบตามที่เป็นได้ ถ้าคุณมีการกำหนดสำหรับ **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** จากนั้นคุณต้องปรับเปลี่ยนแม่แบบโดยใช้คําแนะนําต่อไปนี้
 
-> [!Note]
-> แม่แบบจะช่วยคุณอัปเกรดเฉพาะข้อมูล **ฝ่าย** ในการนำออกใช้ในอนาคต ที่อยู่ไปรษณีย์และที่อยู่อิเล็กทรอนิกส์จะถูกรวมไว้ด้วย
+> [!NOTE]
+> แม่แบบจะอัปเกรดเฉพาะข้อมูล **ฝ่าย** ในการนำออกใช้ในอนาคต ที่อยู่ไปรษณีย์และที่อยู่อิเล็กทรอนิกส์จะถูกรวมไว้ด้วย
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ข้อกำหนดเบื้องต้นเหล่านี้จำเป็น:
+ข้อเบื้องต้นต่อไปนี้จำเป็นเพื่ออัปเกรดเป็นแบบโมเดลฝ่ายและสมุดที่อยู่สากล:
 
 + [การบอกรับเป็นสมาชิก Azure](https://portal.azure.com/)
 + [เข้าถึงแม่แบบ](https://aka.ms/dual-write-gab-adf)
-+ คุณเป็นลูกค้าการรวมแบบสองทิศทางที่มีอยู่
++ คุณต้องเป็นลูกค้าการรวมแบบสองทิศทางที่มีอยู่
 
 ## <a name="prepare-for-the-upgrade"></a>จัดเตรียมสำหรับการอัปเกรด
+กิจกรรมต่อไปนี้ต้องเตรียมการเพื่อเตรียมการอัปเกรด
 
 + **ซิงค์อย่างครบถ้วน**: ทั้งสองสภาพแวดล้อมอยู่ในสถานะถูกซิงค์อย่างครบถ้วนแล้วสำหรับ **บัญชี (ลูกค้า)** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย**
 + **คีย์การรวม**: ตาราง **บัญชี (ลูกค้า)** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ในแอปการมีส่วนร่วมกับลูกค้าใช้คีย์การรวมที่จัดส่งแบบสำเร็จรูป ถ้าคุณเลือกกำหนดคีย์การรวมเอง คุณต้องเลือกกำหนดแม่แบบเอง
@@ -78,9 +79,13 @@ ms.locfileid: "6018323"
     FO Linked Service_properties_type Properties_tenant | ระบุข้อมูลผู้เช่า (ชื่อโดเมนหรือรหัสผู้เช่า) ที่โปรแกรมประยุกต์ของคุณอยู่
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | ระบุรหัสไคลเอนต์ของโปรแกรมประยุกต์
-    Dynamics Crm Linked Service_properties_type Properties_username | ชื่อผู้ใช้ที่จะเชื่อมต่อกับ Dynamics
+    Dynamics Crm Linked Service_properties_type Properties_username | ชื่อผู้ใช้ที่จะเชื่อมต่อกับ Dynamics 365
 
-    หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [เลื่อนระดับแม่แบบ Resource Manager ด้วยตนเองในแต่ละสภาพแวดล้อม](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment) [คุณสมบัติบริการที่เชื่อมโยง](/azure/data-factory/connector-dynamics-ax#linked-service-properties) และ [คัดลอกข้อมูลโดยใช้ Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    สำหรับข้อมูลเพิ่มเติม โปรดดูหัวข้อต่อไปนี้ 
+    
+    - [เลื่อนระดับแม่แบบ Resource Manager ด้วยตนเองในแต่ละสภาพแวดล้อม](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [คุณสมบัติของบริการที่เชื่อมโยง](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [คัดลอกข้อมูลโดยใช้ Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. หลังจากใช้งานแล้ว ให้ตรวจสอบความถูกต้องของชุดข้อมูล ลำดับข้อมูล และบริการที่เชื่อมโยงของ Data Factory
 
@@ -102,7 +107,7 @@ ms.locfileid: "6018323"
 
 ## <a name="run-the-template"></a>เรียกใช้แม่แบบ
 
-1. หยุดการรวมแบบสองทิศทาง **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ต่อไปนี้โดยใช้แอป Finance and Operations
+1. หยุดแม็ปการรวมแบบสองทิศทาง **บัญชี** **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ต่อไปนี้โดยใช้แอป Finance and Operations
 
     + Customers V3 (บัญชี)
     + ลูกค้า V3(ผู้ติดต่อ)
@@ -157,7 +162,7 @@ ms.locfileid: "6018323"
 8. นําเข้าเรกคอร์ด **ฝ่าย** ในแอป Finance and Operations
 
     + ดาวน์โหลดไฟล์ `FONewParty.csv` จากที่จัดเก็บ Azure blob พาธคือ `partybootstrapping/output/FONewParty.csv`
-    + แปลงไฟล์ `FONewParty.csv` เป็นไฟล์ Excel และนําเข้าไฟล์ Excel ไปยังแอป Finance and Operations  หากการนําเข้า csv ใช้ได้ คุณสามารถนําเข้าไฟล์ csv ได้โดยตรง การนําเข้าอาจใช้เวลาสองสามชั่วโมงในการรัน ทั้งนี้ขึ้นอยู่กับปริมาณข้อมูล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](../data-import-export-job.md)
+    + แปลงไฟล์ `FONewParty.csv` เป็นไฟล์ Excel และนําเข้าไฟล์ Excel ไปยังแอป Finance and Operations หากการนําเข้า csv ใช้ได้ คุณสามารถนําเข้าไฟล์ csv ได้โดยตรง การนําเข้าอาจใช้เวลาสองสามชั่วโมงในการรัน ทั้งนี้ขึ้นอยู่กับปริมาณข้อมูล สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](../data-import-export-job.md)
 
     ![นําเข้าเรกคอร์ดฝ่ายของ Datavers](media/data-factory-import-party.png)
 
@@ -189,7 +194,7 @@ ms.locfileid: "6018323"
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
-1. ในกระบวนการล้มเหลว ให้รัน Data Factory ใหม่เริ่มต้นจากกิจกรรมที่ล้มเหลว
+1. ถ้ากระบวนการล้มเหลว ให้รัน Data Factory ใหม่เริ่มต้นจากกิจกรรมที่ล้มเหลว
 2. บางไฟล์จะถูกสร้างขึ้นโดย Data Factory ที่คุณสามารถใช้เพื่อวัตถุประสงค์การตรวจสอบความถูกต้องของข้อมูล
 3. Data Factory จะรันตามไฟล์ csv ที่คั่นด้วยเครื่องหมายจุลภาค ถ้ามีค่าฟิลด์ที่มีเครื่องหมายจุลภาค อาจใช้เฉพาะกับผลลัพธ์ คุณต้องลบเครื่องหมายจุลภาค
 4. แท็บ **การตรวจสอบ** แสดงข้อมูลเกี่ยวกับขั้นตอนและข้อมูลทั้งหมดที่ประมวลผล เลือกขั้นตอนเฉพาะเพื่อดีบักขั้นตอนนั้น
@@ -198,4 +203,4 @@ ms.locfileid: "6018323"
 
 ## <a name="learn-more-about-the-template"></a>เรียนรู้เพิ่มเติมเกี่ยวกับแม่แบบ
 
-คุณสามารถค้นหาข้อคิดเห็นเกี่ยวกับแม่แบบไฟล์ [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)
+คุณสามารถค้นหาข้อมูลเพิ่มเติมเกี่ยวกับแม่แบบใน [ข้อคิดเห็นสำหรับ readme ของแม่แบบ Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)
