@@ -2,91 +2,69 @@
 title: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทาง จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748552"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103580"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="b83df-103">การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="b83df-103">Dual-write setup from Lifecycle Services</span></span>
+# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="d4b5b-103">การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="d4b5b-103">Dual-write setup from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="b83df-104">หัวข้อนี้อธิบายวิธีการตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทางระหว่างสภาพแวดล้อม Finance and Operations ใหม่ และสภาพแวดล้อม Dataverse ใหม่จาก Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b83df-104">This topic explains how to set up a dual-write connection between a new Finance and Operations environment and a new Dataverse environment from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="d4b5b-104">หัวข้อนี้อธิบายวิธีการเปิดใช้งานการรวมแบบสองทิศทางจาก Microsoft Dynamics Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="d4b5b-104">This topic explains how to enable dual-write from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="b83df-105">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="b83df-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d4b5b-105">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="d4b5b-105">Prerequisites</span></span>
 
-<span data-ttu-id="b83df-106">คุณต้องเป็นผู้ดูแลระบบจึงจะสามารถตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทางได้</span><span class="sxs-lookup"><span data-stu-id="b83df-106">You must be an admin to set up a dual-write connection.</span></span>
+<span data-ttu-id="d4b5b-106">คุณต้องทำการรวม Power Platform ให้เสร็จสิ้นตามที่อธิบายไว้ในหัวข้อต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="d4b5b-106">You must complete the Power Platform integration as described in the following topics:</span></span>
 
-+ <span data-ttu-id="b83df-107">คุณต้องมีการเข้าถึงผู้เช่า</span><span class="sxs-lookup"><span data-stu-id="b83df-107">You must have access to the tenant.</span></span>
-+ <span data-ttu-id="b83df-108">คุณต้องเป็นผู้ดูแลระบบทั้งในสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Dataverse</span><span class="sxs-lookup"><span data-stu-id="b83df-108">You must be an admin in both Finance and Operations environments and Dataverse environments.</span></span>
++ [<span data-ttu-id="d4b5b-107">การรวม Power Platform - เปิดใช้งานในระหว่างการปรับใช้สภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="d4b5b-107">Power Platform Integration - Enable during environment deployment</span></span>](../../power-platform/overview.md#enable-during-environment-deployment)
++ [<span data-ttu-id="d4b5b-108">การรวม Power Platform - ตั้งค่าหลังจากการปรับใช้สภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="d4b5b-108">Power Platform integration - Set up after environment deployment</span></span>](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a><span data-ttu-id="b83df-109">ตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทาง</span><span class="sxs-lookup"><span data-stu-id="b83df-109">Set up a dual-write connection</span></span>
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a><span data-ttu-id="d4b5b-109">ตั้งค่าการรวมแบบสองทิศทางสำหรับสภาพแวดล้อม Dataverse ใหม่</span><span class="sxs-lookup"><span data-stu-id="d4b5b-109">Set up dual-write for new Dataverse environments</span></span>
 
-<span data-ttu-id="b83df-110">ทำตามขั้นตอนเหล่านี้เพื่อตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทาง</span><span class="sxs-lookup"><span data-stu-id="b83df-110">Follow these steps to set up the dual-write connection.</span></span>
+<span data-ttu-id="d4b5b-110">ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าการรวมแบบสองทิศทางจากหน้า **รายละเอียดสภาพแวดล้อม** LCS</span><span class="sxs-lookup"><span data-stu-id="d4b5b-110">Follow these steps to set up dual-write from LCS **Environment Details** page:</span></span>
 
-1. <span data-ttu-id="b83df-111">ใน LCS ไปที่โครงการของคุณ</span><span class="sxs-lookup"><span data-stu-id="b83df-111">In LCS, go to your project.</span></span>
-2. <span data-ttu-id="b83df-112">เลือก **ตั้งค่าคอนฟิก** เพื่อปรับใช้สภาพแวดล้อมใหม่</span><span class="sxs-lookup"><span data-stu-id="b83df-112">Select **Configure** to deploy a new environment.</span></span>
-3. <span data-ttu-id="b83df-113">เลือกรุ่น</span><span class="sxs-lookup"><span data-stu-id="b83df-113">Select the version.</span></span> 
-4. <span data-ttu-id="b83df-114">เลือกโทโพโลยี</span><span class="sxs-lookup"><span data-stu-id="b83df-114">Select the topology.</span></span> <span data-ttu-id="b83df-115">ถ้ามีหนึ่งโทโพโลยีเท่านั้นที่พร้อมใช้งาน จะมีการเลือกโดยอัตโนมัติ</span><span class="sxs-lookup"><span data-stu-id="b83df-115">If only one topology is available, it's automatically selected.</span></span>
-5. <span data-ttu-id="b83df-116">ปฏิบัติตามขั้นตอนแรกในวิซาร์ด **การตั้งค่าการปรับใช้** ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b83df-116">Complete the first steps in the **Deployment settings** wizard.</span></span>
-6. <span data-ttu-id="b83df-117">บนแท็บ **Dataverse** ทำตามหนึ่งในขั้นตอนเหล่านี้:</span><span class="sxs-lookup"><span data-stu-id="b83df-117">On the **Dataverse** tab, follow one of these steps:</span></span>
+1. <span data-ttu-id="d4b5b-111">ในหน้า **รายละเอียดสภาพแวดล้อม** ให้ขยายส่วน **การรวม Power Platform**</span><span class="sxs-lookup"><span data-stu-id="d4b5b-111">On the **Environment Details** page, expand the **Power Platform Integration** section.</span></span>
 
-    - <span data-ttu-id="b83df-118">ถ้ามีการเตรียมใช้งานสภาพแวดล้อม Dataverse สำหรับผู้เช่าของคุณแล้ว คุณสามารถเลือกสภาพแวดล้อมได้</span><span class="sxs-lookup"><span data-stu-id="b83df-118">If a Dataverse environment is already provisioned for your tenant, you can select it.</span></span>
+2. <span data-ttu-id="d4b5b-112">เลือกปุ่ม **แอปพลิเคชันการรวมแบบสองทิศทาง**</span><span class="sxs-lookup"><span data-stu-id="d4b5b-112">Select the **Dual-write application** button.</span></span>
 
-        1. <span data-ttu-id="b83df-119">ตั้งค่าตัวเลือก **ตั้งค่าคอนฟิก Dataverse** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="b83df-119">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="b83df-120">ในคอลัมน์ **สภาพแวดล้อมที่พร้อมใช้งาน** ให้เลือกสภาพแวดล้อมที่จะรวมกับข้อมูล Finance and Operations ของคุณ</span><span class="sxs-lookup"><span data-stu-id="b83df-120">In the **Available environments** column, select the environment to integrate with your Finance and Operations data.</span></span> <span data-ttu-id="b83df-121">รายการนี้รวมถึงสภาพแวดล้อมทั้งหมดที่ซึ่งคุณมีสิทธิ์ของผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="b83df-121">The list includes all environments where you have admin privileges.</span></span>
-        3. <span data-ttu-id="b83df-122">เลือกกล่องกาเครื่องหมาย **ยินยอม** เพื่อระบุว่าคุณยอมรับข้อกำหนดและเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="b83df-122">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+    ![การรวม Power Platform](media/powerplat_integration_step2.png)
 
-        ![แท็บ Dataverse เมื่อมีการเตรียมใช้งานสภาพแวดล้อม Dataverse สำหรับผู้เช่าของคุณแล้ว](../dual-write/media/lcs_setup_1.png)
+3. <span data-ttu-id="d4b5b-114">ตรวจสอบข้อกำหนดและเงื่อนไข จากนั้นเลือก **กำหนดค่า**</span><span class="sxs-lookup"><span data-stu-id="d4b5b-114">Review the terms and conditions, and then select **Configure**.</span></span>
 
-    - <span data-ttu-id="b83df-124">ถ้าผู้เช่าของคุณไม่มีสภาพแวดล้อม Dataverse สภาพแวดล้อมใหม่จะถูกเตรียมใช้งาน</span><span class="sxs-lookup"><span data-stu-id="b83df-124">If your tenant doesn't already have a Dataverse environment, a new environment will be provisioned.</span></span>
+4. <span data-ttu-id="d4b5b-115">เลือก **ตกลง** เพื่อดำเนินการต่อ</span><span class="sxs-lookup"><span data-stu-id="d4b5b-115">Select **OK** to continue.</span></span>
 
-        1. <span data-ttu-id="b83df-125">ตั้งค่าตัวเลือก **ตั้งค่าคอนฟิก Dataverse** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="b83df-125">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="b83df-126">ป้อนชื่อสำหรับสภาพแวดล้อม Dataverse</span><span class="sxs-lookup"><span data-stu-id="b83df-126">Enter a name for the Dataverse environment.</span></span>
-        3. <span data-ttu-id="b83df-127">เลือกภูมิภาคที่จะปรับใช้สภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="b83df-127">Select the region to deploy the environment in.</span></span>
-        4. <span data-ttu-id="b83df-128">เลือกภาษาและสกุลเงินเริ่มต้นสำหรับสภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="b83df-128">Select the default language and currency for the environment.</span></span>
+5. <span data-ttu-id="d4b5b-116">คุณสามารถตรวจสอบความคืบหน้าโดยการรีเฟรชหน้ารายละเอียดสภาพแวดล้อมเป็นระยะๆ</span><span class="sxs-lookup"><span data-stu-id="d4b5b-116">You can monitor the progress by periodically refreshing the environment details page.</span></span> <span data-ttu-id="d4b5b-117">โดยปกติการตั้งค่าจะใช้เวลา 30 นาทีหรือน้อยกว่า</span><span class="sxs-lookup"><span data-stu-id="d4b5b-117">Setup typically takes 30 minutes or less.</span></span>  
 
-            > [!NOTE]
-            > <span data-ttu-id="b83df-129">คุณไม่สามารถเปลี่ยนภาษาและสกุลเงินในภายหลังได้</span><span class="sxs-lookup"><span data-stu-id="b83df-129">You can't change the language and currency later.</span></span>
+6. <span data-ttu-id="d4b5b-118">เมื่อการตั้งค่าเสร็จสิ้น จะมีข้อความแจ้งคุณว่ากระบวนการประสบความสาเร็จหรือถ้ามีความล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="d4b5b-118">When the setup is complete, a message will inform you if the process was successful or if there was a failure.</span></span> <span data-ttu-id="d4b5b-119">ถ้าการตั้งค่าล้มเหลว จะมีข้อความแสดงข้อผิดพลาดที่เกี่ยวข้องแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="d4b5b-119">If the setup failed, then a related error message is displayed.</span></span> <span data-ttu-id="d4b5b-120">คุณต้องแก้ไขข้อผิดพลาดใด ๆ ก่อนย้ายไปยังขั้นตอนถัดไป</span><span class="sxs-lookup"><span data-stu-id="d4b5b-120">You must fix any errors before moving to the next step.</span></span>
 
-        5. <span data-ttu-id="b83df-130">เลือกกล่องกาเครื่องหมาย **ยินยอม** เพื่อระบุว่าคุณยอมรับข้อกำหนดและเงื่อนไข</span><span class="sxs-lookup"><span data-stu-id="b83df-130">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="d4b5b-121">เลือก **ลิงค์ไปยังสภาพแวดล้อม Power Platform** เพื่อสร้างลิงค์ระหว่าง Dataverse และฐานข้อมูลของสภาพแวดล้อมปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="d4b5b-121">Select **Link to Power Platform environment** to create a link between Dataverse and the current environment's databases.</span></span> <span data-ttu-id="d4b5b-122">โดยปกติขั้นตอนนี้จะใช้เวลาน้อยกว่า 5 นาที</span><span class="sxs-lookup"><span data-stu-id="d4b5b-122">This typically takes less than 5 minutes.</span></span>
 
-        ![แท็บ Dataverse เมื่อผู้เช่าของคุณไม่มีสภาพแวดล้อม Dataverse อยู่แล้ว](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="เชื่อมโยงกับสภาพแวดล้อม Power Platform":::
 
-7. <span data-ttu-id="b83df-132">ปฏิบัติตามขั้นตอนที่เหลือในวิซาร์ด **การตั้งค่าการปรับใช้** ให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b83df-132">Complete the remaining steps in the **Deployment settings** wizard.</span></span>
-8. <span data-ttu-id="b83df-133">หลังจากที่สภาพแวดล้อมมีสถานะเป็น **ปรับใช้แล้ว** ให้เปิดหน้ารายละเอียดของสภาพแวดล้อม</span><span class="sxs-lookup"><span data-stu-id="b83df-133">After the environment has a status of **Deployed**, open the environment details page.</span></span> <span data-ttu-id="b83df-134">ส่วน **การรวม Power Platform** แสดงชื่อของสภาพแวดล้อม Finance and Operations และสภาพแวดล้อม Dataverse ที่มีการเชื่อมโยง</span><span class="sxs-lookup"><span data-stu-id="b83df-134">The **Power Platform Integration** section shows the names of the Finance and Operations environment and the Dataverse environment that are linked.</span></span>
+8. <span data-ttu-id="d4b5b-124">เมื่อการเชื่อมโยงเสร็จสมบูรณ์ ไฮเปอร์ลิงค์จะแสดงขึ้น</span><span class="sxs-lookup"><span data-stu-id="d4b5b-124">When the linking is complete, a hyperlink is displayed.</span></span> <span data-ttu-id="d4b5b-125">ใช้ลิงค์เพื่อเข้าสู่ระบบพื้นที่การรวมแบบสองทิศทางในสภาพแวดล้อม Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="d4b5b-125">Use the link to sign in to the dual-write administration area in the Finance and Operations environment.</span></span> <span data-ttu-id="d4b5b-126">จากที่นั่น คุณสามารถตั้งค่าการแม็ปเอนทิตีได้</span><span class="sxs-lookup"><span data-stu-id="d4b5b-126">From there, you can set up entity mappings.</span></span>
 
-    ![ส่วนการรวม Power Platform](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a><span data-ttu-id="d4b5b-127">ตั้งค่าการรวมแบบสองทิศทางสำหรับสภาพแวดล้อม Dataverse ที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="d4b5b-127">Set up dual-write for an existing Dataverse environment</span></span>
 
-9. <span data-ttu-id="b83df-136">ผู้ดูแลระบบของสภาพแวดล้อม Finance and Operations ต้องลงชื่อเข้าใช้ใน LCS และเลือก **ลิงค์ไปยัง CDS for Apps** เพื่อทำให้การเชื่อมโยงเสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="b83df-136">An admin of the Finance and Operations environment must sign in to LCS and select **Link to CDS for Apps** to complete the link.</span></span> <span data-ttu-id="b83df-137">หน้ารายละเอียดของสภาพแวดล้อมจะแสดงข้อมูลผู้ติดต่อของผู้ดูแลระบบ</span><span class="sxs-lookup"><span data-stu-id="b83df-137">The environment details page shows the admin's contact information.</span></span>
+<span data-ttu-id="d4b5b-128">เมื่อต้องการตั้งค่าการรวมแบบสองทิศทางให้กับสภาพแวดล้อม Dataverse ที่มีอยู่ คุณต้องสร้าง [ตั๋วสนับสนุน](../../lifecycle-services/lcs-support.md) Microsoft</span><span class="sxs-lookup"><span data-stu-id="d4b5b-128">To set up dual-write for an existing Dataverse environment, you must create a Microsoft [support ticket](../../lifecycle-services/lcs-support.md).</span></span> <span data-ttu-id="d4b5b-129">ตั๋วต้องรวม:</span><span class="sxs-lookup"><span data-stu-id="d4b5b-129">The ticket must include:</span></span>
 
-    <span data-ttu-id="b83df-138">หลังจากเสร็จสิ้นการเชื่อมโยง สถานะจะได้รับการอัพเดตเป็น **การเชื่อมโยงสภาพแวดล้อมเสร็จเรียบร้อยแล้ว**</span><span class="sxs-lookup"><span data-stu-id="b83df-138">After the link is completed, the status is updated to **Environment linking successfully completed**.</span></span>
-
-10. <span data-ttu-id="b83df-139">เมื่อต้องการเปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และควบคุมเท็มเพลตที่พร้อมใช้งาน เลือก **เชื่อมโยงกับ CDS for Apps**</span><span class="sxs-lookup"><span data-stu-id="b83df-139">To open the **Data integration** workspace in the Finance and Operations environment and control the templates that are available, select **Link to CDS for Apps**.</span></span>
-
-    ![ปุ่มลิงค์ไปยัง CDS for Apps ในส่วนการรวม Power Platform](../dual-write/media/lcs_setup_4.png)
++ <span data-ttu-id="d4b5b-130">รหัสสภาพแวดล้อม Finance and Operations ของคุณ</span><span class="sxs-lookup"><span data-stu-id="d4b5b-130">Your Finance and Operations environment ID.</span></span>
++ <span data-ttu-id="d4b5b-131">ชื่อสภาพแวดล้อมของคุณจาก Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="d4b5b-131">Your environment name from Lifecycle Services.</span></span>
++ <span data-ttu-id="d4b5b-132">รหัสองค์กร Dataverse หรือรหัสสภาพแวดล้อม Power Platform จากศูนย์การจัดการ Power Platform</span><span class="sxs-lookup"><span data-stu-id="d4b5b-132">The Dataverse organization ID or Power Platform Environment ID from Power Platform Admin Center.</span></span> <span data-ttu-id="d4b5b-133">ในตั๋วของคุณ ให้ขอรหัสเป็นอินสแตนซ์ที่ใช้ในการรวม Power Platform</span><span class="sxs-lookup"><span data-stu-id="d4b5b-133">In your ticket, request that the ID be the instance used for Power Platform integration.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b83df-141">คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS</span><span class="sxs-lookup"><span data-stu-id="b83df-141">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="b83df-142">เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และจากนั้น เลือก **ยกเลิกการเชื่อมโยง**</span><span class="sxs-lookup"><span data-stu-id="b83df-142">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
-
-
+> <span data-ttu-id="d4b5b-134">คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS</span><span class="sxs-lookup"><span data-stu-id="d4b5b-134">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="d4b5b-135">เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และจากนั้น เลือก **ยกเลิกการเชื่อมโยง**</span><span class="sxs-lookup"><span data-stu-id="d4b5b-135">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
