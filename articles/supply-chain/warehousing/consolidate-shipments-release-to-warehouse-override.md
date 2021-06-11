@@ -1,5 +1,5 @@
 ---
-title: รวมบัญชีการจัดส่ง เมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+title: รวมการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่
 description: หัวข้อนี้จะแสดงสถานการณ์จำลองที่ซึ่งรายการขายหนึ่งรายการขึ้นไปต้องถูกนำออกใช้ด้วยตนเองไปยังคลังสินค้าจากหน้านำออกใช้ไปยังคลังสินค้า และนโยบายการรวมบัญชีการจัดส่งที่กำหนดโดยระบบต้องถูกแทนที่ก่อนการนำออกใช้
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dcd619ad2906d4224966e2696712ed0e71886eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6928375c88a199bd9c6b48f05b38343463762920
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837500"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117020"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>รวมบัญชีการจัดส่ง เมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>รวมการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่
 
 [!include [banner](../includes/banner.md)]
 

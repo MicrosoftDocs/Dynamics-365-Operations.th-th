@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (กรกฎาคม 2021)
+title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (มิถุนายน 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.19
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961692"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114986"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (กรกฎาคม 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (มิถุนายน 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ ms.locfileid: "5961692"
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** เมษายน 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** มิถุนายน 2021
-- **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตอัตโนมัติ):** กรกฎาคม 2021
+- **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตอัตโนมัติ):** มิถุนายน 2021
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-ตารางต่อไปนี้มีคุณลักษณะที่รวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงลิงค์ไปที่เอกสารที่เกี่ยวข้อง
+ตารางต่อไปนี้มีคุณลักษณะที่รวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงข้อมูลและ/หรือลิงค์เพิ่มเติมไปที่เอกสารที่เกี่ยวข้อง
 
 คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
 
 | พื้นที่คุณลักษณะ | ลักษณะการทำงาน | ข้อมูลเพิ่มเติม |
 |---|---|---|
-| สินค้าคงคลังและลอจิสติกส์ | [การเพิ่มประสิทธิภาพการส่งออกเอนทิตี้ข้อมูลบุคคลที่ติดต่อ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *ไม่พร้อมใช้งาน* |
+| สินค้าคงคลังและลอจิสติกส์ | [การเพิ่มประสิทธิภาพการส่งออกเอนทิตี้ข้อมูลบุคคลที่ติดต่อ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | เมื่อเปิดใช้งานคุณลักษณะนี้ การเปลี่ยนแปลงของข้อมูลอ้างอิงจะไม่ทําให้ผู้ติดต่อ (หรือรายการ) ที่เกี่ยวข้องรวมอยู่ในการส่งออกส่วนเพิ่มถัดไป เมื่อปิดใช้งานคุณลักษณะนี้ การเปลี่ยนแปลงของข้อมูลอ้างอิงจะทําให้ผู้ติดต่อ (หรือรายการ) ที่เกี่ยวข้องรวมอยู่ในการส่งออกส่วนเพิ่มถัดไป |
 | สินค้าคงคลังและลอจิสติกส์ | [การปรับปรุงส่วนเพิ่มสำหรับความสามารถในการดำเนินงานคลังสินค้าที่มีสเกลยูนิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[ข้อความตัวประมวลผลข้อความ](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[การปรับปรุงสินค้าคงคลังของคลังสินค้า](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| สินค้าคงคลังและลอจิสติกส์ | [ฟังก์ชันการค้นหาเกี่ยวกับฟิลด์บทนําของเอกสารและบทสรุปของเอกสารในหน้าใบเสนอราคาขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *ไม่พร้อมใช้งาน* |
+| สินค้าคงคลังและลอจิสติกส์ | [ฟังก์ชันการค้นหาเกี่ยวกับฟิลด์บทนําของเอกสารและบทสรุปของเอกสารในหน้าใบเสนอราคาขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | คุณลักษณะนี้เพิ่มฟังก์ชันการค้นหาเกี่ยวกับฟิลด์ **บทนําของเอกสาร** และ **บทสรุปของเอกสาร** ในหน้า **ใบเสนอราคาขาย**<br><br>คุณลักษณะนี้จะไม่เปิดใช้งานโดยค่าเริ่มต้น |
 | สินค้าคงคลังและลอจิสติกส์ | [การดำเนินการของคลังสินค้าที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [ปรับใช้หน่วยสเกล edge บนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| การผลิต | [การดำเนินการของการผลิตที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [ปรับใช้หน่วยสเกล edge บนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| การผลิต | [การดำเนินการของการผลิตที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| การวางแผน | [การจัดกำหนดการความสามารถรองรับที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | คุณลักษณะนี้เปิดใช้งานการจัดกำหนดการการผลิตระดับความจุด้วยความสามารถมีไม่สิ้นสุดเพื่อเพิ่มประสิทธิภาพการวางแผน ถ้าไม่มีคุณลักษณะนี้ แผนการใบสั่งผลิตจะได้รับระยะเวลารอคอยสินค้าจากระยะเวลารอคอยสินค้าของสินค้าคงคลังของผลิตภัณฑ์ที่นำออกใช้ โดยไม่พิจารณากรอบเวลาการจัดกำหนดการผลิต |
 | การวางแผน | การยืนยันแผนการใบสั่งตามการสอบถาม | [ยืนยันแผนการใบสั่ง](../master-planning/planning-optimization/planned-order-firming.md) |
 | การจัดการข้อมูลผลิตภัณฑ์ | [การปรับปรุงหน้าคำแนะนำตัวแปร](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>การปรับปรุงคุณลักษณะรวมอยู่ในการนำออกใช้นี้
+
+ตารางต่อไปนี้มีการปรับปรุงคุณลักษณะที่รวมอยู่ในการนำออกใช้นี้ แต่ละประเภทมีการปรับปรุงส่วนเพิ่มให้กับคุณลักษณะที่มีอยู่ เนื่องจากเป็นการปรับปรุงเท่านั้น จึงไม่มีอยู่ใน [แผนการนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) อย่างไรก็ตาม เพื่อให้แน่ใจว่าการปรับปรุงเหล่านี้จะไม่ขัดแย้งกับการเลือกเองหรือคุณลักษณะที่มีอยู่ของคุณ แต่ละรายการจะถูกปิดตามค่าเริ่มต้น (เว้นแต่จะไม่ได้ระบุไว้เป็นอย่างอื่น) หากคุณต้องการใช้คุณลักษณะเหล่านี้ คุณต้องเปิดใช้งานคุณลักษณะเหล่านี้อย่างชัดแจ้งใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+
+| พื้นที่คุณลักษณะ | ชื่อ&nbsp;คุณลักษณะ&nbsp;ในการจัดการ&nbsp;คุณลักษณะ | ข้อมูลเพิ่มเติม |
+|---|---|---|
+| การขายและการตลาด | การปรับปรุงประสิทธิภาพการล้างข้อมูลประวัติการขาย | การล้างข้อมูลประวัติการขายอาจใช้เวลานาน ถ้ารันในสภาพแวดล้อมที่มีปริมาณการอัพเดตการขายสูง เพื่อลดช่วงเวลาและปรับปรุงความน่าเชื่อถือ คุณลักษณะนี้จะแบ่งการล้างข้อมูลเป็นชุดงานที่รันในช่วงเวลาที่จํากัด หากเป็นไปได้ ความสามารถด้านฐานข้อมูลจะถูกขยายเวลาเพื่อลดการล็อคและหลีกเลี่ยงการรวมตารางธุรกรรมระหว่างการล้างข้อมูล |
+| การขายและการตลาด | อัพเดตวันที่ขอรับสินค้าพร้อมกับวันที่ยืนยันสำหรับใบสั่งระหว่างบริษัท | คุณลักษณะนี้จะช่วยให้คุณสามารถควบคุมค่าฟิลด์สิ่งที่จะเกิดขึ้นกับฟิลด์วันที่ขายและการซื้อ เมื่อใช้การจัดส่งโดยตรงระหว่างบริษัท คุณสามารถเลือกได้ว่าระบบจะอัปเดตวันที่ร้องขอหรือข้ามการอัปเดต ถ้าคุณข้ามการอัปเดต วันที่ที่ร้องขอจะแสดงถึงสิ่งที่ลูกค้าร้องขอไว้ ถ้าคุณเปิดใช้งานการอัปเดต วันที่ที่ร้องขอ (เมื่อใช้การควบคุมวันที่จัดส่ง) จะแสดงถึงสิ่งที่ลูกค้าร้องขอเท่านั้น การควบคุมวันที่จัดส่ง เมื่อแตกต่างจาก *ไม่มี* จะเกินสิ่งที่ร้องขอในครั้งแรก คุณสามารถตั้งค่าตัวเลือกนี้โดยใช้การตั้งค่า **อัปเดตวันที่รับสินค้าที่ร้องขอใหม่ ด้วยการตั้งค่าวันที่ยืนยัน** ในการตั้งค่าผู้จัดจำหน่ายระหว่างบริษัทหรือลูกค้า<br><br>ถ้าปิดใช้งานคุณลักษณะนี้ ระบบจะบันทึกทับวันที่รับสินค้าที่ร้องขอบนต้นฉบับใบสั่งขาย ตามกฎการควบคุมวันที่จัดส่ง แต่วันที่จัดส่งที่ร้องขอจะยังคงเหมือนเดิม |
+| การจัดการคลังสินค้า | ปัดเศษปริมาณลงเป็นหน่วยการขายที่ใกล้ที่สุดเมื่อนำออกใช้ไปยังคลังสินค้า | คุณลักษณะนี้จะเพิ่มตัวเลือกที่สามารถจํากัดปริมาณใบสั่งในการนำออกใช้ไปยังคลังสินค้า เมื่อเปิดใช้งาน ปริมาณใบสั่งจะถูกปัดเศษลงเป็นหน่วยการขายทั้งหมดที่ใกล้ที่สุด และใบสั่งที่มีปริมาณที่น้อยกว่าหนึ่งหน่วยการขายจะถูกปฏิเสธเพื่อออกใช้ |
+| การจัดการคลังสินค้า | วิธีการของเวฟ "จัดกำหนดการการสร้างงาน" ทั่วทั้งองค์กร | การเปิดใช้งานคุณลักษณะนี้ วิธีการเวฟ *จัดกำหนดการสร้างงาน* จะถูกเพิ่มและตั้งค่าคอนฟิกให้รันพร้อมกันระหว่างนิติบุคคลทั้งหมด การตั้งค่าเพิ่มเติมหลายค่าจะได้รับผลกระทบด้วย สำหรับรายละเอียดทั้งหมด ให้ดูที่ [จัดกำหนดการการสร้างงานระหว่างเวฟ](../warehousing/configure-wave-schedule-work-creation.md) |
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัพเดต
 
@@ -62,7 +74,7 @@ ms.locfileid: "5961692"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update สำหรับแอป Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.19 ของแอป Finance and Operations (กรกฎาคม 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.19 ของแอป Finance and Operations (มิถุนายน 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
