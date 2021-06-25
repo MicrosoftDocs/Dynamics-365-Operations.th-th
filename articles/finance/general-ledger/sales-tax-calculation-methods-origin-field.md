@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815367"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189384"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
 
@@ -52,8 +52,7 @@ ms.locfileid: "5815367"
 | ภาษีจุดเริ่มต้นรหัสเดียวเท่านั้น = เปอร์เซ็นต์ของยอดเงินรวมที่สามารถใช้สำหรับธุรกรรมได้ ถ้าภาษีถูกกำหนดมากกว่าหนึงรหัสสำหรับธุรกรรม ข้อผิดพลาดจะถูกแสดงออกมาว่า ไม่สามารถคำนวณภาษีขายได้ |
 
 
-<a name="percentage-of-sales-tax"></a>เปอร์เซ็นต์ของภาษีขาย
------------------------
+## <a name="percentage-of-sales-tax"></a>เปอร์เซ็นต์ของภาษีขาย
 
 เมื่อคุณเลือกเปอร์เซ็นต์ของภาษีขายในฟิลด์จุดเริ่มต้น ภาษีขายจะถูกคำนวณเป็นเปอร์เซ็นต์ของภาษีขายที่ถูกเลือกภาษีขายที่คิดจากฟิลด์ภาษีขาย ภาษีขายที่ถูกเลือกในฟิลด์ภาษีขายภาษีขาย จะถูกคำนวณก่อน ภาษีขายที่สองจะคำนวณตามยอดเงินภาษีขายแรก
 ### <a name="example"></a>ตัวอย่าง
@@ -119,8 +118,7 @@ ms.locfileid: "5815367"
 
 
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ](marginal-base-field.md)
 

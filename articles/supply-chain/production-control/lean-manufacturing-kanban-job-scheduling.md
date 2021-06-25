@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25d3de7d9d49cbd05f7d3d3daa42f51e60dc0f8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0d0cbaf6b8440dbbb71146a34cbbe949cfe78d0c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825854"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190051"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>การกำหนดการงานคัมบังสำหรับ Lean Manufacturing
 
@@ -65,8 +65,7 @@ ms.locfileid: "5825854"
 
 หน้ารายการ **การจัดกำหนดการงานคัมบัง** ประกอบด้วยกล่องแสดงข้อมูลย่อที่แสดงกำลังการผลิตที่พร้อมใช้งานและถูกจองรอบระยะเวลาสำหรับเซลล์ทำงานที่เลือก ขึ้นอยู่กับรอบระยะเวลากำหนดการที่เลือกไว้ในแบบจำลองขั้นตอนการผลิต รอบระยะเวลาจะแสดงวันหรือสัปดาห์
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 
 

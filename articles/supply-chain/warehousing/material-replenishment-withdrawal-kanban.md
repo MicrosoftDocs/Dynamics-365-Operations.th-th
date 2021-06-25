@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831253"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189955"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831253"
 หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>ลำดับงานสำหรับการเติมสินค้าวัสดุที่ใช้คัมบังการเบิกถอน
--------------------------------------------------------------------
 
 คัมบังการเบิกถอนสามารถถูกใช้เพื่อย้ายคัมบังสินค้าเดี่ยวระหว่างคลังสินค้าและสถานที่ผลิตที่ซึ่งมีการใช้วัสดุ คัมบังการเบิกถอนสนับสนุนโซลูชันที่ทำงานแบบดึงสำหรับการเติมสินค้าวัสดุ ที่ต้องใช้สัญญาณดึงเพื่อทริกเกอร์การจัดหาวัสดุสำหรับความต้องการเฉพาะ 
 

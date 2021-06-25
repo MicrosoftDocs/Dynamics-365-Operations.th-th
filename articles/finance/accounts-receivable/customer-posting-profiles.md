@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826382"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193629"
 ---
 # <a name="customer-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีลูกค้า
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826382"
 
 โพรไฟล์การลงบัญชีของลูกค้าควบคุมการลงรายการบัญชีของธุรกรรมลูกค้าให้บัญชีแยกประเภททั่วไป
 
-<a name="customer-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีลูกค้า
--------------------------
+## <a name="customer-posting-profiles"></a>โพรไฟล์การลงรายการบัญชีลูกค้า
 
 โพรไฟล์การลงรายการบัญชีลูกค้าช่วยให้คุณสามารถกำหนดบัญชีแยกประเภททั่วไปและการตั้งค่าเอกสารให้กับลูกค้าทั้งหมด กลุ่มลูกค้า หรือลูกค้ารายเดียวได้ การตั้งค่าเหล่านี้จะใช้เมื่อคุณสร้างใบสั่งขาย ใบแจ้งหนี้ข้อความอิสระ การชำระเงินสด จดหมายเรียกเก็บเงิน และดอกเบี้ยตั๋วเงิน สำหรับบางธุรกรรม คุณสามารถเลือกโพรไฟล์การลงบัญชีที่แตกต่าง และมีระดับความสำคัญเหนือกว่า โพรไฟล์การลงบัญชีที่ตั้งค่าไว้แล้วสำหรับธุรกรรมในหน้านี้ 
 
@@ -118,7 +117,6 @@ ms.locfileid: "5826382"
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**ข้อจำกัด**
 

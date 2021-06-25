@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835015"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188601"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835015"
 
 คุณลักษณะการกระทบยอดธนาคารขั้นสูงอนุญาตให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ได้ และกระทบยอดกับธุรกรรมธนาคารได้โดยอัตโนมัติใน Dynamics 365 Finance หัวข้อนี้อธิบายถึงกระบวนการกระทบยอด  
 
-<a name="import-an-electronic-bank-statement"></a>นำเข้าใบแจ้งยอดจากธนาคารทางอิเล็กทรอนิกส์
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>นำเข้าใบแจ้งยอดจากธนาคารทางอิเล็กทรอนิกส์
 
 คุณนำเข้าใบแจ้งยอดจากธนาคารของคุณโดยใช้การดำเนินการ **นำเข้าใบแจ้งยอด** ในหน้า **ใบแจ้งยอดจากธนาคาร** ในใบแจ้งยอดจากธนาคารมีการระบุบัญชีธนาคารผ่านชุดของค่าที่ถูกตั้งค่าในรายละเอียดบัญชีธนาคาร ค่าเหล่านี้รวมถึงชื่อธนาคาร หมายเลขบัญชีธนาคาร สายงานการผลิต รหัสสมาคมเพื่อการสื่อสารทางการเงินระหว่างธนาคารทั่วโลก (SWIFT) และหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN) 
 

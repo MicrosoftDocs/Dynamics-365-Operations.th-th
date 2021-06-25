@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820894"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188793"
 ---
 # <a name="configure-accounts-payable-overview"></a>ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820894"
 
 บทความนี้อธิบายถึง เพจที่คุณใช้ในการตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันเพิ่มเติมสำหรับบัญชีเจ้าหนี้ นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 
-<a name="prerequisites-for-accounts-payable-setup"></a>ข้อกำหนดเบื้องต้นสำหรับการตั้งค่าบัญชีเจ้าหนี้
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>ข้อกำหนดเบื้องต้นสำหรับการตั้งค่าบัญชีเจ้าหนี้
 
 ก่อนที่คุณจะสามารถตั้งค่าบัญชีเจ้าหนี้คุณต้องดำเนินขั้นตอนต่อไปนี้ให้ครบถ้วน:
 

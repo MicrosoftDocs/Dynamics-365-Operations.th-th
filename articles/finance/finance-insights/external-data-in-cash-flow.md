@@ -2,7 +2,7 @@
 title: ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด (ตัวอย่าง)
 description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการให้เสร็จสมบูรณ์เพื่อให้สามารถป้อนหรือนำเข้าข้อมูลภายนอกเข้าในการคาดการณ์กระแสเงินสดได้
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897899"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186701"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด (ตัวอย่าง)
 
@@ -57,9 +57,5 @@ ms.locfileid: "5897899"
 
 - การตั้งค่าแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด
 - การตั้งค่านิติบุคคลที่เป็นแหล่งที่มาภายนอกของการคาดการณ์กระแสเงินสด
-
-#### <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

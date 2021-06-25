@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2780edc75891d565a184135d6a915a0e6f8504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d64729d6da5c57267d6d62274cce496888548d7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839088"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190003"
 ---
 # <a name="order-entry-deadlines"></a>กำหนดเวลาสิ้นสุดของการป้อนข้อมูลใบสั่ง
 
@@ -99,8 +99,7 @@ ms.locfileid: "5839088"
 
 **หมายเหตุ:** ถ้ามีการปรับเวลาตามฤดูกาล กำหนดเวลาสิ้นสุดของการป้อนรายการใบสั่งจะได้รับการปรับให้สอดคล้องไปด้วย
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [กำหนดการจัดส่ง](delivery-schedules.md)
 

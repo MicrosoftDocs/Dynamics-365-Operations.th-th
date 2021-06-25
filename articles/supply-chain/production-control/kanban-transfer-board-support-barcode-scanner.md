@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190075"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>การสนับสนุนบอร์ดการโอนย้ายคัมบังสำหรับเครื่องสแกนบาร์โค้ด
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825878"
 
 บอร์ดการโอนย้ายคัมบังสนับสนุนสแกนเนอร์อินพุตจากเครื่องสแกนบาร์โค้ดราคาให้เป็น การเลือก เริ่มต้น เสร็จสมบูรณ์ และลบงานคัมบัง
 
-<a name="registration-modes"></a>โหมดการลงทะเบียน
-------------------
+## <a name="registration-modes"></a>โหมดการลงทะเบียน
 
 ในแท็บด่วน **การลงทะเบียนสแกนเนอร์** คุณสามารถเลือกโหมดการลงทะเบียน ซึ่งควบคุมการดำเนินการเมื่อคุณสแกนหมายเลขบัตรคัมบัง หรือพิมพ์หมายเลขในฟิลด์หมายเลขบัตรคัมบังด้วยตนเอง
 
@@ -42,8 +41,7 @@ ms.locfileid: "5825878"
 | เลือก                | ลงทะเบียนหมายเลขบัตรคัมบังและเลือกงานที่อ้างอิงในรายการคัมบังโดยอัตโนมัติ |
 
  
-<a name="registration-mode-select"></a>โหมดการลงทะเบียน เลือก
-------------------------
+## <a name="registration-mode-select"></a>โหมดการลงทะเบียน เลือก
 
 เมื่อคุณใช้ตัวอ่านบาร์โค้ดเพื่อเลือกงาน โหมดการแสดงผลของการเปลี่ยนแปลงบอร์ดคัมบัง ในโหมดนี้ เงื่อนไขต่อไปนี้นำไปใช้:
 

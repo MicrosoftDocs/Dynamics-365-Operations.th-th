@@ -2,7 +2,7 @@
 title: ตำแหน่งเงินสด (พรีวิว)
 description: หัวข้อนี้จะอธิบายถึงวิธีที่คุณลักษณะของการคาดการณ์กระแสเงินสดจะคาดการณ์ตำแหน่งเงินสดขององค์กรสำหรับเวลาที่ระบุ นอกจากนี้ ยังอธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับการแสดงการคาดการณ์สำหรับรอบระยะเวลาที่แตกต่างกัน
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123401"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186503"
 ---
 # <a name="cash-position-preview"></a>ตำแหน่งเงินสด (พรีวิว)
 
@@ -48,6 +48,5 @@ ms.locfileid: "6123401"
 
 #### <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

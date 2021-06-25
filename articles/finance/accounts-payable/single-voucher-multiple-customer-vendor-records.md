@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837308"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6194012"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ
 
@@ -207,8 +207,6 @@ ms.locfileid: "5837308"
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP 00001   | 403300-002-023- | ส่วนลดเงินสดสำหรับลูกค้า | 2.00      |            |
 | ARP 00001   | 130100-002-     | ลูกหนี้คงเหลือ       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>ใบสำคัญหนึ่งใบที่มีการรวมสำหรับลูกค้าและผู้จัดจำหน่ายหลายรายการ
 การรวมอาจเป็นประโยชน์เมื่อองค์กรซื้อและขายไปยังบริษัทเดียวกัน ใบแจ้งหนี้ของผู้จัดจำหน่ายและลูกค้าจะถูกรวม โดยไม่มีการชำระใบแจ้งหนี้ของผู้จัดจำหน่ายและรอรับการชำระเงินสำหรับใบแจ้งหนี้ของลูกค้า ธุรกรรมการรวมจะได้รับชำระสำหรับยอดดุลค้างชำระ 

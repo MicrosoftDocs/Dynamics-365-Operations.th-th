@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827372"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189432"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>กลุ่มบัญชีหลักในการรวมบัญชีและบัญชีหลักในการรวมบัญชีเพิ่มเติม
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827372"
 
 หัวข้อนี้ให้ข้อมูลเกี่ยวกับกลุ่มลูกค้าองค์กรการรวมและลูกค้าองค์กรการรวมเพิ่มเติม และอธิบายวิธีการใช้งานใน Microsoft Dynamics 365 Finance
 
-<a name="consolidation-account-groups"></a>กลุ่มบัญชีการรวมบัญชี
-----------------------------
+## <a name="consolidation-account-groups"></a>กลุ่มบัญชีการรวมบัญชี
 
 กลุ่มบัญชีหลักในการรวมบัญชีช่วยให้คุณสามารถสร้างกลุ่มของบัญชีที่คุณต้องการใช้ในการรวมข้อมูล ส่วนใหญ่แล้ว กลุ่มบัญชีหลักในการรวมบัญชีแสดงถึงผังบัญชีตามข้อบังคับตามกฎหมาย หรือแม็ปบัญชีไปยังกลุ่มที่ถูกกำหนดโดยสำนักงานใหญ่ของบริษัท คุณสามารถค้นหากลุ่มบัญชีหลักในการรวมบัญชีได้ในพื้นที่ **การตั้งค่า** ของโมดูล **การรวมบัญชี** ได้ เมื่อคุณเพิ่มกลุ่มใหม่ คุณจะต้องป้อนตัวระบุเฉพาะสำหรับกลุ่มบัญชีและชื่อ
 

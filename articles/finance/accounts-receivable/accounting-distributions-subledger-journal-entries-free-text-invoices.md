@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837188"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188769"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>การกระจายการลงบัญชีและรายการบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837188"
 
 การกระจายการลงบัญชีถูกใช้เพื่อกำหนดวิธีลงบัญชีของยอดเงิน เช่น วิธีการลงบัญชีค่าใช้จ่าย ภาษี หรือค่าธรรมเนียม ในใบแจ้งหนี้ข้อความอิสระ  ทุกๆ ยอดเงินที่ต้องนำมาลงบัญชีเมื่อใบแจ้งหนี้ข้อความอิสระถูกบันทึกบัญชีในสมุดรายวัน จะมีการกระจายการลงบัญชีหนึ่งรายการหรือมากกว่า
 
-<a name="accounting-distributions"></a>การกระจายการลงบัญชี
-------------------------
+## <a name="accounting-distributions"></a>การกระจายการลงบัญชี
 
 คุณสามารถใช้ปุ่มต่างๆต่อไปนี้ในหน้าใบแจ้งหนี้ข้อความอิสระเพื่อดู และอาจเปลี่ยนแปลง การกระจายการลงบัญชีสำหรับแต่ละยอดเงินในใบแจ้งหนี้ข้อความอิสระ
 

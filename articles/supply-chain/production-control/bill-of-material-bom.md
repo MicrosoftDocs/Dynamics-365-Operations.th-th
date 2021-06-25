@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811785"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190123"
 ---
 # <a name="bills-of-materials-and-formulas"></a>สูตรและสูตรการผลิต
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811785"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรการผลิต (BOM) และสูตร ซึ่งเป็นส่วนสำคัญของข้อกำหนดของผลิตภัณฑ์และผลิตภัณฑ์ย่อย BOM และสูตรระบุวัสดุหรือส่วนผสมที่จำเป็นสำหรับผลิตภัณฑ์เฉพาะ นอกจากนี้สูตรยังระบุสินค้าร่วมและสินค้าพลอยได้ที่ได้รับในบริบทการผลิตเฉพาะ 
 
-<a name="bills-of-materials"></a>สูตรการผลิต
-------------------
+## <a name="bills-of-materials"></a>สูตรการผลิต
 
 สูตรการผลิต (BOM) กำหนดส่วนประกอบที่ต้องใช้เพื่อผลิตผลิตภัณฑ์ ส่วนประกอบอาจเป็นวัตถุดิบ ผลิตภัณฑ์กึ่งสำเร็จรูป หรือส่วนผสม ในบางกรณี การบริการสามารถถูกอ้างอิงใน BOM อย่างไรก็ตาม BOMs โดยทั่วไปหมายถึง *ทรัพยากรวัสดุ* ที่จำเป็นต้องมี  
 

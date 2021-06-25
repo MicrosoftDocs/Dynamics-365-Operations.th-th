@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052252"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193442"
 ---
 # <a name="benefits-management-workspace"></a>พื้นที่ทำงานการจัดการสวัสดิการ
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052252"
 หัวข้อนี้อธิบายพื้นที่ทำงาน **การจัดการสวัสดิการ** ใน Dynamics 365 Human Resources
 
 > [!NOTE]
-> เมื่อต้องการดูพื้นที่ทำงาน **การจัดการสวัสดิการ** คุณต้องเปิดใช้งานคุณลักษณะ **พื้นที่งานการจัดการสวัสดิการ (พรีวิว)** ก่อน ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](../hr-admin-manage-features.md)<br><br>![เปิดใช้งานพื้นที่ทำงานการจัดการสวัสดิการ](./media/hr-benefits-management-workspace-enable.png)
+> เมื่อต้องการดูพื้นที่ทำงาน **การจัดการสวัสดิการ** คุณต้องเปิดใช้งานคุณลักษณะ **พื้นที่งานการจัดการสวัสดิการ (พรีวิว)** ก่อน ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)<br><br>![เปิดใช้งานพื้นที่ทำงานการจัดการสวัสดิการ](./media/hr-benefits-management-workspace-enable.png)
 
 พื้นที่ทำงาน **การจัดการสวัสดิการ** ช่วยให้คุณเห็นมุมมองด่วนของรายการสวัสดิการที่คุณจำเป็นต้องให้ความสนใจ บนหน้านี้ คุณสามารถเห็น:
 

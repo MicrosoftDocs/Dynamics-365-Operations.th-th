@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744174"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188086"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>สร้างเอกสารหรือการฝึกอบรมด้วยตัวบันทึกงาน
 
@@ -31,8 +31,7 @@ ms.locfileid: "5744174"
 > [!IMPORTANT]
 > คุณสามารถบันทึก Guides งานของคุณเองได้สำหรับ Dynamics 365 Human Resources แต่คุณจะไม่สามารถบันทึกลงในไลบรารีตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) หรือเปิดจากบานหน้าต่างวิธีใช้ในขณะนี้ได้ คุณสามารถบันทึกไว้ภายในเครื่อง หรือไปยังตำแหน่งบนเครือข่าย และจากนั้นเปิดและเล่นใหม่ได้โดยใช้ตัวบันทึกงานได้ 
 
-<a name="learn-about-task-recorder"></a>เรียนรู้เกี่ยวกับตัวบันทึกงาน
--------------------------
+## <a name="learn-about-task-recorder"></a>เรียนรู้เกี่ยวกับตัวบันทึกงาน
 
 ตัวบันทึกงานเป็นเครื่องมือที่คุณสามารถใช้เพื่อบันทึกการดำเนินการ ที่คุณใช้ในอินเทอร์เฟสผู้ใช้ (UI) ผลิตภัณฑ์ เมื่อคุณใช้ตัวบันทึกงาน เหตุการณ์ที่คุณทำใน UI ที่ดำเนินการกับเซิร์ฟเวอร์ทั้งหมดซึ่งรวมถึงการเพิ่มค่า การเปลี่ยนการตั้งค่า การลบข้อมูล — จะถูกจับภาพ ขั้นตอนที่คุณบันทึกจะถูกเรียกรวมกันว่า *บันทึกงาน* การบันทึกงานสามารถใช้ได้หลายวิธี:
 
@@ -111,8 +110,7 @@ ms.locfileid: "5744174"
 
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ระบบวิธีใช้](../../fin-ops/get-started/help-overview.md)
 

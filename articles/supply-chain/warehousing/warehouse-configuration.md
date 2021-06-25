@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837380"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189562"
 ---
 # <a name="warehouse-configuration-overview"></a>ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า
 
@@ -109,8 +109,7 @@ ms.locfileid: "5837380"
 
 เพื่อให้ง่ายและเร็วต่อการกำหนดการดำเนินการที่เชื่อมโยงกับแต่ละรายการคำสั่งที่ ใช้กลยุทธ์กำหนดไว้ล่วงหน้าอย่างใดอย่างหนึ่ง ตัวอย่างเช่น คุณสามารถใช้กลยุทธ์ **สถานที่ว่างเปล่าที่ไม่มีงานเข้ามา** เพื่อการค้นหาสถานที่เก็บในคลังสินค้าที่ว่าง หรือคุณสามารถใช้กลยุทธ์ **การจองชุดงาน FEFO** สำหรับการเบิกสินค้าขายขาออกได้
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ตั้งค่าคอนฟิกของสถานที่ในคลังสินค้า WMS ที่เปิดใช้งาน](tasks/configure-locations-wms-enabled-warehouse.md)
 

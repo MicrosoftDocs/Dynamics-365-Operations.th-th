@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053670"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193735"
 ---
 # <a name="provision-human-resources"></a>เตรียมใช้งาน Human Resources
 
@@ -56,7 +56,7 @@ ms.locfileid: "6053670"
 1. ลงชื่อเข้าใช้สู่ [LCS](https://lcs.dynamics.com/Logon/Index) โดยใช้บัญชีที่คุณใช้ในการสมัครสมาชิกทรัพยากรบุคคล
 
    > [!NOTE]
-   > เพื่อให้แน่ใจในการเตรียมใช้งานที่เสร็จเรียบร้อย บัญชีที่คุณใช้เพื่อเตรียมใช้งานสภาพแวดล้อมทรัพยากรบุคคลจะต้องถูกมอบหมายให้กับบทบาท **ผู้ดูแลระบบ** หรือ **ผู้กำหนดค่าระบบ** ในสภาพแวดล้อม Power Apps ที่สัมพันธ์กับสภาพแวดล้อมทรัพยากรบุคคล โปรดดู [ตั้งค่าคอนฟิกความปลอดภัยผู้ใช้ให้กับทรัพยากร](https://docs.microsoft.com/power-platform/admin/database-security) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกําหนดบทบาทความปลอดภัยให้กับผู้ใช้ใน Power Platform
+   > เพื่อให้แน่ใจในการเตรียมใช้งานที่เสร็จเรียบร้อย บัญชีที่คุณใช้เพื่อเตรียมใช้งานสภาพแวดล้อมทรัพยากรบุคคลจะต้องถูกมอบหมายให้กับบทบาท **ผู้ดูแลระบบ** หรือ **ผู้กำหนดค่าระบบ** ในสภาพแวดล้อม Power Apps ที่สัมพันธ์กับสภาพแวดล้อมทรัพยากรบุคคล โปรดดู [ตั้งค่าคอนฟิกความปลอดภัยผู้ใช้ให้กับทรัพยากร](/power-platform/admin/database-security) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกําหนดบทบาทความปลอดภัยให้กับผู้ใช้ใน Power Platform
 
 2. เลือกเครื่องหมายบวก (**+**) เพื่อสร้างโครงการ
 

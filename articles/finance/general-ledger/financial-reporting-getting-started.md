@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897047"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189008"
 ---
 # <a name="get-started-with-financial-reporting"></a>เริ่มต้นใช้งาน Financial Reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897047"
 
 หัวข้อนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินและวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ ประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
 
-<a name="accessing-financial-reporting"></a>การเข้าถึงรายงานทางการเงิน
------------------------------
+## <a name="accessing-financial-reporting"></a>การเข้าถึงรายงานทางการเงิน
 
 คุณสามารถค้นหาเมนู **การรายงานทางการเงิน** ได้ในสถานที่ต่อไปนี้:
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822914"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188008"
 ---
 # <a name="overhead-calculation"></a>การคำนวณค่าโสหุ้ย
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822914"
 
 หัวข้อนี้อธิบายกระบวนการทั่วไปสำหรับการคำนวณและการปันส่วนต้นทุนค่าโสหุ้ย
 
-<a name="term-definition"></a>คำนิยามข้อความ
----------------
+## <a name="term-definition"></a>คำนิยามข้อความ
 
 ต้นทุนค่าโสหุ้ยคือต้นทุนที่จะเกิดขึ้นเมื่อต้องการรันธุรกิจ แต่ที่ไม่สามารถจัดสรรให้กับกิจกรรมทางธุรกิจเฉพาะ ผลิตภัณฑ์ หรือการบริการได้โดยตรง ต้นทุนค่าโสหุ้ยให้การสนับสนุนที่สำคัญสำหรับการสร้างกิจกรรมที่ทำกำไร ต่อไปนี้เป็นตัวอย่างบางรายการของต้นทุนค่าโสหุ้ย:
 

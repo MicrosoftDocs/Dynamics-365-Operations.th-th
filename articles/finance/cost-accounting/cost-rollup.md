@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815775"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189056"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย 
 
@@ -149,8 +149,7 @@ ms.locfileid: "5815775"
 | CC001                                | ผลรวม         | **บริการ HR**        |
 | CC002                                | ผลรวม         | **บริการทางการเงิน** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>วิธีการที่ต้นทุนเคลื่อนย้ายระหว่างศูนย์ต้นทุน 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>วิธีการที่ต้นทุนเคลื่อนย้ายระหว่างศูนย์ต้นทุน 
 
 ถ้าคุณต้องการเรียนรู้วิธีการที่ต้นทุนเคลื่อนย้ายระหว่างศูนย์ต้นทุนในองค์กร คุณสามารถสร้างองค์ประกอบต้นทุนชนิด **รอง** สำหรับแต่ละศูนย์ต้นทุนได้ จากนั้น องค์ประกอบต้นทุนเหล่านี้จะถูกใช้ในการโอนย้ายยอดดุลระหว่างศูนย์ต้นทุน ในระหว่างการคำนวณค่าโสหุ้ย
 

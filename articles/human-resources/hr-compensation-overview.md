@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058931"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189612"
 ---
 # <a name="compensation-plans"></a>แผนค่าตอบแทน
 
@@ -121,8 +121,7 @@ ms.locfileid: "6058931"
 ## <a name="process-events"></a>เหตุการณ์กระบวนการ
 เหตุการณ์ในกระบวนการคำนวณข้อมูลค่าตอบแทนสำหรับรอบระยะเวลาที่ระบุสำหรับพนักงานทั้งหมดที่ลงทะเบียนในแผนค่าตอบแทนคงที่หรือผันแปรหนึ่งรายการขึ้นไป คุณสามารถรันเหตุการณ์ในกระบวนการซ้ำ ๆ เพื่อทดสอบหรืออัพเดตผลค่าตอบแทนที่คำนวณได้
 
-<a name="compensation-events"></a>เหตุการณ์ค่าตอบแทน
--------------------
+## <a name="compensation-events"></a>เหตุการณ์ค่าตอบแทน
 
 แต่ละครั้งที่รันเหตุการณ์ในกระบวนการ จะมีการสร้างเหตุการณ์ค่าตอบแทน  เหตุการณ์ค่าตอบแทนประกอบด้วยผลลัพธ์ของกระบวนการค่าตอบแทนสำหรับพนักงานแต่ละคนที่รวมอยู่ในเหตุการณ์กระบวนการดังกล่าว  เมื่อการคำนวณถูกต้อง คุณจะสามารถโหลดเหตุการณ์ค่าตอบแทนเพื่ออัพเดตเรกคอร์ดค่าตอบแทนสำหรับพนักงานที่ได้รับผลกระทบโดยเหตุการณ์ในกระบวนการ
 

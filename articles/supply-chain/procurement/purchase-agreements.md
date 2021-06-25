@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825457"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188293"
 ---
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
@@ -102,8 +102,7 @@ ms.locfileid: "5825457"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>มิติทางการเงินบนข้อตกลงการซื้อ
 คุณสามารถคัดลอกมิติทางการเงินไปยังส่วนหัวของเอกสารหรือแต่ละรายการของข้อตกลงการซื้อ ถ้าคุณเปลี่ยนมิติในส่วนหัวของข้อตกลงหรือในรายการข้อตกลง การเปลี่ยนแปลงจะไม่ส่งผลต่อใบสั่งที่นำออกใช้แล้วใดๆ แต่จะมีการสะท้อนในใบสั่งใหม่อื่นๆ
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
 

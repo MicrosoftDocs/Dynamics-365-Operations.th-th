@@ -2,7 +2,7 @@
 title: สร้างโครงการตัวรวมข้อมูล (ตัวอย่าง)
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างโครงการตัวรวมข้อมูล
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867458"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186479"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>สร้างโครงการตัวรวมข้อมูล (ตัวอย่าง)
 
@@ -67,10 +67,5 @@ ms.locfileid: "5867458"
 
 > [!NOTE]
 > ถ้าคุณไม่เห็นเอนทิตีที่จำเป็นใน CDS โปรดไปที่ **เครดิตและการเรียกเก็บเงิน > การตั้งค่า > ข้อมูลเชิงลึกทางการเงิน > พารามิเตอร์ข้อมูลเชิงลึกของการเงิน** ให้เปิดใช้งานลักษณะการทำงานการคาดการณ์การชำระเงินของลูกค้าและคลิกที่ปุ่ม **สร้างแบบจำลองการคาดคะเน** เมื่อการใช้งานของโมเดล AI เสร็จสมบูรณ์ (ประสบความสำเร็จหรือล้มเหลว) เอนทิตี CDS ที่จำเป็นในการสร้างการรวมจะถูกปรับใช้ใน CDS
-
-## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

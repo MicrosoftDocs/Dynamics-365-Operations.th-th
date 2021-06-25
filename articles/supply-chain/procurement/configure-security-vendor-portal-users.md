@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807907"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188499"
 ---
 # <a name="vendor-portal-user-security"></a>ความปลอดภัยของผู้ใช้พอร์ทัลของผู้จัดจำหน่าย
 
@@ -40,8 +40,7 @@ ms.locfileid: "5807907"
 
 ถ้าบุคคลเดียวกันต้องการเข้าถึงพอร์ทัลผู้จัดจำหน่ายสำหรับบัญชีผู้จัดจำหน่ายหลายบัญชี (อาจจะสำหรับนิติบุคคลอื่น) บัญชีผู้ใช้ของบุคคลนั้นแต่ละบัญชีต้องเชื่อมโยงกับผู้ติดต่อจดทะเบียนเดียวกัน บทบาท **ผู้จัดจำหน่าย (ภายนอก)** รวมความสามารถพื้นฐานทั้งหมดที่จำเป็นเพื่อให้สามารถใช้ฟังก์ชันที่พร้อมใช้งานในพอร์ทัลของผู้จัดจำหน่าย การตั้งค่านี้ช่วยรับประกันว่า อินเทอร์เฟสผู้ใช้ที่ผู้ใช้ภายนอกมองเห็นจะถูกโฟกัสไปที่สถานการณ์จำลองที่กำหนดไว้เท่านั้น
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)
 

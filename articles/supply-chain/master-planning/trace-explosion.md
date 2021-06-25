@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839208"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189903"
 ---
 # <a name="use-tracing-for-explosion"></a>ใช้การติดตามสำหรับการกระจาย
 
@@ -38,8 +38,7 @@ ms.locfileid: "5839208"
 
 คุณสามารถดูรายละเอียดเกี่ยวกับแผนล่วงหน้าและการดำเนินการสำหรับใบสั่งที่เลือก บนหน้า **การกระจาย** รายละเอียดการติดตามจะพร้อมใช้งานบนแท็บ **คำอธิบาย** ในบานหน้าต่างด้านบน การติดตามเกิดขึ้นเมื่อคุณขยายใบสั่ง เมื่อต้องการเริ่มต้นการติดตามสำหรับใบสั่ง คลิก **อัพเดต** และเลือกกล่องกาเครื่องหมาย **เปิดใช้งานการติดตาม** คุณสามารถใช้ฟิลด์ **ค้นหาข้อความ** เพื่อค้นหาล็อกสำหรับข้อมูลเฉพาะได้ ผลการค้นหาจะถูกเน้นในแผนภูมิ
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของแผนหลัก](master-plans.md)
 

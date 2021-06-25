@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027805"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189189"
 ---
 # <a name="three-way-matching-policies"></a>นโยบายการจับคู่แบบสามทาง
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027805"
 
 หัวข้อนี้แสดงตัวอย่างของการจับคู่แบบสามทาง
 
-<a name="example-three-way-matching-for-items"></a>ตัวอย่าง: การจับคู่แบบสามทางสำหรับสินค้าต่างๆ
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>ตัวอย่าง: การจับคู่แบบสามทางสำหรับสินค้าต่างๆ
 
 **สรุป:** Ken เป็นผู้ควบคุมที่สำนักงานใหญ่ของบริษัทในนามนิติบุคคลชื่อ Fabrikam Ken ตัดสินใจว่า ใบแจ้งหนี้ของผู้จัดจำหน่ายทั้งหมดที่มีตามใบสั่งซื้อควรสามารถจับคู่กับรายการใบสั่งซื้อได้ (การจับคู่แบบสองทาง) สำหรับการซื้อสินค้าที่จะใช้เป็นสินทรัพย์ถาวร ใบแจ้งหนี้ควรจะตรงกับทั้งรายการใบสั่งซื้อและรายการใบรับสินค้า (การจับคู่แบบสามทาง)
 

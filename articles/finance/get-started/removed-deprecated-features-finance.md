@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980909"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184136"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980909"
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ผลิตภัณฑ์ Dynamics 365 Finance Supply Chain Management และ Project Operations|
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
-| **สถานะ**                         | เลิกสนับสนุน: วันที่ 1 เมษายน 2022 เราวางแผนที่จะไม่สนับสนุนที่เก็บ Lifecycle Services (LCS) ใน Microsoft Dynamics อีกต่อไป โดยเป็นตัวเลือกการจัดเก็บของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จะมีการเผยแพร่การตั้งค่าคอนฟิก Microsoft ER ใหม่เพื่อดาวน์โหลดจากที่เก็บส่วนกลางเท่านั้น ที่เก็บส่วนกลางสามารถเข้าถึงได้จากผลิตภัณฑ์ Dynamics 365 และ RCS สำหรับข้อมูลเพิ่มเติม โปรดดู [นำเข้าการตั้งค่าคอนฟิกของ ER จาก RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) |
+| **สถานะ**                         | เลิกสนับสนุน: วันที่ 1 เมษายน 2022 เราวางแผนที่จะไม่สนับสนุนที่เก็บ Lifecycle Services (LCS) ใน Microsoft Dynamics อีกต่อไป โดยเป็นตัวเลือกการจัดเก็บของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จะมีการเผยแพร่การตั้งค่าคอนฟิก Microsoft ER ใหม่เพื่อดาวน์โหลดจากที่เก็บส่วนกลางเท่านั้น ที่เก็บส่วนกลางสามารถเข้าถึงได้จากผลิตภัณฑ์ Dynamics 365 และ RCS สำหรับข้อมูลเพิ่มเติม ให้ดู [นําเข้าการตั้งค่าคอนฟิก ER จาก RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) และ [Regulatory Configuration Service - การคิดค่าเสื่อมราคาของการจัดเก็บ Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md) |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.16
 

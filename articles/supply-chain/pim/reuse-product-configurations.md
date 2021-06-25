@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812798"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189855"
 ---
 # <a name="reuse-product-configurations"></a>นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812798"
 
 คุณสามารถระบุว่าคุณต้องการนำการตั้งค่าคอนฟิกที่มีอยู่กลับมาใช้ใหม่โดยอัตโนมัติสำหรับผลิตภัณฑ์ จากนั้น เมื่อผู้ใช้ดำเนินการรอบเวลาการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว ระบบจะตรวจสอบว่ามีการตั้งค่าคอนฟิกที่สอดคล้องกับการเลือกของผู้ใช้อยู่แล้วหรือไม่ ถ้าพบการตั้งค่าคอนฟิกที่ตรงกัน รหัสการตั้งค่าคอนฟิก ใบตราส่ง (BOM) ที่สอดคล้องกัน และกระบวนการผลิตจะถูกนำกลับมาใช้ใหม่
 
-<a name="requirements-for-reusing-configurations"></a>ความต้องการสำหรับการตั้งค่าคอนฟิกที่นำมาใช้ใหม่
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>ความต้องการสำหรับการตั้งค่าคอนฟิกที่นำมาใช้ใหม่
 
 เมื่อต้องการเปิดใช้งานให้นำการตั้งค่าคอนฟิกกลับมาใช้ใหม่ คุณต้องระบุข้อมูลต่อไปนี้สำหรับส่วนประกอบและแอททริบิวต์บนหน้า **รายละเอียดแบบจำลองการจัดโครงแบบผลิตภัณฑ์**:
 

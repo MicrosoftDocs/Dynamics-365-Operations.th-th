@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018397"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186797"
 ---
 # <a name="note-integration"></a>การรวมบันทึก
 
@@ -122,5 +122,9 @@ ms.locfileid: "6018397"
 | [สิ่งที่แนบของเอกสารสำหรับผู้จัดจำหน่าย](mapping-reference.md#231) | คำอธิบายประกอบ | ธุรกิจที่ใช้ข้อความธรรมดาและ URL เพื่อรวบรวมข้อมูลเฉพาะผู้จัดจำหน่าย (สำหรับทั้งองค์กรและบุคคล) |
 | [เอกสารแนบส่วนหัวของใบสั่งขาย](mapping-reference.md#229) | คำอธิบายประกอบ | ธุรกิจที่ใช้ข้อความธรรมดาและ URL เพื่อรวบรวมข้อมูลเฉพาะใบสั่งขาย |
 | [เอกสารแนบส่วนหัวของใบสั่งซื้อ](mapping-reference.md#232) | คำอธิบายประกอบ | ธุรกิจที่ใช้ข้อความธรรมดาและ URL เพื่อรวบรวมข้อมูลเฉพาะใบสั่งซื้อ |
+
+## <a name="limitations"></a>การจำกัด
+
+เมื่อคุณติดตั้งโซลูชันบันทึกย่อแล้ว คุณจะไม่สามารถถอนการติดตั้งได้ 
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่  [การอ้างอิงการทำแผนที่แบบสองทิศทาง](mapping-reference.md)

@@ -2,7 +2,7 @@
 title: การคาดคะเนการชำระเงินของลูกค้า (พรีวิว)
 description: หัวข้อนี้อธิบายความสามารถในการคาดคะเนการชำระเงินซึ่งช่วยให้คุณเข้าใจแนวทางการชำระเงินโดยทั่วไปของลูกค้าได้ดียิ่งขึ้น ลักษณะการทำงานนี้ยังสามารถช่วยระบุสถานการณ์ที่ควรทำให้คุณต้องเริ่มต้นกระบวนการเรียกเก็บเงินก่อนที่คุณอาจเริ่มต้นการเรียกเก็บเงินดังกล่าว
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898023"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186407"
 ---
 # <a name="customer-payment-predictions-preview"></a>การคาดคะเนการชำระเงินของลูกค้า (พรีวิว)
 
@@ -72,10 +72,5 @@ ms.locfileid: "5898023"
 ตัวอย่างข้อมูลเชิงลึกของการเงินสำหรับสาธารณะจะพร้อมใช้งานสำหรับการใช้งานในสหรัฐอเมริกา ยุโรป และสหราชอาณาจักร Microsoft กำลังเพิ่มการสนับสนุนสำหรับภูมิภาคเพิ่มเติมมากขึ้น
 
 ตัวอย่างสำหรับสาธารณะควรเปิดใช้งานเฉพาะในสภาพแวดล้อมที่มี Sandbox ระดับ 2 เท่านั้น การตั้งค่าและโมเดล AI ที่สร้างขึ้นในสภาพแวดล้อม Sandbox อาจไม่ถูกย้ายไปยังสภาพแวดล้อมการผลิต สำหรับข้อมูลเพิ่มเติม ให้ดู [เงื่อนไขการใช้เพิ่มเติมสำหรับการแสดงตัวอย่าง Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)
-
-## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

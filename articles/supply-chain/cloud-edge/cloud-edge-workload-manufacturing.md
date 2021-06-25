@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899106"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184007"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
 
@@ -72,6 +72,7 @@ ms.locfileid: "5899106"
 - รายงานของเสีย
 - กิจกรรมทางอ้อม
 - ตัวแบ่ง
+- รายงานการเสร็จงานและการสำรองสินค้า (คุณยังต้องรันปริมาณงานการรันคลังสินค้าบน scale unit ของคุณ ให้ดูเพิ่มเติมที่ [รายงานการเสร็จงานและการสำรองสินค้าบน scale unit](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>การทำงานกับปริมาณงานการดำเนินการผลิตบนฮับ
 
@@ -108,6 +109,26 @@ ms.locfileid: "5899106"
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>งานตัวประมวลผลข้อความของฮับการผลิตไปยัง scale unit
 
 งาน _ตัวประมวลผลข้อความของฮับการผลิตไปยัง scale unit_ ประมวลผลข้อมูลจากฮับไปยัง scale unit งานนี้จะเริ่มต้นโดยอัตโนมัติเมื่อมีการปรับใช้ปริมาณงานการดำเนินการผลิต อย่างไรก็ตาม คุณสามารถรันด้วยตนเองได้ตลอดเวลา โดยไปที่ **การควบคุมการผลิต \> งานประจำงวดของ \> การจัดการปริมาณงานของฝ่ายสนับสนุน \> ตัวประมวลผลข้อความของฮับการผลิตไปยัง scale unit**
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>รายงานการเสร็จงานและการสำรองสินค้าบน scale unit
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+ในผลิตภัณฑ์ปัจจุบัน ให้รายงานการดําเนินงานเสร็จงานและขั้นตอนการสำรอง (สำหรับผลิตภัณฑ์สำเร็จรูป สินค้าร่วม และสินค้าพลอยได้) ได้รับการสนับสนุนโดย [ปริมาณงานการดําเนินงานของคลังสินค้า](cloud-edge-workload-warehousing.md) (ไม่ใช่ปริมาณงานการดําเนินการผลิต) ดังนั้น เมื่อต้องการใช้ฟังก์ชันนี้เมื่อเชื่อมต่อกับ scale unit คุณต้องทำดังต่อไปนี้
+
+- ติดตั้งทั้งปริมาณงานการปฏิบัติการของคลังสินค้าและปริมาณงานการปฏิบัติการผลิตบน scale unit ของคุณ
+- ใช้แอป Warehouse Management บนมือถือเพื่อรายงานการเสร็จงานและประมวลผลงานการสำรอง อินเทอร์เฟสการดำเนินการผลิตไม่สนับสนุนกระบวนการเหล่านี้ในปัจจุบัน
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

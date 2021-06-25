@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839160"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190099"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839160"
 
 หัวข้อนี้อธิบายวิธีการจัดการกระบวนการขนย้ายวัสดุผ่านศูนย์เปลี่ยนถ่ายสินค้าที่มีการรายงานเป็นเสร็จสมบูรณ์ จากสายการผลิตไปยังจะมีท่าขนส่งสินค้าขาออก
 
-<a name="introduction"></a>คำนำ
-------------
+## <a name="introduction"></a>คำนำ
 
 การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากการผลิตไปยังสถานที่ขาออก จะเกี่ยวข้องกับบริษัทผู้ผลิตซึ่งผลิตปริมาณมาก และตามหลักการต้องการจัดส่งผลิตภัณฑ์สำเร็จรูปในทันทีที่ได้รับรายงานเป็นเสร็จสมบูรณ์จากสายการผลิต วัตถุประสงค์คือ เพื่อจัดส่งผลิตภัณฑ์ไปยังศูนย์กระจายสินค้าที่ทางกายภาพแล้วตั้งอยู่ใกล้เคียงกับความต้องการลูกค้า แทนที่จะสร้างสินค้าคงคลังที่ไซต์การผลิต
 

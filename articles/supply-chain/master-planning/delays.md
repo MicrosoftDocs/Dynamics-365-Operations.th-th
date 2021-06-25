@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813686"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189357"
 ---
 # <a name="delays"></a>ล่าช้า
 
@@ -52,8 +52,7 @@ ms.locfileid: "5813686"
 
 ในหน้า **ใบสั่งที่วางแผน** ภายใต้แท็บ **ความล่าช้า** คือ **วันที่ที่ต้องการ** สำหรับใบสั่งที่วางแผน วันที่ที่ต้องการของใบสั่งที่วางแผนคือ วันที่พื้นฐานสำหรับความล่าช้า ซึ่งเป็นวันที่ที่คำนวณซึ่งเท่ากับ **วันที่ที่ร้องขอ** ที่คำนวณจาก **ความต้องการสุทธิ** ถ้าใบสั่งที่วางแผนคือรายการ BOM สายการผลิต หรือรายการคัมบัง วันที่ที่ต้องการเป็นไปตาม **วันที่ที่ต้องการ** และจะไม่แสดงวันที่ที่ต้องการในหน้า **ใบสั่งที่วางแผน**
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [การตั้งค่าความครอบคลุม](coverage-settings.md)
 

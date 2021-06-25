@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908243"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188421"
 ---
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908243"
 
 หัวข้อนี้อธิบายถึงแอพบนมือถือ **Finance and Operations (Dynamics 365)** และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 
-<a name="overview"></a>ภาพรวม
---------
+## <a name="overview"></a>ภาพรวม
 
 แอพบนมือถือช่วยให้องค์กรของคุณสามารถทำให้กระบวนการทางธุรกิจพร้อมใช้งานบนอุปกรณ์เคลื่อนที่ หลังจากที่ผู้ดูแลระบบไอทีของคุณเปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่สำหรับองค์กรของคุณแล้ว ผู้ใช้สามารถเข้าสู่ในแอพลิเคชันและเริ่มต้นรันกระบวนการทางธุรกิจจากอุปกรณ์เคลื่อนที่ของตนได้ทันที แอพบนมือถือมีคุณลักษณะซึ่งจะช่วยให้เพิ่มประสิทธิภาพได้ ดังต่อไปนี้:
 

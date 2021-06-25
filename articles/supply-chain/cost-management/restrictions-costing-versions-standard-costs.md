@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9d828e2413a20c4e61d162a31d3c2ed2b18718b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821500"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187685"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>ข้อจำกัดในเวอร์ชันการคิดต้นทุนสำหรับต้นทุนมาตรฐาน
 
@@ -39,8 +39,7 @@ ms.locfileid: "5821500"
 
 คุณสามารถคัดลอกข้อมูลต้นทุนสินค้าสำหรับต้นทุนมาตรฐานไปยังเวอร์ชันการคำนวณต้นทุนอื่นที่มีต้นทุนมาตรฐานหรือต้นทุนที่วางแผนไว้  อย่างไรก็ตาม ข้อมูลต้นทุนสินค้าสำหรับต้นทุนที่วางแผนไว้ไม่สามารถถูกคัดลอกไปยังเวอร์ชันต้นทุนที่มีต้นทุนมาตรฐานอยู่ได้ เนื่องจากข้อจำกัดที่กล่าวถึงก่อนหน้าในหัวข้อนี้ไม่สามารถใช้กับต้นทุนที่วางแผนไว้ได้
 
-<a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
---------
+## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [ภาพรวมของเวอร์ชันการคิดต้นทุน](costing-versions.md)
 

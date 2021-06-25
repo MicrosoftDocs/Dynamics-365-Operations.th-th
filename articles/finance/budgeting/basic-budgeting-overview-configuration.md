@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960060"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187951"
 ---
 # <a name="budgeting-overview"></a>ภาพรวมของการจัดงบประมาณ
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960060"
 
 เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการตั้งค่าคอนฟิกต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณใน Finance and Operations หรือโหลดจากโปรแกรมของบริษัทอื่น
 
-<a name="overview"></a>ภาพรวม
---------
+## <a name="overview"></a>ภาพรวม
 
 งบประมาณที่ถูกอนุมัติสำหรับนิติบุคคลจะจัดเก็บอยู่ในเอกสารที่เรียกว่า *รายการทะเบียนงบประมาณ* บรรทัดในเอกสารรายการทะเบียนงบประมาณจะถูกเรียกว่ารายการ *บัญชีงบประมาณ* และประกอบด้วยข้อมูลมิติทางการเงิน วันที่ และยอดเงินงบประมาณที่อนุมัติแล้ว เอกสารรายการทะเบียนงบประมาณถูกรวมเข้ากับรายงานทางการเงินพื้นฐานและหน้าการสอบถามที่ยอดเงินจริงของบัญชีแยกประเภทถูกเปรียบเทียบกับจำนวนเงินงบประมาณ 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838381"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164857"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า
 
@@ -330,7 +330,6 @@ ms.locfileid: "5838381"
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>ฉันสามารถใช้ป้ายทะเบียนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบจริงหรือไม่
 
-คุณลักษณะสนับสนุนเฉพาะปริมาณคงคลังคงเหลือที่มีอยู่จริงที่เป็นค่าบวกเท่านั้น ตรวจสอบให้แน่ใจว่าคุณมีปริมาณคงคลังคงเหลือที่มีอยู่จริงที่เป็นค่าบวกที่ระดับของคลังสินค้า และสถานะสินค้าคงคลังก่อนที่จะกำหนดป้ายทะเบียนให้กับใบสั่งโอนย้าย
-
+คุณลักษณะนี้สนับสนุนปริมาณคงคลังคงเหลือทางกายภาพแบบบวกในระดับป้ายทะเบียนเท่านั้น แต่คุณสามารถมีปริมาณคงคลังคงเหลือที่คลังสินค้าและระดับสถานะสินค้าคงคลังที่สูงกว่าเมื่อกําหนดป้ายทะเบียนให้กับใบสั่งโอนย้าย
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

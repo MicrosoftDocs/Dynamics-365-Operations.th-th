@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811372"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193916"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>ภาพรวมของการรวมบัญชีทางการเงินและการแปลงสกุลเงิน
 
@@ -165,7 +165,8 @@ ms.locfileid: "5811372"
 - **การแปลงค่าสกุลเงินหลัก** – หลังจากตั้งค่าระดับต่ำสุดในทางการเงิน คุณสามารถแปลงข้อมูลในรายงานทางการเงิน เป็นรายงานสกุลเงินที่ตั้งค่าไว้ได้ นอกจากนี้ คุณสามารถตั้งค่าจำนวนของสกุลเงินในการรายงานได้ไม่จำกัด
 - **ลงรายการบัญชีการตัดออกที่ต้นทาง** – คุณสามารถสร้างและพิมพ์รายงานการตัดออก เพื่อตรวจสอบธุรกรรมการตัดออกได้ จากนั้น คุณสามารถลงรายการบัญชีการตัดออกใหม่ใดๆ เป็นธุรกรรมระหว่างบริษัทมาตรฐานได้ คุณยังสามารถใช้นิติบุคคลการตัดออกสำหรับธุรกรรมใดๆ ที่คุณไม่ต้องการในนิติบุคคลของคุณได้ด้วย
 
-## <a name="supported-consolidation-scenarios"></a>สถานการณ์จำลองการรวมบัญชีที่ได้รับการสนับสนุน
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>สถานการณ์สมทบการรวมบัญชีที่สนับสนุน Financial Reporting
+
 ต่อไปนี้เป็นสถานการณ์จำลองงการรวมบัญชีบางอย่างที่การรายงานทางการเงินสนับสนุน:
 
 - การรวมบัญชีระดับเดียวและหลายระดับระหว่างนิติบุคคล

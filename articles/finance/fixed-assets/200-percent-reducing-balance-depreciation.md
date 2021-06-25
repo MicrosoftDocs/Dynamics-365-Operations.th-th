@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e5a548f7963fad2b249c36c90ac19b812131d56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 91876ae28d088a52b12ac58db06cb0cd84b129ad
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827088"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193527"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>การคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 200%
 
@@ -66,7 +66,7 @@ ms.locfileid: "5827088"
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>ตัวอย่างของการคิดค่าเสื่อมราคาด้วยยอดดุลที่ลดลง 200%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | ต้นทุนการซื้อสินทรัพย์               | 11,000 |
 | มูลค่าซาก                  | 1, 000 |

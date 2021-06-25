@@ -94,7 +94,7 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (กรกฎาคม 2021)
+                    - name: Commerce 10.0.20 (สิงหาคม 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (มิถุนายน 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: ความต้องการสำหรับการกำหนดรุ่นของคอมโพเนนต์ Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: สถาปัตยกรรมของ Commerce Scale Unit
+                - name: สถาปัตยกรรมกลไกจัดการการค้าแบบไร้ส่วนหัว
                   href: dev-itpro/retail-server-architecture.md
                 - name: เลือกโทโพโลยีในร้านค้า
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,7 +258,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: สถาปัตยกรรม Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: สถาปัตยกรรมการเผยแพร่ร้านค้าออนไลน์
+                - name: เผยแพร่ช่องทางร้านค้าออนไลน์
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: เนื้อหาของ Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: การสนับสนุนการชำระเงินด้วยกระเป๋าสตางค์
                       href: wallets.md
+                    - name: การชําระเงินขั้นสูงในขั้นตอนการชําระเงินหน้าร้าน
+                      href: dev-itpro/enhanced-sca.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
                 - name: อีเมลและการแจ้งเตือน
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: ขายโปรแกรมความต่อเนื่องและประมวลผลใบสั่งขาย
                   href: tasks/use-continuity-program.md
-                - name: เปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้าน (POS)
+                - name: เปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าใน POS
                   href: enable-customer-check-in.md
-            - name: การส่งคืนสินค้า
+            - name: การส่งคืนสินค้าและการคืนเงิน
               items:
+                - name: สร้างการส่งคืนสินค้าใน POS
+                  href: POS-returns.md
+                - name: ส่งคืนผลิตภัณฑ์ที่ควบคุมด้วยหมายเลขลำดับประจําสินค้าใน POS
+                  href: POS-serial-returns.md
                 - name: การขอคืนเงินที่เชื่อมโยง
                   href: dev-itpro/linked-refunds.md
                 - name: ขายและส่งคืนผลิตภัณฑ์ที่ไม่รวมอยู่ในการจัดประเภทของร้านค้า
@@ -1230,6 +1236,8 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory configuration service และอัปโหลดไปยังที่เก็บส่วนกลาง
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: ออสเตรีย
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
@@ -1238,6 +1246,8 @@
               items:
                 - name: การแปล Commerce เป็นภาษาท้องถิ่นสำหรับบราซิล
                   href: localizations/latam-bra-commerce-localization.md
+                - name: ตั้งค่าและปรับใช้การแปล Commerce สําหรับบราซิล
+                  href: localizations/latam-bra-deployment.md
             - name: ยุโรปตะวันออก
               items:
                 - name: ทั่วไป
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ที่มีประสิทธิภาพ
+                  items:
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาด้านประสิทธิภาพ
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: การจัดการเอกสารทางธุรกิจ (BDM)
                   items:
                     - name: ภาพรวมของ BDM
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับ Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน
+            - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน (POS)
               items:
                 - name: โครงร่างหน้าจอ POS
                   href: pos-screen-layouts.md

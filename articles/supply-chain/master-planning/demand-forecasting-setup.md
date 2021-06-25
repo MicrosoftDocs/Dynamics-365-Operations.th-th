@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816543"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189727"
 ---
 # <a name="demand-forecasting-setup"></a>การตั้งค่าการคาดการณ์ความต้องการ
 
@@ -88,8 +88,7 @@ ms.locfileid: "5816543"
 - **คำแนะนำช่วงเวลา**: สำหรับข้อมูลตามฤดูกาล ให้คำแนะนำกับแบบจำลองการคาดการณ์เพื่อปรับปรุงความถูกต้องของการคาดการณ์ รูปแบบ: หมายเลขจำนวนเต็ม โดยแสดงถึงจำนวนของกลุ่มรูปแแบบความต้องการที่มีการทำซ้ำด้วยตัวเอง ตัวอย่างเช่นป้อน "6" ให้กับข้อมูลที่ซ้ำกันทุก 6 เดือน
 - **เปอร์เซ็นต์ขนาดชุดทดสอบ**: เปอร์เซ็นต์ของข้อมูลในอดีตที่จะใช้เป็นชุดทดสอบสำหรับการคำนวณความถูกต้องของการคาดการณ์ 
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)
 

@@ -2,7 +2,7 @@
 title: เปิดใช้งานการคาดการณ์กระแสเงินสด (ตัวอย่าง)
 description: หัวข้อนี้จะอธิบายวิธีการเปิดและตั้งค่าคอนฟิกลักษณะการทำงานการคาดการณ์กระแสเงินสดในข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818739"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222569"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>เปิดใช้งานการคาดการณ์กระแสเงินสด (ตัวอย่าง)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5818739"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > ถ้าการปรับใช้ Microsoft Dynamics 365 Finance ของคุณเป็นการปรับใช้การให้บริการ คุณสามารถข้ามขั้นตอนนี้ได้ ทีมงานในเชิงลึกของการเงินควรมีการเปิดใช้งานเที่ยวบินให้คุณแล้ว ถ้าคุณไม่เห็นคุณลักษณะในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** หรือหากประสบปัญหาเมื่อคุณพยายามเปิดใช้งาน โปรดติดต่อ <fiap@microsoft.com>
+    > ข้ามขั้นตอนนี้ถ้าคุณใช้รุ่น 10.0.20 หรือใหม่กว่า หรือถ้าคุณใช้งานการปรับใช้ Service Fabric ทีมงานในเชิงลึกของการเงินควรมีการเปิดใช้งานเที่ยวบินให้คุณแล้ว ถ้าคุณไม่เห็นคุณลักษณะในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** หรือหากประสบปัญหาเมื่อคุณพยายามเปิดใช้งาน โปรดติดต่อ <fiap@microsoft.com>
   
 2. เปิดพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** และปฏิบัติตามขั้นตอนเหล่านี้:
 
@@ -60,10 +60,5 @@ ms.locfileid: "5818739"
     2. เลือก **สร้างแบบจำลองการคาดการณ์**
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความสามารถการคาดการณ์กระแสเงินสด ให้ดู [การคาดการณ์กระแสเงินสด](cash-flow-forecast-intro.md)
-
-## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

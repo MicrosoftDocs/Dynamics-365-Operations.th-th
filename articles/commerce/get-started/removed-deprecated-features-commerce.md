@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f80d1509c7c363e93b83cb47c1b93ab00bf67180
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020873"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193479"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Commerce
 
@@ -37,7 +37,7 @@ ms.locfileid: "6020873"
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>ไม่สนับสนุนช่วงการสร้างชุดข้อมูลแบบเต็ม
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | โดยเริ่มต้นในผลิตภัณฑ์รุ่นนี้ ในฟอร์ม **พารามิเตอร์ตัวจัดตาราง Commerce** ในศูนย์ควบคุม Dynamics 365 ในฟิลด์ **ช่วงเวลาการสร้างชุดข้อมูลแบบเต็มเป็นวัน** จะถูกไม่สนับสนุน นอกจากนี้ ให้เริ่มต้นในการเผยแพร่นี้ ฟิลด์จะถูกลบออกด้วยภาพเพื่อให้ไม่สามารถแก้ไขค่าได้ ค่านี้จะอยู่เป็นค่า **0** |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | หมายเลข |
@@ -49,7 +49,7 @@ ms.locfileid: "6020873"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>การสนับสนุน Internet Explorer 11 สำหรับ Dynamics 365 ไม่สนับสนุน
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | มีผลบังคับใช้ตั้งแต่เดือนธันวาคม 2020 การสนับสนุนของ Microsoft Internet Explorer 11 สำหรับผลิตภัณฑ์ Dynamics 365 ทั้งหมดจะไม่ได้รับการสนับสนุน และ Internet Explorer 11 จะไม่ได้รับการสนับสนุนหลังจากสิงหาคม 2021<br><br>การทำเช่นนี้จะส่งผลกระทบต่อลูกค้าที่ใช้ผลิตภัณฑ์ Dynamics 365 ที่ได้รับการออกแบบมาให้ใช้ผ่านอินเทอร์เฟส Internet Explorer 11 หลังจากสิงหาคม 2021 Internet Explorer 11 จะไม่ได้รับการสนับสนุนสำหรับผลิตภัณฑ์ Dynamics 365 ดังกล่าว |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | เราขอแนะนำให้ลูกค้าเปลี่ยนไปใช้ Microsoft Edge|
@@ -59,7 +59,7 @@ ms.locfileid: "6020873"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Commerce 10.0.11
 ### <a name="data-action-hooks"></a>จุดเชื่อมต่อการดำเนินการกับข้อมูล
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | จุดเชื่อมต่อการดำเนินการกับข้อมูลไม่ได้รับการสนับสนุน เนื่องจากปัญหาประสิทธิภาพการทำงาน |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | เราขอแนะนำให้ใช้ [การแทนที่การดำเนินการกับข้อมูล](../e-commerce-extensibility/data-action-overrides.md) เพื่อปรับเปลี่ยนตรรกะทางธุรกิจในเลเยอร์การดำเนินการข้อมูล|
@@ -68,7 +68,7 @@ ms.locfileid: "6020873"
 | **สถานะ**                         | ไม่สนับสนุน: ณ วันที่ของการนำออกใช้ 10.0.11 |
 
 ### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>การสนับสนุน Retail SDK สำหรับ Visual Studio 2015, msbuild 14.0 และไลบรารีและเครื่องมือ Retail SDK\Reference
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | การสนับสนุน SDK การขายปลีกสำหรับ Visual Studio 2015 ถูกเลิกใช้งานและได้รับการปรับปรุงเพื่อสนับสนุน VS 2017 msbuild 15.0 และไลบรารีการอ้างอิงและเครื่องมือตัวสร้างพร็อกซีของ commerce ทั้งหมด ในโฟลเดอร์ RetailSDK\References ที่ถูกย้ายไปยังแพคเกจ NuGet เพื่อทำให้แบบจำลองส่วนขยายและกระบวนการปรับรุ่น SDK ง่ายขึ้น|
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | เราขอแนะนำให้คุณปฏิบัติตามข้อมูลใน [โยกย้าย Retail SDK จาก Visual Studio 2015 เป็น Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) เพื่อปร้บปรุงระบบของคุณ |
@@ -77,7 +77,7 @@ ms.locfileid: "6020873"
 | **สถานะ**                         | ไม่สนับสนุน: ณ วันที่ของการนำออกใช้ 10.0.11 |
 
 ### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>ส่วนขยายของ Retail Server ที่ใช้ IEdmModelExtender และ CommerceController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ส่วนขยายของ Retail Server ที่ใช้ IEdmModelExtender และ CommerceController ถูกเลิกใช้งาน เพื่อให้แบบจำลองส่วนขยายแบบง่าย การใช้งานใหม่จะมีเฉพาะคลาสตัวควบคุมโดยไม่มีการใช้งานคลาส IEdmModelExtender เพิ่มเติมใดๆ นอกจากนี้ ยังหลีกเลี่ยงการอ้างอิงกับรุ่น OData เฉพาะ (ถ้ามีการปรับปรุงรุ่น OData อาจมีการแบ่งส่วนขยาย) |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   |  เราขอแนะนำให้คุณใช้แบบจำลองส่วนขยายคลาส IController โดยการนำเข้าแพคเกจ NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) |
@@ -86,7 +86,7 @@ ms.locfileid: "6020873"
 | **สถานะ**                         | ไม่สนับสนุน: ณ วันที่ของการนำออกใช้ 10.0.11 |
 
 ### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>ส่วนขยายของสถานีฮาร์ดแวร์ที่ใช้ IHardwareStationController
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ส่วนขยายของสถานีฮาร์ดแวร์ที่ใช้ IHardwareStationController ถูกเลิกใช้ เพื่อให้แบบจำลองส่วนขยายแบบง่าย การดำเนินการใหม่จะมีเฉพาะคลาส IController โดยไม่มีการใช้งานคลาสเพิ่มเติมใดๆ และเพื่อหลีกเลี่ยงการอ้างอิงที่มีไลบรารีสถานีฮาร์ดแวร์หลัก ก่อนหน้านี้ส่วนขยายจำเป็นต้องใช้ในการอ้างอิงไลบรารีจำนวนมาก) |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ขอแนะนำให้ใช้แบบจำลองส่วนขยายคลาส IController โดยการนำเข้าแพคเกจ NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) |
@@ -96,7 +96,7 @@ ms.locfileid: "6020873"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Commerce 10.0.10
 ### <a name="pos-operation-803---picking-and-receiving"></a>การดำเนินการ POS 803 - การเบิกสินค้าและการรับสินค้า
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | การดำเนินการเบิกสินค้าและการรับสินค้าจะถูกยกเลิกการใช้งานเนื่องจากการออกแบบการดำเนินงานใหม่ |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ จะถูกแทนที่ด้วยสองการดำเนินงาน POS ใหม่: การดำเนินงานขาเข้า (804) และการดำเนินงานขาออก (805)|
@@ -107,7 +107,7 @@ ms.locfileid: "6020873"
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Commerce 10.0.7
 ### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API ของ Commerce GetProductAvailabilities และ GetAvailableInventoryNearby
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | API ที่ปรับให้เหมาะสมใหม่ถูกสร้างเพื่อแทนที่ API ของ GetProductAvailabilities และ GetAvailableInventoryNearby |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่: ถูกแทนที่ด้วย API ของ GetEstimatedAvailability และ GetEstimatedProductWarehouseAvailability |

@@ -1,5 +1,5 @@
 ---
-title: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
+title: 'คู่มือ: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง'
 description: หัวข้อนี้อธิบายวิธีการแก้ไขการคาดการณ์สำหรับสินค้า
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889035"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224021"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
+# <a name="guide-modify-a-demand-forecast-manually"></a>คู่มือ: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
 
 [!include [banner](../../includes/banner.md)]
 
-กระบวนงานนี้แสดงวิธีการแก้ไขการคาดการณ์สำหรับสินค้า  บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF กระบวนงานนี้มีไว้สำหรับผู้วางแผนการผลิต
+กระบวนงานนี้แสดงวิธีการแก้ไขการคาดการณ์สำหรับสินค้า  กระบวนงานนี้มีไว้สำหรับผู้วางแผนการผลิต
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>แก้ไขการคาดการณ์สำหรับสินค้าที่เลือก
 
@@ -36,9 +36,9 @@ ms.locfileid: "5889035"
 1. กรอกข้อมูลในฟิลด์อื่น ๆ ตามความจำเป็น
 1. เลือก **บันทึก** บนบานหน้าต่างการดำเนินการ
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>แก้ไขการคาดการณ์ของสินค้า Microsoft Excel หนึ่งรายการหรือมากกว่า
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>แก้ไขการคาดการณ์ของสินค้าด้วย Microsoft Excel หนึ่งรายการหรือมากกว่า
 
-หากต้องการแก้ไขการคาดการณ์ของสินค้า Microsoft Excel หนึ่งรายการหรือมากกว่า:
+หากต้องการแก้ไขการคาดการณ์ของสินค้าด้วย Microsoft Excel หนึ่งรายการหรือมากกว่า:
 
 1. ดำเนินการตามข้อใดข้อหนึ่งต่อไปนี้
     - เปิดหน้า **การคาดการณ์ความต้องการ** ของสินค้าใด ๆ (ไม่ว่าสินค้าใด) ตามที่อธิบายไว้ในส่วนก่อนหน้านี้

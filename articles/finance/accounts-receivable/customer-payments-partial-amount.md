@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f89b3d94fd16aa9cf27931d11fd8fff22048d40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c6d96f1f957bfe8002a763d98f170681ad92b23
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824039"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188745"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน
 
@@ -28,8 +28,7 @@ ms.locfileid: "5824039"
 
 บางครั้ง ลูกค้าทำการชำระเงินที่น้อยกว่ายอดเงินของใบแจ้งหนี้ บทความนี้อธิบายถึงตัวเลือกต่างๆ สำหรับการจัดการสถานการณ์นี้ ตัวเลือกที่พร้อมใช้งานสำหรับคุณขึ้นอยู่กับความต้องการทางธุรกิจของคุณและตั้งค่าคอนฟิก
 
-<a name="partial-payment-with-no-discount"></a>การชำระเงินบางส่วน โดยไม่มีส่วนลด
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>การชำระเงินบางส่วน โดยไม่มีส่วนลด
 
 ลูกค้าอาจทำการชำระเงินบางส่วนได้ เนื่องจากไม่มีเงินสดเพียงพอเพื่อชำระใบแจ้งหนี้เต็มจำนวน หรือเนื่อจากมีข้อโต้แย้งเกี่ยวกับสินค้าในใบแจ้งหนี้ ในสถานการณ์นี้ ใบแจ้งหนี้สามารถบางส่วนชำระ ด้วยการชำระเงิน ใบแจ้งหนี้จะยังคงเปิดอยู่ และจะแสดงยอดดุล
 

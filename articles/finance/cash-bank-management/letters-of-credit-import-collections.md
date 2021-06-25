@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815943"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188475"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815943"
 
 บทความนี้มีข้อมูลทั่วไปเกี่ยวกับเลตเตอร์ออฟเครดิตและคอลเลกชันของการนำเข้า เอกสารธนาคารทั้งสองชนิดมักใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ
 
-<a name="letters-of-credit"></a>เลตเตอร์ออฟเครดิต
------------------
+## <a name="letters-of-credit"></a>เลตเตอร์ออฟเครดิต
 
 เลตเตอร์ออฟเครดิตจะใช้สำหรับธุรกรรมระหว่างประเทศและช่วยรับประกันว่าการชำระเงินจะเกิดขึ้น เลตเตอร์ออฟเครดิตคือ ข้อตกลงที่ออกโดยธนาคารซึ่งธนาคารได้ตกลงเพื่อรับประกันว่าการชำระเงินอยู่ในนามของผู้ซื้อ ถ้าตรงตามเงื่อนไขของข้อตกลงระหว่างผู้ซื้อและผู้ขาย เลตเตอร์ออฟเครดิตยังถือเป็นเครดิต (DC) มีเอกสารประกอบ
 

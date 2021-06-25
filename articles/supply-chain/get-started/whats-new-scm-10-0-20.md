@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.20 (กรกฎาคม 2021)
+title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.20
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123425"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187637"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.20 (กรกฎาคม 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123425"
 หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.20 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.886 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** พฤษภาคม 2021
-- **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** มิถุนายน 2021
+- **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** กรกฎาคม 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตอัตโนมัติ):** กรกฎาคม 2021
+
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 

@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841586"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188897"
 ---
 # <a name="product-related-translations-faq"></a>FAQ เกี่ยวกับการแปลที่เกี่ยวข้องกับผลิตภัณฑ์
 
@@ -29,8 +29,7 @@ ms.locfileid: "5841586"
 
 หัวข้อนี้อธิบายวิธีการจัดการการแปลสำหรับผลิตภัณฑ์ ค่ามิติของผลิตภัณฑ์ และคุณลักษณะของผลิตภัณฑ์ 
 
-<a name="what-product-related-data-can-be-translated"></a>สามารถแปลข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์หรือไม่
---------------------------------------------
+## <a name="what-product-related-data-can-be-translated"></a>สามารถแปลข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์หรือไม่
 
 คุณสามารถสร้างการแปลสำหรับข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์ต่อไปนี้:
 -   ชื่อและคำอธิบายของผลิตภัณฑ์

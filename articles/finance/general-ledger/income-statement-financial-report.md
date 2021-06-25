@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ab5e7a2675705cc2265b7f894d9b12d4465aea1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838848"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187831"
 ---
 # <a name="income-statement-financial-report"></a>รายงานงทางการเงินใบแจ้งยอดรายได้
 
@@ -28,8 +28,7 @@ ms.locfileid: "5838848"
 
 บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้ 
 
-<a name="default-income-statement-report"></a>รายงานใบแจ้งยอดรายได้เริ่มต้น
--------------------------------
+## <a name="default-income-statement-report"></a>รายงานใบแจ้งยอดรายได้เริ่มต้น
 
 | รายงานเริ่มต้น             | สิ่งที่ทำ                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -57,8 +56,7 @@ ms.locfileid: "5838848"
 
 
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของการรายงานทางการเงิน](financial-reporting-getting-started.md)
 

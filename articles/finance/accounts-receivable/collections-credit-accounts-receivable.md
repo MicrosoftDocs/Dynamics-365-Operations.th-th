@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814259"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189456"
 ---
 # <a name="collections-in-accounts-receivable"></a>การเรียกเก็บเงินในบัญชีลูกหนี้
 
@@ -99,8 +99,7 @@ ms.locfileid: "5814259"
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า](tasks/create-write-off-journal-customer.md)
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>การประมวลผลการชำระเงินที่มีเงินในบัญชีไม่พอ (NSF)  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>การประมวลผลการชำระเงินที่มีเงินในบัญชีไม่พอ (NSF)  
 
 คุณสามารถประมวลผลการชำระเงิน NSF ได้โดยการคลิกการชำระเงิน NSF ในหน้าการเรียกเก็บเงิน เมื่อคุณคลิกปุ่มนี้ การชำระเงินจะถูกยกเลิก ถ้าใช้ค่าธรรมเนียม NSF สำหรับลูกค้า ธุรกรรมค่าธรรมเนียมที่ถูกสร้างในสมุดรายวันการชำระเงิน ยอดเงินค่าธรรมเนียมขึ้นอยู่กับการตั้งค่าสำหรับค่าธรรมเนียมอัตโนมัติ ค่าธรรมเนียมอัตโนมัติที่ใช้สำหรับการชำระเงิน NSF จะถูกระบุโดยกลุ่มค่าธรรมเนียมที่ถูกเลือกในหน้าบัญชีธนาคารสำหรับบัญชีธนาคารได้รับผลกระทบ
 

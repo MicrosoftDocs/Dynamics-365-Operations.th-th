@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052876"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190219"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
 
@@ -41,14 +41,12 @@ ms.locfileid: "6052876"
 
 ผู้จัดการสามารถดูสินค้าที่ให้ยืมสำหรับรายงานโดยตรงของพวกเขา พวกเขาจะได้รับสิทธิ์ในการเพิ่มสินค้าที่ให้กู้ยืมใหม่ในนามของพนักงานของพวกเขา
 
- <a name="account-for-lost-or-misplaced-loan-items"></a> บัญชีสำหรับสินค้าที่ให้กู้ยืมที่สูญหายหรือหาไม่พบ
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a> บัญชีสำหรับสินค้าที่ให้กู้ยืมที่สูญหายหรือหาไม่พบ
 
 ถ้าสินค้าชำรุดเสียหายหรือหาไม่พบ ป้อนเรกคอร์ดที่ส่งสมมติ แล้วลบสินค้านั้นหรือเก็บสินค้านั้นไว้ในภาพรวมและเปลี่ยนคำอธิบายเพื่อบ่งชี้ว่าไม่มีสินค้านั้นแล้ว
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ทรัพยากรบุคคล](index.md)
 

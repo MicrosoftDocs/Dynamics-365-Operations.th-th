@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: หัวข้อนี้แสดงภาพรวมของความสามารถของ Regulatory Configuration Service (RCS) และอธิบายวิธีการเข้าถึงบริการ
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019405"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216573"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS ให้ความสามารถต่อไปนี้:
 
 ดูรายการภูมิภาคทั้งหมด โปรดดูที่ [Dynamics 365 และ Power Platform: ความพร้อมใช้งาน ที่ตั้งข้อมูล ภาษา และการแปลเป็นภาษาท้องถิ่น](https://aka.ms/dynamics_365_international_availability_deck)
 
+## <a name="rcs-default-company"></a>บริษัทเริ่มต้น RCS
+
+มีการใช้ฟังก์ชันเวลาการออกแบบที่ใช้ใน RCS ร่วมกันระหว่างบริษัททั้งหมด ไม่มีฟังก์ชันเฉพาะบริษัท ดังนั้น เราขอแนะนำให้ใช้บริษัทหนึ่งแห่ง **DAT** กับสภาพแวดล้อม RCS ของคุณ
+
+อย่างไรก็ตาม ในบางสถานการณ์ คุณอาจต้องการให้รูปแบบ ER ใช้พารามิเตอร์ที่เกี่ยวข้องกับนิติบุคคลหนึ่งๆ ในสถานการณ์เหล่านี้เท่านั้น คุณควรใช้ตัวสลับบริษัทเริ่มต้น สำหรับตัวอย่าง ให้ดูที่ [ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md)
+
 ## <a name="related-rcs-documentation"></a>คู่มือ RCS ที่เกี่ยวข้อง
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบที่เกี่ยวข้อง ให้ดูที่คู่มือต่อไปนี้:
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบที่เกี่ยวข้อง ให้ดูที่หัวข้อต่อไปนี้:
+
+- **RCS:**
+
+    - [สร้างการตั้งค่าคอนฟิก ER ใน RCS และอัปโหลดไปยังที่เก็บส่วนกลาง](rcs-global-repo-upload.md)
 
 - **ที่เก็บส่วนกลาง:**
 
@@ -70,7 +80,20 @@ RCS ให้ความสามารถต่อไปนี้:
     - [การกรองข้อมูลขั้นสูงในที่เก็บส่วนกลาง](enhanced-filtering-global-repo.md)
     - [ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลาง](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – การคิดค่าเสื่อมราคาที่เก็บข้อมูล Lifecycle Services (LCS)](rcs-lcs-repo-dep-faq.md)
 
 - **คุณลักษณะที่ใช้ทั่วโลก**
 
     - [Regulatory configuration service (RCS) - คุณลักษณะที่ใช้ทั่วโลก](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>การแก้ไขปัญหาการลงทะเบียน RCS
+
+เมื่อคุณลงชื่อสมัครใน RCS จากหน้าบริการ คุณอาจพบปัญหาที่เกี่ยวข้องกับ Azure Active Directory (Azure AD) ข้อความแสดงข้อผิดพลาดที่คุณได้รับบ่งชี้ว่าการลงชื่อสมัครใน RCS ปิดอยู่ในขณะนี้ และต้องเปิดอยู่ก่อนที่คุณจะสามารถประมวลผลการลงชื่อสมัครให้เสร็จสมบูรณ์
+
+![ข้อความแสดงข้อผิดพลาดการลงชื่อสมัครใน RCS](media/01_RCSSignUpError.jpg)
+
+ปัญหาเกิดขึ้นเนื่องจากคุณถูกบล็อคไม่ให้ลงชื่อสมัครบอกรับเป็นสมาชิกเฉพาะทาง และต้องเปิดใช้งานคุณสมบัติ `AllowAdHocSubscriptions` ในผู้เช่าของคุณ 
+
+- หากแผนกไอทีของคุณจัดการผู้เช่าใน Azure ขององค์กร ให้ติดต่อแผนกนั้นเพื่อรายงานปัญหา
+- หากคุณรับผิดชอบการจัดการผู้เช่า Azure ของคุณ คุณสามารถแก้ไขปัญหาโดยการปฏิบัติตามขั้นตอน [การลงชื่อสมัครใช้ระบบบริการ Azure Active Directory ด้วยตนเองคืออะไร](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings)

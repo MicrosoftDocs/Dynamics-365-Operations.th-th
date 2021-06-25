@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897271"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193366"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>แค็ตตาล็อกการเรียนรู้ของผู้ดูแลระบบ Dynamics 365 Finance
 
@@ -60,6 +60,7 @@ ms.locfileid: "5897271"
 
 | ปริมาณความจุ | คำอธิบาย  | รูปแบบ | ความยาว    |
 |---------|--------------|--------|-----------|
+| [อัปเกรด Dynamics AX 2012 เป็นแอป Finance and Operations](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | เรียนรู้องค์ประกอบที่สําคัญที่สุดและแนวทางที่พึงปฏิบัติในการอัปเกรดโซลูชัน Dynamics AX 2012 ของคุณเป็นแอป Finance and Operations จากขั้นตอนแรกของการค้นหาความแตกต่างทางสถาปัตยกรรมหลักเพียงอย่างเดียว การเริ่มต้นใช้งานกระบวนการอัปเกรด และเครื่องมือการอัปเกรดรหัสและการอัปเกรดข้อมูล เป็นแนวทางที่ดีที่สุดในการออกแบบการรวม การวิเคราะห์ และการรายงานของคุณใหม่ตามความสามารถล่าสุด | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 7 ชั่วโมง |
 | [Finance and Operations: การอัปเกรดจาก 7.x เป็น 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับเทคโนโลยีระหว่างที่เราจะครอบคลุมถึงขั้นตอนการอัปเกรด 7 X ถึง 8 X เราจะกล่าวถึงสถานการณ์ต่างๆและขั้นตอนที่จะดำเนินการสำหรับการอัปเกรดโค้ดและการอัปเกรดข้อมูล นอกจากนี้เราจะครอบคลุมสถานการณ์การร้องขอการเพิ่มความสามารถและวิธีการเพิ่มความเหมาะสม | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
 | [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | ในรอบเวลานี้เราจะอธิบายวิธีการอัปเกรดจากแอพลิเคชัน Dynamics 365 Finance and Operations v 7.0 (RTW) และ v 7.1 (1611) เป็น v 7.2 (กรกฎาคม 2017) เราให้ความแตกต่างที่ชัดเจนระหว่างลูกค้าที่มีอยู่จริงและโครงการต่อเนื่อง (ยังไม่ได้ใช้งานจริง) | การบันทึกการประชุมผ่านเว็บฟรี | 58 นาที |
 | [AX2012 อัปเกรดเป็น Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | การสนทนาเทคโนโลยีนี้จะให้ภาพรวมเกี่ยวกับวิธีการอัปเกรดโค้ดและข้อมูลจาก Dynamics AX 2012 ไปยัง Dynamics 365 for Operations | การบันทึกการประชุมผ่านเว็บฟรี | 45 นาที |

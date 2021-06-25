@@ -2,7 +2,7 @@
 title: ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
 description: หัวข้อนี้นำไปสู่ข้อกำหนดเบื้องต้นและขั้นตอนต่าง ๆ ที่จำเป็นในการใช้รุ่นทดลองของข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
-ms.date: 11/16/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897803"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186575"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
 
@@ -103,10 +103,5 @@ ms.locfileid: "5897803"
 ตัวอย่างข้อมูลเชิงลึกของการเงินสำหรับสาธารณะจะพร้อมใช้งานสำหรับการใช้งานในสหรัฐอเมริกา ยุโรป และสหราชอาณาจักร Microsoft กำลังเพิ่มการสนับสนุนสำหรับภูมิภาคเพิ่มเติมมากขึ้น
 
 คุณลักษณะตัวอย่างสำหรับสาธารณะควรเปิดใช้งานเฉพาะในสภาพแวดล้อมที่มี Sandbox ระดับ 2 เท่านั้น การตั้งค่าและโมเดล AI ที่สร้างขึ้นในสภาพแวดล้อม Sandbox ไม่สามารถถูกย้ายไปยังสภาพแวดล้อมการผลิต สำหรับข้อมูลเพิ่มเติม ให้ดู [เงื่อนไขการใช้เพิ่มเติมสำหรับการแสดงตัวอย่าง Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)
-
-## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

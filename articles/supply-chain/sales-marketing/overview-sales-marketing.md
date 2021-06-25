@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810881"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188136"
 ---
 # <a name="sales-and-marketing-overview"></a>ภาพรวมของการขายและการตลาด
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810881"
 
 คุณสามารถใช้การขายและการตลาดเพื่อขอรับ เก็บ และใช้ข้อมูลชนิดต่างๆ ในขั้นตอนการขาย ข้อมูลนี้รวมถึงการริเริ่มขายเดิม การดำเนินการติดตามผลในอนาคต และขายเพิ่มเติม
 
-<a name="marketing"></a>การตลาด
----------
+## <a name="marketing"></a>การตลาด
 
 คุณใช้การส่งเสริมการขายและกิจกรรมทางการตลาดเพื่อค้นหาและสร้างความสัมพันธ์กับผู้ที่อาจจะเป็นลูกค้า เพื่อให้การโต้ตอบแรกเริ่มสามารถพัฒนาเป็นความสัมพันธ์การขาย ลำดับกระบวนการต่อไปนี้แสดงกระบวนการทางธุรกิจสำหรับการตลาด [![กระบวนการทางธุรกิจสำหรับการตลาด](./media/marketing01.jpg)](./media/marketing01.jpg)
 

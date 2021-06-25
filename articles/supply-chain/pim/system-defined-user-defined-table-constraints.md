@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812701"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187978"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>ข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้
 
@@ -57,8 +57,7 @@ ms.locfileid: "5812701"
 
 ก่อนข้อจำกัดตารางสามารถมีผลกับแบบจำลองการจัดโครงแบบผลิตภัณฑ์ ข้อจำกัดตารางต้องรวมอยู่ในข้อจำกัดของส่วนประกอบของแบบจำลองหนึ่ง ขั้นตอนคือเพื่อสร้างข้อจำกัดใหม่ เลือกชนิดของข้อจำกัดตาราง และจากนั้นเลือกคำนิยามข้อจำกัดตารางที่จะใช้ ในตอนท้าย ฟิลด์ทั้งหมดในตารางข้อจำกัดต้องแม็ปกับแอททริบิวต์ในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์](product-configuration-models.md)
 

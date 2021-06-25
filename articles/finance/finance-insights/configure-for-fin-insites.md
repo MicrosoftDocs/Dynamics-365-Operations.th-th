@@ -1,8 +1,8 @@
 ---
-title: การตั้งค่าคอนฟิกสำหรับข้อมูลเชิงลึก Finance (พรีวิว)
-description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ในข้อมูลเชิงลึก Finance ได้
+title: การตั้งค่าคอนฟิกสำหรับ Finance Insights - ได้สูงสุดรุ่น 10.0.19
+description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance insights สูงสุดรุ่น 10.0.19
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941237"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186431"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>การตั้งค่าคอนฟิกสำหรับข้อมูลเชิงลึก Finance
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941237"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> ขั้นตอนต่อไปนี้สำหรับการตั้งค่า Finance Insights ใช้ได้กับ Microsoft Dynamics 365 Finance สูงสุดรุ่น 10.0.19 หากต้องการตั้งค่า Finance Insights รุ่น 10.0.20 และใหม่กว่า ให้ดูที่ [การตั้งค่าคอนฟิกของ Finance Insights (การแสดงตัวอย่าง) - รุ่น10.0.20 และอื่นๆ](configure-for-fin-insites-PubPrvw.md)
+
 ข้อมูลเชิงลึก Finance รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance พร้อมกับ Microsoft Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ในข้อมูลเชิงลึก Finance ได้
 
 ## <a name="deploy-dynamics-365-finance"></a>ปรับใช้ Dynamics 365 Finance
@@ -38,7 +41,7 @@ ms.locfileid: "5941237"
 
 1. ใน Microsoft Dynamics Lifecycle Services (LCS) สร้างหรืออัปเดตข้อมูลสภาพแวดล้อม Dynamics 365 Finance สภาพแวดล้อมต้องมีแอปรุ่น 10.0.11/Platform update 35 หรือใหม่กว่า
 2. สภาพแวดล้อมต้องมีสภาพแวดล้อมที่มีความพร้อมใช้งานสูง (HA) ใน Sandbox (สภาพแวดล้อมชนิดนี้เรียกอีกอย่างว่า สภาพแวดล้อมระดับ 2) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนสภาพแวดล้อม](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
-3. ถ้าคุณกำลังใช้ข้อมูลสาธิต Contoso คุณจะต้องใช้ข้อมูลตัวอย่างเพิ่มเติมเพื่อใช้คุณลักษณะการคาดการณ์การชำระเงินของลูกค้า การคาดการณ์กระแสเงินสด และการคาดการณ์งบประมาณ 
+3. ถ้าคุณกําหนดค่าการเงินให้กับ Finance Insights ในสภาพแวดล้อม Sandbox คุณอาจต้องคัดลอกข้อมูลการผลิตไปยังสภาพแวดล้อมนั้นเพื่อให้การคาดการณ์สามารถทำงานได้ แบบจำลองการคาดการณ์จะใช้ข้อมูลหลายปีเพื่อสร้างการคาดการณ์ ข้อมูลสาธิต Contoso มีข้อมูลในอดีตไม่เพียงพอที่จะการฝึกอบรมแบบจำลองอย่างเพียงพอ 
 
 ## <a name="configure-dataverse"></a>ตั้งค่าคอนฟิก Dataverse
 
