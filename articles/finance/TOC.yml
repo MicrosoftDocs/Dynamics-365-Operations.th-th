@@ -72,13 +72,11 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (กรกฎาคม 2021)
+                    - name: Finance 10.0.20 (สิงหาคม 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (กรกฎาคม 2021)
+                    - name: Finance 10.0.19 (มิถุนายน 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (พฤษภาคม 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (เมษายน 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: การตั้งค่าคอนฟิกและการจัดการ
               items:
-                - name: ตั้งค่าคอนฟิกข้อมูลเชิงลึกของการเงิน
+                - name: ตั้งค่าคอนฟิก Finance Insights สำหรับการพรีวิวสำหรับสาธารณะ
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: ตั้งค่าคอนฟิก Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: เปิดใช้งานการคาดคะเนการชำระเงินของลูกค้า
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1462,8 +1462,10 @@
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory configuration service และอัปโหลดไปยังที่เก็บส่วนกลาง
+                    - name: สร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใน Regulatory Configuration Service และอัปโหลดไปยังที่เก็บส่วนกลาง
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
                   items:
                     - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1476,6 +1478,8 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างบัญชีการจัดเก็บข้อมูล Azure และ Key Vault
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: แดชบอร์ดการจัดการการใช้งาน
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: เริ่มต้นใช้งาน
                       items:
                         - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -2094,7 +2098,7 @@
                   href: localizations/tasks/fr-00018-daily-interest.md
                 - name: การคิดค่าเสื่อมราคาตามการเสื่อมสภาพ
                   href: localizations/emea-fra-derogatory-depreciation.md
-                - name: ตั๋วแลกเงินและตั๋วสัญญาใช้เงินของประเทศฝรั่งเศส
+                - name: ตั๋วแลกเงินและตั๋วสัญญาใช้เงินของฝรั่งเศส
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
                 - name: รหัส NAF และหมายเลข Siret
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
@@ -2138,7 +2142,7 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: การรายงานภาษี VAT สำหรับประเทศเยอรมนี
+                - name: การรายงานภาษี VAT สำหรับเยอรมนี
                   href: localizations/emea-de-vat-declaration.md
                 - name: รายงานใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้า
                   href: localizations/emea-deu-e-invoices.md
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: รหัสธุรกรรมภาษีไม่ถูกต้อง
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: ค่าฟิลด์ในรายงาน GSTR ไม่ถูกต้อง
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: ค่าฟิลด์ในสมุดรายวันใบแจ้งหนี้หรือใบสำคัญไม่ถูกต้อง
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: บัญชีแยกประเภทในใบสำคัญไม่ถูกต้อง
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: เปิดตัวออกแบบเพื่อตั้งค่าคอนฟิกภาษีปัจจุบัน
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: เรกคอร์ดและฟิลด์ไม่ปรากฏในรายงาน GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: ข้อผิดพลาดของกฎการตัดบัญชีเมื่อรันการชําระภาษี
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: ภาษีทางตรง
                   items:
                     - name: ภาษีหัก ณ ที่จ่ายของอินเดีย
                       items:
-                        - name: รวม GST เมื่อคำนวณการหักลดภาษี
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: รวม GST เมื่อคำนวณการจัดเก็บภาษี
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: คำถามที่ถามบ่อยเกี่ยวกับขีดจำกัดภาษี
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: ภาษีที่เรียกเก็บจากต้นทางในการขายสินค้า
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: TCS อินเดีย
+                          items:
+                            - name: ภาษีที่เรียกเก็บจากต้นทางในการขายสินค้า
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: รวม GST เมื่อคำนวณการจัดเก็บภาษี
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS อินเดีย
+                          items:
+                            - name: ภาพรวมของการหักภาษีของอินเดียที่ต้นทาง (TDS)
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: รวม GST เมื่อคำนวณการหักลดภาษี
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: การตั้งค่าพื้นฐานเกี่ยวกับ TDS
+                              items:
+                                - name: ตั้งค่าพารามิเตอร์ TDS
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: ตั้งค่าบัญชีแยกประเภท TDS
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: ตั้งค่าหมายเลขทะเบียน TDS สำหรับนิติบุคคล
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: ตั้งค่าหน่วยงานจัดเก็บภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: ตั้งค่าส่วนประกอบของภาษีสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: ตั้งค่าระยะเวลาการชำระภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: ตั้งค่ารหัสการรายงานภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: แนบรหัสภาษี TDS กับกลุ่มภาษี TDS และกําหนดสูตรในการคํานวณ TDS
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: บันทึกหมายเลขใบรับรองการสัมปทาน TDS
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: ตั้งค่าพารามิเตอร์ TDS ในบัญชีเจ้าหนี้และบัญชีลูกหนี้
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: ตั้งค่ากำหนดการชำระเงินด้วยการปันส่วน TDS
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับการชำระเงินของหน่วยงาน TDS
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'การตั้งค่าข้อมูลกลุ่ม TDS, PAN, และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: ตัวออกแบบสูตรและขีดจํากัดในการคํานวณ TDS
+                                  items: null
+                                - name: ตัวออกแบบสูตรสำหรับการคํานวณ TDS
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: ขีดจํากัดและขีดจํากัดข้อยกเว้น
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: การคํานวณ TDS ในใบแจ้งหนี้
+                              items:
+                                - name: การคํานวณ TDS ในใบแจ้งหนี้
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: คํานวณ TDS บนใบแจ้งหนี้โดยใช้สมุดรายวัน
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: คํานวณใบแจ้งหนี้ TDS โดยใช้แบบฟอร์มใบสั่งซื้อและแบบฟอร์มใบสั่งขาย
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: การคํานวณ TDS ในใบแจ้งหนี้จากหน้าใบแจ้งหนี้ข้อความอิสระ
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: ฟังก์ชันการแบ่งใบแจ้งหนี้
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: กระบวนการชําระเงิน TDS
+                              items:
+                                - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: รันกระบวนการชําระเงิน TDS ประจำงวด
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: ชำระเงิน TDS ให้แก่ผู้จัดจำหน่ายของหน่วยงาน TDS และสร้าง TDS challan
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: ดูการชําระเงินและธุรกรรม TDS ที่ลงรายการบัญชีในรอบระยะเวลาการชําระเงิน TDS
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: สินทรัพย์ถาวร
                   items:
                     - name: ภาพรวมของสินทรัพย์ถาวรของอินเดีย
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: TDS อินเดีย
-                  items:
-                    - name: ภาพรวมของการหักภาษีของอินเดียที่ต้นทาง (TDS)
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: การตั้งค่าพื้นฐานเกี่ยวกับ TDS
+                    - name: บันทึกและอัพเดตหมายเลขและวันที่ในใบรับรอง TDS
                       items:
-                        - name: ตั้งค่าพารามิเตอร์ TDS
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: ตั้งค่าบัญชีแยกประเภท TDS
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: ตั้งค่าหมายเลขทะเบียน TDS สำหรับนิติบุคคล
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: ตั้งค่าหน่วยงานจัดเก็บภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: ตั้งค่าส่วนประกอบของภาษีสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: ตั้งค่าระยะเวลาการชำระภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: ตั้งค่ารหัสการรายงานภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: ตั้งค่ารหัสภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: แนบรหัสภาษี TDS กับกลุ่มภาษี TDS และกําหนดสูตรในการคํานวณ TDS
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: บันทึกหมายเลขใบรับรองการสัมปทาน TDS
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: ตั้งค่าพารามิเตอร์ TDS ในบัญชีเจ้าหนี้และบัญชีลูกหนี้
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: ตั้งค่ากำหนดการชำระเงินด้วยการปันส่วน TDS
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับการชำระเงินของหน่วยงาน TDS
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'การตั้งค่าข้อมูลกลุ่ม TDS, PAN, และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: ตัวออกแบบสูตรและขีดจํากัดในการคํานวณ TDS
-                      items:
-                        - name: ตัวออกแบบสูตรสำหรับการคํานวณ TDS
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: ขีดจํากัดและขีดจํากัดข้อยกเว้น
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: การคํานวณ TDS ในใบแจ้งหนี้
-                      items:
-                        - name: การคํานวณ TDS ในใบแจ้งหนี้
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: คํานวณ TDS บนใบแจ้งหนี้โดยใช้สมุดรายวัน
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: คํานวณใบแจ้งหนี้ TDS โดยใช้แบบฟอร์มใบสั่งซื้อและแบบฟอร์มใบสั่งขาย
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: การคํานวณ TDS ในใบแจ้งหนี้จากหน้าใบแจ้งหนี้ข้อความอิสระ
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: ฟังก์ชันการแบ่งใบแจ้งหนี้
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: กระบวนการชําระเงิน TDS
-                      items:
-                        - name: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: กระบวนการชําระเงิน TDS
-                          items:
-                            - name: รันกระบวนการชําระเงิน TDS ประจำงวด
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: ชำระเงิน TDS ให้แก่ผู้จัดจำหน่ายของหน่วยงาน TDS และสร้าง TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: ดูการชําระเงินและธุรกรรม TDS ที่ลงรายการบัญชีในรอบระยะเวลาการชําระเงิน TDS
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: บันทึกและอัพเดตหมายเลขและวันที่ในใบรับรอง TDS
-                          items:
-                            - name: บันทึกหมายเลขใบรับรอง TDS ที่ได้รับคืน
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: อัพเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: บันทึกหมายเลขใบรับรอง TDS ที่ได้รับคืน
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: อัพเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี
@@ -2732,13 +2748,13 @@
                   href: localizations/tasks/set-up-consolidated-invoices.md
                 - name: ตั้งค่าพารามิเตอร์ทั่วไปสำหรับการลงบัญชีการด้อยค่าและโพรไฟล์การลงบัญชี
                   href: localizations/tasks/impairment-accounting.md
-                - name: ตั้งค่ารายงานภาษีจากปริมาณการใช้ในประเทศญี่ปุ่น
+                - name: ตั้งค่ารายงานภาษีจากปริมาณการใช้ในญี่ปุ่น
                   href: localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: ตั้งค่าการชำระเงินของประเทศญี่ปุ่นโดยการสลักหลังตั๋วแลกเงินของลูกค้า
+                - name: ตั้งค่าการชำระเงินของญี่ปุ่นโดยการสลักหลังตั๋วแลกเงินของลูกค้า
                   href: localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
                 - name: ตั้งค่าข้อมูลหลักสำหรับการรวมค่าใช้จ่ายที่สามารถหักได้สำหรับชั้นของการลงรายการบัญชีหลายรายการ
                   href: localizations/tasks/set-up-master-data-inclusion.md
-                - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับประเทศญี่ปุ่น
+                - name: ตั้งค่าค่าธรรมเนียมการชำระเงินสำหรับญี่ปุ่น
                   href: localizations/tasks/setup-payment-fee-japan.md
                 - name: ตั้งค่ารายการที่มีการลด
                   href: localizations/apac-jpn-reduction-entry-fixed-assets.md
@@ -4159,14 +4175,18 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: ดำเนินกระบวนการทางธุรกิจอัตโนมัติโดยใช้การตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์
+                - name: ดำเนินกระบวนการทางธุรกิจอัตโนมัติโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                   items:
                     - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลลงใน Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ที่มีประสิทธิภาพ
+                  items:
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาด้านประสิทธิภาพ
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: การจัดการเอกสารทางธุรกิจ (BDM)
                   items:
                     - name: ภาพรวมของ BDM
