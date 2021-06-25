@@ -12,9 +12,9 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform updates
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
                   href: get-started/whats-new-home-page.md
-                - name: Platform update สำหรับรุ่น 10.0.20 (กรกฎาคม 2021)
+                - name: Platform update สำหรับรุ่น 10.0.20 (สิงหาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update สำหรับ 10.0.19 (มิถุนายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -846,16 +846,14 @@
                       href: extensibility/breaking-changes.md
                     - name: เครื่องมือตรวจสอบความเข้ากันได้
                       href: extensibility/compatibility-checker-tool.md
-            - name: ประสิทธิภาพ
+            - name: ผลการปฏิบัติงาน
               items:
                 - name: ติดตามโดยใช้ Trace parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: การทดสอบแบบผู้ใช้รายเดียวด้วยตัวบันทึกงานและ Performance SDK
+                - name: การทดสอบแบบผู้ใช้รายเดียวโดยใช้ Performance SDK และตัวบันทึกงาน
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: การทดสอบ Performance SDK แบบหลายผู้ใช้ด้วยตัวควบคุมการทดสอบแบบเฉพาะที่
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: การทดสอบแบบหลายผู้ใช้ด้วย Performance SDK และ Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: และการทดสอบแบบหลายผู้ใช้โดยใช้ Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: คู่มือการแก้ไขปัญหาสำหรับการทดสอบ Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK และการทดสอบแบบหลายผู้ใช้ในสภาพแวดล้อมแบบในสถานที่
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: สร้างชุดงาน
                   href: sysadmin/tasks/create-batch-job.md
+                - name: การเปิดใช้งานการลองใหม่โดยอัตโนมัติบนชุดงาน
+                  href: sysadmin/retryable-batch.md
                 - name: คัดลอกชุดงาน
                   href: sysadmin/copy-batch-job.md
                 - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: การอัปเกรด AX 2012 - รายการตรวจสอบก่อนการอัปเกรดสำหรับการอัปเกรดข้อมูล
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อม Sandbox โดยใช้กระบวนการ dacpac
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: อัปเกรดจาก AX 2012 - การจำลองแบบธุรกรรม SQL
                   href: database/replication-setup.md
-                - name: การอัปเกรด AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อม Sandbox
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: อัปเกรดจาก AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อมแบบบริการตนเอง
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: การอัปเกรด AX 2012 - สภาพแวดล้อมในสถานที่
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: การอัปเกรด AX 2012 - การทดสอบการโยกย้าย

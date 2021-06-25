@@ -15,32 +15,31 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837188"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188769"
 ---
-# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a><span data-ttu-id="06512-104">การกระจายการลงบัญชีและรายการบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-104">Accounting distributions and subledger entries for free text invoices</span></span>
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a><span data-ttu-id="f5731-104">การกระจายการลงบัญชีและรายการบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-104">Accounting distributions and subledger entries for free text invoices</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="06512-105">การกระจายการลงบัญชีถูกใช้เพื่อกำหนดวิธีลงบัญชีของยอดเงิน เช่น วิธีการลงบัญชีค่าใช้จ่าย ภาษี หรือค่าธรรมเนียม ในใบแจ้งหนี้ข้อความอิสระ </span><span class="sxs-lookup"><span data-stu-id="06512-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="06512-106">ทุกๆ ยอดเงินที่ต้องนำมาลงบัญชีเมื่อใบแจ้งหนี้ข้อความอิสระถูกบันทึกบัญชีในสมุดรายวัน จะมีการกระจายการลงบัญชีหนึ่งรายการหรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="06512-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
+<span data-ttu-id="f5731-105">การกระจายการลงบัญชีถูกใช้เพื่อกำหนดวิธีลงบัญชีของยอดเงิน เช่น วิธีการลงบัญชีค่าใช้จ่าย ภาษี หรือค่าธรรมเนียม ในใบแจ้งหนี้ข้อความอิสระ </span><span class="sxs-lookup"><span data-stu-id="f5731-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="f5731-106">ทุกๆ ยอดเงินที่ต้องนำมาลงบัญชีเมื่อใบแจ้งหนี้ข้อความอิสระถูกบันทึกบัญชีในสมุดรายวัน จะมีการกระจายการลงบัญชีหนึ่งรายการหรือมากกว่า</span><span class="sxs-lookup"><span data-stu-id="f5731-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
 
-<a name="accounting-distributions"></a><span data-ttu-id="06512-107">การกระจายการลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-107">Accounting distributions</span></span>
-------------------------
+## <a name="accounting-distributions"></a><span data-ttu-id="f5731-107">การกระจายการลงบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-107">Accounting distributions</span></span>
 
-<span data-ttu-id="06512-108">คุณสามารถใช้ปุ่มต่างๆต่อไปนี้ในหน้าใบแจ้งหนี้ข้อความอิสระเพื่อดู และอาจเปลี่ยนแปลง การกระจายการลงบัญชีสำหรับแต่ละยอดเงินในใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
+<span data-ttu-id="f5731-108">คุณสามารถใช้ปุ่มต่างๆต่อไปนี้ในหน้าใบแจ้งหนี้ข้อความอิสระเพื่อดู และอาจเปลี่ยนแปลง การกระจายการลงบัญชีสำหรับแต่ละยอดเงินในใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
 
--   <span data-ttu-id="06512-109">**กระจายยอดเงิน**—ดูและเปลี่ยนแปลงการกระจายการลงบัญชีสำหรับแต่ละรายการและรายการข้อมูลรองใดๆ เช่น ภาษีหรือค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="06512-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="06512-110">นอกจากนี้คุณยังสามารถดูและเปลี่ยนแปลงการกระจายการลงบัญชีสำหรับรายการรองโดยตรงจากหน้าธุรกรรมภาษีขายหรือหน้าธุรกรรมค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="06512-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
-    -   <span data-ttu-id="06512-111">เปลี่ยนแปลงยอดในส่วนหัวใบแจ้งหนี้ข้อความอิสระ เช่นค่าธรรมเนียมหรือยอดเงินการปัดเศษสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="06512-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
-    -   <span data-ttu-id="06512-112">เปลี่ยนแปลงยอดรายการของใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-112">Change free text invoice line amounts.</span></span>
--   <span data-ttu-id="06512-113">**ดูการกระจาย** ดูการกระจายการลงบัญชีสำหรับรายการเอกสารทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="06512-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="06512-114">คุณไม่สามารถที่จะเปลี่ยนแปลงการกระจายการลงบัญชีจากมุมมองนี้</span><span class="sxs-lookup"><span data-stu-id="06512-114">You can't change the accounting distributions from this view.</span></span>
-    -   <span data-ttu-id="06512-115">ดูยอดส่วนหัวและยอดรายการ</span><span class="sxs-lookup"><span data-stu-id="06512-115">View header and line amounts.</span></span>
+-   <span data-ttu-id="f5731-109">**กระจายยอดเงิน**—ดูและเปลี่ยนแปลงการกระจายการลงบัญชีสำหรับแต่ละรายการและรายการข้อมูลรองใดๆ เช่น ภาษีหรือค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="f5731-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="f5731-110">นอกจากนี้คุณยังสามารถดูและเปลี่ยนแปลงการกระจายการลงบัญชีสำหรับรายการรองโดยตรงจากหน้าธุรกรรมภาษีขายหรือหน้าธุรกรรมค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="f5731-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
+    -   <span data-ttu-id="f5731-111">เปลี่ยนแปลงยอดในส่วนหัวใบแจ้งหนี้ข้อความอิสระ เช่นค่าธรรมเนียมหรือยอดเงินการปัดเศษสกุลเงิน</span><span class="sxs-lookup"><span data-stu-id="f5731-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
+    -   <span data-ttu-id="f5731-112">เปลี่ยนแปลงยอดรายการของใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-112">Change free text invoice line amounts.</span></span>
+-   <span data-ttu-id="f5731-113">**ดูการกระจาย** ดูการกระจายการลงบัญชีสำหรับรายการเอกสารทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="f5731-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="f5731-114">คุณไม่สามารถที่จะเปลี่ยนแปลงการกระจายการลงบัญชีจากมุมมองนี้</span><span class="sxs-lookup"><span data-stu-id="f5731-114">You can't change the accounting distributions from this view.</span></span>
+    -   <span data-ttu-id="f5731-115">ดูยอดส่วนหัวและยอดรายการ</span><span class="sxs-lookup"><span data-stu-id="f5731-115">View header and line amounts.</span></span>
 
-## <a name="distributing-amounts"></a><span data-ttu-id="06512-116">ยอดการกระจาย</span><span class="sxs-lookup"><span data-stu-id="06512-116">Distributing amounts</span></span>
-<span data-ttu-id="06512-117">เมื่อคุณป้อนใบแจ้งหนี้ข้อความอิสระ แต่ละยอดจะมีกระจายดังนี้</span><span class="sxs-lookup"><span data-stu-id="06512-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
+## <a name="distributing-amounts"></a><span data-ttu-id="f5731-116">ยอดการกระจาย</span><span class="sxs-lookup"><span data-stu-id="f5731-116">Distributing amounts</span></span>
+<span data-ttu-id="f5731-117">เมื่อคุณป้อนใบแจ้งหนี้ข้อความอิสระ แต่ละยอดจะมีกระจายดังนี้</span><span class="sxs-lookup"><span data-stu-id="f5731-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
 
 <table>
 <colgroup>
@@ -50,86 +49,86 @@ ms.locfileid: "5837188"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06512-118">ชนิดของยอดเงิน</span><span class="sxs-lookup"><span data-stu-id="06512-118">Type of monetary amount</span></span></th>
-<th><span data-ttu-id="06512-119">บัญชีหลักถูกแสดงมาจากที่ใด</span><span class="sxs-lookup"><span data-stu-id="06512-119">Where the main account is displayed from</span></span></th>
-<th><span data-ttu-id="06512-120">ลำดับความสำคัญที่กำหนดมิติทางการเงินเริ่มต้นที่จะแสดง</span><span class="sxs-lookup"><span data-stu-id="06512-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
+<th><span data-ttu-id="f5731-118">ชนิดของยอดเงิน</span><span class="sxs-lookup"><span data-stu-id="f5731-118">Type of monetary amount</span></span></th>
+<th><span data-ttu-id="f5731-119">บัญชีหลักถูกแสดงมาจากที่ใด</span><span class="sxs-lookup"><span data-stu-id="f5731-119">Where the main account is displayed from</span></span></th>
+<th><span data-ttu-id="f5731-120">ลำดับความสำคัญที่กำหนดมิติทางการเงินเริ่มต้นที่จะแสดง</span><span class="sxs-lookup"><span data-stu-id="f5731-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="06512-121">รายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-121">Free text invoice line</span></span></td>
-<td><span data-ttu-id="06512-122">บัญชีแยกประเภทในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-122">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="f5731-121">รายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-121">Free text invoice line</span></span></td>
+<td><span data-ttu-id="f5731-122">บัญชีแยกประเภทในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-122">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="06512-123">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="06512-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="06512-124">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-125">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-126">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="f5731-123">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="f5731-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="f5731-124">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-125">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-126">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="06512-127">รายการใบแจ้งหนี้ข้อความอิสระสำหรับหมายเลขสินทรัพย์ถาวรและรูปแบบมูลค่า</span><span class="sxs-lookup"><span data-stu-id="06512-127">Free text invoice line for a fixed asset number and value model combination</span></span>
+<td><span data-ttu-id="f5731-127">รายการใบแจ้งหนี้ข้อความอิสระสำหรับหมายเลขสินทรัพย์ถาวรและรูปแบบมูลค่า</span><span class="sxs-lookup"><span data-stu-id="f5731-127">Free text invoice line for a fixed asset number and value model combination</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="06512-128"><strong>หมายเหตุ</strong></span><span class="sxs-lookup"><span data-stu-id="06512-128"><strong>Note</strong></span></span></th>
+<th><span data-ttu-id="f5731-128"><strong>หมายเหตุ</strong></span><span class="sxs-lookup"><span data-stu-id="f5731-128"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="06512-129">บัญชีหลักในรายการใบแจ้งหนี้ข้อความอิสระจะเป็นบัญชีการตัดจำหน่ายสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="06512-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
+<td><span data-ttu-id="f5731-129">บัญชีหลักในรายการใบแจ้งหนี้ข้อความอิสระจะเป็นบัญชีการตัดจำหน่ายสินทรัพย์ถาวร</span><span class="sxs-lookup"><span data-stu-id="f5731-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><span data-ttu-id="06512-130">บัญชีแยกประเภทในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-130">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="f5731-130">บัญชีแยกประเภทในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-130">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="06512-131">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-132">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="f5731-131">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-132">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="06512-133">ยอดส่วนลดในใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-133">Free text invoice discount amount</span></span></td>
-<td><span data-ttu-id="06512-134">บัญชีหลักสำหรับฟิลด์ส่วนลดของลูกค้าในหน้าส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="06512-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
+<td><span data-ttu-id="f5731-133">ยอดส่วนลดในใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-133">Free text invoice discount amount</span></span></td>
+<td><span data-ttu-id="f5731-134">บัญชีหลักสำหรับฟิลด์ส่วนลดของลูกค้าในหน้าส่วนลดเงินสด</span><span class="sxs-lookup"><span data-stu-id="f5731-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="06512-135">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="06512-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="06512-136">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-137">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-138">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="f5731-135">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="f5731-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="f5731-136">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-137">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-138">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="06512-139">ยอดภาษีขายของใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-139">Free text invoice sales tax amount</span></span></td>
-<td><span data-ttu-id="06512-140">ฟิลด์เจ้าหนี้ภาษีขายในหน้ากลุ่มการลงรายการบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="06512-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
+<td><span data-ttu-id="f5731-139">ยอดภาษีขายของใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-139">Free text invoice sales tax amount</span></span></td>
+<td><span data-ttu-id="f5731-140">ฟิลด์เจ้าหนี้ภาษีขายในหน้ากลุ่มการลงรายการบัญชีแยกประเภท</span><span class="sxs-lookup"><span data-stu-id="f5731-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="06512-141">ใช้มิติทางการเงินที่ถูกกำหนดไว้ในยอดรายการใบแจ้งหนี้ข้อความอิสระหรือการกระจายสำหรับยอดในรายการค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="06512-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
-<li><span data-ttu-id="06512-142">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-143">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="f5731-141">ใช้มิติทางการเงินที่ถูกกำหนดไว้ในยอดรายการใบแจ้งหนี้ข้อความอิสระหรือการกระจายสำหรับยอดในรายการค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="f5731-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
+<li><span data-ttu-id="f5731-142">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-143">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="06512-144">ยอดในรายการค่าธรรมเนียมใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-144">Free text invoice charge line amount</span></span></td>
-<td><span data-ttu-id="06512-145">ฟิลด์บัญชีเครดิตในหน้ารหัสค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="06512-145">The Credit account field in the Charges code page.</span></span></td>
+<td><span data-ttu-id="f5731-144">ยอดในรายการค่าธรรมเนียมใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-144">Free text invoice charge line amount</span></span></td>
+<td><span data-ttu-id="f5731-145">ฟิลด์บัญชีเครดิตในหน้ารหัสค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="f5731-145">The Credit account field in the Charges code page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="06512-146">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="06512-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="06512-147">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-148">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="06512-149">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="06512-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="f5731-146">ถ้าบัญชีหลักเป็นบัญชีการปันส่วน ใช้ค่าเริ่มต้นจากข้อกำหนดบัญชีการปันส่วน</span><span class="sxs-lookup"><span data-stu-id="f5731-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="f5731-147">ถ้าบัญชีหลักไม่ใช่บัญชีการปันส่วน ให้ใช้เท็มเพลตเริ่มต้นของมิติทางการเงินในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-148">ใช้ค่ามิติทางการเงินเริ่มต้นในรายการใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="f5731-149">ใช้ค่ามิติทางการเงินเริ่มต้นจากบัญชีแยกประเภทในหน้าผังบัญชี</span><span class="sxs-lookup"><span data-stu-id="f5731-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="distributing-taxes"></a><span data-ttu-id="06512-150">การกระจายภาษี</span><span class="sxs-lookup"><span data-stu-id="06512-150">Distributing taxes</span></span>
-<span data-ttu-id="06512-151">ไม่สามารถสร้างการกระจายการลงบัญชีสำหรับภาษีจนกว่าจะมีการคำนวณภาษี</span><span class="sxs-lookup"><span data-stu-id="06512-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="06512-152">ในการคำนวณภาษีขาย คุณต้องกรอกอย่างใดอย่างหนึ่งต่อไปนี้ในแบบฟอร์มใบแจ้งหนี้ข้อความอิสระ:</span><span class="sxs-lookup"><span data-stu-id="06512-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
--   <span data-ttu-id="06512-153">ดูรหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="06512-153">View the sales tax.</span></span>
--   <span data-ttu-id="06512-154">ดูผลรวมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="06512-154">View the invoice total.</span></span>
--   <span data-ttu-id="06512-155">ดูกระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="06512-155">View the cash flow.</span></span>
--   <span data-ttu-id="06512-156">ดูการกระจายการลงบัญชีสำหรับใบแจ้งหนี้ข้อความอิสระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="06512-156">View accounting distributions for the whole free text invoice.</span></span>
--   <span data-ttu-id="06512-157">ดูสมุดรายวันของบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="06512-157">View the subledger journal.</span></span>
+## <a name="distributing-taxes"></a><span data-ttu-id="f5731-150">การกระจายภาษี</span><span class="sxs-lookup"><span data-stu-id="f5731-150">Distributing taxes</span></span>
+<span data-ttu-id="f5731-151">ไม่สามารถสร้างการกระจายการลงบัญชีสำหรับภาษีจนกว่าจะมีการคำนวณภาษี</span><span class="sxs-lookup"><span data-stu-id="f5731-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="f5731-152">ในการคำนวณภาษีขาย คุณต้องกรอกอย่างใดอย่างหนึ่งต่อไปนี้ในแบบฟอร์มใบแจ้งหนี้ข้อความอิสระ:</span><span class="sxs-lookup"><span data-stu-id="f5731-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
+-   <span data-ttu-id="f5731-153">ดูรหัสภาษีขาย</span><span class="sxs-lookup"><span data-stu-id="f5731-153">View the sales tax.</span></span>
+-   <span data-ttu-id="f5731-154">ดูผลรวมในใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="f5731-154">View the invoice total.</span></span>
+-   <span data-ttu-id="f5731-155">ดูกระแสเงินสด</span><span class="sxs-lookup"><span data-stu-id="f5731-155">View the cash flow.</span></span>
+-   <span data-ttu-id="f5731-156">ดูการกระจายการลงบัญชีสำหรับใบแจ้งหนี้ข้อความอิสระทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="f5731-156">View accounting distributions for the whole free text invoice.</span></span>
+-   <span data-ttu-id="f5731-157">ดูสมุดรายวันของบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="f5731-157">View the subledger journal.</span></span>
 
-## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="06512-158"> สมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="06512-158">Subledger journals for free text invoices</span></span>
-<span data-ttu-id="06512-159">ก่อนที่คุณจะลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระคุณสามารถดูรายการบัญชีแบบเต็มของใบแจ้งหนี้ ซึ่งมีเดบิตและเครดิต เพื่อตรวจสอบว่าใบแจ้งหนี้นั้นมีการลงรายการบัญชีไปยังบัญชีที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="06512-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="06512-160">มุมมองรายการบัญชีแบบเต็มนี้เรียกว่าสมุดรายวันบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="06512-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="06512-161">ถ้ารายการสมุดรายวันบัญชีแยกประเภทย่อยไม่ถูกต้องเมื่อคุณดูตัวอย่างก่อนที่คุณบันทึกบัญชีใบแจ้งหนี้ข้อความอิสระ คุณไม่สามารถเปลี่ยนรายการสมุดรายวันบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="06512-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="06512-162">คุณต้องเปลี่ยนการกระจายการลงบัญชีหรือโพรไฟล์การลงรายการบัญชีแทน</span><span class="sxs-lookup"><span data-stu-id="06512-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="06512-163">การกระจายการลงบัญชีจะใช้เพื่อกำหนดด้านหนึ่งของรายการบัญชี เดบิตหรือเครดิต</span><span class="sxs-lookup"><span data-stu-id="06512-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="06512-164">การออฟเซ็ตรายการบัญชีสมุดรายวันบัญชีแยกประเภทย่อยที่สร้างจากโพรไฟล์การลงรายการบัญชี เช่นจากบัญชีลูกค้าหรือภาษี</span><span class="sxs-lookup"><span data-stu-id="06512-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
+## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="f5731-158"> สมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ</span><span class="sxs-lookup"><span data-stu-id="f5731-158">Subledger journals for free text invoices</span></span>
+<span data-ttu-id="f5731-159">ก่อนที่คุณจะลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระคุณสามารถดูรายการบัญชีแบบเต็มของใบแจ้งหนี้ ซึ่งมีเดบิตและเครดิต เพื่อตรวจสอบว่าใบแจ้งหนี้นั้นมีการลงรายการบัญชีไปยังบัญชีที่ถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="f5731-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="f5731-160">มุมมองรายการบัญชีแบบเต็มนี้เรียกว่าสมุดรายวันบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="f5731-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="f5731-161">ถ้ารายการสมุดรายวันบัญชีแยกประเภทย่อยไม่ถูกต้องเมื่อคุณดูตัวอย่างก่อนที่คุณบันทึกบัญชีใบแจ้งหนี้ข้อความอิสระ คุณไม่สามารถเปลี่ยนรายการสมุดรายวันบัญชีแยกประเภทย่อย</span><span class="sxs-lookup"><span data-stu-id="f5731-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="f5731-162">คุณต้องเปลี่ยนการกระจายการลงบัญชีหรือโพรไฟล์การลงรายการบัญชีแทน</span><span class="sxs-lookup"><span data-stu-id="f5731-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="f5731-163">การกระจายการลงบัญชีจะใช้เพื่อกำหนดด้านหนึ่งของรายการบัญชี เดบิตหรือเครดิต</span><span class="sxs-lookup"><span data-stu-id="f5731-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="f5731-164">การออฟเซ็ตรายการบัญชีสมุดรายวันบัญชีแยกประเภทย่อยที่สร้างจากโพรไฟล์การลงรายการบัญชี เช่นจากบัญชีลูกค้าหรือภาษี</span><span class="sxs-lookup"><span data-stu-id="f5731-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
 
 
 

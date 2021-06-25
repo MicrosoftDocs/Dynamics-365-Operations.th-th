@@ -1,0 +1,120 @@
+---
+title: ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในสูตรการรายงานทางอิเล็กทรอนิกส์ (ER)
+author: NickSelin
+ms.date: 06/02/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224116"
+---
+# <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a><span data-ttu-id="ce9bf-103">ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ce9bf-103">Supported composite data types for Electronic reporting formulas</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="ce9bf-104">หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในนิพจน์ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-104">This topic provides information about the composite data types that are supported in [Electronic reporting (ER)](general-electronic-reporting.md) expressions.</span></span> <span data-ttu-id="ce9bf-105">ชนิดข้อมูลแบบรวมคือ [คลาส](#class) [คอนเทนเนอร์](#container) [เรกคอร์ด](#record) [รายการเรกคอร์ด](#record-list) และ [ออบเจ็กต์](#object)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-105">The composite data types are [class](#class), [container](#container), [record](#record), [record list](#record-list), and [object](#object).</span></span>
+
+## <a name="class"></a><a name="class"></a><span data-ttu-id="ce9bf-106">คลาส</span><span class="sxs-lookup"><span data-stu-id="ce9bf-106">Class</span></span>
+
+<span data-ttu-id="ce9bf-107">ชนิดข้อมูล *คลาส* อ้างอิงถึงคลาสโปรแกรมประยุกต์สาธารณะ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-107">The *class* data type refers to a public application class.</span></span> <span data-ttu-id="ce9bf-108">ใน ER จะแสดงเป็น [*เรกคอร์ด*](#record) ที่มีฟิลด์แยกต่างหากสําหรับวิธีการสาธารณะทั้งหมดของคลาสที่อ้างอิง</span><span class="sxs-lookup"><span data-stu-id="ce9bf-108">In ER, it's represented as a [*record*](#record) that contains a separate field for every public method of the referenced class.</span></span> <span data-ttu-id="ce9bf-109">เมื่อการเรียกของวิธีการถูกทำเป็นพารามิเตอร์ คุณต้องระบุอาร์กิวเมนต์ที่จำเป็นของชนิดที่เหมาะสมในนิพจน์ ER ที่กำหนดค่าเพื่อเรียกใช้วิธีการ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-109">When the call of the method is parameterized, you must also specify the required arguments of the appropriate types in an ER expression that is configured to call the method.</span></span>
+
+<span data-ttu-id="ce9bf-110">ในส่วนประกอบ [การแม็ป](general-electronic-reporting.md#data-model-and-model-mapping-components) และ [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) ER คุณสามารถเพิ่มแหล่งข้อมูล **คลาส** ที่แสดงเป็นแหล่งข้อมูล และส่งกลับค่าชนิด *คลาส* ได้</span><span class="sxs-lookup"><span data-stu-id="ce9bf-110">In ER [mapping](general-electronic-reporting.md#data-model-and-model-mapping-components) and [format](general-electronic-reporting.md#FormatComponentOutbound) components, you can add the **Class** data source that is presented as a data source and that returns a value of the *class* type.</span></span> <span data-ttu-id="ce9bf-111">แหล่งข้อมูลนี้แสดงวิธีการสาธารณะของคลาสที่สามารถเรียกขณะใช้งานจริง</span><span class="sxs-lookup"><span data-stu-id="ce9bf-111">This data source exposes public methods of the class that can be called at runtime.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ce9bf-112">เฉพาะวิธีการที่ส่งกลับค่าเท่านั้นที่สามารถเรียกได้จากนิพจน์ ER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-112">Only methods that return a value can be called from ER expressions.</span></span>
+>
+> <span data-ttu-id="ce9bf-113">เฉพาะวิธีการที่มีช่วงของอาร์กิวเมนต์ศูนย์ถึงแปดอาร์กิวเมนต์เท่านั้นที่สามารถเรียกได้จากนิพจน์ ER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-113">Only methods that have a range of zero to eight arguments can be called from ER expressions.</span></span>
+
+<span data-ttu-id="ce9bf-114">ค่าเริ่มต้นของ *คลาส* คือ **null**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-114">The default value of a *class* is **null**.</span></span>
+
+<span data-ttu-id="ce9bf-115">ภาพประกอบต่อไปนี้แสดงวิธีการเพิ่มแหล่งข้อมูล **ข้อมูลระบบ (xInfo)** ของชนิด **คลาส** เพื่อทําให้อินสแตนซ์ของคลาสโปรแกรมประยุกต์ **xInfo** และเรียกใช้วิธีการ **productName()** เพื่อรับชื่อของโปรแกรมประยุกต์ปัจจุบัน</span><span class="sxs-lookup"><span data-stu-id="ce9bf-115">The following illustration shows how the **System information(xInfo)** data source of the **Class** type is added to make the instance of the **xInfo** application class and call its **productName()** method to receive the name of the current application.</span></span> <span data-ttu-id="ce9bf-116">ชื่อของโปรแกรมประยุกต์ปัจจุบันถูกดึงมาขณะทํางานโดยการดําเนินการของการผูก `xInfo.productName` ที่ถูกกําหนดค่าสําหรับฟิลด์ **ชื่อซอฟต์แวร์ (SoftwareName)** ของรูปแบบข้อมูล ER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-116">The name of the current application is fetched at runtime by execution of the `xInfo.productName` binding that was configured for the **Software name(SoftwareName)** field of the ER data model.</span></span> <span data-ttu-id="ce9bf-117">การผูกข้อมูลนี้เรียกวิธีการ `productName()` ของคลาสโปรแกรมประยุกต์ **xInfo** ที่แสดงในการแมปแบบจําลองปัจจุบันเป็นแหล่งข้อมูล **ข้อมูลระบบ (xInfo)**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-117">This binding calls the `productName()` method of the **xInfo** application class that is represented in the current model mapping as the **System information(xInfo)** data source.</span></span>
+
+<span data-ttu-id="ce9bf-118">[![ตั้งค่าคอนฟิกแหล่งข้อมูล คลาส ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-118">[![Configuring a Class data source in the ER model mapping designer](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)</span></span>
+
+<span data-ttu-id="ce9bf-119">ภาพประกอบต่อไปนี้แสดงวิธีการตั้งค่าคอนฟิกรูปแบบ ER เพื่อใส่ชื่อโปรแกรมประยุกต์ที่ให้ไว้ในเอกสารที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="ce9bf-119">The following illustration shows how the ER format is configured to put the provided application name in generated documents.</span></span> <span data-ttu-id="ce9bf-120">ฟิลด์ **ชื่อซอฟต์แวร์ (SoftwareName)** ของรูปแบบข้อมูลที่ใช้ถูกผูกอยู่กับส่วนประกอบ **สตริง** ที่ซ้อนกันภายใต้องค์ประกอบ XML **softwareUsed** ของรูปแบบ ER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-120">The **Software name(SoftwareName)** field of the used data model was bound to the **String** component that is nested under the **softwareUsed** XML element of the ER format.</span></span> <span data-ttu-id="ce9bf-121">ดังนั้นชื่อของโปรแกรมประยุกต์ปัจจุบันจะถูกวางขณะใช้งานจริงไปยังองค์ประกอบ XML **softwareUsed** ของเอกสารที่สร้างขึ้นในรูปแบบ XML</span><span class="sxs-lookup"><span data-stu-id="ce9bf-121">So, the name of the current application is placed at runtime to the **softwareUsed** XML element of a generated document in XML format.</span></span>
+
+<span data-ttu-id="ce9bf-122">[![การตั้งค่าคอนฟิกโครงสร้างของเอกสารขาออกทางอิเล็กทรอนิกส์ในตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-122">[![Configuring the structure of an electronic outbound document in the ER format designer](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)</span></span>
+
+## <a name="container"></a><a name="container"></a><span data-ttu-id="ce9bf-123">Container</span><span class="sxs-lookup"><span data-stu-id="ce9bf-123">Container</span></span>
+
+<span data-ttu-id="ce9bf-124">ชนิดข้อมูล *คอนเทนเนอร์* มีเนื้อหาแบบไบนารี</span><span class="sxs-lookup"><span data-stu-id="ce9bf-124">The *container* data type holds binary content.</span></span> <span data-ttu-id="ce9bf-125">ค่า *คอนเทนเนอร์* สามารถใช้ส่งผ่านข้อมูลเฉพาะจากที่เก็บข้อมูลไปยังเอกสารที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="ce9bf-125">A *container* value can be used to pass specific information from storage to a generated document.</span></span> <span data-ttu-id="ce9bf-126">ในกรอบงาน ER ชนิดข้อมูลนี้มักใช้ในใส่เนื้อหาสื่อ เช่น โลโกบริษัทในเอกสารที่สร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="ce9bf-126">In the ER framework, this data type is frequently used to put media content such as a company logo in generated documents.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ce9bf-127">แม้ว่าทุกรายการสื่อสามารถแสดงเป็นค่า *คอนเทนเนอร์* แต่ไม่ใช่ทุก *คอนเทนเนอร์* ที่แสดงถึงรายการสื่อได้</span><span class="sxs-lookup"><span data-stu-id="ce9bf-127">Although every media item can be represented as a *container* value, not every *container* value represents a media item.</span></span> <span data-ttu-id="ce9bf-128">ดังนั้นถ้าคุณกําหนดค่ารูปแบบ ER เพื่อให้ใช้ *คอนเทนเนอร์* เพื่อใส่รูปในเอกสารที่สร้างขึ้น แต่ *คอนเทนเนอร์* ที่อ้างอิงไม่ส่งคืนเนื้อหาสื่อ ข้อยกเว้นที่คล้ายกับตัวอย่างต่อไปนี้อาจถูกโยน: "ข้อผิดพลาดในการดําเนินการรหัส: ไบนารี (วัตถุ)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-128">Therefore, if you configure an ER format so that it uses a *container* to put an image in generated documents, but the referenced *container* doesn't return media content, an exception that resembles the following example might be thrown: "Error executing code: Binary (object), method constructFromContainer called with invalid parameters."</span></span>
+
+<span data-ttu-id="ce9bf-129">ค่าเริ่มต้นของ *คอนเทนเนอร์* คือ **null**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-129">The default value of a *container* is **null**.</span></span>
+
+<span data-ttu-id="ce9bf-130">ภาพประกอบต่อไปนี้แสดงวิธีที่ฟิลด์ **บิตแมป(ภาพ)** ของชนิด *คอนเทนเนอร์* ถูกผูกอยู่กับฟิลด์ **โลโก้** รูปแบบข้อมูลของชนิด **คอนเทนเนอร์** ในการแม็ปแบบจําลอง **ใบแจ้งหนี้การขาย**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-130">The following illustration shows how the **Bitmap(Image)** field of the *Container* type is bound to the data model **Logo** field of the **Container** type in the **Sales invoice** model mapping.</span></span> <span data-ttu-id="ce9bf-131">การผูกนี้ทําให้โลโก้บริษัทพร้อมใช้งานสําหรับรูปแบบ ER ใดๆ ที่ออกแบบมาสําหรับคํานิยามราก **SalesInvoice** และใช้การแม็ปแบบจําลองนี้ในขณะทํางาน</span><span class="sxs-lookup"><span data-stu-id="ce9bf-131">This binding makes the company logo available to any ER format that is designed for the **SalesInvoice** root definition and that uses this model mapping at runtime.</span></span>
+
+<span data-ttu-id="ce9bf-132">[![การผูกฟิลด์ของชนิดคอนเทนเนอร์ในตัวออกแบบการแม็ปแบบจําลอง ER](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-132">[![Binding a field of the Container type in the ER model mapping designer](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)</span></span>
+
+## <a name="record"></a><a name="record"></a><span data-ttu-id="ce9bf-133">เรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ce9bf-133">Record</span></span>
+
+<span data-ttu-id="ce9bf-134">*เรกคอร์ด* คือชุดของฟิลด์ที่มีชื่อ ซึ่งแต่ละเรกคอร์ดจะสัมพันธ์กับค่าของชนิดข้อมูล [พื้นฐาน](er-formula-supported-data-types-primitive.md) หรือชนิดข้อมูลแบบรวม</span><span class="sxs-lookup"><span data-stu-id="ce9bf-134">A *record* is a collection of named fields, each of which is associated with a value of either a [primitive](er-formula-supported-data-types-primitive.md) data type or a composite data type.</span></span> <span data-ttu-id="ce9bf-135">โดยปกติแล้ว *เรกคอร์ด* จะใช้เพื่อแสดงเรกคอร์ดเดียวของรายการเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ce9bf-135">Usually, a *record* is used to represent a single record of a record list.</span></span> <span data-ttu-id="ce9bf-136">ในกรณีนี้ สินค้าทุกรายการจะแสดงฟิลด์ วิธีการ และความสัมพันธ์แต่ละฟิลด์</span><span class="sxs-lookup"><span data-stu-id="ce9bf-136">In this case, every item represents individual fields, methods, and relations.</span></span>
+
+<span data-ttu-id="ce9bf-137">ค่าเริ่มต้นของ *เรกคอร์ด* คือ **ว่าง**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-137">The default value of a *record* is **empty**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ce9bf-138">เมื่อคุณได้รับค่าของฟิลด์ของ *เรกคอร์ด* ว่าง ค่าเริ่มต้นของชนิดข้อมูลที่เหมาะสมจะถูกส่งกลับ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-138">When you get the value of a field of an empty *record*, the default value of the appropriate data type is returned.</span></span>
+
+<span data-ttu-id="ce9bf-139">*เรกคอร์ด* สามารถได้รับโดยใช้ฟังก์ชันต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ce9bf-139">A *record* can be obtained by using the following functions:</span></span>
+
+- [<span data-ttu-id="ce9bf-140">FIRST</span><span class="sxs-lookup"><span data-stu-id="ce9bf-140">FIRST</span></span>](er-functions-list-first.md)
+- [<span data-ttu-id="ce9bf-141">FIRSTORNULL</span><span class="sxs-lookup"><span data-stu-id="ce9bf-141">FIRSTORNULL</span></span>](er-functions-list-firstornull.md)
+- [<span data-ttu-id="ce9bf-142">EMPTYRECORD</span><span class="sxs-lookup"><span data-stu-id="ce9bf-142">EMPTYRECORD</span></span>](er-functions-record-emptyrecord.md)
+- [<span data-ttu-id="ce9bf-143">NULLCONTAINER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-143">NULLCONTAINER</span></span>](er-functions-record-nullcontainer.md)
+
+<span data-ttu-id="ce9bf-144">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแปลงค่า *เรกคอร์ด* โปรดดูที่ [รายการของฟังก์ชัน ER ในประเภทรายการ](er-functions-category-list.md)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-144">For more information about the transformation of *record* values, see [List of ER functions in the list category](er-functions-category-list.md).</span></span>
+
+## <a name="record-list"></a><a name="record-list"></a><span data-ttu-id="ce9bf-145">รายการเรกคอร์ด</span><span class="sxs-lookup"><span data-stu-id="ce9bf-145">Record list</span></span>
+
+<span data-ttu-id="ce9bf-146">*รายการเรกคอร์ด* คือรายการข้อมูลของชนิด *เรกคอร์ด*</span><span class="sxs-lookup"><span data-stu-id="ce9bf-146">A *record list* is a list of items of the *record* type.</span></span> <span data-ttu-id="ce9bf-147">โดยปกติแล้ว *รายการเรกคอร์ด* จะใช้เพื่อแสดงรายการของเรกคอร์ดที่นํามาใช้จากตารางฐานข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ce9bf-147">Usually, a *record list* is used to represent the list of records that has been fetched from a database table.</span></span>
+
+<span data-ttu-id="ce9bf-148">ตามค่าเริ่มต้น เรกคอร์ดของ *รายการเรกคอร์ด* จะเข้าถึงตามลําดับ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-148">By default, records of a *record list* are accessed sequentially.</span></span> <span data-ttu-id="ce9bf-149">เมื่อต้องการเข้าถึงเรกคอร์ดที่ระบุ คุณสามารถใช้ฟังก์ชัน [INDEX](er-functions-list-index.md) และระบุดัชนี *จำนวนเต็ม*</span><span class="sxs-lookup"><span data-stu-id="ce9bf-149">To access a specific record, you can use the [INDEX](er-functions-list-index.md) function and specify the *integer* index.</span></span>
+
+<span data-ttu-id="ce9bf-150">ค่าเริ่มต้นของ *รายการเรกคอร์ด* คือ **ว่าง**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-150">The default value of a *record list* is **empty**.</span></span> <span data-ttu-id="ce9bf-151">คุณสามารถใช้ฟังก์ชัน [ISEMPTY](/er-functions-list-isempty.md) เพื่อประเมินว่า *รายการเรกคอร์ด* ว่างเปล่าหรือไม่</span><span class="sxs-lookup"><span data-stu-id="ce9bf-151">You can use the [ISEMPTY](/er-functions-list-isempty.md) function to evaluate whether a *record list* is empty.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ce9bf-152">ถ้า *รายการเรกคอร์ด* ว่างเปล่า ความพยายามใดๆ ที่จะรับค่าฟิลด์สำหรับ *เรกคอร์ด* จะทำให้เกิดข้อยกเว้นถูกโยนในเวลาที่รัน</span><span class="sxs-lookup"><span data-stu-id="ce9bf-152">If a *record list* is empty, any attempt to get a field value for a *record* in it causes an exception to be thrown at runtime.</span></span> <span data-ttu-id="ce9bf-153">เมื่อต้องการเรียนรู้วิธีที่คุณสามารถช่วยป้องกันข้อยกเว้นรันไทม์ของชนิดนี้ ให้ดูที่ [การพิจารณากรณีของรายการที่ว่าง](er-components-inspections.md#i9)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-153">To learn how you can help prevent runtime exceptions of this type, see [Consideration of empty list cases](er-components-inspections.md#i9).</span></span>
+
+<span data-ttu-id="ce9bf-154">*รายการเรกคอร์ด* สามารถเริ่มโดยใช้ฟังก์ชันต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ce9bf-154">A *record list* can be initiated by using the following functions:</span></span>
+
+- [<span data-ttu-id="ce9bf-155">ALLITEMS</span><span class="sxs-lookup"><span data-stu-id="ce9bf-155">ALLITEMS</span></span>](er-functions-list-allitems.md)
+- [<span data-ttu-id="ce9bf-156">ALLITEMSQUERY</span><span class="sxs-lookup"><span data-stu-id="ce9bf-156">ALLITEMSQUERY</span></span>](er-functions-list-allitemsquery.md)
+- [<span data-ttu-id="ce9bf-157">EMPTYLIST</span><span class="sxs-lookup"><span data-stu-id="ce9bf-157">EMPTYLIST</span></span>](er-functions-list-emptylist.md)
+- [<span data-ttu-id="ce9bf-158">LIST</span><span class="sxs-lookup"><span data-stu-id="ce9bf-158">LIST</span></span>](er-functions-list-list.md)
+- [<span data-ttu-id="ce9bf-159">LISTDISTINCT</span><span class="sxs-lookup"><span data-stu-id="ce9bf-159">LISTDISTINCT</span></span>](er-functions-list-listdistinct.md)
+
+<span data-ttu-id="ce9bf-160">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแปลงค่า *รายการเรกคอร์ด* โปรดดูที่ [รายการของฟังก์ชัน ER ในประเภทรายการ](er-functions-category-list.md)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-160">For more information about the transformation of *record list* values, see [List of ER functions in the list category](er-functions-category-list.md).</span></span> <span data-ttu-id="ce9bf-161">เมื่อต้องการเรียนรู้วิธีใช้ *รายการเรกคอร์ด* ใส่ข้อมูลโปรแกรมประยุกต์ แล้วใช้ข้อมูลเพื่อสร้างเอกสารทางธุรกิจ ให้ดูที่ [ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกําหนดเอง](er-quick-start1-new-solution.md)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-161">To learn how to introduce *record list* items, fill them with application data, and then use the data to generate business documents, see [Design a new ER solution to print a custom report](er-quick-start1-new-solution.md).</span></span>
+
+## <a name="object"></a><a name="object"></a><span data-ttu-id="ce9bf-162">ออบเจ็กต์</span><span class="sxs-lookup"><span data-stu-id="ce9bf-162">Object</span></span>
+
+<span data-ttu-id="ce9bf-163">*ออบเจกต์* อ้างถึงอินสแตนซ์ของ *คลาส*</span><span class="sxs-lookup"><span data-stu-id="ce9bf-163">An *object* refers to a stateful instance of a *class*.</span></span> <span data-ttu-id="ce9bf-164">โดยปกติแล้ว *ออบเจกต์* จะถูกเริ่มต้นในโค้ดต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-164">Usually, an *object* is initiated in source code.</span></span> <span data-ttu-id="ce9bf-165">จากนั้นจะถูกส่งผ่านไปยังการแม็ปแบบจําลอง ER และให้รายละเอียดของบริบทการดําเนินการ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-165">It's then passed to an ER model mapping and provides details of the execution context.</span></span>
+
+<span data-ttu-id="ce9bf-166">ค่าเริ่มต้นของ *ออบเจกต์* คือ **null**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-166">The default value of an *object* is **null**.</span></span>
+
+<span data-ttu-id="ce9bf-167">ภาพประกอบต่อไปนี้แสดงวิธีการเพิ่มแหล่งข้อมูล **ReportDataContract** ของชนิด *ออบเจ็กต์* เพื่อส่งผ่านข้อมูลเกี่ยวกับใบแจ้งหนี้ที่สร้างขึ้นจากรหัสแหล่งที่มาไปยังการแม็ปแบบจําลอง **ใบแจ้งหนี้โครงการ**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-167">The following illustration shows how the **ReportDataContract** data source of the *Object* type is added to pass information about a generated invoice from source code to the **Project invoice** model mapping.</span></span> <span data-ttu-id="ce9bf-168">ตัวอย่างเช่น ข้อความอินสแตนซ์ใบแจ้งหนี้จะถูกส่งผ่านเป็นส่วนหนึ่งของบริบทการดําเนินการ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-168">For example, the invoice instance text is passed as part of the execution context.</span></span> <span data-ttu-id="ce9bf-169">ข้อความนี้นํามาจากซอร์สโค้ดขณะรันไทม์โดยการดําเนินการผูกข้อมูล `ReportDataContract.parmInvoiceInstanceText` ที่ถูกกําหนดค่าสําหรับฟิลด์ **หมายเหตุ** ของรูปแบบข้อมูล ER</span><span class="sxs-lookup"><span data-stu-id="ce9bf-169">This text is taken from source code at runtime by execution of the `ReportDataContract.parmInvoiceInstanceText` binding that was configured for the **Note** field of the ER data model.</span></span> <span data-ttu-id="ce9bf-170">การผูกข้อมูลนี้เรียกวิธีการ `parmInvoiceInstanceText()` ของคลาสโปรแกรมประยุกต์ **PSAProjInvoiceContract** ที่แสดงในการแมปแบบจําลองปัจจุบันเป็นแหล่งข้อมูล **ReportDataContract**</span><span class="sxs-lookup"><span data-stu-id="ce9bf-170">This binding calls the `parmInvoiceInstanceText()` method of the **PSAProjInvoiceContract** application class that is represented in the current model mapping as the **ReportDataContract** data source.</span></span>
+
+<span data-ttu-id="ce9bf-171">[![ตั้งค่าคอนฟิกแหล่งข้อมูล ออบเจกต์ ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-171">[![Configuring an Object data source in the ER model mapping designer](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)</span></span>
+
+<span data-ttu-id="ce9bf-172">เมื่อต้องการเรียนรู้วิธีส่งผ่านรายละเอียดของบริบทการดําเนินการจากโค้ดต้นฉบับไปยังโซลูชัน ER ที่กําลังทํางานอยู่ ให้ดูที่ [พัฒนาสิ่งประดิษฐ์ของแอปพลิเคชันเพื่อเรียกใข้รายงานที่ออกแบบไว้](er-quick-start1-new-solution.md#DevelopCustomCode)</span><span class="sxs-lookup"><span data-stu-id="ce9bf-172">To learn how to pass details of the execution context from source code to the running ER solution, see [Develop application artefacts to call the designed report](er-quick-start1-new-solution.md#DevelopCustomCode).</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="ce9bf-173">ทรัพยากรเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="ce9bf-173">Additional resources</span></span>
+
+- [<span data-ttu-id="ce9bf-174">ภาพรวมการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ce9bf-174">Electronic Reporting overview</span></span>](general-electronic-reporting.md)
+- [<span data-ttu-id="ce9bf-175">ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์</span><span class="sxs-lookup"><span data-stu-id="ce9bf-175">Electronic reporting formula language</span></span>](er-formula-language.md)
+- [<span data-ttu-id="ce9bf-176">ชนิดข้อมูลพื้นฐานที่รองรับ</span><span class="sxs-lookup"><span data-stu-id="ce9bf-176">Supported primitive data types</span></span>](er-formula-supported-data-types-primitive.md)
