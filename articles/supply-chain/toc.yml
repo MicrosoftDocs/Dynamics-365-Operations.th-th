@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (เมษายน 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอปพลิเคชัน Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: การบัญชีสินค้าคงคลังสากล
+          items:
+            - name: โฮมเพจการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: เริ่มต้นใช้งานการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: เอกสารทางธุรกิจที่สนับสนุนโดยการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: เปิดใช้งาน Power BI สำหรับการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: แบบแผน
+              href: global-inventory-accounting/conventions.md
+            - name: บัญชีแยกประเภทการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: การจัดการต้นทุน
           items:
             - name: โฮมเพจการจัดการต้นทุน
@@ -873,9 +885,15 @@
               items:
                 - name: ภาษาสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ชนิดข้อมูลที่รองรับสำหรับสูตร ER
+                  items:
+                    - name: ชนิดข้อมูลพื้นฐาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ชนิดข้อมูลแบบรวม
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ฟังก์ชัน
                   items:
-                    - name: Container
+                    - name: คอนเทนเนอร์
                       items:
                         - name: ฟังก์ชันคอนเทนเนอร์
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
@@ -1417,12 +1435,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Application update 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Application update 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: มอบหมายการสร้างปลายทางการรายงานทางอิเล็กทรอนิกส์ให้กับแฟคทอรีปลายทางแบบกำหนดเอง
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ใช้ปลายทางที่กำหนดเองสำหรับเอกสารที่สร้าง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: การบริหารสินค้าคงคลัง
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: ค่าเผื่อความปลอดภัย
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: การยอมรับการล่าช้า (วันค่าลบ)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: ใบขอซื้อ
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: การวางแผนการผลิต
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: ไม่รวมผลิตภัณฑ์ที่มีสถานะของวงจรการใช้ผลิตภัณฑ์ที่กำหนด
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: วิธีการเติมสินค้าและการแก้ไขปริมาณ
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: กรอบเวลาความครอบคลุม
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: อนุมัติแผนการใบสั่ง
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V2
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: สถานการณ์ตัวอย่างของการตรวจนับตามรอบ
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า
                       href: warehousing/onhand-cleanup.md
                     - name: สมุดรายวันสินค้าคงคลัง
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: แก้ไขปัญหางานคลังสินค้า
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: แอปคลังสินค้า
+              items:
+                - name: ติดตั้ง ตั้งค่า และใช้อุปกรณ์เคลื่อนที่
+                  items:
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/whats-new-wma.md
+                    - name: ติดตั้งและเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: แก้ไขปัญหาการเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: ตั้งค่าฟิลด์และเมนูสำหรับอุปกรณ์เคลื่อนที่
+                  items:
+                    - name: ตั้งค่าคอนฟิกฟิลด์สำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: การรับป้ายทะเบียนผ่านแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ให้แสดงภาพรวมรายการการเบิกสินค้า
+                      href: warehousing/pick-line-overview.md
+                    - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
+                      href: warehousing/pick-oldest-batch.md
+                - name: การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
+                  href: warehousing/mobile-device-user-settings.md
+                - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
+                  href: warehousing/warehouse-app-events.md
+                - name: ปรับแต่งแอปคลังสินค้า
+                  items:
+                    - name: กรอบงานคู่มือกระบวนการ
+                      href: warehousing/process-guide-framework.md
+                    - name: กําหนดไอคอนและชื่อของขั้นตอน
+                      href: warehousing/step-icons-titles.md
             - name: การตั้งค่าคลังสินค้า
               items:
                 - name: การตั้งค่าคอนฟิกคลังสินค้า
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: การพิมพ์ป้ายชื่อของเวฟ
                           href: warehousing/configure-wave-label-printing.md
+                        - name: จัดกำหนดการการพิมพ์ป้ายชื่อเวฟระหว่างเวฟ
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: การบรรจุลงตู้บรรจุสินค้า
                           href: warehousing/wave-containerization.md
+                        - name: กลยุทธ์การบรรจุคอนเทนเนอร์
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: อัปเดตการจัดส่งอัตโนมัติ
                       href: warehousing/auto-update-shipment.md
                     - name: สร้างโพรไฟล์สถานที่
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: การแก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: ติดตั้งและตั้งค่าคอนฟิกแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
-                  items:
-                    - name: ติดตั้งและเชื่อมต่อแอปการบริหารคลังสินค้าบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: ตั้งค่าคอนฟิกฟิลด์สำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: กําหนดไอคอนและชื่อของขั้นตอน
-                      href: warehousing/step-icons-titles.md
-                    - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
-                      href: warehousing/warehouse-app-events.md
-                    - name: การรับป้ายทะเบียนผ่านแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ให้แสดงภาพรวมรายการการเบิกสินค้า
-                      href: warehousing/pick-line-overview.md
-                    - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
-                      href: warehousing/pick-oldest-batch.md
-                    - name: กรอบงานคู่มือกระบวนการ
-                      href: warehousing/process-guide-framework.md
-                    - name: แก้ไขปัญหาการเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: การอัปเกรดและการย้าย
                   items:
                     - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
@@ -3379,20 +3421,36 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: การบริหารสินค้าคงคลัง
               items:
-                - name: ธุรกรรมสินค้าคงคลังหลายรายการสำหรับหมายเลขชุดงานที่ไม่มี "เมื่ออัพเดตตามจริง"
+                - name: ธุรกรรมสินค้าคงคลังหลายรายการสำหรับหมายเลขชุดงานที่ไม่มี "เมื่ออัปเดตตามจริง"
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: การกลับรายการรายงานเมื่อเสร็จสมบูรณ์สร้างธุรกรรมเปิดที่ไม่คาดคิด
                   href: troubleshooting/inventory/reverse-report-as-fi.md
                 - name: รายงานรายการเบิกสินค้าไม่แสดงหมายเหตุใหม่ที่แนบกับสมุดรายวัน
                   href: troubleshooting/inventory/unable-to-print-the.md
-                - name: ปริมาณในใบสั่งตรวจสอบสินค้าที่เริ่มต้นแล้วจะไม่อัพเดตเมื่อมีการแบ่งใบสั่ง
+                - name: ปริมาณในใบสั่งตรวจสอบสินค้าที่เริ่มต้นแล้วจะไม่อัปเดตเมื่อมีการแบ่งใบสั่ง
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: ฟิลด์ วันที่ทดสอบล่าสุด ไม่มีการอัพเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
+                - name: ฟิลด์ วันที่ทดสอบล่าสุด ไม่มีการอัปเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
                   href: troubleshooting/inventory/the-field-last-test.md
                 - name: เมื่อแบ่งปริมาณตามน้ำหนักจริง มีการใช้ปริมาณต่ำสุดแทนที่จะเป็นปริมาณที่ตั้งไว้
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: การวางแผนหลัก
               items:
+                - name: คุณได้รับข้อผิดพลาดเมื่อเรียกใช้กลไกจัดการการวางแผนหลักในตัว
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: สินค้าไม่สามารถมี BOM หรือสูตร
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: ไม่มีพารามิเตอร์สำหรับแผนหลักอยู่
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: ต้องจัดกำหนดการแผนการใบสั่งผลิตก่อนที่จะสามารถยืนยันได้
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: ผลิตภัณฑ์ถูกระงับสำหรับธุรกรรม
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: หมายเลขสูตรที่เลือกไม่ได้รับการอนุมัติสำหรับใบสั่งชุดงาน
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: รหัสผู้จัดจำหน่ายไม่ได้รับอนุญาตสำหรับผลิตภัณฑ์และวันที่เฉพาะ
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: ไม่ได้ระบุผู้จัดจำหน่ายเมื่อยืนยันแผนการใบสั่ง
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: ใบสั่งที่ยืนยันซึ่งสืบทอดมาโดยตรงจะได้รับการประมวลผลโดยลำดับงานที่อยู่ระหว่างการตรวจทาน
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: คุณไม่สามารถกรองสินค้าในการวางแผนหลักตามมูลค่ากลุ่มความครอบคลุมที่เกี่ยวข้องของสินค้า
@@ -3433,7 +3491,7 @@
                   href: troubleshooting/production/raw-material-lines-a.md
                 - name: ข้อผิดพลาดเมื่อลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
                   href: troubleshooting/production/posting-report-as-.md
-                - name: คลังสินค้าในสมุดรายวันรายการเบิกสินค้าไม่ได้รับการอัพเดตในรายการ BOM
+                - name: คลังสินค้าในสมุดรายวันรายการเบิกสินค้าไม่ได้รับการอัปเดตในรายการ BOM
                   href: troubleshooting/production/the-warehouse-in-pic.md
             - name: การจัดการเงินคืน
               items:
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: การจัดการคลังสินค้า
               items:
+                - name: ใบรับสินค้าที่ยกเลิกจะไม่อัปเดตสถานะธุรกรรมเป็นลงทะเบียนแล้ว
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: การปัดทศนิยมของปริมาณที่มีการอัปเดตจริงไม่ถูกต้อง
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: ปริมาณคงเหลือจริงในหน่วยต้องไม่เท่ากับศูนย์
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: ปริมาณที่เบิกไม่เพียงพอระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: ปริมาณเกินเปอร์เซ็นต์การจัดส่งมากกว่าปริมาณที่กําหนดระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: ปริมาณที่คุณพยายามอัปเดตเกินปริมาณที่ได้รับ/ที่จัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: ปริมาณเกินเปอร์เซ็นต์การจัดส่งน้อยกว่าปริมาณที่กําหนดระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: เกิดข้อผิดพลาดขณะเลือกสถานที่ในระหว่างการลงทะเบียนรายการเบิกสินค้า
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: สถานีบรรจุสินค้าไม่แสดงหมายเหตุผลิตภัณฑ์

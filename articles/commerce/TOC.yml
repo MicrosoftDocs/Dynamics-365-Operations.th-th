@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (พฤษภาคม 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (เมษายน 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: ความต้องการสำหรับการกำหนดรุ่นของคอมโพเนนต์ Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: สถาปัตยกรรมกลไกจัดการการค้าแบบไร้ส่วนหัว
+                - name: สถาปัตยกรรมการค้าแบบไร้ส่วนหัว
                   href: dev-itpro/retail-server-architecture.md
                 - name: เลือกโทโพโลยีในร้านค้า
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: ตั้งค่าและปรับใช้การแปล Commerce สําหรับบราซิล
                   href: localizations/latam-bra-deployment.md
+                - name: ฟังก์ชันเอกสารทางการเงินของ NFC-e ใน Commerce POS สำหรับบราซิล
+                  href: localizations/latam-bra-nfce.md
+                - name: จัดการข้อมูลลูกค้าใน POS สำหรับบราซิล
+                  href: localizations/latam-bra-customer-information.md
+                - name: การยกเลิกและการส่งคืนของเอกสาร NFC-e ใน Commerce POS สำหรับบราซิล
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: การลงทะเบียนที่เลื่อนออกไปของเอกสาร NFC-e ที่ออกในโหมดฉุกเฉินแบบออฟไลน์
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: ลงรายการบัญชีเอกสารทางการเงินของบราซิลผ่านใบแจ้งยอดการขายปลีกในศูนย์ควบคุม Commerce
+                  href: localizations/latam-bra-retail-statements.md
             - name: ยุโรปตะวันออก
               items:
                 - name: ทั่วไป
@@ -1458,9 +1466,15 @@
               items:
                 - name: ภาษาสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: ชนิดข้อมูลที่รองรับสำหรับสูตร ER
+                  items:
+                    - name: ชนิดข้อมูลพื้นฐาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: ชนิดข้อมูลแบบรวม
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: ฟังก์ชัน
                   items:
-                    - name: Container
+                    - name: คอนเทนเนอร์
                       items:
                         - name: ฟังก์ชันคอนเทนเนอร์
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/commerce/toc.json
@@ -2002,12 +2016,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Application update 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Application update 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: มอบหมายการสร้างปลายทางการรายงานทางอิเล็กทรอนิกส์ให้กับแฟคทอรีปลายทางแบบกำหนดเอง
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
+                - name: ใช้ปลายทางที่กำหนดเองสำหรับเอกสารที่สร้าง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: แอป Finance and Operations (Dynamics 365) สำหรับอุปกรณ์เคลื่อนที่

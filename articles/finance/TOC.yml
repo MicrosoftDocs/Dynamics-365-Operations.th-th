@@ -1184,13 +1184,13 @@
               href: general-ledger/view-financial-reports.md
             - name: อินเทอร์เฟสใน Report Designer
               href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: แป้นพิมพ์ลัดสำหรับโปรแกรมรายงานทางการเงิน
+            - name: แป้นพิมพ์ลัดสำหรับ Financial Reporter
               href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: การกำหนดลักษณะผู้ใช้ในผู้ออกแบบรายงานทางการเงิน
+            - name: การกำหนดลักษณะผู้ใช้ใน Report Designer ทางการเงิน
               href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
             - name: ตัวเลือกการจัดรูปแบบขั้นสูง
               href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
+            - name: ส่วนประกอบรายงานองค์กรใน Report Designer
               href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
             - name: ข้อกำหนดของรายงาน
               href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน
               href: general-ledger/financial-reporting-faq.md
-        - name: ข้อมูลเชิงลึกทางการเงิน
+        - name: Finance Insights
           items:
-            - name: โฮมเพจข้อมูลเชิงลึกทางการเงิน
+            - name: โฮมเพจ Finance Insights
               href: finance-insights/finance-insights-home-page.md
             - name: การตั้งค่าคอนฟิกและการจัดการ
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: สร้างโครงการตัวรวมข้อมูล
                   href: finance-insights/create-data-integrate-project.md
-            - name: ใช้ข้อมูลเชิงลึกทางการเงิน
+            - name: ใช้ Finance Insights
               items:
                 - name: ข้อเสนองบประมาณ
                   href: finance-insights/budget-proposals.md
@@ -1462,8 +1462,10 @@
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: สร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใน Regulatory Configuration Service และอัปโหลดไปยังที่เก็บส่วนกลาง
+                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Service และอัปโหลดไปยังที่เก็บส่วนกลาง
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service - ลบสภาพแวดล้อม RCS
+                      href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: รายการขายใน EU
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: การรายงานของสหราชอาณาจักร
+                          items:
+                            - name: เตรียมการสำหรับการรวมกับการทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ออสเตรเลีย
@@ -2542,11 +2548,11 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: โอนสินค้าประเภททุนไปยังสินทรัพย์ถาวร
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                    - name: บันทึกและอัพเดตหมายเลขและวันที่ในใบรับรอง TDS
+                    - name: บันทึกและอัปเดตหมายเลขและวันที่ในใบรับรอง TDS
                       items:
                         - name: บันทึกหมายเลขใบรับรอง TDS ที่ได้รับคืน
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                        - name: อัพเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
+                        - name: อัปเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: อิตาลี
               items:
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: ทะเบียนภาษีหนี้สินและการตัดจ่ายหนี้สินของบัญชีเจ้าหนี้
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: ส่วนสํารองของหนี้สูญในบัญชีลูกหนี้
+                      href: localizations/rus-bad-debts.md
             - name: ซาอุดีอาระเบีย
               items:
                 - name: ภาพรวมของซาอุดีอาระเบีย
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: การทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: สถิติเกี่ยวกับรายงานแนวทางปฏิบัติในการชำระเงิน
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: สหรัฐอเมริกา
@@ -3665,9 +3671,15 @@
               items:
                 - name: ภาษาสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: ชนิดข้อมูลที่รองรับสำหรับสูตร ER
+                  items:
+                    - name: ชนิดข้อมูลพื้นฐาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: ชนิดข้อมูลแบบรวม
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: ฟังก์ชัน
                   items:
-                    - name: Container
+                    - name: คอนเทนเนอร์
                       items:
                         - name: ฟังก์ชันคอนเทนเนอร์
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารขาออกในรูปแบบต่างๆ
               items:
+                - name: ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบ Excel
                   items:
                     - name: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: ตัวอย่างของการสร้างรายงานในรูปแบบ OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
@@ -4211,12 +4223,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Application update 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Application update 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: มอบหมายการสร้างปลายทางการรายงานทางอิเล็กทรอนิกส์ให้กับแฟคทอรีปลายทางแบบกำหนดเอง
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                    - name: ใช้ปลายทางที่กำหนดเองสำหรับเอกสารที่สร้าง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
