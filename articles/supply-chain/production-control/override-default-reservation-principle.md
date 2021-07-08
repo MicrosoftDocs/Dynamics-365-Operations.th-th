@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814813"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270798"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 คุณลักษณะ *แทนที่การจองการผลิตเริ่มต้น* ช่วยให้คุณสามารถตั้งค่าหลักการจองเริ่มต้นสำหรับแต่ละกลุ่มแบบจำลองสินค้า ด้วยเหตุนี้ จึงสามารถใช้หลักการจองสินค้าที่แตกต่างกันได้โดยอัตโนมัติกับสินค้าแต่ละรายการที่เป็นส่วนหนึ่งของรายการวัสดุและส่วนประกอบสำหรับการผลิต (BOM) หรือสูตรใบสั่งชุดงาน คุณสามารถเลือกว่ากลุ่มแบบลองสินค้าแต่ละกลุ่มควรแทนที่หลักการจองสินค้าเริ่มต้นที่ตั้งค่าไว้ให้กับใบสั่งหรือไม่ และควรใช้หลักการจองสินค้าใดแทน (*ด้วยตนเอง* *การประเมิน* *การจัดตารางการผลิต* *การปล่อยงานลงในสายการผลิต* หรือ *เริ่มต้น*)
 
@@ -37,7 +36,7 @@ ms.locfileid: "5814813"
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การควบคุมการผลิต*
-- **ชื่อคุณลักษณะ:** *(ตัวอย่าง) แทนที่การจองการผลิตเริ่มต้น*
+- **ชื่อคุณลักษณะ:** *แทนที่การจองการผลิตเริ่มต้น*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>การกําหนดนโยบายการจองการผลิตให้กับกลุ่มแบบจำลองสินค้า
 
