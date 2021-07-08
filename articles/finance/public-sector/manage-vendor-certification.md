@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 06f4a0feda82d20e5ec01fd75e4bb8a597a6d09b
-ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
+ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "5989027"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270515"
 ---
 # <a name="maintain-vendor-certification"></a>รักษาใบรับรองผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายขั้นตอนที่ผู้จัดจำหน่ายของคุณสามารถใช้เพื่อรักษาใบรับรองโดยใช้ **พื้นที่ทำงานร่วมกันให้แก่ผู้จัดจำหน่าย** ตัวอย่างใบรับรองอาจประกอบด้วยบริษัท Woman Business Enterprise (WBE) หรือ Leadership in Energy and Environment Design (LEED) ผู้จัดจำหน่ายต้องป้อนข้อมูลใบรับรองในพื้นที่ทำงาน **ข้อมูลผู้จัดจำหน่าย** จากที่นั่น ผู้จัดจำหน่ายจะเลือก **รายละเอียดเพิ่มเติม** แล้วเลือก **ใบรับรอง**
 

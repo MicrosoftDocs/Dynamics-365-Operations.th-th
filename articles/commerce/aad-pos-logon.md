@@ -13,17 +13,16 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: e271bbae84605b4adace1809b53b7cbdb6932da0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 63121a9b5f1b062b7ca927f6b9eb1689ce8aa698
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020022"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270694"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>กำหนดค่าการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิก Azure Active Directory (Azure AD) เป็นวิธีการรับรองความถูกต้องใน Microsoft Dynamics 365 Commerce ขายหน้าร้าน (POS)
 

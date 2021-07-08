@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923318"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270824"
 ---
 # <a name="feature-management-overview"></a>ภาพรวมของการจัดการคุณลักษณะ
 
@@ -160,8 +160,8 @@ ms.locfileid: "5923318"
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>เหตุใดจึงไม่มี 'วันที่เปิดใช้งานแบบบังคับ' เฉพาะ 
 การปรับปรุงช่วงเวลาที่นำออกใช้เป็นตัวแปร ช่วงเวลาการปรับปรุงสภาพแวดล้อมเป็นตัวแปร และลูกค้าสามารถเลือกที่จะข้ามการปรับปรุงบางอย่างได้ ด้วยเหตุนี้ วันที่ที่เฉพาะเจาะจงจึงยากที่จะกำหนด 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>เอกสารประกอบสำหรับคุณลักษณะที่ถูกทำให้เป็นแบบบังคับอยู่ที่ใด 
-เอกสารประกอบนี้มาจากทึมแอพลิเคชัน บ่อยครั้งที่รายการเหล่านี้จะถูกกล่าวถึงใน [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้](../../../dev-itpro/migration-upgrade/deprecated-features.md) 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>เอกสารประกอบสำหรับคุณลักษณะที่เป็นแบบบังคับอยู่ที่ใด 
+เอกสารประกอบนี้มาจากแต่ละทีมแอพลิเคชัน Dynamics 365 คุณลักษณะเหล่านี้มักจะกล่าวถึงใน [การอัปเดตสถานะคุณลักษณะของไคลเอนต์](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) หรือ [คุณลักษณะที่ลบออกหรือคุณลักษณะที่เลิกใช้](../../../dev-itpro/migration-upgrade/deprecated-features.md) 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>มีการแจ้งเตือนหรือสัญญาณแบบในผลิตภัณฑ์ที่จะมีการเปิดใช้งานคุณลักษณะให้เป็นแบบบังคับหรือไม่ 
 ไม่มีกลไกการแจ้งเตือนที่เกี่ยวข้องกับการทำให้คุณลักษณะเป็นแบบบังคับอยู่ในปัจจุบัน

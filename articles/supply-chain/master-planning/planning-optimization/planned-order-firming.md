@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193892"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271219"
 ---
 # <a name="firm-planned-orders"></a>ยืนยันแผนการใบสั่ง
 
@@ -123,8 +123,6 @@ ms.locfileid: "6193892"
 ถ้าคุณตั้งค่ากรอบเวลากล่าวถึงก่อนหน้านี้ทั้งหมดเป็น *0* (ศูนย์) การยืนยันอัตโนมัติจะปิดใช้งานอย่างมีประสิทธิภาพกับสินค้าที่ครอบคลุมที่เกี่ยวข้อง
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>การยืนยันแผนการใบสั่งโดยใช้การสอบถาม
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 การยืนยันโดยใช้การสอบถามช่วยให้คุณสามารถวางแผนการยืนยันตามเงื่อนไขที่กําหนดไว้ล่วงหน้า ต่างจากการยืนยันอัตโนมัติ การยืนยันตามการสอบถามช่วยให้สามารถยืนยันอัตโนมัติของชุดย่อยต่าง ๆ ของใบสั่ง ณ เวลาต่าง ๆ ได้ นอกจากนี้ คุณยังสามารถใช้การดําเนินงานด้วยตนเองหรือโดยอัตโนมัติในการยืนยันแผนการใบสั่งชนิดต่าง ๆ ได้ คุณยังสามารถดูตัวอย่างใบสั่งที่ยืนยันที่เลือกตามการตั้งค่าของคุณ ดังนั้นคุณจึงสามารถยืนยันการเลือกที่ตรงกับความคาดหวังของคุณ
 

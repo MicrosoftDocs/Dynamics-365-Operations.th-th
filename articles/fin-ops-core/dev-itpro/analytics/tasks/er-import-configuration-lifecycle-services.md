@@ -2,7 +2,7 @@
 title: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 description: หัวข้อนี้อธิบายวิธีการนําเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เวอร์ชันใหม่ จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 674d0dc02b4a53e455a15a06fdb7f24ca3036ba3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b58ecb8a7d6f52631dbca7642a4acbcf6ff895a3
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752375"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270848"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้า [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) รุ่นใหม่จาก [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)
+
+> [!IMPORTANT]
+> การใช้ LCS เป็นที่เก็บหน่วยจัดเก็บเพื่อการตั้งค่าคอนฟิก ER [ไม่ได้รับการสนับสนุน](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) สำหรับข้อมูลเพิ่มเติม ให้ดู [Regulatory Configuration Service (RCS) – การเลิกใช้ที่เก็บข้อมูล Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 ในตัวอย่างนี้ คุณจะสร้างเลือกรุ่นที่ต้องการของการตั้งค่าคอนฟิก ER และนำเข้าสำหรับบริษัทตัวอย่าง ซึ่งคือ Litware, inc ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันระหว่างบริษัท เมื่อต้องการดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ลำดับแรกคุณต้องดำเนินงานขั้นตอนใน [อัปโหลดการตั้งค่าคอนฟิก ER ลงใน Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) ต้องมีสิทธิ์เข้าถึง LCS ด้วยเช่นกัน
 

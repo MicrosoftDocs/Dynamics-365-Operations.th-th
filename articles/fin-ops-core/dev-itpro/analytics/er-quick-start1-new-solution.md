@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224045"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304404"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 
@@ -185,7 +185,7 @@ ms.locfileid: "6224045"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>นำเข้าการตั้งค่าคอนฟิกรูปแบบข้อมูลใหม่
 
-1. ดาวน์โหลดไฟล์ [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**
@@ -300,7 +300,7 @@ ms.locfileid: "6224045"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>นำเข้าการตั้งค่าคอนฟิกการแม็ปรูปแบบใหม่
 
-1. ดาวน์โหลดไฟล์ [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**
@@ -366,7 +366,7 @@ ms.locfileid: "6224045"
     2. เลือก **เพิ่ม**
     3. ในกล่องโต้ตอบ ในฟิลด์ **ชื่อ** ป้อน **\$ResultGroup**
     4. เลือก **แก้ไขสูตร**
-    5. ใน [ตัวแก้ไขสูตร ER](general-electronic-reporting-formula-designer.md) ในฟิลด์ **สูตร** ป้อน **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** เพื่อใช้ [พาธ](er-formula-language.md#paths) ของความสัมพันธ์แบบหนึ่งต่อกลุ่มระหว่างตาราง KMCollection และ KMQuestionResultGroup
+    5. ใน [ตัวแก้ไขสูตร ER](general-electronic-reporting-formula-designer.md) ในฟิลด์ **สูตร** ป้อน **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** เพื่อใช้ [พาธ](er-formula-language.md#Paths) ของความสัมพันธ์แบบหนึ่งต่อกลุ่มระหว่างตาราง KMCollection และ KMQuestionResultGroup
     6. เลือก **ตกลง** และปิดตัวแก้ไขสูตร
     7. เลือก **ตกลง** เพื่อเพิ่มฟิลด์ที่คำนวณ
 
@@ -547,7 +547,7 @@ ms.locfileid: "6224045"
 
 กรอบงาน ER ใช้เท็มเพลตที่กำหนดล่วงหน้าเพื่อสร้างรายงานในรูปแบบ Microsoft Office (สมุดงาน Excel หรือเอกสาร Word) ในขณะที่มีการสร้างรายงานที่ต้องการ จะมีการกรอกเท็มเพลตด้วยข้อมูลที่จำเป็นตามกระแสข้อมูลที่ตั้งค่าคอนฟิก ดังนั้น คุณต้องออกแบบเท็มเพลตสำหรับรายงานแบบกำหนดเองของคุณก่อน เท็มเพลตนี้ต้องออกแบบเป็นสมุดงาน Excel โดยโครงสร้างแสดงถึงโครงร่างของรายงานแบบกำหนดเอง คุณต้องกำหนดชื่อทุกรายการของ Excel ที่คุณวางแผนจะกรอกโดยใช้ข้อมูลที่จำเป็น
 
-1. ดาวน์โหลดไฟล์ [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. เปิดไฟล์ใน Excel และตรวจสอบโครงสร้างของสมุดงาน
 
 เมื่อแสดงภาพต่อไปนี้ เท็มเพลตที่ดาวน์โหลดได้ออกแบบให้พิมพ์แบบสอบถามที่ระบุ ซึ่งแสดงคำถามของแบบสอบถามพร้อมกับคำตอบที่เหมาะสม
@@ -572,7 +572,7 @@ ms.locfileid: "6224045"
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>นำเข้าการตั้งค่าคอนฟิกรูปแบบที่ออกแบบ
 
-1. ดาวน์โหลดไฟล์ [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**

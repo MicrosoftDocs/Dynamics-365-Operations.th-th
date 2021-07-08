@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform update สำหรับ 10.0.18 (พฤษภาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Platform update สำหรับ 10.0.17 (เมษายน 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: เปลี่ยนข้อมูลใน Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: การดำเนินการย้ายฐานข้อมูล
           items:
             - name: ภาพรวม

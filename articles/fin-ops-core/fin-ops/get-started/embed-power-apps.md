@@ -2,7 +2,7 @@
 title: ฝังแอปพื้นที่ทำงาน จาก Power Apps
 description: หัวข้อนี้อธิบายวิธีการฝังแอปพื้นที่ทำงาน จาก Microsoft Power Apps ไปยังไคลเอนต์เพื่อเสริมฟังก์ชันของผลิตภัณฑ์
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 008344766969561417fef5a66faf2c8f0f88910b
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944690"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303423"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>ฝังแอปพื้นที่ทำงาน จาก Power Apps
 
@@ -88,7 +88,7 @@ Microsoft Power Apps เป็นบริการที่อนุญาต�
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 
-If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
+If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>การดูแอปพื้นที่ทำงาน

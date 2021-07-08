@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052084"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271507"
 ---
 # <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน
 
@@ -47,6 +47,12 @@ ms.locfileid: "6052084"
 3. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ
 
 ยอดคงเหลือของคุณจะอัพเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัพเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
+
+
+## <a name="troubleshooting"></a>การแก้ไขปัญหา 
+
+ถ้าลำดับงานคำขอการซื้อและขายวันลางานล้มเหลว ผู้ใช้ที่มีสิทธิ์ **EssLeaveBuySellRequestApprover** สามารถตรวจทานบันทึกข้อความของคำขอการซื้อและขายทั้งหมด ถ้าต้องการดำเนินการนี้ ให้ไปที่ **การลางานและการหยุดงาน >ลิงค์ > คำขอการซื้อและขายวันลางาน > ล็อกข้อความ** (บนซ้าย) **ล็อกข้อความ** จะแสดงผู้ใช้เกี่ยวกับวิธีการประมวลผลธุรกรรมและประวัติลำดับงานที่เกี่ยวข้อง
+
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

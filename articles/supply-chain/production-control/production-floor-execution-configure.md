@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115034"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271166"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 
@@ -64,8 +64,6 @@ ms.locfileid: "6115034"
 - คุณลักษณะสำหรับการล็อคอุปกรณ์บัตรงานและเทอร์มินัลบัตรงานเพื่อให้ทำความสะอาดได้
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>ฟังก์ชันการจัดการสินทรัพย์สำหรับอินเทอร์เฟสการดำเนินการผลิต
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 คุณลักษณะนี้จะเพิ่มแท็บการจัดการสินทรัพย์ในอินเทอร์เฟสการดำเนินการผลิต ผู้ปฏิบัติงานสามารถใช้แท็บนี้เพื่อเลือกสินทรัพย์ที่เชื่อมต่อกับทรัพยากรเครื่องซึ่งอยู่ภายในตัวกรองที่เลือกของรายการงาน สินทรัพย์เครื่องที่เลือก ผู้ปฏิบัติงานสามารถดูสถานะและสภาพของสินทรัพย์จากค่าตัวนับสูงสุดสี่ตัวนับที่เลือก หากคุณต้องการใช้คุณลักษณะนี้ เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6f78441445baecba279f96eb3935d9ebbb4ff03f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021919"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270491"
 ---
 # <a name="predefined-product-variants"></a>ผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 
@@ -76,8 +76,6 @@ ms.locfileid: "6021919"
 1. เลือก **บันทึก**
 
 ## <a name="improved-variant-suggestions"></a>คำแนะนำผลิตภัณฑ์ย่อยที่ปรับปรุงแล้ว
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 คุณลักษณะ *การปรับปรุงหน้าคำแนะนำผลิตภัณฑ์ย่อย* จะปรับปรุงหน้า **คำแนะนำผลิตภัณฑ์ย่อย** เพื่อระบุปัญหาด้านประสิทธิภาพและการใช้งานสำหรับบริษัทที่มีชุดมิติของผลิตภัณฑ์จํานวนมาก กระบวนการขั้นสูงสำหรับการเลือกค่ามิติของผลิตภัณฑ์ที่จะสร้างคำแนะนำผลิตภัณฑ์ย่อย ช่วยให้การระบุและการนำออกใช้ชุดของผลิตภัณฑ์ย่อยที่เกี่ยวข้องเร็วขึ้นและง่ายขึ้น
 

@@ -1,0 +1,69 @@
+---
+title: เปิดใช้งาน Power BI สำหรับการบัญชีสินค้าคงคลังส่วนกลาง
+description: หัวข้อนี้อธิบายวิธีการเปิดใช้งาน Microsoft Power BI สำหรับการบัญชีสินค้าคงคลังส่วนกลาง
+author: AndersGirke
+ms.date: 06/18/2021
+ms.topic: article
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: aevengir
+ms.search.validFrom: 2021-06-18
+ms.dyn365.ops.version: 10.0.20
+ms.openlocfilehash: d7979ed18b98ee6133774cd91bc866d6fca92d5f
+ms.sourcegitcommit: eceae470f4ae58000ec33fea34db34b7a7a1af43
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "6273233"
+---
+# <a name="enable-power-bi-for-global-inventory-accounting"></a>เปิดใช้งาน Power BI สำหรับการบัญชีสินค้าคงคลังส่วนกลาง
+
+[!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+
+คุณสามารถปักหมุดไทล์ แดชบอร์ด และรายงานจากบัญชี [PowerBI.com](https://powerbi.com/) ของคุณไปยังพื้นที่ทำงานแอปพลิเคชัน Microsoft Dynamics 365
+
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+
+ข้อเบื้องต้นต่อไปนี้ต้องอยู่ก่อนคุณจึงจะสามารถเปิดใช้งานการรายงาน Power BI ได้:
+
+- คุณต้องเป็นผู้ดูแลระบบในแอปพลิเคชัน Dynamics 365
+- คุณต้องมีบัญชี [PowerBI.com](https://powerbi.com/)
+- คุณต้องมีอย่างน้อยหนึ่งแดชบอร์ดและหนึ่งรายงานในบัญชี Power BI ของคุณ
+- คุณต้องเป็นผู้ดูแลระบบของบัญชี Azure Active Directory (Azure AD) ของคุณ
+- โดเมน Azure AD ต้องเป็นโดเมนเดียวกันกับที่คุณใช้บัญชี [PowerBI.com](https://powerbi.com/) ของคุณ
+
+## <a name="setup"></a>ตั้งค่า
+
+หากต้องการตั้งค่าการรวม Power BI ให้ทำตามขั้นตอนต่อไปนี้
+
+1. ลงชื่อเข้าใช้ [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index)
+1. ไปที่ **ไลบรารีสินทรัพย์ที่ใช้ร่วมกัน** เลือก **แบบจำลองรายงาน Power BI** เป็นชนิดสินทรัพย์ และดาวน์โหลดแพคเกจ **การบัญชีสินค้าคงคลังส่วนกลาง** 
+1. ลงชื่อเข้าใช้ [PowerBI.com](https://app.powerbi.com/) และอัปโหลดไฟล์รายงาน **การบัญชีสินค้าคงคลังส่วนกลาง** ของ Power BI ตามขั้นตอนต่อไปนี้
+
+    1. เลือก **ใหม่**
+    1. เลือก **อัปโหลดไฟล์**
+    1. เลือกไฟล์รายงาน **การบัญชีสินค้าคงคลังส่วนกลาง** ของ Power BI
+
+1. ตั้งค่าคอนฟิกรายงาน **การบัญชีสินค้าคงคลังส่วนกลาง** ของ Power BI โดยปฏิบัติตามขั้นตอนต่อไปนี้
+
+    1. ไปที่ **พื้นที่ทำงานของฉัน** ค้นหาชุดข้อมูลของการบัญชีสินค้าคงคลังส่วนกลาง จากนั้นไปที่เมนู **ตัวเลือก** ให้เลือก **การตั้งค่า**
+    1. ใน **การตั้งค่าการบัญชีสินค้าคงคลังส่วนกลาง** ให้ขยาย **พารามิเตอร์** และอัปเดตพารามิเตอร์ทั้งหมดตามที่ต้องการ
+
+1. ลงทะเบียนแอปพลิเคชันตามที่อธิบายไว้ใน [ตั้งค่าคอนฟิกการรวม PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process)
+1. รวมไฟล์รายงาน **การบัญชีสินค้าคงคลังส่วนกลาง** ของ Power BI ลงใน Dynamics 365 Supply Chain Management โดยปฏิบัติตามขั้นตอนต่อไปนี้
+
+    1. ไปที่ **การจัดการระบบ \> การตั้งค่า \> การตั้งค่าคอนฟิก PowerBI.com**
+    1. เลือก **แก้ไข**
+    1. เลือก **เปิดใช้งานการรวม PowerBI.Com**
+    1. ในฟิลด์ **รหัสแอพลิเคชัน** ให้ป้อนรหัสแอปพลิเคชัน:
+    1. ในฟิลด์ **คีย์แอพลิเคชัน** ให้ป้อนคีย์แอปพลิเคชัน:
+    1. เลือก **บันทึก**
+
+1. รีเฟรชหน้าเพื่อให้กล่องโต้ตอบการลงชื่อเข้าใช้ Power BI ปรากฏขึ้น
+1. บนแท็บ **ตัวเลือก** ให้เลือก **เปิดแค็ตตาล็อกรายงาน** แล้วเลือกไฟล์รายงาน **การบัญชีสินค้าคงคลังส่วนกลาง** ของ Power BI ที่คุณอัปโหลดไว้ก่อนหน้านี้
+1. รีเฟรชหน้า คุณควรดูว่ามีการเพิ่มรายงานแล้ว
+1. ใต้ **รายงาน Power BI** เลือกลิงค์ **การบัญชีสินค้าคงคลังส่วนกลาง**
+
+สำหรับข้อมูลเพิ่มเติม ดู [ตั้งค่าคอนฟิกการรวม PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md)

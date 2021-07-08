@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103604"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301685"
 ---
 # <a name="get-started-with-planning-optimization"></a>เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
 
@@ -109,6 +109,8 @@ ms.locfileid: "6103604"
 
 - **ใช่** – การเพิ่มประสิทธิภาพการวางแผนใช้สำหรับการวางแผนหลัก
 - **ไม่ใช่** กลไกจัดการการวางแผน Supply Chain Management ในตัวใช้สำหรับการวางแผนหลัก
+
+การตั้งค่านี้จะใช้กับนิติบุคคลทั้งหมด (บริษัท) การเพิ่มประสิทธิภาพการวางแผนไม่สามารถใช้ได้ในนิติบุคคลบางรายการและการวางแผนหลักในตัวในนิติบุคคลอื่นๆ
 
 > [!NOTE]
 > ถ้าชุดงานการวางแผนที่มีอยู่ที่สร้างไว้สำหรับกลไกจัดการการวางแผน Supply Chain Management ในตัวถูกทริกเกอร์ในขณะที่ตัวเลือก **ใช้การเพิ่มประสิทธิภาพการวางแผน** ถูกตั้งค่าเป็น **ใช่**  งานเหล่านั้นจะล้มเหลว

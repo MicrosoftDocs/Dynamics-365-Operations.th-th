@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 461e79f63569bbfe77f9075c562a5b1f3da28cc2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e46b04005b03a2a4c1ce50650a51ba4e02d85111
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018866"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270920"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>ตั้งค่าไซต์อีคอมเมิร์ซ B2B
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 ไซต์อีคอมเมิร์ซระหว่างธุรกิจ (B2B) มีความสามารถหลักบางอย่างที่เพิ่มประสิทธิภาพลำดับงานให้กับผู้ใช้ B2B หัวข้อนี้อธิบายวิธีการตั้งค่าไซต์อีคอมเมิร์ซ B2B ใน Microsoft Dynamics 365 Commerce โดยจะผ่านโมดูลและการตั้งค่าไซต์ที่ต้องตั้งค่าคอนฟิกเพื่อเปิดใช้งานสถานการณ์ที่กําหนดไว้เฉพาะ B2B
 

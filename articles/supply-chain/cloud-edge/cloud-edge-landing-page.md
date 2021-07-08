@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938311"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261757"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>สเกลยูนิตในระบบคลาวด์และ Edge สำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938311"
 > [!IMPORTANT]
 > ความสามารถด้าน scale unit ของ Microsoft Dynamics 365 Supply Chain Management มีไว้ให้คุณภายใต้เงื่อนไขที่ควบคุมการใช้งานบริการ สำหรับข้อมูลเพิ่มเติม ดูที่ [ข้อมูลทางกฎหมาย Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927)
 >
-> โดยการเปิดใช้งาน cloud และ edge scale unit คุณยืนยันว่าคุณเข้าใจว่าข้อมูลบางอย่างที่เกี่ยวข้องกับการตั้งค่าคอนฟิกและการประมวลผลของ cloud และ edge scale unit อาจจัดเก็บอยู่ในศูนย์ข้อมูลที่อยู่ในสหรัฐอเมริกา หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการประมวลผลข้อมูลของหน่วย Cloud และ edge scale units ให้ดูที่ส่วน [การประมวลผลข้อมูลในระหว่างการจัดการ scale units](#data-processing-management) ในภายหลังในหัวข้อนี้
+> เมื่อคุณเปิดใช้งาน Cloud และ edge scale unit คุณจะได้รับการร้องขอให้ยืนยันว่าคุณเข้าใจว่าข้อมูลบางอย่างที่เกี่ยวข้องกับการตั้งค่าคอนฟิกและการประมวลผลของ cloud และ edge scale unit อาจจัดเก็บอยู่ในศูนย์ข้อมูลที่อยู่ในสหรัฐอเมริกา หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการประมวลผลข้อมูลของหน่วย Cloud และ edge scale units ให้ดูที่ส่วน [การประมวลผลข้อมูลในระหว่างการจัดการ scale units](#data-processing-management) ในภายหลังในหัวข้อนี้
 
 ## <a name="core-value-proposition-for-scale-units"></a>ข้อเสนอค่าหลักของ scale units
 

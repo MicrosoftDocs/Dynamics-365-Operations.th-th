@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (มิถุนายน 2021)
+title: มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.19 (มิถุนายน 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.19
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114986"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271460"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.19 (มิถุนายน 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.19 (มิถุนายน 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.19 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.837 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.19 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.837 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** เมษายน 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** มิถุนายน 2021
@@ -32,7 +31,7 @@ ms.locfileid: "6114986"
 
 ตารางต่อไปนี้มีคุณลักษณะที่รวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงข้อมูลและ/หรือลิงค์เพิ่มเติมไปที่เอกสารที่เกี่ยวข้อง
 
-คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
+คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 | พื้นที่คุณลักษณะ | ลักษณะการทำงาน | ข้อมูลเพิ่มเติม |
 |---|---|---|

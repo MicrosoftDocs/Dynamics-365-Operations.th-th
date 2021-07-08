@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057369"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303255"
 ---
 # <a name="manage-leave-and-absence-requests"></a>จัดการกับคำขอการลางานและการขาดงาน
 
@@ -34,11 +34,9 @@ ms.locfileid: "6057369"
 
 3. ดูและอนุมัติคำขอเวลาหยุดพักของสมาชิกทีมงานได้ตามความจำเป็น
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(พรีวิว) การปรับปรุงประสบการณ์ของลำดับงานการขอลางาน
+## <a name="leave-request-workflow-experience-enhancements"></a>การปรับปรุงประสบการณ์ของลำดับงานการขอลางาน
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-คุณลักษณะพรีวิวนี้จะมีการปรับปรุงดังต่อไปนี้:
+คุณลักษณะนี้จะมีการปรับปรุงดังต่อไปนี้:
 
 - คุณสามารถเลือกคำขอลางานได้หลายรายการ และทำการดำเนินการเดียวกันกับคำขอทั้งหมดได้
 - Ribbon ทั่วทั้งปุ่มลำดับงานด้านบนและใหม่บนหน้า แสดงกิจกรรมที่คุณสามารถใช้ในคำขอลางานได้

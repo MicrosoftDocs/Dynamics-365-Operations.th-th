@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908891"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301661"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
 
@@ -39,26 +39,6 @@ ms.locfileid: "5908891"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนําเข้าข้อมูล รวมถึงวิธีการล้างข้อมูลหลังจากการนําเข้า โปรดดู [ภาพรวมของงานการนําเข้าและส่งออกข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) และหัวข้อที่เกี่ยวข้อง
 
-## <a name="example"></a>ตัวอย่าง
-
-คุณสามารถใช้ไฟล์ต่อไปนี้เป็นตัวอย่างได้ ดาวน์โหลด [HistoricalDemandData](/dynamics/s-e/) ไฟล์นี้ประกอบด้วยข้อมูลความต้องการในอดีตสำหรับสินค้า D0001 ซึ่งประกอบด้วยฟิลด์บังคับต่อไปนี้เท่านั้น: ไซต์ ปริมาณ และวันที่ของความต้องการ
-
-1. เลือกบริษัทที่จะนำเข้าข้อมูลความต้องการในอดีต
-2. เปิดพื้นที่ทำงาน **การจัดการข้อมูล**
-3. เลือกไทล์ **นำเข้า**
-4. ป้อนชื่อสำหรับโครงการนำเข้า เช่น **นำเข้าความต้องการในอดีตสำหรับสินค้า D0001**
-5. ในฟิลด์ **รูปแบบข้อมูลต้นทาง** เลือกรูปแบบไฟล์ของไฟล์ที่คุณกำลังนำเข้า เมื่อต้องการนำเข้าไฟล์ HistoricalDemandData สำหรับตัวอย่างนี้ เลือก **CSV**
-6. ในฟิลด์ **ชื่อเอนทิตี้** เลือก **ความต้องการภายนอกในอดีต**
-7. บันทึกไฟล์ลงในคอมพิวเตอร์ของคุณ แล้วอัพโหลด
-8. เลือก **นำเข้า**
-9. หน้า **สรุปการดำเนินการ** เปิดขึ้นโดยอัตโนมัติ ตรวจสอบข้อมูลที่นำเข้าบนหน้า
-
-หลังจากที่คุณนำเข้าข้อมูลความต้องการในอดีต คุณสามารถสร้างการคาดการณ์ความต้องการได้
-
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-
-[สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)  
-[ภาพรวมของงานการนำเข้าและส่งออกข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+ดูเพิ่มเติมที่ [สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
