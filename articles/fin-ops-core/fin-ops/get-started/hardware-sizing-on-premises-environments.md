@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343969"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 

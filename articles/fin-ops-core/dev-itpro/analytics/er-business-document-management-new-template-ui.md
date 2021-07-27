@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350195"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Microsoft Office-อินเทอร์เฟสผู้ใช้รูปแบบของเอกสารใหม่ในการจัดการเอกสารทางธุรกิจ
 
@@ -62,7 +62,7 @@ ms.locfileid: "5881047"
 5. ในฟิลด์ **ข้อคิดเห็น** ให้ปรับปรุงหมายเหตุสำหรับการแก้ไขแม่แบบที่แก้ไขได้ที่สร้างขึ้นโดยอัตโนมัติ
 6. เลือก **ตกลง** เพื่อยืนยันการเริ่มต้นของกระบวนการแก้ไข
 
-    ![กล่องโต้ตอบการสร้างเอกสาร ](./media/BDM_overview_new_template3.png)
+    ![กล่องโต้ตอบการสร้างเอกสาร](./media/BDM_overview_new_template3.png)
 
 ปุ่ม **เอกสารใหม่** ใช้ในการสร้างและแก้ไขแม่แบบในการกำหนดค่ารูปแบบรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดทำโดยผู้ให้บริการรายอื่น ตัวอย่างในหัวข้อนี้ ผู้ให้บริการ คือ Microsoft เมื่อคุณเลือก **เอกสารใหม่** คุณสามารถดูแม่แบบทั้งหมดที่เป็นของผู้ให้บริการปัจจุบันและผู้ให้บริการรายอื่นได้ หลังจากที่คุณเลือกแม่แบบแล้ว แม่แบบจะเปิดให้แก้ไขได้ จากนั้น เท็มเพลตที่แก้ไขจะถูกจัดเก็บไว้ในการตั้งค่าคอนฟิกรูปแบบ ER ใหม่ที่สร้างขึ้นโดยอัตโนมัติ
 

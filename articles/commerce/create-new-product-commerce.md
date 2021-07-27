@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352433"
 ---
 # <a name="create-a-new-product-in-commerce"></a>สร้างผลิตภัณฑ์ใหม่ใน Commerce
 
@@ -107,7 +107,7 @@ ms.locfileid: "5795726"
 
 ![ตั้งค่าคอนฟิกผลิตภัณฑ์ที่นำออกใช้](media/create-new-product-8.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [สร้างนิติบุคคล](channels-legal-entities.md)
 

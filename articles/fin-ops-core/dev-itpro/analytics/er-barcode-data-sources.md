@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: f72ef77a35c484a40e1384baf69001bba6a333f6
-ms.sourcegitcommit: ec272aa133189569abaf4c09b03230611b5a756f
+ms.openlocfilehash: e0ba43ff1bab391d141f28289144cc552ee28609
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "6274547"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351829"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>การใช้แหล่งข้อมูลบาร์โค้ดเพื่อสร้างรูปภาพของบาร์โค้ด
 
@@ -160,7 +160,7 @@ ms.locfileid: "6274547"
 7. ในบานหน้าต่างการดำเนินการ เลือก **การทดสอบการพิมพ์**
 8. ในกล่องโต้ตอบ ให้ตั้งค่าตัวเลือก **รูปแบบเช็คที่เปลี่ยนมือได้** เป็น **ใช่** และจากนั้น เลือก **ตกลง**
 
-    ![กล่องโต้ตอบโครงร่างเช็ค - การทดสอบการพิมพ์](./media/er-barcode-data-source-check-layout.png)
+    ![กล่องโต้ตอบโครงร่างเช็ค - ทดสอบการพิมพ์](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>รีวิวเช็คการชำระเงินที่สร้างขึ้น
 
@@ -195,7 +195,7 @@ ms.locfileid: "6274547"
 11. เลือกแท็บ **การแม็ป** ทางด้านขวาของหน้า และจากนั้น ในบานหน้าต่างแผนภูมิรูปแบบทางด้านซ้าย ให้เลือก **ขยาย/ยุบ**
 12. โปรดสังเกตว่ามีการเพิ่มองค์ประกอบเซลล์ **AmountBarcode** ลงในรูปแบบแล้ว องค์ประกอบนี้สัมพันธ์กับองค์ประกอบ **AmountBarcode** ซึ่งถูกเพิ่มลงในเท็มเพลต Excel ที่แก้ไขแล้วเป็นตัวยึดสำหรับรูปบาร์โค้ด
 
-    ![มีการเพิ่มองค์ประกอบเซลล์ AmountBarcode ไปยังรูปแบบในตัวออกแบบการดำเนินการ ER](./media/er-barcode-data-source-cell-added.png)
+    ![มีการเพิ่มองค์ประกอบเซลล์ AmountBarcode ไปยังรูปแบบในโปรแกรมออกแบบการดำเนินการ ER](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>เพิ่มแหล่งข้อมูลบาร์โค้ดใหม่
 
@@ -232,7 +232,7 @@ ms.locfileid: "6274547"
 7. เลือก **บันทึก** และจากนั้น ปิด [ตัวออกแบบสูตร ER](general-electronic-reporting-formula-designer.md)
 8. โปรดสังเกตว่ามีการปรับปรุงการผูกข้อมูลแล้ว
 
-    ![การผูกข้อมูลที่ปรับปรุงในตัวออกแบบการดำเนินการ ER](./media/er-barcode-data-source-bind2.png)
+    ![การผูกข้อมูลที่ปรับปรุงในโปรแกรมออกแบบการดำเนินการ ER](./media/er-barcode-data-source-bind2.png)
 
 9. เลือก **บันทึก** และจากนั้น ปิดตัวออกแบบการดำเนินการ ER
 

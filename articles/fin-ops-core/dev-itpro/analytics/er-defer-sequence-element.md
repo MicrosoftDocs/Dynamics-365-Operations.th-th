@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944520"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348103"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>เลื่อนการดำเนินการขององค์ประกอบลำดับในรูปแบบ ER
 
@@ -117,7 +117,7 @@ ms.locfileid: "5944520"
     - แหล่งข้อมูล **ที่มีการจัดกลุ่ม** ของชนิด *กลุ่มตามชนิด* ถูกตั้งค่าเพื่อจัดกลุ่มธุรกรรมภาษีที่ถูกกรองของแหล่งข้อมูล **ที่ถูกกรอง**
     - ฟิลด์การรวม **TotalSum** ของแหล่งข้อมูล **ที่มีการจัดกลุ่ม** ถูกตั้งค่าคอนฟิกเพื่อสรุปค่าของฟิลด์ **\$TaxAmount** ของแหล่งข้อมูล **ที่ถูกกรอง** สำหรับธุรกรรมภาษีที่กรองทั้งหมดของแหล่งข้อมูลนั้น
 
-        ![ฟิลด์การรวม TotalSum บนหน้าพารามิเตอร์แก้ไข 'GroupBy'](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![ฟิลด์การรวม TotalSum บนหน้าพารามิเตอร์ 'GroupBy' แก้ไข](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. ตรวจสอบวิธีการผูกแหล่งข้อมูลที่ตั้งค่าคอนฟิกกับแบบจำลองข้อมูลและวิธีการที่จะเปิดเผยข้อมูลที่เข้าถึงเพื่อให้มีอยู่ในรูปแบบ ER:
 
@@ -162,7 +162,7 @@ ms.locfileid: "5944520"
     - องค์ประกอบ **TotalTaxAmount** ถูกผูกไว้ **model.Data.Summary.Total** เพื่อสร้างผลรวมของมูลค่าภาษีของธุรกรรมภาษีที่ประมวลผล
     - องค์ประกอบ **ExecutionDateTime** สร้างวันที่และเวลา (รวมถึงมิลลิวินาที) เมื่อมีการเพิ่มรายการสรุป
 
-    ![แท็บการแม็ปบนตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format2.png)
+    ![แท็บการแม็ปบนหน้าตัวออกแบบรูปแบบ](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>รันรูปแบบที่นำเข้า
 

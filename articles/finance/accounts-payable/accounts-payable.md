@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21901
+ms.custom:
+- "21901"
+- intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: e284e84c5f049c912d54d2c5ae72a622f5cfdbbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897021"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344841"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
@@ -36,7 +38,7 @@ ms.locfileid: "5897021"
 
 ## <a name="set-up-accounts-payable"></a>ตั้งค่าบัญชีเจ้าหนี้
 
-ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น 
+ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงรายการบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น 
 
 [ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้](accounts-payable-overview.md)
 

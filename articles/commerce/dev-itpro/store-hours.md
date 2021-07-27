@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792940"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348253"
 ---
 # <a name="create-and-update-store-hours"></a>สร้างและอัพเดตชั่วโมงทำการของร้านค้า
 
@@ -49,7 +49,7 @@ ms.locfileid: "5792940"
     > [!NOTE]
     > คุณสามารถสร้างเท็มเพลตได้หลายเท็มเพลตที่มีวันที่เริ่มต้นและสิ้นสุดที่ทับซ้อนกัน อย่างไรก็ตาม คุณสามารถกำหนดชั่วโมงทำการของร้านค้าสำหรับร้านค้าในโซนเวลาที่แตกต่างกันได้
 
-    ![กล่องโต้ตอบของการเพิ่มช่วง](../dev-itpro/media/Storehours1.png "กล่องโต้ตอบของการเพิ่มช่วง")
+    ![กล่องโต้ตอบการเพิ่มช่วง](../dev-itpro/media/Storehours1.png "กล่องโต้ตอบของการเพิ่มช่วง")
 
 4. เชื่อมโยงเท็มเพลตชั่วโมงทำการของร้านค้ากับร้านค้าที่จะใช้ ในกล่องโต้ตอบ **เลือกโหนดองค์กร** เลือกร้านค้า ภูมิภาค และองค์กรที่ควรเชื่อมโยงกับเท็มเพลต
 

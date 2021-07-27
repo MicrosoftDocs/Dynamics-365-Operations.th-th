@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359520"
 ---
 # <a name="transportation-management-overview"></a>ภาพรวมของการจัดการการขนส่ง
 
@@ -77,7 +79,7 @@ ms.locfileid: "5807739"
 ## <a name="outbound-transportation"></a>การขนส่งขาออก
 คุณสามารถวางแผน และดำเนินการบรรทุกขาออกเพื่อจัดส่งสินค้าเฉพาะจากคลังสินค้าของบริษัทให้กับลูกค้า คุณสามารถใช้ Supply Chain Management เพื่อวางแผนการขนส่งและการจัดส่งโหลดขาออก ภาพประกอบต่อไปนี้ แสดงลำดับกระบวนการทางธุรกิจสำหรับการวางแผนและการดำเนินการขนส่งการบรรทุกขาออกสำหรับการจัดส่ง 
 
-![การวางแผนและการประมวลผลโหลดขาออก](./media/Planningandprocessingoutboundloads.jpg)
+![การวางแผนและการประมวลผลการบรรทุกขาออก](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>การสร้างการบรรทุก
 Supply Chain Management แสดงกลยุทธ์การสร้างโหลดที่ชื่อกลยุทธ์การสร้างโหลดตามปริมาตร กลยุทธ์นี้ช่วยให้คุณสามารถใช้ค่าสูงสุดที่ระบุสำหรับความสูงและน้ำหนักในเท็มเพลตของโหลด หรือคุณสามารถแทนที่การตั้งค่าโดยการป้อนค่าใหม่ ในการใช้กลยุทธ์นี้ เลือกฟิลด์ **กลยุทธ์การสร้างการบรรทุก** ในแท็บด่วน **ตั้งค่า** บนหน้า **เวิร์กเบนช์การสร้างการบรรทุก** ได้ นอกจากนี้ คุณสามารถเพิ่มกลยุทธ์การสร้างการบรรทุกด้วยตัวของคุณเองได้ โดยการสร้างคลาสใหม่ใน Application Object Tree (AOT)

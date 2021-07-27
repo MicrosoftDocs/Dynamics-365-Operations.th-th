@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750495"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350267"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ 
 
@@ -58,7 +58,7 @@ ms.locfileid: "5750495"
 
     มีการเปิดแม่แบบใหม่สำหรับการแก้ไขในตัวควบคุมฝังตัวแบบออนไลน์ของ Excel บนหน้าโปรแกรมแก้ไขแม่แบบ
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเริ่มต้นการแก้ไขแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเริ่มต้นการแก้ไขแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>ตรวจทานโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้
 
@@ -68,7 +68,7 @@ ms.locfileid: "5750495"
 4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 5. โปรดสังเกตว่าในโครงสร้างแม่แบบในทางการเงิน รายการ **rptHeaderCompLogo** จะมีการแสดงเป็นรายการรองของ **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อทบทวนโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อทบทวนโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>อัปเดตโครงสร้างของเท็มเพลตเอกสารทางธุรกิจโดยการลบรูปภาพ
 
@@ -85,7 +85,7 @@ ms.locfileid: "5750495"
 4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 5. โปรดสังเกตว่า รายการ **rptHeaderCompLogo** ไม่รวมอยู่ในโครงสร้างแม่แบบในการเงินอีกต่อไป
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อลบรูปภาพจากแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อลบรูปภาพจากแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจโดยการเพิ่มรูปภาพ
 
@@ -97,7 +97,7 @@ ms.locfileid: "5750495"
 6. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 7. โปรดสังเกตว่ารูปภาพใหม่รวมเป็นรายการในโครงสร้างแม่แบบในการเงิน
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเพิ่มรูปภาพแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อเพิ่มรูปภาพแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>ลิงค์ที่เกี่ยวข้อง
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351925"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ตั้งค่าคอนฟิกรูปแบบ ER เพื่อใช้พารามิเตอร์ที่ระบุสำหรับแต่ละนิติบุคคล
 
@@ -223,7 +223,7 @@ ms.locfileid: "6018297"
 9.  เลือก **การแปล**
 10. เลือก **ตกลง**
 
-    ![slide out ของคุณสมบัติแหล่งข้อมูล](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Slide out ของคุณสมบัติแหล่งข้อมูล](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>เพิ่มฟิลด์ใหม่เพื่อใช้การค้นหาที่ตั้งค่าคอนฟิก
 
@@ -269,7 +269,7 @@ ms.locfileid: "6018297"
 
 4.  ในฟิลด์ **สูตร** ให้ป้อน **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")**
 
-    ![เพจตัวออกแบบการดำเนินงาน ER](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![หน้าตัวออกแบบการดำเนินงาน ER](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     โปรดสังเกตว่านิพจน์ของฟิลด์ **Model.Data.Summary.Level** จะส่งคืนระดับภาษี ขึ้นอยู่กับรหัสภาษีของเรกคอร์ดปัจจุบัน และชุดของกฎที่ผู้ใช้ทางธุรกิจมีการตั้งค่าคอนฟิกในแหล่งข้อมูลการค้นหา **Model.Data.Selector**
     

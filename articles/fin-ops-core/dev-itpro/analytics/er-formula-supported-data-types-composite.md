@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355357"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
@@ -43,13 +43,13 @@ ms.locfileid: "6224116"
 
 ภาพประกอบต่อไปนี้แสดงวิธีการเพิ่มแหล่งข้อมูล **ข้อมูลระบบ (xInfo)** ของชนิด **คลาส** เพื่อทําให้อินสแตนซ์ของคลาสโปรแกรมประยุกต์ **xInfo** และเรียกใช้วิธีการ **productName()** เพื่อรับชื่อของโปรแกรมประยุกต์ปัจจุบัน ชื่อของโปรแกรมประยุกต์ปัจจุบันถูกดึงมาขณะทํางานโดยการดําเนินการของการผูก `xInfo.productName` ที่ถูกกําหนดค่าสําหรับฟิลด์ **ชื่อซอฟต์แวร์ (SoftwareName)** ของรูปแบบข้อมูล ER การผูกข้อมูลนี้เรียกวิธีการ `productName()` ของคลาสโปรแกรมประยุกต์ **xInfo** ที่แสดงในการแมปแบบจําลองปัจจุบันเป็นแหล่งข้อมูล **ข้อมูลระบบ (xInfo)**
 
-[![ตั้งค่าคอนฟิกแหล่งข้อมูล คลาส ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![ตั้งค่าคอนฟิกแหล่งข้อมูลคลาส ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 ภาพประกอบต่อไปนี้แสดงวิธีการตั้งค่าคอนฟิกรูปแบบ ER เพื่อใส่ชื่อโปรแกรมประยุกต์ที่ให้ไว้ในเอกสารที่สร้างขึ้น ฟิลด์ **ชื่อซอฟต์แวร์ (SoftwareName)** ของรูปแบบข้อมูลที่ใช้ถูกผูกอยู่กับส่วนประกอบ **สตริง** ที่ซ้อนกันภายใต้องค์ประกอบ XML **softwareUsed** ของรูปแบบ ER ดังนั้นชื่อของโปรแกรมประยุกต์ปัจจุบันจะถูกวางขณะใช้งานจริงไปยังองค์ประกอบ XML **softwareUsed** ของเอกสารที่สร้างขึ้นในรูปแบบ XML
 
 [![การตั้งค่าคอนฟิกโครงสร้างของเอกสารขาออกทางอิเล็กทรอนิกส์ในตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
-## <a name="container"></a><a name="container"></a>Container
+## <a name="container"></a><a name="container"></a>คอนเทนเนอร์
 
 ชนิดข้อมูล *คอนเทนเนอร์* มีเนื้อหาแบบไบนารี ค่า *คอนเทนเนอร์* สามารถใช้ส่งผ่านข้อมูลเฉพาะจากที่เก็บข้อมูลไปยังเอกสารที่สร้างขึ้น ในกรอบงาน ER ชนิดข้อมูลนี้มักใช้ในใส่เนื้อหาสื่อ เช่น โลโกบริษัทในเอกสารที่สร้างขึ้น
 
@@ -109,7 +109,7 @@ ms.locfileid: "6224116"
 
 ภาพประกอบต่อไปนี้แสดงวิธีการเพิ่มแหล่งข้อมูล **ReportDataContract** ของชนิด *ออบเจ็กต์* เพื่อส่งผ่านข้อมูลเกี่ยวกับใบแจ้งหนี้ที่สร้างขึ้นจากรหัสแหล่งที่มาไปยังการแม็ปแบบจําลอง **ใบแจ้งหนี้โครงการ** ตัวอย่างเช่น ข้อความอินสแตนซ์ใบแจ้งหนี้จะถูกส่งผ่านเป็นส่วนหนึ่งของบริบทการดําเนินการ ข้อความนี้นํามาจากซอร์สโค้ดขณะรันไทม์โดยการดําเนินการผูกข้อมูล `ReportDataContract.parmInvoiceInstanceText` ที่ถูกกําหนดค่าสําหรับฟิลด์ **หมายเหตุ** ของรูปแบบข้อมูล ER การผูกข้อมูลนี้เรียกวิธีการ `parmInvoiceInstanceText()` ของคลาสโปรแกรมประยุกต์ **PSAProjInvoiceContract** ที่แสดงในการแมปแบบจําลองปัจจุบันเป็นแหล่งข้อมูล **ReportDataContract**
 
-[![ตั้งค่าคอนฟิกแหล่งข้อมูล ออบเจกต์ ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![ตั้งค่าคอนฟิกแหล่งข้อมูลออบเจกต์ ในหน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 เมื่อต้องการเรียนรู้วิธีส่งผ่านรายละเอียดของบริบทการดําเนินการจากโค้ดต้นฉบับไปยังโซลูชัน ER ที่กําลังทํางานอยู่ ให้ดูที่ [พัฒนาสิ่งประดิษฐ์ของแอปพลิเคชันเพื่อเรียกใข้รายงานที่ออกแบบไว้](er-quick-start1-new-solution.md#DevelopCustomCode)
 

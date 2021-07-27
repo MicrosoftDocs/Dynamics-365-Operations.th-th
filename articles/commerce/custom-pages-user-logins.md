@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936791"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349661"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
 
@@ -40,7 +40,7 @@ ms.locfileid: "5936791"
 
 หลังจากที่คุณตั้งค่าผู้เช่า B2C Azure AD ของคุณ และเชื่อมโยงกับสภาพแวดล้อม Commerce ให้ไปที่หน้า **Azure AD B2C** ในพอร์ทัล Azure จากนั้นบนเมนูภายใต้ **นโยบาย** ให้เลือก **ขั้นตอนของผู้ใช้ (นโยบาย)**
 
-![คำสั่งขั้นตอนของผู้ใช้ (นโยบาย) บนเมนู](./media/B2C_CustomPage_PoliciesMenu.png)
+![คำสั่งโฟลว์ผู้ใช้ (นโยบาย) บนเมนู](./media/B2C_CustomPage_PoliciesMenu.png)
 
 ขณะนี้คุณสามารถตั้งค่าคอนฟิก "ลงทะเบียนและลงชื่อเข้าใช้" "แก้ไขโพรไฟล์" และ "รีเซ็ตรหัสผ่าน" ผู้ใช้ในขั้นตอนการลงชื่อเข้าใช้
 
@@ -192,7 +192,7 @@ ms.locfileid: "5936791"
 
 อย่างไรก็ตาม ในไฟล์ global.json สำหรับโมดูลการลงชื่อเข้าใช้ในไลบรารีโมดูล คุณสามารถแก้ไขข้อความเป็น **ลืมรหัสผ่านใช่หรือไม่** ดังที่แสดงในภาพประกอบต่อไปนี้
 
-![ข้อความลิงก์ที่อัพเดตในการลงชื่อเข้าใช้ในโมดูลไฟล์ global.json](./media/B2C_CustomizingStringsForModule.png)
+![ข้อความลิงก์ที่อัพเดตในการลงชื่อเข้าใช้ไฟล์ global.json ของโมดูล](./media/B2C_CustomizingStringsForModule.png)
 
 หลังจากที่คุณอัปเดตไฟล์ global.json และเผยแพร่การเปลี่ยนแปลงของคุณ ข้อความลิงก์ใหม่จะปรากฏขึ้นในโมดูลการลงชื่อเข้าใช้ ทั้งใน Commerce และบนหน้าลงชื่อเข้าใช้แบบใช้งานจริง
 

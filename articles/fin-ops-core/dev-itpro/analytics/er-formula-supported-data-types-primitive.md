@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224117"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355333"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลพื้นฐานที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
@@ -126,11 +126,11 @@ ms.locfileid: "6224117"
 
 - สามารถเข้าถึงการแจงนับแอปพลิเคชันได้โดยใช้แหล่งข้อมูล **Dynamics 365 for Operations \ การแจงนับ** และ **พารามิเตอร์ที่ผู้ใช้ป้อน/ทั่วไป** ภาพประกอบต่อไปนี้แสดงวิธีการที่คุณสามารถเพิ่มในรูปแบบ ER ที่แก้ไขได้ **appenumNoYes** และแหล่งข้อมูล **uipNoYes** ที่อ้างอิงถึงการแจงนับแอปพลิเคชัน **NoYes**
 
-    [![การเพิ่มแหล่งข้อมูลการแจงนับแอปพลิเคชันตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![การเพิ่มแหล่งข้อมูลการแจงนับแอปพลิเคชันในตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - การแจงนับรูปแบบข้อมูลสามารถเข้าถึงได้โดยใช้แหล่งข้อมูล **รูปแบบข้อมูล \ การแจงนับ** และ **พารามิเตอร์ที่ผู้ใช้ป้อนการแจงนับ/รูปแบบข้อมูล** ภาพประกอบต่อไปนี้แสดงวิธีการที่คุณสามารถเพิ่มในรูปแบบ ER ที่แก้ไขได้ แหล่งข้อมูล **CustVendCorrectiveReasonCode** ที่อ้างอิงถึงการแจงนับรูปแบบข้อมูล **CustVendCorrectiveReasonCode**
 
-    [![การเพิ่มแหล่งข้อมูลการแจงนับแบบจำลองตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![การเพิ่มแหล่งข้อมูลการแจงนับแบบจำลองในตัวออกแบบรูปแบบ ER](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - การแจงนับรูปแบบสามารถเข้าถึงได้โดยใช้แหล่งข้อมูล **รูปแบบ \ การแจงนับ** และ **พารามิเตอร์การป้อนของผู้ใช้รูปแบบ \ การแจงนับ** ภาพประกอบต่อไปนี้แสดงวิธีการที่คุณสามารถเพิ่มในรูปแบบ ER ที่แก้ไขได้ แหล่งข้อมูล **NaturaReverseCharge** ที่อ้างอิงถึงการแจงนับรูปแบบ **Natura reverse charge subcategories**
 

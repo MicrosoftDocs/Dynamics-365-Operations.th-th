@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894894"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344793"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 
@@ -56,7 +58,7 @@ ms.locfileid: "5894894"
     > [!NOTE]
     > ถ้าคุณไม่เห็นคุณลักษณะในรายการ ให้เลือก **ซิงโครไนส์** แแล้วทำซ้ำขั้นตอนที่ 3
 
-![กำลังนำเข้าคุณลักษณะของใบแจ้งหนี้ CFDI (MX)](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![การนำเข้าคุณลักษณะของใบแจ้งหนี้ CFDI (MX)](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 เมื่อคุณนำเข้าคุณลักษณะ **ใบแจ้งหนี้ CFDI (MX)** จากที่เก็บส่วนกลาง การตั้งค่าคุณลักษณะทั้งหมด รวมถึงการตั้งค่าคอนฟิกและการดำเนินการ จะถูกนำเข้าด้วยเช่นกัน
 

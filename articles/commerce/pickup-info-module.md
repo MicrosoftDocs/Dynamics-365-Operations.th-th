@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804416"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353815"
 ---
 # <a name="pickup-information-module"></a>โมดูลข้อมูลการรับสินค้า
 
@@ -40,7 +40,7 @@ ms.locfileid: "5804416"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการเลือกช่องเวลาโดยผ่านโมดูลข้อมูลการเบิกสินค้าบนหน้าเช็คเอาท์
 
-![ตัวอย่างของโมดูลข้อมูลการเบิกสินค้าที่อยู่จัดส่งบนหน้าเช็คเอาท์](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![ตัวอย่างของโมดูลข้อมูลการเบิกสินค้าบนหน้าเช็คเอาท์](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>คุณสมบัติของโมดูล
 
@@ -60,7 +60,7 @@ ms.locfileid: "5804416"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[สร้างและอัพเดตที่ช่วงเวลาสำหรับการเบิกสินค้าของลูกค้า](dev-itpro/pickup-timeslots.md)
+[สร้างและอัปเดตที่ช่วงเวลาสำหรับการรับสินค้าของลูกค้า](dev-itpro/pickup-timeslots.md)
 
 [โมดูลเช็คเอาท์](add-checkout-module.md)
 
