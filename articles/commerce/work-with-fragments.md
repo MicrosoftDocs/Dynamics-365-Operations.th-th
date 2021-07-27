@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350219"
 ---
 # <a name="work-with-fragments"></a>ใช้งานส่วนย่อย 
 
@@ -45,7 +45,7 @@ ms.locfileid: "5793956"
 
 ภาพประกอบต่อไปนี้แสดงให้เห็นว่าส่วนต่างๆ สามารถใช้เป็นศูนย์กลางการสร้างการตั้งค่าคอนฟิกโมดูลที่ใช้ร่วมกันระหว่างไซต์อีคอมเมิร์ซได้อย่างไร
 
-![ภาพประกอบต่อไปนี้แสดงให้เห็นว่าส่วนต่างๆ สามารถใช้เป็นศูนย์กลางการสร้างการตั้งค่าคอนฟิกโมดูลที่ใช้ร่วมกันระหว่างไซต์อีคอมเมิร์ซได้อย่างไร](./media/fragment-figure1.png)
+![ภาพประกอบซึ่งแสดงให้เห็นว่าส่วนต่างๆ สามารถใช้เป็นศูนย์กลางการสร้างการตั้งค่าคอนฟิกโมดูลที่ใช้ร่วมกันระหว่างไซต์อีคอมเมิร์ซได้อย่างไร](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>การสร้างส่วนต่างๆ
 
@@ -62,7 +62,7 @@ ms.locfileid: "5793956"
 1. ในกล่องโต้ตอบ **บันทึกเป็นส่วน** ให้ป้อนชื่อของส่วน
 1. เลือก **ตกลง** เพื่อบันทึกการตั้งค่าคอนฟิกโมดูลเป็นส่วนที่สามารถเพิ่มเข้าไปในหน้าอื่นๆ
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>สร้างส่วนย่อยใหม่
 
@@ -73,7 +73,7 @@ ms.locfileid: "5793956"
 1. เลือกชนิดโมดูลสำหรับส่วนย่อยของคุณ
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > โดยการเลือกชนิดโมดูลของคอนเทนเนอร์ทั่วไป คุณจะได้รับความยืดหยุ่นมากที่สุดเมื่อคุณต้องปรับปรุงและตั้งค่าคอนฟิกส่วนย่อยของคุณในภายหลัง
 
@@ -88,14 +88,14 @@ ms.locfileid: "5793956"
 1. ในบานหน้าต่างเค้าร่างทางด้านซ้าย หรือโดยตรงในตัวสร้างหน้าการแสดงผลด้วยภาพ ให้เลือกคอนเทนเนอร์หรือช่องที่สามารถเพิ่มโมดูลรองได้
 1. เลือกจุดไข่ปลา (**...**) ที่อยู่ถัดจากชื่อคอนเทนเนอร์หรือช่อง  อีกทางหนึ่งคือ ถ้าใช้ตัวสร้างหน้าการแสดงผลด้วยภาพ ให้เลือกสัญลักษณ์บวก (**+**)  
 1. เลือก **เพิ่มส่วน**
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > ถ้าคอนเทนเนอร์หรือช่องเสียบไม่สนับสนุนโมดูลรอง ตัวเลือก **เพิ่มส่วน** จะไม่พร้อมใช้งาน
     
 1. ในกล่องโต้ตอบ **เลือกส่วน** ให้ค้นหาและเลือกส่วนที่จะเพิ่ม ถ้าไม่มีการระบุส่วนที่มีอยู่ คุณอาจต้องสร้างส่วนใดส่วนหนึ่งจากชนิดโมดูลที่มีการสนับสนุนคอนเทนเนอร์หรือช่องเสียบที่เลือกก่อน
 1. เลือกส่วนย่อยที่ต้องการของคุณเพื่อเพิ่มลงในคอนเทนเนอร์หรือช่องบนหน้าของคุณ
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > โมดูลที่ได้รับอนุญาตในคอนเทนเนอร์หรือช่องเสียบจะถูกกำหนดโดยเท็มเพลตของหน้าหรือข้อกำหนดของตัวเอง

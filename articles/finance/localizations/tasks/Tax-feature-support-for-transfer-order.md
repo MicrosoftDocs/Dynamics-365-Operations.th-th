@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7b97eca8c2d4fe9f71c3cd8f1e40a3bbb7ee4879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021380"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348427"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
 
@@ -178,7 +178,7 @@ ms.locfileid: "6021380"
     1. ไปที่ **การจัดการสินค้างคงคลัง** \> **การตั้งค่า** \> **การลงรายการบัญชี** \> **การลงรายการบัญชี**
     2. บนแท็บ **สินค้าคงคลัง** ให้ตรวจสอบว่ามีการตั้งค่าบัญชีแยกประเภทไว้สำหรับทั้งการลงรายการบัญชี **การออกสินค้าคงคลัง** และ **การรับสต็อก**
 
-        ![การตั้งค่าการลงรายการบัญชีการออกใช้สินค้าคงคลังและการรับสต็อก](../media/image14.png)
+        ![การตั้งค่าการลงรายการบัญชีการออกใช้สินค้าคงคลังและการรับสินค้าคงคลัง](../media/image14.png)
 
     3. ตรวจสอบว่ามีการตั้งค่าบัญชีแยกประเภทสำหรับการลงรายการบัญชี **เจ้าหนี้ระหว่างหน่วย**
 

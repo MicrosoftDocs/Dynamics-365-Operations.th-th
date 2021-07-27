@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347721"
 ---
 # <a name="improve-scheduling-engine-performance"></a>ปรับปรุงประสิทธิภาพของกลไกการจัดกำหนดการ
 
@@ -70,7 +70,7 @@ ms.locfileid: "5812924"
 
 เมื่อส่งไปยังกลไกจัดการ จะถูกแบ่งออกเป็นแปดงาน ดังที่แสดงในภาพประกอบต่อไปนี้ (เลือกรูปเพื่อขยาย)
 
-[![การจัดกำหนดการงานกลไกจัดการ](media/scheduling-engine-jobs.png "การจัดกำหนดการงานกลไกจัดการ")](media/scheduling-engine-jobs-large.png)
+[![งานกลไกการจัดกำหนดการ](media/scheduling-engine-jobs.png "งานกลไกการจัดกำหนดการ"](media/scheduling-engine-jobs-large.png)
 
 ลิงค์มาตรฐานระหว่างงานสองอย่างคือ `FinishStart` หมายความว่าเวลาสิ้นสุดของงานหนึ่งต้องอยู่ก่อนเวลาเริ่มต้นของงานอื่น เนื่องจากการตั้งค่าต้องได้รับการดำเนินการโดยทรัพยากรเดียวกันที่จะดำเนินการในภายหลัง จึงมีข้อจำกัด `OnSameResource` ระหว่างการตั้งค่า ระหว่างงานสำหรับการดำเนินงานหลักและรองสำหรับ10 มีลิงค์ `StartStart` และ `FinishFinish` ซึ่งหมายความว่างานต้องทั้งเริ่มต้นและสิ้นสุดในเวลาเดียวกัน และมีข้อจำกัด `NotOnSameResource` ซึ่งจะป้องกันไม่ให้มีทรัพยากรเดียวกันสำหรับการดำเนินงานหลักและรอง
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019481"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347451"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>คำถามที่พบบ่อยเกี่ยวกับการรวม Dynamics 365 Commerce และ Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "6019481"
 
 ในศูนย์ควบคุม Commerce ลำดับชั้นขององค์กรทั้งหมดจะเชื่อมโยงกับวัตถุประสงค์หนึ่งวัตถุประสงค์หรือมากกว่า ตรวจสอบให้แน่ใจว่าลำดับชั้นที่คุณต้องการเตรียมใช้งาน Microsoft Teams มีวัตถุประสงค์ **การรายงานการขายปลีก** ที่เชื่อมโยงอยู่ด้วย ดังที่แสดงในรูปภาพตัวอย่างต่อไปนี้ 
 
-![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรขององค์กรในศูนย์ควบคุม Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
+![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรในศูนย์ควบคุม Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>ฉันจะเปิดใช้งานผู้ปฏิบัติงานของร้านค้าปลีกเพื่อล็อกอินเข้าสู่การขายหน้าร้านของ Commerce (POS) โดยใช้ Azure Active Directory (Azure AD)?
 

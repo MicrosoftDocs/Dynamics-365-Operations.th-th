@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3cbd4a034b89308c33651c5a923b67bc0eabf413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750143"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345773"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -158,7 +158,7 @@ ER สนับสนุนผู้ออกแบบสูตร ดังน�
 
 [![ข้อความแสดงข้อผิดพลาด](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)

@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022483"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353023"
 ---
 # <a name="e-commerce-site-overview"></a>ภาพรวมของไซต์อีคอมเมิร์ซ
 
@@ -57,7 +57,7 @@ ms.locfileid: "6022483"
 
 หลังจากที่มีการเริ่มต้นไซต์ใหม่แล้ว หน้า **แรก** โปรแกรมสร้างไซต์ Commerceจะปรากฏขึ้น หน้านี้มีลิงค์ไปยังการดำเนินการทั่วไปและเนื้อหาคำแนะนำ ดังที่แสดงในตัวอย่างในภาพประกอบต่อไปนี้
 
-![ลิงค์บนหน้าแรกในตัวสร้างไซต์ Commerce](media/e-commerce-site-03.png)
+![ลิงค์บนโฮมเพจในตัวสร้างไซต์ Commerce](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>แก้ไขช่องทางออนไลน์ของร้านค้าหรือเพิ่มช่องทางออนไลน์ของร้านค้าลงในไซต์อีคอมเมิร์ซ
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352071"
 ---
 # <a name="account-management-pages-overview"></a>ภาพรวมของหน้าการจัดการบัญชี
 
@@ -63,7 +64,7 @@ ms.locfileid: "6027974"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้า **รายละเอียดคำสั่งซื้อ**
 
-![ตัวอย่างหน้ารายละเอียดคำสั่งซื้อ](./media/Account-Management-OrderDetails.PNG)
+![ตัวอย่างของหน้ารายละเอียดคำสั่งซื้อ](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>โปรแกรมตอบแทนลูกค้าสมาชิก
 

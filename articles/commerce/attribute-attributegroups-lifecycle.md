@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936815"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346815"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>จัดการแอททริบิวต์และกลุ่มแอททริบิวต์
 
@@ -79,7 +79,7 @@ ms.locfileid: "5936815"
 3. สร้างแอททริบิวต์ที่มีชื่อว่า **เลนส์**
 4. ตั้งค่าฟิลด์ **ชนิดแอตทริบิวต์** เป็น **รูปร่างเลนส์**
 
-![ลักษณะเฉพาะ](media/Attribute.png)
+![แอททริบิวต์](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>ข้อมูลเมตาของแอททริบิวต์
 
@@ -134,7 +134,7 @@ ms.locfileid: "5936815"
     - 200 – 500
     - 500 ครั้งขึ้นไป
 
-![การตั้งค่าตัวกรองแอททริบิวต์](media/AttributeFilterSettings.PNG)
+![การตั้งค่าตัวกรองแอทรริบิวต์](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>กลุ่มแอททริบิวต์
 
@@ -200,7 +200,7 @@ ms.locfileid: "5936815"
     3. เลือกโหนดประเภท **เครื่องประดับแฟชั่น** เลือกประเภท **แว่นกันแดดแฟชั่น** และจากนั้น บน FastTab **คุณลักษณะของผลิตภัณฑ์ในช่องทาง** เลือก **รวมแอททริบิวต์** สำหรับแต่ละแอตทริบิวต์
     4. เลือกโหนดประเภท **Menswear** เลือกประเภท **กางเกง** และจากนั้น บน FastTab **คุณลักษณะของผลิตภัณฑ์ในช่องทาง** เลือก **รวมแอททริบิวต์** สำหรับแต่ละแอตทริบิวต์
 
-![ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์ – กลุ่มแอตทริบิวต์](media/CCPAttrGrp.png)
+![ประเภทช่องทางและแอตทริบิวต์ผลิตภัณฑ์ – กลุ่มแอตทริบิวต์](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>ค่าแอททริบิวต์ที่แทนที่
 
@@ -214,7 +214,7 @@ ms.locfileid: "5936815"
 4. เลือกผลิตภัณฑ์จำเป็นในกริด จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ **ผลิตภัณฑ์** ในกลุ่ม **การตั้งค่า** ให้เลือก **คุณลักษณะของผลิตภัณฑ์**
 5. เลือกแอททริบิวต์ในบานหน้าต่างด้านซ้าย และจากนั้น ปรับปรุงค่าในบานหน้าต่างด้านขวา
 
-![หน้ารายละเอียดผลิตภัณฑ์ – กลุ่มคุณลักษณะของผลิตภัณฑ์](media/ProdDetailsProdAttrValues.png)
+![หน้ารายละเอียดผลิตภัณฑ์ – กลุ่มแอตทริบิวต์ผลิตภัณฑ์](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในแค็ตตาล็อก
 
@@ -233,7 +233,7 @@ ms.locfileid: "5936815"
     > [!NOTE]
     > ถ้ามีการสร้างสื่อผลิตภัณฑ์ที่ใช้ร่วมกัน และคุณลักษณะของผลิตภัณฑ์ที่ใช้ร่วมกัน จะมีการนำไปใช้กับผลิตภัณฑ์ทั้งหมด
 
-![กลุ่มคุณลักษณะของผลิตภัณฑ์ในแค็ตตาล็อก](media/CatalogProdAttrValues.png)
+![กลุ่มแอตทริบิวต์ผลิตภัณฑ์ในแค็ตตาล็อก](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>แทนที่ค่าแอททริบิวต์ของผลิตภัณฑ์ในช่องทาง
 

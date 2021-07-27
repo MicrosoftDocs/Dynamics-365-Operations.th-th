@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343825"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>มีการลงรายการบัญชีภาษีไปที่บัญชีแยกประเภทในใบสำคัญที่ไม่ถูกต้อง
 
@@ -45,7 +45,7 @@ ms.locfileid: "6020102"
 
 3. ค่าในฟิลด์ **กลุ่มการลงรายการบัญชีแยกประเภท** เป็นลิงค์ เลือกลิงค์นั้นหากต้องการดูรายละเอียดของการตั้งค่าคอนฟิกของกลุ่ม หรือเลือกระงับ (หรือคลิกขวา) ในฟิลด์ แล้วเลือก **ดูรายละเอียด**
 
-    [![ดูคำสั่งในรายละเอียด](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![คำสั่งดูรายละเอียด](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. ในฟิลด์ **เจ้าหนี้ภาษีขาย** ให้ตรวจสอบว่าหมายเลขบัญชีถูกต้องตามชนิดของธุรกรรม ถ้าไม่ ให้เลือกบัญชีที่ถูกต้องที่จะลงรายการบัญชี ในตัวอย่างนี้ ภาษีขายของใบสั่งขายควรได้รับการลงรายการบัญชีไปยังบัญชีเจ้าหนี้ภาษีขาย 222200
 

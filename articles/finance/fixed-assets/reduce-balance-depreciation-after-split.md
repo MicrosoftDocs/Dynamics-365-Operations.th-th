@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826262"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356786"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>ลดยอดดุลค่าเสื่อมราคาหลังจากการแบ่ง
 
@@ -37,7 +37,7 @@ ms.locfileid: "5826262"
 - การคิดค่าเสื่อมราคาของปีบัญชีแรกเท่ากับ $18,000 ค่าเสื่อมราคารายเดือนจะเท่ากับ $150 และมีการคิดค่าเสื่อมราคาของสินทรัพย์จนถึงเดือนพฤศจิกายน 2019 เป็นเงิน $738.75
 - ในเดือนพฤศจิกายน 2019 80 เปอร์เซ็นต์ของสินทรัพย์ถูกแบ่งเป็นสินทรัพย์ถาวรอื่น
 
-[![ลดยอดดุลค่าเสื่อมราคาหลังจากการแบ่ง](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![ลดค่าเสื่อมราคายอดดุลหลังจากการแบ่ง](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 ยอดเงินที่จะคิดค่าเสื่อมราคาสำหรับสินทรัพย์ดั้งเดิม คือ $1,822.25 ยอดเงินนี้เท่ากับ NBV ก่อนที่จะมีการลงรายการบัญชีธุรกรรมการแบ่ง ($9,111.25) บวกกับการปรับปรุงการซื้อสินทรัพย์ที่สร้างขึ้นในระหว่างการลงรายการบัญชีของธุรกรรมการแบ่ง (-$8,000) บวกกับการปรับปรุงค่าเสื่อมราคาที่สร้างขึ้นในระหว่างการแบ่งธุรกรรม ($711) ดังนั้น ค่าเสื่อมราคาสำหรับปีที่สองคือ (1,822.25 × 18 เปอร์เซ็นต์) ÷ 12 = $27.33
 

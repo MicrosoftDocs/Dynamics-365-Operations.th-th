@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054367"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346309"
 ---
 # <a name="dataverse-tables"></a>ตาราง Dataverse
 
@@ -166,9 +166,9 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 
 ![ค่าตอบแทน](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>ออก
+### <a name="leave"></a>การลา
 
-![ออก](./media/HCMCommon-leave-entity-diagram.png)
+![การลา](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>ปฏิทินการทำงาน
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6b8e3d129c40e33aeb91e823528a3bc89d2d9568
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743882"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351877"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
 
@@ -315,7 +315,7 @@ ms.locfileid: "5743882"
 6. ในสมุดงาน Excel ที่เปิดอยู่ บนแผ่นงาน **ทั่วไป** ให้เปลี่ยนรหัสบริษัทเป็น **GBSI**
 7. บนแผ่นงาน **ERFormatMappingRunLogTable** ให้สังเกตว่าเซลล์ A:3 และ C:3 มีข้อความของฟิลด์ในตารางล็อกดีบัก ER ที่ใช้เพื่อตรวจสอบความถูกต้องของผลลัพธ์ของการเปรียบเทียบเอาท์พุทกับข้อมูลพื้นฐาน ข้อความเหล่านี้จะใช้ในการประเมินเรกคอร์ดของล็อกดีบัก ER ซึ่งสร้างขึ้นในระหว่างการดำเนินการทดสอบ
 
-    ![แผ่นงาน ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "ภาพหน้าจอของแผ่นงาน ERFormatMappingRunLogTable")
+    ![เวิร์กชีต ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "ภาพหน้าจอของแผ่นงาน ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>รันการทดสอบและวิเคราะห์ผลลัพธ์
 

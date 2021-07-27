@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e43b9127b247fa618558b725837d12bf290662f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6c9b4ba6b55bbe26637f612390354d43a71b3eab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357178"
 ---
 # <a name="restrict-editing-of-personal-information"></a>จํากัดการแก้ไขข้อมูลส่วนบุคคล
 

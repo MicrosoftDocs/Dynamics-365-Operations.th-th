@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351644"
 ---
 # <a name="calculate-capacity-load"></a>คำนวณการใช้กำลังการผลิต
 
@@ -53,7 +53,7 @@ ms.locfileid: "5821740"
 
 7. ในกลุ่ม **กลุ่มโดย...** คลิกปุ่มที่เกี่ยวข้องเพื่อแสดงระดับรายละเอียดที่จำเป็นต้องใช้ในการคำนวณ ในภาพหน้าจอด้านล่าง ปุ่ม **กลุ่มที่** จะถูกเน้นด้วยสีน้ำเงิน คลิกบนปุ่มเพื่อเรียกใช้งานหรือยกเลิกการเรียกใช้งาน
 
-    ![รูปที่ 1](media/01-capacity-planning.png)
+    ![รูปที่ 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >ถ้าคุณต้องการโฟกัสเฉพาะการวางแผนกำลังการผลิตที่เกี่ยวกับใบสั่งงานที่จัดกำหนดการ ดูที่ [คำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการ](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md)

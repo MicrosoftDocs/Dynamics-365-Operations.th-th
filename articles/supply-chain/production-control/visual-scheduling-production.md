@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353431"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 
@@ -114,7 +114,7 @@ ms.locfileid: "5908717"
 
 คุณสามารถใช้ฟังก์ชัน **จัดกำหนดการงานรอบข้าง** เพื่อจัดกำหนดการงานถัดไปให้สัมพันธ์กับงานเลือกไว้ในเครือข่ายของกิจกรรมได้ ในตัวอย่างต่อไปนี้ กิจกรรมที่เน้นเป็นงานที่เลือก ไดอะแกรมแสดงขึ้นก่อนที่จะมีการจัดกำหนดการงาน และหลังจากที่ได้จัดกำหนดการงาน 
 
-[![จัดกำหนดการสำหรับงาน](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![จัดกำหนดการงานรอบข้าง](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>จัดเรียงงาน
 
