@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798974"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349315"
 ---
 # <a name="preview-and-publish-an-experiment"></a>แสดงตัวอย่างและเผยแพร่การทดสอบ
 
 หัวข้อนี้อธิบายวิธีการดูตัวอย่างและเผยแพร่การทดลองใน Dynamics 365 Commerce หลังจากที่คุณ [เชื่อมต่อการทดลองและแก้ไขการเปลี่ยนแปลงของคุณแล้ว](experimentation-connect-edit.md) แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้ใช้การทดลอง - ดูตัวอย่างและเผยแพร่](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - แสดงตัวอย่างและเผยแพร่](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>แสดงตัวอย่างการเปลี่ยนแปลงการทดลองของคุณ
 คุณสามารถแสดงตัวอย่างการเปลี่ยนแปลงของคุณ และแก้ไขต่อไปจนกว่าจะเหมือนแบบที่คุณต้องการ

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020270"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344085"
 ---
 # <a name="map-module"></a>โมดูลการแม็ป
 
@@ -44,7 +44,7 @@ ms.locfileid: "6020270"
 
 | ชื่อคุณสมบัติ             | มูลค่า                 | คำอธิบาย |
 |---------------------------|-----------------------|-------------|
-| หัวข้อ | Text | หัวข้อสำหรับโมดูล |
+| ส่วนหัว | Text | หัวข้อสำหรับโมดูล |
 | ตัวเลือกหมุดยึด: ไอคอนเริ่มต้น | รูป | รูปสัญลักษณ์หมุดยึดเพื่อใช้สำหรับร้านค้าที่แสดงอยู่บนแผนที่ |
 | ตัวเลือกหมุดยึด: ไอคอนที่ใช้งานอยู่ | รูป | รูปสัญลักษณ์หมุดยึดเพื่อใช้สำหรับร้านค้าที่เลือกบนแผนที่ |
 | ตัวเลือกหมุดยึด: สีของไอคอนเริ่มต้น | สตริงของอักขระ | ค่าข้อความหรือเลขฐานสิบหกสำหรับสีของสัญลักษณ์หมุดยึดบนแผนที่ |

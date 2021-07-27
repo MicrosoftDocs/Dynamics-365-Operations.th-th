@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186797"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358990"
 ---
 # <a name="note-integration"></a>การรวมบันทึก
 
@@ -51,15 +51,15 @@ ms.locfileid: "6186797"
 1. ในแอป Customer Engagement ให้เปิดเรกคอร์ดบัญชีของลูกค้า
 2. ในบานหน้าต่าง **เส้นเวลา** ให้เลือกเครื่องหมายบวก (**+**) แล้วเลือก **บันทึก** เพื่อสร้างบันทึก
 
-    ![สร้างบันทึกในแอป Customer Engagement](media/notes-ce-1.png)
+    ![การสร้างบันทึกย่อในแอป Customer Engagement](media/notes-ce-1.png)
 
 3. ป้อนชื่อเรื่องและคำอธิบาย แล้วเลือก **เพิ่มบันทึก**
 
-    ![ป้อนหัวข้อและคำอธิบาย](media/notes-ce-2.png)
+    ![การป้อนหัวข้อและคำอธิบาย](media/notes-ce-2.png)
 
     บันทึกใหม่จะเพิ่มลงในเส้นเวลาของลูกค้า
 
-    ![บันทึกใหม่ในเส้นเวลาของลูกค้า](media/notes-ce-3.png)
+    ![บันทึกย่อใหม่ในเส้นเวลาของลูกค้า](media/notes-ce-3.png)
 
 4. ลงชื่อเข้าใช้แอป Finance and Operations แล้วเปิดเรกคอร์ดลูกค้าเดียวกัน โปรดสังเกตว่าปุ่ม **เอกสารแนบ** (สัญลักษณ์ที่หนีบกระดาษ) ในมุมด้านขวาบน บ่งชี้ว่าเรกคอร์ดมีเอกสารแนบ
 
@@ -67,7 +67,7 @@ ms.locfileid: "6186797"
 
 5. เลือกปุ่ม **เอกสารแนบ** เพื่อเปิดหน้า **เอกสารแนบ** คุณควรค้นหาบันทึกที่คุณสร้างไว้ในแอปพลิเคชัน Customer Engagement
 
-    ![บันทึกจากแอป Customer Engagement](media/notes-ce-5.png)
+    ![บันทึกย่อจากแอป Customer Engagement](media/notes-ce-5.png)
 
 การอัพเดตใดๆ ในบันทึกจะมีการซิงค์กลับไปกลับมาระหว่างแอป Finance and Operations และแอป Customer Engagement
 
@@ -79,15 +79,15 @@ ms.locfileid: "6186797"
 
 1. ในแอป Finance and Operations ในหน้า **เอกสารแนบ** ให้เลือก **ใหม่**\> **บันทึก**
 
-    ![สร้างบันทึกในแอป Finance and Operations](media/notes-fo-1.png)
+    ![การสร้างบันทึกย่อในแอป Finance and Operations](media/notes-fo-1.png)
 
 2. ป้อนชื่อเรื่องและชุดคําแนะนําสั้นๆ แล้วเลือก **บันทึก**
 
-    ![ป้อนหัวข้อและคำแนะนำ](media/notes-fo-2.png)
+    ![การป้อนหัวข้อและคำแนะนำ](media/notes-fo-2.png)
 
 3. ในแอปพลิเคชัน Customer Engagement ให้อัพเดตเรกคอร์ด คุณควรค้นหาบันทึกใหม่ในเส้นเวลา
 
-    ![บันทึกใหม่ในเส้นเวลาในแอป Customer Engagement](media/notes-fo-3.png)
+    ![บันทึกย่อใหม่ในเส้นเวลาในแอป Customer Engagement](media/notes-fo-3.png)
 
 คุณสามารถจัดประเภทบันทึกเป็นบันทึกภายในหรือภายนอก
 
@@ -101,18 +101,18 @@ ms.locfileid: "6186797"
 2. ป้อนหัวข้อและ URL
 3. ในฟิลด์ **ข้อจํากัด** ให้เลือก **ภายใน** หรือ **ภายนอก**
 
-    ![สร้าง URL ในแอป Finance and Operations](media/notes-fo-5.png)
+    ![การสร้าง URL ในแอป Finance and Operations](media/notes-fo-5.png)
 
 4. เลือก **บันทึก**
 
     เนื่องจากแอป Customer Engagement ไม่มีชนิด URL URL จะรวมเข้ากับการเขียนแบบคู่เป็นบันทึก
 
-    ![URL ที่ปรากฏเป็นบันทึกในแอป Customer Engagement](media/notes-ce-6.png)
+    ![URL ที่ปรากฏเป็นบันทึกย่อในแอป Customer Engagement](media/notes-ce-6.png)
 
 > [!NOTE]
 > ไม่สนับสนุนเอกสารแนบไฟล์
 
-## <a name="templates"></a>เท็มเพลต
+## <a name="templates"></a>เทมเพลต
 
 การรวมบันทึกประกอบด้วยชุดของแผนที่ตารางที่ทำงานร่วมกันในระหว่างการโต้ตอบข้อมูลลูกค้า ดังที่แสดงในตารางต่อไปนี้
 

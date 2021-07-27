@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1607,6 +1605,8 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: พารามิเตอร์ที่ไม่ได้ใช้โดยการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: ใช้ตัวกรองกับแผน
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: การวางแผนหลักที่มีการคาดการณ์ความต้องการ
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: การวางแผนการผลิต
                   href: master-planning/planning-optimization/production-planning.md
+                - name: การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/marking.md
                 - name: การวางแผนระหว่างบริษัท
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกผู้ตรวจทานรายจ่าย
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข

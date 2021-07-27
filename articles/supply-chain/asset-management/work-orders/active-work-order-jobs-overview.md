@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5ac36f536003b9945ffbdcae12de2582e80634a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8642f7d92a9c0ca69ad4965fd3a8219e57278ed1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813374"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359184"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>ภาพรวมของงานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่
 
@@ -36,7 +36,7 @@ ms.locfileid: "5813374"
 
 ภาพประกอบด้านล่างแสดงตัวอย่างของหน้ารายการ **งานบำรุงรักษาของใบสั่งงานที่ใช้งาน**
 
-![รูปที่ 1](media/23-work-orders.png)
+![รูปที่ 1.](media/23-work-orders.png)
 
 สำหรับคำอธิบายโดยย่อของปุ่มบนหน้ารายการ **งานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่** อ้างอิงถึง [บทนำเกี่ยวกับใบสั่งงาน](../work-orders/introduction-to-work-orders.md) ซึ่งมีการอธิบายปุ่มที่เหมือนกัน
 

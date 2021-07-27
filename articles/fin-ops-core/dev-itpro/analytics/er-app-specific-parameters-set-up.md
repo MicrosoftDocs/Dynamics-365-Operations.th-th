@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751165"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351901"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>ตั้งค่าพารามิเตอร์ของรูปแบบ ER สำหรับแต่ละนิติบุคคล
 
@@ -59,7 +59,7 @@ ms.locfileid: "5751165"
 2.  ในแผนภูมิการตั้งค่าคอนฟิก ให้เลือกรูปแบบ **รูปแบบเพื่อเรียนรู้วิธีการค้นหาข้อมูล LE**
 3.  ในบานหน้าต่างการดำเนินการ บนแท็บ **การตั้งค่าคอนฟิก** ในกลุ่ม **พารามิเตอร์เฉพาะของแอพลิเคชัน** เลือก **ตั้งค่า**
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm.PNG)
     
     บนเพจ **พารามิเตอร์เฉพาะของแอพลิเคชัน** คุณสามารถตั้งค่าคอนฟิกกฎสำหรับแหล่งข้อมูล **ตัวเลือก** ของรูปแบบ **รูปแบบเพื่อเรียนรู้วิธีการค้นหาข้อมูล LE**
     
@@ -75,14 +75,14 @@ ms.locfileid: "5751165"
 
     การค้นหาจะแสดงรายการรหัสภาษีสำหรับการเลือก รายการนี้จะถูกส่งคืนโดยแหล่งข้อมูล **Model.Data.Tax** ที่ได้รับการตั้งค่าคอนฟิกในรูปแบบของ ER พื้นฐาน เนื่องจากแหล่งข้อมูลนี้มีฟิลด์ **ชื่อ** ชื่อของรหัสภาษีแต่ละรหัสจะปรากฏในการค้นหา
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  เลือกรหัสภาษี **VAT19**
 8.  ในฟิลด์ **ผลลัพธ์การค้นหา** ของเรกคอร์ดใหม่ ให้เลือกลูกศรแบบหล่นลง เพื่อเปิดการค้นหา การค้นหาจะแสดงรายการของค่าสำหรับการแจงนับรูปแบบ TaxationLevel สำหรับการเลือก
 
     โปรดทราบว่า ถ้าภาษาเยอรมันถูกเลือกเป็นภาษาที่ต้องการของผู้ใช้ที่คุณลงชื่อเข้าใช้ ป้ายชื่อของค่าในการค้นหาจะอยู่ในภาษาเยอรมัน ซึ่งระบุว่ามีการแปลในรูปแบบของ ER พื้นฐาน นอกจากนี้ ถ้ามีการแปลป้ายชื่อของแหล่งข้อมูลการค้นหา ป้ายชื่อนั้นจะปรากฏขึ้นในภาษาที่ต้องการของผู้ใช้ในแท็บ **การค้นหา**
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  เลือกค่า **ภาษีปกติ**
 
@@ -120,7 +120,7 @@ ms.locfileid: "5751165"
     
     โดยการเพิ่มเรกคอร์ดสุดท้ายนี้ คุณกำหนดกฎต่อไปนี้: เมื่อใดก็ตามที่รหัสภาษีที่ส่งผ่านเป็นอาร์กิวเมนต์ไม่เป็นไปตามกฎก่อนหน้านี้ แหล่งข้อมูลการค้นหาจะถูกส่งคืน **อื่นๆ** เป็นระดับภาษีที่ร้องขอ
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. ในฟิลด์ **สถานะ** เลือก **เสร็จสมบูรณ์**
 
@@ -160,7 +160,7 @@ ms.locfileid: "5751165"
 
     การค้นหาในปัจจุบันแสดงรายการรหัสภาษีสำหรับการเลือกภาษีบริษัท **USMF**
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  เลือกรหัสภาษี **EXEMPT**
 9.  ในฟิลด์ **ผลลัพธ์การค้นหา** ของเรกคอร์ดใหม่ ให้เลือกค่า **ไม่มีภาษี**
@@ -170,7 +170,7 @@ ms.locfileid: "5751165"
 13. ในฟิลด์ **สถานะ** เลือก **เสร็จสมบูรณ์**
 14. เลือก **บันทึก**
 
-    ![เพจพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![หน้าพารามิเตอร์เฉพาะของแอพลิเคชันของ ER](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. ปิดเพจ **พารามิเตอร์เฉพาะของแอพลิเคชัน**
 
@@ -225,13 +225,13 @@ ms.locfileid: "5751165"
 
 1.  ใช้รายการเมนู **ERSolutionAppSpecificParametersDesigner** ที่มีอยู่ใหม่ หรือใช้รายการเมนู **ERSolutionAppSpecificParametersDesigner** ของคุณเอง
 
-    ![เพจ Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![หน้า Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  ทำตามขั้นตอนเหล่านี้
 
     1.  สร้างปุ่มรายการเมนูใหม่ และเชื่อมโยงไปยังเรกคอร์ดที่เกี่ยวข้องจากตาราง **ERSolutionTable** โดยตั้งค่าคุณสมบัติ **แหล่งข้อมูล** เป็น **ERSolutionTable**
     
-        ![เพจ Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![หน้า Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  สร้างปุ่มแบบง่าย และแทนที่วิธีการ **คลิก** ดังที่แสดงในตัวอย่างต่อไปนี้
     

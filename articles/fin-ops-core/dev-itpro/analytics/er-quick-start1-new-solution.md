@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 35db2eb3e0da91207f08d16b8fb1bfa6a6bb8607
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345971"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 
@@ -123,7 +125,7 @@ ms.locfileid: "6304404"
 
 1. เมื่อต้องการเรียกใช้รายงานที่มีอยู่ ให้ไปที่ **แบบสอบถาม** \> **ออกแบบ** \> **รายงานแบบสอบถาม**
 
-    ![การเลือกรายการเมนูรายงานแบบสอบถามในโมดูลแบบสอบถามเพื่อเรียกใช้รายงาน SSRS ที่มีอยู่](./media/er-quick-start1-application-menu-origin.png)
+    ![การเลือกรายการเมนูรายงานแบบสอบถามในโมดูลแบบสอบถาม เพื่อเรียกใช้รายงาน SSRS ที่มีอยู่](./media/er-quick-start1-application-menu-origin.png)
 
 2. ในกล่องโต้ตอบ **รายงานแบบสอบถาม** ให้ระบุเงื่อนไขการเลือก ใช้ตัวกรองเพื่อให้รายงานรวมเฉพาะแบบสอบถาม **SBCCrsExam** เท่านั้น
 

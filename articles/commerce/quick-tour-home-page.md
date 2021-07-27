@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792206"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352023"
 ---
 # <a name="home-page-overview"></a>ภาพรวมของโฮมเพจ
 
@@ -47,7 +48,7 @@ ms.locfileid: "5792206"
 
     ภาพต่อไปนี้แสดงตัวอย่างของโครงร่างคุณลักษณะของโมดูลบล็อคเนื้อหาบนโฮมเพจ
 
-    ![ตัวอย่างของโมดูลของลักษณะการทำงาน](./media/Feature.PNG)
+    ![ตัวอย่างของโมดูลของคุณลักษณะ](./media/Feature.PNG)
 
 - **ไทล์** – โครงร่างไทล์ของโมดูลบล็อคเนื้อหาใช้เพื่อแสดงผลิตภัณฑ์หรือประเภทของผลิตภัณฑ์หลายรายการ โดยใช้การรวมกันของรูปภาพและข้อความในรูปแบบคอลัมน์ ในภาพประกอบของโฮมเพจที่แสดงไว้ก่อนหน้านี้ในหัวข้อนี้ จะมีการใช้โครงร่างไทล์สำหรับการแสดงสามคอลัมน์ของ **ร้านค้าผู้หญิง** **ร้านค้าผู้ชาย** **ร้านค้าเครื่องประดับ**
 - **เครื่องเล่นวิดีโอ** – โมดูลเครื่องเล่นวิดีโอสามารถใช้ในการแสดงเนื้อหาวิดีโอบนโฮมเพจ ภาพประกอบของโฮมเพจที่แสดงไว้ก่อนหน้านี้ในหัวข้อนี้รวมถึงโมดูลของโปรแกรมเล่นวิดีโอ

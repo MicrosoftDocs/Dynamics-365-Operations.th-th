@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ba23b597b1d7d283b99638fb7d5d91da00afb09c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82357b7fe00b93715f44eb024ac78d7cc1adca84
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018768"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356112"
 ---
 # <a name="voucher-isnt-generated"></a>ใบสำคัญไม่ถูกสร้าง
 

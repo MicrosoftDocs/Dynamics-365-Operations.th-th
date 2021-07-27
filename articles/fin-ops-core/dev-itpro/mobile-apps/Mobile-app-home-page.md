@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360827"
 ---
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
@@ -39,7 +39,7 @@ ms.locfileid: "6188421"
 ## <a name="elements-of-the-mobile-app"></a>องค์ประกอบของแอพบนมือถือ
 การนำทางในแอพบนมือถือประกอบด้วยแนวคิดพื้นฐานสี่อย่าง: แดชบอร์ด พื้นที่ทำงาน หน้า และการดำเนินการ 
 
-[![แนวคิดการนำทางในแอพบนมือถือ](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![แนวคิดการนำทางในแอปสำหรับอุปกรณ์เคลื่อนที่](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. เมื่อคุณเริ่มต้นแอพ ให้ไปที่ **แดชบอร์ด**
 2. บนแดชบอร์ด คุณสามารถดูรายการของ **พื้นที่ทำงาน** ที่ถูกเผยแพร่ได้
@@ -53,7 +53,7 @@ ms.locfileid: "6188421"
 ## <a name="implementation-process"></a>กระบวนการใช้งาน
 แผนภาพต่อไปนี้แสดงกระบวนการปฏิบัติตามพื้นที่ทำงานแบบเคลื่อนที่ทั้งสองที่ซึ่งจัดเตรียมให้โดย Microsoft และพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง 
 
-[![กระบวนการใช้งานแอพบนมือถือ](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![กระบวนการใช้งานแอปสำหรับอุปกรณ์เคลื่อนที่](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 ตารางต่อไปนี้มีการเชื่อมโยงกับทรัพยากรซึ่งช่วยให้คุณสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ทั้งสองที่ซึ่งจัดเตรียมไว้โดย Microsoft และพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง ตัวเลขในคอลัมน์แรกตรงกับขั้นตอนที่ระบุหมายเลขในภาพประกอบก่อนหน้านี้
 

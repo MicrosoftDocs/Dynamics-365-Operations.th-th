@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349291"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>ส่งเสริมการเปลี่ยนแปลงและทำการทดลองให้เสร็จสมบูรณ์
 
 หัวข้อนี้อธิบายวิธีกาส่งเสริมการเปลี่ยนแปลงที่ให้ผลลัพธ์ที่ดีที่สุดในการทดลองของคุณ และทำการทดลองให้เสร็จสมบูรณ์ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้ใช้การทดลอง - ทบทวน & เสร็จสมบูรณ์](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - ทบทวนและเสร็จสมบูรณ์](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 หลังจากที่คุณ [รันการทดลองแล้ว](experimentation-run-monitor.md) และรวบรวมข้อมูลเพียงพอเพื่อตรวจสอบว่าคุณต้องการใช้การปรับเปลี่ยนแบบใดบนไซต์ของคุณ คุณจะส่งเสริมการเปลี่ยนแปลงนั้น และจบการทดลอง
 

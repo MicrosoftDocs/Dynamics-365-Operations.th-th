@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359496"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 
@@ -64,7 +64,7 @@ ms.locfileid: "5909390"
 1. ป้อนชื่อและรหัสผ่านของผู้ใช้ที่มีสิทธิ์เข้าถึงการสมัครใช้งาน Azure
 1. ในพอร์ทัล Azure ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก **Azure Active Directory**
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. ตรวจสอบให้แน่ใจว่าคุณกำลังทำงานกับอินสแตนซ์ Azure AD ที่ใช้โดย Supply Chain Management
 1. ในรายการ **จัดการ** เลือก **การลงทะเบียนแอป**
@@ -74,7 +74,7 @@ ms.locfileid: "5909390"
 1. บนแถบเครื่องมือ ให้เลือก **การลงทะเบียนใหม่** เพื่อเปิดตัวช่วย **ลงทะเบียนแอปพลิเคชัน**
 1. ป้อนชื่อของแอปพลิเคชันและ เลือกตัวเลือก **บัญชีในไดเรกทอรีขององค์กรนี้เท่านั้น** แล้วเลือก **ลงทะเบียน**
 
-    ![ตัวช่วยลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
+    ![วิซาร์ดลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
 
 1. การลงทะเบียนแอปใหม่ของคุณเปิดขึ้น จัดทำบันทึกของค่า **รหัสแอปพลิเคชัน (ไคลเอนต์)** เนื่องจากคุณจะต้องใช้ในภายหลัง จะมีการกล่าวถึงรหัสนี้ภายหลังในหัวข้อนี้ว่า *รหัสไคลเอนต์*
 
@@ -113,7 +113,7 @@ ms.locfileid: "5909390"
     1. สร้าง บรรทัด
     1. ป้อนรหัสไคลเอนต์ที่คุณได้บันทึกไว้ในส่วนก่อนหน้านี้ กำหนดชื่อและเลือกผู้ใช้ที่คุณเพิ่งสร้างขึ้น เราขอแนะนำให้คุณติดแท็กอุปกรณ์ทั้งหมดของคุณ ถ้าขาดหายไปคุณสามารถลบการเข้าถึง Supply Chain Management ออกจากหน้านี้ได้อย่างง่ายดาย
 
-    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory") 
+    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>ตรวจสอบความถูกต้องโดยใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์
 
@@ -201,7 +201,7 @@ ms.locfileid: "5909390"
 1. ไปที่ **การตั้งค่าการเชื่อมต่อ**
 1. ตั้งค่าตัวเลือก **ใช้โหมดสาธิต** เป็น  _ไม่_
 
-    ![ใช้ตัวเลือกโหมดสาธิต](media/app-connect-app-demo-mode.png "ใช้ตัวเลือกโหมดสาธิต")
+    ![ตัวเลือกใช้โหมดสาธิต](media/app-connect-app-demo-mode.png "ใช้ตัวเลือกโหมดสาธิต")
 
 1. เลือก **เลือกไฟล์** หรือ **สแกนรหัส QR** ทั้งนี้ขึ้นอยู่กับวิธีการที่คุณต้องการนำเข้าการตั้งค่าดังนี้
 
@@ -230,7 +230,7 @@ ms.locfileid: "5909390"
 1. ไปที่ **การตั้งค่าการเชื่อมต่อ**
 1. ตั้งค่าตัวเลือก **ใช้โหมดสาธิต** เป็น  _ไม่_
 
-    ![โหมดสาธิตปิดอยู่](media/app-connect-app-select-file.png "โหมดสาธิตปิดอยู่")
+    ![โหมดสาธิตที่ปิดอยู่](media/app-connect-app-select-file.png "โหมดสาธิตปิดอยู่")
 
 1. แตะะใน **ฟิลด์เลือกการเชื่อมต่อ** เพื่อขยายการตั้งค่าที่จำเป็นต้องป้อนรายละเอียดการเชื่อมต่อด้วยตนเอง
 
