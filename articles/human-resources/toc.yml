@@ -355,6 +355,8 @@
           items:
             - name: บทนำ
               href: hr-admin-integration-ats-api-introduction.md
+            - name: การรับรองความถูกต้องระหว่างเซิร์ฟเวอร์สำหรับการรวม ATS
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: คำขอสรรหาบุคลากรและเอนทิตี้ที่เกี่ยวข้อง
               items:
                 - name: คำขอสรรหาบุคลากร
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: สร้างและตรวจทานเอนทิตี้บัญชีเงินเดือน
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: พนักงานในบัญชีเงินเดือน
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: งานของตําแหน่งในบัญชีเงินเดือน
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: ตําแหน่งในบัญชีเงินเดือน
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: พารามิเตอร์การรวมบัญชีเงินเดือน
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: เอนทิตี้บัญชีเงินเดือน
+              items:
+                - name: พนักงานในบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: แผนค่าตอบแทนผันแปรของบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: ตําแหน่งในบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: งานของตําแหน่งในบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: เอนทิตี้ที่เกี่ยวข้องกับการลางานและการขาดงาน
+              items:
+                - name: ยอดวันลาคงเหลือ
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: ชนิดของการลางาน
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: คำขอการลางาน
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: ชุดตัวเลือก
+              items:
+                - name: เพศ
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: ไม่ ใช่
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: ชนิดรางวัล
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: ชนิดของกระบวนการ
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: คู่มือผู้ใช้
       items:
         - name: ภาพรวม
@@ -599,6 +625,8 @@
           items:
             - name: จัดระเบียบบุคลากรของคุณ
               href: hr-personnel-departments-jobs-positions.md
+            - name: พื้นที่ทำงานการจัดการบุคลากร
+              href: hr-personnel-personnel-management-workspace.md
             - name: ตั้งค่าส่วนประกอบของงาน
               href: hr-personnel-jobs.md
             - name: กำหนดแผนก
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: กำหนดงาน
               href: hr-personnel-define-jobs.md
+            - name: ตำแหน่ง
+              href: hr-personnel-positions.md
             - name: สร้างปฏิทินเวลาการทำงาน
               href: hr-personnel-create-working-time-calendar.md
             - name: สรรหาผู้สมัครงาน
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: จํากัดการแก้ไขข้อมูลส่วนตัว
               href: hr-employee-self-service-restrict-editing.md
+        - name: ใช้ระบบลำดับงาน
+          items:
+            - name: ภาพรวมของระบบลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: สถาปัตยกรรมระบบลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: องค์ประกอบลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: การดำเนินการลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: สร้างลำดับงาน
+              items:
+                - name: ภาพรวมของการสร้างลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกงานด้วยตนเอง
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกงานอัตโนมัติ
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกกระบวนการอนุมัติ
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกผู้ตรวจทานรายจ่าย
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกกิจกรรมคู่ขนาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกสาขาคู่ขนาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าคอนฟิกชุดงานการประมวลผลข้อความลำดับงานเป็นวิกฤต
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: มอบหมายรายการงานในลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: ดูประวัติลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: ตั้งค่าคอนฟิกระบบเพื่อส่งอีเมลที่เกี่ยวข้องกับลำดับงานไปยังผู้ใช้
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: ชนิดลำดับงาน
+              items:
+                - name: การสร้างชนิดลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: รายการตรวจสอบชนิดลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างประเภทลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างการสอบถามสำหรับชนิดลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างชนิดลำดับงานใหม่
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างคลาสเอกสารลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: สร้างคลาส SubmitToWorkflow
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: เชื่อมโยงคลาสเอกสารลำดับงานกับชนิดลำดับงาน
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: รายงานชนิดลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

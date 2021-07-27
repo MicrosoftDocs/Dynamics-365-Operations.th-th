@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222623"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309676"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>การตั้งค่าคอนฟิกสำหรับ Finance Insights สำหรับตัวอย่างสาธารณะ (ตัวอย่าง) - รุ่น 10.0.20 และรุ่นที่ใหม่กว่า
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222623"
 ข้อมูลเชิงลึก Finance รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance พร้อมกับ Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ หัวข้อนี้จะอธิบายการตั้งค่าคอนฟิก Dynamics 365 Finance รุ่น 10.0.20 เพื่อให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance insights สำหรับตัวอย่างสาธารณะ
 
 > [!NOTE]
-> ขั้นตอนการตั้งค่าคอนฟิกที่อธิบายไว้ในหัวข้อนี้จะใช้เฉพาะกับ Finance รุ่น 10.0.20 และรุ่นที่ใหม่กว่าเท่านั้น หากต้องการตั้งค่า Finance Insights รุ่น 10.0.19 และเก่ากว่า ให้ดูที่ [การตั้งค่าคอนฟิกของ Finance insights - รุ่นสูงสุด 10.0.18](configure-for-fin-insites.md)
+> ขั้นตอนการตั้งค่าคอนฟิกที่อธิบายไว้ในหัวข้อนี้จะใช้เฉพาะกับ Finance รุ่น 10.0.20 และรุ่นที่ใหม่กว่าเท่านั้น หากต้องการตั้งค่า Finance Insights รุ่น 10.0.19 และเก่ากว่า ให้ดูที่ [การตั้งค่าคอนฟิกของ Finance insights - รุ่นสูงสุด 10.0.19](configure-for-fin-insites.md)
 
 ## <a name="deploy-finance"></a>ปรับใช้ Finance
 
@@ -748,6 +748,8 @@ finally {
 2. ในส่วน **add-in สภาพแวดล้อม** ให้เลือก **ติดตั้ง add-in ใหม่**
 3. เลือก add-in ของ **Finance Insights**
 4. ยอมรับเงื่อนไข และเลือกจากนั้น **ติดตั้ง**
+
+Add-in อาจใช้เวลาหลายนาทีในการติดตั้ง
 
 ## <a name="feedback-and-support"></a>ผลป้อนกลับและการสนับสนุน
 

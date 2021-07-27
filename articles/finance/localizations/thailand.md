@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1db97f10a21091e3c36fce2e75fb9abc84528233
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 39eab9a21c63e9ebf1799587a268883f9bc28511
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891146"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337141"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
