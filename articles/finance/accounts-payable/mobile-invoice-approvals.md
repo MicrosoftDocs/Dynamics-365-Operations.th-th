@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2406df379084fefd4e1ca33c271b69f4dafeb5b5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189213"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358916"
 ---
 # <a name="mobile-invoice-approvals"></a>การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
@@ -322,7 +322,7 @@ ms.locfileid: "6189213"
 
 4. ตั้งค่าตัวเลือก **การจัดการเอกสาร** เป็น **ใช่** ตามที่แสดงด้านล่าง **หมายเหตุ:** ถ้าไม่มีข้อกำหนดในการแสดงเอกสารแนบบนอุปกรณ์เคลื่อนที่ คุณสามารถปล่อยให้ตัวเลือกนี้ถูกตั้งค่าเป็น **ไม่ใช่** ซึ่งเป็นการตั้งค่าเริ่มต้น
    
-   ![การจัดการเอกสาร](./media/docmanagement-216x300.png)
+   ![การจัดการเอกสาร ](./media/docmanagement-216x300.png)
 
 5. คลิก **เสร็จสิ้น** เพื่อออกจากโหมดแก้ไข
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810497"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351428"
 ---
 # <a name="outbound-workload-visualization"></a>การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 
@@ -60,7 +60,7 @@ ms.locfileid: "5810497"
     - **จำนวนวันที่จะรวม** – ป้อนจำนวนวันในอดีตที่ควรสร้างแผนภูมิสำหรับ
     - **ชนิดของใบสั่งงาน** – เลือกชนิดใบสั่งงานขาออกเพื่อกรองข้อมูล
 
-    ![ตั้งค่าคอนฟิกหน้าตัวกรอง](media/work-viz-filters-1.png "ตั้งค่าคอนฟิกหน้าตัวกรอง")
+    ![หน้าตั้งค่าคอนฟิกตัวกรอง](media/work-viz-filters-1.png "ตั้งค่าคอนฟิกหน้าตัวกรอง")
 
 1. ปิดหน้า **ตั้งค่าคอนฟิกตัวกรอง** เพื่อย้อนกลับไปที่หน้า **การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก**
 

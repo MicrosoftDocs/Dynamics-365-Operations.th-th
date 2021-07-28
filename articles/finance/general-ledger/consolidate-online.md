@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351695"
 ---
 # <a name="online-financial-consolidations"></a>การรวมบัญชีทางการเงินออนไลน์
 
@@ -86,9 +86,9 @@ ms.locfileid: "5826773"
 - **วันที่ในการทำธุรกรรม** – วันที่ของธุรกรรมแต่ละรายการจะถูกใช้เพื่อเลือกอัตราแลกเปลี่ยน ตัวเลือกนี้มักใช้สำหรับสินทรัพย์ถาวร และมักจะเรียกว่าอัตราในอดีต คุณไม่สามารถดูตัวอย่างของอัตราได้ เนื่องจากจะเป็นอัตราหลายๆ อัตราสำหรับธุรกรรมต่างๆ ในช่วงบัญชี
 - **อัตราที่ผู้ใช้กำหนด** – หลังจากที่คุณเลือกตัวเลือกนี้ คุณสามารถป้อนอัตราแลกเปลี่ยนที่คุณต้องการได้ ตัวเลือกนี้สามารถเป็นประโยชน์สำหรับอัตราแลกเปลี่ยนเฉลี่ย หรือถ้าคุณกำลังรวมกับอัตราแลกเปลี่ยนคงที่
 
-![แท็บชนิดการแปลงสกุลเงิน](./media/currency-translation-cons-online.png "แท็บชนิดการแปลงสกุลเงิน")
+![แท็บการแปลงสกุลเงิน](./media/currency-translation-cons-online.png "แท็บชนิดการแปลงสกุลเงิน")
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมบัญชีและการแปลสกุลเงิน ดูหัวข้อหลักของหัวข้อนี้ [ภาพรวมการรวมบัญชีทางการเงินและการแปลงสกุลเงิน](./financial-consolidations-currency-translation.md)
 

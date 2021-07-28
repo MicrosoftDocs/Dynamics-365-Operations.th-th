@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097245"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354748"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>จำนวนวันที่ติดลบและจำนวนวันที่ติดลบแบบไดนามิก
 
@@ -51,7 +51,7 @@ ms.locfileid: "6097245"
 
 ภาพประกอบต่อไปนี้แสดงภาพหน้าจอของกรณีนี้
 
-![ภาพหน้าจอของกรณี A สำหรับสถานการณ์จำลอง1](./media/negative-days-2.png)
+![ภาพหน้าจอของกรณี A สำหรับสถานการณ์จำลอง 1](./media/negative-days-2.png)
 
 ภาพประกอบต่อไปนี้แสดงมุมมองแบบกราฟิกของสิ่งที่เกิดขึ้นในกรณีนี้
 
@@ -114,7 +114,7 @@ ms.locfileid: "6097245"
 
 ภาพประกอบต่อไปนี้แสดงภาพหน้าจอสำหรับกรณีนี้
 
-![ภาพหน้าจอของกรณี A สำหรับสถานการณ์จำลอง2](./media/negative-days-9.png)
+![ภาพหน้าจอของกรณี A สำหรับสถานการณ์จำลอง 2](./media/negative-days-9.png)
 
 ภาพประกอบต่อไปนี้แสดงมุมมองแบบกราฟิกของสิ่งที่เกิดขึ้นในกรณีนี้
 
@@ -130,7 +130,7 @@ ms.locfileid: "6097245"
 
 ภาพประกอบต่อไปนี้แสดงภาพหน้าจอของกรณีนี้
 
-![ภาพหน้าจอของกรณี C สำหรับสถานการณ์จำลอง2](./media/negative-days-11.png)
+![ภาพหน้าจอของกรณี C สำหรับสถานการณ์จำลอง 2](./media/negative-days-11.png)
 
 ภาพประกอบต่อไปนี้แสดงมุมมองแบบกราฟิกของสิ่งที่เกิดขึ้นในกรณีนี้
 
@@ -163,7 +163,7 @@ ms.locfileid: "6097245"
 
 ภาพประกอบต่อไปนี้แสดงภาพหน้าจอของกรณีนี้
 
-![ภาพหน้าจอของกรณี A สำหรับสถานการณ์ 3](./media/negative-days-14.png)
+![ภาพหน้าจอของกรณี A สำหรับสถานการณ์จำลอง 3](./media/negative-days-14.png)
 
 ภาพประกอบต่อไปนี้แสดงมุมมองแบบกราฟิกของสิ่งที่เกิดขึ้นในกรณีนี้
 
@@ -219,7 +219,7 @@ ms.locfileid: "6097245"
 
 ภาพประกอบต่อไปนี้แสดงมุมมองแบบกราฟิกของสิ่งที่เกิดขึ้น
 
-![การตรวจทานแบบกราฟิกของตัวอย่าง](./media/negative-days-19.png)
+![รีวิวแบบกราฟิกของตัวอย่าง](./media/negative-days-19.png)
 
 MRP สร้างผลลัพธ์ต่อไปนี้
 

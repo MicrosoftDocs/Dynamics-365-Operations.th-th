@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359374"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 

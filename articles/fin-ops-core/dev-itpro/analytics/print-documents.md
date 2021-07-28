@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d41e299f0076e1016e8ddae8584bfec338a73a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 667d55381f54a9badabbb4c57fd0185674de33f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358654"
 ---
 # <a name="document-printing-overview"></a>ภาพรวมของการพิมพ์เอกสาร
 
@@ -69,7 +71,7 @@ ms.locfileid: "5749404"
 
 แผนภาพต่อไปนี้แสดงส่วนประกอบพื้นฐานซึ่งช่วยสนับสนุนการดำเนินงานพิมพ์บนเครือข่าย
 
-[![ส่วนประกอบของบริการสำหรับการพิมพ์บนเครือข่าย\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 โปรดสังเกตว่า เครื่องพิมพ์เดียวสามารถลงทะเบียนกับตัวแทนการกำหนดเส้นทางเอกสารหลายรายการได้ เมื่อต้องการแก้ไขการกำหนดลักษณะเครื่องพิมพ์ บริการที่เป็นโฮสต์ใช้พาธของเครือข่ายที่ระบุเครื่องพิมพ์บนเครือข่ายทุกเครื่องโดยเฉพาะ ดังนั้น แม้ว่าเมื่อมีการลงทะเบียนเครื่องพิมพ์โดยไคลเอนต์หลายรายการ จะปรากฏเป็นการเลือกเดียวในรายการของเครื่องพิมพ์ที่พร้อมใช้งานในแอพลิเคชัน
 

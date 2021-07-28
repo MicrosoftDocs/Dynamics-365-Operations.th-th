@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816894"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356687"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>ธุรกรรมภาษีหัก ณ ที่จ่าย ในการซื้อ
 
@@ -64,7 +64,7 @@ ms.locfileid: "5816894"
 
 ยอดเงินชั่วคราวของภาษีหัก ณ ที่จ่ายจะพร้อมใช้งานในฟิลด์ **ภาษีหัก ณ ที่จ่ายที่ปรับแล้ว** ของแท็บ **รวม** บนหน้า **ใบสั่งซื้อ**
 
-![รวมภาษีหัก ณ ที่จ่ายรวมอยู่ในใบสั่งซื้อ](media/withholding-tax-adjusted.png)
+![ภาษีหัก ณ ที่จ่ายถูกรวมอยู่ในใบสั่งซื้อ](media/withholding-tax-adjusted.png)
 
 ภาษีหัก ณ ที่จ่ายคำนวณบน **สมุดรายวันการชำระเงินให้แก่ผู้จัดจำหน่าย** คุณสามารถปรับปรุงรหัสภาษีหัก ณ ที่จ่ายที่ใช้ได้ด้วยตนเอง รวมทั้งยอดภาษีหัก ณ ที่จ่ายจริงบนแท็บ **ภาษีหัก ณ ที่จ่าย** บนหน้า **ชำระเงินธุรกรรม**
 

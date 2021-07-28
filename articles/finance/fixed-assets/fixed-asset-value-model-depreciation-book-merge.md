@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826749"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355591"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>การรวมรูปแบบมูลค่าสินทรัพย์ถาวรและสมุดบัญชีค่าเสื่อมราคา
 

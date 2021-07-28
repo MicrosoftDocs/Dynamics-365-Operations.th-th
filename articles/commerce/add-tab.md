@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797466"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348307"
 ---
 # <a name="tab-module"></a>โมดูลแท็บ
 
@@ -40,7 +40,7 @@ ms.locfileid: "5797466"
 
 | ชื่อคุณสมบัติ | มูลค่า | คำอธิบาย |
 |---------------|--------|-------------|
-| หัวข้อ | ข้อความ | คุณสมบัตินี้จะระบุส่วนหัวของข้อความที่ไม่บังคับสำหรับโมดูลแท็บ |
+| ส่วนหัว | ข้อความ | คุณสมบัตินี้จะระบุส่วนหัวของข้อความที่ไม่บังคับสำหรับโมดูลแท็บ |
 | ดัชนีแท็บที่ใช้งานอยู่ | ลำดับ | คุณสมบัตินี้ระบุแท็บที่ควรเปิดใช้งานโดยค่าเริ่มต้นเมื่อมีการโหลดหน้า ถ้าไม่มีการระบุค่า รายการแท็บแรกจะใช้งานโดยค่าเริ่มต้น |
 
 ## <a name="tab-item-module-properties"></a>คุณสมบัติของโมดูลรายการแท็บ

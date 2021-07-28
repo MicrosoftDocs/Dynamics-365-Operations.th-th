@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944303"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359422"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ใช้การตั้งค่าคอนฟิก ER กับเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -160,7 +160,7 @@ ms.locfileid: "5944303"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-- [ออกแบบการตั้งค่าคอนฟิก ER ใหม่ เพื่อสร้างรายงานในรูปแบบ Word](../er-design-configuration-word.md)
+- [ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word](../er-design-configuration-word.md)
 - [ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้างโดยใช้ ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

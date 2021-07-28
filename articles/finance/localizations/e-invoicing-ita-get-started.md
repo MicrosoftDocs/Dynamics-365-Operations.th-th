@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894788"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356088"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
 
@@ -59,7 +61,7 @@ ms.locfileid: "5894788"
 
 4. เลือกคุณลักษณะ **ส่งออก e-Invoices (IT)** แล้วเลือก **นำเข้า**
 
-![การนำเข้าคุณลักษณะส่งออก e-Invoices (IT)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![การนำเข้าคุณลักษณะส่งออกใบแจ้งหนี้อิเล็กทรอนิกส์ (IT)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 เมื่อคุณนำเข้าคุณลักษณะ **ส่งออก e-Invoices (IT)** จากที่เก็บส่วนกลาง การตั้งค่าทั้งหมดที่อธิบายไว้ในส่วนถัดไปจะถูกนำเข้า
 

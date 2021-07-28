@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353119"
 ---
 # <a name="navigation-menu-module"></a>โมดูลเมนูนำทาง
 
@@ -33,7 +33,7 @@ ms.locfileid: "5798764"
 คุณสามารถเพิ่มโมดูลเมนูนำทางในโมดูลส่วนหัวของหน้าได้ด้วย ในชุดรูปแบบ Fabrikam เมนูนำทางจะแสดงสองระดับตามค่าเริ่มต้น ในชุดรูปแบบชุดเริ่มต้น เมนูนำทางจะแสดงสามระดับตามค่าเริ่มต้น เมื่อต้องการเปลี่ยนแปลงจำนวนระดับ จะต้องใช้ส่วนขยายสำหรับมุมมองในชุดรูปแบบ
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของเมนูนำทางสำหรับไซต์ Fabrikam ที่มีการจัดประเภทตามลำดับชั้นสองระดับและรายการเมนูแบบคงที่บางส่วน
-![ตัวอย่างของโมดูลการนำทาง](./media/ecommerce-header.png)
+![ตัวอย่างของโมดูลเมนูการนำทาง](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>คุณสมบัติของโมดูลเมนูนำทาง
 
@@ -50,7 +50,7 @@ ms.locfileid: "5798764"
 | เมนูราก | สตริง | คุณสมบัตินี้สามารถใช้ในการกำหนดข้อความสำหรับรากแบบกำหนดเองถ้าคุณสมบัติ **แสดงเมนูราก** ถูกตั้งค่าเป็น **จริง** |
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของรูปภาพประเภทที่แสดงอยู่บนเมนูนำทางสำหรับไซต์ Fabrikam
-![ตัวอย่างของโมดูลนำทางที่มีรูปภาพประเภท](./media/ecommerce-categoryimages.PNG)
+![ตัวอย่างของโมดูลเมนูการนำทางที่มีรูปภาพประเภท](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>เพิ่มโมดูลเมนูนำทางให้กับโมดูลส่วนหัว
 

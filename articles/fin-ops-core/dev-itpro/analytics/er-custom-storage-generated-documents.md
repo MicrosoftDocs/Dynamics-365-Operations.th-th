@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348175"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>ระบุตำแหน่งที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้างขึ้น
 

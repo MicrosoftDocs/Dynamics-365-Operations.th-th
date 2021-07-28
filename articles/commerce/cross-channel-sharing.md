@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799528"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349733"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง
 
@@ -56,7 +56,7 @@ ms.locfileid: "5799528"
 
 นอกจากนี้ หลังจากที่คุณเปิดใช้งานการใช้ร่วมกันข้ามช่องทาง ฟิลด์ **ช่องทาง** ในด้านขวาบนของโปรแกรมสร้างไซต์ Commerce จะรวมตัวเลือก **ร้านค้าออนไลน์ข้ามช่องทาง** ซึ่งคุณสามารถใช้เพื่อจัดการเนื้อหาข้ามช่องทาง ดังแสดงในภาพประกอบต่อไปนี้
 
-![ตัวเลือกร้านค้าออนไลน์ข้ามช่องทางในฟิลด์ ช่องทาง หลังจากที่เปิดใช้งานการใช้ร่วมกันข้ามช่องทาง](./media/cross-channel-dropdown.png)
+![ตัวเลือกร้านค้าออนไลน์ข้ามช่องทางในฟิลด์ช่องทาง หลังจากที่เปิดใช้งานการใช้ร่วมกันข้ามช่องทาง](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>ส้รางและใช้เนื้อหาข้ามช่องทาง
 

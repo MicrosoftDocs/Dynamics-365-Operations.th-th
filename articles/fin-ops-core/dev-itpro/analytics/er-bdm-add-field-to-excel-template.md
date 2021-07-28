@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751141"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351805"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>เพิ่มฟิลด์ใหม่ลงในแม่แบบเอกสารทางธุรกิจใน Microsoft Excel
 
@@ -50,7 +50,7 @@ ms.locfileid: "5751141"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวีธีการนำเข้าการตั้งค่าคอนฟิก ER ดู [จัดการวงจรการใช้งานการตั้งค่าคอนฟิก ER](general-electronic-reporting-manage-configuration-lifecycle.md)
 
-![เพจไลบรารีแอสเซทที่ใช้ร่วมกันของ LCS](./media/BDM-AddFldExcel-LCS.png)
+![หน้าไลบรารีสินทรัพย์ที่ใช้ร่วมกันของ LCS](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>แก้ไขแม่แบบเริ่มต้นแบบของ ER
 
@@ -66,7 +66,7 @@ ms.locfileid: "5751141"
 
 เพจโปรแกรมแก้ไขแม่แบบ BDM ปรากฏขึ้น คุณสามารถใช้ Microsoft 365 เพื่อแก้ไขแม่แบบที่เลือกแบบออนไลน์ในตัวควบคุมแบบฝัง
 
-![เพจโปรแกรมแก้ไขแม่แบบ BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![หน้าโปรแกรมแก้ไขแม่แบบ BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>เพิ่มป้ายชื่อสำหรับฟิลด์ใหม่ให้กับแม่แบบ
 
@@ -133,7 +133,7 @@ ms.locfileid: "5751141"
 
 ในพื้นที่ทำงาน **การจัดการเอกสารทางธุรกิจ** แท็บ **แม่แบบ** ในบานหน้าต่างด้านขวาแสดงแม่แบบที่อัพเดต ในกริด ให้สังเกตว่าฟิลด์ **สถานะ** สำหรับแม่แบบที่แก้ไขถูกเปลี่ยนเป็น **ร่าง** และฟิลด์ **การปรับปรุง** จะไม่ว่างเปล่าอีกต่อไป การเปลี่ยนแปลงเหล่านี้บ่งชี้ว่ากระบวนการของการแก้ไขของแม่แบบนี้ได้เริ่มต้นแล้ว
 
-![แม่แบบที่แก้ไขแล้วในพื้นที่ทำงานการจัดการเอกสารธุรกิจ](./media/BDM-AddFldExcel-Workspace2.png)
+![แม่แบบที่แก้ไขแล้วในพื้นที่ทำงานการจัดการเอกสารทางธุรกิจ](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>ตรวจทานการตั้งค่าบริษัท
 

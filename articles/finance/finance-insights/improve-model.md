@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355687"
 ---
 # <a name="improve-the-prediction-model-preview"></a>ปรับปรุงแบบจำลองการคาดคะเน (ตัวอย่าง)
 
@@ -74,8 +74,8 @@ ms.locfileid: "6186653"
 
 ## <a name="filters"></a>ตัวกรองข้อมูล
 
-ตัวกรองข้อมูลไม่สนับสนุนสถานการณ์จำลองการคาดการณ์การชำระเงินของลูกค้าในขณะนี้ ดังนั้น ให้เลือก **ข้ามขั้นตอนนี้** และดำเนินการต่อไปยังหน้าสรุป
+คุณสามารถกรองข้อมูลใบแจ้งหนี้ที่ใช้เพื่อการฝึกอบรมโดยการตั้งค่าเงื่อนไขตัวกรองสำหรับฟิลด์บนใบแจ้งหนี้หรือในตารางลูกค้า ตัวอย่างเช่น คุณสามารถตั้งค่าขีดจำกัดให้รวมเฉพาะใบแจ้งหนี้ที่มีผลรวมเท่ากับหรือเกินกว่าจํานวนเงินที่ระบุ หรือคุณสามารถไม่รวมใบแจ้งหนี้ที่สัมพันธ์กับลูกค้าในกลุ่มลูกค้าที่ระบุ
 
-[![แบบจำลองโฟกัสที่มีตัวกรอง](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกรองข้อมูลของคุณ โปรดดูที่ [การสร้างแบบจำลองการคาดคะเน](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

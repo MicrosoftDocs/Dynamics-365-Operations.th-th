@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354600"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>กำหนดรายการงานให้กับร้านค้าหรือพนักงาน
 

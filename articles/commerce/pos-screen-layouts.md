@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 01797b5a1c29ee608e7796319a18d6402b542409
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353765"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
 
@@ -38,9 +38,9 @@ ms.locfileid: "5798716"
 
 โพรไฟล์ภาพจะถูกกำหนดให้กับเครื่องบันทึกเงินสด และจะระบุองค์ประกอบภาพที่เฉพาะเจาะจงกับเครื่องบันทึกเงินสด และถูกใช้ร่วมกันระหว่างผู้ใช้หลายราย ผู้ใช้ทุกรายที่ลงชื่อเข้าใช้ในเครื่องบันทึกเงินสดจะเห็นชุดรูปแบบ โครงร่าง สี และรูปภาพเดียวกัน
 
-![หน้าจอยินดีต้อนรับของ POS พร้อมด้วยชุดรูปแบบสีอ่อน](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![หน้าจอต้อนรับของ POS พร้อมด้วยชุดรูปแบบสีอ่อน](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![หน้าจอธุรกรรม POS ที่มีชุดรูปแบบสีเข้ม](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![หน้าจอธุรกรรม POS พร้อมด้วยชุดรูปแบบสีเข้ม](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **หมายเลขโพรไฟล์** – หมายเลขโพรไฟล์เป็นตัวระบุเฉพาะของโพรไฟล์ภาพ
 - **คำอธิบาย** – คุณสามารถระบุชื่อที่มีความหมายซึ่งจะช่วยคุณในการระบุโพรไฟล์ที่ถูกต้องสำหรับสถานการณ์ของคุณได้
@@ -69,7 +69,7 @@ ms.locfileid: "5798716"
 
 - **หน้าจอต้อนรับ** – ในกรณีส่วนใหญ่ หน้าจอต้อนรับคือหน้าที่ผู้ใช้จะเห็นเมื่อพวกเขาเข้าสู่ระบบ POS ครั้งแรก หน้าจอต้อนรับอาจประกอบด้วยภาพการสร้างแบรนด์และกริดปุ่มที่ให้การเข้าถึงไปยังการดำเนินงานของ POS โดยปกติ การดำเนินการที่ไม่เฉพาะเจาะจงกับธุรกรรมปัจจุบัน จะถูกวางไว้บนหน้าจอนี้
 
-    ![หน้าจอต้อนรับของ POS](../commerce/media/POS-Welcome-Screen.png)
+    ![หน้าจอต้อนรับ POS](../commerce/media/POS-Welcome-Screen.png)
 
 - **หน้าจอธุรกรรม** – หน้าจอ **ธุรกรรม** เป็นหน้าจอหลักใน POS สำหรับการประมวลผลธุรกรรมและใบสั่งขาย เนื้อหาและโครงร่างถูกตั้งค่าคอนฟิกโดยใช้โปรแกรมออกแบบโครงร่างหน้าจอ
 
@@ -102,7 +102,7 @@ ms.locfileid: "5798716"
 > [!TIP]
 > คุณสามารถเรียนรู้ขนาดโครงร่างที่จำเป็นสำหรับหน้าจอ POS ได้โดยดูความละเอียดในแอป เริ่มต้น POS และไปที่ **การตั้งค่า \> ข้อมูลรอบเวลา** POS แสดงโครงร่างหน้าจอที่ถูกโหลดในปัจจุบัน ขนาดโครงร่าง และความละเอียดของหน้าต่างแอป
 
-![หน้าข้อมูลของรอบเวลา POS แสดงหน้าจอที่ถูกโหลดในปัจจุบัน ขนาดโครงร่าง และความละเอียดของหน้าต่างแอป](../commerce/media/POS-Session-Information.png)
+![หน้าข้อมูลของรอบเวลา POS ที่แสดงโครงร่างหน้าจอที่ถูกโหลดในปัจจุบัน ขนาดโครงร่าง และความละเอียดของหน้าต่างแอป](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>กริดปุ่ม
 
@@ -202,7 +202,7 @@ ms.locfileid: "5798716"
 
 ![กริดปุ่มตัวอย่างใน POS](../commerce/media/Example-Button-Grid-In-POS.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ติดตั้งตัวออกแบบโครงร่างการขายหน้าร้านแบบ Retail (POS)](install-pos-layout-designer.md)
 

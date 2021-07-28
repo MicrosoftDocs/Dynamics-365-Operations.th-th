@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944859"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349195"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 
@@ -76,7 +76,7 @@ ms.locfileid: "5944859"
 
     การแม็ปแบบจำลองในการตั้งค่าคอนฟิกนี้จะใช้รูปแบบข้อมูลพื้นฐาน สำหรับรูปแบบ ER ใดๆ ที่สร้างขึ้นสำหรับรูปแบบนี้และเรียกใช้ใน Finance ดังนั้นจึงมีการเปิดเผยเนื้อหาของแหล่งข้อมูล **Trans** สำหรับรูปแบบ ER เช่น แหล่งข้อมูล **รูปแบบ**
 
-    ![เพิ่มแหล่งข้อมูล Trans ในหน้าตัวออกแบบการแม็ปแบบจำลอง](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![แหล่งข้อมูล Trans ในหน้าตัวออกแบบการแม็ปแบบจำลอง](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 5. ปิดหน้า **การแม็ปแบบจำลองกับแหล่งข้อมูล**

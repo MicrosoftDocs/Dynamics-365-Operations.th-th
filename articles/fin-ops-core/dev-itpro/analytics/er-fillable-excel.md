@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359040"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -39,7 +39,7 @@ ms.locfileid: "5893919"
 
 เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบของรูปแบบ ER ของการตั้งค่าคอนฟิก ให้เลือก **ตัวออกแบบ** บนบานหน้าต่างการดำเนินการและเปิดส่วนประกอบรูปแบบ ER เพื่อแก้ไขในตัวออกแบบการดำเนินงาน ER
 
-![เพจการตั้งค่าคอนฟิก](./media/er-excel-format-add-format.png)
+![หน้าการตั้งค่าคอนฟิก](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>ส่วนประกอบไฟล์ Excel
 
@@ -209,7 +209,7 @@ ms.locfileid: "5893919"
 1. ใช้การกำหนดค่าคอนฟิก ER ที่ให้เพื่อ [สร้าง](er-generate-printable-fti-forms.md) เอกสารใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
 2. ตรวจสอบส่วนท้ายของเอกสารที่สร้าง โปรดสังเกตว่างานจะประกอบด้วยข้อมูลเกี่ยวกับหมายเลขหน้าปัจจุบันและจํานวนรวมของหน้าในเอกสาร
 
-    ![ทบทวนส่วนท้ายของเอกสารที่สร้างในรูปแบบ Excel](./media/er-fillable-excel-footer-1.gif)
+    ![การตรวจทานส่วนท้ายของเอกสารที่สร้างในรูปแบบ Excel](./media/er-fillable-excel-footer-1.gif)
 
 3. ในโปรแกรมออกแบบรูปแบบ ER [เปิด](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) รูปแบบ ER ตัวอย่างเพื่อตรวจทาน
 
@@ -250,7 +250,7 @@ ms.locfileid: "5893919"
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 
-[ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks\er-design-reports-openxml-2016-11.md)
+[ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML](tasks\er-design-reports-openxml-2016-11.md)
 
 [แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง](modify-electronic-reporting-format-reapply-excel-template.md)
 
