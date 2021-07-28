@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754505"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354426"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 

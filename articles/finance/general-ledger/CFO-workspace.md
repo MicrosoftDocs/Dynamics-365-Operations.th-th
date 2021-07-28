@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823847"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360723"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 

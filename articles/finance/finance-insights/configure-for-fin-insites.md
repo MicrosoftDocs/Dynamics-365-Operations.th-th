@@ -1,6 +1,6 @@
 ---
-title: การตั้งค่าคอนฟิกสำหรับ Finance Insights - ได้สูงสุดรุ่น 10.0.19
-description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance insights สูงสุดรุ่น 10.0.19
+title: การตั้งค่าคอนฟิกสำหรับ Finance Insights - ก่อนรุ่น 10.0.19
+description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance insights ก่อนรุ่น 10.0.19
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186431"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357449"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>การตั้งค่าคอนฟิกสำหรับข้อมูลเชิงลึก Finance
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>การตั้งค่าคอนฟิกสำหรับ Finance Insights สำหรับตัวอย่างส่วนตัว (ตัวอย่าง) - ก่อนรุ่น 10.0.19
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186431"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> ขั้นตอนต่อไปนี้สำหรับการตั้งค่า Finance Insights ใช้ได้กับ Microsoft Dynamics 365 Finance สูงสุดรุ่น 10.0.19 หากต้องการตั้งค่า Finance Insights รุ่น 10.0.20 และใหม่กว่า ให้ดูที่ [การตั้งค่าคอนฟิกของ Finance Insights (การแสดงตัวอย่าง) - รุ่น10.0.20 และอื่นๆ](configure-for-fin-insites-PubPrvw.md)
+> ขั้นตอนต่อไปนี้สำหรับการตั้งค่า Finance Insights ใช้ได้กับ Microsoft Dynamics 365 Finance ก่อนรุ่น 10.0.19 หากต้องการตั้งค่า Finance Insights รุ่น 10.0.20 และใหม่กว่า ให้ดูที่ [การตั้งค่าคอนฟิกของ Finance Insights (การแสดงตัวอย่าง) - รุ่น10.0.20 และอื่นๆ](configure-for-fin-insites-PubPrvw.md)
 
 ข้อมูลเชิงลึก Finance รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance พร้อมกับ Microsoft Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ในข้อมูลเชิงลึก Finance ได้
 
@@ -792,6 +792,8 @@ finally {
     | URL ขององค์กร CDS                                     | URL ขององค์กรของ Dataverse ถูกคัดลอกจากด้านบน |
     | รหัสองค์กร CDS                                               | ID ขององค์กรของ Dataverse ถูกคัดลอกจากด้านบน |
 5. เปิดใช้งาน **นี่เป็นสภาพแวดล้อมเริ่มต้นสำหรับผู้เช่าของคุณหรือไม่**
+
+Add-in อาจใช้เวลาหลายนาทีในการติดตั้ง
     
 ## <a name="configure-the-entity-store"></a>ตั้งค่าคอนฟิกที่จัดเก็บเอนทิตี
 

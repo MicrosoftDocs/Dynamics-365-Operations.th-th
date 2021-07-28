@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c4f1306faa2c0ae02fee48449839db4ff0907ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348403"
 ---
 # <a name="explosion-of-a-bom-version"></a>การกระจายเวอร์ชัน BOM
 
@@ -34,11 +34,11 @@ ms.locfileid: "6187421"
 -   มิติไซต์เป็นข้อมูลบังคับ และต้องป้อนบนธุรกรรมความต้องการ
 -   มิติไซต์ไม่เปลี่ยนแปลง ดังนั้น ไซต์สำหรับความต้องการระดับล่างจึงเหมือนกับไซต์บนธุรกรรมความต้องการแรกเริ่ม
 
-ภาพประกอบต่อไปนี้แสดงกระบวนการสำหรับการขยายความต้องการของการวางแผนหลัก ![ความต้องการกระจายโดยใช้ BOM เวอร์ชัน](./media/multisitedemandexplosionscenariousingbomversion.gif)
+ภาพประกอบต่อไปนี้แสดงกระบวนการสำหรับการขยายความต้องการของการวางแผนหลัก ![การขยายความต้องการโดยใช้รุ่น BOM](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[กำหนดเวอร์ชันสูตรการผลิต](master-plan-bom-version-determined.md)
+[กำหนดเวอร์ชัน BOM](master-plan-bom-version-determined.md)
 
 [ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
 

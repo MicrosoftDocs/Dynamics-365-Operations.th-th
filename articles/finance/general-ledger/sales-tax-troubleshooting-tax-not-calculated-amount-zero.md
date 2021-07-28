@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352821"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>ไม่ได้คํานวณภาษีหรือยอดเงินภาษีเป็นศูนย์
 
@@ -32,7 +32,7 @@ ms.locfileid: "6020126"
 
 1. บนบรรทัดธุรกรรม บนแท็บด่วน **รายละเอียดของรายการ** บนแท็บ **การตั้งค่า** ในส่วน **ภาษีขาย** ตรวจสอบว่ามีการเลือกรหัสภาษีโดยธุรกรรมอย่างถูกต้องในฟิลด์ **กลุ่มภาษีขายตามประเภทสินค้า** และ **กลุ่มภาษีขาย** ถ้าไม่ได้เลือกกลุ่มภาษีที่ถูกต้อง ให้เลือกกลุ่มภาษีนั้น
 
-    [![กลุ่มภาษีขายสินค้าและฟิลด์กลุ่มภาษีขาย](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![ฟิลด์กลุ่มภาษีขายสินค้าและฟิลด์กลุ่มภาษีขาย](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. ไปที่ **ภาษี** \> **ภาษีทางอ้อม** \> **ภาษีขาย** \> **กลุ่มภาษีขาย**
 3. เลือกกลุ่มภาษีขายที่เหมาะสม จากนั้นบนแท็บด่วน **การตั้งค่า** ให้บันทึกรหัสภาษีในฟิลด์ **รหัสภาษีขาย**

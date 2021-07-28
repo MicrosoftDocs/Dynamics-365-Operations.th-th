@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350581"
 ---
 # <a name="message-processor-messages"></a>ข้อความตัวประมวลผลข้อความ
 

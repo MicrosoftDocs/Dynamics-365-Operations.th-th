@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8961b7156f52e48dbfcf7efb14e50316e81fcfff
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360160"
 ---
 # <a name="copy-an-instance"></a>คัดลอกอินสแตนซ์
 

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349637"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>ใบสั่งของลูกค้าในการขายหน้าร้าน (POS)
 
@@ -53,7 +55,7 @@ ms.locfileid: "5936741"
 
 ใน Commerce รุ่น10.0.12 และถัดจากนั้น องค์กรสามารถกำหนดได้ว่าควรใช้ส่วนผสมของคลังสินค้าหรือคลังสินค้าและร้านค้าที่กำหนดไว้ในกลุ่มการเก็บแพคส่งสินค้าสำหรับการจัดส่งสินค้า สำหรับการรับสินค้า หรือทั้งการจัดส่งสินค้าและการรับสินค้าหรือไม่ ซึ่งจะช่วยให้มีความยืดหยุ่นในการเพิ่มความยืดหยุ่นของธุรกิจเพื่อระบุว่าคลังสินค้าใดที่สามารถเลือกได้เมื่อสร้างใบสั่งของลูกค้าให้กับสินค้าที่จะจัดส่งเทียบกับ ที่จัดเก็บสามารถเลือกได้เมื่อสร้างใบสั่งของลูกค้าเพื่อให้สินค้าเบิกสินค้า เพื่อใช้ประโยชน์จากตัวเลือกการตั้งค่าคอนฟิกเหล่านี้ เปิดใช้งานคุณลักษณะ **ความสามารถในการระบุตำแหน่งที่ตั้งเป็น "ส่งสินค้า" หรือ "รับสินค้า" ที่เปิดใช้งานในกลุ่มการเก็บแพคสินค้า** ถ้าคลังสินค้าที่เชื่อมโยงกับกลุ่มการเก็บแพคส่งสินค้าไม่ใช่ร้านค้า อาจมีการตั้งค่าคอนฟิกไว้เป็นสถานที่จัดส่งเท่านั้น ตัวเลือกนี้ไม่สามารถใช้ได้เมื่อมีการตั้งค่าคอนฟิกใบสั่งสำหรับการรับสินค้าใน POS
 
-![หน้ากลุ่มการเก็บแพคส่งสินค้า](media/customer-order-fulfillment-group.png)
+![หน้ากลุ่มการเติมสินค้า](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>ตั้งค่าคอนฟิกการตั้งค่าช่องทาง
 

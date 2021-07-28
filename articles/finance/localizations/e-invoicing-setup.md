@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348497"
 ---
 # <a name="set-up-electronic-invoicing"></a>ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053020"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353697"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>กำหนดและจัดการโปรแกรมสวัสดิการ
 
@@ -46,7 +46,7 @@ ms.locfileid: "6053020"
 
 [![รูปภาพสวัสดิการ](./media/benefit-pic.png)](./media/benefit-pic.png)
 
-## <a name="eligibility"></a>ความถูกต้องตามกฎหมาย
+## <a name="eligibility"></a>การมีสิทธิ์
 ปัจจัยหลายอย่างกำหนดสิทธิ์ของผู้ปฏิบัติงาน สำหรับชนิดต่างๆของสวัสดิการที่นายจ้างเสนอ เมื่อคุณสร้างสวัสดิการใน Dynamics 365 Human Resources คุณสามารถตั้งค่าชนิดของสิทธิ์ที่ใช้กับสวัสดิการนั้น 
 
 คุณสามารถทำให้สวัสดิการพร้อมใช้งานกับผู้ปฏิบัติงานทั้งหมด ตัวอย่างเช่น บริษัทบางแห่งเสนอบัตรผ่านการจอดรถให้กับพนักงานทั้งหมดให้เป็นสวัสดิการ เมื่อคุณสร้างสวัสดิการนี้ คุณตั้งค่าสิทธิ์เป็น **พนักงานทั้งหมดมีสิทธิ์** 

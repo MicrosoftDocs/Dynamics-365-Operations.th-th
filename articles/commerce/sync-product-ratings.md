@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791693"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354624"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ ms.locfileid: "5791693"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของรายละเอียดของงานย่อยใน Commerce
 
-![รายละเอียดของ RetailProductRating ย่อย](media/rnr-hq-ratings-sub-job.png)
+![รายละเอียดของงานย่อย RetailProductRating](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > ถ้าคุณไม่พบงานย่อย **RetailProductRating** คุณอาจเรียกใช้งาน **ซิงค์การจัดอันดับผลิตภัณฑ์** และงาน **1040 CDX** ไปแล้ว ก่อนที่คุณจะเริ่มต้นตัวกำหนดตารางทำงาน Commerce ในกรณีนี้ให้ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อเพื่อเรียกใช้งาน **งานการซิงค์ข้อมูลแบบสมบูรณ์**
@@ -83,7 +83,7 @@ ms.locfileid: "5791693"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการตั้งค่าคอนฟิกชุดงานใน Commerce
 
-![การตั้งค่าคอนฟิกของชุดงานการจัดอันดับผลิตภัณฑ์ที่มีการซิงค์](media/rnr-hq-batchjob-recurrence.png)
+![การตั้งค่าคอนฟิกของชุดงานซิงค์การให้คะแนนผลิตภัณฑ์](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>ตรวจสอบว่าชุดงานสำหรับการซิงโครไนส์การจัดอันดับผลิตภัณฑ์สำเร็จหรือไม่
 
@@ -95,7 +95,7 @@ ms.locfileid: "5791693"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของรายละเอียดชุดงานใน Commerce เมื่อมีการจัดกำหนดการชุดงานให้รันในช่วงสองชั่วโมง
 
-![รายละเอียดของชุดงานการจัดอันดับผลิตภัณฑ์ที่มีการซิงค์](media/rnr-hq-batchjob-status-checking.png)
+![รายละเอียดของชุดงานซิงค์การให้คะแนนผลิตภัณฑ์](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>ทำให้การจัดอันดับผลิตภัณฑ์พร้อมใช้งานที่ POS
 
@@ -113,7 +113,7 @@ ms.locfileid: "5791693"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการตั้งค่าคอนฟิกของพารามิเตอร์ Commerce เพื่อเปิดใช้งานการจัดอันดับผลิตภัณฑ์ที่ POS
 
-![การตั้งค่าคอนฟิกของพารามิเตอร์ Commercel สำหรับการจัดอันดับผลิตภัณฑ์ที่ POS](media/rnr-hq-enable-ratings-in-pos.png)
+![การตั้งค่าคอนฟิกของพารามิเตอร์ Commerce สำหรับการให้คะแนนผลิตภัณฑ์ที่ POS](media/rnr-hq-enable-ratings-in-pos.png)
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการให้คะแนนผลิตภัณฑ์ที่ POS
 
@@ -123,7 +123,7 @@ ms.locfileid: "5791693"
 
 ![การให้คะแนนผลิตภัณฑ์ในช่องทางของศูนย์บริการ](media/rnr-call-center-ratings.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของการให้คะแนนและบทวิจารณ์](ratings-reviews-overview.md)
 

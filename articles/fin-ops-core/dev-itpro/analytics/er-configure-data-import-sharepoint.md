@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753803"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357629"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>ตั้งค่าคอนฟิกการนำเข้าข้อมูลจาก SharePoint
 
@@ -68,7 +68,7 @@ ms.locfileid: "5753803"
      - ต้นทางการนำเข้าไฟล์ (หลัก) (ตัวอย่างที่แสดงในภาพหน้าจอด้านล่าง)
      - ต้นทางการนำเข้าไฟล์ (สำรอง)
 
-    ![ต้นทางการนำเข้าไฟล์ (หลัก)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![แหล่งที่มาการนำเข้าไฟล์ (หลัก)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (ไม่จำเป็น) สร้างโฟลเดอร์ต่อไปนี้ที่ซึ่งสามารถจัดเก็บไฟล์ได้หลังจากการนำเข้า: 
 

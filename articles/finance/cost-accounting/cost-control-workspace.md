@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355238"
 ---
 # <a name="cost-control-workspace"></a>พื้นที่ทำงานการควบคุมต้นทุน 
 

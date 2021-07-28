@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811193"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361077"
 ---
 # <a name="asset-fault-cost-control"></a>การควบคุมต้นทุนข้อบกพร่องของสินทรัพย์
 
@@ -56,7 +56,7 @@ ms.locfileid: "5811193"
 - ฟิลด์ **ต้นทุนจริง** แสดงต้นทุนที่ลงรายการบัญชีบนใบสั่งงาน 
 - ฟิลด์ **ต้นทุนผูกมัด** แสดงจำนวนรวมของต้นทุนที่บริษัทของคุณจะได้รับการกำหนดในความสัมพันธ์กับใบสั่งงาน
 
-    ![รูปที่ 1](media/05-controlling-and-reporting.png)
+    ![รูปที่ 1.](media/05-controlling-and-reporting.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าข้อบกพร่อง ดูที่หัวข้อ [การจัดการข้อบกพร่อง](../setup-for-work-orders/fault-management.md)
 

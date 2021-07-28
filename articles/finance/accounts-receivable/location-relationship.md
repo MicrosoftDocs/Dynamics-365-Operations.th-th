@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 406f87b5aaa5917fb075daca453e24f452611826
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359720"
 ---
 # <a name="add-location-and-party-relationship-types"></a>เพิ่มสถานที่และชนิดความสัมพันธ์ของฝ่าย 
 
@@ -32,13 +32,13 @@ ms.locfileid: "5817256"
 
 -  เพิ่มผ่านทางหน้า **วัตถุประสงค์ของที่อยู่และข้อมูลการติดต่อ** บทบาทใหม่จะถูกบันทึกไปยังตาราง **LogisticsLocationRole** ที่มีชนิด = 0 ซึ่งบ่งชี้ว่า บทบาทไม่ใช่บทบาทของระบบที่กำหนดไว้ใน enum **LogisticsLocationRoleType** และส่วนขยาย ผู้ใช้จะสามารถใช้บทบาทนี้ได้ เมื่อสร้างข้อมูลที่อยู่หรือผู้ติดต่อ
 
-    ![วัตถุประสงค์ของที่อยู่และข้อมูลผู้ติดต่อ](media/Address-Contact.PNG)
+    ![วัตถุประสงค์ของที่อยู่และข้อมูลเนื้อหา](media/Address-Contact.PNG)
 
 -  เพิ่มเข้าไปยังส่วนขยาย enum **LogisticsLocationRoleType** และปล่อยให้โปรแกรมเติมข้อมูลผ่านกระบวนการซิงค์ฐานข้อมูล
 
     1.  สร้างการขยายไปยัง enum **LogisticsLocationRoleType** และเพิ่มบทบาทใหม่ในส่วนขยาย 
   
-        ![ส่วนขยายไปยังการแจงนับ LogisticsLocationRoleType](media/Logistics.PNG)
+        ![ส่วนขยายไปยัง LogisticsLocationRoleType enum](media/Logistics.PNG)
 
     2. สร้างไฟล์ทรัพยากรใหม่สำหรับบทบาทใหม่ และจากนั้น กำหนดค่าสำหรับคุณสมบัติ
      

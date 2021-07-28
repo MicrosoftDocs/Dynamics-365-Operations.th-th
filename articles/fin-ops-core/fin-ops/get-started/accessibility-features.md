@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360314"
 ---
 # <a name="accessibility-features"></a>คุณสมบัติความสามารถในการเข้าถึง
 

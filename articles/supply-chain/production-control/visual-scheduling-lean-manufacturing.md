@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188870"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353455"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>การกำหนดการแบบภาพสำหรับ Lean Manufacturing
 

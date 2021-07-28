@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352601"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>ตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง
 
@@ -45,7 +45,7 @@ ms.locfileid: "5796135"
 
 ภาพต่อไปนี้แสดงวิธีการตั้งค่าคอนฟิกช่องทางเพื่อใช้ลำดับชั้นการนำทางของช่องทาง
 
-![การตั้งค่าคอนฟิกช่องทางตัวอย่าง](media/configure-channel-hierarchy-1.png)
+![ตัวอย่างการตั้งค่าคอนฟิกช่องทาง](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>ตั้งค่าข้อมูลเมตาของแอททริบิวต์
 
@@ -63,7 +63,7 @@ ms.locfileid: "5796135"
 
 ![แอตทริบิวต์ช่องทางบนโหนดประเภทของช่องทาง](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>เผยแพร่การเปลี่ยนแปลง
+## <a name="publish-changes"></a>เผยแพร่กการเปลี่ยนแปลง
 
 เพื่อให้การเปลี่ยนแปลงของคุณมีผล คุณจะต้องเผยแพร่การเปลี่ยนแปลง
 
@@ -76,7 +76,7 @@ ms.locfileid: "5796135"
 
 ![เผยแพร่การอัพเดตช่องทาง](media/configure-channel-hierarchy-3.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [สร้างลำดับชั้นการนำทางของช่องทาง](create-channel-hierarchy.md)
 

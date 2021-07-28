@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359896"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>การเลือกกำหนดและใช้พอร์ทัลลูกค้า
 
