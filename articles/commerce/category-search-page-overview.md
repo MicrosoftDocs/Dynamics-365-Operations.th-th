@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794360"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351284"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 
@@ -94,13 +94,13 @@ ms.locfileid: "5794360"
 
 >[!NOTE]
 >ความสามารถในการค้นหาที่ทำงานบนคลาวด์เหล่านี้จะพร้อมใช้งานเมื่อเริ่มต้นในเวอร์ชัน10.0.8 ตรวจสอบให้แน่ใจว่าภายใต้ **พารามิเตอร์ Commerce > พารามิเตอร์การตั้งค่าคอนฟิก** มีการตั้งค่ารายการสำหรับ "ProductSearch UseAzureSearch เป็น 'จริง'" 
-![พารามิเตอร์การตั้งค่าคอนฟิกสำหรับการค้นหาที่ใช้พลังงานบนคลาวด์](./media/CloudPoweredSearchConfigurationParameters.png)
+![พารามิเตอร์การตั้งค่าคอนฟิกสำหรับการค้นหาที่ทำงานบนคลาวด์](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของการค้นหาที่ขับเคลื่อนโดยระบบคลาวด์](cloud-powered-search-overview.md)
 
-[ภาพรวมโฮมเพจ](quick-tour-home-page.md)
+[ภาพรวมของโฮมเพจ](quick-tour-home-page.md)
 
 [ภาพรวมของหน้ารายละเอียดผลิตภัณฑ์](quick-tour-pdp.md)
 

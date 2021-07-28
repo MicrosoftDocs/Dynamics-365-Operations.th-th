@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353999"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>เรียกขั้นตอนระบบอัตโนมัติของกระบวนการเพื่อสร้างใบสั่งตรวจสอบคุณภาพ
 

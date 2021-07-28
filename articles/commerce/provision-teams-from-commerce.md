@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022457"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352119"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>เตรียมใช้งาน Microsoft Teams จาก Dynamics 365 Commerce
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce เสนอวิธีที่ง่ายในกา�
 > [!TIP]
 > หากไม่มีผู้จัดการระดับภูมิภาค ผู้จัดการร้านค้า และผู้ปฏิบัติงานร้านค้าใดเกี่ยวข้องกับลิขสิทธิ์ของ Teams คุณอาจได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "ล้มเหลวในการดึงข้อมูลประเภท Sku ที่รับผิดชอบของผู้ใช้" เมื่อต้องการแก้ปัญหา ให้เลือก **ซิงค์ Teams และสมาชิก** ในบานหน้าต่างการการดำเนินการ
 
-<!-- ![Dynamics 365 Commerce - Teams integration configuration](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
+<!-- ![Dynamics 365 Commerce - Teams integration configuration.](media/D365-Commerce-Microsoft-Teams-Configuration_with_disclaimer.png)-->
 
 ## <a name="validate-teams-provisioning-in-the-teams-admin-center"></a>ตรวจสอบความถูกต้องของการเตรียมใช้งาน Teams ในศูนย์การจัดการ Teams
 

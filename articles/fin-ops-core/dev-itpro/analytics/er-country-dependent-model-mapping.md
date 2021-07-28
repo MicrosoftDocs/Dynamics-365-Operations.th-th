@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 83cd99350f58a56d121d694393edc4eb98af728a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef74a446356eeeeb86829868043ca2dad4eff77d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357605"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>ตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ที่ขึ้นกับบริบทของประเทศ
 
@@ -236,7 +236,7 @@ ms.locfileid: "5753779"
 14. ในกล่องโต้ตอบรายการแบบหล่นลง ในฟิลด์ **ชื่อ** ให้ป้อน **คำอธิบายฟังก์ชัน**
 15. เลือก **เพิ่ม**
 
-    ![เพจตัวออกแบบแบบจำลองข้อมูล ER](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![หน้าตัวออกแบบรูปแบบข้อมูล ER](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. เลือก **บันทึก**
 17. ปิดหน้า
@@ -276,10 +276,10 @@ ms.locfileid: "5753779"
 5.  เลือก **บันทึก**
 6.  ปิดหน้า **ตัวออกแบบสูตร**
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  เลือก **บันทึก**
-8.  ปิดหน้า **ตัวออกแบบการแม็ปแบบจำลอง**
+8.  ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 9.  เลือก **ใหม่**
 10. ในฟิลด์ **คำนิยาม**  ให้เลือก **จุดเข้าใช้งาน 2**
 11. ในฟิลด์ **ชื่อ** ให้ป้อน **การแม็ป (ทั่วไป) 2**
@@ -289,12 +289,12 @@ ms.locfileid: "5753779"
 15. เลือก **บันทึก**
 16. ปิดหน้า **ตัวออกแบบสูตร**
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. เลือก **บันทึก**
-18. ปิดหน้า **ตัวออกแบบการแม็ปแบบจำลอง**
+18. ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. ปิดหน้า **การแม็ปแบบจำลอง**
 
@@ -335,7 +335,7 @@ ms.locfileid: "5753779"
 2.  เลือกฟิลด์ **คำอธิบายฟังก์ชัน**
 3.  เลือก **ผูก**
 
-    ![เพจตัวออกแบบรูปแบบ ER](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![หน้าตัวออกแบบรูปแบบ ER](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  เลือก **บันทึก**
 5.  ปิดหน้า
@@ -369,7 +369,7 @@ ms.locfileid: "5753779"
 6.  เลือก **บันทึก**
 7.  ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  เลือก **บันทึก**
 9.  ปิดหน้า
@@ -380,12 +380,12 @@ ms.locfileid: "5753779"
 14. เลือก **บันทึก**
 15. ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. เลือก **บันทึก**
 17. ปิดหน้า
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. ปิดหน้า
 
@@ -432,7 +432,7 @@ ms.locfileid: "5753779"
 7.  เลือก **บันทึก**
 8.  ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  เลือก **บันทึก**
 10. ปิดหน้า
@@ -444,12 +444,12 @@ ms.locfileid: "5753779"
 16. เลือก **บันทึก**
 17. ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. เลือก **บันทึก**
 19. ปิดหน้า
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. ปิดหน้า
 

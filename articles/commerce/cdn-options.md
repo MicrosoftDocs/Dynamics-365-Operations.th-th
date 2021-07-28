@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351260"
 ---
 # <a name="content-delivery-network-implementation-options"></a>ตัวเลือกการใช้งานเครือข่ายการจัดส่งเนื้อหา
 
@@ -78,7 +78,7 @@ ms.locfileid: "6021901"
 
 ภาพประกอบต่อไปนี้จะแสดงโครงสร้างพื้นฐานของ Commerce ที่รวมบริการ CDN ภายนอก
 
-![โครงสร้างพื้นฐานของ Commerce ที่รวมบริการ CDN ภายนอก](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![โครงสร้างพื้นฐานของ Commerce ที่มีบริการ CDN ภายนอก](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

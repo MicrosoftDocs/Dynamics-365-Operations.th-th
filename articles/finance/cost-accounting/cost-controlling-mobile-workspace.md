@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: df727f3e66691409b98d2f74f78329b03e638959
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897947"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355214"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
@@ -70,7 +70,7 @@ ms.locfileid: "5897947"
 
     เมื่อคุณเลือกลิงก์ บัตรจะแสดงขึ้นสำหรับแต่ละองค์ประกอบต้นทุน จำนวนต่อไปนี้ถูกแสดงในทุกๆ การ์ด: ข้อมูลจริง งบประมาณ ผลต่างงบประมาณ ผลต่างงบประมาณ % งบประมาณที่ถูกแก้ไข ผลต่างงบประมาณที่ถูกแก้ไข และงบประมาณที่ถูกแก้ไข %
     
-    [![บัตรสำหรับองค์ประกอบต้นทุน ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![บัตรสำหรับองค์ประกอบต้นทุน](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ

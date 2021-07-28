@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023629"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358277"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>การตั้งค่าข้อมูลกลุ่ม TDS, PAN และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า
 
@@ -60,7 +60,7 @@ ms.locfileid: "6023629"
     - หน่วยงานท้องถิ่น
     - อื่นๆ
 
-    [![FastTab ข้อมูลภาษี](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![แท็บด่วน ข้อมูลภาษี](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. บนบานหน้าต่างการดำเนินการ บนแท็บ **ผู้จัดจำหน่าย** ในกลุ่ม **การลงทะเบียน** ให้เลือก **รหัสการลงทะเบียน** เพื่อเปิดหน้า **จัดการที่อยู่**
 10. บนหน้า **จัดการที่อยู่** บน FastTab **ข้อมูลภาษี** ให้เลือก **เพิ่ม** หรือ **แก้ไข** เพื่อเปิดหน้า **จัดการข้อมูลภาษี** ที่ซึ่งคุณสามารถรักษารายการทะเบียนภาษีได้

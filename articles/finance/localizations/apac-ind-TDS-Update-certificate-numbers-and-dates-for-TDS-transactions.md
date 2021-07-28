@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360234"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>อัพเดตหมายเลขและวันที่ของใบรับรองสำหรับธุรกรรม TDS
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023624"
 
 1. ไปที่ **ภาษี \> ประกาศต่างๆ \> ภาษีหัก ณ ที่จ่าย \> อัพเดตใบรับรอง**
 
-    [![หน้าอัพเดตใบรับรอง](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![หน้าอัปเดตใบรับรอง](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. ในหน้า **อัพเดตใบรับรอง** ในส่วน **เลือก** ในฟิลด์ **ชนิดภาษี** ให้เลือก **TDS**
 3. ในฟิลด์ **หมายเลขใบรับรอง** ให้เลือกหมายเลขใบรับรอง TDS ของลูกค้าหรือผู้จัดจำหน่าย

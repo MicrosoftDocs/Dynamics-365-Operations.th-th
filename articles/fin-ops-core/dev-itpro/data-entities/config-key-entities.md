@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: bdb90f8d629a026a84f8c65e7e95b589169a3e4d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752347"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356274"
 ---
 # <a name="configuration-keys-and-data-entities"></a>คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล
 

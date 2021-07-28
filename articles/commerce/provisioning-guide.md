@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352095"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>เตรียมใช้งานสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
@@ -99,7 +99,7 @@ ms.locfileid: "6022433"
 
 1. บนเพจ **ปรับใช้สภาพแวดล้อม** ให้ป้อนชื่อสภาพแวดล้อม ปล่อยการตั้งค่าขั้นสูงไว้ตามที่เป็นอยู่
 
-    ![ปรับใช้เพจสภาพแวดล้อม](./media/project4.png)
+    ![ปรับใช้หน้าสภาพแวดล้อม](./media/project4.png)
 
 1. ปรับขนาด VM ตามต้องการ (เราขอแนะนำหน่วยการเก็บสต็อกสินค้า VM \[SKU\] **D13 v2**)
 1. ตรวจสอบเงื่อนไขการกำหนดราคาและการให้สิทธิ์การใช้งาน และจากนั้น เลือกกล่องกาเครื่องหมายเพื่อบ่งชี้ว่าคุณเห็นด้วย

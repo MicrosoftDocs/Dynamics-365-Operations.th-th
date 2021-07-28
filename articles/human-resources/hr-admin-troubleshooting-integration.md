@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357300"
 ---
 # <a name="integration-with-finance-faq"></a>การรวมกับคำถามที่พบบ่อยเกี่ยวกับ Finance
 
@@ -167,7 +167,7 @@ ms.locfileid: "6053406"
 
 ![ไม่มีการแม็ปฟิลด์](media/MissingFieldMapping.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - ตัวรวมข้อมูล (DI): 
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4dbfa96e6393bae6ad4ffa642b39a5d04c596c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349387"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>เชื่อมต่อการทดลองและแก้ไขรูปแบบการทดลอง
 
@@ -28,7 +28,7 @@ ms.locfileid: "5799097"
 
 แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้การทดสอบใช้ - เชื่อมต่อและแก้ไข](./media/experimentation_connect_edit.svg)](./media/experimentation_connect_edit.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - เชื่อมต่อและแก้ไข](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 หลังจากที่คุณ [ตั้งค่าการทดลองของคุณ](experimentation-setup.md) ในบริการของบุคคลที่สามแล้ว คุณจะเชื่อมต่อการทดลองใน Dynamics 365 Commerce และแก้ไขรูปแบบการทดลอง
 

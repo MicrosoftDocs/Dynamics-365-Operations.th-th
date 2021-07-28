@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022847"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356841"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -79,11 +79,11 @@ ms.locfileid: "6022847"
 
 ภาพประกอบต่อไปนี้จะแสดงกล่องโต้ตอบ **URL ใหม่** ในตัวสร้างไซต์โดยมีการเน้นพาธ URL 
 
-![กล่องโต้ตอบ **URL ใหม่** ในตัวสร้างไซต์](./media/Domains_PageSetup2a.png)
+![กล่องโต้ตอบ **URL ใหม่** ในโปรแกรมสร้างไซต์](./media/Domains_PageSetup2a.png)
 
 ภาพประกอบต่อไปนี้จะแสดงหน้า **URL** ในตัวสร้างไซต์ที่มีตัวอย่างการเน้น URL ในรายการ
 
-![รันตัวเลือกขั้นตอนของผู้ใช้ในขั้นตอนของนโยบาย](./media/Domains_URLsInSiteBuilder2a.png)
+![รันตัวเลือกโฟลว์ของผู้ใช้ในโฟลว์ของนโยบาย](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>โดเมนในตัวสร้างไซต์
 

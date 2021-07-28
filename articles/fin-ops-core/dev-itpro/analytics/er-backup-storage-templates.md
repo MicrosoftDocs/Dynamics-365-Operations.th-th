@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743858"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351853"
 ---
 # <a name="backup-storage-of-er-templates"></a>การจัดเก็บข้อมูลสำรองของเท็มเพลต ER
 
@@ -69,7 +69,7 @@ ms.locfileid: "5743858"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของข้อความที่จะปรากฏขึ้นเมื่อ **รันขั้นตอนการกู้คืนเท็มเพลตที่ขาดหายไปในชุดงานโดยอัตโนมัติ** โดยพารามิเตอร์ถูกตั้งเป็น **เปิด**
 
-![หน้าในสมุดรายวันการชำระเงินให้แก่ผู้จัดจำหน่าย](./media/GER-BackupTemplates-2.png)
+![หน้าสมุดรายวันการชำระเงินให้แก่ผู้จัดจำหน่าย](./media/GER-BackupTemplates-2.png)
 
 ภาพประกอบต่อไปนี้แสดงกระบวนการชุดงาน **การกู้ค่าเท็มเพลตที่เสียหายจากสำเนาสำรองฐานข้อมูลภายใน** บนหน้า **ชุดงาน**
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9392245abe5858b03b8324dcb471f5652aed7cd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c2d88315d95d8376cd1b00ddb11ba008f11a98c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813904"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351620"
 ---
 # <a name="calculate-item-forecast"></a>คำนวณการคาดการณ์สินค้า
 
@@ -56,7 +56,7 @@ ms.locfileid: "5813904"
 
 8. คลิกปุ่ม **เเสดงมิติ** ถ้าคุณต้องการดูผลิตภัณฑ์ การจัดเก็บ หรือมิติการติดตามที่เกี่ยวข้องกับสินค้า เลือกกล่องกาเครื่องหมายที่เกี่ยวข้อง เเละ คลิก **ตกลง**
 
-![รูปที่ 1](media/02-capacity-planning.png)
+![รูปที่ 1.](media/02-capacity-planning.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

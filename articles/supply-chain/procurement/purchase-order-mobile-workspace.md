@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353503"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 
@@ -83,7 +83,7 @@ ms.locfileid: "5909120"
 3. ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4. หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
 
-![พื้นที่ทำงานการอนุมัติใบสั่งในรายการของพื้นที่ทำงานที่พร้อมใช้งาน](./media/po-workspaces.png)
+![พื้นที่ทำงานการอนุมัติใบสั่งซื้อในรายการของพื้นที่ทำงานที่พร้อมใช้งาน](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>ดูใบสั่งที่กำหนดให้กับคุณ
 1. บนอุปกรณ์เคลื่อนที่ ให้เลือกพื้นที่ทำงาน **การอนุมัติใบแจ้งหนี้**

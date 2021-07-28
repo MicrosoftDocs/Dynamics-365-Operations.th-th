@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754787"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348640"
 ---
 # <a name="find-information-by-using-lookups"></a>ค้นหาข้อมูลโดยใช้การค้นหา
 
@@ -62,11 +62,11 @@ ms.locfileid: "5754787"
 
 ถ้าผู้ใช้เริ่มป้อน **รหัสบัญชี** ลงในตัวควบคุมการค้นหา เมนูแบบหล่นลงจะเปิดขึ้นโดยอัตโนมัติตามที่อธิบายไว้ในส่วนก่อนหน้านี้ และผู้ใช้จะเห็นการค้นหาดังที่แสดงด้านล่าง
 
-[![การค้นหาตามบริบทเมื่อมีการป้อนรหัสของบัญชีลูกค้า](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![การค้นหาตามบริบท เมื่อมีการป้อนรหัสของบัญชีลูกค้า](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
 อย่างไรก็ตาม ขณะนี้ผู้ใช้สามารถป้อนจุดเริ่มต้นของ **ชื่อบัญชี** ได้แล้ว ถ้ามีการตรวจพบ ผู้ใช้จะเห็นการค้นหาต่อไปนี้ สังเกตุวิธีการย้ายคอลัมน์ **ชื่อ** ไปเป็นคอลัมน์แรกในการค้นหา และวิธีการเรียงลำดับและการกรองข้อมูลการค้นหาตามคอลัมน์ **ชื่อ**
 
-[![การค้นหาตามบริบทเมื่อมีการป้อนชื่อลูกค้า](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![การค้นหาตามบริบท เมื่อมีการป้อนชื่อลูกค้า](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>การใช้ส่วนหัวคอลัมน์กริดเพื่อการกรองและการเรียงลำดับขั้นสูง
 

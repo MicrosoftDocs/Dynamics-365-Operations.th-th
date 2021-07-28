@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359992"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยในระหว่างการป้อนข้อมูลใบสั่ง
 
