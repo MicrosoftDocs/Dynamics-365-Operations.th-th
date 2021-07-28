@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186749"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349021"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>ประเมินแบบจำลองการคาดการณ์การชำระเงินของลูกค้าเริ่มต้น (ตัวอย่าง)
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5be19949e9d1dbc43fdd3e6def119effa50a34d0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d6813a642aefa59e20a7c77ddcf53ce7d3625eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347355"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>"ชนิดการชำระเงินต้องเป็นข้อผิดพลาดเกี่ยวกับบัตรเครดิต" ในหน้าใบสั่งขาย
 
@@ -32,9 +32,9 @@ ms.locfileid: "6018421"
 
 เมื่อคุณเปิดหน้าใบสั่งขายหลังจากที่คุณซิงค์ใบสั่ง คุณจะได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "ชนิดการชำระเงินต้องเป็นบัตรเครดิต เนื่องจากมีการระบุหมายเลขบัตรเครดิตแล้ว"
 
-![ชนิดการชำระเงินต้องเป็นข้อผิดพลาดเกี่ยวกับบัตรเครดิต](media/payment-type-must-be-credit-card.jpg)
+![ข้อผิดพลาดชนิดการชำระเงินต้องเป็นบัตรเครดิต](media/payment-type-must-be-credit-card.jpg)
 
-## <a name="resolution"></a>ความละเอียด
+## <a name="resolution"></a>การแก้ปัญหา
 
 ### <a name="set-the-payment-type-in-commerce-headquarters"></a>ตั้งค่าชนิดการชำระเงินในศูนย์ควบคุม Commerce
 

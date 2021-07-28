@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360226"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>ยกเลิกการกำหนดค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
 
@@ -45,7 +45,7 @@ ms.locfileid: "6018744"
 2. ตั้งค่าพารามิเตอร์ **ยกเลิก** เป็น **ใช่**
 3. เลือก **ตกลง** เพื่อยกเลิกการกำหนดค่าคอนฟิก เขตข้อมูล **วันที่ยกเลิก** จะถูกเติมเมื่อคุณบันทึกการเปลี่ยนแปลง
 
-![ยกเลิกข้อมูลการกำหนดค่าคอนฟิก](media/Discontinue-details-2.png)
+![ยกเลิกข้อมูลการตั้งค่าคอนฟิก](media/Discontinue-details-2.png)
   
 คุณสามารถแปลงการกำหนดค่าคอนฟิกกลับไปเป็น **ใช้ร่วมกัน** หรือปรับปรุงข้อมูลการยกเลิกได้ตลอดเวลา ถ้าคุณใช้การกำหนดค่าคอนฟิกร่วมกัน ให้ระบุ **รองรับจนถึง** วันที่และข้อมูลอื่นๆ ทั้งหมดที่เกี่ยวข้องกับการยกเลิกเพื่อระบุแผนของคุณสำหรับการยกเลิกในอนาคต
 

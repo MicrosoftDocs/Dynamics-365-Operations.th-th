@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4afc19ed103f204fec61ab20b88f767ad5f05b38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af5676511c16d0492a7c3a61b7bf3a88b43758a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792546"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349267"
 ---
 # <a name="run-and-monitor-an-experiment"></a>รันและตรวจสอบการทดสอบ
 
@@ -28,7 +28,7 @@ ms.locfileid: "5792546"
 
 แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้การทดสอบใช้ - รันและตรวจสอบ](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - รันและตรวจสอบ](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 หลังจากที่คุณเผยแพร่การเปลี่ยนแปลงแล้ว ขั้นตอนทั้งหมดที่คุณต้องทำใน Commerce เพื่อรันการทดลองของคุณเสร็จแล้ว ขั้นตอนต่อไปคือการกำหนดรูปแบบที่จะแสดงให้กับผู้ใช้แต่ละคนเมื่อร้องขอหน้า บริการของบุคคลที่สามทำให้เกิดการกำหนดนั้น แต่ก่อนอื่น คุณจะต้องเรียกใช้งานการทดลองภายในบริการ เนื่องจากขั้นตอนสำหรับการเรียกใช้การทดลองจะแตกต่างกันไปในแต่ละบริการ คุณจะต้องทำตามคำแนะนำที่มาพร้อมกับบริการหรือผู้ให้บริการของคุณ ถ้าไม่ได้เรียกใช้งานการทดลอง ผู้ใช้จะเห็นเฉพาะรุ่นเริ่มต้นของหน้า (ไม่มีการเปลี่ยนแปลงแสดงขึ้น)
 

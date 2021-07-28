@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791176"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355463"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>สร้างและอัพเดตที่ช่วงเวลาสำหรับการเบิกสินค้าของลูกค้า
 
@@ -60,7 +60,7 @@ ms.locfileid: "5791176"
 - **วันที่ใช้งานอยู่** – ระบุวันของสัปดาห์เมื่อช่องเวลาการเบิกสินค้าใช้งานอยู่ คุณสมบัตินี้ช่วยให้ผู้ค้าปลีกกำหนดวันที่ต้องการสนับสนุนใบสั่งเบิกสินค้า
 - **ช่องทางการขายปลีก** – ระบุช่องทางการขายปลีก แต่ละช่องเวลาสามารถเชื่อมโยงกับร้านค้าปลีกหนึ่งแห่งขึ้นไป ขึ้นอยู่กับชั่วโมงการดำเนินงานของร้านค้าแต่ละแห่ง คุณสามารถสร้างรายการช่องเวลาอย่างน้อยหนึ่งรายการและเชื่อมโยงกับช่องทางได้ 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 สามารถตั้งค่าคอนฟิกได้เพียงแม่แบบช่วงเวลาเดียวเท่านั้นสำหรับแต่ละช่องทาง ช่องทางเหล่านี้รวมถึงร้านค้าจริง ศูนย์บริการ อุปกรณ์เคลื่อนที่ และไซต์อีคอมเมิร์ซ
 
@@ -92,7 +92,7 @@ ms.locfileid: "5791176"
 1. บนแท็บด่วน **ช่องทางการขายปลีก** ให้เลือก **เพิ่ม** เพื่อเชื่อมโยงแม่แบบของช่องเวลากับร้านค้าหรือช่องทางที่จะใช้
 1. ในกล่องโต้ตอบ **เลือกโหนดองค์กร** ใช้ปุ่มลูกศรเพื่อเลือก (หรือล้างการเลือก) ร้านค้า ภูมิภาค และองค์กรที่ควรเชื่อมโยงกับแม่แบบ
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. เมื่อคุณได้ทำเสร็จสิ้นแล้ว เลือก **ตกลง**
 1. ในหน้า **กำหนดการการกระจาย** รันงาน **1070** และ **1135** เพื่อซิงค์ข้อมูลไปยังช่องทาง
@@ -124,7 +124,7 @@ ms.locfileid: "5791176"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[โมดูลข้อมูลการเบิกสินค้า](../pickup-info-module.md)
+[โมดูลข้อมูลการรับสินค้า](../pickup-info-module.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

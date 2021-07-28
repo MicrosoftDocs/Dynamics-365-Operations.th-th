@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344506"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>กําหนดไอคอนและชื่อขั้นตอนสำหรับแอป Warehouse Management บนมือถือ
 
@@ -25,7 +25,7 @@ ms.locfileid: "6049375"
 
 ภาพประกอบต่อไปนี้จะแสดงวิธีที่ไอคอนและชื่อขั้นตอนปรากฏในแอป Warehouse Management บนมือถือ
 
-![ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอป Warehouse Management บนมือถือ](media/step-icon-example.png "ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอป Warehouse Management บนมือถือ")
+![ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอปสำหรับอุปกรณ์เคลื่อนที่ Warehouse Management](media/step-icon-example.png "ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอป Warehouse Management บนมือถือ")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>เปิดใช้งานคุณลักษณะการทำงานนี้ในระบบของคุณ
 

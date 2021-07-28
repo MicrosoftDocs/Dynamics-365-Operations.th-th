@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020230"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346703"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>แม็ปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "6020230"
 
 รูปภาพตัวอย่างต่อไปนี้จะแสดงกลุ่ม **การแม็ปทีมงานส่งออก** ใน Commerce ที่มีองค์ประกอบ **เพิ่มเอนทิตี** และส่วนหัวของไฟล์ CSV ที่ส่งออกถูกเน้น
 
-![การแม็ปทีมงานส่งออก ใน Commerce ที่มีองค์ประกอบเพิ่มเอนทิตี และส่วนหัวของไฟล์ CSV ที่ส่งออกถูกเน้น](media/d365-commerce-data-mgmt-export-entity.png)
+![กลุ่มการแม็ปทีมงานส่งออกใน Commerce ที่มีองค์ประกอบเพิ่มเอนทิตี และส่วนหัวของไฟล์ CSV ที่ส่งออกที่ถูกเน้น](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > หลังจากที่คุณปฏิบัติตามขั้นตอนต่างๆ ที่เตรียมการล่วงหน้าแล้ว ให้ปฏิบัติตามขั้นตอนต่างๆ ใน [การซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams กับ POS](synchronize-tasks-teams-pos.md) เพื่อซิงโครไนส์การจัดการงาน 

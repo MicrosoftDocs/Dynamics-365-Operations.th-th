@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351668"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>ตั้งค่าคอนฟิกกฎการใช้สิทธิ์และตัวเลือก
 

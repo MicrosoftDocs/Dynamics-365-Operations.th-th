@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: baf6064fbddc3b49cfb0d950896c0b448bddb560
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795416"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357797"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>เปิดใช้งานคำแนะนำ "คำอธิบายเลือกซื้อสินค้าที่คล้ายกัน"
 
@@ -79,7 +79,7 @@ ms.locfileid: "5795416"
 
 ภาพประกอบต่อไปนี้แสดงกล่องกาเครื่องหมาย **เปิดใช้งานลิงก์เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน** และปุ่ม **เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน** บน PDP ตัวอย่างในตัวสร้างในไซต์
 
-![กล่องกาเครื่องหมายเปิดใช้งานลิงก์เลือกซื้อสินค้าที่คำอธิบายคล้ายกันและปุ่มเลือกซื้อสินค้าที่คำอธิบายคล้ายกันบน PDP ตัวอย่างในตัวสร้างในไซต์](./media/ter_site_builder_buybox_button.png)
+![กล่องกาเครื่องหมายเปิดใช้งานลิงก์เลือกซื้อสินค้าที่คำอธิบายคล้ายกันและปุ่มเลือกซื้อสินค้าที่คำอธิบายคล้ายกันบน PDP ในตัวสร้างในไซต์](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

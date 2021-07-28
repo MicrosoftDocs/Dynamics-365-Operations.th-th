@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085511"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351163"
 ---
 # <a name="electronic-reporting-er-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -162,7 +162,7 @@ ms.locfileid: "6085511"
 
 [![การเปิดการแปลง PDF ของคุณลักษณะเอกสารขาออกในการจัดการคุณลักษณะ](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
-### <a name="applicability"></a>การมีผลบังคับใช้
+### <a name="applicability"></a>การใช้งาน
 
 ตัวเลือกการแปลง PDF สามารถเปิดได้เฉพาะสำหรับส่วนประกอบไฟล์ที่ใช้สร้างผลลัพธ์ในรูปแบบ Office (Excel หรือ Word) เท่านั้น (**ไฟล์ Excel**) เมื่อเปิดใช้งานตัวเลือกนี้ ผลลัพธ์ที่สร้างขึ้นในรูปแบบ Office จะถูกแปลงเป็นรูปแบบ PDF โดยอัตโนมัติ ในเวอร์ชันของการเงิน **ก่อนเวอร์ชัน10.0.18** คุณสามารถเปิดตัวเลือกนี้เฉพาะกับส่วนประกอบประเภท **Excel\\File** ที่ใช้ในการสร้างเอาท์พุทในรูปแบบ [Excel](er-fillable-excel.md) หรือ [Word](er-design-configuration-word.md) เท่านั้น อย่างไรก็ตาม ใน **เวอร์ชัน 10.0.18 และหลังจากนั้น** คุณยังสามารถเปิดตัวเลือกนี้เพื่อส่วนประกอบของชนิด **ทั่วไป\\ไฟล์** ได้
 
@@ -185,7 +185,7 @@ ms.locfileid: "6085511"
 
 หากต้องการเปิดการแปลง PDF สำหรับไฟล์ปลายทาง ให้เลือกช่องทำเครื่องหมาย **แปลงเป็น PDF** 
 
-[![การเปิดการแปลง PDF สำหรับไฟล์ปลายทาง](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![การเปิดการแปลง PDF สำหรับปลายทางไฟล์](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">เลือกการวางหน้าสำหรับการแปลงไฟล์ PDF</a>
 

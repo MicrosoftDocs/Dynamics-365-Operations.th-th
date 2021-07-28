@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937545"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346069"
 ---
 # <a name="set-up-a-retail-channel"></a>ตั้งค่าช่องทางการขายปลีก
 
@@ -89,7 +89,7 @@ Dynamics 365 Commerce รองรับช่องทางการขาย�
 
 รูปภาพต่อไปนี้แสดงตัวอย่างของวิธีการชำระเงินสด
 
-![วิธีการชำระเงินตัวอย่าง](media/channel-setup-retail-5.png)
+![ตัวอย่างวิธีการชำระเงิน](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>ตั้งค่าการตรวจนับเงินสด
 

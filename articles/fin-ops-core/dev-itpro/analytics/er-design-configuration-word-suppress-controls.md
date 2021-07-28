@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348055"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 
@@ -63,7 +63,7 @@ ms.locfileid: "5753619"
     > [!NOTE]
     > ตัวควบคุมเนื้อหาการทําซ้ำจะถูกแท็กโดยคีย์ **SummaryLines** ที่ตรงกับเขตข้อมูลของส่วน XML ที่ศุลกากรซึ่งได้รับการแม็ป
 
-    ![เค้าโครงเทมเพลต Word ](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![เค้าโครงเทมเพลต Word](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>เลือกการตั้งค่าคอนฟิกรายงาน ER ที่มีอยู่
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346581"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
 
@@ -129,11 +129,11 @@ ms.locfileid: "5750725"
 
 1. ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **ตารางผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**
 
-    ![การเปิดแบบฟอร์มผู้ใช้](media/sales-map-user.png)
+    ![การเปิดฟอร์มผู้ใช้](media/sales-map-user.png)
 
 2. ในฟิลด์ Explorer ให้ค้นหา **โหมดผู้ใช้การรวม** และคลิกสองครั้งเพื่อเพิ่มในแบบฟอร์ม บันทึกการเปลี่ยนแปลง
 
-    ![กำลังเพิ่มคอลัมน์โหมดผู้ใช้ในการรวมกับแบบฟอร์ม](media/sales-map-field-explorer.png)
+    ![การเพิ่มคอลัมน์โหมดผู้ใช้การรวมไปยังฟอร์ม](media/sales-map-field-explorer.png)
 
 3. ในการขาย ให้ไปที่ **การตั้งค่า \> ความปลอดภัย \> ผู้ใช้** และเปลี่ยนมุมมองจาก **ผู้ใช้ที่เปิดใช้งาน** เป็น **ผู้ใช้แอปพลิเคชัน**
 

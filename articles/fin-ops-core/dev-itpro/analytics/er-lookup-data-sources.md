@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022586"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351084"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>ตั้งค่าคอนฟิกแหล่งข้อมูลการค้นหาเพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์ 
 
@@ -48,7 +48,7 @@ ms.locfileid: "6022586"
 
 ในภาพต่อไปนี้จะแสดงส่วนประกอบของรูปแบบที่มีการตั้งค่าคอนฟิกให้รายงานภาษีชนิดต่าง ๆ ในส่วนอื่นของรายงานที่สร้างขึ้น
 
-   ![การแสดงส่วนรูปแบบเพื่อรายงานภาษีชนิดต่าง ๆ แยกต่างหาก](./media/er-lookup-data-sources-img2.png)
+   ![การแสดงส่วนรูปแบบเพื่อรายงานภาษีชนิดต่างๆ แยกต่างหาก](./media/er-lookup-data-sources-img2.png)
 
 ภาพประกอบต่อไปนี้แสดงวิธีการที่โปรแกรมออกแบบการดําเนินการ ER อนุญาตให้เพิ่มแหล่งข้อมูลของชนิด **การแจงนับ\การค้นหารูปแบบ**  แหล่งข้อมูลที่เพิ่มมีการตั้งค่าคอนฟิกเป็นส่งคืนค่าของการแจงนับรูปแบบ `List of taxation levels`
 

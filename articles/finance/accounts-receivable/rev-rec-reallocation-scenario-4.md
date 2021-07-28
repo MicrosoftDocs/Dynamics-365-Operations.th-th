@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2b53145ac1ef4b277afadb4262fd1e704a2e7662
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ce429290f98e2e1ae7ff20e3554db43d3371c65
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356160"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>การปันส่วนใหม่ของการรับรู้รายได้ – สถานการณ์ที่ 4
 

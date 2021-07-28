@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349339"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>การทดสอบใน Dynamics 365 Commerce
 ใช้การทดสอบ Dynamics 365 Commerce เพื่อตรวจสอบความถูกต้องของสมมติฐานเกี่ยวกับประสิทธิภาพของหน้าอีคอมเมิร์ซของคุณ และตัดสินใจด้วยความมั่นใจที่ขับเคลื่อนด้วยข้อมูล Commerce จะสนับสนุนการทดสอบ A/B บนหน้า โมดูล และส่วนต่างๆ และช่วยให้คุณสามารถประเมินผลของการเปลี่ยนแปลงที่นำเสนอไปยังเว็บไซต์ของคุณได้
@@ -39,7 +39,7 @@ ms.locfileid: "5798998"
 ## <a name="experimentation-lifecycle"></a>วงจรการทดสอบ
 การตั้งค่าการทดลอง การสร้างการเปลี่ยนแปลง และการรันการทดลองเป็นกระบวนการที่กล่าวซ้ำ แผนภาพด้านล่างนี้แสดงให้เห็นถึงวงจรการทดลองใน Commerce และบริการของบุคคลที่สาม 
 
-[ ![วงจรการทดสอบ](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![วงจรการใช้การทดสอบ](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับขั้นตอนแต่ละขั้นตอนในกระบวนการทดสอบ ให้อ้างอิงถึงหัวข้อต่อไปนี้
 - [ระบุสมมติฐานและกำหนดตัวชี้วัดสำหรับการทดสอบ](experimentation-identify.md)

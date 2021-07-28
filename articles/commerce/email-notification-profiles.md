@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7504b2b36f6869f90de196bf32c09e7bdd51e7b5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac58ea4f1dfd8208c1c2f78e36d82d1375475413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349531"
 ---
 # <a name="set-up-an-email-notification-profile"></a>ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
 

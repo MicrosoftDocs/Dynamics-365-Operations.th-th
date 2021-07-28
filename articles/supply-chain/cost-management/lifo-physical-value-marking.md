@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344555"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO ที่มีค่าจริงและมีการทำเครื่องหมาย
 
@@ -133,9 +133,9 @@ ms.locfileid: "5809745"
 
 แผนภาพต่อไปนี้จะแสดงผลกระทบของแบบจำลองสินค้าคงคลัง LIFO บนชุดของธุรกรรม เมื่อการทำเครื่องหมายระหว่างธุรกรรมการออกและธุรกรรมการรับถูกใช้  
 
-![LIFO กับการตลาด](./media/lifowithmarking.gif) 
+![LIFO ที่มีการทำเครื่องหมาย](./media/lifowithmarking.gif) 
 
-**สัญลักษณ์แผนภาพ**
+**สัญลักษณ์ของแผนภาพ**
 
 - รายการความเคลื่อนไหวของสินค้าคงคลังจะแสดงโดยใช้ลูกศรแนวตั้ง
 - การรับสินค้าเข้าสู่สินค้าคงคลังจะแสดงโดยใช้ลูกศรแนวตั้งเหนือเส้นเวลา

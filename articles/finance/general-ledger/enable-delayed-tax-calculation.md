@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823727"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350035"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>เปิดใช้งานการคำนวณภาษีที่ล่าช้าในสมุดรายวัน
 [!include [banner](../includes/banner.md)]

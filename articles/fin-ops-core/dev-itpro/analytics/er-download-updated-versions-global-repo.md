@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893967"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351733"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
 
@@ -41,7 +41,7 @@ ms.locfileid: "5893967"
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. บนหน้า **การตั้งค่าคอนฟิกเฉพาะ** ในส่วน **ลิงก์ที่เกี่ยวข้อง** ให้เลือก **นำเข้าการอัปเดตรุ่นการตั้งค่าคอนฟิก**
 
-    ![หน้าการตั้งค่าคอนฟิกเฉพาะ](./media/er-download-updated-versions-global-repo1.png)
+    ![หน้าการตั้งค่าคอนฟิกการแปลเป็นภาษาท้องถิ่น](./media/er-download-updated-versions-global-repo1.png)
 
 4. ในกล่องโต้ตอบ **นำเข้าการอัปเดตรุ่นการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์** ในฟิลด์ **โหมดการเรียกใช้** ให้เลือก **แสดงเฉพาะการอัปเดตที่พร้อมใช้งานเท่านั้น** จากนั้น เลือก **ตกลง** 
 

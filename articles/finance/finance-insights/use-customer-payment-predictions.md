@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355639"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
 
@@ -44,7 +44,7 @@ ms.locfileid: "6186575"
 
 ในหน้ารายการ **การคาดการณ์การชำระเงินต่อธุรกรรม** คุณสามารถดูความน่าจะเป็นของการชำระเงินสำหรับธุรกรรมที่เปิดค้างไว้ในบักเก็ต **ในเวลา** **ล่าช้า** และ **ล่าช้ามาก** สำหรับแต่ละธุรกรรมในกริด คอลัมน์ **ความน่าจะเป็นในเวลา** จะแสดงความน่าจะเป็นที่จะมีการชำระเงินตามใบแจ้งหนี้ในวันที่ครบกำหนดชำระและวันที่ครบกำหนดชำระ ถ้าความน่าจะเป็นของการชำระเงินในเวลาน้อยกว่า 50 เปอร์เซ็นต์ วงกลมสีแดงจะปรากฏขึ้นถัดจากเปอร์เซ็นต์ในคอลัมน์ **ความน่าจะเป็นในเวลา** เพื่อบ่งชี้ความเสี่ยงของการชำระเงินล่าช้า
 
-[![การคาดการณ์การชำระเงินต่อหน้าธุรกรรม](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![หน้าการคาดการณ์การชำระเงินต่อธุรกรรม](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 บานหน้าต่าง **ข้อมูลที่เกี่ยวข้อง** ด้านขวาของหน้าแสดงรายละเอียดเพิ่มเติมเกี่ยวกับการคาดการณ์ดังนี้
 
@@ -60,7 +60,7 @@ ms.locfileid: "6186575"
 
 หน้ารายการ **การคาดการณ์การชำระเงินต่อลูกค้า** จะแสดงยอดรวมที่เปิดค้างไว้ รวมทั้งยอดเงินที่คาดการณ์ไว้จะต้องชำระในบักเก็ต **ในเวลา** **ล่าช้า** และ **ล่าช้ามาก**
 
-[![การคาดการณ์การชำระเงินสำหรับแต่ละหน้าลูกค้า](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![หน้าการคาดการณ์การชำระเงินสำหรับลูกค้าแต่ละราย](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 ยอดการชำระเงินในแต่ละบักเก็ตจะคำนวณเป็นผลรวมของค่าเฉลี่ยถ่วงน้ำหนักของยอดดุลธุรกรรม ยอดเงินนี้คำนวณโดยใช้ความน่าจะเป็นในการชำระเงินในแต่ละบักเก็ต
 

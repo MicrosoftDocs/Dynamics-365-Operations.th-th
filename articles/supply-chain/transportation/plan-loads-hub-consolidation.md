@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92273
+ms.custom:
+- "92273"
+- intro-internal
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0e7ae8db62ce374b991ac5f117e3d1d33534df
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c53110f583feeb3ef77226fb57396cfc2988e9f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345317"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>ภาพรวมของการวางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ
 

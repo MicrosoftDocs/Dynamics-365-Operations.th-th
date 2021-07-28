@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b85084a2ccb9e9cad09f86af43995bfbce44a1e9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fd92ab2646031a488352e1a0d250c21d1527eaa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051340"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357250"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352335"
 ---
 # <a name="payment-module"></a>โมดูลการชำระเงิน
 
@@ -46,9 +46,9 @@ ms.locfileid: "5804490"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างโมดูลบัตรของขวัญ คะแนนสะสมสำหรับสมาชิก และการชำระเงิน Adyen บนหน้าเช็คเอาท์
 
-![ตัวอย่างโมดูลบัตรของขวัญ สมาชิก และการชำระเงิน Adyen บนหน้าเช็คเอาท์](./media/ecommerce-payments.PNG)
+![ตัวอย่างของโมดูลบัตรของขวัญ ความภักดี และการชำระเงิน Adyen บนหน้าเช็คเอาท์](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector สำหรับ PayPal
 
 ในฐานะของ Commerce release 10.0.14 โมดูลการชำระเงินจะรวมกับตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ PayPal สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและตั้งค่าคอนฟิกตัวเชื่อมต่อการชำระเงินนี้ ดูที่ [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ PayPal](paypal.md)
  
@@ -59,10 +59,10 @@ ms.locfileid: "5804490"
 ตัวเชื่อมต่อการชำระเงินของ PayPal ไม่จำเป็นต้องมีโมดูลที่อยู่ในการเรียกเก็บเงินเนื่องจากมีการจัดการข้อมูลที่เกี่ยวข้องกับการเรียกเก็บเงินโดย PayPal ภายใน iframe อย่างไรก็ตาม ต้องใช้โมดูลที่อยู่จัดส่งและตัวเลือกการจัดส่ง
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของสองโมดูลการชำระเงินในหน้าเช็คเอาท์ ซึ่งตั้งค่าคอนฟิกด้วยตัวเชื่อมต่อการชำระเงิน Adyen และอื่น ๆ ที่มีตัวเชื่อมต่อการชำระเงินของ PayPal
-![ตัวอย่างโมดูลการชำระเงิน Adyen และ PayPal บนหน้าเช็คเอาท์](./media/ecommerce-paypal.png)
+![ตัวอย่างของโมดูลการชำระเงิน Adyen และโมดูล PayPal บนหน้าเช็คเอาท์](./media/ecommerce-paypal.png)
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของ iframe ของ PayPal ที่เรียกใช้ปุ่ม PayPal 
-![ตัวอย่างของ iframe ของ Paypal บนหน้าเช็คเอาท์](./media/ecommerce-paypal-iframe.png)
+![ตัวอย่างของ Paypal iframe บนหน้าเช็คเอาท์](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>คุณสมบัติของโมดูลการชำระเงิน
 

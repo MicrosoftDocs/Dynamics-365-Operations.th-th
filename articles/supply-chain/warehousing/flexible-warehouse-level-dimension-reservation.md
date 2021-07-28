@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103057"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343785"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
 
@@ -249,7 +249,7 @@ ms.locfileid: "6103057"
 1. ในฟิลด์ **ชื่อ** ให้ป้อนค่า (ตัวอย่างเช่น *FlexibleLP*)
 1. ในฟิลด์ **คำอธิบาย** ให้ป้อนค่า (ตัวอย่างเช่น *การจอง LP แบบยืดหยุ่น*)
 1. ในรายการ **ที่เลือก** ให้เลือก **หมายเลขชุดงาน** **หมายเลขลำดับประจำสินค้า** และ **เจ้าของ**
-1. เลือกปุ่ม **ลบ** ![ลูกศรย้อนกลับ](media/backward-button.png) เพื่อย้ายเรกคอร์ดที่เลือกไปยังรายการ **พร้อมใช้งาน**
+1. เลือกปุ่ม **นำออก** ![ลูกศรย้อนกลับ](media/backward-button.png) การย้ายเรกคอร์ดที่เลือกไปยังรายการ **พร้อมใช้งาน**
 1. เลือก **ตกลง**
 1. ในแถวสำหรับระดับมิติ **ป้ายทะเบียน** ให้เลือกกล่องกาเครื่องหมาย **อนุญาตให้มีการจองสินค้าตามความต้องการ** ระดับ **สถานที่** จะถูกเลือกโดยอัตโนมัติ และคุณไม่สามารถยกเลิกการเลือกกล่องกาเครื่องหมายดังกล่าวได้
 1. เลือก **บันทึก**
