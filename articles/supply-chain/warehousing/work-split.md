@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344157"
 ---
 # <a name="work-split"></a>การแบ่งงาน
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344893"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพการทำงาน
 
@@ -181,7 +181,7 @@ ms.locfileid: "6295584"
 
 4. บนหน้า **เอกสารแนบสำหรับบันทึกการรันการรายงานทางอิเล็กทรอนิกส์** ในบานหน้าต่างการดำเนินการ ให้เลือก **เปิด** เพื่อรับการติดตามประสิทธิภาพเป็นไฟล์ zip และจัดเก็บไว้ภายใน
 
-    ![เอกสารแนบสำหรับล็อกการรันการรายงานทางอิเล็กทรอนิกส์](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![เอกสารแนบสำหรับบันทึกการรันการรายงานทางอิเล็กทรอนิกส์](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > การติดตามที่สร้างขึ้นมีการอ้างอิงไปยังรายงาน ER ของแหล่งข้อมูลผ่านตัวระบุรายงานที่ไม่ซ้ำกันในรูปแบบ **GUID** เท่านั้น การกำหนดหมายเลขรุ่นของรูปแบบไม่ได้รับการพิจารณา
@@ -359,7 +359,7 @@ ms.locfileid: "6295584"
 
 โปรดสังเกตว่าเว็บเบราเซอร์มีไฟล์ซิปสำหรับการดาวน์โหลด ไฟล์นี้มีการติดตามประสิทธิภาพในรูปแบบ PerfView จากนั้น คุณสามารถใช้เครื่องมือวิเคราะห์ประสิทธิภาพ PerfView เพื่อวิเคราะห์รายละเอียดของการดำเนินการของรูปแบบ ER
 
-![ข้อมูลการสืบย้อนกลับประสิทธิภาพในรูปแบบ PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![ข้อมูลการติดตามประสิทธิภาพในรูปแบบ PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>ใช้เครื่องมือภายนอกเพื่อตรวจทานการติดตามการดำเนินการที่มีการสอบถามฐานข้อมูล
 
@@ -375,7 +375,7 @@ ms.locfileid: "6295584"
     - ตั้งค่าตัวเลือก **รวบรวมสถิติการสอบถาม** เป็น **ใช่**
     - ตั้งค่าตัวเลือก **การสอบถามการติดตาม** เป็น **ใช่**
 
-    ![ส่วนการสืบย้อนกลับการดำเนินการ, กล่องโต้ตอบพารามิเตอร์ผู้ใช้](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![ส่วนการติดตามการดำเนินการ, กล่องโต้ตอบพารามิเตอร์ผู้ใช้](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>รันรูปแบบ ER
 

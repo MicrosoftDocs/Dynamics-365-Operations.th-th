@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346605"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>รวมการจัดซื้อระหว่าง Supply Chain Management และ Field Service
 
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 ภาพอธิบายต่อไปนี้จะแสดงตารางในทั้งสองระบบและวิธีการแม็ปตารางเหล่านั้น ใบสั่งซื้อใน Field Service จะอ้างอิงแถว *บัญชี* ในขณะที่ใบสั่งซื้อใน Supply Chain Management อ้างอิงแถว *ผู้จัดจำหน่าย* เมื่อต้องการแก้ไขการรวม การรวมแบบสองทิศทางจะใช้การอ้างอิงเพื่อเชื่อมโยงแถว *ผู้จัดจำหน่าย* กับแถว *บัญชี* สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม](vendor-mapping.md)
 
-![การแม็ปกับการจัดซื้อ](media/scm-field-service-tables.png)
+![การแม็ปสำหรับการจัดซื้อ](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 

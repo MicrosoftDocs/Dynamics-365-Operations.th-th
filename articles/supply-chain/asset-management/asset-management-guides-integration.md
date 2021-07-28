@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344281"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>รวม Dynamics 365 Supply Chain Management (การจัดการสินทรัพย์) ด้วย Dynamics 365 Guides
 
@@ -71,7 +71,7 @@ ms.locfileid: "5908578"
 
     1. สร้างบรรทัด แล้วเลือก **บันทึก**
 
-        ![สร้างบรรทัด](media/am-guides-integration-add-line.png "สร้างบรรทัด")
+        ![สร้าง บรรทัด](media/am-guides-integration-add-line.png "สร้างบรรทัด")
 
     1. ในบานหน้าต่างการดำเนินการ เลือก **รายการตรวจสอบการบำรุงรักษา**
 

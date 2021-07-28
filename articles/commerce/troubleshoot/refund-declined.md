@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 89fe41d7ce57b584be34b156696b4044c4571afe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347283"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>การขอคืนเงินของใบสั่งส่งคืนสินค้าได้รับการปฏิเสธ
 
@@ -34,9 +34,9 @@ ms.locfileid: "6020767"
 
 รายละเอียดการตรวจสอบการชำระเงินจะรวมข้อความแสดงข้อผิดพลาดต่อไปนี้: "เกตเวย์ Adyen SendRequest() ล้มเหลวโดยมีสถานะ 'InternalServerError'.22144; การตอบสนองว่างเปล่าที่ส่งคืนจาก Adyen (22001);"
 
-![ปฏิเสธการขอคืนเงินจากข้อผิดพลาดของใบสั่งส่งคืนสินค้า](media/refund-order-decline.jpg)
+![ข้อผิดพลาดการขอคืนเงินที่ถูกปฏิเสธในใบสั่งส่งคืนสินค้า](media/refund-order-decline.jpg)
 
-## <a name="resolution"></a>ความละเอียด
+## <a name="resolution"></a>การแก้ปัญหา
 
 ### <a name="enable-blind-returns-in-adyen"></a>เปิดใช้งานการส่งคืนที่ซ่อนใน Adyen
 

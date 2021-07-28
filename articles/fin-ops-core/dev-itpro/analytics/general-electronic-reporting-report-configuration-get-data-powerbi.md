@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 06859fc123e53ad58120bae6f936176176009ee1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944448"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345725"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อดึงข้อมูลไปยัง Power BI
 

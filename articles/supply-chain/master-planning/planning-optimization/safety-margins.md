@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347745"
 ---
 # <a name="safety-margins"></a>ค่าเผื่อความปลอดภัย
 
@@ -173,7 +173,7 @@ ms.locfileid: "5908304"
 
 ตัวอย่างเช่น สินค้ามีระยะเวลารอคอยสินค้าเป็นเวลาหนึ่งวันและระยะเวลาการรับสินค้าสามวัน ใบสั่งขายสำหรับสินค้านี้ได้รับการตั้งค่าเป็นจำเป็นในวันนี้ ในกรณีนี้ จะมีการคำนวณการล่าช้าเป็น *ระยะเวลารอคอยสินค้า* + *ค่าเผื่อในการรับสินค้า* = สี่วัน ดังนั้น ถ้าวันนี้คือวันที่ 14 สิงหาคม การล่าช้าเป็นเวลาสี่วันจะทำให้มีการจัดส่งสินค้าในวันที่ 18 สิงหาคม ในแผนภาพต่อไปนี้แสดงตัวอย่างนี้
 
-![ตัวอย่างการคำนวณการล่าช้า](media/safety-margins-delays.png)
+![ตัวอย่างการคำนวณความล่าช้า](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

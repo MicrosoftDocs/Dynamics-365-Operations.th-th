@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 123427db61782490d348489c23e0eaf5f8b513c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e7b0188d5c2dc4ee7691266aa4c857fc189d0f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748652"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347259"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>กรองใบสั่งระหว่างบริษัท เพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
 
@@ -45,7 +45,7 @@ ms.locfileid: "5748652"
 
 4. หลังจากที่ **รายการใบสั่งขายของ CDS** ถูกขยายแล้ว คอลัมน์ **IntercompanyInventTransId** จะพร้อมใช้งานในการแม็ป ใช้ตัวกรองที่มี `INTERCOMPANYINVENTTRANSID == ""` เป็นสตริงการสอบถาม
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับบรรทัดของใบสั่งขาย CDS":::
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับรายการของใบสั่งขาย CDS":::
 
 5. ทําซ้ําขั้นตอนที่ 1 และ 2 เพื่อขยายตาราง **ส่วนหัวของใบแจ้งหนี้การขาย V2** และเพิ่มการสอบถามตัวกรอง ในกรณีนี้ ให้ใช้ `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` เป็นสตริงการสอบถามของตัวกรอง
 
@@ -55,7 +55,7 @@ ms.locfileid: "5748652"
 
 6. ทําซ้ําขั้นตอนที่ 3 และ 4 เพื่อขยายตาราง **บรรทัดของใบแจ้งหนี้การขาย V2** และเพิ่มการสอบถามตัวกรอง ในกรณีนี้ ให้ใช้ `INTERCOMPANYINVENTTRANSID == ""` เป็นสตริงการสอบถามของตัวกรอง
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับบรรทัดวของใบแจ้งหนี้การขาย V2":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับรายการของใบแจ้งหนี้การขาย V2":::
 
 7. ตาราง **ใบเสนอราคา** ไม่มีความสัมพันธ์ระหว่างบริษัท ถ้ามีบุคคลสร้างใบเสนอราคาสำหรับลูกค้าระหว่างบริษัทอย่างใดอย่างหนึ่ง คุณสามารถใช้คอลัมน์ **CustGroup** เพื่อวางลูกค้าทั้งหมดเหล่านั้นลงในกลุ่มลูกค้าหนึ่งกลุ่ม คุณสามารถขยายส่วนหัวและรายการโดยเพิ่มคอลัมน์ **CustGroup** แล้วกรองข้อมูล เพื่อให้กลุ่มนั้นไม่รวมอยู่ในกลุ่ม
 

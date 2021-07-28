@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058595"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344725"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894039"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348031"
 ---
 # <a name="archive-er-destination-type"></a>ชนิดของปลายทาง ER ที่เก็บถาวร
 

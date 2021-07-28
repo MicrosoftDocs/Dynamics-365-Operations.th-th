@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 88e6d5470ff7808a9b6263b6426e19f6ea11493d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e8046ce0926a4da6c20b4beb28b4e10aa3fa054c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755535"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344917"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
 
@@ -86,7 +86,7 @@ ms.locfileid: "5755535"
 
     ห้ามเปลี่ยนการตั้งค่าเริ่มต้นบนแท็บ **การรวม Power BI**
 
-    [![แท็บการรวม power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
+    [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**
 

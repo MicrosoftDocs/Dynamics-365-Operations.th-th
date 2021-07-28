@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345269"
 ---
 # <a name="cycle-counting"></a>การตรวจนับตามรอบ
 
@@ -34,7 +34,7 @@ ms.locfileid: "5838357"
 2.  **ประมวลผลตัวนับวงจร** – หลังจากการนับวงจรถูกสร้าง คุณทำงานการนับวงจรโดยการนับรายการในที่ตั้งคลังสินค้า และจากนั้นใช้อุปกรณ์มือถือเพื่อป้อนผลใน Dynamics 365 Supply Chain Management อีกทางหนึ่งคือ คุณสามารถนับสินค้าในที่ตั้งคลังสินค้าโดยไม่ต้องมีการสร้างงานการตรวจนับตามรอบ กระบวนการนี้เรียกว่า *การตรวจนับตามรอบทันที*
 3.  **แก้ไขความแตกต่างในค่าที่ตรวจนับตามรอบ** – หลังจากการตรวจนับตามรอบ รายการใดๆ ที่มีความแตกต่างของค่าที่ตรวจนับจะมีสถานะเป็น **การตรวจทานที่ค้างอยู่** ในหน้า **งานทั้งหมด** คุณสามารถแก้ไขความแตกต่างเหล่านี้ได้ในหน้า **การตรวจทานที่ค้างอยู่ของการตรวจนับตามรอบ**
 
-ภาพต่อไปนี้แสดงกระบวนการตรวจนับตามรอบ ![ลำดับกระบวนการตรวจนับตามรอบทันที](./media/performcyclecountinginawarehouselocation.jpg)
+ภาพต่อไปนี้แสดงกระบวนการตรวจนับตามรอบ ![กระบวนการตรวจนับตามรอบ](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>ข้อกำหนดเบื้องต้นของการตรวจนับตามรอบ
 ตารางต่อไปนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีก่อนที่คุณจะใช้การตรวจนับตามรอบ

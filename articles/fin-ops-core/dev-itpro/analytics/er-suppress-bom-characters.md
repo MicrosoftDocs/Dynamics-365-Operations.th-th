@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345899"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อระงับอักขระ BOM ในไฟล์ที่สร้างขึ้น
 

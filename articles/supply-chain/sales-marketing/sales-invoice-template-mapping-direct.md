@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69f497ed8efff9aa18dedbce65d88e3b2d5168a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8941ca0d2b9599dabd05427949d72f55aae7d6bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839040"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347649"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
 
@@ -126,7 +126,7 @@ ms.locfileid: "5839040"
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด](prospect-to-cash.md)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](prospect-to-cash.md)
 
 [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management](accounts-template-mapping-direct.md)
 

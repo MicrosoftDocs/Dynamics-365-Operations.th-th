@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345947"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>การปรับรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
 
@@ -158,7 +160,7 @@ ms.locfileid: "5891730"
     - **การแม็ปแบบจำลองการชำระเงิน 1611** – การตั้งค่าคอนฟิกนี้มีส่วนประกอบ ER [การแม็ปแบบจำลอง](general-electronic-reporting.md#data-model-and-model-mapping-components) ที่อธิบายวิธีการกรอกข้อมูลแบบจำลองข้อมูลด้วยข้อมูลของแอปพลิเคชันที่รันไทม์
     - **BACS (UK)** - การตั้งค่าคอนฟิกนี้มี [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) และการแม็ปส่วนประกอบ ER ส่วนประกอบรูปแบบระบุโครงร่างรายงาน ส่วนประกอบการแม็ปรูปแบบมีแหล่งข้อมูลแบบจำลองและระบุวิธีการกรอกข้อมูลโครงร่างรายงานโดยใช้แหล่งข้อมูลนี้ในขณะรันไทม์
 
-![เพจการตั้งค่าคอนฟิก](./media/er-quick-start2-imported-solution1.png)
+![หน้าการตั้งค่าคอนฟิก](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>เตรียมการชําระเงินให้แก่ผู้จัดจําหน่ายสําหรับการประมวลผล
 
@@ -271,7 +273,7 @@ ms.locfileid: "5891730"
 
 รุ่น 1.1.1 ของการตั้งค่าคอนฟิกรูปแบบ ER **BACS (UK แบบกำหนดเอง)** ถูกสร้างขึ้น รุ่นนี้มี [สถานะ](general-electronic-reporting.md#component-versioning) ของ **แบบร่าง** และสามารถแก้ไขได้ เนื้อหาปัจจุบันของรูปแบบ ER แบบกำหนดเองของคุณตรงกับเนื้อหาของรูปแบบที่ Microsoft ให้ไว้
 
-![เพจการตั้งค่าคอนฟิก](./media/er-quick-start2-derived-format-configuration1.png)
+![หน้าการตั้งค่าคอนฟิก](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>แก้ไขรูปแบบที่กำหนดเอง
 

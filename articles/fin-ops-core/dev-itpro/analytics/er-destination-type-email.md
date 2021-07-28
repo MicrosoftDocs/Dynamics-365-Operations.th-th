@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753515"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348007"
 ---
 # <a name="email-er-destination-type"></a>ชนิดของปลายทาง ER อีเมล
 

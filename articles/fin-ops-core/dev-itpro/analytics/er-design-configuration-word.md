@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 7bc02a97005f84f7ac01f9fd9371f2a0a29314c4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894087"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346655"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER ใหม่ เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -44,7 +44,7 @@ ms.locfileid: "5894087"
 
 คุณสามารถเพิ่มส่วนประกอบ **Excel\\ช่วง** และ **Excel\\เซลล์** ที่ซ้อนกันสำหรับองค์ประกอบ **Excel\\ไฟล์** เพื่อระบุโครงสร้างของข้อมูลที่จะป้อนในรายงานที่สร้างขึ้นในขณะรันไทม์ จากนั้นคุณต้องผูกองค์ประกอบเหล่านั้นกับแหล่งข้อมูลของรูปแบบ ER ที่แก้ไขได้ เพื่อระบุข้อมูลจริงที่จะป้อนในรายงานที่สร้างขึ้นขณะรันไทม์
 
-![การเพิ่มองค์ประกอบที่ซ้อนกันบนหน้าตัวออกแบบรูปแบบ](./media/er-design-configuration-word-image4.gif)
+![การเพิ่มองค์ประกอบที่ซ้อนกันบนหน้าโปรแกรมออกแบบรูปแบบ](./media/er-design-configuration-word-image4.gif)
 
 เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณไปยังรูปแบบ ER ณ เวลาการออกแบบ โครงสร้างรูปแบบตามลำดับจะจัดเก็บอยู่ในเท็มเพลต Word ที่แนบ เป็น [ส่วน XML แบบกำหนดเอง](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ที่ชื่อ **รายงาน** คุณต้องเข้าถึงเท็มเพลตที่แก้ไข ดาวน์โหลดจาก Finance จัดเก็บภายในเครือง และเปิดเท็มเพลตนั้นในแอพลิเคชันบนเดสก์ท็อปของ Word ภาพต่อไปนี้จะแสดงเท็มเพลตตัวอย่างที่จัดเก็บภายในเครืองของรายงานการควบคุมที่มีส่วน XML แบบกำหนดเองของ **รายงาน**
 

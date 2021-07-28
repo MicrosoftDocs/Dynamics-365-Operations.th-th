@@ -13,37 +13,43 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3407128b0172f0e253d51bcfa23a894f981e21e2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1ff65a0518232275f7c5d0b4a70d04f77e4936c5
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052300"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314124"
 ---
 # <a name="payroll-worker-address"></a>ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือนใน Dynamics 365 Human Resources
+หัวข้อนี้อธิบายเอนทิตีที่อยู่ของผู้ปฏิบัติงานในบัญชีเงินเดือนสำหรับ Dynamics 365 Human Resources
+
+ชื่อทางกายภาพ: mshr_payrollworkeraddressentity
+
+### <a name="description"></a>คำอธิบาย
+
+เอนทิตีนี้เสนอที่ตั้งถิ่นที่อยู่ในบัญชีเงินเดือนและสถานที่งานในบัญชีเงินเดือนของพนักงานที่กำหนด
 
 ## <a name="properties"></a>คุณสมบัติ
 
-| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| คุณสมบัติ</br>**ชื่อทางกายภาพ**</br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **เมือง**<br>mshr_city<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | เมืองที่ระบุสำหรับที่อยู่   |
-| **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน  |
-| **ภูมิภาคประเทศ**<br>mshr_countryregionid<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ภูมิภาคประเทศที่ระบุสำหรับที่อยู่  |
-| **มีผลใช้ตั้งแต่**<br>mshr_postaladdressvalidfrom<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่ที่ที่อยู่มีผลบังคับใช้ |
-| **ที่อยู่ที่ทำงาน**<br>mshr_isworkedinaddressbr>*Int32* | อ่านอย่างเดียว<br>ต้องระบุ | แสดงถ้าที่อยู่เป็นที่อยู่ที่พนักงานทำงาน |
-| **เขต**<br>mshr_county<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ประเทศที่ระบุสำหรับที่อยู่  |
-| **รหัสที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน**<br>mshr_payrollworkeraddressentityid<br>*GUID* | ต้องระบุ<br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงที่อยู่เฉพาะ  |
-| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |  |
-| **ถนน**<br>mshr_street<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ถนนที่ระบุสำหรับที่อยู่ |
-| **มีผลใช้ถึง**<br>mshr_postaladdressvalidto<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่ที่ที่อยู่มีผลบังคับใช้ถึง  |
-| **รหัสสถานที่**<br>mshr_locationidbr>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ | รหัสของที่อยู่  |
-| **รหัสไปรษณีย์**<br>mshr_zipcode<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
-| **ที่อยู่อาศัย**<br>mshr_islivedinaddressbr>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | แสดงถ้าที่อยู่เป็นที่อยู่ที่พนักงานอาศัย |
-| **จังหวัด**<br>mshr_state<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | รัฐที่ระบุสำหรับที่อยู่  |
+| **เมือง**</br>mshr_city</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | เมืองที่ระบุสำหรับที่อยู่   |
+| **หมายเลขบุคลากร**</br>mshr_personnelnumber</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน  |
+| **ภูมิภาคประเทศ**</br>mshr_countryregionid</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | ภูมิภาคประเทศที่ระบุสำหรับที่อยู่  |
+| **มีผลใช้ตั้งแต่**</br>mshr_postaladdressvalidfrom</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว </br>ต้องระบุ | วันที่ที่ที่อยู่มีผลบังคับใช้ |
+| **ที่อยู่ที่ทำงาน** </br> mshr_isworkedinaddressbr </br>*[ตัวเลือกการตั้งค่า mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | อ่านอย่างเดียว</br>ต้องระบุ | แสดงถ้าที่อยู่เป็นที่อยู่ที่พนักงานทำงาน |
+| **เขต**</br>mshr_county</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | ประเทศที่ระบุสำหรับที่อยู่  |
+| **รหัสที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน**</br>mshr_payrollworkeraddressentityid</br>*GUID* | ต้องระบุ</br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงที่อยู่เฉพาะ  |
+| **ฟิลด์หลัก**</br>mshr_primaryfield</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ |  |
+| **ถนน**</br>mshr_street</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | ถนนที่ระบุสำหรับที่อยู่ |
+| **มีผลใช้ถึง**</br>mshr_postaladdressvalidto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว </br>ต้องระบุ | วันที่ที่ที่อยู่มีผลบังคับใช้ถึง  |
+| **รหัสสถานที่**</br>mshr_locationidbr>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ | รหัสของที่อยู่  |
+| **รหัสไปรษณีย์**</br>mshr_zipcode<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
+| **ที่อยู่อาศัย**</br>mshr_islivedinaddressbr </br> *[ตัวเลือกการตั้งค่า mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | อ่านอย่างเดียว</br>ต้องระบุ | แสดงถ้าที่อยู่เป็นที่อยู่ที่พนักงานอาศัย |
+| **จังหวัด**</br>mshr_state</br>*สตริง* | อ่านอย่างเดียว</br>ต้องระบุ | รัฐที่ระบุสำหรับที่อยู่  |
 
 ## <a name="example-query"></a>ตัวอย่างการสอบถาม
 
@@ -57,21 +63,27 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollworkeraddressentities?$filter=ms
 
 ```json
 {
-            "mshr_personnelnumber": "000041",
-            "mshr_locationid": "000000538",
-            "mshr_islivedinaddress": 200000001,
-            "mshr_isworkedinaddress": 200000000,
-            "mshr_countryregionid": "USA",
-            "mshr_zipcode": "99025",
-            "mshr_street": "6543 Cypress Ave",
-            "mshr_city": "Tacoma",
-            "mshr_state": "WA",
-            "mshr_county": "KING",
-            "mshr_postaladdressvalidfrom": "2012-09-20T20:14:27Z",
-            "mshr_postaladdressvalidto": "2154-12-31T23:59:59Z",
-            "mshr_primaryfield": "000041 | 000000538 | 9/20/2012 08:14:27 pm",
-            "_mshr_fk_worker_id_value": "00000d3c-0000-0000-d5ff-004105000000",
-            "mshr_payrollworkeraddressentityid": "000006f0-0000-0000-f90f-014105000000"
+    "mshr_personnelnumber": "000041",
+    "mshr_locationid": "000000538",
+    "mshr_islivedinaddress": 200000001,
+    "mshr_isworkedinaddress": 200000000,
+    "mshr_countryregionid": "USA",
+    "mshr_zipcode": "99025",
+    "mshr_street": "6543 Cypress Ave",
+    "mshr_city": "Tacoma",
+    "mshr_state": "WA",
+    "mshr_county": "KING",
+    "mshr_postaladdressvalidfrom": "2012-09-20T20:14:27Z",
+    "mshr_postaladdressvalidto": "2154-12-31T23:59:59Z",
+    "mshr_primaryfield": "000041 | 000000538 | 9/20/2012 08:14:27 pm",
+    "_mshr_fk_worker_id_value": "00000d3c-0000-0000-d5ff-004105000000",
+    "mshr_payrollworkeraddressentityid": "000006f0-0000-0000-f90f-014105000000"
 
 }
 ```
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[บทนำ API การรวมบัญชีเงินเดือน](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

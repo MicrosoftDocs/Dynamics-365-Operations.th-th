@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345245"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>ตั้งค่าคอนฟิกตัวกรองผลิตภัณฑ์ในธุรกรรมคลังสินค้า
 

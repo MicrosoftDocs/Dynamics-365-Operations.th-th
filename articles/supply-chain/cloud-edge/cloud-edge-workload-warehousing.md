@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184033"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345511"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
 
@@ -107,7 +107,7 @@ scale unit เป็นเจ้าของการประมวลผลเ
 
 ถ้าคุณไม่ได้ใช้กระบวนการ *นำออกใช้ไปยังคลังสินค้า* ดังนั้นจึงไม่ได้ใช้ *ใบสั่งคลังสินค้า* ฮับสามารถประมวลผลการรับสินค้าและการประมวลผลงานของคลังสินค้าได้โดยอิสระจาก scale unit
 
-![โฟลว์กระบวนการขาออก](./media/wes-inbound-ga.png "โฟลว์กระบวนการขาออก")
+![โฟลว์กระบวนการขาเข้า](./media/wes-inbound-ga.png "โฟลว์กระบวนการขาออก")
 
 เมื่อทำการลงทะเบียนขาเข้าผ่านกระบวนการรับสินค้าของแอปคลังสินค้ากับใบสั่งคลังสินค้าของ scale unit ปริมาณงานของ scale unit จะส่งสัญญาณถึงฮับในการอัพเดตธุรกรรมรายการใบสั่งซื้อที่เกี่ยวข้องเป็น *ลงทะเบียนแล้ว* เมื่อการดำเนินการนี้เสร็จสิ้น คุณจะสามารถรันใบรับสินค้าตามใบสั่งซื้อบนฮับได้
 

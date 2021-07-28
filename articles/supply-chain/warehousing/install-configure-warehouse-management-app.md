@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049327"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346093"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ
 
@@ -88,7 +88,7 @@ ms.locfileid: "6049327"
 1. บนแถบเครื่องมือ ให้เลือก **การลงทะเบียนใหม่** เพื่อเปิดตัวช่วย **ลงทะเบียนแอปพลิเคชัน**
 1. ป้อนชื่อของแอปพลิเคชันและ เลือกตัวเลือก **บัญชีในไดเรกทอรีขององค์กรนี้เท่านั้น** แล้วเลือก **ลงทะเบียน**
 
-    ![ตัวช่วยลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
+    ![วิซาร์ดลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
 
 1. การลงทะเบียนแอปใหม่ของคุณเปิดขึ้น จัดทำบันทึกของค่า **รหัสแอปพลิเคชัน (ไคลเอนต์)** เนื่องจากคุณจะต้องใช้ในภายหลัง จะมีการกล่าวถึงรหัสนี้ภายหลังในหัวข้อนี้ว่า *รหัสไคลเอนต์*
 
@@ -127,7 +127,7 @@ ms.locfileid: "6049327"
     1. สร้าง บรรทัด
     1. ป้อนรหัสไคลเอนต์ที่คุณได้บันทึกไว้ในส่วนก่อนหน้านี้ กำหนดชื่อและเลือกผู้ใช้ที่คุณเพิ่งสร้างขึ้น เราขอแนะนำให้คุณติดแท็กอุปกรณ์ทั้งหมดของคุณ ถ้าอุปกรณ์หายไป คุณสามารถลบการเข้าถึง Supply Chain Management บนอุปกรณ์ออกได้ จากหน้านี้อย่างง่ายดาย
 
-    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory") 
+    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>ตรวจสอบความถูกต้องโดยใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์
 
@@ -232,7 +232,7 @@ ms.locfileid: "6049327"
 
 1. ถ้าคุณกำลังใช้อุปกรณ์ Android และใช้ใบรับรองสำหรับการรับรองความถูกต้อง อุปกรณ์จะพร้อมท์ให้คุณเลือกใบรับรอง
 
-    ![เลือกพร้อมท์ใบรับรอง บนอุปกรณ์ Android](media/app-configure-select-certificate.png "เลือกพร้อมท์ใบรับรอง บนอุปกรณ์ Android")
+    ![เลือกพร้อมท์ใบรับรองบนอุปกรณ์ Android](media/app-configure-select-certificate.png "เลือกพร้อมท์ใบรับรอง บนอุปกรณ์ Android")
 
 1. แอปเชื่อมต่อกับเซิร์ฟเวอร์ Supply Chain Management ของคุณและแสดงหน้าลงชื่อเข้าใช้
 

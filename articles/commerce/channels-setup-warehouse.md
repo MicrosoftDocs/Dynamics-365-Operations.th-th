@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345995"
 ---
 # <a name="warehouse-set-up"></a>การตั้งค่าคลังสินค้า
 
@@ -123,7 +123,7 @@ ms.locfileid: "5800506"
 
 ![ตัวอย่างของคลังสินค้าที่ตั้งค่าคอนฟิก](media/warehouse-sample.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของการจัดการคลังสินค้า](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052468"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344699"
 ---
 # <a name="configure-dataverse-integration"></a>ตั้งค่าคอนฟิกการรวม Dataverse
 
@@ -122,7 +122,7 @@ ms.locfileid: "6052468"
 
 [ตาราง Dataverse](hr-developer-entities.md)<br>
 [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[FAQ เกี่ยวกับตารางเสมือนสำหรับ Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[คำถามที่ถามบ่อยเกี่ยวกับตารางเสมือน Human Resources](hr-admin-virtual-entity-faq.md)<br>
 [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
 [การอัปเดตศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

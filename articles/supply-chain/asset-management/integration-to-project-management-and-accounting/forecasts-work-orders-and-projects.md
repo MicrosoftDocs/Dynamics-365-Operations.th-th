@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345439"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>การคาดการณ์ ใบสั่งงาน และโครงการ
 
@@ -88,9 +88,9 @@ ms.locfileid: "5813832"
 
 ![รูปที่ 3](media/03-integration-to-pma.png)
 
-![รูปที่ 4](media/04-integration-to-pma.png)
+![รูปที่ 4.](media/04-integration-to-pma.png)
 
-![รูปที่ 5](media/05-integration-to-pma.png)
+![รูปที่ 5.](media/05-integration-to-pma.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าโครงการใบสั่งงาน ดู [การตั้งค่าโครงการใบสั่งงาน](../setup-for-work-orders/work-order-project-setup.md) สำหรับข้อมูลเกี่ยวกับวิธีการสร้างสถานะวงจรของใบสั่งงาน และดู [สถานะวงจรของใบสั่งงาน](../setup-for-work-orders/work-order-lifecycle-states.md)
 

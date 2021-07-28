@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c94cdfda4bab43cfc753374d517e22fd21da4bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343849"
 ---
 # <a name="budget-planning-templates-for-excel"></a>เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 

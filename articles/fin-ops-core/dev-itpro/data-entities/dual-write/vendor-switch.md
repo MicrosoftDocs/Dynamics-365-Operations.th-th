@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346531"
 ---
 # <a name="switch-between-vendor-designs"></a>สลับการออกแบบของผู้จัดจำหน่าย
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744038"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344308"
 ---
 # <a name="configure-and-filter-workspaces"></a>ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
 
@@ -32,7 +32,7 @@ ms.locfileid: "5744038"
 
 คุณสามารถเปลี่ยนลักษณะและพฤติกรรมของบางพื้นที่ทำงาน ด้วยการปรับปรุงการตั้งค่าที่นำไปใช้กับพื้นที่ทำงานทั้งหมด เมื่อมีพื้นที่ทำงานที่คุณสามารถกำหนดค่า บานหน้าต่างการดำเนินการมีปุ่มที่แนะนำให้คุณคลิก เพื่อที่จะทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก ตัวอย่างเช่น ในภาพประกอบต่อไปนี้ ปุ่มชื่อว่า **การตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน**
 
-[![ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![ตั้งค่าคอนฟิกและกรองพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 เมื่อคุณคลิกปุ่ม กล่องโต้ตอบจะปรากฏขึ้น ซึ่งคุณสามารถปรับเปลี่ยนการตั้งค่าที่กำหนดไว้ล่วงหน้าสำหรับพื้นที่ทำงาน การตั้งค่าเฉพาะที่คุณเห็นในกล่องโต้ตอบนี้จะแตกต่างกันไปตามแต่ละพื้นที่ทำงาน และขึ้นอยู่กับการควบคุมเฉพาะและข้อมูลธุรกิจที่พร้อมใช้ในพื้นที่ทำงาน
 

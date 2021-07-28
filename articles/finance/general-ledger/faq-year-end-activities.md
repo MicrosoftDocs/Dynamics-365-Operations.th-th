@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345487"
 ---
 # <a name="year-end-activities-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับกิจกรรมตอนสิ้นปี 
 
