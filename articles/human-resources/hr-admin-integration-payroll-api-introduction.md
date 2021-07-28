@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360579"
 ---
 # <a name="payroll-integration-api-introduction"></a>บทนำ API การรวมบัญชีเงินเดือน
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058571"
 
 เอกสารนี้อธิบายAPI การรวมบัญชีเงินเดือน Dynamics 365 Human Resources API จะเปิดใช้งานการรวมแบบครอบคลุมที่มีประสิทธิภาพระหว่างทรัพยากรบุคคลและระบบบัญชีเงินเดือนที่เป็นคู่ค้า ประสบการณ์รวมจะเริ่มต้นในทรัพยากรบุคคลพร้อมด้วยโปรไฟล์พนักงาน เงินเดือนและการหักลด และข้อมูลเงินสมทบ เมื่อคุณจ้างงานพนักงานและป้อนโปรไฟล์ที่ต้องใช้และจ่ายข้อมูลเข้าในทรัพยากรบุคคล ระบบบัญชีเงินเดือนจะดึงข้อมูลนี้เพื่อใช้เมื่อประมวลผลค่าจ้าง การอัปเดตใด ๆ ที่พนักงานหรือข้อมูลค่าจ้างจะถูกดึงไว้เพื่อใช้ในการรันค่าจ้างในภายหลังด้วย
 
-![โฟลว์การรวมบัญชีเงินเดือน](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![โฟลว์การรวมบัญชีเงินเดือน](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 เมื่อต้องการเปิดใช้งานการรวม ทรัพยากรบุคคลได้รวมส่วนประกอบต่อไปนี้:
 
@@ -60,7 +60,7 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 
 แผนภาพต่อไปนี้แสดงความสัมพันธ์ภายใน API หลายชนิดมีคีย์นอกไปยังเป็นเอนทิตี้ที่มีอยู่ก่อนอื่นๆในทรัพยากรบุคคลที่ไม่ได้แสดงที่นี่ เอกสารนี้แสดงข้อมูลเกี่ยวกับเอนทิตี้ที่เฉพาะเจาะจงให้กับสถานการณ์การรวมระบบค่าจ้าง อย่างไรก็ตาม มีเอนทิตีอื่นหลายเอนทิตีใน Dataverse Web API สำหรับทรัพยากรบุคคลซึ่งอาจเกี่ยวข้องกับการรวมของคุณด้วย บางเอนทิตีจากเอนทิตีเหล่านี้ถูกอ้างอิงในความสัมพันธ์คีย์นอกหรือคุณสมบัติการนําทาง
 
-![แบบจำลองข้อมูล API การรวมระบบค่าจ้าง](media/hr-admin-payroll-api-data-model.png)
+[![แบบจำลองข้อมูล API การรวมระบบค่าจ้าง](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>พนักงานค่าจ้างและเอนทิตีที่เกี่ยวข้อง
 
@@ -68,7 +68,8 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 
 - [พนักงานในบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-employee.md)
 - [ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [แผนค่าตอบแทนผันแปรในบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [งานของตําแหน่งในบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [ตําแหน่งในบัญชีเงินเดือน](hr-admin-integration-payroll-api-payroll-position.md)
 

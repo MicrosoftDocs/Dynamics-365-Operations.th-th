@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054919"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346285"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>เพิ่มประสิทธิภาพการสอบถามตารางเสมือน Dataverse
 
@@ -56,7 +56,7 @@ ms.locfileid: "6054919"
 
   ![ชนิดข้อผิดพลาด 429 บน HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>ความละเอียด
+## <a name="resolution"></a>การแก้ปัญหา
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>การจํากัดจํานวนคอลัมน์ที่รวมอยู่ในการสอบถามข้อมูลของคุณ
 

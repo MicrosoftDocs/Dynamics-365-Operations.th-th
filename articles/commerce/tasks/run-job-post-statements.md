@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52baa707c36f3468263782dc8ec735e44af88e38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 422b1f7f8dc99e1c96da9e266cadcdc09e7aac71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804244"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347477"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>ตั้งค่าคอนฟิก และดำเนินงานเพื่อการคำนวณใบแจ้งยอด
 
@@ -31,7 +31,7 @@ ms.locfileid: "5804244"
 2. คลิกลงรายการบัญชีใบแจ้งยอดในชุดงาน
     * เลือกลำดับชั้นขององค์กร จากนั้นเลือกร้านค้าแต่ละรายหรือโหนดในแผนภูมิโหนดองค์กร เลือกโหนด  ถ้าคุณต้องการสร้างชุดงานสำหรับกลุ่มร้านค้า  
     * คลิกลูกศรเพื่อเพิ่มสิ่งที่คุณเลือก   
-3. คลิกที่แท็บดำเนินการในเบื้องหลัง ![ดำเนินการในเบื้องหลังรันในเบื้องหลัง](../dev-itpro/media/runbackground.png "รันในแบบเบื้องหลัง") 
+3. คลิกที่แท็บดำเนินการในเบื้องหลัง ![ดำเนินการในเบื้องหลัง](../dev-itpro/media/runbackground.png "รันในแบบเบื้องหลัง") 
 4. เลือกหรือไม่เลือกกล่องกาเครื่องหมายการประมวลผลชุดงาน
 ![การประมวลผลชุดงาน](../dev-itpro/media/batchprocessing.png "ชุดงานการประมวณผล & การเกิดซ้ำ ") 
 5. คลิกการเกิดซ้ำ

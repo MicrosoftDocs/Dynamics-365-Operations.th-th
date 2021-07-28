@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลเฉพาะบริษัท ใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052420"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356547"
 ---
 # <a name="configure-human-resources-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
 
@@ -57,6 +57,7 @@ ms.locfileid: "6052420"
 - เลือกรหัสการขาดงานที่ใช้ในการควบคุมการรวมนี้
 - บ่งชี้ว่าจะเก็บเหตุการณ์กรณีการบาดเจ็บและการเจ็บป่วยไว้นานเท่าใด
 - ระบุหมายเลขรหัสประจำตัวเริ่มต้นที่แสดงเมื่อมีจ้างงานผู้ปฏิบัติงานใหม่
+- ระบุวันที่ที่ใช้ในการคํานวณปีการให้บริการ 
 
 ![แท็บทั่วไป](./media/hr-setup-parameters-general.png)
 
@@ -145,7 +146,7 @@ ms.locfileid: "6052420"
 
 บนแท็บ **วิธีการจ่ายเงิน** คุณสามารถเลือกวิธีการเงินที่องค์กรของคุณสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าคอนฟิกค่าตอบแทน โปรดดู [ภาพรวมของแผนค่าตอบแทน](hr-compensation-overview.md)
 
-![แท็บวิธีการจ่ายเงิน](./media/hr-setup-parameters-payment-methods.png)
+![แท็บวิธีการชำระเงิน](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

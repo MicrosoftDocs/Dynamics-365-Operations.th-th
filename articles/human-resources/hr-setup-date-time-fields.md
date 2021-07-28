@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051748"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356571"
 ---
 # <a name="understand-date-and-time-fields"></a>ทำความเข้าใจฟิลด์วันที่และเวลา
 
@@ -42,7 +42,7 @@ ms.locfileid: "6051748"
 
 ข้อมูล **วันที่และเวลา** ที่แสดงบนหน้าจอจะไม่เหมือนกับข้อมูลที่จัดเก็บไว้ในฐานข้อมูล ถ้าโซนเวลาของผู้ใช้ไม่ได้รับการตั้งค่าเป็นเวลามาตรฐานสากล (UTC) ข้อมูลในฟิลด์ **วันที่และเวลา** จะถูกจัดเก็บเป็น UTC เสมอ
 
-[![UTC ฟอร์มผู้ปฏิบัติงาน](./media/worker-form.png)](./media/worker-form.png)
+[![ฟอร์มผู้ปฏิบัติงาน UTC](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>ทำความเข้าใจฟิลด์วันที่และเวลาในฐานข้อมูล 
 
@@ -52,7 +52,7 @@ ms.locfileid: "6051748"
   
 ในตัวอย่างด้านล่าง การจ้างงานของพนักงาน 000724 จะกลายเป็นใช้งานอยู่ในเวลาเดียวกัน ไม่ว่าจะเป็นโซนเวลาใด พนักงานจะกลายเป็นใช้งานอยู่เมื่อ 04/30/2019 ในโซนเวลา GMT ซึ่งเหมือนกับ 05/01/2019 ในโซนเวลา GMT +12:00 ทั้งสองอย่างอ้างอิงถึงช่วงเวลาเดียวกัน ไม่ใช่วันที่เฉพาะ 
 
-[![GMT ฟอร์มผู้ปฏิบัติงาน](./media/worker-form2.png)](./media/worker-form2.png)
+[![ฟอร์มผู้ปฏิบัติงาน GMT](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>ข้อมูลวันที่และเวลาในกรอบงานการจัดการข้อมูล, Excel, Dataverse, and Power BI 
 
@@ -84,7 +84,7 @@ ms.locfileid: "6051748"
 
 **ส่งออก DMF**
 
-[![ส่งออก DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![การส่งออก DMF](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel ผ่าน Dataverse**
 

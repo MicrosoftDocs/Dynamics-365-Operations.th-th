@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359328"
 ---
 # <a name="customer-payment-insights-preview"></a>ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (รุ่นตัวอย่าง)
 
@@ -51,7 +53,7 @@ ms.locfileid: "5822406"
 
 นอกจากนี้ ใบแจ้งหนี้แต่ละใบจะถูกกำหนดความน่าจะเป็นของการชำระเงินตรงเวลา ถ้าความน่าจะเป็นของการชำระเงินในเวลาน้อยกว่า 50% ใบแจ้งหนี้จะถูกติดแท็กด้วยวงกลมสีแดงเพื่อบ่งชี้ว่าใบแจ้งหนี้เหล่านี้อาจจำเป็นต้องได้รับความสนใจจากคอลเลกชัน 
 
-[![รายการความน่าจะเป็นในการชำระเงิน](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![รายการของความน่าจะเป็นในการชำระเงิน](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 ข้อมูลเชิงลึกของการชำระเงินของลูกค้า (การแสดงตัวอย่าง) ยังมีข้อมูลบริบทเพื่ออธิบายการคาดการณ์ เช่น ปัจจัยใหญ่ที่มีผลกระทบต่อการคาดการณ์สถานะปัจจุบันของธุรกิจที่มีลูกค้า และรายละเอียดเกี่ยวกับการชำระเงินของลูกค้าในอดีต ในธุรกิจจำนวนมาก กระบวนการเรียกเก็บเงินเป็นกิจกรรมที่มีการดำเนินการ กระบวนการเรียกเก็บเงินไม่เริ่มต้นจนกว่าใบแจ้งหนี้จะครบกำหนด 
 

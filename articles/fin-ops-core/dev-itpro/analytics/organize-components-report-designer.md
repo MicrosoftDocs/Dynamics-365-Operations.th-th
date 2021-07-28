@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751643"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347887"
 ---
 # <a name="organize-report-components-in-report-designer"></a>ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
 
@@ -58,7 +58,7 @@ ms.locfileid: "5751643"
 1. ใน Report Designer ในบานหน้าต่างนำทาง คลิก **กลุ่มรายงาน**
 2. ดับเบิลคลินกลุ่มรายงานนั้นเพื่อปรับเปลี่ยน
 3. บนแท็บ **กลุ่มรายงาน** ทำการเปลี่ยนแปลงที่คุณต้องการ
-4. ในเมนู **ไฟล์** คลิก **บันทึก** หรือหากต้องการบันทึกกลุ่มรายงานที่ปรับเปลี่ยน ให้คลิกปุ่ม **บันทึก** ![บันทึก](media/save.gif "บันทึก") บนแถบเครื่องมือ
+4. ในเมนู **ไฟล์** คลิก **บันทึก** เพื่อบันทึกกลุ่มรายงานที่ปรับเปลี่ยน หรือให้คลิกปุ่ม **บันทึก** ![บันทึก](media/save.gif "บันทึก") บนแถบเครื่องมือ
 
 > [หมายเหตุ] ถ้าคุณได้จัดกำหนดการรายงานเพื่อให้มีการสร้างขึ้นขณะตั้งค่าช่วง คุณสามารถแทนการตั้งค่าเหล่านี้ และสร้างรายงานได้ทันที
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a3daa2286eb444d3aaad1fd29eb6be5737415a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c3670cc1f690e8b65b53beb9128554216b2a95f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801996"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350437"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>เค้าโครงหน้าจอข้อมูลการสาธิตใน Modern POS (MPOS) และ Cloud POS
 
@@ -39,7 +39,7 @@ ms.locfileid: "5801996"
 
 เพื่อหาเค้าโครงหน้าจอ ไปที่ **การขายปลีกและการค้า** \> **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **เค้าโครงหน้าจอ**
 
-![หน้าเค้าโครงหน้าจอ](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![หน้าโครงร่างหน้าจอ](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 รหัสโครงร่างหน้าจอสามารถมีได้สูงสุด 10 อักขระ รหัสจะเป็นสตริงที่ประกอบด้วยสามส่วนข้อมูล ตามลำดับนี้:
 
@@ -52,12 +52,12 @@ ms.locfileid: "5801996"
 | จดหมาย | บริษัท         |
 |--------|-----------------|
 | A      | Adventure Works |
-| F      | Fabrikam        |
+| ศ.      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>รุ่นโครงร่าง
 
-| หมายเลขเวอร์ชัน | คำอธิบาย                                                                                |
+| หมายเลขรุ่น | คำอธิบาย                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | รุ่นพื้นฐานที่รองรับหน้าจอขนาดต่างๆ สำหรับอุปกรณ์ต่างๆ และอัตราส่วนกว้างยาว |
 | 3.1            | เวอร์ชันพื้นฐานที่มีการสนับสนุนเพิ่มเติมสำหรับแผง **ผลิตภัณฑ์ที่แนะนำ**        |
@@ -108,7 +108,7 @@ F4MGR
 > [!TIP]
 > POS เลือกขนาดของโครงร่างโดยอัตโนมัติ ตามขนาดใกล้เคียงที่สุดที่พร้อมใช้งานสำหรับความละเอียดของหน้าจอของหน้าต่างแอพลิเคชันปัจจุบัน หากต้องการค้นหารหัสเค้าโครงหน้าจอและความละเอียดเค้าโครงที่ใช้อยู่ในปัจจุบันใน Modern POS (MPOS) หรือ Retail Cloud POS (CPOS) ให้เปิดหน้า **ตั้งค่า** และดูที่ส่วน **ข้อมูลเซสชัน** . คุณยังสามารถดูความละเอียดหน้าต่างจริงสำหรับแอพลิเคชันหรือเฟรมของเบราเซอร์ปัจจุบันของคุณได้ด้วย หลังจากที่คุณมีข้อมูลนี้ คุณสามารถค้นหาแหล่งที่มาของเนื้อหาโครงร่างได้โดยการไปที่ **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **โครงร่างหน้าจอ**
 
-![เค้าโครงหน้าจอและและความละเอียด / ขนาดเค้าโครงใน Commerce และ POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![โครงร่างหน้าจอและและความละเอียด / ขนาดโครงร่าง ใน Commerce และ POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>บริษัทและยี่ห้อ
 
@@ -168,7 +168,7 @@ F4MGR
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 

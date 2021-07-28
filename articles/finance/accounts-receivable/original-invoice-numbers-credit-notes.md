@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897343"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347845"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับในใบลดหนี้
 
@@ -51,7 +51,7 @@ ms.locfileid: "5897343"
 1. ไปที่ **บัญชีลูกหนี้** \> **การตั้งค่า** \> **พารามิเตอร์บัญชีลูกหนี้**
 2. บนแท็บ **อัปเดต** บนแท็บด่วน **ใบแจ้งหนี้** ให้ตั้งค่าตัวเลือก **ใช้โครงร่างการออกใบแจ้งหนี้เครดิตสำหรับการขายและรายงานใบแจ้งหนี้โครงการ** เป็น **ใช่**
 
-![ตั้งค่าคอนฟิกพารามิเตอร์บัญชีลูกหนี้](media/original-invoice-number-in-credit-note.jpg)
+![การตั้งค่าคอนฟิกพารามิเตอร์บัญชีลูกหนี้](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>กําหนดการอ้างอิงถึงใบแจ้งหนี้ต้นฉบับ
 
@@ -65,7 +65,7 @@ ms.locfileid: "5897343"
 4. ในบานหน้าต่างการดำเนินการ บนแท็บ **ใบแจ้งหนี้** ในกลุ่ม **ฟังก์ชัน** ให้เลือก **ออกใบแจ้งหนี้เครดิต**
 5. ป้อนข้อมูลอ้างอิงถึงใบแจ้งหนี้ต้นฉบับ และเลือกเหตุผลของการแก้ไข
 
-![การนิยามการอ้างอิงของใบแจ้งหนี้ข้อความอิสระ](media/reference-original-invoice-FTI.jpg)
+![การนิยามการอ้างอิงสำหรับใบแจ้งหนี้ข้อความอิสระ](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>ใบลดหนี้ของลูกค้า
 
@@ -74,7 +74,7 @@ ms.locfileid: "5897343"
 3. ในบานหน้าต่างการดำเนินการ บนแท็บ **ขาย** ในกลุ่ม **ใบลดหนี้** ให้เลือก **ใบลดหนี้**
 4. ป้อนเหตุผลในการแก้ไข การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับจะถูกสร้างขึ้นโดยอัตโนมัติ
 
-![การนิยามข้อมูลอ้างอิงของใบสั่งขาย](media/reference-original-invoice-SO.jpg)
+![การกำหนดข้อมูลอ้างอิงสำหรับใบสั่งขาย](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>ใบลดหนี้ของโครงการ
 
@@ -84,7 +84,7 @@ ms.locfileid: "5897343"
 4. เลือก **การออกใบแจ้งหนี้เครดิต**
 5. ป้อนเหตุผลในการแก้ไข การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับจะถูกสร้างขึ้นโดยอัตโนมัติ
 
-![การนิยามการอ้างอิงของใบแจ้งหนี้โครงการ](media/reference-original-invoice-project.jpg)
+![การกำหนดการอ้างอิงสำหรับใบแจ้งหนี้โครงการ](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>การพิมพ์ใบลดหนี้
 

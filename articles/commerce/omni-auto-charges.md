@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353071"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
 
@@ -86,7 +86,7 @@ ms.locfileid: "6022718"
 
 สำหรับค่าธรรมเนียมการจัดส่งทางบก ในส่วนรายการของหน้า **ค่าธรรมเนียมอัตโนมัติ** กำหนดค่าธรรมเนียมที่จะถูกนำไปใช้กับใบสั่งระหว่าง $.01 และ $100 เป็น $10.00 สร้างรายการค่าธรรมเนียมอีกรายการหนึ่งเพื่อบ่งชี้ใบสั่งที่มากกว่า $100.01 จะไม่มีค่าธรรมเนียม
 
-![ตัวอย่างตารางค่าธรรมเนียมอัตโนมัติสองตัวอย่าง](media/headerchargesexample.png)
+![ตัวอย่างตารางค่าธรรมเนียมอัตโนมัติสองตาราง](media/headerchargesexample.png)
 
 สำหรับค่าธรรมเนียมการจัดส่งทางอากาศ ในส่วนรายการของฟอร์มค่าธรรมเนียมอัตโนมัติ กำหนดค่าธรรมเนียม $20.00 ที่จะถูกนำไปใช้กับใบสั่งทั้งหมด (ระหว่างมูลค่า $.01 ถึง $9,999,999)
 

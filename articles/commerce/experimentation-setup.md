@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9976ca461f7e988c32b81565fa2d084709e5ad6e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7453f0780d46ec1b3a09fe122938c8729c35aef6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792521"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349243"
 ---
 # <a name="set-up-an-experiment"></a>การตั้งค่าการทดสอบ
 
 หลังจากที่คุณ [กำหนดสมมติฐานและกำหนดการวัดความสำเร็จใดที่คุณต้องการใช้](experimentation-identify.md) คุณจะต้องตั้งค่าการทดลองของคุณในบริการของบุคคลที่สาม แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้การทดสอบใช้ - การตั้งค่า](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - การตั้งค่า](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
 
 ## <a name="set-up-your-experiment-in-the-third-party-service"></a>ตั้งค่าการทดลองของคุณในบริการของบุคคลที่สาม

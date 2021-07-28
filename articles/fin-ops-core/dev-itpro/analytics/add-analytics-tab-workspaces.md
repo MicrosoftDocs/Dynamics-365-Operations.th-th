@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354456"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
@@ -67,7 +67,7 @@ ms.locfileid: "5754609"
 
 ภาพประกอบต่อไปนี้แสดงลักษณะของฟอร์ม **FMClerkWorkspace** ในตัวออกแบบใน Microsoft Visual Studio
 
-![แบบฟอร์ม FMClerkWorkspace ก่อนที่จะเปลี่ยนแปลง](media/analytical-workspace-definition-before.png)
+![ฟอร์ม FMClerkWorkspace ก่อนที่จะเปลี่ยนแปลง](media/analytical-workspace-definition-before.png)
 
 ทำตามขั้นตอนเหล่านี้เพื่อขยายแบบฟอร์มคำนิยามสำหรับพื้นที่ทำงาน **การจัดการการจอง**
 

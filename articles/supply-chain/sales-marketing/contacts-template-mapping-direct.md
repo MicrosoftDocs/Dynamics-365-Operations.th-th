@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a16006a18e552c00fbed5eda7579fbcb77c315ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355936"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
 
@@ -128,7 +128,7 @@ ms.locfileid: "5908119"
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด](prospect-to-cash.md)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](prospect-to-cash.md)
 
 [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management](accounts-template-mapping-direct.md)
 

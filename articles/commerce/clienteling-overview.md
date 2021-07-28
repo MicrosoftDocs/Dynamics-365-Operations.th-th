@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352699"
 ---
 # <a name="clienteling-overview"></a>ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
 
@@ -68,7 +70,7 @@ ms.locfileid: "5937023"
 
 1. ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** กรองคุณลักษณะ โดยโมดูล **การขายปลีกและการค้า**
 
-    ![ความสัมพันธ์อันดีกับลูกค้า ในรายการขอคุณลักษณะสำหรับโมดูล Commerce](./media/Enable_clienteling.png "ความสัมพันธ์อันดีกับลูกค้า ในรายการขอคุณลักษณะสำหรับโมดูลการขายปลีกและการค้า")
+    ![ความสัมพันธ์อันดีกับลูกค้า ในรายการของคุณลักษณะสำหรับโมดูล Commerce](./media/Enable_clienteling.png "ความสัมพันธ์อันดีกับลูกค้า ในรายการขอคุณลักษณะสำหรับโมดูลการขายปลีกและการค้า")
 
 2. เปิดใช้งานคุณลักษณะ **ความสัมพันธ์อันดีกับลูกค้า** โดยการเลือก **เปิดใช้งานเดี๋ยวนี้**
 3. บนหน้า **พารามิเตอร์ Commerce** บนแท็บ **ลำดับหมายเลข** เลือกแถว **ตัวระบุสมุดบัญชีของลูกค้า** จากนั้น ในฟิลด์ **รหัสลำดับหมายเลข** ให้เลือกลำดับหมายเลข ระบบจะใช้ลำดับหมายเลขนี้เพื่อกำหนดรหัสให้กับสมุดบัญชีลูกค้า

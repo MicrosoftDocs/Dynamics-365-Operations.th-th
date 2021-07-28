@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358133"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS ให้ความสามารถต่อไปนี้:
 
 คุณสามารถลงชื่อสมัครหรือเข้าสู่ระบบ RCS จาก [หน้า Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/)
 
-![ลงชื่อสมัครใช้และลงชื่อเข้าใช้ RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![ลงชื่อสมัครใช้/ลงชื่อเข้าใช้ RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 บนหน้า **Regulatory Configuration Service** ให้ตรวจทานและยอมรับข้อกําหนดและเงื่อนไขเพิ่มเติมเพื่อใช้บริการ แล้วเลือกปุ่มใดปุ่มหนึ่งต่อไปนี้
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838756"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361269"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>แชร์การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ในที่เก็บส่วนกลาง Regulatory Configuration Services (RCS) กับองค์กรภายนอก
 
@@ -61,11 +61,11 @@ ms.locfileid: "5838756"
 3. เลือกการตั้งค่าคอนฟิกที่คุณต้องการใช้ร่วมกัน
 4. บนแท็บด่วน **ใช้ร่วมกันกับ** ให้เลือก **องค์กร**
 
-    ![แท็บด่วนใช้ร่วมกันกับ](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![FastTab ใช้ร่วมกันกับ](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. ในกล่องโต้ตอบ ให้ป้อนชื่อโดเมนสำหรับองค์กรภายนอก แล้วเลือก **ตกลง**
 
-    ![การใช้เวอร์ชันการตั้งค่าคอนฟิกร่วมกันกับกล่องโต้ตอบองค์กรภายนอก](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![กล่องโต้ตอบใช้รุ่นการตั้งค่าคอนฟิกร่วมกันกับองค์กรภายนอก](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 การตั้งค่าคอนฟิกที่ใช้ร่วมกันกับองค์กรภายนอกและพร้อมใช้งานสำหรับองค์กรนั้นในที่เก็บส่วนกลาง จากที่นั่น สามารถนำเข้าไปยังอินสแตนซ์ขององค์กรของ RCS หรืออินสแตนซ์ของแอป Finance and Operations
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e6f5ffbebdfcd9f945e6237904d80e8734b0220
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 15f564ec0b4639ba7a27c6f3f989304c71695ee4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752447"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356354"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2 - การแม็ปแบบจำลอง)
 
@@ -56,14 +56,14 @@ ms.locfileid: "5752447"
 21. เลือก ใช่ ในฟิลด์ขอข้อมูลบัญชีหลัก
     * ตั้งค่า 'ขอข้อมูลบัญชีหลัก' เป็น 'ใช่' เพื่ออนุญาตให้ผู้ใช้สามารถเลือกบัญชีหลักเป็นส่วนหนึ่งของรายการของมิติ   ถ้าตั้งค่าเป็น ไม่ บัญชีหลักจะไม่ถูกรวมเข้าในรายการของมิติ และตัวเลือก 'บัญชีหลักเป็นข้อมูลบังคับ' จะถูกเปิดใช้งาน ถ้า 'บัญชีหลักเป็นข้อมูลบังคับ' ถูกตั้งค่าเป็น ใช่ ให้รวมบัญชีหลักในรายการของมิติโดยไม่คำนึงถึงการเลือกของผู้ใช้  
 22. คลิก ตกลง 
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping1.png)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 24. คลิก เพิ่มราก
 25. ในฟิลด์ชื่อ ให้พิมพ์ 'LedgerJournal'
 26. เลือก ใช่ในการขอฟิลด์การสอบถาม
 27. ในฟิลด์ตาราง พิมพ์ 'LedgerJournalTable'
 28. คลิก ตกลง 
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping2.png)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>แม็ปองค์ประกอบแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เพิ่ม
 1. ในแผนภูมิ ให้ขยาย 'สมุดบัญชี'
@@ -94,7 +94,7 @@ ms.locfileid: "5752447"
 25. ในแผนภูมิ เลือก 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\บัญชีหลักและมิติ'
 26. ในแผนภูมิ เลือก 'สมุดรายวัน\ธุรกรรม\ข้อมูลมิติ'
 27. คลิก ผูก
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping3.png)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. ในแผนภูมิ เลือก 'LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)'
 29. ในแผนภูมิ เลือก 'สมุดรายวัน\ธุรกรรม\เดบิต'
 30. คลิก ผูก
@@ -133,7 +133,7 @@ ms.locfileid: "5752447"
 63. ในฟิลด์ expressionAsStringText ให้ป้อน 'Company.'find()'.'name()''
     * Company.'find()'.'name()'  
 64. คลิก บันทึก
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping4.png)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. ปิดหน้า
 66. คลิก บันทึก
 67. ปิดหน้า
@@ -144,7 +144,7 @@ ms.locfileid: "5752447"
 3. คลิก เปลี่ยนแปลงสถานะ
 4. คลิกเสร็จสมบูรณ์
 5. คลิก ตกลง 
-![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

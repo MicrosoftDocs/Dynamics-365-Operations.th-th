@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351308"
 ---
 # <a name="manage-product-categories-and-products"></a>จัดการประเภทผลิตภัณฑ์และผลิตภัณฑ์
 
@@ -41,11 +41,11 @@ ms.locfileid: "5794384"
 
 เมื่อต้องการจัดการคุณสมบัตินิติบุคคลทั้งหมด เลือก **ดูสำหรับนิติบุคคลทั้งหมด** (หรือ **แก้ไขสำหรับนิติบุคคลทั้งหมด**)
 
-![ดู/แก้ไขสำหรับนิติบุคคลทั้งหมด](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![ดู/แก้ไข สำหรับนิติบุคคลทั้งหมด](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 เมื่อต้องการจัดการคุณสมบัติสำหรับนิติบุคคลหนึ่งๆ เลือก **ดูสำหรับนิติบุคคลหนึ่งๆ** (หรือ **แก้ไขสำหรับนิติบุคคลหนึ่งๆ**)
 
-![ดู/แก้ไขสำหรับนิติบุคคลหนึ่งๆ](media/ToggleToEditForAllLegalEntities.PNG)
+![ดู/แก้ไข สำหรับนิติบุคคลหนึ่งๆ](media/ToggleToEditForAllLegalEntities.PNG)
 
 นอกจากนี้ ในโครงสร้างประเภทผลิตภัณฑ์ขั้นสูง ขณะนี้ผู้จัดการฝ่ายจัดซื้อสินค้าสามารถกำหนดค่าเริ่มต้นสำหรับชุดเพิ่มเติมของคุณสมบัติของผลิตภัณฑ์ที่แต่ละระดับประเภทได้ จากนั้น เมื่อมีการสร้างผลิตภัณฑ์ ค่าคุณสมบัติของผลิตภัณฑ์ค่าเริ่มต้นเหล่านี้จะถูกสืบทอดโดยผลิตภัณฑ์ โดยยึดตามการเชื่อมโยงของคุณสมบัติเหล่านั้นกับประเภทแต่ละประเภทในลำดับชั้นของผลิตภัณฑ์ คุณสมบัติของผลิตภัณฑ์ที่สืบทอดมาเหล่านี้ยังสามารถถูกปรับเปลี่ยนได้สำหรับแต่ละผลิตภัณฑ์ เพื่อให้ตรงกับความต้องการทางธุรกิจแต่ละรายการ
 

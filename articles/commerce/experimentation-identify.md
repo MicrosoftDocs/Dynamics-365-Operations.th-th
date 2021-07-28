@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799068"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349363"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>ระบุสมมติฐานและกำหนดตัวชี้วัดความสำเร็จสำหรับการทดสอบ
 ระยะแรกในวงจรการทดสอบรวมถึงการระบุสมมติฐานสำหรับการทดสอบ และการกำหนดตัวชี้วัดที่คุณจะติดตามเพื่อประเมินความสำเร็จ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับ [การตั้งค่าและการรันการทดลอง](experimentation-overview.md) บนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก 
 
-[ ![การเดินทางของผู้การทดสอบใช้ - ระบุ](./media/experimentation_identify.svg)](./media/experimentation_identify.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - ระบุ](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 สมมติฐานคือคำชี้แจงที่คุณคาดการณ์ถึงผลลัพธ์ของการทดลอง หลายปัจจัยใช้กำหนดสมมติฐาน ตัวอย่างเช่น การวิจัยเกี่ยวกับพฤติกรรมของผู้ใช้ และข้อมูลเว็บไซต์ที่คุณรวบรวมไว้ ด้วยสมมติฐาน คุณจะกำหนดสมมติฐานหรือทฤษฎีที่คุณต้องการตรวจสอบความถูกต้องด้วยการทดลองของคุณ ตัวอย่างของสมมติฐานสำหรับการทดลองของคุณอาจเป็น "*ภาพของเสื้อยืดสีขาวบนโฮมเพจของฉันจะขับเคลื่อนอัตราการคลิกที่สูงกว่าเสื้อกันหนาวสีน้ำเงินในช่วงเดือนฤดูร้อน เพราะคนต้องการที่จะสวมใส่สิ่งที่มีน้ำหนักเบาและสีอ่อนในช่วงฤดูร้อน*" ในกรณีดังกล่าว คุณจะสร้างการเปลี่ยนแปลงที่รวมเสื้อยืดสีขาวและเสื้อกันหนาวสีน้ำเงิน และเผยแพร่ทั้งสองอย่างในเวลาเดียวกัน
 

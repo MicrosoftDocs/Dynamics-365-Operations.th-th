@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fe5523edf46712b17aa7abcad50da44c3eaffd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4be7d3b77f72a9d79047d31b46dcabcb2bf09d12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351572"
 ---
 # <a name="assets-and-work-orders"></a>สินทรัพย์และใบสั่งงาน
 
