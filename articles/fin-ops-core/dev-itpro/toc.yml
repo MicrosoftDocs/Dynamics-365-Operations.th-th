@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update สำหรับ 10.0.19 (มิถุนายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platform update สำหรับ 10.0.18 (พฤษภาคม 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -364,8 +362,10 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
                       href: deployment/troubleshoot-newinfrastructure.md
-                    - name: คำถามที่ถามบ่อยเกี่ยวกับการบํารุงรักษาที่วางแผนไว้ในสภาพแวดล้อมแบบบริการตนเอง
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการบำรุงรักษาตามแผนในสภาพแวดล้อมแบบบริการตนเอง
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: ความต่อเนื่องของธุรกิจและการกู้คืนจากความเสียหาย
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: ทำให้การเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute และ Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: ใช้การอัปเดตและส่วนขยายกับ Commerce Scale Unit (ระบบคลาวด์)
                   href: deployment/Update-retail-channel.md
+                - name: อัปเดตอัตโนมัติสำหรับ Commerce Scale Unit (ระบบคลาวด์)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: ย้ายช่องสัญญาณไปยัง Commerce Scale Unit อื่น
@@ -390,8 +392,10 @@
                   items:
                     - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
                       href: deployment/on-premises-overview.md
-                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
                       href: deployment/plan-onprem-deployment.md
+                    - name: ซอฟต์แวร์ที่รองรับ Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: การตรวจสอบความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการปรับใช้แบบ One-Box
                   href: dev-tools/configure-developer-vm.md
-                - name: สร้างผู้ใช้ใหม่ในเครื่องสำหรับการพัฒนา
-                  href: dev-tools/enable-development-machine.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
                   href: sysadmin/VMs-no-admin-access.md
                 - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: สมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
                       href: data-entities/dual-write/party-gab.md
-                    - name: การใช้ Power Portal กับรูปแบบข้อมูลของฝ่าย
+                    - name: การใช้พอร์ทัล Microsoft Power Apps กับรูปแบบข้อมูลของฝ่าย
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: การอัปเกรด AX 2012 - เริ่มใช้งานจริง
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: การอัปเกรดจาก AX 2012 - คำถามที่ถามบ่อยเกี่ยวกับการอัปเกรดข้อมูล
+                  href: migration-upgrade/upgrade-faq.md
                 - name: การเปลี่ยนแปลงที่มีผลต่อการอัปเกรดจาก AX 2012
                   items:
                     - name: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน

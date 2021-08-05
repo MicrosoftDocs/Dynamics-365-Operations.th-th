@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 กรกฎาคม 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 มิถุนายน 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 พฤษภาคม 2021
@@ -251,11 +253,13 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: แอป Human Resources ใน Teams
           href: hr-admin-teams-leave-app.md
-        - name: จัดเตรียมสำหรับการโทรทันที
+        - name: จัดเตรียมสำหรับการใช้งานจริง
           href: hr-admin-go-live-prepare.md
-        - name: คำถามที่ถามบ่อยเกี่ยวกับการโทรทันที
+        - name: คำถามที่ถามบ่อยเกี่ยวกับการใช้งานจริง
           href: hr-admin-go-live-faq.md
-        - name: แหล่งข้อมูลเอกสารประกอบ
+        - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมโครงสร้างพื้นฐานของ Human Resources
+          href: hr-infrastructure-merge-faq.md
+        - name: แหล่งข้อมูลคู่มือ
           items:
             - name: ระบบวิธีใช้
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: ดำเนินการกับแผนค่าตอบแทน
               href: hr-compensation-process.md
+            - name: ทำเครื่องหมายพนักงานเป็นพร้อมที่จะชำระ
+              href: hr-compensation-payroll.md
         - name: จัดการสวัสดิการ
           items:
             - name: การจัดการสวัสดิการ
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: ตั้งค่าคอนฟิกชนิดเหตุการณ์ของชีวิต
                       href: hr-benefits-setup-life-event-types.md
-                    - name: สร้างชนิดแผน
+                    - name: ภาพรวมชนิดของแผน
                       href: hr-benefits-setup-plan-types.md
                     - name: ตั้งค่ารหัสเหตุผล
                       href: hr-benefits-setup-reason-codes.md
@@ -803,10 +809,12 @@
               href: hr-leave-and-absence-analytics.md
             - name: จัดการกับคำขอการลางานและการขาดงาน
               href: hr-employee-self-service-manage-requests.md
-            - name: ร้องขอการหยุดพัก
+            - name: ส่งคำขอการลาหยุด
               href: hr-employee-self-service-request-time-off.md
             - name: ดูปฏิทินของทีมงานและบริษัท
               href: hr-employee-self-service-calendar.md
+            - name: ตั้งค่าคอนฟิกบทบาทผู้จัดการด้านการขาดงาน
+              href: hr-configure-absence-manager.md
             - name: จัดการนโยบายซื้อและขายวันลางาน
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: สร้างลำดับงานการซื้อและขายวันลางาน
