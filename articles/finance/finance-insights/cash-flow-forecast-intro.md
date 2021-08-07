@@ -2,7 +2,7 @@
 title: การคาดการณ์กระแสเงินสด (พรีวิว)
 description: หัวข้อนี้จะอธิบายความสามารถในการคาดการณ์กระแสเงินสด
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339226"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638787"
 ---
 # <a name="cash-flow-forecast-preview"></a>การคาดการณ์กระแสเงินสด (พรีวิว)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 กระแสเงินสดมีความสำคัญต่อธุรกิจใดๆ แม้บริษัทที่ทำกำไรก็อาจพบกับความล้มเหลวได้ ถ้าไม่มีการรักษากระแสเงินสดเพื่อตอบสนองความต้องการในทันที ความสามารถในการคาดการณ์กระแสเงินสดในข้อมูลเชิงลึก Finance สามารถช่วยบริษัทตรวจสอบและจัดการยอดดุลเงินสดได้อย่างมีประสิทธิภาพ คุณลักษณะนี้ใช้การเรียนรู้ของเครื่องเพื่อช่วยธุรกิจในการคาดการณ์กระแสเงินสดได้อย่างถูกต้องมากกว่าที่มีก่อนหน้านี้ นอกจากนี้ คุณยังสามารถช่วยผู้จัดการตัดสินใจที่จะปรับโอกาสให้เหมาะสมในเนื้อหาของตำแหน่งเงินสดปัจจุบันของพวกเขา 
 

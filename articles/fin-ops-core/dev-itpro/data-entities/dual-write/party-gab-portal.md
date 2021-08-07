@@ -1,6 +1,6 @@
 ---
-title: การใช้ Power Portal กับรูปแบบข้อมูลฝ่าย
-description: หัวข้อนี้จะอธิบายการเปลี่ยนแปลงไปยังบทบาทเว็บของ Power Portal เนื่องจากรูปแบบข้อมูลฝ่ายในการรวมแบบสองทิศทาง
+title: การใช้พอร์ทัล Microsoft Power Apps กับรูปแบบข้อมูลของฝ่าย
+description: หัวข้อนี้จะอธิบายการเปลี่ยนแปลงไปยังบทบาทเว็บของพอร์ทัล Microsoft Power Apps เนื่องจากรูปแบบข้อมูลฝ่ายในการรวมแบบสองทิศทาง
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358628"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542574"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>การใช้ Power Portal กับรูปแบบข้อมูลฝ่าย
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>การใช้พอร์ทัล Microsoft Power Apps กับรูปแบบข้อมูลของฝ่าย
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ ms.locfileid: "6358628"
 
     คุณต้องสร้างสิทธิ์ใหม่สามสิทธิ์:
 
-    + การเชื่อมต่อของผู้ติดต่อไปยังฝ่าย
-    + การเชื่อมต่อของฝ่ายไปยังบัญชี
-    + การเชื่อมต่อของบัญชีไปยังใบสั่ง
+    + การเชื่อมต่อของตาราง **ผู้ติดต่อ** ไปยัง **ฝ่าย**
+    + การเชื่อมต่อของตาราง **ฝ่าย** ไปยัง **บัญชี**
+    + การเชื่อมต่อของตาราง **บัญชี** ไปยัง **ใบสั่ง**
 
 4. สร้างและบันทึกสิทธิ์ใหม่สำหรับการเชื่อมต่อของผู้ติดต่อไปยังฝ่าย โดยตั้งค่าพารามิเตอร์เหล่านี้:
 
-    + **ชื่อ**: การเชื่อมต่อของฝ่ายไปยังบัญชี (หรือที่คุณเลือก)
+    + **ขื่อ**: การเชื่อมต่อของตาราง **ฝ่าย** ไปยัง **บัญชี** (หรือที่คุณเลือก)
     + **ชื่อตาราง**: msdyn_contactforparty
     + **เว็บไซต์**: พอร์ทัลของลูกค้า
     + **ขอบเขต**: ผู้ติดต่อ

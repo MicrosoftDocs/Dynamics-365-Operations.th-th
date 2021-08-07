@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303573"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560085"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 22 มิถุนายน 2021
 
@@ -44,7 +44,7 @@ ms.locfileid: "6303573"
 | --- | --- | --- |
 | คุณลักษณะแจ้งให้ผู้ใช้ทราบถึงผู้ปฏิบัติงานที่ไม่มีการจ้างงาน - เมื่อเปิดใช้งานการเข้าถึงขั้นสูงอยู่ และคุณลักษณะ **ดูผู้ปฏิบัติงานทั้งหมดที่ไม่การจ้างงาน** ปิดใช้งานอยู่ในการจัดการคุณลักษณะ แบนเนอร์จะแสดงผู้ปฏิบัติงานที่ไม่มีฟอร์มการจ้างงาน แบนเนอร์จะให้ผู้ใช้เปิดคุณลักษณะ **ดูผู้ปฏิบัติงานทั้งหมดที่ไม่การจ้างงาน** โดยตรง | ใช้ไม่ได้| [ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | การสนับสนุนฟิลด์ที่กำหนดเองสำหรับกฎการมีคุณสมบัติเหมาะสมของการจัดการสวัสดิการ | [การสนับสนุนฟิลด์ที่กำหนดเองสำหรับการประมวลการมีคุณสมบัติเหมาะสม](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[การกำหนดค่ากฎการมีคุณสมบัติเหมาะสม](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| การตรวจสอบธุรกรรมการยกยอดวันลางาน | ใช้ไม่ได้ | [การตรวจสอบธุรกรรมการยกยอดวันลางาน](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| การตรวจสอบธุรกรรมการยกยอดวันลางาน | ใช้ไม่ได้ | [การตรวจสอบธุรกรรมการยกยอดวันลางาน](hr-leave-and-absence-accrue.md)|
 | การปรับปรุงประสบการณ์ลำดับงานของการลางานและการขาดงาน | [การปรับปรุงประสบการณ์ลำดับงานของการลางานและการขาดงาน](https://go.microsoft.com/fwlink/?linkid=2147528) | [ร้องขอการหยุดพัก](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา

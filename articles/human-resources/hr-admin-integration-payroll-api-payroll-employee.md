@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314296"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538865"
 ---
 # <a name="payroll-employee"></a>พนักงานในบัญชีเงินเดือน
 
@@ -32,15 +32,19 @@ ms.locfileid: "6314296"
 
 เอนทิตีนี้จะให้ข้อมูลเกี่ยวกับพนักงาน คุณต้องตั้งค่า [พารามิเตอร์การรวมระบบค่าจ้าง](hr-admin-integration-payroll-api-parameters.md) ก่อนที่จะใช้เอนทิตีนี้
 
+>[!IMPORTANT] 
+>**FirstName** **MiddleName** **LastName** **NameValidFrom** และ **NameValidTo** จะไม่สามารถใช้งานได้บนเอนทิตีนี้อีกต่อไป ทั้งนี้เพื่อให้แน่ใจว่ามีแหล่งข้อมูลวันที่มีผลบังคับเพียงหนึ่งเท่านั้นที่สนับสนุนเอนทิตีนี้ ซึ่งเป็น **HcmEmployment** กับฟิลด์ **EmploymentStartDate** และ **EmploymentEndDate**
+
+>ฟิลด์เหล่านี้จะพร้อมใช้งานบน **DirPersonNameHistoricalEntity** ซึ่งถูกนําออกใช้ในการปรับปรุงแพลตฟอร์ม 43 มีความสัมพันธ์ OData จาก **PayrollEmployeeEntity** ถึง **DirPersonNameHistoricalEntity** ในฟิลด์ **บุคคล** อีกทางหนึ่ง เอนทิตี **DirPersonNameHistoricalEntity** สามารถสอบถามโดยตรงผ่าน OData โดยใช้ชื่อสาธารณะ **PersonHistoricalNames**
+
+
 ## <a name="properties"></a>คุณสมบัติ
 
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
 | **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
 | **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | ต้องระบุ<br>ระบบสร้างขึ้น |  |
-| **นามสกุล**<br>mshr_lastname<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | นามสกุลพนักงาน |
 | **รหัสนิติบุคคล**<br>mshr_legalentityID<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
-| **มีผลใช้ตั้งแต่**<br>mshr_namevalidfrom<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่เริ่มต้นการมีผลบังคับของข้อมูลพนักงาน  |
 | **เพศ**<br>mshr_gender<br>[การกำหนดตัวเลือก mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | อ่านอย่างเดียว<br>ต้องระบุ | เพศของพนักงาน |
 | **รหัสเอนทิตีของพนักงานในบัญชีเงินเดือน**<br>mshr_payrollemployeeentityid<br>*GUID* | ต้องระบุ<br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงพนักงานเฉพาะ |
 | **วันที่เริ่มต้นการจ้างงาน**<br>mshr_employmentstartdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว<br>ต้องระบุ | วันที่เริ่มต้นของการจ้างงานของพนักงาน |
@@ -50,8 +54,6 @@ ms.locfileid: "6314296"
 | **มีผลใช้ถึง**<br>mshr_namevalidto<br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว<br>ต้องระบุ | วันที่สิ้นสุดการมีผลบังคับของข้อมูลพนักงาน |
 | **วันเกิด**<br>mshr_birthdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันเกิดของพนักงาน |
 | **หมายเลขรหัส**<br>mshr_identificationnumber<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
-| **ชื่อ**<br>mshr_firstname<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ชื่อพนักงาน |
-| **ชื่อกลาง**<br>mshr_middlename<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |ชื่อกลางของพนักงาน  |
 
 ## <a name="example-query-for-payroll-employee"></a>ตัวอย่างการสอบถามของพนักงานในบัญชีเงินเดือน
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

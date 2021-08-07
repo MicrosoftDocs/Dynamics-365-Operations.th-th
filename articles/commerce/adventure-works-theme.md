@@ -2,7 +2,7 @@
 title: ภาพรวมของธีม Adventure Works
 description: หัวข้อนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479544"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655643"
 ---
 # <a name="adventure-works-theme-overview"></a>ภาพรวมของธีม Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce มีธีมของอีคอมเมิร์ซ ที่ชื่อ Adventure Works ธีม Adventure Works แสดงกีฬาและผลิตภัณฑ์ที่ส่งเสริม และเพิ่มประสิทธิภาพให้กับประสบการณ์การเล่าเรื่องเพิ่มเติมและหลากหลาย โครงร่างนี้จะให้รูปลักษณ์สมัยใหม่ โครงร่างใหม่ และผลกระทบของภาพเคลื่อนไหว เพื่อสร้างประสบการณ์การซื้อสินค้าออนไลน์ที่สมจริง น่าสนใจ ให้กับลูกค้าอีคอมเมิร์ซ
 
-ธีม Adventure Works มีเวิร์กโฟลว์ใหม่ ดังต่อไปนี้:
+## <a name="trial-environments-in-commerce"></a>สภาพแวดล้อมการทดลองใน Commerce
+
+หากต้องการดูว่าธีม Adventure Works มีลักษณะอย่างไรเมื่อใช้งานไซต์ระหว่างธุรกิจ-ผู้บริโภค (B2C) และไซต์ระหว่างธุรกิจ (B2B) โปรดเยี่ยมชมไซต์ทดลองต่อไปนี้:
+
+- [ไซต์ Adventure Works B2C](https://www.adventure-works.com/)
+- [ไซต์ Adventure Works B2B](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>ความสามารถของธีม
+
+ธีม Adventure Works มีความสามารถใหม่ ดังต่อไปนี้:
 
 - ขณะนี้โมดูลโปรแกรมเล่นวิดีโอสนับสนุนฟังก์ชันหัวข้อ ย่อหน้า และลิงก์ สำหรับการเล่าเรื่องเพิ่มเติม
-- การดำเนินการเพิ่มลงในรถเข็นเรียกรถเข็นมินิ แทนที่จะระบุการแจ้งเตือน
+- มีการเปลี่ยนเนื้อหาที่ดีขึ้นผ่านภาพเคลื่อนไหว
+- การดำเนินการ "เพิ่มลงในรถเข็น" เรียกรถเข็นมินิ แทนที่จะระบุการแจ้งเตือน
 - โมดูลมุมมองแบบด่วนคือบานหน้าต่างที่มีทั้งมุมมองเดสก์ท็อปและอุปกรณ์เคลื่อนที่
-- ขณะนี้รถเข็นว่างเปล่าสามารถแสดงโปรโมชันได้
+- มีโครงร่างใหม่เกี่ยวกับหน้าไซต์ 
+- คุณสามารถตั้งค่าคอนฟิกเนื้อหาของการตลาดได้กับรถเข็นและรถเข็นเล็กเมื่อสินค้าว่างเปล่า
+- รถเข็นเล็กๆ สามารถแสดงข้อความโปรโมชัน เช่น "การจัดส่งฟรีกับใบสั่งที่เกิน $50"
+- บัตรอธิบายแสดงอยู่ในหน้าการค้นหาและหน้าประเภท
 
-ธีม Adventure Works ประกอบด้วยโมดูลการเล่าเรื่องต่อไปนี้ ในไลบรารีโมดูล Commerce:
+ขณะนี้ธีม Adventure Works ประกอบด้วยโมดูลการเล่าเรื่องต่อไปนี้ ในไลบรารีโมดูล Commerce:
 
-- โมดูลรายการไทล์
-- โมดูลคุณลักษณะเชิงโต้ตอบ
-- โมดูลการสมัครเป็นสมาชิก
-- โมดูลรูปภาพที่ใช้งาน
-- โมดูลรายการรูปภาพ
+- [โมดูลรายการชื่อเรื่อง](tile-list-module.md)
+- [โมดูลคุณลักษณะเชิงโต้ตอบ](interactive-feature-module.md)
+- [โมดูลรูปภาพที่ใช้งานอยู่](active-image-module.md)
+- [โมดูลสมัครสมาชิก](subscribe-module.md)
+- [โมดูลรายการรูปภาพ](image-list-module.md)
 
 ธีม Adventure Works เป็นธีมที่ตอบสนองอย่างสมบูรณ์ และให้ประสบการณ์ที่ดีที่สุดมุมมองเดสก์ทอป อุปกรณ์เคลื่อนที่ และแท็บเล็ต
 
@@ -78,11 +90,15 @@ Dynamics 365 Commerce มีธีมของอีคอมเมิร์ซ 
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนขยายธีม ดูที่ [ส่วนขยายของธีม](e-commerce-extensibility/theme-module-extensions.md)
 
+## <a name="install-the-adventure-works-theme"></a>ติดตั้งธีม Adventure Works
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้งธีม Adventure Works ดูที่ [ติดตั้งธีม Adventure Works](install-adventure-works.md)
+
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
-[โมดูลรายการไทล์](tile-list-module.md)
+[โมดูลรายการชื่อเรื่อง](tile-list-module.md)
 
 [โมดูลคุณลักษณะเชิงโต้ตอบ](interactive-feature-module.md)
 

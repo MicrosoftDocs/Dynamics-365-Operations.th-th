@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a125e894aa52083fccca2f10873305db8cc4528e
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188293"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647241"
 ---
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
@@ -102,11 +102,10 @@ ms.locfileid: "6188293"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>มิติทางการเงินบนข้อตกลงการซื้อ
 คุณสามารถคัดลอกมิติทางการเงินไปยังส่วนหัวของเอกสารหรือแต่ละรายการของข้อตกลงการซื้อ ถ้าคุณเปลี่ยนมิติในส่วนหัวของข้อตกลงหรือในรายการข้อตกลง การเปลี่ยนแปลงจะไม่ส่งผลต่อใบสั่งที่นำออกใช้แล้วใดๆ แต่จะมีการสะท้อนในใบสั่งใหม่อื่นๆ
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
-
-[สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
+- [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
+- [ใช้ข้อตกลงการซื้อเมื่อสร้างใบสั่งซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

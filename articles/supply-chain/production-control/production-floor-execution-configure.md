@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271166"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641091"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 
@@ -70,8 +70,6 @@ ms.locfileid: "6271166"
 - ฟังก์ชันการจัดการสินทรัพย์สำหรับอินเทอร์เฟสการดำเนินการผลิต
 
 ### <a name="enable-job-search"></a>เปิดใช้งานการค้นหางาน
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 คุณลักษณะการงานนี้ช่วยให้สามารถเพิ่มฟิลด์การค้นหาลงในรายการงานได้ ผู้ปฏิบัติงานสามารถค้นหางานเฉพาะโดยการป้อนรหัสงาน หรือค้นหางานทั้งหมดให้กับใบสั่งที่ระบุโดยการป้อนรหัสใบสั่ง ผู้ปฏิบัติงานสามารถป้อนรหัสได้ โดยใช้โปรแกรมหนึ่งๆ หรือสแกนบาร์โค้ด หากคุณต้องการใช้ เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 

@@ -2,7 +2,7 @@
 title: โฮมเพจ Finance Insights (ตัวอย่าง)
 description: Finance Insights จะให้แบบจำลองที่สามารถจัดโครงแบบได้และมีการขยายตัวเพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณได้อย่างถูกต้อง คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถเพิ่มความเร็วในการจัดทำงบ ลักษณะการทำงานทั้งหมดเหล่านี้จะขึ้นอยู่กับแบบจำลองการเรียนรู้ของเครื่องอัจฉริยะ
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2086a33285d9a529480c5f34fb048105e65c2046
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338240"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638525"
 ---
 # <a name="finance-insights-home-page-preview"></a>โฮมเพจ Finance Insights (ตัวอย่าง)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance Insights จะให้แบบจำลองที่สามารถจัดโครงแบบได้และมีการขยายตัวเพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณได้อย่างถูกต้อง คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถเพิ่มความเร็วในการจัดทำงบ ลักษณะการทำงานทั้งหมดเหล่านี้จะขึ้นอยู่กับแบบจำลองการเรียนรู้ของเครื่องอัจฉริยะ เมื่อมีการรวมความสามารถใหม่ ๆ เข้ากับระบบอัตโนมัติในการชำระเงินของผู้จัดจำหน่ายและการเรียกเก็บเงิน จะมีระบบการเงินที่สมบูรณ์และฉลาดซึ่งผลักดันการตัดสินใจ และช่วยให้คุณสามารถดำเนินการเพื่อตอบสนองต่อความท้าทายทางธุรกิจในปัจจุบันและที่คาดการณ์ไว้ได้อย่างมีประสิทธิภาพ
 

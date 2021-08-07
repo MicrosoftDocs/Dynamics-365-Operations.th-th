@@ -2,7 +2,7 @@
 title: ข้อเสนอการยกเลิกสัญญาเช่า
 description: หัวข้อนี้จะอธิบายถึงวิธีการเสนอสัญญาเช่าสำหรับการยกเลิก
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b32f9e8f80827e04269ac8cb6a4fbb5a13af8bc
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881119"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638499"
 ---
 # <a name="propose-a-lease-for-termination"></a>เสนอสัญญาเช่าเพื่อการยกเลิก
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ถ้ามีการยกเลิกสัญญาเช่าก่อนเวลา การเช่าสินทรัพย์สามารถบันทึกรายการสมุดรายวันการเลิกจ้างเพื่อตัดจ่ายหนี้สินการเช่า สิทธิ์การใช้สินทรัพย์ (ROU) และค่าเสื่อมราคาสะสม และจองกําไรหรือขาดทุน กระบวนการยกเลิกก่อนเวลายกเลิกสัญญาเช่าและสมุดบัญชีสัญญาเช่าที่เกี่ยวข้อง ไม่ได้สิ้นสุดสมุดบัญชีสัญญาเช่ารายเล่ม หัวข้อนี้อธิบายฟังก์ชันที่ช่วยให้คุณสามารถเสนอสัญญาเช่าเพื่อการยกเลิก และประมวลผลรายการสมุดรายวันการยกเลิกสัญญาเช่า
 

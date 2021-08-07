@@ -2,7 +2,7 @@
 title: คำขอเวลาหยุดพัก
 description: คำขอเวลาหยุดพักใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da04e3f93f381fbe25c7e1ed117b7ce10e8b04e9
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357202"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639569"
 ---
 # <a name="request-time-off"></a>คำขอเวลาหยุดพัก
 
@@ -41,6 +41,8 @@ ms.locfileid: "6357202"
 5. ป้อนข้อมูลใน **ข้อคิดเห็น** ถ้าจำเป็น
 
 6. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ หรือเลือก **บันทึกดราฟต์**
+
+พนักงานที่ส่งคำขอการลางานใหม่ สามารถเลือกชนิดการลางานต่างๆ เพื่อสร้างคำขอการลางานของพวกเขา อย่างไรก็ตาม ชนิดการลางานทั้งหมดที่เลือกไว้เป็นส่วนหนึ่งของคำขอการลางานเดียวควรมีหน่วยการลางานเดียวกัน พนักงานสามารถดูหน่วยการลางานของชนิดการลางานแต่ละชนิดได้ในฟอร์ม **ร้องขอการลาหยุด**
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>เพิ่มส่วนแนบไปยังคำขอที่มีอยู่
 

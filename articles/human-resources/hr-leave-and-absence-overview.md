@@ -2,7 +2,7 @@
 title: ภาพรวมการลางานและการขาดงาน
 description: ใน Dynamics 365 Human Resources พื้นที่ทำงานการลางานและการขาดงานจะแสดงกรอบงานที่มีความยืดหยุ่นสำหรับการสร้างแผนการลางานใหม่ นอกจากนี้ ยังมีลำดับงานสำหรับการจัดการคำขอและหน้าระบบบริการตนเองที่ใช้งานง่ายสำหรับพนักงานเพื่อส่งคำขอลาหยุด
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339726"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639497"
 ---
 # <a name="leave-and-absence-overview"></a>ภาพรวมการลางานและการขาดงาน
 
@@ -34,7 +34,8 @@ Dynamics 365 Human Resources ช่วยให้คุณสามารถท
 
 - [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](hr-leave-and-absence-parameters.md)
 - [สร้างปฏิทินเวลาการทำงาน](hr-leave-and-absence-working-time-calendar.md)
-- [สร้างลำดับงานการร้องขอลางาน](hr-leave-and-absence-workflow.md)
+- [สร้างลำดับงานของคำขอลางาน](hr-leave-and-absence-workflow.md)
+- [ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>สร้างและจัดการแผนการลา
 
@@ -50,8 +51,9 @@ Dynamics 365 Human Resources ช่วยให้คุณสามารถท
 
 พนักงานของคุณสามารถส่งคำขอปิดเวลาได้ และคุณสามารถจัดการกับพนักงาน ในพื้นที่การทำงาน **การบริการตัวเองของพนักงาน**
 
-[ส่งคำขอลาหยุด](hr-employee-self-service-request-time-off.md)
-[จัดการคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
+- [ร้องขอการหยุดพัก](hr-employee-self-service-request-time-off.md)
+- [จัดการกับคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
+- [ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน](hr-configure-absence-manager.md)
 
 
 

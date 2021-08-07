@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056335"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639425"
 ---
 # <a name="request-a-leave-of-absence"></a>ร้องขอการลางาน
 
@@ -48,6 +48,10 @@ ms.locfileid: "6056335"
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **อื่นๆ** (...) ในไทล์ **ยอดดุลเวลาหยุดพัก**
 
 2. เมื่อต้องการดูคำขอการลางานของคุณ ให้เลือก **ดูการลางาน**
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>การนําเข้าคำขอการลางานจากระบบอื่นหรือระบบเก่า
+
+หากต้องการนําเข้าคำขอการลางานจากระบบอื่น คุณต้องไปที่ลำดับงานปกติเพื่อสร้างธุรกรรมการลางานที่เหมาะสม หรือคุณสามารถนําเข้าธุรกรรมการลางานของธนาคารและคำขอการลางานในสถานะเสร็จสมบูรณ์ โปรดทราบว่าธุรกรรมธนาคารในการลางานจะไม่ถูกสร้างขึ้นโดยอัตโนมัติ ถ้าคุณนําเข้าเฉพาะคำขอการลางานเท่านั้น
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

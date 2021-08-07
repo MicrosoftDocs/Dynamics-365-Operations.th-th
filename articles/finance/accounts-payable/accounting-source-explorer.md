@@ -1,7 +1,7 @@
 ---
 title: โปรแกรมตรวจดูบัญชีต้นทาง
 description: บทความนี้แสดงข้อมูลเกี่ยวกับโปรแกรมตรวจดูบัญชีต้นทาง ซึ่งคุณสามารถใช้สำหรับการวิเคราะห์แหล่งข้อมูลเบื้องหลังรายการบัญชีแยกประเภททั่วไปโดยละเอียด
-author: ShylaThompson
+author: rcarlson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1ab7cb7f8f9a42d5f311f8760ff2463055dc178
+ms.sourcegitcommit: f2dfec2f4c427e37a574e6acdfaaf150bc92ebb6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820942"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6661048"
 ---
 # <a name="accounting-source-explorer"></a>โปรแกรมตรวจดูบัญชีต้นทาง
 
@@ -46,8 +46,10 @@ ms.locfileid: "5820942"
 
 สำหรับเอกสารเหล่านี้ คุณสามารถหาเส้นทางไปยังเอกสารต้นทางที่แท้จริงจากโปรแกรมตรวจดูต้นทางบัญชี
 
-
-
-
+> [!NOTE]
+> ณ รุ่น 10.0.20 ปุ่ม **อัปเดต** จะมีช่วงเพิ่มเติมสองช่วงเพื่อจํากัดการสอบถามเริ่มต้นที่รันเพื่อป้อนข้อมูลบนหน้า ช่วงเพิ่มเติมเหล่านี้พร้อมใช้งานในรุ่น 10.0.19 เป็นการอัปเดตบริการด้วย จะมีการเพิ่มฟิลด์ต่อไปนี้:
+>
+> - จากใบสำคัญ ไปที่ใบสำคัญ
+> - จากบัญชีหลัก ไปที่บัญชีหลัก
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

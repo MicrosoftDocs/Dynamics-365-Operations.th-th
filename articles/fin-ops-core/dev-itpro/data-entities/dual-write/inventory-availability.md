@@ -4,24 +4,17 @@ description: หัวข้อนี้แสดงข้อมูลเกี�
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 175e1cc568ed027feee39eabfd9f08de6fe7f4b4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193418"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542648"
 ---
 # <a name="inventory-availability-in-dual-write"></a>ความพร้อมของสินค้าคงคลังในการรวมแบบสองทิศทาง
 
@@ -64,58 +57,12 @@ ms.locfileid: "6193418"
 - การร้องขอสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>เท็มเพลต
+
 เท็มเพลตต่อไปนี้มีให้ใช้งานกับข้อมูลของสินค้าคงคลังคงเหลือที่จัดการอยู่
 
-แอป Finance and Operations | แอป Customer Engagement | คำอธิบาย 
+แอป Finance and Operations | แอป Customer Engagement     | คำอธิบาย
 ---|---|---
-[รายการปริมาณสินค้าคงคลังคงเหลือของ CDS](#145) | msdyn_inventoryonhandentries |
-[คำขอปริมาณสินค้าคงคลังคงเหลือของ CDS](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>รายการสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandentries)
-
-เท็มเพลตนี้ซิงโครไนส์ข้อมูลระหว่างแอป Finance and Operations และ Dataverse
-
-ฟิลด์ Finance and Operations | ชนิดของการแม็ป | ฟิลด์ Customer Engagement | ค่าเริ่มต้น
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>การร้องขอสินค้าคงคลังคงเหลือของ CDS (msdyn_inventoryonhandrequests)
-
-เท็มเพลตนี้ซิงโครไนส์ข้อมูลระหว่างแอป Finance and Operations และ Dataverse
-
-ฟิลด์ Finance and Operations | ชนิดของการแม็ป | ฟิลด์ Customer Engagement | ค่าเริ่มต้น
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[รายการปริมาณสินค้าคงคลังคงเหลือของ CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[คำขอปริมาณสินค้าคงคลังคงเหลือของ CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

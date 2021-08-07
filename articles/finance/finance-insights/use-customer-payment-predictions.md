@@ -2,7 +2,7 @@
 title: ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
 description: หัวข้อนี้นำไปสู่ข้อกำหนดเบื้องต้นและขั้นตอนต่าง ๆ ที่จำเป็นในการใช้รุ่นทดลองของข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 873a11f3151344de63ee0b01b586ccbffe0df51b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 144de66678beea64b9f96239b519a19926d87ab5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355639"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638329"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้การคาดการณ์การชำระเงินของลูกค้า ก่อนที่คุณจะใช้คุณสมบัตินี้ โปรดตรวจสอบให้แน่ใจว่าคุณได้ดำเนินการขั้นตอนการตั้งค่าเสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติม โปรดดู [เปิดใช้งานการคาดการณ์การชำระเงินของลูกค้า](enable-cust-paymnt-prediction.md)
 

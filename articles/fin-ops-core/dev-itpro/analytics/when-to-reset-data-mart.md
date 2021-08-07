@@ -2,7 +2,7 @@
 title: คำถามที่ถามบ่อยเกี่ยวกับการรีเซ็ต Data Mart
 description: หัวข้อนี้แสดงคําตอบของบางคําถามที่ถามบ่อยเกี่ยวกับการรีเซ็ต Data Mart
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266620"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638278"
 ---
 # <a name="data-mart-resets-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการรีเซ็ต Data Mart
 
@@ -37,6 +37,9 @@ ms.locfileid: "6266620"
 
 - ฐานข้อมูลแอปพลิเคชันคืนค่า
 - คุณได้เปิดตั๋วการสนับสนุนและวิศวกรฝ่ายสนับสนุนแนะนำให้คุณสามารถรีเซ็ต Data Mart โดยเป็นส่วนหนึ่งของขั้นตอนการแก้ไขปัญหาเบื้องต้น
+ 
+> [!NOTE]
+> กระบวนการในการรีเซ็ต Data Mart จะได้รับผลกระทบจากจํานวนของบัญชีแยกประเภททั่วไปและธุรกรรมงบประมาณในฐานข้อมูลของคุณ คุณสามารถรีเซ็ต Data Mart ให้เสร็จสิ้นได้ภายใน 15 นาที หรืออาจใช้เวลาถึง 4 ชั่วโมง ทั้งนี้ขึ้นอยู่กับจํานวนธุรกรรมในระบบของคุณ อย่างไรก็ตาม ถ้าการรีเซ็ตของคุณใช้เวลานานกว่าสี่ชั่วโมง ขอแนะนำว่าคุณควรติดต่อฝ่ายสนับสนุน
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>เวลาใดที่การรีเซ็ต Data Mart ไม่เหมาะสม
 

@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350799"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542526"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>แก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริง
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse กล่าวคือ จะแสดงข้อมูลที่สามารถช่วยคุณแก้ไขปัญหาเกี่ยวกับการซิงโครไนส์ที่เริ่มใช้งานจริง
 
@@ -81,7 +79,7 @@ ms.locfileid: "6350799"
 
     ![การแม็ปองค์กร](media/mapped_business_unit.png)
 
-2. ลงชื่อเข้าใช้ในสภาพแวดล้อมในแอปที่เป็นแบบโมเดลใน Dynamics 365 นำทางไปยัง **การตั้งค่า \> การรักษาความปลอดภัย** และค้นหาทีมงานของหน่วยธุรกิจที่ถูกแม็ป
+2. ลงชื่อเข้าใช้ในสภาพแวดล้อมในแอปการมีส่วนร่วมของลูกค้า นำทางไปยัง **การตั้งค่า \> การรักษาความปลอดภัย** และค้นหาทีมงานของหน่วยธุรกิจที่ถูกแม็ป
 
     ![ทีมงานของหน่วยธุรกิจที่ถูกแม็ป](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ ms.locfileid: "6350799"
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**ไม่สามารถสร้างส่วนข้อความสำหรับเอนทิตี้ CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"การสร้างส่วนข้อความล้มเหลวโดยมีข้อผิดพลาด URI ที่ไม่ถูกต้อง: URI ว่างเปล่า"}\],"isErrorCountUpdated":true}*
 
-นี่คือลักษณะของข้อผิดพลาดในแอปที่เป็นแบบโมเดลใน Dynamics 365:
+นี่คือหน้าตาของข้อผิดพลาดในแอปการมีส่วนร่วมของลูกค้า:
 
 *เกิดข้อผิดพลาดที่ไม่คาดคิดจากรหัส ISV (ErrorType = ClientError) ข้อยกเว้นที่ไม่คาดคิดจากปลั๊กอิน (ดำเนินการ): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: ล้มเหลวในการประมวลผลบัญชีเอนทิตี้ - (ความพยายามในการเชื่อมต่อล้มเหลว เนื่องจากฝ่ายที่เชื่อมต่อไม่ได้ตอบสนองอย่างถูกต้องหลังจากระยะเวลาหนึ่ง หรือการเชื่อมต่อที่สร้างล้มเหลว เนื่องจากโฮสต์ที่เชื่อมต่อล้มเหลวในการตอบสนอง*
 
@@ -125,6 +123,5 @@ ms.locfileid: "6350799"
 
 3. ตรวจสอบให้แน่ใจว่าคอลัมน์ **externalenvironmentURL** มี Dataverse หรือ URL ของแอปที่ถูกต้อง ลบแถวที่ซ้ำกันใดๆ ที่ชี้ไปที่ URL Dataverse ที่ไม่ถูกต้อง ลบแถวที่สอดคล้องกันในตาราง DUALWRITEPROJECTFIELDCONFIGURATION และ DUALWRITEPROJECTCONFIGURATION
 4. หยุดการแม็ปตาราง แล้วเริ่มการทำงานใหม่
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

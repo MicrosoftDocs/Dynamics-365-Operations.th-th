@@ -2,7 +2,7 @@
 title: ภาพรวมของสแนปช็อต (ตัวอย่าง)
 description: หัวข้อนี้อธิบายถึงลักษณะการทำงานของสแนปช็อต ซึ่งช่วยให้คุณสามารถบันทึกการคาดการณ์กระแสเงินสดสำหรับการวิเคราะห์หรือการเปรียบเทียบกับค่าจริงได้ในภายหลัง เมื่อคุณสร้างการคาดการณ์กระแสเงินสด คุณสามารถบันทึกการคาดการณ์นั้นเป็น "สแนปช็อต" คุณสามารถใช้สแนปช็อตดังกล่าวเพื่อแก้ไขบัญชีที่รวมอยู่ในการคาดการณ์ หรือเปรียบเทียบการคาดการณ์ในสแนปช็อตเป็นจริงได้
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337219"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638355"
 ---
 # <a name="snapshots-overview-preview"></a>ภาพรวมของสแนปช็อต (ตัวอย่าง)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 สแนปช็อตช่วยให้องค์กรสามารถแก้ไขและบันทึกข้อมูลเกี่ยวกับตำแหน่งเงินสดและการคาดการณ์เงินสดได้ในเวลาเดียวกัน คุณสามารถเปรียบเทียบสแนปช็อตกับการเงินจริง ตรวจสอบผลต่า งและใช้ข้อมูลดังกล่าวเพื่อปรับปรุงการคาดการณ์กระแสเงินสดเมื่อเวลาผ่านไป เจาะจงมากขึ้น สแนปช็อตสามารถใช้ในลักษณะต่อไปนี้:
 

@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
 description: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d85677973f67f0c68de6c5ede62c142524939833
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 071523e2a1e9de6f0ed2b77e4ad6802efb0073f7
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054415"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558260"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
+# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้แสดงวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่จะใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้ 
+หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่สามารถใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ติดต่อส่วนบุคคลคือบุคคลที่ได้รับความคุ้มครองภายใต้แผนของคุณ (ผู้อยู่ในอุปการะ) หรือผู้ที่จะได้รับประโยชน์จากแผนของคุณ (ผู้รับผลประโยชน์) ผู้อยู่ในอุปการะมักเป็นคู่สมรสหรือบุตร ผู้รับผลประโยชน์สามารถเป็นคู่สมรส บุตร ผู้ไว้วางใจ หรือผู้ปกครอง
 
 1. ในพื้นที่ทำงาน **การจัดการสิทธิประโยชน์** ภายใต้ **การตั้งค่า** ให้เลือก **ตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล**
 
