@@ -14,17 +14,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353873"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638305"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>ตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์ให้ปรากฏเป็นตัวอย่างสี
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์เป็นตัวอย่างสีในศูนย์ควบคุม Microsoft Dynamics 365 Commerce สำหรับข้อมูลเกี่ยวกับมิติผลิตภัณฑ์ ให้ดูที่ [มิติผลิตภัณฑ์](../../supply-chain/pim/product-dimensions.md)
 

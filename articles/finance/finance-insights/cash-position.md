@@ -2,7 +2,7 @@
 title: ตำแหน่งเงินสด (พรีวิว)
 description: หัวข้อนี้จะอธิบายถึงวิธีที่คุณลักษณะของการคาดการณ์กระแสเงินสดจะคาดการณ์ตำแหน่งเงินสดขององค์กรสำหรับเวลาที่ระบุ นอกจากนี้ ยังอธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับการแสดงการคาดการณ์สำหรับรอบระยะเวลาที่แตกต่างกัน
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186503"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638763"
 ---
 # <a name="cash-position-preview"></a>ตำแหน่งเงินสด (พรีวิว)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ตำแหน่งเงินสดคือการคาดการณ์ของกระแสเงินสดที่เป็นการคาดการณ์สำหรับเงื่อนไขที่อยู่ใกล้ โดยขึ้นอยู่กับการคาดการณ์ของใบเสร็จรับเงินจากลูกค้าที่ชำระใบแจ้งหนี้และใบสั่งที่ค้างชำระ และยังขึ้นกับการเบิกจ่ายเงินสดของการคาดการณ์ที่มีการชำระเงินให้แก่ผู้จัดจำหน่ายสำหรับใบแจ้งหนี้และใบสั่งซื้อ
 

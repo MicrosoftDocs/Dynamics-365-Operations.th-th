@@ -2,7 +2,7 @@
 title: ภาพรวม
 description: คู่มือผู้ใช้ Dynamics 365 Human Resources จะให้คำแนะนำเกี่ยวกับการตั้งค่าทรัพยากรบุคคล ให้ตั้งค่าค่าตอบแทนและสวัสดิการสำหรับพนักงาน และการจัดการพนักงานของคุณ
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338065"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639521"
 ---
 # <a name="overview"></a>ภาพรวม
 
@@ -99,9 +99,10 @@ ms.locfileid: "6338065"
 [กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน](hr-leave-and-absence-enroll.md)</br>
 [แผนการลางานและการขาดงานคงค้าง](hr-leave-and-absence-accrue.md)</br>
 [ดูการวิเคราะห์สำหรับการลางานและการขาดงาน](hr-leave-and-absence-analytics.md)</br>
-[จัดการกับคำขอการลางานและการหยุดงาน](hr-employee-self-service-manage-requests.md)</br>
+[จัดการกับคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)</br>
 [ร้องขอการหยุดพัก](hr-employee-self-service-request-time-off.md)</br>
-[ดูปฏิทินของทีมและบริษัท](hr-employee-self-service-calendar.md)</br>
+[ดูปฏิทินของทีมงานและบริษัท](hr-employee-self-service-calendar.md)</br>
+[ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>พัฒนาพนักงาน
 
