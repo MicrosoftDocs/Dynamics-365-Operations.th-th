@@ -1,8 +1,8 @@
 ---
 title: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการเชื่อมต่อการรวมแบบสองทิศทาง จาก Microsoft Dynamics Lifecycle Services (LCS)
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729054"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 
@@ -66,5 +66,18 @@ ms.locfileid: "6359374"
 
 > [!NOTE]
 > คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และจากนั้น เลือก **ยกเลิกการเชื่อมโยง**
+
+## <a name="linking-mismatch"></a>การเชื่อมโยงไม่ตรงกัน
+
+คุณสามารถเชื่อมโยงสภาพแวดล้อม LCS กับอินสแตนซ์ Dataverse ใดอินสแตนซ์หนึ่งได้ ขณะที่สภาพแวดล้อมการรวมแบบสองทิศทางของคุณเชื่อมโยงกับอินสแตนซ์ Dataverse อื่น การเชื่อมโยงไม่ตรงกันอาจทําให้เกิดลักษณะการทํางานที่ไม่คาดคิด และอาจส่งข้อมูลไปยังสภาพแวดล้อมที่ไม่ถูกต้อง สภาพแวดล้อมแนะนำที่จะใช้กับการรวมแบบสองทิศทาง คือสภาพแวดล้อมที่สร้างขึ้นเป็นส่วนหนึ่งของการรวม Power Platform และระยะยาว การสภาพแวดล้อมนี้จะเป็นเพียงวิธีเดียวที่คุณจะสามารถสร้างการเชื่อมโยงระหว่างสภาพแวดล้อมต่างๆ ได้
+
+ถ้าสภาพแวดล้อมของคุณมีการเชื่อมโยงไม่ตรงกัน LCS จะแสดงคําเตือนในหน้ารายละเอียดสภาพแวดล้อมของคุณคล้ายกับ "Microsoft ตรวจพบว่าสภาพแวดล้อมของคุณได้รับการเชื่อมโยงกับผ่านการรวมแบบสองทิศทางไปยังปลายทางอื่นที่แตกต่างจากที่ระบุในการรวม Power Platform ซึ่งไม่แนะนำ":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="การเชื่อมโยงการรวม Power Platform ไม่ตรงกัน":::
+
+ถ้าคุณพบข้อผิดพลาดนี้ มีตัวเลือกสองตัวเลือก ตามความต้องการของคุณ
+
++ [ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อมการรวมแบบสองทิศทางใหม่ (รีเซ็ตหรือเปลี่ยนการเชื่อมโยง)](relink-environments.md#scenario-reset-or-change-linking) ตามที่ระบุบนหน้ารายละเอียดสภาพแวดล้อม LCS ของคุณ นี่เป็นตัวเลือกที่ดีที่สุด เนื่องจากคุณสามารถเรียกใช้โดยไม่ได้รับการสนับสนุนของ Microsoft  
++ ถ้าต้องการเก็บการเชื่อมโยงของคุณไว้ในการรวมแบบสองทิศทาง คุณสามารถขอความช่วยเหลือจาก Microsoft Support เพื่อเปลี่ยนการรวม Power Platform เพื่อใช้สภาพแวดล้อม Dataverse ที่มีอยู่ตามที่ได้บันทึกเอกสารในส่วนก่อนหน้านี้  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
