@@ -14,12 +14,12 @@ ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d36116b13b173319569f82ef794a15a335f3b44d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 73d87e65e5e17b9c494a7f10a8db2dcef2fe1158e57676732b37e1b69213d4aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778128"
 ---
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
