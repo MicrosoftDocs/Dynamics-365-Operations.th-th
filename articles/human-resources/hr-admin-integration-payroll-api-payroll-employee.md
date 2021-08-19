@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768202"
 ---
 # <a name="payroll-employee"></a>พนักงานในบัญชีเงินเดือน
 
@@ -33,27 +33,25 @@ ms.locfileid: "6538865"
 เอนทิตีนี้จะให้ข้อมูลเกี่ยวกับพนักงาน คุณต้องตั้งค่า [พารามิเตอร์การรวมระบบค่าจ้าง](hr-admin-integration-payroll-api-parameters.md) ก่อนที่จะใช้เอนทิตีนี้
 
 >[!IMPORTANT] 
->**FirstName** **MiddleName** **LastName** **NameValidFrom** และ **NameValidTo** จะไม่สามารถใช้งานได้บนเอนทิตีนี้อีกต่อไป ทั้งนี้เพื่อให้แน่ใจว่ามีแหล่งข้อมูลวันที่มีผลบังคับเพียงหนึ่งเท่านั้นที่สนับสนุนเอนทิตีนี้ ซึ่งเป็น **HcmEmployment** กับฟิลด์ **EmploymentStartDate** และ **EmploymentEndDate**
-
->ฟิลด์เหล่านี้จะพร้อมใช้งานบน **DirPersonNameHistoricalEntity** ซึ่งถูกนําออกใช้ในการปรับปรุงแพลตฟอร์ม 43 มีความสัมพันธ์ OData จาก **PayrollEmployeeEntity** ถึง **DirPersonNameHistoricalEntity** ในฟิลด์ **บุคคล** อีกทางหนึ่ง เอนทิตี **DirPersonNameHistoricalEntity** สามารถสอบถามโดยตรงผ่าน OData โดยใช้ชื่อสาธารณะ **PersonHistoricalNames**
-
+>ฟิลด์ **FirstName** **MiddleName** **LastName** **NameValidFrom** และ **NameValidTo** ไม่สามารถใช้งานได้บนเอนทิตีนี้อีกต่อไป สิ่งนี้ช่วยให้มั่นใจว่ามีแหล่งข้อมูลวันที่มีผลบังคับใช้เพียงแหล่งเดียว ที่กลับไปยังเอนทิตี้นี้
+>ฟิลด์เหล่านี้จะพร้อมใช้งานบน **DirPersonNameHistoricalEntity** ซึ่งถูกนําออกใช้ในการปรับปรุงแพลตฟอร์ม 43 มีความสัมพันธ์ OData จาก **PayrollEmployeeEntity** ถึง **DirPersonNameHistoricalEntity** ในฟิลด์ **บุคคล** 
 
 ## <a name="properties"></a>คุณสมบัติ
 
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
-| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | ต้องระบุ<br>ระบบสร้างขึ้น |  |
-| **รหัสนิติบุคคล**<br>mshr_legalentityID<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
-| **เพศ**<br>mshr_gender<br>[การกำหนดตัวเลือก mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | อ่านอย่างเดียว<br>ต้องระบุ | เพศของพนักงาน |
+| **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
+| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | อ่านอย่างเดียว<br>ระบบสร้างขึ้น |  |
+| **รหัสนิติบุคคล**<br>mshr_legalentityID<br>*สตริง* | อ่านอย่างเดียว | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
+| **เพศ**<br>mshr_gender<br>[การกำหนดตัวเลือก mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | อ่านอย่างเดียว | เพศของพนักงาน |
 | **รหัสเอนทิตีของพนักงานในบัญชีเงินเดือน**<br>mshr_payrollemployeeentityid<br>*GUID* | ต้องระบุ<br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงพนักงานเฉพาะ |
-| **วันที่เริ่มต้นการจ้างงาน**<br>mshr_employmentstartdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว<br>ต้องระบุ | วันที่เริ่มต้นของการจ้างงานของพนักงาน |
-| **รหัสชนิดการระบุรหัสประจำตัว**<br>mshr_identificationtypeid<br>*สตริง* |อ่านอย่างเดียว<br>ต้องระบุ | ชนิดรหัสที่กําหนดไว้ให้กับพนักงาน |
-| **วันที่สิ้นสุดการจ้างงาน**<br>mshr_employmentenddate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว<br>ต้องระบุ |วันที่สิ้นสุดของการจ้างงานของพนักงาน  |
-| **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid_id<br>*GUID* | ต้องระบุ <br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) |
-| **มีผลใช้ถึง**<br>mshr_namevalidto<br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว<br>ต้องระบุ | วันที่สิ้นสุดการมีผลบังคับของข้อมูลพนักงาน |
-| **วันเกิด**<br>mshr_birthdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันเกิดของพนักงาน |
-| **หมายเลขรหัส**<br>mshr_identificationnumber<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
+| **วันที่เริ่มต้นการจ้างงาน**<br>mshr_employmentstartdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่เริ่มต้นของการจ้างงานของพนักงาน |
+| **รหัสชนิดการระบุรหัสประจำตัว**<br>mshr_identificationtypeid<br>*สตริง* |อ่านอย่างเดียว | ชนิดรหัสที่กําหนดไว้ให้กับพนักงาน |
+| **วันที่สิ้นสุดการจ้างงาน**<br>mshr_employmentenddate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว |วันที่สิ้นสุดของการจ้างงานของพนักงาน  |
+| **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid_id<br>*GUID* | อ่านอย่างเดียว <br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) |
+| **มีผลใช้ถึง**<br>mshr_namevalidto<br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว | วันที่สิ้นสุดการมีผลบังคับของข้อมูลพนักงาน |
+| **วันเกิด**<br>mshr_birthdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันเกิดของพนักงาน |
+| **หมายเลขรหัส**<br>mshr_identificationnumber<br>*สตริง* | อ่านอย่างเดียว |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
 
 ## <a name="example-query-for-payroll-employee"></a>ตัวอย่างการสอบถามของพนักงานในบัญชีเงินเดือน
 
