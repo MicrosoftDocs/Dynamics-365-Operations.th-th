@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับรุ่น 10.0.21 (ตุลาคม 2021)
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platform update สำหรับรุ่น 10.0.20 (สิงหาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform update สำหรับ 10.0.19 (มิถุนายน 2021)
@@ -446,6 +448,8 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: สคริปต์ก่อนการปรับใช้และหลักการปรับใช้เอเจนต์ภายในเครื่อง
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: การตั้งค่าคอนฟิกการปรับใช้สําหรับเอเจนต์ภายในเครื่อง
+                      href: deployment/onprem-localagent-options.md
                     - name: อัปเดตเอเจนต์ภายในเครื่อง
                       href: lifecycle-services/update-local-agent.md
                 - name: การแก้ไขปัญหา
