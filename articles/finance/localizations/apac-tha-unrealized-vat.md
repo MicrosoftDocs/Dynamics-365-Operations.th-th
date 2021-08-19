@@ -16,12 +16,12 @@ ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d465457c064ef94781e9f6262247947c6f00ca3b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6484afce52422fa586c0311a2ba3667b9fafeced43587baa7eb6c829baf23da8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719702"
 ---
 # <a name="thailand-unrealized-and-realized-vat"></a>VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 
