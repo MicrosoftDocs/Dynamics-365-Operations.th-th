@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773307"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>เริ่มต้นใช้งานการบัญชีสินค้าคงคลังส่วนกลาง
 
@@ -42,7 +42,7 @@ ms.locfileid: "6336990"
 > [!IMPORTANT]
 > เมื่อต้องการใช้การบัญชีสินค้าคงคลังส่วนกลาง คุณต้องมีสภาพแวดล้อมความพร้อมใช้งานสูงที่เปิดใช้งาน LCS (ไม่ใช่สภาพแวดล้อม OneBox) นอกจากนี้ คุณต้องรัน Supply Chain Management รุ่น 10.0.19 หรือใหม่กว่าด้วย
 
-เมื่อต้องการลงทะเบียนตัวอย่างสาธารณะการบัญชีสินค้าคงคลังส่วนกลาง ให้ส่งรหัสสภาพแวดล้อม LCS ของคุณทางอีเมลไปยัง [ทีมงานการบัญชีสินค้าคงคลังส่วนกลาง](mailto:GlobalInventoryAccounting@service.microsoft.com) หลังจากที่คุณได้รับอนุมัติใช้โปรแกรมแล้ว ทีมงานจะส่งอีเมลติดตามผลที่มีคีย์รุ่นเบต้าของการบัญชีสินค้าคงคลังส่วนกลางและตำแหน่งข้อมูลบริการของคุณ หลังจากที่คุณได้รับคีย์รุ่นเบต้า คุณสามารถ [ติดตั้ง Add-in](#install)
+เมื่อต้องการลงทะเบียนตัวอย่างสาธารณะการบัญชีสินค้าคงคลังส่วนกลาง ให้ส่งรหัสสภาพแวดล้อม LCS ของคุณทางอีเมลไปยัง [ทีมงานการบัญชีสินค้าคงคลังส่วนกลาง](mailto:GlobalInvAccount@microsoft.com) หลังจากที่คุณได้รับอนุมัติใช้โปรแกรมแล้ว ทีมงานจะส่งอีเมลติดตามผลที่มีคีย์รุ่นเบต้าของการบัญชีสินค้าคงคลังส่วนกลางและตำแหน่งข้อมูลบริการของคุณ หลังจากที่คุณได้รับคีย์รุ่นเบต้า คุณสามารถ [ติดตั้ง Add-in](#install)
 
 ## <a name="licensing"></a>การให้ลิขสิทธิ์
 
