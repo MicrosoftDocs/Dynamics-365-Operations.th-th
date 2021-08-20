@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 26 กรกฎาคม 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12 กรกฎาคม 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22 มิถุนายน 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21 มกราคม 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2 ธันวาคม 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22 ตุลาคม 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6 ตุลาคม 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26 กันยายน 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16 กันยายน 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3 กันยายน 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20 สิงหาคม 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6 สิงหาคม 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23 กรกฎาคม 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8 กรกฎาคม 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25 มิถุนายน 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11 มิถุนายน 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28 พฤษภาคม 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14 พฤษภาคม 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1 พฤษภาคม 2020
-          href: hr-whats-new-2020-05-01.md
         - name: ข้อมูลเก็บถาวร 2020 มีอะไรใหม่
           items:
+            - name: 2 ธันวาคม 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22 ตุลาคม 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6 ตุลาคม 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26 กันยายน 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16 กันยายน 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3 กันยายน 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20 สิงหาคม 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6 สิงหาคม 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23 กรกฎาคม 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8 กรกฎาคม 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25 มิถุนายน 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11 มิถุนายน 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28 พฤษภาคม 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14 พฤษภาคม 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1 พฤษภาคม 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13 เมษายน 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3 เมษายน 2020
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: คำขอการลางาน
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: เอนทิตี้ที่เกี่ยวข้องกับสวัสดิการ
+              items:
+                - name: แผนสวัสดิการของผู้ปฏิบัติงานในบัญชีเงินเดือน
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: ชุดตัวเลือก
               items:
                 - name: เพศ
@@ -483,6 +489,10 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: ชนิดของกระบวนการ
                   href: hr-admin-integration-payroll-api-process-type.md
+                - name: ความครอบคลุมของชนิดแผนสวัสดิการ
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: สถานะของแผนสวัสดิการพนักงาน
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
     - name: คู่มือผู้ใช้
       items:
         - name: ภาพรวม

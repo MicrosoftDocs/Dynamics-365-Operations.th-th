@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760525"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.17 (เมษายน 2021)
 
@@ -52,6 +52,8 @@ ms.locfileid: "5935616"
 - [ต้นทุนแฝง](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โมดูลต้นทุนแฝง](../landed-cost/landed-cost-overview.md)
 
 - [การจัดส่งเทียบกับมิติการจัดเก็บ](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่ามิติต่าง ๆ ของการบรรจุและการจัดเก็บ](../warehousing/packing-vs-storage-dimensions.md)
+
+- [การปันส่วนเวฟแบบขนาน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/parallel-wave-allocation)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การปันส่วนเวฟ](../warehousing/wave-allocation-method.md)
 
 - [มุมมองที่บันทึกไว้ของสินค้าคงคลังและโลจิสติกส์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มุมมองที่บันทึกไว้แบบมาตรฐานของ Supply Chain Management](saved-views-scm.md)
 
