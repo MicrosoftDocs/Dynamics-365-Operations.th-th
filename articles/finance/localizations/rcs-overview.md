@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358133"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012024"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ RCS ให้ความสามารถต่อไปนี้:
 
 - **ลงชื่อสมัคร** หากคุณเป็นผู้ใช้ครั้งแรกของบริการ และคุณใช้ที่อยู่อีเมลธุรกิจเพื่อเตรียมใช้งานสภาพแวดล้อมบริการขององค์กร
 - **เข้าสู่ระบบ** ถ้าคุณเคยลงชื่อสมัครใช้บริการแล้วก่อนหน้านี้ และคุณต้องการเข้าถึงสภาพแวดล้อมขององค์กร
+
+> [!NOTE] 
+> หลังจากที่คุณลงชื่อสมัคร เราขอแนะนาให้คุณเพิ่มผู้ใช้ SysAdmin เพิ่มเติมในสภาพแวดล้อม RCS ผู้ใช้รายนี้จะถูกเตรียมใช้งานเป็นผู้ดูแลระบบร่วมของสภาพแวดล้อม โดยจะช่วยให้มั่นใจถึงเสถียรภาพในการเข้าถึงสภาพแวดล้อม RCS ได้ เนื่องจากบทบาท SysAdmin คือการจัดการผู้ใช้ให้กับสภาพแวดล้อมนั้น คุณสามารถเพิ่มผู้ใช้โดยใช้ **พื้นที่ทำงาน RCS > การจัดการระบบ**
 
 ## <a name="regional-availability"></a>ความพร้อมของภูมิภาค
 
