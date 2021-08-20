@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748483"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -229,7 +229,7 @@ ms.locfileid: "6359040"
     1. [สร้าง](er-quick-start2-customize-report.md#DeriveProvidedFormat) รูปแบบ ER **ใบแจ้งหนี้ข้อความอิสระ (Excel) ที่กำหนดเอง** ที่สืบทอดมาโดยยึดตามรูปแบบ ER ตัวอย่าง
     2. เพิ่มส่วนประกอบ **สตริง** คู่แรกคู่ใหม่สำหรับส่วนประกอบ **ส่วนท้าย** ของแผ่นงาน **ใบแจ้งหนี้** 
 
-        1. เพิ่มส่วนประกอบ **สตริง** ที่จัดเรียงชื่อบริษัทไว้ทางด้านซ้ายและแสดงเป็นแบบอักษร "Segoe UI Regular&quot; ขนาด 8 พอยท์ (**&quot;&L&&quot;Segoe UI,Regular&quot;&8")**
+        1. เพิ่มส่วนประกอบ **สตริง** ที่จัดเรียงชื่อบริษัทไว้ทางด้านซ้ายและแสดงเป็นแบบอักษร "Segoe UI Regular" ขนาด 8 พอยท์ (**"&L&"Segoe UI,Regular"&8")**
         2. เพิ่มส่วนประกอบ **สตริง** ที่กรอกในชื่อบริษัท (**model.InvoiceBase.CompanyInfo.Name)**
 
     3. เพิ่มส่วนประกอบคู่ที่สองของ **สตริง** สำหรับส่วนประกอบ **ส่วนท้าย** ของแผ่นงาน **ใบแจ้งหนี้** 

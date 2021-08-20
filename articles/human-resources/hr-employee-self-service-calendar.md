@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744237"
 ---
 # <a name="view-team-and-company-calendars"></a>ดูปฏิทินของทีมและบริษัท
 
@@ -47,7 +47,7 @@ ms.locfileid: "6639401"
 
 ผู้ใช้ในบทบาทผู้จัดการฝ่ายการขาดงานสามารถดูคำขอการลาหยุดในปฏิทินได้ ให้ปฏิบัติตามขั้นตอนเหล่านี้ในการเข้าถึงปฏิทินการลาหยุด
 
-1. ในพื้นที่ทำงาน **ระบบพนักงานบริการตนเอง** ให้เลือก **ผู้จัดการฝ่ายการขาดงาน** และจากนั้น **ปฏิทินผู้จัดการฝ่ายการขาดงาน**
+1. ในพื้นที่ทำงาน **ระบบพนักงานบริการตนเอง** ให้เลือก **การจัดการการลางาน** และจากนั้น **ปฏิทินผู้จัดการด้านการลาหยุด**
 
 2. ในฟิลด์ **วันที่** ให้ป้อนวันที่ที่ต้องการ
 
