@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823298"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712873"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -42,7 +42,7 @@ ms.locfileid: "5823298"
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *รหัสขั้นตอนของเวฟทั่วทั้งองค์กร*
 
-## <a name="setup"></a>การตั้งค่า
+## <a name="setup"></a>ตั้งค่า
 
 สำหรับการสาธิตนี้ จะมีการใช้ข้อมูล Contoso มาตรฐานและคลังสินค้า *62* นอกจากนี้ ยังมีการใช้ส่วนเพิ่มเติมบางอย่างที่บันทึกไว้ในภายหลังด้วย
 
