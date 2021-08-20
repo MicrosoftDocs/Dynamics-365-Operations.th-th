@@ -72,6 +72,8 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (ตุลาคม 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (สิงหาคม 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (มิถุนายน 2021)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: เปิดเท็มเพลตสมุดรายวันทางการเงินใน Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: ทำไมใดฉันจึงไม่สามารถกลับรายการธุรกรรมนี้
+                  href: general-ledger/cant-reverse-transctns.md
         - name: การรายงานทางการเงิน
           items:
             - name: เริ่มต้นใช้งานการรายงานทางการเงิน
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: สร้างคุณลักษณะการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ใหม่
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: ใช้บริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจําหน่าย
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: เริ่มต้นใช้งานการคํานวณภาษี
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดภาษีขาย
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: การคํานวณภาษีด้านบนราคาเมื่อเปิดใช้งานราคารวมภาษี
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
@@ -1524,10 +1536,14 @@
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: หมายเลขทะเบียน VAT หลายหมายเลข
                       href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: การรายงานการลงทะเบียน VAT หลายรายการ
+                    - name: การรายงานทะเบียน VAT หลายรายการ
                       items:
-                        - name: การรายงานการลงทะเบียน VAT หลายรายการ
+                        - name: การรายงานทะเบียน VAT หลายรายการ
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: การรายงานของฝรั่งเศส
+                          items:
+                            - name: การรายงานภาษี VAT
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: การรายงานของเนเธอร์แลนด์
                           items:
                             - name: การรายงานภาษี VAT
@@ -1544,6 +1560,8 @@
               items:
                 - name: ภาพรวมของออสเตรเลีย
                   href: localizations/australia.md
+                - name: รูปแบบไฟล์ธนาคารสําหรับธนาคารของออสเตรเลีย
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: แบบรายงานกิจกรรมทางธุรกิจ (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: เพิ่มกล่องรายงานและสร้าง BAS
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: ตั้งค่ารหัสเหตุผลสำหรับ BAS
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: เค้าร่างการรายงานจำนวนครั้งการชําระเงิน
+                  href: localizations/apac-aus-payment-times-report.md
             - name: ออสเตรีย
               items:
                 - name: ภาพรวมของออสเตรีย
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: การเลือกกลุ่มบัญชีสําหรับชนิดใบสําคัญภาษาจีน
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: การเปรียบเทียบสูตรการผลิต
                   href: localizations/apac-chn-bom-comparison.md
                 - name: ลำดับชั้นภาษาจีนสำหรับผังบัญชี
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: การรายงานภาษี VAT (สาธารณรัฐเช็ก)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: สัญลักษณ์ธนาคารสําหรับบัญชีธนาคาร
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: VAT ภายในประชาคม
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: การปิดบัญชีสิ้นปี
                   href: localizations/emea-cze-hun-year-end.md
             - name: เดนมาร์ก
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: สร้างการรายงานภาษีอินทราสแทตใน EU
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: อินทราสแทตภาษาฝรั่งเศส
-                      href: localizations/emea-fra-intrastat.md
-                    - name: อินทราสแทตภาษาอิตาลี
-                      href: localizations/emea-ita-intrastat.md
                 - name: รายงานสมุดรายวันสินค้าคงคลัง
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: ตั๋วแลกเงินและตั๋วสัญญาใช้เงินของฝรั่งเศส
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: อินทราสแทตภาษาฝรั่งเศส
+                  href: localizations/emea-fra-intrastat.md
                 - name: รหัส NAF และหมายเลข Siret
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: ตั้งค่ารหัส NAF และหมายเลข Siret
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: อัปเดตวิธีการชำระเงินของลูกค้า
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: รายงาน DAS-2
                   href: localizations/emea-fra-das2-report.md
             - name: เยอรมนี
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: อินทราสแทตภาษาเยอรมัน
+                  href: localizations/emea-deu-intrastat.md
                 - name: การรายงานภาษี VAT สำหรับเยอรมนี
                   href: localizations/emea-de-vat-declaration.md
                 - name: รายงานใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้า
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: พิมพ์ป้ายกำกับที่แยกต่างหากสำหรับบันทึกลดหนี้ที่เริ่มจากการขาย
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: ฮังการี
               items:
                 - name: ภาพรวมของฮังการี
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: การปรับปรุงการใช้ข้อมูลของธนาคาร
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: อินทราสแทตภาษาอิตาลี
+                  href: localizations/emea-ita-intrastat.md
                 - name: ค่าธรรมเนียมเบ็ดเตล็ดต่อกิโลกรัมในการรายงานภาษีอินทราสแทต
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: หนังสือแสดงเจตนา - ผู้ส่งออกปกติที่ออกใบแจ้งหนี้
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: ไฟล์การตรวจสอบมาตรฐานสำหรับภาษี (SAF-T) สำหรับลิทัวเนีย
                   href: localizations/emea-ltu-saf-t.md
+                - name: ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: มาเลเซีย
               items:
                 - name: ภาพรวมของมาเลเซีย
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: แบ่งความแตกต่างของการแลกเปลี่ยนบัญชีเจ้าหนี้/บัญชีลูกหนี้
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: ตั้งค่าและใช้รหัส PKWiU สําหรับโปแลนด์
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'การรายงานภาษี VAT ที่มีทะเบียน (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: จัดเตรียมการรายงาน JPK-V7M
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: การรายงาน JPK-V7M
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: รายละเอียดของสถานการณ์ทางธุรกิจเฉพาะในรายงาน JPK-V7M
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'ภาพรวมการรายงานภาษี VAT ที่มีทะเบียน (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: จัดเตรียมการรายงาน JPK-V7M
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: การรายงาน JPK-V7M
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: รายละเอียดของสถานการณ์ทางธุรกิจเฉพาะในรายงาน JPK-V7M
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: กาตาร์
               items:
                 - name: ภาพรวมของกาตาร์
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: การบัญชีของภาษี
                   items:
+                    - name: สร้างทะเบียนภาษีและสมุดรายวันทะเบียนภาษี
+                      href: localizations/rus-profit-tax-registers.md
                     - name: รหัสค่าใช้จ่ายและรายได้
                       href: localizations/rus-expense-and-income-codes.md
                     - name: ทะเบียนภาษีสินทรัพย์
@@ -3216,13 +3256,17 @@
                       href: localizations/rus-bad-debts.md
                     - name: การคํานวณของทะเบียนสินทรัพย์ภาษีและภาระภาษี
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: ทะเบียนภาษีการเคลื่อนย้ายสินค้า
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: ทะเบียนภาษีอื่นๆ
+                      href: localizations/rus-other-tax-registers.md
             - name: ซาอุดีอาระเบีย
               items:
                 - name: ภาพรวมของซาอุดีอาระเบีย
                   href: localizations/saudi-arabia.md
                 - name: ภาษีขาย
                   href: localizations/apac-sau-sales-tax.md
-                - name: การรายงาน Zakat สำหรับซาอุดีอาระเบีย
+                - name: การรายงาน Zakat สำหรับซาอุดิอาระเบีย
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: ปันส่วนค่าธรรมเนียมเอกสารธนาคารสำหรับการจัดส่ง
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: รายงาน VAT ขาย
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: VAT โดยเฉลี่ยสำหรับธุรกรรมการซื้อ
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: ภาษีหัก ณ ที่จ่าย
                   href: localizations/apac-tha-withholding-tax.md
             - name: สหรัฐอาหรับเอมิเรตส์ (UAE)

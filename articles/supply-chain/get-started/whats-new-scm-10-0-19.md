@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773548"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.19 (มิถุนายน 2021)
 
@@ -35,6 +35,7 @@ ms.locfileid: "6641139"
 
 | พื้นที่คุณลักษณะ | ลักษณะการทำงาน | ข้อมูลเพิ่มเติม |
 |---|---|---|
+| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [อนุมัติและบันทึกรายละเอียดธนาคารที่ผู้จัดจำหน่ายส่ง](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [รักษาข้อมูลบัญชีธนาคารของผู้จัดจำหน่าย](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | สินค้าคงคลังและลอจิสติกส์ | [การเพิ่มประสิทธิภาพการส่งออกเอนทิตี้ข้อมูลบุคคลที่ติดต่อ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | เมื่อเปิดใช้งานคุณลักษณะนี้ การเปลี่ยนแปลงของข้อมูลอ้างอิงจะไม่ทําให้ผู้ติดต่อ (หรือรายการ) ที่เกี่ยวข้องรวมอยู่ในการส่งออกส่วนเพิ่มถัดไป เมื่อปิดใช้งานคุณลักษณะนี้ การเปลี่ยนแปลงของข้อมูลอ้างอิงจะทําให้ผู้ติดต่อ (หรือรายการ) ที่เกี่ยวข้องรวมอยู่ในการส่งออกส่วนเพิ่มถัดไป |
 | สินค้าคงคลังและลอจิสติกส์ | [การปรับปรุงส่วนเพิ่มสำหรับความสามารถในการดำเนินงานคลังสินค้าที่มีสเกลยูนิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[ข้อความตัวประมวลผลข้อความ](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[การปรับปรุงสินค้าคงคลังของคลังสินค้า](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | สินค้าคงคลังและลอจิสติกส์ | [ฟังก์ชันการค้นหาเกี่ยวกับฟิลด์บทนําของเอกสารและบทสรุปของเอกสารในหน้าใบเสนอราคาขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | คุณลักษณะนี้เพิ่มฟังก์ชันการค้นหาเกี่ยวกับฟิลด์ **บทนําของเอกสาร** และ **บทสรุปของเอกสาร** ในหน้า **ใบเสนอราคาขาย**<br><br>คุณลักษณะนี้จะไม่เปิดใช้งานโดยค่าเริ่มต้น |
