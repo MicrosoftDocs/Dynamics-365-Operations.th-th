@@ -13,12 +13,12 @@ ms.search.region: Thailand
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 13f8e8902006902f23291eb6e7e3894abe96b1b4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fab3461b380e74b0b1a21305d29c66ce533688b1f44f616be96ad02c470920e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745736"
 ---
 # <a name="substitutionadjustment-tax-invoices-for-thailand"></a>ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 

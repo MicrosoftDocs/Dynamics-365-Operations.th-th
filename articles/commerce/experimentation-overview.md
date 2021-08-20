@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7641267321e1c97b3f0fa30a97c0519c76fe1b0c0223bdd196b6791d5de7cd8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747452"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>การทดสอบใน Dynamics 365 Commerce
 ใช้การทดสอบ Dynamics 365 Commerce เพื่อตรวจสอบความถูกต้องของสมมติฐานเกี่ยวกับประสิทธิภาพของหน้าอีคอมเมิร์ซของคุณ และตัดสินใจด้วยความมั่นใจที่ขับเคลื่อนด้วยข้อมูล Commerce จะสนับสนุนการทดสอบ A/B บนหน้า โมดูล และส่วนต่างๆ และช่วยให้คุณสามารถประเมินผลของการเปลี่ยนแปลงที่นำเสนอไปยังเว็บไซต์ของคุณได้
