@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: เปิดเท็มเพลตสมุดรายวันทางการเงินใน Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: การลงรายการบัญชีสมุดรายวันล้มเหลวเนื่องจากความไม่สมดุล
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: ทำไมใดฉันจึงไม่สามารถกลับรายการธุรกรรมนี้
                   href: general-ledger/cant-reverse-transctns.md
         - name: การรายงานทางการเงิน
@@ -1482,7 +1484,27 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
-                - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
+                - name: การออกใบแจ้งหนี้อิเล็กทรอนิกส์
                   items:
                     - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
@@ -1520,40 +1542,56 @@
                   items:
                     - name: ภาพรวมการคำนวณภาษี
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: เริ่มต้นใช้งานการคํานวณภาษี
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดภาษีขาย
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: การคํานวณภาษีด้านบนราคาเมื่อเปิดใช้งานราคารวมภาษี
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: หมายเลขทะเบียน VAT หลายหมายเลข
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: การรายงานทะเบียน VAT หลายรายการ
+                    - name: ตั้งค่า
                       items:
+                        - name: เริ่มต้นใช้งานการคํานวณภาษี
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: การกำหนด
+                      items:
+                        - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดภาษีขาย
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: การคำนวณ
+                      items:
+                        - name: คํานวณภาษีในราคาเมื่อเปิดใช้งานราคารวมภาษี
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: กฎการปัดเศษการคํานวณภาษี
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: ทะเบียน VAT หลายรายการ
+                      items:
+                        - name: หมายเลขทะเบียน VAT หลายหมายเลข
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: การรายงานทะเบียน VAT หลายรายการ
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: การรายงานของฝรั่งเศส
                           items:
                             - name: การรายงานภาษี VAT
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: การรายงานของเนเธอร์แลนด์
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: รายการขายใน EU
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: การรายงานของสวิตเซอร์แลนด์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: การรายงานของสหราชอาณาจักร
                           items:
                             - name: เตรียมการสำหรับการรวมกับการทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: เปิดใช้งานการคํานวณภาษีในใบสั่งโอนย้าย
+                      items:
+                        - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: ส่วนขยาย
+                      items:
+                        - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ออสเตรเลีย
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 – การอัปเดตเค้าโครงและการตรวจสอบความถูกต้องในเอกสารทางการเงินอิเล็กทรอนิกส์ (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – แพลตฟอร์มดิจิทัลการขายผ่านตัวกลางสำหรับ NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - สิทธิประโยชน์ด้านภาษีและกฎการยกเว้นสำหรับ NF-e/NFC-e
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: ธุรกรรมภาษี
                           items:
-                            - name: GST TDS ในการชำระเงินสำหรับสินค้าและบริการ
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: ธุรกรรมการซื้อ
                               items:
                                 - name: การซื้อจากผู้จัดจำหน่ายที่ไม่ได้ลงทะเบียน
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: การชำระเงินล่วงหน้าของผู้จัดจำหน่ายที่มีการเก็บภาษีย้อนกลับ
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: GST TDS ในการชำระเงินสำหรับสินค้าและบริการ
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: GST TCS ในการชำระเงินสำหรับสินค้าและบริการ
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: ธุรกรรมการขาย
                               items:
                                 - name: การขายสินค้าที่ต้องเสียภาษีให้ผู้บริโภค
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: โอนย้ายสินทรัพย์ถาวร
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: แบบฟอร์มการพิมพ์โดยรวมสำหรับสินทรัพย์ถาวร
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: การสอบถามและรายงาน
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: สินทรัพย์ถาวรที่ไม่มีมูลค่าและเสื้อผ้าสำหรับทำงาน
                       items:
                         - name: สินทรัพย์ถาวรที่ไม่มีมูลค่า (NVFA) (รัสเซีย)
                           href: localizations/rus-not-valuable-assets.md
                         - name: การบัญชีเกี่ยวกับเสื้อผ้าสำหรับทำงาน/เครื่องแต่งกายพิเศษ (รัสเซีย)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: แบบฟอร์มการพิมพ์โดยรวมสำหรับสินทรัพย์ถาวร
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: บัญชีเจ้าหนี้และบัญชีลูกหนี้
                   items:
                     - name: การแก้ไขใบลดหนี้ (รัสเซีย)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: การเรียกเก็บเงินผ่านคิวอาร์โค้ดของสวิส
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: ไทย
               items:
                 - name: ภาพรวมของไทย
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: คุณลักษณะที่ใช้ทั่วโลกใน RCS
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
-                      items:
-                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: ที่เก็บส่วนกลาง (GR)
-                      items:
-                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: เปิดข้อมูลเอนทิตี้ใน Excel และอัปเดตโดยใช้ Add-in ของ Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: สร้างประสบการณ์เปิดใน Excel
+            - name: คำถามที่ถามบ่อยเกี่ยวกับประสบการณ์การเปิดใน Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: เพิ่มเท็มเพลตไปยังเมนูเปิดรายการใน Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

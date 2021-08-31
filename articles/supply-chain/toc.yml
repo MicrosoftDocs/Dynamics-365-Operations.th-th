@@ -222,7 +222,27 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Supply Chain Management
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การออกใบแจ้งหนี้อิเล็กทรอนิกส์
                   items:
                     - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: คุณลักษณะที่ใช้ทั่วโลกใน RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Supply Chain Management
-                      items:
-                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ที่เก็บส่วนกลาง (GR)
-                      items:
-                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
@@ -1574,7 +1570,19 @@
             - name: เก็บถาวรธุรกรรมของสินค้าคงคลัง
               href: inventory/archive-inventory-transactions.md
             - name: Add-in การแสดงผลสินค้าคงคลัง
-              href: inventory/inventory-visibility.md
+              items:
+                - name: ภาพรวมของ Add-in การแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility.md
+                - name: ตั้งค่าการแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility-setup.md
+                - name: ตั้งค่าคอนฟิกการแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility-configuration.md
+                - name: การจองในการแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility-reservations.md
+                - name: แอปเสริมความสามารถการแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: API สาธารณะสำหรับการแสดงผลสินค้าคงคลัง
+                  href: inventory/inventory-visibility-api.md
         - name: เครื่องมือ IoT
           items:
             - name: โฮมเพจเครื่องมือ IoT
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: ความแตกต่างระหว่างการวางแผนหลักในตัวและการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: พารามิเตอร์ที่ไม่ได้ใช้โดยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: ใช้ตัวกรองกับแผน
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: เปิดข้อมูลเอนทิตี้ใน Excel และอัปเดตโดยใช้ Add-in ของ Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สร้างประสบการณ์เปิดใน Excel
+            - name: คำถามที่ถามบ่อยเกี่ยวกับประสบการณ์การเปิดใน Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: เพิ่มเท็มเพลตไปยังเมนูเปิดรายการใน Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: สร้างคำขอใบเสนอราคา
                   href: procurement/tasks/create-request-quotation.md
-                - name: การประมูลแบบเปิดสำหรับ RFQ
-                  href: procurement/sealed-bidding.md
                 - name: สร้างใบขอซื้อที่ใช้ RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: สร้างวิธีการให้คะแนนสำหรับ RFQ
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: การรองรับบาร์โค้ดบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mobile-barcode-support.md
                     - name: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: แก้ไขปัญหาการเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: ปรับแต่งชื่อขั้นตอนและคําแนะนําสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: การรับป้ายทะเบียนผ่านแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
                   href: warehousing/warehouse-app-events.md
-                - name: ปรับแต่งแอปคลังสินค้า
+                - name: ขยายกระบวนการคลังสินค้าบนอุปกรณ์เคลื่อนที่
                   items:
                     - name: กรอบงานคู่มือกระบวนการ
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: การรองรับบาร์โค้ดบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/mobile-barcode-support.md
+                    - name: บาร์โค้ดและคิวอาร์โค้ด GS1
+                      href: warehousing/gs1-barcodes.md
                     - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
                       href: warehousing/transfer-orders-warehouse.md
                     - name: การแก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า

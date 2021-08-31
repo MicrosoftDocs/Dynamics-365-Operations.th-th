@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: เรียกสถานะกิจกรรมการดำเนินงาน
                       href: database/api/v1/reference-get-status.md
-                    - name: เริ่มต้นและหยุดสภาพแวดล้อม
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: ข้อมูลสาธิต
           items:
             - name: ภาพรวมของข้อมูลสาธิต
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: ความต่อเนื่องของธุรกิจและการกู้คืนจากความเสียหาย
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: ทำให้การเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
+                - name: ทำให้กระบวนการเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
                   href: deployment/arm-onboarding.md
+                - name: ทำให้กระบวนการเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์สำหรับโครงการ LCS ของรัฐบาลสหรัฐอเมริกา
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute และ Finance and Operations
                   href: deployment/expressroute.md
                 - name: สถาปัตยกรรม Finance and Operations
@@ -852,7 +852,7 @@
                       href: extensibility/breaking-changes.md
                     - name: เครื่องมือตรวจสอบความเข้ากันได้
                       href: extensibility/compatibility-checker-tool.md
-            - name: ผลการปฏิบัติงาน
+            - name: ประสิทธิภาพการทำงาน
               items:
                 - name: ติดตามโดยใช้ Trace parser
                   href: perf-test/trace-trace-tutorial.md
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS สำหรับคู่ค้า
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: เริ่มต้นและหยุดสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: ดึงข้อมูลข้อมูลเมตาของสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: ดึงข้อมูลประวัติสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: ดึงข้อมูลรหัสไปรษณีย์ใบรับรอง RSAT ของสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: คู่มือผู้ใช้ Lifecycle Services
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: การแก้ไขปัญหา
                       items:
-                        - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: การแก้ไขปัญหาทั่วไป
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: แก้ไขปัญหาระหว่างการซิงโครไนส์เริ่มแรก
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: แก้ไขปัญหาการซิงโครไนส์แบบสด
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: แก้ไขปัญหาสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: แก้ไขปัญหาที่เกี่ยวข้องกับการรับรู้โซลูชัน
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: แก้ไขปัญหาจากการอัปเกรดแอป Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: การแก้ไขปัญหาทั่วไป
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
                   href: data-entities/dual-write/dual-write-faq.md
             - name: เอนทิตี้เสมือน
