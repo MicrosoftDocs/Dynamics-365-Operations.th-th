@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763105"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402384"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>แค็ตตาล็อกการเรียนรู้ของที่ปรึกษาด้านการทำงานของ Dynamics 365 Finance
 
@@ -34,6 +34,7 @@ ms.locfileid: "6763105"
 | [เรียนรู้มูลค่าทางธุรกิจของ Microsoft Dynamics 365 และ Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? บางทีคุณอาจไม่ทราบว่าจะเริ่มต้นด้วยแอพลิเคชัน Microsoft Dynamics 365 และแอพลิเคชัน Power Platform ที่ใด เรียนรู้ว่าแอพลิเคชัน power of business สามารถช่วยเปลี่ยนธุรกิจของคุณได้อย่างไร | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 7 ชั่วโมง |
 | [Dynamics 365 และ Power Platform พื้นฐาน](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? เริ่มต้นด้วยพาธการเรียนรู้นี้เพื่อดูว่ามีการใช้แอป Dynamics 365 อย่างไร เรียนรู้เกี่ยวกับแนวคิดคลาวด์ Power Platform และวิธีการเริ่มต้นด้วยแอป Dynamics 365 | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 5.5 ชั่วโมง |
 | [เริ่มต้นใช้งานแอป Finance and Operations](/learn/paths/get-started-finance-operations/) | เรียนรู้วิธีที่แอป Finance and Operations สนับสนุนธุรกิจเพื่อจัดการระบบทางการเงินส่วนกลาง กระบวนการทางธุรกิจการดำเนินงาน และห่วงโซ่อุปทานที่มีประสิทธิภาพ เพื่อให้ผู้ใช้สามารถตัดสินใจอย่างรอบคอบได้อย่างรวดเร็ว ขั้นตอนแรกในอาชีพของคุณในการทำงานกับแอป Finance and Operations คุณต้องทำความคุ้นเคยกับคุณลักษณะและฟังก์ชัน ไม่ว่าบทบาทที่ต้องการของคุณคืออะไรก็ตาม | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 2 ชั่วโมง |
+| [เริ่มต้นใช้งาน Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | ด้วย Dynamics 365 Intelligent Order Management ลูกค้าสามารถจัดการบริหารใบสั่งผ่านการเติมสินค้าได้ ความสามารถเหล่านี้ช่วยให้องค์กรสามารถจัดระเบียบขั้นตอนของใบสั่งข้ามแพลตฟอร์มและแอปต่างๆ ได้ | การเรียนรู้โมดูลออนไลน์ด้วยตนเองฟรี | 30 นาที |
 | [ก่อนที่คุณจะซื้อ](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | ตรวจดูคำแนะนำทีละขั้นตอน ไม่ว่าคุณจะยังคงกำลังประเมิน Finance and Operations หรือพร้อมที่จะทำการซื้อก็ตาม | การจัดทำเอกสารประกอบ | |
 | [แผนการรีลีส](/dynamics365/release-plans/) | เรียนรู้เกี่ยวกับความสามารถและการปรับปรุงล่าสุดใน Dynamics 365 | เอกสารประกอบ | |
 
@@ -41,6 +42,7 @@ ms.locfileid: "6763105"
 
 | ปริมาณความจุ  | คำอธิบาย | รูปแบบ  | ความยาว    |
 |----------|-------------|---------|-----------|
+| [ใช้โซลูชัน Success by Design for Dynamics 365](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 ได้รับการออกแบบเพื่อช่วยให้ลูกค้าและคู่ค้าได้รับการปรับใช้โซลูชัน Dynamics 365 อย่างประสบความสาเร็จ เมื่อต้องการจัดส่งบริการนี้ สถาปนิกโซลูชันควรใช้ Success by Design พาธการเรียนรู้นี้จะอธิบายถึงแนวคิด Success by Design | การเรียนรู้โมดูลออนไลน์ด้วยตนเองฟรี | 12 ชั่วโมง |
 | [ใช้ Lifecycle Services เพื่อออกแบบและวางแผนการใช้งานของแอป Finance and Operations](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) เป็นพื้นที่ทำงานที่เป็นการทำงานร่วมกันที่ลูกค้าและคู่ค้าของพวกเขาใช้ในการจัดการโครงการแอป Finance and Operations จากการจำหน่ายล่วงหน้าไปยังระยะการใช้งาน และสุดท้ายไปยังสภาพแวดล้อมการใช้งานจริง มีรายการตรวจสอบและเครื่องมือที่จะช่วยคุณจัดการโครงการรวมถึงระเบียบวิธีการสร้างก่อนที่จะช่วยในการใช้งาน และบริการที่มีการอัปเดตโดยสม่ำเสมอ | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 2 ชั่วโมง |
 | [ตั้งค่าคอนฟิกองค์กรของคุณในแอป Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | ในฐานะที่ปรึกษาด้านการทำงานที่ทำงานกับแอป Finance and Operations คุณต้องเข้าใจวิธีการตั้งค่าองค์กรสำหรับลูกค้าของคุณ พาธการเรียนรู้นี้จะแสดงให้คุณเห็น งานอื่นๆ วิธีการตั้งค่านิติบุคค การตั้งค่าความปลอดภัย ทำอินเทอร์เฟสผู้ใช้สำหรับผู้ใช้ให้เป็นแบบส่วนบุคคล ออกแบบ และสร้างแอปมือถือ และการใช้การรวมทั่วไป | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 12 ชั่วโมง |
 | [ย้ายข้อมูลและเริ่มใช้งานจริงกับแอป Finance and Operations](/learn/paths/migrate-data-go-live-finance-operations/) | ในฐานะที่ปรึกษาด้านการทำงาน คุณต้องเข้าใจวิธีจัดเตรียมการย้ายข้อมูลของลูกค้าของคุณ ทำงานกับการจัดการข้อมูล และดำเนินการทดสอบการยอมรับของผู้ใช้สำหรับการเริ่มใช้งานจริงกับแอป Finance and Operations | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 4 ชั่วโมง |
@@ -102,6 +104,5 @@ ms.locfileid: "6763105"
 | [Microsoft Certified: Dynamics 365 for Finance and Operations Financials Functional Consultant Associate](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations ผู้ที่ปรึกษาทำงานด้านการเงินรวมทั้งการเงินโลกและการดำเนินงานและทำให้งานและลำดับงานโดยอัตโนมัติ ปรับปรุงการสั่งซื้อของลูกค้า การขาย การออกใบแจ้งหนี้และการรายงาน | ใบรับรองต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [การสอบ MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ใช้ฟังก์ชันทั่วไปและเครื่องมือการใช้งาน ตั้งค่าคอนฟิกความปลอดภัย กระบวนการ และตัวเลือก ดำเนินการย้ายข้อมูล และตรวจสอบความถูกต้องและการสนับสนุนโซลูชัน | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [การสอบ MB-310: การเงิน Microsoft Dynamics 365 for Finance and Operations](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ตั้งค่าและตั้งค่าคอนฟิกการจัดการทางการเงิน จัดการและใช้กระบวนการทั่วไป ดำเนินการและจัดการบัญชีเจ้าหนี้และบัญชีลูกหนี้ และจัดการการจัดทำงบประมาณและสินทรัพย์ถาวร | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

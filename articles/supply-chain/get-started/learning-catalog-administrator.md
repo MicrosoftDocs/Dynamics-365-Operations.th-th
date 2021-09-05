@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764895"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402236"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>แค็ตตาล็อกการเรียนรู้ของผู้ดูแลระบบ Dynamics 365 Supply Chain Management
 
@@ -60,7 +60,15 @@ ms.locfileid: "6764895"
 | [อัปเกรด Dynamics AX 2012 เป็นแอป Finance and Operations](/learn/paths/upgrade-ax-2012-finance-operations/) | เรียนรู้องค์ประกอบที่สําคัญที่สุดและแนวทางที่พึงปฏิบัติในการอัปเกรดโซลูชัน Dynamics AX 2012 ของคุณเป็นแอป Finance and Operations จากขั้นตอนแรกของการค้นหาความแตกต่างทางสถาปัตยกรรมหลักเพียงอย่างเดียว การเริ่มต้นใช้งานกระบวนการอัปเกรด และเครื่องมือการอัปเกรดรหัสและการอัปเกรดข้อมูล เป็นแนวทางที่ดีที่สุดในการออกแบบการรวม การวิเคราะห์ และการรายงานของคุณใหม่ตามความสามารถล่าสุด | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 7 ชั่วโมง |
 | [Finance and Operations: การอัปเกรดจาก 7.x เป็น 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับเทคโนโลยีระหว่างที่เราจะครอบคลุมถึงขั้นตอนการอัปเกรด 7 X ถึง 8 X เราจะกล่าวถึงสถานการณ์ต่างๆและขั้นตอนที่จะดำเนินการสำหรับการอัปเกรดโค้ดและการอัปเกรดข้อมูล นอกจากนี้เราจะครอบคลุมสถานการณ์การร้องขอการเพิ่มความสามารถและวิธีการเพิ่มความเหมาะสม | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
 | [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | ในรอบเวลานี้เราจะอธิบายวิธีการอัปเกรดจากแอพลิเคชัน Dynamics 365 Finance and Operations v 7.0 (RTW) และ v 7.1 (1611) เป็น v 7.2 (กรกฎาคม 2017) เราให้ความแตกต่างที่ชัดเจนระหว่างลูกค้าที่มีอยู่จริงและโครงการต่อเนื่อง (ยังไม่ได้ใช้งานจริง) | การบันทึกการประชุมผ่านเว็บฟรี | 58 นาที |
-| [AX2012 อัปเกรดเป็น Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | การสนทนาเทคโนโลยีนี้จะให้ภาพรวมเกี่ยวกับวิธีการอัปเกรดโค้ดและข้อมูลจาก Dynamics AX 2012 ไปยัง Dynamics 365 for Operations | การบันทึกการประชุมผ่านเว็บฟรี | 45 นาที |
+| [AX2012 อัปเกรดเป็น Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | การสนทนาเทคโนโลยีนี้จะให้ภาพรวมเกี่ยวกับวิธีการอัพเกรดโค้ดและข้อมูลจาก Dynamics AX 2012 ไปยัง Dynamics 365 for Operations | การบันทึกการประชุมผ่านเว็บฟรี | 45 นาที |
+| [AX2009 ไปยัง Dynamics 365 for Operations เครื่องมือการย้าย (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | รอบเวลานี้จะครอบคลุมถึงเครื่องมือที่มีให้บริการอยู่ เพื่อช่วยคุณในการโยกย้ายจาก AX2009 ไป D365 สำหรับการดำเนินงาน | การบันทึกการประชุมผ่านเว็บฟรี | 55 นาที |
+| [เครื่องมือการย้าย AX2009](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | รอบเวลานี้จะครอบคลุมถึงเครื่องมือที่มีให้บริการอยู่ เพื่อช่วยคุณในการโยกย้ายจาก AX2009 ไป D365 สำหรับการดำเนินงาน | การบันทึกการประชุมผ่านเว็บฟรี | 55 นาที |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| ปริมาณความจุ | คำอธิบาย | รูปแบบ | ความยาว |
+|---------|-------------|--------|--------|
+| [ตั้งค่าการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | ผู้ผลิตในปัจจุบันต้องมีการจัดการข้อมูลผลิตภัณฑ์ที่แข็งแกร่ง การควบคุมรุ่น และการจัดการการเปลี่ยนแปลงทางวิศวกรรมเพื่อให้ประสบความสำเร็จในสถานะของวงจรการใช้ผลิตภัณฑ์ที่มีการหดตัวอย่างต่อเนื่อง ที่มีคุณภาพและความน่าเชื่อถือเพิ่มขึ้น และมุ่งเน้นที่ความปลอดภัยของผลิตภัณฑ์ เรียนรู้เกี่ยวกับการตั้งค่าการจัดการการเปลี่ยนแปลงทางวิศวกรรมในพาธการเรียนรู้นี้ | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 4 ชั่วโมง |
 
 ## <a name="servicing"></a>การบริการ<a name="servicing"></a>
 
@@ -68,8 +76,9 @@ ms.locfileid: "6764895"
 |----------|---------------|---------|-----------|
 | [Finance and Operations: การจัดการคุณลักษณะ (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | การพูดคุยเกี่ยวกับเทคโนโลยีบนประสบการณ์การจัดการคุณลักษณะ มีพื้นที่ทำงานที่คุณสามารถดูเปิดใช้งานปิดใช้งานและจัดกำหนดการลักษณะการทำงานที่มีการจัดส่งในการนำออกใช้แต่ละครั้ง ตามค่าเริ่มต้น คุณลักษณะใหม่จะถูกปิด คุณสามารถใช้พื้นที่ทำงานเพื่อเปิดและดูเอกสารประกอบได้ เข้าร่วมการประชุมนี้เพื่อดูว่าอะไรถูกจัดส่งสินค้าใน10.0.3 และแผนของเราในอนาคต | การบันทึกการประชุมผ่านเว็บฟรี | 47 นาที |
 | [Finance and Operations: การให้บริการ การสนับสนุน และการรักษาการผลิต (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | การพูดคุยเกี่ยวกับเทคโนโลยีในเรื่องวิธีการให้การสนับสนุนอย่างมีประสิทธิภาพ การรักษาและบริการสภาพแวดล้อมการผลิต Dynamics 365 for Finance and Operations ของคุณ | การบันทึกการประชุมผ่านเว็บฟรี | 53 นาที |
-| [Finance And Operations: การอัปเดตอย่างต่อเนื่องของจัดการโดย Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | ระยะความถี่ในการอัปเดตที่ต่อเนื่องสำหรับ Finance and Operations ได้เริ่มต้นแล้ว! โปรดเข้าร่วมกับเราในช่วงเวลานี้เพื่อกล่าวถึงการอัปเดตแบบต่อเนื่องที่มีการจัดการ Microsoft ประสบการณ์การใช้งานของผู้ใช้ที่มีอยู่แล้วใน Lifecycle Services และการอัปเดตที่กำลังจะมาถึง | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
-| [การอัปเดตแบบต่อเนื่องที่มีการจัดการ Microsoft: มีอะไรใหม่ (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | ในระหว่างชั่วโมงนี้เราจะอธิบายว่ามีอะไรใหม่ตั้งแต่การประกาศเริ่มต้นของเราเกี่ยวกับการอัปเดตแบบต่อเนื่องที่มีการจัดการ Microsoft เราจะกล่าวถึงการได้รับการอัปเดตเป็นช่วงเวลา, วิธีการที่เราตอบสนองต่อความคิดเห็นอันมีค่าของคุณในกระบวนการ และดูที่ Lifecycle Services ประสบการณ์ของผู้ใช้ที่กำลังจะมาถึง ผ่านสิ่งที่คุณจะสามารถจัดการการอัปเดตของคุณ | การบันทึกการประชุมผ่านเว็บฟรี | 56 นาที |
+| [Finance And Operations: การอัปเดตอย่างต่อเนื่องของจัดการโดย Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | ระยะความถี่ในการอัปเดตที่ต่อเนื่องสำหรับ Finance and Operations ได้เริ่มต้นแล้ว! โปรดเข้าร่วมกับเราในช่วงเวลานี้เพื่อกล่าวถึงการอัพเดตแบบต่อเนื่องที่มีการจัดการ Microsoft ประสบการณ์การใช้งานของผู้ใช้ที่มีอยู่แล้วใน Lifecycle Services และการอัพเดตที่กำลังจะมาถึง | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
+| [Finance And Operations: การอัพเดตแบบต่อเนื่องที่มีการจัดการโดย Microsoft: มีอะไรใหม่- 1 พฤศจิกายน 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | ในระหว่างชั่วโมงนี้เราจะกล่าวถึงระยะความถี่ในการอัพเดตเพื่อการอัพเดตแบบต่อเนื่องที่มีการจัดการ Microsoft และดูประสบการณ์การใช้งานของผู้ใช้ใน Lifecycle Services | การบันทึกการประชุมผ่านเว็บฟรี | 59 นาที |
+| [การอัพเดตแบบต่อเนื่องที่มีการจัดการ Microsoft: มีอะไรใหม่ (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | ในระหว่างชั่วโมงนี้เราจะอธิบายว่ามีอะไรใหม่ตั้งแต่การประกาศเริ่มต้นของเราเกี่ยวกับการอัปเดตแบบต่อเนื่องที่มีการจัดการ Microsoft เราจะกล่าวถึงการได้รับการอัปเดตเป็นช่วงเวลา, วิธีการที่เราตอบสนองต่อความคิดเห็นอันมีค่าของคุณในกระบวนการ และดูที่ Lifecycle Services ประสบการณ์ของผู้ใช้ที่กำลังจะมาถึง ผ่านสิ่งที่คุณจะสามารถจัดการการอัปเดตของคุณ | การบันทึกการประชุมผ่านเว็บฟรี | 56 นาที |
 | [การอัปเดตแบบต่อเนื่องที่มีการจัดการโดย Microsoft: (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | เราจะหารือเกี่ยวกับแผนของ Microsoft สำหรับการรักษาความทันสมัยให้กับระบบของคุณด้วยการนำออกใช้ล่าสุด เราจะครอบคลุมระยะเวลา จังหวะสำหรับการอัปเดตหลักและการอัปเดตรอง การอัปเดตขั้นตอนการวางแผน ผลกระทบ และสิ่งที่คุณควรทำเพื่อผลลัพธ์ที่ดีที่สุด | การบันทึกการประชุมผ่านเว็บฟรี | 62 นาที |
 | [การตรวจสอบ ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ & Critical KBs (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | เราจะกล่าวถึงความสามารถในการตรวจสอบและสิ่งที่ Microsoft ตรวจสอบสำหรับคุณในสภาพแวดล้อมการผลิตของคุณ ให้คำแนะนำการปรับให้เหมาะสมและวิธีการที่สามารถขยายได้ ประสบการณ์ "การอัปเดต X++ ที่สำคัญ" ใน LCS และตัวเลือกแนวทางที่พึงปฏิบัติสำหรับ "รายงานความขัดข้องในการผลิต" ใน LCS | การบันทึกการประชุมผ่านเว็บฟรี | 40 นาที |
 
@@ -86,6 +95,5 @@ ms.locfileid: "6764895"
 | ปริมาณความจุ  | คำอธิบาย  | รูปแบบ  |
 |----------|--------------|---------|
 | [Dynamics 365 พื้นฐาน](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | พิสูจน์ว่าคุณเข้าใจ Microsoft Dynamics 365, Power Platform, แนวคิดของคลาวด์, ตัวเลือกสิทธิ์การใช้งาน, และตัวเลือกการปรับใช้และนำออกใช้ | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

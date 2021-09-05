@@ -10,20 +10,19 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 51f0ab8f76fe3bce91d6e4ed56bdfa8529c1aacbd326a8b4b3d80615f872f8c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729562"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403902"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>การรายงานภาษีหัก ณ ที่จ่ายสำหรับอียิปต์ (EG-00005)
 
 [!include[banner](../includes/banner.md)]
-
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>ภาพรวม
@@ -113,7 +112,7 @@ ms.locfileid: "6729562"
 1. ไปที่ **ภาษี** > **การรายงาน** > **หัก ณ จ่าย** > **การชำระภาษีหัก ณ ที่จ่าย*
 2. เลือกรอบระยะเวลาการจ่ายเงินแล้วเลือกวันที่เริ่มต้นของรายงาน 
 3. ป้อนวันที่ทำธุรกรรมแล้วเลือก **ตกลง**
-4. ในกล่องโต้ตอบที่เปิดขึ้น ให้เลือกชนิดแบบฟอร์มอย่างน้อยหนึ่งประเภท **แบบฟอร์มหมายเลข 41** **แบบฟอร์มหมายเลข 11** หรือ **ไม่มี** ถ้าคุณเลือก **ไม่มี** ระบบจะสร้างรายงานมาตรฐานเอง 
+4. ในกล่องโต้ตอบที่เปิดขึ้น ให้เลือกชนิดแบบฟอร์มอย่างน้อยหนึ่งประเภท **ฟอร์มหมายเลข 41** **ฟอร์มหมายเลข 11** หรือ **ไม่มี** ถ้าคุณเลือก **ไม่มี** ระบบจะสร้างรายงานมาตรฐานเอง 
 5. เลือกภาษา รายงานทั้งหมดมีการแปลอยู่ใน **en-us** และ **ar-eg**
 6. ป้อนสาขาและชื่อของธนาคารที่จะป้อนจะทำการชำระภาษี
 7. เลือกประเภทธุรกิจแล้วป้อนหมายเลขเช็คและหมายเลขเอกสาร 

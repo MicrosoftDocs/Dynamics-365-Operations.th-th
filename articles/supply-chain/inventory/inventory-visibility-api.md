@@ -1,0 +1,518 @@
+---
+title: API สาธารณะของการแสดงผลสินค้าคงคลัง
+description: หัวข้อนี้จะอธิบาย API สาธารณะที่ให้ไว้โดยการแสดงผลสินค้าคงคลัง
+author: yufeihuang
+ms.date: 08/02/2021
+ms.topic: article
+ms.search.form: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: yufeihuang
+ms.search.validFrom: 2021-08-02
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343643"
+---
+# <a name="inventory-visibility-public-apis"></a>API สาธารณะของการแสดงผลสินค้าคงคลัง
+
+[!include [banner](../includes/banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+หัวข้อนี้จะอธิบาย API สาธารณะที่ให้ไว้โดยการแสดงผลสินค้าคงคลัง
+
+REST API สาธารณะของ Add-in การแสดงผลสินค้าคงคลัง แสดงถึงปลายทางเฉพาะสำหรับการรวมหลายแห่ง ซึ่งสนับสนุนชนิดการโต้ตอบหลักสี่ชนิด:
+
+- การโพสต์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือไปที่ add-in จากระบบภายนอก
+- การตั้งค่าหรือการแทนที่ปริมาณคงคลังคงเหลือใน Add-in จากระบบภายนอก
+- การลงรายการบัญชีเหตุการณ์การจองไปที่ add-in จากระบบภายนอก
+- การสอบถามปริมาณคงคลังคงเหลือปัจจุบันจากระบบภายนอก
+
+ตารางต่อไปนี้แสดง API ที่พร้อมใช้งานในขณะนี้:
+
+| พาธ | วิธีการ | คำอธิบาย |
+|---|---|---|
+| /api/environment/{environmentId}/onhand | ลงรายการบัญชี | [สร้างเหตุการณ์การเปลี่ยนแปลงคงเหลือหนึ่งเหตุการณ์](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand/bulk | ลงรายการบัญชี | [สร้างเหตุการณ์การเปลี่ยนแปลงหลายเหตุการณ์](#create-multiple-onhand-change-events) |
+| /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ลงรายการบัญชี | [ตั้งค่า/แทนที่ปริมาณคงคลังคงเหลือ](#set-onhand-quantities) |
+| /api/environment/{environmentId}/onhand/reserve | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหนึ่งเหตุการณ์](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหลายเหตุการณ์](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/indexquery | ดึงข้อมูล | [การสอบถามโดยใช้วิธีการลงรายการบัญชี](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/indexquery | ลงรายการบัญชี | [การสอบถามโดยใช้วิธีการรับ](#query-with-get-method) |
+
+Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
+
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>ค้นหาปลายทางตามสภาพแวดล้อม Lifecycle Services ของคุณ
+
+ไมโครเซอร์วิสของการแสดงผลสินค้าคงคลังมีการปรับใช้บน Microsoft Azure Service Fabric ในหลายๆ ภูมิศาสตร์และหลายๆ ภูมิภาค ไม่มีปลายทางส่วนกลางที่สามารถเปลี่ยนเส้นทางคำขอของคุณไปยังพื้นที่ภูมิศาสตร์และภูมิภาคที่สอดคล้องกันโดยอัตโนมัติได้ในขณะนี้ ดังนั้น คุณต้องสร้างข้อมูลส่วนต่างๆ ลงใน URL โดยใช้รูปแบบต่อไปนี้:
+
+`https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
+
+ชื่อย่อของภูมิภาคสามารถดูได้ในสภาพแวดล้อม Microsoft Dynamics Lifecycle Services (LCS) ตารางต่อไปนี้แสดงภูมิภาคที่พร้อมใช้งานในขณะนี้
+
+| ภูมิภาคของ Azure | ชื่อย่อของภูมิภาค |
+|---|---|
+| ออสเตรเลียตะวันออก | eau |
+| ออสเตรเลียตะวันออกเฉียงใต้ | seau |
+| แคนาดากลาง | cca |
+| แคนาดาตะวันออก | eca |
+| ยุโรปเหนือ | neu |
+| ยุโรปตะวันตก | weu |
+| สหรัฐอเมริกาตะวันออก | eus |
+| สหรัฐอเมริกาตะวันตก | wus |
+| สหราชอาณาจักรใต้ | suk |
+| สหราชอาณาจักรตะวันตก | wuk |
+
+หมายเลขเกาะคือที่ที่มีการปรับใช้สภาพแวดล้อม LCS ของคุณบน Service Fabric ขณะนี้ไม่มีวิธีในการรับข้อมูลนี้จากฝั่งผู้ใช้
+
+Microsoft ได้สร้างอินเทอร์เฟสผู้ใช้ (UI) ใน Power Apps ไว้ เพื่อให้คุณสามารถได้รับปลายทางที่สมบูรณ์ของไมโครเซอร์วิส สำหรับข้อมูลเพิ่มเติม ดู [ค้นหาปลายทางบริการ](inventory-visibility-power-platform.md#get-service-endpoint)
+
+## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>การรับรองความถูกต้อง
+
+โทเคนความปลอดภัยของแพลตฟอร์มจะถูกใช้ในการเรียก API สาธารณะของการแสดงผลสินค้าคงคลัง ดังนั้น คุณจึงต้องสร้างโทเคน _Azure Active Directory (Azure AD)_ โดยใช้แอพลิเคชัน Azure AD ของคุณ จากนั้นคุณต้องใช้โทเคน Azure AD เพื่อรับ _การเข้าถึงโทเคน_ จากบริการความปลอดภัย
+
+เมื่อต้องการเรียกใช้โทเคนบริการรักษาความปลอดภัย ให้ทำตามขั้นตอนเหล่านี้
+
+1. ลงชื่อเข้าใช้พอร์ทัล Azure และใช้เพื่อค้นหาค่า `clientId` และ `clientSecret` สำหรับแอป Dynamics 365 Supply Chain Management ของคุณ
+1. ดึงข้อมูลโทเค็น Azure AD (`aadToken`) โดยการส่งคำขอ HTTP ที่มีคุณสมบัติต่อไปนี้:
+
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **วิธีการ:** `GET`
+    - **ตัวเนื้อหา (ข้อมูลฟอร์ม):**
+
+        | คีย์ | มูลค่า |
+        |---|---|
+        | รหัส_ไคลเอนต์ | ${aadAppId} |
+        | ข้อมูลลับ_ไคลเอ็นต์ | ${aadAppSecret} |
+        | ชนิด_การให้สิทธิ์ | ข้อมูลประจำตัว_ไคลเอ็นต์ |
+        | ทรัพยากร | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+
+    คุณควรได้รับโทเคน Azure AD (`aadToken`) ในการตอบสนอง ผลลัพธ์ควรมีลักษณะคล้ายกับตัวอย่างต่อไปนี้
+
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. สร้างคำขอ JavaScript Object Notation (JSON) ที่มีลักษณะคล้ายกับตัวอย่างต่อไปนี้
+
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+        "context_type": "finops-env"
+    }
+    ```
+
+    บันทึกคะแนนต่อไปนี้:
+
+    - ค่า `client_assertion` ต้องเป็นโทเคน Azure AD (`aadToken`) ที่คุณได้รับในขั้นตอนก่อนหน้านี้
+    - ค่า `context` ต้องเป็นรหัสสภาพแวดล้อมที่คุณต้องการปรับใช้ Add-in
+    - ตั้งค่าอื่นๆ ทั้งหมด ตามที่แสดงในตัวอย่าง
+
+1. ส่งคำขอ HTTP ที่มีคุณสมบัติต่อไปนี้:
+
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **วิธีการ:** `POST`
+    - **ส่วนหัว HTTP:** รวมรุ่นของ API (คีย์คือ `Api-Version` และค่าคือ `1.0`)
+    - **ตัวเนื้อหา:** รวมถึงการร้องขอ JSON ที่คุณสร้างในขั้นตอนก่อนหน้านี้
+
+    คุณควรได้รับโทเคนการเข้าถึง (`access_token`) ในการตอบสนอง คุณต้องใช้โทเคนนี้ในฐานะโทเคนผู้ถือสิทธิ์เพื่อเรียก API ของการแสดงผลสินค้าคงคลัง นี่คือตัวอย่าง
+
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
+
+ในส่วนต่อมา คุณจะใช้ `$access_token` เพื่อแสดงถึงโทเคนที่ถูกดึงมาในขั้นตอนสุดท้าย
+
+## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>สร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือ
+
+มี API อยู่สองรายการสำหรับการสร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือ:
+
+- สร้างเรกคอร์ดหนึ่งรายการ: `/api/environment/{environmentId}/onhand`
+- สร้างเรกคอร์ดหลายรายการ: `/api/environment/{environmentId}/onhand/bulk`
+
+ตารางต่อไปนี้สรุปความหมายของแต่ละฟิลด์ในเนื้อหา JSON
+
+| ฟิลด์ ID | คำอธิบาย |
+|---|---|
+| `id` | รหัสเฉพาะสำหรับเหตุการณ์การเปลี่ยนแปลงเฉพาะ รหัสนี้จะถูกใช้เพื่อให้แน่ใจว่า ถ้าการสื่อสารกับบริการล้มเหลวในระหว่างการลงรายการบัญชี เหตุการณ์เดียวกันจะไม่ถูกนับสองครั้งในระบบ หากไม่มีการส่งซ้ำ |
+| `organizationId` | ตัวระบุขององค์กรที่ลิงก์ไปยังเหตุการณ์ ค่านี้จะถูกแม็ปไปยังองค์กรหรือรหัสพื้นที่ข้อมูลใน Supply Chain Management |
+| `productId` | ตัวระบุของผลิตภัณฑ์ |
+| `quantities` | ปริมาณที่ต้องมีการเปลี่ยนแปลงปริมาณคงคลังคงเหลือ ตัวอย่างเช่น ถ้ามีการเพิ่มสมุดบัญชีใหม่ 10 เล่มในชั้นวาง ค่านี้จะเป็น `quantities:{ shelf:{ received: 10 }}` ถ้าเอาสมุดบัญชีสามเล่มออกจากชั้นวางหรือขายแล้ว ค่านี้จะเป็น `quantities:{ shelf:{ sold: 3 }}` |
+| `dimensionDataSource` | แหล่งข้อมูลของมิติที่ถูกใช้ในการลงรายการบัญชีเหตุการณ์การเปลี่ยนแปลงและการสอบถาม ถ้าคุณระบุแหล่งข้อมูล คุณสามารถใช้มิติที่กำหนดเองจากแหล่งข้อมูลที่ระบุได้ การแสดงผลสินค้าคงคลังสามารถใช้การตั้งค่าคอนฟิกมิติเพื่อแม็ปมิติที่กำหนดเองกับมิติเริ่มต้นทั่วไป ถ้าไม่มีการระบุค่า `dimensionDataSource` คุณสามารถใช้ได้เฉพาะ [มิติฐาน](inventory-visibility-configuration.md#data-source-configuration-dimension) ทั่วไปในการสอบถามของคุณเท่านั้น |
+| `dimensions` | คู่คีย์/ค่าแบบไดนามิก ค่าถูกแม็ปกับมิติบางมิติใน Supply Chain Management อย่างไรก็ตาม คุณยังสามารถเพิ่มมิติที่กำหนดเอง (ตัวอย่างเช่น _ต้นทาง_) เพื่อบ่งชี้ว่าเหตุการณ์มาจากการ Supply Chain Management หรือระบบภายนอก |
+
+### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>สร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือหนึ่งเหตุการณ์
+
+API นี้จะสร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือเหตุการณ์เดียว
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # Optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantities: {
+            [dataSourceName:string]: {
+                [key:string]: number,
+            },
+        },
+    }
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง ในตัวอย่างนี้ คุณลงรายการบัญชีเหตุการณ์การเปลี่ยนแปลงสำหรับผลิตภัณฑ์ *เสื้อยืดคอกลม* เหตุการณ์นี้มาจากระบบการขายหน้าร้าน (POS) และลูกค้าส่งคืนเสื้อยืดคอกลมสีแดงกลับไปที่ร้านค้าของคุณ เหตุการณ์นี้จะเพิ่มปริมาณของผลิตภัณฑ์ *เสื้อยืดคอกลม* 1 รายการ
+
+```json
+{
+    "id": "123456",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "dimensionDataSource": "pos",
+    "dimensions": {
+        "ColorId": "Red"
+    },
+    "quantities": {
+        "pos": {
+            "inbound": 1
+        }
+    }
+}
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่างโดยไม่มี `dimensionDataSource`
+
+```json
+{
+    "id": "123456",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "dimensions": {
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    },
+    "quantities": {
+        "pos": {
+            "inbound": 1
+        }
+    }
+}
+```
+
+### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>สร้างเหตุการณ์การเปลี่ยนแปลงหลายเหตุการณ์
+
+API นี้สามารถสร้างเรกคอร์ดหลายรายการพร้อมกันได้ ความแตกต่างระหว่าง API นี้และ [API เหตุการณ์เดียว](#create-one-onhand-change-event) ได้แก่ ค่า `Path` และค่า `Body` สำหรับ API นี้ `Body` จะมีแถวลำดับของเรกคอร์ด
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string, # Optional
+            dimensions: {
+                [key:string]: string,
+            },
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+        ...
+    ]
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง
+
+```json
+[
+    {
+        "id": "123456",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId&quot;: &quot;0001"
+        },
+        "quantities": {
+            "pos": { "inbound": 1 }
+        }
+    },
+    {
+        "id": "654321",
+        "organizationId": "usmf",
+        "productId": "@PRODUCT1",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId&quot;: &quot;0001"
+        },
+        "quantities": {
+            "pos": { "outbound": 3 }
+        }
+    }
+]
+```
+
+## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>ตั้งค่า/แทนที่ปริมาณคงคลังคงเหลือ
+
+_ตั้งค่า API ปริมาณคงคลังคงเหลือ_ จะแทนที่ข้อมูลปัจจุบันสำหรับผลิตภัณฑ์ที่ระบุ
+
+```txt
+Path:
+    /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string, # Optional
+            dimensions: {
+                [key:string]: string,
+            },
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+            modifiedDateTimeUTC: datetime,
+        },
+        ...
+    ]
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง พฤติกรรมของ API นี้จะแตกต่างจากพฤติกรรมของ API ที่อธิบายไว้ในส่วน [สร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือ](#create-onhand-change-event) ก่อนหน้าในหัวข้อนี้ ในตัวอย่างนี้ ปริมาณของผลิตภัณฑ์ *เสื้อยืดคอกลม* จะถูกตั้งค่าเป็น 1
+
+```json
+[
+    {
+        "id": "123456",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId": "0001"
+        },
+        "quantities": {
+            "pos": {
+                "inbound": 1
+            }
+        }
+    }
+]
+```
+
+## <a name="create-reservation-events"></a>สร้างเหตุการณ์การจอง
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+เมื่อต้องการใช้ API *จอง* คุณต้องเปิดคุณลักษณะการจองและทำการตั้งค่าคอนฟิกการจองให้เสร็จสมบูรณ์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การตั้งค่าคอนฟิกการจอง (ไม่จำเป็น)](inventory-visibility-configuration.md#reservation-configuration)
+
+### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>สร้างเหตุการณ์การจองหนึ่งเหตุการณ์
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/reserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        quantityDataSource: string, # optional
+        quantities: {
+            [dataSourceName:string]: {
+                [key:string]: number,
+            },
+        },
+        modifier: string,
+        quantity: number,
+        ifCheckAvailForReserv: boolean,
+    }
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง
+
+```json
+{
+    "id": "reserve-0",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "quantity": 1,
+    "quantityDataSource": "iv",
+    "modifier": "softreservordered",
+    "ifCheckAvailForReserv": true,
+    "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "ColorId": "Red",
+        "SizeId&quot;: &quot;Small"
+    }
+}
+```
+
+### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>สร้างเหตุการณ์การจองหลายเหตุการณ์
+
+API นี้เป็นเวอร์ชันกลุ่มของ [API เหตุการณ์เดียว](#create-one-reservation-event)
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/reserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+            modifier: string,
+            quantity: number,
+            ifCheckAvailForReserv: boolean,
+        },
+        ...
+    ]
+```
+
+## <a name="query-on-hand"></a>ปริมาณคงคลังคงเหลือของการสอบถาม
+
+API _ปริมาณคงคลังคงเหลือของการสอบถาม_ ถูกใช้เพื่อดึงข้อมูลปริมาณคงคลังคงเหลือปัจจุบันสำหรับผลิตภัณฑ์ของคุณ
+
+### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>การสอบถามโดยใช้วิธีการลงรายการบัญชี
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        organizationId: string,
+        filters: {
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+### <a name="query-by-using-the-get-method"></a><a name="query-with-get-method"></a>การสอบถามโดยใช้วิธีการรับ
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
+ต่อไปนี้เป็นตัวอย่าง URL การรับ คำขอรับนี้ไม่เหมือนกับตัวอย่างการลงรายการบัญชีที่ระบุไว้ก่อนหน้านี้
+
+```txt
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+```
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

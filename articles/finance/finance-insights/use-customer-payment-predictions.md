@@ -1,5 +1,5 @@
 ---
-title: ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
+title: ใช้การคาดการณ์การชำระเงินของลูกค้า
 description: หัวข้อนี้นำไปสู่ข้อกำหนดเบื้องต้นและขั้นตอนต่าง ๆ ที่จำเป็นในการใช้รุ่นทดลองของข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
 ms.date: 07/17/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 6e89ab13f005a9a0e00da6ce9da14dd505219c497e1105785843b2375166dbce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 156136508c5465dc9351434251afc3bbdb9c6052
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748245"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386301"
 ---
-# <a name="use-customer-payment-predictions-preview"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า (ตัวอย่าง)
+# <a name="use-customer-payment-predictions"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า
 
 [!include [banner](../includes/banner.md)]
 

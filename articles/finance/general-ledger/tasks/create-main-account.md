@@ -1,6 +1,6 @@
 ---
 title: สร้างบัญชีหลัก
-description: 'คำแนะนำงานนี้ระบุการเพิ่มบัญชีหลักให้กับผังบัญชีที่มีอยู่ '
+description: กระบวนงานนี้นำไปสู่วิธีการเพิ่มบัญชีหลักให้กับผังบัญชีที่มีอยู่
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729641"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394647"
 ---
 # <a name="create-a-main-account"></a>สร้างบัญชีหลัก
 
 [!include [banner](../../includes/banner.md)]
 
-คำแนะนำงานนี้ระบุการเพิ่มบัญชีหลักให้กับผังบัญชีที่มีอยู่  การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF  
+กระบวนงานนี้นำไปสู่วิธีการเพิ่มบัญชีหลักให้กับผังบัญชีที่มีอยู่ การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF  
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีแยกประเภททั่วไป > ผังบัญชี > บัญชี > บัญชีหลัก**
 2. คลิก **สร้าง**

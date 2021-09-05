@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720095"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386110"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720095"
 
 หัวข้อนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>รุ่น 2.0.9.0
+
+รุ่นนี้จะแก้ไขปัญหาที่แอปสามารถหยุดตอบสนองถ้าหน้าผู้ใช้ขึ้นจากด้านบนของรายการ
+
+## <a name="version-2080"></a>รุ่น 2.0.8.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- การสนับสนุนที่เพิ่มสำหรับ [คุณลักษณะคําแนะนำตามขั้นตอน](mobile-app-titles-instructions.md) ที่แนะนําใน Supply Chain Management รุ่น 10.0.21
+- ภาพเคลื่อนไหวข้อแนะนำที่เพิ่มเพื่อแสดงผู้ใช้ว่าผู้ใช้สามารถปิดการมีทับซ้อนได้โดยการเลื่อนลง
+- การสนับสนุนที่เพิ่มให้กับคีย์ฟังก์ชันในรายการการดำเนินการและเมนู ผู้ใช้สามารถกดปุ่มฟังก์ชันใดๆ เป็นเวลาสามวินาทีเพื่อเข้าดูรายการของการสั่งที่พร้อมใช้งานได้
+- แก้ไขปัญหาที่เป็นสาเหตุให้ข้อความแสดงข้อผิดพลาดต่อไปนี้แสดงบนบางอุปกรณ์: "ไม่พบมุมมองที่เหมาะสมของขนาดที่ระบุ"
+- แก้ไขปัญหาที่โหมดเต็มหน้าจอไม่สามารถใช้งานได้เสมอเมื่อมีการใช้คีย์บอร์ดบนหน้าจอ
+- แก้ไขปัญหาที่การเลื่อนหน้าไม่ทำงานบนอุปกรณ์ Windows
+- แก้ไขปัญหาต่างๆ ที่เป็นสาเหตุให้ระบบหยุดตอบสนอง
+
+## <a name="version-2070"></a>รุ่น 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>คุณลักษณะใหม่ การแก้ไข และการปรับปรุงในรุ่น 2.0.7.0
 

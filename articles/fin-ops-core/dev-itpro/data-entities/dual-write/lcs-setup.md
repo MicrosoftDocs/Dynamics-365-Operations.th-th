@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729054"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416662"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 
@@ -78,6 +77,6 @@ ms.locfileid: "6729054"
 ถ้าคุณพบข้อผิดพลาดนี้ มีตัวเลือกสองตัวเลือก ตามความต้องการของคุณ
 
 + [ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อมการรวมแบบสองทิศทางใหม่ (รีเซ็ตหรือเปลี่ยนการเชื่อมโยง)](relink-environments.md#scenario-reset-or-change-linking) ตามที่ระบุบนหน้ารายละเอียดสภาพแวดล้อม LCS ของคุณ นี่เป็นตัวเลือกที่ดีที่สุด เนื่องจากคุณสามารถเรียกใช้โดยไม่ได้รับการสนับสนุนของ Microsoft  
-+ ถ้าต้องการเก็บการเชื่อมโยงของคุณไว้ในการรวมแบบสองทิศทาง คุณสามารถขอความช่วยเหลือจาก Microsoft Support เพื่อเปลี่ยนการรวม Power Platform เพื่อใช้สภาพแวดล้อม Dataverse ที่มีอยู่ตามที่ได้บันทึกเอกสารในส่วนก่อนหน้านี้  
++ ถ้าคุณต้องการเก็บการเชื่อมโยงของคุณไว้ในการรวมแบบสองทิศทาง คุณสามารถขอความช่วยเหลือจาก Microsoft Support เพื่อเปลี่ยนการรวม Power Platform เพื่อใช้สภาพแวดล้อม Dataverse ที่มีอยู่ตามที่ได้บันทึกเอกสารในส่วนก่อนหน้านี้  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

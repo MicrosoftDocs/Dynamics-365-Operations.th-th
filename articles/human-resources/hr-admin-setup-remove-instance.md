@@ -1,8 +1,8 @@
 ---
 title: เอาอินสแตนซ์ออก
-description: บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 08/07/2020
+description: หัวข้อนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 978bbbe9ecd57c8a80cfc0c17f1a3e2d8422482fddc1c4f2ea0bc8ac91d6615c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740826"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393508"
 ---
 # <a name="remove-an-instance"></a>เอาอินสแตนซ์ออก
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
+หัวข้อนี้อธิบายกระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
 
 ## <a name="remove-a-test-drive-environment"></a>เอาสภาพแวดล้อมไดรฟ์ทดสอบออก
 
@@ -41,7 +41,7 @@ ms.locfileid: "6740826"
 
 ## <a name="remove-a-production-environment"></a>เอาสภาพแวดล้อมการผลิตออก
 
-บทความนี้สันนิษฐานว่า คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) 
+หัวข้อนี้สันนิษฐานว่า คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) 
 
 เนื่องจากสภาพแวดล้อมทรัพยากรบุคคลเดียวถูก"บรรจุ"อยู่ภายในสภาพแวดล้อม Power Apps เดียวซึ่งคุณมีตัวเลือกสองตัวที่ควรพิจารณา ตัวเลือกแรกเกี่ยวข้องกับการลบสภาพแวดล้อม Power Apps ทั้งหมด; ตัวเลือกที่สองเกี่ยวข้องกับการลบเฉพาะทรัพยากรบุคคล ตัวเลือกแรกเป็นที่ต้องการเมื่อคุณได้สร้างสภาพแวดล้อม Power Apps อย่างชัดเจนสำหรับวัตถุประสงค์ในการเตรียมใช้งานทรัพยากรบุคคล และคุณเพียงพึ่งเริ่มใช้งานหรือคุณไม่มีการรวมใดๆที่สร้างไว้แล้ว ตัวเลือกที่สองจะเหมาะสมก็ต่อเมื่อคุณได้มีสภาพแวดล้อม Power Apps ที่สร้างไว้แล้วซึ่งเต็มไปด้วยข้อมูลที่หลากหลายที่ถูกยกระดับใน Power Apps และ Power Automate
 

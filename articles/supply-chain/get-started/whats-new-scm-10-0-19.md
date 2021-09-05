@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773548"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384670"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.19 (มิถุนายน 2021)
 
@@ -41,7 +41,7 @@ ms.locfileid: "6773548"
 | สินค้าคงคลังและลอจิสติกส์ | [ฟังก์ชันการค้นหาเกี่ยวกับฟิลด์บทนําของเอกสารและบทสรุปของเอกสารในหน้าใบเสนอราคาขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | คุณลักษณะนี้เพิ่มฟังก์ชันการค้นหาเกี่ยวกับฟิลด์ **บทนําของเอกสาร** และ **บทสรุปของเอกสาร** ในหน้า **ใบเสนอราคาขาย**<br><br>คุณลักษณะนี้จะไม่เปิดใช้งานโดยค่าเริ่มต้น |
 | สินค้าคงคลังและลอจิสติกส์ | [การดำเนินการของคลังสินค้าที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [ปรับใช้หน่วยสเกล edge บนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | การผลิต | [การดำเนินการของการผลิตที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| การวางแผน | [การจัดกำหนดการความสามารถรองรับที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | คุณลักษณะนี้เปิดใช้งานการจัดกำหนดการการผลิตระดับความจุด้วยความสามารถมีไม่สิ้นสุดเพื่อเพิ่มประสิทธิภาพการวางแผน ถ้าไม่มีคุณลักษณะนี้ แผนการใบสั่งผลิตจะได้รับระยะเวลารอคอยสินค้าจากระยะเวลารอคอยสินค้าของสินค้าคงคลังของผลิตภัณฑ์ที่นำออกใช้ โดยไม่พิจารณากรอบเวลาการจัดกำหนดการผลิต |
+| การวางแผน | [การจัดกำหนดการความสามารถรองรับที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | การวางแผน | การยืนยันแผนการใบสั่งตามการสอบถาม | [ยืนยันแผนการใบสั่ง](../master-planning/planning-optimization/planned-order-firming.md) |
 | การจัดการข้อมูลผลิตภัณฑ์ | [การปรับปรุงหน้าคำแนะนำตัวแปร](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า](../pim/tasks/create-predefined-product-variants.md) |
 

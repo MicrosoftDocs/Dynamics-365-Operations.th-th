@@ -1,8 +1,8 @@
 ---
 title: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
-description: บทความนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources การตัดข้อความสามารถทำให้ยากในการจับภาพหน้าจอหรือพิมพ์ลำดับชั้น
-author: andreabichsel
-ms.date: 02/03/2020
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อที่ถูกตัดของรายการแต่ละรายการและลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779337"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413546"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +43,7 @@ ms.locfileid: "6779337"
 
 1. ในทรัพยากรบุคคล ให้เปิดเพจรายการ **ตำแหน่ง**
 
-    เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้วิซาร์ดนี้ภายหลังในกระบวนงานนี้
+    เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้ **ตัวช่วยสร้างแผนภูมิองค์กร** นี้ภายหลังในกระบวนงานนี้
 
 2. บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปยัง Excel** เลือก **ตำแหน่ง** อีกทางหนึ่งคือ กด Ctrl+T
 

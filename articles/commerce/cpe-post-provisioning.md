@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742451"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416490"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ ms.locfileid: "6742451"
 เมื่อต้องการทำการทดสอบธุรกรรมบนไซต์ คุณสามารถใช้ข้อมูลบัตรเครดิตทดสอบดังต่อไปนี้:
 
 - **หมายเลขบัตร:** 4111-1111-1111-1111
-- **วันหมดอายุ:** 10/20
+- **วันหมดอายุ:** 10/30
 - **รหัสค่าการตรวจสอบความถูกต้องของบัตร (CVV):** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ ms.locfileid: "6742451"
 หลังจากขั้นตอนการเตรียมใช้งานและการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว คุณสามารถเริ่มใช้สภาพแวดล้อมการประเมินของคุณ ใช้ URL ของตัวสร้างไซต์ Commerce เพื่อไปยังประสบการณ์การสร้าง ใช้ URL ของไซต์ Commerce เพื่อไปยังประสบการณ์ไซต์ของลูกค้าขายปลีก
 
 หากต้องการตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อมการประเมินของ Commerce ของคุณ ให้ดูที่ [ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อมการประเมินของ Commerce](cpe-optional-features.md)
+
+> [!NOTE]
+> สภาพแวดล้อมการประเมิน Commerce มาพร้อมกับผู้เช่าธุรกิจ-ผู้บริโภค Azure Active Directory (Azure AD) B2C ที่โหลดไว้ล่วงหน้าเพื่อวัตถุประสงค์ในการสาธิต การตั้งค่าคอนฟิกผู้เช่า Azure AD B2C ของคุณเองไม่เป็นข้อมูลที่ต้องระบุในสภาพแวดล้อมการประเมิน อย่างไรก็ตาม ถ้าคุณกําหนดค่าคอนฟิกสภาพแวดล้อมการประเมินให้ใช้ผู้เช่า B2C Azure AD ของคุณเอง โปรดตรวจสอบให้แน่ใจว่าได้เพิ่มเป็น ``https://login.commerce.dynamics.com/_msdyn365/authresp`` เป็น URL การตอบกลับในโปรแกรมประยุกต์ Azure AD B2C ผ่านพอร์ทัล Azure
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -159,6 +162,8 @@ ms.locfileid: "6742451"
 [พอร์ทัล Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [เว็บไซต์ Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[ตั้งค่าผู้เช่า B2C ใน Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

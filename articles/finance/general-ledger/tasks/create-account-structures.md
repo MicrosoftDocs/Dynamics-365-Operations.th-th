@@ -1,6 +1,6 @@
 ---
 title: สร้างโครงสร้างทางบัญชี
-description: 'คำแนะนำงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี '
+description: กระบวนงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี
 author: aprilolson
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93cc2e9ceb15070491bb3d0a790367e6d5bf8c4a30cd7efa690fd825963165b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779552"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394550"
 ---
 # <a name="create-account-structures"></a>สร้างโครงสร้างทางบัญชี
 
 [!include [banner](../../includes/banner.md)]
 
-คำแนะนำงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี  ขั้นตอนเหล่านี้ใช้ข้อมูลสาธิตบริษัท USMF
+กระบวนงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี ขั้นตอนเหล่านี้ใช้ข้อมูลสาธิตบริษัท USMF
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีแยกประเภททั่วไป > ผังบัญชี > โครงสร้าง > ตั้งค่าคอนฟิกโครงสร้างทางบัญชี**
 2. บน **บานหน้าต่างนำทาง** คลิก **สร้าง** เพื่อเปิดกล่องโต้ตอบการวาง

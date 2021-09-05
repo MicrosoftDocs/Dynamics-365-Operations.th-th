@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 75fbf177cd74739b35e72f2cae56a6c46fe69540145f16c80766b3ec260e8d0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc4067ff395042ec30bdb6a846d12509a1436256
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713767"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402555"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>แค็ตตาล็อกการเรียนรู้ของผู้ใช้ Dynamics 365 Finance
 
@@ -32,6 +32,7 @@ ms.locfileid: "6713767"
 | [เรียนรู้มูลค่าทางธุรกิจของ Microsoft Dynamics 365 และ Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? บางทีคุณอาจไม่ทราบว่าจะเริ่มต้นด้วยแอพลิเคชัน Microsoft Dynamics 365 และแอพลิเคชัน Power Platform ที่ใด เรียนรู้ว่าแอพลิเคชัน power of business สามารถช่วยเปลี่ยนธุรกิจของคุณได้อย่างไร | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 8 ชั่วโมง |
 | [Dynamics 365 และ Power Platform พื้นฐาน](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | คุณสนใจเรียนรู้เกี่ยวกับแอพลิเคชันธุรกิจหรือไม่? เริ่มต้นด้วยพาธการเรียนรู้นี้เพื่อดูว่ามีการใช้แอป Dynamics 365 อย่างไร เรียนรู้เกี่ยวกับแนวคิดคลาวด์ Power Platform และวิธีการเริ่มต้นด้วยแอป Dynamics 365 | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 5.5 ชั่วโมง   |
 | [เริ่มต้นใช้งานแอป Finance and Operations](/learn/paths/get-started-finance-operations/) | เรียนรู้วิธีที่แอป Finance and Operations สนับสนุนธุรกิจเพื่อจัดการระบบทางการเงินส่วนกลาง กระบวนการทางธุรกิจการดำเนินงาน และห่วงโซ่อุปทานที่มีประสิทธิภาพ เพื่อให้ผู้ใช้สามารถตัดสินใจอย่างรอบคอบได้อย่างรวดเร็ว   ขั้นตอนแรกในอาชีพของคุณในการทำงานกับแอป Finance and Operations คุณต้องทำความคุ้นเคยกับคุณลักษณะและฟังก์ชัน ไม่ว่าบทบาทที่ต้องการของคุณคืออะไรก็ตาม | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 2 ชั่วโมง |
+| [เริ่มต้นใช้งาน Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | ด้วย Dynamics 365 Intelligent Order Management ลูกค้าสามารถจัดการบริหารใบสั่งผ่านการเติมสินค้าได้ ความสามารถเหล่านี้ช่วยให้องค์กรสามารถจัดระเบียบขั้นตอนของใบสั่งข้ามแพลตฟอร์มและแอปต่างๆ ได้ | การเรียนรู้โมดูลออนไลน์ด้วยตนเองฟรี | 30 นาที |
 | [หลักสูตร MB-900T01-A: Dynamics 365 พื้นฐาน](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | หลักสูตรนี้จะทำให้ผู้เรียนเกิดความคุ้นเคยกับฟังก์ชันการทำงานของ Dynamics 365 และค่าทางธุรกิจ หลักสูตรจะครอบคลุมแอพลิเคชั่น Dynamics 365 the Power Platform แนวคิดของคลาวด์ แบบจำลองความปลอดภัย และการพิจารณาสิทธิ์การใช้งาน | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
 
 ## <a name="core-platform-knowledge"></a>ความรู้ของแพลตฟอร์มหลัก<a name="core-platform-knowledge"></a>

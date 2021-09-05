@@ -2,7 +2,7 @@
 title: ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอป Finance and Operations
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับส่วนประกอบของระบบวิธีใช้สำหรับแอปบาง Microsoft Dynamics 365 บางแอป
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714534"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343823"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอป Finance and Operations
 
@@ -54,7 +54,7 @@ ms.locfileid: "6714534"
 > [!IMPORTANT]
 > ในครั้งแรกที่คุณเปิดแท็บ **วิธีใช้** คุณต้องเชื่อมต่อกับ Lifecycle Services ตรวจสอบให้แน่ใจว่าเลือกลิงก์ในกึ่งกลางของแบบฟอร์ม รอการเชื่อมต่อ ปิดกล่องโต้ตอบ และจากนั้นเลือก **ตกลง** เพื่อเข้าถึงหน้า **พารามิเตอร์ระบบ**
 >
-> [![เชื่อมต่อไปยัง LCS](./media/connect-to-lcs-crop-1024x365.png "เชื่อมต่อไปยัง LCS"](./media/connect-to-lcs-crop.png)
+> [![เชื่อมต่อกับ LCS](./media/connect-to-lcs-crop-1024x365.png "เชื่อมต่อกับ LCS")](./media/connect-to-lcs-crop.png)
 
 1. เลือกโครงการ Lifecycle Services เพื่อเชื่อมต่อ
 2. เลือกไลบรารี BPM (ภายในโครงการที่เลือก) เพื่อดึงข้อมูลการบันทึกงาน

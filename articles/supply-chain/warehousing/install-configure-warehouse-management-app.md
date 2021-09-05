@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782358"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384622"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ
 
@@ -150,7 +150,7 @@ ms.locfileid: "6782358"
 | ConnectionName | ระบุชื่อของการตั้งค่าการเชื่อมต่อ ความยาวสูงสุดคือ 20 อักขระ เนื่องจากค่านี้เป็นตัวระบุเฉพาะสำหรับการตั้งค่าการเชื่อมต่อ ให้ตรวจสอบให้แน่ใจว่ามีเฉพาะในรายการ ถ้ามีการเชื่อมต่อที่มีชื่อเดียวกันอยู่แล้วบนอุปกรณ์นั้น มันจะถูกแทนที่ด้วยการตั้งค่าจากไฟล์ที่นำเข้า |
 | ActiveDirectoryClientAppId | ระบุรหัสของไคลเอนต์ที่คุณได้บันทึกไว้ในขณะที่คุณกำลังตั้งค่า Azure AD ในส่วน [สร้างแอปพลิเคชันบริการเว็บใน Azure Active Directory](#create-service) |
 | ActiveDirectoryResource | ระบุ URL รากของ Supply Chain Management |
-| ActiveDirectoryTenant | ระบุผู้เช่า Azure AD ที่คุณกำลังใช้ร่วมกับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-tenant-ID>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` |
+| ActiveDirectoryTenant | ระบุชื่อโดเมน Azure AD ที่คุณกำลังใช้ร่วมกับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-domain-name>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีค้นหาชื่อโดเมน Azure AD ของคุณ โปรดดูที่ [การระบุรหัสที่สําคัญของผู้ใช้](/partner-center/find-ids-and-domain-names) |
 | บริษัท | ระบุนิติบุคคลใน Supply Chain Management ที่คุณต้องการให้แอปพลิเคชันเชื่อมต่อด้วย |
 | ConnectionType | (ไม่จำเป็น) ระบุว่าการตั้งค่าการเชื่อมต่อควรใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์ในการเชื่อมต่อกับสภาพแวดล้อม ค่าที่ถูกต้องคือ *"certificate"* และ *"clientsecret"* ค่าเริ่มต้นคือ *"certificate"*<p>**หมายเหตุ:** ไม่สามารถนำเข้าข้อมูลลับของไคลเอนต์</p> |
 | IsEditable | (ไม่จำเป็น) ระบุว่าผู้ใช้แอปพลิเคชันควรสามารถแก้ไขการตั้งค่าการเชื่อมต่อได้หรือไม่ ค่าที่ถูกต้องคือ *"จริง"* และ *"เท็จ"* ค่าเริ่มต้นคือ *"จริง"* |
@@ -268,7 +268,7 @@ ms.locfileid: "6782358"
         > [!IMPORTANT]
         > อย่าจบค่านี้โดยใช้เครื่องหมายทับ (/)
 
-    - **ผู้เช่า Active directory** – ป้อนผู้เช่า Azure AD ที่คุณกำลังใช้กับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-tenant-ID>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com`
+    - **ผู้เช่า Active directory** – ป้อนชื่อโดเมน Azure AD ที่คุณกำลังใช้กับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-domain-name>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีค้นหาชื่อโดเมน Azure AD ของคุณ โปรดดูที่ [การระบุรหัสที่สําคัญของผู้ใช้](/partner-center/find-ids-and-domain-names)
 
         > [!IMPORTANT]
         > อย่าจบค่านี้โดยใช้เครื่องหมายทับ (/)

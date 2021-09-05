@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751109"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344989"
 ---
 # <a name="planning-optimization-fit-analysis"></a>การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
 
@@ -51,6 +51,9 @@ ms.locfileid: "6751109"
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>ภาพรวมของผลลัพธ์ที่เป็นไปได้จากการวิเคราะห์การปรับให้เหมาะสม
 
 ตารางต่อไปนี้แสดงผลลัพธ์ต่างๆ ที่สามารถแสดงได้ หลังจากการวิเคราะห์การปรับให้เหมาะสม ป้ายหมายเลข (_\#_) จะถูกแทนที่ด้วยหมายเลขที่บ่งชี้จำนวนของเรกคอร์ดที่มีปัญหาที่แสดงรายการ คุณลักษณะที่สนับสนุนหรือแสดงตัวอย่างสามารถใช้งานกับรุ่น 10.0.9 หรือใหม่กว่าได้ (ยกเว้นว่าหมายเลขรุ่นที่สูงกว่าจะแสดงรายการอยู่ในคอลัมน์ "ความพร้อมใช้งานที่คาดไว้")
+
+> [!NOTE]
+> ความไม่สอดคล้องกันบางรายการไม่สามารถระบุโดยการวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน สำหรับข้อมูลเพิ่มเติม ให้ดู [ความแตกต่างระหว่างการวางแผนหลักคลาสสิกและประสิทธิภาพการวางแผน](planning-optimization-differences-with-built-in.md)
 
 | ลักษณะการทำงาน | ปัญหาที่แสดงรายการ | คำอธิบาย | ความพร้อมใช้งานที่คาดไว้ |
 | --- | --- | --- | --- |
@@ -106,7 +109,11 @@ ms.locfileid: "6751109"
 
 [เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
 
-[ดูประวัติการวางแผนและล็อกการวางแผน](plan-history-logs.md)
+[ความแตกต่างระหว่างการวางแผนหลักคลาสสิกและการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-differences-with-built-in.md)
+
+[พารามิเตอร์ที่ไม่ได้ใช้โดยการเพิ่มประสิทธิภาพการวางแผน](not-used-parameters.md)
+
+[ดูประวัติแผนและบันทึกการวางแผน](plan-history-logs.md)
 
 [ใช้ตัวกรองกับแผน](plan-filters.md)
 

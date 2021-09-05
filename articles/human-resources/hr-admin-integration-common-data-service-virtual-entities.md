@@ -1,8 +1,8 @@
 ---
 title: ตั้งค่าคอนฟิกตารางเสมือน Dataverse
-description: หัวข้อนี้แสดงวิธีการตั้งค่าคอนฟิกตารางเสมือนสำหรับ Dynamics 365 Human Resources สร้างและอัพเดตข้อมูลตารางเสมือนที่มีอยู่ และวิเคราะห์ตารางที่สร้างและพร้อมใช้งาน
-author: andreabichsel
-ms.date: 01/25/2021
+description: หัวข้อนี้แสดงวิธีการตั้งค่า สร้าง อัปเดตตารางเสมือนที่มีอยู่ และวิเคราะห์ตารางที่สร้างและตารางที่พร้อมใช้งานสำหรับ Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721618"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414675"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 
@@ -140,6 +140,9 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
      >[!NOTE]
      >ตรวจสอบให้แน่ใจว่าได้รวมอักขระ "**/**" เมื่อสิ้นสุด URL เพื่อหลีกเลี่ยงการรับข้อผิดพลาด
+
+     >[!NOTE]
+     >URL เป้าหมายจะระบุสภาพแวดล้อมของทรัพยากรบุคคลที่ตารางเสมือนจะชี้ไปยังข้อมูล ถ้าคุณสร้างสภาพแวดล้อมภายในโดยการสร้างสําเนาของสภาพแวดล้อมการทำงานจริงของคุณ ให้อัปเดตค่านี้เป็นชื่อ URL ของสภาพแวดล้อม Sandbox ใหม่ของคุณ สิ่งนี้ช่วยให้มั่นใจว่าตารางเสมือนจะเชื่อมต่อกับข้อมูลสภาพแวดล้อมอัตโนมัติ แทนที่จะชี้ไปที่สภาพแวดล้อมการทำงานจริงต่อไป
 
    - **รหัสผู้เช่า**: รหัสผู้เช่า Azure Active Directory (Azure AD)
 

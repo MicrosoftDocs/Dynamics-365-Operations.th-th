@@ -1,8 +1,8 @@
 ---
 title: รันกระบวนการค่าตอบแทน
-description: บทความนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้ากำลังพยายามรันกระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใด ๆ
-author: andreabichsel
-ms.date: 02/03/2020
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้ากำลังพยายามรันกระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใดๆ
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e4df1791420966995f305866defe9103c83c18d4ac306fdd3e3c90aba38b1e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8355ca25e6b4643f3f7fe6ad9405eb857da26911
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722618"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413324"
 ---
 # <a name="run-the-compensation-process"></a>รันกระบวนการค่าตอบแทน
 

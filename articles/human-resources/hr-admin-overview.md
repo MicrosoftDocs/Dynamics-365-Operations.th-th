@@ -1,8 +1,8 @@
 ---
 title: ภาพรวมการจัดการ
-description: คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 02/03/2020
+description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ เพื่อตั้งค่า จัดการและแก้ไข Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765625"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393582"
 ---
 # <a name="administration-overview"></a>ภาพรวมการจัดการ
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765625"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ เพื่อตั้งค่า จัดการและแก้ไข Dynamics 365 Human Resources
 
 - [ความต้องการของระบบ](hr-admin-system-requirements.md)
 
@@ -92,14 +92,23 @@ ms.locfileid: "6765625"
   - [เรียกใช้กระบวนการค่าตอบแทน](hr-admin-troubleshooting-compensation.md)
   - [บันทึกคู่มืองานไปยัง LCS](hr-admin-troubleshooting-task-guide.md)
   - [เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย](hr-admin-troubleshooting-private-addresses.md)
-  - [ทรัพยากรบุคคลไม่มีปรากฏในแอป Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources ไม่ปรากฏในแอป Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [ตัวเลือกในการรายงาน](hr-admin-troubleshooting-reporting.md)
-  - [FAQ เกี่ยวกับการรวม](hr-admin-troubleshooting-integration.md)
+  - [คำถามที่ถามบ่อยเกี่ยวกับการรวม](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+### <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)
+
+### <a name="videos"></a>วิดีโอ
+
+ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
-- [คู่มือนักพัฒนา](hr-developer-overview.md)
+- [มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)
+- [คู่มือสำหรับนักพัฒนา](hr-developer-overview.md)
 - [คู่มือผู้ใช้](hr-hrpro-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

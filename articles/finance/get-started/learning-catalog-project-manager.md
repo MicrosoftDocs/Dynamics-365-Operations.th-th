@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716632"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402187"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>แค็ตตาล็อกการเรียนรู้ของผู้จัดการโครงการสำหรับการใช้งานที่ทำงานกับ Dynamics 365 Finance
 
@@ -61,7 +61,6 @@ ms.locfileid: "6716632"
 | [วิธีการปรับรุ่นเป็น 7.2 (กรกฎาคม 2017) จาก 7.0 (RTW)/7.1 (การนำออกใช้ 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | ในรอบเวลานี้เราจะอธิบายวิธีการอัปเกรดจากแอพลิเคชัน Dynamics 365 Finance and Operations v 7.0 (RTW) และ v 7.1 (1611) เป็น v 7.2 (กรกฎาคม 2017) เราให้ความแตกต่างที่ชัดเจนระหว่างลูกค้าที่มีอยู่จริงและโครงการต่อเนื่อง (ยังไม่ได้ใช้งานจริง) | การพูดคุยเกี่ยวกับเทคโนโลยี (Webinars ที่บันทึกไว้) | 58 นาที |
 | [Finance and Operations: การอัปเกรดจาก 7.x เป็น 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับเทคโนโลยีระหว่างที่เราจะครอบคลุมถึงขั้นตอนการอัปเกรด 7 X ถึง 8 X เราจะกล่าวถึงสถานการณ์ต่างๆและขั้นตอนที่จะดำเนินการสำหรับการอัปเกรดโค้ดและการอัปเกรดข้อมูล นอกจากนี้เราจะครอบคลุมสถานการณ์การร้องขอการเพิ่มความสามารถและวิธีการเพิ่มความเหมาะสม ส่วนที่1จาก2 | การพูดคุยเกี่ยวกับเทคโนโลยี (Webinars ที่บันทึกไว้) | 61 นาที |
 | [AX2012 อัปเกรดเป็น Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | การสนทนาเทคโนโลยีนี้จะให้ภาพรวมเกี่ยวกับวิธีการอัปเกรดโค้ดและข้อมูลจาก Dynamics AX 2012 ไปยัง Dynamics 365 for Operations | การพูดคุยเกี่ยวกับเทคโนโลยี (Webinars ที่บันทึกไว้) | 45 นาที |
-| [ตัวเลือกในการรายงานใน Dynamics 365 for Operations (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | รอบเวลานี้จะกล่าวถึงสถานการณ์การพิมพ์ต่างๆใน D365 สำหรับการดำเนินงานรวมทั้งคำแนะนำและเคล็ดลับสำหรับตัวแทนการกำหนดเส้นทางเอกสาร | การพูดคุยเกี่ยวกับเทคโนโลยี (Webinars ที่บันทึกไว้) | 60 นาที |
 | [ตัวเลือกการวิเคราะห์และการรายงาน: การพิมพ์และตัวแทนการกำหนดเส้นทางเอกสาร](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับสองหัวข้อที่เกี่ยวข้อง ก่อนอื่นเราจะหารือเกี่ยวกับรูปแบบโซลูชันการวิเคราะห์และการรายงานและเครื่องมือสำหรับ Dynamics 365 for Finance and Operations, Enterprise Edition ประการที่สองเราจะหารือเกี่ยวกับการพิมพ์สถานการณ์จำลองและตัวแทนการกำหนดเส้นทางเอกสาร | การพูดคุยเกี่ยวกับเทคโนโลยี (Webinars ที่บันทึกไว้) | 45 นาที |
 | [หลักสูตร MB-300T01: ลักษณะการทำงานหลักโดยทั่วไปของ Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | หลักสูตรนี้กล่าวถึงลักษณะการทำงานหลักโดยทั่วไปของ Microsoft Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
 | [หลักสูตร MB-300T02-A: การตั้งค่าคอนฟิกหลักใน Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | หลักสูตรนี้กล่าวถึงงานการตั้งค่าคอนฟิกหลักสำหรับ Microsoft Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
@@ -93,6 +92,5 @@ ms.locfileid: "6716632"
 | [การสอบ MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ใช้ฟังก์ชันทั่วไปและเครื่องมือการใช้งาน ตั้งค่าคอนฟิกความปลอดภัย กระบวนการ และตัวเลือก ดำเนินการย้ายข้อมูล และตรวจสอบความถูกต้องและการสนับสนุนโซลูชัน | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [การสอบ MB-310: การเงิน Microsoft Dynamics 365 for Finance and Operations](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | การสอบนี้จะวัดความสามารถของคุณในการบรรลุงานด้านเทคนิคต่อไปนี้: ตั้งค่าและตั้งค่าคอนฟิกการจัดการทางการเงิน จัดการและใช้กระบวนการทั่วไป ดำเนินการและจัดการบัญชีเจ้าหนี้และบัญชีลูกหนี้ และจัดการการจัดทำงบประมาณและสินทรัพย์ถาวร | การสอบต้นทุนจะแตกต่างกันไปตามภูมิภาค |
 | [Microsoft Certified: Dynamics 365 for Finance and Operations Financials Functional Consultant Associate](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Certified: Dynamics 365 for Finance and Operations ผู้ที่ปรึกษาทำงานด้านการเงินรวมทั้งการเงินโลกและการดำเนินงานและทำให้งานและลำดับงานโดยอัตโนมัติ ปรับปรุงการสั่งซื้อของลูกค้า การขาย การออกใบแจ้งหนี้และการรายงาน | ใบรับรองต้นทุนจะแตกต่างกันไปตามภูมิภาค |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

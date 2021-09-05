@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713815"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344725"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>ภาพรวมการอัปเกรดของสมุดบัญชีค่าเสื่อมราคา
 
@@ -42,7 +42,7 @@ ms.locfileid: "6713815"
     -   ชื่อค่าคงที่: **NumberSequenceDefaultParameterPrefix**
     -   ค่าเริ่มต้น: "FADBUpgr"
 -   **ความยาวของตัวอักษรและตัวเลข** – ความยาวของเซ็กเมนต์ตัวอักษรและตัวเลขของลำดับหมายเลข
-    -   ชื่อค่าคงที่: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   ชื่อค่าคงที่: **NumberSequenceDefaultParameterAlpanumericLength**
     -   ค่าเริ่มต้น: 9
 -   **หมายเลขเริ่มต้น** - หมายเลขเริ่มต้นที่จะใช้ในลำดับหมายเลข
     -   ชื่อค่าคงที่: **NumberSequenceDefaultParameterStartNumber**
@@ -51,10 +51,10 @@ ms.locfileid: "6713815"
 ตัวเลือกที่ 2: **ลำดับหมายเลขที่ผู้ใช้กำหนดที่มีอยู่** -ตัวเลือกนี้จะช่วยให้คุณสามารถกำหนดลำดับหมายเลขที่จะใช้สำหรับการอัพเกรด พิจารณาการใช้ตัวเลือกนี้ถ้าคุณต้องการการตั้งค่าคอนฟิกลำดับหมายเลขขั้นสูง เมื่อต้องการใช้ลำดับหมายเลข คุณต้องแก้ไขคลาสการอัพเกรด ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans กับข้อมูลต่อไปนี้:
 
 -   **รหัสลำดับหมายเลข** – รหัสของลำดับหมายเลข
-    -   ชื่อค่าคงที่: **NumberSequenceExistingCode **
+    -   ชื่อค่าคงที่: **NumberSequenceExistingCode**
     -   ค่าเริ่มต้น: ไม่มีค่าเริ่มต้น ต้จะต้องอัพเดตเป็นรหัสลำดับหมายเลข
 -   **ลำดับหมายเลขที่ใช้ร่วมกัน** – ค่าบูลีนเพื่อระบุขอบเขตของลำดับหมายเลข ใช้ "จริง" สำหรับลำดับหมายเลขที่ใช้ร่วมกันทั่วทั้งบริษัท และ "เท็จ" สำหรับขอบเขตเฉพาะบริษัท เมื่อใช้ "เท็จ" ลำดับหมายเลขที่มีชื่อที่ระบุจะต้องมีอยู่ในบริษัททั้งหมดที่มีธุรกรรมสมุดบัญชีค่าเสื่อมราคา ลำดับหมายเลขที่ใช้ร่วมกันจะอยู่ในทุกพาร์ติชันที่มีธุรกรรมสมุดบัญชีค่าเสื่อมราคา
-    -   ชื่อค่าคงที่: **NumberSequenceExistingIsShared **
+    -   ชื่อค่าคงที่: **NumberSequenceExistingIsShared**
     -   ค่าเริ่มต้น: จริง
 
 พารามิเตอร์อยู่ที่จุดเริ่มต้นของคลาส ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans 

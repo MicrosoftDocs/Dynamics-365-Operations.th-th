@@ -16,12 +16,12 @@ ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c82f4885e70431f3da1b9574604c07387e097d671de46ff58a0a8299ac78ed42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d30e1b2271c6de987837198222cfe92a3d21d620
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778126"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403883"
 ---
 # <a name="journal-reports-posting-journals"></a>รายงานสมุดรายวัน (การลงรายการบัญชีสมุดรายวัน)
 

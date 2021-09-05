@@ -1,5 +1,5 @@
 ---
-title: โฮมเพจ Finance Insights (ตัวอย่าง)
+title: โฮมเพจ Finance Insights
 description: Finance Insights จะให้แบบจำลองที่สามารถจัดโครงแบบได้และมีการขยายตัวเพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณได้อย่างถูกต้อง คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถเพิ่มความเร็วในการจัดทำงบ ลักษณะการทำงานทั้งหมดเหล่านี้จะขึ้นอยู่กับแบบจำลองการเรียนรู้ของเครื่องอัจฉริยะ
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8c9d5b9857e978eb5e591f4d854d687f33b438025e81fe2c827ab7ecdb2be4e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768830"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386397"
 ---
-# <a name="finance-insights-home-page-preview"></a>โฮมเพจ Finance Insights (ตัวอย่าง)
+# <a name="finance-insights-home-page"></a>โฮมเพจ Finance Insights
 
 [!include [banner](../includes/banner.md)]
 

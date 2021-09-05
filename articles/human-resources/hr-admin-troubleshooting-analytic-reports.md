@@ -1,8 +1,8 @@
 ---
 title: รายงานการวิเคราะห์การแก้ไขปัญหา
-description: บทความนี้อธิบายสิ่งที่ต้องทำ ถ้าการเปลี่ยนแปลงข้อมูลของลูกค้าไม่ปรากฏในพื้นที่ทำงานใด ๆ ของลูกค้า
-author: andreabichsel
-ms.date: 02/03/2020
+description: หัวข้อนี้อธิบายการวิเคราะห์การแก้ไขปัญหา ถ้าการเปลี่ยนแปลงข้อมูลของลูกค้าไม่ปรากฏในพื้นที่ทำงานใดๆ ของลูกค้า
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d4e76f3b6231b6f307173fa176360daf775c8a7950bc4ab2f2162c768102c369
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d085c041c1d12eef1271fd3f78262be19fd0629
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717425"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413446"
 ---
 # <a name="troubleshoot-analytic-reports"></a>รายงานการวิเคราะห์การแก้ไขปัญหา
 

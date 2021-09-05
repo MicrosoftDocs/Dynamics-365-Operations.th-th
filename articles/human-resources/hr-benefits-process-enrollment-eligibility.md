@@ -1,8 +1,8 @@
 ---
-title: ประมวลผลการมีสิทธิ์ในการลงทะเบียน
-description: บทความนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
-author: andreabichsel
-ms.date: 04/06/2020
+title: ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
+description: หัวข้อนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782083"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417495"
 ---
-# <a name="process-enrollment-eligibility"></a>ประมวลผลการมีสิทธิ์ในการลงทะเบียน
+# <a name="process-enrollment-eligibility"></a>ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
+หัวข้อนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
 
 1. ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการมีสิทธิ์ในการลงทะเบียน**
 
@@ -53,11 +53,11 @@ ms.locfileid: "6782083"
 
 ## <a name="view-process-results"></a>ดูผลลัพธ์ของกระบวนการ
 
-บทความนี้อธิบายถึงวิธีการดูผลลัพธ์กระบวนการการมีสิทธิ์
+หัวข้อนี้อธิบายถึงวิธีการดูผลลัพธ์กระบวนการการมีสิทธิ์
 
 1.  ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **ผลลัพธ์ของกระบวนการ**
 
-2.  ในแบบฟอร์ม **ผลลัพธ์ของกระบวนการ** จะมีการระบุฟิลด์ต่อไปนี้ดังนี้:
+2.  ในหน้า **ผลลัพธ์ของกระบวนการ** จะมีการระบุฟิลด์ต่อไปนี้ดังนี้:
 
    | ฟิลด์ | คำอธิบาย |
    | --- | --- |

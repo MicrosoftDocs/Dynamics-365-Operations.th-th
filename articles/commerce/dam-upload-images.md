@@ -2,7 +2,7 @@
 title: อัพโหลดรูปภาพ
 description: หัวข้อนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423266"
 ---
 # <a name="upload-images"></a>อัพโหลดรูปภาพ
 
@@ -52,10 +52,17 @@ ms.locfileid: "6757409"
 - รูปภาพของประเภทควรมีชื่อว่า "**/Categories/\{CategoryName\}.png**"
 - รูปภาพของลูกค้าควรมีชื่อว่า "**/Customers/\{CustomerNumber\}.jpg**"
 - รูปภาพพนักงานควรมีชื่อว่า "**/Workers/\{WorkerNumber\}.jpg**
-- รูปภาพของผลิตภัณฑ์ควรมีชื่อว่า "**/Products/\{ProductNumber\}_000_001.png**"
+- รูปภาพของผลิตภัณฑ์ควรมีชื่อว่า "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 เป็นลำดับของรูปภาพ และอาจเป็น 001 002 003 004 หรือ 005
 - รูปภาพของผลิตภัณฑ์ย่อยควรมีชื่อว่า "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - ตัวอย่างเช่น: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - ตัวอย่างเช่น: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- รูปภาพของผลิตภัณฑ์ย่อยที่มีมิติการกำหนดค่าควรมีชื่อว่า "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - ตัวอย่างเช่น: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> ในรูปผลิตภัณฑ์ย่อย ถ้าค่ามิติว่างเปล่า ต้องมีพื้นที่ว่างสองอย่างระหว่างเครื่องหมายในชื่อไฟล์
+
+ตัวอย่างข้างต้นใช้การตั้งค่าคอนฟิกเริ่มต้น อักขระตัวแบ่งและมิติสามารถตั้งค่าคอนฟิกได้ และการตั้งชื่อที่กําหนดอาจเปลี่ยนแปลงได้ระหว่างการปรับใช้ต่างๆ วิธีการหนึ่งในการระบุแบบแผนการตั้งชื่อที่แน่นอนซึ่งต้องการคือ การใช้คอนโซลนักพัฒนาของเบราเซอร์เพื่อตรวจสอบคำขอรูปภาพของผลิตภัณฑ์ย่อยขณะเปลี่ยนมิติของผลิตภัณฑ์ในหน้ารายละเอียดผลิตภัณฑ์หน้าร้าน (PDP)
 
 ## <a name="upload-an-image"></a>อัพโหลดรูปภาพ
 

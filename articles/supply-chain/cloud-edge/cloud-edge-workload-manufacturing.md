@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721474"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345310"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
 
@@ -44,7 +44,7 @@ ms.locfileid: "6721474"
 
 ดังภาพที่แสดงต่อไปนี้ วงจรการผลิตจะถูกแบ่งออกเป็นสามระยะ ได้แก่ *วางแผน* *ดำเนินการ* และ *จบการทำงาน*
 
-[! [ระยะการปฏิบัติการผลิตเมื่อใช้สภาพแวดล้อมเดียว](media/mes-phases.png "ระยะการปฏิบัติการผลิตเมื่อใช้สภาพแวดล้อมเดียว"](media/mes-phases-large.png)
+[![ระยะการดำเนินการผลิตเมื่อมีการใช้สภาพแวดล้อมเดียว](media/mes-phases.png "ระยะการดำเนินการผลิตเมื่อมีการใช้สภาพแวดล้อมเดียว")](media/mes-phases-large.png)
 
 ระยะของ _แผน_ รวมถึงข้อกำหนดผลิตภัณฑ์ การวางแผน การสร้างใบสั่งและการจัดกำหนดการ และการนำออกใช้ ขั้นตอนการนำออกใช้บ่งชี้การเปลี่ยนจากระยะ _แผน_ ไปยังระยะ _ดำเนินการ_ เมื่อมีการนำใบสั่งผลิตออกใช้ งานใบสั่งผลิตจะมองเห็นได้บนชั้นการผลิตและพร้อมสำหรับการดำเนินการ
 
@@ -54,7 +54,7 @@ ms.locfileid: "6721474"
 
 ดังภาพที่แสดงต่อไปนี้ เมื่อมีการใช้ scale unit ระยะ _การดำเนินการ_ จะถูกแบ่งออกเป็นปริมาณงานที่แยกกัน
 
-[![ระยะการปฏิบัติการผลิตเมื่อใช้หน่วยสเกล](media/mes-phases-workloads.png "ระยะการปฏิบัติการผลิตเมื่อใช้หน่วยสเกล"](media/mes-phases-workloads-large.png)
+[![ระยะการดำเนินการผลิตเมื่อมีการใช้ scale unit](media/mes-phases-workloads.png "ระยะการดำเนินการผลิตเมื่อมีการใช้ scale unit")](media/mes-phases-workloads-large.png)
 
 แบบจำลองเดี๋ยวนี้จะมาจากการติดตั้งอินสแตนซ์เดียวกับแบบจำลองที่ยึดตามฮับและ scale unit ระยะ _แผน_ และ _การเสร็จสิ้น_ จะรันเป็นการดำเนินงานของฝ่ายสนับสนุนบนฮับ และปริมาณงานการดำเนินการผลิตจะรันบน scale unit ข้อมูลจะถูกโอนย้ายแบบอะซิงโครนัสระหว่างฮับและ scale unit
 
