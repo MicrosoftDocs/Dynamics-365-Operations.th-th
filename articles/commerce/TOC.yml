@@ -6,6 +6,8 @@
           href: index.md
         - name: เริ่มต้นใช้งาน
           items:
+            - name: คำอธิบายการบริการ
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: ก่อนที่คุณจะซื้อ
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
             - name: การอัปเดตบริการแบบหนึ่งเวอร์ชัน
@@ -92,8 +94,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   items:
-                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.22 (พฤศจิกายน 2021)
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (ตุลาคม 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (สิงหาคม 2021)
@@ -254,8 +258,12 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: การแก้ไขปัญหาของ Commerce Data Exchange
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: เรียงลำดับแพคเกจ Commerce Data Exchange ตามดัชนีหลัก
+                      href: CDX-package-sort.md
                 - name: สถาปัตยกรรม Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: การใช้งานแบบออฟไลน์ของ Commerce และการแก้ไขปัญหา
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: เผยแพร่แค็ตตาล็อกร้านค้าออนไลน์
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: เนื้อหาของ Retail Channel Performance Power BI
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: ซิงค์การให้คะแนนผลิตภัณฑ์
                   href: sync-product-ratings.md
+                - name: เปิดใช้งานการเผยแพร่การจัดอันดับและบทวิจารณ์ด้วยตนเอง โดยผู้ควบคุม
+                  href: manual-publish-rating-reviews.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์
+                  href: ratings-reviews-faq.md
             - name: จัดการสินค้าคงคลังของคุณ
               items:
                 - name: สินค้าคงคลัง
@@ -754,6 +766,8 @@
                   href: multiple-pickup-modes.md
                 - name: ประมวลผลการเบิกสินค้าตามใบสั่งของลูกค้าใน POS
                   href: process-order-pickup-POS.md
+                - name: เปิดใช้งานการค้นหาใบสั่งเพื่อการชำระเงินของผู้เยี่ยมชม
+                  href: order-lookup-guest.md
             - name: ใบสั่งขาย
               items:
                 - name: สร้างใบสั่งของศูนย์บริการ
@@ -1140,12 +1154,14 @@
                       href: delivery-options-module.md
                     - name: โมดูลข้อมูลการรับสินค้า
                       href: pickup-info-module.md
-                    - name: โมดูลเช็คอินสำหรับการรับสินค้า
+                    - name: เช็คอินโมดูลการเบิกสินค้า
                       href: check-in-pickup-module.md
                     - name: โมดูลรายละเอียดใบสั่ง
                       href: order-confirmation-module.md
                     - name: โมดูลบัตรของขวัญ
                       href: add-giftcard.md
+                    - name: โมดูลค้นหาใบสั่ง
+                      href: order-lookup-module.md
                 - name: โมดูลการค้นหาร้านค้า
                   items:
                     - name: โมดูลการแม็ป
@@ -1174,7 +1190,9 @@
                       href: nav-menu-module.md
                     - name: โมดูลตัวเลือกไซต์
                       href: site-selector.md
-                - name: ค้นหาโมดูล
+                    - name: โมดูลตัวเลือกประเทศ/ภูมิภาค
+                      href: country-region-picker-module.md
+                - name: โมดูลการค้นหา
                   items:
                     - name: โมดูลผลการค้นหา
                       href: search-result-module.md
@@ -1196,6 +1214,8 @@
               items:
                 - name: การกําหนดเป้าหมายอุปกรณ์ ตลาด และตําแหน่งทางภูมิศาสตร์
                   href: targeting-overview.md
+                - name: ตั้งค่าการตรวจหาตำแหน่งและเปลี่ยนเส้นทาง
+                  href: geo-detection-redirection.md
             - name: การทดสอบ
               items:
                 - name: การทดสอบใน Dynamics 365 Commerce
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: Regulatory Configuration Service (RCS)
               items:
-                - name: ภาพรวม Regulatory Configuration Service
+                - name: ภาพรวมของ Regulatory Configuration Service (RCS)
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
+                - name: (RCS) Regulatory configuration service (RCS) - คุณลักษณะแบบโลกาภิวัตน์
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory configuration service และอัปโหลดไปยังที่เก็บส่วนกลาง
+                - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Service (RCS) และอัปโหลดไปยังที่เก็บส่วนกลาง
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
+                - name: Regulatory Configuration Service (RCS) - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Commerce
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: ที่เก็บส่วนกลาง (GR)
-                  items:
-                    - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: ออสเตรีย
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
@@ -1888,6 +1908,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: ภาพรวมของ Regulatory Configuration Service (RCS)
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Commerce
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
@@ -1944,13 +1988,19 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสาร
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: ใช้บาร์โค้ดเพื่อสร้างรูปภาพบาร์โค้ด
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ตั้งค่าคอนฟิกแหล่งข้อมูล การค้นหา เพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบ ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: ใช้บาร์โค้ดเพื่อสร้างรูปภาพบาร์โค้ด
+                    - name: ใช้ บาร์โค้ด เพื่อสร้างรูปภาพบาร์โค้ด
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลอง
                   items:
-                    - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                    - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2014,7 +2064,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทางที่ขึ้นอยู่กับการดำเนินการ
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                    - name: ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดของการจัดการการพิมพ์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: Application update 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: Application update 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
@@ -2072,6 +2126,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: เปลี่ยนรหัสเพื่อให้ผู้ใช้สามารถตั้งค่าคอนฟิกและใช้ปลายทาง ER ที่ระบุชื่อ
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
         - name: แอป Finance and Operations (Dynamics 365) สำหรับอุปกรณ์เคลื่อนที่
           items:
             - name: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -2456,10 +2512,6 @@
               items:
                 - name: สถาปัตยกรรมของ Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: การเปลี่ยนแปลงที่จะมาถึงใน Retail SDK
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: การพัฒนาและการเปลี่ยนแปลง ALM จากรุ่น 10.0.10 เป็น 10.0.13
-                  href: dev-itpro/dev-changes-10-13.md
                 - name: ตั้งค่าไปป์ไลน์การสร้างสำหรับ SDK การจัดทำแพคเกจแบบอิสระ
                   href: dev-itpro/build-pipeline.md
                 - name: ผสานระบบการสร้างสำหรับ Commerce และ Finance and Operations
@@ -2586,9 +2638,7 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: สร้าง API ส่วนขยายของ Retail Server (Retail SDK รุ่น 10.0.11 และใหม่กว่า)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: สร้าง API ส่วนขยายของ Retail Server ใหม่ (Retail SDK เวอร์ชัน 10.0.11 และเก่ากว่า)
-                  href: dev-itpro/retail-server-extension.md
-                - name: Retail Typescript และพร็อกซี C#
+                - name: Retail Typescript และ C# proxies
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: ใช้ APIs ของ Retail Server ในโปรแกรมประยุกต์ภายนอก
                   href: dev-itpro/consume-retail-server-api.md
@@ -2704,9 +2754,11 @@
                   href: troubleshoot/pickup-store-missing.md
                 - name: สามารถเช็คเอาท์สินค้าที่ไม่มีสินค้าคงคลัง
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: รีไฟเนอร์การจัดอันดับจะปรากฏในหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานการจัดอันดับและโซลูชันบทวิจารณ์
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: การแก้ไขปัญหา SDK
               items:
-                - name: ตั้งค่าสภาพแวดล้อมการพัฒนาอีคอมเมิร์ซที่จะดีบักกับ VM เซิร์ฟเวอร์ขายปลีกระดับ 1
+                - name: ตั้งค่าสภาพแวดล้อมการพัฒนาอีคอมเมิร์ซที่จะดีบักกับ Retail Server VM ระดับ 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
     - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md

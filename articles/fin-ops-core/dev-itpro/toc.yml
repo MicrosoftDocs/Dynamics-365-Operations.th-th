@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
+                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับรุ่น 10.0.22 (พฤศจิกายน 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Platform update สำหรับรุ่น 10.0.21 (ตุลาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platform update สำหรับรุ่น 10.0.20 (สิงหาคม 2021)
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: ภาษาการสร้างโปรแกรม X++
               items:
-                - name: X++ และคุณสมบัติของดีบักเกอร์
-                  href: dev-tools/new-x-debugger-features.md
-                - name: ความต้องการของ Visual Studio 2017 สำหรับ X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: ดีบักโค้ด X++
-                  href: dev-tools/debug-xpp.md
-                - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
-                  href: dev-tools/event-handler-result-class.md
-                - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
-                  href: dev-tools/write-business-logic.md
-                - name: การเปลี่ยนแปลงใน X++ และคอมไพเลอร์ X++
-                  href: dev-tools/programming-language-support.md
-                - name: ผู้ให้บริการ LINQ สำหรับ C#
-                  href: dev-tools/linq-provider-c.md
-                - name: เขียนกฎแนวทางปฏิบัติ
-                  href: dev-tools/author-best-practice-rules.md
-                - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: การสนับสนุนภาษาของ X++
+                  items:
+                    - name: ความต้องการของ Visual Studio 2017 สำหรับ X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: ดีบักโค้ด X++
+                      href: dev-tools/debug-xpp.md
+                    - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
+                      href: dev-tools/event-handler-result-class.md
+                    - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
+                      href: dev-tools/write-business-logic.md
+                    - name: ผู้ให้บริการ LINQ สำหรับ C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: เขียนกฎแนวทางปฏิบัติ
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: การอ้างอิงภาษาของ X++
                   items:
                     - name: ภาพรวมของการอ้างอิงภาษาของ X++
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: ไลบรารี
                           href: dev-ref/xpp-library-objects.md
-                        - name: เหตุการณ์
+                        - name: เหตุการณ์และผู้รับมอบสิทธิ์
                           href: dev-ref/xpp-events.md
                     - name: การเลือกและการจัดการข้อมูล X++
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: การพัฒนาสำหรับผู้จัดจำหน่ายซอฟต์แวร์อิสระ
               items:
+                - name: โฮมเพจการพัฒนา ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: เชื่อมโยงโมดูล X++ กับแพคเกจโดยใช้ ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: การให้สิทธิ์ใช้งาน ISV
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: คู่มือการสอบถาม
               href: lifecycle-services/querycookbook.md
+            - name: การบอกรับเป็นสมาชิกและการลบข้อมูลที่หมดอายุ
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: ภาพรวมของ Dynamics 365 Translation Service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มแรก
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: ขีดจํากัดของการซิงโครไนส์แบบสด
+                      href: data-entities/dual-write/sync-limits.md
                     - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่

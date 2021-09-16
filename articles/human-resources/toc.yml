@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 23 สิงหาคม 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 09 สิงหาคม 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26 กรกฎาคม 2021
@@ -543,6 +545,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: จัดการเจ้าของสถานที่
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: ระบบลำดับงาน
               items:
                 - name: ภาพรวมของระบบลำดับงาน

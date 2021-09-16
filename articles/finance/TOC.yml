@@ -6,6 +6,8 @@
           href: index.md
         - name: เริ่มต้นใช้งาน
           items:
+            - name: คำอธิบายการบริการ
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: ก่อนที่คุณจะซื้อ
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
@@ -70,8 +72,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   items:
-                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.22 (พฤศจิกายน 2021)
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (ตุลาคม 2021)
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (สิงหาคม 2021)
@@ -1168,11 +1172,15 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: การปิดบัญชีสิ้นปีขาดยอดดุลยกมา
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: ฉันจะตั้งค่ามิติทางการเงินของการปรับสมดุลได้อย่างไร
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: เปิดเท็มเพลตสมุดรายวันทางการเงินใน Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: มิติทางการเงินเริ่มต้นในสมุดรายวันทางการเงิน
+                  href: general-ledger/dimension-default-values.md
                 - name: การลงรายการบัญชีสมุดรายวันล้มเหลวเนื่องจากความไม่สมดุล
                   href: general-ledger/posting-fail-imbalance.md
-                - name: ทำไมใดฉันจึงไม่สามารถกลับรายการธุรกรรมนี้
+                - name: เหตุใดฉันจึงไม่สามารถกลับรายการธุรกรรมนี้ได้
                   href: general-ledger/cant-reverse-transctns.md
         - name: การรายงานทางการเงิน
           items:
@@ -1470,19 +1478,19 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: บริการแบบโลกาภิวัตน์
               items:
-                - name: ภาพรวมบริการแบบโลกาภิวัตน์
+                - name: ภาพรวมของบริการแบบโลกาภิวัตน์
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory Configuration Service (RCS)
                   items:
-                    - name: ภาพรวม Regulatory Configuration Service
+                    - name: ภาพรวมของ Regulatory Configuration Service (RCS)
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory configuration service - คุณลักษณะที่ใช้ทั่วโลก
+                    - name: Regulatory configuration service (RCS) - คุณลักษณะแบบโลกาภิวัตน์
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Service และอัปโหลดไปยังที่เก็บส่วนกลาง
+                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Service (RCS) และอัปโหลดไปยังที่เก็บส่วนกลาง
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service - ลบสภาพแวดล้อม RCS
+                    - name: Regulatory Configuration Service (RCS) - ลบสภาพแวดล้อม RCS
                       href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
+                    - name: Regulatory Configuration Service (RCS) - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
                       items:
@@ -1550,6 +1558,8 @@
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: การกำหนด
                       items:
+                        - name: รูปแบบข้อมูลการคํานวณภาษี
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดภาษีขาย
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: การคำนวณ
@@ -1574,6 +1584,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: รายการขายใน EU
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: การรายงานของสวีเดน
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: การรายงานของสวิตเซอร์แลนด์
                           items:
                             - name: การรายงานภาษี VAT
@@ -2690,6 +2704,8 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: อินทราสแทตภาษาอิตาลี
                   href: localizations/emea-ita-intrastat.md
+                - name: ลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: ค่าธรรมเนียมเบ็ดเตล็ดต่อกิโลกรัมในการรายงานภาษีอินทราสแทต
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: หนังสือแสดงเจตนา - ผู้ส่งออกปกติที่ออกใบแจ้งหนี้
@@ -2982,6 +2998,8 @@
               items:
                 - name: ภาพรวมของโอมาน
                   href: localizations/oman.md
+                - name: การรายงานภาษี VAT สำหรับโอมาน (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: เนเธอร์แลนด์
               items:
                 - name: ภาพรวมของเนเธอร์แลนด์
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: รายงานการชำระภาษีขายสำหรับสวีเดน
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: การรายงานภาษี VAT สำหรับสวีเดน
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: อินทราสแทตภาษาสวีเดน
+                  href: localizations/emea-swe-intrastat.md
             - name: สวิตเซอร์แลนด์
               items:
                 - name: ภาพรวมของสวิตเซอร์แลนด์
@@ -3420,9 +3442,31 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: การรายงานของสหราชอาณาจักร
+                  items:
+                    - name: การทำให้ภาษีเป็นแบบดิจิทัล (MTD) สำหรับ VAT
+                      items:
+                        - name: การทำการส่งคืน VAT ของ Tax Digital (MTD) ในสหราชอาณาจักร
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: จัดเตรียมสภาพแวดล้อมของคุณเพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD VAT ของ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: อนุมัติสภาพแวดล้อม Finance ของคุณ เพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD ของ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: ทดสอบการรวมระบบระหว่างบริษัทกับ MTD VAT Sandbox
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: ส่งการส่งคืน VAT ไปยังเว็บเซอร์วิส MTD ของ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: รายการตรวจสอบการตั้งค่าข้อความอิเล็กทรอนิกส์ของ MTD VAT
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: สร้างรายงานการรายงานภาษี VAT ในรูปแบบกระดาษ (รายงาน VAT 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: รายละเอียดการตั้งค่า VAT เกี่ยวกับการรายงาน VAT ในสหราชอาณาจักร
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: ดึงข้อมูลเกี่ยวกับการชำระ VAT และหนี้สินจาก HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: สถิติเกี่ยวกับรายงานแนวทางปฏิบัติในการชำระเงิน
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
-            - name: สหรัฐอเมริกา
+            - name: สหรัฐ
               items:
                 - name: ภาพรวมของสหรัฐอเมริกา
                   href: localizations/united-states.md
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: ภาพรวมของ Regulatory Configuration Service (RCS)
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Finance
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: คู่มือการเริ่มต้นแบบด่วน
               items:
                 - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
@@ -4205,13 +4273,15 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: ใช้บาร์โค้ดเพื่อสร้างรูปภาพบาร์โค้ด
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: ตั้งค่าคอนฟิกแหล่งข้อมูลการค้นหาเพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
+                    - name: ตั้งค่าคอนฟิกแหล่งข้อมูล การค้นหา เพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบ ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลอง
                   items:
-                    - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
+                    - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -4275,7 +4345,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทางที่ขึ้นอยู่กับการดำเนินการ
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                    - name: ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดของการจัดการการพิมพ์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: Application update 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: Application update 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
@@ -4333,6 +4407,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+                - name: เปลี่ยนรหัสเพื่อให้ผู้ใช้สามารถตั้งค่าคอนฟิกและใช้ปลายทาง ER ที่ระบุชื่อ
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
             - name: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
