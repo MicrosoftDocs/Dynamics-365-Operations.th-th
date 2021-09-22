@@ -1,8 +1,8 @@
 ---
 title: ตั้งค่ารหัสเหตุผล
 description: Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่ออธิบายว่าเหตุใดสวัสดิการของพนักงานจึงเปลี่ยนไป
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732692"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431353"
 ---
 # <a name="set-up-reason-codes"></a>ตั้งค่ารหัสเหตุผล
 
@@ -29,7 +29,7 @@ ms.locfileid: "6732692"
 Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่ออธิบายว่าเหตุใดสวัสดิการของพนักงานจึงเปลี่ยนไป
 
 > [!NOTE]
-> ณ วันที่ 2021 มกราคม รหัสเหตุผลย้ายไปยังพื้นที่ทำงาน **การจัดการบุคลากร** แทนพื้นที่ทำงาน **การจัดการสวัสดิการ** สำหรับข้อมูลเพิ่มเติม ให้ดู [ย้ายรหัสเหตุผลไปยังการจัดการบุคลากรด้วยตนเอง](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management)
+> ณ เดือนมกราคม 2021 รหัสเหตุผลย้ายไปยังพื้นที่ทำงาน **การจัดการบุคลากร** แทนพื้นที่ทำงาน **การจัดการสวัสดิการ** สำหรับข้อมูลเพิ่มเติม ให้ดู [ย้ายรหัสเหตุผลไปยังการจัดการบุคลากรด้วยตนเอง](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management)
 
 ## <a name="create-reason-codes"></a>สร้างรหัสเหตุผล
 
@@ -50,7 +50,7 @@ Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>ย้ายรหัสเหตุผลไปยังการจัดการบุคลากรด้วยตนเอง
 
-ณ วันที่ 2021 มกราคม รหัสเหตุผลย้ายไปยังพื้นที่ทำงาน **การจัดการบุคลากร** แทนพื้นที่ทำงาน **การจัดการสวัสดิการ** ข้อมูลรหัสเหตุผลส่วนใหญ่จะย้ายโดยอัตโนมัติในสภาพแวดล้อมของคุณ ข้อมูลรหัสเหตุผลบางอย่างอาจไม่ย้าย ตัวอย่างเช่น ขณะนี้รหัสเหตุผลมีอักขระสูงสุด 15 อักขระ ดังนั้น รหัสเหตุผลที่ยาวกว่า 15 อักขระจะไม่ย้ายโดยอัตโนมัติ
+ในเดือนมกราคม 2021 รหัสเหตุผลย้ายไปยังพื้นที่ทำงาน **การจัดการบุคลากร** แทนพื้นที่ทำงาน **การจัดการสวัสดิการ** ข้อมูลรหัสเหตุผลส่วนใหญ่จะย้ายโดยอัตโนมัติในสภาพแวดล้อมของคุณ ข้อมูลรหัสเหตุผลบางอย่างอาจไม่ย้าย ตัวอย่างเช่น ขณะนี้รหัสเหตุผลมีอักขระสูงสุด 15 อักขระ ดังนั้น รหัสเหตุผลที่ยาวกว่า 15 อักขระจะไม่ย้ายโดยอัตโนมัติ
 
 คุณจะเห็นพนักงานทั่วไปในหน้า **ลิงค์** ของพื้นที่ทำงาน **การจัดการสวัสดิการ** เพื่อแจ้งให้ทราบเกี่ยวกับการย้ายข้อมูลและรหัสเหตุผลไม่ได้ย้ายหรือไม่
 

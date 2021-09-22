@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712060"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474927"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
 
@@ -56,30 +56,6 @@ ms.locfileid: "6712060"
 - [ภาพรวมของวัสดุอันตราย](../pim/hazmat-overview.md) (และหัวข้อที่เกี่ยวข้อง)
 - [การย้ายไปยังเพิ่มประสิทธิภาพการวางแผนสำหรับการวางแผนหลัก](../master-planning/new-master-planning-engine.md)
 - [การปรับปรุง cXML การสั่งซื้อ](../procurement/purchasing-cxml-enhancements.md)
-- [แก้ไขปัญหาการจัดการต้นทุน](../cost-management/troubleshoot-costmanagement.md)
-- [แก้ไขปัญหาการดำเนินงานคลังสินค้าขาเข้า](../warehousing/troubleshoot-warehouse-inbound.md)
-- [แก้ไขปัญหาการสร้างและการจัดส่งสินค้าบรรทุก](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [แก้ไขปัญหาการวางแผนหลัก](../master-planning/troubleshoot-masterplanning.md)
-- [แก้ไขปัญหาการดำเนินงานคลังสินค้าขาออก](../warehousing/troubleshoot-warehouse-outbound.md)
-- [แก้ไขปัญหาการนำออกใช้บางส่วนและการจัดส่งบางส่วน](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [แก้ไขปัญหาตัวจัดโครงแบบผลิตภัณฑ์](../pim/troubleshooting-productconfigurator.md)
-- [แก้ไขปัญหาข้อมูลผลิตภัณฑ์](../pim/troubleshooting-productinformation.md)
-- [แก้ไขปัญหาลำดับงานการจัดซื้อและการจัดหา](../procurement/troubleshoot-procurementworkflows.md)
-- [แก้ไขปัญหาใบสั่งซื้อ](../procurement/troubleshoot-purchaseorders.md)
-- [แก้ไขปัญหาราคา ส่วนลด ข้อตกลง และเงินคืน](../procurement/troubleshooting-pricediscountagreements.md)
-- [แก้ไขปัญหาใบรับสินค้าและการออกใบแจ้งหนี้](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [แก้ไขปัญหาการผลิตที่แยกต่างหาก](../production-control/troubleshoot-discretemanufacturing.md)
-- [แก้ไขปัญหาการเบิกสินค้าและการบรรจุสินค้า](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [แก้ไขปัญหาการผลิตตามกระบวนการ](../production-control/troubleshoot-processmanufacturing.md)
-- [แก้ไขการจองสินค้าในการจัดการคลังสินค้า](../warehousing/troubleshoot-warehouse-reservations.md)
-- [แก้ไขปัญหาใบสั่งขาย](../sales-marketing/troubleshooting-sales.md)
-- [แก้ไขปัญหาใบเสนอราคาขาย](../sales-marketing/troubleshooting-salesquotation.md)
-- [แก้ไขปัญหาการอัปเกรดและการย้ายไปที่การจัดการคลังสินค้าขั้นสูง](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [การแก้ไขปัญหาแก้ไขปัญหาการเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [แก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า](../warehousing/troubleshoot-warehouse-configuration.md)
-- [แก้ไขปัญหาการเติมสินค้าในคลังสินค้า](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [แก้ไขปัญหาการตั้งค่าคลังสินค้า](../warehousing/troubleshoot-warehouse-setup.md)
-- [แก้ไขปัญหางานคลังสินค้า](../warehousing/troubleshoot-warehouse-work.md)
 - [คลัสเตอร์การสำรองสินค้า](../warehousing/putaway-clusters.md)
 - [กลยุทธ์การเติมสินค้า](../warehousing/replenishment-strategies.md)
 - [การแบ่งงาน](../warehousing/work-split.md)

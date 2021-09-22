@@ -1,8 +1,8 @@
 ---
 title: แก้ไขข้อมูลส่วนตัว
 description: บทความนี้อธิบายวิธีการแก้ไขข้อมูลส่วนบุคคลในระบบบริการตนเองของพนักงานและผู้จัดการ
-author: andreabichsel
-ms.date: 03/19/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715908"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431473"
 ---
 # <a name="edit-personal-information"></a>แก้ไขข้อมูลส่วนตัว
 
@@ -40,7 +40,7 @@ ms.locfileid: "6715908"
 >[!NOTE]
 >คุณอาจไม่สามารถแก้ไขข้อมูลส่วนบุคคลบางชนิด เช่น รายละเอียดผู้ติดต่อทางธุรกิจ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จำกัดการแก้ไขข้อมูลส่วนบุคคล](hr-employee-self-service-restrict-editing.md)
 
-พารามิเตอร์ที่ตั้งค่าไว้ในสมุดที่อยู่สากลจะกำหนดบทบาทที่คุณสามารถดูข้อมูลส่วนบุคคลของคุณได้
+พารามิเตอร์ที่ตั้งค่าไว้ในหน้า **พารามิเตอร์สมุดที่อยู่สากล** จะกำหนดบทบาทที่คุณสามารถดูข้อมูลส่วนบุคคลของคุณได้
 
 1. ใน Human Resources ให้เลือก **ระบบบริการตนเองของพนักงาน**
 

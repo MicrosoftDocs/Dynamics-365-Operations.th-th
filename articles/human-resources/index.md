@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 18c0ea18ff8ec79501d39a93ad68aa8a706ad1fc
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 11c4bfa41dda8e143e1e14061f1d6657e3ed30cc
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394399"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441250"
 ---
 # <a name="human-resources-home-page"></a>โฮมเพจทรัพยากรบุคคล
 
@@ -91,7 +91,7 @@ Dynamics 365 Human Resources แสดงข้อมูลเชิงลึก
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
-สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](//learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)
 
 ### <a name="videos"></a>วิดีโอ
 

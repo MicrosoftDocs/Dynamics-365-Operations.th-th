@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4102f8036c0aede7c8a2adcaa9b8799a71ac7ada
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345661"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441300"
 ---
 # <a name="maintain-bar-code-types"></a>รักษาชนิดบาร์โค้ด
 
@@ -32,7 +32,8 @@ ms.locfileid: "7345661"
 1. ในฟิลด์ **การตั้งค่าบาร์โค้ด** ให้พิมพ์ค่าใดค่าหนึ่ง
 1. ในฟิลด์ **คำอธิบาย** ให้พิมพ์ค่าใดค่าหนึ่ง
 1. ในฟิลด์ **ชนิดของบาร์โค้ด** ให้เลือกตัวเลือกหนึ่งตัวเลือก
-    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้  
+    * ถ้าคุณกำลังใช้ USMF คุณสามารถเลือก 'รหัส 39' ได้
+1. ในฟิลด์ **รหัสตัวพราง** ให้ระบุรหัสตัวพรางบาร์โค้ด ใช้ตัวพรางบาร์โค้ดในการสร้างบาร์โค้ดและการระบุบาร์โค้ดที่ถูกสแกนไปยังระบบการขายหน้าร้าน (POS) ได้อย่างรวดเร็ว สำหรับรายละเอียด ให้ดูที่ [ตั้งค่าตัวพรางบาร์โค้ด](../../../commerce/set-up-bar-code-masks.md)
 1. ในฟิลด์ **ขนาด** ให้ป้อนตัวเลข
 1. ในฟิลด์ **ความยาวสูงสุด** ให้ป้อนตัวเลข
 1. เลือก **บันทึก**

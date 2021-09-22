@@ -2,7 +2,7 @@
 title: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับส่วนประกอบที่เกี่ยวข้องกับการจัดการของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721737"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463892"
 ---
 # <a name="electronic-invoicing-administration-components"></a>ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -31,14 +31,14 @@ ms.locfileid: "6721737"
 
 ## <a name="azure"></a>Azure
 
-ใช้ Microsoft Azure เพื่อสร้างข้อมูลลับสำหรับ Key Vault และบัญชีการจัดเก็บ จากนั้น ใช้ข้อมูลลับในการตั้งค่าคอนฟิกของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+ใช้ Microsoft Azure เพื่อสร้างข้อมูลลับสำหรับ Key Vault และตั้งค่าบัญชีการจัดเก็บ แล้วใช้ข้อมูลลับ Key Vault และโทเค็น SAS ของบัญชีการจัดเก็บในการตั้งค่าคอนฟิกการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-ใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อเปิดใช้งานไมโครเซอร์วิสสำหรับโครงการการปรับใช้ LCS ของคุณ
+ใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อเปิดใช้งาน Add-in การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับโครงการการปรับใช้ LCS ของคุณ
 
 > [!NOTE]
-> การติดตั้งไมโครเซอร์วิสใน LCS จำเป็นต้องใช้เครื่องเสมือนระดับ 2 เป็นอย่างน้อย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการวางแผนสภาพแวดล้อม ดูที่ [การวางแผนสภาพแวดล้อม](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+> การติดตั้ง Add-in ใน LCS จำเป็นต้องใช้ **สภาพแวดล้อมระดับ 2** เป็นอย่างน้อย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการวางแผนสภาพแวดล้อม ดูที่ [การวางแผนสภาพแวดล้อม](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Dynamics 365 Regulatory Configuration Services (RCS) เป็นอินเท
 
 ก่อนที่คุณจะสามารถใช้ RCS เพื่อตั้งค่าคอนฟิกใบแจ้งหนี้อิเล็กทรอนิกส์ คุณจะต้องตั้งค่าคอนฟิก RCS เพื่ออนุญาตให้การสื่อสารกับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ คุณทำการตั้งค่าคอนฟิกนี้ให้เสร็จสมบูรณ์บนแท็บ **การออกใบแจ้งหนี้อิเล็กทรอนิกส์** ของหน้า **พารามิเตอร์การรายงานทางอิเล็กทรอนิกส์**
 
-#### <a name="service-endpoint"></a>ปลายทางของบริการ
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>ปลายทางของบริการ
 
 การออกใบแจ้งหนี้อิเล็กทรอนิกส์พร้อมใช้งานในภูมิศาสตร์ศูนย์ข้อมูล Azure หลายแห่ง ตารางต่อไปนี้จะแสดงรายการความพร้อมใช้งานตามภูมิภาค
 
-| ลักษณะของศูนย์ข้อมูล Azure |
-|----------------------------|
-| สหรัฐ              |
-| ยุโรป                     |
-| สหราชอาณาจักร             |
-| เอเชีย                       |
+
+| ภูมิศาสตร์ของ Datacenter Azure | URI ปลายทางของบริการ                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| สหรัฐ              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| ยุโรป                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| สหราชอาณาจักร             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| เอเชีย                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>สภาพแวดล้อมของบริการ
 
-สภาพแวดล้อมของบริการคือ พาร์ติชันเชิงตรรกะที่ถูกสร้างขึ้นเพื่อสนับสนุนการปฏิบัติการของคุณลักษณะการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ในการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ ความลับด้านความปลอดภัยและใบรับรองดิจิทัล และการควบคุม (คือการให้สิทธิการเข้าถึง) ต้องตั้งค่าคอนฟิกที่ระดับสภาพแวดล้อมการให้บริการ
+สภาพแวดล้อมของบริการคือ พาร์ติชันเชิงตรรกะที่ถูกสร้างขึ้นเพื่อสนับสนุนการปฏิบัติการของคุณลักษณะแบบโลกาภิวัฒน์ในการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ ความลับด้านความปลอดภัยและใบรับรองดิจิทัล และการควบคุม (คือการให้สิทธิการเข้าถึง) ต้องตั้งค่าคอนฟิกที่ระดับสภาพแวดล้อมการให้บริการ
 
 ลูกค้าสามารถสร้างสภาพแวดล้อมในการให้บริการได้มากเท่าที่ต้องการ สภาพแวดล้อมการบริการทั้งหมดที่ลูกค้าสร้างจะไม่ขึ้นต่อกัน
 
@@ -84,8 +85,8 @@ Dynamics 365 Regulatory Configuration Services (RCS) เป็นอินเท
 
 บริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์มีหน้าที่จัดเก็บข้อมูลทางธุรกิจทั้งหมดของคุณในทรัพยากร Azure ที่บริษัทของคุณเป็นเจ้าของ เพื่อให้แน่ใจว่าการบริการทำงานได้อย่างถูกต้อง และมีการเข้าถึงข้อมูลทางธุรกิจทั้งหมดที่จำเป็นและถูกสร้างขึ้นโดยการออกใบแจ้งหนี้อิเล็กทรอนิกส์อย่างเหมาะสม คุณต้องสร้างทรัพยากร Azure หลักสองอย่าง:
 
-- บัญชีการจัดเก็บของ Azure (Blob storage) ที่จะจัดเก็บใบแจ้งหนี้อิเล็กทรอนิกส์
-- Azure Key Vault ที่จะจัดเก็บใบรับรองและตัวระบุทรัพยากรที่เหมือนกัน (URI) ของบัญชีการจัดเก็บ
+- บัญชีการจัดเก็บข้อมูล Azure (การจัดเก็บ Blob) ที่จะจัดเก็บเอกสารอิเล็กทรอนิกส์ รวมถึงใบแจ้งหนี้อิเล็กทรอนิกส์ ผลลัพธ์ของการแปลงเอกสาร และการตอบสนองจากบริการเว็บภายนอก
+- Azure Key Vault ที่จะจัดเก็บใบรับรองและตัวระบุทรัพยากรที่เหมือนกัน (URI) ของบัญชีการจัดเก็บ (โทเค็น SAS)
 
 
 ต้องมีการปันส่วน Key Vault ที่จัดสรรไว้และบัญชีการจัดเก็บของลูกค้า โดยเฉพาะสำหรับการใช้กับการออกใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับข้อมูลเพิ่มเติม ดู [สร้างบัญชีการจัดเก็บของ Azure และ Key Vault](e-invoicing-create-azure-storage-account-key-vault.md)
@@ -122,13 +123,13 @@ Dynamics 365 Regulatory Configuration Services (RCS) เป็นอินเท
 
 ปลายทางของบริการคือ URL ที่เป็นที่ตั้งของการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ ก่อนที่คุณจะสามารถ ใช้ออกใบแจ้งหนี้อิเล็กทรอนิกส์ได้ ต้องกำหนดค่าคอนฟิกจุดสิ้นสุดในการจัดการด้านการเงินและซัพพลายเชนเพื่อให้สามารถสื่อสารกับบริการได้
 
-เมื่อต้องการตั้งค่าคอนฟิกปลายทางของบริการ ไปที่ **การจัดการองค์กร \> ตั้งค่า \> พารามิเตอร์เอกสารอิเล็กทรอนิกส์** และจากนั้น บนแท็บ **บริการการส่ง** ในฟิลด์ **URL ของการออกใบแจ้งหนี้อิเล็กทรอนิกส์** ป้อน URL ตามที่อธิบายไว้ในตารางที่อธิบายไว้ในส่วน **ปลายทางของบริการ**
+เมื่อต้องการตั้งค่าคอนฟิกปลายทางของบริการ ไปที่ **การจัดการองค์กร \> ตั้งค่า \> พารามิเตอร์เอกสารอิเล็กทรอนิกส์** จากนั้น บนแท็บ **การออกใบแจ้งหนี้อิเล็กทรอนิกส์** ในฟิลด์ **URL ปลายทาง** ป้อน URL ที่เหมาะสมจากตารางในส่วน [จุดสิ้นสุดบริการ](#svc-endpoint-uris) จากคำอธิบายก่อนหน้านี้ในหัวข้อนี้
 
 #### <a name="environments"></a>สภาพแวดล้อม
 
 ชื่อของสภาพแวดล้อมที่ถูกป้อนใน Finance และ Supply Chain Management หมายถึงชื่อของสภาพแวดล้อมที่ถูกสร้างขึ้นใน RCS และถูกเผยแพร่ไปยังการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 
-ต้องมีการตั้งค่าคอนฟิกสภาพแวดล้อมบนแท็บ **บริการการส่ง** ของหน้า **พารามิเตอร์เอกสารอิเล็กทรอนิกส์** เพื่อให้ทุกคำขอเพื่อออกใบแจ้งหนี้อิเล็กทรอนิกส์มีสภาพแวดล้อมที่ซึ่งการออกใบแจ้งหนี้อิเล็กทรอนิกส์สามารถกำหนดคุณลักษณะการออกใบแจ้งหนี้อิเล็กทรอนิกส์ที่ต้องดำเนินการตามคำขอ
+สภาพแวดล้อมต้องได้รับการตั้งค่าคอนฟิกบนแท็บ **การออกใบแจ้งหนี้อิเล็กทรอนิกส์** ของหน้า **พารามิเตอร์เอกสารอิเล็กทรอนิกส์** ในลักษณะดังกล่าว ทุกคำขอเพื่อออกใบแจ้งหนี้อิเล็กทรอนิกส์จะมีสภาพแวดล้อมที่การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์สามารถระบุว่าคุณลักษณะการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ใดต้องประมวลผลคำขอ
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

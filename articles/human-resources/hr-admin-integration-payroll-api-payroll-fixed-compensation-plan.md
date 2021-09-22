@@ -2,7 +2,7 @@
 title: แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
 description: หัวข้อนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีแผนค่าตอบแทนคงที่ในบัญชีเงินเดือนใน Dynamics 365 Human Resources
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429251"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
 
@@ -34,18 +34,27 @@ ms.locfileid: "6738402"
 
 ## <a name="properties"></a>คุณสมบัติ
 
-| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| คุณสมบัติ</br>**ชื่อทางกายภาพ**</br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **รหัสพนักงาน**<br>mshr_fk_employee_id_value<br>*GUID* | อ่านอย่างเดียว<br>ต้องระบุ<br>คีย์นอก: เอนทิตี mshr_Employee_idของmshr_payrollemployeeentity  | รหัสพนักงาน |
-| **อัตราการชำระค่าจ้าง**<br>mshr_payrate<br>*ทศนิยม* | อ่านอย่างเดียว<br>ต้องระบุ | อัตราการค่าจ้างที่กําหนดในแผนค่าตอบแทนคงที่ |
-| **รหัสแผน**<br>mshr_planid<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |ระบุแผนค่าตอบแทน  |
-| **มีผลใช้ตั้งแต่**<br>mshr_validfrom<br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว<br>ต้องระบุ |วันที่เริ่มต้นการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน  |
-| **เอนทิตีแผนค่าตอบแทนคงที่ของบัญชีเงินเดือน**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | ต้องระบุ<br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงตีแผนค่าตอบแทนโดยเฉพาะ |
-| **ความถี่ในการชำระค่าจ้าง**<br>mshr_payfrequency<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |ความถี่ในการชําระค่าจ้างของพนักงาน  |
-| **มีผลใช้ถึง**<br>mshr_validto<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่สิ้นสุดการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน |
-| **รหัสตำแหน่ง**<br>mshr_positionid<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ | รหัสไปรษณีย์ที่เชื่อมโยงกับพนักงานและการลงทะเบียนแผนค่าตอบแทนคงที่ |
-| **สกุลเงิน**<br>mshr_currency<br>*สตริง* | อ่านอย่างเดียว <br>ต้องระบุ |สกุลเงินที่กำหนดสำหรับแผนค่าตอบแทนคงที่   |
-| **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน  |
+| **รหัสแผน**</br>mshr_planid</br>*สตริง* | อ่านอย่างเดียว | ระบุแผนค่าตอบแทน  |
+| **หมายเลขบุคลากร**</br>mshr_personnelnumber</br>*สตริง* | อ่านอย่างเดียว | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
+| **อัตราการชำระค่าจ้าง**</br>mshr_payrate</br>*ทศนิยม* | อ่านอย่างเดียว | อัตราการค่าจ้างที่กําหนดในแผนค่าตอบแทนคงที่ |
+| **รหัสตำแหน่ง**</br>mshr_positionid</br>*สตริง* | อ่านอย่างเดียว | รหัสไปรษณีย์ที่เชื่อมโยงกับพนักงานและการลงทะเบียนแผนค่าตอบแทนคงที่ |
+| **มีผลใช้ตั้งแต่**</br>mshr_validfrom</br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว | วันที่เริ่มต้นการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน  |
+| **มีผลใช้ถึง**</br>mshr_validto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่สิ้นสุดการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน |
+| **ความถี่ในการชำระค่าจ้าง**</br>mshr_payfrequency</br>*สตริง* | อ่านอย่างเดียว | ความถี่ในการชําระค่าจ้างของพนักงาน  |
+| **สกุลเงิน**</br>mshr_currency</br>*สตริง* | อ่านอย่างเดียว | สกุลเงินที่กำหนดสำหรับแผนค่าตอบแทนคงที่ |
+| **เอนทิตีแผนค่าตอบแทนคงที่ของบัญชีเงินเดือน**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงตีแผนค่าตอบแทนโดยเฉพาะ |
+
+## <a name="relations"></a>ความสัมพันธ์
+
+|ค่าคุณสมบัติ | เอนทิตีที่เกี่ยวข้อง | คุณสมบัติการนําทาง | ชนิดการรวบรวม |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>ตัวอย่างการสอบถาม
 

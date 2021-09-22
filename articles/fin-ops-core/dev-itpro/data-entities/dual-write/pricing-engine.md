@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416191"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481326"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>ซิงค์ตามต้องการกับกลไกจัดการการกำหนดราคา Supply Chain Management
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management รวมกลไกการก
     + ภาษีรวม
     + ยอดเงินรวม
     
-5. เพื่อให้แน่ใจว่าระบบจะพิจารณาข้อตกลงทางการค้าและการขายเพื่อคำนวณราคา:
+5. เพื่อให้แน่ใจว่าระบบจะพิจารณาข้อตกลงทางการค้าเพื่อคำนวณราคา:
     1. นำทางไปยังสภาพแวดล้อม Supply Chain Management ของคุณ
     2. นำทางไปยัง **บัญชีลูกหนี้ \> การตั้งค่า \> พารามิเตอร์บัญชีลูกหนี้**
     3. เลือกแท็บ **ราคา** ในแถบนำทางด้านข้าง
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management รวมกลไกการก
 
 เมื่อคุณเลือก **ใบสั่งราคา** ในการขาย ฟังก์ชัน **ยอดรวม** บนแท็บ **ใบสั่งขาย \> มุมมอง** ใน Supply Chain Management ถูกเรียกสำหรับใบสั่งขายที่เกี่ยวข้อง ค่าในยอดรวมของใบสั่งใน Sales จะใช้ในการกรอกข้อมูลในคอลัมน์ที่เกี่ยวข้องใน Supply Chain Management
 
-เมื่อมีการคำนวณผลรวมของใบสั่งขายใน Supply Chain Management การคำนวณจะประเมินข้อตกลงทางการค้าที่มีอยู่และข้อตกลงการขายสำหรับลูกค้าและผลิตภัณฑ์ที่แสดงรายการอยู่ในใบสั่งขาย ข้อมูลนี้จะใช้เพื่อคำนวณผลรวม เมื่อมีการเลือก **ใบสั่งราคา** Sales จะสะท้อนถึงการตั้งค่าทั้งหมดที่มีการดำเนินการใน Supply Chain Management
+เมื่อมีการคำนวณผลรวมของใบสั่งขายใน Supply Chain Management การคำนวณจะประเมินข้อตกลงทางการค้าที่มีอยู่สำหรับลูกค้าและผลิตภัณฑ์ที่แสดงรายการอยู่ในใบสั่งขาย ข้อมูลนี้จะใช้เพื่อคำนวณผลรวม เมื่อมีการเลือก **ใบสั่งราคา** Sales จะสะท้อนถึงการตั้งค่าทั้งหมดที่มีการดำเนินการใน Supply Chain Management
 
 ## <a name="limitations"></a>การจำกัด
 

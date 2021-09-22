@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe40807338c32fbaff2df11975bbcb2d7fefeb842f5fd85d7421552556465178
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718767"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473560"
 ---
 # <a name="configure-ratings-and-reviews"></a>ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 การให้คะแนนและบทวิจารณ์บนเว็บไซต์อีคอมเมิร์ซช่วยให้ลูกค้าเรียนรู้เกี่ยวกับผลิตภัณฑ์ก่อนที่พวกเขาทำการตัดสินใจซื้อ โดยแสดงให้พวกเขาเห็นว่าลูกค้าคนอื่นคิดอะไรเกี่ยวกับผลิตภัณฑ์เหล่านั้น สำหรับเว็บไซต์อีคอมเมิร์ซ การให้คะแนนและบทวิจารณ์ยังเป็นกลไกสำหรับการรวบรวมความคิดเห็นของลูกค้าเกี่ยวกับผลิตภัณฑ์ด้วย 
 

@@ -15,21 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b8d8e838b3c42f7dd02ce4adabcb1f412a3834006ad913e8f40191da751c08d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765252"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473488"
 ---
 # <a name="ratings-and-reviews-overview"></a>ภาพรวมของการให้คะแนนและบทวิจารณ์
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 การจัดอันดับและบทวิจารณ์มีความสำคัญต่อลูกค้าอีคอมเมิร์ซที่ต้องการทราบว่าลูกค้ารายอื่น ๆ รับรู้ผลิตภัณฑ์อย่างไร นอกจากนี้ยังช่วยให้ผู้ใช้สามารถตัดสินใจซื้อได้ด้วย ใน Dynamics 365 Commerce โซลูชันการจัดอันดับและบทวิจารณ์ของร้านค้าปลีก เก็บความคิดเห็นของผลิตภัณฑ์และการจัดอันดับจากลูกค้า ร้านค้าปลีกสามารถแสดงการจัดอันดับโดยเฉลี่ยและตรวจสอบข้อมูลบนเว็บไซต์อีคอมเมิร์ซของตนได้
 

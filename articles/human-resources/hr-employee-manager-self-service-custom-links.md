@@ -1,8 +1,8 @@
 ---
 title: สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
 description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการสร้างลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการใน Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 11/30/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,23 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bca6d5f079a0b356e9ec2a3c40a34ace5b49be5f268b846ff596489a95275f47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713065"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431195"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-คุณสามารถเพิ่มลิงค์ที่กำหนดเองบนแท็บ **ทีมของฉัน** ในการบริการตนเองของผู้จัดการ ลักษณะการทำงานนี้ช่วยให้คุณสามารถเข้าถึงข้อมูลที่สำคัญได้อย่างรวดเร็ว มีความคล้ายคลึงกันกับการเพิ่มลิงค์ที่กำหนดเองในแท็บ **ข้อมูลของฉัน** ในการบริการตนเองของพนักงาน
+คุณสามารถเพิ่มลิงค์ที่กำหนดเองบนแท็บ **ทีมของฉัน** ใน **การบริการตนเองของผู้จัดการ** ลักษณะการทำงานนี้ช่วยให้คุณสามารถเข้าถึงข้อมูลที่สำคัญได้อย่างรวดเร็ว มีความคล้ายคลึงกันกับการเพิ่มลิงค์ที่กำหนดเองในแท็บ **ข้อมูลของฉัน** ใน **การบริการตนเองของพนักงาน**
 
-## <a name="enable-the--feature"></a>เปิดใช้งานคุณลักษณะ
+## <a name="enable-the-feature"></a>เปิดใช้งานคุณลักษณะ
 
 เมื่อต้องการใช้คุณลักษณะนี้ ให้เปิดใช้งาน **ลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการ** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 

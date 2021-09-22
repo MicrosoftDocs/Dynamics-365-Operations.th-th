@@ -1,5 +1,5 @@
 ---
-title: Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า
+title: Scale unit ในโทโพโลยีแบบไฮบริดแบบกระจาย
 description: หัวข้อนี้จะนำเสนอข้อมูลเกี่ยวกับ Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780685"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471751"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>สเกลยูนิตในระบบคลาวด์และ Edge สำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Scale unit ในโทโพโลยีแบบไฮบริดแบบกระจาย
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780685"
 >
 > เมื่อคุณเปิดใช้งาน Cloud และ edge scale unit คุณจะได้รับการร้องขอให้ยืนยันว่าคุณเข้าใจว่าข้อมูลบางอย่างที่เกี่ยวข้องกับการตั้งค่าคอนฟิกและการประมวลผลของ cloud และ edge scale unit อาจจัดเก็บอยู่ในศูนย์ข้อมูลที่อยู่ในสหรัฐอเมริกา หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการประมวลผลข้อมูลของหน่วย Cloud และ edge scale units ให้ดูที่ส่วน [การประมวลผลข้อมูลในระหว่างการจัดการ scale units](#data-processing-management) ในภายหลังในหัวข้อนี้
 
-## <a name="core-value-proposition-for-scale-units"></a>ข้อเสนอค่าหลักของ scale units
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>ข้อเสนอค่าหลักเกี่ยวกับโทโพโลยีแบบไฮบริดแบบกระจาย
 
-บริษัทที่ทำงานกับการผลิตและการกระจายสินค้าต้องสามารถรันกระบวนการทางธุรกิจที่สำคัญได้ 24/7 โดยไม่มีการขัดจังหวะและที่ Scale Cloud และ edge scale unit เปิดใช้งานให้บริษัทรันภารกิจหลักของการประมวลผลการผลิตและคลังสินค้าโดยไม่มีการขัดจังหวะ แม้กระทั่งเมื่อประสบกับปัญหาการเชื่อมต่อเครือข่ายหรือเวลาแฝงเป็นครั้งคราว
+บริษัทที่ทำงานกับการผลิตและการกระจายสินค้าต้องสามารถรันกระบวนการทางธุรกิจที่สำคัญได้ 24/7 โดยไม่มีการขัดจังหวะและที่ Scale โทโพโลยีแบบไฮบริดแบบกระจายเปิดใช้งานให้บริษัทรันภารกิจหลักของการประมวลผลการผลิตและคลังสินค้าโดยไม่มีการขัดจังหวะ แม้กระทั่งเมื่อประสบกับปัญหาการเชื่อมต่อเครือข่ายหรือเวลาแฝงเป็นครั้งคราว
 
-Cloud และ edge scale unit เปิดใช้งานการกระจายปริมาณงานการดำเนินการของการผลิตและคลังสินค้าในระหว่างสภาพแวดล้อมที่แตกต่างกัน ฟังก์ชันนี้จะช่วยปรับปรุงประสิทธิภาพการทำงาน ป้องกันการขัดจังหวะการบริการ และเพิ่มความพร้อมในการทำงาน Scale units มีให้ผ่าน Add-in ต่อไปนี้เพื่อการสั่งซื้อโดยบอกรับเป็นสมาชิก Supply Chain Management:
+โทโพโลยีแบบไฮบริดแบบกระจายจะแนะนำแนวคิดของ *scale units* ซึ่งเปิดใช้งานการกระจายปริมาณงานของการปฏิบัติการการควบคุมผลิตและคลังสินค้าระหว่างสภาพแวดล้อมต่างๆ ฟังก์ชันนี้จะช่วยปรับปรุงประสิทธิภาพการทำงาน ป้องกันการขัดจังหวะการบริการ และเพิ่มความพร้อมในการทำงาน Scale units มีให้ผ่าน Add-in ต่อไปนี้เพื่อการสั่งซื้อโดยบอกรับเป็นสมาชิก Supply Chain Management:
 
 - Add-in ของ Cloud Scale Unit สำหรับ Dynamics 365 Supply Chain Management (*มีให้ใช้งานเดือนเมษายน 2021*)
 - Add-in ของ Edge Scale Unit สำหรับ Dynamics 365 Supply Chain Management (*มีให้ใช้งานเร็วๆ นี้*)

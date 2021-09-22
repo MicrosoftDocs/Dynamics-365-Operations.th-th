@@ -2,7 +2,7 @@
 title: พนักงานในบัญชีเงินเดือน
 description: หัวข้อนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีพนักงานในบัญชีเงินเดือนใน Dynamics 365 Human Resources
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429254"
 ---
 # <a name="payroll-employee"></a>พนักงานในบัญชีเงินเดือน
 
@@ -34,31 +34,42 @@ ms.locfileid: "6768202"
 
 >[!IMPORTANT] 
 >ฟิลด์ **FirstName** **MiddleName** **LastName** **NameValidFrom** และ **NameValidTo** ไม่สามารถใช้งานได้บนเอนทิตีนี้อีกต่อไป สิ่งนี้ช่วยให้มั่นใจว่ามีแหล่งข้อมูลวันที่มีผลบังคับใช้เพียงแหล่งเดียว ที่กลับไปยังเอนทิตี้นี้
->ฟิลด์เหล่านี้จะพร้อมใช้งานบน **DirPersonNameHistoricalEntity** ซึ่งถูกนําออกใช้ในการปรับปรุงแพลตฟอร์ม 43 มีความสัมพันธ์ OData จาก **PayrollEmployeeEntity** ถึง **DirPersonNameHistoricalEntity** ในฟิลด์ **บุคคล** 
+>ฟิลด์เหล่านี้จะพร้อมใช้งานบน **DirPersonNameHistoricalEntity** ซึ่งถูกนําออกใช้ในการปรับปรุงแพลตฟอร์ม 43 มีความสัมพันธ์ OData จาก **PayrollEmployeeEntity** ถึง **DirPersonNameHistoricalEntity** 
 
 ## <a name="properties"></a>คุณสมบัติ
 
-| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| คุณสมบัติ</br>**ชื่อทางกายภาพ**</br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **หมายเลขบุคลากร**<br>mshr_personnelnumber<br>*สตริง* | อ่านอย่างเดียว | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
-| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | อ่านอย่างเดียว<br>ระบบสร้างขึ้น |  |
-| **รหัสนิติบุคคล**<br>mshr_legalentityID<br>*สตริง* | อ่านอย่างเดียว | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
-| **เพศ**<br>mshr_gender<br>[การกำหนดตัวเลือก mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | อ่านอย่างเดียว | เพศของพนักงาน |
-| **รหัสเอนทิตีของพนักงานในบัญชีเงินเดือน**<br>mshr_payrollemployeeentityid<br>*GUID* | ต้องระบุ<br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงพนักงานเฉพาะ |
-| **วันที่เริ่มต้นการจ้างงาน**<br>mshr_employmentstartdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่เริ่มต้นของการจ้างงานของพนักงาน |
-| **รหัสชนิดการระบุรหัสประจำตัว**<br>mshr_identificationtypeid<br>*สตริง* |อ่านอย่างเดียว | ชนิดรหัสที่กําหนดไว้ให้กับพนักงาน |
-| **วันที่สิ้นสุดการจ้างงาน**<br>mshr_employmentenddate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว |วันที่สิ้นสุดของการจ้างงานของพนักงาน  |
-| **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid_id<br>*GUID* | อ่านอย่างเดียว <br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) |
-| **มีผลใช้ถึง**<br>mshr_namevalidto<br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว | วันที่สิ้นสุดการมีผลบังคับของข้อมูลพนักงาน |
-| **วันเกิด**<br>mshr_birthdate<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันเกิดของพนักงาน |
-| **หมายเลขรหัส**<br>mshr_identificationnumber<br>*สตริง* | อ่านอย่างเดียว |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน  |
+| **รหัสนิติบุคคล**</br>mshr_legalentityid</br>*สตริง* | อ่านอย่างเดียว | ระบุเอนทิตี้นิติบุคคล (บริษัท) |
+| **หมายเลขบุคลากร**</br>mshr_personnelnumber</br>*สตริง* | อ่านอย่างเดียว | หมายเลขด้านบุคลากรที่ไม่ซ้ำกันของพนักงาน |
+| **วันที่เริ่มต้นการจ้างงาน**</br>mshr_employmentstartdate</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่เริ่มต้นของการจ้างงานของพนักงาน |
+| **วันที่สิ้นสุดการจ้างงาน**</br>mshr_employmentenddate</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว |วันที่สิ้นสุดของการจ้างงานของพนักงาน  |
+| **วันเกิด**</br>mshr_birthdate</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันเกิดของพนักงาน |
+| **เพศ**</br>mshr_gender</br>[การกำหนดตัวเลือก mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | อ่านอย่างเดียว | เพศของพนักงาน |
+| **ชนิดการจ้างงาน**</br>mshr_employmenttype</br>[การกำหนดตัวเลือก mshr_hcmemploymenttype](hr-admin-integration-payroll-api-hcmemploymenttype.md) | อ่านอย่างเดียว | ชนิดการจ้างงาน |
+| **รหัสชนิดการระบุรหัสประจำตัว**</br>mshr_identificationtypeid</br>*สตริง* |อ่านอย่างเดียว | ชนิดรหัสที่กําหนดไว้ให้กับพนักงาน |
+| **หมายเลขรหัส**</br>mshr_identificationnumber</br>*สตริง* | อ่านอย่างเดียว |หมายเลขรหัสที่กําหนดไว้ให้กับพนักงาน |
+| **พร้อมที่จะจ่าย**</br>mshr_readytopay</br>[ชุดตัวเลือก mshr_noyes](hr-admin-integration-payroll-api-no-yes.md) | อ่านอย่างเดียว | ระบุว่าพนักงานถูกทำเครื่องหมายเป็นพร้อมที่จะชำระหรือไม่ |
+| **รหัสเอนทิตีของพนักงานในบัญชีเงินเดือน**</br>mshr_payrollemployeeentityid</br>*GUID* | ต้องระบุ</br>ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงพนักงานเฉพาะ |
+
+## <a name="relations"></a>ความสัมพันธ์
+
+|ค่าคุณสมบัติ | เอนทิตีที่เกี่ยวข้อง | คุณสมบัติการนําทาง | ชนิดการรวบรวม |
+| --- | --- | --- | --- |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
+| _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
+| _mshr_fk_worker_id_value | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
+| _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 
 ## <a name="example-query-for-payroll-employee"></a>ตัวอย่างการสอบถามของพนักงานในบัญชีเงินเดือน
 
 **คำขอ**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_identificationtypeid eq @idtype and mshr_namevalidfrom le @asofdate and mshr_namevalidto ge @asofdate&@personnelnumber='000041'&@idtype='SSN'&@asofdate=2021-04-01
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_personnelnumber eq '000041'
 ```
 
 **การตอบสนอง**
@@ -71,17 +82,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
+    "mshr_employmenttype": 200000000,
     "mshr_identificationtypeid": "SSN",
     "mshr_identificationnumber": "888-99-9342",
+    "mshr_readytopay": 200000000,
     "mshr_dataareaid": "USMF",
     "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d4e-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "00000598-0000-0000-4cd0-fda002000000",
+    "_mshr_fk_name_id_value": "00000832-0000-0000-d700-014105000000",
+    "_mshr_fk_worker_id_value": "000000af-0000-0000-d5ff-004105000000",
+    "_mshr_fk_workerbankaccount_id_value": "000006f2-0000-0000-b7ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000666-0000-0000-d5ff-004105000000",
+    "_mshr_fk_address_id_value": null,
+    "_mshr_fk_variablecompaward_id_value": null,
     "_mshr_dataareaid_id_value": null
 }
 ```
+
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [บทนำ API การรวมบัญชีเงินเดือน](hr-admin-integration-payroll-api-introduction.md)

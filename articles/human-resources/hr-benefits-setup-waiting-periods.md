@@ -1,8 +1,8 @@
 ---
 title: ตั้งค่าคอนฟิกรอบระยะเวลาที่รอ
 description: ใน Microsoft Dynamics 365 Human Resources วันที่กำลังรอสร้างเหตุการณ์สำคัญเพื่อใช้สำหรับแผนสวัสดิการ
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732596"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431076"
 ---
 # <a name="configure-waiting-periods"></a>ตั้งค่าคอนฟิกรอบระยะเวลาที่รอ
 
@@ -38,7 +38,7 @@ ms.locfileid: "6732596"
    | --- | --- |
    | **รหัสการรอ** | ตัวระบุเฉพาะสำหรับช่วงเวลาที่กำลังรอ |
    | **คำอธิบาย** | คำอธิบายเกี่ยวกับช่วงเวลาที่กำลังรอ |
-   | **วิธีการรอ** | เลือกวิธีการที่รอที่เหมาะสมจากรายการแบบหล่นลงของค่าต่างๆ ตัวเลือกเป็นสุทธิ เดือนปัจจุบัน ไตรมาสปัจจุบัน ปีปัจจุบัน และสัปดาห์ปัจจุบัน |
+   | **วิธีการรอ** | เลือกวิธีการที่รอที่เหมาะสมจากรายการแบบหล่นลงของค่าต่างๆ ตัวเลือกเป็น **สุทธิ** **เดือนปัจจุบัน** **ไตรมาสปัจจุบัน** **ปีปัจจุบัน** และ **สัปดาห์ปัจจุบัน** |
    | **เดือน** | ป้อนจำนวนเดือนที่จะเพิ่มที่วิธีการที่รอเพื่อคำนวณวันที่รอ |
    | **วัน** | ป้อนจำนวนวันเพื่อเพิ่มที่วิธีการที่รอเพื่อคำนวณวันที่รอ |
    | **จำนวนวันที่รอ** | เลือกวันที่รอเพื่อใช้ในการคำนวณวันที่รอ |

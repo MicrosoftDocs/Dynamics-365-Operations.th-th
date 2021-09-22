@@ -1,0 +1,50 @@
+---
+title: ตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์
+description: หัวข้อนี้มีแนวทางการแก้ไขปัญหาเบื้องต้นเกี่ยวกับวิธีการซ่อนตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์ Microsoft Dynamics 365 Commerce สําหรับไซต์อีคอมเมิร์ซ
+author: gvrmohanreddy
+manager: annbe
+ms.date: 09/02/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.author: gmohanv
+ms.search.validFrom: 2021-09-03
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: f3438d12f4ffd06b07cbef724cda8fa490a5f4eb
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472689"
+---
+# <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>ตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์
+
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+หัวข้อนี้มีแนวทางการแก้ไขปัญหาเบื้องต้นเกี่ยวกับวิธีการซ่อนตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์ Microsoft Dynamics 365 Commerce สําหรับไซต์อีคอมเมิร์ซ
+
+## <a name="description"></a>คำอธิบาย
+
+ตัวคัดสรรการให้คะแนนที่ปรากฏในผลการค้นหาและหน้าประเภทในช่องทางอีคอมเมิร์ซที่ไม่ได้ใช้โซลูชันการให้คะแนนและบทวิจารณ์
+
+## <a name="resolution"></a>การแก้ปัญหา
+
+### <a name="enable-the-hide-rating-setting-in-commerce-site-builder"></a>เปิดใช้งานการตั้งค่าซ่อนการให้คะแนนของโปรแกรมสร้างไซต์อีคอมเมิร์ซ
+
+หากต้องการเปิดใช้งานการตั้งค่า **ซ่อนการให้คะแนน** ในโปรแกรมสร้างไซต์ Commerce เพื่อให้ตัวคัดสรรการให้คะแนนถูกซ่อนบนหน้าผลการค้นหาและหน้าประเภท ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+
+1. ไปที่ **การตั้งค่าไซต์ \> ส่วนขยาย**
+1. ภายใต้ **การให้คะแนนและบทวิจารณ์** ให้เลือกกล่องกาเครื่องหมาย **ซ่อนการให้คะแนน**
+1. เลือก **Save and publish**
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+[ภาพรวมของการให้คะแนนและบทวิจารณ์](../ratings-reviews-overview.md)
+
+[เลือกที่จะใช้การให้คะแนนและบทวิจารณ์](../opt-in-ratings-reviews.md)

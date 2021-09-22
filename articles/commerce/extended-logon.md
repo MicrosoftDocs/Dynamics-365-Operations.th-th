@@ -1,8 +1,8 @@
 ---
 title: ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ MPOS และ Cloud POS
 description: หัวข้อนี้ครอบคลุมตัวเลือกของคุณสำหรับการตั้งค่าการเข้าสู่ระบบแบบขยายสำหรับ Cloud POS และ Retail Modern POS (MPOS)
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748557"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478682"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>ตั้งค่าฟังก์ชันการล็อกออนแบบขยายสำหรับ MPOS และ Cloud POS
 
@@ -58,6 +58,8 @@ ms.locfileid: "6748557"
 เมื่อต้องการลบการล็อกออนแบบขยายที่กำหนดให้กับผู้ปฏิบัติงาน ให้ค้นหาผู้ปฏิบัติงานโดยใช้การดำเนินงาน **การล็อกออนเพิ่มเติม** เลือกผู้ปฏิบัติงาน แล้วคลิก **ยกเลิกการมอบหมาย** ข้อมูลประจำตัวการล็อกออนแบบขยายทั้งหมดที่เชื่อมโยงกับผู้ปฏิบัติงานที่จะถูกลบออก
 
 ## <a name="extending-extended-logon"></a>การล็อกออนแบบขยายเพิ่มเติม
+
+การล็อกออนแบบขยายอนุญาตอักขระสําคัญห้าตัวสามารถเป็นรหัสเฉพาะสำเร็จรูปได้ ตัวอย่างเช่น ถ้าคุณตั้งค่าคอนฟิกบัตรสองใบด้วยรหัส "1234567" และ "1234578" บัตรทั้งสองจะถือว่าเป็น "12345" คุณสามารถสร้างส่วนขยายเพื่อสนับสนุนอักขระเพิ่มเติมได้ สำหรับคำแนะนำในรายละเอียด โปรดดู [การขยายฟังก์ชันการล็อกออนแบบขยายของ MPOS และ Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/)
 
 บริการการล็อกออนสามารถถูกขยายเพื่อสนับสนุนอุปกรณ์การล็อกออนแบบขยายเพิ่มเติมเช่น เครื่องสแกนฝ่ามือ สำหรับข้อมูลเพิ่มเติม ให้ดูที่เอกสารความสามารถในการขยาย POS
 
