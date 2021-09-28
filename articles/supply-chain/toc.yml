@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (สิงหาคม 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (มิถุนายน 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: การจัดกำหนดการการเลือกทรัพยากรตามความสามารถ
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/marking.md
                 - name: การวางแผนระหว่างบริษัท
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: สร้างคำขอใบเสนอราคา
                   href: procurement/tasks/create-request-quotation.md
+                - name: การประมูลแบบเปิดสำหรับ RFQ
+                  href: procurement/sealed-bidding.md
                 - name: สร้างใบขอซื้อที่ใช้ RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: สร้างวิธีการให้คะแนนสำหรับ RFQ

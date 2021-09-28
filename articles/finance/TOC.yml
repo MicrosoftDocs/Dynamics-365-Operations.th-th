@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (สิงหาคม 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (มิถุนายน 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: กระบวนการเรียกเก็บเงินระบบอัตโนมัติ
                   href: accounts-receivable/collections-process-automate.md
+                - name: ตั้งค่าคอนฟิกพารามิเตอร์สำหรับกระบวนการเรียกเก็บเงินระบบอัตโนมัติ
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: การตั้งค่าการจัดการสินเชื่อ
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: ข้อมูลการตั้งค่าการจัดการสินเชื่อ
@@ -1635,7 +1635,9 @@
                 - name: ใบแจ้งยอด VAT
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: รายงานบริการข้ามแดน
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: รายงานอินทราสแทต
+                  href: localizations/emea-aut-intrastat.md
                 - name: ภาษีซื้อ
                   href: localizations/emea-aut-purchase-duties.md
             - name: บาห์เรน
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: ตั้งค่าและรักษา PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: การแสดงรายการ VAT ประจําปีของการขายในประเทศ
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: บราซิล
               items:
                 - name: ภาพรวมของบราซิล
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: ใบแจ้งหนี้อิเล็กทรอนิกส์
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: ส่วนเพิ่มเติมของใบตราส่งสินค้า (Carta de Porte) (รุ่น 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: ใบแจ้งยอดบัญชีแยกประเภทอิเล็กทรอนิกส์
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: ป้อนรหัสทะเบียนภาษีสำหรับนิติบุคคลของเม็กซิโก
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: รหัสการลงทะเบียนผู้จัดจำหน่าย
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: โอมาน
-              items:
-                - name: ภาพรวมของโอมาน
-                  href: localizations/oman.md
-                - name: การรายงานภาษี VAT สำหรับโอมาน (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: เนเธอร์แลนด์
               items:
                 - name: ภาพรวมของเนเธอร์แลนด์
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: รายการขายใน EU
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: นิวซีแลนด์
+              items:
+                - name: แบบฟอร์มการรายงานภาษี GST GST101A ของนิวซีแลนด์ (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: นอร์เวย์
               items:
                 - name: ภาพรวมของนอร์เวย์
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในนอร์เวย์
                   href: localizations/emea-nor-e-invoices.md
+            - name: โอมาน
+              items:
+                - name: ภาพรวมของโอมาน
+                  href: localizations/oman.md
+                - name: การรายงานภาษี VAT สำหรับโอมาน (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: โปแลนด์
               items:
                 - name: ภาพรวมของโปแลนด์
@@ -3450,23 +3460,23 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: จัดเตรียมสภาพแวดล้อมของคุณเพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD VAT ของ HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: อนุมัติสภาพแวดล้อม Finance ของคุณ เพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD ของ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: ทดสอบการรวมระบบระหว่างบริษัทกับ MTD VAT Sandbox
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: ส่งการส่งคืน VAT ไปยังเว็บเซอร์วิส MTD ของ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: รายการตรวจสอบการตั้งค่าข้อความอิเล็กทรอนิกส์ของ MTD VAT
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: สร้างรายงานการรายงานภาษี VAT ในรูปแบบกระดาษ (รายงาน VAT 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: ทดสอบการรวมระบบระหว่างบริษัทกับ MTD VAT Sandbox
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: อนุมัติสภาพแวดล้อม Finance ของคุณ เพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD ของ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: ส่งการส่งคืน VAT ไปยังเว็บเซอร์วิส MTD ของ HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: ดึงข้อมูลเกี่ยวกับการชำระเงิน VAT และหนี้สินจาก HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                         - name: รายละเอียดการตั้งค่า VAT เกี่ยวกับการรายงาน VAT ในสหราชอาณาจักร
                           href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: ดึงข้อมูลเกี่ยวกับการชำระ VAT และหนี้สินจาก HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: สร้างรายงานการรายงานภาษี VAT ในรูปแบบกระดาษ (รายงาน VAT 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: สถิติเกี่ยวกับรายงานแนวทางปฏิบัติในการชำระเงิน
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
-            - name: สหรัฐ
+            - name: สหรัฐอเมริกา
               items:
                 - name: ภาพรวมของสหรัฐอเมริกา
                   href: localizations/united-states.md
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: เรียกใช้รูปแบบเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิก
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: ออกแบบรูปแบบ ER เพื่อแบ่งหน้าเอกสารที่สร้างใน Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
                   items:
                     - name: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word

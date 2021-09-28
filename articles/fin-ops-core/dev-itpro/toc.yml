@@ -1004,10 +1004,14 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: ส่งคำขอการบริการไปยังทีมงานวิศวกรรมบริการของ Dynamics
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับกรอบการบำรุงรักษาตามแผน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับช่วงเวลาการบำรุงรักษาตามแผน
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: การตรวจสอบและการวินิจฉัย
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: การตรวจสอบและการวินิจฉัยเครื่องมือ
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: ใช้ Azure Data Explorer เพื่อสืบค้นบันทึกข้อมูลดิบ
+                  href: lifecycle-services/azure-data-explorer.md
             - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
               href: lifecycle-services/restart-environment-services.md
             - name: รายงานความขัดข้องในการผลิต
