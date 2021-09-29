@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736682"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484060"
 ---
 # <a name="demand-forecasting-overview"></a>ภาพรวมการคาดการณ์ความต้องการ
 
@@ -34,7 +34,9 @@ ms.locfileid: "6736682"
 เพื่อสร้างการคาดการณ์แนวหลัก สรุปของธุรกรรมที่ผ่านมาถูกส่งผ่านไปยัง Microsoft Azure Machine Learning ที่มีการโฮสต์บน Azure เนื่องจากบริการนี้ไม่ได้ใช้ร่วมกันระหว่างผู้ใช้ จึงสามารถกำหนดค่าเองได้โดยง่ายเพื่อให้ตรงกับความต้องการอุตสาหกรรมเฉพาะ คุณสามารถใช้ Supply Chain Management เพื่อแสดงให้เห็นการคาดการณ์ ปรับปรุงการคาดการณ์ และดูตัวบ่งชี้ประสิทธิภาพหลัก (Kpi) เกี่ยวกับความถูกต้องของการคาดการณ์
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (คลาสสิก) ต้องใช้ในการสร้างการคาดการณ์ด้วยการเรียนรู้ของเครื่อง เมื่อมกราคม 2021 สามารถใช้งานได้ใน ญี่ปุ่นตะวันออก ภาคกลางตอนใต้ของสหรัฐ เอเชียตะวันออกเฉียงใต้ ภาคกลางฝั่งตะวันตกของสหรัฐ และยุโรปตะวันตก หากต้องการข้อมูลที่มีการอัปเดตเกี่ยวกับความพร้อมใช้งานปัจจุบัน โปรดดู [ผลิตภัณฑ์ Azure ตามภูมิภาค](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure Machine Learning Studio (คลาสสิก) ต้องใช้ในการสร้างการคาดการณ์ด้วยการเรียนรู้ของเครื่อง ณ วันที่ 1 ธันวาคม 2021 คุณจะไม่สามารถสร้างทรัพยากร Machine Learning Studio (คลาสสิก) ใหม่ได้ อย่างไรก็ตาม คุณจะสามารถใช้ทรัพยากร Machine Learning Studio (คลาสสิก) ที่มีอยู่ของคุณต่อไปได้จนกว่าจะถึงวันที่ 31 สิงหาคม 2024 สำหรับข้อมูลที่อัปเดต โปรดดูที่ [Azure Machine Learning Studio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio)
+> 
+> Dynamics 365 Supply Chain Management รุ่น 10.0.23 และสนับสนุน Azure Machine Learning Studio ใหม่ในภายหลัง
 
 ## <a name="key-features-of-demand-forecasting"></a>ลักษณะการทำงานหลักของการคาดการณ์ความต้องการ
 

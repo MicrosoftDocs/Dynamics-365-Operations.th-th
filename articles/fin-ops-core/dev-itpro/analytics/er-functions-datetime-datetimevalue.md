@@ -2,7 +2,7 @@
 title: ฟังก์ชัน DATETIMEVALUE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) DATETIMEVALUE
 author: NickSelin
-ms.date: 12/03/2019
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 711889e23e85b05c5e4c5ab904ec12ceb0bbb4da1f17d1c994adda1eec8ccb74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a9da0b9461926b1033d6a97b37d4b43a86d8dad
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776181"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485533"
 ---
 # <a name="datetimevalue-er-function"></a>ฟังก์ชัน DATETIMEVALUE ER
 
 [!include [banner](../includes/banner.md)]
 
-ฟังก์ชัน `DATETIMEVALUE` ส่งกลับค่า *DateTime* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและใน [Culture](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) ที่ระบุเป็นทางเลือก สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) และ [กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
+ฟังก์ชัน `DATETIMEVALUE` ส่งกลับค่า *[วันที่และเวลา](er-formula-supported-data-types-primitive.md#datetime)* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและใน [วัฒนธรรม](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) ที่ระบุเป็นทางเลือก สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) และ [กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 ## <a name="syntax-1"></a>ไวยากรณ์ 1
 
@@ -41,17 +41,17 @@ DATETIMEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>อาร์กิวเมนต์
 
-`text`: *สตริง*
+`text`: *[สตริง](er-formula-supported-data-types-primitive.md#string)*
 
 ข้อความที่แสดงถึงค่าไปยังรูปแบบ
 
 `format`: *สตริง*
 
-รูปแบบของข้อความที่ให้
+รูปแบบของข้อความที่ให้ สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) และ [กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 `culture`: *สตริง*
 
-วัฒนธรรมที่ใช้สำหรับการจัดรูปแบบของข้อความที่กำหนด
+วัฒนธรรมที่ใช้สำหรับการจัดรูปแบบของข้อความที่กำหนด สำหรับข้อมูลเกี่ยวกับวัฒนธรรมที่ได้รับการสนับสนุน โปรดดูที่ [วัฒนธรรม](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)
 
 ## <a name="return-values"></a>ค่าที่ส่งคืน
 

@@ -1,27 +1,39 @@
 ---
 title: มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 description: หัวข้อนี้จะแสดงรายการคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386110"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485633"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20100"></a>รุ่น 2.0.10.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- ภาพเคลื่อนไหวที่เพิ่มเมื่อเลื่อนผ่านรายการและหน้า
+- ขณะนี้ข้อความตัดอย่างถูกต้องในหน้าข้อผิดพลาดการเชื่อมต่อ
+- ขณะนี้กล่องคำสั่งผสมที่ไม่มีค่าเริ่มต้นแสดงอย่างถูกต้อง
+- ขณะนี้ข้อมูลในพื้นที่หัวข้อย่อยแสดงอยู่ในหน้ารายละเอียดทั้งหมดเท่านั้น
+- ฟิลด์ป้อนข้อมูลว่างเปล่าจะไม่แสดงบนบัตรรายละเอียดอีกต่อไป
+- ค่าการยืนยันจะไม่ซ้ำบนบัตรรายละเอียดอีกต่อไป
+- แก้ไขปัญหาต่างๆ ที่เป็นสาเหตุให้ระบบหยุดตอบสนอง
 
 ## <a name="version-2090"></a>รุ่น 2.0.9.0
 

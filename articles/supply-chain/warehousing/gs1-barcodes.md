@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384548"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500341"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>บาร์โค้ด GS1 และรหัส QR
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 ผู้ปฏิบัติงานคลังสินค้ามักต้องทำงานหลายอย่างให้เสร็จสมบูรณ์ เมื่อพวกเขาใช้สแกนเนอร์ของอุปกรณ์เคลื่อนที่เพื่อลงทะเบียนการเคลื่อนย้ายของสินค้า ชุดแบบสี หรือคอนเทนเนอร์ งานเหล่านี้สามารถมีทั้งการสแกนบาร์โค้ดและการป้อนข้อมูลด้วยตนเองบนอุปกรณ์เคลื่อนที่ บาร์โค้ดจะใช้รูปแบบเฉพาะบริษัทที่คุณกําหนดและจัดการโดยใช้ Microsoft Dynamics 365 Supply Chain Management
 

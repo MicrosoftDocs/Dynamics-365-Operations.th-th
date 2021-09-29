@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474903"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506866"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management รุ่น 10.0.19 (มิถุนายน 2021)
 
@@ -40,8 +40,7 @@ ms.locfileid: "7474903"
 | สินค้าคงคลังและลอจิสติกส์ | [การปรับปรุงส่วนเพิ่มสำหรับความสามารถในการดำเนินงานคลังสินค้าที่มีสเกลยูนิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[ข้อความตัวประมวลผลข้อความ](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[การปรับปรุงสินค้าคงคลังของคลังสินค้า](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | สินค้าคงคลังและลอจิสติกส์ | [ฟังก์ชันการค้นหาเกี่ยวกับฟิลด์บทนําของเอกสารและบทสรุปของเอกสารในหน้าใบเสนอราคาขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | คุณลักษณะนี้เพิ่มฟังก์ชันการค้นหาเกี่ยวกับฟิลด์ **บทนําของเอกสาร** และ **บทสรุปของเอกสาร** ในหน้า **ใบเสนอราคาขาย**<br><br>คุณลักษณะนี้จะไม่เปิดใช้งานโดยค่าเริ่มต้น |
 | สินค้าคงคลังและลอจิสติกส์ | [การดำเนินการของคลังสินค้าที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [ปรับใช้หน่วยสเกล edge บนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| การผลิต | [การดำเนินการของการผลิตที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| การวางแผน | [การจัดกำหนดการความสามารถรองรับที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| การผลิต | [การดำเนินการของการผลิตที่มีหน่วยสเกล edge บนฮาร์ดแวร์ที่ออกแบบเองของคุณ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [ปรับใช้หน่วยสเกล edge บนฮาร์ดแวร์แบบกำหนดเองโดยใช้ LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | การวางแผน | การยืนยันแผนการใบสั่งตามการสอบถาม | [ยืนยันแผนการใบสั่ง](../master-planning/planning-optimization/planned-order-firming.md) |
 | การจัดการข้อมูลผลิตภัณฑ์ | [การปรับปรุงหน้าคำแนะนำตัวแปร](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า](../pim/tasks/create-predefined-product-variants.md) |
 

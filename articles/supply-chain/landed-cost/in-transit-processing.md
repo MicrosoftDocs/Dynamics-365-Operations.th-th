@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744809"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500290"
 ---
 # <a name="goods-in-transit-processing"></a>การประมวลผลสินค้าที่อยู่ระหว่างการส่งต่อ
 
@@ -148,8 +148,6 @@ ms.locfileid: "6744809"
 ต้นทุนแฝงเพิ่มชนิดใบสั่งงานใหม่ที่ชื่อ *สินค้าอยู่ระหว่างส่งต่อ* ไปยังหน้า **เท็มเพลตงาน** ควรตั้งค่าคอนฟิกชนิดใบสั่งงานนี้ในลักษณะเดียวกับ [เท็มเพลตงานของใบสั่งซื้อ](/dynamicsax-2012/appuser-itpro/create-a-work-template)
 
 #### <a name="work-header-breaks"></a>การแบ่งส่วนหัวของงาน
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 แม่แบบงานที่มีชนิดใบสั่งงานเป็น *สินค้าที่อยู่ระหว่างการส่งต่อ* สามารถตั้งค่าคอนฟิกให้แบ่งหัวข้องานได้ ในหน้า **แม่แบบงาน** ให้ทำตามหนึ่งในขั้นตอนเหล่านี้
 

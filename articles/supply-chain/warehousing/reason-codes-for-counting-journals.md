@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345277"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500611"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>รหัสเหตุผลสำหรับการตรวจนับสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 รหัสเหตุผลช่วยคุณวิเคราะห์ผลลัพธ์ของกระบวนการตรวจนับ และความขัดแย้งใดๆ ที่เกิดขึ้นในระหว่างกระบวนการนั้น คุณสามารถระบุเหตุผลสำหรับการทำการตรวจนับได้ เช่น แท่นวางสินค้าที่เสียหาย หรือการปรับปรุงสินค้าคงคลังที่ยึดตามตัวอย่างของสินค้าคงคลัง ในเวลาเดียวกัน คุณสามารถใช้ฟังก์ชันการปรับปรุงเพื่อลงรายการบัญชีมูลค่าของการปรับปรุงปริมาณคงคลังคงเหลือในบัญชีตรงข้ามที่เหมาะสมได้ ตามเหตุผลของการปรับปรุงสินค้าคงคลังแต่ละรายการ
 
@@ -42,8 +41,6 @@ ms.locfileid: "7345277"
 - รหัสเหตุผลควรผลักดันการลงรายการบัญชีตรงข้ามทางการเงินหรือไม่
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>เปิดคุณลักษณะรหัสเหตุผลในระบบของคุณ
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 ถ้าคุณไม่เห็นคุณลักษณะทั้งหมดที่อธิบายไว้ในหัวข้อนี้ในระบบของคุณ คุณอาจต้องเปิดคุณลักษณะ *การลงรายการบัญชีการปรับปรุงปริมาณคงคลังคงเหลือ โดยใช้รหัสเหตุผลที่กำหนดค่าได้ ซึ่งเชื่อมต่อกับบัญชีตรงข้าม* ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 

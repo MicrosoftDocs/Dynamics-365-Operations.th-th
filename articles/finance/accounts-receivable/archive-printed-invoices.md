@@ -1,8 +1,8 @@
 ---
 title: เก็บถาวรใบแจ้งหนี้ของลูกค้าที่พิมพ์ออกมาด้วยหมายเลขแฮช
 description: หัวข้อนี้อธิบายวิธีการเปิดใช้งานการเก็บถาวรเพื่อจัดเก็บใบแจ้งหนี้ของลูกค้าที่พิมพ์ออกมาพร้อมหมายเลขแฮช
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 474f5f19d709f3f04a2dbf4383360f58db7ecc8953e8624d9eef92286c52d4d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724218"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500538"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>เก็บถาวรใบแจ้งหนี้ของลูกค้าที่พิมพ์ออกมาด้วยหมายเลขแฮช
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ในบางประเทศ มีข้อกําหนดทางกฎหมายในการจัดเก็บหมายเลขแฮชที่คํานวณได้ในระบบร่วมกับการพิมพ์เอกสารบางฉบับ สามารถใช้หมายเลขแฮชเพื่อรายงานต่อหน่วยงานจัดเก็บภาษีและในระหว่างการตรวจสอบ
 

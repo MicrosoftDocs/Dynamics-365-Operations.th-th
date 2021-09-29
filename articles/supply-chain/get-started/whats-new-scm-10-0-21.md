@@ -1,5 +1,5 @@
 ---
-title: พรีวิวของ Dynamics 365 Supply Chain Management 10.0.21 (ตุลาคม 2021)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.21 (ตุลาคม 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.21
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391219"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500566"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>พรีวิวของ Dynamics 365 Supply Chain Management 10.0.21 (ตุลาคม 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.21 (ตุลาคม 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.21 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.960 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.21 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.960 และพร้อมใช้งานดังนี้:
 
 - **พรีวิวของการนำออกใช้:** สิงหาคม 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** กันยายน 2021
@@ -46,13 +45,14 @@ ms.locfileid: "7391219"
 
 ตารางต่อไปนี้มีคุณลักษณะที่รวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงข้อมูลและ/หรือลิงค์เพิ่มเติมไปที่เอกสารที่เกี่ยวข้อง
 
-คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว
+คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
 | พื้นที่คุณลักษณะ | ลักษณะการทำงาน | ข้อมูลเพิ่มเติม |
 |---|---|---|
-| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [Add-in การบัญชีสินค้าคงคลังส่วนกลางสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [โฮมเพจการบัญชีสินค้าคงคลังสากล](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [Add-in การบัญชีสินค้าคงคลังส่วนกลางสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [โฮมเพจการบัญชีสินค้าคงคลังสากล](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [ลงรายการบัญชีการปรับปรุงปริมาณคงคลังคงเหลือโดยใช้รหัสซึ่งเชื่อมต่อกับบัญชีตรงข้าม](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [รหัสเหตุผลการตรวจนับสินค้าคงคลัง](../warehousing/reason-codes-for-counting-journals.md) |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [นโยบายการส่งออกข้อมูลที่อ้างถึงใบเสนอราคาขาย](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | เลือกว่าการเปลี่ยนแปลงไปยังข้อมูลที่อ้างอิงโดยใบเสนอราคาจะทําให้ใบเสนอราคาเหล่านั้น (หรือรายการ) ถูกรวมอยู่ในการส่งออกส่วนเพิ่มถัดไปหรือไม่ การส่งออกส่วนเพิ่มของคุณจะรันได้เร็วขึ้น ถ้าคุณเลือกที่จะไม่รวมใบเสนอราคาหรือบรรทัดดังกล่าว<br><br>คุณลักษณะนี้จะเพิ่มการตั้งค่าที่เรียกว่า **ข้ามข้อมูลที่มีการอ้างอิงของใบเสนอราคาขายในระหว่างการติดตามการเปลี่ยนแปลง** ไปยังหน้า **พารามิเตอร์บัญชีลูกหนี้** |
+| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | การประมูลที่ปิดผนึกแล้ว <!-- KFM: Add RP link when available --> | [การประมูลแบบเปิดสำหรับ RFQ](../procurement/sealed-bidding.md) |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [สแกนบาร์โค้ดในคลังสินค้าโดยใช้มาตรฐานรูปแบบ GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [บาร์โค้ด GS1 และรหัส QR](../warehousing/gs1-barcodes.md) |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [การจองแบบชั่วคราวสำหรับ Add-in การแสดงผลสินค้าคงคลัง](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [การจองการแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility-reservations.md) |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [การปรับปรุงการหักลดและการปรับปรุงตามน้ำหนักจริงสำหรับการจัดการเงินคืน](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [จัดการการหักลดโดยใช้เวิร์กเบนช์การหักลด](../rebate-management/deduction-workbench.md )<br><br>[ดำเนินการ ตรวจทาน และลงรายการบัญชีเงินคืน](../rebate-management/process-review-post.md)<br><br>[ข้อตกลงการจัดการเงินคืน](../rebate-management/rebate-management-deals.md) |

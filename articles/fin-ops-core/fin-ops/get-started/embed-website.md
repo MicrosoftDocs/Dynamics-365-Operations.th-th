@@ -2,7 +2,7 @@
 title: ฝังแอปของบุคคลที่สาม
 description: หัวข้อนี้อธิบายวิธีการฝังแอปของบุคคลที่สามเพื่อเสริมฟังก์ชันของผลิตภัณฑ์
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345421"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488245"
 ---
 # <a name="embed-third-party-apps"></a>ฝังแอปของบุคคลที่สาม
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ลูกค้าหลายคนใช้ช่วงของแอปพลิเคชันเพื่อรันธุรกิจของตน แอปพลิเคชันเหล่านั้นบางรายการเป็นแอปเว็บของบุคคลที่สามที่ร่วมกับแอป Finance and Operations เพื่อให้ประสบการณ์ของผู้ใช้ที่ต่อเนื่องมากขึ้น คุณสามารถใช้คุณลักษณะ **แอปแบบเต็มหน้า** เพื่อฝังแอปของบุคคลที่สามเหล่านั้นลงในแอป Finance and Operations ของคุณโดยตรง (หากแอปของบุคคลที่สามอนุญาตให้ฝังตัวเองอยู่ได้) ด้วยวิธีนี้ ผู้ใช้สามารถเข้าถึงเว็บไซต์และแอปที่ต้องการโดยไม่ต้องสลับแท็บหรือหน้าต่าง
 

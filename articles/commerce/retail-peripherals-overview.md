@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715345"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500314"
 ---
 # <a name="peripherals"></a>อุปกรณ์ต่อพ่วง
 
@@ -562,7 +562,7 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 > ถ้าอุปกรณ์มักจะใช้สถานีฮาร์ดแวร์ที่แตกต่างกัน เราขอแนะนำให้คุณตั้งค่าคอนฟิก Modern POS เพื่อพร้อมท์ให้พนักงานเก็บเงินเลือกสถานีฮาร์ดแวร์ เมื่อพวกเขาเริ่มต้นกระบวนการชำระเงิน คลิก **Retail และ Commerce** &gt; **การตั้งค่าช่องทาง** &gt; **การตั้งค่า POS** &gt; **เครื่องบันทึกเงินสด** เลือกเครื่องบันทึกเงินสด และจากนั้น ตั้งค่าตัวเลือก **เลือกเมื่อมีการชำระเงิน** เป็น **ใช่** ใช้กำหนดการกระจาย **1090** เพื่อซิงค์การเปลี่ยนแปลงไปยังฐานข้อมูลช่องทาง
 
 ## <a name="extensibility"></a>เพิ่มความสามารถ
-สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู [ความสามารถในการขยายของสถานีฮาร์ดแวร์](dev-itpro/hardware-station-extensibility.md)
+สำหรับข้อมูลเกี่ยวกับสถานการณ์จำลองของความสามารถในการขยายสำหรับสถานีฮาร์ดแวร์ ให้ดู [รวม POS กับอุปกรณ์ฮาร์ดแวร์ใหม่และสร้างตัวติดตั้งส่วนขยาย](dev-itpro/hardware-device-extension.md)
 
 ## <a name="security"></a>ความปลอดภัย
 ตามมาตรฐานด้านความปลอดภัยปัจจุบัน การตั้งค่าต่อไปนี้ควรจะใช้ในสภาพแวดล้อมการผลิต: 

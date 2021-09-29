@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773524"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506842"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
 
@@ -38,6 +38,7 @@ ms.locfileid: "6773524"
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [การปรับปรุงประสิทธิภาพรายละเอียดใบสั่งขาย](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | คุณลักษณะนี้ช่วยให้อินเทอร์เฟสผู้ใช้มีมากมายเมื่อเปิดใบสั่งขาย โดยเฉพาะใบสั่งที่มีหลายบรรทัด |
 | การผลิต | [เรียกขั้นตอนระบบอัตโนมัติของกระบวนการเพื่อสร้างใบสั่งตรวจสอบคุณภาพ](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [เรียกขั้นตอนระบบอัตโนมัติของกระบวนการเพื่อสร้างใบสั่งตรวจสอบคุณภาพ](../production-control/process-automation-quality-orders.md ) |
 | การผลิต | [อินเทอร์เฟสการดำเนินการผลิตขั้นสูงสำหรับการผลิต](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-configure.md) |
+| การวางแผน | [การจัดกำหนดการความสามารถรองรับที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | การจัดการข้อมูลผลิตภัณฑ์ | [จัดการการเปลี่ยนแปลงในสูตรและส่วนผสมของสูตร](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [จัดการการเปลี่ยนแปลงในสูตรและส่วนผสมของสูตร](../engineering-change-management/manage-formula-changes.md) |
 | การจัดการข้อมูลผลิตภัณฑ์ | [การตรวจสอบความพร้อมของผลิตภัณฑ์](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [ความพร้อมของผลิตภัณฑ์](../engineering-change-management/product-readiness.md) |
 
