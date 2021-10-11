@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: การจัดการสัญญาของสมาชิก
               href: accounts-payable/royalty-contract.md
+            - name: การอ้างอิงใบแจ้งหนี้เดิมในใบลดหนี้ (ใบแจ้งหนี้ของผู้จัดจำหน่าย)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: การชำระเงินและการตัดจ่าย
               items:
                 - name: การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้
@@ -1266,12 +1268,14 @@
                   href: finance-insights/cash-flow-forecast-intro.md
                 - name: ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
                   href: finance-insights/external-data-in-cash-flow.md
-                - name: การคาดการณ์การชำระเงินของลูกค้า
+                - name: การคาดคะเนการชำระเงินของลูกค้า
                   href: finance-insights/payment-insights-overview.md
-                - name: ใช้การคาดการณ์การชำระเงินของลูกค้า
+                - name: ใช้การคาดคะเนการชำระเงินของลูกค้า
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: ภาพรวมของสแนปช็อต
                   href: finance-insights/payment-snapshots.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับ Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: การจัดการและการบัญชีโครงการ
           items:
             - name: ภาพรวมของการจัดการและการบัญชีโครงการ
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: การรายงานทะเบียน VAT หลายรายการ
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: การรายงานของออสเตรีย
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: การรายงานของฝรั่งเศส
                           items:
                             - name: การรายงานภาษี VAT
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: รายงานบริการข้ามแดน
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: รายงานอินทราสแทต
+                - name: อินทราสแทตของออสเตรีย
                   href: localizations/emea-aut-intrastat.md
                 - name: ภาษีซื้อ
                   href: localizations/emea-aut-purchase-duties.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: บาห์เรน
               items:
                 - name: ภาพรวมของบาห์เรน
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: รายงานการแจ้งข้อมูล VAT รายไตรมาส
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: รายงานรายชื่อต้องห้าม
-                  href: localizations/emea-ita-black-list-report.md
                 - name: วันที่สำหรับความสามารถและสมุดรายวันทางการเงิน
                   href: localizations/emea-ita-competence-date.md
                 - name: ค่าเสื่อมราคาของสินทรัพย์ถาวร
@@ -3801,6 +3809,8 @@
           items:
             - name: ภาพรวมการรายงานทางอิเล็กทรอนิกส์
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: ส่วนประกอบการรายงานทางอิเล็กทรอนิกส์
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: การตั้งค่าคอนฟิก
               items:
                 - name: สร้างการตั้งค่าคอนฟิก
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: การตั้งค่าที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่

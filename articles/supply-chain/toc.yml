@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: พารามิเตอร์ที่ไม่ได้ใช้โดยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: กำหนดการจัดหาวัสดุ
+                  href: master-planning/supply-schedule.md
                 - name: ใช้ตัวกรองกับแผน
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: การวางแผนหลักที่มีการคาดการณ์ความต้องการ
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: ร่วมมือกับลูกค้าของห่วงโซ่อุปทานภายใน
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: ความต้องการสุทธิและข้อมูลการเชื่อมโยงความต้องการกับการจัดซื้อที่การวางแผนหลักในตัว
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: การคาดการณ์
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: สร้างและออกใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทสำหรับการใช้ภายใน
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: ตรวจสอบความขัดแย้งของราคาในใบสั่งระหว่างบริษัท
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: บันทึกการรับสินค้าในใบสั่งซื้อ
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: การสร้างใบสั่งซื้อ
               items:
                 - name: สร้างใบสั่งซื้อด้วยตนเอง
@@ -2729,7 +2733,63 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: สร้างและแก้ไขใบเสนอราคาขาย
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: การส่งคืนสินค้า
+            - name: การค้าระหว่างบริษัท
+              items:
+                - name: ตั้งค่าการค้าระหว่างบริษัท
+                  items:
+                    - name: ตั้งค่าการค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: พารามิเตอร์ระหว่างบริษัท
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: การตั้งค่าผู้จัดจำหน่าย ลูกค้า และสินค้าสำหรับการค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: ตั้งค่าค่าธรรมเนียมในใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: การตั้งค่าพารามิเตอร์เพื่อลงรายการบัญชีใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: ซิงโครไนซ์ข้อมูลระหว่างบริษัท
+                  items:
+                    - name: ซิงโครไนซ์ราคาและส่วนลดระหว่างบริษัท
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: ซิงโครไนซ์ค่าธรรมเนียมระหว่างบริษัท
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: ซิงโครไนซ์ข้อมูลลูกค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: ซิงโครไนซ์รหัสการโอนการครอบครองระหว่างบริษัท
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: ใบสั่งขายและใบแจ้งหนี้ระหว่างบริษัท
+                  items:
+                    - name: การสร้างใบสั่งซื้อและใบสั่งขายระหว่างบริษัทในบริษัทหลายแห่ง
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: ใบสั่งและใบสั่งส่งคืนสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: สร้างใบสั่งขายระหว่างบริษัทสำหรับการใช้ภายใน
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: สร้างและออกใบแจ้งหนี้ใบสั่งขายระหว่างบริษัทสำหรับลูกค้าที่เป็นบุคคลภายนอก
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: การจองสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: เปลี่ยนแปลงหรือลบต้นฉบับใบสั่งขายระหว่างบริษัท
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: เปลี่ยนแปลงใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: หมายเลขชุดงานและลำดับประจำสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: บันทึกการจัดส่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: การลงทะเบียนการชำระเงินโดยอัตโนมัติสำหรับใบแจ้งหนี้ของลูกค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: ใบสั่งซื้อระหว่างบริษัท
+                  items:
+                    - name: สร้างและออกใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทสำหรับการใช้ภายใน
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: ตรวจสอบความขัดแย้งของราคาในใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: การแปลงสกุลเงินระหว่างบริษัท
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: การจัดกำหนดการหลักระหว่างบริษัท
+                  href: sales-marketing/intercompany-master-scheduling.md
+            - name: การส่งคืน
               items:
                 - name: การส่งคืนสินค้าจากการขาย
                   href: warehousing/sales-returns.md
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: ตั้งค่าและตั้งค่าคอนฟิกโมดูลต้นทุนแฝง
               items:
+                - name: เปิดโมดูลต้นทุนแฝงสําหรับระบบของคุณ
+                  href: landed-cost/landed-cost-enable.md
                 - name: พารามิเตอร์ต้นทุนแฝง
                   href: landed-cost/landed-cost-parameters.md
                 - name: พารามิเตอร์การจัดซื้อและการจัดหาที่มีต้นทุนแฝง
@@ -3185,9 +3247,11 @@
                       href: warehousing/warehouse-slotting.md
                     - name: คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: การกำหนดจุดยึด
+                      href: warehousing/anchoring.md
                     - name: การเรียงลำดับขาออก
                       href: warehousing/outbound-sorting.md
-                    - name: ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
+                    - name: วางตามผนัง - วางตามร้านค้า
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
                       href: warehousing/outbound-workload-visualization.md
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
                       href: warehousing/pick-oldest-batch.md
+                - name: พารามิเตอร์อุปกรณ์เคลื่อนที่ส่วนกลาง
+                  href: warehousing/mobile-device-parameters.md
                 - name: การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
                   href: warehousing/mobile-device-user-settings.md
                 - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า

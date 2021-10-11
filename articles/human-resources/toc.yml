@@ -5,6 +5,8 @@
       items:
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 กันยายน 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 06 กันยายน 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 สิงหาคม 2021
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: รีเซ็ตชุดงานที่ติดค้าง
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: รีเซ็ตการซิงโครไนซ์ Dataverse
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ Power Apps
@@ -485,6 +489,12 @@
               items:
                 - name: แผนสวัสดิการของผู้ปฏิบัติงานในบัญชีเงินเดือน
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: เอนทิตี้อื่นๆ
+              items:
+                - name: ประวัติชื่อบุคคล
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: อัตราการแปลง
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: ชุดตัวเลือก
               items:
                 - name: เพศ
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: การตั้งค่าที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: การรายงาน ACA
                   href: hr-benefits-management-aca-reports.md
+                - name: รายงานสวัสดิการ
+                  href: hr-benefits-statement.md
             - name: กำหนดและจัดการโปรแกรมสวัสดิการ
               href: hr-benefits-manage-program.md
             - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ

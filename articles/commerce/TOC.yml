@@ -1398,12 +1398,16 @@
               items:
                 - name: การแปล Commerce เป็นภาษาท้องถิ่นสำหรับรัสเซีย
                   href: localizations/rus-commerce-localization.md
-                - name: รูปแบบที่อยู่ของลูกค้าแบบง่ายใน Commerce POS สำหรับรัสเซีย
-                  href: localizations/rus-simplified-address.md
                 - name: ตั้งค่าการแปล Commerce เป็นภาษาท้องถิ่นสำหรับรัสเซีย
                   href: localizations/rus-commerce-setup.md
                 - name: การชําระเงินล่วงหน้าใน Commerce สําหรับรัสเซีย
                   href: localizations/rus-commerce-prepayments.md
+                - name: รูปแบบที่อยู่ของลูกค้าแบบง่ายใน Commerce POS สำหรับรัสเซีย
+                  href: localizations/rus-simplified-address.md
+                - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับรัสเซีย
+                  href: localizations/rus-fpi-sample.md
+                - name: การจัดการข้อมูลลูกค้าสำหรับรัสเซีย
+                  href: localizations/rus-customer-information.md
             - name: สวีเดน
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: การตั้งค่าที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
@@ -2329,7 +2335,11 @@
         - name: ความสามารถในการเพิ่มฟังก์ชัน
           items:
             - name: การพัฒนาและความสามารถในการเพิ่มฟังก์ชันการค้า
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: Commerce สำหรับผู้เชี่ยวชาญด้าน IT และนักพัฒนา
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: ตั้งค่าสภาพแวดล้อมการพัฒนาแบบในสถานที่
+                  href: dev-itpro/setup-local-dev-env.md
             - name: ความสามารถในการเพิ่มฟังก์ชันช่องทางออนไลน์
               items:
                 - name: ภาพรวมของความสามารถในการเพิ่มฟังก์ชันช่องทางออนไลน์
