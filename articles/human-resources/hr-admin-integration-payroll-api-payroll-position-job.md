@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722642"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559594"
 ---
 # <a name="payroll-position-job"></a>งานของตําแหน่งในบัญชีเงินเดือน
 
@@ -34,16 +34,22 @@ ms.locfileid: "6722642"
 
 ## <a name="properties"></a>คุณสมบัติ
 
-| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| คุณสมบัติ</br>**ชื่อทางกายภาพ**</br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **รหัสงาน**<br>mshr_jobid<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ |รหัสของงาน |
-| **มีผลใช้ตั้งแต่**<br>mshr_validto<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่เริ่มต้นการมีผลใช้ของความสัมพันธ์ตำแหน่งและงาน |
-| **มีผลใช้ถึง**<br>mshr_validto<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว <br>ต้องระบุ | วันที่สิ้นสุดการมีผลใช้ของความสัมพันธ์ตำแหน่งและงาน  |
-| **รหัสตำแหน่ง**<br>mshr_positionid<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | รหัสของตำแหน่ง |
-| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | ต้องระบุ<br>ระบบสร้างขึ้น |  |
-| **ค่ารหัสตําแหน่งงาน**<br>_mshr_fk_positionjob_id_value<br>*GUID* | อ่านอย่างเดียว<br>ต้องระบุ<br>คีย์นอก:mshr_PayrollPositionJobEntity:mshr_payrollpositionjobentity |รหัสของงานที่เชื่อมโยงกับตำแหน่ง|
-| **ค่ารหัสแผนค่าตอบแทนคงที่**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | อ่านอย่างเดียว<br>ต้องระบุ<br>คีย์นอก: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | รหัสของแผนค่าตอบแทนคงที่ที่เชื่อมโยงกับตำแหน่ง |
-| **รหัสเอนทิตีงานของตําแหน่งในบัญชีเงินเดือน**<br>mshr_payrollpositionjobentityid<br>*Guid* | ต้องระบุ<br>ระบบถูกสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงงานเฉพาะ  |
+| **รหัสตำแหน่ง**</br>mshr_positionid</br>*สตริง* | อ่านอย่างเดียว | รหัสของตำแหน่ง |
+| **มีผลใช้ตั้งแต่**</br>mshr_validto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่นั้นซึ่งความสัมพันธ์ตำแหน่งและงานเริ่มมีผลบังคับใช้ |
+| **มีผลใช้ถึง**</br>mshr_validto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่นั้นซึ่งความสัมพันธ์ตำแหน่งและงานสิ้นสุดการมีผลบังคับใช้ |
+| **รหัสงาน**</br>mshr_jobid</br>*สตริง* | อ่านอย่างเดียว | รหัสของงาน |
+| **ฟิลด์หลัก**</br>mshr_primaryfield</br>*สตริง* | ระบบสร้างขึ้น | ฟิลด์หลัก |
+| **รหัสเอนทิตีงานของตําแหน่งในบัญชีเงินเดือน**</br>mshr_payrollpositionjobentityid</br>*Guid* | ระบบถูกสร้างขึ้น | ค่ารหัสเฉพาะสากล (GUID) ที่ระบบสร้างขึ้นเพื่อระบุงานโดยไม่ซ้ำกัน |
+
+## <a name="relations"></a>ความสัมพันธ์
+
+| ค่าคุณสมบัติ | เอนทิตีที่เกี่ยวข้อง | คุณสมบัติการนําทาง | ชนิดการรวบรวม |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | ใช้ไม่ได้ |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>ตัวอย่างการสอบถาม
 

@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748020"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567570"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
@@ -55,7 +55,9 @@ ms.locfileid: "6748020"
 
 ราคาต้นทุนถัวเฉลี่ยใหม่จะสะท้อนค่าเฉลี่ยของธุรกรรมที่มีการอัพเดตทางการเงินที่ 15.00 ดอลลาร์สหรัฐฯ 
 
-ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลังวันที่ LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ไม่ได้ถูกใช้ ![วันที่ LIFO โดยรวมค่าทางกายภาพ](./media/lifodatewithoutincludephysicalvalue.gif) 
+ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลังวันที่ LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ไม่ได้ถูกใช้ 
+
+![วันที่ LIFO ที่ไม่มีตัวเลือก รวมค่าทางกายภาพ](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **สัญลักษณ์แผนภาพ**
 
@@ -90,7 +92,9 @@ ms.locfileid: "6748020"
 
 ราคาต้นทุนค่าเฉลี่ยของการดำเนินการใหม่จะแสดงค่าเฉลี่ยของธุรกรรมที่อัพเดตทางการเงินที่ 20.00 เหรียญสหรัฐ 
 
-ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ได้ถูกใช้ ![วันที่ LIFO โดยรวมค่าทางกายภาพ](./media/lifodatewithincludephysicalvalue.gif) 
+ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ได้ถูกใช้ 
+
+![วันที่ LIFO ที่มีตัวเลือก รวมค่าทางกายภาพ](./media/lifodatewithincludephysicalvalue.gif) 
 
 **สัญลักษณ์แผนภาพ**
 

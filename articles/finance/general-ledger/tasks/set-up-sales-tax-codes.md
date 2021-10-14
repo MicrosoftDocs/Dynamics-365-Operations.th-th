@@ -2,7 +2,7 @@
 title: ตั้งค่ารหัสภาษีขาย
 description: หัวข้อนี้อธิบายวิธีการตั้งค่ารหัสภาษีขายใน Dynamics 365 Finance
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719209"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562113"
 ---
 # <a name="set-up-sales-tax-codes"></a>ตั้งค่ารหัสภาษีขาย
 
@@ -38,11 +38,19 @@ ms.locfileid: "6719209"
 8. ใน **บานหน้าต่างการดำเนินการ** ที่ด้านบนของอินเทอร์เฟส ให้เลือก **รหัสภาษีขาย**
 9. เลือก **ค่า**
 10. ป้อนค่าสำหรับรหัสภาษีนี้ในคอลัมน์ **ค่า**
-    - บน FastTab **การคำนวณ** ในฟิลด์จุดเริ่มต้น ถ้ามีการเลือกยอดเงินต่อหน่วย ค่าจะถูกคูณด้วยปริมาณในธุรกรรมเพื่อคำนวณยอดภาษีขาย  ถ้ารหัสภาษีไม่ใช่ภาษีตามหน่วย ค่าจะเป็นเปอร์เซ็นต์ที่จะใช้ในจุดเริ่มต้นสำหรับรหัสภาษีนี้เพื่อคำนวณยอดภาษีขาย     
+
+    บนแท็บด่วน **การคำนวณ** ในฟิลด์ **จุดเริ่มต้น** ถ้ามีการเลือก **ยอดเงินต่อหน่วย** ค่าจะถูกคูณด้วยปริมาณในธุรกรรมเพื่อคำนวณยอดภาษีขาย  ถ้ารหัสภาษีไม่ใช่ภาษีตามหน่วย ค่าจะเป็นเปอร์เซ็นต์ที่จะใช้ในจุดเริ่มต้นสำหรับรหัสภาษีนี้เพื่อคำนวณยอดภาษีขาย     
+
 11. เลือก **บันทึก**
 12. ปิดหน้า
 13. เลือก **บันทึก**
 
+ในฐานะของ Microsoft Dynamics 365 Finance รุ่น 10.0.22 ถ้าคุณใช้ [บริการภาษี](../../localizations/global-tax-calcuation-service-overview.md) และเปิดใช้งานคุณลักษณะ [**รองรับหมายเลขทะเบียน VAT หลายรายการ**](../../localizations/emea-multiple-vat-registration-numbers.md) ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** คุณสามารถใช้ฟิลด์ **ชนิดของภาษี** เพื่อระบุชนิดของรหัสภาษีได้ ค่าที่พร้อมใช้งานมีดังต่อไปนี้
 
+- VAT มาตรฐาน
+- VAT ที่ลดหย่อน
+- VAT 0%
+- สรรพสามิต
+- อื่นๆ
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

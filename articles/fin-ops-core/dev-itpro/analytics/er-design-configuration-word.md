@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718368"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595273"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER ใหม่ เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -46,7 +46,7 @@ ms.locfileid: "6718368"
 
 ![การเพิ่มองค์ประกอบที่ซ้อนกันบนหน้าโปรแกรมออกแบบรูปแบบ](./media/er-design-configuration-word-image4.gif)
 
-เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณไปยังรูปแบบ ER ณ เวลาการออกแบบ โครงสร้างรูปแบบตามลำดับจะจัดเก็บอยู่ในเท็มเพลต Word ที่แนบ เป็น [ส่วน XML แบบกำหนดเอง](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) ที่ชื่อ **รายงาน** คุณต้องเข้าถึงเท็มเพลตที่แก้ไข ดาวน์โหลดจาก Finance จัดเก็บภายในเครือง และเปิดเท็มเพลตนั้นในแอพลิเคชันบนเดสก์ท็อปของ Word ภาพต่อไปนี้จะแสดงเท็มเพลตตัวอย่างที่จัดเก็บภายในเครืองของรายงานการควบคุมที่มีส่วน XML แบบกำหนดเองของ **รายงาน**
+เมื่อคุณบันทึกการเปลี่ยนแปลงของคุณไปยังรูปแบบ ER ณ เวลาการออกแบบ โครงสร้างรูปแบบตามลำดับจะจัดเก็บอยู่ในเท็มเพลต Word ที่แนบ เป็น [ส่วน XML แบบกำหนดเอง](/visualstudio/vsto/custom-xml-parts-overview) ที่ชื่อ **รายงาน** คุณต้องเข้าถึงเท็มเพลตที่แก้ไข ดาวน์โหลดจาก Finance จัดเก็บภายในเครือง และเปิดเท็มเพลตนั้นในแอพลิเคชันบนเดสก์ท็อปของ Word ภาพต่อไปนี้จะแสดงเท็มเพลตตัวอย่างที่จัดเก็บภายในเครืองของรายงานการควบคุมที่มีส่วน XML แบบกำหนดเองของ **รายงาน**
 
 ![การแสดงตัวอย่างของเท็มเพลตรายงานตัวอย่าง ในแอพลิเคชันบนเดสก์ท็อปของ Word](./media/er-design-configuration-word-image5.gif)
 

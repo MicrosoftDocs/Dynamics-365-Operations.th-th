@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343871"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595214"
 ---
 # <a name="email-er-destination-type"></a>ชนิดของปลายทาง ER อีเมล
 
@@ -75,7 +75,7 @@ ms.locfileid: "7343871"
 >
 > เมื่อมีการเสนอปลายทางอีเมลสำหรับการแก้ไขที่ขณะ [รันไทม์](electronic-reporting-destinations.md#security-considerations) ฟิลด์ **จาก** จะมองเห็นได้เฉพาะกับผู้ใช้ที่มีสิทธิ์ความปลอดภัย `ERFormatDestinationSenderEmailMaintain` **รักษาที่อยู่อีเมลของผู้ส่งสำหรับปลายทางรูปแบบ ER**
 >
-> เมื่อฟิลด์ **จาก** ถูกตั้งค่าคอนฟิกให้ใช้ที่อยู่อีเมลอื่นที่ไม่ใช่ของผู้ใช้ปัจจุบัน สิทธิ์ **ส่งเป็น** หรือ **ส่งในนาม** ต้องถูก [ตั้งค่า](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) อย่างถูกต้องล่วงหน้า มิฉะนั้น ข้อยกเว้นต่อไปนี้แสดงขึ้นเมื่อรันไทม์: "ไม่สามารถส่งอีเมลในฐานะ \<from email account\> จากบัญชี \<current user account\> โปรดตรวจสอบสิทธิ์ 'ส่งเป็น' บน \<from email account\>"
+> เมื่อฟิลด์ **จาก** ถูกตั้งค่าคอนฟิกให้ใช้ที่อยู่อีเมลอื่นที่ไม่ใช่ของผู้ใช้ปัจจุบัน สิทธิ์ **ส่งเป็น** หรือ **ส่งในนาม** ต้องถูก [ตั้งค่า](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) อย่างถูกต้องล่วงหน้า มิฉะนั้น ข้อยกเว้นต่อไปนี้แสดงขึ้นเมื่อรันไทม์: "ไม่สามารถส่งอีเมลในฐานะ \<from email account\> จากบัญชี \<current user account\> โปรดตรวจสอบสิทธิ์ 'ส่งเป็น' บน \<from email account\>"
 
 คุณสามารถตั้งค่าคอนฟิกฟิลด์ **จาก** เพื่อส่งคืนที่อยู่อีเมลมากกว่าหนึ่งรายการได้ ในกรณีนี้ จะใช้ที่อยู่แรกในรายการเป็นที่อยู่ของผู้ส่งอีเมล
 

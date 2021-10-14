@@ -1,7 +1,7 @@
 ---
 title: ราคาขายสำหรับการบอกรับเป็นสมาชิก
 description: เมื่อคุณสร้างการบอกรับเป็นสมาชิก คุณจะได้รับราคาขายจากการตั้งค่าราคาขายซึ่งถูกสร้างในแบบฟอร์มราคาขาย (การบอกรับเป็นสมาชิก)
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59e9084c1b1a2d27ac7a813dd412ebf49011252a199742b31af7c3c328c5ffd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712945"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569996"
 ---
-# <a name="subscription-sales-prices"></a>ราคาขายสำหรับการบอกรับเป็นสมาชิก   
+# <a name="subscription-sales-prices"></a>ราคาขายสำหรับการบอกรับเป็นสมาชิก
 
 [!include [banner](../includes/banner.md)]
-
 
 เมื่อคุณสร้างการบอกรับเป็นสมาชิก คุณจะได้รับราคาขายจากการตั้งค่าราคาขายซึ่งถูกสร้างในแบบฟอร์ม **ราคาขาย (การบอกรับเป็นสมาชิก)**
 
@@ -33,14 +32,14 @@ ms.locfileid: "6712945"
 
 หากรหัสรอบระยะเวลาและสกุลเงินของทั้งการบอกรับเป็นสมาชิกและราคาขายเหมือนกัน จะมีการเลือกราคาขายสำหรับการบอกรับเป็นสมาชิกตามระดับความสำคัญที่แสดงรายการในตารางต่อไปนี้ เซลล์ว่างในตารางจะหมายถึงฟิลด์ว่าง และ X หมายถึงค่าที่เท่ากับค่าในการบอกรับเป็นสมาชิกจากธุรกรรมที่สร้างขึ้น
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,7 +119,6 @@ ms.locfileid: "6712945"
 </tbody>
 </table>
 
-
 เมื่อมีการสร้างค่าธรรมเนียมการบอกรับเป็นสมาชิก ราคาขายที่มีระดับรายละเอียดมากที่สุด (ตามที่ระบุไว้ในตารางข้างต้น) จะถูกเลือกเป็นราคาขายสำหรับการบอกรับเป็นสมาชิก
 
 ## <a name="update-and-index-subscription-sales-prices"></a>การอัพเดตและการจัดดัชนีราคาขายของการสั่งซื้อโดยบอกรับเป็นสมาชิก
@@ -135,15 +133,15 @@ ms.locfileid: "6712945"
 
 คุณต้องการตั้งค่าราคาขายของการสั่งซื้อโดยบอกรับเป็นสมาชิกเป็นจำนวนเงิน  EUR 500 สำหรับโครงการใหม่ ในแบบฟอร์ม **ราคาขาย (การบอกรับเป็นสมาชิก)** คุณสร้างรายการราคาขายการบอกรับเป็นสมาชิกตามที่ระบุไว้ในตารางต่อไปนี้
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -174,14 +172,14 @@ ms.locfileid: "6712945"
 
 จากนั้น คุณสร้างการบอกรับเป็นสมาชิกดังนี้
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -226,14 +224,14 @@ ms.locfileid: "6712945"
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -274,15 +272,15 @@ ms.locfileid: "6712945"
 
 จากนั้น ดังนั้น คุณสร้างรายการราคาขายใหม่ที่มีราคาขายเป็น EUR 550 สำหรับการรวมของโครงการ 9030 และประเภทค่าธรรมเนียม SubCat1 ตอนนี้ จึงมีรายการราคาขายการบอกรับเป็นสมาชิกสองรายการสำหรับโครงการ 9030 ดังที่แสดงอยู่ในตารางต่อไปนี้
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,19 +315,18 @@ ms.locfileid: "6712945"
 </tbody>
 </table>
 
-
 คุณทำขั้นตอนที่อธิบายไว้ข้างต้นซ้ำเพื่อสร้างค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิกสำหรับการบอกรับเป็นสมาชิกทั้งสองในประเภทของการบอกรับเป็นสมาชิก Sub1 ธุรกรรมสองรายการจะถูกสร้างขึ้น ตารางต่อไปนี้แสดงธุรกรรมที่ถูกสร้างขึ้นสำหรับการบอกรับเป็นสมาชิกแต่ละรายการ ที่ถูกแนบกับกลุ่มการบอกรับเป็นสมาชิก
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -367,16 +364,10 @@ ms.locfileid: "6712945"
 </tbody>
 </table>
 
-
 ในธุรกรรมแรกของการบอกรับเป็นสมาชิก 00020\_135 ราคาขายจำนวน EUR 550 ได้มาจากราคาขายสำหรับการบอกรับเป็นสมาชิกที่ถูกตั้งค่าสำหรับชุดโครงการและประเภทที่กำหนดไว้ ในธุรกรรมที่สองสำหรับการบอกรับเป็นสมาชิก 00021\_135 มีการใช้ราคาขายจำนวน EUR 500 เป็นราคาขายสำหรับการบอกรับเป็นสมาชิกของโครงการ เนื่องจากไม่มีการตั้งค่าราคาสำหรับชุดโครงการ 9030 และประเภท SubCat2
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [การอัพเดตและการจัดดัชนีราคาขายของการสั่งซื้อโดยบอกรับเป็นสมาชิก](update-and-index-subscription-sales-prices.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

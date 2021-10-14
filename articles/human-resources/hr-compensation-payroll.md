@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483793"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559618"
 ---
 # <a name="ready-to-pay"></a>พร้อมที่จะจ่าย
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > ถ้าคุณต้องการเลือกพนักงานเป็นพร้อมจะจ่าย คุณต้องเปิดใช้งานฟังก์ชัน **(ตัวอย่าง) การรวมค่าจ้าง** ก่อนในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
@@ -72,10 +70,9 @@ ms.locfileid: "7483793"
 
 ถ้าฟิลด์ **พร้อมที่จะจ่าย** เป็น **ไม่** นี่เป็นการบ่งชี้ว่าคุณต้องปฏิบัติเพื่อให้แน่ใจว่าโปรไฟล์ผู้ปฏิบัติงานจะเสร็จสมบูรณ์ ซึ่งจะหยุดแสดงข้อมูลในเอนทิตีข้อมูลใดๆ 
 
-## <a name="known-issues"></a>ปัญหาที่ทราบ
+## <a name="process-automation"></a>กระบวนการอัตโนมัติ
 
-- คุณต้องปิดใช้งานคุณลักษณะ **การป้อนข้อมูลของพนักงานที่มีประสิทธิภาพ** ในการจัดการคุณลักษณะ ไทล์ในพื้นที่ทำงานการจัดการค่าตอบแทนจะทำงานไม่ถูกต้อง ถ้าคุณใช้คุณลักษณะนี้
-- ในหน้า **ผู้ปฏิบัติงาน** กลุ่ม **แท็บค่าจ้าง** **พร้อมที่จะจ่าย** จะพร้อมใช้งานกับบทบาทผู้ใช้ใดๆ 
+คุณสามารถทำให้การตรวจสอบความถูกต้องของพนักงานทั้งหมดเป็นแบบอัตโนมัติได้โดยใช้ [กระบวนการอัตโนมัติ](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation) ในพื้นที่ทำงาน **การจัดการค่าตอบแทน** ไปที่ **ลิงก์** \> **พารามิเตอร์** \> **กระบวนการอัตโนมัติ**
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

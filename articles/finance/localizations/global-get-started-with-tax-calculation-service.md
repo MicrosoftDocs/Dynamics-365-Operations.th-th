@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465088"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562137"
 ---
 # <a name="get-started-with-tax-calculation"></a>เริ่มต้นใช้งานการคํานวณภาษี
 
@@ -100,7 +100,7 @@ ms.locfileid: "7465088"
     | 10.0.18         | การตั้งค่าคอนฟิกภาษี - ยุโรป 30.12.82     |
     | 10.0.19         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 36.38.193 |
     | 10.0.20         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.43.208 |
-    | 10.0.21         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.46.212 |
+    | 10.0.21         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.48.215 |
 
 9. ในพื้นที่ทำงาน **คุณลักษณะที่ใช้ทั่วโลก** เลือก **คุณลักษณะ** เลือกไทล์ **การคํานวณภาษี** แล้วจากนั้น เลือก **เพิ่ม**
 10. เลือกหนึ่งในชนิดของคุณลักษณะต่อไปนี้:

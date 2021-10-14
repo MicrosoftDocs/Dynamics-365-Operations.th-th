@@ -1,7 +1,7 @@
 ---
 title: สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต
-description: 'งานนี้นำไปสู่การสร้างข้อตกลงสินเชื่อของธนาคารเพื่อประมวลผลเลตเตอร์ออฟเครดิต '
-author: ShylaThompson
+description: งานนี้นำไปสู่ขั้นตอนสำหรับการสร้างข้อตกลงสินเชื่อธนาคารเพื่อประมวลผลเลตเตอร์ออฟเครดิต
+author: panolte
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f978c02e269ca67f50af1d1588d765a9a986f66d7d76164d36f6aaece0e4b018
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 607d9688aebb6288735cc04f6b4d8e7b8f7362b9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754916"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595024"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>สร้างข้อตกลงสินเชื่อธนาคารสำหรับเลตเตอร์ออฟเครดิต
 
 [!include [banner](../../includes/banner.md)]
 
-งานนี้นำไปสู่การสร้างข้อตกลงสินเชื่อของธนาคารเพื่อประมวลผลเลตเตอร์ออฟเครดิต  คุณจะต้องตั้งค่าสินเชื่อธนาคารและการลงบัญชีโพรไฟล์ก่อนหน้างานนี้   งานนี้ใช้บริษัทสาธิต 'USMF'  
+งานนี้นำไปสู่ขั้นตอนสำหรับการสร้างข้อตกลงสินเชื่อธนาคารเพื่อประมวลผลเลตเตอร์ออฟเครดิต คุณจะต้องตั้งค่าสินเชื่อธนาคารและการลงบัญชีโพรไฟล์ก่อนหน้างานนี้   งานนี้ใช้บริษัทสาธิต 'USMF'  
 
 
 ## <a name="create-bank-facility-agreement"></a>สร้างข้อตกลงสินเชื่อธนาคาร

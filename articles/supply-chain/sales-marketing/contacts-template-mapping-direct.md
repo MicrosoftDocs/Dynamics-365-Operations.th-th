@@ -1,7 +1,7 @@
 ---
 title: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
 description: หัวข้อนี้จะอธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์เอนทิตีผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) จาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 084030ab6ff06a1140621bb91435edf6cff4f82cc4bbc13813ab46f76e42174d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef51a97c38f446cd267ac8a621ce2a1f66efad18
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756858"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579051"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
 
@@ -117,13 +117,13 @@ ms.locfileid: "6756858"
 > [!NOTE]
 > การแม็ปจะช่วยแสดงให้เห็นว่า ข้อมูลคอลัมน์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
 
-### <a name="contact-to-contact"></a>ผู้ติดต่อไปยังผู้ติดต่อ
+### <a name="contact-to-contact-example"></a>ตัวอย่างผู้ติดต่อไปยังผู้ติดต่อ
 
-![การแม็ปเท็มเพลตในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![การแม็ปเท็มเพลตผู้ติดต่อไปยังผู้ติดต่อในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer"></a>ผู้ติดต่อไปยังลูกค้า
+### <a name="contact-to-customer-example"></a>ตัวอย่างผู้ติดต่อไปยังลูกค้า
 
-![การแม็ปเท็มเพลตในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![การแม็ปเท็มเพลตผู้ติดต่อไปยังลูกค้าในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
