@@ -1,24 +1,21 @@
 ---
 title: บทช่วยสอน Regression Suite Automation Tool
 description: หัวข้อนี้จะแสดงวิธีการใช้ Regression Suite Automation Tool (RSAT) ซึ่งจะอธิบายถึงคุณลักษณะต่างๆ และแสดงตัวอย่างที่ใช้การเขียนสคริปต์ขั้นสูง
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714560"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556776"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>บทช่วยสอน Regression Suite Automation Tool
 
@@ -82,17 +79,23 @@ RSAT ช่วยให้คุณสามารถใช้งานการ
 
 คุณลักษณะนี้จะจับภาพหน้าจอของขั้นตอนที่ดำเนินการในระหว่างการบันทึกงาน มีประโยชน์สำหรับการตรวจสอบหรือการดีบักจุดประสงค์
 
-- เมื่อต้องการใช้คุณลักษณะนี้ เปิดไฟล์ **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** ภายใต้โฟลเดอร์การติดตั้ง RSAT (ตัวอย่างเช่น **C:\\Program Files (x86)\\Regression Suite Automation Tool**) และเปลี่ยนค่าขององค์ประกอบต่อไปนี้จาก **เท็จ** เป็น **จริง**
+- เมื่อต้องการใช้คุณลักษณะนี้ขณะเรียกใช้ RSAT กับอินเทอร์เฟซผู้ใช้ เปิดไฟล์ **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** ภายใต้โฟลเดอร์การติดตั้ง RSAT (ตัวอย่างเช่น **C:\\Program Files (x86)\\Regression Suite Automation Tool**) และเปลี่ยนค่าในองค์ประกอบต่อไปนี้จาก **เท็จ** เป็น **จริง**
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-เมื่อคุณรันกรณีการทดสอบ RSAT จะสร้างสแนปช็อต (รูปภาพ) ของขั้นตอนในโฟลเดอร์การเล่นของกรณีการทดสอบในไดเรกทอรีการทำงาน ถ้าคุณกำลังใช้เวอร์ชันที่เก่ากว่าของ RSAT รูปภาพจะถูกบันทึกไปที่ **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** โฟลเดอร์แยกต่างหากถูกสร้างขึ้นสำหรับกรณีการทดสอบแต่ละกรณีที่มีการรัน
+- เมื่อต้องการใช้คุณลักษณะนี้ขณะเรียกใช้ RSAT โดย CLI (ตัวอย่างเช่น Azure DevOps) เปิดไฟล์ **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** ภายใต้โฟลเดอร์การติดตั้ง RSAT (ตัวอย่างเช่น **C:\\Program Files (x86)\\Regression Suite Automation Tool**) และเปลี่ยนค่าในองค์ประกอบต่อไปนี้จาก **เท็จ** เป็น **จริง**
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+เมื่อคุณรันกรณีการทดสอบ RSAT สร้างสแนปช็อต (รูปภาพ) ของขั้นตอนและบันทึกในโฟลเดอร์การเล่นของกรณีการทดสอบในไดเรกทอรีการทำงาน ในโฟลเดอร์ชื่ออื่น โฟลเดอร์ย่อยที่แยกต่างหากจะถูกสร้างขึ้นชื่อว่า **StepSnapsdrives** โฟลเดอร์นั้นจะมีสแนปช็อตเกี่ยวกับกรณีการทดสอบที่รันอยู่
 
 ## <a name="assignment"></a>การกำหนด
 
-### <a name="scenario"></a>สถานการณ์
+### <a name="scenario"></a>สถานการณ์จำลอง
 
 1. โปรแกรมออกแบบผลิตภัณฑ์จะสร้างผลิตภัณฑ์ที่นำออกใช้ใหม่
 2. ผู้จัดการฝ่ายผลิตเริ่มต้นใบสั่งผลิตเพื่อนำระดับสินค้าคงคลังไปที่สองชิ้น
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 ตัวอย่างต่อไปนี้ใช้การเรียก Open Data Protocol (OData) ในการค้นหาสถานะใบสั่งของใบสั่งซื้อ ถ้าสถานะยังไม่ได้ **ออกใบแจ้งหนี้** คุณสามารถ ตัวอย่างเช่น เรียกใช้กรณีการทดสอบ RSAT ที่ลงรายการบัญชีใบแจ้งหนี้ได้
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

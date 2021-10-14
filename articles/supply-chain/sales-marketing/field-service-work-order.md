@@ -1,7 +1,7 @@
 ---
 title: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
 description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752693"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568386"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
 
@@ -245,31 +245,31 @@ ms.locfileid: "6752693"
 
 ตัวกรองข้อมูล: (msdyn_systemstatus ne 690970005) และ (msdyn_systemstatus ne 690970000) และ (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderHeader](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): ประมาณการณ์คำสั่งให้บริการ
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ (msdyn_linestatus eq 690970000) และ (msdynce_headersystemstatus ne 690970004)
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderServiceLineEstimate](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): คำสั่งให้บริการที่เกิดขึ้นจริง
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004))
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderServiceLineUsed](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): ประมาณการณ์คำสั่งผลิต
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ (msdyn_linestatus eq 690970000) และ (msdynce_headersystemstatus ne 690970004) และ (msdyn_allocated eq true)
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderProductLineEstimate](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): คำสั่งผลิตที่เกิดขึ้นจริง
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004) หรือ (msdyn_allocated ne true))
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderProductLineUsed](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

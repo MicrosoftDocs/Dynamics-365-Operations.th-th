@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741464"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559373"
 ---
 # <a name="payroll-position"></a>ตําแหน่งในบัญชีเงินเดือน
 
@@ -32,22 +32,29 @@ ms.locfileid: "6741464"
 
 เอนทิตีนี้แสดงข้อมูลที่เกี่ยวข้องกับตำแหน่งของพนักงานที่ระบุ
 
-ชื่อทางกายภาพ: 
+ชื่อทางกายภาพ: mshr_payrollpositionentity
 
 ## <a name="properties"></a>คุณสมบัติ
 
-| คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
+| คุณสมบัติ</br>**ชื่อทางกายภาพ**</br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **ชั่วโมงปกติรายปี**<br>annualregularhours<br>*ทศนิยม* | อ่านอย่างเดียว<br>ต้องระบุ | ชั่วโมงปกติรายปีที่กําหนดไว้ในตําแหน่ง  |
-| **รหัสเอนทิตีรายละเอียดตำแหน่งค่าจ้าง**<br>payrollpositiondetailsentityid<br>*Guid* | ต้องระบุ<br>ระบบถูกสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงตำแหน่งเฉพาะ  |
-| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* | ต้องระบุ<br>ระบบสร้างขึ้น |  |
-| **ค่ารหัสตําแหน่งงาน**<br>_mshr_fk_positionjob_id_value<br>*GUID* | อ่านอย่างเดียว<br>ต้องระบุ<br>คีย์นอก:mshr_PayrollPositionJobEntity:mshr_payrollpositionjobentity |รหัสของงานที่เชื่อมโยงกับตำแหน่ง|
-| **ค่ารหัสแผนค่าตอบแทนคงที่**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | อ่านอย่างเดียว<br>ต้องระบุ<br>คีย์นอก: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | รหัสของแผนค่าตอบแทนคงที่ที่เชื่อมโยงกับตำแหน่ง |
-| **รหัสรอบการชำระค่าจ้าง**<br>mshr_primaryfield<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | วงจรการค่าจ้างที่กําหนดไว้ในตําแหน่ง |
-| **ชำระโดยนิติบุคคล**<br>paidbylegalentity<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | นิติบุคคลที่กําหนดตามตําแหน่งที่รับผิดชอบการชำระเงิน |
-| **รหัสตำแหน่ง**<br>mshr_positionid<br>*สตริง* | อ่านอย่างเดียว<br>ต้องระบุ | รหัสของตำแหน่ง |
-| **มีผลใช้ถึง**<br>validto<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว<br>ต้องระบุ |วันที่เริ่มต้นการมีผลบังคับใช้ของรายละเอียดตําแหน่ง  |
-| **มีผลใช้ตั้งแต่**<br>validfrom<br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว<br>ต้องระบุ |วันที่สิ้นสุดการมีผลบังคับใช้ของรายละเอียดตําแหน่ง  |
+| **รหัสตำแหน่ง**</br>mshr_positionid</br>*สตริง* | อ่านอย่างเดียว | รหัสของตำแหน่ง |
+| **รหัสรอบการชำระค่าจ้าง**</br>mshr_paycycleid</br>*สตริง* | อ่านอย่างเดียว | รอบการชำระค่าจ้างที่ถูกกําหนดไว้ในตําแหน่ง |
+| **ชั่วโมงปกติรายปี**</br>annualregularhours</br>*ทศนิยม* | อ่านอย่างเดียว | ชั่วโมงปกติรายปีที่ถูกกําหนดไว้ในตําแหน่ง |
+| **ชำระโดยนิติบุคคล**</br>paidbylegalentity</br>*สตริง* | อ่านอย่างเดียว | นิติบุคคลที่ถูกกําหนดในตําแหน่งและรับผิดชอบการออกการชำระเงิน |
+| **มีผลใช้ถึง**</br>validto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่ซึ่งสิ้นสุดการมีผลบังคับใช้ของรายละเอียดตําแหน่ง |
+| **มีผลใช้ตั้งแต่**</br>validfrom</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่ซึ่งเริ่มมีผลบังคับใช้ของรายละเอียดตําแหน่ง |
+| **ฟิลด์หลัก**</br>mshr_primaryfield</br>*สตริง* | ระบบสร้างขึ้น | ฟิลด์หลัก |
+| **รหัสเอนทิตีรายละเอียดตำแหน่งค่าจ้าง**</br>payrollpositiondetailsentityid</br>*Guid* | ต้องระบุ</br>ระบบถูกสร้างขึ้น | ค่ารหัสเฉพาะสากล (GUID) ที่ระบบสร้างขึ้นเพื่อระบุตำแหน่งโดยไม่ซ้ำกัน |
+
+## <a name="relations"></a>ความสัมพันธ์
+
+| ค่าคุณสมบัติ | เอนทิตีที่เกี่ยวข้อง | คุณสมบัติการนําทาง | ชนิดการรวบรวม |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | ใช้ไม่ได้ |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | ใช้ไม่ได้ |
 
 ## <a name="example-query"></a>ตัวอย่างการสอบถาม
 

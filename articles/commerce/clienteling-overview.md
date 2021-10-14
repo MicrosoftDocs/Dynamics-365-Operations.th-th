@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9342ab8121b41aa98d93d80198296f721d6e080182e432ead0f84ac7b051fc06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 48e3b93b7e53a47673f824d35ac95b65d8566bce
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717758"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594814"
 ---
 # <a name="clienteling-overview"></a>ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
 
@@ -125,7 +125,7 @@ ms.locfileid: "6717758"
 - ภายใต้ส่วน **ความลับ**
     - **ชื่อ**: คือชื่อใดๆ ตัวอย่างเช่น "CISecret"
     - **คำอธิบาย**: ค่าใดๆ
-    - **ความลับ**: **vault**://<Name of key vault>/<name of secret>> ในตัวอย่างนี้ จะเป็น "vault://KeyVaultName/SecretName"
+    - **ข้อมูลลับ** : **Vault**:`//<Name of key vault>/<name of secret>>` ในตัวอย่างนี้จะเป็น `vault://KeyVaultName/SecretName`
 
 หลังจากที่คุณอัพเดตฟิลด์แล้ว ให้เลือก **ทำให้มีผล** เพื่อให้แน่ใจว่าแอพลิเคชัน Commerce สามารถเข้าถึงข้อมูลลับได้
 

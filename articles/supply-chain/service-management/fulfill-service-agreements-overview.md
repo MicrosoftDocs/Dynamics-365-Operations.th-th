@@ -1,7 +1,7 @@
 ---
 title: ภาพรวมตามข้อตกลงการให้บริการ
 description: หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a74bac8fb88a2d10156ff59f237fad53f8ba66803dd38d85dd8ae2d89b2afd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8919a4afda354949599361d81ebfa57b20736ba5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720215"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576507"
 ---
-# <a name="fulfill-service-agreements-overview"></a>ภาพรวมตามข้อตกลงการให้บริการ 
+# <a name="fulfill-service-agreements-overview"></a>ภาพรวมตามข้อตกลงการให้บริการ
 
 [!include [banner](../includes/banner.md)]
-
 
 หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ หัวข้อนี้ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ
 
@@ -41,9 +40,9 @@ ms.locfileid: "6720215"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

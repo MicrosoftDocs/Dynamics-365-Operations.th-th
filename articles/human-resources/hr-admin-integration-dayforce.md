@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414595"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559472"
 ---
 # <a name="configure-integration-with-dayforce"></a>ตั้งค่าคอนฟิกการรวมกับ Dayforce
 
@@ -64,7 +64,6 @@ ms.locfileid: "7414595"
 
 > [!NOTE]
 > แพคเกจข้อมูลที่โอนย้ายไปยังปลายทาง SFTP ถูกเข้ารหัสโดยใช้คีย์ที่ไม่ซ้ำกันสำหรับแพคเกจ คีย์อยู่ใน Azure Key Vault ที่สามารถเข้าถึงได้โดย Ceridian เท่านั้น ไม่สามารถถอดรหัสและตรวจสอบเนื้อหาของแพคเกจข้อมูลได้ ถ้าคุณต้องการตรวจสอบเนื้อหาของแพคเกจข้อมูล คุณต้องส่งออกโครงการข้อมูล "การส่งออกการรวมบัญชีค่าจ้าง" ด้วยตนเอง ให้ดาวน์โหลดโครงการนั้น แล้วเปิด การส่งออกด้วยตนเองจะไม่ใช้การเข้ารหัสหรือโอนย้ายบรรจุภัณฑ์
-> ตัวอย่างเช่นที่ไฟล์การรวมถูกส่งจากสภาพแวดล้อม UAT Dynamics 365 Human Resources หรือ Sandbox ไปยังสภาพแวดล้อมการทดสอบ Ceridian Dayforce คุณสามารถใช้ URL ของ Key Vault ต่อไปนี้: https://payrollintegrationprod.vault.azure.net
 
 ## <a name="configure-your-data"></a>ตั้งค่าคอนฟิกข้อมูลของคุณ 
 
