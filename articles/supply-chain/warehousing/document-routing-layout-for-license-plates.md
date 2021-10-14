@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fe6241db869924b0497e35ced2cc05fd89c320387359f5eb443bdb36b6d05823
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 03489629a74d33147ac77dd18b59efbfc9c9e4b5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727761"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574676"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
@@ -109,7 +109,7 @@ $FieldName[#]$
 
 ตัวอย่างเช่น ระบบของคุณมีฟิลด์ `AdditionalAddress` ที่จัดเก็บที่อยู่หลายบรรทัดต่อไปนี้:
 
-Contoso Inc.  
+Contoso Inc  
 ชื่อถนน 123  
 บางเมือง บางรัฐ
 
@@ -117,7 +117,7 @@ Contoso Inc.
 
 | รหัส | ข้อความที่พิมพ์ |
 |---|---|
-| `$AdditionalAddress[1]$` | Contoso Inc. |
+| `$AdditionalAddress[1]$` | Contoso Inc |
 | `$AdditionalAddress[2]$` | ชื่อถนน 123 |
 | `$AdditionalAddress[3]$` | บางเมือง บางรัฐ |
 

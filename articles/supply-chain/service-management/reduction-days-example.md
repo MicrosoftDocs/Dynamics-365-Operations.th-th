@@ -1,7 +1,7 @@
 ---
 title: ตัวอย่างวันในการลด
 description: ตัวอย่างวันในการลด
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,30 +15,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727809"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567954"
 ---
-# <a name="reduction-days-example"></a>ตัวอย่างวันในการลด 
+# <a name="reduction-days-example"></a>ตัวอย่างวันในการลด
 
 [!include [banner](../includes/banner.md)]
-
 
 คุณได้สร้างธุรกรรมการบอกรับสมัครสมาชิกสำหรับการบอกรับสมัครสมาชิกการบำรุงรักษาของลูกค้า ตามที่อธิบายในตารางดังต่อไปนี้
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,21 +65,20 @@ ms.locfileid: "6727809"
 </tbody>
 </table>
 
-
 ลูกค้ารายงานว่าไม่จำเป็นต้องใช้การครอบคลุมบริการเป็นเวลาสองวัน (10 มีนาคม และ 11 มีนาคม) คุณตกลงลดการสมัครสมาชิกในเวลาสองวันนี้
 
 คุณสร้างธุรกรรมใหม่ของชนิด **จำนวนวันที่ลด** ดังที่อธิบายในตารางดังต่อไปนี้
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -108,16 +106,10 @@ ms.locfileid: "6727809"
 </tbody>
 </table>
 
-
 เมื่อธุรกรรมสำหรับเดือนมีนาคม 2011 มีการออกใบแจ้งหนี้แล้ว ราคาขาย EUR 200 จะถูกลดลง EUR 12.90 ราคาขาย EUR 200 จะลดลงจำนวน EUR 12.90 จำนวนที่คิดค่าธรรมเนียมได้ของธุรกรรมการบอกรับการสมัครสมาชิกดังนั้นก็จะเป็น EUR 187.10 และสองธุรกรรมจะออกใบแจ้งหนี้ที่ยอด EUR 187.10
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [การลดจำนวนวันของค่าธรรมเนียมการสั่งซื้อโดยบอกรับเป็นสมาชิก](reduce-the-days-on-subscription-fees.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

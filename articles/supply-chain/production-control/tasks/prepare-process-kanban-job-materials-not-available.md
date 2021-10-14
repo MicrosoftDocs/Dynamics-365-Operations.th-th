@@ -1,7 +1,7 @@
 ---
 title: จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบไม่พร้อมใช้งานสำหรับเซลล์ทำงาน
 description: 'ขั้นตอนนี้มุ่งเน้นการจัดเตรียมกระบวนการงานคัมบังเมื่อวัสดุและส่วนประกอบบางรายการไม่พร้อมใช้งานสำหรับเซลล์ทำงาน ดังนั้นจึงจำเป็นต้องเบิกวัสดุจากคลังสินค้า '
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2aea4458bf01e1cccc8ba1e66f2a4cbecf814010b41fdb247e2cc696462487b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f75cdbc6ce6f7e427bf266c90428d73c065eac3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752717"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576747"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>จัดเตรียมกระบวนการงานคัมบังเมื่อวัตถุดิบไม่พร้อมใช้งานสำหรับเซลล์ทำงาน
 

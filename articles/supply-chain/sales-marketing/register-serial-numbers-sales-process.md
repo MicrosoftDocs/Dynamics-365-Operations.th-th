@@ -1,7 +1,7 @@
 ---
 title: การทำงานกับสินค้าที่มีการซีเรียลไลซ์
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถลงทะเบียนหมายเลขประจำสินค้าบนบันทึกการจัดส่ง หรือใบแจ้งหนี้ในระหว่างกระบวนการขาย ฟังก์ชันนี้จะมีประโยชน์เมื่อบริษัทต้องการรวบรวมหมายเลขลำดับประจำสินค้าสำหรับจุดประสงค์ในการบริการและการรับประกัน แต่ไม่จำเป็นต้องรักษาหมายเลขลำดับประจำสินค้าในสินค้าคงคลังจากการรับสินค้าเพื่อนำออกใช้
-author: omulvad
+author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50d591db4b71aad06c76242123cd1a4f9e866acb47df616c4ae3911ab52275bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713577"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571700"
 ---
 # <a name="working-with-serialized-items"></a>การทำงานกับสินค้าที่มีการซีเรียลไลซ์
 

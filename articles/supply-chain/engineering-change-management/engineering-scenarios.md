@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e95cb358b8e79ff091f428140e908be2ab3131f264e8cc43cd7de1f1745d8dfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755430"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574004"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>การฝึกปฏิบัติของคุณลักษณะการจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -55,7 +55,7 @@ ms.locfileid: "6755430"
 1. เลือก **สร้าง** เพื่อเพิ่มแถวไปยังกริด และตั้งค่าค่าต่อไปนี้สำหรับแถวนั้น:
 
     - **องค์กรทางวิศวกรรม:** *DEMF*
-    - **ชื่อองค์กร:** *Contoso ระบบความบันเทิงในเยอรมนี*
+    - **ชื่อองค์กร:** *ระบบความบันเทิง Contoso ในเยอรมนี*
 
     ![การเพิ่มองค์กรวิศวกรรม](media/engineering-org.png "การเพิ่มองค์กรวิศวกรรม")
 

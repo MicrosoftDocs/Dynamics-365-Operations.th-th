@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386349"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594842"
 ---
 # <a name="model-management-lifecycle"></a>วงจรการใช้งานการจัดการโมเดล
 
@@ -32,4 +32,4 @@ ms.locfileid: "7386349"
 
 เนื่องจากโมเดล AI ยึดตามข้อมูลใบแจ้งหนี้และข้อมูลลูกค้าที่พร้อมใช้งาน จึงเป็นเรื่องสําคัญที่สภาพแวดล้อม sandbox จะมีสําเนาข้อมูลการผลิตล่าสุด คุณสามารถเริ่มการฝึกอบรมแบบจำลองของคุณโดยปฏิบัติตามขั้นตอนต่างๆ ใน [ใช้การคาดการณ์การชำระเงินของลูกค้า](use-customer-payment-predictions.md) หลังจากที่มีการฝึกฝนแบบจำลองอีกครั้งแล้ว ให้ประเมินผลลัพธ์ตามที่อธิบายไว้ใน [ประเมินแบบจำลองการคาดการณ์การชำระเงินของลูกค้าเริ่มต้น](evaluate-payment-prediction.md) ใช้ข้อมูลใน [ปรับปรุงแบบจำลองการคาดการณ์](improve-model.md) เพื่อลองใช้กับชุดของคุณลักษณะและตัวกรองที่สามารถช่วยปรับปรุงแบบจำลองได้
 
-เมื่อคุณพอใจกับผลลัพธ์ของการฝึกอบรมแล้ว ให้ปฏิบัติตามขั้นตอนใน [จัดสรรโมเดล AI ของคุณ](https://docs.microsoft.com/ai-builder/distribute-model) เพื่อเปลี่ยนแบบจำลองเป็นสภาพแวดล้อมการทำงานจริงของคุณ
+เมื่อคุณพอใจกับผลลัพธ์ของการฝึกอบรมแล้ว ให้ปฏิบัติตามขั้นตอนใน [จัดสรรโมเดล AI ของคุณ](/ai-builder/distribute-model) เพื่อเปลี่ยนแบบจำลองเป็นสภาพแวดล้อมการทำงานจริงของคุณ

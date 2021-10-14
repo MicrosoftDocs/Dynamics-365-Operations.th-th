@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774980"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557403"
 ---
 # <a name="global-inventory-accounting-home-page"></a>โฮมเพจการบัญชีสินค้าคงคลังส่วนกลาง
 
@@ -41,13 +41,16 @@ ms.locfileid: "6774980"
 
 การบัญชีสินค้าคงคลังส่วนกลางมีอยู่ในภูมิภาคทางภูมิศาสตร์ของ Azure ต่อไปนี้:
 
-- สหรัฐ
+- สหรัฐอเมริกา
 - ยุโรป
 - สหราชอาณาจักร
 - ออสเตรเลีย
 - แคนาดา
+- อเมริกาใต้
 
 ถ้าคุณพยายามติดตั้ง Add-in จากภูมิภาคทางภูมิศาสตร์อื่น Microsoft Dynamics Lifecycle Services (LCS) จะแสดงข้อความที่ไม่สนับสนุนภูมิภาคทางภูมิศาสตร์ของคุณ การบัญชีสินค้าคงคลังส่วนกลางไม่สนับสนุนการปรับใช้ในองค์กรของ Supply Chain Management
+
+ถ้าคุณมีปัญหาเกี่ยวกับการเปิดใช้งานการบัญชีสินค้าคงคลังสากลในหนึ่งในภูมิภาคทางภูมิศาสตร์ที่สนับสนุนที่แสดงไว้ที่นี่ โปรดส่งข้อความอีเมลที่มีรหัสสภาพแวดล้อมของคุณไปยังทีมงาน [การบัญชีสินค้าคงคลังสากล](mailto:GlobalInvAccount@microsoft.com) เพื่อการตรวจสอบความถูกต้อง
 
 ## <a name="licensing"></a>การให้ลิขสิทธิ์
 

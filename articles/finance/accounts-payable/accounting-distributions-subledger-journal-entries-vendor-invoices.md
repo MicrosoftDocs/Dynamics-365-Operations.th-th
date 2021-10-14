@@ -1,7 +1,7 @@
 ---
 title: การกระจายการลงบัญชีและรายการสมุดรายวันสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
 description: การกระจายการลงบัญชีจะใช้เพื่อกำหนดวิธีลงบัญชีของบอดเงิน เช่น วิธีการลงบัญชีค่าใช้จ่าย ภาษี หรือค่าธรรมเนียม ในใบแจ้งหนี้ของผู้จัดจำหน่าย  ทุกยอดเงินที่ต้องนำมาลงบัญชีเมื่อใบแจ้งหนี้ของผู้จัดจำหน่ายถูกบันทึกบัญชีในสมุดรายวัน จะมีการกระจายการลงบัญชีหนึ่งรายการขึ้นไป
-author: abruer
+author: sunfzam
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df40d25e2027cf484e3f596fd315dca1c5b8809137aad9948da228245ad85f50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749257"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594702"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>การกระจายการลงบัญชีและรายการสมุดรายวันสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
 

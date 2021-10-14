@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343823"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594868"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอป Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343823"
 
 ## <a name="help-architecture"></a>สถาปัตยกรรมของวิธีใช้
 
-แอป Finance and Operations จะรวมภาพรวมแนวคิดและหัวข้ออื่นๆ ที่เผยแพร่ไปยังไซต์ [https://docs.microsoft.com/dynamics365](/dynamics365/) คุณสามารถเข้าถึงเนื้อหานี้ได้จากบานหน้าต่าง **วิธีใช้** ในผลิตภัณฑ์ ภาพประกอบต่อไปนี้แสดงส่วนประกอบของระบบให้ความช่วยเหลือ
+แอป Finance and Operations จะรวมภาพรวมแนวคิดและหัวข้ออื่นๆ ที่เผยแพร่ไปยังไซต์ [คู่มือ Microsoft Dynamics 365](/dynamics365/) คุณสามารถเข้าถึงเนื้อหานี้ได้จากบานหน้าต่าง **วิธีใช้** ในผลิตภัณฑ์ ภาพประกอบต่อไปนี้แสดงส่วนประกอบของระบบให้ความช่วยเหลือ
 
 [![สถาปัตยกรรมของวิธีใช้](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "7343823"
 ## <a name="adding-task-guides"></a>การเพิ่มคู่มืองาน
 
 > [!NOTE]
-> แท็บ **คู่มืองาน** ไม่พร้อมใช้งานในขณะนี้ในทรัพยากรบุคคลหรือ Commerce <!--We are currently working to enable this functionality in a future release.--> อย่างไรก็ตาม คู่มืองานในประสบการณ์การเริ่มต้นใช้งานในทรัพยากรบุคคลยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน สำหรับทั้งทรัพยากรบุคคลและ Commerce วิธีใช้ตามขั้นตอนยังมีให้ใช้บนไซต์ [https://docs.microsoft.com/dynamics365](/dynamics365/)
+> แท็บ **คู่มืองาน** ไม่พร้อมใช้งานในขณะนี้ในทรัพยากรบุคคลหรือ Commerce <!--We are currently working to enable this functionality in a future release.--> อย่างไรก็ตาม คู่มืองานในประสบการณ์การเริ่มต้นใช้งานในทรัพยากรบุคคลยังคงพร้อมใช้งานเพื่อให้ครอบคลุมฟังก์ชันพื้นฐาน สำหรับทั้ง Human Resources และ Commerce วิธีใช้ตามขั้นตอนพร้อมใช้งานบนไซต์ [คู่มือ Microsoft Dynamics 365](/dynamics365/)
 
 บนหน้า **พารามิเตอร์ของระบบ** ผู้ดูแลระบบสามารถตั้งค่าคอนฟิกการเข้าถึงไลบรารีของคู่มืองานที่เกี่ยวข้องสำหรับการใช้งาน
 
