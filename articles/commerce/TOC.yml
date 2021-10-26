@@ -802,6 +802,8 @@
                   href: POS-serial-returns.md
                 - name: การขอคืนเงินที่เชื่อมโยง
                   href: dev-itpro/linked-refunds.md
+                - name: ประมวลผลการขอคืนเงินที่ยกเลิกการเชื่อมโยงด้วย Dynamics 365 Commerce Payment Connector สำหรับ Adyen
+                  href: dev-itpro/unlinked-refunds.md
                 - name: ขายและส่งคืนผลิตภัณฑ์ที่ไม่รวมอยู่ในการจัดประเภทของร้านค้า
                   href: sell-return-outside-assortments.md
                 - name: ตั้งค่าคอนฟิกและดำเนินการแลกเปลี่ยนในใบสั่งส่งคืนสินค้า

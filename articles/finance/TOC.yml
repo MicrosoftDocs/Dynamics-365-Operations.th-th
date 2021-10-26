@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: ความสามารถด้านสกุลเงินในการรายงานทางการเงิน
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: การคํานวณกําไรสะสมในรายงานทางการเงิน
+              href: general-ledger/retained-earnings-enhancements.md
             - name: รายงานทางการเงินของงบดุล
               href: general-ledger/balance-sheet-financial-reports.md
             - name: สร้างรายงานทางการเงิน
