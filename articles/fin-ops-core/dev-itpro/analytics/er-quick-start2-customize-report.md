@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770031"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605242"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>การปรับรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
 
@@ -160,7 +160,7 @@ ms.locfileid: "6770031"
     - **การแม็ปแบบจำลองการชำระเงิน 1611** – การตั้งค่าคอนฟิกนี้มีส่วนประกอบ ER [การแม็ปแบบจำลอง](general-electronic-reporting.md#data-model-and-model-mapping-components) ที่อธิบายวิธีการกรอกข้อมูลแบบจำลองข้อมูลด้วยข้อมูลของแอปพลิเคชันที่รันไทม์
     - **BACS (UK)** - การตั้งค่าคอนฟิกนี้มี [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) และการแม็ปส่วนประกอบ ER ส่วนประกอบรูปแบบระบุโครงร่างรายงาน ส่วนประกอบการแม็ปรูปแบบมีแหล่งข้อมูลแบบจำลองและระบุวิธีการกรอกข้อมูลโครงร่างรายงานโดยใช้แหล่งข้อมูลนี้ในขณะรันไทม์
 
-![หน้าการตั้งค่าคอนฟิก](./media/er-quick-start2-imported-solution1.png)
+![หน้าการตั้งค่าคอนฟิกที่มีการตั้งค่าคอนฟิก ER ที่ระบุ พร้อมใช้งานในแผนภูมิ](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>เตรียมการชําระเงินให้แก่ผู้จัดจําหน่ายสําหรับการประมวลผล
 
@@ -222,7 +222,7 @@ ms.locfileid: "6770031"
 4. บนแท็บด่วน **รูปแบบไฟล์** ให้ตั้งค่าตัวเลือก **รูปแบบการส่งออกทางอิเล็กทรอนิกส์ทั่วไป** เป็น **ใช่**
 5. ในฟิลด์ **การตั้งค่าคอนฟิกรูปแบบการส่งออก** ให้เลือกการตั้งค่าคอนฟิกรูปแบบ **BACS (UK)**
 
-    ![วิธีการชำระเงิน - หน้าผู้จัดจำหน่าย](./media/er-quick-start2-method-of-payment1.png)
+    ![วิธีการจ่ายเงิน - หน้าผู้จัดจำหน่ายที่จะตั้งค่าวิธีการจ่ายเงินทางอิเล็กทรอนิกส์ เพื่อประมวลผลการจ่ายเงินของผู้จัดจำหน่ายโดยใช้รูปแบบมาตรฐาน](./media/er-quick-start2-method-of-payment1.png)
 
 6. เลือก **บันทึก**
 
@@ -273,7 +273,7 @@ ms.locfileid: "6770031"
 
 รุ่น 1.1.1 ของการตั้งค่าคอนฟิกรูปแบบ ER **BACS (UK แบบกำหนดเอง)** ถูกสร้างขึ้น รุ่นนี้มี [สถานะ](general-electronic-reporting.md#component-versioning) ของ **แบบร่าง** และสามารถแก้ไขได้ เนื้อหาปัจจุบันของรูปแบบ ER แบบกำหนดเองของคุณตรงกับเนื้อหาของรูปแบบที่ Microsoft ให้ไว้
 
-![หน้าการตั้งค่าคอนฟิก](./media/er-quick-start2-derived-format-configuration1.png)
+![หน้าการตั้งค่าคอนฟิกรุ่น 1.1.1 ของ BACS (UK แบบกำหนดเอง) การตั้งค่าคอนฟิกรูปแบบ ER](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>แก้ไขรูปแบบที่กำหนดเอง
 
@@ -349,7 +349,7 @@ ms.locfileid: "6770031"
 4. บนแท็บด่วน **รูปแบบไฟล์** ให้ตั้งค่าตัวเลือก **รูปแบบการส่งออกทางอิเล็กทรอนิกส์ทั่วไป** เป็น **ใช่**
 5. ในฟิลด์ **การตั้งค่าคอนฟิกรูปแบบการส่งออก** ให้เลือกการตั้งค่าคอนฟิกรูปแบบ **BACS (UK แบบกำหนดเอง)**
 
-    ![วิธีการชำระเงิน - หน้าผู้จัดจำหน่าย](./media/er-quick-start2-method-of-payment2.png)
+    ![วิธีการจ่ายเงิน - หน้าผู้จัดจำหน่ายที่จะตั้งค่าวิธีการจ่ายเงินทางอิเล็กทรอนิกส์ เพื่อประมวลผลการจ่ายเงินของผู้จัดจำหน่ายโดยใช้รูปแบบที่กำหนดเอง](./media/er-quick-start2-method-of-payment2.png)
 
 6. เลือก **บันทึก**
 
@@ -378,7 +378,7 @@ ms.locfileid: "6770031"
 
         โปรดสังเกตว่าโดยสอดคล้องกับโครงสร้างของรูปแบบ ER แบบกำหนดเอง บรรทัดการชำระเงินในไฟล์ที่สร้างขึ้นในขณะนี้จะ [เริ่มต้น](#PositionSWIFTCode) ด้วยรหัส SWIFT ที่ [ป้อนไว้](#DefineSWIFTCode) สำหรับบัญชีธนาคารของผู้จัดจำหน่ายที่มีการประมวลผลการชำระเงิน
 
-        ![ไฟล์การชำระเงินในรูปแบบ TXT](./media/er-quick-start2-payment-file2.png)
+        ![ไฟล์การจ่ายเงินในรูปแบบ TXT ที่ใช้ในการประมวลผลการจ่ายเงินของผู้จัดจำหน่าย](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>นำเข้ารุ่นใหม่ของการตั้งค่าคอนฟิกรูปแบบ ER มาตรฐาน
 
@@ -395,7 +395,7 @@ ms.locfileid: "6770031"
 5. บนแท็บด่วน **รุ่น** เลือกรุ่น **3.3** ของการตั้งค่าคอนฟิก ER ที่เลือก
 6. เลือก **นำเข้า** เพื่อดาวน์โหลดเวอร์ชันที่เลือกจากที่เก็บส่วนกลางไปยังอินสแตนซ์การเงินปัจจุบัน
 
-![หน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-quick-start2-import-solution2.png)
+![หน้าที่เก็บการตั้งค่าคอนฟิก FastTab เวอร์ชัน ปุ่มนําเข้า](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > ถ้าคุณมีปัญหาในการเข้าถึง [ที่เก็บส่วนกลาง](er-download-configurations-global-repo.md) คุณสามารถ [ดาวน์โหลดการตั้งค่าคอนฟิก](download-electronic-reporting-configuration-lcs.md) จาก LCS แทน
@@ -507,7 +507,7 @@ ms.locfileid: "6770031"
 
         โปรดสังเกตว่าบรรทัดการชำระเงินในไฟล์ที่สร้างขึ้นในขณะนี้จะเริ่มต้นด้วยรหัส SWIFT ที่ป้อนไว้สำหรับบัญชีธนาคารของผู้จัดจำหน่ายที่มีการประมวลผลการชำระเงิน
 
-        ![ไฟล์การชำระเงินในรูปแบบ TXT](./media/er-quick-start2-payment-file3.png)
+        ![ไฟล์การจ่ายเงินในรูปแบบ TXT ที่ใช้ในการประมวลผลการจ่ายเงินของผู้จัดจำหน่าย โดยใช้รูปแบบ ER ที่ปรับใช้ซ้ำ](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>ทรัพยากรเพิ่มเติม
 

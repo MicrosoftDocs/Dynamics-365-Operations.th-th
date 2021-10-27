@@ -1,0 +1,101 @@
+---
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 5 ตุลาคม 2021
+description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 5 ตุลาคม 2021
+author: marcelbf
+ms.date: 10/05/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: marcelbf
+ms.search.validFrom: 2021-10-05
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641441"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 5 ตุลาคม 2021
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Microsoft Dynamics 365 Human Resources
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
+
+## <a name="in-this-release"></a>ในการเผยแพร่นี้
+
+รุ่นนี้ประกอบด้วยลักษณะการทำงานและการแก้ไขปัญหาบักใหม่ๆ ดังต่อไปนี้ การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.4485
+
+### <a name="new-features"></a>ลักษณะการทำงานใหม่ๆ
+
+โดยทั่วไปลักษณะการทำงานต่อไปนี้จะพร้อมใช้งานกับรุ่นนี้
+
+| ลักษณะการทำงาน | แผนการรีลีส | คู่มือ |
+|---|---|---|
+| Platform Update 10.0.21 (45) | -- | [แพลตฟอร์มที่อัพเดตสำหรับรุ่น10.0.21 ของแอป Finance and Operations (ตุลาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+
+
+### <a name="bug-fixes"></a>การแก้ไขปัญหา
+
+การแก้ไขปัญหาต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้
+
+> [!NOTE]
+> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ พวกเราอาจมีการอัปเดตในหัวข้อนี้เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+
+| หมายเลขปัญหา | ปัญหา | คำอธิบาย |
+|---|---|---|
+| 598896 | จำนวนของพนักงานจะไม่แสดงขึ้นจนกว่าพนักงานจะเสร็จสิ้นการลงทะเบียน | บนหน้า **ระบบบริการตนเองของพนักงาน** ไม่มีการแสดงจำนวนของพนักงานของสวัสดิการ ไม่มีการแสดงจำนวนของพนักงาน บนหน้า **การให้บริการตนเองของสวัสดิการ**  |
+| 613440 | ไม่สามารถส่งออกข้อมูลจาก **การจัดการข้อมูล** | เมื่อส่งออกข้อมูลของโครงการใน **การจัดการข้อมูล** การส่งออกจะล้มเหลวโดยไม่คาดคิด |
+| 618327 | รอบระยะเวลาที่ปิดและรอบระยะเวลาในอนาคตถูกแสดงในหน้า **พารามิเตอร์ของรายงาน** สำหรับสรุปสวัสดิการ | เมื่อนําทางไปยัง **สรุปสวัสดิการ** ใน **ระบบบริการตนเองของพนักงาน** หน้า **พารามิเตอร์ของรายงาน** จะแสดง FastTab **เรกคอร์ดที่จะรวม** และ **รันในเบื้องหลัง** ส่วนเหล่านี้ถูกลบออก|
+| 618326 | หน้า **พารามิเตอร์ของรายงาน** ที่ไม่ถูกต้อง แสดงใน **ระบบบริการตนเองของพนักงาน** สำหรับสรุปสวัสดิการ| เมื่อนําทางไปยังหน้าปลายทาง **รายงานสรุปสวัสดิการ** ผู้ใช้สามารถเลือกรอบระยะเวลาของแผนสวัสดิการที่ปิดหรือเป็นวันที่ในอนาคต ซึ่งจะส่งผลให้หน้าว่างเปล่า เฉพาะรอบระยะเวลาของแผนสวัสดิการปัจจุบันเท่านั้นที่ควรแสดงในรายการ |
+
+## <a name="in-preview"></a>ในการแสดงตัวอย่าง
+
+ลักษณะการทำงานใหม่ต่อไปนี้อยู่ในการแสดงตัวอย่าง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดหรือปิดคุณลักษณะ ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+| ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
+|---|---|---|
+| พื้นที่ทำงานการจัดการสวัสดิการ | [พื้นที่ทำงานการจัดการสวัสดิการ(พรีวิว)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [พื้นที่ทำงานการจัดการสวัสดิการ](hr-benefits-management-workspace.md) |
+| ฟิลด์ที่กำหนดเองในการมีคุณสมบัติเหมาะสม |[การสนับสนุนฟิลด์ที่กำหนดเองในการประมวลการมีคุณสมบัติเหมาะสม](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management) | [การใช้ฟิลด์ที่กำหนดเองในการประมวลผลการมีคุณสมบัติเหมาะสม](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules#using-custom-fields-in-eligibility-rules) |
+| รายงานสวัสดิการ |[สรุปสวัสดิการ](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) | [รายงานสวัสดิการ](hr-benefits-statement.md) |
+
+### <a name="benefits-statement-known-issues"></a>ปัญหาที่พบเกี่ยวกับสรุปสวัสดิการ
+
+| ปัญหา | คำอธิบาย |
+|---|---|
+|เกิดข้อผิดพลาดเมื่อส่งอีเมลรายงานโดยใช้ **ปลายทางรายงาน GER** | สามารถตั้งค่าสรุปสวัสดิการให้ใช้พารามิเตอร์อีเมล บนหน้า **ปลายทางของรายงาน GER** เมื่อเสร็จสิ้นการตั้งค่าและการพิมพ์รายงาน ผู้ใช้จะได้รับข้อผิดพลาดการจัดรูปแบบ และสรุปสวัสดิการจะไม่ถูกส่ง|
+
+## <a name="feature-management-changes"></a>การเปลี่ยนแปลงการจัดการคุณลักษณะ
+
+| ลักษณะการทำงาน | คำอธิบาย |
+|---|---|
+|มุมมองรายงานเพิ่มเติมของสมุดรายวันประสิทธิภาพ | คุณลักษณะนี้จะกลายเป็นเปิดใช้งานโดยค่าเริ่มต้นในรุ่นนี้ |
+
+## <a name="coming-soon"></a>เร็วๆ นี้
+
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)
+
+| ลักษณะการทำงาน | รายละเอียด |
+|---|---|
+| Platform Update 10.0.22 (46) | การเริ่มต้น Platform update 10.0.22 ถูกจัดกำหนดการให้เริ่มด้วยการนำออกใช้บริการในวันที่ 1 พฤศจิกายน 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.22 ของแอป Finance and Operations (พฤศจิกายน 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22) |
+
+
+
+## <a name="see-also"></a>ดูเพิ่มเติมที่
+
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2021 ปล่อยเวฟ 2](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/)</br>
+[อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
+[จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

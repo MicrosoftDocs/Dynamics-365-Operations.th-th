@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773799"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605196"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 3 - ออกแบบรายงาน)
 
@@ -92,7 +92,7 @@ ms.locfileid: "6773799"
 59. คลิก เพิ่มแอททริบิวต์
 60. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Desc'
 61. คลิก ตกลง 
-![หน้าตัวออกแบบการดำเนินงาน ER](../media/er-financial-dimensions-guides-format1.png)
+![แผนภูมิหน้าตัวออกแบบรูปแบบ](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>แม็ปองค์ประกอบของรายงานไปยังแหล่งข้อมูล
 1. คลิกแท็บ การแม็ป
@@ -141,7 +141,7 @@ ms.locfileid: "6773799"
 44. คลิก ผูก
 45. คลิก บันทึก
 46. ปิดหน้า
-![หน้าตัวออกแบบการดำเนินงาน ER](../media/er-financial-dimensions-guides-format2.png)
+![หน้าตัวออกแบบรูปแบบ องค์ประกอบรายงานถูกแม็ปกับแหล่งข้อมูล](../media/er-financial-dimensions-guides-format2.png)
 
 
 

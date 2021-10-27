@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386598"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599387"
 ---
 # <a name="enable-customer-payment-predictions"></a>เปิดใช้งานการคาดคะเนการชำระเงินของลูกค้า
 
@@ -41,7 +41,7 @@ ms.locfileid: "7386598"
 2. เปิดลักษณะการทำงานข้อมูลเชิงลึกของการชำระเงินของลูกค้า:
 
     1. ไปที่ **การดูแลระบบ \> พื้นที่ทำงาน \> การจัดการคุณลักษณะ**
-    2. ค้นหาลักษณะการทำงานที่ชื่อ **ข้อมูลเชิงลึกของการชำระเงินของลูกค้า (ตัวอย่าง)**
+    2. ค้นหาคุณลักษณะนที่ชื่อ **(พรีวิว) ข้อมูลเชิงลึกของการชำระเงินของลูกค้า**
     3. เลือก **เปิดใช้งาน**
 
     ขณะนี้มีการเปิดใช้งานลักษณะการทำงานในเชิงลึกของการชำระเงินของลูกค้าและพร้อมที่จะตั้งค่าคอนฟิก

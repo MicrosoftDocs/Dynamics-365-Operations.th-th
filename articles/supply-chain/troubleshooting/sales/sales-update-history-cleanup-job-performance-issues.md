@@ -1,0 +1,34 @@
+---
+title: งานการล้างข้อมูลประวัติการอัปเดตการขายล้มเหลว หรือมีปัญหาด้านประสิทธิภาพ
+description: ชุดงานการล้างข้อมูลประวัติการขายอาจล้มเหลวหรือใช้เวลานาน ถ้ามีข้อมูลอัปเดตการขายจํานวนมาก
+author: myvakalo
+ms.date: 10/05/2021
+ms.topic: article
+ms.search.form: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: myvakalo
+ms.search.validFrom: 2021-09-29
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 4f04dc204c705b40ed25fadc75118feaef4d6b6e
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641485"
+---
+# <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>งานการล้างข้อมูลประวัติการอัปเดตการขายล้มเหลว หรือมีปัญหาด้านประสิทธิภาพ
+
+## <a name="symptoms"></a>อาการ
+
+ชุดงาน **การล้างข้อมูลประวัติการอัปเดตการขาย** ล้มเหลวหรือมีปัญหาด้านประสิทธิภาพ  
+
+## <a name="cause"></a>สาเหตุ
+
+ซึ่งอาจเกิดขึ้นได้เมื่อระบบของคุณมีการอัปเดตการขายจํานวนมาก ซึ่งอาจส่งผลกับข้อมูลการอัปเดตการขายจํานวนมาก งานการล้างข้อมูลพยายามล้างข้อมูลทั้งหมดในธุรกรรมเดียว ซึ่งส่งผลให้งานอาจใช้เวลานานเพื่อรันหรือล้มเหลว
+
+## <a name="resolution"></a>การแก้ปัญหา
+
+เวอร์ชันใหม่ของชุดงาน **การล้างข้อมูลประวัติการอัปเดตการขาย** พร้อมใช้งานเฉพาะกับ Supply Chain Management เวอร์ชัน 10.0.19 และสูงกว่า คุณลักษณะนี้จะไม่เปิดใช้งานโดยค่าเริ่มต้น สำหรับรายละเอียดเกี่ยวกับวิธีการทำงานและวิธีการเปิดใช้งานในการจัดการคุณลักษระ โปรดดู [การปรับปรุงประสิทธิภาพการล้างข้อมูลประวัติการขาย](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md)
+

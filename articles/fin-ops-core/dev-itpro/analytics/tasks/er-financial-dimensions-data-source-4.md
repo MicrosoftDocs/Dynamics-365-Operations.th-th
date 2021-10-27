@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743224"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605316"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 4 - รันรายงาน)
 
@@ -37,16 +37,16 @@ ms.locfileid: "6743224"
 ![หน้าการตั้งค่าคอนฟิก ER](../media/er-financial-dimensions-guides-run1.png)
 5. ในฟิลด์ชื่อมิติ ให้ป้อนหรือเลือกค่า 
     * เมื่อต้องการเลือกมิติทั้งหมดในบริษัทปัจจุบัน ให้ป้อนข้อมูลต่อไปนี้: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![หน้าการตั้งค่าคอนฟิก ER](../media/er-financial-dimensions-guides-run2.png)
+![Slide out ของพารามิเตอร์รายงานทางอิเล็กทรอนิกส์ รายการแบบหล่นลงของชื่อมิติ](../media/er-financial-dimensions-guides-run2.png)
 6. ขยายเรกคอร์ดเพื่อที่จะรวมส่วน
 7. คลิกที่ตัวกรองข้อมูล
 8. เลือกแถวสำหรับตารางสมุดรายวันบัญชีแยกประเภทและฟิลด์หมายเลขชุดงานสมุดรายวัน
 9. ในฟิลด์เกณฑ์ ให้พิมพ์ '00057'
 10. คลิก ตกลง 
 11. คลิก ตกลง 
-![หน้าการตั้งค่าคอนฟิก ER](../media/er-financial-dimensions-guides-run3.png)
+![Slide out ของพารามิเตอร์รายงาทางอิเล็กทรอนิกส์ รายงานที่จะรวมส่วน](../media/er-financial-dimensions-guides-run3.png)
     * ตรวจทานผลลัพธ์ที่สร้างขึ้น  สำหรับธุรกรรมแต่ละรายการของชุดงานที่เลือก มิติทางการเงินจากชุดมิติที่สอดคล้องกันจะแสดงขึ้น รันรายงานนี้และเลือกมิติต่างๆ เพื่อดูว่ารายงานไม่ขึ้นอยู่กับจำนวนของมิติที่เลือกหรือจำนวนของมิติที่ตั้งค่าคอนฟิกสำหรับอินสแตนซ์ นี้  
-![หน้าการตั้งค่าคอนฟิก ER](../media/er-financial-dimensions-guides-run4.png)
+![การตั้งค่าคอนฟิก ER สร้างเอาท์พุท](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
