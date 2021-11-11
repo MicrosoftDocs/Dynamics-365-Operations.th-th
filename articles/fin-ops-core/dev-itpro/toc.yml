@@ -14,12 +14,12 @@
               items:
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform update สำหรับรุ่น 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Platform update สำหรับรุ่น 10.0.22 (พฤศจิกายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Platform update สำหรับรุ่น 10.0.21 (ตุลาคม 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Platform update สำหรับรุ่น 10.0.20 (สิงหาคม 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: เหตุการณ์ทางธุรกิจ
-          items:
-            - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
-              href: business-events/home-page.md
-            - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
-              href: business-events/app-business-events.md
-            - name: เหตุการณ์ทางธุรกิจของลำดับงาน
-              href: business-events/business-events-workflow.md
-            - name: เหตุการณ์ทางธุรกิจของชุดงาน
-              href: business-events/system-business-events.md
-            - name: การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ
-              href: business-events/alerts-business-events.md
-            - name: เหตุการณ์ทางธุรกิจใน Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: เอกสารประกอบสำหรับนักพัฒนาเหตุการณ์ทางธุรกิจ
-              href: business-events/business-events-dev-doc.md
-            - name: แก้ไขปัญหาเหตุการณ์ทางธุรกิจ
-              href: business-events/troubleshooting.md
-            - name: ใช้กรณีสำหรับเหตุการณ์ทางธุรกิจ
-              href: business-events/potential-use-cases.md
-            - name: บทช่วยสอน
-              items:
-                - name: เหตุการณ์ทางธุรกิจและ Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: ตารางเหตุการณ์ทางธุรกิจและกริดเหตุการณ์ Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
-                  href: business-events/how-to/how-to-workflow.md
-                - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: เหตุการณ์ทางธุรกิจและฮับเหตุการณ์ Azure
-                  href: business-events/how-to/event-hub.md
-                - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
-                  href: business-events/how-to/period-close.md
         - name: การจัดส่งแบบต่อเนื่อง
           items:
             - name: โฮมเพจการจัดส่งแบบต่อเนื่อง
@@ -592,7 +556,7 @@
               items:
                 - name: การสนับสนุนภาษาของ X++
                   items:
-                    - name: ความต้องการของ Visual Studio 2017 สำหรับ X++
+                    - name: ความต้องการของ Visual Studio สำหรับ X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: ดีบักโค้ด X++
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: แอตทริบิวต์ SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: การอ้างอิงภาษาของ X++
                   items:
                     - name: ภาพรวมของการอ้างอิงภาษาของ X++
@@ -1030,7 +996,7 @@
                   href: lifecycle-services/translation-service-overview.md
                 - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
                   href: lifecycle-services/use-translation-service.md
-                - name: แปลไฟล์คู่มือ
+                - name: แปลไฟล์เอกสารประกอบ
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
@@ -1038,6 +1004,10 @@
           items:
             - name: การรวม Microsoft Power Platform กับ Finance and Operations
               href: power-platform/overview.md
+            - name: การเปิดใช้งานการรวม Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: การรับรองความถูกต้องและการอนุญาต
+              href: power-platform/authentication-and-authorization.md
             - name: การรวมแบบสองทิศทาง
               items:
                 - name: โฮมเพจการรวมแบบสองทิศทาง
@@ -1084,6 +1054,8 @@
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: หยุดการรวมแบบสองทิศทางชั่วคราวสำหรับการบํารุงรักษา
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: การจัดการข้อผิดพลาดและการแจ้งเตือน
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: รหัสข้อผิดพลาดเกี่ยวกับการตรวจสอบความสมบูรณ์ของแผนผังตาราง
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
                   href: data-entities/dual-write/dual-write-faq.md
             - name: เอนทิตี้เสมือน
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
                   href: power-platform/application-lifecycle-management.md
-                - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Dataverse
+                - name: ตั้งค่าคอนฟิกเอนทิตี้เสมือน Dataverse
                   href: power-platform/admin-reference.md
+                - name: เปิดใช้งานเอนทิตี้เสมือน Dataverse
+                  href: power-platform/enable-virtual-entities.md
                 - name: พอร์ทัล Power Apps ที่มี Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
+                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือน Finance and Operations
                   href: power-platform/faq.md
+            - name: เหตุการณ์ทางธุรกิจ
+              items:
+                - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
+                  href: business-events/home-page.md
+                - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
+                  href: business-events/app-business-events.md
+                - name: เหตุการณ์ทางธุรกิจของลำดับงาน
+                  href: business-events/business-events-workflow.md
+                - name: เหตุการณ์ทางธุรกิจของชุดงาน
+                  href: business-events/system-business-events.md
+                - name: การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ
+                  href: business-events/alerts-business-events.md
+                - name: เหตุการณ์ข้อมูล
+                  href: business-events/data-events.md
+                - name: เหตุการณ์ทางธุรกิจใน Power Automate
+                  href: business-events/business-events-flow.md
+                - name: เอกสารประกอบสำหรับนักพัฒนาเหตุการณ์ทางธุรกิจ
+                  href: business-events/business-events-dev-doc.md
+                - name: แก้ไขปัญหาเหตุการณ์ทางธุรกิจ
+                  href: business-events/troubleshooting.md
+                - name: ใช้กรณีสำหรับเหตุการณ์ทางธุรกิจ
+                  href: business-events/potential-use-cases.md
+                - name: บทช่วยสอน
+                  items:
+                    - name: เหตุการณ์ทางธุรกิจและ Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: ตารางเหตุการณ์ทางธุรกิจและกริดเหตุการณ์ Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: เหตุการณ์ทางธุรกิจและ Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
+                      href: business-events/how-to/period-close.md
             - name: Add-In
               items:
                 - name: ภาพรวมของ Add-In
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: ยกเลิกชุดงานที่กำลังดำเนินการ
                   href: sysadmin/batch-abort.md
+                - name: OData API ของชุดงาน
+                  href: sysadmin/batch-odata-api.md
             - name: ที่ปรึกษาการเพิ่มประสิทธิภาพ
               items:
                 - name: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ

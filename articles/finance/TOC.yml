@@ -72,14 +72,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   items:
-                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance
+                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (พฤศจิกายน 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (ตุลาคม 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (สิงหาคม 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: ตั้งค่าตัวเลือกสำหรับใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: ภาพรวมของการใช้การชำระเงินล่วงหน้ากับใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: สร้างรายการใบแจ้งหนี้เมื่อนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: ส่งใบแจ้งหนี้ไปที่ระบบลำดับงานและจับคู่รายการใบรับสินค้า
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: ดูผลลัพธ์การทำงานอัตโนมัติของใบแจ้งหนี้ของผู้จัดจำหน่าย
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
               href: accounts-payable/vendor-posting-profiles.md
+            - name: วันที่ใบแจ้งหนี้ของผู้จัดจำหน่าย
+              href: accounts-payable/vendor-invoice-dates.md
             - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: การอนุมัติใบแจ้งหนี้สำหรับอุปกรณ์เคลื่อนที่
@@ -990,7 +996,9 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: วางแผนชื่อผังบัญชีของคุณ
                   href: general-ledger/plan-chart-of-accounts.md
-                - name: การจับคู่ธุรกรรมระหว่างรหัสบัญชี
+                - name: วางแผนชื่อผังบัญชีภายในของคุณ
+                  href: general-ledger/plan-local-chart-of-accounts.md
+                - name: ชำระเงินธุรกรรมระหว่างบัญชีแยกประเภท
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: ตั้งค่านามแฝงของบัญชีแยกประเภท
                   href: general-ledger/tasks/set-up-ledger-account-alias.md
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: การสร้างการชำระเงินภาษีขาย
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: การปัดเศษการชําระภาษีตามตำแหน่งทศนิยมของสกุลเงินที่กำหนดไว้เอง
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
@@ -1546,7 +1556,9 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: ใช้บริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจําหน่าย
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับซาอุดีอาระเบีย
+                          href: localizations/e-invoicing-sa-get-started.md
+                        - name: ใช้บริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่าย
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
@@ -1566,8 +1578,10 @@
                       items:
                         - name: รูปแบบข้อมูลการคํานวณภาษี
                           href: localizations/tax-calculation-data-model-overview.md
-                        - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดภาษีขาย
+                        - name: ความเกี่ยวข้องของภาษีขายและตรรกะการกําหนดกลุ่มภาษีขาย
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: การใช้พารามิเตอร์เขตพื้นที่ที่ดูแลภาษีขายสำหรับการตั้งค่าการคํานวณส่วนลดเงินสด
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: การคำนวณ
                       items:
                         - name: คํานวณภาษีในราคาเมื่อเปิดใช้งานราคารวมภาษี
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: รายการขายใน EU
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: การรายงานของสเปน
+                          items:
+                            - name: 'การจัดหาข้อมูลเกี่ยวกับ VAT ทันที (Summediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: การรายงานของสวีเดน
                           items:
                             - name: การรายงานภาษี VAT
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: การรายงานของสหราชอาณาจักร
                           items:
-                            - name: เตรียมการสำหรับการรวมกับการทำให้ภาษีเป็นแบบดิจิทัลสำหรับ VAT
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: เปิดใช้งานการคํานวณภาษีในใบสั่งโอนย้าย
                       items:
                         - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: พิมพ์ข้อมูลภาษีบนเอกสารใบสั่งโอนย้าย
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: ส่วนขยาย
                       items:
                         - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: กําหนดการตั้งค่าคอนฟิกภาษีเองสำหรับการค้นหาข้อมูลหลัก
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการคำนวณภาษี
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ออสเตรเลีย
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: การแสดงรายการ VAT ประจําปีของการขายในประเทศ
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: อินทราสแทตของเบลเยียม
+                  href: localizations/emea-bel-intrastat.md
             - name: บราซิล
               items:
                 - name: ภาพรวมของบราซิล
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงสำหรับการแปลเป็นภาษาอินเดีย
                   items:
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.20 - 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน 10.0.14
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: อัปเดตหมายเลขและวันที่ในใบรับรองสำหรับธุรกรรม TDS
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: อินโดนีเซีย
+              items:
+                - name: ภาพรวมของอินโดนีเซีย
+                  href: localizations/indonesia.md
+                - name: การรายงานภาษี VAT สำหรับอินโดนีเซีย
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: การรายงานภาษี VAT (เนเธอร์แลนด์)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: อินทราสแทตของเนเธอร์แลนด์
+                  href: localizations/emea-nl-intrastat.md
                 - name: รายการขายใน EU
                   href: localizations/emea-nl-EU-sales-list.md
             - name: นิวซีแลนด์
@@ -3348,10 +3384,12 @@
                   href: localizations/saudi-arabia.md
                 - name: ภาษีขาย
                   href: localizations/apac-sau-sales-tax.md
-                - name: การรายงาน Zakat สำหรับซาอุดิอาระเบีย
+                - name: การรายงาน Zakat สำหรับซาอุดีอาระเบีย
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: ปันส่วนค่าธรรมเนียมเอกสารธนาคารสำหรับการจัดส่ง
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในซาอุดีอาระเบีย
+                  href: localizations/emea-sau-e-invoices.md
             - name: สิงคโปร์
               items:
                 - name: ภาพรวมของสิงคโปร์
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: VAT ภายในประชาคม
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: อินทราสแทตภาษาสเปน
+                  href: localizations/emea-esp-intrastat.md
                 - name: ลูกค้าขาจร
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: พิมพ์เช็คเป็นภาษาสเปน
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: การตั้งค่ากลุ่มภาษีขายสำหรับ VAT ย้อนกลับ
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: การรายงานของสหราชอาณาจักร
+                - name: การทำให้ภาษีเป็นแบบดิจิทัล (MTD) สำหรับ VAT
                   items:
-                    - name: การทำให้ภาษีเป็นแบบดิจิทัล (MTD) สำหรับ VAT
-                      items:
-                        - name: การทำการส่งคืน VAT ของ Tax Digital (MTD) ในสหราชอาณาจักร
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: จัดเตรียมสภาพแวดล้อมของคุณเพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD VAT ของ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: รายการตรวจสอบการตั้งค่าข้อความอิเล็กทรอนิกส์ของ MTD VAT
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: ทดสอบการรวมระบบระหว่างบริษัทกับ MTD VAT Sandbox
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: อนุมัติสภาพแวดล้อม Finance ของคุณ เพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD ของ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: ส่งการส่งคืน VAT ไปยังเว็บเซอร์วิส MTD ของ HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: ดึงข้อมูลเกี่ยวกับการชำระเงิน VAT และหนี้สินจาก HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: รายละเอียดการตั้งค่า VAT เกี่ยวกับการรายงาน VAT ในสหราชอาณาจักร
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: สร้างรายงานการรายงานภาษี VAT ในรูปแบบกระดาษ (รายงาน VAT 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: การทำการส่งคืน VAT ของการทำให้ภาษีเป็นแบบดิจิทัล (MTD) ในสหราชอาณาจักร
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: จัดเตรียมสภาพแวดล้อมของคุณเพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD VAT ของ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: รายการตรวจสอบการตั้งค่าข้อความอิเล็กทรอนิกส์ของ MTD VAT
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: ทดสอบการรวมระบบระหว่างบริษัทกับ MTD VAT Sandbox
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: อนุมัติสภาพแวดล้อม Finance ของคุณ เพื่อรวมระบบระหว่างบริษัทกับเว็บเซอร์วิส MTD ของ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: ส่งการส่งคืน VAT ไปยังเว็บเซอร์วิส MTD ของ HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: ดึงข้อมูลเกี่ยวกับการชำระเงิน VAT และหนี้สินจาก HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: รายละเอียดการตั้งค่า VAT เกี่ยวกับการรายงาน VAT ในสหราชอาณาจักร
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: สร้างรายงานการรายงานภาษี VAT ในรูปแบบกระดาษ (รายงาน VAT 100)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: สถิติเกี่ยวกับรายงานแนวทางปฏิบัติในการชำระเงิน
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: สหรัฐอเมริกา
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Application update 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Application update 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: เปลี่ยนรหัสเพื่อให้ผู้ใช้สามารถตั้งค่าคอนฟิกและใช้ปลายทาง ER ที่ระบุชื่อ
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: ใช้ต้นทาง ER แบบกำหนดเองของเอกสารขาเข้า
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
             - name: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
