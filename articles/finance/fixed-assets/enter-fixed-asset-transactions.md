@@ -1,6 +1,6 @@
 ---
 title: ตัวเลือกธุรกรรมสินทรัพย์ถาวร
-description: หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมที่จะสร้างธุรกรรมสินทรัพย์ถาวร
+description: หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมใช้งานสำหรับการสร้างธุรกรรมสินทรัพย์ถาวร
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -12,22 +12,22 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 129f88037691096c22478e4f186667a502e394ec
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344701"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674485"
 ---
 # <a name="fixed-asset-transaction-options"></a>ตัวเลือกธุรกรรมสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมที่จะสร้างธุรกรรมสินทรัพย์ถาวร
+หัวข้อนี้อธิบายวิธีที่แตกต่างกันที่พร้อมใช้งานสำหรับการสร้างธุรกรรมสินทรัพย์ถาวร
 
 คุณสามารถตั้งค่าสินทรัพย์ถาวรเพื่อรวมกับบัญชีเจ้าหนี้ ลูกหนี้ จัดซื้อ และการจัดหา และบัญชีแยกประเภททั่วไป  นอกจากนี้ คุณยังสามารถโอนย้ายสินค้าในการบริหารสินค้าคงคลังเป็นสินทรัพย์ถาวรถ้าคุณต้องการใช้สินค้าเป็นการภายใน
 

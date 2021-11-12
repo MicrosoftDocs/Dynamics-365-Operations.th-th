@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 131d88c51755a433a874ac0fe086b3eaa48f161c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3e0840944b7619f870194f6c16e15672bb888546
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572804"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678554"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>เรียกขั้นตอนระบบอัตโนมัติของกระบวนการเพื่อสร้างใบสั่งตรวจสอบคุณภาพ
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 12/1/2021 -->
 
 องค์กรมีความต้องการที่เพิ่มขึ้นเพื่อปรับกระบวนการทางธุรกิจมาตรฐานโดยอัตโนมัติ ให้การติดต่อของพนักงานที่สะดวกขึ้น และใช้สัญญาณและระบบข้อมูลต่างๆ เพื่อผลักดันกระบวนการทางธุรกิจโดยอัตโนมัติ ด้วยระบบอัตโนมัติของกระบวนการเฉพาะบริษัท (RPA) และ Microsoft Power Automate ธุรกิจสามารถใช้ประสบการณ์ที่ไม่มีรหัสเพื่อกํากับกับกระบวนการที่ซ้ํากันโดยอัตโนมัติ จึงเพิ่มประสิทธิภาพและความถูกต้อง
 

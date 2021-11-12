@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472685"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675128"
 ---
 # <a name="order-lookup-module"></a>โมดูลการค้นหาใบสั่ง
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้กล่าวถึงโมดูลการค้นหาใบสั่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
@@ -34,11 +33,11 @@ ms.locfileid: "7472685"
 
 ![ฟอร์มของโมดูลการค้นหาใบสั่งในหน้า](./media/OrderLookup_module.PNG)
 
-## <a name="order-lookup-module-properties&quot;></a>คุณสมบัติโมดูลการค้นหาใบสั่ง
+## <a name="order-lookup-module-properties"></a>คุณสมบัติโมดูลการค้นหาใบสั่ง
 
 | ชื่อคุณสมบัติ     | มูลค่า     | คำอธิบาย |
 |-------------------|-----------|-------------|
-| ส่วนหัว           | ข้อความ      | หัวข้อที่ปรากฏที่ด้านบนของฟอร์ม (ตัวอย่างเช่น &quot;ค้นหาใบสั่งของคุณ") |
+| ส่วนหัว           | ข้อความ      | หัวข้อที่ปรากฏที่ด้านบนของฟอร์ม (ตัวอย่างเช่น "ค้นหาใบสั่งของคุณ") |
 | ข้อความตกแต่ง         | ข้อความตกแต่ง | ข้อความอธิบายที่เลือกได้ซึ่งปรากฏด้านล่างหัวข้อ |
 | ชนิดสถานะของใบสั่ง | การแจงนับ      | <p>เลือกชนิดของข้อมูลที่ฟอร์มจะร้องขอจากลูกค้า นอกเหนือจากรหัสการยืนยันใบสั่ง ขณะนี้ระบบสนับสนุนค่าต่อไปนี้:</p><ul><li><b>อีเมล</b> - ฟอร์มจะรวมฟิลด์ที่ลูกค้าสามารถป้อนที่อยู่อีเมลที่ใช้เมื่อวางใบสั่ง</li><li><b>ไม่มี</b> – ฟอร์มจะไม่ขอข้อมูลนอกเหนือจากรหัสการยืนยันใบสั่ง</li></ul> |
 

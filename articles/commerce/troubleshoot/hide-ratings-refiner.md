@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3438d12f4ffd06b07cbef724cda8fa490a5f4eb
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 9f2f815299335a88663311caaa243f854610f885
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472689"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674814"
 ---
 # <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>ตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้มีแนวทางการแก้ไขปัญหาเบื้องต้นเกี่ยวกับวิธีการซ่อนตัวคัดสรรการให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์ Microsoft Dynamics 365 Commerce สําหรับไซต์อีคอมเมิร์ซ
 

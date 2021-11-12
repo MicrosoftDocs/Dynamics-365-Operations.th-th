@@ -2,7 +2,7 @@
 title: รายการของฟังก์ชั่น ER ในประเภทข้อความ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันข้อความที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741025"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647571"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>รายการของฟังก์ชั่น ER ในประเภทข้อความ
 
@@ -40,7 +40,8 @@ ms.locfileid: "6741025"
 | [ซ้าย](er-functions-text-left.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงจำนวนอักขระที่ระบุจากจุดเริ่มต้นของสตริงที่ระบุ |
 | [Len](er-functions-text-len.md) | ฟังก์ชันนี้ส่งกลับค่า *จำนวนเต็ม* ที่แสดงตัวเลขหรืออักขระในสตริงที่ระบุ |
 | [Lower](er-functions-text-lower.md) | ฟังก์ชันนี้ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากที่ถูกแปลงเป็นตัวพิมพ์เล็ก |
-| [Mid](er-functions-text-mid.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงจำนวนอักขระที่ระบุจากสตริงที่ระบุ ซึ่งเริ่มต้นที่ตำแหน่งที่ระบุ |
+| [Mid](er-functions-text-mid.md) | ฟังก์ชันนี้ส่งกลับค่า *[สตริง](er-formula-supported-data-types-primitive.md#string)* ที่แสดงจำนวนอักขระที่ระบุจากสตริงที่ระบุ ซึ่งเริ่มต้นที่ตำแหน่งที่ระบุ |
+| [NewGUID](er-functions-text-newguid.md) | ฟังก์ชันนี้จะส่งคืนค่า *[GUID](er-formula-supported-data-types-primitive.md#guid)* ที่สร้างขึ้นใหม่ |
 | [NumberFormat](er-functions-text-numberformat.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงหมายเลขที่ระบุในรูปแบบที่ระบุและในวัฒนธรรมที่ระบุเป็นทางเลือก |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | ฟังก์ชันนี้ส่งกลับหมายเลขที่ระบุเป็นค่า *สตริง* หลังจากที่ถูกสะกด (นั่นคือ ถูกแปลงเป็นสตริงข้อความ) ในภาษาที่ระบุ |
 | [PadLeft](er-functions-text-padleft.md) | ฟังก์ชันนี้ส่งคืนค่า *สตริง* ของความยาวที่ระบุ ซึ่งมีการเริ่มต้นสตริงที่ระบุด้วยอักขระที่ระบุด้วยหนึ่งอินสแตนช์หรือมากกว่านั้นของอักขระที่ระบุ |

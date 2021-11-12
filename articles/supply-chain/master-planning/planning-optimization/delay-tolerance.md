@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577491"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678578"
 ---
 # <a name="delay-tolerance-negative-days"></a>การยอมรับความล่าช้า (วันค่าลบ)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 ฟังก์ชันการยอมรับความล่าช้าช่วยให้การเพิ่มประสิทธิภาพการวางแผนควรพิจารณาค่า **วันค่าลบ** ที่ตั้งค่าไว้ให้กับกลุ่มความครอบคลุม ใช้เพื่อขยายรอบระยะเวลาการยอมรับความล่าช้าที่ใช้ในระหว่างการวางแผนหลัก ด้วยวิธีนี้ คุณสามารถหลีกเลี่ยงการสร้างใบสั่งจัดหาวัสดุใหม่ได้ ถ้าการจัดหาวัสดุที่มีอยู่จะสามารถครอบคลุมความต้องการได้หลังจากความล่าช้าสั้นๆ วัตถุประสงค์ของฟังก์ชันคือเพื่อระบุว่าควรสร้างใบสั่งจัดหาวัสดุใหม่ให้กับความต้องการที่ระบุหรือไม่
 

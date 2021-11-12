@@ -2,7 +2,7 @@
 title: การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับในใบลดหนี้
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าและพิมพ์หมายเลขใบแจ้งหนี้ต้นฉบับในใบลดหนี้ที่เกี่ยวข้อง
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723858"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700366"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>การอ้างอิงถึงใบแจ้งหนี้ต้นฉบับในใบลดหนี้
 
@@ -95,5 +95,10 @@ ms.locfileid: "6723858"
 > [!NOTE]
 > ตรวจสอบให้แน่ใจว่าตั้งค่าคอนฟิกรูปแบบที่พิมพ์ได้ของเอกสารอย่างถูกต้อง โดยสมมติฐานว่าจะมีการพิมพ์การอ้างอิงไปยังต้นฉบับใบแจ้งหนี้
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>การอ้างอิงถึงใบแจ้งหนี้เดิมในใบเพิ่มหนี้
+
+ตามค่าเริ่มต้น การอ้างอิงถึงต้นฉบับใบแจ้งหนี้สามารถป้อนให้กับใบลดหนี้ได้ ตัวอย่างเช่น คุณสามารถป้อนการอ้างอิงเมื่อคุณแก้ไขต้นฉบับใบแจ้งหนี้ (การลด) ค่าลบ
+
+หากต้องการป้อนข้อมูลอ้างอิงเมื่อคุณสร้างการแก้ไขต้นฉบับใบแจ้งหนี้ที่เป็นค่าบวก (เพิ่ม) คุณต้องเปิดใช้งานคุณลักษณะ **การอ้างอิงกับต้นฉบับใบแจ้งหนี้ในใบเพิ่มหนี้** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ**  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

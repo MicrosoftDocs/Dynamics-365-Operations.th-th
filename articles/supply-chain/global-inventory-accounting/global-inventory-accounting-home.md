@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
-ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
+ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557403"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678506"
 ---
 # <a name="global-inventory-accounting-home-page"></a>โฮมเพจการบัญชีสินค้าคงคลังส่วนกลาง
 
-[!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 องค์กรระหว่างประเทศอยู่ภายใต้การเพิ่มยอดขายจากหน่วยงานต่าง ๆ เพื่อให้เป็นไปตามมาตรฐานการบัญชีท้องถิ่นและส่วนกลาง การประเมินสินค้าคงคลังมีบทบาทสําคัญในการปฏิบัติตามกฎระเบียบ Add-in การบัญชีสินค้าคงคลังส่วนกลางของ Microsoft Dynamics 365 Supply Chain Management มีโซลูชันที่ครอบคลุมซึ่งช่วยให้องค์กร (โดยเฉพาะองค์กรระหว่างประเทศ) สามารถใช้บัญชีแยกประเภทการคิดต้นทุนหลายรายการเพื่อลงบัญชีสินค้าคงคลังได้ องค์กรดังกล่าวจึงสามารถปฏิบัติตามมาตรฐานการบัญชีและการบัญชีการจัดการภายในหลายรายการพร้อมกัน
 

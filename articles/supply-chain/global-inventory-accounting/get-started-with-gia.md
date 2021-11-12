@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773307"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678870"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>เริ่มต้นใช้งานการบัญชีสินค้าคงคลังส่วนกลาง
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 การบัญชีสินค้าคงคลังส่วนกลางช่วยให้คุณสามารถทำการบัญชีสินค้าคงคลังหลายรายการในบัญชีแยกประเภทการบัญชีสินค้าคงคลังส่วนกลางที่คุณตั้งค่าไว้ คุณต้องเชื่อมโยงแต่ละบัญชีแยกประเภทการบัญชีสินค้าคงคลังส่วนกลางกับ *แบบแผน* แบบแผนเป็นชุดของนโยบายการบัญชีชนิดต่อไปนี้:
 
@@ -60,7 +60,7 @@ ms.locfileid: "6773307"
 1. ในกล่องโต้ตอบ **การตั้งค่าสภาพแวดล้อม Power Platform** ให้เลือกกล่องกาเครื่องหมาย แล้วเลือก **การตั้งค่า** โดยทั่วไป การตั้งค่าจะจะใช้เวลาระหว่าง 60 และ 90 นาที
 1. หลังจากการตั้งค่า สภาพแวดล้อม Microsoft Power Platform เสร็จสมบูรณ์แล้ว หน้าจะแสดงชื่อของสภาพแวดล้อมของคุณ นอกจากนี้ ส่วน **การรวม Power Platform** จะแสดงรายงาน "การตั้งค่าสภาพแวดล้อม Power Platform เสร็จสมบูรณ์แล้ว" การบัญชีสินค้าคงคลังส่วนกลางไม่ต้องการแอปพลิเคชันการรวมแบบสองทิศทาง
 
-สำหรับข้อมูลเพิ่มเติม ให้ดู [ตั้งค่าหลังจากการปรับใช้สภาพแวดล้อม](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment)
+สำหรับข้อมูลเพิ่มเติม ให้ดู [เปิดใช้งานหลังจากการปรับใช้สภาพแวดล้อม](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ### <a name="set-up-dataverse"></a>ตั้งค่า Dataverse
 

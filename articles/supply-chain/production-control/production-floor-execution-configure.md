@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576939"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647200"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 
@@ -74,6 +74,12 @@ ms.locfileid: "7576939"
 คุณลักษณะการงานนี้ช่วยให้สามารถเพิ่มฟิลด์การค้นหาลงในรายการงานได้ ผู้ปฏิบัติงานสามารถค้นหางานเฉพาะโดยการป้อนรหัสงาน หรือค้นหางานทั้งหมดให้กับใบสั่งที่ระบุโดยการป้อนรหัสใบสั่ง ผู้ปฏิบัติงานสามารถป้อนรหัสได้ โดยใช้โปรแกรมหนึ่งๆ หรือสแกนบาร์โค้ด หากคุณต้องการใช้ เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 - การค้นหางานสำหรับอินเทอร์เฟสการดำเนินการผลิต
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>เปิดใช้งานการรายงานผลิตภัณฑ์ร่วมและสินค้าพลอยได้
+
+คุณลักษณะนี้ให้ผู้ปฏิบัติงานสามารถใช้อินเทอร์เฟสการดำเนินการผลิตเพื่อรายงานความคืบหน้าของใบสั่งชุดงานได้ รายงานนี้รวมการรายงานผลิตภัณฑ์ร่วมและสินค้าพลอยได้ เมื่อต้องการใช้คุณลักษณะนี้ ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+
+- รายงานเกี่ยวกับผลิตภัณฑ์ร่วมและสินค้าพลอยได้จากส่วนติดต่อการดำเนินการผลิต
 
 ## <a name="work-with-production-floor-execution-configurations"></a>ทำงานกับการตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
 

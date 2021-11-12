@@ -2,7 +2,7 @@
 title: รายการของฟังก์ชั่น ER ในประเภทวันที่และเวลา
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันวันที่และเวลาที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760061"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647274"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>รายการของฟังก์ชั่น ER ในประเภทวันที่และเวลา
 
@@ -31,8 +31,9 @@ ms.locfileid: "6760061"
 
 | ฟังก์ชัน | คำอธิบาย |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | ฟังก์ชันนี้ส่งคืนค่า *DateTime* ที่เป็นจำนวนวันที่ระบุก่อนหรือหลังวันที่เริ่มต้นที่ระบุ |
-| [DateFormat](er-functions-datetime-dateformat.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงค่าวันที่ที่ให้เป็นข้อความในรูปแบบที่ระบุและใน Culture ที่ระบุเป็นทางเลือก |
+| [AddDays](er-functions-datetime-adddays.md) | ฟังก์ชันนี้ส่งคืนค่า *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* ที่เป็นจำนวนวันที่ระบุก่อนหรือหลังวันที่เริ่มต้นที่ระบุ |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | ฟังก์ชันนี้ส่งกลับค่า *DateTime* ที่ถูกแปลงจากค่าวันที่/เวลาที่กำหนดในโซนเวลาใดๆ ให้เป็นค่าวันที่/เวลาในอีกโซนเวลา |
+| [DateFormat](er-functions-datetime-dateformat.md) | ฟังก์ชันนี้ส่งกลับค่า *[สตริง](er-formula-supported-data-types-primitive.md#string)* ที่แสดงค่าวันที่ที่ให้เป็นข้อความในรูปแบบที่ระบุและใน Culture ที่ระบุเป็นทางเลือก |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงค่าวันที่/เวลาที่ให้เป็นข้อความในรูปแบบที่ระบุและใน Culture ที่ระบุเป็นทางเลือก |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | ฟังก์ชันนี้ส่งกลับค่า *DateTime* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและใน Culture ไปยังค่าวันที่/เวลาที่ระบุเป็นทางเลือก |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | ฟังก์ชันนี้ส่งกลับค่า *DateTime* ที่ถูกแปลงจากค่าวันที่ที่กำหนดให้เป็นค่าวันที่/เวลาในเวลาสากล (เวลามาตรฐานกรีนิช \[GMT\]) |

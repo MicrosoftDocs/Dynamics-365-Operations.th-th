@@ -1,7 +1,7 @@
 ---
 title: บัญชีการลงรายการการซื้อสินทรัพย์ถาวร
-description: บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไปที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์
-author: ShylaThompson
+description: บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไป ที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f2e87404fb7ae6439c2e04dc2ca5e369a58d87ba7743252586620111cfa6ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7718ab6ad40dd135a79d2d07def19465aef68b33
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714483"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675035"
 ---
 # <a name="fixed-asset-acquisition-posting-accounts"></a>บัญชีการลงรายการการซื้อสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไปที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์
+บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภททั่วไป ที่ลงรายการบัญชีสำหรับสินทรัพย์ที่ซื้อสินทรัพย์
 
 บัญชีที่ใช้สำหรับการลงรายการการซื้อสินทรัพย์ถาวรอาจแตกต่างกันไป โดยขึ้นอยู่กับวิธีการที่ใช้เพื่อซื้อสินทรัพย์ ในหน้าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวรบนแท็บบัญชีแยกประเภท เลือกการซื้อสินทรัพย์ และการปรับปรุงการซื้อสินทรัพย์เพื่อตั้งค่าบัญชีสินทรัพย์ถาวรเพื่อลงรายการบัญชีในบัญชีแยกประเภท 
 

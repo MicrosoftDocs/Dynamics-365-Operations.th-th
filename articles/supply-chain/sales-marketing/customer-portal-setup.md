@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
+ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572660"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648389"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 
@@ -41,7 +41,7 @@ ms.locfileid: "7572660"
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a> การตั้งค่าที่จำเป็นเพื่อเปิดใช้งานพอร์ทัลลูกค้า
 
-หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](/dynamics365/supply-chain/sales-marketing/enable-entity-map)
+หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md)
 
 ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแม็ปตารางต่อไปนี้ในการรวมแบบสองทิศทาง:
 
