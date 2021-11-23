@@ -1172,6 +1172,8 @@
               items:
                 - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
                   href: business-events/home-page.md
+                - name: การจัดการปลายทางของเหตุการณ์ทางธุรกิจ
+                  href: business-events/managing-business-event-endpoints.md
                 - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
                   href: business-events/app-business-events.md
                 - name: เหตุการณ์ทางธุรกิจของลำดับงาน
@@ -1198,12 +1200,16 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: เหตุการณ์ทางธุรกิจและคิว Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
                       href: business-events/how-to/how-to-workflow.md
                     - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: เหตุการณ์ทางธุรกิจและ Azure Event Hubs
                       href: business-events/how-to/event-hub.md
+                    - name: สมัครใช้งานเหตุการณ์ใน Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
                     - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
                       href: business-events/how-to/period-close.md
             - name: Add-In
@@ -1654,8 +1660,6 @@
                   items:
                     - name: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: อัปเกรดสมุดรายวันใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: แบบจำลองข้อมูลการจัดกำหนดการทรัพยากรของโครงการ
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: การเปลี่ยนแปลงระบบย่อยของลำดับงาน

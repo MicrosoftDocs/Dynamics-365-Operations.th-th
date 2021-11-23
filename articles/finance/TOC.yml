@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: เรียกการส่งออกรูปแบบการรายงานทางอิเล็กทรอนิกส์อย่างง่ายเพื่อสร้างรายงาน Excel
               href: general-ledger/electronic-messaging-example.md
-        - name: การจัดการค่าใช้จ่าย
-          items:
-            - name: ภาพรวมของการจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: คิดรูปแบบรายงานค่าใช้จ่ายใหม่แล้ว
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: การจัดการวางแผนค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: พารามิเตอร์การจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: ตั้งค่าลำดับงานสำหรับการจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: ลำดับงานการจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: จัดการการมอบหมายค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: การประมวลผลใบเสร็จค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: นำเข้าและรักษาธุรกรรมบัตรเครดิต
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: การกระจายในรายงานค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: ค่าใช้จ่ายระหว่างบริษัท
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: กำหนดนโยบายค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: ดูรายงานค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: ลงรายการบัญชีรายงานค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: การขอคืน VAT ในการจัดการค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: กฎค่าเบี้ยเลี้ยงต่อวัน
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: ใบเบิกค่าเดินทาง
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: ค่าใช้จ่ายส่วนบุคคลในรายงานค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: สินทรัพย์ถาวร
           items:
             - name: โฮมเพจสินทรัพย์ถาวร
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: การตั้งค่าและการจัดการ
               items:
-                - name: ตั้งค่าคอนฟิก Finance Insights สำหรับการพรีวิวสำหรับสาธารณะ
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: ตั้งค่าคอนฟิก Finance Insights สำหรับตัวอย่างส่วนตัว
+                - name: ตั้งค่าคอนฟิก Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: เปิดใช้งานการคาดคะเนการชำระเงินของลูกค้า
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: คำถามที่ถามบ่อยเกี่ยวกับ Finance Insights
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: การจัดการและการบัญชีโครงการ
-          items:
-            - name: ภาพรวมของการจัดการและการบัญชีโครงการ
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: การออกใบแจ้งหนี้ระหว่างบริษัท
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้โครงการระหว่างบริษัท
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: ตั้งค่าคอนฟิกต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: สร้างและใช้เงื่อนไขเงินประกันสำหรับการชำระเงินให้แก่ผู้จัดจำหน่าย
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: ตั้งค่าและใช้การชำระเงินผู้จัดจำหน่ายแบบชำระเงินเมื่อได้รับเงิน
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: การออกใบแจ้งหนี้โครงการ
-              href: accounts-payable/project-invoicing.md
-            - name: สัญญาโครงการ
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: การคาดการณ์โครงการและงบประมาณ
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: สร้างแบบจำลองการคาดการณ์สำหรับงบประมาณโครงการ
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: โอนงบประมาณโครงการเมื่อสิ้นสุดปีบัญชี
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: ใบสั่งขายโครงการ
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: ใบสั่งซื้อสำหรับโครงการ
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: ใบเสนอราคาโครงการ
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: ยืนยัน อัปเดต และส่งใบเสนอราคาโครงการ
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: โอนใบเสนอราคาไปยังโครงการ
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: การจัดหาทรัพยากรของโครงการ
-              items:
-                - name: ภาพรวมการจัดหาทรัพยากรของโครงการ
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: ตั้งค่าทรัพยากรโครงการ
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: จัดการความสามารถของทรัพยากร
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: สร้างโครงการใหม่
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: ตั้งค่าการกำหนดราคาตามบทบาท
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: สร้างทีมงานของโครงการ
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: ซิงโครไนส์กำลังการผลิตของทรัพยากร
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: ประสิทธิภาพการจัดกำหนดการทรัพยากรของโครงการ
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: ตั้งค่าบทบาทสำหรับเท็มเพลตโครงสร้างการแบ่งงาน
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: การเติมสินค้าทรัพยากรสำหรับทรัพยากรที่วางแผนไว้
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: โครงสร้างการแบ่งงาน
-              items:
-                - name: ภาพรวมของโครงสร้างการแบ่งงาน
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: การรวม Microsoft Project Client
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: แอป Project Timesheet สำหรับอุปกรณ์เคลื่อนที่
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: แผ่นเวลาโครงการบนอุปกรณ์เคลื่อนที่
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: ใช้งานฟิลด์ที่กำหนดเองสำหรับแอป Project Timesheet บนอุปกรณ์เคลื่อนที่
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: เงินช่วยเหลือโครงการ
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: ตัดการประเมินโครงการ
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: ภาครัฐ
           items:
             - name: โฮมเพจภาครัฐ
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: ตั้งค่าพารามิเตอร์ NF-e สำหรับการจัดทำในภาครัฐ
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: ย้ายไฟล์ XML ของ NF-e เป็นเอกสารแนบ
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 – การอัปเดตเค้าโครงและการตรวจสอบความถูกต้องในเอกสารทางการเงินอิเล็กทรอนิกส์ (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – แพลตฟอร์มดิจิทัลการขายผ่านตัวกลางสำหรับ NF-e
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: ดูธุรกรรมในการจ่ายเงิน
                   href: localizations/emea-transactions-settlement-form.md
+                - name: เหตุผลทางการเงิน
+                  href: localizations/emea-financial-reason.md
             - name: ฟินแลนด์
               items:
                 - name: ภาพรวมของฟินแลนด์
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: การปรับปรุงการใช้ข้อมูลของธนาคาร
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: อินทราสแทตภาษาอิตาลี
-                  href: localizations/emea-ita-intrastat.md
-                - name: ลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: อินทราสแทต
+                  items:
+                    - name: อินทราสแทตภาษาอิตาลี
+                      href: localizations/emea-ita-intrastat.md
+                    - name: ลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: รูปแบบไฟล์อินทราสแทต (IT)
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: ค่าธรรมเนียมเบ็ดเตล็ดต่อกิโลกรัมในการรายงานภาษีอินทราสแทต
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: หนังสือแสดงเจตนา - ผู้ส่งออกปกติที่ออกใบแจ้งหนี้
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: รายงานภาษีขาย
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: อินทราสแทตภาษาโปแลนด์
+                  href: localizations/emea-pol-intrastat.md
                 - name: ตั้งค่าลำดับหมายเลขตามคลังสินค้า
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: ไฟล์การตรวจสอบมาตรฐาน
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: พาธที่เกี่ยวข้องในการผูกข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: ออกแบบนิพจน์เพื่อเรียกใช้วิธีการของคลาสแอพลิเคชัน
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance
               items:
                 - name: ตั้งค่าคอนฟิกกรอบงาน

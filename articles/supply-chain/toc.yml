@@ -713,8 +713,10 @@
                   href: cost-management/inventory-close.md
                 - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: รายงานการจัดเก็บมูลค่าสินค้าคงคลัง
+                - name: รายงานมูลค่าสินค้าคงคลัง
                   href: cost-management/inventory-value-report-storage.md
+                - name: ตัวอย่างและตรรกะรายงานมูลค่าของสินค้าคงคลัง
+                  href: cost-management/inventory-value-report-examples.md
                 - name: การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
                   href: cost-management/inventory-aging-report-storage.md
                 - name: ตัวอย่างและตรรกะรายงานอายุหนี้ของสินค้าคงคลัง
@@ -1673,6 +1675,8 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: การจัดกำหนดการการเลือกทรัพยากรตามความสามารถ
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: การวางแผนตามระดับความสำคัญ
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/marking.md
                 - name: การวางแผนระหว่างบริษัท
@@ -1719,6 +1723,8 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
                   href: master-planning/safety-stock-replenishment.md
+                - name: ใช้สมุดรายวันปริมาณสินค้าคงคลังที่ปลอดภัยเพื่ออัปเดตความครอบคลุมขั้นต่ำสำหรับสินค้า
+                  href: master-planning/safety-stock-journal.md
                 - name: ล่าช้า
                   href: master-planning/delays.md
                 - name: ยกเลิกงานการวางแผนหลัก
@@ -2351,6 +2357,8 @@
               href: production-control/unified-job-ids.md
             - name: เรียกขั้นตอนของกระบวนการอัตโนมัติเพื่อสร้างใบสั่งตรวจสอบคุณภาพ
               href: production-control/process-automation-quality-orders.md
+            - name: รวมกับระบบการปฏิบัติการผลิตของบริษัทอื่น
+              href: production-control/mes-integration.md
             - name: การผลิตแบบไม่ต่อเนื่อง
               items:
                 - name: รักษาข้อมูลหลักของการผลิต
@@ -2649,6 +2657,8 @@
                   href: production-control/production-floor-execution-use.md
                 - name: กำหนดรูปแบบอินเทอร์เฟสการดำเนินการผลิต
                   href: production-control/production-floor-execution-styles.md
+                - name: ปรับแต่งอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-customize.md
         - name: การจัดการเงินคืน
           items:
             - name: ภาพรวมของโมดูลการจัดการเงินคืน

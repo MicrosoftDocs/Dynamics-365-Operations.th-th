@@ -1092,7 +1092,7 @@
                       href: add-accordion.md
                     - name: โมดูลแท็บ
                       href: add-tab.md
-                    - name: โมดูล iFrame
+                    - name: โมดูล Iframe
                       href: iframe-module.md
                 - name: โมดูลการตลาด
                   items:
@@ -1272,7 +1272,7 @@
               href: store-performance-information.md
             - name: ตั้งค่าการวิเคราะห์ความเป็นปัจจุบัน ความถี่ และยอดเงิน (RFM)
               href: set-up-rfm-analysis.md
-            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 365 Commerce
+            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: โลกาภิวัตน์
           items:
@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Retail SDK
               items:
+                - name: ย้ายไปยัง Commerce SDK
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: สถาปัตยกรรมของ Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: ตั้งค่าไปป์ไลน์การสร้างสำหรับ SDK การจัดทำแพคเกจแบบอิสระ

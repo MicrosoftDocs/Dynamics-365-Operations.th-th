@@ -2,7 +2,7 @@
 title: โฮมเพจ Finance
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance
 author: roschlom
-ms.date: 08/18/2021
+ms.date: 11/04/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 13a5e12c7ea45ff343a5c7ae14b8ed5a030aabf5
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394574"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753732"
 ---
 # <a name="finance-home-page"></a>โฮมเพจ Finance
 
@@ -41,18 +41,16 @@ ms.locfileid: "7394574"
         - [การบัญชีต้นทุน](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [การจัดการค่าใช้จ่าย](/dynamics365/project-operations/prod-exp/expense-management)
         - [การรายงานทางการเงิน](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [สินทรัพย์ถาวร](fixed-assets/fixed-assets.md)
         - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [บัญชีแยกประเภททั่วไปและการรายงานทางการเงิน](general-ledger/general-ledger.md) 
-        - [การจัดการและการบัญชีโครงการ](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [ภาครัฐ](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="blogs"></a>บล็อก
 
@@ -66,11 +64,19 @@ ms.locfileid: "7394574"
 
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 
-ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน ดูส่วน [คุณลักษณะการทำงานเฉพาะและบังคับ](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) ในเนื้อหาความช่วยเหลือของเราเพื่อเรียนรู้เกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค
+ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค โปรดไปที่ [คุณลักษณะการทำงานเฉพาะและบังคับ](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
 
 ### <a name="additional-content"></a>เนื้อหาเพิ่มเติม
 
-ฟังก์ชันการบริหารห่วงโซ่อุปทานครอบคลุมถึงส่วนของกระบวนการการสั่งซื้อจนถึงการได้รับเงินสดที่ประกอบด้วยการขอซื้อ การสั่งซื้อ การรับสินค้า การออกใบแจ้งหนี้ และการชำระเงินสำหรับสินค้าและบริการที่องค์กรของคุณซื้อ โปรดดูที่ [โฮมเพจ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) สำหรับข้อมูลเกี่ยวกับความสามารถในการจัดการกับการซื้อ สินค้าคงคลัง และการผลิต
+ฟังก์ชันการบริหารห่วงโซ่อุปทานครอบคลุมส่วนต่างๆ ของกระบวนการจัดซื้อจนถึงการได้รับเงินสด ซึ่งรวมถึง
+
+   - การจัดหาวัตถุดิบ
+   - การสั่งซื้อ 
+   - การรับ
+   - การออกใบแจ้งหนี้
+   - การจ่ายค่าสินค้าและบริการที่องค์กรของคุณซื้อ 
+    
+สำหรับข้อมูลเกี่ยวกับความสามารถในการจัดการกับการซื้อ สินค้าคงคลัง และการผลิต โปรดดูที่ [โฮมเพจ Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md)
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 
