@@ -1,6 +1,6 @@
 ---
 title: FAQ เกี่ยวกับการรวม LinkedIn
-description: หัวข้อนี้จะตอบคำถามที่คุณอาจพบเกี่ยวกับการรวมระหว่าง LinkedIn กับ Microsoft Microsoft Dynamics 365 Talent - Attract
+description: หัวข้อนี้จะตอบคำถามที่คุณอาจพบเกี่ยวกับการรวมระหว่าง LinkedIn กับ Microsoft Dynamics 365 Talent - Attract
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -117,6 +117,3 @@ LinkedIn ประมวลผลประกาศงานในชุดง�
 [จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
