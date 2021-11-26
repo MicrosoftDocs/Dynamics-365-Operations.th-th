@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576051"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777636"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>ป้ายทะเบียนที่ได้รับผ่านทางแอปการจัดการคลังสินค้าบนมือถือ
 
@@ -77,7 +77,7 @@ ms.locfileid: "7576051"
 - **แสดงสรุปโดยละเอียด** – ในระหว่างการรับป้ายทะเบียน ผู้ปฏิบัติงานจะเห็นหน้าพิเศษที่แสดงข้อมูล ASN แบบเต็ม
 - **ข้ามสรุป** – ผู้ปฏิบัติงานจะไม่เห็นข้อมูล ASN แบบเต็ม นอกจากนี้ ผู้ปฏิบัติงานคลังสินค้าจะยังไม่สามารถตั้งค่ารหัสการโอนการครอบครอง หรือเพิ่มข้อยกเว้น ในระหว่างกระบวนการรับสินค้าได้
 
-เมื่อต้องการทำให้ฟังก์ชันนี้พร้อมใช้งานบนระบบของคุณ คุณต้องเปิดคุณลักษณะ *ควบคุมว่าจะแสดงหน้าสรุปการรับสินค้าบนอุปกรณ์เคลื่อนที่หรือไม่* ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+เมื่อต้องการทำให้ฟังก์ชันนี้พร้อมใช้งานบนระบบของคุณ ต้องเปิดใช้คุณลักษณะ *ควบคุมว่าจะแสดงหน้าสรุปการรับสินค้าบนอุปกรณ์เคลื่อนที่หรือไม่* ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>ป้องกันใบสั่งโอนย้าย ป้ายทะเบียนที่ส่ง ไม่ให้ถูกใช้ที่คลังสินค้าอื่นที่ไม่ใช่คลังสินค้าปลายทาง
 

@@ -1,5 +1,5 @@
 ---
-title: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD (พรีวิว)
+title: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 description: หัวข้อนี้อธิบายวิธีการเตรียมใช้งานสเกลยูนิตแบบปลายทางในสถานที่ โดยใช้ฮาร์ดแวร์และการจัดวางที่กำหนดเอง ซึ่งขึ้นอยู่กับข้อมูลธุรกิจภายใน (LBD)
 author: cabeln
 ms.date: 04/22/2021
@@ -9,24 +9,21 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
-ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ebbdaab9d6f040497d3158db2712e102b6e9aa8
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678992"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729086"
 ---
-# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd-preview"></a>ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD (พรีวิว)
+# <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)] <!--KFM: Until 11/1/2021 -->
 
 สเกลยูนิตแบบปลายทางมีบทบาทสําคัญในโทโพโลยีแบบไฮบริดแบบกระจาย สำหรับ Supply Chain Management ในโทโพโลยีแบบไฮบริด คุณสามารถกระจายปริมาณงานระหว่างฮับระบบคลาวด์ของ Supply Chain Management ของคุณ และสเกลยูนิตเพิ่มเติมใน Cloud หรือ Edge
 
 คุณสามารถปรับใช้สเกลยูนิตแบบปลายทางได้โดยการสร้างข้อมูลธุรกิจภายใน (LBD) [สภาพแวดล้อมในสถานที่](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) แล้วตั้งค่าคอนฟิกให้ฟังก์ชันเป็นสเกลยูนิตในโทโพโลยีแบบไฮบริดแบบกระจายของคุณ สำหรับ Supply Chain Management ซึ่งได้รับจากการเชื่อมโยงสภาพแวดล้อม LBD ในสถานที่กับสภาพแวดล้อม Supply Chain Management ใน Cloud ซึ่งถูกตั้งค่าคอนฟิกให้ฟังก์ชันเป็นฮับ  
-
-ขณะนี้ สเกลยูนิตแบบปลายทางอยู่ในพรีวิว ดังนั้น คุณจึงสามารถใช้สภาพแวดล้อมชนิดนี้เฉพาะตาม [เงื่อนไขของพรีวิว](https://aka.ms/scmcnepreviewterms)เท่านั้น
 
 หัวข้อนี้จะอธิบายวิธีตั้งค่าสภาพแวดล้อม LBD ในสถานที่เป็นสเกลยูนิตแบบปลายทาง แล้วเชื่อมโยงกับฮับ
 
@@ -36,11 +33,9 @@ ms.locfileid: "7678992"
 
 1. **เปิดใช้งานช่อง LBD ในโครงการ LBD ของคุณ ใน Microsoft Dynamics Lifecycle Services (LCS)**
 
-    ในระหว่างพรีวิว สเกลยูนิตแบบปลายทางบ LBD ตั้งเป้าหมายลูกค้า LBD ที่มีอยู่ ช่อง LBD Sandbox ที่จํากัด 60 วันเพิ่มเติม จะถูกระบุในสถานการณ์ของลูกค้าเฉพาะ
-
 1. **ตั้งค่าและปรับใช้สภาพแวดล้อม LBD ด้วยฐานข้อมูล *ว่างเปล่า***
 
-    ใช้ LCS เพื่อปรับใช้สภาพแวดล้อม LBD ด้วยโทโพโลยีและฐานข้อมูลว่างเปล่าล่าสุด ดูข้อมูลเพิ่มเติมที่ ส่วน [การตั้งค่าและการปรับใช้สภาพแวดล้อม LBD ด้วยฐานข้อมูลว่างเปล่า](#set-up-deploy) ในส่วนท้ายของหัวข้อนี้ คุณต้องใช้ Supply Chain Management เวอร์ชัน 10.0.19 ที่มีแพลตฟอร์มที่อัปเดต 43 หรือสูงกว่าในสภาพแวดล้อมฮับและสเกลยูนิต
+    ใช้ LCS เพื่อปรับใช้สภาพแวดล้อม LBD ด้วยโทโพโลยีและฐานข้อมูลว่างเปล่าล่าสุด ดูข้อมูลเพิ่มเติมที่ ส่วน [การตั้งค่าและการปรับใช้สภาพแวดล้อม LBD ด้วยฐานข้อมูลว่างเปล่า](#set-up-deploy) ในส่วนท้ายของหัวข้อนี้ คุณต้องใช้ Supply Chain Management รุ่น 10.0.21 หรือรุ่นใหม่กว่า ผ่านฮับและสเกลยูนิต
 
 1. **อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์โครงการ LBD ใน LCS**
 
@@ -60,7 +55,7 @@ ms.locfileid: "7678992"
 
 ขั้นตอนนี้จะสร้างสภาพแวดล้อม LBD ที่ทำงานได้ อย่างไรก็ตาม สภาพแวดล้อมไม่ควรจะมีเวอร์ชันแอพลิเคชันและแพลตฟอร์มเดียวกันกับสภาพแวดล้อมฮับ นอกจากนี้ ยังขาดการเลือกกำหนด และยังไม่มีการเปิดใช้งานเพื่อใช้เป็นสเกลยูนิต
 
-1. ทำตามคำแนะนำใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) คุณต้องใช้ Supply Chain Management เวอร์ชัน 10.0.19 ที่มีแพลตฟอร์มที่อัปเดต 43 หรือสูงกว่าในสภาพแวดล้อมฮับและสเกลยูนิต
+1. ทำตามคำแนะนำใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) คุณต้องใช้ Supply Chain Management รุ่น 10.0.21 หรือรุ่นใหม่กว่า ผ่านฮับและสเกลยูนิต นอกจากนี้ คุณต้องใช้เวอร์ชัน 2.12.0 หรือรุ่นใหม่กว่าของสคริปต์โครงสร้างพื้นฐาน 
 
     > [!IMPORTANT]
     > อ่านส่วนที่เหลือของส่วนนี้ **ก่อน** คุณจะเสร็จสิ้นขั้นตอนในหัวข้อนั้น
@@ -75,9 +70,50 @@ ms.locfileid: "7678992"
     > สคริปต์นี้จะลบการตั้งค่าคอนฟิกใดๆ ที่ไม่ต้องการใช้งานสเกลยูนิตแบบปลายทาง
 
 1. ตั้งค่าฐานข้อมูลที่มีข้อมูลว่างเปล่า ตามที่อธิบายไว้ใน [ฐานข้อมูลการตั้งค่าคอนฟิก](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) ใช้ไฟล์ data.csv ที่ว่างเปล่าในขั้นตอนนี้
-1. ตั้งค่าสคริปต์ก่อนการปรับใช้ สำหรับข้อมูลเพิ่มเติม ดูที่ [สคริปต์ก่อนการปรับใช้และหลังการปรับใช้เอเจนต์ภายใน](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md)
+1. หลังจากที่คุณดำเนินการขั้นตอน [การตั้งค่าคอนฟิกฐานข้อมูล](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้รันสคริปต์ต่อไปนี้เพื่อตั้งค่าคอนฟิกฐานข้อมูล Scale Unit Alm Orchestrator
 
-    1. คัดลอกเนื้อหาจากโฟลเดอร์ **ScaleUnit** ใน **สคริปต์โครงสร้างพื้นฐาน** ไปยังโฟลเดอร์ **สคริปต์** ในที่แบ่งใช้หน่วยจัดเก็บไฟล์ของเอเจนต์ที่ตั้งค่าในสภาพแวดล้อม พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts
+    > [!NOTE]
+    > อย่าตั้งค่าคอนฟิกฐานข้อมูล Financial Reporting ระหว่างขั้นตอน [การตั้งค่าคอนฟิกฐานข้อมูล](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb)
+
+    ```powershell
+    .\Initialize-Database.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -ComponentName EdgeScaleUnit
+    ```
+
+    สคริปต์ Initializte-Database.ps1 จะดำเนินการดังต่อไปนี้:
+
+    1. สร้างฐานข้อมูลเปล่าที่โดยให้ชื่อว่า **ScaleUnitAlmDb**
+    2. แม็ปผู้ใช้กับบทบาทฐานข้อมูล อ้างอิงจากตารางต่อไปนี้
+
+        | ผู้ใช้            | ชนิด | บทบาทฐานข้อมูล |
+        |-----------------|------|---------------|
+        | svc-LocalAgent$ | gMSA | db\_เจ้าของ     |
+
+1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)
+1. หลังจากที่คุณดำเนินการขั้นตอน [ตั้งค่าคอนฟิก AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+
+    1. สร้างแอพลิเคชัน Active Directory Federation Services (AD FS) ใหม่ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับ Application Object Server (AOS) ของคุณ
+
+        ```powershell
+        # Host URL is your DNS record\host name for accessing the AOS
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        ```
+
+    1. สร้างแอพลิเคชัน Azure Active Directory (Azure AD) ใหม่ ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับบริการ Scale Unit Management service
+
+        ```powershell
+        # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
+        .\Create-SumAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                       -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                       -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+        ```
+
+1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) เมื่อคุณต้องป้อนค่าคอนฟิกสำหรับตัวแทนท้องถิ่น ตรวจสอบให้แน่ใจว่าคุณเปิดใช้งาน Edge Scale Unit Features และระบุพารามิเตอร์ที่จำเป็นครบทั้งหมด
+
+    ![เปิดใช้งาน Edge Scale Unit Features.](media/EnableEdgeScaleUnitFeatures.png "เปิดใช้งาน Edge Scale Unit Features.")
+
+1. ก่อนที่คุณจะปรับใช้สภาพแวดล้อมของคุณจาก LCS ให้ตั้งค่าสคริปต์ก่อนการปรับใช้ สำหรับข้อมูลเพิ่มเติม ดูที่ [สคริปต์ก่อนการปรับใช้และหลังการปรับใช้เอเจนต์ภายใน](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md)
+
+    1. คัดลอกสคริปต์ Configure-CloudAndEdge.ps1 จากโฟลเดอร์ **ScaleUnit** ใน **Infrastructure Scripts** ไปยังโฟลเดอร์ **Scripts** ในที่แบ่งใช้หน่วยจัดเก็บไฟล์ของเอเจนต์ที่ตั้งค่าในสภาพแวดล้อม พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts
     2. สร้างสคริปต์ **PreDeployment.ps1** ที่จะเรียกสคริปต์โดยใช้พารามิเตอร์ที่จำเป็น ต้องวางสคริปต์การปรับใช้ล่วงหน้าในโฟลเดอร์ **สคริปต์** ในการแบ่งใช้หน่วยจัดเก็บไฟล์ของตัวแทน มิฉะนั้นจะรันไม่ได้ พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1
 
         เนื้อหาของสคริปต์ PreDeployment.ps1 จะคล้ายกับตัวอย่างต่อไปนี้
@@ -86,7 +122,7 @@ ms.locfileid: "7678992"
         $agentShare = '\\lbdiscsi01\agent'
         
         Write-Output "AgentShare is set to $agentShare" 
-        & $agentShare\Scripts\Configure-CloudandEdge.ps1 -AgentShare $agentShare -InstanceId '@A' -DatabaseServer 'lbdsqla01.contoso.com' -DatabaseName 'AXDB'
+        . $PSScriptRoot\Configure-CloudAndEdge.ps1 -AgentShare $agentShare -InstanceId '@A'
         ```
 
         > [!NOTE]
@@ -101,6 +137,75 @@ ms.locfileid: "7678992"
         >   - @#
 
 1. ปรับใช้สภาพแวดล้อมโดยใช้โทโพโลยีพื้นฐานล่าสุดที่พร้อมใช้งาน
+1. หลังจากสภาพแวดล้อมของคุณได้รับการปรับใช้ ให้ทำตามขั้นตอนเหล่านี้
+
+    1. รันคำสั่ง SQL ต่อไปนี้บนฐานข้อมูลธุรกิจของคุณ (AXDB)
+
+        ```sql
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        delete from NumberSequenceTable
+        delete from NumberSequenceReference
+        delete from NumberSequenceScope
+        delete from FeatureManagementMetadata
+        delete from FeatureManagementState
+        delete from SysFeatureStateV0
+        ```
+
+    1. เพิ่มรอบเวลาชุดงานสูงสุดที่เกิดขึ้นพร้อมกันเป็นค่าที่มากกว่า 4
+
+        ```sql
+        Update batchserverconfig set maxbatchsessions = '<Replace with number of concurrent batch tasks you want>'
+        ```
+
+    1. ตรวจสอบว่าได้เปิดใช้งานการติดตามการเปลี่ยนแปลงในฐานข้อมูลธุรกิจของคุณ (AXDB) แล้ว
+
+        1. เปิดใช้งาน SQL Server Management Studio (SSMS)
+        1. เลือกและกด (หรือคลิกขวา) ค้างไว้ที่ฐานข้อมูลธุรกิจของคุณ แล้วเลือก **คุณสมบัติ**
+        1. ในหน้าต่างที่ปรากฎ ให้เลือก **การติดตามการเปลี่ยนแปลง** และตั้งค่าต่อไปนี้:
+
+            - **การติดตามการเปลี่ยนแปลง:** *จริง*
+            - **รอบระยะเวลาการคงไว้:** *7*
+            - **หน่วยการคงไว้:** *วัน*
+            - **การล้างข้อมูลอัตโนมัติ:** *จริง*
+
+    1. เพิ่มรหัสแอพลิเคชัน AD FS ที่คุณสร้างไว้ก่อนหน้านี้ (โดยใช้สคริปต์ Create-ADFSServerApplicationForEdgeScaleUnits.ps1) ลงในตารางแอพลิเคชัน Azure AD ในหน่วยปรับขนาดของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่านอินเทอร์เฟสผู้ใช้ (UI) หรือคุณสามารถกรอกข้อมูลในฐานข้อมูลได้โดยใช้สคริปต์ต่อไปนี้
+
+        ```sql
+        DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
+
+        IF NOT EXISTS (SELECT TOP 1 1 FROM SysAADClientTable WHERE AADClientId = @ALMOrchestratorId)
+        BEGIN
+            INSERT INTO SysAADClientTable (AADClientId, UserId, Name, ModifiedBy, CreatedBy)
+            VALUES (@ALMOrchestratorId, 'ScaleUnitManagement', 'Scale Unit Management', 'Admin', 'Admin');
+        END
+        ```
+
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>ตั้งค่า Azure key azure และแอพลิเคชัน Azure AD เพื่อเปิดใช้งานการสื่อสารระหว่างหน่วยปรับขนาด
+
+1. หลังจากสภาพแวดล้อมของคุณได้รับการปรับใช้แล้ว ให้สร้างแอพลิเคชัน Azure AD เพิ่มเติมเพื่อเปิดใช้งานการสื่อสารที่เชื่อถือได้ระหว่างฮับและหน่วยปรับขนาดของคุณ
+
+    ```powershell
+    .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                          -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                          -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
+    ```
+
+1. หลังจากสร้างแอพลิเคชันแล้ว คุณต้องสร้างข้อมูลลับของไคลเอนต์และบันทึกข้อมูลนั้นไว้ในคีย์ Azure นอกจากนี้ คุณต้องให้สิทธิการเข้าถึงแอพลิเคชัน Azure AD ที่สร้างขึ้น เพื่อให้สามารถดึงข้อมูลลับที่จัดเก็บอยู่ในคีย์ เพื่อความสะดวกของคุณ สคริปต์ต่อไปนี้จะดำเนินการตามขั้นตอนที่จำเป็นทั้งหมดโดยอัตโนมัติ
+
+    ```powershell
+    .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
+                                         -TenantId '<ID of the tenant where your cloud hub is deployed>' `
+                                         -SubscriptionName '<Any subscription within your tenant>' `
+                                         -ResourceGroupName '<Any resource group within your subscription>' `
+                                         -KeyVaultName '<Any key vault within your resource group>' `
+                                         -Location '<Any Azure location where Azure Key Vault is available>' `
+                                         -LCSEnvironmentId '<The LCS environment ID of your deployed scale unit>' `
+    ```
+
+    > [!NOTE]
+    > ถ้าไม่มีคีย์ที่กำหนดค่า **KeyVaultName** อยู่ สคริปต์จะสร้างค่านั้นโดยอัตโนมัติ
+
+1. เพิ่มรหัสแอพลิเคชัน Azure AD ที่คุณเพิ่งสร้างขึ้น (เมื่อใช้สคริปต์ Create-HubToHubAADApplication.ps1) ลงในตารางแอพลิเคชัน Azure AD ในฮับของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่าน UI
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์โครงการ LBD ใน LCS
 
@@ -116,122 +221,13 @@ ms.locfileid: "7678992"
 1. บริการสภาพแวดล้อม LBD ด้วยแพคเกจแอพลิเคชัน/แพลตฟอร์มรวมที่คุณอัปโหลดในขั้นตอนก่อนหน้านี้
 1. บริการสภาพแวดล้อม LBD ด้วยแพคเกจที่ปรับใช้แบบกำหนดเองที่คุณอัปโหลดในขั้นตอนก่อนหน้านี้
 
-    ![การเลือกการรักษา >ใช้การอัปเดตใน LCS](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "การเลือกการรักษา >ใช้การอัปเดตใน LCS")
+    ![การใช้การอัพเดตใน LCS](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "การใช้การอัพเดตใน LCS")
 
     ![การเลือกแพคเกจการเลือกกำหนดของคุณ](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "การเลือกแพคเกจการเลือกกำหนดของคุณ")
 
 ## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>กําหนดสเกลยูนิตแบบปลายทาง LBD ของคุณให้กับฮับ
 
-ในขณะที่สเกลยูนิตแบบปลายทางยังอยู่ในพรีวิว คุณต้องใช้ [การปรับใช้สเกลยูนิตและเครื่องมือการตั้งค่าคอนฟิก](https://github.com/microsoft/SCMScaleUnitDevTools) ที่พร้อมใช้งานบน GitHub เพื่อกําหนดสเกลยูนิตแบบปลายทาง LBD ของคุณให้กับฮับ กระบวนการช่วยให้การตั้งค่าคอนฟิก LBD สามารถทำหน้าที่เป็นสเกลยูนิตแบบปลายทางและเชื่อมโยงกับฮับ กระบวนการคล้ายกับการตั้งค่าคอนฟิกสภาพแวดล้อมการพัฒนาแบบ One-Box
-
-1. ดาวน์โหลด [SCMScaleUnitDevTools](https://github.com/microsoft/SCMScaleUnitDevTools/releases) เวอร์ชันล่าสุด และแตกไฟล์เนื้อหา
-1. สร้างสําเนาของไฟล์ `UserConfig.sample.xml` และตั้งชื่อเป็น `UserConfig.xml`
-1. สร้างแอพลิเคชัน Microsoft Azure Active Directory (Azure AD) ในผู้เช่า Azure AD ของคุณ ตามที่กล่าวถึงใน [คู่มือการปรับใช้สเกลยูนิตและปริมาณงาน](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#aad-application-registrations)
-    1. เมื่อสร้างแล้ว ให้นําทางไปยังฟอร์มแอพลิเคชัน Azure AD (SysAADClientTable) บนฮับของคุณ
-    1. สร้างรายการใหม่และตั้งค่า **รหัสไคลเอนต์** เป็นรหัสของแอพลิเคชันที่คุณสร้างขึ้น ตั้งค่า **ชื่อ** เป็น *ScaleUnits* และ **รหัสผู้ใช้** เป็น *ผู้ดูแลระบบ*
-
-1. สร้างแอพลิเคชัน Active Directory Federation Service (AD FS) ตามที่กล่าวถึงใน [คู่มือการปรับใช้สเกลยูนิตและปริมาณงาน](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide#adfs-application-registrations)
-    1. เมื่อสร้างแล้ว ให้นําทางไปยังฟอร์มแอพลิเคชัน Azure AD (SysAADClientTable) บนสเกลยูนิตแบบปลายทางของคุณ
-    1. สร้างรายการใหม่และตั้งค่า **รหัสไคลเอนต์** เป็นรหัสของแอพลิเคชันที่คุณสร้างขึ้น ตั้งค่า **รหัสผู้ใช้** เป็น *ผู้ดูแลระบบ*
-
-1. แก้ไขไฟล์ `UserConfig.xml`
-    1. ภายใต้ส่วน `InterAOSAADConfiguration` ให้ป้อนข้อมูลจากแอพลิเคชัน Azure AD ที่คุณสร้างขึ้นก่อนหน้านี้
-        - ในองค์ประกอบ `AppId` ให้ป้อนรหัสแอพลิเคชันของแอพลิเคชัน Azure
-        - ในองค์ประกอบ `AppSecret` ให้ป้อนข้อมูลลับแอพลิเคชันของแอพลิเคชัน Azure
-        - องค์ประกอบ `Authority` ต้องมี URL ที่ระบุหน่วยงานด้านความปลอดภัยของผู้เช่าของคุณ
-
-        ```xml
-        <InterAOSAADConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopty56TGUedDTVhtER-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </InterAOSAADConfiguration>
-        ```
-
-    1. ภายใต้ส่วน `ScaleUnitConfiguration` สำหรับ `ScaleUnitInstance` แรก ให้ปรับเปลี่ยนส่วน `AuthConfiguration`
-        - ในองค์ประกอบ `AppId` ให้ป้อนรหัสแอพลิเคชันของแอพลิเคชัน Azure
-        - ในองค์ประกอบ `AppSecret` ให้ป้อนข้อมูลลับแอพลิเคชันของแอพลิเคชัน Azure
-        - องค์ประกอบ `Authority` ต้องมี URL ที่ระบุหน่วยงานด้านความปลอดภัยของผู้เช่าของคุณ
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>8dab14f6-97b1-48e3-b51b-350b45f6ede5</AppId>
-            <AppSecret>k6em-_7.lopdz.6d3DTVOtf9Lo-j_6anY1</AppSecret>
-            <Authority>https://login.windows.net/contoso.onmicrosoft.com</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. นอกจากนี้ สำหรับ `ScaleUnitInstance` เดียวกันนี้ ให้ตั้งค่าต่อไปนี้:
-        - ในองค์ประกอบ `Domain` ให้ระบุ URL ของฮับของคุณ ตัวอย่างเช่น: `https://cloudhub.sandbox.operations.dynamics.com/`
-        - ในองค์ประกอบ `EnvironmentType` โปรดตรวจสอบให้แน่ใจว่า `LCSHosted` มีการตั้งค่าแล้ว
-
-    1. ภายใต้ส่วน `ScaleUnitConfiguration` สำหรับ `ScaleUnitInstance` ที่สอง ให้ปรับเปลี่ยนส่วน `AuthConfiguration`
-        - ในองค์ประกอบ `AppId` ให้ป้อนรหัสแอพลิเคชันของแอพลิเคชัน AD FS
-        - ในองค์ประกอบ `AppSecret` ให้ป้อนข้อมูลลับแอพลิเคชันของแอพลิเคชัน ADFS
-        - องค์ประกอบ `Authority` ต้องมี URL ของอินสแตนซ์ AD FS ของคุณ
-
-        ```xml
-        <AuthConfiguration>
-            <AppId>26b16f25-21d8-4d36-987b-62df292895aa</AppId>
-            <AppSecret>iZFfObgI6lLtY9kEbBjEFV98NqI5_YZ0e5SBcWER</AppSecret>
-            <Authority>https://adfs.contoso.com/adfs</Authority>
-        </AuthConfiguration>
-        ```
-
-    1. นอกจากนี้ สำหรับ `ScaleUnitInstance` เดียวกันนี้ ให้ตั้งค่าต่อไปนี้:
-        - ในองค์ประกอบ `Domain` ให้ระบุ URL ของสเกลยูนิตแบบปลายทางของคุณ ตัวอย่างเช่น: https://ax.contoso.com/
-        - ในองค์ประกอบ `EnvironmentType` โปรดตรวจสอบให้แน่ใจว่า LBD มีการตั้งค่าแล้ว
-        - ในองค์ประกอบ `ScaleUnitId` ให้ป้อนข้อมูลค่าเดียวกันกับที่คุณระบุใน `InstanceId` เมื่อตั้งค่าคอนฟิกสคริปต์การปรับใช้ล่วงหน้า `Configure-CloudandEdge.ps1`
-
-        > [!NOTE]
-        > หากคุณไม่ได้ใช้รหัสเริ่มต้น (@A) โปรดตรวจสอบให้แน่ใจว่าคุณอัปเดต ScaleUnitId ให้กับแต่ละ ConfiguredWorkload ภายใต้ส่วน Workloads
-
-1. เปิด PowerShell และนําทางไปยังโฟลเดอร์ที่มีไฟล์ `UserConfig.xml`
-
-1. รันเครื่องมือด้วยคำสั่งนี้
-
-    ```powershell
-    .\CLI.exe
-    ```
-
-    > [!NOTE]
-    > หลังจากที่ทุกการดำเนินการจะต้องเริ่มเครื่องมืออีกครั้ง
-
-1. ในเครื่องมือ ให้เลือก **2. จัดเตรียมสภาพแวดล้อมเกี่ยวกับการติดตั้งปริมาณงาน** จากนั้นรันขั้นตอนต่อไปนี้:
-    1. เลือก **1. จัดเตรียมฮับ**
-    1. เลือก **2. จัดเตรียม Scale Unit**
-
-    > [!NOTE]
-    > หากคุณไม่ได้รันคำสั่งนี้จากการติดตั้งใหม่ทั้งหมด และไม่งานล้มเหลว ให้ดำเนินการดังต่อไปนี้:
-    >
-    > - ลบโฟลเดอร์ทั้งหมดออกจากโฟลเดอร์ `aos-storage` (ยกเว้น `GACAssemblies`)
-    > - รันคำสั่ง SQL ต่อไปนี้บนฐานข้อมูลธุรกิจของคุณ (AXDB):
-    >
-    > ```sql 
-    > delete from storagefoler
-    > ```
-
-1. รันคำสั่ง SQL ต่อไปนี้บนฐานข้อมูลธุรกิจของคุณ (AXDB):
-
-    ```sql
-    delete from FEATUREMANAGEMENTMETADATA
-    delete from FEATUREMANAGEMENTSTATE
-    delete from NUMBERSEQUENCESCOPE
-    ```
-
-1. ตรวจสอบว่าได้เปิดใช้งานการติดตามการเปลี่ยนแปลงในฐานข้อมูลธุรกิจของคุณ (AXDB) แล้ว
-    1. เริ่มต้น SQL Server Management Studio (SSMS)
-    1. คลิกขวาที่ฐานข้อมูลธุรกิจของคุณ (AXDB) และเลือกคุณสมบัติ
-    1. ในหน้าต่างที่เปิดขึ้น ให้เลือก **การติดตามการเปลี่ยนแปลง** และปรับการตั้งค่าต่อไปนี้:
-
-        - **การติดตามการเปลี่ยนแปลง:** *จริง*
-        - **รอบระยะเวลาการคงไว้:** *7*
-        - **หน่วยการคงไว้:** *วัน*
-        - **การล้างข้อมูลอัตโนมัติ:** *จริง*
-
-1. ในเครื่องมือ ให้เลือก **3. ติดตั้งปริมาณงาน** จากนั้นรันขั้นตอนต่อไปนี้:
-    1. เลือก **1. ติดตั้งบนฮับ**
-    1. เลือก **2. ติดตั้งบน Scale Unit**
+คุณตั้งค่าคอนฟิกและจัดการหน่วยการปรับขนาดขอบของคุณผ่าน Scale Unit Management Portal หากต้องการข้อมูลเพิ่มเติม ดูที่ [จัดการหน่วยปรับขนาดและปริมาณงานโดยใช้ Scale Unit Manager portal](./cloud-edge-landing-page.md#scale-unit-manager-portal)
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

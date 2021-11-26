@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746830"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777826"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า
 
@@ -36,7 +36,7 @@ ms.locfileid: "6746830"
 1. เปิดใช้งานคุณลักษณะ *สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า* ซึ่งแสดงรายการเป็น:
     - **โมดูล** - การจัดการคลังสินค้า
     - **ชื่อคุณลักษณะ** - สร้างและดำเนินการใบสั่งโอนย้ายจากแอปคลังสินค้า
-1. เมื่อต้องการประมวลผลการจัดส่งขาออกโดยอัตโนมัติ คุณต้องเปิดใช้งานคุณลักษณะ [ยืนยันการจัดส่งขาออกจากชุดงาน](confirm-outbound-shipments-from-batch-jobs.md) คุณลักษณะนี้แสดงรายการเป็น:
+1. เมื่อต้องการประมวลผลการจัดส่งขาออกโดยอัตโนมัติ คุณต้องเปิดใช้งานคุณลักษณะ [ยืนยันการจัดส่งขาออกจากชุดงาน](confirm-outbound-shipments-from-batch-jobs.md) (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
     - **โมดูล** - การจัดการคลังสินค้า
     - **ชื่อคุณลักษณะ** - ยืนยันการจัดส่งขาออกจากชุดงาน
 

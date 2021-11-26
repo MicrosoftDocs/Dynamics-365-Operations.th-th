@@ -1,8 +1,8 @@
 ---
-title: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าสภาพแวดล้อมของคุณเพื่อใช้ฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี
+title: เปิดใช้งานการค้นหาข้อมูลหลักเกี่ยวกับการตั้งค่าคอนฟิกการคํานวณภาษี
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าและเปิดใช้งานฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี
 author: kai-cloud
-ms.date: 10/26/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 901f8bcb0220355866952b68e92bc2dd906bb430
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
+ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700415"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749521"
 ---
-# <a name="set-up-an-environment-for-master-data-lookup"></a>ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
+# <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>เปิดใช้งานการค้นหาข้อมูลหลักเกี่ยวกับการตั้งค่าคอนฟิกการคํานวณภาษี 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าสภาพแวดล้อมของคุณเพื่อใช้ฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี
+หัวข้อนี้อธิบายวิธีการตั้งค่าและเปิดใช้งานฟังก์ชันการค้นหาข้อมูลหลักของการคํานวณภาษี รายการแบบหล่นลงจะพร้อมใช้งานเพื่อเลือกค่าในการตั้งค่าคอนฟิกการคํานวณภาษี สำหรับฟิลด์ เช่น **บัญชีผู้จัดจำหน่าย** **รหัสสินค้า** และ **เงื่อนไขการจัดส่ง** ค่าเหล่านี้มาจากสภาพแวดล้อมของ Microsoft Dynamics 365 Finance ที่เชื่อมต่อโดยใช้แหล่งข้อมูล Microsoft Dataverse
 
 1. ตั้งค่าการรวม Microsoft Power Platform ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การรวม Microsoft Power Platform - ภาพรวม Add-in](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) หลังจากที่คุณขั้นตอนนี้เสร็จสมบูรณ์แล้ว ชื่อของสภาพแวดล้อม Microsoft Power Platform จะปรากฏในส่วน **การรวม Power Platform**
 2. ไปที่ [ศูนย์การจัดการ Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) และเลือกชื่อสภาพแวดล้อม มีการระบุ URL ของสภาพแวดล้อม

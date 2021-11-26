@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6b75dcb7d56648f3be291cb1c09ec57a53477ec0
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344185"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778094"
 ---
 # <a name="wave-label-printing"></a>การพิมพ์ป้ายชื่อของเวฟ
 
@@ -53,7 +53,7 @@ ms.locfileid: "7344185"
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>เปิดคุณลักษณะการพิมพ์ป้ายชื่อเวฟ
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะ *การพิมพ์ป้ายชื่อเวฟ* ต้องมีการเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
+(ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก) แต่อย่างไรก็ตาม คุณลักษณะนี้ยังคงแสดงใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ในวิธีต่อไปนี้
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *การพิมพ์ป้ายชื่อเวฟ*

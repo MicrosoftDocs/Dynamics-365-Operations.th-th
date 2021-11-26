@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579435"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778118"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
 
@@ -188,7 +188,7 @@ ms.locfileid: "7579435"
 
 ### <a name="enable-the-strict-validation-option"></a>เปิดใช้งานตัวเลือกการตรวจสอบความถูกต้องอย่างเข้มงวด
 
-ก่อนที่คุณจะสามารถใช้ตัวเลือกการตรวจสอบความถูกต้องอย่างเข้มงวด คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานได้ ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
 
 - **โมดูล** - *การจัดการข้อมูลผลิตภัณฑ์*
 - **ชื่อคุณลักษณะ** - *การตรวจสอบความถูกต้องของปริมาณใบสั่งเริ่มต้น*

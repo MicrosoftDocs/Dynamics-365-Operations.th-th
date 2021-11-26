@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572396"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778484"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>ยืนยันการจัดส่งขาออกจากชุดงาน
 
@@ -27,7 +27,7 @@ ms.locfileid: "7572396"
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>เปิดใช้งานการยืนยันการจัดส่งขาออกจากคุณลักษณะชุดงาน
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ ต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานได้ ถ้าจำเป็น คุณลักษณะนี้มีการลิสต์ไว้เป็น:
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
 
 - **โมดูล** - *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ** - *ยืนยันการจัดส่งขาออกจากชุดงาน*

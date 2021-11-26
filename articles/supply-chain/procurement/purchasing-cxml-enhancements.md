@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f4a7ee091d73e2104571ac9134a9de9bab0a7074
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575475"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777778"
 ---
 # <a name="purchasing-cxml-enhancements"></a>การปรับปรุง cXML การสั่งซื้อ
 
@@ -28,7 +28,7 @@ ms.locfileid: "7575475"
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>เปิดใช้ลักษณะการทำงานการปรับปรุง cXML การซื้อ
 
-เมื่อต้องการเปิดใช้งานลักษณะการทำงาน ให้เปิดหน้า **[การจัดการลักษณะการทำงาน](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** และค้นหาลักษณะการทำงานที่มีการระบุชื่อ *การปรับปรุง cXML การซื้อ* เลือกคุณลักษณะการทำงาน และจากนั้นเลือก **เปิดใช้งานตอนนี้** เพื่อเปิดใช้งาน
+เมื่อต้องการเปิดใช้งานลักษณะการทำงาน ให้เปิดหน้า **[การจัดการลักษณะการทำงาน](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** และค้นหาลักษณะการทำงานที่มีการระบุชื่อ *การปรับปรุง cXML การซื้อ* เลือกคุณลักษณะการทำงาน และจากนั้นเลือก **เปิดใช้งานตอนนี้** เพื่อเปิดใช้งาน (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
 
 หลังจากที่คุณเปิดใช้งานลักษณะการทำงานแล้ว คุณควรตั้งค่าคอนฟิกการตั้งค่าในสามพื้นที่ต่อไปนี้:
 

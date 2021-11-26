@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764847"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778532"
 ---
 # <a name="firm-planned-orders"></a>ยืนยันแผนการใบสั่ง
 
@@ -39,7 +39,7 @@ ms.locfileid: "6764847"
 
 การยืนยันแบบขนานจะช่วยเร่งกระบวนการยืนยันให้รวดเร็วขึ้นโดยการขนานระหว่างเธรดหลายเธรด วิธีการนี้มีประโยชน์เมื่อมีการยืนยันแผนการใบสั่งหลายแผน
 
-เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งานในระบบของคุณ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดใช้งานคุณลักษณะ *การยืนยันแผนการใบสั่งหลายแผน*
+เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งานในระบบของคุณ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดใช้งานคุณลักษณะ *การยืนยันแผนการใบสั่งหลายแผน* (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>เปิดใช้งานการยืนยันแผนการใบสั่งด้วยการกรอง
 
@@ -51,7 +51,7 @@ ms.locfileid: "6764847"
 
 การยืนยันยอดอัตโนมัติช่วยให้คุณมั่นใจได้ว่าจะมีแผนการใบสั่งเป็นส่วนหนึ่งของกระบวนการวางแผนหลักระหว่างกรอบเวลาสำหรับการยืนยัน การยืนยันอัตโนมัติได้รับการสนับสนุนให้เครื่องวางแผนซึ่งสร้างขึ้นใน Supply Chain Management เสมอ อย่างไรก็ตาม เมื่อต้องการใช้กับการเพิ่มประสิทธิภาพการวางแผนด้วย คุณต้องเปิดคุณลักษณะนี้
 
-เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งานในระบบของคุณ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดใช้งานคุณลักษณะ *การยืนยันอัตโนมัติสำหรับการเพิ่มประสิทธิภาพการวางแผน*
+เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งานในระบบของคุณ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดใช้งานคุณลักษณะ *การยืนยันอัตโนมัติสำหรับการเพิ่มประสิทธิภาพการวางแผน* (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
 
 ## <a name="manually-firm-planned-orders"></a>ยืนยันแผนการใบสั่งด้วยตนเอง
 

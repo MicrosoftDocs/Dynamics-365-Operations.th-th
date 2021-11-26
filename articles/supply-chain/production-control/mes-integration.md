@@ -1,0 +1,246 @@
+---
+title: รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถรวม Microsoft Dynamics 365 Supply Chain Management กับระบบการดำเนินการผลิตของบุคคลที่สาม (MES)
+author: t-benebo
+ms.date: 10/01/2021
+ms.topic: article
+ms.search.form: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: benebotg
+ms.search.validFrom: 2021-10-01
+ms.dyn365.ops.version: 10.0.23
+ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778460"
+---
+# <a name="integrate-with-third-party-manufacturing-execution-systems"></a>รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
+
+[!include [banner](../includes/banner.md)]
+
+องค์กรการผลิตบางแห่งที่ใช้ Microsoft Dynamics 365 Supply Chain Management ใช้ฟังก์ชันดั้งเดิมใน Dynamics 365 เพื่อควบคุมกิจกรรมการผลิตของเครื่องจักร อุปกรณ์ และบุคลากร อย่างไรก็ตาม องค์กรการผลิตอื่นๆ โดยเฉพาะอย่างยิ่งองค์กรที่มีความต้องการการผลิตขั้นสูง จะใช้ระบบการดำเนินการผลิตของบุคคลที่สาม (MES) แทน องค์กรอาจเลือกโซลูชัน MES ของบุคคลที่สาม ตัวอย่างเช่น เนื่องจากได้รับการออกแบบมาโดยเฉพาะกับอุตสาหกรรมในแนวตั้ง
+
+ในโซลูชันแบบรวม การแลกเปลี่ยนข้อมูลเป็นแบบอัตโนมัติอย่างสมบูรณ์ และเกิดขึ้นในเวลาใกล้เวลาจริง ดังนั้น ข้อมูลจึงถูกเก็บอยู่ในทั้งสองระบบ และไม่จำเป็นต้องป้อนข้อมูลด้วยตนเอง ตัวอย่างเช่น เมื่อลงทะเบียนปริมาณการใช้วัสดุใน MES การรวมช่วยให้มั่นใจว่ามีการลงทะเบียนปริมาณการใช้วัสดุเดียวกันใน Dynamics 365 ด้วย ดังนั้น เรกคอร์ดสินค้าคงคลังที่เป็นปัจจุบันจะพร้อมใช้งานต่อกระบวนการที่สําคัญอื่นๆ เช่น การวางแผนและการขาย
+
+โซลูชันนี้ช่วยให้การตั้งค่านั้นเร็วขึ้น ง่ายขึ้น และถูกกว่า สำหรับผู้ใช้ Supply Chain Management ในการรวมเข้ากับ MES ของบุคคลที่สาม ซึ่งนำเสนอคุณลักษณะดังต่อไปนี้:
+
+- เหตุการณ์ทางธุรกิจและอินเทอร์เฟสที่สนับสนุน [กระบวนการการดำเนินการผลิตหลัก](#processes-available-for-mes-integration)
+- แดชบอร์ดควบคุมส่วนกลางซึ่งคุณสามารถติดตามประวัติการประมวลผลเหตุการณ์ และแก้ไขปัญหาและแก้ไขกระบวนการที่ล้มเหลว
+
+ภาพประกอบต่อไปนี้แสดงชุดทั่วไปของเหตุการณ์ทางธุรกิจ กระบวนการ และข้อความที่แลกเปลี่ยนในโซลูชันแบบรวม
+
+![สถานการณ์จำลองการรวมทั่วไป](media/3p-mes-scenario.png "สถานการณ์จำลองการรวมทั่วไป")
+
+## <a name="turn-on-the-mes-integration-feature"></a>เปิดคุณลักษณะการรวม MES
+
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+
+- **โมดูล:** *การควบคุมการผลิต*
+- **ชื่อคุณลักษณะ:** *การรวมระบบการดำเนินการผลิต*
+
+## <a name="processes-available-for-mes-integration"></a>กระบวนการที่พร้อมใช้งานเพื่อการรวม MES
+
+คุณสามารถเปิดใช้งานกระบวนการใดๆ หรือกระบวนการทั้งหมดต่อไปนี้เพื่อการรวม
+
+| ชื่อกระบวนการ | คำอธิบาย |
+|---|---|
+| การปล่อยใบสั่งผลิตและสถานะของใบสั่งผลิตเปลี่ยนแปลงเหตุการณ์ทางธุรกิจ | กระบวนการนี้แสดงเหตุการณ์ทางธุรกิจที่ MES สามารถรอรับข้อมูลเกี่ยวกับใบสั่งผลิตที่ควรผลิตได้ ข้อมูลอ้างอิงที่เกี่ยวข้องกับใบสั่งผลิตคาดว่าจะมีการใช้ร่วมกันจาก Supply Chain Management กับ MES โดยผ่าน Open Data Protocol (OData) หรือเอนทิตี้ข้อมูล |
+| เริ่มใบสั่งผลิต | กระบวนการนี้จะให้ Supply Chain Management กับข้อมูลเกี่ยวกับใบสั่งผลิตที่เริ่มต้น โดยใช้ MES ซึ่งช่วยให้มั่นใจว่าทั้งสองระบบจะมีมุมมองล่าสุดของกิจกรรมการผลิตทั้งหมด |
+| รายงานปริมาณที่ผลิตหรือของเสีย | กระบวนการนี้จะให้ Supply Chain Management ที่มีข้อมูลเกี่ยวกับจำนวนสินค้าดีและสินค้าเสียที่ได้รายงานในงานการผลิต โดยใช้ MES ซึ่งช่วยให้มั่นใจว่าผู้ควบคุมงานของการผลิตมีมุมมองปัจจุบันของความคืบหน้าของแผนการผลิต |
+| รายงานการใช้วัตถุดิบ | กระบวนการนี้จะให้ Supply Chain Management ที่มีข้อมูลจาก MES เกี่ยวกับปริมาณของวัตถุดิบที่ใช้ ซึ่งทำให้เรกคอร์ดสินค้าคงคลังที่เป็นปัจจุบันพร้อมใช้งานต่อกระบวนการที่สําคัญอื่นๆ เช่น การวางแผนและการขาย |
+| รายงานเวลาที่ใช้ไปในการดําเนินงาน | กระบวนการนี้จะให้ Supply Chain Management ที่มีข้อมูลเกี่ยวกับเวลาที่ใช้ในการดําเนินงานเฉพาะ |
+| ใบสั่งผลิตสิ้นสุด | กระบวนการนี้จะแจ้งให้ Supply Chain Management ทราบว่า MES ได้อัปเดตใบสั่งผลิตเป็นสถานะสุดท้ายของ *การสิ้นสุด* สถานะนี้บ่งชี้ว่าจะไม่มีการผลิตปริมาณมากบนใบสั่งผลิต |
+
+## <a name="monitor-incoming-messages"></a>ตรวจสอบข้อความขาเข้า
+
+เมื่อต้องการตรวจสอบข้อความขาเข้าไปที่ระบบ ให้เปิดหน้า **การรวมระบบการดำเนินการผลิต** คุณสามารถดู ประมวลผล และแก้ไขปัญหา
+
+## <a name="call-the-api"></a>เรียก API
+
+เมื่อต้องการเรียก MES Integration API ให้ส่งคำร้อง `POST` ไปยัง URL ปลายทางต่อไปนี้:
+
+`/api/services/SysMessageServices/SysMessageService/SendMessage`
+
+เนื้อหาของการร้องขอที่คุณส่งควรคล้ายกับตัวอย่างต่อไปนี้ แทนที่ค่า `_companyId`, `_messageType` และ `_messageContent` ตามต้องการ หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับข้อความชนิดต่างๆ ที่ API สนับสนุน และวิธีการออกแบบเนื้อหา โปรดดูที่ส่วนถัดไป
+
+```json
+{
+    "_companyId": "USMF",
+    "_messageQueue": "JmgMES3P",
+    "_messageType": "ProdProductionOrderReportFinished",
+    "_messageContent":
+    "{\"ProductionOrderNumber\": \"P000123\", \"ReportFinishedLines\": [{\"ItemNumber\": \"A0001\", \"ReportedGoodQuantity\": 10, \"ReportAsFinishedDate\": \"2021-01-01\"}]}"
+}
+```
+
+## <a name="api-message-types-and-content"></a>ชนิดและเนื้อหาของข้อความ API
+
+ส่วนนี้อธิบายข้อความแต่ละชนิดที่สามารถแลกเปลี่ยนผ่าน MES Integration API
+
+### <a name="start-production-order-message"></a>เริ่มข้อความใบสั่งผลิต
+
+สำหรับข้อความ *เริ่มใบสั่งผลิต* ค่า `_messageType` คือ `ProdProductionOrderStart` ตารางต่อไปนี้แสดงฟิลด์ที่ข้อความนี้สนับสนุน
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ProductionOrderNumber` | จำเป็น | สตริง |
+| `StartedQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `StartedDate` | ไม่จำเป็นต้องระบุ | วันที่ |
+| `AutomaticBOMConsumptionRule` | ไม่จำเป็นต้องระบุ | Enum (FlushingPrincip \| Always \| Never) |
+
+### <a name="report-as-finished-message"></a>ข้องความรายงานเมื่อเสร็จสิ้น
+
+สำหรับข้อความ *รายงานเมื่อเสร็จสิ้น* ค่า `_messageType` คือ `ProdProductionOrderReportFinished` ตารางต่อไปนี้แสดงฟิลด์ที่ข้อความนี้สนับสนุน
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ProductionOrderNumber` | จำเป็น | สตริง |
+| `ReportFinishedLines` | จำเป็น | รายการ (อย่างน้อยหนึ่งรายการ) แต่ละบรรทัดมี payload ที่อธิบายไว้ในตารางถัดไป |
+
+ตารางต่อไปนี้จะแสดงฟิลด์ที่แต่ละบรรทัดในส่วน `ReportFinishedLines` ของข้อความสนับสนุน `ProdProductionOrderReportFinished`
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `LineNumber` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ItemNumber` | ไม่จำเป็นต้องระบุ | สตริง|
+| `ProductionType` | ไม่จำเป็นต้องระบุ | Enum (MainItem \| Formula \| BOM \| Co_Product \| By_Product \| None) ที่ขยายได้ |
+| `ReportedErrorQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง|
+| `ReportedGoodQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง|
+| `ReportedErrorCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ReportedGoodCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `AcceptError` | ไม่จำเป็นต้องระบุ |บูลีน |
+| `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
+| `ExecutedDateTime` | ไม่จำเป็นต้องระบุ | วันที่และเวลา |
+| `ReportAsFinishedDate` | ไม่จำเป็นต้องระบุ | วันที่ |
+| `AutomaticBOMConsumptionRule` | ไม่จำเป็นต้องระบุ | Enum (FlushingPrincip \| Always \| Never) |
+| `AutomaticRouteConsumptionRule` | ไม่จำเป็นต้องระบุ |Enum (RouteDependent \| Always \| Never) |
+| `RespectFlushingPrincipleDuringOverproduction` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `ProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `PickingListProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง|
+| `RouteCardProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `FromOperationNumber` | ไม่จำเป็นต้องระบุ | เลขจำนวนเต็ม|
+| `ToOperationNumber` | ไม่จำเป็นต้องระบุ | เลขจำนวนเต็ม|
+| `InventoryLotId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `BaseValue` | ไม่จำเป็นต้องระบุ | สตริง |
+| `EndJob` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `EndPickingList` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `EndRouteCard` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `PostNow` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `AutoUpdate` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `ProductColorId` | ไม่จำเป็นต้องระบุ | สตริง|
+| `ProductConfigurationId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductSizeId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductStyleId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductVersionId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ItemBatchNumber` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductSerialNumber` | ไม่จำเป็นต้องระบุ | สตริง |
+| `LicensePlateNumber` | ไม่จำเป็นต้องระบุ | สตริง |
+| `InventoryStatusId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductionWarehouseId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductionSiteId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ProductionWarehouseLocationId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `InventoryDimension1` ถึง `InventoryDimension12` | ไม่จำเป็นต้องระบุ | สตริง |
+
+มิติที่ขยายได้ 12 มิติ (`InventoryDimension1` ผ่าน `InventoryDimension12`) ต้องมีการเลือกเอง และไม่ได้ใช้เสมอไป สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เพิ่มมิติสินค้าคงคลังใหม่โดยใช้ส่วนขยาย](../../fin-ops-core/dev-itpro/extensibility/inventory-dimensions.md)
+
+### <a name="material-consumption-picking-list-message"></a>ข้อความปริมาณการใช้วัสดุ (รายการเบิกสินค้า)
+
+สำหรับข้อความ *ปริมาณการใช้วัสดุ (รายการเบิกสินค้า)* ค่า `_messageType` คือ `ProdProductionOrderPickingList` ตารางต่อไปนี้แสดงฟิลด์ที่ข้อความนี้สนับสนุน
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ProductionOrderNumber` | จำเป็น | สตริง |
+| `JournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `PickingListLines` | จำเป็น | รายการ (อย่างน้อยหนึ่งรายการ) แต่ละบรรทัดมี payload ที่อธิบายไว้ในตารางถัดไป |
+
+ตารางต่อไปนี้จะแสดงฟิลด์ที่แต่ละบรรทัดในส่วน `PickingListLines` ของข้อความสนับสนุน `ProdProductionOrderPickingList`
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ItemNumber` | จำเป็น | สตริง |
+| `ConsumptionBOMQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ProposalBOMQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ScrapBOMQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `BOMUnitSymbol` | ไม่จำเป็นต้องระบุ | สตริง |
+| `ConsumptionInventoryQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ProposalInventoryQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ConsumptionCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ProposalCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ConsumptionDate` | ไม่จำเป็นต้องระบุ | วันที่ |
+| `OperationNumber` | ไม่จำเป็นต้องระบุ | เลขจำนวนเต็ม |
+| `LineNumber` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `PositionNumber` | ไม่จำเป็นต้องระบุ | สตริง |
+| `IsConsumptionEnded` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
+
+### <a name="time-used-for-operation-route-card-message"></a>เวลาที่ใช้ข้อความการดําเนินงาน (บัตรกระบวนการผลิต)
+
+สำหรับข้อความ *เวลาที่ใช้ข้อความการดําเนินงาน (บัตรกระบวนการผลิต)* ค่า `_messageType` คือ `ProdProductionOrderRouteCard` ตารางต่อไปนี้แสดงฟิลด์ที่ข้อความนี้สนับสนุน
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ProductionOrderNumber` | จำเป็น | สตริง |
+| `JournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `RouteCardLines` | จำเป็น | รายการ (อย่างน้อยหนึ่งรายการ) แต่ละบรรทัดมี payload ที่อธิบายไว้ในตารางถัดไป |
+
+ตารางต่อไปนี้จะแสดงฟิลด์ที่แต่ละบรรทัดในส่วน `RouteCardLines` ของข้อความสนับสนุน `ProdProductionOrderRouteCard`
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `OperationNumber` | จำเป็น | ข้อบังคับ, เลขจํานวนเต็ม |
+| `OperationPriority` | ไม่จำเป็นต้องระบุ | Enum (Primary \| Secondary1 \| Secondary2 \| ... \| Secondary20) |
+| `OperationId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `OperationsResourceId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `Worker` | ไม่จำเป็นต้องระบุ | สตริง |
+| `HoursRouteCostCategoryId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `QuantityRouteCostCategoryId` | ไม่จำเป็นต้องระบุ | สตริง |
+| `HourlyRate` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `Hours` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `GoodQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ErrorQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `CatchWeightGoodQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `CatchWeightErrorQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `QuantityPrice` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ProcessingPercentage` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
+| `ConsumptionDate` | ไม่จำเป็นต้องระบุ | วันที่ |
+| `TaskType` | ไม่จำเป็นต้องระบุ | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
+| `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
+| `OperationCompleted` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `BOMConsumption` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `ReportAsFinished` | ไม่จำเป็นต้องระบุ | บูลีน |
+
+### <a name="end-production-order-message"></a>สิ้นสุดข้อความใบสั่งผลิต
+
+สำหรับข้อความ *สิ้นสุดใบสั่งผลิต* ค่า `_messageType` คือ `ProdProductionOrderEnd` ตารางต่อไปนี้แสดงฟิลด์ที่ข้อความนี้สนับสนุน
+
+| ชื่อฟิลด์ | สถานะ | ชนิด |
+|---|---|---|
+| `ProductionOrderNumber` | จำเป็น | สตริง |
+| `ExecutedDateTime` | ไม่จำเป็นต้องระบุ | วันที่และเวลา |
+| `EndedDate` | ไม่จำเป็นต้องระบุ | วันที่ |
+| `UseTimeAndAttendanceCost` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `AutoReportAsFinished` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `AutoUpdate` | ไม่จำเป็นต้องระบุ | บูลีน |
+
+## <a name="receive-feedback-about-the-state-of-a-message"></a>รับผลป้อนกลับเกี่ยวกับสถานะของข้อความ
+
+หลังจากที่ MES ส่งข้อความไปยัง Supply Chain Management แล้ว อาจเกี่ยวข้องกับ Supply Chain Management เพื่อส่งคืนผลป้อนกลับเกี่ยวกับสถานะของข้อความ ต่อไปนี้เป็นตัวอย่างของกรณีที่ลักษณะการทำงานนี้อาจจะเกี่ยวข้อง:
+
+- ไม่มีบุคคลที่รับผิดชอบการรวม MES อย่างต่อเนื่อง
+- บุคคลที่รับผิดชอบการควบคุมการรวม MES ต้องการได้รับการแจ้งเตือนทางอีเมล เมื่อข้อความล้มเหลว เพื่อที่พวกเขาทราบว่าต้องดำเนินการ
+- MES ต้องแสดงข้อความแสดงข้อผิดพลาดเพื่อแจ้งผู้ปฏิบัติงานฝ่ายควบคุมสินค้าหรือใครสักคนจากแผนก IT ซึ่งต้องเป็นผู้ดำเนินการ
+- MES ต้องคำนวณการจัดกำหนดการผลิตอีกครั้ง หลังจากที่ได้รับข้อความความล้มเหลว (ตัวอย่างเช่น เนื่องจากใบสั่งผลิตไม่สามารถเริ่มต้นได้)
+
+ในกรณีนี้ คุณสามารถใช้ประโยชน์จากคุณลักษณะการแจ้งเตือนมาตรฐานใน Supply Chain Management สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานข้อความแจ้งเตือนมาตรฐาน โปรดดูที่ทรัพยากรต่อไปนี้:
+
+- หัวข้อวิธีใช้: [ภาพรวมของการแจ้งเตือน](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- วิดีโอ: [ตัวเลือกกฎการแจ้งเตือน ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+
+ตัวอย่างเช่น คุณอาจตั้งค่าการแจ้งเตือนต่อไปนี้เพื่อให้ผลป้อนกลับเกี่ยวกับสถานะของข้อความ:
+
+- สร้างเหตุการณ์ทางธุรกิจ ("ส่งภายนอก") ที่ใช้เมื่อข้อความ *ล้มเหลว*
+- ส่งการแจ้งเตือนและส่งอีเมลถึงผู้ดูแลระบบไอทีหรือผู้จัดการฝ่ายผลิต

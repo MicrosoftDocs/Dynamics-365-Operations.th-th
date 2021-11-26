@@ -2,7 +2,7 @@
 title: แก้ไขปัญหาการตั้งค่า Finance Insights
 description: หัวข้อนี้แสดงรายการปัญหาที่อาจเกิดขึ้น เมื่อคุณใช้ความสามารถ Finance Insights นอกจากนี้ ยังอธิบายวิธีการแก้ไขปัญหาเหล่านั้นด้วย
 author: panolte
-ms.date: 08/20/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7ff42ffc334147c1a4c6b6349c86580df7f1955b
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512901"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752628"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>แก้ไขปัญหาการตั้งค่า Finance Insights
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้แสดงรายการปัญหาที่อาจเกิดขึ้น เมื่อคุณใช้ความสามารถ Finance Insights นอกจากนี้ ยังอธิบายวิธีการแก้ไขปัญหาเหล่านั้นด้วย
 
@@ -53,6 +54,12 @@ ms.locfileid: "7512901"
 
 1. ถ้าคุณใช้รุ่นพรีวิวของ Finance Insights ให้ลบโครงการ DI ที่สัมพันธ์กับเท็มเพลต **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops)**
 2. ปฏิบัติตามขั้นตอนใน [สร้างโครงการตัวรวมข้อมูล](create-data-integrate-project.md) ใช้เท็มเพลต **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops 10.0.17 และใหม่กว่า)**
+
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>อาการ: เมื่อฉันพยายามเปิด AI Builder โดยใช้ลิงค์ในหน้าการตั้งค่าการคาดการณ์การชำระเงินของลูกค้า เพราะเหตุใดฉันจึงได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้ "ขออภัย มีการยกเลิกการเชื่อมต่อ"
+
+### <a name="resolution"></a>การแก้ปัญหา
+
+ผู้ใช้ Dynamics 365 Finance ต้องมีบัญชีผู้ใช้ Microsoft Power Apps สำหรับสภาพแวดล้อม และบัญชีผู้ใช้นั้นต้องมีบทบาทผู้กำหนดระบบเอง ผู้ดูแลระบบ Microsoft Power Apps สามารถสร้างบัญชีผู้ใช้และกําหนดบทบาทได้ จากนั้นคุณสามารถไปที่ <https://make.preview.powerapps.com/> ลงชื่อเข้าใช้โดยใช้บัญชีผู้ใช้นั้น และลองเชื่อมโยงอีกครั้ง
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>อาการ: เพราะเหตุใดแท็บการคาดการณ์เงินสดในพื้นที่ทำงานการคาดการณ์กระแสเงินสดจึงแสดงข้อมูลใดๆ
 

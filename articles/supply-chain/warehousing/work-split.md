@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579891"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778268"
 ---
 # <a name="work-split"></a>การแบ่งงาน
 
@@ -33,7 +33,7 @@ ms.locfileid: "7579891"
 
 ก่อนที่คุณจะสามารถใช้ฟังก์ชันการแบ่งทำงานได้ คุณต้องเปิดใช้งานลักษณะการทำงานและลักษณะการทำงานของข้อกำหนดเบื้องต้นในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งานหากจำเป็น
 
-อันดับแรก ให้เปิดลักษณะการทำงาน *การบล็อคงานทั่วทั้งองค์กร* ข้อกำหนดเบื้องต้น ถ้าไม่ได้เปิดอยู่แล้ว ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะนี้ในวิธีต่อไปนี้:
+อันดับแรก ให้เปิดลักษณะการทำงาน *การบล็อคงานทั่วทั้งองค์กร* ข้อกำหนดเบื้องต้น ถ้าไม่ได้เปิดอยู่แล้ว (ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก) แต่อย่างไรก็ตาม คุณลักษณะนี้ยังคงแสดงใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ในวิธีต่อไปนี้
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *การบล็อคงานทั่วทั้งองค์กร*
