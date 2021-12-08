@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: แอป Finance and Operations ในฝรั่งเศส
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: รายงานอายุหนี้ของลูกค้า
               href: accounts-receivable/customer-aging.md
+            - name: การจัดเก็บข้อมูลอายุหนี้ของลูกค้า
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: การจัดการบันทึกขั้นสูง
@@ -1476,6 +1474,10 @@
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: การรายงานของเยอรมนี
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: การรายงานของเนเธอร์แลนด์
                           items:
                             - name: การรายงานภาษี VAT
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: การปรับปรุงค่าเสื่อมราคาสำหรับการซื้อสินทรัพย์เพิ่มเติมในปีที่สอง
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: อินทราสแทตภาษาเยอรมัน
                   href: localizations/emea-deu-intrastat.md
-                - name: การรายงานภาษี VAT สำหรับเยอรมนี
+                - name: ใบแจ้งยอด VAT
                   href: localizations/emea-de-vat-declaration.md
                 - name: รายงานใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้า
                   href: localizations/emea-deu-e-invoices.md

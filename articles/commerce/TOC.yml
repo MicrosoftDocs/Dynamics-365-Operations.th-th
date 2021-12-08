@@ -72,12 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce Data Exchange คำแนะนำการใช้งาน
+                - name: คำแนะนำการใช้งาน Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: แอป Finance and Operations ในฝรั่งเศส
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: รับการสนับสนุน
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: การอัปเกรดและการสนับสนุน N-1
@@ -1272,11 +1268,13 @@
               href: store-performance-information.md
             - name: ตั้งค่าการวิเคราะห์ความเป็นปัจจุบัน ความถี่ และยอดเงิน (RFM)
               href: set-up-rfm-analysis.md
-            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 36 Commerce
+            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: การวิเคราะห์ของ Commerce (พรีวิว)
+              href: commerce-analytics.md
         - name: โลกาภิวัตน์
           items:
-            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
+            - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทางการค้า
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: การจัดการข้อมูลลูกค้าสำหรับรัสเซีย
                   href: localizations/rus-customer-information.md
+            - name: ซาอุดีอาระเบีย
+              items:
+                - name: สร้างคิวอาร์โค้ดและพิมพ์บนใบเสร็จสำหรับซาอุดีอาระเบีย
+                  href: localizations/emea-sau-qr-code.md
             - name: สวีเดน
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: แนวทางปฏิบัติการดีบักสำหรับการพัฒนา Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: ทดสอบหน้าไซต์อีคอมเมิร์ซสำหรับหน่วยความจำรั่วไหล
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: ย้ายไปยัง Commerce SDK

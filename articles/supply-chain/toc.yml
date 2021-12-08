@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ในฝรั่งเศส
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
               items:
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
@@ -2147,7 +2143,7 @@
               items:
                 - name: ตั้งค่าข้อมูลทรัพยากรโครงการ
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: ส่งและอนุมัติงบประมาณโครงการ
+                - name: สร้างและส่งเวิร์กโฟลว์งบประมาณโครงการ
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: ส่งและอนุมัติการปรับปรุงงบประมาณโครงการ
                   href: procurement/tasks/submit-approve-project-budget-revision.md

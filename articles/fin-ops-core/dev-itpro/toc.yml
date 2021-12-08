@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: ขยาย เลือกกำหนด และทำงานร่วมกันในวิธีใช้
                   href: help/contributor-guide.md
+            - name: ข้อควรพิจารณาในการปรับใช้
+              items:
+                - name: ตัวเลือกการปรับใช้งานระบบคลาวด์สาธารณะและในเครื่องสำหรับ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance และ Supply Chain Management ใน Government Community Cloud (GCC) ของสหรัฐอเมริกา
+                  href: deployment/us-gcc-deployment.md
+                - name: แอป Finance และ Supply Chain Management ที่ดำเนินงานโดย 21Vianet ในจีน
+                  href: deployment/china-local-deployment.md
+                - name: แอป Finance and Operations ในฝรั่งเศส
+                  href: deployment/france-local-deployment.md
         - name: พัฒนาและเลือกกำหนด
           items:
             - name: โฮมเพจการพัฒนาและเลือกกำหนด
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: ดูข้อมูลฝ่าย
+                      href: data-entities/dual-write/view-party.md
                     - name: การรวมบันทึกย่อ
                       href: data-entities/dual-write/notes-integration.md
                     - name: การอ้างอิงการแม็ป
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: สร้างชุดงาน
                   href: sysadmin/tasks/create-batch-job.md
-                - name: การเปิดใช้งานการลองใหม่โดยอัตโนมัติบนชุดงาน
+                - name: เปิดใช้งานการลองชุดงานใหม่
                   href: sysadmin/retryable-batch.md
                 - name: คัดลอกชุดงาน
                   href: sysadmin/copy-batch-job.md
