@@ -2,7 +2,7 @@
 title: การตั้งค่าคอนฟิกสำหรับ Finance Insights
 description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ในข้อมูลเชิงลึก Finance ได้
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752989"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827039"
 ---
 # <a name="configuration-for-finance-insights"></a>การตั้งค่าคอนฟิกสำหรับ Finance Insights
 
@@ -36,21 +36,41 @@ ms.locfileid: "7752989"
 
 ให้ทำตามขั้นตอนเหล่านี้เพื่อปรับใช้สภาพแวดล้อม
 
-1. สร้างหรืออัพเดตสภาพแวดล้อม Dynamics 365 Finance ใน LCS  สภาพแวดล้อมต้องมีแอปรุ่น 10.0.21 หรือรุ่นที่ใหม่กว่า
+1. สร้างหรืออัปเดตสภาพแวดล้อม Dynamics 365 Finance ใน LCS  สภาพแวดล้อมต้องมีแอปรุ่น 10.0.21 หรือรุ่นที่ใหม่กว่า
 
     > [!NOTE]
     > สภาพแวดล้อมต้องมีสภาพแวดล้อมที่มีความพร้อมใช้งานสูง (HA) (สภาพแวดล้อมชนิดนี้เรียกอีกอย่างว่า สภาพแวดล้อมระดับ 2) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนสภาพแวดล้อม](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
 
 2. ถ้าคุณกําหนดค่าคอนฟิก Finance Insights ในสภาพแวดล้อม sandbox คุณอาจต้องคัดลอกข้อมูลการผลิตไปยังสภาพแวดล้อมนั้นก่อนที่การคาดการณ์จะทำงาน แบบจำลองการคาดการณ์จะใช้ข้อมูลหลายปีเพื่อสร้างการคาดการณ์ ข้อมูลสาธิต Contoso มีข้อมูลในอดีตไม่เพียงพอที่จะจัดการฝึกอบรมแบบจำลองการคาดการณ์อย่างเหมาะสม 
 
+## <a name="configure-your-azure-ad-tenant"></a>ตั้งค่าคอนฟิกผู้เช่า Azure AD ของคุณ
+
+Azure Active Directory (Azure AD) ต้องมีการตั้งค่าคอนฟิกเพื่อให้สามารถใช้กับ Dataverse และแอปพลิเคชัน Microsoft Power Platform การตั้งค่าคอนฟิกนี้กําหนดให้ต้องกำหนด **บทบาทเจ้าของโครงการ** หรือบทบาท **ผู้จัดการสภาพแวดล้อม** ให้กับผู้ใช้ในฟิลด์ **บทบาทความปลอดภัยของโครงการ** ใน LCS
+
+ตรวจสอบให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้เรียบร้อยแล้ว
+
+- คุณมีการเข้าถึงของ **ผู้ดูแลระบบ** และ **ผู้กำหนดค่าระบบ** ในศูนย์การจัดการ Power Portal
+- สิทธิ์การใช้งาน Dynamics 365 Finance หรือเทียบเท่าจะใช้กับผู้ใช้ที่กำลังติดตั้ง Add-in ของ Finance Insights
+
+แอป Azure AD ต่อไปนี้ลงทะเบียนอยู่ใน Azure AD
+
+|  ใบคำขอเปิด                             | รหัสแอพ                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>ตั้งค่าคอนฟิก Dataverse
 
 ทำตามขั้นตอนเหล่านี้เพื่อตั้งค่าคอนฟิก Dataverse สำหรับ Finance Insights
 
 - ใน LCS เปิดหน้าสภาพแวดล้อมและตรวจสอบว่าส่วน **การรวม Power Platform** ได้รับการตั้งค่าเรียบร้อยแล้ว
 
-    - ถ้ามีการตั้งค่าไว้แล้ว ควรแสดงรายการชื่อสภาพแวดล้อม Dataverse ที่เชื่อมโยงกับสภาพแวดล้อม Finance
-    - ถ้ายังไม่ได้ตั้งค่า ให้เลือก **การตั้งค่า** การตั้งค่าสภาพแวดล้อม Dataverse อาจใช้เวลาราวหนึ่งชั่วโมง เมื่อดำเนินการตั้งค่าเสร็จสมบูรณ์แล้ว ชื่อของสภาพแวดล้อม Dataverse ที่เชื่อมโยงกับสภาพแวดล้อม Finance จะปรากฏขึ้น
+    - ถ้ามีการตั้งค่า Dataverse ไว้แล้ว ควรแสดงรายการชื่อสภาพแวดล้อม Dataverse ที่เชื่อมโยงกับสภาพแวดล้อม Finance
+    - ถ้ายังไม่ได้ตั้งค่า Dataverse ให้เลือก **การตั้งค่า** การตั้งค่าสภาพแวดล้อม Dataverse อาจใช้เวลาราวหนึ่งชั่วโมง เมื่อดำเนินการตั้งค่าเสร็จสมบูรณ์แล้ว ชื่อของสภาพแวดล้อม Dataverse ที่เชื่อมโยงในสภาพแวดล้อม Finance จะปรากฏขึ้น
+    - ถ้าการรวมนี้ได้รับการตั้งค่ากับสภาพแวดล้อม Microsoft Power Platform ที่มีอยู่ โปรดติดต่อผู้ดูแลระบบของคุณเพื่อตรวจสอบว่าสภาพแวดล้อมที่เชื่อมโยงไม่อยู่ในสถานะปิดใช้งาน
+
+        สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเปิดใช้งานการรวม Power Platform](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md) 
+
+        หากต้องการเข้าถึงไซต์การดูแล Microsoft Power Platform ให้ไปที่ <https://admin.powerplatform.microsoft.com/environments>
 
 ## <a name="configure-the-finance-insights-add-in"></a>ตั้งค่าคอนฟิก add-in ของ Finance Insights
 
