@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Platform update
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
                   href: get-started/whats-new-home-page.md
-                - name: Platform update สำหรับรุ่น 10.0.23
+                - name: Platform update สำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Platform update สำหรับรุ่น 10.0.23 (มกราคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Platform update สำหรับรุ่น 10.0.22 (พฤศจิกายน 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platform update สำหรับรุ่น 10.0.21 (ตุลาคม 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: ภาพรวมของ Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: ตั้งค่าคอนฟิกการส่งออกไปยัง Azure Data Lake
+            - name: ภาพรวมของการส่งออกไปยัง Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: ติดตั้ง Add-in ของการส่งออกไปยัง Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: แอป Finance and Operations ใน Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
+                    - name: อัปเกรดอินสแตนซ์ SQL Server ของสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: เอเจนต์ภายในเครื่อง
                   items:
                     - name: ความเข้ากันได้ของ AD FS Microsoft 365
@@ -1006,13 +1008,13 @@
                   href: lifecycle-services/translation-service-overview.md
                 - name: แปลไฟล์อินเทอร์เฟสผู้ใช้
                   href: lifecycle-services/use-translation-service.md
-                - name: แปลไฟล์เอกสารประกอบ
+                - name: แปลไฟล์คู่มือ
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
         - name: การรวม Microsoft Power Platform
           items:
-            - name: การรวม Microsoft Power Platform กับ Finance and Operations
+            - name: ภาพรวม
               href: power-platform/overview.md
             - name: การเปิดใช้งานการรวม Power Platform
               href: power-platform/enable-power-platform-integration.md

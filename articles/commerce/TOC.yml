@@ -92,7 +92,9 @@
                   items:
                     - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.23
+                    - name: Commerce 10.0.24 (กุมภาพันธ์ 2022)
+                      href: get-started/whats-new-commerce-10-0-24.md
+                    - name: Commerce 10.0.23 (มกราคม 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (พฤศจิกายน 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
@@ -544,6 +546,8 @@
                       href: duplicate-payment-protection.md
                     - name: ภาพรวมของการชำระเงินผ่านช่องทาง Omni
                       href: omni-channel-payments.md
+                    - name: วิธีชำระเงินที่ใช้ได้หลายรายการสำหรับการเบิกสินค้าในร้าน
+                      href: dev-itpro/multiple-payments-pickup.md
                     - name: การชำระเงินใบสั่ง Commerce ผ่านช่องทาง Omni
                       href: dev-itpro/commerce-payments.md
                     - name: เก็บถาวรข้อมูลธุรกรรมบัตรเครดิต
@@ -814,6 +818,10 @@
           items:
             - name: การจัดการลูกค้าในร้านค้า
               href: customer-mgmt-stores.md
+            - name: โหมดการสร้างลูกค้าแบบอะซิงโครนัส
+              href: async-customer-mode.md
+            - name: แปลงลูกค้าแบบอะซิงโครนัสเป็นลูกค้าแบบซิงโครนัส
+              href: convert-async-to-sync.md
             - name: ความสัมพันธ์อันดีกับลูกค้า
               items:
                 - name: ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
@@ -1330,6 +1338,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: ลงรายการบัญชีเอกสารทางการเงินของบราซิลผ่านใบแจ้งยอดการขายปลีกในศูนย์ควบคุม Commerce
                   href: localizations/latam-bra-retail-statements.md
+                - name: ฟังก์ชันเอกสารทางการเงินของ CF-e และการรวมกับ SAT ใน Commerce POS สำหรับบราซิล
+                  href: localizations/latam-bra-cf-e-sat.md
                 - name: Dynamics 365 Payment Connector สำหรับ Adyen ใน Commerce POS สำหรับบราซิล
                   href: localizations/latam-bra-adyen.md
             - name: ยุโรปตะวันออก
@@ -1378,8 +1388,10 @@
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: การสนับสนุนสำหรับการอัปเกรดและ N-1 สำหรับอินเดีย
                   href: localizations/apac-ind-n-1-for-india.md
-                - name: สร้างคิวอาร์โค้ดและพิมพ์บนใบเสร็จ
+                - name: สร้างคิวอาร์โค้ดและพิมพ์บนใบเสร็จสำหรับอินเดีย
                   href: localizations/ind-generate-qr-code-print-receipt.md
+                - name: การรวมภาษีสินค้าและบริการ (GST) สำหรับไซต์อีคอมเมิร์ซ
+                  href: localizations/apac-ind-e-commerce.md
             - name: อิตาลี
               items:
                 - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
@@ -1616,6 +1628,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/commerce/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/commerce/toc.json
                     - name: List
                       items:
                         - name: ฟังก์ชันรายการ
