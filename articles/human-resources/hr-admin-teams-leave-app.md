@@ -2,7 +2,7 @@
 title: แอปทรัพยากรบุคคลใน Teams
 description: หัวข้อนี้จะแนะนำแอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e44b9fa40971710d8316c055c4d2ac51f9ab266
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771518"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913500"
 ---
 # <a name="human-resources-app-in-teams"></a>แอปทรัพยากรบุคคลใน Teams
 
@@ -111,6 +111,9 @@ ms.locfileid: "7771518"
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
 ถ้าผู้ใช้กำลังมีปัญหาในการเข้าสู่ระบบ หรือใช้แอป Human Resources Teams ให้ลองปฏิบัติตามคำแนะนำในการแก้ไขปัญหาเหล่านี้ ถ้าคุณยังคงมีปัญหาหลังการแก้ไขปัญหา โปรดติดต่อฝ่ายสนับสนุน สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+
+### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>ตรวจสอบให้แน่ใจว่าแอปพลิเคชัน Teams Human Resources เป็นปัจจุบัน
+หากคุณพบปัญหาเกี่ยวกับแอป Teams Human Resources คุณต้องยืนยันว่าคุณใช้งานรุ่นล่าสุดอยู่ รุ่นต่ำสุดที่รองรับคือ 1.1.5 หากต้องการทราบคําแนะนําเกี่ยวกับวิธีการอัปเดตแอปพลิเคชัน ดูที่ [คู่มือ Teams](/MicrosoftTeams/apps-update-experience)
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>ไม่สามารถเข้าสู่ระบบแอป Human Resources ใน Teams
 

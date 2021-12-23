@@ -2,7 +2,7 @@
 title: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 description: หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742164"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881602"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 
@@ -35,7 +35,15 @@ ms.locfileid: "6742164"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะดำเนินการขั้นตอนในหัวข้อนี้ให้เสร็จสมบูรณ์ คุณต้องดำเนินการขั้นตอนต่างๆ ใน [เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started.md) ให้เสร็จสมบูรณ์ก่อน
+ก่อนที่คุณจะดำเนินการขั้นตอนในหัวข้อนี้ คุณต้องดำเนินการตามขั้นตอนต่างๆ ใน [เริ่มต้นใช้งานการดูแลบริการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started-service-administration.md) และ [เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started.md)
+
+## <a name="set-up-the-cadena-xslt"></a>ตั้งค่า Cadena XSLT
+
+หากต้องการเพิ่มแบบแผน Cadena XSLT ไปยังคุณลักษณะที่ใช้กันทั่วโลกสำหรับการประมวลผล CFDI ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+
+1. ดาวน์โหลดแบบแผนจาก [เว็บไซต์ SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt)
+2. บีบอัดแบบแผนเป็นไฟล์ ZIP
+3. บันทึกไฟล์ xslt ลงในบัญชีการจัดเก็บของ Azure ที่ตั้งค่าในสภาพแวดล้อมบริการของคุณสำหรับคอนเทนเนอร์ใหม่
 
 ## <a name="rcs-setup"></a>การตั้งค่า RCS
 
@@ -64,13 +72,13 @@ ms.locfileid: "6742164"
 
 ### <a name="create-a-new-version-of-the-cfdi-invoices-mx-feature"></a>การสร้างคุณลักษณะของใบแจ้งหนี้ CFDI (MX) เวอร์ชันใหม่
 
-คุณสามารถสร้างเวอร์ชันใหม่ได้ถ้าหาก ตัวอย่างเช่น ต้องอัพเดต Url สำหรับข้อมูลเพิ่มเติม โปรดดู [E-invoicing CFDI](tasks/mx-00010-e-invoicing-cfdi.md)
+คุณสามารถสร้างเวอร์ชันใหม่ได้ถ้าหาก ตัวอย่างเช่น ต้องอัปเดต Url สำหรับข้อมูลเพิ่มเติม โปรดดู [E-invoicing CFDI](tasks/mx-00010-e-invoicing-cfdi.md)
 
 - บนหน้า **คุณลักษณะ e-Invoicing** บนแท็บ **เวอร์ชัน** ให้เลือก **ใหม่**
 
 ![การเพิ่มคุณลักษณะของใบแจ้งหนี้อิเล็กทรอนิกส์เวอร์ชันใหม่](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
-### <a name="update-the-configuration-version"></a>อัพเดตเวอร์ชันการตั้งค่าคอนฟิก
+### <a name="update-the-configuration-version"></a>อัปเดตเวอร์ชันการตั้งค่าคอนฟิก
 
 1. บนหน้า **คุณลักษณะใบแจ้งหนี้อิเล็กทรอนิกส์** บนแท็บ **การตั้งค่าคอนฟิก** ให้เลือก **เพิ่ม** หรือ **ลบ** เพื่อจัดการเวอร์ชันการตั้งค่าคอนฟิก (การตั้งค่าคอนฟิกรูปแบบไฟล์ ER)
 
@@ -126,7 +134,18 @@ ms.locfileid: "6742164"
 2. บนแท็บด่วน **พารามิเตอร์** ในฟิลด์ **ที่อยู่ URL** ให้ป้อน URL ของบริการเว็บ สำหรับการส่งใบแจ้งหนี้ CFDI
 
 > [!NOTE]
-> ใช้ขั้นตอนเดียวกันเพื่ออัพเดต URL สำหรับ **บริการ Call Mexican PAC** สำหรับการตั้งค่าคุณลักษณะ **ยกเลิก** และ **คำขอยกเลิก**
+> ใช้ขั้นตอนเดียวกันเพื่ออัปเดต URL สำหรับ **บริการ Call Mexican PAC** สำหรับการตั้งค่าคุณลักษณะ **ยกเลิก** และ **คำขอยกเลิก**
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>ตั้งค่าพาธของแบบแผน Cadena XLST
+
+1. บนหน้า **การตั้งค่ารุ่นคุณลักษณะ** บนแท็บ **ตัวแปร** ให้เลือกชื่อตัวแปร **DigitalSignatureXSLT**
+2. ในฟิลด์ **ค่า** ป้อน: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    โดยที่: <RelativePath> = folder\\folder\\filename มีเครื่องหมายทับขวาคู่ ContainerName ต้องแสดงคอนเทนเนอร์ที่ใช้กับบริการ
+   
+    ตัวอย่างของตัวแปรจะเป็นดังนี้
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>กำหนดเวอร์ชันแบบร่างให้กับสภาพแวดล้อมของใบแจ้งหนี้อิเล็กทรอนิกส์
 
@@ -158,7 +177,7 @@ ms.locfileid: "6742164"
 เมื่อต้องการตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Finance คุณจะทำงานเหล่านี้ให้เสร็จสมบูรณ์:
 
 1. นำเข้าแบบจำลองข้อมูล ER การแม็ปแบบจำลองข้อมูล ER และรูปแบบที่จำเป็นสำหรับใบแจ้งหนี้ CFDI
-2. ตั้งค่าคอนฟิกชนิดของการตอบสนองสำหรับการอัพเดตใบแจ้งหนี้ CFDI ชนิดของการตอบสนองเหล่านี้จะใช้สำหรับการตอบสนองจากเซิร์ฟเวอร์ของผู้ให้บริการใบรับรองที่ได้รับอนุญาต (PAC)
+2. ตั้งค่าคอนฟิกชนิดของการตอบสนองสำหรับการอัปเดตใบแจ้งหนี้ CFDI ชนิดของการตอบสนองเหล่านี้จะใช้สำหรับการตอบสนองจากเซิร์ฟเวอร์ของผู้ให้บริการใบรับรองที่ได้รับอนุญาต (PAC)
 
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>นำเข้าแบบจำลองข้อมูล ER การแม็ปแบบจำลองข้อมูล ER และการตั้งค่าคอนฟิกบริบทสำหรับใบแจ้งหนี้ CFDI
 
@@ -175,7 +194,7 @@ ms.locfileid: "6742164"
 
 ![การเปิดใช้งานคุณลักษณะสำหรับการประมวลผลใบแจ้งหนี้ CFDI](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
-### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>นำเข้าการตั้งค่าคอนฟิก ER และตั้งค่าชนิดของการตอบสนองสำหรับการอัพเดตใบแจ้งหนี้ CFDI
+### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>นำเข้าการตั้งค่าคอนฟิก ER และตั้งค่าชนิดของการตอบสนองสำหรับการอัปเดตใบแจ้งหนี้ CFDI
 
 #### <a name="import-er-configurations"></a>นำเข้าการตั้งค่าคอนฟิกของ ER
 
@@ -251,7 +270,7 @@ ms.locfileid: "6742164"
 - **ไฟล์การดำเนินการ** – แท็บด่วนนี้แสดงไฟล์กลางที่สร้างขึ้นในระหว่างการดำเนินการ คุณสามารถเลือก **มุมมอง** เพื่อดาวน์โหลดและดูไฟล์ได้
 - **ล็อกการดำเนินการการประมวลผล** – FastTab นี้แสดงผลลัพธ์ของการสื่อสารระหว่างการออกใบแจ้งหนี้อิเล็กทรอนิกส์และบริการเว็บเป้าหมาย นอกจากนี้ยังแสดงสิ่งที่ส่งคืนโดยการประมวลผลจากบริการเว็บ คอลัมน์ **รหัสข้อผิดพลาด** จะแสดงรหัสส่งคืน ที่ส่งคืนโดยบริการเว็บของการตรวจสอบ
 
-เมื่อใบแจ้งหนี้ CFDI ที่ส่งได้รับอนุญาตให้ใช้ สถานะจะได้รับการอัพเดตเป็น **อนุมัติ**
+เมื่อใบแจ้งหนี้ CFDI ที่ส่งได้รับอนุญาตให้ใช้ สถานะจะได้รับการอัปเดตเป็น **อนุมัติ**
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>ดูล็อกการส่งจากใบแจ้งหนี้ CFDI
 

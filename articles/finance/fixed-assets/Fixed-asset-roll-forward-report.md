@@ -1,7 +1,7 @@
 ---
 title: รายงานการกระทบยอดสินทรัพย์ถาวร
 description: หัวข้อนี้อธิบายวิธีการใช้รายงานการกระทบยอดสินทรัพย์ถาวร
-author: saraschi2
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a605f3dac679d98d57f32f9672315c63f1fd7763d111f244f51435d313fd0349
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747118"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883604"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>รายงานการกระทบยอดสินทรัพย์ถาวร
 
@@ -33,7 +33,7 @@ ms.locfileid: "6747118"
 รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
 
 - **KB 4041754:** การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ไม่สามารถดาวน์โหลดได้จาก LCS เนื่องจากไม่สามารถใช้ได้สำหรับเวอร์ชันปัจจุบัน หลังจากการใช้แพคเกจการปรับปรุงแพลตฟอร์ม
-- **KB 4056107:** การรายงานทางอิเล็กทรอนิกส์ (GER) การอัพเดตแบบสะสม 5
+- **KB 4056107:** การรายงานทางอิเล็กทรอนิกส์ (GER) การอัปเดตแบบสะสม 5
 - **KB 4056353:** รายงานใบแจ้งยอดและบันทึกสินทรัพย์ถาวรไม่ตรงกับความต้องการใน GAAP และ IFRS
 
 ตารางต่อไปนี้อธิบายถึงฟิลด์ที่มีอยู่ในรายงาน

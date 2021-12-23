@@ -2,7 +2,7 @@
 title: แป้นพิมพ์ลัด
 description: หัวข้อนี้แสดงภาพรวมของชุดคีย์ลัดที่คุณสามารถใช้ได้เมื่อคุณทำงานกับแอป Finance and Operations
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800204"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913529"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 แป้นพิมพ์ลัดต่อไปนี้จะช่วยให้คุณป้อนข้อมูลได้อย่างรวดเร็วและมีประสิทธิภาพในแอป Finance and Operations
 
@@ -150,6 +149,7 @@ ms.locfileid: "7800204"
 | เรียกใช้การดำเนินการเริ่มต้นในกริด<blockquote>[!NOTE] ทางลัดนี้ถูกเปิดใช้งานเมื่อโฟกัสอยู่บนเซลล์ที่มีไฮเปอร์ลิงก์ และเซลล์ทั้งหมดในคอลัมน์มีไฮเปอร์ลิงก์</blockquote> | ป้อน                           |
 | สลับโฟกัสระหว่างแถวที่เลือกและแถวส่วนหัว                                                               | Alt+Shift+H                     |
 | ทำให้คอลัมน์ปัจจุบันใหญ่ขึ้น/เล็กลง (พร้อมกับโฟกัสในแถวส่วนหัว)                                                  | ลูกศรทางขวา / ลูกศรทางซ้าย        |
+| ย้ายคอลัมน์ปัจจุบันไปยังตำแหน่งถัดไป/ก่อนหน้า (ด้วยโฟกัสในแถวส่วนหัว)                                   | Ctrl+Shift+ลูกศรขวา / Ctrl+Shift+ลูกศรซ้าย |
 | เปิดการกรองกริดสำหรับคอลัมน์ปัจจุบัน (พร้อมกับโฟกัสในแถวส่วนหัว)                                              | ป้อน                           |
 | ปรับขนาดคอลัมน์ปัจจุบันให้พอดีกับเนื้อหา (ด้วยโฟกัสในแถวหัวข้อ)                                           | A (หรือดับเบิลคลิกบนที่จัดการการปรับขนาดคอลัมน์) |
 

@@ -1,7 +1,7 @@
 ---
 title: พื้นที่ทำงานการจัดการธนาคาร
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดการธนาคาร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับบัญชีธนาคารของบริษัท และรวมทั้งมุมมองสรุปและหน้าการวิเคราะห์ มุมมองสรุปแสดงไทล์สรุป ข้อมูลบัญชีธนาคาร แผนภูมิยอดดุลและข้อมูลที่เกี่ยวข้อง หน้าการวิเคราะห์จะใช้ความสามารถของ Microsoft Power BI ในการแสดงภาพที่สัมพันธ์กับยอดดุลบัญชีธนาคาร
-author: saraschi2
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดการธนาคาร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับบัญชีธนาคารของบริษัท
+author: roschlom
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 18171dd17165268fe0f7ac0cf7b3b225f679b9b6b7aeafb7789e837059cf5d79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755725"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883348"
 ---
 # <a name="bank-management-workspace"></a>พื้นที่ทำงานการจัดการธนาคาร
 
@@ -44,7 +44,7 @@ ms.locfileid: "6755725"
 
 ถ้าคุณกำลังดูแผนภูมิ **ยอดดุล** สำหรับบัญชีธนาคารเดี่ยว ยอดดุลก่อนหน้านี้จะแสดงในสกุลเงินของบัญชีธนาคาร ถ้าคุณกำลังดูแผนภูมิสำหรับบัญชีธนาคารในนิติบุคคล ยอดดุลก่อนหน้านี้จะแสดงในสกุลเงินทางบัญชี
 
-ข้อมูลเกี่ยวกับเวลาที่มีการอัพเดตข้อมูลล่าสุดปรากฏอยู่ด้านบนของแผนภูมิ คุณสามารถอัพเดตข้อมูลได้ตามที่คุณต้องการ
+ข้อมูลเกี่ยวกับเวลาที่มีการอัปเดตข้อมูลล่าสุดปรากฏอยู่ด้านบนของแผนภูมิ คุณสามารถอัปเดตข้อมูลได้ตามที่คุณต้องการ
 
 ### <a name="related-information"></a>ข้อมูลที่เกี่ยวข้อง
 

@@ -1,7 +1,7 @@
 ---
 title: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 description: หัวข้อนี้จะอธิบายวิธีการติดตั้งแอปคลังสินค้าบนอุปกรณ์เคลื่อนที่แต่ละเครื่องและการกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
@@ -13,22 +13,22 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 094d7f0f5642653c6e059952783041b1430e98d6
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384646"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902282"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](install-configure-warehouse-management-app.md)
+> หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอป Warehouse Management บนมือถือใหม่ ให้ดูที่ [ติดตั้งและเชื่อมต่อแอป Warehouse Management บนมือถือ](install-configure-warehouse-management-app.md)
 
 > [!NOTE]
 > หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าสำหรับการปรับใช้ระบบคลาวด์ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าแอปคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
@@ -113,7 +113,7 @@ ms.locfileid: "7384646"
     1. สร้าง บรรทัด
     1. ป้อนรหัสไคลเอนต์ที่คุณได้บันทึกไว้ในส่วนก่อนหน้านี้ กำหนดชื่อและเลือกผู้ใช้ที่คุณเพิ่งสร้างขึ้น เราขอแนะนำให้คุณติดแท็กอุปกรณ์ทั้งหมดของคุณ ถ้าขาดหายไปคุณสามารถลบการเข้าถึง Supply Chain Management ออกจากหน้านี้ได้อย่างง่ายดาย
 
-    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory")
+    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอปพลิเคชัน Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>ตรวจสอบความถูกต้องโดยใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์
 

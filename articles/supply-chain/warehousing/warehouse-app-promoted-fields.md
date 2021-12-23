@@ -1,22 +1,22 @@
 ---
 title: ตั้งค่าคอนฟิกฟิลด์ที่เลื่อนระดับสำหรับขั้นตอนในแอป Warehouse Management บนมือถือ
 description: หัวข้อนี้อธิบายวิธีการโปรโมทและเน้นข้อมูลเฉพาะให้กับขั้นตอนใดๆ ในโฟลว์งานใหม่หรือที่กําหนดเองสำหรับแอป Warehouse Management บนมือถือ
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 392fc4d7e4f423b38e8394fa25d2e42de913bfc6
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 117730fd7b744e0462e10468e32a13203d0695bf
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860469"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901857"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>ตั้งค่าคอนฟิกฟิลด์ที่เลื่อนระดับสำหรับขั้นตอนในแอป Warehouse Management บนมือถือ
 
@@ -48,7 +48,7 @@ ms.locfileid: "7860469"
 
     คุณลักษณะนี้จะเป็นคุณลักษณะที่อธิบายไว้ในหัวข้อนี้
 
-1. อัปเดตชื่อฟิลด์ในแอป Warehouse Management บนมือถือโดยไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> อุปกรณ์เคลื่อนที่ \> ชื่อฟิลด์แอปคลังสินค้า** และการเลือก **สร้างการเริ่มต้นเริ่มต้น** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอปการจัดการคลังสินค้าบนมือถือ](configure-app-field-names-priorities-warehouse.md)
+1. อัปเดตชื่อฟิลด์ในแอป Warehouse Management บนมือถือโดยไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> อุปกรณ์เคลื่อนที่ \> ชื่อฟิลด์แอปคลังสินค้า** และการเลือก **สร้างการเริ่มต้นเริ่มต้น** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ](configure-app-field-names-priorities-warehouse.md)
 1. ทําซ้ำขั้นตอนก่อนหน้านี้ให้กับแต่ละนิติบุคคล (บริษัท) ที่คุณใช้แอป Warehouse Management บนมือถือ
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>ตั้งค่าคอนฟิกฟิลด์ที่เลื่อนระดับจากการแทนที่เฉพาะเมนู

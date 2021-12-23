@@ -2,7 +2,7 @@
 title: ภาพรวมการคำนวณภาษี
 description: หัวข้อนี้อธิบายขอบเขตและคุณลักษณะโดยรวมของความสามารถคํานวณภาษี
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647068"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892435"
 ---
 # <a name="tax-calculation-overview"></a>ภาพรวมการคำนวณภาษี
 
@@ -64,6 +64,20 @@ ms.locfileid: "7647068"
 
 > [!NOTE]
 > การคํานวณภาษีไม่สนับสนุน Dynamics 365 รุ่นก่อนหน้านี้ เช่น Dynamics AX 2012 หรือการปรับใช้ในองค์กรของ Dynamics 365
+
+## <a name="versions"></a>รุ่น
+เราขอแนะนําให้คุณนําเข้าและตั้งค่าการตั้งค่าคอนฟิกการคํานวณภาษีด้วยรุ่นที่ตรงกับรุ่นของ Finance หรือ Supply Chain Management
+
+| รุ่นของ Finance หรือ Supply Chain Management | รุ่นการตั้งค่าคอนฟิกภาษี               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | การตั้งค่าคอนฟิกภาษี - ยุโรป 30.12.82     |
+| 10.0.19         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 36.38.193 |
+| 10.0.20         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.43.208 |
+| 10.0.21         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.48.215 |
+| 10.0.22         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.48.215 |
+| 10.0.23         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.50.221 |
+| 10.0.24         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.50.225 |
+
 
 ## <a name="data-flow"></a>โฟลว์ข้อมูล
 
@@ -169,6 +183,10 @@ ms.locfileid: "7647068"
 - ญี่ปุ่น
 - มาเลเซีย
 - สิงคโปร์
+
+ประเทศ/ภูมิภาคต่อไปนี้ของที่อยู่หลักของนิติบุคคลได้รับการสนับสนุนในรุ่น 10.0.24:
+
+- เม็กซิโก
 
 ## <a name="related-resources"></a>ทรัพยากรที่เกี่ยวข้อง
 

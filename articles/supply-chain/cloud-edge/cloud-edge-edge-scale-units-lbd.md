@@ -2,7 +2,7 @@
 title: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 description: หัวข้อนี้อธิบายวิธีการเตรียมใช้งานสเกลยูนิตแบบปลายทางในสถานที่ โดยใช้ฮาร์ดแวร์และการจัดวางที่กำหนดเอง ซึ่งขึ้นอยู่กับข้อมูลธุรกิจภายใน (LBD)
 author: cabeln
-ms.date: 04/22/2021
+ms.date: 11/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 8913debd614827ef66ded88e0da61663ca9c6b3d
+ms.sourcegitcommit: 29d34f2fd509e2bb27d8572cd57c397d014a8e38
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729086"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7894729"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 
@@ -39,7 +39,7 @@ ms.locfileid: "7729086"
 
 1. **อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์โครงการ LBD ใน LCS**
 
-    จัดเตรียมแพคเกจ แอพลิเคชัน แพลตฟอร์ม และการเลือกกำหนด ที่คุณใช้ทั่วทั้งฮับและสเกลยูนิตแบบปลายทาง สำหรับข้อมูลเพิ่มเติม โปรดดูที่ส่วน [อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์ของโครงการ LBD ใน LCS](#upload-packages) ในส่วนท้ายของหัวข้อนี้
+    จัดเตรียมแพคเกจ แอปพลิเคชัน แพลตฟอร์ม และการเลือกกำหนด ที่คุณใช้ทั่วทั้งฮับและสเกลยูนิตแบบปลายทาง สำหรับข้อมูลเพิ่มเติม โปรดดูที่ส่วน [อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์ของโครงการ LBD ใน LCS](#upload-packages) ในส่วนท้ายของหัวข้อนี้
 
 1. **บริการสภาพแวดล้อม LBD ด้วยแพคเกจเป้าหมาย**
 
@@ -53,7 +53,7 @@ ms.locfileid: "7729086"
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>ตั้งค่าและปรับใช้สภาพแวดล้อม LBD ด้วยฐานข้อมูลว่างเปล่า
 
-ขั้นตอนนี้จะสร้างสภาพแวดล้อม LBD ที่ทำงานได้ อย่างไรก็ตาม สภาพแวดล้อมไม่ควรจะมีเวอร์ชันแอพลิเคชันและแพลตฟอร์มเดียวกันกับสภาพแวดล้อมฮับ นอกจากนี้ ยังขาดการเลือกกำหนด และยังไม่มีการเปิดใช้งานเพื่อใช้เป็นสเกลยูนิต
+ขั้นตอนนี้จะสร้างสภาพแวดล้อม LBD ที่ทำงานได้ อย่างไรก็ตาม สภาพแวดล้อมไม่ควรจะมีเวอร์ชันแอปพลิเคชันและแพลตฟอร์มเดียวกันกับสภาพแวดล้อมฮับ นอกจากนี้ ยังขาดการเลือกกำหนด และยังไม่มีการเปิดใช้งานเพื่อใช้เป็นสเกลยูนิต
 
 1. ทำตามคำแนะนำใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) คุณต้องใช้ Supply Chain Management รุ่น 10.0.21 หรือรุ่นใหม่กว่า ผ่านฮับและสเกลยูนิต นอกจากนี้ คุณต้องใช้เวอร์ชัน 2.12.0 หรือรุ่นใหม่กว่าของสคริปต์โครงสร้างพื้นฐาน 
 
@@ -91,14 +91,14 @@ ms.locfileid: "7729086"
 1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)
 1. หลังจากที่คุณดำเนินการขั้นตอน [ตั้งค่าคอนฟิก AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-    1. สร้างแอพลิเคชัน Active Directory Federation Services (AD FS) ใหม่ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับ Application Object Server (AOS) ของคุณ
+    1. สร้างแอปพลิเคชัน Active Directory Federation Services (AD FS) ใหม่ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับ Application Object Server (AOS) ของคุณ
 
         ```powershell
         # Host URL is your DNS record\host name for accessing the AOS
-        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
         ```
 
-    1. สร้างแอพลิเคชัน Azure Active Directory (Azure AD) ใหม่ ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับบริการ Scale Unit Management service
+    1. สร้างแอปพลิเคชัน Azure Active Directory (Azure AD) ใหม่ ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับบริการ Scale Unit Management service
 
         ```powershell
         # Example .\Create-SumAADApplication.ps1 -ConfigurationFilePath ..\ConfigTemplate.xml -TenantId '6240a19e-86f1-41af-91ab-dbe29dbcfb95' -ApplicationDisplayName 'EdgeAgent-SUMCommunication-EN01'
@@ -168,7 +168,7 @@ ms.locfileid: "7729086"
             - **หน่วยการคงไว้:** *วัน*
             - **การล้างข้อมูลอัตโนมัติ:** *จริง*
 
-    1. เพิ่มรหัสแอพลิเคชัน AD FS ที่คุณสร้างไว้ก่อนหน้านี้ (โดยใช้สคริปต์ Create-ADFSServerApplicationForEdgeScaleUnits.ps1) ลงในตารางแอพลิเคชัน Azure AD ในหน่วยปรับขนาดของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่านอินเทอร์เฟสผู้ใช้ (UI) หรือคุณสามารถกรอกข้อมูลในฐานข้อมูลได้โดยใช้สคริปต์ต่อไปนี้
+    1. เพิ่มรหัสแอปพลิเคชัน AD FS ที่คุณสร้างไว้ก่อนหน้านี้ (โดยใช้สคริปต์ Create-ADFSServerApplicationForEdgeScaleUnits.ps1) ลงในตารางแอปพลิเคชัน Azure AD ในหน่วยปรับขนาดของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่านอินเทอร์เฟสผู้ใช้ (UI) หรือคุณสามารถกรอกข้อมูลในฐานข้อมูลได้โดยใช้สคริปต์ต่อไปนี้
 
         ```sql
         DECLARE @ALMOrchestratorId NVARCHAR(76) = '<Replace with the ADFS Application ID created in a previous step>';
@@ -180,9 +180,9 @@ ms.locfileid: "7729086"
         END
         ```
 
-## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>ตั้งค่า Azure key azure และแอพลิเคชัน Azure AD เพื่อเปิดใช้งานการสื่อสารระหว่างหน่วยปรับขนาด
+## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a>ตั้งค่า Azure key azure และแอปพลิเคชัน Azure AD เพื่อเปิดใช้งานการสื่อสารระหว่างหน่วยปรับขนาด
 
-1. หลังจากสภาพแวดล้อมของคุณได้รับการปรับใช้แล้ว ให้สร้างแอพลิเคชัน Azure AD เพิ่มเติมเพื่อเปิดใช้งานการสื่อสารที่เชื่อถือได้ระหว่างฮับและหน่วยปรับขนาดของคุณ
+1. หลังจากสภาพแวดล้อมของคุณได้รับการปรับใช้แล้ว ให้สร้างแอปพลิเคชัน Azure AD เพิ่มเติมเพื่อเปิดใช้งานการสื่อสารที่เชื่อถือได้ระหว่างฮับและหน่วยปรับขนาดของคุณ
 
     ```powershell
     .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
@@ -190,7 +190,7 @@ ms.locfileid: "7729086"
                                           -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
     ```
 
-1. หลังจากสร้างแอพลิเคชันแล้ว คุณต้องสร้างข้อมูลลับของไคลเอนต์และบันทึกข้อมูลนั้นไว้ในคีย์ Azure นอกจากนี้ คุณต้องให้สิทธิการเข้าถึงแอพลิเคชัน Azure AD ที่สร้างขึ้น เพื่อให้สามารถดึงข้อมูลลับที่จัดเก็บอยู่ในคีย์ เพื่อความสะดวกของคุณ สคริปต์ต่อไปนี้จะดำเนินการตามขั้นตอนที่จำเป็นทั้งหมดโดยอัตโนมัติ
+1. หลังจากสร้างแอปพลิเคชันแล้ว คุณต้องสร้างข้อมูลลับของไคลเอนต์และบันทึกข้อมูลนั้นไว้ในคีย์ Azure นอกจากนี้ คุณต้องให้สิทธิการเข้าถึงแอปพลิเคชัน Azure AD ที่สร้างขึ้น เพื่อให้สามารถดึงข้อมูลลับที่จัดเก็บอยู่ในคีย์ เพื่อความสะดวกของคุณ สคริปต์ต่อไปนี้จะดำเนินการตามขั้นตอนที่จำเป็นทั้งหมดโดยอัตโนมัติ
 
     ```powershell
     .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
@@ -205,23 +205,23 @@ ms.locfileid: "7729086"
     > [!NOTE]
     > ถ้าไม่มีคีย์ที่กำหนดค่า **KeyVaultName** อยู่ สคริปต์จะสร้างค่านั้นโดยอัตโนมัติ
 
-1. เพิ่มรหัสแอพลิเคชัน Azure AD ที่คุณเพิ่งสร้างขึ้น (เมื่อใช้สคริปต์ Create-HubToHubAADApplication.ps1) ลงในตารางแอพลิเคชัน Azure AD ในฮับของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่าน UI
+1. เพิ่มรหัสแอปพลิเคชัน Azure AD ที่คุณเพิ่งสร้างขึ้น (เมื่อใช้สคริปต์ Create-HubToHubAADApplication.ps1) ลงในตารางแอปพลิเคชัน Azure AD ในฮับของคุณ คุณสามารถดำเนินการขั้นตอนนี้ให้สำเร็จได้ด้วยตนเองผ่าน UI
 
 ## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>อัปโหลดแพคเกจเป้าหมายไปยังสินทรัพย์โครงการ LBD ใน LCS
 
-ขั้นตอนนี้จัดเตรียมเวอร์ชันแอพลิเคชัน เวอร์ชันแพลตฟอร์ม และการเลือกกำหนดที่จะเปลี่ยนเป็นสภาพแวดล้อมสเกลยูนิต LBD ของคุณ
+ขั้นตอนนี้จัดเตรียมเวอร์ชันแอปพลิเคชัน เวอร์ชันแพลตฟอร์ม และการเลือกกำหนดที่จะเปลี่ยนเป็นสภาพแวดล้อมสเกลยูนิต LBD ของคุณ
 
-1. อัปโหลดแพคเกจแอพลิเคชัน/แพลตฟอร์มรวมเดียวกันกับที่ใช้กับสภาพแวดล้อมฮับ ไปยังไลบรารีสินทรัพย์ของโครงการ LCS ในองค์กร
+1. อัปโหลดแพคเกจแอปพลิเคชัน/แพลตฟอร์มรวมเดียวกันกับที่ใช้กับสภาพแวดล้อมฮับ ไปยังไลบรารีสินทรัพย์ของโครงการ LCS ในองค์กร
 1. รับสำเนาของแพคเกจที่ปรับใช้แบบกำหนดเองที่ใช้กับสภาพแวดล้อมฮับ และอัปโหลดไปยังไลบรารีสินทรัพย์ของโครงการ LCS ในองค์กร
 
 ## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a>บริการสภาพแวดล้อม LBD ด้วยแพคเกจเป้าหมาย
 
-ขั้นตอนนี้จัดเรียงเวอร์ชันแอพลิเคชัน เวอร์ชันแพลตฟอร์ม และการเลือกกำหนดในสภาพแวดล้อมสเกลยูนิต LBD ของคุณด้วยฮับ
+ขั้นตอนนี้จัดเรียงเวอร์ชันแอปพลิเคชัน เวอร์ชันแพลตฟอร์ม และการเลือกกำหนดในสภาพแวดล้อมสเกลยูนิต LBD ของคุณด้วยฮับ
 
-1. บริการสภาพแวดล้อม LBD ด้วยแพคเกจแอพลิเคชัน/แพลตฟอร์มรวมที่คุณอัปโหลดในขั้นตอนก่อนหน้านี้
+1. บริการสภาพแวดล้อม LBD ด้วยแพคเกจแอปพลิเคชัน/แพลตฟอร์มรวมที่คุณอัปโหลดในขั้นตอนก่อนหน้านี้
 1. บริการสภาพแวดล้อม LBD ด้วยแพคเกจที่ปรับใช้แบบกำหนดเองที่คุณอัปโหลดในขั้นตอนก่อนหน้านี้
 
-    ![การใช้การอัพเดตใน LCS](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "การใช้การอัพเดตใน LCS")
+    ![การใช้การอัปเดตใน LCS](media/cloud_edge-LBD-LCS-ServiceLBDEnv1.png "การใช้การอัปเดตใน LCS")
 
     ![การเลือกแพคเกจการเลือกกำหนดของคุณ](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "การเลือกแพคเกจการเลือกกำหนดของคุณ")
 

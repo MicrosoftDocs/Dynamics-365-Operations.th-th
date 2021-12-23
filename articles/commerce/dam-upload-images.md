@@ -2,7 +2,7 @@
 title: อัพโหลดรูปภาพ
 description: หัวข้อนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423266"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891533"
 ---
 # <a name="upload-images"></a>อัพโหลดรูปภาพ
 
@@ -41,7 +41,8 @@ ms.locfileid: "7423266"
 - **เผยแพร่สินทรัพย์หลังจากการอัพโหลด**: เมื่อเลือกกล่องกาเครื่องหมายนี้ จะมีการเผยแพร่รูปภาพหนึ่งหรือรูปภาพต่างๆ โดยทันทีหลังจากการอัพโหลด
 
 > [!NOTE]
-> นอกจากนี้ สินทรัพย์ของรูปภาพที่มีประเภทที่กำหนดไว้จะถูกติดป้ายโดยอัตโนมัติโดยมีประเภทเป็นคำสำคัญที่จะช่วยในการค้นหาสินทรัพย์ของประเภทที่ระบุ
+> - นอกจากนี้ สินทรัพย์ของรูปภาพที่มีประเภทที่กำหนดไว้จะถูกติดป้ายโดยอัตโนมัติโดยมีประเภทเป็นคำสำคัญที่จะช่วยในการค้นหาสินทรัพย์ของประเภทที่ระบุ
+> - หน้ารายละเอียดผลิตภัณฑ์สร้าง **ข้อความแสดงแทน** ที่มีการเปลี่ยนแปลงได้โดยใช้ชื่อผลิตภัณฑ์ ดังนั้น การเปลี่ยน **ข้อความแสดงแทน** สำหรับรูปภาพผลิตภัณฑ์จะไม่มีผลต่อรูปภาพที่แสดง
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>แบบแผนการตั้งชื่อสำหรับรูปแบบช่องทาง omni 
 

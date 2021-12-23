@@ -2,7 +2,7 @@
 title: ติดตั้งธีม Adventure Works
 description: หัวข้อนี้จะอธิบายวิธีการติดตั้งธีม Adventure Works ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763847"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913713"
 ---
 # <a name="install-the-adventure-works-theme"></a>ติดตั้งธีม Adventure Works
 
@@ -32,7 +32,7 @@ ms.locfileid: "6763847"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะติดตั้งธีม Adventure Works คุณต้องมีสภาพแวดล้อม Dynamics 365 Commerce (Commerce รุ่น 10.0.20 หรือใหม่กว่า) ที่มี Retail Cloud Scale Unit (RCSU) ชุดการพัฒนาซอฟต์แวร์ออนไลน์ของ Commerce (SDK) และไลบรารีโมดูล Commerce สำหรับข้อมูลเกี่ยวกับวิธีการติดตั้ง Commerce SDK และไลบรารีโมดูล ดูที่ [การอัปเดตและไลบรารีโมดูล SDK](e-commerce-extensibility/sdk-updates.md) 
+ก่อนที่คุณจะติดตั้งธีม Adventure Works คุณต้องมีสภาพแวดล้อม Dynamics 365 Commerce (Commerce รุ่น 10.0.20 หรือใหม่กว่า) ที่มี Retail Cloud Scale Unit (RCSU) ชุดการพัฒนาซอฟต์แวร์ออนไลน์ของ Commerce (SDK) และไลบรารีโมดูล Commerce สำหรับข้อมูลเกี่ยวกับวิธีการติดตั้ง Commerce SDK และไลบรารีโมดูล ดูที่ [ตั้งค่าสภาพแวดล้อมการพัฒนา](e-commerce-extensibility/setup-dev-environment.md) 
 
 ## <a name="installation-steps"></a>ขั้นตอนการติดตั้ง
 
@@ -48,11 +48,19 @@ ms.locfileid: "6763847"
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-เมื่อต้องการติดตั้งแพคเกจในสภาพแวดล้อมเฉพาะที่ของคุณ ให้รันคำสั่งต่อไปนี้จากพร้อมต์คำสั่ง ไฟล์ package.json จะอัปเดตไฟล์ package.json โดยอัตโนมัติ เพื่อให้รวมการดำเนินการที่เชื่อมโยงกัน
+เมื่อต้องการติดตั้งแพคเกจในสภาพแวดล้อมเฉพาะที่ของคุณ ให้เรียกใช้คำสั่ง `yarn add THEME_PACKAGE@VERSION` จากพร้อมท์คำสั่ง โดยที่ **THEME_PACKAGE** เป็นแพคเกจชุดรูปแบบ (@msdyn365-commerce-theme/adventureworks-theme-kit) และ **VERSION** เป็นหมายเลขรุ่นของไลบรารีโมดูลที่ถูกใช้อยู่ รุ่นของแพคเกจชุดรูปแบบและไลบรารีโมดูลต้องตรงกัน เมื่อต้องการค้นหาหมายเลขรุ่นของไลบรารีโมดูลที่ถูกต้องที่จะใช้ ให้เปิดไฟล์ package.json และระบุค่า **starter-pack** ในส่วน **การขึ้นต่อกัน** ในตัวอย่างต่อไปนี้ ไฟล์ package.json จะใช้รุ่น 9.32 ของไลบรารีโมดูลซึ่งแมปไปยังรีลีส Dynamics 365 Commerce รุ่น 10.0.22  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-ในไฟล์ **package.json** คุณควรอัปเดตรุ่นธีมเป็นรุ่นเฉพาะ
+ตัวอย่างต่อไปนี้แสดงวิธีการเรียกใช้คำสั่ง `yarn add` เพื่อเพิ่มรุ่น 9.32 ของธีม Adventure Works คำสั่งดังกล่าวจะอัปเดตไฟล์ package.json โดยอัตโนมัติ เพื่อให้รวมการขึ้นต่อกัน
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดตรุ่นของไลบรารีโมดูล ดูที่ [การอัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md) 
 
 > [!IMPORTANT]
 > - รุ่นธีมควรตรงกับรุ่นไลบรารีโมดูลเพื่อให้แน่ใจว่าคุณลักษณะทั้งหมดจะทำงานตามที่คาดไว้ 

@@ -1,22 +1,22 @@
 ---
 title: ตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่
 description: หัวข้อนี้จะอธิบายวิธีตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับรายการเมนูเพื่อให้ผู้ปฏิบัติงานสามารถหยุดปฏิบัติงานปัจจุบัน ปฏิบัติงานอื่น แล้วกลับไปที่งานดั้งเดิมโดยไม่สูญเสียข้อมูลใดๆ
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9e0529367a761b79530f40e2853b6f4a6faac3cf
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 536fe2fa8819129f14e31ff966ab2349f836f0f7
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860857"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902132"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>ตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่
 
@@ -50,7 +50,7 @@ ms.locfileid: "7860857"
 
     คุณลักษณะนี้จะเป็นคุณลักษณะที่อธิบายไว้ในหัวข้อนี้
 
-1. อัปเดตชื่อฟิลด์ในแอป Warehouse Management บนมือถือโดยไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> อุปกรณ์เคลื่อนที่ \> ชื่อฟิลด์แอปคลังสินค้า** และการเลือก **สร้างการเริ่มต้นเริ่มต้น** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอปการจัดการคลังสินค้าบนมือถือ](configure-app-field-names-priorities-warehouse.md)
+1. อัปเดตชื่อฟิลด์ในแอป Warehouse Management บนมือถือโดยไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> อุปกรณ์เคลื่อนที่ \> ชื่อฟิลด์แอปคลังสินค้า** และการเลือก **สร้างการเริ่มต้นเริ่มต้น** สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ](configure-app-field-names-priorities-warehouse.md)
 1. ทําซ้ำขั้นตอนก่อนหน้านี้ให้กับแต่ละนิติบุคคล (บริษัท) ที่คุณใช้แอป Warehouse Management บนมือถือ
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>ตั้งค่าคอนฟิกการข้ามตำแหน่งจากการแทนที่เฉพาะเมนู

@@ -1,7 +1,7 @@
 ---
-title: สแกนบาร์โค้ดโดยใช้กล้องในแอปการจัดการคลังสินค้าบนมือถือ
-description: หัวข้อนี้จะอธิบายวิธีตั้งค่าแอปการจัดการคลังสินค้าบนมือถือเพื่อที่จะสแกนบาร์โค้ด โดยใช้กล้องบนอุปกรณ์เคลื่อนที่
-author: MarkusFogelberg
+title: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนมือถือ
+description: หัวข้อนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือเพื่อที่จะสแกนบาร์โค้ด โดยใช้กล้องบนอุปกรณ์เคลื่อนที่
+author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
@@ -11,27 +11,27 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 62280b8401c1f7d5dc859a2130981405e69d03cfb5383123d7069e71e6cb1f47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711674"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901998"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>สแกนบาร์โค้ดโดยใช้กล้องในแอปการจัดการคลังสินค้าบนมือถือ
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีตั้งค่าแอปการจัดการคลังสินค้าบนมือถือเพื่อที่จะสแกนบาร์โค้ด โดยใช้กล้องบนอุปกรณ์เคลื่อนที่
+หัวข้อนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือเพื่อที่จะสแกนบาร์โค้ด โดยใช้กล้องบนอุปกรณ์เคลื่อนที่
 
 ## <a name="setup"></a>ตั้งค่า
 
-ในการตั้งค่าการแสดงของแอปการจัดการคลังสินค้าบนมือถือ คุณสามารถเลือกได้ว่า กล้องควรจะใช้สำหรับการสแกนบาร์โค้ดหรือไม่ ถ้าคุณเปิดใช้งาน **ใช้กล้องเป็นสแกนเนอร์** คุณสามารถใช้กล้องในทุกฟิลด์อินพุทที่มีโหมดอินพุทที่ต้องการ ซึ่งตั้งค่าเป็น **การสแกน** ได้
+ในการตั้งค่าการแสดงของแอป Warehouse Management บนมือถือ คุณสามารถเลือกได้ว่า กล้องควรจะใช้สำหรับการสแกนบาร์โค้ดหรือไม่ ถ้าคุณเปิดใช้งาน **ใช้กล้องเป็นสแกนเนอร์** คุณสามารถใช้กล้องในทุกฟิลด์อินพุทที่มีโหมดอินพุทที่ต้องการ ซึ่งตั้งค่าเป็น **การสแกน** ได้
 
-เพื่อควบคุมว่าฟิลด์ป้อนข้อมูลควรสามารถสแกนได้หรือไม่ ในหน้า **ชื่อฟิลด์แอพ Warehouse** ให้ตั้งค่า **วิธีการป้อนข้อมูลที่ต้องการ** เป็น **การสแกน**. เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอปการจัดการคลังสินค้าบนมือถือได้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอปการจัดการคลังสินค้าบนมือถือ](configure-app-field-names-priorities-warehouse.md)
+เพื่อควบคุมว่าฟิลด์ป้อนข้อมูลควรสามารถสแกนได้หรือไม่ ในหน้า **ชื่อฟิลด์แอพ Warehouse** ให้ตั้งค่า **วิธีการป้อนข้อมูลที่ต้องการ** เป็น **การสแกน**. เมื่อมีการเลือกตัวเลือกนี้ คุณสามารถใช้กล้องสำหรับการสแกนในแอป Warehouse Management บนมือถือได้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ](configure-app-field-names-priorities-warehouse.md)
 
 ## <a name="supported-bar-code-formats"></a>รูปแบบบาร์โค้ดที่สนับสนุน
 

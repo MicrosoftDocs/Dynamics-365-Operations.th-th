@@ -2,7 +2,7 @@
 title: ก่อนที่คุณจะซื้อ
 description: คำแนะนำทีละขั้นตอนในการใช้ เมื่อคุณกำลังพิจารณาการซื้อ Dynamics 365 Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757206"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874595"
 ---
 # <a name="before-you-buy"></a>ก่อนที่คุณจะซื้อ
 
@@ -28,21 +28,21 @@ ms.locfileid: "6757206"
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>ขั้นตอนที่หนึ่ง: ลองใช้ Finance and Operations ฟรี30วัน
 
-คุณสามารถลองใช้ Dynamics 365 for Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เป็นเวลา 30 วันได้ผ่านการลงทะเบียนอีเมลอย่างง่าย รุ่นทดลองใช้ของแอพลิเคชัน Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอน ซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [ลงทะเบียนเพื่อการสมัครใช้งานพรีวิว](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)
+คุณสามารถลองใช้ Dynamics 365 for Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เป็นเวลา 30 วันได้ผ่านการลงทะเบียนอีเมลอย่างง่าย รุ่นทดลองใช้ของแอปพลิเคชัน Finance and Operations ประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอน ซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [ลงทะเบียนเพื่อการสมัครใช้งานพรีวิว](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)
 
 ## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
 
-ขณะนี้ คุณสามารถปรับใช้แอพลิเคชัน Finance and Operations ในระบบคลาวด์หรือ On-Premises การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
+ขณะนี้ คุณสามารถปรับใช้แอปพลิเคชัน Finance and Operations ในระบบคลาวด์หรือ On-Premises การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
 
 ข้อควรพิจารณาต่อไปนี้ต้องใช้ เมื่อคุณเลือกแบบในองค์กรเป็นตัวเลือกการปรับใช้:
 
 - ความต้องการตามข้อบังคับและการปฏิบัติตามกฎระเบียบที่ไม่พร้อมใช้งานในใบรับรอง cloud
-- กระบวนการทางธุรกิจที่ไม่ต่อเนื่องที่มีการเชื่อมต่ออินเตอร์เน็ตแบบครั้งคราวที่ต้องการเข้าถึงการจัดการวงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS) สำหรับแอพลิเคชัน
+- กระบวนการทางธุรกิจที่ไม่ต่อเนื่องที่มีการเชื่อมต่ออินเตอร์เน็ตแบบครั้งคราวที่ต้องการเข้าถึงการจัดการวงจรชีวิต Microsoft Dynamics Lifecycle Services (LCS) สำหรับแอปพลิเคชัน
 - [การเปรียบเทียบคุณลักษณะบนระบบคลาวด์และในสถานที่](cloud-prem-comparison.md)
 - [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](system-requirements-on-prem.md)
 
 > [!IMPORTANT]
-> การปรับใช้แบบ On-premises ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใด ๆ ซึ่งรวมถึง Microsoft Azure
+> การปรับใช้แบบ On-premises ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใด ๆ ซึ่งรวมถึง Microsoft Azure อย่างไรก็ตาม มีการรองรับการปรับใช้ในการเรียกใช้บน [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) และ [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/)
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -68,7 +68,7 @@ ms.locfileid: "6757206"
 
 หากองค์กรของคุณมีผู้ใช้ Dynamics 365 อย่างน้อย 250 คน คุณอาจสนใจ [ข้อตกลงการให้สิทธิ์ใช้งานปริมาตร](https://www.microsoft.com/Licensing/product-licensing/dynamics365)
 
-ใน Volume Licensing แอพลิเคชัน Finance and Operations จะพร้อมใช้งานผ่านทาง:
+ใน Volume Licensing แอปพลิเคชัน Finance and Operations จะพร้อมใช้งานผ่านทาง:
 
 - ข้อตกลงขององค์กร
 - การบอกรับเป็นสมาชิกข้อตกลงขององค์กร

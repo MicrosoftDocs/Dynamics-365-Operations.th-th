@@ -1,21 +1,21 @@
 ---
 title: มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 description: หัวข้อนี้จะแสดงรายการคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
-ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
+ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655396"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901899"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 
@@ -82,7 +82,7 @@ ms.locfileid: "7655396"
 
 ### <a name="known-issues-in-version-2070"></a>ปัญหาที่ทราบในรุ่น 2.0.7.0
 
-- ในอุปกรณ์บางอย่าง คุณจะได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้เมื่อคุณเริ่มแอปหรือเริ่มงาน: "ไม่พบมุมมองที่เหมาะสมสําหรับขนาดที่ระบุ" หากคุณเห็นข้อความแสดงข้อผิดพลาดนี้บนอุปกรณ์ใด ๆ ของคุณ คุณต้องดาวน์เกรดแอพมือถือ Warehouse Management เป็นเวอร์ชัน 2.0.6.0 บนอุปกรณ์นั้นและรออัปเกรดจนกว่าจะมีการเปิดตัวแอปเวอร์ชันถัดไป
+- ในอุปกรณ์บางอย่าง คุณจะได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้เมื่อคุณเริ่มแอปหรือเริ่มงาน: "ไม่พบมุมมองที่เหมาะสมสําหรับขนาดที่ระบุ" หากคุณเห็นข้อความแสดงข้อผิดพลาดนี้บนอุปกรณ์ใด ๆ ของคุณ คุณต้องดาวน์เกรดแอป Warehouse Management บนมือถือเป็นเวอร์ชัน 2.0.6.0 บนอุปกรณ์นั้นและรออัปเกรดจนกว่าจะมีการเปิดตัวแอปเวอร์ชันถัดไป
 
 ## <a name="version-2060"></a>รุ่น 2.0.6.0
 

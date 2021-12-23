@@ -2,7 +2,7 @@
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
 description: ทุกๆ สองสัปดาห์ เรามีรุ่นใหม่สำหรับ Microsoft Dynamics 365 Human Resources หัวข้อที่แสดงรายการที่นี่จะแสดงรายละเอียดการเปลี่ยนแปลงที่ทำในแต่ละสัปดาห์
 author: twheeloc
-ms.date: 04/21/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e30267ca95bdcaa8b42cfb7e606a0a8eda8c1da4
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641199"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902544"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
 
@@ -40,6 +40,7 @@ ms.locfileid: "7641199"
 
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการนำออกใช้รายสองสัปดาห์ของ Human Resources ให้ดูที่หัวข้อต่อไปนี้:
 
+[29 พฤศจิกายน 2021](hr-whats-new-2021-11-29.md)<br>
 [5 ตุลาคม 2021](hr-whats-new-2021-10-04.md)</br>
 [20 กันยายน 2021](hr-whats-new-2021-09-20.md)</br>
 [6 กันยายน 2021](hr-whats-new-2021-09-06.md)</br>

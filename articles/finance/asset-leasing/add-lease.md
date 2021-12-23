@@ -2,7 +2,7 @@
 title: เพิ่มหรือคัดลอกการเช่า (การแสดงตัวอย่าง)
 description: หัวข้อนี้จะอธิบายวิธีการสร้างการเช่าใหม่ โดยการป้อนข้อมูลในการเช่าสินทรัพย์หรือการคัดลอกข้อมูลจากการเช่าที่มีอยู่
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761337"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893656"
 ---
 # <a name="add-or-copy-leases-preview"></a>เพิ่มหรือคัดลอกการเช่า (การแสดงตัวอย่าง)
 
@@ -35,6 +35,8 @@ ms.locfileid: "6761337"
 1. บนหน้า **สรุปการเช่า** บนบานหน้าต่างการดำเนินการ ให้เลือก **สร้าง**
 2. ป้อนข้อมูลการเช่า ฟิลด์ที่จำเป็นต้องมีเส้นขอบสีแดง
 
+> วันที่เริ่มต้นการชำระค่าเช่าต้องไม่อยู่ก่อนวันที่เริ่มต้นสัญญาเช่า ถ้าคุณป้อนวันที่เริ่มต้นสำหรับการชำระค่าเช่าซึ่งอยู่ก่อนวันที่เริ่มต้นของสัญญาเช่า คุณจะได้รับข้อความแสดงข้อผิดพลาด
+  
 ## <a name="create-a-lease-schedule"></a>สร้างกำหนดการการเช่า
 
 หลังจากที่คุณป้อนข้อมูลสำหรับการเช่าเสร็จแล้ว ให้ทำตามขั้นตอนต่อไปนี้เพื่อสร้างกำหนดการเช่า
