@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.23 (มกราคม 2022)
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.23 (มกราคม 2022)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.23
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891810"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920211"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>การแสดงตัวอย่างของ Dynamics 365 Supply Chain Management 10.0.23 (มกราคม 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.23 (มกราคม 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ในพรีวิว Microsoft Dynamics 365 Supply Chain Management ของรุ่น 10.0.23 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1037 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.23 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1037 และพร้อมใช้งานดังนี้:
 
 - **การแสดงตัวอย่างของการนำออกใช้:** ตุลาคม 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** ธันวาคม 2021

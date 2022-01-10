@@ -1,8 +1,8 @@
 ---
 title: การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
 description: คุณสามารถติดตามการเปลี่ยนแปลงไปยังตารางและฟิลด์ใน Dynamics 365 Human Resources ด้วยการบันทึกฐานข้อมูล
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781668"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924831"
 ---
 # <a name="configure-and-manage-database-logging"></a>การตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
 
@@ -93,14 +93,14 @@ ms.locfileid: "6781668"
 ถ้าต้องการตั้งค่าการล้างข้อมูลล็อกฐานข้อมูล ให้ปฏิบัติตามขั้นตอนเหล่านี้: 
 
 1. ไปที่ **การจัดการระบบ > ลิงค์ > ฐานข้อมูล > ล็อกฐานข้อมูล** เลือก **ล้างข้อมูลล็อก**
-
-2. เลือกวิธีในการเลือกล็อกที่จะลบ โดยการป้อนตัวเลือกอย่างใดอย่างหนึ่งต่อไปนี้:
+2. ภายใต้ชื่อเรื่อง **เรกคอร์ดที่จะรวม** ให้เลือก **ตัวกรอง**
+3. เลือกวิธีการที่จะใช้ในการเลือกล็อกที่จะลบ ป้อนหนึ่งในตัวเลือกต่อไปนี้:
 
    - ID ตาราง
    - ชนิดของล็อก
    - วันที่และเวลาที่สร้าง
 
-3. ใช้แท็บ **การล้างข้อมูลล็อกฐานข้อมูล** เพื่อกำหนดเวลาที่จะรันงานการล้างข้อมูลล็อก โดยค่าเริ่มต้น ล็อกฐานข้อมูลจะพร้อมใช้งานเป็นเวลา 30 วัน
+4. ใช้แท็บ **การล้างข้อมูลล็อกฐานข้อมูล** เพื่อกำหนดเวลาที่จะรันงานการล้างข้อมูลล็อก โดยค่าเริ่มต้น ล็อกฐานข้อมูลจะพร้อมใช้งานเป็นเวลา 30 วัน
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
