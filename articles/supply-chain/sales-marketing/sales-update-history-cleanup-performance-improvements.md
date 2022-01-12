@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891805"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920284"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>การปรับปรุงประสิทธิภาพการล้างประวัติการขาย
+# <a name="sales-history-cleanup-performance-improvements"></a>การปรับปรุงประสิทธิภาพการล้างประวัติการขาย
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "7891805"
 
 หลังจากเปิดใช้งานคุณลักษณะ ชุดงาน **การล้างข้อมูลประวัติการอัปเดตการขาย** (**การขายและการตลาด \> งานรอบระยะเวลา \> การล้างข้อมูล \> การล้างข้อมูลประวัติการอัปเดตการขาย**) จะรันเหมือนกับก่อนหน้านั้น แต่ด้วยประสิทธิภาพที่ดีขึ้น และสูงสุด 2 ชั่วโมง ซึ่งหมายความว่าอาจต้องรันหลายครั้งเพื่อล้างข้อมูลทั้งหมดให้กับกรอบเวลาการคงไว้เฉพาะ
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>เปิดใช้งานคุณลักษณะการปรับปรุงประสิทธิภาพการล้างข้อมูลประวัติการขาย
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>เปิดใช้งานคุณลักษณะการปรับปรุงประสิทธิภาพการล้างข้อมูลประวัติการขาย
 
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 

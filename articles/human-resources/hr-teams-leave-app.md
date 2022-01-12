@@ -2,7 +2,7 @@
 title: จัดการคำขอลาหยุดใน Teams
 description: หัวข้อนี้จะแสดงวิธีการขอลาหยุดในแอป Dynamics 365 Human Resources ใน Microsoft Teams
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771542"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924758"
 ---
 # <a name="manage-leave-requests-in-teams"></a>จัดการคำขอลางานใน Teams
 
@@ -35,6 +35,9 @@ ms.locfileid: "7771542"
 1. ใน Microsoft Teams ให้นําทางไปยังรายการแอป
  
 2. ค้นหา Dynamics 365 Human Resources และเลือกไทล์ **ทรัพยากรบุคคล**
+
+> [!NOTE]
+> เริ่มใช้วันที่ 20 ธันวาคม 2021 บริการบอทของแอป Human Resources (รุ่น 1.1.4) ที่โฮสต์ในผู้เช่า Microsoft จะถูกยกเลิก ส่วนขยายที่เป็นปัจจุบันมากที่สุด (รุ่น 1.1.5) สามารถใช้งานได้กับการติดตั้ง สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [จัดการคำขอลาหยุดใน Teams](hr-admin-teams-leave-app.md#update-app)
 
 3. เลือก **เพิ่ม** เพื่อติดตั้งแอป
 

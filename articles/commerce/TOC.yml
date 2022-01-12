@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (พฤศจิกายน 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (ตุลาคม 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   items:
                     - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -842,7 +840,7 @@
           items:
             - name: ภาพรวมของใบแจ้งยอด
               href: retail-statements.md
-            - name: ตัวตรวจสอบความสอดคล้องกันของธุรกรรม
+            - name: ตรวจสอบความถูกต้องของธุรกรรมของร้านค้าสำหรับการคำนวณใบแจ้งยอด
               href: valid-checker.md
             - name: ปิดใช้งานกฎในตัวตรวจสอบความสอดคล้องกันของธุรกรรมการขายปลีก
               href: disable-consistency-check-rule.md
@@ -1284,8 +1282,10 @@
           items:
             - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทางการค้า
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
+            - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทางการค้า
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: ตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
                   href: localizations/emea-aut-fi-sample.md
+                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับออสเตรีย (ดั้งเดิม)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: บราซิล
               items:
                 - name: การแปล Commerce เป็นภาษาท้องถิ่นสำหรับบราซิล
@@ -1358,12 +1360,16 @@
                   items:
                     - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
                       href: localizations/emea-cze-fi-sample.md
+                    - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับสาธารณรัฐเช็ก (ดั้งเดิม)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: โปแลนด์
                   items:
                     - name: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
                       href: localizations/emea-pol-fpi-sample.md
                     - name: การจัดการข้อมูลลูกค้าสำหรับโปแลนด์
                       href: localizations/emea-pol-customer-information.md
+                    - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับโปแลนด์ (ดั้งเดิม)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: ฝรั่งเศส
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -1380,6 +1386,8 @@
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
                   href: localizations/emea-deu-fi-sample.md
+                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับเยอรมนี (ดั้งเดิม)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: อินเดีย
               items:
                 - name: การรวมภาษีสินค้าและบริการ (GST) สำหรับเครื่องบันทึกเงินสด
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: การจัดการข้อมูลลูกค้าสำหรับอิตาลี
                   href: localizations/emea-ita-customer-information.md
+                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับอิตาลี (ดั้งเดิม)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: เม็กซิโก
               items:
                 - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI สากลสำหรับเม็กซิโก
@@ -1407,6 +1417,8 @@
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
                   href: localizations/emea-nor-cash-registers.md
                 - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด (ดั้งเดิม)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: รัสเซีย
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
                   href: localizations/emea-swe-fi-sample.md
+                - name: แนวทางการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม (ดั้งเดิม)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: การรายงานและการรวม Power BI
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: สร้างจุดเชื่อมต่อปลั๊กอินของไปป์ไลน์คำขอ
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: ส่วนประกอบรูปภาพ
+                      href: e-commerce-extensibility/image-component.md
                 - name: พัฒนาการดำเนินการกับข้อมูล
                   items:
                     - name: ภาพรวมของการดำเนินการกับข้อมูล
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: ดาวน์โหลดตัวอย่างและแพคเกจจาก GitHub และ NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: ตั้งค่าเอเจนต์การสร้าง Visual Studio 2017 เพื่อสร้าง Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับ Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: ความสามารถในการเพิ่มฟังก์ชันสำหรับการขายหน้าร้าน (POS)

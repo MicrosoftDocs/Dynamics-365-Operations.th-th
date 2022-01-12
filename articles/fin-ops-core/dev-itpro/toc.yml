@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: ส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: การรวม Microsoft Power Platform
           items:
             - name: ภาพรวม
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: คัดลอกชุดงาน
                   href: sysadmin/copy-batch-job.md
+                - name: การกำหนดการชุดงานตามลำดับความสำคัญ
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
                   href: sysadmin/activeperiod.md
                 - name: การสนับสนุนการปรับเวลาตามฤดูกาลสำหรับรอบระยะเวลาชุดงานที่ใช้งานอยู่

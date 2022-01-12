@@ -4,6 +4,34 @@
       items:
         - name: โฮมเพจ Dynamics 365 Supply Chain Management
           href: index.md
+        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
+          items:
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
+              items:
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (กุมภาพันธ์ 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (มกราคม 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (พฤศจิกายน 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (ตุลาคม 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
+              items:
+                - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: เริ่มต้นใช้งาน
           items:
             - name: คำอธิบายการบริการ
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
-              items:
-                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
-                  items:
-                    - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (กุมภาพันธ์ 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (มกราคม 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (พฤศจิกายน 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (ตุลาคม 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
-                  items:
-                    - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: แหล่งข้อมูลคู่มือ
               items:
                 - name: ระบบวิธีใช้
@@ -1603,20 +1603,22 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: เก็บถาวรธุรกรรมของสินค้าคงคลัง
               href: inventory/archive-inventory-transactions.md
-            - name: Add-in การแสดงผลสินค้าคงคลัง
+            - name: Add-in การมองเห็นสินค้าคงคลัง
               items:
-                - name: ภาพรวมของ Add-in การแสดงผลสินค้าคงคลัง
+                - name: ภาพรวมของ Add-in การมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility.md
-                - name: ติดตั้งและตั้งค่าการแสดงผลสินค้าคงคลัง
+                - name: ติดตั้งและตั้งค่าการมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility-setup.md
-                - name: ตั้งค่าคอนฟิกการแสดงผลสินค้าคงคลัง
+                - name: ตั้งค่าคอนฟิกการมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility-configuration.md
-                - name: ใช้แอปการแสดงผลสินค้าคงคลัง
+                - name: ใช้แอปการมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility-power-platform.md
-                - name: การจองในการแสดงผลสินค้าคงคลัง
+                - name: การจองในการมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility-reservations.md
-                - name: API สาธารณะสำหรับการแสดงผลสินค้าคงคลัง
+                - name: API สาธารณะสำหรับการมองเห็นสินค้าคงคลัง
                   href: inventory/inventory-visibility-api.md
+                - name: เคล็ดลับการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-tips.md
         - name: เครื่องมือ IoT
           items:
             - name: โฮมเพจเครื่องมือ IoT
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: การวางแผนหลัก
               items:
+                - name: ระบบไม่พบแผนการใบสั่งเมื่อดําเนินงานกับใบสั่งหลายใบ
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: การกระจาย BOM แตกต่างจากการกระจายของใบสั่งผลิตที่ยืนยันและประเมินไว้
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: ค่าความล่าช้าจะไม่ได้รับการอัปเดต เมื่อคุณจัดกำหนดการแผนการใบสั่งใหม่

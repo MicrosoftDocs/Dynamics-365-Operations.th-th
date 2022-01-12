@@ -2,7 +2,7 @@
 title: แอปทรัพยากรบุคคลใน Teams
 description: หัวข้อนี้จะแนะนำแอป Microsoft Dynamics 365 Human Resources ใน Microsoft Teams
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913500"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924733"
 ---
 # <a name="human-resources-app-in-teams"></a>แอปทรัพยากรบุคคลใน Teams
 
@@ -41,6 +41,21 @@ ms.locfileid: "7913500"
 สำหรับข้อมูลเกี่ยวกับการจัดการสิทธิ์การได้รับอนุญาตของแอปใน Teams ให้ดูที่ [การจัดการนโยบายสิทธิ์ของแอปใน Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies)
 
 หากคุณต้องการให้ผู้ใช้ของคุณดูปฏิทินการลางานและการขาดงานในแอป คุณจะต้องเปิดใช้งาน **ปฏิทินการลางานและการขาดงานใน Teams** ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะ ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+## <a name="update-app"></a>อัปเดตแอป
+>[!NOTE]
+> เริ่มใช้วันที่ 20 ธันวาคม 2021 บริการบอทของแอป Human Resources ที่โฮสต์ในผู้เช่า Microsoft จะถูกยกเลิก ซึ่งจะไม่มีผลกระทบกับส่วนขยายปัจจุบัน (รุ่นที่ใช้1.1.5) ซึ่งพร้อมใช้งานเฉพาะกับการติดตั้ง ผลกระทบหลักจะอยู่บนส่วนขยายที่ล้าสมัย (รุ่น 1.1.4) แชทบอทในรุ่นนี้จะหยุดทำงาน แท็บ **เวลาหยุดพัก** จะยังคงงานในส่วนขยายทั้งสองต่อไป
+
+สำหรับรุ่น 1.1.4 แชทบอทจะหยุดตอบสนองต่อข้อความใดๆ ตัวอย่างเช่น **การลงชื่อเข้าใช้** **ดูยอดดุล** และ **ดูเวลาหยุดพัก** แอปต้องได้รับการอัปเดตด้วยตนเองเป็นรุ่นล่าสุด สำหรับข้อมูลเพิ่มเติม ดูที่ [อัปเดตแอปใน Microsoft Teams](/MicrosoftTeams/apps-update-experience)
+
+เมื่อต้องการอัปเดตเป็นรุ่น 1.1.5 ให้ปฏิบัติตามขั้นตอนเหล่านี้:
+1. ใน Microsoft Teams ไปที่ **แอป**
+2. ค้นหาแอป **Human Resources**
+3. เลือก **อัปเกรด**
+
+คุณสามารถตรวจสอบรุ่นของแอป Human Resources ได้โดยไปที่แท็บ **เกี่ยวกับ** หรือโดยการไปที่ส่วน **แอปส่วนบุคคล** 
+
+![แท็บ **เกี่ยวกับ** Human Resources](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams
 

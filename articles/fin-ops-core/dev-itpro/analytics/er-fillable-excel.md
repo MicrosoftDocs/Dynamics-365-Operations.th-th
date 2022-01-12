@@ -2,7 +2,7 @@
 title: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 description: หัวข้อนี้อธิบายวิธีการออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะกรอกข้อมูลในเทมเพลต Excel แล้วสร้างเอกสารการจัดรูปแบบของ Excel ขาออก
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890884"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943623"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -364,6 +364,22 @@ ms.locfileid: "7890884"
     3. เรียกใช้รูปแบบ ER ที่แก้ไข
 
         ![การตรวจสอบเอกสารที่สร้างในแอปพลิเคชันบนเดสก์ท็อป Excel](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>การจำกัด
+
+### <a name="known-epplus-library-limitations"></a>ข้อจํากัดของไลบรารี EPPlus ที่ทราบ
+
+#### <a name="external-data-sources"></a>แหล่งข้อมูลภายนอก
+
+ถ้าแม่แบบใดแม่แบบหนึ่งของคุณมี PivotTable ที่ขึ้นอยู่กับแบบจำลอง PowerPivot ที่อ้างอิงถึง [แหล่งข้อมูลภายนอก](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) และคุณลักษณะ **เปิดใช้งานการใช้ไลบรารี EPPlus ในกรอบงานการรายงานทางอิเล็กทรอนิกส์** คุณจะได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้เมื่อคุณรันรูปแบบ ER ที่ใช้เท็มเพลตนั้นเพื่อสร้างเอกสารขาออกในรูปแบบ Excel: "แหล่งข้อมูลแคชไม่ใช่แผ่นงาน" เมื่อต้องการแก้ไขปัญหานี้ คุณมีตัวเลือกต่อไปนี้:
+
+- **แนะนำ:** ออกแบบโซลูชัน Excel ที่คุณใช้อยู่ใหม่:
+
+    1. แยกส่วนที่มี Pivot ออกในสมุดงาน Excel แยกต่างหาก (สมุดงาน A) 
+    2. ใช้ ER เพื่อสร้างสมุดงาน Excel ที่สอง (สมุดงาน B) จาก Finance ที่มีรายละเอียดที่ต้องการ 
+    3. อ้างอิงสมุดงาน B ในสมุดงาน A ในทันทีที่สร้างสมุดงาน B
+
+- ใช้ตัวเลือกอื่นที่ไม่ใช่ EPPlus เพื่อปิดลักษณะการใช้ฟังก์ชันนี้ 
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

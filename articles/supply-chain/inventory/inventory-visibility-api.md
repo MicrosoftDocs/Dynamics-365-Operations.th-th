@@ -2,7 +2,7 @@
 title: API สาธารณะของการแสดงผลสินค้าคงคลัง
 description: หัวข้อนี้จะอธิบาย API สาธารณะที่ให้ไว้โดยการแสดงผลสินค้าคงคลัง
 author: yufeihuang
-ms.date: 09/30/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678798"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920129"
 ---
 # <a name="inventory-visibility-public-apis"></a>API สาธารณะของการแสดงผลสินค้าคงคลัง
 
@@ -41,8 +41,8 @@ REST API สาธารณะของ Add-in การแสดงผลสิ
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ลงรายการบัญชี | [ตั้งค่า/แทนที่ปริมาณคงคลังคงเหลือ](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหนึ่งเหตุการณ์](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหลายเหตุการณ์](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/indexquery | ดึงข้อมูล | [การสอบถามโดยใช้วิธีการลงรายการบัญชี](#query-with-post-method) |
-| /api/environment/{environmentId}/onhand/indexquery | ลงรายการบัญชี | [การสอบถามโดยใช้วิธีการรับ](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/indexquery | ลงรายการบัญชี | [การสอบถามโดยใช้วิธีการลงรายการบัญชี](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand | ดึงข้อมูล | [การสอบถามโดยใช้วิธีการรับ](#query-with-get-method) |
 
 Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
@@ -476,7 +476,7 @@ Body:
 
 ## <a name="query-on-hand"></a>ปริมาณคงคลังคงเหลือของการสอบถาม
 
-API _ปริมาณคงคลังคงเหลือของการสอบถาม_ ถูกใช้เพื่อดึงข้อมูลปริมาณคงคลังคงเหลือปัจจุบันสำหรับผลิตภัณฑ์ของคุณ
+ใช้ API _ปริมาณคงคลังคงเหลือของการสอบถาม_ เพื่อดึงข้อมูลปริมาณคงคลังคงเหลือปัจจุบันสำหรับผลิตภัณฑ์ของคุณ ปัจจุบัน API สนับสนุนการสอบถามสินค้าแต่ละรายการสูงสุด 100 รายการตามค่า `ProductID` นอกจากนี้ `SiteID` และ `LocationID` ยังสามารถระบุหลายค่าในแต่ละการสอบถามได้ ขีดจํากัดสูงสุดจะกําหนดเป็น `NumOf(SiteID) * NumOf(LocationID) <= 100`
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>การสอบถามโดยใช้วิธีการลงรายการบัญชี
 
@@ -551,7 +551,7 @@ Body:
 
 ```txt
 Path:
-    /api/environment/{environmentId}/onhand/indexquery
+    /api/environment/{environmentId}/onhand
 Method:
     Get
 Headers:
@@ -568,7 +568,7 @@ Query(Url Parameters):
 ต่อไปนี้เป็นตัวอย่าง URL การรับ คำขอรับนี้ไม่เหมือนกับตัวอย่างการลงรายการบัญชีที่ระบุไว้ก่อนหน้านี้
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
