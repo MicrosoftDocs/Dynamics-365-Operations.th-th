@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: สร้างการเชื่อมต่อ Lifecycle Services (LCS) ใน Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: อัปเดตงานการรับรองความถูกต้องของเชื่อมต่อ LCS เป็น MSAL ใน Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: อัปเดต Azure Pipeline ที่โฮสต์สำหรับแพคเกจ NuGet ใหม่
                   href: dev-tools/pipeline-nuget-split.md
                 - name: อัปเดตไปป์ไลน์ดั้งเดิมใน Azure Pipelines
@@ -1480,10 +1482,12 @@
               href: perf-test/rsat/rsat-tutorial.md
             - name: ตั้งค่าคอนฟิกผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ
               href: perf-test/rsat/rsat-configure-nonadmin.md
-            - name: แนวทางปฏิบัติ
+            - name: แนวทางปฏิบัติที่ดีที่สุด
               href: perf-test/rsat/rsat-best-practices.md
             - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: รัน Regression Suite Automation Tool (RSAT) ที่มีการรันแบบขนาน
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: การแก้ไขปัญหา
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services

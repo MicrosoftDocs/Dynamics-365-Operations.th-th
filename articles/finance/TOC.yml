@@ -1048,7 +1048,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: การปิดรอบระยะเวลาทางการเงินโดยรวม
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับกิจกรรมตอนสิ้นปี
+                - name: คำถามที่ถามบ่อยเกี่ยวกับกิจกรรมการปิดบัญชีสิ้นปี
                   href: general-ledger/faq-year-end-activities.md
             - name: ภาษีขาย
               items:
@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: เปิดใช้งานการคาดการณ์กระแสเงินสด
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: เปิดใช้งานข้อเสนองบประมาณ
                   href: finance-insights/enable-budget-proposal.md
                 - name: สร้างโครงการตัวรวมข้อมูล
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: ฐานะเงินสด
                   href: finance-insights/cash-position.md
-                - name: การคาดการณ์กระแสเงินสด
+                - name: การคาดการณ์เงินสด
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: ใช้ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: การคาดคะเนการชำระเงินของลูกค้า
                   href: finance-insights/payment-insights-overview.md
                 - name: ใช้การคาดคะเนการชำระเงินของลูกค้า
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับซาอุดีอาระเบีย
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: ตั้งค่าการรวมโดยตรงสำหรับ FatturaPA ของอิตาลีด้วย SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: ใช้บริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่าย
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1512,6 +1514,10 @@
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: การรายงานของนอร์เวย์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: เปิดใช้งานการคํานวณภาษีในใบสั่งโอนย้าย
                       items:
                         - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
@@ -1557,7 +1563,7 @@
                 - name: ใบแจ้งยอด VAT
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: รายงานบริการข้ามแดน
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: อินทราสแทตของออสเตรีย
                   href: localizations/emea-aut-intrastat.md
                 - name: ภาษีซื้อ
@@ -1820,11 +1826,11 @@
                   href: localizations/apac-chn-vouchers.md
                 - name: ตั้งค่าคอนฟิกการรวมภาษี
                   href: localizations/apac-chn-tax-integration.md
-                - name: การตั้งค่าการส่งออกการรวมภาษีทองคำภาษาจีน
+                - name: การตั้งค่าการส่งออกการรวมภาษีมูลค่าเพิ่มแบบเบ็ดเสร็จ (Golden Tax) ภาษาจีน
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: วิธีการคิดค่าเสื่อมราคาสินทรัพย์ถาวร
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: นำเข้าเอนทิตีข้อมูลภาษี Chinese Golden
+                - name: นำเข้าไฟล์ภาษีมูลค่าเพิ่มแบบเบ็ดเสร็จ (Golden Tax) ภาษาจีน
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: แบบจำลองต้นทุนเฉลี่ยรายเดือน
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2086,8 +2092,10 @@
               items:
                 - name: ภาพรวมของฟินแลนด์
                   href: localizations/finland.md
-                - name: รายงานการชำระภาษีขายสำหรับฟินแลนด์
+                - name: รายงานการชำระเงินภาษีขายสำหรับฟินแลนด์
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: อินทราสแทตฟินแลนด์
+                  href: localizations/emea-fin-intrastat.md
             - name: ฝรั่งเศส
               items:
                 - name: ภาพรวมของฝรั่งเศส
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: การรายงานภาษี VAT สำหรับอินโดนีเซีย
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: รายงานภาษีหัก ณ ที่จ่ายของอินโดนีเซีย
+                  href: localizations/apac-idn-wht-declaration.md
             - name: อิตาลี
               items:
                 - name: ภาพรวมของอิตาลี

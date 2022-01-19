@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581876"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952507"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>ติดตั้งและตั้งค่าการแสดงผลสินค้าคงคลัง
 
@@ -71,6 +71,9 @@ ms.locfileid: "7581876"
 1. ยอมรับข้อกำหนดและเงื่อนไขโดยเลือกกล่องกาเครื่องหมาย **ข้อกำหนดและเงื่อนไข**
 1. เลือก **ติดตั้ง** สถานะของ add-in จะแสดงเป็น **กำลังติดตั้ง** เมื่อการติดตั้งเสร็จสมบูรณ์ รีเฟรชหน้า สถานะควรเปลี่ยนแปลงเป็น **ติดตั้งแล้ว**
 1. ใน Dataverse ให้เลือกส่วน **แอป** ในการนําทางด้านซ้าย และตรวจสอบว่าติดตั้ง **การแสดงผลสินค้าคงคลัง** Power Apps เสร็จเรียบร้อยแล้ว หากไม่มีส่วน **แอป** ติดต่อทีมงานผลิตภัณฑ์การแสดงผลสินค้าคงคลังที่ [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com)
+
+> [!TIP]
+> ขอแนะนำให้คุณควรเข้าร่วมกลุ่มผู้ใช้ Add-in การมองเห็นสินค้าคงคลัง ซึ่งคุณสามารถดูคู่มือที่เป็นประโยชน์ รับการอัปเดตล่าสุดของเรา และโพสต์คำถามใดๆ ที่คุณอาจมีเกี่ยวกับการใช้การมองเห็นสินค้าคงคลัง เมื่อต้องการเข้าร่วม โปรดส่งอีเมลไปยังทีมผลิตภัณฑ์การมองเห็นสินค้าคงคลังที่ [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) พร้อมระบุรหัสสภาพแวดล้อม Supply Chain Management ของคุณ
 
 > [!IMPORTANT]
 > ถ้าคุณมีสภาพแวดล้อม LCS มากกว่าหนึ่งสภาพแวดล้อม ให้สร้างโปรแกรมประยุกต์ Azure AD ที่แตกต่างกันในแต่ละสภาพแวดล้อม ถ้าคุณใช้รหัสโปรแกรมประยุกต์และรหัสผู้เช่าเดียวกันเพื่อติดตั้ง Add-in การแสดงผลสินค้าคงคลังในสภาพแวดล้อมที่แตกต่างกัน ปัญหาโทเค็นจะเกิดขึ้นกับสภาพแวดล้อมที่เก่ากว่า เฉพาะรายการสุดท้ายที่ติดตั้งเท่านั้นที่จะมีผลบังคับใช้

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937671"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952609"
 ---
 # <a name="engineering-change-management-overview"></a>ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -71,6 +71,7 @@ ms.locfileid: "7937671"
 
 1. ถ้าคุณต้องการใช้มิติรุ่นด้วย ให้เลือกกล่องกาเครื่องหมาย **มิติของผลิตภัณฑ์ - รุ่น** ด้วย (กล่องกาเครื่องหมายนี้จะอยู่ด้านล่างรายการ ไม่ซ้อนภายใต้โหนด **การจัดการการเปลี่ยนแปลงทางวิศวกรรม**)
 1. ปิดโหมดการบำรุงรักษา ตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. เรียกใช้การซิงโครไนส์ฐานข้อมูลเพื่อให้แน่ใจว่าคีย์การตั้งค่าคอนฟิกเปิดใช้งานอย่างถูกต้อง
 
 > [!IMPORTANT]
 > เริ่มต้นในวันที่ 2022 เมษายน คีย์ลิขสิทธิ์ของทั้ง **การจัดการการเปลี่ยนแปลงทางวิศวกรรม** และ **มิติผลิตภัณฑ์ - รุ่น** จะเปิดใช้งานโดยค่าเริ่มต้นสำหรับการติดตั้งใหม่ทั้งหมด แต่คุณจะสามารถปิดใช้งานได้ ถ้าต้องการ

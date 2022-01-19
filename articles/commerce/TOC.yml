@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: ตั้งค่า Azure Key Vault สำหรับการจัดการคีย์อย่างปลอดภัย
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: สร้างจุดเชื่อมต่อปลั๊กอินของไปป์ไลน์คำขอ
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: ส่วนประกอบรูปภาพ
                       href: e-commerce-extensibility/image-component.md
                 - name: พัฒนาการดำเนินการกับข้อมูล

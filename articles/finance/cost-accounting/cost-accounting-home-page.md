@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741595"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952557"
 ---
 # <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
 
@@ -38,7 +38,7 @@ ms.locfileid: "6741595"
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [ตั้งค่าคอนฟิกเอนทิตีฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องการลูกค้าองค์กร CustomerSource )  |[มิติองค์ประกอบต้นทุน](cost-elements.md)  |
+|  [เริ่มต้นใช้งานการบัญชีต้นทุน (Learn)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[มิติองค์ประกอบต้นทุน](cost-elements.md)  |
 |  [ลำดับชั้นของมิติ](dimension-hierarchy.md)  |[กำหนดหน่วยการควบคุมต้นทุน](./tasks/define-cost-control-units.md)| 
 | [ฐานของการปันส่วน](allocation-bases.md)|[สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [ประมวลผลและติดตามข้อมูลต้นทาง](./tasks/process-trace-source-data.md)     | 
