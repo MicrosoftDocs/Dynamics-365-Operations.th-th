@@ -1,14 +1,14 @@
-- name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+- name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
   items:
-    - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+    - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
       items:
         - name: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
           href: ../fin-ops/index.md
-        - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+        - name: การพัฒนาและการดูแลระบบสำหรับแอป Finance and Operations
           href: index.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
           items:
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
+            - name: มีอะไรใหม่หรือเปลี่ยนไปในแอป Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Platform update สำหรับรุ่น 10.0.23 (มกราคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Platform update สำหรับรุ่น 10.0.22 (พฤศจิกายน 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -96,7 +94,7 @@
                       items:
                         - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
+                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                         - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -106,7 +104,7 @@
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                       items:
@@ -128,7 +126,7 @@
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
+                        - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                       items:
@@ -190,7 +188,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: การนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: การเพิ่มประสิทธิภาพการย้ายข้อมูลสำหรับแอป Finance and Operations
+                - name: การเพิ่มประสิทธิภาพการย้ายข้อมูลแอป Finance and Operations
                   href: sysadmin/optimize-data-migration.md
             - name: การพัฒนาเอนทิตี้ข้อมูล
               items:
@@ -212,7 +210,7 @@
                   href: data-entities/data-entity-wizard-rules.md
                 - name: คุณสมบัติของข้อมูลเมตา
                   href: data-entities/behavioral-properties-data-entities.md
-                - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แม็ป
+                - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แมป
                   href: data-entities/validations-defaults-unmapped-fields.md
                 - name: การรักษาความปลอดภัยและเอนทิตี้ข้อมูล
                   href: data-entities/security-data-entities.md
@@ -358,13 +356,13 @@
                   items:
                     - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
                       href: deployment/on-premises-overview.md
-                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
                       href: deployment/plan-onprem-deployment.md
                     - name: ซอฟต์แวร์ที่รองรับ Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-compatibility.md
                     - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: การตรวจสอบความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
+                    - name: การรับรองความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                   items:
@@ -560,7 +558,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: แบบจำลองและแพคเกจ
                   href: dev-tools/models.md
-                - name: ชนิดโครงการ Finance and Operations
+                - name: ชนิดโครงการใน Finance and Operations
                   href: dev-tools/projects.md
                 - name: Add-in ของเครื่องมือสำหรับ Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1044,29 +1042,31 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                    - name: เปิดใช้งานการรวมแบบสองทิศทางสำหรับแอป Finance and Operations ที่มีอยู่
                       items:
-                        - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                        - name: เปิดใช้งานการรวมแบบสองทิศทางสำหรับแอป Finance and Operations ที่มีอยู่
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: ความต้องการของระบบและข้อกำหนดเบื้องต้น
                           href: data-entities/dual-write/requirements-and-prerequisites.md
                         - name: วิธีใช้วิซาร์ดการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
+                        - name: เปิดใช้งานแมปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางที่แยกต่างหาก
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/currrency-decimal-places.md
-                    - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
+                    - name: ตั้งค่าการแมปสำหรับฟิลด์สถานะของใบสั่งขาย
                       href: data-entities/dual-write/sales-status-map.md
                     - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
                       href: data-entities/dual-write/filtering-intercompany-orders.md
                 - name: การจัดการการรวมแบบสองทิศทาง
                   items:
-                    - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
+                    - name: ปรับแต่งการแมปเอนทิตี้และฟิลด์
                       href: data-entities/dual-write/customizing-mappings.md
                     - name: คำแนะนำเกี่ยวกับวิธีการปรับแต่งสำหรับการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/custom-best-practices.md
-                    - name: การจัดการแม็ปเอนทิตี้หลายรายการ
+                    - name: การจัดการแมปเอนทิตี้หลายรายการ
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/edit-legal-entity.md
@@ -1080,7 +1080,7 @@
                       href: data-entities/dual-write/user-specified-team-owner.md
                     - name: ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อมการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/relink-environments.md
-                - name: การแม็ปแนวคิดระหว่างแอป
+                - name: การแมปแนวคิดระหว่างแอป
                   items:
                     - name: ข้อมูลหลักของลูกค้าแบบรวม
                       href: data-entities/dual-write/customer-mapping.md
@@ -1138,7 +1138,7 @@
                       href: data-entities/dual-write/view-party.md
                     - name: การรวมบันทึกย่อ
                       href: data-entities/dual-write/notes-integration.md
-                    - name: การอ้างอิงการแม็ป
+                    - name: การอ้างอิงการแมป
                       href: data-entities/dual-write/mapping-reference.md
                 - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
                   items:
@@ -1184,7 +1184,7 @@
                   href: power-platform/enable-virtual-entities.md
                 - name: พอร์ทัล Power Apps ที่มี Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือน Finance and Operations
+                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
                   href: power-platform/faq.md
             - name: เหตุการณ์ทางธุรกิจ
               items:
@@ -1526,15 +1526,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: การสนับสนุน
           items:
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+            - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+            - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations
+            - name: จัดการประสบการณ์การสนับสนุนของสำหรับแอป Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: การสนับสนุนและการตรวจสอบการใช้งานจริง
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1648,7 +1648,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: การอัปเกรดจาก AX 2012
               items:
-                - name: การอัปเกรดจาก AX 2012 เป็น Finance and Operations
+                - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1714,7 +1714,7 @@
                   href: migration-upgrade/code-migration-home-page.md
                 - name: เตรียมการเพื่อย้ายโค้ด
                   href: migration-upgrade/prepare-migration.md
-                - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
+                - name: ตั้งค่าคอนฟิกการแมป Azure DevOps
                   href: migration-upgrade/configure-vso-solution.md
                 - name: การแบ่งแบบจำลอง
                   href: dev-tools/model-split.md
