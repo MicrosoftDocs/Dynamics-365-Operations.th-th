@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมของ Human Resources
 description: ทรัพยากรบุคคลลดขั้นตอนซ้ำซ้อนของงานการเก็บเรกคอร์ดตามปกติ ทำให้กระบวนการที่เกี่ยวข้องกับการจัดพนักงานให้กับองค์กรของคุณเป็นแบบอัตโนมัติ และให้กรอบงานสำหรับพนักงานฝ่ายทรัพยากรบุคคลเพื่อจัดการพื้นที่ควบคุมดูแล
 author: andreabichsel
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: anbichse
 ms.custom:
-- "20931"
-- intro-internal
+  - '20931'
+  - intro-internal
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96571e1728f6a5d3b86a161b39424d34dfdbb47bf039b60b69b0a7c908639e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713863"
 ---
+
 # <a name="human-resources-overview"></a>ภาพรวมของ Human Resources
 
 [!include [banner](../includes/banner.md)]

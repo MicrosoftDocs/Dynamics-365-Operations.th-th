@@ -1,25 +1,19 @@
 ---
+# required metadata
 title: ภาพรวมของการสร้างหน้า
 description: หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 author: brendans
 ms.date: 10/31/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application USer
 ms.reviewer: v-chgri
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: brendans
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c837b018bddfeb28311c630a7558c09274ced2c1cfce7405587bd1be78d72a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719973"
 ---
 # <a name="authoring-page-overview"></a>ภาพรวมของการสร้างหน้า
 

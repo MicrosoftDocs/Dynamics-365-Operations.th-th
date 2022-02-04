@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
 description: บทความนี้ให้ภาพรวมของลายเซ็นอิเล็กทรอนิกส์และอธิบายวิธีการที่สามารถใช้งานได้
 author: maertenm
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'SIGParameters, SIGProcSetup, SIGReasonCode'
 audience: Application User
 ms.reviewer: sericks
 ms.custom:
-- "13611"
-- intro-internal
+  - '13611'
+  - intro-internal
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4436d2570b6fc6e18936ddd57f658e601b08075febdb26d41d4bf80088ac99f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714507"
 ---
+
 # <a name="electronic-signatures-overview"></a>ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]

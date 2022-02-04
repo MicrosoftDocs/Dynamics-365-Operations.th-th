@@ -1,31 +1,25 @@
 ---
+# required metadata
 title: ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
 description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการให้เสร็จสมบูรณ์เพื่อให้สามารถป้อนหรือนำเข้าข้อมูลภายนอกเข้าในการคาดการณ์กระแสเงินสดได้
 author: rcarlson
 ms.date: 12/21/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: LedgerJournalSetup, LedgerJournalTable
+ms.prod: null
+ms.technology: null
+ms.search.form: 'LedgerJournalSetup, LedgerJournalTable'
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
-ms.search.validFrom: 2020-06-08
+ms.search.validFrom: '2020-06-08'
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945812"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>ข้อมูลภายนอกในการคาดการณ์กระแสเงินสด
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 คุณสามารถป้อนหรือนำเข้าข้อมูลภายนอกเข้าในการคาดการณ์กระแสเงินสดได้ หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าที่เกี่ยวข้องกับการใช้ข้อมูลภายนอกโดยเฉพาะและเปิดใช้งานข้อมูลภายนอกที่จะรวมไว้ในการคาดการณ์กระแสเงินสด
 

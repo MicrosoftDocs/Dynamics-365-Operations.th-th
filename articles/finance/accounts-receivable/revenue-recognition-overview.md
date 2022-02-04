@@ -1,26 +1,21 @@
 ---
+# required metadata
 title: ภาพรวมการรับรู้รายได้ (มีวิดีโอ)
 description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะการรับรู้รายได้ คุณลักษณะนี้มีกรอบงานที่มีความยืดหยุ่นซึ่งช่วยให้คุณสามารถกำหนดกฎเฉพาะบริษัทสำหรับการรับรู้ราคาสำหรับรายได้และกำหนดการรายได้สำหรับใบสั่งที่มีหลายองค์ประกอบ
 author: kweekley
 ms.date: 11/11/2019
-ms.topic: index-page
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2018-08-30
+ms.search.validFrom: '2018-08-30'
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c027b3edb12c34c2373c58a5aa7e39cfbff39045
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937593"
 ---
+
 # <a name="revenue-recognition-overview"></a>ภาพรวมของการรับรู้รายได้
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +34,7 @@ ms.locfileid: "7937593"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-วิดีโอ [วิธีใช้การรับรู้รายได้ใน Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่อยู่บน YouTube
+วิดีโอ [วิธีใช้การรับรู้รายได้ใน Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่อยู่บน YouTube
 
 คุณลักษณะการรับรู้รายได้มีกรอบงานที่มีความยืดหยุ่นซึ่งช่วยให้คุณสามารถกำหนดกฎเฉพาะบริษัทสำหรับการรับรู้ราคาสำหรับรายได้และกำหนดการรายได้
 

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมบัญชีแยกประเภททั่วไปและการรายงานทางการเงิน
 description: 'ใช้บัญชีแยกประเภททั่วไปเพื่อกำหนด และจัดการเรกคอร์ดทางการเงินของนิติบุคคล '
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "65431"
-- intro-internal
+  - '65431'
+  - intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143807b6076d2b798de26d2ebd2cf7a40a8fdf89fdc8387acfbb79cecb44e3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715129"
 ---
+
 # <a name="general-ledger-home-page"></a>โฮมเพจบัญชีแยกประเภททั่วไป
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +57,7 @@ ms.locfileid: "6715129"
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถดูความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน Dynamics 365
 

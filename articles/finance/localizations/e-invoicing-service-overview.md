@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Microsoft Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
 author: gionoder
 ms.date: 03/29/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: kfend
 ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
+  - '97423'
+  - intro-internal
+ms.assetid: null
 ms.search.region: Global
 ms.author: janeaug
-ms.search.validFrom: 2020-07-08
+ms.search.validFrom: '2020-07-08'
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778195"
 ---
+
 # <a name="electronic-invoicing-overview"></a>ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]

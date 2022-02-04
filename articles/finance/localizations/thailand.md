@@ -1,25 +1,20 @@
 ---
+# required metadata
 title: ภาพรวมของประเทศไทย
 description: หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Thailand
 ms.author: roschlom
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: '2017-06-30'
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7f3a6700839790aa3b0697427c5d33a0f428c0906898ea49aca2aebacbc6544b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781124"
 ---
+
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
 [!include [banner](../includes/banner.md)]

@@ -1,27 +1,21 @@
 ---
+# required metadata
 title: ภาพรวมการเพิ่มประสิทธิภาพการวางแผน
 description: หัวข้อนี้แสดงภาพรวมของการวางแผนเพิ่มประสิทธิภาพการทำงานของฟังก์ชันทั่วไป
 author: ChristianRytt
 ms.date: 10/31/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8fd73313b82319c35eb5fccbd68cd305403bfe3f635f6b267fb408943af3396c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739070"
 ---
 # <a name="planning-optimization-overview"></a>ภาพรวมการเพิ่มประสิทธิภาพการวางแผน
 

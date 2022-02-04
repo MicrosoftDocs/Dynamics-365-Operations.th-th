@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ระบบวิธีใช้ (มีวิดีโอ)
-description: หัวข้อนี้แสดงภาพรวมของระบบวิธีใช้ของแอป Finance and Operations
+description: หัวข้อนี้แสดงภาพรวมของระบบวิธีใช้ของแอปการเงินและการดำเนินงาน
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: SystemParameters
-audience: Application User, Developer, IT Pro
+audience: 'Application User, Developer, IT Pro'
 ms.reviewer: tfehr
 ms.custom:
-- "16381"
-- intro-internal
+  - '16381'
+  - intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d272221cc7a976d48b09b2f78bdb3f7fded2fc53
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937541"
 ---
+
 # <a name="help-system"></a>ระบบวิธีใช้
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +46,7 @@ ms.locfileid: "7937541"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>รับการแจ้งเตือนเกี่ยวกับการเปลี่ยนแปลงผ่านตัวดึงข้อมูล RSS
 
-เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล RSS ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอป Finance and Operations ให้ใช้การเชื่อมโยงต่อไปนี้:
+เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล RSS ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
 
 [ตัวดึงข้อมูล RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 

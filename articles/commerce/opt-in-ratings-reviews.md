@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: เลือกที่จะใช้การให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้อธิบายถึงวิธีการเลือกที่จะใช้การจัดอันดับและแสดงความคิดเห็นบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
 author: gvrmohanreddy
 ms.date: 01/30/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.custom: null
+ms.assetid: null
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: gmohanv
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9fe8e9403ccbdc1e26620ae33c6a3866af06b23c
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473440"
 ---
+
 # <a name="opt-in-to-use-ratings-and-reviews"></a>เลือกที่จะใช้การให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
@@ -58,7 +54,13 @@ ms.locfileid: "7473440"
 
 [ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Commerce](sync-product-ratings.md)
 
+[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
 
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
+
+[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

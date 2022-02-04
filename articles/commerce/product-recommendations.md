@@ -1,28 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมของคำแนะนำผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับคำแนะนำผลิตภัณฑ์ คำแนะนำผลิตภัณฑ์ให้ลูกค้าค้นหาผลิตภัณฑ์ที่ต้องการและแม้กระทั่งผลิตภัณฑ์ที่ไม่ได้ตั้งใจจะซื้อได้ง่ายและรวดเร็ว
 author: Moonma
 ms.date: 05/26/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 667c26a8ab7665f9eb1e2cc91217338fc0eb00d6c9c21ba7b4a7e5a203e41410
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763775"
 ---
+
 # <a name="product-recommendations-overview"></a>ภาพรวมของคำแนะนำผลิตภัณฑ์
 
 [!include [banner](includes/banner.md)]

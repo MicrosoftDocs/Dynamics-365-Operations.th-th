@@ -1,26 +1,21 @@
 ---
+# required metadata
 title: ภาพรวมของสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 description: หัวข้อนี้จะแสดงภาพรวมของสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce
 author: v-chgri
 ms.date: 07/16/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application user
 ms.reviewer: josaw
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2019-12-10
+ms.search.validFrom: '2019-12-10'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f225db13fba91ce78287adfda9c6d084dea20af33e62287f517e51cc5a296352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752523"
 ---
+
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>ภาพรวมของสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 description: บทความนี้อธิบายถึง เพจที่คุณใช้ในการตั้งค่าฟังก์ชันพื้นฐานและฟังก์ชันเพิ่มเติมสำหรับบัญชีเจ้าหนี้ นอกจากนี้ยังอธิบายขั้นตอนการตั้งค่าที่คุณต้องดำเนินการก่อนที่คุณจะเริ่มการตั้งค่าบัญชีเจ้าหนี้อีกด้วย
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode'
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "24671"
-- intro-internal
+  - '24671'
+  - intro-internal
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30fe9433e7fe5f240ed46272e869d442d226af6c7da19a42faba87a0baf5131b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749185"
 ---
+
 # <a name="configure-accounts-payable-overview"></a>ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +37,7 @@ ms.locfileid: "6749185"
 
 ## <a name="setup-pages-for-accounts-payable"></a>ตั้งค่าหน้าสำหรับบัญชีเจ้าหนี้
 
-ใช้หน้าต่อไปนี้เพื่อตั้งค่าฟังก์ชันพื้นฐานของบัญชีเจ้าหนี้สำหรับนิติบุคคลแต่ละแห่ง หน้าแสดงรายการอยู่ในลำดับที่แนะนำสำหรับการตั้งค่า เพื่อทำให้กระบวนการตั้งค่าง่ายขึ้น คุณสามารถสร้างเท็มเพลตจากเรกคอร์ดแรกที่คุณสร้าง ในเท็มเพลต โดยทั่วไปมีป้อนค่าในหลายฟิลด์เพื่อสะท้อนถึงลักษณะการทำงานที่องค์กรต้องการใช้สำหรับชนิดของผู้จัดจำหน่าย
+ใช้หน้าต่อไปนี้เพื่อตั้งค่าฟังก์ชันพื้นฐานของบัญชีเจ้าหนี้สำหรับนิติบุคคลแต่ละแห่ง หน้าแสดงรายการอยู่ในลำดับที่แนะนำสำหรับการตั้งค่า เพื่อทำให้กระบวนการตั้งค่าง่ายขึ้น คุณสามารถสร้างเทมเพลตจากเรกคอร์ดแรกที่คุณสร้าง ในเทมเพลต โดยทั่วไปมีป้อนค่าในหลายฟิลด์เพื่อสะท้อนถึงลักษณะการทำงานที่องค์กรต้องการใช้สำหรับชนิดของผู้จัดจำหน่าย
 1.  ตามเงื่อนไขการชำระเงิน กำหนดเงื่อนไขการชำระเงินที่คุณกำหนดให้กับใบสั่งขาย ใบสั่งซื้อ ลูกค้า และผู้จัดจำหน่าย และที่กำหนดวันที่ครบกำหนดของใบแจ้งหนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยว โปรดดู [กำหนดค่าธรรมเนียมการชำระเงินให้แก่ผู้จัดจำหน่าย](tasks/define-vendor-payment-fees.md)
 2.  ตามวิธีการชำระเงิน - หน้าผู้จัดจำหน่าย สร้างและรักษาข้อมูลเกี่ยวกับวิธีที่องค์กรจ่ายให้กับผู้จัดจำหน่าย
 3.  ในหน้ากลุ่มผู้จัดจำหน่าย สร้างและรักษากลุ่มของผู้จัดจำหน่ายที่ใช้พารามิเตอร์ที่สำคัญร่วมกันสำหรับการลงรายการบัญชี การตัดจ่ายและการชำระเงิน การรายงาน และการคาดการณ์

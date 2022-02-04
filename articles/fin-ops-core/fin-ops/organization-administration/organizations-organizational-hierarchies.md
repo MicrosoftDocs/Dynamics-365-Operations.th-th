@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
 description: ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: OMHierarchyManager, OMOperatingUnit,
+ms.date: 01/03/2022
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'OMHierarchyManager, OMOperatingUnit,'
 audience: Application User
 ms.reviewer: sericks
 ms.custom:
-- "17291"
-- intro-internal
+  - '17291'
+  - intro-internal
 ms.assetid: 76b7ca45-93d4-45cc-b191-66ee63afa1fd
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798357"
 ---
+
 # <a name="organizations-and-organizational-hierarchies-overview"></a>ภาพรวมขององค์กรและลำดับชั้นขององค์กร
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +50,7 @@ ms.locfileid: "7798357"
 | หน่วยธุรกิจ       | หน่วยปฏิบัติงานกึ่งอิสระที่สร้างขึ้นเพื่อให้ตรงตามวัตถุประสงค์เชิงกลยุทธ์ทางธุรกิจ | ใช้สำหรับการรายงานทางการเงินที่เป็นไปตามอุตสาหกรรมหรือรายการผลิตภัณฑ์ที่องค์กรทำหน้าที่อย่างเป็นอิสระจากนิติบุคคล |
 | สายธารคุณค่า        | หน่วยปฏิบัติงานที่ควบคุมขั้นตอนการผลิตหนึ่งขั้นตอนขึ้นไป | โดยทั่วไปใช้ใน Lean Manufacturing เพื่อควบคุมกิจกรรมและขั้นตอนที่จำเป็นต้องมีเพื่อจัดหาผลิตภัณฑ์หรือบริการให้แก่ผู้ใช้ |
 | แผนก          | หน่วยปฏิบัติงานที่แสดงถึงประเภทหรือส่วนฟังก์ชันขององค์กรที่ทำงานที่เฉพาะเจาะจง เช่น การขายหรือการบัญชี | ถูกใช้ในการรายงานในขอบเขตหน้าที่ แผนกอาจมีความรับผิดชอบต่อกำไรขาดทุน และอาจประกอบด้วยกลุ่มของศูนย์ต้นทุน |
-| ช่องทางการค้า      | หน่วยปฏิบัติงานที่แสดงถึงร้านค้าจริง ร้านค้าออนไลน์ หรือมาร์เก็ตเพลสออนไลน์ | ใช้สำหรับการจัดการและการควบคุมการดำเนินงานของร้านค้าหนึ่งร้านขึ้นไปภายในหรือระหว่างนิติบุคคล |
+| ช่องทางการขายปลีก      | หน่วยปฏิบัติงานที่แสดงถึงร้านค้าจริง ร้านค้าออนไลน์ หรือศูนย์บริการ | ใช้สำหรับการจัดการและการควบคุมการดำเนินงานของร้านค้าหนึ่งร้านขึ้นไปภายในหรือระหว่างนิติบุคคล |
 
 ### <a name="teams"></a>ทีมงาน
 

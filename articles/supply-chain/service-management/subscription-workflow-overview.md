@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมลำดับงานการสั่งซื้อโดยบอกรับเป็นสมาชิก
 description: หัวข้อนี้แสดงภาพรวมของลำดับงานการบอกรับเป็นสมาชิก
 author: kamaybac
 ms.date: 05/07/2018
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'SMASubscriptionGroup, SMASubscriptionCreateDialog'
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98591a2bf712cc4df70ab18b5e65b37218d5b709
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569972"
 ---
+
+
 # <a name="subscription-workflow-overview"></a>ภาพรวมลำดับงานการสั่งซื้อโดยบอกรับเป็นสมาชิก 
 
 [!include [banner](../includes/banner.md)]

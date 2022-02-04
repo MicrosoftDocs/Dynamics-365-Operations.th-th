@@ -1,33 +1,28 @@
 ---
+# required metadata
 title: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของ Finance and Operations
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของการเงินและการดำเนินงาน
 author: roxanadiaconu
 ms.date: 07/23/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: SelfHealingWorkspace
-audience: Application User, IT Pro
+audience: 'Application User, IT Pro'
 ms.reviewer: sericks
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: sericks
-ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: fb076882e20e7c94bf0a95f3a5365b5fe8c25cedd431fb07d6e0dc5950ebb688
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729002"
+ms.search.validFrom: '2017-12-01'
+ms.dyn365.ops.version: 7.3
 ---
+
 # <a name="optimization-advisor-overview"></a>ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของ Finance and Operations
+หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของการเงินและการดำเนินงาน
 
 ## <a name="overview"></a>ภาพรวม
 

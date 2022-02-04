@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: ตั้งค่าคอนฟิกพารามิเตอร์สัญญาเช่า (พรีวิว)
 description: หัวข้อนี้จะอธิบายการตั้งค่าของการตั้งค่าคอนฟิกสำหรับสัญญาเช่าสินทรัพย์ เช่น ข้อมูลความปลอดภัย และการตั้งค่าการบัญชี
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
-ms.search.validFrom: 2020-10-28
+ms.search.validFrom: '2020-10-28'
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779049"
 ---
+
 # <a name="configure-lease-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์สัญญาเช่า
 
 [!include [banner](../includes/banner.md)]
@@ -44,5 +40,6 @@ ms.locfileid: "6779049"
     > [!NOTE]
     > เราขอแนะนำให้คุณตั้งค่าตัวเลือกนี้เป็น **ไม่** การตั้งค่าของตัวเลือกนี้จะใช้เป็นการตรวจสอบความถูกต้องและการควบคุม เพื่อป้องกันไม่ให้มีการคิดค่าเสื่อมราคารุ่นของสมุดบัญชีที่ปิดโดยบังเอิญ โดยการตั้งค่าตัวเลือกเป็น **ไม่** คุณช่วยในการรักษามูลค่าตามบัญชีสุทธิและในการคำนวณค่าเสื่อมราคาในอนาคตให้ถูกต้อง
 
+5. ตั้งค่าตัวเลือก **อนุญาตให้แบ่งยอดการชำระเงิน** เป็น **ใช่** เพื่ออนุญาตให้มีการแบ่งยอดการชำระเงินบนแท็บด่วน **รายการกำหนดการชำระเงิน** ของหน้า **สัญญาเช่า** ชนิดการแบ่งการชำระเงินจะถูกกําหนดภายใต้ **การตั้งค่า** ในหน้า **ชนิดยอดการชำระเงิน** 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

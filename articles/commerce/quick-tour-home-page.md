@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของโฮมเพจ
 description: หัวข้อนี้แสดงภาพรวมของโฮมเพจใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: anupamar
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 49cf6dcbeff00d3918d2ab953da9d44957804ccaf95f0fdb3405c4e89934c365
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738034"
 ---
+
 # <a name="home-page-overview"></a>ภาพรวมของโฮมเพจ
 
 [!include [banner](includes/banner.md)]

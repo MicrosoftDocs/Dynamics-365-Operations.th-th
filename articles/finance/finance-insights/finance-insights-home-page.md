@@ -1,38 +1,32 @@
 ---
+# required metadata
 title: โฮมเพจ Finance Insights
 description: Finance Insights จะให้แบบจำลองที่สามารถจัดโครงแบบได้และมีการขยายตัวเพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณได้อย่างถูกต้อง คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถเพิ่มความเร็วในการจัดทำงบ ลักษณะการทำงานทั้งหมดเหล่านี้จะขึ้นอยู่กับแบบจำลองการเรียนรู้ของเครื่องอัจฉริยะ
 author: ShivamPandey-msft
 ms.date: 11/15/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
-- "14151"
-- intro-internal
+  - '14151'
+  - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2020-07-20
+ms.search.validFrom: '2020-07-20'
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813758"
 ---
 # <a name="finance-insights-home-page"></a>โฮมเพจ Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance Insights จะให้โซลูชันที่สามารถกำหนดค่าคอนฟิกและขยายได้เพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณ คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถช่วยเพิ่มความเร็วในการจัดทำงบได้อย่างถูกต้อง คุณลักษณะเหล่านี้ใช้เทมเพลตการเรียนรู้ของเครื่องที่ชาญฉลาดเพื่อสร้างโมเดลโดยใช้ข้อมูลที่คุณให้ไว้ (รวมถึงข้อมูลจากบุคคลที่สาม เช่น ข้อมูลรายงานของผู้ใช้จากสํานักงาน) ความสามารถที่ชาญฉลาดเหล่านี้พร้อมจะแจ้งการตัดสินใจและช่วยคุณในการตอบสนองต่อความท้าทายทางธุรกิจปัจจุบันและที่คาดไว้อย่างมีประสิทธิภาพ คุณเป็นผู้รับผิดชอบข้อมูลใดๆ ที่ใช้หรือผลลัพธ์จาก Finance Insights
 
 > [!NOTE]
-> ตัวอย่าง Finance Insights จะพร้อมใช้งานสำหรับการปรับใช้ในสหรัฐอเมริกา แคนาดา สหราชอาณาจักร ยุโรป เอเชียแปซิฟิค ญี่ปุ่น ออสเตรเลีย และนิวซีเลนด์ Microsoft กำลังเพิ่มการสนับสนุนสำหรับภูมิภาคเพิ่มเติมมากขึ้น
+> Finance Insights จะพร้อมใช้งานสำหรับการปรับใช้ในสหรัฐอเมริกา แคนาดา สหราชอาณาจักร ยุโรป เอเชียแปซิฟิค ญี่ปุ่น ออสเตรเลีย และนิวซีเลนด์ Microsoft กำลังเพิ่มการสนับสนุนสำหรับภูมิภาคเพิ่มเติมมากขึ้น
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
@@ -102,6 +96,6 @@ Finance Insights จะให้โซลูชันที่สามารถ
 
 ## <a name="feedback-and-support"></a>ผลป้อนกลับและการสนับสนุน
 
-หากคุณมีความสนใจในการให้ข้อเสนอแนะ หรือหากคุณต้องการความช่วยเหลือ กรุณาส่งอีเมล์ถึง [Finance Insights (ตัวอย่าง)](mailto:fiap@microsoft.com)
+หากคุณมีความสนใจในการให้ข้อเสนอแนะ หรือหากคุณต้องการความช่วยเหลือ กรุณาส่งอีเมลถึง [Finance Insights (ตัวอย่าง)](mailto:fiap@microsoft.com)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

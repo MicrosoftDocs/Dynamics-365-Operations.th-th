@@ -1,41 +1,36 @@
 ---
+# required metadata
 title: แก้ไขปัญหาการตั้งค่า Finance Insights
 description: หัวข้อนี้แสดงรายการปัญหาที่อาจเกิดขึ้น เมื่อคุณใช้ความสามารถ Finance Insights นอกจากนี้ ยังอธิบายวิธีการแก้ไขปัญหาเหล่านั้นด้วย
 author: panolte
 ms.date: 11/03/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "14151"
-- intro-internal
+  - '14151'
+  - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2021-08-20
+ms.search.validFrom: '2021-08-20'
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827064"
 ---
+
 # <a name="troubleshoot-finance-insights-setup-issues"></a>แก้ไขปัญหาการตั้งค่า Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้แสดงรายการปัญหาที่อาจเกิดขึ้น เมื่อคุณใช้ความสามารถ Finance Insights นอกจากนี้ ยังอธิบายวิธีการแก้ไขปัญหาเหล่านั้นด้วย
 
-## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>อาการ: เพราะเหตุใดฉันจึงไม่สามารถแม็ปคอลัมน์ปลายทางของเทมเพลตการรวมข้อมูลเชิงลึกของการชำระเงินของลูกค้า
+## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>อาการ: เพราะเหตุใดฉันจึงไม่สามารถแมปคอลัมน์ปลายทางของเทมเพลตการรวมข้อมูลเชิงลึกของการชำระเงินของลูกค้า
 
 ### <a name="resolution"></a>การแก้ปัญหา
 
-คุณอาจใช้เทมเพลตสำหรับรุ่นก่อนหน้านี้ ก่อนการนำออกใช้ของรุ่น 10.0.17 ให้แสดงตัวอย่างลูกค้าที่ตั้งค่าคอนฟิกเทมเพลตการรวมข้อมูล (DI) ของ **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CDS to Fin and Ops)** โดยใช้เอนทิตี **ผลลัพธ์การคาดการณ์การชำระเงิน (พรีวิว)** หลังจากการอัพเกรดเป็น 10.0.17 และใหม่กว่า คุณควรใช้เทมเพลต DI **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CDS to Fin and Ops 10.0.17 และใหม่กว่า)** เพื่อดําเนินการแม็ปให้เสร็จสมบูรณ์ คุณอาจไม่สามารถแม็ปคอลัมน์ปลายทางของเทมเพลต DI ได้จนกว่าจะมีการรีเฟรชรายการเอนทิตีการจัดการข้อมูล และเอนทิตี **ผลลัพธ์การคาดการณ์การชำระเงิน** ปรากฏขึ้นในนั้น หากต้องการรีเฟรชรายการเอนทิตีและแสดงผลลัพธ์การคาดการณ์การชำระเงิน คุณจะดําเนินการขั้นตอนต่างๆ ให้เสร็จสมบูรณ์ในทั้ง Microsoft Dynamics 365 Finance และ Dataverse (หรือที่ก่อนหน้านี้เรียกว่า พอร์ทัลผู้ดูแลระบบ Common Data Service \[CDS\])
+คุณอาจใช้เทมเพลตสำหรับรุ่นก่อนหน้านี้ ก่อนการนำออกใช้ของรุ่น 10.0.17 ให้แสดงตัวอย่างลูกค้าที่ตั้งค่าคอนฟิกเทมเพลตการรวมข้อมูล (DI) ของ **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CDS to Fin and Ops)** โดยใช้เอนทิตี **ผลลัพธ์การคาดการณ์การชำระเงิน (พรีวิว)** หลังจากการอัพเกรดเป็น 10.0.17 และใหม่กว่า คุณควรใช้เทมเพลต DI **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CDS to Fin and Ops 10.0.17 และใหม่กว่า)** เพื่อดําเนินการแมปให้เสร็จสมบูรณ์ คุณอาจไม่สามารถแมปคอลัมน์ปลายทางของเทมเพลต DI ได้จนกว่าจะมีการรีเฟรชรายการเอนทิตีการจัดการข้อมูล และเอนทิตี **ผลลัพธ์การคาดการณ์การชำระเงิน** ปรากฏขึ้นในนั้น หากต้องการรีเฟรชรายการเอนทิตีและแสดงผลลัพธ์การคาดการณ์การชำระเงิน คุณจะดําเนินการขั้นตอนต่างๆ ให้เสร็จสมบูรณ์ในทั้ง Microsoft Dynamics 365 Finance และ Dataverse (หรือที่ก่อนหน้านี้เรียกว่า พอร์ทัลผู้ดูแลระบบ Common Data Service \[CDS\])
 
 ### <a name="in-finance"></a>ใน Finance
 
@@ -55,7 +50,7 @@ ms.locfileid: "7827064"
 1. ถ้าคุณใช้รุ่นพรีวิวของ Finance Insights ให้ลบโครงการ DI ที่สัมพันธ์กับเทมเพลต **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops)**
 2. ปฏิบัติตามขั้นตอนใน [สร้างโครงการตัวรวมข้อมูล](create-data-integrate-project.md) ใช้เทมเพลต **ผลลัพธ์ของข้อมูลเชิงลึกของการชำระเงินของลูกค้า (CD to Fin และ Ops 10.0.17 และใหม่กว่า)**
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>อาการ: เมื่อฉันพยายามเปิด AI Builder โดยใช้ลิงค์ในหน้าการตั้งค่าการคาดการณ์การชำระเงินของลูกค้า เพราะเหตุใดฉันจึงได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้ "ขออภัย มีการยกเลิกการเชื่อมต่อ"
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>อาการ: เมื่อฉันพยายามเปิด AI Builder โดยใช้ลิงก์ในหน้าการตั้งค่าการคาดการณ์การชำระเงินของลูกค้า เพราะเหตุใดฉันจึงได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้ "ขออภัย มีการยกเลิกการเชื่อมต่อ"
 
 ### <a name="resolution"></a>การแก้ปัญหา
 

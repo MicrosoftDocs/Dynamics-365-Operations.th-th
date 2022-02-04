@@ -1,26 +1,21 @@
 ---
+# required metadata
 title: ภาพรวมของข้อความแจ้งเตือน (มีวิดีโอ)
 description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับการแจ้งเตือน คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 857a837872abff44c8c7af5e938f7610fa61d94e
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937482"
 ---
+
 # <a name="alerts-overview"></a>ภาพรวมการแจ้งเตือน
 
 [!include [banner](../includes/banner.md)]
@@ -78,13 +73,13 @@ ms.locfileid: "7937482"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-[วิธีการใช้การแจ้งเตือนเพื่อตรวจสอบข้อมูลที่ถูกกรอง](https://youtu.be/ZYKMcv6kl9s) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
+[วิธีการใช้การแจ้งเตือนเพื่อตรวจสอบข้อมูลที่ถูกกรอง](https://youtu.be/ZYKMcv6kl9s) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
 
 ### <a name="alert-rule-options"></a>ตัวเลือกกฎการแจ้งเตือน
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-[ตัวเลือกกฎการแจ้งเตือน](https://youtu.be/cpzimwOjicM) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
+วิดีโอ [ตัวเลือกกฎการแจ้งเตือน](https://youtu.be/cpzimwOjicM) (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
 
 
 

@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของข้อตกลงการให้บริการ
 description: หัวข้อนี้แสดงภาพรวมวิธีการทำงานของข้อตกลงการให้บริการ
 author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578715"
 ---
+
 # <a name="service-agreements-overview"></a>ภาพรวมของข้อตกลงการให้บริการ
 
 [!include [banner](../includes/banner.md)]

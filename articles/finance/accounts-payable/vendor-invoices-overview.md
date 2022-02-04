@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
 description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับใบแจ้งหนี้ของผู้จัดจำหน่าย
 author: abruer
 ms.date: 06/03/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'VendorInvoiceWorkspace, VendInvoiceInfoListPage'
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "13971"
-- intro-internal
+  - '13971'
+  - intro-internal
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647151"
 ---
+
 # <a name="vendor-invoices-overview"></a>ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
@@ -106,7 +102,7 @@ ms.locfileid: "7647151"
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>การกู้คืนใบแจ้งหนี้ของผู้จัดจำหน่ายที่ใช้งานอยู่
 
-ขณะที่มีการใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย ผู้ใช้อื่นจะไม่สามารถแก้ไขได้ อย่างไรก็ตาม สถานะของใบแจ้งหนี้บางครั้งอาจบ่งชี้ว่ามีการใช้ใบแจ้งหนี้อยู่ แม้ว่าจะไม่มีการแก้ไขอยู่ก็ตาม ตัวอย่างเช่น แอพลิเคชันอาจหยุดตอบสนองในขณะที่ใบแจ้งหนี้กำลังถูกแก้ไข หรือผู้ใช้อาจเผลอเปิดใบแจ้งหนี้อยู่ในแอพลิเคชัน
+ขณะที่มีการใช้ใบแจ้งหนี้ของผู้จัดจำหน่าย ผู้ใช้อื่นจะไม่สามารถแก้ไขได้ อย่างไรก็ตาม สถานะของใบแจ้งหนี้บางครั้งอาจบ่งชี้ว่ามีการใช้ใบแจ้งหนี้อยู่ แม้ว่าจะไม่มีการแก้ไขอยู่ก็ตาม ตัวอย่างเช่น แอปพลิเคชันอาจหยุดตอบสนองในขณะที่ใบแจ้งหนี้กำลังถูกแก้ไข หรือผู้ใช้อาจเผลอเปิดใบแจ้งหนี้อยู่ในแอปพลิเคชัน
 
 คุณสามารถใช้หน้า **กู้คืนใบแจ้งหนี้ของผู้จัดจำหน่าย** เพื่อกู้คืนหรือนำใบแจ้งหนี้ของผู้จัดจำหน่ายออกใช้ ที่ได้ถูกใช้มากกว่าสี่ชั่วโมง เพื่อให้สามารถแก้ไขได้ คุณสามารถเปิดหน้านี้ได้จากการนำทาง **งานประจำงวด** หรือไทล์ในพื้นที่ทำงาน **รายการใบแจ้งหนี้ของผู้จัดจำหน่าย** หลังจากการกู้คืนใบแจ้งหนี้ จะพร้อมใช้งานสำหรับการแก้ไขในหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย**
 

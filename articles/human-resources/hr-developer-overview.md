@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมการพัฒนา
 description: คำแนะนำสำหรับนักพัฒนานี้แสดงข้อมูลอ้างอิงฟิลด์ API และแบบกำหนดเอง นอกจากนี้ยังให้ข้อมูลเกี่ยวกับการรวมกับแอปอื่นๆ
 author: andreabichsel
 ms.date: 02/03/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: '2020-02-03'
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 639db592344edea5dffc0b2440b81f560015c21749ac1cb5a88f9cc2415c1208
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731996"
 ---
+
 # <a name="development-overview"></a>ภาพรวมการพัฒนา
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

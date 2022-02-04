@@ -3,24 +3,19 @@ title: ภาพรวมของกระบวนการผลิต
 description: หัวข้อนี้แสดงภาพรวมของกระบวนการผลิต โดยอธิบายขั้นต่างๆ ของใบสั่งผลิต ใบสั่งชุดงาน และคัมบัง ตั้งแต่การสร้างใบสั่งไปจนถึงการปิดบัญชีรอบระยะเวลาทางการเงิน
 author: johanhoffmann
 ms.date: 09/13/2019
-ms.topic: article
-ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
+ms.topic: overview
+ms.search.form: 'JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "19832"
-- intro-internal
+  - '19832'
+  - intro-internal
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a07733f7e1e830fa1c1c4c8e0cfdc5b41d10750
-ms.sourcegitcommit: efccf0838c74cf65382bb6cd852f9bc30ca69230
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7727346"
 ---
+
 # <a name="production-process-overview"></a>ภาพรวมของกระบวนการผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +32,7 @@ ms.locfileid: "7727346"
 
 ## <a name="mixed-mode-manufacturing"></a>การผลิตโหมดผสม
 
-ผลิตภัณฑ์แตกต่างกันและโทโพโลยีการผลิตต้องการแอพลิเคชันของชนิดใบสั่งที่แตกต่างกัน Supply Chain Management สามารถใช้ชนิดใบสั่งต่างๆในโหมดผสม กล่าวอีกอย่างคือ ชนิดใบสั่งทั้งหมดอาจเกิดขึ้นในระหว่างกระบวนการตั้งแต่ต้นจนจบของการผลิตผลิตภัณฑ์สำเร็จรูปหนึ่ง
+ผลิตภัณฑ์แตกต่างกันและโทโพโลยีการผลิตต้องการแอปพลิเคชันของชนิดใบสั่งที่แตกต่างกัน Supply Chain Management สามารถใช้ชนิดใบสั่งต่างๆในโหมดผสม กล่าวอีกอย่างคือ ชนิดใบสั่งทั้งหมดอาจเกิดขึ้นในระหว่างกระบวนการตั้งแต่ต้นจนจบของการผลิตผลิตภัณฑ์สำเร็จรูปหนึ่ง
 
 - **ใบสั่งผลิต**– นี่เป็นชนิดใบสั่งแบบคลาสสิกเพื่อผลิตผลิตภัณฑ์เฉพาะหรือผลิตภัณฑ์ย่อยในปริมาณที่กำหนดในวันเฉพาะเจาะจง ใบสั่งผลิตจะขึ้นอยู่กับสูตรการผลิต (Bom) และกระบวนการผลิต
 - **ใบสั่งชุดงาน**– ชนิดใบสั่งนี้ใช้สำหรับอุตสาหกรรมกระบวนการและกระบวนการที่ไม่ต่อเนื่อง ซึ่งการแปลงการผลิตจะเป็นไปตามสูตร หรือซึ่งสินค้าร่วมและสินค้าพลอยได้อาจเป็นสินค้าสุดท้ายที่เพิ่มเติมหรือแทนที่สินค้าหลัก ใบสั่งชุดงานใช้ชนิด **สูตร** BOMs และกระบวนการผลิต

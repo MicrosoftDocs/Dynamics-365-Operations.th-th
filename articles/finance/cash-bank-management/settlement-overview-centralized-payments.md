@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของการชำระเงินสำหรับการชำระเงินแบบรวมเข้าสู่ศูนย์กลาง
 description: หัวข้อนี้อธิบายการชำระเงินสำหรับการชำระเงินแบบรวมศูนย์สำหรับ Microsoft Dynamics 365 Finance
 author: abruer
 ms.date: 08/02/2018
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "222414"
-- intro-internal
+  - '222414'
+  - intro-internal
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30e8baea4bb7d6aabad36613a49f2d01ad58d1bbaff817efced5bb85f9835687
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777131"
 ---
+
 # <a name="settlement-overview-for-centralized-payments"></a>ภาพรวมของการชำระเงินสำหรับการชำระเงินแบบรวมเข้าสู่ศูนย์กลาง
 
 [!include [banner](../includes/banner.md)]

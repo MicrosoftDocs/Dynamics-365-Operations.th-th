@@ -1,30 +1,26 @@
 ---
+# required metadata
 title: ภาพรวมของการจัดการสินค้าคงคลัง
 description: หัวข้อนี้แสดงภาพรวมของการจัดการสินค้าคงคลัง
 author: yufeihuang
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "2094"
-- intro-internal
+  - '2094'
+  - intro-internal
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: yufeihuang
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 568a8b984b794baa25083cc3a30023b5d4db36db
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567402"
 ---
+
 # <a name="inventory-management-overview"></a>ภาพรวมของการจัดการสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]

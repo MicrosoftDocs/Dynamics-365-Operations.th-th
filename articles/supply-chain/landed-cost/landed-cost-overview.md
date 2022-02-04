@@ -1,26 +1,21 @@
 ---
+# required metadata
 title: โมดูลต้นทุนแฝง
 description: โมดูลต้นทุนแฝง ช่วยให้ธุรกิจสามารถลดขั้นตอนการดำเนินการจัดส่งสินค้าขาเข้าได้ โดยการให้ผู้ใช้สามารถดําเนินการควบคุมทางการเงินและลอจิสติกส์การขนส่งที่นําเข้า จากผู้ผลิตไปยังคลังสินค้าได้
 author: sherry-zheng
 ms.date: 12/07/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.search.scope: 'Core, Operations'
 ms.search.region: Global
 ms.author: chuzheng
-ms.search.validFrom: 2020-12-07
+ms.search.validFrom: '2020-12-07'
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 384649ada36496e8f0bf5709e7f2ab53730aca1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565866"
 ---
+
 # <a name="landed-cost-module"></a>โมดูลต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]
@@ -74,6 +69,6 @@ ms.locfileid: "7565866"
 | เรือ | เรือเป็นสื่อกลางที่ใช้ขนส่งสินค้า เช่น เรือ หรือ เครื่องบิน |
 | สินค้าที่อยู่ระหว่างส่งต่อ | สินค้าจะถูกวางในคลังสินค้าที่อยู่ระหว่างส่งต่อหลังจากอัปเดตใบแจ้งหนี้แล้ว ทั้งนี้ขึ้นอยู่กับการตั้งค่า |
 | กิจกรรม | กิจกรรมสามารถใช้เพื่อจัดเก็บแต่ละขั้นตอนที่สําคัญของการเดินทางระหว่างพอร์ตสองพอร์ต สามารถใช้เพื่ออัปเดตวันที่ |
-| เท็มเพลตการเดินทาง | เท็มเพลตการเดินทางคือเส้นทางที่สินค้าใช้ระหว่างพอร์ตสองพอร์ต |
+| เทมเพลตการเดินทาง | เทมเพลตการเดินทางคือเส้นทางที่สินค้าใช้ระหว่างพอร์ตสองพอร์ต |
 
 หากต้องการเปรียบเทียบคำศัพท์และคุณลักษณะของโมดูล **ต้นทุนแฝง** และ **การจัดการการขนส่ง** (TMS) โปรดดูที่ [ต้นทุนแฝง เทียบกับ การจัดการการขนส่ง](landed-cost-vs-tms.md)

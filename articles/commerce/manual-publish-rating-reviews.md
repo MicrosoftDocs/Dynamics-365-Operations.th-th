@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล
 description: หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแลใน Microsoft Dynamics 365 Commerce และวิธีการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเอง
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-commerce
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
+ms.search.scope: 'Retail, Core, Operations'
 ms.search.region: Global
 ms.author: gmohanv
-ms.search.validFrom: 2021-09-03
+ms.search.validFrom: '2021-09-03'
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675060"
 ---
+
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล
 
 [!include [banner](includes/banner.md)]
@@ -68,3 +64,17 @@ ms.locfileid: "7675060"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของการให้คะแนนและบทวิจารณ์](ratings-reviews-overview.md)
+
+[เลือกที่จะใช้การให้คะแนนและบทวิจารณ์](opt-in-ratings-reviews.md)
+
+[จัดการการให้คะแนนและบทวิจารณ์](manage-reviews.md)
+
+[ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
+
+[ซิงค์การให้คะแนนผลิตภัณฑ์](sync-product-ratings.md)
+
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
+
+[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)

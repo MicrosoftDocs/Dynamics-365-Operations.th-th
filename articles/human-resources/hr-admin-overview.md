@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมการจัดการ
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ เพื่อตั้งค่า จัดการและแก้ไข Dynamics 365 Human Resources
 author: twheeloc
 ms.date: 08/11/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: '2020-02-03'
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393582"
 ---
+
 # <a name="administration-overview"></a>ภาพรวมการจัดการ
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

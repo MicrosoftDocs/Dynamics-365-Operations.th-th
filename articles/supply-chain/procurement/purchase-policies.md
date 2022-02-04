@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของนโยบายการจัดซื้อ
 description: บทความนี้แสดงข้อมูลเกี่ยวกับนโยบายการจัดซื้อ นโยบายการจัดซื้อคือชุดของกฎที่ควบคุมกระบวนการใบขอซื้อ นโยบายการจัดซื้อช่วยให้ผู้ดูแลระบบสามารถปรับใช้การกลยุทธ์การจัดซื้อของพวกเขา ด้วยการสร้างโครงสร้างนโยบายที่สอดคล้องกับความต้องการซื้อเชิงกลยุทธ์ขององค์กร
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "11614"
-- intro-internal
+  - '11614'
+  - intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
 ms.author: henrikan
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d3c35cabc9b5b8c69dbf4d597388192b4130d49
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575499"
 ---
+
 # <a name="purchasing-policies-overview"></a>ภาพรวมของนโยบายการจัดซื้อ
 
 [!include [banner](../includes/banner.md)]

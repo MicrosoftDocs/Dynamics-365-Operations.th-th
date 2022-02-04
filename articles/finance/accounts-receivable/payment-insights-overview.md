@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (รุ่นตัวอย่าง)
 description: หัวข้อนี้อธิบายความสามารถในข้อมูลเชิงลึกการชำระเงินซึ่งช่วยให้เข้าใจแนวทางการชำระเงินโดยทั่วไปของลูกค้ารายคนได้ดียิ่งขึ้น ลักษณะการทำงานยังสามารถช่วยให้คุณระบุถึงสถานการณ์ที่มีการเริ่มต้นกระบวนการเรียกเก็บเงินก่อนหน้าที่คุณทำไว้
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "14151"
-- intro-internal
+  - '14151'
+  - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2019-11-06
+ms.search.validFrom: '2019-11-06'
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737784"
 ---
+
 # <a name="customer-payment-insights-preview"></a>ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (รุ่นตัวอย่าง)
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +65,7 @@ ms.locfileid: "6737784"
 
 ## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการสำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
+พรีวิว (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการสำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
 
 
 

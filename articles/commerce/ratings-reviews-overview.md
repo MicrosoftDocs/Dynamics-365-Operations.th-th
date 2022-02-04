@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของการให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: gmohanv
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c5db01b00390179c2dffcbec50343d7b7101d96
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473488"
 ---
+
 # <a name="ratings-and-reviews-overview"></a>ภาพรวมของการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
@@ -42,7 +37,7 @@ ms.locfileid: "7473488"
 
 โซลูชันการจัดอันดับและบทวิจารณ์จะแสดงวิดเจ็ตซึ่งแสดงสรุปการจัดอันดับในรายการผลิตภัณฑ์ ในผลการค้นหา ในหน้ารายละเอียดของผลิตภัณฑ์ และในที่อื่นๆ วิดเจ็ตจะแสดงรายการบทวิจารณ์ที่สมบูรณ์ และมีตัวเลือกการเรียงลำดับและการกรองข้อมูล
 
-โซลูชันการจัดอันดับและบทวิจารณ์ยังแสดงแม่แบบข่าวกรองธุรกิจ (BI) ซึ่งรวมถึงชุดของการวัดที่จะให้ข้อมูลเชิงลึกให้กับการจัดอันดับและบทวิจารณ์ สามารถส่งออกข้อมูลการจัดอันดับและบทวิจารณ์สำหรับการวิเคราะห์เพิ่มเติมได้
+โซลูชันการจัดอันดับและบทวิจารณ์ยังแสดงเทมเพลตข่าวกรองธุรกิจ (BI) ซึ่งรวมถึงชุดของการวัดที่จะให้ข้อมูลเชิงลึกให้กับการจัดอันดับและบทวิจารณ์ สามารถส่งออกข้อมูลการจัดอันดับและบทวิจารณ์สำหรับการวิเคราะห์เพิ่มเติมได้
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
@@ -53,6 +48,14 @@ ms.locfileid: "7473488"
 [ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
 
 [ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Commerce](sync-product-ratings.md)
+
+[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
+
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
+
+[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

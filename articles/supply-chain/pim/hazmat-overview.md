@@ -1,25 +1,20 @@
 ---
+# required metadata
 title: ภาพรวมของวัตถุอันตราย
 description: หัวข้อนี้แสดงภาพรวมของคุณลักษณะที่เกี่ยวข้องกับการจัดการและการจัดทำเอกสารวัตถุอันตรายระหว่างการจัดการข้อมูลผลิตภัณฑ์และการจัดการคลังสินค้า
 author: t-benebo
 ms.date: 06/10/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
-ms.search.validFrom: 2020-06-10
+ms.search.validFrom: '2020-06-10'
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 22e1b0838160378f3ff9484faaf87c9aec6e8964
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570692"
 ---
+
 # <a name="hazardous-materials-overview"></a>ภาพรวมของวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]

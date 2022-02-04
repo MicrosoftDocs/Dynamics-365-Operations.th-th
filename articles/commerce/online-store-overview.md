@@ -1,28 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมไซต์อีคอมเมิร์ซ
 description: หัวข้อนี้แสดงภาพรวมของการสนับสนุนสำหรับไซต์อีคอมเมิร์ซใน Microsoft Dynamics 365 Commerce
 author: bicyclingfool
 ms.date: 11/05/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application user
 ms.reviewer: josaw
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
-ms.search.validFrom: 2019-09-30
+ms.search.validFrom: '2019-09-30'
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8d1b563b08cce1d7b56c0ab5ebc06d1c900f281e1ceb961721978ba8718eba8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741123"
 ---
+
 # <a name="e-commerce-site-overview"></a>ภาพรวมของไซต์อีคอมเมิร์ซ
 
 [!include [banner](includes/banner.md)]
@@ -41,7 +36,7 @@ ms.locfileid: "6741123"
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
 
-ระหว่างการเริ่มต้นไซต์อีคอมเมิร์ซ คุณจะได้รับพร้อมท์ให้ป้อนชื่อโดเมน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโดเมนใน Commerce โปรดดู [การตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md) และ [โดเมนใน Dynamics 365 Commerce](domains-commerce.md) เมื่อต้องการจัดวางผู้เช่าอีคอมเมิร์ซใหม่โดยใช้ [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) ให้ทำตามขั้นตอนใน [การจัดวางผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md) หลังจากที่ผู้เช่าอีคอมเมิร์ซของคุณถูกตั้งค่าใน LCS จะมีการระบุลิงค์ไปยังตัวสร้างไซต์ Commerce จากนั้นคุณสามารถใช้ตัวสร้างไซต์ Commerce เพื่อเริ่มต้นและตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณได้
+ระหว่างการเริ่มต้นไซต์อีคอมเมิร์ซ คุณจะได้รับพร้อมท์ให้ป้อนชื่อโดเมน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโดเมนใน Commerce โปรดดู [การตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md) และ [โดเมนใน Dynamics 365 Commerce](domains-commerce.md) เมื่อต้องการจัดวางผู้เช่าอีคอมเมิร์ซใหม่โดยใช้ [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) ให้ทำตามขั้นตอนใน [การจัดวางผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md) หลังจากที่ผู้เช่าอีคอมเมิร์ซของคุณถูกตั้งค่าใน LCS จะมีการระบุลิงก์ไปยังตัวสร้างไซต์ Commerce จากนั้นคุณสามารถใช้ตัวสร้างไซต์ Commerce เพื่อเริ่มต้นและตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณได้
 
 ## <a name="initialize-your-e-commerce-site"></a>เริ่มต้นไซต์อีคอมเมิร์ซของคุณ
 
@@ -53,11 +48,11 @@ ms.locfileid: "6741123"
 
 ![กล่องโต้ตอบการเริ่มต้นไซต์ในตัวสร้างไซต์ Commerce](media/e-commerce-site-02.png)
 
-หน้า **ไซต์** ยังรวมถึงปุ่ม **ไซต์ใหม่** ด้วย กล่องโต้ตอบที่ปรากฏขึ้นเมื่อคุณเลือกปุ่มนี้คล้ายกับกล่องโต้ตอบการเริ่มต้นของไซต์แต่ใช้เพื่อสร้างไซต์ใหม่ ไซต์ใหม่จะว่างเปล่า โดยไม่รวมแม่แบบเริ่มต้นหน้า และรูปภาพเดียวกันที่มีให้กับไซต์ **เริ่มต้น** และ **fabrikam** อย่างไรก็ตาม คุณสามารถเปิดตั๋วสนับสนุนเพื่อร้องขอให้มีการเพิ่มสำเนาของเนื้อหาเริ่มต้นลงในไซต์เปล่าใหม่ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
+หน้า **ไซต์** ยังรวมถึงปุ่ม **ไซต์ใหม่** ด้วย กล่องโต้ตอบที่ปรากฏขึ้นเมื่อคุณเลือกปุ่มนี้คล้ายกับกล่องโต้ตอบการเริ่มต้นของไซต์แต่ใช้เพื่อสร้างไซต์ใหม่ ไซต์ใหม่จะว่างเปล่า โดยไม่รวมเทมเพลตเริ่มต้นหน้า และรูปภาพเดียวกันที่มีให้กับไซต์ **เริ่มต้น** และ **fabrikam** อย่างไรก็ตาม คุณสามารถเปิดตั๋วสนับสนุนเพื่อร้องขอให้มีการเพิ่มสำเนาของเนื้อหาเริ่มต้นลงในไซต์เปล่าใหม่ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
-หลังจากที่มีการเริ่มต้นไซต์ใหม่แล้ว หน้า **แรก** โปรแกรมสร้างไซต์ Commerceจะปรากฏขึ้น หน้านี้มีลิงค์ไปยังการดำเนินการทั่วไปและเนื้อหาคำแนะนำ ดังที่แสดงในตัวอย่างในภาพประกอบต่อไปนี้
+หลังจากที่มีการเริ่มต้นไซต์ใหม่แล้ว หน้า **แรก** โปรแกรมสร้างไซต์ Commerceจะปรากฏขึ้น หน้านี้มีลิงก์ไปยังการดำเนินการทั่วไปและเนื้อหาคำแนะนำ ดังที่แสดงในตัวอย่างในภาพประกอบต่อไปนี้
 
-![ลิงค์บนโฮมเพจในตัวสร้างไซต์ Commerce](media/e-commerce-site-03.png)
+![ลิงก์บนโฮมเพจในตัวสร้างไซต์ Commerce](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>แก้ไขช่องทางออนไลน์ของร้านค้าหรือเพิ่มช่องทางออนไลน์ของร้านค้าลงในไซต์อีคอมเมิร์ซ
 
@@ -75,7 +70,7 @@ Dynamics 365 Commerce ใช้ข้อมูลธุรกิจ-ผู้บ
 
 ## <a name="overview-of-the-default-site-pages"></a>ภาพรวมของหน้าไซต์เริ่มต้น
 
-ไซต์ **ค่าเริ่มต้น** และ **fabrikam** รวมถึงแม่แบบ ส่วน และหน้าที่กำหนดไว้ล่วงหน้าเพื่อช่วยคุณในการเริ่มต้นใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
+ไซต์ **ค่าเริ่มต้น** และ **fabrikam** รวมถึงเทมเพลต ส่วน และหน้าที่กำหนดไว้ล่วงหน้าเพื่อช่วยคุณในการเริ่มต้นใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
 
 - [ภาพรวมของโฮมเพจ](quick-tour-home-page.md)
 - [ภาพรวมของหน้ารายละเอียดผลิตภัณฑ์](quick-tour-pdp.md)
@@ -97,7 +92,7 @@ Dynamics 365 Commerce ใช้ข้อมูลธุรกิจ-ผู้บ
 
 - [อภิธานศัพท์ของรูปแบบหน้า](page-elements-overview.md)
 - [สถานะและระยะเวลาใช้งานของเอกสาร](document-states-overview.md)
-- [แม่แบบและเค้าโครง](templates-layouts-overview.md)
+- [เทมเพลตและเค้าโครง](templates-layouts-overview.md)
 - [ใช้งานส่วนย่อย](work-with-fragments.md)
 - [ใช้งานโมดูล](work-with-modules.md)
 - [ภาพรวมของการจัดการสินทรัพย์ดิจิทัล](dam-overview.md)

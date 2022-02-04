@@ -1,11 +1,12 @@
----
+--- 
+# required metadata 
 title: ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
 description: หัวข้อนี้มุ่งเน้นการตั้งค่าของโพรไฟล์ภาพรวมการมาถึง
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,18 +14,12 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: yufeihuang
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bebb2fdb894fb38246d45f03a84f31879e1ba580
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580827"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
 
-[!include [banner](../../includes/banner.md)]]
+[!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้มุ่งเน้นการตั้งค่าของโพรไฟล์ภาพรวมการมาถึง โพรไฟล์ภาพรวมการมาถึงคือ ชุดของกฎที่จะใช้เมื่อผู้ใช้มีการเปิดหน้าภาพรวมของการมาถึง คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปจะดำเนินการโดยเจ้าหน้าที่รับสินค้า
 

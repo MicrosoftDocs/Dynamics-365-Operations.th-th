@@ -1,28 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมข้อมูลผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย
 author: t-benebo
 ms.date: 06/01/2017
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist'
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: benebotg
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 103a8915d56d9883cb5dc06414bc05150d07a03c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565746"
 ---
+
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +51,7 @@ ms.locfileid: "7565746"
 
 สามารถสร้างข้อกำหนดผลิตภัณฑ์ได้ในการบริหารห่วงโซ่อุปทาน ซึ่งยังสามารถถูกนำเข้าจากการจัดการวัฏจักรผลิตภัณฑ์ (PLM) การจัดการข้อมูลผลิตภัณฑ์ (PDM) หรือระบบการจัดการข้อมูลผลิตภัณฑ์ (PIM) ได้ เมื่อมีการใช้อินสแตนซ์ของ Supply Chain Management มากกว่าหนึ่งรายการ โดยทั่วไป อินสแตนซ์หนึ่งจะถูกใช้เป็นข้อมูลหลักของข้อมูลผลิตภัณฑ์สำหรับอินสแตนซ์อื่น ๆ ทั้งหมด วิธีการนี้ได้รับการสนับสนุนโดยชุดของเอนทิตีข้อมูลขนาดใหญ่ ซึ่งเปิดใช้งานการส่งออกและนำเข้าข้อมูลคำนิยามผลิตภัณฑ์จากอินสแตนซ์หนึ่งไปยังอีกอินสแตนซ์หนึ่งได้
 
-เพื่อสนับสนุนการกระจายของข้อมูลผลิตภัณฑ์ไปยังอินสแตนซ์ต่างๆ Supply Chain Management อนุญาตให้คุณใช้ Microsoft Dataverse สามารถส่งออกข้อกำหนดผลิตภัณฑ์จากอินสแตนซ์ของ Supply Chain Management ไปยัง Microsoft Dataverse ได้ จากนั้น สามารถใช้ข้อกำหนดผลิตภัณฑ์เพื่อเตรียมใช้งานแอพลิเคชันทางธุรกิจอื่นๆ เช่น Dynamics 365 Sales ด้วยข้อมูลผลิตภัณฑ์
+เพื่อสนับสนุนการกระจายของข้อมูลผลิตภัณฑ์ไปยังอินสแตนซ์ต่างๆ Supply Chain Management อนุญาตให้คุณใช้ Microsoft Dataverse สามารถส่งออกข้อกำหนดผลิตภัณฑ์จากอินสแตนซ์ของ Supply Chain Management ไปยัง Microsoft Dataverse ได้ จากนั้น สามารถใช้ข้อกำหนดผลิตภัณฑ์เพื่อเตรียมใช้งานแอปพลิเคชันทางธุรกิจอื่นๆ เช่น Dynamics 365 Sales ด้วยข้อมูลผลิตภัณฑ์
 
 โปรดสังเกตว่า ในองค์กรแบบไดนามิกและแบบคล่อง ข้อมูลผลิตภัณฑ์เปลี่ยนแปลงทุกวัน ดังนั้น การบำรุงรักษาข้อมูลผลิตภัณฑ์ตามจริงและถูกต้องคือ กระบวนการทางธุรกิจที่สำคัญเอง
 
@@ -64,7 +59,7 @@ ms.locfileid: "7565746"
 
 ในโลกที่คล่อง ที่ซึ่งผลิตภัณฑ์ต้องสามารถถูกดัดแปลงได้อย่างรวดเร็วให้ตรงตามความต้องการของลูกค้า คำนิยามผลิตภัณฑ์ระบุชุดของผลิตภัณฑ์ แทนที่ผลิตภัณฑ์เฉพาะ ใน Supply Chain Management ผลิตภัณฑ์ทั่วไปเหล่านั้นเป็นที่รู้จักในฐานะ *ผลิตภัณฑ์หลัก* ผลิตภัณฑ์หลักระงับคำนิยามและกฎ ที่ระบุวิธีที่ผลิตภัณฑ์เฉพาะถูกอธิบายและทำงานในกระบวนการทางธุรกิจ โดยขึ้นอยู่กับข้อกำหนดเหล่านี้ ผลิตภัณฑ์เฉพาะสามารถถูกสร้างได้ ผลิตภัณฑ์เฉพาะเหล่านี้ถูกเรียกว่า *ผลิตภัณฑ์ย่อย*
 
-ผลิตภัณฑ์หลักจะเชื่อมโยงอยู่กับกลุ่มมิติของผลิตภัณฑ์ และเทคโนโลยีการตั้งค่าคอนฟิก เพื่อระบุกฎทางธุรกิจ มิติของผลิตภัณฑ์ (สี ขนาด ลักษณะ และการตั้งค่าคอนฟิก) คือ ชุดเฉพาะของแอททริบิวต์ที่สามารถใช้ได้ทั่วทั้งแอพลิเคชัน เพื่อกำหนดและติดตามลักษณะเฉพาะของผลิตภัณฑ์ที่เกี่ยวข้อง มิติเหล่านี้ช่วยผู้ใช้ในการค้นหาและระบุผลิตภัณฑ์
+ผลิตภัณฑ์หลักจะเชื่อมโยงอยู่กับกลุ่มมิติของผลิตภัณฑ์ และเทคโนโลยีการตั้งค่าคอนฟิก เพื่อระบุกฎทางธุรกิจ มิติของผลิตภัณฑ์ (สี ขนาด ลักษณะ และการตั้งค่าคอนฟิก) คือ ชุดเฉพาะของแอททริบิวต์ที่สามารถใช้ได้ทั่วทั้งแอปพลิเคชัน เพื่อกำหนดและติดตามลักษณะเฉพาะของผลิตภัณฑ์ที่เกี่ยวข้อง มิติเหล่านี้ช่วยผู้ใช้ในการค้นหาและระบุผลิตภัณฑ์
 
 ## <a name="configuration-technologies"></a>เทคโนโลยีการตั้งค่าคอนฟิก
 

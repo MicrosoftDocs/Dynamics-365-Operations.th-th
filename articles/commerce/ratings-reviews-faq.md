@@ -1,25 +1,21 @@
 ---
+# required metadata
 title: คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับโซลูชันการให้คะแนนและบทวิจารณ์ Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
+ms.search.scope: 'Retail, Core, Operations'
 ms.search.region: Global
 ms.author: gmohanv
-ms.search.validFrom: 2021-09-03
+ms.search.validFrom: '2021-09-03'
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d3642392ed2cf231f261b24428756c6e32a79f98
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674585"
 ---
+
 # <a name="ratings-and-reviews-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
@@ -41,5 +37,17 @@ ms.locfileid: "7674585"
 [เลือกที่จะใช้การให้คะแนนและบทวิจารณ์](opt-in-ratings-reviews.md)
 
 [เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
+
+[จัดการการให้คะแนนและบทวิจารณ์](manage-reviews.md)
+
+[ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
+
+[ซิงค์การให้คะแนนผลิตภัณฑ์](sync-product-ratings.md)
+
+[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
+
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
 
 [ตัวคัดสรรค์การให้คะแนนบนหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานโซลูชันการให้คะแนนและบทวิจารณ์](troubleshoot/hide-ratings-refiner.md)

@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: ภาพรวมชนิดของแผน
 description: ชนิดของแผนใน Microsoft Dynamics 365 Human Resources เป็นการจัดกลุ่มในระดับสูงของสิทธิประโยชน์ชนิดเฉพาะทาง
 author: twheeloc
 ms.date: 08/24/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'BenefitWorkspace, HcmBenefitSummaryPart'
 audience: Application User
 ms.search.scope: Human Resources
 ms.custom: 7521
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: '2020-02-03'
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431422"
 ---
+
 # <a name="plan-type-overview"></a>ภาพรวมชนิดของแผน
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

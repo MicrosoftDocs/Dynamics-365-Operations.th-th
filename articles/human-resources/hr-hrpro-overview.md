@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวม
 description: คู่มือผู้ใช้ Dynamics 365 Human Resources จะให้คำแนะนำเกี่ยวกับการตั้งค่าทรัพยากรบุคคล ให้ตั้งค่าค่าตอบแทนและสวัสดิการสำหรับพนักงาน และการจัดการพนักงานของคุณ
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: EssWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: '2020-02-03'
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1aa1299277e4c96d2fe7a4c3bd03b907a5cc0b5
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465112"
 ---
+
 # <a name="overview"></a>ภาพรวม
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

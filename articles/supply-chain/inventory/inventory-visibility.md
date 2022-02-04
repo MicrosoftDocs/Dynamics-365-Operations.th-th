@@ -1,24 +1,20 @@
 ---
+# required metadata
 title: ภาพรวม Add-in การแสดงผลสินค้าคงคลัง
 description: หัวข้อนี้อธิบายถึงสิ่งที่การแสดงผลสินค้าคงคลังและอธิบายคุณลักษณะของสินค้าคงคลัง
 author: yufeihuang
 ms.date: 10/26/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
-ms.search.validFrom: 2020-10-26
+ms.search.validFrom: '2020-10-26'
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1ea1d8c1b0e8c996ead8461005960fa756ce6ca7
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678920"
 ---
+
 # <a name="inventory-visibility-add-in-overview"></a>ภาพรวม Add-in การแสดงผลสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]

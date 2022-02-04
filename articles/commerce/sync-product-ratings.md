@@ -1,27 +1,23 @@
 ---
+# required metadata
 title: ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 description: หัวข้อนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.custom: null
+ms.assetid: null
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: gmohanv
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473536"
 ---
+
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
@@ -130,6 +126,16 @@ ms.locfileid: "7473536"
 [จัดการการให้คะแนนและบทวิจารณ์](manage-reviews.md)
 
 [ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
+
+[ซิงค์การให้คะแนนผลิตภัณฑ์](sync-product-ratings.md)
+
+[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
+
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
+
+[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

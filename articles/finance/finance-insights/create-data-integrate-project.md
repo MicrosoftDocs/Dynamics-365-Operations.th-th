@@ -1,31 +1,25 @@
 ---
+# required metadata
 title: สร้างโครงการรวมข้อมูล
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างโครงการรวมข้อมูล
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2020-07-24
+ms.search.validFrom: '2020-07-24'
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752675"
 ---
 # <a name="create-a-data-integration-project"></a>สร้างโครงการรวมข้อมูล
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้จะอธิบายถึงวิธีการสร้างโครงการรวมข้อมูล
 
@@ -51,12 +45,12 @@ ms.locfileid: "7752675"
         - Dynamics 365
         - Dynamics 365 for Fin & Ops
 
-    6. เลือกการแม็ปองค์กรที่เหมาะสม
+    6. เลือกการแมปองค์กรที่เหมาะสม
     7. เลือก **สร้าง**
 
 5. เปิด [สภาพแวดล้อม Power Apps](https://admin.powerapps.com/environments) และปฏิบัติตามขั้นตอนต่อไปนี้  
 
-    1. สร้างโครงการการรวมข้อมูลสำหรัแม่แบบต่อไปนี้โดยใช้การตั้งค่าการเชื่อมต่อที่คุณเพิ่งสร้างขึ้น:
+    1. สร้างโครงการการรวมข้อมูลสำหรัเทมเพลตต่อไปนี้โดยใช้การตั้งค่าการเชื่อมต่อที่คุณเพิ่งสร้างขึ้น:
 
         - ผลลัพธ์เชิงลึกของการชำระเงินของลูกค้า (CDS to Fin และ Ops 10.0.17+)
         - ผลลัพธ์ของชุดเวลาของกระแสเงินสด (CD to Fin และ Ops)

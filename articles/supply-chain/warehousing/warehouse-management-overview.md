@@ -1,25 +1,19 @@
 ---
+# required metadata
 title: ภาพรวมการบริหารคลังสินค้า
 description: 'ใช้การบริหารคลังสินค้าเพื่อตรวจสอบและดำเนินกระบวนการคลังสินค้าแบบอัตโนมัติ '
 author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: WHSParameters, WHSWorkPool
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'WHSParameters, WHSWorkPool'
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5929b8a7de5f65239c0c6213ee238f9821577275
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579963"
 ---
 # <a name="warehouse-management-overview"></a>ภาพรวมของการจัดการคลังสินค้า
 
@@ -32,13 +26,13 @@ ms.locfileid: "7579963"
 
 - ไปที่หน้า **พารามิเตอร์การจัดการคลังสินค้า** ภายใต้ **การจัดการคลังสินค้า** > **ตั้งค่า** เพื่อตั้งค่าพารามิเตอร์คลังสินค้าทั่วไป
 
-คุณต้องตั้งค่าคอนฟิกส่วนประกอบสำหรับลำดับงานของกระบวนการคลังสินค้าขาเข้าและขาออกตามความต้องการทางธุรกิจ ส่วนประกอบสำคัญที่สุดที่คุณต้องตั้งค่าคอนฟิกคือ เท็มเพลตเวฟ เท็มเพลตงาน กลุ่มงาน และคำสั่งสถานที่
+คุณต้องตั้งค่าคอนฟิกส่วนประกอบสำหรับลำดับงานของกระบวนการคลังสินค้าขาเข้าและขาออกตามความต้องการทางธุรกิจ ส่วนประกอบสำคัญที่สุดที่คุณต้องตั้งค่าคอนฟิกคือ เทมเพลตเวฟ เทมเพลตงาน กลุ่มงาน และคำสั่งสถานที่
 
 - [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](warehouse-configuration.md)
-- [ควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
+- [ควบคุมงานคลังสินค้าโดยเทมเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
 - [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
 - [ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
-- [ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ](./tasks/set-up-work-template-purchase-orders.md)
+- [ตั้งค่าเทมเพลตงานสำหรับใบสั่งซื้อ](./tasks/set-up-work-template-purchase-orders.md)
 
 ## <a name="warehouse-management-processes"></a>กระบวนการจัดการคลังสินค้า
 - การสนับสนุนแบบรวมสำหรับเอกสารต้นทางสำหรับใบสั่งขาย การส่งคืนสินค้า ใบสั่งโอนย้าย ใบสั่งผลิต และคัมบัง  

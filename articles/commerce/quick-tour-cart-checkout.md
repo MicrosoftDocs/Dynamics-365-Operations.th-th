@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของรถเข็นและหน้าเช็คเอาท์
 description: หัวข้อนี้แสดงภาพรวมของหน้ารถเข็นและการเช็คเอาท์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.search.region: Global
-ms.search.industry: ''
+ms.search.industry: null
 ms.author: anupamar
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8b983ac7f25d629e532769a331a9880b24f3745a195f2c0e9752b238039232a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763726"
 ---
+
 # <a name="cart-and-checkout-pages-overview"></a>ภาพรวมของรถเข็นและหน้าเช็คเอาท์
 
 [!include [banner](includes/banner.md)]
@@ -92,7 +87,7 @@ ms.locfileid: "6763726"
 
 เมื่อลูกค้าวางใบสั่งจะมีการระบุหมายเลขการยืนยัน ถึงตอนนี้ การชำระเงินได้รับการอนุมัติแล้วแต่ยังไม่ได้เรียกเก็บเงิน การชำระเงินจะมีการเรียกเก็บเฉพาะเมื่อมีการสั่งซื้อเรียบร้อยเท่านั้น (นั่นคือเมื่อมีการจัดส่งหรือได้รับสินค้าแล้ว)
 
-หลังจากสร้างใบสั่งแล้ว จะมีการส่งอีเมล์ยืนยันใบสั่งไปยังลูกค้า
+หลังจากสร้างใบสั่งแล้ว จะมีการส่งอีเมลยืนยันใบสั่งไปยังลูกค้า
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างหน้าเช็คเอาท์ ให้ดูที่ [เพิ่มโมดูลเช็คเอาท์ไปยังหน้า](add-checkout-module.md)
 

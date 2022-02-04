@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย
 description: บทความนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม
 author: aprilolson
 ms.date: 01/11/2018
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: LedgerAccuralTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "14131"
-- intro-internal
+  - '14131'
+  - intro-internal
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3eaf49a730586e4d97b0a68cdfebc666933a7a97cb99965d67b00bde464e3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778953"
 ---
+
 # <a name="accruals-overview"></a>ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย
 
 [!include [banner](../includes/banner.md)]

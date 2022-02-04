@@ -1,31 +1,25 @@
 ---
+# required metadata
 title: เปิดใช้งานข้อเสนองบประมาณ
 description: หัวข้อนี้จะอธิบายวิธีการเปิดและตั้งค่าคอนฟิกลักษณะการทำงานข้อเสนองบประมาณในข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2020-07-24
+ms.search.validFrom: '2020-07-24'
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752723"
 ---
 # <a name="enable-budget-proposal"></a>เปิดใช้งานข้อเสนองบประมาณ
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการเปิดและตั้งค่าคอนฟิกลักษณะการทำงานข้อเสนองบประมาณในข้อมูลเชิงลึกทางการเงิน
 

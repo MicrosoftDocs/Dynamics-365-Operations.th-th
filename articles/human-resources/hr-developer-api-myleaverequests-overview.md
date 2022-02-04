@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของ MyLeaveRequests
 description: เอนทิตี้ MyLeaveRequests ใน Microsoft Dynamics 365 Human Resources แสดงรายการคำขอลางานในระบบ ขอบเขต (จำกัด) ให้กับการเข้าถึงคำขอของเอนทิตี้ผู้ใช้ปัจจุบันที่สอบถาม
 author: andreabichsel
 ms.date: 02/03/2020
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: '2020-02-03'
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fefa436142fb99ed3bfb3d4454046a5d76619daecbf6f05100e8e405fca67d48
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732116"
 ---
+
 # <a name="myleaverequests-overview"></a>ภาพรวมของ MyLeaveRequests
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

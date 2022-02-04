@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: คำขอการบำรุงรักษา
 description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับการจัดการคำขอการบำรุงรักษาในการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 10/01/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails'
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e973dfe9a0ae290efbdf04a73854269ed371cea26af9d161ea5dc15027eda4ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773644"
 ---
+
 # <a name="maintenance-requests"></a>คำขอการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
@@ -47,7 +42,7 @@ ms.locfileid: "6773644"
 > 
 > แม้ว่าข้อมูลบัญชีลูกค้าจะพร้อมใช้งานในการจัดการบริการสินทรัพย์ (การบำรุงรักษาภายนอก) แต่จะไม่พร้อมใช้งานในการจัดการสินทรัพย์ (การบำรุงรักษาภายใน)
 
-เมื่อต้องการเปิดมุมมองรายละเอียดของเรกคอร์ดบนหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** ในมุมมองกริด ให้เลือกลิงค์ในคอลัมน์ **คำขอการบำรุงรักษา**
+เมื่อต้องการเปิดมุมมองรายละเอียดของเรกคอร์ดบนหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** ในมุมมองกริด ให้เลือกลิงก์ในคอลัมน์ **คำขอการบำรุงรักษา**
 
 ![ดูรายละเอียดของคำขอการบำรุงรักษา](media/02-manage-maintenance-requests.png)
 

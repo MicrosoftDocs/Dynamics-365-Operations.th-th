@@ -1,35 +1,30 @@
 ---
+# required metadata
 title: การปรับปรุงไปยังฟังก์ชันการลงรายการบัญชีใบแจ้งยอดจากธนาคาร
 description: หัวข้อนี้อธิบายถึงการปรับปรุงที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด
 author: analpert
 ms.date: 12/03/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: analpert
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891454"
+ms.search.validFrom: '2018-04-30'
+ms.dyn365.ops.version: 'AX 7.0.0, Retail July 2017 update'
 ---
+
 # <a name="improvements-to-statement-posting-functionality"></a>การปรับปรุงไปยังฟังก์ชันการลงรายการบัญชีใบแจ้งยอดจากธนาคาร
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายถึงการปรับปรุงชุดแรกที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด การปรับปรุงเหล่านี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations 7.3.2
 
 ## <a name="activation"></a>การเปิดใช้งาน
 
-โดยค่าเริ่มต้น ในขณะปรับใช้ Finance and Operations 7.3.2 โปรแกรมจะถูกตั้งค่าเพื่อใช้คุณลักษณะแบบดั้งเดิมสำหรับการลงรายการบัญชีใบแจ้งยอด ในการเปิดใช้งานคุณลักษณะการลงรายการบัญชีใบแจ้งยอดที่ปรับปรุงแล้ว คุณต้องเปิดคีย์การตั้งค่าคอนฟิก
+โดยค่าเริ่มต้น ในขณะปรับใช้ Finance and Operations 7.3.2 โปรแกรมจะถูกตั้งค่าเพื่อใช้ลักษณะการทำงานแบบดั้งเดิมสำหรับการลงรายการบัญชีใบแจ้งยอด ในการเปิดใช้งานคุณลักษณะการลงรายการบัญชีใบแจ้งยอดที่ปรับปรุงแล้ว คุณต้องเปิดคีย์การตั้งค่าคอนฟิก
 
 - ไปที่ **การดูแลระบบ** \> **ตั้งค่า** \> **การตั้งค่าคอนฟิกลิขสิทธิ์** และจากนั้น ภายใต้โหนด **Retail และ Commerce** ล้างกล่องกาเครื่องหมาย **ใบแจ้งยอด (ดั้งเดิม)** และเลือกกล่องกาเครื่องหมาย **ใบแจ้งยอด**
 

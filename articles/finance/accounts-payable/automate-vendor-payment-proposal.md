@@ -1,26 +1,22 @@
 ---
+# required metadata
 title: ข้อเสนอการชำระเงินของผู้จัดจำหน่ายอัตโนมัติ
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่องค์กรที่ชำระเงินของผู้จัดจำหน่ายในกำหนดที่เกิดซ้ำสามารถทำให้กระบวนการสร้างข้อเสนอการชำระเงินของผู้จัดจำหน่ายโดยอัตโนมัติ
 author: kweekley
 ms.date: 04/08/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2020-04-08
+ms.search.validFrom: '2020-04-08'
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 483621a5de2980212926ac1011c16f1b82e4a3d075bbe9bcbbe6a0e35f06e5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749113"
 ---
+
 # <a name="automate-vendor-payment-proposals"></a>ข้อเสนอการชำระเงินของผู้จัดจำหน่ายอัตโนมัติ
 
 [!include [banner](../includes/banner.md)]
@@ -32,6 +28,9 @@ ms.locfileid: "6749113"
 - สมุดรายวันการชำระเงินของผู้จัดจำหน่ายใดที่มีการบันทึกการชำระเงินที่เป็นผลลัพธ์
 
 ระบบอัตโนมัติของข้อเสนอการชำระเงินไม่ได้ลงรายการบัญชีการชำระเงินโดยอัตโนมัติ ดังนั้นคุณจึงสามารถใช้การตรวจสอบความถูกต้องและกระบวนการลำดับงานที่คุณใช้ในการอนุมัติการชำระเงินที่สร้างขึ้นได้ต่อไป
+
+> [!NOTE]
+> คุณต้องเปิดใช้งานคุณลักษณะ **ระบบอัตโนมัติของข้อเสนอการชำระเงินของผู้จัดจำหน่าย** ในการจัดการคุณลักษณะเพื่อใช้ฟังก์ชันนี้ 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>กำหนดการเกิดขึ้นของข้อเสนอการชำระเงินของผู้จัดจำหน่าย
 

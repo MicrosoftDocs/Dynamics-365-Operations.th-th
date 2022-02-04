@@ -1,30 +1,26 @@
 ---
+# required metadata
 title: ภาพรวมของรุ่นการคิดต้นทุน
 description: บทความนี้แสดงข้อมูลเกี่ยวกับเวอร์ชันการคิดต้นทุน วิธีการรักษา และชนิดของข้อมูลที่คุณสามารถรวมไว้ วัตถุประสงค์หลักของเวอร์ชันการคำนวณต้นทุนคือเพื่อจัดเก็บเรกคอร์ดต้นทุนที่เกี่ยวกับสินค้า ประเภทของต้นทุน และสูตรการคำนวณต้นทุนทางอ้อม
 author: AndersGirke
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'BOMCalcDialog, BOMCalcTable, CostingVersion'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "54532"
-- intro-internal
+  - '54532'
+  - intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fa4f14d6a6b5afe6bb58f94f636be58ea2e721e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565986"
 ---
+
 # <a name="costing-versions-overview"></a>ภาพรวมของรุ่นการคิดต้นทุน
 
 [!include [banner](../includes/banner.md)]

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 description: บทความนี้อธิบายถึง วิธีที่ผู้เชี่ยวชาญด้านการจัดซื้อสามารถตั้งค่าและรักษาแค็ตตาล็อกการจัดซื้อในระดับสูง แค็ตตาล็อกการจัดซื้อกำหนดสินค้าและบริการที่พนักงานบริษัทสามารถสั่งสำหรับใช้ภายใน
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "2214"
-- intro-internal
+  - '2214'
+  - intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
 ms.author: henrikan
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9160df7f7d5641ab9bdd10dc37b9ff7f9eaf6ddc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570466"
 ---
+
 # <a name="procurement-catalogs-overview"></a>ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 
 [!include [banner](../includes/banner.md)]

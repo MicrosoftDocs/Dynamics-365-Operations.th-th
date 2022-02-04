@@ -1,24 +1,19 @@
----
+--- 
+# required metadata 
 title: สร้างและประมวลผลเงินคืนของลูกค้า
 description: 'ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ '
 author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
-ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
+ms.prod: null
+ms.technology: null
+ms.search.form: 'PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup'
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
-ms.search.validFrom: 2016-06-30
+ms.search.validFrom: '2016-06-30'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573356"
 ---
 # <a name="generate-and-process-customer-rebates"></a>สร้างและประมวลผลเงินคืนของลูกค้า
 
@@ -69,7 +64,7 @@ ms.locfileid: "7573356"
 2. คลิก **สะสม**
 3. ในฟิลด์ **ลูกค้า** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 4. ในฟิลด์ **วันที่เริ่มต้น** เลือกวันที่วันนี้
-5. คลิก **ตกลง** เนื่องจากการรันฟังก์ชัน **สะสม** จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อเงินคืนแรกถูกสร้างขึ้น เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 400 USD ของยอดเงินคืนรวม ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว 
+5. คลิก **ตกลง** เนื่องจากการรันฟังก์ชัน **สะสม** จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อเงินคืนแรกถูกสร้างขึ้น เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 4,000 USD ของยอดเงินคืนรวม ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว 
 6. ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'
 7. คลิก **อนุมัติ**
 8. คลิก **กระบวนการ**

@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมการคำนวณภาษี
 description: หัวข้อนี้อธิบายขอบเขตและคุณลักษณะโดยรวมของความสามารถคํานวณภาษี
 author: wangchen
 ms.date: 11/17/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.search.scope: 'Core, Operations'
 ms.search.region: Global
 ms.author: wangchen
-ms.search.validFrom: 2021-04-01
+ms.search.validFrom: '2021-04-01'
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
-ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892435"
 ---
+
 # <a name="tax-calculation-overview"></a>ภาพรวมการคำนวณภาษี
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +78,7 @@ ms.locfileid: "7892435"
 
 ต่อไปนี้เป็นเค้าโครงของกระบวนการโฟลว์ข้อมูลการคำนวณภาษี 
 
-1. ใน RCS ให้ดูและนําเข้าการตั้งค่าคอนฟิกรูปแบบเอกสารที่สามารถเสียภาษีและการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ถ้าคุณต้องขยายการตั้งค่าคอนฟิกให้สถานการณ์ขั้นสูง ให้ดูที่ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
+1. ใน RCS ให้ดูและนําเข้าการตั้งค่าคอนฟิกรูปแบบเอกสารที่สามารถเสียภาษีและการตั้งค่าคอนฟิกการแมปแบบจำลอง ถ้าคุณต้องขยายการตั้งค่าคอนฟิกให้สถานการณ์ขั้นสูง ให้ดูที่ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
 2. ใน RCS ให้สร้างหรือรักษาคุณลักษณะด้านภาษี คุณสามารถใช้คุณลักษณะด้านภาษีเพื่อรักษาอัตราภาษีและกฎการใช้งานภาษี
 3. หลังจากการตั้งค่าคุณลักษณะภาษีเสร็จสิ้น ให้เผยแพร่การตั้งค่าคอนฟิกภาษีและคุณลักษณะภาษีจาก RCS ไปยังที่เก็บส่วนกลาง
 4. ใน Finance ให้เลือกเวอร์ชันการตั้งค่าคุณลักษณะด้านภาษีที่จะใช้กับนิติบุคคลหนึ่งๆ

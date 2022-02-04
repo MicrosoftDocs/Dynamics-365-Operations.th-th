@@ -1,27 +1,22 @@
 ---
+# required metadata
 title: ภาพรวมของกระบวนการออกใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
 description: หัวข้อนี้จะอธิบายถึงความสามารถสำหรับการประมวลผลใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ และประโยชน์ของการใช้กระบวนการอัตโนมัติ
 author: abruer
 ms.date: 02/12/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
-ms.assetid: ''
+ms.assetid: null
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2017-08-30
+ms.search.validFrom: '2017-08-30'
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2acb6d1c31f54a23a0b3c761e2147fa2dd43a161
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674963"
 ---
+
 # <a name="automated-vendor-invoicing-processes-overview"></a>ภาพรวมของกระบวนการออกใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ
 
 [!include [banner](../includes/banner.md)]

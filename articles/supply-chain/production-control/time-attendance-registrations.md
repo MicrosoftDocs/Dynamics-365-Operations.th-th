@@ -1,30 +1,26 @@
 ---
+# required metadata
 title: ภาพรวมของการลงทะเบียนเวลาและการเข้างาน
 description: ผู้ปฏิบัติงานของการลงทะเบียนเวลาสามารถป้อนการลงทะเบียนเวลาชนิดต่างๆ ตัวอย่างเช่น การตอกบัตรเข้า ตอกบัตรออก ลงทะเบียนกิจกรรมทางอ้อม และการลงทะเบียนการขาดงาน หัวข้อนี้อธิบายถึงการลงทะเบียน การคำนวณ การอนุมัติ และการใช้ลำดับงานเพื่อเพิ่มโครงสร้างและการอนุมัติกระบวนการอนุมัติแผ่นเวลาโดยอัตโนมัติ
 author: johanhoffmann
 ms.date: 07/25/2019
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "53351"
-- intro-internal
+  - '53351'
+  - intro-internal
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0755a22365a2fdcbc6ed06c7e85c47d86808912e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567978"
 ---
+
 # <a name="time-and-attendance-registration-overview"></a>ภาพรวมของการลงทะเบียนเวลาและการเข้างาน
 
 [!include [banner](../includes/banner.md)]

@@ -1,31 +1,25 @@
 ---
+# required metadata
 title: ใช้การคาดการณ์การชำระเงินของลูกค้า
 description: หัวข้อนี้นำไปสู่ข้อกำหนดเบื้องต้นและขั้นตอนต่าง ๆ ที่จำเป็นในการใช้รุ่นทดลองของข้อมูลเชิงลึกทางการเงิน
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
+ms.prod: null
+ms.technology: null
+ms.search.form: null
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2020-11-16
+ms.search.validFrom: '2020-11-16'
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752795"
 ---
 # <a name="use-customer-payment-predictions"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการใช้การคาดการณ์การชำระเงินของลูกค้า ก่อนที่คุณจะใช้คุณสมบัตินี้ โปรดตรวจสอบให้แน่ใจว่าคุณได้ดำเนินการขั้นตอนการตั้งค่าเสร็จสมบูรณ์แล้ว สำหรับข้อมูลเพิ่มเติม โปรดดู [เปิดใช้งานการคาดการณ์การชำระเงินของลูกค้า](enable-cust-paymnt-prediction.md)
 
@@ -89,7 +83,7 @@ ms.locfileid: "7752795"
 
 [![ความถูกต้องของการคาดการณ์การชำระเงิน](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-ถ้าคุณไม่พอใจกับความถูกต้อง ให้เลือกลิงค์ **ปรับปรุงความถูกต้องของแบบจำลอง** เพื่อเปิดประสบการณ์การใช้งานส่วนขยายของ AI Builder ในประสบการณ์การใช้งานส่วนขยายของ AI Builder คุณสามารถเลือกหรือยกเลิกการเลือกฟิลด์ต่าง ๆ ได้จนกว่าคุณจะเลือกฟิลด์ที่คุณเชื่อว่ามีความสำคัญมากที่สุดสำหรับการคาดการณ์การชำระเงินที่ถูกต้อง เมื่อเสร็จสิ้นแล้ว คุณสามารถฝึกแบบจำลองการคาดการณ์ใหม่และเผยแพร่การเปลี่ยนแปลงของคุณได้อย่างง่ายดาย แบบจำลองการคาดการณ์ที่ได้รับการฝึกฝนใหม่จะถูกเบิกสำหรับการคาดการณ์ใน Dynamics 365 Finance โดยอัตโนมัติ
+ถ้าคุณไม่พอใจกับความถูกต้อง ให้เลือกลิงก์ **ปรับปรุงความถูกต้องของโมเดล** เพื่อเปิดประสบการณ์การใช้งานส่วนขยายของ AI Builder ในประสบการณ์การใช้งานส่วนขยายของ AI Builder คุณสามารถเลือกหรือยกเลิกการเลือกฟิลด์ต่าง ๆ ได้จนกว่าคุณจะเลือกฟิลด์ที่คุณเชื่อว่ามีความสำคัญมากที่สุดสำหรับการคาดการณ์การชำระเงินที่ถูกต้อง เมื่อเสร็จสิ้นแล้ว คุณสามารถฝึกแบบจำลองการคาดการณ์ใหม่และเผยแพร่การเปลี่ยนแปลงของคุณได้อย่างง่ายดาย แบบจำลองการคาดการณ์ที่ได้รับการฝึกฝนใหม่จะถูกเบิกสำหรับการคาดการณ์ใน Dynamics 365 Finance โดยอัตโนมัติ
 
 [![ประสบการณ์การใช้งานของส่วนขยายของ AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
 

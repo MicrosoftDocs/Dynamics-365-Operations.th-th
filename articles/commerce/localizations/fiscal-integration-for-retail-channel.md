@@ -1,27 +1,21 @@
 ---
+# required metadata
 title: ภาพรวมของการรวมทางบัญชีสำหรับช่องทาง Commerce
 description: หัวข้อนี้อธิบายภาพรวมของความสามารถของการรวมทางบัญชีที่พร้อมใช้งานใน Dynamics 365 Commerce
 author: EvgenyPopovMBS
 manager: annbe
 ms.date: 09/22/2021
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'RetailFunctionalityProfile, RetailFormLayout, RetailParameters'
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 323d9f4816a4f622143692ead3d1871980b19b52
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512591"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>ภาพรวมของการรวมทางบัญชีสำหรับช่องทาง Commerce
 
@@ -48,7 +42,7 @@ ms.locfileid: "7512591"
 
 ตัวอย่างการรวมข้อมูลทางบัญชีสำหรับอุปกรณ์ทางบัญชีประกอบด้วยส่วนขยาย CRT และสถานีฮาร์ดแวร์สำหรับผู้ให้บริการเอกสารทางบัญชีและตัวเชื่อมต่อทางบัญชี ตามลำดับ นอกจากนี้ ยังประกอบด้วยการตั้งค่าคอนฟิกส่วนประกอบต่อไปนี้:
 
-- **การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางบัญชี** – การตั้งค่าคอนฟิกนี้กำหนดวิธีการเอาต์พุตและรูปแบบสำหรับเอกสารทางบัญชี นอกจากนี้ ยังประกอบด้วยการแม็ปข้อมูลสำหรับภาษีและวิธีการการชำระเงิน เพื่อทำให้ข้อมูลจาก Retail POS เข้ากันได้กับค่าที่ถูกกำหนดไว้ล่วงหน้าในเฟิร์มแวร์ของอุปกรณ์ทางบัญชี
+- **การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางบัญชี** – การตั้งค่าคอนฟิกนี้กำหนดวิธีการเอาต์พุตและรูปแบบสำหรับเอกสารทางบัญชี นอกจากนี้ ยังประกอบด้วยการแมปข้อมูลสำหรับภาษีและวิธีการการชำระเงิน เพื่อทำให้ข้อมูลจาก Retail POS เข้ากันได้กับค่าที่ถูกกำหนดไว้ล่วงหน้าในเฟิร์มแวร์ของอุปกรณ์ทางบัญชี
 - **การตั้งค่าคอนฟิกตัวเชื่อมต่อทางบัญชี** – การตั้งค่าคอนฟิกนี้กำหนดการสื่อสารทางกายภาพกับอุปกรณ์ทางการเงินเฉพาะ
 
 กระบวนการลงทะเบียนทางบัญชีสำหรับการลงทะเบียน POS เฉพาะ ถูกกำหนดโดยการตั้งค่าที่สอดคล้องกันในโพรไฟล์ฟังก์ชัน POS สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกกระบวนการลงทะเบียนทางบัญชี อัปโหลดผู้ให้บริการเอกสารทางบัญชีและการตั้งค่าคอนฟิกตัวเชื่อมต่อทางบัญชี และเปลี่ยนแปลงพารามิเตอร์ ดู [ตั้งค่ากระบวนการลงทะเบียนทางบัญชี](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).

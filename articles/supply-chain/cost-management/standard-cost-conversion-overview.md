@@ -1,30 +1,26 @@
 ---
+# required metadata
 title: ภาพรวมของการแปลงต้นทุนมาตรฐาน
 description: บทความนี้แสดงภาพรวมของกระบวนการ เพื่อช่วยคุณในการตั้งค่าและรันการแปลงต้นทุนมาตรฐาน  ขั้นตอนต่างๆที่แสดงรายการมีวัตถุประสงค์เพื่อให้ถูกดำเนินการให้เสร็จหลังจากที่คุณได้ดำเนินการข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐานเสร็จแล้ว
 author: AndersGirke
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: CostingVersion, InventStdCostConv
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'CostingVersion, InventStdCostConv'
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-- "78212"
-- intro-internal
+  - '78212'
+  - intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1b1d02660d4cc8de07c9073ca4bc97a7ef4864d04fb2716ac7c80172040adcc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781548"
 ---
+
 # <a name="standard-cost-conversion-overview"></a>ภาพรวมของการแปลงต้นทุนมาตรฐาน
 
 [!include [banner](../includes/banner.md)]

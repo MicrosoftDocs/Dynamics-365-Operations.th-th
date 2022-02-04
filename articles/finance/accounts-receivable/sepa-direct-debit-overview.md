@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA
 description: Single Euro Payments Area (SEPA) ถูกตั้งขึ้นโดยคณะกรรมาธิการยุโรป และกำหนดว่าการชำระเงินทางอิเล็กทรอนิกส์ทั้งหมดถือว่าเป็นภายในประเทศ โดยไม่คำนึงถึงประเทศ/ภูมิภาคซึ่งบุคคล ธุรกิจ หรือองค์กร และธนาคารตั้งอยู่  ไม่มีความแตกต่างระหว่างการชำระเงินในประเทศและข้ามแดน SEPA ประกอบด้วย 28 รัฐสมาชิกสหภาพยุโรป (EU) รวมถึงไอซ์แลนด์ ลิกเตนสไตน์ นอร์เวย์ สวิตเซอร์แลนด์ รัฐโมนาโก และซานมารีโน  SEPA ช่วยจัดรูปแบบตลาดเดี่ยวสำหรับธุรกรรมการชำระเงินภายในเขตเศรษฐกิจยุโรป (EEA)  ท้ายที่สุด SEPA ถูกคาดว่าจะลดจำนวนของรูปแบบการชำระเงินที่ธนาคาร ธุรกิจ และบุคคลต้องใช้
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
+ms.topic: overview
+ms.prod: null
+ms.technology: null
+ms.search.form: 'BankAccountTable, CustBankAccounts, CustParameters, CustTable'
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-- "11144"
-- intro-internal
+  - '11144'
+  - intro-internal
 ms.assetid: 3277c9b6-e46e-40c9-aa76-9b0449467842
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 888c65cde11ed144ddeee68d6476a3acad0cb592768c470356ebc2098b596838
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763249"
 ---
+
 # <a name="sepa-direct-debit-overview"></a>ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA
 
 [!include [banner](../includes/banner.md)]

@@ -1,26 +1,22 @@
 ---
+# required metadata
 title: ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกไซต์อีคอมเมิร์ซของคุณเพื่อแสดงการให้คะแนนและบทวิจารณ์ของลูกค้าใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
+ms.prod: null
+ms.technology: null
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.custom: null
+ms.assetid: null
 ms.search.region: Global
 ms.author: gmohanv
-ms.search.validFrom: 2019-10-31
+ms.search.validFrom: '2019-10-31'
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473560"
 ---
+
 # <a name="configure-ratings-and-reviews"></a>ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
@@ -52,7 +48,7 @@ ms.locfileid: "7473560"
 
 เมื่อต้องการเชื่อมโยงการให้คะแนนผลิตภัณฑ์ไปยังส่วน **บทวิจารณ์** ของ PDP ให้ทำตามขั้นตอนต่อไปนี้
 
-1. เปิดเท็มเพลต PDP 
+1. เปิดเทมเพลต PDP 
 1. ไปที่ **การตั้งค่าโมดูลคอนเทนเนอร์กล่องการซื้อ**
 1. ภายใต้ **กล่องการซื้อ** ให้เลือก **การให้คะแนนผลิตภัณฑ์** จากนั้นเลือกกล่องการเครื่องหมาย **เชื่อมโยงการคลิกกับโมดูลบทวิจารณ์แบบเต็ม**
 
@@ -87,9 +83,17 @@ ms.locfileid: "7473560"
 
 [จัดการการให้คะแนนและบทวิจารณ์](manage-reviews.md)
 
-[ตั้งค่าคอนฟิกโมดูลการจัดอันดับและบทวิจารณ์บนหน้ารายละเอียดของผลิตภัณฑ์](ratings-reviews-modules.md)
-
 [ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Retail](sync-product-ratings.md)
+
+[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
+
+[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
+
+[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
+
+[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)
+
+[โมดูลการให้คะแนนและบทวิจารณ์](ratings-reviews-modules.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
