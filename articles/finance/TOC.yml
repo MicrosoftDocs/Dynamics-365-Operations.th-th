@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (เมษายน)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (กุมภาพันธ์)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (มกราคม)
@@ -98,12 +100,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: ตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน
+                - name: สร้างคู่มือหรือการฝึกอบรมด้วยตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: วิดีโอ
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: อภิธานศัพท์
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: แค็ตตาล็อกการเรียนรู้
               items:
                 - name: โฮมเพจแค็ตตาล็อกการเรียนรู้
@@ -164,7 +164,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/finance/toc.json
-                - name: การตั้งเขตเวลาที่ผู้ใช้ต้องการ
+                - name: การตั้งโซนเวลาที่ผู้ใช้ต้องการ
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/finance/toc.json
                 - name: ทำความเข้าใจเกี่ยวกับ Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/finance/toc.json
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายในสมุดรายวันใบแจ้งหนี้
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: ใช้การชำระเงินกับสมุดรายวันใบแจ้งหนี้
+                  href: accounts-payable/payment-invoice-journal.md
             - name: ตรวจสอบใบแจ้งหนี้และข้อมูลสำคัญในบัญชีเจ้าหนี้
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: นโยบายการจับคู่สามทาง
@@ -364,11 +366,11 @@
               href: accounts-receivable/create-free-text-invoice-new.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
-            - name: สร้างเท็มเพลตใบแจ้งหนี้ข้อความอิสระ
+            - name: สร้างเทมเพลตใบแจ้งหนี้ข้อความอิสระ
               href: accounts-receivable/create-free-text-invoice-template-new.md
             - name: แก้ไขใบแจ้งหนี้ข้อความอิสระ
               href: accounts-receivable/correct-free-text-invoice.md
-            - name: กำหนดเท็มเพลตใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้า
+            - name: กำหนดเทมเพลตใบแจ้งหนี้ข้อความอิสระสำหรับลูกค้า
               href: accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
             - name: ตั้งค่าและประมวลผลใบแจ้งหนี้ที่เกิดซ้ำ
               href: accounts-receivable/set-up-process-recurring-invoices.md
@@ -526,7 +528,7 @@
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
             - name: คำบรรยายแผนงบประมาณ
               href: budgeting/budget-narrative.md
-            - name: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
+            - name: เทมเพลตการวางแผนงบประมาณสำหรับ Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: ขยายโครงร่างการวางแผนงบประมาณ
               href: budgeting/extending-budget-planning-layout.md
@@ -666,7 +668,7 @@
               href: cost-accounting/tasks/define-cost-control-units.md
             - name: สร้างบัญชีแยกประเภทการบัญชีต้นทุน
               href: cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ
+            - name: สมาชิกมิติทางสถิติและเทมเพลตตัวให้บริการการประเมินทางสถิติ
               href: cost-accounting/statistical-measure-provider-template.md
             - name: ฐานของการปันส่วน
               href: cost-accounting/allocation-bases.md
@@ -918,7 +920,7 @@
                   href: general-ledger/general-ledger-account-balances.md
                 - name: กำหนดมิติทางการเงิน
                   href: general-ledger/tasks/define-financial-dimensions.md
-                - name: รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
+                - name: รักษาเทมเพลตเริ่มต้นของมิติทางการเงิน
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: เซ็ตมิติทางการเงิน
                   href: general-ledger/financial-dimension-sets.md
@@ -1010,7 +1012,7 @@
                   href: general-ledger/tasks/view-journal-entries-or-transactions.md
                 - name: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
                   href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: สร้างรายการสมุดรายวันโดยใช้เท็มเพลต
+                - name: สร้างรายการสมุดรายวันโดยใช้เทมเพลต
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: สร้างธุรกรรมค้างรับค้างจ่ายในบัญชีแยกประเภท
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: การชำระบัญชีแยกประเภท
                   href: general-ledger/ledger-settlements.md
+                - name: ความตระหนักรู้ระหว่างการชำระบัญชีแยกประเภทและการปิดสิ้นปี
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
               items:
                 - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับกิจกรรมการปิดบัญชีสิ้นปี
                   href: general-ledger/faq-year-end-activities.md
-            - name: ภาษีขาย
-              items:
-                - name: ภาพรวมของภาษีขาย
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
-                  href: general-ledger/marginal-base-field.md
-                - name: การชำระภาษีขายและกฎการปัดเศษ
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: การคำนวณภาษีขายสำหรับรายการสมุดรายวันทั่วไป
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: เปิดใช้งานการคำนวณภาษีที่ล่าช้าในสมุดรายวัน
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: การสร้างการชำระเงินภาษีขาย
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: การปัดเศษการชําระภาษีตามตำแหน่งทศนิยมของสกุลเงินที่กำหนดไว้เอง
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: ตั้งค่าหน่วยงานจัดเก็บภาษี
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: ตั้งค่ารหัสภาษีขาย
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: ตั้งค่ากลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้า
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: ตั้งค่ารหัสการรายงานภาษีขาย
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: การรองรับสกุลเงินแบบคู่สำหรับภาษีขาย
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: ข้อมูลจำเพาะเกี่ยวกับภาษีขายโดยเรียงตามรายงานธุรกรรมบัญชีแยกประเภท
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: พิมพ์รายงานการชำระภาษีขายโดยเรียงตามรหัส
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: การแก้ไขปัญหาภาษีขาย
-                  items:
-                    - name: ไม่ได้คํานวณภาษีหรือยอดเงินภาษีเป็นศูนย์
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: ประสิทธิภาพการคํานวณภาษีมีผลกระทบต่อธุรกรรม
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: ค่าฟิลด์ใน TaxTrans ไม่ถูกต้อง
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: ไม่ได้สร้างเรกคอร์ด TaxTrans
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: มีการลงรายการบัญชีภาษีไปยังบัญชีแยกประเภทไม่ถูกต้องในใบสำคัญ
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: ไม่ได้สร้างใบสำคัญ
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: ภาษีหัก ณ ที่จ่าย
-              items:
-                - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: ภาษีหัก ณ ที่จ่ายทั่วโลก
-                  items:
-                    - name: ภาพรวมของภาษีหัก ณ ที่จ่ายทั่วโลก
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: ตั้งค่าภาษีหัก ณ ที่จ่ายทั่วโลก
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการซื้อ
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการขาย
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: สร้างการชำระเงินภาษีหัก ณ ที่จ่าย
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: เวิร์กเบนช์การตรวจสอบบัญชี
               items:
                 - name: กฎนโยบายการตรวจสอบ
@@ -1144,7 +1074,7 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: ฉันจะตั้งค่ามิติทางการเงินของการปรับสมดุลได้อย่างไร
                   href: general-ledger/set-up-balance-dimensions.md
-                - name: เปิดเท็มเพลตสมุดรายวันทางการเงินใน Office
+                - name: เปิดเทมเพลตสมุดรายวันทางการเงินใน Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
                 - name: มิติทางการเงินเริ่มต้นในสมุดรายวันทางการเงิน
                   href: general-ledger/dimension-default-values.md
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการคำนวณภาษี
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: ภาษี
+              items:
+                - name: ภาษีขาย
+                  items:
+                    - name: ภาพรวมของภาษีขาย
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: อัตราภาษีขายที่ขึ้นอยู่กับฐานกำไรเบื้องต้นและวิธีการคำนวณ
+                      href: general-ledger/marginal-base-field.md
+                    - name: การชำระภาษีขายและกฎการปัดเศษ
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: วิธีการคำนวณภาษีขายในฟิลด์จุดเริ่มต้น
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: การคำนวณภาษีขายสำหรับรายการสมุดรายวันทั่วไป
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: เปิดใช้งานการคำนวณภาษีที่ล่าช้าในสมุดรายวัน
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: การสร้างการชำระเงินภาษีขาย
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: การปัดเศษการชําระภาษีตามตำแหน่งทศนิยมของสกุลเงินที่กำหนดไว้เอง
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: สร้างเอกสารเกี่ยวกับธุรกรรมภาษีขาย
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: ตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: ตั้งค่าหน่วยงานจัดเก็บภาษี
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: ตั้งค่ารหัสภาษีขาย
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: ตั้งค่ากลุ่มภาษีขายและกลุ่มภาษีขายตามประเภทสินค้า
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: ตั้งค่ารหัสการรายงานภาษีขาย
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: การรองรับสกุลเงินแบบคู่สำหรับภาษีขาย
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: ข้อมูลจำเพาะเกี่ยวกับภาษีขายโดยเรียงตามรายงานธุรกรรมบัญชีแยกประเภท
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: ดูธุรกรรมภาษีขายที่ลงรายการบัญชี
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: พิมพ์รายงานการชำระภาษีขายโดยเรียงตามรหัส
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: การแก้ไขปัญหาภาษีขาย
+                      items:
+                        - name: ไม่ได้คํานวณภาษีหรือยอดเงินภาษีเป็นศูนย์
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: ประสิทธิภาพการคํานวณภาษีมีผลกระทบต่อธุรกรรม
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: ค่าฟิลด์ใน TaxTrans ไม่ถูกต้อง
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: ไม่ได้สร้างเรกคอร์ด TaxTrans
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: มีการลงรายการบัญชีภาษีไปยังบัญชีแยกประเภทไม่ถูกต้องในใบสำคัญ
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: ไม่ได้สร้างใบสำคัญ
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: ภาษีหัก ณ ที่จ่าย
+                  items:
+                    - name: ตั้งค่าภาษีหัก ณ ที่จ่าย
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: ภาษีหัก ณ ที่จ่ายทั่วโลก
+                      items:
+                        - name: ภาพรวมของภาษีหัก ณ ที่จ่ายทั่วโลก
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: ตั้งค่าภาษีหัก ณ ที่จ่ายทั่วโลก
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการซื้อ
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการขาย
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: สร้างการชำระเงินภาษีหัก ณ ที่จ่าย
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: localizations/regulatory-updates.md
             - name: ค้นหาการอัปเดตที่เป็นระเบียบบังคับ
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: รายงานกิจกรรมทางบัญชี
                       href: localizations/rus-account-activity-reports.md
+                    - name: มาตรฐานการบัญชีของรัฐบาลกลาง 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: เปิดใช้งานปลายทางการรายงานทางอิเล็กทรอนิกส์เพื่อจัดเก็บเอกสารการบัญชีภาษารัสเซีย
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: ผู้ถือครองเงินทดรองจ่าย
                   items:
                     - name: ภาพรวมของผู้ถือครองเงินทดรองจ่ายของรัสเซีย
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: การบัญชีเกี่ยวกับเสื้อผ้าสำหรับทำงาน/เครื่องแต่งกายพิเศษ (รัสเซีย)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: การรวมสินทรัพย์ถาวรกับโมดูลการจัดการสินทรัพย์
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: บัญชีเจ้าหนี้และบัญชีลูกหนี้
                   items:
                     - name: การแก้ไขใบลดหนี้ (รัสเซีย)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: การขายตามการส่งเสริมการขาย
                           href: localizations/rus-sales-on-commission.md
+                    - name: รายงานท้องถิ่นและแบบฟอร์มหลักในบัญชีลูกหนี้และบัญชีเจ้าหนี้
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: สินค้าคงคลัง
                   items:
                     - name: สินค้าที่อยู่ระหว่างส่งต่อจากผู้จัดจำหน่าย
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: การตั้งค่าผู้จัดจำหน่ายสำหรับการรายงาน 1099
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: ภาพรวมของ Human Resources
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: การเผยแพร่โครงสร้างพื้นฐาน 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: ตั้งค่า Human Resources
-              items:
-                - name: ตั้งค่าคอนฟิกพารามิเตอร์ Human Resources
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกันของ Human Resources
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าลำดับงาน Human Resources
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: ทำความเข้าใจฟิลด์วันที่และเวลา
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: จัดการบุคลากร
-              items:
-                - name: จัดระเบียบบุคลากรของคุณ
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าส่วนประกอบของงาน
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: กำหนดแผนก
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: เพิ่มแผนกไปยังลำดับชั้น
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: กำหนดงาน
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างปฏิทินเวลาการทำงาน
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: คำถามที่ถามบ่อยเกี่ยวกับการดำเนินการด้านบุคลากร
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: ป้อนข้อมูลผู้ปฏิบัติงาน
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: รายการกู้ยืมของผู้ปฏิบัติงาน
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างรายการกู้ยืม
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: จัดการรายการกู้ยืม
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: พัฒนาแผนการสืบทอด
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: ป้อนแผ่นเวลาโครงการ
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: โครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: การสร้างโครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าตำแหน่ง
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าข้อมูลการบาดเจ็บและการเจ็บป่วย
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: สรรหาผู้สมัคร
-              items:
-                - name: จัดการกระบวนการสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: โครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: สร้างโครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: ตั้งค่าตำแหน่ง
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: ตั้งค่าแผนค่าตอบแทน
-              items:
-                - name: ภาพรวมของแผนค่าตอบแทน
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่ากริดค่าตอบแทน
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: พัฒนาโครงสร้างและแผนค่าตอบแทน
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างแผนค่าตอบแทนคงที่
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างแผนค่าตอบแทนผันแปร
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนคงที่
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: ลงทะเบียนพนักงานในแผนค่าตอบแทนผันแปร
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: ดำเนินการกับแผนค่าตอบแทน
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: จัดการสวัสดิการ
-              items:
-                - name: กำหนดและจัดการโปรแกรมสวัสดิการ
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: กระบวนการการมีสิทธิ์ในสวัสดิการ
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: กำหนดกฎและนโยบายการมีสิทธิ์ของสวัสดิการ
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: นำเสนอโปรแกรมสวัสดิการของพนักงาน
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างสวัสดิการใหม่
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: ลงทะเบียนผู้ปฏิบัติงานในสวัสดิการ
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: จัดการวันหมดอายุของสวัสดิการ
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างรายงาน ACA
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: พัฒนาพนักงาน
-              items:
-                - name: ภาพรวมของการบริหารประสิทธิภาพ
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: เสริมทักษะของบุคลากร
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: เพิ่มลงในสมุดรายวันประสิทธิภาพการทำงานของคุณ
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างเป้าหมาย
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างการทบทวนประสิทธิภาพการทำงาน
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: สร้างหลักสูตร
-              items:
-                - name: ตั้งค่าหลักสูตรการฝึกอบรม
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: ภาพรวมของแบบสอบถาม
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: ออกแบบแบบสอบถาม
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: แจกจ่ายและจัดกำหนดการแบบสอบถาม
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: กระจายแบบสอบถามโดยใช้การจัดกำหนดการ
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: ดูผลลัพธ์ของแบบสอบถาม
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: วิเคราะห์ผลลัพธ์ของแบบสอบถาม
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างคำถามแบบปลายเปิด
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างคำถามแบบปลายปิด
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างคำถามแบบมีการเชื่อมโยง
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: ความปลอดภัยที่ทำงานและการปฏิบัติตามกฎระเบียบ (สหรัฐอเมริกา)
-              items:
-                - name: การตรวจสอบแบบฟอร์ม I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: ตรวจสอบสิทธิการจ้างงานโดยใช้แบบฟอร์ม I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: ตั้งค่าชนิดเอกสารแบบฟอร์ม I-9
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: ปฏิบัติตามกฎหมายผู้พิการแห่งสหรัฐอเมริกา
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: จัดการที่พักของผู้ปฏิบัติงาน
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: การรายงานและการรวม Power BI
           items:
             - name: การรายงานและการวิเคราะห์ด้วย Power BI
@@ -3759,7 +3609,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/finance/toc.json
                 - name: รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/finance/toc.json
-                - name: ติดตั้งเท็มเพลตการออกแบบรายงาน
+                - name: ติดตั้งเทมเพลตการออกแบบรายงาน
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/finance/toc.json
             - name: เครื่องมือการจัดการผู้ใช้ระดับสูง
               items:
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4131,7 +3983,7 @@
                   items:
                     - name: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
+                    - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เทมเพลต Excel อีกครั้ง
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
                       items:
@@ -4145,11 +3997,11 @@
                   items:
                     - name: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
-                    - name: นำการตั้งค่าคอนฟิก ER ที่มีเท็มเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
+                    - name: นำการตั้งค่าคอนฟิก ER ที่มีเทมเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
-                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเท็มเพลต PDF
+                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเทมเพลต PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: ฝังรูปภาพและรูปร่าง
                   items:
@@ -4191,6 +4043,8 @@
                   items:
                     - name: สร้างการตั้งค่าคอนฟิกเพื่อนำเข้าข้อมูลจากไฟล์ XML ภายนอก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: นำเข้าข้อมูลจากไฟล์ที่เลือกด้วยตนเองในโหมดชุดงาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกการนำเข้าข้อมูลในโหมดชุดงานจากไฟล์ที่อยู่ใน SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: นำเข้าไฟล์ในรูปแบบ XML
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: เรียกใช้รายงาน
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: จัดกลุ่มเรกคอร์ดและดำเนินการตรวจนับและการรวมโดยใช้แหล่งข้อมูล GROUPBY
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: ใช้ผลลัพธ์ที่สร้างไว้เป็นแหล่งข้อมูลเพื่อทำการตรวจนับและการรวม
                       items:
                         - name: สร้างรูปแบบ
@@ -4331,7 +4187,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: พาธที่เกี่ยวข้องในการผูกข้อมูล
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
-                - name: ออกแบบนิพจน์เพื่อเรียกใช้วิธีการของคลาสแอพลิเคชัน
+                - name: ออกแบบนิพจน์เพื่อเรียกใช้วิธีการของคลาสแอปพลิเคชัน
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance
               items:
@@ -4339,9 +4195,9 @@
                   items:
                     - name: ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
-                    - name: สำรองและกู้คืนเท็มเพลตการรายงานทางอิเล็กทรอนิกส์
+                    - name: สำรองและกู้คืนเทมเพลตการรายงานทางอิเล็กทรอนิกส์
                       items:
-                        - name: การจัดเก็บข้อมูลสำรองของเท็มเพลตการรายงานทางอิเล็กทรอนิกส์
+                        - name: การจัดเก็บข้อมูลสำรองของเทมเพลตการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
                         - name: การล้างข้อมูลการย้ายการรายงานทางอิเล็กทรอนิกส์
                           href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
@@ -4399,11 +4255,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
                     - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ใน BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
-                    - name: แก้ไขเท็มเพลตเอกสารทางธุรกิจใน BDM
+                    - name: แก้ไขเทมเพลตเอกสารทางธุรกิจใน BDM
                       items:
-                        - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
+                        - name: เพิ่มฟิลด์ใหม่ลงในเทมเพลตเอกสารทางธุรกิจใน Microsoft Excel
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-                        - name: อัปเดตโครงสร้างของเท็มเพลตเอกสารทางธุรกิจ
+                        - name: อัปเดตโครงสร้างของเทมเพลตเอกสารทางธุรกิจ
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/finance/toc.json
             - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
               items:
@@ -4411,18 +4267,20 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
                 - name: การเปลี่ยนแปลง API
                   items:
-                    - name: Application update 7.3
+                    - name: การอัปเดตแอปพลิเคชัน 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.11
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.17
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.19
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.21
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.23
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
                   items:
                     - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
@@ -4483,7 +4341,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
             - name: คำถามที่ถามบ่อยเกี่ยวกับประสบการณ์การเปิดใน Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
-            - name: เพิ่มเท็มเพลตไปยังเมนูเปิดรายการใน Excel
+            - name: เพิ่มเทมเพลตไปยังเมนูเปิดรายการใน Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
             - name: เลือกกำหนดเมนูเปิดในเมนู Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/finance/toc.json
@@ -4619,13 +4477,13 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/finance/toc.json
                 - name: วางแผนความปลอดภัยของกรณี กระบวนการ และประเภท
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/finance/toc.json
-            - name: เท็มเพลตสำหรับเรกคอร์ด
+            - name: เทมเพลตสำหรับเรกคอร์ด
               items:
-                - name: ภาพรวมของเท็มเพลตของเรกคอร์ด
+                - name: ภาพรวมของเทมเพลตของเรกคอร์ด
                   href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/finance/toc.json
-                - name: สร้างเท็มเพลตเรกคอร์ด
+                - name: สร้างเทมเพลตเรกคอร์ด
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/finance/toc.json
-                - name: ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
+                - name: ใช้เทมเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/finance/toc.json
             - name: ตั้งค่าคอนฟิกการจัดการเอกสาร
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/finance/toc.json
@@ -4713,7 +4571,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/dimension-defaulting.md
                 - name: การสนับสนุนสำหรับรูปแบบมิติที่แตกต่างกัน
                   href: ../fin-ops-core/dev-itpro/financial/dimensions.md
-                - name: เพิ่มมิติในเท็มเพลต Excel
+                - name: เพิ่มมิติในเทมเพลต Excel
                   href: ../fin-ops-core/dev-itpro/financial/dimensions-overview.md
                 - name: การสนับสนุนสำหรับตัวควบคุมการป้อนมิติในกล่องโต้ตอบ
                   href: ../fin-ops-core/dev-itpro/financial/dimension-entry-control-dialog-support.md
@@ -4731,7 +4589,7 @@
                   href: ../fin-ops-core/dev-itpro/financial/financial-dimensions-main-accounts-right-left-language.md
                 - name: ทำให้ตารางสนับสนุนใช้เป็นมิติทางการเงินได้
                   href: ../fin-ops-core/dev-itpro/financial/dimensionable-entities.md
-                - name: เพิ่มการค้นหาค่าสำหรับมิติทางการเงินไปยังเท็มเพลต Excel
+                - name: เพิ่มการค้นหาค่าสำหรับมิติทางการเงินไปยังเทมเพลต Excel
                   href: ../fin-ops-core/dev-itpro/financial/add-dimensions-excel-templates.md
             - name: ตัวควบคุมการป้อนที่แบ่งเซ็กเมนต์
               items:
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'ชำระเงินธุรกรรมโดยใช้ CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: การพัฒนาและการดูแลระบบแอป Finance and Operations
+    - name: การพัฒนาและการดูแลระบบแอปการเงินและการดำเนินงาน
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md

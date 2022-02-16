@@ -1,6 +1,6 @@
 ---
 title: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
-description: เอกสารประกอบของแอป Finance and Operations
+description: เอกสารประกอบสำหรับแอป Finance and Operations
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782143"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075408"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
@@ -81,15 +81,17 @@ ms.locfileid: "7782143"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></p>
 
 <h3><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">ระบบบริการตนเองของพนักงาน</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">การจัดการบุคลากร</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">การลางานและการขาดงาน</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">สวัสดิการ</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">แบบสอบถาม</a></p>
-<p><a href="hr/manage-recruiting-process.md">การสรรหา</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">การพัฒนาพนักงาน</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">การเรียนรู้</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">การบริหารห่วงโซ่อุปทาน</a></h3>
+<h3><a href="../../supply-chain/index.md">การจัดการห่วงโซ่อุปทาน</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">การบริหารสินค้าคงคลัง</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></p>
@@ -129,13 +131,8 @@ ms.locfileid: "7782143"
 <h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
 <p><a href="../../commerce/call-center-functionality.md">ศูนย์บริการ</p>
 <p><a href="../../commerce/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
-<p><a href="../../commerce/retail-peripherals-overview.md">MPOS และ POS ระบบคลาวด์</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS และ Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Commerce</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">คู่มือสำหรับผู้ดูแลระบบ</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">คู่มือสำหรับนักพัฒนา</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">คู่มือผู้ใช้</a></p>
 
 
 </td>

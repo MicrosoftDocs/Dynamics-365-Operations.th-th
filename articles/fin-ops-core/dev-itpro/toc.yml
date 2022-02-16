@@ -10,13 +10,15 @@
           items:
             - name: มีอะไรใหม่หรือเปลี่ยนไปในแอป Finance and Operations
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
-                - name: Platform update สำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.25 (เมษายน 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Platform update สำหรับรุ่น 10.0.23 (มกราคม 2022)
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.23 (มกราคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
@@ -84,9 +86,9 @@
                       href: data-entities/develop-composite-data-entities.md
                     - name: ตั้งค่าคอนฟิกการใช้ข้อมูลทางการเงินร่วมกันข้ามบริษัท
                       href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-                    - name: สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
+                    - name: สร้างเทมเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-                    - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
+                    - name: สร้างเรกคอร์ดโดยใช้เทมเพลตเรกคอร์ด
                       href: data-entities/tasks/use-record-template-new-record.md
                 - name: ตัวรวมข้อมูล
                   items:
@@ -166,13 +168,13 @@
                       href: data-entities/configuration-data-packages.md
                     - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
                       href: data-entities/configuration-data-packages.md
-                - name: เท็มเพลตข้อมูลการตั้งค่าคอนฟิก
+                - name: เทมเพลตข้อมูลการตั้งค่าคอนฟิก
                   href: data-entities/configuration-data-templates.md
                 - name: ติดตามการเปลี่ยนแปลงของเอนทิตี้
                   href: data-entities/entity-change-track.md
                 - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
                   href: data-entities/data-entities-report.md
-                - name: เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
+                - name: เทมเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
                   href: data-entities/excel-template-multiple.md
                 - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
                   href: data-entities/entity-change-track.md
@@ -370,7 +372,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 ถึง 40)
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 12 ถึง 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: ถอนการติดตั้งแพคเกจ
                   href: deployment/uninstall-deployable-package.md
+                - name: เรียกใช้สคริปต์ X++ แบบกำหนดเองที่มีเวลาหยุดทำงานเป็นศูนย์
+                  href: deployment/run-custom-scripts.md
                 - name: แก้ไขปัญหาแอปพลิเคชันของแพคเกจ
                   href: deployment/deployable-package-troubleshooting.md
             - name: ปรับใช้วิธีใช้แบบกำหนดเอง
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
                   href: perf-test/systest-filtering.md
+                - name: แอททริบิวต์ SysTestRow สำหรับการทดสอบหลายค่า
+                  href: perf-test/systest-row.md
                 - name: ไลบรารีการทดสอบการยอมรับ
                   items:
                     - name: ทรัพยากรในไลบรารีการทดสอบการยอมรับ
@@ -1700,7 +1706,7 @@
                   href: migration-upgrade/install-dmt.md
                 - name: การย้าย AX 2009 - สร้างแผนที่
                   href: migration-upgrade/generate-maps.md
-                - name: การย้าย AX 2009 - สร้างเท็มเพลต
+                - name: การย้าย AX 2009 - สร้างเทมเพลต
                   href: migration-upgrade/create-package-templates-dmt.md
                 - name: การย้าย AX 2009 - สร้างกลุ่มการย้าย
                   href: migration-upgrade/create-definition.md
