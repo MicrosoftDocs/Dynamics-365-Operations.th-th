@@ -1,28 +1,33 @@
 ---
-# required metadata
 title: การตั้งค่าคอนฟิกสำหรับ Finance Insights - รุ่น 10.0.20 และที่ใหม่กว่า
 description: หัวข้อนี้จะอธิบายการตั้งค่าคอนฟิกระบบของคุณเพื่อใช้ความสามารถที่มีอยู่ใน Finance insights รุ่น 10.0.20 และรุ่นที่ใหม่กว่า
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
-ROBOTS: 'noindex,nofollow'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+ROBOTS: noindex,nofollow
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2021-06-03'
+ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
+ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061765"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>การตั้งค่าคอนฟิกสำหรับ Finance Insights - รุ่น 10.0.20 และที่ใหม่กว่า
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance ที่มี Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ หัวข้อนี้จะอธิบายการตั้งค่าคอนฟิก Dynamics 365 Finance รุ่น 10.0.20 เพื่อให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance Insights
 
@@ -54,14 +59,14 @@ Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 3
 
 ## <a name="configure-azure"></a>ตั้งค่าคอนฟิก Azure
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>ใช้ Azure Cloud Shell เพื่อตั้งค่าทรัพยากร Data Lake ของข้อมูลเชิงลึก Finance
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>ใช้ Azure Cloud Shell เพื่อตั้งค่าทรัพยากร Data Lake ของ Finance Insights
 
 # <a name="use-a-windows-powershell-script"></a>[ใช้สคริปต์ Windows PowerShell](#tab/use-a-powershell-script)
 
 มีการให้สคริปต์ Windows PowerShell ไว้ เพื่อให้คุณสามารถตั้งค่าทรัพยากร Azure ที่อธิบายไว้ใน [ตั้งค่าคอนฟิกการส่งออกไปยัง Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) ได้อย่างง่ายดาย ถ้าคุณต้องการดำเนินการตั้งค่าด้วยตนเอง ให้ข้ามกระบวนงานนี้ และดำเนินการต่อด้วยกระบวนงานในส่วน [การตั้งค่าด้วยตนเอง](#manual-setup) แทน
 
 > [!NOTE]
-> ใช้ขั้นตอนต่อไปนี้เพื่อรันสคริปต์ Windows PowerShell การตั้งค่าอาจใช้ไม่ได้ หากคุณใช้ตัวเลือก **ทดลองใช้** ใน Azure CLI หรือหากคุณรันสคริปต์บนคอมพิวเตอร์ของคุณ
+> ใช้ขั้นตอนต่อไปนี้เพื่อเรียกใช้สคริปต์ Windows PowerShell การตั้งค่าอาจใช้ไม่ได้ หากคุณใช้ตัวเลือก **ทดลองใช้** ใน Azure CLI หรือหากคุณเรียกใช้สคริปต์บนคอมพิวเตอร์ของคุณ
 
 ทำตามขั้นตอนต่อไปนี้โดยใช้สคริปต์ Windows PowerShell เพื่อตั้งค่าคอนฟิก Azure คุณต้องมีสิทธิ์ในการสร้างกลุ่มทรัพยากร Azure ทรัพยากร Azure และแอปพลิเคชัน Azure AD สำหรับข้อมูลเกี่ยวกับสิทธิ์ที่จำเป็น ให้ดูที่ [ตรวจสอบสิทธิ์ Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app)
 
@@ -73,8 +78,8 @@ Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 3
 6. ใน Notepad ให้เปิดไฟล์ใหม่และวางในสคริปต์ Windows PowerShell
 7. บันทึกไฟล์เป็น **ConfigureDataLake.ps1**
 8. อัพโหลดสคริปต์ Windows PowerShell ไปยังรอบเวลาโดยใช้ตัวเลือกเมนูเพื่ออัพโหลดใน Cloud Shell
-9. รันสคริปต์ **.\ConfigureDataLake.ps1**
-10. ติดตามพร้อมท์เพื่อรันสคริปต์
+9. เรียกใช้สคริปต์ **.\ConfigureDataLake.ps1**
+10. ติดตามพร้อมท์เพื่อเรียกใช้สคริปต์
 11. ใช้ข้อมูลจากเอาต์พุตของสคริปต์เพื่อติดตั้ง add-in ส่งออกไปยัง Data Lake ใน LCS
 
 ### <a name="manual-setup"></a>การตั้งค่าด้วยตนเอง
@@ -85,7 +90,7 @@ Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 3
 2. เลือก **จัดการ \> แอปพลิเคชันองค์กร**
 3. ค้นหาแอปพลิเคชันต่อไปนี้ตามรหัสของแอป
 
-    | ใบคำขอเปิด                              | รหัสแอพ                               |
+    | ใบคำขอเปิด                              | รหัสแอป                               |
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP Microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
@@ -95,13 +100,13 @@ Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 3
 
 1. บนคอมพิวเตอร์เฉพาะที่ของคุณ ให้เลือกเมนู **เริ่มต้น** ค้นหา **powershell**
 2. เลือกและกดค้างไว้ (หรือคลิกขวา) **Windows PowerShell** และจากนั้น เลือก **เรียกใช้ในฐานะผู้ดูแลระบบ**
-3. รันคำสั่งต่อไปนี้เพื่อติดตั้งโมดูล **AzureAD**
+3. เรียกใช้คำสั่งต่อไปนี้เพื่อติดตั้งโมดูล **AzureAD**
 
     `Install-Module -Name AzureAD`
 
 4. ถ้าต้องการให้ผู้ให้บริการ NuGet ดำเนินการต่อ ให้เลือก **Y** เพื่อติดตั้ง
 5. ถ้าคุณได้รับข้อความ "ที่เก็บที่ไม่น่าเชื่อถือ" ให้เลือก **Y** เพื่อดำเนินการต่อ
-6. สำหรับแต่ละแอปพลิเคชันที่ต้องมีการเพิ่ม ให้รันคำสั่งต่อไปนี้เพื่อเพิ่มแอปพลิเคชันไปยัง Azure AD เมื่อคุณได้รับพร้อมท์ ให้ลงชื่อเข้าใช้ในฐานะผู้ดูแลระบบ Azure AD
+6. สำหรับแต่ละแอปพลิเคชันที่ต้องมีการเพิ่ม ให้เรียกใช้คำสั่งต่อไปนี้เพื่อเพิ่มแอปพลิเคชันไปยัง Azure AD เมื่อคุณได้รับพร้อมท์ ให้ลงชื่อเข้าใช้ในฐานะผู้ดูแลระบบ Azure AD
 
     `Connect-AzureAD`
 

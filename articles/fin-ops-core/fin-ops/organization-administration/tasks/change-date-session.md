@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a36e04fc14671115c7e74565dc689fca14ecae165ed841d6797dc64cf75ca262
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb8f896645df7c7c9a8afa3d9dc9106a7162959d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759100"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065641"
 ---
 # <a name="change-the-date-for-a-session"></a>การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 หัวข้อนี้จะอธิบายถึงวิธีการเปลี่ยนแปลงวันที่สำหรับรอบเวลา โดยค่าเริ่มต้น วันที่ปัจจุบันจะถูกใช้เมื่อมีการป้อนและลงรายการบัญชีรายการสมุดรายวันหรือเอกสารต้นทาง คุณสามารถเปลี่ยนวันที่ที่ใช้สำหรับรอบเวลาปัจจุบันของคุณ ใช้คุณลักษณะการทำงานนี้เพื่อลงวันที่รายการสมุดรายวันหรือเอกสารต้นทางย้อนหลัง หากจำเป็น
 

@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754148"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063758"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (14 พฤษภาคม 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3244 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
 ## <a name="platform-changes"></a>การเปลี่ยนแปลงแพลตฟอร์ม
 
-การเปลี่ยนแปลงของแพลตฟอร์มจะรวมอยู่ในการนำออกใช้ของสัปดาห์นี้ เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น10.0.10 ของแอป Finance and Operations (พฤษภาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md) การนำออกใช้นี้รวมถึงการแก้ไขข้อผิดพลาดและการเปลี่ยนแปลงในมุมมองที่บันทึกไว้
+การเปลี่ยนแปลงของแพลตฟอร์มจะรวมอยู่ในการนำออกใช้ของสัปดาห์นี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.10 ของแอปการเงินและการดำเนินงาน (พฤษภาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md) การนำออกใช้นี้รวมถึงการแก้ไขข้อผิดพลาดและการเปลี่ยนแปลงในมุมมองที่บันทึกไว้
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>ตรวจสอบให้แน่ใจว่ารายการเบิกสินค้า Dataverse สอดคล้องกับ Leave Enum (436343)
 
@@ -46,9 +46,9 @@ ms.locfileid: "6754148"
 
 รุ่นนี้จะแก้ไขวิธีการดูผู้ปฏิบัติงานในระหว่างการทำงานของนิติบุคคลเมื่อมีการเปิดใช้งานการเข้าถึงขั้นสูงและผู้ปฏิบัติงานในบริษัทอื่นสามารถเข้าถึงได้
 
-## <a name="allow-running-leave-accruals-for-a-single-plan-or-a-single-company-318844"></a>อนุญาตให้รันการลางานคงค้างสำหรับแผนเดียวหรือบริษัทเดียว (318844)
+## <a name="allow-running-leave-accruals-for-a-single-plan-or-a-single-company-318844"></a>อนุญาตให้เรียกใช้การลางานคงค้างสำหรับแผนเดียวหรือบริษัทเดียว (318844)
 
-ด้วยการเปลี่ยนแปลงนี้คุณสามารถรันการคงค้างสำหรับบริษัทหรือแผน
+ด้วยการเปลี่ยนแปลงนี้คุณสามารถเรียกใช้การคงค้างสำหรับบริษัทหรือแผน
  
 ## <a name="show-the-positions-full-time-equivalent-fte-in-the-enrolled-workers-form-414658"></a>แสดงการเทียบเท่าเต็มเวลาของตำแหน่งงาน (FTE) ในแบบฟอร์มผู้ปฏิบัติงานที่ลงทะเบียน (414658)
 
@@ -56,7 +56,7 @@ ms.locfileid: "6754148"
 
 ## <a name="add-leave-balance-expiration-batch-job-431266"></a>เพิ่มชุดงานการหมดอายุของยอดดุลการลา (431266)
 
-ขณะนี้ชุดงานใหม่พร้อมใช้งาน ซึ่งจะรันรายวัน ซึ่งจะลดยอดดุลการลางานที่เหลือเมื่อวันหมดอายุเป็นปัจจุบัน
+ขณะนี้ชุดงานใหม่พร้อมใช้งาน ซึ่งจะเรียกใช้รายวัน ซึ่งจะลดยอดดุลการลางานที่เหลือเมื่อวันหมดอายุเป็นปัจจุบัน
 
 ## <a name="exporting-personal-contacts-for-an-employee-using-the-worker-personal-contact-person-entity-doesnt-export-personal-contacts-with-the-parent-relationship-type-345893"></a>การส่งออกรายชื่อผู้ติดต่อส่วนบุคคลสำหรับพนักงานโดยใช้เอนทิตีผู้ติดต่อส่วนบุคคลของผู้ปฏิบัติงานจะไม่ส่งออกผู้ติดต่อส่วนบุคคลที่มีชนิดความสัมพันธ์หลัก (345893)
 
@@ -88,7 +88,7 @@ ms.locfileid: "6754148"
 
 คุณสามารถระงับการลางานและการขาดงานในทรัพยากรบุคคลสำหรับพนักงาน การระงับการลางานจะหยุดการรับรู้การลางานสำหรับชนิดการลางานที่เลือก ถ้าการระงับเกิดขึ้นหลังจากที่มีการประมวลผลการรับรู้ การระงับการลางานจะสร้างการปรับปรุงตามสัดส่วนให้กับยอดดุลการลางานของพนักงาน สำหรับข้อมูลเพิ่มเติม โปรดดู [ระงับการลางาน](hr-leave-and-absence-suspend-leave.md)
 
-## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัพเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
+## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัปเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
 
 ประสบการณ์ผู้ใช้บ่งชี้ว่าการคงค้างถูกระงับสำหรับแผนแล้ว
 
@@ -114,7 +114,7 @@ ms.locfileid: "6754148"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

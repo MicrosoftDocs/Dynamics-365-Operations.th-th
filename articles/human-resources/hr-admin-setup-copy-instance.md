@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740850"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060842"
 ---
 # <a name="copy-an-instance"></a>คัดลอกอินสแตนซ์
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 คุณสามารถใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อคัดลอกฐานข้อมูล Microsoft Dynamics 365 Human Resources ไปยังสภาพแวดล้อม Sandbox ถ้าคุณมีสภาพแวดล้อม Sandbox อื่นคุณยังสามารถคัดลอกฐานข้อมูลจากสภาพแวดล้อมดังกล่าวไปยังสภาพแวดล้อม Sandbox ที่กำหนดเป้าหมาย
 
@@ -50,7 +50,7 @@ ms.locfileid: "6740850"
 
 - สภาพแวดล้อมเป้าหมายจะไม่พร้อมใช้งานจนกว่ากระบวนการคัดลอกจะเสร็จสมบูรณ์
 
-- เอกสารในที่จัดเก็บ Microsoft Azure Blob จะไม่ถูกคัดลอกจากสภาพแวดล้อมหนึ่งไปยังอีกสภาพแวดล้อมหนึ่ง ดังนั้น เอกสารและเท็มเพลตที่แนบจะไม่ถูกคัดลอกและจะยังคงอยู่ในสภาพแวดล้อมต้นทาง
+- เอกสารในที่จัดเก็บ Microsoft Azure Blob จะไม่ถูกคัดลอกจากสภาพแวดล้อมหนึ่งไปยังอีกสภาพแวดล้อมหนึ่ง ดังนั้น เอกสารและเทมเพลตที่แนบจะไม่ถูกคัดลอกและจะยังคงอยู่ในสภาพแวดล้อมต้นทาง
 
 - ผู้ใช้ทั้งหมดยกเว้นผู้ใช้ที่มีบทบาทความปลอดภัย "ผู้ดูแลระบบ" และบัญชีผู้ใช้บริการภายในอื่นๆ จะไม่พร้อมใช้งาน ผู้ใช้ที่เป็นผู้ดูแลระบบจึงสามารถลบหรือทำให้ข้อมูลยุ่งเหยิงก่อนที่ผู้ใช้คนอื่นได้รับอนุญาตให้กลับเข้าสู่ระบบ
 
@@ -97,7 +97,7 @@ ms.locfileid: "6740850"
 
 - เรกคอร์ดเฉพาะสภาพแวดล้อมในตาราง **SysServerConfig** **SysServerSessions** **SysCorpNetPrinters** **SysClientSessions** **BatchServerConfig** และ **BatchServerGroup**
 
-- เอกสารแนบในตาราง DocuValue เอกสารแนบเหล่านี้รวมถึงเท็มเพลต Microsoft Office ที่ถูกเขียนทับในสภาพแวดล้อมต้นทาง
+- เอกสารแนบในตาราง DocuValue เอกสารแนบเหล่านี้รวมถึงเทมเพลต Microsoft Office ที่ถูกเขียนทับในสภาพแวดล้อมต้นทาง
 
 - สตริงการเชื่อมต่อในตาราง **PersonnelIntegrationConfiguration**
 
@@ -139,7 +139,7 @@ ms.locfileid: "6740850"
 
 6. เลือก **ใช้การเปลี่ยนแปลง** อีกครั้ง
 
-กระบวนการยกเลิกการเลือก การใช้การเปลี่ยนแปลง การเลือกใหม่ และการใช้การเปลี่ยนแปลงอีกครั้งจะพร้อมท์ Schema เพื่ออัพเดตใน Dataverse ให้รวมฟิลด์ที่กำหนดเอง
+กระบวนการยกเลิกการเลือก การใช้การเปลี่ยนแปลง การเลือกใหม่ และการใช้การเปลี่ยนแปลงอีกครั้งจะพร้อมท์ Schema เพื่ออัปเดตใน Dataverse ให้รวมฟิลด์ที่กำหนดเอง
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่กำหนดเอง ให้ดูที่ [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](../fin-ops-core/fin-ops/get-started/user-defined-fields.md)
 

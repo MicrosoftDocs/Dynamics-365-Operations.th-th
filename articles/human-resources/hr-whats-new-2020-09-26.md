@@ -1,5 +1,5 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 26 กันยายน 2020
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 26 กันยายน 2020
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 26 กันยายน 2020
 author: jcart1106
 ms.date: 09/26/2020
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a01e172f5c62b746f4733e03d25ea43f0247790003ea1a1470bc28e98db12deb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741416"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061395"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 26 กันยายน 2020
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 26 กันยายน 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
@@ -39,7 +39,7 @@ ms.locfileid: "6741416"
 
 โดยทั่วไปลักษณะการทำงานต่อไปนี้จะพร้อมใช้งานกับรุ่นนี้:
 
-- **การอัปเดตของแพลตฟอร์ม 10.0.13 มีอยู่ในขณะนี้**: หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต ให้ดูที่ [การอัปเดตของแพลตฟอร์มสำหรับรุ่น10.0.13 ของแอป Finance and Operations (ตุลาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)
+- **การอัปเดตของแพลตฟอร์ม 10.0.13 มีอยู่ในขณะนี้**: หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.13 ของแอปการเงินและการดำเนินงาน (ตุลาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 

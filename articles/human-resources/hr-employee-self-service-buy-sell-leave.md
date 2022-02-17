@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 716afdc4e52c3e4a0432b987cb82077012d4d0c2
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431521"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067490"
 ---
 # <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,7 +39,7 @@ ms.locfileid: "7431521"
 
 3. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ 
 
-ยอดคงเหลือของคุณจะอัพเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัพเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
+ยอดคงเหลือของคุณจะอัปเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัปเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
 
 ## <a name="request-to-sell-leave"></a>คำขอในการขายวันลา
 
@@ -46,7 +49,7 @@ ms.locfileid: "7431521"
 
 3. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ
 
-ยอดคงเหลือของคุณจะอัพเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัพเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
+ยอดคงเหลือของคุณจะอัปเดตโดยอัตโนมัติหรือดำเนินการผ่านกระบวนการอนุมัติก่อนที่จะอัปเดต การดำเนินการนี้จะขึ้นอยู่กับวิธีการตั้งค่าคอนฟิกนโยบายการซื้อ
 
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา 

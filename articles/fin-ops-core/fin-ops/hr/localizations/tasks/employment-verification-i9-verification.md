@@ -1,23 +1,31 @@
---- 
-# required metadata 
+---
 title: การตรวจสอบการจ้างงาน การตรวจสอบ i9
 description: 'การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่ '
 author: ShielaSogge
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
-ms.search.form: 'HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shielas
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b76102111a8506882f2301d76856ae1a34a7c704
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065692"
 ---
 # <a name="employment-verification-i9-verification"></a>การตรวจสอบการจ้างงาน การตรวจสอบ i9
 
 [!include [banner](../../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../../includes/peap-1.md)]
 
 การปฏิรูปการอพยพและบัญญัติควบคุมกำหนดให้นายจ้างของสหรัฐอเมริกาต้องตรวจสอบสถานะสิทธิ์การจ้างงานของพนักงานที่เพิ่งจ้างมาใหม่  ขั้นตอนนี้คุณจะต้องผ่านขั้นตอนของการบันทึกเอกสารจำเป็นสำหรับการยืนยัน I-9  ใช้บริษัท USMF สำหรับขั้นตอนนี้
 

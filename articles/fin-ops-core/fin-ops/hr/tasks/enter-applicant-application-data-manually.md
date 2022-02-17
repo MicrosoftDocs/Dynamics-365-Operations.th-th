@@ -1,23 +1,30 @@
---- 
-# required metadata 
+---
 title: ป้อนข้อมูลผู้สมัครและแอปพลิเคชันด้วยตนเอง
 description: 'ขั้นตอนนี้แสดงวิธีการรักษาข้อมูลเกี่ยวกับผู้สมัครและใบสมัครของผู้สมัคร '
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
-ms.search.form: 'HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075461"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>ป้อนข้อมูลผู้สมัครและแอปพลิเคชันด้วยตนเอง
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+
 
 ขั้นตอนนี้แสดงวิธีการรักษาข้อมูลเกี่ยวกับผู้สมัครและใบสมัครของผู้สมัคร  คุณสามารถป้อน และรักษาข้อมูลส่วนบุคคล วันนัดสัมภาษณ์ และเวลา การอ้างอิง ความสามารถ และคำขอที่พักสำหรับผู้สมัคร  นอกจากนี้ คุณยังสามารถปรับปรุงสถานะของใบสมัครของผู้สมัครสำหรับการจ้างงาน และสร้างจดหมายหรือข้อความอีเมลเพื่อสื่อสารกับผู้สมัครได้ เมื่อคุณสร้างเรกคอร์ดผู้สมัคร เรกคอร์ดบุคคลสำหรับผู้สมัครจะถูกสร้างขึ้นในสมุดที่อยู่สากล บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

@@ -1,5 +1,5 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 22 ตุลาคม 2020
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 22 ตุลาคม 2020
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 22 ตุลาคม 2020
 author: jcart1106
 ms.date: 10/22/2020
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84bcf2ce850de95186c1ffee3bdd152255fc0d5c2832e47ea61918d240bcb1c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772651"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063529"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 22 ตุลาคม 2020
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 22 ตุลาคม 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
@@ -41,7 +41,7 @@ ms.locfileid: "6772651"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| Platform Update 10.0.14(38) | -- | [แพลตฟอร์มที่อัพเดตสำหรับรุ่น10.0.14 ของแอป Finance and Operations (พฤศจิกายน 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
+| การอัปเดตแพลตฟอร์ม 10.0.14(38) | -- | [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.14 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-14.md) |
 | การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "6772651"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

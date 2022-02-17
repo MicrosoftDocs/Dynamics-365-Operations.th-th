@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c7e64dbfe6a300c097b5b3711ac4310f3386df11
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944751"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077151"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
@@ -29,7 +29,7 @@ ms.locfileid: "7944751"
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>ตั้งค่าการลงทะเบียนทางการเงินสำหรับนอร์เวย์
 
-ตัวอย่างการลงทะเบียนทางการเงินสำหรับนอร์เวย์ยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\SequentialSignatureNorway** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการลงทะเบียนทางการเงินสำหรับนอร์เวย์ยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\SequentialSignatureNorway** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
 
 ปฏิบัติตามขั้นตอนการตั้งค่าการลงทะเบียนทางการเงินตามที่อธิบายไว้ใน [การตั้งค่าการรวมทางการเงินของช่องทาง Commerce](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -68,7 +68,7 @@ ms.locfileid: "7944751"
 
 1. ต้องสร้างที่จัดเก็บ Key Vault ขอแนะนำว่าคุณควรใช้งานที่จัดเก็บในพื้นที่ทางภูมิศาสตร์เดียวกันกับ Commerce Scale Unit
 1. ใบรับรองต้องอัปโหลดไปยังที่จัดเก็บ Key Vault โดยเป็นข้อมูลลับสตริง base64
-1. โปรแกรมประยุกต์ Application Object Server (AOS) ต้องได้รับอนุญาตให้อ่านข้อมูลลับจากที่จัดเก็บ Key Vault
+1. แอปพลิเคชัน Application Object Server (AOS) ต้องได้รับอนุญาตให้อ่านข้อมูลลับจากที่จัดเก็บ Key Vault
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งาน Key Vault โปรดดูที่ [เริ่มต้นการใช้งานกับ Azure Key Vault](/azure/key-vault/key-vault-get-started)
 
@@ -76,8 +76,8 @@ ms.locfileid: "7944751"
 
 - **ชื่อ** และ **รายละเอียด** – ชื่อและรายละเอียดของที่จัดเก็บ Key Vault
 - **URL ของ Key Vault** – URL ของที่จัดเก็บ Key Vault
-- **ไคลเอนต์ Key Vault** – รหัสไคลเอนต์เชิงโต้ตอบของโปรแกรมประยุกต์ Azure Active Directory (Azure AD) ที่เชื่อมโยงกับที่จัดเก็บ Key Vault เพื่อวัตถุประสงค์การรับรองความถูกต้อง ไคลเอนต์นี้ควรจะมีสิทธิ์อ่านข้อมูลลับจากที่จัดเก็บ
-- **คีย์ลับ Key Vault** – คีย์ลับที่เชื่อมโยงกับโปรแกรมประยุกต์ Azure AD ที่ใช้การรับรองความถูกต้องในที่จัดเก็บ Key Vault
+- **ไคลเอนต์ Key Vault** – รหัสไคลเอนต์เชิงโต้ตอบของแอปพลิเคชัน Azure Active Directory (Azure AD) ที่เชื่อมโยงกับที่จัดเก็บ Key Vault เพื่อวัตถุประสงค์การรับรองความถูกต้อง ไคลเอนต์นี้ควรจะมีสิทธิ์อ่านข้อมูลลับจากที่จัดเก็บ
+- **คีย์ลับ Key Vault** – คีย์ลับที่เชื่อมโยงกับแอปพลิเคชัน Azure AD ที่ใช้การรับรองความถูกต้องในที่จัดเก็บ Key Vault
 - **ชื่อ** **รายละเอียด** และ **การอ้างอิงข้อมูลลับ** – ชื่อ รายละเอียด และการอ้างอิงข้อมูลลับของใบรับรอง
 
 จากนั้น คุณต้องตั้งค่าคอนฟิกตัวเชื่อมต่อของใบรับรองของคุณที่มีการจัดเก็บไว้ในที่เก็บ Key Vault หรือใบรับรองเฉพาะที่ ตัวเชื่อมต่อนี้ใช้การลงชื่อในฝั่งช่องทาง
@@ -103,7 +103,7 @@ ms.locfileid: "7944751"
 
 ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อให้คุณสามารถทดสอบและขยายตัวอย่างได้
 
-1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/โปรแกรมประยุกต์ของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
+1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
 1. เปิดโซลูชัน **SequentialSignatureNorway.sln** ภายใต้ **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway** และสร้าง
 1. ติดตั้งส่วนขยาย CRT:
 
@@ -128,7 +128,7 @@ ms.locfileid: "7944751"
 
 ### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
-ปฏิบัติตามขั้นตอนต่างๆ ใน [การตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน](fiscal-integration-sample-build-pipeline.md) เพื่อสร้างและปล่อย Cloud Scale Unit และแพคเกจที่ปรับใช้ได้แบบบริการตนเองในตัวอย่างการรวมทางการเงิน ไฟล์ YAML แม่แบบ **SequentialSignatureNorway build-pipeline.yaml** สามารถพบได้ในโฟลเดอร์ **Pipeline\\YAML_Files** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
+ปฏิบัติตามขั้นตอนต่างๆ ใน [การตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน](fiscal-integration-sample-build-pipeline.md) เพื่อสร้างและปล่อย Cloud Scale Unit และแพคเกจที่ปรับใช้ได้แบบบริการตนเองในตัวอย่างการรวมทางการเงิน ไฟล์ YAML เทมเพลต **SequentialSignatureNorway build-pipeline.yaml** สามารถพบได้ในโฟลเดอร์ **Pipeline\\YAML_Files** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 
 ### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>เปิดใช้งานลายเซ็นดิจิทัลในโหมดออฟไลน์ของ MODERN POS
 

@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: การผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources - อัปเดตรีลีส 10.0.25
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับ Microsoft Dynamics 365 Human Resources รีลีส 10.0.25 ซึ่งจะเป็นเวฟแรกของความสามารถในการผสานโครงสร้างพื้นฐาน
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.search.scope: Human Resources
 ms.custom: 7521
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: '2020-02-27'
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024578"
 ---
-
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>การผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources - อัปเดตรีลีส 10.0.25
 
 รีลีส 10.0.25 เป็นเวฟแรกของความสามารถในการผสานโครงสร้างพื้นฐาน ในระหว่างการผสานโครงสร้างพื้นฐาน Microsoft Dynamics 365 Human Resources จะถูกผสานกับโครงสร้างพื้นฐานของการเงินและการดำเนินงาน แต่จะยังคงมีการให้สิทธิ์การใช้งานในฐานะแอปพลิเคชันอิสระ เช่น Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ต่อไป หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการผสานโครงสร้างพื้นฐาน โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources](../human-resources/hr-infrastructure-merge-faq.md)
@@ -49,7 +53,7 @@ ms.dyn365.ops.version: Human Resources
     | พิมพ์การทบทวนผลการปฏิบัติงาน | คุณสามารถพิมพ์บทวิจารณ์ประสิทธิภาพในรูปแบบ PDF ได้ | พร้อมใช้งานโดยทั่วไป | 
     | ลิงก์แบบกำหนดเองใน **ระบบบริการตนเองของผู้จัดการ** | คุณสามารถสร้างลิงก์แบบกำหนดเองในที่ปรากฏในส่วน **ลิงก์ที่เกี่ยวข้อง** ของ **ระบบบริการตนเองของผู้จัดการ** | พร้อมใช้งานโดยทั่วไป | 
     | มุมมองค่าตอบแทนข้ามบริษัท | ผู้ใช้สามารถดูแผนค่าตอบแทนใน **ระบบบริการตนเองของผู้จัดการ** ในนิติบุคคลทั้งหมดโดยไม่ต้องสลับบริษัท | พร้อมใช้งานโดยทั่วไป | 
-    | ตั้งค่าคอนฟิกระดับค่าตอบแทนตามงาน\*&dagger; | ตอนนี้งานรองรับระดับค่าตอบแทนหลายระดับ | พร้อมใช้งานโดยทั่วไป | 
+    | ตั้งค่าคอนฟิกระดับค่าตอบแทนตามงาน\*&dagger; | ตอนนี้งานรองรับระดับค่าตอบแทนหลายระดับ | แสดงตัวอย่าง | 
     | การจัดการงาน\* | คุณสามารถสร้างรายการตรวจสอบและงานต่างๆ เกี่ยวกับการดูแลพนักงานใหม่ การออกจากงาน และ การย้ายงานได้ | แสดงตัวอย่าง | 
     | การป้อนข้อมูลของพนักงานที่มีประสิทธิภาพ | คุณลักษณะนี้มอบประสบการณ์ผู้ใช้ที่อัปเดตในหน้า **ผู้ปฏิบัติงาน** ที่มีอยู่ | แสดงตัวอย่าง | 
     | การปรับปรุงประสบการณ์ผู้ใช้ทรัพยากรบุคคล | ดูตารางในส่วนถัดไป  | แสดงตัวอย่าง | 

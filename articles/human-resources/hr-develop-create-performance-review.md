@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431171"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066961"
 ---
 # <a name="create-performance-reviews"></a>สร้างการตรวจสอบประสิทธิภาพ
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,7 +35,7 @@ ms.locfileid: "7431171"
 3. ในฟิลด์ **ชนิดการตรวจทาน** ให้ป้อนหรือเลือกค่า
 4. ในฟิลด์ **รอบระยะเวลาประสิทธิภาพ** ให้ป้อนหรือเลือกค่า
 5. ในฟิลด์ **วันที่สิ้นสุด** ให้ป้อนวันที่
-6. เลือก **ตกลง** คุณยังสามารถสร้างการตรวจทานจากเท็มเพลต  นี่คือวิธีที่ดีที่สุดในการสร้างการตรวจทานเนื่องจากแต่ละส่วนจะประกอบด้วยข้อมูลที่คุณต้องการในการเริ่มต้นการตรวจทาน  
+6. เลือก **ตกลง** คุณยังสามารถสร้างการตรวจทานจากเทมเพลต  นี่คือวิธีที่ดีที่สุดในการสร้างการตรวจทานเนื่องจากแต่ละส่วนจะประกอบด้วยข้อมูลที่คุณต้องการในการเริ่มต้นการตรวจทาน  
 7. คุณสามารถแสดงหรือซ่อนแท็บต่างๆ เช่น แท็บเอกสารแนบ:
 
     1. บนบานหน้าต่างการดำเนินการ ให้เลือก **แสดงส่วน** เพื่อเปิดเมนูกล่องโต้ตอบ

@@ -9,26 +9,26 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e41d600464d707d01a0e319dd3cd343b04aa26b7
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782391"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063658"
 ---
 # <a name="integrated-ledger"></a>บัญชีแยกประเภทแบบรวม
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ในแอปพลิเคชันธุรกิจ ข้อมูลบัญชีแยกประเภทจะกำหนดหลักที่ตั้งค่าไว้สำหรับวิธีการดำเนินธุรกิจของบริษัท ตัวอย่างเช่น ข้อมูลบัญชีแยกประเภทจะอธิบายถึงปีบัญชีที่บริษัทดำเนินตาม สกุลเงินที่ใช้ทำธุรกรรม และบัญชีที่ใช้ หัวข้อนี้จะอธิบายการรวมของข้อมูลทางการเงินหลักนี้
 
-## <a name="templates"></a>เท็มเพลต
+## <a name="templates"></a>เทมเพลต
 
 ข้อมูลบัญชีแยกประเภทรวมชุดของแผนผังตารางทางการเงินหลัก ที่ร่วมกันในระหว่างการโต้ตอบข้อมูลลูกค้า ดังที่แสดงในตารางต่อไปนี้
 
-แอป Finance and Operations | แอป Customer Engagement     | คำอธิบาย
+แอปการเงินและการดำเนินงาน | แอปการมีส่วนร่วมของลูกค้า     | คำอธิบาย
 ---------------------------------|----------------------------------|------------
 [อัตราแลกเปลี่ยน CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [ผังบัญชี](mapping-reference.md#121) | msdyn_chartofaccountses |

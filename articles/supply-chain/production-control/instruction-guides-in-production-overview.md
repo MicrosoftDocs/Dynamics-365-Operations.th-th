@@ -18,17 +18,17 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: edb4d1217617ee3bcb7f528da4aad42fb4fb6b82
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 703f2cb9a1ea8691420765a8598d59f3e6cc6488
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576915"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062963"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>ให้คำแนะนำผสมความเป็นจริงสำหรับผู้ปฏิบัติงานในการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ผู้ปฏิบัติงานในกระบวนการผลิตจะได้รับประโยชน์จากคำแนะนำที่เกี่ยวข้อง ซึ่งมีให้ในเวลาที่เหมาะสมในบริบทของงานพวกเขา *คำแนะนำ* นำไปใช้ในโดเมนต่างๆ ของงานได้ รวมถึง: แอสเซมบลี การบริการ การดำเนินงาน ใบรับรอง และความปลอดภัย ฟังก์ชันธุรกิจหลักเหล่านี้ทั้งหมดในอีกด้าน คำแนะนำในการฝึกอบรมที่ต่อเนื่องจะช่วยให้ผู้ปฏิบัติงานสามารถทำงานได้อย่างมีประสิทธิภาพมากขึ้น
 
@@ -98,7 +98,7 @@ Dynamics 365 Guides ช่วยเพิ่มศักยภาพพนัก
 
 ## <a name="get-started-with-instructions-and-guides"></a>เริ่มต้นใช้งานด้วยคำแนะนำและคู่มือ
 
-เมื่อต้องการเปิดใช้งานคำแนะนำในกระบวนการผลิต Supply Chain Management จะมีการรวมสำเร็จรูปด้วย Dynamics 365 Guides อินสแตนซ์ของโปรแกรมประยุกต์ที่ได้รับอนุญาตและติดตั้งแล้วของ Guides จำเป็นต้องใช้ เพื่อสร้าง รักษา และกำหนดคำแนะนำความจริงผสมให้กับสินทรัพย์และการทำงานของการผลิต
+เมื่อต้องการเปิดใช้งานคำแนะนำในกระบวนการผลิต Supply Chain Management จะมีการรวมสำเร็จรูปด้วย Dynamics 365 Guides อินสแตนซ์ของแอปพลิเคชันที่ได้รับอนุญาตและติดตั้งแล้วของ Guides จำเป็นต้องใช้ เพื่อสร้าง รักษา และกำหนดคำแนะนำความจริงผสมให้กับสินทรัพย์และการทำงานของการผลิต
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 

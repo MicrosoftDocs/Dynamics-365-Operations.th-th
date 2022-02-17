@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 32c2cf31d82d17d3391536e7a9f1722e1462c336
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944777"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077024"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
 
@@ -92,7 +92,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-fiscal-integration-for-sweden"></a>ตั้งค่าการรวมทางการเงินสำหรับสวีเดน
 
-ตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดนยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\CleanCash** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดนยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\CleanCash** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
 
 > [!WARNING]
 > เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) รุ่นก่อนหน้านี้ หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดน (ดั้งเดิม)](emea-swe-fi-sample-sdk.md)
@@ -113,7 +113,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
     1. เปิดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
-    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/โปรแกรมประยุกต์ของคุณ (ตัวอย่างเช่น **[รุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**)
+    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ (ตัวอย่างเช่น **[รุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**)
     1. เปิด **src \> FiscalIntegration \> CleanCash**
     1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ **CommerceRuntime \> DocumentProvider.CleanCashSample \> Configuration \> DocumentProviderFiscalCleanCashSample.xml** (ตัวอย่างเช่น [ไฟล์ของรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/CommerceRuntime/DocumentProvider.CleanCashSample/Configuration/DocumentProviderFiscalCleanCashSample.xml))
     1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **HardwareStation \> Connector.CleanCashSample \> Configuration \> ConnectorCleanCashSample.xml** (ตัวอย่างเช่น [ไฟล์สำหรับรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/HardwareStation/Connector.CleanCashSample/Configuration/ConnectorCleanCashSample.xml))
@@ -129,7 +129,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 1. ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ที่ใช้ร่วมกันของ Commerce** บนแท็บ **ทั่วไป** ให้ตั้งค่าตัวเลือก **เปิดใช้งานการรวมทางการเงิน** เป็น **ใช่**
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การรวมทางการเงิน \> ผู้ให้บริการเอกสารทางการเงิน** และโหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่คุณดาวน์โหลดก่อนหน้านี้
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การรวมทางการเงิน \> ตัวเชื่อมต่อทางการเงิน** และโหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่คุณดาวน์โหลดก่อนหน้านี้
-1. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> โปรไฟล์ฟังก์ชันของตัวเชื่อมต่อ** สร้างโปรไฟล์ฟังก์ชันของตัวเชื่อมต่อใหม่ เลือกผู้ให้บริการเอกสารและตัวเชื่อมต่อที่คุณโหลดไว้ก่อนหน้านี้ อัปเดต [การตั้งค่าการแม็ปข้อมูล](#default-data-mapping) ตามที่ต้องการ
+1. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> โปรไฟล์ฟังก์ชันของตัวเชื่อมต่อ** สร้างโปรไฟล์ฟังก์ชันของตัวเชื่อมต่อใหม่ เลือกผู้ให้บริการเอกสารและตัวเชื่อมต่อที่คุณโหลดไว้ก่อนหน้านี้ อัปเดต [การตั้งค่าการแมปข้อมูล](#default-data-mapping) ตามที่ต้องการ
 1. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> โปรไฟล์ทางเทคนิคของตัวเชื่อมต่อ** สร้างโปรไฟล์ทางเทคนิคของตัวเชื่อมต่อใหม่ และเลือกตัวเชื่อมต่อทางการเงินที่คุณโหลดไว้ก่อนหน้านี้ อัปเดต [การตั้งค่าตัวเชื่อมต่อ](#fiscal-connector-settings) ตามที่ต้องการ
 6. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> กลุ่มตัวเชื่อมต่อทางการเงิน** สร้างกลุ่มตัวเชื่อมต่อทางการเงินใหม่สำหรับโปรไฟล์ฟังก์ชันของตัวเชื่อมต่อที่คุณสร้างไว้ก่อนหน้านี้
 7. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> กระบวนการลงทะเบียนทางการเงิน** สร้างกระบวนการลงทะเบียนทางการเงินใหม่และขั้นตอนกระบวนการลงทะเบียนทางการเงิน และเลือกกลุ่มตัวเชื่อมต่อทางการเงินที่คุณสร้างก่อนหน้านี้
@@ -137,11 +137,11 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 9. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> โพรไฟล์POS \> โปรไฟล์ฮาร์ดแวร์** เลือกโปรไฟล์ฮาร์ดแวร์ที่เชื่อมโยงกับสถานีฮาร์ดแวร์ที่เครื่องพิมพ์ทางการเงินจะเชื่อมต่อด้วย บน FastTab **อุปกรณ์ต่อพ่วงทางการเงิน** ให้เลือกโปรไฟล์ทางเทคนิคของตัวเชื่อมต่อที่คุณสร้างก่อนหน้านี้
 10. เปิดกำหนดการจัดจำหน่าย (**การขายปลีกและการค้า \> การขายปลีกและการค้าไอที \> กำหนดการจัดจำหน่าย**) และเลือกงาน **1070** และ **1090** เพื่อโอนย้ายข้อมูลไปยังฐานข้อมูลช่องทาง
 
-#### <a name="default-data-mapping"></a>การแม็ปข้อมูลเริ่มต้น
+#### <a name="default-data-mapping"></a>การแมปข้อมูลเริ่มต้น
 
-การแม็ปข้อมูลเริ่มต้นต่อไปนี้รวมอยู่ในการตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ให้ไว้โดยเป็นส่วนหนึ่งของตัวอย่างการรวมทางการเงิน:
+การแมปข้อมูลเริ่มต้นต่อไปนี้รวมอยู่ในการตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ให้ไว้โดยเป็นส่วนหนึ่งของตัวอย่างการรวมทางการเงิน:
 
-- **การแม็ปรหัสภาษีมูลค่าเพิ่ม (VAT)** – การแม็ปนี้จะตั้งค่ารหัสภาษีมูลค่าเพิ่มเฉพาะอุปกรณ์ (VAT) กับรหัสภาษีขายที่เกี่ยวข้อง การแม็ปรหัส VAT ควรมีรูปแบบต่อไปนี้:
+- **การแมปรหัสภาษีมูลค่าเพิ่ม (VAT)** – การแมปนี้จะตั้งค่ารหัสภาษีมูลค่าเพิ่มเฉพาะอุปกรณ์ (VAT) กับรหัสภาษีขายที่เกี่ยวข้อง การแมปรหัส VAT ควรมีรูปแบบต่อไปนี้:
 
     ```
     1 : code1 ; 2 : code2
@@ -151,16 +151,16 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
     - *1* และ *2* เป็นรหัส VAT เฉพาะอุปกรณ์
     - อัฒภาค (;) ใช้เป็นตัวแบ่ง
-    - *code1* และ *code2* คือรหัสภาษีขายที่ตั้งค่าคอนฟิกในศูนย์ควบคุม Commerce คุณต้องปรับเปลี่ยนการแม็ปตัวอย่างตามรหัสภาษีที่ตั้งค่าคอนฟิกในโปรแกรมประยุกต์ของคุณ
+    - *code1* และ *code2* คือรหัสภาษีขายที่ตั้งค่าคอนฟิกในศูนย์ควบคุม Commerce คุณต้องปรับเปลี่ยนการแมปตัวอย่างตามรหัสภาษีที่ตั้งค่าคอนฟิกในแอปพลิเคชันของคุณ
 
-    อุปกรณ์ควบคุมสนับสนุนรหัส VAT ที่แตกต่างกันไม่เกินสี่รหัส ดังนั้น การแม็ปรหัส VAT อาจถูกตั้งค่าในลักษณะต่อไปนี้:
+    อุปกรณ์ควบคุมสนับสนุนรหัส VAT ที่แตกต่างกันไม่เกินสี่รหัส ดังนั้น การแมปรหัส VAT อาจถูกตั้งค่าในลักษณะต่อไปนี้:
 
     ```
     1 : code1 ; 2 : code2 ; 3 : code3 ; 4 : code4
     ```
 
     > [!NOTE]
-    > รหัสภาษีขายหลายรหัสสามารถแม็ปกับรหัส VAT เฉพาะอุปกรณ์เดียวกัน
+    > รหัสภาษีขายหลายรหัสสามารถแมปกับรหัส VAT เฉพาะอุปกรณ์เดียวกัน
 
 #### <a name="fiscal-connector-settings"></a>การตั้งค่าตัวเชื่อมต่อทางการเงิน
 
@@ -180,7 +180,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 หากต้องการตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อทดสอบและขยายตัวอย่าง ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/โปรแกรมประยุกต์ของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
+1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
 1. เปิดโซลูชันการรวมอุปกรณ์ควบคุมที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\CleanCash\\CleanCash.sln** และสร้าง
 1. ติดตั้งส่วนขยาย CRT:
 
@@ -214,11 +214,11 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
-ปฏิบัติตามขั้นตอนต่างๆ ใน [การตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน](fiscal-integration-sample-build-pipeline.md) เพื่อสร้างและปล่อย Cloud Scale Unit และแพคเกจที่ปรับใช้ได้แบบบริการตนเองในตัวอย่างการรวมทางการเงิน ไฟล์ YAML แม่แบบ **CleanCash build-pipeline.yml** สามารถพบได้ในโฟลเดอร์ **Pipeline\\YAML_Files** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
+ปฏิบัติตามขั้นตอนต่างๆ ใน [การตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน](fiscal-integration-sample-build-pipeline.md) เพื่อสร้างและปล่อย Cloud Scale Unit และแพคเกจที่ปรับใช้ได้แบบบริการตนเองในตัวอย่างการรวมทางการเงิน ไฟล์ YAML เทมเพลต **CleanCash build-pipeline.yml** สามารถพบได้ในโฟลเดอร์ **Pipeline\\YAML_Files** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 
 ## <a name="design-of-the-extensions"></a>การออกแบบของส่วนขยาย
 
-ตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดนยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\CleanCash** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดนยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\CleanCash** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
 
 > [!WARNING]
 > เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมอุปกรณ์ควบคุมของสวีเดน (ดั้งเดิม)](emea-swe-fi-sample-sdk.md) มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า

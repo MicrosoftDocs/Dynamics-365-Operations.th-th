@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431195"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071526"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,11 +39,11 @@ ms.locfileid: "7431195"
 
 1. ใน **พารามิเตอร์ทรัพยากรบุคคล** ให้เลือก **การบริการตนเองของผู้จัดการ**
 
-2. ภายใต้ **ตั้งค่าลิงค์สำหรับผู้จัดการ** คุณสามารถเพิ่ม แก้ไข หรือลบลิงค์ได้ นอกจากนี้คุณยังสามารถจัดกลุ่มลิงค์เข้าด้วยกัน เพื่อให้แสดงผลในกลุ่มในการบริการตนเองของผู้จัดการ
+2. ภายใต้ **ตั้งค่าลิงค์สำหรับผู้จัดการ** คุณสามารถเพิ่ม แก้ไข หรือลบลิงค์ได้ นอกจากนี้คุณยังสามารถจัดกลุ่มลิงค์เข้าด้วยกัน เพื่อให้แสดงผลในกลุ่มใน **ระบบบริการตนเองของผู้จัดการ**
 
    ![ตั้งค่าลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. เมื่อต้องการดูลิงค์ ให้ไปที่แท็บ **ทีมงานของฉัน** ในระบบบริการตนเองของพนักงาน
+3. เมื่อต้องการดูลิงค์ ให้ไปที่แท็บ **ทีมงานของฉัน** ใน **ระบบบริการตนเองของพนักงาน**
 
    ![ดูลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](./media/hr-employee-manager-self-service-custom-links-view.png)
 
