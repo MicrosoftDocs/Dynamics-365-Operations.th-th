@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba984d26c5c0b1376c0ad85e5c0665da004a46a5
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414699"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065027"
 ---
 # <a name="configure-integration-with-finance"></a>ตั้งค่าคอนฟิกการรวมกับ Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เท็มเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) ได้ เท็มเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เท็มเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
+
+เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เทมเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) ได้ เทมเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เทมเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
 
 ![ทรัพยากรบุคคลไปยังโฟลว์การรวมทางการเงิน](./media/hr-admin-integration-finance-flow.png)
 
@@ -46,9 +49,9 @@ ms.locfileid: "7414699"
 - Dynamics 365 Human Resources ใน Dataverse
 - Dynamics 365 Finance รุ่น 7.2 และรุ่นที่ใหม่กว่า
 
-## <a name="template-and-tasks"></a>เท็มเพลตและงาน
+## <a name="template-and-tasks"></a>เทมเพลตและงาน
 
-เพื่อเข้าถึงเท็มเพลต Human Resources ไปยัง Finance
+เพื่อเข้าถึงเทมเพลต Human Resources ไปยัง Finance
 
 1. เปิด [Power Apps ศูนย์การจัดการ](https://admin.powerapps.com/) 
 
@@ -56,7 +59,7 @@ ms.locfileid: "7414699"
 
 3. เลือก **Human Resources (Human Resources Dataverse ไปยัง Finance**) เพื่อซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance
 
-เท็มเพลตใช้งานพื้นฐานต่อไปนี้ในการซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance:
+เทมเพลตใช้งานพื้นฐานต่อไปนี้ในการซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance:
 
 - **ฟังก์ชันงานสำหรับฟังก์ชันงานค่าตอบแทน**
 - **แผนกไปยังหน่วยปฏิบัติงาน**
@@ -74,9 +77,9 @@ ms.locfileid: "7414699"
 - **การมอบหมายผู้ปฏิบัติงานของตำแหน่งไปยังการมอบหมายผู้ปฏิบัติงานของตำแหน่ง**
 - **ที่อยู่ของผู้ปฏิบัติงานไปยังที่อยู่ทางไปรษณีย์ของผู้ปฏิบัติงาน V2**
 
-## <a name="template-mappings"></a>การแม็ปเท็มเพลต
+## <a name="template-mappings"></a>การแมปเทมเพลต
 
-ในตารางการแม็ปเท็มเพลตต่อไปนี้ ชื่อของงานจะมีเอนทิตี้ที่ใช้ในแอพลิเคชันแต่ละรายการ ต้นทาง (Human Resources) อยู่ทางด้านซ้าย และปลายทาง (Finance) อยู่ทางด้านขวา
+ในตารางการแมปเทมเพลตต่อไปนี้ ชื่อของงานจะมีเอนทิตี้ที่ใช้ในแอปพลิเคชันแต่ละรายการ ต้นทาง (Human Resources) อยู่ทางด้านซ้าย และปลายทาง (Finance) อยู่ทางด้านขวา
 
 ### <a name="job-functions-to-compensation-job-function"></a>ฟังก์ชันงานสำหรับฟังก์ชันงานค่าตอบแทน
 
@@ -251,8 +254,8 @@ ms.locfileid: "7414699"
 
 รหัสที่ตั้งที่ใช้สำหรับที่อยู่ของผู้ปฏิบัติงานไม่ได้เป็นส่วนหนึ่งของลำดับหมายเลข เมื่อรวมที่อยู่ของผู้ปฏิบัติงานจากทรัพยากรบุคคลไปยังการเงิน ถ้าที่อยู่ของผู้ปฏิบัติงานมีอยู่แล้วในการเงินคุณ อาจมีการสร้างเรกคอร์ดที่อยู่ที่ซ้ำกัน 
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในตัวรวมข้อมูล 
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปเทมเพลตในตัวรวมข้อมูล 
 
-![การแม็ปเท็มเพลต](./media/IntegrationMapping.png)
+![การแมปเทมเพลต](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

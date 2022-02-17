@@ -1,5 +1,5 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (08 กรกฎาคม 2020)
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (08 กรกฎาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 8 กรกฏาคม 2020
 author: andreabichsel
 ms.date: 07/08/2020
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7fae6089d16aa582ff18052effe8e3a69663bee67c0cceec930314eb91af9536
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a574436bc7762fbee722af8be2f923d18d01e5b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060800"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (8 กรกฎาคม 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (8 กรกฎาคม 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3382 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
@@ -44,7 +44,7 @@ ms.locfileid: "6761960"
 
 ## <a name="email-employee-enrollment-confirmation"></a>การยืนยันการลงทะเบียนของพนักงานทางอีเมล
 
-ขณะนี้คุณสามารถส่งอีเมลไปยังพนักงานได้ หลังจากที่พวกเขาทำการเลือกผลประโยชน์ของพวกเขาเสร็จสมบูรณ์แล้ว คุณสามารถส่งข้อความเริ่มต้น หรือใช้เท็มเพลตอีเมลขององค์กรได้ การตั้งค่าเหล่านี้อยู่ภายใต้ **พารามิเตอร์ทรัพยากรบุคคล > การจัดการสวัสดิการ**
+ขณะนี้คุณสามารถส่งอีเมลไปยังพนักงานได้ หลังจากที่พวกเขาทำการเลือกผลประโยชน์ของพวกเขาเสร็จสมบูรณ์แล้ว คุณสามารถส่งข้อความเริ่มต้น หรือใช้เทมเพลตอีเมลขององค์กรได้ การตั้งค่าเหล่านี้อยู่ภายใต้ **พารามิเตอร์ทรัพยากรบุคคล > การจัดการสวัสดิการ**
 
 ## <a name="canceled-leave-still-appears-in-upcoming-time-off-on-people-workspace-441358"></a>การลางานที่ยกเลิกยังคงแสดงอยู่ในเวลาที่กำลังจะเกิดขึ้นในพื้นที่ทำงานของบุคคล (441358)
 
@@ -95,7 +95,7 @@ ms.locfileid: "6761960"
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
-เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย แม่แบบการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล แม่แบบส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
+เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย เทมเพลตการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล เทมเพลตส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
 
 ## <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน 
 
@@ -136,7 +136,7 @@ ms.locfileid: "6761960"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

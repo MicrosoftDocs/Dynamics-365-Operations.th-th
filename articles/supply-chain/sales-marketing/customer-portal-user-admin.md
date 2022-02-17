@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937488"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062501"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ในการใช้งานแบบสำเร็จรูป ไม่มีวิธีที่ผู้ใช้จะลงทะเบียนด้วยตนเองสำหรับเว็บไซต์ที่สร้างขึ้นโดยใช้พอร์ทัลของลูกค้า เมื่อต้องการลงชื่อเข้าใช้และใช้เว็บไซต์ ผู้ใช้จะต้องได้รับเชิญโดยผู้ดูแลระบบ Microsoft ตั้งใจบล็อคความสามารถของผู้ใช้ในการลงทะเบียนด้วยตนเอง
 
@@ -33,7 +33,7 @@ ms.locfileid: "7937488"
 ## <a name="video"></a>วีดิทัศน์
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-วิดีโอ [เชิญลูกค้าให้ลงทะเบียนและใช้พอร์ทัลลูกค้าของคุณ](https://youtu.be/drGUYHX9QIQ) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่พร้อมใช้งานบน YouTube
+วิดีโอ [เชิญลูกค้าให้ลงทะเบียนและใช้พอร์ทัลลูกค้าของคุณ](https://youtu.be/drGUYHX9QIQ) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่มีอยู่บน YouTube
 
 ## <a name="prerequisite-setup"></a>การตั้งค่าข้อกำหนดเบื้องต้น
 
@@ -41,7 +41,7 @@ ms.locfileid: "7937488"
 
 ![แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า](media/customer-portal-contacts.png "แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า")
 
-ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแม็ปตาราง **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
+ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแมปตาราง **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
 
 ## <a name="the-invitation-process"></a>กระบวนการเชิญ
 
@@ -80,7 +80,7 @@ ms.locfileid: "7937488"
 
 #### <a name="unauthorized-users"></a>ผู้ใช้ที่ไม่ได้รับอนุมัติ
 
-ผู้ใช้ที่ไม่ได้รับอนุมัติจะไม่สามารถดูข้อมูลใดๆ ได้ พวกเขาสามารถดูได้เฉพาะข้อมูลสาธารณะ เช่น ข้อกำหนดและเงื่อนไข และรายละเอียดเกี่ยวกับบริษัทที่กำลังรันพอร์ทัลลูกค้า
+ผู้ใช้ที่ไม่ได้รับอนุมัติจะไม่สามารถดูข้อมูลใดๆ ได้ พวกเขาสามารถดูได้เฉพาะข้อมูลสาธารณะ เช่น ข้อกำหนดและเงื่อนไข และรายละเอียดเกี่ยวกับบริษัทที่กำลังเรียกใช้พอร์ทัลลูกค้า
 
 #### <a name="example"></a>ตัวอย่าง
 

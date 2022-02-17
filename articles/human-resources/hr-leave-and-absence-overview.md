@@ -1,23 +1,30 @@
 ---
-# required metadata
 title: ภาพรวมการลางานและการขาดงาน
 description: ใน Dynamics 365 Human Resources พื้นที่ทำงานการลางานและการขาดงานจะแสดงกรอบงานที่มีความยืดหยุ่นสำหรับการสร้างแผนการลางานใหม่
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'LeavePlanFormPart, LeaveAbsenceWorkspace'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: '2020-02-03'
+ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069032"
 ---
-
 # <a name="leave-and-absence-overview"></a>ภาพรวมการลางานและการขาดงาน
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

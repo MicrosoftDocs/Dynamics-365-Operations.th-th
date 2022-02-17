@@ -1,5 +1,5 @@
 ---
-title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (03 กันยายน 2020)
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (03 กันยายน 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 3 กันยายน 2020
 author: andreabichsel
 ms.date: 09/03/2020
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6d7c3e3070d6c3b8dad7b3ae4d50e928d0060d5892d606cd78bc701c2e7985cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1cc3a64e6c345df7727f5ca7336821388c9dbcf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759706"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063554"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (3 กันยายน 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (3 กันยายน 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3504 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
@@ -53,7 +53,7 @@ ms.locfileid: "6759706"
 
 การเปลี่ยนแปลงนี้แก้ไขปัญหาที่เกิดขึ้นกับไฟล์เอาต์พุต1094-C ไม่มีอักขระที่จำเป็นเมื่อส่งไปที่ IRS
 
-### <a name="employee-variable-compensation-table-mapped-to-fixed-compensation-form-476117"></a>ตารางค่าตอบแทนผันแปรของพนักงานที่แม็ปกับแบบฟอร์มค่าตอบแทนคงที่ (476117)
+### <a name="employee-variable-compensation-table-mapped-to-fixed-compensation-form-476117"></a>ตารางค่าตอบแทนผันแปรของพนักงานที่แมปกับแบบฟอร์มค่าตอบแทนคงที่ (476117)
 
 การเปลี่ยนแปลงนี้จัดตำแหน่งฟิลด์ค่าตอบแทนคงที่ให้สอดคล้องกับแบบฟอร์มค่าตอบแทนคงที่ ขณะนี้ฟิลด์ค่าตอบแทนผันแปรสามารถใช้งานกับแบบฟอร์มค่าตอบแทนผันแปรเท่านั้น
 
@@ -61,9 +61,9 @@ ms.locfileid: "6759706"
 
 การเปลี่ยนแปลงนี้ไม่อนุญาตให้ป้อนการร้องขอการลางานก่อนที่จะลงทะเบียนในแผน ถึงแม้ว่าการลงทะเบียนจะมียอดคงเหลือต่ำสุดที่เป็นค่าลบ คุณสามารถป้อนหรือส่งคำขอได้เฉพาะเมื่อแผนเปิดใช้งานอยู่เท่านั้น
 
-### <a name="document-templates-dont-download-457279"></a>เท็มเพลตเอกสารไม่ดาวน์โหลด (457279)
+### <a name="document-templates-dont-download-457279"></a>เทมเพลตเอกสารไม่ดาวน์โหลด (457279)
 
-เมื่อคุณทำการเปลี่ยนแปลงนี้ คุณสามารถดาวน์โหลดเท็มเพลตเอกสารทั้งหมดได้แล้ว 
+เมื่อคุณทำการเปลี่ยนแปลงนี้ คุณสามารถดาวน์โหลดเทมเพลตเอกสารทั้งหมดได้แล้ว 
 
 ### <a name="data-displays-as-column-headers-instead-of-rows-for-the-pay-rate-field-in-the-compensation-plan-report-476077"></a>ข้อมูลจะแสดงเป็นส่วนหัวของคอลัมน์แทนแถวสำหรับฟิลด์อัตราการชำระค่าจ้างในรายงานแผนค่าตอบแทน (476077)
 
@@ -115,7 +115,7 @@ ms.locfileid: "6759706"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

@@ -12,16 +12,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0068f7e678b069a6a2563ed227e42393ddacf5d78d988ca73f576cdcff5e3f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749399"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065591"
 ---
 # <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบลำดับงาน
 
@@ -50,7 +53,7 @@ ms.locfileid: "6749399"
 โดยสรุป ถ้าผู้ใช้ไม่ได้รับการแจ้งเตือนที่เหมาะสมจากศูนย์ปฏิบัติการ เมื่อมีการกำหนดรายการงานของลำดับงาน ใช้ [เหตุการณ์ทางธุรกิจของลำดับงาน](../../dev-itpro/business-events/business-events-workflow.md) ด้วย Microsoft Power Automate เพื่อให้มีการแจ้งเตือนเพิ่มเติมหรือการแจ้งเตือนที่แตกต่างกัน
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>ทำไมโปรแกรมแก้ไขลำดับงานจึงไม่สามารถเริ่มต้นภายใต้ AD FS ได้
-เมื่อทำงานภายใต้ Active Directory Federation Services (AD FS) ในสภาพแวดล้อมที่มีการอัพเกรด ตัวแก้ไขลำดับงานอาจมีปัญหาในการเริ่มต้น ถ้าเป็นเช่นนั้น ให้ตรวจสอบให้แน่ใจว่า URL "https://dynamicsaxworkfloweditor/" ถูกเพิ่มไปยังคุณสมบัติ **Microsoft Dynamics 365 for Operations แบบในสถานที่ -ลำดับงาน - แอพลิเคชันดั้งเดิม** ในการตั้งค่า ADFS
+เมื่อทำงานภายใต้ Active Directory Federation Services (AD FS) ในสภาพแวดล้อมที่มีการอัพเกรด ตัวแก้ไขลำดับงานอาจมีปัญหาในการเริ่มต้น ถ้าเป็นเช่นนั้น ให้ตรวจสอบให้แน่ใจว่า URL "https://dynamicsaxworkfloweditor/" ถูกเพิ่มไปยังคุณสมบัติ **Microsoft Dynamics 365 for Operations แบบในสถานที่ -ลำดับงาน - แอปพลิเคชันดั้งเดิม** ในการตั้งค่า ADFS
 
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>เพราะเหตุใดฉันจึงได้รับการชะงักงันของ SQL บนการประมวลผลลำดับงาน 
 ค่าฟิลด์เริ่มต้นสำหรับ **จำนวนของสินค้าในลำดับงานต่อชุดงาน** ในหน้า **พารามิเตอร์ลำดับงาน** คือ 0 ค่า 0 ทำให้ค่าเริ่มต้นเปลี่ยนเป็นสินค้า 20 รายการต่อชุดงาน โปรดใช้ความระมัดระวังเมื่อปรับค่านี้ เนื่องจากจำนวนสินค้าสูงสุดต่อชุดงาน (> 40) อาจทำให้เกิดการชะงักงันของ SQL

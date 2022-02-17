@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f74692ffe8afbdeea7519ac8bdfbbe54105b9ccee83031a9b1c223be78fc12e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770419"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063015"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (18 กุมภาพันธ์ 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.2903 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
 ## <a name="platform-update-32"></a>แพลตฟอร์ม update 32 
 
-การปรับปรุงแพลตฟอร์ม 32 พร้อมใช้งานแล้วในขณะนี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการปรับปรุงแพลตฟอร์ม 32 สำหรับ Finance and Operations (กุมภาพันธ์ 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)
+การปรับปรุงแพลตฟอร์ม 32 พร้อมใช้งานแล้วในขณะนี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในการอัปเดตแพลตฟอร์ม 32 สำหรับแอปการเงินและการดำเนินงาน (กุมภาพันธ์ 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>ค่าการค้นหาจะถูกจดจำเมื่อมีการเปลี่ยนแปลงตัวเลือกมุมมองในฟอร์มพนักงานที่มีประสิทธิภาพ (383833)
 
@@ -79,7 +79,7 @@ ms.locfileid: "6770419"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

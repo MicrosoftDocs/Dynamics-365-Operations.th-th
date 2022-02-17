@@ -2,7 +2,7 @@
 title: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 description: หัวข้อนี้อธิบายวิธีการเตรียมใช้งานสเกลยูนิตแบบปลายทางในสถานที่ โดยใช้ฮาร์ดแวร์และการจัดวางที่กำหนดเอง ซึ่งขึ้นอยู่กับข้อมูลธุรกิจภายใน (LBD)
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920684"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024553"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
 
@@ -26,6 +26,13 @@ ms.locfileid: "7920684"
 คุณสามารถปรับใช้สเกลยูนิตแบบปลายทางได้โดยการสร้างข้อมูลธุรกิจภายใน (LBD) [สภาพแวดล้อมในสถานที่](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) แล้วตั้งค่าคอนฟิกให้ฟังก์ชันเป็นสเกลยูนิตในโทโพโลยีแบบไฮบริดแบบกระจายของคุณ สำหรับ Supply Chain Management ซึ่งได้รับจากการเชื่อมโยงสภาพแวดล้อม LBD ในสถานที่กับสภาพแวดล้อม Supply Chain Management ใน Cloud ซึ่งถูกตั้งค่าคอนฟิกให้ฟังก์ชันเป็นฮับ  
 
 หัวข้อนี้จะอธิบายวิธีตั้งค่าสภาพแวดล้อม LBD ในสถานที่เป็นสเกลยูนิตแบบปลายทาง แล้วเชื่อมโยงกับฮับ
+
+## <a name="infrastructure-considerations"></a>ข้อควรพิจารณาเกี่ยวกับโครงสร้างพื้นฐาน
+
+สเกลยูนิตแบบปลายทางทำงานในสภาพแวดล้อมแบบในองค์กร ดังนั้น ความต้องการโครงสร้างพื้นฐานจึงคล้ายกันมาก อย่างไรก็ตาม มีความแตกต่างบางอย่างที่ควรจะทราบ:
+
+- สเกลยูนิตแบบปลายทางไม่ได้ใช้ Financial Reporting ดังนั้น หน่วยจึงไม่ต้องการโหนด Financial Reporting
+- ปริมาณงานการผลิตและการคลังสินค้าจะไม่ใช้การคำนวณสูง จึงควรพิจารณาปรับขนาดความสามารถในการคำนวณของคุณสำหรับโหนด AOS ตามนั้น
 
 ## <a name="deployment-overview"></a>ภาพรวมของการปรับใช้
 
@@ -55,12 +62,12 @@ ms.locfileid: "7920684"
 
 ขั้นตอนนี้จะสร้างสภาพแวดล้อม LBD ที่ทำงานได้ อย่างไรก็ตาม สภาพแวดล้อมไม่ควรจะมีเวอร์ชันแอปพลิเคชันและแพลตฟอร์มเดียวกันกับสภาพแวดล้อมฮับ นอกจากนี้ ยังขาดการเลือกกำหนด และยังไม่มีการเปิดใช้งานเพื่อใช้เป็นสเกลยูนิต
 
-1. ทำตามคำแนะนำใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) คุณต้องใช้ Supply Chain Management รุ่น 10.0.21 หรือรุ่นใหม่กว่า ผ่านฮับและสเกลยูนิต นอกจากนี้ คุณต้องใช้เวอร์ชัน 2.12.0 หรือรุ่นใหม่กว่าของสคริปต์โครงสร้างพื้นฐาน 
+1. ทำตามคำแนะนำใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) คุณต้องใช้ Supply Chain Management รุ่น 10.0.21 หรือรุ่นใหม่กว่า ผ่านฮับและสเกลยูนิต นอกจากนี้ คุณต้องใช้เวอร์ชัน 2.12.0 หรือรุ่นใหม่กว่าของสคริปต์โครงสร้างพื้นฐาน 
 
     > [!IMPORTANT]
     > อ่านส่วนที่เหลือของส่วนนี้ **ก่อน** คุณจะเสร็จสิ้นขั้นตอนในหัวข้อนั้น
 
-1. ก่อนที่คุณจะอธิบายการตั้งค่าคอนฟิกของคุณในไฟล์\\ConfigTemplate.xml ของโครงสร้างพื้นฐาน ให้รันสคริปต์ต่อไปนี้:
+1. ก่อนที่คุณจะอธิบายการตั้งค่าคอนฟิกของคุณในไฟล์\\ConfigTemplate.xml ของโครงสร้างพื้นฐาน ให้เรียกใช้สคริปต์ต่อไปนี้:
 
     ```powershell
     .\Configure-ScriptsForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml
@@ -70,7 +77,7 @@ ms.locfileid: "7920684"
     > สคริปต์นี้จะลบการตั้งค่าคอนฟิกใดๆ ที่ไม่ต้องการใช้งานสเกลยูนิตแบบปลายทาง
 
 1. ตั้งค่าฐานข้อมูลที่มีข้อมูลว่างเปล่า ตามที่อธิบายไว้ใน [ฐานข้อมูลการตั้งค่าคอนฟิก](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) ใช้ไฟล์ data.csv ที่ว่างเปล่าในขั้นตอนนี้
-1. หลังจากที่คุณดำเนินการขั้นตอน [การตั้งค่าคอนฟิกฐานข้อมูล](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้รันสคริปต์ต่อไปนี้เพื่อตั้งค่าคอนฟิกฐานข้อมูล Scale Unit Alm Orchestrator
+1. หลังจากที่คุณดำเนินการขั้นตอน [การตั้งค่าคอนฟิกฐานข้อมูล](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้เรียกใช้สคริปต์ต่อไปนี้เพื่อตั้งค่าคอนฟิกฐานข้อมูล Scale Unit Alm Orchestrator
 
     > [!NOTE]
     > อย่าตั้งค่าคอนฟิกฐานข้อมูล Financial Reporting ระหว่างขั้นตอน [การตั้งค่าคอนฟิกฐานข้อมูล](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb)
@@ -82,13 +89,13 @@ ms.locfileid: "7920684"
     สคริปต์ Initializte-Database.ps1 จะดำเนินการดังต่อไปนี้:
 
     1. สร้างฐานข้อมูลเปล่าที่โดยให้ชื่อว่า **ScaleUnitAlmDb**
-    2. แม็ปผู้ใช้กับบทบาทฐานข้อมูล อ้างอิงจากตารางต่อไปนี้
+    2. แมปผู้ใช้กับบทบาทฐานข้อมูล อ้างอิงจากตารางต่อไปนี้
 
         | ผู้ใช้            | ชนิด | บทบาทฐานข้อมูล |
         |-----------------|------|---------------|
         | svc-LocalAgent$ | gMSA | db\_เจ้าของ     |
 
-1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)
+1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md)
 1. หลังจากที่คุณดำเนินการขั้นตอน [ตั้งค่าคอนฟิก AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) เสร็จสิ้นแล้ว ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
     1. สร้างแอปพลิเคชัน Active Directory Federation Services (AD FS) ใหม่ที่จะเปิดใช้งานบริการ Alm Orchestration เพื่อสื่อสารกับ Application Object Server (AOS) ของคุณ
@@ -107,14 +114,14 @@ ms.locfileid: "7920684"
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) เมื่อคุณต้องป้อนค่าคอนฟิกสำหรับตัวแทนท้องถิ่น ตรวจสอบให้แน่ใจว่าคุณเปิดใช้งาน Edge Scale Unit Features และระบุพารามิเตอร์ที่จำเป็นครบทั้งหมด
+1. ทำตามคำแนะนำอย่างต่อเนื่องใน [ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md) เมื่อคุณต้องป้อนค่าคอนฟิกสำหรับตัวแทนท้องถิ่น ตรวจสอบให้แน่ใจว่าคุณเปิดใช้งาน Edge Scale Unit Features และระบุพารามิเตอร์ที่จำเป็นครบทั้งหมด
 
     ![เปิดใช้งาน Edge Scale Unit Features.](media/EnableEdgeScaleUnitFeatures.png "เปิดใช้งาน Edge Scale Unit Features.")
 
 1. ก่อนที่คุณจะปรับใช้สภาพแวดล้อมของคุณจาก LCS ให้ตั้งค่าสคริปต์ก่อนการปรับใช้ สำหรับข้อมูลเพิ่มเติม ดูที่ [สคริปต์ก่อนการปรับใช้และหลังการปรับใช้เอเจนต์ภายใน](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md)
 
     1. คัดลอกสคริปต์ Configure-CloudAndEdge.ps1 จากโฟลเดอร์ **ScaleUnit** ใน **Infrastructure Scripts** ไปยังโฟลเดอร์ **Scripts** ในที่แบ่งใช้หน่วยจัดเก็บไฟล์ของเอเจนต์ที่ตั้งค่าในสภาพแวดล้อม พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts
-    2. สร้างสคริปต์ **PreDeployment.ps1** ที่จะเรียกสคริปต์โดยใช้พารามิเตอร์ที่จำเป็น ต้องวางสคริปต์การปรับใช้ล่วงหน้าในโฟลเดอร์ **สคริปต์** ในการแบ่งใช้หน่วยจัดเก็บไฟล์ของตัวแทน มิฉะนั้นจะรันไม่ได้ พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1
+    2. สร้างสคริปต์ **PreDeployment.ps1** ที่จะเรียกสคริปต์โดยใช้พารามิเตอร์ที่จำเป็น ต้องวางสคริปต์การปรับใช้ล่วงหน้าในโฟลเดอร์ **สคริปต์** ในการแบ่งใช้หน่วยจัดเก็บไฟล์ของตัวแทน มิฉะนั้นจะเรียกใช้ไม่ได้ พาธทั่วไปคือ \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1
 
         เนื้อหาของสคริปต์ PreDeployment.ps1 จะคล้ายกับตัวอย่างต่อไปนี้
 
@@ -139,7 +146,7 @@ ms.locfileid: "7920684"
 1. ปรับใช้สภาพแวดล้อมโดยใช้โทโพโลยีพื้นฐานล่าสุดที่พร้อมใช้งาน
 1. หลังจากสภาพแวดล้อมของคุณได้รับการปรับใช้ ให้ทำตามขั้นตอนเหล่านี้
 
-    1. รันคำสั่ง SQL ต่อไปนี้บนฐานข้อมูลธุรกิจของคุณ (AXDB)
+    1. เรียกใช้คำสั่ง SQL ต่อไปนี้บนฐานข้อมูลธุรกิจของคุณ (AXDB)
 
         ```sql
         ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)

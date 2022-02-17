@@ -1,6 +1,6 @@
 ---
 title: แป้นพิมพ์ลัด
-description: หัวข้อนี้แสดงภาพรวมของชุดคีย์ลัดที่คุณสามารถใช้ได้เมื่อคุณทำงานกับแอป Finance and Operations
+description: หัวข้อนี้แสดงภาพรวมของชุดคีย์ลัดที่คุณสามารถใช้ได้เมื่อคุณทำงานกับแอปการเงินและการดำเนินงาน
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913529"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070994"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
 [!include [banner](../includes/banner.md)]
 
-แป้นพิมพ์ลัดต่อไปนี้จะช่วยให้คุณป้อนข้อมูลได้อย่างรวดเร็วและมีประสิทธิภาพในแอป Finance and Operations
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+แป้นพิมพ์ลัดต่อไปนี้จะช่วยให้คุณป้อนข้อมูลได้อย่างรวดเร็วและมีประสิทธิภาพในแอปการเงินและการดำเนินงาน
 
 > [!NOTE]
 > แป้นพิมพ์ลัดที่อธิบายไว้ที่นี่อ้างอิงถึงโครงร่างแป้นพิมพ์ของสหรัฐอเมริกา คีย์ในโครงร่างคีย์บอร์ดอื่นๆอาจไม่ตรงกับคีย์บนแป้นพิมพ์ของสหรัฐอเมริกาทุกประการ

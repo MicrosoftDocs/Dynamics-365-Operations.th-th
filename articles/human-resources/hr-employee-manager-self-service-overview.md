@@ -1,26 +1,33 @@
 ---
-# required metadata
 title: ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ
 description: บทความนี้แสดงภาพรวมเกี่ยวกับพื้นที่ทำงานของระบบบริการตนเองของพนักงานและผู้จัดการ
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'HRMParameters, EssWorkspace'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
 ms.search.scope: Human Resources
 ms.custom:
-  - '51941'
-  - intro-internal
+- "51941"
+- intro-internal
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: '2020-03-19'
+ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068955"
 ---
-
 # <a name="employee-and-manager-self-service-overview"></a>ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,7 +41,7 @@ ms.dyn365.ops.version: Human Resources
 
 ถ้าคุณไม่ได้เชื่อมโยงผู้ใช้ของคุณกับเรกคอร์ด **ผู้ปฏิบัติงาน** ในหน้า **ผู้ใช้** ข้อความต่อไปนี้จะแสดงขึ้น:
 
-**รหัสผู้ใช้ของคุณไม่เชื่อมโยงกับเรกคอร์ดพนักงานในระบบของคุณ คุณจะไม่สามารถดูหรืออัพเดตข้อมูลของคุณได้จนกว่าจะมีการเชื่อมโยง ติดต่อผู้จัดการหรือทีมงานสนับสนุนของคุณเพื่อขอความช่วยเหลือ**
+**รหัสผู้ใช้ของคุณไม่เชื่อมโยงกับเรกคอร์ดพนักงานในระบบของคุณ คุณจะไม่สามารถดูหรืออัปเดตข้อมูลของคุณได้จนกว่าจะมีการเชื่อมโยง ติดต่อผู้จัดการหรือทีมงานสนับสนุนของคุณเพื่อขอความช่วยเหลือ**
 
 เมื่อต้องการเชื่อมโยงผู้ใช้กับเรกคอร์ด **ผู้ปฏิบัติงาน** ไปที่ **ผู้ใช้** และเลือกผู้ใช้ เลือก **แก้ไข** เพิ่มผู้ปฏิบัติงานที่เกี่ยวข้องในฟิลด์ **บุคคล** ในหน้าและเลือก **บันทึก** ขณะนี้คุณควรมีสิทธิ์เข้าถึง **ระบบบริการตนเองของพนักงาน**
 

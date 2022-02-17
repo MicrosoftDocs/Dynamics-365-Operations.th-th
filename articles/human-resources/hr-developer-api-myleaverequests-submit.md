@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9a4c472868002c6cae061507bfe2f75d7f3eb86935d69acaac8cb7f2d970bfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732068"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067515"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>ส่งคำขอลางานไปที่ลำดับงาน
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -97,7 +100,7 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
  - คำขอจะวางยอดดุล '{LeaveTypeId}' อยู่ต่ำกว่ายอดดุลขั้นต่ำที่อนุญาตใน {date}
  - คำขอหยุดพักในสถานะเสร็จสมบูรณ์ไม่สามารถส่งได้
- - ไม่สามารถส่งหรือบันทึกคำขอได้เนื่องจากไม่มีการเปลี่ยนแปลงใดๆ เพิ่มหรืออัพเดตจำนวนหรือชนิดการลางาน แล้วลองอีกครั้ง
+ - ไม่สามารถส่งหรือบันทึกคำขอได้เนื่องจากไม่มีการเปลี่ยนแปลงใดๆ เพิ่มหรืออัปเดตจำนวนหรือชนิดการลางาน แล้วลองอีกครั้ง
  - คำขอหยุดพักที่ป้อนไว้ประกอบด้วยวันอย่างน้อยหนึ่งวันที่มีวันที่เดียวกันและชนิดลาเป็นคำขอที่ค้างอยู่ที่มีอยู่ โปรดเรียกคืนคำขอที่มีอยู่เพื่อทำการเปลี่ยนแปลง
  - รหัสเหตุผล '{ReasonCodeId}' ไม่ใช้กับชนิดการลางานใดๆ ในคำขอ
  - ชนิดการลา '{LeaveTypeId} ต้องมีรหัสเหตุผล เลือกชนิดและรหัสเหตุผลที่เหมาะสม

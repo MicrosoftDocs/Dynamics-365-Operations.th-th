@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์การโอนและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยัง Supply Chain Management
-description: หัวข้อนี้อธิบายเกี่ยวกับเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ของการปรับปรุงและการโอนย้ายสินค้าคงคลังจาก Dynamics 365 Supply Chain Management เป็น Dynamics 365 Field Service
+description: หัวข้อนี้อธิบายเกี่ยวกับเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ของการปรับปรุงและการโอนย้ายสินค้าคงคลังจาก Dynamics 365 Supply Chain Management เป็น Dynamics 365 Field Service
 author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
@@ -16,27 +16,27 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cfa7f617cbc4cd75d669972b35f8d33ba3cbcc56
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566394"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061690"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>ซิงโครไนส์การโอนและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยัง Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-หัวข้อนี้อธิบายเกี่ยวกับเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ของการปรับปรุงและการโอนย้ายสินค้าคงคลังจาก Dynamics 365 Supply Chain Management เป็น Dynamics 365 Field Service
+
+หัวข้อนี้อธิบายเกี่ยวกับเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ของการปรับปรุงและการโอนย้ายสินค้าคงคลังจาก Dynamics 365 Supply Chain Management เป็น Dynamics 365 Field Service
 
 [![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Supply Chain Management และ Field Service](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 
-## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
-เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์การโอนย้ายและการปรับปรุงสินค้าคงคลังโดยตรงจาก Field Service ไปยัง Supply Chain Management
+## <a name="templates-and-tasks"></a>เทมเพลตและงาน
+เทมเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์การโอนย้ายและการปรับปรุงสินค้าคงคลังโดยตรงจาก Field Service ไปยัง Supply Chain Management
 
-**เท็มเพลตในการรวมข้อมูล**
+**เทมเพลตในการรวมข้อมูล**
 - การปรับปรุงสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management)
 - การปรับปรุงสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management)
 
@@ -59,25 +59,25 @@ ms.locfileid: "7566394"
 
 มีการเพิ่มคอลัมน์ **ลงรายการบัญชีสถานะ** ไปยังทั้งตาราง **การปรับปรุงสินค้าคงคลัง** และตาราง **การโอนย้ายสินค้าคงคลัง** คอลัมน์นี้จะใช้เป็นตัวกรองสำหรับเวลาที่มีการส่งการปรับปรุงหรือการโอนย้ายไปยัง Supply Chain Management ค่าเริ่มต้นสำหรับคอลัมน์นี้จะถูกสร้างขึ้น (1) แต่จะไม่ได้ถูกส่งไปยัง Supply Chain Management เมื่อคุณปรับปรุงค่าที่จะลงรายการบัญชี (2) ค่านั้นจะถูกส่งไปยัง Supply Chain Management แต่หลังจากนั้นคุณจะไม่สามารถเปลี่ยนแปลงสิ่งใดได้ในการปรับปรุงหรือการโอนย้าย หรือเพิ่มรายการใหม่
 
-มีการเพิ่มคอลัมน์ **ลำดับหมายเลข** ไปยังตาราง **ผลิตภัณฑ์ของการปรับปรุงสินค้าคงคลัง** คอลัมน์นี้ช่วยให้มั่นใจว่าการรวมมีหมายเลขเฉพาะ เพื่อให้การรวมสามารถสร้างและอัพเดตการปรับปรุง เมื่อคุณสร้างผลิตภัณฑ์การปรับปรุงสินค้าคงคลังครั้งแรก จะมีการสร้างเรกคอร์ดใหม่ในตาราง **P2C AutoNumber** เพื่อรักษาชุดหมายเลขและคำนำหน้าที่จะใช้
+มีการเพิ่มคอลัมน์ **ลำดับหมายเลข** ไปยังตาราง **ผลิตภัณฑ์ของการปรับปรุงสินค้าคงคลัง** คอลัมน์นี้ช่วยให้มั่นใจว่าการรวมมีหมายเลขเฉพาะ เพื่อให้การรวมสามารถสร้างและอัปเดตการปรับปรุง เมื่อคุณสร้างผลิตภัณฑ์การปรับปรุงสินค้าคงคลังครั้งแรก จะมีการสร้างเรกคอร์ดใหม่ในตาราง **P2C AutoNumber** เพื่อรักษาชุดหมายเลขและคำนำหน้าที่จะใช้
 
-## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
+## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแมปและข้อกำหนดเบื้องต้น
 
 ### <a name="supply-chain-management"></a>Supply Chain Management
 สามารถลงรายการบัญชีสมุดรายวันสินค้าคงคลังการรวมที่สร้างขึ้นโดยใช้ชุดงานโดยอัตโนมัติได้ นี่จะถูกเปิดใช้งานจาก **การจัดการสินค้าคงคลัง > งานประจำงวด > การรวม Dataverse > ลงรายการบัญชีสมุดรายวันสินค้าคงคลังการรวม**
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปเทมเพลตในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
+ภาพประกอบต่อไปนี้แสดงการแมปเทมเพลตในการรวมข้อมูล
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>การปรับปรุงสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การปรับปรุงสินค้าคงคลัง
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล การปรับปรุงสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การปรับปรุงสินค้าคงคลัง](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![การแมปเทมเพลตในการรวมข้อมูล การปรับปรุงสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การปรับปรุงสินค้าคงคลัง](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>การโอนย้ายสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การโอนย้ายสินค้าคงคลัง
 
-[![การแม็ปเท็มเพลตในการรวมข้อมูล การโอนย้ายสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การโอนย้ายสินค้าคงคลัง](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![การแมปเทมเพลตในการรวมข้อมูล การโอนย้ายสินค้าคงคลัง (Field Service ไปยัง Supply Chain Management): การโอนย้ายสินค้าคงคลัง](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

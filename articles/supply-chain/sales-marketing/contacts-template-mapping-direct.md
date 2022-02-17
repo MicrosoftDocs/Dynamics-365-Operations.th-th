@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
-description: หัวข้อนี้จะอธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์เอนทิตีผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) จาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
+description: หัวข้อนี้จะอธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์เอนทิตีผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) จาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,37 +16,37 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ef51a97c38f446cd267ac8a621ce2a1f66efad18
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579051"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062526"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อและรายชื่อลูกค้าใน Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](/powerapps/administrator/data-integrator)
 
-หัวข้อนี้จะอธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ตารางผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) โดยตรงจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
+หัวข้อนี้จะอธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ตารางผู้ติดต่อ (ผู้ติดต่อ) และผู้ติดต่อ (ลูกค้า) โดยตรงจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
-โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Supply Chain Management และ Sales แม่แบบของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดที่มีให้ใช้งานร่วมกันกับคุณลักษณะการรวมข้อมูล ช่วยให้เกิดกระแสของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Supply Chain Management และ Sales ภาพประกอบต่อไปนี้ แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Supply Chain Management และ Sales
+โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Supply Chain Management และ Sales เทมเพลตของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดที่มีให้ใช้งานร่วมกันกับคุณลักษณะการรวมข้อมูล ช่วยให้เกิดกระแสของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Supply Chain Management และ Sales ภาพประกอบต่อไปนี้ แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Supply Chain Management และ Sales
 
 [![โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
-## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
+## <a name="templates-and-tasks"></a>เทมเพลตและงาน
 
-เมื่อต้องการเข้าถึงแม่แบบที่พร้อมใช้งาน ให้เปิด [ศูนย์การจัดการ PowerApps](https://preview.admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
+เมื่อต้องการเข้าถึงเทมเพลตที่พร้อมใช้งาน ให้เปิด [ศูนย์การจัดการ PowerApps](https://preview.admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเทมเพลตสาธารณะ
 
-เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ตารางผู้ติดต่อ (ผู้ติดต่อ) ใน Sales ไปยังตารางผู้ติดต่อ (ลูกค้า) ใน Supply Chain Management
+เทมเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ตารางผู้ติดต่อ (ผู้ติดต่อ) ใน Sales ไปยังตารางผู้ติดต่อ (ลูกค้า) ใน Supply Chain Management
 
-- **ชื่อของเท็มเพลตในการรวมข้อมูล**
+- **ชื่อของเทมเพลตในการรวมข้อมูล**
 
     - ผู้ติดต่อ (Sales to Supply Chain Management) - โดยตรง
     - ผู้ติดต่อไปยังลูกค้า (Sales to Supply Chain Management) - โดยตรง
@@ -88,42 +88,42 @@ ms.locfileid: "7579051"
 
 ผู้ติดต่อจะถูกแท็กโดยใช้คุณสมบัติ **IsContactPersonExternallyMaintained** คุณสมบัตินี้บ่งชี้ว่าผู้ติดต่อที่กำหนดถูกรักษาไว้ภายนอก ในกรณีนี้ ผู้ติดต่อที่ถูกรักษาไว้ภายนอกจะถูกรักษาไว้ใน Sales
 
-## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
+## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแมป
 
 ### <a name="contact-to-customer"></a>ผู้ติดต่อไปยังลูกค้า
 
-- **CustomerGroup** จำเป็นต้องใช้ใน Supply Chain Management เพื่อช่วยในการป้องกันข้อผิดพลาดในการซิงโครไนส์ คุณสามารถระบุค่าเริ่มต้นในการแม็ปได้ จากนั้น ค่าเริ่มต้นจะถูกนำมาใช้ ถ้าคอลัมน์ถูกปล่อยว่างไว้ใน Sales
+- **CustomerGroup** จำเป็นต้องใช้ใน Supply Chain Management เพื่อช่วยในการป้องกันข้อผิดพลาดในการซิงโครไนส์ คุณสามารถระบุค่าเริ่มต้นในการแมปได้ จากนั้น ค่าเริ่มต้นจะถูกนำมาใช้ ถ้าคอลัมน์ถูกปล่อยว่างไว้ใน Sales
 
-    ค่าเท็มเพลตเริ่มต้นคือ **10**
+    ค่าเทมเพลตเริ่มต้นคือ **10**
 
-- โดยการเพิ่มการแม็ปต่อไปนี้ คุณสามารถช่วยลดจำนวนการอัพเดตที่จำเป็นด้วยตนเองใน Supply Chain Management ได้ คุณสามารถใช้ค่าเริ่มต้นค่าหรือแผนผังค่าจาก ตัวอย่างเช่น **ประเทศ/ภูมิภาค** หรือ **เมือง** ได้
+- โดยการเพิ่มการแมปต่อไปนี้ คุณสามารถช่วยลดจำนวนการอัปเดตที่จำเป็นด้วยตนเองใน Supply Chain Management ได้ คุณสามารถใช้ค่าเริ่มต้นค่าหรือแผนผังค่าจาก ตัวอย่างเช่น **ประเทศ/ภูมิภาค** หรือ **เมือง** ได้
 
     - **SiteId** – นอกจากนี้คุณยังสามารถกำหนดไซต์เริ่มต้นบนผลิตภัณฑ์ใน Supply Chain Management ได้ด้วย จำเป็นต้องมีไซต์เพื่อสร้างใบสั่งขายและใบเสนอราคาใน Supply Chain Management
 
-        ไม่ได้กำหนดค่าเท็มเพลตสำหรับ **SiteId** ไว้
+        ไม่ได้กำหนดค่าเทมเพลตสำหรับ **SiteId** ไว้
 
     - **WarehouseId** – นอกจากนี้คุณยังสามารถกำหนดคลังสินค้าเริ่มต้นบนผลิตภัณฑ์ใน Supply Chain Management ได้ด้วย จำเป็นต้องมีคลังสินค้าเพื่อสร้างใบสั่งขายและใบเสนอราคาใน Supply Chain Management
 
-        ไม่ได้กำหนดค่าเท็มเพลตสำหรับ **WarehouseId** ไว้
+        ไม่ได้กำหนดค่าเทมเพลตสำหรับ **WarehouseId** ไว้
 
     - **LanguageId** – จำเป็นต้องมีภาษาเพื่อสร้างรายการใบเสนอราคาและใบสั่งขายใน Supply Chain Management
     
-        ค่าเท็มเพลตเริ่มต้นสำหรับคือ **en-us**
+        ค่าเทมเพลตเริ่มต้นสำหรับคือ **en-us**
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปเทมเพลตในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในการรวมข้อมูล 
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปเทมเพลตในการรวมข้อมูล 
 
 > [!NOTE]
-> การแม็ปจะช่วยแสดงให้เห็นว่า ข้อมูลคอลัมน์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
+> การแมปจะช่วยแสดงให้เห็นว่า ข้อมูลคอลัมน์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
 
 ### <a name="contact-to-contact-example"></a>ตัวอย่างผู้ติดต่อไปยังผู้ติดต่อ
 
-![การแม็ปเท็มเพลตผู้ติดต่อไปยังผู้ติดต่อในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![การแมปเทมเพลตผู้ติดต่อไปยังผู้ติดต่อในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer-example"></a>ตัวอย่างผู้ติดต่อไปยังลูกค้า
 
-![การแม็ปเท็มเพลตผู้ติดต่อไปยังลูกค้าในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![การแมปเทมเพลตผู้ติดต่อไปยังลูกค้าในตัวรวมข้อมูล](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง

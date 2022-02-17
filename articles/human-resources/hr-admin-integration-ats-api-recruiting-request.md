@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d89fbd96ae3b54e41c9bf033700d1d589b448b55e36900c08cf6aae0a0b6ffd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1f160d828c8fe5babb96d39afd911052767f67b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780709"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068595"
 ---
 # <a name="recruiting-request"></a>คำขอสรรหาบุคลากร
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -73,7 +76,7 @@ ms.locfileid: "6780709"
 
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **รหัสคำขอสรรหา**<br>mshr_recruitingrequestid<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของการร้องขอที่แสดงในแอพลิเคชัน HR ลำดับหมายเลข |
+| **รหัสคำขอสรรหา**<br>mshr_recruitingrequestid<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของการร้องขอที่แสดงในแอปพลิเคชัน HR ลำดับหมายเลข |
 | **รหัสเอนทิตีคำขอการสรรหาบุคลากร**<br>mshr_hcmrecruitingrequestentityid<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงคำขอการสรรหาบุคลากรโดยเฉพาะ |
 | **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ<br> | ระบุนิติบุคคล (บริษัท) ของคำขอการสรรหาบุคลากร |
 | **ค่ารหัสพื้นที่ข้อมูล**<br>_mshr_dataareaid_id_value<br>*GUID*<br> | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: cdm_companyid ของเอนทิตี cdm_company | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) สำหรับคำขอการสรรหาบุคลากร |

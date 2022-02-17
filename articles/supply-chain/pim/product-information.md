@@ -1,28 +1,32 @@
 ---
-# required metadata
 title: ภาพรวมข้อมูลผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: benebotg
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063327"
 ---
-
 # <a name="product-information-overview"></a>ภาพรวมข้อมูลผลิตภัณฑ์
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการข้อมูลของผลิตภัณฑ์ การจัดการข้อมูลผลิตภัณฑ์ทำงานกับคำนิยามผลิตภัณฑ์ที่ใช้ร่วมกัน การจัดประเภท และตัวระบุผ่านนิติบุคคลทั้งหมด และการตั้งค่าคอนฟิกของผลิตภัณฑ์เพื่อให้พอดีกับกระบวนการทางธุรกิจอีกด้วย 
 
@@ -83,11 +87,11 @@ ms.dyn365.ops.version: AX 7.0.0
 
 คุณสามารถตั้งค่าคอนฟิกพื้นที่ทำงาน **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** จากรายการเมนู **ตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน** ได้ เลือกลำดับชั้นประเภทและประเภท เพื่อกรองพื้นที่ทำงาน เพื่อปรับปรุงข้อมูลผลิตภัณฑ์ที่เกี่ยวข้องในพื้นที่ทำงาน คุณยังสามารถกำหนด ในหน่วยวัน กรอบเวลาสำหรับ **ผลิตภัณฑ์ที่นำออกใช้เมื่อเร็ว ๆ นี้** และ **ผลิตภัณฑ์ที่หยุดนำออกใช้** ได้ด้วย
 
-พื้นที่ทำงานประกอบด้วย ข้อสรุปของไทล์และรายการสองรายการ รายการ **เปิดกรณี** แสดงกรณีการเปลี่ยนผลิตภัณฑ์ ที่มีผลิตภัณฑ์ในลำดับชั้นประเภทผลิตภัณฑ์ที่เลือกที่ไม่เสร็จสมบูรณ์ และปิด รายการ **นำออกใช้ล่าสุด** จะแสดงผลิตภัณฑ์ที่ได้นำออกใช้ภายในกรอบเวลาที่กำหนดไว้ในการตั้งค่าคอนฟิกพื้นที่ทำงาน สำหรับแต่ละรายการในรายการ มีการรันการตรวจสอบ และสถานะการตรวจสอบจะแสดงขึ้น สถานะนี้อาจบ่งชี้ว่า การตั้งค่าคอนฟิกที่จำเป็นสำหรับนิติบุคคลยังไม่เสร็จสมบูรณ์ จากรายการ คุณสามารถเข้าถึงหน้า **รายละเอียดผลิตภัณฑ์ที่นำออกใช้** **การบำรุงรักษาแอททริบิวต์ผลิตภัณฑ์** **การบำรุงรักษาประเภทผลิตภัณฑ์** **การตั้งค่าใบสั่งเริ่มต้น** และ **การแปลข้อความ** ได้โดยตรง เพื่อดำเนินการตั้งค่าคอนฟิกที่จำเป็นของผลิตภัณฑ์เสร็จสมบูรณ์
+พื้นที่ทำงานประกอบด้วย ข้อสรุปของไทล์และรายการสองรายการ รายการ **เปิดกรณี** แสดงกรณีการเปลี่ยนผลิตภัณฑ์ ที่มีผลิตภัณฑ์ในลำดับชั้นประเภทผลิตภัณฑ์ที่เลือกที่ไม่เสร็จสมบูรณ์ และปิด รายการ **นำออกใช้ล่าสุด** จะแสดงผลิตภัณฑ์ที่ได้นำออกใช้ภายในกรอบเวลาที่กำหนดไว้ในการตั้งค่าคอนฟิกพื้นที่ทำงาน สำหรับแต่ละรายการในรายการ มีการเรียกใช้การตรวจสอบ และสถานะการตรวจสอบจะแสดงขึ้น สถานะนี้อาจบ่งชี้ว่า การตั้งค่าคอนฟิกที่จำเป็นสำหรับนิติบุคคลยังไม่เสร็จสมบูรณ์ จากรายการ คุณสามารถเข้าถึงหน้า **รายละเอียดผลิตภัณฑ์ที่นำออกใช้** **การบำรุงรักษาแอททริบิวต์ผลิตภัณฑ์** **การบำรุงรักษาประเภทผลิตภัณฑ์** **การตั้งค่าใบสั่งเริ่มต้น** และ **การแปลข้อความ** ได้โดยตรง เพื่อดำเนินการตั้งค่าคอนฟิกที่จำเป็นของผลิตภัณฑ์เสร็จสมบูรณ์
 
 ### <a name="manually-creating-a-new-released-product"></a>การสร้างผลิตภัณฑ์ที่นำออกใช้ใหม่ด้วยตนเอง
 
-คุณสามารถสร้างผลิตภัณฑ์นำออกใช้ในการรันหนึ่ง ๆ ได้ด้วยตนเอง โดยขึ้นอยู่กับกระบวนการทางธุรกิจขององค์กรและกฎใด ๆ เกี่ยวกับว่าควรจะใช้ฟังก์ชันนี้หรือไม่ ฟังก์ชันนี้สร้างผลิตภัณฑ์ใหม่ และจะนำออกใช้กับนิติบุคคลปัจจุบันโดยอัตโนมัติ เมื่อต้องการสร้างผลิตภัณฑ์ใหม่ คลิก **ผลิตภัณฑ์ที่นำออกใช้** ในพื้นที่ทำงาน **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** หรือในหน้ารายการ **ผลิตภัณฑ์ที่นำออกใช้**
+คุณสามารถสร้างผลิตภัณฑ์นำออกใช้ในการเรียกใช้หนึ่ง ๆ ได้ด้วยตนเอง โดยขึ้นอยู่กับกระบวนการทางธุรกิจขององค์กรและกฎใด ๆ เกี่ยวกับว่าควรจะใช้ฟังก์ชันนี้หรือไม่ ฟังก์ชันนี้สร้างผลิตภัณฑ์ใหม่ และจะนำออกใช้กับนิติบุคคลปัจจุบันโดยอัตโนมัติ เมื่อต้องการสร้างผลิตภัณฑ์ใหม่ คลิก **ผลิตภัณฑ์ที่นำออกใช้** ในพื้นที่ทำงาน **การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้** หรือในหน้ารายการ **ผลิตภัณฑ์ที่นำออกใช้**
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

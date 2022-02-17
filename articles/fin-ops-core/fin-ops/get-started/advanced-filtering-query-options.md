@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8bbecf85a13056225b0d35023d759456cade40fe10ca1978058abd8e47693ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740919"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070020"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามที่พร้อมใช้งาน เมื่อคุณใช้กล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง หรือตัวดำเนินการ **การจับคู่** ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
 
@@ -119,9 +122,9 @@ ms.locfileid: "6740919"
 <td>ใบเสนอราคาคู่ต่อเนื่องสองใบ (<strong>""</strong>) ค้นหาแถวที่ไม่มีค่าสำหรับคอลัมน์ปัจจุบัน</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operationsการสอบถาม</span>) (การสอบถาม Finance and Operations ระหว่างวงเล็บ)</td>
+<td>(<span class="code">การสอบถามการเงินและการดําเนินงาน</span>) (การสอบถามการเงินและการดําเนินงานในวงเล็บ)</td>
 <td>จับคู่การสอบถามที่กำหนด</td>
-<td>พิมพ์การสอบถามเป็นคำสั่ง SQL ในวงเล็บโดยใช้ภาษาการสอบถาม Finance and Operations</td>
+<td>พิมพ์การสอบถามเป็นคำสั่ง SQL ในวงเล็บโดยใช้ภาษาการสอบถามการเงินและการดําเนินงาน</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        เป็นตัวอย่างของไวยากรณ์สำหรับเงื่อนไขตัวกรองข้อมูลในฟิลด์จากแหล่งข้อมูลราก เช่นเดียวกับฟิลด์จากแหล่งข้อมูลที่แตกต่างกัน (สำหรับหน้าลูกค้าทั้งหมด)</td>
 </tr>

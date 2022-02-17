@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: แก้ไขปัญหาการตั้งค่า Finance Insights
 description: หัวข้อนี้แสดงรายการปัญหาที่อาจเกิดขึ้น เมื่อคุณใช้ความสามารถ Finance Insights นอกจากนี้ ยังอธิบายวิธีการแก้ไขปัญหาเหล่านั้นด้วย
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '14151'
-  - intro-internal
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2021-08-20'
+ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064877"
 ---
-
 # <a name="troubleshoot-finance-insights-setup-issues"></a>แก้ไขปัญหาการตั้งค่า Finance Insights
 
 [!include [banner](../includes/banner.md)]
@@ -84,7 +88,29 @@ ms.dyn365.ops.version: AX 10.0.20
 - ตรวจสอบว่าสิทธิ์การใช้งาน Dynamics 365 Finance หรือเทียบเท่าจะใช้กับผู้ใช้ที่กำลังติดตั้ง Add-in
 - ตรวจสอบว่าแอป Azure AD ต่อไปนี้ลงทะเบียนอยู่ใน Azure AD: 
 
-  | ใบคำขอเปิด                  | รหัสแอพ           |
+  | ใบคำขอเปิด                  | รหัสแอป           |
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>อาการ: ข้อผิดพลาด "เราไม่พบข้อมูลใดๆ สำหรับช่วงตัวกรองที่เลือก โปรดเลือกช่วงตัวกรองอื่นแล้วลองอีกครั้ง" 
+
+### <a name="resolution"></a>การแก้ปัญหา
+
+ตรวจสอบการตั้งค่าตัวรวมข้อมูลเพื่อตรวจสอบว่าทำงานตามที่คาดไว้และ upsert ข้อมูลจาก AI Builder กลับไปที่การเงิน  
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างโครงการการรวมข้อมูล](../finance-insights/create-data-integrate-project.md)
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>อาการ: การฝึกการคาดคะเนการชำระเงินของลูกค้าล้มเหลวและ AI Builder ระบุข้อผิดพลาด "การคาดคะเนควรมีค่าผลลัพธ์ที่แตกต่างกันเพียง 2 ค่าเท่านั้นในการฝึกโมเดล แมปกับผลลัพธ์สองรายการและฝึกใหม่", "ปัญหารายงานการฝึก: IsNotMinRequiredDistinctNonNullValues"
+
+### <a name="resolution"></a>การแก้ปัญหา
+
+ข้อผิดพลาดนี้แสดงว่ามีธุรกรรมในอดีตไม่เพียงพอในปีที่แล้วที่แสดงถึงแต่ละประเภทที่อธิบายไว้ในประเภท **ตรงเวลา**, **ล่าช้า** และ **ล่าช้ามาก** เมื่อต้องการแก้ไขข้อผิดพลาดนี้ ให้ปรับปรุงรอบระยะเวลาธุรกรรม **ล่าช้ามาก** หากการปรับปรุงรอบระยะเวลาธุรกรรม **ล่าช้ามาก** แก้ไขข้อผิดพลาดไม่ได้ **การคาดคะเนการชำระเงินของลูกค้า** ไม่ใช่วิธีที่ดีที่สุดที่จะใช้เนื่องจากต้องการข้อมูลในแต่ละประเภทเพื่อวัตถุประสงค์ในการฝึก
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับปรุงประเภท **ตรงเวลา**, **ล่าช้า** และ **ล่าช้ามาก** ให้ดูที่ [เปิดใช้งานการคาดคะเนการชำระเงินของลูกค้า](../finance-insights/enable-cust-paymnt-prediction.md)
+
+## <a name="symptom-model-training-failed"></a>อาการ: การฝึกโมเดลล้มเหลว
+
+### <a name="resolution"></a>การแก้ปัญหา
+
+การฝึกโมเดล **การคาดการณ์กระแสเงินสด** ต้องใช้ข้อมูลที่ครอบคลุมระยะเวลาหนึ่งปีและมีธุรกรรมมากกว่า 100 รายการ ธุรกรรมเหล่านี้ต้องมีผลต่อบัญชีสภาพคล่องที่รวมอยู่ในการตั้งค่าการคาดการณ์กระแสเงินสด
+
+**การคาดคะเนการชำระเงินของลูกค้า** ต้องการใบแจ้งหนี้ของลูกค้าและธุรกรรมการชำระเงินอย่างน้อย 100 รายการในระยะเวลาหกถึงเก้าเดือนที่ผ่านมาเพื่อสร้างการคาดคะเน  

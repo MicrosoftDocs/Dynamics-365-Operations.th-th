@@ -1,23 +1,32 @@
---- 
-# required metadata 
+---
 title: การจ้างงานผู้สมัครผ่านการสรรหาบุคลากร
 description: 'ขั้นตอนนี้ช่วยให้ผู้สรรหาการจ้างงานผู้สมัครที่ส่งใบสมัครโดยใช้โครงการสรรหาบุคลากรที่เฉพาะเจาะจง '
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
-ms.search.form: 'HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
-ms.search.validFrom: '2016-06-30'
+ms.author: twheeloc
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075384"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>การจ้างงานผู้สมัครผ่านการสรรหาบุคลากร
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+
 
 ขั้นตอนนี้ช่วยให้ผู้สรรหาการจ้างงานผู้สมัครที่ส่งใบสมัครโดยใช้โครงการสรรหาบุคลากรที่เฉพาะเจาะจง  เมื่อคุณจ้างงานผู้สมัครผ่านทางโครงการสรรหาบุคลากร เรกคอร์ดผู้ปฏิบัติงานใหม่จะถูกสร้างขึ้น และเรกคอร์ดของผู้สมัครจะมีสถานะเป็น **จ้างงาน** บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

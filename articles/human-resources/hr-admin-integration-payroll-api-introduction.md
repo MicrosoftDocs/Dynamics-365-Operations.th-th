@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7122dc7325c7fb33c4bf90e3d1a6cf1c95bd73e72232b9060f7cc04899223765
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c71d31d7045c73097b81671793181a29dcac3b5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782718"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064952"
 ---
 # <a name="payroll-integration-api-introduction"></a>บทนำ API การรวมบัญชีเงินเดือน
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-เอกสารนี้อธิบายAPI การรวมบัญชีเงินเดือน Dynamics 365 Human Resources API จะเปิดใช้งานการรวมแบบครอบคลุมที่มีประสิทธิภาพระหว่างทรัพยากรบุคคลและระบบบัญชีเงินเดือนที่เป็นคู่ค้า ประสบการณ์รวมจะเริ่มต้นในทรัพยากรบุคคลพร้อมด้วยโปรไฟล์พนักงาน เงินเดือนและการหักลด และข้อมูลเงินสมทบ เมื่อคุณจ้างงานพนักงานและป้อนโปรไฟล์ที่ต้องใช้และจ่ายข้อมูลเข้าในทรัพยากรบุคคล ระบบบัญชีเงินเดือนจะดึงข้อมูลนี้เพื่อใช้เมื่อประมวลผลค่าจ้าง การอัปเดตใด ๆ ที่พนักงานหรือข้อมูลค่าจ้างจะถูกดึงไว้เพื่อใช้ในการรันค่าจ้างในภายหลังด้วย
+เอกสารนี้อธิบายAPI การรวมบัญชีเงินเดือน Dynamics 365 Human Resources API จะเปิดใช้งานการรวมแบบครอบคลุมที่มีประสิทธิภาพระหว่างทรัพยากรบุคคลและระบบบัญชีเงินเดือนที่เป็นคู่ค้า ประสบการณ์รวมจะเริ่มต้นในทรัพยากรบุคคลพร้อมด้วยโปรไฟล์พนักงาน เงินเดือนและการหักลด และข้อมูลเงินสมทบ เมื่อคุณจ้างงานพนักงานและป้อนโปรไฟล์ที่ต้องใช้และจ่ายข้อมูลเข้าในทรัพยากรบุคคล ระบบบัญชีเงินเดือนจะดึงข้อมูลนี้เพื่อใช้เมื่อประมวลผลค่าจ้าง การอัปเดตใด ๆ ที่พนักงานหรือข้อมูลค่าจ้างจะถูกดึงไว้เพื่อใช้ในการเรียกใช้ค่าจ้างในภายหลังด้วย
 
 [![โฟลว์การรวมบัญชีเงินเดือน](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 

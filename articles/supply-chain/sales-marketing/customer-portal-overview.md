@@ -1,24 +1,28 @@
 ---
-# required metadata
 title: พอร์ทัลลูกค้าสำหรับภาพรวม Dynamics 365 Supply Chain Management (มีวิดีโอ)
 description: หัวข้อนี้จะแนะนำพอร์ทัลของลูกค้า และอธิบายว่าใครควรใช้ และวิธีการทำงานเป็นอย่างไร
 author: Henrikan
 ms.date: 06/16/2020
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
-ms.search.validFrom: '2020-04-22'
+ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 50bdbe6c5f5d23f49bdf8040f2c7811a28da3f32
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062020"
 ---
-
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>ภาพรวมพอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="what-is-the-customer-portal"></a>พอร์ทัลลูกค้าคืออะไร?
 

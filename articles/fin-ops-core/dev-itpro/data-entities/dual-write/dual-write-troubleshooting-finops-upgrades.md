@@ -1,6 +1,6 @@
 ---
-title: แก้ไขปัญหาจากการอัปเกรดของแอป Finance and Operations
-description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับการแก้ไขปัญหาซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่เกี่ยวข้องกับการปรับปรุงแอป Finance and Operations
+title: แก้ไขปัญหาจากการอัปเกรดแอปการเงินและการดำเนินงาน
+description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับการแก้ไขปัญหาซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่เกี่ยวข้องกับการปรับรุ่นแอปการเงินและการดำเนินงาน
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782792"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062836"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>แก้ไขปัญหาจากการอัปเกรดของแอป Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>แก้ไขปัญหาจากการอัปเกรดแอปการเงินและการดำเนินงาน
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse กล่าวคือ จะให้ข้อมูลซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่เกี่ยวข้องกับการปรับปรุงของแอป Finance and Operations
+
+หัวข้อนี้แสดงข้อมูลการแก้ไขปัญหาสำหรับการรวมข้อมูลด้วยการรวมแบบสองทิศทางระหว่างแอปการเงินและการดำเนินงานกับ Dataverse กล่าวคือ จะให้ข้อมูลซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่เกี่ยวข้องกับการปรับรุ่นแอปการเงินและการดำเนินงาน
 
 > [!IMPORTANT]
 > ปัญหาบางอย่างที่ที่อยู่ของหัวข้อนี้อาจจำเป็นต้องใช้บทบาทผู้ดูแลระบบ หรือข้อมูลประจำตัวผู้ดูแลระบบของผู้เช่า Microsoft Azure Active Directory (Azure AD) ส่วนสำหรับปัญหาแต่ละอย่างอธิบายว่าจำเป็นต้องมีบทบาทเฉพาะหรือข้อมูลประจำตัวหรือไม่
@@ -33,7 +33,7 @@ ms.locfileid: "7782792"
 
 **บทบาทที่จำเป็นในการแก้ไขปัญหา:** ผู้ดูแลระบบ
 
-คุณอาจได้รับข้อความแสดงข้อผิดพลาดที่คล้ายกับตัวอย่างต่อไปนี้ เมื่อคุณพยายามใช้ตาราง **DualWriteProjectConfiguration** เพื่ออัพเดตแอป Finance and Operations เป็น Platform update 30
+คุณอาจได้รับข้อความแสดงข้อผิดพลาดที่คล้ายกับตัวอย่างต่อไปนี้ เมื่อคุณพยายามใช้ตาราง **DualWriteProjectConfiguration** เพื่ออัปเดตแอปการเงินและการดำเนินงานเป็นการอัปเดตแพลตฟอร์ม 30
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 เพื่อแก้ไขปัญหา ให้ทำตามขั้นตอนเหล่านี้
 
-1. ลงชื่อเข้าใช้ในเครื่องเสมือน (VM) สำหรับแอป Finance and Operations
+1. ลงชื่อเข้าใช้ในเครื่องเสมือน (VM) สำหรับแอปการเงินและการดำเนินงาน
 2. เปิด Visual Studio ในฐานะผู้ดูแลระบบ และเปิด Application Object Tree (AOT)
 3. ค้นหา **DualWriteProjectConfiguration**
 4. ใน AOT ให้คลิกขวาที่ **DualWriteProjectConfiguration** แล้วเลือก **เพิ่มไปยังโครงการใหม่** เลือก **ตกลง** เพื่อสร้างโครงการใหม่ที่ใช้ตัวเลือกเริ่มต้น
@@ -51,7 +51,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 6. สร้างโครงการ และยืนยันว่าการสร้างเสร็จเรียบร้อยแล้ว
 7. บนเมนู **Dynamics 365** เลือก **ซิงโครไนส์ฐานข้อมูล**
 8. เลือก **ซิงโครไนส์** เพื่อทำการซิงโครไนส์ฐานข้อมูลแบบเต็ม
-9. หลังจากการซิงโครไนส์ฐานข้อมูลทั้งหมดเสร็จเรียบร้อยแล้ว รันขั้นตอนการซิงโครไนส์ฐานข้อมูลอีกครั้งใน Microsoft Dynamics Lifecycle Services (LCS) และใช้สคริปต์การอัพเกรดด้วยตนเองตามความเหมาะสม เพื่อให้คุณสามารถดำเนินการปรับปรุงต่อไปได้
+9. หลังจากการซิงโครไนส์ฐานข้อมูลทั้งหมดเสร็จเรียบร้อยแล้ว เรียกใช้ขั้นตอนการซิงโครไนส์ฐานข้อมูลอีกครั้งใน Microsoft Dynamics Lifecycle Services (LCS) และใช้สคริปต์การอัพเกรดด้วยตนเองตามความเหมาะสม เพื่อให้คุณสามารถดำเนินการปรับปรุงต่อไปได้
 
 ## <a name="missing-table-columns-issue-on-maps"></a>ปัญหาคอลัมน์ตารางที่ขาดหายไปในแผนผัง
 
@@ -65,23 +65,23 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 เมื่อต้องการแก้ไขปัญหานี้ อันดับแรกให้ทำตามขั้นตอนเหล่านี้เพื่อตรวจสอบให้แน่ใจว่าคอลัมน์อยู่ในตาราง
 
-1. ลงชื่อเข้าใช้ใน VM สำหรับแอป Finance and Operations
+1. ลงชื่อเข้าใช้ในเครื่องเสมือน (VM) สำหรับแอปการเงินและการดำเนินงาน
 2. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกไทล์ **พารามิเตอร์กรอบงาน** และจากนั้น บนแท็บ **การตั้งค่าตาราง** เลือก **รีเฟรชรายการตาราง** เพื่อรีเฟรชตาราง
-3. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกแท็บ **ตารางข้อมูล** และตรวจสอบให้แน่ใจว่ามีการแสดงรายการตาราง ถ้าไม่มีการแสดงรายการตาราง ให้ลงชื่อเข้าใช้ใน VM สำหรับแอป Finance and Operations และตรวจสอบให้แน่ใจว่าตารางพร้อมใช้งาน
-4. เปิดหน้า **การแม็ปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอป Finance and Operations
-5. เลือก **รีเฟรชรายการตาราง** เพื่อเติมข้อมูลคอลัมน์โดยอัตโนมัติในการแม็ปตาราง
+3. ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** เลือกแท็บ **ตารางข้อมูล** และตรวจสอบให้แน่ใจว่ามีการแสดงรายการตาราง ถ้าไม่มีการแสดงรายการตาราง ให้ลงชื่อเข้าใช้ใน VM สำหรับแอปการเงินและการดำเนินงานและตรวจสอบให้แน่ใจว่าตารางพร้อมใช้งาน
+4. เปิดหน้า **การแมปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอปการเงินและการดำเนินงาน
+5. เลือก **รีเฟรชรายการตาราง** เพื่อเติมข้อมูลคอลัมน์โดยอัตโนมัติในการแมปตาราง
 
 ถ้ายังไม่มีการแก้ไขปัญหา ให้ทำตามขั้นตอนเหล่านี้
 
 > [!IMPORTANT]
 > ขั้นตอนเหล่านี้จะให้คำแนะนำเกี่ยวกับกระบวนการลบตาราง แล้วจากนั้น เพิ่มอีกครั้ง เมื่อต้องการหลีกเลี่ยงปัญหา ให้ตรวจสอบให้แน่ใจว่าได้ปฏิบัติตามขั้นตอนต่างๆ อย่างแม่นยำ
 
-1. ในแอป Finance and Operations ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** และเลือกไทล์ **ตารางข้อมูล**
-2. ค้นหาตารางที่ขาดแอททริบิวต์ คลิก **ปรับเปลี่ยนการแม็ปเป้าหมาย** ในแถบเครื่องมือ
-3. บนบานหน้าต่าง **แม็ปการแบ่งระยะไปยังเป้าหมาย** คลิก **สร้างการแม็ป**
-4. เปิดหน้า **การแม็ปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอป Finance and Operations
+1. ในแอปการเงินและการดำเนินงาน ให้ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** และเลือกไทล์ **ตารางข้อมูล**
+2. ค้นหาตารางที่ขาดแอททริบิวต์ คลิก **ปรับเปลี่ยนการแมปเป้าหมาย** ในแถบเครื่องมือ
+3. บนบานหน้าต่าง **แมปการแบ่งระยะไปยังเป้าหมาย** คลิก **สร้างการแมป**
+4. เปิดหน้า **การแมปตาราง** จากหน้า **การรวมแบบสองทิศทาง** ในแอปการเงินและการดำเนินงาน
 5. ถ้าแอททริบิวต์ไม่ถูกเติมข้อมูลโดยอัตโนมัติบนแผนที่ ให้เพิ่มด้วยตนเองโดยการคลิกปุ่ม **เพิ่มแอททริบิวต์** แล้วคลิก **บันทึก** 
-6. เลือกแผนที่ และคลิก **รัน**
+6. เลือกแผนที่ และคลิก **เรียกใช้**
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

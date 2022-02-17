@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46ae85fc4f4f305d1ff8063b43aeef51d043742f9860940add0e0dbca02413d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750471"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069309"
 ---
 # <a name="find-information-by-using-lookups"></a>ค้นหาข้อมูลโดยใช้การค้นหา
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ฟิลด์หลายฟิลด์มีการค้นหาที่สามารถช่วยคุณในการค้นหาค่าที่ถูกต้องหรือที่ต้องการได้อย่างง่ายดาย มีการเพิ่มการส่งเสริมหลายอย่างสำหรับการค้นหาที่จะทำให้ตัวควบคุมเหล่านี้สามารถใช้งานได้มากขึ้น และทำให้ผู้ใช้มีประสิทธิผลมากขึ้น ในหัวข้อนี้ คุณจะได้เรียนรู้เกี่ยวกับคุณลักษณะการค้นหาใหม่เหล่านี้ และจะได้รับเคล็ดลับที่มีประโยชน์บางอย่างเพื่อการใช้งานที่มีประสิทธิภาพสูงสุดจากการค้นหาที่ดีที่สุดในระบบ
 
@@ -50,7 +53,7 @@ ms.locfileid: "6750471"
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png)
 
-แม้ว่าโฟกัสจะยังคงอยู่ในตัวควบคุมการค้นหา คุณสามารถใช้คีย์ **ลูกศรขึ้น** หรือ **ลูกศรลง** เพื่อเน้นแถวที่คุณต้องการเลือกได้ ถ้าคุณกด **Enter** แถวที่มีการเน้นจะถูกเลือกจากการค้นหา และค่าของตัวควบคุมจะถูกอัพเดต
+แม้ว่าโฟกัสจะยังคงอยู่ในตัวควบคุมการค้นหา คุณสามารถใช้คีย์ **ลูกศรขึ้น** หรือ **ลูกศรลง** เพื่อเน้นแถวที่คุณต้องการเลือกได้ ถ้าคุณกด **Enter** แถวที่มีการเน้นจะถูกเลือกจากการค้นหา และค่าของตัวควบคุมจะถูกอัปเดต
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 

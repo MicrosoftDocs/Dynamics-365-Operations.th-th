@@ -1,22 +1,31 @@
---- 
-# required metadata 
+---
 title: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
 description: 'บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ '
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
-ms.search.validFrom: '2016-06-30'
+ms.author: twheeloc
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074924"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+
 
 บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ ขั้นตอนนี้จะเป็นขั้นตอนในการว่าจ้างโดยนำพนักงานที่มีอยู่ไปยังกระบวนการสรรหาบุคลากร  ในขั้นตอนนี้จะ มีการตั้งค่าโครงการสรรหาบุคลากรไว้แล้ว และโครงการสรรหาบุคลากรได้รับใบสมัครพนักงานที่มีอยู่แล้ว  บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

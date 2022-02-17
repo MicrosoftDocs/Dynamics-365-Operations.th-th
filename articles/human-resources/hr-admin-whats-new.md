@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15a46c73da664f9133ce45149f1e2dd5e7b94fbc
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902544"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087535"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
+# <a name="whats-new-or-changed-in-human-resources"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
+
+> [!IMPORTANT]
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้าในระบบ Dynamics 365 Human Resources ที่แยกต่างหาก ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของการเงินหลังจากการเผยแพร่การเงิน 10.0.25  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

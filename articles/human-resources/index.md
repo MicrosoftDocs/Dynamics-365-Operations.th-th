@@ -17,76 +17,37 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a86995691cab3050d0ec44c1f4d1c3bed6c18fdb
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771275"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075057"
 ---
 # <a name="human-resources-home-page"></a>โฮมเพจทรัพยากรบุคคล
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources แสดงข้อมูลเชิงลึกของบุคลากรที่คุณต้องการสร้างประสบการณ์การให้พนักงานที่ขับเคลื่อนด้วยข้อมูลในหลายพื้นที่รวมถึง:
 
-- ค่าตอบแทน
-- สวัสดิการ
-- การลางานและการขาดงาน
-- การปฏิบัติตาม
-- การรวมค่าจ้าง
-- ความเห็นด้านประสิทธิภาพ
-- การฝึกอบรมและการรับรอง
-- โปรแกรมแบบบริการตนเอง
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่น ๆ ใน Dynamics 365 Human Resources 
+
+เลือกส่วนคุณลักษณะที่จะเรียนรู้เพิ่มเติม
+
+- [ระบบบริการตนเองของพนักงาน](hr-employee-manager-self-service-overview.md)
+- [การจัดการบุคลากร](hr-personnel-departments-jobs-positions.md)
+- [การจัดการงาน](hr-task-mgmt.md)
+- [การลางานและการขาดงาน](hr-leave-and-absence-overview.md)
+- [สวัสดิการ](hr-benefits-manage-program.md)
+- [การจัดการสวัสดิการ](hr-benefits-management-overview.md)
+- [การจัดการค่าตอบแทน](hr-compensation-overview.md)
+- [การพัฒนาพนักงาน](hr-develop-performance-management-overview.md)
+- [การเรียนรู้](hr-learning-courses.md)
+- [ระบบลำดับงาน]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 ทรัพยากรบุคคลจะเชื่อมต่อข้อมูลบุคคลและข้อมูลการดำเนินงานเพื่อช่วยคุณในการปรับปรุงต้นทุนบุคคลากรให้เหมาะสมและดูแลพนักงานของคุณ
 
-## <a name="whats-new"></a>มีอะไรใหม่
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
-
-## <a name="administrator-guide"></a>คู่มือสำหรับผู้ดูแลระบบ
-
-- [ภาพรวม](hr-admin-overview.md)</br>
-- [ความต้องการของระบบ](hr-admin-system-requirements.md)</br>
-- [ตั้งค่าและจัดการอินสแตนซ์](hr-admin-setup-provision.md)</br>
-- [ตั้งค่าการรวมข้อมูล](hr-admin-integration-choose-technology.md)</br>
-- [ตั้งค่าคอนฟิกการจัดการข้อมูล](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [จัดการคุณลักษณะ](hr-admin-manage-features.md)</br>
-- [สำรวจอินเทอร์เฟสผู้ใช้](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [แอป Human Resources ใน Teams](hr-admin-teams-leave-app.md)</br>
-- [จัดเตรียมสำหรับการโทรทันที](hr-admin-go-live-prepare.md)</br>
-- [คำถามที่ถามบ่อยเกี่ยวกับการโทรทันที](hr-admin-go-live-faq.md)</br>
-- [แหล่งข้อมูลเอกสารประกอบ](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [แก้ไขปัญหาของ Human Resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
-
-## <a name="developer-guide"></a>คู่มือสำหรับนักพัฒนา
-
-- [ภาพรวม](hr-developer-overview.md)</br>
-- [ขยายด้วย Power Apps และ Power Automate](hr-developer-power-apps.md)</br>
-- [เพิ่มเอนทิตี้ทรัพยากรบุคคลใน Dataverse](hr-developer-entities.md)</br>
-- [ฟิลด์ที่กำหนดเอง](hr-developer-custom-fields.md)</br>
-- [ตาราง Dataverse](hr-developer-entities.md)</br>
-- [ตั้งค่าการรวมข้อมูล](hr-admin-integration-choose-technology.md)</br>
-- [แก้ไขปัญหาการพัฒนาด้วยตารางเสมือน Dataverse](hr-developer-optimize-virtual-table-queries.md)</br>
-- [การอ้างอิง API ของเอนทิตี้](hr-developer-api-authentication.md)</br>
-- [API การรวม ATS](hr-admin-integration-ats-api-introduction.md)</br>
-- [API การรวมบัญชีเงินเดือน](hr-admin-integration-payroll-api-introduction.md)
-
-## <a name="user-guide"></a>คู่มือผู้ใช้
-
-- [ภาพรวม](hr-hrpro-overview.md)</br>
-- [สำรวจอินเทอร์เฟสผู้ใช้](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [ตั้งค่า Human Resources](hr-setup-parameters.md)</br>
-- [ตั้งค่าคอนฟิกการตั้งค่าขององค์กร](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-- [จัดการบุคลากร](hr-personnel-departments-jobs-positions.md)</br>
-- [ตั้งค่าแผนค่าตอบแทน](hr-compensation-overview.md)</br>
-- [จัดการสวัสดิการ](hr-benefits-management-overview.md)</br>
-- [จัดการกับการลางานและการขาดงาน](hr-leave-and-absence-overview.md)</br>
-- [จัดการคำขอลางานใน Teams](hr-teams-leave-app.md)</br>
-- [พัฒนาพนักงาน](hr-develop-performance-management-overview.md)</br>
-- [สร้างหลักสูตร](hr-learning-courses.md)</br>
-- [ตั้งค่าระบบบริการตนเองของพนักงานและผู้จัดการ](hr-employee-manager-self-service-overview.md)
+สำหรับข้อมูลเกี่ยวกับ Dynamics 365 Finance ให้ดูที่ [โฮมเพจ Finance](../finance/index.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

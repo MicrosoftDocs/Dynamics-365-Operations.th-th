@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: a30a59a648d54eda771845b8bee52df43987d3d1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431353"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068295"
 ---
 # <a name="set-up-reason-codes"></a>ตั้งค่ารหัสเหตุผล
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -66,14 +69,14 @@ Dynamics 365 Human Resources ใช้รหัสเหตุผลเพื่
 
    [![ย้ายรหัสเหตุผล](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
-4. ในบานหน้าต่าง **การย้ายรหัสเหตุผลของสวัสดิการ** คุณมีตัวเลือกสองตัวเลือกในการแม็ปกับรหัสเหตุผลของการจัดการบุคลากร:
+4. ในบานหน้าต่าง **การย้ายรหัสเหตุผลของสวัสดิการ** คุณมีตัวเลือกสองตัวเลือกในการแมปกับรหัสเหตุผลของการจัดการบุคลากร:
 
    - เมื่อต้องการใช้รหัสเหตุผลที่มีอยู่ในการจัดการบุคลากร ให้เลือกรหัสเหตุผลใดรหัสหนึ่งจากรายการแบบหล่นลง **ใช้รหัสเหตุผลที่มีอยู่**
      > [!NOTE]
      > คุณสามารถใช้รหัสเหตุผลที่มีอยู่ในการจัดการบุคลากรได้เฉพาะเมื่อรหัสเหตุผลของการจัดการสวัสดิการอื่นยังไม่ได้ย้ายไปยังรหัสนั้นแล้ว
    - เมื่อต้องการสร้างรหัสเหตุผลใหม่ในการจัดการบุคลากร ให้ป้อนรหัสใหม่ใน **เหตุผลใหม่** แล้วป้อนอธิบายใน **คำอธิบายใหม่**
 
-   [![แม็ปกับรหัสเหตุผลในการจัดการบุคลากร](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![แมปกับรหัสเหตุผลในการจัดการบุคลากร](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 หลังจากรหัสเหตุผลย้ายไปยังการจัดการบุคลากร ตัวเลือกในการใช้รหัสเหตุผลในการจัดการสวัสดิการจะถูกตั้งค่าเป็น **ใช่** โดยอัตโนมัติ
 

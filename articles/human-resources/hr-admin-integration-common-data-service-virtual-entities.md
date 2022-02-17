@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414675"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069157"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources เป็นแหล่งข้อมูลเสมือนใน Microsoft Dataverse ซึ่งให้การดำเนินการส้ราง อ่าน อัปเดต และลบทั้งหมด (CRUD) จาก Dataverse และ Microsoft Power Platform ข้อมูลสำหรับตารางเสมือนไม่ได้จัดเก็บไว้ใน Dataverse แต่อยู่ในฐานข้อมูลใบสมัคร
 
@@ -70,7 +73,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 ### <a name="register-the-app-in-microsoft-azure"></a>ลงทะเบียนแอปใน Microsoft Azure
 
-คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
+คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนแอปพลิเคชันด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
 
 1. เปิด [พอร์ทัล Microsoft Azure](https://portal.azure.com)
 
@@ -84,7 +87,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 6. เลือก **การลงทะเบียน**
 
-7. เมื่อลงทะเบียนเสร็จสมบูรณ์แล้ว พอร์ทัล Azure จะแสดงบานหน้าต่าง **ภาพรวม** ของการลงทะเบียนของแอป ซึ่งรวมถึง **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** จด **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** ในขณะนี้ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
+7. เมื่อลงทะเบียนเสร็จสมบูรณ์แล้ว พอร์ทัล Azure จะแสดงบานหน้าต่าง **ภาพรวม** ของการลงทะเบียนของแอป ซึ่งรวมถึง **รหัสแอปพลิเคชัน (ไคลเอนต์)** จด **รหัสแอปพลิเคชัน (ไคลเอนต์)** ในขณะนี้ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
 
 8. ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก **ใบรับรองและข้อมูลลับ**
 
@@ -117,12 +120,12 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 3. เลือก **URL ของสภาพแวดล้อม** ในส่วน **รายละเอียด** ของหน้า
 
-4. ใน **ฮับความสมบูรณ์ของโซลูชัน** ให้เลือกไอคอน **การค้นหาขั้นสูง** ที่ด้านบนขวาของหน้าโปรแกรมประยุกต์
+4. ใน **ฮับความสมบูรณ์ของโซลูชัน** ให้เลือกไอคอน **การค้นหาขั้นสูง** ที่ด้านบนขวาของหน้าแอปพลิเคชัน
 
-5. บนหน้า **การค้นหาขั้นสูง** ในรายการแบบเลื่อนลง **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือน Finance and Operations**
+5. บนหน้า **การค้นหาขั้นสูง** ในรายการดรอปดาวน์ **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของการเงินและการดำเนินงาน**
 
    > [!NOTE]
-   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของ Finance and Operations** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
+   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของการเงินและการดำเนินงาน** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
 
 6. เลือก **ผลลัพธ์**
 
@@ -146,9 +149,9 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
    - **รหัสผู้เช่า**: รหัสผู้เช่า Azure Active Directory (Azure AD)
 
-   - **รหัสโปรแกรมประยุกต์ AAD**: รหัสโปรแกรมประยุกต์ (ไคลเอนต์) ที่สร้างขึ้นสำหรับใบสมัครที่ลงทะเบียนไว้ในพอร์ทัล Microsoft Azure คุณได้รับข้อมูลนี้ก่อนหน้านี้ระหว่างขั้นตอนการ [ลงทะเบียนโปรแกรมประยุกต์ใน Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)
+   - **รหัสแอปพลิเคชัน AAD**: รหัสแอปพลิเคชัน (ไคลเอนต์) ที่สร้างขึ้นสำหรับใบสมัครที่ลงทะเบียนไว้ในพอร์ทัล Microsoft Azure คุณได้รับข้อมูลนี้ก่อนหน้านี้ระหว่างขั้นตอนการ [ลงทะเบียนแอปพลิเคชันใน Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)
 
-   - **ข้อมูลลับโปรแกรมประยุกต์ AAD**: ข้อมูลลับของไคลเอนต์ที่สร้างขึ้นสำหรับใบสมัครที่ลงทะเบียนไว้ในพอร์ทัล Microsoft Azure คุณได้รับข้อมูลนี้ก่อนหน้านี้ระหว่างขั้นตอนการ [ลงทะเบียนโปรแกรมประยุกต์ใน Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)
+   - **ข้อมูลลับแอปพลิเคชัน AAD**: ข้อมูลลับของไคลเอนต์ที่สร้างขึ้นสำหรับใบสมัครที่ลงทะเบียนไว้ในพอร์ทัล Microsoft Azure คุณได้รับข้อมูลนี้ก่อนหน้านี้ระหว่างขั้นตอนการ [ลงทะเบียนแอปพลิเคชันใน Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)
 
    ![แหล่งข้อมูล Microsoft HR](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 

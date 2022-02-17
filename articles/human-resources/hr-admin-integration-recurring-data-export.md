@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ce9fe4e77fa968463052e037ca767ed38e72796
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414773"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069793"
 ---
 # <a name="create-a-recurring-data-export-app"></a>สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -83,7 +86,7 @@ ms.locfileid: "7414773"
     ![หน้าการสร้างแอปตรรกะ](media/integration-logic-app-creation-1.png)
 
 2. ใน Logic Apps Designer เริ่มต้นด้วยแอปตรรกะเปล่า
-3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](/azure/connectors/connectors-native-recurrence) เพื่อรันแอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
+3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](/azure/connectors/connectors-native-recurrence) เพื่อเรียกใช้แอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
 
     ![กล่องโต้ตอบการเกิดซ้ำ](media/integration-logic-app-recurrence-step.png)
 
@@ -191,13 +194,13 @@ ms.locfileid: "7414773"
 
 ### <a name="step-3-test-the-logic-app"></a>ขั้นตอนที่ 3: ทดสอบแอปตรรกะ
 
-เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **รัน** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะรัน หลังจากวินาทีที่ 30 จนถึง 40 ควรรันแอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
+เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **เรียกใช้** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะเรียกใช้ หลังจากวินาทีที่ 30 จนถึง 40 ควรเรียกใช้แอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
 
 ถ้ามีการรายงานความล้มเหลวสำหรับขั้นตอนใดๆ ให้เลือกขั้นตอนที่ล้มเหลวตัวออกแบบ และตรวจสอบฟิลด์ **ข้อมูลป้อนเข้า** และ **เอาต์พุต** ตรวจแก้จุดบกพร่องและปรับเปลี่ยนขั้นตอนตามต้องการเพื่อแก้ไขข้อผิดพลาด
 
-ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะรันเสร็จเรียบร้อยแล้ว
+ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะเรียกใช้เสร็จเรียบร้อยแล้ว
 
-![การรันแอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
+![การเรียกใช้แอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>สรุป
 

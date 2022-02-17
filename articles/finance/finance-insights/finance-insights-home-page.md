@@ -1,23 +1,28 @@
 ---
-# required metadata
 title: โฮมเพจ Finance Insights
 description: Finance Insights จะให้แบบจำลองที่สามารถจัดโครงแบบได้และมีการขยายตัวเพื่อช่วยให้คุณสามารถคาดการณ์กระแสเงินสดของบริษัทของคุณได้อย่างถูกต้อง คาดการณ์เมื่อคุณจะได้รับการชำระเงินสำหรับลูกหนี้ที่ค้างชำระ และสร้างข้อเสนองบประมาณที่สามารถเพิ่มความเร็วในการจัดทำงบ ลักษณะการทำงานทั้งหมดเหล่านี้จะขึ้นอยู่กับแบบจำลองการเรียนรู้ของเครื่องอัจฉริยะ
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.custom:
-  - '14151'
-  - intro-internal
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2020-07-20'
+ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087304"
 ---
 # <a name="finance-insights-home-page"></a>โฮมเพจ Finance Insights
 
@@ -32,10 +37,6 @@ Finance Insights จะให้โซลูชันที่สามารถ
 
 ส่วนนี้แสดงรายการความต้องการสำหรับการใช้ Finance Insights สามารถเชื่อมโยงไปยังแหล่งที่มาของข้อมูลเพิ่มเติมได้ทุกเมื่อ
 
-### <a name="legal-requirements"></a>ข้อกำหนดทางกฎหมาย
-
-เมื่อต้องการใช้สำหรับโปรแกรมแสดงตัวอย่าง ให้กรอก [ตัวอย่าง Finance Insights สำหรับข้อตกลง Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u)
-
 ### <a name="system-requirements"></a>ความต้องการของระบบ
 
 ต้องมีสภาพแวดล้อมของ Sandbox ระดับ 2 (หลายกล่อง) เพื่อแสดงตัวอย่าง Finance Insights สำหรับข้อมูลประวัติความเป็นมาเกี่ยวกับสภาพแวดล้อม ดูที่ [การวางแผนสภาพแวดล้อม](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
@@ -43,6 +44,10 @@ Finance Insights จะให้โซลูชันที่สามารถ
 ### <a name="version-requirements"></a>ข้อกำหนดรุ่น
 
 หัวข้อนี้ใช้กับ Microsoft Dynamics 365 Finance รุ่น 10.0.21 และรุ่นที่ใหม่กว่า
+
+### <a name="license-requirements"></a>ข้อกำหนดสิทธิใช้งาน
+
+Finance Insights ใช้เครดิต AI Builder เพื่อสร้างการคาดคะเนทางการเงิน ลิขสิทธิ์ที่จําเป็นทั้งหมดซึ่งรวมอยู่ในลิขสิทธิ์ของผู้เช่า ผู้เช่า Dynamics 365 Finance แต่ละรายได้รับเครดิต AI Builder จำนวน 20,000 หน่วยต่อเดือน หากเครดิตเพิ่มเติมมีความจำเป็นสำหรับธุรกิจ ผู้ใช้สามารถซื้อเครดิตนั้นได้โดยตรงจาก AI Builder
 
 ### <a name="historical-data-requirements"></a>ข้อกำหนดเกี่ยวกับข้อมูลในอดีต
 

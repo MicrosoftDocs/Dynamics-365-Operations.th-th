@@ -1,23 +1,32 @@
---- 
-# required metadata 
+---
 title: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
 description: 'โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากร '
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
-ms.search.form: 'HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075160"
 ---
 # <a name="develop-and-open-job-requisition"></a>พัฒนาและเปิดคำขอจัดจ้างพนักงาน
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+
 
 โครงการสรรหาบุคลากรช่วยในการจัดการกระบวนการสรรหาบุคลากร  สำหรับแต่ละโครงการสรรหาบุคลากร คุณสามารถตั้งค่าข้อมูล เช่น งานที่มาจากการสรรหาบุคลากร ชื่อของผู้ที่สรรหา สถานะของโครงการและแผนกที่งานจะอยู่ หลังจากคุณสร้างโครงการสรรหาบุคลากร คุณสามารถเขียนการโฆษณารับสมัครงานสำหรับโครงการ การเผยแพร่โฆษณารับสมัครในหน้า **ระบบบริการตนเองของพนักงาน** เชื่อมโยงใบสมัครสำหรับการจ้างงานกับโครงการ และติดตามกิจกรรมสำหรับโครงการนั้น บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

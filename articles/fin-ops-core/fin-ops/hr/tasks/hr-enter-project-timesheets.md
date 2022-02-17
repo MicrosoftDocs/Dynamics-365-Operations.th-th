@@ -1,22 +1,29 @@
---- 
-# required metadata 
+---
 title: ป้อนแผ่นเวลาโครงการ
 description: 'ขั้นตอนนี้ช่วยให้คุณสร้างแผ่นเวลา โดยใช้แบบฟอร์มที่มีแผ่นเวลาที่ว่างเปล่า '
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: anbichse
-ms.search.validFrom: '2016-06-30'
+ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070486"
 ---
-
 # <a name="enter-project-timesheets"></a>ป้อนแผ่นเวลาโครงการ
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ขั้นตอนนี้ช่วยให้คุณสร้างแผ่นเวลา โดยใช้หน้าที่มีแผ่นเวลาที่ว่างเปล่า แผ่นเวลาใหม่สามารถยึดตามข้อมูลจากแผ่นเวลาก่อนหน้านี้ หรือจากการกำหนดโครงการและกิจกรรมในหน้า **รายการโปรดของฉัน** โดยค่าเริ่มต้น หน้ารายการ **แผ่นเวลาทั้งหมด** แสดงแผ่นเวลาทั้งหมดของคุณสำหรับรอบระยะเวลาปัจจุบัน คุณสามารถใช้ฟิลด์ **แสดง** ในหน้า **แผ่นเวลาของฉัน** เพื่อกรองรายการแผ่นเวลาตามรอบระยะเวลาหรือโครงการ หรือเพื่อดูแผ่นเวลาที่ถูกสร้างขึ้นในนามของผู้ปฏิบัติงานอื่นๆ บริษัทข้อมูลสาธิต **USSI** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

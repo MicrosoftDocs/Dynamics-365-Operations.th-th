@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 18863ad12cc3b5ee328184da5ffb35e7f5958b52
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d80ed49a4f423179997ac35562284a4e28af803f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771495"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068096"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -51,7 +54,7 @@ ms.locfileid: "7771495"
 
 1.  ในหน้า **ลำดับงานของฝ่ายทรัพยากรบุคคล** เลือก **สร้าง**
 2.  ในรายการของลำดับงานที่พร้อมใช้งาน เลือก **หมายเลขประจำตัว**
-3.  เลือก **รัน** เพื่อเปิดโปรแกรมออกแบบลำดับงาน และจากนั้น ป้อนชื่อผู้ใช้และรหัสผ่านของคุณเมื่อคุณได้รับแจ้ง
+3.  เลือก **เรียกใช้** เพื่อเปิดโปรแกรมออกแบบลำดับงาน และจากนั้น ป้อนชื่อผู้ใช้และรหัสผ่านของคุณเมื่อคุณได้รับแจ้ง
 4.  ลากองค์ประกอบ **อนุมัติหมายเลขรหัส** จากรายการขององค์ประกอบลำดับงานไปยังผืนผ้าใบโปรแกรมออกแบบ
 5.  เชื่อมต่อองค์ประกอบการอนุมัติเพื่อ **เริ่มต้น** และ **สิ้นสุด**
 6.  ดับเบิลแท็บ (หรือดับเบิลคลิก) **อนุมัติองค์ประกอบ** เลือกและกดแช่ (หรือคลิกขวา) แล้วเลือก **คุณสมบัติ**

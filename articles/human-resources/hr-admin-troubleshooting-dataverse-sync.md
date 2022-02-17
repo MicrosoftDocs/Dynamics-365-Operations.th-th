@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-27
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d88f538fbf22313feaca6771b7cb1757a3c3fbad
-ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
+ms.openlocfilehash: d6b20b6b2ae4fdbbfb27a765dfb7a1dc82fe7981
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "7559685"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071171"
 ---
 # <a name="reset-dataverse-synchronization"></a>รีเซ็ตการซิงโครไนส์ Dataverse
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,7 +34,7 @@ ms.locfileid: "7559685"
 
 ## <a name="resolution"></a>การแก้ปัญหา
 
-เมื่อชุดงาน **การลองรวม Dataverse ใหม่** หรือ **การซิงค์คำขอที่หายไปของการรวม Dataverse** ติดอยู่ในสถานะ **กำลังดำเนินการ** หรือ **กำลังยกเลิก** คุณสามารถรีเซ็ตสถานะได้ นี่สามารถทำได้โดยการยกเลิกชุดงานโดยปฏิบัติตามแนวทางใน [รีเซ็ตชุดงานที่ที่ติดขัด](hr-admin-troubleshooting-batch-execution.md) หลังจากที่คุณยกเลิกชุดงานแล้ว คุณสามารถรีเซ็ตชุดงานได้โดยการตั้งค่าเป็นสถานะ **กำลังรอ** จากนั้น ชุดงานจะรันในระหว่างเวลาการรันที่จัดกำหนดการไว้ถัดไป
+เมื่อชุดงาน **การลองรวม Dataverse ใหม่** หรือ **การซิงค์คำขอที่หายไปของการรวม Dataverse** ติดอยู่ในสถานะ **กำลังดำเนินการ** หรือ **กำลังยกเลิก** คุณสามารถรีเซ็ตสถานะได้ นี่สามารถทำได้โดยการยกเลิกชุดงานโดยปฏิบัติตามแนวทางใน [รีเซ็ตชุดงานที่ที่ติดขัด](hr-admin-troubleshooting-batch-execution.md) หลังจากที่คุณยกเลิกชุดงานแล้ว คุณสามารถรีเซ็ตชุดงานได้โดยการตั้งค่าเป็นสถานะ **กำลังรอ** จากนั้น ชุดงานจะเรียกใช้ในระหว่างเวลาการเรียกใช้ที่จัดกำหนดการไว้ถัดไป
 
 1. ถ้าคุณยังไม่ได้ทำเช่นนั้น ให้เปิดใช้งานคุณลักษณะ **ยกเลิกชุดงานขั้นสูง** ใน **การจัดการคุณลักษณะ**
    1. ไปที่หน้า **การจัดการคุณลักษณะ** (**การจัดการระบบ** > **สรุป** > **การจัดการคุณลักษณะ**)

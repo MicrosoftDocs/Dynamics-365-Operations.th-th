@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781403"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063683"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายวิธีการเปิดใช้งานการรวมแบบสองทิศทางจาก Microsoft Dynamics Lifecycle Services (LCS)
 
@@ -53,18 +53,18 @@ ms.locfileid: "7781403"
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="เชื่อมโยงกับสภาพแวดล้อม Power Platform":::
 
-8. เมื่อการเชื่อมโยงเสร็จสมบูรณ์ ไฮเปอร์ลิงค์จะแสดงขึ้น ใช้ลิงค์เพื่อเข้าสู่ระบบพื้นที่การรวมแบบสองทิศทางในสภาพแวดล้อม Finance and Operations จากที่นั่น คุณสามารถตั้งค่าการแม็ปเอนทิตีได้
+8. เมื่อการเชื่อมโยงเสร็จสมบูรณ์ ไฮเปอร์ลิงค์จะแสดงขึ้น ใช้ลิงค์เพื่อเข้าสู่ระบบพื้นที่การรวมแบบสองทิศทางในสภาพแวดล้อมการเงินและการดำเนินงานของคุณ จากที่นั่น คุณสามารถตั้งค่าการแมปเอนทิตีได้
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>ตั้งค่าการรวมแบบสองทิศทางสำหรับสภาพแวดล้อม Dataverse ที่มีอยู่
 
 เมื่อต้องการตั้งค่าการรวมแบบสองทิศทางให้กับสภาพแวดล้อม Dataverse ที่มีอยู่ คุณต้องสร้าง [ตั๋วสนับสนุน](../../lifecycle-services/lcs-support.md) Microsoft ตั๋วต้องรวม:
 
-+ รหัสสภาพแวดล้อม Finance and Operations ของคุณ
++ รหัสสภาพแวดล้อมการเงินและการดำเนินงานของคุณ
 + ชื่อสภาพแวดล้อมของคุณจาก Lifecycle Services
 + รหัสองค์กร Dataverse หรือรหัสสภาพแวดล้อม Power Platform จากศูนย์การจัดการ Power Platform ในตั๋วของคุณ ให้ขอรหัสเป็นอินสแตนซ์ที่ใช้ในการรวม Power Platform
 
 > [!NOTE]
-> คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อม Finance and Operations และจากนั้น เลือก **ยกเลิกการเชื่อมโยง**
+> คุณไม่สามารถยกเลิกการเชื่อมโยงสภาพแวดล้อมได้โดยใช้ LCS เมื่อต้องการยกเลิกการเชื่อมโยงสภาพแวดล้อม ให้เปิดพื้นที่ทำงาน **การรวมข้อมูล** ในสภาพแวดล้อมการเงินและการดำเนินงานและจากนั้น เลือก **ยกเลิกการเชื่อมโยง**
 
 ## <a name="linking-mismatch"></a>การเชื่อมโยงไม่ตรงกัน
 
