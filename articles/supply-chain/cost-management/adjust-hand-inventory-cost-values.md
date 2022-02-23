@@ -2,9 +2,11 @@
 title: การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
 description: ใช้หน้าการปรับปรุงปริมาณสินค้าคงคลังคงเหลือเพื่อปรับปรุงมูลค่าต้นทุนของปริมาณสินค้าคงคลังคงเหลือหลังจากกระบวนการปิดบัญชีสินค้าคงคลังได้ถูกรัน
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe79369fe4a85f34f7648699e90b726356ce6122594e60f21b27180982b7b149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a702a083d60bdb289712027fbaee5c0a72e60cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770323"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963849"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>การปรับปรุงมูลค่าต้นทุนปริมาณคงคลังคงเหลือ
 
@@ -41,6 +43,3 @@ ms.locfileid: "6770323"
 -   5 กุมภาพันธ์: ปริมาณ 1 หน่วย ที่ต้นทุน USD 13.00
 
 ในการตั้งค่าต้นทุนของสินค้าทั้งสองนี้เป็น USD 15.00 ให้ใช้ตัวเลือกการปรับปรุงคงเหลือเพื่อปรับปรุงปริมาณคงเหลือที่เปิด ณ รอบระยะเวลาการปิดบัญชีสินค้าคงคลังล่าสุด **หมายเหตุ:** วันที่ลงรายการบัญชีของธุรกรรมการปรับปรุงคงเหลือจะเป็นวันที่ปิดบัญชีสินค้าคงคลังล่าสุด วันที่นี้ไม่สามารถแก้ไขได้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
 description: หัวข้อนี้อธิบายถึงวิธีที่คุณจะไม่สามารถมีตัวคั่นเดียวกันได้สำหรับผังบัญชีและค่ามิติ คุณต้องเปลี่ยนค่าตัวคั่นหลังจากการอัพเกรด
 author: panolte
-ms.date: 09/17/2021
+manager: AnnBe
+ms.date: 03/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,18 +16,23 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 72965e9c6182bdac123feb1bc5cc4b82d91cd588
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500514"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020115"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
 
 [!include [banner](../includes/banner.md)]
 
 ใน Microsoft Dynamics AX 2012 คุณสามารถใช้ตัวคั่นเดียวกันได้สำหรับแผนภูมิของลูกค้าองค์กรและค่ามิติของคุณ ในรุ่นปัจจุบันของ Finance and Operations คุณไม่สามารถมีตัวคั่นเดียวกันสำหรับผังบัญชีและค่ามิติได้ ถ้าไม่มีตัวคั่นซ้ำ คุณสามารถเปลี่ยนได้หลังจากการอัพเกรด 
+
+คุณลักษณะนี้มีให้ใช้งานในรุ่นต่อไปนี้
+- Finance and Operations รุ่น 8.0
+- Finance and Operations รุ่น 7.1 KB 4094701 ไม่สามารถป้อนมิติทางการเงินได้ เมื่อค่ามิติประกอบด้วยตัวคั่นแผนภูมิของลูกค้าองค์กร
+- Finance and Operations รุ่น 7.2 KB 4092967 ไม่สามารถเลือกโครงการย่อยเป็นมิติได้ เมื่อรูปแบบโครงการย่อยประกอบด้วยตัวคั่นมิติ
 
 ## <a name="update-delimiter"></a>อัพเดตตัวคั่น
 ถ้ามีความขัดแย้งกับผังบัญชี สามารถเปลี่ยนตัวคั่นผังบัญชีตัวและรูปแบบรหัสโครงการ/โครงการย่อยได้ ไม่มีตัวคั่นมิติอื่นๆ ที่สามารถเปลี่ยนได้ 
@@ -34,6 +41,3 @@ ms.locfileid: "7500514"
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>วิธีการตรวจสอบว่า สภาพแวดล้อมของคุณต้องใช้ตัวคั่นที่มีการปรับปรุงหรือไม่ 
 ถ้าตัวคั่นในสภาพแวดล้อมที่มีการอัพเกรดของคุณขัดแย้งกัน คุณอาจพบความไม่มีเสถียรภาพ เมื่อป้อนค่าในตัวควบคุมรายการที่มีการแบ่งส่วนหรือตัวควบคุมรายการมิติ ซึ่งหมายความว่า คุณจะต้องใช้การใช้การค้นหาหรือเมนูแบบลอยขึ้นเสมอ เมื่อป้อนชุดบัญชีและมิติ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: การผสมมิติของผลิตภัณฑ์ในสถานที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการผสมมิติผลิตภัณฑ์ของตำแหน่งที่ตั้ง ฟังก์ชันของโพรไฟล์สถานที่นี้จะช่วยปรับปรุงการจัดการสถานที่เมื่อมีการใช้ผลิตภัณฑ์ย่อยหรือผลิตภัณฑ์ที่มีมิติ เช่น ในอุตสาหกรรมแฟชั่น ซึ่งช่วยให้คุณสามารถเลือกว่าจะรวมการตั้งค่าคอนฟิก สี ลักษณะ และขนาด ให้กับโพรไฟล์ที่ตั้งเฉพาะหรือไม่ หรือมีมิติหรือหนึ่งในมิติเหล่านี้เท่านั้นที่สามารถนำไปวางกับสถานที่เดียวกันได้
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438806"
 ---
 # <a name="location-product-dimension-mixing"></a>การผสมมิติของผลิตภัณฑ์ในสถานที่
 
@@ -204,9 +207,9 @@ ms.locfileid: "7578571"
 
 1.เลือก **บันทึก**
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>รับบรรทัดใบสั่งซื้อในแอปการจัดการคลังสินค้าบนมือถือ
+### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>รับบรรทัดใบสั่งซื้อในแอปคลังสินค้า
 
-1. ลงชื่อเข้าใช้ไปยังแอปการจัดการคลังสินค้าบนมือถือในฐานะผู้ใช้ที่เปิดใช้งานคลังสินค้า *24*
+1. ลงชื่อเข้าใช้ไปยังแอปคลังสินค้าในฐานะผู้ใช้ที่สามารถใช้งานคลังสินค้า *24*
 1. เลือกเมนู **ขาเข้า**
 1. เลือก **การรับรายการ PO**
 1. เลือกฟิลด์ **PONUM** จากนั้นป้อนหมายเลขใบสั่งซื้อ
@@ -236,5 +239,3 @@ ms.locfileid: "7578571"
 
 > [!TIP]
 > คุณสามารถทำซ้ำสถานการณ์จำลองนี้ได้ แต่ครั้งนี้ให้ตั้งค่า **ขนาด** - *ไม่* ภายใต้แท็บด่วน **อนุญาตการรวมมิติของผลิตภัณฑ์** บน *จำนวนมาก* ของ **โพรไฟล์สถานที่** ดังนั้นจึงไม่สามารถผสมมิติของผลิตภัณฑ์ได้ ในกรณีนี้เมื่อคุณได้รับใบสั่งซื้อ ผลิตภัณฑ์ย่อยแต่ละรายการจะถูกวางไปยังที่ตั้งใหม่
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

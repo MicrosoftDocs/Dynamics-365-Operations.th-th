@@ -1,10 +1,12 @@
 ---
 title: ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย
 description: หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถใช้พอร์ทัลผู้จัดจำหน่ายเพื่อร่วมมือกับผู้จัดจำหน่ายภายนอกในระหว่างกระบวนการยืนยันใบสั่งซื้อ ข้อมูลนี้ใช้กับเฉพาะรุ่นกุมภาพันธ์ 2016 &amp; พฤษภาคม 2016 ของ Dynamics AX
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568075"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019114"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>ทำงานร่วมกับผู้จัดจำหน่ายที่ใช้พอร์ทัลผู้จัดจำหน่าย
 
@@ -92,14 +94,12 @@ ms.locfileid: "7568075"
 |                           คุณสามารถส่งใบสั่งซื้อเวอร์ชันใหม่ไปยังพอร์ทัลผู้จัดจำหน่าย                            |                                                                                                                                                                    รุ่นใหม่จะถูกลงทะเบียนในพอร์ทัลผู้จัดจำหน่าย และสถานะจะถูกเปลี่ยนเป็น <strong>อยู่ระหว่างการตรวจทานภายนอก</strong>                                                                                                                                                                     |
 |                                ผู้จัดจำหน่ายอนุมัติรุ่นใหม่ของใบสั่งซื้อ                                 |                                                                                                                                                     สถานะจะถูกเปลี่ยนเป็น <strong>ยืนยันแล้ว</strong> โดยอัตโนมัติ หรือเมื่อคุณได้รับการตอบสนองจากผู้จัดจำหน่ายและยืนยันใบสั่งซื้อแล้ว อย่างใดอย่างหนึ่ง                                                                                                                                                     |
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ความปลอดภัยของผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md)
 
-[พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
+[พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

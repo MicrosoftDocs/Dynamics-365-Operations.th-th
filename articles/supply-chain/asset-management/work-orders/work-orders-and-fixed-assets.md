@@ -1,10 +1,12 @@
 ---
 title: ใบสั่งงานและสินทรัพย์ถาวร
 description: หัวข้อนี้อธิบายใบสั่งงาน เเละสินทรัพย์ถาวรในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ad4af6bb0df557314f844d3e7a6c5fb84a6331d86f16e1bc76150f78ce3039e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752813"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016714"
 ---
 # <a name="work-orders-and-fixed-assets"></a>ใบสั่งงานและสินทรัพย์ถาวร
 
@@ -62,6 +64,3 @@ ms.locfileid: "6752813"
 
 7. ถ้าต้องการดูภาพรวมของโครงการที่เชื่อมโยงกับสินทรัพย์ถาวร ให้เลือก **สินทรัพย์ถาวร** > **สินทรัพย์ถาวร** > **สินทรัพย์ถาวร** แล้วจากนั้น ในฟิลด์ **หมายเลขสินทรัพย์ถาวร** ให้เลือกลิงค์สำหรับสินทรัพย์ถาวรที่จะเปิดมุมมองรายละเอียด ขยายบานหน้าต่าง **ข้อมูลที่เกี่ยวข้อง** ทางด้านขวาของหน้า และเลือก FastTab **โครงการที่เชื่อมโยง**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

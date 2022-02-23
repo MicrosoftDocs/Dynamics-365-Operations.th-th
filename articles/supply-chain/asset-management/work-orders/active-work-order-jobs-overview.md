@@ -1,22 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของงานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่
 description: หัวข้อนี้จะอธิบายภาพรวมของงานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่ในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
-ms.search.validFrom: '2019-09-30'
+ms.author: riluan
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019490"
 ---
-
 # <a name="active-work-order-maintenance-jobs-overview"></a>ภาพรวมของงานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่
 
 [!include [banner](../../includes/banner.md)]
@@ -31,10 +38,7 @@ ms.dyn365.ops.version: 10.0.5
 
 ภาพประกอบด้านล่างแสดงตัวอย่างของหน้ารายการ **งานบำรุงรักษาของใบสั่งงานที่ใช้งาน**
 
-![รูปที่ 1.](media/23-work-orders.png)
+![รูปที่ 1](media/23-work-orders.png)
 
 สำหรับคำอธิบายโดยย่อของปุ่มบนหน้ารายการ **งานบำรุงรักษาของใบสั่งงานที่ใช้งานอยู่** อ้างอิงถึง [บทนำเกี่ยวกับใบสั่งงาน](../work-orders/introduction-to-work-orders.md) ซึ่งมีการอธิบายปุ่มที่เหมือนกัน
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

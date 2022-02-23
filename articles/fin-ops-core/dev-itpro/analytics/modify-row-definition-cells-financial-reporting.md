@@ -2,9 +2,11 @@
 title: แก้ไขเซลล์ข้อกำหนดของแถว
 description: หัวข้อนี้อธิบายข้อมูลที่จำเป็นสำหรับแต่ละเซลล์ในคำนิยามแถวในรายงานทางการเงิน และอธิบายวิธีการใส่ข้อมูลดังกล่าว
 author: ShylaThompson
-ms.date: 08/11/2021
+manager: AnnBe
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344896"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685870"
 ---
 # <a name="modify-row-definition-cells"></a>แก้ไขเซลล์ข้อกำหนดของแถว
 
@@ -399,7 +401,7 @@ ms.locfileid: "7344896"
 2. ดับเบิลคลิกเซลล์ในคอลัมน์ **ลิงก์ไปยังมิติทางการเงิน**
 3. ในกล่องโต้ตอบ **มิติ** ดับเบิลคลิกเซลล์ใต้ชื่อมิติ
 4. ในกล่องโต้ตอบสำหรับมิติ เลือก **รายบุคคลหรือช่วง**
-5. ในฟิลด์ **จาก** ให้ป้อนมิติเริ่มต้น หรือคลิก ![เรียกดู](media/browse.gif "เรียกดู") เพื่อค้นหามิติที่พร้อมใช้งาน เมื่อต้องการป้อนช่วงของมิติ ป้อนมิติสิ้นสุดในฟิลด์ **ถึง**
+5. ในฟิลด์ **จาก** ป้อนมิติเริ่มต้น หรือคลิก ![เรียกดู](media/browse.gif "เรียกดู") เพื่อค้นหามิติที่ใช้งานได้ เมื่อต้องการป้อนช่วงของมิติ ป้อนมิติสิ้นสุดในฟิลด์ **ถึง**
 6. คลิก **ตกลง** ในกล่องโต้ตอบสำหรัลมิติ กล่องโต้ตอบ **มิติ** จะแสดงมิติหรือช่วงที่อัพเดต
 7. คลิก **ตกลง** เพื่อปิดกล่องโต้ตอบ **มิติ**
 
@@ -527,6 +529,3 @@ ms.locfileid: "7344896"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

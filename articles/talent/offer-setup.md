@@ -209,6 +209,3 @@ ms.locfileid: "4462699"
 
 
 เรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการสร้างข้อเสนอ ดู [สร้าง ฃอนุมัติ และรับรองข้อเสนอ](./creating-offers.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

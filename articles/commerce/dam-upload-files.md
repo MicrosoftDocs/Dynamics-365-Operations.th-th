@@ -1,13 +1,16 @@
 ---
 title: อัพโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
-description: หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์ไบนารีนอกเหนือจากภาพและวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์ไบนารี นอกเหนือจากรูปภาพและวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
+manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 50f9d793f0e7f34aa21d69c4049a3fe6bf16b58633f7bd555492506dc8d96790
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4acd3bec32cdfe627f6eb33dd5dc652f7cff74a8
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729158"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594223"
 ---
-# <a name="upload-files-other-than-images-and-videos"></a>อัปโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
+# <a name="upload-files-other-than-images-and-videos"></a>อัพโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์นอกเหนือจากภาพและวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีการอัพโหลดไฟล์ นอกเหนือจากรูปภาพและวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 ไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce สนับสนุนการอัพโหลดสินทรัพย์ไบนารี นอกเหนือจากรูปภาพหรือวิดีโอ ตัวอย่างเช่น คุณอาจต้องการอัพโหลด Microsoft Excel Microsoft Word Microsoft PowerPoint หรือไฟล์ PDF
 
@@ -93,6 +98,3 @@ ms.locfileid: "6729158"
 [ปรับแต่งจุดโฟกัสของรูปภาพ](dam-custom-focal-point.md)
 
 [อัปโหลดและให้บริการไฟล์แบบคงที่](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

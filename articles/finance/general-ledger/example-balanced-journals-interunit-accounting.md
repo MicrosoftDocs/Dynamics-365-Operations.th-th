@@ -1,10 +1,12 @@
 ---
 title: สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
 description: บทความนี้แสดงวิธีที่สมุดรายวันกำหนดยอดดุลโดยอัตโนมัติ เมื่อเลือกมิติทางการเงินยอดดุลในหน้าบัญชีแยกประเภท
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726905"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968765"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย
 
@@ -30,7 +32,7 @@ ms.locfileid: "7726905"
 
 ถ้ารายการบัญชีไม่สมดุลในระดับของค่ามิติทางการเงิน รายการบัญชีเพิ่มเติมจะถูกสร้างขึ้นโดยอัตโนมัติในดุลสมุดรายวัน รายการบัญชีเหล่านี้ใช้ **ระหว่างหน่วย - เดบิต** และ **ระหว่างหน่วย - เครดิต** การลงชนิดรายการบัญชีในหน้า **สำหรับหน้าธุรกรรมอัตโนมัติ** เพื่อกำหนดบัญชีหลัก ตัวอย่างเช่น หน่วยธุรกิจ ซึ่งเป็นส่วนที่สองของบัญชีแยกประเภท ถูกเลือกเป็นมิติทางการเงินของยอดดุล และกำลังจะมีสร้างรายการบัญชีต่อไปนี้
 
-| &nbsp;               | &nbsp;    |
+|                      |           |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100.00 DR |
 | 6100 – NY – OU\_249  | 100.00 DR |
@@ -43,7 +45,7 @@ ms.locfileid: "7726905"
 
 ดังนั้น รายการบัญชีต่อไปนี้จะสร้างขึ้นโดยอัตโนมัติ เพื่อให้รายการสมุดรายวันนี้สมดุลที่ระดับค่ามิติทางการเงิน
 
-| &nbsp;                            | &nbsp;    |
+|                                   |           |
 |-----------------------------------|-----------|
 | (ระหว่างหน่วยเดบิต) – MSP – OU\_256 | 100.00 DR |
 | (ระหว่างหน่วยเครดิต) – NY – OU\_249 | 100.00 CR |
@@ -52,6 +54,3 @@ ms.locfileid: "7726905"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

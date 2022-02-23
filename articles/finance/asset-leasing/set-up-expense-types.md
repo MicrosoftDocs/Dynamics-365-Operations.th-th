@@ -2,11 +2,13 @@
 title: ตั้งค่าชนิดค่าใช้จ่าย
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าชนิดค่าใช้จ่ายในการเช่าสินทรัพย์
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeaseExpenseTypeTable
+ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e5af18921314061ba3256559d7fc7ceacef606a9b3d5cc3a8047c83494074fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715153"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969514"
 ---
 # <a name="set-up-expense-types"></a>ตั้งค่าชนิดค่าใช้จ่าย
 
@@ -56,6 +58,3 @@ ms.locfileid: "6715153"
 7. ในฟิลด์ที่เหมาะสม ให้เลือกบัญชีหลักของสัญญาเช่าทางการเงินและบัญชีหลักของการเช่าดำเนินงาน
 
 เมื่อคุณดำเนินการขั้นตอนต่อไปนี้เสร็จสมบูรณ์แล้ว คุณสามารถเพิ่มค่าใช้จ่ายผ่านทางรายการ **กำหนดการชำระเงินค่าใช้จ่ายในการจัดการสินทรัพย์** ในหน้า **รายละเอียดสัญญาเช่า** ของสัญญาเช่าที่เลือก อีกทางหนึ่งคือ คุณสามารถเพิ่มค่าใช้จ่ายเมื่อคุณสร้างสัญญาเช่าใหม่
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,27 @@
 ---
-# required metadata
-title: ภาพรวมของข้อความแจ้งเตือน (มีวิดีโอ)
+title: ภาพรวมของการแจ้งเตือน
 description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับการแจ้งเตือน คุณสามารถใช้การแจ้งเตือนเพื่อรับข่าวสารเกี่ยวกับเหตุการณ์ที่คุณต้องการติดตามในระหว่างวันทำงาน
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 09/04/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798604"
 ---
-
 # <a name="alerts-overview"></a>ภาพรวมการแจ้งเตือน
 
 [!include [banner](../includes/banner.md)]
@@ -73,15 +79,12 @@ ms.dyn365.ops.version: Platform update 15
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-[วิธีการใช้การแจ้งเตือนเพื่อตรวจสอบข้อมูลที่ถูกกรอง](https://youtu.be/ZYKMcv6kl9s) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
+[วิธีการใช้การแจ้งเตือนเพื่อตรวจสอบข้อมูลที่ถูกกรอง](https://youtu.be/ZYKMcv6kl9s) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
 
 ### <a name="alert-rule-options"></a>ตัวเลือกกฎการแจ้งเตือน
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-วิดีโอ [ตัวเลือกกฎการแจ้งเตือน](https://youtu.be/cpzimwOjicM) (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
+[ตัวเลือกกฎการแจ้งเตือน](https://youtu.be/cpzimwOjicM) วิดีโอ (แสดงอยู่ด้านบน) จะรวมอยู่ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) มีให้รับชมบน YouTube
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกกิจกรรมคู่ขนานในลำดับงาน
 description: เมื่อต้องการตั้งค่าคอนฟิกกิจกรรมคู่ขนาน ให้ดำเนินการกระบวนงานในโปรแกรมแก้ไขลำดับงานต่อไปนี้ให้เสร็จสมบูรณ์
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,23 +16,20 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054d62e2ff094aee987f8c6e04e2f2e173da633d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dfbe78f31082ad0b1272f02e3ae9d7adbd993b1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068774"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797737"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>ตั้งค่าคอนฟิกกิจกรรมคู่ขนานในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 เมื่อต้องการตั้งค่าคอนฟิกกิจกรรมคู่ขนาน ให้ดำเนินการกระบวนงานในโปรแกรมแก้ไขลำดับงานต่อไปนี้ให้เสร็จสมบูรณ์
 
-กิจกรรมคู่ขนานประกอบด้วยสาขาลำดับงานที่เรียกใช้พร้อมกัน
+กิจกรรมคู่ขนานประกอบด้วยสาขาลำดับงานที่รันพร้อมกัน
 
 ## <a name="name-a-parallel-activity"></a>กำหนดชื่อกิจกรรมคู่ขนาน
 
@@ -51,9 +50,6 @@ ms.locfileid: "8068774"
     ![จุดแทรก](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
-    > ลำดับของสาขาไม่สำคัญ เพราะสาขาทั้งหมดของกิจกรรมคู่ขนานเรียกใช้พร้อมกัน
+    > ลำดับของสาขาไม่สำคัญ เพราะสาขาทั้งหมดของกิจกรรมคู่ขนานรันพร้อมกัน
 
 3. การตั้งค่าคอนฟิกแต่ละสาขา ดูที่ [ตั้งค่าคอนฟิกสาขาคู่ขนานในเวิร์กโฟลว์](configure-parallel-branch-workflow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

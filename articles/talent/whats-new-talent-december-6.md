@@ -143,6 +143,3 @@ ms.locfileid: "4529173"
 
 ![การแปลงฟิลด์เพศ](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

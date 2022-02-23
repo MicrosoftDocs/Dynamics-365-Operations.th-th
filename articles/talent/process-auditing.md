@@ -61,6 +61,3 @@ ms.locfileid: "4462751"
 |ประวัติใบสมัครงาน | ใบสมัครงาน (msdyn_JobapplicatonId)<br></br>สถานะ (msdyn_status) <br></br>คำอธิบายรายการของสถานะ (msdyn_statusreason) <br></br>เหตุผลการปฏิเสธ (msdyn_rejectionreason) |
 | ประวัติงานที่เปิด | งานที่เปิด (msdyn_JobopeningId) <br></br>สถานะ (msdyn_jobopeningstatus) <br></br>คำอธิบายรายการของสถานะ (msdyn_jobopeningstatusreason) |
 | ประวัติผู้สมัคร | ผู้สมัคร (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

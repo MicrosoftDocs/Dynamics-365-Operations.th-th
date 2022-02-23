@@ -1,23 +1,25 @@
 ---
 title: เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 description: หัวข้อนี้แสดงวิธีการฝังรายงาน Power BI ในแท็บการวิเคราะห์ของพื้นที่ทำงาน
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760163"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680947"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
 
@@ -26,12 +28,12 @@ ms.locfileid: "6760163"
 > [!NOTE]
 > คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และรุ่นที่ใหม่กว่า)
 
-## <a name="introduction"></a>บทนำ
+## <a name="introduction"></a>คำนำ
 หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 + เข้าถึงสภาพแวดล้อมนักพัฒนาที่รันการอัพเดตแพลตฟอร์ม 8 หรือรุ่นที่ใหม่กว่า
-+ รายงานการวิเคราะห์ (.pbix file) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และมีแบบจำลองข้อมูลที่มีแหล่งที่มาจากฐานข้อมูลที่จัดเก็บเอนทิตี
++ รายงานการวิเคราะห์ (.pbix file) ที่ถูกสร้างโดยใช้ Microsoft Power BI Desktop และที่มีแบบจำลองข้อมูลที่มีแหล่งที่มาจากฐานข้อมูลที่จัดเก็บเอนทิตี
 
 ## <a name="overview"></a>ภาพรวม
 ไม่ว่าคุณจะขยายพื้นที่ทำงานของแอพลิเคชันที่มีอยู่ หรือใช้พื้นที่ทำงานใหม่ของคุณเอง คุณสามารถใช้มุมมองการวิเคราะห์แบบฝังเพื่อจัดส่งมุมมองที่ชาญฉลาดและเชิงโต้ตอบของข้อมูลธุรกิจของคุณ กระบวนการสำหรับการเพิ่มแท็บพื้นที่ทำงานเชิงวิเคราะห์มีสี่ขั้นตอน
@@ -67,7 +69,7 @@ ms.locfileid: "6760163"
 
 ภาพประกอบต่อไปนี้แสดงลักษณะของฟอร์ม **FMClerkWorkspace** ในตัวออกแบบใน Microsoft Visual Studio
 
-![ฟอร์ม FMClerkWorkspace ก่อนที่จะเปลี่ยนแปลง](media/analytical-workspace-definition-before.png)
+![แบบฟอร์ม FMClerkWorkspace ก่อนที่จะเปลี่ยนแปลง](media/analytical-workspace-definition-before.png)
 
 ทำตามขั้นตอนเหล่านี้เพื่อขยายแบบฟอร์มคำนิยามสำหรับพื้นที่ทำงาน **การจัดการการจอง**
 
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างตัวกรอง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่     |
 | showNavPane      | ค่าบูลีนที่บ่งชี้ว่าควรแสดงบานหน้าต่างนำทาง (**จริง**) หรือ (**เท็จ**) ที่ซ่อนอยู่ |
 | defaultFilters   | ตัวกรองเริ่มต้นสำหรับรายงาน Power BI                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

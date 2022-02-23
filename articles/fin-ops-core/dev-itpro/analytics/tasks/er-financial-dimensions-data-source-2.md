@@ -1,10 +1,12 @@
 ---
 title: ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2 - การแม็ปแบบจำลอง)
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแบบโมเดลการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลของรายงาน ER (ส่วนที่ 2)
+description: 'ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER '
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605416"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681696"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 2 - การแม็ปแบบจำลอง)
 
@@ -56,14 +58,14 @@ ms.locfileid: "7605416"
 21. เลือก ใช่ ในฟิลด์ขอข้อมูลบัญชีหลัก
     * ตั้งค่า 'ขอข้อมูลบัญชีหลัก' เป็น 'ใช่' เพื่ออนุญาตให้ผู้ใช้สามารถเลือกบัญชีหลักเป็นส่วนหนึ่งของรายการของมิติ   ถ้าตั้งค่าเป็น ไม่ บัญชีหลักจะไม่ถูกรวมเข้าในรายการของมิติ และตัวเลือก 'บัญชีหลักเป็นข้อมูลบังคับ' จะถูกเปิดใช้งาน ถ้า 'บัญชีหลักเป็นข้อมูลบังคับ' ถูกตั้งค่าเป็น ใช่ ให้รวมบัญชีหลักในรายการของมิติโดยไม่คำนึงถึงการเลือกของผู้ใช้  
 22. คลิก ตกลง 
-![Slide out ของคุณสมบัติแหล่งข้อมูลรายละเอียดของมิติทางการเงิน](../media/er-financial-dimensions-guides-model-mapping1.png)
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. ในแผนภูมิ ให้เลือก 'Dynamics 365 for Operations\เรกคอร์ดตาราง'
 24. คลิก เพิ่มราก
 25. ในฟิลด์ชื่อ ให้พิมพ์ 'LedgerJournal'
 26. เลือก ใช่ในการขอฟิลด์การสอบถาม
 27. ในฟิลด์ตาราง พิมพ์ 'LedgerJournalTable'
 28. คลิก ตกลง 
-![<หน้าตัวออกแบบการแม็ปแบบจำลอง ชนิดแหล่งข้อมูลของเรกคอร์ดตาราง](../media/er-financial-dimensions-guides-model-mapping2.png)
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>แม็ปองค์ประกอบแบบจำลองข้อมูลไปยังแหล่งข้อมูลที่เพิ่ม
 1. ในแผนภูมิ ให้ขยาย 'สมุดบัญชี'
@@ -94,7 +96,7 @@ ms.locfileid: "7605416"
 25. ในแผนภูมิ เลือก 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\บัญชีหลักและมิติ'
 26. ในแผนภูมิ เลือก 'สมุดรายวัน\ธุรกรรม\ข้อมูลมิติ'
 27. คลิก ผูก
-!หน้าตัวออกแบบการแม็ปแบบจำลอง แท็บการแม็ป แผนภูมิแหล่งข้อมูล](../media/er-financial-dimensions-guides-model-mapping3.png)
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. ในแผนภูมิ เลือก 'LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)'
 29. ในแผนภูมิ เลือก 'สมุดรายวัน\ธุรกรรม\เดบิต'
 30. คลิก ผูก
@@ -133,7 +135,7 @@ ms.locfileid: "7605416"
 63. ในฟิลด์ expressionAsStringText ให้ป้อน 'Company.'find()'.'name()''
     * Company.'find()'.'name()'  
 64. คลิก บันทึก
-![หน้าตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping4.png)
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. ปิดหน้า
 66. คลิก บันทึก
 67. ปิดหน้า
@@ -144,7 +146,4 @@ ms.locfileid: "7605416"
 3. คลิก เปลี่ยนแปลงสถานะ
 4. คลิกเสร็จสมบูรณ์
 5. คลิก ตกลง 
-![หน้าการตั้งค่าคอนฟิก ER](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![เพจตัวออกแบบการแม็ปแบบจำลอง ER](../media/er-financial-dimensions-guides-model-mapping5.png)

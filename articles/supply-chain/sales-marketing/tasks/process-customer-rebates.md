@@ -1,19 +1,27 @@
---- 
-# required metadata 
+---
 title: สร้างและประมวลผลเงินคืนของลูกค้า
 description: 'ขั้นตอนนี้อธิบายวิธีการประมวลผลเงินคืนของลูกค้าจากการสร้างการอ้างสิทธิ์ไปยังจุดการส่งผ่านเป็นค้างรับค้างจ่ายกับบัญชีลูกหนี้ '
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
-ms.search.form: 'PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup'
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
-ms.search.validFrom: '2016-06-30'
-ms.dyn365.ops.version: AX 7.0.0
+ms.author: kamaybac
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438610"
 ---
 # <a name="generate-and-process-customer-rebates"></a>สร้างและประมวลผลเงินคืนของลูกค้า
 
@@ -57,14 +65,14 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ## <a name="process-rebate-claims"></a>ประมวลผลการอ้างสิทธิ์เงินคืน
 1. ไปยัง **บานหน้าต่างนำทาง > โมดูล > การขายและการตลาด > เงินคืนของลูกค้า > เงินคืน**
-    - หน้าเงินคืนทำหน้าที่เป็นเวิร์กเบนซ์ซึ่งคุณสามารถตรวจทาน อนุมัติ และประมวลผลการอ้างสิทธิ์เงินคืน ขณะนี้คุณจะประมวลผลการอ้างสิทธิ์ที่ถูกสร้างเนื่องจากการออกใบแจ้งหนี้ใบสั่งขายสำหรับลูกค้า US-009 ที่มีชื่อเรื่องของข้อตกลงเงินคืน USMF-000001   
+    - หน้าเงินคืนทำหน้าที่เป็นเวิร์กเบนซ์ซึ่งคุณสามารถตรวจทาน อนุมัติ และประมวลผลการอ้างสิทธิ์เงินคืน  ขณะนี้คุณจะประมวลผลการอ้างสิทธิ์ที่ถูกสร้างเนื่องจากการออกใบแจ้งหนี้ใบสั่งขายสำหรับลูกค้า US-009 ที่มีชื่อเรื่องของข้อตกลงเงินคืน USMF-000001   
     - รายการแรกแสดงถึงการอ้างสิทธิ์เงินคืนสำหรับ 800 USD ซึ่งขึ้นอยู่กับการขาย 40 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 20 USD ต่อหน่วย  ซึ่งตรงกับเงื่อนไขของการแบ่งปริมาณแรกในข้อตกลงเงินคืน  
     - การอ้างสิทธิ์ที่สองสำหรับ 2,400 USD ซึ่งขึ้นอยู่กับการขาย 60 หน่วยของผลิตภัณฑ์ T0020 คำนวณที่ 40 USD ต่อหน่วย ตามการแบ่งปริมาณที่สองในข้อตกลง  
     - การอ้างสิทธิ์ทั้งสองอยู่ในสถานะ "จะถูกคำนวณ" ซึ่งหมายความว่าพวกเขาเชื่อมโยงกับข้อตกลงที่ติดตามประสิทธิภาพการขายของลูกค้าเป็นประจำทุกงวด และพวกเขาจำเป็นต้องถูกคำนวณอีกครั้งไปยังบัญชีสำหรับปริมาณการขายรวมภายในรอบระยะเวลาสอดคล้องกัน   
 2. คลิก **สะสม**
 3. ในฟิลด์ **ลูกค้า** ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 4. ในฟิลด์ **วันที่เริ่มต้น** เลือกวันที่วันนี้
-5. คลิก **ตกลง** เนื่องจากการรันฟังก์ชัน **สะสม** จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อเงินคืนแรกถูกสร้างขึ้น เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 4,000 USD ของยอดเงินคืนรวม ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว 
+5. คลิก **ตกลง** เนื่องจากการรันฟังก์ชัน **สะสม** จำนวนการอ้างสิทธิ์ที่ประเมินขณะนี้ถูกปรับปรุงไปยังบัญชีสำหรับข้อเท็จจริงที่ว่าปริมาณยอดขายรวมของลูกค้าในรอบระยะเวลาเกี่ยวข้องนั้นสูงกว่าเมื่อเงินคืนแรกถูกสร้างขึ้น เจาะจงมากขึ้น เนื่องจากปริมาณที่ซื้อรวมถึง 100 หน่วย ลูกค้าขณะนี้มีคุณสมบัติเพียงพอสำหรับ 40 USD ต่อหน่วย (แบ่งตามปริมาณที่สองของข้อตกลง) หรือ 400 USD ของยอดเงินคืนรวม ผลต่างจะถูกบันทึกเป็นการอ้างสิทธิ์ใหม่ "การปรับปรุง" สำหรับเพิ่มเติม 800 USD สถานะของการอ้างสิทธิ์เงินคืนที่รวมอยู่ในการอัพเดตสะสมตอนนี้ได้ตั้งค่าเพื่อคำนวณแล้ว 
 6. ในรายการนี้ ให้สลับไปใช้ 'ทำเครื่องหมายทุกแถว'
 7. คลิก **อนุมัติ**
 8. คลิก **กระบวนการ**
@@ -74,6 +82,3 @@ ms.dyn365.ops.version: AX 7.0.0
     - บัญชีคงค้างเงินคืนถูกเครดิตเพื่อแสดงถึงหนี้สินในอนาคตต่อลูกค้า
     - บัญชีค่าใช้จ่ายเงินคืนถูกเดบิต เพื่อรับรู้ต้นทุนที่เกิดขึ้นโดยสัมพันธ์กับการขาย   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

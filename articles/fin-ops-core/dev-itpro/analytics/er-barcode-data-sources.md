@@ -2,9 +2,11 @@
 title: การใช้แหล่งข้อมูลบาร์โค้ดเพื่อสร้างรูปภาพของบาร์โค้ด
 description: หัวข้อนี้จะอธิบายวิธีการใช้แหล่งข้อมูลบาร์โค้ดเพื่อสร้างรูปภาพของบาร์โค้ด
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 72c79c37ca5b5f98637ba5069e25465bb1391306
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343274"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681435"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>การใช้แหล่งข้อมูลบาร์โค้ดเพื่อสร้างรูปภาพของบาร์โค้ด
 
@@ -37,7 +39,7 @@ ms.locfileid: "7343274"
 
 สามารถใช้ตัวยึดตำแหน่งต่อไปนี้ในเท็มเพลตรายงานเพื่อป้อนรูปภาพบาร์โค้ด:
 
-- ตัวควบคุมเนื้อหา [รูปภาพ](/office/client-developer/word/content-controls-in-word) สำหรับ Word
+- ตัวควบคุมเนื้อหา [รูปภาพ](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) สำหรับ Word
 - ออบเจ็กต์ [รูปภาพ](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) ใน Excel
 
 โดยใช้แหล่งข้อมูลของชนิด **บาร์โค้ด** คุณสามารถสร้างบาร์โค้ดในรูปแบบต่อไปนี้:
@@ -116,14 +118,14 @@ ms.locfileid: "7343274"
 
 | คำอธิบายเนื้อหา         | ชื่อไฟล์                   |
 |-----------------------------|-----------------------------|
-| การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
-| การตั้งค่าคอนฟิกรูปแบบ ER     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER | Model for cheques.xml       |
+| การตั้งค่าคอนฟิกรูปแบบ ER     | Cheques printing format.xml |
 
 นอกจากนี้ ให้ดาวน์โหลดไฟล์ Excel ต่อไปนี้ที่มีเท็มเพลตที่แก้ไขสำหรับโซลูชัน ER ที่ระบุ
 
 | คำอธิบายเนื้อหา | ชื่อไฟล์                 |
 |---------------------|---------------------------|
-| เท็มเพลตรายงาน     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
+| เท็มเพลตรายงาน     | Check template Excel.xlsx |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>เรียกใช้ผู้ให้บริการการกำหนดค่า
 
@@ -160,7 +162,7 @@ ms.locfileid: "7343274"
 7. ในบานหน้าต่างการดำเนินการ เลือก **การทดสอบการพิมพ์**
 8. ในกล่องโต้ตอบ ให้ตั้งค่าตัวเลือก **รูปแบบเช็คที่เปลี่ยนมือได้** เป็น **ใช่** และจากนั้น เลือก **ตกลง**
 
-    ![กล่องโต้ตอบโครงร่างเช็ค - ทดสอบการพิมพ์](./media/er-barcode-data-source-check-layout.png)
+    ![กล่องโต้ตอบโครงร่างเช็ค - การทดสอบการพิมพ์](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>รีวิวเช็คการชำระเงินที่สร้างขึ้น
 
@@ -195,7 +197,7 @@ ms.locfileid: "7343274"
 11. เลือกแท็บ **การแม็ป** ทางด้านขวาของหน้า และจากนั้น ในบานหน้าต่างแผนภูมิรูปแบบทางด้านซ้าย ให้เลือก **ขยาย/ยุบ**
 12. โปรดสังเกตว่ามีการเพิ่มองค์ประกอบเซลล์ **AmountBarcode** ลงในรูปแบบแล้ว องค์ประกอบนี้สัมพันธ์กับองค์ประกอบ **AmountBarcode** ซึ่งถูกเพิ่มลงในเท็มเพลต Excel ที่แก้ไขแล้วเป็นตัวยึดสำหรับรูปบาร์โค้ด
 
-    ![มีการเพิ่มองค์ประกอบเซลล์ AmountBarcode ไปยังรูปแบบในโปรแกรมออกแบบการดำเนินการ ER](./media/er-barcode-data-source-cell-added.png)
+    ![มีการเพิ่มองค์ประกอบเซลล์ AmountBarcode ไปยังรูปแบบในตัวออกแบบการดำเนินการ ER](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>เพิ่มแหล่งข้อมูลบาร์โค้ดใหม่
 
@@ -232,7 +234,7 @@ ms.locfileid: "7343274"
 7. เลือก **บันทึก** และจากนั้น ปิด [ตัวออกแบบสูตร ER](general-electronic-reporting-formula-designer.md)
 8. โปรดสังเกตว่ามีการปรับปรุงการผูกข้อมูลแล้ว
 
-    ![การผูกข้อมูลที่ปรับปรุงในโปรแกรมออกแบบการดำเนินการ ER](./media/er-barcode-data-source-bind2.png)
+    ![การผูกข้อมูลที่ปรับปรุงในตัวออกแบบการดำเนินการ ER](./media/er-barcode-data-source-bind2.png)
 
 9. เลือก **บันทึก** และจากนั้น ปิดตัวออกแบบการดำเนินการ ER
 
@@ -301,6 +303,3 @@ ms.locfileid: "7343274"
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์](electronic-reporting-destinations.md)
 - [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)
 - [ฟังก์ชัน NUMBERFORMAT](er-functions-text-numberformat.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

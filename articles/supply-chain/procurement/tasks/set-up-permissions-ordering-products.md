@@ -1,24 +1,26 @@
 ---
 title: ตั้งค่าสิทธิ์สำหรับการสั่งซื้อผลิตภัณฑ์ในนามของผู้อื่น
 description: หัวข้อนี้อธิบายวิธีการให้สิทธิ์ผู้ปฏิบัติงานในการจัดเตรียมใบขอซื้อในนามของผู้ปฏิบัติงานอื่นๆ
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a29b7ebece8009f29f4313b380889635a87473b5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577131"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017303"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>ตั้งค่าสิทธิ์สำหรับการสั่งซื้อผลิตภัณฑ์ในนามของผู้อื่น
 
@@ -42,6 +44,3 @@ ms.locfileid: "7577131"
 2. ใช้ตัวกรองข้อมูลอย่างรวดเร็วในการค้นหาผู้ปฏิบัติงานที่คุณเพิ่งเพิ่มเข้ามาเป็นผู้ขอ
 3. เลือกผู้ขอ รายการผู้จัดเตรียมแสดงผู้ที่มีสิทธิ์ในการสั่งซื้อสินค้าในนามของผู้ขอที่เลือกไว้ในบานหน้าต่างด้านซ้าย   คุณสามารถเพิ่มผู้จัดเตรียมเพิ่มเติมที่นี่ มุมมองนี้ให้คุณสามารถให้สิทธิ์ผู้ขอในการสร้างใบขอซื้อในนิติบุคคลและหน่วยปฏิบัติงานที่ไม่ได้เป็นนิติบุคคลหรือหน่วยปฏิบัติงานหลักของบุคคลนั้น  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

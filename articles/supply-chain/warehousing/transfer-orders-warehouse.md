@@ -2,23 +2,26 @@
 title: การตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
 author: Mirzaab
+manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438865"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>การตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย 
 
@@ -50,6 +53,3 @@ ms.locfileid: "6756738"
 2. ในฟิลด์ **จุดรับสินค้า** เลือก **คลังสินค้า**
 3. เลือก **คลังสินค้าที่จัดส่ง**, **คลังสินค้าที่รับเข้า** และ **จำนวนวันที่ใช้ในการขนส่ง** 
 4. (ไม่จำเป็น) คุณยังสามารถตั้งค่าเวลาที่ใช้ในการขนส่งโดยขึ้นอยู่กับวิธีการจัดส่ง ภายใต้แท็บ **จำนวนวันที่ใช้ในการส่งต่อวิธีการจัดส่ง**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

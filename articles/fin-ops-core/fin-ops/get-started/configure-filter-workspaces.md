@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
 description: บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace, HcmBenefitWorkspace, BudgetPlanningWorkspace, BusinessProcessGenericWorkspace, RetailCatalogManagementWorkspace, RetailCategoryAndProductWorkspace, RetailChannelManagementWorkspace, HcmCompensationWorkspace, CAMCostAccountingLedgerAdminWorkspace, CostAdminWorkspace, CostAnalysisWorkspace, CAMCostControlWorkspace, CustomerCollectionManagerWorkspace, CustomerInvoiceWorkspace, CustPaymentWorkspace, DataManagementWorkspace, DataValidationWorkspace, ERWorkspace, LedgerPeriodCloseProjectWorkspace, AssetWorkspace, GeneralJournalEntryWorkspace, VendVendorPortalInvoiceWorkspace, BudgetTrackingWorkspace, ReqCreatePlanWorkspace, BusinessProcessGenericOwnerWorkspace, SelfHealingWorkspace, WHSOutboundWorkMonitoringWorkspace, WHSWavePlanningWorkspace, PayrollWorkspace, HcmWorkforceWorkspace, RetailDiscountPricingWorkspace, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, EcoResProductVariantMaintainWorkspace, JmgShopSupervisorWorkspace, ProjProjectManagementWorkspace, VendVendorPortalWorkspace, PurchOrderMaintainWorkspace, PurchOrderProcessReceiptsWorkspace, HcmRecruitmentWorkspace, EcoResProductMaintainWorkspace, FMClerkWorkspace, OpResLifecycleManagementWorkspace, RetailITWorkspace, RetailChannelOperationsWorkspace, RetailStoreManagementWorkspace, SalesOrderProcessingWorkspace, SalesReturnWorkspace, SystemAdministrationWorkspaceForm, VendVendorRequestForQuotationsWorkspace, VendVendorProfileManagementWorkspace, VendInvoiceWorkspace, VendPaymentWorkspace
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 10f7e790fdab3866958af1fa131d25735f69a58c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068745"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798462"
 ---
 # <a name="configure-and-filter-workspaces"></a>ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 บทความนี้แสดงภาพรวมเกี่ยวกับวิธีการตั้งค่าคอนฟิก และการกรองข้อมูลพื้นที่ทำงาน
 
@@ -35,7 +34,7 @@ ms.locfileid: "8068745"
 
 คุณสามารถเปลี่ยนลักษณะและพฤติกรรมของบางพื้นที่ทำงาน ด้วยการปรับปรุงการตั้งค่าที่นำไปใช้กับพื้นที่ทำงานทั้งหมด เมื่อมีพื้นที่ทำงานที่คุณสามารถกำหนดค่า บานหน้าต่างการดำเนินการมีปุ่มที่แนะนำให้คุณคลิก เพื่อที่จะทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก ตัวอย่างเช่น ในภาพประกอบต่อไปนี้ ปุ่มชื่อว่า **การตั้งค่าคอนฟิกพื้นที่ทำงานของฉัน**
 
-[![ตั้งค่าคอนฟิกและกรองพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 เมื่อคุณคลิกปุ่ม กล่องโต้ตอบจะปรากฏขึ้น ซึ่งคุณสามารถปรับเปลี่ยนการตั้งค่าที่กำหนดไว้ล่วงหน้าสำหรับพื้นที่ทำงาน การตั้งค่าเฉพาะที่คุณเห็นในกล่องโต้ตอบนี้จะแตกต่างกันไปตามแต่ละพื้นที่ทำงาน และขึ้นอยู่กับการควบคุมเฉพาะและข้อมูลธุรกิจที่พร้อมใช้ในพื้นที่ทำงาน
 
@@ -64,6 +63,3 @@ ms.locfileid: "8068745"
 [![ตัวกรองพื้นที่ทำงานตามส่วน](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 จากตัวกรองทั้งพื้นที่ทำงาน ให้เลือกหรือป้อนค่าตัวกรองที่ต้องการเพื่อจำกัดการแสดงเนื้อหาของส่วน
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 3 - ออกแบบรายงาน)
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแบบโมเดลการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลของรายงาน ER (ส่วนที่ 3)
+description: 'ขั้นตอนต่อไปนี้อธิบายวิธีการที่ผู้ใช้ที่ถูกกำหนดบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถตั้งค่าคอนฟิกแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) (ER) เพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูลสำหรับรายงาน ER '
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a12f88f1e8b5e451bc8a5c5486d820da61bf3ad0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605196"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684798"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER ใช้มิติทางการเงินเป็นแหล่งข้อมูล (ส่วนที่ 3 - ออกแบบรายงาน)
 
@@ -92,7 +94,7 @@ ms.locfileid: "7605196"
 59. คลิก เพิ่มแอททริบิวต์
 60. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'Desc'
 61. คลิก ตกลง 
-![แผนภูมิหน้าตัวออกแบบรูปแบบ](../media/er-financial-dimensions-guides-format1.png)
+![เพจตัวออกแบบการดำเนินงาน ER](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>แม็ปองค์ประกอบของรายงานไปยังแหล่งข้อมูล
 1. คลิกแท็บ การแม็ป
@@ -141,8 +143,5 @@ ms.locfileid: "7605196"
 44. คลิก ผูก
 45. คลิก บันทึก
 46. ปิดหน้า
-![หน้าตัวออกแบบรูปแบบ องค์ประกอบรายงานถูกแม็ปกับแหล่งข้อมูล](../media/er-financial-dimensions-guides-format2.png)
+![เพจตัวออกแบบการดำเนินงาน ER](../media/er-financial-dimensions-guides-format2.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

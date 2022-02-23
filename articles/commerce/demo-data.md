@@ -2,13 +2,16 @@
 title: เค้าโครงหน้าจอข้อมูลการสาธิตใน Modern POS (MPOS) และ Cloud POS
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอที่ถูกรวมกับชุดข้อมูลสาธิตสำหรับประสบการณ์ point of sale (POS) ใน Dynamics 365 Commerce
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761673"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4416285"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>เค้าโครงหน้าจอข้อมูลการสาธิตใน Modern POS (MPOS) และ Cloud POS
 
@@ -39,7 +42,7 @@ ms.locfileid: "6761673"
 
 เพื่อหาเค้าโครงหน้าจอ ไปที่ **การขายปลีกและการค้า** \> **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **เค้าโครงหน้าจอ**
 
-![หน้าโครงร่างหน้าจอ](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![หน้าเค้าโครงหน้าจอ](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 รหัสโครงร่างหน้าจอสามารถมีได้สูงสุด 10 อักขระ รหัสจะเป็นสตริงที่ประกอบด้วยสามส่วนข้อมูล ตามลำดับนี้:
 
@@ -52,12 +55,12 @@ ms.locfileid: "6761673"
 | จดหมาย | บริษัท         |
 |--------|-----------------|
 | A      | Adventure Works |
-| ศ.      | Fabrikam        |
+| F      | Fabrikam        |
 | C      | Contoso         |
 
 ### <a name="layout-version"></a>รุ่นโครงร่าง
 
-| หมายเลขรุ่น | คำอธิบาย                                                                                |
+| หมายเลขเวอร์ชัน | คำอธิบาย                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | รุ่นพื้นฐานที่รองรับหน้าจอขนาดต่างๆ สำหรับอุปกรณ์ต่างๆ และอัตราส่วนกว้างยาว |
 | 3.1            | เวอร์ชันพื้นฐานที่มีการสนับสนุนเพิ่มเติมสำหรับแผง **ผลิตภัณฑ์ที่แนะนำ**        |
@@ -108,7 +111,7 @@ F4MGR
 > [!TIP]
 > POS เลือกขนาดของโครงร่างโดยอัตโนมัติ ตามขนาดใกล้เคียงที่สุดที่พร้อมใช้งานสำหรับความละเอียดของหน้าจอของหน้าต่างแอพลิเคชันปัจจุบัน หากต้องการค้นหารหัสเค้าโครงหน้าจอและความละเอียดเค้าโครงที่ใช้อยู่ในปัจจุบันใน Modern POS (MPOS) หรือ Retail Cloud POS (CPOS) ให้เปิดหน้า **ตั้งค่า** และดูที่ส่วน **ข้อมูลเซสชัน** . คุณยังสามารถดูความละเอียดหน้าต่างจริงสำหรับแอพลิเคชันหรือเฟรมของเบราเซอร์ปัจจุบันของคุณได้ด้วย หลังจากที่คุณมีข้อมูลนี้ คุณสามารถค้นหาแหล่งที่มาของเนื้อหาโครงร่างได้โดยการไปที่ **การตั้งค่าช่องทาง** \> **การตั้งค่า POS** \> **POS** \> **โครงร่างหน้าจอ**
 
-![โครงร่างหน้าจอและและความละเอียด / ขนาดโครงร่าง ใน Commerce และ POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![เค้าโครงหน้าจอและและความละเอียด / ขนาดเค้าโครงใน Commerce และ POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>บริษัทและยี่ห้อ
 
@@ -168,11 +171,8 @@ F4MGR
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

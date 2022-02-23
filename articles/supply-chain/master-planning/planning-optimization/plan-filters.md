@@ -2,9 +2,11 @@
 title: ใช้ตัวกรองกับแผน
 description: หัวข้อนี้จะอธิบายถึงวิธีการใช้ตัวกรองบนแผน เมื่อใช้ฟังก์ชันการเพิ่มประสิทธิภาพการวางแผน
 author: ChristianRytt
+manager: tfehr
 ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3612dd45a3f4b8c3597c81962a66c21ed14fb206
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 0e65d04b7b5261ffe72e67ef5321967f7af0ca20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729038"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970392"
 ---
 # <a name="apply-filters-to-a-plan"></a>ใช้ตัวกรองกับแผน
 
@@ -43,7 +45,7 @@ ms.locfileid: "7729038"
 - **ตัวกรองข้อมูลรันไทม์ที่มีรายการทั้งหมด (ตัวกรองเปล่า):** รายการ A B และ C จะรวมอยู่ในการรันการวางแผน และผลของการวางแผนก่อนหน้านี้สำหรับรายการ A และ B ถูกเขียนทับ
 
 > [!NOTE]
-> ถ้าคุณตั้งค่าตัวกรองแผนในแผนที่เลือกเป็น **แผนหลักแบบไดนามิกปัจจุบัน** ในหน้า **พารามิเตอร์การวางแผนหลัก**  ฟังก์ชันแผนหลักแบบไดนามิกจะถูกจํากัดเฉพาะรายการที่กรองข้อมูลแล้ว ตัวอย่างเช่น ถ้ามีการอัพเดตความต้องการสุทธิสำหรับสินค้าที่ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลแผนจะไม่มีการสร้างผลลัพธ์
+> คุณควรหลีกเลี่ยงการตั้งค่าตัวกรองข้อมูลแผนบนแผนที่เลือกเป็น **แผนหลักชั่วคราวปัจจุบัน** บนหน้า **พารามิเตอร์การวางแผนหลัก** มิฉะนั้น ฟังก์ชันแผนหลักแบบไดนามิกจะถูกจำกัดให้กับรายการที่กรองข้อมูล ตัวอย่างเช่น ถ้ามีการอัพเดตความต้องการสุทธิสำหรับสินค้าที่ไม่ได้เป็นส่วนหนึ่งของตัวกรองข้อมูลแผนจะไม่มีการสร้างผลลัพธ์
 
 ## <a name="related-resources"></a>ทรัพยากรที่เกี่ยวข้อง
 
@@ -56,6 +58,3 @@ ms.locfileid: "7729038"
 [ดูประวัติการวางแผนและล็อกการวางแผน](plan-history-logs.md)
 
 [ยกเลิกงานการวางแผน](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

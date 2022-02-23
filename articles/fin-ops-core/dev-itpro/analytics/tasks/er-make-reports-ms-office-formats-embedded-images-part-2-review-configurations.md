@@ -1,10 +1,12 @@
 ---
 title: ตรวจทานการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-description: หัวข้อนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงาน เพื่อสร้างเอกสารทางอิเล็กทรอนิกส์ที่ประกอบด้วยภาพที่ฝัง (ส่วนที่ 1 - ตั้งค่าพารามิเตอร์)
+description: เมื่อต้องการทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำตามขั้นตอนในคู่มืองาน "ER ทำรายงานในรูปแบบ MS Office ที่มีรูปภาพที่ฝัง (ส่วนที่ 1 - ตั้งค่าพารามิเตอร์)"
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717581"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684366"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>ตรวจทานการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
 
@@ -89,6 +91,3 @@ ms.locfileid: "6717581"
     * ป้ายชื่อบางรายการที่แสดงอยู่ในฟอร์มเช็คที่พิมพ์ไว้ล่วงหน้าจะถูกรวมในรายงาน เมื่อมีการสร้างขึ้นเพื่อวัตถุประสงค์ในการทดสอบ อย่างไรก็ตาม จะไม่สามารถพิมพ์ป้ายชื่อเหล่านั้นในระหว่างการพิมพ์จริงได้ เนื่องจากฟอร์มที่พิมพ์ไว้ล่วงหน้าได้รวมรายการเหล่านั้นไว้แล้ว  
 15. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: ข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้
 description: 'บทความนี้อธิบายถึงตารางสองชนิดของข้อจำกัดตารางที่ระบบกำหนดสำหรับส่วนประกอบในแบบจำลองการจัดโครงแบบผลิตภัณฑ์: ข้อจำกัดตารางที่ผู้ใช้และระบบกำหนด ข้อจำกัดของตารางแสดงเมทริกซ์ของชุดแอททริบิวต์ที่สามารถใช้ได้ ซึ่งแต่ละแถวกำหนดชุดของค่าแอททริบิวต์ที่เป็นไปได้'
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4b484c99bc8f1cc830d4177460ec15a26714a56
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3fb1395859b5abd06539e07ada3d968b2e9c9147
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577395"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438499"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>ข้อจำกัดตารางการที่กำหนดโดยระบบและโดยผู้ใช้
 
@@ -57,12 +60,10 @@ ms.locfileid: "7577395"
 
 ก่อนข้อจำกัดตารางสามารถมีผลกับแบบจำลองการจัดโครงแบบผลิตภัณฑ์ ข้อจำกัดตารางต้องรวมอยู่ในข้อจำกัดของส่วนประกอบของแบบจำลองหนึ่ง ขั้นตอนคือเพื่อสร้างข้อจำกัดใหม่ เลือกชนิดของข้อจำกัดตาราง และจากนั้นเลือกคำนิยามข้อจำกัดตารางที่จะใช้ ในตอนท้าย ฟิลด์ทั้งหมดในตารางข้อจำกัดต้องแม็ปกับแอททริบิวต์ในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ภาพรวมแบบจำลองการจัดโครงแบบผลิตภัณฑ์](product-configuration-models.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: การแปลงหน่วยวัดต่อผลิตภัณฑ์ย่อย
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการแปลงหน่วยวัดสำหรับผลิตภัณฑ์ย่อย ซึ่งรวมตัวอย่างของการตั้งค่า
-author: t-benebo
+author: johanhoffmann
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579579"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438771"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>การแปลงหน่วยวัดต่อผลิตภัณฑ์ย่อย
 
@@ -56,7 +59,7 @@ ms.locfileid: "7579579"
     - **ผลิตภัณฑ์** – ถ้าคุณเลือกค่านี้ คุณสามารถตั้งค่าการแปลงหน่วยสำหรับผลิตภัณฑ์หลักได้ การแปลงหน่วยที่จะใช้สำรองสำหรับผลิตภัณฑ์ย่อยทั้งหมดที่ไม่ได้กำหนดให้มีการแปลงหน่วย
     - **ผลิตภัณฑ์ย่อย** – ถ้าคุณเลือกค่านี้ คุณสามารถตั้งค่าการแปลงหน่วยสำหรับผลิตภัณฑ์ย่อยที่เฉพาะเจาะจง ใช้ฟิลด์ **ผลิตภัณฑ์ย่อย** เพื่อเลือกตัวแปร
 
-    ![การเพิ่มการแปลงหน่วยใหม่](media/uom-new-conversion.png "การเพิ่มการแปลงหน่วยใหม่")
+    ![![การเพิ่มการแปลงหน่วยใหม่](media/uom-new-conversion.png "การเพิ่มการแปลงหน่วยใหม่")](media/uom-new-conversion.png "Adding a new unit conversion")
 
 1. ใช้ฟิลด์อื่นๆ ที่จะกำหนดให้มีการตั้งค่าการแปลงหน่วยของคุณ
 1. เลือก **ตกลง** เพื่อบันทึกการแปลงหน่วยใหม่
@@ -104,6 +107,3 @@ ms.locfileid: "7579579"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [จัดการหน่วยวัด](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

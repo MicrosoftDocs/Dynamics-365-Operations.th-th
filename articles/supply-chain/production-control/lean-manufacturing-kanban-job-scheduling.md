@@ -1,27 +1,30 @@
 ---
 title: การกำหนดการงานคัมบังสำหรับ Lean Manufacturing
 description: บทความนี้แสดงข้อมูลการควบคุมแบบภาพสำหรับกำหนดการงานคัมบังและวิธีต่างๆ ในการจัดกำหนดการงานคัมบัง
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 52961
 ms.assetid: fe3b4822-6140-4b02-bebb-1fc17be2bce8
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f70c3cf44ce90b13250836013636920267d2016d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570236"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438709"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>การกำหนดการงานคัมบังสำหรับ Lean Manufacturing
 
@@ -65,10 +68,8 @@ ms.locfileid: "7570236"
 
 หน้ารายการ **การจัดกำหนดการงานคัมบัง** ประกอบด้วยกล่องแสดงข้อมูลย่อที่แสดงกำลังการผลิตที่พร้อมใช้งานและถูกจองรอบระยะเวลาสำหรับเซลล์ทำงานที่เลือก ขึ้นอยู่กับรอบระยะเวลากำหนดการที่เลือกไว้ในแบบจำลองขั้นตอนการผลิต รอบระยะเวลาจะแสดงวันหรือสัปดาห์
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+--------
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

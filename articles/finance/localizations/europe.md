@@ -1,25 +1,32 @@
 ---
-# required metadata
 title: ภาพรวมของยุโรป
 description: หัวข้อนี้แสดงการเชื่อมโยงไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 Finance สำหรับยุโรป
-author: kfend
-ms.date: 01/15/2022
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+author: ShylaThompson
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Operations
 ms.search.region: global
-ms.author: kfend
-ms.search.validFrom: '2016-02-28'
+ms.author: roschlom
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512222"
 ---
-
 # <a name="europe-overview"></a>ภาพรวมของยุโรป
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้รวมข้อมูลและลิงก์ไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่าเอนทิตีทางกฎหมายที่มีที่อยู่หลักในยุโรป 
+หัวข้อนี้รวมข้อมูลและลิงค์ไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่าเอนทิตีทางกฎหมายที่มีที่อยู่หลักในยุโรป 
 
 - [ภาพรวมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders.md)
  - [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders-transactions.md)
@@ -34,7 +41,6 @@ ms.dyn365.ops.version: AX 7.0.0
 - [การรายงานรายการขายใน EU](emea-eu-sales-list.md)
 - [การปรับปรุงอัตราแลกเปลี่ยน](emea-exchange-rate-adjustments.md)
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
-- [แนวทางด้านการเงิน (แบบใช้ทั่วโลก) เกี่ยวกับผลกระทบของ Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [การรวมบริการทางการเงิน (ESR)](emea-fiscal-service-integration.md)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
 - [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](tasks/transfer-document-internal-inventory-transfer.md)
@@ -59,8 +65,7 @@ ms.dyn365.ops.version: AX 7.0.0
 - [การประมวลผลใบแจ้งหนี้](emea-invoice-processing.md)
 - [ออกใบรับรองรายการของยุโรป](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [มาตรฐานที่สนับสนุนสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์](emea-oioubl-standards-electronic-invoicing.md)
-- [การสร้างใบแจ้งหนี้อิเล็กทรอนิกส์ที่บังคับ](emea-eur-forced-einvoices.md)
-- [การอ้างอิงใบแจ้งหนี้เดิม (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
+- [การอ้างอิงใบแจ้งหนี้ต้นฉบับ (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
 - [ค้นหาฝ่ายโดยใช้รหัส VAT](tasks/eur-00015-party-search-vat-id.md)
 - [เครื่องมือการสร้างการอ้างอิงการชำระเงิน](tasks/ee-00015-payment-reference-generation-tool.md)
 - [รายงานใบสำคัญการชำระเงิน](emea-eur-payment-slip-report-giro.md)
@@ -89,13 +94,8 @@ ms.dyn365.ops.version: AX 7.0.0
   - [สร้างและส่งรายงาน VAT](tasks/create-submit-vat-report.md)
   - [ดูธุรกรรมในการจ่ายเงินสำหรับยุโรปตะวันออก](emea-transactions-settlement-form.md)
   - [วันที่ของจุดรับผิดทางภาษี (วันที่ของการลงทะเบียน VAT)](emea-tax-point-date.md)
-  - [วันที่จดทะเบียน VAT ของผู้จัดจำหน่าย](emea-date-vendor-VAT-register.md)
-- [ส่วนขยายของคุณลักษณะเหตุผลทางการเงิน](emea-financial-reason.md)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-- [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
-- [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

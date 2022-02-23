@@ -2,24 +2,26 @@
 title: โฮมเพจแอพบนมือถือ
 description: หัวข้อนี้อธิบายถึงแอพบนมือถือ Finance and Operations (Dynamics 365) และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
+ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729719"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683469"
 ---
 # <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
 
@@ -27,7 +29,8 @@ ms.locfileid: "6729719"
 
 หัวข้อนี้อธิบายถึงแอพบนมือถือ **Finance and Operations (Dynamics 365)** และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
 
-## <a name="overview"></a>ภาพรวม
+<a name="overview"></a>ภาพรวม
+--------
 
 แอพบนมือถือช่วยให้องค์กรของคุณสามารถทำให้กระบวนการทางธุรกิจพร้อมใช้งานบนอุปกรณ์เคลื่อนที่ หลังจากที่ผู้ดูแลระบบไอทีของคุณเปิดใช้งานพื้นที่ทำงานแบบเคลื่อนที่สำหรับองค์กรของคุณแล้ว ผู้ใช้สามารถเข้าสู่ในแอพลิเคชันและเริ่มต้นรันกระบวนการทางธุรกิจจากอุปกรณ์เคลื่อนที่ของตนได้ทันที แอพบนมือถือมีคุณลักษณะซึ่งจะช่วยให้เพิ่มประสิทธิภาพได้ ดังต่อไปนี้:
 
@@ -39,7 +42,7 @@ ms.locfileid: "6729719"
 ## <a name="elements-of-the-mobile-app"></a>องค์ประกอบของแอพบนมือถือ
 การนำทางในแอพบนมือถือประกอบด้วยแนวคิดพื้นฐานสี่อย่าง: แดชบอร์ด พื้นที่ทำงาน หน้า และการดำเนินการ 
 
-[![แนวคิดการนำทางในแอปสำหรับอุปกรณ์เคลื่อนที่](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![แนวคิดการนำทางในแอพบนมือถือ](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. เมื่อคุณเริ่มต้นแอพ ให้ไปที่ **แดชบอร์ด**
 2. บนแดชบอร์ด คุณสามารถดูรายการของ **พื้นที่ทำงาน** ที่ถูกเผยแพร่ได้
@@ -53,7 +56,7 @@ ms.locfileid: "6729719"
 ## <a name="implementation-process"></a>กระบวนการใช้งาน
 แผนภาพต่อไปนี้แสดงกระบวนการปฏิบัติตามพื้นที่ทำงานแบบเคลื่อนที่ทั้งสองที่ซึ่งจัดเตรียมให้โดย Microsoft และพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง 
 
-[![กระบวนการใช้งานแอปสำหรับอุปกรณ์เคลื่อนที่](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![กระบวนการใช้งานแอพบนมือถือ](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 ตารางต่อไปนี้มีการเชื่อมโยงกับทรัพยากรซึ่งช่วยให้คุณสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ทั้งสองที่ซึ่งจัดเตรียมไว้โดย Microsoft และพื้นที่ทำงานแบบเคลื่อนที่ที่กำหนดเอง ตัวเลขในคอลัมน์แรกตรงกับขั้นตอนที่ระบุหมายเลขในภาพประกอบก่อนหน้านี้
 
@@ -90,8 +93,8 @@ ms.locfileid: "6729719"
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">พื้นที่ทำงานแบบเคลื่อนที่ของปริมาณคงคลังคงเหลือ</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย</a></li>
-<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ</a></li>
-<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย</a></li>
+<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการป้อนข้อมูลเวลาโครงการ</a></li>
+<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">พื้นที่ทำงานแบบเคลื่อนที่สำหรับการจัดการค่าใช้จ่าย</a></li>
 
 </ul></td>
 </tr>
@@ -148,6 +151,3 @@ ms.locfileid: "6729719"
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 [ทรัพยากรแพลตฟอร์มเคลื่อนที่](platform/mobile-platform-home-page.md#troubleshooting-the-app)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมใบสั่งซื้อ
 description: บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับใบสั่งซื้อ (PO) และการเชื่อมโยงไปยังบทความเพิ่มเติมที่เกี่ยวข้องกับขั้นตอนต่างๆ ของ PO
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-  - '93083'
-  - intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
-ms.search.validFrom: '2016-02-28'
+ms.author: riluan
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022242"
 ---
-
 # <a name="purchase-order-overview"></a>ภาพรวมใบสั่งซื้อ
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +43,7 @@ ms.dyn365.ops.version: AX 7.0.0
 -   [สร้างใบสั่งซื้อ](purchase-order-creation.md)
 -   [อนุมัติและยืนยันใบสั่งซื้อ](purchase-order-approval-confirmation.md)
 -   [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
--   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>ชนิดของใบสั่งซื้อ
 ชนิดของ PO มีสามชนิด เมื่อคุณสร้าง PO คุณจะต้องระบุชนิด คุณสามารถตั้งค่าชนิดของใบสั่งเริ่มต้นสำหรับใบสั่งใหม่ได้ที่หน้า **พารามิเตอร์การจัดซื้อและการจัดหา**
@@ -74,7 +78,8 @@ PO มีฟิลด์สถานะหลายรายการที่�
 -   **ยืนยันแล้ว**– สถานะนี้จะถูกกำหนดหลังจากที่ใบสั่งได้รับการยืนยันแล้ว โดยทั่วไปแล้ว สถานะนี้เป็นสถานะการอนุมัติสุดท้ายที่จะถูกกำหนดให้กับใบสั่ง
 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [สร้างใบสั่งซื้อ](purchase-order-creation.md)
 
@@ -82,10 +87,7 @@ PO มีฟิลด์สถานะหลายรายการที่�
 
 [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
 
-[ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-invoices-overview.md)
+[ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

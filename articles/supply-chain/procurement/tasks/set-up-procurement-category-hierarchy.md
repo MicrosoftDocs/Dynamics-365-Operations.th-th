@@ -1,23 +1,25 @@
 ---
 title: ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น
 description: 'ขั้นตอนนี้แสดงวิธีการสร้างโหนดใหม่ในลำดับชั้นประเภทการจัดซื้อและวิธีการตั้งค่าประเภทการจัดซื้อที่จะใช้ในกระบวนการจัดซื้อ '
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a625ae5acc6d47b40a31b986da25df8f2d3fdbc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577083"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017328"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น
 
@@ -42,6 +44,3 @@ ms.locfileid: "7577083"
 4. เลือกผลิตภัณฑ์ที่คุณต้องการเพิ่มในประเภทการจัดซื้อ
 5. เลือกลูกศรเพื่อเพิ่มผลิตภัณฑ์ไปยังตาราง **ที่เลือกแล้ว**
 6. เลือก **ตกลง**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

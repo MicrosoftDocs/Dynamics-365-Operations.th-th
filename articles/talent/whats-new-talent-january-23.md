@@ -53,6 +53,3 @@ ms.locfileid: "4462657"
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>การอัพเดตแพลตฟอร์ม 23 สำหรับ Finance and Operations
 การแก้ไขบักรองถูกรวมเป็นส่วนหนึ่งของการปรับปรุงแพลตฟอร์ม 23 สำหรับ Finance and Operations ดูข้อมูลเพิ่มเติม ดูที่ [มีอะไรใหม่หรือที่เปลี่ยนแปลงในการปรับปรุงแพลตฟอร์ม Dynamics 365 Finance and Operations 23 (มกราคม 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

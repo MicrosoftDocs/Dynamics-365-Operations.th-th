@@ -2,13 +2,16 @@
 title: การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 description: ผู้วางแผนการผลิตสามารถควบคุมและปรับปรุงแผนการผลิตโดยใช้แผนภูมิ Gantt
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730213"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438583"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>การใช้แผนภูมิ Gantt สำหรับการจัดตารางการผลิตระดับงาน
 
@@ -114,7 +117,7 @@ ms.locfileid: "6730213"
 
 คุณสามารถใช้ฟังก์ชัน **จัดกำหนดการงานรอบข้าง** เพื่อจัดกำหนดการงานถัดไปให้สัมพันธ์กับงานเลือกไว้ในเครือข่ายของกิจกรรมได้ ในตัวอย่างต่อไปนี้ กิจกรรมที่เน้นเป็นงานที่เลือก ไดอะแกรมแสดงขึ้นก่อนที่จะมีการจัดกำหนดการงาน และหลังจากที่ได้จัดกำหนดการงาน 
 
-[![จัดกำหนดการงานรอบข้าง](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![จัดกำหนดการสำหรับงาน](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>จัดเรียงงาน
 
@@ -155,8 +158,5 @@ ms.locfileid: "6730213"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม  
 [การกำหนดการแบบภาพด้วยแผนภูมิ Gantt สำหรับใบสั่งผลิตและใบสั่งชุดงาน (วิดีโอ)](https://youtu.be/BtbuShkGj4I)
 
-[การจัดกำหนดการแบบภาพสำหรับการผลิต (สคริปต์สาธิต)](/dynamics/s-e/)
+[การจัดกำหนดการแบบภาพสำหรับการผลิต (สคริปต์สาธิต)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

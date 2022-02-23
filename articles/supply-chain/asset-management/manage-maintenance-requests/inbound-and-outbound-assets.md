@@ -1,10 +1,12 @@
 ---
 title: สินทรัพย์ขาเข้าและขาออก
 description: หัวข้อนี้จะอธิบายวิธีการลงทะเบียนสินทรัพย์ขาเข้าและขาออกในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759634"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018082"
 ---
 # <a name="inbound-and-outbound-assets"></a>สินทรัพย์ขาเข้าและขาออก
 
@@ -68,6 +70,3 @@ ms.locfileid: "6759634"
 2. เลือกสินทรัพย์หรือคำขอการบำรุงรักษา
 3. เลือก **จัดส่งสินทรัพย์**
 4. ในฟิลด์ **จัดส่งแล้ว** ป้อนวันที่และเวลา จากนั้น เลือก **ตกลง** เรกคอร์ดจะถูกลบออกจากหน้ารายการ **สินทรัพย์ขาออก**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

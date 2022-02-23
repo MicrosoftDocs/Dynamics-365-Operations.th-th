@@ -1,13 +1,16 @@
 ---
 title: อัพโหลดวิดีโอ
-description: หัวข้อนี้อธิบายวิธีการอัปโหลดวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการอัพโหลดวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
-ms.date: 06/09/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735641"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594319"
 ---
 # <a name="upload-videos"></a>อัพโหลดวิดีโอ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการอัปโหลดวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+หัวข้อนี้อธิบายวิธีการอัพโหลดวิดีโอในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 ไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ช่วยให้คุณสามารถอัพโหลดวิดีโอได้ คุณควรอัพโหลดรุ่นของวิดีโอที่มีบิตเรตและความละเอียดสูงสุดเสมอ เนื่องจากวิดีโอจะถูกแปลงโดยอัตโนมัติเพื่อให้เหมาะสมกับ viewports และจุดสั่งหยุดต่างๆ
 
@@ -35,7 +40,7 @@ ms.locfileid: "6735641"
 เมื่ออัพโหลดวิดีโอ คุณสามารถระบุข้อมูลต่อไปนี้
 
 - **ชื่อเรื่อง คำอธิบาย คำสำคัญ**: ข้อมูลเมตาของวิดีโอ
-- **สร้างคำอธิบายที่ปิดโดยอัตโนมัติ**: ระบุว่าควรจะสร้างคำอธิบายที่ปิดสำหรับวิดีโอโดยอัตโนมัติหรือไม่ (สนับสนุนภาษาอังกฤษเท่านั้น) 
+- **สร้างคำอธิบายที่ปิดโดยอัตโนมัติ**: ระบุว่าควรจะสร้างคำอธิบายที่ปิดสำหรับวิดีโอโดยอัตโนมัติหรือไม่
 - **คำอธิบายที่ปิด**: ระบุคำอธิบายที่ปิดที่จะใช้
 - **เสียงปกติ**: ระบุแทร็กเสียงทั่วไปที่จะใช้
 - **รูปขนาดย่อ**: ระบุรูปขนาดย่อสำหรับวิดีโอ ถ้าไม่ได้ระบุ จะมีการสร้างขึ้นโดยอัตโนมัติ
@@ -68,6 +73,3 @@ ms.locfileid: "6735641"
 [ปรับแต่งจุดโฟกัสของรูปภาพ](dam-custom-focal-point.md)
 
 [อัปโหลดและให้บริการไฟล์แบบคงที่](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

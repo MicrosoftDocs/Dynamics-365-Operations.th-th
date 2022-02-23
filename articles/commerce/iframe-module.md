@@ -2,12 +2,15 @@
 title: โมดูล iFrame
 description: หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-ms.date: 11/04/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754025"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665407"
 ---
 # <a name="iframe-module"></a>โมดูล iFrame
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 โมดูล iFrame มี iFrame (เฟรมอินไลน์) ที่โฮสต์เนื้อหาภายนอกบนไซต์ ตัวอย่างเช่น คุณสามารถใช้เพื่อโฮสต์วิดีโอ YouTube หรือตัวแสดงไฟล์ PDF บนหน้าไซต์ใดๆ 
 
@@ -66,15 +71,9 @@ ms.locfileid: "7754025"
 1. ตั้งค่าคุณสมบัติอื่นๆ เช่น **ส่วนหัว** และ **ความสูง** ตามที่คุณต้องการ
 1. เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในหน้า และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่
 1. ไปที่หน้าการตลาดบนไซต์ของคุณ คุณควรเห็นว่าวิดีโอแสดงอยู่ในโมดูล iFrame
-
-> [!NOTE]
-> เนื่องจากโมดูล iframe โฮสต์เนื้อหาภายนอก ผู้สร้างไซต์ต้องตรวจสอบให้แน่ใจว่าเนื้อหาโฮสต์ภายในโมดูล iframe ไม่ได้ละเมิดนโยบายข้อจํากัดเนื้อหาในตลาดที่เกี่ยวข้อง ถ้ามีการละเมิดเนื้อหาบนหน้าที่ใช้โมดูล iframe ผู้สร้างไซต์สามารถลบโมดูล iframe ได้โดยการเปิดหน้าของโปรแกรมสร้างไซต์ โดยเลือก **ลบโมดูล** ในช่องโมดูล iframe แล้วบันทึกและเผยแพร่หน้าใหม่
-
+ 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

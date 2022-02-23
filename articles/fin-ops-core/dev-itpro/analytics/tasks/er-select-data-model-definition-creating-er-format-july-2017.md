@@ -2,9 +2,11 @@
 title: เลือกข้อกำหนดแบบจำลองข้อมูล เมื่อคุณสร้างรูปแบบ
 description: เพื่อทำตามขั้นตอนเหล่านี้ในกระบวนงาน อันดับแรกคุณต้องทำกระบวนงาน สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายว่าใช้งานอยู่ของ ER ให้เสร็จเรียบร้อยก่อน
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e6c8df735976ca0f7805fe3e06f141d38abf12faf02ff66195339147aa5405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720843"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684222"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>เลือกข้อกำหนดแบบจำลองข้อมูล เมื่อคุณสร้างรูปแบบ
 
@@ -96,6 +98,3 @@ ms.locfileid: "6720843"
     * หมายเหตุว่าในขณะนี้มีรายการรากเดียวเท่านั้นที่พร้อมใช้งานในการแม็ปกับแหล่งข้อมูลแอพลิเคชัน เมื่อมีการนำการแม็ปแบบจำลองอย่างน้อยหนึ่งรายการมาใช้เป็นครั้งแรก คุณสามารถเลือกได้เฉพาะรายการรากของแบบจำลองที่ได้รับการแม็ปไปยังแหล่งข้อมูลแอพลิเคชันเป็นคำนิยามแบบจำลอง ในขณะที่มีการเพิ่มรูปแบบ ER   
 5. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

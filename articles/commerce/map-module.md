@@ -2,12 +2,15 @@
 title: โมดูลแผนที่
 description: หัวข้อนี้ครอบคลุมถึงโมดูลแผนที่และอธิบายวิธีการกำหนดค่าใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,21 +18,23 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747404"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665431"
 ---
-# <a name="map-module"></a>โมดูลการแม็ป
+# <a name="map-module"></a>โมดูลแผนที่
 
 [!include [banner](includes/banner.md)]
 
 
 หัวข้อนี้ครอบคลุมถึงโมดูลแผนที่และอธิบายวิธีการกำหนดค่าใน Microsoft Dynamics 365 Commerce
 
-โมดูลแผนที่แสดงสถานที่เก็บบนแผนที่แบบโต้ตอบซึ่งแสดงโดยใช้การ [ควบคุมเว็บของ Bing Maps V8](/bingmaps/v8-web-control/) ต้องใช้คีย์ API ของ Bing Maps และต้องเพิ่มลงในหน้าพารามิเตอร์ที่ใช้ร่วมกันในศูนย์ควบคุม Commerce โมดูลแผนที่มีมุมมองต่างๆ เช่น ถนน สภาพอากาศ และทางเดิน ผู้ใช้สามารถเลือกที่จะดูที่ตั้งแผนที่ได้ นอกจากนี้ยังอนุญาตให้มีการโต้ตอบ เช่น การซูม และการใช้สถานที่ของผู้ใช้
+## <a name="overview"></a>ภาพรวม
+
+โมดูลแผนที่แสดงสถานที่เก็บบนแผนที่แบบโต้ตอบซึ่งแสดงโดยใช้การ [ควบคุมเว็บของ Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/) ต้องใช้คีย์ API ของ Bing Maps และต้องเพิ่มลงในหน้าพารามิเตอร์ที่ใช้ร่วมกันในศูนย์ควบคุม Commerce โมดูลแผนที่มีมุมมองต่างๆ เช่น ถนน สภาพอากาศ และทางเดิน ผู้ใช้สามารถเลือกที่จะดูที่ตั้งแผนที่ได้ นอกจากนี้ยังอนุญาตให้มีการโต้ตอบ เช่น การซูม และการใช้สถานที่ของผู้ใช้
 
 โมดูลแแผนที่จะทำงานร่วมกับโมดูลการเลือกร้านค้าเพื่อกำหนดสถานที่เก็บทางภูมิศาสตร์ของร้านค้าที่ต้องแสดงบนแผนที่ การเลือกร้านค้าและโมดูลแผนที่จะโต้ตอบเมื่อผู้ใช้เลือกร้านค้าในหนึ่งในโมดูลเหล่านี้บนหน้าไซต์ แผนผังอาจขยายสำหรับสถานการณ์อื่นๆนอกเหนือจากการโต้ตอบกับโมดูลการเลือกร้านค้า อย่างไรก็ตามต้องใช้การเลือกกำหนดโมดูล
 
@@ -44,7 +49,7 @@ ms.locfileid: "6747404"
 
 | ชื่อคุณสมบัติ             | มูลค่า                 | คำอธิบาย |
 |---------------------------|-----------------------|-------------|
-| ส่วนหัว | Text | หัวข้อสำหรับโมดูล |
+| หัวข้อ | Text | หัวข้อสำหรับโมดูล |
 | ตัวเลือกหมุดยึด: ไอคอนเริ่มต้น | รูป | รูปสัญลักษณ์หมุดยึดเพื่อใช้สำหรับร้านค้าที่แสดงอยู่บนแผนที่ |
 | ตัวเลือกหมุดยึด: ไอคอนที่ใช้งานอยู่ | รูป | รูปสัญลักษณ์หมุดยึดเพื่อใช้สำหรับร้านค้าที่เลือกบนแผนที่ |
 | ตัวเลือกหมุดยึด: สีของไอคอนเริ่มต้น | สตริงของอักขระ | ค่าข้อความหรือเลขฐานสิบหกสำหรับสีของสัญลักษณ์หมุดยึดบนแผนที่ |
@@ -76,7 +81,4 @@ ms.locfileid: "6747404"
 
 [จัดการ Bing Maps สำหรับองค์กรของคุณ](./dev-itpro/manage-bing-maps.md)
 
-[การควบคุมเว็บของ Bing Maps V8](/bingmaps/v8-web-control/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[การควบคุมเว็บของ Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)

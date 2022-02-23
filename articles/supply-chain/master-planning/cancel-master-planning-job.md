@@ -2,13 +2,16 @@
 title: ยกเลิกงานการวางแผนหลัก
 description: หัวข้อนี้จะอธิบายถึงวิธีการยกเลิกงานการวางแผนที่ใช้งานอยู่ ซึ่งใช้ฟังก์ชันการวางแผนในตัว
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 27a48473a934e0db9986d6e588fc769ba9d2f605d72b2465976cb20a1ad93d16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f5ce460cc2915d1d4d9b5699723a62ed7f94599
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718022"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438732"
 ---
 # <a name="cancel-a-master-planning-job"></a>ยกเลิกงานการวางแผนหลัก
 
@@ -50,6 +53,3 @@ ms.locfileid: "6718022"
 4. ใน **ชุดงาน** เลือกงานที่จะสิ้นสุด
 5. คลิก **เปลี่ยนแปลงสถานะ** เลือก **การยกเลิก** และคลิก **ตกลง**
 6. บนแท็บ **ชุดงาน** ให้คลิก **ยกเลิก**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

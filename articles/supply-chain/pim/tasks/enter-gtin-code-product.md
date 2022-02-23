@@ -1,24 +1,27 @@
 ---
 title: ป้อนรหัส GTIN สำหรับผลิตภัณฑ์
 description: 'รหัส GTIN จะถูกกำหนดโดยองค์กร GS1 '
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c442959e3fadd7ce9b9d8a7afadef7a492431a6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ab7d28469b7b5218b3aaa62449279ebf9b8ea9b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570442"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438470"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>ป้อนรหัส GTIN สำหรับผลิตภัณฑ์
 
@@ -26,18 +29,16 @@ ms.locfileid: "7570442"
 
 รหัส GTIN จะถูกกำหนดโดยองค์กร GS1  ในตัวอย่างนี้ คุณจะป้อนรหัสสำหรับหมายเลขผลิตภัณฑ์ M0001 ในบริษัทข้อมูลสาธิต USMF
 
-1. ไปยัง **การจัดการข้อมูลผลิตภัณฑ์ \> ผลิตภัณฑ์ \> ผลิตภัณฑ์ที่นำออกใช้**
-1. ขยายกล่องแสดงข้อมูลย่อ **รูปภาพผลิตภัณฑ์**
-1. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
-1. ในบานหน้าต่างการดำเนินการ เลือก **จัดการสินค้าคงคลัง**
-1. เลือก **รหัส GTIN**
-1. เลือก **ใหม่**
-1. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
-1. ในฟิลด์ **หน่วย** ให้ป้อนหรือเลือกค่า
-1. ในฟิลด์ **รหัส GTIN** เลือกหนึ่งตัวเลือก
-1. ใน **ฟิลด์ GTIN** ให้พิมพ์ค่าใดค่าหนึ่ง
-1. ปิดหน้า
+1. คลิก การบำรุงรักษาผลิตภัณฑ์ที่นำออกใช้
+2. คลิกผลิตภัณฑ์ต่างๆที่นำออกใช้
+3. ขยายกล่องแสดงข้อมูลย่อรูปภาพผลิตภัณฑ์
+4. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
+5. ในบานหน้าต่างการดำเนินการ คลิกจัดการสินค้าคงคลัง
+6. คลิกรหัส GTIN
+7. คลิก สร้าง
+8. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
+9. ในฟิลด์หน่วย ให้ป้อนหรือเลือกค่า
+10. ในฟิลด์รหัส GTIN เลือกหนึ่งตัวเลือก
+11. ในฟิลด์ GTIN ให้พิมพ์ค่า
+12. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

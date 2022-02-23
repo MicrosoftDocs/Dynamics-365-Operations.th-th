@@ -1,10 +1,12 @@
 ---
 title: สูตรและสูตรการผลิต
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรการผลิต (BOM) และสูตร ซึ่งเป็นส่วนสำคัญของข้อกำหนดของผลิตภัณฑ์และผลิตภัณฑ์ย่อย
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578019"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966491"
 ---
 # <a name="bills-of-materials-and-formulas"></a>สูตรและสูตรการผลิต
 
@@ -29,7 +31,8 @@ ms.locfileid: "7578019"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรการผลิต (BOM) และสูตร ซึ่งเป็นส่วนสำคัญของข้อกำหนดของผลิตภัณฑ์และผลิตภัณฑ์ย่อย BOM และสูตรระบุวัสดุหรือส่วนผสมที่จำเป็นสำหรับผลิตภัณฑ์เฉพาะ นอกจากนี้สูตรยังระบุสินค้าร่วมและสินค้าพลอยได้ที่ได้รับในบริบทการผลิตเฉพาะ 
 
-## <a name="bills-of-materials"></a>สูตรการผลิต
+<a name="bills-of-materials"></a>สูตรการผลิต
+------------------
 
 สูตรการผลิต (BOM) กำหนดส่วนประกอบที่ต้องใช้เพื่อผลิตผลิตภัณฑ์ ส่วนประกอบอาจเป็นวัตถุดิบ ผลิตภัณฑ์กึ่งสำเร็จรูป หรือส่วนผสม ในบางกรณี การบริการสามารถถูกอ้างอิงใน BOM อย่างไรก็ตาม BOMs โดยทั่วไปหมายถึง *ทรัพยากรวัสดุ* ที่จำเป็นต้องมี  
 
@@ -114,6 +117,3 @@ BOM และสูตรแต่ละสูตรสามารถแยก�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: ตัวอย่างและตรรกะของรายงานอายุหนี้ของสินค้าคงคลัง
 description: หัวข้อนี้จะแสดงตัวอย่างบางรายการที่แสดงวิธีการแปลผลลัพธ์ของรายงานอายุหนี้ของสินค้าคงคลัง
-author: AndersGirke
+author: RichardLuan
+manager: tfehr
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59c1740f6e07be08ad9379d4ccb6aeca29220d557aceb38bf6faef946e16fee7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752789"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438464"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>ตัวอย่างและตรรกะของรายงานอายุหนี้ของสินค้าคงคลัง
 
@@ -42,7 +45,7 @@ ms.locfileid: "6752789"
 | ชื่อ      | ที่ใช้งานอยู่ | สินค้าคงคลังที่มีอยู่จริง | สินค้าคงคลังทางการเงิน |
 |-----------|--------|--------------------|---------------------|
 | ไซต์      | ใช่    | ใช่                | ใช่                 |
-| คลังสินค้า | ใช่    | ใช่                | ไม่                  |
+| คลังสินค้า | ใช่    | ใช่                | จำนวน                  |
 
 ### <a name="inventory-model"></a>แบบจำลองสินค้าคงคลัง
 
@@ -362,6 +365,3 @@ ms.locfileid: "6752789"
 </tr>
 </tfoot>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

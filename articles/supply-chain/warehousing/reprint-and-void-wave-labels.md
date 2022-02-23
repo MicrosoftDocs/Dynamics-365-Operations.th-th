@@ -1,22 +1,25 @@
 ---
 title: พิมพ์อีกครั้งและยกเลิกป้ายชื่อเวฟ
 description: หัวข้อนี้จะอธิบายวิธีการยกเลิกและพิมพ์ป้ายชื่อเวฟที่มีอยู่อีกครั้ง
-author: perlynne
+author: GarmMSFT
+manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: PJacobse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572348"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4438926"
 ---
 # <a name="reprint-and-void-wave-labels"></a>พิมพ์อีกครั้งและยกเลิกป้ายชื่อเวฟ
 
@@ -215,9 +218,3 @@ ms.locfileid: "7572348"
 1. เลือก **เบิกสินค้าที่ขาด**
 1. เลือกรหัสข้อยกเว้นของงานที่คุณสร้างสำหรับสถานการณ์นี้
 1. ถ้าคุณเลือกข้อยกเว้นที่ถูกต้อง กล่องกาเครื่องหมาย **ยกเลิกและพิมพ์อีกครั้ง** ควรพร้อมใช้งาน เลือกกล่องนี้และยืนยัน เมื่อมีการยืนยัน ลำดับของม้วนป้ายชื่อที่ระบุโดยฟิลด์ **รหัสการสร้างป้ายชื่อ** จะถูกคำนวณใหม่ตามปริมาณของรายการงานที่เปลี่ยนแปลง จากนั้น พิมพ์อีกครั้งบนเครื่องพิมพ์ที่ระบุ
-
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-
-- [การพิมพ์ป้ายชื่อของเวฟ](configure-wave-label-printing.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

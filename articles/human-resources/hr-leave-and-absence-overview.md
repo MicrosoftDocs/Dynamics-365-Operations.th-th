@@ -1,32 +1,31 @@
 ---
 title: ภาพรวมการลางานและการขาดงาน
-description: ใน Dynamics 365 Human Resources พื้นที่ทำงานการลางานและการขาดงานจะแสดงกรอบงานที่มีความยืดหยุ่นสำหรับการสร้างแผนการลางานใหม่
-author: twheeloc
-ms.date: 10/28/2021
-ms.topic: overview
+description: ใน Dynamics 365 Human Resources พื้นที่ทำงานการลางานและการขาดงานจะแสดงกรอบงานที่มีความยืดหยุ่นสำหรับการสร้างแผนการลางานใหม่ นอกจากนี้ ยังมีลำดับงานสำหรับการจัดการคำขอและหน้าระบบบริการตนเองที่ใช้งานง่ายสำหรับพนักงานเพื่อส่งคำขอลาหยุด
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069032"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420820"
 ---
 # <a name="leave-and-absence-overview"></a>ภาพรวมการลางานและการขาดงาน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources ช่วยให้คุณสามารถทำให้ผลประโยชน์การลางานที่ดีแก่ผู้ปฏิบัติงานของคุณ พื้นที่ทำงาน **การลางานและการขาดงาน** จะแสดงกรอบงานที่มีความยืดหยุ่นสำหรับการสร้างแผนการลางานใหม่ นอกจากนี้ ยังมีลำดับงานสำหรับการจัดการคำขอและหน้าระบบบริการตนเองที่ใช้งานง่ายสำหรับพนักงานเพื่อส่งคำขอลาหยุด การวิเคราะห์จะช่วยองค์กรของคุณวัดและตรวจสอบยอดดุลและการใช้งานสำหรับแผนการลางานของคุณ
 
@@ -36,8 +35,7 @@ Dynamics 365 Human Resources ช่วยให้คุณสามารถท
 
 - [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](hr-leave-and-absence-parameters.md)
 - [สร้างปฏิทินเวลาการทำงาน](hr-leave-and-absence-working-time-calendar.md)
-- [สร้างลำดับงานของคำขอลางาน](hr-leave-and-absence-workflow.md)
-- [ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน](hr-configure-absence-manager.md)
+- [สร้างลำดับงานการร้องขอลางาน](hr-leave-and-absence-workflow.md)
 
 ## <a name="create-and-manage-leave-plans"></a>สร้างและจัดการแผนการลา
 
@@ -53,10 +51,6 @@ Dynamics 365 Human Resources ช่วยให้คุณสามารถท
 
 พนักงานของคุณสามารถส่งคำขอปิดเวลาได้ และคุณสามารถจัดการกับพนักงาน ในพื้นที่การทำงาน **การบริการตัวเองของพนักงาน**
 
-- [ร้องขอการหยุดพัก](hr-employee-self-service-request-time-off.md)
-- [จัดการกับคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
-- [ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน](hr-configure-absence-manager.md)
+[ส่งคำขอลาหยุด](hr-employee-self-service-request-time-off.md)
+[จัดการคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

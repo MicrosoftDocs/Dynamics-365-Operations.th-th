@@ -1,35 +1,33 @@
 ---
-title: ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
-description: หัวข้อนี้อธิบายถึงวิธีการประมวลผลกระบวนการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
-author: twheeloc
-ms.date: 08/23/2021
+title: ประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต
+description: บทความนี้แสดงวิธีการรันกระบวนการสำหรับการมีสิทธิ์ในเหตุการณ์ของชีวิต
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065904"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420712"
 ---
-# <a name="process-life-event-eligibility"></a>ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+# <a name="process-life-event-eligibility"></a>ประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้อธิบายถึงวิธีการประมวลผลกระบวนการสำหรับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+บทความนี้แสดงวิธีการรันกระบวนการสำหรับการมีสิทธิ์ในเหตุการณ์ของชีวิต
 
 1. ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต**
 
@@ -43,13 +41,10 @@ ms.locfileid: "8065904"
 
    1. ป้อนข้อมูลสำหรับกระบวนการ
 
-   2. หากต้องการตั้งค่าให้มีการเรียกใช้งานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
+   2. หากต้องการตั้งค่าให้มีการรันงานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
 
    3. เมื่อต้องการตั้งค่าการแจ้งเตือนงาน เลือก **การแจ้งเตือน** เลือกการแจ้งเตือนที่จะรับ และจากนั้นเลือก **ตกลง**
 
    4. เลือก **ตกลง** กระบวนการจะดำเนินการกับพารามิเตอร์ที่คุณตั้งไว้
 
 4. เลือก **ตกลง**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

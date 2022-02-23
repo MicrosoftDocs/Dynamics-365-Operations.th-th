@@ -110,6 +110,3 @@ ms.locfileid: "4529491"
 ### <a name="print-performance-reviews"></a>พิมพ์การตรวจทานประสิทธิภาพ
 
 ให้ดูที่ [พิมพ์การตรวจทานประสิทธิภาพ](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) ใน Dynamics 365: 2019 แผนเวฟการออกใช้ 2
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

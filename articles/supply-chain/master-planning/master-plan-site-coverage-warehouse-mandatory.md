@@ -1,27 +1,30 @@
 ---
 title: การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ
 description: หัวข้อนี้อธิบายวิธีการวางแผนสินค้าที่มีไซต์เป็นมิติความครอบคลุม คลังสินค้าเป็นมิติบังคับ
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dbc73911fcb3e0b0515f490f9f1236b4a12c648
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b1890f14351734c26952511f6245efe4cce5f3e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573726"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438718"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ
 
@@ -45,7 +48,8 @@ ms.locfileid: "7573726"
 
 
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
 
@@ -59,6 +63,3 @@ ms.locfileid: "7573726"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

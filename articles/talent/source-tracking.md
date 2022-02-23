@@ -102,6 +102,3 @@ ms.locfileid: "4462696"
 - **อื่นๆ**
 
 แต่คุณสามารถขยาย enum **TalentSource** เพื่อเพิ่มชนิดของแหล่งที่มาอื่นๆ ได้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

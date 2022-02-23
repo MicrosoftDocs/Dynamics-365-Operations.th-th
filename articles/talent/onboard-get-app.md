@@ -92,6 +92,3 @@ ms.locfileid: "4462758"
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Talent](./whats-new.md)
 - [แผนประจำรุ่น](https://docs.microsoft.com/business-applications-release-notes/index)
 - [รับการสนับสนุนสำหรับ Microsoft Dynamics 365 Talent](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

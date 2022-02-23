@@ -1,27 +1,30 @@
 ---
 title: สร้างการคาดการณ์พื้นฐานทางสถิติ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณของการคาดการณ์ความต้องการ
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f34f1721b6215ac09173a346c1f3f1e6b262247
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438726"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>สร้างการคาดการณ์พื้นฐานทางสถิติ
 
@@ -67,13 +70,11 @@ ms.locfileid: "7577539"
 > [!NOTE]
 > การคาดการณ์ที่มีลักษณะแฟลตอาจเกิดขึ้นเนื่องจากข้อมูลในอดีตที่ต้องเป็นของกรอบเวลาในอดีตที่ยาวขึ้น (สูงสุด 3 รอบระยะเวลา เพื่อเลือกรูปแบบ เช่น 3 ปีที่มีการคาดการณ์รายเดือน) เมื่อต้องการได้ผลลัพธ์ที่ดียิ่งขึ้น คุณสามารถลองเปลี่ยนแปลงส่วนประกอบของช่วงเวลาหรือเพิ่มช่วงเวลาได้
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+--------
 
 - [การตั้งค่าการคาดการณ์ความต้องการ](demand-forecasting-setup.md)
 
 - [ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
 
 - [อนุมัติการคาดการณ์ที่ปรับปรุง](authorize-adjusted-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

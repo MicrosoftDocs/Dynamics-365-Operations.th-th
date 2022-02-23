@@ -2,23 +2,26 @@
 title: คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
 description: หัวข้อนี้จะอธิบายถึงวิธีการใช้กลยุทธ์คำสั่งสถานที่แบบเข้าก่อนออกก่อน (FIFO) และแบบเข้าหลังออกก่อน (LIFO) ในระหว่างการเบิกสินค้า
 author: mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438804"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
 
@@ -117,7 +120,7 @@ ms.locfileid: "7578595"
 1. บนหน้า **ใบสั่งขาย** บนบานหน้าต่างการดำเนินการ บนแท็บ **คลังสินค้า** ในกลุ่ม **การดำเนินการ** เลือก **นำออกใช้ไปยังคลังสินค้า** คุณได้รับข้อความแสดงข้อมูล ระบบจะสร้างการจัดส่ง จะเพิ่มไปยังจำนวนงานในศูนย์การผลิตใหม่ และสร้างงานที่จำเป็น
 1. บน FastTab **รายการใบสั่งขาย** บนเมนู **คลังสินค้า** ให้เลือก **รายละเอียดงาน** เพื่อเปิดงานที่สร้างขึ้นสำหรับใบสั่งขายนี้ โปรดสังเกตว่ารายการที่ค่า **ชนิดงาน** เป็น *เบิกสินค้า* แสดงค่า **สถานที่** เป็น *FL-002* สถานที่นี้มีป้ายทะเบียนที่มีวันที่อายุหนี้ที่เก่าที่สุด (FIFO)
 1. เลือก **คลังสินค้า \> รายละเอียดการจัดส่ง**
-1. บนแท็บด่วน **ทั่วไป** จดบันทึกรหัสเวฟ เพื่อให้คุณสามารถใช้งานได้ในสถานการณ์จำลอง 2
+1. บน FastTab **ทั่วไป** จดบันทึกรหัสเวฟ เพื่อให้คุณสามารถใช้งานได้ในสถานการณ์จำลอง 2
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>สถานการณ์จำลอง 2: ตั้งค่าและใช้อายุหนี้สถานที่ LIFO
 
@@ -137,6 +140,3 @@ ms.locfileid: "7578595"
 1. โปรดสังเกตว่ารายการที่ค่า **ชนิดงาน** เป็น *เบิกสินค้า* แสดงค่า **สถานที่** เป็น *FL-001* สถานที่นี้มีป้ายทะเบียนที่มีวันที่อายุหนี้ที่ใหม่ที่สุด (LIFO)
 
 ในสถานการณ์เหล่านี้ คุณได้เห็นวิธีการที่กลยุทธ์อายุหนี้ของสถานที่สั่งงานให้กับสถานที่สินค้าคงคลังที่มีสินค้าคงคลังที่เก่าที่สุดหรือสินค้าคงคลังที่ใหม่สุด ทั้งนี้ขึ้นอยู่กับกลยุทธ์ที่เลือก
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

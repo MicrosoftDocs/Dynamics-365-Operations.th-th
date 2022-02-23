@@ -2,12 +2,15 @@
 title: รวมกับฮับความสามารถพิเศษของ LinkedIn
 description: หัวข้อนี้อธิบายวิธีตั้งค่าการรวมระหว่าง Microsoft Dynamics 365 Human Resources และรวมกับฮับความสามารถพิเศษของของ LinkedIn
 author: jaredha
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441276"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527896"
 ---
-# <a name="integrate-with-linkedin-talent-hub"></a>รวมกับ LinkedIn Talent Hub
+# <a name="integrate-with-linkedin-talent-hub"></a>รวมกับฮับความสามารถพิเศษของ LinkedIn
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](includes/preview-feature.md)]
 
-> [!IMPORTANT]
-> การรวมระหว่าง Dynamics 365 Human Resources และฮับความสามารถพิเศษของ LinkedIn ที่อธิบายไว้ในหัวข้อนี้จะถูกถอนในวันที่ 31 ธันวาคม 2021 บริการรวมจะไม่พร้อมใช้งานหลังจากวันที่นี้อีกต่อไป องค์กรที่ไม่ได้ใช้บริการรวมจะไม่สามารถใช้บริการก่อนการถอนได้
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [ฮับความสามารถพิเศษของของ LinkedIn](https://business.linkedin.com/talent-solutions/talent-hub) เป็นแพลตฟอร์มของระบบติดตามผู้สมัคร (ATS) ซึ่งช่วยให้คุณสามารถจัดหา จัดการ และจ้างงานพนักงานทั้งหมดได้ในที่เดียว โดยการรวม Microsoft Dynamics 365 Human Resources เข้ากับฮับความสามารถพิเศษของของ LinkedIn คุณสามารถสร้างเรกคอร์ดพนักงานในทรัพยากรบุคคลสำหรับผู้สมัครที่ได้รับการว่าจ้างสำหรับตำแหน่งได้
 
@@ -125,14 +127,14 @@ ms.locfileid: "7441276"
     - **ชื่อ**: ให้ป้อนชื่อของบทบาทความปลอดภัย Power Apps ที่คุณสร้างไว้ก่อนหน้านี้ เช่น **การรวม HRIS ของฮับความสามารถพิเศษของ LinkedIn**
     - **รหัสผู้ใช้**: เลือกผู้ใช้ที่มีสิทธิ์ในการเขียนข้อมูลในการจัดการบุคลากร
 
-### <a name="create-the-table-in-dataverse"></a>สร้างตารางใน Dataverse
+### <a name="create-the-entity-in-common-data-service"></a>สร้างเอนทิตีใน Common Data Service
 
 > [!IMPORTANT]
-> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับตารางเสมือนใน Dataverse สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกตารางเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกตารางเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)
+> การรวมฮับความสามารถพิเศษของ LinkedIn จะขึ้นอยู่กับเอนทิตีเสมือนใน Common Data Service สำหรับทรัพยากรบุคคล ในฐานะที่เป็นข้อกำหนดเบื้องต้นสำหรับขั้นตอนนี้ในการตั้งค่า คุณต้องตั้งค่าคอนฟิกเอนทิตีเสมือน สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกเอนทิตีเสมือน ให้ดูที่ [ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
 
-1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Dataverse**
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Common Data Service (CDS)**
 
-2. เลือกแท็บ **ตารางเสมือน**
+2. เลือกแท็บ **เอนทิตีเสมือน**
 
 3. กรองรายการเอนทิตีตามป้ายชื่อเอนทิตีเพื่อค้นหา **ผู้สมัครที่ส่งออก LinkedIn**
 
@@ -186,8 +188,5 @@ ms.locfileid: "7441276"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ตั้งค่าคอนฟิกตารางเสมือน Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Microsoft Dataverse คืออะไร](/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Common Data Service คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

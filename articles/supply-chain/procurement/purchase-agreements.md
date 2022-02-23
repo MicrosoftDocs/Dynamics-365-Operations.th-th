@@ -1,10 +1,12 @@
 ---
 title: ข้อตกลงการซื้อ
 description: บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911bd891c081892e52bda4bcc87984b3fb189b2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570511"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017198"
 ---
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
@@ -102,13 +104,12 @@ ms.locfileid: "7570511"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>มิติทางการเงินบนข้อตกลงการซื้อ
 คุณสามารถคัดลอกมิติทางการเงินไปยังส่วนหัวของเอกสารหรือแต่ละรายการของข้อตกลงการซื้อ ถ้าคุณเปลี่ยนมิติในส่วนหัวของข้อตกลงหรือในรายการข้อตกลง การเปลี่ยนแปลงจะไม่ส่งผลต่อใบสั่งที่นำออกใช้แล้วใดๆ แต่จะมีการสะท้อนในใบสั่งใหม่อื่นๆ
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
-- [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
-- [ใช้ข้อตกลงการซื้อเมื่อสร้างใบสั่งซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
+[สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
+
+[สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,30 @@
 ---
-title: สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า (มีวิดีโอ)
+title: สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างบัญชีผู้ใช้พอร์ทัลของลูกค้าและตั้งค่าสิทธิ์สำหรับพวกเขา
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062501"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528304"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ในการใช้งานแบบสำเร็จรูป ไม่มีวิธีที่ผู้ใช้จะลงทะเบียนด้วยตนเองสำหรับเว็บไซต์ที่สร้างขึ้นโดยใช้พอร์ทัลของลูกค้า เมื่อต้องการลงชื่อเข้าใช้และใช้เว็บไซต์ ผู้ใช้จะต้องได้รับเชิญโดยผู้ดูแลระบบ Microsoft ตั้งใจบล็อคความสามารถของผู้ใช้ในการลงทะเบียนด้วยตนเอง
 
@@ -33,38 +35,38 @@ ms.locfileid: "8062501"
 ## <a name="video"></a>วีดิทัศน์
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-วิดีโอ [เชิญลูกค้าให้ลงทะเบียนและใช้พอร์ทัลลูกค้าของคุณ](https://youtu.be/drGUYHX9QIQ) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่มีอยู่บน YouTube
+วิดีโอ [เชิญลูกค้าให้ลงทะเบียนและใช้พอร์ทัลลูกค้าของคุณ](https://youtu.be/drGUYHX9QIQ) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่พร้อมใช้งานบน YouTube
 
 ## <a name="prerequisite-setup"></a>การตั้งค่าข้อกำหนดเบื้องต้น
 
-ผู้ติดต่อในพอร์ทัล Power Apps จะถูกจัดเก็บไว้เป็นเรกคอร์ดในตาราง **ผู้ติดต่อ** ใน Microsoft Dataverse จากนั้น การรวมแบบสองทิศทางจะซิงค์เรกคอร์ดเหล่านี้กับ Microsoft Dynamics 365 Supply Chain Management ตามความจำเป็น
+ผู้ติดต่อในพอร์ทัล Power Apps จะถูกจัดเก็บไว้เป็นเรกคอร์ดในเอนทิตี **ผู้ติดต่อ** ใน Common Data Service จากนั้น การรวมแบบสองทิศทางจะซิงค์เรกคอร์ดเหล่านี้กับ Microsoft Dynamics 365 Supply Chain Management ตามความจำเป็น
 
 ![แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า](media/customer-portal-contacts.png "แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า")
 
-ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแมปตาราง **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
+ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแม็ปเอนทิตี **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
 
 ## <a name="the-invitation-process"></a>กระบวนการเชิญ
 
-เมื่อต้องการเชิญผู้ติดต่อที่มีอยู่ไปยังพอร์ทัลลูกค้า ให้ทำตามขั้นตอนใน [เชิญผู้ติดต่อไปยังพอร์ทัลของคุณ](/powerapps/maker/portals/configure/invite-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
+เมื่อต้องการเชิญผู้ติดต่อที่มีอยู่ไปยังพอร์ทัลลูกค้า ให้ทำตามขั้นตอนใน [เชิญผู้ติดต่อไปยังพอร์ทัลของคุณ](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
 
-ก่อนที่คุณจะเชิญลูกค้าให้เข้าร่วมพอร์ทัลของลูกค้า โปรดตรวจสอบให้แน่ใจว่า [เรกคอร์ดผู้ติดต่อ](/powerapps/maker/portals/configure/configure-contacts) ของลูกค้าพร้อมใช้งาน และตั้งค่าในลักษณะต่อไปนี้:
+ก่อนที่คุณจะเชิญลูกค้าให้เข้าร่วมพอร์ทัลของลูกค้า โปรดตรวจสอบให้แน่ใจว่า [เรกคอร์ดผู้ติดต่อ](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ของลูกค้าพร้อมใช้งาน และตั้งค่าในลักษณะต่อไปนี้:
 
 1. ตั้งค่าฟิลด์ **บริษัท** เป็นนิติบุคคลที่คุณต้องการให้ลูกค้าเป็นสมาชิกใน Supply Chain Management
 2. ตั้งค่าฟิลด์ **หมายเลขบัญชี** เป็นหมายเลขบัญชีของลูกค้าที่คุณต้องการให้ผู้ใช้มีใน Supply Chain Management
 
 หลังจากที่มีการสร้างผู้ติดต่อ คุณจะสามารถดูได้ใน Supply Chain Management
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](/powerapps/maker/portals/configure/configure-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>บทบาทของเว็บแบบสำเร็จรูปและสิทธิ์ของตาราง
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>บทบาทของเว็บแบบสำเร็จรูปและสิทธิ์ของเอนทิตี
 
-บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของตาราง](/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
+บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของเอนทิตี](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
 
 ### <a name="out-of-box-web-roles"></a>บทบาทของเว็บแบบสำเร็จรูป
 
 ในส่วนนี้จะอธิบายถึงบทบาทของเว็บที่มีการจัดส่งด้วยพอร์ทัลของลูกค้า
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์ตารางสำหรับพอร์ทัล](/powerapps/maker/portals/configure/assign-entity-permissions) ในคู่มือพอร์ทัล Power Apps
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์เอนทิตีสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) ในเอกสารประกอบของพอร์ทัล Power Apps
 
 #### <a name="administrator"></a>ผู้ดูแลระบบ
 
@@ -80,7 +82,7 @@ ms.locfileid: "8062501"
 
 #### <a name="unauthorized-users"></a>ผู้ใช้ที่ไม่ได้รับอนุมัติ
 
-ผู้ใช้ที่ไม่ได้รับอนุมัติจะไม่สามารถดูข้อมูลใดๆ ได้ พวกเขาสามารถดูได้เฉพาะข้อมูลสาธารณะ เช่น ข้อกำหนดและเงื่อนไข และรายละเอียดเกี่ยวกับบริษัทที่กำลังเรียกใช้พอร์ทัลลูกค้า
+ผู้ใช้ที่ไม่ได้รับอนุมัติจะไม่สามารถดูข้อมูลใดๆ ได้ พวกเขาสามารถดูได้เฉพาะข้อมูลสาธารณะ เช่น ข้อกำหนดและเงื่อนไข และรายละเอียดเกี่ยวกับบริษัทที่กำลังรันพอร์ทัลลูกค้า
 
 #### <a name="example"></a>ตัวอย่าง
 
@@ -88,12 +90,9 @@ ms.locfileid: "8062501"
 
 | ใบสั่งขาย | ผู้ดูแลระบบ | ตัวแทนของลูกค้าสำหรับลูกค้า&nbsp;X | ผู้ใช้ที่ได้รับอนุมัติ: Jane | ผู้ใช้ที่ได้รับอนุมัติ: Sam | ผู้ใช้ที่ไม่ได้รับอนุมัติ: May |
 |---|---|---|---|---|---|
-| ลูกค้า&nbsp;X ผู้สั่ง:&nbsp;Jane | ใช่ | ใช่ | ใช่ | ไม่ | ไม่ |
-| ลูกค้า&nbsp;X ผู้สั่ง:&nbsp;Sam | ใช่ | ใช่ | ไม่ | ใช่ | ไม่ |
-| ลูกค้า&nbsp;Y ผู้สั่ง:&nbsp;May | ใช่ | ไม่ | ไม่ | ไม่ | ไม่ |
+| ลูกค้า&nbsp;X ผู้สั่ง:&nbsp;Jane | ใช่ | ใช่ | ใช่ | จำนวน | จำนวน |
+| ลูกค้า&nbsp;X ผู้สั่ง:&nbsp;Sam | ใช่ | ใช่ | จำนวน | ใช่ | จำนวน |
+| ลูกค้า&nbsp;Y ผู้สั่ง:&nbsp;May | ใช่ | จำนวน | จำนวน | จำนวน | จำนวน |
 
 > [!NOTE]
 > ถึงแม้ว่าทั้ง Sam และ Jane เป็นผู้ติดต่อที่ทำงานให้กับลูกค้า X พวกเขาสามารถดูได้เฉพาะใบสั่งที่พวกเขาเองได้วางและไม่สามารถดูอะไรได้อีก แม้ว่า May มีใบสั่งในระบบ เธอไม่สามารถมองเห็นใบสั่งนั้นในพอร์ทัลของลูกค้า เนื่องจากเธอเป็นผู้ใช้ที่ไม่ได้รับอนุมัติ (นอกจากนี้ เธอต้องวางใบสั่งผ่านช่องทางอื่นนอกเหนือจากพอร์ทัลของลูกค้า)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

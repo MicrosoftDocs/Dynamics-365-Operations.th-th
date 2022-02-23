@@ -1,24 +1,26 @@
 ---
 title: ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา
 description: หัวข้อนี้อธิบายวิธีการป้อนการตอบให้กับคำขอใบเสนอราคา (RFQ) ให้คะแนน และเปรียบเทียบการประมูล และจากนั้น ให้สัญญาแก่หนึ่งในผู้จัดจำหน่าย
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579483"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016689"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา
 
@@ -32,7 +34,7 @@ ms.locfileid: "7579483"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>ป้อนการตอบเป็นผู้จัดจำหน่าย
 
-1. ไปที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย \> พื้นที่ทำงาน \> การประมูลของผู้จัดจำหน่าย**
+1. บนแดชบอร์ด ให้เลือก **การประมูลของผู้จัดจำหน่าย**
 2. ในรายการ **คำเชิญการประมูลใหม่** ให้ค้นหา RFQ ที่เพิ่งถูกส่ง เลือก RFQ เพื่อตรวจทานสิ่งที่ถูกร้องขอ
 3. เลือก **สิ่งที่แนบ RFQ** เพื่อตรวจสอบสิ่งที่แนบใดๆ ที่ถูกเพิ่ม
 4. เลือก **การประมูล** เพื่อทำให้ฟิลด์สามารถแก้ไขได้ โปรดสังเกตว่า ฟิลด์ **กระบวนการประมูล** ถูกตั้งค่าเป็น **ผู้จัดจำหน่ายกำลังปรับปรุง**
@@ -104,6 +106,3 @@ ms.locfileid: "7579483"
 ## <a name="view-the-purchase-order-that-is-generated"></a>ดูใบสั่งซื้อที่ถูกสร้าง
 
 บนบานหน้าต่างการดำเนินการ บนแท็บ **ทั่วไป** เลือก **ใบสั่งซื้อ** หน้าที่ปรากฏจะแสดงใบสั่งซื้อที่ถูกสร้าง เมื่อคุณยอมรับการประมูล
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

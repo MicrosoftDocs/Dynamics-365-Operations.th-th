@@ -1,10 +1,12 @@
 ---
 title: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
-description: หัวข้อนี้อธิบายวิธีแก้ไขรูปแบบการรายงานอิเล็กทรอนิกส์ (ER) ที่ถูกใช้ในการสร้างเอกสารทางธุรกิจ โดยการนำแม่แบบ Excel ที่แก้ไขไปใช้ใหม่
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีที่คุณสามารถแก้ไขรูปแบบการรายงานอิเล็กทรอนิกส์ (ER) ที่ถูกใช้ในการสร้างเอกสารทางธุรกิจ โดยการนำเท็มเพลต Excel ที่แก้ไขไปใช้ใหม่
 author: NickSelin
+manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57f0db12657878fa34c86c55925d62100c26cad8799e5e6ace7e7dd81d91cd9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737886"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682228"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
 
@@ -31,6 +33,3 @@ ms.locfileid: "6737886"
 เครื่องมือ ER สามารถถูกใช้เพื่อสร้างเอกสารทางธุรกิจเป็นไฟล์ Microsoft Excel คุณสามารถใช้เอกสาร Excel เป็นเท็มเพลตสำหรับเอกสารเหล่านี้ได้ เมื่อต้องการกำหนดโครงร่างของเอกสารในตัวออกแบบ ER คุณสามารถนำเข้าเนื้อหาของเอกสาร Excel ที่คุณต้องการใช้เป็นเท็มเพลตลงในรูปแบบ ER ที่กำหนดได้ สำหรับรายละเอียดเพิ่มเติม และเพื่อฝึกฝนสถานการณ์จำลองนี้ เล่นคู่มืองาน **ER ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML** (ส่วนหนึ่งของ 7.5.4.3 จัดหา/พัฒนาบริการด้านไอที/องค์ประกอบโซลูชัน (10677) กระบวนการทางธุรกิจ)
 
 ถ้าคุณแก้ไขเอกสาร Excel ที่ถูกใช้เป็นเท็มเพลตสำหรับเอกสารทางธุรกิจ ฟังก์ชัน ER ใหม่ช่วยให้คุณสามารถนำเท็มเพลตที่ปรับปรุงแล้วไปใช้กับรูปแบบ ER ได้ จากนั้น รูปแบบ ER ได้รับการปรับปรุงเพื่อให้ได้สอดคล้องกับเท็มเพลตที่มีการอัพเดต สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับฟังก์ชันนี้ เล่นคู่มืองาน **ER ปรับเปลี่ยนรูปแบบตามการนำเท็มเพลต Excel ไปใช้** (ส่วนหนึ่งของ 7.5.5.3 บริการ/โซลูชัน IT รับ/การจัดทำคอมโพเนนต์ (10683) กระบวนการทางธุรกิจ) ในขั้นตอนคู่มืองานที่คุณนำเข้าเท็มเพลตที่อัพเดตแล้ว ใช้เท็มเพลตที่อัพเดตแล้วของแฟ้ม Excel การชำระเงิน SampleVendPaymWsReport2 เป็นเท็มเพลต
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

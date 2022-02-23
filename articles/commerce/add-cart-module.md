@@ -1,31 +1,36 @@
 ---
 title: โมดูลรถเข็น
-description: หัวข้อนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลรถเข็น และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-ms.date: 12/15/2020
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716895"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416286"
 ---
 # <a name="cart-module"></a>โมดูลรถเข็น
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+หัวข้อนี้ครอบคลุมถึงโมดูลรถเข็น และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 โมดูลรถเข็นแสดงสินค้าที่มีการเพิ่มลงในรถเข็น ก่อนที่ลูกค้าจะดำเนินการเช็คเอาท์ นอกจากนี้ โมดูลยังแสดงสรุปใบสั่งและอนุญาตให้ลูกค้าสามารถใช้หรือลบรหัสโปรโมชันได้
 
@@ -48,7 +53,6 @@ ms.locfileid: "6716895"
 | หัวข้อ | ข้อความหัวเรื่องและแท็กหัวเรื่อง (**H1**, **H2**, **H3**, **H4**, **H5** หรือ **H6**) | หัวเรื่องสำหรับรถเข็น เช่น "ถุงช้อปปิ้ง" หรือ "สินค้าในรถเข็นของคุณ" |
 | แสดงข้อผิดพลาดเกี่ยวกับสินค้าคงคลังหมด | **จริง** หรือ **เท็จ** | ถ้าคุณสมบัตินี้ตั้งค่าเป็น **จริง** หน้ารถเข็นจะแสดงข้อผิดพลาดที่เกี่ยวข้องกับสินค้าคงคลัง เราขอแนะนำให้คุณตั้งค่าคุณสมบัตินี้เป็น **จริง** ถ้ามีการใช้การตรวจสอบสินค้าคงคลังบนไซต์ |
 | แสดงค่าธรรมเนียมการขนส่งสำหรับสินค้าในรายการ | **จริง** หรือ **เท็จ** | ถ้ามีการตั้งค่าคุณสมบัตินี้เป็น **จริง** สินค้าในรายการของรถเข็นจะแสดงค่าธรรมเนียมการจัดส่ง ถ้ามีข้อมูลนี้อยู่ คุณลักษณะนี้ไม่ได้รับการสนับสนุนในชุดรูปแบบ Fabrikam เนื่องจากผู้ใช้เลือกการจัดส่งเฉพาะในขั้นตอนเช็คเอาท์ อย่างไรก็ตาม คุณสามารถเปิดใช้งานคุณลักษณะนี้ในลำดับงานอื่นๆ ได้ถ้าเกี่ยวข้อง |
-| แสดงโปรโมชันที่มีอยู่| **จริง** หรือ **เท็จ** | หากคุณสมบัตินี้ถูกตั้งค่าเป็น **จริง** รถเข็นจะแสดงโปรโมชันที่พร้อมใช้งานตามสินค้าในรถเข็น ความสามารถนี้พร้อมใช้งานในรุ่น Dynamics 365 Commerce 10.0.16 |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>โมดูลที่สามารถใช้ในโมดูลรถเข็น
 
@@ -113,6 +117,3 @@ ms.locfileid: "6716895"
 [คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก](calculated-inventory-retail-channels.md)
 
 [สร้างโพรไฟล์ฟังก์ชันการทำงานออนไลน์](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

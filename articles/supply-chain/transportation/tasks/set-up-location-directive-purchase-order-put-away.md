@@ -1,25 +1,28 @@
 ---
 title: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคำสั่งสถานที่อย่างง่าย
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a363b452cbee539aeee62146f545b1f7c2eb842
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438854"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
 
@@ -83,6 +86,3 @@ ms.locfileid: "7576219"
 4. ในฟิลด์ **เงื่อนไข** ให้พิมพ์ค่าใดค่าหนึ่ง
 5. เลือก **ตกลง** คุณสามารถดำเนินต่อเพื่อเพิ่มบรรทัดคำสั่งและดำเนินการคำสั่งจนกว่าคุณได้ครอบคลุมสถานการณ์จำลองที่เป็นไปได้ทั้งหมดในคลังสินค้าของคุณ  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,28 +1,39 @@
 ---
 title: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
-description: หัวข้อนี้อธิบายการรวมข้อมูลของผู้จัดจำหน่ายระหว่างแอปการเงินและการดำเนินงานกับ Dataverse
+description: หัวข้อนี้อธิบายการรวมของข้อมูลผู้จัดจำหน่ายระหว่างแอป Finance and Operations และ Dataverse
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063173"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744526"
 ---
 # <a name="integrated-vendor-master"></a>ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-คำว่า *ผู้จัดจำหน่าย* อ้างอิงถึงองค์กรของซัพพลายเออร์ หรือเจ้าของรายเดียวที่จัดหาสินค้าหรือบริการให้กับธุรกิจ แม้ว่า *ผู้จัดจำหน่าย* เป็นแนวคิดที่สร้างขึ้นใน Microsoft Dynamics 365 Supply Chain Management จะไม่มีแนวคิดของผู้จัดจำหน่ายอยู่ในแอปการมีส่วนร่วมของลูกค้า อย่างไรก็ตาม คุณสามารถโอเวอร์โหลดตาราง **บัญชี/ผู้ติดต่อ** เพื่อจัดเก็บข้อมูลของผู้จัดจำหน่าย ข้อมูลหลักของผู้จัดจำหน่ายแบบรวมจะแนะนำแนวคิดของผู้จัดจำหน่ายที่ชัดเจนในแอปการมีส่วนร่วมของลูกค้า คุณสามารถใช้การออกแบบของผู้จัดจำหน่ายใหม่หรือข้อมูลผู้จัดจำหน่ายร้านค้าในตาราง **บัญชี/ผู้ติดต่อ** การรวมแบบสองทิศทางสนับสนุนทั้งสองวิธี
+
+คำว่า *ผู้จัดจำหน่าย* อ้างอิงถึงองค์กรของซัพพลายเออร์ หรือเจ้าของรายเดียวที่จัดหาสินค้าหรือบริการให้กับธุรกิจ แม้ว่า *ผู้จัดจำหน่าย* เป็นแนวคิดที่สร้างขึ้นใน Microsoft Dynamics 365 Supply Chain Management จะไม่มีแนวคิดของผู้จัดจำหน่ายอยู่ในแอปที่เป็นแบบโมเดลใน Dynamics 365 อย่างไรก็ตาม คุณสามารถโอเวอร์โหลดตาราง **บัญชี/ผู้ติดต่อ** เพื่อจัดเก็บข้อมูลของผู้จัดจำหน่าย ข้อมูลหลักของผู้จัดจำหน่ายแบบรวมจะแนะนำแนวคิดของผู้จัดจำหน่ายที่ชัดเจนในแอปที่เป็นแบบโมเดลใน Dynamics 365 คุณสามารถใช้การออกแบบของผู้จัดจำหน่ายใหม่หรือข้อมูลผู้จัดจำหน่ายร้านค้าในตาราง **บัญชี/ผู้ติดต่อ** การรวมแบบสองทิศทางสนับสนุนทั้งสองวิธี
 
 ในทั้งสองวิธีการ ข้อมูลผู้จัดจำหน่ายจะถูกรวมกันระหว่างพอร์ทัล Dynamics 365 Supply Chain Management Dynamics 365 Sales Dynamics 365 Field Service และ Power Apps ใน Supply Chain Management ข้อมูลจะพร้อมใช้งานสำหรับลำดับงาน เช่น ใบขอซื้อ และใบสั่งซื้อ
 
@@ -37,23 +48,30 @@ ms.locfileid: "8063173"
 ![โฟลว์ข้อมูลของผู้จัดจำหน่ายแบบขยาย](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> ถ้าคุณกำลังใช้พอร์ทัล Power Apps สำหรับระบบบริการตนเองของผู้จัดจำหน่าย ข้อมูลของผู้จัดจำหน่ายสามารถส่งไปยังแอปการเงินและการดำเนินงานได้โดยตรง
+> ถ้าคุณกำลังใช้พอร์ทัล Power Apps สำหรับผู้จัดจำหน่ายแบบบริการตนเอง ข้อมูลของผู้จัดจำหน่ายสามารถโฟลว์ไปยังแอป Finance and Operations ได้โดยตรง
 
-## <a name="templates"></a>เทมเพลต
+## <a name="templates"></a>เท็มเพลต
 
 ข้อมูลผู้จัดจำหน่ายรวมถึงข้อมูลทั้งหมดเกี่ยวกับผู้จัดจำหน่าย เช่น กลุ่มผู้จัดจำหน่าย ที่อยู่ ข้อมูลผู้ติดต่อ โพรไฟล์การชำระเงิน และโพรไฟล์ใบแจ้งหนี้ คอเลคชันของแม็บตารางทำงานร่วมกันในขณะการรวมข้อมูลผู้จัดจำหน่าย ดังที่แสดงในตารางต่อไปนี้
 
-แอปการเงินและการดำเนินงาน | แอปการมีส่วนร่วมของลูกค้า     | คำอธิบาย
+แอป Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365     | คำอธิบาย
 ----------------------------|-----------------------------|------------
-[ผู้ติดต่อ CDS V2](mapping-reference.md#115) | ผู้ติดต่อ | เทมเพลตนี้จะซิงโครไนส์ข้อมูลการติดต่อหลัก ทุติยภูมิ และตติยภูมิสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[ส่วนเพิ่มของชื่อ](mapping-reference.md#155) | msdyn_nameaffixes | เทมเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของส่วนเพิ่มของชื่อสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[รายการแสดงวันที่ในการชำระเงินของ CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | เทมเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของบรรทัดวันชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[CDS จำนวนวันการชำระเงิน](mapping-reference.md#158) | msdyn_paymentdays | เทมเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของวันชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[รายการกำหนดการชำระเงิน](mapping-reference.md#159) | msdyn_paymentschedulelines | ซิงค์ข้อมูลอ้างอิงของบรรทัดกำหนดการชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[กำหนดการชำระเงิน](mapping-reference.md#160) | msdyn_paymentschedules | เทมเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของกำหนดการชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[เงื่อนไขการชำระเงิน](mapping-reference.md#161) | msdyn_paymentterms | เทมเพลตนี้จะซิงโครไนส์ข้อมูลอ้างอิงของเงื่อนไขการชำระเงินสำหรับทั้งลูกค้าและผู้จัดจำหน่าย
-[ผู้จัดจำหน่าย V2](mapping-reference.md#202) | msdyn_vendors | ธุรกิจที่ใช้โซลูชันแบบกำหนดเองสำหรับผู้จัดจำหน่ายสามารถใช้ประโยชน์จากแนวคิดผู้จัดจำหน่ายแบบสำเร็จรูปที่ถูกนำมาใช้ใน Dataverse เนื่องจากการรวมของแอปการเงินและการดำเนินงาน
-[กลุ่มผู้จัดจำหน่าย](mapping-reference.md#200) | msdyn_vendorgroups | เทมเพลตนี้รวมข้อมูลกลุ่มผู้จัดจำหน่ายเข้าด้วยกัน
-[วิธีการชำระเงินของผู้จัดจำหน่าย](mapping-reference.md#201) | msdyn_vendorpaymentmethods | เทมเพลตนี้รวมข้อมูลวิธีการชำระเงินของผู้จัดจำหน่วยเข้าด้วยกัน
+ผู้จัดจำหน่าย V2                   | บัญชี                     | ธุรกิจที่ใช้ตารางบัญชีเพื่อจัดเก็บข้อมูลผู้จัดจำหน่ายสามารถใช้ต่อไปได้ในลักษณะเดียวกัน นอกจากนี้ ยังสามารถใช้ประโยชน์จากฟังก์ชันของผู้จัดจำหน่ายที่ชัดเจนซึ่งกำลังจะมา เนื่องจากการรวมของแอป Finance and Operations
+ผู้จัดจำหน่าย V2                   | Msdyn\_vendors              | ธุรกิจที่ใช้โซลูชันแบบกำหนดเองสำหรับผู้จัดจำหน่ายสามารถใช้ประโยชน์จากแนวคิดผู้จัดจำหน่ายแบบสำเร็จรูปที่ถูกนำมาใช้ใน Dataverse เนื่องจากการรวมของแอป Finance and Operations 
+กลุ่มผู้จัดจำหน่าย               | msdyn\_vendorgroups         | เท็มเพลตนี้รวมข้อมูลกลุ่มผู้จัดจำหน่ายเข้าด้วยกัน
+วิธีการชำระเงินของผู้จัดจำหน่าย       | msdyn\_vendorpaymentmethods | เท็มเพลตนี้รวมข้อมูลวิธีการชำระเงินของผู้จัดจำหน่วยเข้าด้วยกัน
+ผู้ติดต่อ CDS V2             | ผู้ติดต่อ                    | เท็มเพลต [contacts](customer-mapping.md#cds-contacts-v2-to-contacts) รวมข้อมูลผู้ติดต่อ ปฐมภูม ทุติยภูมิ ตติยภูมิ ทั้งหมดเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+รายการกำหนดการชำระเงิน      | msdyn\_paymentschedulelines | เท็มเพลต [payment schedule lines](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) รวมข้อมูลอ้างอิงสำหรับลูกค้าและผู้จัดจำหน่ายเข้าด้วยกัน
+กำหนดการชำระเงิน            | msdyn\_paymentschedules     | เท็มเพลต [payment schedules](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) รวมข้อมูลอ้างอิงกำหนดการชำระิิเงินเข้าด้วยกัน ทั้งสำหรับลูกค้าและผู้จัดจำหน่าย
+รายการแสดงวันที่ในการชำระเงินของ CDS V2    | msdyn\_paymentdaylines      | เท็มเพลต [payment day lines](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) รวมข้อมูลอ้างอิงกำหนดการชำระเงินเข้าด้วยกัน สำหรับลูกค้าและผู้จัดจำหน่าย
+CDS จำนวนวันการชำระเงิน            | msdyn\_paymentdays          | เท็มเพลต [payment days](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) รวมข้่อมูลอ้างอิงวันชำระเงินเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+เงื่อนไขการชำระเงิน            | msdyn\_paymentterms         | เท็มเพลต [terms of payment](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) รวมข้อมูลอ้างอิงเงื่อนไขการชำระเงินเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
+ส่วนเพิ่มของชื่อ                | msdyn\_nameaffixes          | เท็มเพลต [name affixes](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) รวมข้อมูลอ้างอิงส่วนเพิ่มของชื่อเข้าด้วยกัน สำหรับทั้งลูกค้าและผู้จัดจำหน่าย
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
+
+[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
+
+[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

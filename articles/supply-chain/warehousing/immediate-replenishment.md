@@ -2,25 +2,28 @@
 title: การเติมสินค้าทันที
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การเติมสินค้าในทันที เพื่อเติมสินค้าในสินค้าคงคลังเมื่อคำสั่งสถานที่ล้มเหลวในการปันส่วนสินค้าคงคลัง
 author: Mirzaab
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741943"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438875"
 ---
 # <a name="immediate-replenishment"></a>การเติมสินค้าทันที
 
@@ -54,6 +57,3 @@ ms.locfileid: "6741943"
 
 - ให้แน่ใจว่า เท็มเพลตการเติมสินค้าตามความต้องการที่จะใช้ ถูกตั้งค่าเพื่อใช้เท็มเพลตสถานที่ที่ถูกต้อง และเท็มเพลตของงานของชนิด **การเติมสินค้า**
 - ตรวจสอบให้แน่ใจว่า มีปริมาณคงคลังคงเหลือเพียงพอที่สถานที่ที่เท็มเพลตการเติมสินค้าความต้องการค้นหาสินค้าคงคลังคงเหลือสำหรับการเติมสินค้า
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,13 +1,16 @@
 ---
 title: โมดูลการแสดงเส้นทาง
-description: หัวข้อนี้ครอบคลุมถึงโมดูลเบรดครัมบ์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้ครอบคลุมถึงโมดูลการแสดงเส้นทาง และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720023"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517171"
 ---
 # <a name="breadcrumb-module"></a>โมดูลการแสดงเส้นทาง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลเบรดครัมบ์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้ครอบคลุมถึงโมดูลการแสดงเส้นทาง และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 โมดูลการแสดงเส้นทางใช้เพื่อให้การนำทางรองบนหน้าไซต์ โดยทั่วไปจะแสดงอยู่ที่ด้านบนของหน้า ด้านล่างของหัวข้อ ถึงแม้ว่าคุณจะสามารถเพิ่มโมดูลแถบในหน้าใดก็ได้ โดยทั่วไปจะใช้ในหน้ารายละเอียดของผลิตภัณฑ์ (PDPs) เพื่อแสดงการจัดประเภทของผลิตภัณฑ์ตามลำดับชั้นและจัดให้มีวิธีที่รวดเร็วในการเลื่อนดูไซต์ นอกจากนี้ยังสามารถใช้โมดูลการแสดงเส้นทางเพื่อแสดงการเชื่อมโยง "กลับไปที่ผลลัพธ์" เมื่อผู้ใช้เปิด PDP จากการค้นหาหรือหน้ารายการ ด้วยวิธีนี้ผู้ใช้สามารถกลับไปยังหน้ารายการที่ถูกกรองของตนเพื่อดำเนินการซื้อของต่อไปได้อย่างรวดเร็ว
 
@@ -90,6 +95,3 @@ ms.locfileid: "6720023"
 [โมดูลกล่องการซื้อ](add-buy-box.md)
 
 [การอัปเดต SDK และไลบรารีโมดูล](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

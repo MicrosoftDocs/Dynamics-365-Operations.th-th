@@ -2,13 +2,16 @@
 title: การวางแผนระหว่างบริษัท
 description: หัวข้อนี้จะอธิบายการวางแผนระหว่างบริษัทและอธิบายวิธีการตั้งค่าคอนฟิกการวางแผนระหว่างบริษัทโดยมีการเพิ่มประสิทธิภาพการวางแผนใน Microsoft Dynamics 365 Supply Chain Management
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777922"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672210"
 ---
 # <a name="intercompany-planning"></a>การวางแผนระหว่างบริษัท
 
@@ -45,8 +48,8 @@ ms.locfileid: "6777922"
 
 เมื่อต้องการใช้การวางแผนระหว่างบริษัท คุณต้องเตรียมระบบของคุณในลักษณะต่อไปนี้:
 
-1. ผลิตภัณฑ์ที่เกี่ยวข้องต้องถูกนำออกใช้ในบริษัทที่เกี่ยวข้องทั้งหมด สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
-1. ต้องครอบคลุมความต้องการปลายน้ำโดยการซื้อจากผู้จัดจำหน่ายที่มีความสัมพันธ์ระหว่างบริษัทกับบริษัทต้นน้ำและมิติสินค้าคงคลังเริ่มต้นที่เกี่ยวข้อง (ไซต์และคลังสินค้า) ของลูกค้า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
+1. ผลิตภัณฑ์ที่เกี่ยวข้องต้องถูกนำออกใช้ในบริษัทที่เกี่ยวข้องทั้งหมด สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
+1. ต้องครอบคลุมความต้องการปลายน้ำโดยการซื้อจากผู้จัดจำหน่ายที่มีความสัมพันธ์ระหว่างบริษัทกับบริษัทต้นน้ำและมิติสินค้าคงคลังเริ่มต้นที่เกี่ยวข้อง (ไซต์และคลังสินค้า) ของลูกค้า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
 1. แผนหลักในบริษัทต้นน้ำต้องรวมความต้องการที่วางแผนไว้ล่วงหน้า และต้องระบุบริษัทและแผนหลักที่เกี่ยวข้องในแผนปลายน้ำ
 
 ## <a name="include-planned-downstream-demand"></a>รวมความต้องการขั้นปลายน้ำที่วางแผนไว้
@@ -85,6 +88,3 @@ ms.locfileid: "6777922"
 ภาพประกอบต่อไปนี้แสดงลักษณะที่ปรากฏของตัวอย่างนี้บนหน้า **การเชื่อมโยงความต้องการกับการจัดซื้อแบบหลายระดับ** สำหรับแผนการใบสั่งผลิต
 
 ![ตัวอย่างระหว่างบริษัทที่เกี่ยวข้องกับบริษัทสามแห่ง](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,42 +1,43 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (14 พฤษภาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 14 พฤษภาคม 2020
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063758"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528508"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (14 พฤษภาคม 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3244 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
 ## <a name="platform-changes"></a>การเปลี่ยนแปลงแพลตฟอร์ม
 
-การเปลี่ยนแปลงของแพลตฟอร์มจะรวมอยู่ในการนำออกใช้ของสัปดาห์นี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.10 ของแอปการเงินและการดำเนินงาน (พฤษภาคม 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md) การนำออกใช้นี้รวมถึงการแก้ไขข้อผิดพลาดและการเปลี่ยนแปลงในมุมมองที่บันทึกไว้
+การเปลี่ยนแปลงของแพลตฟอร์มจะรวมอยู่ในการนำออกใช้ของสัปดาห์นี้ เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น10.0.10 ของแอป Finance and Operations (พฤษภาคม 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34) การนำออกใช้นี้รวมถึงการแก้ไขข้อผิดพลาดและการเปลี่ยนแปลงในมุมมองที่บันทึกไว้
  
-## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>ตรวจสอบให้แน่ใจว่ารายการเบิกสินค้า Dataverse สอดคล้องกับ Leave Enum (436343)
+## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>ตรวจสอบให้แน่ใจว่ารายการเบิกสินค้า Common Data Service สอดคล้องกับ Leave Enum (436343)
 
-ขณะนี้รายการเบิกสินค้า Dataverse สอดคล้องกับ Leave Enum
+ขณะนี้รายการเบิกสินค้า Common Data Service สอดคล้องกับ Leave Enum
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>อนุญาตให้ผู้ใช้ตั้งค่าคอนฟิกลำดับงานคำร้องขอการลาหยุดตามจำนวนที่ร้องขอ (300044)
 
@@ -46,9 +47,9 @@ ms.locfileid: "8063758"
 
 รุ่นนี้จะแก้ไขวิธีการดูผู้ปฏิบัติงานในระหว่างการทำงานของนิติบุคคลเมื่อมีการเปิดใช้งานการเข้าถึงขั้นสูงและผู้ปฏิบัติงานในบริษัทอื่นสามารถเข้าถึงได้
 
-## <a name="allow-running-leave-accruals-for-a-single-plan-or-a-single-company-318844"></a>อนุญาตให้เรียกใช้การลางานคงค้างสำหรับแผนเดียวหรือบริษัทเดียว (318844)
+## <a name="allow-running-leave-accruals-for-a-single-plan-or-a-single-company-318844"></a>อนุญาตให้รันการลางานคงค้างสำหรับแผนเดียวหรือบริษัทเดียว (318844)
 
-ด้วยการเปลี่ยนแปลงนี้คุณสามารถเรียกใช้การคงค้างสำหรับบริษัทหรือแผน
+ด้วยการเปลี่ยนแปลงนี้คุณสามารถรันการคงค้างสำหรับบริษัทหรือแผน
  
 ## <a name="show-the-positions-full-time-equivalent-fte-in-the-enrolled-workers-form-414658"></a>แสดงการเทียบเท่าเต็มเวลาของตำแหน่งงาน (FTE) ในแบบฟอร์มผู้ปฏิบัติงานที่ลงทะเบียน (414658)
 
@@ -56,7 +57,7 @@ ms.locfileid: "8063758"
 
 ## <a name="add-leave-balance-expiration-batch-job-431266"></a>เพิ่มชุดงานการหมดอายุของยอดดุลการลา (431266)
 
-ขณะนี้ชุดงานใหม่พร้อมใช้งาน ซึ่งจะเรียกใช้รายวัน ซึ่งจะลดยอดดุลการลางานที่เหลือเมื่อวันหมดอายุเป็นปัจจุบัน
+ขณะนี้ชุดงานใหม่พร้อมใช้งาน ซึ่งจะรันรายวัน ซึ่งจะลดยอดดุลการลางานที่เหลือเมื่อวันหมดอายุเป็นปัจจุบัน
 
 ## <a name="exporting-personal-contacts-for-an-employee-using-the-worker-personal-contact-person-entity-doesnt-export-personal-contacts-with-the-parent-relationship-type-345893"></a>การส่งออกรายชื่อผู้ติดต่อส่วนบุคคลสำหรับพนักงานโดยใช้เอนทิตีผู้ติดต่อส่วนบุคคลของผู้ปฏิบัติงานจะไม่ส่งออกผู้ติดต่อส่วนบุคคลที่มีชนิดความสัมพันธ์หลัก (345893)
 
@@ -74,7 +75,7 @@ ms.locfileid: "8063758"
 
 เมื่อมีการเปลี่ยนแปลงนี้ ป้ายโฆษณาเริ่มต้นถูกซ่อนไว้สำหรับผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบหรือผู้ดูแลระบบจัดการข้อมูล 
 
-## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>เอนทิตีที่อยู่ของผู้ปฏิบัติงาน Dataverse ทำงานแตกต่างกันในแง่ของวันที่ที่มีผลบังคับใช้ในทรัพยากรบุคคล (425071)
+## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>เอนทิตีที่อยู่ของผู้ปฏิบัติงาน Common Data Service ทำงานแตกต่างกันในแง่ของวันที่ที่มีผลบังคับใช้ในทรัพยากรบุคคล (425071)
 
 การเปลี่ยนแปลงนี้จะช่วยให้ข้อมูลที่อยู่สอดคล้องกับการจัดตำแหน่งในบางสถานการณ์ ตามวันที่ของที่อยู่
 
@@ -88,7 +89,7 @@ ms.locfileid: "8063758"
 
 คุณสามารถระงับการลางานและการขาดงานในทรัพยากรบุคคลสำหรับพนักงาน การระงับการลางานจะหยุดการรับรู้การลางานสำหรับชนิดการลางานที่เลือก ถ้าการระงับเกิดขึ้นหลังจากที่มีการประมวลผลการรับรู้ การระงับการลางานจะสร้างการปรับปรุงตามสัดส่วนให้กับยอดดุลการลางานของพนักงาน สำหรับข้อมูลเพิ่มเติม โปรดดู [ระงับการลางาน](hr-leave-and-absence-suspend-leave.md)
 
-## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัปเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
+## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัพเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
 
 ประสบการณ์ผู้ใช้บ่งชี้ว่าการคงค้างถูกระงับสำหรับแผนแล้ว
 
@@ -114,9 +115,7 @@ ms.locfileid: "8063758"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

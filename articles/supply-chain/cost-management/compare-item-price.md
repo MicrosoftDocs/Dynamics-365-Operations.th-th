@@ -2,26 +2,29 @@
 title: รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 description: เรียนรู้วิธีสร้างรายงานการเปรียบเทียบการจัดเก็บราคาสินค้า และจากนั้นเรียกดูและ/หรือส่งออกผลลัพธ์
 author: AndersGirke
+manager: tfehr
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566010"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438683"
 ---
 # <a name="compare-item-prices-storage-report"></a>รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 
@@ -118,6 +121,3 @@ ms.locfileid: "7566010"
 1. หน้า **สรุปการดำเนินการ** จะเปิดขึ้น ซึ่งคุณสามารถดูสถานะของงานการส่งออกของคุณและรายการเอนทิตี้ที่มีการส่งออก เลือกเอนทิตี้ **เปรียบเทียบราคาสินค้า** ที่แสดงรายการอยู่ในพื้นที่ **สถานะการประมวลผลเอนทิตี้** และจากนั้น เลือก **ดาวน์โหลดไฟล์** เพื่อดาวน์โหลดข้อมูลที่ส่งออกจากเอนทิตี้นั้น
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้การจัดการข้อมูลเพื่อส่งออกข้อมูล โปรดดู [ภาพรวมของงานนำเข้าและส่งออกข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

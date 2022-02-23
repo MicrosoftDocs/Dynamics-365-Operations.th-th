@@ -2,9 +2,11 @@
 title: ปรับเปลี่ยนรูปแบบโดยนำเท็มเพลต Excel มาใช้อีกครั้ง
 description: เพื่อทำขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ ก่อนอื่นคุณต้องทำดำเนินกระบวนงานให้เสร็จสมบูรณ์ ER - ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e66a2e24d3b1e77d5c790d2f3b7cfdce98fc4cca6e3734ad8b87ac7714192853
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749667"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684246"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>ปรับเปลี่ยนรูปแบบโดยนำเท็มเพลต Excel มาใช้อีกครั้ง
 
@@ -81,6 +83,3 @@ ms.locfileid: "6749667"
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>ใช้เวอร์ชันแบบร่างที่แก้ไขแล้วของรูปแบบ ER สำหรับการประมวลผลสมุดรายวันการชำระเงิน
 
 ตรวจทานแผ่นงานที่สร้างขึ้น รวมทั้งรายละเอียดใหม่ของบรรทัดการชำระเงิน – วันที่ชำระเงิน  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

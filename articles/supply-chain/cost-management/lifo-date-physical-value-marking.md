@@ -2,9 +2,11 @@
 title: วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 description: วันที่แบบเข้าหลัง ออกก่อน (วันที่ LIFO) เป็นแบบจำลองสินค้าคงคลังที่ใช้หลักการ LIFO  จะมีการจับคู่การตัดสินค้าจากคลังกับการรับสินค้ารายการสุดท้ายไปยังคลังสินค้า ตามวันที่ของธุรกรรมสินค้าคงคลัง ด้วยวันที่ LIFO โดยการใช้วันที่ LIFO หากไม่มีการรับสินค้าก่อนการนำสินค้าออกใช้ การนำสินค้าออกใช้จะถูกจับคู่กับการรับสินค้าใดๆ ที่เกิดขึ้นหลังจากวันที่นำสินค้าออกใช้  การนำสินค้าออกใช้หลายครั้งในวันเดียวกันอาจถูกจับคู่ในลำดับของการนำสินค้าออกใช้ครั้งล่าสุด การรับสินค้าครั้งล่าสุด
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567570"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967644"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย
 
@@ -55,9 +57,7 @@ ms.locfileid: "7567570"
 
 ราคาต้นทุนถัวเฉลี่ยใหม่จะสะท้อนค่าเฉลี่ยของธุรกรรมที่มีการอัพเดตทางการเงินที่ 15.00 ดอลลาร์สหรัฐฯ 
 
-ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลังวันที่ LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ไม่ได้ถูกใช้ 
-
-![วันที่ LIFO ที่ไม่มีตัวเลือก รวมค่าทางกายภาพ](./media/lifodatewithoutincludephysicalvalue.gif) 
+ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลังวันที่ LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ไม่ได้ถูกใช้ ![วันที่ LIFO โดยรวมค่าทางกายภาพ](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **สัญลักษณ์แผนภาพ**
 
@@ -92,9 +92,7 @@ ms.locfileid: "7567570"
 
 ราคาต้นทุนค่าเฉลี่ยของการดำเนินการใหม่จะแสดงค่าเฉลี่ยของธุรกรรมที่อัพเดตทางการเงินที่ 20.00 เหรียญสหรัฐ 
 
-ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ได้ถูกใช้ 
-
-![วันที่ LIFO ที่มีตัวเลือก รวมค่าทางกายภาพ](./media/lifodatewithincludephysicalvalue.gif) 
+ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อตัวเลือก **รวมค่าทางกายภาพ** ได้ถูกใช้ ![วันที่ LIFO โดยรวมค่าทางกายภาพ](./media/lifodatewithincludephysicalvalue.gif) 
 
 **สัญลักษณ์แผนภาพ**
 
@@ -140,7 +138,7 @@ ms.locfileid: "7567570"
 
 ราคาต้นทุนค่าเฉลี่ยของการดำเนินการใหม่จะแสดงค่าเฉลี่ยของธุรกรรมที่มีการอัพเดตทางการเงินและตามจริงที่ 27.50 เหรียญสหรัฐ 
 
-ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อการทำเครื่องหมายระหว่างการตัดสินค้าจากคลังและการรับสินค้าได้ถูกใช้ ![วันที่ LIFO ที่มีการทำเครื่องหมาย](./media/lifodatewithmarking.gif) 
+ภาพประกอบต่อไปนี้แสดงผลของแบบจำลองสินค้าคงคลัง LIFO เมื่อการทำเครื่องหมายระหว่างการตัดสินค้าจากคลังและการรับสินค้าได้ถูกใช้ ![วันที่ LIFO กับการตลาด](./media/lifodatewithmarking.gif) 
 
 **สัญลักษณ์แผนภาพ**
 
@@ -158,6 +156,3 @@ ms.locfileid: "7567570"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

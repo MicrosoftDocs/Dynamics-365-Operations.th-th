@@ -1,34 +1,32 @@
 ---
 title: ทรัพยากรบุคคลไม่มีอยู่ในแอป Microsoft Dynamics 365
-description: หัวข้อนี้จะอธิบายสิ่งที่ต้องแก้ไขหาก Microsoft Dynamics 365 Human Resources ไม่ได้อยู่ในรายการในบรรดาแอป Microsoft Dynamics 365
-author: twheeloc
-ms.date: 08/19/2021
+description: บทความนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าไม่เห็นแอป Microsoft Dynamics 365 Human Resources ระหว่างแอป Microsoft Dynamics 365
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bdbe6c4065a8266fd30a3b093743ded91524f6a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cbf47b4673e1c97965bba7728e5669b7639c4d56
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069691"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420742"
 ---
-# <a name="human-resources-app-doesnt-appear-in-microsoft-dynamics-365-apps"></a>แอป Human Resources ไม่ปรากฏในแอป Microsoft Dynamics 365
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>ทรัพยากรบุคคลไม่มีอยู่ในแอป Microsoft Dynamics 365
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-**ปัญหา**
+**ออกใช้**
 
 ลูกค้าไม่เห็น Dynamics 365 Human Resources ในแอป Microsoft Dynamics 365
 
@@ -52,11 +50,8 @@ ms.locfileid: "8069691"
 
 6. ขณะนี้ ผู้ใช้ต้องลงชื่อเข้าใช้ใน [Microsoft Dynamics 365](https://home.dynamics.com/)
 
-7. เลือก **ซิงค์** เพื่ออัปเดตแอปผู้ใช้
+7. เลือก **ซิงค์** เพื่ออัพเดตแอปผู้ใช้
 
     ![ซิงค์ปุ่ม](media/get-more.png)
 
     หลังจากการซิงโครไนส์เสร็จสมบูรณ์ ทรัพยากรบุคคลจะปรากฏขึ้นบนโฮมเพจ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

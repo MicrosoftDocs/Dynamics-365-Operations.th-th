@@ -1,25 +1,28 @@
 ---
 title: ตรวจสอบและจัดการเครื่องมือ IoT
 description: หัวข้อนี้จะอธิบายถึงวิธีการตรวจสอบและจัดการเครื่องมือ IoT
-author: tonyafehr
+author: robinarh
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782668"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438734"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>ตรวจสอบและจัดการเครื่องมือ IoT
 
@@ -56,9 +59,6 @@ ms.locfileid: "7782668"
 
 คุณสามารถจำลองสัญญาณเครื่องจักรโรงงานได้ สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อเหล่านี้:
 
-+ [เชื่อมต่อ IoT DevKit AZ3166 กับฮับ Azure IoT](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [เชื่อมต่อกับโปรแกรมจำลอง Raspberry Pi ออนไลน์กับฮับ Azure IoT (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [ภาพรวมส่วนช่วยดำเนินการของโซลูชันการจำลองอุปกรณ์](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
++ [เชื่อมต่อ IoT DevKit AZ3166 กับฮับ Azure IoT](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [เชื่อมต่อกับโปรแกรมจำลอง Raspberry Pi ออนไลน์กับฮับ Azure IoT (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [ภาพรวมส่วนช่วยดำเนินการของโซลูชันการจำลองอุปกรณ์](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)

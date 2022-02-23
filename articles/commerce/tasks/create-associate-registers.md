@@ -1,25 +1,27 @@
 ---
 title: " สร้างและเชื่อมโยงการลงทะเบียน"
 description: 'กระบวนงานนี้อธิบายวิธีการสร้างเครื่องบันทึกเงินสดการขายหน้าร้าน (POS) '
-author: BrianShook
+author: rubencdelgado
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48ad1891955b15d22f3cecac128a831adabdac87
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779438"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964906"
 ---
 # <a name="create-and-associate-registers"></a> สร้างและเชื่อมโยงการลงทะเบียน
 
@@ -41,6 +43,3 @@ ms.locfileid: "7779438"
     * หมายเลขเครื่องบันทึกเงินสด EFT POS จะใช้เพื่อแจ้งตัวประมวลผลการชำระเงินว่าเทอร์มินัลการชำระเงินใดจะส่งคำขอตรวจสอบ  ค่านี้มักเรียกว่า "รหัสเทอร์มินัล" หรือ "TID" โดยทั่วไปคุณจะพบ TID บนสติกเกอร์บนอุปกรณ์การชำระเงิน  
 9. คลิก บันทึก
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

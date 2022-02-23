@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 description: บทความนี้อธิบายถึง วิธีที่ผู้เชี่ยวชาญด้านการจัดซื้อสามารถตั้งค่าและรักษาแค็ตตาล็อกการจัดซื้อในระดับสูง แค็ตตาล็อกการจัดซื้อกำหนดสินค้าและบริการที่พนักงานบริษัทสามารถสั่งสำหรับใช้ภายใน
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-  - '2214'
-  - intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: henrikan
-ms.search.validFrom: '2016-02-28'
+ms.author: riluan
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019790"
 ---
-
 # <a name="procurement-catalogs-overview"></a>ภาพรวมของแค็ตตาล็อกการจัดซื้อ
 
 [!include [banner](../includes/banner.md)]
@@ -64,12 +68,10 @@ ms.dyn365.ops.version: AX 7.0.0
 -   **ทั้งสอง** – ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดของการอัพเดตค่าเริ่มต้นของ **คงที่** จะต้องอัพเดตด้วยตนเองเมื่อประเภทเหล่านี้ถูกอัพเดต ถ้าแค็ตตาล็อกรวมประเภทผลิตภัณฑ์ที่มีชนิดการอัพเดตค่าเริ่มต้น **ไดนามิก** จะมีการอัพเดตโดยอัตโนมัติทุกครั้งที่มีการเปลี่ยนแปลง
 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ตั้งค่าประเภทการจัดซื้อตามลำดับชั้น](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

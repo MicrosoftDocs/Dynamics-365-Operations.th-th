@@ -44,5 +44,3 @@ ms.locfileid: "4462681"
 - การอัปเดตเป็นเบราว์เซอร์สนับสนุน (LinkedIn ไม่สนับสนุน Internet Explorer 11 ณ วันที่ 1 กรกฎาคม 2020)
 
 สำหรับข้อมูลเพิ่มเติมให้ ดูที่ [จัดหาผู้สมัครด้วย LinkedIn Recruiter ใน Attract](attract-linkedin-recruiter.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: สร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 description: เมื่อต้องการทำขั้นตอนในกระบวนงานนี้ให้เสร็จเรียบร้อย ก่อนอื่นคุณต้องดำเนินกระบวนงาน "ER สร้างเอกสารที่มีการปรับปรุงข้อมูลแอพลิเคชัน (ส่วนที่ 4 - แก้ไขรูปแบบ)" ให้เสร็จเรียบร้อยก่อน
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0166e0afb542baea063f2d563e1eaeb0cdbfd6f62d77898fd9916afbeca90e48
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2643c85e64373e30aab16be686c50cd224490fe
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726248"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684486"
 ---
 # <a name="generate-documents-that-have-application-data"></a>จัดทำเอกสารที่มีข้อมูลแอปพลิเคชัน
 
@@ -76,6 +78,3 @@ ms.locfileid: "6726248"
 6. ปิดหน้า
 7. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

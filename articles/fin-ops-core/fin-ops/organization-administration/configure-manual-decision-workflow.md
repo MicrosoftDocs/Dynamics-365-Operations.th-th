@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเองในลำดับงาน
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของการตัดสินใจด้วยตนเอง
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065666"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798864"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเองในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของการตัดสินใจด้วยตนเอง
 
@@ -351,6 +350,3 @@ ms.locfileid: "8065666"
     - **ปี**– เลือกวัน สัปดาห์และเดือนที่ต้องใช้ในการตัดสินใจ ตัวอย่างเช่น คุณอาจต้องการให้ทำการตัดสินใจภายในวันศุกร์ของสัปดาห์ที่สามของเดือนธันวาคม
 
 4. ระบบจะทำการตัดสินใจเองหากเกินขอบเขตเวลา ในรายการ **การดำเนินการ** เลือกตัวเลือกที่ระบบควรเลือก
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

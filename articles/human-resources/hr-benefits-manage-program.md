@@ -1,35 +1,33 @@
 ---
 title: กำหนดและจัดการโปรแกรมสวัสดิการ
-description: ทรัพยากรบุคคลให้ชุดของเครื่องมือที่สามารถถูกใช้เพื่อตั้งค่าและรักษาสวัสดิการ การหักลด และแผนค่าตอบแทนของผู้ปฏิบัติงานที่หน่วยงานนำเสนอ หรือประมวลผลสำหรับผู้ปฏิบัติงาน หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าและการจัดการสวัสดิการ
-author: twheeloc
-ms.date: 08/23/2021
+description: ทรัพยากรบุคคลให้ชุดของเครื่องมือที่สามารถถูกใช้เพื่อตั้งค่าและรักษาสวัสดิการ การหักลด และแผนค่าตอบแทนของผู้ปฏิบัติงานที่หน่วยงานนำเสนอ หรือประมวลผลสำหรับผู้ปฏิบัติงาน บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าการจัดการสวัสดิการ
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065362"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420727"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>กำหนดและจัดการโปรแกรมสวัสดิการ
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-ทรัพยากรบุคคลมีชุดของเครื่องมือที่สามารถถูกใช้เพื่อตั้งค่าและรักษาสวัสดิการ การหักลด และแผนค่าตอบแทนของผู้ปฏิบัติงานที่หน่วยงานนำเสนอหรือประมวลผลสำหรับผู้ปฏิบัติงาน หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าและการจัดการสวัสดิการ
+ทรัพยากรบุคคลมีชุดของเครื่องมือที่สามารถถูกใช้เพื่อตั้งค่าและรักษาสวัสดิการ การหักลด และแผนค่าตอบแทนของผู้ปฏิบัติงานที่หน่วยงานนำเสนอหรือประมวลผลสำหรับผู้ปฏิบัติงาน บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าและการจัดการสวัสดิการ
 
 ## <a name="benefit-setup"></a>การตั้งค่าสวัสดิการ
 
@@ -49,7 +47,7 @@ ms.locfileid: "8065362"
 
 [![รูปภาพสวัสดิการ](./media/benefit-pic.png)](./media/benefit-pic.png)
 
-## <a name="eligibility"></a>การมีสิทธิ์
+## <a name="eligibility"></a>ความถูกต้องตามกฎหมาย
 ปัจจัยหลายอย่างกำหนดสิทธิ์ของผู้ปฏิบัติงาน สำหรับชนิดต่างๆของสวัสดิการที่นายจ้างเสนอ เมื่อคุณสร้างสวัสดิการใน Dynamics 365 Human Resources คุณสามารถตั้งค่าชนิดของสิทธิ์ที่ใช้กับสวัสดิการนั้น 
 
 คุณสามารถทำให้สวัสดิการพร้อมใช้งานกับผู้ปฏิบัติงานทั้งหมด ตัวอย่างเช่น บริษัทบางแห่งเสนอบัตรผ่านการจอดรถให้กับพนักงานทั้งหมดให้เป็นสวัสดิการ เมื่อคุณสร้างสวัสดิการนี้ คุณตั้งค่าสิทธิ์เป็น **พนักงานทั้งหมดมีสิทธิ์** 
@@ -66,6 +64,3 @@ ms.locfileid: "8065362"
 ในทำนองเดียวกัน ส่วนขยายสวัสดิการโดยรวมทำให้คุณสามารถขยายวันหมดอายุของทั้งสวัสดิการและการลงทะเบียนผู้ปฏิบัติงานสำหรับสวัสดิการนั้น ถ้าคุณตัดสินใจที่จะเสนอสวัสดิการนานกว่าที่คุณได้วางแผนไว้ในตอนแรก
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

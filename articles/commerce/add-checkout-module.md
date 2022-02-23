@@ -2,30 +2,35 @@
 title: โมดูลเช็คเอาท์
 description: หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มโมดูลการชำระเงินให้กับหน้าและตั้งค่าคุณสมบัติที่จำเป็น
 author: anupamar-ms
+manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715517"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416287"
 ---
 # <a name="checkout-module"></a>โมดูลเช็คเอาท์
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายถึงวิธีการเพิ่มโมดูลการชำระเงินให้กับหน้าและตั้งค่าคุณสมบัติที่จำเป็น
+
+## <a name="overview"></a>ภาพรวม
 
 โมดูลการชำระเงินเป็นคอนเทนเนอร์พิเศษที่เป็นโฮสต์สำหรับโมดูลทั้งหมดที่จำเป็นในการสร้างใบสั่ง โดยจะแสดงขั้นตอนแต่ละขั้นตอนของลูกค้าที่ใช้ในการป้อนข้อมูลที่เกี่ยวข้องทั้งหมดเพื่อทำการซื้อ โดยจะรวบรวมข้อมูลที่อยู่ที่จัดส่ง วิธีการจัดส่ง และข้อมูลการเรียกเก็บเงิน นอกจากนี้ยังมีสรุปใบสั่งและข้อมูลอื่น ๆ ที่เกี่ยวข้องกับใบสั่งของลูกค้า
 
@@ -122,6 +127,3 @@ ms.locfileid: "6715517"
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 
 [โมดูลบัตรของขวัญ](add-giftcard.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

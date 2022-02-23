@@ -2,23 +2,26 @@
 title: ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับฟังก์ชันย้ายไปที่ผนัง - ย้ายไปยังร้านค้า ฟังก์ชันนี้ช่วยให้คุณสามารถจัดการกับสถานการณ์ที่คุณต้องรวมผลิตภัณฑ์กับพื้นที่การแบ่งระยะการจัดเตรียม โดยยึดตามเงื่อนไขที่ตั้งค่าคอนฟิกได้ ซึ่งจะช่วยลดเวลาในการเบิกสินค้า เนื่องจากจะอนุญาตการเบิกสินค้าไปยังป้ายทะเบียนเป้าหมายเดียว และสามารถใช้ตำแหน่งการสำรองได้มากกว่าการเบิกสินค้าคลัสเตอร์
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574148"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438818"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -522,7 +525,7 @@ ms.locfileid: "7574148"
 
 ถ้าควรปิดตำแหน่งการเรียงลำดับด้วยตนเอง จะต้องมีการตั้งค่าตัวเลือก **ปิดตำแหน่งการเรียงลำดับอัตโนมัติ** สำหรับเท็มเพลตการเรียงลำดับขาออกเป็น *ไม่* และต้องทำการปิดก่อนที่จะสามารถย้ายสินค้าคงคลังไปยังพื้นที่ประตูได้ ตำแหน่งสามารถปิดได้หลายวิธีดังนี้:
 
-- ผ่านแอปการจัดการคลังสินค้าบนมือถือ:
+- ผ่านแอปคลังสินค้า:
 
     - ผู้ใช้สามารถสแกนหนึ่งในสินค้าที่มีอยู่แล้วในตำแหน่ง แล้วจากนั้น เลือก **ปิด** เพื่อปิดตำแหน่ง
     - ถ้าผู้ใช้สแกนคอนเทนเนอร์ที่มีคอนเทนเนอร์ที่เรียงลำดับอยู่แล้ว ข้อความแสดงข้อผิดพลาดจะแสดงขึ้น อย่างไรก็ตาม ผู้ใช้ยังคงสามารถดำเนินการต่อเพื่อปิดตำแหน่งได้
@@ -538,6 +541,3 @@ ms.locfileid: "7574148"
 
 > [!IMPORTANT]
 > หลังจากที่สร้างงานการเคลื่อนย้ายจากสถานที่การเรียงลำดับแล้ว คุณต้องไม่ยกเลิกงาน มิฉะนั้น ตำแหน่งและคอนเทนเนอร์ในนั้นจะถูกลบออกจากระบบ และไม่พร้อมใช้งานสำหรับการประมวลผลต่อไป สินค้าคงคลังจะถูกลบออกด้วย
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

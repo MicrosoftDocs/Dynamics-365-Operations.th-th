@@ -1,24 +1,26 @@
 ---
 title: จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง
 description: หัวข้อนี้แสดงวิธีการสร้างการจัดส่งโดยตรงสำหรับใบสั่งขาย
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572452"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966116"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>จัดส่งสินค้าตามการจัดส่งสินค้าโดยตรง
 
@@ -79,6 +81,3 @@ ms.locfileid: "7572452"
     - หน้าการจัดส่งโดยตรงที่ทำหน้าที่เป็นเวิร์กเบนซ์ที่ให้ภาพรวมของรายการใบสั่งขายทั้งหมดที่จะมีการจัดส่งโดยตรงแก่เจ้าหน้าที่จัดซื้อ  นอกจากนี้ยังสามารถดูการจัดส่งโดยตรงที่เปิดค้างไว้และใบสั่งที่ได้รับดารยืนยันแล้วบนแท็บการยืนยันการขายและการจัดส่ง  
     - หลังจากที่คุณได้สร้างใบสั่งจัดส่งโดยตรงแล้ว จะมีการย้ายไปยังแท็บการยืนยันโดยอัตโนมัติ คุณสามารถเลือกที่จะยืนยันใบสั่งโดยตรงจากหน้านี้ เมื่อมีการยืนยันการซื้อ จะมีการย้ายโดยอัตโนมัติซึ่งจะเปลี่ยนไปแท็บการจัดส่ง ซึ่งคุณสามารถทำการลงทะเบียนการรับสินค้า  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

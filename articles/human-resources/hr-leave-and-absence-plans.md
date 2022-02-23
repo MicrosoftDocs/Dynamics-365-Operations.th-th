@@ -1,33 +1,31 @@
 ---
 title: การสร้างแผนการลางานและขาดงาน
-description: หัวข้อนี้อธิบายวิธีการสร้างแผนการลาใน Dynamics 365 Human Resources สำหรับการลาชนิดต่างๆ
-author: twheeloc
-ms.date: 10/28/2021
+description: สร้างแผนการลางานใน Dynamics 365 Human Resources สำหรับการลางานชนิดต่างๆ
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070261"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420815"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>การสร้างแผนการลางานและขาดงาน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 กำหนดแผนการลางานและการขาดงานใน Dynamics 365 Human Resources สำหรับแต่ละชนิดของการลางานที่คุณเสนอ แผนการลางานและการขาดงานอาจสะสมที่ความถี่ต่างๆเช่นรายปี รายเดือน หรือทุกครึ่งเดือน นอกจากนี้คุณสามารถกำหนดแผนเป็นเงินช่วยเหลือที่มีการคงค้างเดียวเกิดขึ้นในวันที่เฉพาะ ตัวอย่างเช่นคุณอาจสร้างแผนที่ให้เงินช่วยเหลือวันหยุดที่ลอยตัวเป็นประจำทุกปี
 
@@ -81,7 +79,7 @@ ms.locfileid: "8070261"
 
    3. เลือกตัวเลือกจากกล่องแบบหล่นลง **วันที่ได้รับรางวัลการยกยอด**:
 
-      - **วันที่สิ้นสุดรอบระยะเวลาการยกยอด** - พนักงานจะได้รับรางวัลเวลาหยุดพักในวันสุดท้ายของระยะเวลามอบรางวัล ในการรับรู้จำนวนที่ถูกต้อง กระบวนการการยกยอดวันลาต้องรวมรอบระยะเวลาทั้งหมด ตัวอย่างเช่นถ้ารอบระยะเวลาการยกยอดเป็นวันที่ 1 มกราคม 2020 จนถึงวันที่ 31 มกราคม 2020 คุณต้องเรียกใช้รายการยกยอดสำหรับวันที่ 1 กุมภาพันธ์ 2020 เพื่อรวมเดือนมกราคม
+      - **วันที่สิ้นสุดรอบระยะเวลาการยกยอด** - พนักงานจะได้รับรางวัลเวลาหยุดพักในวันสุดท้ายของระยะเวลามอบรางวัล ในการรับรู้จำนวนที่ถูกต้อง กระบวนการการยกยอดวันลาต้องรวมรอบระยะเวลาทั้งหมด ตัวอย่างเช่นถ้ารอบระยะเวลาการยกยอดเป็นวันที่ 1 มกราคม 2020 จนถึงวันที่ 31 มกราคม 2020 คุณต้องรันรายการยกยอดสำหรับวันที่ 1 กุมภาพันธ์ 2020 เพื่อรวมเดือนมกราคม
 
       - **วันที่เริ่มต้นรอบระยะเวลาการยกยอด** - พนักงานจะได้รับเวลาหยุดพักในวันแรกของระยะเวลาการมอบรางวัล
 
@@ -385,6 +383,3 @@ ms.locfileid: "8070261"
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [ตั้งค่าคอนฟิกชนิดการลางานและการขาดงาน](hr-leave-and-absence-types.md)
 - [การรับรู้แผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
-title: การกรองขั้นสูงและไวยากรณ์แบบสอบถาม
-description: หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามสำหรับกล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูงและตัวดำเนินการการจับคู่ ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
+title: ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
+description: หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามที่พร้อมใช้งาน เมื่อคุณใช้กล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง หรือตัวดำเนินการการจับคู่ ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070020"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798682"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายถึงตัวเลือกในการกรองข้อมูลและการสอบถามที่พร้อมใช้งาน เมื่อคุณใช้กล่องโต้ตอบตัวกรอง/เรียงลำดับขั้นสูง หรือตัวดำเนินการ **การจับคู่** ในบานหน้าต่างตัวกรองหรือตัวกรองส่วนหัวของคอลัมน์ในกริด
 
@@ -122,9 +121,9 @@ ms.locfileid: "8070020"
 <td>ใบเสนอราคาคู่ต่อเนื่องสองใบ (<strong>""</strong>) ค้นหาแถวที่ไม่มีค่าสำหรับคอลัมน์ปัจจุบัน</td>
 </tr>
 <tr>
-<td>(<span class="code">การสอบถามการเงินและการดําเนินงาน</span>) (การสอบถามการเงินและการดําเนินงานในวงเล็บ)</td>
+<td>(<span class="code">Finance and Operationsการสอบถาม</span>) (การสอบถาม Finance and Operations ระหว่างวงเล็บ)</td>
 <td>จับคู่การสอบถามที่กำหนด</td>
-<td>พิมพ์การสอบถามเป็นคำสั่ง SQL ในวงเล็บโดยใช้ภาษาการสอบถามการเงินและการดําเนินงาน</td>
+<td>พิมพ์การสอบถามเป็นคำสั่ง SQL ในวงเล็บโดยใช้ภาษาการสอบถาม Finance and Operations</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        เป็นตัวอย่างของไวยากรณ์สำหรับเงื่อนไขตัวกรองข้อมูลในฟิลด์จากแหล่งข้อมูลราก เช่นเดียวกับฟิลด์จากแหล่งข้อมูลที่แตกต่างกัน (สำหรับหน้าลูกค้าทั้งหมด)</td>
 </tr>
@@ -243,6 +242,3 @@ ms.locfileid: "8070020"
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: จัดเตรียมข้อมูลเมตาเฉพาะของแอพลิเคชันสำหรับ RCS และ ER
 description: หัวข้อนี้จะอธิบายถึงวิธีการจัดเตรียมข้อมูลเมตาเฉพาะแอพลิเคชันสำหรับ Regulatory configuration service (RCS) และการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735609"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680205"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>จัดเตรียมข้อมูลเมตาเฉพาะของแอพลิเคชันสำหรับ RCS และ ER
 
@@ -278,6 +280,3 @@ ms.locfileid: "6735609"
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 อีกทางหนึ่งคือ คุณสามารถเล่นคู่มืองาน **จัดเตรียมข้อมูลเมตาของแอพลิเคชันซึ่งสามารถใช้ใน RCS** ในแอพลิเคชั่น เช่นเดียวกับคู่มืองาน **เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER** และ **เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้แอพลิเคชันที่เชื่อมต่อ** ใน RCS คู่มืองานเหล่านี้สามารถดาวน์โหลดได้จากหน้า [คู่มืองานการรายงานอิเล็กทรอนิกส์สำหรับ Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

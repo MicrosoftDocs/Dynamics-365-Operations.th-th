@@ -1,24 +1,26 @@
 ---
 title: ตั้งค่านโยบายสำหรับการจัดประเภทการจัดซื้อตามลำดับชั้น
 description: 'ใช้ขั้นตอนนี้เพื่อตั้งค่ากฎสำหรับการเรียงลำดับผลิตภัณฑ์ในประเภท '
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577107"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017114"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>ตั้งค่านโยบายสำหรับการจัดประเภทการจัดซื้อตามลำดับชั้น
 
@@ -49,6 +51,3 @@ ms.locfileid: "7577107"
 6. ในฟิลด์ **การเลือกผู้จัดจำหน่าย** ให้เลือกหนึ่งตัวเลือก เลือกกฎที่จะควบคุมชนิดของผู้จัดจำหน่ายที่สามารถเลือกสำหรับประเภทเมื่อมีการสร้างใบขอซื้อ  
 7. คลิก **ปิด** กฎนโยบายที่คุณได้กำหนดไว้มีไว้สำหรับใบขอซื้อชนิดของปริมาณการใช้วัสดุ  ถ้าคุณต้องการกำหนดนโยบายสำหรับใบขอซื้อของชนิดการเติมสินค้า คุณต้องสร้างกฎสำหรับชนิดกฎนโยบายที่เรียกว่า "กฎนโยบายการเข้าถึงประเภทการเติมสินค้า"  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

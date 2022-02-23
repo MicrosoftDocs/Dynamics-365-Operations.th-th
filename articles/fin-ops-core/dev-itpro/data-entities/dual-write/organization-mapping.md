@@ -1,26 +1,35 @@
 ---
 title: ลำดับชั้นขององค์กรใน Dataverse
-description: หัวข้อนี้จะอธิบายการรวมของข้อมูลเชิงองค์กรระหว่างแอปการเงินและการดำเนินงานกับ Dataverse
+description: ในหัวข้อนี้อธิบายการรวมข้อมูลองค์กรระหว่างแอป Finance and Operations กับ Dataverse
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062097"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744704"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>ลำดับชั้นขององค์กรใน Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 เนื่องจาก Dynamics 365 Finance เป็นระบบทางการเงิน *องค์กร* เป็นแนวคิดหลัก และการตั้งค่าระบบจะเริ่มต้นด้วยการตั้งค่าคอนฟิกของลำดับชั้นขององค์กร สามารถติดตามการเงินของธุรกิจได้ที่ระดับองค์กรและที่ระดับใดก็ได้ในลำดับชั้นขององค์กร
 
@@ -28,27 +37,39 @@ ms.locfileid: "8062097"
 
 ## <a name="data-flow"></a>โฟลว์ข้อมูล
 
-ระบบนิเวศทางธุรกิจที่ประกอบด้วยแอปการเงินและการดำเนินงานและ Dataverse จะยังคงมีลำดับชั้นขององค์กรอยู่ ลำดับชั้นขององค์กรนี้ถูกสร้างขึ้นในแอปการเงินและการดำเนินงาน แต่จะถูกแสดงใน Dataverse เพื่อวัตถุประสงค์ในการให้ข้อมูลและความสามารถในการเพิ่มฟังก์ชัน ภาพประกอบต่อไปนี้แสดงข้อมูลลำดับชั้นขององค์กรที่ถูกเปิดเผยใน Dataverse เป็นโฟลว์ข้อมูลทางเดียวจากแอปการเงินและการดำเนินงานไปยัง Dataverse
+ระบบแวดล้อมทางธุรกิจที่ประกอบด้วยแอป Finance and Operations และ Dataverse จะยังคงมีลำดับชั้นขององค์กรต่อไป ลำดับชั้นขององค์กรนี้สร้างขึ้นบนแอป Finance and Operations แต่เปิดเผยใน Dataverse เพื่อวัตถุประสงค์ในการให้ข้อมูลและการขยาย ภาพประกอบต่อไปนี้แสดงข้อมูลลำดับชั้นขององค์กรที่เปิดเผยใน Dataverse เป็นโฟลว์ข้อมูลทางเดียวจากแอป Finance and Operations ไปยัง Dataverse
 
 ![รูปภาพของสถาปัตยกรรม](media/dual-write-data-flow.png)
 
-แผนผังตารางลำดับชั้นขององค์กรจะพร้อมใช้งานสำหรับการซิงโครไนส์ข้อมูลแบบทางเดียวจากแอปการเงินและการดำเนินงานไปยัง Dataverse
+แผนผังตารางลำดับชั้นขององค์กรพร้อมใช้งานสำหรับการทำข้อมูลทางเดียวให้ตรงกันจากแอป Finance and Operations ไปยัง Dataverse
 
-## <a name="templates"></a>เทมเพลต
+## <a name="templates"></a>เท็มเพลต
 
 ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังตารางถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
 
-แอปการเงินและการดำเนินงาน | แอปการมีส่วนร่วมของลูกค้า     | คำอธิบาย
+แอป Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
 -----------------------|--------------------------------|---
-[นิติบุคคล](mapping-reference.md#102) | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
-[นิติบุคคล](mapping-reference.md#142) | msdyn_internalorganizations |
-[หน่วยปฏิบัติงาน](mapping-reference.md#143) | msdyn_internalorganizations |
-[ลำดับชั้นขององค์กร - เผยแพร่](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | เทมเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางที่เผยแพร่ของลำดับชั้นขององค์กร
-[วัตถุประสงค์ลำดับชั้นขององค์กร](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | เทมเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางวัตถุประสงค์ของลำดับชั้นขององค์กร
-[ชนิดลำดับชั้นขององค์กร](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | เทมเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางชนิดของลำดับชั้นขององค์กร
+วัตถุประสงค์ลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchypurposes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางวัตถุประสงค์ของลำดับชั้นขององค์กร
+ชนิดลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchytypes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางชนิดของลำดับชั้นขององค์กร
+ลำดับชั้นขององค์กร - เผยแพร่ | msdyn_internalorganizationhierarchies | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางที่เผยแพร่ของลำดับชั้นขององค์กร
+หน่วยปฏิบัติงาน | msdyn_internalorganizations |
+นิติบุคคล | msdyn_internalorganizations |
+นิติบุคคล | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
+
+[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
+
+[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>องค์กรภายใน
 
 ข้อมูลองค์กรภายในใน Dataverse มาจากตารางสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
+
+[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
+
+[!include [Legal entities](includes/LegalEntities-Companies.md)]

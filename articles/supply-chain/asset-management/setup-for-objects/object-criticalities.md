@@ -1,10 +1,12 @@
 ---
 title: ประเภทการวิพากษ์วิจารณ์สินทรัพย์
 description: หัวข้อจะอธิบายชนิดการวิพากษ์วิจารณ์สินทรัพย์ในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776931"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021715"
 ---
 # <a name="asset-criticality-types"></a>ประเภทการวิพากษ์วิจารณ์สินทรัพย์
 
@@ -59,6 +61,3 @@ ms.locfileid: "6776931"
 - การวิพากษ์วิจารณ์ในใบสั่งงานจะถูกคำนวณใหม่ทุกครั้งที่มีการเพิ่มหรือลบรายการใบสั่งงานจากใบสั่งงาน
 - ถ้าใบสั่งงานประกอบด้วยงานในใบสั่งงานหลายงาน การวิพากษ์วิจารณ์สูงสุด ตามฟิลด์ **ปัจจัย** ในหน้า **ชนิดการวิพากษ์วิจารณ์** จะใช้ในใบสั่งงานเสมอ
 - โดยทั่วไป การวิพากษ์วิจารณ์สินทรัพย์สามารถเปลี่ยนแปลงได้ตลอดรอบระยะเวลา การวิพากษ์วิจารณ์อาจได้รับผลกระทบจากการซื้ออุปกรณ์ใหม่ การตกแต่งใหม่ และอื่นๆ พิจารณาการประเมินการวิพากษ์วิจารณ์สินทรัพย์ของคุณใหม่ในช่วงเวลาปกติ (ตัวอย่างเช่น ปีละครั้ง หรือปีเว้นปี) เพื่อให้แน่ใจว่าคำนิยามการวิพากษ์วิจารณ์ของคุณตรงกับการตั้งค่าการผลิตปัจจุบันของคุณ
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

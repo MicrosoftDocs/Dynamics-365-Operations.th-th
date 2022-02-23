@@ -2,24 +2,27 @@
 title: นำรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า
 description: หัวข้อนี้อธิบายกระบวนการสำหรับการนำวัตถุดิบสำหรับรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438828"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>นำรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า
 
@@ -95,6 +98,3 @@ ms.locfileid: "6731234"
     มีการกำหนดหน่วยที่พร้อมใช้งานอยู่ในรหัสกลุ่มลำดับหน่วยของสินค้าสำเร็จรูป
 
     ตัวอย่างเช่น สินค้าสำเร็จรูปมีการแปลงหน่วยระหว่างปอนด์ (lbs.) และแท่นวางสินค้า (PL) ต่อไปนี้: 1 PL = 100 lbs ในการสร้างใบสั่งผลิตสำหรับ 10,000 lbs ของสินค้าสำเร็จรูป คุณสามารถนำวัตถุดิบออกใช้ สำหรับหมายเลขของแท่นวางสินค้าที่คุณวางแผนจะผลิต เลือก **PL** เป็นหน่วย แล้วจากนั้น เลือกหมายเลขที่สอดคล้องกันในฟิลด์ **ปริมาณ**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

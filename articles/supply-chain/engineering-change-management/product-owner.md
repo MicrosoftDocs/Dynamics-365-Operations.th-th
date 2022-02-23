@@ -2,9 +2,11 @@
 title: เจ้าของผลิตภัณฑ์
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับเจ้าของผลิตภัณฑ์ เจ้าของผลิตภัณฑ์คือกลุ่มของผู้ใช้ที่รับผิดชอบผลิตภัณฑ์เฉพาะ เฉพาะสมาชิกของกลุ่มเท่านั้นที่สามารถนำผลิตภัณฑ์ดังกล่าวไปใช้ได้ เจ้าของผลิตภัณฑ์สามารถใช้ในลำดับงานการอนุมัติได้ด้วย
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567522"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967344"
 ---
 # <a name="product-owners"></a>เจ้าของผลิตภัณฑ์
 
@@ -58,6 +60,3 @@ ms.locfileid: "7567522"
 ## <a name="product-owners-and-approvals"></a>เจ้าของผลิตภัณฑ์และการอนุมัติ
 
 เนื่องจากเจ้าของผลิตภัณฑ์ทราบว่าการเปลี่ยนแปลงทางวิศวกรรมเฉพาะจะเป็นประโยชน์กับผลิตภัณฑ์ของตนบ่อยเพียงใด จึงทำให้เกิดความรู้สึกเพื่อรวมไว้เป็นส่วนหนึ่งของกระบวนการอนุมัติในการจัดการการเปลี่ยนแปลงทางวิศวกรรม คุณสามารถใช้วิธีการนี้ได้โดยการตั้งค่าเจ้าของผลิตภัณฑ์เป็นผู้ให้บริการเข้าร่วมในลำดับงานที่ใช้สำหรับการจัดการการเปลี่ยนแปลงทางวิศวกรรม ระบบจะกำหนดงานการอนุมัติในลำดับงานโดยยึด ตามผลิตภัณฑ์ที่อยู่ในคำขอเปลี่ยนแปลงทางวิศวกรรมและใบสั่งเปลี่ยนแปลงทางวิศวกรรม สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดการการเปลี่ยนแปลงที่เกิดขึ้นกับผลิตภัณฑ์วิศวกรรม](engineering-change-management.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

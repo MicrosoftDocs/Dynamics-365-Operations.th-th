@@ -2,19 +2,28 @@
 title: กรองใบสั่งระหว่างบริษัท เพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
 description: หัวข้อนี้อธิบายวิธีการกรองใบสั่งระหว่างบริษัท เพื่อให้เอนทิตี้ ใบสั่ง และ รายการใบสั่ง ไม่ได้ซิงค์
 author: negudava
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: negudava
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-09-20
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782564"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796617"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>กรองใบสั่งระหว่างบริษัท เพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
 
@@ -38,7 +47,7 @@ ms.locfileid: "7782564"
 
 4. หลังจากที่ **รายการใบสั่งขายของ CDS** ถูกขยายแล้ว คอลัมน์ **IntercompanyInventTransId** จะพร้อมใช้งานในการแม็ป ใช้ตัวกรองที่มี `INTERCOMPANYINVENTTRANSID == ""` เป็นสตริงการสอบถาม
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับรายการของใบสั่งขาย CDS":::
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับบรรทัดของใบสั่งขาย CDS":::
 
 5. ทําซ้ําขั้นตอนที่ 1 และ 2 เพื่อขยายตาราง **ส่วนหัวของใบแจ้งหนี้การขาย V2** และเพิ่มการสอบถามตัวกรอง ในกรณีนี้ ให้ใช้ `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` เป็นสตริงการสอบถามของตัวกรอง
 
@@ -48,7 +57,7 @@ ms.locfileid: "7782564"
 
 6. ทําซ้ําขั้นตอนที่ 3 และ 4 เพื่อขยายตาราง **บรรทัดของใบแจ้งหนี้การขาย V2** และเพิ่มการสอบถามตัวกรอง ในกรณีนี้ ให้ใช้ `INTERCOMPANYINVENTTRANSID == ""` เป็นสตริงการสอบถามของตัวกรอง
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับรายการของใบแจ้งหนี้การขาย V2":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับบรรทัดวของใบแจ้งหนี้การขาย V2":::
 
 7. ตาราง **ใบเสนอราคา** ไม่มีความสัมพันธ์ระหว่างบริษัท ถ้ามีบุคคลสร้างใบเสนอราคาสำหรับลูกค้าระหว่างบริษัทอย่างใดอย่างหนึ่ง คุณสามารถใช้คอลัมน์ **CustGroup** เพื่อวางลูกค้าทั้งหมดเหล่านั้นลงในกลุ่มลูกค้าหนึ่งกลุ่ม คุณสามารถขยายส่วนหัวและรายการโดยเพิ่มคอลัมน์ **CustGroup** แล้วกรองข้อมูล เพื่อให้กลุ่มนั้นไม่รวมอยู่ในกลุ่ม
 
@@ -57,6 +66,3 @@ ms.locfileid: "7782564"
 8. หลังจากที่ขยาย **ใบเสนอราคา** แล้ว ให้ใช้ตัวกรองที่มี `CUSTGROUP != "<company>"` เป็นสตริงการสอบถาม
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="แก้ไขกล่องโต้ตอบการสอบถามเกี่ยวกับส่วนหัวของใบเสนอราคาการขาย CDS":::
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

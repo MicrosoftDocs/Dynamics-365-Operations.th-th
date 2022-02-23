@@ -2,9 +2,11 @@
 title: ลักษณะการทำงานเกี่ยวกับความสามารถในการเข้าถึง
 description: หัวข้อนี้อธิบายถึง ฟังก์ชันที่มีวัตถุประสงค์เพื่อช่วยเหลือผู้ใช้ที่มีความบกพร่องทางร่างกายด้านต่าง ๆ
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071069"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798706"
 ---
 # <a name="accessibility-features"></a>คุณสมบัติความสามารถในการเข้าถึง
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายฟังก์ชัน ที่ถูกออกแบบเพื่อช่วยผู้ใช้ที่มีความบกพร่องทางร่างกายหลายด้านสามารถใช้งานแอพนี้ได้ ตัวอย่างเช่น มีคุณลักษณะสำหรับผู้ที่ใช้เทคโนโลยีที่ช่วยด้านการมองเห็นเช่น Microsoft Windows Narrator
 
@@ -98,6 +97,3 @@ ms.locfileid: "8071069"
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>คำแนะนำเพื่อช่วยให้นักพัฒนาและลูกค้ารวมความคิดที่สามารถเข้าถึงได้ในแบบกำหนดเองของพวกเขา
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับแนวทางที่พึงปฏิบัติที่ดีที่สุดของ Microsoft สำหรับการเปิดใช้งานการเข้าถึง ดู [การเข้าถึงในแบบฟอร์ม ผลิตภัณฑ์ และการควบคุม](../../dev-itpro/user-interface/enable-accessibility.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

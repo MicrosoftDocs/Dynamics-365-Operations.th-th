@@ -2,9 +2,11 @@
 title: การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต
 description: หัวข้อนี้อธิบายขั้นตอนสำหรับการเตรียมการในการรักษาต้นทุนสำหรับสินค้าที่ผลิต
 author: AndersGirke
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
@@ -16,12 +18,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec68e1efc261920dc8f08ed602836b1939511dfce01008c093af7916ecd71618
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b35e424c582c173e3fa1f4d0a335106e413b6660
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734342"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967419"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>การเตรียมการรักษาต้นทุนมาตรฐานสำหรับสินค้าที่ผลิต
 
@@ -63,12 +65,10 @@ ms.locfileid: "6734342"
 
 ถ้าคุณต้องการใช้ข้อมูลสายงานการผลิตสำหรับวัตถุประสงค์เพื่อการคำนวณต้นทุน จะต้องมีขั้นตอนการเตรียมการเพิ่มเติม ตัวอย่างเช่น ประเภทต้นทุนที่ถูกกำหนดให้กับการดำเนินการสายงานการผลิตต้องถูกต้องและสมบูรณ์
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+<a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+--------
 
 [การตัดจำหน่ายต้นทุนคงที่สำหรับสินค้าที่ผลิต](amortize-constant-costs-manufactured-item.md)
 
 [ตั้งค่าผลิตภัณฑ์ที่สามารถถูกผลิตหรือจัดซื้อ](manufactured-items-treated-as-purchased-items.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

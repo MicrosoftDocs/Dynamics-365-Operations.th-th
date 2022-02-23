@@ -1,10 +1,12 @@
 ---
 title: ค่าเสื่อมราคาของสินทรัพย์ถาวร
-description: หัวข้อนี้แสดงภาพรวมของค่าเสื่อมราคาในสินทรัพย์ถาวร
-author: moaamer
-ms.date: 12/03/2021
+description: หัวข้อนี้แสดงภาพรวมของค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -12,26 +14,23 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890991"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969114"
 ---
 # <a name="fixed-asset-depreciation"></a>ค่าเสื่อมราคาของสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของค่าเสื่อมราคาในสินทรัพย์ถาวร
+หัวข้อนี้แสดงภาพรวมของค่าเสื่อมราคาสำหรับสินทรัพย์ถาวร
 
 ค่าเสื่อมราคาเป็นธุรกรรมประจำงวด ซึ่งโดยปกติแล้วจะลดมูลค่าของสินทรัพย์ถาวรในงบดุล และบันทึกเป็นค่าใช้จ่ายในงบกำไรขาดทุน ดังนั้น โดยปกติบัญชีหลักจะถูกใช้ในเครดิตค่าเสื่อมราคาประจำงวดในงบดุล บัญชีตรงข้ามจะเป็นบัญชีในส่วนกำไรขาดทุนของผังบัญชี
-
-สำหรับรุ่น 10.0.24 ตัวเลือกการตั้งค่าคอนฟิกสมุดบัญชีสินทรัพย์ **คำนวณค่าเสื่อมราคาค่าบวก** ในหน้า **สมุดบัญชี** ช่วยให้ค่าเสื่อมราคาสามารถเดบิตสินทรัพย์ถาวรที่ซื้อมาด้วยมูลค่าตามบัญชีค่าลบ (เครดิต) ได้
 
 ## <a name="depreciation-adjustment"></a>การปรับปรุงค่าเสื่อมราคา
 โดยปกติ เฉพาะการแก้ไขธุรกรรมค่าเสื่อมราคาที่ลงรายการบัญชีไปแล้วจะถูกลงรายการบัญชีเป็นการปรับปรุงค่าเสื่อมราคา ดังนั้น บัญชีหลักและบัญชีตรงข้ามมีการตั้งค่าลักษณะเดียวกับบัญชีสำหรับค่าเสื่อมราคา การปรับปรุงค่าเสื่อมราคาอาจเป็นค่าบวกหรือค่าลบ แต่ฟังก์ชันของบัญชีหลัก (เป็นบัญชีงบดุล) และฟังก์ชันของบัญชีตรงข้าม (โดยปกติเป็นบัญชีกำไรขาดทุน) ยังคงเหมือนเดิม
@@ -57,6 +56,3 @@ ms.locfileid: "7890991"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

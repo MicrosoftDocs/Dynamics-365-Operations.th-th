@@ -2,9 +2,11 @@
 title: ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อให้เข้าใจการแปลงและลำดับของข้อมูลที่กําหนดค่าดีขึ้น
 author: NickSelin
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ba8f20e7b4ca6579016fa60d0bbf69f7b4e9c7d3
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3a486800f37dda7829aeeaa56a30285a92a61b9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605392"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680793"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>ดีบักแหล่งข้อมูลของรูปแบบ ER ที่ดําเนินการ เพื่อวิเคราะห์การแปลงและลำดับของข้อมูล
 
@@ -234,7 +236,7 @@ ms.locfileid: "7605392"
 
     โปรดสังเกตว่าองค์ประกอบรูปแบบภายใต้ **เอกสาร** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** ถูกกําหนดค่าให้ป้อนรหัส IBAN ของบัญชีผู้จัดจําหน่ายในไฟล์การชําระเงิน
 
-    ![องค์ประกอบรูปแบบ BankIBAN บนหน้าตัวออกแบบรูปแบบ](./media/er-data-debugger-format.png)
+    ![องค์ประกอบ BankIBAN บนหน้าโปรแกรมออกแบบรูปแบบ](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>ภาคผนวก 2: ตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
@@ -279,6 +281,3 @@ ms.locfileid: "7605392"
 6. ในฟิลด์ **บัญชีธนาคาร** ให้เลือก **DEMF OPER**
 7. ในกล่องโต้ตอบ **สร้างการชําระเงิน** ให้เลือก **ตกลง**
 8. ในกล่องโต้ตอบ **พารามิเตอร์ของรายงานทางอิเล็กทรอนิกส์** เลือก **ตกลง**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

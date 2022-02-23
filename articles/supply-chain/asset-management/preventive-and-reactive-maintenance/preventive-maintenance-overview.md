@@ -1,22 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมการบำรุงรักษาเชิงป้องกัน
 description: หัวข้อนี้อธิบายถึงการบำรุงรักษาเชิงป้องกันในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
-ms.search.validFrom: '2019-08-31'
+ms.author: riluan
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 36a70a3e60566fd8048ad404e0c391d898053a0a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016739"
 ---
-
 # <a name="preventive-maintenance-overview"></a>ภาพรวมการบำรุงรักษาเชิงป้องกัน
 
 [!include [banner](../../includes/banner.md)]
@@ -31,6 +38,3 @@ ms.dyn365.ops.version: 10.0.5
 
 ![รูปที่ 1](media/01-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

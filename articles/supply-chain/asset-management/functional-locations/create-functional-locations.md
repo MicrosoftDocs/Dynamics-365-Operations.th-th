@@ -1,10 +1,12 @@
 ---
 title: สร้างตำแหน่งที่ทำงาน
 description: หัวข้อนี้อธิบายวิธีการสร้างตำแหน่งที่ทำงานในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767546"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018232"
 ---
 # <a name="create-functional-locations"></a>สร้างตำแหน่งที่ทำงาน
 
@@ -129,6 +131,3 @@ ms.locfileid: "6767546"
 
 >[!NOTE]
 >ถ้าคุณไม่สามารถลบตำแหน่งที่ทำงาน คุณสามารถจัดการการลบได้โดยการตั้งค่าสถานะของวงจรการใช้ของตำแหน่งที่ทำงานสำหรับวัตถุประสงค์นี้แทน ตัวอย่างเช่น คุณสามารถตั้งค่าขั้นตอน "ตัดจำหน่ายเป็นเศษซาก" หรือ "ลบ" ซึ่งไม่ควรเป็นขั้นตอนที่ใช้งานอยู่ ในฟอร์ม **สถานะของวงจรการใช้ของตำแหน่งที่ทำงาน**
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

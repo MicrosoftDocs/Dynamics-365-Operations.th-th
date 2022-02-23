@@ -1,27 +1,30 @@
 ---
 title: เอนทิตี้ข้อมูลผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับเอนทิตีต่างๆ ที่สามารถใช้ในการนำเข้าและส่งออกข้อมูลผลิตภัณฑ์
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
+ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567162"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4438954"
 ---
 # <a name="product-data-entities"></a>เอนทิตี้ข้อมูลผลิตภัณฑ์
 
@@ -47,6 +50,3 @@ ms.locfileid: "7567162"
 
 > [!NOTE]
 > คุณสามารถใช้เอนทิตีข้อมูล **ผลิตภัณฑ์ที่นำออกใช้ V2** เพื่อนำเข้าผลิตภัณฑ์ในระบบเฉพาะเมื่อมีการสร้างผลิตภัณฑ์ที่ใช้ร่วมกันแล้วเท่านั้น มิฉะนั้น เพื่อนำเข้าผลิตภัณฑ์เข้าไปในระบบ คุณต้องใช้เอนทิตีข้อมูล **การสร้างผลิตภัณฑ์**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

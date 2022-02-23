@@ -2,26 +2,26 @@
 title: ระดับการคำนวณต้นทุน
 description: หัวข้อนี้อธิบายระดับของรายการวัสดุและส่วนประกอบ (BOM) ที่มีการตั้งชื่อว่าระดับการคำนวณต้นทุน ระดับ BOM นี้ไม่รวมใบสั่งผลิตและใบสั่งชุดในการคำนวณ
 author: AndersGirke
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 42088d8c005cf3fc04e768f1b8e8c8ca0b8c6993
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581043"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967743"
 ---
 # <a name="cost-calculation-level"></a>ระดับการคำนวณต้นทุน
-
-[!include [banner](../includes/banner.md)]
 
 ระดับของรายการวัสดุและส่วนประกอบ (BOM) ที่ตั้งชื่อเป็น **ระดับการคำนวณต้นทุน** ไม่รวมใบสั่งผลิตและใบสั่งชุดงานในการคำนวณ ระบบจะใช้ระดับนี้ เมื่อเรียกใช้การคำนวณต้นทุนในเวอร์ชันการคิดต้นทุน ในกระบวนการ เช่น การคำนวณใหม่ และการปิดบัญชีสินค้าคงคลัง ระบบจะใช้ BOM ระดับ **ระดับการคิดต้นทุน** แทน
 
@@ -56,6 +56,3 @@ ms.locfileid: "7581043"
     - **ผลิตภัณฑ์ C:** 2
 
 ลักษณะการทำงานนี้ช่วยให้มั่นใจว่าการเปลี่ยนแปลงใน BOM ของใบสั่งผลิตจะไม่มีผลกระทบต่อการคำนวณต้นทุน
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

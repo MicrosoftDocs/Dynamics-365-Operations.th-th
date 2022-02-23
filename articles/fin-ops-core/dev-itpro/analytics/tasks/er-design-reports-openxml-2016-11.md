@@ -1,10 +1,12 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER (พฤศจิกายน 2016)
-description: หัวข้อนี้จะอธิบายวิธีการสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ ที่มีเท็มเพลตไว้สร้างเอกสารอิเล็กทรอนิกส์ในรูปแบบ OPENXML
+description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) ซึ่งประกอบด้วยเท็มเพลตสำหรับการสร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ OPENXML
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753039"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681912"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER (พฤศจิกายน 2016)
 
@@ -28,7 +30,7 @@ ms.locfileid: "6753039"
 
 ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกสำหรับบริษัทตัวอย่าง ซึ่งคือ Litware, Inc. ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัท GBSI 
 
-เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่" ให้เสร็จสมบูรณ์ คุณยังต้องมีไฟล์ Excel ซึ่งจะถูกนำเข้าเมื่อมีการสร้างเท็มเพลต สามารถเข้าถึงไฟล์นี้ได้จาก [เท็มเพลตของรายงานการชำระเงิน](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx)
+เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ในกระบวนงาน "สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่" ให้เสร็จสมบูรณ์ คุณยังต้องมีไฟล์ Excel ซึ่งจะถูกนำเข้าเมื่อมีการสร้างเท็มเพลต สามารถเข้าถึงไฟล์นี้ได้จาก [เท็มเพลตของรายงานการชำระเงิน](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>อัพโหลดการตั้งค่าคอนฟิกแบบจำลองข้อมูลการชำระเงิน
@@ -148,6 +150,3 @@ ms.locfileid: "6753039"
 17. ในฟิลด์ **บัญชีธนาคาร** พิมพ์ `GBSI OPER`
 18. เลือก **ตกลง** จากนั้น เลือก **ตกลง** อีกครั้ง ตรวจทานแผ่นงานที่สร้าง ซึ่งรวมถึงรายละเอียดของรายการชำระเงิน และยอดรวมสำหรับรหัสสกุลเงินแต่ละรายการที่ใช้ในข้อความการชำระเงินนี้  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

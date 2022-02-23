@@ -1,32 +1,33 @@
 ---
 title: เอาอินสแตนซ์ออก
-description: หัวข้อนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 08/11/2021
+description: บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393508"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420799"
 ---
 # <a name="remove-an-instance"></a>เอาอินสแตนซ์ออก
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้อธิบายกระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
+บทความนี้นำคุณไปสู่กระบวนการในการลบ Test Drive หรือสภาพแวดล้อมการผลิตสำหรับ Microsoft Dynamics 365 Human Resources
 
 ## <a name="remove-a-test-drive-environment"></a>เอาสภาพแวดล้อมไดรฟ์ทดสอบออก
 
@@ -41,7 +42,7 @@ ms.locfileid: "7393508"
 
 ## <a name="remove-a-production-environment"></a>เอาสภาพแวดล้อมการผลิตออก
 
-หัวข้อนี้สันนิษฐานว่า คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) 
+บทความนี้สันนิษฐานว่า คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) 
 
 เนื่องจากสภาพแวดล้อมทรัพยากรบุคคลเดียวถูก"บรรจุ"อยู่ภายในสภาพแวดล้อม Power Apps เดียวซึ่งคุณมีตัวเลือกสองตัวที่ควรพิจารณา ตัวเลือกแรกเกี่ยวข้องกับการลบสภาพแวดล้อม Power Apps ทั้งหมด; ตัวเลือกที่สองเกี่ยวข้องกับการลบเฉพาะทรัพยากรบุคคล ตัวเลือกแรกเป็นที่ต้องการเมื่อคุณได้สร้างสภาพแวดล้อม Power Apps อย่างชัดเจนสำหรับวัตถุประสงค์ในการเตรียมใช้งานทรัพยากรบุคคล และคุณเพียงพึ่งเริ่มใช้งานหรือคุณไม่มีการรวมใดๆที่สร้างไว้แล้ว ตัวเลือกที่สองจะเหมาะสมก็ต่อเมื่อคุณได้มีสภาพแวดล้อม Power Apps ที่สร้างไว้แล้วซึ่งเต็มไปด้วยข้อมูลที่หลากหลายที่ถูกยกระดับใน Power Apps และ Power Automate
 
@@ -80,10 +81,7 @@ ms.locfileid: "7393508"
 
 1. ทำตามคำแนะนำในหน้าต่าง [คืนค่าสภาพแวดล้อม Power Apps](/power-platform/admin/recover-environment.md)
 
-2. โปรดติดต่อฝ่ายสนับสนุนเพื่อคืนสภาพแวดล้อมของทรัพยากรบุคคล สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+2. โปรดติดต่อฝ่ายสนับสนุนเพื่อคืนสภาพแวดล้อมของทรัพยากรบุคคล สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
 
 > [!Warning]
 > สภาพแวดล้อม Power Apps จะถูกบันทึกไว้เป็นเวลาเจ็ดวันหลังจากลบ คุณต้องกู้คืนสภาพแวดล้อมภายในรอบระยะเวลาเจ็ดวัน
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

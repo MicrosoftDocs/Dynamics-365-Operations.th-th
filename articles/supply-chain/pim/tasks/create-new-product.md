@@ -1,24 +1,27 @@
 ---
 title: สร้างผลิตภัณฑ์ใหม่
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างผลิตภัณฑ์ที่ใช้ร่วมกันใหม่
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438484"
 ---
 # <a name="create-a-new-product"></a>สร้างผลิตภัณฑ์ใหม่
 
@@ -40,6 +43,3 @@ ms.locfileid: "7575595"
 3. ในฟิลด์ **กลุ่มมิติการติดตาม** ให้ป้อนหรือเลือกค่า กลุ่มมิติการติดตามจะกำหนดว่า มิติการติดตามใดที่คุณต้องป้อนสำหรับแต่ละธุรกรรมสำหรับผลิตภัณฑ์ และวิธีการจัดการในสินค้าคงคลัง  
 4. เลือก **ตกลง**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

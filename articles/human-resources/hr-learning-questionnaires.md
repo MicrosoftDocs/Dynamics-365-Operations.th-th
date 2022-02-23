@@ -1,35 +1,33 @@
 ---
 title: แบบสอบถาม
-description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม
-author: twheeloc
-ms.date: 10/28/2021
+description: บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ad5f3572e7b4b0594ffce6abaddceac955d1c678
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c96be3a46de6ed841331f36114132ca59c236ba2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069515"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420824"
 ---
 # <a name="questionnaires"></a>แบบสอบถาม
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์ 
+บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับแบบสอบถาม และลิงค์ไปยังข้อมูลที่มีรายละเอียดเพิ่มเติม แบบสอบถามคือชุดของคำถามที่ใช้ในการรวบรวมข้อมูลสำหรับวัตถุประสงค์ต่าง ๆ คุณสามารถออกแบบ สร้าง กระจาย และกรอกข้อมูลแบบสอบถาม แล้วจากนั้นจึงวิเคราะห์ผลลัพธ์ 
 
 คุณสามารถกำหนดแบบสอบถามเพื่อให้เหมาะสมกับความต้องการเฉพาะของคุณได้โดยการใช้คุณลักษณะที่หลากหลายที่พร้อมใช้งานใน Microsoft Dynamics 365 Finance นี่คือบางตัวอย่างของวิธีการใช้แบบสอบถาม:
 
@@ -43,9 +41,6 @@ ms.locfileid: "8069515"
 
 | หัวข้อ| คำอธิบาย|
 |------|------------|
-| [การออกแบบแบบสอบถาม](hr-learning-design-questionnaires.md) | หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบถาม กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม |
-| [แจกจ่ายและจัดกำหนดการแบบสอบถาม](hr-learning-distribute-questionnaires.md) | หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามแก่ผู้ตอบและวิธีการกรอกแบบสอบถาม |
-| [ดูและประเมินผลลัพธ์ของแบบสอบถาม](hr-learning-evaluate-questionnaire-results.md) | หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| [การออกแบบแบบสอบถาม](hr-learning-design-questionnaires.md) | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการออกแบบแบบสอบ กระบวนการออกแบบเกี่ยวข้องกับการตั้งค่าข้อกำหนดเบื้องต้น คำตอบ และคำถาม จากนั้นจึงรวมทั้งหมดลงในแบบสอบถาม |
+| [แจกจ่ายและจัดกำหนดการแบบสอบถาม](hr-learning-distribute-questionnaires.md) | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการกระจายแบบสอบถามสำหรับผู้ตอบและวิธีการกรอกแบบสอบถาม |
+| [ดูและประเมินผลลัพธ์ของแบบสอบถาม](hr-learning-evaluate-questionnaire-results.md) | บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการดูและประเมินผลลัพธ์จากแบบสอบถามที่กรอกข้อมูลแล้ว |

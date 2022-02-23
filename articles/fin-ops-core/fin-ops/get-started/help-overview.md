@@ -1,39 +1,36 @@
 ---
-title: ระบบวิธีใช้ (มีวิดีโอ)
-description: หัวข้อนี้แสดงภาพรวมของระบบวิธีใช้ของแอปการเงินและการดำเนินงาน
+title: ระบบวิธีใช้
+description: หัวข้อนี้แสดงภาพรวมของระบบวิธีใช้ของแอป Finance and Operations
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070512"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695150"
 ---
 # <a name="help-system"></a>ระบบวิธีใช้
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 ผู้ใช้แอปต่อไปนี้สามารถเข้าถึงวิธีใช้ที่สอดคล้องกับบริบทและเนื้อหาอื่นๆ ที่ยึดตามระบบวิธีใช้เดียวกัน:
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -44,7 +41,7 @@ ms.locfileid: "8070512"
 
 ## <a name="help-on-docsmicrosoftcom"></a>วิธีใช้เกี่ยวกับ docs.microsoft.com
 
-ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
+ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
 
 - **เข้าถึงเนื้อหาล่าสุด** – ไซต์ทำให้ Microsoft สร้าง จัดส่ง และอัปเดตเอกสารผลิตภัณฑ์ได้รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น คุณจึงเข้าถึงข้อมูลทางเทคนิคล่าสุดได้ง่าย
 - **เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ** – เนื้อหาบนไซต์เปิดให้เข้าร่วมโดยสมาชิกของชุมชนทั้งภายในและภายนอก Microsoft
@@ -53,20 +50,9 @@ ms.locfileid: "8070512"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>รับการแจ้งเตือนเกี่ยวกับการเปลี่ยนแปลงผ่านตัวดึงข้อมูล RSS
 
-เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล RSS ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
+เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล Really Simple Syndication (RSS) ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com ให้ใช้การเชื่อมโยงต่อไปนี้:
 
-[ตัวดึงข้อมูล RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> ตัวดึงข้อมูล RSS ส่งคืนรายการ 100 หัวข้อการอัปเดตล่าสุด รายการไม่เรียงลำดับตามวันที่  
-
-หรือคุณสามารถสมัครเป็นสมาชิกตัวดึงข้อมูล RSS ตามแอป:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [ทรัพยากรบุคคล](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [ห่วงโซ่อุปทาน](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [ผู้มีความสามารถพิเศษ](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[ตัวดึงข้อมูล RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>ฝากคำติชมให้พวกเรา
 
@@ -89,7 +75,7 @@ ms.locfileid: "8070512"
 
 วิดีโอ [วิธีการสนับสนุน Microsoft Dynamics 365 documentation](https://youtu.be/m5djioozRbg) (ที่แสดงด้านบน) จะรวมอยู่ในช่อง Microsoft Dynamics 365 บน YouTube
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุนเอกสาร](/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ docs.microsoft.com
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุนเอกสาร](https://docs.microsoft.com/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ docs.microsoft.com
 
 > [!NOTE]
 > เรายอมรับการจัดสรรไปยังเนื้อหาภาษาอังกฤษของเราในขณะนี้เท่านั้น
@@ -134,13 +120,13 @@ ms.locfileid: "8070512"
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -171,14 +157,10 @@ On the **System parameters** page, follow these steps:
 | ไซต์ | คำอธิบาย |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | ไซต์นี้โฮสต์หรือเชื่อมโยงเอกสารผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
-| [Microsoft Learn](/learn/) | ไซต์นี้เป็นไซต์ eLearning ฟรีของ Microsoft |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | ไซต์นี้เป็นไซต์ eLearning ฟรีของ Microsoft |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | ไซต์นี้ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการจากการขายล่วงหน้าไปถึงการนำไปใช้และการดำเนินการ ซึ่งมีประโยชน์ในขั้นตอนการใช้งานทั้งหมด |
 | [บล็อกสนับสนุน](https://aka.ms/AXSupportBlog) | ไซต์นี้ให้คำแนะนำและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน  |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | ไซต์นี้โฮสต์เนื้อหาจากรุ่นก่อน |
 | [ชุมชน Dynamics](https://community.dynamics.com/) | ไซต์นี้โฮสต์บล็อก ฟอรัม และวิดีโอ |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | ไซต์นี้แสดงข้อมูลการประเมินและการขาย |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | ไซต์นี้โฮสต์ทรัพยากรการฝึกอบรม รายงานและเอกสารที่สามารถดาวน์โหลดได้ และเป็นไซต์สนับสนุนหลักสำหรับผู้ถือครองแผนการบริการ การเข้าถึงทรัพยากรบางรายการบนไซต์นี้อาจต้องใช้แผนการบริการ |

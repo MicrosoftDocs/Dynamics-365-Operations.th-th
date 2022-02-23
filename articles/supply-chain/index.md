@@ -2,25 +2,28 @@
 title: โฮมเพจ Supply Chain Management
 description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
 author: kamaybac
-ms.date: 09/15/2021
+manager: tfehr
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487875"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460059"
 ---
 # <a name="supply-chain-management-home-page"></a>โฮมเพจ Supply Chain Management
 
@@ -60,8 +63,9 @@ ms.locfileid: "7487875"
 
 - [ซิงโครไนส์ใบสั่งงานระหว่าง Field Service กับ Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-วิดีโอสั้นๆ เหล่านี้เป็นการสรุปคุณลักษณะการบริหารห่วงโซ่อุปทานใหม่ที่เพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (ธันวาคม 2017)
+วิดีโอสั้นๆ เหล่านี้เป็นการสรุปคุณลักษณะการบริหารห่วงโซ่อุปทานใหม่ที่เพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
 
+- [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg) 
 - [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -80,11 +84,12 @@ ms.locfileid: "7487875"
 - **การวางแผนหลัก:**
   - [ขยายฟังก์ชันการคาดการณ์ความต้องการ](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [การวางแผนหลัก - คำแนะนำและเคล็ดลับสำหรับประสิทธิภาพในการแก้ไขปัญหา](https://youtu.be/7v8BPmEs9Dg)
-  - [การปรับแต่งประสิทธิภาพ MRP](https://youtu.be/RLXybx20B5o)
+  - [ช่วยด้วย MRP ทำงานช้า](https://youtu.be/RLXybx20B5o)
 - **การจัดการข้อมูลผลิตภัณฑ์:**
   - [ตัวจัดโครงแบบผลิตภัณฑ์ใน Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **การจัดการคลังสินค้า:**
   - [สามารถใช้งานระบบการจัดการคลังสินค้าให้ได้รับประโยชน์สูงสุด](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [ป้ายชื่อในการจัดการคลังสินค้า Microsoft Dynamics AX 2012 R3 ใหม่](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: การจัดการคลังสินค้าขั้นสูง - หนึ่งวันในชีวิตกับการผลิตตามกระบวนการ](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **วิดีโอการควบคุมการผลิต:**
   - [การดำเนินงานและกิจกรรมของการรับเหมารายย่อยในการผลิต](https://youtu.be/y1jrd3A_k70)
@@ -93,16 +98,13 @@ ms.locfileid: "7487875"
 
 ## <a name="blogs"></a>บล็อก
 
-มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน [บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](/archive/blogs/axmfg/) และ [Supply Chain Management ในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน
+มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน [บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) และ [Supply Chain Management ในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน
 
 ## <a name="white-papers"></a>เอกสาร
 
-- [Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง](/dynamics/s-e/)
+- [Lean Manufacturing: ปริมาณที่สามารถสัญญาได้และการกำหนดการงานคัมบัง](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
 - [การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
 
-สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Supply Chain Management ใน Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Supply Chain Management ใน Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path)

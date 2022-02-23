@@ -1,10 +1,12 @@
 ---
 title: ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER
-description: หัวข้อนี้จะอธิบายวิธีการสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)ใหม่ ที่มีรูปแบบข้อมูลสำหรับเอกสารการชำระเงินอิเล็กทรอนิกส์
+description: ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนารายงานอิเล็กทรอนิกส์สามารถสร้างอิเล็กทรอนิกส์ใหม่การตั้งค่าคอนฟิก (ER) ที่ประกอบด้วยแบบจำลองข้อมูลสำหรับเอกสารการชำระเงินทางอิเล็กทรอนิกส์ในการรายงาน
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d76d243779f83646f14418a12c9c895fdf043451d82bd7062289be6cd8014a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728733"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681960"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ออกแบบโดเมนของแบบจำลองข้อมูลที่เฉพาะเจาะจงของ ER
 
@@ -185,6 +187,3 @@ ms.locfileid: "6728733"
 65. คลิก บันทึก
 66. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: จัดการการแม็ปที่ได้รับมาหลายรายการสำหรับรากแบบจำลองเดียว
 description: หัวข้อนี้อธิบายวิธีการจัดการการแม็ปที่ได้รับมาหลายรายการ ซึ่งตั้งค่าคอนฟิกไว้ให้กับรากแบบจำลองเดียว
 author: NickSelin
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10363371713bd5a882b41900249e7061afc577ba6473fdb3356a822c8e48f8f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743298"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826120"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>จัดการการแม็ปที่ได้รับมาหลายรายการสำหรับรากแบบจำลองเดียว
 
@@ -180,6 +182,3 @@ ms.locfileid: "6743298"
 - [จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ](er-country-dependent-model-mapping.md)
 - [การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์](er-apis-app10-0-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

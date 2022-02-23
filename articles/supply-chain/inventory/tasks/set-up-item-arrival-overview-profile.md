@@ -1,25 +1,31 @@
---- 
-# required metadata 
+---
 title: ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
 description: หัวข้อนี้มุ่งเน้นการตั้งค่าของโพรไฟล์ภาพรวมการมาถึง
-author: yufeihuang
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
-ms.search.validFrom: '2016-06-30'
-ms.dyn365.ops.version: AX 7.0.0
+ms.author: kamaybac
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961452"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>ตั้งค่าโพรไฟล์ภาพรวมของการมาถึงของสินค้า
 
-[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 หัวข้อนี้มุ่งเน้นการตั้งค่าของโพรไฟล์ภาพรวมการมาถึง โพรไฟล์ภาพรวมการมาถึงคือ ชุดของกฎที่จะใช้เมื่อผู้ใช้มีการเปิดหน้าภาพรวมของการมาถึง คุณสามารถใช้กระบวนงานนี้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปจะดำเนินการโดยเจ้าหน้าที่รับสินค้า
 
@@ -47,6 +53,3 @@ ms.dyn365.ops.version: AX 7.0.0
 17. เลือก **บันทึก**
 18. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: เลือกกำหนดการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์
 description: หัวข้อนี้จะอธิบายถึงวิธีการเลือกกำหนดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่ Microsoft จัดเตรียมไว้ ซึ่งถูกใช้เพื่อให้สร้างเอกสารอิเล็กทรอนิกส์แบบกำหนดเอง
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c867af3b4d93e5a124d14e88eae60ff45987aebc639bd78806ff7a12009447
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770007"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683033"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>เลือกกำหนดการตั้งค่าคอนฟิกการรายงานอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์
 
@@ -122,7 +122,7 @@ ms.locfileid: "6770007"
 
 โปรดสังเกตว่า นอกเหนือจากรูปแบบ ER ของ **ใบแจ้งหนี้การขาย Peppol** ที่เลือก มีการนำเข้าการตั้งค่าคอนฟิก ER ที่จำเป็นอื่นๆ ด้วย เนื่องจากการตั้งค่าคอนฟิก ER รุ่นใหม่มีการเผยแพร่อย่างต่อเนื่องไปยังที่เก็บส่วนกลางและ LCS เพื่อให้โซลูชันที่สัมพันธ์กันสอดคล้องกับความต้องการใหม่ รุ่นล่าสุดของการตั้งค่าคอนฟิก [รูปแบบข้อมูล](general-electronic-reporting.md#data-model-and-model-mapping-components) ที่จำเป็นและการตั้งค่าคอนฟิก [การแม็ปแบบจำลอง](general-electronic-reporting.md#data-model-and-model-mapping-components) ถูกนำเข้า
 
-![หน้าการตั้งค่าคอนฟิก](./media/er-quick-start3-imported-solution1a.png)
+![เพจการตั้งค่าคอนฟิก](./media/er-quick-start3-imported-solution1a.png)
 
 เมื่อต้องการจำลองสถานะที่การตั้งค่าคอนฟิก ER ในอินสแตนซ์ Finance ปัจจุบันจะอยู่ ถ้าคุณนำเข้ารุ่น **11.2.2** ของรูปแบบ ER ของ **ใบแจ้งหนี้การขาย Peppol** ในอดีต (ตัวอย่างเช่น เมื่อวันที่ 7 สิงหาคม 2019) ให้ทำตามขั้นตอนต่อไปนี้
 
@@ -479,7 +479,7 @@ ms.locfileid: "6770007"
 2. บนแท็บ **เอกสารอิเล็กทรอนิกส์** บน FastTab **การรายงานทางอิเล็กทรอนิกส์** ในฟิลด์ **การขายและใบแจ้งหนี้ข้อความอิสระ** ให้เลือก **ใบแจ้งหนี้การขาย Peppol (Litware)**
 3. เลือก **บันทึก**
 
-![หน้าพารามิเตอร์ของบัญชีลูกหนี้ แท็บเอกสารอิเล็กทรอนิกส์ แท็บด่วนการรายงานทางอิเล็กทรอนิกส์](./media/er-quick-start3-configure-ar2.png)
+![หน้าพารามิเตอร์ของบัญชีลูกหนี้, แท็บเอกสารอิเล็กทรอนิกส์, FastTab การรายงานทางอิเล็กทรอนิกส์](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>อัพเดตเรกคอร์ดลูกค้าโดยการเพิ่มรหัสประจำตัวผู้เสียภาษี
 
@@ -522,7 +522,7 @@ ms.locfileid: "6770007"
 5. บน FastTab **รุ่น** เลือกรุ่น **32.6.7** ของการตั้งค่าคอนฟิกรูปแบบ ER ที่เลือกซึ่งถูกนำออกใช้เพื่อสนับสนุนใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในรูปแบบ PEPPOL BIS 3 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic)
 6. เลือก **นำเข้า** เพื่อดาวน์โหลดเวอร์ชันที่เลือกจากที่เก็บส่วนกลางไปยังอินสแตนซ์การเงินปัจจุบัน
 
-![รุ่น 32.6.7 ที่เลือก บนหน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-quick-start3-import-solution2.png)
+![รุ่น 32.6.7 ที่เลือกบนหน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-quick-start3-import-solution2.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการที่กระบวนการนี้สามารถเป็นแบบอัตโนมัติ ให้ดูที่ [นำเข้ารุ่นที่อัพเดตแล้วของการตั้งค่าคอนฟิก ER](er-download-updated-versions-global-repo.md)
 
@@ -611,7 +611,7 @@ ms.locfileid: "6770007"
 
 สถานะของรุ่น 206.132.2 มีการเปลี่ยนแปลงจาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** แล้วและรุ่นจะกลายเป็นแบบอ่านอย่างเดียว รุ่นที่แก้ไขใหม่ได้ 206.132.3 ถูกเพิ่มและมีสถานะเป็น **แบบร่าง** คุณสามารถใช้รุ่นนี้เพื่อทำการเปลี่ยนแปลงเพิ่มเติมในการตั้งค่าคอนฟิกรูปการแม็ปแบบจำลอง ER แบบกำหนดเองของคุณได้
 
-![รุ่น 206.132.2 เสร็จสมบูรณ์บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start3-completed-custom-mapping2.png)
+![รุ่น 206.132.2 เสร็จสมบูรณ์ในหน้าการตั้งค่าคอนฟิก](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>ใช้รูปแบบ ER แบบกำหนดเองของคุณ
 
@@ -639,7 +639,7 @@ ms.locfileid: "6770007"
 
 สถานะของรุ่น 32.6.7.2 มีการเปลี่ยนแปลงจาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** แล้วและรุ่นจะกลายเป็นแบบอ่านอย่างเดียว รุ่นที่แก้ไขใหม่ได้ 32.6.7.3 ถูกเพิ่มและมีสถานะเป็น **แบบร่าง** คุณสามารถใช้รุ่นนี้เพื่อทำการเปลี่ยนแปลงเพิ่มเติมในการตั้งค่าคอนฟิกรูปแบบ ER แบบกำหนดเองของคุณได้
 
-![รุ่น 32.6.7.2 เสร็จสมบูรณ์บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start3-completed-custom-format2.png)
+![รุ่น 32.6.7.2 เสร็จสมบูรณ์ในหน้าการตั้งค่าคอนฟิก](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>ดำเนินการออกใบแจ้งหนี้ของลูกค้าโดยใช้รุ่นใหม่ของการตั้งค่าคอนฟิก ER แบบกำหนดเอง
 
@@ -669,8 +669,5 @@ ms.locfileid: "6770007"
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิก ER จาก Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก](er-download-configurations-global-repo.md)
-- [สร้างใบแจ้งหนี้ข้อความอิสระ](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
-- [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](../../fin-ops/get-started/user-defined-fields.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [สร้างใบแจ้งหนี้ข้อความอิสระ](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
+- [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)

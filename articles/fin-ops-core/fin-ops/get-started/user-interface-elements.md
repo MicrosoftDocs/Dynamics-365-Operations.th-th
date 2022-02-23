@@ -2,9 +2,11 @@
 title: องค์ประกอบอินเทอร์เฟสผู้ใช้
 description: หัวข้อนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ในแอป
 author: tlefor
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,17 +14,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069334"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797957"
 ---
 # <a name="user-interface-elements"></a>องค์ประกอบอินเทอร์เฟสผู้ใช้
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ที่ใช้ในแอป ก่อนที่ผู้ใช้จะสามารถนำทางอินเทอร์เฟซได้ สิ่งสำคัญคือต้องรู้ชื่อและฟังก์ชันขององค์ประกอบที่ประกอบกันเป็นอินเทอร์เฟส
 
@@ -87,6 +86,3 @@ ms.locfileid: "8069334"
 *รายการ* เป็นชื่อที่กำหนดให้กับชุดข้อมูลของเรกคอร์ดที่คุณสามารถเลื่อนดูได้ คุณสามารถนำเรกคอร์ดเหล่านี้มาไว้ในหน้าได้โดยการเลือกเรกคอร์ดเหล่านี้ บ่อยครั้งที่การทำเช่นนี้จะเปิดกริด
 
 ![รูปภาพต่อไปนี้แสดงตัวอย่างของแถบเครื่องมือ กริด และรายการ](media/user-interface-08.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

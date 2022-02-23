@@ -55,6 +55,3 @@ ms.locfileid: "4462765"
 ## <a name="changes-in-core-hr"></a>การเปลี่ยนแปลงใน Core HR
 
 รุ่นนี้ประกอบด้วยการแก้ไขบักรองสำหรับ Dynamics 365 Talent: Core HR
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

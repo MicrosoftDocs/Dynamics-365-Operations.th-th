@@ -2,9 +2,11 @@
 title: อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ
 description: หัวข้อนี้จะอธิบายถึงวิธีการอัพเดตโครงสร้างของแม่แบบเอกสารธุรกิจโดยใช้ลักษณะการทำงานการจัดการเอกสารทางธุรกิจ
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775297"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728100"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจ 
 
@@ -58,7 +60,7 @@ ms.locfileid: "6775297"
 
     มีการเปิดแม่แบบใหม่สำหรับการแก้ไขในตัวควบคุมฝังตัวแบบออนไลน์ของ Excel บนหน้าโปรแกรมแก้ไขแม่แบบ
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเริ่มต้นการแก้ไขแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเริ่มต้นการแก้ไขแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>ตรวจทานโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้
 
@@ -68,7 +70,7 @@ ms.locfileid: "6775297"
 4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 5. โปรดสังเกตว่าในโครงสร้างแม่แบบในทางการเงิน รายการ **rptHeaderCompLogo** จะมีการแสดงเป็นรายการรองของ **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อทบทวนโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อทบทวนโครงสร้างปัจจุบันของแม่แบบที่สามารถแก้ไขได้](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>อัปเดตโครงสร้างของเท็มเพลตเอกสารทางธุรกิจโดยการลบรูปภาพ
 
@@ -85,7 +87,7 @@ ms.locfileid: "6775297"
 4. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 5. โปรดสังเกตว่า รายการ **rptHeaderCompLogo** ไม่รวมอยู่ในโครงสร้างแม่แบบในการเงินอีกต่อไป
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อลบรูปภาพจากแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อลบรูปภาพจากแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>อัปเดตโครงสร้างของแม่แบบเอกสารทางธุรกิจโดยการเพิ่มรูปภาพ
 
@@ -97,13 +99,10 @@ ms.locfileid: "6775297"
 6. ในบานหน้าต่าง **โครงสร้างแม่แบบ** ขยาย **รายงาน \> ใบแจ้งหนี้ \> rptHeader \> rptHeaderPart1**
 7. โปรดสังเกตว่ารูปภาพใหม่รวมเป็นรายการในโครงสร้างแม่แบบในการเงิน
 
-[![การใช้พื้นที่ทำงานการจัดการเอกสารทางธุรกิจเพื่อเพิ่มรูปภาพแม่แบบเอกสารทางธุรกิจ](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![การใช้พื้นที่ทำงานการจัดการเอกสารธุรกิจเพื่อเพิ่มรูปภาพแม่แบบเอกสารธุรกิจ](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>ลิงค์ที่เกี่ยวข้อง
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 [ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

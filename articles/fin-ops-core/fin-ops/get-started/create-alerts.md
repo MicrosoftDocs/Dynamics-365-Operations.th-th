@@ -1,30 +1,32 @@
 ---
 title: การสร้างกฎการแจ้งเตือน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแจ้งเตือน และอธิบายวิธีการสร้างกฎการแจ้งเตือน
-author: RichdiMSFT
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแจ้งเตือน และอธิบายวิธีการสร้างกฎการแจ้งเตือน เพื่อให้คุณได้รับแจ้งเกี่ยวกับเหตุการณ์ เช่น วันที่ที่มาถึง หรือการเปลี่ยนแปลงเฉพาะที่เกิดขึ้น
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736209"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798439"
 ---
-# <a name="create-alert-rules"></a>สร้างกฎการแจ้งเตือน
+# <a name="create-alert-rules"></a>การสร้างกฎการแจ้งเตือน
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="getting-started"></a>การเริ่มต้น
+## <a name="getting-started"></a>การเริ่มต้นใช้งาน
 
 ก่อนที่คุณจะตั้งค่ากฎการแจ้งเตือน ควรตัดสินใจว่าคุณต้องการรับข้อความแจ้งเตือนเมื่อใดหรือในสถานการณ์ใดบ้าง เมื่อคุณทราบแล้วว่าเหตุการณ์ใดที่คุณต้องการได้รับการแจ้งเตือน ให้ค้นหาหน้าของข้อมูลที่ทำให้เกิดการปรากฎของเหตุการณ์นั้น เหตุการณ์อาจเป็นวันที่ที่มาถึง หรือการเปลี่ยนแปลงบางอย่างที่เกิดขึ้น ดังนั้น คุณต้องค้นหาหน้าที่ซึ่งมีการระบุวันที่ หรือที่ซึ่งฟิลด์ที่เปลี่ยนแปลงหรือเรกคอร์ดใหม่ที่ถูกสร้างขึ้น ปรากฏขึ้น หลังจากที่คุณมีข้อมูลดังกล่าวแล้ว คุณก็สามารถสร้างกฎการแจ้งเตือนได้
 
@@ -100,8 +102,3 @@ ms.locfileid: "6736209"
     ```
 2. สร้างข้อความแจ้งเตือนจากฟอร์ม SysTableBrowser
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>การแจ้งเตือนตามการเปลี่ยนแปลงไม่ทำงานสำหรับการเปลี่ยนแปลงสถานะชุดงาน
-การแจ้งเตือนตามการเปลี่ยนแปลงใช้กับการเปลี่ยนแปลงสถานะชุดงานไม่ได้ เนื่องจากถูกปิดใช้งานด้วยเหตุผลด้านประสิทธิภาพ คุณควรตั้งค่าความสามารถ **การแจ้งเตือนชุดงาน** แทน สำหรับข้อมูลเพิ่มเติม ดูได้ที่ [ตั้งค่าการแจ้งเตือนสำหรับแบบฟอร์มที่เพิ่มประสิทธิภาพชุดงาน](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: ฟังก์ชัน ROUNDAMOUNT ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ ROUNDAMOUNT (ER)
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770872"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683074"
 ---
 # <a name="roundamount-er-function"></a>ฟังก์ชัน ROUNDAMOUNT ER
 
@@ -69,7 +72,7 @@ ROUNDAMOUNT (number, decimals, round rule)
 
 เมื่อพารามิเตอร์ `round rule` ถูกตั้งค่าเป็น **RoundOffType.RoundUp** ฟังก์ชันนี้ปัดเศษออกจากศูนย์เป็นจำนวนที่ปัดเศษที่ใกล้ที่สุด
 
-เมื่อพารามิเตอร์ `round rule` ถูกตั้งค่าเป็น **RoundOffType.Ordinary** ฟังก์ชันนี้ทำงานเช่นเดียวกับฟังก์ชัน Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) และฟังก์ชัน X ++ [ROUND](../dev-ref/xpp-math-run-time-functions.md#round)
+เมื่อพารามิเตอร์ `round rule` ถูกตั้งค่าเป็น **RoundOffType.Ordinary** ฟังก์ชันนี้ทำงานเช่นเดียวกับฟังก์ชัน Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) และฟังก์ชัน X ++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round)
 
 ## <a name="remarks"></a>ข้อสังเกต
 
@@ -88,6 +91,3 @@ ROUNDAMOUNT (number, decimals, round rule)
 [ฟังก์ชันอื่นๆ (เฉพาะโดเมนธุรกิจ)](er-functions-category-other.md)
 
 [ฟังก์ชันคณิตศาสตร์](er-functions-category-mathematical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

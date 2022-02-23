@@ -66,6 +66,3 @@ ms.locfileid: "4462668"
 2. บนแถบเครื่องมือ เลือก **เพิ่มแอปจาก Power Apps**
 
     ![เพิ่มแอปจาก Power Apps โดยใช้แถบเครื่องมือแบบรายบุคคล](media/powerapp-bar.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

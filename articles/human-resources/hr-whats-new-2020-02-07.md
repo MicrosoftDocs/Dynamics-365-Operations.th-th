@@ -1,32 +1,33 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (7 กุมภาพันธ์ 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 7 กุมภาพันธ์ 2020
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70acaaf2218c8b5c0239b968a29a927ac23080f0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060850"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526962"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (7 กุมภาพันธ์ 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.2835 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนใน Microsoft Dynamics Lifecycle Services (LCS)
 
@@ -38,7 +39,7 @@ ms.locfileid: "8060850"
 
 การค้นหาสำหรับตำแหน่งงานที่เปิดในขณะนี้คำนึงถึงโซนเวลาเมื่อตรวจสอบความถูกต้องว่ามีตำแหน่งเปิดอยู่หรือไม่
 
-## <a name="current-balance-analysis-view-doesnt-update-with-the-correct-current-leave-balance-after-submitting-time-off-requests-409756"></a>มุมมองการวิเคราะห์ยอดคงเหลือปัจจุบันไม่ได้อัปเดตด้วยยอดดุลคงเหลือการลางานปัจจุบันที่ถูกต้องหลังจากที่ส่งการร้องขอเวลาหยุดพัก (409756)
+## <a name="current-balance-analysis-view-doesnt-update-with-the-correct-current-leave-balance-after-submitting-time-off-requests-409756"></a>มุมมองการวิเคราะห์ยอดคงเหลือปัจจุบันไม่ได้อัพเดตด้วยยอดดุลคงเหลือการลางานปัจจุบันที่ถูกต้องหลังจากที่ส่งการร้องขอเวลาหยุดพัก (409756)
 
 ยอดดุลปัจจุบันขณะนี้รวมการร้องขอเวลาหยุดพักที่ส่งแล้ว
 
@@ -54,11 +55,11 @@ ms.locfileid: "8060850"
 
 ### <a name="platform-update-32"></a>แพลตฟอร์ม update 32 
 
-แพลตฟอร์มที่อัปเดต 32 จะพร้อมใช้งานในไม่ช้า [ค้นหาข้อมูลเพิ่มเติมเกี่ยวกับแพลตฟอร์มที่อัปเดต 32 ได้ที่นี่](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md)
+แพลตฟอร์มที่อัพเดต 32 จะพร้อมใช้งานในไม่ช้า [ค้นหาข้อมูลเพิ่มเติมเกี่ยวกับแพลตฟอร์มที่อัพเดต 32 ได้ที่นี่](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32)
 
-### <a name="updated-dataverse-solution"></a>อัปเดตโซลูชัน Dataverse
+### <a name="updated-common-data-service-solution"></a>อัพเดตโซลูชัน Common Data Service
 
-โซลูชัน Dataverse ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
+โซลูชัน Common Data Service ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
 
 | คำอธิบาย | เปลี่ยน |
 | ----------------------------------------- | --- |
@@ -69,13 +70,11 @@ ms.locfileid: "8060850"
 | เอนทิตีการตั้งค่าค่าตอบแทนผันแปรใหม่ | **ชนิดแผนตัวแปรค่าตอบแทน**</br>**แผนค่าตอบแทนผันแปร**</br>**กฎสิทธิพึงได้**</br>**ระดับแผนตัวแปรค่าตอบแทน** |
 | เอนทตี **การจ้างงานในปฏิทินของผู้ปฏิบัติงาน** ใหม่ | เพิ่ม **เอนทิตีปฏิทินงาน** แล้ว |
 | เอนทตี **รายละเอียดตำแหน่งที่มีค่าจ้าง** ใหม่ | เพิ่ม **รายละเอียดตำแหน่งที่มีค่าจ้าง** แล้ว |
-| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Dataverse จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
+| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Common Data Service จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,27 @@
 ---
 title: รายการปริมาณคงคลังคงเหลือ
 description: หัวข้อนี้จะอธิบายวิธีการใช้หน้ารายการปริมาณคงคลังคงเหลือ เพื่อตรวจสอบรายละเอียดปริมาณคงคลังคงเหลือ ซึ่งแสดงให้เห็นถึงวิธีการที่ตัวเลือกการกรองข้อมูลและการเรียงลำดับต่างๆ ทำงานร่วมกัน และวิธีที่ตัวเลือกเหล่านี้อาจทำให้เกิดผลลัพธ์ที่ไม่คาดคิดเมื่อรวมกันในบางครั้ง
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438899"
 ---
 # <a name="inventory-on-hand-list"></a>รายการปริมาณคงคลังคงเหลือ
 
@@ -143,6 +146,3 @@ ms.locfileid: "7573932"
 | IA0001 | 1 | 2 | 2 |
 
 โปรดทราบว่าการตั้งค่าในบานหน้าต่าง **ตัวกรอง** จะใช้กับตารางสินค้าคงคลังที่มีรายละเอียด (ที่ไม่รวม) ซึ่งแสดงอยู่ในตอนต้นของส่วนนี้ ดังนั้น เงื่อนไข **มีอยู่จริง** \| **น้อยกว่าหรือเท่ากับ** \| _1_ พบแถวสองแถวจากตารางนั้น (แถวแรกและแถวที่สาม ซึ่งแสดง **ที่มีอยู่จริง** ค่าของ _1_) อย่างไรก็ตาม ในสถานการณ์สมมตินี้ หน้า **รายการปริมาณคงคลังคงเหลือ** ไม่ได้ถูกตั้งค่าให้แสดงมิติ **คลังสินค้า** ดังนั้น จึงรวมแถวดั้งเดิมสองแถวไว้ในแถวผลลัพธ์เดี่ยว เนื่องจากแถวทั้งสองจะมีค่าเหมือนกันในมิติทั้งหมดที่แสดง แถวนี้จะปรากฏขึ้นเพื่อละเมิดเงื่อนไขการกรองข้อมูล เนื่องจากค่า **ที่มีอยู่จริง** แสดงเป็น _2_ อย่างไรก็ตาม ผลลัพธ์มีความถูกต้อง เนื่องจากการตั้งค่าในบานหน้าต่าง **ตัวกรอง** ใช้กับตารางต้นทาง ไม่ใช่ตารางรวมที่แสดงอยู่บนหน้า **ปริมาณคงคลังคงเหลือ**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

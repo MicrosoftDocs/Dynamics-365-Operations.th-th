@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)
 description: คุณสามารถกำหนดหน่วยเงินของเงินสดสำหรับธนบัตรและเหรียญได้ที่ฝ่ายสนับสนุนให้ถูกนำไปใช้โดยพนักงานเก็บเงิน สมาคมการขาย และผู้จัดการที่ร้านค้าจากภายใน POS
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreCashDeclarationTable
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ff4eb5bc7c5e2c0192a5349219301b26e479ac6be978eb05063b68f348b4e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3a5f9a73bdee50e3e7c68125144c3b43305efa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743469"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961570"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับการขายหน้าร้าน (POS)
 
@@ -49,6 +51,3 @@ ms.locfileid: "6743469"
 
 - **มากกว่าหรือเท่ากับจำนวนที่ครบกำหนด** – โดยค่าเริ่มต้น POS จะแสดงเฉพาะหน่วยเงินของธนบัตรที่มีมูลค่ามากกว่าจำนวนที่ครบกำหนด ซึ่งอนุญาตให้การชำระเงินแบบสัมผัสเดียว ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $7.50 POS จะแสดงหน่วยต่อไปนี้: $10, $20, $50 และ $100 การสัมผัสจำนวนใด ๆ เหล่านี้จะเป็นการชำระเงินการขายสำหรับจำนวนนั้นโดยอัตโนมัติ ธนบัตร $1 และ $5 จะไม่ถูกแสดงเนื่องจากจำนวนเหล่านี้มีค่าน้อยกว่าจำนวนที่ครบกำหนด
 - **หน่วยเงินทั้งหมด** – เลือกตัวเลือกนี้เพื่อแสดงหน่วยเงินของธนบัตรทั้งหมดใน POS โดยไม่คำนึงถึงจำนวนที่ครบกำหนด ซึ่งหมายความว่าผู้ใช้สามารถใช้ชุดของธนบัตรเพื่อไปถึงจำนวนที่ครบกำหนดได้ ตัวอย่างเช่น ถ้าจำนวนที่ครบกำหนดคือ $25.00 ผู้ใช้สามารถเลือก $20 และ $5 เพื่อทำให้การขายเสร็จสมบูรณ์
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

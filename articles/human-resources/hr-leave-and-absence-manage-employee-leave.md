@@ -2,12 +2,15 @@
 title: จัดการการลางานของพนักงาน
 description: จัดการการลางานของพนักงานใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 07/16/2021
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067388"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420852"
 ---
 # <a name="manage-employee-leave"></a>จัดการการลางานของพนักงาน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณสามารถจัดการการลางานของพนักงานตามชนิดการลางาน การทำเช่นนี้รวมถึงการลงทะเบียนการลาที่หมดอายุ และการปรับปรุงยอดดุลชนิดของการลางาน 
 
@@ -47,16 +45,14 @@ ms.locfileid: "8067388"
 
 คุณสามารถรวมรหัสเหตุผลและข้อคิดเห็นเมื่อทำการปรับปรุงยอดดุลการลางานของพนักงาน 
 
-ขณะนี้ เมื่อคุณข้ามยอดดุลการลางานใดๆ ข้อมูลต่อไปนี้จะปรากฏขึ้น:
-
-- **พร้อมใช้งาน** – ค่า **ผลรวมในปีนี้** ลบด้วยค่า **ที่ใช้ในปีนี้**
-- **ยอดรวมของปีนี้** – การรับรู้ การปรับปรุง และการยกยอดไปสำหรับปีทั้งหมด
-- **ดำเนินการในปีนี้** – การหยุดพักที่อนุมัติทั้งหมด
+>[!IMPORTANT]
+>การดูข้อมูลเพิ่มเติมเกี่ยวกับยอดดุลการลางานอยู่ในพรีวิว คุณจำเป็นต้องเปิดใช้งานในสภาพแวดล้อม **Sandbox** ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)<br>
+>เมื่อวางเมาส์เหนือยอดดุลการลางานใดๆ ตอนนี้คุณจะเห็น:<br>
+>- **พร้อมใช้งาน**: ยอดรวมปีนี้ - ใช้ในปีนี้
+>- **ยอดรวมของปีนี้**: การรับรู้ การปรับปรุง และการยกยอดไปสำหรับปีทั้งหมด
+>- **ดำเนินการในปีนี้**: การหยุดพักที่อนุมัติทั้งหมด
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [จัดการกับคำขอการลางานและการขาดงาน](hr-employee-self-service-manage-requests.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

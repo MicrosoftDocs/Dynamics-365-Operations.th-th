@@ -2,9 +2,11 @@
 title: การตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
 description: ภาษีขายมีการคำนวณและลงรายการบัญชีไปยังบัญชีหลักที่ระบุไว้ในกลุ่มการลงรายการบัญชีแยกประเภท
 author: twheeloc
+manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968465"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>การตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทสำหรับภาษีขาย
 
@@ -39,6 +41,3 @@ ms.locfileid: "6754181"
 11. ในฟิลด์ **ส่วนลดเงินสดของลูกค้า** ให้เลือกบัญชีหลักที่จะลงรายการบัญชีส่วนลดเงินสดสำหรับ **รหัสภาษีขาย** ที่เชื่อมโยงกับ **กลุ่มการลงรายการบัญชีแยกประเภท** นี้ นี่ไม่จำเป็นต้องระบุและถ้าไม่มีการป้อนบัญชี บัญชีหลักใน **รหัสส่วนลดเงินสด** จะถูกนำมาใช้ อาจมีประโยชน์ที่จะใช้บัญชีที่แตกต่างกันต่อ **กลุ่มการลงรายการบัญชีแยกประเภท** ถ้ามีการใช้ภาษีขายย้อนกลับในตัวเลือกส่วนลดเงินสดใน **กลุ่มภาษีขาย**  
 12. คลิก **บันทึก**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,23 +2,26 @@
 title: เปลี่ยนกลุ่มงานในงาน
 description: หัวข้อนี้จะอธิบายวิธีการที่คุณสามารถใช้ปุ่มเปลี่ยนกลุ่มงานสำหรับรายการงาน เพื่อเปลี่ยนกลุ่มงานของงานที่มีอยู่
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566034"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438521"
 ---
 # <a name="change-work-pool-on-work"></a>เปลี่ยนกลุ่มงานในงาน
 
@@ -146,6 +149,3 @@ ms.locfileid: "7566034"
 > เมื่อกล่องโต้ตอบ **เปลี่ยนกลุ่มงาน** ปรากฏขึ้น ฟิลด์ **รหัสกลุ่มงาน** อาจว่างเปล่าตามค่าเริ่มต้น ถ้าฟิลด์นี้ว่างเปล่า เมื่อคุณเลือก **ตกลง** เพื่อใช้การเปลี่ยนแปลง คุณจะลบกลุ่มงานทั้งหมดออกจากงาน
 >
 > นอกจากการสลับกลุ่มงานแล้ว คุณสามารถใช้กระบวนงานนี้เพื่อเพิ่มกลุ่มงานไปยังรายการงานใดๆ ที่ไม่มีกลุ่มงาน หรือลบกลุ่มงานออกจากรายการงานใดๆ ที่มีกลุ่มงานอยู่ได้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

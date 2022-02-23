@@ -2,9 +2,11 @@
 title: " กำหนดลักษณะช่องทาง"
 description: 'เพิ่มช่องทางโดยการเพิ่มช่องทางและคุณลักษณะของผลิตภัณฑ์ '
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964706"
 ---
 # <a name="define-channel-attributes"></a> กำหนดลักษณะช่องทาง
 
@@ -31,7 +33,7 @@ ms.locfileid: "6726418"
 ## <a name="define-channel-product-attribute"></a>กำหนดคุณลักษณะของผลิตภัณฑ์ในช่องทาง
 1. ไปยัง การขายปลีกและการค้า > การตั้งค่าช่องทาง > ประเภทช่องทาง และแอตทริบิวต์ผลิตภัณฑ์
 2. ในแผนภูมิ ให้เลือก 'Contoso Retail\Fashion\Houston'
-3. คลิกแก้ไข
+3. คลิก แก้ไข
 4. ในฟิลด์การจัดประเภทตามลำดับชั้น ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
     * ลำดับชั้นการนำทางจะใช้สำหรับการนำทางผลิตภัณฑ์ภายในช่องทางของคุณ  
 5. ขยายส่วนคุณลักษณะกลุ่ม
@@ -69,6 +71,3 @@ ms.locfileid: "6726418"
 33. คลิก ตกลง
 34. คลิก บันทึก
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

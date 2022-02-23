@@ -102,6 +102,3 @@ Attract ส่งผ่านข้อมูลต่อไปนี้ไปย
 [สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
 [เปิดใช้งานการรวม Broadbean ใน Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

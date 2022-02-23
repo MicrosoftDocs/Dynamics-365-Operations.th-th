@@ -1,38 +1,39 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (23 กรกฎาคม 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (23 กรกฎาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 23 กรกฏาคม 2020
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1dd8ab95d37c2fbc5d7453fadeae043677c30160
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063733"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528460"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (23 กรกฎาคม 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (23 กรกฎาคม 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3416 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>การลบมิติทางการเงินในตำแหน่งไม่ทำงานตามที่คาดไว้ (445476)
 
-การลบมิติออกจากตำแหน่งลบตำแหน่งเดียวกันเหล่านั้นออกจาก Dataverse ด้วย
+การลบมิติออกจากตำแหน่งลบตำแหน่งเดียวกันเหล่านั้นออกจาก Common Data Service ด้วย
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>ตำแหน่งงานที่ไม่ได้อยู่ในลำดับชั้นแสดงตำแหน่งงานที่ไม่ได้ใช้งาน (397257)
 
@@ -54,11 +55,11 @@ ms.locfileid: "8063733"
 
 ## <a name="human-resources-application-in-teams"></a>โปรแกรมประบุกต์ Human Resources ใน Teams
 
-พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md) 
+พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841) 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
-เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย เทมเพลตการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล เทมเพลตส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
+เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย แม่แบบการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล แม่แบบส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
 
 ## <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน 
 
@@ -93,20 +94,17 @@ ms.locfileid: "8063733"
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-## <a name="checklist-entities-included-in-dataverse"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
 
-เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Dataverse
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
 
 ## <a name="platform-changes"></a>การเปลี่ยนแปลงแพลตฟอร์ม
 
-การอัปเดตแพลตฟอร์ม 10.0.12 (36)
+Platform Update 10.0.12 (36)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

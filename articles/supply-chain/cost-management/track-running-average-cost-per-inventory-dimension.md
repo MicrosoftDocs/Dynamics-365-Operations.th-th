@@ -2,13 +2,16 @@
 title: ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
 description: กลุ่มมิติสินค้าคงคลังถูกแนบกับทุกๆสินค้าในสินค้าคงคลัง ดังนั้นระบบจะคำนวณราคาต้นทุนเฉลี่ยสืบเนื่องโดยยึดตามมิติสินค้าคงคลังที่เลือกไว้และมีการติดตามการเปลี่ยนแปลงข้อมูลทางการเงิน
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 75053
 ms.assetid: 68cc00f4-0f7a-4a7d-be90-8f2e0d0563d3
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed1ced17eb25bdc10994b1e9e74c90a1d4ec95227bb1ddb072bae88e9255c0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c380b7749a55cd151655def372cf91585c263b2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438558"
 ---
 # <a name="track-running-average-cost-per-inventory-dimension"></a>ติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
 
@@ -53,6 +56,3 @@ ms.locfileid: "6781097"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

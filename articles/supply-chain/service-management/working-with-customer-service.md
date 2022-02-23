@@ -1,24 +1,30 @@
 ---
-# required metadata
 title: ภาพรวมของการทำงานกับการบริการลูกค้า
 description: การบริการลูกค้าช่วยสนับสนุนบริษัทที่ให้บริการแบบมืออาชีพ และองค์กรที่ให้บริการด้านการผลิต
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'SMAServiceOrderTable, SMAAgreementTable, SMADispatchBoard'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SMAServiceOrderTable, SMAAgreementTable, SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: null
-ms.assetid: null
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5d7e9b081d3b6453595e2f40af17c012da33ce02
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438639"
 ---
-
-
 # <a name="work-with-customer-service-overview"></a>ภาพรวมของการทำงานกับการบริการลูกค้า
 
 [!include [banner](../includes/banner.md)]
@@ -43,6 +49,3 @@ ms.dyn365.ops.version: AX 7.0.0
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

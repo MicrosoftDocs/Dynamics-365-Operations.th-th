@@ -72,5 +72,3 @@ ms.locfileid: "4462675"
 
    1. ล็อกอินไปยังพอร์ทัลการทำงานจากหน้าต่างเบราเซอร์ใหม่
    2. สมัครงานจากพอร์ทัลการทำงาน 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

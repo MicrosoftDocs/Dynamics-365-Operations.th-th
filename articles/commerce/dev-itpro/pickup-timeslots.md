@@ -2,9 +2,11 @@
 title: สร้างและอัพเดตที่ช่วงเวลาสำหรับการเบิกสินค้าของลูกค้า
 description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการสร้าง ตั้งค่าคอนฟิก และอัพเดตช่วงเวลาสำหรับการเบิกสินค้าของลูกค้าในศูนย์ควบคุมการค้า
 author: anupamar-ms
+manager: AnnBe
 ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713432"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828222"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>สร้างและอัพเดตที่ช่วงเวลาสำหรับการเบิกสินค้าของลูกค้า
 
@@ -60,7 +62,7 @@ ms.locfileid: "6713432"
 - **วันที่ใช้งานอยู่** – ระบุวันของสัปดาห์เมื่อช่องเวลาการเบิกสินค้าใช้งานอยู่ คุณสมบัตินี้ช่วยให้ผู้ค้าปลีกกำหนดวันที่ต้องการสนับสนุนใบสั่งเบิกสินค้า
 - **ช่องทางการขายปลีก** – ระบุช่องทางการขายปลีก แต่ละช่องเวลาสามารถเชื่อมโยงกับร้านค้าปลีกหนึ่งแห่งขึ้นไป ขึ้นอยู่กับชั่วโมงการดำเนินงานของร้านค้าแต่ละแห่ง คุณสามารถสร้างรายการช่องเวลาอย่างน้อยหนึ่งรายการและเชื่อมโยงกับช่องทางได้ 
 
-<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 สามารถตั้งค่าคอนฟิกได้เพียงแม่แบบช่วงเวลาเดียวเท่านั้นสำหรับแต่ละช่องทาง ช่องทางเหล่านี้รวมถึงร้านค้าจริง ศูนย์บริการ อุปกรณ์เคลื่อนที่ และไซต์อีคอมเมิร์ซ
 
@@ -92,7 +94,7 @@ ms.locfileid: "6713432"
 1. บนแท็บด่วน **ช่องทางการขายปลีก** ให้เลือก **เพิ่ม** เพื่อเชื่อมโยงแม่แบบของช่องเวลากับร้านค้าหรือช่องทางที่จะใช้
 1. ในกล่องโต้ตอบ **เลือกโหนดองค์กร** ใช้ปุ่มลูกศรเพื่อเลือก (หรือล้างการเลือก) ร้านค้า ภูมิภาค และองค์กรที่ควรเชื่อมโยงกับแม่แบบ
 
-    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. เมื่อคุณได้ทำเสร็จสิ้นแล้ว เลือก **ตกลง**
 1. ในหน้า **กำหนดการการกระจาย** รันงาน **1070** และ **1135** เพื่อซิงค์ข้อมูลไปยังช่องทาง
@@ -124,7 +126,4 @@ ms.locfileid: "6713432"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[โมดูลข้อมูลการรับสินค้า](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[โมดูลข้อมูลการเบิกสินค้า](../pickup-info-module.md)

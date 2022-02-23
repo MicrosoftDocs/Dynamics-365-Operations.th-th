@@ -1,25 +1,34 @@
 ---
-# required metadata
 title: คำขอการบำรุงรักษา
 description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับการจัดการคำขอการบำรุงรักษาในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
-ms.search.validFrom: '2019-10-31'
+ms.author: riluan
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019640"
 ---
-
 # <a name="maintenance-requests"></a>คำขอการบำรุงรักษา
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 คำขอการบำรุงรักษาเป็นบันทึกย่อหรือการรายงานที่สร้างขึ้นเพื่อแจ้งให้ผู้จัดการหรือผู้วางแผนทราบว่า สินทรัพย์อาจต้องการการบำรุงรักษาหรืองานซ่อมแซม แต่ไม่มีการสร้างใบสั่งงาน ถ้าเนื้อหาของคำขอการบำรุงรักษาถูกพิจารณาแล้วว่าถูกต้อง จากนั้น จะสามารถสร้างใบสั่งงานตามคำขอการบำรุงรักษาได้
 
@@ -42,7 +51,7 @@ ms.dyn365.ops.version: 10.0.5
 > 
 > แม้ว่าข้อมูลบัญชีลูกค้าจะพร้อมใช้งานในการจัดการบริการสินทรัพย์ (การบำรุงรักษาภายนอก) แต่จะไม่พร้อมใช้งานในการจัดการสินทรัพย์ (การบำรุงรักษาภายใน)
 
-เมื่อต้องการเปิดมุมมองรายละเอียดของเรกคอร์ดบนหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** ในมุมมองกริด ให้เลือกลิงก์ในคอลัมน์ **คำขอการบำรุงรักษา**
+เมื่อต้องการเปิดมุมมองรายละเอียดของเรกคอร์ดบนหน้ารายการ **คำขอการบำรุงรักษาทั้งหมด** ในมุมมองกริด ให้เลือกลิงค์ในคอลัมน์ **คำขอการบำรุงรักษา**
 
 ![ดูรายละเอียดของคำขอการบำรุงรักษา](media/02-manage-maintenance-requests.png)
 
@@ -63,6 +72,3 @@ ms.dyn365.ops.version: 10.0.5
 | ส่งสินทรัพย์ที่ให้ยืม                  | เลือกสินทรัพย์ที่ให้ยืมที่ควรจะเป็นการแทนที่แบบชั่วคราวสำหรับสินทรัพย์ที่เลือกบนคำขอการบำรุงรักษาที่เลือก |
 | ส่งคืนสินทรัพย์ที่ให้ยืม                | ลงทะเบียนสินทรัพย์ที่ให้ยืมเป็นส่งคืนแล้ว |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

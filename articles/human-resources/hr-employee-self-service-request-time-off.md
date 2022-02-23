@@ -1,13 +1,16 @@
 ---
 title: คำขอเวลาหยุดพัก
 description: คำขอเวลาหยุดพักใน Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7ca3fd03cda720187cb9c21b7f3ef3545c8901e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066786"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420834"
 ---
 # <a name="request-time-off"></a>คำขอเวลาหยุดพัก
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณสามารถส่งคำขอสำหรับเวลาหยุดพักได้ ดูวันหยุดและยอดดุลวันลาของคุณ และดูสถานะคำร้องการลาใน Dynamics 365 Human Resources
 
@@ -45,11 +43,9 @@ ms.locfileid: "8066786"
 
 6. เลือก **ส่ง** เมื่อคุณพร้อมที่จะส่งคำขอของคุณ หรือเลือก **บันทึกดราฟต์**
 
-พนักงานที่ส่งคำขอการลางานใหม่ สามารถเลือกชนิดการลางานต่างๆ เพื่อสร้างคำขอการลางานของพวกเขา อย่างไรก็ตาม ชนิดการลางานทั้งหมดที่เลือกไว้เป็นส่วนหนึ่งของคำขอการลางานเดียวควรมีหน่วยการลางานเดียวกัน พนักงานสามารถดูหน่วยการลางานของชนิดการลางานแต่ละชนิดได้ในหน้า **ร้องขอการลาหยุด**
-
 ## <a name="add-an-attachment-to-an-existing-request"></a>เพิ่มส่วนแนบไปยังคำขอที่มีอยู่
 
-เมื่อปรับปรุงคำขอการหยุดพักที่มีอยู่ คุณสามารถเพิ่มส่วนแนบ นอกจากนี้ คุณยังสามารถดูคำขอที่เกี่ยวข้องทั้งหมดสำหรับวันที่ที่ระบุได้ด้วย
+เมื่อปรับปรุงคำขอการหยุดพักที่มีอยู่ คุณสามารถเพิ่มส่วนแนบ นอกจากนี้ คุณยังสามารถดูคำขอที่เกี่ยวข้องทั้งหมดสำหรับวันที่ที่ระบุได้ด้วย 
 
 ## <a name="view-leave-balances"></a>ดูยอดดุลของการลา
 
@@ -61,23 +57,8 @@ ms.locfileid: "8066786"
 
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **อื่นๆ** (...) ในไทล์ **ยอดดุลเวลาหยุดพัก**
 
-2. เลือก **การลาหยุดที่อนุมัติแล้ว** เพื่อดูการขอลาหยุดที่ได้รับการอนุมัติแล้ว เลือก **การขอลาหยุด** เพื่อดูการขอลาหยุดที่กำลังรอการอนุมัติ
-
-## <a name="cancel-time-off-requests"></a>ยกเลิกคำขอลาหยุด
-
-1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ดูเวลาหยุดพัก** ในไทล์ **ยอดดุลเวลาหยุดพัก**
-
-2. บนหน้า **การลาหยุด** ให้เลือกคำขอเวลาหยุดพักอย่างน้อยหนึ่งรายการเพื่อยกเลิกการลา
-
-3. เลือกปุ่ม **ยกเลิก**
-
-4. ในบานหน้าต่าง **รายละเอียดการยกเลิก** ให้ป้อนข้อคิดเห็น แล้วจากนั้น เลือก **ส่ง**
-
-   ![ยกเลิกคำขอการลางาน](media/hr-leave-and-absence-cancel.png)
+2. เพื่อดูคำขอเวลาหยุดพักที่อนุมัติแล้ว ให้เลือก **อนุมัติเวลาหยุดพัก** เพื่อดูคำขอเวลาหยุดพักที่กำลังรอ ให้เลือก **คำขอเวลาหยุดพัก**
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,36 +1,34 @@
 ---
-title: เรียกใช้กระบวนการค่าตอบแทน
-description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้ากำลังพยายามเรียกใช้กระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใดๆ
-author: twheeloc
-ms.date: 08/19/2021
+title: รันกระบวนการค่าตอบแทน
+description: บทความนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งลูกค้ากำลังพยายามรันกระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใด ๆ
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065412"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420709"
 ---
-# <a name="run-the-compensation-process"></a>เรียกใช้กระบวนการค่าตอบแทน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="run-the-compensation-process"></a>รันกระบวนการค่าตอบแทน
 
 **ออก**
 
-ลูกค้ากำลังพยายามเรียกใช้กระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใดๆ
+ลูกค้ากำลังพยายามรันกระบวนการค่าตอบแทนใน Microsoft Dynamics 365 Human Resources แต่ไม่มีความสำเร็จใดๆ
 
 **สาเหตุ**
 
@@ -42,13 +40,10 @@ ms.locfileid: "8065412"
 
 - การตั้งค่า
 
-    - [แผนค่าตอบแทน](/dynamics365/unified-operations/talent/compensation-plans)
-    - [สร้างแผนค่าตอบแทนคงที่](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [สร้างแผนค่าตอบแทนผันแปร](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [แผนค่าตอบแทน](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
+    - [สร้างแผนค่าตอบแทนคงที่](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [สร้างแผนค่าตอบแทนผันแปร](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - กระบวนการ:
 
-    - [ประมวลผลค่าตอบแทน](/dynamics365/unified-operations/talent/process-compensation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    - [ประมวลผลค่าตอบแทน](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)

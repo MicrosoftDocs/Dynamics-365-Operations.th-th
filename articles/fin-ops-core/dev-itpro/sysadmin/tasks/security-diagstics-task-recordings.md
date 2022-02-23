@@ -2,9 +2,11 @@
 title: การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการวิเคราะห์และจัดการข้อกําหนดสิทธิ์ด้านความปลอดภัยตามการบันทึกงาน
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88eb90b35f1a9754cc4daa01d8f40cdf712db4f8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745131"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679801"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน
 
@@ -47,6 +49,3 @@ ms.locfileid: "6745131"
     - ถ้า **บทบาท** ถูกเลือก ให้เลือก **เพิ่มบทบาทให้กับผู้ใช้** ซึ่งจะเปิดหน้า **มอบหมายผู้ใช้ให้กับบทบาท** สำหรับข้อมูลเพิ่มเติม ดูที่หน้า [มอบหมาบทบาทความปลอดภัยให้กับผู้ใช้](assign-users-security-roles.md)
     - ถ้า **หน้าที่** ถูกเลือก ให้เลือก **เพิ่มหน้าที่ให้กับบทบาท** เลือกบทบาทที่ควรเพิ่มหน้าที่ แล้วเลือก **ตกลง**
     - ถ้า **สิทธิ์** ถูกเลือก ให้เลือก **เพิ่มสิทธิ์ให้กับหน้าที่** เลือกบทบาทที่ควรเพิ่มหน้าที่ แล้วเลือก **ตกลง**
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

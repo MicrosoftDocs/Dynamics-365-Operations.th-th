@@ -2,25 +2,28 @@
 title: โซนเวลาของสถานที่เพิ่มเติม
 description: หัวข้อนี้แสดงภาพรวมของโซนเวลาของสถานที่ใหม่ที่มีการเพิ่มลงใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4801077ac498699972244f3f86216790b517b47247fc7fb288614ec143c3c5cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438849"
 ---
 # <a name="additional-location-zones"></a>โซนเวลาของสถานที่เพิ่มเติม
 
@@ -55,6 +58,3 @@ ms.locfileid: "6762781"
 7. เลือก **สร้าง**
 8. คุณได้รับข้อความแจ้งว่ามีการเพิ่มสถานที่ตั้งใหม่แล้ว เลือกปุ่ม **แสดงข้อความ** เพื่อดูข้อความ
 9. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> คลังสินค้า \> สถานที่** สถานที่ใหม่จะปรากฏในรายการและฟิลด์โซนเวลาทั้งหมดจะพร้อมใช้งาน (นั่นคือฟิลด์โซนเวลาที่มีอยู่และฟิลด์โซนเวลาเพิ่มเติมใหม่)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

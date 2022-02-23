@@ -2,23 +2,26 @@
 title: รายละเอียดรายการงาน
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับหน้ารายละเอียดของรายการงาน ซึ่งแสดงรายการที่ครอบคลุม สามารถเรียงลำดับได้ และสามารถกรองได้ ของรายการงานแต่ละรายการในระบบของคุณ
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778292"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438861"
 ---
 # <a name="work-line-details"></a>รายละเอียดรายการงาน
 
@@ -28,7 +31,7 @@ ms.locfileid: "7778292"
 
 ## <a name="turn-on-the-work-line-details-feature"></a>เปิดคุณลักษณะรายละเอียดของรายการงาน
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *รายละเอียดของรายการงาน*
@@ -125,6 +128,3 @@ ms.locfileid: "7778292"
 
 > [!IMPORTANT]
 > ถ้าคุณยกเลิกเพียงบางส่วนของปริมาณสำหรับรายการงาน คุณต้องลบปริมาณที่ล้าสมัยออกจากรายการจำนวนงานในศูนย์การผลิตด้วย มิฉะนั้น เว้นแต่จะมีการตั้งค่าขีดจำกัดการรับสินค้าต่ำกว่าปริมาณการสั่งอย่างถูกต้อง รายการจำนวนงานในศูนย์การผลิตจะไม่สามารถได้รับการยืนยันการจัดส่งได้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

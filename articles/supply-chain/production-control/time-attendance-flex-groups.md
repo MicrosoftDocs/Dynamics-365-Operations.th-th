@@ -2,25 +2,28 @@
 title: กลุ่มการทำงานแบบยืดหยุ่นเวลา
 description: หัวข้อนี้อธิบายวิธีการใช้งานกลุ่มการทำงานแบบยืดหยุ่นเวลาในเวลาและการเข้างาน
 author: johanhoffmann
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgFlexGroup, JmgFlexCorrection
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 44d8876aac8f8a3439a9a1285780bcc076c95807b950e3640c2a7523beae3f3e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c71ebab0788b6c5d7466a5d71e3c72a7e86e41db
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717039"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438527"
 ---
 # <a name="flex-groups"></a>กลุ่มการทำงานแบบยืดหยุ่นเวลา
 
@@ -103,7 +106,7 @@ ms.locfileid: "6717039"
 - **ชนิดของค่าจ้างต่ำสุด:** 1302
 - **ตัวคูณชนิดของค่าจ้าง:** -1.0
 
-เนื่องจากความแตกต่างระหว่างบัญชีการทำงานแบบยืดหยุ่นเวลาของผู้ปฏิบัติงาน และค่าสูงสุดของการทำงานแบบยืดหยุ่นเวลาที่ได้รับอนุญาตของพวกเขา บ่งชี้ว่า ผู้ปฏิบัติงานได้ทำงานเกินกว่าค่าสูงสุดของการทำงานแบบยืดหยุ่นเวลาที่อนุญาตของพวกเขา 4.0 ชั่วโมง
+เนื่องจากความแตกต่างระหว่างบัญชีการทำงานแบบยืดหยุ่นเวลาของผู้ปฏิบัติงาน และค่าสูงสุดของการทำงานแบบยืดหยุ่นเวลาที่ได้รับอนุญาตของเธอ บ่งชี้ว่า ผู้ปฏิบัติงานได้ทำงานเกินกว่าค่าสูงสุดของการทำงานแบบยืดหยุ่นเวลาที่อนุญาตของเธอ 4.0 ชั่วโมง
 
 เมื่อผู้ดูแลค่าจ้างโอนย้ายข้อมูลค่าจ้างของผู้ปฏิบัติงาน โดยรันงาน **โอนย้ายไปที่การชำระค่าจ้าง** หรือ **การปรับปรุงการทำงานแบบยืดหยุ่น** จะมีการปรับปรุงต่อไปนี้:
 
@@ -182,6 +185,3 @@ ms.locfileid: "6717039"
 | 06:00 น. | 08:00 น. | 2    | 1.5       | 3            |
 | 08:00 น. | 09:00 น. | 1    | 2         | 2            |
 |          |          |      | **ยอดรวม** | **8**        |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

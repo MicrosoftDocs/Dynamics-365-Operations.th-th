@@ -2,9 +2,11 @@
 title: ตั้งค่าการแบ่งแยกหน้าที่
 description: 'คุณสามารถตั้งค่ากฎเพื่อแยกงานที่ต้องดำเนินการโดยผู้ใช้ต่างๆ '
 author: peakerbl
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755759"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826405"
 ---
 # <a name="set-up-segregation-of-duties"></a>ตั้งค่าการแบ่งแยกหน้าที่
 
@@ -40,6 +42,3 @@ ms.locfileid: "6755759"
 
 > [!IMPORTANT] 
 > ไม่มีการตรวจสอบการปฏิบัติตามกฎการแบ่งแยกหน้าที่เมื่อคุณสร้างกฎ คุณสามารถสร้างกฎที่สร้างความขัดแย้งให้กับบทบาทที่มีอยู่ การมอบหมายบทบาทผู้ใช้ที่มีอยู่ยังสามารถขัดแย้งกับกฎใหม่ด้วย คุณต้องตรวจสอบความถูกต้องของการปฏิบัติตามกฎระเบียบหลังจากที่คุณสร้างหรือปรับเปลี่ยนกฎ สำหรับข้อมูลเพิ่มเติม ให้ดู [ระบุและแก้ไขความขัดแย้งในการแบ่งแยกหน้าที่](identify-resolve-conflicts-segregation-duties.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

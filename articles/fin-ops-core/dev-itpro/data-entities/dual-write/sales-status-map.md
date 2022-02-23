@@ -2,19 +2,28 @@
 title: ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
 description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอลัมน์สถานะของใบสั่งขายสำหรับการรวมแบบสองทิศทาง
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782295"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744310"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
 
@@ -122,11 +131,11 @@ ms.locfileid: "7782295"
 
 1. ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **ตารางผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**
 
-    ![การเปิดฟอร์มผู้ใช้](media/sales-map-user.png)
+    ![การเปิดแบบฟอร์มผู้ใช้](media/sales-map-user.png)
 
 2. ในฟิลด์ Explorer ให้ค้นหา **โหมดผู้ใช้การรวม** และคลิกสองครั้งเพื่อเพิ่มในแบบฟอร์ม บันทึกการเปลี่ยนแปลง
 
-    ![การเพิ่มคอลัมน์โหมดผู้ใช้การรวมไปยังฟอร์ม](media/sales-map-field-explorer.png)
+    ![กำลังเพิ่มคอลัมน์โหมดผู้ใช้ในการรวมกับแบบฟอร์ม](media/sales-map-field-explorer.png)
 
 3. ในการขาย ให้ไปที่ **การตั้งค่า \> ความปลอดภัย \> ผู้ใช้** และเปลี่ยนมุมมองจาก **ผู้ใช้ที่เปิดใช้งาน** เป็น **ผู้ใช้แอปพลิเคชัน**
 
@@ -141,6 +150,3 @@ ms.locfileid: "7782295"
     ![การเปลี่ยนค่าของคอลัมน์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
 
 ขณะนี้มีการแม็ปใบสั่งขายของคุณ
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

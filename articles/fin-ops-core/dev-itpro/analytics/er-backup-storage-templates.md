@@ -2,9 +2,11 @@
 title: การจัดเก็บข้อมูลสำรองของเท็มเพลต ER
 description: หัวข้อนี้จะอธิบายถึงวิธีการใช้ที่จัดเก็บสำเนาสำรองของการรายงานทางอิเล็กทรอนิกส์ (ER) สำหรับการกู้คืนเท็มเพลต
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767888"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681411"
 ---
 # <a name="backup-storage-of-er-templates"></a>การจัดเก็บข้อมูลสำรองของเท็มเพลต ER
 
@@ -69,7 +71,7 @@ ms.locfileid: "6767888"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของข้อความที่จะปรากฏขึ้นเมื่อ **รันขั้นตอนการกู้คืนเท็มเพลตที่ขาดหายไปในชุดงานโดยอัตโนมัติ** โดยพารามิเตอร์ถูกตั้งเป็น **เปิด**
 
-![หน้าสมุดรายวันการชำระเงินให้แก่ผู้จัดจำหน่าย](./media/GER-BackupTemplates-2.png)
+![หน้าในสมุดรายวันการชำระเงินให้แก่ผู้จัดจำหน่าย](./media/GER-BackupTemplates-2.png)
 
 ภาพประกอบต่อไปนี้แสดงกระบวนการชุดงาน **การกู้ค่าเท็มเพลตที่เสียหายจากสำเนาสำรองฐานข้อมูลภายใน** บนหน้า **ชุดงาน**
 
@@ -100,6 +102,3 @@ ms.locfileid: "6767888"
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 [ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

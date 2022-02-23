@@ -1,26 +1,31 @@
 ---
-# required metadata
 title: ภาพรวมของกระบวนการขาออก
 description: หัวข้อนี้แสดงภาพรวมของกระบวนการขาออกในการจัดการสินค้าคงคลัง
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-  - '274363'
-  - intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: db1a6887e7742700dd3451c9a877b948b5ab691b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438511"
 ---
-
 # <a name="outbound-process-overview"></a>ภาพรวมของกระบวนการขาออก
 
 [!include [banner](../includes/banner.md)]
@@ -80,6 +85,3 @@ ms.search.validFrom: '2016-02-28'
 ทันทีที่มีการเบิกสินค้ารายการเบิกสินค้าทั้งหมดในหน้า **การลงทะเบียนรายการเบิกสินค้า** การจัดส่งที่เกี่ยวข้องจะเสร็จสมบูรณ์ จากนั้นจะเริ่มกระบวนการสำหรับบันทึกการจัดส่งของใบสั่งขายตามสินค้าคงคลังที่เบิกแล้ว
 
 [![อัพเดตการจัดส่งขาออก](./media/outbound-shipments.png)](./media/outbound-shipments.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

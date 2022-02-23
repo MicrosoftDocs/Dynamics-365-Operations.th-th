@@ -1,26 +1,31 @@
 ---
-# required metadata
 title: ภาพรวมของการจัดการวงจรการใช้งานใบสั่งผลิต
 description: เมื่อมีการสร้างใบสั่งผลิต คำขอจะถูกเริ่มต้นเพื่อเริ่มการผลิตสินค้า ใบสั่งผลิตประกอบด้วยข้อมูลเกี่ยวกับสิ่งที่จะมีการผลิต ปริมาณที่จะผลิต และวันที่เสร็จสิ้นที่วางแผนไว้ ทั้งยังประกอบด้วยข้อมูลเกี่ยวกับวัสดุที่จะใช้ และกระบวนการที่จะดำเนินการตามเพื่อผลิตสินค้า
 author: johanhoffmann
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'ProdTable, ProdTableCreate'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-  - '19741'
-  - intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19741
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 80031737ab0d0c4ab1e4dbd5646ad91f1a010cd5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438628"
 ---
-
 # <a name="production-order-lifecycle-overview"></a>ภาพรวมของการจัดการวงจรการใช้งานใบสั่งผลิต
 
 [!include [banner](../includes/banner.md)]
@@ -40,6 +45,3 @@ ms.dyn365.ops.version: AX 7.0.0
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

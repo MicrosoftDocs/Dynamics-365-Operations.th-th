@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน
 description: ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ
 author: ChrisGarty
+manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070813"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798940"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>ตั้งค่าคอนฟิกกระบวนการอนุมัติในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับกระบวนการอนุมัติ
 
@@ -184,6 +183,3 @@ ms.locfileid: "8070813"
 1. ในโปรแกรมแก้ไขลำดับงาน ดับเบิลคลิกที่กระบวนการอนุมัติ โปรแกรมแก้ไขลำดับงานแสดงขั้นตอนกระบวนการอนุมัติ
 2. เมื่อต้องการเพิ่มขั้นตอนการอนุมัติ ลากขั้นตอนจากพื้นที่ **องค์ประกอบลำดับงาน** ไปที่ผืนผ้าใบ
 3. การตั้งค่าคอนฟิกขั้นตอนการอนุมัติ ให้ดูที่ [ตั้งค่าคอนฟิกขั้นตอนการอนุมัติในเวอร์กโฟลว์](configure-approval-step-workflow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

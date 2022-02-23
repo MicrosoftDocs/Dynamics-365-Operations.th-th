@@ -1,10 +1,12 @@
 ---
 title: การจัดซื้อ
 description: หัวข้อนี้อธิบายถึงการจัดซื้อในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743661"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020215"
 ---
 # <a name="procurement"></a>การจัดซื้อ
 
@@ -97,6 +99,3 @@ ms.locfileid: "6743661"
 
 ในทำนองเดียวกัน ถ้าต้องการดูหรือป้อนหมายเลขกิจกรรมที่เกี่ยวข้องกับรายการใบสั่งซื้อบนหน้ารายการ **ใบขอซื้อของใบสั่งงาน** เลือกเรกคอร์ดใบขอซื้อ และจากนั้น ในคอลัมน์ **ใบขอซื้อ** ให้เลือกลิงค์สำหรับใบขอซื้อ คุณสามารถค้นหาฟิลด์ **หมายเลขกิจกรรม** บนแท็บ **โครงการ** ของ FastTab **รายละเอียดของรายการ**
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

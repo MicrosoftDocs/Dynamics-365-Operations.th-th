@@ -2,9 +2,11 @@
 title: การทดสอบแบบวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
 description: หัวข้อนี้จะกล่าวถึงข้อแนะนำสำหรับการทดสอบแบบวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763421"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798213"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>การทดสอบแบบวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
 
@@ -42,11 +44,8 @@ ms.locfileid: "6763421"
     - ป้อนตัวระบุเฉพาะเช่นหมายเลขใบแจ้งหนี้ โดยใช้ลำดับหมายเลขหรือโดยการใช้ฟังก์ชัน Microsoft Excel เช่น =TEXT(NOW(),"yyyymmddhhmm") ฟังก์ชันนี้จะให้หมายเลขที่ไม่ซ้ำกันทุกนาทีซึ่งช่วยให้คุณสามารถติดตามเมื่อมีการดำเนินการเกิดขึ้น นี้สามารถใช้สำหรับตัวแปรเช่นหมายเลขใบรับสินค้าและหมายเลขใบแจ้งหนี้ของผู้จัดจำหน่าย การทดสอบเหล่านี้ยังคงทำงานอยู่ในฐานข้อมูลเดียวกันซ้ำแล้วซ้ำอีกโดยไม่ต้องมีการคืนค่าใดๆ
     - ตั้งค่า **โหมดการแก้ไข** ของสภาพแวดล้อมเพื่อให้ **อ่าน** หรือ **แก้ไข** เป็นกรณีการทดสอบแรกเสมอเนื่องจากตัวเลือกเริ่มต้นเป็นแบบ **อัตโนมัติ**  ตัวเลือก **อัตโนมัติ** จะใช้ในการตั้งค่าก่อนหน้านี้เสมอและสามารถทำให้เกิดการทดสอบที่ไม่น่าเชื่อถือ 
  
-    [![หน้าตัวเลือก, แท็บประสิทธิภาพ](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Options page, Performance tab](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - ตรวจสอบความถูกต้องหลังจากที่คุณกรองข้อมูลธุรกรรมเฉพาะแทนการตรวจสอบทั่วไปเท่านั้น ตัวอย่างเช่นสำหรับหมายเลขของเรกคอร์ดให้กรองข้อมูลสำหรับหมายเลขธุรกรรมหรือวันที่ทำธุรกรรมเพื่อให้การตรวจสอบความถูกต้องไม่รวมธุรกรรมอื่นๆทั้งหมด 
     - ถ้าคุณกำลังตรวจสอบยอดดุลลูกค้าหรือการตรวจสอบงบประมาณ ให้บันทึกค่าก่อนแล้วจึงเพิ่มมูลค่าของธุรกรรมของคุณเพื่อตรวจสอบความถูกต้องของผลลัพธ์ที่คาดไว้แทนที่จะตรวจสอบความถูกต้องของค่าที่คาดอย่างคงที่ 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

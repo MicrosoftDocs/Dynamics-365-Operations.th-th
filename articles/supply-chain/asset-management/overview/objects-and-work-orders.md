@@ -1,10 +1,12 @@
 ---
 title: สินทรัพย์และใบสั่งงาน
 description: หัวข้อนี้จะอธิบายสินทรัพย์และใบสั่งงานในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cddb0a25286c8ce9d72aef0b835809705ad577a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718118"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020950"
 ---
 # <a name="assets-and-work-orders"></a>สินทรัพย์และใบสั่งงาน
 
@@ -52,6 +54,3 @@ ms.locfileid: "6718118"
 
 > [!NOTE]
 > โดยทั่วไป เมื่อคุณทำงานใน Dynamics 365 Supply Chain Management และโมดูล **การจัดการสินทรัพย์** คุณเลือก **สร้าง** เพื่อสร้างเรกคอร์ดใหม่ คุณเลือก **แก้ไข** เพื่อปรับปรุงเรกคอร์ดที่มีอยู่ และคุณเลือก **บันทึก** เพื่อบันทึกข้อมูลใหม่หรือที่แก้ไข
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

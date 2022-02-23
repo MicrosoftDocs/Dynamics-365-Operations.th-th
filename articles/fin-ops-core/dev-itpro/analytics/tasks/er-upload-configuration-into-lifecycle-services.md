@@ -1,10 +1,12 @@
 ---
 title: อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีการสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ และอัปโหลดไปยัง Microsoft Dynamics Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ใหม่ (ER) และอัปโหลดลงใน Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
-ms.date: 06/17/2021
+manager: AnnBe
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
@@ -13,21 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720771"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684174"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>อัปโหลดการตั้งค่าคอนฟิกลงใน Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถสร้าง [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) ใหม่และอัปโหลดลงใน [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)
-
-> [!IMPORTANT]
-> การใช้ LCS เป็นที่เก็บหน่วยจัดเก็บเพื่อการตั้งค่าคอนฟิก ER [ไม่ได้รับการสนับสนุน](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) สำหรับข้อมูลเพิ่มเติม ให้ดู [Regulatory Configuration Service (RCS) – การเลิกใช้ที่เก็บข้อมูล Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 ในตัวอย่างนี้ คุณจะสร้างการตั้งค่าคอนฟิกและอัปโหลดไปยัง LCS สำหรับบริษัทตัวอย่างที่ชื่อ Litware, inc ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันระหว่างบริษัท เพื่อทำขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำขั้นตอนต่างๆ ให้เสร็จสมบูรณ์ [สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่](er-configuration-provider-mark-it-active-2016-11.md) ต้องมีสิทธิ์เข้าถึง LCS ด้วยเช่นกัน
 
@@ -146,6 +145,3 @@ ms.locfileid: "6720771"
     ระบบควรแสดงการตั้งค่าคอนฟิก ER ที่คุณอัปโหลดไว้
 
     โปรดทราบว่า การตั้งค่าคอนฟิก LCS ที่อัปโหลดสามารถถูกนำเข้าไปยังอินสแตนซ์อื่นได้ หากผู้ให้บริการมีการเข้าถึงไปยังโครงการ LCS นี้
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

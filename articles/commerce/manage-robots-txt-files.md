@@ -1,31 +1,37 @@
 ---
 title: จัดการไฟล์ robots.txt
-description: หัวข้อนี้อธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
 author: BrianShook
+manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754403"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517463"
 ---
 # <a name="manage-robotstxt-files"></a>จัดการไฟล์ robots.txt
 
+
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีจัดการไฟล์ robots.txt ใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 มาตรฐานการแยก robots หรือ robots.txt เป็นมาตรฐานที่เว็บไซต์ใช้ในการสื่อสารกับ robots บนเว็บ ซึ่งแนะนำ robots บนเว็บเกี่ยวกับพื้นที่ใดๆ ของเว็บไซต์ที่ไม่ควรไปเยี่ยมชม Robots มักจะถูกใช้โดยเครื่องมือค้นหาเพื่อทำดัชนีเว็บไซต์
 
@@ -101,6 +107,3 @@ Dynamics 365 Commerce ช่วยให้คุณสามารถอัป�
 [เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
 
 [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

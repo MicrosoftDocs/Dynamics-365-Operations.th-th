@@ -1,32 +1,33 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (08 กรกฎาคม 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (08 กรกฎาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 8 กรกฏาคม 2020
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a574436bc7762fbee722af8be2f923d18d01e5b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060800"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528484"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (8 กรกฎาคม 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (8 กรกฎาคม 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3382 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
@@ -44,7 +45,7 @@ ms.locfileid: "8060800"
 
 ## <a name="email-employee-enrollment-confirmation"></a>การยืนยันการลงทะเบียนของพนักงานทางอีเมล
 
-ขณะนี้คุณสามารถส่งอีเมลไปยังพนักงานได้ หลังจากที่พวกเขาทำการเลือกผลประโยชน์ของพวกเขาเสร็จสมบูรณ์แล้ว คุณสามารถส่งข้อความเริ่มต้น หรือใช้เทมเพลตอีเมลขององค์กรได้ การตั้งค่าเหล่านี้อยู่ภายใต้ **พารามิเตอร์ทรัพยากรบุคคล > การจัดการสวัสดิการ**
+ขณะนี้คุณสามารถส่งอีเมลไปยังพนักงานได้ หลังจากที่พวกเขาทำการเลือกผลประโยชน์ของพวกเขาเสร็จสมบูรณ์แล้ว คุณสามารถส่งข้อความเริ่มต้น หรือใช้เท็มเพลตอีเมลขององค์กรได้ การตั้งค่าเหล่านี้อยู่ภายใต้ **พารามิเตอร์ทรัพยากรบุคคล > การจัดการสวัสดิการ**
 
 ## <a name="canceled-leave-still-appears-in-upcoming-time-off-on-people-workspace-441358"></a>การลางานที่ยกเลิกยังคงแสดงอยู่ในเวลาที่กำลังจะเกิดขึ้นในพื้นที่ทำงานของบุคคล (441358)
 
@@ -70,9 +71,9 @@ ms.locfileid: "8060800"
 
 การนำออกใช้นี้จะแก้ไขข้อผิดพลาด (การอ้างอิง null) ในรายการพนักงานที่มีประสิทธิภาพ เมื่อคุณจ้างงานพนักงานโดยใช้ตัวเลือกเพื่อ **จ้างและเพิ่มรายละเอียด**
 
-## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>การเปลี่ยนแปลงที่เกิดขึ้นในเอนทิตีของผู้ปฏิบัติงาน Dataverse ไม่ได้แสดงในทรัพยากรบุคคล (455652)
+## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>การเปลี่ยนแปลงที่เกิดขึ้นในเอนทิตีของผู้ปฏิบัติงาน Common Data Service ไม่ได้แสดงในทรัพยากรบุคคล (455652)
 
-การเปลี่ยนแปลงที่เกิดขึ้นกับฟิลด์ต่อไปนี้ในเอนทิตี **ผู้ปฏิบัติงาน** ใน Dataverse จะแสดงขึ้นในทรัพยากรบุคคลในขณะนี้:
+การเปลี่ยนแปลงที่เกิดขึ้นกับฟิลด์ต่อไปนี้ในเอนทิตี **ผู้ปฏิบัติงาน** ใน Common Data Service จะแสดงขึ้นในทรัพยากรบุคคลในขณะนี้:
 
 - **ทำงานจากบ้าน**
 - **วันที่ของอายุงาน**
@@ -91,11 +92,11 @@ ms.locfileid: "8060800"
 
 ## <a name="human-resources-application-in-teams"></a>โปรแกรมประบุกต์ Human Resources ใน Teams
 
-พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md) 
+พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ดูที่ [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841) 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
-เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย เทมเพลตการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล เทมเพลตส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
+เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย แม่แบบการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล แม่แบบส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
 
 ## <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน 
 
@@ -130,16 +131,13 @@ ms.locfileid: "8060800"
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-## <a name="checklist-entities-included-in-dataverse"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Dataverse
+## <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
 
-เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Dataverse
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น
-description: หัวข้อนี้อธิบายวิธีการรักษาการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: ขั้นตอนต่อไปนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถรักษาการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720819"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684275"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น
 
@@ -241,6 +243,3 @@ Litware, Inc. ต้องอัพเดตการตั้งค่าคอ
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>ทดสอบรูปแบบที่กำหนดเองสำหรับการสร้างไฟล์การชำระเงิน
 ดำเนินการขั้นตอนให้เสร็จสมบูรณ์ในกระบวนงาน "ใช้รูปแบบที่สร้างไว้เพื่อสร้างเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงิน" ในรอบเวลา Finance and Operations แบบขนาน เลือกรูปแบบ 'BACS (การกำหนดเองแบบสมมติของ UK)' ในพารามิเตอร์วิธีการชำระเงินทางอิเล็กทรอนิกส์ ตรวจสอบให้แน่ใจว่าไฟล์การชำระเงินที่สร้างประกอบด้วยข้อมูลที่นำมาใช้ล่าสุดโดยโหนด XML ของ Proseware, Inc. ซึ่งแสดงรหัส IBAN ที่สอดคล้องกับความต้องการทางภูมิภาค ไฟล์นี้ยังควรประกอบด้วยข้อมูลที่นำมาใช้ล่าสุดโดยโหนด XML ของ Litware, Inc. ซึ่งแสดงรหัส SWIFT ที่สอดคล้องกับความต้องการของประเทศ  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,27 +1,30 @@
 ---
 title: นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 description: หัวข้อนี้อธิบายการใช้ข้อจำกัดนิพจน์และข้อจำกัดตาราง  ข้อจำกัดถูกใช้ในการควบคุมค่าแอททริบิวต์ที่คุณสามารถเลือกได้เมื่อคุณจัดโครงแบบผลิตภัณฑ์สำหรับใบสั่งขาย ใบเสนอราคาขาย ใบสั่งซื้อ หรือใบสั่งผลิต คุณสามารถใช้ข้อจำกัดนิพจน์หรือข้อจำกัดตาราง ขึ้นอยู่กับวิธีที่คุณต้องการสร้างข้อจำกัด
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570740"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438681"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>นิพจน์ข้อจำกัดและข้อจำกัดของตารางในแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -109,16 +112,16 @@ ms.locfileid: "7570740"
 <td>จะเป็นจริงหากเงื่อนไขแรกเป็นเท็จ เงื่อนไขที่สองเป็นจริง หรือทั้งสองอย่าง</td>
 <td>บ่งชี้[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> หมายถึง [x != 0, y &gt;= 0]</li>
+<li><strong>ตัวดำเนินการ:</strong> บ่งชี้[x != 0, y &gt;= 0]</li>
 <li><strong>Infix สัญลักษณ์:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>และ</td>
 <td>จะเป็นจริงหากเงื่อนไขทั้งหมดเป็นจริง ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>จริง</strong></td>
-<td>และ [args], infix: a &amp; b &amp; ... &amp; z</td>
+<td>และ[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> และ [x == 2, y &lt;= 2]</li>
+<li><strong>ตัวดำเนินการ:</strong> และ[x == 2, y &lt;= 2]</li>
 <li><strong>สัญลักษณ์ Infix:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -127,7 +130,7 @@ ms.locfileid: "7570740"
 <td>จะเป็นจริงหากเงื่อนไขใดๆ เป็นจริง ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>เท็จ</strong></td>
 <td>หรือ[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>ตัวดำเนินการ:</strong> หรือ[x == 2, y &lt;= 2]</li>
 <li><strong>สัญลักษณ์ Infix:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -158,15 +161,15 @@ ms.locfileid: "7570740"
 <tr class="odd">
 <td>เวลา</td>
 <td>นำผลิตภัณฑ์ของเงื่อนไข ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>1</strong></td>
-<td>เวลา[args], infix: a * b * ... * z</td>
+<td>คูณ[args], infix: a * b * ... * z</td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> เวลา[x, y, 2] == z</li>
+<li><strong>ตัวดำเนินการ:</strong> คูณ[x, y, 2] == z</li>
 <li><strong>สัญลักษณ์ Infix:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>กำลัง</td>
-<td>นำเลขชี้กำลัง มีเลขยกกำลังจากขวาไปซ้าย (หรืออีกนัยหนึ่ง นั่นคือ&#39;การเชื่อมโยงสิทธิ์) ดังนั้น <strong>Power[a, b, c]</strong> เทียบเท่ากับ <strong>Power[a, Power[b, c]]</strong> <strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</td>
+<td>นำเลขชี้กำลัง มีเลขยกกำลังจากขวาไปซ้าย (หรืออีกนัยหนึ่ง นั่น&#39;คือการเชื่อมโยงสิทธิ์) ดังนั้น <strong>กำลัง[a, b, c]</strong> เทียบเท่ากับ <strong>กำลัง[a, กำลัง[b, c]]</strong> <strong>กำลัง</strong> สามารถใช้ได้เมื่อการยกกำลังมีค่าเป็นค่าบวกเท่านั้น</td>
 <td>กำลัง[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>ตัวดำเนินการ:</strong> กำลัง[x, 2] == y</li>
@@ -176,21 +179,21 @@ ms.locfileid: "7570740"
 <tr class="odd">
 <td>สูงสุด</td>
 <td>ก่อให้เกิดเงื่อนไขใหญ่ที่สุด ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></td>
-<td>สูงสุด[args]</td>
+<td>ค่าสูงสุด[args]</td>
 <td><strong>ตัวดำเนินการ:</strong> ค่าสูงสุด[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>ต่ำสุด</td>
+<td>นาที</td>
 <td>ก่อให้เกิดเงื่อนไขเล็กที่สุด ถ้าหมายเลขของเงื่อนไขเป็น 0 (ศูนย์) จะให้ผล <strong>อนันต์</strong></td>
-<td>ต่ำสุด[args]</td>
+<td>ค่าต่ำสุด[args]</td>
 <td><strong>ตัวดำเนินการ:</strong> ค่าต่ำสุด[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
 <td>ไม่ใช่</td>
 <td>ก่อให้เกิดตัวผกผันทางตรรกะของเงื่อนไข ต้องมีเพียงหนึ่งเงื่อนไขที่ตรงทุกประการ</td>
-<td>ไม่[expr], infix: !expr</td>
+<td>ไม่ใช่[expr], infix: !expr</td>
 <td><ul>
-<li><strong>ตัวดำเนินการ:</strong> ไม่ใช่ [x] &amp; ไม่ใช่ [y == 3]</li>
+<li><strong>ตัวดำเนินการ:</strong> ไม่ใช่[x] &amp;  ไม่ใช่[y == 3]</li>
 <li><strong>สัญลักษณ์ Infix:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -219,7 +222,7 @@ ms.locfileid: "7570740"
 |        (x)        |                           วงเล็บแทนที่ความสำคัญเริ่มต้น                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>เหตุใดข้อจำกัดนิพจน์ของฉันจึงถูกตรวจสอบไม่ถูกต้อง
-คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์  นี่คือรายการของคำสำคัญที่สงวนไว้ ซึ่งคุณไม่สามารถใช้ได้:
+คุณไม่สามารถใช้คำสำคัญที่สำรองไว้เป็นชื่อโปรแกรมแก้ปัญหาแอททริบิวต์ ส่วนประกอบ หรือส่วนประกอบย่อยในแบบจำลองการตั้งค่าคอนฟิกผลิตภัณฑ์  นี่คือรายการของคำสำคัญที่สงวนไว้ซึ่งคุณไม่สามารถใช้ได้:
 
 -   เพดานเงิน
 -   องค์ประกอบ
@@ -242,7 +245,8 @@ ms.locfileid: "7570740"
 -   เป้าหมาย
 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [สร้างข้อจำกัดนิพจน์](tasks/add-expression-constraint-product-configuration-model.md)
 
@@ -250,6 +254,3 @@ ms.locfileid: "7570740"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

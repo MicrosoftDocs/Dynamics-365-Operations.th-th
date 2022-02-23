@@ -1,22 +1,30 @@
 ---
-# required metadata
 title: ภาพรวมของข้อตกลงระดับการให้บริการ
 description: ในข้อตกลงระดับการให้บริการ ลูกค้าตกลงยอมรับเวลาการตอบสนองขั้นต่ำ ตามเวลาที่บริษัทที่ให้บริการบันทึกปัญหา และเวลาที่ปัญหานั้นได้รับการแก้ไข
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01cdfe519e55ca2a9aa17f4ac181ee675b2793cf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438570"
 ---
-
 # <a name="service-level-agreements-overview"></a>ภาพรวมของข้อตกลงระดับการให้บริการ       
 
 [!include [banner](../includes/banner.md)]
@@ -73,6 +81,3 @@ SLA มีการใช้กับข้อตกลงการให้บ�
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

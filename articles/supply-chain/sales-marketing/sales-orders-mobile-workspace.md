@@ -2,12 +2,15 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของใบสั่งขาย พื้นที่ทำงานนี้ช่วยให้คุณสามารถคอยติดตามสถานการณ์ปัจจุบันเกี่ยวกับใบสั่งขายของคุณได้ตลอดเวลา และที่ใดก็ได้
 author: Mirzaab
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 712b45cf1fd35de9f823af1bf89db9c4a572d61ebf7aa3e1fded16902c09557a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438676"
 ---
 # <a name="sales-orders-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ใบสั่งขาย
 
@@ -81,7 +84,7 @@ ms.locfileid: "6767375"
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management 
-ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณผู้ดูแลระบบต้องเผยแพร่ **ใบสั่งขาย** พื้นที่ทำงานแบบเคลื่อนที่ สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -101,17 +104,17 @@ ms.locfileid: "6767375"
 
 <td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ใบสั่งขาย</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>
@@ -139,6 +142,3 @@ ms.locfileid: "6767375"
 4.  เลือกลูกค้า
 5.  เลือก **ข้อมูลติดต่อ** หรือ **ใบสั่งขาย** ถ้าคุณเลือก **ใบสั่งขาย** รายการใบสั่งขายสำหรับลูกค้าจะปรากฏขึ้น
 6.  เลือก **ใบสั่งขาย** ในขณะนี้คุณสามารถดูข้อมูลเกี่ยวกับบรรทัดใบสั่งขาย ข้อมูลเกี่ยวกับการจัดส่ง ข้อมูลติดต่อของลูกค้า และข้อมูลการติดต่อสำหรับผู้รับใบสั่ง
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

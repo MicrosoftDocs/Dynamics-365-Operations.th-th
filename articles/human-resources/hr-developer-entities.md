@@ -1,13 +1,16 @@
 ---
-title: ตาราง Dataverse
-description: Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเปิดใช้งานความสามารถในการเพิ่มและสถานการณ์การรวม
+title: เอนทิตี้ Common Data Service
+description: Microsoft Dynamics 365 Human Resources ใช้ Common Data Service เพื่อเปิดใช้งานความสามารถในการเพิ่มและสถานการณ์การรวม
 author: andreabichsel
-ms.date: 01/25/2021
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,30 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066836"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4530017"
 ---
-# <a name="dataverse-tables"></a>ตาราง Dataverse
+# <a name="common-data-service-entities"></a>เอนทิตี้ Common Data Service
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
+Microsoft Dynamics 365 Human Resources ใช้ Common Data Service เพื่อเปิดใช้งานความสามารถในการเพิ่มและสถานการณ์การรวม
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Common Data Service ให้ดูที่ [อะไรคือ Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
-Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเปิดใช้งานความสามารถในการเพิ่มและสถานการณ์การรวม
+เอนทิตีทรัพยากรต่อไปนี้พร้อมใช้งานใน Common Data Service
 
-> [!NOTE]
-> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
+## <a name="benefit-entities"></a>เอนทิตี้สวัสดิการ
 
-ตาราง Dataverse ต่อไปนี้พร้อมใช้งานในเอนทิตี Human Resources
-
-## <a name="benefit-tables"></a>ตารางสวัสดิการ
-
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | ความถี่ในการคำนวณสวัสดิการ | cdm_benefitcalculationfrequency |
 | รอบระยะเวลาการชำระเงินตามความถี่ในการคำนวณสวัสดิการ | cdm_benefitcalculationfrequencypayperiod |
@@ -48,20 +47,20 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 | แผนสวัสดิการ | cdm_benefitplan (ไม่ได้เปิดใช้งานสำหรับการสนับสนุนฟิลด์แบบกำหนดเอง) |
 | ชนิดของสวัสดิการ | cdm_benefittype |
 
-## <a name="business-process-tasks-tables"></a>ตารางงานของกระบวนการทางธุรกิจ
+## <a name="business-process-tasks-entities"></a>เอนทิตีงานของกระบวนการทางธุรกิจ
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | ปฏิทินกระบวนการทางธุรกิจ | cdm_businessprocesscalendar |
 | การกำหนดกลุ่มกระบวนการทางธุรกิจ | cdm_businessprocessgroupassignment |
 | กลุ่มงานไลบรารีกระบวนการทางธุรกิจ | cdm_businessprocesslibrarytaskgroup |
 | ระยะของกระบวนการทางธุรกิจ | cdm_businessprocessstage |
-| ส่วนหัวเทมเพลตรายการตรวจสอบ | cdm_businessprocesstemplateheader |
-| งานเทมเพลตรายการตรวจสอบ | cdm_businessprocesstemplatetask |
+| ส่วนหัวเท็มเพลตรายการตรวจสอบ | cdm_businessprocesstemplateheader |
+| งานเท็มเพลตรายการตรวจสอบ | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-tables"></a>ตารางค่าตอบแทน
+## <a name="compensation-entities"></a>เอนทิตีค่าตอบแทน
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | แผนค่าตอบแทนคงที่ | cdm_compensationfixedplan |
 | กริดค่าตอบแทน | cdm_compensationgrid |
@@ -78,9 +77,9 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 | กฎสิทธิ์พึงได้ | cdm_vestingrule |
 | ค่าตอบแทนคงที่ของผู้ปฏิบัติงาน | cdm_workerfixedcompensation |
 
-## <a name="organization-tables"></a>ตารางองค์กร
+## <a name="organization-entities"></a>เอนทิตี้องค์กร
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | แผนก | cdm_department |
 | การจ้างงาน | cdm_employment |
@@ -96,23 +95,23 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 | ชื่อตำแหน่ง | cdm_title |
 
 > [!NOTE]
-> มิติทางการเงินสำหรับ **ชนิดของตำแหน่ง** **การกำหนดผู้ปฏิบัติงานของตำแหน่ง** และ **การจ้างงาน** ให้การรวมทิศทางเดียวแก่ Dataverse ในขณะนี้ การปรับปรุงมิติทางการเงินไม่สามารถซิงโครไนส์จาก Dataverse กับทรัพยากรบุคคลได้ 
+> มิติทางการเงินสำหรับ **ชนิดของตำแหน่ง** **การกำหนดผู้ปฏิบัติงานของตำแหน่ง** และ **การจ้างงาน** ให้การรวมทิศทางเดียวแก่ Common Data Service ในขณะนี้ การปรับปรุงมิติทางการเงินไม่สามารถซิงโครไนส์จาก Common Data Service กับทรัพยากรบุคคลได้ 
 
-## <a name="leave-and-absence-tables"></a>ตารางการลางานและการหยุดงาน
+## <a name="leave-and-absence-entities"></a>เอนทิตี้การลางานและการขาดงาน
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | ธุรกรรมธนาคารวันลา | cdm_leavebanktransaction |
-| การลงทะเบียนการลาหยุด | cdm_leaveenrollment |
+| การลงทะเบียนการลางาน | cdm_leaveenrollment |
 | แผนการลาหยุด | cdm_leaveplan |
 | การขอลา | cdm_leaverequest |
 | รายละเอียดคำขอการลางาน | cdm_leaverequestdetail |
 | ชนิดการลา | cdm_leavetype |
 | รหัสเหตุผลชนิดการลา | cdm_leavetypereasoncode |
 
-## <a name="payroll-tables"></a>ตารางค่าจ้าง
+## <a name="payroll-entities"></a>เอนทิตี้ค่าจ้าง
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | รอบการชำระค่าจ้าง | cdm_paycycle |
 | รอบระยะเวลาการชำระค่าจ้าง | cdm_payperiod |
@@ -120,12 +119,12 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 | การเบิกจ่ายเงินของบัญชีธนาคาร | cdm_bankaccountdisbursement |
 | ภูมิภาคการเก็บภาษี | cdm_taxregion |
 
-## <a name="worker-tables"></a>ตารางผู้ปฏิบัติงาน
+## <a name="worker-entities"></a>เอนทิตี้ของผู้ปฏิบัติงาน
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | ผู้ปฏิบัติงาน | cdm_worker |
-| ที่อยู่ของผู้ปฏิบัติงาน | cdm_workeraddress |
+| ที่อยู่ผู้ปฏิบัติงาน | cdm_workeraddress |
 | รายละเอียดส่วนตัวของผู้ปฏิบัติงาน | cdm_workerpersonaldetail |
 | หมายเลขรหัสของผู้ปฏิบัติงาน | cdm_workerpersonidentificationnumber |
 | ชนิดรหัสของผู้ปฏิบัติงาน | cdm_workerpersonidentificationtype |
@@ -136,22 +135,22 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 | ช่วงเวลาในปฏิทินงาน | cdm_workcalendartimeinterval (ไม่ได้เปิดใช้งานสำหรับการสนับสนุนฟิลด์แบบกำหนดเอง) |
 | บัญชีธนาคารของผู้ปฏิบัติงาน | cdm_workerbankaccount |
 
-## <a name="worker-setup-tables"></a>ตารางการตั้งค่าผู้ปฏิบัติงาน
+## <a name="worker-setup-entities"></a>เอนทิตีการตั้งค่าของผู้ปฏิบัติงาน
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
 | สถานะทหารผ่านศึก | cdm_veteranstatus |
 | เชื้อชาติ | cdm_ethnicorigin |
 | รหัสเหตุผล | cdm_reasoncode |
 | หน่วยงานที่ออกรหัสประจำตัวของบุคคล | cdm_personidentificationissuingagency |
 
-## <a name="competency-tables"></a>ตารางความสามารถ
+## <a name="competency-entities"></a>เอนทิตีความสามารถ
 
-| ชื่อ | ตาราง |
+| ชื่อ | เอนทิตี้ |
 | --- | --- |
-| ชนิดทักษะ | cdm_skilltype |
+| ชนิดของทักษะ | cdm_skilltype |
 
-## <a name="table-relationship-models"></a>แบบจำลองความสัมพันธ์ตาราง
+## <a name="entity-relationship-models"></a>รูปแบบความสัมพันธ์เอนทีตี้
 
 ### <a name="worker"></a>ผู้ปฏิบัติงาน
 
@@ -169,9 +168,9 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 
 ![ค่าตอบแทน](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>การลา
+### <a name="leave"></a>ออก
 
-![การลา](./media/HCMCommon-leave-entity-diagram.png)
+![ออก](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>ปฏิทินการทำงาน
 
@@ -179,12 +178,5 @@ Microsoft Dynamics 365 Human Resources ใช้ Dataverse เพื่อเป
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)<br>
-[ตั้งค่าคอนฟิกการรวม Dataverse](hr-admin-integration-common-data-service.md)<br>
-[ตั้งค่าคอนฟิกตารางเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[FAQ เกี่ยวกับตารางเสมือนสำหรับ Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
-[การอัปเดตศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[เลือกเทคโนโลยีการรวมข้อมูล](hr-admin-integration-choose-technology.md)</br>
+[ตั้งค่าคอนฟิกการรวม Common Data Service](hr-admin-integration-common-data-service.md)

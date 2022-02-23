@@ -1,24 +1,27 @@
 ---
 title: การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
 description: หัวข้อนี้จะอธิบายถึงฟังก์ชันที่ทำให้การประมวลผลที่รอการตัดบัญชีของการดำเนินการส่งสินค้าของงานคลังสินค้าพร้อมใช้งานใน Dynamics 365 Supply Chain Management
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438821"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>การประมวลผลงานคลังสินค้าที่รอการตัดบัญชี
 
@@ -28,7 +31,7 @@ ms.locfileid: "7577875"
 
 ฟังก์ชันการประมวลผลที่รอการตัดบัญชีจะทำให้ผู้ปฏิบัติงานคลังสินค้ายังคงสามารถดำเนินการงานอื่นได้ ในขณะที่การดำเนินการส่งสินค้าถูกประมวลผลในเบื้องหลัง การประมวลผลที่รอการตัดบัญชีจะมีประโยชน์ เมื่อต้องมีการประมวลผลรายการงานจำนวนมาก และผู้ปฏิบัติงานสามารถทำให้งานนั้นถูกประมวลผลแบบอะซิงโครนัสได้ นอกจากนี้ ยังมีประโยชน์เมื่อเซิร์ฟเวอร์สามารถมีการเพิ่มเฉพาะกิจหรือไม่ได้วางแผนไว้ในเวลาประมวลผล และเวลาการประมวลผลที่เพิ่มขึ้นอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของผู้ใช้
 
-การประมวลผลเบื้องหลังจะประสบความสำเร็จได้โดยใช้กรอบงาน SysOperation สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมกรอบงาน SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview)
+การประมวลผลเบื้องหลังจะประสบความสำเร็จได้โดยใช้กรอบงาน SysOperation สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมกรอบงาน SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview)
 
 ## <a name="configuring-the-work-processing-policies"></a>การตั้งค่าคอนฟิกนโยบายการประมวลผลงาน
 
@@ -107,9 +110,3 @@ ms.locfileid: "7577875"
 ## <a name="deleting-completed-tasks"></a>การลบงานที่เสร็จสมบูรณ์
 
 คุณสามารถลบงานการประมวลผลการส่งสินค้าที่รอการตัดบัญชีซึ่งเสร็จสมบูรณ์แล้ว โดยการเลือกและการลบออกในหน้า
-
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-
-- [การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง](deferred-processing-manual-inventory-movement.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,6 +84,3 @@ ms.locfileid: "4529671"
 ### <a name="print-performance-reviews"></a>พิมพ์การตรวจทานประสิทธิภาพ
 
 พนักงาน ผู้จัดการ และ ผู้เชี่ยวชาญด้าน HR จะสามารถพิมพ์การตรวจสอบการปฏิบัติงานของพนักงาน
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

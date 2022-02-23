@@ -1,35 +1,33 @@
 ---
 title: ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน
-description: หัวข้อนี้อธิบายวิธีการกําหนดพารามิเตอร์ทรัพยากรบุคคลสำหรับการลางานและการขาดงานใน Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 10/28/2021
+description: กำหนดพารามิเตอร์ทรัพยากรบุคคลสำหรับการลางานและการขาดงานใน Dynamics 365 Human Resources
+author: andreabichsel
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067363"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4420853"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-ก่อนที่คุณจะตั้งค่าการลางานและการขาดงานใน Dynamics 365 Human Resources คุณควรตรวจสอบความถูกต้องของการตั้งค่าทั้งหมดที่เกี่ยวข้องกับ **พารามิเตอร์ทรัพยากรบุคคล** รวมถึง
+ก่อนที่คุณจะตั้งค่าการลางานและการขาดงานใน Dynamics 365 Human Resources คุณควรตรวจสอบความถูกต้องของการตั้งค่าสำหรับพารามิเตอร์ทรัพยากรบุคคลที่เกี่ยวข้องทั้งหมดรวมถึงต่อไปนี้:
 
 - ลำดับหมายเลขสำหรับการร้องขอการลางาน
 - การตั้งค่าการลาดูแลครอบครัว ลาป่วย และลางาน (FMLA)
@@ -77,7 +75,7 @@ ms.locfileid: "8067363"
 
     - เลือก **การคำนวณยอดดุล** เพื่อแสดงยอดดุลในวันที่วันนี้หรือตามรอบระยะเวลาการค้างรับ ถ้าคุณเลือก **ยอดดุล ณ วันที่วันนี้** ยอดดุลจะแสดงผลรวมของการค้างรับทั้งหมด การปรับปรุง และการร้องขอในวันนี้ ถ้าคุณเลือก **ยอดดุลของระยะเวลาการค้างรับ** ยอดดุลจะแสดงผลรวมของการค้างรับ การปรับปรุ งและการร้องขอทั้งหมดของรอบระยะเวลาการค้างรับที่กำหนดโดยความถี่ในแผนการลางาน 
 
-    - ตั้งค่า **เวลาเริ่มต้น** สำหรับชุดงาน **การหมดอายุยกไป**  
+    - ตั้งค่าเวลาเริ่มต้นสำหรับชุดงานการหมดอายุของยกยอดไป  
     
     - เลือก **ใช่** สำหรับ **อนุญาตให้พนักงานซื้อวันลา** และ **อนุญาตให้พนักงานขายวันลา** ถ้าคุณเลือก **ใช่** สำหรับตัวเลือกเหล่านี้ คุณสามารถสร้างนโยบายการซื้อและการขายวันลา และช่วยให้พนักงานสามารถส่งคำขอซื้อและขายวันลาได้
 
@@ -94,6 +92,3 @@ ms.locfileid: "8067363"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

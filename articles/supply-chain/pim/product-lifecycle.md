@@ -1,23 +1,31 @@
 ---
-# required metadata
 title: ภาพรวมของสถานะของวงจรการใช้ผลิตภัณฑ์
 description: เอกสารสถานะรอบการขายของผลิตภัณฑ์ สถานะรอบการขายของผลิตภัณฑ์หรือผลิตภัณฑ์ย่อยที่นำออกใช้
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 01/06/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges'
-audience: 'Application User, IT Pro'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
+audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: null
-ms.author: benebotg
-ms.dyn365.ops.version: 7.3
-ms.search.validFrom: '2017-12-31'
+ms.search.industry: ''
+ms.author: kamaybac
+ms.dyn365.ops.version: 7.2999999999999998
+ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4438942"
 ---
-
 # <a name="product-lifecycle-state-overview"></a>ภาพรวมของสถานะของวงจรการใช้ผลิตภัณฑ์
 
 [!include [banner](../includes/banner.md)]
@@ -101,6 +109,3 @@ ms.search.validFrom: '2017-12-31'
 - [กำหนดสถานะรอบการขายของผลิตภัณฑ์ให้กับผลิตภัณฑ์ที่นำออกใช้](tasks/product-lifecycle-state-released-product.md)
 - [ค้นหาผลิตภัณฑ์ย่อยที่ล้าสมัย และกำหนดสถานะรอบการขายของผลิตภัณฑ์](tasks/obsolete-product-variants.md)
 - [สร้างสถานะรอบการขายของผลิตภัณฑ์เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลัก](tasks/exclude-products-master-planning.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

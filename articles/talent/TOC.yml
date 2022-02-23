@@ -1,13 +1,11 @@
-- name: การเกษียณอายุของ Dynamics 365 Talent
-  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
   items:
-    - name: โฮมเพจ Dynamics 365 Talent
-      href: ./index.md
     - name: เริ่มต้นใช้งาน
       items:
         - name: เริ่มต้นใช้งาน Talent
           href: talent-get-started.md
-        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Talent
+        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Talent
           href: whats-new.md
           items:
             - name: 1 กันยายน 2020
@@ -153,7 +151,7 @@
         - name: ส่งออกข้อมูลจาก Attract และ Onboard
           href: attract-onboard-export-data.md
         - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
-          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: รับการสนับสนุนสำหรับ Talent
           href: talent-support.md
     - name: จัดหาพนักงานในองค์กรของคุณด้วย Attract
@@ -180,11 +178,11 @@
               href: attract-linkedin-faq.md
         - name: สร้างกระบวนการจ้างงาน
           items:
-            - name: สร้างเทมเพลตกระบวนการจ้างงาน
+            - name: สร้างเท็มเพลตกระบวนการจ้างงาน
               href: process-templates-attract.md
             - name: เพิ่มกิจกรรมในกระบวนการจ้างงาน
               href: activities-attract.md
-            - name: การสร้างเทมเพลตอีเมล
+            - name: การสร้างเท็มเพลตอีเมล
               href: email-templates.md
             - name: ใช้รายงานการวิเคราะห์
               href: analytic-reports.md
@@ -228,9 +226,9 @@
           href: onboard-get-app.md
         - name: สร้างและส่งคู่มือการเตรียมความพร้อม
           href: onboard-create-guide.md
-        - name: สร้างเทมเพลตการเตรียมความพร้อม
+        - name: สร้างเท็มเพลตการเตรียมความพร้อม
           href: onboard-create-template.md
-        - name: แก้ไขคู่มือและเทมเพลต
+        - name: แก้ไขคู่มือและเท็มเพลต
           href: onboard-edit-guides-templates.md
         - name: ใช้เนื้อหาร่วมกัน
           href: onboard-share-template.md

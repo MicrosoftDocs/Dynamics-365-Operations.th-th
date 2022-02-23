@@ -141,6 +141,3 @@ ms.locfileid: "4529149"
     9. ในหน้า **งานการแม็ป** เลือกคอลัมน์ใหม่เป็นแหล่งที่มาในการสร้างการแม็ปอื่นสำหรับ HIERARCHYTYPENAME
 
         [![การแม็ป](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: สร้างและกำหนดนโยบายการกระจายต้นทุนสำหรับหน่วยการควบคุมต้นทุน
 description: กฎการกระจายต้นทุนถูกใช้เพื่อกระจายต้นทุนที่มีการตรวจนับทางการเงินในศูนย์ต้นทุนรวม
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostDistributionRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9230410d7b8cd4c94fdab5465e542e16fd286c530a8189d5cd1eca825bb1faf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b269c731776e26df24658feedfa301181c309a14
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772862"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969289"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>สร้างและกำหนดนโยบายการกระจายต้นทุนสำหรับหน่วยการควบคุมต้นทุน
 
@@ -70,6 +72,3 @@ ms.locfileid: "6772862"
 5. ในฟิลด์หน่วยการควบคุมต้นทุน ให้ป้อนหรือเลือกค่า
 6. คลิก บันทึก
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

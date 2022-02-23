@@ -1,10 +1,12 @@
 ---
-title: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
-description: หัวข้อนี้อธิบายวิธีการจัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ (ER) ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+title: จัดการการแม็ปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+description: ขั้นตอนต่อไปนี้จะอธิบายวิธีที่ผู้ใช้ที่ถูกกำหนดบทบาทเป็นผู้ดูแลระบบหรือนักพัฒนาการรายงานอิเล็กทรอนิกส์สามารถจัดการการแม็ปแบบจำลองการรายงานอิเล็กทรอนิกส์ (ER) ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4896bec7aa68cc6616756ef07c4db95e20a5cf7ebde3102f482cd5abad1420
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776059"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684438"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>จัดการการแม็ปแบบจำลอง ER ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
 
@@ -159,6 +161,3 @@ ms.locfileid: "6776059"
 7. คลิก ตกลง 
     * การตั้งค่าคอนฟิกการแม็ปแบบจำลองเริ่มต้นจะถูกใช้โดยการตั้งค่าคอนฟิกรูปแบบนี้สำหรับการสร้างเอกสารอิเล็กทรอนิกส์ (ผลลัพธ์ที่สร้างขึ้นประกอบด้วยรหัสบริษัท)  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

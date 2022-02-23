@@ -1,32 +1,33 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (13 เมษายน 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 13 เมษายน 2020
-author: andreabichsel
-ms.date: 04/13/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 4/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5af74329fa741a443932a1007a6c2ef6abd3445
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062222"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528532"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (13 เมษายน 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3136 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
@@ -42,9 +43,9 @@ ms.locfileid: "8062222"
 
 ขณะนี้คุณสามารถแก้ไขวันที่สิ้นสุดการลงทะเบียนได้โดยไม่ได้รับข้อผิดพลาด "ต้องป้อนข้อมูลพื้นฐานของวันที่รับรู้ของฟิลด์"
 
-## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>เอนทิตี้การจ้างงานไม่ได้ซิงค์กับ Dataverse (430834)
+## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>เอนทิตี้การจ้างงานไม่ได้ซิงค์กับ Common Data Service (430834)
 
-การเปลี่ยนแปลงนี้แก้ไขปัญหาที่ไม่มีการซิงค์ข้อมูลการจ้างงานกับ Dataverse หลังจากที่เพิ่มมิติทางการเงิน 
+การเปลี่ยนแปลงนี้แก้ไขปัญหาที่ไม่มีการซิงค์ข้อมูลการจ้างงานกับ Common Data Service หลังจากที่เพิ่มมิติทางการเงิน 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>ลบการทำให้เป็นรายการหลักที่หลากหลายสำหรับเอนทิตี้ช่วงเวลาปฎิทินงาน (431775)
 
@@ -92,9 +93,7 @@ ms.locfileid: "8062222"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: อนุมัติเรกคอร์ดกล่องข้อความใบสมัคร
 description: 'ขั้นตอนนี้แสดงวิธีการตรวจทานใบสมัครที่ได้รับผ่านหน้าบริการตนเองของพนักงาน '
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 476e9bf8de408a58edaaf2c488970a1631f4c47610eaa22a136e38c029d2fe0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c980ca44028c4257078e5493e69499db87ffa30d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736181"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798030"
 ---
 # <a name="approve-application-inbox-records"></a>อนุมัติเรกคอร์ดกล่องข้อความใบสมัคร
 
@@ -46,6 +48,3 @@ ms.locfileid: "6736181"
 2. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 3. ขยายส่วนเอกสารแนบ
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

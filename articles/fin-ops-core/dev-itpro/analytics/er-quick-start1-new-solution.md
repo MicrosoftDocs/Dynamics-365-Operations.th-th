@@ -2,27 +2,27 @@
 title: ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 description: หัวข้อนี้จะอธิบายวิธีการออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อพิมพ์รายงานแบบกำหนดเอง
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770079"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680253"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 
@@ -121,11 +121,11 @@ ms.locfileid: "6770079"
 
 - [ทรัพยากรเพิ่มเติม](#References)
 
-ในตัวอย่างนี้ คุณจะสร้างโซลูชัน ER ใหม่สำหรับโมดูล [แบบสอบถาม](../../../human-resources/hr-learning-questionnaires.md) โซลูชัน ER ใหม่นี้ช่วยให้คุณสามารถออกแบบรายงานโดยใช้เวิร์กชีต Microsoft Excel เป็นเท็มเพลต จากนั้น คุณจะสามารถสร้างรายงาน **แบบสอบถาม** ในรูปแบบ Excel หรือ PDF นอกจากนี้ เมื่อต้องการสร้างรายงาน SQL Server Reporting Services (SSRS) ที่มีอยู่ นอกจากนี้ คุณยังสามารถปรับเปลี่ยนรายงานใหม่ได้ในภายหลังเมื่อมีการร้องขอ ไม่จำเป็นต้องมีการเขียนโค้ด
+ในตัวอย่างนี้ คุณจะสร้างโซลูชัน ER ใหม่สำหรับโมดูล [แบบสอบถาม](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires) โซลูชัน ER ใหม่นี้ช่วยให้คุณสามารถออกแบบรายงานโดยใช้เวิร์กชีต Microsoft Excel เป็นเท็มเพลต จากนั้น คุณจะสามารถสร้างรายงาน **แบบสอบถาม** ในรูปแบบ Excel หรือ PDF นอกจากนี้ เมื่อต้องการสร้างรายงาน SQL Server Reporting Services (SSRS) ที่มีอยู่ นอกจากนี้ คุณยังสามารถปรับเปลี่ยนรายงานใหม่ได้ในภายหลังเมื่อมีการร้องขอ ไม่จำเป็นต้องมีการเขียนโค้ด
 
 1. เมื่อต้องการเรียกใช้รายงานที่มีอยู่ ให้ไปที่ **แบบสอบถาม** \> **ออกแบบ** \> **รายงานแบบสอบถาม**
 
-    ![การเลือกรายการเมนูรายงานแบบสอบถามในโมดูลแบบสอบถาม เพื่อเรียกใช้รายงาน SSRS ที่มีอยู่](./media/er-quick-start1-application-menu-origin.png)
+    ![การเลือกรายการเมนูรายงานแบบสอบถามในโมดูลแบบสอบถามเพื่อเรียกใช้รายงาน SSRS ที่มีอยู่](./media/er-quick-start1-application-menu-origin.png)
 
 2. ในกล่องโต้ตอบ **รายงานแบบสอบถาม** ให้ระบุเงื่อนไขการเลือก ใช้ตัวกรองเพื่อให้รายงานรวมเฉพาะแบบสอบถาม **SBCCrsExam** เท่านั้น
 
@@ -187,7 +187,7 @@ ms.locfileid: "6770079"
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>นำเข้าการตั้งค่าคอนฟิกรูปแบบข้อมูลใหม่
 
-1. ดาวน์โหลดไฟล์ [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**
@@ -287,7 +287,7 @@ ms.locfileid: "6770079"
 
 สถานะของรุ่น 1 ของการตั้งค่าคอนฟิกนี้มีการเปลี่ยนแปลงจาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** รุ่น 1 ไม่สามารถเปลี่ยนแปลงได้อีกต่อไป รุ่นนี้มีรูปแบบข้อมูลที่ตั้งค่าคอนฟิกและสามารถใช้เป็นข้อมูลพื้นฐานสำหรับการตั้งค่าคอนฟิก ER อื่นๆ รุ่น 2 ของการตั้งค่าคอนฟิกนี้จะถูกสร้างขึ้นและมีสถานะเป็น **แบบร่าง** คุณสามารถแก้ไขรุ่นนี้เพื่อปรับปรุงรูปแบบข้อมูล **แบบสอบถาม**
 
-![รุ่นของการตั้งค่าคอนฟิกที่แก้ไขได้บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start1-model-configuration.png)
+![รุ่นของการตั้งค่าคอนฟิก ER ที่แก้ไขได้บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start1-model-configuration.png)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดรุ่นสำหรับการตั้งค่าคอนฟิก ER โปรดดู [ภาพรวมของการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#component-versioning)
 
@@ -302,7 +302,7 @@ ms.locfileid: "6770079"
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>นำเข้าการตั้งค่าคอนฟิกการแม็ปรูปแบบใหม่
 
-1. ดาวน์โหลดไฟล์ [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**
@@ -368,7 +368,7 @@ ms.locfileid: "6770079"
     2. เลือก **เพิ่ม**
     3. ในกล่องโต้ตอบ ในฟิลด์ **ชื่อ** ป้อน **\$ResultGroup**
     4. เลือก **แก้ไขสูตร**
-    5. ใน [ตัวแก้ไขสูตร ER](general-electronic-reporting-formula-designer.md) ในฟิลด์ **สูตร** ป้อน **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** เพื่อใช้ [พาธ](er-formula-language.md#Paths) ของความสัมพันธ์แบบหนึ่งต่อกลุ่มระหว่างตาราง KMCollection และ KMQuestionResultGroup
+    5. ใน [ตัวแก้ไขสูตร ER](general-electronic-reporting-formula-designer.md) ในฟิลด์ **สูตร** ป้อน **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** เพื่อใช้ [พาธ](er-formula-language.md#paths) ของความสัมพันธ์แบบหนึ่งต่อกลุ่มระหว่างตาราง KMCollection และ KMQuestionResultGroup
     6. เลือก **ตกลง** และปิดตัวแก้ไขสูตร
     7. เลือก **ตกลง** เพื่อเพิ่มฟิลด์ที่คำนวณ
 
@@ -549,7 +549,7 @@ ms.locfileid: "6770079"
 
 กรอบงาน ER ใช้เท็มเพลตที่กำหนดล่วงหน้าเพื่อสร้างรายงานในรูปแบบ Microsoft Office (สมุดงาน Excel หรือเอกสาร Word) ในขณะที่มีการสร้างรายงานที่ต้องการ จะมีการกรอกเท็มเพลตด้วยข้อมูลที่จำเป็นตามกระแสข้อมูลที่ตั้งค่าคอนฟิก ดังนั้น คุณต้องออกแบบเท็มเพลตสำหรับรายงานแบบกำหนดเองของคุณก่อน เท็มเพลตนี้ต้องออกแบบเป็นสมุดงาน Excel โดยโครงสร้างแสดงถึงโครงร่างของรายงานแบบกำหนดเอง คุณต้องกำหนดชื่อทุกรายการของ Excel ที่คุณวางแผนจะกรอกโดยใช้ข้อมูลที่จำเป็น
 
-1. ดาวน์โหลดไฟล์ [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. เปิดไฟล์ใน Excel และตรวจสอบโครงสร้างของสมุดงาน
 
 เมื่อแสดงภาพต่อไปนี้ เท็มเพลตที่ดาวน์โหลดได้ออกแบบให้พิมพ์แบบสอบถามที่ระบุ ซึ่งแสดงคำถามของแบบสอบถามพร้อมกับคำตอบที่เหมาะสม
@@ -574,7 +574,7 @@ ms.locfileid: "6770079"
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>นำเข้าการตั้งค่าคอนฟิกรูปแบบที่ออกแบบ
 
-1. ดาวน์โหลดไฟล์ [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
+1. ดาวน์โหลดไฟล์ [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) และบันทึกไปยังคอมพิวเตอร์เฉพาะที่ของคุณ
 2. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 3. ในพื้นที่ทำงาน **การรายงานทางอิเล็กทรอนิกส์** เลือก **การตั้งค่าคอนฟิกการรายงาน**
 4. ในบานหน้าต่างการดำเนินการ เลือก **แลกเปลี่ยน** \> **โหลดจากไฟล์ XML**
@@ -801,7 +801,7 @@ ms.locfileid: "6770079"
 
 สถานะของรุ่น 1.1 ของการตั้งค่าคอนฟิกนี้มีการเปลี่ยนแปลงจาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** รุ่น 1.1 ไม่สามารถเปลี่ยนแปลงได้อีกต่อไป รุ่นนี้มีรูปแบบที่ตั้งค่าคอนฟิกและสามารถใช้เพื่อพิมพ์รายงานที่กำหนดเองของคุณได้ รุ่น 1.2 ของการตั้งค่าคอนฟิกนี้จะถูกสร้างขึ้นและมีสถานะเป็น **แบบร่าง** คุณสามารถแก้ไขรุ่นนี้เพื่อปรับปรุงรูปแบบของรายงาน **แบบสอบถาม** ของคุณ
 
-![การตั้งค่าคอนฟิก ER ที่แก้ไขได้บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start1-format-configuration.png)
+![รุ่นของการตั้งค่าคอนฟิก ER ที่แก้ไขได้บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > รูปแบบที่ตั้งค่าคอนฟิกเป็นการออกแบบรายงาน **แบบสอบถาม** ของคุณ และไม่มีความสัมพันธ์กับอาร์ทิแฟกต์เฉพาะทางการเงิน
@@ -1233,6 +1233,3 @@ class QuestionnairesErReportController extends ERFormatMappingRunBaseController
 - [ฟังก์ชัน IF](er-functions-logical-if.md)
 - [ฟังก์ชัน ORDERBY](er-functions-list-orderby.md)
 - [ฟังก์ชัน SESSIONNOW](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

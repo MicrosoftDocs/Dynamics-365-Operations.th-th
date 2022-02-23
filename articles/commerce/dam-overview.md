@@ -1,26 +1,37 @@
 ---
 title: ภาพรวมของการจัดการสินทรัพย์ดิจิทัล
-description: หัวข้อนี้ให้ภาพรวมของการจัดการสินทรัพย์ดิจิทัลในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้แสดงภาพรวมของการจัดการสินทรัพย์ดิจิทัลในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
+manager: annbe
 ms.date: 03/03/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.assetid: null
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: psimolin
-ms.search.validFrom: '2019-10-31'
-ms.dyn365.ops.version: null
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594367"
 ---
-
 # <a name="digital-asset-management-overview"></a>ภาพรวมของการจัดการสินทรัพย์ดิจิทัล
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ให้ภาพรวมของการจัดการสินทรัพย์ดิจิทัลในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+หัวข้อนี้แสดงภาพรวมของการจัดการสินทรัพย์ดิจิทัลในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 ไลบรารีสื่อของโปรแกรมสร้างไซต์ Dynamics 365 Commerce มีฟังก์ชันการจัดการสินทรัพย์ดิจิทัลที่หลากหลาย ซึ่งรวมถึงการสนับสนุนสำหรับรายการดังต่อไปนี้:
 - สินทรัพย์รูปภาพ
@@ -49,6 +60,3 @@ ms.dyn365.ops.version: null
 [ปรับแต่งจุดโฟกัสของรูปภาพ](dam-custom-focal-point.md)
 
 [อัปโหลดและให้บริการไฟล์แบบคงที่](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,37 +1,35 @@
 ---
 title: สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
 description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการสร้างลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการใน Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: tfehr
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4c9197ee124f53ff8d4acc90cb490113d35e80b4
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071526"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654300"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>สร้างลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ
 
+คุณสามารถเพิ่มลิงค์ที่กำหนดเองบนแท็บ **ทีมของฉัน** ในการบริการตนเองของผู้จัดการ ลักษณะการทำงานนี้ช่วยให้คุณสามารถเข้าถึงข้อมูลที่สำคัญได้อย่างรวดเร็ว มีความคล้ายคลึงกันกับการเพิ่มลิงค์ที่กำหนดเองในแท็บ **ข้อมูลของฉัน** ในการบริการตนเองของพนักงาน
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-คุณสามารถเพิ่มลิงค์ที่กำหนดเองบนแท็บ **ทีมของฉัน** ใน **การบริการตนเองของผู้จัดการ** ลักษณะการทำงานนี้ช่วยให้คุณสามารถเข้าถึงข้อมูลที่สำคัญได้อย่างรวดเร็ว มีความคล้ายคลึงกันกับการเพิ่มลิงค์ที่กำหนดเองในแท็บ **ข้อมูลของฉัน** ใน **การบริการตนเองของพนักงาน**
-
-## <a name="enable-the-feature"></a>เปิดใช้งานคุณลักษณะ
+## <a name="enable-the--feature"></a>เปิดใช้งานคุณลักษณะ
 
 เมื่อต้องการใช้คุณลักษณะนี้ ให้เปิดใช้งาน **ลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการ** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 
@@ -39,17 +37,14 @@ ms.locfileid: "8071526"
 
 1. ใน **พารามิเตอร์ทรัพยากรบุคคล** ให้เลือก **การบริการตนเองของผู้จัดการ**
 
-2. ภายใต้ **ตั้งค่าลิงค์สำหรับผู้จัดการ** คุณสามารถเพิ่ม แก้ไข หรือลบลิงค์ได้ นอกจากนี้คุณยังสามารถจัดกลุ่มลิงค์เข้าด้วยกัน เพื่อให้แสดงผลในกลุ่มใน **ระบบบริการตนเองของผู้จัดการ**
+2. ภายใต้ **ตั้งค่าลิงค์สำหรับผู้จัดการ** คุณสามารถเพิ่ม แก้ไข หรือลบลิงค์ได้ นอกจากนี้คุณยังสามารถจัดกลุ่มลิงค์เข้าด้วยกัน เพื่อให้แสดงผลในกลุ่มในการบริการตนเองของผู้จัดการ
 
    ![ตั้งค่าลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. เมื่อต้องการดูลิงค์ ให้ไปที่แท็บ **ทีมงานของฉัน** ใน **ระบบบริการตนเองของพนักงาน**
+3. เมื่อต้องการดูลิงค์ ให้ไปที่แท็บ **ทีมงานของฉัน** ในระบบบริการตนเองของพนักงาน
 
    ![ดูลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ](hr-employee-manager-self-service-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

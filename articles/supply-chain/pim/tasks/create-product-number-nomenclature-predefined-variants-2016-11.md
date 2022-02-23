@@ -1,24 +1,27 @@
 ---
 title: สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า และวิธีการที่คุณกำหนดให้กับกลุ่มมิติของผลิตภัณฑ์ที่เหมาะสม
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569588"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438479"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 
@@ -28,27 +31,26 @@ ms.locfileid: "7569588"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>สร้างระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์
-
-1. ไปที่ **การจัดการข้อมูลผลิตภัณฑ์ \> การตั้งค่า \> ระบบการตั้งชื่อผลิตภัณฑ์**
-1. เลือก **ใหม่**
-1. ในฟิลด์ **ชื่อ** ป้อนชื่อระบบการตั้งชื่อที่ช่วยในการระบุกลุ่มมิติของผลิตภัณฑ์เป้าหมาย ตัวอย่างเช่น `ColorSize`
-1. ในฟิลด์ **คำอธิบาย** ให้พิมพ์ค่าใดค่าหนึ่ง
-1. เลือก **เพิ่ม**
-1. เลือกหมายเลข **ผลิตภัณฑ์หลัก**
-1. เลือก **เพิ่ม**
-1. เลือก **ค่าคงที่ของข้อความ**
-1. ในฟิลด์ **ข้อความ** ให้พิมพ์ค่า
-1. เลือก **เพิ่ม**
-1. เลือก **สี**
-1. เลือก **เพิ่ม**
-1. เลือก **ค่าคงที่ของข้อความ**
-1. ในฟิลด์ **ข้อความ** ให้พิมพ์ค่า
-1. เลือก **เพิ่ม**
-1. เลือก **ขนาด**
-1. ปิดหน้า
+1. เลือก **ข้อกำหนดแบบจำลองผลิตภัณฑ์ย่อย**
+2. เลือก **ระบบการตั้งชื่อสำหรับผลิตภัณฑ์**
+3. เลือก **ใหม่**
+4. ในฟิลด์ **ชื่อ** ป้อนชื่อระบบการตั้งชื่อที่ช่วยในการระบุกลุ่มมิติของผลิตภัณฑ์เป้าหมาย ตัวอย่างเช่น `ColorSize`
+5. ในฟิลด์ **คำอธิบาย** ให้พิมพ์ค่าใดค่าหนึ่ง
+6. เลือก **เพิ่ม**
+7. เลือกหมายเลข **ผลิตภัณฑ์หลัก**
+8. เลือก **เพิ่ม**
+9. เลือก **ค่าคงที่ของข้อความ**
+10. ในฟิลด์ **ข้อความ** ให้พิมพ์ค่า
+11. เลือก **เพิ่ม**
+12. เลือก **สี**
+13. เลือก **เพิ่ม**
+14. เลือก **ค่าคงที่ของข้อความ**
+15. ในฟิลด์ **ข้อความ** ให้พิมพ์ค่า
+16. เลือก **เพิ่ม**
+17. เลือก **ขนาด**
+18. ปิดหน้า
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>กำหนดระบบการตั้งชื่อให้กับผลิตภัณฑ์หลัก
-
 1. เลือก **กลุ่มมิติของผลิตภัณฑ์**
 2. เลือกกลุ่ม **มิติของผลิตภัณฑ์ SizeCol**
 3. เลือก **แก้ไข**
@@ -56,5 +58,3 @@ ms.locfileid: "7569588"
 5. ในฟิลด์ **ระบบการตั้งชื่อหมายเลขผลิตภัณฑ์ย่อย** ให้ป้อนหรือเลือกค่า
 6. ปิดหน้า
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

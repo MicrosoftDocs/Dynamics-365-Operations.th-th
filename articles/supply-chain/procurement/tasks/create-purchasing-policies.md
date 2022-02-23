@@ -1,24 +1,26 @@
 ---
 title: สร้างนโยบายการจัดซื้อ
 description: หัวข้อนี้แสดงวิธีการสร้างนโยบายการจัดซื้อเพื่อให้สอดคล้องกับกระบวนการทางธุรกิจของคุณสำหรับการซื้อ
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86ffdff4cdb256fdae39de6228555da5fb88c707
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579507"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017045"
 ---
 # <a name="create-purchasing-policies"></a>สร้างนโยบายการจัดซื้อ
 
@@ -54,6 +56,3 @@ ms.locfileid: "7579507"
 4. เลือก **ปิด**
 - ขณะนี้คุณสามารถตั้งค่ากฎนโยบายอื่น ๆ สำหรับนโยบายการจัดซื้อ  หมายเหตุว่าชนิดของกฎนโยบายไม่สามารถมีกฎทับซ้อนที่ใช้งานอยู่ในเวลาเดียวกันภายในนโยบายการจัดซื้อเดียวได้  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

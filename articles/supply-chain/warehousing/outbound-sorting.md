@@ -2,9 +2,11 @@
 title: การเรียงลำดับขาออก
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการเรียงลำดับขาออก ฟังก์ชันนี้ทำให้สามารถจัดการคอนเทนเนอร์ขนาดเล็กได้ง่ายขึ้น และช่วยให้ผู้ปฏิบัติงานในคลังสินค้าวางแผนและจัดระเบียบกำลังการผลิตของแท่นวางสินค้าในรถบรรทุกได้ดีขึ้น
 author: Mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 004224090d8244028b6df7f32e1853ad60371cea
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963421"
 ---
 # <a name="outbound-sorting"></a>การเรียงลำดับขาออก
 
@@ -664,6 +666,3 @@ ms.locfileid: "7575206"
     งานเสร็จสมบูรณ์แล้ว
 
 ตั้งแต่จุดนี้เป็นต้นไป กระบวนการคลังสินค้าอื่นๆ ทั้งหมดจะนำไปใช้
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

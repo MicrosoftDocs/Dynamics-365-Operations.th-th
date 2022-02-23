@@ -1,10 +1,12 @@
 ---
 title: ส่วนประกอบของรายงานทางการเงิน
-description: บทความนี้อธิบายวิธีการใช้ส่วนประกอบ หรือบล็อคส่วนประกอบของข้อกำหนดของรายงานในการรายงานทางการเงิน
+description: บทความนี้อธิบายวิธีการใช้ส่วนประกอบ หรือบล็อคส่วนประกอบของข้อกำหนดของรายงานในการรายงานทางการเงิน บล็อคส่วนประกอบเหล่านี้รวมคำนิยามแถว คำนิยามคอลัมน์ และคำนิยามแผนภูมิรายงาน บทความนี้อธิบายวิธีการจัดระเบียบและล็อคบล็อคส่วนประกอบ และวิธีการทำงานกับกลุ่มบล็อคส่วนประกอบ
 author: aprilolson
+manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8512559ea33f16f3558b277999cc86240ee8277d1b3b0d6bf2aecba32df8e09f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761451"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682732"
 ---
 # <a name="financial-report-components"></a>ส่วนประกอบของรายงานทางการเงิน
 
@@ -124,6 +126,3 @@ ms.locfileid: "6761451"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

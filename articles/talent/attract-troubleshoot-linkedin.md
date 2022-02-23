@@ -57,6 +57,3 @@ ms.locfileid: "4462674"
 [สร้าง อนุมัติ และลงรายการบัญชีงานใน Attract](./creating-jobs-attract.md)
 
 [การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

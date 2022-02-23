@@ -2,9 +2,11 @@
 title: วิดีโอ
 description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
-ms.date: 09/15/2021
+manager: AnnBe
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488002"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797887"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -34,6 +36,7 @@ ms.locfileid: "7488002"
 
 ### <a name="data-integration"></a>การรวมข้อมูล
 
+- [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg)
 - [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>การจัดการข้อมูล
@@ -83,12 +86,12 @@ ms.locfileid: "7488002"
 
 ## <a name="videos-for-dynamics-365-finance"></a>วิดีโอสำหรับ Dynamics 365 Finance
 
-### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
-- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
-
 ### <a name="customize-the-app"></a>ปรับแต่งแอป
 - [เพิ่มฟิลด์ที่กำหนดเอง](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [ฝัง Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+
+### <a name="expenses"></a>ค่าใช้จ่าย
+- [ประสบการณ์ค่าใช้จ่าย](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>การรายงานทางการเงิน
 - [ค้นหารุ่นของตัวออกแบบรายงาน](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -114,9 +117,6 @@ ms.locfileid: "7488002"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>วิดีโอสำหรับ Dynamics 365 Supply Chain Management
-
-### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
-- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>ต้นทุน
 - [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)
@@ -167,6 +167,3 @@ ms.locfileid: "7488002"
 [การพูดคุยเกี่ยวกับเทคโนโลยี FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) มุ่งเน้นในการให้ความลึกทางเทคนิคและแนวทางปฏิบัติที่ดีที่สุดที่ให้ลูกค้าและคู่ค้ามีความรู้อย่างละเอียดที่เฉพาะเจาะจงต่อพื้นที่ชื่อเรื่อง
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 description: วันที่ถัวเฉลี่ยถ่วงน้ำหนักคือแบบจำลองสินค้าคงคลังที่ใช้หลักการถัวเฉลี่ยถ่วงน้ำหนัก โดยที่มูลค่าการนำสินค้าออกใช้จากสินค้าคงคลังคือมูลค่าเฉลี่ยของสินค้าที่รับเข้าในสินค้าคงคลัง สำหรับแต่ละวันในรอบระยะเวลาการปิดบัญชีสินค้าคงคลัง
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572036"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963749"
 ---
 # <a name="weighted-average-date"></a>วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
 
@@ -39,7 +41,7 @@ ms.locfileid: "7572036"
 
 ในระหว่างที่ปิดสินค้าคงคลัง จะมีการคำนวณทุกวันตามรอบระยะเวลาการปิดดังที่แสดงในภาพต่อไปนี้ 
 
-![แบบจำลองการคำนวณวันที่ของค่าเฉลี่ยถ่วงน้ำหนักรายวัน](./media/weightedaveragedatedailycalculationmodel.gif) 
+![รูปแบบการคำนวณวันที่ของค่าเฉลี่ยถ่วงน้ำหนักรายวัน](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 ธุรกรรมสินค้าคงคลังที่ออกจากสินค้าคงคลัง เช่น ใบสั่งขาย สมุดรายวันสินค้าคงคลัง และใบสั่งผลิต เกิดขึ้นที่ราคาต้นทุนที่ประเมินได้ในวันที่ลงรายการบัญชี ราคาต้นทุนที่ประเมินได้นี้ยังถือเป็นราคาต้นทุนการดำเนินงานเฉลี่ยอีกด้วย วันที่ของการปิดสินค้าคงคลัง ระบบจะวิเคราะห์ธุรกรรมสินค้าคงคลังสำหรับรอบระยะเวลาก่อนหน้านี้ วันที่ผ่านมา และวันปัจจุบัน การวิเคราะห์นี้ใช้เพื่อกำหนดว่าควรจะใช้หลักการการปิดบัญชีใดดังต่อไปนี้:
 
@@ -72,7 +74,7 @@ ms.locfileid: "7572036"
 -   2b. การตัดสินค้าจากคลังทางการเงินของสินค้าคงคลังถูกอัพเดตปริมาณเท่ากับ 2 โดยมีต้นทุนรายการละ 10.00 เหรียญสหรัฐ
 -   3. การปิดสินค้าคงคลังดำเนินการโดยใช้วิธีการหักลบโดยตรงเพื่อหักลบรายการรับสินค้าทางการเงินของสินค้าคงคลังกับรายการตัดสินค้าทางการเงินของสินค้าคงคลัง
 
-![การหักลบโดยตรงตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักที่ไม่มีตัวเลือกรวมค่าทางกายภาพ](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![การหักลบโดยตรงตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักที่ไม่มีตัวเลือก รวมค่าทางกายภาพ](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **คีย์สำหรับภาพประกอบ:**
 
@@ -126,7 +128,7 @@ ms.locfileid: "7572036"
 
 แผนภาพต่อไปนี้จะอธิบายชุดของธุรกรรม และผลกระทบของการเลือกแบบจำลองสินค้าคงคลังค่าเฉลี่ยถ่วงน้ำหนักและหลักการจ่ายโดยสรุป แต่ไม่มีการใช้ตัวเลือก **รวมมูลค่าจริง** 
 
-![การหักลบแบบรวบยอดตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักที่ไม่มีตัวเลือกรวมค่าทางกายภาพ](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![การหักลบแบบรวบยอดตามวันที่ค่าเฉลี่ยถ่วงน้ำหนักที่ไม่มีตัวเลือก รวมค่าทางกายภาพ](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **คีย์สำหรับภาพประกอบ**
 
@@ -193,6 +195,3 @@ ms.locfileid: "7572036"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,6 +71,3 @@ ms.locfileid: "4462752"
     - ในการลบกิจกรรม ขยาย และจากนั้นเลือกปุ่มถังขยะบนหัวข้อกิจกรรมนั้น
 
 8. เลือก **บันทึก**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

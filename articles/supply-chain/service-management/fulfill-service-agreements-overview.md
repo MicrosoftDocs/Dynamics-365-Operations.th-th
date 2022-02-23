@@ -1,26 +1,34 @@
 ---
-# required metadata
 title: ภาพรวมตามข้อตกลงการให้บริการ
 description: หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'SMAServiceOrderTable, SMAAgreementTable'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438705"
 ---
-
-
-# <a name="fulfill-service-agreements-overview"></a>ภาพรวมตามข้อตกลงการให้บริการ
+# <a name="fulfill-service-agreements-overview"></a>ภาพรวมตามข้อตกลงการให้บริการ 
 
 [!include [banner](../includes/banner.md)]
+
 
 หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ หัวข้อนี้ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ
 
@@ -36,9 +44,9 @@ ms.dyn365.ops.version: AX 7.0.0
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,9 +67,9 @@ ms.dyn365.ops.version: AX 7.0.0
 <td><p>สร้างและรักษาการสั่งซื้อโดยบอกรับเป็นสมาชิกการบริการ</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>ติดตามและนำข้อตกลงมาใช้</p></td>
@@ -74,9 +82,9 @@ ms.dyn365.ops.version: AX 7.0.0
 <td><p>สร้างและรักษาใบสั่งบริการ</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>การอัพเดตและประเมินสัญญา</p></td>
@@ -99,6 +107,3 @@ ms.dyn365.ops.version: AX 7.0.0
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

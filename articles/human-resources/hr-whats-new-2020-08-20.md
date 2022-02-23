@@ -1,32 +1,33 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (20 สิงหาคม 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (20 สิงหาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 20 สิงหาคม 2020
-author: andreabichsel
-ms.date: 08/20/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a97997212a090f141c7280f7e48fd116a1f31481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062172"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527493"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (20 สิงหาคม 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (20 สิงหาคม 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3478 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
@@ -64,15 +65,15 @@ ms.locfileid: "8062172"
 
 คุณสามารถทำให้ฟิลด์บังคับโดยใช้ความสามารถในการตั้งค่าส่วนบุคคลของทรัพยากรบุคคล ลักษณะการทำงานนี้จำเป็นต้องใช้ **มุมมองที่บันทึกไว้** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับมุมมองที่บันทึกไว้ ให้ดูที่:
 
-- [มุมมองที่บันทึกไว้ - มีความพร้อมใช้งานทั่วไป](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-- [สร้างแบบฟอร์มที่ใช้มุมมองที่บันทึกไว้ทั้งหมด](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
+- [มุมมองที่บันทึกไว้ - มีความพร้อมใช้งานทั่วไป](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+- [สร้างแบบฟอร์มที่ใช้มุมมองที่บันทึกไว้ทั้งหมด](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
 
 ### <a name="human-resources-application-in-teams"></a>โปรแกรมประบุกต์ Human Resources ใน Teams
 
 พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
-- [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md)
+- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
+- [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -82,9 +83,9 @@ ms.locfileid: "8062172"
  
 - **ปฏิทินการลาหยุดของผู้จัดการ**: ผู้จัดการจะสามารถดูการลาหยุดที่อนุมัติและที่ค้างอยู่สำหรับผู้ใต้บังคับบัญชาโดยตรงของตนในมุมมองปฏิทิน มุมมองนี้จะทำให้เข้าใจง่ายเมื่อสมาชิกในทีมของตนไม่มาทำงาน
 
-### <a name="checklist-entities-included-in-dataverse"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Dataverse
+### <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
 
-เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Dataverse
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
 
 ## <a name="known-issues"></a>ปัญหาที่ทราบ
 
@@ -103,7 +104,7 @@ ms.locfileid: "8062172"
 - การลบการลางานคงค้าง
 - การปัดเศษการลางานคงค้าง
 - ตั้งค่าคอนฟิกชนิดการลางานหลายรายการแผนการลางานเดียว
-- อัปเดตการปรับปรุงเวลาหยุดพัก
+- อัพเดตการปรับปรุงเวลาหยุดพัก
 - ใช้ FTE ของพนักงานสำหรับรายการคงค้าง
 - มุมมองค่าตอบแทนข้ามบริษัท
 - พิมพ์การตรวจทานประสิทธิภาพ
@@ -115,10 +116,7 @@ ms.locfileid: "8062172"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

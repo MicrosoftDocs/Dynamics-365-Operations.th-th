@@ -1,35 +1,33 @@
 ---
 title: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
-description: หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
-author: twheeloc
-ms.date: 08/19/2021
+description: บทความนี้แสดงวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069793"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420804"
 ---
 # <a name="create-a-recurring-data-export-app"></a>สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
+บทความนี้แสดงวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
 
 ## <a name="business-scenario"></a>สถานการณ์จำลองทางธุรกิจ
 
@@ -45,12 +43,12 @@ ms.locfileid: "8069793"
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – แหล่งข้อมูลหลักสำหรับผู้ปฏิบัติงานที่จะส่งออก
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – เทคโนโลยีที่ให้การประสานกันและการจัดกำหนดการของการส่งออกที่เกิดซ้ำ
 
-    - **[ตัวเชื่อมต่อ](/azure/connectors/apis-list)** – เทคโนโลยีที่ใช้ในการเชื่อมต่อแอปตรรกะกับปลายทางที่ต้องการ
+    - **[ตัวเชื่อมต่อ](https://docs.microsoft.com/azure/connectors/apis-list)** – เทคโนโลยีที่ใช้ในการเชื่อมต่อแอปตรรกะกับปลายทางที่ต้องการ
 
-        - [HTTP กับตัวเชื่อมต่อ Azure AD](/connectors/webcontents/)
-        - [OneDrive สำหรับตัวเชื่อมต่อธุรกิจ](/azure/connectors/connectors-create-api-onedriveforbusiness)
+        - [HTTP กับตัวเชื่อมต่อ Azure AD](https://docs.microsoft.com/connectors/webcontents/)
+        - [OneDrive สำหรับตัวเชื่อมต่อธุรกิจ](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-- **[API REST แพคเกจ DMF](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – เทคโนโลยีที่ใช้เพื่อทริกเกอร์การส่งออกและตรวจสอบความคืบหน้า
+- **[API REST แพคเกจ DMF](../dev-itpro/data-entities/data-management-api.md)** – เทคโนโลยีที่ใช้เพื่อทริกเกอร์การส่งออกและตรวจสอบความคืบหน้า
 - **[OneDrive สำหรับธุรกิจ](https://onedrive.live.com/about/business/)** – ปลายทางสำหรับผู้ปฏิบัติงานที่ส่งออก
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
@@ -86,11 +84,11 @@ ms.locfileid: "8069793"
     ![หน้าการสร้างแอปตรรกะ](media/integration-logic-app-creation-1.png)
 
 2. ใน Logic Apps Designer เริ่มต้นด้วยแอปตรรกะเปล่า
-3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](/azure/connectors/connectors-native-recurrence) เพื่อเรียกใช้แอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
+3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) เพื่อรันแอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
 
     ![กล่องโต้ตอบการเกิดซ้ำ](media/integration-logic-app-recurrence-step.png)
 
-4. เรียก DMF REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) เพื่อกำหนดตารางเวลาการส่งออกของแพคเกจข้อมูลของคุณ
+4. เรียก DMF REST API [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) เพื่อกำหนดตารางเวลาการส่งออกของแพคเกจข้อมูลของคุณ
 
     1. ใช้การดำเนินการ **เรียกคำขอ** HTTP ที่มีตัวเชื่อมต่อ Azure AD
 
@@ -124,13 +122,13 @@ ms.locfileid: "8069793"
     > [!TIP]
     > คุณอาจต้องการเปลี่ยนชื่อแต่ละขั้นตอนเพื่อให้มีความสำคัญมากกว่าชื่อเริ่มต้น **เรียกใช้คำขอ HTTP** ตัวอย่างเช่น คุณสามารถเปลี่ยนชื่อขั้นตอนนี้ **ExportToPackage**
 
-5. [เริ่มต้นตัวแปร](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) เพื่อจัดเก็บสถานะการดำเนินการของคำขอ **ExportToPackage**
+5. [เริ่มต้นตัวแปร](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) เพื่อจัดเก็บสถานะการดำเนินการของคำขอ **ExportToPackage**
 
     ![เริ่มต้นการดำเนินการผันแปร](media/integration-logic-app-initialize-variable-step.png)
 
 6. รอจนกว่าสถานะการดำเนินการของการส่งออกข้อมูลเป็น **เสร็จเรียบร้อยแล้ว**
 
-    1. เพิ่มการ [วนรอบ](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ที่มีการทำซ้ำจนกว่าค่าของตัวแปร **ExecutionStatus** เป็น **เสร็จเรียบร้อยแล้ว**
+    1. เพิ่มการ [วนรอบ](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ที่มีการทำซ้ำจนกว่าค่าของตัวแปร **ExecutionStatus** เป็น **เสร็จเรียบร้อยแล้ว**
     2. เพิ่มการดำเนินการ **ล่าช้า** ที่รอห้าวินาทีก่อนที่จะทำการสำรวจสำหรับสถานะการดำเนินการปัจจุบันของการส่งออก
 
         ![จนถึงคอนเทนเนอร์ลูป](media/integration-logic-app-until-loop-step.png)
@@ -138,9 +136,9 @@ ms.locfileid: "8069793"
         > [!NOTE]
         > ตั้งค่าจำนวนจำกัดที่ **15** เพื่อให้รอเวลาสูงสุด 75 วินาที (15 การเกิดซ้ำ × 5 วินาที) ให้การส่งออกเสร็จสมบูรณ์ ถ้าการส่งออกของคุณใช้เวลานานขึ้น ให้ปรับจำนวนขีดจำกัดตามความเหมาะสม        
 
-    3. เพิ่มการดำเนินการ **เรียกคำขอ HTTP** DMF REST API [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) และตั้งค่าตัวแปร **ExecutionStatus** เป็นผลลัพธ์ของการตอบสนอง **GetExecutionSummaryStatus**
+    3. เพิ่มการดำเนินการ **เรียกคำขอ HTTP** DMF REST API [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) และตั้งค่าตัวแปร **ExecutionStatus** เป็นผลลัพธ์ของการตอบสนอง **GetExecutionSummaryStatus**
 
-        > ตัวอย่างนี้ไม่ทำการตรวจสอบข้อผิดพลาด API **GetExecutionSummaryStatus** สามารถส่งคืนสถานะเทอร์มินัลที่ไม่สำเร็จ (นั่นคือสถานะอื่นๆ ที่ไม่ใช่ **สำเร็จ**) สำหรับข้อมูลเพิ่มเติม ให้ดูที่[เอกสาร API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)
+        > ตัวอย่างนี้ไม่ทำการตรวจสอบข้อผิดพลาด API **GetExecutionSummaryStatus** สามารถส่งคืนสถานะเทอร์มินัลที่ไม่สำเร็จ (นั่นคือสถานะอื่นๆ ที่ไม่ใช่ **สำเร็จ**) สำหรับข้อมูลเพิ่มเติม ให้ดูที่[เอกสาร API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus)
 
         - **วิธีการ:** POST
         - **Url ของคำขอ:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -158,7 +156,7 @@ ms.locfileid: "8069793"
 
 7. รับ URL การดาวน์โหลดแพคเกจที่ส่งออก
 
-    - เพิ่มการดำเนินการ **เรียกใช้คำขอ HTTP** เพื่อเรียก DMF REST API [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl)
+    - เพิ่มการดำเนินการ **เรียกใช้คำขอ HTTP** เพื่อเรียก DMF REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl)
 
         - **วิธีการ:** POST
         - **Url ของคำขอ:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -168,7 +166,7 @@ ms.locfileid: "8069793"
 
 8. ดาวน์โหลดข้อมูลแพคเกจที่ส่งออก
 
-    - เพิ่มการร้องขอ HTTP **รับ** ([การดำเนินการของตัวเชื่อมต่อ HTTP](/azure/connectors/connectors-native-http) ที่มีอยู่ในตัว) เพื่อดาวน์โหลดแพคเกจจาก URL ที่ส่งคืนในขั้นตอนก่อนหน้านี้
+    - เพิ่มการร้องขอ HTTP **รับ** ([การดำเนินการของตัวเชื่อมต่อ HTTP](https://docs.microsoft.com/azure/connectors/connectors-native-http) ที่มีอยู่ในตัว) เพื่อดาวน์โหลดแพคเกจจาก URL ที่ส่งคืนในขั้นตอนก่อนหน้านี้
 
         - **วิธีการ:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -181,9 +179,9 @@ ms.locfileid: "8069793"
         > [!NOTE]
         > คำขอนี้ไม่จำเป็นต้องมีการตรวจสอบความถูกต้อง เนื่องจาก URL ที่ API **GetExportedPackageUrl** ส่งคืน มีโทเคนลายเซ็นการเข้าถึงที่ใช้ร่วมกันที่ให้สิทธิ์เข้าถึงเพื่อดาวน์โหลดไฟล์
 
-9. บันทึกแพคเกจที่ดาวน์โหลดโดยใช้ตัวเชื่อมต่อ [OneDrive สำหรับธุรกิจ](/azure/connectors/connectors-create-api-onedriveforbusiness)
+9. บันทึกแพคเกจที่ดาวน์โหลดโดยใช้ตัวเชื่อมต่อ [OneDrive สำหรับธุรกิจ](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)
 
-    - เพิ่มการดำเนินการ OneDrive สำหรับธุกิจ [สร้างไฟล์](/connectors/onedriveforbusinessconnector/#create-file)
+    - เพิ่มการดำเนินการ OneDrive สำหรับธุกิจ [สร้างไฟล์](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file)
     - เชื่อมต่อกับ OneDrive ของคุณกับบัญชีธุรกิจตามต้องการ
 
         - **พาธของโฟลเดอร์:** โฟลเดอร์ที่คุณเลือก
@@ -194,19 +192,16 @@ ms.locfileid: "8069793"
 
 ### <a name="step-3-test-the-logic-app"></a>ขั้นตอนที่ 3: ทดสอบแอปตรรกะ
 
-เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **เรียกใช้** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะเรียกใช้ หลังจากวินาทีที่ 30 จนถึง 40 ควรเรียกใช้แอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
+เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **รัน** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะรัน หลังจากวินาทีที่ 30 จนถึง 40 ควรรันแอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
 
 ถ้ามีการรายงานความล้มเหลวสำหรับขั้นตอนใดๆ ให้เลือกขั้นตอนที่ล้มเหลวตัวออกแบบ และตรวจสอบฟิลด์ **ข้อมูลป้อนเข้า** และ **เอาต์พุต** ตรวจแก้จุดบกพร่องและปรับเปลี่ยนขั้นตอนตามต้องการเพื่อแก้ไขข้อผิดพลาด
 
-ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะเรียกใช้เสร็จเรียบร้อยแล้ว
+ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะรันเสร็จเรียบร้อยแล้ว
 
-![การเรียกใช้แอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
+![การรันแอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>สรุป
 
 ในบทสอนนี้ คุณเรียนรู้วิธีใช้แอปตรรกะเพื่อส่งออกข้อมูลจากทรัพยากรบุคคลและบันทึกข้อมูลที่ส่งออกไปยัง OneDrive สำหรับโฟลเดอร์ธุรกิจ คุณสามารถแก้ไขขั้นตอนของบทสอนนี้ได้ตามความจำเป็นเพื่อให้เหมาะสมกับความต้องการของธุรกิจของคุณ
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

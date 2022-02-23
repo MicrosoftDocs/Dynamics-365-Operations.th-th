@@ -2,24 +2,27 @@
 title: ตั้งค่าการเลือกคลัสเตอร์
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการเลือกคลัสเตอร์ และวิธีการใช้การยืนยันรายการที่มีการเลือกคลัสเตอร์
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744593"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438901"
 ---
 # <a name="set-up-cluster-picking"></a>ตั้งค่าการเลือกคลัสเตอร์
 
@@ -77,6 +80,3 @@ ms.locfileid: "6744593"
 1. บนรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิดแบบฟอร์มการตั้งการสำรหับการยืนยันงาน: **การจัดการคลังสินค้า** \> **การจัดการคลังสินค้า** \> **การตั้งค่า** \>  **อุปกรณ์เคลื่อนที่** \> **รายการเมนูของอุปกรณ์เคลื่อนที่**
 
 1. จากรายการเมนูบนอุปกรณ์เคลื่อนที่ เปิด **การตั้งค่าการยืนยันงาน** ตัวเลือก **การยืนยันผลิตภัณฑ์** ช่วยให้คุณสามารถตรวจสอบสินค้าคงคลังแต่ละรายการได้จากอุปกรณ์เคลื่อนที่ เมื่อมีการสแกน
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

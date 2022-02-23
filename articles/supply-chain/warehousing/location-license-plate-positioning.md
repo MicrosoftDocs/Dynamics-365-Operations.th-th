@@ -2,23 +2,26 @@
 title: การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
 description: การกำหนดสถานที่ของป้ายทะเบียนจะช่วยให้คุณสามารถดูได้ว่าป้ายทะเบียนอยู่ในแท่นวางสินค้าหลายแห่ง เช่น สถานที่ที่ใช้ชั้นเก็บสินค้าของแท่นวางสินค้าที่มีความลึกเป็นสองเท่า
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438805"
 ---
 # <a name="location-license-plate-positioning"></a>การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
 
@@ -278,6 +281,3 @@ ms.locfileid: "7567618"
     ![สถานที่ของตำแหน่ง 1](media/LocationLicensePlatePositioning.png "สถานที่ของตำแหน่ง 1")
 
 1. ป้อนรหัสป้ายทะเบียนที่คุณสร้างไว้สำหรับสถานที่เก็บแล้วทำตามพร้อมต์เพื่อเบิกสินค้าตามใบสั่งขาย
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

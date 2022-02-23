@@ -1,27 +1,30 @@
 ---
 title: การกระจายเวอร์ชัน BOM
 description: บทความนี้อธิบายถึงสถานการณ์จำลองการวางแผนหลักที่เกี่ยวข้องกับการกระจายเวอร์ชันของสูตรการผลิต (BOM)
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4dfc85ad7ab01df9a95a394896873e2d649e12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438720"
 ---
 # <a name="explosion-of-a-bom-version"></a>การกระจายเวอร์ชัน BOM
 
@@ -34,16 +37,14 @@ ms.locfileid: "7575110"
 -   มิติไซต์เป็นข้อมูลบังคับ และต้องป้อนบนธุรกรรมความต้องการ
 -   มิติไซต์ไม่เปลี่ยนแปลง ดังนั้น ไซต์สำหรับความต้องการระดับล่างจึงเหมือนกับไซต์บนธุรกรรมความต้องการแรกเริ่ม
 
-ภาพประกอบต่อไปนี้แสดงกระบวนการสำหรับการขยายความต้องการของการวางแผนหลัก ![การขยายความต้องการโดยใช้รุ่น BOM](./media/multisitedemandexplosionscenariousingbomversion.gif)
+ภาพประกอบต่อไปนี้แสดงกระบวนการสำหรับการขยายความต้องการของการวางแผนหลัก ![ความต้องการกระจายโดยใช้ BOM เวอร์ชัน](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
-[กำหนดเวอร์ชัน BOM](master-plan-bom-version-determined.md)
+[กำหนดเวอร์ชันสูตรการผลิต](master-plan-bom-version-determined.md)
 
 [ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,6 +46,3 @@ ms.locfileid: "4462692"
 **วิธีแก้ปัญหาระยะยาว**
 
 Microsoft กำลังพิจารณาการกำหนดสิทธิ์ที่เหมาะสมให้กับ Onboard และ Attract โดยอัตโนมัติ เมื่อผู้ใช้ถูกเพิ่มลงในทรัพยากรบุคคล
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

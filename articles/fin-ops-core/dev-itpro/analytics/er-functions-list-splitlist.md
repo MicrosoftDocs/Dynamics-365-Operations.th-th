@@ -2,8 +2,11 @@
 title: ฟังก์ชัน ER SPLITLIST
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) SPLITLIST
 author: NickSelin
-ms.date: 03/15/2021
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0b548173a01cc5a15fcfb743dfb29397c1349b3c2926fa6401399459d07026
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776133"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680355"
 ---
 # <a name="splitlist-er-function"></a>ฟังก์ชัน ER SPLITLIST
 
@@ -27,16 +30,10 @@ ms.locfileid: "6776133"
 
 ฟังก์ชัน `SPLITLIST` แบ่งรายการที่ระบุเป็นชุดย่อย (หรือชุดงาน) ซึ่งแต่ละชุดประกอบด้วยจำนวนเรกคอร์ดที่ระบุ จากนั้นจะส่งกลับผลลัพธ์เป็นค่า *รายการเรกคอร์ด* ใหม่ที่ประกอบด้วยชุดงาน
 
-## <a name="syntax-1"></a>ไวยากรณ์ 1
+## <a name="syntax"></a>ไวยากรณ์
 
 ```vb
 SPLITLIST (list, number)
-```
-
-## <a name="syntax-2"></a>ไวยากรณ์ 2
-
-```vb
-SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>อาร์กิวเมนต์
@@ -48,10 +45,6 @@ SPLITLIST (list, number, on-demand reading flag)
 `number`: *เลขจำนวนเต็ม*
 
 จำนวนสูงสุดของเรกคอร์ดต่อชุดงาน
-
-`on-demand reading flag`: *บูลีน*
-
-ค่า *บูลีน* ที่ระบุว่าควรมีการสร้างองค์ประกอบของรายการย่อยตามความต้องการหรือไม่
 
 ## <a name="return-values"></a>ค่าที่ส่งคืน
 
@@ -71,8 +64,6 @@ SPLITLIST (list, number, on-demand reading flag)
 
     หมายเลขของชุดงานปัจจุบันในรายการที่ส่งคืน
 
-เมื่อตั้งค่าแฟล็กการอ่านตามความต้องการเป็น **จริง** รายการย่อยจะถูกสร้างขึ้นตามการร้องขอ ซึ่งอนุญาตให้ลดปริมาณการใช้หน่วยความจํา แต่อาจทําให้ประสิทธิภาพการลดลง ถ้าองค์ประกอบไม่ได้ถูกใช้ตามลำดับ
-
 ## <a name="example"></a>ตัวอย่าง
 
 ในภาพประกอบต่อไปนี้ แหล่งข้อมูล **รายการ** ถูกสร้างเป็นรายการเรกคอร์ดที่มีสามเรกคอร์ด รายการนี้จะถูกแบ่งออกเป็นชุดงาน ซึ่งแต่ละชุดงานประกอบด้วยเรกคอร์ดสองรายการ
@@ -90,6 +81,3 @@ SPLITLIST (list, number, on-demand reading flag)
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันรายการ](er-functions-category-list.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

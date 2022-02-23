@@ -1,28 +1,29 @@
 ---
 title: โฮมเพจบัญชีเจ้าหนี้
 description: หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้
-author: sunfzam
+author: ShylaThompson
+manager: AnnBe
 ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21901"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 6a6f53007f8bd04724c43c518c5a9b10856b68d7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595298"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460039"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
@@ -38,7 +39,7 @@ ms.locfileid: "7595298"
 
 ## <a name="set-up-accounts-payable"></a>ตั้งค่าบัญชีเจ้าหนี้
 
-ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงรายการบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น 
+ตั้งค่ากลุ่มผู้จัดจำหน่าย ผู้จัดจำหน่าย โพรไฟล์การลงบัญชี ตัวเลือกการชำระเงินต่างๆ และพารามิเตอร์ที่เกี่ยวกับผู้จัดจำหน่าย ค่าธรรมเนียม การจัดส่งและปลายทาง ตั๋วสัญญาใช้เงิน และข้อมูลบัญชีเจ้าหนี้ชนิดอื่น 
 
 [ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้](accounts-payable-overview.md)
 
@@ -64,7 +65,7 @@ ms.locfileid: "7595298"
 
 [บัญชีตรงข้ามเริ่มต้นสำหรับสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่ายและสมุดรายวันการอนุมัติใบแจ้งหนี้](default-offset-accounts-vendor-invoice-journals.md)
 
-[การอนุมัติใบแจ้งหนี้บนอุปกรณ์เคลื่อนที่](mobile-invoice-approvals.md)
+[การอนุมัติใบแจ้งหนี้แบบเคลื่อนที่](mobile-invoice-approvals.md)
 
 [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](vendor-portal-invoicing-workspace.md)
 
@@ -122,7 +123,7 @@ ms.locfileid: "7595298"
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](/dynamics365/release-plans/) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="blogs"></a>บล็อก
 
@@ -144,6 +145,3 @@ ms.locfileid: "7595298"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

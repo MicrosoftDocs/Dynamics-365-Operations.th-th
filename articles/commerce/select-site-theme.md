@@ -1,27 +1,36 @@
 ---
-# required metadata
 title: เลือกธีมของไซต์
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่า หรือเปลี่ยนชุดรูปแบบไซต์ของคุณใน Microsoft Dynamics 365 Commerce
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: null
-ms.assetid: null
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556440"
 ---
-
 # <a name="select-a-site-theme"></a>เลือกธีมของไซต์
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้จะอธิบายวิธีการตั้งค่า หรือเปลี่ยนชุดรูปแบบไซต์ของคุณใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 โครงร่างและลักษณะของไซต์ (ตัวอย่างเช่น แบบอักษร ขนาด และสี) จะถูกกำหนดโดยชุดรูปแบบที่คุณเลือกและนำไปใช้กับไซต์ ชุดรูปแบบจะถูกสร้างขึ้น และใช้งานโดยนักพัฒนาที่บริษัทของคุณ สำหรับภาพรวมของชุดรูปแบบโปรดดู [ภาพรวมของชุดรูปแบบ](e-commerce-extensibility/theming.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างและปรับใช้ชุดรูปแบบ โปรดดู [สร้างชุดรูปแบบใหม่](e-commerce-extensibility/create-theme.md)
 
@@ -39,13 +48,15 @@ ms.dyn365.ops.version: Release 10.0.5
 > [!NOTE]
 > ชุดรูปแบบที่คุณเลือกเผยแพร่ไปยังไซต์ของคุณ ทันทีที่คุณเลือก **บันทึกและเผยแพร่** บนหน้า **เพิ่มความสามารถ** เมื่อต้องการแสดงตัวอย่างชุดรูปแบบบนไซต์ของคุณก่อนที่จะใช้งาน คุณสามารถใช้สภาพแวดล้อมการพัฒนาหรือ Sandbox ของคุณได้
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [เพิ่มโลโก้](add-logo.md)
 
 [ทำงานกับไฟล์การแก้ไข CSS](css-override-files.md)
 
 [เพิ่มไอคอนประจำไซต์](add-favicon.md)
+
+[เพิ่มข้อความต้อนรับ](add-welcome-message.md)
 
 [เพิ่มข้อความสงวนลิขสิทธิ์](add-copyright-notice.md)
 
@@ -57,6 +68,3 @@ ms.dyn365.ops.version: Release 10.0.5
 
 [สร้างธีมใหม่](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

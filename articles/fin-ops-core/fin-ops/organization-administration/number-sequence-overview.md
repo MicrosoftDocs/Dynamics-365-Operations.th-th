@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของลำดับหมายเลข
 description: ลำดับหมายเลขที่ใช้ในการสร้างตัวระบุเฉพาะที่สามารถอ่านได้สำหรับเร็กคอร์ดข้อมูลหลักและเรกคอร์ดธุรกรรมที่จำเป็นต้องมีตัวระบุ
-author: SunilGarg
+author: MargoC
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'NumberSequenceTableListPage, NumberSequenceConfiguration'
-audience: 'Application User, IT Pro'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
+audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-  - '15461'
-  - intro-internal
+ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: sunilg
-ms.search.validFrom: '2016-02-28'
+ms.author: margoc
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797081"
 ---
-
 # <a name="number-sequences-overview"></a>ภาพรวมของลำดับหมายเลข
 
 [!include [banner](../includes/banner.md)]
@@ -108,9 +112,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ### <a name="automatic-cleanup-of-number-sequences"></a>การล้างข้อมูลลำดับหมายเลขอัตโนมัติ
 
-ในกรณีที่เกิดไฟฟ้าขัดข้อง ข้อผิดพลาดของแอปพลิเคชัน หรือความล้มเหลวที่ไม่คาดคิดอื่นๆ ระบบไม่สามารถนำหมายเลขกลับมาใช้ใหม่โดยอัตโนมัติสำหรับลำดับหมายเลขที่ต่อเนื่อง คุณสามารถรันกระบวนการล้างข้อมูลโดยอัตโนมัติหรือด้วยตนเองได้เพื่อกู้คืนหมายเลขที่หายไปได้
+ในกรณีที่เกิดไฟฟ้าขัดข้อง ข้อผิดพลาดของแอพลิเคชัน หรือความล้มเหลวที่ไม่คาดคิดอื่นๆ ระบบไม่สามารถนำหมายเลขกลับมาใช้ใหม่โดยอัตโนมัติสำหรับลำดับหมายเลขที่ต่อเนื่อง คุณสามารถรันกระบวนการล้างข้อมูลโดยอัตโนมัติหรือด้วยตนเองได้เพื่อกู้คืนหมายเลขที่หายไปได้
 
 พิจารณาการใช้เซิร์ฟเวอร์อย่างระมัดระวังเมื่อคุณวางแผนกระบวนการล้างข้อมูล ขอแนะนำให้คุณทำการล้างข้อมูลเป็นชุดงานในระหว่างช่วงเวลาที่ระบบมีปริมาณงานไม่มากนัก
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

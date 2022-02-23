@@ -2,23 +2,26 @@
 title: ตำแหน่งคลัสเตอร์เต็ม
 description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะตำแหน่งคลัสเตอร์เต็ม คุณลักษณะนี้นำเสนอทางเลือกสำหรับการบังคับใช้กฎการแบ่งงานที่เข้มงวดยิ่งขึ้นเมื่อมีการใช้การเบิกสินค้าคลัสเตอร์ เนื่องจากจะช่วยให้มีระยะเผื่อใหญ่ขึ้นสำหรับข้อผิดพลาดในข้อจำกัดตามปริมาตรของคอนเทนเเนอร์หรือโหลดบรรทุก
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438843"
 ---
 # <a name="cluster-position-full"></a>ตำแหน่งคลัสเตอร์เต็ม
 
@@ -211,7 +214,7 @@ ms.locfileid: "7574268"
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>การดำเนินการของลำดับขั้นอุปกรณ์เคลื่อนที่-การตั้งค่าการยืนยันงานสำหรับผลิตภัณฑ์
 
-1. ลงชื่อเข้าใช้แอปการจัดการคลังสินค้าบนมือถือในฐานะผู้ใช้งานคลังสินค้า *61*
+1. ลงชื่อเข้าใช้แอปคลังสินค้าในฐานะผู้ใช้ในคลังสินค้า *61*
 1. ไปที่ **ขาออก \> การสร้างการเบิกสินค้าคลัสเตอร์**
 
     หน้า **งาน: กำหนดงานให้กับคลัสเตอร์** จะปรากฏขึ้น
@@ -273,6 +276,3 @@ ms.locfileid: "7574268"
     คุณได้รับข้อความ "คลัสเตอร์เสร็จสมบูรณ์"
 
 ตอนนี้คุณสามารถใช้รายการเมนู **การเบิกสินค้าขาย** เพื่อเบิกสินค้าปริมาณที่เหลือ จากนั้นคุณสามารถใช้รายการเมนู **การบรรทุกสินค้าขาย** เพื่อย้ายสินค้าจากสถานที่การจัดเตรียมไปยังท่าการบรรทุกสินค้า
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: ตั้งค่าคอนฟิกงานอัตโนมัติในลำดับงาน
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติสำหรับงานอัตโนมัติ
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 003a5d2332aaf12ee7e9352ecb61ef190c04a41f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066529"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798916"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>ตั้งค่าคอนฟิกงานอัตโนมัติในลำดับงาน
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติสำหรับงานอัตโนมัติ
 
@@ -41,12 +40,12 @@ ms.locfileid: "8066529"
 
 ## <a name="specify-when-notifications-are-sent"></a>ระบุว่าจะส่งการแจ้งเตือนเมื่อใด
 
-คุณสามารถส่งการแจ้งเตือนไปยังบุคคลต่าง ๆ เมื่อมีการเรียกใช้และยกเลิกงานอัตโนมัติ ทำตามขั้นตอนเหล่านี้เพื่อระบุว่าจะส่งการแจ้งเตือนเมื่อใดและจะส่งให้ใคร
+คุณสามารถส่งการแจ้งเตือนไปยังบุคคลต่าง ๆ เมื่อมีการรันและยกเลิกงานอัตโนมัติ ทำตามขั้นตอนเหล่านี้เพื่อระบุว่าจะส่งการแจ้งเตือนเมื่อใดและจะส่งให้ใคร
 
 1. ในบานหน้าต่างทางซ้าย ให้คลิก **การแจ้งเตือน**
 2. เลือกกล่องกาเครื่องหมายที่อยู่ถัดจากเหตุการณ์เพื่อส่งการแจ้งเตือนสำหรับ:
 
-    - **การดำเนินการ**– จะส่งการแจ้งเตือนเมื่อมีการเรียกใช้งาน
+    - **การดำเนินการ**– จะส่งการแจ้งเตือนเมื่อมีการรันงาน
     - **ยกเลิกแล้ว**– จะส่งการแจ้งเตือนเมื่อมีการยกเลิกงาน
 
 3. เลือกแถวของเหตุการณ์ที่คุณเลือกในขั้นตอนที่ 2
@@ -111,6 +110,3 @@ ms.locfileid: "8066529"
     </table>
 
 8. ทำซ้ำขั้นตอนที่ 3 ถึง 7 สำหรับแต่ละเหตุการณ์ที่คุณเลือกไว้ในขั้นตอนที่ 2
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,33 @@
 ---
-title: ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 08/24/2021
+title: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
+description: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070361"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420785"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
+# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่สามารถใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ติดต่อส่วนบุคคลคือบุคคลที่ได้รับความคุ้มครองภายใต้แผนของคุณ (ผู้อยู่ในอุปการะ) หรือผู้ที่จะได้รับประโยชน์จากแผนของคุณ (ผู้รับผลประโยชน์) ผู้อยู่ในอุปการะมักเป็นคู่สมรสหรือบุตร ผู้รับผลประโยชน์สามารถเป็นคู่สมรส บุตร ผู้ไว้วางใจ หรือผู้ปกครอง
+บทความนี้แสดงวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่จะใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้ 
 
 1. ในพื้นที่ทำงาน **การจัดการสิทธิประโยชน์** ภายใต้ **การตั้งค่า** ให้เลือก **ตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล**
 
@@ -47,6 +45,3 @@ ms.locfileid: "8070361"
    | **อายุ** | อายุสูงสุดของผู้ที่มีความสัมพันธ์ส่วนบุคคลที่มีสิทธิ์สำหรับแผนสิทธิประโยชน์ ฟิลด์นี้จะเปิดใช้งานก็ต่อเมื่อคุณเลือกความสัมพันธ์เท่านั้น อายุนี้จะถูกใช้ในการเปรียบเทียบกับอายุที่คำนวณได้ของผู้ที่มีความสัมพันธ์ส่วนบุคคล อายุที่คำนวณได้คือ (วันที่มีความคุ้มครอง – วันเกิดของผู้ที่มีความสัมพันธ์ส่วนบุคคล / 365) ตัวเลขที่คำนวณได้จะเป็นจำนวนเต็มเสมอ |
 
 4. เลือก **บันทึก** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

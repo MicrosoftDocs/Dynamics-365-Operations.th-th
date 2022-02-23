@@ -1,26 +1,29 @@
 ---
 title: การตรวจนับตามรอบ
 description: บทความนี้อธิบายวิธีการใช้การตรวจนับตามรอบกับโซลูชันคลังสินค้าที่จะพร้อมใช้งานในการจัดการคลังสินค้า  บทความนี้ไม่ใช้กับโซลูชันคลังสินค้าที่พร้อมใช้งานในการบริหารสินค้าคงคลัง
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902233"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438822"
 ---
 # <a name="cycle-counting"></a>การตรวจนับตามรอบ
 
@@ -34,7 +37,7 @@ ms.locfileid: "7902233"
 2.  **ประมวลผลตัวนับวงจร** – หลังจากการนับวงจรถูกสร้าง คุณทำงานการนับวงจรโดยการนับรายการในที่ตั้งคลังสินค้า และจากนั้นใช้อุปกรณ์มือถือเพื่อป้อนผลใน Dynamics 365 Supply Chain Management อีกทางหนึ่งคือ คุณสามารถนับสินค้าในที่ตั้งคลังสินค้าโดยไม่ต้องมีการสร้างงานการตรวจนับตามรอบ กระบวนการนี้เรียกว่า *การตรวจนับตามรอบทันที*
 3.  **แก้ไขความแตกต่างในค่าที่ตรวจนับตามรอบ** – หลังจากการตรวจนับตามรอบ รายการใดๆ ที่มีความแตกต่างของค่าที่ตรวจนับจะมีสถานะเป็น **การตรวจทานที่ค้างอยู่** ในหน้า **งานทั้งหมด** คุณสามารถแก้ไขความแตกต่างเหล่านี้ได้ในหน้า **การตรวจทานที่ค้างอยู่ของการตรวจนับตามรอบ**
 
-ภาพต่อไปนี้แสดงกระบวนการตรวจนับตามรอบ ![กระบวนการตรวจนับตามรอบ](./media/performcyclecountinginawarehouselocation.jpg)
+ภาพต่อไปนี้แสดงกระบวนการตรวจนับตามรอบ ![ลำดับกระบวนการตรวจนับตามรอบทันที](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>ข้อกำหนดเบื้องต้นของการตรวจนับตามรอบ
 ตารางต่อไปนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีก่อนที่คุณจะใช้การตรวจนับตามรอบ
@@ -121,7 +124,7 @@ ms.locfileid: "7902233"
 
 1.  บนอุปกรณ์เคลื่อน ให้เลือกรายการในเมนูที่จะทำงานการตรวจนับตามรอบทันที
 2.  ลงทะเบียนที่ตั้งเพื่อดำเนินการสำหรับการตรวจนับตามรอบทันที
-3.  ลงทะเบียนและยืนยันหมายเลขของสินค้าและปริมาณสินค้าที่ตรวจนับ **หมายเหตุ:** สถานะของงานการตรวจนับตามรอบถูกอัปเดตเป็น **การตรวจทานที่ค้างอยู่** หรือ **ปิดแล้ว** บนหน้า **งานทั้งหมด** ขึ้นอยู่กับพารามิเตอร์ที่ถูกตั้งค่าในหน้า **ผู้ปฏิบัติงาน**
+3.  ลงทะเบียนและยืนยันหมายเลขของสินค้าและปริมาณสินค้าที่ตรวจนับ **หมายเหตุ:** สถานะของงานการตรวจนับตามรอบถูกอัพเดตเป็น **การตรวจทานที่ค้างอยู่** หรือ **ปิดแล้ว** บนหน้า **งานทั้งหมด** ขึ้นอยู่กับพารามิเตอร์ที่ถูกตั้งค่าในหน้า **ผู้ปฏิบัติงาน**
 4.  ตัวเลือก: ทำซ้ำขั้นตอนที่ 3 สำหรับสินค้าที่เหลืออยู่ในสถานที่ และยืนยันว่าไม่มีสินค้าเพิ่มเติมพร้อมสำหรับการตรวจนับ
 
 ## <a name="resolve-cycle-counting-differences"></a>แก้ไขความแตกต่างของการตรวจนับตามรอบ
@@ -137,6 +140,3 @@ ms.locfileid: "7902233"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

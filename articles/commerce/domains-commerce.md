@@ -2,24 +2,27 @@
 title: โดเมนใน Dynamics 365 Commerce
 description: หัวข้อนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734002"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517366"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -38,7 +41,7 @@ ms.locfileid: "6734002"
 
 ภาพประกอบต่อไปนี้แสดงหน้าจอการเตรียมใช้งานอีคอมเมิร์ซของ LCS ที่มีการเน้นกล่อง **ชื่อโฮสต์ที่ได้รับการสนับสนุน** 
 
-![หน้าจอการเตรียมใช้งานอีคอมเมิร์ซของ LCS ที่มีการเน้นกล่อง **ชื่อโฮสต์ที่ได้รับการสนับสนุน**](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![หน้าจอการเตรียมใช้งานอีคอมเมิร์ซของ LCS ที่มีการเน้นกล่อง **ชื่อโฮสต์ที่ได้รับการสนับสนุน**](./media/Domains_ProvisioningeCommerceScreen.png)
 
 คุณสามารถสร้างคำขอบริการเพื่อเพิ่มโดเมนเพิ่มเติมลงในสภาพแวดล้อมได้ถ้ามีการเตรียมใช้งานอยู่แล้ว เมื่อต้องการสร้างคำขอบริการใน LCS ภายในสภาพแวดล้อมของคุณ ให้ไปที่ **การสนับสนุน \>ปัญหาที่รับการสนับสนุน** และเลือก **ส่งเหตุการณ์**
 
@@ -79,11 +82,11 @@ ms.locfileid: "6734002"
 
 ภาพประกอบต่อไปนี้จะแสดงกล่องโต้ตอบ **URL ใหม่** ในตัวสร้างไซต์โดยมีการเน้นพาธ URL 
 
-![กล่องโต้ตอบ **URL ใหม่** ในโปรแกรมสร้างไซต์](./media/Domains_PageSetup2a.png)
+![กล่องโต้ตอบ **URL ใหม่** ในตัวสร้างไซต์](./media/Domains_PageSetup2a.png)
 
 ภาพประกอบต่อไปนี้จะแสดงหน้า **URL** ในตัวสร้างไซต์ที่มีตัวอย่างการเน้น URL ในรายการ
 
-![รันตัวเลือกโฟลว์ของผู้ใช้ในโฟลว์ของนโยบาย](./media/Domains_URLsInSiteBuilder2a.png)
+![รันตัวเลือกขั้นตอนของผู้ใช้ในขั้นตอนของนโยบาย](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>โดเมนในตัวสร้างไซต์
 
@@ -151,7 +154,7 @@ ms.locfileid: "6734002"
 
   [ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 
-  [ตั้งค่าช่องทางร้านค้าออนไลน์](./channel-setup-online.md)
+  [ตั้งค่าช่องทางร้านค้าออนไลน์](online-stores.md)
 
   [สร้างไซต์อีคอมเมิร์ซ](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ ms.locfileid: "6734002"
   [เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
 
   [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: การเติมสินค้าที่มีคัมบังการเบิกถอน
 description: หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4438799"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
@@ -30,6 +33,7 @@ ms.locfileid: "6742595"
 หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>ลำดับงานสำหรับการเติมสินค้าวัสดุที่ใช้คัมบังการเบิกถอน
+-------------------------------------------------------------------
 
 คัมบังการเบิกถอนสามารถถูกใช้เพื่อย้ายคัมบังสินค้าเดี่ยวระหว่างคลังสินค้าและสถานที่ผลิตที่ซึ่งมีการใช้วัสดุ คัมบังการเบิกถอนสนับสนุนโซลูชันที่ทำงานแบบดึงสำหรับการเติมสินค้าวัสดุ ที่ต้องใช้สัญญาณดึงเพื่อทริกเกอร์การจัดหาวัสดุสำหรับความต้องการเฉพาะ 
 
@@ -83,6 +87,3 @@ ms.locfileid: "6742595"
 
 หลังจากมีการใช้คัมบังที่สถานที่ตั้งอินพุทการผลิต คัมบังจะถูกรายงานเป็นว่างเปล่า และมีการเพิ่มคัมบังใหม่ลงในขั้นตอน เมื่อมีการสร้างคัมบัง รายการเวฟถูกเพิ่มไปยังเวฟคัมบัง เมื่อมีการประมวลผลเวฟคัมบัง มีการสร้างงานของคลังสินค้าสำหรับการเบิกสินค้าคัมบัง ผู้ปฏิบัติงานคลังสินค้าประมวลผลงานสำหรับการเบิกสินค้าคัมบัง และถูกนำทางโดยงานเพื่อเบิกวัสดุสำหรับคัมบังในสถานที่ตั้งคลังสินค้า เนื่องจากผู้ปฏิบัติงานคลังสินค้านี้ยืนยันการเบิกของ คัมบังจะเสร็จสมบูรณ์โดยอัตโนมัติ และมีการแนะนำผู้ปฏิบัติงานคลังสินค้าให้วางวัสดุในสถานที่ตั้งอินพุทการผลิต
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

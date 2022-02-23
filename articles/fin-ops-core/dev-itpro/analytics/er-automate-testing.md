@@ -2,9 +2,11 @@
 title: ทำให้การทดสอบเป็นแบบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถใช้คุณลักษณะพื้นฐานของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อทำให้การทดสอบของฟังก์ชันเป็นแบบอัตโนมัติ
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749811"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681459"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
 
@@ -315,7 +317,7 @@ ms.locfileid: "6749811"
 6. ในสมุดงาน Excel ที่เปิดอยู่ บนแผ่นงาน **ทั่วไป** ให้เปลี่ยนรหัสบริษัทเป็น **GBSI**
 7. บนแผ่นงาน **ERFormatMappingRunLogTable** ให้สังเกตว่าเซลล์ A:3 และ C:3 มีข้อความของฟิลด์ในตารางล็อกดีบัก ER ที่ใช้เพื่อตรวจสอบความถูกต้องของผลลัพธ์ของการเปรียบเทียบเอาท์พุทกับข้อมูลพื้นฐาน ข้อความเหล่านี้จะใช้ในการประเมินเรกคอร์ดของล็อกดีบัก ER ซึ่งสร้างขึ้นในระหว่างการดำเนินการทดสอบ
 
-    ![เวิร์กชีต ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "ภาพหน้าจอของแผ่นงาน ERFormatMappingRunLogTable")
+    ![แผ่นงาน ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "ภาพหน้าจอของแผ่นงาน ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>รันการทดสอบและวิเคราะห์ผลลัพธ์
 
@@ -378,6 +380,3 @@ ms.locfileid: "6749811"
 - [ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน](er-trace-reports-compare-baseline.md)
 - [ER อัพเกรดรูปแบบของคุณโดยการใช้เวอร์ชันฐานใหม่ของรูปแบบนั้น](tasks/er-upgrade-format.md)
 - [ER นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

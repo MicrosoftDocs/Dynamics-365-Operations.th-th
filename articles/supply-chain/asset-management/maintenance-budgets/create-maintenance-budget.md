@@ -1,10 +1,12 @@
 ---
 title: สร้างงบประมาณการบำรุงรักษา
 description: หัวข้อนี้อธิบายวิธีการสร้างงบประมาณการบำรุงรักษาในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776955"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021000"
 ---
 # <a name="create-maintenance-budgets"></a>สร้างงบประมาณการบำรุงรักษา
 
@@ -56,6 +58,3 @@ ms.locfileid: "6776955"
 
 > [!NOTE]
 > งบประมาณการบำรุงรักษาจะคำนวณเฉพาะต้นทุนงบประมาณตามรายการกำหนดการบำรุงรักษา เมื่อต้องการคำนวณต้นทุนจริงสำหรับรอบระยะเวลาเดียวกัน คุณสามารถทำการคำนวณบนหน้า **การควบคุมต้นทุนสินทรัพย์** 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

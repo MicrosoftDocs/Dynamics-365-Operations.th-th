@@ -129,6 +129,3 @@ LinkedIn เป็นเครือข่ายมืออาชีพออ�
 [ลงประกาศงานใน LinkedIn จาก Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
 [การแก้ไขปัญหาการรวม LinkedIn และ Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

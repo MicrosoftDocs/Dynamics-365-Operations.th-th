@@ -1,33 +1,31 @@
 ---
 title: เปลี่ยนพื้นที่ทำงานของระบบบริการตนเองของลูกค้า
 description: หัวข้อนี้จะอธิบายวิธีการเปลี่ยนชื่อที่แสดงของพื้นที่ทำงานของระบบบริการตนเองของพนักงานใน Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 07/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 31e8c3e572e0f95f4331fbd858150897c9ed0105
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070738"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420835"
 ---
-# <a name="change-employee-self-service-workspace-name"></a>เปลี่ยนชื่อพื้นที่ทำงานระบบบริการตนเองของพนักงาน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="change-employee-self-service-workspace-name"></a>เปลี่ยนพื้นที่ทำงานของระบบบริการตนเองของลูกค้า
 
 ถ้าคุณมีอาสาสมัครหรือผู้อื่นที่ไม่ใช่พนักงาน คุณอาจต้องการเปลี่ยนชื่อของพื้นที่ทำงาน **ระบบบริการตนเองของพนักงาน** คุณสามารถเปลี่ยนพื้นที่ทำงานนี้เป็น **ระบบบริการตนเอง** แทน
 
@@ -47,6 +45,3 @@ ms.locfileid: "8070738"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ภาพรวมของระบบบริการตนเองของพนักงานและผู้จัดการ](hr-employee-manager-self-service-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

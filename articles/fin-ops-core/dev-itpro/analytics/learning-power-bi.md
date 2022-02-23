@@ -2,9 +2,11 @@
 title: เนื้อหา Power BI การเรียนรู้
 description: หัวข้อนี้อธิบายเนื้อหา Power BI การเรียนรู้
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742349"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685260"
 ---
 # <a name="learning-power-bi-content"></a>เนื้อหา Power BI การเรียนรู้
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **การเรียนรู้** Microsoft Power BI
+หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI **การเรียนรู้**
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 
@@ -60,6 +62,3 @@ ms.locfileid: "6742349"
 | ตำแหน่ง         | ตำแหน่งงาน ชื่อ และเทียบเท่าเต็มเวลา (FTE)                  | วาระการประชุมของหลักสูตร ผู้เข้าร่วมหลักสูตร |
 | ชื่อพนักงาน    | ชื่อจริง นามสกุล และชื่อเต็ม                             | ผู้เข้าร่วมหลักสูตร |
 | ตำแหน่งของพนักงาน   | ตำแหน่งงานและวันที่อายุงาน                                         | ผู้เข้าร่วมหลักสูตร |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

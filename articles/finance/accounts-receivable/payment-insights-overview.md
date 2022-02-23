@@ -1,25 +1,30 @@
 ---
-# required metadata
 title: ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (รุ่นตัวอย่าง)
 description: หัวข้อนี้อธิบายความสามารถในข้อมูลเชิงลึกการชำระเงินซึ่งช่วยให้เข้าใจแนวทางการชำระเงินโดยทั่วไปของลูกค้ารายคนได้ดียิ่งขึ้น ลักษณะการทำงานยังสามารถช่วยให้คุณระบุถึงสถานการณ์ที่มีการเริ่มต้นกระบวนการเรียกเก็บเงินก่อนหน้าที่คุณทำไว้
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-  - '14151'
-  - intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2019-11-06'
+ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644644"
 ---
-
 # <a name="customer-payment-insights-preview"></a>ข้อมูลเชิงลึกเกี่ยวกับการชำระเงินของลูกค้า (รุ่นตัวอย่าง)
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +54,7 @@ ms.dyn365.ops.version: AX 10.0.8
 
 นอกจากนี้ ใบแจ้งหนี้แต่ละใบจะถูกกำหนดความน่าจะเป็นของการชำระเงินตรงเวลา ถ้าความน่าจะเป็นของการชำระเงินในเวลาน้อยกว่า 50% ใบแจ้งหนี้จะถูกติดแท็กด้วยวงกลมสีแดงเพื่อบ่งชี้ว่าใบแจ้งหนี้เหล่านี้อาจจำเป็นต้องได้รับความสนใจจากคอลเลกชัน 
 
-[![รายการของความน่าจะเป็นในการชำระเงิน](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![รายการความน่าจะเป็นในการชำระเงิน](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 ข้อมูลเชิงลึกของการชำระเงินของลูกค้า (การแสดงตัวอย่าง) ยังมีข้อมูลบริบทเพื่ออธิบายการคาดการณ์ เช่น ปัจจัยใหญ่ที่มีผลกระทบต่อการคาดการณ์สถานะปัจจุบันของธุรกิจที่มีลูกค้า และรายละเอียดเกี่ยวกับการชำระเงินของลูกค้าในอดีต ในธุรกิจจำนวนมาก กระบวนการเรียกเก็บเงินเป็นกิจกรรมที่มีการดำเนินการ กระบวนการเรียกเก็บเงินไม่เริ่มต้นจนกว่าใบแจ้งหนี้จะครบกำหนด 
 
@@ -65,9 +70,6 @@ ms.dyn365.ops.version: AX 10.0.8
 
 ## <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
 
-พรีวิว (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการสำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
+การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการสำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: อนุมัติการคาดการณ์ที่ปรับปรุง
 description: ไม่ใช่ข้อมูลการคาดการณ์ทั้งหมดจะต้องได้รับการอนุมัติในทันที บทความนี้อธิบายวิธีการที่คุณสามารถระบุรอบระยะเวลาที่การคาดการณ์ได้รับอนุมัติ ยังอธิบายถึงวิธีการอนุมัติการคาดการณ์สำหรับบริษัทที่ระบุและแบบจำลองการคาดการณ์อีกด้วย
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961474"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>อนุมัติการคาดการณ์ที่ปรับปรุง
 
@@ -39,7 +41,8 @@ ms.locfileid: "7568723"
 
 สำคัญอย่างยิ่งว่าคุณเข้าใจวิธีการทำงานของกล่องกาเครื่องหมาย **บันทึกการปรับปรุงด้วยตนเองที่ทำต่อการคาดการณ์ความต้องการพื้นฐาน** ถ้าคุณได้ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐานทางสถิติ ค่าที่มีการปรับปรุงจะได้รับอนุญาตให้ใช้ ถึงแม้ว่าจะมีการล้างกล่องกาเครื่องหมายนี้ อย่างไรก็ตาม การเปลี่ยนแปลงจะถูกละทิ้งหลังจากการตรวจสอบ ดังนั้น ครั้งถัดไปที่มีสร้างการคาดการณ์ การคาดการณ์จะเป็นการคาดการณ์ทางสถิติเท่านั้น และไม่มีการแทนที่ด้วยตนเองใดๆ ถึงแม้ว่าจะมีการเลือก **การปรับปรุงการโอนย้ายด้วยตนเองไปยังการคาดการณ์ความต้องการ** ดังนั้น คุณสามารถพิจารณากล่องกาเครื่องหมาย **บันทึกการปรับปรุงด้วยตนเองที่ทำต่อการคาดการณ์ความต้องการพื้นฐาน** เป็นกลไกที่ช่วยให้คุณสามารถเก็บ หรือละทิ้งการเปลี่ยนแปลงทั้งหมดที่ดำเนินการด้วยตนเอง
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
 
@@ -47,6 +50,3 @@ ms.locfileid: "7568723"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: สถานะของวงจรการใช้ของสินทรัพย์
 description: หัวข้อนี้จะอธิบายถึงสถานะของวงจรการใช้และแบบจำลองวงจรการใช้งานของสินทรัพย์ในการจัดการสินทรัพย์
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722474"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016563"
 ---
 # <a name="asset-lifecycle-states"></a>สถานะของวงจรการใช้ของสินทรัพย์
 
@@ -61,12 +63,9 @@ ms.locfileid: "6722474"
 
 5. บน FastTab **สถานะของวงจรการใช้** ให้เลือกสถานะของวงจรการใช้ของสินทรัพย์ที่ควรถูกรวมไว้ในแบบจำลองวงจรการใช้งานของสินทรัพย์:
 
-    - เพื่อใช้สถานะของวงจรการใช้สำหรับแบบจำลอง ให้เลือกในส่วน **สถานะของวงจรการใช้ที่เหลือ** และจากนั้น เลือกปุ่มลูกศรขวา ![ลูกศรขวา](media/15-setup-for-objects.png) เพื่อย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เลือก**
+    - ถ้าต้องการใช้สถานะของวงจรการใช้สำหรับแบบจำลอง ให้เลือกในส่วน **สถานะของวงจรการใช้ที่เหลือ** และจากนั้น เลือกปุ่มลูกศรขวา ![ลูกศรขวา](media/15-setup-for-objects.png) เพื่อย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เลือก**
     - เพื่อใช้สถานะของวงจรการใช้ที่พร้อมใช้งานทั้งหมดสำหรับแบบจำลอง ให้เลือกปุ่ม **สถานะของวงจรการใช้ทั้งหมดที่พร้อมใช้งาน** ![สถานะของวงจรการใช้ทั้งหมดที่พร้อมใช้งาน](media/20-setup-for-objects.png) สถานะของวงจรการใช้ทั้งหมดจะถูกโอนย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เลือก**
     - ถ้าต้องการลบสถานะของวงจรการใช้ออกจากแบบจำลอง ให้เลือกในส่วน **สถานะของวงจรการใช้ที่เลือก** และจากนั้น เลือกปุ่มลูกศรซ้าย ![ลูกศรซ้าย](media/16-setup-for-objects.png) เพื่อย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เหลือ**
 
 6. เลือก **การปรับปรุงสถานะของวงจรการใช้** เพื่อกำหนดสถานะของวงจรการใช้สินทรัพย์ที่สามารถทำตามสถานะของวงจรการใช้ที่เลือกได้
 7. คุณใช้ FastTab **สถานะสินทรัพย์** ถ้าคุณจัดการกับสินทรัพย์ที่คุณได้รับสำหรับการซ่อมแซม ในส่วน **ขาเข้า/ขาออก** คุณสามารถเลือกสถานะของวงจรการใช้ของสินทรัพย์เพื่อบ่งชี้ลำดับงานของสินทรัพย์ที่คุณได้รับสำหรับการซ่อมแซม หากคุณมีสินทรัพย์ที่ให้ยืมแก่ลูกค้าหรือแผนกในส่วน **การกู้ยืม** คุณสามารถเลือกสถานะของวงจรการใช้สำหรับสินทรัพย์ที่ให้ยืมได้
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

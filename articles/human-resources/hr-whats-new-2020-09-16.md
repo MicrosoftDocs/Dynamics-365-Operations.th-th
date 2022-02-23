@@ -1,13 +1,16 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (16 กันยายน 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (16 กันยายน 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 16 กันยายน 2020
 author: jcart1106
+manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,24 +18,22 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cd3424db6bf918b4041f6d12e5d840bc3a8dfef7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061584"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527445"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (16 กันยายน 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (16 กันยายน 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3557 ตัวเลขในวงเล็บถัดจากลักษณะการทำงานบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
 ## <a name="included-in-this-release"></a>รวมอยู่ในการนำออกใช้นี้
 
--  [มุมมองที่บันทึกไว้ - ความพร้อมใช้งานทั่วไป](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../fin-ops-core/fin-ops/get-started/saved-views.md) 
+-  [มุมมองที่บันทึกไว้ - ความพร้อมใช้งานทั่วไป](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views) 
 
 - ฟอร์ม **การดำเนินการของตำแหน่ง** มีกริดมิติที่อัปเดตและกล่องโต้ตอบใหม่ (469495)
 
@@ -75,21 +76,21 @@ ms.locfileid: "8061584"
 
 พนักงานสามารถดูและร้องขอเวลานอกการทำงานภายใน Microsoft Teams ผู้ใช้สามารถโต้ตอบกับบอท เพื่อสร้างคำขอลางาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
 
-- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
-- [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md) ในคู่มือ Human Resources
+- [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 1
+- [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841) ในคู่มือ Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>คุณลักษณะรุ่นพรีวิวของแอป Human Resources ใน Teams
  
 -  **การแจ้งเตือน**: ผู้ส่งและผู้อนุมัติที่ส่งคำขอการลาหยุดจะได้รับการแจ้งเตือนในแอป Human Resources ใน Teams ผู้อนุมัติสามารถอนุมัติหรือปฏิเสธคำขอการลาหยุดได้ ผู้ส่งจะได้รับการแจ้งเตือนถ้าคำขอได้รับการอนุมัติหรือถูกปฏิเสธ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
-   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-   - [เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) ในคู่มือ Human Resources
-   - [เปิดหรือปิดการแจ้งเตือนของ Teams สำหรับผู้ใช้แต่ละราย](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) ในคู่มือ Human Resources
-   - [การแจ้งเตือนของ Teams](./hr-teams-leave-app.md#respond-to-teams-notifications) ในคู่มือ Human Resources
-   - [ดูปฏิทินการลางานของทีมของคุณ](./hr-teams-leave-app.md#view-your-teams-leave-calendar) ในคู่มือ Human Resources
+   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+   - [เปิดใช้งานการแจ้งเตือนสำหรับแอป Human Resources ใน Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) ในคู่มือ Human Resources
+   - [เปิดหรือปิดการแจ้งเตือนของ Teams สำหรับผู้ใช้แต่ละราย](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) ในคู่มือ Human Resources
+   - [การแจ้งเตือนของ Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) ในคู่มือ Human Resources
+   - [ดูปฏิทินการลางานของทีมของคุณ](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) ในคู่มือ Human Resources
  
 - **ปฏิทินการลาหยุดของผู้จัดการ**: ผู้จัดการสามารถดูการลาหยุดที่อนุมัติและที่ค้างอยู่สำหรับผู้ใต้บังคับบัญชาโดยตรงของตนในมุมมองปฏิทิน มุมมองนี้จะทำให้เข้าใจง่ายเมื่อสมาชิกในทีมของตนไม่มาทำงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ 
-   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
-   - [ดูปฏิทินการลางานของทีมของคุณ](./hr-teams-leave-app.md#view-your-teams-leave-calendar) ในคู่มือ Human Resources
+   - [การใช้งานการลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) ในแผน Dynamics 365 การนำออกใช้ 2020 เวฟ 2
+   - [ดูปฏิทินการลางานของทีมของคุณ](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) ในคู่มือ Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน (477004)
 
@@ -97,7 +98,7 @@ ms.locfileid: "8061584"
 
 คุณลักษณะนี้จะส่งเสริมตัวเลือกลำดับงานที่จะปรากฏในแบบฟอร์มการดำเนินการด้านบุคลากร ตัวเลือกลำดับงานจะปรากฎในแท็บด่วนการดำเนินการเพื่อให้สามารถเข้าถึงได้อย่างรวดเร็ว สำหรับข้อมูลเพิ่มเติม ให้ดูที่  
 
-- [การปรับปรุงประสบการณ์การใช้งานลำดับงานการจัดการองค์กรและบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) ในแผน Dynamics 365 2020 การนำออกใช้เวฟ 2
+- [การปรับปรุงประสบการณ์การใช้งานลำดับงานการจัดการองค์กรและบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) ในแผน Dynamics 365 2020 การนำออกใช้เวฟ 2
 
 ![รายการงานที่กำหนดให้กับฉัน](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -105,13 +106,13 @@ ms.locfileid: "8061584"
 
 ### <a name="leave-and-absence-calendar"></a>ปฏิทินการลางานและการขาดงาน
 
-การนำออกใช้นี้มีตัวเลือกปฏิทินเพิ่มเติมสำหรับปฏิทินการลางานและการขาดงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ดูทีมงานและปฏิทินของบริษัท](./hr-employee-self-service-calendar.md)
+การนำออกใช้นี้มีตัวเลือกปฏิทินเพิ่มเติมสำหรับปฏิทินการลางานและการขาดงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ดูทีมงานและปฏิทินของบริษัท](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar)
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-### <a name="checklist-entities-included-in-dataverse"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Dataverse
+### <a name="checklist-entities-included-in-common-data-service"></a>เอนทิตีรายการตรวจสอบที่รวมอยู่ใน Common Data Service
 
-เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Dataverse
+เอนทิตีรายการตรวจสอบสำหรับการเตรียมความพร้อม ปัจฉิมนิเทศ การโอนย้าย และกระบวนการทางธุรกิจ จะพร้อมใช้งานเร็วๆ นี้ใน Common Data Service
 
 ### <a name="benefits-management-reason-codes"></a>รหัสเหตุผลของการจัดการสวัสดิการ
 
@@ -119,10 +120,7 @@ ms.locfileid: "8061584"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

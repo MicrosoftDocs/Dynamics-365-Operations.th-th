@@ -1,33 +1,31 @@
 ---
 title: พัฒนาโครงสร้างค่าตอบแทน
-description: หัวข้อนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม
-author: twheeloc
-ms.date: 08/25/2021
+description: บทความนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065297"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420792"
 ---
 # <a name="develop-a-compensation-structure"></a>พัฒนาโครงสร้างค่าตอบแทน
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-หัวข้อนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม หัวข้อนี้ใช้ข้อมูลสาธิต USMF และใช้กับผู้จัดการฝ่ายผลตอบแทนและสวัสดิการ
+บทความนี้นำไปสู่กระบวนการในการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม บทความนี้ใช้ข้อมูลสาธิต USMF และใช้กับผู้จัดการฝ่ายผลตอบแทนและสวัสดิการ
 
 ## <a name="create-a-fixed-compensation-plan"></a>สร้างแผนค่าตอบแทนคงที่
 
@@ -45,7 +43,7 @@ ms.locfileid: "8065297"
 
 7. ในฟิลด์ **ชนิด** ให้เลือกว่าแผนค่าตอบแทนคงที่เป็นแผน **แถบ** **ระดับ** หรือ **ลำดับขั้น**
 
-8. กล่องกาเครื่องหมาย **อนุญาตคำแนะนำแล้ว** จะเป็นค่าเริ่มต้นสำหรับการดำเนินการใดๆ ที่เพิ่มเข้าไปในแผนนี้ในเหตุการณ์ของกระบวนการ คำแนะนำที่ได้อนุญาตทำให้คุณสามารถแทนที่ยอดเงินตามผลงานที่คำนวณได้ เมื่อมีการประมวลผลค่าตอบแทน
+8. กล่องกาเครื่องหมาย **อนุญาตคำแนะนำแล้ว** ทำหน้าที่เป็นค่าเริ่มต้นสำหรับการดำเนินการใดๆ ที่เพิ่มเข้าไปในแผนนี้ในเหตุการณ์ของกระบวนการ คำแนะนำที่ได้อนุญาตทำให้คุณสามารถแทนที่ยอดเงินตามผลงานที่คำนวณได้ เมื่อมีการประมวลผลค่าตอบแทน
 
 9. ฟิลด์ **การยอมรับการอยู่นอกช่วง** ช่วยให้คุณสามารถระบุวิธีที่คุณต้องการจัดการกับยอดเงินค่าตอบแทนที่อยู่นอกช่วงโครงสร้างค่าตอบแทนที่ระบุไว้สำหรับระดับที่ระบุ การตั้งค่าฟิลด์ **การยอมรับการอยู่นอกช่วง** เป็น **ไม่** ช่วยให้คุณสามารถใช้ยอดเงินค่าตอบแทนใดๆ ได้ **ค่าเผื่อแบบผ่อนปรน** จะแจ้งเตือนผู้ใช้ ถ้ายอดเงินค่าตอบแทนน้อยกว่าปริมาณขั้นต่ำหรือมากกว่าปริมาณสูงสุดของจุดอ้างอิงสำหรับระดับนั้น ผู้ใช้สามารถละเว้นคำเตือนและดำเนินการต่อได้ **ค่าเผื่อแบบเข้มขวด** จะสร้างข้อผิดพลาด ถ้าค่าตอบแทนของพนักงานอยู่นอกเหนือจุดอ้างอิงระดับต่ำสุดและสูงสุดสำหรับระดับนั้น และจะปรับค่าตอบแทนของพนักงานให้อยู่ภายในช่วงโดยอัตโนมัติ
 
@@ -115,6 +113,3 @@ ms.locfileid: "8065297"
 
 8. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

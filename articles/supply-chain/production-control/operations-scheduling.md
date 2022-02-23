@@ -1,10 +1,12 @@
 ---
 title: การจัดตารางการผลิตระดับการดำเนินงาน
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการจัดตารางการผลิตระดับการดำเนินงาน คุณสามารถใช้การจัดตารางการผลิตระดับการดำเนินงานเพื่อให้การประเมินโดยทั่วไปของกระบวนการผลิตตามช่วงเวลา
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574580"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966416"
 ---
 # <a name="operations-scheduling"></a>การจัดตารางการผลิตระดับการดำเนินงาน
 
@@ -74,12 +76,10 @@ ms.locfileid: "7574580"
 ## <a name="finite-materials"></a>finite material / วัตถุดิบมีจำกัด
 ถ้าคุณกำลังทำงานกับวัตถุดิบมีจำกัด การจัดกำหนดการยังขึ้นอยู่กับความพร้อมใช้งานของวัสดุที่จำเป็นสำหรับการผลิต ถ้ามีส่วนประกอบที่พร้อมใช้งานไม่เพียงพอสำหรับการผลิต การผลิตอาจล่าช้าได้ คุณสามารถสร้างการจัดกำหนดการการใช้วัสดุได้โดยการระบุวัสดุที่ต้องพร้อมใช้งานสำหรับการผลิต เมื่อคุณปรับทั้งกำลังการผลิตของทรัพยากรและความพร้อมใช้งานของวัสดุให้เหมาะสมแล้ว การผลิตจะถูกคำนวณตามข้อจำกัดเหล่านี้ ไม่สามารถจัดกำหนดการใบสั่งผลิตให้เริ่มต้นได้จนกว่ากำลังการผลิตและวัสดุจะพร้อมใช้งานในเวลาเดียวกันและในปริมาณที่กำหนด
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ตัวเลือกการจัดตารางการผลิตระดับการดำเนินงาน](operation-scheduling-options.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

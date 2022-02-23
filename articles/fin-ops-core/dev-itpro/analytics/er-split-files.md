@@ -2,9 +2,11 @@
 title: แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการแบ่งไฟล์ที่สร้างตามขนาดไฟล์และปริมาณสินค้าในเนื้อหา
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3735bcb06eff966fc364a891b38d44e34e845e35f59314822d13eba40d51d5f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769983"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682882"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>แบ่งไฟล์ XML ที่สร้างตามขนาดไฟล์และปริมาณเนื้อหา
 
@@ -38,13 +40,10 @@ ms.locfileid: "6769983"
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะนี้ เล่นคู่มืองาน **ER แบ่งไฟล์ XML ตามขนาดไฟล์หรือปริมาณรายการเนื้อหา** ซึ่งเป็นส่วนหนึ่งของกระบวนการทางธุรกิจ **7.5.4.3 จัดหา/พัฒนาส่วนประกอบของบริการ/โซลูชันด้านไอที (10677)** และคุณสามารถดาวน์โหลดได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=874684) คู่มืองานนี้จะแนะนำคุณตลอดกระบวนการตั้งค่าคอนฟิกรูปแบบ ER ที่จะแบ่งไฟล์ที่สร้างตามขีดจำกัดในขนาดไฟล์และปริมาณสินค้าเนื้อหา เพื่อดำเนินการคู่มืองานให้เสร็จสมบูรณ์ คุณต้องดาวน์โหลดไฟล์ต่อไปนี้:
 
-- [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER - XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
-- [การตั้งค่าคอนฟิกรูปแบบ ER - XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
+- [การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [การตั้งค่าคอนฟิกรูปแบบ ER - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
 
 [โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

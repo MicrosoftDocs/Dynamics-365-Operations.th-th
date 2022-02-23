@@ -1,10 +1,12 @@
 ---
 title: แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
-description: หัวข้อนี้อธิบายวิธีการแม็ปองค์ประกอบรูปแบบข้อมูลกับส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น
+description: กระบวนงานต่อไปนี้แสดงวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถแม็ปองค์ประกอบแบบจำลองข้อมูลไปยังส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น ซึ่งจะกำหนดรูปแบบเอกสารอิเล็กทรอนิกส์สำหรับโดเมนธุรกิจการชำระเงิน
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae4b3123660d123fc5c06cbe0a69d5c66d306252ec2a117a1e6045505022f5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 109a6736196b6ed3d1445a9f1a70c5f2b9d5af58
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776011"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684342"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
 
@@ -111,6 +113,3 @@ ms.locfileid: "6776011"
 1. ขยายส่วนรหัสประเทศ/ภูมิภาค ISO
     * การเข้าถึงแต่ละรูปแบบสามารถถูกจำกัด โดยการระบุประเทศ/ภูมิภาคเฉพาะที่ซึ่งมีรูปแบบที่เกี่ยวข้อง เมื่อรายการของประเทศ/ภูมิภาคสำหรับรูปแบบเฉพาะว่างเปล่า รูปแบบนี้จะถูกใช้ในบริษัทใดๆ ก็ได้ เมื่อรหัส ISO ของประเทศ/ภูมิภาคถูกแทรกเข้าไปในรายการของประเทศ/ภูมิภาค รูปแบบดังกล่าวสามารถใช้ในบริษัทที่มีที่อยู่หลักในประเทศ/ภูมิภาคนั้นๆ เท่านั้น  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

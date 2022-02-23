@@ -1,10 +1,12 @@
 ---
 title: อนุมัติและยืนยันใบสั่งซื้อ
 description: หัวข้อนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อผ่านมา หลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570548"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018457"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>อนุมัติและยืนยันใบสั่งซื้อ
 
@@ -83,7 +85,8 @@ PO ที่มีสถานะการอนุมัติเป็น **�
 
 ถ้า PO อยู่ระหว่างการจัดการการเปลี่ยนแปลง การเปลี่ยนแปลงใดๆ เช่น การยกเลิกใบสั่ง หรือยอดคงเหลือของการจัดส่ง ต้องถูกส่งไปยังระบบลำดับงานและได้รับการอนุมัติก่อน จึงจะสามารถดำเนินการให้เสร็จสมบูรณ์และมีการอัพเดตธุรกรรมสินค้าคงคลังเป็นยกเลิกแล้ว
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [ภาพรวมใบสั่งซื้อ](purchase-order-overview.md)
 
@@ -95,6 +98,3 @@ PO ที่มีสถานะการอนุมัติเป็น **�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

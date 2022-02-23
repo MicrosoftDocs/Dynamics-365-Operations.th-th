@@ -1,37 +1,35 @@
 ---
-title: ตั้งค่าคอนฟิกการรวมกับ Finance
-description: หัวข้อนี้อธิบายการรวมระหว่าง Dynamics 365 Human Resources และ Dynamics 365 Finance
-author: twheeloc
-ms.date: 08/19/2021
+title: ตั้งค่าคอนฟิกการรวมกับการเงิน
+description: บทความนี้อธิบายถึงฟังก์ชันที่พร้อมใช้งานสำหรับการรวมจาก Dynamics 365 Human Resources และ Dynamics 365 Finance
+author: andreabichsel
+manager: AnnBe
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065027"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527937"
 ---
 # <a name="configure-integration-with-finance"></a>ตั้งค่าคอนฟิกการรวมกับ Finance
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
-
-เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เทมเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) ได้ เทมเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เทมเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
+เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เท็มเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](https://docs.microsoft.com/powerapps/administrator/data-integrator) ได้ เท็มเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เท็มเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
 
 ![ทรัพยากรบุคคลไปยังโฟลว์การรวมทางการเงิน](./media/hr-admin-integration-finance-flow.png)
 
@@ -46,20 +44,20 @@ ms.locfileid: "8065027"
 
 โซลูชันการรวมจำเป็นต้องใช้ทรัพยากรบุคคลและการเงินรุ่นต่อไปนี้: 
 
-- Dynamics 365 Human Resources ใน Dataverse
+- Dynamics 365 Human Resources ใน Common Data Service
 - Dynamics 365 Finance รุ่น 7.2 และรุ่นที่ใหม่กว่า
 
-## <a name="template-and-tasks"></a>เทมเพลตและงาน
+## <a name="template-and-tasks"></a>เท็มเพลตและงาน
 
-เพื่อเข้าถึงเทมเพลต Human Resources ไปยัง Finance
+เพื่อเข้าถึงเท็มเพลต Human Resources ไปยัง Finance
 
 1. เปิด [Power Apps ศูนย์การจัดการ](https://admin.powerapps.com/) 
 
 2. เลือก **โครงการ** แล้วเลือก **โครงการใหม่** ในมุมด้านขวาบน สร้างโครงการใหม่สำหรับนิติบุคคลแต่ละรายที่คุณต้องการรวมเข้าไปใน Finance
 
-3. เลือก **Human Resources (Human Resources Dataverse ไปยัง Finance**) เพื่อซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance
+3. เลือก **Human Resources (Human Resources Common Data Service ไปยัง Finance**) เพื่อซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance
 
-เทมเพลตใช้งานพื้นฐานต่อไปนี้ในการซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance:
+เท็มเพลตใช้งานพื้นฐานต่อไปนี้ในการซิงโครไนส์เรกคอร์ดจาก Human Resources ไปยัง Finance:
 
 - **ฟังก์ชันงานสำหรับฟังก์ชันงานค่าตอบแทน**
 - **แผนกไปยังหน่วยปฏิบัติงาน**
@@ -77,20 +75,20 @@ ms.locfileid: "8065027"
 - **การมอบหมายผู้ปฏิบัติงานของตำแหน่งไปยังการมอบหมายผู้ปฏิบัติงานของตำแหน่ง**
 - **ที่อยู่ของผู้ปฏิบัติงานไปยังที่อยู่ทางไปรษณีย์ของผู้ปฏิบัติงาน V2**
 
-## <a name="template-mappings"></a>การแมปเทมเพลต
+## <a name="template-mappings"></a>การแม็ปเท็มเพลต
 
-ในตารางการแมปเทมเพลตต่อไปนี้ ชื่อของงานจะมีเอนทิตี้ที่ใช้ในแอปพลิเคชันแต่ละรายการ ต้นทาง (Human Resources) อยู่ทางด้านซ้าย และปลายทาง (Finance) อยู่ทางด้านขวา
+ในตารางการแม็ปเท็มเพลตต่อไปนี้ ชื่อของงานจะมีเอนทิตี้ที่ใช้ในแอพลิเคชันแต่ละรายการ ต้นทาง (Human Resources) อยู่ทางด้านซ้าย และปลายทาง (Finance) อยู่ทางด้านขวา
 
 ### <a name="job-functions-to-compensation-job-function"></a>ฟังก์ชันงานสำหรับฟังก์ชันงานค่าตอบแทน
 
-| ตาราง Dataverse (แหล่งที่มา) | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (ชื่อฟังก์ชัน cdm_Job)  | JOBFUNCTIONID (JOBFUNCTIONID)            |
 | cdm_description (cdm_description) | คำอธิบาย (คำอธิบาย)                 |
 
 ### <a name="departments-to-operating-unit"></a>แผนกไปยังหน่วยปฏิบัติงาน
 
-| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | ชื่อ (ชื่อ)                                 |
 | cdm_departmentnumber (cdm_departmentnumber) | OPERATINGUNITNUMBER (OPERATINGUNITNUMBER) |
@@ -99,7 +97,7 @@ ms.locfileid: "8065027"
 
 ### <a name="job-types-to-compensation-job-type"></a>ชนิดงานไปยังชนิดงานค่าตอบแทน
 
-| ตาราง Dataverse (แหล่งที่มา)   | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service   | เอนทิตี้ Finance (ปลายทาง) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID (JOBTYPEID)                     |
 | cdm_description (cdm_description)   | คำอธิบาย (คำอธิบาย)                 |
@@ -107,7 +105,7 @@ ms.locfileid: "8065027"
 
 ### <a name="jobs-to-jobs"></a>งานไปยังงาน
 
-| ตาราง Dataverse (แหล่งที่มา)                           | เอนทิตี้ Finance (ปลายทาง)           |
+| เอนทิตี (แหล่งที่มา) Common Data Service                           | เอนทิตี้ Finance (ปลายทาง)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -117,7 +115,7 @@ ms.locfileid: "8065027"
 
 ### <a name="jobs-to-job-detail"></a>งานไปยังรายละเอียดงาน
 
-| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid cdm_name (ชนิดงาน (ชื่อชนิดงาน))             | JOBTYPEID (JOBTYPEID)                     |
@@ -128,7 +126,7 @@ ms.locfileid: "8065027"
 
 ### <a name="position-types-to-position-type"></a>ชนิดของตำแหน่งไปยังชนิดของตำแหน่ง
 
-| ตาราง Dataverse (แหล่งที่มา)       | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service       | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID (POSITIONTYPEID)           |
 | cdm_description (cdm_description)       | คำอธิบาย (คำอธิบาย)                 |
@@ -136,13 +134,13 @@ ms.locfileid: "8065027"
 
 ### <a name="job-positions-to-base-position"></a>ตำแหน่งงานไปยังตำแหน่งฐาน
 
-| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>ตำแหน่งงานไปยังรายละเอียดตำแหน่ง
 
-| ตาราง Dataverse (แหล่งที่มา)              | เอนทิตี้ Finance (ปลายทาง)       |
+| เอนทิตี (แหล่งที่มา) Common Data Service              | เอนทิตี้ Finance (ปลายทาง)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name (งาน (ชื่อ))                                        | JOBID (JOBID)                                    |
@@ -156,7 +154,7 @@ ms.locfileid: "8065027"
 
 ### <a name="job-positions-to-position-durations"></a>ตำแหน่งงานไปยังช่วงเวลาของตำแหน่ง
 
-| ตาราง Dataverse (แหล่งที่มา)             | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service             | เอนทิตี้ Finance (ปลายทาง) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)   | POSITIONID (POSITIONID)                      |
 | การเรียกใช้ที่คำนวณได้ (การเรียกใช้ที่คำนวณได้) | VALIDFROM (VALIDFROM)                        |
@@ -164,7 +162,7 @@ ms.locfileid: "8065027"
 
 ### <a name="job-positions-to-position-hierarchies"></a>ตำแหน่งงานไปยังลำดับชั้นของตำแหน่ง
 
-| ตาราง Dataverse (แหล่งที่มา)        | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service        | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                                                 | POSITIONID (POSITIONID)                      |
 | cdm_parentjobpositionid cdmjobpositionnumber (cdm_parentjobpositionid cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -174,7 +172,7 @@ ms.locfileid: "8065027"
 
 
 ### <a name="workers-to-worker"></a>ผู้ปฏิบัติงานไปยังผู้ปฏิบัติงาน
-| ตาราง Dataverse (แหล่งที่มา)           | เอนทิตี้ Finance (ปลายทาง)       |
+| เอนทิตี (แหล่งที่มา) Common Data Service           | เอนทิตี้ Finance (ปลายทาง)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate (cdm_birthdate)               | BIRTHDATE (BIRTHDATE)                           |
 | cdm_gender (cdm_gender)                     | เพศ (เพศ)                                   |
@@ -193,7 +191,7 @@ ms.locfileid: "8065027"
 
 ### <a name="employments-to-employment"></a>การจ้างงานไปยังการจ้างงาน
 
-| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง) |
+| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE (EMPLOYMENTSTARTDATE) |
 | cdm_employmentstartdate (cdm_employmentstartdate)                 | EMPLOYMENTENDDATE (EMPLOYMENTENDDATE)     |
@@ -203,7 +201,7 @@ ms.locfileid: "8065027"
 
 ### <a name="employments-to-employment-detail"></a>การจ้างงานไปยังรายละเอียดการจ้างงาน
 
-| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
+| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentstartdate (cdm_employmentstartdate)                 | EMPLOYMENTENDDATE (EMPLOYMENTENDDATE)       |
@@ -221,7 +219,7 @@ ms.locfileid: "8065027"
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>การมอบหมายผู้ปฏิบัติงานของตำแหน่งไปยังการมอบหมายผู้ปฏิบัติงานของตำแหน่ง
 
-| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
+| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber (หมายเลขตำแหน่งงาน)                   | POSITIONID (POSITIONID)                        |
@@ -230,7 +228,7 @@ ms.locfileid: "8065027"
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>ที่อยู่ของผู้ปฏิบัติงานไปยังที่อยู่ทางไปรษณีย์ของผู้ปฏิบัติงาน V2
 
-| ตาราง Dataverse (แหล่งที่มา)                             | เอนทิตี้ Finance (ปลายทาง)   |
+| เอนทิตี (แหล่งที่มา) Common Data Service                             | เอนทิตี้ Finance (ปลายทาง)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER (PERSONNELNUMBER)           |
 | cdm_addresstype (cdm_addresstype)                             | ADDRESSLOCATIONROLES (ADDRESSLOCATIONROLES) |
@@ -250,12 +248,10 @@ ms.locfileid: "8065027"
 
 ปัญหานี้อาจเกิดขึ้นได้กับ **ผู้ปฏิบัติงาน** ซึ่งจะใช้ **หมายเลขบุคลากร** เพื่อทำการจับคู่ และ **ตำแหน่งงาน** งานไม่ได้ใช้ลำดับหมายเลข ด้วยเหตุนี้ ถ้ารหัสงานเดียวกันมีอยู่ในทั้ง Human Resources และ Finance ข้อมูล Human Resources จะเขียนทับข้อมูล Dynamics 365 Finance 
 
-เมื่อต้องการป้องกันไม่ให้เกิดปัญหากับรหัสที่ซ้ำกัน คุณสามารถเพิ่มคำนำหน้าบน [ลำดับหมายเลข](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) หรือตั้งค่าหมายเลขเริ่มต้นบนลำดับหมายเลขที่อยู่นอกช่วงของระบบอื่นได้ 
+เมื่อต้องการป้องกันไม่ให้เกิดปัญหากับรหัสที่ซ้ำกัน คุณสามารถเพิ่มคำนำหน้าบน [ลำดับหมายเลข](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) หรือตั้งค่าหมายเลขเริ่มต้นบนลำดับหมายเลขที่อยู่นอกช่วงของระบบอื่นได้ 
 
 รหัสที่ตั้งที่ใช้สำหรับที่อยู่ของผู้ปฏิบัติงานไม่ได้เป็นส่วนหนึ่งของลำดับหมายเลข เมื่อรวมที่อยู่ของผู้ปฏิบัติงานจากทรัพยากรบุคคลไปยังการเงิน ถ้าที่อยู่ของผู้ปฏิบัติงานมีอยู่แล้วในการเงินคุณ อาจมีการสร้างเรกคอร์ดที่อยู่ที่ซ้ำกัน 
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปเทมเพลตในตัวรวมข้อมูล 
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในตัวรวมข้อมูล 
 
-![การแมปเทมเพลต](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![การแม็ปเท็มเพลต](./media/IntegrationMapping.png)

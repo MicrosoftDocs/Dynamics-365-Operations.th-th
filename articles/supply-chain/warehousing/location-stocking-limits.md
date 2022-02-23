@@ -2,23 +2,26 @@
 title: ขีดจำกัดการเก็บสต็อกในสถานที่
 description: หัวข้อนี้จะอธิบายถึงฟังก์ชันสำหรับขีดจำกัดการเก็บสต็อกของสถานที่เก็บ
 author: perlynne
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
+ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714173"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "4607290"
 ---
 # <a name="location-stocking-limits"></a>ขีดจำกัดการเก็บสต็อกในสถานที่
 
@@ -81,7 +84,7 @@ ms.locfileid: "6714173"
 
 อย่างแรกคุณจะได้รับปริมาณของ *4* ของหน่วย *PL* ในขนาด *S* และตรวจสอบที่ตั้งของรายการที่วางสำหรับงานที่สร้างขึ้น คุณจะได้รับปริมาณของ *4* ของหน่วย *PL* ในขนาด *L* และตรวจสอบที่ตั้งของรายการที่วางสำหรับงานที่สร้างขึ้น
 
-1. ในแอปการจัดการคลังสินค้าบนมือถือ ให้ลงชื่อเข้าใช้โดยใช้ *24* เป็นรหัสผู้ใช้ และ *1* เป็นรหัสผ่าน
+1. ในแอปคลังสินค้า ให้ลงชื่อเข้าใช้โดยใช้ *24* เป็นรหัสผู้ใช้ และ *1* เป็นรหัสผ่าน
 1. เลือก **ขาเข้า** \> **รับการซื้อ**
 1. รับ *4* *PL* หมายเลขสินค้า *D0013* ในขนาด *S*
 1. ตรวจทานงานการสำรองที่สร้างขึ้น คุณควรเห็นผลลัพธ์ต่อไปนี้:
@@ -101,6 +104,3 @@ ms.locfileid: "6714173"
 
 > [!NOTE]
 > คุณไม่สามารถใช้ขีดจำกัดการเก็บสต็อกในสถานที่ในการควบคุม ตัวอย่างเช่น การเติมสินค้าที่มีปริมาณที่แตกต่างกันในสถานที่เดียวกัน ในกรณีนี้ ให้ใช้ *แม่แบบการเติมสินค้า*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

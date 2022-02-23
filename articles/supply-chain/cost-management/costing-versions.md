@@ -1,26 +1,31 @@
 ---
-# required metadata
 title: ภาพรวมของรุ่นการคิดต้นทุน
 description: บทความนี้แสดงข้อมูลเกี่ยวกับเวอร์ชันการคิดต้นทุน วิธีการรักษา และชนิดของข้อมูลที่คุณสามารถรวมไว้ วัตถุประสงค์หลักของเวอร์ชันการคำนวณต้นทุนคือเพื่อจัดเก็บเรกคอร์ดต้นทุนที่เกี่ยวกับสินค้า ประเภทของต้นทุน และสูตรการคำนวณต้นทุนทางอ้อม
 author: AndersGirke
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'BOMCalcDialog, BOMCalcTable, CostingVersion'
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-  - '54532'
-  - intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 54532
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
-ms.search.validFrom: '2016-02-28'
+ms.author: kamaybac
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438772"
 ---
-
 # <a name="costing-versions-overview"></a>ภาพรวมของรุ่นการคิดต้นทุน
 
 [!include [banner](../includes/banner.md)]
@@ -63,6 +68,3 @@ ms.dyn365.ops.version: AX 7.0.0
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

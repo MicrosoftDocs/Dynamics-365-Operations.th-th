@@ -1,27 +1,31 @@
 ---
 title: การสอบถามและรายงานเกี่ยวกับวัตถุอันตราย
 description: หัวข้อนี้อธิบายถึงวิธีการทำงานกับรายงานต่างๆ ที่เกี่ยวข้องกับวัตถุอันตราย รายงานจำนวนมากเหล่านี้มีความจำเป็นเพื่อให้คุณยังคงมีปฏิบัติตามกฎระเบียบเกี่ยวกับวัตถุอันตรายต่างๆ ระหว่างการจัดส่งและการจัดเก็บ
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568554"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438519"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>การสอบถามและรายงานเกี่ยวกับวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management จัดทำรายงานต่างๆ ที่เกี่ยวข้องกับวัตถุอันตราย รายงานจำนวนมากเหล่านี้มีความจำเป็นเพื่อให้คุณยังคงมีปฏิบัติตามกฎระเบียบเกี่ยวกับวัตถุอันตรายต่างๆ ระหว่างการจัดส่งและการจัดเก็บ
 
@@ -106,6 +110,3 @@ Microsoft Dynamics 365 Supply Chain Management จัดทำรายงาน
 ## <a name="packing-list-report"></a>รายงานรายการบรรจุสินค้า
 
 เมื่อมีการเปิดใช้งานคุณลักษณะวัตถุอันตรายในระบบของคุณ รายการบรรจุสินค้ามีข้อมูลเพิ่มเติมที่เกี่ยวข้องกับข้อความที่พิมพ์สำหรับการจัดส่งของสินค้า รายงานนี้สามารถใช้งานได้จากหน้า **การบรรทุกทั้งหมด** ตามปกติ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

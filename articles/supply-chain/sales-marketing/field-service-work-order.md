@@ -1,46 +1,49 @@
 ---
 title: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
-description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
-author: Henrikan
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061320"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528934"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบสั่งงานใน Dynamics 365 Field Service ไปยังใบสั่งขายใน Dynamics 365 Supply Chain Management ตรงกัน
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบสั่งงานใน Dynamics 365 Field Service ไปยังใบสั่งขายใน Dynamics 365 Supply Chain Management ตรงกัน
 
 [![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Supply Chain Management และ Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
-## <a name="templates-and-tasks"></a>เทมเพลตและงาน
+## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
 
-เทมเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการเรียกใช้การซิงโครไนส์ของใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
+เท็มเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการรันการซิงโครไนส์ของใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
 
-### <a name="names-of-the-templates-in-data-integration"></a>ชื่อของเทมเพลตในการรวมข้อมูล
+### <a name="names-of-the-templates-in-data-integration"></a>ชื่อของเท็มเพลตในการรวมข้อมูล
 
-เทมเพลต **ใบสั่งงานของใบสั่งขาย (Field Service ที่ส่งไป Supply Chain Management)** จะถูกใช้ในการเรียกใช้การซิงโครไนส์
+เท็มเพลต **ใบสั่งงานของใบสั่งขาย (Field Service ที่ส่งไป Supply Chain Management)** จะถูกใช้ในการรันการซิงโครไนส์
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>ชื่อของงานในโครงการการรวมข้อมูล
 
@@ -59,13 +62,13 @@ ms.locfileid: "8061320"
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Dataverse ส่วนหัวของใบสั่งขาย |
-| msdyn_workorderservices | Dataverse รายการในใบสั่งขาย   |
-| msdyn_workorderproducts | Dataverse รายการในใบสั่งขาย   |
+| msdyn_workorders        | ส่วนหัวของใบสั่งขาย CDS |
+| msdyn_workorderservices | รายการในใบสั่งขาย CDS   |
+| msdyn_workorderproducts | รายการในใบสั่งขาย CDS   |
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-มีการสร้างใบสั่งงานใน Field Service ถ้าใบสั่งงานรวมเฉพาะผลิตภัณฑ์ที่ถูกเก็บรักษาโดยภายนอก และถ้าค่า **Work order status** แตกต่างจาก **ไม่ได้จัดกำหนดการแบบเปิด**  และ **ปิด – ยกเลิก** ใบสั่งงานสามารถซิงโครไนส์ไปยัง Supply Chain Management ได้โดย ผ่านทางโครงการรวมข้อมูล Microsoft Dataverse การอัปเดตใบสั่งงานจะถูกซิงโครไนส์เป็นใบสั่งขายใน Supply Chain Management การอัปเดตเหล่านี้ประกอบด้วย ข้อมูลเกี่ยวกับชนิดจุดเริ่มต้นและสถานะ
+มีการสร้างใบสั่งงานใน Field Service ถ้าใบสั่งงานรวมเฉพาะผลิตภัณฑ์ที่ถูกเก็บรักษาโดยภายนอก และถ้าค่า **Work order status** แตกต่างจาก **ไม่ได้จัดกำหนดการแบบเปิด**  และ **ปิด – ยกเลิก** ใบสั่งงานสามารถซิงโครไนส์ไปยัง Supply Chain Management ได้โดย ผ่านทางโครงการรวมข้อมูล Common Data Service การอัพเดตใบสั่งงานจะถูกซิงโครไนส์เป็นใบสั่งขายใน Supply Chain Management การอัพเดตเหล่านี้ประกอบด้วย ข้อมูลเกี่ยวกับชนิดจุดเริ่มต้นและสถานะ
 
 ## <a name="estimated-versus-used"></a>ที่ประเมิน เทียบกับ ที่ใช้
 
@@ -88,21 +91,21 @@ ms.locfileid: "8061320"
 | สถานะของระบบ <br>(Field Service) | สถานะของรายการ <br>(Field Service) | ที่ปันส่วน <br>(Field Service) |ค่าที่ซิงโครไนส์ <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | เปิด - จัดกำหนดการแล้ว   | ประเมิน   | ใช่       | ประเมิน                       |
-| เปิด - จัดกำหนดการแล้ว   | ประเมิน   | ไม่        | ใช้แล้ว                            |
+| เปิด - จัดกำหนดการแล้ว   | ประเมิน   | หมายเลข        | ใช้แล้ว                            |
 | เปิด - จัดกำหนดการแล้ว   | ใช้แล้ว        | ใช่       | ใช้แล้ว                            |
-| เปิด - จัดกำหนดการแล้ว   | ใช้แล้ว        | ไม่        | ใช้แล้ว                            |
+| เปิด - จัดกำหนดการแล้ว   | ใช้แล้ว        | หมายเลข        | ใช้แล้ว                            |
 | เปิด - กำลังดำเนินการ | ประเมิน   | ใช่       | ประเมิน                       |
-| เปิด - กำลังดำเนินการ | ประเมิน   | ไม่        | ใช้แล้ว                            |
+| เปิด - กำลังดำเนินการ | ประเมิน   | หมายเลข        | ใช้แล้ว                            |
 | เปิด - กำลังดำเนินการ | ใช้แล้ว        | ใช่       | ใช้แล้ว                            |
-| เปิด - กำลังดำเนินการ | ใช้แล้ว        | ไม่        | ใช้แล้ว                            |
+| เปิด - กำลังดำเนินการ | ใช้แล้ว        | หมายเลข        | ใช้แล้ว                            |
 | เปิด - เสร็จสมบูรณ์   | ประเมิน   | ใช่       | ประเมิน                       |
-| เปิด - เสร็จสมบูรณ์   | ประเมิน   | ไม่        | ใช้แล้ว                            |
+| เปิด - เสร็จสมบูรณ์   | ประเมิน   | หมายเลข        | ใช้แล้ว                            |
 | เปิด - เสร็จสมบูรณ์   | ใช้แล้ว        | ใช่       | ใช้แล้ว                            |
-| เปิด - เสร็จสมบูรณ์   | ใช้แล้ว        | ไม่        | ใช้แล้ว                            |
+| เปิด - เสร็จสมบูรณ์   | ใช้แล้ว        | หมายเลข        | ใช้แล้ว                            |
 | ปิดแล้ว - ลงรายการบัญชีแล้ว    | ประเมิน   | ใช่       | ใช้แล้ว                            |
-| ปิดแล้ว - ลงรายการบัญชีแล้ว    | ประเมิน   | ไม่        | ใช้แล้ว                            |
+| ปิดแล้ว - ลงรายการบัญชีแล้ว    | ประเมิน   | หมายเลข        | ใช้แล้ว                            |
 | ปิดแล้ว - ลงรายการบัญชีแล้ว    | ใช้แล้ว        | ใช่       | ใช้แล้ว                            |
-| ปิดแล้ว - ลงรายการบัญชีแล้ว    | ใช้แล้ว        | ไม่        | ใช้แล้ว                            |
+| ปิดแล้ว - ลงรายการบัญชีแล้ว    | ใช้แล้ว        | หมายเลข        | ใช้แล้ว                            |
 
 ตารางต่อไปนี้แสดงภาพรวมของชุดต่างๆ สำหรับรายการบริการ
 
@@ -117,7 +120,7 @@ ms.locfileid: "8061320"
 | ปิดแล้ว - ลงรายการบัญชีแล้ว    | ประเมิน   | ใช้แล้ว      |
 | ปิดแล้ว - ลงรายการบัญชีแล้ว    | ใช้แล้ว        | ใช้แล้ว      |
 
-การซิงโครไนส์ของค่า **โดยประมาณ** เทียบกับค่า **ที่ใช้** ถูกจัดการโดยชุดงานสองชุดสำหรับรายการผลิตภัณฑ์และรายการบริการ ตัวกรองที่กำหนดไว้ล่วงหน้าทริกเกอร์งานที่ถูกต้อง และการแมปพื้นฐานช่วยรับประกันว่าค่าที่ถูกต้องสำหรับ **ที่คาดไว้** เทียบกับ **ที่ใช้** จะถูกซิงโครไนส์
+การซิงโครไนส์ของค่า **โดยประมาณ** เทียบกับค่า **ที่ใช้** ถูกจัดการโดยชุดงานสองชุดสำหรับรายการผลิตภัณฑ์และรายการบริการ ตัวกรองที่กำหนดไว้ล่วงหน้าทริกเกอร์งานที่ถูกต้อง และการแม็ปพื้นฐานช่วยรับประกันว่าค่าที่ถูกต้องสำหรับ **ที่คาดไว้** เทียบกับ **ที่ใช้** จะถูกซิงโครไนส์
 
 ### <a name="example"></a>ตัวอย่าง
 
@@ -163,9 +166,9 @@ ms.locfileid: "8061320"
 
 ในการติดตามใบสั่งขายที่เริ่มต้นจากใบสั่งงาน คุณสามารถสร้างจุดเริ่มต้นการขายที่ตัวเลือก **การกำหนดชนิดจุดเริ่มต้น** ถูกตั้งค่าเป็น **ใช่** และฟิลด์ **ชนิดจุดเริ่มต้นการขาย** ถูกตั้งค่าเป็น **การรวมใบสั่งงาน**
 
-โดยค่าเริ่มต้น การแมปเลือกจุดเริ่มต้นการขายสำหรับชนิดจุดเริ่มต้นการขาย **การรวมใบสั่งงาน** สำหรับใบสั่งขายทั้งหมดที่สร้างขึ้นจากใบสั่งงาน ลักษณะการทำงานนี้จะมีประโยชน์เมื่อคุณจัดการใบสั่งขายใน Supply Chain Management คุณต้องแน่ใจว่า ใบสั่งขายที่มีต้นกำเนิดมาจากใบสั่งงานไม่ได้ถูกซิงโครไนส์กลับไปยัง Field Service เป็นใบสั่งงาน
+โดยค่าเริ่มต้น การแม็ปเลือกจุดเริ่มต้นการขายสำหรับชนิดจุดเริ่มต้นการขาย **การรวมใบสั่งงาน** สำหรับใบสั่งขายทั้งหมดที่สร้างขึ้นจากใบสั่งงาน ลักษณะการทำงานนี้จะมีประโยชน์เมื่อคุณจัดการใบสั่งขายใน Supply Chain Management คุณต้องแน่ใจว่า ใบสั่งขายที่มีต้นกำเนิดมาจากใบสั่งงานไม่ได้ถูกซิงโครไนส์กลับไปยัง Field Service เป็นใบสั่งงาน
 
-สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างการตั้งค่าจุดเริ่มต้นการขายที่ถูกต้องใน Supply Chain Management ดูส่วน "เงื่อนไขเบื้องต้นและการตั้งค่าการแมป" ของหัวข้อนี้
+สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างการตั้งค่าจุดเริ่มต้นการขายที่ถูกต้องใน Supply Chain Management ดูส่วน "เงื่อนไขเบื้องต้นและการตั้งค่าการแม็ป" ของหัวข้อนี้
 
 ### <a name="status"></a>สถานะ
 
@@ -206,13 +209,13 @@ ms.locfileid: "8061320"
 - ฟิลด์ **ใบสั่งรายการภายนอก** คือ หมายเลขใบสั่งรายการค่าลบที่คำนวณได้ซึ่งสามารถใช้ในระบบภายนอก ที่ซึ่งรวมผลิตภัณฑ์ในใบสั่งงานและรายการบริการ ฟิลด์นี้เปิดใช้งานผลิตภัณฑ์ในใบสั่งงานที่ถูกแทรก เพื่อให้มีหมายเลขของรายการค่าบวก และบริการใบสั่งงานให้มีหมายเลขรายการเป็นค่าลบ ค่าของฟิลด์นี้ถูกคำนวณเป็นค่า **ใบสั่งรายการ** คูณค่าด้วย -1 ฟิลด์นี้ไม่ปรากฏใน UI
 - ค่าในฟิลด์ **ที่ใช้** ถูกรีเซ็ตเป็น **0** (ศูนย์) ถ้าค่า **สถานะของรายการ** ของบริการใบสั่งงานถูกเปลี่ยนจาก **ที่ใช้** เป็น **โดยประมาณ** ด้วยเหตุผลบางประการ การเปลี่ยนแปลงนี้ช่วยป้องกันไม่ให้สถานการณ์ที่ซึ่งปริมาณที่ใช้ที่ถูกป้อนโดยไม่ได้ตั้งใจ ถูกใช้สำหรับการซิงโครไนส์ เมื่อค่า **สถานะของรายการ** คือ **โดยประมาณ** และค่า **สถานะระบบส่วนหัว** เป็น **ปิดแล้ว – ลงรายการบัญชีแล้ว**
 
-## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแมป
+## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
 
 ก่อนที่คุณจะซิงโครไนส์ใบสั่งงาน คุณจำเป็นต้องปรับปรุงการตั้งค่าต่อไปนี้ในระบบ
 
 ### <a name="setup-in-field-service"></a>การตั้งค่าใน Field Service
 
-- ตรวจสอบให้แน่ใจว่า ชุดหมายเลขที่ใช้สำหรับใบสั่งงานใน Field Service ไม่ทับซ้อนกับลำดับหมายเลขที่ใช้สำหรับใบสั่งขายใน Supply Chain Management มิฉะนั้น ใบสั่งขายที่มีอยู่อาจได้รับการอัปเดตอย่างไม่ถูกต้องใน Field Service หรือ Supply Chain Management
+- ตรวจสอบให้แน่ใจว่า ชุดหมายเลขที่ใช้สำหรับใบสั่งงานใน Field Service ไม่ทับซ้อนกับลำดับหมายเลขที่ใช้สำหรับใบสั่งขายใน Supply Chain Management มิฉะนั้น ใบสั่งขายที่มีอยู่อาจได้รับการอัพเดตอย่างไม่ถูกต้องใน Field Service หรือ Supply Chain Management
 - ฟิลด์ **การสร้างใบแจ้งหนี้ของใบสั่งงาน** ต้องตั้งค่าเป็น **ไม่เคย** เนื่องจากการออกใบแจ้งหนี้จะดำเนินการโดย Supply Chain Management ไปยัง **Field Service** \> **การตั้งค่า** \> **การจัดการ** \> **การตั้งค่า Field Service** และตรวจสอบให้แน่ใจว่าฟิลด์ **การสร้างใบแจ้งหนี้ของใบสั่งงาน** ถูกตั้งค่าเป็น **ไม่เคย**
 
 ### <a name="setup-in-supply-chain-management"></a>การตั้งค่าใน Supply Chain Management
@@ -237,39 +240,36 @@ ms.locfileid: "8061320"
 4. เลือกแท็บ **คีย์การรวม**
 5. ค้นหา msdyn_workorders และตรวจสอบว่าคีย์ **msdyn_name (หมายเลขใบสั่งผลิต)** ถูกเพิ่ม ถ้าไม่แสดงขึ้น ให้เพิ่มโดยการคลิก **เพิ่มคีย์** และคลิก **บันทึก** ที่ด้านบนของหน้า
 
-## <a name="template-mapping-in-data-integration"></a>การแมปเทมเพลตในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงการแมปเทมเพลตในการรวมข้อมูล
+ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderheader"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): หัวเรื่องใบสั่งขาย
 
 ตัวกรองข้อมูล: (msdyn_systemstatus ne 690970005) และ (msdyn_systemstatus ne 690970000) และ (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![การแมปเทมเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderHeader](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): ประมาณการณ์คำสั่งให้บริการ
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ (msdyn_linestatus eq 690970000) และ (msdynce_headersystemstatus ne 690970004)
 
-[![การแมปเทมเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderServiceLineEstimate](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): คำสั่งให้บริการที่เกิดขึ้นจริง
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004))
 
-[![การแมปเทมเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderServiceLineUsed](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): ประมาณการณ์คำสั่งผลิต
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ (msdyn_linestatus eq 690970000) และ (msdynce_headersystemstatus ne 690970004) และ (msdyn_allocated eq true)
 
-[![การแมปเทมเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderProductLineEstimate](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>จากใบสั่งงานสู่ใบสั่งขาย (จาก Field Service ไปยัง Supply Chain Management): คำสั่งผลิตที่เกิดขึ้นจริง
 
 ตัวกรองข้อมูล: (msdynce_headersystemstatus ne 690970005) และ (msdynce_headersystemstatus ne 690970000) และ (msdynce_orderhasexternalmaintainedproductsonly eq true) และ ((msdyn_linestatus eq 690970001) หรือ (msdynce_headersystemstatus eq 690970004) หรือ (msdyn_allocated ne true))
 
-[![การแมปเทมเพลตในการรวมข้อมูลสำหรับใบสั่งงานไปยังใบสั่งขาย (Field Service ไปยัง Supply Chain Management): WorkOrderProductLineUsed](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)

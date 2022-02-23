@@ -1,33 +1,31 @@
 ---
 title: สร้างปฏิทินเวลาทำงาน
 description: กำหนดปฏิทินเวลาทำงาน วันหยุด และเวลาที่ไม่ได้ทำงานใน Dynamics 365 Human Resources
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068930"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420744"
 ---
 # <a name="create-a-working-time-calendar"></a>สร้างปฏิทินเวลาทำงาน
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ปฏิทินเวลาทำงานใน Dynamics 365 Human Resources แสดงวันและชั่วโมงที่พนักงานทำงานในองค์กรของคุณ เมื่อพนักงานส่งคำขอการเวลาหยุดพัก พนักงานไม่ต้องกังวลเกี่ยวกับวันหยุดและการปิดทำการ
 
@@ -37,7 +35,7 @@ ms.locfileid: "8068930"
 - วันหยุดและการปิดทำการ
 - เวลาที่ไม่ทำงาน
 
-คุณสามารถเพิ่มรายการสองรายการในขณะที่คุณกำลังตั้งค่าปฏิทินเวลาทำงาน นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกหรืออัปเดตได้โดยแยกต่างหาก
+คุณสามารถเพิ่มรายการสองรายการในขณะที่คุณกำลังตั้งค่าปฏิทินเวลาทำงาน นอกจากนี้คุณยังสามารถตั้งค่าคอนฟิกหรืออัพเดตได้โดยแยกต่างหาก
 
 ## <a name="set-up-a-working-time-calendar"></a>ตั้งค่าปฏิทินเวลาทำงาน
 
@@ -67,7 +65,7 @@ ms.locfileid: "8068930"
 
 คุณสามารถเพิ่มหรือเปลี่ยนแปลงวันที่ไม่ทำงานแยกต่างหากจากปฏิทินเวลาทำงานได้
 
-1. ในหน้า **การจัดการองค์กร** เลือก **NON-WORK TIME**
+1. ในหน้า **การจัดการองค์กร** เลือก **เวลาที่ไม่ทำงาน**
 
 2. เลือก **ใหม่** และป้อนชื่อและช่วงเวลาสำหรับเวลาที่ไม่ทำงาน
 
@@ -77,6 +75,3 @@ ms.locfileid: "8068930"
 
 - [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)
 - [ตั้งค่าคอนฟิกชนิดการลางานและการหยุดงาน](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

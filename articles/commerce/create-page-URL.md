@@ -2,9 +2,11 @@
 title: สร้าง URL ของหน้า
 description: หัวข้อนี้ครอบคลุมแนวคิดและขั้นตอนพื้นฐานสำหรับการสร้าง URL ของหน้าบนไซต์ของคุณ
 author: bicyclingfool
+manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -14,18 +16,21 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 062a49df93e442dbe402ac9a78244c966958aaa2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965264"
 ---
 # <a name="create-a-page-url"></a>สร้าง URL ของหน้า
+
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมแนวคิดและขั้นตอนพื้นฐานสำหรับการสร้าง URL ของหน้าบนไซต์ของคุณ
+
+## <a name="overview"></a>ภาพรวม
 
 URL แบบเต็มหรือสัมบูรณ์ซึ่งชี้ไปยังหน้าบนไซต์ของคุณจะประกอบด้วยส่วนที่แตกต่างกัน ตัวอย่างเช่น URL `https://www.contoso.com/en-us/contactus` มีส่วนต่างๆ ดังต่อไปนี้
 
@@ -101,6 +106,3 @@ slug URL สำหรับหน้ามีอยู่เป็นเอน�
 [ตั้งค่าคอนฟิกชื่อโดเมนของคุณ](configure-your-domain-name.md)
 
 [เพิ่มภาษาลงในไซต์ของคุณ](add-languages-to-site.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

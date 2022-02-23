@@ -1,35 +1,36 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (6 ตุลาคม 2020)
+title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (6 ตุลาคม 2020)
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 6 ตุลาคม 2020
 author: jcart1106
+manager: tfehr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 036b43d8730b52bddc93c0fc3b47d9d62649e898
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062990"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152184"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (6 พฤศจิกายน 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources (6 พฤศจิกายน 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 
 ## <a name="in-this-release"></a>ในการเผยแพร่นี้
 
@@ -41,7 +42,7 @@ ms.locfileid: "8062990"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| ข้อมูลเชิงลึกเพิ่มเติมในปฏิทินการลางาน | [ให้ข้อมูลเชิงลึกเพิ่มเติมในมุมมองปฏิทินการลางาน](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [ดูปฏิทินของทีมงานและบริษัท](hr-employee-self-service-calendar.md) |
+| ข้อมูลเชิงลึกเพิ่มเติมในปฏิทินการลางาน | [ให้ข้อมูลเชิงลึกเพิ่มเติมในมุมมองปฏิทินการลางาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [ดูปฏิทินของทีมงานและบริษัท](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -55,7 +56,7 @@ ms.locfileid: "8062990"
 | 448806 | **ชนิดรหัสเริ่มต้น** ส่งออกเป็น **RecID** ในพารามิเตอร์ HCM | การเปลี่ยนแปลงนี้ไปยังเอนทิตีพารามิเตอร์ทรัพยากรบุคคลจะเพิ่มคอลัมน์เพิ่มเติมที่แสดง **ชนิดรหัสเริ่มต้น** |
 | 492923 | การบันทึกงานไม่ได้บันทึกอยู่ใน Lifecycle Services (LCS) | ตอนนี้การบันทึกงานสามารถถูกบันทึกใน LCS |
 | 429950 | ค่าตอบแทนคงที่ไม่หมดอายุอย่างถูกต้องในขณะที่เปลี่ยนตำแหน่ง | เมื่อเปลี่ยนตำแหน่งของผู้ปฏิบัติงานในหน้า **โอนย้ายผู้ปฏิบัติงานการ** จะมีการตั้งค่าวันที่ชดเชยสิ้นสุดหนึ่งวันก่อนการสิ้นสุดของตำแหน่ง ตอนนี้วันที่สิ้นสุดค่าตอบแทนเหมือนกับวันที่สิ้นสุดของตำแหน่ง |
-| 467214 | **การวิเคราะห์เงินเดือน** จะแสดงเฉพาะเมื่อ **ชื่อการแปลงอัตราการชำระค่าจ้าง** มีการตั้งค่าเป็น **รายปี** | อัตราการชำระเงินเดือนที่มีชื่ออื่นที่ไม่ใช่ **รายปี** ไม่แสดงในการวิเคราะห์ค่าตอบแทน เมื่อใช้การอัปเดตนี้ การวิเคราะห์ค่าตอบแทนนี้จะใช้การแปลงอัตราการชำระค่าจ้างทั้งหมด เมื่อเรียกใช้รายงานตามราย **ชั่วโมง** หรือ **เงินเดือน** การแปลงอัตราการชำระค่าจ้างใดๆ ที่ใช้รอบระยะเวลาอื่นที่ไม่ใช่รายชั่วโมงจะรวมอยู่ในตัวกรอง **เงินเดือน** เฉพาะอัตราการชำระด้วยรอบระยะเวลา **รายชั่วโมง** จะรวมอยู่ในตัวกรอง **รายชั่วโมง** |
+| 467214 | **การวิเคราะห์เงินเดือน** จะแสดงเฉพาะเมื่อ **ชื่อการแปลงอัตราการชำระค่าจ้าง** มีการตั้งค่าเป็น **รายปี** | อัตราการชำระเงินเดือนที่มีชื่ออื่นที่ไม่ใช่ **รายปี** ไม่แสดงในการวิเคราะห์ค่าตอบแทน เมื่อใช้การอัปเดตนี้ การวิเคราะห์ค่าตอบแทนนี้จะใช้การแปลงอัตราการชำระค่าจ้างทั้งหมด เมื่อรันรายงานตามราย **ชั่วโมง** หรือ **เงินเดือน** การแปลงอัตราการชำระค่าจ้างใดๆ ที่ใช้รอบระยะเวลาอื่นที่ไม่ใช่รายชั่วโมงจะรวมอยู่ในตัวกรอง **เงินเดือน** เฉพาะอัตราการชำระด้วยรอบระยะเวลา **รายชั่วโมง** จะรวมอยู่ในตัวกรอง **รายชั่วโมง** |
 | 482464 | เมื่อดูมุมมอง **ความคิดเห็น** **รายละเอียด**  จะไม่เปลี่ยนเป็นมุมมองกริดหลังจากที่คุณใช้ตัวกรองข้อมูล | หลังจากที่ใช้ตัวกรองแล้ว กริดรีวิวแสดงตามที่คาดไว้ |
 | 483184 | ทรัพยากรบุคคลไม่สร้างการรับรู้การลางานเมื่อคุณเลือก **ระดับพื้นฐาน** เป็น **วันที่เริ่มต้นที่ปรับปรุงแล้ว** ในเรกคอร์ด **การออกจากการลงทะเบียน** |**วันที่เริ่มต้นที่ปรับปรุง** จะเติมข้อมูลและใช้เมื่อสร้างการรับรู้การลางาน  |
 | 509731 | คำขอเวลาหยุดพักสำหรับผู้ปฏิบัติงานที่สิ้นสุดในอนาคตทำให้เกิดปัญหาหากมีการใช้เวลาหยุดพักหลังจากวันที่สิ้นสุดการจ้างงาน | คำขอเวลาหยุดพักตอนนี้สามารถส่งให้กับพนักงานที่มีวันที่สิ้นสุดการจ้างงานในอนาคต ตราบใดที่คำขอคือก่อนวันที่สิ้นสุดการจ้างงาน |
@@ -69,9 +70,9 @@ ms.locfileid: "8062990"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| แอป Human Resources ใน Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
-| คำขอและการอนุมัติลำดับงานที่ดีขึ้น | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| เอนทิตีเสมือนใน Dataverse สำหรับทรัพยากรบุคคล | [ขยายข้อมูลหลัก Dynamics 365 Human Resources ใน Dataverse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [ตั้งค่าคอนฟิกเอนทิตีเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
+| แอป Human Resources ใน Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
+| คำขอและการอนุมัติลำดับงานที่ดีขึ้น | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| เอนทิตีเสมือนใน Dataverse สำหรับทรัพยากรบุคคล | [ขยายข้อมูลหลัก Dynamics 365 Human Resources ใน Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [ตั้งค่าคอนฟิกเอนทิตีเสมือน Dataverse](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
@@ -81,16 +82,13 @@ ms.locfileid: "8062990"
 
 - **รหัสเหตุผลของการจัดการสวัสดิการ**: รหัสเหตุผลของการจัดการสวัสดิการจะมีการรวมเข้ากับรหัสเหตุผลที่มีอยู่ใน Human Resources ในเร็วๆ นี้ ถ้าคุณสร้างรหัสเหตุผลไว้ในการจัดการสวัสดิการที่มีอักขระเกินกว่า 15 ตัว คุณต้องเปลี่ยนชื่อของรหัสเหตุผลในแบบฟอร์ม **รหัสเหตุผล** ของการจัดการสวัสดิการเป็นอักขระ15 ตัวหรือน้อยกว่า หลังจากที่คุณอัปเดตชื่อ รหัสเหตุผลจะปรากฏขึ้นภายใต้แบบฟอร์มรหัสเหตุผลที่มีอยู่ในการจัดการบุคลากร การเปลี่ยนแปลงนี้จะพร้อมใช้งานในอนาคตและจะไม่มีผลกระทบต่อฟังก์ชันการทำงานที่มีอยู่
 
-- **ลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการ**: เพื่อสนับสนุนผู้จัดการ เรากำลังขยายความสามารถในการบริการตนเองของผู้จัดการ เรากำลังเพิ่มความสามารถในการเพิ่มการเชื่อมโยงแบบกำหนดเองบนแท็บ **ทีมของฉัน** ลักษณะการทำงานนี้คล้ายกับลักษณะการทำงานของลิงค์แบบกำหนดเองบนแท็บ **ข้อมูลของฉัน** ในการบริการตนเองของพนักงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
+- **ลิงค์ที่กำหนดเองในการบริการตนเองของผู้จัดการ**: เพื่อสนับสนุนผู้จัดการ เรากำลังขยายความสามารถในการบริการตนเองของผู้จัดการ เรากำลังเพิ่มความสามารถในการเพิ่มการเชื่อมโยงแบบกำหนดเองบนแท็บ **ทีมของฉัน** ลักษณะการทำงานนี้คล้ายกับลักษณะการทำงานของลิงค์แบบกำหนดเองบนแท็บ **ข้อมูลของฉัน** ในการบริการตนเองของพนักงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ลิงก์แบบกำหนดเองในระบบบริการตนเองของผู้จัดการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
 
-สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2019 เวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2019 เวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
