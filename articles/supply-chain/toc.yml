@@ -4,8 +4,36 @@
       items:
         - name: โฮมเพจ Dynamics 365 Supply Chain Management
           href: index.md
+        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
+          items:
+            - name: มีอะไรใหม่หรือเปลี่ยนไปในแอปการเงินและการดำเนินงาน
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
+              items:
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.25 (เมษายน 2022)
+                  href: get-started/whats-new-scm-10-0-25.md
+                - name: Supply Chain Management 10.0.24 (กุมภาพันธ์ 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (มกราคม 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+            - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
+              items:
+                - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: เริ่มต้นใช้งาน
           items:
+            - name: คำอธิบายการบริการ
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: ก่อนที่คุณจะซื้อ
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
@@ -14,7 +42,7 @@
               items:
                 - name: ภาพรวมของการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: จัดการการอัปเดตและวงจรการใช้งานโค้ดที่กำหนดเอง รวมถึง Dynamics 365 Commerce
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
@@ -60,35 +88,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แอป Finance and Operations ในฝรั่งเศส
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-            - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้าง
-              items:
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในแอป Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Supply Chain Management
-                  items:
-                    - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในโฮมเพจ Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.16 (กุมภาพันธ์ 2021)
-                      href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15 (มกราคม 2021)
-                      href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (พฤศจิกายน 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
-                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
-                  items:
-                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: คุณลักษณะของ AX 2012 ที่เลื่อนออกไป
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แหล่งข้อมูลเอกสารประกอบ
+            - name: แหล่งข้อมูลคู่มือ
               items:
                 - name: ระบบวิธีใช้
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -100,12 +100,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน
+                - name: สร้างคู่มือหรือการฝึกอบรมด้วยตัวบันทึกงาน
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: วิดีโอ
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: อภิธานศัพท์
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: แค็ตตาล็อกการเรียนรู้
               items:
                 - name: โฮมเพจแค็ตตาล็อกการเรียนรู้
@@ -134,7 +132,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ภาพรวมของการจัดการคุณลักษณะ
                   href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับไคลเอนต์
+                - name: คำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์
                   href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การค้นหาการดำเนินการ
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/supply-chain/toc.json
@@ -154,17 +152,21 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: มุมมองที่บันทึก
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: มุมมองที่บันทึกไว้มาตรฐานของ Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: ความสามารถของกริด
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: สร้างและทำงานกับฟิลด์ที่กำหนดเอง
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ฝังแอปพื้นที่ทำงานจาก Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ฝังแอปของบุคคลที่สาม
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ค้นหาข้อมูลโดยใช้การค้นหา
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การเปลี่ยนแปลงวันที่สำหรับรอบเวลา
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การตั้งเขตเวลาที่ผู้ใช้ต้องการ
+                - name: การตั้งโซนเวลาที่ผู้ใช้ต้องการ
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ทำความเข้าใจเกี่ยวกับ Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/supply-chain/toc.json
@@ -172,21 +174,21 @@
               items:
                 - name: โฮมเพจการจัดการวงจรการใช้งานสำหรับการดำเนินการ
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สถาปัตยกรรมสำหรับแอป Finance and Operations
+                - name: สถาปัตยกรรมสำหรับแอปการเงินและการดำเนินงาน
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: /dynamics365/fasttrack/
                 - name: เตรียมความพร้อมโครงการสำหรับการใช้งาน
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การวางแผนสภาพแวดล้อม
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/supply-chain/toc.json
-                - name: จัดเตรียมสำหรับการโทรทันที
+                - name: จัดเตรียมสำหรับการใช้งานจริง
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับการโทรทันที
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการใช้งานจริง
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ส่งคำขอรับบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการสมัครใช้งาน โครงการ LCS และผู้เช่า Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ย้ายสภาพแวดล้อมระหว่างศูนย์ข้อมูล
                   href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/supply-chain/toc.json
@@ -194,7 +196,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ย้ายโครงการการดำเนินการ LCS ไปยังผู้เช่า Azure AD อื่น
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยัง cloud
+                - name: ย้ายโครงการที่มีการดำเนินการ LCS จากในสถานที่ไปยังระบบคลาวด์
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: โครงการ LCS และสภาพแวดล้อมการใช้งานจริงหลายรายการบนผู้เช่า Azure AD เดียว
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
@@ -202,6 +204,86 @@
           items:
             - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
+            - name: บริการแบบโลกาภิวัตน์
+              items:
+                - name: ภาพรวมของบริการแบบโลกาภิวัตน์
+                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: ภาพรวมของ Regulatory Configuration Service (RCS)
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory configuration service (RCS) - คุณลักษณะแบบโลกาภิวัตน์
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สร้างการตั้งค่าคอนฟิก ER ใน Regulatory Configuration Service (RCS) และอัปโหลดไปยังที่เก็บส่วนกลาง
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service (RCS) - การเลิกใช้พื้นที่จัดเก็บ Lifecycle Services
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Supply Chain Management
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                  items:
+                    - name: ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ส่วนประกอบการจัดการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Regulatory Configuration Services (RCS)
+                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Finance และ Supply Chain Management
+                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สร้างบัญชีการจัดเก็บข้อมูล Azure และ Key Vault
+                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แดชบอร์ดการจัดการการใช้งาน
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เริ่มต้นใช้งาน
+                      items:
+                        - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
+                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
+                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
+                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การคำนวณภาษี
+                  items:
+                    - name: ภาพรวมการคำนวณภาษี
+                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เริ่มต้นใช้งานการคํานวณภาษี
+                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
+                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: หมายเลขทะเบียน VAT หลายหมายเลข
+                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าสภาพแวดล้อมการค้นหาข้อมูลหลัก
+                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: การอัปเดตที่เป็นระเบียบบังคับ
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: อินเดีย
@@ -216,14 +298,24 @@
                   items:
                     - name: สินค้าที่อยู่ระหว่างส่งต่อจากผู้จัดจำหน่าย
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: ระบบคลาวด์และ Edge
+        - name: โทโพโลยีแบบไฮบริดแบบกระจาย
           items:
-            - name: สเกลยูนิตในระบบคลาวด์และ Edge สำหรับปริมาณงานการผลิตและการจัดการคลังสินค้า
+            - name: Scale unit ในโทโพโลยีแบบไฮบริดแบบกระจาย
               href: cloud-edge/cloud-edge-landing-page.md
+            - name: ปรับใช้สเกลยูนิตแบบปลายทางบนฮาร์ดแวร์แบบกำหนดเอง โดยใช้ LBD
+              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
               href: cloud-edge/cloud-edge-workload-manufacturing.md
-            - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และ Edge
+            - name: ปริมาณงานการจัดการคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: ตั้งค่าคอนฟิกแอป Warehouse Management บนอุปกรณ์เคลื่อนที่สำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
+            - name: ใบสั่งของคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+              href: cloud-edge/cloud-edge-warehouse-order.md
+            - name: การปรับปรุงสินค้าคงคลังของคลังสินค้า
+              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
+            - name: ข้อความตัวประมวลผลข้อความ
+              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: การจัดการสินทรัพย์
           items:
             - name: ภาพรวมของการจัดการสินทรัพย์
@@ -289,12 +381,10 @@
                   href: asset-management/objects/object-timeline.md
                 - name: มุมมองสินทรัพย์
                   href: asset-management/objects/object-view.md
-                - name: ภาพรวมของแอททริบิวต์สินทรัพย์
+                - name: ภาพรวมแอททริบิวต์สินทรัพย์
                   href: asset-management/objects/object-specification-overview.md
             - name: การตั้งค่าสำหรับคำขอการบำรุงรักษา
               items:
-                - name: คำขอการบำรุงรักษา
-                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: สถานะของวงจรการใช้ของคำขอการบำรุงรักษา
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: ชนิดคำขอการบำรุงรักษา
@@ -317,7 +407,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: ตั้งค่าสำหรับใบสั่งงาน
               items:
-                - name: 'ประเภทของชนิดงานบำรุงรักษาและชนิดงานบำรุงรักษา, ตัวแปรชนิดงานบำรุงรักษา และการค้าของชนิดงานบำรุงรักษา และรายการตรวจสอบการบำรุงรักษา'
+                - name: ชนิดงานบำรุงรักษา ประเภท ตัวแปร การค้า และรายการตรวจสอบ
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: สถานะของวงจรการใช้ของใบสั่งงาน
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -363,6 +453,8 @@
               items:
                 - name: การคาดการณ์ ใบสั่งงาน และโครงการ
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: ใบเรียกเก็บเงินสำหรับการบํารุงรักษาสินทรัพย์ที่ลูกค้าเป็นเจ้าของ
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: รวมการจัดการสินทรัพย์ด้วยสินทรัพย์ถาวร
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: การบำรุงรักษาเชิงป้องกันและเชิงรับ
@@ -439,10 +531,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: สถานะการบำรุงรักษา
                   href: asset-management/controlling-and-reporting/maintenance-status.md
-            - name: รวมการจัดการสินทรัพย์ด้วย Dynamics 365 Guides
+            - name: การจัดการสินทรัพย์จากแอปสำหรับอุปกรณ์เคลื่อนที่
+              items:
+                - name: ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: ใช้พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
+                  href: asset-management/asset-management-mobile-workspace.md
+            - name: รวมการจัดการสินทรัพย์กับ Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
-              href: asset-management/asset-management-mobile-workspace.md
         - name: การจัดการข้อมูล
           items:
             - name: เอนทิตี้เป้าหมาย
@@ -475,9 +571,9 @@
               href: ../finance/cost-accounting/cost-objects.md?toc=/dynamics365/supply-chain/toc.json
             - name: สร้างออบเจ็กต์ต้นทุน
               href: ../finance/cost-accounting/tasks/create-cost-objects.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แม็ปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
+            - name: แมปสมาชิกมิติองค์ประกอบต้นทุนไปยังชุดทั่วไปของมิติ
               href: ../finance/cost-accounting/map-cost-elements-dimension-members.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แม็ปมิติองค์ประกอบต้นทุน
+            - name: แมปมิติองค์ประกอบต้นทุน
               href: ../finance/cost-accounting/tasks/map-cost-element-dimension.md?toc=/dynamics365/supply-chain/toc.json
             - name: ลำดับชั้นของมิติ
               href: ../finance/cost-accounting/dimension-hierarchy.md?toc=/dynamics365/supply-chain/toc.json
@@ -491,7 +587,7 @@
               href: ../finance/cost-accounting/tasks/define-cost-control-units.md?toc=/dynamics365/supply-chain/toc.json
             - name: สร้างบัญชีแยกประเภทการบัญชีต้นทุน
               href: ../finance/cost-accounting/tasks/create-cost-accounting-ledger.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สมาชิกมิติทางสถิติและเท็มเพลตตัวให้บริการการประเมินทางสถิติ
+            - name: สมาชิกมิติทางสถิติและเทมเพลตตัวให้บริการการประเมินทางสถิติ
               href: ../finance/cost-accounting/statistical-measure-provider-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: ฐานของการปันส่วน
               href: ../finance/cost-accounting/allocation-bases.md?toc=/dynamics365/supply-chain/toc.json
@@ -519,8 +615,22 @@
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: ใช้ชุดเนื้อหาสำหรับการรายงาน Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอปพลิเคชัน Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+            - name: ใช้พื้นที่ทำงานการควบคุมต้นทุนสำหรับแอปพลิเคชันการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: การบัญชีสินค้าคงคลังสากล
+          items:
+            - name: โฮมเพจการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: เริ่มต้นใช้งานการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: เอกสารทางธุรกิจที่สนับสนุนโดยการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: เปิดใช้งาน Power BI สำหรับการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: แบบแผน
+              href: global-inventory-accounting/conventions.md
+            - name: บัญชีแยกประเภทการบัญชีสินค้าคงคลังสากล
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: การจัดการต้นทุน
           items:
             - name: โฮมเพจการจัดการต้นทุน
@@ -599,8 +709,10 @@
                   href: cost-management/inventory-close.md
                 - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: รายงานการจัดเก็บมูลค่าสินค้าคงคลัง
+                - name: รายงานมูลค่าสินค้าคงคลัง
                   href: cost-management/inventory-value-report-storage.md
+                - name: ตัวอย่างและตรรกะรายงานมูลค่าของสินค้าคงคลัง
+                  href: cost-management/inventory-value-report-examples.md
                 - name: การจัดเก็บรายงานอายุหนี้ของสินค้าคงคลัง
                   href: cost-management/inventory-aging-report-storage.md
                 - name: ตัวอย่างและตรรกะรายงานอายุหนี้ของสินค้าคงคลัง
@@ -631,7 +743,7 @@
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: เปรียบเทียบต้นทุนที่ใช้งานอยู่ ต้นทุนโดยประมาณ และต้นทุนที่เกิดขึ้นจริงในใบสั่งผลิต
                   href: cost-management/tasks/compare-active-estimated-realized-costs.md
-                - name: การผลิตที่ลงรายการบัญชีแล้ว
+                - name: การลงรายการบัญชีการผลิต
                   href: cost-management/production-posting.md
                 - name: ติดตั้งผลิตภัณฑ์ที่สามารถผลิตหรือจัดหาได้
                   href: cost-management/manufactured-items-treated-as-purchased-items.md
@@ -641,8 +753,6 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: ชุดเนื้อหาของ Power BI สำหรับการจัดการต้นทุน
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แก้ไขปัญหาการจัดการต้นทุน
-              href: cost-management/troubleshoot-costmanagement.md
         - name: การรายงานและการรวม Power BI
           items:
             - name: การรายงานและการวิเคราะห์ด้วย Power BI
@@ -703,7 +813,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/supply-chain/toc.json
                 - name: รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ติดตั้งเท็มเพลตการออกแบบรายงาน
+                - name: ติดตั้งเทมเพลตการออกแบบรายงาน
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/supply-chain/toc.json
             - name: เครื่องมือการจัดการผู้ใช้ระดับสูง
               items:
@@ -751,17 +861,19 @@
               items:
                 - name: สร้างการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                 - name: จัดเตรียมส่วนประกอบของโซลูชันการรายงานทางอิเล็กทรอนิกส์
                   items:
-                    - name: ออกแบบแบบจำลองข้อมูลเฉพาะโดเมน
+                    - name: ออกแบบรูปแบบข้อมูลเฉพาะโดเมน
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: จัดเตรียมข้อมูลเมตาเฉพาะแอปพลิเคชัน
                       items:
-                        - name: (ER) จัดเตรียมข้อมูลเมตาของแอปพลิเคชันที่ใช้ใน RCS
+                        - name: จัดเตรียมข้อมูลเมตาของแอปพลิเคชันในการรายงานทางอิเล็กทรอนิกส์ที่ใช้ใน RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
+                        - name: เข้าถึงข้อมูลเมตาของแอปพลิเคชันใน RCS โดยใช้การตั้งค่าคอนฟิก ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) เข้าถึงข้อมูลเมตาของแอปพลิเคชันโดยใช้แอปพลิเคชันที่เชื่อมต่อ
+                        - name: เข้าถึงข้อมูลเมตาของแอปพลิเคชันใน RCS โดยใช้แอปพลิเคชันที่เชื่อมต่อ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
                         - name: กำหนดการแมปแบบจำลองและเลือกแหล่งข้อมูล
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -773,13 +885,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ทดสอบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จัดเตรียมไว้ในแอปพลิเคชันเป้าหมาย
                       items:
-                        - name: (ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                         - name: จัดทำเอกสารอิเล็กทรอนิกส์สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/supply-chain/toc.json
                     - name: อัปเกรดรูปแบบของคุณโดยการใช้รุ่นพื้นฐานใหม่ของรูปแบบนั้น
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ตัวออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
+            - name: โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์
               items:
                 - name: โปรแกรมออกแบบสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
@@ -789,8 +901,20 @@
               items:
                 - name: ภาษาสูตร
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ชนิดข้อมูลที่รองรับสำหรับสูตร ER
+                  items:
+                    - name: ชนิดข้อมูลพื้นฐาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ชนิดข้อมูลแบบรวม
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ฟังก์ชัน
                   items:
+                    - name: คอนเทนเนอร์
+                      items:
+                        - name: ฟังก์ชันคอนเทนเนอร์
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                     - name: วันที่และเวลา
                       items:
                         - name: ฟังก์ชันวันที่และเวลา
@@ -821,6 +945,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/supply-chain/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/supply-chain/toc.json
                     - name: List
                       items:
                         - name: ฟังก์ชันรายการ
@@ -847,6 +975,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/supply-chain/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ListOfFields
@@ -875,14 +1005,22 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/supply-chain/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ValueInLarge
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/supply-chain/toc.json
                     - name: คณิตศาสตร์
                       items:
                         - name: ฟังก์ชันคณิตศาสตร์
@@ -978,7 +1116,7 @@
                         - name: CurCredRef
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/supply-chain/toc.json
                         - name: FA_Balance
-                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/supply-chain/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365supply-chain/toc.json
                         - name: FA_Sum
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetCurrentCompany
@@ -1007,6 +1145,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'ชนิด: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: 'คอนเทนเนอร์: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'วันที่และเวลา: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'วันที่และเวลา: DateToDateTime'
@@ -1031,78 +1171,48 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'ข้อความ: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: จัดการการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: เลือกข้อกำหนดแบบจำลองข้อมูลเมื่อคุณสร้างรูปแบบ
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ตัวเลือกการกรองข้อมูลขั้นสูงสำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บส่วนกลาง
-              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สร้างรายงานโดยเพิ่มเนื้อหาใน XML ดิบ
-              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
-            - name: (ER) แหล่งข้อมูลข้ามบริษัทในการรายงานทางอิเล็กทรอนิกส์
-              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ขาออกในรูปแบบต่างๆ
+            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารขาออกในรูปแบบต่างๆ
               items:
-                - name: (ER) ออกแบบการตั้งค่าคอนฟิกสำหรับการจัดทำรายงานในรูปแบบ OPENXML
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: (ER) ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเท็มเพลต PDF
-                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ฝังรูปภาพและรูปร่าง
-              items:
-                - name: (ER) ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตัวอย่างของการฝังรูปภาพและรูปร่าง
+                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบ Excel
                   items:
-                    - name: ออกแบบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ตรวจสอบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: จัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
-              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อใช้มิติทางการเงิน
-              items:
-                - name: ออกแบบแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แมปแบบจำลองข้อมูลเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ออกแบบรายงานเพื่อใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เรียกใช้รายงานที่ใช้มิติทางการเงินเป็นแหล่งข้อมูล
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ที่จะทำการตรวจนับและการรวมโดยใช้ข้อมูลจากผลลัพธ์ที่จัดทำไว้
-              items:
-                - name: สร้างรูปแบบเพื่อทำการตรวจนับและการรวม
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวม
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ใช้การคำนวณเพื่อสร้างผลลัพธ์สำหรับการตรวจนับและการรวม
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เรียกใช้รูปแบบเพื่อทำการตรวจนับและการรวม
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
-              items:
-                - name: ออกแบบรูปแบบเพื่อเพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เรียกใช้รูปแบบเพื่อเพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของรูปแบบ
-              items:
-                - name: จัดเตรียมแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างรูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสารเป็นผลลัพธ์ของการรายงานทางอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตัวอย่างของการสร้างรายงานในรูปแบบ OPENXML
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เทมเพลต Excel อีกครั้ง
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เพิ่มคอลัมน์แบบไดนามิกลงในรายงาน Excel เป็นช่วงที่ขยายได้ในแนวนอน
+                      items:
+                        - name: ออกแบบรูปแบบเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิก
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เรียกใช้รูปแบบเพื่อเพิ่มคอลัมน์ในรายงาน Excel แบบไดนามิก
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Word
+                  items:
+                    - name: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: นำการตั้งค่าคอนฟิก ER ที่มีเทมเพลต Excel มาใช้ใหม่เพื่อสร้างรายงานในรูปแบบ Word
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ออกแบบการตั้งค่าคอนฟิกเพื่อกรอกข้อมูลในเทมเพลต PDF
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ฝังรูปภาพและรูปร่าง
+                  items:
+                    - name: ฝังข้อมูลและรูปร่างในเอกสารที่คุณสร้าง
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตัวอย่างของการฝังรูปภาพและรูปร่าง
+                      items:
+                        - name: ออกแบบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ตรวจสอบการตั้งค่าคอนฟิกเพื่อจัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: จัดทำรายงานในรูปแบบ Office ที่มีการฝังรูปภาพไว้
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/supply-chain/toc.json
+                - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ไม่แสดงอักขระ BOM ในไฟล์ที่สร้าง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/supply-chain/toc.json
             - name: อัปเดตข้อมูลแอปพลิเคชันโดยใช้การรายงานทางอิเล็กทรอนิกส์
               items:
                 - name: สร้างเอกสารอิเล็กทรอนิกส์และอัปเดตข้อมูลแอปพลิเคชัน
@@ -1125,6 +1235,8 @@
                   items:
                     - name: สร้างการตั้งค่าคอนฟิกเพื่อนำเข้าข้อมูลจากไฟล์ XML ภายนอก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: นำเข้าข้อมูลจากไฟล์ที่เลือกด้วยตนเองในโหมดชุดงาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกการนำเข้าข้อมูลในโหมดชุดงานจากไฟล์ที่อยู่ใน SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: นำเข้าไฟล์ในรูปแบบ XML
@@ -1133,52 +1245,150 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อนำเข้าไฟล์รูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
-            - name: แบ่งไฟล์ XML ที่จัดทำตามขนาดไฟล์และปริมาณเนื้อหา
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูลการรายงานทางอิเล็กทรอนิกส์ของชนิดฟิลด์ที่คำนวณได้
-              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: วงจรการใช้งานการตั้งค่าคอนฟิก
               items:
                 - name: จัดการวงจรการใช้งานการตั้งค่าคอนฟิก
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก Lifecycle Services
-                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
-                - name: นำเข้าการตั้งค่าคอนฟิก
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บ RCS
+                - name: Lifecycle Services (LCS)
                   items:
-                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจากที่เก็บการรายงานทางอิเล็กทรอนิกส์ของชนิด RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: นำเข้าการตั้งค่าคอนฟิกจาก LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก LCS
+                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: นำเข้าการตั้งค่าคอนฟิก (LBD)
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: ภาพรวมของ Regulatory Configuration Service (RCS)
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ดาวน์โหลดการตั้งค่าคอนฟิก ER ไปยัง Supply Chain Management
+                      items:
+                        - name: ดาวน์โหลดการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ที่เก็บส่วนกลาง (GR)
+                      items:
+                        - name: นำเข้าการตั้งค่าคอนฟิกจาก GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: การกรองขั้นสูงเพื่อค้นหาการตั้งค่าคอนฟิกใน GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: อัปโหลดการตั้งค่าคอนฟิกไปยัง GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: การใช้การตั้งค่าคอนฟิกร่วมกันใน GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ยกเลิกการตั้งค่าคอนฟิกในที่เก็บส่วนกลางของ RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+            - name: คู่มือการเริ่มต้นแบบด่วน
+              items:
+                - name: ปรับปรุงรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ปรับปรุงโซลูชันการรายงานทางอิเล็กทรอนิกส์เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/supply-chain/toc.json
             - name: บทช่วยสอน
               items:
-                - name: ใช้ ต่อ แหล่งข้อมูลเพื่อดึงข้อมูลจากตารางของแอปพลิเคชันหลายๆ ตาราง
-                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าพารามิเตอร์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์สำหรับนิติบุคคลแต่ละรายการ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                - name: เรียนรู้วิธีการใช้แหล่งข้อมูล
                   items:
-                    - name: เลื่อนการดำเนินการขององค์ประกอบลำดับ
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: เลื่อนการดำเนินการขององค์ประกอบ XML
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Finance and Operations
+                    - name: ใช้ ต่อ เพื่อดึงข้อมูลจากหลายๆ ตาราง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้ XML ดิบเพื่อเพิ่มเนื้อหา
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สนับสนุนการเรียกแบบใช้พารามิเตอร์ของแหล่งข้อมูลของฟิลด์ที่มีการคำนวณ
+                      items:
+                        - name: ปรับปรุงประสบการณ์ผู้ใช้และงานบำรุงรักษาการใช้ข้อมูล
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ปรับปรุงประสิทธิภาพของการเข้าถึงข้อมูล
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แหล่งข้อมูลการรายงานทางอิเล็กทรอนิกส์ระหว่างบริษัท
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้แหล่งข้อมูลรายละเอียดมิติทางการเงิน
+                      items:
+                        - name: ออกแบบแบบจำลองข้อมูล
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: แมปแบบจำลองเพื่อใช้มิติทางการเงิน
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ออกแบบรายงาน
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เรียกใช้รายงาน
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้ผลลัพธ์ที่สร้างไว้เป็นแหล่งข้อมูลเพื่อทำการตรวจนับและการรวม
+                      items:
+                        - name: สร้างรูปแบบ
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ตั้งค่าคอนฟิกรูปแบบเพื่อทำการตรวจนับและการรวม
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: สร้างผลลัพธ์สำหรับการตรวจนับและการรวม
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เรียกใช้รูปแบบเพื่อทำการตรวจนับและการรวม
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้ความสัมพันธ์ทางเอกสารเพื่อเข้าถึงไฟล์การจัดการเอกสาร
+                      items:
+                        - name: จัดเตรียมแบบจำลองข้อมูล
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: ขยายแบบจำลองข้อมูลเพื่อใช้ไฟล์การจัดการเอกสาร
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: สร้างรูปแบบ
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสาร
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: แก้ไขและเรียกใช้รูปแบบเพื่อใช้ไฟล์การจัดการเอกสาร
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้บาร์โค้ดเพื่อสร้างรูปภาพบาร์โค้ด
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกแหล่งข้อมูล การค้นหา เพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบ ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ดีบักแหล่งข้อมูล
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง
+                  items:
+                    - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง ER ตามบริบทของประเทศ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: จัดการการแมปที่ได้รับมาหลายรายการสำหรับรากของแบบจำลองเดียว
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตั้งค่าคอนฟิกรูปแบบ
+                  items:
+                    - name: เลือกข้อกำหนดแบบจำลองเมื่อคุณสร้างรูปแบบ
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อใช้พารามิเตอร์ที่ระบุสำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าพารามิเตอร์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์สำหรับนิติบุคคลแต่ละรายการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: เลื่อนการดำเนินการขององค์ประกอบรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                      items:
+                        - name: เลื่อนการดำเนินการขององค์ประกอบลำดับ
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: เลื่อนการดำเนินการขององค์ประกอบ XML
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ออกแบบรายงานหลายภาษา
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: บีบอัดเอกสารขาออกขนาดใหญ่
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตรวจสอบคอมโพเนนต์การรายงานทางอิเล็กทรอนิกส์ที่ตั้งค่าคอนฟิก
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/supply-chain/toc.json
+                - name: พาธที่เกี่ยวข้องในการผูกข้อมูล
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/supply-chain/toc.json
+            - name: ใช้โซลูชันการรายงานทางอิเล็กทรอนิกส์ใน Supply Chain Management
               items:
                 - name: ตั้งค่าคอนฟิกกรอบงาน
                   items:
                     - name: ตั้งค่าคอนฟิกกรอบงานการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: สำรองและกู้คืนเท็มเพลตการรายงานทางอิเล็กทรอนิกส์
-                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: สำรองและกู้คืนเทมเพลตการรายงานทางอิเล็กทรอนิกส์
+                      items:
+                        - name: การจัดเก็บข้อมูลสำรองของเทมเพลตการรายงานทางอิเล็กทรอนิกส์
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: การล้างข้อมูลการย้ายการรายงานทางอิเล็กทรอนิกส์
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/supply-chain/toc.json
                     - name: สร้างผู้ให้บริการการตั้งค่าคอนฟิกและทำเครื่องหมายว่าใช้งานอยู่
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ปลายทาง
@@ -1201,40 +1411,76 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกปลายทาง
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบการรายงานทางอิเล็กทรอนิกส์
+                    - name: ตั้งค่าคอนฟิกปลายทางที่ขึ้นอยู่กับการดำเนินการ
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดของการจัดการการพิมพ์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตั้งค่าการอ้างอิงไปยังรูปแบบ ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตรวจสอบความถูกต้องของรายงานที่จัดทำโดยอัตโนมัติ
                   items:
                     - name: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: การปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำและการเปรียบเทียบกับค่าพื้นฐาน
+                    - name: ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ดำเนินการทดสอบอัตโนมัติกับการรายงานทางอิเล็กทรอนิกส์
+                    - name: ทำการทดสอบอัตโนมัติด้วยการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ดำเนินกระบวนการทางธุรกิจอัตโนมัติโดยใช้การตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์
                   items:
-                    - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลไปยัง Power BI
+                    - name: ตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์เพื่อดึงข้อมูลลงใน Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: สร้างฟอร์มใบแจ้งหนี้ข้อความอิสระ (FTI) ที่สามารถพิมพ์ได้
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาประสิทธิภาพ
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การจัดการเอกสารทางธุรกิจ
+                - name: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ที่มีประสิทธิภาพ
                   items:
-                    - name: ภาพรวมของการจัดการเอกสารทางธุรกิจ
+                    - name: ติดตามการดำเนินการของรูปแบบการรายงานทางอิเล็กทรอนิกส์เพื่อแก้ไขปัญหาด้านประสิทธิภาพ
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การจัดการเอกสารทางธุรกิจ (BDM)
+                  items:
+                    - name: ภาพรวมของ BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ในการจัดการเอกสารทางธุรกิจ
+                    - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ใน BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: เพิ่มฟิลด์ใหม่ลงในเท็มเพลตเอกสารทางธุรกิจใน Microsoft Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: แก้ไขเทมเพลตเอกสารทางธุรกิจใน BDM
+                      items:
+                        - name: เพิ่มฟิลด์ใหม่ลงในเทมเพลตเอกสารทางธุรกิจใน Microsoft Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: อัปเดตโครงสร้างของเทมเพลตเอกสารทางธุรกิจ
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/supply-chain/toc.json
             - name: API กรอบงานการรายงานทางอิเล็กทรอนิกส์
               items:
-                - name: ขยายรายการฟังก์ชันการรายงานทางอิเล็กทรอนิกส์
+                - name: ขยายรายการฟังก์ชันในตัว
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
-                - name: การเปลี่ยนแปลง API กรอบงานการรายงานทางอิเล็กทรอนิกส์สำหรับ Application update 7.3
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
+                - name: การเปลี่ยนแปลง API
+                  items:
+                    - name: การอัปเดตแอปพลิเคชัน 7.3
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.11
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: การอัปเดตแอปพลิเคชัน 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ระบุตำแหน่งที่ตั้งของที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่จัดทำ
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: สมัครใช้งานเหตุการณ์เพื่อร้องขอการตอบสนองจากตัวจัดการการสมัครใช้งาน
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: มอบหมายการสร้างปลายทางการรายงานทางอิเล็กทรอนิกส์ให้กับแฟคทอรีปลายทางแบบกำหนดเอง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ใช้ปลายทางที่กำหนดเองสำหรับเอกสารที่สร้าง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: เริ่มต้นค่าแหล่งข้อมูลของชนิดพารามิเตอร์ USER INPUT PARAMETER จากโค้ดต้นทาง
+                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
+                - name: เปลี่ยนรหัสเพื่อให้ผู้ใช้สามารถตั้งค่าคอนฟิกและใช้ปลายทาง ER ที่ระบุชื่อ
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: การบริหารสินค้าคงคลัง
           items:
             - name: ภาพรวมของการบริหารสินค้าคงคลัง
@@ -1247,24 +1493,46 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: การจัดการคุณภาพ
               items:
-                - name: ภาพรวมของการจัดการคุณภาพ
-                  href: inventory/enable-quality-management.md
-                - name: กระบวนการการจัดการคุณภาพ
+                - name: ภาพรวมของการจัดการคุณภาพและความไม่สอดคล้องกัน
                   href: inventory/quality-management-processes.md
-                - name: การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
-                  href: inventory/quality-management-for-warehouses-processes.md
-                - name: การจัดการความไม่สอดคล้องกัน
-                  href: inventory/enable-nonconformance-management.md
-                - name: ตั้งค่าข้อกำหนดเบื้องต้นสำหรับการจัดการ
-                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
-                - name: สร้างและประมวลผลความสอดคล้องกัน
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: ใบสั่งตรวจสอบสินค้า
-                  href: inventory/quarantine-orders.md
-                - name: ตั้งค่าใบสั่งตรวจสอบคุณภาพ
-                  href: inventory/tasks/set-up-quality-orders.md
+                - name: เปิดใช้งานและตั้งค่าคอนฟิกการจัดการคุณภาพและความไม่สอดคล้องกัน
+                  items:
+                    - name: เปิดใช้งานการจัดการคุณภาพและความไม่สอดคล้องกัน
+                      href: inventory/enable-quality-management.md
+                    - name: เครื่องมือทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-instruments.md
+                    - name: การทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-tests.md
+                    - name: ตัวแปรการทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-variables.md
+                    - name: กลุ่มการทดสอบการจัดการคุณภาพ
+                      href: inventory/quality-test-groups.md
+                    - name: กลุ่มรายการของการจัดการคุณภาพ
+                      href: inventory/quality-groups.md
+                    - name: การสุ่มตัวอย่างรายการของการจัดการคุณภาพ
+                      href: inventory/quality-item-sampling.md
+                    - name: การเชื่อมโยงคุณภาพ
+                      href: inventory/quality-associations.md
+                    - name: ผู้ปฏิบัติงานที่รับผิดชอบการอนุมัติความไม่สอดคล้องกัน
+                      href: inventory/quality-responsible-workers.md
+                    - name: ชนิดของปัญหาความไม่สอดคล้องกัน
+                      href: inventory/quality-problem-types.md
+                    - name: โซนการตรวจสอบสินค้าที่ไม่สอดคล้องกัน
+                      href: inventory/quality-quarantine-zones.md
+                    - name: ชนิดการวิเคราะห์ความไม่สอดคล้องกัน
+                      href: inventory/quality-diagnostic-types.md
+                    - name: การดําเนินงานด้านความไม่สอดคล้องกัน
+                      href: inventory/quality-operations.md
+                    - name: ค่าธรรมเนียมการดําเนินงานด้านความไม่สอดคล้องกัน
+                      href: inventory/quality-charges.md
+                - name: ทำงานกับใบสั่งตรวจสอบคุณภาพ
+                  href: inventory/quality-orders.md
                 - name: ตรวจสอบคุณภาพของสินค้า
                   href: inventory/tasks/inspect-quality-goods.md
+                - name: สร้างและประมวลผลความไม่สอดคล้องกัน
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: ทำงานกับใบสั่งตรวจสอบสินค้า
+                  href: inventory/quarantine-orders.md
                 - name: การบล็อคสินค้าคงคลัง
                   href: inventory/inventory-blocking.md
                 - name: สร้างและรักษาการบล็อคสินค้าคงคลัง
@@ -1337,8 +1605,24 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
-            - name: Add-in การแสดงผลสินค้าคงคลัง
-              href: inventory/inventory-visibility.md
+            - name: เก็บถาวรธุรกรรมของสินค้าคงคลัง
+              href: inventory/archive-inventory-transactions.md
+            - name: Add-in การมองเห็นสินค้าคงคลัง
+              items:
+                - name: ภาพรวมของ Add-in การมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility.md
+                - name: ติดตั้งและตั้งค่าการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-setup.md
+                - name: ตั้งค่าคอนฟิกการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-configuration.md
+                - name: ใช้แอปการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: การจองในการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-reservations.md
+                - name: API สาธารณะสำหรับการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-api.md
+                - name: เคล็ดลับการมองเห็นสินค้าคงคลัง
+                  href: inventory/inventory-visibility-tips.md
         - name: เครื่องมือ IoT
           items:
             - name: โฮมเพจเครื่องมือ IoT
@@ -1367,32 +1651,64 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/get-started.md
+                - name: กระบวนการนําออกใช้ของการวางแผนการเพิ่มประสิทธิภาพและประวัติการนําออกใช้
+                  href: master-planning/planning-optimization/release-process.md
                 - name: การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: ความแตกต่างระหว่างการวางแผนหลักในตัวและการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: พารามิเตอร์ที่ไม่ได้ใช้โดยการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: กำหนดการจัดหาวัสดุ
+                  href: master-planning/supply-schedule.md
                 - name: ใช้ตัวกรองกับแผน
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: การวางแผนหลักที่มีการคาดการณ์ความต้องการ
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: พารามิเตอร์วันที่และเวลาที่ใช้โดยการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: ค่าเผื่อความปลอดภัย
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: การยอมรับการล่าช้า (วันค่าลบ)
+                  href: master-planning/planning-optimization/delay-tolerance.md
+                - name: ใบขอซื้อ
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: การวางแผนการผลิต
+                  href: master-planning/planning-optimization/production-planning.md
+                - name: การจัดกำหนดการที่มีกำลังการผลิตแบบไม่จำกัด
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: การจัดกำหนดการการเลือกทรัพยากรตามความสามารถ
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: การวางแผนตามระดับความสำคัญ
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: การทำเครื่องหมายสินค้าคงคลังด้วยการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/marking.md
                 - name: การวางแผนระหว่างบริษัท
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: ไม่รวมผลิตภัณฑ์ที่มีสถานะของวงจรการใช้ผลิตภัณฑ์ที่กำหนด
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: วิธีการเติมสินค้าและการแก้ไขปริมาณ
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+                - name: กรอบเวลาความครอบคลุม
+                  href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: ความต้องการสุทธิและข้อมูลการเชื่อมโยงความต้องการกับการจัดซื้อที่มีการเพิ่มประสิทธิภาพการวางแผน
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: อนุมัติแผนการใบสั่ง
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: การยืนยันอัตโนมัติด้วยการเพิ่มประสิทธิภาพการวางแผน
-                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: ยืนยันแผนการใบสั่ง
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: คำสั่งซื้อที่วางแผนไว้แบบง่าย
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: การวางแผนที่มีปริมาณคงคลังคงเหลือที่เป็นค่าลบ
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: ดูประวัติแผนและบันทึกการวางแผน
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: ยกเลิกงานการวางแผน
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: ข้อความการดำเนินการ
+                  href: master-planning/action-messages.md
                 - name: แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
@@ -1417,14 +1733,14 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: การเติมสินค้าสินค้าคงคลังที่ปลอดภัยสำหรับสินค้า
                   href: master-planning/safety-stock-replenishment.md
+                - name: ใช้สมุดรายวันปริมาณสินค้าคงคลังที่ปลอดภัยเพื่ออัปเดตความครอบคลุมขั้นต่ำสำหรับสินค้า
+                  href: master-planning/safety-stock-journal.md
                 - name: ล่าช้า
                   href: master-planning/delays.md
                 - name: ยกเลิกงานการวางแผนหลัก
                   href: master-planning/cancel-master-planning-job.md
                 - name: ใช้การติดตามสำหรับการกระจาย
                   href: master-planning/trace-explosion.md
-                - name: ข้อความการดำเนินการ
-                  href: master-planning/action-messages.md
                 - name: ตรวจสอบการดำเนินการวางแผนหลัก
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: สร้างกำหนดการสำหรับไซต์
@@ -1433,6 +1749,8 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: ปฏิทินและการวางแผนหลัก
                   href: master-planning/supply-chain-calendars-master-planning.md
+                - name: แก้ไขข้อผิดพลาดกลไกจัดการการจัดกำหนดการ "กำลังการผลิตไม่เพียงพอ"
+                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: ปรับปรุงประสิทธิภาพของการวางแผนหลัก
                   href: master-planning/master-planning-performance.md
                 - name: ปรับปรุงประสิทธิภาพของกลไกจัดการการจัดกำหนดการ
@@ -1459,34 +1777,40 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: ดูความต้องการระหว่างบริษัทที่วางแผนไว้ขาออก
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: ร่วมมือกับลูกค้าของห่วงโซ่อุปทานภายใน
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: การคาดการณ์ความต้องการ
+                - name: ความต้องการสุทธิและข้อมูลการเชื่อมโยงความต้องการกับการจัดซื้อที่การวางแผนหลักในตัว
+                  href: master-planning/net-requirements-built-in-master-planning.md
+            - name: การคาดการณ์
               items:
-                - name: ภาพรวมของการคาดการณ์ความต้องการ
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: การตั้งค่าการคาดการณ์ความต้องการ
-                  href: master-planning/demand-forecasting-setup.md
-                - name: นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
-                  href: master-planning/import-historical-data.md
-                - name: สร้างการคาดการณ์พื้นฐานทางสถิติ
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: อนุมัติการคาดการณ์ที่ปรับปรุง
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: ตรวจสอบความถูกต้องของการคาดการณ์
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: ลบจุดนอกขอบเขตออกจากข้อมูลในอดีตเกี่ยวกับธุรกรรมเมื่อคำนวณความต้องการการคาดการณ์
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: คีย์การลด
-                  href: master-planning/reduction-keys.md
-                - name: สร้างการคาดการณ์พื้นฐาน
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
-            - name: แก้ไขปัญหาการวางแผนหลัก
-              href: master-planning/troubleshoot-masterplanning.md
+                - name: การคาดการณ์ความต้องการและการจัดหา
+                  items:
+                    - name: การคาดการณ์สินค้าคงคลัง
+                      href: master-planning/inventory-forecast.md
+                    - name: 'คู่มือ: แก้ไขการคาดการณ์ความต้องการด้วยตนเอง'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: การคาดการณ์ความต้องการ
+                  items:
+                    - name: ภาพรวมของการคาดการณ์ความต้องการ
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: การตั้งค่าการคาดการณ์ความต้องการ
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: สร้างการคาดการณ์พื้นฐานทางสถิติ
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: อนุมัติการคาดการณ์ที่ปรับปรุง
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ
+                      href: master-planning/import-historical-data.md
+                    - name: ลบจุดนอกขอบเขตออกจากข้อมูลในอดีตเกี่ยวกับธุรกรรมเมื่อคำนวณการคาดการณ์ความต้องการ
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: ตรวจสอบความถูกต้องของการคาดการณ์
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'คู่มือ: สร้างการคาดการณ์พื้นฐาน'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: การวางแผนหลักที่มีการคาดการณ์
+                  items:
+                    - name: เงื่อนไขสำคัญของการลดการคาดการณ์
+                      href: master-planning/reduction-keys.md
         - name: แอปสำหรับอุปกรณ์เคลื่อนที่
           items:
             - name: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -1502,7 +1826,7 @@
                 - name: การควบคุมต้นทุน
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การจัดการค่าใช้จ่าย
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: ปริมาณสินค้าคงคลังคงเหลือ
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การอนุมัติใบแจ้งหนี้
@@ -1510,11 +1834,11 @@
                 - name: ทีมงานของฉัน
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: รายการข้อมูลเวลาของโครงการ
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: การอนุมัติใบสั่งซื้อ
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ใบสั่งขาย
@@ -1531,9 +1855,9 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: เปิดข้อมูลเอนทิตี้ใน Excel และอัปเดตโดยใช้ Add-in ของ Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: สร้างประสบการณ์เปิดใน Excel
+            - name: คำถามที่ถามบ่อยเกี่ยวกับประสบการณ์การเปิดใน Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
-            - name: เพิ่มเท็มเพลตไปยังเมนูเปิดรายการใน Excel
+            - name: เพิ่มเทมเพลตไปยังเมนูเปิดรายการใน Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
             - name: เลือกกำหนดเมนูเปิดในเมนู Microsoft Office
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1577,7 +1901,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับสมุดที่อยู่
+                - name: การตั้งค่าที่อยู่
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
+                - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/supply-chain/toc.json
@@ -1605,6 +1931,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกขั้นตอนการอนุมัติ
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ตั้งค่าคอนฟิกผู้ตรวจทานรายจ่าย
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกการตัดสินใจด้วยตนเอง
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกการตัดสินใจแบบมีเงื่อนไข
@@ -1643,7 +1971,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/supply-chain/toc.json
                 - name: รายงานชนิดลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/supply-chain/toc.json
-                - name: FAQ เกี่ยวกับลำดับงาน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/supply-chain/toc.json
             - name: การแจ้งเตือน
               items:
@@ -1667,13 +1995,13 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: วางแผนความปลอดภัยของกรณี กระบวนการ และประเภท
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/supply-chain/toc.json
-            - name: เท็มเพลตสำหรับเรกคอร์ด
+            - name: เทมเพลตสำหรับเรกคอร์ด
               items:
-                - name: ภาพรวมของเท็มเพลตของเรกคอร์ด
+                - name: ภาพรวมของเทมเพลตของเรกคอร์ด
                   href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/supply-chain/toc.json
-                - name: สร้างเท็มเพลตเรกคอร์ด
+                - name: สร้างเทมเพลตเรกคอร์ด
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ใช้เท็มเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
+                - name: ใช้เทมเพลตเรกคอร์ดเพื่อสร้างเรกคอร์ดใหม่
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/supply-chain/toc.json
             - name: ตั้งค่าคอนฟิกการจัดการเอกสาร
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/supply-chain/toc.json
@@ -1687,8 +2015,6 @@
               href: procurement/procurement-sourcing-overview.md
             - name: ลำดับงานการจัดซื้อและการจัดหา
               href: procurement/procurement-sourcing-workflows.md
-            - name: แก้ไขปัญหาลำดับงานการจัดซื้อและการจัดหา
-              href: procurement/troubleshoot-procurementworkflows.md
             - name: แค็ตตาล็อกการจัดซื้อ
               items:
                 - name: ภาพรวมของแค็ตตาล็อกการจัดซื้อ
@@ -1709,6 +2035,8 @@
                   href: procurement/request-quotations.md
                 - name: สร้างคำขอใบเสนอราคา
                   href: procurement/tasks/create-request-quotation.md
+                - name: การประมูลแบบเปิดสำหรับ RFQ
+                  href: procurement/sealed-bidding.md
                 - name: สร้างใบขอซื้อที่ใช้ RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: สร้างวิธีการให้คะแนนสำหรับ RFQ
@@ -1727,10 +2055,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: สร้างและออกใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทสำหรับการใช้ภายใน
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: ตรวจสอบความขัดแย้งของราคาในใบสั่งระหว่างบริษัท
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: บันทึกการรับสินค้าในใบสั่งซื้อ
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-                - name: แก้ไขปัญหาใบสั่งซื้อ
-                  href: procurement/troubleshoot-purchaseorders.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: การสร้างใบสั่งซื้อ
               items:
                 - name: สร้างใบสั่งซื้อด้วยตนเอง
@@ -1741,9 +2071,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: สร้างใบสั่งซื้อสำหรับซัพพลายเออร์ขาจร
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: สร้างใบสั่งซื้อที่นำออกใช้เมื่อสร้างใบสั่งซื้อ
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ
+                - name: ใช้ข้อตกลงการซื้อเมื่อสร้างใบสั่งซื้อ
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: สร้างใบสั่งส่งคืนสินค้าซื้อ
                   href: procurement/tasks/create-purchase-return-order.md
@@ -1763,8 +2091,6 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: เงินคืนของผู้จัดจำหน่าย
                   href: procurement/vendor-rebates.md
-                - name: แก้ไขปัญหาราคา ส่วนลด ข้อตกลง และเงินคืน
-                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: นโยบายการจัดซื้อ
               items:
                 - name: ภาพรวมของนโยบายการจัดซื้อ
@@ -1779,8 +2105,6 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: แก้ไขปัญหาใบรับสินค้าและการออกใบแจ้งหนี้
-                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: การจัดการและการทำงานร่วมกันกับผู้จัดจำหน่าย
               items:
                 - name: ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย
@@ -1799,10 +2123,16 @@
                   href: procurement/vendor-request-configurations.md
                 - name: การเตรียมความพร้อมของผู้จัดจำหน่าย
                   href: procurement/vendor-onboarding.md
-                - name: การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
+                - name: การทำงานร่วมกันของผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
                   href: procurement/vendor-collaboration-work-external-vendors.md
-                - name: การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า
+                - name: รักษาใบรับรองของผู้จัดจำหน่าย
+                  href: ../finance/public-sector/manage-vendor-certification.md
+                - name: คำขอประเภทจากผู้จัดจำหน่าย
+                  href: procurement/category-requests-from-vendors.md
+                - name: การทำงานร่วมกันของผู้จัดจำหน่ายกับลูกค้า
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
+                - name: รักษาข้อมูลบัญชีธนาคารของผู้จัดจำหน่าย
+                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
                   href: procurement/vendor-catalogs-import.md
                 - name: ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut e-procurement
@@ -1825,10 +2155,12 @@
               items:
                 - name: ตั้งค่าข้อมูลทรัพยากรโครงการ
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: ส่งและอนุมัติงบประมาณโครงการ
+                - name: สร้างและส่งเวิร์กโฟลว์งบประมาณโครงการ
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: ส่งและอนุมัติการปรับปรุงงบประมาณโครงการ
                   href: procurement/tasks/submit-approve-project-budget-revision.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดซื้อ
+              href: procurement/procurement-faq.md
         - name: การจัดการข้อมูลผลิตภัณฑ์
           items:
             - name: ภาพรวมของข้อมูลผลิตภัณฑ์
@@ -1853,6 +2185,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: จัดการหน่วยวัด
+                  href: pim/tasks/manage-unit-measure.md
                 - name: การแปลงหน่วยวัดต่อผลิตภัณฑ์ย่อย
                   href: pim/uom-conversion-per-product-variant.md
                 - name: สร้างผลิตภัณฑ์ที่นำออกใช้สำหรับบริษัทเดียว
@@ -1897,7 +2231,7 @@
                       href: pim/hazmat-items.md
                     - name: การสอบถามและรายงานเกี่ยวกับวัตถุอันตราย
                       href: pim/hazmat-reports.md
-                - name: การแปล FAQ ข้อมูลผลิตภัณฑ์
+                - name: การแปลคำถามที่ถามบ่อยเกี่ยวกับข้อมูลผลิตภัณฑ์
                   href: pim/translations-product-related-information.md
                 - name: ค้นหาผลิตภัณฑ์ในระหว่างการป้อนข้อมูลใบสั่ง
                   href: pim/search-products-product-variants.md
@@ -1909,6 +2243,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: ใช้ตัวออกแบบสูตร
                   href: production-control/formula-designer.md
+                - name: แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต
+                  href: production-control/override-default-reservation-principle.md
                 - name: เพิ่มผลิตภัณฑ์ย่อยโดยใช้น้ำหนักย่อยใบสั่งซื้อ
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: สร้างใบสั่งขายสำหรับผลิตภัณฑ์ที่จัดโครงแบบได้
@@ -1919,8 +2255,6 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: การคำนวณ BOM
                   href: cost-management/bom-calculations.md
-                - name: แก้ไขปัญหาข้อมูลผลิตภัณฑ์
-                  href: pim/troubleshooting-productinformation.md
             - name: การจัดโครงแบบผลิตภัณฑ์
               items:
                 - name: ภาพรวมของการจัดโครงแบบผลิตภัณฑ์
@@ -1951,7 +2285,9 @@
                   items:
                     - name: ตั้งค่าแบบจำลองการจัดโครงแบบผลิตภัณฑ์
                       href: pim/set-up-maintain-product-configuration-model.md
-                    - name: FAQ เกี่ยวกับการคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+                    - name: การคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์
+                      href: pim/config-model-calculations.md
+                    - name: คำถามที่ถามบ่อยเกี่ยวกับการคำนวณแบบจำลองการจัดโครงแบบผลิตภัณฑ์
                       href: pim/calculate-product-configuration-models.md
                     - name: กฎโครงแบบ
                       href: pim/configuration-rules.md
@@ -1981,8 +2317,8 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: โอนย้ายข้อมูลรุ่นผลิตภัณฑ์
                       href: pim/tasks/transfer-data-product-models.md
-                - name: แก้ไขปัญหาตัวจัดโครงแบบผลิตภัณฑ์
-                  href: pim/troubleshooting-productconfigurator.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการข้อมูลผลิตภัณฑ์
+              href: pim/product-information-faq.md
         - name: การจัดการการเปลี่ยนแปลงทางวิศวกรรม
           items:
             - name: ภาพรวมของการจัดการการเปลี่ยนแปลงทางวิศวกรรม
@@ -1999,8 +2335,12 @@
               href: engineering-change-management/product-owner.md
             - name: แอททริบิวต์ทางวิศวกรรมและการค้นหาแอททริบิวต์ทางวิศวกรรม
               href: engineering-change-management/engineering-attributes-and-search.md
-            - name: รุุ่นทางวิศวกรรมและประเภทผลิตภัณฑ์ทางวิศวกรรม
+            - name: รุ่นทางวิศวกรรมและประเภทผลิตภัณฑ์ทางวิศวกรรม
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: จัดการการเปลี่ยนแปลงในสูตรและส่วนผสมของสูตร
+              href: engineering-change-management/manage-formula-changes.md
+            - name: เปิดใช้งานการจัดการการเปลี่ยนแปลงในผลิตภัณฑ์ที่มีอยู่
+              href: engineering-change-management/change-management-existing-products.md
             - name: สถานะของวงจรการใช้ผลิตภัณฑ์และธุรกรรม
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: จัดการการเปลี่ยนแปลงของผลิตภัณฑ์ทางวิศวกรรม
@@ -2009,14 +2349,24 @@
               href: engineering-change-management/product-readiness.md
             - name: นำโครงสร้างผลิตภัณฑ์ออกใช้
               href: engineering-change-management/release-product-structure.md
+            - name: สร้างตัวแปรสําหรับผลิตภัณฑ์ทางวิศวกรรม
+              href: engineering-change-management/engineering-variants.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการการเปลี่ยนแปลงทางวิศวกรรม
+              href: engineering-change-management/change-management-faq.md
         - name: การควบคุมการผลิต
           items:
             - name: ภาพรวมของกระบวนการผลิต
               href: production-control/production-process-overview.md
             - name: 'การวางแผนโหมดผสม: รวมการจัดหาแบบแยกกัน แบบกระบวนการ และแบบ lean'
               href: production-control/mixed-mode-plan.md
-            - name: จัดการงานที่รับเหมารายย่อยในการผลิต
+            - name: จัดการงานที่มีการรับเหมารายย่อยในการผลิต
               href: production-control/manage-subcontract-work-production.md
+            - name: ลำดับหมายเลขแบบรวมสำหรับรหัสงาน
+              href: production-control/unified-job-ids.md
+            - name: เรียกขั้นตอนของกระบวนการอัตโนมัติเพื่อสร้างใบสั่งตรวจสอบคุณภาพ
+              href: production-control/process-automation-quality-orders.md
+            - name: รวมกับระบบการปฏิบัติการผลิตของบริษัทอื่น
+              href: production-control/mes-integration.md
             - name: การผลิตแบบไม่ต่อเนื่อง
               items:
                 - name: รักษาข้อมูลหลักของการผลิต
@@ -2025,14 +2375,14 @@
                       href: production-control/production-set-up-requirements.md
                     - name: สูตรและสูตรการผลิต
                       href: production-control/bill-of-material-bom.md
-                    - name: ฟังก์ชันผู้ออกแบบ BOM
+                    - name: ฟังก์ชันตัวออกแบบ BOM
                       href: production-control/bom-designer-functionality.md
+                    - name: แทนที่หลักการสำรองเริ่มต้นสำหรับวัสดุในการผลิต
+                      href: production-control/override-default-reservation-principle.md
                     - name: สินค้าแฝง
                       href: production-control/phantom-items.md
                     - name: การคำนวณ BOM
                       href: cost-management/bom-calculations.md
-                    - name: จัดการหน่วยวัด
-                      href: pim/tasks/manage-unit-measure.md
                     - name: พารามิเตอร์การผลิตในการดำเนินการผลิต
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: ทรัพยากรของ Operations
@@ -2049,7 +2399,7 @@
                       href: warehousing/warehouse-work-policies.md
                     - name: สร้างคุณสมบัติการจัดกำหนดการเวลาการทำงาน
                       href: production-control/tasks/create-working-time-scheduling-properties.md
-                    - name: สร้างเท็มเพลตเวลาการทำงาน
+                    - name: สร้างเทมเพลตเวลาการทำงาน
                       href: production-control/tasks/create-working-time-templates.md
                     - name: กำหนดกลุ่มทรัพยากรผู้ผลิตแยกกัน
                       href: production-control/tasks/define-discrete-manufacturing-resource-group.md
@@ -2097,16 +2447,6 @@
                       href: production-control/release-production-orders.md
                     - name: รายงานใบสั่งผลิตเมื่อเสร็จสมบูรณ์
                       href: production-control/report-production-orders-as-finished.md
-                    - name: ตั้งค่าและใช้อินเทอร์เฟสการดำเนินการผลิต
-                      items:
-                        - name: ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
-                          href: production-control/production-floor-execution-configure.md
-                        - name: ออกแบบอินเทอร์เฟสการดำเนินการผลิต
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
-                          href: production-control/production-floor-execution-setup.md
-                        - name: วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต
-                          href: production-control/production-floor-execution-use.md
                     - name: ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์
                       href: production-control/config-job-card-device.md
                     - name: รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน
@@ -2149,7 +2489,7 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: คำนวณปริมาณการใช้วัสดุ
                       href: production-control/consumption.md
-                    - name: การผลิตที่ลงรายการบัญชีแล้ว
+                    - name: การลงรายการบัญชีการผลิต
                       href: cost-management/production-posting.md
                 - name: การลงทะเบียนเวลาและการเข้างาน
                   items:
@@ -2161,11 +2501,9 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: กลุ่มการทำงานแบบยืดหยุ่นเวลา
                       href: production-control/time-attendance-flex-groups.md
-                - name: แก้ไขปัญหาการผลิตที่แยกต่างหาก
-                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: การผลิตแบบ Lean
               items:
-                - name: ภาพรวมของการผลิตแบบ Lean
+                - name: ภาพรวม Lean manufacturing
                   href: production-control/lean-manufacturing-overview.md
                 - name: การรับเหมารายย่อยตามกิจกรรม
                   href: production-control/activity-based-subcontracting.md
@@ -2313,10 +2651,48 @@
                       href: production-control/allocate-time-jobs-job-bundle.md
                     - name: คำนวณปริมาณการใช้วัสดุ
                       href: production-control/consumption.md
-                    - name: การผลิตที่ลงรายการบัญชีแล้ว
+                    - name: การลงรายการบัญชีการผลิต
                       href: cost-management/production-posting.md
-                - name: แก้ไขปัญหาการผลิตตามกระบวนการ
-                  href: production-control/troubleshoot-processmanufacturing.md
+            - name: ตั้งค่าและใช้อินเทอร์เฟสการดำเนินการผลิต
+              items:
+                - name: ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-configure.md
+                - name: ออกแบบอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-tabs.md
+                - name: ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-setup.md
+                - name: วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-use.md
+                - name: กำหนดรูปแบบอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-styles.md
+                - name: ปรับแต่งอินเทอร์เฟสการดำเนินการผลิต
+                  href: production-control/production-floor-execution-customize.md
+        - name: การจัดการเงินคืน
+          items:
+            - name: ภาพรวมของโมดูลการจัดการเงินคืน
+              href: rebate-management/rebate-management-overview.md
+            - name: ตั้งค่าและตั้งค่าคอนฟิกโมดูลการจัดการเงินคืน
+              items:
+                - name: เปิดโมดูลการจัดการเงินคืนสําหรับระบบของคุณ
+                  href: rebate-management/rebate-management-enable.md
+                - name: พารามิเตอร์การจัดการเงินคืน
+                  href: rebate-management/rebate-management-parameters.md
+                - name: ลำดับงานข้อตกลงการจัดการเงินคืน
+                  href: rebate-management/rebate-management-workflows.md
+                - name: หลักการลดเงินคืน
+                  href: rebate-management/rebate-reduction-principle.md
+                - name: สถานะเงินคืน
+                  href: rebate-management/rebate-statuses.md
+                - name: กลุ่มการจัดการเงินคืน
+                  href: rebate-management/rebate-management-groups.md
+                - name: การตั้งค่าการลงรายการบัญชีการจัดการเงินคืน
+                  href: rebate-management/rebate-management-posting.md
+            - name: ข้อตกลงการจัดการเงินคืน
+              href: rebate-management/rebate-management-deals.md
+            - name: ดำเนินการ ตรวจทาน และลงรายการบัญชีเงินคืน
+              href: rebate-management/process-review-post.md
+            - name: จัดการการหักเงินโดยใช้เวิร์กเบนช์การหักเงิน
+              href: rebate-management/deduction-workbench.md
         - name: การขายและการตลาด
           items:
             - name: ภาพรวมของการขายและการตลาด
@@ -2355,8 +2731,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: ยืนยันใบสั่งขาย
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: แก้ไขปัญหาใบสั่งขาย
-                  href: sales-marketing/troubleshooting-sales.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับใบสั่งขาย
+                  href: sales-marketing/sales-orders-faq.md
             - name: ข้อตกลงการขาย
               items:
                 - name: ภาพรวมของข้อตกลงการขาย
@@ -2379,9 +2755,63 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: สร้างและแก้ไขใบเสนอราคาขาย
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-                - name: แก้ไขปัญหาใบเสนอราคาขาย
-                  href: sales-marketing/troubleshooting-salesquotation.md
-            - name: การส่งคืนสินค้า
+            - name: การค้าระหว่างบริษัท
+              items:
+                - name: ตั้งค่าการค้าระหว่างบริษัท
+                  items:
+                    - name: ตั้งค่าการค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: พารามิเตอร์ระหว่างบริษัท
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: การตั้งค่าผู้จัดจำหน่าย ลูกค้า และสินค้าสำหรับการค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: ตั้งค่าค่าธรรมเนียมในใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: การตั้งค่าพารามิเตอร์เพื่อลงรายการบัญชีใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: ซิงโครไนซ์ข้อมูลระหว่างบริษัท
+                  items:
+                    - name: ซิงโครไนซ์ราคาและส่วนลดระหว่างบริษัท
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: ซิงโครไนซ์ค่าธรรมเนียมระหว่างบริษัท
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: ซิงโครไนซ์ข้อมูลลูกค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: ซิงโครไนซ์รหัสการโอนการครอบครองระหว่างบริษัท
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: ใบสั่งขายและใบแจ้งหนี้ระหว่างบริษัท
+                  items:
+                    - name: การสร้างใบสั่งซื้อและใบสั่งขายระหว่างบริษัทในบริษัทหลายแห่ง
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: ใบสั่งและใบสั่งส่งคืนสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: สร้างใบสั่งขายระหว่างบริษัทสำหรับการใช้ภายใน
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: สร้างและออกใบแจ้งหนี้ใบสั่งขายระหว่างบริษัทสำหรับลูกค้าที่เป็นบุคคลภายนอก
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: การจองสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: เปลี่ยนแปลงหรือลบต้นฉบับใบสั่งขายระหว่างบริษัท
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: เปลี่ยนแปลงใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: หมายเลขชุดงานและลำดับประจำสินค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: บันทึกการจัดส่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: การลงทะเบียนการชำระเงินโดยอัตโนมัติสำหรับใบแจ้งหนี้ของลูกค้าระหว่างบริษัท
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: ใบสั่งซื้อระหว่างบริษัท
+                  items:
+                    - name: สร้างและออกใบแจ้งหนี้ใบสั่งซื้อระหว่างบริษัทสำหรับการใช้ภายใน
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: ตรวจสอบความขัดแย้งของราคาในใบสั่งระหว่างบริษัท
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: การแปลงสกุลเงินระหว่างบริษัท
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: การจัดกำหนดการหลักระหว่างบริษัท
+                  href: sales-marketing/intercompany-master-scheduling.md
+            - name: การส่งคืน
               items:
                 - name: การส่งคืนสินค้าจากการขาย
                   href: warehousing/sales-returns.md
@@ -2405,6 +2835,8 @@
               href: sales-marketing/trade-allowance.md
             - name: สร้างข้อตกลงทางการค้าใหม่
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: การปรับปรุงประสิทธิภาพการล้างประวัติการขาย
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: การจัดการงานบริการ
           items:
             - name: ภาพรวมของการจัดการงานบริการ
@@ -2425,7 +2857,7 @@
                       href: service-management/time-windows.md
                     - name: สร้างกรอบเวลา
                       href: service-management/create-time-windows.md
-                    - name: สร้างกลุ่มเท็มเพลตการบริการ
+                    - name: สร้างกลุ่มเทมเพลตการบริการ
                       href: service-management/create-service-template-group.md
                 - name: ตั้งค่างานบริการ
                   items:
@@ -2443,17 +2875,17 @@
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: กลุ่มวัตถุที่ให้บริการ
                       href: service-management/service-object-groups.md
-                    - name: การตั้งค่าเท็มเพลตเพื่อแสดงถึงออบเจ็กต์ที่ไซต์ลูกค้า
+                    - name: การตั้งค่าเทมเพลตเพื่อแสดงถึงออบเจ็กต์ที่ไซต์ลูกค้า
                       href: service-management/set-up-template-to-represent-objects-at-customer-site.md
                     - name: ความสัมพันธ์ของวัตถุที่ให้บริการ
                       href: service-management/service-object-relations.md
                     - name: สร้างความสัมพันธ์ของวัตถุที่ให้บริการ
                       href: service-management/create-service-object-relations.md
-                    - name: BOM เท็มเพลต
+                    - name: BOM เทมเพลต
                       href: service-management/template-boms.md
-                    - name: สร้าง BOM เท็มเพลต
+                    - name: สร้าง BOM เทมเพลต
                       href: service-management/create-template-bom.md
-                    - name: แนบเท็มเพลตกับวัตถุที่ให้บริการ
+                    - name: แนบเทมเพลตกับวัตถุที่ให้บริการ
                       href: service-management/attach-templates-service-objects.md
                 - name: กำหนดรหัสเหตุผลสำหรับใบสั่งบริการ
                   items:
@@ -2507,15 +2939,15 @@
                           href: service-management/create-service-agreements.md
                         - name: การสมัครใช้งานการบริการ
                           href: service-management/service-subscriptions.md
-                        - name: เท็มเพลตการบริการ
+                        - name: เทมเพลตการบริการ
                           href: service-management/service-template.md
-                        - name: คัดลอกบรรทัดเท็มเพลตการบริการ
+                        - name: คัดลอกบรรทัดเทมเพลตการบริการ
                           href: service-management/copy-service-template-lines.md
                     - name: เปลี่ยนขั้นของใบสั่งบริการ
                       href: service-management/change-service-order-stage.md
                     - name: อัปเดตและประเมินข้อตกลง
                       items:
-                        - name: จัดการ BOM เท็มเพลตสำหรับความสัมพันธ์ของออบเจ็กต์
+                        - name: จัดการ BOM เทมเพลตสำหรับความสัมพันธ์ของออบเจ็กต์
                           href: service-management/manage-template-boms-on-object-relations.md
                         - name: ลบ BOM การบริการ
                           href: service-management/delete-service-bom.md
@@ -2685,10 +3117,14 @@
               href: transportation/tasks/carrier-groups.md
             - name: เวิร์กเบนช์การสร้างการบรรทุก
               href: transportation/tasks/load-building-workbench.md
-            - name: เท็มเพลตการบรรทุก
+            - name: เทมเพลตการบรรทุก
               href: transportation/tasks/load-template.md
             - name: โพรไฟล์การจัดอันดับ
               href: transportation/tasks/setup-a-rating-profile.md
+            - name: คลาส LTL
+              href: transportation/ltl-class.md
+            - name: รหัส NMFC
+              href: transportation/nmfc-codes.md
             - name: ตั้งค่าดัชนีเชื้อเพลิงของผู้ขนส่ง
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: ตั้งค่าวิธีการชำระเงินการขนส่ง
@@ -2707,6 +3143,58 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: ตั้งค่าข้อจำกัดในการขนส่งสำหรับสินค้า
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: ต้นทุนแฝง
+          items:
+            - name: ภาพรวมของโมดูลต้นทุนแฝง
+              href: landed-cost/landed-cost-overview.md
+            - name: วิธีเปรียบเทียบต้นทุนแฝงกับกับการจัดการการขนส่ง
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: ตั้งค่าและตั้งค่าคอนฟิกโมดูลต้นทุนแฝง
+              items:
+                - name: เปิดโมดูลต้นทุนแฝงสําหรับระบบของคุณ
+                  href: landed-cost/landed-cost-enable.md
+                - name: พารามิเตอร์ต้นทุนแฝง
+                  href: landed-cost/landed-cost-parameters.md
+                - name: พารามิเตอร์การจัดซื้อและการจัดหาที่มีต้นทุนแฝง
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: การตั้งค่าสถานะการเดินทาง
+                  href: landed-cost/voyage-status-setup.md
+                - name: การตั้งค่าคอนเทนเนอร์ขนส่ง
+                  href: landed-cost/shipping-container-setup.md
+                - name: การตั้งค่าข้อมูลการจัดส่ง
+                  href: landed-cost/delivery-information-setup.md
+                - name: การตั้งค่าการเดินทางแบบเที่ยว
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: การตั้งค่าข้อมูลการจัดส่งสินค้า
+                  href: landed-cost/shipping-information-setup.md
+                - name: การตั้งค่าค่าพารามิเตอร์การคิดต้นทุน
+                  href: landed-cost/costing-parameters-setup.md
+                - name: คำอธิบายเริ่มต้นเกี่ยวกับบัญชีแยกประเภททั่วไป
+                  href: landed-cost/defult-descriptions.md
+            - name: การตั้งค่าผู้จัดจำหน่ายที่เพิ่มให้กับต้นทุนแฝง
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: ทำงานกับการเดินทาง คอนเทนเนอร์ และใบแจ้งรายการ
+              items:
+                - name: จัดการการเดินทาง
+                  href: landed-cost/manage-voyages.md
+                - name: จัดการคอนเทนเนอร์ขนส่ง
+                  href: landed-cost/manage-shipping-containers.md
+                - name: จัดการใบแจ้งรายการ
+                  href: landed-cost/manage-folios.md
+            - name: ติดตามการเดินทางขาเข้าและการเดินทางของคอนเทนเนอร์ขนส่ง
+              href: landed-cost/inbound-tracking.md
+            - name: ประเมินและจัดการต้นทุนแฝง
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: การดำเนินการระหว่างส่งต่อ
+              href: landed-cost/in-transit-processing.md
+            - name: ประมวลผลธุรกรรมที่มีจำนวนน้อย/มากเกินไป
+              href: landed-cost/over-under-transactions.md
+            - name: อัปเดตการติดตามการจัดเก็บ
+              href: landed-cost/update-tracking-putaway.md
+            - name: การสอบถามเกี่ยวกับต้นทุนแฝง
+              href: landed-cost/landed-cost-inquiries.md
+            - name: รายงานต้นทุนแฝง
+              href: landed-cost/landed-cost-reports.md
         - name: การจัดการคลังสินค้า
           items:
             - name: ภาพรวมของการจัดการคลังสินค้า
@@ -2719,36 +3207,34 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V2
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ
+                - name: ตั้งค่าเทมเพลตงานสำหรับใบสั่งซื้อ
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: การผสมมิติของผลิตภัณฑ์ในสถานที่
                   href: warehousing/location-product-dimension-mixing.md
                 - name: คลัสเตอร์การสำรองสินค้า
                   href: warehousing/putaway-clusters.md
+                - name: การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: การตรวจสอบคุณภาพ
                   href: warehousing/quality-check.md
-                - name: แก้ไขปัญหาการดำเนินงานคลังสินค้าขาเข้า
-                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: การดำเนินงานของคลังสินค้าขาออก
               items:
-                - name: การจองสินค้าในการจัดการคลังสินค้า
-                  items:
-                    - name: นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
-                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                    - name: แก้ไขการจองสินค้าในการจัดการคลังสินค้า
-                      href: warehousing/troubleshoot-warehouse-reservations.md
+                - name: นโยบายการจองในมิติระดับคลังสินค้าที่ยืดหยุ่น
+                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: นำออกใช้ไปยังคลังสินค้า
+                  href: warehousing/release-to-warehouse-process.md
                 - name: นำออกใช้บางส่วนและการจัดส่งบางส่วน
                   items:
                     - name: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-                    - name: แก้ไขปัญหาการนำออกใช้บางส่วนและการจัดส่งบางส่วน
-                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: การเบิกสินค้าและการบรรจุสินค้า
                   items:
                     - name: ตั้งค่าการเลือกคลัสเตอร์
@@ -2757,8 +3243,10 @@
                       href: warehousing/cluster-position-full.md
                     - name: การเบิกสินค้าคลัสเตอร์ตามระบบ
                       href: warehousing/system-directed-cluster-pick.md
-                    - name: ตั้งค่าการบรรจุลงตู้บรรจุสินค้า
-                      href: warehousing/tasks/set-up-containerization.md
+                    - name: การเบิกสินค้าเกินสําหรับใบสั่งขายและใบสั่งโอนย้าย
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
+                    - name: ตั้งค่ามิติที่แตกต่างกันสำหรับการบรรจุและการจัดเก็บ
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: การยืนยันชุดงานและป้ายทะเบียน
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: เปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน
@@ -2783,14 +3271,14 @@
                       href: warehousing/warehouse-slotting.md
                     - name: คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: การกำหนดจุดยึด
+                      href: warehousing/anchoring.md
                     - name: การเรียงลำดับขาออก
                       href: warehousing/outbound-sorting.md
-                    - name: วางไปที่ผนัง - ใส่ไปที่ร้านค้า
+                    - name: วางตามผนัง - วางตามร้านค้า
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
                       href: warehousing/outbound-workload-visualization.md
-                    - name: แก้ไขปัญหาการเบิกสินค้าและการบรรจุสินค้า
-                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: การเติมสินค้า
                   items:
                     - name: ภาพรวมของการเติมสินค้า
@@ -2807,9 +3295,7 @@
                       href: warehousing/replenishment-strategies.md
                     - name: การเติมสินค้าตามความจุของสถานที่
                       href: warehousing/replenishment-over-location-capacity.md
-                    - name: แก้ไขปัญหาการเติมสินค้าในคลังสินค้า
-                      href: warehousing/troubleshoot-warehouse-replenishment.md
-                - name: การสร้างและการจัดส่งสินค้าบรรทุก
+                - name: การสร้างและการจัดส่งโหลด
                   items:
                     - name: ยืนยันและโอนย้าย
                       href: warehousing/confirm-and-transfer.md
@@ -2819,30 +3305,28 @@
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: นำออกใช้ที่กฎของคลังสินค้า
                       href: warehousing/release-to-warehouse-rule.md
-                    - name: การจัดกลุ่มเท็มเพลตเวฟ
-                      href: warehousing/wave-template-grouping.md
-                    - name: พิมพ์ใหม่และทำให้ป้ายชื่อของเวฟเป็นโมฆะ
-                      href: warehousing/reprint-and-void-wave-labels.md
-                    - name: แก้ไขปัญหาการสร้างและการจัดส่งสินค้าบรรทุก
-                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
+                    - name: การจัดส่งพัสดุขนาดเล็ก
+                      href: warehousing/small-parcel-shipping.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
                   items:
                     - name: นโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งเมื่อนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่จากหน้านำออกใช้ไปยังคลังสินค้า
+                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อมีการแทนที่นโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยใช้การนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
+                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-workbench.md
-                    - name: สถานการณ์จำลอง 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
+                    - name: สถานการณ์จำลองที่ 5 - รวมบัญชีการจัดส่งด้วยตนเอง โดยใช้หน้ารวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-form.md
-                - name: แก้ไขปัญหาการดำเนินงานคลังสินค้าขาออก
-                  href: warehousing/troubleshoot-warehouse-outbound.md
+                - name: การสร้างและการประมวลผลเวฟ
+                  href: warehousing/wave-processing.md
+                - name: พิมพ์ใหม่และทำให้ป้ายชื่อของเวฟเป็นโมฆะ
+                  href: warehousing/reprint-and-void-wave-labels.md
             - name: การดำเนินงานคลังสินค้าในอีกด้าน
               items:
                 - name: นโยบายงานของคลังสินค้า
@@ -2857,6 +3341,8 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: การดำเนินการที่เลื่อนเวลาของงานคลังสินค้า
                       href: warehousing/deferred-put.md
+                    - name: การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง
+                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า
                   items:
                     - name: การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้าจากใบสั่งผลิตไปยังท่าออกของ
@@ -2879,6 +3365,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: สถานการณ์ตัวอย่างของการตรวจนับตามรอบ
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า
                       href: warehousing/onhand-cleanup.md
                     - name: สมุดรายวันสินค้าคงคลัง
@@ -2899,30 +3387,108 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: การรวมบัญชีสินค้า - การใช้ประโยชน์จากสถานที่
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: แก้ไขปัญหางานคลังสินค้า
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: การแบ่งงาน
                       href: warehousing/work-split.md
+                    - name: อินเทอร์เฟสอุปกรณ์จัดการวัสดุ (MHAX)
+                      href: warehousing/mhax.md
+            - name: แอปคลังสินค้า
+              items:
+                - name: ติดตั้ง ตั้งค่า และใช้อุปกรณ์เคลื่อนที่
+                  items:
+                    - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/whats-new-wma.md
+                    - name: ติดตั้งและเชื่อมต่อแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: การรองรับบาร์โค้ดบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mobile-barcode-support.md
+                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                - name: ตั้งค่าฟิลด์และเมนูสำหรับอุปกรณ์เคลื่อนที่
+                  items:
+                    - name: ตั้งค่าคอนฟิกฟิลด์สำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: ปรับแต่งชื่อขั้นตอนและคําแนะนําสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mobile-app-titles-instructions.md
+                    - name: ตั้งค่าคอนฟิกฟิลด์ที่เลื่อนระดับเพื่อติดตั้งขั้นตอนในอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: ตั้งค่าคอนฟิกการอ้อมขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehouse-app-detours.md
+                    - name: การรับป้ายทะเบียนผ่านแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ให้แสดงภาพรวมรายการการเบิกสินค้า
+                      href: warehousing/pick-line-overview.md
+                    - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
+                      href: warehousing/pick-oldest-batch.md
+                - name: พารามิเตอร์อุปกรณ์เคลื่อนที่ส่วนกลาง
+                  href: warehousing/mobile-device-parameters.md
+                - name: บัญชีผู้ใช้ของอุปกรณ์เคลื่อนที่
+                  href: warehousing/mobile-device-work-users.md
+                - name: การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
+                  href: warehousing/mobile-device-user-settings.md
+                - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
+                  href: warehousing/warehouse-app-events.md
+                - name: ขยายกระบวนการคลังสินค้าบนอุปกรณ์เคลื่อนที่
+                  items:
+                    - name: กรอบงานคู่มือกระบวนการ
+                      href: warehousing/process-guide-framework.md
+                    - name: กําหนดไอคอนและชื่อของขั้นตอน
+                      href: warehousing/step-icons-titles.md
             - name: การตั้งค่าคลังสินค้า
               items:
                 - name: การตั้งค่าคอนฟิกคลังสินค้า
                   items:
                     - name: ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า
                       href: warehousing/warehouse-configuration.md
-                    - name: ตั้งค่าคลังสินค้าโดยใช้เท็มเพลตการตั้งค่าคอนฟิกคลังสินค้า
+                    - name: ตั้งค่าคลังสินค้าโดยใช้เทมเพลตการตั้งค่าคอนฟิกคลังสินค้า
                       href: inventory/warehouse-template.md
-                    - name: ควบคุมงานโดยเท็มเพลตงานและคำสั่งสถานที่
+                    - name: ควบคุมงานโดยเทมเพลตงานและคำสั่งสถานที่
                       href: warehousing/control-warehouse-location-directives.md
                     - name: การทำงานกับคำสั่งสถานที่
                       href: warehousing/create-location-directive.md
-                    - name: ขีดจำกัดการเก็บสินค้าคงคลังในสถานที่
+                    - name: ตั้งค่าคอนฟิกตัวกรองผลิตภัณฑ์ในธุรกรรมคลังสินค้า
+                      href: warehousing/filters-and-filter-codes.md
+                    - name: ขีดจำกัดการเก็บสินค้าคงคลังในที่ตั้ง
                       href: warehousing/location-stocking-limits.md
-                    - name: รหัสขั้นตอนของเวฟ
-                      href: warehousing/wave-step-codes.md
-                    - name: ตั้งค่าคอนฟิกการประมวลผลเวฟ
-                      href: warehousing/tasks/configure-wave-processing.md
-                    - name: ตั้งค่าและใช้การพิมพ์ป้ายชื่อของเวฟ
-                      href: warehousing/configure-wave-label-printing.md
+                    - name: การจัดทำและการประมวลผลเวฟ
+                      items:
+                        - name: ตั้งค่าคอนฟิกตัวอย่างการประมวลผลเวฟ
+                          href: warehousing/tasks/configure-wave-processing.md
+                        - name: พารามิเตอร์คลังสินค้าสำหรับการประมวลผลเวฟ
+                          href: warehousing/wave-warehouse-parameters.md
+                        - name: เทมเพลตเวฟ
+                          href: warehousing/wave-templates.md
+                        - name: รหัสขั้นตอนของเวฟ
+                          href: warehousing/wave-step-codes.md
+                        - name: การจัดกลุ่มเทมเพลตเวฟ
+                          href: warehousing/wave-template-grouping.md
+                        - name: การปันส่วนเวฟ
+                          href: warehousing/wave-allocation-method.md
+                        - name: จัดกำหนดการสร้างงานระหว่างเวฟ
+                          href: warehousing/configure-wave-schedule-work-creation.md
+                        - name: การแจ้งเตือนการดำเนินการเวฟ
+                          href: warehousing/wave-execution-notifications.md
+                        - name: การพิมพ์ป้ายชื่อของเวฟ
+                          href: warehousing/configure-wave-label-printing.md
+                        - name: จัดกำหนดการการพิมพ์ป้ายชื่อเวฟระหว่างเวฟ
+                          href: warehousing/configure-task-based-wave-label-printing.md
+                        - name: การบรรจุลงตู้บรรจุสินค้า
+                          href: warehousing/wave-containerization.md
+                        - name: กลยุทธ์การบรรจุคอนเทนเนอร์
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: อัปเดตการจัดส่งอัตโนมัติ
                       href: warehousing/auto-update-shipment.md
                     - name: สร้างโพรไฟล์สถานที่
@@ -2947,52 +3513,14 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: การรองรับบาร์โค้ดบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/mobile-barcode-support.md
+                    - name: บาร์โค้ดและคิวอาร์โค้ด GS1
+                      href: warehousing/gs1-barcodes.md
                     - name: ตั้งค่าคลังสินค้าสำหรับใบสั่งโอนย้าย
                       href: warehousing/transfer-orders-warehouse.md
-                    - name: การแก้ไขปัญหาการตั้งค่าคอนฟิกคลังสินค้า
-                      href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: ติดตั้งและตั้งค่าคอนฟิกในแอปคลังสินค้า
-                  items:
-                    - name: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: สแกนบาร์โค้ดโดยใช้กล้องในแอปคลังสินค้า
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: ตั้งค่าคอนฟิกชื่อฟิลด์ในแอปคลังสินค้า
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: การประมวลผลเหตุการณ์ของแอปคลังสินค้า
-                      href: warehousing/warehouse-app-events.md
-                    - name: การรับป้ายทะเบียนด้วยแอปคลังสินค้า
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของใบสั่งซื้อ
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการลงทะเบียนสินค้าที่ได้รับ
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ให้แสดงภาพรวมรายการการเบิกสินค้า
-                      href: warehousing/pick-line-overview.md
-                    - name: สร้างรายการเมนูอุปกรณ์เคลื่อนที่สำหรับการรวมป้ายทะเบียน
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: การรับป้ายทะเบียนแบบผสมบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: ตั้งค่าคอนฟิกแสดงเฉพาะชุดงานภายในคลังสินค้าบนอุปกรณ์เคลื่อนที่
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: เลือกชุดงานที่เก่าที่สุดในอุปกรณ์เคลื่อนที่
-                      href: warehousing/pick-oldest-batch.md
-                    - name: กรอบงานคู่มือกระบวนการ
-                      href: warehousing/process-guide-framework.md
-                    - name: การแก้ไขปัญหาเกี่ยวกับการเชื่อมต่อกับแอปคลังสินค้า
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: การอัปเกรดและการย้าย
                   items:
-                    - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 เป็น Finance and Operations
+                    - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็น Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-                    - name: แก้ไขปัญหาการอัปเกรดและการย้ายไปที่การจัดการคลังสินค้าขั้นสูง
-                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
-                - name: แก้ไขปัญหาการตั้งค่าคลังสินค้า
-                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: การพัฒนา Supply Chain Management
           items:
             - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
@@ -3001,9 +3529,397 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: ขยายเอนทิตี้ข้อมูลปริมาณสินค้าคงคลังคงเหลือ
               href: inventory/extend-on-hand-entities.md
-    - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+        - name: การแก้ไขปัญหา
+          items:
+            - name: การจัดการต้นทุน
+              items:
+                - name: ความขัดแย้ของงรายงานอายุหนี้ของสินค้าคงคลัง
+                  href: troubleshooting/costing/aging-report-discrepancies.md
+                - name: คําเตือนหรือข้อผิดพลาดเกี่ยวกับการเปลี่ยนสถานะรอบระยะเวลาบัญชีแยกประเภท โดยไม่มีการปิดบัญชีสินค้าคงคลัง
+                  href: troubleshooting/costing/change-ledger-period-without-closing.md
+                - name: ช่องว่างเชิงฟังก์ชันระหว่างมูลค่าสินค้าคงคลัง/รายงานอายุหนี้ และรุ่นการจัดเก็บ
+                  href: troubleshooting/costing/function-gaps-storage-reports.md
+                - name: ความขัดแย้งของการอัปเดตจะเกิดขึ้นเมื่อวิธีการประเมินค่าสินค้าคงคลังเป็นต้นทุนมาตรฐาน หรือค่าเฉลี่ยเคลื่อนที่
+                  href: troubleshooting/costing/update-conflict-standard-moving.md
+                - name: การตั้งค่าฟิลด์ที่หายไปในการคัดลอกกลุ่มแบบจำลองสินค้าไปยังนิติบุคคลอื่น
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: รายงานต้นทุนทางอ้อมในกระบวนการจะรวมใบสั่งผลิตที่ลบออก
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: ลงรายการบัญชีการซื้อคงค้างด้วยยอดเงินเป็นศูนย์สำหรับใบรับสินค้าที่มีมูลค่าเป็นศูนย์
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: ใบสั่งซื้อที่ได้รับจริงไม่ปรากฏในรายงานการปิดบัญชีสินค้าคงคลัง
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: ไม่มี วันที่เริ่มต้น บนแท็บ ราคาที่ใช้งานอยู่ ของหน้าราคาสินค้า
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: การบริหารสินค้าคงคลัง
+              items:
+                - name: คุณไม่พบกล่องโต้ตอบแบบหล่นลง "ลำดับงาน" ของสมุดรายวันสินค้าคงคลัง
+                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
+                - name: ลำดับงานสมุดรายวันสินค้าคงคลังไม่มีวันเสร็จสมบูรณ์ และสมุดรายวันไม่สามารถประมวลผลได้
+                  href: troubleshooting/inventory/cant-post-inventory-journal.md
+                - name: สมุดรายวันสินค้าคงคลังของคุณถูกล็อค และชุดงานของลำดับงานใช้ไม่ได้
+                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
+                - name: หน่วยและปริมาณหน่วยไม่ถูกต้อง ในสมุดรายวันสินค้าคงคลัง
+                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
+                - name: เงื่อนไขลำดับงานของสมุดรายวันสินค้าคงคลังใช้ในระดับสมุดรายวัน ไม่ใช่ระดับรายการ
+                  href: troubleshooting/inventory/journal-workflow-conditions.md
+                - name: บานหน้าต่างตัวกรองในหน้า รายการคงเหลือ ใช้งานไม่ได้ตามที่คาดไว้
+                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
+                - name: จํานวนทศนิยมสูงสุดในหน่วยการเก็บสินค้าคงคลังคือ 0
+                  href: troubleshooting/inventory/sku-max-decimals-zero.md
+                - name: ธุรกรรมสินค้าคงคลังหลายรายการสำหรับหมายเลขชุดงานที่ไม่มี "เมื่ออัปเดตตามจริง"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: การกลับรายการรายงานเมื่อเสร็จสมบูรณ์สร้างธุรกรรมเปิดที่ไม่คาดคิด
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: รายงานรายการเบิกสินค้าไม่แสดงหมายเหตุใหม่ที่แนบกับสมุดรายวัน
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: ปริมาณในใบสั่งตรวจสอบสินค้าที่เริ่มต้นแล้วจะไม่อัปเดตเมื่อมีการแบ่งใบสั่ง
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: ฟิลด์ วันที่ทดสอบล่าสุด ไม่มีการอัปเดตเมื่อสร้างใบสั่งตรวจสอบคุณภาพหลายใบ
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: เมื่อแบ่งปริมาณตามน้ำหนักจริง มีการใช้ปริมาณต่ำสุดแทนที่จะเป็นปริมาณที่ตั้งไว้
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: การวางแผนหลัก
+              items:
+                - name: ระบบไม่พบแผนการใบสั่งเมื่อดําเนินงานกับใบสั่งหลายใบ
+                  href: troubleshooting/planning/planned-order-not-exist.md
+                - name: การกระจาย BOM แตกต่างจากการกระจายของใบสั่งผลิตที่ยืนยันและประเมินไว้
+                  href: troubleshooting/planning/bom-explosion-works-differently.md
+                - name: ค่าความล่าช้าจะไม่ได้รับการอัปเดต เมื่อคุณจัดกำหนดการแผนการใบสั่งใหม่
+                  href: troubleshooting/planning/delay-value-not-updated.md
+                - name: แผนการใบสั่งใช้เวลานานในการอัปเดต
+                  href: troubleshooting/planning/planned-order-long-update.md
+                - name: มีการสร้างแผนการใบสั่งขึ้นในสต็อก พร้อมด้วยใบสั่งผลิต
+                  href: troubleshooting/planning/planned-orders-in-stock-items.md
+                - name: การจัดตารางการผลิตไม่พิจารณาค่าเผื่อความปลอดภัย
+                  href: troubleshooting/planning/prod-schedule-safety-margins.md
+                - name: การวางแผนหลักมีการจัดกำหนดการมากกว่าความสามารถที่มีอยู่
+                  href: troubleshooting/planning/respect-capacity-limitations.md
+                - name: พบกำลังการผลิตที่ไม่เพียงพอ
+                  href: troubleshooting/planning/not-enough-capacity-error.md
+                - name: คุณได้รับข้อผิดพลาดเมื่อเรียกใช้กลไกจัดการการวางแผนหลักในตัว
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: สินค้าไม่สามารถมี BOM หรือสูตร
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: ไม่มีพารามิเตอร์สำหรับแผนหลักอยู่
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: ต้องจัดกำหนดการแผนการใบสั่งผลิตก่อนที่จะสามารถยืนยันได้
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: ผลิตภัณฑ์ถูกระงับสำหรับธุรกรรม
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: หมายเลขสูตรที่เลือกไม่ได้รับการอนุมัติสำหรับใบสั่งชุดงาน
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: รหัสผู้จัดจำหน่ายไม่ได้รับอนุญาตสำหรับผลิตภัณฑ์และวันที่เฉพาะ
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: ไม่ได้ระบุผู้จัดจำหน่ายเมื่อยืนยันแผนการใบสั่ง
+                  href: troubleshooting/planning/vendor-not-specified.md
+                - name: ใบสั่งที่ยืนยันซึ่งสืบทอดมาโดยตรงจะได้รับการประมวลผลโดยลำดับงานที่อยู่ระหว่างการตรวจทาน
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: คุณไม่สามารถกรองสินค้าในการวางแผนหลักตามมูลค่ากลุ่มความครอบคลุมที่เกี่ยวข้องของสินค้า
+                  href: troubleshooting/planning/master-planning-batc.md
+                - name: การวางแผนหลักสร้างแผนการใบสั่งสำหรับผลิตภัณฑ์แฝง
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: แผนการใบสั่งซื้อที่สร้างขึ้นเมื่อมีการซื้ออยู่ภายในจำนวนวันค่าลบ
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: ไม่สามารถอัปเดตต้นทุนต่อหน่วยที่คาดการณ์เมื่อคุณนําเข้าเรกคอร์ดการคาดการณ์ความต้องการ
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: ไม่สามารถลบมิติการคาดการณ์ความต้องการคลังสินค้าจากรายการการคาดการณ์
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: ระบบขอให้คุณบันทึกการตั้งค่าความครอบคลุมของสินค้าถึงแม้ว่าคุณจะไม่ได้เปลี่ยนแปลงข้อมูลใดๆ
+                  href: troubleshooting/planning/when-importing-to-th.md
+            - name: การจัดซื้อ
+              items:
+                - name: ความคลาดเคลื่อนของข้อมูลรายการใบสั่งซื้อ
+                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
+                - name: การกระจายการลงบัญชีหนึ่งรายการหรือมากกว่ามีการกระจายที่มากเกินหรือน้อยเกินไป
+                  href: troubleshooting/procurement/accounting-over-under-distributed.md
+                - name: คุณสามารถดำเนินการใบสั่งซื้อให้เสร็จสมบูรณ์ได้เฉพาะหมายเลขรายการที่มีการกระจายทั้งหมดเท่านั้น
+                  href: troubleshooting/procurement/action-requires-full-distribution.md
+                - name: ไม่สามารถเปลี่ยน วันที่มีผลบังคับใช้ ให้กับผู้จัดจำหน่ายที่ได้รับอนุมัติ
+                  href: troubleshooting/procurement/approved-vendor-effective-date.md
+                - name: ใบสั่งซื้อที่ยกเลิกจะปรากฏในรายการแบบร่างในพื้นที่ทำงาน
+                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
+                - name: คุณสามารถลงรายการธุรกรรมในบัญชีแยกประเภทที่ระงับได้
+                  href: troubleshooting/procurement/canceled-receipts-posted.md
+                - name: การยกเลิกส่วนที่เหลือของการจัดส่ง จะย้ายใบสั่งซื้อไปที่สถานะ ยืนยันแล้ว
+                  href: troubleshooting/procurement/change-management-canceled-remainder.md
+                - name: คุณไม่สามารถรวมใบรับสินค้าหลายใบเข้ากับใบสั่งซื้อใบเดียวได้
+                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
+                - name: ไม่ได้กรอกข้อมูลกลุ่มภาษีเริ่มต้นและส่วนลดเงินสดจากบัญชีใบแจ้งหนี้
+                  href: troubleshooting/procurement/default-tax-group-and-discount.md
+                - name: ชื่อการจัดส่งไม่ได้ซิงค์หลังจากเปลี่ยนที่อยู่ที่จัดส่งในใบสั่งซื้อ
+                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
+                - name: เกิดข้อยกเว้นระหว่างการลงรายการบัญชีใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: troubleshooting/procurement/invocation-target-exception.md
+                - name: ใบสั่งซื้อที่นําเข้าแสดงหมายเลขรายการที่ไม่ถูกต้อง
+                  href: troubleshooting/procurement/line-number-increments.md
+                - name: ขีดจํากัดสูงสุดของข้อตกลงการซื้อไม่มีผลบังคับใช้ในใบขอซื้อ
+                  href: troubleshooting/procurement/max-limit-on-requisition.md
+                - name: ข้อผิดพลาด "ไม่ได้ตั้งค่าการอ้างอิงออบเจ็กต์" เกิดขึ้นในระหว่างการยืนยันใบสั่งซื้อ
+                  href: troubleshooting/procurement/object-reference-not-set.md
+                - name: การกระจายการลงบัญชีมีการกระจายที่มากเกินหรือน้อยเกินไป
+                  href: troubleshooting/procurement/over-under-distribution.md
+                - name: คุณไม่สามารถเพิ่มฟิลด์หน่วยราคาลงในหน้าข้อตกลงการซื้อ
+                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
+                - name: ใบสั่งซื้อไม่ได้สะท้อนถึงการตั้งค่าภาษาของนิติบุคคล
+                  href: troubleshooting/procurement/po-language.md
+                - name: ใบรับสินค้าตามใบสั่งซื้อไม่รวมค่าธรรมเนียมทั้งหมด
+                  href: troubleshooting/procurement/po-receipt-missing-charges.md
+                - name: ราคาต่อหน่วยในใบสั่งซื้อไม่ได้คำนวณตามการแปลงหน่วย
+                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
+                - name: ไม่ได้เปิดใช้งานการลงรายการบัญชีไปยังบัญชีแยกประเภทในการตั้งค่าบัญชีแยกประเภท
+                  href: troubleshooting/procurement/post-setting-turned-off.md
+                - name: ข้อผิดพลาดเกี่ยวกับการเปลี่ยนใบสั่งซื้อใหม่ไปยังลำดับงานหลังจากการเปลี่ยนแปลง
+                  href: troubleshooting/procurement/resubmit-po-after-change.md
+                - name: ปัญหาการแปลงสกุลเงินของข้อตกลงทางการค้า
+                  href: troubleshooting/procurement/trade-agreement-currencies.md
+                - name: เงื่อนไขข้อตกลงทางการค้าไม่ถูกนําไปใช้กับรายการใบสั่งที่นําเข้า
+                  href: troubleshooting/procurement/trade-agreement-not-applied.md
+                - name: ข้อตกลงทางการค้าสามารถสร้างจาก RFQ ที่ถูกปฏิเสธ
+                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
+                - name: เงินคืนของผู้จัดจำหน่ายไม่ได้รับการสะสมตามใบแจ้งหนี้
+                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
+                - name: ใช้หมายเลขใบรับสินค้าถึงแม้ว่าจะไม่สร้างใบแจ้งนี้
+                  href: troubleshooting/procurement/voucher-number-consumed.md
+                - name: คุณไม่สามารถออกใบแจ้งหนี้ใบสั่งขายที่แสดงต่อลูกค้าได้
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: ไม่สามารถเพิ่มรายการในใบขอซื้อหลังจากร้องขอการเปลี่ยนแปลงได้
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: การจัดการข้อมูลผลิตภัณฑ์
+              items:
+                - name: คุณไม่สามารถลบผลิตภัณฑ์ที่ปล่อยแล้วได้
+                  href: troubleshooting/products/cant-delete-released-prod.md
+                - name: ปัดเศษจํานวนเต็มอย่างไม่ถูกต้อง เมื่อมีการคํานวณแบบโมเดลการจัดโครงแบบผลิตภัณฑ์
+                  href: troubleshooting/products/integers-incorrectly-rounded.md
+                - name: ข้อความสินค้าจะถูกเขียนทับเมื่อจัดโครงแบบผลิตภัณฑ์ในบรรทัดใบสั่งขาย
+                  href: troubleshooting/products/text-overwritten-configured-item.md
+                - name: คุณไม่สามารถใช้เทมเพลตเพื่อสร้างผลิตภัณฑ์ที่นำออกใช้ได้
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: คุณไม่สามารถนําเข้าสินค้าโดยใช้เอนทิตี้ผลิตภัณฑ์ที่นำออกใช้ V2 ได้
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: ใบสั่งซื้อจะไม่แสดงข้อความผลิตภัณฑ์ที่แปล
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: การควบคุมการผลิต
+              items:
+                - name: ข้อผิดพลาดในการคํานวณการคิดต้นทุนแบบย้อนกลับระหว่างการปิดบัญชีสินค้าคงคลัง
+                  href: troubleshooting/production/backflush-costing-calculation-error.md
+                - name: ไม่สามารถสิ้นสุดใบสั่งผลิตได้เนื่องจากข้อผิดพลาดเกี่ยวกับค่า consumptionCost ของ BOM
+                  href: troubleshooting/production/bom-consumption-cost-error.md
+                - name: ไม่สามารถแทรกรายการวัสดุและส่วนประกอบและกระบวนการผลิตเมื่อสร้างใบสั่งผลิตใหม่
+                  href: troubleshooting/production/cant-insert-bom-route-number.md
+                - name: งานระหว่างความคืบหน้าก่อนหน้านี้สิ้นสุดเมื่อรายงานปริมาณบางส่วนในงานล่าสุด
+                  href: troubleshooting/production/in-progress-jobs-ended.md
+                - name: ไม่สามารถจองสินค้า RM ทั้งหมดเมื่อออกใบสั่งผลิต
+                  href: troubleshooting/production/item-rm-not-reserved.md
+                - name: การรายงานการเสร็จงานการอัปเดตจะล้มเหลวโดยมีข้อผิดพลาดเกี่ยวกับปริมาณที่ขาดหายไป
+                  href: troubleshooting/production/missing-report-finished-quantity.md
+                - name: ข้อผิดพลาดเมื่อลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: ข้อผิดพลาดเมื่อเปลี่ยนสถานะของใบสั่งผลิตจาก รายงานการเสร็จงาน เป็น สิ้นสุด
+                  href: troubleshooting/production/production-order-status-error.md
+                - name: ใบสั่งผลิตไม่แสดงอยู่บนหน้า การทำเครื่องหมาย
+                  href: troubleshooting/production/production-orders-marking-page.md
+                - name: ชื่อทรัพยากรไม่มีการอัปเดตหลังจากเปลี่ยนชื่อผู้ปฏิบัติงานในสมุดที่อยู่
+                  href: troubleshooting/production/resource-name-not-updated.md
+                - name: ข้อผิดพลาดของปริมาณสินค้ารวม เมื่อพยายามสิ้นสุดใบสั่งผลิต
+                  href: troubleshooting/production/total-good-quantity-order-error.md
+                - name: ไม่สามารถติดตามหมายเลขลำดับประจำสินค้าของสินค้าที่สําเร็จแล้วกับสินค้าที่ใช้แล้วได้
+                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
+                - name: ไม่สามารถจองหรือออกใช้งานได้เนื่องจากมีการใช้งานกระบวนการอยู่
+                  href: troubleshooting/production/warehouse-management-processes-used.md
+                - name: ไม่ได้ปฏิบัติตามการตั้งค่าหลักการของการล้างบนรายการ BOM
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: หมายเลขชุดงานถูกล้างเมื่อเลือกรหัสล็อตใหม่
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: ไม่ยอมรับการเลือกที่ล่าช้าเมื่อรีเซ็ตใบสั่งผลิตผ่านชุดงาน
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: ผู้ใช้สามารถยกเลิกการเบิกรายการวัสดุสำหรับผลิตภัณฑ์ที่รายงานการเสร็จงานแล้ว
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: ข้อผิดพลาดเมื่อลงรายการบัญชีสมุดรายวันรายงานการเสร็จงาน
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: คลังสินค้าในสมุดรายวันรายการเบิกสินค้าไม่ได้รับการอัปเดตในรายการ BOM
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: การจัดการเงินคืน
+              items:
+                - name: การสะสมเงินคืนของลูกค้าโดยใช้กลุ่มเงินคืนของสินค้าล้มเหลว
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: การขายและการตลาด
+              items:
+                - name: งานการล้างข้อมูลประวัติการอัปเดตการขายล้มเหลวหรือมีปัญหาด้านประสิทธิภาพ
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
+                - name: สินค้าที่มีการขายรวมไม่ได้รับการสนับสนุนในกระบวนการระหว่างบริษัท
+                  href: troubleshooting/sales/bundle-item-intercompany-process.md
+                - name: ไม่สามารถยกเลิกใบสั่งซื้อระหว่างบริษัทที่เชื่อมโยงกับใบสั่งขายได้
+                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
+                - name: ไม่สามารถลบการจองเมื่อยกเลิกใบสั่ง
+                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
+                - name: ถ้ามีข้อตกลงทางการค้าสองข้อตกลงสำหรับวันที่ที่ทับซ้อนกัน จะมีการเลือกข้อตกลงเดียวกันเสมอ
+                  href: troubleshooting/sales/same-trade-agreement-selected.md
+                - name: ไม่สามารถเปลี่ยนปริมาณการขายของสินค้าบริการในรายการของใบเสนอราคาขาย
+                  href: troubleshooting/sales/service-item-sales-quantity.md
+                - name: ข้อมูลภาษีไม่มีการอัปเดต ถ้าที่ตั้งในส่วนหัวของใบสั่งขายมีการเปลี่ยนแปลง
+                  href: troubleshooting/sales/tax-information-not-updated.md
+                - name: ไม่สามารถลดปริมาณได้เมื่อยกเลิกใบสั่งขาย
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
+                - name: ผู้ดูแลระบบไม่สามารถล้างข้อมูลการระงับใบสั่งเนื่องจากไม่ได้รับอนุญาต
+                  href: troubleshooting/sales/system-administrator.md
+            - name: การจัดการการขนส่ง
+              items:
+                - name: สามารถเพิ่มบัญชีหลักเป็นบัญชีเครดิตเพื่อเหตุผลในการกระทบยอดเท่านั้น
+                  href: troubleshooting/transportation/reconciliation-reaso.md
+            - name: การจัดการคลังสินค้า
+              items:
+                - name: Warehouse mobile app
+                  items:
+                    - name: ไม่พบจุดยึดความน่าเชื่อถือของพาธใบรับรองเมื่อตั้งค่าการเชื่อมต่อแอป
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: ไม่พบจุดยึดความน่าเชื่อถือของพาธใบรับรองเมื่ออัปเดตย้ายและไปยัง WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: เกิดปัญหาในการประมวลผลหลังจากติดตั้งปริมาณงานคลังสินค้าของสเกลยูนิต
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
+                - name: พร้อมต์การจองอัตโนมัติเพื่อให้หมายเลขชุดงานแสดงขึ้นพร้อมกับสินค้าคงคลังที่มีอยู่
+                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
+                - name: ไม่สามารถยกเลิกการบล็อคงานการเบิกสินค้าได้ เนื่องจากงานการเพิ่มเติมสินค้าที่ยังไม่เสร็จ
+                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
+                - name: ไม่สามารถยกเลิกบันทึกการจัดส่งได้หลังจากที่ลงรายการบัญชีจากใบสั่งขายแล้ว
+                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
+                - name: ไม่สามารถย้ายป้ายทะเบียนได้ ถ้าหมายเลขลำดับประจำสินค้ามีการอนุญาตการตัดสินค้าที่ว่างเปล่าได้และการรับสินค้าที่ว่างเปล่า
+                  href: troubleshooting/warehousing/cant-move-license-plate.md
+                - name: ไม่สามารถย้ายสินค้าคงคลังไปยังสถานที่ที่เป็นป้ายทะเบียนที่มีการควบคุม
+                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
+                - name: ไม่พบโพรไฟล์คลัสเตอร์
+                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
+                - name: ไม่สามารถประมวลผลการแก้ไขบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/delivery-note-correction.md
+                - name: ข้อผิดพลาดเมื่อยืนยันการจัดส่งหลังจากสร้างใบสั่งโอนย้ายให้กับสินค้าตามลำดับ
+                  href: troubleshooting/warehousing/dimension-location-left-blank.md
+                - name: การจัดส่งสินค้าโดยตรงไม่สามารถประมวลผลคลังสินค้าที่เปิดใช้งาน WMS ได้
+                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
+                - name: มีการผสมชนิดสินค้าคงคลังเมื่อใช้โพรไฟล์การจัดการท่าสินค้า
+                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
+                - name: ตัวเลือก SKU หลายรายการไม่ได้ประเมินการดำเนินการคำสั่งของสถานที่ต่างๆ
+                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
+                - name: งานการเบิกสินค้าไม่ถูกสร้างในทันทีเมื่อมีการปล่อยโหลดขาออก
+                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
+                - name: ข้อผิดพลาดของป้ายทะเบียนไม่ถูกต้องเมื่อสแกนรหัสป้ายทะเบียนในแอปสำหรับอุปกรณ์เคลื่อนที่
+                  href: troubleshooting/warehousing/invalid-license-plate.md
+                - name: ไม่อนุญาตให้เจ้าของสินค้าคงคลังเมื่อประมวลผลการย้ายในแอปคลังสินค้า
+                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
+                - name: ระบบไม่สามารถอัปเดตปริมาณสินค้าคงคลังได้ เนื่องจากมีธุรกรรมไม่เพียงพอ
+                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
+                - name: ไม่สามารถเลือกการเปลี่ยนแปลงสถานะสินค้าคงคลังในคอลัมน์ชนิดงาน
+                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
+                - name: ข้อผิดพลาดของป้ายทะเบียนหรือที่ตั้งไม่ถูกต้องเมื่อสแกนในแอปสำหรับอุปกรณ์เคลื่อนที่
+                  href: troubleshooting/warehousing/license-plate-location-invalid.md
+                - name: ปริมาณป้ายทะเบียนไม่ถูกต้องเมื่อลงทะเบียนใบสั่งขาเข้า
+                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
+                - name: ข้อผิดพลาดเกี่ยวกับข้อมูลระบุป้ายทะเบียนเมื่อยืนยันการจัดส่งของใบสั่งโอนย้าย
+                  href: troubleshooting/warehousing/license-plate-specified-location.md
+                - name: หนึ่งในรายการอยู่ในโหลดแล้ว
+                  href: troubleshooting/warehousing/line-already-on-load.md
+                - name: ข้อผิดพลาดเกี่ยวกับน้ําหนักโหลดและการอัปเดตที่ถูกยกเลิกเมื่อประมวลผลงานระหว่างสถานที่
+                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
+                - name: การรับป้ายทะเบียนแบบผสมไม่ทำงานสำหรับรหัสการโอนการครอบครองใดๆ ยกเว้นเครดิต
+                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
+                - name: สามารถใช้บทบาทผู้ดูแลระบบเพื่อเข้าถึงตัวเลียนแบบแอปบนอุปกรณ์เคลื่อนที่เท่านั้น
+                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
+                - name: ปัญหาเกี่ยวกับการย้ายจากคลังสินค้าพื้นฐานไปยังคลังสินค้าขั้นสูง
+                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
+                - name: พบงานไม่เพียงพอต่อคลัสเตอร์เมื่อใช้การเลือกคลัสเตอร์ที่ระบบโดยตรง
+                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
+                - name: สถานะของใบสั่งคงเหลือที่ปล่อยแล้วบางส่วนแม้หลังจากออกใบแจ้งหนี้ตามใบสั่งขายแล้ว
+                  href: troubleshooting/warehousing/order-status-partially-released.md
+                - name: ไม่สามารถใช้แอป Warehouse Management บนมือถือเพื่อทำการเบิกสินค้าบางส่วน
+                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
+                - name: เปิดใช้งานการเปลี่ยนสถานะสินค้าคงคลังของงานปริมาณบางส่วน
+                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
+                - name: พิมพ์บันทึกการจัดส่งหรือเนื้อหาการบรรจุตามคลังสินค้าหรือไซต์
+                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
+                - name: ปริมาณไม่ถูกต้องเมื่อมีงานการเบิกสินค้าที่มี LPs หลายตัวในที่ตั้งเดียว
+                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
+                - name: ปริมาณไม่ถูกต้องเมื่อปฏิบัติงานการแบ่งการเบิกสินค้าระหว่างชุดงานหลายชุด
+                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
+                - name: ไม่สามารถนำโหลดบางอย่างไปใช้กับคลังสินค้าอีกครั้งได้
+                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
+                - name: ระบบไม่สามารถจองสินค้าได้ เนื่องจากมี 0.00 อยู่ในสินค้าคงคลัง
+                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
+                - name: ไม่สามารถสร้างรายการโหลดเพื่อส่งคืนใบสั่งขายเนื่องจากมิติสินค้าคงคลังไม่ถูกต้อง
+                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
+                - name: ไม่สามารถออกใบสั่งขายด้วยการดําเนินงานคลังสินค้าขาออก
+                  href: troubleshooting/warehousing/sales-order-not-released.md
+                - name: มีการยืนยันการจัดส่งของสินค้าที่บรรทุกแล้ว แต่ไม่มีการลงรายการบัญชีรายการ
+                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
+                - name: เทมเพลตการป้อนช่องไม่ต้องพิจารณาปริมาณคงคลังคงเหลือของสินค้าที่มีปริมาณงานสูงกว่าชุดงาน
+                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
+                - name: ไม่สามารถปล่อยปริมาณงานเป็นปริมาณบางส่วนที่มีลำดับชั้นของการจองสูงกว่าชุดงาน
+                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
+                - name: มีการยืนยันใบสั่งซื้อที่ยังไม่ได้ยืนยันหลังจากรันอัปเดตใบรับสินค้า
+                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
+                - name: ไม่สามารถยกเลิกกสนจองสินค้าคงคลังบนรายการใบสั่งขาย
+                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีการระงับของลูกค้า
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากรายการที่บรรทุกมีปริมาณเป็นศูนย์
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: ไม่สามารถอัปเดตรายการที่บรรทุกได้เนื่องจากปริมาณที่นําออกใช้จะเป็นค่าลบ
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
+                - name: ใบรับสินค้าที่ยกเลิกจะไม่อัปเดตสถานะธุรกรรมเป็นลงทะเบียนแล้ว
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: การปัดทศนิยมของปริมาณที่มีการอัปเดตจริงไม่ถูกต้อง
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: ปริมาณคงเหลือจริงในหน่วยต้องไม่เท่ากับศูนย์
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: ปริมาณที่เบิกไม่เพียงพอระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: ปริมาณเกินเปอร์เซ็นต์การจัดส่งมากกว่าปริมาณที่กําหนดระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: ปริมาณที่คุณพยายามอัปเดตเกินปริมาณที่ได้รับ/ที่จัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: ปริมาณเกินเปอร์เซ็นต์การจัดส่งน้อยกว่าปริมาณที่กําหนดระหว่างการสร้างบันทึกการจัดส่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
+                - name: เกิดข้อผิดพลาดขณะเลือกสถานที่ในระหว่างการลงทะเบียนรายการเบิกสินค้า
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: สถานีบรรจุสินค้าไม่แสดงหมายเหตุผลิตภัณฑ์
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: โพรไฟล์สถานที่ไม่อนุญาตให้มีสินค้าคงคลังค่าลบ แต่อนุญาตให้ใช้ปริมาณคงคลังคงเหลือที่เป็นค่าลบได้
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: พิมพ์ป้ายชื่อได้เพียงป้ายเดียวสำหรับหลายหัวข้องานบนใบเสร็จเดียว
+                  href: troubleshooting/warehousing/when-receipting-prod.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากปัญหาของปฏิทิน
+                  href: troubleshooting/warehousing/load-has-active-appo.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากงานที่ไม่สมบูรณ์หรือขาดหายไป
+                  href: troubleshooting/warehousing/open-or-no-work-exis.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากสินค้ายังไม่ได้รับการเบิก
+                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
+                - name: คุณไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเป็นศูนย์
+                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
+                - name: ไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเกินเปอร์เซ็นต์การจัดส่งมากกว่าปริมาณที่สั่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
+                - name: ไม่สามารถยืนยันการจัดส่งได้เนื่องจากมีปริมาณเกินเปอร์เซ็นต์การจัดส่งน้อยกว่าปริมาณที่สั่ง
+                  href: troubleshooting/warehousing/quantity-exceeds-und.md
+                - name: รายการงานที่ปิดครั้งสุดท้ายต้องเป็นส่งสินค้า
+                  href: troubleshooting/warehousing/the-last-closed-work.md
+                - name: ฟิลด์น้ำหนักในรายการที่บรรทุกไม่ตรงกับฟิลด์น้ำหนักในการบรรทุก
+                  href: troubleshooting/warehousing/the-weight-fields-on.md
+                - name: เวฟไม่มีสิทธิ์ในการล้างข้อมูล
+                  href: troubleshooting/warehousing/wave-is-not-eligible.md
+                - name: น้ำหนักต้องเป็นค่าบวก
+                  href: troubleshooting/warehousing/weight-must-be-posit.md
+                - name: ไม่สามารถยกเลิกงานได้เนื่องจากงานถูกบล็อค
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
+                - name: ไม่สามารถยกเลิกงานได้เนื่องจากสถานะ
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
+                - name: งานไม่ถูกบล็อค
+                  href: troubleshooting/warehousing/work-is-not-blocked.md
+                - name: งานยังคงถูกบล็อค
+                  href: troubleshooting/warehousing/work-remains-blocked.md
+                - name: คุณไม่สามารถยกเลิกงานที่อยู่กับผู้ใช้ได้
+                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
+    - name: การพัฒนาและการดูแลระบบแอปการเงินและการดำเนินงาน
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md
