@@ -1,30 +1,27 @@
 ---
 title: การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
 description: การตั้งค่าใบสั่งเริ่มต้นกำหนดไซต์และคลังสินค้าที่สินค้าจะเป็นต้นทางหรือจัดเก็บ ปริมาณต่ำสุด สูงสุด หลายรายการ และมาตรฐานที่จะใช้สำหรับการค้าหรือการจัดการสินค้าคงคลัง ระยะเวลารอคอยสินค้า แฟล็กหยุด และวิธีการสัญญาว่าจะออกใบสั่ง
-author: t-benebo
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438776"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102775"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
 
@@ -118,7 +115,7 @@ ms.locfileid: "4438776"
 
 พิจารณาตัวอย่างผลิตภัณฑ์ต่อไปนี้
 
-|                                                     |                                         |
+| สินค้า                                                | มูลค่า                                   |
 |-----------------------------------------------------|-----------------------------------------|
 | **ชื่อผลิตภัณฑ์**                                    | เซ็นเซอร์ photoelectric                    |
 | **หมายเลขสินค้า**                                     | XW56                                    |
@@ -189,12 +186,9 @@ ms.locfileid: "4438776"
 
 การตรวจสอบความถูกต้องอย่างเข้มงวดใช้กับค่า **ปริมาณในใบสั่งมาตรฐาน** ที่ระบุไว้ในแท็บด่วน **ใบสั่งซื้อ** **สินค้าคงคลัง** และ **ใบสั่งขาย** ของหน้า **การตั้งค่าใบสั่งเริ่มต้น** แต่ละแท็บด่วนจะมีการตั้งค่า **หลายอย่าง** ของตัวเอง ซึ่งใช้เพื่อตรวจสอบความถูกต้องของค่า **ปริมาณในใบสั่งมาตรฐาน** ที่ระบุไว้สำหรับแท็บด่วนดังกล่าว
 
-### <a name="enable-the-strict-validation-option"></a>เปิดใช้งานตัวเลือกการตรวจสอบความถูกต้องอย่างเข้มงวด
+### <a name="turn-the-strict-validation-option-on-or-off"></a>เปิดหรือปิดตัวเลือกการตรวจสอบความถูกต้องอย่างเข้มงวด
 
-ก่อนที่คุณจะสามารถใช้ตัวเลือกการตรวจสอบความถูกต้องอย่างเข้มงวด คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานได้ ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
-
-- **โมดูล** - *การจัดการข้อมูลผลิตภัณฑ์*
-- **ชื่อคุณลักษณะ** - *การตรวจสอบความถูกต้องของปริมาณใบสั่งเริ่มต้น*
+เมื่อต้องการใช้การตรวจสอบความถูกต้องอย่างเข้มงวด คุณต้องเปิดคุณลักษณะ *การตรวจสอบความถูกต้องอย่างเข้มงวด* บนระบบของคุณ (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 คุณสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และค้นหาคุณลักษณะ *การตรวจสอบความถูกต้องแบบเข้มงวดของปริมาณในใบสั่งเริ่มต้น*
 
 ### <a name="set-the-validation-option"></a>ตั้งค่าตัวเลือกการตรวจสอบความถูกต้อง
 
@@ -204,3 +198,6 @@ ms.locfileid: "4438776"
 1. บนแท็บ **ทั่วไป** ให้ตั้งค่า **การตรวจสอบความถูกต้องของปริมาณในใบสั่งเริ่มต้น** เป็นค่าใดค่าหนึ่งต่อไปนี้:
     - **อย่างเข้มงวด** -เลือกตัวเลือกนี้เพื่อให้แน่ใจว่าค่า **ปริมาณใบสั่งมาตรฐาน** ทั้งหมดจะเป็นค่า **หลาย** หลายค่าสำหรับแท็บด่วนแต่ละรายการ (**ใบสั่งซื้อ** **สินค้าคงคลัง** และ **ใบสั่งขาย**)
     - **มาตรฐาน** - เลือกตัวเลือกนี้เพื่อใช้การตรวจสอบความถูกต้องมาตรฐาน (ซึ่งทำงานเช่นเดียวกับเมื่อลักษณะการทำงานนี้ไม่ได้เปิดใช้งาน)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

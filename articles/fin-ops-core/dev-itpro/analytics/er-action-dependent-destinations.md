@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941255"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323990"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>ตั้งค่าคอนฟิกปลายทาง ER ที่ขึ้นอยู่กับการดำเนินการ
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถตั้งค่าคอนฟิก [ปลายทาง](electronic-reporting-destinations.md) สำหรับส่วนประกอบเอาท์พุท (โฟลเดอร์ หรือไฟล์)ของ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ที่ใช้เพื่อสร้างเอกสารขาออก ผู้ใช้ที่รันรูปแบบ ER ชนิดนี้ และผู้มีสิทธิการเข้าถึงที่เหมาะสม ยังสามารถเปลี่ยนการตั้งค่าปลายทางที่ตั้งค่าคอนฟิกขณะรันไทม์ด้วย
+คุณสามารถตั้งค่าคอนฟิก [ปลายทาง](electronic-reporting-destinations.md) สำหรับส่วนประกอบเอาท์พุท (โฟลเดอร์ หรือไฟล์) ของ [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) รูปแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ที่ใช้เพื่อสร้างเอกสารขาออก ผู้ใช้ที่รันรูปแบบ ER ชนิดนี้ และผู้มีสิทธิการเข้าถึงที่เหมาะสม ยังสามารถเปลี่ยนการตั้งค่าปลายทางที่ตั้งค่าคอนฟิกขณะรันไทม์ด้วย
 
 ใน Microsoft Dynamics 365 Finance **เวอร์ชัน 10.0.17 และใหม่กว่า** สามารถรันรูปแบบ ER ได้โดย [การเตรียมใช้งาน](er-apis-app10-0-17.md) รหัสการดำเนินการที่ผู้ใช้ปฏิบัติโดยการรันรูปแบบ ER นั้น ตัวอย่างเช่น ในโมดูล **บัญชีลูกหนี้** ในการตั้งค่าการจัดการการพิมพ์ คุณสามารถเลือกรูปแบบ ER ที่สร้างเอกสารทางธุรกิจเฉพาะ เช่น ใบแจ้งหนี้ข้อความอิสระ คุณสามารถเลือก **ดู** เพื่อดูตัวอย่างของใบแจ้งหนี้ หรือ **พิมพ์** เพื่อส่งใบแจ้งหนี้ไปยังเครื่องพิมพ์ หากมีการผ่านการดำเนินการของการรันรูปแบบ ER ขณะรันไทม์ คุณสามารถตั้งค่าคอนฟิกปลายทาง ER อื่นสำหรับการดำเนินการผู้ใช้อื่นได้ หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทาง ER ของรูปแบบ ER ชนิดนี้
 

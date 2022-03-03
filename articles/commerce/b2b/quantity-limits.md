@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4c83b96673fa717b034207a41c921a1b197e17ef3588e77b2304ec9e27fa93a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738782"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323391"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เกี่ยวกับไซต์อีคอมเมิร์ซของ B2B
 
@@ -71,13 +71,13 @@ ms.locfileid: "6738782"
 1. ภายใต้ **เปิดใช้งานขีดจํากัดปริมาณการสั่ง** ให้เลือก **ที่เปิดใช้งานของลูกค้า B2B** ในเมนูแบบหล่นลง 
 
 > [!NOTE] 
-> การตั้งค่าโปรแกรมสร้างไซต์ที่อัพเดตจะมีผลเฉพาะหลังจากที่อัปเดตไฟล์ app.settings.json แล้วเท่านั้น สำหรับข้อมูลเพิ่มเติม โปรดดู [SDK และอัปเดตไลบรารีโมดูล](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
+> การตั้งค่าโปรแกรมสร้างไซต์ที่อัปเดตจะมีผลเฉพาะหลังจากที่อัปเดตไฟล์ app.settings.json แล้วเท่านั้น สำหรับข้อมูลเพิ่มเติม โปรดดู [SDK และอัปเดตไลบรารีโมดูล](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ตั้งค่าไซต์อีคอมเมิร์ซ B2B](set-up-b2b-site.md)
 
-[สร้างลำดับชั้นการจำลององค์กรขององค์กร B2B](org-model.md)
+[จัดการคู่ค้าทางธุรกิจ B2B โดยใช้ลำดับชั้นของลูกค้า](partners-customer-hierarchies.md)
 
 [จัดการผู้ใช้คู่ค้าทางธุรกิจบนไซต์อีคอมเมิร์ซ B2B](manage-b2b-users.md)
 

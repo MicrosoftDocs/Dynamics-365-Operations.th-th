@@ -2,7 +2,7 @@
 title: ซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams และ Dynamics 365 Commerce POS
 description: หัวข้อนี้จะอธิบายวิธีการซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams และการขายหน้าร้าน Dynamics 365 Commerce (POS)
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730886"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323508"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>ซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams และ Dynamics 365 Commerce POS
 
@@ -26,11 +26,11 @@ ms.locfileid: "6730886"
 
 หัวข้อนี้จะอธิบายวิธีการซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams และการขายหน้าร้าน Dynamics 365 Commerce (POS)
 
-หนึ่งในวัตถุประสงค์หลักของการรวม Teams คือเพื่อเปิดใช้งานการซิงโครไนส์การจัดการงานระหว่างโปรแกรมประยุกต์ POS และ Teams ด้วยวิธีนี้ พนักงานที่จัดเก็บสามารถใช้โปรแกรมประยุกต์ POS หรือ Teams เพื่อจัดการงานและไม่ต้องสลับโปรแกรมประยุกต์
+หนึ่งในวัตถุประสงค์หลักของการรวม Teams คือเพื่อเปิดใช้งานการซิงโครไนส์การจัดการงานระหว่างแอปพลิเคชัน POS และ Teams ด้วยวิธีนี้ พนักงานที่จัดเก็บสามารถใช้แอปพลิเคชัน POS หรือ Teams เพื่อจัดการงานและไม่ต้องสลับแอปพลิเคชัน
 
 เนื่องจาก Planner ใช้เป็นที่เก็บภารกิจใน Teams จึงต้องมีการเชื่อมโยงระหว่าง Teams และ Dynamics 365 Commerce ลิงค์นี้จะสร้างขึ้นโดยใช้รหัสแผนเฉพาะสำหรับทีมงานร้านค้าที่กำหนด
 
-ขั้นตอนต่อไปนี้แสดงวิธีการตั้งค่าการซิงโครไนส์การจัดการงานระหว่างโปรแกรมประยุกต์ POS และ Teams
+ขั้นตอนต่อไปนี้แสดงวิธีการตั้งค่าการซิงโครไนส์การจัดการงานระหว่างแอปพลิเคชัน POS และ Teams
 
 ## <a name="publish-a-test-task-list-in-teams"></a>เผยแพร่รายการงานทดสอบใน Teams
 
@@ -53,7 +53,10 @@ ms.locfileid: "6730886"
 
 ## <a name="link-pos-and-teams-for-task-management"></a>เชื่อมโยง POS และ Teams เพื่อการจัดการงาน
 
-หากต้องการเชื่อมโยงโปรแกรมประยุกต์ POS และ Microsoft Teams ของการจัดการงานในศูนย์ควบคุม Commerce ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+หากต้องการเชื่อมโยงแอปพลิเคชัน POS และ Microsoft Teams ของการจัดการงานในศูนย์ควบคุม Commerce ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+
+> [!NOTE]
+> ก่อนที่คุณจะพยายามรวมการจัดการงานกับ Microsoft Teams ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งาน [การรวม Dynamics 365 Commerce กับ Microsoft Teams](enable-teams-integration.md) 
 
 1. ไปที่ **Retail และ Commerce \> การจัดการงาน \> การรวมงานด้วย Microsoft Teams**
 1. บนบานหน้าต่างการดำเนินการ เลือก **แก้ไข**
@@ -73,6 +76,6 @@ ms.locfileid: "6730886"
 
 [จัดการบทบาทผู้ใช้ใน Microsoft Teams](manage-user-roles-teams.md)
 
-[แม็ปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams](map-stores-existing-teams.md)
+[แมปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams](map-stores-existing-teams.md)
 
 [คำถามที่พบบ่อยเกี่ยวกับการรวม Dynamics 365 Commerce และ Microsoft Teams](teams-integration-faq.md)

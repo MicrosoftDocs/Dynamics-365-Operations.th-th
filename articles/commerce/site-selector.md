@@ -2,15 +2,12 @@
 title: โมดูลตัวเลือกไซต์
 description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกไซต์และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665234"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109717"
 ---
-# <a name="site-selector-module"></a>โมดูลตัวเลือกไซต์
+# <a name="site-picker-module"></a>โมดูลตัวเลือกไซต์
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกไซต์และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 เมื่อธุรกิจมีไซต์ที่แตกต่างกันในตลาด ภูมิภาค และตำแหน่งที่ตั้ง ผู้ใช้เว็บไซต์ต้องมีวิธีการง่ายๆ ในการสลับไปมาระหว่างไซต์ต่างๆ และเลือกไซต์การซื้อสินค้าที่ต้องการ เพื่อให้ตอบรับกับสถานการณ์จำลองนี้ โมดูลของตัวเลือกไซต์จะช่วยให้ผู้ใช้สามารถเรียกดูระหว่างไซต์ต่างๆ ได้
 
@@ -44,16 +39,18 @@ ms.locfileid: "4665234"
 
 ![ตัวอย่างของโมดูลตัวเลือกไซต์ในส่วนหัวของหน้าไซต์](./media/ecommerce-sitepicker.PNG)
 
-## <a name="site-selector-module-properties"></a>คุณสมบัติของโมดูลตัวเลือกไซต์
+## <a name="site-picker-module-properties"></a>คุณสมบัติของโมดูลตัวเลือกไซต์
 
-| ชื่อคุณสมบัติ | มูลค่า                 | คำอธิบาย |
+| ชื่อคุณสมบัติ | ค่า                 | คำอธิบาย |
 |---------------|-----------------------|-------------|
-| หัวข้อ       | ข้อความ                  | หัวข้อสำหรับโมดูล |
+| หัวเรื่อง       | ข้อความ                  | หัวข้อสำหรับโมดูล |
 | ตัวเลือกของไซต์  | ชื่อ รูปภาพ URL      | คุณสมบัตินี้จะระบุชื่อ ลิงก์ไปยังโฮมเพจของไซต์ และรูปภาพเสริมที่จะแสดงสำหรับแต่ละไซต์ที่รวมอยู่ในโมดูล รูปอาจเป็นแฟล็กหรือบางอย่างที่เป็นตัวแทนของตลาด ภูมิภาค หรือตำแหน่งที่ตั้ง |
 
-## <a name="add-a-site-selector-module-to-a-page"></a>เพิ่มโมดูลตัวเลือกไซต์ไปที่หน้า
+## <a name="add-a-site-picker-module-to-a-page"></a>เพิ่มโมดูลตัวเลือกไซต์ไปที่หน้า
 
-โมดูลตัวเลือกไซต์สามารถเพิ่มเข้าไปใน [โมดูลของส่วนหัว](author-header-module.md) ภายใต้ช่องตัวเลือกไซต์ หลังจากที่เพิ่มแล้ว คุณสามารถกำหนดส่วนหัวของโมดูลและตัวเลือกไซต์
+โมดูลตัวเลือกไซต์สามารถเพิ่มเข้าไปในช่อง **ตัวเลือกไซต์** ของ [โมดูลส่วนหัว](author-header-module.md) หลังจากที่เพิ่มโมดูลตัวเลือกไซต์แล้ว คุณสามารถกำหนดส่วนหัวของโมดูลและตัวเลือกไซต์ โดยทั่วไป โมดูลส่วนหัวจะอยู่ในบางส่วนของส่วนหน้าที่สามารถใช้ร่วมกันระหว่างหน้าอีคอมเมิร์ซของไซต์ได้ ในตัวอย่างต่อไปนี้ มีการเพิ่มโมดูลตัวเลือกไซต์ลงในช่อง **ตัวเลือกไซต์** ของโมดูลส่วนหัวที่มีส่วนย่อยของหน้าที่ชื่อ **HeaderContainer**
+
+![ตัวอย่างของโมดูลตัวเลือกไซต์ในส่วนย่อยส่วนหัว](./media/ecommerce-sitepicker-2.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -64,3 +61,6 @@ ms.locfileid: "4665234"
 [โมดูลการแสดงเส้นทาง](add-breadcrumb.md)
 
 [โมดูลเมนูนำทาง](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

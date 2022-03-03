@@ -2,32 +2,30 @@
 title: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 description: หัวข้อนี้จะอธิบายวิธีการใช้วิธีการจัดรูปแบบเพื่อพิมพ์ค่าบนป้ายชื่อ
 author: perlynne
-manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438820"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103901"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
 [!include [banner](../includes/banner.md)]
 
-โครงร่างการกำหนดเส้นทางเอกสารจะกำหนดโครงร่างของป้ายชื่อทะเบียนและข้อมูลที่พิมพ์ไว้ คุณตั้งค่าคอนฟิกจุดทริกเกอร์การพิมพ์เมื่อคุณตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่และเท็มเพลตการทำงาน
+
+โครงร่างการกำหนดเส้นทางเอกสารจะกำหนดโครงร่างของป้ายชื่อทะเบียนและข้อมูลที่พิมพ์ไว้ คุณตั้งค่าคอนฟิกจุดทริกเกอร์การพิมพ์เมื่อคุณตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่และเทมเพลตการทำงาน
 
 ในสถานการณ์ปกติ เจ้าหน้าที่รับสินค้าของคลังสินค้าพิมพ์ป้ายชื่อทะเบียนทันทีหลังจากที่บันทึกเนื้อหาของแท่นวางสินค้าที่มาถึงในพื้นที่ที่ได้รับ ป้ายชื่อที่มีอยู่จริงจะใช้กับแท่นวางสินค้า จากนั้นจึงสามารถใช้สำหรับการตรวจสอบความถูกต้องโดยเป็นส่วนหนึ่งของกระบวนการสำรองที่ตามมาและการดำเนินการเบิกสินค้าขาออกในอนาคต
 
@@ -51,7 +49,11 @@ ms.locfileid: "4438820"
 
 เมื่อต้องการดูค่าที่จะพิมพ์ ให้ไปที่ **การจัดการคลังสินค้า \> การสอบถามและรายงาน \> ป้ายชื่อทะเบียน**
 
-เครื่องมือการสร้างป้ายชื่อที่มีอยู่หลายตัวสามารถช่วยคุณจัดรูปแบบข้อความสำหรับโครงร่างป้ายชื่อ หลายๆ เครื่องมือเหล่านี้สนับสนุนรูปแบบ `$FieldName$` นอกจากนี้ Microsoft Dynamics 365 Supply Chain Management ยังใช้ตรรกะการจัดรูปแบบพิเศษ โดยเป็นส่วนหนึ่งของการแม็ปฟิลด์สำหรับโครงร่างการกำหนดเส้นทางเอกสาร
+เครื่องมือการสร้างป้ายชื่อที่มีอยู่หลายตัวสามารถช่วยคุณจัดรูปแบบข้อความสำหรับโครงร่างป้ายชื่อ หลายๆ เครื่องมือเหล่านี้สนับสนุนรูปแบบ `$FieldName$` นอกจากนี้ Microsoft Dynamics 365 Supply Chain Management ยังใช้ตรรกะการจัดรูปแบบพิเศษ โดยเป็นส่วนหนึ่งของการแมปฟิลด์สำหรับโครงร่างการกำหนดเส้นทางเอกสาร
+
+## <a name="turn-on-this-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะนี้สำหรับระบบของคุณ
+
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และ เปิดคุณลักษณะ *โครงร่างป้ายชื่อป้ายทะเบียนขั้นสูง* (เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้)
 
 ## <a name="custom-number-formats"></a>รูปแบบตัวเลขที่กำหนดเอง
 
@@ -71,7 +73,7 @@ $FieldName:FormatString$
 - เมื่อต้องการแสดงตัวเลขสี่หลักเสมอ (โดยใช้เลขศูนย์เป็นตัวยึดตำแหน่ง) ให้ใช้ `$Qty:0000$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "0010"
 - เมื่อต้องการแสดงตำแหน่งทศนิยมสองตำแหน่งเสมอ ให้ใช้ `$Qty:0.00$` ตัวอย่างเช่น ถ้าปริมาณคือ 10 ป้ายชื่อจะแสดง "10.00"
 
-สำหรับรายการทั้งหมดของสตริงรูปแบบตัวเลขที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบตัวเลขที่กำหนดเอง](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings)
+สำหรับรายการทั้งหมดของสตริงรูปแบบตัวเลขที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบตัวเลขที่กำหนดเอง](/dotnet/standard/base-types/custom-numeric-format-strings)
 
 ## <a name="custom-string-formats"></a>รูปแบบสตริงที่กำหนดเอง
 
@@ -93,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 ในตัวอย่างนี้ วันที่ 30 เมษายน 2020 จะถูกพิมพ์เป็น "30-04-2020"
 
-สำหรับรายการทั้งหมดของรูปแบบวันที่/เวลาที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบเวลาและวันที่ที่กำหนดเอง](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)
+สำหรับรายการทั้งหมดของรูปแบบวันที่/เวลาที่พร้อมใช้งาน ให้ดูที่ [สตริงรูปแบบเวลาและวันที่ที่กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 ## <a name="print-individual-lines-from-multiline-data"></a>พิมพ์แต่ละบรรทัดจากข้อมูลหลายบรรทัด
 
@@ -136,3 +138,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>ข้อมูลเพิ่มเติมเกี่ยวกับวิธีการพิมพ์ป้ายชื่อ
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและพิมพ์ป้ายชื่อ ให้ดูที่ [การเปิดใช้งานการพิมพ์ป้ายชื่อทะเบียน](tasks/license-plate-label-printing.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
 description: การกำหนดสถานที่ของป้ายทะเบียนจะช่วยให้คุณสามารถดูได้ว่าป้ายทะเบียนอยู่ในแท่นวางสินค้าหลายแห่ง เช่น สถานที่ที่ใช้ชั้นเก็บสินค้าของแท่นวางสินค้าที่มีความลึกเป็นสองเท่า
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438805"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102813"
 ---
 # <a name="location-license-plate-positioning"></a>การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่
 
@@ -33,12 +30,9 @@ ms.locfileid: "4438805"
 
 หัวข้อนี้แสดงสถานการณ์จำลองที่แสดงวิธีการตั้งค่าและใช้คุณลักษณะ
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>เปิดคุณลักษณะการกำหนดตำแหน่งป้ายทะเบียนสถานที่
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการกำหนดตำแหน่งป้ายทะเบียนที่ตั้ง
 
-ก่อนที่คุณจะสามารถใช้การกำหนดสถานที่ของป้ายทะเบียน คุณลักษณะต้องเปิดอยู่ในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
-
-- **โมดูล:** *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *การกำหนดตำแหน่งป้ายทะเบียนสถานที่*
+หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *การกำหนดตำแหน่งป้ายทะเบียนที่ตั้ง* ให้กับระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การกำหนดตำแหน่งป้ายทะเบียนที่ตั้ง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="example-scenario"></a>ตัวอย่างสถานการณ์จำลอง
 
@@ -281,3 +275,6 @@ ms.locfileid: "4438805"
     ![สถานที่ของตำแหน่ง 1](media/LocationLicensePlatePositioning.png "สถานที่ของตำแหน่ง 1")
 
 1. ป้อนรหัสป้ายทะเบียนที่คุณสร้างไว้สำหรับสถานที่เก็บแล้วทำตามพร้อมต์เพื่อเบิกสินค้าตามใบสั่งขาย
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

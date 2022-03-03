@@ -2,28 +2,25 @@
 title: โซนเวลาของสถานที่เพิ่มเติม
 description: หัวข้อนี้แสดงภาพรวมของโซนเวลาของสถานที่ใหม่ที่มีการเพิ่มลงใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438849"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103849"
 ---
 # <a name="additional-location-zones"></a>โซนเวลาของสถานที่เพิ่มเติม
 
@@ -33,12 +30,9 @@ ms.locfileid: "4438849"
 
 ไม่จำเป็นต้องมีการตั้งค่าเพิ่มเติมสำหรับการใช้ฟิลด์โซนเวลา
 
-## <a name="turn-on-the-additional-location-zone-feature"></a>เปิดคุณลักษณะโซนเวลาสถานที่เพิ่มเติม
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะโซนเวลาที่ตั้งเพิ่มเติม
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะ *โซนเวลาสถานที่เพิ่มเติม* จะต้องมีการเปิดอยู่ในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
-
-- **โมดูล:** *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *โซนเวลาสถานที่เพิ่มเติม*
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *โซนเวลาที่ตั้งเพิ่มเติม* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="use-location-zones"></a>ใช้โซนเวลาสถานที่
 
@@ -58,3 +52,6 @@ ms.locfileid: "4438849"
 7. เลือก **สร้าง**
 8. คุณได้รับข้อความแจ้งว่ามีการเพิ่มสถานที่ตั้งใหม่แล้ว เลือกปุ่ม **แสดงข้อความ** เพื่อดูข้อความ
 9. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> คลังสินค้า \> สถานที่** สถานที่ใหม่จะปรากฏในรายการและฟิลด์โซนเวลาทั้งหมดจะพร้อมใช้งาน (นั่นคือฟิลด์โซนเวลาที่มีอยู่และฟิลด์โซนเวลาเพิ่มเติมใหม่)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

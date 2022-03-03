@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571724"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103123"
 ---
 # <a name="category-requests-from-vendors"></a>คำขอประเภทจากผู้จัดจำหน่าย
 
@@ -26,11 +26,11 @@ ms.locfileid: "7571724"
 
 คำขอประเภทเริ่มต้นโดยผู้จัดจำหน่ายในพื้นที่ทำงาน **ข้อมูลผู้จัดจำหน่าย** จากนั้นกระบวนการเหล่านี้จะถูกส่งไปยังตัวแทนของคุณ เพื่อตรวจทานและอนุมัติ ประเภทที่อนุมัติแล้วจะถูกเพิ่มเข้าในรายการประเภทการจัดซื้อของบัญชีผู้จัดจำหน่าย
 
-## <a name="turn-on-the-feature-in-your-system"></a>เปิดใช้งานคุณลักษณะการทำงานในระบบของคุณ
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการร้องขอประเภทจากผู้จัดจำหน่าย
 
-ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *อนุญาตให้ผู้จัดจำหน่ายสามารถใช้ประเภทการจัดซื้อผ่านการทำงานร่วมกันกับผู้จัดจำหน่าย*
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได็ดดยค้นหาคุณลักษณะ *อนุญาตให้ผู้จัดจำหน่ายสมัครรับประเภทการจัดซื้อผ่านการทำงานร่วมกันของผู้จัดจำหน่าย* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-หลังจากที่เปิดคุณลักษณะแล้ว คุณยังคงสามารถเพิ่มประเภทการจัดซื้อในบัญชีผู้จัดจำหน่ายได้ด้วยตนเอง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อนุมัติผู้จัดจำหน่ายสำหรับประเภทการจัดซื้อเฉพาะ](tasks/approve-vendors-specific-procurement-categories.md)
+หากเปิดคุณลักษณะแล้ว คุณยังคงสามารถเพิ่มประเภทการจัดซื้อในบัญชีผู้จัดจำหน่ายได้ด้วยตนเอง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อนุมัติผู้จัดจำหน่ายสำหรับประเภทการจัดซื้อเฉพาะ](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="vendor-collaboration-requirements"></a>ความต้องการของการทำงานร่วมกันกับผู้จัดจำหน่าย
 

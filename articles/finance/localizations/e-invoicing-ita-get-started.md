@@ -1,23 +1,29 @@
 ---
-# required metadata
 title: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
 description: หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
 author: gionoder
 ms.date: 09/22/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
-ms.assetid: null
+ms.custom:
+- "97423"
+- intro-internal
+ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
-ms.search.validFrom: '2020-07-08'
+ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
+ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313657"
 ---
-
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอิตาลี
 
 [!include [banner](../includes/banner.md)]

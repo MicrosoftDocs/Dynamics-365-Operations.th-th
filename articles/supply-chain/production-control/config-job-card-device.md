@@ -2,26 +2,23 @@
 title: ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์
 description: หัวข้อนี้จะอธิบายถึงตัวเลือกต่างๆ สำหรับการตั้งค่าคอนฟิกอุปกรณ์บัตรงาน
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438552"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103449"
 ---
 # <a name="configure-job-card-for-devices"></a>ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์
 
@@ -37,21 +34,19 @@ ms.locfileid: "4438552"
 
 เมื่อต้องการให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (ในใบสั่ง):
 
-1. ป้ายทะเบียนสำหรับการรายงานเมื่อเสร็จสิ้นที่เพิ่มในอุปกรณ์สำหรับบัตรงาน
-1. เปิดใช้งานการสร้างหมายเลขป้ายทะเบียนอัตโนมัติเมื่อมีการรายงานการเสร็จงานในอุปกรณ์บัตรงาน
+1. *ป้ายทะเบียนสำหรับการรายงานเมื่อเสร็จสิ้นที่เพิ่มในอุปกรณ์สำหรับบัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
+1. *เปิดใช้งานการสร้างหมายเลขป้ายทะเบียนอัตโนมัติเมื่อมีการรายงานการเสร็จงานในอุปกรณ์บัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
 
 ### <a name="print-label"></a>พิมพ์ป้ายชื่อ
 
 เมื่อต้องการให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (ในใบสั่ง):
 
-1. ป้ายทะเบียนสำหรับการรายงานเมื่อเสร็จสิ้นที่เพิ่มในอุปกรณ์สำหรับบัตรงาน
-1. พิมพ์ป้ายฉลากจากอุปกรณ์สำหรับบัตรงาน
+1. *ป้ายทะเบียนสำหรับการรายงานเมื่อเสร็จสิ้นที่เพิ่มในอุปกรณ์สำหรับบัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
+1. *พิมพ์ป้ายฉลากจากอุปกรณ์สำหรับบัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
 
 ### <a name="allow-locking-of-touch-screen"></a>อนุญาตการล็อคหน้าจอสัมผัส
 
-เมื่อต้องการให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
-
-- (ตัวอย่าง) คุณลักษณะสำหรับการล็อคอุปกรณ์บัตรงานและเทอร์มินัลบัตรงานเพื่อให้ทำความสะอาดได้
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คุณลักษณะสำหรับการล็อคอุปกรณ์บัตรงานและเทอร์มินัลบัตรงานเพื่อให้สามารถฆ่าเชื้อได้* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="manage-your-device-configurations"></a>จัดการการตั้งค่าคอนฟิกอุปกรณ์ของคุณ
 
@@ -95,3 +90,6 @@ ms.locfileid: "4438552"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [รายงานเป็นเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

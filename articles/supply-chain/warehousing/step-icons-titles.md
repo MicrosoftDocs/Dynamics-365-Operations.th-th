@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902203"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103324"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>กําหนดไอคอนและชื่อขั้นตอนสำหรับแอป Warehouse Management บนมือถือ
 
@@ -27,12 +27,9 @@ ms.locfileid: "7902203"
 
 ![ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอปสำหรับอุปกรณ์เคลื่อนที่ Warehouse Management](media/step-icon-example.png "ตัวอย่างของไอคอนขั้นตอนและชื่อขั้นตอนในแอป Warehouse Management บนมือถือ")
 
-## <a name="turn-on-this-feature-in-your-system"></a>เปิดใช้งานคุณลักษณะการทำงานนี้ในระบบของคุณ
+## <a name="turn-this-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะนี้
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
-
-- **โมดูล:** *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอน ของแอปคลังสินค้าใหม่*
+หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอนต่างๆ ของคุณลักษณะแอปคลังสินค้าใหม่* ในระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอนต่างๆ ของคุณลักษณะแอปคลังสินค้าใหม่* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="standard-step-ids-classes-and-icons"></a>รหัส คลาส และไอคอนขั้นตอนมาตรฐาน
 

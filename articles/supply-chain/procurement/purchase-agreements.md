@@ -1,12 +1,10 @@
 ---
 title: ข้อตกลงการซื้อ
 description: บทความนี้แสดงข้อมูลเกี่ยวกับข้อตกลงการซื้อ  ข้อตกลงการซื้อคือสัญญาที่กำหนดให้องค์กรซื้อในปริมาณหรือยอดเงินที่ระบุโดยใช้ใบสั่งซื้อตามช่วงเวลา ในการแลกเปลี่ยนข้อผูกมัดนี้ ผู้ซื้อจะได้รับราคาและส่วนลดพิเศษ
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017198"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103749"
 ---
 # <a name="purchase-agreements"></a>ข้อตกลงการซื้อ
 
@@ -43,10 +41,7 @@ ms.locfileid: "5017198"
 คุณสามารถระบุผู้ปฏิบัติงานที่รับผิดชอบหลักและผู้ปฏิบัติงานรองในการจัดประเภทข้อตกลงการซื้อ ค่าเหล่านี้จะถูกสืบทอดโดยข้อตกลงการซื้อที่เป็นผลลัพธ์ คุณไม่จำเป็นต้องเพิ่มผู้ปฏิบัติงานที่รับผิดชอบให้กับข้อตกลงการซื้อ และสามารถแก้ไขได้โดยตรงสำหรับแต่ละกรณีตามข้อตกลงการซื้อ คุณไม่สามารถระบุผู้ปฏิบัติงานที่รับผิดชอบรองโดยไม่มีผู้ปฏิบัติงานที่รับผิดชอบหลักได้ แม้ว่าคุณจะไม่จำเป็นต้องมีผู้ปฏิบัติงานที่รับผิดชอบรอง คุณไม่สามารถระบุผู้ปฏิบัติงานเดียวกันเป็นทั้งผู้ปฏิบัติงานที่รับผิดชอบหลักและรองได้
 
 > [!IMPORTANT]
-> ก่อนที่คุณจะสามารถใช้คุณลักษณะฝ่ายที่รับผิดชอบได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
-> 
-> - **โมดูล:** *การจัดซื้อและการจัดหา*
-> - **ชื่อคุณลักษณะ:** *ฝ่ายที่รับผิดชอบข้อตกลงการซื้อ*
+> เพื่อใช้คุณลักษณะฝ่ายที่รับผิดชอบได้ คุณต้องเปิดใช้งานในระบบของคุณ เริ่มจาก Supply Chain Management 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ฝ่ายที่รับผิดชอบข้อตกลงการซื้อ* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="commitment-types"></a>ชนิดข้อผูกมัด
 แต่ละรายการในข้อตกลงการขายเป็นข้อผูกมัดของการซื้อบางอย่าง คุณสามารถใช้รายการจากใบสั่งซื้อหลายฉบับ (POs) เพื่อตอบสนองข้อผูกมัด ข้อผูกมัดมีอยู่สี่ชนิด:
@@ -104,12 +99,13 @@ ms.locfileid: "5017198"
 ## <a name="financial-dimensions-on-purchase-agreements"></a>มิติทางการเงินบนข้อตกลงการซื้อ
 คุณสามารถคัดลอกมิติทางการเงินไปยังส่วนหัวของเอกสารหรือแต่ละรายการของข้อตกลงการซื้อ ถ้าคุณเปลี่ยนมิติในส่วนหัวของข้อตกลงหรือในรายการข้อตกลง การเปลี่ยนแปลงจะไม่ส่งผลต่อใบสั่งที่นำออกใช้แล้วใดๆ แต่จะมีการสะท้อนในใบสั่งใหม่อื่นๆ
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
-
-[สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
+- [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
+- [ใช้ข้อตกลงการซื้อเมื่อสร้างใบสั่งซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

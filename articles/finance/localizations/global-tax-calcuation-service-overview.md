@@ -1,22 +1,26 @@
 ---
-# required metadata
 title: ภาพรวมการคำนวณภาษี
 description: หัวข้อนี้อธิบายขอบเขตและคุณลักษณะโดยรวมของความสามารถคํานวณภาษี
 author: wangchen
 ms.date: 11/17/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: wangchen
-ms.search.validFrom: '2021-04-01'
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105448"
 ---
-
 # <a name="tax-calculation-overview"></a>ภาพรวมการคำนวณภาษี
 
 [!include [banner](../includes/banner.md)]
@@ -72,6 +76,7 @@ ms.dyn365.ops.version: 10.0.18
 | 10.0.22         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.48.215 |
 | 10.0.23         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.50.221 |
 | 10.0.24         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.50.225 |
+| 10.0.25         | การตั้งค่าคอนฟิกการคำนวณภาษีขาย 40.50.225 |
 
 
 ## <a name="data-flow"></a>โฟลว์ข้อมูล

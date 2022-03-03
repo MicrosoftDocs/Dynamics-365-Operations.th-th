@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778484"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103926"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>ยืนยันการจัดส่งขาออกจากชุดงาน
 
@@ -25,12 +25,9 @@ ms.locfileid: "7778484"
 
 หัวข้อนี้จะอธิบายวิธีการตั้งค่าชุดงานที่ยืนยันการจัดส่งสินค้าตามใบสั่งโอนย้ายขาออกโดยอัตโนมัติสำหรับโหลดงานที่พร้อมในการจัดส่ง ชุดงานที่อธิบายไว้ที่นี่ใช้กับการจัดส่งตามใบสั่งโอนย้ายเท่านั้น ไม่ใช่สำหรับใบสั่งขาย
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>เปิดใช้งานการยืนยันการจัดส่งขาออกจากคุณลักษณะชุดงาน
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะยืนยันการจัดส่งขาออกจากชุดงาน
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
-
-- **โมดูล** - *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ** - *ยืนยันการจัดส่งขาออกจากชุดงาน*
+หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *ยืนยันการจัดส่งขาออกจากชุดงาน* ให้กับระบบของคุณ (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ยืนยันการจัดส่งขาออกจากชุดงาน* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="process-outbound-shipments"></a>ประมวลผลการจัดส่งขาออก
 

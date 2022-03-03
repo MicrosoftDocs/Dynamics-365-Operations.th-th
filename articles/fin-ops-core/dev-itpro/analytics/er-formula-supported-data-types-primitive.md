@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72c372a4d9b6af337731ff0bbd750b3b58f27bb79cb3813a0b5e4f79707d9f5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730618"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323651"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลพื้นฐานที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
@@ -101,15 +101,15 @@ ms.locfileid: "6730618"
 
 ## <a name="enumeration"></a><a name="enumeration"></a>การแจงนับ
 
-ชนิดข้อมูลพื้นฐาน *การแจงนับ* คือรายการสัญพจน์ คุณสามารถใช้การแจงนับที่กําหนดใน [รหัสต้นทาง](../dev-ref/xpp-data-primitive.md#enum) ของแอปพลิเคชัน คุณยังสามารถแนะนำการแจงนับของคุณเองใน [รูปแบบข้อมูล](general-electronic-reporting.md#data-model-and-model-mapping-components) ER และส่วนประกอบ [รูปแบบ](general-electronic-reporting.md#FormatComponentOutbound) ER
+ชนิดข้อมูลพื้นฐาน *การแจงนับ* คือรายการสัญพจน์ คุณสามารถใช้การแจงนับที่กําหนดใน [รหัสต้นทาง](../dev-ref/xpp-data-primitive.md#enum) ของแอปพลิเคชัน คุณยังสามารถแนะนำการแจงนับของคุณเองใน รูปแบบข้อมูล ER และส่วนประกอบ รูปแบบ ER
 
-*การแจงนับ* แอปพลิเคชันสามารถใช้ในนิพจน์ของการแม็ปแบบจำลอง ER และรูปแบบ ER ใดๆ
+*การแจงนับ* แอปพลิเคชันสามารถใช้ในนิพจน์ของการแมปแบบจำลอง ER และรูปแบบ ER ใดๆ
 
 รูปภาพประกอบต่อไปนี้จะแสดงวิธีการที่คุณสามารถเพิ่มการแจงนับแบบจำลอง **CustVendCorrectiveReasonCode** ลงในรูปแบบข้อมูล ER ที่แก้ไขได้
 
 [![การกำหนดค่าการแจงนับแบบจำลองในตัวออกแบบรูปแบบข้อมูล ER](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
-*การแจงนับ* แบบจำลองสามารถใช้ในนิพจน์ของการแม็ปแบบจำลอง ER และรูปแบบ ER ใดๆ ที่สร้างขึ้นภายใต้รูปแบบข้อมูลที่มีการใช้ *การแจงนับ*
+*การแจงนับ* แบบจำลองสามารถใช้ในนิพจน์ของการแมปแบบจำลอง ER และรูปแบบ ER ใดๆ ที่สร้างขึ้นภายใต้รูปแบบข้อมูลที่มีการใช้ *การแจงนับ*
 
 ภาพประกอบต่อไปนี้แสดงวิธีการที่คุณสามารถเพิ่มการแจงนับรูปแบบ **รายการของประเภทย่อยของค่าธรรมเนียมย้อนกลับ** ในรูปแบบ ER ที่แก้ไขได้
 

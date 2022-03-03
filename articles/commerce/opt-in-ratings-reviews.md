@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: เลือกที่จะใช้การให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้อธิบายถึงวิธีการเลือกที่จะใช้การจัดอันดับและแสดงความคิดเห็นบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
 author: gvrmohanreddy
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: null
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: gmohanv
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311940"
 ---
-
 # <a name="opt-in-to-use-ratings-and-reviews"></a>เลือกที่จะใช้การให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
@@ -35,9 +39,9 @@ ms.dyn365.ops.version: Release 10.0.5
 1. ทำตามขั้นตอนใน [ปรับใช้ไซต์อีคอมเมิร์ซใหม่](deploy-ecommerce-site.md)
 1. ขณะที่คุณยังคงอยู่ใน LCS ให้ไปที่ **ที่การตั้งค่าการปรับใช้การขายปลีก \> การตั้งค่าอื่นๆ**
 1. ตั้งค่าตัวเลือกการ **เปิดใช้งานการจัดอันดับและข้อคิดเห็น** เป็น **ใช่**
-1. ใน **กลุ่มรักษาความปลอดภัย AAD สำหรับฟิลด์ผู้ควบคุมการการจัดอันดับและแสดงความคิดเห็น** (รหัสออบเจ็กต์ของกลุ่มรักษาความปลอดภัย) ให้ป้อนรหัสของกลุ่มรักษาความปลอดภัยของ Microsoft Azure Active Directory (Azure AD) ที่รวมถึงผู้ควบคุมการจัดอันดับและการแสดงความคิดเห็น
+1. ในฟิลด์ **กลุ่มรักษาความปลอดภัย AAD สำหรับผู้ควบคุมการให้คะแนนและบทวิจารณ์** ให้ป้อนรหัสของกลุ่มรักษาความปลอดภัยของ Microsoft Azure Active Directory (Azure AD) ที่รวมถึงผู้ควบคุมการให้คะแนนและบทวิจารณ์
 
-    ![เลือกที่จะใช้การให้คะแนนและบทวิจารณ์](media/LCS_RnR_Preference.png)
+    ![เลือกที่จะใช้การให้คะแนนและบทวิจารณ์](media/LCS_RnR_Preference_2.png)
 
 1. ดำเนินกระบวนการเริ่มต้นทางอีคอมเมิร์ซให้เสร็จสมบูรณ์
 

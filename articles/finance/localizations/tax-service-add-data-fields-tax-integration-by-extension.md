@@ -2,7 +2,7 @@
 title: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 description: หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี
 author: qire
-ms.date: 04/20/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8bdd56ebdd50c1eae98094725a01bf9c5ec52bb4e689eb282f80631810a65725
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721669"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323529"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 
@@ -85,7 +85,7 @@ ms.locfileid: "6721669"
 - AxClass/TaxIntegration **SalesTable** DataRetrieval
 - AxClass/TaxIntegration **SalesParm** DataRetrieval
 
-ในกิจกรรม **การดึงข้อมูล** เหล่านี้ ข้อมูลจะถูกคัดลอกจากฐานข้อมูลไปยัง `TaxIntegrationDocumentObject` และ `TaxIntegrationLineObject` เนื่องจากกิจกรรมเหล่านี้ทั้งหมดขยายคลาสเท็มเพลตนามธรรมเดียวกัน จึงมีวิธีการที่เหมือนกัน
+ในกิจกรรม **การดึงข้อมูล** เหล่านี้ ข้อมูลจะถูกคัดลอกจากฐานข้อมูลไปยัง `TaxIntegrationDocumentObject` และ `TaxIntegrationLineObject` เนื่องจากกิจกรรมเหล่านี้ทั้งหมดขยายคลาสเทมเพลตนามธรรมเดียวกัน จึงมีวิธีการที่เหมือนกัน
 
 #### <a name="calculation-service-activities"></a>กิจกรรมการบริการคำนวณ
 
@@ -165,7 +165,7 @@ final class TaxIntegrationLineObject_Extension
 
 ถ้าควรเพิ่มฟิลด์ข้อมูลสำหรับธุรกรรมทั้งหมด ให้ขยายคลาส `DataRetrieval` ทั้งหมด
 
-เนื่องจากกิจกรรม **การดึงข้อมูล** ทั้งหมดขยายคลาสเท็มเพลตเดียวกัน โครงสร้างคลาส ตัวแปร และวิธีการจะคล้ายกัน
+เนื่องจากกิจกรรม **การดึงข้อมูล** ทั้งหมดขยายคลาสเทมเพลตเดียวกัน โครงสร้างคลาส ตัวแปร และวิธีการจะคล้ายกัน
 
 ```X++
 protected TaxIntegrationDocumentObject document;
@@ -353,15 +353,77 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-ในรหัสนี้ `_destination` เป็นออบเจ็กต์ตัวตัดคำที่ใช้ในการสร้างการร้องขอการลงรายการบัญชี และ `_source` เป็นออบเจ็กต์ `TaxIntegrationLineObject` 
+ในรหัสนี้ `_destination` เป็นออบเจ็กต์ตัวตัดคำที่ใช้ในการสร้างการร้องขอการลงรายการบัญชี และ `_source` เป็นออบเจ็กต์ `TaxIntegrationLineObject`
 
 > [!NOTE]
-> * กําหนดคีย์ที่จะใช้ในฟอร์มการร้องขอเป็น `private const str`
-> * ตั้งค่าฟิลด์ในวิธีการ `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` โดยใช้วิธีการ `SetField` ชนิดข้อมูลของพารามิเตอร์ที่สองควรเป็น `string` ถ้าชนิดข้อมูลไม่ใช่ `string` ให้แปลงเป็น `string`
+> กําหนดคีย์ที่จะใช้ในฟอร์มการร้องขอเป็น **private const str** สตริงควรจะเหมือนกับชื่อหน่วยวัดที่เพิ่มในหัวข้อ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
+> ตั้งค่าฟิลด์ในวิธีการ **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** โดยใช้วิธีการ **SetField** ชนิดข้อมูลของพารามิเตอร์ที่สองควรเป็น **string** ถ้าชนิดข้อมูลไม่ใช่ **string** ให้แปลง
+> ถ้ามีการขยาย **ชนิด enum** ของ X++ ให้บันทึกความแตกต่างระหว่างค่า ป้ายชื่อ และชื่อ
+> 
+>   - ค่า enum เป็นจำนวนเต็ม
+>   - ป้ายชื่อของ enum สามารถแตกต่างกันในภาษาที่ต้องการ อย่าใช้ **enum2Str** เพื่อแปลงชนิด enum เป็นสตริง
+>   - แนะนำให้ใช้ชื่อของ enum เนื่องจากมีการแก้ไขแล้ว **enum2Symbol** สามารถใช้เพื่อแปลง enum เป็นชื่อได้ ค่าการแจงนับที่เพิ่มในการตั้งค่าคอนฟิกภาษีควรเหมือนกับชื่อ enum เท่านั้น
+
+## <a name="model-dependency"></a>การขึ้นต่อกันของแบบโมเดล
+
+เมื่อสร้างโครงการเสร็จเรียบร้อยแล้ว ให้เพิ่มแบบจำลองการอ้างอิงต่อไปนี้ลงในการขึ้นต่อกันของแบบจำลอง
+
+- ApplicationPlatform
+- ApplicationSuite
+- กลไกจัดการภาษี
+- มิติ หากใช้มิติทางการเงิน
+- แบบจำลองที่จําเป็นอื่นๆ ที่อ้างอิงในโค้ด
+
+## <a name="validation"></a>การตรวจสอบความถูกต้อง
+
+เมื่อเสร็จสิ้นขั้นตอนก่อนหน้านี้ว คุณสามารถตรวจสอบความถูกต้องของการเปลี่ยนแปลงได้
+
+1. ใน Finance ไปที่ **บัญชีเจ้าหนี้** และเพิ่ม **&debug=vs%2CconfirmExit&** ลงใน URL ตัวอย่างเช่น https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit& **&** ขั้นสุดท้ายเป็นสิ่งจำเป็น
+2. เปิดหน้า **ใบสั่งซื้อ** และเลือก **ใหม่** เพื่อสร้างใบสั่งซื้อ
+3. ตั้งค่าฟิลด์ที่ปรับแต่ง แล้วเลือก **ภาษีขาย** จะมีการดาวน์โหลดไฟล์การแก้ไขปัญหาที่มีคำนำหน้า **TaxServiceTroubleshootingLog** โดยอัตโนมัติ ไฟล์นี้ประกอบด้วยข้อมูลธุรกรรมที่ลงรายการบัญชีไปยังบริการคํานวณภาษี 
+4. ตรวจสอบว่าฟิลด์ที่ปรับแต่งที่เพิ่มมีอยู่ในส่วน **JSON อินพุตการคำนวณของบริการภาษี** และค่าถูกต้องหรือไม่ ถ้าค่าไม่ถูกต้อง ให้ตรวจสอบขั้นตอนในเอกสารนี้อีกครั้ง
+
+ตัวอย่าง:
+
+```
+===Tax service calculation input JSON:===
+{
+  "TaxableDocument": {
+    "Header": [
+      {
+        "Lines": [
+          {
+            "Line Type": "Normal",
+            "Item Code": "",
+            "Item Type": "Item",
+            "Quantity": 0.0,
+            "Amount": 1000.0,
+            "Currency": "EUR",
+            "Transaction Date": "2022-1-26T00:00:00",
+            ...
+            /// The new fields added at line level
+            "Cost Center": "003",
+            "Project": "Proj-123"
+          }
+        ],
+        "Amount include tax": true,
+        "Business Process": "Journal",
+        "Currency": "",
+        "Vendor Account": "DE-001",
+        "Vendor Invoice Account": "DE-001",
+        ...
+        // The new fields added at header level, no new fields in this example
+        ...
+      }
+    ]
+  },
+}
+...
+```
 
 ## <a name="appendix"></a>ภาคผนวก
 
-ภาคผนวกนี้แสดงรหัสตัวอย่างที่สมบูรณ์ของการรวมของมิติทางการเงิน (**ศูนย์ต้นทุน** และ **โครงการ**) ที่ระดับรายการ
+ภาคผนวกนี้แสดงรหัสตัวอย่างที่สมบูรณ์ของการรวมของมิติทางการเงิน **ศูนย์ต้นทุน** และ **โครงการ** ที่ระดับรายการ
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

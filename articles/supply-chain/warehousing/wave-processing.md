@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579939"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103524"
 ---
 # <a name="wave-creation-and-processing"></a>การสร้างและการประมวลผลเวฟ
 
@@ -190,9 +190,9 @@ ms.locfileid: "7579939"
 
 ใช้หน้า **รายละเอียดชุดงานเวฟ** เพื่อตรวจสอบชุดงานและงานที่เกี่ยวข้องที่เชื่อมโยงกับเวฟใดๆ การนี้มีประโยชน์โดยเฉพาะอย่างยิ่งในการแก้ไขปัญหาเบื้องต้นของเวฟที่ล้มเหลว ถ้าไม่มีลักษณะการเช่นนี้ เฉพาะผู้ดูแลระบบเท่านั้นที่จะสามารถเข้าถึงรายละเอียดชุดงานได้ หน้า **รายละเอียดชุดงานเวฟ** สามารถเปิดใช้งานแก่ผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ และให้มุมมองแบบอ่านอย่างเดียวของชุดงานและงานที่เกี่ยวข้อง
 
-### <a name="enable-the-wave-batch-job-details-page"></a>เปิดใช้งานหน้ารายละเอียดชุดงานเวฟ
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>เปิดหรือปิดหน้ารายละเอียดชุดงานของเวฟ
 
-ถ้าระบบของคุณยังไม่ได้รวมหน้า **รายละเอียดชุดงานเวฟ** ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *รายละเอียดชุดงานเวฟ*
+เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 หน้า **รายละเอียดชุดงานของเวฟ** จะเปิดตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *รายละเอียดชุดงานของเวฟ* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="use-the-wave-batch-job-details-page"></a>ใช้งานหน้ารายละเอียดชุดงานเวฟ
 
@@ -216,5 +216,5 @@ ms.locfileid: "7579939"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ตั้งค่าคอนฟิกตัวอย่างการประมวลผลเวฟ](tasks/configure-wave-processing.md)
-- [เท็มเพลตเวฟ](wave-templates.md)
+- [เทมเพลตเวฟ](wave-templates.md)
 - [การบรรจุลงตู้บรรจุสินค้า](wave-containerization.md)

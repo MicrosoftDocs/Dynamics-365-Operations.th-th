@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 67fa97c938f091c23a41ddd5aaf34a32c5a13c93
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778242"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102837"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>รายงานการเสร็จงานจากอุปกรณ์บัตรงาน
 
@@ -218,9 +218,9 @@ ms.locfileid: "7778242"
 
 เมื่อต้องการใช้คุณลักษณะที่อธิบายไว้ในส่วนนี้ คุณต้องใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานคุณลักษณะต่อไปนี้ (ในใบสั่งนี้):
 
-1. ป้ายทะเบียนเพื่อรายงานการเสร็จงานถูกเพิ่มลงในอุปกรณ์สำหรับบัตรงาน (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
-1. เปิดใช้งานการสร้างหมายเลขป้ายทะเบียนอัตโนมัติเมื่อมีการรายงานการเสร็จงานในอุปกรณ์บัตรงาน
-1. พิมพ์ป้ายฉลากจากอุปกรณ์สำหรับบัตรงาน
+1. *ป้ายทะเบียนสำหรับการรายงานเมื่อเสร็จสิ้นที่เพิ่มในอุปกรณ์สำหรับบัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
+1. *เปิดใช้งานการสร้างหมายเลขป้ายทะเบียนอัตโนมัติเมื่อมีการรายงานการเสร็จงานในอุปกรณ์บัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
+1. *พิมพ์ป้ายฉลากจากอุปกรณ์สำหรับบัตรงาน*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>ตั้งค่ารายงานการเสร็จงานไปยังป้ายทะเบียน
 

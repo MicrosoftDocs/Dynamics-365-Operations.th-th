@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901907"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103724"
 ---
 # <a name="mobile-device-user-settings"></a>การตั้งค่าผู้ใช้ของอุปกรณ์เคลื่อนที่
 
@@ -39,12 +39,9 @@ ms.locfileid: "7901907"
 > [!IMPORTANT]
 > คุณลักษณะ *การตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่* จะใช้กับแอป Warehouse Management บนมือถือใหม่เท่านั้น ใช้งานไม่ได้กับแอปคลังสินค้าเก่า
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>เปิดคุณลักษณะการตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการตั้งค่าผู้ใช้อุปกรณ์เคลื่อนที่
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
-
-- **โมดูล:** *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอน ของแอปคลังสินค้าใหม่*
+หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอนต่างๆ ของคุณลักษณะแอปคลังสินค้าใหม่* ในระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การตั้งค่าผู้ใช้ ไอคอน และชื่อขั้นตอนต่างๆ ของคุณลักษณะแอปคลังสินค้าใหม่* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="create-and-manage-user-settings"></a>สร้างและจัดการการตั้งค่าผู้ใช้
 
