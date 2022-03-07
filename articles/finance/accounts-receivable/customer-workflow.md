@@ -1,27 +1,24 @@
 ---
 title: ลำดับงานของลูกค้า
 description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับลำดับงานของลูกค้า คุณจะเปลี่ยนฟิลด์เฉพาะสำหรับลูกค้าแล้วส่งการเปลี่ยนแปลงเหล่านั้นเพื่อขอการอนุมัติโดยใช้ลำดับงานก่อนที่จะมีการเพิ่มไปยังลูกค้า
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4460064"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753837"
 ---
 # <a name="customer-workflow"></a>ลำดับงานของลูกค้า
 
@@ -61,3 +58,6 @@ ms.locfileid: "4460064"
     สถานะในหน้าเปลี่ยนเป็น **การอนุมัติการเปลี่ยนแปลงที่ค้างอยู่**
 
 ลำดับงานจะดำเนินการตามกระบวนการของลำดับงานมาตรฐานในแอปพลิเคชัน ระบบจะนำผู้อนุมัติไปยังหน้า **ลูกค้า** ซึ่งสามารถตรวจสอบการเปลี่ยนแปลงในหน้า **การเปลี่ยนแปลงที่นำเสนอ** แล้วเลือก **ลำดับงาน \> อนุมัติ** เพื่ออนุมัติลำดับงาน หลังจากการอนุมัติทั้งหมดเสร็จสมบูรณ์ ฟิลด์จะได้รับการอัปเดตเป็นค่าที่คุณนำเสนอ
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

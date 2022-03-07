@@ -1,26 +1,24 @@
 ---
 title: สร้างคำขอใบเสนอราคา
 description: 'กระบวนงานนี้แสดงให้คุณเห็นถึงวิธีการสร้างคำขอใบเสนอราคา '
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b0e9e4d7c31b1e6905abeac03e462ac185f3f489
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019915"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565386"
 ---
 # <a name="create-a-request-for-quotation"></a>สร้างคำขอใบเสนอราคา
 
@@ -80,3 +78,6 @@ ms.locfileid: "5019915"
 4. ปิดหน้า
 5. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

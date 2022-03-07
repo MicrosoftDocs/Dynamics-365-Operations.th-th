@@ -1,27 +1,30 @@
 ---
 title: ซิงโครไนส์การปรับปรุงสินค้าคงคลังจาก Supply Chain Management ไปยัง Field Service
 description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้โครงการจาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Field Service
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b825e2fce61e96b963ba0d41f8db49ca9ba646f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d80fce409ee92973a6134d96ce839b9722980918
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571604"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438151"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>ซิงโครไนส์การปรับปรุงสินค้าคงคลังจาก Supply Chain Management ไปยัง Field Service
 
@@ -64,6 +67,3 @@ ms.locfileid: "7571604"
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>โครงการ (Supply Chain Management ไปยัง Field Service): โครงการ
 
 [![การแม็ปเท็มเพลตในการรวมข้อมูล](./media/FSProject1.png)](./media/FSProject1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

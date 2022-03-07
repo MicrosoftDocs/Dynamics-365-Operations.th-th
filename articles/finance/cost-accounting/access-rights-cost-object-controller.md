@@ -2,9 +2,11 @@
 title: สิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08eb9048cf3c8a51e23da2413c5d6c387593146d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733040"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224009"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>สิทธิ์การเข้าถึงสำหรับตัวควบคุมออบเจ็กต์ต้นทุน
 
@@ -62,8 +64,9 @@ ms.locfileid: "6733040"
 
 คุณสามารถใช้แท็บด่วน **ผู้ใช้** ในโปรแกรมออกแบบลำดับชั้นเพื่อแทรกรหัสผู้ใช้หนึ่งรหัสหรือมากกว่าในแต่ละโหนด
 
-|             โหนด                 | ผู้ใช้            | สมาชิกมิติเริ่มต้น     |   สมาชิกมิติปลายทาง   |
+|                                   | ผู้ใช้            | ช่วงสมาชิกมิติ   |                         |
 |-----------------------------------|------------------|---------------------------|-------------------------|
+| **โหนด**                         | **รหัสผู้ใช้**      | **สมาชิกมิติเริ่มต้น** | **สมาชิกมิติสิ้นสุด** |
 | องค์กร                      | เบนจามิน แคลร์ |                           |                         |
 | &nbsp;&nbsp;ผู้ดูแลระบบ                 | เมษายน            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;การเงิน   | อลิเซีย           | CC002                     | CC003                   |
@@ -94,14 +97,14 @@ ms.locfileid: "6733040"
     - การจัดรูปแบบการแสดง Power BI ของข้อมูลที่ถูกฝังในไคลเอ็นต์ Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+> - ก่อนที่ลำดับชั้นของรายการการเข้าถึงสามารถส่งผลต่อข้อมูลใน Power BI ลำดับชั้นของรายการการเข้าถึงและความปลอดภัยระดับแถวใน Power BI ต้องถูกจับคู่ สำหรับข้อมูลเพิ่มเติมดูที่ [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 > - หัวข้อนี้แสดงข้อกำหนดเบื้องต้นที่ต้องมีอยู่ในตำแหน่งก่อนที่คุณสามารถใช้การพื้นที่ทำงาน **ควบคุมต้นทุน**
 
 ทรัพยากรเพิ่มเติม
 
 - [พื้นที่ทำงานการควบคุมต้นทุน](cost-control-workspace.md)
 - [ลำดับชั้นของมิติ](dimension-hierarchy.md)
-- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [การตั้งค่าความปลอดภัยสำหรับชุดเนื้อหาการบัญชีต้นทุน](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

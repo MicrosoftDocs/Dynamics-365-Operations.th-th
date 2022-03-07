@@ -2,29 +2,28 @@
 title: โพรไฟล์การจัดอันดับ
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าข้อมูลสำหรับโพรไฟล์การจัดอันดับ
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54e7457813774027debd301d9a0bf8ce1b6d47
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646439"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574820"
 ---
 # <a name="rating-profiles"></a>โพรไฟล์การจัดอันดับ
+
+[!include [banner](../../includes/banner.md)]
 
 โพรไฟล์การจัดอันดับมีลักษณะสัญญาลอจิสติกส์ (แต่ไม่ใช่สัญญาทางกฎหมาย) ซึ่งใช้ในการกำหนดภาษีการขนส่งสำหรับจำนวนงานในศูนย์การผลิต 
 
@@ -61,3 +60,6 @@ ms.locfileid: "4646439"
 
 > [!NOTE]
 > โพรไฟล์ที่สร้างขึ้นบนหน้า **ผู้ขนส่ง** จะแสดงอยู่บนหน้า **โพรไฟล์การจัดอันดับ**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

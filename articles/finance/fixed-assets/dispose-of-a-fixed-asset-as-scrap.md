@@ -2,11 +2,9 @@
 title: ตัดจำหน่ายสินทรัพย์ถาวรให้เป็นของเสีย
 description: หัวข้อนี้จะอธิบายถึงขั้นตอนการตัดรายการธุรกรรมสำหรับสินทรัพย์ถาวรที่ถูกตัดจำหน่ายเป็นของเสีย
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752929"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>ตัดจำหน่ายสินทรัพย์ถาวรให้เป็นของเสีย
 
@@ -81,3 +79,6 @@ NBV ของสินทรัพย์ถาวรจะถูกคำนว�
 ภาพประกอบต่อไปนี้แสดงใบสำคัญที่ถูกลงบัญชี
 
 [![มูลค่าตามบัญชีสุทธิ](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

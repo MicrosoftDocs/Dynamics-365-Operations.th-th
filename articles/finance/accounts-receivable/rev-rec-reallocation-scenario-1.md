@@ -2,11 +2,9 @@
 title: การปันส่วนใหม่ของการรับรู้รายได้ - สถานการณ์ที่ 1
 description: หัวข้อนี้จะกล่าวถึงสถานการณ์การปันส่วนใหม่ที่มีการป้อนใบสั่งขายสองใบแล้ว แต่ใบสั่งขายมีเพียงการยืนยันเท่านั้น สถานการณ์เดียวกันนี้จะให้ผลลัพธ์ที่คล้ายกันหากใบสั่งขายมากกว่าสองใบอยู่ในสถานะยืนยันแล้ว
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a0add2d4bc01127c1f359736398123a6a3df9fe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d63082553f8625a9953b0a85d59a4949a37c92770ce2a41a43d78cf0266f3b85
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770724"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>การปันส่วนใหม่ของการรับรู้รายได้ – สถานการณ์ที่ 1
 
@@ -58,3 +56,6 @@ ms.locfileid: "4969663"
 > เพื่อให้บริบทเกี่ยวกับสาเหตุที่รายการสินค้าเพิ่มเติมเหล่านี้แสดง คุณสามารถเพิ่มคอลัมน์อื่นๆ ในตารางได้ เช่น **รหัสการปันส่วนใหม่** และ **ใบสั่งขาย**
 > 
 > [![คอลัมน์เพิ่มเติมในหน้าการปันส่วนราคาสำหรับรายได้](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

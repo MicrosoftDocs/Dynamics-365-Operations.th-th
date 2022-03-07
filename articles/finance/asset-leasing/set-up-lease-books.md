@@ -2,7 +2,7 @@
 title: ตั้งค่าสมุดบัญชีสัญญาเช่า
 description: หัวข้อนี้อธิบายถึงข้อมูลที่เก็บรักษาไว้ในสมุดบัญชีสัญญาเช่า สมุดบัญชีสัญญาเช่ามีนโยบายการบัญชีที่กำหนดวิธีการลงบัญชีสัญญาเช่าในระบบ
 author: moaamer
-ms.date: 07/16/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5894fc96e9b80be61fa57417e083780f617ee06bcdca29aceaf164308d17dcda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aafb5913d9aff8b0ac2cfbb8126f4b6d8362c96c
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728828"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880947"
 ---
 # <a name="set-up-lease-books"></a>ตั้งค่าสมุดบัญชีสัญญาเช่า
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 สมุดบัญชีสัญญาเช่ามีนโยบายการบัญชีที่กำหนดวิธีการลงบัญชีสัญญาเช่าในระบบ นอกจากการบัญชีพื้นฐานเงินสด การเช่าสินทรัพย์รองรับมาตรฐานต่อไปนี้:
 

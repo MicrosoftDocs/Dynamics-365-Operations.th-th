@@ -2,28 +2,25 @@
 title: กระบวนการการจัดการคุณภาพ
 description: บทความนี้แสดงข้อมูลเกี่ยวกับกระบวนการจัดการคุณภาพสำหรับผลิตภัณฑ์ที่ไม่สอดคล้องกัน อธิบายวิธีการที่คุณสามารถใช้ฟังก์ชันการควบคุมคุณภาพ วิธีการกำหนด และรักษาความไม่สอดคล้อง และวิธีการจัดการกับการแก้ไข
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ab3b886b9d5237e96e193d7369c6060f19516e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04955c2941b5f5c96b804d9bc6cc0e208b4bf20f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834252"
 ---
 # <a name="quality-management-processes"></a>กระบวนการการจัดการคุณภาพ
 
@@ -101,3 +98,6 @@ ms.locfileid: "4438758"
 [ตั้งค่าใบสั่งตรวจสอบคุณภาพ](tasks/set-up-quality-orders.md)
 
 [ตรวจสอบคุณภาพของสินค้า](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

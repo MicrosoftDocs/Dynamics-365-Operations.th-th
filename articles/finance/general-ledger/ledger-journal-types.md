@@ -1,26 +1,29 @@
 ---
 title: ชนิดสมุดรายวันบัญชีแยกประเภท
 description: 'หัวข้อนี้อธิบายถึงชนิดของสมุดรายวันที่คุณสามารถตั้งค่าสำหรับสมุดรายวันทางการเงิน '
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 2b9ab4eeacc54d2d0ea8e7dc9eb3dd846ffc9e29
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727032"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448325"
 ---
 # <a name="ledger-journal-types"></a>ชนิดสมุดรายวันบัญชีแยกประเภท
 
@@ -65,6 +68,3 @@ ms.locfileid: "7727032"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

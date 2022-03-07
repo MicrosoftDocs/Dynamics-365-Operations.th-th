@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าทีมงานการจัดส่ง
 description: 'หัวข้อนี้อธิบายวิธีการสร้างทีมงานการจัดส่ง '
-author: kamaybac
+author: ShylaThompson
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48d35e4a49393a73f6c22c3ba78c65e72701d335
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6d55bb294885a1ff2352ff65296145fd4fe32044
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571364"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909071"
 ---
 # <a name="set-up-dispatch-teams"></a>ตั้งค่าทีมงานการจัดส่ง 
 

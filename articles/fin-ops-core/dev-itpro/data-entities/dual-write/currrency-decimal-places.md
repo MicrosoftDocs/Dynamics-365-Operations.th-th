@@ -2,11 +2,9 @@
 title: การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
 description: หัวข้อนี้จะอธิบายวิธีการเปลี่ยนจำนวนตำแหน่งทศนิยมที่รองรับการรวมแบบสองทิศทางสำหรับสกุลเงิน
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 1bfb719b20694db9af8a2a013786b8309c23c9d963c8746346930bbde96e9bbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744386"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725147"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
 
@@ -95,3 +93,6 @@ ms.locfileid: "4744386"
 ### <a name="tables-currency-column"></a>ตาราง: คอลัมน์สกุลเงิน
 
 จำนวนตำแหน่งทศนิยมที่สามารถตั้งค่าคอนฟิกสำหรับคอลัมน์สกุลเงินเฉพาะ จะถูกจำกัดไว้ที่สี่ตำแหน่ง
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

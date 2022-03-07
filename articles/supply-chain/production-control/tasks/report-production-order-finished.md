@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa27691942b27886e85c52b7b3a736a62db7b7bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f9b676ffefa9fd4b8d66a5c35012630295f8a263
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580611"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828621"
 ---
 # <a name="report-a-production-order-as-finished"></a>รายงานการเสร็จงานของใบสั่งผลิต
 

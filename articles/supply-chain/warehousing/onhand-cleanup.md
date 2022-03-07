@@ -2,9 +2,11 @@
 title: งานล้างข้อมูลรายการคงเหลือสำหรับการจัดการคลังสินค้า
 description: หัวข้อนี้จะอธิบายงานล้างข้อมูลรายการคงเหลือ ซึ่งช่วยปรับปรุงประสิทธิภาพของระบบโดยการระบุและการลบเรกคอร์ดที่เกี่ยวข้อง แต่ไม่จำเป็น
 author: perlynne
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -12,17 +14,15 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103874"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014494"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>งานล้างข้อมูลรายการคงเหลือสำหรับการจัดการคลังสินค้า
-
-[!include [banner](../includes/banner.md)]
 
 ประสิทธิภาพของการสอบถามที่ใช้ในการคำนวณปริมาณคงคลังคงเหลือจะได้รับผลกระทบจากจำนวนของเรกคอร์ดในตารางที่เกี่ยวข้อง วิธีหนึ่งที่จะช่วยปรับปรุงประสิทธิภาพการทำงานคือ ลดจำนวนเรกคอร์ดที่ฐานข้อมูลต้องพิจารณา
 
@@ -58,7 +58,7 @@ ms.locfileid: "8103874"
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a> ทำให้การตั้งค่าเวลาดำเนินการสูงสุดพร้อมใช้งาน
 
-การตั้งค่า **เวลาดำเนินการสูงสุด** จะพร้อมใช้งานเฉพาะเมื่อเปิดคุณลักษณะ *เวลาดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการปริมาณคงคลังคงเหลือในการจัดการคลังสินค้า* (เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้โดยการค้นหาคุณลักษณะ *เวลาดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการปริมาณคงคลังคงเหลือในการจัดการคลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+โดยค่าเริ่มต้น การตั้งค่า **เวลาดำเนินการสูงสุด** ไม่พร้อมใช้งาน ถ้าคุณต้องการใช้ คุณต้องใช้ [การจัดการลักษณะการทำงาน](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานลักษณะการทำงานที่เกี่ยวข้องในระบบของคุณ ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- **โมดูล:** *การจัดการคลังสินค้า*
+- **ชื่อลักษณะการทำงาน:** *เวลาที่ใช้ในการดำเนินการสูงสุดสำหรับงานล้างข้อมูลรายการคงเหลือของการจัดการคลังสินค้า*

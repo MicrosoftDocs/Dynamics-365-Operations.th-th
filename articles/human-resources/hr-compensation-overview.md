@@ -1,33 +1,31 @@
 ---
 title: แผนค่าตอบแทน
-description: ค่าตอบแทนและสวัสดิการผู้จัดการสามารถใช้การจัดการค่าตอบแทนเพื่อรักษาและประมวลผลแผนค่าตอบแทนคงที่และผันแปรสำหรับพนักงานขององค์กร
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
+description: หัวข้อนี้จะอธิบายวิธีการใช้การจัดการค่าตอบแทนเพื่อจัดการและประมวลผลแผนค่าตอบแทน
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 7521
+ms.search.scope: Human Resources
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 99ecfd6c2014e89fc35c2868e4aaca455b5b9ab3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420722"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983503"
 ---
 # <a name="compensation-plans"></a>แผนค่าตอบแทน
 
-ค่าตอบแทนและสวัสดิการผู้จัดการสามารถใช้การจัดการค่าตอบแทนเพื่อรักษาและประมวลผลแผนค่าตอบแทนคงที่และผันแปรสำหรับพนักงานขององค์กร
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+ค่าตอบแทนและสวัสดิการผู้จัดการสามารถใช้ **การจัดการค่าตอบแทน** เพื่อรักษาและประมวลผลแผนค่าตอบแทนคงที่และผันแปรสำหรับพนักงานขององค์กร
 
 ### <a name="introduction"></a>คำนำ
 
@@ -90,7 +88,7 @@ ms.locfileid: "4420722"
 </tr>
 <tr class="even">
 <td>จุดควบคุม</td>
-<td>จุดควบคุมกำหนดสิ่งที่ควรพิจารณาเป็นอัตราค่าจ้างที่เหมาะสมที่สุดสำหรับพนักงานทุกคนในระดับค่าตอบแทน สำหรับโครงสร้างแผนระดับ โดยทั่วไปจุดควบคุมคือจุดกึ่งกลางของช่วง โครงสร้างแถบไม่ค่อยใช้จุดควบคุม คุณสามารถระบุจุดควบคุมสำหรับแผนค่าตอบแทนคงที่ในแบบฟอร์มแผนค่าตอบแทนคงที่</td>
+<td>จุดควบคุมกำหนดสิ่งที่ควรพิจารณาเป็นอัตราค่าจ้างที่เหมาะสมที่สุดสำหรับพนักงานทุกคนในระดับค่าตอบแทน สำหรับโครงสร้างแผนระดับ โดยทั่วไปจุดควบคุมคือจุดกึ่งกลางของช่วง โครงสร้างแถบไม่ค่อยใช้จุดควบคุม คุณสามารถระบุจุดควบคุมสำหรับแผนค่าตอบแทนคงที่ในหน้า **แผนค่าตอบแทนคงที่**</td>
 </tr>
 <tr class="odd">
 <td>ฟังก์ชันงาน</td>
@@ -122,8 +120,7 @@ ms.locfileid: "4420722"
 ## <a name="process-events"></a>เหตุการณ์กระบวนการ
 เหตุการณ์ในกระบวนการคำนวณข้อมูลค่าตอบแทนสำหรับรอบระยะเวลาที่ระบุสำหรับพนักงานทั้งหมดที่ลงทะเบียนในแผนค่าตอบแทนคงที่หรือผันแปรหนึ่งรายการขึ้นไป คุณสามารถรันเหตุการณ์ในกระบวนการซ้ำ ๆ เพื่อทดสอบหรืออัพเดตผลค่าตอบแทนที่คำนวณได้
 
-<a name="compensation-events"></a>เหตุการณ์ค่าตอบแทน
--------------------
+## <a name="compensation-events"></a>เหตุการณ์ค่าตอบแทน
 
 แต่ละครั้งที่รันเหตุการณ์ในกระบวนการ จะมีการสร้างเหตุการณ์ค่าตอบแทน  เหตุการณ์ค่าตอบแทนประกอบด้วยผลลัพธ์ของกระบวนการค่าตอบแทนสำหรับพนักงานแต่ละคนที่รวมอยู่ในเหตุการณ์กระบวนการดังกล่าว  เมื่อการคำนวณถูกต้อง คุณจะสามารถโหลดเหตุการณ์ค่าตอบแทนเพื่ออัพเดตเรกคอร์ดค่าตอบแทนสำหรับพนักงานที่ได้รับผลกระทบโดยเหตุการณ์ในกระบวนการ
 
@@ -132,3 +129,6 @@ ms.locfileid: "4420722"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

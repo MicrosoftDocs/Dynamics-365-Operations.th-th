@@ -2,9 +2,11 @@
 title: โซนเวลาของสถานที่เพิ่มเติม
 description: หัวข้อนี้แสดงภาพรวมของโซนเวลาของสถานที่ใหม่ที่มีการเพิ่มลงใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationBuild, WHSZone
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dd9e97cabe5e3d3bdc261a7280930b73eb8e1419
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4e8d8ddb65ea49f3d5278db0cac6ae891ab40ecf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103849"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233234"
 ---
 # <a name="additional-location-zones"></a>โซนเวลาของสถานที่เพิ่มเติม
 
@@ -30,9 +32,12 @@ ms.locfileid: "8103849"
 
 ไม่จำเป็นต้องมีการตั้งค่าเพิ่มเติมสำหรับการใช้ฟิลด์โซนเวลา
 
-## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะโซนเวลาที่ตั้งเพิ่มเติม
+## <a name="turn-on-the-additional-location-zone-feature"></a>เปิดคุณลักษณะโซนเวลาสถานที่เพิ่มเติม
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *โซนเวลาที่ตั้งเพิ่มเติม* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+ก่อนที่คุณจะสามารถใช้คุณลักษณะ *โซนเวลาสถานที่เพิ่มเติม* จะต้องมีการเปิดอยู่ในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+
+- **โมดูล:** *การจัดการคลังสินค้า*
+- **ชื่อคุณลักษณะ:** *โซนเวลาสถานที่เพิ่มเติม*
 
 ## <a name="use-location-zones"></a>ใช้โซนเวลาสถานที่
 

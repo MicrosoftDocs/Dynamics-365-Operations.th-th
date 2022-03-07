@@ -2,29 +2,26 @@
 title: ปรับปรุงประสิทธิภาพของกลไกการจัดกำหนดการ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับกลไกการจัดกำหนดการและวิธีการปรับปรุงประสิทธิภาพการทำงาน
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 2495339f25469af705cff841f090c5df95b4d996
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438796"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578451"
 ---
 # <a name="improve-scheduling-engine-performance"></a>ปรับปรุงประสิทธิภาพของกลไกการจัดกำหนดการ
 
@@ -329,3 +326,6 @@ ms.locfileid: "4438796"
 
 > [!NOTE]
 > ค่าที่ตั้งค่าไว้สำหรับการใช้การหมดเวลาจะถูกใช้ทั้งสำหรับการจัดกำหนดการของใบสั่งผลิตที่นำออกใช้ และแผนการใบสั่งเป็นส่วนหนึ่งของ MRP ด้วยเหตุนี้ การตั้งค่าที่มีค่าสูงมากอาจเพิ่มในเวลารันของ MRP อย่างมาก เมื่อรันแผนงานที่มีแผนการใบสั่งผลิตจำนวนมาก
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

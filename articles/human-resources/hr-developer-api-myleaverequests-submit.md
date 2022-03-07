@@ -2,15 +2,12 @@
 title: ส่งคำขอลางานไปที่ลำดับงาน
 description: ใน Microsoft Dynamics 365 Human Resources คุณสามารถใช้แอปพลิเคชัน โปรแกรมมิ่ง อินเทอร์เฟส (API) ของ MyLeaveRequests submit () เพื่อส่งการร้องขอการลางานให้กับลำดับงาน
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420694"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067515"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>ส่งคำขอลางานไปที่ลำดับงาน
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ใน Microsoft Dynamics 365 Human Resources คุณสามารถใช้แอปพลิเคชัน โปรแกรมมิ่ง อินเทอร์เฟส (API) ของ MyLeaveRequests submit () เพื่อส่งการร้องขอการลางานให้กับลำดับงาน API นี้มีการเปิดเผยเป็นการดำเนินการบนเอนทิตี้ MyLeaveRequests OData
 
@@ -98,7 +100,7 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
  - คำขอจะวางยอดดุล '{LeaveTypeId}' อยู่ต่ำกว่ายอดดุลขั้นต่ำที่อนุญาตใน {date}
  - คำขอหยุดพักในสถานะเสร็จสมบูรณ์ไม่สามารถส่งได้
- - ไม่สามารถส่งหรือบันทึกคำขอได้เนื่องจากไม่มีการเปลี่ยนแปลงใดๆ เพิ่มหรืออัพเดตจำนวนหรือชนิดการลางาน แล้วลองอีกครั้ง
+ - ไม่สามารถส่งหรือบันทึกคำขอได้เนื่องจากไม่มีการเปลี่ยนแปลงใดๆ เพิ่มหรืออัปเดตจำนวนหรือชนิดการลางาน แล้วลองอีกครั้ง
  - คำขอหยุดพักที่ป้อนไว้ประกอบด้วยวันอย่างน้อยหนึ่งวันที่มีวันที่เดียวกันและชนิดลาเป็นคำขอที่ค้างอยู่ที่มีอยู่ โปรดเรียกคืนคำขอที่มีอยู่เพื่อทำการเปลี่ยนแปลง
  - รหัสเหตุผล '{ReasonCodeId}' ไม่ใช้กับชนิดการลางานใดๆ ในคำขอ
  - ชนิดการลา '{LeaveTypeId} ต้องมีรหัสเหตุผล เลือกชนิดและรหัสเหตุผลที่เหมาะสม
@@ -108,3 +110,5 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 
 - [ภาพรวมของ MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [การรับรองความถูกต้อง](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: โฮมเพจการบัญชีต้นทุน
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่น ๆ ที่พร้อมใช้งานสำหรับการบัญชีต้นทุน
 author: ShylaThompson
+manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "256254"
-- intro-internal
+ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219974"
 ---
 # <a name="cost-accounting-home-page"></a>โฮมเพจการบัญชีต้นทุน
 
@@ -36,9 +36,9 @@ ms.locfileid: "7952557"
 
 ## <a name="quick-links"></a>ลิงค์ด่วน
 
-| &nbsp; | &nbsp;  |
+|      |   |
 |------|---|
-|  [เริ่มต้นใช้งานการบัญชีต้นทุน (Learn)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[มิติองค์ประกอบต้นทุน](cost-elements.md)  |
+|  [ตั้งค่าคอนฟิกเอนทิตีฐาน (eLearning)](https://mbspartner.microsoft.com/Home) (ต้องการลูกค้าองค์กร CustomerSource )  |[มิติองค์ประกอบต้นทุน](cost-elements.md)  |
 |  [ลำดับชั้นของมิติ](dimension-hierarchy.md)  |[กำหนดหน่วยการควบคุมต้นทุน](./tasks/define-cost-control-units.md)| 
 | [ฐานของการปันส่วน](allocation-bases.md)|[สร้างและกำหนดนโยบายการปันส่วนต้นทุนสำหรับหน่วยการควบคุมต้นทุน](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [จัดการแหล่งข้อมูลสำหรับบัญชีแยกประเภทต้นทุน](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [ประมวลผลและติดตามข้อมูลต้นทาง](./tasks/process-trace-source-data.md)     | 
@@ -46,7 +46,7 @@ ms.locfileid: "7952557"
 
 ## <a name="get-started-videosbr"></a>เริ่มต้นใช้งานวิดีโอ<br/>
 
-| &nbsp; | &nbsp;  | &nbsp;  |
+|  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [เริ่มต้นใช้งานการบัญชีต้นทุน](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [พื้นที่ทำงานแบบเคลื่อนที่ของการบัญชีต้นทุน](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [ใช้ Excel สำหรับการวิเคราะห์การบัญชีต้นทุน](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

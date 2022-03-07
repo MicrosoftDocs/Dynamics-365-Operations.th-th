@@ -2,11 +2,9 @@
 title: โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682660"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750143"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>โปรแกรมออกแบบสูตรในการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -164,3 +162,6 @@ ER สนับสนุนผู้ออกแบบสูตร ดังน�
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ภาษาสูตรในการรายงานทางอิเล็กทรอนิกส์](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

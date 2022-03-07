@@ -1,35 +1,32 @@
 ---
 title: ตั้งค่าช่องทางศูนย์บริการ
-description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางศูนย์บริการใหม่ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางคอลเซ็นเตอร์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744545"
 ---
-# <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางศูนย์บริการ
+# <a name="set-up-a-call-center-channel"></a>ตั้งค่าช่องทางของศูนย์บริการ
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางศูนย์บริการใหม่ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางคอลเซ็นเตอร์ใหม่ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -136,3 +133,6 @@ ms.locfileid: "4416281"
 [ตั้งค่าและทำงานกับข้อความแจ้งเตือนการฉ้อโกง](set-up-fraud-alerts.md)
 
 [ตั้งค่าโปรแกรมความต่อเนื่องสำหรับศูนย์บริการ](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

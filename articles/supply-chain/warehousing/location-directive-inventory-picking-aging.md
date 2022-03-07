@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004638"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง
 
@@ -120,7 +119,7 @@ ms.locfileid: "4438804"
 1. บนหน้า **ใบสั่งขาย** บนบานหน้าต่างการดำเนินการ บนแท็บ **คลังสินค้า** ในกลุ่ม **การดำเนินการ** เลือก **นำออกใช้ไปยังคลังสินค้า** คุณได้รับข้อความแสดงข้อมูล ระบบจะสร้างการจัดส่ง จะเพิ่มไปยังจำนวนงานในศูนย์การผลิตใหม่ และสร้างงานที่จำเป็น
 1. บน FastTab **รายการใบสั่งขาย** บนเมนู **คลังสินค้า** ให้เลือก **รายละเอียดงาน** เพื่อเปิดงานที่สร้างขึ้นสำหรับใบสั่งขายนี้ โปรดสังเกตว่ารายการที่ค่า **ชนิดงาน** เป็น *เบิกสินค้า* แสดงค่า **สถานที่** เป็น *FL-002* สถานที่นี้มีป้ายทะเบียนที่มีวันที่อายุหนี้ที่เก่าที่สุด (FIFO)
 1. เลือก **คลังสินค้า \> รายละเอียดการจัดส่ง**
-1. บน FastTab **ทั่วไป** จดบันทึกรหัสเวฟ เพื่อให้คุณสามารถใช้งานได้ในสถานการณ์จำลอง 2
+1. บนแท็บด่วน **_ทั่วไป_** จดบันทึกรหัสเวฟ เพื่อให้คุณสามารถใช้งานได้ในสถานการณ์จำลอง 2
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>สถานการณ์จำลอง 2: ตั้งค่าและใช้อายุหนี้สถานที่ LIFO
 

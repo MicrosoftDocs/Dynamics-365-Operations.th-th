@@ -2,11 +2,9 @@
 title: วางแผนลำดับชั้นขององค์กรของคุณ
 description: ก่อนที่คุณตั้งค่าองค์กรและลำดับชั้นขององค์กร ตรวจสอบให้แน่ใจว่าคุณเข้าใจวิธีการสร้างแบบจำลองธุรกิจของคุณที่ดีที่สุด
 author: sericks007
-manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771883"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>วางแผนลำดับชั้นขององค์กรของคุณ
 
@@ -166,7 +164,7 @@ ms.locfileid: "4694700"
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>ถ้าจำลององค์กรเป็นนิติบุคคล
 
-สำหรับประเทศ/ภูมิภาคที่ถูกสนับสนุน รายงานตามกฎหมายส่วนใหญ่สามารถสร้างได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรายงานที่พร้อมใช้งานสำหรับแต่ละประเทศ/ภูมิภาค ดู [Microsoft Dynamics พอร์ทัลการแปลเป็นภาษาท้องถิ่น](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) (ต้องเข้าสู่ระบบ CustomerSource)
+สำหรับประเทศ/ภูมิภาคที่ถูกสนับสนุน รายงานตามกฎหมายส่วนใหญ่สามารถสร้างได้ 
 
 > [!NOTE]
 > ชั้นของการลงรายการบัญชีในบัญชีแยกประเภททั่วไปช่วยให้คุณสามารถทำการปรับปรุงรายการสำหรับบริษัทแม่ที่ใช้มาตรฐานการบัญชีที่แตกต่างจากบริษัทลูก ตัวอย่างเช่น สำหรับบริษัทที่ใช้แนวทางการบัญชีที่เป็นที่ยอมรับโดยทั่วไปในสหราชอาณาจักร (UK GAAP) คุณสามารถทำการเปลี่ยนแปลงรายการในชั้นของการลงรายการบัญชี สามารถรวมรายการเหล่านี้ลงในบริษัทแม่ที่ใช้หลักการบัญชีที่เป็นที่ยอมรับโดยทั่วไป (GAAP) ในสหรัฐอเมริกา รายการที่ปรับเปลี่ยนจะไม่ส่งผลกระทบต่อการรายงาน UK GAAP
@@ -241,3 +239,6 @@ ms.locfileid: "4694700"
 - ก่อนที่คุณจำลองสถานการณ์ปรับโครงสร้างหลัก ใช้วันที่ที่มีผลบังคับใช้ของลำดับชั้นเพื่อดำเนินการวิเคราะห์ผลกระทบและทดสอบการยืนยัน
 - ใช้โหมดแบบร่างเพื่อเปลี่ยนลำดับชั้นก่อนที่คุณเผยแพร่รุ่นใหม่ในสภาพแวดล้อมการผลิต
 - จำกัดจำนวนผู้ที่มีสิทธิ์ในการเพิ่มหรือลบองค์กรออกจากลำดับชั้นในสภาพแวดล้อมการผลิต จำนวนต่ำกว่าช่วยลดโอกาสที่จะเกิดข้อผิดพลาด และต้องทำการแก้ไข
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

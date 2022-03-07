@@ -1,32 +1,35 @@
 ---
 title: ดำเนินการกับการปันส่วน
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 Finance และวิธีการใช้งานในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยให้แน่ใจได้ว่าค่าใช้จ่ายหรือรายได้ต่างๆจะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
-author: kweekley
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลใน Microsoft Dynamics 365 Finance และวิธีการใช้งานในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยให้แน่ใจได้ว่าค่าใช้จ่ายหรือรายได้ต่างๆจะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727003"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448418"
 ---
 # <a name="process-allocations"></a>ดำเนินการกับการปันส่วน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลและวิธีการใช้งานในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยให้แน่ใจได้ว่าค่าใช้จ่ายหรือรายได้ต่างๆจะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
+บทความนี้ให้ข้อมูลเกี่ยวกับการปันส่วน ตัวเลือกสำหรับการประมวลผลและวิธีการใช้งานในการวางแผนงบประมาณ การปันส่วนจะถูกใช้เพื่อกระจายปริมาณระหว่างชุดข้อมูลบัญชีแยกประเภทหลายรายการ โดยจะช่วยให้แน่ใจได้ว่าค่าใช้จ่ายหรือรายได้ต่างๆจะถูกคิดในออบเจ็กต์ที่ถูกต้องในการลงบัญชี
 
 ความสามารถต่อไปนี้สนับสนุนกระบวนการนี้:
 
@@ -41,6 +44,3 @@ ms.locfileid: "7727003"
 > [!NOTE]
 > คุณไม่สามารถใช้กฎการปันส่วนบัญชีแยกประเภทระหว่างบริษัทสำหรับการวางแผนงบประมาณ
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

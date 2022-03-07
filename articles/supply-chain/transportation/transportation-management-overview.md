@@ -1,29 +1,28 @@
 ---
 title: ภาพรวมการจัดการการขนส่ง
 description: หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Supply Chain Management
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438851"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985456"
 ---
 # <a name="transportation-management-overview"></a>ภาพรวมของการจัดการการขนส่ง
 
@@ -80,10 +79,13 @@ ms.locfileid: "4438851"
 ## <a name="outbound-transportation"></a>การขนส่งขาออก
 คุณสามารถวางแผน และดำเนินการบรรทุกขาออกเพื่อจัดส่งสินค้าเฉพาะจากคลังสินค้าของบริษัทให้กับลูกค้า คุณสามารถใช้ Supply Chain Management เพื่อวางแผนการขนส่งและการจัดส่งโหลดขาออก ภาพประกอบต่อไปนี้ แสดงลำดับกระบวนการทางธุรกิจสำหรับการวางแผนและการดำเนินการขนส่งการบรรทุกขาออกสำหรับการจัดส่ง 
 
-![การวางแผนและการประมวลผลโหลดขาออก](./media/Planningandprocessingoutboundloads.jpg)
+![การวางแผนและการประมวลผลการบรรทุกขาออก](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>การสร้างการบรรทุก
-Supply Chain Management แสดงกลยุทธ์การสร้างโหลดที่ชื่อกลยุทธ์การสร้างโหลดตามปริมาตร กลยุทธ์นี้ช่วยให้คุณสามารถใช้ค่าสูงสุดที่ระบุสำหรับความสูงและน้ำหนักในเท็มเพลตของโหลด หรือคุณสามารถแทนที่การตั้งค่าโดยการป้อนค่าใหม่ ในการใช้กลยุทธ์นี้ เลือกฟิลด์ **กลยุทธ์การสร้างการบรรทุก** ในแท็บด่วน **ตั้งค่า** บนหน้า **เวิร์กเบนช์การสร้างการบรรทุก** ได้ นอกจากนี้ คุณสามารถเพิ่มกลยุทธ์การสร้างการบรรทุกด้วยตัวของคุณเองได้ โดยการสร้างคลาสใหม่ใน Application Object Tree (AOT)
+Supply Chain Management แสดงกลยุทธ์การสร้างโหลดที่ชื่อกลยุทธ์การสร้างโหลดตามปริมาตร กลยุทธ์นี้ช่วยให้คุณสามารถใช้ค่าสูงสุดที่ระบุสำหรับความสูงและน้ำหนักในเทมเพลตของโหลด หรือคุณสามารถแทนที่การตั้งค่าโดยการป้อนค่าใหม่ ในการใช้กลยุทธ์นี้ เลือกฟิลด์ **กลยุทธ์การสร้างการบรรทุก** ในแท็บด่วน **ตั้งค่า** บนหน้า **เวิร์กเบนช์การสร้างการบรรทุก** ได้ นอกจากนี้ คุณสามารถเพิ่มกลยุทธ์การสร้างการบรรทุกด้วยตัวของคุณเองได้ โดยการสร้างคลาสใหม่ใน Application Object Tree (AOT)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

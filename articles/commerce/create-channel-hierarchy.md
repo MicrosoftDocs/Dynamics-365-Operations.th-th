@@ -2,9 +2,11 @@
 title: สร้างลำดับชั้นการนำทางของช่องทาง
 description: หัวข้อนี้จะอธิบายวิธีการสร้างลำดับชั้นการนำทางของช่องทางใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 89e24496d35ea0a02bd985f76d7579e1914d9290
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749966"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972993"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>สร้างลำดับชั้นการนำทางของช่องทาง
 
@@ -77,7 +79,7 @@ ms.locfileid: "6749966"
 1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
 
 > [!NOTE]
-> การเพิ่มผลิตภัณฑ์ลงในโหนดในลำดับชั้นการนำทางช่องทาง ไม่เพียงพอสำหรับผลิตภัณฑ์ที่จะแสดงบนช่องทางที่เลือก ผลิตภัณฑ์ต้องถูกจัดประเภทไปยังช่องทางด้วยเช่นกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดประเภท ให้ดูที่ [การจัดการการจัดประเภท](assortments.md)
+> การเพิ่มผลิตภัณฑ์ลงในโหนดในลำดับชั้นการนำทางช่องทางไม่เพียงพอสำหรับผลิตภัณฑ์ที่จะแสดงบนช่องทางที่เลือก ผลิตภัณฑ์ต้องถูกจัดประเภทไปยังผลิตภัณฑ์ด้วยเช่นกัน
 
 รูปภาพต่อไปนี้แสดงโหนดตัวอย่างที่มีผลิตภัณฑ์ที่เพิ่ม
 
@@ -97,13 +99,10 @@ ms.locfileid: "6749966"
 
 รูปภาพต่อไปนี้แสดงโหนดตัวอย่างที่มีกลุ่มคุณลักษณะของผลิตภัณฑ์ที่เพิ่ม
 
-![กลุ่มแอททริบิวต์ของผลิตภัณฑ์บนโหนด](media/create-channel-hierarchy-4.png)
+![กลุ่มคุณลักษณะของผลิตภัณฑ์บนโหนด](media/create-channel-hierarchy-4.png)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ตั้งค่าการจัดประเภท](set-up-assortments.md)
 
 [จัดการแอททริบิวต์และกลุ่มแอททริบิวต์](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

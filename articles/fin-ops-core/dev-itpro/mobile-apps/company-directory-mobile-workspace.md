@@ -2,11 +2,9 @@
 title: พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่ ซึ่งช่วยให้ผู้ใช้สามารถดูและติดต่อกับพนักงานคนอื่นๆ ในองค์กรของพวกเขาได้
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683443"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748208"
 ---
 # <a name="company-directory-mobile-workspace"></a>พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
 
@@ -89,3 +87,6 @@ ms.locfileid: "4683443"
 1.  ในแอพบนมือถือ เลือกพื้นที่ทำงาน **ไดเรกทอรี่ของบริษัท**
 2.  ในฟิลด์ **ค้นหา** ป้อนชื่อ นามสกุล ตำแหน่ง หรือแผนกของพนักงานเพื่อเริ่มต้นการค้นหา
 3.  เลือกพนักงาน หน้า **โพรไฟล์พนักงาน** ปรากฏขึ้น ข้อมูลบนหน้านี้ประกอบด้วยชื่อ นามสกุล ตำแหน่ง และแผนกของพนักงาน
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: KPI สินทรัพย์
 description: หัวข้อนี้อธิบายถึง KPI สินทรัพย์ในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778759"
 ---
 # <a name="asset-kpis"></a>KPI สินทรัพย์
 
@@ -89,3 +87,6 @@ ms.locfileid: "5021791"
 - คุณสามารถเลือกสินทรัพย์ต่างๆ ได้หลายรายการใน **สินทรัพย์ทั้งหมด** แล้วคลิกปุ่ม **KPI สินทรัพย์** บนแท็บ **ทั่วไป** แล้วคลิก **ตกลง** ในกล่องโต้ตอบ **คำนวณ KPI สินทรัพย์** เพื่อคำนวณ ษญณ สำหรับสินทรัพย์ที่เลือก  
 - ผลลัพธ์จากการคำนวณ KPI อาจรวมหรือไม่รวม [การลงทะเบียนการหยุดทำงานของการบำรุงรักษา](../work-orders/maintenance-downtime.md) ขึ้นอยู่กับการตั้งค่าและการใช้รหัสเหตุผลของการหยุดทำงานของการบำรุงรักษา 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,22 +1,26 @@
 ---
-# required metadata
 title: ตั้งค่าไซต์อีคอมเมิร์ซ B2B
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าไซต์อีคอมเมิร์ซระหว่างธุรกิจ (B2B) ใน Microsoft Dynamics 365 Commerce
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: RetailOperations
-audience: 'Application User, IT Pro'
+audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: josaw
-ms.search.validFrom: '2021-01-31'
+ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983328"
 ---
-
 # <a name="set-up-a-b2b-e-commerce-site"></a>ตั้งค่าไซต์อีคอมเมิร์ซ B2B
 
 [!include [banner](../../includes/banner.md)]

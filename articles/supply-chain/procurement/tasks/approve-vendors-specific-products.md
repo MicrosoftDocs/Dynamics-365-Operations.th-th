@@ -1,7 +1,7 @@
 ---
 title: อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ
 description: 'กระบวนงานนี้แสดงวิธีการอนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ '
-author: RichardLuan
+author: mkirknel
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,16 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cc7d8a93bdbdb5a1446fc34beff4b74aa9d11a0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016664"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438429"
 ---
 # <a name="approve-vendors-for-specific-products"></a>อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ
 

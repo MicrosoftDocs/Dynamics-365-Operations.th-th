@@ -2,16 +2,13 @@
 title: กลุ่มการคำนวณ BOM
 description: บทความนี้แสดงข้อมูลเกี่ยวกับกลุ่มการคำนวณของสูตรการผลิต (BOM) และวิธีการตั้งค่าเหล่านั้น เมื่อต้องการรันการคำนวณ BOM คุณจะต้องตั้งค่ากลุ่มการคำนวณ และกำหนดค่าให้กับสินค้าแต่ละรายการ หรือตั้งค่ากลุ่มการคำนวณเริ่มต้น ดังนั้นการตั้งค่าการคำนวณจากกลุ่มการคำนวณจะใช้เป็นค่าเริ่มต้นในหน้า การคำนวณ BOM ในขณะที่คำนวณ BOM
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e4f53401d604ce3c8308ed475a0b6147805cb78
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce954b61b4d6a12f2bc62a71ef2e1bc69732a4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438689"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813302"
 ---
 # <a name="bom-calculations-groups"></a>กลุ่มการคำนวณ BOM
 
@@ -98,3 +95,6 @@ ms.locfileid: "4438689"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

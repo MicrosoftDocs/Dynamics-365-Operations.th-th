@@ -2,35 +2,30 @@
 title: โมดูลที่อยู่จัดส่ง
 description: หัวข้อนี้กล่าวถึงโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4416290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765205"
 ---
-# <a name="shipping-address-module"></a>โมดูลที่อยู่จัดส่ง
+# <a name="shipping-address-module"></a>โมดูลที่อยู่ที่จัดส่ง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายโมดูลที่อยู่จัดส่งและอธิบายวิธีการกำหนดค่าใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลที่อยู่จัดส่งนี้จะช่วยให้ลูกค้าเพิ่มหรือเลือกที่อยู่จัดส่งสำหรับใบสั่งในระหว่างขั้นตอนการเช็คเอาท์ ถ้าลูกค้าเคยลงชื่อเข้าใช้ไว้ ที่อยู่ที่บันทึกไว้ก่อนหน้านี้สำหรับลูกค้ารายนั้นจะแสดงขึ้นและลูกค้าสามารถเลือกได้ ลูกค้ายังสามารถเพิ่มที่อยู่ใหม่ได้ด้วย โมดูลที่อยู่จัดส่งจะใช้สำหรับสินค้าทั้งหมดในใบสั่งที่ต้องมีการจัดส่ง
 
@@ -48,8 +43,10 @@ ms.locfileid: "4416290"
 
 | ชื่อคุณสมบัติ | มูลค่า | คำอธิบาย |
 |---------------|--------|-------------|
-| หัวข้อ | ข้อความหัวเรื่องและแท็กหัวเรื่อง (**H1**, **H2**, **H3**, **H4**, **H5** หรือ **H6**) | หัวเรื่องที่เป็นตัวเลือกสำหรับโมดูลที่อยู่จัดส่ง |
+| ส่วนหัว | ข้อความหัวเรื่องและแท็กหัวเรื่อง (**H1**, **H2**, **H3**, **H4**, **H5** หรือ **H6**) | หัวเรื่องที่เป็นตัวเลือกสำหรับโมดูลที่อยู่จัดส่ง |
 | แสดงชนิดที่อยู่ | **จริง** หรือ **เท็จ** | ถ้ามีการตั้งค่าคุณสมบัติที่เป็นตัวเลือกนี้เป็น **จริง** ชนิดที่อยู่ เช่น **บ้าน** หรือ **ธุรกิจ** จะแสดงขึ้น ถ้าไม่มีการระบุชนิดของที่อยู่ ที่อยู่จะถูกบันทึกเป็น **ชนิด**=**อื่นๆ** โดยอัตโนมัติ |
+| เปิดใช้งานการแนะนำอัตโนมัติ| **จริง** หรือ **เท็จ** | หากการตั้งค่าคุณสมบัติที่เลือกได้นี้เป็น **จริง** จะมีการเสนอคำแนะนำที่อยู่อัตโนมัติ คำแนะนำเหล่านี้ขับเคลื่อนโดย Bing Maps หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีตั้งค่าการรวม Bing Maps ของไซต์ของคุณ โปรดดูที่ [โมดูลตัวเลือกร้านค้า](store-selector.md) คุณลักษณะนี้พร้อมใช้งานตั้งแต่ Commerce รุ่น 10.0.15|
+|ตัวเลือกการแนะนำอัตโนมัติ| หมายเลข| หากมีการเปิดใช้งานการแนะนำที่อยู่อัตโนมัติ คุณสามารถระบุตัวเลือกเพิ่มเติมได้ เช่น จํานวนคำแนะนำสูงสุดที่ควรให้|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>เพิ่มโมดูลที่อยู่จัดส่งไปยังหน้าเช็คเอาท์ และตั้งค่าคุณสมบัติที่จำเป็น
 
@@ -67,8 +64,13 @@ ms.locfileid: "4416290"
 
 [โมดูลตัวเลือกการจัดส่ง](delivery-options-module.md)
 
-[โมดูลข้อมูลการเบิกสินค้า](pickup-info-module.md)
+[โมดูลข้อมูลการรับสินค้า](pickup-info-module.md)
 
 [โมดูลรายละเอียดใบสั่ง](order-confirmation-module.md)
 
 [โมดูลบัตรของขวัญ](add-giftcard.md)
+
+[โมดูลตัวเลือกการจัดเก็บ](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

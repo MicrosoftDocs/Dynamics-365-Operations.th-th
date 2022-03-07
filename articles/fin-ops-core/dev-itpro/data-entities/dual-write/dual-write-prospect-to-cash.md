@@ -2,34 +2,23 @@
 title: ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
-ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4959612"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781802"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 เป้าหมายสำคัญของธุรกิจส่วนใหญ่คือ การแปลงผู้ที่มีแนวโน้มจะเป็นลูกค้าให้เป็นลูกค้า และจากนั้นรักษาความสัมพันธ์ทางธุรกิจที่มีความต่อเนื่องกับลูกค้าเหล่านั้น ในแอป Microsoft Dynamics 365 กระบวนการของผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดเกิดขึ้นโดยใช้ใบเสนอราคาหรือลำดับงานการประมวลผลใบสั่ง และมีการกระทบยอดและการรับรู้การเงิน การรวมของผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดที่มีการรวมแบบสองทิศทางจะสร้างลำดับงานที่จะใช้ใบเสนอราคาและใบสั่งที่มีต้นกำเนิดใน Dynamics 365 Sales หรือ Dynamics 365 Supply Chain Management และทำให้ใบเสนอราคาและใบสั่งพร้อมใช้งานในทั้งสองแอป
 
@@ -50,7 +39,7 @@ ms.locfileid: "4959612"
 
 ใน Sales ไปยัง **การตั้งค่า \> การจัดการ \> การตั้งค่าระบบ \> Sales** และต้องมั่นใจว่ามีใช้การตั้งค่าต่อไปนี้:
 
-- ตัวเลือกระบบ **ใช้ระบบคำนวณการให้รางวัล** ถูกตั้งค่าเป็น **ใช่**
+- ตัวเลือกระบบ **ใช้การคำนวณระบบการกำหนดราคา** ถูกตั้งค่าเป็น **ใช่**
 - คอลัมน์ **วิธีการคำนวณส่วนลด** ถูกกำหนดเป็น **สินค้าในรายการ**
 
 ### <a name="sites-and-warehouses"></a>ไซต์และคลังสินค้า
@@ -72,6 +61,7 @@ ms.locfileid: "4959612"
 + คอลัมน์ **เงื่อนไขการขนส่ง** **เงื่อนไขการจัดส่ง** **วิธีการขนส่ง** และ **โหมดการจัดส่ง** ไม่ได้เป็นส่วนหนึ่งของการแม็ปเริ่มต้น หากต้องการแม็ปคอลัมน์เหล่านี้ คุณต้องตั้งค่าการแม็ปค่าที่เฉพาะเจาะจงสำหรับข้อมูลในองค์กรที่ตารางถูกซิงค์
 
 นอกจากนี้ ถ้าคุณกำลังใช้โซลูชัน Field Service ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานพารามิเตอร์ **สร้างด่วนบรรทัดคำขอใบเสนอราคา** อีกครั้ง การเปิดใช้งานพารามิเตอร์อีกครั้งช่วยให้คุณสามารถสร้างรายการใบเสนอราคาได้อย่างต่อเนื่อง โดยใช้ฟังก์ชันการสร้างด่วน
+
 1. นำทางไปยังแอพลิเคชัน Dynamics 365 Sales ของคุณ
 2. เลือกไอคอนการตั้งค่าในแถบนำทางด้านบน
 3. เลือก **การตั้งค่าขั้นสูง**
@@ -123,40 +113,25 @@ ms.locfileid: "4959612"
 
 | แอป Finance and Operations | แอป Customer Engagement | คำอธิบาย |
 |-----------------------------|-----------------------------------|-------------|
-| ส่วนหัวของใบแจ้งหนี้การขาย V2    | ใบแจ้งหนี้                          | ตารางส่วนหัวของใบแจ้งหนี้การขาย V2 ในแอป Finance and Operations มีใบแจ้งหนี้สำหรับใบสั่งขายและใบแจ้งหนี้ข้อความอิสระ ตัวกรองจะใช้ใน Dataverse สำหรับการรวมแบบสองทิศทางซึ่งจะกรองเอกสารใบแจ้งหนี้ข้อความอิสระใดๆ ออกไป |
-| รายการในใบแจ้งหนี้การขาย V2      | invoicedetails                    |             |
-| ส่วนหัวของใบสั่งขาย CDS     | salesorders                       |             |
-| รายการในใบสั่งขาย CDS       | salesorderdetails                 |             |
-| รหัสจุดเริ่มต้นของใบสั่งขาย    | msdyn\_salesorderorigins          |             |
-| ส่วนหัวของใบเสนอราคาขาย CDS  | ใบเสนอราคา                            |             |
-| รายการในใบเสนอราคาขาย CDS   | quotedetails                      |             |
+[ผลิตภัณฑ์ทั้งหมด](mapping-reference.md#138) | msdyn_globalproducts | |
+[ลูกค้า V3](mapping-reference.md#101) | บัญชี | |
+[ลูกค้า V3](mapping-reference.md#116) | ผู้ติดต่อ | |
+[ผู้ติดต่อ V2](mapping-reference.md#221) | msdyn_contactforparties | |
+[ส่วนหัวของใบสั่งขาย CDS](mapping-reference.md#217) | salesorders | |
+[รายการในใบสั่งขาย CDS](mapping-reference.md#216) | salesorderdetails | |
+[ส่วนหัวของใบเสนอราคาขาย CDS](mapping-reference.md#215) | ใบเสนอราคา | |
+[รายการในใบเสนอราคาขาย CDS](mapping-reference.md#214) | quotedetails | |
+[ผลิตภัณฑ์ที่นำออกใช้ V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
+[ส่วนหัวของใบแจ้งหนี้การขาย V2](mapping-reference.md#118) | ใบแจ้งหนี้ | ตารางส่วนหัวของใบแจ้งหนี้การขาย V2 ในแอป Finance and Operations มีใบแจ้งหนี้สำหรับใบสั่งขายและใบแจ้งหนี้ข้อความอิสระ ตัวกรองจะใช้ใน Dataverse สำหรับการรวมแบบสองทิศทางซึ่งจะกรองเอกสารใบแจ้งหนี้ข้อความอิสระใดๆ ออกไป |
+[รายการในใบแจ้งหนี้การขาย V2](mapping-reference.md#117) | invoicedetails | |
+[รหัสจุดเริ่มต้นของใบสั่งขาย](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
-ต่อไปนี้เป็นแผนผังตารางหลักที่เกี่ยวข้องสำหรับผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด:
-
-+ [ลูกค้า V3 สำหรับบัญชี](customer-mapping.md#customers-v3-to-accounts)
-+ [ผู้ติดต่อของ CDS V2 สำหรับผู้ติดต่อ](customer-mapping.md#cds-contacts-v2-to-contacts)
-+ [ลูกค้า V3 สำหรับผู้ติดต่อ](customer-mapping.md#customers-v3-to-contacts)
-+ [ผลิตภัณฑ์ที่นำออกใช้ V2 สำหรับ msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
-+ [ผลิตภัณฑ์ทั้งหมดสำหรับ msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
-+ [รายการราคา](product-mapping.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรายการราคา โปรดดูที่ [ประสบการณ์การใช้งานผลิตภัณฑ์แบบรวม](product-mapping.md)
 
 ## <a name="limitations"></a>การจำกัด
+
 - ไม่สนับสนุนใบสั่งส่งคืนสินค้า
 - ไม่สนับสนุนใบลดหนี้
-- ต้องตั้งค่ามิติทางการเงินเป็นข้อมูลหลัก ตัวอย่างเช่น ลูกค้า หรือผู้จัดจำหน่าย เมื่อมีการเพิ่มลูกค้าลงในใบเสนอราคาหรือใบสั่งขาย มิติทางการเงินที่เชื่อมโยงกับโฟลว์เรกคอร์ดลูกค้าไปยังใบสั่งโดยอัตโนมัติ ในปัจจุบันการรวมแบบสองทิศทางไม่มีข้อมูลมิติทางการเงินสำหรับข้อมูลหลัก 
+- ต้องตั้งค่ามิติทางการเงินเป็นข้อมูลหลัก ตัวอย่างเช่น ลูกค้า หรือผู้จัดจำหน่าย เมื่อมีการเพิ่มลูกค้าลงในใบเสนอราคาหรือใบสั่งขาย มิติทางการเงินที่เชื่อมโยงกับโฟลว์เรกคอร์ดลูกค้าไปยังใบสั่งโดยอัตโนมัติ ในปัจจุบันการรวมแบบสองทิศทางไม่มีข้อมูลมิติทางการเงินสำหรับข้อมูลหลัก
 
-[!include [symbols](../../includes/dual-write-symbols.md)]
-
-[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
-
-[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
-
-[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
-
-[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
-
-[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
-
-[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
-
-[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

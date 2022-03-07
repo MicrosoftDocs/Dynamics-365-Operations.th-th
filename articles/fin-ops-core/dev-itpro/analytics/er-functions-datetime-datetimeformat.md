@@ -2,11 +2,8 @@
 title: ฟังก์ชั่น DATETIMEFORMAT ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) DATETIMEFORMAT
 author: NickSelin
-manager: kfend
-ms.date: 01/04/2021
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90bd2900434b1be509f72ec82375e52ea32bc424
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4825384"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485557"
 ---
 # <a name="datetimeformat-er-function"></a>ฟังก์ชั่น DATETIMEFORMAT ER
 
 [!include [banner](../includes/banner.md)]
 
-ฟังก์ชัน `DATETIMEFORMAT` ส่งกลับค่า *สตริง* ที่แสดงค่าวันที่/เวลาที่ให้เป็นข้อความในรูปแบบที่ระบุและใน [Culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) ที่ระบุเป็นทางเลือก สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) และ [กำหนดเอง](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx)
+ฟังก์ชัน `DATETIMEFORMAT` ส่งกลับค่า *[สตริง](er-formula-supported-data-types-primitive.md#string)* ที่แสดงค่าวันที่/เวลาที่ให้เป็นข้อความในรูปแบบที่ระบุและใน [วัฒนธรรม](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) ที่ระบุเป็นทางเลือก สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) และ [กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 ## <a name="syntax-1"></a>ไวยากรณ์ 1
 
@@ -44,20 +41,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>อาร์กิวเมนต์
 
-`datetime`: *DateTime*
+`datetime`: *[วันที่และเวลา](er-formula-supported-data-types-primitive.md#datetime)*
 
 ค่าวันที่/เวลาที่แสดงถึงวันที่และเวลาในการจัดรูปแบบ
 
 `format`: *สตริง*
 
-รูปแบบของสตริงเอาต์พุต
+รูปแบบของสตริงเอาต์พุต สำหรับข้อมูลเกี่ยวกับรูปแบบที่สนับสนุน ดู [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) และ [กำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings)
 
 > [!NOTE]
-> สตริงรูปแบบจะคำนึงถึงตัวพิมพ์ เมื่อคุณใช้รูปแบบมาตรฐานหรือรูปแบบที่กำหนดเอง ตัวอย่างเช่น ตัวระบุรูปแบบ "d" [มาตรฐาน](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) จะส่งคืนวันที่โดยใช้รูปแบบวันที่แบบย่อ ในขณะที่ตัวระบุรูปแบบ "D" มาตรฐาน จะส่งคืนวันที่โดยใช้รูปแบบวันที่ที่ยาว นอกจากนี้ ตัวระบุรูปแบบ "M" [แบบกำหนดเอง](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) จะส่งคืนเดือน ตั้งแต่ 1 ถึง 12 ในขณะที่ตัวระบุรูปแบบ "m" แบบกำหนดเอง จะส่งคืนนาที ตั้งแต่ 0 ถึง 59
+> สตริงรูปแบบจะคำนึงถึงตัวพิมพ์ เมื่อคุณใช้รูปแบบมาตรฐานหรือรูปแบบที่กำหนดเอง ตัวอย่างเช่น ตัวระบุรูปแบบ "d" [มาตรฐาน](/dotnet/standard/base-types/standard-date-and-time-format-strings) จะส่งคืนวันที่โดยใช้รูปแบบวันที่แบบย่อ ในขณะที่ตัวระบุรูปแบบ "D" มาตรฐาน จะส่งคืนวันที่โดยใช้รูปแบบวันที่ที่ยาว นอกจากนี้ ตัวระบุรูปแบบ "M" [แบบกำหนดเอง](/dotnet/standard/base-types/custom-date-and-time-format-strings) จะส่งคืนเดือน ตั้งแต่ 1 ถึง 12 ในขณะที่ตัวระบุรูปแบบ "m" แบบกำหนดเอง จะส่งคืนนาที ตั้งแต่ 0 ถึง 59
 
 `culture`: *สตริง*
 
-วัฒนธรรมที่จะใช้สำหรับการจัดรูปแบบ
+วัฒนธรรมที่จะใช้สำหรับการจัดรูปแบบ สำหรับข้อมูลเกี่ยวกับวัฒนธรรมที่ได้รับการสนับสนุน โปรดดูที่ [วัฒนธรรม](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes)
 
 ## <a name="return-values"></a>ค่าที่ส่งคืน
 
@@ -86,3 +83,6 @@ DATETIMEFORMAT (datetime, format, culture)
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันวันที่และเวลา](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

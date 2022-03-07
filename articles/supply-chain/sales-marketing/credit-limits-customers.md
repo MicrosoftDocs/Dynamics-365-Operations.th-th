@@ -2,26 +2,23 @@
 title: วงเงินสินเชื่อสำหรับลูกค้า
 description: บทความนี้ให้ภาพรวมของวิธีการที่ข้อจำกัดเครดิตทำงานใน Dynamics 365 Supply Chain Management
 author: omulvad
-manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438579"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824929"
 ---
 # <a name="credit-limits-for-customers"></a>วงเงินสินเชื่อสำหรับลูกค้า
 
@@ -138,3 +135,6 @@ ms.locfileid: "4438579"
 1.  คลิก **การขายและการตลาด** \> **ทั่วไป** \> **ใบสั่งขาย** \> **ใบสั่งขายทั้งหมด** ดับเบิลคลิใบสั่งขาย 
 
 2.  ในแบบฟอร์ม **ใบสั่งขาย** บนบานหน้าต่างการดำเนินการ ในแท็บ **จัดการ** คลิก **ตรวจสอบวงเงินสินเชื่อ**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

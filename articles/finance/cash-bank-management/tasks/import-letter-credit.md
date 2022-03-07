@@ -2,23 +2,26 @@
 title: นำเข้าเลตเตอร์ออฟเครดิต
 description: 'กระบวนงานนี้นำไปสู่กระบวนการการนำเข้าเลตเตอร์ออฟเครดิต '
 author: kweekley
+manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f9c73ec1347e72f8cd4ae8eec580bb8fe3df8ed
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743132"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448479"
 ---
 # <a name="import-letter-of-credit"></a>นำเข้าเลตเตอร์ออฟเครดิต
 
@@ -128,8 +131,7 @@ ms.locfileid: "6743132"
 12. ปิดหน้า
 13. ปิดหน้า
 
-## <a name="verify-import-letter-of-credit-status-and-printing"></a>ตรวจสอบสถานะเลตเตอร์ออฟเครดิตการนำเข้าและการพิมพ์
-
+## <a name="verify-import-letter-of-credit-status"></a>ตรวจสอบสถานะเลตเตอร์ออฟเครดิตการนำเข้า
 1. ไปที่การจัดการเงินสดและธนาคาร > เลตเตอร์ออฟเครดิต > นำเข้าเลตเตอร์ออฟเครดิตและการเรียกเก็บเงิน
 2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
@@ -183,6 +185,3 @@ ms.locfileid: "6743132"
     * ตรวจสอบรายงานที่แสดงธุรกรรมกับหมายเลขเอกสารธนาคาร วงเงินสินเชื่อ ยอดเงินที่ใช้ และยอดดุลสินเชื่อ  
 8. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

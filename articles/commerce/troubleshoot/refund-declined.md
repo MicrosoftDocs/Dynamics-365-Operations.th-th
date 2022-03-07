@@ -5,6 +5,7 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5961e77de1de5dc23454fc1a6e16f8c0b4e7cc6a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738635"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801566"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>การขอคืนเงินของใบสั่งส่งคืนสินค้าได้รับการปฏิเสธ
 
@@ -34,9 +35,9 @@ ms.locfileid: "6738635"
 
 รายละเอียดการตรวจสอบการชำระเงินจะรวมข้อความแสดงข้อผิดพลาดต่อไปนี้: "เกตเวย์ Adyen SendRequest() ล้มเหลวโดยมีสถานะ 'InternalServerError'.22144; การตอบสนองว่างเปล่าที่ส่งคืนจาก Adyen (22001);"
 
-![ข้อผิดพลาดการขอคืนเงินที่ถูกปฏิเสธในใบสั่งส่งคืนสินค้า](media/refund-order-decline.jpg)
+![ปฏิเสธการขอคืนเงินจากข้อผิดพลาดของใบสั่งส่งคืนสินค้า](media/refund-order-decline.jpg)
 
-## <a name="resolution"></a>การแก้ปัญหา
+## <a name="resolution"></a>ความละเอียด
 
 ### <a name="enable-blind-returns-in-adyen"></a>เปิดใช้งานการส่งคืนที่ซ่อนใน Adyen
 

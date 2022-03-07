@@ -2,26 +2,23 @@
 title: ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับฟังก์ชันย้ายไปที่ผนัง - ย้ายไปยังร้านค้า ฟังก์ชันนี้ช่วยให้คุณสามารถจัดการกับสถานการณ์ที่คุณต้องรวมผลิตภัณฑ์กับพื้นที่การแบ่งระยะการจัดเตรียม โดยยึดตามเงื่อนไขที่ตั้งค่าคอนฟิกได้ ซึ่งจะช่วยลดเวลาในการเบิกสินค้า เนื่องจากจะอนุญาตการเบิกสินค้าไปยังป้ายทะเบียนเป้าหมายเดียว และสามารถใช้ตำแหน่งการสำรองได้มากกว่าการเบิกสินค้าคลัสเตอร์
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712873"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -45,7 +42,7 @@ ms.locfileid: "4438818"
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *รหัสขั้นตอนของเวฟทั่วทั้งองค์กร*
 
-## <a name="setup"></a>การตั้งค่า
+## <a name="setup"></a>ตั้งค่า
 
 สำหรับการสาธิตนี้ จะมีการใช้ข้อมูล Contoso มาตรฐานและคลังสินค้า *62* นอกจากนี้ ยังมีการใช้ส่วนเพิ่มเติมบางอย่างที่บันทึกไว้ในภายหลังด้วย
 
@@ -525,7 +522,7 @@ ms.locfileid: "4438818"
 
 ถ้าควรปิดตำแหน่งการเรียงลำดับด้วยตนเอง จะต้องมีการตั้งค่าตัวเลือก **ปิดตำแหน่งการเรียงลำดับอัตโนมัติ** สำหรับเท็มเพลตการเรียงลำดับขาออกเป็น *ไม่* และต้องทำการปิดก่อนที่จะสามารถย้ายสินค้าคงคลังไปยังพื้นที่ประตูได้ ตำแหน่งสามารถปิดได้หลายวิธีดังนี้:
 
-- ผ่านแอปคลังสินค้า:
+- ผ่านแอปการจัดการคลังสินค้าบนมือถือ:
 
     - ผู้ใช้สามารถสแกนหนึ่งในสินค้าที่มีอยู่แล้วในตำแหน่ง แล้วจากนั้น เลือก **ปิด** เพื่อปิดตำแหน่ง
     - ถ้าผู้ใช้สแกนคอนเทนเนอร์ที่มีคอนเทนเนอร์ที่เรียงลำดับอยู่แล้ว ข้อความแสดงข้อผิดพลาดจะแสดงขึ้น อย่างไรก็ตาม ผู้ใช้ยังคงสามารถดำเนินการต่อเพื่อปิดตำแหน่งได้
@@ -541,3 +538,6 @@ ms.locfileid: "4438818"
 
 > [!IMPORTANT]
 > หลังจากที่สร้างงานการเคลื่อนย้ายจากสถานที่การเรียงลำดับแล้ว คุณต้องไม่ยกเลิกงาน มิฉะนั้น ตำแหน่งและคอนเทนเนอร์ในนั้นจะถูกลบออกจากระบบ และไม่พร้อมใช้งานสำหรับการประมวลผลต่อไป สินค้าคงคลังจะถูกลบออกด้วย
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

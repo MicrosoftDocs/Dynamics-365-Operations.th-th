@@ -1,24 +1,32 @@
 ---
-# required metadata
 title: โมดูลการรวบรวมผลิตภัณฑ์
 description: หัวข้อนี้แสดงภาพรวมของโมดูลการรวบรวมผลิตภัณฑ์ ใน Microsoft Dynamics 365 Commerce
 author: v-chgri
+manager: annbe
 ms.date: 01/28/2021
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231115"
 ---
-
 # <a name="product-collection-modules"></a>โมดูลคอลเลกชันผลิตภัณฑ์
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของโมดูลการรวบรวมผลิตภัณฑ์ ใน Microsoft Dynamics 365 Commerce
 
@@ -66,7 +74,7 @@ ms.dyn365.ops.version: Release 10.0.5
 เมื่อต้องการเพิ่มโมดูลการรวบรวมผลิตภภัณฑ์ไปที่หน้าประเภท ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ไปที่ **หน้า** และจากนั้น ให้เลือก **สร้าง** เพื่อสร้างหน้าใหม่
-1. ในกล่องโต้ตอบ **เลือกเทมเพลต** ให้เลือกเทมเพลตแบบเดียวกันกับที่ใช้โดยหน้าประเภทเริ่มต้นของคุณ ภายใต้ **ชื่อของหน้า** ให้ป้อนชื่อที่เหมาะสม และจากนั้น เลือก **ตกลง**
+1. ในกล่องโต้ตอบ **เลือกเท็มเพลต** ให้เลือกเท็มเพลตแบบเดียวกันกับที่ใช้โดยหน้าประเภทเริ่มต้นของคุณ ภายใต้ **ชื่อของหน้า** ให้ป้อนชื่อที่เหมาะสม และจากนั้น เลือก **ตกลง**
 1. ในช่อง **ท้ายหน้ากระดาษส่วนย่อย** เลือกจุดไข่ปลา (**...**) แล้วจากนั้น เลือก **เพิ่มโมดูล**
 1. ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **คอนเทนเนอร์** แล้วเลือก **ตกลง**
 1. ในช่อง **คอนเทนเนอร์** เลือกจุดไข่ปลา (**...**) แล้วจากนั้นเลือก **เพิ่มโมดูล**

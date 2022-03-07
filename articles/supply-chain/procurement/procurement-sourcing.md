@@ -1,28 +1,27 @@
 ---
 title: โฮมเพจการจัดซื้อและการจัดหา
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 50651
+ms.custom:
+- "50651"
+- intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438765"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565506"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -78,20 +77,19 @@ ms.locfileid: "4438765"
 -   [สร้างใบสั่งซื้อจากใบสั่งขาย](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [สร้างใบสั่งซื้อสำหรับซัพพลายเออร์ขาจร](tasks/create-purchase-order-one-time-supplier.md)
 -   [สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง](tasks/create-purchase-order-delivery-schedule.md)
--   [สร้างใบสั่งส่งคืนสินค้าที่ซื้อ](tasks/create-purchase-return-order.md)
--   [สร้างใบสั่งซื้อที่นำออกใช้จากข้อตกลงการซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
--   [สร้างใบสั่งซื้อที่นำออกใช้เมื่อสร้างใบสั่งซื้อ](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [สร้างใบสั่งส่งคืนสินค้าซื้อ](tasks/create-purchase-return-order.md)
+-   [ใช้ข้อตกลงการซื้อเมื่อสร้างใบสั่งซื้อ](tasks/create-purchase-release-order-purchase-agreement.md)
 -   [สร้างใบสั่งการเพิ่มเติมสินค้าที่มีการส่งมอบ](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>ราคาและส่วนลด
 -   [ข้อตกลงการซื้อ](purchase-agreements.md)
 -   [สร้างข้อตกลงการซื้อ](tasks/create-purchase-agreement.md)
--   [เงินคืนของผู้จัดจำหน่าย](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (เอกสาร)
+-   [เงินคืนของผู้จัดจำหน่าย](/dynamics/s-e/) (เอกสาร)
 
 ## <a name="product-receipt-and-invoicing"></a>ใบรับสินค้าและการออกใบแจ้งหนี้
 -   [ใบรับสินค้า - ใบสั่งซื้อ](product-receipt-against-purchase-orders.md)
--   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 -   [ภาพรวมของการจัดซื้อและการจัดหา](procurement-sourcing-overview.md)
@@ -104,3 +102,6 @@ ms.locfileid: "4438765"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

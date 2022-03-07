@@ -2,11 +2,9 @@
 title: สร้างหน่วยปฏิบัติงาน
 description: หน่วยปฏิบัติงานเป็นองค์กรที่ใช้ในการแบ่งการควบคุมทรัพยากรทางเศรษฐกิจและกระบวนการในการดำเนินงานในธุรกิจหนึ่ง ๆ
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759004"
 ---
 # <a name="create-an-operating-unit"></a>สร้างหน่วยปฏิบัติงาน
 
@@ -41,3 +39,6 @@ ms.locfileid: "4796741"
     + ป้อนข้อมูลเกี่ยวกับวิธีการสื่อสารเช่น ที่อยู่อีเมล URLs และหมายเลขโทรศัพท์  เพื่อป้อนเรกคอร์ดการสื่อสารใหม่ ให้คลิกที่ ใหม่  เพื่อปรับเปลี่ยนเรกคอร์ดการติดต่อสื่อสารที่มีอยู่ ให้คลิก **ตัวเลือกเพิ่มเติม > ขั้นสูง**   
 6. อีกทางหนึ่งคือ เปลี่ยน **หมายเลขหน่วยปฏิบัติงาน** ตามต้องการ โปรดทราบว่าหมายเลขนี้เป็นตัวระบุที่ไม่ซ้ำกันสำหรับเรกคอร์ด **ฝ่าย** ที่สัมพันธ์กัน และต้องไม่เหมือนกับหน่วยปฏิบัติงานอื่นใดๆ
 7. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

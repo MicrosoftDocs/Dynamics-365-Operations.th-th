@@ -8,10 +8,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
-ms.search.validFrom: '2021-03-25'
+ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007618"
 ---
-
 # <a name="engineering-change-management-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
 [!include [banner](../includes/banner.md)]

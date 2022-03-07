@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
 description: หัวข้อนี้จะให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์ใน Finance และ Supply Chain Management
 author: gionoder
 ms.date: 04/20/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.custom: intro-internal
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
-ms.search.validFrom: '2020-07-08'
+ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
+ms.openlocfilehash: b25a3489d009a02b45d66d4c3a0271a56a92f5ac
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985636"
 ---
-
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
 
 [!include [banner](../includes/banner.md)]

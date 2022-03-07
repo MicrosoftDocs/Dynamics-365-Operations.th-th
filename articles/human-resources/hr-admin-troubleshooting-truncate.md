@@ -1,30 +1,32 @@
 ---
 title: หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
-description: บทความนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อของรายการแต่ละรายการและตำแหน่งถูกตัด เมื่อลูกค้าดูลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources การตัดข้อความสามารถทำให้ยากในการจับภาพหน้าจอหรือพิมพ์ลำดับชั้น
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: หัวข้อนี้อธิบายวิธีการแก้ปัญหาที่ซึ่งชื่อที่ถูกตัดของรายการแต่ละรายการและลำดับชั้นตำแหน่งใน Microsoft Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b11bd0247634290c8dc43c2ae2291a485449627
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420770"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068346"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปยัง Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>หลีกเลี่ยงการตัดข้อความในลำดับชั้นของตำแหน่งและส่งออกไปที่ Visio
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **ออกใช้**
 
@@ -38,13 +40,13 @@ ms.locfileid: "4420770"
 
 **การแก้ปัญหา**
 
-โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
+โชคไม่ดี ผู้ใช้ไม่สามารถเปลี่ยนขนาดของข้อความได้อย่างง่ายดาย อย่างไรก็ตาม คุณสามารถส่งออกลำดับชั้นของตำแหน่งจากทรัพยากรบุคคล และจากนั้นนำเข้าไปยัง Microsoft Visio ถึงแม้ว่าบทความต่อไปนี้จะถูกเขียนสำหรับ Microsoft Dynamics AX 2012 กระบวนการยังคงถูกนำไปใช้กับทรัพยากรบุคคล: [ส่งออกลำดับชั้นตำแหน่งไปยัง Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio)
 
 ทำตามขั้นตอนเหล่านี้เพื่อส่งออกไปยัง Visio
 
 1. ในทรัพยากรบุคคล ให้เปิดเพจรายการ **ตำแหน่ง**
 
-    เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้วิซาร์ดนี้ภายหลังในกระบวนงานนี้
+    เพื่อรวมข้อมูลเพิ่มเติมในไดอะแกรมโครงสร้างองค์กร เพิ่มฟิลด์ไปยังรายการ **ตำแหน่ง** เพื่อให้พร้อมใช้งานเมื่อคุณใช้ **ตัวช่วยสร้างแผนภูมิองค์กร** นี้ภายหลังในกระบวนงานนี้
 
 2. บนบานหน้าต่างการดำเนินการ เลือกปุ่ม **เปิดใน Microsoft Office** และจากนั้น ภายใต้ **ส่งออกไปยัง Excel** เลือก **ตำแหน่ง** อีกทางหนึ่งคือ กด Ctrl+T
 
@@ -54,7 +56,7 @@ ms.locfileid: "4420770"
 
     ![ส่งออกไปที่กล่องโต้ตอบ Excel](media/export-excel.png)
 
-4. ใน Visio เลือก **Visio - สร้างใหม่** และเลือกประเภทเท็มเพลต **ธุรกิจ**
+4. ใน Visio เลือก **Visio - สร้างใหม่** และเลือกประเภทเทมเพลต **ธุรกิจ**
 
     ![ไดอะแกรมใหม่](media/new.png)
 
@@ -104,3 +106,6 @@ ms.locfileid: "4420770"
 **ตัวเลือกเพิ่มเติม**
 
 ในทรัพยากรบุคคล คุณยังอาจจะสามารถใช้พื้นที่ทำงาน **ผู้คน** เพื่อดูข้อมูลบางอย่างที่เกี่ยวข้องกับลำดับชั้น
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

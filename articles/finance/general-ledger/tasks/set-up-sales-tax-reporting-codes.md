@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: be24e18da63d1a613c3c6e72f7c767c7af9b6656
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646192"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222154"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>ตั้งค่ารหัสการรายงานภาษีขาย
 
@@ -39,3 +38,6 @@ ms.locfileid: "4646192"
 6. ในฟิลด์ **คำอธิบายย่อ** ให้ป้อนคำอธิบายสำหรับจุดประสงค์ภายใน
 7. คลิก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

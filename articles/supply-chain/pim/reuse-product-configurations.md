@@ -1,10 +1,12 @@
 ---
 title: นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่
 description: คุณสามารถระบุว่าคุณต้องการนำการตั้งค่าคอนฟิกที่มีอยู่กลับมาใช้ใหม่โดยอัตโนมัติสำหรับผลิตภัณฑ์ จากนั้น เมื่อผู้ใช้ดำเนินการรอบเวลาการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว ระบบจะตรวจสอบว่ามีการตั้งค่าคอนฟิกที่สอดคล้องกับการเลือกของผู้ใช้อยู่แล้วหรือไม่ ถ้าพบการตั้งค่าคอนฟิกที่ตรงกัน รหัสการตั้งค่าคอนฟิก ใบตราส่ง (BOM) ที่สอดคล้องกัน และกระบวนการผลิตจะถูกนำกลับมาใช้ใหม่
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 201813
 ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0898bd1832fa7007fc3aa265beee2e930f157a39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: be153fd6376d59bee93f432d26963a2937436666
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999767"
 ---
 # <a name="reuse-product-configurations"></a>นำการจัดโครงแบบผลิตภัณฑ์มาใช้ใหม่
 
@@ -29,7 +31,8 @@ ms.locfileid: "7577419"
 
 คุณสามารถระบุว่าคุณต้องการนำการตั้งค่าคอนฟิกที่มีอยู่กลับมาใช้ใหม่โดยอัตโนมัติสำหรับผลิตภัณฑ์ จากนั้น เมื่อผู้ใช้ดำเนินการรอบเวลาการตั้งค่าคอนฟิกเสร็จสมบูรณ์แล้ว ระบบจะตรวจสอบว่ามีการตั้งค่าคอนฟิกที่สอดคล้องกับการเลือกของผู้ใช้อยู่แล้วหรือไม่ ถ้าพบการตั้งค่าคอนฟิกที่ตรงกัน รหัสการตั้งค่าคอนฟิก ใบตราส่ง (BOM) ที่สอดคล้องกัน และกระบวนการผลิตจะถูกนำกลับมาใช้ใหม่
 
-## <a name="requirements-for-reusing-configurations"></a>ความต้องการสำหรับการตั้งค่าคอนฟิกที่นำมาใช้ใหม่
+<a name="requirements-for-reusing-configurations"></a>ความต้องการสำหรับการตั้งค่าคอนฟิกที่นำมาใช้ใหม่
+---------------------------------------
 
 เมื่อต้องการเปิดใช้งานให้นำการตั้งค่าคอนฟิกกลับมาใช้ใหม่ คุณต้องระบุข้อมูลต่อไปนี้สำหรับส่วนประกอบและแอททริบิวต์บนหน้า **รายละเอียดแบบจำลองการจัดโครงแบบผลิตภัณฑ์**:
 
@@ -41,6 +44,3 @@ ms.locfileid: "7577419"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

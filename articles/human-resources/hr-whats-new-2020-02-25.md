@@ -1,31 +1,30 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (25 กุมภาพันธ์ 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 25 กุมภาพันธ์ 2020
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 9d9ff9b524a5812bd309fc33d6aa4ba4a92d687b
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526821"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051196"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (25 กุมภาพันธ์ 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -55,15 +54,15 @@ ms.locfileid: "4526821"
 
 การเปลี่ยนแปลงนี้แก้ไขปัญหาที่ซึ่งผู้เข้าร่วมที่มีการลงชื่อออกเพิ่มเติมจะถูกเพิ่มเข้าในการตรวจทานประสิทธิภาพ
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>การกำหนดตำแหน่งของผู้ปฏิบัติงานไม่ถูกสร้างใน Common Data Service เมื่อมีการเลือกไว้ในกล่องโต้ตอบผู้ปฏิบัติงานใหม่ (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>การกำหนดตำแหน่งของผู้ปฏิบัติงานไม่ถูกสร้างใน Dataverse เมื่อมีการเลือกไว้ในกล่องโต้ตอบผู้ปฏิบัติงานใหม่ (413479)
 
-การเปลี่ยนแปลงนี้แก้ไขปัญหา เมื่อจ้างผู้ปฏิบัติงานใหม่และกำหนดการจ้างงานใหม่ให้กับตำแหน่งผ่านกล่องโต้ตอบ **ผู้ปฏิบัติงานใหม่** ขณะนี้การกำหนดตำแหน่งจะถูกสะท้อนใน Common Data Service
+การเปลี่ยนแปลงนี้แก้ไขปัญหา เมื่อจ้างผู้ปฏิบัติงานใหม่และกำหนดการจ้างงานใหม่ให้กับตำแหน่งผ่านกล่องโต้ตอบ **ผู้ปฏิบัติงานใหม่** ขณะนี้การกำหนดตำแหน่งจะถูกสะท้อนใน Dataverse
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 
-### <a name="updated-common-data-service-solution"></a>โซลูชัน Common Data Service ที่ปรับปรุง
+### <a name="updated-dataverse-solution"></a>โซลูชัน Dataverse ที่ปรับปรุง
 
-โซลูชัน Common Data Service ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
+โซลูชัน Dataverse ใหม่จะพร้อมใช้งานเร็วๆ นี้ โดยมีการเปลี่ยนแปลงต่อไปนี้:
 
 | คำอธิบาย | เปลี่ยน |
 | ----------------------------------------- | --- |
@@ -74,9 +73,9 @@ ms.locfileid: "4526821"
 | เอนทิตีการตั้งค่าค่าตอบแทนผันแปรใหม่ | **ชนิดแผนตัวแปรค่าตอบแทน**</br>**แผนค่าตอบแทนผันแปร**</br>**กฎสิทธิพึงได้**</br>**ระดับแผนตัวแปรค่าตอบแทน** |
 | เอนทตี **การจ้างงานในปฏิทินของผู้ปฏิบัติงาน** ใหม่ | เพิ่ม **เอนทิตีปฏิทินงาน** แล้ว |
 | เอนทตี **รายละเอียดตำแหน่งที่มีค่าจ้าง** ใหม่ | เพิ่ม **รายละเอียดตำแหน่งที่มีค่าจ้าง** แล้ว |
-| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Common Data Service จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
+| เอนทิตี้ **ชื่อ** ใหม่ | เพิ่ม **ชื่อ** แล้ว เอนทิตี **ชื่อเรื่อง** ใหม่ จะรวมอยู่ในกระบวนการซิงค์ระหว่างทรัพยากรบุคคลและ Dataverse จะไม่มีการอ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในตอนแรก |
 
-ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Common Data Service ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
+ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Dataverse ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
 
 1.  ไปยัง [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
 
@@ -103,6 +102,8 @@ ms.locfileid: "4526821"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

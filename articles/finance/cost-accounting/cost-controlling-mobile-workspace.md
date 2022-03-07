@@ -2,9 +2,11 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการควบคุมต้นทุน พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 author: AndersGirke
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f75a868acd8ae7e77c7080e2afe81788490bcccb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226424"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
@@ -70,13 +72,13 @@ ms.locfileid: "6728804"
 
     เมื่อคุณเลือกลิงก์ บัตรจะแสดงขึ้นสำหรับแต่ละองค์ประกอบต้นทุน จำนวนต่อไปนี้ถูกแสดงในทุกๆ การ์ด: ข้อมูลจริง งบประมาณ ผลต่างงบประมาณ ผลต่างงบประมาณ % งบประมาณที่ถูกแก้ไข ผลต่างงบประมาณที่ถูกแก้ไข และงบประมาณที่ถูกแก้ไข %
     
-    [![บัตรสำหรับองค์ประกอบต้นทุน](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![บัตรสำหรับองค์ประกอบต้นทุน ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 Finance
-ถ้ามีการปรับใช้ Finance สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้ามีการปรับใช้ Finance สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่าสำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการตามข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์
@@ -96,17 +98,17 @@ ms.locfileid: "6728804"
 
 <td>KB 4013633 คือการอัปเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การควบคุมต้นทุน</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัปโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li>
+<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัปโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การควบคุมต้นทุน</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 </tbody>
 </table>

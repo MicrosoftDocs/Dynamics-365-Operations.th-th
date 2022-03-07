@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: ภาพรวมของภาษี ณ ที่จ่าย (TDS) ของอินเดีย
 description: หัวข้อนี้แสดงรายละเอียดเกี่ยวกับภาษี ณ ที่จ่าย (TDS) ของอินเดีย คู่มือ TDS ครอบคลุมฟังก์ชันของความสามารถนี้
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
-ms.search.form: null
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '15721'
-  - intro-internal
+- "15721"
+- intro-internal
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: kailiang
-ms.search.validFrom: '2021-03-19'
+ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
+ms.openlocfilehash: d33faaff8be4821005b8772875eb91f0afe26cb0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983914"
 ---
-
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>ภาพรวมของภาษี ณ ที่จ่าย (TDS) ของอินเดีย
 
 [!include [banner](../includes/banner.md)]

@@ -1,24 +1,28 @@
 ---
-# required metadata
 title: ภาพรวมการอัปเกรดของสมุดบัญชีค่าเสื่อมราคา
 description: หัวข้อนี้จะอธิบายถึงฟังก์ชันสมุดบัญชีปัจจุบันในสินทรัพย์ถาวร ฟังก์ชันนี้ขึ้นอยู่กับฟังก์ชันรูปแบบมูลค่าที่มีให้ในรุ่นก่อน และยังรวมถึงฟังก์ชันทั้งหมดที่ระบุไว้ก่อนหน้านี้ในสมุดบัญชีค่าเสื่อมราคาเท่านั้น
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-audience: 'Application User, Developer'
+ms.prod: ''
+ms.technology: ''
+audience: Application User, Developer
 ms.reviewer: roschlom
 ms.custom:
-  - '221624'
-  - intro-internal
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: moaamer
-ms.search.validFrom: '2016-11-30'
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985094"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>ภาพรวมการอัปเกรดของสมุดบัญชีค่าเสื่อมราคา
 
 [!include [banner](../includes/banner.md)]

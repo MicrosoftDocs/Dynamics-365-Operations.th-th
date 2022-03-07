@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: การเปลี่ยนแปลงหลักเกณฑ์ในการคํานวณภาษี ICMS-DIF สำหรับผลิตภัณฑ์จากซัพพลายเออร์ในสถานะอื่น
 description: หัวข้อนี้จะอธิบายถึงการตั้งค่าคอนฟิกของการคํานวณชนิดภาษี ICMS-DIF เมื่อได้รับเอกสารทางการเงินในรัฐของบราซิลสำหรับ Rio Grande do Sul (RS) หรือ São Paulo (SP)
 author: Kai-Cloud
 ms.date: 1/20/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: 'Core, Operations'
-ms.custom: null
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-1-17
 ms.dyn365.ops.version: 10.0.26
+ms.openlocfilehash: 16f78b85567e6d08c588e621119513ff070bf618
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016188"
 ---
-
 # <a name="basis-change-in-icms-dif-tax-calculations-for-products-from-suppliers-in-other-states"></a>การเปลี่ยนแปลงหลักเกณฑ์ในการคํานวณภาษี ICMS-DIF สำหรับผลิตภัณฑ์จากซัพพลายเออร์ในสถานะอื่น
 
 หัวข้อนี้จะอธิบายถึงการตั้งค่าคอนฟิกของการคํานวณชนิดภาษี **ICMS-DIF** เมื่อได้รับเอกสารทางการเงินในรัฐของบราซิลสำหรับ Rio Grande do Sul (RS) หรือ São Paulo (SP)

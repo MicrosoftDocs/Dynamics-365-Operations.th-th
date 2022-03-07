@@ -2,13 +2,16 @@
 title: มิติของผลิตภัณฑ์
 description: ผลิตภัณฑ์มีห้ามิติ - สี โครงแบบ ขนาด ลักษณะ และรุ่น คุณได้รวมมิติสินค้าในกลุ่มมิติ และกำหนดกลุ่มมิติให้กับผลิตภัณฑ์หลัก การรวมชุดมิติของผลิตภัณฑ์กำหนดวิธีกำหนดผลิตภัณฑ์ย่อย
 author: t-benebo
+manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438256"
 ---
 # <a name="product-dimensions"></a>มิติของผลิตภัณฑ์
 
@@ -119,7 +122,7 @@ ms.locfileid: "7920534"
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>ส่วนที่ไม่สนับสนุนมิติรุ่น
 
-พื้นที่ต่อไปนี้ไม่สนับสนุนมิติรุ่น (คุณยังคงสามารถใช้พื้นที่เหล่านี้ได้ แต่คุณจะไม่สามารถเพิ่มผลิตภัณฑ์ที่มีรุ่น (ผลิตภัณฑ์ที่มีการใช้มิติรุ่น) ได้) ตัวอย่างเช่น คุณไม่สามารถเพิ่มสินค้าที่มีรุ่นลงในแค็ตตาล็อกของผู้จัดจำหน่าย สิ่งนี้เป็นเพราะการเพิ่มผลิตภัณฑ์ที่มีมิติรุ่นไปยังพื้นที่เหล่านี้อาจทําให้เกิดการเปลี่ยนแปลงการแบ่ง
+ส่วนต่อไปนี้ไม่สนับสนุนมิติรุ่น เนื่องจากการเริ่มใช้มิตินี้จะทำให้เกิดการเปลี่ยนแปลงของการแบ่ง:
 
 - ใบแจ้งยอดจากรายเดือนของออบเจ็กต์ต้นทุน
 - แคชรายงานของออบเจ็กต์ต้นทุน
@@ -143,6 +146,3 @@ ms.locfileid: "7920534"
 
 > [!IMPORTANT]
 > ถ้าคุณเปิดและใช้มิติรุ่น โซลูชันบางอย่างที่อ้างอิงมิติสินค้าคงคลังอาจหยุดทำงานตามที่คาดไว้ เมื่อต้องการตรวจสอบและแก้ไขปัญหาเหล่านี้ โปรดติดต่อผู้จัดจำหน่ายซอฟต์แวร์อิสระ (ISV) สำหรับโซลูชันของคุณที่ได้รับผลกระทบ สำหรับข้อมูลเพิ่มเติม ให้ดู [เปิดใช้งานมิติรุ่น](#enable-version-dim)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

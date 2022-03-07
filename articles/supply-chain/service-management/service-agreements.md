@@ -1,29 +1,25 @@
 ---
 title: ภาพรวมของการพัฒนาและจัดทำข้อตกลงการให้บริการ
 description: ข้อตกลงการให้บริการอนุญาตให้คุณสามารถกำหนดทรัพยากรที่ใช้ในการให้บริการตามปกติ และวิธีการออกใบแจ้งหนี้ทรัพยากรดังกล่าวให้แก่ลูกค้า
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd17cc0304d58d27afe2cededa5bc0b96557b5e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 955e360a1c0d6aec51e82598737c847b190e5e1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438572"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985872"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>ภาพรวมของการพัฒนาและจัดทำข้อตกลงการให้บริการ
 
@@ -42,11 +38,11 @@ ms.locfileid: "4438572"
 -  ข้อตกลงการให้บริการจะถูกระงับไว้หรือไม่  ถ้าข้อตกลงการให้บริการถูกระงับไว้ คุณไม่สามารถสร้างใบสั่งบริการจากข้อตกลงการให้บริการได้
 -  ช่วงเวลาของข้อตกลงการให้บริการ
 -  วิธีการรวมบรรทัดใบสั่งบริการเข้าในใบสั่งบริการ
--  ข้อตกลงการให้บริการเป็นเท็มเพลตหรือไม่
+-  ข้อตกลงการให้บริการเป็นเทมเพลตหรือไม่
 
 ในส่วนหัวของข้อตกลงการให้บริการ คุณยังตั้งค่าออบเจ็กต์ที่ให้บริการและงานบริการทั้งหมดซึ่งสามารถใช้กับข้อตกลงการให้บริการได้ โดยการป้อนงานบริการเฉพาะหรือออบเจ็กต์ที่ให้บริการเฉพาะที่จะถูกแนบกับรายการที่หลากหลายของข้อตกลง
 
-จากส่วนหัวของข้อตกลงการให้บริการ คุณยังสามารถคัดลอกรายการข้อตกลงการให้บริการหรือรายการเท็มเพลตการบริการเข้าในข้อตกลงการให้บริการฉบับปัจจุบันได้ด้วย
+จากส่วนหัวของข้อตกลงการให้บริการ คุณยังสามารถคัดลอกรายการข้อตกลงการให้บริการหรือรายการเทมเพลตการบริการเข้าในข้อตกลงการให้บริการฉบับปัจจุบันได้ด้วย
 
 คุณสามารถระงับข้อตกลงการให้บริการและหยุดบรรทัดข้อตกลงการให้บริการแต่ละบรรทัดได้
 
@@ -79,3 +75,6 @@ ms.locfileid: "4438572"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [การสร้างข้อตกลงการให้บริการ](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

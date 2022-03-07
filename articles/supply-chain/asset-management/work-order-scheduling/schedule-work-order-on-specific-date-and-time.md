@@ -1,12 +1,10 @@
 ---
 title: จัดกำหนดการใบสั่งงานในวันที่และเวลาเฉพาะ
 description: หัวข้อนี้อธิบายถึงวิธีการจัดกำหนดการใบสั่งงานบนวันที่และเวลาที่ระบุในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780304"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>จัดกำหนดการใบสั่งงานในวันที่และเวลาเฉพาะ
 
@@ -55,3 +53,6 @@ ms.locfileid: "5017378"
 >[!NOTE]
 >เมื่อต้องการจัดกำหนดการให้กับเจ้าหน้าที่บำรุงรักษาสำหรับใบสั่งงาน เจ้าหน้าที่บำรุงรักษานั้นต้องพร้อมใช้งานในวันที่และเวลาเริ่มต้นที่คาดไว้ ความพร้อมของผู้ปฏิบัติงาน ตั้งค่าใน [ปฏิทินของผู้ปฏิบัติงาน](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md) 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

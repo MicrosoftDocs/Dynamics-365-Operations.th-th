@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 267ac5447d36f63094fdb57c0d450e4d79cf138b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 12eb2d8fcdae5d60efa19e5443a01ab9bd104267
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966866"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258814"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>รักษา BOM สำหรับแบบจำลองการจัดโครงแบบผลิตภัณฑ์
 
@@ -57,3 +57,6 @@ ms.locfileid: "4966866"
     * ตรวจสอบถ้ามีมิติของผลิตภัณฑ์ใดๆมีการใช้งานอยู่ และดังนั้น ต้องมีค่าหรือคุณลักษณะที่กำหนดให้  
 9. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

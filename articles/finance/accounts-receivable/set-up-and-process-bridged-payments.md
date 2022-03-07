@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: ตั้งค่าและดำเนินการกับการชำระเงินระหว่างกาล
 description: หัวข้อนี้จะอธิบายวิธีการตั้งและดำเนินการกับการชำระเงินระหว่างกาลของลูกค้า การชำระเงินระหว่างกาลคือการชำระเงินที่มีการลงรายการบัญชีในบัญชีแยกประเภททั่วไปในสองขั้นตอน
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: 'CustPaymMode, VendPaymMode, LedgerJournalTable, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, LedgerJournalTransDaily'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: CustPaymMode, VendPaymMode, LedgerJournalTable, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: null
+ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: '2022-01-03'
+ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e1418e573f34fadcf0bebc7232d847ee7e9768b
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8014082"
 ---
-
 # <a name="set-up-and-process-bridged-payments"></a>ตั้งค่าและดำเนินการกับการชำระเงินระหว่างกาล
 
 [!include [banner](../includes/banner.md)]

@@ -1,17 +1,14 @@
 ---
 title: ปรับปรุงประสิทธิภาพของการวางแผนหลัก
 description: หัวข้อนี้จะอธิบายตัวเลือกต่างๆ ที่สามารถช่วยคุณในการปรับปรุงประสิทธิภาพการทำงานของการวางแผนหลักหรือแก้ไขปัญหา
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438701"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570932"
 ---
 # <a name="improve-master-planning-performance"></a>ปรับปรุงประสิทธิภาพของการวางแผนหลัก
 
@@ -162,3 +159,6 @@ ms.locfileid: "4438701"
 - **กิจวัตรที่หนักครั้งละหนึ่งรายการ** – อย่ารันการวางแผนหลักร่วมกับกิจวัตรที่หนักอื่นใดๆ
 - **ตรวจทานล็อกรอบเวลา**
 - **การกรองของรายการ** – ใช้สถานะรอบเพื่อแยกรายการออกจากการรันการวางแผนหลัก (อย่าใช้หมายเลขสินค้า)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

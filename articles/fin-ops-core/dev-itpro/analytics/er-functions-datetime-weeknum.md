@@ -1,22 +1,26 @@
 ---
-# required metadata
 title: ฟังก์ชัน WEEKNUM ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) WEEKNUM
 author: NickSelin
 ms.date: 01/15/2022
-ms.prod: null
-ms.technology: null
-ms.search.form: 'ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner'
-audience: 'Application User, IT Pro'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.custom: 58771
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: '2021-12-03'
+ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
+ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982188"
 ---
-
 # <a name="weeknum-er-function"></a>ฟังก์ชัน WEEKNUM ER
 
 [!include [banner](../includes/banner.md)]

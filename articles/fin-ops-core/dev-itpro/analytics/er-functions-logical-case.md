@@ -2,8 +2,11 @@
 title: ฟังก์ชัน CASE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) CASE
 author: NickSelin
+manager: kfend
 ms.date: 12/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97f5e821a635d5d31092a7b27f7ae3c2e603462186449bab5856955371a7f613
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69b76a06bcd3ba002d9543447e60afa14d5a6ce6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756416"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687037"
 ---
 # <a name="case-er-function"></a>ฟังก์ชัน CASE ER
 
@@ -80,6 +83,3 @@ CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันตรรกะ](er-functions-category-logical.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

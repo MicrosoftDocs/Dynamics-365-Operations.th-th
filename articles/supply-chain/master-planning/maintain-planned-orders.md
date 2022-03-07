@@ -2,11 +2,9 @@
 title: รักษาแผนการใบสั่ง
 description: หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับวิธีการจัดการใบสั่งที่วางแผนไว้ โดยอธิบายวิธีการปรับปรุงสถานะของแผนการใบสั่ง ยืนยัน และกรองข้อมูลสำหรับแผนการใบสั่งที่มีสถานะเดียวกันเป็นแผนการใบสั่งที่เลือก
 author: roxanadiaconu
-manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039fce86ac9649989df1eaa6179c79dd98b8ae3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f16a666cef5625fb159265ddc7237ad0eb45927
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967088"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187661"
 ---
 # <a name="maintain-planned-orders"></a>รักษาแผนการใบสั่ง
 
@@ -60,10 +58,12 @@ ms.locfileid: "4967088"
 > [!NOTE]
 > ตัวเลือกสำหรับ **การยืนยันแบบพร้อมกัน** จะแสดงเฉพาะเมื่อคุณมีใบสั่งที่วางแผนไว้มากกว่าหนึ่งรายการที่ถูกเลือกสำหรับการยืนยัน
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของแผนหลัก](master-plans.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

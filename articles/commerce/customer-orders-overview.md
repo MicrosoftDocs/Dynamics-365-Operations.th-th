@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: ใบสั่งของลูกค้าในการขายหน้าร้าน (POS)
 description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับใบสั่งของลูกค้าในการขายหน้าร้าน (POS) ใบสั่งของลูกค้ามีชื่อเรียกอีกอย่างหนึ่งว่าใบสั่งพิเศษ หัวข้อนี้มีคำอธิบายเกี่ยวกับพารามิเตอร์ที่เกี่ยวข้องและขั้นตอนของธุรกรรม
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
 ms.custom:
-  - '260594'
-  - intro-internal
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982829"
 ---
-
 # <a name="customer-orders-in-point-of-sale-pos"></a>ใบสั่งของลูกค้าในการขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]

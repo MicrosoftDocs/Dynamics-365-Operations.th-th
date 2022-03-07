@@ -2,15 +2,12 @@
 title: คัดลอกอินสแตนซ์
 description: คุณสามารถใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อคัดลอกฐานข้อมูล Microsoft Dynamics 365 Human Resources ไปยังสภาพแวดล้อม Sandbox
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527848"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060842"
 ---
 # <a name="copy-an-instance"></a>คัดลอกอินสแตนซ์
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 คุณสามารถใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อคัดลอกฐานข้อมูล Microsoft Dynamics 365 Human Resources ไปยังสภาพแวดล้อม Sandbox ถ้าคุณมีสภาพแวดล้อม Sandbox อื่นคุณยังสามารถคัดลอกฐานข้อมูลจากสภาพแวดล้อมดังกล่าวไปยังสภาพแวดล้อม Sandbox ที่กำหนดเป้าหมาย
 
@@ -39,9 +38,9 @@ ms.locfileid: "4527848"
 
 - คุณต้องเป็นผู้ดูแลระบบในสภาพแวดล้อมเป้าหมายเพื่อให้คุณสามารถลงชื่อเข้าใช้สู่ระบบได้หลังจากการคัดลอกอินสแตนซ์แล้ว
 
-- เมื่อคุณคัดลอกฐานข้อมูลทรัพยากรบุคคล คุณจะไม่คัดลอกองค์ประกอบ (แอปหรือข้อมูล) ที่มีอยู่ในสภาพแวดล้อม Microsoft Power Apps สำหรับข้อมูลเกี่ยวกับการคัดลอกองค์ประกอบในสภาพแวดล้อม Power Apps ให้ดูที่ [คัดลอกสภาพแวดล้อม](https://docs.microsoft.com/power-platform/admin/copy-environment) สภาพแวดล้อม Power Apps ที่คุณต้องการเขียนทับต้องเป็นสภาพแวดล้อม Sandbox คุณต้องเป็นผู้ดูแลระบบผู้เช่าทั่วโลกเพื่อเปลี่ยนสภาพแวดล้อมการใช้จริง Power Apps ไปยังสภาพแวดล้อม Sandbox สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปลี่ยนสภาพแวดล้อม ให้ดู Power Apps [สลับอินสแตนซ์](https://docs.microsoft.com/dynamics365/admin/switch-instance)
+- เมื่อคุณคัดลอกฐานข้อมูลทรัพยากรบุคคล คุณจะไม่คัดลอกองค์ประกอบ (แอปหรือข้อมูล) ที่มีอยู่ในสภาพแวดล้อม Microsoft Power Apps สำหรับข้อมูลเกี่ยวกับการคัดลอกองค์ประกอบในสภาพแวดล้อม Power Apps ให้ดูที่ [คัดลอกสภาพแวดล้อม](/power-platform/admin/copy-environment) สภาพแวดล้อม Power Apps ที่คุณต้องการเขียนทับต้องเป็นสภาพแวดล้อม Sandbox คุณต้องเป็นผู้ดูแลระบบผู้เช่าทั่วโลกเพื่อเปลี่ยนสภาพแวดล้อมการใช้จริง Power Apps ไปยังสภาพแวดล้อม Sandbox สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปลี่ยนสภาพแวดล้อม ให้ดู Power Apps [สลับอินสแตนซ์](/dynamics365/admin/switch-instance)
 
-- ถ้าคุณคัดลอกอินสแตนซ์ไปยังสภาพแวดล้อม Sandbox และต้องการรวมสภาพแวดล้อม Sandbox กับ Common Data Serviceคุณต้องนำฟิลด์ที่กำหนดเองไปใช้กับเอนทิตี้ Common Data Service ใหม่อีกครั้ง ดูที่ [ใช้ฟิลด์ที่กำหนดเองกับ Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)
+- ถ้าคุณคัดลอกอินสแตนซ์ไปยังสภาพแวดล้อม Sandbox และต้องการรวมสภาพแวดล้อม Sandbox กับ Dataverseคุณต้องนำฟิลด์ที่กำหนดเองไปใช้กับตาราง Dataverse ใหม่อีกครั้ง ดูที่ [ใช้ฟิลด์ที่กำหนดเองกับ Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service)
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>ผลของการคัดลอกฐานข้อมูลทรัพยากรบุคคล
 
@@ -51,11 +50,11 @@ ms.locfileid: "4527848"
 
 - สภาพแวดล้อมเป้าหมายจะไม่พร้อมใช้งานจนกว่ากระบวนการคัดลอกจะเสร็จสมบูรณ์
 
-- เอกสารในที่จัดเก็บ Microsoft Azure Blob จะไม่ถูกคัดลอกจากสภาพแวดล้อมหนึ่งไปยังอีกสภาพแวดล้อมหนึ่ง ดังนั้น เอกสารและเท็มเพลตที่แนบจะไม่ถูกคัดลอกและจะยังคงอยู่ในสภาพแวดล้อมต้นทาง
+- เอกสารในที่จัดเก็บ Microsoft Azure Blob จะไม่ถูกคัดลอกจากสภาพแวดล้อมหนึ่งไปยังอีกสภาพแวดล้อมหนึ่ง ดังนั้น เอกสารและเทมเพลตที่แนบจะไม่ถูกคัดลอกและจะยังคงอยู่ในสภาพแวดล้อมต้นทาง
 
-- ผู้ใช้ทั้งหมดยกเว้นผู้ใช้ที่เป็นผู้ดูแลระบบและบัญชีผู้ใช้บริการภายในอื่นๆ จะไม่สามารถใช้งานได้​ ผู้ใช้ที่เป็นผู้ดูแลระบบจึงสามารถลบหรือทำให้ข้อมูลยุ่งเหยิงก่อนที่ผู้ใช้คนอื่นได้รับอนุญาตให้กลับเข้าสู่ระบบ
+- ผู้ใช้ทั้งหมดยกเว้นผู้ใช้ที่มีบทบาทความปลอดภัย "ผู้ดูแลระบบ" และบัญชีผู้ใช้บริการภายในอื่นๆ จะไม่พร้อมใช้งาน ผู้ใช้ที่เป็นผู้ดูแลระบบจึงสามารถลบหรือทำให้ข้อมูลยุ่งเหยิงก่อนที่ผู้ใช้คนอื่นได้รับอนุญาตให้กลับเข้าสู่ระบบ
 
-- ผู้ใช้ผู้ดูแลระบบต้องทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก เช่น การเชื่อมต่อปลายทางการรวมกับบริการหรือ URL เฉพาะ
+- ผู้ใช้ใดๆ ที่มีบทบาทความปลอดภัย "ผู้ดูแลระบบ" ต้องทำการเปลี่ยนแปลงการตั้งค่าคอนฟิก เช่น การเชื่อมต่อปลายทางการรวมกับบริการ หรือ URL เฉพาะ
 
 ## <a name="copy-the-human-resources-database"></a>คัดลอกฐานข้อมูลทรัพยากรบุคคล
 
@@ -80,7 +79,7 @@ ms.locfileid: "4527848"
 
 6. เลือกอินสแตนซ์ Power Apps ที่จะคัดลอก แล้วเลือก **คัดลอก**
 
-7. เมื่อกระบวนการคัดลอกเสร็จสมบูรณ์ ให้ลงชื่อเข้าใช้ไปยังอินสแตนซ์เป้าหมาย และเปิดใช้งานการรวม Common Data Service สำหรับข้อมูลและคำแนะนำเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกการรวม Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration)
+7. เมื่อกระบวนการคัดลอกเสร็จสมบูรณ์ ให้ลงชื่อเข้าใช้ไปยังอินสแตนซ์เป้าหมาย และเปิดใช้งานการรวม Dataverse สำหรับข้อมูลและคำแนะนำเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกการรวม Dataverse](./hr-admin-integration-common-data-service.md)
 
 ## <a name="data-elements-and-statuses"></a>องค์ประกอบและสถานะของข้อมูล
 
@@ -98,7 +97,7 @@ ms.locfileid: "4527848"
 
 - เรกคอร์ดเฉพาะสภาพแวดล้อมในตาราง **SysServerConfig** **SysServerSessions** **SysCorpNetPrinters** **SysClientSessions** **BatchServerConfig** และ **BatchServerGroup**
 
-- เอกสารแนบในตาราง DocuValue เอกสารแนบเหล่านี้รวมถึงเท็มเพลต Microsoft Office ที่ถูกเขียนทับในสภาพแวดล้อมต้นทาง
+- เอกสารแนบในตาราง DocuValue เอกสารแนบเหล่านี้รวมถึงเทมเพลต Microsoft Office ที่ถูกเขียนทับในสภาพแวดล้อมต้นทาง
 
 - สตริงการเชื่อมต่อในตาราง **PersonnelIntegrationConfiguration**
 
@@ -112,7 +111,7 @@ ms.locfileid: "4527848"
 
 นอกจากนี้ สถานะดังต่อไปนี้จะเปลี่ยนไปเมื่อคุณคัดลอกอินสแตนซ์:
 
-- ผู้ใช้ทั้งหมดยกเว้นผู้ดูแลระบบถูกตั้งค่าเป็น **ปิดใช้งาน**
+- ผู้ใช้ทั้งหมดยกเว้นผู้ใช้ที่มีบทบาทความปลอดภัย "ผู้ดูแลระบบ" ได้รับการตั้งค่าเป็น **ปิดใช้งาน**
 
 - ชุดงานทั้งหมดยกเว้นงานระบบบางงานจะถูกตั้งค่าเป็น **ระงับ**
 
@@ -122,11 +121,11 @@ ms.locfileid: "4527848"
 
 ผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบทั้งหมดในสภาพแวดล้อม Sandbox เป้าหมายจะถูกปิดใช้งานเพื่อป้องกันไม่ให้มีการลงชื่อเข้าใช้ในสภาพแวดล้อม Sandbox ผู้ดูแลระบบสามารถเป็นผู้ใช้ที่เปิดใช้งานได้ ถ้าจำเป็น
 
-## <a name="apply-custom-fields-to-common-data-service"></a>ใช้ฟิลด์ที่กำหนดเองกับ Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>ใช้ฟิลด์ที่กำหนดเองกับ Dataverse
 
-ถ้าคุณคัดลอกอินสแตนซ์ไปยังสภาพแวดล้อม Sandbox และต้องการรวมสภาพแวดล้อม Sandbox กับ Common Data Serviceคุณต้องนำฟิลด์ที่กำหนดเองไปใช้กับเอนทิตี้ Common Data Service ใหม่อีกครั้ง
+ถ้าคุณคัดลอกอินสแตนซ์ไปยังสภาพแวดล้อม Sandbox และต้องการรวมสภาพแวดล้อม Sandbox กับ Dataverseคุณต้องนำฟิลด์ที่กำหนดเองไปใช้กับตาราง Dataverse ใหม่อีกครั้ง
 
-สำหรับแต่ละฟิลด์ที่กำหนดเองที่มีการแสดงในเอนทิตี้ Common Data Service ให้ทำตามขั้นตอนต่อไปนี้:
+สำหรับแต่ละฟิลด์ที่กำหนดเองที่มีการแสดงในตาราง Dataverse ให้ทำตามขั้นตอนต่อไปนี้:
 
 1. ไปที่ฟิลด์ที่กำหนดเองและเลือก **แก้ไข**
 
@@ -140,9 +139,9 @@ ms.locfileid: "4527848"
 
 6. เลือก **ใช้การเปลี่ยนแปลง** อีกครั้ง
 
-กระบวนการยกเลิกการเลือก การใช้การเปลี่ยนแปลง การเลือกใหม่ และการใช้การเปลี่ยนแปลงอีกครั้งจะพร้อมท์ Schema เพื่ออัพเดตใน Common Data Service ให้รวมฟิลด์ที่กำหนดเอง
+กระบวนการยกเลิกการเลือก การใช้การเปลี่ยนแปลง การเลือกใหม่ และการใช้การเปลี่ยนแปลงอีกครั้งจะพร้อมท์ Schema เพื่ออัปเดตใน Dataverse ให้รวมฟิลด์ที่กำหนดเอง
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่กำหนดเอง ให้ดูที่ [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับฟิลด์ที่กำหนดเอง ให้ดูที่ [สร้างและทำงานกับฟิลด์ที่กำหนดเอง](../fin-ops-core/fin-ops/get-started/user-defined-fields.md)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
@@ -150,3 +149,6 @@ ms.locfileid: "4527848"
 [เอาอินสแตนซ์ออก](hr-admin-setup-remove-instance.md)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

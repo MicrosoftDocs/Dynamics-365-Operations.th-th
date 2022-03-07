@@ -1,72 +1,76 @@
 ---
-title: ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service
-description: หัวข้อนี้แสดงวิธีการตั้งค่าคอนฟิกเอนทิตีเสมือนสำหรับ Dynamics 365 Human Resources สร้างและอัพเดตข้อมูลเอนทิตีเสมือนที่มีอยู่ และวิเคราะห์เอนทิตีที่สร้างและพร้อมใช้งาน
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+title: ตั้งค่าคอนฟิกตารางเสมือน Dataverse
+description: หัวข้อนี้แสดงวิธีการตั้งค่า สร้าง อัปเดตตารางเสมือนที่มีอยู่ และวิเคราะห์ตารางที่สร้างและตารางที่พร้อมใช้งานสำหรับ Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: CDSIntegrationAdministration
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645612"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414675"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>ตั้งค่าคอนฟิกเอนทิตีเสมือน Common Data Service
+# <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources เป็นแหล่งข้อมูลเสมือนใน Common Data Service ซึ่งให้การดำเนินการส้ราง อ่าน อัปเดต และลบทั้งหมด (CRUD) จาก Common Data Service และ Microsoft Power Platform ข้อมูลสำหรับเอนทิตีเสมือนไม่ได้จัดเก็บไว้ใน Common Data Service แต่อยู่ในฐานข้อมูลใบสมัคร 
+Dynamics 365 Human Resources เป็นแหล่งข้อมูลเสมือนใน Microsoft Dataverse ซึ่งให้การดำเนินการส้ราง อ่าน อัปเดต และลบทั้งหมด (CRUD) จาก Dataverse และ Microsoft Power Platform ข้อมูลสำหรับตารางเสมือนไม่ได้จัดเก็บไว้ใน Dataverse แต่อยู่ในฐานข้อมูลใบสมัคร
 
-เมื่อต้องการเปิดใช้งานการดำเนินงาน CRUD บนเอนทิตีทรัพยากรบุคคลจาก Common Data Service คุณต้องทำให้เอนทิตีพร้อมใช้งานเป็นเอนทิตีเสมือนใน Common Data Service ซึ่งช่วยให้คุณสามารถทำการดำเนินงาน CRUD จาก Common Data Service และ Microsoft Power Platform บนข้อมูลที่อยู่ในทรัพยากรบุคคล การดำเนินงานยังสนับสนุนการตรวจสอบตรรกะทางธุรกิจทั้งหมดของทรัพยากรบุคคล เพื่อให้มั่นใจในความสมบูรณ์ของข้อมูลเมื่อเขียนข้อมูลไปยังเอนทิตี
-
-## <a name="available-virtual-entities-for-human-resources"></a>เอนทิตีเสมือนพร้อมใช้งานสำหรับทรัพยากรบุคคล
-
-เอนทิตี Open Data Protocol (OData) ทั้งหมดในทรัพยากรบุคคลพร้อมใช้งานเป็นเอนทิตีเสมือนใน Common Data Service นอกจากนี้ยังพร้อมใช้งานใน Power Platform ด้วย ขณะนี้ คุณสามารถสร้างแอปและประสบการณ์พร้อมกับข้อมูลโดยตรงจากทรัพยากรบุคคลที่มีความสามารถ CRUD เต็มที่ โดยไม่มีการคัดลอกหรือการซิงโครไนส์ข้อมูลไปยัง Common Data Service คุณสามารถใช้พอร์ทัล Power Apps เพื่อสร้างเว็บไซต์ที่เชื่อมต่อกับภายนอก ซึ่งเปิดใช้งานสถานการณ์การทำงานร่วมกันสำหรับกระบวนการทางธุรกิจในทรัพยากรบุคคล
-
-คุณสามารถดูรายการเอนทิตีเสมือนที่เปิดใช้งานในสภาพแวดล้อม และเริ่มต้นการทำงานกับเอนทิตีใน [Power Apps](https://make.powerapps.com) ในโซลูชัน **เอนทิตีเสมือนของ Dynamics 365 HR**
-
-![เอนทิตีเสมือนของ Dynamics 365 HR ใน Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>เอนทิตีเสมือนกับเอนทิตีธรรมชาติ
-
-เอนทิตีเสมือนสำหรับทรัพยากรบุคคลไม่เหมือนกับเอนทิตี Common Data Service ธรรมชาติที่สร้างขึ้นสำหรับทรัพยากรบุคคล เอนทิตีธรรมชาติสำหรับทรัพยากรบุคคลสร้างขึ้นแยกต่างหาก และรักษาไว้ในโซลูชันทั่วไปของ HCM ใน Common Data Service ด้วยเอนทิตีธรรมชาติ ข้อมูลจะถูกจัดเก็บไว้ใน Common Data Service และต้องมีการซิงโครไนส์กับฐานข้อมูลใบสมัครทรัพยากรบุคคล
+เมื่อต้องการเปิดใช้งานการดำเนินงาน CRUD บนเอนทิตีทรัพยากรบุคคลจาก Dataverse คุณต้องทำให้เอนทิตีพร้อมใช้งานเป็นตารางเสมือนใน Dataverse ซึ่งช่วยให้คุณสามารถทำการดำเนินงาน CRUD จาก Dataverse และ Microsoft Power Platform บนข้อมูลที่อยู่ในทรัพยากรบุคคล การดำเนินงานยังสนับสนุนการตรวจสอบตรรกะทางธุรกิจทั้งหมดของทรัพยากรบุคคล เพื่อให้มั่นใจในความสมบูรณ์ของข้อมูลเมื่อเขียนข้อมูลไปยังเอนทิตี
 
 > [!NOTE]
-> สำหรับรายการของเอนทิตี Common Data Service ธรรมชาติสำหรับทรัพยากรบุคคล ให้ดูที่ [เอนทีตี Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)
+> เอนทิตี Human Resources จะสอดคล้องกับตาราง Dataverse หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดต Dataverse (ซึ่งก่อนหน้านี้เรียกว่า Common Data Service) และการอัปเดตศัพท์ โปรดดูที่ [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>ตารางเสมือนพร้อมใช้งานสำหรับทรัพยากรบุคคล
+
+เอนทิตี Open Data Protocol (OData) ทั้งหมดในทรัพยากรบุคคลพร้อมใช้งานเป็นตารางเสมือนใน Dataverse นอกจากนี้ยังพร้อมใช้งานใน Power Platform ด้วย ขณะนี้ คุณสามารถสร้างแอปและประสบการณ์พร้อมกับข้อมูลโดยตรงจากทรัพยากรบุคคลที่มีความสามารถ CRUD เต็มที่ โดยไม่มีการคัดลอกหรือการซิงโครไนส์ข้อมูลไปยัง Dataverse คุณสามารถใช้พอร์ทัล Power Apps เพื่อสร้างเว็บไซต์ที่เชื่อมต่อกับภายนอก ซึ่งเปิดใช้งานสถานการณ์การทำงานร่วมกันสำหรับกระบวนการทางธุรกิจในทรัพยากรบุคคล
+
+คุณสามารถดูรายการตารางเสมือนที่เปิดใช้งานในสภาพแวดล้อม และเริ่มต้นการทำงานกับตารางใน [Power Apps](https://make.powerapps.com) ในโซลูชัน **ตารางเสมือนของ Dynamics 365 HR**
+
+![ตารางเสมือนของ Dynamics 365 HR ใน Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>ตารางเสมือนเทียบกับตารางดั้งเดิม
+
+ตารางเสมือนสำหรับทรัพยากรบุคคลไม่เหมือนกับตาราง Dataverse ธรรมชาติที่สร้างขึ้นสำหรับทรัพยากรบุคคล 
+
+ตารางธรรมชาติสำหรับทรัพยากรบุคคลสร้างขึ้นแยกต่างหาก และรักษาไว้ในโซลูชันทั่วไปของ HCM ใน Dataverse ด้วยตารางธรรมชาติ ข้อมูลจะถูกจัดเก็บไว้ใน Dataverse และต้องมีการซิงโครไนส์กับฐานข้อมูลใบสมัครทรัพยากรบุคคล
+
+> [!NOTE]
+> สำหรับรายการของตาราง Dataverse ธรรมชาติสำหรับทรัพยากรบุคคล ให้ดูที่ [ตาราง Dataverse](./hr-developer-entities.md)
 
 ## <a name="setup"></a>ตั้งค่า
 
-ทำตามขั้นตอนการตั้งค่าต่อไปนี้เพื่อเปิดใช้งานเอนทิตีเสมือนในสภาพแวดล้อมของคุณ
+ทำตามขั้นตอนการตั้งค่าต่อไปนี้เพื่อเปิดใช้งานตารางเสมือนในสภาพแวดล้อมของคุณ
 
-### <a name="enable-virtual-entities-in-human-resources"></a>เปิดใช้งานเอนทิตีเสมือนในทรัพยากรบุคคล
+### <a name="enable-virtual-tables-in-human-resources"></a>เปิดใช้งานตารางเสมือนในทรัพยากรบุคคล
 
-ก่อนอื่นคุณต้องเปิดใช้งานเอนทิตีเสมือนในพื้นที่ทำงาน **การจัดการคุณลักษณะ**
+ก่อนอื่นคุณต้องเปิดใช้งานตารางเสมือนในพื้นที่ทำงาน **การจัดการคุณลักษณะ**
 
 1. ในทรัพยากรบุคคล เลือก **การจัดการระบบ**
 
 2. เลือกไทล์ **การจัดการคุณลักษณะ**
 
-3. เลือก **การสนับสนุนเอนทิตีเสมือนใน HR/CDS** แล้วจากนั้น เลือก **เปิดใช้งาน**
+3. เลือก **การสนับสนุนตารางเสมือนสำหรับ HR ใน Dataverse** แล้วจากนั้น เลือก **เปิดใช้งาน**
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานและการปิดใช้งานคุณลักษณะ ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 
 ### <a name="register-the-app-in-microsoft-azure"></a>ลงทะเบียนแอปใน Microsoft Azure
 
-คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+คุณต้องลงทะเบียนอินสแตนซ์ทรัพยากรบุคคลของคุณในพอร์ทัล Azure เพื่อให้แพลตฟอร์มข้อมูลเฉพาะของ Microsoft สามารถให้บริการการรับรองความถูกต้องและการตรวจสอบความถูกต้องสำหรับแอปและผู้ใช้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการลงทะเบียนแอปใน Azure ดูที่ [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
 
 1. เปิด [พอร์ทัล Microsoft Azure](https://portal.azure.com)
 
@@ -74,13 +78,13 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 3. เลือก **การลงทะเบียนใหม่**
 
-4. ในฟิลด์ **ชื่อ** ให้ป้อนชื่อที่เป็นคำอธิบายสำหรับแอป ตัวอย่างเช่น **เอนทีตีเสมือน Dynamics 365 Human Resources**
+4. ในฟิลด์ **ชื่อ** ให้ป้อนชื่อที่เป็นคำอธิบายสำหรับแอป ตัวอย่างเช่น **ตารางเสมือน Dynamics 365 Human Resources**
 
 5. ในฟิลด์ **เปลี่ยนเส้นทาง URI** ให้ป้อน URL พื้นที่ว่างในชื่อของอินสแตนซ์ของทรัพยากรบุคคลของคุณ
 
 6. เลือก **การลงทะเบียน**
 
-7. เมื่อลงทะเบียนเสร็จสมบูรณ์แล้ว พอร์ทัล Azure จะแสดงบานหน้าต่าง **ภาพรวม** ของการลงทะเบียนของแอป ซึ่งรวมถึง **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** จด **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** ในขณะนี้ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลเอนทิตีเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)
+7. เมื่อลงทะเบียนเสร็จสมบูรณ์แล้ว พอร์ทัล Azure จะแสดงบานหน้าต่าง **ภาพรวม** ของการลงทะเบียนของแอป ซึ่งรวมถึง **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** จด **รหัสโปรแกรมประยุกต์ (ไคลเอนต์)** ในขณะนี้ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
 
 8. ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก **ใบรับรองและข้อมูลลับ**
 
@@ -88,36 +92,24 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 10. ระบุคำอธิบาย เลือกช่วงเวลา และเลือก **เพิ่ม**
 
-11. บันทึกค่าของข้อมูลลับ คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลเอนทิตีเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source)
+11. บันทึกค่าของข้อมูลลับจากคุณสมบัติ **ค่า** ของตาราง คุณจะป้อนข้อมูลนี้เมื่อคุณ [ตั้งค่าคอนฟิกแหล่งข้อมูลตารางเสมือน](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source)
 
     > [!IMPORTANT]
     > ตรวจสอบให้แน่ใจว่าได้จดบันทึกค่าของข้อมูลลับไว้ในขณะนี้ ข้อมูลลับจะไม่มีการแสดงอีกครั้งหลังจากที่คุณออกจากหน้านี้
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>ติดตั้งแอป Dynamics 365 HR Virtual Entity
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>ติดตั้งแอปตารางเสมือน Dynamics 365 HR
 
-ติดตั้งแอป Dynamics 365 HR Virtual Entity ในสภาพแวดล้อม Power Apps ของคุณ เพื่อจัดวางแพคเกจโซลูชันเอนทิตีเสมือนไปยัง Common Data Service
+ติดตั้งแอปตารางเสมือน Dynamics 365 HR ในสภาพแวดล้อม Power Apps ของคุณ เพื่อจัดวางแพคเกจโซลูชันตารางเสมือนไปยัง Dataverse
 
-1. เปิด [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Microsoft Dataverse**
 
-2. ในรายการ **สภาพแวดล้อม** ให้เลือกสภาพแวดล้อม Power Apps ที่สัมพันธ์กับอินสแตนซ์ทรัพยากรบุคคลของคุณ
+2. เลือกแท็บ **ตารางเสมือน**
 
-3. ในส่วน **ทรัพยากร** ของหน้า ให้เลือก **แอป Dynamics 365**
+3. เลือก **ติดตั้งแอปตารางเสมือน**
 
-4. เลือกการดำเนินการ **ติดตั้งแอป**
+### <a name="configure-the-virtual-table-data-source"></a>ตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือน
 
-5. เลือก **Dynamics 365 HR Virtual Entity** และเลือก **ถัดไป**
-
-6. ตรวจทานและทำเครื่องหมายเพื่อยอมรับข้อตกลงการให้บริการ
-
-7. เลือก **ติดตั้ง**
-
-การติดตั้งใช้เวลาสองสามนาที เมื่อเสร็จสิ้น ให้ดำเนินการขั้นตอนต่อไป
-
-![ติดตั้งแอป Dynamics 365 HR Virtual Entity จากศูนย์การจัดการ Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-entity-data-source"></a>ตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับเอนทิตีเสมือน 
-
-ขั้นตอนต่อไปคือการตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับเอนทิตีเสมือนในสภาพแวดล้อม Power Apps 
+ขั้นตอนต่อไปคือการตั้งค่าคอนฟิกแหล่งข้อมูลสำหรับตารางเสมือนในสภาพแวดล้อม Power Apps
 
 1. เปิด [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
 
@@ -128,6 +120,9 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 4. ใน **ฮับความสมบูรณ์ของโซลูชัน** ให้เลือกไอคอน **การค้นหาขั้นสูง** ที่ด้านบนขวาของหน้าโปรแกรมประยุกต์
 
 5. บนหน้า **การค้นหาขั้นสูง** ในรายการแบบเลื่อนลง **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือน Finance and Operations**
+
+   > [!NOTE]
+   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของ Finance and Operations** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
 
 6. เลือก **ผลลัพธ์**
 
@@ -146,6 +141,9 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
      >[!NOTE]
      >ตรวจสอบให้แน่ใจว่าได้รวมอักขระ "**/**" เมื่อสิ้นสุด URL เพื่อหลีกเลี่ยงการรับข้อผิดพลาด
 
+     >[!NOTE]
+     >URL เป้าหมายจะระบุสภาพแวดล้อมของทรัพยากรบุคคลที่ตารางเสมือนจะชี้ไปยังข้อมูล ถ้าคุณสร้างสภาพแวดล้อมภายในโดยการสร้างสําเนาของสภาพแวดล้อมการทำงานจริงของคุณ ให้อัปเดตค่านี้เป็นชื่อ URL ของสภาพแวดล้อม Sandbox ใหม่ของคุณ สิ่งนี้ช่วยให้มั่นใจว่าตารางเสมือนจะเชื่อมต่อกับข้อมูลสภาพแวดล้อมอัตโนมัติ แทนที่จะชี้ไปที่สภาพแวดล้อมการทำงานจริงต่อไป
+
    - **รหัสผู้เช่า**: รหัสผู้เช่า Azure Active Directory (Azure AD)
 
    - **รหัสโปรแกรมประยุกต์ AAD**: รหัสโปรแกรมประยุกต์ (ไคลเอนต์) ที่สร้างขึ้นสำหรับใบสมัครที่ลงทะเบียนไว้ในพอร์ทัล Microsoft Azure คุณได้รับข้อมูลนี้ก่อนหน้านี้ระหว่างขั้นตอนการ [ลงทะเบียนโปรแกรมประยุกต์ใน Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure)
@@ -161,7 +159,7 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 ให้สิทธิสำหรับใบสมัคร Azure AD สองใบในทรัพยากรบุคคล:
 
 - แอปที่สร้างขึ้นสำหรับผู้เช่าของคุณในพอร์ทัล Microsoft Azure
-- แอป Dynamics 365 HR Virtual Entity ที่ติดตั้งในสภาพแวดล้อม Power Apps 
+- แอปตารางเสมือน Dynamics 365 HR ที่ติดตั้งในสภาพแวดล้อม Power Apps 
 
 1. ในทรัพยากรบุคคล ให้เปิดหน้า **ใบสมัคร Azure Active Directory**
 
@@ -174,45 +172,47 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 3. เลือก **สร้าง** เพื่อสร้างเรกคอร์ดใบสมัครที่สอง:
 
     - **รหัสไคลเอนต์**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **ชื่อ**: Dynamics 365 HR Virtual Entity
+    - **ชื่อ**: ตารางเสมือน Dynamics 365 HR
     - ในฟิลด์ **รหัสผู้ใช้** ให้เลือกรหัสผู้ใช้ของผู้ใช้ที่มีสิทธิ์ผู้ดูแลระบบในทรัพยากรบุคคลและสภาพแวดล้อม Power Apps
 
-## <a name="generate-virtual-entities"></a>สร้างคอนฟิกเอนทิตีเสมือน
+## <a name="generate-virtual-tables"></a>สร้างคอนฟิกตารางเสมือน
 
-เมื่อการตั้งค่าเสร็จสมบูรณ์ คุณสามารถเลือกเอนทิตีเสมือนที่คุณต้องการสร้างและเปิดใช้งานในอินสแตนซ์ Common Data Service ของคุณได้
+เมื่อการตั้งค่าเสร็จสมบูรณ์ คุณสามารถเลือกตารางเสมือนที่คุณต้องการสร้างและเปิดใช้งานในอินสแตนซ์ Dataverse ของคุณได้
 
-1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Common Data Service (CDS)**
+1. ในทรัพยากรบุคคล ให้เปิดหน้า **การรวม Microsoft Dataverse**
 
-2. เลือกแท็บ **เอนทิตีเสมือน**
+2. เลือกแท็บ **ตารางเสมือน**
 
 > [!NOTE]
-> การสลับ **เปิดใช้งานเอนทิตีเสมือน** จะถูกตั้งค่าเป็น **ใช่** โดยอัตโนมัติเมื่อการตั้งค่าที่จำเป็นทั้งหมดเสร็จสมบูรณ์แล้ว ถ้าการสลับถูกตั้งค่าเป็น **ไม่ใช่** ให้ตรวจสอบขั้นตอนในหัวข้อก่อนหน้านี้ของเอกสารนี้ เพื่อให้แน่ใจว่าการตั้งค่าข้อกำหนดเบื้องต้นทั้งหมดเสร็จสมบูรณ์แล้ว
+> การสลับ **เปิดใช้งานตารางเสมือน** จะถูกตั้งค่าเป็น **ใช่** โดยอัตโนมัติเมื่อการตั้งค่าที่จำเป็นทั้งหมดเสร็จสมบูรณ์แล้ว ถ้าการสลับถูกตั้งค่าเป็น **ไม่ใช่** ให้ตรวจสอบขั้นตอนในหัวข้อก่อนหน้านี้ของเอกสารนี้ เพื่อให้แน่ใจว่าการตั้งค่าข้อกำหนดเบื้องต้นทั้งหมดเสร็จสมบูรณ์แล้ว
 
-3. เลือกเอนทิตีหรือเอนทิตีมากกว่าหนึ่งที่คุณต้องการสร้าง Common Data Service
+3. เลือกตารางหรือตารางมากกว่าหนึ่งที่คุณต้องการสร้าง Dataverse
 
 4. เลือก **สร้าง/รีเฟรช**
 
-![การรวม Common Data Service](./media/hr-admin-integration-common-data-service-integration.jpg)
+![การรวม Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
-## <a name="check-entity-generation-status"></a>ตรวจสอบสถานะการสร้างเอนทิตี
+## <a name="check-table-generation-status"></a>ตรวจสอบสถานะการสร้างตาราง
 
-เอนทิตีเสมือนมีการสร้างใน Common Data Service โดยผ่านกระบวนการพื้นหลังแบบอะซิงโครนัส การอัปเดตในกระบวนการแสดงในศูนย์การดำเนินการ รายละเอียดเกี่ยวกับกระบวนการ รวมถึงล็อกข้อผิดพลาด จะปรากฏในหน้า **กระบวนการระบบอัตโนมัติ**
+ตารางเสมือนมีการสร้างใน Dataverse โดยผ่านกระบวนการพื้นหลังแบบอะซิงโครนัส การอัปเดตในกระบวนการแสดงในศูนย์การดำเนินการ รายละเอียดเกี่ยวกับกระบวนการ รวมถึงล็อกข้อผิดพลาด จะปรากฏในหน้า **กระบวนการระบบอัตโนมัติ**
 
 1. ในทรัพยากรบุคคล ให้เปิดเพจรายการ **กระบวนการระบบอัตโนมัติ**
 
 2. เลือกแท็บ **กระบวนการแบบเบื้องหลัง**
 
-3. เลือก **กระบวนการแบบเบื้องหลังของการดำเนินงานแบบอะซิงโครนัสในการสำรวจเอนทิตีเสมือน**
+3. เลือก **กระบวนการแบบเบื้องหลังของการดำเนินงานแบบอะซิงโครนัสในการสำรวจตารางเสมือน**
 
 4. เลือก **ดูผลลัพธ์ล่าสุด**
 
-บานหน้าต่าง slideout แสดงผลลัพธ์การดำเนินการล่าสุดสำหรับกระบวนการ คุณสามารถดูล็อกสำหรับกระบวนการ รวมถึงข้อผิดพลาดที่ส่งคืนจาก Common Data Service
+บานหน้าต่าง slideout แสดงผลลัพธ์การดำเนินการล่าสุดสำหรับกระบวนการ คุณสามารถดูล็อกสำหรับกระบวนการ รวมถึงข้อผิดพลาดที่ส่งคืนจาก Dataverse
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[Common Data Service คืออะไร](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[ภาพรวมของเอนทิตี](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[ภาพรวมความสัมพันธ์ของเอนทิตี](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[สร้างและแก้ไขเอนทิตีเสมือนที่มีข้อมูลจากแหล่งข้อมูลภายนอก](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[พอร์ทัล Power Apps คืออะไร](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[ภาพรวมของการสร้างแอปใน Power Apps](https://docs.microsoft.com/powerapps/maker/)
+[Dataverse คืออะไร](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[ตารางใน Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[ภาพรวมความสัมพันธ์ของตาราง](/powerapps/maker/common-data-service/relationships-overview)<br>
+[สร้างและแก้ไขตารางเสมือนที่มีข้อมูลจากแหล่งข้อมูลภายนอก](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[พอร์ทัล Power Apps คืออะไร](/powerapps/maker/portals/overview)<br>
+[ภาพรวมของการสร้างแอปใน Power Apps](/powerapps/maker/)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

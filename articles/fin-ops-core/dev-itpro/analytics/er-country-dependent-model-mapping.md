@@ -2,11 +2,9 @@
 title: ตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ที่ขึ้นกับบริบทของประเทศ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าการแม็ปแบบจำลอง ER เพื่อให้ขึ้นอยู่กับบริบทของประเทศ/ภูมิภาคของนิติบุคคลที่ควบคุมการใช้งาน
 author: NickSelin
-manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680888"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605382"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>ตั้งค่าคอนฟิกการแม็ปแบบจำลองของ ER ที่ขึ้นกับบริบทของประเทศ
 
@@ -50,7 +48,7 @@ ms.locfileid: "4680888"
 
 ทำตามขั้นตอนใน [ภาคผนวก 1](#appendix1) ของหัวข้อนี้ เพื่อออกแบบส่วนประกอบ ER ที่จำเป็น ขณะนี้คุณมีการตั้งค่าคอนฟิกการแม็ปแบบจำลอง **การแม็ป (ทั่วไป)** ที่มีการแม็ปแบบจำลองสำหรับคำนิยาม **จุดเข้าใช้งาน 1**
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-Tree.PNG)
+![หน้าการตั้งค่าคอนฟิก ER รูปแบบที่จะเรียนรู้การตั้งค่าคอนฟิกการแม็ป](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>รันรูปแบบที่ตั้งค่าคอนฟิก
 
@@ -63,7 +61,7 @@ ms.locfileid: "4680888"
 
 ทำตามขั้นตอนใน [ภาคผนวก 2](#appendix2) ของหัวข้อนี้ เพื่อออกแบบส่วนประกอบ ER ที่จำเป็น ขณะนี้คุณมีการตั้งค่าคอนฟิกการแม็ปแบบจำลอง **การแม็ป (ทั่วไป)** และ **การแม็ป (ทั่วไป) แบบกำหนดเอง** ที่มีการแม็ปแบบจำลองสำหรับคำนิยาม **จุดเข้าใช้งาน 1** 
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![หน้าการตั้งค่าคอนฟิก ER การแม็ปการตั้งค่าคอนฟิกที่กําหนดเองทั่วไป](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>รันรูปแบบที่ตั้งค่าคอนฟิก
 
@@ -73,7 +71,7 @@ ms.locfileid: "4680888"
 
 โปรดสังเกตว่าการดำเนินการของรูปแบบ ER ที่เลือกไม่สำเร็จ ข้อความแสดงข้อผิดพลาดแจ้งให้คุณทราบว่ามีการแม็ปแบบจำลองมากกว่าหนึ่งตัวอยู่สำหรับแบบจำลอง **แบบจำลองเพื่อเรียนรู้การแม็ป** และคำนิยาม **จุดเข้าใช้งาน 1** ในการตั้งค่าคอนฟิกการแม็ปแบบจำลอง **การแม็ป (ทั่วไป)** และ **การแม็ป (ทั่วไป) แบบกำหนดเอง** นอกจากนี้ข้อความขอแนะนำให้คุณเลือกการตั้งค่าคอนฟิกอย่างใดอย่างหนึ่งตามการตั้งค่าคอนฟิกเริ่มต้น
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![หน้าการตั้งค่าคอนฟิก ER ที่มีข้อความแสดงข้อผิดพลาด](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>กำหนดการตั้งค่าคอนฟิกการแม็ปเริ่มต้น
 
@@ -84,7 +82,7 @@ ms.locfileid: "4680888"
 3.  ตั้งค่าตัวเลือก **ค่าเริ่มต้นสำหรับการแม็ปแบบจำลอง** เป็น **ใช่**
 4.  เลือก **บันทึก**
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![หน้าการตั้งค่าคอนฟิก ER ค่าเริ่มต้นแถบเลื่อนการแม็บแบบจำลองที่ตั้งค่าเป็น ใช่](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>รันรูปแบบที่ตั้งค่าคอนฟิก
 
@@ -103,7 +101,7 @@ ms.locfileid: "4680888"
 
 โปรดสังเกตรุ่น 1 ของการตั้งค่าคอนฟิกการแม็ปแบบจำลอง **การแม็ป (FR)** กำหน้าค่าคอนฟิก เพื่อให้ใช้เฉพาะกับรูปแบบ ER ของแบบบจำลอง **แบบจำลองเพื่อเรียนรู้การแม็ป** ที่รันในบริษัททางการเงินที่มีบริบทของประเทศ/ภูมิภาคฝรั่งเศสเท่านั้น
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![หน้าการตั้งค่าคอนฟิก ER การตั้งค่าคอนฟิกการแม็บแบบจำลอง (FR)](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>รันรูปแบบที่ตั้งค่าคอนฟิก
 
@@ -123,7 +121,7 @@ ms.locfileid: "4680888"
 3.  ตั้งค่าตัวเลือก **ค่าเริ่มต้นสำหรับการแม็ปแบบจำลอง** เป็น **ใช่**
 4.  เลือก **บันทึก**
 
-![หน้าการตั้งค่าคอนฟิก ER](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![หน้าการตั้งค่าคอนฟิก ER การตั้งค่าคอนฟิกการแม็บ (FR) ค่าเริ่มต้นแถบเลื่อนการแม็บแบบจำลองที่ตั้งค่าเป็น ใช่](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>รันรูปแบบที่ตั้งค่าคอนฟิก
 
@@ -238,7 +236,7 @@ ms.locfileid: "4680888"
 14. ในกล่องโต้ตอบรายการแบบหล่นลง ในฟิลด์ **ชื่อ** ให้ป้อน **คำอธิบายฟังก์ชัน**
 15. เลือก **เพิ่ม**
 
-    ![เพจตัวออกแบบแบบจำลองข้อมูล ER](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![หน้าตัวออกแบบรูปแบบข้อมูล ER](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. เลือก **บันทึก**
 17. ปิดหน้า
@@ -278,10 +276,10 @@ ms.locfileid: "4680888"
 5.  เลือก **บันทึก**
 6.  ปิดหน้า **ตัวออกแบบสูตร**
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER คำนิยามจุดเข้าใช้งาน 1](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  เลือก **บันทึก**
-8.  ปิดหน้า **ตัวออกแบบการแม็ปแบบจำลอง**
+8.  ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 9.  เลือก **ใหม่**
 10. ในฟิลด์ **คำนิยาม**  ให้เลือก **จุดเข้าใช้งาน 2**
 11. ในฟิลด์ **ชื่อ** ให้ป้อน **การแม็ป (ทั่วไป) 2**
@@ -291,12 +289,12 @@ ms.locfileid: "4680888"
 15. เลือก **บันทึก**
 16. ปิดหน้า **ตัวออกแบบสูตร**
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![หน้าตัวออกแบบการแม็ปแบบจำลอง ER คำนิยามจุดเข้าใช้งาน 2](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. เลือก **บันทึก**
-18. ปิดหน้า **ตัวออกแบบการแม็ปแบบจำลอง**
+18. ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER ที่มีคำนิยามจุดเข้าใช้งาน](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. ปิดหน้า **การแม็ปแบบจำลอง**
 
@@ -337,7 +335,7 @@ ms.locfileid: "4680888"
 2.  เลือกฟิลด์ **คำอธิบายฟังก์ชัน**
 3.  เลือก **ผูก**
 
-    ![เพจตัวออกแบบรูปแบบ ER](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![หน้าตัวออกแบบรูปแบบ ER](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  เลือก **บันทึก**
 5.  ปิดหน้า
@@ -371,7 +369,7 @@ ms.locfileid: "4680888"
 6.  เลือก **บันทึก**
 7.  ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![หน้าโปรแกรมออกแบบการแม็ปแบบจำลอง ER สูตรฟังก์ชันทั่วไปแบบกำหนดเอง 1](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  เลือก **บันทึก**
 9.  ปิดหน้า
@@ -382,12 +380,12 @@ ms.locfileid: "4680888"
 14. เลือก **บันทึก**
 15. ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![หน้าโปรแกรมออกแบบการแม็ปแบบจำลอง ER สูตรฟังก์ชันทั่วไปแบบกำหนดเอง 2](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. เลือก **บันทึก**
 17. ปิดหน้า
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER กับแหล่งข้อมูลของการแม็ป สำเนาการแม็ป (ทั่วไป)](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. ปิดหน้า
 
@@ -434,7 +432,7 @@ ms.locfileid: "4680888"
 7.  เลือก **บันทึก**
 8.  ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![หน้าโปรแกรมออกแบบการแม็ปแบบจำลอง ER สูตรฟังก์ชัน FR 1](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  เลือก **บันทึก**
 10. ปิดหน้า
@@ -446,12 +444,12 @@ ms.locfileid: "4680888"
 16. เลือก **บันทึก**
 17. ปิดหน้า
 
-    ![เพจตัวออกแบบการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![หน้าโปรแกรมออกแบบการแม็ปแบบจำลอง ER สูตรฟังก์ชัน FR 2](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. เลือก **บันทึก**
 19. ปิดหน้า
 
-    ![เพจการแม็ปแบบจำลอง ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![หน้าการแม็ปแบบจำลอง ER กับแหล่งข้อมูล](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. ปิดหน้า
 
@@ -496,3 +494,6 @@ ms.locfileid: "4680888"
 - อย่างน้อยหนึ่งรุ่นของการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER มีสถานะ **เสร็จสมบูรณ์** หรือ **ใช้ร่วมกัน** ในกรณีนี้ รุ่นที่มีหมายเลขรุ่นสูงสุดจะใช้สำหรับการดำเนินการจัดรูปแบบ ER
 - ตัวเลือก **รันฉบับร่าง** สำหรับการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER เปิดใช้งาน ในกรณีนี้ รุ่นที่มีสถานะ **ร่าง** จะใช้สำหรับการดำเนินการจัดรูปแบบ ER
 > ตัวเลือก **รันฉบับร่าง** กลายเป็นพร้อมใช้งานบนเพจ **การตั้งค่าคอนฟิก** สำหรับแต่ละการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER เมื่อพารามิเตอร์ผู้ใช้ ER **การตั้งค่าการรัน** เปิดใช้งาน
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

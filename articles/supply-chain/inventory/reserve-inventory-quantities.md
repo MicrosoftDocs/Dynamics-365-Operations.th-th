@@ -1,29 +1,26 @@
 ---
 title: จองปริมาณสินค้าคงคลัง
 description: หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438755"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571148"
 ---
 # <a name="reserve-inventory-quantities"></a>จองปริมาณสินค้าคงคลัง
 
@@ -49,7 +46,7 @@ ms.locfileid: "4438755"
 
 ส่วน **นโยบายสินค้าคงคลัง** ประกอบด้วยนโยบายการจองต่อไปนี้
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **นโยบายการจอง**  | **คำอธิบาย**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | หลัก FIFO ที่ควบคุมด้วยวันที่    | ถ้าคุณเลือกตัวเลือก **ที่ควบคุมวันที่ FIFO** การจองสินค้าคงคลังจะถูกควบคุมโดยวันที่เรียงลำดับตามหลัก FIFO ชุดงานจะถูกจองตามวันที่รับสินค้าก่อนตามหลักการแบบเข้าก่อนออกก่อน (FIFO)                                                                                                                                                                                                                                                                       |
@@ -83,3 +80,6 @@ ms.locfileid: "4438755"
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>นโยบายการจองสินค้าคงคลังบนหน้าพารามิเตอร์การผลิต
 
 ค่าของฟิลด์ **การจองสินค้า** ในแท็บ **ทั่วไป** บนหน้า **พารามิเตอร์การผลิต** กำหนดจุดเริ่มต้นในกระบวนการผลิตที่ควรจองสินค้าคงคลัง ตัวอย่างเช่น สามารถจองสินค้าคงคลังได้เมื่อมีการจัดกำหนดการงาน หรือเมื่อการเริ่มต้นงาน
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bf77e488b60cc4c526398db494104c31b0f210b1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798414"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570956"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>แสดงหน้าแบบเคียงข้างกันโดยใช้คุณสมบัติเปิดในหน้าต่างใหม่
 
@@ -48,3 +47,6 @@ ms.locfileid: "4798414"
 คุณลักษณะ **การเปิดในหน้าต่างใหม่** จะพร้อมใช้งานเฉพาะเมื่อมีมากกว่าหนึ่งหน้าเปิดในหน้าต่าง นอกจากนี้ หน้าต่างป๊อปอัพยังปิดโดยอัตโนมัติ เมื่อไม่มีหน้าที่เปิดอีกต่อไป (นั่นคือ เมื่อคุณปิดหน้าสุดท้ายในหน้าต่างนั้น) ระบบยังสามารถปิดหน้าเปิดเมื่อคุณนำทางไปยังพื้นที่อื่นในแอพลิเคชัน ดังนั้น ถ้าคุณเปิดป๊อปอัพและนำทางไปยังพื้นที่อื่นในแอปพลิเคชัน หน้าต่างป๊อปอัพจะปิดโดยอัตโนมัติ เนื่องจากระบบจะปิดหน้าในหน้าต่างเหล่านั้น
 
 แถบด้านบนในป๊อปอัพแสดงข้อมูลเกี่ยวกับหน้าของบริษัทที่เปิด และเป็นแบบอ่านอย่างเดียว นอกจากนี้วินโดว์ป๊อปอัพขึ้นอยู่กับหน้าต่างเบราเซอร์หลัก ถ้าหน้าต่างหลักถูกปิด หรือรีเฟรช ป๊อปอัพเปิดอยู่ทั้งหมดจะกลายเป็นแบบอ่านอย่างเดียว หากสถานการณ์นี้เกิดขึ้น คุณยังคงสามารถดูข้อมูลในหน้าต่างเหล่านี้ แต่คุณจะไม่สามารถโต้ตอบกลับได้
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

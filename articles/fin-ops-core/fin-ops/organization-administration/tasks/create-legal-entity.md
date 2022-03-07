@@ -2,11 +2,9 @@
 title: สร้างนิติบุคคล
 description: 'นิติบุคคลเป็นองค์กรที่ได้รับการระบุผ่านการลงทะเบียนกับหน่วยงานทางกฎหมาย '
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: d665c5e6f359ad51b2e247ac487c9e4cf23a85e90e91aae2bc9d3bb5cbb9e091
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759052"
 ---
 # <a name="create-a-legal-entity"></a>สร้างนิติบุคคล
 
@@ -45,3 +43,6 @@ ms.locfileid: "4796765"
 15. ขยายส่วน **ทะเบียนภาษี** ในส่วน **ทะเบียนภาษี** ให้ป้อนหมายเลขทะเบียนที่ใช้เพื่อรายงานกับหน่วยงานจัดเก็บภาษี
 16. ขยายส่วน **ภาษี 1099** ในส่วน **ภาษี 1099** ให้ป้อนข้อมูล 1099 สำหรับนิติบุคคล  
 17. คลิก **บันทึก**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528304"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996787"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>สร้างและจัดการผู้ใช้พอร์ทัลของลูกค้า
 
@@ -39,11 +38,11 @@ ms.locfileid: "4528304"
 
 ## <a name="prerequisite-setup"></a>การตั้งค่าข้อกำหนดเบื้องต้น
 
-ผู้ติดต่อในพอร์ทัล Power Apps จะถูกจัดเก็บไว้เป็นเรกคอร์ดในเอนทิตี **ผู้ติดต่อ** ใน Common Data Service จากนั้น การรวมแบบสองทิศทางจะซิงค์เรกคอร์ดเหล่านี้กับ Microsoft Dynamics 365 Supply Chain Management ตามความจำเป็น
+ผู้ติดต่อในพอร์ทัล Power Apps จะถูกจัดเก็บไว้เป็นเรกคอร์ดในตาราง **ผู้ติดต่อ** ใน Microsoft Dataverse จากนั้น การรวมแบบสองทิศทางจะซิงค์เรกคอร์ดเหล่านี้กับ Microsoft Dynamics 365 Supply Chain Management ตามความจำเป็น
 
 ![แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า](media/customer-portal-contacts.png "แผนภาพของระบบสำหรับผู้ติดต่อของพอร์ทัลลูกค้า")
 
-ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแม็ปเอนทิตี **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
+ก่อนที่คุณจะเริ่มเชิญลูกค้าใหม่ ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งานการแม็ปตาราง **ผู้ติดต่อ** ในการรวมแบบสองทิศทาง
 
 ## <a name="the-invitation-process"></a>กระบวนการเชิญ
 
@@ -58,15 +57,15 @@ ms.locfileid: "4528304"
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกผู้ติดต่อสำหรับใช้บนพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) ในเอกสารประกอบของพอร์ทัล Power Apps
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>บทบาทของเว็บแบบสำเร็จรูปและสิทธิ์ของเอนทิตี
+## <a name="out-of-box-web-roles-and-table-permissions"></a>บทบาทของเว็บแบบสำเร็จรูปและสิทธิ์ของตาราง
 
-บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของเอนทิตี](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
+บทบาทของผู้ใช้ในพอร์ทัล Power Apps จะถูกกำหนดโดย [บทบาทของเว็บ](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [สิทธิ์ของตาราง](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) มีการกำหนดบทบาทบางอย่างสำหรับพอร์ทัลลูกค้าแบบสำเร็จรูป คุณสามารถสร้างบทบาทใหม่ และคุณสามารถแก้ไขหรือลบบทบาทที่มีอยู่ได้
 
 ### <a name="out-of-box-web-roles"></a>บทบาทของเว็บแบบสำเร็จรูป
 
 ในส่วนนี้จะอธิบายถึงบทบาทของเว็บที่มีการจัดส่งด้วยพอร์ทัลของลูกค้า
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์เอนทิตีสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) ในเอกสารประกอบของพอร์ทัล Power Apps
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการปรับเปลี่ยนบทบาทของผู้ใช้แบบสำเร็จรูป ให้ดูที่ [สร้างบทบาทของเว็บสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) และ [เพิ่มความปลอดภัยตามเรกคอร์ดโดยใช้สิทธิ์ตารางสำหรับพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) ในคู่มือพอร์ทัล Power Apps
 
 #### <a name="administrator"></a>ผู้ดูแลระบบ
 

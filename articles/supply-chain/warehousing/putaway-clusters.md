@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103674"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840376"
 ---
 # <a name="putaway-clusters"></a>คลัสเตอร์ของการสำรองสินค้า
 
@@ -25,9 +25,12 @@ ms.locfileid: "8103674"
 
 คลัสเตอร์ของการสำรองสินค้านำเสนอวิธีการเลือกแผ่นป้ายทะเบียนหลายใบในเวลาเดียวกันแล้วใช้สำหรับการสำรองในสถานที่เก็บต่าง ๆ กระบวนการนี้มักจะถูกอ้างอิงเป็น *ระบบ Milk Run* คลัสเตอร์ของการสำรองสินค้ามีประโยชน์มากสำหรับธุรกิจขายปลีก โดยทั่วไปป้ายทะเบียนจะไม่มีการจัดเก็บสินค้าคงคลังเต็มจำนวน 
 
-## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะคลัสเตอร์ของการสำรองสินค้า
+## <a name="turn-on-the-cluster-putaway-feature"></a>เปิดคุณลักษณะคลัสเตอร์ของการสำรองสินค้า
 
-หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ให้กับระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
+
+- **โมดูล:** *การจัดการคลังสินค้า*
+- **ชื่อคุณลักษณะ:** *คุณลักษณะคลัสเตอร์ของการสำรองสินค้า*
 
 ## <a name="setup-for-the-example-scenario"></a>การตั้งค่าสำหรับสถานการณ์ตัวอย่าง
 

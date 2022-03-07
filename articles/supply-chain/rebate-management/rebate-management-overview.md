@@ -1,21 +1,25 @@
 ---
-# required metadata
 title: ภาพรวมของโมดูลการจัดการเงินคืน
 description: หัวข้อนี้แสดงภาพรวมของโมดูลการจัดการเงินคืนสำหรับ Microsoft Dynamics 365 Supply Chain Management
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
-ms.search.validFrom: '2021-02-19'
+ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985518"
 ---
-
 # <a name="rebate-management-module-overview"></a>ภาพรวมของโมดูลการจัดการเงินคืน
 
 [!include [banner](../includes/banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีที่คุณสามารถแก้ไขรูปแบบการรายงานอิเล็กทรอนิกส์ (ER) ที่ถูกใช้ในการสร้างเอกสารทางธุรกิจ โดยการนำเท็มเพลต Excel ที่แก้ไขไปใช้ใหม่
+description: หัวข้อนี้อธิบายวิธีแก้ไขรูปแบบการรายงานอิเล็กทรอนิกส์ (ER) ที่ถูกใช้ในการสร้างเอกสารทางธุรกิจ โดยการนำแม่แบบ Excel ที่แก้ไขไปใช้ใหม่
 author: NickSelin
 manager: AnnBe
 ms.date: 06/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3d828412e0d804acf6e6141778512e899bc78a7d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682228"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092855"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>แก้ไขรูปแบบการรายงานทางอิเล็กทรอนิกส์ด้วยการใช้เท็มเพลต Excel อีกครั้ง
 

@@ -1,26 +1,24 @@
 ---
 title: สร้างใบสั่งซื้อซ้ำ
 description: หัวข้อนี้แสดงวิธีการสร้างใบสั่งซื้อ (PO) ที่ทำซ้ำ โดยการคัดลอกรายการจากเอกสารใบสั่งซื้อก่อนหน้านี้ไปยัง PO ใหม่หรือ PO ที่มีอยู่
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65eb801fb363ce2484dcce4d086d1b2b5ad3388f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3af29594326501359e4722b92d6c5235cf25af9c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017353"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569396"
 ---
 # <a name="create-a-repeat-purchase-order"></a>สร้างใบสั่งซื้อซ้ำ
 
@@ -69,3 +67,6 @@ ms.locfileid: "5017353"
 4. เลือกรายการสำหรับใบสั่งซื้อที่ต้องการ โปรดสังเกตว่า นอกจากนี้ยังมีการเลือกรายการใบสั่งเดียวที่อยู่ใน PO นี้  
 5. เลือก **ตกลง** มีการเพิ่มรายการใบสั่งเพิ่มเติมไปยังใบสั่งซื้อของคุณ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

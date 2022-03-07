@@ -2,11 +2,9 @@
 title: ลงรายการบัญชีสมุดรายวันประจำงวด
 description: 'สมุดรายวันประจำงวดในบางครั้งจะเรียกว่าสมุดรายวันที่เกิดซ้ำ เนื่องจากยอดเงิน ข้อความ และข้อมูลอื่นๆได้ถูกทำซ้ำแต่ละครั้งที่มีการดึงข้อมูลสมุดรายวันประจำงวด '
 author: aprilolson
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763129"
 ---
 # <a name="post-periodic-journals"></a>ลงรายการบัญชีสมุดรายวันประจำงวด
 
@@ -57,3 +55,6 @@ ms.locfileid: "4968515"
 27. ในฟิลด์ **หมายเลขสมุดรายวันเป็นครั้งคราว** ให้ป้อนหรือเลือกค่าหนึ่ง
 28. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 29. คลิก **ตกลง** สมุดรายวันรอบระยะเวลาในขณะนี้สามารถได้รับการตรวจทาน ได้รับการอนุมัติ หรือได้รับการลงรายการบัญชีขึ้นอยู่กับความต้องการและการตั้งค่า   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

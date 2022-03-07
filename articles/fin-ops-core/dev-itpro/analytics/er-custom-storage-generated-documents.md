@@ -2,11 +2,9 @@
 title: ระบุตำแหน่งที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้างขึ้น
 description: หัวข้อนี้อธิบายวิธีการขยายรายการของสถานที่เก็บสำหรับเอกสารที่รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) สร้างขึ้น
 author: NickSelin
-manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 5e9afad936a353c8db3c316ad45c4ce28d33b129
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680817"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753731"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>ระบุตำแหน่งที่เก็บข้อมูลที่กำหนดเองสำหรับเอกสารที่สร้างขึ้น
 
@@ -175,3 +173,6 @@ public DocuRef insertFile(
 
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
 - [หน้าแรกของความสามารถในการเพิ่มฟังก์ชัน](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

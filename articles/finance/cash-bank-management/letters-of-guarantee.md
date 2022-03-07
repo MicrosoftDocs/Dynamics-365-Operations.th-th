@@ -2,9 +2,11 @@
 title: หนังสือค้ำประกัน
 description: บทความนี้ให้ข้อมูลเกี่ยวกับหนังสือค้ำประกัน ในหนังสือค้ำประกัน ธนาคารตกลงที่จะชำระจำนวนเงินเฉพาะให้แก่บุคคลถ้าลูกค้าของธนาคารหนึ่งมีค่าเริ่มต้นในการชำระเงินหรือข้อผูกมัดไปยังบุคคลนั้น
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09e62560bda6c8167e9aab6cd8690246f94f5b3f028d67c9e41a1fbba17dc499
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70dac557fbe30809aa86bf4a0806bbe229f43d14
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262921"
 ---
 # <a name="letters-of-guarantee"></a>หนังสือค้ำประกัน
 

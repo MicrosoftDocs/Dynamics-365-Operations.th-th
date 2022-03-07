@@ -2,9 +2,11 @@
 title: การรวมบัญชีทางการเงินออนไลน์
 description: หัวข้อนี้อธิบายการรวมบัญชีทางการเงินออนไลน์ในบัญชีแยกประเภททั่วไป
 author: aprilolson
+manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c8a36447670458b2a8fe423f35fafd5f8cff773461f4dff47577e52573abc3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91df786ed2298e21e7a3018b915c9bd5458efc32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009254"
 ---
 # <a name="online-financial-consolidations"></a>การรวมบัญชีทางการเงินออนไลน์
 
@@ -86,13 +88,10 @@ ms.locfileid: "6758860"
 - **วันที่ในการทำธุรกรรม** – วันที่ของธุรกรรมแต่ละรายการจะถูกใช้เพื่อเลือกอัตราแลกเปลี่ยน ตัวเลือกนี้มักใช้สำหรับสินทรัพย์ถาวร และมักจะเรียกว่าอัตราในอดีต คุณไม่สามารถดูตัวอย่างของอัตราได้ เนื่องจากจะเป็นอัตราหลายๆ อัตราสำหรับธุรกรรมต่างๆ ในช่วงบัญชี
 - **อัตราที่ผู้ใช้กำหนด** – หลังจากที่คุณเลือกตัวเลือกนี้ คุณสามารถป้อนอัตราแลกเปลี่ยนที่คุณต้องการได้ ตัวเลือกนี้สามารถเป็นประโยชน์สำหรับอัตราแลกเปลี่ยนเฉลี่ย หรือถ้าคุณกำลังรวมกับอัตราแลกเปลี่ยนคงที่
 
-![แท็บการแปลงสกุลเงิน](./media/currency-translation-cons-online.png "แท็บชนิดการแปลงสกุลเงิน")
+![แท็บชนิดการแปลงสกุลเงิน](./media/currency-translation-cons-online.png "แท็บชนิดการแปลงสกุลเงิน")
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมบัญชีและการแปลสกุลเงิน ดูหัวข้อหลักของหัวข้อนี้ [ภาพรวมการรวมบัญชีทางการเงินและการแปลงสกุลเงิน](./financial-consolidations-currency-translation.md)
 
 สำหรับข้อมูลเกี่ยวกับสถานการณ์ที่คุณอาจสร้างการรวมบัญชีงบการเงิน ดู [สร้างงบการเงินที่รวมบัญชี](./generating-consolidated-financial-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

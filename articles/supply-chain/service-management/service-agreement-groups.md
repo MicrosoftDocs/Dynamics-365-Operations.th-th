@@ -2,28 +2,25 @@
 title: ภาพรวมของข้อตกลงการให้บริการ
 description: กลุ่มข้อตกลงการให้บริการมีประโยชน์สำหรับการเรียงลำดับและการกรองข้อมูลข้อตกลงการให้บริการ
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51b51640a09f78ed613994e2ade755c8ad831ea9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0412eadc40e7c573c530b4ebeb4fc5ee74a695a3
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438573"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336400"
 ---
 # <a name="service-agreements-overview"></a>ภาพรวมของข้อตกลงการให้บริการ
 
@@ -42,3 +39,6 @@ ms.locfileid: "4438573"
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
 [สร้างกลุ่มข้อตกลงการให้บริการ](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

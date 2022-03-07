@@ -1,7 +1,7 @@
 ---
 title: เช็คของผู้จัดจำหน่ายของตัวอย่างการรายงานทางอิเล็กทรอนิกส์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้รูปแบบเช็คตัวอย่างการรายงานทางอิเล็กทรอนิกส์
-author: sunfzam
+author: ShylaThompson
 ms.date: 06/14/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2e1aa349b505713d0502aa90ddd5c3caff1f083c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: a405fee368bb1789addbdf4316a007e85616d98d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595190"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897099"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>เช็คของผู้จัดจำหน่ายของตัวอย่างการรายงานทางอิเล็กทรอนิกส์
 

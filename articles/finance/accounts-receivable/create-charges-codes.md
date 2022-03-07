@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: สร้างรหัสค่าธรรมเนียม
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกรหัสค่าธรรมเนียมของทั้งบัญชีเจ้าหนี้และบัญชีลูกหนี้
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: MarkupTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: null
+ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: '2022-01-03'
+ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 034be190890a67fd0921d40fffdc704b9d6d5df7
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8014091"
 ---
-
 # <a name="create-charges-codes"></a>สร้างรหัสค่าธรรมเนียม
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกรหัสค่าธรรมเนียมของทั้งบัญชีเจ้าหนี้และบัญชีลูกหนี้ หากองค์กรของคุณต้องการติดตามยอดเงินการขายหรือยอดเงินการซื้อนอกเหนือจากสินค้าในรายการในใบสั่งขายหรือใบสั่งซื้อ คุณสามารถใช้รหัสค่าธรรมเนียมเพื่อวัตถุประสงค์นี้ ตัวอย่างเช่น คุณจ่ายค่าขนส่งและค่าประกันภัยในใบสั่งซื้อ และยอดเงินเหล่านี้แสดงรายการที่แยกต่างหากในใบสั่งซื้อ ในกรณีนี้ คุณสามารถระบุว่ายอดเงินนี้มีการลงรายการบัญชีในบัญชีค่าใช้จ่ายหรือเพิ่มเข้าในต้นทุนของสินค้าก็ได้

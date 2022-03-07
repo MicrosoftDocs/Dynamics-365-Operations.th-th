@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429251"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>แผนค่าตอบแทนคงที่ของบัญชีเงินเดือน
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,7 +42,7 @@ ms.locfileid: "8069107"
 | **รหัสตำแหน่ง**</br>mshr_positionid</br>*สตริง* | อ่านอย่างเดียว | รหัสไปรษณีย์ที่เชื่อมโยงกับพนักงานและการลงทะเบียนแผนค่าตอบแทนคงที่ |
 | **มีผลใช้ตั้งแต่**</br>mshr_validfrom</br>*ออฟเซ็ตเวลา วันที่* |  อ่านอย่างเดียว | วันที่เริ่มต้นการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน  |
 | **มีผลใช้ถึง**</br>mshr_validto</br>*ออฟเซ็ตเวลา วันที่* | อ่านอย่างเดียว | วันที่สิ้นสุดการมีผลบังคับใช้ของค่าตอบแทนคงที่ของพนักงาน |
-| **ความถี่ในการชำระค่าจ้าง**</br>mshr_payfrequency</br>*สตริง* | อ่านอย่างเดียว | รหัสของ [ความถี่ในการจ่ายค่าตอบแทน](hr-admin-integration-payroll-api-compensation-pay-frequency.md) สำหรับอัตราค่าจ้างที่กําหนด |
+| **ความถี่ในการชำระค่าจ้าง**</br>mshr_payfrequency</br>*สตริง* | อ่านอย่างเดียว | ความถี่ในการชําระค่าจ้างของพนักงาน  |
 | **สกุลเงิน**</br>mshr_currency</br>*สตริง* | อ่านอย่างเดียว | สกุลเงินที่กำหนดสำหรับแผนค่าตอบแทนคงที่ |
 | **เอนทิตีแผนค่าตอบแทนคงที่ของบัญชีเงินเดือน**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | ระบบสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงตีแผนค่าตอบแทนโดยเฉพาะ |
 

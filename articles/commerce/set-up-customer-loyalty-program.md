@@ -1,26 +1,30 @@
 ---
-# required metadata
 title: ภาพรวมสมาชิก
 description: หัวข้อนี้อธิบายความสามารถของสมาชิกภายใน Dynamics 365 Commerce และขั้นตอนการตั้งค่าที่สอดคล้องกัน เพื่อช่วยให้ผู้ค้าปลีกสามารถเริ่มต้นใช้งานกับโปรแกรมตอบแทนลูกค้าสมาชิกของพวกเขาได้อย่างง่ายดาย
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'RetailLoyaltyPrograms, RetailPriceDiscGroup'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
 ms.custom:
-  - '16201'
-  - intro-internal
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
-ms.search.validFrom: '2016-02-28'
-ms.dyn365.ops.version: 'AX 7.0.0, Retail July 2017 update'
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985173"
 ---
-
 # <a name="loyalty-overview"></a>ภาพรวมสมาชิก
 
 [!include [banner](includes/banner.md)]

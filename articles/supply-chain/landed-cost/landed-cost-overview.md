@@ -1,21 +1,25 @@
 ---
-# required metadata
 title: โมดูลต้นทุนแฝง
 description: โมดูลต้นทุนแฝง ช่วยให้ธุรกิจสามารถลดขั้นตอนการดำเนินการจัดส่งสินค้าขาเข้าได้ โดยการให้ผู้ใช้สามารถดําเนินการควบคุมทางการเงินและลอจิสติกส์การขนส่งที่นําเข้า จากผู้ผลิตไปยังคลังสินค้าได้
 author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
-ms.search.validFrom: '2020-12-07'
+ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983428"
 ---
-
 # <a name="landed-cost-module"></a>โมดูลต้นทุนแฝง
 
 [!include [banner](../../includes/banner.md)]

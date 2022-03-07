@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 62808c2e488e2c38b7dedfc258d9f2bf3e78c23c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438828"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209310"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>นำรายการ BOM และรายการสูตรออกใช้ไปยังคลังสินค้า
 
@@ -98,3 +97,6 @@ ms.locfileid: "4438828"
     มีการกำหนดหน่วยที่พร้อมใช้งานอยู่ในรหัสกลุ่มลำดับหน่วยของสินค้าสำเร็จรูป
 
     ตัวอย่างเช่น สินค้าสำเร็จรูปมีการแปลงหน่วยระหว่างปอนด์ (lbs.) และแท่นวางสินค้า (PL) ต่อไปนี้: 1 PL = 100 lbs ในการสร้างใบสั่งผลิตสำหรับ 10,000 lbs ของสินค้าสำเร็จรูป คุณสามารถนำวัตถุดิบออกใช้ สำหรับหมายเลขของแท่นวางสินค้าที่คุณวางแผนจะผลิต เลือก **PL** เป็นหน่วย แล้วจากนั้น เลือกหมายเลขที่สอดคล้องกันในฟิลด์ **ปริมาณ**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,37 +1,37 @@
 ---
 title: ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 description: หัวข้อนี้จะอธิบายวิธีการติดตั้งแอปคลังสินค้าบนอุปกรณ์เคลื่อนที่แต่ละเครื่องและการกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438699"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902282"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>ติดตั้งและเชื่อมต่อแอปคลังสินค้า
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ cloud ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
+> หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอป Warehouse Management บนมือถือใหม่ ให้ดูที่ [ติดตั้งและเชื่อมต่อแอป Warehouse Management บนมือถือ](install-configure-warehouse-management-app.md)
+
+> [!NOTE]
+> หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกแอปคลังสินค้าสำหรับการปรับใช้ระบบคลาวด์ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีการกำหนดค่าแอปคลังสินค้าสำหรับการปรับใช้ในองค์กร โปรดดู [คลังสินค้าสำหรับการปรับใช้ในองค์กร](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 แอปคลังสินค้ามีอยู่ใน Google Play Store และ Microsoft Store มีไว้เป็นส่วนประกอบแบบสแตนด์อโลน ดังนั้นคุณต้องดาวน์โหลดบนแต่ละอุปกรณ์แล้วกำหนดค่าเพื่อเชื่อมต่อกับสภาพแวดล้อม Microsoft Dynamics 365 Supply Chain Management ของคุณ
 
@@ -54,7 +54,7 @@ ms.locfileid: "4438699"
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - คลังสินค้าบน Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 บน Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-สำหรับการปรับใช้ที่มีขนาดเล็ก คุณอาจต้องติดตั้งแอปพลิเคชันจากร้านค้าที่เกี่ยวข้องบนแต่ละอุปกรณ์แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง อย่างไรก็ตาม ในรุ่น 1.7.0.0 และรุ่นที่ใหม่กว่าของแอปคลังสินค้า คุณยังสามารถปรับใช้และ/หรือกำหนดค่าแอปโดยอัตโนมัติได้ด้วย คุณอาจพบวิธีการที่สะดวกนี้ ถ้าคุณจัดการอุปกรณ์จำนวนมากและคุณกำลังใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปพลิเคชันบนอุปกรณ์เคลื่อนที่ เช่น [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add)
+สำหรับการปรับใช้ที่มีขนาดเล็ก คุณอาจต้องติดตั้งแอปพลิเคชันจากร้านค้าที่เกี่ยวข้องบนแต่ละอุปกรณ์แล้วกำหนดค่าการเชื่อมต่อกับสภาพแวดล้อมที่คุณกำลังใช้งานด้วยตนเอง อย่างไรก็ตาม ในรุ่น 1.7.0.0 และรุ่นที่ใหม่กว่าของแอปคลังสินค้า คุณยังสามารถปรับใช้และ/หรือกำหนดค่าแอปโดยอัตโนมัติได้ด้วย คุณอาจพบวิธีการที่สะดวกนี้ ถ้าคุณจัดการอุปกรณ์จำนวนมากและคุณกำลังใช้การจัดการอุปกรณ์เคลื่อนที่และโซลูชันการจัดการแอปพลิเคชันบนอุปกรณ์เคลื่อนที่ เช่น [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) สำหรับข้อมูลเกี่ยวกับวิธีการใช้ Intune เพื่อเพิ่มแอปพลิเคชัน ให้ดูที่ [เพิ่มแอปไปยัง Microsoft Intune](/mem/intune/apps/apps-add)
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>สร้างแอปพลิเคชันบริการใน Azure Active Directory
 
@@ -64,7 +64,7 @@ ms.locfileid: "4438699"
 1. ป้อนชื่อและรหัสผ่านของผู้ใช้ที่มีสิทธิ์เข้าถึงการสมัครใช้งาน Azure
 1. ในพอร์ทัล Azure ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก **Azure Active Directory**
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. ตรวจสอบให้แน่ใจว่าคุณกำลังทำงานกับอินสแตนซ์ Azure AD ที่ใช้โดย Supply Chain Management
 1. ในรายการ **จัดการ** เลือก **การลงทะเบียนแอป**
@@ -74,7 +74,7 @@ ms.locfileid: "4438699"
 1. บนแถบเครื่องมือ ให้เลือก **การลงทะเบียนใหม่** เพื่อเปิดตัวช่วย **ลงทะเบียนแอปพลิเคชัน**
 1. ป้อนชื่อของแอปพลิเคชันและ เลือกตัวเลือก **บัญชีในไดเรกทอรีขององค์กรนี้เท่านั้น** แล้วเลือก **ลงทะเบียน**
 
-    ![ตัวช่วยลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
+    ![วิซาร์ดลงทะเบียนแอปพลิเคชัน](media/app-connect-azure-register-wizard.png "ตัวช่วยลงทะเบียนแอปพลิเคชัน")
 
 1. การลงทะเบียนแอปใหม่ของคุณเปิดขึ้น จัดทำบันทึกของค่า **รหัสแอปพลิเคชัน (ไคลเอนต์)** เนื่องจากคุณจะต้องใช้ในภายหลัง จะมีการกล่าวถึงรหัสนี้ภายหลังในหัวข้อนี้ว่า *รหัสไคลเอนต์*
 
@@ -89,11 +89,11 @@ ms.locfileid: "4438699"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ทรัพยากรต่อไปนี้:
 
-- สำหรับคำแนะนำที่แสดงวิธีการใช้ Windows PowerShell เพื่อตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ [วิธีการ: ใช้ Azure PowerShell เพื่อสร้างผู้ใช้งานบริการด้วยใบรับรอง](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+- สำหรับคำแนะนำที่แสดงวิธีการใช้ Windows PowerShell เพื่อตั้งค่าแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่ [วิธีการ: ใช้ Azure PowerShell เพื่อสร้างผู้ใช้งานบริการด้วยใบรับรอง](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 - สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการสร้างแอปพลิเคชันบริการเว็บใน Azure AD ให้ดูที่หัวข้อต่อไปนี้:
 
-    - [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [วิธีการ: ใช้พอร์ทัลเพื่อสร้างแอปพลิเคชัน Azure AD และผู้ใช้งานบริการที่สามารถเข้าถึงทรัพยากร](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [การเริ่มต้นแบบด่วน: ลงทะเบียนโปรแกรมประยุกต์ด้วยฟอร์มข้อมูลเฉพาะของ Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [วิธีการ: ใช้พอร์ทัลเพื่อสร้างแอปพลิเคชัน Azure AD และผู้ใช้งานบริการที่สามารถเข้าถึงทรัพยากร](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>สร้างและตั้งค่าคอนฟิกบัญชีผู้ใช้ใน Supply Chain Management
 
@@ -113,7 +113,7 @@ ms.locfileid: "4438699"
     1. สร้าง บรรทัด
     1. ป้อนรหัสไคลเอนต์ที่คุณได้บันทึกไว้ในส่วนก่อนหน้านี้ กำหนดชื่อและเลือกผู้ใช้ที่คุณเพิ่งสร้างขึ้น เราขอแนะนำให้คุณติดแท็กอุปกรณ์ทั้งหมดของคุณ ถ้าขาดหายไปคุณสามารถลบการเข้าถึง Supply Chain Management ออกจากหน้านี้ได้อย่างง่ายดาย
 
-    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอพลิเคชัน Azure Active Directory") 
+    ![แอปพลิเคชัน Azure Active Directory](media/app-connect-aad-apps.png "แอปพลิเคชัน Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>ตรวจสอบความถูกต้องโดยใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์
 
@@ -121,7 +121,7 @@ ms.locfileid: "4438699"
 
 ใบรับรองสามารถใช้เป็นข้อมูลลับเพื่อพิสูจน์ข้อมูลเฉพาะตัวของใบสมัครเมื่อมีการร้องขอโทเคน ส่วนสาธารณะของใบรับรองถูกอัปโหลดไปยังการลงทะเบียนแอปในพอร์ทัล Azure ในขณะที่ต้องจัดวางใบรับรองแบบเต็มบนอุปกรณ์แต่ละเครื่องที่มีการติดตั้งแอปคลังสินค้า องค์กรของคุณเป็นผู้รับผิดชอบในการจัดการใบรับรองในแง่ของการหมุนเวียนและอื่นๆ คุณสามารถใช้ใบรับรองที่มีการลงชื่อด้วยตนเองได้ แต่คุณควรใช้ใบรับรองที่ไม่สามารถส่งออกได้เสมอ
 
-คุณต้องทำให้ใบรับรองพร้อมใช้งานเฉพาะบนอุปกรณ์แต่ละเครื่องที่คุณเรียกใช้แอปคลังสินค้า สำหรับข้อมูลเกี่ยวกับวิธีการจัดการใบรับรองสำหรับอุปกรณ์ที่ควบคุมโดย Intune ถ้าคุณกำลังใช้ Intune ให้ดูที่ [การใช้ใบรับรองสำหรับการรับรองความถูกต้องใน Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure)
+คุณต้องทำให้ใบรับรองพร้อมใช้งานเฉพาะบนอุปกรณ์แต่ละเครื่องที่คุณเรียกใช้แอปคลังสินค้า สำหรับข้อมูลเกี่ยวกับวิธีการจัดการใบรับรองสำหรับอุปกรณ์ที่ควบคุมโดย Intune ถ้าคุณกำลังใช้ Intune ให้ดูที่ [การใช้ใบรับรองสำหรับการรับรองความถูกต้องใน Microsoft Intune](/mem/intune/protect/certificates-configure)
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>กำหนดค่าแอปพลิเคชันโดยการนำเข้าการตั้งค่าการเชื่อมต่อ
 
@@ -136,7 +136,7 @@ ms.locfileid: "4438699"
 | ConnectionName | ระบุชื่อของการตั้งค่าการเชื่อมต่อ ความยาวสูงสุดคือ 20 อักขระ เนื่องจากค่านี้เป็นตัวระบุเฉพาะสำหรับการตั้งค่าการเชื่อมต่อ ให้ตรวจสอบให้แน่ใจว่ามีเฉพาะในรายการ ถ้ามีการเชื่อมต่อที่มีชื่อเดียวกันอยู่แล้วบนอุปกรณ์นั้น มันจะถูกแทนที่ด้วยการตั้งค่าจากไฟล์ที่นำเข้า |
 | ActiveDirectoryClientAppId | ระบุรหัสของไคลเอนต์ที่คุณได้บันทึกไว้ในขณะที่คุณกำลังตั้งค่า Azure AD ในส่วน [สร้างแอปพลิเคชันบริการเว็บใน Azure Active Directory](#create-service) |
 | ActiveDirectoryResource | ระบุ URL รากของ Supply Chain Management |
-| ActiveDirectoryTenant | ระบุผู้เช่า Azure AD ที่คุณกำลังใช้ร่วมกับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-tenant-ID>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` |
+| ActiveDirectoryTenant | ระบุชื่อโดเมน Azure AD ที่คุณกำลังใช้ร่วมกับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-domain-name>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีค้นหาชื่อโดเมน Azure AD ของคุณ โปรดดูที่ [การระบุรหัสที่สําคัญของผู้ใช้](/partner-center/find-ids-and-domain-names) |
 | บริษัท | ระบุนิติบุคคลใน Supply Chain Management ที่คุณต้องการให้แอปพลิเคชันเชื่อมต่อด้วย |
 | ConnectionType | (ไม่จำเป็น) ระบุว่าการตั้งค่าการเชื่อมต่อควรใช้ใบรับรองหรือข้อมูลลับของไคลเอนต์ในการเชื่อมต่อกับสภาพแวดล้อม ค่าที่ถูกต้องคือ *"certificate"* และ *"clientsecret"* ค่าเริ่มต้นคือ *"certificate"*<p>**หมายเหตุ:** ไม่สามารถนำเข้าข้อมูลลับของไคลเอนต์</p> |
 | IsEditable | (ไม่จำเป็น) ระบุว่าผู้ใช้แอปพลิเคชันควรสามารถแก้ไขการตั้งค่าการเชื่อมต่อได้หรือไม่ ค่าที่ถูกต้องคือ *"จริง"* และ *"เท็จ"* ค่าเริ่มต้นคือ *"จริง"* |
@@ -201,7 +201,7 @@ ms.locfileid: "4438699"
 1. ไปที่ **การตั้งค่าการเชื่อมต่อ**
 1. ตั้งค่าตัวเลือก **ใช้โหมดสาธิต** เป็น  _ไม่_
 
-    ![ใช้ตัวเลือกโหมดสาธิต](media/app-connect-app-demo-mode.png "ใช้ตัวเลือกโหมดสาธิต")
+    ![ตัวเลือกใช้โหมดสาธิต](media/app-connect-app-demo-mode.png "ใช้ตัวเลือกโหมดสาธิต")
 
 1. เลือก **เลือกไฟล์** หรือ **สแกนรหัส QR** ทั้งนี้ขึ้นอยู่กับวิธีการที่คุณต้องการนำเข้าการตั้งค่าดังนี้
 
@@ -230,7 +230,7 @@ ms.locfileid: "4438699"
 1. ไปที่ **การตั้งค่าการเชื่อมต่อ**
 1. ตั้งค่าตัวเลือก **ใช้โหมดสาธิต** เป็น  _ไม่_
 
-    ![โหมดสาธิตปิดอยู่](media/app-connect-app-select-file.png "โหมดสาธิตปิดอยู่")
+    ![โหมดสาธิตที่ปิดอยู่](media/app-connect-app-select-file.png "โหมดสาธิตปิดอยู่")
 
 1. แตะะใน **ฟิลด์เลือกการเชื่อมต่อ** เพื่อขยายการตั้งค่าที่จำเป็นต้องป้อนรายละเอียดการเชื่อมต่อด้วยตนเอง
 
@@ -248,7 +248,7 @@ ms.locfileid: "4438699"
         > [!NOTE]
         > อย่าจบค่านี้โดยใช้เครื่องหมายทับ (/)
 
-    - **ผู้เช่า Active directory** – ป้อนผู้เช่า Azure AD ที่คุณกำลังใช้กับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-tenant-ID>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com`
+    - **ผู้เช่า Active directory** – ป้อนชื่อโดเมน Azure AD ที่คุณกำลังใช้กับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-domain-name>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีค้นหาชื่อโดเมน Azure AD ของคุณ โปรดดูที่ [การระบุรหัสที่สําคัญของผู้ใช้](/partner-center/find-ids-and-domain-names)
 
         > [!NOTE]
         > อย่าจบค่านี้โดยใช้เครื่องหมายทับ (/)
@@ -274,3 +274,6 @@ ms.locfileid: "4438699"
 1. ตรวจสอบให้แน่ใจว่ารหัสไคลเอนต์ของแอปพลิเคชันตรงกับรหัสไคลเอนต์ที่คุณทำบันทึกย่อของในขั้นตอนที่ 2
 1. บนแถบเครื่องมือให้เลือก **ลบ**
 1. ในกล่องข้อความยืนยันที่ปรากฎ เลือก **ใช่**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

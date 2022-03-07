@@ -1,22 +1,26 @@
 ---
-# required metadata
 title: การทำงานกับค่าลักษณะที่กำหนดไว้แล้ว
 description: หัวข้อนี้จะอธิบายวิธีการทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้าของไซต์ในตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: null
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964864"
 ---
-
 # <a name="work-with-style-presets"></a>การทำงานกับค่าลักษณะที่กำหนดไว้แล้ว
 
 [!include [banner](includes/banner.md)]

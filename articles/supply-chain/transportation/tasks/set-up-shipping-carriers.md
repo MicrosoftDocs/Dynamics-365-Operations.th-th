@@ -1,28 +1,25 @@
 ---
 title: ตั้งค่าผู้ขนส่ง
 description: หัวข้อนี้แสดงวิธีการตั้งค่าผู้ขนส่งสินค้าและกำหนดรายละเอียด เช่น บริการ โหมดการจัดส่ง วิธีการชำระเงินการขนส่ง ข้อจำกัดขนส่ง และอัตราการจัดส่ง
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438853"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567667"
 ---
 # <a name="set-up-shipping-carriers"></a>ตั้งค่าผู้ขนส่ง
 
@@ -73,3 +70,6 @@ ms.locfileid: "4438853"
 9. ในฟิลด์ **กลไกจัดการเวลาในการส่งต่อ** ให้เลือกตัวเลือกจากเมนูแบบหล่นลง
 10. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

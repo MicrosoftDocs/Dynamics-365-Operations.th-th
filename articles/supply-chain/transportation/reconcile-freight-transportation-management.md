@@ -1,12 +1,10 @@
 ---
 title: กระทบยอดการขนส่งในการจัดการการขนส่ง
 description: หัวข้อนี้อธิบายถึงกระบวนการกระทบยอดค่าขนส่ง
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014519"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574916"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>กระทบยอดการขนส่งในการจัดการการขนส่ง
 
@@ -43,7 +41,7 @@ ms.locfileid: "5014519"
 
 ถ้าคุณกำลังกระทบยอดการขนส่งด้วยตนเอง คุณต้องจับคู่แต่ละบรรทัดในใบแจ้งหนี้กับบรรทัดในบิลค่าขนส่งของโหลดที่มีการออกใบแจ้งหนี้ คุณทำการจับคู่นี้ได้ที่หน้า **การจับคู่บิลค่าขนส่งและใบแจ้งหนี้** ถ้าจำนวนเงินในบรรทัดในใบแจ้งหนี้ไม่ตรงกับจำนวนเงินในบิลค่าขนส่ง คุณต้องเลือกเหตุผลการกระทบยอดของจำนวนเงินที่ต่างกัน ถ้ามีเหตุผลของการกระทบยอดหลายเหตุผล คุณสามารถแบ่งจำนวนเงินที่ไม่ตรงกันสำหรับแต่ละเหตุผลได้ เหตุผลของการกระทบยอดเป็นตัวกำหนดวิธีการลงรายการบัญชียอดผลต่างในบัญชีแยกประเภททั่วไป เมื่อมีการพิจารณาการกระทบยอดของจำนวนเงินทั้งหมดในใบแจ้งหนี้ จะถูกส่งเพื่อขอการอนุมัติ และจากนั้นจะมีการลงรายการบัญชีสมุดรายวัน ภาพประกอบต่อไปนี้แสดงวิธีการสร้างใบแจ้งหนี้ค่าขนส่งและการทำการกระทบยอดค่าขนส่ง
 
-[![งานการกระทบยอดค่าขนส่ง](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![งานการกระทบยอดการขนส่ง](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>การกระทบยอดอัตโนมัติ
 
@@ -105,3 +103,6 @@ ms.locfileid: "5014519"
 1. จับคู่ Inv1 และ Inv 2 กับ FB ทีละรายการ FB ตรงกันอย่างสมบูรณ์
 
 ตามตัวอย่างนี้แสดง ควรจับคู่ใบแจ้งหนี้ค่าขนส่งกับยอดเงินค่าลบด้วยตนเองเท่านั้น การสิ่งนี้จะตรวจสอบให้แน่ใจว่าสามารถจับคู่ใบแจ้งหนี้ค่าขนส่งกับยอดเงินค่าลบกับบิลการขนส่งที่ไม่ตรงกันอย่างสมบูรณ์ เนื่องจากช่วยให้คุณสามารถควบคุมลำดับการจับคู่ได้
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

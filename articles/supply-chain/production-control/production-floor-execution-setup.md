@@ -2,29 +2,27 @@
 title: ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
 description: อินเทอร์เฟสการดำเนินการผลิตมีการตั้งค่าสำหรับอุปกรณ์ทุกเครื่องบนในการผลิต โดยทั่วไปแล้วบริษัทจะตั้งค่าแต่ละอุปกรณ์แตกต่างกัน โดยขึ้นอยู่กับวัตถุประสงค์ที่อุปกรณ์ทำงาน ตัวอย่างเช่น บริษัทอาจมีอุปกรณ์หนึ่งตัวในพื้นที่การรับสินค้า ที่ผู้ปฏิบัติงานตอกบัตรเข้าและตอกบัตรออก และอีกการทำงานหนึ่งซึ่งผู้ปฏิบัติงานจัดการงานของตน
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 34e29a43cebeec16357aecb036c534da35820d90ae602d67419a9606afc542ee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735979"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>ตั้งค่าอุปกรณ์เพื่อรันอินเทอร์เฟสการดำเนินการผลิต
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 อินเทอร์เฟสการดำเนินการผลิตมีการตั้งค่าสำหรับอุปกรณ์ทุกเครื่องบนในการผลิต โดยทั่วไปแล้วบริษัทจะตั้งค่าแต่ละอุปกรณ์แตกต่างกัน โดยขึ้นอยู่กับวัตถุประสงค์ที่อุปกรณ์ทำงาน ตัวอย่างเช่น บริษัทอาจมีอุปกรณ์หนึ่งตัวในพื้นที่การรับสินค้า ที่ผู้ปฏิบัติงานตอกบัตรเข้าและตอกบัตรออก และอีกการทำงานหนึ่งซึ่งผู้ปฏิบัติงานจัดการงานของตน
 
@@ -79,3 +77,6 @@ ms.locfileid: "4966290"
 โดยค่าเริ่มต้น อินเทอร์เฟสการดำเนินการผลิตจะมีการลงชื่อออกโดยอัตโนมัติถ้าไม่มีผู้ใช้เป็นเวลา 12 ชั่วโมง ผู้ใช้ Supply Chain Management ต้องลงชื่อเข้าใช้อีกครั้ง อย่างไรก็ตาม คุณสามารถขยายขีดจำกัดการหมดเวลาถึง 90 วัน
 
 เมื่อต้องการขยายขีดจำกัดการหมดเวลา ให้ลงชื่อเข้าสู่ Supply Chain Management และไปที่ **การจัดการระบบ \> ผู้ใช้ \> ส่วนขยายของรอบเวลา** ระบุบัญชีผู้ใช้ Supply Chain Management ที่ใช้ในการลงชื่อเข้าใช้บนอุปกรณ์และจำนวนชั่วโมงที่รอบเวลาควรมีการใช้งานอยู่
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

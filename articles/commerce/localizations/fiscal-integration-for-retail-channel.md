@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d766515d82e021f41e0cc0a9a877f25551817ad5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017478"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250841"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>ภาพรวมของการรวมทางบัญชีสำหรับช่องทาง Commerce
 
@@ -149,3 +149,6 @@ POS ทำการตรวจสอบความสมบูรณ์เม�
 ฟังก์ชันการรวมทางการเงินดั้งเดิมต่อไปนี้ที่พร้อมใช้งานใน Retail SDK ไม่ใช้กรอบงานการรวมทางการเงิน และจะถูกยกเลิกการใช้ในการปรับปรุงในภายหลัง:
 
 - [ตัวอย่างการรวมหน่วยควบคุมสำหรับสวีเดน (ดั้งเดิม)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,29 +2,28 @@
 title: ภาพรวมของการแปลงต้นทุนมาตรฐาน
 description: บทความนี้แสดงภาพรวมของกระบวนการ เพื่อช่วยคุณในการตั้งค่าและรันการแปลงต้นทุนมาตรฐาน  ขั้นตอนต่างๆที่แสดงรายการมีวัตถุประสงค์เพื่อให้ถูกดำเนินการให้เสร็จหลังจากที่คุณได้ดำเนินการข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐานเสร็จแล้ว
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 78212
+ms.custom:
+- "78212"
+- intro-internal
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9796449bee4361b2b871af10d30341c2f0760ab1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438563"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982700"
 ---
 # <a name="standard-cost-conversion-overview"></a>ภาพรวมของการแปลงต้นทุนมาตรฐาน
 
@@ -95,10 +94,12 @@ ms.locfileid: "4438563"
 -   วิเคราะห์ความเคลื่อนไหวของสินค้าคงคลังที่ลงวันที่ย้อนหลัง  ใช้รายงาน **มูลค่าสินค้าคงคลัง** เพื่อดูความเคลื่อนไหวของสินค้าคงคลังที่ลงวันที่ย้อนหลังที่ถูกป้อนหลังจากการแปลง "วันที่เริ่มต้นและวันสิ้นสุดสำหรับรายงานควรตรงกับวันที่เริ่มต้นการเปลี่ยนและวันที่การแปลง ลบหนึ่งวัน  เงื่อนไขการเลือกของรายงานควรจะสะท้อนถึงสินค้าที่แปลงแล้ว รายงานแสดงความเคลื่อนไหวของสินค้าคงคลังที่ถูกดำเนินการในระหว่างการเปลี่ยน
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ข้อกำหนดเบื้องต้นสำหรับการแปลงต้นทุนมาตรฐาน](prerequisites-standard-cost-conversion.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

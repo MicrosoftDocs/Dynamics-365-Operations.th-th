@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13169ab05dd506f75b2c9d28f05fcf4471f5a7c8f0a563c974bc38949993295
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724454"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749715"
 ---
 # <a name="view-and-design-financial-reports"></a>ดูและออกแบบรายงานทางการเงิน
 
@@ -151,7 +151,7 @@ ms.locfileid: "6724454"
 4. เลือก **ไฟล์** &gt; **บันทึกเป็น** และตั้งชื่อ **งบดุลและงบกำไรขาดทุนเคียงข้างกันโดยรวม**
 5. เปลี่ยนปีพื้นฐานเป็น 2012
 6. คลิกชนิดแผนภูมิลูกศรแบบหล่นลง และเลือก **ลำดับชั้นขององค์กร**
-7. คลิกลูกศรแบบหล่นลงของแผนภูมิ และเลือก **หุ้นส่วน Contoso**
+7. คลิกลูกศรแบบหล่นลงของแผนภูมิ และเลือก **การถือ Contoso**
 8. บันทึกการเปลี่ยนแปลงและสร้างรายงานนั้น ถ้าพร้อมแล้ว ให้้เลือกหน่วยรายงานทั้งหมด หลังจากที่รายงานสร้างเสร็จสมบูรณ์และเปิดออก คุณสามารถสำรวจรายงานนั้น
 9. เลือก **ตัวเลือกรายงาน**
 10. เลือก **เพิ่มตัวกรองมิติ** และเลือก **แผนก**

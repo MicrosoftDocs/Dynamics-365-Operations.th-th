@@ -2,25 +2,28 @@
 title: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภท
 description: หัวข้อนี้แสดงภาพรวมต่อไปนี้สำหรับกระบวนการประเมินค่าใหม่ตามสกุลเงินต่างประเทศของบัญชีแยกประเภททั่วไป - การตั้งค่า การรันกระบวนการ การคำนวณสำหรับกระบวนการ และวิธีการกลับรายการธุรกรรมการประเมินค่าใหม่ ถ้าจำเป็น
 author: kweekley
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771667"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4448577"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภท
 
@@ -81,7 +84,7 @@ ms.locfileid: "6771667"
 
 | ยอดดุลปัจจุบันในสกุลเงินของธุรกรรม | ยอดดุลปัจจุบันในสกุลเงินทางบัญชี | อัตราแลกเปลี่ยนที่การประเมินค่าใหม่ | ยอดเงินในสกุลเงินทางบัญชีใหม่ | กำไร/ขาดทุนที่ยังไม่รับรู้    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833.33 USD (500 x 1.666667)        | ขาดทุน 166.67 (833.33 – 1000) |
+| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833.33 EUR (500 x 1.666667)        | ขาดทุน 166.67 (833.33 – 1000) |
 
 จะมีการสร้างรายการบัญชีต่อไปนี้
 
@@ -110,6 +113,3 @@ ms.locfileid: "6771667"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

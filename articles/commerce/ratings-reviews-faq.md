@@ -1,21 +1,25 @@
 ---
-# required metadata
 title: คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับโซลูชันการให้คะแนนและบทวิจารณ์ Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: 'Retail, Core, Operations'
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
-ms.search.validFrom: '2021-09-03'
+ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968188"
 ---
-
 # <a name="ratings-and-reviews-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]

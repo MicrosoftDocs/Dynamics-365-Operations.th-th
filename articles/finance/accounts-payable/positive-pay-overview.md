@@ -1,25 +1,27 @@
 ---
-# required metadata
 title: ภาพรวมของ Positive pay
 description: บทความนี้แสดงข้อมูลเกี่ยวกับ positive pay ซึ่งถูกใช้ในการสร้างรายการอิเล็กทรอนิกส์ของเช็คที่สามารถแสดงให้กับธนาคารได้
 author: panolte
 ms.date: 08/22/2017
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-  - '88463'
-  - intro-internal
+ms.custom: 88463
 ms.assetid: 1e3a39d3-f9b3-4073-9730-c96a607243e2
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2016-05-31'
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: c72b50c3becb305cff6e21bc281962f5372bc273
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828021"
 ---
-
 # <a name="positive-pay-overview"></a>ภาพรวมของ Positive pay
 
 [!include [banner](../includes/banner.md)]

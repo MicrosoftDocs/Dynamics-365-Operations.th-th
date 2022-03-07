@@ -2,27 +2,24 @@
 title: ปฏิทินและการวางแผนหลัก
 description: หัวข้อนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก
 author: t-benebo
-manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841778"
 ---
 # <a name="calendars-and-master-planning"></a>ปฏิทินและการวางแผนหลัก
 
@@ -143,3 +140,6 @@ ms.locfileid: "4438506"
 
 ### <a name="updating-scm-related-calendars"></a>กำลังปรับปรุงปฏิทินที่เกี่ยวข้องกับ SCM
 ขณะที่เป็นสิ่งสำคัญที่ปฏิทินที่เกี่ยวข้องทั้งหมดถูกมอบหมายในสถานที่ที่เกี่ยวข้องของพวกเขา (ผู้จัดจำหน่าย คลังสินค้า โหมดการจัดส่ง หรือกลุ่มความครอบคลุม) การปรับปรุงรายการเหล่านั้นเป็นสิ่งสำคัญเช่นกัน เนื่องจากรายการเหล่านั้นสะท้อนการเปลี่ยนแปลง ระบบจะกำหนดวันที่ของการผลิต การโอนย้าย การซื้อ และใบสั่งขาย โดยขึ้นอยู่กับการผสมของปฏิทินที่มอบหมาย นั่นเป็นวิธีปฏิบัติที่ดีที่สุดเพื่อทำให้ชัดเจนกว่าใครรับผิดชอบสำหรับการมอบหมายและการปรับปรุงปฏิทินในพื้นที่ที่สัมพันธ์กัน ในกรณีของการหยุดทำงานหรือการเปลี่ยนแปลงที่ผิดปกติอื่นใดในวันทำงาน จำเป็นที่จะต้องปรับปรุงปฏิทินตามรายการนั้น งานทั้งหมดซึ่งขึ้นกับปฏิทิน เช่น การวางแผนหลัก และการจัดกำหนดการผลิต ต้องถูกรันซ้ำเมื่อมีการปรับปรุงปฏิทิน 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

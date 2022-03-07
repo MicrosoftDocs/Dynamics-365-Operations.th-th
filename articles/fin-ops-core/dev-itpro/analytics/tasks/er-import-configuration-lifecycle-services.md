@@ -1,12 +1,10 @@
 ---
 title: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์สามารถนำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) รุ่นใหม่จาก Microsoft Dynamics Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการนําเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เวอร์ชันใหม่ จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712603"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้า [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) รุ่นใหม่จาก [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)
+
+> [!IMPORTANT]
+> การใช้ LCS เป็นที่เก็บหน่วยจัดเก็บเพื่อการตั้งค่าคอนฟิก ER [ไม่ได้รับการสนับสนุน](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) สำหรับข้อมูลเพิ่มเติม ให้ดู [Regulatory Configuration Service (RCS) – การเลิกใช้ที่เก็บข้อมูล Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
 
 ในตัวอย่างนี้ คุณจะสร้างเลือกรุ่นที่ต้องการของการตั้งค่าคอนฟิก ER และนำเข้าสำหรับบริษัทตัวอย่าง ซึ่งคือ Litware, inc ขั้นตอนเหล่านี้สามารถถูกดำเนินการได้ในบริษัทใดๆ เนื่องจากมีการใช้การตั้งค่าคอนฟิก ER ร่วมกันระหว่างบริษัท เมื่อต้องการดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ ลำดับแรกคุณต้องดำเนินงานขั้นตอนใน [อัปโหลดการตั้งค่าคอนฟิก ER ลงใน Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) ต้องมีสิทธิ์เข้าถึง LCS ด้วยเช่นกัน
 
@@ -103,3 +104,6 @@ ms.locfileid: "4684462"
     สำหรับตัวอย่างนี้ เลือกรุ่นของการตั้งค่าคอนฟิกซึ่งมีสถานะเป็น **ใช้ร่วมกัน**
 
     สังเกตว่า รุ่นที่ใช้ร่วมกัน 1 ของการตั้งค่าคอนฟิกรูปแบบข้อมูลที่เลือกพร้อมใช้งานแล้วในขณะนี้
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

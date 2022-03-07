@@ -2,9 +2,11 @@
 title: คำถามที่พบบ่อยเกี่ยวกับการรวม Dynamics 365 Commerce และ Microsoft Teams
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับคำตอบสำหรับคำถามที่ถามบ่อยเกี่ยวกับการรวม Microsoft Dynamics 365 Commerce และ Microsoft Teams
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,16 +15,17 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae4a7f9d9576c9d0408f562eb05bc309d0fbca0ecb8530e8c032b2bb80f12ff4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 26e1dc53126c0615332457aa785415c4c7112bbd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773825"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842756"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>คำถามที่พบบ่อยเกี่ยวกับการรวม Dynamics 365 Commerce และ Microsoft Teams
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้มีข้อมูลเกี่ยวกับคำตอบสำหรับคำถามที่ถามบ่อยเกี่ยวกับการรวม Microsoft Dynamics 365 Commerce และ Microsoft Teams
 
@@ -45,7 +48,7 @@ ms.locfileid: "6773825"
 
 ในศูนย์ควบคุม Commerce ลำดับชั้นขององค์กรทั้งหมดจะเชื่อมโยงกับวัตถุประสงค์หนึ่งวัตถุประสงค์หรือมากกว่า ตรวจสอบให้แน่ใจว่าลำดับชั้นที่คุณต้องการเตรียมใช้งาน Microsoft Teams มีวัตถุประสงค์ **การรายงานการขายปลีก** ที่เชื่อมโยงอยู่ด้วย ดังที่แสดงในรูปภาพตัวอย่างต่อไปนี้ 
 
-![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรในศูนย์ควบคุม Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
+![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรขององค์กรในศูนย์ควบคุม Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>ฉันจะเปิดใช้งานผู้ปฏิบัติงานของร้านค้าปลีกเพื่อล็อกอินเข้าสู่การขายหน้าร้านของ Commerce (POS) โดยใช้ Azure Active Directory (Azure AD)?
 

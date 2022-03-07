@@ -1,28 +1,25 @@
 ---
 title: ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
-ms.search.scope: Core, Operations
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: d50458be9196206978a8d146ecd5b8c2a0a1fa8c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438797"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782858"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
 
@@ -162,3 +159,6 @@ ms.locfileid: "4438797"
 > เมื่อใดก็ตามที่คุณอัปเดตสตริงการเชื่อมต่ออใดๆ คุณต้องอัปเดตค่าข้อมูลลับเช่นกัน
 
 ขณะนี้คุณได้เสร็จสิ้นการเตรียมใช้งานทรัพยากร Azure ที่จำเป็นแล้ว ขั้นตอนต่อไปคือการ [ติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

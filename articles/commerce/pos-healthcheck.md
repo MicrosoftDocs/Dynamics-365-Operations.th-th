@@ -1,10 +1,12 @@
 ---
 title: การตรวจสอบความสมบูรณ์สำหรับอุปกรณ์ต่อพ่วงและบริการ POS
 description: หัวข้อนี้แสดงภาพรวมของการดำเนินการตรวจสอบความสมบูรณ์ในการขายหน้าร้าน (POS)
-author: BrianShook
+author: rubendel
+manager: AnnBe
 ms.date: 03/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -12,15 +14,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779883"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000545"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>การตรวจสอบความสมบูรณ์สำหรับอุปกรณ์ต่อพ่วงและบริการ POS
 
@@ -80,6 +82,3 @@ Microsoft Dynamics 365 Commerce รุ่น 10.0.10 และรุ่นที
 ## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [ทริกเกอร์และการพิมพ์ Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

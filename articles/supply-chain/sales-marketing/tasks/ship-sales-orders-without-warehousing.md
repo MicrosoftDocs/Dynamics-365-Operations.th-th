@@ -2,26 +2,23 @@
 title: จัดส่งใบสั่งขายโดยไม่มีคลังสินค้า
 description: หัวข้อนี้อธิบายวิธีการปรับปรุงใบสั่งขาย เมื่อมีการจัดส่งผลิตภัณฑ์ให้กับลูกค้า
 author: omulvad
-manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0760ff5810bb832e25d6a2d473b3cda703872a05de4936191f91664406fe18c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767327"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>จัดส่งใบสั่งขายโดยไม่มีคลังสินค้า
 
@@ -56,3 +53,6 @@ ms.locfileid: "4438760"
 19. บนบานหน้าต่างการดำเนินการ เลือก **เบิกสินค้าและจัดส่ง**
 20. เลือก **บันทึกการจัดส่ง** หน้า **สมุดรายวันบันทึกการจัดส่ง** ประกอบด้วย เอกสารบันทึกการจัดส่งทั้งหมดที่ถูกสร้างขึ้นสำหรับใบสั่งของคุณ คุณสามารถตรวจทานรายละเอียดของแต่ละเอกสาร และพิมพ์เอกสารเหล่านั้น ถ้าคุณต้องการ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

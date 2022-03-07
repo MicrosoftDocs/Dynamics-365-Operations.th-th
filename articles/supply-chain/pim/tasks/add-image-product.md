@@ -2,26 +2,23 @@
 title: เพิ่มรูปภาพให้ผลิตภัณฑ์
 description: กระบวนงานนี้แสดงวิธีการเพิ่มรูปภาพไปยังผลิตภัณฑ์ บริษัทข้อมูลสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductPerCompanyImagePart, EcoResProductImage, DocumentUpload
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4bcea2107c1510423145f6246c7b71d05598e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c0f0ece7426b9bcec90816fe32c7b3488723bacec06260020b915ec4814631f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776397"
 ---
 # <a name="add-an-image-to-a-product"></a>เพิ่มรูปภาพให้ผลิตภัณฑ์
 
@@ -37,3 +34,6 @@ ms.locfileid: "4438496"
 5. คลิก สร้าง
     * คลิกเรียกดู ค้นหารูปภาพที่คุณต้องการใช้ เลือก แล้วปิดกล่องโต้ตอบ    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

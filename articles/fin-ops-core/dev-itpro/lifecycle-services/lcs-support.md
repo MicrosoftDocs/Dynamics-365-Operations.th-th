@@ -1,12 +1,10 @@
 ---
-title: ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
-description: หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS)
+title: รับการสนับสนุนสำหรับแอปการเงินและการดำเนินงาน หรือ Lifecycle Services (LCS)
+description: หัวข้อนี้อธิบายวิธีการรับวิธีใช้ด้วยแอปการเงินและการดำเนินงาน หรือ Microsoft Dynamics Lifecycle Services (LCS)
 author: EricMoos
-manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ec326f2df53ee465b5a75b4f3c24ed914b28551
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680003"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068045"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>ได้รับการสนับสนุนสำหรับแอป Finance and Operations หรือ Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>รับการสนับสนุนสำหรับแอปการเงินและการดำเนินงาน หรือ Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการรับความช่วยเหลือด้วยแอป Finance and Operations หรือ Microsoft Dynamics Lifecycle Services (LCS) 
+
+[!INCLUDE [PEAP](../../../includes/peap-2.md)]
+
+หัวข้อนี้อธิบายวิธีการรับวิธีใช้ด้วยแอปการเงินและการดำเนินงาน หรือ Microsoft Dynamics Lifecycle Services (LCS) 
 
 <table>
 <thead>
@@ -50,7 +51,7 @@ ms.locfileid: "4680003"
 <td>ใน <a href="https://lcs.dynamics.com/">LCS</a> ให้ใช้เครื่องมือ <strong>การค้นหาปัญหา</strong> เพื่อค้นหาบทความ Microsoft Knowledge Base (KB) โปรแกรมแก้ไขด่วน และวิธีแก้ไขปัญหาสำหรับปัญหาที่รายงานไว้อย่างรวดเร็ว คุณสามารถดูว่ารายงานใดที่กำลังดำเนินได้รับการแก้ไขปัญหาสำหรับพื้นที่ทำงานเฉพาะ รวมถึงที่ได้รับการแก้ไขเรียบร้อยแล้ว สำหรับข้อมูลเพิ่มเติม ให้ดู <a href="issue-search-lcs.md">การค้นหาปัญหา (Lifecycle Services, LCS)</a></td>
 </tr>
 <tr>
-<td>รับการสนับสนุนในแอป</td>
+<td>รับการสนับสนุนภายในแอปการเงินและการดําเนินงานของคุณ</td>
 <td>เลือกปุ่ม <strong>วิธีใช้</strong> (<strong>?</strong>) ในมุมบนขวาของหน้าของแอป แล้วเลือก <strong>ฝ่ายสนับสนุน</strong> ปัญหาจะถูกรายงานบนแท็บ <strong>ปัญหาที่เปิดอยู่</strong> ใน LCS ผู้ดูแลระบบสามารถกำหนดได้ว่าควรส่งรายงานภายในองค์กรหรือส่งปัญหาไปยัง Microsoft</td>
 </tr>
 <tr>
@@ -68,3 +69,6 @@ ms.locfileid: "4680003"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

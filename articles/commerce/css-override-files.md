@@ -1,20 +1,25 @@
 ---
-# required metadata
 title: ทำงานกับไฟล์การแทนที่ CSS
 description: หัวข้อนี้อธิบายเหตุผล เวลา และวิธีการใช้ไฟล์การแทนที่ Cascading Style Sheet (CSS) ใน Microsoft Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: niholman
-ms.search.validFrom: '2019-12-12'
+ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: f460ab6ae90b5daa9bee3c2954727a7bcf79321d661f8ce88f5108fd019fbb3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724591"
 ---
 # <a name="work-with-css-override-files"></a>ทำงานกับไฟล์การแก้ไข CSS
 
@@ -90,11 +95,13 @@ ms.dyn365.ops.version: Release 10.0.8
 
 [เพิ่มโลโก้](add-logo.md)
 
-[เลือกชุดรูปแบบของไซต์](select-site-theme.md)
+[เลือกธีมของไซต์](select-site-theme.md)
 
 [การทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้า](style-presets.md)
 
 [เพิ่มไอคอนประจำไซต์](add-favicon.md)
+
+[เพิ่มข้อความต้อนรับ](add-welcome-message.md)
 
 [เพิ่มข้อความสงวนลิขสิทธิ์](add-copyright-notice.md)
 

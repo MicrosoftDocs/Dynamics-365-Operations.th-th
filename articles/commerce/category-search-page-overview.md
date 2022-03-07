@@ -1,21 +1,25 @@
 ---
-# required metadata
 title: หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 description: หัวข้อนี้แสดงภาพรวมของหน้าเริ่มต้นของประเภทเริ่มต้นและหน้าผลการค้นหาใน Dynamics 365 Commerce
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982445"
 ---
-
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 
 [!include [banner](includes/banner.md)]

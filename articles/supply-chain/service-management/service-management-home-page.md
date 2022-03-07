@@ -1,23 +1,26 @@
 ---
-# required metadata
 title: ภาพรวมของการจัดการบริการ
 description: ใช้การจัดการงานบริการเพื่อกำหนดข้อตกลงการให้บริการและการบอกรับเป็นสมาชิกการบริการ จัดการใบสั่งบริการและการสอบถามของลูกค้า และเพื่อจัดการและวิเคราะห์การจัดส่งบริการให้แก่ลูกค้า
 author: kamaybac
 ms.date: 07/25/2019
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983033"
 ---
-
-
 # <a name="service-management-overview"></a>ภาพรวมของการจัดการบริการ
 
 [!include [banner](../includes/banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
-description: หลังจากที่คุณได้ออกแบบบล็อคส่วนประกอบและสร้างรายงานแล้ว คุณควรจัดเรียงออบเจ็กต์เหล่านี้เพื่อให้ผู้ใช้สามารถค้นหาได้ง่ายขึ้น บทความนี้อธิบายถึงวิธีการจัดระเบียบรายงานที่มีอยู่ บล็อคส่วนประกอบ และออบเจ็กต์ในตัวออกแบบรายงาน
+description: หัวข้อนี้อธิบายถึงวิธีการจัดระเบียบรายงานที่มีอยู่ บล็อคส่วนประกอบ และออบเจ็กต์ในตัวออกแบบรายงาน
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763535"
 ---
 # <a name="organize-report-components-in-report-designer"></a>ส่วนประกอบรายงานองค์กรในผู้ออกแบบรายงาน
 
@@ -60,7 +58,7 @@ ms.locfileid: "4685822"
 1. ใน Report Designer ในบานหน้าต่างนำทาง คลิก **กลุ่มรายงาน**
 2. ดับเบิลคลินกลุ่มรายงานนั้นเพื่อปรับเปลี่ยน
 3. บนแท็บ **กลุ่มรายงาน** ทำการเปลี่ยนแปลงที่คุณต้องการ
-4. ในเมนู **ไฟล์** คลิก **บันทึก** หรือหากต้องการบันทึกกลุ่มรายงานที่ปรับเปลี่ยน ให้คลิกปุ่ม **บันทึก** ![บันทึก](media/save.gif "บันทึก") บนแถบเครื่องมือ
+4. ในเมนู **ไฟล์** คลิก **บันทึก** เพื่อบันทึกกลุ่มรายงานที่ปรับเปลี่ยน หรือให้คลิกปุ่ม **บันทึก** ![บันทึก](media/save.gif "บันทึก") บนแถบเครื่องมือ
 
 > [หมายเหตุ] ถ้าคุณได้จัดกำหนดการรายงานเพื่อให้มีการสร้างขึ้นขณะตั้งค่าช่วง คุณสามารถแทนการตั้งค่าเหล่านี้ และสร้างรายงานได้ทันที
 
@@ -148,3 +146,6 @@ ms.locfileid: "4685822"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การรายงานทางการเงิน](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

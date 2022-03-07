@@ -2,25 +2,22 @@
 title: พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Microsoft Dynamics 365 Supply Chain Management
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438936"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581019"
 ---
 # <a name="engineering-change-management-parameters"></a>พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -57,3 +54,6 @@ ms.locfileid: "4438936"
 | กฎความรุนแรง | เลือกว่าควรสร้างระดับความรุนแรงของใบสั่งเปลี่ยนแปลงทางวิศวกรรมอย่างไร เลือก *ด้วยตนเอง* ถ้าคาดว่าผู้ใช้จะป้อนค่าในฟิลด์ **ความรุนแรง** เลือก *คำนวณ* เพื่อให้ระบบคำนวณค่าของฟิลด์ **ความรุนแรง** เมื่อคุณเลือก **คำนวณความรุนแรง** ในบานหน้าต่างการดำเนินการของใบสั่งเปลี่ยนแปลงทางวิศวกรรม ในกรณีนี้ ระบบจะใช้กฎความรุนแรงที่กำหนดไว้ในหน้า **ชุดกฎความรุนแรง** เลือก *คำนวณโดยอัตโนมัติ* เพื่อให้ค่าของฟิลด์ **ความรุนแรง** มีการคำนวณและเติมข้อมูลโดยอัตโนมัติตามชุดกฎความรุนแรง |
 | นำผลิตภัณฑ์ที่ได้รับผลกระทบออกใช้อีกครั้ง | ฟิลด์นี้จะใช้ได้เมื่อคุณนำผลิตภัณฑ์ออกใช้ใหม่ผ่านทางใบสั่งเปลี่ยนแปลงทางวิศวกรรม คุณสามารถเลือกว่าจะเสนอผลิตภัณฑ์ทั้งหมดหรือเฉพาะผลิตภัณฑ์ที่ได้รับผลกระทบเท่านั้นในกล่องโต้ตอบ **การนำออกใช้** |
 | ระดับ BOM ที่จะนำออกใช้ | ความลึกของระดับ BOM ที่จะนำออกใช้ ถ้า BOM มีระดับมากขึ้น (กล่าวคือ ถ้าลึกขึ้น) กว่าค่าที่ระบุไว้ที่นี่ เฉพาะระดับที่สูงกว่าค่าที่ระบุจะถูกนำออกใช้ |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

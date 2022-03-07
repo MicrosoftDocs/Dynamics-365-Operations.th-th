@@ -1,12 +1,11 @@
 ---
 title: เนื้อหา Power BI การสรรหาบุคลากร
-description: หัวข้อนี้อธิบายเนื้อหา Power BI การสรรหาบุคลากร และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายเนื้อหา Power BI การสรรหาบุคลากร
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cc05e60b24ab82feb5ffccc4cdb662108b6b1534
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680573"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562939"
 ---
 # <a name="recruiting-power-bi-content"></a>เนื้อหา Power BI การสรรหาบุคลากร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI **การสรรหาบุคลากร** และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+หัวข้อนี้อธิบายเนื้อหา **การสรรหาบุคลากร** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 เนื้อหา Power BI ของ **การสรรหาบุคลากร** ถูกแสดงในพื้นที่ทำงาน **การจัดการการสรรหาบุคลากร**
@@ -64,3 +63,6 @@ ms.locfileid: "4680573"
 | ประสิทธิภาพ          | การจัดอันดับ คำอธิบาย และแบบจำลองการจัดอันดับ                            | ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน |
 | โครงการสรรหาบุคลากร  | คำอธิบายโครงการ สถานะโครงการ และตำแหน่งที่เปิดรับ                | ผู้สมัคร ผู้สมัครที่ได้รับว่าจ้าง ผู้สมัครที่สิ้นสุดการจ้างงาน |
 | ผู้สมัครที่สิ้นสุดการจ้างงาน | ผู้สมัครที่ถูกสิ้นสุดงานแล้ว เหตุผล ประสิทธิภาพการทำงาน และวันที่สิ้นสุด | บริษัท ออฟเซ็ตปฏิทิน วันที่ ที่ตั้งทางภูมิศาสตร์ ประสิทธิภาพ สถิติประชากร การจ้างงาน สื่อ โครงการสรรหาบุคลากร ชื่อผู้สมัคร |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

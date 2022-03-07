@@ -2,11 +2,9 @@
 title: บีบอัดเอกสารขนาดใหญ่ที่สร้างขึ้นในการรายงานอิเล็กทรอนิกส์
 description: หัวข้อนี้จะอธิบายถึงวิธีการบีบอัดเอกสารขนาดใหญ่ที่สร้างขึ้นโดยรูปแบบการรายงานอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680874"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894183"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>บีบอัดเอกสารขนาดใหญ่ที่สร้างขึ้นในการรายงานอิเล็กทรอนิกส์ 
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถใช้ [กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) เพื่อตั้งค่าคอนฟิกโซลูชันที่รับข้อมูลของธุรกรรมเพื่อสร้างเอกสารขาออก เอกสารที่สร้างขึ้นนี้อาจมีขนาดใหญ่มาก เมื่อสร้างเอกสารชนิดนี้ หน่วยความจำ [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) จะถูกใช้เพื่อระงับ ในบางกรณี จะต้องมีการดาวน์โหลดเอกสารจากแอพลิเคชัน Microsoft Dynamics 365 Finance ของคุณ ในปัจจุบัน ขนาดสูงสุดของเอกสารฉบับเดียวที่สร้างขึ้นใน ER ถูกจำกัดไว้ที่ 2 กิกะไบต์ (GB) เท่านั้น นอกจากนี้ Finance ในขณะนี้ [จำกัด](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) ขนาดของไฟล์ที่ดาวน์โหลดเป็น 1 GB ดังนั้น คุณต้องตั้งค่าคอนฟิกโซลูชัน ER ซึ่งช่วยลดความเป็นไปได้ว่าจะมีการเกินข้อจำกัดเหล่านี้ และคุณจะได้รับข้อยกเว้น **สตรีมข้อมูลยาวเกินไป** หรือ **การดำเนินงานทางคณิตศาสตร์มากเกินหรือน้อยเกินไป**
+คุณสามารถใช้ [กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) เพื่อตั้งค่าคอนฟิกโซลูชันที่รับข้อมูลของธุรกรรมเพื่อสร้างเอกสารขาออก เอกสารที่สร้างขึ้นนี้อาจมีขนาดใหญ่มาก เมื่อสร้างเอกสารชนิดนี้ หน่วยความจำ [Application Object Server (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) จะถูกใช้เพื่อระงับ ในบางกรณี จะต้องมีการดาวน์โหลดเอกสารจากแอพลิเคชัน Microsoft Dynamics 365 Finance ของคุณ ในปัจจุบัน ขนาดสูงสุดของเอกสารฉบับเดียวที่สร้างขึ้นใน ER ถูกจำกัดไว้ที่ 2 กิกะไบต์ (GB) เท่านั้น นอกจากนี้ Finance ในขณะนี้ [จำกัด](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) ขนาดของไฟล์ที่ดาวน์โหลดเป็น 1 GB ดังนั้น คุณต้องตั้งค่าคอนฟิกโซลูชัน ER ซึ่งช่วยลดความเป็นไปได้ว่าจะมีการเกินข้อจำกัดเหล่านี้ และคุณจะได้รับข้อยกเว้น **สตรีมข้อมูลยาวเกินไป** หรือ **การดำเนินงานทางคณิตศาสตร์มากเกินหรือน้อยเกินไป**
 
 เมื่อคุณตั้งค่าคอนฟิกโซลูชัน คุณสามารถปรับรูปแบบ ER ของคุณในตัวออกแบบการดำเนินงานได้โดยการเพิ่มองค์ประกอบรากของชนิด **โฟลเดอร์** เพื่อบีบอัดเนื้อหาที่สร้างขึ้นโดยองค์ประกอบใดๆ ที่ซ้อนกันอยู่ การบีบอัดทำงาน "ในเวลาเดียวกัน" เพื่อให้การใช้หน่วยความจำสูงสุดและขนาดของไฟล์ที่จะดาวน์โหลดอาจลดลง
 
@@ -94,3 +92,6 @@ ms.locfileid: "4680874"
 [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
 
 [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

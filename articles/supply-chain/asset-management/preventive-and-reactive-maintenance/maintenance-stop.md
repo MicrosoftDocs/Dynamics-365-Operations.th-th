@@ -1,12 +1,10 @@
 ---
 title: กิจกรรมการหยุดทำงานของการบำรุงรักษา
 description: หัวข้อนี้อธิบายวิธีการใช้การหยุดทำงานของการบำรุงรักษาเพื่อดูภาพรวมของกำลังการผลิตที่จำเป็นสำหรับการดำเนินการบำรุงรักษาในสินทรัพย์เฉพาะระหว่างรอบระยะเวลาที่ระบุ
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0e6168033afb97c6f4f1b8466801a6f16332df82a039927ec1b45e03aa3694b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727929"
 ---
 # <a name="maintenance-downtime-activities"></a>กิจกรรมการหยุดทำงานของการบำรุงรักษา
 
@@ -96,3 +94,6 @@ ms.locfileid: "5017975"
 - คุณสามารถคัดลอกสินทรัพย์จากกิจกรรมการหยุดทำงานของการบำรุงรักษาไปยังที่อื่น ใน **กิจกรรมการหยุดทำงานของการบำรุงรักษาทั้งหมด** เลือกปุ่ม **คัดลอกการหยุดทำงานของการบำรุงรักษา** และทำการเลือกในฟิลด์ **จากกิจกรรมการหยุดทำงานของการบำรุงรักษา** และ **ไปยังกิจกรรมการหยุดทำงานของการบำรุงรักษา** และคลิก **ตกลง**
 - ใน **กิจกรรมการหยุดทำงานของการบำรุงรักษาทั้งหมด** คลิกปุ่ม **รายการกำหนดการบำรุงรักษษ** หรือปุ่ม **ใบสั่งงานที่เปิดใช้งานอยู่** เพื่อเปิดรายการที่เกี่ยวข้องของกิจกรรมการหยุดทำงานของการบำรุงรักษาที่เลือกไว้
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

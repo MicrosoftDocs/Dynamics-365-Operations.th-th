@@ -1,31 +1,33 @@
 ---
 title: จัดการวันหมดอายุของสวัสดิการ
-description: 'ขั้นตอนนี้แสดงวิธีการหมดอายุ หรือขยายสวัสดิการ และจัดการวันลงทะเบียนของผู้ปฏิบัติงานที่ลงทะเบียนในสวัสดิการ '
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: ขั้นตอนนี้แสดงวิธีการสวัสดิการหมดอายุ หรือขยายสวัสดิการ และจัดการวันลงทะเบียนของผู้ปฏิบัติงาน
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 7332a95e1cd558336dc19bcb269ef89ce3721aa9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420688"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065979"
 ---
 # <a name="manage-benefit-expiration-dates"></a>จัดการวันหมดอายุของสวัสดิการ
 
-ขั้นตอนนี้แสดงวิธีการหมดอายุ หรือขยายสวัสดิการ และจัดการวันลงทะเบียนของผู้ปฏิบัติงานที่ลงทะเบียนในสวัสดิการ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+ขั้นตอนนี้แสดงวิธีการสวัสดิการหมดอายุ หรือขยายสวัสดิการ และจัดการวันลงทะเบียนของผู้ปฏิบัติงาน บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
 
 ## <a name="benefit-expiration-dates"></a>วันหมดอายุของสวัสดิการ
 
@@ -46,3 +48,6 @@ ms.locfileid: "4420688"
 15. คลิก สวัสดิการ
 16. ในรายการ ค้นหาสวัสดิการและเลือกเรกคอร์ด  หมายเหตุวันที่ที่สิ้นสุดความคุ้มครองใหม่
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

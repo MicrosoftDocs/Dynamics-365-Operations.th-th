@@ -1,28 +1,28 @@
 ---
 title: การรายงานทางการเงิน
-description: การรายงานทางการเงินยินยอมให้ผู้เชี่ยวชาญทางการเงินและผู้เชี่ยวชาญทางธุรกิจสามารถสร้าง รักษา ปรับใช้ และดูงบการเงินได้ ซึ่งสามารถใช้งานได้เกินกว่าข้อจำกัดการรายงานดั้งเดิมเพื่อช่วยให้คุณสามารถออกแบบรายงานชนิดต่างๆ ได้อย่างมีประสิทธิภาพ
+description: การรายงานทางการเงินยินยอมให้ผู้เชี่ยวชาญทางการเงินและผู้เชี่ยวชาญทางธุรกิจสามารถสร้าง รักษา ปรับใช้ และดูงบการเงินได้
 author: aprilolson
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 68813
+ms.custom:
+- "68813"
+- intro-internal
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5498fef48320c6daa878fc7b979a8ae08670192e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682708"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339322"
 ---
 # <a name="financial-reporting"></a>การรายงานทางการเงิน
 
@@ -96,3 +96,6 @@ ms.locfileid: "4682708"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 [สร้างรายงานทางการเงิน](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

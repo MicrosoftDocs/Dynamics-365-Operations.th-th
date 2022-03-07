@@ -1,27 +1,36 @@
 ---
-# required metadata
 title: ภาพรวมของการจัดการงาน
 description: หัวข้อนี้แสดงภาพรวมของการจัดการงานสำหรับผู้จัดการและผู้ปฏิบัติงานใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: gmohanv
-ms.search.validFrom: '2020-02-03'
+ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416193"
 ---
-
 # <a name="task-management-overview"></a>ภาพรวมของการจัดการงาน
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของการจัดการงานสำหรับผู้จัดการและผู้ปฏิบัติงานใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 ในสภาพแวดล้อมการขายปลีก ยากเสมอที่จะทำให้แน่ใจว่างานจะดำเนินการโดยบุคคลที่ถูกต้องในเวลาที่เหมาะสม ผู้ขายปลีกต้องสามารถแจ้งให้ผู้ปฏิบัติงานทราบเกี่ยวกับงานที่กำลังจะมาถึงและระบุบริบททางธุรกิจที่เกี่ยวข้อง เพื่อให้สามารถดำเนินงานให้เสร็จสมบูรณ์ได้อย่างถูกต้องและทันเวลา
 
@@ -35,7 +44,7 @@ ms.dyn365.ops.version: Release 10.0.9
 
 ![สถาปัตยกรรมแนวคิดเกี่ยวกับการจัดการงาน](media/Tasks-management-conceptual-architecture.png)
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ตั้งค่าคอนฟิกการจัดการงาน](task-mgmt-configure.md)
 
@@ -44,6 +53,3 @@ ms.dyn365.ops.version: Release 10.0.9
 [กำหนดรายการงานให้กับร้านค้าหรือพนักงาน](task-mgmt-assign-lists.md)
 
 [การจัดการงานใน POS](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

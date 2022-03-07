@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของการรวมบัญชีและการตัดออก
 description: หัวข้อนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการรวมบัญชีและการตัดออก โดยจะมีคำตอบสำหรับคำถามที่ถามบ่อย
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '13151'
-  - intro-internal
+- "13151"
+- intro-internal
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: roschlom
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d844bc37d24fe1fc363a108702a2aae32b72f9e0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983578"
 ---
-
 # <a name="consolidation-and-elimination-overview"></a>ภาพรวมของการรวมบัญชีและการตัดออก
 
 [!include [banner](../includes/banner.md)]

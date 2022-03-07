@@ -2,11 +2,9 @@
 title: ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 description: หัวข้อนี้จะอธิบายวิธีการที่คุณสามารถช่วยปรับปรุงประสิทธิภาพการทำงานของโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 author: NickSelin
-manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681291"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349195"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 
@@ -78,7 +76,7 @@ ms.locfileid: "4681291"
 
     การแม็ปแบบจำลองในการตั้งค่าคอนฟิกนี้จะใช้รูปแบบข้อมูลพื้นฐาน สำหรับรูปแบบ ER ใดๆ ที่สร้างขึ้นสำหรับรูปแบบนี้และเรียกใช้ใน Finance ดังนั้นจึงมีการเปิดเผยเนื้อหาของแหล่งข้อมูล **Trans** สำหรับรูปแบบ ER เช่น แหล่งข้อมูล **รูปแบบ**
 
-    ![เพิ่มแหล่งข้อมูล Trans ในหน้าตัวออกแบบการแม็ปแบบจำลอง](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![แหล่งข้อมูล Trans ในหน้าตัวออกแบบการแม็ปแบบจำลอง](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 5. ปิดหน้า **การแม็ปแบบจำลองกับแหล่งข้อมูล**
@@ -246,9 +244,9 @@ ms.locfileid: "4681291"
 
 | ไฟล์                                        | ปริมาณความจุ |
 |---------------------------------------------|---------|
-| แบบจำลองการปรับปรุงประสิทธิภาพ.รุ่น.1     | [การตั้งค่าคอนฟิกรูปแบบข้อมูล ER ตัวอย่าง](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| การแม็ปการปรับปรุงประสิทธิภาพ.รุ่น.1.1 | [การตั้งค่าคอนฟิกการแม็ปรูปแบบ ER ตัวอย่าง](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| รูปแบบการปรับปรุงประสิทธิภาพ.รุ่น.1.1  | [การตั้งค่าคอนฟิกรูปแบบ ER ตัวอย่าง](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| แบบจำลองการปรับปรุงประสิทธิภาพ.รุ่น.1     | [การตั้งค่าคอนฟิกรูปแบบข้อมูล ER ตัวอย่าง](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| การแม็ปการปรับปรุงประสิทธิภาพ.รุ่น.1.1 | [การตั้งค่าคอนฟิกการแม็ปรูปแบบ ER ตัวอย่าง](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| รูปแบบการปรับปรุงประสิทธิภาพ.รุ่น.1.1  | [การตั้งค่าคอนฟิกรูปแบบ ER ตัวอย่าง](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>ภาคผนวก 2: ตั้งค่าคอนฟิกกรอบงาน ER
 
@@ -300,3 +298,6 @@ ms.locfileid: "4681291"
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 - [ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพ](trace-execution-er-troubleshoot-perf.md)
 - [สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

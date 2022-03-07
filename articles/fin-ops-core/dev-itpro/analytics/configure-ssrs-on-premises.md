@@ -2,26 +2,24 @@
 title: ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการรายงาน SQL Server (SSRS) สำหรับการปรับใช้ในองค์กร
 author: PeterRFriis
-manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perahlff
+ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 2577705b04beef1f8b03f83ed8536be2e6ab6e83
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3853158afdab545dacda996c984b265eb8947db7f90faf80319841eb01c14910
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726368"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>ตั้งค่าคอนฟิก SQL Server Reporting Services สำหรับการปรับใช้แบบ on-premises
 
@@ -88,8 +86,11 @@ ms.locfileid: "4683932"
 
     ห้ามเปลี่ยนการตั้งค่าเริ่มต้นบนแท็บ **การรวม Power BI**
 
-    [![แท็บการรวม power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
+    [![แท็บการรวม Power BI](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)
 
 13. คลิก **ออก** เพื่อปิด **Reporting Services Configuration Manager**
 
     [![ปิด Reporting Services Configuration Manager](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: การกำหนดการแบบภาพสำหรับ Lean Manufacturing
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับบอร์ดกำหนดการคัมบัง ซึ่งสามารถใช้โปรแกรมวางแผนการผลิตเพื่อควบคุมและปรับการตั้งค่าแผนการผลิตสำหรับงานคัมบัง
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764823"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438238"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>การกำหนดการแบบภาพสำหรับ Lean Manufacturing
 
@@ -87,10 +90,8 @@ ms.locfileid: "6764823"
 -   หน้า **การแสดงภาพขั้นตอนการผลิต**
 
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+--------
 
 [การกำหนดการงานคัมบังสำหรับ Lean Manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: การคาดการณ์ ใบสั่งงาน และโครงการ
 description: หัวข้อนี้อธิบายการคาดการณ์และการรวมใบสั่งงานกับโมดูลการจัดการและการบัญชีโครงการในการบริหารสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345439"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>การคาดการณ์ ใบสั่งงาน และโครงการ
 
@@ -90,9 +88,9 @@ ms.locfileid: "5021046"
 
 ![รูปที่ 3](media/03-integration-to-pma.png)
 
-![รูปที่ 4](media/04-integration-to-pma.png)
+![รูปที่ 4.](media/04-integration-to-pma.png)
 
-![รูปที่ 5](media/05-integration-to-pma.png)
+![รูปที่ 5.](media/05-integration-to-pma.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าโครงการใบสั่งงาน ดู [การตั้งค่าโครงการใบสั่งงาน](../setup-for-work-orders/work-order-project-setup.md) สำหรับข้อมูลเกี่ยวกับวิธีการสร้างสถานะวงจรของใบสั่งงาน และดู [สถานะวงจรของใบสั่งงาน](../setup-for-work-orders/work-order-lifecycle-states.md)
 
@@ -100,3 +98,6 @@ ms.locfileid: "5021046"
 
 ![รูปที่ 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

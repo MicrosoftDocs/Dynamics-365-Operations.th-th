@@ -2,28 +2,27 @@
 title: กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
 description: 'กระบวนการค่าตอบแทนถูกใช้เพื่อกำหนดจำนวนค่าตอบแทนใหม่และรางวัลสำหรับพนักงานที่ลงทะเบียนในแผนค่าตอบแทนคงที่และแผนค่าตอบแทนผันแปร '
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 254eb4f83cc734e43920b912e81c7a9230ca82dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b43b381ea13d6afc81ebd7bc6458a4bc17d69382
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420791"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6052948"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>กำหนดกระบวนการของค่าตอบแทนและคำนวณผลลัพธ์
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 กระบวนการค่าตอบแทนถูกใช้เพื่อกำหนดจำนวนค่าตอบแทนใหม่และรางวัลสำหรับพนักงานที่ลงทะเบียนในแผนค่าตอบแทนคงที่และแผนค่าตอบแทนผันแปร  กระบวนการค่าตอบแทนสามารถรันได้หลายครั้งเพื่อดำเนินการ "วิเคราะห์เชิง" เพื่อตรวจสอบการเปลี่ยนแปลงและการตั้งค่าทั้งหมดที่ถูกต้อง  ขั้นตอนนี้จะสร้างกระบวนการค่าตอบแทน รันกระบวนการ และแสดงผลลัพธ์  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
 
@@ -100,3 +99,6 @@ ms.locfileid: "4420791"
 10. คลิก อนุมัติ
     * หลังจากเรกคอร์ดที่ได้รับการอนุมัติแล้วก็สามารถโหลดเรกคอร์ดค่าตอบแทนอย่างเป็นทางการของพนักงาน  ค่าตอบแทนใหม่จะมีผลบังคับใช้ ณ วันธุรกรรมที่กำหนดในกระบวนการค่าตอบแทน  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

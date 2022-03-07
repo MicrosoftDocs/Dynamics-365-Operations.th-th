@@ -2,28 +2,25 @@
 title: สร้างเช็คที่มีสถานะว่างเปล่า
 description: หัวข้อนี้อธิบายถึงวิธีการสร้างเช็คเปล่าสำหรับบัญชีธนาคารบนหน้าเช็ค
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c431ed975aecf116fbf626018038b112a0a8cca063e1462e31e206480643e11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720561"
 ---
 # <a name="create-checks-that-have-blank-status"></a>สร้างเช็คที่มีสถานะว่างเปล่า
 
@@ -39,3 +36,6 @@ ms.locfileid: "4460055"
 หากต้องการเปิดหน้า **เช็ค** ให้ไปที่ **การจัดการเงินสดและธนาคาร \> บัญชีธนาคาร \> บัญชีธนาคาร** จากนั้นในบานหน้าต่างการดำเนินการ บนแท็บ **จัดการการชำระเงิน** ในกลุ่ม **ข้อมูลที่เกี่ยวข้อง** ให้เลือก **เช็ค** หรือไปที่ **การจัดการเงินสดและธนาคาร \> การสอบถามและรายงาน \> เช็ค**
 
 จากนั้น เพื่อสร้างเช็คที่มีสถานะ **ว่างเปล่า** ในบานหน้าต่างการดำเนินการ ให้เลือก **สร้างเช็คเปล่า** ขณะที่ระบบกำลังสร้างเช็คเปล่า บัญชีธนาคารที่เชื่อมโยงจะใช้งานไม่ได้ชั่วคราว ลักษณะการทำงานนี้จะช่วยลดความเสี่ยงในการสร้างการชำระเงินในเวลาเดียวกับที่มีการสร้างเช็คเปล่า เมื่อการประมวลผลเสร็จสมบูรณ์ บัญชีธนาคารที่เชื่อมโยงจะกลับมาใช้งานได้อีกครั้ง
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,23 @@
 ---
 title: การประมวลผลชุดงานของการแจ้งเตือน
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการประมวลผลชุดงานของการแจ้งเตือน
-author: tjvass
-manager: AnnBe
-ms.date: 09/10/2010
+author: RichdiMSFT
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0ec2a9bd925ccd7dc7c6a8251629bf565ece2268
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798609"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416440"
 ---
 # <a name="batch-processing-of-alerts"></a>การประมวลผลชุดงานของการแจ้งเตือน
 
@@ -82,3 +80,6 @@ ms.locfileid: "4798609"
 
 1. ไปยัง **การจัดการระบบ** &gt; **งานประจำงวด** &gt; **ข้อความแจ้งเตือน** &gt; **ข้อความแจ้งเตือนตามวันที่ครบกำหนด**
 2. ในกล่องโต้ตอบ **ข้อความแจ้งเตือนตามวันที่ครบกำหนด** ป้อนข้อมูลที่เหมาะสม
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

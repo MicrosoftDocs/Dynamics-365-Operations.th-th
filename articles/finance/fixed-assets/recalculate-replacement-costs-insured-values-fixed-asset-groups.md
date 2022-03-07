@@ -1,31 +1,33 @@
 ---
 title: คำนวณใหม่ของต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับกลุ่มสินทรัพย์ถาวร
-description: หัวข้อนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร
-author: moaamer
+description: บทความนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร
+author: ShylaThompson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d3dba59e459193798d790e64d2493c244d49a3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c66f51a513524cfad7fb5382efa748197f9b4bac
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674887"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990525"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>คำนวณใหม่ของต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับกลุ่มสินทรัพย์ถาวร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร
+บทความนี้อธิบายถึงกระบวนการปรับปรุงต้นทุนในการเปลี่ยนและมูลค่าการประกันสำหรับสินทรัพย์ถาวร
 
 คุณอาจได้รับแจ้งเป็นระยะๆ ว่าต้นทุนในการเปลี่ยนหรือประกันสินทรัพย์ถาวรมีการเปลี่ยนแปลง  ตัวอย่างเช่น ผู้จัดการของคุณอาจแจ้งให้ทราบว่า ปีที่แล้วเงินเฟ้ออยู่ที่ 3 เปอร์เซ็นต์ ดังนั้นคุณจึงต้องเพิ่มต้นทุนในการเปลี่ยนของสินทรัพย์ถาวรทั้งหมด 3 เปอร์เซ็นต์ 
 
@@ -75,6 +77,3 @@ ms.locfileid: "7674887"
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

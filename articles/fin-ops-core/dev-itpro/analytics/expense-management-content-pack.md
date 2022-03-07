@@ -2,11 +2,9 @@
 title: เนื้อหา Power BI การจัดการค่าใช้จ่าย
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI ของการจัดการค่าใช้จ่าย
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769909"
 ---
 # <a name="expense-management-power-bi-content"></a>เนื้อหา Power BI การจัดการค่าใช้จ่าย
 
@@ -43,7 +41,7 @@ ms.locfileid: "5016463"
 ยอดเงินทั้งหมดถูกแสดงในสกุลเงินของบริษัท มีการแสดงข้อมูลสำหรับบริษัททั้งหมด แต่ถ้าจำเป็น คุณสามารถเพิ่มตัวกรองข้อมูลของบริษัท 
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-คุณสามารถค้นหา Expense Admin Dashboard.pbix และเนื้อหา Expense Personal Dashboard.pbix Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)
+คุณสามารถค้นหา Expense Admin Dashboard.pbix และเนื้อหา Expense Personal Dashboard.pbix Power BI ในไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)
 เนื้อหาที่พร้อมใช้งานจากพื้นที่ทำงานการจัดการค่าใช้จ่ายเป็นเนื้อหา Power Bi แบบฝัง เจ้าของค่าใช้จ่ายใดๆ สามารถเข้าถึงค่าใช้จ่ายส่วนส่วนบุคคลสำหรับตัวเอง ขณะที่เสมียนและผู้จัดการฝ่ายบัญชีเจ้าหนี้เท่านั้นที่สามารถเข้าถึงเนื้อหาการจัดการ เพื่อดูข้อมูลค่าใช้จ่ายของผู้ใช้ทั้งหมด
 
 ## <a name="refreshing-the-power-bi-content"></a>การรีเฟรชเนื้อหา Power BI
@@ -93,3 +91,6 @@ ms.locfileid: "5016463"
 | สถิติของพนักงาน | รายงานค่าใช้จ่ายตามชนิดต้นทุน            |
 |                     | ค่าใช้จ่ายส่วนบุคคล                       |
 |                     | รายงานค่าใช้จ่ายโดยเรียงตามกลุ่มสถิติ     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

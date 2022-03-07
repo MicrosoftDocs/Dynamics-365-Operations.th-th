@@ -1,35 +1,32 @@
 ---
 title: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของ Finance and Operations
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของการเงินและการดำเนินงาน
 author: roxanadiaconu
-manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682548"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984113"
 ---
 # <a name="optimization-advisor-overview"></a>ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของ Finance and Operations
+หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้ผู้แนะนำการเพิ่มประสิทธิภาพเพื่อช่วยให้แน่ใจในการตั้งค่าคอนฟิกสูงสุดของการเงินและการดำเนินงาน
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -94,3 +91,6 @@ ms.locfileid: "4682548"
 [สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](./create-rules-optimization-advisor.md)
 
 [ผู้แนะนำการเพิ่มประสิทธิภาพใน Dynamics 365 for Finance and Operations (วิดีโอ)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

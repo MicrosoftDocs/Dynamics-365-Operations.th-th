@@ -1,22 +1,22 @@
 ---
 title: คำขอประเภทจากผู้จัดจำหน่าย
 description: หัวข้อนี้อธิบายวิธีการที่ผู้จัดจำหน่ายสามารถร้องขอประเภทการจัดซื้อให้กับบัญชีของพวกเขา และยังอธิบายกระบวนการอนุมัติที่เสร็จสมบูรณ์โดยเจ้าหน้าที่จัดซื้อด้วย
-author: Henrikan
+author: kamaybac
 ms.date: 04/19/2021
 ms.topic: article
 ms.search.form: VendRequestNewCategory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103123"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015962"
 ---
 # <a name="category-requests-from-vendors"></a>คำขอประเภทจากผู้จัดจำหน่าย
 
@@ -26,11 +26,11 @@ ms.locfileid: "8103123"
 
 คำขอประเภทเริ่มต้นโดยผู้จัดจำหน่ายในพื้นที่ทำงาน **ข้อมูลผู้จัดจำหน่าย** จากนั้นกระบวนการเหล่านี้จะถูกส่งไปยังตัวแทนของคุณ เพื่อตรวจทานและอนุมัติ ประเภทที่อนุมัติแล้วจะถูกเพิ่มเข้าในรายการประเภทการจัดซื้อของบัญชีผู้จัดจำหน่าย
 
-## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการร้องขอประเภทจากผู้จัดจำหน่าย
+## <a name="turn-on-the-feature-in-your-system"></a>เปิดใช้งานคุณลักษณะการทำงานในระบบของคุณ
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได็ดดยค้นหาคุณลักษณะ *อนุญาตให้ผู้จัดจำหน่ายสมัครรับประเภทการจัดซื้อผ่านการทำงานร่วมกันของผู้จัดจำหน่าย* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *อนุญาตให้ผู้จัดจำหน่ายสามารถใช้ประเภทการจัดซื้อผ่านการทำงานร่วมกันกับผู้จัดจำหน่าย*
 
-หากเปิดคุณลักษณะแล้ว คุณยังคงสามารถเพิ่มประเภทการจัดซื้อในบัญชีผู้จัดจำหน่ายได้ด้วยตนเอง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อนุมัติผู้จัดจำหน่ายสำหรับประเภทการจัดซื้อเฉพาะ](tasks/approve-vendors-specific-procurement-categories.md)
+หลังจากที่เปิดคุณลักษณะแล้ว คุณยังคงสามารถเพิ่มประเภทการจัดซื้อในบัญชีผู้จัดจำหน่ายได้ด้วยตนเอง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [อนุมัติผู้จัดจำหน่ายสำหรับประเภทการจัดซื้อเฉพาะ](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="vendor-collaboration-requirements"></a>ความต้องการของการทำงานร่วมกันกับผู้จัดจำหน่าย
 

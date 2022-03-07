@@ -2,15 +2,12 @@
 title: จัดการนโยบายการซื้อและการขายการลางาน
 description: คุณสามารถเปิดใช้งานพนักงานเพื่อซื้อและขายการลางานใน Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2506c8d02f8794a3e46751bb0ca01b71aed1ff0c55fed2500a291f10331dce89
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748068"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>จัดการนโยบายซื้อและขายวันลางาน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณสามารถช่วยให้พนักงานซื้อและขายวันลาได้โดยการสร้างนโยบายการซื้อและการขายวันลา คุณสามารถตั้งค่าคอนฟิกนโยบายเหล่านี้เพื่อใช้ลำดับงานสำหรับการอนุมัติได้ กำหนดจำนวนเงิน และอัตราสูงสุด และตั้งค่าอัตราสำหรับการซื้อและการขาย 
 
@@ -80,3 +79,6 @@ ms.locfileid: "4420817"
 [ตั้งรายการค้างรับแผนการลางานและการขาดงาน](hr-leave-and-absence-accrue.md)</br>
 [ซื้อและขายวันลางาน](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

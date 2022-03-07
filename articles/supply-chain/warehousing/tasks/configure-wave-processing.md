@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf2938137f1e6aa525f18b4d6863257d362137b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239097"
 ---
 # <a name="configure-wave-processing"></a>ตั้งค่าคอนฟิกการประมวลผลเวฟ
 
@@ -61,3 +60,6 @@ ms.locfileid: "4438871"
 สำหรับใบสั่งขายหรือใบสั่งคัมบัง สินค้าคงคลังต้องถูกจองก่อนที่จะนำใบสั่งออกใช้ไปยังคลังสินค้า  มิฉะนั้น สินค้าหรือรายการการปันส่วนไม่สามารถดำเนินการในเวฟ สำหรับใบสั่งผลิต คุณยังสามารถมีตัวเลือกของการเลือกการอนุญาตให้จองบางส่วนได้ ตัวอย่างเช่น นี่จะมีประโยชน์ถ้าคุณมีวัสดุที่คุณต้องการเพื่อเริ่มต้นการผลิต และจากนั้นสามารถรอคอยจนกระทั่งวัสดุเพิ่มเติมพร้อมใช้งานเพื่อสิ้นสุดกระบวนการ ถ้าคุณเลือกตัวเลือกนี้ คุณต้องทำซ้ำการนำออกใช้ไปยังกระบวนการคลังสินค้าด้วยตัวเอง เมื่อวัสดุเพิ่มเติมพร้อมใช้งาน  
 25. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

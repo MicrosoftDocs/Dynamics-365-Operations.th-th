@@ -2,9 +2,11 @@
 title: สร้างนิติบุคคล
 description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการสร้างนิติบุคคลใน Microsoft Dynamics 365 Commerce ซึ่งต้องมีการสร้างและตั้งค่าคอนฟิกก่อนการสร้างช่องทาง
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740442"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478223"
 ---
 # <a name="create-legal-entities"></a>สร้างนิติบุคคล
 
@@ -69,7 +71,7 @@ ms.locfileid: "6740442"
 
 ![ส่วนทั่วไปของนิติบุคคล](media/legal-entities-general.png)
    
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมขององค์กรและลำดับชั้นขององค์กร](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 

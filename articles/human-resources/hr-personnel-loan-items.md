@@ -1,35 +1,38 @@
 ---
 title: จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
 description: สินค้าที่กู้ยืมมีเรกคอร์ดซึ่งช่วยให้ผู้จัดการติดตามสินค้าทางกายภาพที่บริษัทของคุณให้ผู้ปฏิบัติงานยืม
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5915df388da7ce8b90cdcb0e859268c00003110c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420751"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067287"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>จัดการสินค้าที่ให้ยืมแก่ผู้ปฏิบัติงาน
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 สินค้าที่กู้ยืมมีเรกคอร์ดซึ่งช่วยให้ผู้จัดการติดตามสินค้าทางกายภาพที่บริษัทของคุณให้ผู้ปฏิบัติงานยืม 
 
-เนื้อหาต่อไปนี้แสดงรายการตัวอย่างของสินค้าที่บริษัทอาจให้ผู้ปฏิบัติงานยืม:
+นี่คือส่วนหนึ่งของตัวอย่างของสินค้าที่บริษัทอาจให้ผู้ปฏิบัติงานยืม:
+
 -   โทรศัพท์มือถือ
 -   รถยนต์
 -   อุปกรณ์คอมพิวเตอร์
@@ -38,20 +41,21 @@ ms.locfileid: "4420751"
 
 เมื่อให้กู้ยืมสินค้า ป้อนวันที่มีการกู้ยืมสินค้า และวันส่งคืนที่วางแผนไว้ เมื่อมีการส่งคืนสินค้า ป้อนวันส่งคืนจริง
 
-พนักงานสามารถดูเรกคอร์ดของสินค้าที่กู้ยืมได้โดยใช้พื้นที่ทำงานการบริการตนเองของพนักงานได้ พวกเขาสามารถแก้ไขเรกคอร์ดที่มีอยู่ หรือป้อนสินค้ากู้ยืมใหม่ถ้าพวกเขาได้รับสินค้าทางกายภาพที่เพิ่มเติม  ลำดับงานสามารถถูกตั้งค่าเป็นการเปลี่ยนแปลงเส้นทางของสินค้าที่ให้กู้ยืมใหม่หรือที่มีอยู่ภายในกระบวนการอนุมัติ 
+พนักงานสามารถใช้พื้นที่ทำงาน **การบริการตนเองของพนักงาน** ในการดูเรกคอร์ดของสินค้าที่กู้ยืมได้ พวกเขาสามารถแก้ไขเรกคอร์ดที่มีอยู่ หรือป้อนสินค้ากู้ยืมใหม่ถ้าพวกเขาได้รับสินค้าทางกายภาพเพิ่มเติม ลำดับงานสามารถถูกตั้งค่าเป็นการเปลี่ยนแปลงเส้นทางของสินค้าที่ให้กู้ยืมใหม่หรือที่มีอยู่ภายในกระบวนการอนุมัติ 
 
 ผู้จัดการสามารถดูสินค้าที่ให้ยืมสำหรับรายงานโดยตรงของพวกเขา พวกเขาจะได้รับสิทธิ์ในการเพิ่มสินค้าที่ให้กู้ยืมใหม่ในนามของพนักงานของพวกเขา
 
- <a name="account-for-lost-or-misplaced-loan-items"></a> บัญชีสำหรับสินค้าที่ให้กู้ยืมที่สูญหายหรือหาไม่พบ
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a> บัญชีสำหรับสินค้าที่ให้กู้ยืมที่สูญหายหรือหาไม่พบ
 
 ถ้าสินค้าชำรุดเสียหายหรือหาไม่พบ ป้อนเรกคอร์ดที่ส่งสมมติ แล้วลบสินค้านั้นหรือเก็บสินค้านั้นไว้ในภาพรวมและเปลี่ยนคำอธิบายเพื่อบ่งชี้ว่าไม่มีสินค้านั้นแล้ว
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ทรัพยากรบุคคล](index.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

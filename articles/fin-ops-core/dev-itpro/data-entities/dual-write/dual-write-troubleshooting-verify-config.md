@@ -1,12 +1,10 @@
 ---
-title: ตรวจสอบว่ามีการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
+title: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถกำหนดได้ว่า มีการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และใน Dataverse หรือไม่
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +16,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685550"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748860"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>ตรวจสอบว่ามีการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,10 +49,13 @@ ms.locfileid: "4685550"
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>ตรวจสอบว่ามีการตั้งค่าคอนฟิกการรวมแบบสองทิศทางใน Dataverse
 
-เมื่อคุณสร้างข้อมูล ถ้าคุณเห็นฟิลด์ **บริษัท** บนหน้าใน Dataverse จะมีการตั้งค่าคอนฟิกการรวมแบบสองทิศทาง
+เมื่อคุณสร้างข้อมูล ถ้าคุณเห็นคอลัมน์ **บริษัท** บนหน้าใน Dataverse จะมีการตั้งค่าคอนฟิกการรวมแบบสองทิศทาง
 
 ![การตรวจสอบการเชื่อมต่อ Dataverse](media/verify_cds.png)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการแก้ไขปัญหา เมื่อคุณสร้างข้อมูลใน Dataverse ให้ดูที่ [แก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริง](dual-write-troubleshooting-live-sync.md)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการดูรายละเอียดข้อผิดพลาด ถ้าคุณพบข้อผิดพลาดใดๆ ในขณะที่คุณสร้างข้อมูลใน Dataverse ให้ดูที่ให้ดูที่ [เปิดใช้งานและดูล็อกการติดตามปลั๊กอินใน Dataverse เพื่อดูรายละเอียดข้อผิดพลาด](dual-write-troubleshooting.md#enable-view-trace)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

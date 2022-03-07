@@ -1,12 +1,10 @@
 ---
 title: คำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการไว้
 description: หัวข้อนี้จะอธิบายถึงวิธีการคำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการไว้ในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7b7e4a20ed56b1eac29d16d527693d6e455cdc37
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 164ae10eef8ef3692cd3a8b5232de64ec3d83b1b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354191"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>คำนวณการใช้กำลังการผลิตในใบสั่งงานที่จัดกำหนดการไว้
 
@@ -50,10 +48,13 @@ ms.locfileid: "5021665"
 
 ภาพด้านล่างแสดงให้เห็นถึงผลลัพธ์ของการคำนวณที่ครอบคลุมสามสัปดาห์สำหรับชนิดจำนวนงานในศูนย์การผลิต **จองแล้ว**
 
-![รูปที่ 1](media/08-work-order-scheduling.png)
+![รูปที่ 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 หากคุณเลือกชนิดจำนวนงานในศูนย์การผลิต **กำลังการผลิต** หรือ **ยอดคงเหลือ** สำหรับการคำนวณของคุณ ผลลัพธ์เดียวกันจะแสดงขึ้นหากไม่มีการจองทรัพยากรในรอบระยะเวลาที่เลือก
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีคำนวณการใช้กำลังการผลิตบนรายการกำหนดการบำรุงรักษาและใบสั่งงานที่ไม่ได้กำหนดเวลา อ้างอิงไปยัง [คำนวณการใช้กำลังการผลิต](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

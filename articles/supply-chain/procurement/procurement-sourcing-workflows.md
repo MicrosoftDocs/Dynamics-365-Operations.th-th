@@ -1,12 +1,10 @@
 ---
 title: ลำดับงานการจัดซื้อและการจัดหา
 description: องค์กรบางองค์กรต้องการให้ใบขอซื้อและใบสั่งซื้อ ได้รับการอนุมัติโดยผู้ใช้อื่นที่ไม่ใช่บุคคลที่ป้อนธุรกรรม เพื่อตั้งค่ากระบวนการอนุมัติ คุณสามารถสร้างลำดับงานได้
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a3542dda667a7ec6d8c7e74d8caafd1a8fc5cee322d85981f635a1add56152d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775590"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>ลำดับงานการจัดซื้อและการจัดหา
 
@@ -49,7 +47,7 @@ ms.locfileid: "5019765"
 | ลำดับงานการเพิ่มใบสมัครของผู้จัดจำหน่าย | สร้างการทบทานและลำดับงานการอนุมัติสำหรับการเพิ่มผู้จัดจำหน่ายใหม่ โดยใช้คำขอของผู้จัดจำหน่าย |
 
 > [!IMPORTANT]
-> เมื่อคุณกำลังเพิ่มลำดับงานใหม่ คุณอาจจะเห็นลำดับงานที่ล้าสมัยต่อไปนี้แสดงรายการอยู่ในกล่องโต้ตอบ **สร้างลำดับงาน** ข้อมูลเหล่านี้เกี่ยวข้องกับฟังก์ชัน *การยืนยันการรับสินค้า* ที่พร้อมใช้งานใน [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) แต่ขณะนี้ไม่สนับสนุน ลำดับงานเหล่านี้ไม่ได้รับการสนับสนุนในขณะนี้
+> เมื่อคุณกำลังเพิ่มลำดับงานใหม่ คุณอาจจะเห็นลำดับงานที่ล้าสมัยต่อไปนี้แสดงรายการอยู่ในกล่องโต้ตอบ **สร้างลำดับงาน** ข้อมูลเหล่านี้เกี่ยวข้องกับฟังก์ชัน *การยืนยันการรับสินค้า* ที่พร้อมใช้งานใน [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows) แต่ขณะนี้ไม่สนับสนุน ลำดับงานเหล่านี้ไม่ได้รับการสนับสนุนในขณะนี้
 > 
 > - ลำดับงานการแจ้งเตือนวันที่ครบกำหนดจัดส่ง
 > - ลำดับงานการแจ้งเตือนใบแจ้งหนี้ที่ได้รับ
@@ -79,3 +77,6 @@ ms.locfileid: "5019765"
 - [การกำหนดลำดับงานของกระบวนการทางธุรกิจสำหรับใบขอซื้อ](https://www.microsoft.com/download/details.aspx?id=101821)
 - [ลำดับงานของใบขอซื้อ](purchase-requisitions-workflow.md)
 - [เตรียมความพร้อมผู้จัดจำหน่าย](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

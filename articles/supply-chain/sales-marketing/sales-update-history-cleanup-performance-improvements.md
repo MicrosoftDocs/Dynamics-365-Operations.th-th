@@ -4,15 +4,20 @@ description: หัวข้อนี้จะอธิบายคุณลั�
 author: myvakalo
 ms.date: 10/05/2021
 ms.topic: article
-ms.search.form: null
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: myvakalo
-ms.search.validFrom: '2021-09-29'
+ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 3c8ad7b0bd46c49fc989be091f44630a6a3eebc1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985922"
 ---
-
 # <a name="sales-history-cleanup-performance-improvements"></a>การปรับปรุงประสิทธิภาพการล้างประวัติการขาย
 
 [!include [banner](../includes/banner.md)]

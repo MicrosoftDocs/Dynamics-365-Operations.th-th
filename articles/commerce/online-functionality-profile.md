@@ -2,11 +2,9 @@
 title: สร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์
 description: หัวข้อนี้อธิบายวิธีสร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be78b92858979b8bb009a4699eff96379ef7cef3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969987"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791113"
 ---
-# <a name="create-an-online-functionality-profile"></a>สร้างโปรไฟล์ฟังก์ชันการทำงานออนไลน์
-
+# <a name="create-an-online-functionality-profile"></a>สร้างโพรไฟล์ฟังก์ชันการทำงานออนไลน์
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้นำเสนอภาพรวมในการตั้งค่าโปรไฟล์ฟังก์ชันการทำงานออนไลน์สำหรับ Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โปรไฟล์ฟังก์ชันการทำงานออนไลน์ได้ให้การตั้งค่าต่างๆที่ใช้สำหรับช่องทางออนไลน์ แต่ละช่องทางออนไลน์ต้องระบุโปรไฟล์ฟังก์ชันการทำงานออนไลน์
 
@@ -66,3 +61,6 @@ ms.locfileid: "4969987"
 [ตั้งค่าช่องทางการขายปลีก](channel-setup-retail.md)
 
 [ตั้งค่าช่องทางศูนย์บริการ](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

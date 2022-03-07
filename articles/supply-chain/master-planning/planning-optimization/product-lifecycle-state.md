@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 371d98eefa482fc3e430f2f0977ddffb9dd0d30e
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a1e0c734db763ffa69e2d6540a07d5fa04c22ea1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645103"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227829"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>ไม่รวมผลิตภัณฑ์ที่มีสถานะของวงจรการใช้ผลิตภัณฑ์เฉพาะ
 
@@ -42,3 +41,6 @@ ms.locfileid: "4645103"
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสถานะของวงจรการใช้ผลิตภัณฑ์ ดู [ภาพรวมสถานะของวงจรการใช้ผลิตภัณฑ์](../../pim/product-lifecycle.md)
 
 สำหรับข้อมูลโดยละเอียดที่รวมขั้นตอนการใช้สถานะของวงจรการใช้ผลิตภัณฑ์ เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลักและการคำนวณระดับ BOM ดูที่ [สร้างสถานะรอบการขายของผลิตภัณฑ์เพื่อแยกผลิตภัณฑ์ออกจากการวางแผนหลัก](../../pim/tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

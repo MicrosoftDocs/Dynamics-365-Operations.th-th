@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง
 description: บทความนี้อธิบายขั้นตอนสำหรับกระบวนการกระทบยอดธนาคารขั้นสูง คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงช่วยคุณนำเข้าใบแจ้งยอดจากธนาคารที่สามารถกระทบยอดจากภายในธุรกรรมธนาคารโดยอัตโนมัติ
 author: panolte
 ms.date: 06/20/2017
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '22104'
-  - intro-internal
+- "22104"
+- intro-internal
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
 ms.author: panolte
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93ba7c8dc29a50de4b4cec342a5a83efe03e6419
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336152"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง
 
 [!include [banner](../includes/banner.md)]

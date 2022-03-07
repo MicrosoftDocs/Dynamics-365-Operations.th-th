@@ -1,37 +1,35 @@
 ---
 title: ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 description: หัวข้อนี้แสดงรายละเอียดของการให้สิทธิ์ใช้งาน และคำแนะนำการตั้งค่าสำหรับพอร์ทัลลูกค้า
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529541"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060624"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>ติดตั้ง ตั้งค่า และอัพเดทพอร์ทัลของลูกค้า
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>ข้อกำหนดสิทธิใช้งาน
 
 เมื่อต้องการใช้งานพอร์ทัลลูกค้า คุณต้องมีสิทธิ์ใช้งานดังต่อไปนี้
 
-- **พอร์ทัล Power Apps** – สิทธิ์การใช้งานนี้จำเป็นต้องใช้เพื่อโฮสต์พอร์ทัลของลูกค้า พอร์ทัลจะได้รับสิทธิ์ใช้งานตามการใช้งาน สำหรับข้อมูลเพิ่มเติม ดูที่ [พอร์ทัล Power Apps ข้อกำหนดสิทธิใช้งาน](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals)
-- **การรวมแบบสองทิศทาง** – คุณต้องมีสิทธิ์การใช้งานที่จำเป็นเพื่อเปิดใช้งานการรวมแบบสองทิศทาง สำหรับเอนทิตี้ Supply Chain Management สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
+- **พอร์ทัล Power Apps** – สิทธิ์การใช้งานนี้จำเป็นต้องใช้เพื่อโฮสต์พอร์ทัลของลูกค้า พอร์ทัลจะได้รับสิทธิ์ใช้งานตามการใช้งาน สำหรับข้อมูลเพิ่มเติม ดูที่ [พอร์ทัล Power Apps ข้อกำหนดสิทธิใช้งาน](/power-platform/admin/powerapps-flow-licensing-faq#portals)
+- **การรวมแบบสองทิศทาง** – คุณต้องมีสิทธิ์การใช้งานที่จำเป็นเพื่อเปิดใช้งานการรวมแบบสองทิศทางสำหรับตาราง Supply Chain Management สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ความต้องการของระบบสำหรับการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md)
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>การดำเนินการที่ขึ้นกับการรวมแบบสองทิศทาง และพอร์ทัล Power Apps
 
@@ -39,13 +37,13 @@ ms.locfileid: "4529541"
 
 ![ความเชื่อมโยงของพอร์ทัลลูกค้า](media/customer-portal-elements.png "ความเชื่อมโยงของพอร์ทัลลูกค้า")
 
-ซึ่งแตกต่างจากลักษณะการทำงานอื่น ๆ จาก Supply Chain Management แม่แบบพอร์ทัลลูกค้าจะอยู่ในพอร์ทัล Power Apps เพราะฉะนั้น พอร์ทัลลูกค้าจะถูกจำกัดโดยฟังก์ชัน และความสามารถที่มาจากพอร์ทัล Power Apps และเอนทิตี้ในการรวมแบบสองทิศทาง
+ซึ่งแตกต่างจากลักษณะการทำงานอื่น ๆ จาก Supply Chain Management เทมเพลตพอร์ทัลลูกค้าจะอยู่ในพอร์ทัล Power Apps เพราะฉะนั้น พอร์ทัลลูกค้าจะถูกจำกัดโดยฟังก์ชันและความสามารถที่มาจากพอร์ทัล Power Apps และตารางในการรวมแบบสองทิศทาง
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a> การตั้งค่าที่จำเป็นเพื่อเปิดใช้งานพอร์ทัลลูกค้า
 
-หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md)
+หลังจากที่คุณตรวจสอบให้แน่ใจว่าคุณมีสิทธิใช้งานแล้ว จำเป็นคุณสามารถตั้งค่าการรวมแบบสองทิศทาง ตามที่อธิบายไว้ใน [คำแนะนำการซิงโครไนส์เริ่มต้นของการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md)
 
-ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแม็ปเอนทิตี้ต่อไปนี้ในการรวมแบบสองทิศทาง:
+ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานการแมปตารางต่อไปนี้ในการรวมแบบสองทิศทาง:
 
 - ส่วนหัวของใบสั่งขาย
 - รายละเอียดใบสั่งขาย
@@ -53,7 +51,7 @@ ms.locfileid: "4529541"
 - ผู้ติดต่อ
 - ผลิตภัณฑ์
 
-หลังจากที่การตั้งค่านี้เสร็จสมบูรณ์ คุณสามารถจัดเตรียมแม่แบบพอร์ทัลลูกค้าได้
+หลังจากที่การตั้งค่านี้เสร็จสมบูรณ์ คุณสามารถจัดเตรียมเทมเพลตพอร์ทัลลูกค้าได้
 
 ## <a name="provision-the-customer-portal"></a>การจัดเตรียมพอร์ทัลลูกค้า
 
@@ -61,7 +59,7 @@ ms.locfileid: "4529541"
 
 1. ไปที่ [make.powerapps.com](https://make.powerapps.com/)
 2. ตรวจสอบให้แน่ใจว่าคุณกำลังใช้สภาพแวดล้อมที่คุณเปิดใช้งานการรวมแบบสองทิศทาง
-3. บนแท็บ **สร้าง** เลื่อนลงไปที่ส่วน **เริ่มต้นจากเท็มเพลต** และเลือกเท็มเพลตที่มีชื่อว่า **พอร์ทัลของลูกค้า**
+3. บนแท็บ **สร้าง** เลื่อนลงไปที่ส่วน **เริ่มต้นจากเทมเพลต** และเลือกเทมเพลตที่มีชื่อว่า **พอร์ทัลของลูกค้า**
 4. ทำตามคำแนะนำบนหน้าจอ
 
 หลังจากการเตรียมเสร็จสมบูรณ์ แล้วคุณสามารถเข้าถึงพอร์ทัลของลูกค้าในส่วน **แอปของคุณ** จาก **โฮม** เพจ
@@ -71,18 +69,21 @@ ms.locfileid: "4529541"
 
 ## <a name="update-the-customer-portal"></a>อัพเดทพอร์ทัลลูกค้า
 
-ฟังก์ชันเพิ่มเติมอาจถูกเพิ่มเข้าในพอร์ทัลลูกค้าในภายหลัง การเปลี่ยนแปลงใด ๆ ที่ Microsoft ทำกับส่วนประกอบของโซลูชันพื้นฐาน จะปรากฏในสภาพแวดล้อมของคุณโดยอัตโนมัติ อย่างไรก็ตาม เว็บไซต์ที่กำลังเตรียมใช้งานในสภาพแวดล้อมของคุณ จะไม่สะท้อนถึงการเปลี่ยนแปลงที่เกิดขึ้นกับข้อมูลการตั้งค่าคอนฟิกโดยอัตโนมัติ คุณจะต้องใช้การเปลี่ยนแปลงดังกล่าวด้วยตนเอง โดยการรับโค้ดจากแม่แบบใหม่และรวมกับเว็บไซต์ที่ถูกเตรียมแล้ว
+ฟังก์ชันเพิ่มเติมอาจถูกเพิ่มเข้าในพอร์ทัลลูกค้าในภายหลัง การเปลี่ยนแปลงใด ๆ ที่ Microsoft ทำกับส่วนประกอบของโซลูชันพื้นฐาน จะปรากฏในสภาพแวดล้อมของคุณโดยอัตโนมัติ อย่างไรก็ตาม เว็บไซต์ที่กำลังเตรียมใช้งานในสภาพแวดล้อมของคุณ จะไม่สะท้อนถึงการเปลี่ยนแปลงที่เกิดขึ้นกับข้อมูลการตั้งค่าคอนฟิกโดยอัตโนมัติ คุณจะต้องใช้การเปลี่ยนแปลงดังกล่าวด้วยตนเอง โดยการรับโค้ดจากเทมเพลตใหม่และรวมกับเว็บไซต์ที่ถูกเตรียมแล้ว
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 เมื่อต้องการเรียนรู้ว่าคุณสามารถตั้งค่าและกำหนดค่าพอร์ทัลของลูกค้าเองได้อย่างไร คุณควรเริ่มต้นด้วยการดูเอกสารประกอบต่อไปนี้สำหรับเทคโนโลยีพื้นฐานดังนี้
 
-- [เอกสารพอร์ทัล Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [เอกสารพอร์ทัล Power Apps](/powerapps/maker/portals/overview)
 - [เอกสารการรวมแบบสองทิศทาง](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-ในการจัดการพอร์ทัลของคุณอย่างมีประสิทธิภาพ คุณต้องเข้าใจพอร์ทัล Power Apps และวงจรของ Common Data Service สำหรับข้อมูลเพิ่มเติม ให้ดูทรัพยากรต่อไปนี้:
+ในการจัดการพอร์ทัลของคุณอย่างมีประสิทธิภาพ คุณต้องเข้าใจพอร์ทัล Power Apps และวงจรของ Microsoft Dataverse สำหรับข้อมูลเพิ่มเติม ให้ดูทรัพยากรต่อไปนี้:
 
-- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [อัพเกรดพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [เกี่ยวกับวงจรชีวิตของพอร์ทัล](/powerapps/maker/portals/admin/portal-lifecycle)
+- [อัพเกรดพอร์ทัล](/powerapps/maker/portals/admin/upgrade-portal)
+- [ย้ายการตั้งค่าคอนฟิกพอร์ทัล](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: แอป Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
 description: "ขั้นแรกควรจะมีการดำเนินการคุ่มืองาน 'การตั้งค่าเหตุการณ์การบาดเจ็บและการเจ็บป่วย' ให้เสร็จสมบูรณ์ก่อน เนื่องจากข้อมูลของการตั้งค่าบางส่วนถูกใช้ที่นี่ "
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4a2f53acaa65589c30546e31739abc38941eb795
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420729"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465449"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -93,3 +95,6 @@ ms.locfileid: "4420729"
 36. คลิก บันทึก
     * สถานะกรณีสามารถอัพเดตได้ตลอดเวลา  ตั้งค่ากรณีเป็น อยู่ระหว่างดำเนินการ หากระหว่างการประมวลผลการบาดเจ็บหรือการเจ็บป่วยอยู่ระหว่างการดำเนินการ   เมื่อคุณปิดเหตุการณ์ คุณสามารถเพิ่มเท่านั้นหรือลบต้นทุน การรักษาพยาบาลหรือการยื่นเอกสารแจ้งที่เกี่ยวข้องกับเหตุการณ์ได้เท่านั้น   เพื่อปรับเปลี่ยนข้อมูลอื่น ให้เปิดกรณีอีกครั้ง  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ตั้งค่าเจ้าหน้าที่บำรุงรักษาที่ต้องการ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าเจ้าหน้าที่บำรุงรักษาที่ต้องการในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734438"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>ตั้งค่าเจ้าหน้าที่บำรุงรักษาที่ต้องการ
 
@@ -67,3 +65,6 @@ ms.locfileid: "5021415"
 
 ในระหว่างการจัดกำหนดการใบสั่งงาน คะแนนต่างๆจะถูกคำนวณเพื่อระบุว่าผู้ปฏิบัติงานคนใดควรจะทำงานที่เกี่ยวข้องกับใบสั่งงาน (คะแนนเหล่านั้นมีการตั้งค่าในลิงค์ **พารามิเตอร์การจัดการสินทรัพย์** > **การจัดกำหนดการใบสั่งงาน** ) ถ้าเจ้าหน้าที่บำรุงรักษาที่ต้องการอย่างน้อยสองคนหรือเจ้าหน้าที่บำรุงรักษาที่รับผิดชอบได้คะแนนเดียวกันระหว่างการจัดกำหนดการใบสั่งงาน ผู้ปฏิบัติงานหนึ่งคนจะได้รับเลือกโดยการสุ่ม อย่างไรก็ตาม ผู้ปฏิบัติงานที่มีคะแนนสูงสุดเสมอที่ได้รับการจัดสรรให้ทำใบสั่งงานให้เสร็จสมบูรณ์
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

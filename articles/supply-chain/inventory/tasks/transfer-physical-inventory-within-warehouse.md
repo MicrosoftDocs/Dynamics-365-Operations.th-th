@@ -1,28 +1,25 @@
 ---
 title: โอนย้ายสินค้าคงคลังที่มีอยู่จริงภายในคลังสินค้า
 description: 'ขั้นตอนนี้อธิบายเกี่ยวกับกระบวนการของการสร้างและการลงรายการบัญชีสมุดรายวันการโอนสินค้าคงคลังในใบสั่งไปยังทะเบียนการเคลื่อนย้ายของสินค้าจากสถานที่หนึ่งในคลังสินค้าอื่น '
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cf5a3711cfcd6e5a2ddce09af8569ea26c3502c8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438736"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580803"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>โอนย้ายสินค้าคงคลังที่มีอยู่จริงภายในคลังสินค้า
 
@@ -59,3 +56,6 @@ ms.locfileid: "4438736"
 1. คลิก **สินค้าคงคลัง**
 2. คลิก **ธุรกรรม** คุณสามารถดูธุรกรรมที่ถูกสร้างขึ้นเมื่อคุณลงรายการบัญชีสมุดรายวันของคุณ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

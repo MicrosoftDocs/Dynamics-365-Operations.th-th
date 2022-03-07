@@ -1,24 +1,28 @@
 ---
-# required metadata
 title: ภาพรวมของการขายและการตลาด
 description: คุณสามารถใช้การขายและการตลาดเพื่อขอรับ เก็บ และใช้ข้อมูลชนิดต่างๆ ในขั้นตอนการขาย ข้อมูลนี้รวมถึงการริเริ่มขายเดิม การดำเนินการติดตามผลในอนาคต และขายเพิ่มเติม
 author: kfend
 ms.date: 07/25/2019
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom:
-  - '92303'
-  - intro-internal
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982545"
 ---
-
 # <a name="sales-and-marketing-overview"></a>ภาพรวมของการขายและการตลาด
 
 [!include [banner](../includes/banner.md)]

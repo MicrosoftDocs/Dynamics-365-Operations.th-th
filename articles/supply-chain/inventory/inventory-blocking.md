@@ -1,10 +1,12 @@
 ---
 title: การบล็อคสินค้าคงคลัง
 description: หัวข้อนี้แสดงภาพรวมของการบล็อคสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Supply Chain Management คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103549"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487908"
 ---
 # <a name="inventory-blocking"></a>การบล็อคสินค้าคงคลัง
 
@@ -96,11 +98,13 @@ ms.locfileid: "8103549"
 
 หมายเหตุความแตกต่างในสถานะธุรกรรมและมิติระหว่างสองกรณี ด้วยเหตุนี้ จึงขอแนะนาให้เปิดใช้งานตัวเลือก **สำรองสินค้าที่สั่ง**
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>คุณลักษณะปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก
+<!-- KFM: (Enable this section when the feature leaves private preview)
 
-เพื่อลดขั้นตอนธุรกรรมสินค้าคงคลังในกรณีของใบสั่งตรวจสอบคุณภาพที่ตัวอย่างสินค้าคงคลังถูกบล็อกเนื่องจากผลที่ตามมาของสถานะสินค้าคงคลัง ระบบจะมีคุณลักษณะที่ปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพดังกล่าว เนื่องจากการรับสินค้าที่คาดไว้ถูกบล็อกโดยการบล็อกสถานะสินค้าคงคลังทันที จึงไม่มีการลดปริมาณคงคลังคงเหลือเนื่องจากการเปลี่ยนแปลงนี้
+### Disable expected receipts from quality orders that sample blocked inventory feature
 
-โดยค่าเริ่มต้น คุณลักษณะนี้จะถูกปิดไว้ ผู้ดูแลระบบสามารถเปิดหรือปิดได้โดยค้นหาคุณลักษณะ *ปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
+
+-->
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

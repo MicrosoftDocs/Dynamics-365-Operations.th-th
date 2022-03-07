@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d69daf3d307ba72ff6017d91849e3d22bd0bd85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 95dec1dba97923e58cfb603434a01cab6f66a3de
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252809"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>ใช้สมุดรายวันปริมาณสินค้าคงคลังที่ปลอดภัยเพื่ออัพเดตความครอบคลุมขั้นต่ำ
 
@@ -66,3 +65,6 @@ ms.locfileid: "4438713"
 5. ใน **บานหน้าต่างการดำเนินการ** คลิก วางแผน
 6. คลิก **ความครอบคลุมสินค้า** โปรดสังเกตว่า **ปริมาณต่ำสุด** ได้รับการปรับปรุงด้วยปริมาณต่ำสุดใหม่จากสมุดรายวันปริมาณสินค้าคงคลังที่ปลอดภัย  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

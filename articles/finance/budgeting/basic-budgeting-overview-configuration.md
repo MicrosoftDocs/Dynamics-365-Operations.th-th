@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของงบประมาณ
 description: เกือบจะทุกบริษัทที่ใช้ฟังก์ชันทางการเงินใน Microsoft Dynamics 365 Finance จะต้องมีความสามารถในการสร้างรายงานของงบประมาณเทียบกับข้อมูลจริง บทความนี้อธิบายถึงการกำหนดค่าต่ำสุดที่ต้องใช้เพื่อสร้างงบประมาณในการเงินและการดำเนินงานหรือโหลดจากโปรแกรมของบริษัทอื่น
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '60113'
-  - intro-internal
+- "60113"
+- intro-internal
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
 ms.author: panolte
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986521"
 ---
-
 # <a name="budgeting-overview"></a>ภาพรวมของงบประมาณ 
 
 [!include [banner](../includes/banner.md)]

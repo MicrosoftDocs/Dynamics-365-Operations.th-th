@@ -2,12 +2,15 @@
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 21 มกราคม 2021
 description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 21 มกราคม 2021
 author: marcelbf
+manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +18,20 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02f0b0664dcb78d20c2719b4377dcc6047f2bf3392225f1cf9c166a1073ecd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af847ed36187c0d0629ce4063d9c17cb0fa8cfcf
+ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772627"
+ms.lasthandoff: 01/25/2021
+ms.locfileid: "5060853"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 21 มกราคม 2021
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 
 
 ## <a name="in-this-release"></a>ในการเผยแพร่นี้
@@ -43,8 +44,8 @@ ms.locfileid: "6772627"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| Platform Update 10.0.16(40) | -- | [แพลตฟอร์มที่อัพเดตสำหรับรุ่น10.0.16 ของแอป Finance and Operations (กุมภาพันธ์ 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
-| คำขอและการอนุมัติลำดับงานที่ดีขึ้น | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Platform Update 10.0.16(40) | -- | [แพลตฟอร์มที่อัพเดตสำหรับรุ่น10.0.16 ของแอป Finance and Operations (กุมภาพันธ์ 2021)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16) |
+| คำขอและการอนุมัติลำดับงานที่ดีขึ้น | [การปรับปรุงประสบการณ์ของลำดับงานการจัดการองค์กรและบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [ตัวเลือกการตั้งค่าคอนฟิกเพื่อกำหนดตำแหน่งรายการงานที่กำหนดให้กับฉัน](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | การอัพเดตการปฏิบัติตามกฎระเบียบของ Affordable Care Act (ACA) ของแบบฟอร์ม 1095-C แบบฟอร์ม 1095-B และการรายงานทางอิเล็กทรอนิกส์ในสวัสดิการดั้งเดิม | -- | -- | 
 | ตอนนี้ การจัดการสวัสดิการสนับสนุนการรายงานการปฏิบัติตามกฎระเบียบ ACA ของนิติบุคคลตามสหรัฐอเมริกา | -- | [สร้างรายงาน ACA ในการจัดการสวัสดิการ](hr-benefits-management-aca-reports.md) |
 | ขณะนี้ การจัดการสวัสดิการมีระดับอัตราสวัสดิการและเอนทิตีสองระดับของอัตราสวัสดิการที่เปิด  | -- | -- |
@@ -79,13 +80,13 @@ ms.locfileid: "6772627"
 
 | ลักษณะการทำงาน | แผนการรีลีส | การจัดทำเอกสาร |
 | --- | --- | --- |
-| แอป Human Resources ใน Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](./hr-admin-teams-leave-app.md)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
-| การรวมกับ LinkedIn Talent Hub | [การรวมกับ LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [รวมกับ LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
-| มุมมองข้ามบริษัทของการลางานสำหรับผู้จัดการ | [มุมมองข้ามบริษัทของการลางานของพนักงานสำหรับผู้จัดการ](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](./hr-leave-and-absence-parameters.md) |
-|ให้ข้อมูลเชิงลึกเพิ่มเติมในยอดดุลการลางาน| [ให้ข้อมูลเชิงลึกเพิ่มเติมในยอดดุลการลางาน](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [จัดการการลางานของพนักงาน](./hr-leave-and-absence-manage-employee-leave.md) |
-| ผู้จัดการสามารถส่งคำขอสรรหาบุคลากรสำหรับตำแหน่งงาน | [ผู้จัดการสามารถส่งคำขอสรรหาบุคลากรสำหรับตำแหน่งงานที่เปิด](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [เพิ่มคำขอสรรหาบุคลากร](./hr-personnel-recruit.md#add-a-recruiting-request) |
-| โพรไฟล์ผู้สมัครที่เพิ่มขึ้นในการจัดการบุคลากร | [โพรไฟล์ผู้สมัครที่เพิ่มขึ้นในการจัดการบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [เพิ่มหรือแก้ไขโพรไฟล์ผู้สมัคร](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
-| เปิดใช้งานการรวมอย่างง่ายด้วยผู้ให้การสรรหาบุคลากร | [เปิดใช้งานการรวมอย่างง่ายด้วยผู้ให้การสรรหาบุคลากร](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [สรรหาผู้สมัครงาน](./hr-personnel-recruit.md) |
+| แอป Human Resources ใน Microsoft Teams | [ประสบการณ์การลางานและการขาดงานของพนักงานใน Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [แอป Human Resources ใน Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[จัดการคำขอลางานใน Teams](hr-teams-leave-app.md) |
+| การรวมกับ LinkedIn Talent Hub | [การรวมกับ LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [รวมกับ LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
+| มุมมองข้ามบริษัทของการลางานสำหรับผู้จัดการ | [มุมมองข้ามบริษัทของการลางานของพนักงานสำหรับผู้จัดการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [ตั้งค่าคอนฟิกพารามิเตอร์การลางานและการขาดงาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+|ให้ข้อมูลเชิงลึกเพิ่มเติมในยอดดุลการลางาน| [ให้ข้อมูลเชิงลึกเพิ่มเติมในยอดดุลการลางาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [จัดการการลางานของพนักงาน](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
+| ผู้จัดการสามารถส่งคำขอสรรหาบุคลากรสำหรับตำแหน่งงาน | [ผู้จัดการสามารถส่งคำขอสรรหาบุคลากรสำหรับตำแหน่งงานที่เปิด](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [เพิ่มคำขอสรรหาบุคลากร](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
+| โพรไฟล์ผู้สมัครที่เพิ่มขึ้นในการจัดการบุคลากร | [โพรไฟล์ผู้สมัครที่เพิ่มขึ้นในการจัดการบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [เพิ่มหรือแก้ไขโพรไฟล์ผู้สมัคร](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
+| เปิดใช้งานการรวมอย่างง่ายด้วยผู้ให้การสรรหาบุคลากร | [เปิดใช้งานการรวมอย่างง่ายด้วยผู้ให้การสรรหาบุคลากร](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [สรรหาผู้สมัครงาน](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
 
 ## <a name="coming-soon"></a>เร็วๆ นี้
 | ลักษณะการทำงาน | รายละเอียด |
@@ -93,22 +94,19 @@ ms.locfileid: "6772627"
 | การยืนยันอีเมลการลงทะเบียนสวัสดิการ | เมื่อมีการเปิดใช้งานคุณลักษณะนี้จะมีการส่งอีเมลการยืนยันให้กับพนักงาน เมื่อพวกเขาตรวจดูจากประสบการณ์ในการลงทะเบียนสวัสดิการในการบริการตนเองของพนักงาน สำหรับข้อมูลเพิ่มเติม ให้ดู [ตั้งค่าคอนฟิกพารามิเตอร์การจัดการสวัสดิการต่อบริษัท](hr-benefits-setup-parameters-per-company.md) |
 | ทักษะที่ป้อนโดยผู้จัดการของพนักงานสามารถอนุมัติโดยอัตโนมัติโดยลำดับงานได้ | เร็วๆ นี้ |
 
-สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>การอัปเดตศัพท์ Microsoft Dataverse
 
-มีผลบังคับใช้ พฤศจิกายน 2020 Common Data Service เปลี่ยนชื่อเป็น [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro) ดู [ประกาศอย่างเป็นทางการ](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) ของบล็อก Power Apps ในการเรียนรู้เพิ่มเติม พร้อมกับการเปลี่ยนแปลงชื่อนี้ มีการอัปเดตศัพท์ Dataverse บางอย่างแล้ว ตัวอย่างเช่น *เอนทิตี้* ตอนนี้เป็น *ตาราง* และ *ฟิลด์* ตอนนี้เป็น *คอลัมน์* สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การอัปเดตคำศัพท์](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+มีผลบังคับใช้ พฤศจิกายน 2020 Common Data Service เปลี่ยนชื่อเป็น [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) ดู [ประกาศอย่างเป็นทางการ](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) ของบล็อก Power Apps ในการเรียนรู้เพิ่มเติม พร้อมกับการเปลี่ยนแปลงชื่อนี้ มีการอัปเดตศัพท์ Dataverse บางอย่างแล้ว ตัวอย่างเช่น *เอนทิตี้* ตอนนี้เป็น *ตาราง* และ *ฟิลด์* ตอนนี้เป็น *คอลัมน์* สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การอัปเดตคำศัพท์](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 ในการเผยแพร่นี้ ศัพท์ที่เกี่ยวข้องกับการรวม Dynamics 365 Human Resources ได้ถูก Dataverse อัปเดตตลอดทั้งแอปพลิเคชันเพื่อสะท้อนถึงการเปลี่ยนแปลงเหล่านี้ ตัวอย่างเช่น ขณะนี้ฟอร์ม **การรวม Common Data Service** เป็น **การรวม Microsoft Dataverse**
 
-หากต้องการทราบเกี่ยวกับการรวม Dynamics 365 Human Resources ให้ดูที่ Microsoft Dataverse [การตั้งค่าคอนฟิกการรวม Microsoft Dataverse](./hr-admin-integration-common-data-service.md) และ [การตั้งค่าคอนฟิกตารางเสมือน Microsoft Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)
+หากต้องการทราบเกี่ยวกับการรวม Dynamics 365 Human Resources ให้ดูที่ Microsoft Dataverse [การตั้งค่าคอนฟิกการรวม Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) และ [การตั้งค่าคอนฟิกตารางเสมือน Microsoft Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
-[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

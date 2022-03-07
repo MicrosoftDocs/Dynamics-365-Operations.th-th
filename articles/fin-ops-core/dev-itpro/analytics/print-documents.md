@@ -1,27 +1,27 @@
 ---
 title: ภาพรวมของการพิมพ์เอกสาร
 description: คุณสามารถพิมพ์เอกสารได้โดยใช้เครื่องพิมพ์ของไซต์นั้นหรืออุปกรณ์ที่เชื่อมต่อเครือข่าย อย่างใดอย่างหนึ่ง บทความนี้แสดงภาพรวมของวิธีการพิมพ์เอกสาร
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728249"
 ---
 # <a name="document-printing-overview"></a>ภาพรวมของการพิมพ์เอกสาร
 
@@ -71,6 +71,9 @@ ms.locfileid: "4680107"
 
 แผนภาพต่อไปนี้แสดงส่วนประกอบพื้นฐานซึ่งช่วยสนับสนุนการดำเนินงานพิมพ์บนเครือข่าย
 
-[![ส่วนประกอบของบริการสำหรับการพิมพ์บนเครือข่าย\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 โปรดสังเกตว่า เครื่องพิมพ์เดียวสามารถลงทะเบียนกับตัวแทนการกำหนดเส้นทางเอกสารหลายรายการได้ เมื่อต้องการแก้ไขการกำหนดลักษณะเครื่องพิมพ์ บริการที่เป็นโฮสต์ใช้พาธของเครือข่ายที่ระบุเครื่องพิมพ์บนเครือข่ายทุกเครื่องโดยเฉพาะ ดังนั้น แม้ว่าเมื่อมีการลงทะเบียนเครื่องพิมพ์โดยไคลเอนต์หลายรายการ จะปรากฏเป็นการเลือกเดียวในรายการของเครื่องพิมพ์ที่พร้อมใช้งานในแอพลิเคชัน
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

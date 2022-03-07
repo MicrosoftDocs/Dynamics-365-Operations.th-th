@@ -2,26 +2,23 @@
 title: กำหนดกลุ่มการปรับเปลี่ยน
 description: 'ขั้นตอนนี้แสดงวิธีการกำหนดกลุ่มการปรับเปลี่ยนผลิตภัณฑ์โดยการสร้างกลุ่มสองกลุ่มในบริษัทสาธิตข้อมูลของบริษัท USMF '
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77b156a4710fd574b939a1e930fbb8ac38acde15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 938e36c59776d0b786725313d2de23d2198da9ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438471"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818120"
 ---
 # <a name="define-configuration-groups"></a>กำหนดกลุ่มการปรับเปลี่ยน
 
@@ -40,3 +37,6 @@ ms.locfileid: "4438471"
 7. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
 8. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

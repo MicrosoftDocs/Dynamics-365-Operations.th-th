@@ -2,11 +2,9 @@
 title: แก้ไขปัญหาในระหว่างการซิงโครไนส์เริ่มต้น
 description: หัวข้อนี้แสดงข้อมูลการแก้ไขปัญหาที่สามารถช่วยคุณแก้ไขปัญหาที่อาจเกิดขึ้นในระหว่างการซิงโครไนส์เริ่มต้น
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736385"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>แก้ไขปัญหาในระหว่างการซิงโครไนส์เริ่มต้น
 
@@ -194,7 +192,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 6. รันการซิงโครไนส์เริ่มต้นอีกครั้งสำหรับการแม็ป **ลูกค้า V3 (บัญชี)** เนื่องจากการติดตามการเปลี่ยนแปลงถูกปิด จะมีการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จากแอป Finance and Operations ไปยัง Dataverse
 7. เมื่อต้องการซิงค์ข้อมูลสำหรับ **InvoiceAccount** และ **ContactPersonId** จาก Dataverse ไปยังแอป Finance and Operations คุณต้องใช้โครงการการรวมข้อมูล
 
-    1. ใน Power Apps ให้สร้างโครงการการรวมข้อมูลระหว่างตาราง **Sales.Account** และ **Finance and Operations apps.Customers V3** ทิศทางของข้อมูลต้องมาจาก Dataverse ไปยังแอป Finance and Operations เนื่องจาก **InvoiceAccount** เป็นแอททริบิวต์ใหม่ในการรวมแบบสองทิศทาง คุณอาจต้องการข้ามการซิงโครไนส์เริ่มต้นสำหรับแอททริบิวต์นี้ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator)
+    1. ใน Power Apps ให้สร้างโครงการการรวมข้อมูลระหว่างตาราง **Sales.Account** และ **Finance and Operations apps.Customers V3** ทิศทางของข้อมูลต้องมาจาก Dataverse ไปยังแอป Finance and Operations เนื่องจาก **InvoiceAccount** เป็นแอททริบิวต์ใหม่ในการรวมแบบสองทิศทาง คุณอาจต้องการข้ามการซิงโครไนส์เริ่มต้นสำหรับแอททริบิวต์นี้ สำหรับข้อมูลเพิ่มเติม ดู [รวมข้อมูลลงใน Dataverse](/power-platform/admin/data-integrator)
 
         ภาพประกอบต่อไปนี้แสดงโครงการที่ปรับปรุง **CustomerAccount** และ **ContactPersonId**
 
@@ -211,3 +209,6 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
     การซิงโครไนส์เริ่มต้นของแถวเสร็จสมบูรณ์ในขณะนี้
 
 8. ในแอป Finance and Operations เปิดใช้งานการติดตามการเปลี่ยนแปลงอีกครั้งสำหรับตาราง **ลูกค้า V3**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

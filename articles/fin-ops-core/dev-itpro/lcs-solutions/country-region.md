@@ -1,27 +1,25 @@
 ---
 title: ทรัพยากรแบบโลกาภิวัตน์
 description: หัวข้อนี้มีรายการของทรัพยากรที่จะช่วยให้คุณเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันการทำงานเฉพาะประเทศ/ภูมิภาคและข้อเสนอ
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/02/2019
+author: kfend
+ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748476"
 ---
 # <a name="globalization-resources"></a>ทรัพยากรแบบโลกาภิวัตน์
 
@@ -55,7 +53,6 @@ ms.locfileid: "4685064"
 
 #### <a name="regulatory-updates"></a>การอัปเดตที่เป็นระเบียบบังคับ
 -   [การอัปเดตที่เป็นระเบียบบังคับ](../../../finance/localizations/regulatory-updates.md)
--   [พอร์ทัลเฉพาะ](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (อัปเดตรายสัปดาห์)
 -   [การค้นหาปัญหาใน Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (อัปเดตทุกวัน)
 
 #### <a name="communication-and-alerts"></a>การสื่อสารและการแจ้งเตือน
@@ -66,7 +63,7 @@ ms.locfileid: "4685064"
 [แผนการเผยแพร่ Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>มีอะไรใหม่ในแอป Finance and Operations
-[มีอะไรใหม่หรือเปลี่ยนแปลงในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
 
 ### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:
@@ -133,3 +130,6 @@ ms.locfileid: "4685064"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

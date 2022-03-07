@@ -2,11 +2,9 @@
 title: สร้างกลุ่มสิทธิ์ของ POS
 description: หัวข้อนี้อธิบายวิธีการสร้างกลุ่มสิทธิ์ของ POS
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762307"
 ---
 # <a name="create-pos-permission-groups"></a>สร้างกลุ่มสิทธิ์ของ POS
 
@@ -47,3 +45,6 @@ ms.locfileid: "4964831"
 16. ในฟิลด์สิทธิ์ของ POS ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง ผู้ปฏิบัติงานทั้งหมดในตำแหน่งงานสำหรับงานนี้จะใช้การตั้งค่าของกลุ่มสิทธิ์ของ POS ยกเว้นว่าจะมีการแทนที่สิทธิ์ของ POS ของผู้ปฏิบัติงานในระดับของตำแหน่งงาน  
 17. เลือก **บันทึก** หลังจากบันทึกการเปลี่ยนแปลงของคุณแล้ว คุณจำเป็นต้องเรียกใช้การจัดกำหนดการกระจายพนักงานเพื่อผลักดันการเปลี่ยนแปลงไปยังช่องทางการค้า  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

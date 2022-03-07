@@ -2,16 +2,13 @@
 title: การตรวจนับตามรอบของสถานที่บางส่วน
 description: แผนการตรวจนับตามรอบเป็นคู่มือการดำเนินงานการนับตามจริง คุณสามารถร้องขอผลิตภัณฑ์เฉพาะอย่างและผลิตภัณฑ์ย่อยที่จะตรวจนับแทนสินค้าคงคลังคงเหลือในสถานที่เก็บทั้งหมด
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778445"
 ---
 # <a name="partial-location-cycle-counting"></a>การตรวจนับตามรอบของสถานที่บางส่วน
 
@@ -49,7 +46,7 @@ ms.locfileid: "4666757"
 สำหรับกระบวนการตรวจนับตามรอบบางส่วน จะไม่มีการอัปเดตวันที่/เวลาของ **การตรวจนับรอบลาสุด** สำหรับสถานที่ ถึงแม้ว่าจะมีการตรวจนับสินค้าทั้งหมดในปริมาณคงเหลือในสถานที่ที่กำหนด การตรวจนับตามรอบบางส่วนไม่ได้พิจารณาพารามิเตอร์ **จำนวนวันระหว่างการตรวจนับตามรอบ** ในหน้า **แผนการตรวจนับตามรอบ** การตรวจนับตามรอบบางส่วนไม่สนับสนุนการตรวจนับสินค้าจำนวนมากพร้อมกันในสถานที่เดียวกัน ฟังก์ชันการตรวจนับตามรอบบางส่วนอาจส่งผลให้มีการตรวจนับสถานที่เดียวกันหลายครั้งสำหรับสินค้าเมื่อเรียกใช้ **ดำเนินการตามแผนการตรวจนับตามรอบ** เมื่อต้องการหลีกเลี่ยงสถานการณ์ดังกล่าว ให้ระบุตัวกรองในฟิลด์ **เลือกสถานที่**
 
 > [!NOTE]
-> แอปคลังสินค้าไม่ให้ปุ่ม **เพิ่ม LP หรือสินค้า** เมื่อคุณใช้กระบวนการตรวจนับตามรอบบางส่วน
+> แอปการจัดการคลังสินค้าบนมือถือไม่ให้ปุ่ม **เพิ่ม LP หรือสินค้า** เมื่อคุณใช้กระบวนการตรวจนับตามรอบบางส่วน
 
 ## <a name="example"></a>ตัวอย่าง
 
@@ -62,3 +59,6 @@ ms.locfileid: "4666757"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [การตรวจนับตามรอบ](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

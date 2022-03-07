@@ -1,12 +1,10 @@
 ---
 title: สถานะของวงจรการใช้ของคำขอการบำรุงรักษา
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าสถานะของวงจรการใช้ของคำขอการบำรุงรักษาในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743685"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>สถานะของวงจรการใช้ของคำขอการบำรุงรักษา
 
@@ -80,3 +78,6 @@ ms.locfileid: "5022091"
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของหน้า **แบบจำลองวงจรการใช้งานของคำขอการบำรุงรักษา**
 
 ![หน้าแบบจำลองวงจรการใช้งานของคำขอการบำรุงรักษา](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

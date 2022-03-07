@@ -1,28 +1,25 @@
 ---
 title: ตั้งค่าต้นแบบอัตรา
 description: 'ขั้นตอนนี้แสดงวิธีการตั้งค่าต้นแบบอัตรา '
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: e6177458f2fc4651a10353afaa6f59ba6da4e28b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438945"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567714"
 ---
 # <a name="set-up-rate-masters"></a>ตั้งค่าต้นแบบอัตรา
 
@@ -97,3 +94,6 @@ ms.locfileid: "4438945"
     * ระบุว่าการกำหนดฐานอัตรานี้ควรมีผลบังคับใช้จากรหัสไปรษณีย์ใด
 10. ในฟิลด์ **ภูมิภาคของประเทศที่เบิกสินค้า** ให้พิมพ์ "USA"
 11. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

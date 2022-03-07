@@ -2,11 +2,9 @@
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.15
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014544"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471823"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.15 (มกราคม 2021)
 
@@ -35,23 +33,23 @@ ms.locfileid: "5014544"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ คุณลักษณะที่แสดงรายการบางอย่างยังคงอยู่ในพรีวิว ในขณะที่บางรายการอาจพร้อมใช้งานโดยทั่วไปอยู่แล้ว ไปตามลิงก์ [แผนนำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ไปตามลิงก์ [แผนนำออกใช้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) เพื่อดูวันที่นำออกใช้อย่างเป็นทางการสำหรับแต่ละคุณลักษณะการทำงาน
 
-- การจัดการ Cloud และ edge scale unit ด้วยปริมาณงานในการดำเนินการผลิตและคลังสินค้า<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Cloud และ edge scale unit สำหรับปริมาณงานในการจัดการการผลิตและคลังสินค้า](../cloud-edge/cloud-edge-landing-page.md)
+- การจัดการ Cloud และ edge scale unit ด้วยปริมาณงานในการดำเนินการผลิตและคลังสินค้า<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Scale units ในโทโพโลยีแบบไฮบริดแบบกระจาย](../cloud-edge/cloud-edge-landing-page.md)
 
-- [สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า](../warehousing/create-transfer-order-from-warehouse-app.md)
+- [สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า](../warehousing/create-transfer-order-from-warehouse-app.md)
 
-- [ฟิลด์การตอบ RFQ เริ่มต้นสำหรับการประมูลของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [ภาพรวมคำขอใบเสนอราคา (RFQ)](../procurement/request-quotations.md)
+- [ฟิลด์การตอบ RFQ เริ่มต้นสำหรับการประมูลของผู้จัดจำหน่าย](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดู [ภาพรวมคำขอใบเสนอราคา (RFQ)](../procurement/request-quotations.md)
 
-- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md)
+- [Add-in ของการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md)
 
-- [คู่มือแบบผสมความจริงสำหรับการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ให้คู่มือแบบผสมความจริงสำหรับผู้ปฏิบัติงานในการผลิต](../production-control/instruction-guides-in-production-overview.md)
+- [คู่มือแบบผสมความจริงสำหรับการผลิต](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ให้คู่มือแบบผสมความจริงสำหรับผู้ปฏิบัติงานในการผลิต](../production-control/instruction-guides-in-production-overview.md)
 
-- [ประสบการณ์การใช้งานของผู้ใช้ใหม่สำหรับการดำเนินการผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
+- [ประสบการณ์การใช้งานของผู้ใช้ใหม่สำหรับการดำเนินการผลิต](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ผู้ปฏิบัติงานจะใช้อินเทอร์เฟสการดำเนินการผลิตอย่างไร](../production-control/production-floor-execution-use.md)
 
-- [ประมวลผลเหตุการณ์ของแอปคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลเหตุการณ์ของแอปคลังสินค้า](../warehousing/warehouse-app-events.md)
+- [ประมวลผลเหตุการณ์ของแอปคลังสินค้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การประมวลผลเหตุการณ์ของแอปคลังสินค้า](../warehousing/warehouse-app-events.md)
 
-- [มุมมองที่บันทึกไว้สำหรับหน้าผลิตภัณฑ์ที่นำออกใช้](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../../fin-ops-core/fin-ops/get-started/saved-views.md)
+- [มุมมองที่บันทึกไว้สำหรับหน้าผลิตภัณฑ์ที่นำออกใช้](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - สำหรับข้อมูลเพิ่มเติม ดูที่ [มุมมองที่บันทึกไว้](../../fin-ops-core/fin-ops/get-started/saved-views.md)
 
 - เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ใบรับรองแหล่งกำเนิดสินค้า USMCA](../transportation/usmca-certification-of-origin.md)
 
@@ -71,7 +69,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
@@ -83,3 +81,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 รวมถึง Platfo
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

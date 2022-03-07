@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 976155b685498456952f7d715779d20191712103
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ed61411920edebb1ab9b87856a5418fa43bc2f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264933"
 ---
 # <a name="scheduled-execution"></a>การดำเนินการที่จัดกำหนดการไว้
 
@@ -43,3 +42,6 @@ ms.locfileid: "4438513"
 6. เลือก **บันทึก**
 
 ![การดำเนินการที่จัดกำหนดการไว้](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

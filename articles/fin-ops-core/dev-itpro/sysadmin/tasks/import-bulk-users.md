@@ -2,11 +2,9 @@
 title: นำเข้าผู้ใช้จาก Azure Active Directory
 description: กระบวนงานนี้สามารถใช้โดยผู้ดูแลระบบเพื่อนำเข้าผู้ใช้ที่เลือกด้วยตัวเองหรือนำเข้าจำนวนผู้ใช้ปริมาณมากจาก Azure Active Directory
 author: peakerbl
-manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748299"
 ---
 # <a name="import-users-from-azure-active-directory"></a>นำเข้าผู้ใช้จาก Azure Active Directory
 
@@ -50,7 +48,7 @@ ms.locfileid: "4679825"
 6. ในฟิลด์ **กลุ่มชุดงาน** ให้ป้อนหรือเลือกค่า ขั้นตอนนี้อาจไม่จำเป็น  
 7. เลือก **ใช่** ในฟิลด์ **ส่วนตัว** ขั้นตอนนี้อาจไม่จำเป็น  
 8. เลือก **ใช่** ในฟิลด์ **งานสำคัญ** ขั้นตอนนี้อาจไม่จำเป็น  
-9. ในฟิลด์ **การตรวจสอบประเภท ให้เลือกหนึ่งตัวเลือก
+9. ในฟิลด์ **การตรวจสอบประเภท** ให้เลือกหนึ่งตัวเลือก
 10. คลิก **ตกลง**
 
 หลังจากการนำเข้าเสร็จสมบูรณ์แล้ว จะต้องกำหนดบทบาทให้กับผู้ใช้
@@ -58,3 +56,6 @@ ms.locfileid: "4679825"
 ## <a name="run-in-a-sandbox-environment"></a>รันในสภาพแวดล้อม Sandbox
 1. เลือก **การนำเข้าชุดงาน**
 2. เลือก **ตกลง**
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
 title: ป้อนข้อตกลงการขาย
 description: หัวข้อนี้อธิบายวิธีการสร้างข้อตกลงการขายที่ยืนยันหนึ่งในลูกค้าของคุณให้ซื้อผลิตภัณฑ์เป็นจำนวนที่ตกลงกันตามช่วงเวลาในการแลกเปลี่ยนสำหรับส่วนลดพิเศษ
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm, SalesAgreementCustomerReferencesPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1c63097340cf709976510451c157ab691e87d06e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010830"
 ---
 # <a name="enter-sales-agreements"></a>ป้อนข้อตกลงการขาย
 
@@ -54,6 +56,3 @@ ms.locfileid: "7568314"
 11. เลือก **ตกลง**
 12. ปิดหน้า ขณะนี้ข้อตกลงมีผลบังคับใช้ คุณสามารถเริ่มต้นการเชื่อมโยงใบสั่งของลูกค้ากับข้อตกลงเพื่อออฟเซ็ตกับเป้าหมายผูกมัด  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: ให้ผู้ใช้สามารถรับข้อความอีเมลที่เกี่ยวข้องกับลำดับงาน
 description: คุณสามารถตั้งค่าคอนฟิกระบบเพื่อส่งข้อความอีเมลไปยังผู้ใช้เมื่อเกิดเหตุการณ์ที่เกี่ยวข้องกับลำดับงาน
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 3207727c8deba97eebfd7516e9600238e5e79b3d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799015"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747260"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>ให้ผู้ใช้สามารถรับข้อความอีเมลที่เกี่ยวข้องกับลำดับงาน
 
@@ -41,3 +39,6 @@ ms.locfileid: "4799015"
 
 > [!NOTE]
 > เท็มเพลตอีเมลของลำดับงานจะถูกส่งมาจากเท็มเพลตอีเมลของระบบหรือเท็มเพลตอีเมลขององค์กร โดยขึ้นอยู่กับว่าลำดับงานเป็นระดับระบบ (ไม่ใช่เฉพาะบริษัท) หรือลำดับงาน (เฉพาะบริษัท) ระดับองค์กร
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

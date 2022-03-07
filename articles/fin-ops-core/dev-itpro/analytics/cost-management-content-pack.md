@@ -2,11 +2,9 @@
 title: ชุดเนื้อหาการจัดการต้นทุน Power BI
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุนใน Power BI
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683906"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752651"
 ---
 # <a name="cost-management-power-bi-content"></a>ชุดเนื้อหาการจัดการต้นทุน Power BI
 
@@ -31,12 +29,7 @@ ms.locfileid: "4683906"
 
 ## <a name="overview"></a>ภาพรวม
 
-เนื้อหา Microsoft Power BI ของ **การจัดการต้นทุน** มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลังหรือบุคคลในองค์กรที่รับผิดชอบ หรือสนใจสถานะของสินค้าคงคลังหรืองานระหว่างทำ (WIP) หรือผู้ที่รับผิดชอบ หรือสนใจในการวิเคราะห์ผลต่างต้นทุนมาตรฐาน
-
-> [!NOTE]
-> เนื้อหา **การจัดการต้นทุน** Power BI ที่อธิบายไว้ในนี้ใช้ได้กับ Dynamics 365 Finance and Operations 8.0
-> 
-> ชุดเนื้อหา Power BI ของ **การจัดการต้นทุน** พร้อมใช้งานในไซต์ AppSource ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการไม่สนับสนุน ดู [คุณลักษณะที่ถูกลบหรือไม่สนับสนุนสำหรับ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
+เนื้อหา **การจัดการต้นทุน** ของ Microsoft Power BI มีไว้สำหรับผู้จัดทำบัญชีสินค้าคงคลัง หรือบุคคลในองค์กรที่รับผิดชอบหรือสนใจสถานะของสินค้าคงคลังหรืองานระหว่างทำ (WIP)  หรือผู้ที่รับผิดชอบหรือสนใจในการวิเคราะห์ผลต่างต้นทุนมาตรฐาน
 
 เนื้อหา Power BI นี้ให้รูปแบบที่จัดประเภทที่ช่วยคุณในการตรวจสอบประสิทธิภาพการทำงานของสินค้าคงคลัง และแสดงให้เห็นวิธีการที่ต้นทุนหมุนเวียนผ่านรายการเหล่านั้น คุณสามารถได้รับข้อมูลเชิงลึกเชิงการจัดการ เช่น อัตราหมุนเวียน จำนวนวันที่สินค้าคงคลังคงเหลือ ความถูกต้อง และ "การจัดประเภท ABC" ที่ระดับแบบรวมที่ต้องการของคุณ (บริษัท สินค้า กลุ่มสินค้า หรือไซต์) นอกจากนี้ ข้อมูลที่ถูกทำให้พร้อมใช้งานยังสามารถใช้เป็นภาคผนวกอย่างละเอียดสำหรับงบการเงินได้ด้วย
 
@@ -207,3 +200,6 @@ ms.locfileid: "4683906"
 | นิติบุคคล                                          | ชื่อนิติบุคคล                              |
 | ปฏิทินทางการเงิน                                        | ปฏิทินทางการเงิน ปี ไตรมาส รอบระยะเวลา เดือน   |
 | ไซต์                                                    | รหัส ชื่อ ที่อยู่ รัฐ ประเทศ               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

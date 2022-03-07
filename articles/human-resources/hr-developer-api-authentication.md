@@ -2,15 +2,12 @@
 title: การรับรองความถูกต้อง
 description: บทความนี้แสดงข้อมูลภาพรวมเกี่ยวกับวิธีการรับรองความถูกต้องของข้อมูลอินเทอร์เฟสโปรแกรมประยุกต์ (API) ของ Microsoft Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420696"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054391"
 ---
 # <a name="authentication"></a>การรับรองความถูกต้อง
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 บทความนี้แสดงข้อมูลภาพรวมเกี่ยวกับวิธีการรับรองความถูกต้องของข้อมูลอินเทอร์เฟสโปรแกรมประยุกต์ (API) ของ Microsoft Dynamics 365 Human Resources
 
@@ -82,7 +81,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - สำหรับแอปเว็บ ระบุ URL พื้นฐานของแอป ตัวอย่างเช่น `http://localhost:31544` อาจเป็น URL สำหรับเว็บแอปพลิเคชันที่ดำเนินการบนเครื่องเฉพาะที่ของคุณ จากนั้น ผู้ใช้ใช้ URL นี้เพื่อล็อกอินไปยังแอปพลิเคชันไคลเอนต์ของเว็บ
         - สำหรับแอปพลิเคชันไคลเอนต์สาธารณะให้ URL ที่ Azure AD ใช้เพื่อส่งคืนการตอบสนองโทเคน ป้อนค่าที่เกี่ยวข้องกับแอปของคุณโดยเฉพาะเช่น`myapp://auth`
 
-        เมื่อต้องการดูตัวอย่างเฉพาะสำหรับ web apps หรือแอปพลิเคชันดังเดิม ให้ดูที่ quickstarts ใน [แพลตฟอร์ม Microsoft identity (Azure Active Directory เดิมสำหรับนักพัฒนา)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts)
+        เมื่อต้องการดูตัวอย่างเฉพาะสำหรับ web apps หรือแอปพลิเคชันดังเดิม ให้ดูที่ quickstarts ใน [แพลตฟอร์ม Microsoft identity (Azure Active Directory เดิมสำหรับนักพัฒนา)](/azure/active-directory/develop/#quickstarts)
 
 5. ภายใต้ **สิทธิ์ของ API** ให้เลือก **เพิ่มสิทธิการได้รับอนุญาต** จากนั้น บนแท็บ **APIs องค์กรของฉันใช้** ให้ค้นหา **Dynamics 365 Human Resources** และเพิ่มสิทธิ์ **ผู้ใช้\_การเลียนแบบ** กับแอปของคุณ รหัสแอปพลิเคชันสำหรับทรัพยากรบุคคลคือ f9be0c49-aa22-4ec6-911a-c5da515226ff ใช้รหัสนี้เพื่อให้แน่ใจว่าคุณได้เลือกแอปพลิเคชันที่ถูกต้อง
 
@@ -185,3 +184,6 @@ namespace TalentODataPoC
 ```
 
 หลังจากที่คุณได้ดึงโทเคนการเข้าถึงแล้ว คุณจะผ่านโทเคนในส่วนหัวของการตรวจสอบเป็นโทเคนผู้ถือสิทธิ์โดยมีคำขอแต่ละรายการที่คุณจะส่งไปยัง API ข้อมูลดังที่อธิบายไว้ข้างต้น
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

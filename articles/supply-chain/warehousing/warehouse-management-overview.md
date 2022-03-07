@@ -1,26 +1,24 @@
 ---
 title: ภาพรวมการบริหารคลังสินค้า
 description: 'ใช้การบริหารคลังสินค้าเพื่อตรวจสอบและดำเนินกระบวนการคลังสินค้าแบบอัตโนมัติ '
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970139"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982863"
 ---
 # <a name="warehouse-management-overview"></a>ภาพรวมของการจัดการคลังสินค้า
 
@@ -33,13 +31,13 @@ ms.locfileid: "4970139"
 
 - ไปที่หน้า **พารามิเตอร์การจัดการคลังสินค้า** ภายใต้ **การจัดการคลังสินค้า** > **ตั้งค่า** เพื่อตั้งค่าพารามิเตอร์คลังสินค้าทั่วไป
 
-คุณต้องตั้งค่าคอนฟิกส่วนประกอบสำหรับลำดับงานของกระบวนการคลังสินค้าขาเข้าและขาออกตามความต้องการทางธุรกิจ ส่วนประกอบสำคัญที่สุดที่คุณต้องตั้งค่าคอนฟิกคือ เท็มเพลตเวฟ เท็มเพลตงาน กลุ่มงาน และคำสั่งสถานที่
+คุณต้องตั้งค่าคอนฟิกส่วนประกอบสำหรับลำดับงานของกระบวนการคลังสินค้าขาเข้าและขาออกตามความต้องการทางธุรกิจ ส่วนประกอบสำคัญที่สุดที่คุณต้องตั้งค่าคอนฟิกคือ เทมเพลตเวฟ เทมเพลตงาน กลุ่มงาน และคำสั่งสถานที่
 
 - [ภาพรวมของการตั้งค่าคอนฟิกคลังสินค้า](warehouse-configuration.md)
-- [ควบคุมงานคลังสินค้าโดยเท็มเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
+- [ควบคุมงานคลังสินค้าโดยเทมเพลตงานและคำสั่งสถานที่](control-warehouse-location-directives.md)
 - [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](configure-mobile-devices-warehouse.md)
 - [ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
-- [ตั้งค่าเท็มเพลตงานสำหรับใบสั่งซื้อ](./tasks/set-up-work-template-purchase-orders.md)
+- [ตั้งค่าเทมเพลตงานสำหรับใบสั่งซื้อ](./tasks/set-up-work-template-purchase-orders.md)
 
 ## <a name="warehouse-management-processes"></a>กระบวนการจัดการคลังสินค้า
 - การสนับสนุนแบบรวมสำหรับเอกสารต้นทางสำหรับใบสั่งขาย การส่งคืนสินค้า ใบสั่งโอนย้าย ใบสั่งผลิต และคัมบัง  
@@ -73,3 +71,6 @@ ms.locfileid: "4970139"
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

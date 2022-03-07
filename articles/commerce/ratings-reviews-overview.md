@@ -1,27 +1,35 @@
 ---
-# required metadata
 title: ภาพรวมของการให้คะแนนและบทวิจารณ์
 description: หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.assetid: null
+ms.custom: intro-internal
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: gmohanv
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 4622b2a26ac6193b1408c029389e4d9f55162418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355816"
 ---
-
 # <a name="ratings-and-reviews-overview"></a>ภาพรวมของการให้คะแนนและบทวิจารณ์
+
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมการจัดอันดับและบทวิจารณ์ใน Microsoft Dynamics 365 Commerce
+
+## <a name="overview"></a>ภาพรวม
 
 การจัดอันดับและบทวิจารณ์มีความสำคัญต่อลูกค้าอีคอมเมิร์ซที่ต้องการทราบว่าลูกค้ารายอื่น ๆ รับรู้ผลิตภัณฑ์อย่างไร นอกจากนี้ยังช่วยให้ผู้ใช้สามารถตัดสินใจซื้อได้ด้วย ใน Dynamics 365 Commerce โซลูชันการจัดอันดับและบทวิจารณ์ของร้านค้าปลีก เก็บความคิดเห็นของผลิตภัณฑ์และการจัดอันดับจากลูกค้า ร้านค้าปลีกสามารถแสดงการจัดอันดับโดยเฉลี่ยและตรวจสอบข้อมูลบนเว็บไซต์อีคอมเมิร์ซของตนได้
 
@@ -37,7 +45,7 @@ ms.dyn365.ops.version: Release 10.0.5
 
 โซลูชันการจัดอันดับและบทวิจารณ์จะแสดงวิดเจ็ตซึ่งแสดงสรุปการจัดอันดับในรายการผลิตภัณฑ์ ในผลการค้นหา ในหน้ารายละเอียดของผลิตภัณฑ์ และในที่อื่นๆ วิดเจ็ตจะแสดงรายการบทวิจารณ์ที่สมบูรณ์ และมีตัวเลือกการเรียงลำดับและการกรองข้อมูล
 
-โซลูชันการจัดอันดับและบทวิจารณ์ยังแสดงเทมเพลตข่าวกรองธุรกิจ (BI) ซึ่งรวมถึงชุดของการวัดที่จะให้ข้อมูลเชิงลึกให้กับการจัดอันดับและบทวิจารณ์ สามารถส่งออกข้อมูลการจัดอันดับและบทวิจารณ์สำหรับการวิเคราะห์เพิ่มเติมได้
+โซลูชันการจัดอันดับและบทวิจารณ์ยังแสดงแม่แบบข่าวกรองธุรกิจ (BI) ซึ่งรวมถึงชุดของการวัดที่จะให้ข้อมูลเชิงลึกให้กับการจัดอันดับและบทวิจารณ์ สามารถส่งออกข้อมูลการจัดอันดับและบทวิจารณ์สำหรับการวิเคราะห์เพิ่มเติมได้
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
@@ -48,14 +56,6 @@ ms.dyn365.ops.version: Release 10.0.5
 [ตั้งค่าคอนฟิกการให้คะแนนและบทวิจารณ์](configure-ratings-reviews.md)
 
 [ซิงค์การจัดอันดับผลิตภัณฑ์ใน Dynamics 365 Commerce](sync-product-ratings.md)
-
-[เปิดใช้งานการเผยแพร่การให้คะแนนและบทวิจารณ์ด้วยตนเองโดยผู้ดูแล](manual-publish-rating-reviews.md)
-
-[นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์](import-export-reviews.md)
-
-[ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ](service-to-service-auth.md)
-
-[คำถามที่ถามบ่อยเกี่ยวกับการให้คะแนนและบทวิจารณ์](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

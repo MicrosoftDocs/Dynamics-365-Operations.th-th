@@ -1,12 +1,10 @@
 ---
 title: คำขอการบำรุงรักษา
 description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับการจัดการคำขอการบำรุงรักษาในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: dceb179d0a17d8025d88c5945b9571de65c86449
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019640"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838621"
 ---
 # <a name="maintenance-requests"></a>คำขอการบำรุงรักษา
 
@@ -72,3 +70,6 @@ ms.locfileid: "5019640"
 | ส่งสินทรัพย์ที่ให้ยืม                  | เลือกสินทรัพย์ที่ให้ยืมที่ควรจะเป็นการแทนที่แบบชั่วคราวสำหรับสินทรัพย์ที่เลือกบนคำขอการบำรุงรักษาที่เลือก |
 | ส่งคืนสินทรัพย์ที่ให้ยืม                | ลงทะเบียนสินทรัพย์ที่ให้ยืมเป็นส่งคืนแล้ว |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

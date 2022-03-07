@@ -2,11 +2,9 @@
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.13 (ตุลาคม 2020)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.13
 author: kamaybac
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 9c5358cbc13c10983cfcbdde95fd573f652cc683
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 238dc7191b5d6cb044b2825e511bdc869d82ca20c03cfbc6129c22a010da3496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766133"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.13 (ตุลาคม 2020)
 
@@ -35,23 +33,23 @@ ms.locfileid: "4963571"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
-- [เปลี่ยนคำศัพท์ของ "การยกเลิกการปิดบัญชีสินค้าคงคลัง" เป็น "การย้อนกลับการปิดบัญชีสินค้าคงคลัง"](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
+- [เปลี่ยนคำศัพท์ของ "การยกเลิกการปิดบัญชีสินค้าคงคลัง" เป็น "การย้อนกลับการปิดบัญชีสินค้าคงคลัง"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ปิดบัญชีสินค้าคงคลัง](../cost-management/inventory-close.md)
 
-- [ยืนยันการจัดส่งขาออกจากชุดงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันการจัดส่งขาออกจากชุดงาน](../warehousing/confirm-outbound-shipments-from-batch-jobs.md)
+- [ยืนยันการจัดส่งขาออกจากชุดงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ยืนยันการจัดส่งขาออกจากชุดงาน](../warehousing/confirm-outbound-shipments-from-batch-jobs.md)
 
-- [การมอบหมายรายการงานการจัดซื้อหลายรายการ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มอบหมายรายการงานในลำดับงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md)
+- [การมอบหมายรายการงานการจัดซื้อหลายรายการ](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มอบหมายรายการงานในลำดับงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md)
 
-- [ป้อนหมายเลขลำดับประจำสินค้าขณะมีการรายงานการเสร็จงานจากอุปกรณ์บัตรงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
+- [ป้อนหมายเลขลำดับประจำสินค้าขณะมีการรายงานการเสร็จงานจากอุปกรณ์บัตรงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [รายงานเมื่อเสร็จสมบูรณ์จากอุปกรณ์บัตรงาน](../production-control/report-finished-job-device.md)
 
-- [มิติสินค้าคงคลังใหม่สำหรับการติดตามรุ่นผลิตภัณฑ์และความสามารถในการเพิ่มฟังก์ชันเพิ่มเติม](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มิติของผลิตภัณฑ์](../pim/product-dimensions.md)
+- [มิติสินค้าคงคลังใหม่สำหรับการติดตามรุ่นผลิตภัณฑ์และความสามารถในการเพิ่มฟังก์ชันเพิ่มเติม](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [มิติของผลิตภัณฑ์](../pim/product-dimensions.md)
 
-- [การจองที่กำหนดให้กับใบสั่งตามป้ายทะเบียน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจองป้ายทะเบียนแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation)
+- [การจองที่กำหนดให้กับใบสั่งตามป้ายทะเบียน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การจองป้ายทะเบียนแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation)
 
-- [ภาพรวมของรายการเลือกงาน](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [ภาพรวมของรายการเลือกงาน](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [การปรับปรุงนโยบายงานสำหรับงานขาเข้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่  [นโยบายของคลังสินค้า](../warehousing/warehouse-work-policies.md)
+- [การปรับปรุงนโยบายงานสำหรับงานขาเข้า](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่  [นโยบายของคลังสินค้า](../warehousing/warehouse-work-policies.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -67,7 +65,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 2](/dynamics365-release-plan/2020wave2/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
@@ -79,3 +77,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.13 รวมถึง Platfo
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

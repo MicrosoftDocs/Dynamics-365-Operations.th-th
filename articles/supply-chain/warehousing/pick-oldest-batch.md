@@ -2,9 +2,11 @@
 title: เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
 description: หัวข้อนี้อธิบายวิธีตั้งค่าและใช้ตัวเลือกการเลือกชุดงานที่เก่าที่สุดจากอุปกรณ์เคลื่อนที่
 author: Mirzaab
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96221ae14610057cceed304efa01261eb01aef134e4bdad10ccd0386bd52cf9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8e0deadaeb403e1f645309a141c5678fbe3f716
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746734"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232898"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>เลือกชุดงานที่เก่าที่สุดบนอุปกรณ์เคลื่อนที่
 

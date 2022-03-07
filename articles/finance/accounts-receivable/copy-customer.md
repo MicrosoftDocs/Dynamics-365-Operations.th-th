@@ -2,26 +2,23 @@
 title: คัดลอกลูกค้าโดยใช้ลำดับหมายเลขที่ใช้ร่วมกัน
 description: หัวข้อนี้อธิบายวิธีการใช้ลำดับหมายเลขที่ใช้ร่วมกันเพื่อคัดลอกลูกค้าไปยังนิติบุคคลอื่นแต่ยังคงรักษารหัสลูกค้าเดิมไว้
 author: mikefalkner
-manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 91f7568ea8364f97de7e514fb207191ee00041a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d906ed3cb7af0af9e0137f878c39d5ad47616a783688ad70b1465bd0b2d470aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763345"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>คัดลอกลูกค้าโดยใช้ลำดับหมายเลขที่ใช้ร่วมกัน
 
@@ -65,3 +62,6 @@ ms.locfileid: "4459997"
 
 1. ตัวเลือก **คัดลอกลูกค้า** จะปรากฏขึ้น โดยค่าเริ่มต้น ตัวเลือกนี้จะตั้งค่าเป็น **ไม่** หากต้องการคัดลอกลูกค้าไปยังนิติบุคคลปัจจุบัน ให้ตั้งค่าตัวเลือกเป็น **ใช่** 
 2. เลือก **เลือก** ระบบจะสร้างลูกค้าใหม่
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

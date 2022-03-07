@@ -2,11 +2,9 @@
 title: นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 description: เพื่อทำขั้นตอนเหล่านี้ในกระบวนงานให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงาน "ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่" ให้เสร็จสมบูรณ์
 author: NickSelin
-manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f919d953c3aa0c8d16366167a12e52d35f32cdf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727496"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>นำเข้าการตั้งค่าคอนฟิกเพื่อสร้างเอกสารที่มีข้อมูลแอพลิเคชัน
 
@@ -75,3 +73,6 @@ ms.locfileid: "4684630"
     * ตรวจทานโครงสร้างของรูปแบบที่ใช้ในการสร้างรายงานอินทราสแทต หมายเหตุว่าสิ่งนี้ได้รับการออกแบบมาเพื่อสร้างไฟล์ XML ด้วยการเติมข้อมูลจากแบบจำลองข้อมูล ซึ่งขึ้นอยู่กับรายการราก 'สำหรับเอกสารขาออก' ตรวจสอบว่ามีการกำหนดชื่อสำหรับไฟล์ที่สร้างขึ้นบนฟอร์มกล่องโต้ตอบผู้ใช้ (มีการใช้แหล่งข้อมูล 'fn' สำหรับรายการดังกล่าว)   
 30. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

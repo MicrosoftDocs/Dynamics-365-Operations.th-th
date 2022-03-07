@@ -3,8 +3,18 @@
   items:
     - name: มีอะไรใหม่
       items:
-        - name: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources
+        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 มีนาคม 2021
+          href: hr-whats-new-2021-03-22.md
+        - name: 8 มีนาคม 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22 กุมภาพันธ์ 2021
+          href: hr-whats-new-2021-02-22.md
+        - name: 28 มกราคม 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 มกราคม 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2 ธันวาคม 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22 ตุลาคม 2020
@@ -79,12 +89,16 @@
           items:
             - name: เลือกเทคโนโลยีการรวมข้อมูล
               href: hr-admin-integration-choose-technology.md
-            - name: ตั้งค่าคอนฟิกการรวม Common Data Service
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณ
+              href: hr-admin-integration-throttling-faq.md
+            - name: ตั้งค่าคอนฟิกการรวม Dataverse
               href: hr-admin-integration-common-data-service.md
-            - name: เอนทิตี้ Common Data Service
+            - name: ตาราง Dataverse
               href: hr-developer-entities.md
-            - name: ตั้งค่าคอนฟิกเอนทิตี้เสมือน Common Data Service
+            - name: ตั้งค่าคอนฟิกตารางเสมือน Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับตารางเสมือน Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Finance
               href: hr-admin-integration-finance.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce
@@ -193,7 +207,7 @@
               href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
             - name: ภาพรวมของการจัดการคุณลักษณะ
               href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
-            - name: FAQ เกี่ยวกับไคลเอนต์
+            - name: คำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์
               href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
             - name: การค้นหาการดำเนินการ
               href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
@@ -229,7 +243,7 @@
           href: hr-admin-teams-leave-app.md
         - name: จัดเตรียมสำหรับการโทรทันที
           href: hr-admin-go-live-prepare.md
-        - name: FAQ เกี่ยวกับการโทรทันที
+        - name: คำถามที่ถามบ่อยเกี่ยวกับการโทรทันที
           href: hr-admin-go-live-faq.md
         - name: แหล่งข้อมูลเอกสารประกอบ
           items:
@@ -253,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: ปรับปรุงประสิทธิภาพการทำงานด้วยงานการล้างข้อมูลอัตโนมัติ
               href: hr-admin-troubleshooting-batch-history.md
+            - name: รีเซ็ตชุดงานที่ติดค้าง
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: ไม่ได้อัปเดตรายงานการวิเคราะห์
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ Power Apps
@@ -271,7 +287,7 @@
               href: hr-admin-troubleshooting-not-in-apps.md
             - name: ตัวเลือกในการรายงาน
               href: hr-admin-troubleshooting-reporting.md
-            - name: FAQ เกี่ยวกับการรวม
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการรวม
               href: hr-admin-troubleshooting-integration.md
     - name: คู่มือสำหรับนักพัฒนา
       items:
@@ -279,7 +295,7 @@
           href: hr-developer-overview.md
         - name: ขยายด้วย Power Apps และ Power Automate
           href: hr-developer-power-apps.md
-        - name: เอนทิตี้ Common Data Service
+        - name: ตาราง Dataverse
           href: hr-developer-entities.md
         - name: ฟิลด์ที่กำหนดเอง
           href: hr-developer-custom-fields.md
@@ -287,7 +303,7 @@
           items:
             - name: เลือกเทคโนโลยีการรวมข้อมูล
               href: hr-admin-integration-choose-technology.md
-            - name: ตั้งค่าคอนฟิกการรวม Common Data Service
+            - name: ตั้งค่าคอนฟิกการรวม Dataverse
               href: hr-admin-integration-common-data-service.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Finance
               href: hr-admin-integration-finance.md
@@ -317,6 +333,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: ส่งคำขอลางานไปที่ลำดับงาน
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: API การรวม ATS
+          items:
+            - name: บทนำ
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: คำขอสรรหาบุคลากรและเอนทิตี้ที่เกี่ยวข้อง
+              items:
+                - name: คำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: การศึกษาคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: ที่ตั้งของคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: ตำแหน่งของคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: ทักษะของคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: ตัวอย่างการสอบถามเกี่ยวกับคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: ชุดตัวเลือกการศึกษาของคำขอสรรหาบุคลากร
+              items:
+                - name: สถานะยกเว้นงาน
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: สถานะตำแหน่งของคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: สถานะของคำขอสรรหาบุคลากร
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: ประเภทงานตามระเบียบบังคับ
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: ผู้สมัครที่จะจ้างงานและเอนทิตี้ที่เกี่ยวข้อง
+              items:
+                - name: ผู้สมัครที่จะจ้างงาน
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: ชนิดของประกาศนียบัตร
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: ผู้ติดต่อของฝ่าย
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: บุคคล
+                  href: hr-admin-integration-ats-api-person.md
+                - name: ที่อยู่ของบุคคล
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: ใบรับรองของบุคคล
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: การศึกษาของบุคคล
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: หมายเลขประจำตัวบุคคล
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: ประสบการณ์การทำงานของบุคคล
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: การคัดเลือกบุคคล
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: ทักษะของบุคคล
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: ระดับการประเมิน
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: ชนิดการคัดเลือก
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: ตัวอย่างการสอบถามเกี่ยวกับผู้สมัครที่จะจ้างงาน
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: ชุดตัวเลือกของผู้สมัคร
+              items:
+                - name: ผลการรวมผู้สมัคร
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: ว่างเปล่า ใช่ ไม่
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: สถานะการเสร็จสมบูรณ์
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: ชนิดผู้ติดต่อ
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: เกณฑ์หน่วยกิตการศึกษา
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: เพศ
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: สถานภาพการสมรส
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: เดือนของปี
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: ไม่ ใช่
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: หน่วยของรอบระยะเวลา
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: ความถี่ในคัดเลือก
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: ความถี่ในคัดเลือกสร้างจาก
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: ชนิดระดับทักษะ
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: คู่มือผู้ใช้
       items:
         - name: ภาพรวม
@@ -361,7 +463,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่สากล
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
-                - name: FAQ เกี่ยวกับสมุดที่อยู่
+                - name: คำถามที่ถามบ่อยเกี่ยวกับสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: ตั้งค่าคอนฟิกสมุดที่อยู่
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
@@ -427,7 +529,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
                 - name: รายงานชนิดลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
-                - name: FAQ เกี่ยวกับลำดับงาน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
             - name: การแจ้งเตือน
               items:
@@ -439,12 +541,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: การแจ้งเตือนลูกค้าทางอีเมล
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: ลายเซ็นอิเล็กทรอนิกส์
-              items:
-                - name: ภาพรวมของลายเซ็นอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: ตั้งค่าลายเซ็นอิเล็กทรอนิกส์
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: การจัดการกรณี
               items:
                 - name: ภาพรวมของการจัดการกรณี
@@ -481,7 +577,7 @@
               href: hr-personnel-create-working-time-calendar.md
             - name: สรรหาผู้สมัครงาน
               href: hr-personnel-recruit.md
-            - name: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการดำเนินการด้านบุคลากร
               href: hr-personnel-actions-faq.md
             - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
               href: hr-workflow-manage-employee-information.md
@@ -535,6 +631,8 @@
               items:
                 - name: ภาพรวมของการจัดการสวัสดิการ
                   href: hr-benefits-management-overview.md
+                - name: พื้นที่ทำงานการจัดการสวัสดิการ
+                  href: hr-benefits-management-workspace.md
                 - name: ตั้งค่าคอนฟิกการจัดการสวัสดิการ
                   items:
                     - name: ตั้งค่าคอนฟิกพารามิเตอร์การจัดการสวัสดิการต่อบริษัท
@@ -591,6 +689,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: ดำเนินการกับการเปลี่ยนแปลงอัตรา
                       href: hr-benefits-process-rate-changes.md
+                - name: การรายงาน ACA
+                  href: hr-benefits-management-aca-reports.md
             - name: กำหนดและจัดการโปรแกรมสวัสดิการ
               href: hr-benefits-manage-program.md
             - name: นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ
@@ -693,3 +793,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: แก้ไขข้อมูลส่วนตัว
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: จํากัดการแก้ไขข้อมูลส่วนตัว
+              href: hr-employee-self-service-restrict-editing.md

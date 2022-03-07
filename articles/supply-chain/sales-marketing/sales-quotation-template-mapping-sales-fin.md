@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527349"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991876"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Supply Chain Management
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527349"
 หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ส่วนหัวของใบเสนอราคาขายและรายการตรงกันโดยตรงจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management
 
 > [!NOTE]
-> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
@@ -63,8 +62,8 @@ ms.locfileid: "4527349"
 
 | ใบสั่งขาย        | Supply Chain Management     |
 |--------------|----------------------------|
-| ข้อความอ้างอิง       | ส่วนหัวของใบเสนอราคาขาย CDS |
-| QuoteDetails | รายการในใบเสนอราคาขาย CDS  |
+| ข้อความอ้างอิง       | ส่วนหัวของใบเสนอราคาขาย Dataverse |
+| QuoteDetails | รายการในใบเสนอราคาขาย Dataverse  |
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 

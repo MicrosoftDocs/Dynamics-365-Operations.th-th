@@ -1,7 +1,7 @@
 ---
 title: พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของปริมาณคงคลังคงเหลือ พื้นที่ทำงานนี้ช่วยให้คุณได้รับข้อมูลเชิงลึกเคลื่อนที่ในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้
-author: yufeihuang
+author: Mirzaab
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yufeihuang
+ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573908"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908741"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>พื้นที่ทำงานการเคลื่อนคงเหลือของสินค้าคงคลัง
 

@@ -1,7 +1,7 @@
 ---
 title: ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
 description: หัวข้อนี้อธิบายถึงวิธีการตั้งค่าและใช้ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง สำหรับธุรกรรมสินค้าคงคลังที่มีอยู่จริงชนิดต่างๆ ลำดับงานสมุดรายวันสินค้าคงคลังช่วยให้มั่นใจว่าเฉพาะสมุดรายวันสินค้าคงคลังที่ได้รับอนุมัติเท่านั้นที่สามารถลงรายการธุรกรรมได้
-author: yufeihuang
+author: sherry-zheng
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 7906ac95a2421c9a974bb7f3c46ee5ee157a0b28d6e0327a139fc980cf6e9f19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766109"
 ---
 # <a name="inventory-journal-approval-workflows"></a>ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
 
@@ -31,7 +31,7 @@ ms.locfileid: "7778316"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>เปิดใช้งานคุณลักษณะลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การจัดการสินค้าคงคลังและคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *ลำดับงานการอนุมัติของสมุดรายวันสินค้าคงคลัง*

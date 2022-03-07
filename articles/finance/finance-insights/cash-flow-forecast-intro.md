@@ -2,28 +2,25 @@
 title: การคาดการณ์กระแสเงินสด (พรีวิว)
 description: หัวข้อนี้จะอธิบายความสามารถในการคาดการณ์กระแสเงินสด
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f97b8fc0896f0f7b95bf5609f94367b3a8230ca7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645259"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186551"
 ---
 # <a name="cash-flow-forecast-preview"></a>การคาดการณ์กระแสเงินสด (พรีวิว)
 
@@ -66,5 +63,4 @@ ms.locfileid: "4645259"
 
 บนแท็บ **มิติ** ให้เลือกจากรายการของมิติที่จะใช้สำหรับการกรองข้อมูล และใช้คีย์ลูกศรเพื่อย้ายไปที่คอลัมน์ด้านขวา สามารถเลือกได้เพียงสองมิติเท่านั้นสำหรับการกรองข้อมูลการคาดการณ์กระแสเงินสด 
 
-#### <a name="privacy-notice"></a>ประกาศความเป็นส่วนตัว
-การแสดงตัวอย่าง (1) อาจใช้วิธีการที่มีความปลอดภัยและความเป็นส่วนตัวที่น้อยลงกว่าบริการ Dynamics 365 Finance and Operations (2) ไม่ถูกรวมอยู่ในข้อตกลงระดับการให้บริการ (SLA) สำหรับบริการนี้ (3) ไม่ควรถูกใช้เพื่อประมวลผลข้อมูลส่วนบุคคลหรือข้อมูลอื่นที่อยู่ภายใต้ข้อกำหนดการปฏิบัติตามกฎหมายหรือระเบียบข้อบังคับ และ (4) มีการสนับสนุนที่จำกัด
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน
 description: หัวข้อนี้จะอธิบายวิธีการแก้ไขปัญหาที่คุณอาจพบขณะทำงานกับการเพิ่มประสิทธิภาพของการวางแผน
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: bbf21abae60d4adee5a23a8405d14907b91724fa2cbf31c901bb46c589b2ea49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992581"
 ---
 # <a name="troubleshoot-planning-optimization"></a>แก้ไขปัญหาการเพิ่มประสิทธิภาพการวางแผน 
 
@@ -47,6 +49,12 @@ ms.locfileid: "6768106"
 
 **การแก้ไข**: รันการวิเคราะห์การเพิ่มประสิทธิภาพของการวางแผนแล้ววิเคราะห์ผลลัพธ์ขณะอ้างอิงถึงเอกสารที่เกี่ยวข้องเพื่อให้เข้าใจถึงผลกระทบ สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การวิเคราะห์การปรับการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-fit-analysis.md)
 
+## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>การวางแผนหลักไม่เคารพกรอบเวลาความครอบคลุม
+
+ซึ่งเกิดจากลักษณะการทำงานที่ค้างอยู่สำหรับการเพิ่มประสิทธิภาพการวางแผน
+
+**การแก้ไข**: จนกว่าลักษณะการทำงานที่ค้างอยู่จะพร้อมใช้งาน ให้กรองหรือลบแผนการใบสั่งเพื่อลบข้อแนะนำในการจัดหาวัสดุออกนอกกรอบเวลาความครอบคลุม
+
 ## <a name="cant-enable-planning-optimization"></a>ไม่สามารถเปิดใช้การเพิ่มประสิทธิภาพการวางแผนได้
 
 **สถานะการเชื่อมต่อ** ต้องเป็น **เชื่อมต่อ** ก่อนที่คุณจะสามารถตั้งค่า **ใช้การเพิ่มประสิทธิภาพการวางแผน** เป็น **ใช่** สำหรับข้อมูลเพิ่มเติมให้ดูที่ [การเริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
@@ -66,6 +74,3 @@ ms.locfileid: "6768106"
 [เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
 
 [การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
