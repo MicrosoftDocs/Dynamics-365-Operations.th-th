@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าสมุดบัญชีค่าเสื่อมราคา
 description: กระบวนงานนี้นำไปสู่กระบวนการสร้างสมุดบัญชีค่าเสื่อมราคาใหม่และเชื่อมโยงกับกลุ่มสินทรัพย์ถาวร
-author: moaamer
+author: saraschi2
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b0ab7f9332e3224c3dadd62aae532ccffb05c82a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883631"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815607"
 ---
 # <a name="set-up-depreciation-books"></a>ตั้งค่าสมุดบัญชีค่าเสื่อมราคา 
 

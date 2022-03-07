@@ -1,12 +1,10 @@
 ---
 title: เนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
-description: หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+description: หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747380"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหา Power BI การวิเคราะห์การบัญชีต้นทุน
+# <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับการวิเคราะห์การบัญชีต้นทุน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Microsoft Power BI **การวิเคราะห์การบัญชีต้นทุน** และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ของ Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -42,7 +40,7 @@ ms.locfileid: "4683882"
 โดยการกำหนดความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุน และการผสมเข้ากับความปลอดภัยระดับแถวใน Power BI คุณสามารถได้รับการเข้าถึงของเจ้าของออบเจ็กต์ต้นทุนทั้งหมดไปยังเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** จากนั้นข้อมูลทั้งหมดในการแสดงภาพประกอบจะถูกกรองข้อมูลตามระดับการเข้าถึงที่ถูกควบคุมในการบัญชีต้นทุน เรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับการเข้าถึงและความปลอดภัยระดับแถว ดู [ตั้งค่าความปลอดภัยสำหรับการวิเคราะห์การบัญชีต้นทุน เนื้อหา Power BI](setup-security-cost-accounting-content-pack.md)
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
-คุณสามารถค้นหาเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** ในไลบรารีสินทรัพย์ที่แบ่งปันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)
+คุณสามารถค้นหาเนื้อหา Power BI **การวิเคราะห์การบัญชีต้นทุน** ในไลบรารีสินทรัพย์ที่แบ่งปันใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการดาวน์โหลดเนื้อหา และปรับใช้งานในองค์กรของคุณ ดู [เนื้อหา Power BI ใน LCS จาก Microsoft และคู่ค้าของคุณ](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners)
 
 ต้องแน่ใจว่าดาวน์โหลดเนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 
@@ -123,3 +121,6 @@ ms.locfileid: "4683882"
 | ปฏิทินทางการเงิน                   | ปฏิทิน คำอธิบายเกี่ยวกับปฏิทิน                                                                                       |
 | ปีบัญชี                       | ปีปฏิทิน                                                                                                        |
 | รอบระยะเวลาทางบัญชี                     | รอบระยะเวลาปีปฏิทิน                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

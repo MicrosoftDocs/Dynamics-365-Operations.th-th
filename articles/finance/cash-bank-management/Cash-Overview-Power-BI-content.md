@@ -1,21 +1,26 @@
 ---
-# required metadata
 title: เนื้อหา Power BI ของภาพรวมเงินสด
 description: หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI ของภาพรวมเงินสด และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
 author: saraschi2
 ms.date: 07/16/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: '2017-06-30'
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 19f07222a9d61cd153d4741f464009562340b939
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336176"
 ---
-
 # <a name="cash-overview-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับภาพรวมของเงินสด
 
 [!include [banner](../includes/banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: รวมบัญชีการจัดส่ง เมื่อมีการนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+title: รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
 description: หัวข้อนี้จะแสดงสถานการณ์จำลองที่ใบสั่งหลายใบถูกนำออกใช้ไปยังคลังสินค้าในกระบวนงานประจำงวดที่มีการนำออกใช้ไปยังคลังสินค้าแบบอัตโนมัติเดียวกัน
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 376c7418b61c0192f9071a879b50b9ece7699894
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c02c8b4cd43e17d6dcf34e1912dbc68c19e60694
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970367"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116962"
 ---
-# <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>รวมบัญชีการจัดส่ง เมื่อมีการนำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+# <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
 
 [!include [banner](../includes/banner.md)]
 
@@ -317,3 +315,6 @@ ms.locfileid: "4970367"
 
 - [นโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
 - [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

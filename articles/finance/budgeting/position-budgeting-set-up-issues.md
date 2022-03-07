@@ -2,11 +2,9 @@
 title: การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
 description: บทความนี้ให้คำตอบแก่คำถามที่คุณอาจมี เมื่อคุณตั้งค่าคอนฟิกการจัดทำงบประมาณของตำแหน่ง  จะเน้นคำถามที่ถูกถามบ่อยเกี่ยวกับวิธีการสร้างองค์ประกอบต้นทุนงบประมาณ กลุ่มค่าตอบแทน และกริดค่าตอบแทน
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726073"
 ---
 # <a name="position-budgeting-troubleshooting"></a>การแก้ไขปัญหาการจัดงบประมาณสำหรับตำแหน่ง
 
@@ -30,8 +28,7 @@ ms.locfileid: "5017628"
 
 บทความนี้ให้คำตอบแก่คำถามที่คุณอาจมี เมื่อคุณตั้งค่าคอนฟิกการจัดทำงบประมาณของตำแหน่ง  จะเน้นคำถามที่ถูกถามบ่อยเกี่ยวกับวิธีการสร้างองค์ประกอบต้นทุนงบประมาณ กลุ่มค่าตอบแทน และกริดค่าตอบแทน 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>เหตุใดฉันจึงไม่พบหน้าตำแหน่งการคาดการณ์ในทรัพยากรบุคคล
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>เหตุใดฉันจึงไม่พบหน้าตำแหน่งการคาดการณ์ในทรัพยากรบุคคล
 
 มีการย้ายตำแหน่งตามการคาดการณ์การจัดทำงบประมาณ
 
@@ -63,3 +60,6 @@ ms.locfileid: "5017628"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

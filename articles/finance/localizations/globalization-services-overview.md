@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: บริการแบบสากล Dynamics 365
 description: หัวข้อนี้แสดงภาพรวมของบริการแบบสากล Microsoft Dynamics 365
 author: JaneA07
+manager: AnnBe
 ms.date: 04/12/2021
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'RCS, Regulatory Configuration Services, Localization, Electronic invoicing, Tax calculation'
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, Electronic invoicing, Tax calculation
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-  - '97423'
-  - intro-internal
-ms.assetid: null
+ms.custom: 97423
+ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
-ms.search.validFrom: '2020-02-01'
+ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
+ms.openlocfilehash: 8c6f3b7fb4dec0dffe55014e9e2d60620dc3b193
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893059"
 ---
 # <a name="dynamics-365-globalization-services"></a>บริการแบบสากล Dynamics 365
 

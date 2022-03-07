@@ -2,15 +2,12 @@
 title: โมดูล iFrame
 description: หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665407"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348225"
 ---
 # <a name="iframe-module"></a>โมดูล iFrame
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้ครอบคลุมถึงโมดูล iFrame และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 โมดูล iFrame มี iFrame (เฟรมอินไลน์) ที่โฮสต์เนื้อหาภายนอกบนไซต์ ตัวอย่างเช่น คุณสามารถใช้เพื่อโฮสต์วิดีโอ YouTube หรือตัวแสดงไฟล์ PDF บนหน้าไซต์ใดๆ 
 
@@ -77,3 +72,6 @@ ms.locfileid: "4665407"
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

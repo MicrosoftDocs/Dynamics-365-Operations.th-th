@@ -1,28 +1,25 @@
 ---
 title: โอนย้ายวัสดุด้วยงานคัมบัง
 description: ขั้นตอนนี้มุ่งเน้นการดำเนินการงานคัมบัง ในการเบิกถอนเพื่อการโอนย้ายวัสดุและส่วนประกอบ
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96cb77b7b37fe6519a812735d9a41749da078cf2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11771bbedc9fe4bdfaaa074c449cd329ce1a1d8f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438584"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568002"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>โอนย้ายวัสดุด้วยงานคัมบัง
 
@@ -66,3 +63,6 @@ ms.locfileid: "4438584"
 2. คลิกเสร็จสมบูรณ์
     * การโอนย้ายนี้จะสำเร็จทั้ง2งาน  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

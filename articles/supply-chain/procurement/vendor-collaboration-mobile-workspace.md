@@ -1,27 +1,25 @@
 ---
 title: พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020847"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577035"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 
@@ -59,7 +57,7 @@ ms.locfileid: "5020847"
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>มีข้อกำหนดเบื้องต้นถ้าคุณใช้ Supply Chain Management
-ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)
+ถ้า Supply Chain Management ได้รับการปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 ถ้ามีการปรับใช้ Microsoft Dynamics 365 for Operations รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ 
@@ -79,7 +77,7 @@ ms.locfileid: "5020847"
 <td>KB 3216943 เป็นปรับปรุงแบบไบนารีที่จำเป็นต้องมี หากคุณกำลังใช้การปรับปรุงแพลตฟอร์ม 3 เมื่อต้องการใช้ KB นี้ ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
 <li>ดาวน์โหลด KB 3216943 จาก Microsoft Dynamics Lifecycle Services (LCS)</li>
-<li>ติดตั้งการอัพเดตแบบไบนารี ซึ่งจะถูกจัดส่งเป็นแพคเกจสามารถปรับใช้ได้ สำหรับข้อมูลเกี่ยวกับวิธีการใช้แพคเกจสามารถปรับใช้ได้ ดู <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจสามารถปรับใช้ได้</a></li>
+<li>ติดตั้งการอัพเดตแบบไบนารี ซึ่งจะถูกจัดส่งเป็นแพคเกจสามารถปรับใช้ได้ สำหรับข้อมูลเกี่ยวกับวิธีการใช้แพคเกจสามารถปรับใช้ได้ ดู <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจสามารถปรับใช้ได้</a></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ ms.locfileid: "5020847"
 <td>ผู้ดูแลระบบ</td>
 <td>KB 4013633 คือการอัพเดต X ++ หรือโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาที่ประกอบด้วยพื้นที่ทำงานแบบเคลื่อนที่ของ <strong>ปริมาณคงคลังคงเหลือ</strong> เมื่อต้องการใช้ KB 4013633 ผู้ดูแลระบบต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก LCS</a></li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนแบบข้อมูลเมตาจาก LCS</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนแบบข้อมูลเมตา</a></li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพคเกจที่สามารถปรับใช้ได้</a> ที่ประกอบด้วยแบบจำลอง <strong>SCMMobile</strong> แล้วอัพโหลดแพคเกจที่สามารถปรับใช้ได้กับ LCS</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพคเกจที่สามารถปรับใช้ได้</a></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>ต้องมีการเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ของ <strong>การทำงานร่วมกันกับผู้จัดจำหน่าย</strong></td><td>ผู้ดูแลระบบ</td>
-<td>ดู <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
+<td>ดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่</a></td>
 </tr>
 <tr class="even">
 <td>ผู้ใช้ที่เป็นผู้จัดจำหน่ายต้องสามารถเข้าถึงอินเทอร์เฟซเว็บการทำงานร่วมกันกับผู้จัดจำหน่ายในเว็บไคลเอนต์ได้ และต้องตั้งค่าผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย</td><td>ผู้ดูแลระบบและผู้เชี่ยวชาญด้านการจัดซื้อ</td>
@@ -169,3 +167,6 @@ ms.locfileid: "5020847"
 
 ### <a name="open-confirmed-orders"></a>เปิดใบสั่งที่ยืนยัน
 เมื่อมีการยืนยันใบสั่งซื้อจากลูกค้า (ซึ่งหมายความว่า สถานะใบสั่งซื้อเปลี่ยนเป็น **ยืนยันแล้ว**) จะปรากฏในใบสั่งที่ยืนยันแล้วที่เปิดอยู่ ซึ่งจะยังคงอยู่ในรายการจนกว่าจะมีการลงทะเบียนว่า ได้รับแล้ว จากลูกค้า
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ภาพรวมขององค์กรและลำดับชั้นขององค์กร
-description: องค์กร คือ กลุ่มของบุคคลที่ทำงานร่วมกันเพื่อดำเนินกระบวนการทางธุรกิจหรือบรรลุเป้าหมาย  ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ
+description: ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ
 author: sericks007
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: efd34b01ab414b2282fd08d8d9329ae7f9a801ce
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797057"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747646"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>ภาพรวมขององค์กรและลำดับชั้นขององค์กร
 
@@ -67,3 +65,6 @@ ms.locfileid: "4797057"
 แต่ละลำดับชั้นจะมีการกำหนดวัตถุประสงค์ วัตถุประสงค์ของลำดับชั้นกำหนดชนิดขององค์กรที่สามารถรวมอยู่ในลำดับชั้น วัตถุประสงค์ยังกำหนดสถานการณ์การใช้ที่สามารถใช้ลำดับชั้นอีกด้วย
 
 องค์กรในลำดับชั้นสามารถใช้ร่วมกันพารามิเตอร์ นโยบาย และธุรกรรม องค์กรที่สามารถสืบทอด หรือพารามิเตอร์ขององค์กรหลักของการแทน อย่างไรก็ตาม ข้อมูลหลักที่ใช้ร่วมกัน เช่น ผลิตภัณฑ์ และสมุดที่อยู่ นำไปใช้กับทั้งองค์กรและไม่สามารถถูกแทนที่สำหรับแต่ละองค์กรได้ การสร้างองค์กรและลำดับชั้นต้องมีการวางแผนที่รอบคอบ สำหรับข้อมูลเพิ่มเติม ดู [การวางแผนลำดับชั้นขององค์กรของคุณ](plan-organizational-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

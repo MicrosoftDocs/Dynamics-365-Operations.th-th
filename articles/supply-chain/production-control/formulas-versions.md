@@ -1,27 +1,30 @@
 ---
 title: สูตรและเวอร์ชันสูตร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสูตรและเวอร์ชันสูตร สูตรเป็นตัวกำหนดวัสดุ ส่วนประกอบ และผลลัพธ์ของกระบวนการที่ระบุในกระบวนการผลิต สูตรจะถูกใช้ในการวางแผนและสร้างผลิตภัณฑ์ในกระบวนการผลิต
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570284"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438417"
 ---
 # <a name="formulas-and-formula-versions"></a>สูตรและเวอร์ชันสูตร
 
@@ -68,6 +71,3 @@ ms.locfileid: "7570284"
 
 ## <a name="use-step-consumption"></a>ใช้ปริมาณการใช้ขั้นตอน
 ปริมาณการใช้ขั้นตอนช่วยให้คุณไม่จำต้องป้อนปริมาณในแท็บ **รายการสูตร** สำหรับส่วนผสม แต่ปริมาณการใช้ขั้นตอนจะถูกตั้งค่าคอนฟิกเพื่อให้มีค่า **จากชุด** และค่า **ปริมาณ** มีการเลือกข้อมูลจากปริมาณการใช้ขั้นตอนต่อเรกคอร์ดชุดที่ทำให้ได้ปริมาณตามใบสั่งชุดงาน ปริมาณการใช้ขั้นตอนมีประโยชน์เมื่ออัตราปริมาณการใช้ไม่ใช่แบบเชิงเส้นโดยอ้างอิงขนาดใบสั่งชุดงาน และจะเพิ่มความต้องการเฉพาะเมื่อตรงตามปริมาณขีดจำกัดเฉพาะ เมื่อต้องการเปิดใช้งานคุณลักษณะนี้สำหรับสูตรใหม่ ภายใต้กลุ่ม **การคำนวณปริมาณการใช้** เปลี่ยนการตั้งค่าสูตรสำหรับส่วนผสมที่เกี่ยวข้องจาก **มาตรฐาน** เป็น **ขั้นตอน** คุณระบุวิธีปริมาณการใช้นี้ในแท็บ **ตั้งค่า** ของหน้า **รายการสูตร**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

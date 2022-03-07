@@ -1,12 +1,10 @@
 ---
 title: ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถเผยแพร่ความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนไปยังความปลอดภัยระดับแถวใน Microsoft Power BI ฟังก์ชันนี้ช่วยรับประกันว่าผู้ใช้เห็นเฉพาะข้อมูล Power BI ที่พวกเขาได้รับอนุญาตให้เข้าถึง
+description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถเผยแพร่ความปลอดภัยระดับการเข้าถึงในการบัญชีต้นทุนไปยังความปลอดภัยระดับแถวใน Microsoft Power BI
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751502"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>ตั้งค่าความปลอดภัยสำหรับเนื้อหาของ Power BI เกี่ยวกับการบัญชีต้นทุน
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +29,7 @@ ms.locfileid: "4682200"
 
 ## <a name="overview"></a>ภาพรวม
 
-เนื้อหา Microsoft Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ใช้ความปลอดภัยระดับแถวของ Power BI เพื่อจำกัดการเข้าถึงของผู้ใช้ ความปลอดภัยขึ้นอยู่กับลำดับชั้นขององค์กรระดับการเข้าถึงที่ถูกตั้งค่าในพารามิเตอร์การบัญชีต้นทุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเนื้อหา Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ดู [เนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน](cost-accounting-analysis-content-pack.md)
+เนื้อหา **การวิเคราะห์การบัญชีต้นทุน** ใน Microsoft Power BI ใช้ความปลอดภัยระดับแถวของ Power BI เพื่อจำกัดการเข้าถึงของผู้ใช้ ความปลอดภัยขึ้นอยู่กับลำดับชั้นขององค์กรระดับการเข้าถึงที่ถูกตั้งค่าในพารามิเตอร์การบัญชีต้นทุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเนื้อหา Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ดู [เนื้อหา Power BI ของการวิเคราะห์การบัญชีต้นทุน](cost-accounting-analysis-content-pack.md)
 
 ## <a name="setup"></a>การตั้งค่า
 เพื่อเผยแพร่ความปลอดภัยระดับการเข้าถึงไปยัง Power BI เจ้าของเนื้อหา Power BI ต้องทำตามขั้นตอนเหล่านี้
@@ -63,3 +61,6 @@ ms.locfileid: "4682200"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความปลอดภัยระดับแถวของ Power BI ดู [จัดการความปลอดภัยในแบบจำลองของคุณใน Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,46 +2,40 @@
 title: ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
 description: หัวข้อนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
 author: psimolin
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750725"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
-
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
 
-## <a name="overview"></a>ภาพรวม
-
 Microsoft Dynamics Lifecycle Services (LCS) เป็นพื้นที่ทำงานที่ใช้ร่วมกันบน Cloud ซึ่งคู่ค้าและลูกค้าสามารถใช้เพื่อการจัดการโครงการและ สภาพแวดล้อมต่าง ๆ ดูข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์และลักษณะการทำงานของ Microsoft Dynamics และ สร้าง ติดตาม และเรียกดูเหตุการณ์สนับสนุน คุณลักษณะการจัดการอีคอมเมิร์ซถูกรวมเข้ากับ LCS
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับ LCS โปรดดูที่ [Lifecycle Services User Guide](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับ LCS โปรดดูที่ [Lifecycle Services User Guide](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
     
 ## <a name="get-started"></a>เริ่มต้น
 
 ก่อนที่คุณจะสามารถเริ่มต้นการใช้งานอีคอมเมิร์ซ คุณต้องเริ่มต้นโครงการ สภาพแวดล้อม และ Retail Cloud Scale Unit (RCSU) เมื่อต้องการทำการเริ่มต้นใน LCS คุณต้องได้รับอนุญาตสำหรับบทบาทของเจ้าของโครงการ หรือผู้จัดการสภาพแวดล้อม รองรับโทโพโลยีสภาพแวดล้อมการผลิตและ Sandbox
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสภาพแวดล้อม ดูที่ [การวางแผนสภาพแวดล้อม](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ RCSU ให้ดูที่ [เริ่มต้น Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสภาพแวดล้อม ดูที่ [การวางแผนสภาพแวดล้อม](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ RCSU ให้ดูที่ [เริ่มต้น Retail Cloud Scale Unit](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels)
 
 ## <a name="initialize-e-commerce"></a>เตรียมใช้งานอีคอมเมิร์ซ
 
@@ -112,3 +106,6 @@ Microsoft Dynamics Lifecycle Services (LCS) เป็นพื้นที่ท
 [เพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
 
 [เปิดใช้งานการตรวจหาร้านค้าตามตำแหน่งที่ตั้ง](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

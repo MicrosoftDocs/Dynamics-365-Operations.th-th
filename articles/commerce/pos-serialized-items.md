@@ -2,9 +2,11 @@
 title: ทำงานกับสินค้าที่กำหนดหมายเลขลำดับประจำสินค้าใน POS
 description: หัวข้อนี้อธิบายวิธีการจัดการสินค้าที่ที่กำหนดหมายเลขลำดับประจำสินค้าในแอปพลิเคชันการขายหน้าร้านของ (POS)
 author: boycezhu
+manager: annbe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737589"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231259"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>ทำงานกับสินค้าที่กำหนดหมายเลขลำดับประจำสินค้าใน POS
 
@@ -130,9 +132,9 @@ ms.locfileid: "6737589"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[การดำเนินงานของสินค้าคงคลังขาเข้าใน POS](./pos-inbound-inventory-operation.md)
+[การดำเนินงานของสินค้าคงคลังขาเข้าใน POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
-[การดำเนินงานของสินค้าคงคลังขาออกใน POS](./pos-outbound-inventory-operation.md)
+[การดำเนินงานของสินค้าคงคลังขาออกใน POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

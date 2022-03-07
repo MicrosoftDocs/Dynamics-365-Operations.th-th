@@ -1,22 +1,22 @@
 ---
 title: การประมูลแบบเปิดสำหรับ RFQ
 description: หัวข้อนี้จะอธิบายวิธีตั้งค่าการประมูลที่ปิดผนึกเพื่อเก็บความลับในการตอบการประมูลให้แก่ผู้จัดจำหน่ายจนกว่าการประมูลจะถูกเปิดผนึกโดยบุคลากรจัดซื้อ
-author: Henrikan
+author: yanansong
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: yanansong
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578091"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500645"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>การประมูลแบบเปิดสำหรับ RFQ
 
@@ -53,11 +53,7 @@ ms.locfileid: "7578091"
 Supply Chain Management ใช้คีย์การเข้ารหัสเพื่อป้องกันการประมูลที่ปิดผนึกไว้ทั้งหมดและเก็บการประมูลเหล่านั้นไว้เป็นความลับจนกว่าจะถึงเวลาที่เหมาะสม ใช้ประโยชน์จากความสามารถหลักของ Key Vault เพื่อสร้างและจัดการคีย์ที่ต้องใช้ ดังนั้น คุณจึงต้องตั้งค่าการเชื่อมต่อจาก Supply Chain Management ไปยังคีย์หนึ่งๆ เพื่อเปิดใช้งานระบบ
 
 > [!IMPORTANT]
-> Key Vault ที่คุณใช้เพื่อการประมูลที่ปิดผนึกต้องเป็นไปตามข้อความต้องการต่อไปนี้:
->
-> - ถ้าคุณใช้ Sandbox เพื่อการพัฒนาและการทดสอบ คุณจะต้องมี key vault เฉพาะหนึ่งๆ ให้กับ Sandbox และแยกอีกหนึ่งคีย์เป็นการใช้งานจริง
-> - แต่ละ Key Vault ต้องสร้างขึ้นในการบอกรับเป็นสมาชิก Azure ที่เป็นขององค์กรของคุณ (ไม่ใช่การบอกรับเป็นสมาชิกที่คุณกำลังเรียกใช้ Supply Chain Management)
-> - แต่ละ key vault ต้องใช้เฉพาะกับการประมูลที่ปิดผนึกแล้วเท่านั้น คุณต้องไม่ใช้ key vault การประมูลที่ปิดผนึกของคุณเพื่อวัตถุประสงค์อื่นใด
+> Key Vault ต้องสร้างขึ้นในการบอกรับเป็นสมาชิก Azure ที่เป็นขององค์กรของคุณ (ไม่ใช่การบอกรับเป็นสมาชิกที่คุณกำลังเรียกใช้ Supply Chain Management)
 
 การประมูลทุกรายการจะดึงคีย์ข้อมูลลับของตนเอง คีย์นี้จะใช้ทุกครั้งที่ผู้ใช้ดู อัปเดต หรือเปิดการประมูล
 

@@ -2,26 +2,23 @@
 title: แบ่งสินทรัพย์ถาวร
 description: หัวข้อนี้อธิบายวิธีการแบ่งเปอร์เซ็นต์ของสมุดบัญชีสินทรัพย์หนึ่งรายการเป็นสมุดบัญชีสินทรัพย์ใหม่
 author: saraschi2
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: 1ac7bc9ae9040f9668c36c570be795ebeb7c6970049ff911b1caeadd06f31d0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779001"
 ---
 # <a name="split-a-fixed-asset"></a>แบ่งสินทรัพย์ถาวร
 
@@ -63,3 +60,6 @@ ms.locfileid: "4514337"
     - สร้างธุรกรรมการซื้อสินทรัพย์สำหรับสินทรัพย์ใหม่สำหรับยอดเงินเดียวกัน
 
 4. เลือก **ลงรายการบัญชี**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,20 +1,25 @@
 ---
-# required metadata
 title: เพิ่มภาษาลงในไซต์ของคุณ
 description: หัวข้อนี้อธิบายถึงวิธีการเพิ่มการสนับสนุนสำหรับภาษาเพิ่มเติมให้กับไซต์ Microsoft Dynamics 365 Commerce
 author: bicyclingfool
 ms.date: 12/12/2019
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: null
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964565"
 ---
 # <a name="add-languages-to-your-site"></a>เพิ่มภาษาลงในไซต์ของคุณ
 

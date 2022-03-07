@@ -2,35 +2,33 @@
 title: ตั้งค่าหลักสูตรการฝึกอบรม
 description: ผู้ดูแลระบบทรัพยากรบุคคลและผู้จัดการสามารถใช้ลักษณะการทำงานของหลักสูตรในการรักษาข้อมูลเกี่ยวกับการฝึกอบรมที่ให้แก่ผู้ปฏิบัติงาน
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1182935dbdf774b89f2c3635bdb18f45f99dc1ddadb398f226672b7b5b9e31de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727052"
 ---
 # <a name="set-up-training-courses"></a>ตั้งค่าหลักสูตรการฝึกอบรม
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 ผู้ดูแลระบบทรัพยากรบุคคลและผู้จัดการสามารถใช้ลักษณะการทำงานของหลักสูตรในการรักษาข้อมูลเกี่ยวกับการฝึกอบรมที่ให้แก่ผู้ปฏิบัติงาน
 
- <a name="set-up-prerequisites"></a> ตั้งค่าข้อกำหนดเบื้องต้น
----------------------
+##  <a name="set-up-prerequisites"></a> ตั้งค่าข้อกำหนดเบื้องต้น
 
 ข้อมูลต่อไปนี้จำเป็นและต้องตั้งค่าก่อนที่คุณจะสร้างหลักสูตร
 -   **ชนิดของหลักสูตร**
@@ -128,8 +126,7 @@ ms.locfileid: "4420830"
 ## <a name="course-participants"></a>ผู้เข้าร่วมหลักสูตร
 ผู้เข้าร่วมหลักสูตรคือ ผู้ปฏิบัติงานที่มีส่วนร่วมในหลักสูตรการฝึกอบรมหรือเหตุการณ์ คุณสามารถลงทะเบียนผู้เรียนสำหรับหลักสูตรที่เปิดเท่านั้น จำนวนผู้เรียนต่ำสุดและสูงสุดที่คุณสามารถลงทะเบียนได้สำหรับหลักสูตรที่มีการกำหนดไว้บนแท็บด่วน **ทั่วไป** บนหน้า **หลักสูตร**
 
-<a name="workflow"></a>ลำดับงาน
---------
+## <a name="workflow"></a>ลำดับงาน
 
 พนักงานที่ลงทะเบียนสำหรับหลักสูตรโดยผ่านหน้า **การบริการตนเองของพนักงาน** สามารถมีเส้นทางการลงทะเบียนผ่านลำดับงานเพื่ออนุมัติ คุณสามารถกำหนดลำดับงานให้กับหลักสูตรใน FastTab **ทั่วไป** บนหน้า **หลักสูตร**
 
@@ -137,3 +134,6 @@ ms.locfileid: "4420830"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

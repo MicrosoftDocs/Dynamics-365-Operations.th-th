@@ -1,37 +1,33 @@
 ---
 title: ตั้งค่าวัตถุอันตราย
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าข้อมูลที่จำเป็นสำหรับการจัดประเภทสินค้าเป็นวัตถุอันตราย เมื่อคุณสร้างใบสั่งขายที่มีสินค้าที่จัดประเภทเป็นวัตถุอันตราย ระบบจะสร้างเอกสารประกอบวัตถุอันตรายสำหรับใบสั่งขายนั้นเมื่อมีการจัดส่งสินค้า
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438668"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778020"
 ---
 # <a name="set-up-hazardous-materials"></a>ตั้งค่าวัตถุอันตราย
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 เมื่อต้องการใช้ฟังก์ชันวัตถุอันตราย คุณต้องตั้งค่าข้อมูลที่จำเป็นในการจัดประเภทสินค้าเป็นวัตุอันตราย ดังนั้น เมื่อคุณสร้างใบสั่งขายที่มีสินค้าที่จัดประเภทเป็นวัตถุอันตราย ระบบจะสร้างเอกสารประกอบวัตถุอันตรายสำหรับใบสั่งขายนั้นเมื่อมีการจัดส่ง
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะวัตถุอันตรายสำหรับระบบของคุณ
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
 
 - **โมดูล:** *การจัดการข้อมูลผลิตภัณฑ์*
 - **ชื่อคุณลักษณะ:** *ข้อมูลผลิตภัณฑ์และเอกสารประกอบการจัดส่งวัตถุอันตราย*
@@ -284,3 +280,6 @@ Microsoft Dynamics 365 Supply Chain Management มีข้อมูลจำเ
 ข้อมูลจำเพาะ *อุโมงค์ในการขนส่งวัตถุอันตราย* จะจำกัดชนิดของอุโมงค์ที่สามารถขนส่งวัตถุอันตรายโดยการระบุชนิดของอุโมงค์ที่ต้องใช้ ประเภทของอุโมงค์กำหนดตามกฎระเบียบที่บังคับใช้สำหรับการขนส่งวัตถุอันตราย โดยทั่วไปแล้ว ข้อมูลจำเพาะนี้จะใช้กับการขนส่งทางถนนเท่านั้น
 
 เมื่อต้องการตั้งค่าสำหรับข้อมูลจำเพาะนี้ ให้ไปที่ **การจัดการข้อมูลผลิตภัณฑ์ \> การตั้งค่า \> เอกสารประกอบการจัดส่งวัตถุอันตราย \> อุโมงค์ในการขนส่งวัตถุอันตราย** บนหน้า **อุโมงค์ในการขนส่งวัตถุอันตราย** คุณสามารถสร้าตัวระบุอุโมงค์จำนวนเท่าใดก็ได้และตั้งค่าคอนฟิกแต่ละรายการด้วยรหัสที่ระบุและคำอธิบายโดยย่อ
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

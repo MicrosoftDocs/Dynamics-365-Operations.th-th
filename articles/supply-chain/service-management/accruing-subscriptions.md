@@ -1,12 +1,10 @@
 ---
 title: การตั้งค้างรับการสั่งซื้อโดยบอกรับเป็นสมาชิก
 description: ด้วยการสั่งซื้อโดยบอกรับเป็นสมาชิกการบริการ คุณจะรับรู้รายได้ในรอบเวลาที่ตามหลังวันที่เมื่อคุณออกใบแจ้งหนี้ธุรกรรมค่าธรรมเนียมได้ด้วยตัวเอง
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d0d6c25cc8a19f5ebea3477cd2c957876752fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966091"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580491"
 ---
 # <a name="accruing-subscriptions"></a>การตั้งค้างรับการสั่งซื้อโดยบอกรับเป็นสมาชิก 
 
@@ -43,7 +41,7 @@ ms.locfileid: "4966091"
 
   - คุณสามารถย้อนกลับจำนวนเงินค้างรับในวันที่ที่มีการลงรายการบัญชีใบลดหนี้ หรือในวันที่ที่ลงรายการบัญชีเดิมของการรับรู้ได้
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พารามิเตอร์การบอกรับเป็นสมาชิก (ฟอร์ม)](https://technet.microsoft.com/library/aa619615.aspx)
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [พารามิเตอร์การบอกรับเป็นสมาชิก (ฟอร์ม)](/dynamicsax-2012//subscription-parameters-form)
 
 ## <a name="setup-requirements"></a>ตั้งค่าความต้องการ
 
@@ -67,7 +65,7 @@ ms.locfileid: "4966091"
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>การเปิดใช้งานรายได้ค้างรับบนกลุ่มการบอกรับการสมัครสมาชิก
 
-1.  คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**
+คลิก **การจัดการงานบริการ** \> **การตั้งค่า** \> **การบอกรับเป็นสมาชิกการบริการ** \> **กลุ่มการบอกรับเป็นสมาชิก**
 
 ## <a name="periods"></a>รอบระยะเวลา
 
@@ -77,8 +75,8 @@ ms.locfileid: "4966091"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -151,3 +149,6 @@ ms.locfileid: "4966091"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,35 @@
 ---
 title: ลงทะเบียนและลบสวัสดิการจากผู้ปฏิบัติงาน
-description: 'ขั้นตอนนี้สาธิตว่าผู้ปฏิบัติงานสามารถลงทะเบียนในสวัสดิการอันเดียวหรือมากกว่านั้นได้อย่างไร ตลอดจนผู้ปฏิบัติงานหลายคนสามารถลงทะเบียนได้ในสวัสดิการ '
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: ขั้นตอนนี้แสดงวิธีลงทะเบียนผู้ปฏิบัติงานในสวัสดิการอันเดียวหรือมากกว่านั้นได้อย่างไร ตลอดจนการลงทะเบียนผู้ปฏิบัติงานหลายคนในสวัสดิการ
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b99db1e480ea4a53d2bda609eb08105509d95f4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420682"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065387"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>ลงทะเบียนและลบสวัสดิการจากผู้ปฏิบัติงาน
 
 
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-ขั้นตอนนี้สาธิตว่าผู้ปฏิบัติงานสามารถลงทะเบียนในสวัสดิการอันเดียวหรือมากกว่านั้นได้อย่างไร ตลอดจนผู้ปฏิบัติงานหลายคนสามารถลงทะเบียนได้ในสวัสดิการ  ข้อมูลบริษัทสาธิตที่ใช้ในการสร้างกระบวนงานนี้คือ USMF
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
+
+ขั้นตอนนี้แสดงวิธีลงทะเบียนผู้ปฏิบัติงานในสวัสดิการอันเดียวหรือมากกว่านั้นได้อย่างไร ตลอดจนการลงทะเบียนผู้ปฏิบัติงานหลายคนในสวัสดิการ บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>การลงทะเบียนผู้ปฏิบัติงานคนเดียวในสวัสดิการ
@@ -58,3 +60,6 @@ ms.locfileid: "4420682"
 14. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 15. หน้านี้จะช่วยให้คุณดูพนักงานที่ได้ลงทะเบียนในสวัสดิการและพนักงานที่ยังไม่ได้ลงทะเบียน
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

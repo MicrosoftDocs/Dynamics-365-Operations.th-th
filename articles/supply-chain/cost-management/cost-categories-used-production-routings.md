@@ -2,11 +2,9 @@
 title: ประเภทต้นทุนที่ใช้ในกระบวนการผลิต
 description: บทความนี้แสดงข้อมูลเกี่ยวกับประเภทต้นทุนที่ใช้กับสภาพแวดล้อมการผลิตที่ใช้กระบวนการผลิต
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f6204cfbdb56978f0b7611a38db8c23953ed83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 511ffbe8238f01e83683649a7e6f189bdea80da1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967730"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839450"
 ---
 # <a name="cost-categories-used-in-production-routing"></a>ประเภทต้นทุนที่ใช้ในกระบวนการผลิต
 
@@ -55,3 +53,6 @@ ms.locfileid: "4967730"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

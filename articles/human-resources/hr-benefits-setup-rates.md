@@ -2,15 +2,12 @@
 title: ตั้งค่าคอนฟิกอัตรา
 description: อัตราใน Microsoft Dynamics 365 Human Resources กำหนดว่านายจ้างและพนักงานมีส่วนร่วมสำหรับสวัสดิการมากน้อยเพียงใด
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420788"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054991"
 ---
 # <a name="configure-rates"></a>ตั้งค่าคอนฟิกอัตรา
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 อัตราใน Microsoft Dynamics 365 Human Resources กำหนดว่านายจ้างและพนักงานมีส่วนร่วมสำหรับสวัสดิการมากน้อยเพียงใด ค่าอาจเป็นจำนวนหรือเครดิตแบบยืดหยุ่นเวลา ขึ้นอยู่กับการตั้งค่าคอนฟิกของคุณ
 
@@ -93,3 +92,6 @@ ms.locfileid: "4420788"
    | **อัตราผู้สูบบุหรี่สำหรับเครดิตแบบยืดหยุ่น** | จำนวนของต้นทุนสวัสดิการของเครดิตแบบยืดหยุ่น ตามการคำนวณที่กำหนดสำหรับระดับชั้นสำหรับผู้ที่สูบบุหรี่ |
 
 5. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

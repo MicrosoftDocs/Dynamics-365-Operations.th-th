@@ -2,28 +2,19 @@
 title: ลำดับชั้นขององค์กรใน Dataverse
 description: ในหัวข้อนี้อธิบายการรวมข้อมูลองค์กรระหว่างแอป Finance and Operations กับ Dataverse
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744704"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542598"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>ลำดับชั้นขององค์กรใน Dataverse
 
@@ -47,29 +38,17 @@ ms.locfileid: "4744704"
 
 ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังตารางถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
 
-แอป Finance and Operations | แอปพลิเคชันอื่น ๆ ของ Dynamics 365 | คำอธิบาย
+แอป Finance and Operations | แอป Customer Engagement     | คำอธิบาย
 -----------------------|--------------------------------|---
-วัตถุประสงค์ลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchypurposes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางวัตถุประสงค์ของลำดับชั้นขององค์กร
-ชนิดลำดับชั้นขององค์กร | msdyn_internalorganizationhierarchytypes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางชนิดของลำดับชั้นขององค์กร
-ลำดับชั้นขององค์กร - เผยแพร่ | msdyn_internalorganizationhierarchies | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางที่เผยแพร่ของลำดับชั้นขององค์กร
-หน่วยปฏิบัติงาน | msdyn_internalorganizations |
-นิติบุคคล | msdyn_internalorganizations |
-นิติบุคคล | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[นิติบุคคล](mapping-reference.md#102) | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
+[นิติบุคคล](mapping-reference.md#142) | msdyn_internalorganizations |
+[หน่วยปฏิบัติงาน](mapping-reference.md#143) | msdyn_internalorganizations |
+[ลำดับชั้นขององค์กร - เผยแพร่](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางที่เผยแพร่ของลำดับชั้นขององค์กร
+[วัตถุประสงค์ลำดับชั้นขององค์กร](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางวัตถุประสงค์ของลำดับชั้นขององค์กร
+[ชนิดลำดับชั้นขององค์กร](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | แม่แบบนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางชนิดของลำดับชั้นขององค์กร
 
 ## <a name="internal-organization"></a>องค์กรภายใน
 
 ข้อมูลองค์กรภายในใน Dataverse มาจากตารางสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
 
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

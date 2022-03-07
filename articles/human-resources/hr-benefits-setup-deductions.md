@@ -2,15 +2,12 @@
 title: ตั้งค่าคอนฟิกรายการหัก
 description: ใช้การหักลดใน Microsoft Dynamics 365 Human Resources เพื่อกำหนดจำนวนเงิน ถ้ามี เพื่อหักจากเงินเดือนของพนักงานสำหรับแต่ละสิทธิประโยชน์
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4fac1624ce3a88b9fb4adcf303860e82f9d9165b
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420681"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055567"
 ---
 # <a name="configure-deductions"></a>ตั้งค่าคอนฟิกรายการหัก
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ใช้การหักลดใน Microsoft Dynamics 365 Human Resources เพื่อกำหนดจำนวนเงิน ถ้ามี เพื่อหักจากเงินเดือนของพนักงานสำหรับแต่ละสิทธิประโยชน์ การหักลดจะมีผลในวันที่บังคับใช้ ดังนั้นคุณจึงสามารถจัดเก็บบันทึกประวัติของข้อมูลการหักลดได้ 
 
@@ -52,3 +51,6 @@ ms.locfileid: "4420681"
 4. การติดตามและรักษาการเปลี่ยนแปลงการตั้งค่าอัตราสิทธิประโยชน์ ให้เลือก **ดำเนินการ** จากนั้นเลือก **รักษาเวอร์ชัน**
 
 5. เลือก **บันทึก** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

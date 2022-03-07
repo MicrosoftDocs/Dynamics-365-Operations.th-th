@@ -2,15 +2,12 @@
 title: แก้ไขมิติทางการเงินสำหรับธุรกรรมการขายปลีก
 description: หัวข้อนี้อธิบายวิธีการแก้ไขมิติทางการเงินสําหรับธุรกรรมขายปลีกใน Microsoft Dynamics 365 Commerce
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e26bd4eb53fa44330f15c7cda004cb3d19dfec6d
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4460067"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792716"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>แก้ไขมิติทางการเงินสำหรับธุรกรรมการขายปลีก
 
@@ -54,3 +51,6 @@ ms.locfileid: "4460067"
 [สร้างเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก](create-excel-edit.md)
 
 [เพิ่มฟิลด์ลงในเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้ ผู้ใช้สามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
+description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767123"
 ---
 # <a name="my-team-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
 
@@ -97,3 +95,6 @@ ms.locfileid: "4680981"
 1.  เลือก **ส่งคำชมเชย** 
 1. ป้อนข้อความของการชมเชยที่คุณต้องการส่ง 
 1. เลือก **เสร็จสิ้น**
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

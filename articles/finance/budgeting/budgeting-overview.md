@@ -1,12 +1,10 @@
 ---
 title: โฮมเพจของการจัดงบประมาณ
 description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับส่วนประกอบของฟังก์ชันการจัดทำงบประมาณ เครื่องมือการจัดทำงบประมาณ และความสามารถด้านการรายงานใน Microsoft Dynamics 365 Finance
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
+author: panolte
+ms.date: 04/29/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4aa89f27925b88be947f27303957cd53089b8290
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962921"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960027"
 ---
 # <a name="budgeting-home-page"></a>โฮมเพจของการจัดงบประมาณ
 
@@ -70,3 +68,6 @@ ms.locfileid: "4962921"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

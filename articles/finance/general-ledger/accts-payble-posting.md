@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: การลงรายการบัญชีสำหรับบัญชีเจ้าหนี้
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกการลงรายการบัญชีในบัญชีเจ้าหนี้และแสดงตัวอย่างการตั้งค่าคอนฟิกการลงรายการบัญชี
 author: rachel-profitt
 ms.date: 01/19/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
-ms.search.form: 'VendPosting, VendPaymMode, VendCashDiscount, MarkupTable\_Vend, VendPaymFee'
+ms.prod: ''
+ms.technology: ''
+ms.search.form: VendPosting, VendPaymMode, VendCashDiscount, MarkupTable\_Vend, VendPaymFee
 audience: Application User
 ms.reviewer: twheeloc
-ms.custom: null
+ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: '2022-01-03'
+ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fb3ebad31c9f41e405b9fc31a0f71df05fa1cc60
+ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8014474"
 ---
-
 # <a name="accounts-payable-posting"></a>การลงรายการบัญชีสำหรับบัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]

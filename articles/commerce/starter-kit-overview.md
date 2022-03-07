@@ -1,22 +1,27 @@
 ---
-# required metadata
 title: ภาพรวมของไลบรารีโมดูล
 description: หัวข้อนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: anupamar
-ms.search.validFrom: '2019-10-31'
-ms.dyn365.ops.version: null
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 76fd75c2ed9a3ba4728129b77a43b50267be3bf3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795344"
 ---
-
 # <a name="module-library-overview"></a>ภาพรวมของไลบรารีโมดูล
 
 [!include [banner](includes/banner.md)]

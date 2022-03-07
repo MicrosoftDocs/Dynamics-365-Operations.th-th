@@ -1,17 +1,14 @@
 ---
-title: วิซาร์ดการตั้งค่าการวางแผนหลัก
-description: หัวข้อนี้จะอธิบายถึงกลยุทธ์ที่สำคัญและพารามิเตอร์ต่างๆ ที่ใช้ในการตั้งค่าการวางแผนหลัก
-author: t-benebo
-manager: tfehr
+title: วิซาร์ดการตั้งค่าการวางแผนหลัก (มีวิดีโอ)
+description: หัวข้อนี้จะอธิบายวิธีการรันวิซาร์ดการตั้งค่าการวางแผนหลักเพื่อตั้งค่าการวางแผนหลัก
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438613"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937644"
 ---
 # <a name="master-planning-setup-wizard"></a>วิซาร์ดการตั้งค่าการวางแผนหลัก
 
@@ -48,13 +45,13 @@ ms.locfileid: "4438613"
 
 ถ้าจำนวนของเธรดที่ถูกคำนวณเกิน 75 เปอร์เซ็นต์ของจำนวนเธรดที่พร้อมใช้งาน จะมีการจำกัดไว้ที่ 75 เปอร์เซ็นต์ของจำนวนเธรดที่พร้อมใช้งานสำหรับลูกค้าแต่ละราย (จำนวนของเธรดที่พร้อมใช้งานจะถูกกำหนดให้กับลูกค้าแต่ละราย)
 
-สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของเธรด](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)
+สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของเธรด](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads)
 
 ### <a name="bundle-size"></a>ขนาดกลุ่มงาน
 
 ขนาดของกลุ่มจะถูกตั้งค่าเป็น **1** ค่านี้มักจะเป็นค่าที่ดีที่สุด เนื่องจากจะช่วยปรับปรุงประสิทธิภาพการทำงานของการวางแผนหลัก
 
-สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของงานในกลุ่มงานผู้ช่วยเหลือ](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)
+สำหรับข้อมูลเพิ่มเติม ดู [จำนวนของงานในกลุ่มงานผู้ช่วยเหลือ](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle)
 
 ### <a name="firming-bundle-size"></a>ขนาดของกลุ่มการยืนยัน
 
@@ -67,7 +64,7 @@ ms.locfileid: "4438613"
 
 ขนาดแคชจะถูกตั้งค่าเป็น **สูงสุด** ค่านี้มักจะเป็นค่าที่ดีที่สุด เนื่องจากจะช่วยปรับปรุงประสิทธิภาพการทำงานของการวางแผนหลัก
 
-สำหรับข้อมูลเพิ่มเติม ดู [ปันส่วนเวลาให้กับงานในกลุ่มงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)
+สำหรับข้อมูลเพิ่มเติม ดู [ปันส่วนเวลาให้กับงานในกลุ่มงาน](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle)
 
 ### <a name="manufacturing-setup"></a>การตั้งค่าการผลิต
 
@@ -91,7 +88,7 @@ ms.locfileid: "4438613"
 - **ใช่ ตามที่กำหนดไว้ในแผนหลักนี้** – ตัวเลือก **แผนการคาดการณ์ (กรอบเวลา)** จะถูกตั้งค่าเป็น **ใช่** จำนวนของวันที่คุณป้อนจะถูกใช้ และจะแทนที่ค่าที่ถูกตั้งค่าไว้ในกลุ่มความครอบคลุม
 - **ใช่ ตามที่กำหนดไว้ในกลุ่มความครอบคลุม** – มีการตั้งค่าตัวเลือก **แผนการคาดการณ์ (กรอบเวลา)** เป็น **ไม่**
 
-สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
+สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการงาน](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
 
 ## <a name="scheduling-options"></a>ตัวเลือกการจัดกำหนดการ
 
@@ -102,7 +99,7 @@ ms.locfileid: "4438613"
 - **ใช่** – จะมีการใช้การจัดกำหนดการงาน
 - **ไม่** – จะมีการใช้การจัดกำหนดการการดำเนินงาน
 
-สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการของการดำเนินการ](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) และ [การจัดกำหนดการงาน](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
+สำหรับข้อมูลเพิ่มเติม ดู [การจัดกำหนดการของการดำเนินการ](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) และ [การจัดกำหนดการงาน](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling)
 
 ## <a name="updates-of-demand-and-supply"></a>การปรับปรุงของอุปสงค์และอุปทาน
 
@@ -209,3 +206,6 @@ ms.locfileid: "4438613"
     - **คำตอบ:** "ใช่ ตามที่กำหนดไว้ในแผนหลักนี้" **1 วัน** ถูกป้อน
 
     Contoso จะใช้ใบขอซื้อที่อนุมัติแล้วจากร้านค้าเพื่อสร้างแผนการใบสั่งซื้อเพื่อเติมสินค้าร้านค้าเหล่านั้น เนื่องจากมีการรันการวางแผนหลักทุกวัน จะมีการรวมใบขอซื้อจากวันสุดท้ายไว้ในการวางแผน
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

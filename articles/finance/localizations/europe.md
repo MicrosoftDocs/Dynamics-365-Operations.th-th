@@ -2,25 +2,23 @@
 title: ภาพรวมของยุโรป
 description: หัวข้อนี้แสดงการเชื่อมโยงไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 Finance สำหรับยุโรป
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: e3c5e57bb115e27880c2fee888be4ab02c51462a
+ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512222"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7792620"
 ---
 # <a name="europe-overview"></a>ภาพรวมของยุโรป
 
@@ -41,6 +39,7 @@ ms.locfileid: "4512222"
 - [การรายงานรายการขายใน EU](emea-eu-sales-list.md)
 - [การปรับปรุงอัตราแลกเปลี่ยน](emea-exchange-rate-adjustments.md)
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
+- [แนวทางด้านการเงิน (แบบใช้ทั่วโลก) เกี่ยวกับผลกระทบของ Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [การรวมบริการทางการเงิน (ESR)](emea-fiscal-service-integration.md)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
 - [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,7 +64,8 @@ ms.locfileid: "4512222"
 - [การประมวลผลใบแจ้งหนี้](emea-invoice-processing.md)
 - [ออกใบรับรองรายการของยุโรป](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [มาตรฐานที่สนับสนุนสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์](emea-oioubl-standards-electronic-invoicing.md)
-- [การอ้างอิงใบแจ้งหนี้ต้นฉบับ (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
+- [การสร้างใบแจ้งหนี้อิเล็กทรอนิกส์ที่บังคับ](emea-eur-forced-einvoices.md)
+- [การอ้างอิงใบแจ้งหนี้เดิม (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
 - [ค้นหาฝ่ายโดยใช้รหัส VAT](tasks/eur-00015-party-search-vat-id.md)
 - [เครื่องมือการสร้างการอ้างอิงการชำระเงิน](tasks/ee-00015-payment-reference-generation-tool.md)
 - [รายงานใบสำคัญการชำระเงิน](emea-eur-payment-slip-report-giro.md)
@@ -94,8 +94,12 @@ ms.locfileid: "4512222"
   - [สร้างและส่งรายงาน VAT](tasks/create-submit-vat-report.md)
   - [ดูธุรกรรมในการจ่ายเงินสำหรับยุโรปตะวันออก](emea-transactions-settlement-form.md)
   - [วันที่ของจุดรับผิดทางภาษี (วันที่ของการลงทะเบียน VAT)](emea-tax-point-date.md)
+- [ส่วนขยายของคุณลักษณะเหตุผลทางการเงิน](emea-financial-reason.md)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-- [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: (ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับวิธีการที่ผู้ใช้สามารถนำเข้าการตั้งค่าคอนฟิก ER รุ่นใหม่จาก RCS
 author: NickSelin
-manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720795"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) นำเข้าการตั้งค่าคอนฟิกจาก RCS
 
@@ -55,3 +53,6 @@ ms.locfileid: "4684198"
 5. เลือก **ปิด** 
 6. เลือกการตั้งค่าคอนฟิก ER รุ่นที่ต้องการ และเลือก **นำเข้า** เพื่อนำมาใช้ในอินสแตนซ์ปัจจุบัน
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,22 +1,27 @@
 ---
-# required metadata
 title: ภาพรวมของการส่งคืนของลูกค้า
 description: สร้างและใช้รหัสเหตุผลการส่งคืนและรหัสการโอนการครอบครอง เพื่อสนับสนุนกระบวนการสำหรับการส่งคืนผลิตภัณฑ์
-author: kamaybac
+author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'ReturnTableListPage, ReturnReasonCodeLookup'
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ReturnTableListPage, ReturnReasonCodeLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a0f4d8825a4218b440affee3aad3d52902aef89f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824545"
 ---
-
 # <a name="customer-returns-overview"></a>ภาพรวมของการส่งคืนของลูกค้า
 
 [!include [banner](../includes/banner.md)]

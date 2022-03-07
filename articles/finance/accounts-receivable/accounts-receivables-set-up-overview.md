@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
 description: ตั้งค่าคอนฟิกบัญชีลูกหนี้ และสินเชื่อ และการเรียกเก็บเงินเพื่อติดตามใบแจ้งหนี้และการชำระเงินที่มาจากลูกค้า
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: 'CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons'
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '24631'
-  - intro-internal
+- "24631"
+- intro-internal
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a7ea7569f017ef03f68d5f2ad689e7b3013fb49
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340240"
 ---
-
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>ตั้งค่าคอนฟิกบัญชีลูกหนี้และสินเชื่อและการเรียกเก็บเงิน
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +46,7 @@ ms.dyn365.ops.version: AX 7.0.0
 |                                                      | วิธีการชำระเงิน - ลูกค้า        | สร้างและรักษาข้อมูลเกี่ยวกับวิธีการชำระเงินของลูกค้า                                                                                                                                                                                                           |
 |                                                      | เงื่อนไขการชำระเงิน                     | กำหนดเงื่อนไขการชำระเงินซึ่งคุณจะกำหนดให้กับใบสั่งขาย ใบสั่งซื้อ ลูกค้า และผู้จัดจำหน่าย ในบัญชีลูกหนี้หรือบัญชีเจ้าหนี้                                                                                                                           |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| การตั้งค่าคอนฟิกสมุดรายวันบัญชีลูกหนี้             | ชื่อสมุดรายวัน                        | สร้างและจัดการเทมเพลตสำหรับสมุดรายวัน สร้างและจัดการเทมเพลตสำหรับสมุดรายวัน รวมทั้งการจัดการข้อจำกัดในการลงรายการบัญชีสำหรับผู้ใช้หรือกลุ่มผู้ใช้ที่เลือก                                                                                                                                                 |
+| การตั้งค่าคอนฟิกสมุดรายวันบัญชีลูกหนี้             | ชื่อสมุดรายวัน                        | สร้างและจัดการเท็มเพลตสำหรับสมุดรายวัน สร้างและจัดการเท็มเพลตสำหรับสมุดรายวัน รวมทั้งการจัดการข้อจำกัดในการลงรายการบัญชีสำหรับผู้ใช้หรือกลุ่มผู้ใช้ที่เลือก                                                                                                                                                 |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | การตั้งค่าคอนฟิกใบแจ้งหนี้ลูกค้า                        | รหัสการเรียกเก็บเงิน                        | ตั้งค่ารหัสเสริมสำหรับการเรียกค่าธรรมเนียมเพื่อใช้ในบรรทัดใบแจ้งหนี้ข้อความอิสระ                                                                                                                                                                                                      |
 |                                                      | รหัสค่าธรรมเนียม                         | ตั้งค่ารหัสสำหรับค่าธรรมเนียมที่จะใช้บนใบสั่งขายและใบสั่งซื้อ เช่น ค่าธรรมเนียมใบแจ้งหนี้ ค่าขนส่ง และค่าประกันภัย                                                                                                                                                            |

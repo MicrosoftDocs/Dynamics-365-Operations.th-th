@@ -1,21 +1,25 @@
 ---
-# required metadata
 title: ภาพรวมของการรวมบัญชีทางการเงินและการแปลงสกุลเงิน
 description: หัวข้อนี้อธิบายการรวมบัญชีทางการเงินและการแปลงสกุลเงินในบัญชีแยกประเภททั่วไป
 author: jiwo
 ms.date: 10/07/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
-ms.search.form: null
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
+ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982416"
 ---
-
 # <a name="financial-consolidations-and-currency-translation-overview"></a>ภาพรวมของการรวมบัญชีทางการเงินและการแปลงสกุลเงิน
 
 [!include [banner](../includes/banner.md)]

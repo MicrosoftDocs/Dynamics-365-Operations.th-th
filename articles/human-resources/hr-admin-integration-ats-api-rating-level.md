@@ -2,30 +2,28 @@
 title: ระดับการประเมิน
 description: หัวข้อนี้อธิบายเอนทิตี้ระดับการจัดอันดับสำหรับ Dynamics 365 Human Resources
 author: jaredha
+manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a821e3cd90e85571da4a09f5dd564beb2de35989
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1ad37c7a5b961bb03d37775168dac91e606d2b08
+ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068645"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5125268"
 ---
 # <a name="rating-level"></a>ระดับการประเมิน
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายเอนทิตี้ระดับการจัดอันดับสำหรับ Dynamics 365 Human Resources
 
@@ -68,6 +66,3 @@ ms.locfileid: "8068645"
 [บทนํา API การรวมระบบการติดตามผู้สมัคร](hr-admin-integration-ats-api-introduction.md)<br>
 [ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

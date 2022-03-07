@@ -2,28 +2,18 @@
 title: บัญชีแยกประเภทที่รวม
 description: หัวข้อนี้อธิบายการรวมของข้อมูลบัญชีแยกประเภทระหว่าง Finance and Operations และแอปพลิเคชัน Dynamics 365 โดยใช้ Dataverse
 author: robinarh
-manager: AnnBe
 ms.date: 09/06/2019
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: rhaertle
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9e6e65b2b8ec8241bc2082b30ae641692c31afdd
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681653"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542672"
 ---
 # <a name="integrated-ledger"></a>บัญชีแยกประเภทแบบรวม
 
@@ -31,60 +21,26 @@ ms.locfileid: "4681653"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 ในแอปพลิเคชันธุรกิจ ข้อมูลบัญชีแยกประเภทจะกำหนดหลักที่ตั้งค่าไว้สำหรับวิธีการดำเนินธุรกิจของบริษัท ตัวอย่างเช่น ข้อมูลบัญชีแยกประเภทจะอธิบายถึงปีบัญชีที่บริษัทดำเนินตาม สกุลเงินที่ใช้ทำธุรกรรม และบัญชีที่ใช้ หัวข้อนี้จะอธิบายการรวมของข้อมูลทางการเงินหลักนี้
 
 ## <a name="templates"></a>เท็มเพลต
 
 ข้อมูลบัญชีแยกประเภทรวมชุดของแผนผังตารางทางการเงินหลัก ที่ร่วมกันในระหว่างการโต้ตอบข้อมูลลูกค้า ดังที่แสดงในตารางต่อไปนี้
 
-แอป Finance and Operations      | แอปที่เป็นแบบโมเดลใน Dynamics 365 | คำอธิบาย
+แอป Finance and Operations | แอป Customer Engagement     | คำอธิบาย
 ---------------------------------|----------------------------------|------------
-สกุลเงิน                       | transactioncurrencies            |
-FiscalCalendar                   | msdyn\_fiscalcalendars        |
-FiscalCalendarYear               | msdyn\_fiscalcalendaryears        |
-ExchRateType                     | msdyn\_exchangeratetypes        |
-ExchangeRateCurrencyPair         | msdyn\_currencyexchangeratepairs        |
-FiscalPeriodEntity               | msdyn\_fiscalcalendarperiods        |
-MainAccountCategory              | msdyn\_mainaccountcategory        |
-MainAccount                      | msdyn\_mainaccounts        |
-บัญชีแยกประเภท                           | msdyn\_ledgers        |
-ExchangeRates                    | msdyn\_currencyexchangerates        |
-FinancialCalendarPeriod          | msdyn\_fiscalcalendarperiods        |
-DimensionAttributeEntity         | msdyn\_dimensionattributes        |
-DimensionIntegrationFormatEntity | msdyn\_financialdimensionformats        |
-LedgerChartOfAccounts            | msdyn\_chartofaccounts        |
+[อัตราแลกเปลี่ยน CDS](mapping-reference.md#123) | msdyn_currencyexchangerates |
+[ผังบัญชี](mapping-reference.md#121) | msdyn_chartofaccountses |
+[สกุลเงิน](mapping-reference.md#218) | transactioncurrencies |
+[คู่สกุลเงินของอัตราแลกเปลี่ยน](mapping-reference.md#122) | msdyn_currencyexchangeratepairs |
+[ชนิดอัตราแลกเปลี่ยน](mapping-reference.md#129) | msdyn_exchangeratetypes |
+[รูปแบบมิติทางการเงิน](mapping-reference.md#130) | msdyn_financialdimensionformats |
+[มิติทางการเงิน](mapping-reference.md#128) | msdyn_dimensionattributes |
+[เอนทิตี้การรวมปฏิทินทางการเงิน](mapping-reference.md#132) | msdyn_fiscalcalendars |
+[รอบระยะเวลาปฏิทินทางการเงิน](mapping-reference.md#131) | msdyn_fiscalcalendarperiods |
+[เอนทิตี้การรวมปีปฏิทินทางการเงิน](mapping-reference.md#133) | msdyn_fiscalcalendaryears |
+[Ledger](mapping-reference.md#148) | msdyn_ledgers |
+[บัญชีหลัก](mapping-reference.md#152) | msdyn_mainaccounts |
+[ประเภทบัญชีหลัก](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/Currencies-transactioncurrencies.md)]
-
-[!include [Fiscal calendar](includes/FiscalCalendar-msdyn-fiscalcalendars.md)]
-
-[!include [Fiscal calendar year](includes/FiscalCalendarYear-msdyn-fiscalcalendaryears.md)]
-
-[!include [Exchange rate types](includes/ExchRateType-msdyn-exchangeratetypes.md)]
-
-[!include [Exchange rate pair](includes/ExchangeRateCurrencyPair-msdyn-currencyexchangeratepairs.md)]
-
-[!include [Main account category](includes/MainAccountCategory-msdyn-mainaccountcategory.md)]
-
-[!include [Main account](includes/MainAccount-msdyn-mainaccounts.md)]
-
-[!include [Ledger](includes/Ledger-msdyn-ledgers.md)]
-
-[!include [Exchange rates](includes/ExchangeRates-msdyn-currencyexchangerates.md)]
-
-[!include [Financial Calendar Period](includes/FiscalPeriodEntity-msdyn-fiscalcalendarperiods.md)]
-
-[!include [Dimension attribute](includes/DimensionAttributeEntity-msdyn-dimensionattributes.md)]
-
-[!include [Dimension integration format](includes/DimensionIntegrationFormatEntity-msdyn-financialdimensionformats.md)]
-
-[!include [Chart Of Account](includes/LedgerChartOfAccounts-msdyn-chartofaccounts.md)]
-
-
-
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

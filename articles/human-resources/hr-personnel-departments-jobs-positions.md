@@ -2,30 +2,30 @@
 title: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
 description: แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล บทความนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420747"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803596"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล บทความนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้ 
 
@@ -165,3 +165,6 @@ ms.locfileid: "4420747"
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

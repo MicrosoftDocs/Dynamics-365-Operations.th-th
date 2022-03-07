@@ -2,9 +2,11 @@
 title: ร้านค้าปลีกไม่มีอยู่ในรายการร้านค้าที่จะเบิกสินค้า
 description: หัวข้อนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อร้านค้าปลีกไม่ปรากฏในรายการร้านค้าที่สามารถเบิกสินค้าได้
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6ccd60082b65fdbd47fef4a67ba269d7d7afc04679647d3eb8d2a5e9c21a19b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 652f5f1a779a412c21c18814071ba0fb7dd2e155
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762631"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585562"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>ร้านค้าปลีกไม่มีอยู่ในรายการร้านค้าที่จะเบิกสินค้า
 
@@ -57,6 +59,6 @@ ms.locfileid: "6762631"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม 
 
-[สร้างหน่วยปฏิบัติงาน](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md)
+[สร้างหน่วยปฏิบัติงาน](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit)
 
 [ตั้งค่าช่องทางออนไลน์](../channel-setup-online.md)

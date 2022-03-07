@@ -2,11 +2,9 @@
 title: การสร้างความสัมพันธ์ของวัตถุที่ให้บริการ
 description: 'หัวข้อนี้อธิบายวิธีการสร้างความสัมพันธ์ของวัตถุที่ให้บริการสำหรับข้อตกลงการให้บริการและใบสั่งบริการ '
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 380514b6e95292597d3eb52ce191d1e282e154ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 344037026399792d6da5777abbde8c9d0d9178f6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965916"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817640"
 ---
 # <a name="create-service-object-relations"></a>การสร้างความสัมพันธ์ของวัตถุที่ให้บริการ 
 
@@ -71,3 +69,6 @@ ms.locfileid: "4965916"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

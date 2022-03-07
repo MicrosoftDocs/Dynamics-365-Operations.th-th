@@ -2,27 +2,24 @@
 title: ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของชนิดใบสั่งซื้อ
 description: หัวข้อนี้แสดงวิธีการตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86ccc39cb243354db337a5747701e9731c5ad775
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 21994acabd254d0f10c7f22bbc83e4dbd69fad04
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438695"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814451"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่สำหรับการทำงานของชนิดใบสั่งซื้อ
 
@@ -69,3 +66,6 @@ ms.locfileid: "4438695"
 5. เลือกลูกศรที่ชี้ไปทางขวา
 6. เลือก **บันทึก**
 7. ปิดหน้า
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

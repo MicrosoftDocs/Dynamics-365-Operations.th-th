@@ -1,12 +1,10 @@
 ---
 title: ชนิดของปลายทาง ER เครื่องพิมพ์
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกปลายทางเครื่องพิมพ์สำหรับแต่ละโฟลเดอร์หรือส่วนประกอบของไฟล์ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก ทั้งในรูปแบบ PDF หรือ Microsoft Office (Excel\Word)
+description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางเครื่องพิมพ์ให้กับแต่ละส่วนประกอบโฟลเดอร์หรือไฟล์ ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712723"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>ปลายทางเครื่องพิมพ์
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>ปลายทางของเครื่องพิมพ์
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +30,7 @@ ms.locfileid: "4679617"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มต้น คุณต้องติดตั้งและตั้งค่าคอนฟิกตัวแทนการกำหนดเส้นทางเอกสาร แล้วลงทะเบียนเครื่องพิมพ์บนเครือข่าย สำหรับข้อมูลเพิ่มเติม ดูที่ [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานการพิมพ์ผ่านเครือข่าย](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent)
+ก่อนที่คุณจะเริ่มต้น คุณต้องติดตั้งและตั้งค่าคอนฟิกตัวแทนการกำหนดเส้นทางเอกสาร แล้วลงทะเบียนเครื่องพิมพ์บนเครือข่าย สำหรับข้อมูลเพิ่มเติม ดูที่ [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานการพิมพ์ผ่านเครือข่าย](./install-document-routing-agent.md)
 
 ## <a name="make-the-printer-destination-available"></a>ทำให้การกำหนดปลายทางเครื่องพิมพ์พร้อมใช้งาน
 
@@ -43,13 +41,11 @@ ms.locfileid: "4679617"
 
 [![การเปิดใช้งานคุณลักษณะปลายทางเครื่องพิมพ์ ER ในการจัดการคุณลักษณะ](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
-### <a name="applicability"></a>การมีผลบังคับใช้
+### <a name="applicability"></a>การใช้งาน
 
 ปลายทาง **เครื่องพิมพ์** สามารถตั้งค่าคอนฟิกสำหรับส่วนประกอบของไฟล์ที่ใช้ในการสร้างผลลัพธ์ในรูปแบบไฟล์ PDF ที่พิมพ์ได้ (ตัวผสาน PDF หรือองค์ประกอบไฟล์ PDF) หรือ Microsoft Office Excel /Word (ไฟล์ Excel) เท่านั้น เมื่อมีการสร้างผลลัพธ์ในรูปแบบ PDF จะมีการส่งออกไปยังเครื่องพิมพ์ เมื่อมีการสร้างผลลัพธ์ในรูปแบบ Microsoft Office โดยอัตโนมัติ จะมีการแปลงเป็นรูปแบบ PDF แล้วส่งไปยังเครื่องพิมพ์
 
 ### <a name="limitations"></a>การจำกัด
-
-คุณลักษณะนี้เป็นคุณลักษณะของการแสดงตัวอย่างและอยู่ภายใต้เงื่อนไขการใช้งานที่อธิบายใน [ข้อกำหนดการใช้งานเพิ่มเติมสำหรับการแสดงตัวอย่าง Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274)
 
 ปลายทาง **เครื่องพิมพ์** ใช้ในการปรับใช้สำหรับ cloud เท่านั้น
 
@@ -70,3 +66,6 @@ ms.locfileid: "4679617"
 
 - [ภาพรวมการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 - [ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

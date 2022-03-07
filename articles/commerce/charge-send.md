@@ -2,12 +2,15 @@
 title: จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง
 description: หัวข้อนี้อธิบายถึงลักษณะการทำงานค่าธรรมเนียมการส่ง
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746710"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416120"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>จัดส่งสินค้าจากร้านค้าอื่นโดยใช้คุณลักษณะค่าธรรมเนียมการส่ง
 
@@ -39,6 +42,3 @@ ms.locfileid: "6746710"
 ความสามารถในการการเลือกที่อยู่ "จัดส่งไปยัง" ยังคงไม่เปลี่ยนแปลง
 
 วิธีการจัดส่งที่สามารถใช้ในกาเติมเต็มรายการใบสั่ง เป็นไปตามการตั้งค่าคอนฟิกโหมดการจัดส่งสำหรับผลิตภัณฑ์และที่อยู่ที่ถูกต้อง เนื่องจากมีการรักษากฎเกี่ยวกับโหมดการจัดส่งถูกในศูนย์ควบคุม (HQ) เท่านั้น ไคลเอนต์ POS ทำให้การเรียกแบบเรียลไทม์จะนำโหมดการจัดส่งสำหรับรายการการจัดส่งที่ถูกต้องมาใช้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

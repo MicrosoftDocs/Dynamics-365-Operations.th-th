@@ -5,6 +5,7 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0f5586112d168f8fa84f97d110403b0bec82e5cca4e963a92f1c283a17c972ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ef286aa28ff459befb72b0178f308e5fb85ec44
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715319"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801494"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาอีคอมเมิร์ซ เพื่อดีบักเทียบกับเครื่องเสมือนเซิร์ฟเวอร์ขายปลีกระดับ 1
 
@@ -44,7 +45,7 @@ ms.locfileid: "6715319"
 
 ![ข้อผิดพลาดเกี่ยวกับเครื่องมือดีบักเกอร์](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>การแก้ปัญหา
+## <a name="resolution"></a>ความละเอียด
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>ปิดใช้งานนโยบายความปลอดภัยเนื้อหาของไซต์ของโปรแกรมสร้างไซต์ Commerce
 

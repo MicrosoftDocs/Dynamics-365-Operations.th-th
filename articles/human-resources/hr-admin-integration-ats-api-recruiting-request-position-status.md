@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a63a95201583fa7b215e221a03715e56b55c11a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e287ec4b9b78194b76ef3c993c6ce32f808e26f9
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064904"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051892"
 ---
 # <a name="recruiting-request-position-status"></a>สถานะการสรรหาบุคลากรที่มีคำขอตำแหน่ง
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

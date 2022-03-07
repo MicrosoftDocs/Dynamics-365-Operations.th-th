@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 54d84e38a8816ec716414661d002cbe171623772
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244026"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>ตั้งค่าสิทธิ์สำหรับการสั่งซื้อผลิตภัณฑ์ในนามของผู้อื่น
 
@@ -44,3 +44,6 @@ ms.locfileid: "5017303"
 2. ใช้ตัวกรองข้อมูลอย่างรวดเร็วในการค้นหาผู้ปฏิบัติงานที่คุณเพิ่งเพิ่มเข้ามาเป็นผู้ขอ
 3. เลือกผู้ขอ รายการผู้จัดเตรียมแสดงผู้ที่มีสิทธิ์ในการสั่งซื้อสินค้าในนามของผู้ขอที่เลือกไว้ในบานหน้าต่างด้านซ้าย   คุณสามารถเพิ่มผู้จัดเตรียมเพิ่มเติมที่นี่ มุมมองนี้ให้คุณสามารถให้สิทธิ์ผู้ขอในการสร้างใบขอซื้อในนิติบุคคลและหน่วยปฏิบัติงานที่ไม่ได้เป็นนิติบุคคลหรือหน่วยปฏิบัติงานหลักของบุคคลนั้น  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

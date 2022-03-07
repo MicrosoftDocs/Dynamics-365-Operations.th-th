@@ -2,11 +2,9 @@
 title: ตั้งค่าคอนฟิกกฎการใช้สิทธิ์และตัวเลือก
 description: ตั้งค่ากฎการใช้สิทธิ์และตัวเลือกในการจัดการสวัสดิการสิทธิประโยชน์ใน Microsoft Dynamics 365 Human Resources
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420716"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791520"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>ตั้งค่าคอนฟิกกฎการใช้สิทธิ์และตัวเลือก
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หลังจากที่คุณได้ตั้งค่าคอนฟิกพารามิเตอร์ที่จำเป็นสำหรับการจัดการสิทธิประโยชน์ใน Microsoft Dynamics 365 Human Resources คุณจะสามารถสร้างกฎการใช้สิทธิ์ การรวมกลุ่ม รอบระยะเวลา และโปรแกรมที่คุณจะเชื่อมโยงกับแผนสวัสดิการสิทธิประโยชน์ของคุณได้
 
@@ -176,3 +176,6 @@ ms.locfileid: "4420716"
    | **กฎการมีคุณสมบัติเหมาะสม** | เลือกกฎการมีคุณสมบัติเหมาะสมที่จะใช้กับโปรแกรมสิทธิประโยชน์ คุณกำหนดกฎการใช้สิทธิ์บนแท็บ **กฎการใช้สิทธิ์** บนหน้านี้ |
    
 4. เลือก **บันทึก**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

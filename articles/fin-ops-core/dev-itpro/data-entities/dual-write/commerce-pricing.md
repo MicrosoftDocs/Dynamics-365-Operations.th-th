@@ -2,28 +2,19 @@
 title: ใช้กลไกการกำหนดราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
 description: หัวข้อนี้จะอธิบายวิธีการใช้กลไกการกำหนดราคา Microsoft Dynamics 365 Commerce เพื่อสร้างใบเสนอราคาขายใน Dynamics 365 Sales
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: shajain
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: fad5c21d75db62b85efe803f1667dd3f9164a5fc
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594929"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416766"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>ใช้กลไกการกำหนดราคา Dynamics 365 Commerce กับ Dynamics 365 Sales
 
@@ -33,7 +24,7 @@ ms.locfileid: "4594929"
 
 กลไกการกำหนดราคา Dynamics 365 Commerce สนับสนุนสถานการณ์จำลองการกำหนดราคาสำหรับธุรกิจต่อผู้บริโภค (B2C) ส่วนมาก เช่น การกำหนดราคาในระดับร้านค้า การกำหนดราคาที่ยึดตามความภักดีและที่ยึดตามรายได้ ส่วนลดในการซื้อคละกัน ส่วนลดปริมาณ และส่วนลดจำกัด กลไกการกำหนดราคาจะใช้กฎที่ซับซ้อนเพื่อกำหนดราคาที่ดีที่สุดสำหรับใบเสนอราคาหรือใบสั่งที่กำหนด
 
-เมื่อคุณใช้ [การรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) คุณมีสามตัวเลือกสำหรับความต้องการในการกำหนดราคาของคุณ คุณสามารถใช้การกำหนดราคาแบบคงที่ที่มาจากรายการราคาใน Dynamics 365 Sales กลไกการกำหนดราคาใน Dynamics 365 Supply Chain Management หรือกลไกการกำหนดราคาใน Dynamics 365 Commerce ในระหว่างตัวเลือกเหล่านี้ กลไกการกำหนดราคา Commerce เหมาะกับสถานการณ์ B2C ที่สุด
+เมื่อคุณใช้ [การรวมแบบสองทิศทาง](./dual-write-overview.md) คุณมีสามตัวเลือกสำหรับความต้องการในการกำหนดราคาของคุณ คุณสามารถใช้การกำหนดราคาแบบคงที่ที่มาจากรายการราคาใน Dynamics 365 Sales กลไกการกำหนดราคาใน Dynamics 365 Supply Chain Management หรือกลไกการกำหนดราคาใน Dynamics 365 Commerce ในระหว่างตัวเลือกเหล่านี้ กลไกการกำหนดราคา Commerce เหมาะกับสถานการณ์ B2C ที่สุด
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>ใช้กลไกการกำหนดราคา Commerce ใน Sales
 
@@ -44,7 +35,7 @@ ms.locfileid: "4594929"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-- ก่อนที่คุณจะสามารถใช้กลไกการกำหนดราคา Commerce ใน Sales ได้ คุณต้องปฏิบัติตามขั้นตอนใน [ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+- ก่อนที่คุณจะสามารถใช้กลไกการกำหนดราคา Commerce ใน Sales ได้ คุณต้องปฏิบัติตามขั้นตอนใน [ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](./dual-write-prospect-to-cash.md)
 - คุณต้องปิดการประเมินข้อตกลงทางการค้าสำหรับการป้อนข้อมูลด้วยตนเองโดยปฏิบัติตามขั้นตอนต่อไปนี้:
 
     1. ในสภาพแวดล้อม Commerce ของคุณ ไปที่ **บัญชีลูกหนี้ \> การตั้งค่า \> พารามิเตอร์บัญชีลูกหนี้**
@@ -52,4 +43,7 @@ ms.locfileid: "4594929"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง](./dual-write-prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

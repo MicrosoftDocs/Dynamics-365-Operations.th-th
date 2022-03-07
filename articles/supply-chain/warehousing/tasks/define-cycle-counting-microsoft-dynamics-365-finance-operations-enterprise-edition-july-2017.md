@@ -2,26 +2,23 @@
 title: 'กำหนดการตรวจนับตามรอบ '
 description: 'การตรวจนับตามรอบเป็นกระบวนการคลังสินค้าที่คุณสามารถใช้ตรวจสอบสินค้าคงคลังคงเหลือ '
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 995212dd40f8665da64ca0bf8e1c878002778904
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438842"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830965"
 ---
 # <a name="define-cycle-counting"></a>กำหนดการตรวจนับตามรอบ  
 
@@ -96,3 +93,6 @@ ms.locfileid: "4438842"
 21. คลิก **ตกลง**
 22. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

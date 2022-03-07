@@ -1,12 +1,11 @@
 ---
-# required metadata
 title: ประเมินค่าการชำระค่าเช่าที่เชื่อมโยงกับอัตราดัชนีใหม่
 description: หัวข้อนี้จะอธิบายถึงการปรับปรุงที่ทำเพื่อให้หนี้สิน สำหรับสิทธิ์การใช้สินทรัพย์ (ROU) เมื่อมีการเปลี่ยนแปลงการชำระเงินค่าเช่าผันแปรเนื่องจากมีการเปลี่ยนแปลงในอัตราดัชนี
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
 ms.reviewer: twheeloc
@@ -14,10 +13,15 @@ ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
-ms.search.validFrom: '2020-10-28'
+ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968067"
 ---
-
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>ประเมินค่าการชำระค่าเช่าที่เชื่อมโยงกับอัตราดัชนีใหม่
 
 [!include [banner](../includes/banner.md)]

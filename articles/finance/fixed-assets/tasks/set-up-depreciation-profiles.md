@@ -1,30 +1,32 @@
 ---
 title: ตั้งค่าและสร้างโพรไฟล์ค่าเสื่อมราคา
-description: กระบวนงานนี้แสดงวิธีที่โพรไฟล์ค่าเสื่อมราคากำหนดชนิดและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์
-author: moaamer
+description: 'โพรไฟล์การกำหนดชนิดค่าเสื่อมราคาและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์ '
+author: saraschi2
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92089e366d1772b0a74add95d10f8440586c62bd
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b7cf50474a467af2cd8cd3f1e97cac3ed410fde7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883475"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994876"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>ตั้งค่าและสร้างโพรไฟล์ค่าเสื่อมราคา
 
 [!include [banner](../../includes/banner.md)]
 
-โพรไฟล์การกำหนดชนิดค่าเสื่อมราคาและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์ 
+โพรไฟล์การกำหนดชนิดค่าเสื่อมราคาและความถี่ของค่าเสื่อมราคาสำหรับสินทรัพย์    บันทึกนี้ใช้บริษัท USMF สาธิตและบทบาทของนักบัญชี
 
 
 ## <a name="create-a-depreciation-profile"></a>การสร้างโพรไฟล์การคิดค่าเสื่อมราคา
@@ -37,6 +39,3 @@ ms.locfileid: "7883475"
 7. ในฟิลด์ **ความถี่ของรอบระยะเวลา** ให้เลือกหนึ่งตัวเลือก
 8. ปิดแบบฟอร์ม
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

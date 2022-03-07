@@ -1,10 +1,12 @@
 ---
 title: งานการจัดการเครดิตประจำงวด
 description: หัวข้อนี้อธิบายงานประจำงวดที่เป็นส่วนหนึ่งที่จำเป็นในการจัดการวงเงินสินเชื่อสำหรับลูกค้า
-author: JodiChristiansen
+author: mikefalkner
+manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: a034d563c12c4ba8b99e13b30ea2683555a01276
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753518"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254498"
 ---
 # <a name="periodic-credit-management-tasks"></a>งานการจัดการสินเชื่อประจำงวด
 

@@ -2,11 +2,9 @@
 title: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 description: หัวข้อนี้แสดงภาพรวมเกี่ยวกับวิธีใช้ใบรับรองในร้านค้าปลีก
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719941"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 
@@ -30,7 +28,7 @@ ms.locfileid: "5018879"
 
 ## <a name="overview"></a>ภาพรวม
 
-หัวข้อนี้อธิบายภาพรวมของโพรไฟล์ที่รับรองที่พร้อมใช้งานใน Microsoft Dynamics 365 Commerce ฟังก์ชันนี้ขยายคุณลักษณะ [จัดการความลับสำหรับช่องทางการขายปลีก](../dev-itpro/manage-secrets.md) โดยการเพิ่มการสนับสนุนสำหรับใบรับรองเฉพาะที่
+หัวข้อนี้อธิบายภาพรวมของโพรไฟล์ใบรับรองที่พร้อมใช้งานใน Microsoft Dynamics 365 Commerce ฟังก์ชันนี้ขยายคุณลักษณะ [จัดการความลับสำหรับช่องทางการขายปลีก](../dev-itpro/manage-secrets.md) โดยการเพิ่มการสนับสนุนสำหรับใบรับรองเฉพาะที่
 
 ในขณะที่การขายหน้าร้าน (POS) กำลังรันอยู่ในโหมดออฟไลน์ จะไม่สามารถเข้าถึงใบรับรองที่จัดเก็บอยู่ใน Key Vault ควรใช้ใบรับรองเฉพาะที่แทน ระบบสนับสนุนความสามารถต่อไปนี้:
 
@@ -81,7 +79,7 @@ ms.locfileid: "5018879"
 - **ใบรับรอง Key Vault** – จำเป็นต้องใช้ฟิลด์นี้ถ้าคุณตั้งค่าฟิลด์ **ชนิดของสถานที่ที่** เป็น **Key Vault** ใช้เพื่อระบุความลับของใบรับรอง Key Vault
 
     > [!NOTE]
-    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอนต์ Key Vault ของ Azure](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client)
+    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอนต์ Key Vault ของ Azure](../../finance/localizations/setting-up-azure-key-vault-client.md)
 
 - **ชื่อร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุชื่อร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่
 - **ที่ตั้งร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุที่ตั้งร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่
@@ -121,3 +119,6 @@ ms.locfileid: "5018879"
 
 > [!NOTE]
 > ใน Commerce Runtime ใบรับรองรุ่นใหม่จะถูกเรียกก่อน ถ้าใบรับรองยังไม่ได้รับการอัพเดตบนร้านค้าหรือบนเทอร์มินัลเฉพาะหนึ่งๆ จะมีการเรียกรุ่นก่อนหน้านี้
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
-description: ขั้นตอนในหัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างเอกสารทางอิเล็กทรอนิกส์ใน Microsoft Office formats (Excel และ Word) ที่ประกอบด้วยภาพที่ฝัง
+description: หัวข้อนี้อธิบายเกี่ยวกับวิธีการออกแบบการตั้งค่าคอนฟิกที่สร้างเอกสารทางอิเล็กทรอนิกส์ในรูปแบบ Excel และ Word ที่ประกอบด้วยภาพที่ฝัง
 author: NickSelin
-manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719356"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>ออกแบบการตั้งค่าคอนฟิกเพื่อสร้างรายงานในรูปแบบ Office ที่มีรูปภาพที่ฝัง
 
 [!include [banner](../../includes/banner.md)]
 
-เพื่อทำตามขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงาน “ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่” กระบวนงานนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสาร Microsoft Excel หรือ Word ที่ประกอบด้วยภาพที่ฝัง ในกระบวนงานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, inc สามารถดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล USMF กระบวนงานนี้ถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ ก่อนที่คุณจะเริ่มต้น ดาวน์โหลดและบันทึกแฟ้มที่แสดงรายการอยู่ในหัวข้อวิธีใช้ [รูปและรูปร่างที่ฝังอยู่ในเอกสารที่คุณสร้างขึ้นโดยใช้ ER ](../electronic-reporting-embed-images-shapes.md) แฟ้มคือ: แบบจำลองสำหรับเช็ค.xml รูปแบบการพิมพ์เช็ค.xml โลโก้.png โลโก้บริษัท.png รูปภาพลายเซ็น.png รูปภาพลายเซ็น 2.png และ Word เท็มเพลตของเช็ค.docx
+เพื่อทำตามขั้นตอนในกระบวนงานนี้ให้เสร็จสมบูรณ์ อันดับแรกคุณต้องทำกระบวนงาน “ER สร้างผู้ให้บริการการตั้งค่าคอนฟิก และทำเครื่องหมายเป็น ใช้งานอยู่” กระบวนงานนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างเอกสาร Microsoft Excel หรือ Word ที่ประกอบด้วยภาพที่ฝัง ในกระบวนงานนี้ คุณจะสร้างการตั้งค่าคอนฟิก ER ที่จำเป็นสำหรับบริษัทตัวอย่าง Litware, inc สามารถดำเนินขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ได้โดยใช้ชุดข้อมูล USMF กระบวนงานนี้ถูกสร้างขึ้นสำหรับผู้ใช้ที่มีบทบาทผู้ดูแลระบบหรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ ก่อนที่คุณจะเริ่มต้น ต้องดาวน์โหลดและบันทึกไฟล์ต่อไปนี้: 
+
+| คำอธิบาย                                          | ชื่อไฟล์                   |
+|------------------------------------------------------|-----------------------------|
+| การตั้งค่าคอนฟิกแบบจำลองข้อมูล ER                          | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| การตั้งค่าคอนฟิกรูปแบบ ER                              | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| รูปโลโก้บริษัท                                   | [Company logo.png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| รูปภาพลายเซ็น                                      | [Signature image.png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| รูปภาพลายเซ็นอื่น                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| เท็มเพลต Microsoft Word สำหรับการพิมพ์เช็คการชำระเงิน  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>ตรวจสอบข้อกำหนดเบื้องต้น  
  1. ไปที่การจัดการองค์กร > พื้นที่ทำงาน > การรายงานทางอิเล็กทรอนิกส์  
@@ -90,3 +97,6 @@ ms.locfileid: "4684414"
  30. เลือก ใช่ ในฟิลด์ อนุญาตให้สร้างบันทึกย่อในบัญชีธนาคารที่ไม่ได้ใช้งานอยู่:  
  31. คลิก บันทึก  
  32. ปิดหน้า  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

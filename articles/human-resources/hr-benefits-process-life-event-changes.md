@@ -2,7 +2,7 @@
 title: ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต
 description: ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2726dcb3c847c9af2a431358de04a27341b9e66c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420714"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464261"
 ---
 # <a name="process-life-event-changes"></a>ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับสองการเปลี่ยนแปลงเหตุการณ์ของชีวิต
 
@@ -52,3 +54,6 @@ ms.locfileid: "4420714"
    4. เลือก **ตกลง** กระบวนการจะดำเนินการกับพารามิเตอร์ที่คุณตั้งไว้
 
 4. เลือก **ตกลง**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

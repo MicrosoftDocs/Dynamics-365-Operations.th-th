@@ -1,8 +1,8 @@
 ---
 title: เข้าใจฟิลด์วันที่และเวลา
-description: ทำความเข้าใจสิ่งที่ควรคาดหวังเมื่อใช้ฟิลด์วันที่และเวลาใน Microsoft Dynamics 365 Human Resources ทำให้ชัดเจนมากขึ้นในสิ่งที่คาดหวังเมื่อมีการโต้ตอบกับข้อมูลวันที่และเวลาในฟอร์มในทรัพยากรบุคคล แหล่งที่มาภายนอก หรือ Common Data Service
-author: Darinkramer
-manager: AnnBe
+description: ทำความเข้าใจสิ่งที่ควรคาดหวังเมื่อใช้ฟิลด์วันที่และเวลาใน Microsoft Dynamics 365 Human Resources
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,21 +15,23 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 924d7369129d4115d45f23864e7b851d318c52a4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529863"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467372"
 ---
-# <a name="understand-date-and-time-fields"></a>เข้าใจฟิลด์วันที่และเวลา
+# <a name="understand-date-and-time-fields"></a>ทำความเข้าใจฟิลด์วันที่และเวลา
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-ฟิลด์ **วันที่และเวลา** แนวคิดพื้นฐานใน Dynamics 365 Human Resources นับเป็นสิ่งสำคัญที่จะต้องทำความเข้าใจวิธีการทำงานกับข้อมูล **วันที่และเวลา** ในฟอร์ม Dynamics 365 Human Resources Common Data Service และแหล่งข้อมูลภายนอก
+ฟิลด์ **วันที่และเวลา** แนวคิดพื้นฐานใน Dynamics 365 Human Resources นับเป็นสิ่งสำคัญที่จะต้องทำความเข้าใจวิธีการทำงานกับข้อมูล **วันที่และเวลา** ในฟอร์ม Dataverse และแหล่งข้อมูลภายนอก
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>การทำความเข้าใจความแตกต่างระหว่างชนิดของข้อมูลในฟิลด์วันที่และวันที่และเวลา
 
@@ -41,25 +43,25 @@ ms.locfileid: "4529863"
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>การทำความเข้าใจฟิลด์วันที่และเวลาในฟอร์ม 
 
-เมื่อป้อนข้อมูลในฟิลด์ **วันที่และเวลา** ข้อมูลที่แสดงบนหน้าจอจะไม่เหมือนกับข้อมูลที่จัดเก็บไว้ในฐานข้อมูล ถ้าโซนเวลาของผู้ใช้ไม่ได้รับการตั้งค่าเป็นเวลามาตรฐานสากล (UTC) ข้อมูลในฟิลด์ **วันที่และเวลา** จะถูกจัดเก็บเป็น UTC เสมอ
+ข้อมูล **วันที่และเวลา** ที่แสดงบนหน้าจอจะไม่เหมือนกับข้อมูลที่จัดเก็บไว้ในฐานข้อมูล ถ้าโซนเวลาของผู้ใช้ไม่ได้รับการตั้งค่าเป็นเวลามาตรฐานสากล (UTC) ข้อมูลในฟิลด์ **วันที่และเวลา** จะถูกจัดเก็บเป็น UTC เสมอ
 
-[![ฟอร์มผู้ปฏิบัติงาน](./media/worker-form.png)](./media/worker-form.png)
+[![UTC ฟอร์มผู้ปฏิบัติงาน](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>ทำความเข้าใจฟิลด์วันที่และเวลาในฐานข้อมูล 
 
 เมื่อทรัพยากรบุคคลเขียนค่า **วันที่และเวลา** ไปยังฐานข้อมูล วันที่และเวลาจะจัดเก็บข้อมูลใน UTC การทำเช่นนี้จะช่วยให้ผู้ใช้สามารถดูข้อมูล **วันที่และเวลา** ใดๆ ที่เกี่ยวข้องกับโซนเวลาที่กำหนดไว้ในตัวเลือกผู้ใช้ของตนเองได้
  
-ในตัวอย่างข้างต้น เวลาเริ่มต้นคือเวลาที่ไม่ใช่วันที่เฉพาะ เมื่อเปลี่ยนโซนเวลาของผู้ใช้ที่ล็อกอินจาก GMT +12:00 เป็น GMT UTC เรกคอร์ดเดียวกันที่เพิ่งสร้างขึ้นจะแสดง 04/30/2019 12:00:00 แทน 05/01/2019 12:00:00
+ในตัวอย่างข้างต้น เวลาเริ่มต้นคือเวลาที่ไม่ใช่วันที่เฉพาะ เมื่อเปลี่ยนโซนเวลาของผู้ใช้ที่ล็อกอินจาก GMT +12:00 เป็น GMT UTC เรกคอร์ดเดียวกันจะแสดง 04/30/2019 12:00:00 แทน 05/01/2019 12:00:00
   
 ในตัวอย่างด้านล่าง การจ้างงานของพนักงาน 000724 จะกลายเป็นใช้งานอยู่ในเวลาเดียวกัน ไม่ว่าจะเป็นโซนเวลาใด พนักงานจะกลายเป็นใช้งานอยู่เมื่อ 04/30/2019 ในโซนเวลา GMT ซึ่งเหมือนกับ 05/01/2019 ในโซนเวลา GMT +12:00 ทั้งสองอย่างอ้างอิงถึงช่วงเวลาเดียวกัน ไม่ใช่วันที่เฉพาะ 
 
-[![ฟอร์มผู้ปฏิบัติงาน](./media/worker-form2.png)](./media/worker-form2.png)
+[![GMT ฟอร์มผู้ปฏิบัติงาน](./media/worker-form2.png)](./media/worker-form2.png)
 
-## <a name="date-and-time-data-in-data-management-framework-excel-common-data-service-and-power-bi"></a>ข้อมูลวันที่และเวลาในกรอบงานการจัดการข้อมูล, Excel, Common Data Service, and Power BI 
+## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>ข้อมูลวันที่และเวลาในกรอบงานการจัดการข้อมูล, Excel, Dataverse, and Power BI 
 
-การรายงานของกรอบงานการจัดการข้อมูล, Excel Add-In Common Data Service และ Power BI ทั้งหมดได้รับการออกแบบมาเพื่อโต้ตอบกับข้อมูลในระดับฐานข้อมูลโดยตรง เนื่องจากไม่มีไคลเอนต์ที่จะปรับปรุงข้อมูล **วันที่และเวลา** ไปยังโซนเวลาของผู้ใช้ ค่า **วันที่และเวลา** ทั้งหมดจะเป็น UTC ซึ่งอาจทำให้เกิดข้อสมมติฐานบางอย่างที่ไม่ถูกต้องเมื่อป้อนหรือดูข้อมูล  
+การรายงานของกรอบงานการจัดการข้อมูล, Excel Add-In Dataverse และ Power BI ทั้งหมดได้รับการออกแบบมาเพื่อโต้ตอบกับข้อมูลในระดับฐานข้อมูลโดยตรง เนื่องจากไม่มีไคลเอนต์ที่จะปรับปรุงข้อมูล **วันที่และเวลา** ไปยังโซนเวลาของผู้ใช้ ค่า **วันที่และเวลา** ทั้งหมดจะเป็น UTC ซึ่งอาจทำให้เกิดข้อสมมติฐานบางอย่างที่ไม่ถูกต้องเมื่อป้อนหรือดูข้อมูล  
  
-ข้อมูล **วันที่และเวลา** ที่ถูกส่งผ่าน DMF, Excel หรือ Common Data Service จะถูกคาดว่าเป็น UTC โดยฐานข้อมูล ซึ่งอาจทำให้เกิดความสับสนได้เมื่อค่า **วันที่และเวลา** ที่ถูกส่งไม่แสดงตามที่คาดไว้เนื่องจากผู้ใช้ที่ดูข้อมูลไม่ได้ตั้งค่าโซนเวลาของผู้ใช้เป็น UTC 
+ข้อมูล **วันที่และเวลา** ที่ถูกส่งผ่าน DMF, Excel หรือ Dataverse จะถูกคาดว่าเป็น UTC โดยฐานข้อมูล ซึ่งอาจทำให้เกิดความสับสนได้เมื่อค่า **วันที่และเวลา** ที่ถูกส่งไม่แสดงตามที่คาดไว้เนื่องจากผู้ใช้ที่ดูข้อมูลไม่ได้ตั้งค่าโซนเวลาของผู้ใช้เป็น UTC 
  
 สิ่งเดียวกันอาจเกิดขึ้นในทางกลับกันเมื่อมีการส่งออกข้อมูล ข้อมูล **วันที่และเวลา** ในเอนทิตี้ DMF ที่ส่งออกอาจแตกต่างจากที่แสดงอยู่ในไคลเอนต์ Dynamics 
  
@@ -69,11 +71,11 @@ ms.locfileid: "4529863"
 
 **ทรัพยากรบุคคลกับโซนเวลาของผู้ใช้ตั้งค่าเป็น UTC**
 
-[![ฟอร์มผู้ปฏิบัติงาน](./media/worker-form3.png)](./media/worker-form3.png)
+[![ฟอร์มผู้ปฏิบัติงานที่ตั้งค่าเป็น UTC](./media/worker-form3.png)](./media/worker-form3.png)
 
 **ทรัพยากรบุคคลกับโซนเวลาของผู้ใช้ตั้งค่าเป็น GMT+12:00** 
 
-[![ฟอร์มผู้ปฏิบัติงาน](./media/worker-form4.png)](./media/worker-form4.png)
+[![ฟอร์มผู้ปฏิบัติงานที่ตั้งค่าเป็น GMT](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel ผ่าน OData**
 
@@ -85,13 +87,16 @@ ms.locfileid: "4529863"
 
 **ส่งออก DMF**
 
-[![การแบ่งระยะ DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![ส่งออก DMF](./media/DMFexport.png)](./media/DMFexport.png)
 
-**Excel ผ่าน Common Data Service**
+**Excel ผ่าน Dataverse**
 
-[![Excel ผ่าน Common Data Service](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel ผ่าน Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ข้อมูลวันที่และเวลา](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [โซนเวลาที่ผู้ใช้ต้องการ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

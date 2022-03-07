@@ -1,9 +1,9 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (13 เมษายน 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 13 เมษายน 2020
-author: Darinkramer
-manager: AnnBe
-ms.date: 4/13/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,17 +15,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8fdf23b735700009c97c02c0b53b370773d0acce
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528532"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465353"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (13 เมษายน 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -43,9 +45,9 @@ ms.locfileid: "4528532"
 
 ขณะนี้คุณสามารถแก้ไขวันที่สิ้นสุดการลงทะเบียนได้โดยไม่ได้รับข้อผิดพลาด "ต้องป้อนข้อมูลพื้นฐานของวันที่รับรู้ของฟิลด์"
 
-## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>เอนทิตี้การจ้างงานไม่ได้ซิงค์กับ Common Data Service (430834)
+## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>เอนทิตี้การจ้างงานไม่ได้ซิงค์กับ Dataverse (430834)
 
-การเปลี่ยนแปลงนี้แก้ไขปัญหาที่ไม่มีการซิงค์ข้อมูลการจ้างงานกับ Common Data Service หลังจากที่เพิ่มมิติทางการเงิน 
+การเปลี่ยนแปลงนี้แก้ไขปัญหาที่ไม่มีการซิงค์ข้อมูลการจ้างงานกับ Dataverse หลังจากที่เพิ่มมิติทางการเงิน 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>ลบการทำให้เป็นรายการหลักที่หลากหลายสำหรับเอนทิตี้ช่วงเวลาปฎิทินงาน (431775)
 
@@ -97,3 +99,5 @@ ms.locfileid: "4528532"
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

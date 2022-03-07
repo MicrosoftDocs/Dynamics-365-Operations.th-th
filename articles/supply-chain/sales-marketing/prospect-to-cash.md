@@ -1,10 +1,12 @@
 ---
 title: ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 description: หัวข้อนี้แสดงภาพรวมของโซลูชันของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดระหว่าง Dynamics 365 Supply Chain Management และ Dynamics 365 Sales
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
@@ -13,15 +15,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b96f22d711ce5b34c2f8de5a86caf5f89dd3f337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2f2f7d95d3f0e6bd774c43024836aac1f729abd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977649"
 ---
 # <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
 
@@ -79,6 +81,3 @@ ms.locfileid: "7579003"
 
 - Dynamics 365 Sales รุ่น 1612 (8.2.1.207) (DB 8.2.1.207) ออนไลน์หรือรุ่นที่ใหม่กว่า
 - โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดสำหรับ Dynamics 365 Sales รุ่น 1.15.0.0 หรือรุ่นที่ใหม่กว่า โซลูชันนี้มีให้การดาวน์โหลดจาก AppSource [ดาวน์โหลด Dynamics 365 ผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: ตั้งค่ากลุ่มสินทรัพย์ถาวร
 description: หัวข้อนี้จะอธิบายวิธีการสร้างกลุ่มสินทรัพย์ถาวรใหม่
-author: moaamer
+author: saraschi2
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a39d709d739ac4fea4bf79e3174d2fbe39d4ded
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 4eead36e1274194b151b230767a4d6385173b12f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883805"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994851"
 ---
 # <a name="set-up-fixed-asset-groups"></a>ตั้งค่ากลุ่มสินทรัพย์ถาวร
 
@@ -36,6 +38,3 @@ ms.locfileid: "7883805"
 8. ในฟิลด์ **แบบแผนการคิดค่าเสื่อมราคา** ให้เลือกหนึ่งตัวเลือก
 9. ปิดหน้า
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

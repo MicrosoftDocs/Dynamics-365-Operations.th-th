@@ -2,11 +2,9 @@
 title: ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 description: หัวข้อนี้แสดงรายการข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 author: sericks007
-manager: AnnBe
 ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798315"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748756"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 
@@ -141,3 +139,6 @@ ms.locfileid: "4798315"
 ## <a name="virtualization-and-oversubscription"></a>การจำลองเสมือนและการบอกรับเป็นสมาชิกที่มากเกินไป
 
 บริการที่เป็นภารกิจที่สำคัญ เช่น AOS ควรได้รับการโฮสต์บนโฮสต์เสมือนที่มีทรัพยากรเฉพาะ – หลัก หน่วยความจำ และดิสก์
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

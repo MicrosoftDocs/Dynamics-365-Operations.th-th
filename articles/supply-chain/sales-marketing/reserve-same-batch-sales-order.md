@@ -1,30 +1,27 @@
 ---
 title: จองชุดงานเดียวกันสำหรับใบสั่งขาย
 description: บทความนี้อธิบายวิธีการตั้งค่าผลิตภัณฑ์เพื่ออนุญาตการจองสินค้าคงคลังโดยเทียบกับชุดงานหนึ่งของสินค้าคงคลัง
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0d4f3ee5d99648155e663c9ad0849b0b9ae3f80e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438896"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576627"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>จองชุดงานเดียวกันสำหรับใบสั่งขาย
 
@@ -44,4 +41,7 @@ ms.locfileid: "4438896"
 - ชุดงานที่หมดอายุ ขึ้นอยู่กับวันหมดอายุ และวันที่ขายได้ของลูกค้าที่เกี่ยวข้องใดๆ สินค้ายังคงถูกพิจารณาถ้ากลุ่มแบบจำลองสินค้าสำหรับสินค้าถูกควบคุมด้วยที่หมดอายุแรกออกก่อน (FEFO) และถ้าวันที่ควรใช้ก่อนถูกเลือกตามเกณฑ์การเบิกสินค้า
 - ชุดงานไม่มีอายุการเก็บที่เหลือเพียงพอ ขึ้นอยู่กับวันหมดอายุ และวันที่ควรใช้ก่อน รวมทั้งวันที่ขายได้ของลูกค้าใดๆ
 
-สำหรับสินค้าที่เชื่อมโยงกับกลุ่มมิติการจัดเก็บที่เปิดใช้งาน **ใช้กระบวนการจัดการคลังสินค้า** คุณสามารถจองหมายเลขชุดงานเฉพาะได้โดยใช้ลำดับชั้นการจองที่มีมิติสินค้าคงคลังของหมายเลขชุดงานที่กำหนดไว้ด้านบนของมิติสถานที่ นอกจากนี้ หน้า **การจองชุดงาน** สำหรับรายการใบสั่งขายและใบสั่งโอนย้ายจะช่วยให้คุณสามารถเลือกและจองรายการหลายรายการได้ตามหมายเลขชุดงานที่พร้อมใช้งาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิ่งที่ต้องทำเมื่อคุณใช้ลำดับชั้นการจองที่มีมิติหมายเลขชุดงานที่อยู่ด้านล่างของสถานที่ โปรดดู [นโยบายการจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md)
+สำหรับสินค้าที่เชื่อมโยงกับกลุ่มมิติการจัดเก็บที่เปิดใช้งาน **ใช้กระบวนการจัดการคลังสินค้า** คุณสามารถจองหมายเลขชุดงานเฉพาะได้โดยใช้ลำดับชั้นการจองที่มีมิติสินค้าคงคลังของหมายเลขชุดงานที่กำหนดไว้ด้านบนของมิติสถานที่ ลำดับชั้นการจองชนิดนี้เรียกอีกอย่างว่า ลำดับชั้นการจอง *ชุดงานเหนือ \[ที่ตั้ง\]* นอกจากนี้ หน้า **การจองชุดงาน** สำหรับรายการใบสั่งขายและใบสั่งโอนย้ายจะช่วยให้คุณสามารถเลือกและจองรายการหลายรายการได้ตามหมายเลขชุดงานที่พร้อมใช้งาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิ่งที่ต้องทำเมื่อคุณใช้ลำดับชั้นการจองที่มีมิติหมายเลข (*ชุดงานที่อยู่ด้านล่าง \[ที่ตั้ง\]*) ของสถานที่ โปรดดู [นโยบายการจองมิติในระดับคลังสินค้าแบบยืดหยุ่น](../warehousing/flexible-warehouse-level-dimension-reservation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: ราคาต้นทุนถัวเฉลี่ย
 description: กระบวนการปิดสินค้าคงคลังใน จับคู่ธุรกรรมการตัดสินค้าจากคลังกับธุรกรรมการรับสินค้า โดยยึดตามวิธีการประเมินค่าสินค้าคงคลังที่เลือกไว้ในกลุ่มแบบจำลองสินค้าของสินค้า อย่างไรก็ตาม ภายในเวลาก่อนการรันการปิดสินค้าคงคลัง ระบบจะคำนวณราคาต้นทุนถัวเฉลี่ย ซึ่งโดยทั่วไปจะถูกใช้เมื่อมีการลงรายการบัญชีธุรกรรมการตัดสินค้าจากคลัง
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 776f886fc0dfccf1b2675c9d54d44c16c6df4f09
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ab90c8e57d831fbbfe0b4a6f6814ca0ab5182a7ccc0436ca5a11526b72f9da30
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781596"
 ---
 # <a name="running-average-cost-price"></a>ราคาต้นทุนถัวเฉลี่ย
 
@@ -40,9 +38,9 @@ ms.locfileid: "4963774"
 
 | เงื่อนไข                                               | ระบบใช้ราคาต้นทุนถัวเฉลี่ยโดยประมาณ | ระบบใช้ราคาต้นทุนที่ถูกกำหนดไว้ในต้นแบบสินค้า |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| ทั้งตัวเศษ\* และตัวส่วน\*\* มีค่าเป็นบวก  | ใช่                                                      | หมายเลข                                                                |
-| ตัวเศษ\*ตัวส่วน\*\*หรือทั้งคู่ มีค่าเป็นลบ | หมายเลข                                                       | ใช่                                                               |
-| หากตัวส่วน\*\* เป็น 0 (ศูนย์)                        | หมายเลข                                                       | ใช่                                                               |
+| ทั้งตัวเศษ\* และตัวส่วน\*\* มีค่าเป็นบวก  | ใช่                                                      | ไม่                                                                |
+| ตัวเศษ\*ตัวส่วน\*\*หรือทั้งคู่ มีค่าเป็นลบ | ไม่                                                       | ใช่                                                               |
+| หากตัวส่วน\*\* เป็น 0 (ศูนย์)                        | ไม่                                                       | ใช่                                                               |
 
 \* ตัวเศษ = (ยอดเงินตามจริง + ยอดเงินทางการเงิน) \*\* ตัวส่วน = (ปริมาณตามจริง + ปริมาณทางการเงิน) 
 
@@ -75,3 +73,6 @@ ms.locfileid: "4963774"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

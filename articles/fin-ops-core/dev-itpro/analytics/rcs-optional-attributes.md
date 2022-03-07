@@ -2,9 +2,11 @@
 title: นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการออกแบบรูปแบบ ER ซึ่งระบุแอททริบิวต์ XML เพื่อแยกเอกสารอิเล็กทรอนิกส์ขาเข้าในรูปแบบ XML
 author: NickSelin
+manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14b14dd609805a7cf9331427012b991791698cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757308"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686672"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>นำเข้าไฟล์ในรูปแบบ XML ที่มีแอททริบิวต์ตัวเลือก
 
@@ -128,6 +130,3 @@ ms.locfileid: "6757308"
 3. คลิก **เรียกดู** และเลือกไฟล์ **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**
 4. คลิก **ตกลง**
 5. ตรวจทานไฟล์ที่สร้างขึ้น โปรดทราบว่ามีการนำเข้าไฟล์ที่เหมือนกัน เนื่องจากในขณะนี้การออกแบบรูปแบบพิจารณาถึงแอททริบิวต์ 'รหัส' สำหรับองค์ประกอบ 'เอกสาร' เป็นตัวเลือก
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

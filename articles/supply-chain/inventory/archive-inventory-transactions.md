@@ -1,28 +1,31 @@
 ---
 title: เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง
 description: หัวข้อนี้อธิบายวิธีการเก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง เพื่อช่วยปรับปรุงประสิทธิภาพของระบบ
-author: yufeihuang
+author: sherry-zheng
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567474"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881843"
 ---
 # <a name="archive-inventory-transactions"></a>เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 เมื่อเวลาผ่านไป ตารางธุรกรรมของสินค้าคงคลัง (`InventTrans`) จะยังคงเพิ่มขึ้นและใช้พื้นที่ฐานข้อมูลมากขึ้น ดังนั้น การสอบถามที่ถูกสร้างขึ้นเทียบกับตารางจะช้าลงทีละน้อย หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้คุณลักษณะ *การเก็บถาวรของธุรกรรมสินค้าคงคลัง* เพื่อเก็บถาวรข้อมูลเกี่ยวกับธุรกรรมของสินค้าคงคลัง เพื่อช่วยปรับปรุงประสิทธิภาพของระบบ
 

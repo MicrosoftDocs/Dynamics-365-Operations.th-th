@@ -1,30 +1,29 @@
 ---
 title: ภาพรวมของการวางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ
 description: บทความนี้อธิบายคุณลักษณะของการรวมการจัดส่งในฮับเมื่อคุณจัดส่งสินค้าจากคลังสินค้าที่แตกต่างกันให้กับลูกค้าเดียวกัน หรือ เมื่อคุณได้รับสินค้าจากผู้จัดจำหน่ายหลายรายในคลังสินค้าเดียวกัน
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, TMSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 92273
+ms.custom:
+- "92273"
+- intro-internal
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d61527113746e76889d097e963f70ced24fd241
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fd47a5745719873cc491d93b9a98a7fde609fe38
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438876"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985822"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>ภาพรวมของการวางแผนจำนวนงานโดยใช้การรวมบัญชีฮับ
 
@@ -39,3 +38,6 @@ ms.locfileid: "4438876"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

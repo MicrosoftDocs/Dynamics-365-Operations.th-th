@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมบัญชีแยกประเภททั่วไปและการรายงานทางการเงิน
 description: 'ใช้บัญชีแยกประเภททั่วไปเพื่อกำหนด และจัดการเรกคอร์ดทางการเงินของนิติบุคคล '
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-  - '65431'
-  - intro-internal
+ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9e6e09b5c800da639a8e02738a7fd58e7373cca2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975594"
 ---
-
 # <a name="general-ledger-home-page"></a>โฮมเพจบัญชีแยกประเภททั่วไป
 
 [!include [banner](../includes/banner.md)]
@@ -50,14 +54,14 @@ ms.dyn365.ops.version: AX 7.0.0
 
 #### <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
-ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](/dynamics365/release-plans/) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
+ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="financial-reporting"></a>การรายงานทางการเงิน
 ไปที่หัวข้อ [ภาพรวมของ Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) สำหรับข้อมูลเกี่ยวกับรายงานทางการเงิน
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
+คุณสามารถดูความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน Dynamics 365
 
@@ -69,6 +73,3 @@ ms.dyn365.ops.version: AX 7.0.0
 
 - [สิ่งที่คุณควรทราบเกี่ยวกับบัญชีแยกประเภทใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

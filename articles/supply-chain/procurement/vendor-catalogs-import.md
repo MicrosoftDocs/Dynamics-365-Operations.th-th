@@ -1,12 +1,10 @@
 ---
 title: นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
 description: หัวข้อนี้อธิบายกระบวนการในการนำเข้าข้อมูลแค็ตตาล็อกของผู้จัดจำหน่าย
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fb7e9735ac29fae50a4a3874b713a9a75799605c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020765"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570404"
 ---
 # <a name="import-vendor-catalogs"></a>นำเข้าแค็ตตาล็อกของผู้จัดจำหน่าย
 
@@ -69,3 +67,6 @@ Dynamics 365 Supply Chain Management ผู้เชี่ยวชาญกา�
 3. ในกล่องโต้ตอบ **บันทึกเป็น** ให้เลือกที่ตั้งที่คุณต้องการจัดเก็บเท็มเพลตไฟล์แค็ตตาล็อก และบันทึกไฟล์
 
 สำหรับข้อมูลเพิ่มเติมและตัวอย่าง อ้างอิงถึงโพสต์บล็อกนี้: [แค็ตตาล็อกของผู้จัดจำหน่ายใน Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

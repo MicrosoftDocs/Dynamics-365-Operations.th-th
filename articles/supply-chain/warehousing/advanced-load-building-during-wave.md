@@ -2,26 +2,23 @@
 title: การสร้างการบรรทุกขั้นสูงในระหว่างเวฟ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับการสร้างการบรรทุกเวฟขั้นสูงซึ่งจะกำหนดการจัดส่งให้กับเวฟที่มีอยู่ระหว่างการดำเนินการของเวฟโดยอัตโนมัติ ดังนั้นคุณจึงสามารถสร้างการบรรทุกที่มีความหมายซึ่งแสดงถึงรถบรรทุกได้โดยไม่ต้องใช้เวิร์กเบนช์การวางแผนการบรรทุก
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 0115d58c059724fddc3d6232d341e10630229fa394e462af96176e75a2a8f86c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773140"
 ---
 # <a name="advanced-load-building-during-wave"></a>การสร้างการบรรทุกขั้นสูงในระหว่างเวฟ
 
@@ -250,3 +247,6 @@ ms.locfileid: "4654209"
 1. ในใบสั่งขายที่คุณเพิ่งสร้างขึ้นบนแท็บด่วน **บรรทัดใบสั่งขาย** ให้เลือก **เพิ่มบรรทัด** เพื่อเพิ่มบรรทัดอื่น
 1. บนบรรทัดใหม่นี้ให้ตั้งค่าฟิลด์ **หมายเลขสินค้า** เป็น *M9200* และฟิลด์ **ปริมาณ** เป็น *1*
 1. ทำซ้ำบรรทัด 6 ถึง 9 เพื่อจองบรรทัดและนำออกไปใช้ในคลังสินค้า เหมือนก่อนหน้า ระบบจะสร้างการจัดส่ง **ใหม่** สำหรับรายการที่คุณเพิ่ม อย่างไรก็ตามเนื่องจากสินค้ามาจากกลุ่มสินค้า **CarAudio** จึง **ไม่สามารถส่งผ่านข้อจำกัดที่คุณตั้งค่าสำหรับกลุ่มการรวมการบรรทุก** ดังนั้นจึง **เพิ่มไปยังการบรรทุกใหม่** ถ้าคุณไม่ได้ระบุกลุ่มการรวมการบรรทุกในเท็มเพลตการสร้างการบรรทุก การจัดส่งนี้จะถูกเพิ่มลงในการบรรทุกครั้งแรก
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

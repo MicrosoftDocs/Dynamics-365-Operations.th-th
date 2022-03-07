@@ -2,9 +2,11 @@
 title: เนื้อหา Power BI ของการพัฒนาพนักงาน
 description: หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI ของการพัฒนาพนักงาน
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 280053703a8afac15f0ae377e0d439a9bc9e918fb4c8413022cabad08431f3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 41e2f8b1dc5f86220a4a2edeab24f82883e5157f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776618"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687113"
 ---
 # <a name="employee-development-power-bi-content"></a>เนื้อหา Power BI ของการพัฒนาพนักงาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **การพัฒนาพนักงาน** ของ Microsoft Power BI
+หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI **ของการพัฒนาพนักงาน**
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI
 รายงานที่ถูกรวมในเนื้อหา Power BI ของ **การพัฒนาพนักงาน** มีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน
@@ -66,6 +68,3 @@ ms.locfileid: "6776618"
 | การวิเคราะห์ทักษะของพนักงาน  | การได้รับการรับรอง ระดับ วันที่ของระดับ และทักษะ                                                                    | ชื่อพนักงาน ทักษะ |
 | ประสิทธิภาพ              | การจัดอันดับ คำอธิบาย และแบบจำลองการจัดอันดับ                                                                      | พนักงานปัจจุบัน ตำแหน่งงานปัจจุบัน แนวโน้มของพนักงาน ทักษะที่ต้องการของงาน การกำหนดตำแหน่งงานที่ผ่านมา แนวโน้มของตำแหน่ง พนักงานที่สิ้นสุดการจ้างงาน |
 | ทักษะ                    | ทักษะ ชนิดของทักษะ และการจัดอันดับ                                                                              | การวิเคราะห์ทักษะของพนักงาน ทักษะที่ต้องการของงาน |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

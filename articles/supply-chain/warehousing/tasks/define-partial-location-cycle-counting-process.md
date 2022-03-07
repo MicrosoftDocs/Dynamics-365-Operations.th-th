@@ -1,27 +1,24 @@
 ---
 title: 'กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง '
 description: เมื่อคุณใช้แผนการตรวจนับตามรอบเพื่อสร้างงานการตรวจนับตามรอบ คุณสามารถใช้เป็นคู่มือการดำเนินงานการนับตามจริงโดยร้องขอให้เฉพาะผลิตภัณฑ์และผลิตภัณฑ์ย่อยเท่านั้นที่จะได้รับการตรวจนับแทนปริมาณคงคลังคงเหลือทั้งหมดที่สถานที่เก็บนั้น
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39a256a5a88a6d70373d6e23f1f380da6791f418
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7c179b7f6e0b8546e20204a971cb2951c7b62d7b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438816"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579987"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>กำหนดกระบวนการตรวจนับตามรอบในสถานที่บางแห่ง  
 
@@ -73,3 +70,6 @@ ms.locfileid: "4438816"
 14. คลิก ตกลง
 15. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

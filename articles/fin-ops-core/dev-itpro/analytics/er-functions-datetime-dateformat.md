@@ -2,11 +2,9 @@
 title: ฟังก์ชั่น DATEFORMAT ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) DATEFORMAT
 author: NickSelin
-manager: kfend
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
+ms.openlocfilehash: 5a38f0016f69792e5beffa5d8224c70d6e5261c4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826022"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747046"
 ---
 # <a name="dateformat-er-function"></a>ฟังก์ชั่น DATEFORMAT ER
 
@@ -80,3 +78,6 @@ DATEFORMAT (date, format, culture)
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ฟังก์ชันวันที่และเวลา](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (3 เมษายน 2020)
 description: บทความนี้อธิบายคุณลักษณะใหม่หรือถูกเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 3 เมษายน 2020
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,17 +13,19 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8df0fb0349ca3bde6ed4f9851900f396fb3d9335
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526797"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790319"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (3 เมษายน 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -64,7 +64,7 @@ ms.locfileid: "4526797"
  - ชั้นแผนการลางานและการขาดงาน V2
  - แผนการลางานและการขาดงาน V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>ขณะนี้โซลูชัน Common Data Service พร้อมใช้งาน โดยมีการเปลี่ยนแปลงต่อไปนี้:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>ขณะนี้โซลูชัน Dataverse พร้อมใช้งาน โดยมีการเปลี่ยนแปลงต่อไปนี้:
 
 | คำอธิบาย | เงินทอน |
 | --- | --- |
@@ -76,18 +76,18 @@ ms.locfileid: "4526797"
 | เอนทิตีการตั้งค่าค่าตอบแทนผันแปรใหม่ | <ul><li>**ชนิดแผนตัวแปรค่าตอบแทน**</li><li>**แผนค่าตอบแทนผันแปร**</li><li>**กฎสิทธิพึงได้**</li><li>**ระดับแผนตัวแปรค่าตอบแทน**</li></ul> |
 | เอนทตี **การจ้างงานในปฏิทินของผู้ปฏิบัติงาน** ใหม่ | <ul><li>เพิ่ม **เอนทิตีปฏิทินงาน** แล้ว</li></ul> |
 | เอนทตี **รายละเอียดตำแหน่งที่มีค่าจ้าง** ใหม่ | <ul><li>เพิ่ม **รายละเอียดตำแหน่งที่มีค่าจ้าง** แล้ว</li></ul> |
-| เอนทิตี้ **ชื่อ** ใหม่ | <ul><li>เพิ่ม **ชื่อเรื่อง** แล้ว</li></ul>เอนทิตี **ชื่อเรื่อง** ใหม่จะรวมอยู่ใน Common Data Service แต่ไม่ได้อ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในขณะนี้ |
+| เอนทิตี้ **ชื่อ** ใหม่ | <ul><li>เพิ่ม **ชื่อเรื่อง** แล้ว</li></ul>เอนทิตี **ชื่อเรื่อง** ใหม่จะรวมอยู่ใน Dataverse แต่ไม่ได้อ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในขณะนี้ |
 
 > [!NOTE]
-> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัพเดตจากทรัพยากรบุคคลเป็น Common Data Service การอัพเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Common Data Service กับทรัพยากรบุคคลในขณะนี้
+> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัพเดตจากทรัพยากรบุคคลเป็น Dataverse การอัพเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Dataverse กับทรัพยากรบุคคลในขณะนี้
 
-ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Common Data Service ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
+ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Dataverse ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
 
 1.  ไปยัง [ศูนย์การจัดการ Power Platform](https://admin.powerplatform.microsoft.com)
 
 2.  เลือก **สภาพแวดล้อม**
 
-3.  ค้นหาสภาพแวดล้อมที่คุณต้องการอัพเกรด สภาพแวดล้อมควรตรงกับ **ชื่อสภาพแวดล้อม** ในส่วน **ข้อมูล Common Data Service** ในฟอร์ม **เกี่ยวกับ** ในทรัพยากรบุคคล
+3.  ค้นหาสภาพแวดล้อมที่คุณต้องการอัพเกรด สภาพแวดล้อมควรตรงกับ **ชื่อสภาพแวดล้อม** ในส่วน **ข้อมูล Dataverse** ในฟอร์ม **เกี่ยวกับ** ในทรัพยากรบุคคล
 
 4.  เลือกสภาพแวดล้อมเพื่อดูรายละเอียดของสภาพแวดล้อม
 
@@ -137,3 +137,5 @@ ms.locfileid: "4526797"
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

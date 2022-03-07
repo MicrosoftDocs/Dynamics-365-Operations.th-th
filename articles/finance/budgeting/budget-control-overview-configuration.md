@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: ภาพรวมของการควบคุมงบประมาณ
 description: หัวข้อนี้จะแนะนำคุณลักษณะการควบคุมงบประมาณ และแสดงข้อมูลที่ช่วยคุณตั้งค่าคอนฟิกการควบคุมงบประมาณ เพื่อให้การจัดการทรัพยากรทางการเงินขององค์กรมีประสิทธิภาพสูงสุด
 author: panolte
 ms.date: 11/08/2021
 ms.topic: overview
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
 ms.custom:
-  - '60493'
-  - intro-internal
+- "60493"
+- intro-internal
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: panolte
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986067"
 ---
-
 # <a name="budget-control-overview"></a>ภาพรวมของการควบคุมงบประมาณ
 
 [!include [banner](../includes/banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6d7688e78a375bc262b1156c5439c0fff7cd1f0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5419c18a510b0d35dabe5329a9557780cb7637b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460034"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257134"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>ตั้งค่าคอนฟิกและดำเนินการแลกเปลี่ยนในใบสั่งส่งคืนสินค้า
 
@@ -51,3 +50,6 @@ ms.locfileid: "4460034"
 - **ใช้ยอดเงินฝากแล้ว** – ยอดเงินในการฝากเงินที่ใช้กับธุรกรรมเมื่อผู้ใช้เบิกสินค้าตามใบสั่งของลูกค้า หากไม่มีการแทนที่เงินฝากและมีการตั้งค่าคอนฟิกเงินฝากที่ 10 เปอร์เซ็นต์ ยอดเงินในฟิลด์นี้จะเท่ากับ 90 เปอร์เซ็นต์ของยอดเงินรวมของใบสั่งลูกค้า
 - **ดำเนินการกับยอดเงิน** – ยอดเงินรวมของรายการที่มีการตั้งค่าวิธีการจัดส่งเป็น **ดำเนินการ** เมื่อสร้างหรือแก้ไขใบสั่งของลูกค้าหรือในระหว่างการแลกเปลี่ยนใบสั่งลูกค้า ยอดเงินในฟิลด์นี้จะรวมภาษีและค่าธรรมเนียมไว้
 - **ยอดส่งคืน** – ยอดเงินรวมสำหรับรายการที่มีปริมาณติดลบในระหว่างการแลกเปลี่ยนใบสั่งลูกค้า ยอดเงินในฟิลด์นี้จะรวมภาษีและค่าธรรมเนียมไว้
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

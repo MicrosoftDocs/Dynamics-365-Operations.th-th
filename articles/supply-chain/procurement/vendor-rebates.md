@@ -1,26 +1,24 @@
 ---
 title: เงินคืนของผู้จัดจำหน่าย
 description: หัวข้อนี้แสดงภาพรวมของงานทั่วไปที่คุณอาจต้องการดำเนินการเมื่อคุณทำงานกับเงินคืนของผู้จัดจำหน่าย เงินคืนของผู้จัดจำหน่ายช่วยให้บริษัทสามารถจัดการโปรแกรมเงินคืนของซัพพลายเออร์ได้ดีขึ้นโดยการทำงานที่จำเป็นในการจัดการ ติดตาม และอ้างสิทธิ์เงินคืนที่จะได้รับโดยอัตโนมัติ
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966666"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566874"
 ---
 # <a name="vendor-rebates"></a>เงินคืนของผู้จัดจำหน่าย
 
@@ -166,3 +164,6 @@ ms.locfileid: "4966666"
 - การสร้างการอ้างสิทธิ์เงินคืนที่ถูกต้อง
 - การรับรู้บัญชีลูกหนี้ที่คาดไว้และกำไรระหว่างกลางในบัญชีแยกประเภททั่วไป
 - การปรับปรุงยอดดุลผู้จัดจำหน่ายและงบกำไรขาดทุนที่มีค่าจ้างที่ครบกำหนด
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

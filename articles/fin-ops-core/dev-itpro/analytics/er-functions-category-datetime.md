@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890788"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647274"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>รายการของฟังก์ชั่น ER ในประเภทวันที่และเวลา
 
@@ -37,8 +37,8 @@ ms.locfileid: "7890788"
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงค่าวันที่/เวลาที่ให้เป็นข้อความในรูปแบบที่ระบุและใน Culture ที่ระบุเป็นทางเลือก |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | ฟังก์ชันนี้ส่งกลับค่า *DateTime* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและใน Culture ไปยังค่าวันที่/เวลาที่ระบุเป็นทางเลือก |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | ฟังก์ชันนี้ส่งกลับค่า *DateTime* ที่ถูกแปลงจากค่าวันที่ที่กำหนดให้เป็นค่าวันที่/เวลาในเวลาสากล (เวลามาตรฐานกรีนิช \[GMT\]) |
-| [DateValue](er-functions-datetime-datevalue.md) | ฟังก์ชันนี้ส่งคืนค่า *[วันที่](er-formula-supported-data-types-primitive.md#date)* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและในวัฒนธรรมไปยังค่าวันที่ที่ระบุเป็นทางเลือก |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | ฟังก์ชันนี้ส่งคืนค่าที่แสดง *[จำนวนเต็ม](er-formula-supported-data-types-primitive.md#integer)* ของวันระหว่างวันที่ 1 มกราคมและวันที่ระบุ |
+| [DateValue](er-functions-datetime-datevalue.md) | ฟังก์ชันนี้ส่งกลับค่า *Date* ที่แปลงจากค่าข้อความที่ให้ในรูปแบบที่ระบุและใน Culture ไปยังค่าวันที่ที่ระบุเป็นทางเลือก |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | ฟังก์ชันนี้ส่งคืนค่าที่แสดง *จำนวนเต็ม* ของวันระหว่างวันที่ 1 มกราคมและวันที่ระบุ |
 | [วัน](er-functions-datetime-days.md) | ฟังก์ชันนี้ส่งคืนค่าที่แสดง *จำนวนเต็ม* ที่แสดงจำนวนของวันระหว่างวันที่ที่ระบุที่หนึ่งกับวันที่ที่ระบุที่สอง |
 | [Now](er-functions-datetime-now.md) | ฟังก์ชันนี้ส่งคืนค่า *DateTime* ที่แสดงถึงวันที่และเวลาของเซิร์ฟเวอร์แอปพลิเคชันปัจจุบัน |
 | [NullDate](er-functions-datetime-nulldate.md) | ฟังก์ชันนี้ส่งคืนค่า *Date* ที่แสดงถึงวันที่ **ที่เป็นแบบ null** (1 มกราคม 1900) |
@@ -46,9 +46,8 @@ ms.locfileid: "7890788"
 | [SessionNow](er-functions-datetime-sessionnow.md) | ฟังก์ชันนี้ส่งคืนค่า *DateTime* ที่แสดงถึงวันที่และเวลาของเซสชันแอปพลิเคชันปัจจุบัน |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | ฟังก์ชันนี้ส่งคืนค่า *Date* ที่แสดงถึงวันที่เซสชันแอปพลิเคชันปัจจุบัน |
 | [วันนี้](er-functions-datetime-today.md) | ฟังก์ชันนี้ส่งคืนค่า *Date* ที่แสดงถึงวันที่เซิร์ฟเวอร์แอปพลิเคชันปัจจุบัน |
-| [WeekNum](er-functions-datetime-weeknum.md) | ฟังก์ชันนี้ส่งคืนค่า *จำนวนเต็ม* ที่แสดงถึงสัปดาห์ของปี |
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md)
 

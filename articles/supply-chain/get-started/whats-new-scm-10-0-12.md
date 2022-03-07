@@ -2,27 +2,24 @@
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.12 (สิงหาคม 2020)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.12
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 16f4ead0e195280555f0825d617b9c4fcf0e827a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4438787"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909584"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.12 (สิงหาคม 2020)
 
@@ -36,25 +33,25 @@ ms.locfileid: "4438787"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](https://docs.microsoft.com/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
+คุณลักษณะต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้ ชื่อเรื่องของคุณลักษณะลิงค์ไปยังข้อมูลเพิ่มเติมบนไซต์ [แผนการนำออกใช้](/dynamics365/release-plans/) ลิงค์เพิ่มเติมชี้ไปที่เอกสารหรือวิดีโอเพิ่มเติมที่พร้อมใช้งานในปัจจุบันสำหรับคุณลักษณะนั้น คุณลักษณะเหล่านี้ส่วนใหญ่ต้องถูกเปิดใช้งานโดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ก่อนที่คุณจะสามารถใช้งานได้
 
-- [อนุญาตให้ล็อคหน้าจอสัมผัสของบัตรงานเพื่อสุขอนามัย](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์](../production-control/config-job-card-device.md)
+- [อนุญาตให้ล็อคหน้าจอสัมผัสของบัตรงานเพื่อสุขอนามัย](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าคอนฟิกบัตรงานสำหรับอุปกรณ์](../production-control/config-job-card-device.md)
 
-- [รวบรวมผลิตภัณฑ์ย่อยและมิติการติดตามในแอปคลังสินค้า ในระหว่างการรับสินค้าของจำนวนงานในศูนย์การผลิต](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](../warehousing/configure-mobile-devices-warehouse.md)
+- [รวบรวมผลิตภัณฑ์ย่อยและมิติการติดตามในแอปคลังสินค้า ในระหว่างการรับสินค้าของจำนวนงานในศูนย์การผลิต](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตั้งค่าอุปกรณ์เคลื่อนที่สำหรับงานคลังสินค้า](../warehousing/configure-mobile-devices-warehouse.md)
 
 - ระดับการคำนวณต้นทุน (ระดับ BOM ใหม่)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ระดับการคำนวณต้นทุน](../cost-management/cost-calculation-level.md)
 
-- [พอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมพอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md)
+- [พอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ภาพรวมพอร์ทัลลูกค้าสำหรับ Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md)
 
-- [ข้อมูลเชิงลึกหลักของเครื่องมือ IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจเครื่องมือ IoT](../iot/iot-intelligence-home-page.md)
+- [ข้อมูลเชิงลึกหลักของเครื่องมือ IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจเครื่องมือ IoT](../iot/iot-intelligence-home-page.md)
 
-- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า (ต่อ)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปคลังสินค้า](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [การปรับปรุงการรับป้ายทะเบียนสำหรับแอปคลังสินค้า (ต่อ)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
 
-- [การปรับใช้อย่างกว้างสำหรับ Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและกำหนดค่าภาพรวมแอปคลังสินค้า](../warehousing/install-configure-warehousing-app.md)
+- [การปรับใช้อย่างกว้างสำหรับ Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md)
 
-- [เวลาดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการปริมาณคงคลังคงเหลือในการจัดการคลังสินค้า](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า](../warehousing/onhand-cleanup.md)
+- [เวลาดำเนินการสูงสุดสำหรับงานการล้างข้อมูลรายการปริมาณคงคลังคงเหลือในการจัดการคลังสินค้า](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [งานล้างข้อมูลรายการปริมาณคงเหลือสำหรับการจัดการคลังสินค้า](../warehousing/onhand-cleanup.md)
 
-- [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับข้อตกลงทางการค้าสำหรับการซื้อ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ](../master-planning/planning-optimization/purchase-trade-agreement.md)
+- [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับข้อตกลงทางการค้าสำหรับการซื้อ](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ](../master-planning/planning-optimization/purchase-trade-agreement.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
@@ -70,7 +67,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.12 รวมถึง Platfo
 
 สงสัยเกี่ยวกับความสามารถที่กำลังจะเกิดขึ้นและที่เผยแพร่เมื่อเร็วๆ นี้ในแอปหรือแพลตฟอร์มทางธุรกิจใดๆ ของเราใช่ไหม
 
-ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
+ตรวจสอบ [Dynamics 365: 2020 แผนเวฟการนำออกใช้ 1](/dynamics365-release-plan/2020wave1/index) เราได้บันทึกทุกรายละเอียดอย่างครอบคลุมตั้งแต่ต้นจนจบในเอกสารเดียวที่คุณสามารถใช้สำหรับการวางแผนได้
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
@@ -82,3 +79,6 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.12 รวมถึง Platfo
 ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: ลดยอดดุลค่าเสื่อมราคาหลังจากการแบ่ง
 description: หัวข้อนี้จะอธิบายวิธีการที่ใช้ในสินทรัพย์ถาวรเพื่อคำนวณค่าเสื่อมราคาหลังจากแบ่งสินทรัพย์โดยใช้วิธีการลดยอดดุล
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650687"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356786"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>ลดยอดดุลค่าเสื่อมราคาหลังจากการแบ่ง
 
@@ -40,8 +37,11 @@ ms.locfileid: "4650687"
 - การคิดค่าเสื่อมราคาของปีบัญชีแรกเท่ากับ $18,000 ค่าเสื่อมราคารายเดือนจะเท่ากับ $150 และมีการคิดค่าเสื่อมราคาของสินทรัพย์จนถึงเดือนพฤศจิกายน 2019 เป็นเงิน $738.75
 - ในเดือนพฤศจิกายน 2019 80 เปอร์เซ็นต์ของสินทรัพย์ถูกแบ่งเป็นสินทรัพย์ถาวรอื่น
 
-[![ลดยอดดุลค่าเสื่อมราคาหลังจากการแบ่ง](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![ลดค่าเสื่อมราคายอดดุลหลังจากการแบ่ง](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 ยอดเงินที่จะคิดค่าเสื่อมราคาสำหรับสินทรัพย์ดั้งเดิม คือ $1,822.25 ยอดเงินนี้เท่ากับ NBV ก่อนที่จะมีการลงรายการบัญชีธุรกรรมการแบ่ง ($9,111.25) บวกกับการปรับปรุงการซื้อสินทรัพย์ที่สร้างขึ้นในระหว่างการลงรายการบัญชีของธุรกรรมการแบ่ง (-$8,000) บวกกับการปรับปรุงค่าเสื่อมราคาที่สร้างขึ้นในระหว่างการแบ่งธุรกรรม ($711) ดังนั้น ค่าเสื่อมราคาสำหรับปีที่สองคือ (1,822.25 × 18 เปอร์เซ็นต์) ÷ 12 = $27.33
 
 ยอดเงินที่จะคิดค่าเสื่อมราคาสำหรับสินทรัพย์ถาวรใหม่ในปีแรกคือ (8,000 × 18 เปอร์เซ็นต์t) ÷ 12 = $120
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

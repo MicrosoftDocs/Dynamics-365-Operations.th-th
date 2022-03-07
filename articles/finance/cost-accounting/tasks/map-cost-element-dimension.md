@@ -2,9 +2,11 @@
 title: แม็ปมิติองค์ประกอบต้นทุน
 description: ผู้ควบคุมต้นทุนสามารถใช้กระบวนงานนี้ในการแม็ปมิติองค์ประกอบต้นทุนไปยังมิติองค์ประกอบต้นทุนในนิติบุคคล MXMF
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b76d7410de793a9d906677cf2e4e6ce4932a8b66f78a874594818d5c8d0ffe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e48110182f79195483a0f54b7859ee0cd54e8cf0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235848"
 ---
 # <a name="map-a-cost-element-dimension"></a>แม็ปมิติองค์ประกอบต้นทุน
 

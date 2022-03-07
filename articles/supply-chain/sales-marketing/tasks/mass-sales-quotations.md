@@ -1,7 +1,7 @@
 ---
 title: สร้างใบเสนอราคาขายจำนวนมาก
 description: 'ขั้นตอนเหล่านี้อธิบายวิธีการสร้างใบเสนอราคาแบบมีประสิทธิภาพเพื่อนำเสนอรูปแบบของผลิตภัณฑ์หรือบริการสำหรับนำไปส่งให้กับลูกค้า '
-author: Henrikan
+author: omulvad
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acb2b49c7cb2024aec1140d04150bd1ab9d75c14
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0422817576d9d93d0ec6bbfb5f3777013ee09ece
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573380"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817712"
 ---
 # <a name="mass-create-sales-quotations"></a>สร้างใบเสนอราคาขายจำนวนมาก
 

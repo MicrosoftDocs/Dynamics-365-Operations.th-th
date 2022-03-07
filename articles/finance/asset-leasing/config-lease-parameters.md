@@ -1,12 +1,11 @@
 ---
-# required metadata
 title: ตั้งค่าคอนฟิกพารามิเตอร์สัญญาเช่า (พรีวิว)
 description: หัวข้อนี้จะอธิบายการตั้งค่าของการตั้งค่าคอนฟิกสำหรับสัญญาเช่าสินทรัพย์ เช่น ข้อมูลความปลอดภัย และการตั้งค่าการบัญชี
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
 ms.reviewer: twheeloc
@@ -14,10 +13,15 @@ ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
-ms.search.validFrom: '2020-10-28'
+ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968088"
 ---
-
 # <a name="configure-lease-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์สัญญาเช่า
 
 [!include [banner](../includes/banner.md)]

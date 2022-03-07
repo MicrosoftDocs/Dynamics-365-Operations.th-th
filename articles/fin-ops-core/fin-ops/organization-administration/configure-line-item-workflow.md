@@ -2,11 +2,9 @@
 title: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798841"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070132"
 ---
 # <a name="configure-line-item-workflows"></a>ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
 
@@ -54,3 +55,6 @@ ms.locfileid: "4798841"
     6. หากต้องการตรวจสอบว่าชุดของเงื่อนไขที่คุณป้อนเข้าไปถูกตั้งค่าคอนฟิกไว้ถูกต้องหรือไม่ ให้คลิก **ทดสอบ** ในหน้า **ทดสอบเงื่อนไขลำดับงาน** ในพื้นที่ **ตรวจสอบความถูกต้องของเงื่อนไข** เลือกเรกคอร์ด แล้วคลิก **ทดสอบ** ระบบจะประเมินเรกคอร์ดเพื่อพิจารณาว่าเป็นไปตามเงื่อนไขที่คุณกำหนดไว้หรือไม่ คลิก **ตกลง** หรือ **ยกเลิก** เพื่อกลับไปที่หน้า **คุณสมบัติ**
 
     บนแท็บ **ลำดับงาน** เลือกลำดับงานที่จะใช้ในการประมวลผลสินค้าในรายการที่ตรงกับชุดของเงื่อนไขที่คุณกำหนดไว้
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

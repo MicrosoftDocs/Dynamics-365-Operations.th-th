@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: c543876c48eca55eaaa6fd67585ec357dfea276ffbf8abad3c28c6f4cf29f782
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750375"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6023634"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>การคํานวณ TDS ในใบแจ้งหนี้จากหน้าใบแจ้งหนี้ข้อความอิสระ
 

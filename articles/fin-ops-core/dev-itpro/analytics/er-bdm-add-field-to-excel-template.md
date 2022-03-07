@@ -2,11 +2,9 @@
 title: เพิ่มฟิลด์ใหม่ลงในแม่แบบเอกสารทางธุรกิจใน Microsoft Excel
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเพิ่มฟิลด์ใหม่ลงในแม่แบบเอกสารทางธุรกิจใน Microsoft Excel โดยใช้คุณลักษณะการจัดการเอกสารทางธุรกิจ
 author: NickSelin
-manager: AnnBe
 ms.date: 11/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fcfbcb021b192cef75d59b0db1796e994f3dc27d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767253"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>เพิ่มฟิลด์ใหม่ลงในแม่แบบเอกสารทางธุรกิจใน Microsoft Excel
 
@@ -52,7 +50,7 @@ ms.locfileid: "4681387"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวีธีการนำเข้าการตั้งค่าคอนฟิก ER ดู [จัดการวงจรการใช้งานการตั้งค่าคอนฟิก ER](general-electronic-reporting-manage-configuration-lifecycle.md)
 
-![เพจไลบรารีแอสเซทที่ใช้ร่วมกันของ LCS](./media/BDM-AddFldExcel-LCS.png)
+![หน้าไลบรารีสินทรัพย์ที่ใช้ร่วมกันของ LCS](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>แก้ไขแม่แบบเริ่มต้นแบบของ ER
 
@@ -68,7 +66,7 @@ ms.locfileid: "4681387"
 
 เพจโปรแกรมแก้ไขแม่แบบ BDM ปรากฏขึ้น คุณสามารถใช้ Microsoft 365 เพื่อแก้ไขแม่แบบที่เลือกแบบออนไลน์ในตัวควบคุมแบบฝัง
 
-![เพจโปรแกรมแก้ไขแม่แบบ BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
+![หน้าโปรแกรมแก้ไขแม่แบบ BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>เพิ่มป้ายชื่อสำหรับฟิลด์ใหม่ให้กับแม่แบบ
 
@@ -135,7 +133,7 @@ ms.locfileid: "4681387"
 
 ในพื้นที่ทำงาน **การจัดการเอกสารทางธุรกิจ** แท็บ **แม่แบบ** ในบานหน้าต่างด้านขวาแสดงแม่แบบที่อัพเดต ในกริด ให้สังเกตว่าฟิลด์ **สถานะ** สำหรับแม่แบบที่แก้ไขถูกเปลี่ยนเป็น **ร่าง** และฟิลด์ **การปรับปรุง** จะไม่ว่างเปล่าอีกต่อไป การเปลี่ยนแปลงเหล่านี้บ่งชี้ว่ากระบวนการของการแก้ไขของแม่แบบนี้ได้เริ่มต้นแล้ว
 
-![แม่แบบที่แก้ไขแล้วในพื้นที่ทำงานการจัดการเอกสารธุรกิจ](./media/BDM-AddFldExcel-Workspace2.png)
+![แม่แบบที่แก้ไขแล้วในพื้นที่ทำงานการจัดการเอกสารทางธุรกิจ](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>ตรวจทานการตั้งค่าบริษัท
 
@@ -169,3 +167,6 @@ ms.locfileid: "4681387"
 [ภาพรวมของการจัดการเอกสารทางธุรกิจ](er-business-document-management.md)
 
 [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

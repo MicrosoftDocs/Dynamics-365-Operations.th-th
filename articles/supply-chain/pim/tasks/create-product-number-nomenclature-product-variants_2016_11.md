@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f75d7e493255b9c09c10b121f388854861cb0fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07922a20d5c99640f32bb28ddddaffe846440667
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438480"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258886"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่ตั้งค่าคอนฟิก
 
@@ -102,3 +101,6 @@ ms.locfileid: "4438480"
 43. ปิดหน้า
 44. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,30 +2,29 @@
 title: ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกัน
 description: คุณต้องตั้งค่าพารามิเตอร์ที่ใช้ร่วมกันสำหรับเรกคอร์ดที่ใช้ร่วมกันระหว่างบริษัท เช่นเรกคอร์ดตำแหน่ง บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 888caa19a9befd32ce27b27e499cdfe88a1bbf01
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420706"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054535"
 ---
 # <a name="configure-shared-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์ที่ใช้ร่วมกัน
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 คุณต้องตั้งค่าพารามิเตอร์ที่ใช้ร่วมกันสำหรับเรกคอร์ดที่ใช้ร่วมกันระหว่างบริษัท เช่นเรกคอร์ดตำแหน่ง บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ทรัพยากรบุคคลสำหรับนิติบุคคล
 
@@ -45,3 +44,6 @@ ms.locfileid: "4420706"
 
 -   **ตลอดเวลา** – คุณไม่สามารถมอบหมายผู้ปฏิบัติงานไปยังตำแหน่งใหม่เมื่อตำแหน่งนั้นถูกสร้าง เมื่อตำแหน่งดังกล่าวถูกสร้างขึ้น วันที่และเวลาของ **ความพร้อมในการกำหนด** ในแท็บ **ทั่วไป** ของ **ตำแหน่ง** จะถูกตั้งค่าโดยอัตโนมัติเป็นวันที่และเวลาที่สร้าง
 -   **ไม่มีวัน** – คุณไม่สามารถมอบหมายผู้ปฏิบัติงานไปยังตำแหน่งใหม่เมื่อตำแหน่งนั้นถูกสร้าง ถ้าคุณเลือกตัวเลือกนี้ คุณต้องเปิดหน้า **ตำแหน่ง** สำหรับแต่ละตำแหน่งใหม่เมื่อพร้อมใช้งาน จากนั้น ในแท็บ **ทั่วไป** ป้อนวันที่ **พร้อมใช้งานสำหรับการกำหนด** เพื่อเปิดใช้งานการกำหนดผู้ปฏิบัติงาน
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

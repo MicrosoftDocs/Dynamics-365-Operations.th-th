@@ -1,23 +1,27 @@
 ---
-# required metadata
 title: ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 description: หัวข้อนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
-ms.prod: null
-ms.technology: null
+ms.prod: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: null
-ms.assetid: null
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: null
+ms.search.industry: ''
 ms.author: gmohanv
-ms.search.validFrom: '2019-10-31'
+ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967961"
 ---
-
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]

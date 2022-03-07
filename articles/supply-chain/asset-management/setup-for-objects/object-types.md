@@ -1,12 +1,10 @@
 ---
 title: ชนิดสินทรัพย์
 description: หัวข้อนี้จะอธิบายวิธีการสร้างชนิดสินทรัพย์ในการจัดการสินทรัพย์ นอกจากนี้ ยังอธิบายถึงองค์ประกอบที่เกี่ยวข้องกับชนิดของสินทรัพย์ด้วย
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730388"
 ---
 # <a name="asset-types"></a>ชนิดสินทรัพย์
 
@@ -47,8 +45,8 @@ ms.locfileid: "5017428"
 7. เลือก **บันทึก**
 8. บน FastTab **ชนิดงานบำรุงรักษา** ให้เลือกชนิดงานบำรุงรักษาที่ควรเกี่ยวข้องกับชนิดสินทรัพย์:
 
-    - ถ้าต้องการเลือกชนิดงานบำรุงรักษา ให้เลือกในฟิลด์ **ชนิดงานบำรุงรักษาที่เหลืออยู่** แล้วจากนั้น เลือกปุ่มลูกศรขวา ![ปุ่มลูกศรขวา](media/29-setup-for-objects.png) เพื่อย้ายไปยังส่วน **ชนิดงานบำรุงรักษาที่เลือก**
-    - หากต้องการเลือกชนิดงานบำรุงรักษาที่พร้อมใช้งานทั้งหมด เลือกปุ่ม ![ลูกศรส่งต่อทั้งหมด](media/30-setup-for-objects.png) ชนิดงานบำรุงรักษาทั้งหมดจะถูกโอนย้ายจากฟิลด์ **ชนิดงานบำรุงรักษาที่เหลืออยู่** ไปยังฟิลด์ **ชนิดงานบำรุงรักษาที่เลือก**
+    - ถ้าต้องการเลือกชนิดงานบำรุงรักษา ให้เลือกในฟิลด์ **ชนิดบำรุงรักษางานที่เหลือ** แล้วจากนั้น เลือกปุ่มลูกศรขวา ![ปุ่มลูกศรขวา](media/29-setup-for-objects.png) เพื่อย้ายไปยังส่วน **ชนิดงานบำรุงรักษาที่เลือก**
+    - หากต้องการเลือกชนิดงานบำรุงรักษาที่พร้อมใช้งานทั้งหมด เลือกปุ่ม ![ลูกศรส่งต่อทั้งหมด](media/30-setup-for-objects.png) ปุ่ม ชนิดงานบำรุงรักษาทั้งหมดจะถูกโอนย้ายจากฟิลด์ **ชนิดงานบำรุงรักษาที่เหลืออยู่** ไปยังฟิลด์ **ชนิดงานบำรุงรักษาที่เลือก**
     - ถ้าต้องการยกเลิกการเลือกของชนิดงานบำรุงรักษา ให้เลือกในฟิลด์ **ชนิดงานบำรุงรักษาที่เลือก** แล้วจากนั้น เลือกปุ่มลูกศรซ้าย ![ปุ่มลูกศรซ้าย](media/31-setup-for-objects.png) เพื่อย้ายไปยังฟิลด์ **ชนิดงานบำรุงรักษาที่เหลือ**
 
 9. นอกจากนี้ คุณยังสามารถเลือกตัวนับที่ควรเกี่ยวข้องกับชนิดของสินทรัพย์ บน FastTab **ตัวนับ** ให้ทำการเลือกของคุณโดยใช้วิธีการที่อธิบายไว้สำหรับชนิดงานบำรุงรักษาในขั้นตอนที่ 8 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าของตัวนับ ให้ดูที่ [ตัวนับ](counters.md)
@@ -96,3 +94,6 @@ ms.locfileid: "5017428"
 
 เพื่อดูว่ามีการใช้อะไหล่สำรองในรายการที่เลือกถูกใช้ในที่อื่นใดในการจัดการสินทรัพย์หรือไม่ (ตัวอย่างเช่น ในความสัมพันธ์กับสินทรัพย์และใบสั่งงาน) ให้เลือก **สินค้าที่ใช้** ในการเปิดหน้า **สินค้าที่ใช้** 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
