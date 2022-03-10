@@ -1,12 +1,10 @@
 ---
 title: ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยในระหว่างการป้อนข้อมูลใบสั่ง
 description: ใช้ฟิลด์ **หมายเลขสินค้า** เพื่อค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยเมื่อคุณสร้างใบสั่งขายหรือใบสั่งซื้อด้วยตนเอง ซึ่งจะช่วยให้คุณสามารถค้นหาผลิตภัณฑ์ย่อยได้อย่างรวดเร็วเมื่อคุณมีเฉพาะสตริงการตั้งค่าคอนฟิกหรือหนึ่งในมิติของผลิตภัณฑ์ที่พร้อมใช้งาน
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, PurchTablePart, SalesTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38d6a95d1923d179dad9f532db980a12e397ccb1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9fea7f82ac7723d4cb83c5c8224251fd6c43a315
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262272"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565716"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>ค้นหาผลิตภัณฑ์และผลิตภัณฑ์ย่อยในระหว่างการป้อนข้อมูลใบสั่ง
 

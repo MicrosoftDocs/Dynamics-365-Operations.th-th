@@ -1,28 +1,25 @@
 ---
 title: สร้างใบสั่งซื้อของโครงการ
 description: กระบวนงานนี้แสดงวิธีการสร้างใบสั่งซื้อโครงการ
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, PurchTablePart, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85079a843de02a8c8d5ae0ec291fa77464dd2dff
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4d407e0d6af35de2d8c8679ca2ab5f6752688daa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438891"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565410"
 ---
 # <a name="create-project-purchase-order"></a>สร้างใบสั่งซื้อของโครงการ
 
@@ -48,3 +45,6 @@ ms.locfileid: "4438891"
     * ตรวจสอบว่าราคาขายและราคาต้นทุนพร้อมใช้งาน ถ้าไม่พร้อมใช้งาน แต่จำเป็นต้องใช้ ให้ป้อนข้อมูล  
 14. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

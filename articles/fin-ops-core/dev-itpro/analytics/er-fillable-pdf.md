@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758299"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อกรอกข้อมูลในเท็มเพลต PDF
 
@@ -238,7 +238,7 @@ ms.locfileid: "5753299"
 
     โปรดสังเกตว่า แอททริบิวต์ **ชื่อ** ขององค์ประกอบรูปแบบนี้ถูกกำหนดเป็น **การแก้ไข 1** นอกจากนี้ โปรดสังเกตว่านิพจน์ **ชื่อ** ขององค์ประกอบรูปแบบถูกกำหนดเป็น **Paging.FldName("Correction",\@.Number)**
 
-![จัดรูปแบบตัวออกแบบที่ซึ่งมีการเลือกการแม็ป](media/rcs-ger-filloutpdf-reviewformat2.png)
+![ตัวออกแบบรูปแบบที่มีการเลือกการแม็ป](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 โปรดสังเกตว่า มีการใช้องค์ประกอบรูปแบบ **ฟิลด์** เพื่อกรอกข้อมูลในฟิลด์แต่ละฟิลด์ของเอกสาร PDF ที่เติมข้อมูลได้ ซึ่งถูกกำหนดเป็นเท็มเพลตขององค์ประกอบรูปแบบ **ไฟล์ PDF** หลัก การรวมกันขององค์ประกอบรูปแบบ **ไฟล์ PDF** หรือองค์ประกอบที่ซ้อนกัน ถ้ามีองค์ประกอบที่ซ้อนกันใดๆ ให้ระบุค่าที่ป้อนไว้ในฟิลด์ PDF ที่สอดคล้องกัน สามารถใช้คุณสมบัติที่แตกต่างกันขององค์ประกอบรูปแบบ **ฟิลด์** เพื่อระบุว่าฟิลด์ PDF ใดถูกกรอกข้อมูลโดยองค์ประกอบรูปแบบแต่ละองค์ประกอบ:
 
@@ -295,7 +295,7 @@ ms.locfileid: "5753299"
 
 ![หน้าอื่นของรายงานที่ถูกสร้าง](media/rcs-ger-filloutpdf-generatedreport2.png)
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 - [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML ของ ER (พฤศจิกายน 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word](tasks/er-design-configuration-word-2016-11.md)

@@ -12,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937073"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779553"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>เปลี่ยนลำดับการจัดเรียงสำหรับการจัดซื้อสินค้าเอนทิตี้
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 ผู้ค้าปลีกพิจารณาการค้นพบผลิตภัณฑ์เป็นเครื่องมือหลักสำหรับการโต้ตอบกับลูกค้าในทุกช่องทาง ฟังก์ชันต่างๆสามารถช่วยลูกค้าในการค้นหาผลิตภัณฑ์ได้อย่างง่ายดาย ตัวอย่างเช่น ลูกค้าสามารถเรียกดูประเภท การค้นหา เเละตัวกรองข้อมูลได้
 
@@ -51,7 +51,7 @@ ms.locfileid: "5937073"
 
 ลำดับการแสดงผลสำหรับลำดับชั้นการนำทางของช่องทางจะปรากฏใน HQ สำหรับลำดับชั้นของผลิตภัณฑ์เชิงพาณิชย์และผลิตภัณฑ์ที่วางจำหน่ายตามประเภท
 
-![ลำดับชั้นผลิตภัณฑ์ที่กำหนดเองเรียงลำดับด้วยค่าลบ](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![ลำดับชั้นผลิตภัณฑ์ที่เรียงลำดับแบบกำหนดเองด้วยค่าลบ](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
 ![เปิดตัวผลิตภัณฑ์ตามประเภทที่กำหนดเองเรียงลำดับตามลำดับชั้นของผลิตภัณฑ์](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 

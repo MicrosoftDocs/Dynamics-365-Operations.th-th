@@ -2,11 +2,9 @@
 title: เนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
 description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
 author: AndersGirke
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c815a2e37f9882d695bf170a806301a3145d0f06
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761427"
 ---
 # <a name="production-performance-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Microsoft Power BI เกี่ยวกับ **ประสิทธิภาพการผลิต** และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ประสิทธิภาพของการผลิต** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -128,3 +126,6 @@ ms.locfileid: "5094223"
 | เอนทิตี้                  | รหัสและชื่อ                                                   |
 | ทรัพยากร                 | รหัสทรัพยากร ชื่อทรัพยากร ชนิดทรัพยากร และกลุ่มทรัพยากร |
 | ผลิตภัณฑ์                  | หมายเลขผลิตภัณฑ์ ชื่อผลิตภัณฑ์ รหัสสินค้า และกลุ่มสินค้า         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

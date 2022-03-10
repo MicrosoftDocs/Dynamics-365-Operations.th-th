@@ -1,28 +1,25 @@
 ---
 title: ติดตั้ง Add-in เครื่องมือ IoT ใน LCS
 description: หัวข้อนี้อธิบายถึงวิธีการติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS)
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438795"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781600"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>ติดตั้ง Add-in เครื่องมือ IoT ใน LCS
 
@@ -56,3 +53,6 @@ ms.locfileid: "4438795"
 2. ใน LCS ไปยังรายละเอียดสภาพแวดล้อม Supply Chain Management ของคุณ
 3. เลื่อนลงไปที่ส่วน **Add-in ของสภาพแวดล้อม**
 4. เลือก **ถอนการติดตั้ง** สำหรับ Add-in ครื่องมือ IoT
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

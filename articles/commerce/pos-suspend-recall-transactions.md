@@ -2,11 +2,9 @@
 title: ระงับและดำเนินการธุรกรรมต่อในจุดขายหน้าร้าน (POS)
 description: หัวข้อนี้อธิบายวิธีการที่ผู้ใช้สามารถระงับธุรกรรมที่กำลังดำเนินการ และจากนั้นดำเนินการต่อในภายหลัง หรือในการลงทะเบียนที่แตกต่างกันโดยการใช้ Dynamics 365 Commerce
 author: jblucher
-manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 823d538bea481aef4f3657fe0ae1ebb3b0cf759c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2efc88cfa7a8cede50969484d275c6fdbb2204dd2f29b3f8c7340d02cb61a79c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972541"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737565"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>ระงับและดำเนินการธุรกรรมต่อในจุดขายหน้าร้าน (POS)
 
@@ -81,3 +79,6 @@ ms.locfileid: "4972541"
 ### <a name="void-a-suspended-transaction"></a>ยกเลิกธุรกรรมที่ระงับ
 
 คุณสามารถยกเลิกธุรกรรมที่ระงับได้ โดยการเรียกคืนธุรกรรม และจากนั้น ดำเนินการดำเนินงาน **ยกเลิกธุรกรรม** หรือโดยการเลือกธุรกรรมในรายการ **เรียกคืนธุรกรรม** และเลือก **ยกเลิก** บนแถบแอป อีกทางหนึ่งคือ คุณสามารถตั้งค่าคอนฟิกร้านค้าเพื่อพร้อมท์ผู้ใช้ให้ยกเลิกธุรกรรมที่ระงับ เมื่อพวกเขาปิดกะของพวกเขา
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

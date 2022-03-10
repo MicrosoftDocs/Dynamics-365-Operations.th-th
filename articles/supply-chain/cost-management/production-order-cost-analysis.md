@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50df2a63584d3db0d3b91fabd224e12dffa809d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734270"
 ---
 # <a name="production-order-cost-analysis"></a>การวิเคราะห์ต้นทุนใบสั่งผลิต
 
@@ -55,8 +55,7 @@ ms.locfileid: "5809649"
 -   **สินค้าสำเร็จในระหว่างกระบวนการ**− รายงานนี้แสดงรายการใบสั่งผลิตปัจจุบัน และธุรกรรมการรายงานการเสร็จงานในวันที่ทำธุรกรรมที่ระบุ
 
 
-<a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
---------
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [แหล่งทั่วไปของผลต่างการผลิต](common-sources-of-production-variances.md)
 

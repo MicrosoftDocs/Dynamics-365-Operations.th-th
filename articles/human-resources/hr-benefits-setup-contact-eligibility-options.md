@@ -1,33 +1,35 @@
 ---
-title: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
-description: ตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้
-author: andreabichsel
-ms.date: 04/06/2020
+title: ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49a519aafc56c303765619a66d815d79b668d0f9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad9dc9d12bcc419c3925b0f78566d9f3eb0a1e35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790895"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070361"
 ---
-# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล
+# <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้แสดงวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่จะใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ที่มีความสัมพันธ์ส่วนบุคคลสามารถเป็นผู้รับผลประโยชน์หรือผู้อยู่ในอุปการะได้ 
+หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่สามารถใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ติดต่อส่วนบุคคลคือบุคคลที่ได้รับความคุ้มครองภายใต้แผนของคุณ (ผู้อยู่ในอุปการะ) หรือผู้ที่จะได้รับประโยชน์จากแผนของคุณ (ผู้รับผลประโยชน์) ผู้อยู่ในอุปการะมักเป็นคู่สมรสหรือบุตร ผู้รับผลประโยชน์สามารถเป็นคู่สมรส บุตร ผู้ไว้วางใจ หรือผู้ปกครอง
 
 1. ในพื้นที่ทำงาน **การจัดการสิทธิประโยชน์** ภายใต้ **การตั้งค่า** ให้เลือก **ตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล**
 

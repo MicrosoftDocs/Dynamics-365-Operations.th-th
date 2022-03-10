@@ -1,7 +1,7 @@
 ---
 title: สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าระบบการตั้งชื่อสำหรับหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า และวิธีการที่คุณกำหนดให้กับกลุ่มมิติของผลิตภัณฑ์ที่เหมาะสม
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResN
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920668"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569588"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>สร้างระบบการตั้งชื่อแบบหมายเลขผลิตภัณฑ์สำหรับผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 

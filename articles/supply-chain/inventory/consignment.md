@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าปริมาณการใช้วัสดุ
 description: หัวข้อนี้อธิบายวิธีการใช้กระบวนการสินค้าคงคลังที่มีการส่งมอบขาเข้า
-author: perlynne
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015864"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577731"
 ---
 # <a name="set-up-consignment"></a>ตั้งค่าปริมาณการใช้วัสดุ
 

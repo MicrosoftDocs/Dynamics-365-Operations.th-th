@@ -1,31 +1,31 @@
 ---
-title: ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต
-description: ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources สำหรับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+title: ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
+description: หัวข้อนี้อธิบายวิธีการประมวลผลการเปลี่ยนแปลงเหตุการณ์ของชีวิตใน Microsoft Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2726dcb3c847c9af2a431358de04a27341b9e66c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: cb894d9886c095d760efe66abcf773a975a99caa
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464261"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067615"
 ---
-# <a name="process-life-event-changes"></a>ประมวลผลการเปลี่ยนแปลงในเหตุการณ์ของชีวิต
+# <a name="process-life-event-changes"></a>ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -47,7 +47,7 @@ ms.locfileid: "5464261"
 
    1. ป้อนข้อมูลสำหรับกระบวนการ
 
-   2. หากต้องการตั้งค่าให้มีการรันงานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
+   2. หากต้องการตั้งค่าให้มีการเรียกใช้งานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
 
    3. เมื่อต้องการตั้งค่าการแจ้งเตือนงาน เลือก **การแจ้งเตือน** เลือกการแจ้งเตือนที่จะรับ และจากนั้นเลือก **ตกลง**
 

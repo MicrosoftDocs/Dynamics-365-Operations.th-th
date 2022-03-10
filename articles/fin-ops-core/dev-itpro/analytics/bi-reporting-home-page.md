@@ -2,26 +2,26 @@
 title: โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 description: หัวข้อนี้จะแสดงแหล่งข้อมูลที่คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับข่าวกรองธุรกิจและเครื่องมือการรายงานที่มีอยู่
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 694c1f415fd52eb9e98ace2e5787c12f7a1fed8e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712747"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 
@@ -89,3 +89,6 @@ ms.locfileid: "4687288"
 - [รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก](../sysadmin/license-codes-configuration-keys-report.md)
 - [รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่](SSRS-report.md)
 - [รายงานชนิดลำดับงาน](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

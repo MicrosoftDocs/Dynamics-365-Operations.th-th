@@ -1,28 +1,25 @@
 ---
 title: การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
 description: หัวข้อนี้อธิบายวิธีตั้งค่าและใช้การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วนจากอุปกรณ์เคลื่อนที่
-author: pjacobse
-manager: tfehr
+author: perlynne
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fbe12b66da68bcd130fdb188eb0106b686200c3b59edc2af96b79f65022567a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438846"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759393"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>การนำชุดงานออกใช้ของใบสั่งการถ่ายโอนที่สำรองบางส่วน
 
@@ -64,3 +61,6 @@ ms.locfileid: "4438846"
 -   เมื่อต้องการตั้งค่าพารามิเตอร์ **ปริมาณ** และ **อนุญาตการนำออกใช้ใบสั่งที่นำออกใช้บางส่วน** สำหรับใบสั่งโอนย้าย คลิก **การจัดการคลังสินค้า** \> **นำออกใช้ไปยังคลังสินค้า** \> **นำใบสั่งโอนย้ายออกใช้โดยอัตโนมัติ**
 
 -   เมื่อต้องการตั้งค่าพารามิเตอร์ **ปริมาณ** และ **อนุญาตการนำออกใช้ใบสั่งที่นำออกใช้บางส่วน** สำหรับใบสั่งขาย คลิก **การจัดการคลังสินค้า** \> **นำออกใช้ไปยังคลังสินค้า** \> **นำใบสั่งขายออกใช้โดยอัตโนมัติ**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

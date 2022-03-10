@@ -2,11 +2,9 @@
 title: การเติมสินค้าที่มีคัมบังการเบิกถอน
 description: หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07d83e64bcd206ecedc38fa884b5864d1fbd8f68
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742595"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>การเติมสินค้าที่มีคัมบังการเบิกถอน
 
@@ -32,7 +30,6 @@ ms.locfileid: "5216798"
 หัวข้อนี้อธิบายวิธีใช้คัมบังการเบิกถอนสำหรับการเติมสินค้าวัสดุสำหรับกิจกรรมการผลิต
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>ลำดับงานสำหรับการเติมสินค้าวัสดุที่ใช้คัมบังการเบิกถอน
--------------------------------------------------------------------
 
 คัมบังการเบิกถอนสามารถถูกใช้เพื่อย้ายคัมบังสินค้าเดี่ยวระหว่างคลังสินค้าและสถานที่ผลิตที่ซึ่งมีการใช้วัสดุ คัมบังการเบิกถอนสนับสนุนโซลูชันที่ทำงานแบบดึงสำหรับการเติมสินค้าวัสดุ ที่ต้องใช้สัญญาณดึงเพื่อทริกเกอร์การจัดหาวัสดุสำหรับความต้องการเฉพาะ 
 

@@ -2,11 +2,9 @@
 title: เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 description: หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลต Microsoft Excel ที่สามารถใช้ได้กับแผนงบประมาณ
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f7564ea4372e3d5a532daa33ff59802ba7dede6c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775181"
 ---
 # <a name="budget-planning-templates-for-excel"></a>เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 
@@ -68,8 +66,7 @@ ms.locfileid: "5210372"
 
 ## <a name="select-add-valuemediabpt7png"></a>[![เลือก เพิ่มค่า](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>เพิ่มคอลัมน์ที่คำนวณแล้วไปยังตารางเท็มเพลตเอกสารแผนงบประมาณ
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>เพิ่มคอลัมน์ที่คำนวณแล้วไปยังตารางเท็มเพลตเอกสารแผนงบประมาณ
 
 ถัดไป คอลัมน์ที่คำนวณแล้วจะถูกเพิ่มไปยังเท็มเพลตเอกสารแผนงบประมาณที่สร้างขึ้น คอลัมน์ **คำขอรวม** ซึ่งสรุปคอลัมน์คำขอ Q1: คำขอ Q4 และคอลัมน์ **การปรับปรุง** ซึ่งคำนวณคอลัมน์ **คำขอรวม** ใหม่ด้วยตัวคูณที่กำหนดไว้ล่วงหน้า
 

@@ -1,37 +1,31 @@
 ---
 title: เพิ่มหน้านโยบายความเป็นส่วนตัว
-description: หัวข้อนี้อธิบายวิธีการเพิ่มหน้านโญบายความปลอดภัยไปยังไซต์ของคุณใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้อธิบายวิธีการเพิ่มหน้านโยบายความเป็นส่วนตัวลงในไซต์ของคุณใน Microsoft Dynamics 365 Commerce
 author: v-chgri
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: faf2072a5c53aa84f0de2e6d2478557bf96b7832e3433ad4cba971bc3f6e5880
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729182"
 ---
 # <a name="add-a-privacy-policy-page"></a>เพิ่มหน้านโยบายความเป็นส่วนตัว
 
-
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มหน้านโญบายความปลอดภัยไปยังไซต์ของคุณใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
+หัวข้อนี้อธิบายวิธีการเพิ่มหน้านโยบายความเป็นส่วนตัวลงในไซต์ของคุณใน Microsoft Dynamics 365 Commerce
 
 การปฏิบัติตามข้อกำหนดด้านความเป็นส่วนตัวรวมถึงมาตรการขององค์กรที่แจ้งให้ผู้ใช้ไซต์ทราบถึงวิธีการรวบรวมและจัดการข้อมูลของพวกเขา ผู้ใช้สามารถตัดสินใจได้ว่าต้องการจัดการข้อมูลส่วนบุคคลของตนอย่างไรและสามารถดำเนินการที่เหมาะสมได้
 
@@ -109,3 +103,6 @@ ms.locfileid: "4416074"
 [การคาดการณ์ความต้องการคุกกี้](cookie-compliance.md)
 
 [แทนที่รหัสผู้ใช้ที่เชื่อมโยงกับการเปลี่ยนแปลงเนื้อหาที่ติดตาม](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

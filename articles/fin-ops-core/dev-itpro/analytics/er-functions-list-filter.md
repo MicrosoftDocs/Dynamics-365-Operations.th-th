@@ -2,9 +2,7 @@
 title: ฟังก์ชัน FILTER ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) FILTER
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
-ms.topic: article
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e90db1836a93dab42be5dc91e9ea478163a1437
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559710"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922434"
 ---
 # <a name="filter-er-function"></a>ฟังก์ชัน FILTER ER
 
@@ -51,11 +49,17 @@ FILTER (list, condition)
 
 รายการผลลัพธ์ของเรกคอร์ด
 
-## <a name="usage-notes"></a>บันทึกย่อการใช้งาน
+## <a name="usage-notes"></a><a name="usage-notes"></a>บันทึกย่อการใช้งาน
 
 ฟังก์ชันนี้แตกต่างจากฟังก์ชัน [WHERE](er-functions-list-where.md) เนื่องจากเงื่อนไขที่ระบุจะถูกนำไปใช้กับการรายงานทางอิเล็กทรอนิกส์ (ER) ใดๆ แหล่งข้อมูลของชนิด *เรกคอร์ดตาราง* ที่ระดับฐานข้อมูล สามารถกำหนดรายการและเงื่อนไขได้โดยใช้ตารางและความสัมพันธ์
 
 ถ้าอาร์กิวเมนต์หนึ่งหรือทั้งคู่ที่ถูกกำหนดค่าสำหรับฟังก์ชันนี้ (`list` และ `condition`) อนุญาตให้มีการแปลการร้องขอนี้ไปยังการเรียก SQL โดยตรง จะมีข้อยกเว้นเกิดขึ้นในเวลาออกแบบ ข้อยกเว้นนี้จะแจ้งให้ผู้ใช้ทั้ง `list` หรือ `condition` ทราบว่าหรือไม่สามารถใช้เพื่อสอบถามฐานข้อมูล
+
+> [!NOTE]
+> ฟังก์ชัน `FILTER` ใช้แตกต่างจากฟังก์ชัน `WHERE` เมื่อฟังก์ชัน [`VALUEIN`](er-functions-logical-valuein.md) ใช้เพื่อระบุเงื่อนไขการเลือก
+> 
+> - ถ้าใช้ฟังก์ชัน `VALUEIN` ในขอบเขตของฟังก์ชัน `WHERE` และอาร์กิวเมนต์ที่สองของ `VALUEIN` อ้างอิงไปยังแหล่งข้อมูลที่ส่งคืนไม่มีเรกคอร์ด ระบบถือว่าค่าบูลีน *[เท็จ](er-formula-supported-data-types-primitive.md#boolean)* ที่`VALUEIN` ส่งคืน ดังนั้น นิพจน์จะไม่ส่งคืน `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` เรกคอร์ดผู้จัดจำหน่าย ถ้าแหล่งข้อมูล **VendGroups** ไม่ส่งคืนเรกคอร์ดกลุ่มผู้จัดจำหน่ายใดๆ
+> - ถ้าใช้ฟังก์ชัน `VALUEIN` ในขอบเขตของฟังก์ชัน `FILTER` และอาร์กิวเมนต์ที่สองของ `VALUEIN` อ้างอิงไปยังแหล่งข้อมูลที่ส่งคืนไม่มีเรกคอร์ด ระบบไม่ถือว่าค่าบูลีน *[เท็จ](er-formula-supported-data-types-primitive.md#boolean)* ที่`VALUEIN` ส่งคืน ดังนั้น นิพจน์จะส่งคืน `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` เรกคอร์ดผู้จัดจำหน่ายทั้งหมดของแหล่งข้อมูล **ผู้จัดจำหน่าย** แม้ว่าแหล่งข้อมูล **VendGroups** ไม่ส่งคืนเรกคอร์ดกลุ่มผู้จัดจำหน่าย
 
 ## <a name="example-1"></a>ตัวอย่างที่ 1
 

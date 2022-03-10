@@ -2,11 +2,9 @@
 title: เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 description: หัวข้อนี้อธิบายวิธีการเพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO เพื่อให้สามารถใช้สำหรับการรายงานบัญชีแยกประเภทและงบประมาณ
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3acff8a0cf36ee6958effd9c5384895df20c180499437c43feddce31c884dbbf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729593"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 
@@ -33,7 +31,7 @@ ms.locfileid: "4985123"
 1. ใน Finance ในเพจ **ที่จัดเก็บเอนทิตี้** ให้อัพเดตหน่วยวัด **LedgerActivityMeasure** และ **BudgetActivityMeasure**
 2. ใน Microsoft Visual Studio เปิด Application Explorer และค้นหา **LedgerCFO**
 3. ภายใต้ **ทรัพยากร** เปิด **LedgerCFOWorkspacePBIX**
-4. เมื่อทรัพยากรเปิดขึ้นในเดสก์ท็อป Microsoft Power BI เลือก **รับข้อมูล** เลือก **ฐานข้อมูล SQL Server** และจากนั้น เลือก **เชื่อมต่อ**
+4. เมื่อทรัพยากรเปิดขึ้นใน Microsoft Power BI Desktop เลือก **รับข้อมูล** เลือก **ฐานข้อมูล SQL Server** และจากนั้นเลือก **เชื่อมต่อ**
 5. ป้อนชื่อเซิร์ฟเวอร์ แล้วป้อน **AxDW** เป็นฐานข้อมูล เลือก **DirectQuery** แล้วเลือก **ตกลง**
 6. ค้นหาและเลือก **LedgerActivityMeasure\_DimensionCombination** แล้วเลือก **โหลด**
 
@@ -55,3 +53,6 @@ ms.locfileid: "4985123"
 16. สร้างโครงการของคุณ และจากนั้นเปิดแอพลิเคชันเพื่อดูผลลัพธ์
 
     [![พื้นที่ทำงานที่เสร็จสมบูรณ์](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

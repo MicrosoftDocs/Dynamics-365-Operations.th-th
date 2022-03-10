@@ -1,7 +1,7 @@
 ---
 title: การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้ใน Dynamics 365  Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management
-author: ChristianRytt
+description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้ใน Dynamics 365  Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,29 +13,29 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69399a0e086225bc95c42b01863296a3259162a8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345463"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060775"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>การซิงโครไนส์ข้อตกลงของใบแจ้งหนี้ใน Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Dynamics 365 Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management ตรงกัน
 
-## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
+หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบแจ้งหนี้ข้อตกลงใน Dynamics 365 Field Service ไปยังใบแจ้งหนี้ข้อความอิสระใน Dynamics 365 Supply Chain Management ตรงกัน
 
-เท็มเพลตต่อไปนี้และงานพื้นฐานจะถูกใช้ในการดำเนินการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้จาก Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
+## <a name="templates-and-tasks"></a>เทมเพลตและงาน
 
-**ชื่อของเท็มเพลตในการรวมข้อมูล:**
+เทมเพลตต่อไปนี้และงานพื้นฐานจะถูกใช้ในการดำเนินการซิงโครไนส์ข้อตกลงตามใบแจ้งหนี้จาก Field Service เป็นใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management
+
+**ชื่อของเทมเพลตในการรวมข้อมูล:**
 
 - ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management)
 
@@ -57,7 +57,7 @@ ms.locfileid: "6345463"
 
 ## <a name="entity-flow"></a>ขั้นตอนเอนทิตี้
 
-ใบแจ้งหนี้ที่ถูกสร้างจากข้อตกลงใน Field Service สามารถซิงโครไนส์ไปยัง Supply Chain Management ผ่านทางโครงการการรวมข้อมูล Microsoft Dataverse การอัพเดตใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Supply Chain Management และสถานะการบัญชีถูกอัพเดตเป็น **เสร็จสมบูรณ์** คุณจะไม่สามารถซิงโครไนส์การอัพเดตจาก Field Service ได้อีกต่อไป
+ใบแจ้งหนี้ที่ถูกสร้างจากข้อตกลงใน Field Service สามารถซิงโครไนส์ไปยัง Supply Chain Management ผ่านทางโครงการการรวมข้อมูล Microsoft Dataverse การอัปเดตใบแจ้งหนี้เหล่านี้จะซิงโครไนส์กับใบแจ้งหนี้ข้อความอิสระใน Supply Chain Management ถ้าสถานะการบัญชีของใบแจ้งหนี้ข้อความอิสระเป็น **อยู่ระหว่างดำเนินการ** หลังจากใบแจ้งหนี้ข้อความอิสระถูกลงรายการบัญชีใน Supply Chain Management และสถานะการบัญชีถูกอัปเดตเป็น **เสร็จสมบูรณ์** คุณจะไม่สามารถซิงโครไนส์การอัปเดตจาก Field Service ได้อีกต่อไป
 
 ## <a name="field-service-crm-solution"></a>โซลูชัน CRM ของ Field Service
 
@@ -70,7 +70,7 @@ ms.locfileid: "6345463"
 - ถ้าคอลัมน์ **วันที่ใบแจ้งหนี้** ว่างเปล่าในตาราง **ใบแจ้งหนี้** (นั่นคือ ถ้ามีไม่มีค่า) จะถูกกำหนดเป็นวันที่ปัจจุบัน เมื่อมีการเพิ่มรายการใบแจ้งหนี้ที่เกิดจากข้อตกลง
 - ผู้ใช้สามารถเปลี่ยนตาราง **วันที่ใบแจ้งหนี้** ได้ อย่างไรก็ตาม เมื่อผู้ใช้พยายามบันทึกใบแจ้งหนี้ที่เกิดจากข้อตกลง เขาหรือเธอได้รับข้อผิดพลาดในกระบวนการทางธุรกิจ ถ้าคอลัมน์ **วันที่ในใบแจ้งหนี้** ว่างเปล่าบนใบแจ้งหนี้
 
-## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแม็ปและข้อกำหนดเบื้องต้น
+## <a name="prerequisites-and-mapping-setup"></a>การตั้งค่าการแมปและข้อกำหนดเบื้องต้น
 
 ### <a name="in-supply-chain-management"></a>ใน Supply Chain Management
 
@@ -90,21 +90,21 @@ ms.locfileid: "6345463"
 
 งาน: **รายการใบแจ้งหนี้**  
 
-ตรวจสอบให้แน่ใจว่า ค่าเริ่มต้นของฟิลด์ Supply Chain Management **ค่าที่แสดงบัญชีหลัก** ถูกอัพเดตให้ตรงกับค่าที่ต้องการ
+ตรวจสอบให้แน่ใจว่า ค่าเริ่มต้นของฟิลด์ Supply Chain Management **ค่าที่แสดงบัญชีหลัก** ถูกอัปเดตให้ตรงกับค่าที่ต้องการ
 
-ค่าเท็มเพลตเริ่มต้นคือ **401100**
+ค่าเทมเพลตเริ่มต้นคือ **401100**
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปเทมเพลตในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงการแม็ปเท็มเพลตในการรวมข้อมูล
+ภาพประกอบต่อไปนี้แสดงการแมปเทมเพลตในการรวมข้อมูล
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): หัวเรื่องใบแจ้งหนี้
 
-[![การแม็ปแม่แบบในการรวมข้อมูลของส่วนหัวของใบแจ้งหนี้](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![การแมปเทมเพลตในการรวมข้อมูลของส่วนหัวของใบแจ้งหนี้](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>ข้อตกลงตามใบแจ้งหนี้ (Field Service ไปยัง Supply Chain Management): ลำดับใบแจ้งหนี้
 
-[![การแม็ปแม่แบบในการรวมข้อมูลของรายการของใบแจ้งหนี้](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![การแมปเทมเพลตในการรวมข้อมูลของรายการของใบแจ้งหนี้](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

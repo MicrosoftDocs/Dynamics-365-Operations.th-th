@@ -1,12 +1,10 @@
 ---
 title: ใบสั่งงานและสินทรัพย์ถาวร
 description: หัวข้อนี้อธิบายใบสั่งงาน เเละสินทรัพย์ถาวรในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 678bfae5d0b4ea469a91fc89306be40c39cb082d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad4af6bb0df557314f844d3e7a6c5fb84a6331d86f16e1bc76150f78ce3039e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223445"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752813"
 ---
 # <a name="work-orders-and-fixed-assets"></a>ใบสั่งงานและสินทรัพย์ถาวร
 

@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747526"
 ---
 # <a name="globalization-resources"></a>ทรัพยากรแบบโลกาภิวัตน์
 
 ## <a name="local-and-regional-deployments"></a>การปรับใช้ในท้องถิ่นและภูมิภาค
 หากรัฐบาลของคุณมีข้อบังคับในการจัดเก็บหรือบริการข้อมูลแตกต่างจากข้อกำหนดของประเทศ/ภูมิภาคอื่น คุณต้องพิจารณาข้อกำหนดของประเทศ/ภูมิภาคระหว่างการปรับใช้ พิจารณาทรัพยากรต่อไปนี้ที่อาจเกี่ยวข้องกับคุณ:
 
-[แอป Finance and Operations ที่ดำเนินการโดย 21Vianet ในประเทศจีน](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[แอป Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>คุณลักษณะการทำงานเฉพาะและบังคับ
 
@@ -60,10 +60,10 @@ ms.locfileid: "5748476"
 -   [ส่งการแจ้งเตือนเกี่ยวกับคุณลักษณะข้อบังคับเฉพาะประเทศ/ภูมิภาค](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>แผนการเผยแพร่ Dynamics 365
-[แผนการเผยแพร่ Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
+[แผนการเผยแพร่ Dynamics 365](/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>มีอะไรใหม่ในแอป Finance and Operations
-[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในโฮมเพจ Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
+[โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอป Finance and Operations
 
 ### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:

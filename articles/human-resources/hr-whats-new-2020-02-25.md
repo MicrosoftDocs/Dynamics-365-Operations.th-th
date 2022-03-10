@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d9ff9b524a5812bd309fc33d6aa4ba4a92d687b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6f8a8795b1af59339e920281ffc46139fb9c45e2
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051196"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061212"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (25 กุมภาพันธ์ 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.2927 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุนของ LCS สำหรับการอ้างอิง
 
@@ -48,7 +48,7 @@ ms.locfileid: "6051196"
 
 ## <a name="a-position-can-be-removed-when-active-compensation-records-exist-for-the-position-414568"></a>ตำแหน่งสามารถลบออกได้ เมื่อมีเรกคอร์ดค่าตอบแทนที่ใช้งานอยู่สำหรับตำแหน่ง (414568)
 
-ด้วยการเปลี่ยนแปลงนี้ คำเตือนจะปรากฏขึ้นเมื่อคุณพยายามลบตำแหน่ง และผู้ปฏิบัติงานมีเรกคอร์ดค่าตอบแทนที่ใช้งานอยู่สำหรับตำแหน่งเดียวกันนั้น เมื่อเหตุการณ์นี้เกิดขึ้น คุณต้องอัพเดตเรกคอร์ดค่าตอบแทนคงที่ของพนักงาน ก่อนที่จะลบตำแหน่ง
+ด้วยการเปลี่ยนแปลงนี้ คำเตือนจะปรากฏขึ้นเมื่อคุณพยายามลบตำแหน่ง และผู้ปฏิบัติงานมีเรกคอร์ดค่าตอบแทนที่ใช้งานอยู่สำหรับตำแหน่งเดียวกันนั้น เมื่อเหตุการณ์นี้เกิดขึ้น คุณต้องอัปเดตเรกคอร์ดค่าตอบแทนคงที่ของพนักงาน ก่อนที่จะลบตำแหน่ง
 
 ## <a name="performance-review-workflow-occasionally-adds-sign-offs-from-people-who-are-not-part-of-the-process-414171"></a>ในบางครั้ง ลำดับงานการตรวจทานประสิทธิภาพเพิ่มการลงชื่อออกจากผู้ที่ไม่ได้เป็นส่วนหนึ่งของกระบวนการ (414171)
 
@@ -101,7 +101,7 @@ ms.locfileid: "6051196"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

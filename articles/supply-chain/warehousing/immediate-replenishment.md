@@ -2,11 +2,9 @@
 title: การเติมสินค้าทันที
 description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถใช้การเติมสินค้าในทันที เพื่อเติมสินค้าในสินค้าคงคลังเมื่อคำสั่งสถานที่ล้มเหลวในการปันส่วนสินค้าคงคลัง
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 3def95ac272a424591ed4382d5cd5841bc663654
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741943"
 ---
 # <a name="immediate-replenishment"></a>การเติมสินค้าทันที
 

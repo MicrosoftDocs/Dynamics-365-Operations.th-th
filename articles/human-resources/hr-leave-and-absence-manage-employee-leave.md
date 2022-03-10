@@ -2,13 +2,12 @@
 title: จัดการการลางานของพนักงาน
 description: จัดการการลางานของพนักงานใน Dynamics 365 Human Resources
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,14 +15,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf27f2a235ddb6c37601ce9d2dd7ceb356a511d9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ccdf2346e3fdecf4f27fc9f34f0641d3b1fb5b55
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794696"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067388"
 ---
 # <a name="manage-employee-leave"></a>จัดการการลางานของพนักงาน
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -45,12 +47,11 @@ ms.locfileid: "5794696"
 
 คุณสามารถรวมรหัสเหตุผลและข้อคิดเห็นเมื่อทำการปรับปรุงยอดดุลการลางานของพนักงาน 
 
->[!IMPORTANT]
->การดูข้อมูลเพิ่มเติมเกี่ยวกับยอดดุลการลางานอยู่ในพรีวิว คุณจำเป็นต้องเปิดใช้งานในสภาพแวดล้อม **Sandbox** ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)<br>
->เมื่อวางเมาส์เหนือยอดดุลการลางานใดๆ ตอนนี้คุณจะเห็น:<br>
->- **พร้อมใช้งาน**: ยอดรวมปีนี้ - ใช้ในปีนี้
->- **ยอดรวมของปีนี้**: การรับรู้ การปรับปรุง และการยกยอดไปสำหรับปีทั้งหมด
->- **ดำเนินการในปีนี้**: การหยุดพักที่อนุมัติทั้งหมด
+ขณะนี้ เมื่อคุณข้ามยอดดุลการลางานใดๆ ข้อมูลต่อไปนี้จะปรากฏขึ้น:
+
+- **พร้อมใช้งาน** – ค่า **ผลรวมในปีนี้** ลบด้วยค่า **ที่ใช้ในปีนี้**
+- **ยอดรวมของปีนี้** – การรับรู้ การปรับปรุง และการยกยอดไปสำหรับปีทั้งหมด
+- **ดำเนินการในปีนี้** – การหยุดพักที่อนุมัติทั้งหมด
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

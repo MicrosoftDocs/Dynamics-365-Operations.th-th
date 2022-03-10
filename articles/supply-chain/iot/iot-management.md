@@ -1,27 +1,25 @@
 ---
 title: ตรวจสอบและจัดการเครื่องมือ IoT
 description: หัวข้อนี้จะอธิบายถึงวิธีการตรวจสอบและจัดการเครื่องมือ IoT
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7082f9e7640e8ef1b2873a954327b61a440e8ad0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8fbd750aa4a316f5e04f3c8622d0847ad9318360
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000017"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782668"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>ตรวจสอบและจัดการเครื่องมือ IoT
 
@@ -58,6 +56,9 @@ ms.locfileid: "5000017"
 
 คุณสามารถจำลองสัญญาณเครื่องจักรโรงงานได้ สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อเหล่านี้:
 
-+ [เชื่อมต่อ IoT DevKit AZ3166 กับฮับ Azure IoT](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [เชื่อมต่อกับโปรแกรมจำลอง Raspberry Pi ออนไลน์กับฮับ Azure IoT (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [ภาพรวมส่วนช่วยดำเนินการของโซลูชันการจำลองอุปกรณ์](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [เชื่อมต่อ IoT DevKit AZ3166 กับฮับ Azure IoT](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [เชื่อมต่อกับโปรแกรมจำลอง Raspberry Pi ออนไลน์กับฮับ Azure IoT (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [ภาพรวมส่วนช่วยดำเนินการของโซลูชันการจำลองอุปกรณ์](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

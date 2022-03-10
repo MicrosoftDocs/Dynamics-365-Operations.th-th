@@ -1,26 +1,24 @@
 ---
 title: เตรียมความพร้อมผู้จัดจำหน่าย
 description: หัวข้อนี้อธิบายกระบวนการปฐมนิเทศผู้จัดจำหน่ายใหม่ จะอธิบายถึงการดำเนินการที่จำเป็นตามบทบาทต่างๆ ในระหว่างกระบวนการนี้
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019890"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566898"
 ---
 # <a name="onboard-vendors"></a>เตรียมความพร้อมผู้จัดจำหน่าย
 
@@ -174,3 +172,6 @@ ms.locfileid: "5019890"
 |         อนุมัติแล้ว         |                                                                               มีการอนุมัติคำขอของผู้จัดจำหน่าย                                                                               |                                                                                                   คำขอลงทะเบียนของผู้ที่มีแนวโน้มจะเป็นผู้จัดจำหน่าย ข้อมูลที่ถูกป้อนในตัวช่วยสร้างการลงทะเบียนผู้จัดจำหน่าย และคำขอของผู้จัดจำหน่าย จะถูกลบ                                                                                                    |
 |         ปฏิเสธแล้ว         |                                                                               มีการปฏิเสธคำขอของผู้จัดจำหน่าย                                                                               |                                                                                                   คำขอลงทะเบียนของผู้ที่มีแนวโน้มจะเป็นผู้จัดจำหน่าย ข้อมูลที่ถูกป้อนในตัวช่วยสร้างการลงทะเบียนผู้จัดจำหน่าย และคำขอของผู้จัดจำหน่าย จะถูกลบ                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

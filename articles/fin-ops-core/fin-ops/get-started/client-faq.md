@@ -1,8 +1,7 @@
 ---
 title: FAQ เกี่ยวกับไคลเอนต์
-description: บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอ็นต์ Finance and Operations
+description: บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์ Finance and Operations
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
@@ -15,25 +14,28 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a7d311bfcd65e23e4062f105435d05cb1ceda6b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567051"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071044"
 ---
 # <a name="client-faq"></a>FAQ เกี่ยวกับไคลเอนต์
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอ็นต์ Finance and Operations
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+บทความนี้ให้คำตอบของคำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์ Finance and Operations
 
 ## <a name="why-arent-symbols-loaded"></a>เหตุใดสัญลักษณ์จึงไม่ถูกโหลด
 
 การตั้งค่าความปลอดภัยในเบราเซอร์ของคุณอาจป้องกันสัญลักษณ์จากการถูกโหลดอย่างถูกต้อง เพื่อแก้ไขปัญหานี้ ทำตามขั้นตอนต่อไปนี้:
 
 - ถ้าคุณกำลังพบกับปัญหานี้ใน Internet Explorer คลิก **เครื่องมือ** และจากนั้น คลิก **ตัวเลือกอินเตอร์เน็ต** ในกล่องโต้ตอบตัวเลือกอินเทอร์เน็ต บนแท็บ **ความเป็นส่วนตัว** คลิก **ระดับแบบกำหนดเอง** และตรวจสอบให้แน่ใจว่าตัวเลือก **ดาวน์โหลดแบบอักษร** ได้ถูกเลือก
-- มิฉะนั้น คุณอาจต้องเพิ่มไซต์แอพลงในรายการไซต์ที่เชื่อถือ
+- มิฉะนั้น คุณอาจต้องเพิ่มไซต์แอปลงในรายการไซต์ที่เชื่อถือ
 
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>ฉันคิดถึงริบบอนจาก Dynamics AX 2012 ฉันสามารถรักษาแท็บบานหน้าต่างการดำเนินการให้เปิดตลอดเวลาได้หรือไม่
 

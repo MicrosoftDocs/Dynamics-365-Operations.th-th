@@ -1,12 +1,10 @@
 ---
 title: การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน
 description: ระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61bff50d55ed4c251918a327f2a033369e731bf0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242384"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571340"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน 
+# <a name="specify-how-to-dispose-of-returned-items"></a>การระบุวิธีการตัดจำหน่ายสินค้าที่ส่งคืน
 
 [!include [banner](../includes/banner.md)]
-
 
 เมื่อคุณจัดการใบสั่งส่งคืนสินค้า คุณต้องระบุรหัสเหตุผลการส่งคืนเพื่อระบุสาเหตุที่ส่งคืนผลิตภัณฑ์  และคุณยังต้องระบุรหัสการโอนการครอบครองและการดำเนินการจัดการต่อรายการสินค้าเพื่อกำหนดสิ่งที่ควรจะดำเนินการกับตัวสินค้าที่ส่งคืน
 
@@ -37,9 +34,9 @@ ms.locfileid: "5242384"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -127,8 +124,8 @@ ms.locfileid: "5242384"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -164,24 +161,15 @@ ms.locfileid: "5242384"
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>การเลือกรหัสการโอนการครอบครองสำหรับใบสั่งตรวจสอบสินค้า
 
-1.  คลิก **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**
-
-2.  สำหรับใบสั่งตรวจสอบสินค้าที่มีอยู่ ให้เลือกการดำเนินการจากฟิลด์ **รหัสการโอนการครอบครอง** บนแท็บ **ภาพรวม**
-
-
+1. ไปที่ **การบริหารสินค้าคงคลังt** \> **งานประจำงวด** \> **การจัดการคุณภาพ** \> **ใบสั่งตรวจสอบสินค้า**
+1. สำหรับใบสั่งตรวจสอบสินค้าที่มีอยู่ ให้เลือกการดำเนินการจากฟิลด์ **รหัสการโอนการครอบครอง** บนแท็บ **ภาพรวม**
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[ใบสั่งตรวจสอบสินค้า (แบบฟอร์ม)](https://technet.microsoft.com/library/aa554073(v=ax.60))
+[ใบสั่งตรวจสอบสินค้า (แบบฟอร์ม)](/dynamicsax-2012//quarantine-order-form)
 
 [รหัสการจัดการ (แบบฟอร์ม)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

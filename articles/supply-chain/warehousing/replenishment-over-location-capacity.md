@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: d337c9ab01f86fa7f1b2cbd80674ccf6783f637b98cd26c838a6e44e287b2c7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744617"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778218"
 ---
 # <a name="replenishment-over-location-capacity"></a>การเติมสินค้าตามความจุของสถานที่
 
@@ -32,7 +32,7 @@ ms.locfileid: "6744617"
 
 เมื่อต้องการทำให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (ในใบสั่งนี้):
 
-1. การบล็อคงานทั่วทั้งองค์กร
+1. การบล็อคงานทั่วทั้งองค์กร (ณ Supply Chain Management version เวอร์ชัน 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
 1. การเติมสินค้าตามความจุของสถานที่
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>ตั้งค่าคุณลักษณะสำหรับสถานการณ์ตัวอย่างนี้

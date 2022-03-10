@@ -2,11 +2,9 @@
 title: ระบุอัตราไขว้
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับอัตราคร่อมใน Microsoft Dynamics 365 Finance
 author: abruer
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 317cad877cec4d9f02f53762af65f0b226d0aad6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737028"
 ---
 # <a name="specify-the-cross-rate"></a>ระบุอัตราไขว้
 
@@ -43,3 +41,6 @@ ms.locfileid: "4979399"
 3.  สำหรับลูกค้า บนหน้ารายการ **ลูกค้าทั้งหมด** ไปยัง **รวบรวม > ชำระธุรกรรมที่ค้างอยู่** สำหรับผู้จัดจำหน่าย บนหน้ารายการ **ผู้จัดจำหน่ายทั้งหมด** ไปยัง **ใบแจ้งหนี้ > ชำระธุรกรรมที่ค้างอยู่** 
 4.  เลือกธุรกรรมที่เป็นการชำระเงินหลัก แล้วจากนั้น คลิก **ทำเครื่องหมายการชำระเงิน** กล่องกาเครื่องหมายในคอลัมน์ **ทำเครื่องหมาย** จะถูกเลือก และไอคอนข้อมูลจะแสดงในคอลัมน์ **การชำระเงินหลัก** 
 5.  ในฟิลด์ **อัตราไขว้** ให้ป้อนอัตราแลกเปลี่ยนระหว่างสกุลเงินใบแจ้งหนี้และสกุลเงินการชำระเงิน ณ วันที่ชำระเงิน 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

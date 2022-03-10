@@ -2,7 +2,7 @@
 title: กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
 description: หัวข้อนี้อธิบายวิธีการออกแบบการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) และระบุการขึ้นต่อกันจากส่วนประกอบของซอฟต์แวร์อื่นๆ
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717605"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ
 
@@ -138,5 +138,8 @@ ms.locfileid: "5755117"
     * หมายเหตุว่า การตั้งค่าคอนฟิกการแม็ป 'การแม็ปตัวอย่าง' ของแบบจำลอง ได้ถูกดาวน์โหลดพร้อมกับการตั้งค่าคอนฟิกแบบจำลองของข้อมูลที่เลือก ไฟล์ทั้งสองจะถูกดาวน์โหลดพร้อมกันเนื่องจาก 'การแม็ปตัวอย่าง' ถูกกำหนดเป็นการใช้งานแบบจำลองข้อมูลที่เลือก และเนื่องจากใช้ได้กับแอพลิเคชัน การตั้งค่าคอนฟิก 'การแม็ปตัวอย่าง (สำรอง)' ยังไม่ได้ถูกดาวน์โหลด เนื่องจากไม่ตรงตามเงื่อนไขของรุ่นของแอพลิเคชันที่กำหนด   
     * ถ้าคุณลงชื่อเข้าใช้ Finance and Operations ให้ลงทะเบียนผู้ให้บริการเดียวกัน เข้าสู่โครงการ LCS เดียวกัน และดาวน์โหลดการตั้งค่าคอนฟิกแบบจำลองข้อมูลเดียวกัน การตั้งค่าคอนฟิก 'การแม็ปตัวอย่าง (สำรอง)' จะดาวน์โหลด ในขณะที่การตั้งค่าคอนฟิก 'การแม็ปตัวอย่าง' จะถูกข้ามไป  
 
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+[จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

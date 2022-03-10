@@ -2,11 +2,9 @@
 title: การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน
 description: บางครั้ง ลูกค้าทำการชำระเงินที่น้อยกว่ายอดเงินของใบแจ้งหนี้ บทความนี้อธิบายถึงตัวเลือกต่างๆ สำหรับการจัดการสถานการณ์นี้ ตัวเลือกที่พร้อมใช้งานสำหรับคุณขึ้นอยู่กับความต้องการทางธุรกิจของคุณและตั้งค่าคอนฟิก
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef43e6bafcd6a049111701032efbe5474dfaa9f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769046"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>การชำระเงินของผู้จัดจำหน่ายสำหรับยอดเงินเป็นบางส่วน
 
@@ -30,8 +28,7 @@ ms.locfileid: "5236949"
 
 บางครั้ง ลูกค้าทำการชำระเงินที่น้อยกว่ายอดเงินของใบแจ้งหนี้ บทความนี้อธิบายถึงตัวเลือกต่างๆ สำหรับการจัดการสถานการณ์นี้ ตัวเลือกที่พร้อมใช้งานสำหรับคุณขึ้นอยู่กับความต้องการทางธุรกิจของคุณและตั้งค่าคอนฟิก
 
-<a name="partial-payment-with-no-discount"></a>การชำระเงินบางส่วน โดยไม่มีส่วนลด
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>การชำระเงินบางส่วน โดยไม่มีส่วนลด
 
 ลูกค้าอาจทำการชำระเงินบางส่วนได้ เนื่องจากไม่มีเงินสดเพียงพอเพื่อชำระใบแจ้งหนี้เต็มจำนวน หรือเนื่อจากมีข้อโต้แย้งเกี่ยวกับสินค้าในใบแจ้งหนี้ ในสถานการณ์นี้ ใบแจ้งหนี้สามารถบางส่วนชำระ ด้วยการชำระเงิน ใบแจ้งหนี้จะยังคงเปิดอยู่ และจะแสดงยอดดุล
 

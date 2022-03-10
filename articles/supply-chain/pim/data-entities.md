@@ -1,12 +1,10 @@
 ---
 title: เอนทิตี้ข้อมูลผลิตภัณฑ์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับเอนทิตีต่างๆ ที่สามารถใช้ในการนำเข้าและส่งออกข้อมูลผลิตภัณฑ์
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 1e7bda8cc900a5ae3ebab8e78254c802a627dc6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2784e552d7984bbea9c74ad800c6305ab2a216e9
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243284"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567162"
 ---
 # <a name="product-data-entities"></a>เอนทิตี้ข้อมูลผลิตภัณฑ์
 

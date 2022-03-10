@@ -1,28 +1,30 @@
 ---
-title: ไคลเอนต์ยกเลิกการเชื่อมต่อ
-description: บทความนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อมของเขาหรือเธอ และไม่รู้ว่าเพราะอะไร
-author: andreabichsel
-ms.date: 02/03/2020
+title: การยกเลิกการเชื่อมต่อไคลเอนต์
+description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องทำ ถ้าลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อม
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9ec43ad0a7d121eb247d81d4b506556a0fa2214
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794912"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071146"
 ---
-# <a name="client-disconnects"></a>ไคลเอนต์ยกเลิกการเชื่อมต่อ
+# <a name="client-disconnects"></a>การยกเลิกการเชื่อมต่อไคลเอนต์
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -32,7 +34,7 @@ ms.locfileid: "5794912"
  
 **อาการ** 
 
-ลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อมของเขาหรือเธอ และไม่รู้ว่าเพราะอะไร ลูกค้าจะได้รับหนึ่งในข้อความแสดงข้อผิดพลาดต่อไปนี้:
+ลูกค้าถูกยกเลิกการเชื่อมต่อจากสภาพแวดล้อม และไม่รู้ว่าเพราะอะไร ลูกค้าจะได้รับหนึ่งในข้อความแสดงข้อผิดพลาดต่อไปนี้:
 
 - เราได้เสียการเชื่อมต่อของคุณ คลิกปิดเพื่อทำงานต่อไป
 - การเชื่อมต่อเครือข่ายของคุณอาจขาดหายไป คลิก ลองอีกครั้ง เพื่อลองใหม่

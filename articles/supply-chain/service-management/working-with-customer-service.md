@@ -1,9 +1,9 @@
 ---
 title: ภาพรวมของการทำงานกับการบริการลูกค้า
 description: การบริการลูกค้าช่วยสนับสนุนบริษัทที่ให้บริการแบบมืออาชีพ และองค์กรที่ให้บริการด้านการผลิต
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable, SMADispatchBoard
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b83b36102cc1c0f8ed9c08920ac3817435a6b24
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21ed2ceb6db06b04255803956c07ad3bcfa0e743
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807763"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982470"
 ---
 # <a name="work-with-customer-service-overview"></a>ภาพรวมของการทำงานกับการบริการลูกค้า
 

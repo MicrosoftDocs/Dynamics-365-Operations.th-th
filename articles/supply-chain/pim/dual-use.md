@@ -1,7 +1,7 @@
 ---
 title: สินค้าที่ใช้ได้สองทาง
 description: หัวข้อนี้จะอธิบายถึงวิธีการติดตามผลิตภัณฑ์ที่ระบุเป็นสินค้าที่ใช้ได้สองทาง จัดเก็บหมายเลขใบรับรองสำหรับผลิตภัณฑ์ที่เกี่ยวข้องแต่ละรายการและปลายทางแต่ละแห่ง และพิมพ์หมายเลขใบรับรองที่ถูกต้องในใบแจ้งหนี้ที่เกี่ยวข้อง บันทึกการจัดส่ง และ/หรือ ใบสั่งขาย
-author: dasani-madipalli
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 15e8696b2bfa9f1df3cecd2d98b9ad2f6c5d6000
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829485"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570764"
 ---
 # <a name="dual-use-goods"></a>สินค้าที่ใช้ได้สองทาง
 

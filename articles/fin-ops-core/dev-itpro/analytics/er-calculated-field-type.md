@@ -2,7 +2,6 @@
 title: สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ
 description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับวิธีการใช้ชนิดฟิลด์ที่มีการคำนวณสำหรับแหล่งข้อมูล ER
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569212"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349171"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>สนับสนุนการเรียกแบบพารามิเตอร์ ของแหล่งข้อมูล ER ของชนิดฟิลด์ที่มีการคำนวณ
 
@@ -87,7 +86,7 @@ ms.locfileid: "5569212"
 
     การแม็ปรูปแบบในการตั้งค่าคอนฟิกนี้จะใช้รูปแบบข้อมูลพื้นฐาน สำหรับรูปแบบ ER ใดๆ ที่สร้างขึ้นสำหรับรูปแบบนี้ และดำเนินการใน Finance and Operations ดังนั้นจึงมีการเปิดเผยเนื้อหาของแหล่งข้อมูล **ภาษี** และ **Gr** สำหรับรูปแบบ ER เช่น แหล่งข้อมูลที่เป็นนามธรรม
 
-    ![หน้าตัวออกแบบการแม็ปรูปแบบแสดงแหล่งข้อมูลของข้อมูลภาษี และ Gr](media/er-calculated-field-type-01.png)
+    ![หน้าตัวออกแบบการแม็ปรูปแบบแสดงแหล่งข้อมูลของภาษี และ Gr](media/er-calculated-field-type-01.png)
 
 5.  ปิดหน้า **ตัวออกแบบการแม็ปรูปแบบ**
 6.  ปิดหน้า **การแม็ปรูปแบบ**
@@ -109,7 +108,7 @@ ms.locfileid: "5569212"
 
     ฟิลด์ที่มีการคำนวณ **Model.Data.Summary.Level** ประกอบด้วยนิพจน์ที่ส่งคืนรหัสของระดับภาษี (**ปกติ** **ลดลง** **ไม่มี** หรือ **อื่นๆ**) เป็นค่าข้อความสำหรับรหัสภาษีใดๆ ที่สามารถดึงข้อมูลมาจากแหล่งข้อมูล **Model.Data.Summary** ในเวลารัน
 
-    ![หน้าตัวออกแบบรูปแบบที่แสดงรายละเอียดของรูปแบบข้อมูลเพื่อเรียนรู้การเรียกแบบพารามิเตอร์](media/er-calculated-field-type-03.png)
+    ![หน้าตัวออกแบบรูปแบบที่แสดงรายละเอียดของแบบจำลองรูปแบบข้อมูลเพื่อเรียนรู้การเรียกแบบพารามิเตอร์](media/er-calculated-field-type-03.png)
 
 6. ขยายรายการ **Model**.**Data2**
 7. ขยายรายการ **Model**.**Data2.Summary2**

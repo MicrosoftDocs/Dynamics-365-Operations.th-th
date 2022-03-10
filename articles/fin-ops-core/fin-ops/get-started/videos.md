@@ -2,8 +2,7 @@
 title: วิดีโอ
 description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
-manager: AnnBe
-ms.date: 02/11/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 70eddab17d94a7ff4a9f00117200a657ebfb24dd
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566233"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488002"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -35,7 +34,6 @@ ms.locfileid: "5566233"
 
 ### <a name="data-integration"></a>การรวมข้อมูล
 
-- [การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](https://youtu.be/AVV9x5x-XCg)
 - [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>การจัดการข้อมูล
@@ -85,6 +83,9 @@ ms.locfileid: "5566233"
 
 ## <a name="videos-for-dynamics-365-finance"></a>วิดีโอสำหรับ Dynamics 365 Finance
 
+### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
+- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>ปรับแต่งแอป
 - [เพิ่มฟิลด์ที่กำหนดเอง](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [ฝัง Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -113,6 +114,9 @@ ms.locfileid: "5566233"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>วิดีโอสำหรับ Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>การจัดการเอกสารทางธุรกิจ
+- [สร้างเอกสารทางธุรกิจใหม่โดยใช้การจัดการเอกสารทางธุรกิจ](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>ต้นทุน
 - [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการควบคุมต้นทุน](https://youtu.be/imsuTg8rUVk)

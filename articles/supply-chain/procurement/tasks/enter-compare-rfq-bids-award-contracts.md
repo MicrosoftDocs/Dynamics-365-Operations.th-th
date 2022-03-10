@@ -1,7 +1,7 @@
 ---
 title: ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา
 description: หัวข้อนี้อธิบายวิธีการป้อนการตอบให้กับคำขอใบเสนอราคา (RFQ) ให้คะแนน และเปรียบเทียบการประมูล และจากนั้น ให้สัญญาแก่หนึ่งในผู้จัดจำหน่าย
-author: kamaybac
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812001"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579483"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>ป้อนและเปรียบเทียบการประมูล RFQ และให้สัญญา
 
@@ -32,7 +32,7 @@ ms.locfileid: "5812001"
 
 ## <a name="enter-a-reply-as-a-vendor"></a>ป้อนการตอบเป็นผู้จัดจำหน่าย
 
-1. บนแดชบอร์ด ให้เลือก **การประมูลของผู้จัดจำหน่าย**
+1. ไปที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย \> พื้นที่ทำงาน \> การประมูลของผู้จัดจำหน่าย**
 2. ในรายการ **คำเชิญการประมูลใหม่** ให้ค้นหา RFQ ที่เพิ่งถูกส่ง เลือก RFQ เพื่อตรวจทานสิ่งที่ถูกร้องขอ
 3. เลือก **สิ่งที่แนบ RFQ** เพื่อตรวจสอบสิ่งที่แนบใดๆ ที่ถูกเพิ่ม
 4. เลือก **การประมูล** เพื่อทำให้ฟิลด์สามารถแก้ไขได้ โปรดสังเกตว่า ฟิลด์ **กระบวนการประมูล** ถูกตั้งค่าเป็น **ผู้จัดจำหน่ายกำลังปรับปรุง**

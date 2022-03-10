@@ -1,33 +1,30 @@
 ---
 title: สร้างโครงสร้างทางบัญชี
-description: 'คำแนะนำงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี '
+description: กระบวนงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b75ee76a1fb874652415a2174441f629955d763a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9ba43e243df4ba4b7c0eb6188629686206ff09b
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448489"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394550"
 ---
 # <a name="create-account-structures"></a>สร้างโครงสร้างทางบัญชี
 
 [!include [banner](../../includes/banner.md)]
 
-คำแนะนำงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี  ขั้นตอนเหล่านี้ใช้ข้อมูลสาธิตบริษัท USMF
+กระบวนงานนี้ระบุขั้นตอนการสร้างโครงสร้างทางบัญชี ขั้นตอนเหล่านี้ใช้ข้อมูลสาธิตบริษัท USMF
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีแยกประเภททั่วไป > ผังบัญชี > โครงสร้าง > ตั้งค่าคอนฟิกโครงสร้างทางบัญชี**
 2. บน **บานหน้าต่างนำทาง** คลิก **สร้าง** เพื่อเปิดกล่องโต้ตอบการวาง
@@ -61,3 +58,6 @@ ms.locfileid: "4448489"
 29. บน **บานหน้าต่างการดำเนินการ** คลิก **เรียกใช้**
 30. คลิก **เรียกใช้**
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันที่ช่วยให้ง่ายสำหรับผู้จัดการคลังสินค้าในการดูและกรองการใช้ประโยชน์สถานที่เชิงปริมาตรในคลังสินค้า ผู้จัดการสามารถเลือกสถานที่และสร้างงานการย้ายสินค้าคงคลังได้โดยตรงจากหน้าการรวมบัญชีสินค้าเพื่อรวมบัญชีสินค้า และดังนั้นจึงทำให้มีการใช้พื้นที่คลังสินค้าได้มากขึ้น
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438808"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578619"
 ---
 # <a name="item-consolidation---location-utilization"></a>การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 
@@ -150,7 +147,7 @@ ms.locfileid: "4438808"
 
 ## <a name="example-scenario"></a>ตัวอย่างสถานการณ์จำลอง
 
-สถานการณ์จำลองต่อไปนี้ใช้แอปคลังสินค้าบนอุปกรณ์เคลื่อนที่เพื่อทำ *การปรับปรุงใน* สินค้าคงคลังเป็นสถานที่สองแห่งในคลังสินค้า
+สถานการณ์จำลองต่อไปนี้ใช้แอปการจัดการคลังสินค้าบนมือถือเพื่อทำ *การปรับปรุงใน* สินค้าคงคลังเป็นสถานที่สองแห่งในคลังสินค้า
 
 ### <a name="add-inventory-to-locations"></a>เพิ่มสินค้าคงคลังไปยังสถานที่
 
@@ -208,3 +205,6 @@ ms.locfileid: "4438808"
 
     > [!NOTE]
    > ระบบจะสร้างรหัสงานหนึ่งรหัสสำหรับการย้ายแต่ละครั้งที่ต้องทำให้เสร็จสมบูรณ์ ถ้าคุณระบุสถานที่เก็บที่มีสินค้าคงคลังอยู่แล้ว จะมีการสร้างรหัสงานหนึ่งรหัสเท่านั้น ถ้าคุณระบุสถานที่ใหม่ จะมีการสร้างรหัสงานสองรหัส
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

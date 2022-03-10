@@ -2,15 +2,12 @@
 title: รันและตรวจสอบการทดสอบ
 description: หัวข้อนี้อธิบายวิธีการรันและตรวจสอบการทดลองในบริการของบุคคลที่สาม นอกจากนี้ยังอธิบายถึงวิธีการทำการเปลี่ยนแปลงรูปแบบหลังจากที่เริ่มต้นการทดลอง
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ee86a6761b27f3c08a65a2e250659cdcfd71db44
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4416273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777583"
 ---
 # <a name="run-and-monitor-an-experiment"></a>รันและตรวจสอบการทดสอบ
 
@@ -31,7 +28,7 @@ ms.locfileid: "4416273"
 
 แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
 
-[ ![การเดินทางของผู้การทดสอบใช้ - รันและตรวจสอบ](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![การเดินทางของผู้ใช้การทดสอบ - รันและตรวจสอบ](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 หลังจากที่คุณเผยแพร่การเปลี่ยนแปลงแล้ว ขั้นตอนทั้งหมดที่คุณต้องทำใน Commerce เพื่อรันการทดลองของคุณเสร็จแล้ว ขั้นตอนต่อไปคือการกำหนดรูปแบบที่จะแสดงให้กับผู้ใช้แต่ละคนเมื่อร้องขอหน้า บริการของบุคคลที่สามทำให้เกิดการกำหนดนั้น แต่ก่อนอื่น คุณจะต้องเรียกใช้งานการทดลองภายในบริการ เนื่องจากขั้นตอนสำหรับการเรียกใช้การทดลองจะแตกต่างกันไปในแต่ละบริการ คุณจะต้องทำตามคำแนะนำที่มาพร้อมกับบริการหรือผู้ให้บริการของคุณ ถ้าไม่ได้เรียกใช้งานการทดลอง ผู้ใช้จะเห็นเฉพาะรุ่นเริ่มต้นของหน้า (ไม่มีการเปลี่ยนแปลงแสดงขึ้น)
 
@@ -53,3 +50,6 @@ ms.locfileid: "4416273"
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
 [โปรโมทการเปลี่ยนแปลงและทำการทดสอบให้เสร็จสมบูรณ์](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

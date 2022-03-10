@@ -1,7 +1,7 @@
 ---
 title: ล่าช้า
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวันที่ที่ล่าช้าในการวางแผนหลัก วันที่ที่ล่าช้าเป็นวันครบกำหนดชำระจริงที่ได้รับธุรกรรมการ ถ้าวันเติมสินค้าแรกสุดที่การวางแผนหลักคำนวณ เป็นวันหลังจากวันที่ร้องขอ
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89830feea12b4f5703e0eda622729887dd9bf46
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813686"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573764"
 ---
 # <a name="delays"></a>ล่าช้า
 
@@ -52,8 +52,7 @@ ms.locfileid: "5813686"
 
 ในหน้า **ใบสั่งที่วางแผน** ภายใต้แท็บ **ความล่าช้า** คือ **วันที่ที่ต้องการ** สำหรับใบสั่งที่วางแผน วันที่ที่ต้องการของใบสั่งที่วางแผนคือ วันที่พื้นฐานสำหรับความล่าช้า ซึ่งเป็นวันที่ที่คำนวณซึ่งเท่ากับ **วันที่ที่ร้องขอ** ที่คำนวณจาก **ความต้องการสุทธิ** ถ้าใบสั่งที่วางแผนคือรายการ BOM สายการผลิต หรือรายการคัมบัง วันที่ที่ต้องการเป็นไปตาม **วันที่ที่ต้องการ** และจะไม่แสดงวันที่ที่ต้องการในหน้า **ใบสั่งที่วางแผน**
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [การตั้งค่าความครอบคลุม](coverage-settings.md)
 

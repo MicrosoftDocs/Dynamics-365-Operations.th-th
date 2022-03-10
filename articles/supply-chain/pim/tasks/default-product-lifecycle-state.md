@@ -1,26 +1,23 @@
 ---
 title: สร้างสถานะรอบการขายของผลิตภัณฑ์ค่าเริ่มต้น
 description: กระบวนงานนี้แสดงวิธีการสร้างสถานะวงจรชีวิตผลิตภัณฑ์เริ่มต้น รวมทั้งวิธีการเชื่อมโยงสถานะเริ่มต้นกับผลิตภัณฑ์ที่นำออกใช้ด้วย
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8766208f0dff0cf24db7335ef00c42749811f8fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a628ed2b609f48c22076f409889c212e4d9463ac
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438473"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578211"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>สร้างสถานะรอบการขายของผลิตภัณฑ์ค่าเริ่มต้น
 
@@ -62,3 +59,6 @@ ms.locfileid: "4438473"
 > [!NOTE]
 > สมมติว่า คุณได้ตั้งค่าสถานะที่ใช้งานอยู่ ขณะนี้คุณสามารถเลือกสถานะที่ใช้งานอยู่เพื่ออนุญาตให้มีการใช้ผลิตภัณฑ์ในการคำนวณระดับ BOM และการวางแผนหลัก เห็นได้ชัดว่า ควรใช้รายการนี้ก็ต่อเมื่อรายละเอียดผลิตภัณฑ์ทั้งหมดที่จำเป็นสำหรับการวางแผนถูกระบุเท่านั้น  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

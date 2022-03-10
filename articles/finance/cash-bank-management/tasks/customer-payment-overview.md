@@ -1,32 +1,31 @@
 ---
-title: ภาพรวมการชำระเงินของลูกค้า
-description: 'คำแนะนำของงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า '
+title: ภาพรวมของการชำระเงินของลูกค้า
+description: กระบวนงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e93703815d899baa7045f2c5f1e0323944e91c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225428"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394511"
 ---
-# <a name="customer-payment-overview"></a>ภาพรวมการชำระเงินของลูกค้า
+# <a name="customer-payment-overview"></a>ภาพรวมของการชำระเงินของลูกค้า
 
 [!include [banner](../../includes/banner.md)]
 
-คำแนะนำของงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า  งานนี้ใช้บริษัทสาธิต USMF 
+กระบวนงานนี้นำไปสู่วิธีการต่างๆ ที่เคยป้อนการชำระเงินของลูกค้า งานนี้ใช้บริษัทสาธิต USMF 
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีลูกหนี้ > การชำระเงิน > สมุดรายวันการชำระเงิน**
 2. คลิก **สร้าง**

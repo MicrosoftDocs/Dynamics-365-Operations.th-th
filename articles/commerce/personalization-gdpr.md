@@ -2,11 +2,9 @@
 title: ยกเลิกคำแนะนำส่วนบุคคล
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถให้ลูกค้าเลือกที่จะไม่รับคำแนะนำแบบส่วนตัวใน Microsoft Dynamics 365 Commerce
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e822d0097443d7da347c29ebfa63ad6a2d7cbf8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772948"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>ยกเลิกคำแนะนำส่วนบุคคล
+# <a name="opt-out-of-personalized-recommendations"></a>เลือกปฏิเสธคำแนะนำที่เป็นแบบส่วนบุคคล
 
 [!include [banner](includes/banner.md)]
 
 หัวข้อนี้อธิบายวิธีที่คุณสามารถให้ลูกค้าเลือกที่จะไม่รับคำแนะนำแบบส่วนตัวใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 ในระหว่างการสร้างลูกค้าองค์กร ลูกค้าใหม่จะได้รับการตั้งค่าโดยอัตโนมัติเพื่อรับคำแนะนำแบบส่วนตัว อย่างไรก็ตาม Dynamics 365 Commerce มีวิธีการต่างๆสำหรับผู้ค้าปลีกเพื่อให้ผู้ใช้เลือกที่จะไม่รับคำแนะนำเหล่านี้ และจำกัด การประมวลผลข้อมูลส่วนบุคคลของพวกเขา ผู้ใช้ที่ได้รับการรับรองความถูกต้องซึ่งไม่เข้าร่วมรับคำแนะนำแบบส่วนตัวจะหยุดการดูรายการแบบส่วนตัวในทันที นอกจากนี้ ข้อมูลส่วนบุคคลทั้งหมดที่เก็บรวบรวมสำหรับการตั้งค่าส่วนบุคคลจะถูกลบออกจากโมเดลคำแนะนำแบบส่วนตัว
 
@@ -103,3 +99,6 @@ ms.locfileid: "5000648"
 [สร้างคำแนะนำที่มีข้อมูลสาธิต](product-recommendations-demo-data.md)
 
 [FAQ เกี่ยวกับคำแนะนำผลิตภัณฑ์](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

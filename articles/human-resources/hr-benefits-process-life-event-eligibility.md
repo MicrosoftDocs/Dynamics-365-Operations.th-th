@@ -1,8 +1,8 @@
 ---
-title: ประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต
-description: บทความนี้แสดงวิธีการรันกระบวนการสำหรับการมีสิทธิ์ในเหตุการณ์ของชีวิต
-author: andreabichsel
-ms.date: 04/06/2020
+title: ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+description: หัวข้อนี้อธิบายถึงวิธีการประมวลผลกระบวนการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 20b458e67b6504ca1c3efce6b40d1cea4faa7193
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3086718ed8dc0a8da988eb2d4cd07a2fff38e52c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058523"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065904"
 ---
-# <a name="process-life-event-eligibility"></a>ประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต
+# <a name="process-life-event-eligibility"></a>ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้แสดงวิธีการรันกระบวนการสำหรับการมีสิทธิ์ในเหตุการณ์ของชีวิต
+หัวข้อนี้อธิบายถึงวิธีการประมวลผลกระบวนการสำหรับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
 
 1. ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการมีสิทธิ์ในเหตุการณ์ของชีวิต**
 
@@ -40,7 +43,7 @@ ms.locfileid: "6058523"
 
    1. ป้อนข้อมูลสำหรับกระบวนการ
 
-   2. หากต้องการตั้งค่าให้มีการรันงานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
+   2. หากต้องการตั้งค่าให้มีการเรียกใช้งานนั้นซ้ำ เลือก **การเกิดซ้ำ** ป้อนข้อมูลการเกิดซ้ำ และเลือก **ตกลง**
 
    3. เมื่อต้องการตั้งค่าการแจ้งเตือนงาน เลือก **การแจ้งเตือน** เลือกการแจ้งเตือนที่จะรับ และจากนั้นเลือก **ตกลง**
 

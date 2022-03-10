@@ -1,7 +1,7 @@
 ---
 title: ปฏิทินและการวางแผนหลัก
 description: หัวข้อนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก
-author: t-benebo
+author: ChristianRytt
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841778"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568626"
 ---
 # <a name="calendars-and-master-planning"></a>ปฏิทินและการวางแผนหลัก
 
@@ -90,7 +90,7 @@ ms.locfileid: "5841778"
 
 โปรดทราบว่า จะสามารถรวมหนึ่งปฏิทินต่อลูกค้าหนึ่งรายได้เท่านั้น ถ้าคุณต้องการรวมปฏิทินสำหรับที่อยู่ที่แตกต่างกันแต่ละรายการสำหรับลูกค้า คุณสามารถสร้างลูกค้าหนึ่งรายต่อหนึ่งที่อยู่ และจากนั้นมอบหมายปฏิทินที่เกี่ยวข้อง 
 
-วันที่ในใบรับที่ร้องขอในรายการใบสั่งขายได้รับผลกระทบโดยปฏิทินลูกค้าและโดยวิธีการควบคุมวันที่จัดส่ง คุณสามารถอ่านเพิ่มเติมเกี่ยวกับวิธีการคำนวณวันที่จัดส่งเร็วที่สุดได้ใน [สัญญาใบสั่ง](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
+วันที่ในใบรับที่ร้องขอในรายการใบสั่งขายได้รับผลกระทบโดยปฏิทินลูกค้าและโดยวิธีการควบคุมวันที่จัดส่ง คุณสามารถอ่านเพิ่มเติมเกี่ยวกับวิธีการคำนวณวันที่จัดส่งเร็วที่สุดได้ใน [สัญญาใบสั่ง](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations)
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>ปฏิทินการจัดส่งสำหรับเอนทิตีทางกฎหมาย
 เพื่อบ่งชี้วันที่ที่เอนทิตีทางกฎหมายสามารถส่งสินค้าได้ คุณสามารถตั้งค่าปฏิทินการจัดส่งภายใต้ **การจัดการองค์กร > องค์กร > เอนทิตีทางกฎหมาย** เลือกเอนทิตีทางกฎหมายและเพิ่มปฏิทินในแท็บ **การค้าต่างประเทศและโลจิสติกส์** ในฟิลด์  **ปฏิทินการจัดส่ง** ปฏิทินการจัดส่งจะดำเนินการเป็นแหล่งที่มาของค่าเริ่มต้นสำหรับปฏิทินคลังสินค้าทั้งหมดในเอนทิตีทางกฎหมาย 

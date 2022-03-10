@@ -2,11 +2,9 @@
 title: สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
 description: 'คู่มือการทำงานนี้จะแสดงวิธีการตั้งค่าพารามิเตอร์สำหรับการตัดจ่าย และตัดธุรกรรมจากหน้าการเรียกเก็บเงิน หน้าใบแจ้งหนี้ของลูกค้าเปิดและหน้าของลูกค้า '
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6526e57cf2ed84161eb7a92c031127bb6c6536a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771811"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
 
@@ -77,9 +75,12 @@ ms.locfileid: "5003315"
 
 ## <a name="write-off-a-customer-balance-from-the-customer-page"></a>ตัดจ่ายยอดดุลของลูกค้าจากหน้าเพจของลูกค้า
 1. ไปที่ **บัญชีลูกหนี้ > ลูกค้า > ลูกค้าทั้งหมด**
-2. เลือกรหัสลูกค้า  ตัวอย่างเช่น เลือก สหรัฐอเมริกา-001 (Contoso Retail Diego San)
+2. เลือกรหัสลูกค้า  ตัวอย่างเช่น เลือก US-001 (Contoso Retail San Diego)
 3. ใน **บานหน้าต่างการดำเนินการ** คลิก **รวบรวม**
 4. คลิก **ตัดจ่าย**
 5. คลิก **ตกลง**
 6. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

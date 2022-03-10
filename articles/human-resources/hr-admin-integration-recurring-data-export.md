@@ -1,8 +1,8 @@
 ---
 title: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
-description: บทความนี้แสดงวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
-author: andreabichsel
-ms.date: 02/03/2020
+description: หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 368eee6bb182f363f47467a5c5ad8208a57db7ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361244"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069793"
 ---
 # <a name="create-a-recurring-data-export-app"></a>สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-บทความนี้แสดงวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
+หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
 
 ## <a name="business-scenario"></a>สถานการณ์จำลองทางธุรกิจ
 
@@ -83,7 +86,7 @@ ms.locfileid: "6361244"
     ![หน้าการสร้างแอปตรรกะ](media/integration-logic-app-creation-1.png)
 
 2. ใน Logic Apps Designer เริ่มต้นด้วยแอปตรรกะเปล่า
-3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](/azure/connectors/connectors-native-recurrence) เพื่อรันแอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
+3. เพิ่ม [ทริกเกอร์การจัดการการเกิดซ้ำ](/azure/connectors/connectors-native-recurrence) เพื่อเรียกใช้แอปตรรกะทุก 24 ชั่วโมง (หรือตามกำหนดการที่คุณเลือก)
 
     ![กล่องโต้ตอบการเกิดซ้ำ](media/integration-logic-app-recurrence-step.png)
 
@@ -191,13 +194,13 @@ ms.locfileid: "6361244"
 
 ### <a name="step-3-test-the-logic-app"></a>ขั้นตอนที่ 3: ทดสอบแอปตรรกะ
 
-เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **รัน** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะรัน หลังจากวินาทีที่ 30 จนถึง 40 ควรรันแอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
+เมื่อต้องการทดสอบแอปตรรกะ เลือกปุ่ม **เรียกใช้** ในตัวออกแบบ คุณจะเห็นว่าขั้นตอนของแอปตรรกะเริ่มต้นที่จะเรียกใช้ หลังจากวินาทีที่ 30 จนถึง 40 ควรเรียกใช้แอปตรรกะจนเสร็จสิ้น และ OneDrive สำหรับโฟลเดอร์ธุรกิจของคุณควรรวมไฟล์แพคเกจใหม่ที่มีผู้ปฏิบัติงานที่ส่งออก
 
 ถ้ามีการรายงานความล้มเหลวสำหรับขั้นตอนใดๆ ให้เลือกขั้นตอนที่ล้มเหลวตัวออกแบบ และตรวจสอบฟิลด์ **ข้อมูลป้อนเข้า** และ **เอาต์พุต** ตรวจแก้จุดบกพร่องและปรับเปลี่ยนขั้นตอนตามต้องการเพื่อแก้ไขข้อผิดพลาด
 
-ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะรันเสร็จเรียบร้อยแล้ว
+ภาพประกอบต่อไปนี้แสดงลักษณะการทำงานของ Logic Apps Designer เมื่อขั้นตอนทั้งหมดของแอปตรรกะเรียกใช้เสร็จเรียบร้อยแล้ว
 
-![การรันแอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
+![การเรียกใช้แอปตรรกะสำเร็จ](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>สรุป
 

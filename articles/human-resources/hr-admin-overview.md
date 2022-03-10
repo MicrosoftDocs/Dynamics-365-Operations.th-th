@@ -1,35 +1,36 @@
 ---
 title: ภาพรวมการจัดการ
-description: คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 02/03/2020
-ms.topic: article
+description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ เพื่อตั้งค่า จัดการและแก้ไข Dynamics 365 Human Resources
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801154"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068420"
 ---
 # <a name="administration-overview"></a>ภาพรวมการจัดการ
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-คำแนะนำสำหรับผู้ดูแลระบบนี้ช่วยคุณในการตั้งค่า จัดการ และแก้ปัญหาใน Dynamics 365 Human Resources
+
+หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ เพื่อตั้งค่า จัดการและแก้ไข Dynamics 365 Human Resources
 
 - [ความต้องการของระบบ](hr-admin-system-requirements.md)
 
@@ -46,10 +47,10 @@ ms.locfileid: "5801154"
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
   - รวมกับ Office
-    - [บทช่วยสอนการรวม Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [อัปเดตข้อมูลเอนทิตี้ใน Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [สร้างประสบการณ์เปิดใน Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [แก้ไขปัญหาการรวม Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [บทช่วยสอนการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [อัปเดตข้อมูลเอนทิตี้ใน Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [สร้างประสบการณ์เปิดใน Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [แก้ไขปัญหาการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 
@@ -59,7 +60,7 @@ ms.locfileid: "5801154"
   - [องค์ประกอบอินเทอร์เฟสผู้ใช้](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [คุณลักษณะความสามารถในการเข้าถึง](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
   - [ภาพรวมของการจัดการคุณลักษณะ](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [FAQ เกี่ยวกับไคลเอนต์](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
+  - [คำถามที่ถามบ่อยเกี่ยวกับไคลเอนต์](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
   - [การค้นหาการดำเนินการ](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [ตัวเลือกในการกรองข้อมูลและไวยากรณ์แบบสอบถาม](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
   - [ตั้งค่าคอนฟิกและกรองข้อมูลพื้นที่ทำงาน](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
@@ -84,7 +85,7 @@ ms.locfileid: "5801154"
   - [สร้างเอกสารประกอบหรือการฝึกอบรมด้วยตัวบันทึกงาน](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - แก้ไขปัญหาของ Human Resources
-  - [รับการสนับสนุน](hr-admin-troubleshooting-support.md)
+  - [รับการสนับสนุน](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [ปรับปรุงประสิทธิภาพการทำงานด้วยงานการล้างข้อมูลอัตโนมัติ](hr-admin-troubleshooting-batch-history.md)
   - [ไม่ได้อัปเดตรายงานการวิเคราะห์](hr-admin-troubleshooting-analytic-reports.md)
   - [ไม่สามารถสร้างสภาพแวดล้อมในศูนย์การจัดการ Power Apps](hr-admin-troubleshooting-power-apps.md)
@@ -93,14 +94,23 @@ ms.locfileid: "5801154"
   - [เรียกใช้กระบวนการค่าตอบแทน](hr-admin-troubleshooting-compensation.md)
   - [บันทึกคู่มืองานไปยัง LCS](hr-admin-troubleshooting-task-guide.md)
   - [เข้าถึงที่อยู่ส่วนตัวตามบทบาทความปลอดภัย](hr-admin-troubleshooting-private-addresses.md)
-  - [ทรัพยากรบุคคลไม่มีปรากฏในแอป Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources ไม่ปรากฏในแอป Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)
   - [ตัวเลือกในการรายงาน](hr-admin-troubleshooting-reporting.md)
-  - [FAQ เกี่ยวกับการรวม](hr-admin-troubleshooting-integration.md)
+  - [คำถามที่ถามบ่อยเกี่ยวกับการรวม](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+### <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)
+
+### <a name="videos"></a>วิดีโอ
+
+ดูวิดีโอวิธีการที่ตอนนี้มีอยู่บน [ช่อง YouTube ของ Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-- [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างในทรัพยากรบุคคล](hr-admin-whats-new.md)
-- [คู่มือนักพัฒนา](hr-developer-overview.md)
+- [มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)
+- [คู่มือสำหรับนักพัฒนา](hr-developer-overview.md)
 - [คู่มือผู้ใช้](hr-hrpro-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

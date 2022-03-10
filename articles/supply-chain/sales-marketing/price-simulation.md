@@ -1,12 +1,10 @@
 ---
 title: การจำลองสถานการณ์ราคา
 description: บทความนี้แสดงข้อมูลเกี่ยวกับการจำลองราคาสำหรับใบเสนอราคา การจำลองราคาช่วยประเมินผลของการหักเงินสำหรับราคาขายในอนาคตระหว่างกระบวนการใบเสนอราคา ก่อนที่จะยืนยันราคาเฉพาะ
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ef40fb01352bce3c4f9848e0268ac548771120c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975046"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580515"
 ---
 # <a name="price-simulation"></a>การจำลองสถานการณ์ราคา
 
@@ -144,3 +142,6 @@ ms.locfileid: "4975046"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

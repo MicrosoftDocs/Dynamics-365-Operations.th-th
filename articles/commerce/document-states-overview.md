@@ -2,26 +2,25 @@
 title: สถานะและระยะเวลาใช้งานของเอกสาร
 description: หัวข้อนี้ครอบคลุมถึงสถานะเอกสารต่างๆ ขององค์ประกอบหน้าใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 457b1ac7afb8cad57399572acf429d208db917af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727592"
 ---
 # <a name="document-states-and-lifecycle"></a>สถานะและระยะเวลาใช้งานของเอกสาร
 

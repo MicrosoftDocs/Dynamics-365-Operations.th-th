@@ -1,26 +1,24 @@
 ---
 title: สร้างผลิตภัณฑ์
 description: กระบวนการนี้จะแนะนำถึงการสร้างผลิตภัณฑ์ใหม่ในลำดับชั้นผลิตภัณฑ์เชิงพาณิชย์
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductCreate, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4f5a8ddf546a5c7c3f041b044b5d75f93c5675df
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6e2e66568509e3034b44e065af658ea2ae95e754
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992281"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567090"
 ---
 # <a name="create-a-product"></a>สร้างผลิตภัณฑ์
 
@@ -38,3 +36,6 @@ ms.locfileid: "4992281"
 8. ในฟิลด์หมายเลขผลิตภัณฑ์ ให้พิมพ์ค่า
 9. คลิก ตกลง
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

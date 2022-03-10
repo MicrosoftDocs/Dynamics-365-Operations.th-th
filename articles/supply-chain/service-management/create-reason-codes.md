@@ -1,7 +1,7 @@
 ---
 title: การสร้างรหัสเหตุผล
 description: คุณสามารถสร้างรหัสเหตุผลเพื่ออธิบายสาเหตุที่คุณกำลังอัพเดตขั้นตอนของใบสั่งบริการ
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ce97d95a26f96cc763f65b494e069a08b81167b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8692e8a9322098b4e4dd2f3ca56338ca71df0f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831587"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569178"
 ---
 # <a name="create-reason-codes"></a>สร้างรหัสเหตุผล
 

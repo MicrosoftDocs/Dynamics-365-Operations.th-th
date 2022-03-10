@@ -1,29 +1,29 @@
 ---
 title: ภาพรวม Lean manufacturing
 description: บทความนี้ให้ภาพรวมและคำอธิบายของคุณลักษณะการผลิตแบบ lean ใน Dynamics 365 Supply Chain Management
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19371
+ms.custom:
+- "19371"
+- intro-internal
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e0c8b5ec4d4a391773e32a61a321c28868678baa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007002"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985947"
 ---
 # <a name="lean-manufacturing-overview"></a>ภาพรวม Lean manufacturing
 
@@ -82,3 +82,6 @@ Lean manufacturing แสดงการมองเห็นของสถา�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

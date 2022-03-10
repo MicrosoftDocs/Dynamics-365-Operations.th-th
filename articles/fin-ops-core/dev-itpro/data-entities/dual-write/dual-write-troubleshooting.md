@@ -1,59 +1,31 @@
 ---
 title: การแก้ไขปัญหาเบื้องต้นทั่วไป
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse
+description: หัวข้อนี้แสดงข้อมูลการแก้ไขปัญหาทั่วไปสำหรับการรวมข้อมูลด้วยการรวมแบบสองทิศทางระหว่างแอปการเงินและการดำเนินงานกับ Dataverse
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542502"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062349"
 ---
 # <a name="general-troubleshooting"></a>การแก้ไขปัญหาเบื้องต้นทั่วไป
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการแก้ไขปัญหาเบื้องต้นทั่วไปสำหรับการรวมแบบสองทิศทางระหว่างแอป Finance and Operations และ Dataverse
+หัวข้อนี้แสดงข้อมูลการแก้ไขปัญหาทั่วไปสำหรับการรวมข้อมูลด้วยการรวมแบบสองทิศทางระหว่างแอปการเงินและการดำเนินงานกับ Dataverse
 
 > [!IMPORTANT]
 > ปัญหาบางอย่างที่ที่อยู่ของหัวข้อนี้อาจจำเป็นต้องใช้บทบาทผู้ดูแลระบบ หรือข้อมูลประจำตัวผู้ดูแลระบบของผู้เช่า Microsoft Azure Active Directory (Azure AD) ส่วนสำหรับปัญหาแต่ละอย่างอธิบายว่าจำเป็นต้องมีบทบาทเฉพาะหรือข้อมูลประจำตัวหรือไม่
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>เมื่อคุณพยายามติดตั้งแพคเกจการรวมแบบสองทิศทางโดยใช้เครื่องมือ Package Deployer ไม่มีโซลูชันที่พร้อมใช้งานแสดงขึ้น
-
-เครื่องมือ Package Deployer บางรุ่นเข้ากันไม่ได้กับแพคเกจโซลูชันการรวมแบบสองทิศทาง เมื่อติดตั้งแพคเกจเสร็จเรียบร้อยแล้ว ให้ตรวจสอบให้แน่ใจว่าได้ใช้ [รุ่น 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) หรือรุ่นที่ใหม่กว่าของเครื่องมือ Package Deployer
-
-หลังจากที่คุณติดตั้งเครื่องมือ Package Deployer แล้ว ให้ติดตั้งแพคเกจโซลูชันโดยทำตามขั้นตอนต่อไปนี้
-
-1. ดาวน์โหลดไฟล์แพคเกจโซลูชันล่าสุดจาก Yammer.com หลังจากดาวน์โหลดไฟล์ zip ของแพคเกจแล้ว ให้คลิกขวา และเลือก **คุณสมบัติ** เลือกกล่องกาเครื่องหมาย **ยกเลิกการบล็อค** และจากนั้น เลือก **นำไปใช้** ถ้าคุณไม่เห็นกล่องกาเครื่องหมาย **ยกเลิกการบล็อค** ไฟล์ zip ถูกยกเลิกการบล็อคเรียบร้อยแล้ว และคุณสามารถข้ามขั้นตอนนี้ได้
-
-    ![กล่องโต้ตอบคุณสมบัติ](media/unblock_option.png)
-
-2. แยกไฟล์ zip ของแพคเกจ และคัดลอกไฟล์ทั้งหมดในโฟลเดอร์ **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**
-
-    ![เนื้อหาของโฟลเดอร์ Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
-
-3. วางไฟล์ที่คัดลอกทั้งหมดไปยังโฟลเดอร์ **เครื่องมือ** ของเครื่องมือ Package Deployer 
-4. รัน **PackageDeployer.exe** เพื่อเลือกสภาพแวดล้อม Dataverse และติดตั้งโซลูชัน
-
-    ![เนื้อหาของโฟลเดอร์เครื่องมือ](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>เปิดใช้งานและดูล็อกการติดตามปลั๊กอินใน Dataverse เพื่อดูรายละเอียดข้อผิดพลาด
 
@@ -72,40 +44,39 @@ ms.locfileid: "6542502"
 2. ค้นหาล็อกการติดตามที่ซึ่งคอลัมน์ **ชื่อชนิด** ถูกตั้งค่าเป็น **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**
 3. ดับเบิลคลิกที่รายการเพื่อดูล็อกทั้งหมด และจากนั้น บน FastTab **การดำเนินการ** ให้ตรวจสอบข้อความ **บล็อคข้อความ**
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>เปิดใช้งานโหมดดีบักเมื่อต้องการแก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริงในแอป Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>เปิดใช้งานโหมดดีบักเมื่อต้องการแก้ไขปัญหาการซิงโครไนส์ที่เริ่มใช้งานจริงในแอปการเงินและการดำเนินงาน
 
-**บทบาทที่จำเป็นในการดูข้อผิดพลาด:** ข้อผิดพลาดในการรวมแบบสองทิศทางของผู้ดูแลระบบซึ่งเกิดขึ้นใน Dataverse สามารถปรากฏขึ้นในแอป Finance and Operations ในบางกรณี ข้อความแบบเต็มของข้อความแสดงข้อผิดพลาดจะไม่พร้อมใช้งาน เนื่องจากข้อความยาวเกินไปหรือมีข้อมูลการระบุถึงตัวบุคคล (PII) คุณสามารถเปิดใช้งานการบันทึกก verbose สำหรับข้อผิดพลาดได้โดยปฏิบัติตามขั้นตอนเหล่านี้
+**บทบาทที่จำเป็นในการดูข้อผิดพลาด:** ผู้ดูแลระบบ
 
-1. การตั้งค่าคอนฟิกโครงการทั้งหมดในแอป Finance and Operations มีคุณสมบัติ **IsDebugMode** ในตาราง **DualWriteProjectConfiguration** เปิดตาราง **DualWriteProjectConfiguration** โดยใช้ add-in ของ Excel
+ข้อผิดพลาดในการรวมแบบสองทิศทางที่เกิดขึ้นใน Dataverse สามารถปรากฏขึ้นได้ในแอปการเงินและการดำเนินงาน หากต้องการเปิดใช้งานการบันทึกสำหรับข้อผิดพลาด ให้ปฏิบัติตามขั้นตอนเหล่านี้:
 
-    > [!TIP]
-    > วิธีง่ายๆ ในการเปิดตารางคือ การเปิดใช้งานโหมด **ออกแบบ** ใน add-in ของ Excel และจากนั้น เพิ่ม **DualWriteProjectConfigurationEntity** ไปยังเวิร์กชีต สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [เปิดข้อมูลตารางใน Excel และอัพเดตโดยใช้ add-in ของ Excel](../../office-integration/use-excel-add-in.md)
+1. สำหรับการตั้งค่าคอนฟิกโครงการทั้งหมดในแอปการเงินและการดำเนินงาน มีแฟล็ก **IsDebugMode** ในตาราง **DualWriteProjectConfiguration**
+2. เปิด **DualWriteProjectConfiguration** โดยใช้ add-in ของ Excel เมื่อต้องการใช้ Add in ให้เปิดใช้งานโหมดการออกแบบใน Add in ของ Excel ของการเงินและการดำเนินงาน และเพิ่ม **DualWriteProjectConfiguration** ลงในแผ่นงาน สำหรับข้อมูลเพิ่มเติม ให้ดู [ดูและอัปเดตข้อมูลเอนทิตีด้วย Excel](../../office-integration/use-excel-add-in.md)
+3. ตั้งค่า **IsDebugMode** เป็น **ใช่** ในโครงการ
+4. เรียกใช้สถานการณ์จำลองที่กำลังสร้างข้อผิดพลาด
+5. ล็อก verbose จัดเก็บในตาราง **DualWriteErrorLog**
+6. เมื่อต้องการค้นหาข้อมูลบนเบราเซอร์ตาราง ให้ใช้ลิงค์ต่อไปนี้: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog` ให้แทนที่ `999` ตามต้องการ
+7. อัปเดตอีกครั้งหลังจาก [4595434 KB ](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe) ซึ่งสามารถอัปเดตแพลตฟอร์ม 37 และใหม่กว่า หากคุณได้ติดตั้งการแก้ไขนี้ โหมดดีบักจะเก็บล็อกเพิ่มเติม  
 
-2. ตั้งค่าคุณสมบัติ **IsDebugMode** เป็น **ใช่** สำหรับโครงการ
-3. รันสถานการณ์จำลองที่กำลังสร้างข้อผิดพลาด
-4. ล็อก verbose พร้อมใช้งานในตาราง DualWriteErrorLog เมื่อต้องการค้นหาข้อมูลในเบราว์เซอร์ตาราง ให้ใช้ URL ต่อไปนี้ (แทนที่ **XXX** ตามความเหมาะสม):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
-
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>ตรวจสอบข้อผิดพลาดของการซิงโครไนส์บนเครื่องเสมือนสำหรับแอป Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>ตรวจสอบข้อผิดพลาดของการซิงโครไนส์บนเครื่องเสมือนสำหรับแอปการเงินและการดำเนินงาน
 
 **บทบาทที่จำเป็นในการดูข้อผิดพลาด:** ผู้ดูแลระบบ
 
 1. ลงชื่อเข้าใช้ Microsoft Dynamics Lifecycle Services (LCS)
 2. เปิดโครงการ LCS ที่คุณเลือกเพื่อทำการทดสอบการรวมแบบสองทิศทาง
 3. เลือกไทล์ **สภาพแวดล้อมที่โฮสต์ระบบคลาวด์**
-4. ใช้ Remote Desktop เพื่อลงชื่อเข้าใช้ในเครื่องเสมือน (VM) สำหรับแอป Finance and Operations ใช้บัญชีเฉพาะที่ที่แสดงอยู่ใน LCS
+4. ใช้ Remote Desktop เพื่อลงชื่อเข้าใช้ในเครื่องเสมือน (VM) สำหรับแอปการเงินและการดำเนินงาน ใช้บัญชีเฉพาะที่ที่แสดงอยู่ใน LCS
 5. เปิดตัวแสดงเหตุการณ์
-6. เลือก **ล็อกของแอพลิเคชันและบริการ \> Microsoft \> Dynamics \> AX-DualWriteSync \> การดำเนินงาน**
+6. เลือก **ล็อกของแอปพลิเคชันและบริการ \> Microsoft \> Dynamics \> AX-DualWriteSync \> การดำเนินงาน**
 7. ตรวจทานรายการของข้อผิดพลาดล่าสุด
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อม Dataverse อื่นจากแอป Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อม Dataverse อื่นจากแอปการเงินและการดำเนินงาน
 
-**บทบาทที่จำเป็นในการยกเลิกการเชื่อมโยงสภาพแวดล้อม:** ผู้ดูแลระบบสำหรับแอป Finance and Operations หรือ Dataverse
+**บทบาทที่จำเป็นในการยกเลิกการเชื่อมโยงสภาพแวดล้อม:** ผู้ดูแลระบบสำหรับแอปการเงินและการดำเนินงานหรือ Dataverse
 
-1. ลงชื่อเข้าใช้แอป Finance and Operations
+1. ลงชื่อเข้าใช้แอปการเงินและการดำเนินงาน
 2. ไปที่ **พื้นที่ทำงาน \> การจัดการข้อมูล** และเลือกไทล์ **การรวมแบบสองทิศทาง**
-3. เลือกการแม็ปที่กำลังรันทั้งหมด และจากนั้น เลือก **หยุด**
+3. เลือกการแมปที่กำลังเรียกใช้ทั้งหมด และจากนั้น เลือก **หยุด**
 4. เลือก **ยกเลิกการเชื่อมโยงสภาพแวดล้อม**
 5. เลือก **ใช่** เพื่อยืนยันการดำเนินงาน
 
@@ -116,10 +87,28 @@ ms.locfileid: "6542502"
 เมื่อคุณสร้างใบสั่งขายใน Dynamics 365 Sales การคลิก **+เพิ่มผลิตภัณฑ์** อาจเปลี่ยนเส้นทางคุณไปยังฟอร์มรายการใบสั่งการดำเนินงานของโครงการ Dynamics 365 Project Operations ไม่มีวิธีการจากฟอร์มนั้นในการดูฟอร์ม **ข้อมูล** รายการใบสั่งขาย ตัวเลือกสำหรับ **ข้อมูล** ไม่ปรากฏในรายการแบบหล่นลงด้านล่าง **รายการใบสั่งใหม่** นี่เกิดขึ้นเนื่องจากมีการติดตั้งการดำเนินงานโครงการในสภาพแวดล้อมของคุณ
 
 เมื่อต้องการเปิดใช้งานตัวเลือกฟอร์ม **ข้อมูล** อีกครั้ง ให้ทำตามขั้นตอนต่อไปนี้:
+
 1. นำทางไปยังตาราง **รายการใบสั่ง**
-2. ค้นหาฟอร์ม **ข้อมูล** ภายใต้โหนดฟอร์ม 
-3. เลือกฟอร์ม **ข้อมูล** และคลิก **เปิดใช้งานบทบาทความปลอดภัย** 
+2. ค้นหาฟอร์ม **ข้อมูล** ภายใต้โหนดฟอร์ม
+3. เลือกฟอร์ม **ข้อมูล** และคลิก **เปิดใช้งานบทบาทความปลอดภัย**
 4. เปลี่ยนการตั้งค่าความปลอดภัยเป็น **แสดงต่อทุกคน**
 
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>วิธีการเปิดใช้งานและบันทึกการติดตามเครือข่าย เพื่อให้สามารถแนบการติดตามกับตั๋วการสนับสนุน
+
+ทีมงานสนับสนุนอาจต้องการตรวจทานการติดตามเครือข่ายเพื่อแก้ไขปัญหาบางอย่าง เมื่อต้องการสร้างการติดตามเครือข่าย ให้ทำตามขั้นตอนเหล่านี้:
+
+### <a name="chrome"></a>Chrome
+
+1. ในแท็บที่เปิด กด **F12** หรือเลือก **เครื่องมือของนักพัฒนา** เพื่อเปิดเครื่องมือของนักพัฒนา
+2. เปิดแท็บ **เครือข่าย** และชนิด **integ** ในกล่องข้อความตัวกรองข้อมูล
+3. เรียกใช้สถานการณ์ของคุณและพิจารณาการล็อกคำขอ
+4. คลิกขวารายการและเลือก **บันทึกทั้งหมดเป็น HAR ที่มีเนื้อหา**
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. ในแท็บที่เปิด กด **F12** หรือเลือก **เครื่องมือของนักพัฒนา** เพื่อเปิดเครื่องมือของนักพัฒนา
+2. เปิดแท็บ **เครือข่าย**
+3. เรียกใช้สถานการณ์ของคุณ
+4. เลือก **บันทึก** เพื่อส่งออกผลลัพธ์เป็น HAR
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

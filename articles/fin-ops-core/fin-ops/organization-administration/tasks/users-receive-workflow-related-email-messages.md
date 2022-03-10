@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207727c8deba97eebfd7516e9600238e5e79b3d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 368fe2fbf1f8a1adcabe37ced5ed942f9fb86fc8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747260"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070436"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>ให้ผู้ใช้สามารถรับข้อความอีเมลที่เกี่ยวข้องกับลำดับงาน
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 คุณสามารถตั้งค่าคอนฟิกระบบเพื่อส่งข้อความอีเมลไปยังผู้ใช้เมื่อเกิดเหตุการณ์ที่เกี่ยวข้องกับลำดับงาน ตัวอย่างเช่น สามารถส่งข้อความอีเมลให้กับผู้ใช้เมื่อเอกสารถูกกำหนดให้กับผู้ใช้เหล่านั้นเพื่อการอนุมัติ บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
 
@@ -38,7 +41,7 @@ ms.locfileid: "5747260"
 7. ปิดหน้า
 
 > [!NOTE]
-> เท็มเพลตอีเมลของลำดับงานจะถูกส่งมาจากเท็มเพลตอีเมลของระบบหรือเท็มเพลตอีเมลขององค์กร โดยขึ้นอยู่กับว่าลำดับงานเป็นระดับระบบ (ไม่ใช่เฉพาะบริษัท) หรือลำดับงาน (เฉพาะบริษัท) ระดับองค์กร
+> เทมเพลตอีเมลของลำดับงานจะถูกส่งมาจากเทมเพลตอีเมลของระบบหรือเทมเพลตอีเมลขององค์กร โดยขึ้นอยู่กับว่าลำดับงานเป็นระดับระบบ (ไม่ใช่เฉพาะบริษัท) หรือลำดับงาน (เฉพาะบริษัท) ระดับองค์กร
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d5fee5f5dfee73ddb9fbcf8a33df66c29f9438b49136181633b989d1a02ef4f5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765325"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>แก้ไขมิติทางการเงินสำหรับธุรกรรมการขายปลีก
 
@@ -34,7 +34,7 @@ ms.locfileid: "5792716"
 
 1. เปิดหน้า **การตั้งค่าคอนฟิกมิติทางการเงินสำหรับการรวมแอปพลิเคชัน**
 1. เลือกเรกคอร์ด **การรวมมิติเริ่มต้น** ที่ใช้งานอยู่
-1. บนแท็บด่วน **มิติทางการเงิน** ตรวจสอบให้แน่ใจว่ามิติทั้งหมดที่คุณต้องการแก้ไขในเวิร์กชีต Excel ที่มีอยู่ในรายการ **เลือกไว้** สำหรับข้อมูลเพิ่มเติม ให้ดู [เอนทิตี้ข้อมูล](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities)
+1. บนแท็บด่วน **มิติทางการเงิน** ตรวจสอบให้แน่ใจว่ามิติทั้งหมดที่คุณต้องการแก้ไขในเวิร์กชีต Excel ที่มีอยู่ในรายการ **เลือกไว้** สำหรับข้อมูลเพิ่มเติม ให้ดู [เอนทิตี้ข้อมูล](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities)
 1. ดาวน์โหลดและเปิดไฟล์ Excel จากหน้า **ใบแจ้งยอด** หน้า **ธุรกรรมการขายปลีก** หรือไทล์ **ความล้มเหลวในการตรวจสอบความถูกต้องของธุรกรรม** ในพื้นที่ทำงาน **การเงินของร้านค้า**
 1. เมื่อต้องการเปลี่ยนมิติทางการเงินของธุรกรรม ให้เลือก **ออกแบบ** แล้วเลือกสัญลักษณ์ดินสอที่อยู่ถัดจากแถว **ธุรกรรม (ตรวจสอบได้)**
 1. ค้นหาและเลือกฟิลด์ **FinancialDimensionDisplayValue** เลือกเซลล์ในส่วนหัวของเวิร์กชีต Excel แล้วเลือก **เพิ่มป้ายชื่อ**

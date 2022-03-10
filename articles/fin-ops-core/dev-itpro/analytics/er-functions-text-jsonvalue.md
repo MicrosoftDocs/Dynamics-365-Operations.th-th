@@ -2,9 +2,7 @@
 title: ฟังก์ชัน JSONVALUE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ JSONVALUE (ER)
 author: NickSelin
-manager: kfend
-ms.date: 12/11/2019
-ms.topic: article
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 203fe1b1616f724ddf3015258306e0d9e8d4f599
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570027"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700074"
 ---
 # <a name="jsonvalue-er-function"></a>ฟังก์ชัน JSONVALUE ER
 
@@ -43,21 +41,45 @@ JSONVALUE (input, path)
 
 `path`: *สตริง*
 
-ตัวระบุของค่าสเกลของข้อมูล JSON
+ตัวระบุของค่าสเกลของข้อมูล JSON ใช้เครื่องหมายทับ (/) เพื่อแยกชื่อของโหนด JSON ที่เกี่ยวข้อง ใช้เครื่องหมายวงเล็บ (\[\]) เพื่อระบุดัชนีของค่าหนึ่งๆ ในอาเรย์ JSON โปรดทราบว่ามีการใช้การหมายเลขตามศูนย์กับดัชนีนี้
 
-## <a name="return-values"></a>ส่งคืนค่า
+## <a name="return-values"></a>ค่าที่ส่งคืน
 
 *สตริง*
 
 ค่าข้อความที่เป็นผลลัพธ์
 
-## <a name="example"></a>ตัวอย่าง
+## <a name="example-1"></a>ตัวอย่างที่ 1
 
 แหล่งข้อมูล **JsonField** ประกอบด้วยข้อมูลต่อไปนี้ในรูปแบบ: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}** ในกรณีนี้ นิพจน์ `JSONVALUE (JsonField, "BuildNumber")` ส่งกลับค่าต่อไปนี้ของชนิดข้อมูล *สตริง* : **"7.3.1234.1"**
 
-## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+## <a name="example-2"></a>ตัวอย่างที่ 2
+
+แหล่งข้อมูล **JsonField** ของชนิด *ฟิลด์ที่มีการคำนวณ* ประกอบด้วยนิพจน์ต่อไปนี้ `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+นิพจน์นี้ตั้งค่าคอนฟิกให้ส่งคืนค่า [*สตริง*](er-formula-supported-data-types-primitive.md#string) ที่แสดงถึงข้อมูลต่อไปนี้ในรูปแบบ JSON
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+ในกรณีนี้ นิพจน์ `JSONVALUE(json, "workers/[1]/emails/[0]")` ส่งคืนค่าต่อไปนี้ของชนิดข้อมูล *สตริง*: `JohnS@Contoso.com`
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 [ฟังก์ชันข้อความ](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

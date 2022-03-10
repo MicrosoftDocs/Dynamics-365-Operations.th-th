@@ -1,12 +1,10 @@
 ---
 title: กำหนดอีเมลของธุรกรรมตามวิธีการจัดส่ง
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าเท็มเพลตอีเมลที่กำหนดเองสำหรับชนิดการแจ้งเตือนและวิธีการจัดส่งที่เฉพาะเจาะจง ใน Microsoft Dynamics 365 Commerce
+description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าเท็มเพลตอีเมลที่กำหนดเองสำหรับชนิดการแจ้งเตือนและวิธีการจัดส่งที่เฉพาะเจาะจงใน Microsoft Dynamics 365 Commerce
 author: stuharg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: f4ecb990cfe792e92142f922c43c71ef8494e117
-ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
+ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749918"
 ---
-# <a name="customize-transactional-emails-by-mode-of-delivery"></a>กำหนดอีเมลของธุรกรรมตามวิธีการจัดส่ง
+# <a name="customize-transactional-emails-by-mode-of-delivery"></a>ปรับแต่งอีเมลของธุรกรรมตามวิธีการจัดส่ง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าเท็มเพลตอีเมลที่กำหนดเองสำหรับชนิดการแจ้งเตือนและวิธีการจัดส่งที่เฉพาะเจาะจง ใน Microsoft Dynamics 365 Commerce
+หัวข้อนี้จะอธิบายวิธีการตั้งค่าเท็มเพลตอีเมลที่กำหนดเองสำหรับชนิดการแจ้งเตือนและวิธีการจัดส่งที่เฉพาะเจาะจงใน Microsoft Dynamics 365 Commerce
 
 ตอนนี้อีเมลของธุรกรรมสามารถกำหนดเองได้สำหรับการรวมกันของชนิดการแจ้งเตือน (ตัวอย่างเช่น **ใบสั่งที่สร้าง** **ใบสั่งที่บรรจุ** หรือ  **ใบสั่งที่ออกใบแจ้งหนี้แล้ว**) และวิธีการจัดส่ง (ตัวอย่างเช่น ข้ามคืน การรับสินค้าในร้านค้า หรือการรับสินค้าหน้าร้านค้า) อีเมล์ธุรกรรมที่กำหนดเองช่วยให้ร้านค้าปลีกสามารถให้คำสั่งของลูกค้าของตนมีประสบการณ์การทำงานที่เหมาะสมกับวิธีการจัดส่งของใบสั่ง ตัวอย่างเช่น เหตุการณ์ "ใบสั่งบรรจุ" สามารถกำหนดเองเพื่อให้มีคำแนะนำในการรับสินค้าหน้าร้าน สำหรับลูกค้าที่เลือกรับสินค้าหน้าร้าน อีกทางหนึ่งคือ ผู้ขนส่งและข้อมูลการจัดส่งสำหรับลูกค้าที่เลือกว่าจะจัดส่งสินค้าตามใบสั่งซื้อไปให้หรือไม่
 
@@ -71,3 +69,6 @@ ms.locfileid: "5031859"
 [สร้างใบสั่งของศูนย์บริการ](tasks/create-call-center-orders.md)
 
 [เปลี่ยนวิธีการจัดส่งใน POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

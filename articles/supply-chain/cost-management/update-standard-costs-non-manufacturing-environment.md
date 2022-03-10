@@ -2,11 +2,9 @@
 title: อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 description: บทความนี้ให้คำแนะนำสำหรับวิธีการอัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb4437078b2fd17a4edc6a66567da8c1741813f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 139c72fc60330427336de872d7c9730fd12e291f8cad3f7327380b2003535d78
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757865"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>อัพเดตต้นทุนมาตรฐานในสภาพแวดล้อมที่ไม่มีการผลิต
 
@@ -51,3 +49,6 @@ ms.locfileid: "4983786"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

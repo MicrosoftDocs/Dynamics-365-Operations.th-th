@@ -1,30 +1,29 @@
 ---
 title: ภาพรวมของยุโรป
 description: หัวข้อนี้แสดงการเชื่อมโยงไปยังทรัพยากรเอกสาร Microsoft Dynamics 365 Finance สำหรับยุโรป
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c5e57bb115e27880c2fee888be4ab02c51462a
-ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7792620"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982105"
 ---
 # <a name="europe-overview"></a>ภาพรวมของยุโรป
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้รวมข้อมูลและลิงค์ไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่าเอนทิตีทางกฎหมายที่มีที่อยู่หลักในยุโรป 
+หัวข้อนี้รวมข้อมูลและลิงก์ไปยังทรัพยากรที่สามารถช่วยคุณในการตั้งค่าเอนทิตีทางกฎหมายที่มีที่อยู่หลักในยุโรป 
 
 - [ภาพรวมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders.md)
  - [ธุรกรรมของผู้ถือครองเงินทดรองจ่าย](emea-advance-holders-transactions.md)
@@ -94,6 +93,7 @@ ms.locfileid: "7792620"
   - [สร้างและส่งรายงาน VAT](tasks/create-submit-vat-report.md)
   - [ดูธุรกรรมในการจ่ายเงินสำหรับยุโรปตะวันออก](emea-transactions-settlement-form.md)
   - [วันที่ของจุดรับผิดทางภาษี (วันที่ของการลงทะเบียน VAT)](emea-tax-point-date.md)
+  - [วันที่จดทะเบียน VAT ของผู้จัดจำหน่าย](emea-date-vendor-VAT-register.md)
 - [ส่วนขยายของคุณลักษณะเหตุผลทางการเงิน](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม

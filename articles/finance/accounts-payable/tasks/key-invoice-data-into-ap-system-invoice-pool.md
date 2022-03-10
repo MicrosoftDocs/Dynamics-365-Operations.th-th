@@ -2,11 +2,9 @@
 title: ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้
 description: หัวข้อนี้จะอธิบายวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e53de7091fd818bdc7085c404794e16dc84dd156
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777275"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้
 
@@ -67,3 +65,6 @@ ms.locfileid: "4979299"
 13. เลือก **ธุรกรรม**
 14. เลือกใบแจ้งหนี้ที่คุณสร้างขึ้น ทะเบียนใบแจ้งหนี้คงค้างมีการกลับรายการ และลงรายการบัญชีค่าใช้จ่ายที่เหมาะสม  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

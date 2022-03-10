@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b9c68cb8a34f2ec140a6e460b830fdee14210d7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: dec2f270f53968292ec25cca43c216f26cfc8087
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892069"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061422"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (24 มีนาคม 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 บทความนี้อธิบายถึงคุณลักษณะใหม่หรือที่มีการเปลี่ยนแปลงใน Dynamics 365 Human Resources การเปลี่ยนแปลงที่ใช้เพื่อสร้างหมายเลข 8.1.3073 ตัวเลขในวงเล็บในส่วนหัวบางส่วนอ้างอิงถึงหมายเลขที่สนับสนุน Lifecycle Services (LCS) สำหรับการอ้างอิง
 
@@ -74,7 +73,7 @@ ms.locfileid: "5892069"
 | เอนทิตี้ **ชื่อ** ใหม่ | <ul><li>เพิ่ม **ชื่อเรื่อง** แล้ว</li></ul>เอนทิตี **ชื่อเรื่อง** ใหม่จะรวมอยู่ใน Dataverse แต่ไม่ได้อ้างอิงจากเอนทิตี **ตำแหน่งงาน** หรือ **งาน** ในขณะนี้ |
 
 > [!NOTE]
-> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัพเดตจากทรัพยากรบุคคลเป็น Dataverse การอัพเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Dataverse กับทรัพยากรบุคคลในขณะนี้
+> มิติทางการเงินสำหรับทั้งตำแหน่งและการจ้างงานจะมีการรวมทิศทางเดียวสำหรับการอัปเดตจากทรัพยากรบุคคลเป็น Dataverse การอัปเดตมิติทางการเงินไม่ได้ซิงโครไนส์จาก Dataverse กับทรัพยากรบุคคลในขณะนี้
 
 ในช่วงสองถึงสามสัปดาห์ข้างหน้า การเปลี่ยนแปลงเอนทิตีเหล่านี้จะพร้อมใช้งานในสภาพแวดล้อมทั้งหมด เมื่อต้องการติดตั้งโซลูชัน Dataverse ล่าสุดสำหรับทรัพยากรบุคคลด้วยตนเอง:
 
@@ -114,11 +113,11 @@ ms.locfileid: "5892069"
 
 ## <a name="employment-detail-entity"></a>เอนทิตี้รายละเอียดการจ้างงาน
 
-เอนทิตี้ **รายละเอียดการจ้างงาน** ได้รับการอัพเดตด้วยฟิลด์ต่อไปนี้: **PayFrequency** **รหัสประเภทการจ้างงาน** **ชนิดการจ้างงาน** **รหัส EmploymentType** และ **สถานะการจ้างงานสวัสดิการ** ข้อมูลการตั้งค่าสำหรับฟิลด์เหล่านี้ขึ้นอยู่กับการจัดการสวัสดิการที่ถูกเปิดใช้งานในการจัดการคุณลักษณะ ไม่ควรเติมข้อมูลหรืออัปเดตฟิลด์เหล่านี้ในเอนทิตี้ **รายละเอียดการจ้างงาน** เนื่องจากจะทำให้เกิดข้อผิดพลาดในระหว่างการนำเข้า
+เอนทิตี้ **รายละเอียดการจ้างงาน** ได้รับการอัปเดตด้วยฟิลด์ต่อไปนี้: **PayFrequency** **รหัสประเภทการจ้างงาน** **ชนิดการจ้างงาน** **รหัส EmploymentType** และ **สถานะการจ้างงานสวัสดิการ** ข้อมูลการตั้งค่าสำหรับฟิลด์เหล่านี้ขึ้นอยู่กับการจัดการสวัสดิการที่ถูกเปิดใช้งานในการจัดการคุณลักษณะ ไม่ควรเติมข้อมูลหรืออัปเดตฟิลด์เหล่านี้ในเอนทิตี้ **รายละเอียดการจ้างงาน** เนื่องจากจะทำให้เกิดข้อผิดพลาดในระหว่างการนำเข้า
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

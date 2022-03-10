@@ -2,11 +2,9 @@
 title: ตรวจทานข้อมูลการเรียกเก็บเงิน
 description: หัวข้อนี้อธิบายวิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆ ในการตั้งค่าและธุรกรรมการเรียกเก็บเงิน
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bbfb6537118a9936c127018427b0516e7ea002a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778397"
 ---
 # <a name="review-collections-information"></a>ตรวจทานข้อมูลการเรียกเก็บเงิน
 
@@ -142,3 +140,6 @@ ms.locfileid: "4971539"
 5. เลือก **แสดงรายการ**
 - เลือกบัญชีลูกค้าหรือยอมรับรายการเริ่มต้น  โดยค่าเริ่มต้น นี่คือบัญชีลูกค้าที่เลือกบนหน้ารายการหรือในแบบฟอร์มที่คุณเปิดแบบฟอร์มนี้  ถ้าคุณเปิดแบบฟอร์มจากหน้ารายการ ลูกค้าในรายการจะเป็นลูกค้าที่รวมอยู่ในกลุ่มใบเรียกเก็บเงินที่ใช้บนหน้ารายการ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 description: หัวข้อนี้อธิบายการใช้แค็ตตาล็อกภายนอกหรือแค็ตตาล็อก PunchOut เพื่อเก็บข้อมูลใบเสนอราคาจากผู้จัดจำหน่าย และเพิ่มไปยังการจัดหาวัตถุดิบ
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa383e7e026e379c8016d9c160ccc8b1405392ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237360"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566923"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>ตั้งค่าแค็ตตาล็อกภายนอกสำหรับ PunchOut eProcurement
 

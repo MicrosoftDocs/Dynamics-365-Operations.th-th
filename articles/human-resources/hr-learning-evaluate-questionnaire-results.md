@@ -1,33 +1,35 @@
 ---
 title: ดูและประเมินผลลัพธ์ของแบบสอบถาม
-description: บทความนี้อธิบายวิธีการดูและประเมินผลลัพธ์ของแบบสอบถามที่ตอบเสร็จสมบูรณ์แล้ว
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: หัวข้อนี้อธิบายวิธีการดูและประเมินผลลัพธ์ของแบบสอบถามที่ตอบเสร็จสมบูรณ์แล้ว
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420823"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070713"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>ดูและประเมินผลลัพธ์ของแบบสอบถาม
 
-บทความนี้อธิบายวิธีการดูและประเมินผลลัพธ์ของแบบสอบถามที่ตอบเสร็จสมบูรณ์แล้ว 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+หัวข้อนี้อธิบายวิธีการดูและประเมินผลลัพธ์ของแบบสอบถามที่ตอบเสร็จสมบูรณ์แล้ว 
 
 หลังจากที่ผู้ตอบได้กรอกข้อมูลแบบสอบถามเสร็จสิ้นแล้ว คุณสามารถดูและประเมินผลลัพธ์ของแบบสอบถามได้หลายวิธี ดังนี้
 
@@ -72,3 +74,5 @@ ms.locfileid: "4420823"
 -   เลือกหรือตรวจสอบเงื่อนไขในการวิเคราะห์ผลลัพธ์ตามลักษณะของผู้ตอบหรือแบบสอบถาม ตัวอย่างเช่น โดยการเลือก **รหัสไปรษณีย์** คุณสามารถวิเคราะห์ความสัมพันธ์ระหว่างสถานที่อยู่ของผู้ตอบและคำตอบที่ถูกต้องได้
 
 ระบบจะบันทึกการตั้งค่าที่คุณกำหนด และคุณสามารถใช้การตั้งค่านั้นเพื่อคำนวณผลลัพธ์ใหม่เป็นระยะๆ ได้
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

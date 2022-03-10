@@ -1,29 +1,26 @@
 ---
 title: BOM สินทรัพย์
 description: หัวข้อนี้อธิบายสูตรการผลิตสินทรัพย์ (BOMs) ในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f42646ae865cd530203c997fd10c8ccd59e7fa2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751996"
 ---
 # <a name="asset-boms"></a>BOM สินทรัพย์
 
@@ -84,3 +81,6 @@ BOM สินทรัพย์สามารถปรับปรุงได�
 5. ถ้าสินค้าจะหมดอายุ ในฟิลด์ **การหมดอายุ** ให้ป้อนวันที่สิ้นสุด
 6. ในฟิลด์ **หมายเลขสินค้า** เลือกสินค้า ชื่อของไฟล์ถูกป้อนโดยอัตโนมัติลงในฟิลด์ **ชื่อผลิตภัณฑ์**
 7. ในฟิลด์ **ปริมาณ** ป้อนปริมาณที่มีการใช้ ฟิลด์ **หน่วย** มีการปรับปรุงโดยอัตโนมัติ
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

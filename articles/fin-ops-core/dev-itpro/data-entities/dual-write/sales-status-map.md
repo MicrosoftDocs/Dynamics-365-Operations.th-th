@@ -1,39 +1,30 @@
 ---
-title: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าฟิลด์สถานะของใบสั่งขายสำหรับการรวมแบบสองทิศทาง
+title: ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
+description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอลัมน์สถานะของใบสั่งขายสำหรับการรวมแบบสองทิศทาง
 author: dasani-madipalli
-manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: damadipa
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457809"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782295"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>ตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย
 
 [!include [banner](../../includes/banner.md)]
 
-ฟิลด์ที่บ่งชี้สถานะของใบสั่งขายมีค่าการแจงนับที่แตกต่างกันใน Microsoft Dynamics 365 Supply Chain Management และ Dynamics 365 Sales ต้องมีการตั้งค่าเพิ่มเติมเพื่อแม็ปฟิลด์เหล่านี้ในการรวมแบบสองทิศทาง
+คอลัมน์ที่บ่งชี้สถานะของใบสั่งขายมีค่าการแจงนับที่แตกต่างกันใน Microsoft Dynamics 365 Supply Chain Management และ Dynamics 365 Sales ต้องมีการตั้งค่าเพิ่มเติมเพื่อแม็ปคอลัมน์เหล่านี้ในการรวมแบบสองทิศทาง
 
-## <a name="fields-in-supply-chain-management"></a>ฟิลด์ใน Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>คอลัมน์ใน Supply Chain Management
 
-ใน Supply Chain Management ฟิลด์สองฟิลด์จะสะท้อนถึงสถานะของใบสั่งขาย ฟิลด์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะเอกสาร**
+ใน Supply Chain Management คอลัมน์สองคอลัมน์จะสะท้อนถึงสถานะของใบสั่งขาย คอลัมน์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะเอกสาร**
 
 การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง สถานะนี้จะแสดงอยู่บนส่วนหน้าของใบสั่ง
 
@@ -53,9 +44,9 @@ ms.locfileid: "4457809"
 - บันทึกการจัดส่ง
 - ใบแจ้งหนี้
 
-## <a name="fields-in-sales"></a>ฟิลด์ในการขาย
+## <a name="columns-in-sales"></a>คอลัมน์ใน Sales
 
-ในการขาย มีสองฟิลด์ที่บ่งชี้สถานะของใบสั่ง ฟิลด์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะการประมวลผล**
+ในการขาย มีสองคอลัมน์ที่บ่งชี้สถานะของใบสั่ง คอลัมน์ที่คุณต้องแม็ปคือ **สถานะ** และ **สถานะการประมวลผล**
 
 การแจง **สถานะ** ระบุสถานะโดยรวมของใบสั่ง ซึ่งมีค่าดังต่อไปนี้:
 
@@ -91,11 +82,11 @@ ms.locfileid: "4457809"
 | ออกใบแจ้งหนี้แล้วบางส่วน  | ที่ใช้งานอยู่          | เปิดใบสั่ง                        |
 | ออกใบแจ้งหนี้แล้วบางส่วน  | เติมเต็มแล้ว       | จัดส่งแล้ว                         |
 | ออกใบแจ้งหนี้แล้ว            | ออกใบแจ้งหนี้แล้ว        | ออกใบแจ้งหนี้แล้ว                          |
-| ยกเลิกแล้ว           | ยกเลิกแล้ว       | ยกเลิกแล้ว                         |
+| ยกเลิกแล้ว           | ยกเลิกแล้ว       | ถูกยกเลิก                         |
 
-## <a name="setup"></a>การตั้งค่า
+## <a name="setup"></a>ตั้งค่า
 
-เมื่อต้องการตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย คุณต้องเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** **isIntegrationUser**
+เมื่อต้องการตั้งค่าการแม็ปสำหรับคอลัมน์สถานะของใบสั่งขาย คุณต้องเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** **isIntegrationUser**
 
 เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **IsSOPIntegrationEnabled** ให้ทำตามขั้นตอนต่อไปนี้
 
@@ -110,14 +101,14 @@ ms.locfileid: "4457809"
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +120,13 @@ ms.locfileid: "4457809"
 
 เมื่อต้องการเปิดใช้งานแอตทริบิวต์ **isIntegrationUser** ให้ทำตามขั้นตอนต่อไปนี้
 
-1. ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **เอนทิตีผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**
+1. ในการขาย ให้ไปที่ **การตั้งค่า \> การกำหนดเอง \> การกำหนดเองของระบบ** เลือก **ตารางผู้ใช้** แล้วเปิด **ฟอร์ม \> ผู้ใช้**
 
-    ![การเปิดแบบฟอร์มผู้ใช้](media/sales-map-user.png)
+    ![การเปิดฟอร์มผู้ใช้](media/sales-map-user.png)
 
 2. ในฟิลด์ Explorer ให้ค้นหา **โหมดผู้ใช้การรวม** และคลิกสองครั้งเพื่อเพิ่มในแบบฟอร์ม บันทึกการเปลี่ยนแปลง
 
-    ![กำลังเพิ่มฟิลด์โหมดผู้ใช้ในการรวมกับแบบฟอร์ม](media/sales-map-field-explorer.png)
+    ![การเพิ่มคอลัมน์โหมดผู้ใช้การรวมไปยังฟอร์ม](media/sales-map-field-explorer.png)
 
 3. ในการขาย ให้ไปที่ **การตั้งค่า \> ความปลอดภัย \> ผู้ใช้** และเปลี่ยนมุมมองจาก **ผู้ใช้ที่เปิดใช้งาน** เป็น **ผู้ใช้แอปพลิเคชัน**
 
@@ -145,8 +136,11 @@ ms.locfileid: "4457809"
 
     ![รายการของผู้ใช้แอปพลิเคชัน](media/sales-map-user-mode.png)
 
-5. เปลี่ยนค่าของฟิลด์ **โหมดผู้ใช้การรวม** เป็น **ใช่**
+5. เปลี่ยนค่าของคอลัมน์ **โหมดผู้ใช้การรวม** เป็น **ใช่**
 
-    ![การเปลี่ยนค่าของฟิลด์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
+    ![การเปลี่ยนค่าของคอลัมน์โหมดผู้ใช้การรวม](media/sales-map-user-mode-yes.png)
 
 ขณะนี้มีการแม็ปใบสั่งขายของคุณ
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

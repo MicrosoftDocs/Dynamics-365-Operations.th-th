@@ -1,27 +1,25 @@
 ---
 title: ตั้งค่ารหัสการโอนการครอบครอง
 description: 'ขั้นตอนนี้มุ่งเน้นการตั้งค่ารหัสการโอนการครอบครองที่สามารถใช้บนอุปกรณ์เคลื่อนที่สำหรับกระบวนการการได้รับสินค้าส่งคืนที่ '
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSDispositionTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7c98526423b28fcb6c4e00a9f2cfd84d5a9119e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb83108c934e864da0df39ec4ee36a0bc7ba7588
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977024"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574076"
 ---
 # <a name="set-up-dispositions-codes"></a>ตั้งค่ารหัสการโอนการครอบครอง
 
@@ -40,3 +38,6 @@ ms.locfileid: "4977024"
 6. ในฟิลด์รหัสการโอนการครอบครองสินค้ารับคืน ให้พิมพ์ค่าใดค่าหนึ่ง
     * รหัสการโอนการครอบครองการส่งคืนกำหนดส่วนที่เหลือของกระบวนการใบสั่งส่งคืนสำหรับสินค้าลงทะเบียน  ในตัวอย่างนี้ ลูกค้าควรได้รับใบลดหนี้ เพิ่มรหัสการจัดการส่งคืนสินค้าที่ประกอบด้วยเครดิตการดำเนินการ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

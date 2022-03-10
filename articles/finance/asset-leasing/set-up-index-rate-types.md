@@ -2,13 +2,11 @@
 title: ตั้งค่าอัตราดัชนี
 description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าอัตราดัชนี ต้องระบุอัตราดัชนีถ้าองค์กรของคุณเชื่อมโยงยอดเงินการชำระค่าเช่ากับชุดของอัตราดัชนี
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseIndexRateType
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f362bf4a6b5de3ce16330aea08880b07b4145792
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9d1c9fd1ebabce628bbd7d0b0b03daaec11b2cd9d54157ba0ccbf0a7c89bdd07
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743156"
 ---
 # <a name="set-up-index-rates"></a>ตั้งค่าอัตราดัชนี
 
@@ -42,3 +40,6 @@ ms.locfileid: "4992875"
 
 - เลือกวิธีการ **ความแตกต่างของมูลค่าอัตราดัชนี** เพื่อคำนวณการชำระค่าเช่าใหม่ ตามผลต่างระหว่างอัตราดัชนีในวันที่เริ่มต้นและอัตราดัชนีล่าสุด มีการกำหนดอัตราดัชนีในฟิลด์ **อัตราดัชนี (%)**
 - เลือกวิธีการ **ค่าอัตราดัชนี** เพื่อคำนวณการชำระค่าเช่าโดยใช้เปอร์เซ็นต์ที่ระบุไว้ในฟิลด์ **อัตราดัชนี (%)**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

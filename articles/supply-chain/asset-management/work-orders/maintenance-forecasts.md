@@ -1,29 +1,26 @@
 ---
 title: การคาดการณ์ในการบำรุงรักษา
 description: หัวข้อนี้อธิบายถึงการคาดการณ์ในการบำรุงรักษาในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2686dd6db032239e2a3aac03f3998cee055302f6
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 6503d5110a4cb5e4041afa7b4e80395b2974a64e5a150eb6bfce1f32a6703e06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761865"
 ---
 # <a name="maintenance-forecasts"></a>การคาดการณ์ในการบำรุงรักษา
 
@@ -124,3 +121,6 @@ ms.locfileid: "4438933"
 ภาพประกอบด้านล่างแสดงตัวอย่างของกล่องโต้ตอบ **อัพเดตการคาดการณ์ใบสั่งงาน**
 
 ![รูปที่ 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

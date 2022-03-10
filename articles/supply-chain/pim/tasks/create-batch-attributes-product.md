@@ -1,26 +1,24 @@
 ---
 title: สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์
 description: 'ขั้นตอนนี้แสดงวิธีการสร้างแอททริบิวต์ของชุดงาน กำหนดช่วงของค่าเริ่มต้น และรวมแอททริบิวต์ในกลุ่ม '
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d51cecc800a827fe91583b6086fd88b10aedc41
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 71779bf864b4dbe86d90131808014d1d08815155
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986940"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565617"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>สร้างแอททริบิวต์ของชุดงานสำหรับผลิตภัณฑ์
 
@@ -54,3 +52,6 @@ ms.locfileid: "4986940"
 22. คลิก บันทึก
 23. ปิดหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

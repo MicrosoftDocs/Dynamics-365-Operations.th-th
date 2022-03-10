@@ -2,26 +2,23 @@
 title: บริษัทวิศวกรรมและกฎความเป็นเจ้าของข้อมูล
 description: หัวข้อนี้จะอธิบายถึงวิธีการที่คุณสามารถใช้บริษัทวิศวกรรมหนึ่งแห่งขึ้นไปเพื่อให้แน่ใจว่ามีการสร้างและรักษาข้อมูลหลักสำหรับผลิตภัณฑ์แบบส่วนกลาง บริษัทวิศวกรรมแสดงถึงบริษัทที่เป็นเจ้าของผลิตภัณฑ์วิศวกรรมและข้อมูลที่เกี่ยวข้องกับวิศวกรรม
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5cab02600e13a1a539b5ae0cd3ff66960430e826
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4438931"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572924"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>บริษัทวิศวกรรมและกฎความเป็นเจ้าของข้อมูล
 
@@ -67,3 +64,6 @@ ms.locfileid: "4438931"
 
     - เมื่อนำออกใช้เอกสารเหล่านี้ไปยังนิติบุคคลอื่นๆ เอกสารจะได้รับการป้องกันจากการถูกลบออกโดยบริษัทที่ดำเนินงาน
     - นิติบุคคลอื่นๆ สามารถเพิ่มเอกสารเฉพาะที่ใหม่ได้อย่างสมบูรณ์ บริษัทที่ดำเนินงานเป็นเจ้าของและเก็บรักษาเอกสารเฉพาะที่เหล่านี้
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

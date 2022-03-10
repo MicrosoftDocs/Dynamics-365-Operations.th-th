@@ -2,27 +2,24 @@
 title: ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ
 description: หัวข้อนี้แสดงภาพรวมของสิ่งที่เกิดขึ้นเมื่อคุณลงรายการบัญชีใบสำคัญเดียวกับเรกคอร์ของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ ฟังก์ชันนี้จะถูกหยุดการดำเนินการในรุ่นถัดไปของ Microsoft Dynamics 365 Finance ดังนั้น เราไม่แนะนำให้ใช้วิธีของการลงรายการบัญชีนี้ เนื่องจากผลกระทบทางบัญชีต่อกระบวนการชำระเงิน
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737052"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>ใบสำคัญเดียวที่มีเรกคอร์ดของลูกค้าหรือผู้จัดจำหน่ายหลายรายการ
 
@@ -211,8 +208,6 @@ ms.locfileid: "4448574"
 | ARP 00001   | 403300-002-023- | ส่วนลดเงินสดสำหรับลูกค้า | 2.00      |            |
 | ARP 00001   | 130100-002-     | ลูกหนี้คงเหลือ       |           | 2.00       |
 
-### 
-
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>ใบสำคัญหนึ่งใบที่มีการรวมสำหรับลูกค้าและผู้จัดจำหน่ายหลายรายการ
 การรวมอาจเป็นประโยชน์เมื่อองค์กรซื้อและขายไปยังบริษัทเดียวกัน ใบแจ้งหนี้ของผู้จัดจำหน่ายและลูกค้าจะถูกรวม โดยไม่มีการชำระใบแจ้งหนี้ของผู้จัดจำหน่ายและรอรับการชำระเงินสำหรับใบแจ้งหนี้ของลูกค้า ธุรกรรมการรวมจะได้รับชำระสำหรับยอดดุลค้างชำระ 
 
@@ -233,3 +228,6 @@ ms.locfileid: "4448574"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

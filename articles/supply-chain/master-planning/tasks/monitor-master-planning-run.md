@@ -1,7 +1,7 @@
 ---
 title: ตรวจสอบการดำเนินการวางแผนหลัก
 description: หัวข้อนี้อธิบายถึงวิธีการที่ผู้วางแผนการผลิตสามารถดูได้ว่ากำลังรันการวางแผนหลักอยู่หรือไม่
-author: josaw1
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b59e8590bf700b77a5e8021f9518f6d0cc6929acc0d9ea2723cef8b7a1971fd4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757745"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103174"
 ---
 # <a name="monitor-a-master-planning-run"></a>ตรวจสอบการดำเนินการวางแผนหลัก
 
@@ -28,12 +28,11 @@ ms.locfileid: "6757745"
 
 จากเพจ **ดูความคืบหน้าของการวางแผนหลัก** คุณสามารถดูรายละเอียดของการวางแผนหลักในอดีตรันเป็นแผนภูมิ Gantt ได้ ฟังก์ชันนี้จะช่วยให้คุณเข้าใจเวลาที่ใช้ในระยะของการวางแผนหลักต่างๆ สำหรับงานการวางแผนที่ใช้งานอยู่ปัจจุบัน คุณสามารถใช้เพจ **ดูความคืบหน้าของการวางแผนหลัก** เพื่อติดตามความคืบหน้าและดูเวลาที่เหลืออยู่โดยประมาณ
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>เปิดและใช้คุณลักษณะการแสดงภาพความคืบหน้าของแผนหลัก
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการแสดงภาพความคืบหน้าของแผนหลัก
 
-เมื่อต้องการใช้ฟังก์ชันนี้ ให้ทำตามขั้นตอนเหล่านี้
+(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การแสดงภาพความคืบหน้าของแผนหลัก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-1. ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** บนแท็บ **ใหม่** ให้เลือก **การแสดงภาพความคืบหน้าของการวางแผนหลัก** ในรายการ ถ้าคุณลักษณะไม่ปรากฏบนแท็บ **ใหม่** ให้ดูที่แท็บ **ไม่ได้เปิดใช้งาน** และ **ทั้งหมด**
-1. เลือก **เปิดใช้งาน** หรือเลือก **กำหนดการ** แล้วเลือกเวลาที่คุณต้องการเปิดใช้งานคุณลักษณะ
+### <a name="use-the-master-plan-progress-visualization-feature"></a>ใช้คุณลักษณะการแสดงภาพความคืบหน้าของแผนหลัก
 
 เพจ **ดูความคืบหน้าของการวางแผนหลัก** สามารถแสดงทั้งงานการวางแผนในอดีต และงานการวางแผนที่ใช้งานอยู่ 
 

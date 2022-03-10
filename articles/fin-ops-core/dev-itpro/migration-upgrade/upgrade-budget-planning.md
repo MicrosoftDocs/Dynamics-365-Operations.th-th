@@ -2,11 +2,9 @@
 title: อัปเกรดการวางแผนงบประมาณ
 description: หัวข้อนี้อธิบายถึงสิ่งที่ต้องตั้งค่าคอนฟิกใหม่ และยังอธิบายถึงคุณลักษณะใหม่ที่ควรพิจารณาหลังจากการอัพเกรดเสร็จสมบูรณ์
 author: panolte
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1b1ac233feb124fea261f65f16656fea1ac2ae37
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769202"
 ---
 # <a name="upgrade-budget-planning"></a>อัพเกรดการวางแผนงบประมาณ
 
@@ -162,3 +160,6 @@ ms.locfileid: "5127190"
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

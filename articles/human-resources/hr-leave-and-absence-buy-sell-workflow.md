@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b9e56c130cd831e6a1ad258c679562cb6de57d9b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053982"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070688"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>สร้างลำดับงานคำขอซื้อและขายวันลา
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -78,7 +81,8 @@ ms.locfileid: "6053982"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ภาพรวมการลางานและการขาดงาน](hr-leave-and-absence-overview.md)<br>
-[จัดการนโยบายซื้อและขายวันลางาน](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[จัดการนโยบายซื้อและขายวันลางาน](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[ซื้อและขายวันลางาน](hr-employee-self-service-buy-sell-leave.md)
 
 
 

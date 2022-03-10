@@ -1,12 +1,10 @@
 ---
 title: ตั้งค่าคูปองสำหรับการขายปลีก
-description: หัวข้อนี้แสดงภาพรวมของคูปองและอธิบายวิธีการตั้งค่า
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: หัวข้อนี้แสดงภาพรวมของคูปองและอธิบายวิธีการตั้งค่าใน Dynamics 365 Commerce
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fcb21c037c4492ce215780913301c0c0b54ab9d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259492"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603134"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>ตั้งค่าคูปองสำหรับการขายปลีก
 
@@ -40,6 +38,10 @@ ms.locfileid: "5259492"
 
 > [!NOTE]
 > หลังจากคูปองถูกเชื่อมโยงไปยังส่วนลด ฟิลด์ต่าง ๆ บนหน้าส่วนลดในการค้าจะกลายเป็นอ่านอย่างเดียว เนื่องจากมีการจัดการโดยการตั้งค่าของคูปอง ฟิลด์เหล่านี้ประกอบด้วย ฟิลด์สำหรับสถานะและช่วงวันที่มาตรฐาน
+> 
+> ในขณะที่ใช้คูปองในช่องทางศูนย์บริการ คุณต้องเลือกปุ่ม **คํานวณใหม่** **(แท็บขาย > คํานวณ > คํานวณใหม่)** เพื่อใช้ส่วนลดที่เชื่อมโยงกับคูปอง ขั้นตอนเพิ่มเติมนี้จะถูกลบออกจากรุ่นในอนาคต
+
+เมื่อต้องการใช้คูปองกับธุรกรรมการขายในการขายหน้าร้าน (POS) คุณสามารถใช้ **รหัสคูปอง** หรือ **บาร์โค้ดของคูปอง** เมื่อต้องการใช้ **รหัสคูปอง** การดําเนินงาน **เพิ่มรหัสคูปอง** ต้องถูกตั้งค่าคอนฟิกใน POS **ธุรกรรม** [โครงร่างหน้าจอ](pos-screen-layouts.md) เลือก **เพิ่มรหัสคูปอง** และป้อนรหัสคูปอง หรือ ใช้ **บาร์โค้ดของคูปอง** ให้สแกนบาร์โค้ดหรือป้อนบาร์โค้ด โดยใช้คีย์บอร์ดตัวเลขบนหน้าจอ **ธุรกรรม**
 
 ### <a name="limited-use-coupons"></a>คูปองที่จำกัดการใช้
 

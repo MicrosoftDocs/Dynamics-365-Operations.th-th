@@ -1,27 +1,25 @@
 ---
 title: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
-description: เอกสารประกอบของแอป Finance and Operations
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+description: เอกสารประกอบสำหรับแอป Finance and Operations
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
-ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "5073118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075408"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
@@ -46,12 +44,12 @@ ms.locfileid: "5073118"
  <p><a href="get-started/purchase-on-premises.md">ซื้อ Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">วงจรการใช้งาน</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-<p><a href="imp-lifecycle/onboard.md">เตรียมความพร้อมสำหรับโครงการ</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">การเตรียมความพร้อมสำหรับโครงการ</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">การจัดเตรียมสำหรับการเริ่มใช้งานจริง</a></p>
 
 <h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">การอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></h3>
-<p><a href="get-started/one-version.md">FAQ เกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></p>
+<p><a href="get-started/one-version.md">คำถามที่ถามบ่อยเกี่ยวกับการอัปเดตบริการแบบหนึ่งเวอร์ชัน</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ระบบคลาวด์</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">นโยบายวงจรการใช้งานซอฟต์แวร์: ในสถานที่</a></p>
 <p><a href="get-started/public-preview-releases.md">การอัปเดตบริการรีลีสครั้งแรกและมาตรฐาน</a></p>
@@ -67,7 +65,7 @@ ms.locfileid: "5073118"
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">การรวม</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">เหตุการณ์ทางธุรกิจ</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">เอนทิตี้ข้อมูล</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">การรวมการใช้งาน Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">การใช้การรวม Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">การจัดการทางการเงิน</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">บัญชีเจ้าหนี้</a></p>
@@ -78,20 +76,22 @@ ms.locfileid: "5073118"
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">การบัญชีต้นทุน</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">สินทรัพย์ถาวร</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">บัญชีแยกประเภททั่วไป</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">การจัดการโครงการ</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">การจัดการโครงการ</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">ภาครัฐ</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">คุณลักษณะที่เป็นระเบียบบังคับในภูมิภาค</a></p>
 
 <h3><a href="hr/hr-landing-page.md">ทรัพยากรบุคคล</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">ระบบบริการตนเองของพนักงาน</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">การจัดการบุคลากร</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">การลางานและการขาดงาน</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">สวัสดิการ</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">การพัฒนาและฝึกอบรมพนักงาน</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">แบบสอบถาม</a></p>
-<p><a href="hr/manage-recruiting-process.md">การสรรหา</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">การพัฒนาพนักงาน</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">การเรียนรู้</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">ค่าจ้างของสหรัฐอเมริกา</a></p>
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">การบริหารห่วงโซ่อุปทาน</a></h3>
+<h3><a href="../../supply-chain/index.md">การจัดการห่วงโซ่อุปทาน</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">การจัดการต้นทุน</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">การบริหารสินค้าคงคลัง</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">การวางแผนหลัก</a></p>
@@ -128,16 +128,11 @@ ms.locfileid: "5073118"
 </td>
 <td>
 <h3>ผลิตภัณฑ์ที่เกี่ยวข้อง</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">ศูนย์บริการ</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS และ POS ระบบคลาวด์</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Commerce</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">คู่มือสำหรับผู้ดูแลระบบ</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">คู่มือสำหรับนักพัฒนา</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">คู่มือผู้ใช้</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">ศูนย์บริการ</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">การตั้งค่าและการจัดการช่องทาง</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS และ Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">นักพัฒนาและการจัดการ Commerce</p>
 
 
 </td>
@@ -145,3 +140,6 @@ ms.locfileid: "5073118"
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: สถานะของวงจรการใช้ของตำแหน่งที่ทำงาน
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าสถานะตำแหน่งที่ทำงานและแบบจำลองวงจรการใช้งานในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationLifecycleModel, EntAssetFunctionalLocationLifecycleState
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f119e68319b901b052fa4aa659260f386f44bcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360981"
 ---
 # <a name="functional-location-lifecycle-states"></a>สถานะของวงจรการใช้ของตำแหน่งที่ทำงาน
 
@@ -58,7 +56,10 @@ ms.locfileid: "5021297"
 1. เลือก **การจัดการสินทรัพย์** > **การตั้งค่า** > **ตำแหน่งที่ทำงาน** > **แบบจำลองวงจรการใช้งาน**
 2. เลือก **สร้าง** เพื่อสร้างแบบจำลองวงจรการใช้งานใหม่
 3. แทรกรหัสแบบจำลองวงจรการใช้งานในฟิลด์ **แบบจำลองวงจรการใช้งาน** และชื่อสำหรับแบบจำลองวงจรการใช้งานในฟิลด์ **ชื่อ** ในฟิลด์ **ชนิดตำแหน่งที่ทำงาน** และฟิลด์ **สถานะของวงจรการใช้** คุณสามารถดูจำนวนของชนิดตำแหน่งที่ทำงานที่ใช้แบบจำลองวงจรการใช้งานและจำนวนของสถานะที่เลือกในแบบจำลองวงจรการใช้งาน
-4. บน FastTab **สถานะของวงจรการใช้** ให้เลือกสถานะที่ควรถูกรวมไว้ในแบบจำลอง ซึ่งทำได้โดยการคลิกที่สถานะในส่วน **สถานะของวงจรการใช้ที่เหลือ** และการคลิกที่ปุ่ม ![ลูกศรไปข้างหน้า](media/02-setup-for-functional-locations.png)
-5. ถ้าคุณต้องการเลือกสถานะที่พร้อมใช้งานทั้งหมดสำหรับแบบจำลอง ให้คลิกปุ่ม ![เลือกขั้นตอนที่มีอยู่ทั้งหมด](media/03-setup-for-functional-locations.png) สถานะทั้งหมดจะถูกย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เลือก**
-6. ถ้าคุณต้องการลบสถานะที่เลือกออกจากแบบจำลอง ให้เลือกสถานะในส่วน **สถานะของวงจรการใช้ที่เลือก** และจากนั้น เลือกปุ่ม ![ลูกศรย้อนกลับ](media/04-setup-for-functional-locations.png)
+4. บน FastTab **สถานะของวงจรการใช้** ให้เลือกสถานะที่ควรถูกรวมไว้ในแบบจำลอง ซึ่งทำได้โดยการคลิกที่สถานะในส่วน **สถานะของวงจรการใช้ที่เหลือ** และการคลิกที่ ![ลูกศรไปข้างหน้า](media/02-setup-for-functional-locations.png) ปุ่ม
+5. ถ้าคุณต้องการเลือกสถานะที่พร้อมใช้งานทั้งหมดสำหรับแบบจำลอง ให้คลิก ![เลือกขั้นตอนที่มีอยู่ทั้งหมด](media/03-setup-for-functional-locations.png) ปุ่ม สถานะทั้งหมดจะถูกย้ายไปยังส่วน **สถานะของวงจรการใช้ที่เลือก**
+6. ถ้าคุณต้องการลบสถานะที่เลือกออกจากแบบจำลอง ให้เลือกสถานะในส่วน **สถานะของวงจรการใช้ที่เลือก** และจากนั้น เลือก ![ลูกศรย้อนกลับ](media/04-setup-for-functional-locations.png) ปุ่ม
 7. เลือก **การปรับปรุงสถานะของวงจรการใช้** เพื่อกำหนดสถานะของวงจรการใช้ที่สามารถทำตามสถานะที่เลือกได้
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

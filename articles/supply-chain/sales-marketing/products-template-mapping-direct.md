@@ -1,12 +1,10 @@
 ---
 title: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Sales
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำซิงโครไนส์ผลิตภัณฑ์จาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
-author: ChristianRytt
-manager: tfehr
+description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำซิงโครไนส์ผลิตภัณฑ์จาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
+author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -15,40 +13,40 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f5e91d4dac8ea6d19fa32abca4e9ff73c7cd4a88
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235004"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062474"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Supply Chain Management ไปยังผลิตภัณฑ์ใน Sales
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+> ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](/powerapps/administrator/data-integrator)
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
+หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Dynamics 365 Supply Chain Management ไปยัง Dynamics 365 Sales
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
-โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Supply Chain Management และ Sales แม่แบบของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดที่มีให้ใช้งานร่วมกันกับคุณลักษณะการรวมข้อมูล ช่วยให้เกิดกระแสของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Supply Chain Management และ Sales ภาพประกอบต่อไปนี้ แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Supply Chain Management และ Sales
+โซลูชันผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Supply Chain Management และ Sales เทมเพลตของผู้ที่มีแนวโน้มจะเป็นลูกค้าเงินสดที่มีให้ใช้งานร่วมกันกับคุณลักษณะการรวมข้อมูล ช่วยให้เกิดกระแสของข้อมูลเกี่ยวกับบัญชี ผู้ติดต่อ ผลิตภัณฑ์ ใบเสนอราคาขาย ใบสั่งขาย และใบแจ้งหนี้การขายระหว่าง Supply Chain Management และ Sales ภาพประกอบต่อไปนี้ แสดงวิธีการซิงโครไนส์ข้อมูลระหว่าง Supply Chain Management และ Sales
 
 [![โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
-## <a name="templates-and-tasks"></a>เท็มเพลตและงาน
+## <a name="templates-and-tasks"></a>เทมเพลตและงาน
 
-เมื่อต้องการเข้าถึงแม่แบบที่พร้อมใช้งาน ให้เปิด [Power Apps ศูนย์การจัดการ](https://admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเท็มเพลตสาธารณะ
+เมื่อต้องการเข้าถึงเทมเพลตที่พร้อมใช้งาน ให้เปิด [Power Apps ศูนย์การจัดการ](https://admin.powerapps.com/dataintegration) เลือก **โครงการ** จากนั้น ในมุมบนด้านขวา เลือก **โครงการใหม่** เพื่อเลือกเทมเพลตสาธารณะ
 
-แม่แบบและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยัง Sales
+เทมเพลตและงานพื้นฐานต่อไปนี้จะถูกใช้ในการซิงโครไนส์ผลิตภัณฑ์จาก Supply Chain Management ไปยัง Sales
 
-- **ชื่อของเท็มเพลตในการรวมข้อมูล:** ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) - ทางตรง
+- **ชื่อของเทมเพลตในการรวมข้อมูล:** ผลิตภัณฑ์ (Supply Chain Management ไปยัง Sales) - ทางตรง
 - **ชื่อของงานในโครงการการรวมข้อมูล:** ผลิตภัณฑ์
 
 ไม่มีงานในการซิงโครไนส์จำเป็นต้องใช้ ก่อนการซิงโครไนส์ผลิตภัณฑ์จะสามารถเกิดขึ้นได้
@@ -79,19 +77,19 @@ ms.locfileid: "5235004"
 
 > [!NOTE]
 > - การซิงโครไนส์ผลิตภัณฑ์จะไม่สำเร็จ เว้นแต่จะมีรายการราคาที่มีสกุลเงินที่ตรงกัน
-> - คุณสามารถควบคุมรายการราคาที่ใช้กับการรวม โดยการแม็ป pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] ได้ในโครงการรวมข้อมูล การป้อนข้อมูลต้องเป็นอักษรตัวพิมพ์เล็กทั้งหมด ตัวอย่างเช่น ค่าเริ่มต้นสำหรับราคาตลาดในการขายที่มีชื่อว่า 'มาตรฐาน' จะเป็น: ฟิลด์ปลายทาง: pricelevelid.name [Default Price List (Name)] and Map type: [ { "transformType": "Default", "defaultValue": "standard" } ]
+> - คุณสามารถควบคุมรายการราคาที่ใช้กับการรวม โดยการแมป pricelevelid.name [รายการราคาเริ่มต้น (ชื่อ)] ได้ในโครงการรวมข้อมูล การป้อนข้อมูลต้องเป็นอักษรตัวพิมพ์เล็กทั้งหมด ตัวอย่างเช่น ค่าเริ่มต้นสำหรับราคาตลาดในการขายที่มีชื่อว่า 'มาตรฐาน' จะเป็น: ฟิลด์ปลายทาง: pricelevelid.name [Default Price List (Name)] and Map type: [ { "transformType": "Default", "defaultValue": "standard" } ]
 
-## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแม็ป
+## <a name="preconditions-and-mapping-setup"></a>การตั้งค่าเงื่อนไขเบื้องต้นและการแมป
 
-- ก่อนที่คุณจะรันการซิงโครไนส์เป็นครั้งแรก คุณต้องเติมข้อมูลในตารางผลิตภัณฑ์เฉพาะสำหรับผลิตภัณฑ์ที่มีอยู่ใน Supply Chain Management จะไม่มีการซิงโครไนส์ผลิตภัณฑ์ที่มีอยู่จนกว่างานนี้เสร็จสมบูรณ์
+- ก่อนที่คุณจะเรียกใช้การซิงโครไนส์เป็นครั้งแรก คุณต้องเติมข้อมูลในตารางผลิตภัณฑ์เฉพาะสำหรับผลิตภัณฑ์ที่มีอยู่ใน Supply Chain Management จะไม่มีการซิงโครไนส์ผลิตภัณฑ์ที่มีอยู่จนกว่างานนี้เสร็จสมบูรณ์
 
     1. ใน Supply Chain Management ให้ใช้ค้นหาเพื่อค้นหา **เติมข้อมูลตารางผลิตภัณฑ์เฉพาะ**
-    2. เลือก **เติมข้อมูลตารางผลิตภัณฑ์เฉพาะ** เพื่อรันงาน งานนี้ต้องรันเพียงครั้งเดียว
+    2. เลือก **เติมข้อมูลตารางผลิตภัณฑ์เฉพาะ** เพื่อเรียกใช้งาน งานนี้ต้องเรียกใช้เพียงครั้งเดียว
 
-- ตรวจสอบให้แน่ใจว่ามีแผนผังค่าที่จำเป็นสำหรับการขายหน่วยวัด (UOM) ระหว่าง Supply Chain Management และ Sales มีอยู่ในการแม็ปของ **SalesUnitSymbol** ไปยัง **DefaultUnit (Name)**
-- อัพเดตแผนผังค่าสำหรับ **กลุ่มหน่วย** (**defaultuomscheduleid.name**) เพื่อให้ตรงกับ **กลุ่มหน่วย** ใน Sales
+- ตรวจสอบให้แน่ใจว่ามีแผนผังค่าที่จำเป็นสำหรับการขายหน่วยวัด (UOM) ระหว่าง Supply Chain Management และ Sales มีอยู่ในการแมปของ **SalesUnitSymbol** ไปยัง **DefaultUnit (Name)**
+- อัปเดตแผนผังค่าสำหรับ **กลุ่มหน่วย** (**defaultuomscheduleid.name**) เพื่อให้ตรงกับ **กลุ่มหน่วย** ใน Sales
 
-    ค่าเท็มเพลตเริ่มต้นคือ **หน่วยเริ่มต้น**
+    ค่าเทมเพลตเริ่มต้นคือ **หน่วยเริ่มต้น**
 
 - ตรวจสอบให้แน่ใจว่า UOM ในการขายสำหรับผลิตภัณฑ์ทั้งหมดจาก Supply Chain Management มีอยู่ใน Sales
 - ตรวจสอบให้แน่ใจว่า รายการราคามีอยู่ใน Sales สำหรับสกุลเงินขายของผลิตภัณฑ์แต่ละสกุลใน Supply Chain Management
@@ -99,19 +97,19 @@ ms.locfileid: "5235004"
 
     ผลิตภัณฑ์ที่มีสถานะ **ร่าง** เมื่อมีการสร้าง ต้องถูกเรียกใช้งงานก่อน จึงจะสามารถถูกเพิ่มไปยังใบเสนอราคาหรือใบสั่งขายได้
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปเท็มเพลตในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปเทมเพลตในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปเท็มเพลตในการรวมข้อมูล 
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปเทมเพลตในการรวมข้อมูล 
 
 > [!NOTE]
-> การแม็ปจะช่วยแสดงให้เห็นว่า ข้อมูลฟิลด์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
+> การแมปจะช่วยแสดงให้เห็นว่า ข้อมูลฟิลด์ใดที่จะถูกซิงโครไนส์จาก Sales ไปยัง Supply Chain Management
 
-![การแม็ปเท็มเพลตในตัวรวมข้อมูล](./media/products-direct-template-mapping-data-integrator-1.png)
+![การแมปเทมเพลตในตัวรวมข้อมูล](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
 
-[ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด](prospect-to-cash.md)
+[ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](prospect-to-cash.md)
 
 [ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management](accounts-template-mapping-direct.md)
 
