@@ -1,28 +1,32 @@
-- name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+- name: การพัฒนาและการดูแลระบบสำหรับแอปการเงินและการดำเนินงาน
   items:
-    - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+    - name: การพัฒนาและการดูแลระบบสำหรับแอปการเงินและการดำเนินงาน
       items:
-        - name: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
+        - name: คู่มือแอปพลิเคชันการเงินและการดำเนินงาน
           href: ../fin-ops/index.md
-        - name: การพัฒนาและการจัดการสำหรับแอป Finance and Operations
+        - name: การพัฒนาและการดูแลระบบสำหรับแอปการเงินและการดำเนินงาน
           href: index.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
           items:
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Finance and Operations
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอปการเงินและการดำเนินงาน
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
-                - name: Platform update สำหรับรุ่น 10.0.20 (สิงหาคม 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform update สำหรับ 10.0.19 (มิถุนายน 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.26 (พฤษภาคม 2022)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.25 (เมษายน 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.23 (มกราคม 2022)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-                - name: คุณลักษณะของ Platform ที่เอาออกหรือไม่สนับสนุน
+                - name: คุณลักษณะของแพลตฟอร์มที่เอาออกหรือไม่สนับสนุน
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนในรุ่นก่อนหน้า
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -30,42 +34,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: การสิ้นสุดการสนับสนุนหลักตามปกติสำหรับ Microsoft Dynamics AX 2009 และ 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: เหตุการณ์ทางธุรกิจ
-          items:
-            - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
-              href: business-events/home-page.md
-            - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
-              href: business-events/app-business-events.md
-            - name: เหตุการณ์ทางธุรกิจของลำดับงาน
-              href: business-events/business-events-workflow.md
-            - name: เหตุการณ์ทางธุรกิจของชุดงาน
-              href: business-events/system-business-events.md
-            - name: การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ
-              href: business-events/alerts-business-events.md
-            - name: เหตุการณ์ทางธุรกิจใน Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: เอกสารประกอบสำหรับนักพัฒนาเหตุการณ์ทางธุรกิจ
-              href: business-events/business-events-dev-doc.md
-            - name: แก้ไขปัญหาเหตุการณ์ทางธุรกิจ
-              href: business-events/troubleshooting.md
-            - name: ใช้กรณีสำหรับเหตุการณ์ทางธุรกิจ
-              href: business-events/potential-use-cases.md
-            - name: บทช่วยสอน
-              items:
-                - name: เหตุการณ์ทางธุรกิจและ Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: ตารางเหตุการณ์ทางธุรกิจและกริดเหตุการณ์ Azure
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
-                  href: business-events/how-to/how-to-workflow.md
-                - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: เหตุการณ์ทางธุรกิจและฮับเหตุการณ์ Azure
-                  href: business-events/how-to/event-hub.md
-                - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
-                  href: business-events/how-to/period-close.md
         - name: การจัดส่งแบบต่อเนื่อง
           items:
             - name: โฮมเพจการจัดส่งแบบต่อเนื่อง
@@ -82,7 +50,7 @@
               href: dev-tools/version-models-build.md
         - name: การรวมข้อมูล
           items:
-            - name: การรวมระหว่างแอป Finance and Operations และบริการของบุคคลที่สาม
+            - name: การรวมระหว่างแอปการเงินและการดำเนินงาน และบริการของบุคคลที่สาม
               href: data-entities/integration-overview.md
             - name: การควบคุมปริมาณตามระดับความสำคัญ
               hreF: data-entities/priority-based-throttling.md
@@ -120,9 +88,9 @@
                       href: data-entities/develop-composite-data-entities.md
                     - name: ตั้งค่าคอนฟิกการใช้ข้อมูลทางการเงินร่วมกันข้ามบริษัท
                       href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-                    - name: สร้างเท็มเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
+                    - name: สร้างเทมเพลตเรกคอร์ดเพื่อช่วยในการป้อนข้อมูล
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-                    - name: สร้างเรกคอร์ดโดยใช้เท็มเพลตเรกคอร์ด
+                    - name: สร้างเรกคอร์ดโดยใช้เทมเพลตเรกคอร์ด
                       href: data-entities/tasks/use-record-template-new-record.md
                 - name: ตัวรวมข้อมูล
                   items:
@@ -130,7 +98,7 @@
                       items:
                         - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales ไปยังลูกค้าใน Finance and Operations
+                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                         - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -140,7 +108,7 @@
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้การขายโดยตรงจาก Finance and Operations ไปยัง Sales
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                       items:
@@ -162,7 +130,7 @@
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: ซิงโครไนส์ใบสั่งงานที่มีโครงการจาก Field Service ไปยัง Finance and Operations
+                        - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                       items:
@@ -202,13 +170,13 @@
                       href: data-entities/configuration-data-packages.md
                     - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
                       href: data-entities/configuration-data-packages.md
-                - name: เท็มเพลตข้อมูลการตั้งค่าคอนฟิก
+                - name: เทมเพลตข้อมูลการตั้งค่าคอนฟิก
                   href: data-entities/configuration-data-templates.md
                 - name: ติดตามการเปลี่ยนแปลงของเอนทิตี้
                   href: data-entities/entity-change-track.md
                 - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
                   href: data-entities/data-entities-report.md
-                - name: เท็มเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
+                - name: เทมเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
                   href: data-entities/excel-template-multiple.md
                 - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
                   href: data-entities/entity-change-track.md
@@ -224,7 +192,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: การนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: การเพิ่มประสิทธิภาพการย้ายข้อมูลสำหรับแอป Finance and Operations
+                - name: การเพิ่มประสิทธิภาพการย้ายข้อมูลแอปการเงินและการดำเนินงาน
                   href: sysadmin/optimize-data-migration.md
             - name: การพัฒนาเอนทิตี้ข้อมูล
               items:
@@ -246,7 +214,7 @@
                   href: data-entities/data-entity-wizard-rules.md
                 - name: คุณสมบัติของข้อมูลเมตา
                   href: data-entities/behavioral-properties-data-entities.md
-                - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แม็ป
+                - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แมป
                   href: data-entities/validations-defaults-unmapped-fields.md
                 - name: การรักษาความปลอดภัยและเอนทิตี้ข้อมูล
                   href: data-entities/security-data-entities.md
@@ -266,11 +234,11 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: ภาพรวมของ Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: ตั้งค่าคอนฟิกการส่งออกไปยัง Azure Data Lake
+            - name: ภาพรวมของการส่งออกไปยัง Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: ติดตั้ง Add-in ของการส่งออกไปยัง Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: แอป Finance and Operations ใน Azure Data Lake
+            - name: แอปการเงินและการดำเนินงาน ใน Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
               href: data-entities/entity-store-data-lake.md
@@ -330,8 +298,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: เรียกสถานะกิจกรรมการดำเนินงาน
                       href: database/api/v1/reference-get-status.md
-                    - name: เริ่มต้นและหยุดสภาพแวดล้อม
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: ข้อมูลสาธิต
           items:
             - name: ภาพรวมของข้อมูลสาธิต
@@ -366,8 +332,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: ความต่อเนื่องของธุรกิจและการกู้คืนจากความเสียหาย
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: ทำให้การเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
+                - name: ทำให้กระบวนการเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์
                   href: deployment/arm-onboarding.md
+                - name: ทำให้กระบวนการเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์สำหรับโครงการ LCS ของรัฐบาลสหรัฐอเมริกา
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute และ Finance and Operations
                   href: deployment/expressroute.md
                 - name: สถาปัตยกรรม Finance and Operations
@@ -392,13 +360,13 @@
                   items:
                     - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
                       href: deployment/on-premises-overview.md
-                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
                       href: deployment/plan-onprem-deployment.md
                     - name: ซอฟต์แวร์ที่รองรับ Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-compatibility.md
                     - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: การตรวจสอบความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
+                    - name: การรับรองความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/authentication-onprem.md
                 - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                   items:
@@ -406,7 +374,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 ถึง 40)
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 12 ถึง 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
@@ -440,12 +408,16 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
+                    - name: อัปเกรดอินสแตนซ์ SQL Server ของสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: เอเจนต์ภายในเครื่อง
                   items:
                     - name: ความเข้ากันได้ของ AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: สคริปต์ก่อนการปรับใช้และหลักการปรับใช้เอเจนต์ภายในเครื่อง
                       href: lifecycle-services/pre-post-scripts.md
+                    - name: การตั้งค่าคอนฟิกการปรับใช้สําหรับเอเจนต์ภายในเครื่อง
+                      href: deployment/onprem-localagent-options.md
                     - name: อัปเดตเอเจนต์ภายในเครื่อง
                       href: lifecycle-services/update-local-agent.md
                 - name: การแก้ไขปัญหา
@@ -462,6 +434,8 @@
                   href: deployment/install-deployable-package.md
                 - name: ถอนการติดตั้งแพคเกจ
                   href: deployment/uninstall-deployable-package.md
+                - name: เรียกใช้สคริปต์ X++ แบบกำหนดเองที่มีเวลาหยุดทำงานเป็นศูนย์
+                  href: deployment/run-custom-scripts.md
                 - name: แก้ไขปัญหาแอปพลิเคชันของแพคเกจ
                   href: deployment/deployable-package-troubleshooting.md
             - name: ปรับใช้วิธีใช้แบบกำหนดเอง
@@ -490,6 +464,16 @@
                   href: help/language-locale.md
                 - name: ขยาย เลือกกำหนด และทำงานร่วมกันในวิธีใช้
                   href: help/contributor-guide.md
+            - name: ข้อควรพิจารณาในการปรับใช้
+              items:
+                - name: ตัวเลือกการปรับใช้งานระบบคลาวด์สาธารณะและในเครื่องสำหรับ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance และ Supply Chain Management ใน Government Community Cloud (GCC) ของสหรัฐอเมริกา
+                  href: deployment/us-gcc-deployment.md
+                - name: แอป Finance และ Supply Chain Management ที่ดำเนินงานโดย 21Vianet ในจีน
+                  href: deployment/china-local-deployment.md
+                - name: แอปการเงินและการดำเนินงาน ในฝรั่งเศส
+                  href: deployment/france-local-deployment.md
         - name: พัฒนาและเลือกกำหนด
           items:
             - name: โฮมเพจการพัฒนาและเลือกกำหนด
@@ -532,6 +516,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: สร้างการเชื่อมต่อ Lifecycle Services (LCS) ใน Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: อัปเดตงานการรับรองความถูกต้องของเชื่อมต่อ LCS เป็น MSAL ใน Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: อัปเดต Azure Pipeline ที่โฮสต์สำหรับแพคเกจ NuGet ใหม่
                   href: dev-tools/pipeline-nuget-split.md
                 - name: อัปเดตไปป์ไลน์ดั้งเดิมใน Azure Pipelines
@@ -578,7 +564,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: แบบจำลองและแพคเกจ
                   href: dev-tools/models.md
-                - name: ชนิดโครงการ Finance and Operations
+                - name: ชนิดโครงการใน Finance and Operations
                   href: dev-tools/projects.md
                 - name: Add-in ของเครื่องมือสำหรับ Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -586,24 +572,24 @@
                   href: dev-tools/update-development-tools.md
             - name: ภาษาการสร้างโปรแกรม X++
               items:
-                - name: X++ และคุณสมบัติของดีบักเกอร์
-                  href: dev-tools/new-x-debugger-features.md
-                - name: ความต้องการของ Visual Studio 2017 สำหรับ X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: ดีบักโค้ด X++
-                  href: dev-tools/debug-xpp.md
-                - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
-                  href: dev-tools/event-handler-result-class.md
-                - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
-                  href: dev-tools/write-business-logic.md
-                - name: การเปลี่ยนแปลงใน X++ และคอมไพเลอร์ X++
-                  href: dev-tools/programming-language-support.md
-                - name: ผู้ให้บริการ LINQ สำหรับ C#
-                  href: dev-tools/linq-provider-c.md
-                - name: เขียนกฎแนวทางปฏิบัติ
-                  href: dev-tools/author-best-practice-rules.md
-                - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: การสนับสนุนภาษาของ X++
+                  items:
+                    - name: ความต้องการของ Visual Studio สำหรับ X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: ดีบักโค้ด X++
+                      href: dev-tools/debug-xpp.md
+                    - name: คลาส EventHandlerResult ในสถานการณ์คำขอหรือการตอบกลับ
+                      href: dev-tools/event-handler-result-class.md
+                    - name: เขียนตรรกะทางธุรกิจโดยใช้ซอร์สโค้ด C# และ X++
+                      href: dev-tools/write-business-logic.md
+                    - name: ผู้ให้บริการ LINQ สำหรับ C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: เขียนกฎแนวทางปฏิบัติ
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: คุณสมบัติของตัวสำรวจแอปพลิเคชัน
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: แอตทริบิวต์ SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: การอ้างอิงภาษาของ X++
                   items:
                     - name: ภาพรวมของการอ้างอิงภาษาของ X++
@@ -648,7 +634,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: ไลบรารี
                           href: dev-ref/xpp-library-objects.md
-                        - name: เหตุการณ์
+                        - name: เหตุการณ์และผู้รับมอบสิทธิ์
                           href: dev-ref/xpp-events.md
                     - name: การเลือกและการจัดการข้อมูล X++
                       items:
@@ -848,7 +834,7 @@
                       href: extensibility/breaking-changes.md
                     - name: เครื่องมือตรวจสอบความเข้ากันได้
                       href: extensibility/compatibility-checker-tool.md
-            - name: ผลการปฏิบัติงาน
+            - name: ประสิทธิภาพ
               items:
                 - name: ติดตามโดยใช้ Trace parser
                   href: perf-test/trace-trace-tutorial.md
@@ -874,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: การกรอง SysTest โดยใช้แอททริบิวต์ของคลาสและเมธอด
                   href: perf-test/systest-filtering.md
+                - name: แอททริบิวต์ SysTestRow สำหรับการทดสอบหลายค่า
+                  href: perf-test/systest-row.md
                 - name: ไลบรารีการทดสอบการยอมรับ
                   items:
                     - name: ทรัพยากรในไลบรารีการทดสอบการยอมรับ
@@ -902,6 +890,8 @@
               href: dev-tools/date-effectivity.md
             - name: การพัฒนาสำหรับผู้จัดจำหน่ายซอฟต์แวร์อิสระ
               items:
+                - name: โฮมเพจการพัฒนา ISV
+                  href: dev-tools/isv-dev-home-page.md
                 - name: เชื่อมโยงโมดูล X++ กับแพคเกจโดยใช้ ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: การให้สิทธิ์ใช้งาน ISV
@@ -940,6 +930,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS สำหรับคู่ค้า
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: เริ่มต้นและหยุดสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: ดึงข้อมูลข้อมูลเมตาของสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: ดึงข้อมูลประวัติสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: ดึงข้อมูลรหัสไปรษณีย์ใบรับรอง RSAT ของสภาพแวดล้อม
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: คู่มือผู้ใช้ Lifecycle Services
@@ -988,10 +988,14 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: ส่งคำขอการบริการไปยังทีมงานวิศวกรรมบริการของ Dynamics
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับกรอบการบำรุงรักษาตามแผน
+                - name: คำถามที่ถามบ่อยเกี่ยวกับช่วงเวลาการบำรุงรักษาตามแผน
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: การตรวจสอบและการวินิจฉัย
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: การตรวจสอบและการวินิจฉัยเครื่องมือ
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: ใช้ Azure Data Explorer เพื่อสืบค้นบันทึกข้อมูลดิบ
+                  href: lifecycle-services/azure-data-explorer.md
             - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
               href: lifecycle-services/restart-environment-services.md
             - name: รายงานความขัดข้องในการผลิต
@@ -1004,6 +1008,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: คู่มือการสอบถาม
               href: lifecycle-services/querycookbook.md
+            - name: การบอกรับเป็นสมาชิกและการลบข้อมูลที่หมดอายุ
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: ภาพรวมของ Dynamics 365 Translation Service
@@ -1014,10 +1020,16 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: ไฟล์หน่วยความจำคำแปล
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: ส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: การรวม Microsoft Power Platform
           items:
-            - name: การรวม Microsoft Power Platform กับ Finance and Operations
+            - name: ภาพรวม
               href: power-platform/overview.md
+            - name: การเปิดใช้งานการรวม Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: การรับรองความถูกต้องและการอนุญาต
+              href: power-platform/authentication-and-authorization.md
             - name: การรวมแบบสองทิศทาง
               items:
                 - name: โฮมเพจการรวมแบบสองทิศทาง
@@ -1034,32 +1046,40 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: ข้อควรพิจารณาสำหรับการซิงโครไนส์เริ่มแรก
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: ขีดจํากัดของการซิงโครไนส์แบบสด
+                      href: data-entities/dual-write/sync-limits.md
                     - name: การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                    - name: เปิดใช้งานการรวมแบบสองทิศทางสำหรับแอปการเงินและการดำเนินงานที่มีอยู่
                       items:
-                        - name: เปิดใช้งานการรวมแบบสองทิศทางสําหรับแอป Finance and Operations ที่มีอยู่
+                        - name: เปิดใช้งานการรวมแบบสองทิศทางสำหรับแอปการเงินและการดำเนินงานที่มีอยู่
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: ความต้องการของระบบและข้อกำหนดเบื้องต้น
                           href: data-entities/dual-write/requirements-and-prerequisites.md
                         - name: วิธีใช้วิซาร์ดการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: เปิดใช้งานแม็ปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
+                        - name: เปิดใช้งานแมปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางที่แยกต่างหาก
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/currrency-decimal-places.md
-                    - name: ตั้งค่าการแม็ปสำหรับฟิลด์สถานะของใบสั่งขาย
+                    - name: ตั้งค่าการแมปสำหรับฟิลด์สถานะของใบสั่งขาย
                       href: data-entities/dual-write/sales-status-map.md
                     - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
                       href: data-entities/dual-write/filtering-intercompany-orders.md
                 - name: การจัดการการรวมแบบสองทิศทาง
                   items:
-                    - name: ปรับแต่งการแม็ปเอนทิตี้และฟิลด์
+                    - name: ปรับแต่งการแมปเอนทิตี้และฟิลด์
                       href: data-entities/dual-write/customizing-mappings.md
-                    - name: การจัดการแม็ปเอนทิตี้หลายรายการ
+                    - name: คำแนะนำเกี่ยวกับวิธีการปรับแต่งสำหรับการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/custom-best-practices.md
+                    - name: การจัดการแมปเอนทิตี้หลายรายการ
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: แก้ไขนิติบุคคลหลังจากการตั้งค่าการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: หยุดการรวมแบบสองทิศทางชั่วคราวสำหรับการบํารุงรักษา
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: การจัดการข้อผิดพลาดและการแจ้งเตือน
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
@@ -1068,7 +1088,7 @@
                       href: data-entities/dual-write/user-specified-team-owner.md
                     - name: ยกเลิกการเชื่อมโยงและเชื่อมโยงสภาพแวดล้อมการรวมแบบสองทิศทาง
                       href: data-entities/dual-write/relink-environments.md
-                - name: การแม็ปแนวคิดระหว่างแอป
+                - name: การแมปแนวคิดระหว่างแอป
                   items:
                     - name: ข้อมูลหลักของลูกค้าแบบรวม
                       href: data-entities/dual-write/customer-mapping.md
@@ -1122,9 +1142,11 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: ดูข้อมูลฝ่าย
+                      href: data-entities/dual-write/view-party.md
                     - name: การรวมบันทึกย่อ
                       href: data-entities/dual-write/notes-integration.md
-                    - name: การอ้างอิงการแม็ป
+                    - name: การอ้างอิงการแมป
                       href: data-entities/dual-write/mapping-reference.md
                 - name: การสนับสนุนสำหรับการรวมแบบสองทิศทาง
                   items:
@@ -1134,22 +1156,26 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: การแก้ไขปัญหา
                       items:
-                        - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอป Finance and Operations และ Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: การแก้ไขปัญหาทั่วไป
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: แก้ไขปัญหาระหว่างการซิงโครไนส์เริ่มแรก
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอป Finance and Operations
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: แก้ไขปัญหาการซิงโครไนส์แบบสด
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: แก้ไขปัญหาการรวมแบบสองทิศทางในแอปการเงินและการดำเนินงาน
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: แก้ไขปัญหาสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: แก้ไขปัญหาที่เกี่ยวข้องกับการรับรู้โซลูชัน
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: แก้ไขปัญหาจากการอัปเกรดแอป Finance and Operations
+                        - name: แก้ไขปัญหาจากการอัปเกรดแอปการเงินและการดำเนินงาน
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: การแก้ไขปัญหาทั่วไป
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: ตรวจสอบการตั้งค่าคอนฟิกการรวมแบบสองทิศทางในแอปการเงินและการดำเนินงานกับ Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: รหัสข้อผิดพลาดเกี่ยวกับการตรวจสอบความสมบูรณ์ของแผนผังตาราง
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมแบบสองทิศทาง
                   href: data-entities/dual-write/dual-write-faq.md
             - name: เอนทิตี้เสมือน
@@ -1160,12 +1186,58 @@
                   href: power-platform/entity-modeling.md
                 - name: การจัดการวงจรการใช้งานของแอปพลิเคชัน
                   href: power-platform/application-lifecycle-management.md
-                - name: ข้อมูลอ้างอิงการดูแลระบบ Finance and Operations และ Dataverse
+                - name: ตั้งค่าคอนฟิกเอนทิตี้เสมือน Dataverse
                   href: power-platform/admin-reference.md
+                - name: เปิดใช้งานเอนทิตี้เสมือน Dataverse
+                  href: power-platform/enable-virtual-entities.md
                 - name: พอร์ทัล Power Apps ที่มี Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
                   href: power-platform/faq.md
+            - name: เหตุการณ์ทางธุรกิจ
+              items:
+                - name: ภาพรวมของเหตุการณ์ทางธุรกิจ
+                  href: business-events/home-page.md
+                - name: การจัดการปลายทางของเหตุการณ์ทางธุรกิจ
+                  href: business-events/managing-business-event-endpoints.md
+                - name: เหตุการณ์ทางธุรกิจของแอปพลิเคชัน
+                  href: business-events/app-business-events.md
+                - name: เหตุการณ์ทางธุรกิจของลำดับงาน
+                  href: business-events/business-events-workflow.md
+                - name: เหตุการณ์ทางธุรกิจของชุดงาน
+                  href: business-events/system-business-events.md
+                - name: การแจ้งเตือนเป็นเหตุการณ์ทางธุรกิจ
+                  href: business-events/alerts-business-events.md
+                - name: เหตุการณ์ข้อมูล
+                  href: business-events/data-events.md
+                - name: เหตุการณ์ทางธุรกิจใน Power Automate
+                  href: business-events/business-events-flow.md
+                - name: เอกสารประกอบสำหรับนักพัฒนาเหตุการณ์ทางธุรกิจ
+                  href: business-events/business-events-dev-doc.md
+                - name: แก้ไขปัญหาเหตุการณ์ทางธุรกิจ
+                  href: business-events/troubleshooting.md
+                - name: ใช้กรณีสำหรับเหตุการณ์ทางธุรกิจ
+                  href: business-events/potential-use-cases.md
+                - name: บทช่วยสอน
+                  items:
+                    - name: เหตุการณ์ทางธุรกิจและ Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: ตารางเหตุการณ์ทางธุรกิจและกริดเหตุการณ์ Azure
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: เหตุการณ์ทางธุรกิจและ Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: เหตุการณ์ทางธุรกิจและคิว Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: เหตุการณ์ทางธุรกิจและการอนุมัติลำดับงาน
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: เหตุการณ์ทางธุรกิจและ Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: เหตุการณ์ทางธุรกิจและ Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: สมัครใช้งานเหตุการณ์ใน Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: เหตุการณ์ทางธุรกิจในการปิดรอบระยะเวลาทางการเงิน
+                      href: business-events/how-to/period-close.md
             - name: Add-In
               items:
                 - name: ภาพรวมของ Add-In
@@ -1418,10 +1490,12 @@
               href: perf-test/rsat/rsat-tutorial.md
             - name: ตั้งค่าคอนฟิกผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ
               href: perf-test/rsat/rsat-configure-nonadmin.md
-            - name: แนวทางปฏิบัติ
+            - name: แนวทางปฏิบัติที่ดีที่สุด
               href: perf-test/rsat/rsat-best-practices.md
             - name: การทดสอบการวินิจฉัยข้อมูลโดยใช้ Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: รัน Regression Suite Automation Tool (RSAT) ที่มีการรันแบบขนาน
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: การแก้ไขปัญหา
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services
@@ -1460,15 +1534,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: การสนับสนุน
           items:
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+            - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: ขอรับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+            - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
               href: lifecycle-services/21vianet-support.md
-            - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอป Finance and Operations
+            - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอปการเงินและการดำเนินงาน
               href: lifecycle-services/support-experience.md
-            - name: จัดการประสบการณ์การสนับสนุนสำหรับแอป Finance and Operations
+            - name: จัดการประสบการณ์การสนับสนุนของสำหรับแอปการเงินและการดำเนินงาน
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: การสนับสนุนและการตรวจสอบการใช้งานจริง
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1496,7 +1570,7 @@
                   href: sysadmin/role-based-security.md
                 - name: สถาปัตยกรรมความปลอดภัย
                   href: sysadmin/security-architecture.md
-                - name: การเข้ารหัสในแอป Finance and Operations
+                - name: การเข้ารหัสในแอปการเงินและการดำเนินงาน
                   href: sysadmin/encryption.md
                 - name: ตั้งค่าการหมดเวลาเมื่อเซสชันไม่ทำงาน
                   href: sysadmin/session-idle-timeout.md
@@ -1538,10 +1612,12 @@
                   href: sysadmin/batch-server-overview.md
                 - name: สร้างชุดงาน
                   href: sysadmin/tasks/create-batch-job.md
-                - name: การเปิดใช้งานการลองใหม่โดยอัตโนมัติบนชุดงาน
+                - name: เปิดใช้งานการลองชุดงานใหม่
                   href: sysadmin/retryable-batch.md
                 - name: คัดลอกชุดงาน
                   href: sysadmin/copy-batch-job.md
+                - name: การกำหนดการชุดงานตามลำดับความสำคัญ
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: รอบระยะเวลาสำหรับชุดงานที่ใช้งานอยู่
                   href: sysadmin/activeperiod.md
                 - name: การสนับสนุนการปรับเวลาตามฤดูกาลสำหรับรอบระยะเวลาชุดงานที่ใช้งานอยู่
@@ -1556,6 +1632,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: ยกเลิกชุดงานที่กำลังดำเนินการ
                   href: sysadmin/batch-abort.md
+                - name: OData API ของชุดงาน
+                  href: sysadmin/batch-odata-api.md
             - name: ที่ปรึกษาการเพิ่มประสิทธิภาพ
               items:
                 - name: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
@@ -1578,7 +1656,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: การอัปเกรดจาก AX 2012
               items:
-                - name: การอัปเกรดจาก AX 2012 เป็น Finance and Operations
+                - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1590,8 +1668,6 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: การอัปเกรด AX 2012 - รายการตรวจสอบก่อนการอัปเกรดสำหรับการอัปเกรดข้อมูล
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: อัปเกรดจาก AX 2012 - การจำลองแบบธุรกรรม SQL
-                  href: database/replication-setup.md
                 - name: อัปเกรดจาก AX 2012 - การอัปเกรดข้อมูลในสภาพแวดล้อมแบบบริการตนเอง
                   href: migration-upgrade/data-upgrade-self-service.md
                 - name: การอัปเกรด AX 2012 - สภาพแวดล้อมในสถานที่
@@ -1612,8 +1688,6 @@
                   items:
                     - name: กำหนดตัวคั่นผังบัญชีไม่ซ้ำกัน
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: อัปเกรดสมุดรายวันใบสำคัญเดียวและการประเมินค่าใหม่ตามสกุลเงิน
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: แบบจำลองข้อมูลการจัดกำหนดการทรัพยากรของโครงการ
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: การเปลี่ยนแปลงระบบย่อยของลำดับงาน
@@ -1632,7 +1706,7 @@
                   href: migration-upgrade/install-dmt.md
                 - name: การย้าย AX 2009 - สร้างแผนที่
                   href: migration-upgrade/generate-maps.md
-                - name: การย้าย AX 2009 - สร้างเท็มเพลต
+                - name: การย้าย AX 2009 - สร้างเทมเพลต
                   href: migration-upgrade/create-package-templates-dmt.md
                 - name: การย้าย AX 2009 - สร้างกลุ่มการย้าย
                   href: migration-upgrade/create-definition.md
@@ -1646,7 +1720,7 @@
                   href: migration-upgrade/code-migration-home-page.md
                 - name: เตรียมการเพื่อย้ายโค้ด
                   href: migration-upgrade/prepare-migration.md
-                - name: ตั้งค่าคอนฟิกการแม็ป Azure DevOps
+                - name: ตั้งค่าคอนฟิกการแมป Azure DevOps
                   href: migration-upgrade/configure-vso-solution.md
                 - name: การแบ่งแบบจำลอง
                   href: dev-tools/model-split.md
