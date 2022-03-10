@@ -2,25 +2,22 @@
 title: สร้างบัญชีแยกประเภทการบัญชีต้นทุน
 description: บัญชีแยกประเภทการบัญชีต้นทุนแสดงถึงหน่วยการรายงานโดยรวม
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4422e4938445d74c869c24af36755afd75547702d4c80a1f5686aa090d49b3ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736932"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>สร้างบัญชีแยกประเภทการบัญชีต้นทุน
 
@@ -38,3 +35,6 @@ ms.locfileid: "4448341"
 8. ในฟิลด์มิติทางสถิติ ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง
 9. คลิก บันทึก
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

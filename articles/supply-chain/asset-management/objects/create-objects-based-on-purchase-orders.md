@@ -1,29 +1,26 @@
 ---
 title: สร้างสินทรัพย์ตามใบสั่งซื้อ
 description: หัวข้อนี้อธิบายวิธีที่คุณสามารถสร้างรายการของรายการสินทรัพย์ที่สามารถใช้เป็นพื้นฐานสำหรับการสร้างสินทรัพย์สำหรับงานบำรุงรักษาในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54c129d93e13e032cc5526a91c73d3363ed183db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754118"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>สร้างสินทรัพย์ตามใบสั่งซื้อ
 
@@ -70,3 +67,6 @@ ms.locfileid: "4438430"
 3. คุณสามารถตั้งค่างานนี้ให้รันเป็นชุดงาน ตัวอย่างเช่น วันละหนึ่งรายการ
 
 **ข้อควรระวัง:** ถ้าข้อมูลมีการเปลี่ยนแปลงในใบสั่งซื้อ *หลังจาก* คุณได้สร้างสินทรัพย์ตามสินค้าที่เกี่ยวข้องแล้ว การเปลี่ยนแปลงเหล่านั้นจะไม่มีผลในสินทรัพย์
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

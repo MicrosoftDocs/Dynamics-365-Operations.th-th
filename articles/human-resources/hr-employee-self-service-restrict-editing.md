@@ -1,29 +1,31 @@
 ---
 title: จํากัดการแก้ไขข้อมูลส่วนบุคคล
 description: จํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อใน Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5e3eeb66d4f32b1fea1a43fff9f5b09d87d1f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e10db35996d31dc6c40a4253a324139c346be8c9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018720"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070763"
 ---
 # <a name="restrict-editing-of-personal-information"></a>จํากัดการแก้ไขข้อมูลส่วนบุคคล
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
@@ -55,7 +57,7 @@ ms.locfileid: "6018720"
 
 หลังจากที่คุณได้จำกัดพนักงานจากการเพิ่มหรือแก้ไขรายละเอียดผู้ติดต่อแล้ว พนักงานสามารถดูข้อมูลได้ แต่ไม่สามารถเปลี่ยนแปลงได้
 
-ในตัวอย่างนี้ พนักงานที่ถูกจำกัดจากการแก้ไขรายละเอียดผู้ติดต่อ **ธุรกิจ** พนักงานยังคงสามารถดูข้อมูลในระบบบริการตนเองของพนักงาน:
+ในตัวอย่างนี้ พนักงานที่ถูกจำกัดจากการแก้ไขรายละเอียดผู้ติดต่อ **ธุรกิจ** พนักงานยังคงสามารถดูข้อมูลใน **ระบบบริการตนเองของพนักงาน**:
 
 ![ดูรายละเอียดผู้ติดต่อทางธุรกิจ](./media/hr-employee-self-service-restrict-view.png)
 

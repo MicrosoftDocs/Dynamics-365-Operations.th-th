@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 226e60d5e374f16d27185ebda512769d36650d24e90ae279d22761d54e238a64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744976"
 ---
 # <a name="create-a-withholding-tax-payment"></a>สร้างการชำระภาษี ณ ที่จ่าย
 

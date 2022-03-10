@@ -2,26 +2,23 @@
 title: ภาพรวมของการสร้างหน้า
 description: หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211308"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984632"
 ---
 # <a name="authoring-page-overview"></a>ภาพรวมของการสร้างหน้า
 
@@ -29,8 +26,6 @@ ms.locfileid: "5211308"
  [!include [banner](includes/banner.md)]
 
 หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
-
-## <a name="overview"></a>ภาพรวม
 
 เว็บไซต์สามารถสร้างขึ้นเพื่อสนับสนุนความต้องการทางธุรกิจแบบต่าง ๆ เว็บไซต์อาจเป็นตัวแทนของธุรกิจทั้งหมด เป็นช่องทางเดียวช่องทางหนึ่งของธุรกิจ หรือกำหนดกลุ่มเป้าหมายหรือเซ็กเมนต์ของกลุ่มเป้าหมายที่เฉพาะเจาะจงก็ได้ ตัวอย่างเช่น ผู้ผลิตเสื้อผ้าอาจมีเว็บไซต์ที่นำเสนอแบรนด์ทั้งหมดที่เป็นธุรกิจเจ้าของ ผู้ผลิตเสื้อผ้ารายเดียวกันนี้อาจมีเว็บไซต์แยกต่างหากสำหรับแต่ละแบรนด์ และมีชุดของเว็บไซต์ที่มีเน้นไปที่แฟชั่นหรูหรา แฟชั่นกลางแจ้ง และแฟชั่นสำหรับเด็กอีกด้วย
 

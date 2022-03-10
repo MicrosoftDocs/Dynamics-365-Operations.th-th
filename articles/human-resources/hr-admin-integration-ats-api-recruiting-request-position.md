@@ -2,28 +2,30 @@
 title: ตำแหน่งของคำขอสรรหาบุคลากร
 description: หัวข้อนี้อธิบายเอนทิตีตำแหน่งของคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01d73d390f72343c7498ccbb99838d38be45a19e
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 24ea00c13030d09fb9cda02950ac7b79bfe0d03d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126037"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065512"
 ---
 # <a name="recruiting-request-position"></a>ตำแหน่งของคำขอสรรหาบุคลากร
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายเอนทิตีตำแหน่งของคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
 
@@ -87,3 +89,6 @@ ms.locfileid: "5126037"
 [บทนํา API การรวมระบบการติดตามผู้สมัคร](hr-admin-integration-ats-api-introduction.md)<br>
 [ตัวอย่างการสอบถามเกี่ยวกับคำขอการสรรหาบุคลากร](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

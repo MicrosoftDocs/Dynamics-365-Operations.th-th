@@ -2,30 +2,28 @@
 title: ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 description: หัวข้อนี้แสดงวิธีการระบุกระบวนการที่ (การบรรจุ การจัดเก็บ หรือการบรรจุที่ซ้อนกัน) แต่ละมิติที่ระบุจะใช้
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPhysDimUOM
+ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078314"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580083"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 สินค้าบางรายการจะถูกบรรจุหรือจัดเก็บในลักษณะที่คุณอาจต้องใช้ในการติดตามมิติทางกายภาพที่แตกต่างกันในแต่ละกระบวนการที่แตกต่างกัน คุณลักษณะ *มิติของผลิตภัณฑ์บรรจุภัณฑ์* ช่วยให้คุณตั้งค่ามิติหนึ่งชนิดขึ้นไปให้กับผลิตภัณฑ์แต่ละรายการได้ แต่ละชนิดมิติจะมีชุดของการวัดทางกายภาพ (น้ำหนัก ความกว้าง ความลึก และความสูง) และกําหนดกระบวนการที่ใช้ค่าการวัดทางกายภาพดังกล่าว เมื่อเปิดใช้งานคุณลักษณะนี้ ระบบของคุณจะสนับสนุนชนิดของมิติต่อไปนี้:
 
@@ -133,3 +131,6 @@ ms.locfileid: "5078314"
 1. เปิดอุปกรณ์เคลื่อนที่ เข้าสู่ระบบคลังสินค้า 63 และไปที่ **สินค้าคงคลัง \> ปรับปรุงใน**
 1. ป้อน **Loc** = *SHORT-01* สร้างป้ายทะเบียนใหม่ด้วย **สินค้า** = *A0001* และ **ปริมาณ** = *1 ชิ้น*
 1. เลือก **ตกลง** คุณจะได้รับข้อผิดพลาด "ที่ตั้ง SHORT-01ล้มเหลว เนื่องจากสินค้า A0001 ไม่พอดีกับมิติที่ระบุของสถานที่" เนื่องจากมิติชนิด *การจัดเก็บ* ของผลิตภัณฑ์มีขนาดใหญ่กว่ามิติที่ระบุในโปรไฟล์สถานที่
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

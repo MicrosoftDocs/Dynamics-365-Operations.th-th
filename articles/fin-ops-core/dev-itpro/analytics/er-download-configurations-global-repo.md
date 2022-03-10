@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3a232cd319970e572580bc11f2dbaccbe208f127
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753395"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605342"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการดาวน์โหลด [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#Configuration) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
+หัวข้อนี้จะอธิบายถึงวิธีการดาวน์โหลด [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#Configuration) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
 
 ## <a name="open-configurations-repository"></a>เปิดที่เก็บการตั้งค่าคอนฟิก
 
@@ -63,7 +63,7 @@ ms.locfileid: "5753395"
     > [!NOTE]
     > ปุ่ม **นำเข้า** ใช้งานไม่ได้กับเวอร์ชันการตั้งค่าคอนฟิก ER ที่อยู่ในอินสแตนซ์ Finance ปัจจุบันอยู่แล้ว
 
-    ![หน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-download-configurations-global-repo-repository-content.png)
+    ![หน้าที่เก็บการตั้งค่าคอนฟิก FastTab การตั้งค่าคอนฟิก](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>นำเข้าการตั้งค่าคอนฟิกที่มีการกรองข้อมูล
 
@@ -77,7 +77,7 @@ ms.locfileid: "5753395"
 4. บน FastTab **การตั้งค่าคอนฟิก** ให้เลือก **นำเข้า** เพื่อดึงข้อมูลการตั้งค่าคอนฟิกที่ถูกกรองจากที่เก็บส่วนกลางไปยังอินสแตนซ์ปัจจุบัน
 5. บน FastTab **การตั้งค่าคอนฟิก** ให้เลือก **รีเซ็ตตัวกรอง** เพื่อล้างเงื่อนไขการเลือกที่ระบุ
 
-    ![หน้าที่เก็บการตั้งค่าคอนฟิก](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![หน้าที่เก็บการตั้งค่าคอนฟิก FastTab เวอร์ชัน ปุ่มนําเข้า](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > โดยขึ้นอยู่กับการตั้งค่า ER การตั้งค่าคอนฟิกจะได้รับการตรวจสอบความถูกต้องหลังจากที่มีการนำเข้าแล้ว คุณอาจได้รับแจ้งเกี่ยวกับปัญหาความไม่สอดคล้องใด ๆ ที่พบ ก่อนที่คุณจะสามารถใช้เวอร์ชันการตั้งค่าคอนฟิกที่นำเข้าได้ คุณจะต้องแก้ไขปัญหา สำหรับข้อมูลเพิ่มเติม ดูรายการของทรัพยากรที่เกี่ยวข้องสำหรับหัวข้อนี้

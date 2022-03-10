@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 45eeae751051b58e1c9e725eb4ed4b5240026e7f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f8e0ea7675ffc5cbada36207422b410234e33afcaec90636e90e573a90ac484
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715247"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>ข้อผิดพลาดในการซิงโครไนส์ใบสั่งที่เกี่ยวข้องกับบริการจ่ายเงินเริ่มต้น
 
@@ -33,9 +32,9 @@ ms.locfileid: "5801446"
 
 เมื่อคุณซิงค์ใบสั่งออนไลน์ คุณจะได้รับข้อความแสดงข้อผิดพลาดต่อไปนี้: "ต้องมีบริการจ่ายเงินเริ่มต้นเพื่อประมวลผลธุรกรรมบัตรเครดิต"
 
-![ขาดข้อผิดพลาดของบริการจ่ายเงินเริ่มต้น](media/default-payment-method-error.jpg)
+![ข้อผิดพลาดของบริการจ่ายเงินเริ่มต้นที่ขาดหายไป](media/default-payment-method-error.jpg)
 
-## <a name="resolution"></a>ความละเอียด
+## <a name="resolution"></a>การแก้ปัญหา
 
 ### <a name="confirm-or-set-the-default-payment-service-in-commerce-headquarters"></a>ยืนยันหรือตั้งค่าบริการจ่ายเงินเริ่มต้นในศูนย์ควบคุม Commerce
 
@@ -46,4 +45,4 @@ ms.locfileid: "5801446"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/credit-card-authorizations)
+[การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต](../../finance/accounts-receivable/credit-card-authorizations.md)

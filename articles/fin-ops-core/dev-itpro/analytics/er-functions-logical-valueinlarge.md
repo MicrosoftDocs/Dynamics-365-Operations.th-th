@@ -2,9 +2,7 @@
 title: ฟังก์ชัน VALUEINLARGE ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) VALUEINLARGE
 author: NickSelin
-manager: kfend
 ms.date: 08/17/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1e35c695d697e0d0f42baeaf568548273f9d205b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725271"
 ---
 # <a name="valueinlarge-er-function"></a>ฟังก์ชัน VALUEINLARGE ER
 

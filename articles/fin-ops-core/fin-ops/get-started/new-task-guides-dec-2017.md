@@ -2,11 +2,9 @@
 title: คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (ธันวาคม 2017)
 description: หัวข้อนี้แสดงรายการคู่มืองานใหม่หรือที่ปรับปรุงที่ถูกนำออกใช้ไปยัง Microsoft (ธันวาคม 2016 - ภาษาทั้งหมด) APQC Unified Library สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0829296d01e474437e8080db8b03d047e3a613fc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723066"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (ธันวาคม 2017)
 
@@ -368,3 +366,6 @@ ms.locfileid: "4695024"
 **ลบรายการ BPM แล้ว**
 
 - ย้ายงานคัมบังที่จัดกำหนด
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

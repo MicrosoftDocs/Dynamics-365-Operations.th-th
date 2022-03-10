@@ -1,12 +1,10 @@
 ---
 title: การสร้างใบสั่งบริการด้วยตนเอง
 description: คุณสามารถสร้างใบสั่งบริการด้วยตนเองได้โดยใช้ข้อตกลงการให้บริการ หรือโดยใช้แบบฟอร์ม **ใบสั่งบริการ**
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b600bc59119a6304fa043240a34051435f8691
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470964"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578859"
 ---
 # <a name="create-service-orders-manually"></a>การสร้างใบสั่งบริการด้วยตนเอง    
 

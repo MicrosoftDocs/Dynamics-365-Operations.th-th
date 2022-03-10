@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357399"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069943"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>บทนํา API การรวมระบบการติดตามผู้สมัคร
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -52,7 +55,7 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 
 ### <a name="option-sets"></a>ชุดตัวเลือก
 
-แบบจำลองข้อมูลสำหรับการรวม ATS API อธิบายไว้ในเอกสารนี้รวมถึงชุดตัวเลือกที่ระบุค่าที่ระบุหมายเลขที่สัมพันธ์กับคุณสมบัติเอนทิตี้ สำหรับรายละเอียดเกี่ยวกับชุดตัวเลือกใน Dataverse Web API ให้ดูที่ [ชุดตัวเลือกการสร้างและการอัพเดตโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets) ชุดตัวเลือกถูกกําหนดไว้ให้กับ Dataverse แต่ละสภาพแวดล้อม
+แบบจำลองข้อมูลสำหรับการรวม ATS API อธิบายไว้ในเอกสารนี้รวมถึงชุดตัวเลือกที่ระบุค่าที่ระบุหมายเลขที่สัมพันธ์กับคุณสมบัติเอนทิตี้ สำหรับรายละเอียดเกี่ยวกับชุดตัวเลือกใน Dataverse Web API ให้ดูที่ [ชุดตัวเลือกการสร้างและการอัปเดตโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets) ชุดตัวเลือกถูกกําหนดไว้ให้กับ Dataverse แต่ละสภาพแวดล้อม
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>ตารางเสมือนสำหรับทรัพยากรบุคคล Dataverse
 
@@ -135,6 +138,6 @@ API นี้จะสร้างขึ้นบน Microsoft Dataverse (ซึ
 [สรรหาผู้สมัครงาน](hr-personnel-recruit.md)<br>
 [Microsoft Dataverse คืออะไร](/powerapps/maker/data-platform/data-platform-intro)<br>
 [ใช้ Microsoft Dataverse Web API](/powerapps/developer/data-platform/webapi/overview)<br>
-[สร้างและอัพเดตชุดตัวเลือกโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[สร้างและอัปเดตชุดตัวเลือกโดยใช้ Web API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

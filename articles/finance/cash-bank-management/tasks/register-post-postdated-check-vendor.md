@@ -2,11 +2,9 @@
 title: ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
 description: 'คุณสามารถลงทะเบียนรายละเอียดเกี่ยวกับเช็คลงวันที่ล่วงหน้าก่อนที่จะออกเช็คให้กับผู้จัดจำหน่ายโดยการใช้ใบสำคัญสมุดรายวัน '
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9ca63923a18ce531493e390ec3883910fe25b0fb4d4dc61203285a33bee2714e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761313"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>ลงทะเบียนและลงรายการบัญชีเช็คลงวันที่ล่วงหน้าสำหรับผู้จัดจำหน่าย
 
@@ -55,3 +53,6 @@ ms.locfileid: "4985223"
 16. ปิดหน้า
 17. คลิกแท็บเช็คลงวันที่ล่วงหน้า
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

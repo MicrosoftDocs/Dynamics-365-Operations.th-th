@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: db58e3d1a6665d15ad2f3ac25612ecbf448a9c17
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 7e71ca2877effe671723be53e844e8401714038a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344207"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565220"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>อินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX)
 

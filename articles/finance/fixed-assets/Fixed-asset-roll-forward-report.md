@@ -1,29 +1,26 @@
 ---
 title: รายงานการกระทบยอดสินทรัพย์ถาวร
 description: หัวข้อนี้อธิบายวิธีการใช้รายงานการกระทบยอดสินทรัพย์ถาวร
-author: saraschi2
-manager: ''
+author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6793233367756b9e9d1cbfd4690b47efe49a8008
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448386"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883604"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>รายงานการกระทบยอดสินทรัพย์ถาวร
 
@@ -31,12 +28,12 @@ ms.locfileid: "4448386"
 
 รายงาน **โรลฟอร์เวิร์ดสินทรัพย์ถาวร** ให้ ในรูปแบบ Microsoft Excel ที่ง่ายต่อการอ่าน ข้อมูลสินทรัพย์ถาวรโดยละเอียดที่คุณต้องการสำหรับการปิดระยะเวลา ใบแจ้งยอดทางการเงิน และการรายงานภาษี รายงานรวมยอดดุลเริ่มต้นและยอดดุลสิ้นสุดสำหรับสินทรัพย์ถาวร รวมทั้งความเคลื่อนไหวของการประเมินค่าสำหรับรอบระยะเวลา และการซื้อสินทรัพย์ใหม่ และการตัดจำหน่ายใดๆ ที่เกิดขึ้นในระหว่างรอบระยะเวลา มีการรายงานข้อมูลสำหรับสินทรัพย์ถาวรแต่ละรายการ และยังมีการสรุปค่าสำหรับกลุ่มสินทรัพย์ถาวรและนิติบุคคลอีกด้วย
 
-รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
 
 - **KB 4041754:** การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ไม่สามารถดาวน์โหลดได้จาก LCS เนื่องจากไม่สามารถใช้ได้สำหรับเวอร์ชันปัจจุบัน หลังจากการใช้แพคเกจการปรับปรุงแพลตฟอร์ม
-- **KB 4056107:** การรายงานทางอิเล็กทรอนิกส์ (GER) การอัพเดตแบบสะสม 5
+- **KB 4056107:** การรายงานทางอิเล็กทรอนิกส์ (GER) การอัปเดตแบบสะสม 5
 - **KB 4056353:** รายงานใบแจ้งยอดและบันทึกสินทรัพย์ถาวรไม่ตรงกับความต้องการใน GAAP และ IFRS
 
 ตารางต่อไปนี้อธิบายถึงฟิลด์ที่มีอยู่ในรายงาน
@@ -67,3 +64,6 @@ ms.locfileid: "4448386"
 |           การตัดจำหน่าย: มูลค่าซาก            |                                                                                               มูลค่าซากสำหรับสมุดบัญชีสินทรัพย์ถาวรที่มีการตัดจำหน่าย – ธุรกรรมซาก                                                                                               |
 |           การตัดจำหน่าย: กำไร/ขาดทุน            |                                                                                 ค่ากำไรหรือขาดทุนที่มีการคำนวณเป็นส่วนหนึ่งของธุรกรรมการตัดจำหน่ายสำหรับสมุดบัญชีสินทรัพย์ถาวร                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

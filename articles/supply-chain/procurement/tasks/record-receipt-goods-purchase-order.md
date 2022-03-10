@@ -1,27 +1,24 @@
 ---
 title: บันทึกการรับสินค้าในใบสั่งซื้อ
 description: หัวข้อนี้แสดงวิธีการบันทึกการรับสินค้าโดยตรงในใบสั่งซื้อ
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ec37082ffa7816d1b07cadc595eec6e8373920a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4438911"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565343"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>บันทึกการรับสินค้าในใบสั่งซื้อ
 
@@ -49,3 +46,6 @@ ms.locfileid: "4438911"
 6. กำหนด **ปริมาณเป็น** '4' ที่นี่คุณจะสามารถระบุปริมาณที่จะได้รับสำหรับแต่ละบรรทัดในใบสั่งด้วยตนเอง  
 7. เลือก **ตกลง** ขณะนี้สินค้ามีการบันทึกเป็นได้รับตามใบสั่งส่งคืนสินค้าที่ซื้อ และมีการสร้างมุดรายวันใบรับสินค้าเป็นเอกสารเพื่อแสดงขั้นตอนนี้  คุณสามารถใช้การดำเนินการรับสินค้าเพื่อตรวจสอบสมุดรายวันที่สร้างด้วยใบสั่งซื้อ และดูรายการที่ได้รับและเวลาที่ได้รับ  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

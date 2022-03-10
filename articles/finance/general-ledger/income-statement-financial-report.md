@@ -2,11 +2,9 @@
 title: รายงานงทางการเงินใบแจ้งยอดรายได้
 description: บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fab0e9d5e550b1848c3483b3172836e258353ebb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 118c7207f6efc252c0265d6c8f7b949c0e178203bf8523585aa2bfc53a69a6a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746403"
 ---
 # <a name="income-statement-financial-report"></a>รายงานงทางการเงินใบแจ้งยอดรายได้
 
@@ -30,8 +28,7 @@ ms.locfileid: "5249082"
 
 บทความนี้อธิบายรายงานเริ่มต้นสำหรับงบดุล นอกจากนี้ยังอธิบายถึงบล็อคส่วนประกอบที่เกี่ยวข้องกับรายงานนี้ 
 
-<a name="default-income-statement-report"></a>รายงานใบแจ้งยอดรายได้เริ่มต้น
--------------------------------
+## <a name="default-income-statement-report"></a>รายงานใบแจ้งยอดรายได้เริ่มต้น
 
 | รายงานเริ่มต้น             | สิ่งที่ทำ                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -59,8 +56,7 @@ ms.locfileid: "5249082"
 
 
 
-<a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
---------
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
 [ภาพรวมของการรายงานทางการเงิน](financial-reporting-getting-started.md)
 

@@ -2,7 +2,7 @@
 title: ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 description: หัวข้อนี้แสดงรายการข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763445"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>ข้อกำหนดของการกำหนดฮาร์ดแวร์สำหรับสภาพแวดล้อมในองค์กร
 
@@ -132,9 +132,11 @@ ms.locfileid: "5748756"
 
 สำหรับการนำออกใช้ความพร้อมใช้งานทั่วไป สามารถปรับใช้โหนด SSRS ได้เพียงรายการเดียวเท่านั้น ตรวจสอบโหนด SSRS ของคุณขณะที่กำลังทดสอบและเพิ่มจำนวนของหลักที่พร้อมใช้งานสำหรับ SSRS หากจำเป็น ตรวจสอบให้แน่ใจว่าคุณได้กำหนดโหนดรองโหนดที่พร้อมใช้งานในโฮสต์เสมือนที่แตกต่างจาก SSRS VM ไว้ล่วงหน้าแล้ว นี่เป็นสิ่งสำคัญถ้ามีปัญหาเกี่ยวกับเครื่องเสมือนที่โฮสต์ SSRS หรือโฮสต์เสมือน ถ้าในกรณีนี้ จะต้องถูกแทนที่
 
+เริ่มต้นด้วยรุ่น 10.0.17 คุณสามารถกําหนดค่าโหนด SSRS เพิ่มเติมเพื่อให้ได้ความพร้อมใช้งานสูง สำหรับข้อมูลเพิ่มเติม ให้ดู [ตั้งค่าคอนฟิกความพร้อมใช้งานสูงของโหนด SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md)
+
 ## <a name="environment-orchestrator"></a>Orchestrator สภาพแวดล้อม
 
-บริการ Orchestrator คือบริการที่จัดการการปรับใช้ของคุณและการสื่อสารที่เกี่ยวข้องกับ LCS บริการนี้จะถูกปรับใช้เป็นบริการ Service Fabric หลักและต้องมี VM อย่างน้อยสามรายการ บริการนี้อยู่ร่วมกับบริการการประสานกันของ Service Fabric ควรปรับขนาดของสิ่งนี้เป็นจำนวนงานในศูนย์การผลิตสูงสุดของคลัสเตอร์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [วางแผนและจัดเตรียมการปรับใช้คลัสเตอร์ Service Fabric Standalone ของคุณ](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)
+บริการ Orchestrator คือบริการที่จัดการการปรับใช้ของคุณและการสื่อสารที่เกี่ยวข้องกับ LCS บริการนี้จะถูกปรับใช้เป็นบริการ Service Fabric หลักและต้องมี VM อย่างน้อยสามรายการ บริการนี้อยู่ร่วมกับบริการการประสานกันของ Service Fabric ควรปรับขนาดของสิ่งนี้เป็นจำนวนงานในศูนย์การผลิตสูงสุดของคลัสเตอร์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [วางแผนและจัดเตรียมการปรับใช้คลัสเตอร์ Service Fabric Standalone ของคุณ](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation)
 
 ## <a name="virtualization-and-oversubscription"></a>การจำลองเสมือนและการบอกรับเป็นสมาชิกที่มากเกินไป
 

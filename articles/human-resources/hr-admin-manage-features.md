@@ -1,37 +1,39 @@
 ---
-title: จัดการคุณลักษณะ
-description: เรียนรู้วิธีเปิดหรือปิดคุณลักษณะใหม่ใน Dynamics 365 Human Resources
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: จัดการคุณลักษณะใน Human Resources
+description: หัวข้อนี้จะอธิบายถึงคุณลักษณะของการจัดการคุณลักษณะและวิธีที่คุณสามารถใช้งาน
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420803"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069718"
 ---
-# <a name="manage-features"></a>จัดการคุณลักษณะ
+# <a name="manage-features-in-human-resources"></a>จัดการคุณลักษณะใน Human Resources
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 เนื่องจากเป็นส่วนหนึ่งของการเปิดตัวความสามารถใหม่สำหรับ Microsoft Dynamics 365 Human Resources เราต้องการให้ลูกค้าพบกับคุณลักษณะใหม่โดยเร็วที่สุด เรามีคุณลักษณะตัวอย่างซึ่งเกือบพร้อมสำหรับการใช้งานทั่วไปแล้ว และได้ผ่านการทดสอบอย่างครอบคลุมแล้ว เรากำลังมองหาความคิดเห็นและการตรวจสอบความถูกต้องของลูกค้าในขั้นตอนสุดท้าย ก่อนที่เราจะนำคุณลักษณะเหล่านี้ออกไปใช้งานสำหรับความพร้อมใช้งานทั่วไป
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่ในทรัพยากรบุคคล ดูที่ [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md) และ [Dynamics 365 and Power Platform แผนการวางจำหน่าย](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่ในทรัพยากรบุคคล ดูที่ [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md) และ [Dynamics 365 and Power Platform แผนการวางจำหน่าย](/dynamics365/release-plans/?panel=products1#pivot=products)
 
-พื้นที่ **การจัดการลักษณะการทำงาน** แสดงรายการของลักษณะการทำงานที่จัดส่งในแต่ละรุ่น ตามค่าเริ่มต้น คุณลักษณะใหม่จะถูกปิด คุณสามารถใช้พื้นที่ทำงานเพื่อเปิดและดูเอกสารประกอบได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)
+พื้นที่ **การจัดการลักษณะการทำงาน** แสดงรายการของลักษณะการทำงานที่จัดส่งในแต่ละรุ่น ตามค่าเริ่มต้น คุณลักษณะใหม่จะถูกปิด คุณสามารถใช้พื้นที่ทำงานเพื่อเปิดและดูเอกสารประกอบได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ลักษณะการทำงานใหม่ทั้งหมดยังคงอยู่ในการแสดงตัวอย่างอย่างน้อย 30 วัน และโดยปกติจะคงอยู่ 30-60 วัน ลักษณะการทำงานที่สำคัญโดยทั่วไปจะมีอยู่ในเดือนตุลาคมและเดือนเมษายนของแต่ละปีตามรอบระยะเวลาการแสดงตัวอย่าง ทันทีที่คุณเห็นความสามารถใหม่ในพื้นที่ทำงาน **การจัดการลักษณะการทำงาน** คุณสามารถเปิดใช้งานได้ ลักษณะการทำงานบางอย่างอาจเปิดใช้งานตามค่าเริ่มต้น
 
@@ -70,7 +72,7 @@ ms.locfileid: "4420803"
 - **นโยบายเกี่ยวกับสิทธิ์ในสวัสดิการ**
 - **เหตุการณ์สิทธิ์**
 
-คุณสามารถดูข้อมูลในแบบฟอร์มเหล่านี้ในโหมดอ่านอย่างเดียว ถ้าคุณต้องการแก้ไขข้อมูล คุณต้องปิดใช้งานการจัดการสวัสดิการก่อน (ใช้ได้กับสภาพแวดล้อม **Sandbox** เท่านั้น)
+คุณสามารถดูข้อมูลในหน้าเหล่านี้ในโหมดอ่านอย่างเดียว ถ้าคุณต้องการแก้ไขข้อมูล คุณต้องปิดใช้งานการจัดการสวัสดิการก่อน (ใช้ได้กับสภาพแวดล้อม **Sandbox** เท่านั้น)
 
 ## <a name="enable-or-disable-leave-and-absence"></a>เปิดใช้งานหรือปิดใช้งานการลางานและการขาดงาน
 
@@ -93,4 +95,6 @@ ms.locfileid: "4420803"
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 - [มีอะไรใหม่ในทรัพยากรบุคคล](hr-admin-whats-new.md)
-- [แผนการเผยแพร่ Dynamics 365 และ Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [แผนการเผยแพร่ Dynamics 365 และ Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

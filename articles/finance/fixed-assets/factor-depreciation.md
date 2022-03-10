@@ -1,12 +1,10 @@
 ---
 title: การคิดค่าเสื่อมราคาตามอัตรา
 description: บทความนี้แสดงภาพรวมของวิธีคิดค่าเสื่อมราคาตามอัตรา
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87cca8b3472f572cd1c4ba3d894269f7ba0f248a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241085"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674489"
 ---
 # <a name="factor-depreciation"></a>การคิดค่าเสื่อมราคาตามอัตรา
 
@@ -30,7 +28,7 @@ ms.locfileid: "5241085"
 
 บทความนี้แสดงภาพรวมของวิธีคิดค่าเสื่อมราคาตามอัตรา
 
-ตัวคูณคือเปอร์เซ็นต์ที่ใช้ในการคิดค่าเสื่อมราคาสินทรัพย์  เมื่อคุณตั้งค่าโพรไฟล์การคิดค่าเสื่อมราคาสินทรัพย์ถาวร และเลือก **ตัวคูณ** ในฟิลด์ **วิธีการ** ในหน้า **โพรไฟล์การคิดค่าเสื่อมราคา** คุณสามารถตั้งค่าการคิดค่าเสื่อมราคาแบบก้าวหน้า แบบถดถอย หรือแบบเส้นตรง:
+ตัวคูณคือเปอร์เซ็นต์ที่ใช้ในการคิดค่าเสื่อมราคาสินทรัพย์  เมื่อคุณตั้งค่าโพรไฟล์การคิดค่าเสื่อมราคาสินทรัพย์ถาวร และเลือก **ตัวคูณ** ในฟิลด์ **วิธีการ** ในหน้า **โพรไฟล์การคิดค่าเสื่อมราคา** คุณสามารถตั้งค่าการคิดค่าเสื่อมราคาแบบก้าวหน้า แบบถดถอย หรือแบบเส้นตรง
 
 -   ในการคิดค่าเสื่อมราคาแบบก้าวหน้า ยอดค่าเสื่อมราคาจะเพิ่มขึ้นในแต่ละรอบระยะเวลาการคิดค่าเสื่อมราคา
 -   ในการคิดค่าเสื่อมราคาแบบถดถอย ยอดค่าเสื่อมราคาในแต่ละรอบระยะเวลาจะลดลงตามเวลา

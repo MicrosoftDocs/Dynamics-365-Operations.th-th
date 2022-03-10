@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837956"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771550"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>ใช้พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
@@ -146,7 +146,7 @@ ms.locfileid: "5837956"
 
 1. ป้อนค่าตัวนับใหม่แล้วเลือก **เสร็จสิ้น**
 
-    ![ดูและอัพเดตตัวนับสินทรัพย์](media/am-mobile-06.png "ดูและอัพเดตตัวนับสินทรัพย์")
+    ![ดูและอัปเดตตัวนับสินทรัพย์](media/am-mobile-06.png "ดูและอัพเดตตัวนับสินทรัพย์")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>ลงทะเบียนปริมาณการใช้ในงานใบสั่งงาน
 
@@ -178,7 +178,7 @@ ms.locfileid: "5837956"
     1. ป้อน **ราคาต้นทุน** สำหรับการลงทะเบียนค่าใช้จ่าย
     1. เลือก **เสร็จสิ้น**
 
-    ![อัพเดตสมุดรายวันใบสั่งงาน](media/am-mobile-07.png "อัพเดตสมุดรายวันใบสั่งงาน")
+    ![อัปเดตสมุดรายวันใบสั่งงาน](media/am-mobile-07.png "อัพเดตสมุดรายวันใบสั่งงาน")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>อัพเดตสถานะของวงจรการใช้ในใบสั่งงาน
 

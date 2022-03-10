@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8026abd5c3e0f9b78e8c016731fd7785490bc945
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891113"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067465"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>เพิ่มประสิทธิภาพการสอบถามตารางเสมือน Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>ออก
 
@@ -48,16 +50,16 @@ ms.locfileid: "5891113"
 ตัวอย่างที่คุณอาจเห็นผลกระทบนี้อยู่ในการสอบถามเกี่ยวกับผู้ปฏิบัติงาน (**mshr_hcmworkerentity**) หรือเอนทิตีผู้ปฏิบัติงานพื้นฐาน (**mshr_hcmworkerbaseentity**) คุณอาจเห็นตัวรายการปัญหาประสิทธิภาพในสองสามวิธีต่อไปนี้:
 
 - **การดําเนินการสอบถามช้า**: การสอบถามกับตารางเสมือนอาจส่งคืนผลลัพธ์ที่คาดไว้ แต่ใช้เวลานานกว่าที่คาดไว้ในการดําเนินการการสอบถามให้เสร็จสมบูรณ์
-- **การหมดเวลาของการสอบถาม**: การสอบถามอาจหมดเวลาและส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียก Finance and Operations แต่ Finance and Operations ส่งคืนข้อผิดพลาดชนิด InternalServerError"
+- **การหมดเวลาของการสอบถาม**: การสอบถามอาจหมดเวลาและส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียกการเงินและการดำเนินงาน แต่การเงินและการดำเนินงานส่งคืนข้อผิดพลาดชนิด InternalServerError"
 - **ข้อผิดพลาดที่ไม่คาดคิด**: การสอบถามอาจส่งคืนชนิดข้อผิดพลาด 400 พร้อมด้วยข้อความต่อไปนี้: "เกิดข้อผิดพลาดที่ไม่คาดคิด"
 
   ![ชนิดข้อผิดพลาด 400 บน HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **การควบคุมปริมาณ**: การสอบถามอาจใช้ทรัพยากรเซิร์ฟเวอร์มากเกินไปและอยู่ภายใต้การควบคุมปริมาณ ในกรณีนี้ การสอบถามจะส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียก Finance and Operations แต่ Finance and Operations ส่งคืนข้อผิดพลาดชนิด 429" หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการควบคุมปริมาณในทรัพยากรบุคคล โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณ](./hr-admin-integration-throttling-faq.md)
+- **การควบคุมปริมาณ**: การสอบถามอาจใช้ทรัพยากรเซิร์ฟเวอร์มากเกินไปและอยู่ภายใต้การควบคุมปริมาณ ในกรณีนี้ การสอบถามจะส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียกการเงินและการดำเนินงาน แต่การเงินและการดำเนินงานส่งคืนข้อผิดพลาดชนิด 429" หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการควบคุมปริมาณในทรัพยากรบุคคล โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณ](./hr-admin-integration-throttling-faq.md)
 
   ![ชนิดข้อผิดพลาด 429 บน HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>ความละเอียด
+## <a name="resolution"></a>การแก้ปัญหา
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>การจํากัดจํานวนคอลัมน์ที่รวมอยู่ในการสอบถามข้อมูลของคุณ
 
@@ -121,7 +123,7 @@ OData-Version: 4.0
    > [!NOTE]
    > ถ้าคุณได้รับข้อผิดพลาดชนิด 429 จากการสอบถามก่อนที่จะอัปเดต คุณอาจต้องรอรอบระยะเวลาการลองส่งใหม่ก่อนที่จะรีเฟรชการสอบถามเพื่อให้การการสอบถามเสร็จสมบูรณ์อย่างต่อเนื่อง
 
-10. คลิก **ปิด & นำไปใช้** บน Ribbon การดำเนินการตัวแก้ไข Power Query
+10. คลิก **ปิดและนำไปใช้** บน Ribbon การดำเนินการตัวแก้ไข Power Query
 
 จากนั้นคุณสามารถเริ่มต้นสร้างรายงาน Power BI ของคุณโดยเทียบกับคอลัมน์ที่เลือกจากตารางเสมือนได้
 

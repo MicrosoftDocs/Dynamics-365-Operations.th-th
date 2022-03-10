@@ -2,9 +2,7 @@
 title: ฟังก์ชัน LOWER ER
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ LOWER (ER)
 author: NickSelin
-manager: kfend
 ms.date: 12/11/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e507a17f5125a3cba0d2434a1aaec0f04f0cd388
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 93ae095822cc6d0d568ae1225b1f940e6f75c1841ee9880272630f69ae8e2bd1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562794"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737493"
 ---
 # <a name="lower-er-function"></a>ฟังก์ชัน LOWER ER
 

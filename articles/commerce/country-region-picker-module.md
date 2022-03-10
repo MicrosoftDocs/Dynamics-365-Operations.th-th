@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472687"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109792"
 ---
 # <a name="countryregion-picker-module"></a>โมดูลตัวเลือกประเทศ/ภูมิภาค
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้ครอบคลุมโมดูลตัวเลือกประเทศ/ภูมิภาค และอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
@@ -64,7 +63,7 @@ ms.locfileid: "7472687"
 1. ในฟิลด์ **สตริงการแสดงผล** ให้ป้อนชื่อที่แสดง (ตัวอย่างเช่น **แคนาดา**)
 1. ไม่บังคับ: ในฟิลด์ **สตริงย่อยการแสดงผล** ให้ป้อนสตริงย่อยการแสดงผล (ตัวอย่างเช่น **ฝรั่งเศส** หรือ **fr-ca**)
 1. ไม่บังคับ: เลือกรูปภาพจากไลบรารีสื่อ
-1. ในฟิลด์ **URL ประทเศ** ให้ป้อน URL URL นี้ต้องตรงกับ URL ที่ปรากฏในหน้า **ช่องทาง** และแม็ปกับช่องทาง รวมถึงที่ตั้งที่สัมพันธ์กับประเทศหรือภูมิภาคนั้น
+1. ในฟิลด์ **URL ประทเศ** ให้ป้อน URL URL นี้ต้องตรงกับ URL ที่ปรากฏในหน้า **ช่องทาง** และแมปกับช่องทาง รวมถึงที่ตั้งที่สัมพันธ์กับประเทศหรือภูมิภาคนั้น
 1. เลือก **ตกลง**
 1. ทําขั้นตอนเหล่านี้ซ้ํากับ URL ประเทศอื่นๆ ที่คุณต้องการให้โมดูลตัวเลือกประเทศ/ภูมิภาคแสดง
 
@@ -75,5 +74,9 @@ ms.locfileid: "7472687"
 [ภาพรวมของไลบรารีโมดูล](starter-kit-overview.md)
 
 [โมดูลส่วนหัว](author-header-module.md)
+
+[โมดูลตัวเลือกไซต์](site-selector.md)
+
+[โมดูลการแสดงเส้นทาง](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,30 @@
 title: คำขอสรรหาบุคลากร
 description: หัวข้อนี้อธิบายเอนทิตีคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: a1f160d828c8fe5babb96d39afd911052767f67b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068595"
 ---
 # <a name="recruiting-request"></a>คำขอสรรหาบุคลากร
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 หัวข้อนี้อธิบายเอนทิตีคำขอสรรหาบุคลากรสำหรับ Dynamics 365 Human Resources
 
@@ -74,7 +76,7 @@ ms.locfileid: "5125436"
 
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **รหัสคำขอสรรหา**<br>mshr_recruitingrequestid<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของการร้องขอที่แสดงในแอพลิเคชัน HR ลำดับหมายเลข |
+| **รหัสคำขอสรรหา**<br>mshr_recruitingrequestid<br>*สตริง* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | รหัสเฉพาะที่ผู้ใช้สามารถอ่านได้ของการร้องขอที่แสดงในแอปพลิเคชัน HR ลำดับหมายเลข |
 | **รหัสเอนทิตีคำขอการสรรหาบุคลากร**<br>mshr_hcmrecruitingrequestentityid<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระบุถึงคำขอการสรรหาบุคลากรโดยเฉพาะ |
 | **รหัสพื้นที่ข้อมูล**<br>mshr_dataareaid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ<br> | ระบุนิติบุคคล (บริษัท) ของคำขอการสรรหาบุคลากร |
 | **ค่ารหัสพื้นที่ข้อมูล**<br>_mshr_dataareaid_id_value<br>*GUID*<br> | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: cdm_companyid ของเอนทิตี cdm_company | ค่า GUID ที่ระบบสร้างขึ้นซึ่งระบุนิติบุคคล (บริษัท) สำหรับคำขอการสรรหาบุคลากร |
@@ -98,7 +100,8 @@ ms.locfileid: "5125436"
 | **ค่ารหัสชนิดงาน**<br>_mshr_fk_jobtype_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmjobtypeentityid ของเอนทิตี mshr_hcmjobtypenentity | ตัวระบุเฉพาะที่สร้างโดยระบบของชนิดงานที่เชื่อมโยงกับงานสำหรับคำขอการสรรหาบุคลากรนี้ |
 | **สถานะยกเว้น**<br>mshr_exemptstatus<br>ชุดตัวเลือก *JobExemptStatus* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ | สถานะยกเว้น FLSA ตามชนิดงาน |
 | **วันที่เริ่มต้นโดยประมาณ**<br>mshr_estimatedstartdate<br>*วัน เดือน* | อ่าน/เขียน<br>จำเป็นต้องระบุ | วันที่ประเมินที่ผู้สมัครจะเริ่มต้นงาน |
-| **คำอธิบายภายนอก**<br>mshr_externaldescription<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | คำอธิบายงานที่/ตําแหน่งที่เชื่อมต่อกับผู้สมัคร | ขีดจำกัดต่ำสุดของค่าตอบแทน<br>mshr_compensationlowthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตล่างของระดับค่าตอบแทน |
+| **คำอธิบายภายนอก**<br>mshr_externaldescription<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | คำอธิบายงานที่/ตําแหน่งที่เชื่อมต่อกับผู้สมัคร | 
+| **ขีดจำกัดต่ำสุดของค่าตอบแทน**<br>mshr_compensationlowthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตล่างของระดับค่าตอบแทน |
 | **จุดควบคุมค่าตอบแทน**<br>mshr_compensationcontrolpoint<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | จุดควบคุมเกี่ยวกับระดับค่าตอบแทน |
 | **ขีดจำกัดสูงสุดของค่าตอบแทน**<br>mshr_compensationhighthreshold<br>*สองเท่า* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ขอบเขตบนของระดับค่าตอบแทน |
 | **ระดับค่าตอบแทน**<br>mshr_compensationlevelid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ระดับค่าตอบแทนของงาน งานสามารถตั้งค่าด้วยระดับค่าตอบแทนหลายระดับได้ แอททริบิวต์นี้จะบ่งชี้ระดับค่าตอบแทนของงานที่เลือกของคำขอนี้ |
@@ -108,3 +111,6 @@ ms.locfileid: "5125436"
 
 [บทนํา API การรวมระบบการติดตามผู้สมัคร](hr-admin-integration-ats-api-introduction.md)<br>
 [ตัวอย่างการสอบถามเกี่ยวกับคำขอการสรรหาบุคลากร](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

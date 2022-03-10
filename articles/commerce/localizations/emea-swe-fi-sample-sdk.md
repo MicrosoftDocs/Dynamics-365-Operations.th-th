@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944901"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077049"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>แนวทางการปรับใช้สำหรับตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
 
@@ -22,7 +22,7 @@ ms.locfileid: "7944901"
 
 หัวข้อนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดนจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกบนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน](emea-swe-fi-sample.md) 
 
-ตัวอย่างการรวมทางการเงินของสวีเดนเป็นส่วนหนึ่งของ Retail SDK สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง และใช้ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md) ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) สถานีฮาร์ดแวร์ และการขายหน้าร้าน (POS) เมื่อต้องการรันตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT สถานีฮาร์ดแวร์ และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในหัวข้อนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Azure DevOps โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
+ตัวอย่างการรวมทางการเงินของสวีเดนเป็นส่วนหนึ่งของ Retail SDK สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง และใช้ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md) ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) สถานีฮาร์ดแวร์ และการขายหน้าร้าน (POS) เมื่อต้องการเรียกใช้ตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT สถานีฮาร์ดแวร์ และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในหัวข้อนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Azure DevOps โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
 
 ## <a name="development-environment"></a>สภาพแวดล้อมการพัฒนา
 
@@ -91,7 +91,7 @@ ms.locfileid: "7944901"
 
 ### <a name="enable-modern-pos-extension-components"></a>เปิดใช้งานส่วนประกอบส่วนขยาย POS สมัยใหม่
 
-1. เปิดโซลูชัน **ModernPOS.sln** ภายใต้ **RetailSdk\\POS** และตรวจสอบให้แน่ใจว่าโซลูชันนั้นสามารถคอมไพล์ได้โดยไม่มีข้อผิดพลาด นอกจากนี้ ให้ตรวจสอบให้แน่ใจว่าคุณสามารถรัน POS สมัยใหม่จาก Visual Studio ได้โดยใช้คำสั่ง **Run**
+1. เปิดโซลูชัน **ModernPOS.sln** ภายใต้ **RetailSdk\\POS** และตรวจสอบให้แน่ใจว่าโซลูชันนั้นสามารถคอมไพล์ได้โดยไม่มีข้อผิดพลาด นอกจากนี้ ให้ตรวจสอบให้แน่ใจว่าคุณสามารถเรียกใช้ POS สมัยใหม่จาก Visual Studio ได้โดยใช้คำสั่ง **Run**
 
     > [!NOTE]
     > POS สมัยใหม่ต้องไม่กำหนดเอง คุณต้องเปิดใช้งานการควบคุมบัญชีผู้ใช้ (UAC) และคุณต้องถอนการติดตั้งอินสแตนซ์ของ POS สมัยใหม่ที่ติดตั้งไว้ก่อนหน้านี้ตามที่ต้องการ
@@ -193,7 +193,7 @@ ms.locfileid: "7944901"
 
 ส่วนขยาย CRT คือ **Runtime.Extensions.DocumentProvider.CleanCashSample**
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการออกแบบของโซลูชันการรวมทางการเงิน ดูที่ [ตัวอย่างกระบวนการลงทะเบียนทางการเงินและการรวมทางการเงินสำหรับอุปกรณ์ทางการเงิน](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการออกแบบของโซลูชันการรวมทางการเงิน ดูที่ [ตัวอย่างกระบวนการลงทะเบียนทางการเงินและการรวมทางการเงินสำหรับอุปกรณ์และบริการทางการเงิน](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)
 
 #### <a name="request-handler"></a>ตัวจัดการคำขอ
 
@@ -210,7 +210,7 @@ ms.locfileid: "7944901"
 
 ไฟล์การตั้งค่าคอนฟิก **DocumentProviderFiscalCleanCashSample** อยู่ในโฟลเดอร์ **การตั้งค่าคอนฟิก** ของโครงการขยาย วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
 
-- การแม็ปรหัส VAT
+- การแมปรหัส VAT
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
@@ -261,7 +261,7 @@ ms.locfileid: "7944901"
 
 ### <a name="migration-in-a-development-environment"></a>การย้ายในสภาพแวดล้อมการพัฒนา
 
-#### <a name="update-crt"></a>อัพเดต CRT
+#### <a name="update-crt"></a>อัปเดต CRT
 
 1. ค้นหาโครงการ **Runtime.Extensions.DocumentProvider.CleanCashSample** และสร้าง
 2. ในโฟลเดอร์ **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** ให้ค้นหาไฟล์แอสเซมบลี **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll**
@@ -386,7 +386,7 @@ ms.locfileid: "7944901"
 
 ### <a name="migration-in-a-production-environment"></a>การย้ายในสภาพแวดล้อมการทำงานจริง
 
-#### <a name="update-crt"></a>อัพเดต CRT
+#### <a name="update-crt"></a>อัปเดต CRT
 
 1. ลบส่วนขยาย CRT ก่อนหน้านี้ออกจากไฟล์การตั้งค่าคอนฟิก **CommerceRuntime.ext.config** และ **CommerceRuntime.MPOSOffline.Ext.config** ภายใต้โฟลเดอร์ **RetailSdk\\Assets**
 

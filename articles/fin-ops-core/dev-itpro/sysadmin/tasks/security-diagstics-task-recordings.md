@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745131"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2205ddc1b651ff851a4285b1ded17106600e6058c719fecf0b447ac8c87d43cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755627"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>ตั้งค่าพารามิเตอร์ TDS ในบัญชีเจ้าหนี้และบัญชีลูกหนี้
 
@@ -38,12 +38,12 @@ ms.locfileid: "6023628"
     - **พร้อมต์** – ผู้ใช้ได้รับข้อความที่แจ้งให้อัพเดตกลุ่ม TDS ในบรรทัดใบสั่ง
 4. เลือก **ตกลง**
 
-    [![กล่องโต้ตอบการอัพเดตบรรทัดใบสั่ง](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![กล่องโต้ตอบการอัปเดตบรรทัดใบสั่ง](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. ไปที่ **ภาษี \> การตั้งค่า \> พารามิเตอร์ \> พารามิเตอร์บัญชีเจ้าหนี้**
 6. บนแท็บ **ทั่วไป** บน FastTab **แบ่งตามข้อมูลการจัดส่ง** ให้ตั้งค่าตัวเลือก **ใบรับสินค้า** เป็น **ใช่** เพื่อลงรายการบัญชีและแบ่งใบรับสินค้าที่มีที่อยู่ที่จัดส่งและหมายเลขบัญชีภาษีที่แตกต่างกัน (TANs) ถ้าตั้งค่าตัวเลือกนี้เป็น **ไม่** คุณไม่สามารถลงรายการบัญชีบันทึกการจัดส่งในการซื้อที่มีที่อยู่ที่จัดส่งและ TAN ที่แตกต่างกันได้
 7. ตั้งค่าตัวเลือก **ใบแจ้งหนี้** เป็น **ใช่** เพื่อลงรายการบัญชีและแบ่งใบแจ้งหนี้การซื้อที่มีที่อยู่ที่จัดส่งและ TAN ที่แตกต่างกัน
 
-    [![FastTab แบ่งตามข้อมูลการจัดส่ง](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![แท็บด่วน แบ่งตามข้อมูลการจัดส่ง](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. ปิดหน้า

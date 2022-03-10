@@ -1,12 +1,10 @@
 ---
 title: คำนวณการคาดการณ์สินค้า
 description: หัวข้อนี้อธิบายวิธีการคำนวณการคาดการณ์สินค้าในการจัดการสินทรัพย์
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1cea3b6cfd42348285985122ae905f8ea9f3facb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5773149760ecb2a26f4916036fe36c9cc04f654039dee4eab9bfac86eb02e1fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713041"
 ---
 # <a name="calculate-item-forecast"></a>คำนวณการคาดการณ์สินค้า
 
@@ -58,7 +56,7 @@ ms.locfileid: "5260045"
 
 8. คลิกปุ่ม **เเสดงมิติ** ถ้าคุณต้องการดูผลิตภัณฑ์ การจัดเก็บ หรือมิติการติดตามที่เกี่ยวข้องกับสินค้า เลือกกล่องกาเครื่องหมายที่เกี่ยวข้อง เเละ คลิก **ตกลง**
 
-![รูปที่ 1](media/02-capacity-planning.png)
+![รูปที่ 1.](media/02-capacity-planning.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
-title: การตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
-description: 'คำแนะนำของงานนี้จะตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร '
-author: saraschi2
+title: ตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร
+description: กระบวนงานนี้แสดงวิธีการตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f02aa936b7d485dd8c76225b5c4de02a238f9352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813566"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883779"
 ---
-# <a name="set-up-fixed-asset-posting-profiles"></a>การตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร
+# <a name="set-up-fixed-asset-posting-profiles"></a>ตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร
 
 [!include [banner](../../includes/banner.md)]
 
-คำแนะนำของงานนี้จะตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร   ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF  ตัวอย่างที่ให้ในคำแนะนำในงานนี้คือโพรไฟล์การลงรายการบัญชีพื้นฐาน อย่างไรก็ตาม ต้องมีการสร้างการลงโพรไฟล์สำหรับแผนภูมิบัญชีที่เฉพาะเจาะจงและข้อกำหนดการรายงานทางการเงิน
+กระบวนงานนี้แสดงวิธีการตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร ตัวอย่างที่ให้ไว้ในหัวข้อคือโพรไฟล์การลงรายการบัญชีพื้นฐาน อย่างไรก็ตาม ต้องมีการสร้างการลงโพรไฟล์สำหรับแผนภูมิบัญชีที่เฉพาะเจาะจงและข้อกำหนดการรายงานทางการเงิน
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > การตั้งค่า > โพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร**
 2. คลิก **สร้าง**

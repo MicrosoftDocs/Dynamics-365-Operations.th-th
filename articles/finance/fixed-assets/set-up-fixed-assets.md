@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 572d104bbc7024da1ea4b219fd3f544f36a88ccddcf1aa5d18065e2e08b93bfa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754229"
 ---
 # <a name="set-up-fixed-assets"></a>ตั้งค่าสินทรัพย์ถาวร
 

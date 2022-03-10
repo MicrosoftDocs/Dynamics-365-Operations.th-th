@@ -1,27 +1,24 @@
 ---
 title: การตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
 description: 'กระบวนงานนี้จะแสดงวิธีการสร้างการหักค่าเสื่อมราคาพิเศษและเชื่อมโยงกับสมุดบัญชีสินทรัพย์ถาวร '
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91243a4cee44410a221902990d31a10f1805eb08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6bfa433c07a2acb37c8e73dfa5db7d1e1715cd1d
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448331"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883681"
 ---
 # <a name="set-up-bonus-depreciation"></a>การตั้งค่าการคิดค่าเสื่อมราคาพิเศษ
 
@@ -49,3 +46,6 @@ ms.locfileid: "4448331"
     * ค่าเริ่มต้นของเปอร์เซ็นต์หรือยอดเงินมาจากการตั้งค่าการหักค่าเสื่อมราคาพิเศษ  
 8. ในฟิลด์ระดับความสำคัญ ให้ป้อนตัวเลข
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

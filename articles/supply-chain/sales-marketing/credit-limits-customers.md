@@ -1,7 +1,7 @@
 ---
 title: วงเงินสินเชื่อสำหรับลูกค้า
 description: บทความนี้ให้ภาพรวมของวิธีการที่ข้อจำกัดเครดิตทำงานใน Dynamics 365 Supply Chain Management
-author: omulvad
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824929"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574316"
 ---
 # <a name="credit-limits-for-customers"></a>วงเงินสินเชื่อสำหรับลูกค้า
 
@@ -90,7 +90,7 @@ ms.locfileid: "5824929"
 
 **ข้อมูลเกี่ยวกับสินเชื่อคงเหลือของลูกค้าที่ใช้แล้วอยู่ที่ใด**
 
-ข้อมูลเกี่ยวกับยอดดุลและยอดเงินสินเชื่อคงเหลือของลูกค้าที่ถูกคำนวณและจัดเก็บไว้เมื่อคุณสร้างสแนปช็อตอายุหนี้ และแสดงในแบบฟอร์ม **การเรียกเก็บเงิน** ยอดเงินที่แสดงในแบบฟอร์ม **การเรียกเก็บเงิน** อาจไม่ได้รวมกิจกรรมธุรกรรมทั้งหมดจนกว่าจะมีการสร้างสแนปช็อตอายุหนี้ใหม่ สำหรับข้อมูลเพิ่มเติม ดู [การเรียกเก็บเงินและสินเชื่อในบัญชีลูกหนี้](https://technet.microsoft.com/library/hh209221.aspx)
+ข้อมูลเกี่ยวกับยอดดุลและยอดเงินสินเชื่อคงเหลือของลูกค้าที่ถูกคำนวณและจัดเก็บไว้เมื่อคุณสร้างสแนปช็อตอายุหนี้ และแสดงในแบบฟอร์ม **การเรียกเก็บเงิน** ยอดเงินที่แสดงในแบบฟอร์ม **การเรียกเก็บเงิน** อาจไม่ได้รวมกิจกรรมธุรกรรมทั้งหมดจนกว่าจะมีการสร้างสแนปช็อตอายุหนี้ใหม่ สำหรับข้อมูลเพิ่มเติม ดู [การเรียกเก็บเงินและสินเชื่อในบัญชีลูกหนี้](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable)
 
 ข้อมูลเกี่ยวกับยอดดุลและยอดเงินสินเชื่อคงเหลือของลูกค้าจะถูกคำนวณเมื่อมีการปรับปรุงใบสั่งขาย บันทึกการจัดส่ง และใบแจ้งหนี้ของลูกค้า โดยขึ้นอยู่กับเอกสารที่เลือก ถ้าจำนวนของเอกสารที่คุณกำลังทำงานอยู่อาจทำให้เกินวงเงินสินเชื่อ จะมีข้อความแสดงขึ้น
 

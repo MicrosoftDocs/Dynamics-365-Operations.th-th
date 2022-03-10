@@ -1,8 +1,8 @@
 ---
 title: จัดการนโยบายการซื้อและการขายการลางาน
 description: คุณสามารถเปิดใช้งานพนักงานเพื่อซื้อและขายการลางานใน Dynamics 365 Human Resources
-author: andreabichsel
-ms.date: 08/20/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2506c8d02f8794a3e46751bb0ca01b71aed1ff0c55fed2500a291f10331dce89
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1fe7ce7eafdec175e3395a6ac37b33cb2bb8dbda
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748068"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066686"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>จัดการนโยบายซื้อและขายวันลางาน
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

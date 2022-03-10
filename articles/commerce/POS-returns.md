@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715541"
 ---
 # <a name="create-returns-in-pos"></a>สร้างการส่งคืนใน POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 
@@ -97,6 +96,13 @@ ms.locfileid: "6129834"
 
 > [!NOTE]
 > เมื่อเปิดคุณลักษณะ **ประสบการณ์การประมวลผลการส่งคืนสินค้าแบบรวมใน POS** แล้ว ลักษณะการงานใหม่ที่เลือกได้ซึ่งสนับสนุนการตรวจสอบความถูกต้องของการส่งคืนผลิตภัณฑ์ที่กำหนดหมายเลขลำดับประจำสินค้าจะพร้อมใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู [ส่งคืนผลิตภัณฑ์ที่ควบคุมด้วยหมายเลขลำดับประจำสินค้าในการขายหน้าร้าน (POS)](POS-serial-returns.md)
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>เปิดใช้งานการคำนวณภาษีที่เหมาะสมสำหรับการส่งคืนพร้อมปริมาณบางส่วน
+
+คุณลักษณะนี้จะช่วยตรวจสอบว่าเมื่อมีการส่งคืนใบสั่งงานโดยใช้ใบแจ้งหนี้หลายใบ ภาษีจะมียอดเท่ากับยอดภาษีที่เรียกเก็บในครั้งแรก
+1.  ไปที่พื้นที่ทำงาน **การจัดการคุณลักษณะ** และค้นหา **เปิดใช้งานการคำนวณภาษีที่เหมาะสมสำหรับการส่งคืนพร้อมปริมาณบางส่วน**
+2.  เลือก **เปิดใช้งานการคำนวณภาษีที่เหมาะสมสำหรับการส่งคืนพร้อมปริมาณบางส่วน** จากนั้นคลิก **เปิดใช้งาน**
+
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
