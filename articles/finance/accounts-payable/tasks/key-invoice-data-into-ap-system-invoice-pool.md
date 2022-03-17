@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777275"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358300"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>ข้อมูลใบแจ้งหนี้ที่สำคัญในระบบบัญชีเจ้าหนี้โดยใช้กลุ่มใบแจ้งหนี้
 
@@ -58,7 +58,7 @@ ms.locfileid: "6777275"
 6. เลือก **เปลี่ยนมุมมอง**
 7. เลือก **มุมมองกริด**
 8. เลือก **ลงรายการบัญชี**
-9. ปิดแบบฟอร์ม
+9. ปิดหน้า
 10. ในบานหน้าต่างการนำทาง ไปที่ **โมดูล > บัญชีเจ้าหนี้ > ผู้จัดจำหน่าย > ผู้จัดจำหน่าย**
 11. เลือกผู้จัดจำหน่ายที่อยู่บนใบสั่งซื้อ  ตัวอย่างเช่น เลือกผู้จัดจำหน่าย **1001**
 12. ในบานหน้าต่างการดำเนินการ เลือก **ผู้จัดจำหน่าย**

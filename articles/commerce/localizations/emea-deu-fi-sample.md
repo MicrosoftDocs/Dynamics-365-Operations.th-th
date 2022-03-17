@@ -2,23 +2,24 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
 description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076873"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388170"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
 
@@ -131,7 +132,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="set-up-commerce-for-germany"></a>ตั้งค่า Commerce สำหรับเยอรมนี
 
-ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับเยอรมนี สำหรับข้อมูลการตั้งค่าเพิ่มเติม ให้ดูที่ [โฮมเพจ Commerce](../index.md)
+ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับเยอรมนี สำหรับข้อมูลการตั้งค่าเพิ่มเติม ดูที่ [โฮมเพจ Commerce](../index.md)
 
 เพื่อใช้ฟังก์ชันเฉพาะของเยอรมนี คุณต้องระบุการตั้งค่าต่อไปนี้
 
@@ -142,7 +143,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-vat-per-german-requirements"></a>การตั้งค่า VAT ต่อข้อกำหนดภาษาเยอรมัน
 
-คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ให้ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
+คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
 
 ในใบเสร็จการขาย คุณสามารถพิมพ์รหัสย่อของรหัสภาษีขาย (ตัวอย่างเช่น "A" หรือ "B") เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งาน ให้ตั้งค่าฟิลด์ **รหัสสำหรับการพิมพ์** บนหน้า **รหัสภาษีขาย**
 
@@ -396,14 +397,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+1. ติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงิน:
 
-    - ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
-    - เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่ง:
+    คุณสามารถติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงินบน [สถานีฮาร์ดแวร์](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) หรือ [เครื่องบันทึกเงินสด POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network)
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+
+        1. ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งโดยเรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. ติดตั้งส่วนขยาย POS:
+
+        1. เปิดโซลูชันตัวอย่างตัวเชื่อมต่อทางการเงิน POS ที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** และสร้าง
+        1. ในโฟลเดอร์ **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งโดยเรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
@@ -452,5 +467,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 #### <a name="configuration"></a>การกำหนดค่า
 
 ไฟล์การตั้งค่าคอนฟิกของตัวเชื่อมต่อทางการเงินอยู่ที่ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+
+### <a name="pos-fiscal-connector-extension-design"></a>การออกแบบส่วนขยายของตัวเชื่อมต่อทางการเงิน POS
+
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงิน POS คือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงินจาก POS โดยจะใช้โพรโทคอล HTTPS สำหรับการสื่อสาร
+
+#### <a name="fiscal-connector-factory"></a>แฟคทอรีตัวเชื่อมต่อทางการเงิน
+
+แฟกทอรีตัวเชื่อมต่อทางการเงินจะแมปชื่อตัวเชื่อมต่อกับการใช้งานตัวเชื่อมต่อทางการเงิน และอยู่ในไฟล์ **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** ชื่อตัวเชื่อมต่อควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+
+#### <a name="efr-fiscal-connector"></a>ตัวเชื่อมต่อทางการเงิน EFR
+
+ตัวเชื่อมต่อทางการเงิน EFR อยู่ในไฟล์ **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** โดยจะใช้อินเทอร์เฟส **IFiscalConnector** ที่รองรับคำขอต่อไปนี้
+
+- **FiscalRegisterSubmitDocumentClientRequest** – คำขอนี้จะส่งเอกสารไปยังบริการลงทะเบียนทางการเงินและส่งคืนการตอบสนองจากบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterIsReadyClientRequest** – คำขอนี้ใช้เพื่อตรวจสอบความสมบูรณ์ของบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterInitializeClientRequest** – คำขอนี้ใช้สำหรับการเริ่มต้นบริการลงทะเบียนทางการเงิน
+
+#### <a name="configuration"></a>โครงแบบ
+
+ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+
+- **ที่อยู่ปลายทาง** – URL ของบริการลงทะเบียนทางการเงิน
+- **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งตัวเชื่อมต่อจะรอการตอบสนองจากบริการลงทะเบียนทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

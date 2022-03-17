@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c37a91a00aa6b7896bfbf9b57567a25c30d8b35
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 55547e51dbb8bdc33bc729b10b0bded11e36bd9e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075135"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384400"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management
 
@@ -27,10 +27,11 @@ ms.locfileid: "8075135"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>การนำออกใช้ของ Dynamics 365 Supply Chain Management
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในแต่ละรุ่นของ Dynamics 365 Supply Chain Management ให้ดูที่หัวข้อต่อไปนี้
+เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในแต่ละรุ่นของ Dynamics 365 Supply Chain Management ดูที่หัวข้อต่อไปนี้
 
 | รุ่น | Build number | ความพร้อมใช้งานที่มีการอัปเดตอัตโนมัติ | เรียนรู้เพิ่มเติม |
 |---|---|---|---|
+| 10.0.26 | 10.0.1192 | พฤษภาคม 2022 | [พรีวิวของ Dynamics 365 Supply Chain Management 10.0.26](whats-new-scm-10-0-26.md) |
 | 10.0.25 | 10.0.1149 | 2022 เมษายน | [พรีวิวของ Dynamics 365 Supply Chain Management 10.0.25](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022 กุมภาพันธ์ | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | มกราคม 2022 | [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
@@ -54,7 +55,7 @@ ms.locfileid: "8075135"
 
 ## <a name="releases-before-november-2019"></a>การนำออกใช้ก่อนพฤศจิกายน 2019
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นก่อนพฤศจิกายน 2019 ให้ดูที่หัวข้อต่อไปนี้
+เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นก่อนพฤศจิกายน 2019 ดูที่หัวข้อต่อไปนี้
 
 | ปล่อย | รุ่น | Build number | ความพร้อมใช้งาน | เรียนรู้เพิ่มเติม |
 |---|---|---|---|---|

@@ -2,7 +2,7 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
 description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077101"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388247"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
 
@@ -68,7 +69,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 - ธุรกรรมที่เกี่ยวข้องกับการฝากเงินเข้าบัญชีลูกค้าหรือการฝากเงินตามใบสั่งของลูกค้าจะมีการลงทะเบียนในบริการลงทะเบียนทางการเงินเป็นธุรกรรมรายการเดียว และมีการทำเครื่องหมายด้วยแอททริบิวต์พิเศษ กลุ่ม VAT การฝากเงินมีการระบุในบรรทัดนี้
 - เมื่อสร้างใบสั่งของลูกค้าไฮบริด นั่นคือใบสั่งของลูกค้าที่มีผลิตภัณฑ์ที่สามารถดําเนินการของร้านค้าโดยลูกค้า รวมทั้งผลิตภัณฑ์ที่จะเบิกหรือจัดส่งในภายหลัง ธุรกรรมที่ลงทะเบียนในบริการลงทะเบียนทางการเงินจะมีรายการต่างๆ สำหรับผลิตภัณฑ์ที่ดำเนินการ รวมทั้งรายการสำหรับการฝากเงินตามใบสั่ง
 - การชำระเงินจากบัญชีลูกค้าด้วยบัตรของขวัญถือเป็นการชำระเงินแบบปกติ และทำเครื่องหมายด้วยแอททริบิวต์พิเศษเมื่อมีการลงทะเบียนธุรกรรมในบริการลงทะเบียนทางการเงิน
-- ยอดเงินการฝากเงินตามใบสั่งของลูกค้าที่ใช้กับการดําเนินงาน *เบิกสินค้า* ตามใบสั่งของลูกค้าจะถือเป็นการชำระเงินปกติ และทำเครื่องหมายด้วยแอททริบิวต์พิเศษเมื่อลงทะเบียนธุรกรรมในบริการลงทะเบียนทางการเงิน
+- ยอดเงินการฝากเงินตามใบสั่งของลูกค้าที่ใช้กับการดําเนินงาน เบิกสินค้า ตามใบสั่งของลูกค้าจะถือเป็นการชำระเงินปกติ และทำเครื่องหมายด้วยแอททริบิวต์พิเศษเมื่อลงทะเบียนธุรกรรมในบริการลงทะเบียนทางการเงิน
 
 ### <a name="offline-registration"></a>การลงทะเบียนออฟไลน์
 
@@ -80,7 +81,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="set-up-commerce-for-the-czech-republic"></a>ตั้งค่าการแปล Commerce สำหรับสาธารณรัฐเช็ก
 
-ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับสาธารณรัฐเช็ก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [โฮมเพจ Commerce](../index.md)
+ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับสาธารณรัฐเช็ก สำหรับข้อมูลเพิ่มเติม ดูที่ [โฮมเพจ Commerce](../index.md)
 
 เพื่อใช้ฟังก์ชันเฉพาะของสาธารณรัฐเช็ก คุณต้องระบุการตั้งค่าต่อไปนี้
 
@@ -92,7 +93,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 ### <a name="set-up-vat-per-czech-republic-requirements"></a>ตั้งค่า VAT ตามข้อกำหนดของสาธารณรัฐเช็ก
 
 
-คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ให้ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
+คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
 
 ### <a name="set-up-stores"></a>ตั้งค่าร้านค้า
 
@@ -291,14 +292,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+1. ติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงิน:
 
-    1. ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
-    1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่ง:
+    คุณสามารถติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงินบน [สถานีฮาร์ดแวร์](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) หรือ [เครื่องบันทึกเงินสด POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network)
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+
+        1. ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งโดยเรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. ติดตั้งส่วนขยาย POS:
+
+        1. เปิดโซลูชันตัวอย่างตัวเชื่อมต่อทางการเงิน POS ที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** และสร้าง
+        1. ในโฟลเดอร์ **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งโดยเรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
@@ -350,5 +365,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 #### <a name="configuration"></a>การกำหนดค่า
 
 ไฟล์การตั้งค่าคอนฟิกของตัวเชื่อมต่อทางการเงินอยู่ที่ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+
+### <a name="pos-fiscal-connector-extension-design"></a>การออกแบบส่วนขยายของตัวเชื่อมต่อทางการเงิน POS
+
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงิน POS คือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงินจาก POS โดยจะใช้โพรโทคอล HTTPS สำหรับการสื่อสาร
+
+#### <a name="fiscal-connector-factory"></a>แฟคทอรีตัวเชื่อมต่อทางการเงิน
+
+แฟกทอรีตัวเชื่อมต่อทางการเงินจะแมปชื่อตัวเชื่อมต่อกับการใช้งานตัวเชื่อมต่อทางการเงิน และอยู่ในไฟล์ **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** ชื่อตัวเชื่อมต่อควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+
+#### <a name="efr-fiscal-connector"></a>ตัวเชื่อมต่อทางการเงิน EFR
+
+ตัวเชื่อมต่อทางการเงิน EFR อยู่ในไฟล์ **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** โดยจะใช้อินเทอร์เฟส **IFiscalConnector** ที่รองรับคำขอต่อไปนี้
+
+- **FiscalRegisterSubmitDocumentClientRequest** – คำขอนี้จะส่งเอกสารไปยังบริการลงทะเบียนทางการเงินและส่งคืนการตอบสนองจากบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterIsReadyClientRequest** – คำขอนี้ใช้เพื่อตรวจสอบความสมบูรณ์ของบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterInitializeClientRequest** – คำขอนี้ใช้สำหรับการเริ่มต้นบริการลงทะเบียนทางการเงิน
+
+#### <a name="configuration"></a>โครงแบบ
+
+ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+
+- **ที่อยู่ปลายทาง** – URL ของบริการลงทะเบียนทางการเงิน
+- **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งตัวเชื่อมต่อจะรอการตอบสนองจากบริการลงทะเบียนทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

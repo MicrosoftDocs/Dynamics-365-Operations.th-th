@@ -2,23 +2,24 @@
 title: แนวทางการปรับใช้งานตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรีย (ดั้งเดิม)
 description: หัวข้อนี้แสดงแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับออสเตรียจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077126"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388426"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>แนวทางการปรับใช้งานตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรีย (ดั้งเดิม)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรียจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย](emea-aut-fi-sample.md) 
 
@@ -87,11 +88,15 @@ ms.locfileid: "8077126"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>เปิดใช้งานส่วนขยายสถานีฮาร์ดแวร์
+### <a name="enable-fiscal-connector-extensions"></a>เปิดใช้งานส่วนขยายของตัวเชื่อมต่อทางการเงิน
+
+คุณสามารถเปิดใช้งานส่วนขยายของตัวเชื่อมต่อทางการเงินบน [สถานีฮาร์ดแวร์](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) หรือ [เครื่องบันทึกเงินสด POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network)
+
+#### <a name="enable-hardware-station-extensions"></a>เปิดใช้งานส่วนขยายสถานีฮาร์ดแวร์
 
 ส่วนประกอบของส่วนขยายสถานีฮาร์ดแวร์จะรวมอยู่ในตัวอย่างสถานีฮาร์ดแวร์ เมื่อต้องการปฏิบัติตามขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์ ให้เปิดโซลูชัน **HardwareStationSamples.sln** ภายใต้ **RetailSdk\\SampleExtensions\\HardwareStation**
 
-#### <a name="efrsample-component"></a>ส่วนประกอบ EFRSample
+##### <a name="efrsample-component"></a>ส่วนประกอบ EFRSample
 
 1. ค้นหาโครงการ **HardwareStation.Extension.EFRSample** และสร้าง
 2. ในโฟลเดอร์ **Extension.EFRSample\\bin\\Debug** ค้นหาไฟล์แอสเซมบลีต่อไปนี้:
@@ -114,6 +119,30 @@ ms.locfileid: "8077126"
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>เปิดใช้งานส่วนขยาย POS
+
+ตัวอย่างส่วนขยาย POS อยู่ในโฟลเดอร์ **src\\FiscalIntegration\\PosFiscalConnectorSample** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
+
+เมื่อต้องการใช้ตัวอย่างส่วนขยาย POS ใน SDK ดั้งเดิม ให้ทำตามขั้นตอนเหล่านี้
+
+1. คัดลอกโฟลเดอร์ **Pos.Extension** ไปยังโฟลเดอร์ **ส่วนขยาย** POS ของ SDK ดั้งเดิม (ตัวอย่าง `C:\RetailSDK\src\POS\Extensions`)
+1. เปลี่ยนชื่อสําเนาของโฟลเดอร์ **Pos.Extension** เป็น **PosFiscalConnector**
+1. ลบโฟลเดอร์และไฟล์ต่อไปนี้ออกจากโฟลเดอร์ **PosFiscalConnector**:
+
+    - bin / ช่องเก็บ
+    - DataService
+    - devDependencies
+    - ไลบรารี
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. เปิดโซลูชัน **CloudPos.sln** หรือ **ModernPos.sln**
+1. ในโครงการ **Pos.Extensions** มีโฟลเดอร์ **PosFiscalConnector**
+1. เปิดไฟล์ **extensions.json** แล้วเพิ่มส่วนขยาย **PosFiscalConnector**
+1. สร้าง SDK
 
 ### <a name="enable-modern-pos-extension-components"></a>เปิดใช้งานส่วนประกอบส่วนขยาย POS สมัยใหม่
 
@@ -243,9 +272,7 @@ ms.locfileid: "8077126"
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
-วัตถุประสงค์ของส่วนขยายที่เป็นตัวเชื่อมต่อทางการเงินคือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงิน
-
-ส่วนขยายของสถานีฮาร์ดแวร์คือ **HardwareStation.Extension.EFRSample** ส่วนขยายนี้ใช้โปรโทคอล HTTP เพื่อส่งเอกสารที่ส่วนขยาย CRT สร้างขึ้นไปยังบริการลงทะเบียนทางการเงิน และยังจัดการการตอบสนองที่ได้รับจากบริการลงทะเบียนทางการเงินด้วย
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงินคือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงิน ส่วนขยายของสถานีฮาร์ดแวร์ชื่อ **HardwareStation.Extension.EFRSample** ส่วนขยายนี้ใช้โปรโทคอล HTTP หรือ HTTPS เพื่อส่งเอกสารที่ส่วนขยาย CRT สร้างขึ้นไปยังบริการลงทะเบียนทางการเงิน และยังจัดการการตอบสนองที่ได้รับจากบริการลงทะเบียนทางการเงินด้วย
 
 #### <a name="request-handler"></a>ตัวจัดการคำขอ
 
@@ -265,3 +292,26 @@ ms.locfileid: "8077126"
 
 - **ที่อยู่ปลายทาง** – URL ของบริการลงทะเบียนทางการเงิน
 - **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งพนักงานขับรถจะรอการตอบสนองจากบริการลงทะเบียนทางการเงิน
+
+### <a name="pos-fiscal-connector-extension-design"></a>การออกแบบส่วนขยายของตัวเชื่อมต่อทางการเงิน POS
+
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงิน POS คือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงินจาก POS โดยจะใช้โพรโทคอล HTTPS สำหรับการสื่อสาร
+
+#### <a name="fiscal-connector-factory"></a>แฟคทอรีตัวเชื่อมต่อทางการเงิน
+
+แฟกทอรีตัวเชื่อมต่อทางการเงินจะแมปชื่อตัวเชื่อมต่อกับการใช้งานตัวเชื่อมต่อทางการเงิน และอยู่ในไฟล์ **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** ชื่อตัวเชื่อมต่อควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+
+#### <a name="efr-fiscal-connector"></a>ตัวเชื่อมต่อทางการเงิน EFR
+
+ตัวเชื่อมต่อทางการเงิน EFR อยู่ในไฟล์ **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** โดยจะใช้อินเทอร์เฟส **IFiscalConnector** ที่รองรับคำขอต่อไปนี้
+
+- **FiscalRegisterSubmitDocumentClientRequest** – คำขอนี้จะส่งเอกสารไปยังบริการลงทะเบียนทางการเงินและส่งคืนการตอบสนองจากบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterIsReadyClientRequest** – คำขอนี้ใช้เพื่อตรวจสอบความสมบูรณ์ของบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterInitializeClientRequest** – คำขอนี้ใช้สำหรับการเริ่มต้นบริการลงทะเบียนทางการเงิน
+
+#### <a name="configuration"></a>โครงแบบ
+
+ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+
+- **ที่อยู่ปลายทาง** – URL ของบริการลงทะเบียนทางการเงิน
+- **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งตัวเชื่อมต่อจะรอการตอบสนองจากบริการลงทะเบียนทางการเงิน

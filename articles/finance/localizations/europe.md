@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982105"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367896"
 ---
 # <a name="europe-overview"></a>ภาพรวมของยุโรป
 
@@ -36,13 +36,13 @@ ms.locfileid: "7982105"
 - [แก้ไขหมายเลขใบแจ้งหนี้ในใบสั่งขายสำหรับยุโรปตะวันออก](emea-edit-invoice-id-sales-orders.md)
 - [ใบรับรองของรายการสำหรับ EU](emea-entry-certificates.md)
 - [การรายงานรายการขายใน EU](emea-eu-sales-list.md)
+  - [ตัวอย่างรายการขายทั่วไปใน EU](emea-eu-sales-list-example.md)
 - [การปรับปรุงอัตราแลกเปลี่ยน](emea-exchange-rate-adjustments.md)
 - [รูปแบบไฟล์สำหรับวิธีการชำระเงิน](emea-select-file-formats-for-the-method-of-payments.md)
 - [แนวทางด้านการเงิน (แบบใช้ทั่วโลก) เกี่ยวกับผลกระทบของ Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [การรวมบริการทางการเงิน (ESR)](emea-fiscal-service-integration.md)
 - [รายงานการตัดจำหน่ายสินทรัพย์ถาวรสำหรับเอสโตเนียและลิทัวเนีย](emea-credit-note-reverse-fixed-asset-sale.md)
 - [สร้างเอกสารการโอนย้ายสำหรับการโอนย้ายสินค้าคงคลังภายใน](tasks/transfer-document-internal-inventory-transfer.md)
-- [สร้างรายงานรายการขายของ EU](tasks/eur-00011-eu-sales-list-report.md)
 - ไฟล์ ISO20022
   - [นำเข้าไฟล์ ISO20022](emea-ISO20022-file-formats.md)
   - [นำเข้าการตั้งค่าคอนฟิกการหักบัญชีเงินฝากอัตโนมัติ ISO20022](tasks/import-iso20022-direct-debit-configuration.md)
@@ -62,7 +62,7 @@ ms.locfileid: "7982105"
 - [กำหนดเวลาสิ้นสุดการออกใบแจ้งหนี้](emea-invoice-issue-deadline.md)
 - [การประมวลผลใบแจ้งหนี้](emea-invoice-processing.md)
 - [ออกใบรับรองรายการของยุโรป](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [มาตรฐานที่สนับสนุนสำหรับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์](emea-oioubl-standards-electronic-invoicing.md)
+- [มาตรฐานที่สนับสนุนสำหรับการออกใบแจ้งหนี้อิเล็กทรอนิกส์](emea-oioubl-standards-electronic-invoicing.md)
 - [การสร้างใบแจ้งหนี้อิเล็กทรอนิกส์ที่บังคับ](emea-eur-forced-einvoices.md)
 - [การอ้างอิงใบแจ้งหนี้เดิม (ยุโรปตะวันออก)](tasks/ee-00004-original-invoice-reference.md)
 - [ค้นหาฝ่ายโดยใช้รหัส VAT](tasks/eur-00015-party-search-vat-id.md)
@@ -77,7 +77,6 @@ ms.locfileid: "7982105"
 - [ภาพรวมของการโอนย้ายเครดิต SEPA](../accounts-payable/sepa-credit-transfer.md)
 - [ภาพรวมการหักบัญชีเงินฝากอัตโนมัติ SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [การตั้งค่าค่าตอบแทนลูกค้าและผู้จัดจำหน่าย](emea-compensation-customer-vendor-transactions.md)
-- [ตั้งค่ารายงานรายการขายใน EU](tasks/eur-00011-eu-sales-list-reporting.md)
 - [ตั้งค่ารูปแบบการบันทึกการชำระเงินสำหรับใบแจ้งหนี้โครงการ](tasks/set-up-payment-slip-format-project-invoices.md)
 - [ตั้งค่าผู้ลงชื่อสำหรับฟอร์มการพิมพ์](emea-set-up-signers-for-printing-forms.md)
 - [การกลับรายการบัญชี](emea-storno.md)

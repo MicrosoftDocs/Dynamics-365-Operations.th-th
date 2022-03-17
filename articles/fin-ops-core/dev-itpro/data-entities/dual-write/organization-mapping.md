@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062097"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358375"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>ลำดับชั้นขององค์กรใน Dataverse
 
@@ -36,11 +36,11 @@ ms.locfileid: "8062097"
 
 ## <a name="templates"></a>เทมเพลต
 
-ข้อมูลผลิตภัณฑ์ ประกอบด้วยข้อมูลทั้งหมดที่เกี่ยวข้องกับผลิตภัณฑ์ และคำนิยามของผลิตภัณฑ์ เช่น มิติของผลิตภัณฑ์ หรือการติดตาม และมิติการจัดเก็บ ดังที่ตารางต่อไปนี้แสดง ชุดข้อมูลของแผนผังตารางถูกสร้างเพื่อซิงค์ผลิตภัณฑ์และข้อมูลที่เกี่ยวข้อง
+องค์กร คือ กลุ่มของบุคคลที่ทำงานร่วมกันเพื่อดำเนินกระบวนการทางธุรกิจหรือบรรลุเป้าหมาย  ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ คุณสามารถกำหนดชนิดต่อไปนี้ขององค์กรภายใน: นิติบุคคล หน่วยปฏิบัติการ และทีมงาน เมื่อตารางต่อไปนี้แสดง ชุดแผนผังตารางจะถูกสร้างขึ้นเพื่อซิงค์นิติบุคคล หน่วยปฏิบัติงาน ข้อมูลลำดับชั้นขององค์กรที่เกี่ยวข้อง
 
 แอปการเงินและการดำเนินงาน | แอปการมีส่วนร่วมของลูกค้า     | คำอธิบาย
 -----------------------|--------------------------------|---
-[นิติบุคคล](mapping-reference.md#102) | cdm_companies | มีการซิงโครไนส์ข้อมูลของนิติบุคคล (บริษัท) สองทิศทาง
+[นิติบุคคล](mapping-reference.md#102) | cdm_companies | 
 [นิติบุคคล](mapping-reference.md#142) | msdyn_internalorganizations |
 [หน่วยปฏิบัติงาน](mapping-reference.md#143) | msdyn_internalorganizations |
 [ลำดับชั้นขององค์กร - เผยแพร่](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | เทมเพลตนี้มีการซิงโครไนส์แบบทางเดียวสำหรับตารางที่เผยแพร่ของลำดับชั้นขององค์กร

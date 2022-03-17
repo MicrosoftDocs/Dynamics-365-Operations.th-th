@@ -2,7 +2,7 @@
 title: สร้างการส่งคืนใน POS
 description: หัวข้อนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปพลิเคชันการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715541"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349702"
 ---
 # <a name="create-returns-in-pos"></a>สร้างการส่งคืนใน POS
 
@@ -96,6 +96,13 @@ ms.locfileid: "6715541"
 
 > [!NOTE]
 > เมื่อเปิดคุณลักษณะ **ประสบการณ์การประมวลผลการส่งคืนสินค้าแบบรวมใน POS** แล้ว ลักษณะการงานใหม่ที่เลือกได้ซึ่งสนับสนุนการตรวจสอบความถูกต้องของการส่งคืนผลิตภัณฑ์ที่กำหนดหมายเลขลำดับประจำสินค้าจะพร้อมใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู [ส่งคืนผลิตภัณฑ์ที่ควบคุมด้วยหมายเลขลำดับประจำสินค้าในการขายหน้าร้าน (POS)](POS-serial-returns.md)
+
+## <a name="version-details"></a>รายละเอียดรุ่น
+
+รายการต่อไปนี้มีความต้องการรุ่นขั้นต่ำของส่วนประกอบต่างๆ
+- ศูนย์ควบคุม Commerce: รุ่น 10.0.20
+- Commerce Scale Unit (CSU): รุ่น 9.30
+- การขายหน้าร้าน (POS): รุ่น 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>เปิดใช้งานการคำนวณภาษีที่เหมาะสมสำหรับการส่งคืนพร้อมปริมาณบางส่วน
 

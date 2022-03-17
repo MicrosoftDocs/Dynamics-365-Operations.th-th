@@ -2,7 +2,7 @@
 title: แป้นพิมพ์ลัด
 description: หัวข้อนี้แสดงภาพรวมของชุดคีย์ลัดที่คุณสามารถใช้ได้เมื่อคุณทำงานกับแอปการเงินและการดำเนินงาน
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119563"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384574"
 ---
 # <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -198,6 +198,9 @@ ms.locfileid: "8119563"
 | ปิดรายการการนำทางในแบบฟอร์มรายละเอียด (ที่มีโฟกัสในรายการการนำทาง) | Esc                        |
 | ย้ายไปยังเนื้อหาหน้าหลัก (ขณะที่โฟกัสในบานหน้าต่างอื่น)                    | Alt+M,M                    |
 | ย้ายไปที่บานหน้าต่าง FactBox (ซึ่งอาจรวมถึงการเปิด)                       | Alt+M,B หรือ Ctrl+F2         |
+
+> [!NOTE]
+> คุณลักษณะ **ปรับปรุงลักษณะการทำงานของการกดแท็บในแบบฟอร์มเต็มหน้า** ที่นำมาใช้ในรุ่น 10.0.26 ช่วยให้ผู้ใช้สามารถกดแท็บผ่านทุกพื้นที่ของหน้าได้โดยไม่ต้องใช้เมาส์หรือแป้นพิมพ์ลัดเฉพาะเพื่อเลื่อนไปมาระหว่างพื้นที่ต่างๆ คุณยังสามารถใช้แป้นพิมพ์ลัดที่มีอยู่ (เช่น แป้นลัด Alt+M) เพื่อเลื่อนไประหว่างพื้นที่ต่างๆ บนหน้าได้อย่างรวดเร็ว
 
 ## <a name="personalization-shortcuts"></a>ทางลัด [การกำหนดเป็นแบบส่วนบุคคล](personalize-user-experience.md) 
 

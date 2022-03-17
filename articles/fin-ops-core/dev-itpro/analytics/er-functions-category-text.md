@@ -2,7 +2,7 @@
 title: รายการของฟังก์ชั่น ER ในประเภทข้อความ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันข้อความที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075511"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367778"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>รายการของฟังก์ชั่น ER ในประเภทข้อความ
 
@@ -51,7 +51,7 @@ ms.locfileid: "8075511"
 | [สิทธิ์](er-functions-text-right.md) | ฟังก์ชันนี้ส่งกลับค่า *สตริง* ที่แสดงจำนวนอักขระที่ระบุจากจุดสิ้นสุดของสตริงที่ระบุ |
 | [ข้อความ](er-functions-text-text.md) | ฟังก์ชันนี้ส่งคืนตัวเลขที่ระบุเป็นค่า *สตริง* หลังจากที่ได้ถูกแปลงเป็นข้อความแบบสตริงที่ถูกจัดรูปแบบตามการตั้งค่าตำแหน่งที่ตั้งของเซิร์ฟเวอร์ของอินสแตนซ์ของแอปพลิเคชันปัจจุบัน |
 | [แปล](er-functions-text-translate.md) | ฟังก์ชันนี้ส่งคืนค่า *สตริง* ที่มีผลลัพธ์ของการแทนที่อักขระของข้อความที่ระบุไว้สำหรับอักขระของชุดอักขระที่กำหนดไว้อีกชุดหนึ่ง |
-| [Trim](er-functions-text-trim.md) | ฟังก์ชันนี้ส่งคืนสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากช่องว่างนำหน้าและต่อท้ายถูกตัดออกแล้ว และหลังจากที่ได้ลบช่องว่างหลายช่องระหว่างคำ |
+| [Trim](er-functions-text-trim.md) | ฟังก์ชันนี้จะส่งคืนสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังแท็บ อักขระขึ้นบรรทัดใหม่ การป้อนบรรทัด และอัขระการป้อนแบบฟอร์มจะถูกแทนที่ด้วยอักขระช่องว่างเดียว หลังช่องว่างนำหน้าและช่องว่างต่อท้ายถูกตัดให้สั้นลง และหลังจากที่ลบช่องว่างหลายช่องระหว่างอักขระ |
 | [Upper](er-functions-text-upper.md) | ฟังก์ชันนี้ส่งกลับสตริงข้อความที่ระบุเป็นค่า *สตริง* หลังจากที่ถูกแปลงเป็นตัวพิมพ์ใหญ่ |
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม

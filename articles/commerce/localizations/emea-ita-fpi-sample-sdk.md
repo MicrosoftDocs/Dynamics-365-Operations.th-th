@@ -2,23 +2,24 @@
 title: แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)
 description: หัวข้อนี้แสดงแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลีจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076923"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388455"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 หัวข้อนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลีจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี](emea-ita-fpi-sample.md) 
 
@@ -89,13 +90,13 @@ ms.locfileid: "8076923"
 1. ปฏิบัติตามขั้นตอนที่อธิบายไว้ในส่วน [สภาพแวดล้อมการพัฒนา](#development-environment) อธิบายไว้ก่อนหน้านี้ในหัวข้อนี้
 2. ทำการเปลี่ยนแปลงต่อไปนี้ในไฟล์การตั้งค่าคอนฟิกแพคเกจภายใต้โฟลเดอร์ **RetailSdk\\Assets**:
 
-    - ในไฟล์การกำหนดค่า **commerceruntime.ext.config** และ **CommerceRuntime.MPOSOffline.Ext.config** ให้เพิ่มรายการต่อไปนี้ลงในส่วน **องค์ประกอบ**
+    1. ในไฟล์การกำหนดค่า **commerceruntime.ext.config** และ **CommerceRuntime.MPOSOffline.Ext.config** ให้เพิ่มรายการต่อไปนี้ลงในส่วน **องค์ประกอบ**
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - ในไฟล์การกำหนดค่า **HardwareStation.Extension.config** ให้เพิ่มรายการต่อไปนี้ในส่วน **องค์ประกอบ**
+    1. ในไฟล์การกำหนดค่า **HardwareStation.Extension.config** ให้เพิ่มรายการต่อไปนี้ในส่วน **องค์ประกอบ**
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ ms.locfileid: "8076923"
 
 3. การเปลี่ยนแปลงต่อไปนี้ในไฟล์การกำหนดค่าการกําหนดเองของแพคเกจ **Customization.settings** ภายใต้โฟลเดอร์ **BuildTools**:
 
-    - เพิ่มรายการต่อไปนี้เพื่อรวมส่วนขยาย CRT ในแพคเกจที่สามารถปรับใช้ได้
+    1. เพิ่มรายการต่อไปนี้เพื่อรวมส่วนขยาย CRT ในแพคเกจที่สามารถปรับใช้ได้
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - เพิ่มรายการต่อไปนี้เพื่อรวมส่วนขยายสถานีฮาร์ดแวร์ในแพคเกจที่สามารถปรับใช้ได้
+    1. เพิ่มรายการต่อไปนี้เพื่อรวมส่วนขยายสถานีฮาร์ดแวร์ในแพคเกจที่สามารถปรับใช้ได้
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. เริ่ม MSBuild Command Prompt สำหรับการใช้งาน Visual Studio และเรียกใช้ **msbuild** ภายใต้โฟลเดอร์ Retail SDK เพื่อสร้างแพคเกจที่สามารถปรับใช้ได้
-5. ใช้แพคเกจผ่าน LCS หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างแพคเกจที่สามารถปรับใช้ได้](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
+4. ทำการเปลี่ยนแปลงต่อไปนี้ในไฟล์ **Sdk.ModernPos.Shared.csproj** ภายใต้ **Packages\_SharedPackagingProjectComponents** เพื่อรวมไฟล์ทรัพยากรของอิตาลีในแพคเกจที่สามารถปรับใช้:
+
+    1. เพิ่มส่วน **ItemGroup** ที่มีโหนดที่ชี้ไปยังไฟล์ทรัพยากรในคำแปลที่ต้องการ ตรวจสอบให้แน่ใจว่าคุณระบุเนมสเปซและชื่อตัวอย่างที่ถูกต้อง ตัวอย่างต่อไปนี้จะเพิ่มโหนดทรัพยากรให้กับโหนดตำแหน่งที่ตั้ง **it** และ **it-CH**
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. ในส่วน **ชื่อเป้าหมาย="CopyPackageFiles"** เพิ่มหนึ่งบรรทัดให้กับตำแหน่งที่ตั้งแต่ละแห่ง ดังที่แสดงในตัวอย่างต่อไปนี้
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. ทำการเปลี่ยนแปลงต่อไปนี้ในไฟล์ **Sdk.RetailServerSetup.proj** ภายใต้ **Packages\_SharedPackagingProjectComponents** เพื่อรวมไฟล์ทรัพยากรของอิตาลีในแพคเกจที่สามารถปรับใช้:
+
+    1. เพิ่มส่วน **ItemGroup** ที่มีโหนดที่ชี้ไปยังไฟล์ทรัพยากรในคำแปลที่ต้องการ ตรวจสอบให้แน่ใจว่าคุณระบุเนมสเปซและชื่อตัวอย่างที่ถูกต้อง ตัวอย่างต่อไปนี้จะเพิ่มโหนดทรัพยากรให้กับโหนดตำแหน่งที่ตั้ง **it** และ **it-CH**
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. ในส่วน **ชื่อเป้าหมาย="CopyPackageFiles"** เพิ่มหนึ่งบรรทัดให้กับตำแหน่งที่ตั้งแต่ละแห่ง ดังที่แสดงในตัวอย่างต่อไปนี้
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. เริ่ม MSBuild Command Prompt สำหรับการใช้งาน Visual Studio และเรียกใช้ **msbuild** ภายใต้โฟลเดอร์ Retail SDK เพื่อสร้างแพคเกจที่สามารถปรับใช้ได้
+7. ใช้แพคเกจผ่าน LCS หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างแพคเกจที่สามารถปรับใช้ได้](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
 
 ## <a name="design-of-extensions"></a>การออกแบบของส่วนขยาย
 

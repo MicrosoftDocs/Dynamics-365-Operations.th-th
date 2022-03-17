@@ -2,23 +2,24 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับออสเตรียใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: d720bffb98965bdc0276660d2a2e50d2bf155e74
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077176"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388374"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับออสเตรียใน Microsoft Dynamics 365 Commerce
 
@@ -33,7 +34,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 - การลงทะเบียนธุรกรรมเงินสดในบริการลงทะเบียนทางการเงิน:
 
     - ส่งรายละเอียดข้อมูลธุรกรรมไปยังบริการลงทะเบียนทางการเงิน ข้อมูลนี้ประกอบด้วยข้อมูลบรรทัดการขาย และข้อมูลเกี่ยวกับส่วนลด การชำระเงิน และภาษี
-    - การรวบรวมการตอบสนองจากบริการลงทะเบียนทางการเงิน การตอบสนองนี้มีลายเซ็นดิจิทัลและลิงค์ไปยังธุรกรรมที่ลงทะเบียน
+    - การรวบรวมการตอบสนองจากบริการลงทะเบียนทางการเงิน การตอบสนองนี้มีลายเซ็นดิจิทัลและลิงก์ไปยังธุรกรรมที่ลงทะเบียน
     - ลงทะเบียนภาษี และแมปกับรหัสภาษีของบริการลงทะเบียนทางการเงิน
     - พิมพ์คิวอาร์โค้ดของธุรกรรมที่ลงทะเบียนในใบเสร็จ
 
@@ -94,7 +95,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="set-up-commerce-for-austria"></a>ตั้งค่า Commerce สำหรับออสเตรีย
 
-ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับออสเตรีย สำหรับข้อมูลการตั้งค่าเพิ่มเติม ให้ดูที่ [โฮมเพจ Commerce](../index.md)
+ส่วนนี้อธิบายการตั้งค่า Commerce เฉพาะและที่แนะนำให้เลือกสำหรับออสเตรีย สำหรับข้อมูลการตั้งค่าเพิ่มเติม ดูที่ [โฮมเพจ Commerce](../index.md)
 
 เพื่อใช้ฟังก์ชันเฉพาะของออสเตรีย คุณต้องระบุการตั้งค่าต่อไปนี้:
 
@@ -105,7 +106,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-vat-per-austrian-requirements"></a>การตั้งค่า VAT ต่อข้อกำหนดของออสเตรีย
 
-คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ให้ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
+คุณต้องสร้างภาษีขาย กลุ่มภาษีขาย และกลุ่มภาษีขายของสินค้า คุณต้องตั้งค่าข้อมูลภาษีขายเกี่ยวกับผลิตภัณฑ์และบริการด้วย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและใช้คุณลักษณะภาษีขาย ดูที่ [ภาพรวมของภาษีขาย](../../finance/general-ledger/indirect-taxes-overview.md)
 
 ในใบเสร็จการขาย คุณสามารถพิมพ์รหัสย่อของรหัสภาษีขาย (ตัวอย่างเช่น "A" หรือ "B") เมื่อต้องการให้ฟังก์ชันนี้พร้อมใช้งาน ให้ตั้งค่าฟิลด์ **พิมพ์รหัส** บนหน้า **รหัสภาษีขาย**
 
@@ -301,14 +302,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+1. ติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงิน:
 
-    1. ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
-    1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่ง
+    คุณสามารถติดตั้งส่วนขยายของตัวเชื่อมต่อทางการเงินบน [สถานีฮาร์ดแวร์](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) หรือ [เครื่องบันทึกเงินสด POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network)
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. ติดตั้งส่วนขยายสถานีฮาร์ดแวร์:
+
+        1. ในโฟลเดอร์ **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **HardwareStation.EFR.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งโดยเรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. ติดตั้งส่วนขยาย POS:
+
+        1. เปิดโซลูชันตัวอย่างตัวเชื่อมต่อทางการเงิน POS ที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** และสร้าง
+        1. ในโฟลเดอร์ **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461** ให้ค้นหาตัวติดตั้ง **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**
+        1. เริ่มต้นตัวติดตั้งส่วนขยายจากบรรทัดใบสั่งที่เรียกใช้คำสั่งต่อไปนี้
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
@@ -321,7 +336,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 > [!WARNING]
 > เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md) มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
 
-### <a name="commerce-runtime-extension-design"></a>การออกแบบส่วนขยาย Commerce Runtime
+### <a name="commerce-runtime-extension-design"></a>การออกแบบส่วนขยาย Commerce Runtime 
 
 วัตถุประสงค์ของส่วนขยายที่เป็นผู้ให้บริการเอกสารทางการเงินคือการสร้างเอกสารเฉพาะบริการ และจัดการการตอบสนองจากบริการลงทะเบียนทางการเงิน
 
@@ -352,7 +367,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
-วัตถุประสงค์ของส่วนขยายที่เป็นตัวเชื่อมต่อทางการเงินคือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงิน ส่วนขยายของสถานีฮาร์ดแวร์นี้ใช้โปรโทคอล HTTP เพื่อส่งเอกสารที่ส่วนขยาย CRT สร้างขึ้นไปยังบริการลงทะเบียนทางการเงิน และยังจัดการการตอบสนองที่ได้รับจากบริการลงทะเบียนทางการเงินด้วย
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงินคือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงิน ส่วนขยายของสถานีฮาร์ดแวร์นี้ใช้โปรโทคอล HTTP และโพรโตคอล HTTPS เพื่อส่งเอกสารที่ส่วนขยาย CRT สร้างขึ้นไปยังบริการลงทะเบียนทางการเงิน และยังจัดการการตอบสนองที่ได้รับจากบริการลงทะเบียนทางการเงินด้วย
 
 #### <a name="request-handler"></a>ตัวจัดการคำขอ
 
@@ -369,5 +384,28 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 #### <a name="configuration"></a>การกำหนดค่า
 
 ไฟล์การตั้งค่าคอนฟิกของตัวเชื่อมต่อทางการเงินอยู่ที่ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+
+### <a name="pos-fiscal-connector-extension-design"></a>การออกแบบส่วนขยายของตัวเชื่อมต่อทางการเงิน POS
+
+วัตถุประสงค์ของส่วนขยายตัวเชื่อมต่อทางการเงิน POS คือเพื่อสื่อสารกับบริการลงทะเบียนทางการเงินจาก POS โดยจะใช้โพรโทคอล HTTPS สำหรับการสื่อสาร
+
+#### <a name="fiscal-connector-factory"></a>แฟคทอรีตัวเชื่อมต่อทางการเงิน
+
+แฟกทอรีตัวเชื่อมต่อทางการเงินจะแมปชื่อตัวเชื่อมต่อกับการใช้งานตัวเชื่อมต่อทางการเงิน และอยู่ในไฟล์ **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts** ชื่อตัวเชื่อมต่อควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+
+#### <a name="efr-fiscal-connector"></a>ตัวเชื่อมต่อทางการเงิน EFR
+
+ตัวเชื่อมต่อทางการเงิน EFR อยู่ในไฟล์ **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts** โดยจะใช้อินเทอร์เฟส **IFiscalConnector** ที่รองรับคำขอต่อไปนี้
+
+- **FiscalRegisterSubmitDocumentClientRequest** – คำขอนี้จะส่งเอกสารไปยังบริการลงทะเบียนทางการเงินและส่งคืนการตอบสนองจากบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterIsReadyClientRequest** – คำขอนี้ใช้เพื่อตรวจสอบความสมบูรณ์ของบริการลงทะเบียนทางการเงิน
+- **FiscalRegisterInitializeClientRequest** – คำขอนี้ใช้สำหรับการเริ่มต้นบริการลงทะเบียนทางการเงิน
+
+#### <a name="configuration"></a>โครงแบบ
+
+ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+
+- **ที่อยู่ปลายทาง** – URL ของบริการลงทะเบียนทางการเงิน
+- **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งตัวเชื่อมต่อจะรอการตอบสนองจากบริการลงทะเบียนทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

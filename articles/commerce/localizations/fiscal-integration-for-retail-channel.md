@@ -1,22 +1,22 @@
 ---
-title: ภาพรวมของการรวมทางบัญชีสำหรับช่องทาง Commerce
+title: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
 description: หัวข้อนี้อธิบายภาพรวมของความสามารถของการรวมทางบัญชีที่พร้อมใช้งานใน Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077203"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388324"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>ภาพรวมของการรวมทางบัญชีสำหรับช่องทาง Commerce
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ ms.locfileid: "8077203"
 - **การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงิน** – การตั้งค่าคอนฟิกนี้กำหนดการสื่อสารทางกายภาพกับอุปกรณ์หรือบริการทางการเงินเฉพาะ
 
 กระบวนการลงทะเบียนทางบัญชีสำหรับการลงทะเบียน POS เฉพาะ ถูกกำหนดโดยการตั้งค่าที่สอดคล้องกันในโพรไฟล์ฟังก์ชัน POS สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกกระบวนการลงทะเบียนทางบัญชี อัปโหลดผู้ให้บริการเอกสารทางการเงินและการตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงิน และเปลี่ยนแปลงพารามิเตอร์การตั้งค่าคอนฟิก ดู [ตั้งค่ากระบวนการลงทะเบียนทางบัญชี](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> หากคุณต้องการอุปกรณ์สำหรับการดําเนินงานที่ไม่ใช่ทางการเงิน เช่น การค้นหาแค็ตตาล็อกผลิตภัณฑ์ การค้นหาลูกค้า หรือการสร้างแบบร่างของธุรกรรม คุณสามารถเลือกอุปกรณ์เหล่านี้เป็นเครื่องบันทึกเงินสดที่มีข้อจํากัดของกระบวนการทางการเงิน ดูข้อมูลเพิ่มเติมที่ [ตั้งค่าเครื่องบันทึกเงินสดที่มีข้อจํากัดการลงทะเบียนทางการเงิน](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions)
 
 ขั้นตอนการลงทะเบียนทางการเงินทั่วไปต่อไปนี้จะเริ่มต้นด้วยเหตุการณ์ใน POS (ตัวอย่างเช่น การกําหนดขั้นสุดท้ายของธุรกรรมการขาย) และดําเนินการตามลำดับขั้นตอนที่กําหนดล่วงหน้าซึ่งเกี่ยวข้องกับส่วนประกอบอื่นๆ ของ Commerce (เช่น CRT และสถานีฮาร์ดแวร์)
 

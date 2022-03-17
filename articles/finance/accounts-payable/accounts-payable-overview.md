@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cbc800d7ae4d566fddb111b7ee9d67234e3cf8c
-ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
+ms.openlocfilehash: 4ed5664b5be11f013900d6411d4307692d5e8334
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "8326005"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358200"
 ---
 # <a name="configure-accounts-payable-overview"></a>ภาพรวมของการตั้งค่าคอนฟิกบัญชีเจ้าหนี้
 
@@ -34,7 +34,7 @@ ms.locfileid: "8326005"
 
 ก่อนที่คุณจะสามารถตั้งค่าบัญชีเจ้าหนี้คุณต้องดำเนินขั้นตอนต่อไปนี้ให้ครบถ้วน:
 
--   ในบัญชีแยกประเภททั่วไป
+-   ในบัญชีแยกประเภททั่วไป:
     -   ถ้าคุณวางแผนที่จะใช้สมุดรายวันการชำระเงิน ให้ตั้งค่าสมุดรายวันการชำระเงิน
     -   ถ้าคุณวางแผนที่จะเรียกการปรับปรุงอัตราแลกเปลี่ยน ให้ตั้งค่ารหัสสกุลเงินบนหน้า **สกุลเงิน** ตั้งค่าชนิดอัตราแลกเปลี่ยนบนหน้า **ชนิดอัตราแลกเปลี่ยน** และตั้งค่าอัตราแลกเปลี่ยนสกุลเงินในหน้า **อัตราแลกเปลี่ยนสกุลเงิน**
 -   ในการจัดการเงินสดและธนาคาร ให้ตั้งค่าบัญชีธนาคารเพื่อใช้กับวิธีการชำระเงิน
