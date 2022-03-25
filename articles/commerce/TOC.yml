@@ -1020,6 +1020,8 @@
                   href: unit-of-measure.md
                 - name: ใช้การตั้งค่าการแสดงผลสำหรับมิติของผลิตภัณฑ์
                   href: dimension-settings.md
+                - name: เปิดใช้งานและเรียกใช้โหมดการบํารุงรักษาอีคอมเมิร์ซ
+                  href: enable-maintenance-mode.md
             - name: จัดการเนื้อหาไซต์ของคุณ
               items:
                 - name: วิธีการเพิ่มเนื้อหา
@@ -2100,9 +2102,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: ตั้งค่าคอนฟิกรูปแบบข้อมูล
+                  items:
+                    - name: สนับสนุนการเรียกรูปแบบข้อมูลการรายงานทางอิเล็กทรอนิกส์ที่ตั้งค่าพารามิเตอร์แล้ว
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง
                   items:
-                    - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง ER ตามบริบทของประเทศ
+                    - name: ตั้งค่าคอนฟิกการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2760,6 +2766,8 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: ขยายข้อกำหนดโมดูล
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: เปลี่ยนสตริงแบบคงที่ของไลบรารีโมดูล
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: การดำเนินการกับข้อมูล
                       items:
                         - name: การแทนที่การดำเนินการกับข้อมูล
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: ขยายธีมจากธีมพื้นฐาน
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: เปลี่ยนสตริงโมดูลธีม
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: การจัดทำแพคเกจและการปรับใช้
                   items:
                     - name: การตั้งค่าคอนฟิกแพคเกจและปรับใช้กับสภาพแวดล้อมออนไลน์
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: แคชอินสแตนซ์การดำเนินการกับข้อมูล
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: การเพิ่มประสิทธิภาพโมดูล CSS
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: การวัดและส่งข้อมูลทางไกลและการวิเคราะห์
                       items:
                         - name: ตัวบันทึกการวัดและส่งข้อมูลทางไกล

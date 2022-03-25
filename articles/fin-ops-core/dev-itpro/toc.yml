@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: เหตุการณ์ทางธุรกิจที่สร้างขึ้นโดยส่งออกไปยังบริการ Azure Data Lake (พรีวิว)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: เปลี่ยนข้อมูลใน Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: การดำเนินการย้ายฐานข้อมูล
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: กรองใบสั่งระหว่างบริษัทเพื่อหลีกเลี่ยงการซิงโครไนส์ใบสั่งและรายการใบสั่ง
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: ถอนการติดตั้งโซลูชันการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: การจัดการการรวมแบบสองทิศทาง
                   items:
                     - name: ปรับแต่งการแมปเอนทิตี้และฟิลด์

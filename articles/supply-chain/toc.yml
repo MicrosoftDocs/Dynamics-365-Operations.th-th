@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: เปรียบเทียบรายงานการจัดเก็บราคาสินค้า
                   href: cost-management/compare-item-price.md
+            - name: วิธีการคิดต้นทุน
+              items:
+                - name: ราคาต้นทุนถัวเฉลี่ย
+                  href: cost-management/running-average-cost-price.md
+                - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: วันที่ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย
+                  href: cost-management/weighted-average-date.md
+                - name: ค่าเฉลี่ยเคลื่อนที่
+                  href: cost-management/moving-average.md
+                - name: ลำดับต้นทุนที่ใช้แทนค่าเฉลี่ยเคลื่อนที่
+                  href: cost-management/moving-average-fallback.md
             - name: การบัญชีสินค้าคงคลัง
               items:
+                - name: การอัปเดตทางกายภาพและทางการเงิน
+                  href: cost-management/physical-financial-updates.md
+                - name: รวมมูลค่าจริง
+                  href: cost-management/include-physical-value.md
                 - name: ออบเจ็กต์ต้นทุน
                   href: cost-management/cost-object.md
                 - name: ดูยอดดุลออบเจ็กต์ต้นทุน
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: กลุ่มต้นทุน
                   href: cost-management/cost-groups.md
-                - name: FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: รวมมูลค่าจริง
-                  href: cost-management/include-physical-value.md
                 - name: มูลค่าออบเจ็กต์สินค้าคงคลัง
                   href: cost-management/physical-quantity.md
-                - name: วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: ค่าเฉลี่ยเคลื่อนที่
-                  href: cost-management/moving-average.md
-                - name: ลำดับต้นทุนที่ใช้แทนค่าเฉลี่ยเคลื่อนที่
-                  href: cost-management/moving-average-fallback.md
-                - name: การอัปเดตทางกายภาพและทางการเงิน
-                  href: cost-management/physical-financial-updates.md
-                - name: ราคาต้นทุนถัวเฉลี่ย
-                  href: cost-management/running-average-cost-price.md
-                - name: การติดตามต้นทุนถัวเฉลี่ยต่อมิติสินค้าคงคลัง
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: วันที่ถัวเฉลี่ยถ่วงน้ำหนัก
-                  href: cost-management/weighted-average-date.md
-                - name: ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: การปิดบัญชีสินค้าคงคลัง
                   href: cost-management/inventory-close.md
                 - name: ปรับปรุงมูลค่าต้นทุนปริมาณสินค้าคงคลังคงเหลือ
@@ -1431,9 +1433,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ตั้งค่าคอนฟิกรูปแบบข้อมูล
+                  items:
+                    - name: สนับสนุนการเรียกรูปแบบข้อมูลการรายงานทางอิเล็กทรอนิกส์ที่ตั้งค่าพารามิเตอร์แล้ว
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง
                   items:
-                    - name: ตั้งค่าคอนฟิกการแมปแบบจำลอง ER ตามบริบทของประเทศ
+                    - name: ตั้งค่าคอนฟิกการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ตามบริบทของประเทศ
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: จัดการการแมปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ในการตั้งค่าคอนฟิก ER ที่แยกต่างหาก
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: ความแตกต่างที่ไม่คาดคิดระหว่างการร้องขอและข้อมูลรอบเวลาในระหว่างการทดสอบ
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: ไม่พบจุดยึดความน่าเชื่อถือของพาธใบรับรองเมื่อตั้งค่าการเชื่อมต่อแอป
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: ไม่พบจุดยึดความน่าเชื่อถือของพาธใบรับรองเมื่ออัปเดตย้ายและไปยัง WMS
