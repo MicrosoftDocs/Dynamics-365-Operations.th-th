@@ -2,7 +2,7 @@
 title: สร้างไซต์อีคอมเมิร์ซ
 description: หัวข้อนี้จะอธิบายถึงขั้นตอนและข้อมูลที่จำเป็นในการสร้างไซต์อีคอมเมิร์ซใหม่ในโปรแกรมสร้างไซต์ Dynamics 365 Commerce
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388222"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402786"
 ---
 # <a name="create-an-e-commerce-site"></a>สร้างไซต์อีคอมเมิร์ซ
 
@@ -70,6 +70,14 @@ ms.locfileid: "8388222"
 1. เมื่อต้องการเปิดมุมมองรายการไซต์ ให้เลือก **ตัวสลับไซต์** ในมุมด้านขวาบน แล้วเลือก **จัดการไซต์** 
 1. เลือกกล่องกาเครื่องหมายถัดจากไซต์ที่คุณต้องการเปลี่ยนชื่อ จากนั้นเลือก **เปลี่ยนชื่อ** บนแถบคำสั่ง
 1. ในกล่องโต้ตอบ **ชื่อไซต์ใหม่** ให้ป้อนชื่อไซต์ใหม่ แล้วเลือก **ตกลง** รายการไซต์จะอัปเดตเพื่อแสดงชื่อใหม่ของไซต์
+
+## <a name="delete-a-site"></a>ลบไซต์
+
+การลบไซต์ในโปรแกรมสร้างไซต์ ให้ทำตามขั้นตอนต่อไปนี้
+
+1. เมื่อต้องการเปิดมุมมองรายการไซต์ ให้เลือก **ตัวสลับไซต์** ในมุมด้านขวาบน แล้วเลือก **จัดการไซต์**
+1. เลือกไซต์ที่คุณต้องการลบ แล้วเลือก **ลบ** บนแถบคำสั่ง
+1. ในกล่องโต้ตอบ **ลบ \<site name\>** ให้ป้อนชื่อไซต์ แล้วเลือก **ลบ**
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

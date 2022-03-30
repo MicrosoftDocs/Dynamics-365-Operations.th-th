@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075235"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457409"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอปการเงินและการดำเนินงาน
 
@@ -34,7 +34,7 @@ ms.locfileid: "8075235"
 เมื่อต้องการดูว่ามีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในรุ่นของแอปการเงินและการดำเนินงานแต่ละรุ่น ให้ดูที่หัวข้อต่อไปนี้:
 
 - **การเงิน:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
-- **Human Resources (โครงสร้างพื้นฐานที่ผสาน):** [มีอะไรใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
+- **Human Resources (โครงสร้างพื้นฐานที่ผสาน):** [มีอะไรใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **Supply Chain Management:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน มีการเปลี่ยนแปลงอะไรใน Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
 

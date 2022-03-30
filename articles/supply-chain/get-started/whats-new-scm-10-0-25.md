@@ -2,7 +2,7 @@
 title: ตัวอย่าง Dynamics 365 Supply Chain Management 10.0.25 (เมษายน 2022)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.25
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384549"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414131"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>ตัวอย่าง Dynamics 365 Supply Chain Management 10.0.25 (เมษายน 2022)
 
@@ -39,6 +39,7 @@ ms.locfileid: "8384549"
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [สแกนบาร์โค้ดในคลังสินค้าโดยใช้มาตรฐานรูปแบบ GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [บาร์โค้ด GS1 และรหัส QR](../warehousing/gs1-barcodes.md) | การจัดการคุณลักษณะ:<br>*สแกนบาร์โค้ด GS1* |
 | การผลิต | [ปริมาณการใช้วัสดุและการจองในส่วนติดต่อการดำเนินการของระบบการผลิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) ลงทะเบียนปริมาณการใช้วัสดุบนส่วนติดต่อการดำเนินการของระบบการผลิต (ไม่ใช่ WMS)*<br><br>และ/หรือ:<br><br>การจัดการคุณลักษณะ:<br>*(พรีวิว) ลงทะเบียนปริมาณการใช้วัสดุบนอินเตอร์เฟซการดำเนินการของกระบวนการผลิต (ที่เปิดใช้งาน WMS)* |
 | การผลิต | [ลงทะเบียนปริมาณการใช้วัสดุบนสเกลยูนิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง](../cloud-edge/cloud-edge-workload-manufacturing.md) | การจัดการคุณลักษณะ:<br>*ลงทะเบียนการใช้วัสดุบนแอปบนอุปกรณ์เคลื่อนที่ใน scale unit* |
+| การวางแผน | [การบํารุงรักษาตามปฏิทินส่วนกลางสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [ปฏิทินและการวางแผนหลัก](../master-planning/supply-chain-calendars-master-planning.md) | เปิดใช้งานตามค่าเริ่มต้น |
 | การวางแผน | [ข้อเสนอแนะการเพิ่มประสิทธิภาพในการจัดหาวัสดุที่มีอยู่ให้มีประสิทธิภาพสูงสุด](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [ข้อความการดำเนินการ](../master-planning/action-messages.md) | เปิดใช้งานตามค่าเริ่มต้น |
 | การวางแผน | คำสั่งซื้อที่วางแผนไว้แบบง่าย | [คำสั่งซื้อที่วางแผนไว้แบบง่าย](../master-planning/planning-optimization/planned-orders-simplified.md ) | การจัดการคุณลักษณะ:<br>*คำสั่งซื้อที่วางแผนไว้แบบง่าย* |
 

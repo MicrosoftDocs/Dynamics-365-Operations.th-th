@@ -2,7 +2,7 @@
 title: มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 description: หัวข้อนี้จะแสดงรายการคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384382"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418651"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20190"></a>รุ่น 2.0.19.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- ปรับปรุงขั้นตอนการสอบถามข้อมูลทั่วไป
+- ปรับปรุงปัญหาเล็กน้อยในหน้า **รายการงาน** และ **การสอบถามข้อมูล**
+- ลดการใช้แบตเตอรี่
+- ขจัดขีดจํากัดของจํานวนฟิลด์ของบัตรงาน
+- ปรับปรุงความสูงของบัตรงานเพื่อให้บัตรงานทั้งหมดมีขนาดเดียว โดยไม่พิจารณาจํานวนฟิลด์ในบัตรแต่ละใบ
+- แก้ไขปัญหาอักขระช่องว่างในบาร์โค้ดถูกตัดออก
+- เพิ่มการตั้งค่า **ลักษณะปุ่ม** ซึ่งช่วยให้คุณสลับระหว่างมุมมองของแถบเลื่อนกับมุมมองปุ่มได้บนอุปกรณ์ทุกชนิด
+- แก้ไขปัญหาต่างๆ ที่อาจเป็นสาเหตุให้แอปขัดข้อง
+- ตั้งค่าโฟกัสอัตโนมัติบนกล่องข้อความแรกในหน้าที่กำหนดเอง
+- การปรับปรุงความสามารถในการเข้าถึงที่เกี่ยวข้องกับความสว่าง ความคมชัด การบรรยาย และข้อความตัวยึดที่ขาดหายไป
 
 ## <a name="version-20170"></a>รุ่น 2.0.17.0
 

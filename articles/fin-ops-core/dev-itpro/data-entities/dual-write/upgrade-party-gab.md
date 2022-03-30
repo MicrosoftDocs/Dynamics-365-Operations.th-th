@@ -2,19 +2,19 @@
 title: อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 description: หัวข้อนี้จะอธิบายวิธีการอัปเกรดข้อมูลแบบสองทิศทางให้กับรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060496"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407806"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 
@@ -151,13 +151,19 @@ ms.locfileid: "8060496"
 
 ## <a name="run-the-templates"></a>เรียกใช้เทมเพลต
 
-1. หยุดแมปการรวมแบบสองทิศทาง **บัญชี**, **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ต่อไปนี้ที่ใช้แอปการเงินและการดำเนินงาน:
+1. หยุดแผนผังการรวมแบบสองทิศทางของ **ฝ่าย**, **บัญชี**, **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** ต่อไปนี้ที่ใช้แอปการเงินและการดำเนินงาน:
 
+    + ฝ่าย CDS (msdyn_parties) 
     + Customers V3 (บัญชี)
     + ลูกค้า V3(ผู้ติดต่อ)
     + ผู้ติดต่อของ CDS V2(ผู้ติดต่อ)
     + ผู้ติดต่อของ CDS V2(ผู้ติดต่อ)
     + ผู้จัดจำหน่าย V2 (msdyn_vendor)
+    + Contacts V2 (msdyn_contactforparties)
+    + ที่ตั้งของที่อยู่ไปรษณีย์ของฝ่าย CDS (msdyn_partypostaladdresses)
+    + ประวัติที่อยู่ไปรษณีย์ CDS V2 (msdyn_postaladdresses)
+    + ที่ตั้งของที่อยู่ไปรษณีย์ของฝ่าย CDS (msdyn_postaladdresscollections)
+    + Party Contacts V3 (msdyn_partyelectronicaddresses)
 
 2. ตรวจสอบให้แน่ใจว่าแผนที่ถูกลบออกจากตาราง **msdy_dualwriteruntimeconfig** ใน Dataverse
 3. ติดตั้ง [ฝ่ายการรวมแบบสองทิศทางและโซลูชันสมุดที่อยู่สากล](https://aka.ms/dual-write-gab) จาก AppSource
