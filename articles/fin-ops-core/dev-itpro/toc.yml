@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.23 (มกราคม 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: แอปการเงินและการดำเนินงาน ใน Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: ข้อมูลและข้อมูลเมตาที่จัดเก็บไว้ใน Azure Data Lake
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: ทำให้ที่จัดเก็บเอนทิตี้พร้อมใช้งานเป็น Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: เหตุการณ์ทางธุรกิจที่สร้างขึ้นโดยส่งออกไปยังบริการ Azure Data Lake (พรีวิว)
@@ -410,6 +410,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
+                    - name: อัปเกรด Windows Server ในสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-os.md
                     - name: อัปเกรดอินสแตนซ์ SQL Server ของสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: เอเจนต์ภายในเครื่อง
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS สำหรับคู่ค้า
                   href: lifecycle-services/getting-started-lcs.md
+                - name: เว็บเบราเซอร์ที่สนับสนุน
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API
                   items:
                     - name: เริ่มต้นและหยุดสภาพแวดล้อม
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: อัปเกรดไฟล์พารามิเตอร์
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: โหมดทดลองที่ไม่มี Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: บทช่วยสอน Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: ตั้งค่าคอนฟิกผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ

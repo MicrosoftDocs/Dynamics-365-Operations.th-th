@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS และ Store Commerce'
                   items:
-                    - name: แอป Store Commerce ใน Microsoft Dynamics 365 Commerce (พรีวิว)
+                    - name: แอป Store Commerce
                       href: dev-itpro/store-commerce.md
                     - name: คำแนะนำการใช้งานการจัดการอุปกรณ์
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: การขอคืนเงินในใบสั่งส่งคืนสินค้าถูกปฏิเสธ
                   href: troubleshoot/refund-declined.md
+                - name: มีการคำนวณค่าธรรมเนียมที่ขอคืนเงินได้ผิดโดยอ้างอิงจากปริมาณที่ส่งคืน
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector สำหรับ Adyen
                   items:
                     - name: แก้ไขปัญหา Dynamics 365 Payment Connector สำหรับ Adyen

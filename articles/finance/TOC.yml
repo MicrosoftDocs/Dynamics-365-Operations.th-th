@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (กุมภาพันธ์)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (มกราคม)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -414,8 +412,20 @@
               items:
                 - name: ภาพรวมของการเรียกเก็บเงินตามการสมัครใช้งาน
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: ตั้งค่ากำหนดการเรียกเก็บเงิน
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: การเรียกเก็บเงินตามสัญญาที่เกิดซ้ำ
+                  items:
+                    - name: สร้างกำหนดการเรียกเก็บเงิน
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: คัดลอกกำหนดการเรียกเก็บเงิน
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: การเรียกเก็บเงินตามเหตุการณ์สำคัญ
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: สิ้นสุดกำหนดการเรียกเก็บเงิน
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: การรอตัดบัญชีรายได้และค่าใช้จ่าย
+                  items: null
+                - name: การปันส่วนรายได้แบบหลายองค์ประกอบ
+                  items: null
             - name: การชำระเงินและการตัดจ่าย
               items:
                 - name: ภาพรวมของการชำระเงินของลูกค้า
@@ -1443,11 +1453,11 @@
                             - name: ตั้งค่าคอนฟิกช่องทาง SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: ตั้งค่าและใช้การออกใบแจ้งหนี้อิเล็กทรอนิกส์กับ Finance และ Supply Chain Management
-                          items: null
-                        - name: เปิดการใช้งานและตั้งค่าการรวมกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: ตั้งค่าพารามิเตอร์การออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: เปิดการใช้งานและตั้งค่าการรวมกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: ตั้งค่าพารามิเตอร์การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: ทำงานกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           items:
                             - name: ส่งเอกสารอิเล็กทรอนิกส์ไปยังการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1532,6 +1542,10 @@
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: การรายงานของฟินแลนด์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: การรายงานของฝรั่งเศส
                           items:
                             - name: การรายงานภาษี VAT
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: รายการขายใน EU
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: การรายงานของนอร์เวย์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: การรายงานของสเปน
                           items:
                             - name: 'การจัดหาข้อมูลเกี่ยวกับ VAT ทันที (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,10 +1582,6 @@
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: การรายงานของนอร์เวย์
-                          items:
-                            - name: การรายงานภาษี VAT
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: เปิดใช้งานการคํานวณภาษีในใบสั่งโอนย้าย
                       items:
                         - name: การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: ค่าธรรมเนียมบรรจุภัณฑ์
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: ใบแจ้งยอด VAT
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: รายงานบริการข้ามแดน
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: อินทราสแทตของออสเตรีย
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: อัปเดตวิธีแสดงยอดเงินในรายงานและเอกสาร
                   href: localizations/emea-amount-printing-forms.md
-                - name: ใบแจ้งยอด VAT
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: การรายงานภาษี VAT (สาธารณรัฐเช็ก)
+                - name: การรายงานภาษี VAT
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: อินทราสแทตของเช็ก
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: อินทราสแทตของเดนมาร์ก
                   href: localizations/emea-dnk-intrastat.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: อียิปต์
               items:
                 - name: ภาพรวมของอียิปต์
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: อินทราสแทตฟินแลนด์
                   href: localizations/emea-fin-intrastat.md
+                - name: การรายงานภาษี VAT
+                  href: localizations/emea-fin-vat-declaration.md
             - name: ฝรั่งเศส
               items:
                 - name: ภาพรวมของฝรั่งเศส
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: การรายงานภาษี VAT
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: อินทราสแทตของเยอรมัน
                   href: localizations/emea-deu-intrastat.md
-                - name: ใบแจ้งยอด VAT
-                  href: localizations/emea-de-vat-declaration.md
                 - name: รายงานใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้า
                   href: localizations/emea-deu-e-invoices.md
                 - name: รายงานรายการสมุดรายวัน
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: รายการขายใน EU
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: การรายงานภาษี VAT
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: ฮังการี
               items:
                 - name: ภาพรวมของฮังการี
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: นำเข้าบริการที่มี GST
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: การปันส่วนค่าธรรมเนียมในหน้าบัญชีตั๋วแลกเงินของที่จะนําเข้า
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: ส่งออกสินค้าที่มีภาษีอัตราศูนย์
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: ส่งออกบริการที่มีภาษีอัตราศูนย์
@@ -3116,17 +3126,13 @@
               items:
                 - name: ภาพรวมของเนเธอร์แลนด์
                   href: localizations/netherlands.md
-                - name: การรายงานภาษี VAT
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: การรายงานภาษีทางอิเล็กทรอนิกส์ (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: การรวม Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: ไฟล์การตรวจสอบ (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: การรายงานภาษี VAT (เนเธอร์แลนด์)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: อินทราสแทตของเนเธอร์แลนด์
+                - name: อินทราสแทต
                   href: localizations/emea-nl-intrastat.md
                 - name: รายการขายใน EU
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: รายงานการชำระภาษีขายสำหรับสวีเดน
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: การรายงานภาษี VAT สำหรับสวีเดน
+                - name: การรายงานภาษี VAT
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: อินทราสแทตของสวีเดน
                   href: localizations/emea-swe-intrastat.md
