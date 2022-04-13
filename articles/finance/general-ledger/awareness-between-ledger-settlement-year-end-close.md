@@ -2,7 +2,7 @@
 title: การรับรู้ระหว่างการชำระตามบัญชีแยกประเภทกับการปิดบัญชีสิ้นปี
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงที่มีผลกระทบต่อการชำระตามบัญชีแยกประเภทและการปิดบัญชีสิ้นปีของบัญชีแยกประเภททั่วไป
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: acfbcf1467363262769884063efbc1a6d6e21eb1
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075588"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462365"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>การรับรู้ระหว่างการชำระตามบัญชีแยกประเภทกับการปิดบัญชีสิ้นปี
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ใน Microsoft Dynamics 365 Finance รุ่น 10.0.25 **การรับรู้ระหว่างการชำระตามบัญชีแยกประเภทและการปิดบัญชีสิ้นปี** จะสามารถใช้งานในพื้นที่ทำงาน **การจัดการคุณลักษณะ** คุณลักษณะนี้จะเพิ่มการปรับปรุงหลักสองรายการซึ่งมีผลกระทบต่อการชำระตามบัญชีแยกประเภทและการปิดบัญชีสิ้นปีของบัญชีแยกประเภททั่วไป
 

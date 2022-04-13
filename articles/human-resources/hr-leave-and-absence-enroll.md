@@ -1,7 +1,7 @@
 ---
 title: กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
 description: กำหนดพนักงานและผู้รับเหมาที่จะออกจากแผนใน Dynamics 365 Human Resources
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e0253c6122d736e311ea65d6228cbaabecff8dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fd32b90be381f467d8cc5860e60db87356bc30b0
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070638"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534006"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
 
+> [!Important]
+> ฟังก์ชันที่ระบุไว้ในหัวข้อนี้สามารถใช้งานได้กับลูกค้า Dynamics 365 Human Resources ในระบบที่แยกต่างหากได้แล้ว ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของ Finance หลังจากการเผยแพร่ Finance 10.0.26
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

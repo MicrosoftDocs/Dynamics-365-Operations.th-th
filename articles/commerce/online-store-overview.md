@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984580"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487779"
 ---
 # <a name="e-commerce-site-overview"></a>ภาพรวมของไซต์อีคอมเมิร์ซ
 
@@ -86,7 +86,7 @@ Dynamics 365 Commerce ใช้ข้อมูลธุรกิจ-ผู้บ
 สำหรับข้อมูลเกี่ยวกับจัดการการตั้งค่าไซต์ของคุณ ให้ดูหัวข้อต่อไปนี้:
 
 - [จัดการผู้ใช้และบทบาทอีคอมเมิร์ซ](manage-ecommerce-users-roles.md)
-- [ข้อควรพิจารณาเกี่ยวกับการเพิ่มประสิทธิภาพโปรแกรมค้นหา (SEO) สำหรับไซต์ของคุณ](/search-engine-optimization-considerations.md)
+- [ข้อควรพิจารณาเกี่ยวกับการเพิ่มประสิทธิภาพโปรแกรมค้นหา (SEO) สำหรับไซต์ของคุณ](search-engine-optimization-considerations.md)
 - [จัดการนโยบายความปลอดภัยของเนื้อหา (CSP)](manage-csp.md)
 - [เลือกธีมของไซต์](select-site-theme.md)
 

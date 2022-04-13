@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062122"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524478"
 ---
 # <a name="inventory-visibility-public-apis"></a>API สาธารณะของการแสดงผลสินค้าคงคลัง
 
@@ -41,15 +41,17 @@ REST API สาธารณะของ Add-in การแสดงผลสิ
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ลงรายการบัญชี | [ตั้งค่า/แทนที่ปริมาณคงคลังคงเหลือ](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหนึ่งเหตุการณ์](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหลายเหตุการณ์](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | ลงรายการบัญชี | [สร้างการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการหนึ่งเหตุการณ์](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | ลงรายการบัญชี | [สร้างการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการหลายเหตุการณ์](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ลงรายการบัญชี | [การสอบถามโดยใช้วิธีการลงรายการบัญชี](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | ดึงข้อมูล | [การสอบถามโดยใช้วิธีการรับ](#query-with-get-method) |
-
-Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
 > [!NOTE]
 > ส่วนของ {environmentId} พาธคือรหัสสภาพแวดล้อมใน Microsoft Dynamics Lifecycle Services (LCS)
 > 
 > API จำนวนมากสามารถส่งคืนเรกคอร์ดได้สูงสุด 512 เรกคอร์ดต่อการร้องขอแต่ละครั้ง
+
+Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>ค้นหาปลายทางตามสภาพแวดล้อม Lifecycle Services ของคุณ
 
@@ -517,6 +519,9 @@ Body:
 
 พารามิเตอร์ `returnNegative` จะควบคุมว่าผลลัพธ์มีรายการค่าลบหรือไม่
 
+> [!NOTE]
+> ถ้าคุณได้เปิดใช้งานคุณลักษณะการจัดกำหนดการการเปลี่ยนแปลงปริมาณคงเหลือและปริมาณที่ให้สัญญาได้ (ATP) การสอบถามของคุณยังสามารถรวมพารามิเตอร์ `QueryATP` แบบบูลีน ซึ่งควบคุมว่าผลการสอบถามรวมข้อมูล ATP หรือไม่ สำหรับข้อมูลเพิ่มเติมและตัวอย่าง ดูที่ [กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือและปริมาณที่ให้สัญญาได้ของการมองเห็นสินค้าคงคลัง](inventory-visibility-available-to-promise.md)
+
 ตัวอย่างต่อไปนี้จะแสดงเนื้อหาตัวอย่าง
 
 ```json
@@ -572,5 +577,9 @@ Query(Url Parameters):
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>ปริมาณที่ให้สัญญาได้
+
+คุณสามารถตั้งค่าการมองเห็นสินค้าคงคลังเพื่อให้คุณสามารถจัดกำหนดการเปลี่ยนแปลงปริมาณคงเหลือในอนาคตและคํานวณปริมาณ ATP ได้ ATP คือปริมาณของสินค้าที่พร้อมใช้งานและสามารถสัญญากับลูกค้าในรอบเวลาถัดไป การใช้การคํานวณ ATP จะเพิ่มความสามารถในการเติมสินค้าตามใบสั่งของคุณมากขึ้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเปิดใช้งานลักษณะ และวิธีการทำงานกับการมองเห็นสินค้าคงคลังผ่าน API หลังจากเปิดใช้งานคุณลักษณะ ดูที่ [กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือและปริมาณที่ให้สัญญาได้ของการมองเห็นสินค้าคงคลัง](inventory-visibility-available-to-promise.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

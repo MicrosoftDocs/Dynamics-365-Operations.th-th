@@ -1,7 +1,7 @@
 ---
 title: เริ่มต้นด้วยการเพิ่มประสิทธิภาพการวางแผน
 description: หัวข้อนี้อธิบายวิธีการเริ่มใช้ฟังก์ชันการเพิ่มประสิทธิภาพการวางแผน
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902570"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469826"
 ---
 # <a name="get-started-with-planning-optimization"></a>เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน
 
@@ -58,7 +58,7 @@ ms.locfileid: "7902570"
 
 - คุณต้องรัน Supply Chain Management บน สภาพแวดล้อมที่มีความพร้อมใช้งานสูง LCS ที่เปิดใช้งาน ระดับ 2 หรือสูงกว่า (ไม่ใช่สภาพแวดล้อม OneBox) โดยมี Dynamics 365 Supply Chain Management รุ่น 10.0.7 หรือใหม่กว่า ถ้าคุณพยายามติดตั้ง Add-in บนสภาพแวดล้อม OneBox การติดตั้งจะไม่เสร็จสมบูรณ์ และคุณจะต้องยกเลิกการติดตั้ง
 
-- ต้องตั้งค่าระบบของคุณเพื่อการรวม Power Platform สำหรับข้อมูลเพิ่มเติม ดู [การรวม Microsoft Power Platform กับแอป Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md)
+- ต้องตั้งค่าระบบของคุณเพื่อการรวม Power Platform สำหรับข้อมูลเพิ่มเติม ดูที่ [การรวม Microsoft Power Platform กับแอปการเงินและการดำเนินงาน](../../../fin-ops-core/dev-itpro/power-platform/overview.md)
 
 ### <a name="enable-the-planning-optimization-license"></a>เปิดใช้งานสิทธิ์การเพิ่มประสิทธิภาพการวางแผน
 

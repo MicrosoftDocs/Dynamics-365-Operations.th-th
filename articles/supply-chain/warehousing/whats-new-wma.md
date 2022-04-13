@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418651"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487849"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
 หัวข้อนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20200"></a>รุ่น 2.0.20.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- แก้ไขปัญหาระบบขัดข้องหลายอย่าง
+- แก้ไขปัญหาที่จะแสดงค่าที่ไม่ถูกต้องบนบัตรในหน้า **รายการงาน**
+- ปรับปรุงประสบการณ์การเลื่อนและการตัดปัญหาการเลื่อนในหน้า **รายการงาน** และ **การสอบถามรายการ** ใน Android
+- เพิ่มปุ่มออกในหน้าลงชื่อเข้าใช้ ซึ่งใช้ในการออกจากแอปพลิเคชัน
 
 ## <a name="version-20190"></a>รุ่น 2.0.19.0
 

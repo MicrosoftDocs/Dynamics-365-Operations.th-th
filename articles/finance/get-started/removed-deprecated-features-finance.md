@@ -1,23 +1,23 @@
 ---
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890964"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466847"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ ms.locfileid: "7890964"
 รายการนี้มีไว้เพื่อช่วยคุณพิจารณาการลบออกและการยกเลิกการใช้งานเหล่านี้สำหรับการวางแผนของคุณเอง 
 
 > [!NOTE]
-> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอป Finance and Operations พบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบเวอร์ชันต่างๆ ของรายงานเหล่านี้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่เปลี่ยนแปลงหรือถูกลบออกในแต่ละรุ่นของแอป Finance and Operations
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้ได้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่ได้เปลี่ยนแปลง หรือถูกเอาออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.26
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>รายงานภาษีขายของฟินแลนด์ (ออกแบบตามรหัสการรายงาน)
+
+[รายงานภาษีขายของฟินแลนด์](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | เปลี่ยนเป็นการออกแบบการรายงานภาษี VAT ใหม่ [การรายงานภาษี VAT ของฟินแลนด์](../localizations/emea-fin-vat-declaration.md) |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 มีนาคม 2023 เราวางแผนที่จะเลิกสนับสนุนรายงานภาษีขายของฟินแลนด์ (โครงร่างรายงานของฟินแลนด์) รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) **TXT การรายงานภาษี VAT (FI**) และ **Excel การรายงานภาษี VAT (FI)** ใหม่เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.24
 

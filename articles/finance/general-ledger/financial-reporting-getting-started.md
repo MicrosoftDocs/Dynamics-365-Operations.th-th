@@ -2,25 +2,27 @@
 title: ภาพรวมการรายงานทางการเงิน
 description: หัวข้อนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินใน Microsoft Dynamics 365 Finance และวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983988"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527326"
 ---
 # <a name="get-started-with-financial-reporting"></a>เริ่มต้นใช้งานการรายงานทางการเงิน 
 
@@ -174,7 +176,7 @@ ms.locfileid: "7983988"
 * ใน Internet Explorer เลือก **การตั้งค่า** จากนั้น เลือก **ตัวเลือกอินเทอร์เน็ต** เลือกแท็บ **ความปลอดภัย** เลือกไซต์ที่เชื่อถือได้ แล้วจากนั้น เลือก **ไซต์** ใน **เพิ่มเว็บไซต์นี้ไปยังโซน** ให้ป้อน "\*\.dynamics.com" (โดยไม่มีเครื่องหมายอัญประกาศ) แล้วจากนั้น เลือก **เพิ่ม** 
 * ใน Internet Explorer เลือก **การตั้งค่า** จากนั้น เลือก **ตัวเลือกอินเทอร์เน็ต** เลือกแท็บ **ความปลอดภัย** เลือกไซต์ที่เชื่อถือได้ ในพื้นที่ที่ติดป้ายชื่อระดับความปลอดภัยสำหรับโซนนี้ ให้เปลี่ยนตัวเลือกเป็น **ปานกลาง-ต่ำ**
 * ปิดใช้งานตัวบล็อกป็อปอัพในเบราเซอร์ของคุณ
-* เวิร์กสเตชันจำเป็นต้องติดตั้ง Microsoft .NET Framework 4.6.2 หรือสูงกว่า รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53345)
+* เวิร์กสเตชันจำเป็นต้องติดตั้ง Microsoft .NET Framework 4.7.2 หรือสูงกว่า รุ่นนี้ของกรอบงาน Microsoft .NET สามารถดาวน์โหลดและติดตั้งได้จาก [ศูนย์ดาวน์โหลด Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472)
 * ถ้าคุณใช้เบราเซอร์ Chrome คุณต้องติดตั้งส่วนขยาย ClickOnce เพื่อดาวน์โหลดไคลเอ็นต์โปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงาน Chrome ในโหมด incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนขยาย ClickOnce ของ Chrome ดูที่ [ความต้องการของระบบสำหรับการปรับใช้ cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md)
 * ถ้าคุณกำลังใช้ Microsoft Edge ร่วมกับเบราว์เซอร์ Chrome คุณไม่จำเป็นต้องติดตั้งส่วนขยาย ClickOnce สำหรับ Edge Chromium อย่างไรก็ตาม คุณต้องเปิดใช้งานตัวเลือก ClickOnce เพื่อดาวน์โหลดไคลเอนต์ของโปรแกรมออกแบบรายงาน ถ้าคุณกำลังทำงานใน incognito ให้ตรวจสอบให้แน่ใจว่าได้เปิดใช้งานส่วนขยาย ClickOnce สำหรับโหมด incognito แล้ว
 

@@ -1,7 +1,7 @@
 ---
 title: ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน
 description: หัวข้อนี้อธิบายวิธีการตั้งค่าบทบาทผู้จัดการฝ่ายการขาดงานเพื่อการจัดการการลางานของพนักงาน
-author: hasrivas
+author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hasrivas
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69a9bfe47c342f2efdae51bd62a317b4b0ab7ff5
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065237"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534121"
 ---
 # <a name="configure-the-absence-manager-role"></a>ตั้งค่าคอนฟิกบทบาทผู้จัดการฝ่ายการขาดงาน
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>ฟังก์ชันที่ระบุไว้ในหัวข้อนี้สามารถใช้งานได้กับลูกค้า Dynamics 365 Human Resources ในระบบที่แยกต่างหากได้แล้ว ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของ Finance หลังจากการเผยแพร่ Finance 10.0.26
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

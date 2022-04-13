@@ -2,7 +2,7 @@
 title: ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
 description: หัวข้อนี้อธิบายความสามารถในการจัดการการเรียกเก็บเงินตามใบสั่งอื่นสำหรับใบสั่งช่องทางการค้า โดยใช้คุณลักษระการคิดค่าบริการโดยอัตโนมัติขั้นสูง
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743442"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489629"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>ค่าธรรมเนียมอัตโนมัติขั้นสูงของช่องทาง Omni
 
@@ -187,6 +187,9 @@ ms.locfileid: "6743442"
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>ค่าธรรมเนียมการคืนเงินในธุรกรรมการส่งคืน POS
 
 หากพารามิเตอร์ **ใช้การคิดค่าบริการอัตโนมัติขั้นสูง** ถูกตั้งค่าเป็น **ใช่**  พารามิเตอร์การค้าที่มีอยู่สำหรับ **การคืนเงินค่าจัดส่ง** จะไม่สามารถใช้งานได้อีกต่อไป เพื่อบ่งชี้ว่าค่าธรรมเนียมใดควรได้รับเงินคืนอย่างเป็นระบบไปยังลูกค้า เมื่อใช้ค่าธรรมเนียมอัตโนมัติขั้นสูง ต้องแน่ใจว่ารหัสค่าธรรมเนียมที่เกี่ยวข้องได้ถูกตั้งค่าคอนฟิกเป็น **สามารถคืนเงินได้** ในหน้าการตั้งค่า **รหัสค่าธรรมเนียม** ตรวจสอบให้แน่ใจว่าการตั้งค่าได้รับการทำข้อมูลให้ตรงกันกับฐานข้อมูลช่องทางการค้าของคุณผ่านการประมวลผลกำหนดการแจกจ่าย
+
+> [!TIP]
+> สำหรับคำแนะนำที่จะช่วยให้คุณมั่นใจมีการคำนวณที่ขอคืนเงินได้ในระดับรายการตามปริมาณที่ส่งคืน ดูที่ [ค่าธรรมเนียมที่ขอคืนเงินได้ไม่ได้คำนวณตามปริมาณที่ส่งคืน](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md)
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>ค่าธรรมเนียมการคืนเงินในธุรกรรมใบสั่งส่งคืน
 

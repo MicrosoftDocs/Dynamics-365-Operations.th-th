@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: ba5d69ca33ac84743b178ded80b482eee6edab1e
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393508"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487743"
 ---
 # <a name="remove-an-instance"></a>เอาอินสแตนซ์ออก
 
@@ -78,7 +78,7 @@ ms.locfileid: "7393508"
 
 เมื่อต้องการคืนสภาพแวดล้อมให้ปฏิบัติดังนี้:
 
-1. ทำตามคำแนะนำในหน้าต่าง [คืนค่าสภาพแวดล้อม Power Apps](/power-platform/admin/recover-environment.md)
+1. ทำตามคำแนะนำในหน้าต่าง [คืนค่าสภาพแวดล้อม Power Apps](/power-platform/admin/recover-environment)
 
 2. โปรดติดต่อฝ่ายสนับสนุนเพื่อคืนสภาพแวดล้อมของทรัพยากรบุคคล สำหรับข้อมูลเพิ่มเติม ดู [รับการสนับสนุน](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
 

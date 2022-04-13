@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330712"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487594"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
 
@@ -65,6 +65,8 @@ ms.locfileid: "8330712"
 ## <a name="monitor-incoming-messages"></a>ตรวจสอบข้อความขาเข้า
 
 เมื่อต้องการตรวจสอบข้อความขาเข้าไปที่ระบบ ให้เปิดหน้า **การรวมระบบการดำเนินการผลิต** คุณสามารถดู ประมวลผล และแก้ไขปัญหา
+
+ข้อความทั้งหมดของใบสั่งผลิตเฉพาะจะถูกประมวลผลในลำดับที่ได้รับ อย่างไรก็ตาม ข้อความของใบสั่งผลิตที่แตกต่างกันอาจไม่สามารถประมวลผลในลำดับที่ได้รับ เนื่องจากชุดงานมีการประมวลผลพร้อมกัน ในกรณีที่ล้มเหลว ชุดงานจะพยายามประมวลผลแต่ละข้อความสามครั้งก่อนตั้งค่าเป็นสถานะ *ล้มเหลว*
 
 ## <a name="call-the-api"></a>เรียก API
 
@@ -119,13 +121,13 @@ ms.locfileid: "8330712"
 | `ReportedGoodQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง|
 | `ReportedErrorCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
 | `ReportedGoodCatchWeightQuantity` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
-| `AcceptError` | ไม่จำเป็นต้องระบุ |บูลีน |
+| `AcceptError` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
 | `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
 | `ExecutedDateTime` | ไม่จำเป็นต้องระบุ | วันที่และเวลา |
 | `ReportAsFinishedDate` | ไม่จำเป็นต้องระบุ | วันที่ |
 | `AutomaticBOMConsumptionRule` | ไม่จำเป็นต้องระบุ | Enum (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | ไม่จำเป็นต้องระบุ |Enum (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `RespectFlushingPrincipleDuringOverproduction` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
 | `ProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
 | `PickingListProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง|
 | `RouteCardProductionJournalNameId` | ไม่จำเป็นต้องระบุ | สตริง |
@@ -133,11 +135,11 @@ ms.locfileid: "8330712"
 | `ToOperationNumber` | ไม่จำเป็นต้องระบุ | เลขจำนวนเต็ม|
 | `InventoryLotId` | ไม่จำเป็นต้องระบุ | สตริง |
 | `BaseValue` | ไม่จำเป็นต้องระบุ | สตริง |
-| `EndJob` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `EndPickingList` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `EndRouteCard` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `PostNow` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `AutoUpdate` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `EndJob` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `EndPickingList` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `EndRouteCard` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `PostNow` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `AutoUpdate` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
 | `ProductColorId` | ไม่จำเป็นต้องระบุ | สตริง|
 | `ProductConfigurationId` | ไม่จำเป็นต้องระบุ | สตริง |
 | `ProductSizeId` | ไม่จำเป็นต้องระบุ | สตริง |
@@ -181,7 +183,7 @@ ms.locfileid: "8330712"
 | `OperationNumber` | ไม่จำเป็นต้องระบุ | เลขจำนวนเต็ม |
 | `LineNumber` | ไม่จำเป็นต้องระบุ | จำนวนจริง |
 | `PositionNumber` | ไม่จำเป็นต้องระบุ | สตริง |
-| `IsConsumptionEnded` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `IsConsumptionEnded` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
 | `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
 | `InventoryLotId` | ไม่จำเป็นต้องระบุ | สตริง |
 
@@ -217,9 +219,9 @@ ms.locfileid: "8330712"
 | `ConsumptionDate` | ไม่จำเป็นต้องระบุ | วันที่ |
 | `TaskType` | ไม่จำเป็นต้องระบุ | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | ไม่จำเป็นต้องระบุ | Enum (None \| Material \| Machine \| OperatingStaff) ที่ขยายได้ |
-| `OperationCompleted` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `BOMConsumption` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `ReportAsFinished` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `OperationCompleted` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `BOMConsumption` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `ReportAsFinished` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
 
 ### <a name="end-production-order-message"></a>สิ้นสุดข้อความใบสั่งผลิต
 
@@ -230,9 +232,13 @@ ms.locfileid: "8330712"
 | `ProductionOrderNumber` | จำเป็น | สตริง |
 | `ExecutedDateTime` | ไม่จำเป็นต้องระบุ | วันที่และเวลา |
 | `EndedDate` | ไม่จำเป็นต้องระบุ | วันที่ |
-| `UseTimeAndAttendanceCost` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `AutoReportAsFinished` | ไม่จำเป็นต้องระบุ | บูลีน |
-| `AutoUpdate` | ไม่จำเป็นต้องระบุ | บูลีน |
+| `UseTimeAndAttendanceCost` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `AutoReportAsFinished` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+| `AutoUpdate` | ไม่จำเป็นต้องระบุ | Enum (ใช่ \| ไม่) |
+
+## <a name="other-production-information"></a>ข้อมูลการผลิตอื่นๆ
+
+ข้อความสนับสนุนการดำเนินการหรือเหตุการณ์ที่เกิดขึ้นในส่วนการผลิต ซึ่งจะประมวลผลโดยใช้กรอบงานการรวม MES ที่อธิบายไว้ในหัวข้อนี้ การออกแบบสันนิษฐานว่าข้อมูลอ้างอิงอื่นๆ ที่จะใช้ร่วมกันกับ MES (เช่น ข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์ หรือสูตรการผลิตหรือกระบวนการผลิต (ที่มีการตั้งค่าและเวลาการตั้งค่าคอนฟิกเฉพาะ) ที่ใช้ในใบสั่งผลิตหนึ่งๆ) จะถูกเรียกข้อมูลมาจากระบบที่ใช้ [เอนทิตี้ข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ผ่านทางการโอนย้ายไฟล์หรือ OData
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>รับผลป้อนกลับเกี่ยวกับสถานะของข้อความ
 

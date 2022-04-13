@@ -1,23 +1,23 @@
 ---
 title: จัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)
 description: หัวข้อนี้อธิบายวิธีการจัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860830"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462777"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>จัดการการตรวจสอบบัญชีหมายเลขบัญชีธนาคารระหว่างประเทศ (IBAN)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860830"
 
 การตรวจสอบ International Bank Account Number (IBAN) เพิ่มจำนวนการตรวจสอบที่เสร็จสิ้นแล้ว เมื่อคุณเพิ่ม IBAN ไปยังบัญชีธนาคาร
 
-ข้อมูลเกี่ยวกับโครงสร้างของ IBAN ถูกจัดเก็บใน Microsoft Dynamics 365 Finance ข้อมูลดังกล่าวถูกโหลดโดยอัตโนมัติ เมื่อคุณใช้ IBAN สำหรับบัญชีธนาคารเป็นครั้งแรก ประกอบด้วยความยาวของ IBAN ตำแหน่งเริ่มต้นของหมายเลขบัญชีธนาคาร และหมายเลขเส้นทาง และความยาวของหมายเลขบัญชีธนาคารและหมายเลขเส้นทาง
+ข้อมูลเกี่ยวกับโครงสร้างของ IBAN จะจัดเก็บอยู่ใน Microsoft Dynamics 365 Finance และโหลดโดยอัตโนมัติเมื่อคุณใช้ IBAN กับบัญชีธนาคารในครั้งแรก ประกอบด้วยความยาวของ IBAN ตำแหน่งเริ่มต้นของหมายเลขบัญชีธนาคาร และหมายเลขเส้นทาง และความยาวของหมายเลขบัญชีธนาคารและหมายเลขเส้นทาง
 
 ## <a name="set-up-iban-structures"></a>ตั้งค่าโครงสร้าง IBAN
 
 1. ไปที่ **การจัดการเงินสดและธนาคาร \> การตั้งค่า \> โครงสร้าง IBAN**
 2. โปรดสังเกตว่า โครงสร้าง IBAN สำหรับแต่ละประเทศหรือภูมิภาคถูกตั้งค่าไว้โดยอัตโนมัติ
-3. ถ้าคุณต้องการกำหนดโครงสร้างสำหรับประเทศหรือภูมิภาคบางแห่ง คุณสามารถแก้ไขได้
+3. เลือกปุ่ม **แก้ไข** ถ้าต้องอัปเดตโครงสร้างเฉพาะประเทศหรือภูมิภาคที่ระบุ
 4. คำนิยามโครงสร้างจะเป็นส่วนหนึ่งของรุ่นใหม่แต่ละรุ่น คุณสามารถใช้เมนู **รีเซ็ตโครงสร้าง** เพื่อโหลดนิยามล่าสุด หลังการปรับปรุงแต่ละครั้ง
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>ตรวจสอบความถูกต้องของโครงสร้างทางบัญชี IBAN ในบัญชีธนาคาร

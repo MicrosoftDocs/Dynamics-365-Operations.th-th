@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024578"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487807"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>การผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources - อัปเดตรีลีส 10.0.25
 
@@ -34,7 +34,7 @@ ms.locfileid: "8024578"
     - มีฐานโค้ดเดียวซึ่งเป็นฟังก์ชันใหม่สำหรับ Human Resources โดยออกมาเป็นส่วนหนึ่งของกระบวนการอัปเดตรุ่นหนึ่ง
     - วิธีที่การอัปเกรด การอัปเดต และโปรแกรมแก้ไขด่วนจะใช้กับสภาพแวดล้อมจะสอดคล้องกัน
 
-- [ตัวเลือกความสามารถในการเพิ่มฟังก์ชันได้รับการปรับปรุงแล้ว](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [ตัวเลือกความสามารถในการเพิ่มฟังก์ชันได้รับการปรับปรุงแล้ว](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - คุณสามารถใช้ Microsoft Power Platform Tools เพื่อขยายได้ตามต้องการ
     - คุณสามารถขยายฟังก์ชันผ่านแบบฟอร์ม ตาราง วิธีการ และ Application Programming Interface (API)
@@ -42,7 +42,7 @@ ms.locfileid: "8024578"
 
     หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับตัวเลือกส่วนขยายที่พร้อมใช้งาน ให้ดูที่ [ภาพรวมของคความสามารถในการเพิ่มฟังก์ชันใน Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)
 
-- [สร้างความสามารถด้านทรัพยากรบุคคลหนึ่งชุดใน Dynamics 365](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [สร้างความสามารถด้านทรัพยากรบุคคลหนึ่งชุดใน Dynamics 365](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     ในรีลีส 10.0.25 ความสามารถในการทำงานที่มีอยู่เฉพาะใน Human Resources พร้อมใช้งานบนโครงสร้างพื้นฐานของการเงินและการดำเนินงาน เพื่อให้ลูกค้าสามารถใช้คุณสมบัติเหล่านี้ในสภาพแวดล้อมการเงินและการดำเนินงานได้ ต้องเปิดใช้งานคุณลักษณะของ Human Resources ต่อไปนี้ในการจัดการคุณลักษณะ
 

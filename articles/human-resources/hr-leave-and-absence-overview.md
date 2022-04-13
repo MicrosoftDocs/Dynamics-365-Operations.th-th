@@ -14,17 +14,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9f5706d91f36817011ba26235b91731b0501f6bf
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069032"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509239"
 ---
 # <a name="leave-and-absence-overview"></a>ภาพรวมการลางานและการขาดงาน
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>ฟังก์ชันที่ระบุไว้ในหัวข้อนี้สามารถใช้งานได้กับลูกค้า Dynamics 365 Human Resources ในระบบที่แยกต่างหากได้แล้ว ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของ Finance หลังจากการเผยแพร่ Finance 10.0.26
+
+
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

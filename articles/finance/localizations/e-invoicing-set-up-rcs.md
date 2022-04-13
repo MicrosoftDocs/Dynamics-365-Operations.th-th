@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 33aab6f0a482ce3d90a7e9828015a8e7bebb7827
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 6aed74656ceb8edd0e88adf53b61fcae81241f54
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371837"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470190"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>ตั้งค่า Regulatory Configuration Service (RCS)
 
@@ -50,6 +50,13 @@ ms.locfileid: "8371837"
     | สหราชอาณาจักร             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | เอเชีย                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | ญี่ปุ่น                      | <p>`https://gw.jp-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | สวิตเซอร์แลนด์                | <p>`https://gw.ch-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | บราซิล                     | <p>`https://gw.br-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.br-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | สหรัฐอาหรับเอมิเรตส์       | <p>`https://gw.ae-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ออสเตรเลีย                  | <p>`https://gw.au-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.au-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | แคนาดา                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | ฝรั่งเศส                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | อินเดีย                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. ตรวจสอบว่ามีการตั้งค่าฟิลด์ **รหัสแอปพลิเคชัน** เป็น **0cdb527f-a8d1-4bf8-9436-b352c68682b2** ค่านี้เป็นค่าคงที่ ตรวจสอบให้แน่ใจว่ามีเพียงรหัสเฉพาะสากล (GUID) เท่านั้นที่ป้อน ค่านี้ไม่รวมสัญลักษณ์อื่นใด เช่น ช่องว่าง เครื่องหมายจุลภาค เครื่องหมายจุด หรือเครื่องหมายอัญประกาศ
 4. ในฟิลด์ **รหัสสภาพแวดล้อม LCS** ให้ป้อนรหัสของสภาพแวดล้อม Microsoft Dynamics Lifecycle Services (LCS) ของคุณ ค่านี้เป็นการอ้างอิงถึงสภาพแวดล้อม Finance หรือ Supply Chain Management ที่คุณจะใช้กับบริการออกใบแจ้งหนี้อิเล็กทรอนิกส์ เมื่อต้องการขอรับรหัสของคุณ ให้ลงชื่อเข้าใช้ [LCS](https://lcs.dynamics.com/) เปิดโครงการของคุณ จากนั้นบนแท็บ **จัดการสภาพแวดล้อม** ในส่วน **รายละเอียดสภาพแวดล้อม** ให้ค้นหาในฟิลด์ **รหัสสภาพแวดล้อม**

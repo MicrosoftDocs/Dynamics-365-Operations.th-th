@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781974"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492933"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>บทช่วยสอน Regression Suite Automation Tool
 
@@ -43,7 +43,7 @@ RSAT ช่วยให้คุณสามารถรวมขั้นตอ
     5. ในรายการนี้ ให้ทำเครื่องหมายแถวที่เลือก
     6. ตรวจสอบความถูกต้องว่าค่าของฟิลด์ **ทั้งหมดที่พร้อมใช้งาน** คือ **411.0000000000000000**
 
-2. บันทึกการบันทึกงานเป็น **การบันทึกของนักพัฒนา** และแนบไปกับกรณีการทดสอบของคุณใน Azure Devops
+2. บันทึกการบันทึกงานเป็น **การบันทึกของนักพัฒนา** และแนบไปกับกรณีทดสอบของคุณใน Azure DevOps
 3. เพิ่มกรณีการทดสอบไปยังแผนการทดสอบ และโหลดกรณีการทดสอบลงใน RSAT
 4. เปิดไฟล์พารามิเตอร์ Excel และไปที่แท็บ **TestCaseSteps**
 5. เมื่อต้องการตรวจสอบความถูกต้องว่าปริมาณคงคลังคงเหลือจะมากกว่า **0** ให้ไปที่ขั้นตอน **ตรวจสอบความถูกต้องของผลรวมที่พร้อมใช้งาน** และเปลี่ยนค่าจาก **411** เป็น **0** เปลี่ยนค่าของฟิลด์ **พนักงานปฏิบัติการ** จากเครื่องหมายเท่ากับ (**=**) เป็นเครื่องหมายที่มากกว่า (**\>**)
@@ -91,7 +91,7 @@ RSAT ช่วยให้คุณสามารถใช้งานการ
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-เมื่อคุณรันกรณีการทดสอบ RSAT สร้างสแนปช็อต (รูปภาพ) ของขั้นตอนและบันทึกในโฟลเดอร์การเล่นของกรณีการทดสอบในไดเรกทอรีการทำงาน ในโฟลเดอร์ชื่ออื่น โฟลเดอร์ย่อยที่แยกต่างหากจะถูกสร้างขึ้นชื่อว่า **StepSnapsdrives** โฟลเดอร์นั้นจะมีสแนปช็อตเกี่ยวกับกรณีการทดสอบที่รันอยู่
+เมื่อคุณรันกรณีทดสอบ RSAT สร้างสแนปช็อต (รูปภาพ) ของขั้นตอนและบันทึกในโฟลเดอร์การเล่นของกรณีทดสอบในไดเรกทอรีการทำงาน ในโฟลเดอร์ชื่ออื่น โฟลเดอร์ย่อยที่แยกต่างหากจะถูกสร้างขึ้นชื่อว่า **StepSnapsdrives** โฟลเดอร์นั้นจะมีสแนปช็อตเกี่ยวกับกรณีการทดสอบที่รันอยู่
 
 ## <a name="assignment"></a>การกำหนด
 
@@ -172,6 +172,7 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 #### <a name=""></a>?
 
-แสดงวิธีใช้เกี่ยวกับคำสั่งที่มีอยู่ทั้งหมดและพารามิเตอร์
+แสดงรายการคำสั่งทั้งหมดหรือแสดงวิธีใช้ของคำสั่งเฉพาะ พร้อมกับพารามิเตอร์ที่สามารถใช้งานได้
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: พารามิเตอร์ที่ไม่จำเป็นต้องระบุ
 
-`command`: ที่ซึ่ง ``[command]`` เป็นหนึ่งในคำสั่งที่ระบุไว้ด้านล่าง
+`command`: โดยที่ ``[command]`` เป็นหนึ่งในคำสั่งในรายการที่มาก่อนหน้า
 
 #### <a name="about"></a>เกี่ยวกับ
 
-แสดงรุ่นปัจจุบัน
+แสดงรุ่นของ RSAT ที่ติดตั้ง
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,21 +219,57 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 #### <a name="download"></a>ดาวน์โหลด
 
-ดาวน์โหลดเอกสารแนบสำหรับกรณีทดสอบที่ระบุไปยังไดเรกทอรีผลลัพธ์
-คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+ดาวน์โหลดสิ่งที่แนบ (ไฟล์การบันทึก ปฏิบัติการ และพารามิเตอร์) สำหรับกรณีทดสอบที่ระบุจาก Azure DevOps ไปยังไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>ดาวน์โหลด: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการดาวน์โหลดจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
 
 ##### <a name="download-required-parameters"></a>ดาวน์โหลด: พารามิเตอร์ที่ต้องใช้
 
 + `test_case_id`: แสดงรหัสกรณีทดสอบ
-+ `output_dir`: แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="download-optional-parameters"></a>ดาวน์โหลด: พารามิเตอร์ที่เลือกได้
+
++ `output_dir`: แสดงถึงไดเรกทอรีการทำงานที่เป็นผลลัพธ์ ต้องมีไดเรกทอรีอยู่ ไดเรกทอรีการทำงานจากการตั้งค่าจะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ไว้
 
 ##### <a name="download-examples"></a>ดาวน์โหลด: ตัวอย่าง
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+ดาวน์โหลดสิ่งที่แนบ (ไฟล์การบันทึก ปฏิบัติการ และพารามิเตอร์) สำหรับกรณีทดสอบทั้งหมดในชุดการทดสอบที่ระบุจาก Azure DevOps ไปยังไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ เป็นพารามิเตอร์ **test_suite_name**
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการดาวน์โหลดจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/byid`: สวิตช์นี้แสดงว่าชุดการทดสอบที่ต้องการระบุโดยรหัส Azure DevOps แทนชื่อชุดการทดสอบ
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite: พารามิเตอร์ที่ต้องใช้
+
++ `test_suite_name`: แสดงชื่อชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ไม่ได้** ระบุไว้ ชื่อนี้เป็นชื่อชุดการทดสอบ Azure DevOps
++ `test_suite_id`: แสดงรหัสชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ได้** ระบุไว้ รหัสนี้เป็นรหัส Azure DevOps ชุดการทดสอบ
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite: พารามิเตอร์ที่เลือกได้
+
++ `output_dir`: แสดงถึงไดเรกทอรีการทำงานที่เป็นผลลัพธ์ ต้องมีไดเรกทอรีอยู่ ไดเรกทอรีการทำงานจากการตั้งค่าจะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ไว้
+
+##### <a name="downloadsuite-examples"></a>downloadsuite: ตัวอย่าง
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>แก้ไข
 
@@ -244,7 +283,7 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 ##### <a name="edit-examples"></a>แก้ไข: ตัวอย่าง
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 สร้างการดำเนินการทดสอบและไฟล์พารามิเตอร์สำหรับกรณีทดสอบที่ระบุในไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generate: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการสร้างจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/dllonly`: สร้างไฟล์ปฏิบัติการทดสอบเท่านั้น ไม่จำเป็นต้องสร้างไฟล์พารามิเตอร์ Excel ใหม่อีกครั้ง
++ `/keepcustomexcel`: อัปเกรดไฟล์พารามิเตอร์ที่มีอยู่ และสร้างไฟล์ปฏิบัติการใหม่ด้วย
 
 ##### <a name="generate-required-parameters"></a>สร้าง: พารามิเตอร์ที่ต้องใช้
 
 + `test_case_id`: แสดงรหัสกรณีทดสอบ
-+ `output_dir`: แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="generate-optional-parameters"></a>สร้าง: พารามิเตอร์ที่เลือกได้
+
++ `output_dir`: แสดงถึงไดเรกทอรีการทำงานที่เป็นผลลัพธ์ ต้องมีไดเรกทอรีอยู่ ไดเรกทอรีการทำงานจากการตั้งค่าจะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ไว้
 
 ##### <a name="generate-examples"></a>สร้าง: ตัวอย่าง
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-สร้างกรณีการทดสอบใหม่ซึ่งสืบทอดมาจากกรณีการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+สร้างกรณีทดสอบใหม่ (กรณีทดสอบย่อย) ของกรณีทดสอบที่ระบุ กรณีทดสอบใหม่จะถูกเพิ่มเข้าไปในชุดการทดสอบที่ระบุด้วย คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการสร้างจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: พารามิเตอร์ที่ต้องใช้
 
@@ -281,39 +337,63 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-สร้างเฉพาะไฟล์การดำเนินการทดสอบและกรณีทดสอบที่ระบุในไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+สร้างเฉพาะไฟล์ปฏิบัติการทดสอบสำหรับกรณีทดสอบที่ระบุ ไม่ได้สร้างไฟล์พารามิเตอร์ Excel ไฟล์ถูกสร้างในไดเรกทอรีผลลัพธ์ที่ระบุ คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการสร้างจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: พารามิเตอร์ที่ต้องใช้
 
 + `test_case_id`: แสดงรหัสกรณีทดสอบ
-+ `output_dir`: แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: สวิตช์ที่เลือกได้
+
++ `output_dir`: แสดงถึงไดเรกทอรีการทำงานที่เป็นผลลัพธ์ ต้องมีไดเรกทอรีอยู่ ไดเรกทอรีการทำงานจากการตั้งค่าจะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ไว้
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: ตัวอย่าง
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-สร้างกรณีการทดสอบทั้งหมดสำหรับชุดที่ระบุในไดเรกทอรีผลลัพธ์ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์เป็นพารามิเตอร์ **test_suite_name**
+สร้างไฟล์ระบบอัตโนมัติทดสอบสำหรับกรณีทดสอบทั้งหมดในชุดการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ เป็นพารามิเตอร์ **test_suite_name**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการสร้างจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/dllonly`: สร้างไฟล์ปฏิบัติการทดสอบเท่านั้น ไม่จำเป็นต้องสร้างไฟล์พารามิเตอร์ Excel ใหม่อีกครั้ง
++ `/keepcustomexcel`: อัปเกรดไฟล์พารามิเตอร์ที่มีอยู่ และสร้างไฟล์ปฏิบัติการใหม่ด้วย
++ `/byid`: สวิตช์นี้แสดงว่าชุดการทดสอบที่ต้องการระบุโดยรหัส Azure DevOps แทนชื่อชุดการทดสอบ
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: พารามิเตอร์ที่ต้องใช้
 
-+ `test_suite_name`: แสดงชื่อชุดทดสอบ
-+ `output_dir`: แสดงถึงไดเรกทอรีผลลัพธ์ ต้องมีไดเรกทอรีอยู่
++ `test_suite_name`: แสดงชื่อชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ไม่ได้** ระบุไว้ ชื่อนี้เป็นชื่อชุดการทดสอบ Azure DevOps
++ `test_suite_id`: แสดงรหัสชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ได้** ระบุไว้ รหัสนี้เป็นรหัส Azure DevOps ชุดการทดสอบ
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: สวิตช์ที่เลือกได้
+
++ `output_dir`: แสดงถึงไดเรกทอรีการทำงานที่เป็นผลลัพธ์ ต้องมีไดเรกทอรีอยู่ ไดเรกทอรีการทำงานจากการตั้งค่าจะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ไว้
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: ตัวอย่าง
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>วิธีใช้
 
@@ -321,7 +401,7 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 #### <a name="list"></a>รายการ
 
-แสดงรายการกรณีที่มีการทดสอบทั้งหมดที่มีอยู่
+แสดงรายการกรณีทดสอบที่สามารถใช้งานทั้งหมดในแผนทดสอบปัจจุบัน
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-แสดงรายการกรณีทดสอบสำหรับชุดการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **suite_name**
+แสดงรายการกรณีทดสอบสำหรับชุดการทดสอบที่ระบุ คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบที่พร้อมใช้งานทั้งหมด และใช้ค่าใดๆ จากรายการเป็นพารามิเตอร์ **suite_name**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: พารามิเตอร์ที่ต้องใช้
 
-+ `suite_name`: ชื่อของชุดที่ต้องการ
++ `test_suite_name`: ชื่อของชุดที่ต้องการ
 
 ##### <a name="listtestsuite-examples"></a>listtestesite: ตัวอย่าง
 
@@ -347,33 +427,61 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+แสดงรายการกรณีทดสอบสำหรับชุดการทดสอบที่ระบุ
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid: พารามิเตอร์ที่ต้องใช้
+
++ `test_suite_id`: รหัสของชุดที่ต้องการ
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid: ตัวอย่าง
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-แสดงรายการชุดการทดสอบทั้งหมดที่มีอยู่
+แสดงรายการชุดการทดสอบที่สามารถใช้งานทั้งหมดในแผนทดสอบปัจจุบัน
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>ย้อนกลับ
 
-ย้อนกลับกรณีการทดสอบโดยใช้ไฟล์ Excel
+ย้อนกลับกรณีทดสอบที่เชื่อมโยงกับไฟล์พารามิเตอร์ Excel ที่ระบุ คำสั่งนี้ใช้ไฟล์ระบบอัตโนมัติเฉพาะที่ที่มีอยู่และไม่ได้ดาวน์โหลดไฟล์จาก Azure DevOps คำสั่งนี้ไม่รองรับกรณีทดสอบ POS Commerce
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>playback: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการเล่นจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/comments[="comment"]`: ระบุสตริงข้อมูลที่กำหนดเองซึ่งจะรวมอยู่ในฟิลด์ **ข้อคิดเห็น** หน้าสรุปและผลการทดสอบสำหรับการเรียกใช้กรณีทดสอบ Azure DevOps
 
 ##### <a name="playback-required-parameters"></a>ย้อนกลับ: พารามิเตอร์ที่ต้องใช้
 
-+ `excel_file`: พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่
++ `excel_parameter_file`: พาธเต็มของไฟล์พารามิเตอร์ Excel ต้องมีไฟล์อยู่
 
 ##### <a name="playback-examples"></a>ย้อนกลับ: ตัวอย่าง
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-ย้อนกลับกรณีการทดสอบหลายกรณีพร้อมกัน คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
+ย้อนกลับกรณีทดสอบหลายกรณีพร้อมกัน กรณีทดสอบจะระบุโดยรหัสของกรณีทดสอบ คำสั่งนี้จะดาวน์โหลดไฟล์จาก Azure DevOps คุณสามารถใช้คำสั่ง ``list`` เพื่อเรียกใช้กรณีทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **test_case_id**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการเล่นจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/comments[="comment"]`: ระบุสตริงข้อมูลที่กำหนดเองซึ่งจะรวมอยู่ในฟิลด์ **ข้อคิดเห็น** หน้าสรุปและผลการทดสอบสำหรับการเรียกใช้กรณีทดสอบ Azure DevOps
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: พารามิเตอร์ที่ต้องใช้
 
@@ -387,75 +495,132 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-ย้อนกลับกรณีทดสอบหลายกรณีพร้อมกันโดยใช้ไฟล์ Excel
+ย้อนกลับกรณีทดสอบหลายกรณีพร้อมกัน กรณีทดสอบจะระบุโดยไฟล์พารามิเตอร์ Excel คำสั่งนี้ใช้ไฟล์ระบบอัตโนมัติเฉพาะที่ที่มีอยู่และไม่ได้ดาวน์โหลดไฟล์จาก Azure DevOps
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการเล่นจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/comments[="comment"]`: ระบุสตริงข้อมูลที่กำหนดเองซึ่งจะรวมอยู่ในฟิลด์ **ข้อคิดเห็น** หน้าสรุปและผลการทดสอบสำหรับการเรียกใช้กรณีทดสอบ Azure DevOps
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: พารามิเตอร์ที่ต้องใช้
 
-+ `excel_file1`: พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่
-+ `excel_file2`: พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่
-+ `excel_fileN`: พาธแบบเต็มไปที่ไฟล์ Excel ต้องมีไฟล์อยู่
++ `excel_parameter_file1`: พาธเต็มของไฟล์พารามิเตอร์ Excel ต้องมีไฟล์อยู่
++ `excel_parameter_file2`: พาธเต็มของไฟล์พารามิเตอร์ Excel ต้องมีไฟล์อยู่
++ `excel_parameter_fileN`: พาธเต็มของไฟล์พารามิเตอร์ Excel ต้องมีไฟล์อยู่
 
 ##### <a name="playbackmany-examples"></a>playbackmany: ตัวอย่าง
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-ย้อนกลับกรณีทดสอบทั้งหมดจากชุดทดสอบที่ระบุ
-คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบทั้งหมดที่มีอยู่ ใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **suite_name**
+ย้อนกลับกรณีทดสอบทั้งหมดจากชุดการทดสอบที่ระบุอย่างน้อยหนึ่งชุด ถ้ามีการระบุสวิตช์ /local จะมีการใช้สิ่งที่แนบเฉพาะที่กับการย้อนกลับ มิฉะนั้นสิ่งที่แนบจะถูกดาวน์โหลดจาก Azure DevOps คุณสามารถใช้คำสั่ง ``listtestsuitenames`` เพื่อเรียกใช้ชุดการทดสอบที่สามารถใช้งานทั้งหมด และใช้ค่าใดๆ จากคอลัมน์แรกเป็นพารามิเตอร์ **suite_name**
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite: สวิตช์ที่เลือกได้
+
++ `/updatedriver`: ถ้ามีการระบุสวิตช์นี้ โปรแกรม WebDriver ของอินเทอร์เน็ตเบราว์เซอร์จะอัปเดตตามความจำเป็นก่อนที่จะเรียกใช้กระบวนการเล่น
++ `/local`: สวิตช์นี้แสดงว่าควรใช้สิ่งที่แนบเฉพาะที่สำหรับการเล่นแทนการดาวน์โหลดไฟล์จาก Azure DevOps
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการเล่นจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/comments[="comment"]`: ระบุสตริงข้อมูลที่กำหนดเองซึ่งจะรวมอยู่ในฟิลด์ **ข้อคิดเห็น** หน้าสรุปและผลการทดสอบสำหรับการเรียกใช้กรณีทดสอบ Azure DevOps
++ `/byid`: สวิตช์นี้แสดงว่าชุดการทดสอบที่ต้องการระบุโดยรหัส Azure DevOps แทนชื่อชุดการทดสอบ
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: พารามิเตอร์ที่ต้องใช้
 
-+ `suite_name`: ชื่อของชุดที่ต้องการ
++ `test_suite_name1`: แสดงชื่อชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ไม่ได้** ระบุไว้ ชื่อนี้เป็นชื่อชุดการทดสอบ Azure DevOps
++ `test_suite_nameN`: แสดงชื่อชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ไม่ได้** ระบุไว้ ชื่อนี้เป็นชื่อชุดการทดสอบ Azure DevOps
++ `test_suite_id1`: แสดงรหัสชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ได้** ระบุไว้ รหัสนี้เป็นรหัส Azure DevOps ชุดการทดสอบ
++ `test_suite_idN`: แสดงรหัสชุดทดสอบ ต้องใช้พารามิเตอร์นี้ถ้าสวิตช์ /byid **ได้** ระบุไว้ รหัสนี้เป็นรหัส Azure DevOps ชุดการทดสอบ
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: ตัวอย่าง
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+เรียกใช้กรณีทดสอบทั้งหมดในชุดการทดสอบ Azure DevOps ที่ระบุ
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: สวิตช์ที่เลือกได้
+
++ `/retry[=seconds]`: ถ้ามีการระบุสวิตช์นี้ และกรณีทดสอบถูกบล็อคโดยอินสแตนซ์ RSAT อื่นๆ กระบวนการเล่นจะรอตามจํานวนวินาทีที่ระบุแล้วลองอีกครั้ง ค่าเริ่มต้นสำหรับ \[วินาที\] คือ 120 วินาที ถ้าไม่มีสวิตช์นี้ กระบวนการจะถูกยกเลิกทันทีถ้ากรณีทดสอบถูกบล็อค
++ `/comments[="comment"]`: ระบุสตริงข้อมูลที่กำหนดเองซึ่งจะรวมอยู่ในฟิลด์ **ข้อคิดเห็น** หน้าสรุปและผลการทดสอบสำหรับการเรียกใช้กรณีทดสอบ Azure DevOps
++ `/byid`: สวิตช์นี้แสดงว่าชุดการทดสอบที่ต้องการระบุโดยรหัส Azure DevOps แทนชื่อชุดการทดสอบ
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: พารามิเตอร์ที่ต้องใช้
+
++ `test_suite_id`: แสดงรหัสชุดการทดสอบตามที่มีอยู่ใน Azure DevOps
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid: ตัวอย่าง
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>ออก
 
-ปิดแอพลิเคชัน
+ปิดแอปพลิเคชัน คำสั่งนี้มีประโยชน์เฉพาะเมื่อแอปพลิเคชันทำงานในโหมดเชิงโต้ตอบเท่านั้น
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>quit: ตัวอย่าง
+
+`quit`
+
 #### <a name="upload"></a>อัพโหลด
 
-อัพโหลดไฟล์ทั้งหมดที่เป็นของชุดทดสอบหรือกรณีการทดสอบที่ระบุ
+อัปโหลดไฟล์สิ่งที่แนบ (ไฟล์การบันทึก การปฏิบัติการ และพารามิเตอร์) ที่เป็นของชุดการทดสอบหรือกรณีทดสอบที่ระบุไปยัง Azure DevOps
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>อัปโหลด: พารามิเตอร์ที่ต้องใช้
+##### <a name="upload-required-parameters"></a>อัปโหลด: พารามิเตอร์ที่ต้องใช้
 
-+ `suite_name`: ไฟล์ทั้งหมดที่เป็นของชุดทดสอบที่ระบุจะถูกอัปโหลด
-+ `testcase_id`: ไฟล์ทั้งหมดที่เป็นของกรณีทดสอบที่ระบุจะถูกอัปโหลด
++ `test_suite_name`: ไฟล์ทั้งหมดที่เป็นของชุดการทดสอบที่ระบุจะถูกอัปโหลด
++ `test_case_id1`: แสดงรหัสกรณีทดสอบแรกที่ควรอัปโหลด ใช้พารามิเตอร์นี้เฉพาะเมื่อไม่ได้ระบุชื่อชุดการทดสอบไว้เท่านั้น
++ `test_case_idN`: แสดงรหัสกรณีทดสอบสุดท้ายที่ควรอัปโหลด ใช้พารามิเตอร์นี้เฉพาะเมื่อไม่ได้ระบุชื่อชุดการทดสอบไว้เท่านั้น
 
 ##### <a name="upload-examples"></a>อัปโหลด: ตัวอย่าง
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-อัพโหลดเฉพาะไฟล์การบันทึกที่เป็นของกรณีการทดสอบที่ระบุ
+อัปโหลดเฉพาะไฟล์การบันทึกที่เป็นของกรณีทดสอบที่ระบุอย่างน้อยหนึ่งรายการไปยัง Azure DevOps
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: พารามิเตอร์ที่ต้องใช้
 
-+ `testcase_id`: ไฟล์การบันทึกที่เป็นของกรณีการทดสอบที่ระบุจะถูกอัปโหลด
++ `test_case_id1`: แสดงรหัสกรณีทดสอบแรกสำหรับการบันทึกที่ควรอัปโหลดไปยัง Azure DevOps
++ `test_case_idN`: แสดงรหัสกรณีทดสอบสุดท้ายสำหรับการบันทึกที่ควรอัปโหลดไปยัง Azure DevOps
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: ตัวอย่าง
 
@@ -465,9 +630,21 @@ RSAT สามารถถูกเรียกจากหน้าต่าง
 
 #### <a name="usage"></a>การใช้
 
-แสดงวิธีสองวิธีในการเรียกใช้แอพลิเคชันนี้: วิธีหนึ่งโดยใช้ไฟล์การตั้งค่าเริ่มต้น อีกวิธีหนึ่งให้ไฟล์การตั้งค่า
+แสดงโหมดการใช้งานของแอปพลิเคชันนี้สามโหมด
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+การเรียกใช้แอปพลิเคชันในแบบโต้ตอบ:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+การเรียกใช้แอปพลิเคชันโดยระบุคำสั่ง:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+การเรียกใช้แอปพลิเคชันในโดยระบุไฟล์การตั้งค่า:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>ตัวอย่างของ Windows PowerShell
 

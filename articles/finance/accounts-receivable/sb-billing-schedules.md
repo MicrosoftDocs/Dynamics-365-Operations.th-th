@@ -1,5 +1,5 @@
 ---
-title: ภาพรวมของกำหนดการเรียกเก็บเงิน
+title: สร้างกำหนดการเรียกเก็บเงิน
 description: หัวข้อนี้อธิบายวิธีการสร้าง ลบ และแก้ไขกำหนดการเรียกเก็บเงิน
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182704"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462600"
 ---
-# <a name="billing-schedule-overview"></a>ภาพรวมของกำหนดการเรียกเก็บเงิน
+# <a name="create-billing-schedules"></a>สร้างกำหนดการเรียกเก็บเงิน
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 บนหน้า **กำหนดการเรียกเก็บเงิน** คุณสามารถสร้าง ลบ หรือแก้ไขกำหนดการเรียกเก็บเงินได้ คุณยังสามารถทบทวนรายการกำหนดการเรียกเก็บเงินได้ด้วย เมื่อคุณสร้างกําหนดการเรียกเก็บเงิน ค่าเริ่มต้นจะถูกกําหนดโดยกลุ่มการเรียกเก็บเงินที่เชื่อมโยงอยู่ ข้อมูลเพิ่มเติมมีการตั้งค่าบนหน้า **พารามิเตอร์การเรียกเก็บเงินตามสัญญาที่เกิดซ้ำ**
 
