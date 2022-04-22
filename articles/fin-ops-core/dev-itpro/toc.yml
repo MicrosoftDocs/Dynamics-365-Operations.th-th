@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.25 (เมษายน 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.24 (กุมภาพันธ์ 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
+                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
+                      href: analytics/install-network-printer-onprem.md
                     - name: การวินิจฉัยแบบในสถานที่
                       href: deployment/on-premises-diagnostics.md
                     - name: การตั้งค่าคอนฟิกการกู้คืนความเสียหายในสถานที่
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับ VM สำหรับการพัฒนาและการสร้างที่ไม่อนุญาตให้ผู้ดูแลระบบเข้าถึง
                   href: sysadmin/VMs-no-admin-access.md
+                - name: ตั้งค่า VHD ที่ดาวน์โหลดได้เพื่อการใช้งานครั้งแรก
+                  href: dev-tools/vhd-setup.md
                 - name: เปลี่ยนชื่อสภาพแวดล้อมภายในเครื่องเพื่อเข้าถึง Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: ความต้องการของระบบการพัฒนา
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: ส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: บทช่วยสอนส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: การรวม Microsoft Power Platform
           items:
             - name: ภาพรวม
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: รัน Regression Suite Automation Tool (RSAT) ที่มีการรันแบบขนาน
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: รวม RSAT เข้ากับไปป์ไลน์ Azure DevOps
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: การแก้ไขปัญหา
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: นำโซลูชันออกใช้โดยใช้ Lifecycle Services

@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (เมษายน)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (กุมภาพันธ์)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: คัดลอกกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: คุณลักษณะกำหนดการเรียกเก็บเงิน
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: การเรียกเก็บเงินตามเหตุการณ์สำคัญ
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: กระบวนการของการสนับสนุนและการต่ออายุ
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: กำหนดการดัชนีราคาผู้บริโภค
+                      href: accounts-receivable/cpischedules.md
                     - name: สิ้นสุดกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: การรอตัดบัญชีรายได้และค่าใช้จ่าย
-                  items: null
+                  items:
+                    - name: ตั้งค่าการรอตัดบัญชีรายได้และค่าใช้จ่าย
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: กำหนดการรอตัดบัญชี
+                      items:
+                        - name: สร้างกำหนดการรอตัดบัญชี
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: ธุรกรรมเริ่มต้นในการรอตัดบัญชี
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: การปันส่วนรายได้แบบหลายองค์ประกอบ
-                  items: null
+                  items:
+                    - name: ตั้งค่าการปันส่วนรายได้แบบหลายองค์ประกอบ
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: การชำระเงินและการตัดจ่าย
               items:
                 - name: ภาพรวมของการชำระเงินของลูกค้า
@@ -922,6 +936,8 @@
               items:
                 - name: วางแผนผังบัญชีของคุณ
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: วางแผนผังบัญชีภายในของคุณ
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: บัญชีหลัก
                   items:
                     - name: ประเภทชนิดบัญชีหลัก
@@ -2286,7 +2302,7 @@
                       href: localizations/emea-fra-fec-audit-file-pre-requisites.md
                     - name: โครงสร้างแหล่งข้อมูล Finance สำหรับ FEC
                       href: localizations/emea-fra-fec-audit-file-structure.md
-                    - name: การจัดเตรียมสภาพแวดล้อมของคุณเพื่อสร้าง FEC
+                    - name: จัดเตรียมสภาพแวดล้อมของคุณเพื่อสร้าง FEC
                       href: localizations/emea-fra-fec-audit-file-setup.md
                     - name: สร้าง FEC ใน Dynamics 365 Finance
                       href: localizations/emea-fra-fec-audit-file-generation.md
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI เวอร์ชัน 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI เวอร์ชัน 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: รหัสการลงทะเบียนลูกค้าและข้อมูลอื่นๆ
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: สถานะการรายงานภาษี DIOT
@@ -3745,7 +3763,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json
                     - name: รันตัวแทนการกำหนดเส้นทางเอกสารเป็นบริการของ Windows
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/finance/toc.json
-                - name: รายงานของบริการจัดทำรายงาน SQL Server ที่มีอยู่
+                - name: รายงานของ SQL Server Reporting Services ที่มีอยู่
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/finance/toc.json
                 - name: ติดตั้งเทมเพลตการออกแบบรายงาน
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/finance/toc.json
