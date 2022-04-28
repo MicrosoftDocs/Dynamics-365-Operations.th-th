@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 48a75cd0c1d91c3b3d9c3fb2e6cab93a76756532
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388572"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612330"
 ---
 # <a name="failed-to-access-tax-service"></a>ไม่สามารถเข้าถึงบริการภาษี
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการแก้ไขข้อผิดพลาด "ไม่สามารถเข้าถึงบริการภาษี" ของบริการคํานวณภาษี
 
 ## <a name="symptoms"></a>อาการ
 
-ใน Microsoft Dynamics 365 Finance ให้คุณไปที่ **ภาษี** \> **การตั้งค่า** \> **การตั้งค่าคอนฟิกภาษี** \> **พารมิเตอร์บริการภาษี** บนแท็บ **ทั่วไป** คุณสามารถเปิดใช้งานตัวเลือก **เปิดใช้งานการคํานวณภาษี** จากนั้นให้ลองเลือกค่าในฟิลด์ **ชื่อการตั้งค่าคุณลักษณะ** จะเกิดข้อผิดพลาดขึ้น ข้อความแสดงข้อผิดพลาดระบุว่า "ไม่สามารถเข้าถึงบริการภาษี"
+ใน Microsoft Dynamics 365 Finance ให้คุณไปที่ **ภาษี** \> **การตั้งค่า** \> **การตั้งค่าคอนฟิกภาษี** \> **พารามิเตอร์บริการภาษี** บนแท็บ **ทั่วไป** คุณสามารถเปิดใช้งานตัวเลือก **เปิดใช้งานการคํานวณภาษี** จากนั้นให้ลองเลือกค่าในฟิลด์ **ชื่อการตั้งค่าคุณลักษณะ** จะเกิดข้อผิดพลาดขึ้น ข้อความแสดงข้อผิดพลาดระบุว่า "ไม่สามารถเข้าถึงบริการภาษี"
 
 ## <a name="cause"></a>สาเหตุ
 

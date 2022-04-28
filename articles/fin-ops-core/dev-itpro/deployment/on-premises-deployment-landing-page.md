@@ -4,7 +4,8 @@ description: หัวข้อนี้แสดงข้อมูลและ�
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712579"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566052"
 ---
-# <a name="on-premises-deployment-home-page"></a>โฮมเพจตัวเลือกการปรับใช้ในสถานที่
+# <a name="on-premises-deployment-home-page"></a>โฮมเพจการปรับใช้ในสถานที่
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,7 +73,7 @@ ms.locfileid: "6712579"
 - [สคริปต์สำหรับการแก้ไขปัญหาในสภาพแวดล้อมในสถานที่](onprem-tsg-implementations.md)
 - [การหมุนเวียนใบรับรอง](certificate-rotation-on-prem.md)
 - [การวินิจฉัยแบบในสถานที่](on-premises-diagnostics.md)
-- [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [คุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนสำหรับ Finance and operations](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)
  
 

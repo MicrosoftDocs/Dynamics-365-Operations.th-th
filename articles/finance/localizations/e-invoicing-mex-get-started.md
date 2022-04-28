@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986369"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566012"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 
@@ -141,7 +141,7 @@ ms.locfileid: "7986369"
 1. บนหน้า **การตั้งค่ารุ่นคุณลักษณะ** บนแท็บ **ตัวแปร** ให้เลือกชื่อตัวแปร **DigitalSignatureXSLT**
 2. ในฟิลด์ **ค่า** ป้อน: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    โดยที่: <RelativePath> = folder\\folder\\filename มีเครื่องหมายทับขวาคู่ ContainerName ต้องแสดงคอนเทนเนอร์ที่ใช้กับบริการ
+    โดยที่: \<RelativePath\> = folder\\folder\\filename มีเครื่องหมายทับขวาคู่ ContainerName ต้องแสดงคอนเทนเนอร์ที่ใช้กับบริการ
    
     ตัวอย่างของตัวแปรจะเป็นดังนี้
     

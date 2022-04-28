@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469407"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548180"
 ---
 # <a name="inventory-forecasts"></a>การคาดการณ์สินค้าคงคลัง
 
@@ -39,7 +39,7 @@ ms.locfileid: "8469407"
 - [สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 - [นำเข้าข้อมูลในอดีตสำหรับการคาดการณ์ความต้องการ](import-historical-data.md)
 - [สร้างการคาดการณ์โดยใช้บริการเว็บ Microsoft Azure Machine Learning](demand-forecasting-setup.md)
-- [นําเข้ารายการความต้องการหรือการคาดการณ์การจัดหาวัสดุโดยใช้กรอบงานการจัดการข้อมูล (ForecastDemandForescastEntryStaging และ ForecastSupplyForescastEntryStaging)](../../dev-itpro/data-entities/data-entities-data-packages.md)
+- [นําเข้ารายการความต้องการหรือการคาดการณ์การจัดหาวัสดุโดยใช้กรอบงานการจัดการข้อมูล (ForecastDemandForescastEntryStaging และ ForecastSupplyForescastEntryStaging)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
 
 ในตารางในขั้นตอนที่ 1 แสดง มีวิธีต่างๆ ในการเข้าถึงหน้าที่ใช้
 

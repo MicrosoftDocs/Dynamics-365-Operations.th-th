@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087561"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570295"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.24 (กุมภาพันธ์ 2022)
 
@@ -63,7 +63,7 @@ ms.locfileid: "8087561"
 | การวางแผนหลัก | [ใช้สมุดรายวันปริมาณสินค้าคงคลังที่ปลอดภัยเพื่ออัปเดตความครอบคลุมขั้นต่ำสำหรับสินค้า](../master-planning/safety-stock-journal.md) |
 | การควบคุมการผลิต | [กำหนดอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-customize.md) |
 | การควบคุมการผลิต | [ออกแบบอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-styles.md) |
-| การขายและการตลาด | [การปรับปรุงประสิทธิภาพการล้างประวัติการขาย](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| การขายและการตลาด | [จัดกำหนดการล้างข้อมูลประวัติการขาย](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | การจัดการคลังสินค้า | [บัญชีผู้ใช้ของอุปกรณ์เคลื่อนที่](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
