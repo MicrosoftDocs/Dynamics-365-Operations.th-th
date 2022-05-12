@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062736"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661471"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Dynamics 365 Human Resources
 
@@ -43,7 +43,7 @@ Dynamics 365 Human Resources เป็นแอปพลิเคชันแบ
 - โดยจะมีความสอดคล้องระหว่างแอป Dynamics 365 Human Resources กับแอปการเงินและการดำเนินงานอื่นๆ ในแง่ของ Application Lifecycle Management (ALM), Microsoft Dynamics Lifecycle Services (LCS), ความพร้อมใช้งานทางภูมิศาสตร์ ความสามารถในการเพิ่มฟังก์ชัน และอื่นๆ
 - ซึ่งช่วยให้คุณสามารถใช้ประโยชน์จากบริการและเครื่องมือที่ใช้ร่วมกัน และลดต้นทุนได้
 
-### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>องค์กรของฉันใช้โมดูล Human Resources module ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations เราจะเห็นประโยชน์อะไรจากการเปลี่ยนแปลงเหล่านี้
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>องค์กรของฉันใช้โมดูล Human Resources ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations เราจะเห็นประโยชน์อะไรจากการเปลี่ยนแปลงเหล่านี้
 
 ขณะนี้ ความสามารถและการลงทุนที่ทำใน Dynamics 365 Human Resources จะพร้อมใช้งานกับลูกค้าที่ไม่ได้ใช้โมดูล HR ใน Dynamics 365 Finance ความสามารถบางอย่างเหล่านี้รวมถึงการจัดการการลางานและการขาดงาน การจัดการสวัสดิการ และการจัดการงาน
 
@@ -69,7 +69,7 @@ Dynamics 365 Human Resources เป็นแอปพลิเคชันแบ
 
 หากองค์กรของคุณใช้ทั้งแอป Dynamics 365 Human Resources และแอปการเงินและการดำเนินงานอื่น คุณควรวางแผนเวลาเพิ่มเติมในการตรวจสอบความถูกต้องเพื่อให้แน่ใจว่าข้อมูลของคุณถูกย้ายไปยังสภาพแวดล้อมใหม่อย่างถูกต้อง การย้ายไปยังโครงสร้างพื้นฐานใหม่จะผสานข้อมูลจากสภาพแวดล้อมทรัพยากรบุคคลกับสภาพแวดล้อมการเงินและการดำเนินงานของคุณ ข้อมูลที่มีความขัดแย้งจะต้องใช้ข้อมูลป้อนเข้าของผู้ใช้เพื่อกําหนดว่าควรจะแก้ไขความขัดแย้งอย่างไร ผู้ใช้และผู้ดูแลระบบต้องจัดการการแมปข้อมูลที่มีความขัดแย้งและทดสอบการย้ายในสภาพแวดล้อม Sandbox ก่อนการย้ายสภาพแวดล้อมการทำงานจริง
 
-### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>องค์กรของฉันใช้โมดูล Human Resources module ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations เราต้องวางแผนอะไรเพื่อย้ายไปยังประสบการณ์ใหม่
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>องค์กรของฉันใช้โมดูล Human Resources ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations เราต้องวางแผนอะไรเพื่อย้ายไปยังประสบการณ์ใหม่
 
 สำหรับองค์กรที่ใช้โมดูล HR ในแอปการเงินและการดำเนินงาน ฟังก์ชันคุณลักษณะใหม่จาก Dynamics 365 Human Resources จะใช้กับสภาพแวดล้อมของคุณโดยผ่านกระบวนการอัปเดตรุ่นหนึ่ง คุณสามารถคาดว่าจะเห็นฟังก์ชันใหม่ในสภาพแวดล้อมของคุณ เมื่อฟังก์ชันนั้นพร้อมใช้งานในแต่ละการอัปเดต คุณสามารถใช้การจัดการคุณลักษณะเพื่อเปิดคุณลักษณะใหม่ได้ อย่างไรก็ตาม คุณควรวางแผนเพื่อตรวจสอบความถูกต้องของคุณลักษณะเหล่านี้ ปฏิบัติตามกระบวนการที่คุณมีเพื่อตรวจสอบความถูกต้องของการอัปเดตอื่นๆ ในสภาพแวดล้อมของคุณ หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้การอัปเดตกับแอปการเงินและการดำเนินงาน ดูที่ [ภาพรวมรุ่นเดียว](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md)
 
@@ -223,7 +223,7 @@ Dynamics 365 Human Resources เป็นแอปพลิเคชันแบ
 
 ลูกค้าที่มีสิทธิ์การใช้งาน Dynamics 365 Human Resources ที่ซื้อจะไม่ได้รับผลกระทบ ไม่มีการย้ายการให้สิทธิ์การใช้งานระหว่างลูกค้าเหล่านี้ หน่วยการเก็บสต็อกสินค้า Sandbox เพิ่มเติม (SKU) เฉพาะของ Human Resources จะใช้ไม่ได้อีกต่อไป แต่ลูกค้าสามารถเลือกซื้อแอปการเงินและการดำเนินงาน Sandbox ระดับ 2 เท่านั้นที่ต้นทุนต่ำกว่าเล็กน้อยได้ ลูกค้าปัจจุบันที่ซื้อ Human Resources Sandbox จะย้ายไปยังแอปการเงินและการดำเนินงาน Sandbox ระดับ 2 โดยไม่มีค่าใช้จ่ายเพิ่มเติม
 
-### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>องค์กรของฉันใช้โมดูล Human Resources module ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations การให้สิทธิ์การใช้งานหรือต้นทุนของฉันเปลี่ยนแปลงหรือไม่
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>องค์กรของฉันใช้โมดูล Human Resources ใน Dynamics 365 Finance, Supply Chain Management, Commerce หรือ Project Operations การให้สิทธิ์การใช้งานหรือต้นทุนของฉันเปลี่ยนแปลงหรือไม่
 
 ผู้ใช้ปัจจุบันของแอป Dynamics 365 และผู้ใช้ Dynamics 365 Finance, Supply Chain Management, Commerce และ Project Operations แบบสแตนด์อโลนสามารถเข้าถึง Human Resources ซึ่งเป็นส่วนหนึ่งของสิทธิ์การใช้งานเหล่านั้นได้จนถึงเดือนกุมภาพันธ์ 2025 หรือจนกว่าข้อตกลงการให้สิทธิ์การใช้งานปัจจุบันจะหมดอายุ แล้วแต่ว่าข้อใดเกิดก่อน คุณสามารถเลือกที่จะย้ายไปยังสิทธิ์การใช้งานของ Human Resources ได้ก่อนหน้า หากช่วยให้คุณสามารถประหยัดต้นทุนได้ดีขึ้น เริ่มต้นจากเดือนกุมภาพันธ์ 2025 ลูกค้า CSP และ EA ปัจจุบันทั้งหมดต้องย้อนกลับโมดูล HR และซื้อสิทธิ์การใช้งาน Human Resources เพื่อใช้ประโยชน์จากความสามารถใหม่ที่จะมาถึงแอปการเงินและการดำเนินงาน
 
@@ -231,6 +231,3 @@ Dynamics 365 Human Resources เป็นแอปพลิเคชันแบ
 
 ไม่ สภาพแวดล้อมเพิ่มเติมไม่จำเป็นสำหรับสนับสนุนการเปลี่ยนแปลงโครงสร้างพื้นฐาน
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>ฉันควรไปที่ใดถ้ามีคำถามเพิ่มเติมเกี่ยวกับการให้สิทธิ์การใช้งานของผลิตภัณฑ์
-
-ถ้าคุณมีการสอบถามการให้สิทธิ์การใช้งาน คุณสามารถค้นหาข้อมูลเพิ่มเติมเกี่ยวกับ [การกําหนดราคาและการให้สิทธิ์การใช้งาน Biz Apps Hub – D365](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering) ถ้าข้อมูลนั้นไม่ได้ช่วยแก้ปัญหาของคุณ ให้เปิดคำขอกับ LicenseQ

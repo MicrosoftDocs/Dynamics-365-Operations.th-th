@@ -2,7 +2,7 @@
 title: จัดการผู้ใช้คู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซของ B2B
 description: หัวข้อนี้อธิบายวิธีการเพิ่ม ลบ และแก้ไขผู้ใช้ที่เป็นคู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซระหว่างธุรกิจกับธุรกิจ (B2B) Microsoft Dynamics 365 Commerce และในศูนย์ควบคุม Commerce
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323466"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616868"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>จัดการผู้ใช้คู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซของ B2B
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323466"
 หัวข้อนี้อธิบายวิธีการเพิ่ม ลบ และแก้ไขผู้ใช้ที่เป็นคู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซระหว่างธุรกิจกับธุรกิจ (B2B) Microsoft Dynamics 365 Commerce และในศูนย์ควบคุม Commerce
 
 > [!NOTE]
-> หัวข้อ [จัดการคู่ค้าทางธุรกิจ B2B โดยใช้ลำดับชั้นของลูกค้า](partners-customer-hierarchies.md) เป็นข้อกำหนดเบื้องต้นสำหรับเอกสารนี้ 
+> - หัวข้อ [จัดการคู่ค้าทางธุรกิจ B2B โดยใช้ลำดับชั้นของลูกค้า](partners-customer-hierarchies.md) เป็นข้อกำหนดเบื้องต้นสำหรับเอกสารนี้
+> - ตรวจสอบให้แน่ใจว่าคุณเริ่มต้นเอนทิตี้ชนิดเอกสารในศูนย์ควบคุม Commerce โดยเปิดแบบฟอร์ม **ชนิดเอกสาร** ที่ **การจัดการองค์กร \> การจัดการองค์กร \> ชนิดเอกสาร**
 
 เว็บไซต์อีคอมเมิร์ซของ B2B ต้องการให้องค์กรลงทะเบียนเป็นคู่ค้าทางธุรกิจ หลังจากที่องค์กรส่งรายละเอียดการลงทะเบียนไปที่เว็บไซต์อีคอมเมิร์ซของ B2B แล้ว คำขอการลงทะเบียนจะไปที่กระบวนการรับรองคุณสมบัติ หากองค์กรมีคุณสมบัติเหมาะสม จะได้รับการเตรียมความพร้อมเป็นคู่ค้าทางธุรกิจ
 

@@ -2,7 +2,7 @@
 title: ความต้องการสุทธิและข้อมูลเกี่ยวกับโซ่อุปทานที่เสริมด้วยการวางแผนหลัก
 description: หัวข้อนี้จะนำเสนอข้อมูลเกี่ยวกับความต้องการสุทธิที่คำนวณได้และข้อมูลเกี่ยวกับโซ่อุปทานที่เสริมด้วยการวางแผนหลัก
 author: t-benebo
-ms.date: 7/28/2021
+ms.date: 04/20/2022
 ms.topic: article
 ms.search.form: ReqTransOverview
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 19c64d62386a94494b729aa05b0612609812a418
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470442"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618301"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>ความต้องการสุทธิและข้อมูลเกี่ยวกับโซ่อุปทานที่เสริมด้วยการวางแผนหลัก
 
@@ -26,6 +26,8 @@ ms.locfileid: "8470442"
 
 หน้า **ความต้องการสุทธิ** แสดงความต้องการสุทธิที่คํานวณได้ สำหรับสินค้าที่อยู่ในระหว่างการวางแผนหลัก นอกจากนี้ ยังแสดงการตั้งค่าความครอบคลุมที่ใช้ในระหว่างการดำเนินการวางแผนหลัก รายละเอียดของความต้องการตามชนิดธุรกรรม และข้อมูลโซ่อุปทาน
 
-หน้า **ความต้องการสุทธิ** จะใช้งานได้ในลักษณะเดียวกัน ไม่ว่าคุณจะใช้ในการเพิ่มประสิทธิภาพการวางแผนหรือกลไกจัดการการวางแผนหลัก หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้งานหน้านี้ โปรดดูที่ [ความต้องการสุทธิ และข้อมูลโซ่อุปทาทนกับประสิทธิภาพการวางแผน](planning-optimization/net-requirements.md)
+หน้า **ความต้องการสุทธิ** จะทำงานในลักษณะต่างกันเล็กน้อย ไม่ว่าคุณจะใช้ในการเพิ่มประสิทธิภาพการวางแผนหรือกลไกจัดการการวางแผนหลัก สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความแตกต่างนี้ ดูที่ [ความแตกต่างระหว่างการวางแผนหลักในตัวและประสิทธิภาพการวางแผน](planning-optimization/planning-optimization-differences-with-built-in.md)
+
+หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้งานหน้านี้ โปรดดูที่ [ความต้องการสุทธิ และข้อมูลโซ่อุปทาทนกับประสิทธิภาพการวางแผน](planning-optimization/net-requirements.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

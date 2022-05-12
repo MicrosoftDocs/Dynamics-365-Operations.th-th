@@ -2,7 +2,7 @@
 title: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 description: หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323529"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649114"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 
@@ -334,9 +334,10 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-ในรหัสนี้ `_destination` เป็นออบเจ็กต์ตัวตัดคำที่ใช้ในการสร้างการร้องขอการลงรายการบัญชี และ `_source` เป็นออบเจ็กต์ `TaxIntegrationLineObject`
+ในโค้ดนี้ `_destination` เป็นออบเจ็กต์ตัวตัดคำที่ใช้ในการสร้างการร้องขอ และ `_source` เป็นออบเจ็กต์ `TaxIntegrationLineObject`
 
 > [!NOTE]
-> กําหนดคีย์ที่จะใช้ในฟอร์มการร้องขอเป็น **private const str** สตริงควรจะเหมือนกับชื่อหน่วยวัดที่เพิ่มในหัวข้อ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
-> ตั้งค่าฟิลด์ในวิธีการ **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** โดยใช้วิธีการ **SetField** ชนิดข้อมูลของพารามิเตอร์ที่สองควรเป็น **string** ถ้าชนิดข้อมูลไม่ใช่ **string** ให้แปลง
-> ถ้ามีการขยาย **ชนิด enum** ของ X++ ให้บันทึกความแตกต่างระหว่างค่า ป้ายชื่อ และชื่อ
+> กําหนดชื่อฟิลด์ที่จะใช้ในการร้องขอเป็น **private const str** สตริงควรจะเหมือนกับชื่อโหนด (ไม่ใช่ป้ายชื่อ) ที่เพิ่มในหัวข้อ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
 > 
+> ตั้งค่าฟิลด์ในวิธีการ **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** โดยใช้วิธีการ **SetField** ชนิดข้อมูลของพารามิเตอร์ที่สองควรเป็น **string** ถ้าชนิดข้อมูลไม่ใช่ **string** ให้แปลงเป็นสตริง
+> ถ้าชนิดข้อมูลเป็น X++ **enum type** เราขอแนะนำให้ใช้วิธีการ **enum2Symbol** เพื่อแปลงค่า enum เป็นสตริง ค่า enum ที่เพิ่มในการตั้งค่าคอนฟิกภาษีควรเหมือนกับชื่อ enum เท่านั้น ต่อไปนี้เป็นรายการความแตกต่างระหว่างค่า enum, ป้ายชื่อ และชื่อ
+> 
+>   - ชื่อของ enum เป็นชื่อสัญลักษณ์ในโค้ด **enum2Symbol()** สามารถแปลงค่า enum เป็นชื่อได้
 >   - ค่า enum เป็นจำนวนเต็ม
->   - ป้ายชื่อของ enum สามารถแตกต่างกันในภาษาที่ต้องการ อย่าใช้ **enum2Str** เพื่อแปลงชนิด enum เป็นสตริง
->   - แนะนำให้ใช้ชื่อของ enum เนื่องจากมีการแก้ไขแล้ว **enum2Symbol** สามารถใช้เพื่อแปลง enum เป็นชื่อได้ ค่าการแจงนับที่เพิ่มในการตั้งค่าคอนฟิกภาษีควรเหมือนกับชื่อ enum เท่านั้น
+>   - ป้ายชื่อของ enum สามารถแตกต่างกันในภาษาที่ต้องการ **enum2Str()** สามารถแปลงค่า enum เป็นป้ายชื่อได้
 
 ## <a name="model-dependency"></a>การขึ้นต่อกันของแบบโมเดล
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

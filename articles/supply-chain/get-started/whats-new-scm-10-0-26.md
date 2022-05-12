@@ -1,5 +1,5 @@
 ---
-title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
+title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
 description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.26
 author: kamaybac
 ms.date: 03/01/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547886"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625264"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่นพรีวิว 10.0.26 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1192 และพร้อมใช้งานดังนี้:
+หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.26 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1192 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** มีนาคม 2022
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** เมษายน 2022
@@ -34,10 +33,10 @@ ms.locfileid: "8547886"
 
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
-| สินค้าคงคลังและลอจิสติกส์ | [การสอบถามปริมาณคงเหลือของการมองเห็นสินค้าคลังที่จะรองรับสินค้าในการจัดการคลังสินค้าขั้นสูง](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [การสนับสนุนของ Inventory Visibility สำหรับสินค้า WHS](../inventory/inventory-visibility-whs-support.md) | การจัดการคุณลักษณะ:<br>*เปิดใช้งานรายการคลังสินค้าในการมองเห็นสินค้าคงคลัง* |
+| สินค้าคงคลังและลอจิสติกส์ | [การสอบถามปริมาณคงเหลือของการมองเห็นสินค้าคลังที่จะรองรับสินค้าในการจัดการคลังสินค้าขั้นสูง](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [การสนับสนุนของ Inventory Visibility สำหรับสินค้าที่ใช้ WHS](../inventory/inventory-visibility-whs-support.md) | การจัดการคุณลักษณะ:<br>*เปิดใช้งานรายการคลังสินค้าในการมองเห็นสินค้าคงคลัง* |
 | สินค้าคงคลังและลอจิสติกส์ | [ปริมาณที่สามารถสัญญาได้สำหรับ Add-in การมองเห็นสินค้าคงคลัง](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือของการมองเห็นสินค้าคงคลังและปริมาณที่ให้สัญญาได้](../inventory/inventory-visibility-available-to-promise.md) | เปิดใช้งานโดยการตั้งค่าคอนฟิกบริการ |
-| การผลิต | [สินค้าตามน้ำหนักจริงสำหรับอินเทอร์เฟสการดำเนินการผลิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) รายงานเกี่ยวกับสินค้าตามน้ำหนักจริงจากอินเทอร์เฟสการดำเนินการผลิต* |
-| การผลิต | แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต <!-- KFM: Add link to release plan when available --> | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต* |
+| การผลิต | [สินค้าตามน้ำหนักจริงสำหรับอินเทอร์เฟสการดำเนินการของระบบการผลิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) รายงานเกี่ยวกับสินค้าตามน้ำหนักจริงจากอินเทอร์เฟสการดำเนินการของระบบการผลิต* |
+| การผลิต | แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต <!-- KFM: Add link to release plan when available --> | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>การปรับปรุงคุณลักษณะรวมอยู่ในการนำออกใช้นี้
 

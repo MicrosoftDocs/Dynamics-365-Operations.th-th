@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782438"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644713"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>การตั้งค่าสถานการณ์จำลองสำหรับเครื่องมือ IoT
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกสถานการณ์จำลองสำหรับเครื่องมือ IoT ใน Microsoft Dynamics 365 Supply Chain Management ก่อนที่คุณจะสามารถตั้งค่าสถานการณ์ คุณต้อง [ตั้งค่า Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md)
+หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกสถานการณ์จำลองสำหรับเครื่องมือ IoT ใน Microsoft Dynamics 365 Supply Chain Management <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 ในหัวข้อนี้คุณจะตั้งค่าคอนฟิกสถานการณ์จำลอง **การหยุดทำงานของอุปกรณ์** เพื่อให้สร้างการแจ้งเตือนใน Supply Chain Management เมื่อเครื่องจักรหยุดทำงาน หัวข้อนี้จะแสดงวิธีการตั้งค่าคอนฟิกสถานการณ์ **คุณภาพของผลิตภัณฑ์** เพื่อให้มีการสร้างการแจ้งเตือนถ้าแอททริบิวต์ของรายการอยู่นอกช่วงที่ระบุและวิธีการตั้งค่าคอนฟิกสถานการณ์ **การล่าช้าในการผลิต** เพื่อให้มีการสร้างการแจ้งเตือนถ้าปริมาณการผลิตต่ำกว่าค่าขีดจำกัด
 

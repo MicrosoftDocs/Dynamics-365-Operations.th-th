@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565641"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625370"
 ---
 # <a name="provision-human-resources"></a>จัดหา Human Resources
 
@@ -41,7 +41,7 @@ ms.locfileid: "8565641"
 ## <a name="provision-a-human-resources-trial-environment"></a>เตรียมใช้งานสภาพแวดล้อมการทดลองทรัพยากรบุคคล
 
 >[!NOTE]
-> ตั้งแต่เดือนเมษายน 2022 สภาพแวดล้อมการทดลองใช้ Human Resources จะไม่สามารถใช้งานในแอปพลิเคชันแบบสแตนด์อโลน ผู้มีโอกาสเป็นลูกค้าที่สนใจในการประเมินความสามารถของ Human Resources ในแอปการเงินและการดำเนินงานสามารถทำได้โดยการทดลองใช้ฟรี 30 วันพร้อมกับข้อมูลสาธิต Dynamics 365 Finance จะรวมความสามารถของ Human Resources ในโครงสร้างพื้นฐานทางการเงินผ่านการผสานแอปพลิเคชันแบบสแตนด์อโลน สำหรับข้อมูลเพิ่มเติม โปรดดูe [การรวมบริการด้าน HR สร้างความสามารถร่วมกันเพื่อลูกค้า](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการทดลองใช้ Dynamics 365 Finance โปรดดู [คำแนะนำ](/fin-ops/get-started/before-you-buy) แบบทีละขั้นตอน 
+> ตั้งแต่เดือนเมษายน 2022 สภาพแวดล้อมการทดลองใช้ Human Resources จะไม่สามารถใช้งานในแอปพลิเคชันแบบสแตนด์อโลน ผู้มีโอกาสเป็นลูกค้าที่สนใจในการประเมินความสามารถของ Human Resources ในแอปการเงินและการดำเนินงานสามารถทำได้โดยการทดลองใช้ฟรี 30 วันพร้อมกับข้อมูลสาธิต Dynamics 365 Finance จะรวมความสามารถของ Human Resources ในโครงสร้างพื้นฐานทางการเงินผ่านการผสานแอปพลิเคชันแบบสแตนด์อโลน สำหรับข้อมูลเพิ่มเติม โปรดดูe [การรวมบริการด้าน HR สร้างความสามารถร่วมกันเพื่อลูกค้า](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการทดลองใช้ Dynamics 365 Finance โปรดดู [คำแนะนำ](../fin-ops-core/fin-ops/get-started/before-you-buy.md) แบบทีละขั้นตอน 
 
 
 ก่อนเตรียมใช้งานสภาพแวดล้อม Sandbox หรือสภาพแวดล้อมการผลิตแรกของคุณ คุณอาจต้องการเตรียมใช้งาน [สภาพแวดล้อมการทดลองของทรัพยากรบุคคล](https://go.microsoft.com/fwlink/p/?LinkId=2115962) เพื่อตรวจสอบความถูกต้องของฟังก์ชันทรัพยากรบุคคล สภาพแวดล้อมการทดลองประกอบด้วยข้อมูลแบบสมมติ ที่สามารถใช้เพื่อสำรวจโปรแกรมในลักษณะที่ปลอดภัยได้ ถึงแม้ว่าสภาพแวดล้อมการทดลองเป็นของผู้ใช้ที่ร้องขอ ผู้ใช้รายอื่นสามารถได้รับเชิญผ่านประสบการณ์การดูแลระบบสำหรับทรัพยากรบุคคล 
