@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (กรกฎาคม)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (พฤษภาคม)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (เมษายน)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: การเรียกเก็บเงินตามสัญญาที่เกิดซ้ำ
                   items:
+                    - name: ตั้งค่าการเรียกเก็บเงินตามสัญญาที่เกิดซ้ำ
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: สร้างกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: คัดลอกกำหนดการเรียกเก็บเงิน
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: การเรียกเก็บเงินตามเหตุการณ์สำคัญ
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: การปันส่วนรายได้
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: กระบวนการของการสนับสนุนและการต่ออายุ
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: รายได้ที่ยังไม่ได้เรียกเก็บเงิน
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: กำหนดการดัชนีราคาผู้บริโภค
                       href: accounts-receivable/cpischedules.md
                     - name: สิ้นสุดกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: สถานการณ์วันที่ในการปรับ
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: การรอตัดบัญชีรายได้และค่าใช้จ่าย
                   items:
                     - name: ตั้งค่าการรอตัดบัญชีรายได้และค่าใช้จ่าย
                       href: accounts-receivable/sb-deferrals.md
-                    - name: กำหนดการรอตัดบัญชี
-                      items:
-                        - name: สร้างกำหนดการรอตัดบัญชี
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: ธุรกรรมเริ่มต้นในการรอตัดบัญชี
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: สร้างกำหนดการรอตัดบัญชี
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: ธุรกรรมเริ่มต้นในการรอตัดบัญชี
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: การปันส่วนรายได้แบบหลายองค์ประกอบ
                   items:
                     - name: ตั้งค่าการปันส่วนรายได้แบบหลายองค์ประกอบ
@@ -1429,7 +1437,7 @@
                             - name: ตั้งค่าทรัพยากร Azure สำหรับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: สร้าง Azure Key Vault ในพอร์ทัล Azure
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: สร้างบัญชีการจัดเก็บของ Azure ในพอร์ทัล Azure
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: ตั้งค่าคอนฟิกการเชื่อมต่อ SharePoint
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: แบ่งปันกับองค์กรอื่น
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: แดชบอร์ดการจัดการการใช้งาน
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: ประมวลผลเอกสารอิเล็กทรอนิกส์ขาเข้า
                           items:
                             - name: การประมวลผลเอกสารอิเล็กทรอนิกส์ขาเข้า
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: ตั้งค่าคอนฟิกช่องทาง SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: ตั้งค่าและใช้การออกใบแจ้งหนี้อิเล็กทรอนิกส์กับ Finance และ Supply Chain Management
-                          items:
-                            - name: เปิดการใช้งานและตั้งค่าการรวมกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: ตั้งค่าพารามิเตอร์การออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: ตั้งค่าและใช้การออกใบแจ้งหนี้อิเล็กทรอนิกส์กับ Finance และ Supply Chain Management
+                      items:
+                        - name: เปิดการใช้งานและตั้งค่าการรวมกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: ตั้งค่าพารามิเตอร์การออกใบแจ้งหนี้อิเล็กทรอนิกส์
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: ทำงานกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           items:
                             - name: ส่งเอกสารอิเล็กทรอนิกส์ไปยังการออกใบแจ้งหนี้อิเล็กทรอนิกส์
@@ -1486,12 +1496,6 @@
                       items:
                         - name: ความพร้อมใช้งานของคุณลักษณะการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: เริ่มต้นใช้งานการจัดการบริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: สร้างคุณลักษณะการออกใบแจ้งหนี้อิเล็กทรอนิกส์ใหม่
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับบราซิล
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: ใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่าย
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: ข้อมูลอ้างอิงการจัดการปลั๊กอิน Power Platform
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: การคำนวณภาษี
@@ -1618,6 +1618,12 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: รายการคุณลักษณะภาษีว่างเปล่าในพารามิเตอร์การคำนวณภาษี
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: ไม่สามารถกําหนดรหัสภาษี
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: ไม่พบผลลัพธ์ที่ตรงกัน
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: เปิดใช้งานโหมดดีบักในบริการคํานวณภาษี
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการคำนวณภาษี
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: ภาษี
@@ -3721,10 +3727,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: การวิเคราะห์การซื้อและการใช้จ่าย
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: การสรรหา
+                - name: การสรรหาบุคลากร
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: ประสิทธิภาพการขายและความสามารถในการทำกำไร
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: เนื้อหา Power BI ในการเรียกเก็บเงินตามการสมัครใช้งาน
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: การชำระเงินให้แก่ผู้จัดจำหน่าย
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: เมตริกบุคลากร

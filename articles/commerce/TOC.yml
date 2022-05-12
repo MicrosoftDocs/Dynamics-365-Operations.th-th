@@ -12,14 +12,12 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (กรกฎาคม 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (พฤษภาคม 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (เมษายน 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (กุมภาพันธ์ 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (มกราคม 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
                           href: sales-tax-config.md
+                        - name: ซ่อนข้อมูลการแจกแจงรายละเอียดภาษีในสรุปใบสั่ง
+                          href: hide-taxes-breakup.md
                     - name: ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
                       href: email-notification-profiles.md
                     - name: ลำดับหมายเลข
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: คำแนะนำการใช้งานการจัดการอุปกรณ์
                       href: implementation-considerations-devices.md
-                    - name: เลือกระหว่าง MPOS กับ Cloud POS
+                    - name: เลือกระหว่าง Store Commerce กับ Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: สร้างค่ามิติทางการเงินสำหรับช่องทางการค้าปลีกและตั้งค่าคอนฟิกค่าในร้านค้า
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: ตั้งค่าลำดับหมายเลขสำหรับใบแจ้งยอดการขายปลีก
+                  href: retail-statements-number-sequences.md
                 - name: เปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันในช่องทางอีคอมเมิร์ซ
                   href: consistent-delivery-mode-handling.md
             - name: ตั้งค่าช่องทางออนไลน์
@@ -884,6 +886,8 @@
           items:
             - name: ภาพรวมของใบแจ้งยอด
               href: retail-statements.md
+            - name: พารามิเตอร์การลงรายการบัญชี Commerce
+              href: commerce-posting-parameters.md
             - name: ตรวจสอบความถูกต้องของธุรกรรมของร้านค้าสำหรับการคำนวณใบแจ้งยอด
               href: valid-checker.md
             - name: ปิดใช้งานกฎในตัวตรวจสอบความสอดคล้องกันของธุรกรรมการขายปลีก
@@ -1100,13 +1104,15 @@
                       href: adventure-works-theme.md
                     - name: ติดตั้งธีม Adventure Works
                       href: install-adventure-works.md
+                - name: คู่มือการแปลเป็นภาษาท้องถิ่นของ Commerce
+                  href: e-commerce-localization-guide.md
             - name: จัดการสินทรัพย์ดิจิทัล
               items:
                 - name: ภาพรวมของการจัดการสินทรัพย์ดิจิทัล
                   href: dam-overview.md
-                - name: อัพโหลดรูปภาพ
+                - name: อัปโหลดรูปภาพ
                   href: dam-upload-images.md
-                - name: อัพโหลดวิดีโอ
+                - name: อัปโหลดวิดีโอ
                   href: dam-upload-video.md
                 - name: อัปโหลดไฟล์นอกเหนือจากรูปภาพและวิดีโอ
                   href: dam-upload-files.md
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: ตั้งค่าขีดจํากัดปริมาณผลิตภัณฑ์เฉพาะไซต์อีคอมเมิร์ซ B2B
               href: b2b/quantity-limits.md
+            - name: แค็ตตาล็อก Commerce สำหรับไซต์ B2B
+              items:
+                - name: สร้างแค็ตตาล็อก Commerce สำหรับไซต์ B2B
+                  href: catalogs-b2b-sites.md
+                - name: ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของแค็ตตาล็อก Commerce สำหรับการปรับแต่ง B2B
+                  href: catalogs-b2b-sites-dev.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับ B2B
+                  href: catalogs-b2b-sites-FAQ.md
         - name: การตรวจสอบและการวิเคราะห์
           items:
             - name: ตรวจสอบประสิทธิภาพของการขายและกำไรขั้นต้น
@@ -2474,15 +2488,19 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: การค้าแบบแยกส่วน
               items:
+                - name: ภาพรวม
+                  items:
+                    - name: บทนำเกี่ยวกับส่วนสำคัญของ Commerce Scale Unit (CSU)
+                      href: dev-itpro/CSU-core.md
                 - name: API และการอ้างอิง
                   items:
                     - name: API สำหรับลูกค้าและผู้ใช้งาน Commerce Scale Unit
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: ใช้ API ของ Retail Server ในแอปพลิเคชันภายนอก
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Typescript และพร็อกซี C# สำหรับ Retail POS
+                    - name: TypeScript และพร็อกซี C# สำหรับ Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
-                    - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก Commerce Runtime (CRT)
+                    - name: สถาปัตยกรรมและการตั้งค่าคอนฟิก Commerce runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
                     - name: บริการ Commerce Runtime (CRT)
                       href: dev-itpro/crt-services.md
@@ -2526,8 +2544,10 @@
                       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                     - name: จุดขยายสำหรับบันทึกการจัดส่งระหว่างการเติมสินค้าตามคำสั่งซื้อ
                       href: dev-itpro/extensions-shipping-carrier-integration.md
-                - name: การจัดทำแพคเกจและการปรับใช้
+                - name: การจัดทำแพคเกจและการปรับใช้งาน
                   items:
+                    - name: สร้างแพคเกจส่วนขยาย Cloud Scale Unit
+                      href: dev-itpro/CSU-packaging.md
                     - name: เอาส่วนขยาย Cloud Scale Unit ออก
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: ย้ายไปยังส่วนขยาย POS ไปยัง Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: ดีบักส่วนขยาย Store Commerce โดยใช้ VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: การตั้งค่าสภาพแวดล้อม
                   items:
                     - name: สภาพแวดล้อมการพัฒนาแบบในสถานที่
@@ -2606,14 +2628,16 @@
                       href: dev-itpro/pos-custom-control.md
                     - name: ส่วนขยายการชำระเงิน POS
                       href: dev-itpro/pos-payment-extension.md
-                - name: การจัดทำแพคเกจและการปรับใช้
+                - name: การจัดทำแพคเกจและการปรับใช้งาน
                   items:
                     - name: สร้างแพคเกจส่วนขยาย MPOS
                       href: dev-itpro/pos-extension/mpos-extension-packaging.md
-                    - name: รหัสที่ลงชื่อในแพคเกจส่วนขยาย MPOS (MSIX)
+                    - name: การเซ็นโค้ดของแพคเกจส่วนขยาย MPOS (MSIX)
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: สร้างแพคเกจส่วนขยาย Cloud POS
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: สร้างแพคเกจตัวติดตั้งส่วนขยาย Store Commerce
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: อีคอมเมิร์ซ
               items:
                 - name: ภาพรวม
@@ -2784,7 +2808,7 @@
                           href: e-commerce-extensibility/extend-theme.md
                         - name: เปลี่ยนสตริงโมดูลธีม
                           href: e-commerce-extensibility/change-theme-module-strings.md
-                - name: การจัดทำแพคเกจและการปรับใช้
+                - name: การจัดทำแพคเกจและการปรับใช้งาน
                   items:
                     - name: การตั้งค่าคอนฟิกแพคเกจและปรับใช้กับสภาพแวดล้อมออนไลน์
                       href: e-commerce-extensibility/package-deploy.md
@@ -2814,11 +2838,15 @@
                       items:
                         - name: ตัวบันทึกการวัดและส่งข้อมูลทางไกล
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
-                - name: การจัดทำแพคเกจและการปรับใช้
+                - name: ส่วนขยายแพคเกจ CDX
                   items:
-                    - name: สร้างการจัดทำแพคเกจการชำระเงินของ Commerce สำหรับการปรับใช้การเงินและการดำเนินงาน
+                    - name: ขยายแพคเกจ CDX ของลูกค้าเพื่อเพิ่มข้อมูลที่กำหนดเอง
+                      href: dev-itpro/extend-customer-CDX-package.md
+                - name: การจัดทำแพคเกจและการปรับใช้งาน
+                  items:
+                    - name: สร้างการจัดทำแพคเกจการชำระเงินของ Commerce สำหรับการปรับใช้งานการเงินและการดำเนินงาน
                       href: dev-itpro/payment-connector-package.md
             - name: Retail SDK (ดั้งเดิม)
               items:
@@ -2848,7 +2876,7 @@
                       href: dev-itpro/configure-online-store.md
                     - name: ตั้งค่าคอนฟิกตัวให้บริการการรับรองความถูกต้อง
                       href: dev-itpro/configure-authentication-providers.md
-                - name: การจัดทำแพคเกจและการปรับใช้
+                - name: การจัดทำแพคเกจและการปรับใช้งาน
                   items:
                     - name: สร้างแพคเกจที่สามารถปรับใช้ได้
                       href: dev-itpro/retail-sdk/retail-sdk-packaging.md

@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.27 (กรกฎาคม 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.26 (พฤษภาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.25 (เมษายน 2022)
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: การพัฒนาบริการแบบกำหนดเอง
                   href: data-entities/custom-services.md
+                - name: การติดตามคำขอรับบริการ
+                  href: data-entities/service-request-tracing.md
                 - name: การรวมที่เกิดซ้ำ
                   href: data-entities/recurring-integrations.md
                 - name: ทดสอบบริการโดยใช้ยูทิลิตีของบุคคลภายนอก
@@ -988,7 +992,7 @@
                   href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
                 - name: แผนผังลำดับงานในตัวทำแบบจำลองกระบวนการทางธุรกิจ
                   href: lifecycle-services/flowcharts-business-process-modeler.md
-                - name: อัพโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
+                - name: อัปโหลดกระบวนการทางธุรกิจแบบกำหนดเองไปยังตัวทำแบบจำลองกระบวนการทางธุรกิจ
                   href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
             - name: คำขอการบริการ
               items:
@@ -1314,7 +1318,7 @@
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: โมดูลฟิลด์
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
-                    - name: โมดูลตัวอัพโหลดไฟล์
+                    - name: โมดูลตัวอัปโหลดไฟล์
                       href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
                     - name: โมดูลกลุ่ม
                       href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
@@ -1714,6 +1718,22 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: อัปเกรดการวางแผนงบประมาณ
                       href: migration-upgrade/upgrade-budget-planning.md
+                - name: แก้ไขปัญหาการอัปเกรด
+                  items:
+                    - name: แก้ไขปัญหาสภาพแวดล้อมการพัฒนาในระหว่างการอัปเกรด
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: แก้ไขปัญหาการอัปเกรดเป็นสภาพแวดล้อมระบบบริการตนเอง
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: แก้ไขปัญหาสคริปต์การอัปเกรด PreSync และ PostSync
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: การดําเนินงานของสภาพแวดล้อม
+                  items:
+                    - name: ย้ายสิ่งที่แนบของเอกสาร
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: ล้างข้อมูลต้นทางสำหรับการอัปเกรด
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: บีบอัดตารางในสภาพแวดล้อม Dynamics AX 2012
+                      href: migration-upgrade/compress-tables-ax-2012.md
             - name: ย้ายข้อมูลจาก AX 2009
               items:
                 - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
@@ -1848,7 +1868,7 @@
                   href: user-interface/hierarchy-viewer-control.md
                 - name: ตัวควบคุมการค้นหา
                   href: user-interface/lookups-controls.md
-                - name: ตัวควบคุมการอัพโหลดไฟล์
+                - name: ตัวควบคุมการอัปโหลดไฟล์
                   href: user-interface/file-upload-control.md
                 - name: ปุ่มที่ระบบกำหนด
                   href: user-interface/system-defined-buttons.md
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md
