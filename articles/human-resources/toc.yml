@@ -452,8 +452,6 @@
               href: hr-personnel-positions.md
             - name: สร้างปฏิทินเวลาการทำงาน
               href: hr-personnel-create-working-time-calendar.md
-            - name: สรรหาผู้สมัครงาน
-              href: hr-personnel-recruit.md
             - name: คำถามที่ถามบ่อยเกี่ยวกับการดำเนินการด้านบุคลากร
               href: hr-personnel-actions-faq.md
             - name: ใช้ลำดับงานเพื่อจัดการข้อมูลพนักงาน
@@ -463,7 +461,7 @@
             - name: แก้ไขความสัมพันธ์การรายงานสำหรับตำแหน่ง
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: การป้อนข้อมูลของพนักงานที่มีประสิทธิภาพ
-              href: ../talent/streamlined-employee-entry.md?toc=/dynamics365/human-resources/toc.json
+              href: stream-employee-entry.md
             - name: ป้อนข้อมูลผู้ปฏิบัติงาน
               href: hr-personnel-enter-worker-information.md
             - name: ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน
@@ -488,26 +486,34 @@
               href: hr-personnel-set-up-injury-illness-information.md
             - name: รักษาข้อมูลการบาดเจ็บและการเจ็บป่วยของพนักงาน
               href: hr-personnel-maintain-employee-injury-illness-information.md
-            - name: สรรหาผู้สมัคร
+            - name: การสรรหาบุคลากร
               items:
-                - name: จัดการกระบวนการสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: โครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: สร้างโครงการจ้างงานโดยรวม
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: ตั้งค่าตำแหน่ง
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                - name: ภาพรวม
+                  href: ../human-resources/hr-recruit-overview.md
+                - name: โครงการสรรหาบุคลากร
+                  items:
+                    - name: จัดการกระบวนการสรรหาบุคลากร
+                      href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
+                      href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
+                    - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
+                      href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
+                    - name: ตั้งค่าตำแหน่ง
+                      href: ../human-resources/hr-personnel-set-up-positions.md
+                    - name: จ้างงานผู้สมัครผ่านการสรรหาบุคลากร
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
+                    - name: จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
+                      href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
+                    - name: ระบุและปรับใช้เครื่องมือการคัดเลือกผู้สมัคร
+                      href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
+                    - name: โครงการจ้างงานโดยรวม
+                      href: ../human-resources/hr-personnel-mass-hire-projects.md
+                    - name: สร้างโครงการจ้างงานโดยรวม
+                      href: ../human-resources/hr-personnel-create-mass-hire-project.md
+                - name: คำขอการสรรหาบุคลากร (โครงสร้างพื้นฐานที่รวม)
+                  items:
+                    - name: สรรหาผู้สมัครงาน
+                      href: hr-personnel-recruit.md
         - name: การจัดการงาน
           href: hr-task-mgmt.md
         - name: การลางานและการขาดงาน
@@ -800,6 +806,8 @@
               href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Finance
               href: hr-admin-integration-finance.md
+            - name: สร้างลิงก์จาก Human Resources ไปยังสภาพแวดล้อมอื่น
+              href: configure-links.md
             - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce
               href: hr-admin-integration-dayforce.md
             - name: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ

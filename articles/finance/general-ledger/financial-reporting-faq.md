@@ -1,25 +1,23 @@
 ---
 title: คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน
 description: หัวข้อนี้แสดงคําตอบของคําถามที่ถามบ่อยบางส่วนเกี่ยวกับการรายงานทางการเงิน
-author: jiwo
+author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605290"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722309"
 ---
 # <a name="financial-reporting-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการรายงานทางการเงิน
 
@@ -102,7 +100,7 @@ ms.locfileid: "7605290"
 
 ในทำนองเดียวกัน เมื่อสร้างรายงานโดยใช้การแปลงสกุลเงินสำหรับบัญชีชนิดที่ใช้ในอดีต จะมีการคำนวณแบบต่อธุรกรรมเพิ่มเติม เวลาในการสร้างรายงานอาจมากกว่าสองเท่า ทั้งนี้ขึ้นอยู่กับจำนวนบัญชี
 
-## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>ช่วงเวลาการรวม Data Mart ที่ประเมินการไว้คืออะไร
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>ช่วงเวลาการรวม Data Mart ที่ประเมินไว้คืออะไร
 
 Financial Reporter ใช้ 16 งานเพื่อคัดลอกข้อมูลจาก Dynamics 365 Finance ไปยังฐานข้อมูลของ Financial Reporter ตารางต่อไปนี้แสดงรายการของ 16 งานเหล่านี้ รวมถึงช่วงเวลาที่ระบุความถี่ในการรันแต่ละงาน ไม่สามารถเปลี่ยนช่วงเวลาได้
 

@@ -598,8 +598,10 @@
                       href: paypal.md
                     - name: การสนับสนุนการชำระเงินด้วยกระเป๋าสตางค์
                       href: wallets.md
-                    - name: การชําระเงินขั้นสูงในขั้นตอนการชําระเงินหน้าร้าน
+                    - name: การชำระเงินขั้นสูงในขั้นตอนการชำระเงินหน้าร้าน
                       href: dev-itpro/enhanced-sca.md
+                    - name: ตั้งค่าคอนฟิกการชำระเงินด่วนสำหรับ PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการชำระเงิน
                       href: dev-itpro/payments-retail.md
                 - name: อีเมลและการแจ้งเตือน
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: สร้างไซต์อีคอมเมิร์ซ
               items:
+                - name: แมปช่องทางกับไซต์อีคอมเมิร์ซ
+                  href: map-channels-sites.md
                 - name: ตั้งค่าคอนฟิกชื่อโดเมนของคุณ
                   href: configure-your-domain-name.md
                 - name: ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: ย้ายไปยังส่วนขยาย POS ไปยัง Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: สร้างโครงการแพคเกจส่วนขยาย POS
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: ดีบักส่วนขยาย Store Commerce โดยใช้ VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: ส่วนขยาย MPOS และ CPOS ที่ปิดผนึก
+                      items:
+                        - name: สร้างไฟล์ .appx สำหรับแพคเกจส่วนขยาย Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: ดีบักส่วนขยาย MPOS (ที่ปิดผนึก) และ CPOS
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: การตั้งค่าสภาพแวดล้อม
                   items:
                     - name: สภาพแวดล้อมการพัฒนาแบบในสถานที่
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: สร้างโครงการแพคเกจส่วนขยาย POS
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: สร้างไฟล์ .appx สำหรับแพคเกจส่วนขยาย Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: ดีบักส่วนขยาย POS
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API และการอ้างอิง
                   items:
                     - name: ดูข้อมูลแพคเกจส่วนขยาย POS
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: การเพิ่มประสิทธิภาพโมดูล CSS
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: เพิ่มประสิทธิภาพรูปภาพบนหน้ารายละเอียดผลิตภัณฑ์
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: เพิ่มประสิทธิภาพรูปภาพบนหน้าค้นหาและประเภท
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: การวัดและส่งข้อมูลทางไกลและการวิเคราะห์
                       items:
                         - name: ตัวบันทึกการวัดและส่งข้อมูลทางไกล

@@ -50,10 +50,6 @@
           items:
             - name: การรวมระหว่างแอปการเงินและการดำเนินงาน และบริการของบุคคลที่สาม
               href: data-entities/integration-overview.md
-            - name: การควบคุมปริมาณตามระดับความสำคัญ
-              hreF: data-entities/priority-based-throttling.md
-            - name: คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณตามระดับความสำคัญ
-              href: data-entities/throttling-faq.md
             - name: API การรวมข้อมูล
               items:
                 - name: REST API แพคเกจการจัดการข้อมูล
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: ทดสอบบริการโดยใช้ยูทิลิตีของบุคคลภายนอก
                   href: data-entities/third-party-service-test.md
+            - name: ขีดจํากัดการป้องกันบริการ
+              items:
+                - name: ขีดจํากัด API การป้องกันบริการ
+                  href: data-entities/service-protection-api-limits.md
+                - name: การจัดลำดับความสำคัญของการควบคุม
+                  href: data-entities/priority-based-throttling.md
+                - name: การดำเนินลองใหม่
+                  href: data-entities/service-protection-retry-operations.md
+                - name: ตรวจสอบการควบคุม API
+                  href: data-entities/service-protection-monitoring.md
+                - name: เพิ่มปริมาณที่สามารถประมวลผลของ API สูงสุด
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: ตัวเชื่อมต่อ Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: การพัฒนาสำหรับการรวม
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
+                    - name: ตั้งค่าคอนฟิกแอปการคลังสินค้าสำหรับการปรับใช้ในสถานที่
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
                       href: analytics/install-network-printer-onprem.md
                     - name: การวินิจฉัยแบบในสถานที่
@@ -472,19 +482,17 @@
                   href: help/language-locale.md
                 - name: ขยาย เลือกกำหนด และทำงานร่วมกันในวิธีใช้
                   href: help/contributor-guide.md
-            - name: ข้อควรพิจารณาในการปรับใช้
+            - name: บริการในภูมิภาคของแอปการเงินและการดำเนินงาน
               items:
-                - name: ตัวเลือกการปรับใช้งานระบบคลาวด์สาธารณะและในเครื่องสำหรับ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
+                - name: ภูมิศาสตร์ท้องถิ่น
                   href: deployment/deployment-options-geo.md
-                - name: Finance และ Supply Chain Management ใน Government Community Cloud (GCC) ของสหรัฐอเมริกา
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: แอป Finance และ Supply Chain Management ที่ดำเนินงานโดย 21Vianet ในจีน
+                - name: การดำเนินงานในจีนโดย 21Vianet
                   href: deployment/china-local-deployment.md
-                - name: แอปการเงินและการดำเนินงาน ในฝรั่งเศส
-                  href: deployment/france-local-deployment.md
         - name: พัฒนาและเลือกกำหนด
           items:
-            - name: โฮมเพจการพัฒนาและเลือกกำหนด
+            - name: โฮมเพจพัฒนาและเลือกกำหนด
               href: dev-tools/developer-home-page.md
             - name: สแตกแอปพลิเคชันและสถาปัตยกรรมของเซิร์ฟเวอร์
               href: dev-tools/application-stack-server-architecture.md
@@ -559,7 +567,7 @@
                     - name: ภาพรวมของการสร้างแบบจำลองและองค์ประกอบแบบจำลองข้อมูล
                       href: dev-tools/create-data-model-elements.md
                     - name: แนวทางการตั้งชื่อสำหรับส่วนขยาย
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: ปิดการกำหนดแบบจำลองและเลิกใช้ฟังก์ชัน
                       href: dev-tools/lock-models.md
                 - name: รายงานการวิเคราะห์การกำหนดเอง

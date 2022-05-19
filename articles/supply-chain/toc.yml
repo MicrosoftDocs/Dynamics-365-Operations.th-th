@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: แหล่งข้อมูลคู่มือ
               items:
                 - name: ระบบวิธีใช้
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: ลงทะเบียนสินค้าเป็นสินค้าที่เปิดใช้งานคลังสินค้าพื้นฐานโดยใช้สมุดรายวันการมาถึงของสินค้า
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V2
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V3
+                  href: warehousing/import-asn-data-entity.md
                 - name: ข้ามเทียบผลิตภัณฑ์จากคลังสินค้าที่รับเข้าไปยังร้านค้า
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ

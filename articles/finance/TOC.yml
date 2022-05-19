@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: ซื้อ Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: ตั้งค่าคอนฟิกคลังสินค้าสำหรับการปรับใช้ในสถานที่
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: แหล่งข้อมูลคู่มือ
               items:
                 - name: ระบบวิธีใช้
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: โพรไฟล์การลงรายการบัญชีผู้จัดจำหน่าย
               href: accounts-payable/vendor-posting-profiles.md
+            - name: สร้างรหัสค่าธรรมเนียม
+              href: accounts-receivable/create-charges-codes.md
             - name: วันที่ใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: accounts-payable/vendor-invoice-dates.md
             - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีเจ้าหนี้และบัญชีลูกหนี้
@@ -292,6 +292,8 @@
               items:
                 - name: การชำระเงินส่วนกลางสำหรับบัญชีเจ้าหนี้
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: ตั้งค่าและดำเนินการกับการชำระเงินระหว่างกาล
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: ตั้งค่าคอนฟิกการชำระเงิน
                   href: cash-bank-management/configure-settlement.md
                 - name: ส่วนที่เหลือที่ต้องชำระบัญชี
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: การกระจายการลงบัญชีและรายการสมุดรายวันของบัญชีแยกประเภทย่อยสำหรับใบแจ้งหนี้ข้อความอิสระ
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: การลงรายการบัญชีบัญชีลูกหนี้
+              href: general-ledger/accts-recvble-posting.md
             - name: โพรไฟล์การลงรายการบัญชีลูกค้า
               href: accounts-receivable/customer-posting-profiles.md
+            - name: สร้างรหัสค่าธรรมเนียม
+              href: accounts-receivable/create-charges-codes.md
             - name: ภาพรวมของการหักบัญชีเงินฝากอัตโนมัติ SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: ตั้งค่าข้อตกลงการหักบัญชีเงินฝากอัตโนมัติ SEPA
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: สถานการณ์วันที่ในการปรับ
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: การแบ่งส่วนรายได้
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: การรอตัดบัญชีรายได้และค่าใช้จ่าย
                   items:
                     - name: ตั้งค่าการรอตัดบัญชีรายได้และค่าใช้จ่าย
@@ -452,6 +460,8 @@
               items:
                 - name: ภาพรวมของการชำระเงินของลูกค้า
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: ตั้งค่าและดำเนินการกับการชำระเงินระหว่างกาล
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: การชำระเงินส่วนกลางสำหรับบัญชีลูกหนี้
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: นำฝากการชำระเงินของลูกค้า
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: สกุลเงินแบบคู่
                       href: general-ledger/dual-currency.md
+                - name: โพรไฟล์การลงรายการบัญชี
+                  items:
+                    - name: ภาพรวมโพรไฟล์การลงรายการบัญชี
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: แนวทางปฏิบัติที่แนะนำสำหรับโพรไฟล์การลงรายการบัญชี
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: บัญชีสำหรับธุรกรรมอัตโนมัติ
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: กฎการปันส่วน
                   items:
                     - name: กฎการปันส่วนบัญชีแยกประเภท
