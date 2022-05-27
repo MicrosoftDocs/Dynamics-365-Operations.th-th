@@ -9,19 +9,18 @@ ms.technology: ''
 ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265924
 ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d94551c622c087d98356a28aa262153341e2a8f6
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 014198a82550972841496c227cda3a1f691a0882
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594709"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695405"
 ---
 # <a name="journal-reports-posting-journals"></a>รายงานสมุดรายวัน (การลงรายการบัญชีสมุดรายวัน)
 

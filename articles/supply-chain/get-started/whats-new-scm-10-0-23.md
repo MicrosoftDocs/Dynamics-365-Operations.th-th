@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570491"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691483"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.23 (มกราคม 2022)
 
@@ -75,7 +75,9 @@ ms.locfileid: "8570491"
 | การจัดการคลังสินค้า | [พารามิเตอร์อุปกรณ์เคลื่อนที่ส่วนกลาง](../warehousing/mobile-device-parameters.md) |
 | การจัดการคลังสินค้า | [การกำหนดจุดยึด](../warehousing/anchoring.md) |
 | การขายและการตลาด | ขณะนี้การค้าระหว่างบริษัทจะมีการอธิบายโดยละเอียด เริ่มด้วย [การตั้งค่าการค้าระหว่างบริษัท](../sales-marketing/intercompany-trade-set-up.md) และหัวข้อที่เกี่ยวข้อง |
+| การขายและการตลาด | [การปรับปรุงประสิทธิภาพการล้างประวัติการขาย](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | การบริหารสินค้าคงคลัง | คู่มือความสามารถในการมองเห็นสินค้าคงคลังมีการขยายและอัปเดตแล้ว โดยเริ่มต้นด้วย [ภาพรวม Add-in ของความสามารถในการมองเห็นสินค้าคงคลัง](../inventory/inventory-visibility.md) และหัวข้อที่เกี่ยวข้อง |
+| การจัดการคลังสินค้า | [บัญชีผู้ใช้ของอุปกรณ์เคลื่อนที่](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

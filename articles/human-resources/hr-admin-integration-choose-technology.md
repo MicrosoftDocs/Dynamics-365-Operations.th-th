@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065052"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717152"
 ---
 # <a name="choose-a-data-integration-technology"></a>เลือกเทคโนโลยีการรวมข้อมูล
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065052"
 
 
 
-หัวข้อนี้ให้ข้อมูลสำหรับการรวมกับข้อมูลที่จัดการโดย Dynamics 365 Human Resources ซึ่งอธิบายถึงเทคโนโลยีการรวมที่แตกต่างกัน ที่ช่วยให้คุณตัดสินใจเลือกเทคโนโลยีที่เหมาะกับความต้องการของคุณที่สุด
+หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมกับข้อมูลที่จัดการโดย Dynamics 365 Human Resources ซึ่งอธิบายถึงเทคโนโลยีการรวมที่แตกต่างกัน ที่ช่วยให้คุณตัดสินใจเลือกเทคโนโลยีที่เหมาะกับความต้องการของคุณที่สุด
 
 ## <a name="data-integration-background"></a>พื้นหลังการรวมข้อมูล
 
@@ -114,7 +113,7 @@ BYOD มีความเหมาะสมสำหรับการราย
 
 ### <a name="odata-enabled-entities"></a>เอนทิตี้ OData ที่เปิดใช้งาน
 
-เอนทิตี้ DMF ส่วนใหญ่ยังเปิดใช้งานสำหรับการเข้าถึงผ่านทางบริการข้อมูลของฝ่ายทรัพยากรบุคคล (OData) คู่มือที่มีให้สำหรับ [บริการ OData ของการเงินและการดำเนินงาน](/dynamics365/unified-operations/dev-itpro/data-entities/odata) จะใช้กับ Human Resources ยกเว้นสำหรับการสร้างเอนทิตี้ที่มีการแสดง OData ของคุณเอง
+เอนทิตี้ DMF ส่วนใหญ่ยังเปิดใช้งานสำหรับการเข้าถึงผ่านทางบริการข้อมูลของฝ่ายทรัพยากรบุคคล (OData) คู่มือที่มีให้สำหรับ [บริการ OData ของ Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata) จะใช้กับ Human Resources ยกเว้นสำหรับการสร้างเอนทิตี้ที่มีการแสดง OData ของคุณเอง
 
 ในขณะที่ Dataverse และการดำเนินงาน OData ที่ระบุโดย Dataverse (โดยผ่าน [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) เป็นที่ต้องการผ่านทางบริการข้อมูลของฝ่ายทรัพยากรบุคคล บริการข้อมูลของฝ่ายทรัพยากรบุคคลในปัจจุบันมีความครอบคลุมเอนทิตี้ที่สมบูรณ์สำหรับข้อมูลทรัพยากรบุคคล
 

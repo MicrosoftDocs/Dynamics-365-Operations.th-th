@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735362"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694437"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources 22 มิถุนายน 2021
 
@@ -83,7 +82,7 @@ ms.locfileid: "6735362"
 
 | ลักษณะการทำงาน | รายละเอียด |
 | --- | --- |
-| Platform Update 10.0.19 (43) | Platform update 10.0.19 ถูกจัดกำหนดการให้เริ่มต้นด้วยการนำออกใช้บริการในวันที่ 28 มิถุนายน 2021 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น10.0.19 ของแอป Finance and Operations (มิถุนายน 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19) |
+| Platform Update 10.0.19 (43) | Platform update 10.0.19 ถูกจัดกำหนดการให้เริ่มต้นด้วยการนำออกใช้บริการในวันที่ 28 มิถุนายน 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.19 ของแอปการเงินและการดำเนินงาน (มิถุนายน 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19) |
 |  ปีของการสลับการแสดงการบริการ | คุณลักษณะนี้ให้ตัวเลือกในการใช้วันที่ต่างๆ เพื่อคํานวณปีของบริการที่แสดงในฟอร์ม **รายการพนักงานที่มีประสิทธิภาพ** และในฟอร์ม **บุคคล**  ซึ่งจะพร้อมใช้งานในพารามิเตอร์ทรัพยากรบุคคล |
 |  เปิดใช้งานผู้จัดการฝ่ายการขาดงานเพื่อจัดการการลางาน | [เปิดใช้งานผู้จัดการฝ่ายการขาดงานเพื่อจัดการการลางาน](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  เอกสารแนบของข้อบังคับสำหรับชนิดการลางานที่ระบุ | คุณลักษณะนี้ช่วยให้ผู้ดูแลระบบสามารถสั่งเพิ่มเอกสารแนบเมื่อส่งคำขอลางานสำหรับชนิดการลางานที่เฉพาะเจาะจง |

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534258"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692239"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>เพิ่มประสิทธิภาพการสอบถามตารางเสมือน Dataverse
 
@@ -50,12 +49,12 @@ ms.locfileid: "8534258"
 ตัวอย่างที่คุณอาจเห็นผลกระทบนี้อยู่ในการสอบถามเกี่ยวกับผู้ปฏิบัติงาน (**mshr_hcmworkerentity**) หรือเอนทิตีผู้ปฏิบัติงานพื้นฐาน (**mshr_hcmworkerbaseentity**) คุณอาจเห็นตัวรายการปัญหาประสิทธิภาพในสองสามวิธีต่อไปนี้:
 
 - **การดําเนินการสอบถามช้า**: การสอบถามกับตารางเสมือนอาจส่งคืนผลลัพธ์ที่คาดไว้ แต่ใช้เวลานานกว่าที่คาดไว้ในการดําเนินการการสอบถามให้เสร็จสมบูรณ์
-- **การหมดเวลาของการสอบถาม**: การสอบถามอาจหมดเวลาและส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียกการเงินและการดำเนินงาน แต่การเงินและการดำเนินงานส่งคืนข้อผิดพลาดชนิด InternalServerError"
+- **การหมดเวลาของการสอบถาม**: การสอบถามอาจหมดเวลาและส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียก Finance and Operations แต่ Finance and Operations ส่งคืนข้อผิดพลาดชนิด InternalServerError"
 - **ข้อผิดพลาดที่ไม่คาดคิด**: การสอบถามอาจส่งคืนชนิดข้อผิดพลาด 400 พร้อมด้วยข้อความต่อไปนี้: "เกิดข้อผิดพลาดที่ไม่คาดคิด"
 
   ![ชนิดข้อผิดพลาด 400 บน HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **การควบคุมปริมาณ**: การสอบถามอาจใช้ทรัพยากรเซิร์ฟเวอร์มากเกินไปและอยู่ภายใต้การควบคุมปริมาณ ในกรณีนี้ การสอบถามจะส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียกการเงินและการดำเนินงาน แต่การเงินและการดำเนินงานส่งคืนข้อผิดพลาดชนิด 429" หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการควบคุมปริมาณในทรัพยากรบุคคล โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณ](./hr-admin-integration-throttling-faq.md)
+- **การควบคุมปริมาณ**: การสอบถามอาจใช้ทรัพยากรเซิร์ฟเวอร์มากเกินไปและอยู่ภายใต้การควบคุมปริมาณ ในกรณีนี้ การสอบถามจะส่งคืนข้อผิดพลาดต่อไปนี้: "ได้รับโทเคนเพื่อเรียก Finance and Operations แต่ Finance and Operations ส่งคืนข้อผิดพลาดชนิด 429" หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการควบคุมปริมาณในทรัพยากรบุคคล โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการควบคุมปริมาณ](./hr-admin-integration-throttling-faq.md)
 
   ![ชนิดข้อผิดพลาด 429 บน HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722706"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722449"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>ตั้งค่าคำอธิบายเริ่มต้นสำหรับการลงรายการบัญชีโดยอัตโนมัติ
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722706"
 หัวข้อนี้อธิบายวิธีการตั้งค่าข้อความเริ่มต้นที่ใช้เพื่ออธิบายรายการบัญชีที่ถูกลงรายการบัญชีโดยอัตโนมัติในบัญชีแยกประเภททั่วไป คุณสามารถตั้งค่าข้อความคำอธิบายเริ่มต้น โดยใช้ข้อความอิสระ หรือโดยการเลือกตัวแปรคงที่
 
 > [!NOTE]
-> สำหรับชนิดธุรกรรมบางชนิดในบางประเทศหรือบางภูมิภาค คุณยังสามารถรวมข้อความจากฟิลด์ในฐานข้อมูล Microsoft Dynamics AX ที่เกี่ยวข้องกับชนิดของธุรกรรมดังกล่าวได้ด้วย สำหรับรายการของชนิดของธุรกรรมและประเทศและภูมิภาค ให้ดูที่ส่วน [ไม่จำเป็นต้องระบุ: เพิ่มข้อความอื่นๆ ไปยังกับคำอธิบายเริ่มต้น](#optional-add-other-text-to-default-descriptions) ในภายหลังในหัวข้อนี้
+> สำหรับชนิดธุรกรรมบางชนิดในบางประเทศหรือบางภูมิภาค คุณยังสามารถรวมข้อความจากฟิลด์ที่เกี่ยวข้องกับชนิดของธุรกรรมดังกล่าวได้ด้วย สำหรับรายการของชนิดของธุรกรรมและประเทศและภูมิภาค ให้ดูที่ส่วน [ไม่จำเป็นต้องระบุ: เพิ่มข้อความอื่นๆ ไปยังกับคำอธิบายเริ่มต้น](#optional-add-other-text-to-default-descriptions) ในภายหลังในหัวข้อนี้
 
 ## <a name="set-up-default-descriptions"></a>ตั้งค่าคำอธิบายเริ่มต้น
 

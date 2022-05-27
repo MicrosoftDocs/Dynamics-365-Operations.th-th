@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3acff8a0cf36ee6958effd9c5384895df20c180499437c43feddce31c884dbbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729593"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721884"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>เพิ่มมิติทางการเงินไปยังพื้นที่ทำงานของ CFO
 
@@ -50,7 +50,7 @@ ms.locfileid: "6729593"
 13. ในรายการ **ฟิลด์** คุณควรเห็นตารางและมิติทางการเงินที่พร้อมใช้งาน ลากมิติทางการเงินที่คุณต้องการไปยังตัวกรองระดับรายงาน
 14. บันทึกการเปลี่ยนแปลง
 15. ใน Application Object Tree (AOT) คลิกขวาโครงการของคุณ จากนั้นเลือก **ซิงโครไนส์**
-16. สร้างโครงการของคุณ และจากนั้นเปิดแอพลิเคชันเพื่อดูผลลัพธ์
+16. สร้างโครงการของคุณ และจากนั้นเปิดแอปพลิเคชันเพื่อดูผลลัพธ์
 
     [![พื้นที่ทำงานที่เสร็จสมบูรณ์](./media/workspace.png)](./media/workspace.png)
 

@@ -9,19 +9,18 @@ ms.technology: ''
 ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 265924
 ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6484afce52422fa586c0311a2ba3667b9fafeced43587baa7eb6c829baf23da8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42c204266a1c9c59675c2ea1ee7bab8193302908
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719702"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691175"
 ---
 # <a name="thailand-unrealized-and-realized-vat"></a>VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 
@@ -106,7 +105,7 @@ ms.locfileid: "6719702"
 
 ## <a name="set-up-unrealized-vat-and-realized-vat"></a>ตั้งค่า VAT ที่ยังไม่รับรู้และ VAT ที่รับรู้
 
-1. ไปที่ **ภาษี** > **พารามิเตอร์** > **ตั้งค่า** > **พารามิเตอร์บัญชีแยกประเภททั่วไป** และตรวจสอบให้แน่ใจว่าตัวเลือก **จัดการ VAT ที่รับรู้และยังไม่รับรู้** ได้รับการตั้งค่าเป็น **ใช่** และได้ตั้งค่าฟิลด์ **วิธีการคํานวณ** เป็น **รวม**
+1. ไปที่ **ภาษี** > **พารามิเตอร์** > **การตั้งค่า** > **พารามิเตอร์บัญชีแยกประเภททั่วไป** และตรวจสอบให้แน่ใจว่าตัวเลือก **จัดการ VAT ที่รับรู้และยังไม่รับรู้** ได้รับการตั้งค่าเป็น **ใช่** และได้ตั้งค่าฟิลด์ **วิธีการคํานวณ** เป็น **รวม**
 
 2. ไปที่ **ภาษี** > **การตั้งค่า** > **ภาษีขาย** > **กลุ่มการลงรายการบัญชีแยกประเภท** และตั้งค่ากลุ่มการลงรายการบัญชีแยกประเภทให้กับ VAT ที่ยังไม่รับรู้และ VAT ที่รับรู้ ตัวอย่างเช่น สร้างกลุ่มการลงรายการบัญชีแยกประเภทสองกลุ่ม คือ **UVAT** สำหรับ VAT ที่ยังไม่รับรู้ และ **VAT** VAT ที่รับรู้
 

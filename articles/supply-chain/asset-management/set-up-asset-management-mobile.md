@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
-description: หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations บนมือถือ (Dynamics 365) เพื่อรันพื้นที่ทำงานการจัดการสินทรัพย์บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+description: หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือเพื่อเรียกใช้พื้นที่ทำงาน การจัดการสินทรัพย์ บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572204"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693513"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations บนมือถือ (Dynamics 365) เพื่อรันพื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือ เพื่อเรียกใช้พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>ตั้งค่าผู้ใช้เจ้าหน้าที่บำรุงรักษาใน Supply Chain Management
 
@@ -42,7 +41,7 @@ ms.locfileid: "7572204"
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>เผยแพร่พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
-เมื่อต้องการให้คุณลักษณะการจัดการสินทรัพย์พร้อมใช้งานในแอป Finance and Operations บนมือถือ (Dynamics 365) คุณต้องเผยแพร่พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ
+เมื่อต้องการให้คุณลักษณะการจัดการสินทรัพย์พร้อมใช้งานในแอป Finance and Operations (Dynamics 365) บนมือถือ คุณต้องเผยแพร่พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ
 
 1. ใน Supply Chain Management ให้เลือกปุ่ม **การตั้งค่า** (สัญลักษณ์เกียร์ในมุมด้านขวาบน) แล้วเลือก **แอปบนมือถือ** ในเมนู
 1. ในกล่องโต้ตอบ **จัดการแอปบนมือถือ** ให้ค้นหาไทล์ **การจัดการสินทรัพย์** ถ้ามีข้อความ "ในข้อมูลเมตา - ไม่ได้เผยแพร่" พื้นที่ทำงานนี้ไม่ได้รับการเผยแพร่ ถ้ามีข้อความ "ในข้อมูลเมตา - เผยแพร่แล้ว" พื้นที่ทำงานนี้เผยแพร่แล้ว และคุณสามารถข้ามส่วนที่เหลือของกระบวนงานนี้ได้
@@ -51,7 +50,7 @@ ms.locfileid: "7572204"
 
 1. เลือกไทล์ **การจัดการสินทรัพย์** แล้วเลือก **เผยแพร่** บนแถบเครื่องมือ หลังจากเวลาผ่านไปสองสามวินาที คุณควรได้รับการแจ้งเตือนที่ระบุว่าพื้นที่ทำงานได้รับการเผยแพร่เรียบร้อยแล้ว นอกจากนี้ ข้อความบนไทล์ควรเปลี่ยนเป็น "ในข้อมูลเมตา - เผยแพร่แล้ว"
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>ติดตั้งและตั้งค่าแอป Finance and Operations บนมือถือ (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>ติดตั้งและตั้งค่าแอป Finance and Operations (Dynamics 365) บนมือถือ
 
 1. ไปที่หนึ่งในร้านค้าแอปต่อไปนี้เพื่อติดตั้งแอป **Microsoft Finance and Operations (Dynamics 365)** บนอุปกรณ์เคลื่อนที่ของคุณ:
 
@@ -81,7 +80,7 @@ ms.locfileid: "7572204"
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานพื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ โปรดดูที่ [ใช้งานพื้นที่ทำงานการจัดการสินทรัพย์บนมือถือ](asset-management-mobile-workspace.md)
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแอป Finance and Operations บนมือถือ (Dynamics 365) โปรดดูที่ [หน้าแรกของแอปบนมือถือ](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)
+หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแอป Finance and Operations (Dynamics 365) บนมือถือ โปรดดูที่ [หน้าแรกของแอปบนมือถือ](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

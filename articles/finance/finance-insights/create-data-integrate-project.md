@@ -2,7 +2,7 @@
 title: สร้างโครงการรวมข้อมูล
 description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างโครงการรวมข้อมูล
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107298"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722897"
 ---
 # <a name="create-a-data-integration-project"></a>สร้างโครงการรวมข้อมูล
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107298"
 
 5. เปิด [สภาพแวดล้อม Power Apps](https://admin.powerapps.com/environments) และปฏิบัติตามขั้นตอนต่อไปนี้  
 
-    1. สร้างโครงการการรวมข้อมูลสำหรัเทมเพลตต่อไปนี้โดยใช้การตั้งค่าการเชื่อมต่อที่คุณเพิ่งสร้างขึ้น:
+    1. สร้างโครงการการรวมข้อมูลเดียวสำหรับเทมเพลตแต่ละรายการต่อไปนี้โดยใช้การตั้งค่าการเชื่อมต่อที่คุณเพิ่งสร้างขึ้น:
 
         - ผลลัพธ์เชิงลึกของการชำระเงินของลูกค้า (CDS to Fin และ Ops 10.0.17+)
         - ผลลัพธ์ของชุดเวลาของกระแสเงินสด (CD to Fin และ Ops)
         - ผลลัพธ์ของชุดเวลาของงบประมาณ (CD to Fin และ Ops)
+
+      > [!NOTE]
+      > การสร้างโครงการการรวมข้อมูลหลายโครงการให้กับเทมเพลตแต่ละรายการอาจทําให้เกิดข้อผิดพลาดที่จะบล็อคการอัปเดต
 
     2. ตั้งค่าการจัดกำหนดการที่เหมาะสมสำหรับแต่ละโครงการ
 

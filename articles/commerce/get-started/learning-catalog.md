@@ -9,20 +9,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 503febd81b1546426e4024f88a40c1f08834f46f
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: db367c64f05019e4d85168406d433b323d3ec124
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402138"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690231"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>แค็ตตาล็อกการเรียนรู้ Dynamics 365 Commerce 
 
-ค้นหาการฝึกอบรมออนไลน์ที่เหมาะสม การประชุมเชิงปฏิบัติการบุคคล และเหตุการณ์สำหรับบทบาทของคุณในฐานะผู้ใช้แอพลิเคชัน Dynamics 365 Commerce
+ค้นหาการฝึกอบรมออนไลน์ที่เหมาะสม การประชุมเชิงปฏิบัติการบุคคล และเหตุการณ์สำหรับบทบาทของคุณในฐานะผู้ใช้แอปพลิเคชัน Dynamics 365 Commerce
 
 <!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
@@ -43,7 +42,7 @@ ms.locfileid: "7402138"
 
     ### <a name="business-users"></a>ผู้ใช้ในธุรกิจ
 
-    คุณเพิ่งได้รับแอพลิเคชันใหม่เพื่อใช้ใช่หรือไม่ 
+    คุณเพิ่งได้รับแอปพลิเคชันใหม่เพื่อใช้ใช่หรือไม่ 
 
     [แค็ตตาล็อกการเรียนรู้ของผู้ใช้ทางธุรกิจ](learning-catalog-business-user.md)
 
@@ -88,7 +87,7 @@ ms.locfileid: "7402138"
 
     ### <a name="developers"></a>นักพัฒนา
 
-    คุณจำเป็นต้องเขียนรหัสเพื่อรวมกับแหล่งข้อมูลอื่นๆ ขยายการทำงานของระบบหลัก หรือสร้างแอพลิเคชันที่ซับซ้อนหรือไม่
+    คุณจำเป็นต้องเขียนรหัสเพื่อรวมกับแหล่งข้อมูลอื่นๆ ขยายการทำงานของระบบหลัก หรือสร้างแอปพลิเคชันที่ซับซ้อนหรือไม่
 
     [แค็ตตาล็อกการเรียนรู้ของนักพัฒนา](learning-catalog-developer.md)
 
@@ -103,7 +102,7 @@ ms.locfileid: "7402138"
 
     คุณเป็นผู้เชี่ยวชาญด้านการใช้งานสำหรับโดเมนธุรกิจหรือไม่ 
 
-    [แค็ตตาล็อกการเรียนรู้ของที่ปรึกษาด้านการทำงานแอพลิเคชั่น](learning-catalog-functional-consultant.md)
+    [แค็ตตาล็อกการเรียนรู้ของที่ปรึกษาด้านการทำงานแอปพลิเคชัน](learning-catalog-functional-consultant.md)
 
     [เริ่มต้น](learning-catalog-functional-consultant.md#get-started)
 

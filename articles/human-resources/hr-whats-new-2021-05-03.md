@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bfbfabc8ba9c41dfd02c205755042f82387f5e09c88722e2503316bc1cf5feb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770371"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689788"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 3 พฤษภาคม 2021
 
@@ -71,7 +70,7 @@ ms.locfileid: "6770371"
 
 | ลักษณะการทำงาน | รายละเอียด |
 | --- | --- |
-| Platform Update 10.0.18 (42) | Platform update 10.0.18 ถูกจัดกำหนดการให้เริ่มต้นด้วยการนำออกใช้บริการในวันที่ 17 พฤษภาคม 2021 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น10.0.18 ของแอป Finance and Operations (พฤษภาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| Platform Update 10.0.18 (42) | Platform update 10.0.18 ถูกจัดกำหนดการให้เริ่มต้นด้วยการนำออกใช้บริการในวันที่ 17 พฤษภาคม 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.18 ของแอปการเงินและการดำเนินงาน (พฤษภาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
 | การสนับสนุนฟิลด์ที่กำหนดเองในกฎการมีคุณสมบัติเหมาะสมของการจัดการสวัสดิการ  | [การสนับสนุนฟิลด์ที่กำหนดเองสำหรับการประมวลการมีคุณสมบัติเหมาะสม](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)

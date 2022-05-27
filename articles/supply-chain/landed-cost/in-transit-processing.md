@@ -1,7 +1,7 @@
 ---
 title: การประมวลผลสินค้าที่อยู่ระหว่างส่งต่อ
 description: หัวข้อนี้อธิบายวิธีการทำงานกับใบสั่งสินค้าที่อยู่ระหว่างส่งต่อ เมื่อตั้งค่าใบสั่งหรือการเดินทางให้ใช้การประมวลผลสินค้าที่อยู่ระหว่างการส่งต่อ คุณสามารถออกใบแจ้งหนี้สินค้าก่อนที่จะได้รับสินค้าในคลังสินค้าเพื่อปริมาณการใช้ได้
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: DeliveryTerms, InventLocation, InventPosting, ITMGoodsInTransitOrder, ITMTableListPage, ITMTable, ITMContainersListPage, ITMContainers, ITMFolioTableListPage, ITMFolioTable, ITMGoodsInTransitOrderEditLines, SysOperationTemplateForm, WHSRFMenuItem, WHSLocDirTable, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e85e3ba92b61e0208e1cf95d3f361d38772d83cb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571052"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694668"
 ---
 # <a name="goods-in-transit-processing"></a>การประมวลผลสินค้าที่อยู่ระหว่างการส่งต่อ
 
@@ -133,7 +132,7 @@ ms.locfileid: "7571052"
 
 การตั้งค่าคอนฟิกของกระบวนการเหล่านี้มีลักษณะคล้ายกับการตั้งค่าของ [กระบวนการสร้างงานการรับและสำรองใบสั่งซื้อ](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work) อย่างไรก็ตาม กระบวนการ *การรับสินค้าและสำรองสินค้าที่อยู่ระหว่างส่งต่อ* ยังเพิ่มฟิลด์ต่อไปนี้ด้วย
 
-- **เปิดใช้งานคอนเทนเนอร์การจัดส่งเสร็จสมบูรณ์** – ถ้าตัวเลือกนี้ถูกตั้งค่าเป็น *ใช่* เมื่องานการสำรองสินค้าเสร็จสมบูรณ์ แอปการจัดการคลังสินค้าบนมือถือจะแสดงตัวเลือกเพิ่มเติมชื่อ **คอนเทนเนอร์จัดส่งเสร็จสมบูรณ์** เมื่อเลือกตัวเลือกนี้ ผู้ปฏิบัติงานจะถูกขอให้ยืนยันว่าคอนเทนเนอร์นั้นสมบูรณ์ ในจุดนั้น การรับสินค้าสั้นๆ ทั้งหมดจะถูกประมวลผลเป็นภายใต้ธุรกรรม
+- **เปิดใช้งานคอนเทนเนอร์การจัดส่งเสร็จสมบูรณ์** – ถ้าตัวเลือกนี้ถูกตั้งค่าเป็น *ใช่* เมื่องานการสำรองสินค้าเสร็จสมบูรณ์ แอป Warehouse Management บนมือถือจะแสดงตัวเลือกเพิ่มเติมชื่อ **คอนเทนเนอร์จัดส่งเสร็จสมบูรณ์** เมื่อเลือกตัวเลือกนี้ ผู้ปฏิบัติงานจะถูกขอให้ยืนยันว่าคอนเทนเนอร์นั้นสมบูรณ์ ในจุดนั้น การรับสินค้าสั้นๆ ทั้งหมดจะถูกประมวลผลเป็นภายใต้ธุรกรรม
 
 ### <a name="location-directives"></a>คำสั่งสถานที่
 

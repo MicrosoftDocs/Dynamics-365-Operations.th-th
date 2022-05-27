@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d91ef244f8dd48baf65f5633357a7d81a68f84621b20d39d4e0ee771283a2bab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741368"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693485"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources 5 เมษายน 2021
 
@@ -72,7 +71,7 @@ ms.locfileid: "6741368"
 | ลักษณะการทำงาน | รายละเอียด |
 | --- | --- |
 | ทักษะที่ป้อนโดยผู้จัดการของพนักงานสามารถอนุมัติโดยอัตโนมัติโดยลำดับงานได้ | เร็วๆ นี้ |
-| Platform Update 10.0.17 (41) | การอัปเดตแพลตฟอร์ม 10.0.17 มีการจัดตารางที่จะเริ่มต้นด้วยการนำออกใช้รายการถัดไปในวันที่ 19 เมษายน 2021 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.17 ของแอป Finance and Operations (เมษายน 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Platform Update 10.0.17 (41) | การอัปเดตแพลตฟอร์ม 10.0.17 มีการจัดตารางที่จะเริ่มต้นด้วยการนำออกใช้รายการถัดไปในวันที่ 19 เมษายน 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.17 ของแอปการเงินและการดำเนินงาน (เมษายน 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 
 สำหรับรายการของลักษณะการทำงานที่วางแผนไว้ทั้งหมดและการเผยแพร่ตามกำหนดการของพวกเขา ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2021 เวฟ 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7e8f2b158f3d3274fee87f94c69c599380f2e2c06cf0bd2284f963d46d81c02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d75c4a27ff98f52fff6ec498aded4dfcc031931
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774932"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695801"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (11 มิถุนายน 2020)
 
@@ -52,7 +51,7 @@ ms.locfileid: "6774932"
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>เอนทิตีกรอบงานการจัดการข้อมูล (DMF) สำหรับการจัดการสวัสดิการ
  
-เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย แม่แบบการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล แม่แบบส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
+เอนทิตีการจัดการสวัสดิการกำลังนำออกใช้ เอนทิตี DMF อนุญาตให้คุณสามารถนำเข้าและส่งออกข้อมูลเพื่อให้ตั้งค่าคอนฟิกการจัดการสวัสดิการได้อย่างง่ายดาย เทมเพลตการจัดการสวัสดิการจะพร้อมใช้งานเพื่อย้ายข้อมูล เทมเพลตส่งออกและนำเข้าข้อมูลตามลำดับตามการอ้างอิงข้อมูล
 
 ## <a name="buy-and-sell-leave"></a>ซื้อและขายวันลางาน 
 

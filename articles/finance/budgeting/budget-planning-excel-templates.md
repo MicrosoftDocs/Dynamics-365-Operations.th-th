@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775181"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711989"
 ---
 # <a name="budget-planning-templates-for-excel"></a>เท็มเพลตการวางแผนงบประมาณสำหรับ Excel
 
@@ -55,7 +55,7 @@ ms.locfileid: "6775181"
 เท็มเพลต Excel จะประกอบด้วยองค์ประกอบทั้งหมดจากโครงร่างเอกสารแผนงบประมาณ โดยที่คอลัมน์ **พร้อมใช้งานในแผ่นงาน** ถูกตั้งค่าเป็น True ไม่อนุญาตให้มีองค์ประกอบที่ซ้อนทับกันในเท็มเพลต Excel ตัวอย่างเช่น ถ้าโครงร่างประกอบด้วยคอลัมน์คำขอ Q1 คำขอ Q2คำขอ Q3 และคำขอ Q4 และคอลัมน์คำขอรวมที่แสดงผลรวมของคอลัมน์รายไตรมาสทั้ง 4 เฉพาะคอลัมน์รายไตรมาสหรือคอลัมน์รวมเท่านั้นที่พร้อมใช้งานในเท็มเพลต Excel ไฟล์ Excel ไม่สามารถปรับปรุงคอลัมน์ที่ซ้อนทับกันในระหว่างการปรับปรุงได้เนื่องจากข้อมูลในตารางอาจจะล้าสมัยและไม่ถูกต้อง
 
 > [!NOTE] 
-> เพื่อหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นกับการดูและการแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรถูกลงชื่อเข้าใช้ในทั้ง Microsoft Dynamics 365 Finance และตัวเชื่อมต่อข้อมูล Add-in ของ Office Microsoft Dynamics
+> เพื่อหลีกเลี่ยงปัญหาที่อาจเกิดขึ้นกับการดูและการแก้ไขข้อมูลแผนงบประมาณโดยใช้ Excel ผู้ใช้เดียวกันควรถูกลงชื่อเข้าใช้ในทั้ง Microsoft Dynamics 365 Finance และตัวเชื่อมต่อข้อมูล Add-in ของสำนักงาน Microsoft Dynamics
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>เพิ่มหัวข้อลงในเท็มเพลตเอกสารแผนงบประมาณ
 เมื่อต้องการเพิ่มข้อมูลหัวข้อ เลือกแถวบนสุดในไฟล์ Excel และแทรกแถวที่ว่าง คลิก **ออกแบบ** ใน **ตัวเชื่อมต่อข้อมูล** เพื่อเพิ่มฟิลด์หัวข้อไปยังไฟล์ Excel

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae4b0619a7006bad623e3cee4d9f099e2632b10eeabb78aac16abe53b0911b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eedc89be0bbcd92f541c57fb1f99a04e8706eafd
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781644"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689367"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Human Resources (1 พฤษภาคม 2020)
 
@@ -64,7 +63,7 @@ ms.locfileid: "6781644"
 
 คุณสามารถระงับการลางานและการขาดงานในทรัพยากรบุคคลสำหรับพนักงาน การระงับการลางานจะหยุดการรับรู้การลางานสำหรับชนิดการลางานที่เลือก ถ้าการระงับเกิดขึ้นหลังจากที่มีการประมวลผลการรับรู้ การระงับการลางานจะสร้างการปรับปรุงตามสัดส่วนให้กับยอดดุลการลางานของพนักงาน สำหรับข้อมูลเพิ่มเติม โปรดดู [ระงับการลางาน](hr-leave-and-absence-suspend-leave.md)
 
-## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัพเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
+## <a name="update-user-experience-to-indicate-that-accrual-is-suspended-429550"></a>อัปเดตประสบการณ์ผู้ใช้เพื่อบ่งชี้ว่ารายการคงค้างถูกระงับแล้ว (429550)
 
 ประสบการณ์ผู้ใช้บ่งชี้ว่าการคงค้างถูกระงับสำหรับแผนแล้ว
 
@@ -104,7 +103,7 @@ ms.locfileid: "6781644"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2019 ปล่อยเวฟ 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

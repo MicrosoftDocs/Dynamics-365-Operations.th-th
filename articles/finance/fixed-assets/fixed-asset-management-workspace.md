@@ -1,25 +1,25 @@
 ---
 title: พื้นที่ทำงานการจัดการสินทรัพย์ถาวร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการจัดสินทรัพย์ถาวร พื้นที่ทำงานนี้แสดงข้อมูลที่เกี่ยวข้องกับสินทรัพย์ถาวรที่ป้อนเข้าไปในระบบ ซึ่งจะมีมุมมองสรุปและมุมมองการวิเคราะห์
-author: saraschi2
+author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.assetid: ''
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 597a9a32995d44282c89725e053f6da4643dbb691b1b36ae7c237acbfa2afb70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37f9f6be2fa3594b96313f4f72b96b52ca798c6a
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721814"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720068"
 ---
 # <a name="fixed-asset-management-workspace"></a>พื้นที่ทำงานการจัดการสินทรัพย์ถาวร
 
