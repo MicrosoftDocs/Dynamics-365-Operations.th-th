@@ -1,7 +1,7 @@
 ---
 title: การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
 description: หัวข้อนี้อธิบายวิธีที่เจ้าหน้าที่จัดซื้อสามารถทำงานร่วมกันกับผู้จัดจำหน่ายภายนอก เพื่อแลกเปลี่ยนข้อมูลเกี่ยวกับใบสั่งซื้อและสินค้าคงคลังที่มีการส่งมอบ
-author: Henrikan
+author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576987"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676900"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>การทำงานร่วมกันกับผู้จัดจำหน่ายกับผู้จัดจำหน่ายภายนอก
 
@@ -31,7 +31,7 @@ ms.locfileid: "7576987"
 ดูข้อมูลเพิ่มเติมเกี่ยวกับสิ่งที่ผู้จัดจำหน่ายภายนอกสามารถทำได้ในอินเทอร์เฟสการทำงานร่วมกันกับผู้จัดจำหน่ายที่ [การทำงานร่วมกันกับผู้จัดจำหน่ายกับลูกค้า](vendor-collaboration-work-customers-dynamics-365-operations.md)
 
 > [!NOTE]
-> ข้อมูลเกี่ยวกับการทำงานร่วมกันกับผู้จัดจำหน่ายในหัวข้อนี้ ใช้เฉพาะกับกับรุ่นปัจจุบันของ Supply Chain Management ใน Microsoft Dynamics AX 7.0 (กุมภาพันธ์ 2016) และแอพลิเคชัน Microsoft Dynamics AX รุ่น 7.0.1 (พฤษภาคม 2016) คุณทำงานร่วมกับผู้จัดจำหน่ายโดยใช้โมดูล **พอร์ทัลผู้จัดจำหน่าย** สำหรับข้อมูลเกี่ยวกับโมดูล **พอร์ทัลของผู้จัดจำหน่าย** ดู [ทำงานร่วมกันกับผู้จัดจำหน่ายโดยการใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)
+> ข้อมูลเกี่ยวกับการทำงานร่วมกันกับผู้จัดจำหน่ายในหัวข้อนี้ ใช้เฉพาะกับกับรุ่นปัจจุบันของ Supply Chain Management ใน Microsoft Dynamics AX 7.0 (กุมภาพันธ์ 2016) และแอปพลิเคชัน Microsoft Dynamics AX รุ่น 7.0.1 (พฤษภาคม 2016) คุณทำงานร่วมกับผู้จัดจำหน่ายโดยใช้โมดูล **พอร์ทัลผู้จัดจำหน่าย** สำหรับข้อมูลเกี่ยวกับโมดูล **พอร์ทัลของผู้จัดจำหน่าย** ดู [ทำงานร่วมกันกับผู้จัดจำหน่ายโดยการใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md)
 
 ดูข้อมูลเพิ่มเติมเกี่ยวกับวิธีที่ผู้จัดจำหน่ายสามารถใช้การทำงานร่วมกันกับผู้จัดจำหน่ายในกระบวนการออกใบแจ้งหนี้ที่ [พื้นที่ทำงานการออกใบแจ้งหนี้การทำงานร่วมกันกับผู้จัดจำหน่าย](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) ดูข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่ายที่ [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](manage-vendor-collaboration-users.md)
 

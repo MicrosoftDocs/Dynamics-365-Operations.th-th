@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487807"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688105"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>การผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources - อัปเดตรีลีส 10.0.25
 
-รีลีส 10.0.25 เป็นเวฟแรกของความสามารถในการผสานโครงสร้างพื้นฐาน ในระหว่างการผสานโครงสร้างพื้นฐาน Microsoft Dynamics 365 Human Resources จะถูกผสานกับโครงสร้างพื้นฐานของการเงินและการดำเนินงาน แต่จะยังคงมีการให้สิทธิ์การใช้งานในฐานะแอปพลิเคชันอิสระ เช่น Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ต่อไป หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการผสานโครงสร้างพื้นฐาน โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources](../human-resources/hr-infrastructure-merge-faq.md)
+รีลีส 10.0.25 เป็นเวฟแรกของความสามารถในการผสานโครงสร้างพื้นฐาน ในระหว่างการผสานโครงสร้างพื้นฐาน Microsoft Dynamics 365 Human Resources จะถูกผสานกับโครงสร้างพื้นฐานของ Finance and Operations แต่จะยังคงมีการให้สิทธิ์การใช้งานในฐานะแอปพลิเคชันอิสระ เช่น Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ต่อไป หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการผสานโครงสร้างพื้นฐาน โปรดดูที่ [คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources](../human-resources/hr-infrastructure-merge-faq.md)
 
 การผสานจะให้ความสอดคล้องกันกับ Human Resources ในลักษณะต่อไปนี้
 
@@ -44,7 +43,7 @@ ms.locfileid: "8487807"
 
 - [สร้างความสามารถด้านทรัพยากรบุคคลหนึ่งชุดใน Dynamics 365](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
-    ในรีลีส 10.0.25 ความสามารถในการทำงานที่มีอยู่เฉพาะใน Human Resources พร้อมใช้งานบนโครงสร้างพื้นฐานของการเงินและการดำเนินงาน เพื่อให้ลูกค้าสามารถใช้คุณสมบัติเหล่านี้ในสภาพแวดล้อมการเงินและการดำเนินงานได้ ต้องเปิดใช้งานคุณลักษณะของ Human Resources ต่อไปนี้ในการจัดการคุณลักษณะ
+    ในรีลีส 10.0.25 ความสามารถในการทำงานที่มีอยู่เฉพาะใน Human Resources พร้อมใช้งานบนโครงสร้างพื้นฐานของ Finance and Operations เพื่อให้ลูกค้าสามารถใช้คุณสมบัติเหล่านี้ในสภาพแวดล้อม Finance and Operations ได้ ต้องเปิดใช้งานคุณลักษณะของ Human Resources ต่อไปนี้ในการจัดการคุณลักษณะ
 
     | ชื่อคุณลักษณะ | ภาพรวม | สถานะนำออกใช้ | 
     |--------------|----------|----------------| 

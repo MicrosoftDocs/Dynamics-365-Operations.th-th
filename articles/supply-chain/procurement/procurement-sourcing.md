@@ -1,7 +1,7 @@
 ---
 title: โฮมเพจการจัดซื้อและการจัดหา
 description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และทรัพยากรอื่นๆ ที่พร้อมใช้งานสำหรับการจัดซื้อและการจัดหา
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565506"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673031"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -57,7 +57,7 @@ ms.locfileid: "7565506"
 -   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [ทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md) (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
--   [ความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (รุ่น 2016 และ พ.ค. 2016 ของ Finance and Operations เท่านั้น)
+-   [ความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
 -   [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>การจัดการผลิตภัณฑ์สำหรับการจัดซื้อ

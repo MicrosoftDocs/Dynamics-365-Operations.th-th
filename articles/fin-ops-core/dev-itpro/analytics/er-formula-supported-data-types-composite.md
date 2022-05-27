@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323676"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689255"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
@@ -81,7 +81,7 @@ ms.locfileid: "8323676"
 
 ตามค่าเริ่มต้น เรกคอร์ดของ *รายการเรกคอร์ด* จะเข้าถึงตามลําดับ เมื่อต้องการเข้าถึงเรกคอร์ดที่ระบุ คุณสามารถใช้ฟังก์ชัน [INDEX](er-functions-list-index.md) และระบุดัชนี *จำนวนเต็ม*
 
-ค่าเริ่มต้นของ *รายการเรกคอร์ด* คือ **ว่าง** คุณสามารถใช้ฟังก์ชัน [ISEMPTY](/er-functions-list-isempty.md) เพื่อประเมินว่า *รายการเรกคอร์ด* ว่างเปล่าหรือไม่
+ค่าเริ่มต้นของ *รายการเรกคอร์ด* คือ **ว่าง** คุณสามารถใช้ฟังก์ชัน [ISEMPTY](er-functions-list-isempty.md) เพื่อประเมินว่า *รายการเรกคอร์ด* ว่างเปล่าหรือไม่
 
 > [!NOTE]
 > ถ้า *รายการเรกคอร์ด* ว่างเปล่า ความพยายามใดๆ ที่จะรับค่าฟิลด์สำหรับ *เรกคอร์ด* จะทำให้เกิดข้อยกเว้นถูกโยนในเวลาที่รัน เมื่อต้องการเรียนรู้วิธีที่คุณสามารถช่วยป้องกันข้อยกเว้นรันไทม์ของชนิดนี้ ให้ดูที่ [การพิจารณากรณีของรายการที่ว่าง](er-components-inspections.md#i9)

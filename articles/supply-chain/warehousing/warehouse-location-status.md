@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 1b5e1eb651d882e7fbf38f2f2cf8804c28f2154fcb299dbc5caabbecdfab560b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5ca45ce47e6b558ac5ba24e63e9461c1d643372
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733287"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677519"
 ---
 # <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>จัดเตรียมข้อมูลตัวอย่างที่จำเป็นสำหรับสถานการณ์จำลองตัวอย่าง
 
-ก่อนที่คุณจะเริ่มทำงานในสถานการณ์สมมติ คุณต้องเรียกใช้ข้อมูลตัวอย่างและตั้งค่าคุณลักษณะตามที่อธิบายไว้ในส่วนนี้ เมื่อต้องการดำเนินการตัวอย่างสถานการณ์จำลองให้เสร็จสมบูรณ์ คุณต้องใช้แอปการจัดการคลังสินค้าบนมือถือหรือตัวเลียนแบบตามเบราว์เซอร์ ขั้นตอนที่ระบุไว้ที่นี่จะใช้แอปการจัดการคลังสินค้าบนมือถือ ขั้นตอนต่างๆ สำหรับตัวเลียนแบบตามเบราว์เซอร์มีลักษณะคล้ายกัน
+ก่อนที่คุณจะเริ่มทำงานในสถานการณ์สมมติ คุณต้องเรียกใช้ข้อมูลตัวอย่างและตั้งค่าคุณลักษณะตามที่อธิบายไว้ในส่วนนี้ เมื่อต้องการดำเนินการตัวอย่างสถานการณ์จำลองให้เสร็จสมบูรณ์ คุณต้องใช้แอป Warehouse Management บนมือถือหรือตัวเลียนแบบตามเบราว์เซอร์ ขั้นตอนที่ระบุไว้ที่นี่จะใช้แอป Warehouse Management บนมือถือ ขั้นตอนต่างๆ สำหรับตัวเลียนแบบตามเบราว์เซอร์มีลักษณะคล้ายกัน
 
 #### <a name="use-the-usmf-legal-entity"></a>ใช้นิติบุคคล USMF
 

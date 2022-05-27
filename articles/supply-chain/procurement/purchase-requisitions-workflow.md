@@ -1,7 +1,7 @@
 ---
 title: เวิร์กโฟลว์การขอเสนอซื้อ
 description: กระบวนการลำดับงานย้ายใบขอซื้อโดยผ่านกระบวนการตรวจทาน จากสถานะการเริ่มต้นของ ร่าง ไปเป็นสถานะขั้นสุดท้าย อนุมัติแล้ว  เมื่อมีส่งใบขอซื้อเพื่อตรวจทาน กระบวนการลำดับงานได้เริ่มต้นแล้ว หลังจากที่อนุมัติใบสั่งซื้อ ใบสั่งซื้ออาจถูกสร้างขึ้นสำหรับรายการใบขอซื้อ และถูกส่งไปยังผู้จัดจำหน่ายสำหรับการเติมสินค้าของใบสั่ง
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569468"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675948"
 ---
 # <a name="purchase-requisition-workflow"></a>เวิร์กโฟลว์การขอเสนอซื้อ
 

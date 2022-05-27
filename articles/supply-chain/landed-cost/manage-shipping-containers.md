@@ -1,7 +1,7 @@
 ---
 title: จัดการคอนเทนเนอร์การจัดส่ง
 description: หัวข้อนี้อธิบายวิธีการทำงานกับคอนเทนเนอร์การจัดส่ง คอนเทนเนอร์การจัดส่งจะใช้ในการจัดกลุ่มสินค้าเข้าด้วยกันและจัดกลุ่มทางกายภาพเข้าด้วยกัน และมีการใช้ต้นทุนเหล่านี้ในกรณีที่ต้องมีการใช้ต้นทุนร่วมกันระหว่างสินค้าเหล่านั้นเท่านั้น ซึ่งโดยปกติจะเป็นเพราะมีการใช้งานร่วมกันทางกายภาพ
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMContainersListPage, ITMContainers
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d3a47aa2ae36cd36a7e92aa2503252021e03f739
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573788"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686782"
 ---
 # <a name="manage-shipping-containers"></a>จัดการคอนเทนเนอร์การจัดส่ง
 

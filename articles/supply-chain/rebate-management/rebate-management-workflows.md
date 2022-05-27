@@ -9,23 +9,22 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576675"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687425"
 ---
 # <a name="rebate-management-deal-workflows"></a>ลำดับงานข้อตกลงการจัดการเงินคืน
 
 [!include [banner](../includes/banner.md)]
 
-หากต้องการอนุมัติข้อตกลงเงินคืน การจัดการเงินคืนจะใช้แพลตฟอร์มลำดับงานเดียวกันกับแอป Finance and Operations อื่นๆ กระบวนการงานสองกระบวนการจะสัมพันธ์กับทุกลำดับงาน:
+หากต้องการอนุมัติข้อตกลงเงินคืน การจัดการเงินคืนจะใช้แพลตฟอร์มลำดับงานเดียวกันกับแอปการเงินและการดำเนินงานอื่นๆ กระบวนการงานสองกระบวนการจะสัมพันธ์กับทุกลำดับงาน:
 
 - องค์ประกอบหนึ่งของลำดับงานจะอนุมัติข้อตกลงนี้
 - องค์ประกอบหนึ่งของลำดับงานเรียกใช้งานข้อตกลงเพื่อให้ผู้ใช้หรือกระบวนการลำดับงานสามารถอนุมัติธุรกรรมได้

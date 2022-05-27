@@ -1,7 +1,7 @@
 ---
 title: อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ
 description: 'กระบวนงานนี้แสดงวิธีการอนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ '
-author: Henrikan
+author: GalynaFedorova
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4c48bfbcc3fb64bae66fe3cfef1d55d15049bb9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5092012f27dd03343410d30d15cae11ad20ce052
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575446"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670173"
 ---
 # <a name="approve-vendors-for-specific-products"></a>อนุมัติผู้จัดจำหน่ายสำหรับผลิตภัณฑ์เฉพาะ
 
@@ -31,7 +31,7 @@ ms.locfileid: "7575446"
 3. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
 4. ขยายแท็บด่วน **ซื้อ** ถ้ามีผู้จัดจำหน่ายหลักแสดงอยู่ในฟิลด์ **ผู้จัดจำหน่าย** จากนั้น คุณต้องเพิ่มผู้จัดจำหน่ายนี้ให้เป็นผู้จัดจำหน่ายที่ได้รับอนุมัติในขั้นตอนต่อไปนี้ จดบันทึกหมายเลขผู้จัดจำหน่าย ถ้ามีการแสดงขึ้น  
 5. บนบานหน้าต่างการดำเนินการ คลิก **ซื้อ**
-6. คลิก **ตั้งค่า**
+6. คลิก **การตั้งค่า**
 7. คลิก **เพิ่ม**
 8. ในฟิลด์ผู้จัดจำหน่าย ให้ป้อนหรือเลือกค่าใดค่าหนึ่ง เลือกผู้จัดจำหน่ายที่ได้รับอนุมัติ  ต้องมีอย่างน้อยหนึ่งบรรทัดที่มีผู้จัดจำหน่ายหลักถ้ามีผู้จัดจำหน่ายหลักอยู่ในเรกคอร์ดผลิตภัณฑ์ ถ้าคุณจดบันทึกหมายเลขผู้จัดจำหน่ายไว้ก่อนหน้า ให้เลือกที่นี่  
 9. ในฟิลด์ **การหมดอายุ** ให้ป้อนวันที่ เลือกวันที่ที่ล่วงหน้าหลายเดือน  

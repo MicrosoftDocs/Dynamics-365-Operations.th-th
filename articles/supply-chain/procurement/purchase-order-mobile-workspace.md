@@ -1,7 +1,7 @@
 ---
 title: พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานการอนุมัติใบสั่งซื้อแบบเคลื่อนที่ ที่ให้คุณดูใบสั่งซื้อและตอบสนองได้โดยใช้การดำเนินการ ตัวอย่างเช่น คุณสามารถอนุมัติ หรือปฏิเสธใบสั่งซื้อ
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 30211
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc88f20b50e034f2f27b7e2576fe6a4bb3486e23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 32c22d582c0af03482767d335b824ccbe81ee607
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570572"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674322"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่สำหรับการอนุมัติใบสั่งซื้อ
 
@@ -69,16 +69,16 @@ ms.locfileid: "7570572"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
+ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
 
 - [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอปบนมือถือ
 
-1. เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
+1. เริ่มการทำงานแอปบนอุปกรณ์เคลื่อนที่ของคุณ
 2. ใส่ URL Microsoft Dynamics 365 ของคุณ
 3. ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4. หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่
