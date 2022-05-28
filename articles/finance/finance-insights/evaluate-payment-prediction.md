@@ -2,25 +2,25 @@
 title: ประเมินแบบจำลองการคาดการณ์การชำระเงินของลูกค้าเริ่มต้น
 description: หัวข้อนี้จะอธิบายถึงขั้นตอนที่คุณสามารถใช้เพื่อทำความเข้าใจแบบจำลองการคาดการณ์การชำระเงินของลูกค้าและประเมินประสิทธิภาพของลูกค้า
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969123"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677967"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>ประเมินแบบจำลองการคาดการณ์การชำระเงินของลูกค้าเริ่มต้น
 
@@ -30,7 +30,7 @@ ms.locfileid: "7969123"
 
 ## <a name="getting-details-about-the-model"></a>การดูรายละเอียดเกี่ยวกับแบบจำลอง
 
-ในหน้า **พารามิเตอร์ข้อมูลเชิงลึกทางการเงิน** ใน Microsoft Dynamics 365 Finance ลิงก์ **ความถูกต้องของแบบจำลองการปรับปรุง** จะปรากฏขึ้นถัดจากคะแนนความถูกต้อง
+ในหน้า **พารามิเตอร์ Finance Insights** ใน Microsoft Dynamics 365 Finance ลิงก์ **ความถูกต้องของแบบจำลองการปรับปรุง** จะปรากฏขึ้นถัดจากคะแนนความถูกต้อง
 
 [![ปรับปรุงลิงก์ความแม่นยำของแบบจำลอง](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -93,6 +93,6 @@ ms.locfileid: "7969123"
 
 ## <a name="for-more-information"></a>สำหรับข้อมูลเพิ่มเติม
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการประเมินแบบจำลองการคาดคะเน AI [ผลลัพธ์ของแบบจำลองการเรียนรู้ของเครื่อง](/confusion-matrix.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการประเมินแบบจำลองการคาดคะเน AI [ผลลัพธ์ของแบบจำลองการเรียนรู้ของเครื่อง](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

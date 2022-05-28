@@ -2,7 +2,7 @@
 title: กำหนดอินเทอร์เฟสการดำเนินการผลิต
 description: หัวข้อนี้อธิบายวิธีการขยายแบบฟอร์มปัจจุบัน หรือสร้างแบบฟอร์มและปุ่มใหม่ให้กับอินเทอร์เฟสการปฏิบัติการในการผลิต
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066557"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712956"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>กำหนดอินเทอร์เฟสการดำเนินการผลิต
 
@@ -60,7 +60,7 @@ ms.locfileid: "8066557"
 1. สร้างส่วนขยายที่ชื่อ `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension` โดยที่วิธีการ `getMainMenuItemsList` จะถูกขยายโดยเพิ่มรายการเมนูใหม่ลงในรายการ รหัสต่อไปนี้แสดงตัวอย่าง
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>การเพิ่มตัวควบคุมวันที่และเวลาในแบบฟอร์มหรือกล่องโต้ตอบ
+
+ส่วนนี้แสดงวิธีการเพิ่มตัวควบคุมวันที่และเวลาในแบบฟอร์มหรือกล่องโต้ตอบ ตัวควบคุมวันที่และเวลาระบบสัมผัสช่วยผู้ปฏิบัติงานในการระบุวันที่และเวลา ภาพหน้าจอต่อไปนี้จะแสดงวิธีการที่โดยปกติตัวควบคุมปรากฏบนหน้า ตัวควบคุมเวลาจะมีเวลาทั้งเวอร์ชัน 12 ชั่วโมงและ 24 ชั่วโมง เวอร์ชันที่แสดงจะเป็นไปตามการกำหนดลักษณะที่ตั้งค่าไว้ของบัญชีผู้ใช้ที่ส่วนติดต่อทำงานอยู่
+
+![ตัวอย่างตัวควบคุมวันที่](media/pfe-customize-date-control.png "ตัวอย่างตัวควบคุมวันที่")
+
+![ตัวอย่างตัวควบคุมที่มีเวลา 12 ชั่วโมง](media/pfe-customize-time-control-12h.png "ตัวอย่างตัวควบคุมที่มีเวลา 12 ชั่วโมง")
+
+![ตัวอย่างตัวควบคุมที่มีเวลา 24 ชั่วโมง](media/pfe-customize-time-control-24h.png "ตัวอย่างตัวควบคุมที่มีเวลา 24 ชั่วโมง")
+
+ขั้นตอนต่อไปนี้แสดงตัวอย่างวิธีการเพิ่มตัวควบคุมวันที่และเวลาให้กับแบบฟอร์ม
+
+1. เพิ่มตัวควบคุมในแบบฟอร์มให้กับตัวควบคุมวันที่และเวลาแต่ละตัวที่แบบฟอร์มควรมี (จํานวนตัวควบคุมต้องเท่ากับจํานวนตัวควบคุมวันที่และเวลาในแบบฟอร์ม)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. ประกาศตัวแปรที่ต้องการ (เป็นชนิด `utcdatetime`)
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. สร้างวิธีการที่วันที่เวลาจะถูกอัปเดตโดยผู้ควบคุมวันที่เวลา ตัวอย่างต่อไปนี้แสดงวิธีดังกล่าว
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. ตั้งค่าลักษณะการทำงานของตัวควบคุมวันที่เวลาและเชื่อมต่อตัวควบคุมกับส่วนของแบบฟอร์ม ตัวอย่างต่อไปนี้แสดงวิธีการตั้งค่าข้อมูลจากตัวควบคุมวันที่เริ่มต้นและเวลาเริ่มต้น คุณสามารถเพิ่มรหัสที่คล้ายกันของตัวควบคุมวันที่และเวลาสิ้นสุด (ไม่แสดง)
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    ถ้าทั้งหมดที่คุณต้องการคือตัวควบคุมวันที่ คุณสามารถข้ามการตั้งค่าตัวควบคุมเวลาและตั้งค่าตัวควบคุมวันที่ตามที่แสดงในตัวอย่างต่อไปนี้แทน
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

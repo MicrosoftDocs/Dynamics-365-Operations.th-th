@@ -8,15 +8,15 @@ ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3c6f9d386f79754edce38e4e2cf4c9bfefbce69bdb252e8754f39d909827fa02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722162"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678421"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>การเบิกสินค้าเกินสำหรับใบสั่งขายและใบสั่งโอนย้าย
 
@@ -134,9 +134,9 @@ ms.locfileid: "6722162"
 1. เลือก **นำไปใช้**
 1. จดบันทึกค่า **ป้ายทะเบียน** ที่แสดง
 
-### <a name="over-pick-the-order-by-using-the-warehouse-management-mobile-app"></a>เบิกใบสั่งมากเกินไปโดยใช้แอปสำหรับอุปกรณ์เคลื่อนที่ Warehouse Management
+### <a name="over-pick-the-order-by-using-the-warehouse-management-mobile-app"></a>เบิกใบสั่งมากเกินไปโดยใช้แอป Warehouse Management บนมือถือ
 
-1. ลงชื่อเข้าใช้แอปการจัดการคลังสินค้าบนมือถือในฐานะผู้ใช้งานคลังสินค้า *24*
+1. ลงชื่อเข้าใช้แอป Warehouse Management บนมือถือในฐานะผู้ใช้งานคลังสินค้า *24*
 1. ไปที่ **ขาออก \> การเบิกสินค้าการขาย**
 1. ในฟิลด์ **สแกนรหัสงานหรือป้ายทะเบียน** ให้ป้อนรหัสงานที่สร้างขึ้นสําหรับใบสั่งขาย
 1. เลือก **ตกลง** (สัญลักษณ์เครื่องหมายถูก)

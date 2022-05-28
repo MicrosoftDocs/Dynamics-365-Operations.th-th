@@ -1,7 +1,7 @@
 ---
 title: วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
 description: วันที่แบบเข้าหลัง ออกก่อน (วันที่ LIFO) เป็นแบบจำลองสินค้าคงคลังที่ใช้หลักการ LIFO จะมีการจับคู่การตัดสินค้าจากคลังกับการรับสินค้ารายการสุดท้ายไปยังคลังสินค้า ตามวันที่ของธุรกรรมสินค้าคงคลัง ด้วยวันที่ LIFO โดยการใช้วันที่ LIFO หากไม่มีการรับสินค้าก่อนการนำสินค้าออกใช้ การนำสินค้าออกใช้จะถูกจับคู่กับการรับสินค้าใดๆ ที่เกิดขึ้นหลังจากวันที่นำสินค้าออกใช้ การนำสินค้าออกใช้หลายครั้งในวันเดียวกันอาจถูกจับคู่ในลำดับของการนำสินค้าออกใช้ครั้งล่าสุด การรับสินค้าครั้งล่าสุด
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330287"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671463"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>วันที่ LIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย
 

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 498201d5c0377058e86b25953ebbe401ae1af9e3
-ms.sourcegitcommit: ed43ceae9b2ef3f616b81127bcf4c4b0862e23f5
+ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "7714891"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689141"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>เลือกกําหนดการตั้งค่าคอนฟิกภาษีสำหรับการค้นหาข้อมูลหลัก
 
@@ -77,7 +76,7 @@ ms.locfileid: "7714891"
 
     [![สร้างกล่องโต้ตอบการตั้งค่าคอนฟิกแบบหล่นลง](./media/pic6.png)](./media/pic6.png)
 
-8. เลือก **การแม็ปแบบจำลองการเลือกกำหนด** และตั้งค่าฟิลด์ **แอพลิเคชันที่เชื่อมต่อ** เป็นการเชื่อมต่อที่สร้างไว้ในขั้นตอนที่ 8 ใน [การตั้งค่าสภาพแวดล้อมของการค้นหาข้อมูลหลัก](tax-service-set-up-environment-master-data-lookup.md)
+8. เลือก **การแม็ปแบบจำลองการเลือกกำหนด** และตั้งค่าฟิลด์ **แอปพลิเคชันที่เชื่อมต่อ** เป็นการเชื่อมต่อที่สร้างไว้ในขั้นตอนที่ 8 ใน [การตั้งค่าสภาพแวดล้อมของการค้นหาข้อมูลหลัก](tax-service-set-up-environment-master-data-lookup.md)
 9. ตั้งค่าฟิลด์ **ค่าเริ่มต้นสำหรับการแม็ปแบบจำลอง** เป็น **ใช่**
 
 ## <a name="create-customized-model-mappings"></a>สร้างการแม็ปแบบจำลองที่เลือกกำหนด

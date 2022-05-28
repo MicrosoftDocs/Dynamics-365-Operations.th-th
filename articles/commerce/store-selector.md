@@ -3,7 +3,7 @@ title: โมดูลตัวเลือกร้านค้า
 description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้าและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772167"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710791"
 ---
 # <a name="store-selector-module"></a>โมดูลตัวเลือกการจัดเก็บ
 
@@ -59,6 +59,16 @@ ms.locfileid: "6772167"
     ![ตัวอย่างของการตั้งค่าละติจูดและลองติจูดสำหรับร้านค้าในศูนย์ควบคุม](./media/Store-latitude-longitude.png)
 
 1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก** 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>ซ่อนร้านค้าจากโมดูลตัวเลือกร้านค้า
+
+ร้านค้าบางร้านในกลุ่มการเติมสินค้าอาจไม่ใช่สถานที่รับสินค้าที่ถูกต้อง เพื่อให้แน่ใจว่าเฉพาะสถานที่รับสินค้าที่ถูกต้องเท่านั้นที่จะปรากฏเป็นตัวเลือกในโมดูลตัวเลือกร้านค้า ให้ทำตามขั้นตอนเหล่านี้ใน Commerce headquarters
+
+1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าการค้า \> กลุ่มการเติมสินค้า \> ร้านค้าทั้งหมด**
+1. บนบานหน้าต่างการดำเนินการ เลือก **แก้ไข**
+1. ภายใต้ **การตั้งค่า** ร้านค้าทุกร้านที่ไม่ใช่สถานที่รับสินค้าที่ถูกต้อง ให้ล้างกล่องกาเครื่องหมาย **เป็นสถานที่รับสินค้า**
+1. บนบานหน้าต่างการดำเนินการ เลือก **บันทึก**
+1. เรียกใช้งานกำหนดการการกระจาย 1070 **การตั้งค่าคอนฟิกช่องทาง**
 
 ## <a name="bing-maps-integration"></a>การรวม Bing Maps
 

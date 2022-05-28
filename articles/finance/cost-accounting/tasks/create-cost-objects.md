@@ -1,24 +1,24 @@
 ---
 title: 'สร้างออบเจ็กต์ต้นทุน  '
 description: กระบวนการนี้แสดงวิธีการสร้างออบเจ็กต์ต้นทุนโดยการนำเข้ามิติทางการเงินของศูนย์ต้นทุน ลงในบัญชีต้นทุนสินค้าผ่านตัวเชื่อมต่อข้อมูล
-author: ShylaThompson
+author: twheeloc
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXFinancialDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0215e815e3e44568fb81ab7fad9b44c219e961cb6ef68996bf43218ef817e8d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88196ea19488cd8572bf0e7883298317c9c84696
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765063"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734143"
 ---
 # <a name="create-cost-objects"></a>สร้างออบเจ็กต์ต้นทุน   
 
@@ -28,25 +28,25 @@ ms.locfileid: "6765063"
 
 
 ## <a name="create-new-cost-objects"></a>สร้างออบเจ็กต์ต้นทุนใหม่
-1. ไปที่ การลงบัญชีต้นทุนสินค้า > มิติ > มิติออบเจ็กต์ต้นทุน
-2. คลิก สร้าง
-3. ในฟิลด์ชื่อ ให้พิมพ์ค่า 
-4. ในฟิลด์ตัวเชื่อมต่อข้อมูลสำหรับสมาชิกมิติ ให้ป้อนหรือเลือกค่า
-5. ในฟิลด์ คำอธิบาย ให้พิมพ์ค่า
-6. คลิก บันทึก
+1. ไปที่ **การลงบัญชีต้นทุน > มิติ > มิติออบเจ็กต์ต้นทุน**
+2. คลิก **สร้าง**
+3. ในฟิลด์ **ชื่อ** ให้พิมพ์ค่าใดค่าหนึ่ง
+4. ในฟิลด์ **ตัวเชื่อมต่อข้อมูลสำหรับสมาชิกมิติs** ให้ป้อนหรือเลือกค่า
+5. ในฟิลด์ **คำอธิบาย** ให้พิมพ์ค่าใดค่าหนึ่ง
+6. คลิก **บันทึก**
 
 ## <a name="configure-the-data-connector"></a>ตั้งค่าคอนฟิกตัวเชื่อมต่อข้อมูล
-1. คลิก ตั้งค่าคอนฟิกตัวให้บริการสมาชิกมิติ
+1. คลิก **ตั้งค่าคอนฟิกตัวให้บริการสมาชิกมิติ**
     * เลือก CostCenter เพื่อนำเข้ามิติ CostCenter ลงในการลงบัญชีต้นทุน  
-2. ในฟิลด์ชื่อมิติ เลือกศูนย์ต้นทุน
-3. คลิก ตกลง
+2. ในฟิลด์ **ชื่อมิติ** เลือกศูนย์ต้นทุน
+3. คลิก **ตกลง** 
 
 ## <a name="import-cost-centers"></a>นำเข้าศูนย์ต้นทุน
-1. คลิก นำเข้าสมาชิกมิติ
-2. คลิก ตกลง
+1. คลิก **นำเข้าสมาชิกมิติ**
+2. คลิก **ตกลง** 
 
 ## <a name="view-the-imported-cost-centers"></a>ดูศูนย์ต้นทุนที่นำเข้า
-1. คลิก ดูสมาชิกมิติ
+1. คลิก **ดูสมาชิกมิติ**
 
 
 

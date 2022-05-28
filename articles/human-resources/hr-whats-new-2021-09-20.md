@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f4fc4768f8c96678b216709f78af6d3ddfd4132
-ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
+ms.openlocfilehash: a3fd8705c7735cb3c0945f71651fafa767a7addf
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/25/2021
-ms.locfileid: "7556944"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691595"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-20-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 20 กันยายน 2021
 
@@ -84,7 +83,7 @@ ms.locfileid: "7556944"
 
 | ลักษณะการทำงาน | รายละเอียด |
 |---|---|
-| Platform Update 10.0.21 (45) | การเริ่มต้น Platform update 10.0.21 ถูกจัดกำหนดการให้เริ่มด้วยการนำออกใช้บริการในวันที่ 4 ตุลาคม 2021 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.21 ของแอป Finance and Operations (ตุลาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platform Update 10.0.21 (45) | การเริ่มต้น Platform update 10.0.21 ถูกจัดกำหนดการให้เริ่มด้วยการนำออกใช้บริการในวันที่ 4 ตุลาคม 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.21 ของแอปการเงินและการดำเนินงาน (ตุลาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 |มุมมองรายงานเพิ่มเติมของสมุดรายวันประสิทธิภาพ | คุณลักษณะนี้จะกลายเป็นเปิดใช้งานโดยค่าเริ่มต้นในการนำเสนอถัดไป |
 
 

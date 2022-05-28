@@ -1,7 +1,7 @@
 ---
 title: การตรวจสอบคุณภาพ
 description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะการตรวจสอบคุณภาพ ลักษณะการทำงานนี้อนุญาตให้ผู้ปฏิบัติงานคลังสินค้าทำการตรวจสอบคุณภาพตามจุดอย่างรวดเร็วในขณะที่ได้รับสินค้าไปยังพื้นที่ท่าสินค้าขาเข้า
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103299"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677995"
 ---
 # <a name="quality-check"></a>การตรวจสอบคุณภาพ
 
@@ -296,7 +296,7 @@ ms.locfileid: "8103299"
 
 #### <a name="receive-pallet-1"></a>ได้รับแท่นวางสินค้า 1
 
-1. ลงชื่อเข้าใช้แอปการจัดการคลังสินค้าบนมือถือในฐานะผู้ใช้งานคลังสินค้า *51* (ป้อน *51* เป็นรหัสผู้ใช้และ *1* เป็นรหัสผ่าน)
+1. ลงชื่อเข้าใช้แอป Warehouse Management บนมือถือในฐานะผู้ใช้งานคลังสินค้า *51* (ป้อน *51* เป็นรหัสผู้ใช้และ *1* เป็นรหัสผ่าน)
 1. ไปที่ **ขาเข้า \> การรับรายการ PO**
 1. ในฟิลด์ **PONUM** ให้ป้อนหมายเลขใบสั่งซื้อ
 1. ยืนยันหมายเลขใบสั่งซื้อ

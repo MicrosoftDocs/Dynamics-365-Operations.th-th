@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ใน US Government Community Cloud (GCC)
+title: Dynamics 365 Finance, Supply Chain Management และ Commerce ใน US Government Community Cloud (GCC)
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับผลิตภัณฑ์ Microsoft Dynamics 365 US Government ซึ่งสามารถใช้งานเฉพาะกับหน่วยงานรัฐบาลและเอกชนที่เข้าเกณฑ์
 author: hasaid
 ms.date: 11/12/2021
@@ -9,14 +9,14 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062297"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693321"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ใน US Government Community Cloud (GCC)
+# <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management และ Commerce ใน US Government Community Cloud (GCC)
 
 [!include [banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ ms.locfileid: "8062297"
 
 ### <a name="are-dynamics-365-finance-and-dynamics-365-supply-chain-management-supported-in-gcc-high"></a>Dynamics 365 Finance และ Dynamics 365 Supply Chain Management รองรับใน GCC-High หรือไม่
 
-ไม่ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management รองรับเฉพาะใน GCC เท่านั้น
+ไม่ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management รองรับใน GCC-เท่านั้น
 
 ### <a name="can-i-use-public-azure-devops-with-finance-and-supply-chain-management-in-gcc"></a>ฉันสามารถใช้ Azure DevOps สาธารณะกับ Finance และ Supply Chain Management ใน GCC ได้หรือไม่
 

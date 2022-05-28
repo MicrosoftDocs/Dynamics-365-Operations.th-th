@@ -1,6 +1,6 @@
 ---
 title: ตัวให้บริการแม่แบบสำหรับสมาชิกมิติทางสถิติและตัวให้บริการการประเมินทางสถิติ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับสมาชิกมิติทางสถิติและเท็มเพลตผู้ให้บริการการประเมินทางสถิติ สมาชิกของมิติทางสถิติสามารถใช้เป็นฐานการปันส่วนในนโยบาย เช่น การกระจายต้นทุน และการปันส่วนต้นทุน นอกจากนี้ยังสามารถใช้ในการรายงานปริมาณการใช้ต้นทุนที่ไม่ใช่เงินได้ด้วย
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับสมาชิกมิติทางสถิติและเท็มเพลตผู้ให้บริการการประเมินทางสถิติ
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767658"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733919"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>ตัวให้บริการแม่แบบสำหรับสมาชิกมิติทางสถิติและตัวให้บริการการประเมินทางสถิติ
 
@@ -128,7 +128,7 @@ ms.locfileid: "6767658"
 > [!NOTE]
 > ในตัวอย่างนี้ เราจะสร้างความสัมพันธ์เฉพาะสำหรับ **เวอร์ชันจริง**
 
-ไปยัง **บัญชีแยกประเภทในการบัญชีต้นทุน** \> **เวอร์ชันจริง** \> **จัดการ** \> **หน่วยวัดทางสถิติ** เพื่อสร้างความสัมพันธ์ สำหรับสถานการณ์จำลองนี้ ให้เลือกตัวเชื่อมต่อ **Dynamics 365 Finance – การวัดทางสถิติ** เนื่องจากเราต้องการแยะข้อมูลออกมาจาก Finance
+ไปยัง **บัญชีแยกประเภทในการบัญชีต้นทุน** \> **เวอร์ชันจริง** \> **จัดการ** \> **หน่วยวัดทางสถิติ** เพื่อสร้างความสัมพันธ์ สำหรับสถานการณ์จำลองนี้ เลือกตัวเชื่อมต่อ **Dynamics 365 Finance – การวัดทางสถิติ** เนื่องจากเราต้องการแยะข้อมูลออกมาจาก Finance
 
 **แหล่งข้อมูล**
 
@@ -216,13 +216,13 @@ ms.locfileid: "6767658"
 > [!NOTE]
 > ในตัวอย่างนี้ เราจะสร้างความสัมพันธ์เฉพาะสำหรับ **เวอร์ชันจริง**
 
-ไปยัง **บัญชีแยกประเภทในการบัญชีต้นทุน** \> **เวอร์ชันจริง** \> **จัดการ** \> **หน่วยวัดทางสถิติ** เพื่อสร้างความสัมพันธ์ สำหรับสถานการณ์จำลองนี้ ให้เลือกตัวเชื่อมต่อ **Dynamics 365 Finance – การวัดทางสถิติ** เนื่องจากเราต้องการแยะข้อมูลออกมาจาก Finance
+ไปยัง **บัญชีแยกประเภทในการบัญชีต้นทุน** \> **เวอร์ชันจริง** \> **จัดการ** \> **หน่วยวัดทางสถิติ** เพื่อสร้างความสัมพันธ์ สำหรับสถานการณ์จำลองนี้ เลือกตัวเชื่อมต่อ **Dynamics 365 Finance – การวัดทางสถิติ** เนื่องจากเราต้องการแยะข้อมูลออกมาจาก Finance
 
 **แหล่งข้อมูล**
 
 | ชื่อ           | ตัวเชื่อมต่อข้อมูล                                                                     | สมาชิกมิติทางสถิติ |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| แพ็ค CC D365FO | Dynamics 365 Finance – การประเมินทางสถิติ | แพ็ค CC                      |
+| แพ็ค CC D365FO | Dynamics 365 Finance – การวัดทางสถิติ | แพ็ค CC                      |
 
 ระบบรับรู้ว่า ProdRouteTrans เป็นตารางที่แต่ละเรกคอร์ดเป็นของนิติบุคคลที่แยกต่างหากกัน ดังนั้น ระบบจะขอให้คุณเลือกนิติบุคคลที่ควรนำเข้าธุรกรรม
 

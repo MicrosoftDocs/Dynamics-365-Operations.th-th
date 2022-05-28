@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446189"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725776"
 ---
 # <a name="revenue-recognition-overview"></a>ภาพรวมของการรับรู้รายได้
 
@@ -35,7 +35,7 @@ ms.locfileid: "8446189"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-วิดีโอ [วิธีใช้การรับรู้รายได้ใน Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์การเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่อยู่บน YouTube
+วิดีโอ [วิธีใช้การรับรู้รายได้ใน Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (ที่แสดงข้างต้น) รวมไว้ใน [เพลย์ลิสต์ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่อยู่บน YouTube
 
 คุณลักษณะการรับรู้รายได้มีกรอบงานที่มีความยืดหยุ่นซึ่งช่วยให้คุณสามารถกำหนดกฎเฉพาะบริษัทสำหรับการรับรู้ราคาสำหรับรายได้และกำหนดการรายได้
 

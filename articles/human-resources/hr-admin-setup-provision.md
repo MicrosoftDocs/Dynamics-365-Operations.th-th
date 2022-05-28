@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625370"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710876"
 ---
 # <a name="provision-human-resources"></a>จัดหา Human Resources
 
@@ -144,7 +143,7 @@ ms.locfileid: "8625370"
 6. ความสามารถการรวมแบบสองทิศทางสำหรับข้อมูลทรัพยากรบุคคลแบบรวมเข้ากับสภาพแวดล้อม Power Apps จะสามารถใช้งานได้หากมีการเลือกตัวเลือก **เปิดใช้งานแอป Dynamics 365** ไว้เฉพาะกับสภาพแวดล้อมเท่านั้น ดูที่ [การรวมแบบสองทิศทาง](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมแบบสองทิศทาง
 
     > [!NOTE]
-    > ตัวเลือก **เปิดใช้งานแอป Dynamics 365** ต้องเลือกในเวลาที่สร้างสภาพแวดล้อม Power Apps ถ้าไม่ได้เลือกตัวเลือกนี้ในขณะที่เตรียมใช้งาน คุณจะไม่สามารถใช้การรวมแบบสองทิศทางเพื่อรวมข้อมูลระหว่างกับสภาพแวดล้อม Dynamics 365 Human Resources หรือ Power Apps ได้ หรือติดตั้งแอป Dynamics 365 เช่น Dynamics 365 Sales และ Field Service ในสภาพแวดล้อมได้ ตัวเลือกนี้ไม่สามารถย้อนกลับได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [ข้อควรพิจารณาที่สําคัญสองสามอย่างเมื่อสร้างสภาพแวดล้อมใหม่](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) บนไซต์คู่มือ Power Platform
+    > ตัวเลือก **เปิดใช้งานแอป Dynamics 365** ต้องเลือกในเวลาที่สร้างสภาพแวดล้อม Power Apps ถ้าไม่ได้เลือกตัวเลือกนี้ในขณะที่เตรียมใช้งาน คุณจะไม่สามารถใช้การรวมแบบสองทิศทางเพื่อรวมข้อมูลระหว่างกับสภาพแวดล้อม Dynamics 365 Human Resources หรือ Power Apps ได้ หรือติดตั้งแอป Dynamics 365 เช่น Dynamics 365 Sales และ Field Service ในสภาพแวดล้อมได้ ตัวเลือกนี้ไม่สามารถย้อนกลับได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [ข้อควรพิจารณาที่สําคัญสองสามอย่างเมื่อสร้างสภาพแวดล้อมใหม่](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) บนไซต์คู่มือ Power Platform
 
 7. หลังจากที่คุณได้กำหนดสภาพแวดล้อมที่ถูกต้องที่จะใช้ คุณสามารถดำเนินต่อกับกระบวนการเตรียมใช้งานได้ 
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641441"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695773"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 5 ตุลาคม 2021
 
@@ -42,7 +41,7 @@ ms.locfileid: "7641441"
 
 | ลักษณะการทำงาน | แผนการรีลีส | คู่มือ |
 |---|---|---|
-| Platform Update 10.0.21 (45) | -- | [แพลตฟอร์มที่อัพเดตสำหรับรุ่น10.0.21 ของแอป Finance and Operations (ตุลาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platform Update 10.0.21 (45) | -- | [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.21 ของแอปการเงินและการดำเนินงาน (ตุลาคม 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
@@ -87,7 +86,7 @@ ms.locfileid: "7641441"
 
 | ลักษณะการทำงาน | รายละเอียด |
 |---|---|
-| Platform Update 10.0.22 (46) | การเริ่มต้น Platform update 10.0.22 ถูกจัดกำหนดการให้เริ่มด้วยการนำออกใช้บริการในวันที่ 1 พฤศจิกายน 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.22 ของแอป Finance and Operations (พฤศจิกายน 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22) |
+| Platform Update 10.0.22 (46) | การเริ่มต้น Platform update 10.0.22 ถูกจัดกำหนดการให้เริ่มด้วยการนำออกใช้บริการในวันที่ 1 พฤศจิกายน 2021 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.22 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22) |
 
 
 

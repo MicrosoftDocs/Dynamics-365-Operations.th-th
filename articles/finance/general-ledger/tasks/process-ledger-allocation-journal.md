@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765679"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722165"
 ---
 # <a name="process-ledger-allocation-journal"></a>ประมวลผลสมุดรายวันการปันส่วนบัญชีแยกประเภท
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765679"
 
 หัวข้อนี้จะอธิบายถึงวิธีการประมวลผลคำขอการปันส่วน ใช้หน้าคำขอขั้นตอนการปันส่วนเพื่อสร้างสมุดรายวันการปันส่วนที่สามารถตรวจทานได้ และอนุมัติก่อนลงรายการบัญชีแยกประเภททั่วไป หรือลงรายการบัญชีโดยตรงในบัญชีแยกประเภททั่วไป  ก่อนที่คุณสามารถสร้างสมุดรายวันการปันส่วนได้ ต้องมีอย่างน้อยหนึ่งรายการที่ใช้งานบัญชีแยกประเภทกฎการปันส่วน  งานนี้ใช้บริษัทสาธิต USMF 
 
-1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > บัญชีแยกประเภททั่วไป > การปันส่วน > ประมวลผลคำขอการปันส่วน**
+1. ในบานหน้าต่างนำทาง ไปที่ **บัญชีแยกประเภททั่วไป > การปันส่วน > ประมวลผลคำขอการปันส่วน**
 2. ในฟิลด์ **กฎ** ให้เลือกเรกคอร์ดที่ต้องการในเมนูแบบหล่นลง
 3. ในฟิลด์ **ณ วันที่** ให้ใส่วันที่
 

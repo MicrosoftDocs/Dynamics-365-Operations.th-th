@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982520"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694381"
 ---
 # <a name="sales-agreements-overview"></a>ภาพรวมของข้อตกลงการขาย
 
@@ -36,7 +36,8 @@ ms.locfileid: "7982520"
 
 คุณสามารถสร้างใบสั่งขายได้โดยตรงจากข้อตกลงการขาย โดยการใช้การดำเนินการ **ใบสั่งที่นำออกใช้** หรือคุณสามารถเลือกข้อตกลงการขายที่มีผลบังคับใช้เมื่อคุณกำลังจดใบสั่ง (ดู "การใช้ข้อตกลงการขายในกระบวนการสั่งซื้อ" ของบทความนี้)  
 
-> [หมายเหตุ!] ในรุ่นก่อนหน้า ข้อตกลงการขายถูกอ้างอิงเป็นใบสั่งขายแบบล็อตใหญ่
+> [!NOTE] 
+> ในรุ่นก่อนหน้า ข้อตกลงการขายถูกอ้างอิงเป็นใบสั่งขายแบบล็อตใหญ่
 
 ## <a name="commitment-types"></a>ชนิดข้อผูกมัด
 แต่ละรายการในข้อตกลงการขายแสดงข้อผูกมัดการขายสินค้า โดยทั่วไป มีข้อผูกมัดสองประเภทดังนี้:

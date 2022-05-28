@@ -1,7 +1,7 @@
 ---
 title: การแบ่งช่วงเวลาของคลังสินค้า
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการแบ่งช่วงเวลาของคลังสินค้า การแบ่งช่วงเวลาของคลังสินค้าช่วยให้คุณสามารถรวมความต้องการตามสินค้าและหน่วยวัดจากใบสั่งที่มีสถานะเป็นสั่งแล้ว จองแล้ว หรือนำออกใช้แล้ว ซึ่งช่วยผู้จัดการคลังสินค้าในการวางแผนสถานที่เบิกสินค้าอย่างชาญฉลาด ก่อนที่พวกเขาจะนำใบสั่งออกใช้ไปยังคลังสินค้าและสร้างงานการเบิกสินค้า
-author: mirzaab
+author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575158"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676312"
 ---
 # <a name="warehouse-slotting"></a>การแบ่งช่วงเวลาของคลังสินค้า
 

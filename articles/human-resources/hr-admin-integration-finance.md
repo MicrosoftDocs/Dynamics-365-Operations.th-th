@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกการรวมกับ Finance
-description: หัวข้อนี้อธิบายการรวมระหว่าง Dynamics 365 Human Resources และ Dynamics 365 Finance
+description: หัวข้อนี้อธิบายการรวมระหว่าง Dynamics 365 Human Resources กับ Dynamics 365 Finance
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065027"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687545"
 ---
 # <a name="configure-integration-with-finance"></a>ตั้งค่าคอนฟิกการรวมกับ Finance
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065027"
 
 
 
-เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เทมเพลต Human Resources ไปยัง Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) ได้ เทมเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เทมเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
+เมื่อต้องการรวม Dynamics 365 Human Resources กับ Dynamics 365 Finance คุณสามารถใช้เทมเพลต Human Resources กับ Finance ใน [ตัวรวมข้อมูล](/powerapps/administrator/data-integrator) เทมเพลต Human Resources ไปยัง Finance จะเปิดใช้งานโฟลว์ของข้อมูลสำหรับงาน ตำแหน่งงาน และผู้ปฏิบัติงาน เทมเพลตจะช่วยให้สามารถส่งโฟลว์ของข้อมูลจาก Human Resources ไปยัง Finance แต่ไม่อนุญาตให้มีการส่งโฟลว์ของข้อมูลจาก Finance ไปยัง Human Resources
 
 ![ทรัพยากรบุคคลไปยังโฟลว์การรวมทางการเงิน](./media/hr-admin-integration-finance-flow.png)
 
@@ -47,7 +46,7 @@ ms.locfileid: "8065027"
 โซลูชันการรวมจำเป็นต้องใช้ทรัพยากรบุคคลและการเงินรุ่นต่อไปนี้: 
 
 - Dynamics 365 Human Resources ใน Dataverse
-- Dynamics 365 Finance รุ่น 7.2 และรุ่นที่ใหม่กว่า
+- Dynamics 365 Finance รุ่น 7.2 และที่ใหม่กว่า
 
 ## <a name="template-and-tasks"></a>เทมเพลตและงาน
 

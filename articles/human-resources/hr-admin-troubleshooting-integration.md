@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071121"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694017"
 ---
 # <a name="integration-with-finance-faq"></a>การรวมกับคำถามที่พบบ่อยเกี่ยวกับ Finance
 
@@ -34,7 +33,7 @@ ms.locfileid: "8071121"
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>ฉันสามารถแก้ไขผู้ใช้แอปพลิเคชัน Dynamics 365 Talent ใน Power Apps ได้หรือไม่
 
-ลำดับที่ ถ้าคุณแก้ไขผู้ใช้แอปพลิเคชัน Human Resources การรวมระหว่างทรัพยากรบุคคลและ Dataverse อาจล้มเหลว ตารางต่อไปนี้จะแสดงการตั้งค่าเริ่มต้นสำหรับผู้ใช้แอปพลิเคชัน Talent
+ไม่ ถ้าคุณแก้ไขผู้ใช้แอปพลิเคชัน Human Resources การรวมระหว่างทรัพยากรบุคคลและ Dataverse อาจล้มเหลว ตารางต่อไปนี้จะแสดงการตั้งค่าเริ่มต้นสำหรับผู้ใช้แอปพลิเคชัน Talent
 
 | ชื่อเต็ม | รหัสแอปพลิเคชัน | รหัสออบเจ็กต์ Azure AD | URI รหัสแอปพลิเคชัน |
 | --- | --- | --- | --- |
@@ -89,7 +88,7 @@ ms.locfileid: "8071121"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>ฉันสามารถตั้งค่าการรวมสองทิศทางได้หรือไม่
 
-ไม่ได้ การรวมเป็นแบบทิศทางเดียวในขณะนี้ (Human Resources ไปยังการเงินและการดำเนินงาน) อย่างไรก็ตาม มีเทมเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Human Resources ไปยัง Finance
+ไม่ได้ การรวมเป็นแบบทิศทางเดียวในขณะนี้ (Human Resources ไปยัง Finance and Operations) อย่างไรก็ตาม มีเทมเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Human Resources ไปยัง Finance
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>ฉันจะอนุญาตให้ลบเรกคอร์ดโดยเป็นส่วนหนึ่งของการรวมของฉันได้หรือไม่
 
@@ -157,7 +156,7 @@ ms.locfileid: "8071121"
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>เมื่อสร้างชุดการเชื่อมต่อของฉัน ฉันไม่เห็นการเชื่อมต่อในรายการแบบหล่นลงของ Connection ฉันควรทำอย่างไร
 
-ตรวจสอบว่าขณะที่สร้างการเชื่อมต่อของคุณ คุณเลือก Dynamics 365 Finance และ Dataverse
+ตรวจสอบว่าขณะที่สร้างการเชื่อมต่อของคุณ คุณเลือก Dynamics 365 Finance กับ Dataverse
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>เมื่อซิงค์การจ้างงาน ฉันได้รับข้อผิดพลาด "ไม่มี CompanyInfo_FK"หรือ "ไม่พบค่า '12/31/2154 11:59:59 pm' ในฟิลด์ 'วันที่สิ้นสุดการจ้างงาน' ในตารางที่เกี่ยวข้อง 'การจ้างงาน'" ฉันควรทำอย่างไร
 
