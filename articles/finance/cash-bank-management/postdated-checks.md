@@ -1,6 +1,6 @@
 ---
 title: เช็คลงวันที่ล่วงหน้า
-description: บทความนี้ให้ข้อมูลเกี่ยวกับการสนับสนุนสำหรับการตรวจสอบที่ลงวันที่ช้ากว่าวันจริงใน Microsoft Dynamics 365 Finance เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการสนับสนุนสำหรับสำหรับการตรวจสอบที่ลงวันที่ช้ากว่าวันจริงใน Microsoft Dynamics 365 Finance เช็คลงวันที่ล่วงหน้าเป็นเช็คที่ถูกออก เพื่อทำและรับการชำระเงินในวันที่ในอนาคต  ดังนั้นจึงไม่สามารถจ่ายเช็คได้จนกว่าถึงวันที่ระบุ
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5c4d641a3d3ccc326ee56ce7bd05c891b3fa8a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595473"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722868"
 ---
 # <a name="postdated-checks"></a>เช็คลงวันที่ล่วงหน้า
 

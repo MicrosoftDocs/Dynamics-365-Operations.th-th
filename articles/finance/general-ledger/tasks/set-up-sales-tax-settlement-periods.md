@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732968"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735827"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>ตั้งค่ารอบระยะเวลาการชำระภาษีขาย
 
@@ -28,7 +28,7 @@ ms.locfileid: "6732968"
 
 งานนี้ใช้บริษัทสาธิต USMF 
 
-1. ในบานหน้าต่างนำทางให้ ไปที่ **โมดูล > ภาษี > ภาษีทางอ้อม > ภาษีขาย > รอบระยะเวลาการชำระภาษีขาย**
+1. ไปที่ **ภาษี > ภาษีทางอ้อม > ภาษีขาย > รอบระยะเวลาการชำระภาษีขาย**
 2. เลือก **ใหม่**
 3. ในฟิลด์ **ระยะเวลาการชำระเงิน** ให้พิมพ์ค่า
 4. ในฟิลด์ **คำอธิบาย** ให้พิมพ์ค่าใดค่าหนึ่ง

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075310"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739400"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.21 (ตุลาคม 2021)
 
@@ -130,7 +130,7 @@ ms.locfileid: "8075310"
 | การวางแผนหลัก | [ดูประวัติแผนและบันทึกการวางแผน](../master-planning/planning-optimization/plan-history-logs.md) |
 | การจัดการคลังสินค้า | [กลยุทธ์การบรรจุคอนเทนเนอร์](../warehousing/container-packing-strategy-overview.md) |
 | การจัดการคลังสินค้า | [สถานการณ์ตัวอย่างของการตรวจนับตามรอบ](../warehousing/cycle-counting-scenarios.md) |
-| การจัดการคลังสินค้า | [นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V2](../warehousing/import-asn-v2-data-entity.md) |
+| การจัดการคลังสินค้า | [นําเข้า ASN ขาเข้าผ่านเอนทิตี้ข้อมูล V3](../warehousing/import-asn-data-entity.md) |
 | การจัดการคลังสินค้า | [การเบิกสินค้าเกินสำหรับใบสั่งขายและใบสั่งโอนย้าย](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | การจัดการคลังสินค้า | [จัดกำหนดการการพิมพ์ป้ายชื่อเวฟระหว่างเวฟ](../warehousing/configure-task-based-wave-label-printing.md) |
 | การจัดการคลังสินค้า | [มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ](../warehousing/whats-new-wma.md) |

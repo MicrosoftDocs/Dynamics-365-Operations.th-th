@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 267114
 ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cd86fdf640e59885e5e8aea841dc1c1c9604825b0f18d3b741c5a2777f8e9ff8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728804"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734086"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
@@ -28,7 +28,7 @@ ms.locfileid: "6728804"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations บนมือถือ
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** แสดงมุมมองโต้ตอบแบบทันทีของประสิทธิภาพการทำงานปัจจุบันของศูนย์ต้นทุน โดยการเปรียบเทียบต้นทุนจริงกับต้นทุนที่จัดงบประมาณ คุณสามารถดูรายละเอียดแนวลึกของสถานะขององค์ประกอบต้นทุนแต่ละรายการได้
@@ -38,7 +38,7 @@ ms.locfileid: "6728804"
 ### <a name="data-security"></a>ความปลอดภัยของข้อมูล
 ข้อมูลในพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** ได้รับการป้องกันโดยข้อมูลประจำตัวผู้ใช้ อนุญาตให้ผู้จัดการศูนย์ต้นทุนสามารถดูได้เฉพาะข้อมูลสำหรับศูนย์ต้นทุนของตนเองเท่านั้น มีการจัดการความปลอดภัยระดับการเข้าถึงภายในโมดูล **การบัญชีต้นทุน**
 
-ผู้จัดทำบัญชีต้นทุนกำหนดการตั้งค่าคอนฟิกพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** ในโมดูล **การบัญชีต้นทุน** หลังจากที่พื้นที่ทำงานถูกเผยแพร่ไปยังแอพบนมือถือ พื้นที่ทำงานดังกล่าวจะพร้อมใช้งานในแอพนั้น ดังนั้น ผู้จัดการศูนย์ต้นทุนทั้งหมดในองค์กรสามารถดูข้อมูลในรูปแบบเดียวกัน
+ผู้จัดทำบัญชีต้นทุนกำหนดการตั้งค่าคอนฟิกพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** ในโมดูล **การบัญชีต้นทุน** หลังจากที่พื้นที่ทำงานถูกเผยแพร่ไปยังแอปบนมือถือ พื้นที่ทำงานดังกล่าวจะพร้อมใช้งานในแอปนั้น ดังนั้น ผู้จัดการศูนย์ต้นทุนทั้งหมดในองค์กรสามารถดูข้อมูลในรูปแบบเดียวกัน
 
 ### <a name="actions-views-and-links"></a>การดำเนินการ มุมมอง และการเชื่อมโยง
 พื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** มีการดำเนินการ มุมมอง และลิงค์ดังต่อไปนี้:
@@ -75,7 +75,7 @@ ms.locfileid: "6728804"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับรุ่นของ Microsoft Dynamics 365 ที่ได้ถูกปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ Microsoft Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้นถ้าคุณใช้ Microsoft Dynamics 365 Finance
 ถ้ามีการปรับใช้ Finance สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานแบบเคลื่อนที่ **การควบคุมต้นทุน** สำหรับคำแนะนำ ให้ดูที่ [เผยแพร่พื้นที่ทำงานแบบเคลื่อนที่](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md)
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น ถ้าคุณใช้ รุ่น 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
@@ -112,15 +112,15 @@ ms.locfileid: "6728804"
 </table>
 
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
+ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอปบนมือถือ
 
-1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
+1.  เริ่มการทำงานแอปบนอุปกรณ์เคลื่อนที่ของคุณ
 2.  ป้อน URL ของ Dynamics 365
 3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่

@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779967"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734442"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>นโยบายการรวบรวมต้นทุนและการคำนวณค่าโสหุ้ย 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779967"
 การบัญชีต้นทุนช่วยให้คุณได้รับข้อมูลเชิงลึกว่า กระแสต้นทุนเกี่ยวข้องกับผลิตภัณฑ์และบริการที่ถูกจัดส่งภายในองค์กรได้อย่างไร เมื่อต้องการดูความโปร่งใสของต้นทุน จำเป็นต้องดำเนินการปันส่วนต้นทุนระหว่างออบเจ็กต์ต้นทุนที่ขึ้นอยู่กับฐานการปันส่วนที่เหมาะสมให้สำเร็จ โดยค่าเริ่มต้น การปันส่วนต้นทุนได้บรรลุเป้าหมายสำหรับองค์ประกอบต้นทุนหลัก ที่ต้องการในบางสถานการณ์ แต่มีผลกระทบสองสามรายการที่ควรได้รับการพิจารณา
 
 -   ออบเจ็กต์ต้นทุนเสริมจะสิ้นสุดด้วยยอดดุลเป็นศูนย์ สำหรับองค์ประกอบต้นทุนหลักหลังจากการคำนวณค่าโสหุ้ย
-
 -   ปริมาตรของรายการต้นทุนที่สร้างขึ้นโดยการคำนวณค่าโสหุ้ยอาจสูงมาก
-
 -   ไม่สามารถติดตามกระแสต้นทุนระหว่างออบเจ็กต์ต้นทุนได้
 
 เพื่อหลีกเลี่ยงผลกระทบเหล่านี้ การบัญชีต้นทุนช่วยให้คุณสามารถตั้งค่าคอนฟิกการปันส่วนต้นทุนได้ เพื่อให้พอดีกับข้อกำหนดในการรายงานการจัดการองค์กรจัดของคุณ หัวข้อนี้อธิบายวิธีที่คุณสามารถกำหนดระดับที่ถูกต้องขององค์ประกอบต้นทุนรอง และสร้างกฎการรวบรวมต้นทุนที่พอดีกับการรายงานขององค์กรและความสามารถในการติดตามต้นทุน

@@ -2,7 +2,7 @@
 title: เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง
 description: หัวข้อนี้อธิบายวิธีการเก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง เพื่อช่วยปรับปรุงประสิทธิภาพของระบบ
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567474"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736074"
 ---
 # <a name="archive-inventory-transactions"></a>เก็บถาวรข้อมูลธุรกรรมของสินค้าคงคลัง
 
@@ -116,3 +116,110 @@ ms.locfileid: "7567474"
 - **หยุดการเก็บถาวรชั่วคราว** – หยุดที่เก็บถาวรที่เลือกที่กำลังถูกประมวลผลอยู่ในขณะนี้ การหยุดชั่วคราวจะมีผลเฉพาะหลังจากที่มีการสร้างงานการเก็บถาวรแล้วเท่านั้น ดังนั้น อาจมีความล่าช้าสั้นๆ ก่อนที่การหยุดชั่วคราวจะมีผล ถ้าที่เก็บถาวรถูกหยุดชั่วคราว เครื่องหมายถูกจะปรากฏขึ้นในฟิลด์ **หยุดการอัพเดตปัจจุบัน**
 - **ดำเนินการเก็บถาวรต่อ** – ดำเนินการประมวลผลต่อสำหรับที่เก็บถาวรที่เลือกที่ถูกหยุดชั่วคราวอยู่ในขณะนี้
 - **กลับรายการ** – กลับรายการที่เก็บถาวรที่เลือก คุณสามารถกลับรายการที่เก็บถาวรได้เฉพาะเมื่อฟิลด์ **สถานะ** ถูกตั้งค่าเป็น *เสร็จสิ้นแล้ว* เท่านั้น ถ้าที่เก็บถาวรถูกกลับรายการ เครื่องหมายถูกจะปรากฏขึ้นในฟิลด์ **กลับรายการ**
+
+## <a name="extend-your-code-to-support-custom-fields"></a>ขยายโค้ดของคุณเพื่อรองรับฟิลด์ที่กำหนดเอง
+
+ถ้าตาราง `InventTrans` มีฟิลด์ที่กำหนดเองตั้งแต่หนึ่งฟิลด์ขึ้นไป คุณอาจต้องขยายโค้ดเพื่อรองรับฟิลด์เหล่านี้ ทั้งนี้ขึ้นอยู่กับวิธีการตั้งชื่อ
+
+- หากฟิลด์ที่กำหนดเองจาก `InventTrans` มีชื่อฟิลด์เหมือนกับในตาราง `InventtransArchive` ซึ่งหมายความว่าฟิลด์เหล่านั้นถูกแมปแบบ 1:1 ดังนั้นคุณจึงสามารถวางฟิลด์ที่กำหนดเองลงในกลุ่มฟิลด์ `InventoryArchiveFields` ของตาราง `inventTrans` ได้
+- ถ้าชื่อฟิลด์ที่กำหนดเองในตาราง `InventTrans` ไม่ตรงกับชื่อฟิลด์ในตาราง `InventtransArchive` คุณต้องเพิ่มโค้ดเพื่อแมปชื่อฟิลด์เหล่านั้น ตัวอย่างเช่น ถ้าคุณมีฟิลด์ระบบที่ชื่อ `InventTrans.CreatedDateTime` คุณต้องสร้างฟิลด์ในตาราง `InventTransArchive` ด้วยชื่ออื่น (เช่น `InventtransArchive.InventTransCreatedDateTime`) และเพิ่มส่วนขยายไปยังคลาส `InventTransArchiveProcessTask` และ `InventTransArchiveSqlStatementHelper` ตามที่แสดงในโค้ดตัวอย่างต่อไปนี้
+
+โค้ดตัวอย่างต่อไปนี้แสดงตัวอย่างวิธีเพิ่มส่วนขยายที่ต้องการลงในคลาส `InventTransArchiveProcessTask`
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+โค้ดตัวอย่างต่อไปนี้แสดงตัวอย่างวิธีเพิ่มส่วนขยายที่ต้องการลงในคลาส `InventTransArchiveSqlStatementHelper`
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968923"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740637"
 ---
 # <a name="use-customer-payment-predictions"></a>ใช้การคาดการณ์การชำระเงินของลูกค้า
 
@@ -86,10 +86,6 @@ ms.locfileid: "7968923"
 
 คุณสามารถดูความถูกต้องของการคาดการณ์การชำระเงินได้โดยไปที่ **เครดิตและการเรียกเก็บเงิน \> การตั้งค่า \> ข้อมูลเชิงลึกทางการเงิน \> พารามิเตอร์ข้อมูลเชิงลึกทางการเงิน** บนแท็บ **ข้อมูลเชิงลึกของการชำระเงินของลูกค้า** ส่วน **แบบจำลองการคาดการณ์** จะแสดงความถูกต้องของแบบจำลองการคาดการณ์เป็นเปอร์เซ็นต์
 
-[![ความถูกต้องของการคาดการณ์การชำระเงิน](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
 ถ้าคุณไม่พอใจกับความถูกต้อง ให้เลือกลิงก์ **ปรับปรุงความถูกต้องของโมเดล** เพื่อเปิดประสบการณ์การใช้งานส่วนขยายของ AI Builder ในประสบการณ์การใช้งานส่วนขยายของ AI Builder คุณสามารถเลือกหรือยกเลิกการเลือกฟิลด์ต่าง ๆ ได้จนกว่าคุณจะเลือกฟิลด์ที่คุณเชื่อว่ามีความสำคัญมากที่สุดสำหรับการคาดการณ์การชำระเงินที่ถูกต้อง เมื่อเสร็จสิ้นแล้ว คุณสามารถฝึกแบบจำลองการคาดการณ์ใหม่และเผยแพร่การเปลี่ยนแปลงของคุณได้อย่างง่ายดาย แบบจำลองการคาดการณ์ที่ได้รับการฝึกฝนใหม่จะถูกเบิกสำหรับการคาดการณ์ใน Dynamics 365 Finance โดยอัตโนมัติ
-
-[![ประสบการณ์การใช้งานของส่วนขยายของ AI Builder](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

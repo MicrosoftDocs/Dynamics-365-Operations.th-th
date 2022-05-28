@@ -1,7 +1,7 @@
 ---
 title: การแนบสินค้าคงคลังกับวัตถุที่ให้บริการ
 description: 'หัวข้อนี้อธิบายวิธีการแนบวัตถุที่ให้บริการสินค้าคงคลัง '
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f65fe1963e2d3dabba1545944b35f2eb2a245b5e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cf37a743043311348135b13d3928f7b165f79b11
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571580"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675836"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>การแนบสินค้าคงคลังกับวัตถุที่ให้บริการ    
 
@@ -33,7 +33,7 @@ ms.locfileid: "7571580"
 
 ใช้ขั้นตอนต่อไปนี้เพื่อแนบสินค้าคงคลังกับวัตถุที่ให้บริการ
 
-1.  คลิก **การจัดการบริการ** \> **ตั้งค่า** \> **บริการออบเจ็กต์** \> **บริการออบเจ็กต์**
+1.  คลิก **การจัดการบริการ** \> **การตั้งค่า** \> **บริการออบเจ็กต์** \> **บริการออบเจ็กต์**
 
 2.  ในฟิลด์ **หมายเลขสินค้า** ให้เลือกรายการเพื่อแนบกับออบเจกต์บริการ
 

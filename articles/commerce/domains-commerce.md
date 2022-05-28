@@ -2,7 +2,7 @@
 title: โดเมนใน Dynamics 365 Commerce
 description: หัวข้อนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734002"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737357"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6734002"
 หัวข้อนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 
 โดเมนคือที่อยู่เว็บที่ใช้เพื่อนำทางไปยังไซต์ Dynamics 365 Commerce ในเว็บเบราเซอร์ คุณควบคุมการจัดการโดเมนของคุณด้วยผู้ให้บริการเซิร์ฟเวอร์ชื่อโดเมน (DNS) ที่เลือก โดเมนมีการอ้างอิงในตัวสร้างไซต์ Dynamics 365 Commerce เพื่อประสานงานว่าจะเข้าถึงไซต์อย่างไรเมื่อเผยแพร่ หัวข้อนี้จะเสนอว่าโดเมนมีการจัดการและการอ้างอิงตลอดระยะเวลาของการพัฒนาและการเปิดใช้งานไซต์ Commerce site อย่างไร
+
+> [!NOTE]
+> ในวันที่ 6 พฤษภาคม 2022 สภาพแวดล้อมทั้งหมดที่สร้างใน Dynamics 365 Commerce จะถูกเตรียมใช้งานด้วยโดเมน `.dynamics365commerce.ms` แทนรูปแบบก่อนหน้าของ `.commerce.dynamics.com` สภาพแวดล้อมที่มีอยู่ที่เตรียมใช้งานด้วยโดเมน `.commerce.dynamics.com` จะยังคงทำงานต่อไป
 
 ## <a name="provisioning-and-supported-host-names"></a>การเตรียมใช้งานและชื่อโฮสต์ที่ได้รับการสนับสนุน
 
@@ -44,7 +47,7 @@ ms.locfileid: "6734002"
 
 ## <a name="commerce-generated-urls"></a>URL ที่สร้างโดย Commerce
 
-เมื่อเตรียมใช้งานสภาพแวดล้อมอีคอมเมิร์ซของ Dynamics 365 Commerce Commerce จะสร้าง URL ซึ่งจะเป็นที่อยู่ในการทำงานสำหรับสภาพแวดล้อม มีการอ้างอิง URL นี้ในลิงก์ไซต์อีคอมเมิร์ซที่แสดงอยู่ใน LCS หลังจากที่มีการเตรียมใช้งานสภาพแวดล้อม URL ที่สร้างโดย Commerce อยู่ในรูปแบบ `https://<e-commerce tenant name>.commerce.dynamics.com` โดยชื่อผู้เช่าอีคอมเมิร์ซเป็นชื่อที่ป้อนใน LCS สำหรับสภาพแวดล้อม Commerce
+เมื่อเตรียมใช้งานสภาพแวดล้อมอีคอมเมิร์ซของ Dynamics 365 Commerce Commerce จะสร้าง URL ซึ่งจะเป็นที่อยู่ในการทำงานสำหรับสภาพแวดล้อม มีการอ้างอิง URL นี้ในลิงก์ไซต์อีคอมเมิร์ซที่แสดงอยู่ใน LCS หลังจากที่มีการเตรียมใช้งานสภาพแวดล้อม URL ที่สร้างโดย Commerce อยู่ในรูปแบบ `https://<e-commerce tenant name>.dynamics365commerce.ms` โดยชื่อผู้เช่าอีคอมเมิร์ซเป็นชื่อที่ป้อนใน LCS สำหรับสภาพแวดล้อม Commerce
 
 คุณสามารถใช้ชื่อโฮสต์ของไซต์การทำงานจริงในสภาพแวดล้อม Sandbox ด้วยเช่นกัน ตัวเลือกนี้เหมาะอย่างยิ่งเมื่อคุณจะคัดลอกไซต์จากสภาพแวดล้อม Sandbox ไปยังการทำงานจริง
 
@@ -67,11 +70,11 @@ ms.locfileid: "6734002"
 
 ตัวอย่างเช่น ถ้าคุณมีไซต์ในตัวสร้างไซต์ที่ชื่อ"fabrikam" ในผู้เช่าอีคอมเมิร์ซที่ชื่อ "xyz" และถ้าคุณตั้งค่าไซต์ที่มีพาธที่ว่างเปล่า คุณจะเข้าถึงเนื้อหาของไซต์ที่เผยแพร่ในเว็บเบราว์เซอร์โดยไปที่ URL ฐานที่สร้างโดย Commerce โดยตรง:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 หรือถ้าคุณได้เพิ่มพาธของ "fabrikam" ในระหว่างการตั้งค่าไซต์เดียวกันนี้ คุณจะเข้าถึงเนื้อหาของไซต์ที่เผยแพร่ในเว็บเบราว์เซอร์โดยใช้ URL ต่อไปนี้:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>หน้าและ URL
 
@@ -92,16 +95,16 @@ ms.locfileid: "6734002"
 เมื่อทำงานกับไซต์ในตัวสร้างไซต์ ถ้าคุณมีสองไซต์ที่ตั้งค่าด้วยโดเมนที่แตกต่างกันสองโดเมน คุณสามารถผนวกแอททริบิวต์ **?domain=** กับ URL ที่ทำงานของคุณเพื่อเข้าถึงเนื้อหาไซต์ที่เผยแพร่ในเบราว์เซอร์
 
 ตัวอย่างเช่น มีการเตรียมใช้งานสภาพแวดล้อม "xyz" และมีการสร้างไซต์สองแห่งและเชื่อมโยงในตัวสร้างไซต์: ไซต์หนึ่งมีโดเมน `www.fabrikam.com`และอีกไซต์มีโดเมน `www.constoso.com` มีการตั้งค่าไซต์แต่ละไซต์โดยใช้พาธที่ว่างเปล่า จากนั้นคุณจะสามารถเข้าถึงไซต์ทั้งคู่เหล่านี้ได้ในเว็บเบราว์เซอร์ดังต่อไปนี้โดยใช้แอททริบิวต์ **?domain=**:
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-เมื่อสตริงการสอบถามโดเมนไม่ได้กำหนดไว้ในสภาพแวดล้อมที่มีโดเมนหลายโดเมน Commerce จะใช้โดเมนแรกที่คุณระบุ ตัวอย่างเช่น ถ้ามีการเตรียมใช้งานพาธ "fabrikam" ไว้เป็นอันดับแรกในระหว่างการตั้งค่าไซต์ สามารถใช้ URL `https://xyz.commerce.dynamics.com` เพื่อเข้าถึงไซต์เนื้อหาของไซต์ที่เผยแพร่แล้วสำหรับ `www.fabrikam.com` ได้
+เมื่อสตริงการสอบถามโดเมนไม่ได้กำหนดไว้ในสภาพแวดล้อมที่มีโดเมนหลายโดเมน Commerce จะใช้โดเมนแรกที่คุณระบุ ตัวอย่างเช่น ถ้ามีการเตรียมใช้งานพาธ "fabrikam" ไว้เป็นอันดับแรกในระหว่างการตั้งค่าไซต์ สามารถใช้ URL `https://xyz.dynamics365commerce.ms` เพื่อเข้าถึงไซต์เนื้อหาของไซต์ที่เผยแพร่แล้วสำหรับ `www.fabrikam.com` ได้
 
 ## <a name="traffic-forwarding-in-production"></a>การส่งต่อการรับส่งข้อมูลในการทำงานจริง
 
-คุณสามารถจำลองหลายโดเมนโดยใช้พารามิเตอร์สตริงการสอบถามโดเมนบนปลายทาง commerce.dynamics.com ของตัวเองได้ แต่เมื่อคุณต้องการใช้งานในการทำงานจริง คุณต้องส่งต่อการรับส่งข้อมูลสำหรับโดเมนที่กำหนดเองของคุณไปยังปลายทาง `<e-commerce tenant name>.commerce.dynamics.com`
+คุณสามารถจำลองหลายโดเมนโดยใช้พารามิเตอร์สตริงการสอบถามโดเมนบนปลายทาง commerce.dynamics.com ของตัวเองได้ แต่เมื่อคุณต้องการใช้งานในการทำงานจริง คุณต้องส่งต่อการรับส่งข้อมูลสำหรับโดเมนที่กำหนดเองของคุณไปยังปลายทาง `<e-commerce tenant name>.dynamics365commerce.ms`
 
-ปลายทาง `<e-commerce tenant name>.commerce.dynamics.com` ไม่สนับสนุน Secure Sockets Layers (SSL) สำหรับโดเมนที่กำหนดเอง ดังนั้นคุณต้องตั้งค่าโดเมนที่กำหนดเองโดยใช้บริการประตูด้านหน้าหรือเครือข่ายการจัดส่งเนื้อหา (CDN) 
+ปลายทาง `<e-commerce tenant name>.dynamics365commerce.ms` ไม่สนับสนุน Secure Sockets Layers (SSL) สำหรับโดเมนที่กำหนดเอง ดังนั้นคุณต้องตั้งค่าโดเมนที่กำหนดเองโดยใช้บริการประตูด้านหน้าหรือเครือข่ายการจัดส่งเนื้อหา (CDN) 
 
 หากต้องการตั้งค่าโดเมนแบบกำหนดเองโดยใช้บริการประตูหน้าหรือ CDN คุณมีสองตัวเลือกดังต่อไปนี้
 

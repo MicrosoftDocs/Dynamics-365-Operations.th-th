@@ -1,20 +1,20 @@
 ---
 title: อินทราสแทตภาษาสวีเดน
 description: หัวข้อนี้มีข้อมูลเกี่ยวกับการรายงานอินทราสแทตในสวีเดน
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486957"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727411"
 ---
 # <a name="swedish-intrastat"></a>อินทราสแทตภาษาสวีเดน
 
@@ -43,7 +43,7 @@ ms.locfileid: "7486957"
 
 ## <a name="set-up-foreign-trade-parameters"></a>ตั้งค่าพารามิเตอร์การค้าต่างประเทศ
 
-1. ใน Microsoft Dynamics 365 Finance ไปที่ **ภาษี** > **การตั้งค่า** > **การค้าต่างประเทศ**
+1. ใน Microsoft Dynamics 365 Finance ไปที่ **ภาษี** > **การตั้งค่า** > **พารามิเตอร์การค้าต่างประเทศ**
 2. บนแท็บ **อินทราสแทต** บน FastTab **การรายงานทางอิเล็กทรอนิกส์** ในฟิลด์ **การแม็ปรูปแบบไฟล์** เลือก **อินทราสแทต (SE)**
 3. ในฟิลด์ **การแม็ปรูปแบบรายงาน** เลือก **รายงานอินทราสแทต**
 4. บนแท็บด่วน **รหัสโภคภัณฑ์ตามลำดับชั้น** ในฟิลด์ **การจัดประเภทตามลำดับชั้น** ให้เลือก **อินทราสแทต**

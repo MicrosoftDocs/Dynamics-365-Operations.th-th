@@ -1,31 +1,31 @@
 ---
 title: จัดการกระบวนการสรรหาบุคลากร
 description: หัวข้อนี้อธิบายแนวคิดที่ผู้สรรหาสามารถใช้เพื่อติดตามขั้นตอนในกระบวนการสรรหาบุคลากร
-author: andreabichsel
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075486"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735387"
 ---
 # <a name="manage-recruiting-processes"></a>จัดการกระบวนการสรรหาบุคลากร
 
 > [!IMPORTANT]
-> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+> ฟังก์ชันการสรรหาบุคลากรในหัวข้อนี้จะเรียกว่าโครงการสรรหาบุคลากร และมุ่งเน้นที่ผู้สมัคร ใบสมัคร และโครงการสรรหาบุคลากร 
 
 
 หัวข้อนี้อธิบายแนวคิดที่ผู้คัดเลือกพนักงานสามารถใช้เพื่อติดตามขั้นตอนในกระบวนการสรรหาบุคลากร รวมทั้งความพยายามด้านการโฆษณาตำแหน่งที่เปิดรับสมัครและสรรหาผู้สมัคร การติดตามผู้สมัครและข้อมูลผู้สมัคร การสัมภาษณ์ผู้สมัคร และการเลือกผู้สมัครหนึ่งคนขึ้นไปเพื่อเติมตำแหน่งที่ว่างอยู่ในองค์กรของคุณ

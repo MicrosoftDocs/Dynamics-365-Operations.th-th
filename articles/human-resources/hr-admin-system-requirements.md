@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 433cc846f63e807340e4e757be5f02a5f0e8a2f8
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e88006ebf174f1a416fa6d8572d439a0395f0e44
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533667"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690875"
 ---
 # <a name="system-requirements"></a>ความต้องการของระบบ
 
@@ -42,7 +41,7 @@ ms.locfileid: "8533667"
 ## <a name="special-considerations"></a>ข้อควรพิจารณาพิเศษ
 
 * หากต้องการเปิดใช้งานตัวบันทึกงานรวบรวมภาพหน้าจอและรวมเข้าไปในเอกสาร Microsoft Word ที่ถูกสร้างขึ้น คุณต้องติดตั้งส่วนขยายของ Chrome รุ่นก่อนวางจำหน่าย
-* ตัวแก้ไขเวิร์กโฟลว์จะเริ่มต้นการใช้งานเป็นแอพลิเคชัน ClickOnce เฉพาะ Microsoft Edge และ Internet Explorer (บนเวอร์ชันที่สนับสนุน Microsoft Windows) สนับสนุนแอพลิเคชัน ClickOnce แอพลิเคชัน ClickOnce โปรแกรมแก้ไขลำดับงานต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต
+* ตัวแก้ไขเวิร์กโฟลว์จะเริ่มต้นการใช้งานเป็นแอปพลิเคชัน ClickOnce เฉพาะ Microsoft Edge และ Internet Explorer (บนเวอร์ชันที่สนับสนุน Microsoft Windows) สนับสนุนแอปพลิเคชัน ClickOnce แอปพลิเคชัน ClickOnce โปรแกรมแก้ไขลำดับงานต้องมีระบบปฏิบัติการที่เข้ากันกับงาน 64 บิต
 * เมื่อต้องการแสดงตัวอย่างไฟล์ PDF เราขอแนะนำให้คุณใช้เบราว์เซอร์ที่ทันสมัย เช่น Microsoft Edge (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บน Windows 10 หรือ Google Chrome (รุ่นล่าสุดที่พร้อมใช้งานทั่วไป) บนแท็บเล็ต Windows 10, Windows 8.1, Windows 8, Windows 7 หรือ Google Nexus 10
 
 ## <a name="network-requirements"></a>ข้อกำหนดของเครือข่าย
@@ -53,7 +52,7 @@ ms.locfileid: "8533667"
 > [!WARNING]
 > อย่าคำนวณข้อกำหนดของแบนด์วิดท์จากตำแหน่งที่ตั้งของไคลเอนต์ โดยการคูณจำนวนผู้ใช้กับข้อกำหนดของแบนด์วิดท์ต่ำสุด การใช้งานที่เกิดขึ้นพร้อมกันของตำแหน่งที่ตั้งที่กำหนดเป็นสิ่งที่คำนวณได้ยาก สำหรับลูกค้าที่มีความกังวลเกี่ยวกับข้อกำหนดของแบนด์วิธ ให้ใช้ทรัพยากรบุคคลรุ่นทดลองใช้
 
-## <a name="supported-microsoft-office-applications"></a>แอพลิเคชัน Microsoft Office ที่สนับสนุน
+## <a name="supported-microsoft-office-applications"></a>แอปพลิเคชัน Microsoft Office ที่สนับสนุน
 
 * เมื่อต้องการเรียกใช้ Add-in ของ Microsoft Excel และ Word คุณจะต้องตั้งค่า Microsoft Office 2016 สำหรับ Windows หรือ Mac ไว้ สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดเวอร์ชัน ให้ดูที่ [การแก้ไขปัญหาการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "การแก้ไขปัญหาการรวม Office")
 * เมื่อต้องการดูเอกสารที่สร้างขึ้นโดยฟังก์ชันส่งออกไปที่ Excel หรือส่งออกไปที่ Word คุณต้องติดตั้ง Microsoft Office 2007 หรือรุ่นที่ใหม่กว่าไว้

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778977"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722812"
 ---
 # <a name="financial-dimensions-and-posting"></a>มิติทางการเงินและการลงรายการบัญชี 
 
@@ -53,7 +53,7 @@ ms.locfileid: "6778977"
 บุคลากรมักจะมีคำถามเกี่ยวกับลำดับที่รันส่วนประกอบต่าง ๆ จำเป็นอย่างยิ่งที่คุณจะต้องเข้าใจถึงลำดับที่มีการใช้มิติเริ่มต้น เนื่องจากลักษณะการทำงานนี้มีผลกับวิธีที่คุณใช้ในการตั้งค่า
 
 > [!NOTE]
-> ข้อมูลนี้ใช้เฉพาะกับแอพลิเคชันของมิติเริ่มต้นในแอพลิเคชัน ถ้าคุณนำเข้าข้อมูลโดยใช้ Microsoft Excel หรือกรอบงานการจัดการข้อมูล ลักษณะการทำงานจะแตกต่างกัน
+> ข้อมูลนี้ใช้เฉพาะกับแอปพลิเคชันของมิติเริ่มต้นในแอปพลิเคชัน ถ้าคุณนำเข้าข้อมูลโดยใช้ Microsoft Excel หรือกรอบงานการจัดการข้อมูล ลักษณะการทำงานจะแตกต่างกัน
 
 ### <a name="example-1"></a>ตัวอย่างที่ 1
 
@@ -113,7 +113,7 @@ ms.locfileid: "6778977"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม 
 
-ทรัพยากรต่อไปนี้บางรายการอ้างอิงถึงซอฟท์แวร์รุ่นก่อนหน้าของเรา อย่างไรก็ตาม ข้อมูลส่วนใหญ่เกี่ยวกับแอพลิเคชันของมิติเริ่มต้นและแนวคิดจำนวนมากมีลักษณะเหมือนกันในรุ่นก่อนหน้านี้ และยังคงใช้การอ้างอิงได้
+ทรัพยากรต่อไปนี้บางรายการอ้างอิงถึงซอฟท์แวร์รุ่นก่อนหน้าของเรา อย่างไรก็ตาม ข้อมูลส่วนใหญ่เกี่ยวกับแอปพลิเคชันของมิติเริ่มต้นและแนวคิดจำนวนมากมีลักษณะเหมือนกันในรุ่นก่อนหน้านี้ และยังคงใช้การอ้างอิงได้
 
 [สมุดรายวันสมดุลสำหรับการบัญชีระหว่างหน่วย](example-balanced-journals-interunit-accounting.md)
 

@@ -1,7 +1,7 @@
 ---
 title: แผ่นงานการคิดต้นทุน
 description: การตั้งค่าแผ่นงานคำนวณต้นทุนประกอบด้วยวัตถุประสงค์สองประการด้วยกัน  วัตถุประสงค์ประการแรก คุณต้องกำหนดรูปแบบสำหรับการแสดงข้อมูลของต้นทุนของสินค้าที่ขายเกี่ยวกับสินค้าที่ผลิตหรือใบสั่งผลิต  การแสดงผลที่จัดรูปแบบจะเรียกว่าแผ่นงานคำนวณต้นทุน วัตถุประสงค์ประการที่สอง คุณต้องกำหนดพื้นฐานของการคำนวณต้นทุนทางอ้อม  การตั้งค่าแผ่นงานคำนวณต้นทุนจะสร้างขึ้นจากลักษณะการทำงานของกลุ่มต้นทุนสำหรับการแสดงข้อมูลและสำหรับสูตรการคำนวณต้นทุนทางอ้อม  วัตถุประสงค์สองประการของการตั้งค่าแผ่นงานการคำนวณต้นทุนได้ถูกอธิบายไว้ในบทความนี้
-author: AndersGirke
+author: JennySong-SH
 ms.date: 11/18/2021
 ms.topic: article
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 53201
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 6891fc4472e714133a7d0cdf77f2908becc0547c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825369"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672443"
 ---
 # <a name="costing-sheets"></a>แผ่นงานการคิดต้นทุน
 

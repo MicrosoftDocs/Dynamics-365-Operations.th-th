@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075384"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734673"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>การจ้างงานผู้สมัครผ่านการสรรหาบุคลากร
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
-
+> ฟังก์ชันการสรรหาบุคลากรในหัวข้อนี้จะเรียกว่าโครงการสรรหาบุคลากร และมุ่งเน้นที่ผู้สมัคร ใบสมัคร และโครงการสรรหาบุคลากร  
 
 ขั้นตอนนี้ช่วยให้ผู้สรรหาการจ้างงานผู้สมัครที่ส่งใบสมัครโดยใช้โครงการสรรหาบุคลากรที่เฉพาะเจาะจง  เมื่อคุณจ้างงานผู้สมัครผ่านทางโครงการสรรหาบุคลากร เรกคอร์ดผู้ปฏิบัติงานใหม่จะถูกสร้างขึ้น และเรกคอร์ดของผู้สมัครจะมีสถานะเป็น **จ้างงาน** บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้
 

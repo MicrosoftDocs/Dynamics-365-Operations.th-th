@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5b67c33f73a33721167cedde1a8d83a81aa77db3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753571"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735415"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>ตั้งค่าและสร้างข้อมูลอายุหนี้ของบัญชีลูกหนี้
 
 [!include [banner](../../includes/banner.md)]
 
-คู่มือนี้จะช่วยคุณตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ ยอดดุลลูกค้าตามอายุหนี้ และดูยอดดุลในรายการยอดดุลตามอายุหนี้และหน้าการเรียกเก็บเงิน  การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF
+คู่มือนี้จะช่วยคุณตั้งค่าข้อกำหนดรอบระยะเวลาอายุหนี้ ยอดดุลลูกค้าตามอายุหนี้ และดูยอดดุลในรายการ **ยอดดุลตามอายุหนี้** และหน้า **การเรียกเก็บเงิน** การบันทึกข้อมูลนี้ใช้บริษัทสาธิต USMF
 
 
 ## <a name="create-an-aging-period-definition"></a>สร้างข้อกำหนดรอบระยะเวลาอายุหนี้

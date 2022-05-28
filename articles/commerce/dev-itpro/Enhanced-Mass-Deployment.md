@@ -1,0 +1,237 @@
+---
+title: การปรับใช้โดยรวมของส่วนประกอบระบบบริการตนเองของ Commerce แบบปิดผนึก
+description: หัวข้อนี้อธิบายวิธีการใช้เฟรมเวิร์กให้กับตัวติดตั้งส่วนประกอบระบบบริการตนเองเพื่อติดตั้งและให้บริการการปรับใช้งานใช้งานโดยไม่แสดงข้อความ
+author: jashanno
+ms.date: 05/11/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.region: Global
+ms.author: jashanno
+ms.search.validFrom: 2021-04-30
+ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8741565"
+---
+# <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>การปรับใช้โดยรวมของส่วนประกอบระบบบริการตนเองของ Commerce แบบปิดผนึก
+
+[!include [banner](../includes/banner.md)]
+
+หัวข้อนี้ใช้กับเฟรมเวิร์กแบบปิดผนึก ตัวติดตั้งส่วนประกอบที่เผยแพร่ทุกเดือน เริ่มตั้งแต่รุ่น 10.0.18 และพร้อมใช้งานในไลบรารีแอสเซทที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services (LCS) โปรดทราบว่าตัวติดตั้งใหม่เหล่านี้ได้รับการกำหนดเป็น **(พรีวิว)** ในการเผยแพร่รุ่นแรกหลายๆ รุ่น อย่างไรก็ตาม วัตถุประสงค์เพียงอย่างเดียวของการกำหนดนี้ก็เพื่อแยกความแตกต่างระหว่างตัวติดตั้งใหม่ขณะที่ Microsoft พิจารณาว่ามีความต้องการด้านฟังก์ชันเพิ่มเติมใดๆ ในการใช้ตัวติดตั้งหรือไม่ แต่ก็ไม่ได้หมายความว่าตัวติดตั้งจะใช้ไม่ได้กับการทำงานจริง Microsoft วางแผนจะไม่สนับสนุนตัวติดตั้ง (ดั้งเดิม) รุ่นเก่าหรือประมาณเดือนตุลาคม 2023 ตามการเผยแพร่ตัวติดตั้งรุ่นใหม่เหล่านี้ 
+
+หัวข้อนี้อธิบายวิธีการใช้ตัวติดตั้งใหม่เพื่อติดตั้งและการให้บริการอัปเดตโดยไม่แสดงข้อความผ่านอาร์กิวเมนต์บรรทัดใบสั่ง อาร์กิวเมนต์เหล่านี้ช่วยให้คุณสามารถทำการปรับใช้โดยรวมได้หลายวิธี
+
+> [!NOTE]
+> ตัวติดตั้งแบบปิดผนึกของระบบบริการตนเองใหม่ยังไม่พร้อมให้ใช้งานในศูนย์ควบคุมและดาวน์โหลดได้ผ่าน LCS เท่านั้น
+
+## <a name="delimiters-for-mass-deployment"></a>ตัวคั่นสำหรับการปรับใช้โดยรวม
+
+ตารางต่อไปนี้แสดงตัวคั่นที่สามารถใช้ในการประมวลผลบรรทัดใบสั่ง
+
+
+| ตัวกำหนดเขต                 | คำอธิบาย |
+|---------------------------|-------------|
+| --AadTokenIssuerPrefix | ส่วนนำหน้าสำหรับผู้ออกโทเค็น Microsoft Azure Active Directory (Azure AD) |
+| --AsyncClientAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Async Client ควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
+| --AsyncClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Async Client AppInsights |
+| --AsyncClientCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้อง ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertThumbprint** |
+| --AsyncClientCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertFullPath** |
+| --ClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Client AppInsights |
+| --CloudPosAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Cloud POS AppInsights |
+| --Config | ไฟล์การตั้งค่าคอนฟิกที่ควรใช้ในระหว่างการติดตั้ง ตัวอย่างของชื่อไฟล์คือ **Contoso.CommerceScaleUnit.xml** |
+| --CposAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Cloud POS ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
+| --Device | รหัสอุปกรณ์ ตามที่แสดงบนหน้า **อุปกรณ์** ในศูนย์ควบคุม |
+| --EnvironmentId | รหัสสภาพแวดล้อม |
+| --HardwareStationAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
+| --Install | พารามิเตอร์ที่ระบุว่าควรติดตั้งส่วนประกอบที่ตัวติดตั้งนี้มีให้หรือไม่ พารามิเตอร์นี้ไม่เป็นพารามิเตอร์บังคับ |
+| --InstallOffline | สำหรับ Modern POS พารามิเตอร์นี้ระบุว่าควรติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ด้วยหรือไม่ ใช้พารามิเตอร์ **-SQLServerName** ด้วย มิฉะนั้น ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้นที่ตรงตามข้อกำหนดเบื้องต้น |
+| --Port | พอร์ตที่ควรเชื่อมโยงกับและใช้โดยไดเรกทอรีเสมือนของเซิร์ฟเวอร์ระบบการขายปลีก หากไม่ได้ตั้งค่าพอร์ต จะมีการใช้พอร์ตเริ่มต้น 443 |
+| --Register | รหัสทะเบียน ตามที่แสดงบนหน้า **ทะเบียน** ในศูนย์ควบคุม |
+| --RetailServerAadClientId | รหัสไคลเอ็นต์ Azure AD ที่เซิร์ฟเวอร์ระบบการขายปลีกควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
+| --RetailServerAadResourceId | รหัสทรัพยากรแอป Azure AD เซิร์ฟเวอร์ระบบการขายปลีกที่ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
+| --RetailServerCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertThumbprint** |
+| --RetailServerCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertFullPath** |
+| --RetailServerURL | URL ของเซิร์ฟเวอร์ระบบการขายปลีกที่ตัวติดตั้งควรใช้ (URL นี้ยังเรียกอีกอย่างว่า Commerce Scale Unit \[CSU\] URL) สำหรับ Modern POS ค่านี้จะถูกใช้ระหว่างการเปิดใช้งานอุปกรณ์ |
+| --SkipAadCredentialsCheck| สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของข้อมูลประจำตัว Azure AD หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipCertCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของใบรับรองหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipIisCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ Internet Information Services (IIS) หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipNetFrameworkCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ .NET Framework หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipScaleUnitHealthcheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความสมบูรณ์บนส่วนประกอบที่ติดตั้งหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipSChannelCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของช่องทางที่ปลอดภัยหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipSqlFullTextCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความถูกต้องของข้อเบื้องต้นของ SQL Server ที่ต้องใช้การค้นคำทั้งเอกสารหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SkipSqlServerCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ SQL Server หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| --SqlServerName | ชื่อ SQL Server ถ้าไม่ได้ระบุชื่อ ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้น |
+| --SslcertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต ตัวอย่างเช่น `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertThumbprint** |
+| --SslCertThumbprint | รหัสประจำตัวของใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertFullPath** |
+| --StoreSystemAosUrl | URL ของศูนย์ควบคุม (AOS) |
+| --StoreSystemChannelDatabaseId | รหัสฐานข้อมูลช่องทาง (ชื่อ) |
+| --TenantId | รหัสผู้เช่า Azure AD |
+| --TransactionServiceAzureAuthority | สิทธิการใช้งาน Azure AD บริการธุรกรรม |
+| --TransactionServiceAzureResource | ทรัพยากร Azure AD บริการธุรกรรม |
+| --TrustSqlServerCertificate | สวิตช์ที่แสดงว่าควรเชื่อถือใบรับรองของเซิร์ฟเวอร์ขณะสร้างการเชื่อมต่อกับ SQL Server หรือไม่ เพื่อหลีกเลี่ยงความเสี่ยงด้านความปลอดภัย การปรับใช้ในการทำงานจริงไม่ควรให้ค่าเป็น **จริง** ที่นี่ ค่าเริ่มต้นคือ **เท็จ** |
+| --Verbosity | ระดับของการบันทึกที่ร้องขอในระหว่างการติดตั้ง โดยทั่วไป ไม่ควรใช้ค่านี้ |
+| --WindowsPhoneAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
+
+## <a name="general-overview"></a>ภาพรวมทั่วไป
+
+เฟรมเวิร์กใหม่เกี่ยวกับตัวติดตั้งระบบบริการตนเองมีคุณลักษณะและการปรับปรุงต่างๆ ขณะนี้เฟรมเวิร์กใหม่สร้างตัวติดตั้งเฉพาะกับ Modern POS, สถานีฮาร์ดแวร์ และ CSU (โฮสต์ในตัว) เท่านั้น เป็นเรื่องสําคัญที่ต้องเข้าใจการใช้บรรทัดใบสั่งพื้นฐานเกี่ยวกับตัวติดตั้งแบบปิดผนึก ซึ่งควรมีลักษณะคล้ายกับที่ใช้ในตัวอย่างต่อไปนี้ 
+ 
+```Console
+<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+```
+
+ตัวติดตั้งต้องติดตั้งพารามิเตอร์ **install** (หรือ **uninstall** เพื่อเอาการติดตั้งออก) และพารามิเตอร์ใดๆ ที่ใช้เฉพาะกับการติดตั้งนั้น **ชื่อพารามิเตอร์** ควรรวมพารามิเตอร์ใดๆ ที่ต้องใช้ เช่น ทะเบียน, URL CSU หรือข้อมูลใบรับรอง **ข้อมูลพารามิเตอร์** ควรรวมข้อมูลเพิ่มเติมใดๆ เกี่ยวกับพารามิเตอร์
+
+มีการสร้างเฟรมเวิร์กแบบปิดผนึกเพื่ออนุญาตการเปลี่ยนแปลงต่อไปนี้:
+- **แบบปิดผนึก** – เฟรมเวิร์กตัวติดตั้งใหม่จะแยกตัวติดตั้งส่วนประกอบพื้นฐานที่กระจายของ Microsoft ออกจากการปรับแต่งที่ขึ้นอยู่กับความสามารถในการขยาย การปรับแต่งจะถูกติดตั้งหลังจากนั้น แต่จะถูกยกเลิกการติดตั้งตามการอัปเดต (เพื่อที่การอัปเดตจะได้รับอนุญาตเฉพาะกับส่วนประกอบพื้นฐานของ Microsoft เฉพาะกับการปรับแต่งเท่านั้น หรือทั้งคู่)
+- **แบบไม่มี GUID** – ไม่มีส่วนติดต่อผู้ใช้ (UI) อีกต่อไป แต่จะเป็นการประมวลผลด้วยบรรทัดคำสั่งทั้งหมดสำหรับตัวติดตั้งส่วนประกอบแต่ละรายการ การเปลี่ยนแปลงนี้เป็นหนึ่งในการเปลี่ยนแปลงหรือคุณลักษณะหลักๆ ที่ใช้เพื่อโฟกัสที่เฟรมเวิร์กตัวติดตั้งใหม่เพื่อใช้กับการปรับใช้โดยรวม
+- **การบันทึกแบบลงรายละเอียด** – บันทึกตัวติดตั้งขั้นสูงช่วยให้การตรวจสอบความถูกต้องของการติดตั้งเสร็จสมบูรณ์หรือล้มเหลวดีขึ้น ขั้นตอนต่างๆ ที่ปฏิบัติ และคําเตือนหรือข้อผิดพลาดใดๆ ที่สร้างขึ้น
+- **ล้างข้อมูล –** ในเฟรมเวิร์กใหม่ ตัวติดตั้งส่วนประกอบจะทำงานหนักขึ้นเพื่อรักษาชื่อไดเรกทอรีการติดตั้งโดยล้างข้อมูลเนื้อหาทั้งหมดของโฟลเดอร์ส่วนประกอบก่อนที่จะติดตั้งส่วนประกอบใหม่ การล้างข้อมูลนี้ช่วยให้มั่นใจว่าไม่มีไฟล์ที่เหลือซึ่งอาจทําให้เกิดปัญหาและขัดขวางการติดตั้งที่ประสบความสำเร็จ
+
+ยังไม่ได้ย้ายส่วนประกอบสามส่วนไปยังเฟรมเวิร์กใหม่: โปรแกรมจำลองอุปกรณ์ต่อพ่วงเสมือน, Async Server Connector Service (ใช้เพื่อสนับสนุน Dynamics AX 2012 R3) และการเปลี่ยนบริการแบบเรียลไทม์ (ใช้สนับสนุน Dynamics AX2012 R3)
+
+> [!NOTE]
+> ตัวติดตั้งจัดเก็บไว้ภายในเครื่องและมีการเก็บรักษาไว้  การจัดการหรือลบตัวติดตั้งที่เก็บไว้เพื่อไม่ให้เสียพื้นที่ว่างในดิสก์เมื่อเวลาผ่านไปจึงเป็นสิ่งสำคัญ ขอแนะนำให้เก็บตัวติดตั้งปัจจุบันเป็นส่วนประกอบพื้นฐานและตัวติดตั้งส่วนขยายเป็นเวอร์ชันล่าสุดเพื่อวัตถุประสงค์ในการกู้คืนจากสถานการณ์ที่รุนแรง
+
+## <a name="migration"></a>การย้าย
+
+การย้ายจากตัวติดตั้งส่วนประกอบเฟรมเวิร์กระบบบริการตนเองของเก่าไปยังตัวติดตั้งส่วนประกอบเฟรมเวิร์กใหม่ต้องมีการถอนการติดตั้งส่วนประกอบของเก่า
+
+- **Modern POS** – เฟรมเวิร์กตัวติดตั้งใหม่เป็นที่มาให้แอปพลิเคชันได้รับรหัสลายเซ็นแอปพลิเคชันใหม่ ดังนั้น จึงต้องถอนการติดตั้งส่วนประกอบเก่าทั้งหมดก่อนที่จะติดตั้งส่วนประกอบ Modern POS ของเฟรมเวิร์กใหม่ เนื่องจากข้อกําหนดในการถอนการติดตั้งอย่างเต็มรูปแบบ คุณจะต้องมีการเปิดใช้งานอุปกรณ์อีกครั้ง (การเปิดใช้งานอุปกรณ์นี้อีกครั้งเป็นความต้องการแบบครั้งเดียว ถ้าการถอนการติดตั้งไม่เกิดขึ้นอีก)
+- **สถานีฮาร์ดแวร์** – ในฐานะเว็บไซต์ IIS เฟรมเวิร์กตัวติดตั้งใหม่จะต้องสร้างโครงสร้างโฟลเดอร์พื้นฐานใหม่ ดังนั้น จึงต้องถอนการติดตั้งส่วนประกอบเก่าทั้งหมดก่อนที่จะติดตั้งส่วนประกอบสถานีฮาร์ดแวร์ของเฟรมเวิร์กใหม่
+- **Commerce Scale Unit (CSU, โฮสต์ในตัว)** – ในฐานะชุดเว็บไซต์ IIS เฟรมเวิร์กตัวติดตั้งใหม่จะต้องสร้างโครงสร้างโฟลเดอร์พื้นฐานใหม่  ดังนั้น จึงต้องถอนการติดตั้งส่วนประกอบเก่าทั้งหมดก่อนที่จะติดตั้งส่วนประกอบ Modern CSU (โฮสต์ในตัว) ของเฟรมเวิร์กใหม่
+
+## <a name="modern-pos"></a>POS สมัยใหม่
+
+### <a name="before-you-begin"></a>ก่อนที่คุณจะเริ่มต้น
+
+คุณจึงควรเอาส่วนประกอบ Modern POS ระบบบริการตนเองของเก่าออก สำหรับข้อมูลเพิ่มเติม โปรดดูที่ขั้นตอนการย้ายที่กล่าวถึงก่อนหน้าในหัวข้อนี้
+
+### <a name="examples-of-silent-deployment"></a>ตัวอย่างของการปรับใช้แบบไม่แสดงข้อความ
+
+ส่วนนี้จะแสดงตัวอย่างของคำสั่งที่ใช้เพื่อติดตั้ง Modern POS
+
+#### <a name="silently-install-modern-pos"></a>ติดตั้ง Modern POS โดยไม่แสดงข้อความ
+
+คำสั่งต่อไปนี้จะติดตั้ง (หรืออัปเดต) Modern POS โดยไม่แสดงข้อความ มีโครงสร้างคำสั่งมาตรฐานที่ใช้เพื่อการให้บริการส่วนประกอบแบบไม่แสดงข้อความที่ติดตั้งอยู่ในปัจจุบัน โครงสร้างจะใช้ค่าพื้นฐานของ **&lt;InstallerName&gt;.exe**
+
+คำสั่งพื้นฐานต่อไปนี้จะแสดงตัวเลือกที่พร้อมใช้งานถ้ามีการขอการติดตั้ง ขอแนะนำให้ใช้คำสั่งนี้เมื่อทดสอบหรือใช้ตัวติดตั้งครั้งแรก
+
+```Console
+CommerceModernPOS.exe --help install
+```
+
+> [!NOTE]
+> ไฟล์การตั้งค่าคอนฟิกไม่จำเป็นสำหรับ Modern POS ขณะนี้ตัวติดตั้งมีพารามิเตอร์ (แสดงก่อนหน้าในหัวข้อนี้) สำหรับค่าต่างๆ ที่ใช้ระหว่างการเปิดใช้งานอุปกรณ์
+
+คำสั่งต่อไปนี้จะระบุพารามิเตอร์ทั้งหมดที่ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์หลังจากติดตั้งแอปพลิเคชัน Modern POS ตัวอย่างนี้ใช้ทะเบียน **Houston-3** ซึ่งเป็นค่าที่ใช้กันโดยทั่วไปในข้อมูลสาธิตของ Dynamics 365 Commerce
+
+```Console
+CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+```
+
+คำสั่งต่อไปนี้ระบุพารามิเตอร์ที่ควรจะใช้ในการติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ SQL Server ระบุพร้อมกับไฟล์การตั้งค่าคอนฟิกที่ควรจะใช้
+
+```Console
+CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+```
+
+คุณสามารถผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ
+
+## <a name="hardware-station"></a>สถานีฮาร์ดแวร์
+
+### <a name="before-you-begin"></a>ก่อนที่คุณจะเริ่มต้น
+
+คุณต้องลบส่วนประกอบสถานีฮาร์ดแวร์ระบบริการตนเองของเก่าออก สำหรับข้อมูลเพิ่มเติม โปรดดูที่ขั้นตอนการย้ายที่กล่าวถึงก่อนหน้าในหัวข้อนี้ ไม่มีเครื่องมือข้อมูลบัญชีผู้จำหน่ายอีกต่อไป แต่ข้อมูลบัญชีผู้จำหน่ายจะถูกติดตั้งเมื่อเทอร์มินัล POS จับคู่กับสถานีฮาร์ดแวร์ เมื่อทำการทดสอบตัวติดตั้งนี้เป็นครั้งแรก ขอแนะนำให้คุณเรียกใช้คำสั่งต่อไปนี้:
+
+```Console
+CommerceHardwareStation.exe --help install
+```
+
+### <a name="examples-of-silent-deployment"></a>ตัวอย่างของการปรับใช้แบบไม่แสดงข้อความ
+
+ส่วนนี้จะแสดงตัวอย่างของคำสั่งที่ใช้เพื่อติดตั้งสถานีฮาร์ดแวร์
+
+#### <a name="silently-install-hardware-station"></a>ติดตั้งสถานีฮาร์ดแวร์โดยไม่แสดงข้อความ
+
+คำสั่งต่อไปนี้จะติดตั้ง (หรืออัปเดต) สถานีฮาร์ดแวร์โดยไม่แสดงข้อความ มีโครงสร้างคำสั่งมาตรฐานที่ใช้เพื่อให้บริการส่วนประกอบที่ติดตั้งอยู่ในปัจจุบัน โครงสร้างจะใช้ค่าพื้นฐานของ **&lt;InstallerName&gt;.exe**
+
+คำสั่งพื้นฐานต่อไปนี้เรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการ
+
+```Console
+HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+```
+
+> [!NOTE]
+> ไฟล์การตั้งค่าคอนฟิกไม่จำเป็นสำหรับสถานีฮาร์ดแวร์ ขณะนี้ตัวติดตั้งมีพารามิเตอร์ (แสดงก่อนหน้าในหัวข้อนี้) สำหรับค่าต่างๆ ที่จำเป็น
+
+คำสั่งต่อไปนี้ระบุพารามิเตอร์ทั้งหมดที่ต้องใช้เพื่อข้ามการตรวจสอบข้อกำหนดเบื้องต้นในระหว่างการติดตั้งมาตรฐาน 
+
+> [!NOTE]
+> ไม่แนะนำให้ข้ามการตรวจสอบหากไม่มีการทดสอบอย่างถี่ถ้วนล่วงหน้าหรืออยู่ในสถานการณ์การพัฒนา
+
+```Console
+HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+```
+
+ตามธรรมเนียมทั่วไป เป็นเรื่องปกติที่จะผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ
+
+## <a name="commerce-scale-unit-self-hosted"></a>Commerce Scale Unit (โฮสต์ในตัว)
+
+เมื่อทำการทดสอบตัวติดตั้งนี้เป็นครั้งแรก ขอแนะนำให้คุณเรียกใช้คำสั่งต่อไปนี้:
+
+```Console
+CommerceStoreScaleUnitSetup.exe --help install
+```
+
+### <a name="before-you-begin"></a>ก่อนที่คุณจะเริ่มต้น
+
+คุณจึงควรเอาส่วนประกอบ Modern CSU ระบบบริการตนเอง (โฮสต์ในตัว) ของเก่าออก สำหรับข้อมูลเพิ่มเติม โปรดดูที่ขั้นตอนการย้ายที่กล่าวถึงก่อนหน้าในหัวข้อนี้
+
+### <a name="examples-of-silent-deployment"></a>ตัวอย่างของการปรับใช้แบบไม่แสดงข้อความ
+
+ส่วนนี้จะแสดงตัวอย่างของคำสั่งที่ใช้เพื่อติดตั้ง Modern CSU (โฮสต์ในตัว)
+
+#### <a name="silently-install-csu-self-hosted"></a>ติดตั้ง CSU (โฮสต์ในตัว) โดยไม่แสดงข้อความ
+
+คำสั่งต่อไปนี้จะติดตั้ง (หรืออัปเดต) Modern CSU (โฮสต์ในตัว) โดยไม่แสดงข้อความ มีโครงสร้างคำสั่งมาตรฐานที่ใช้เพื่อการให้บริการส่วนประกอบแบบไม่แสดงข้อความที่ติดตั้งอยู่ในปัจจุบัน โครงสร้างจะใช้ค่าพื้นฐานของ **&lt;InstallerName&gt;.exe**
+
+เมื่อเปรียบเทียบกับตัวติดตั้งระบบบริการตนเองอื่นๆ Commerce Scale Unit (CSU) มีความซับซ้อนมากขึ้น และต้องการข้อมูลเพิ่มเติมจํานวนมากอย่างเป็นธรรม คำสั่งต่อไปนี้คือคำสั่งขั้นต่ำ (พร้อมพารามิเตอร์) ที่จำเป็นในการเรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการเมื่อไม่มีไฟล์การตั้งค่าคอนฟิก
+
+```Console
+CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+```
+
+> [!NOTE]
+> ไฟล์การตั้งค่าคอนฟิกยังคงจำเป็นสำหรับ CSU (โฮสต์ในตัว)
+
+คำสั่งต่อไปนี้เป็นคำสั่งที่แบบละเอียดขึ้นซึ่งจะเรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการด้วยพารามิเตอร์ทางเลือกบางอย่าง
+
+```Console
+CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+```
+
+คำสั่งต่อไปนี้ระบุพารามิเตอร์ที่ต้องใช้เพื่อข้ามการตรวจสอบข้อกำหนดเบื้องต้นในระหว่างการติดตั้งมาตรฐาน 
+
+> [!NOTE]
+> ไม่แนะนำให้ข้ามการตรวจสอบหากไม่มีการทดสอบอย่างถี่ถ้วนล่วงหน้าหรืออยู่ในสถานการณ์การพัฒนา
+
+
+```Console
+CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+```
+
+คุณสามารถผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ
+
+<!--## Mass deployment examples using InTune
+
+This section will be added in a future update.
+
+## Mass deployment examples using System Center Configuration Manager (SCCM)
+
+This section will be added in a future update.-->
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

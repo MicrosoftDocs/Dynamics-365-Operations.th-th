@@ -1,6 +1,6 @@
 ---
 title: ชำระการชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันลดราคา
-description: บทความนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
+description: หัวข้อนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46d5025af229c9002967973a0d897708cd3d67dd7d22d887cc611c5c8213d2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737076"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716256"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>ชำระการชำระเงินบางส่วนของผู้จัดจำหน่ายและการชำระเงินครั้งสุดท้ายเต็มจำนวนก่อนวันลดราคา
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
+หัวข้อนี้แนะนำคุณผ่านสถานการณ์สมมติการชำระเงินบางส่วนสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และใช้ส่วนลดเงินสด
 
 Fabrikam ซื้อสินค้าจากผู้จัดจำหน่าย 3064 ผู้จัดจำหน่ายให้ส่วนลดเงินสด 1 เปอร์เซ็นต์ แก่ Fabrikam หากใบแจ้งหนี้ถูกชำระภายใน 14 วัน ใบแจ้งหนี้ต้องชำระใน 30 วัน ผู้จัดจำหน่ายยังอนุญาตให้ใช้ส่วนลดเงินสดในการชำระเงินบางส่วนของ Fabrikam ได้ พารามิเตอร์การชำระเงิน ตั้งอยู่บนหน้า **พารามิเตอร์บัญชีลูกหนี้** ในวันที่ 25 มิถุนายน April ป้อนใบแจ้งหนี้เป็นจำนวนเงิน 1,000.00 สำหรับผู้จัดจำหน่าย 3064
 
