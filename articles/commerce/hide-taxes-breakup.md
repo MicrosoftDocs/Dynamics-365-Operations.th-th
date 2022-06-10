@@ -2,19 +2,19 @@
 title: ซ่อนข้อมูลการแจกแจงรายละเอียดภาษีในสรุปใบสั่ง
 description: หัวข้อนี้จะอธิบายวิธีการซ่อนข้อมูลการแจกแจงรายละเอียดภาษีในสรุปใบสั่งในรถเข็น เช็คเอาท์ การยืนยันใบสั่ง และหน้ารายละเอียดใบสั่งใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 04/21/2022
+ms.date: 05/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9890b5cd92f8c07e6feabb26f4fdd076cb7a02bc
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
+ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645226"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8767825"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>ซ่อนข้อมูลการแจกแจงรายละเอียดภาษีในสรุปใบสั่ง
 
@@ -46,6 +46,9 @@ ms.locfileid: "8645226"
 ในภาพต่อไปนี้จะแสดงกล่องกาเครื่องหมาย **แสดงการแจกแจงรายละเอียดภาษีในสรุปใบสั่ง** ซึ่งเน้นและเลือกไว้ในโปรแกรมสร้างไซต์
 
 ![ตัวเลือกแสดงการแจกแจงรายละเอียดภาษีในสรุปใบสั่งในโปรแกรมสร้างไซต์](media/prices-include-sales-tax-e-Commerce-site-settings.png)
+
+> [!NOTE]
+> ถ้าคุณได้เลือกรูปแบบโมดูลสรุปใบสั่งเอง และไม่ต้องการรับช่วงฟังก์ชัน "ซ่อนข้อมูลการแบ่งภาษีในสรุปใบสั่ง" ใน Commerce รุ่น 10.0.27 หรือสูงกว่า ให้ดู [ผลรวมย่อยของสรุปใบสั่งไม่รวมภาษีในค่าธรรมเนียม เมื่อใช้โมดูลสรุปใบสั่งที่เลือกเอง](troubleshoot/summary-taxes-custom-modules-10.0.27.md#resolution)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

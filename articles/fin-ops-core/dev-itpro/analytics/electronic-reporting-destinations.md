@@ -2,7 +2,7 @@
 title: ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการจัดการปลายทางการรายงานทางอิเล็กทรอนิกส์ ชนิดของปลายทางที่สนับสนุน และข้อควรพิจารณาด้านความปลอดภัย
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647104"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780473"
 ---
 # <a name="electronic-reporting-er-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -173,11 +173,11 @@ ms.locfileid: "7647104"
 
 ### <a name="limitations"></a>การจำกัด
 
-ตัวเลือกการแปลง PDF พร้อมใช้งานสำหรับการปรับใช้ระบบคลาวด์เท่านั้น
+Finance **รุ่น 10.0.9** ตัวเลือกการแปลง PDF พร้อมใช้งานสำหรับการปรับใช้ระบบคลาวด์เท่านั้น การเริ่มต้นใน Finance รุ่น **10.0.27** ตัวเลือกการแปลง PDF พร้อมใช้งานสำหรับการปรับใช้ในองค์กรที่เปิดใช้งาน [การเชื่อมต่ออินเทอร์เน็ต](../user-interface/client-disconnected.md)
 
 เอกสาร PDF ที่ผลิตขึ้นนั้นถูกจำกัดไว้ที่ความยาวสูงสุด 300 หน้า
 
-ใน Finance **รุ่น 10.0.9** มีการรองรับเฉพาะการวางแนวหน้าแนวนอนในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel เท่านั้น In Finance **รุ่น 10.0.10 (พฤษภาคม 2020) และรุ่นที่ใหม่กว่า** คุณสามารถ [ระบุการวางแนวหน้ากระดาษ](#SelectPdfPageOrientation) ในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel ในขณะที่คุณตั้งค่าคอนฟิกปลายทาง ER
+Finance **รุ่น 10.0.9** มีการรองรับเฉพาะการวางแนวหน้าแนวนอนในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel เท่านั้น เริ่ยต้นใน Finance **รุ่น 10.0.10** คุณสามารถ [ระบุการวางแนวหน้ากระดาษ](#SelectPdfPageOrientation) ในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel ในขณะที่คุณตั้งค่าคอนฟิกปลายทาง ER
 
 แบบอักษรของระบบทั่วไปของระบบปฏิบัติการ Window เท่านั้น จะถูกใช้สำหรับแปลงผลลัพธ์ที่ไม่มีแบบอักษรแบบฝังอยู่
 

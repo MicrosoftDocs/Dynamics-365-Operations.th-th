@@ -2,7 +2,7 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการควบคุมต้นทุน พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734086"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811337"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่การควบคุมต้นทุน
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** พื้นที่ทำงานนี้ชวยให้ผู้จัดการศูนย์ต้นทุนสามารถดูข้อมูลเกี่ยวกับประสิทธิภาพของศูนย์ต้นทุนได้ทุกเวลาจากที่ใดก็ได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations บนมือถือ
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations (Dynamics 365) บนมือถือ
 
 ## <a name="overview"></a>ภาพรวม
 พื้นที่ทำงานแบบเคลื่อนที่ของ **การควบคุมต้นทุน** แสดงมุมมองโต้ตอบแบบทันทีของประสิทธิภาพการทำงานปัจจุบันของศูนย์ต้นทุน โดยการเปรียบเทียบต้นทุนจริงกับต้นทุนที่จัดงบประมาณ คุณสามารถดูรายละเอียดแนวลึกของสถานะขององค์ประกอบต้นทุนแต่ละรายการได้
@@ -113,7 +114,7 @@ ms.locfileid: "8734086"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
-ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
+ดาวน์โหลดและติดตั้งแอป Finance and Operations (Dynamics 365) บนมือถือ:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -2,7 +2,7 @@
 title: พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,20 +12,21 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759991"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811371"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของ **การอนุมัติใบแจ้งหนี้** แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย 
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -60,14 +61,14 @@ ms.locfileid: "6759991"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอปบนมือถือ Finance and Operations:
+ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอปบนมือถือ
 
-1.  เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
+1.  เริ่มการทำงานแอปบนอุปกรณ์เคลื่อนที่ของคุณ
 2.  ใส่ URL Microsoft Dynamics 365 ของคุณ
 3.  ในครั้งแรกที่คุณเข้าสู่ระบบ ระบบจะขอให้คุณป้อนชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้แล้ว พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะแสดงขึ้น หมายเหตุว่าถ้าผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานแบบเคลื่อนที่

@@ -1,8 +1,8 @@
 ---
-title: โฮมเพจแอพบนมือถือ
-description: หัวข้อนี้อธิบายถึงแอพบนมือถือ Finance and Operations (Dynamics 365) และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
+title: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
+description: หัวข้อนี้อธิบายถึงแอป Finance and Operations (Dynamics 365) บนมือถือและแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729719"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811186"
 ---
-# <a name="mobile-app-home-page"></a>โฮมเพจแอพบนมือถือ
+# <a name="mobile-app-home-page"></a>โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-หัวข้อนี้อธิบายถึงแอพบนมือถือ **Finance and Operations (Dynamics 365)** และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปฏิบัติตามในองค์กรของคุณ
+หัวข้อนี้อธิบายถึงแอป **Finance and Operations (Dynamics 365)** บนมือถือและแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -76,7 +77,7 @@ ms.locfileid: "6729719"
 <tr class="odd">
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
-<td>ใช้แอป Finance and Operations ในองค์กรของคุณ</td>
+<td>นำแอป Finance and Operations ไปปรับใช้ในองค์กรของคุณ</td>
 <td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">
@@ -130,9 +131,9 @@ ms.locfileid: "6729719"
 <td>8</td>
 <td>ผู้ใช้</td>
 <td>ดาวน์โหลดและติดตั้งแอพบนมือถือ</td>
-<td>แอป 
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations สำหรับ Android</a><BR/>แอพ 
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations สำหรับ iOS</a><BR/>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">แอป Finance and Operations สำหรับ Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">แอป Finance and Operations สำหรับ iOS</a><BR/>
 (Windows Phone ที่ไม่สนับสนุน)
 </td>
 </tr>

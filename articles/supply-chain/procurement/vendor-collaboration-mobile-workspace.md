@@ -2,7 +2,7 @@
 title: พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670117"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811727"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations บนมือถือ
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations (Dynamics 365) บนมือถือ
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** คอยให้ข้อมูลผู้จัดจำหน่ายเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อและจากนั้นตอบสนองในเว็บไคลเอ็นต์ 
@@ -109,7 +110,7 @@ ms.locfileid: "8670117"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ:
+ดาวน์โหลดและติดตั้งแอป Finance and Operations (Dynamics 365) บนมือถือ:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

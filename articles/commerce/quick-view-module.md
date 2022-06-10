@@ -2,7 +2,7 @@
 title: โมดูลมุมมองด่วน
 description: หัวข้อนี้ครอบคลุมถึงโมดูลมุมมองด่วน และอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 68808da1ad2b3474852b3544df55db948f8758cd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692711"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780829"
 ---
 # <a name="quick-view-module"></a>โมดูลการแสดงผลแบบด่วน
 
@@ -61,7 +61,7 @@ ms.locfileid: "8692711"
 
 1. ไปที่ **หน้า** แล้วเลือกโฮมเพจสำหรับไซต์ Fabrikam
 1. ไปที่โมดูล **คอลเลกชันผลิตภัณฑ์** ใดๆ บนโฮมเพจ เลือกจุดไข่ปลา (**...**) แล้วเลือก **เพิ่มโมดูล**
-1. ในกล่องโต้ตอบ **เพิ่มโมดูล** ให้เลือกโมดูล **มุมมองด่วน** แล้วเลือก **ตกลง**
+1. ในกล่องโต้ตอบ **เลือกโมดูล** ให้เลือกโมดูล **มุมมองด่วน** แล้วเลือก **ตกลง**
 1. ในบานหน้าต่างคุณสมบัติของโมดูล **มุมมองด่วน** ให้เลือก **หัวข้อ** ในกล่องโต้ตอบ **หัวข้อ** ให้ตั้งค่าฟิลด์ **ระดับหัวข้อ** เป็น **H2** แล้วเลือก **ตกลง**
 1. เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในหน้า และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่
 

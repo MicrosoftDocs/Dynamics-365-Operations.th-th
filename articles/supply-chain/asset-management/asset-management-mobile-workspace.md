@@ -2,7 +2,7 @@
 title: ใช้พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดสินทรัพย์ถาวร
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771550"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811517"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>ใช้พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับ **การจัดสินทรัพย์** พื้นที่ทำงานนี้จะช่วยให้ผู้ใช้สามารถดูและสร้างคำขอการบำรุงรักษาและใบสั่งงานได้ นอกจากนี้ผู้ใช้ยังสามารถดูงานในใบสั่งงานที่กำหนดไว้ในปฏิทินหรือมุมมองรายการได้อีกด้วย นอกจากนี้คุณยังสามารถดูและค้นหาสินทรัพย์และสถานที่ทำงานได้ด้วย
 
@@ -43,16 +44,16 @@ ms.locfileid: "6771550"
 
 ก่อนที่คุณจะสามารถใช้พื้นที่ทำงานแบบเคลื่อนที่ **การจัดการสินทรัพย์** ผู้ดูแลระบบของคุณต้องตั้งค่าบัญชีผู้ใช้และผู้ปฏิบัติงานที่จำเป็น และเผยแพร่พื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์](set-up-asset-management-mobile.md)
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
 
-ดาวน์โหลดและติดตั้งแอพบนมือถือ Dynamics 365 for Unified Operations
+ดาวน์โหลดและติดตั้งแอป Finance and Operations (Dynamics 365) บนมือถือ:
 
 - [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอพบนมือถือ
+## <a name="sign-in-to-the-mobile-app"></a>ล็อกอินเข้าสู่แอปบนมือถือ
 
-1. เริ่มการทำงานแอพบนอุปกรณ์เคลื่อนที่ของคุณ
+1. เริ่มการทำงานแอปบนอุปกรณ์เคลื่อนที่ของคุณ
 
 1. ป้อน URL ของ Dynamics 365
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323936"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782190"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 
@@ -26,7 +26,7 @@ ms.locfileid: "8323936"
 
 เพื่อสร้างรายงานเป็นเอกสาร Microsoft Word คุณต้องออกแบบเทมเพลตให้กับรายงานเป็นเอกสาร Word เทมเพลตนี้ต้องมีตัวควบคุมเนื้อหา Word เป็นตัวยึดข้อมูลซึ่งจะถูกเติมขณะรันไทม์ ในการใช้เอกสาร Word ที่สร้างเป็นเทมเพลตของรายงานของคุณ คุณจะสามารถ [กำหนดค่าคอนฟิก](er-design-configuration-word.md) [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [โซลูชัน](er-quick-start1-new-solution.md) ใหม่ได้ โซลูชันี้ต้องมี [การกำหนดค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่มีส่วนประกอบรูปแบบ ER ต้องกำหนดค่าคอนฟิกรูปแบบ ER นี้เพื่อใช้เทมเพลตที่ออกแบบไว้ในการสร้างรายงาน
 
-ในเวอร์ชัน 10.0.6 และเวอร์ชันต่อมาของ Dynamics 365 Finance คุณสามารถกำหนดค่าคอนฟิกสูตรในรูปแบบ ER ของคุณเพื่อระงับการควบคุมเนื้อหา Word บางรายการในเอกสารที่สร้างขึ้น
+ในรุ่น 10.0.6 และที่ใหม่กว่าของ Dynamics 365 Finance คุณสามารถกำหนดค่าคอนฟิกสูตรในรูปแบบ ER ของคุณเพื่อระงับการควบคุมเนื้อหา Word บางรายการในเอกสารที่สร้างขึ้น
 
 ขั้นตอนต่อไปนี้จะอธิบายว่าผู้ใช้ที่ได้รับมอบหมายให้เป็นผู้ดูแลระบบหรือบทบาทที่ปรึกษาด้านฟังก์ชันการรายงานทางอิเล็กทรอนิกส์จะสามารถกำหนดค่ารูปแบบ ER ที่สร้างรายงานเป็นไฟล์ Word และยับยั้งการควบคุมเนื้อหาบางส่วนในรายงานที่สร้างขึ้นซึ่งได้รับการกำหนดค่าโดยใช้เทมเพลต Word ได้
 
@@ -47,7 +47,7 @@ ms.locfileid: "8323936"
 
 คุณยังต้องดาวน์โหลดและบันทึกเทมเพลตต่อไปนี้สำหรับรายงานตัวอย่าง
 
-- [เทมเพลตถูกผูกไว้ 2 ของรายงานการชำระเงิน (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [เทมเพลตถูกผูกไว้ 2 ของรายงานการชำระเงิน (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>ตรวจทานเทมเพลต Word ที่ดาวน์โหลด
 

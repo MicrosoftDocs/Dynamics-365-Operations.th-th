@@ -1,8 +1,8 @@
 ---
-title: ลงชื่อ MPOS ด้วยใบรับรองการเซ็นโค้ด
+title: ลงชื่อไฟล์ MPOS .appx ด้วยใบรับรองการลงชื่อโค้ด
 description: หัวข้อนี้อธิบายวิธีการลงชื่อ MPOS ด้วยใบรับรองการเซ็นโค้ด
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741562"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811096"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>ลงชื่อแอป MPOS ด้วยใบรับรองการเซ็นโค้ด
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>ลงชื่อไฟล์ MPOS .appx ด้วยใบรับรองการลงชื่อโค้ด
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 เมื่อต้องการติดตั้ง Modern POS (MPOS) คุณต้องลงชื่อแอป MPOS ด้วยใบรับรองการเซ็นโค้ดจากผู้ให้บริการที่เชื่อถือได้และติดตั้งใบรับรองเดียวกันบนเครื่องทั้งหมดที่ MPOS ติดตั้งภายใต้โฟลเดอร์รากที่เชื่อถือได้ของผู้ใช้ปัจจุบัน
 
@@ -42,7 +43,7 @@ ms.locfileid: "8741562"
 ![ขั้นตอนการลงชื่อแอป MPOS](media/POSSigningFlow.png)
 
 > [!NOTE]
-> ปัจจุบันการจัดทำแพคเกจ OOB รองรับการลงชื่อเฉพาะไฟล์ appx เท่านั้น ตัวติดตั้งระบบบริการตนเองต่างๆ เช่น MP CSV, DLL และ HWS ไม่ได้ลงชื่อโดยกระบวนการนี้ คุณต้องลงชื่อด้วยตนเองโดยใช้ SignTool หรือเครื่องมือการลงชื่ออื่นๆ คุณต้องติดตั้งใบรับรองที่ใช้เพื่อลงชื่อไฟล์ appx ในเครื่องที่ติดตั้ง Modern POS
+> ปัจจุบันการจัดทำแพคเกจ OOB รองรับการลงชื่อเฉพาะไฟล์ .appx เท่านั้น ตัวติดตั้งระบบบริการตนเองต่างๆ เช่น MP CSV, DLL และ HWS ไม่ได้ลงชื่อโดยกระบวนการนี้ คุณต้องลงชื่อด้วยตนเองโดยใช้ SignTool หรือเครื่องมือการลงชื่ออื่นๆ คุณต้องติดตั้งใบรับรองที่ใช้เพื่อลงชื่อไฟล์ .appx ในเครื่องที่ติดตั้ง Modern POS
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>ขั้นตอนในการตั้งค่าคอนฟิกใบรับรองการลงชื่อในไปป์ไลน์ Azure
 
@@ -51,21 +52,22 @@ ms.locfileid: "8741562"
 ดาวน์โหลด [งาน DownloadFile](/visualstudio/msbuild/downloadfile-task) และเพิ่มเป็นขั้นตอนแรกในกระบวนการสร้าง ประโยชน์ของการใช้งาน Secure File คือไฟล์จะถูกเข้ารหัสและวางในดิสก์ในระหว่างการสร้าง ไม่ว่าไปป์ไลน์การสร้างจะประสบความสเร็จ ล้มเหลว หรือถูกยกเลิก ไฟล์จะถูกลบออกจากที่ตั้งในการดาวน์โหลดหลังจากกระบวนการสร้างเสร็จสมบูรณ์
 
 1. ดาวน์โหลดและเพิ่มงาน Secure File เป็นขั้นตอนแรกในไปป์ไลน์การสร้างของ Azure คุณสามารถดาวน์โหลดงาน Secure File ได้จาก [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile)
-2. อัปโหลดใบรับรองไปยังงาน Secure File และตั้งค่าชื่อการอ้างอิงภายใต้ตัวแปรเอาต์พุต ดังที่แสดงในรูปภาพต่อไปนี้
+1. อัปโหลดใบรับรองไปยังงาน Secure File และตั้งค่าชื่อการอ้างอิงภายใต้ตัวแปรเอาต์พุต ดังที่แสดงในรูปภาพต่อไปนี้
     > [!div class="mx-imgBorder"]
     > ![งาน Secure File](media/SecureFile.png)
-3. สร้างตัวแปรใหม่ในไปป์ไลน์ Azure โดยเลือก **ตัวแปรใหม่** ภายใต้แท็บ **ตัวแปร**
-4. ระบุชื่อให้กับตัวแปรในฟิลด์ค่า ตัวอย่างเช่น **MySigningCert**
-5. บันทึกตัวแปร
-6. เปิดไฟล์ **Customization.settings** จาก **RetailSDK\\BuildTools** และอัปเดต **ModernPOSPackageCertificateKeyFile** ด้วยชื่อตัวแปรที่สร้างในไปป์ไลน์ (ขั้นตอน 3) ตัวอย่างเช่น:
+1. สร้างตัวแปรใหม่ในไปป์ไลน์ Azure โดยเลือก **ตัวแปรใหม่** ภายใต้แท็บ **ตัวแปร**
+1. ระบุชื่อให้กับตัวแปรในฟิลด์ค่า ตัวอย่างเช่น **MySigningCert**
+1. บันทึกตัวแปร
+1. เปิดไฟล์ **Customization.settings** จาก **RetailSDK\\BuildTools** และอัปเดต **ModernPOSPackageCertificateKeyFile** ด้วยชื่อตัวแปรที่สร้างในไปป์ไลน์ (ขั้นตอน 3) ตัวอย่างเช่น:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     ขั้นตอนนี้ต้องใช้เมื่อใบรับรองไม่ได้รับการป้องกันด้วยรหัสผ่าน หากใบรับรองมีการป้องกันด้วยรหัสผ่าน ให้ปฏิบัติตามขั้นตอนต่อไปนี้
- 
-7. บนแท็บ **ตัวแปร** ของไปป์ไลน์ ให้เพิ่มตัวแปรข้อความที่ปลอดภัยใหม่ ตั้งชื่อเป็น **MySigningCert.secret** และตั้งค่าของรหัสผ่านเป็นใบรับรอง เลือกไอคอนล็อกเพื่อรักษาความปลอดภัยตัวแปร
-8. เพิ่มงาน **Powershell Script** ลงในไปป์ไลน์ (หลังจากดาวน์โหลด Secure File และก่อนขั้นตอนการสร้าง) ระบุชื่อ **การแสดงผล** และตั้งค่าเป็น **Inline** คัดลอกและวางรายการต่อไปนี้ลงในส่วนสคริปต์
+    
+1. ถ้าคุณต้องการประทับเวลาไฟล์ .appx ของ MPOS เมื่อลงชื่อพร้อมใบรับรอง ให้เปิดไฟล์ **Retail SDK\\Build tool\\Customization.settings** และอัปเดตตัวแปร **ModernPOSPackageCertificateTimestamp** ด้วยตัวให้บริการประทับเวลา (ตัวอย่างเช่น `http://timestamp.digicert.com`)
+1. บนแท็บ **ตัวแปร** ของไปป์ไลน์ ให้เพิ่มตัวแปรข้อความที่ปลอดภัยใหม่ ตั้งชื่อเป็น **MySigningCert.secret** และตั้งค่าของรหัสผ่านเป็นใบรับรอง เลือกไอคอนล็อกเพื่อรักษาความปลอดภัยตัวแปร
+1. เพิ่มงาน **Powershell Script** ลงในไปป์ไลน์ (หลังจากดาวน์โหลด Secure File และก่อนขั้นตอนการสร้าง) ระบุชื่อ **การแสดงผล** และตั้งค่าเป็น **Inline** คัดลอกและวางรายการต่อไปนี้ลงในส่วนสคริปต์
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ ms.locfileid: "8741562"
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. เปิดไฟล์ **Customization.settings** จาก **RetailSDK\\BuildTools** และอัปเดต **ModernPOSPackageCertificateThumbprint** ด้วยค่ารหัสประจำตัวของใบรับรอง
+1. เปิดไฟล์ **Customization.settings** จาก **RetailSDK\\BuildTools** และอัปเดต **ModernPOSPackageCertificateThumbprint** ด้วยค่ารหัสประจำตัวของใบรับรอง
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ ms.locfileid: "8741562"
  
 สำหรับรายละเอียดเกี่ยวกับวิธีรับรหัสประจำตัวสำหรับใบรับรอง โปรดดู [เรียกดูรหัสประจำตัวของใบรับรอง](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint) 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>ดาวน์โหลดหรือสร้างใบรับรองเพื่อลงชื่อแอป MPOS ด้วยตนเองโดยใช้ msbuild ใน SDK
 
 หากใบรับรองที่ดาวน์โหลดหรือสร้างมีการใช้เพื่อลงชื่อแอป MPOS ให้อัปเดตโหนด **ModernPOSPackageCertificateKeyFile** ในไฟล์ **BuildTools\\Customization.settings** เพื่อชี้ไปยังตำแหน่งไฟล์ pfx (**$(SdkReferencesPath)\\appxsignkey.pfx**) ตัวอย่างเช่น:

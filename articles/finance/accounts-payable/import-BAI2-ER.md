@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูงโดยใช้การรายงานทางอิเล็กทรอนิกส์
-description: หัวข้อนี้อธิบายวิธีใช้การรายงานทางอิเล็กทรอนิกส์เพื่อตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูงสำหรับใบแจ้งยอด BAI2
+description: หัวข้อนี้อธิบายวิธีใช้การรายงานทางอิเล็กทรอนิกส์เพื่อตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544529"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770207"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>ตั้งค่าการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูงโดยใช้การรายงานทางอิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
 
-คุณลักษณะการกระทบยอดธนาคารขั้นสูงอนุญาตให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ได้ และกระทบยอดกับธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 Finance หัวข้อนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคาร BAI2 ของคุณ
+คุณลักษณะการกระทบยอดธนาคารขั้นสูงอนุญาตให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ได้ และกระทบยอดกับธุรกรรมธนาคารได้โดยอัตโนมัติใน Microsoft Dynamics 365 Finance หัวข้อนี้อธิบายวิธีการตั้งค่าฟังก์ชันการนำเข้าสำหรับใบแจ้งยอดจากธนาคารของคุณ การตั้งค่าสำหรับการนำเข้าใบแจ้งยอดจากธนาคารแตกต่างกันไปขึ้นอยู่กับรูปแบบของใบแจ้งยอดจากธนาคารอิเล็กทรอนิกส์ของคุณ Microsoft Dynamics 365 Finance รองรับรูปแบบใบแจ้งยอดจากธนาคารสามรายการทั้งหมด: ISO20022, MT940 และ BAI2 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>สร้างการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
 
@@ -62,3 +62,14 @@ ms.locfileid: "8544529"
 5. เลือก **เรียกดู** แล้วเลือกไฟล์ **BAI**
 6. เลือก **อัปโหลด**
 7. เลือก **ตกลง** เพื่อนำเข้าไฟล์ที่เลือก
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>ตัวอย่างรูปแบบและโครงร่างทางเทคนิคของใบแจ้งยอดจากธนาคาร
+ต่อไปนี้เป็นตัวอย่างคำนิยามของโครงร่างทางเทคนิคของไฟล์การนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง และไฟล์ตัวอย่างของใบแจ้งยอดจากธนาคารที่เกี่ยวข้องสามรายการ: [ตัวอย่างไฟล์นำเข้า](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| คำนิยามโครงร่างทางเทคนิค                             | ไฟล์ตัวอย่างใบแจ้งยอดจากธนาคาร          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

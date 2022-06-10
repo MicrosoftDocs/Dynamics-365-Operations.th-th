@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688133"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809626"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Dynamics 365 Human Resources
 
@@ -131,6 +131,9 @@ Dynamics 365 Human Resources เป็นแอปพลิเคชันแบ
 หากสภาพแวดล้อม Dynamics 365 Human Resources และ Finance and Operations ที่จะรวมในสภาพแวดล้อมในโครงสร้างพื้นฐานใหม่เชื่อมต่อกับสภาพแวดล้อม Dataverse เดียวกัน แอปทั้งสองจะเชื่อมต่อกับสภาพแวดล้อม Dataverse เดียวกันต่อไปหลังจากการย้ายข้อมูล การย้ายข้อมูลจะไม่ต้องใช้ในส่วนขยาย Dataverse ใดๆ
 
 อย่างไรก็ตาม หากสภาพแวดล้อม Dynamics 365 Human Resources และ Finance and Operations ที่ปัจจุบันเชื่อมต่อกับสภาพแวดล้อม Dataverse ต่างกัน สภาพแวดล้อม Dataverse ทั้งสองจะต้องรวมกันเพื่อให้เชื่อมต่อกับสภาพแวดล้อมเดียวบนโครงสร้างพื้นฐานใหม่ สำหรับการรวม Dataverse นี้ ตาราง Dataverse มาตรฐานของโซลูชัน Human Resources สามารถเชื่อมต่อและซิงโครไนส์ใหม่กับสภาพแวดล้อม Dataverse ใหม่ได้ ส่วนขยายใดๆ ไปยังสภาพแวดล้อม Dataverse จะไม่ถูกย้ายโดยอัตโนมัติ แต่ต้องถูกปรับใช้ใหม่ในสภาพแวดล้อมใหม่ ขอแนะนำให้คุณใช้โซลูชันที่มีการจัดการเพื่อจัดการส่วนขยาย Dataverse ของคุณ สำหรับข้อมูลเพิ่มเติม ดูที่ [บทนําเกี่ยวกับโซลูชัน](/powerapps/developer/data-platform/introduction-solutions)
+
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>เราได้ใช้ฟังก์ชันฟิลด์ที่กำหนดเองภายใน Dynamics 365 Human Resources ฟิลด์ที่กำหนดเองเหล่านั้นจะย้ายโดยอัตโนมัติหรือไม่
+ใช่ ฟิลด์ที่กำหนดเองที่ถูกเพิ่มจะย้ายไปยังโครงสร้างพื้นฐานใหม่
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>เราได้ตั้งค่าคอนฟิกโฟลว์ Microsoft Power Automate และ/หรือ Microsoft Power Apps เพื่อทำงานกับ Dynamics 365 Human Resources ส่วนประกอบ Microsoft Power Platform เหล่านี้จะถูกย้ายและใช้งานโดยอัตโนมัติหลังจากเสร็จสิ้นการเปลี่ยนแปลงโครงสร้างพื้นฐานหรือไม่
 
