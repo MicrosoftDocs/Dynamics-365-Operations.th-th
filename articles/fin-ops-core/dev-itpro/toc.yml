@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 (สิงหาคม 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.27 (กรกฎาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.26 (พฤษภาคม 2022)
@@ -384,7 +386,7 @@
                   items:
                     - name: ตั้งค่าโครงการแบบในสถานที่ใน LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)
                       href: deployment/setup-deploy-on-premises-pu41.md
                     - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 12 ถึง 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: เริ่มต้นบริการสภาพแวดล้อมใหม่
               href: lifecycle-services/restart-environment-services.md
+            - name: อัปเดตผู้ดูแลระบบสภาพแวดล้อม
+              href: lifecycle-services/update-environment-admin.md
             - name: รายงานความขัดข้องในการผลิต
               href: lifecycle-services/report-production-outage.md
             - name: ติดตามการลงชื่อเข้าใช้ของผู้ใช้
@@ -1266,6 +1270,8 @@
               items:
                 - name: ภาพรวมของ Add-In
                   href: power-platform/add-ins-overview.md
+            - name: การสร้างประสบการณ์อุปกรณ์เคลื่อนที่
+              href: power-platform/build-mobile-experiences.md
             - name: นโยบายและการสื่อสาร
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: แพลตฟอร์มเคลื่อนที่

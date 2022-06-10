@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (สิงหาคม 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (กรกฎาคม 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (พฤษภาคม 2022)
@@ -711,6 +713,8 @@
           items:
             - name: โฮมเพจการจัดการต้นทุน
               href: cost-management/cost-management-home-page.md
+            - name: คำถามที่ถามบ่อยของการคิดต้นทุนสินค้าคงคลัง
+              href: cost-management/inventory-costing-faq.md
             - name: ข้อกำหนดเบื้องต้นสำหรับต้นทุนมาตรฐาน
               items:
                 - name: ภาพรวมของข้อกำหนดเบื้องต้นสำหรับต้นทุนมาตรฐาน
@@ -1425,8 +1429,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ตั้งค่าคอนฟิกแหล่งข้อมูล การค้นหา เพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบ ER
+                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์สำหรับรายงานที่คุณต้องการสร้าง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกรูปแบบข้อมูล
@@ -1707,6 +1713,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: การจองใน Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
+                - name: การปันส่วนสินค้าคงคลังใน Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
                 - name: กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือและปริมาณที่ให้สัญญาได้ของ Inventory Visibility
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: API สาธารณะสำหรับ Inventory Visibility
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: รายงานต้นทุนแฝง
               href: landed-cost/landed-cost-reports.md
+            - name: เอนทิตี้ข้อมูลต้นทุนแฝง
+              items:
+                - name: ภาพรวมของเอนทิตี้ต้นทุนแฝง
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: เอนทิตี้การสร้างการเดินทาง
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: เอนทิตี้ธุรกรรมต้นทุน
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: เอนทิตี้กิจกรรมคอนเทนเนอร์
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: เอนทิตี้ใบแจ้งหนี้ของผู้จัดจำหน่าย
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: การจัดการคลังสินค้า
           items:
             - name: ภาพรวมของการจัดการคลังสินค้า

@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (กรกฎาคม 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (กรกฎาคม 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (พฤษภาคม 2022)
@@ -1300,6 +1302,10 @@
               items:
                 - name: สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx
                   href: build-pages-400-500-errors.md
+            - name: การรวมบริการ
+              items:
+                - name: รวม Customer Voice เข้ากับหน้าไซต์อีคอมเมิร์ซ
+                  href: customer-voice-integration.md
         - name: การป้องกันการฉ้อโกง
           items:
             - name: การรวม Dynamics 365 Fraud Protection กับ Dynamics 365 Commerce
@@ -2116,8 +2122,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ตั้งค่าคอนฟิกแหล่งข้อมูล การค้นหา เพื่อใช้พารามิเตอร์เฉพาะแอปพลิเคชันการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบ ER
+                    - name: ใช้แหล่งข้อมูล ชุดข้อมูล ในรูปแบบการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: ใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์สำหรับรายงานที่คุณต้องการสร้าง
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: ดีบักแหล่งข้อมูล
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกรูปแบบข้อมูล
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: จำลองสถานะลงชื่อเข้าใช้ระหว่างการพัฒนาภายในเครื่อง
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: ตั้งค่าการโอนย้ายการรับรองความถูกต้อง Web API โดยใช้ Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: ตั้งค่าคอนฟิกคุณสมบัติของโมดูลที่จะแสดงตามบริบท
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: กระจายโมดูลทั่วโลกโดยใช้คลาส CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: รีไฟเนอร์การจัดอันดับจะปรากฏในหน้าผลการค้นหาและหน้าประเภท เมื่อไม่ได้เปิดใช้งานการจัดอันดับและโซลูชันบทวิจารณ์
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: ผลรวมย่อยแบบสรุปของคำสั่งซื้อไม่รวมภาษีเกี่ยวกับค่าธรรมเนียมเมื่อใช้โมดูลแบบสรุปของคำสั่งซื้อที่กำหนดเอง
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: การจัดการลูกค้า
               items:
                 - name: อีเมลต้อนรับจะไม่ถูกส่งเมื่อสร้างลูกค้าใหม่
