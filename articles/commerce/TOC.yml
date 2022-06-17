@@ -58,6 +58,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: ก่อนการให้บริการและหลังการให้บริการ
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: หยุดการอัปเดตบริการชั่วคราว
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
@@ -394,6 +396,8 @@
                   items:
                     - name: แอป Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: ย้าย Modern POS ไปยัง Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: คำแนะนำการใช้งานการจัดการอุปกรณ์
                       href: implementation-considerations-devices.md
                     - name: เลือกระหว่าง Store Commerce กับ Cloud POS
@@ -2222,11 +2226,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: ลดจํานวนฟิลด์ของตารางที่ดึงข้อมูลขณะรันไทม์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: การจัดการเอกสารทางธุรกิจ (BDM)
                   items:
                     - name: ภาพรวมของ BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                    - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ใน BDM
+                    - name: ส่วนติดต่อผู้ใช้ของเอกสารใหม่ใน BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
                     - name: แก้ไขเทมเพลตเอกสารทางธุรกิจใน BDM
                       items:
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: การย้าย Retail SDK เดิม
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'API, คลาสและวิธีการที่ล้าสมัยและถูกลบออก'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: การปรับปรุงสแต็คเทคโนโลยีภายในร้านของ Commerce ให้ทันสมัย (เอกสาร)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: การตั้งค่าสภาพแวดล้อม
@@ -2560,6 +2568,8 @@
                   items:
                     - name: สร้างแพคเกจส่วนขยาย Cloud Scale Unit
                       href: dev-itpro/CSU-packaging.md
+                    - name: รวมแพคเกจส่วนขยาย Cloud Scale Unit สำหรับการปรับใช้งาน
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: เอาส่วนขยาย Cloud Scale Unit ออก
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: การแก้ไขปัญหา
           items:
+            - name: Store Commerce
+              items:
+                - name: ปัญหาการตั้งค่าและการติดตั้ง
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: ปัญหาประสิทธิภาพ
+                  href: troubleshoot/store-commerce-performance.md
+                - name: ปัญหาส่วนขยาย
+                  href: troubleshoot/store-commerce-extensions.md
             - name: การประมวลผลใบสั่ง
               items:
                 - name: ข้อผิดพลาดชนิดการชำระเงินต้องเป็นบัตรเครดิต

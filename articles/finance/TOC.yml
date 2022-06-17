@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: ก่อนการให้บริการและหลังการให้บริการ
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: หยุดการอัปเดตบริการชั่วคราว
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
@@ -1684,7 +1686,9 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: ยอดเงินทั้งหมดและตัวเลือกการคำนวณช่วงเวลาสำหรับรหัสภาษีขาย
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                    - name: การคำนวณภาษีขายสำหรับรายการสมุดรายวันทั่วไป
+                    - name: การคำนวณและการปัดเศษภาษีขาย
+                      href: general-ledger/sales-tax-calculation-rounding.md
+                    - name: การคำนวณภาษีขายสำหรับบรรทัดสมุดรายวันทั่วไป
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: อินทราสแทตของเอสโตเนีย
                   href: localizations/emea-est-intrastat.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-est-eu-sales-list.md
             - name: ยุโรป
               items:
                 - name: ภาพรวมของยุโรป
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: รายงานภาษีขายของฮังการี
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: อินทราสแทตของฮังการี
+                  href: localizations/emea-hun-intrastat.md
                 - name: การคำนวณภาษีขายที่รอตัดบัญชี
                   href: localizations/emea-hun-deferred-vat.md
             - name: ไอซ์แลนด์
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: อินทราสแทตของลัตเวีย
                   href: localizations/emea-lva-intrastat.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: ลิทัวเนีย
               items:
                 - name: ภาพรวมของลิทัวเนีย
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: ตั้งค่าเอกสารการโอนย้ายสำหรับการย้ายสินค้าภายในบริษัท
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: มาเลเซีย
               items:
                 - name: ภาพรวมของมาเลเซีย
@@ -4483,11 +4495,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: ลดจํานวนฟิลด์ของตารางที่ดึงข้อมูลขณะรันไทม์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: การจัดการเอกสารทางธุรกิจ (BDM)
                   items:
                     - name: ภาพรวมของ BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ใน BDM
+                    - name: ส่วนติดต่อผู้ใช้ของเอกสารใหม่ใน BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
                     - name: แก้ไขเทมเพลตเอกสารทางธุรกิจใน BDM
                       items:

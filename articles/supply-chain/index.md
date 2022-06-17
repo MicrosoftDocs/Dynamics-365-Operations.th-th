@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจ Supply Chain Management
-description: หน้านี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
+description: หน้านี้แสดงรายการของบทความวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะ Supply Chain Management
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879089"
 ---
 # <a name="supply-chain-management-home-page"></a>โฮมเพจ Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ ใน Dynamics 365 Supply Chain Management
+บทความนี้แสดงรายการของบทความวิธีใช้และแหล่งข้อมูลอื่นๆ ใน Dynamics 365 Supply Chain Management
 
 ## <a name="whats-new-and-in-development"></a>มีอะไรใหม่และอะไรที่กำลังพัฒนา
 
@@ -63,7 +63,7 @@ ms.locfileid: "8789225"
 วิดีโอสั้นๆ เหล่านี้เป็นการสรุปคุณลักษณะการบริหารห่วงโซ่อุปทานใหม่ที่เพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (ธันวาคม 2017)
 
 - [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [ใช้เท็มเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [ใช้เทมเพลตคลังสินค้าเพื่อคัดลอกการตั้งค่าคอนฟิก](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 วิดีโอสั้นๆ เหล่านี้เป็นการสรุปคุณลักษณะการบริหารห่วงโซ่อุปทานใหม่ที่เพิ่มลงใน Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฏาคม 2017)
 
@@ -93,7 +93,7 @@ ms.locfileid: "8789225"
 
 ## <a name="blogs"></a>บล็อก
 
-มีหัวข้อต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน [บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](/archive/blogs/axmfg/) และ [Supply Chain Management ในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน
+มีบทความต่างๆ เกี่ยวกับการผลิตและการบริหารห่วงโซ่อุปทานใน [บล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](/archive/blogs/axmfg/) และ [Supply Chain Management ในบล็อกทีมงานวิจัยและพัฒนาการผลิตของ Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/) หัวข้อเหล่านี้ส่วนใหญ่ถูกเขียนขึ้นสำหรับรุ่นก่อนหน้านี้ แต่ยังคงใช้แนวคิดเดียวกัน และกระบวนงานจะเหมือนกับในรุ่นปัจจุบัน
 
 ## <a name="white-papers"></a>เอกสาร
 

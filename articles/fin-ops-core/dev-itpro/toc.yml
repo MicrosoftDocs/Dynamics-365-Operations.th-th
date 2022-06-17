@@ -408,8 +408,10 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
-                    - name: ตั้งค่าคอนฟิกแอปการคลังสินค้าสำหรับการปรับใช้ในสถานที่
+                    - name: ตั้งค่าคอนฟิกแอปการคลังสินค้าสำหรับการปรับใช้งานในสถานที่
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: เปิดใช้งาน RSAT ในสภาพแวดล้อม Finance + Operations (on-premises)
+                      href: deployment/onprem-rsat-configuration.md
                     - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
                       href: analytics/install-network-printer-onprem.md
                     - name: การวินิจฉัยแบบในสถานที่
@@ -490,7 +492,7 @@
                   href: deployment/deployment-options-geo.md
                 - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: การดำเนินงานในจีนโดย 21Vianet
+                - name: ประเทศจีน - ดำเนินการโดย 21Vianet
                   href: deployment/china-local-deployment.md
         - name: พัฒนาและเลือกกำหนด
           items:
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: บทช่วยสอนส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: ส่วนขยาย Dynamics 365 Translation Service Visual Studio Code (พรีวิวสำหรับสาธารณะ)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: การรวม Microsoft Power Platform
           items:
             - name: ภาพรวม
@@ -1550,7 +1554,7 @@
               href: lcs-solutions/process-data-packages-lcs-solutions.md
             - name: ทำสำเนาสำรองฐานข้อมูลโซลูชัน
               href: lcs-solutions/database-backup-lcs-solutions.md
-            - name: คุณลักษณะการทำงานเฉพาะและบังคับ
+            - name: คุณลักษณะการแปลเป็นภาษาท้องถิ่นและระเบียบข้อบังคับ
               items:
                 - name: ทรัพยากรแบบโลกาภิวัตน์
                   href: lcs-solutions/country-region.md

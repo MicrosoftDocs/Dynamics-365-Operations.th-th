@@ -1,6 +1,6 @@
 ---
 title: สร้างเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก
-description: หัวข้อนี้จะอธิบายวิธีการสร้างเวิร์กบุ๊ก Excel เพื่อให้คุณสามารถแก้ไขธุรกรรมการขายปลีกใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการสร้างเวิร์กบุ๊ก Excel เพื่อให้คุณสามารถแก้ไขธุรกรรมการขายปลีกใน Microsoft Dynamics 365 Commerce
 author: josaw1
 ms.date: 11/04/2020
 ms.topic: index-page
@@ -15,22 +15,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bfc3f6898087445e0276994ceeb52c178785bf3604fa163939327e99a0564f64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da3c2eb19491b37decaf29d13f675271ae7a3698
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873099"
 ---
 # <a name="create-an-excel-workbook-to-edit-retail-transactions"></a>สร้างเวิร์กบุ๊ก Excel เพื่อแก้ไขธุรกรรมการขายปลีก
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างเวิร์กบุ๊ก Excel เพื่อให้คุณสามารถแก้ไขธุรกรรมการขายปลีกใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการสร้างเวิร์กบุ๊ก Excel เพื่อให้คุณสามารถแก้ไขธุรกรรมการขายปลีกใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
-มีเท็มเพลต Excel ที่กำหนดไว้ล่วงหน้าซึ่งลูกค้าสามารถเข้าถึงได้จากส่วนต่างๆ ของระบบและใช้เพื่อแก้ไขและตรวจสอบธุรกรรมการขายปลีก อย่างไรก็ตาม ลูกค้ายังสามารถสร้างเวิร์กบุ๊ก Excel แบบกำหนดเองสำหรับวัตถุประสงค์นี้ได้เช่นกัน
+มีเทมเพลต Excel ที่กำหนดไว้ล่วงหน้าซึ่งลูกค้าสามารถเข้าถึงได้จากส่วนต่างๆ ของระบบและใช้เพื่อแก้ไขและตรวจสอบธุรกรรมการขายปลีก อย่างไรก็ตาม ลูกค้ายังสามารถสร้างเวิร์กบุ๊ก Excel แบบกำหนดเองสำหรับวัตถุประสงค์นี้ได้เช่นกัน
 
 ## <a name="create-and-configure-an-excel-workbook"></a>สร้างและตั้งค่าคอนฟิกเวิร์กบุ๊ก Excel
 

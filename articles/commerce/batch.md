@@ -1,6 +1,6 @@
 ---
 title: การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
-description: หัวข้อนี้อธิบายถึงการจัดการสินค้าที่มีการติดตามแบบชุดงานที่ปรับปรุงระหว่างกระบวนการลงรายการบัญชีใบแจ้งยอดใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายถึงการจัดการสินค้าที่มีการติดตามแบบชุดงานที่ปรับปรุงระหว่างกระบวนการลงรายการบัญชีใบแจ้งยอดใน Microsoft Dynamics 365 Commerce
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881891"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>การปรับปรุงให้มีการจัดการสินค้าที่มีการติดตามแบบชุดงาน
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงการจัดการสินค้าที่มีการติดตามแบบชุดงานที่ปรับปรุงระหว่างกระบวนการลงรายการบัญชีใบแจ้งยอดใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายถึงการจัดการสินค้าที่มีการติดตามแบบชุดงานที่ปรับปรุงระหว่างกระบวนการลงรายการบัญชีใบแจ้งยอดใน Microsoft Dynamics 365 Commerce
 
 ในการขายหน้าร้าน (POS) ของ Dynamics 365 Commerce ไม่สามารถบันทึกหมายเลขชุดงานสำหรับสินค้าที่มีการติดตามแบบชุดงานในเวลาที่ขาย อย่างไรก็ตาม สำหรับการตั้งค่าคอนฟิกเฉพาะ เมื่อมีการลงรายการบัญชียอดขายในศูนย์ควบคุม Commerce ผ่านทางใบสั่งของลูกค้าหรือการลงรายการบัญชีใบแจ้งยอด Commerce คาดว่าจะมีหมายเลขชุดงานที่ถูกต้องของสินค้าที่มีการติดตามแบบชุดงาน และจะใช้หมายเลขดังกล่าวในกระบวนการออกใบแจ้งหนี้
 

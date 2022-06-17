@@ -1,6 +1,6 @@
 ---
 title: กลับรายการการตั้งค่าในสมุดรายวันและรายการ
-description: หัวข้อนี้จะแก้ไขสาเหตุที่รายการที่กลับรายการบัญชีที่ป้อนไว้ในสมุดรายวันทั่วไปอาจไม่รวมอยู่ในธุรกรรมที่ลงรายการบัญชี
+description: บทความนี้จะแก้ไขสาเหตุที่รายการที่กลับรายการบัญชีที่ป้อนไว้ในสมุดรายวันทั่วไปอาจไม่รวมอยู่ในธุรกรรมที่ลงรายการบัญชี
 author: kweekley
 ms.date: 04/29/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-5-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff8c0bda8e750e95261039b373cfb96a76034f6f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: e36a3ea1736e4d7f60a5a6ce588ad3e66c950c14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899855"
 ---
 # <a name="reverse-settings-on-journals-and-lines"></a>กลับรายการการตั้งค่าในสมุดรายวันและรายการ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะแก้ไขสาเหตุที่รายการที่กลับรายการบัญชีที่ป้อนไว้ในสมุดรายวันทั่วไปอาจไม่รวมอยู่ในธุรกรรมที่ลงรายการบัญชี  
+บทความนี้จะแก้ไขสาเหตุที่รายการที่กลับรายการบัญชีที่ป้อนไว้ในสมุดรายวันทั่วไปอาจไม่รวมอยู่ในธุรกรรมที่ลงรายการบัญชี  
 
 ## <a name="symptom"></a>อาการ
 

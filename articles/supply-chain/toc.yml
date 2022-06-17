@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ตั้งค่าคอนฟิกการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ก่อนการให้บริการและหลังการให้บริการ
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: หยุดการอัปเดตบริการชั่วคราว
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
@@ -1529,11 +1531,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: แก้ไขปัญหาด้านประสิทธิภาพการทํางานในการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ลดจํานวนฟิลด์ของตารางที่ดึงข้อมูลขณะรันไทม์
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
                 - name: การจัดการเอกสารทางธุรกิจ (BDM)
                   items:
                     - name: ภาพรวมของ BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: อินเทอร์เฟสผู้ใช้ของเอกสารใหม่ใน BDM
+                    - name: ส่วนติดต่อผู้ใช้ของเอกสารใหม่ใน BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: แก้ไขเทมเพลตเอกสารทางธุรกิจใน BDM
                       items:

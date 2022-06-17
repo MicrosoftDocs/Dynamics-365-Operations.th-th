@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจบัญชีเจ้าหนี้
-description: หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้
+description: บทความนี้แสดงภาพรวมของบัญชีเจ้าหนี้
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595298"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946114"
 ---
 # <a name="accounts-payable-home-page"></a>โฮมเพจบัญชีเจ้าหนี้
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของบัญชีเจ้าหนี้ 
+บทความนี้แสดงภาพรวมของบัญชีเจ้าหนี้ 
 
 คุณสามารถป้อนใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยตนเอง หรือได้รับทางอิเล็กทรอนิกส์ผ่านทางเอนทิตี้ข้อมูล หลังจากที่ใบแจ้งหนี้ถูกป้อนหรือได้รับแล้ว คุณสามารถตรวจทานและอนุมัติใบแจ้งหนี้ โดยการใช้สมุดรายวันการอนุมัติใบแจ้งหนี้ หรือหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่าย** คุณสามารถใช้การจับคู่ใบแจ้งหนี้ นโยบายใบแจ้งหนี้ของผู้จัดจำหน่าย และลำดับงานในการดำเนินกระบวนการตรวจทานโดยอัตโนมัติ เพื่อให้ใบแจ้งหนี้ที่ตรงกับเกณฑ์บางอย่างได้รับการอนุมัติโดยอัตโนมัติ และตั้งค่าสถานะใบแจ้งหนี้ที่เหลือสำหรับการตรวจทานโดยผู้ใช้ที่ได้รับอนุญาต
 
@@ -126,11 +126,11 @@ ms.locfileid: "7595298"
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถดูความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ เกี่ยวกับบัญชีเจ้าหนี้และโซลูชันอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน Dynamics 365
 
-#### <a name="community-blogs"></a>บล็อกคอมมูนิตี
+#### <a name="community-blogs"></a>บล็อกชุมชน
 
 [วิธีการจัดการบัญชีเจ้าหนี้ใน Dynamics 365 Finance](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 

@@ -1,6 +1,6 @@
 ---
 title: สร้างเช็คที่มีสถานะว่างเปล่า
-description: หัวข้อนี้อธิบายถึงวิธีการสร้างเช็คเปล่าสำหรับบัญชีธนาคาร
+description: บทความนี้อธิบายถึงวิธีการสร้างเช็คเปล่าสำหรับบัญชีธนาคาร
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861457"
 ---
 # <a name="create-checks-that-have-blank-status"></a>สร้างเช็คที่มีสถานะว่างเปล่า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างเช็คเปล่า ตัวอย่างเช่น คุณอาจสร้างเช็คเปล่าเพื่อลงบันทึกเช็คที่ได้รับความเสียหายและไม่สามารถใช้สำหรับการชำระเงิน
+บทความนี้จะอธิบายถึงวิธีการสร้างเช็คเปล่า ตัวอย่างเช่น คุณอาจสร้างเช็คเปล่าเพื่อลงบันทึกเช็คที่ได้รับความเสียหายและไม่สามารถใช้สำหรับการชำระเงิน
 
 บนหน้า **เช็ค** คุณสามารถดำเนินงานบำรุงรักษาสำหรับเช็ค ตัวอย่างเช่น คุณสามารถสร้างหมายเลขเช็คใหม่และลบเช็ค นอกจากนี้ คุณยังสามารถสร้างเช็คที่มีสถานะ **ว่างเปล่า** หลังจากสร้างเช็คเปล่าแล้ว เช็คจะไม่สามารถลบหรือนำเช็คมาใช้ใหม่ในระบบได้
 

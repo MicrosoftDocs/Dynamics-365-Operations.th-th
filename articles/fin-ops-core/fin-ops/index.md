@@ -1,6 +1,6 @@
 ---
 title: เอกสารประกอบของแอปพลิเคชัน Finance and Operations
-description: เอกสารประกอบสำหรับแอป Finance and Operations
+description: คู่มือสำหรับแอปการเงินและการดำเนินงาน
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865845"
 ---
 # <a name="finance-and-operations-application-documentation"></a>เอกสารประกอบของแอปพลิเคชัน Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-เรียนรู้วิธีการทำให้แอปพลิเคชัน Finance and Operations ทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลในหัวข้อนี้เพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
+เรียนรู้วิธีการทำให้แอปพลิเคชันการเงินและการดำเนินงานทำงานให้กับธุรกิจของคุณ โดยใช้แหล่งข้อมูลในบทความนี้เพื่อค้นหาเนื้อหาที่ยอดเยี่ยมสำหรับผู้ใช้ปลายทาง นักพัฒนาและผู้เชี่ยวชาญด้าน IT 
 
 เนื้อหาส่วนมากนี้ยังนำมาใช้กับผลิตภัณฑ์ที่เกี่ยวข้อง: Dynamics 365 Commerce และ Dynamics 365 Human Resources 
 

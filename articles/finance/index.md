@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจ Finance
-description: หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance
+description: บทความนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance
 author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887903"
 ---
 # <a name="finance-home-page"></a>โฮมเพจ Finance
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance 
+บทความนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการจัดการทางการเงินใน Microsoft Dynamics 365 Finance 
 
 เลือกส่วนคุณลักษณะที่จะเรียนรู้เพิ่มเติม
 
@@ -64,7 +64,7 @@ ms.locfileid: "8762608"
 
 ### <a name="countryregion-functionality"></a>ฟังก์ชันประเทศ/ภูมิภาค
 
-ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค โปรดไปที่ [คุณลักษณะการทำงานเฉพาะและบังคับ](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
+ข้อบังคับในประเทศ/ภูมิภาคจะส่งผลต่อการตั้งค่าภาษีและเรื่องอื่นๆ ของการจัดการทางการเงิน หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชันเฉพาะประเทศ/ภูมิภาค โปรดไปที่ [คุณลักษณะการแปลเป็นภาษาท้องถิ่นและระเบียบข้อบังคับ](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
 
 ### <a name="additional-content"></a>เนื้อหาเพิ่มเติม
 
