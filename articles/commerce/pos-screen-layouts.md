@@ -1,6 +1,6 @@
 ---
 title: การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอสำหรับประสบการณ์ point of sale (POS) Dynamics 365 Commerce
+description: บทความนี้ให้ข้อมูลเกี่ยวกับโครงร่างหน้าจอสำหรับประสบการณ์ point of sale (POS) Dynamics 365 Commerce
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871644"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
 
 [!include [banner](includes/banner.md)]
 
 
-สามารถตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ (UI) ของการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce ได้โดยใช้การรวมกันของโพรไฟล์ภาพและเค้าโครงหน้าจอ ที่กำหนดให้กับร้านค้า เครื่องบันทึกเงินสด และ/หรือผู้ใช้ หัวข้อนี้ให้ข้อมูลเกี่ยวกับตัวเลือกตั้งค่าคอนฟิกเหล่านั้น
+สามารถตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ (UI) ของการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce ได้โดยใช้การรวมกันของโพรไฟล์ภาพและเค้าโครงหน้าจอ ที่กำหนดให้กับร้านค้า เครื่องบันทึกเงินสด และ/หรือผู้ใช้ บทความนี้ให้ข้อมูลเกี่ยวกับตัวเลือกโครงแบบเหล่านั้น
 
 ภาพประกอบต่อไปนี้แสดงความสัมพันธ์ระหว่างเอนทิตีต่างๆ ที่ประกอบขึ้นเป็นมุมมองที่ตั้งค่าคอนฟิกได้ของ POS UI
 

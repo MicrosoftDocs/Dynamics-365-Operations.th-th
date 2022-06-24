@@ -1,6 +1,6 @@
 ---
 title: เปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้าน (POS)
-description: หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
+description: บทความนี้จะอธิบายวิธีการเปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885156"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>เปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้าน (POS)
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
+บทความนี้จะอธิบายวิธีการเปิดใช้งานการแจ้งเตือนการเช็คอินของลูกค้าในการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 
 ในอีเมล "ใบสั่งที่พร้อมสำหรับจัดส่ง" องค์กรสามารถระบุลิงก์หรือปุ่มที่ทำให้ลูกค้าแจ้งร้านค้าว่าลูกค้าอยู่ในองค์กรและรอให้บรรจุภัณฑ์ถูกเบิกออกมา จากนั้น ลูกค้าจะได้รับการยืนยันการเช็คอิน และร้านค้าจะได้รับการแจ้งเตือนเป็นงานในแอปพลิเคชัน POS งานนี้ทำหน้าที่เป็นพร้อมต์สำหรับการเชื่อมโยงการขายเพื่อจัดส่งสินค้าตามใบสั่งไปยังพาหนะของลูกค้า ดังนั้น ลูกค้าจึงไม่ต้องเข้ามาในร้านค้า
 
@@ -70,7 +70,7 @@ ms.locfileid: "7983172"
 1. เช็คอินหน้า แต่ไม่ต้องเผยแพร่
 1. เพิ่มลิงก์ต่อไปนี้ในเทมเพลตอีเมลที่ถูกเรียกโดยชนิดการแจ้งเตือนการบรรจุเสร็จสมบูรณ์สำหรับวิธีการจัดส่งที่เป็นการรับสินค้า ดูข้อมูลเพิ่มเติมที่ [สร้างเทมเพลตอีเมลสำหรับเหตุการณ์ของธุรกรรม](email-templates-transactions.md)
 
-    - **สำหรับสภาพแวดล้อมก่อนการทำงานจริง (UAT)** เพิ่มส่วนย่อยของโค้ดจากส่วน [ตั้งค่าคอนฟิกเทมเพลตอีเมลการทำธุรกรรม](#configure-the-transactional-email-template) ก่อนหน้าในหัวข้อนี้
+    - **สำหรับสภาพแวดล้อมก่อนการทำงานจริง (UAT)** เพิ่มส่วนย่อยของโค้ดจากส่วน [ตั้งค่าคอนฟิกเทมเพลตอีเมลการทำธุรกรรม](#configure-the-transactional-email-template) ก่อนหน้าในบทความนี้
     - **สำหรับสภาพแวดล้อมการทำงานจริง:** เพิ่มโค้ดที่เป็นข้อคิดเห็นต่อไปนี้เพื่อให้ลูกค้าที่มีอยู่ไม่ได้รับผลกระทบ
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

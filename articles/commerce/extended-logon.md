@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยาย
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยายของแอปพลิเคชันการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยายของแอปพลิเคชันการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884322"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>ตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยาย
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยายของแอปพลิเคชันการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการตั้งค่าและใช้ความสามารถในการเข้าสู่ระบบแบบขยายของแอปพลิเคชันการขายหน้าร้าน (POS) ของ Microsoft Dynamics 365 Commerce
 
 Cloud POS (CPOS) และ Modern POS (MPOS) มีความสามารถในการเข้าสู่ระบบแบบขยายที่ให้ผู้ปฏิบัติงานของร้านค้าปลีกสามารถเข้าสู่ระบบแอปพลิเคชัน POS โดยสแกนบาร์โค้ดหรือรูดบัตรโดยใช้เครื่องอ่านแถบแม่เหล็ก (MSR)
 

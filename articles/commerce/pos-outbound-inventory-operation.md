@@ -1,6 +1,6 @@
 ---
 title: การดำเนินงานของสินค้าคงคลังขาออกใน POS
-description: หัวข้อนี้จะอธิบายความสามารถของการดำเนินงานการขายสินค้าคงคลังขาออกของการขายหน้าร้าน (POS)
+description: บทความนี้จะอธิบายความสามารถของการดำเนินงานการขายสินค้าคงคลังขาออกของการขายหน้าร้าน (POS)
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850234"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>การดำเนินงานของสินค้าคงคลังขาออกใน POS
 
@@ -187,7 +187,7 @@ ms.locfileid: "7581149"
 
 ใบสั่งโอนย้ายที่จัดส่งทั้งหมดจะถูกย้ายไปที่แท็บ **เสร็จสมบูรณ์** ของรายการเอกสาร **การดำเนินงานขาออก** ผู้ใช้เหล่านั้นยังคงมองเห็นได้ในร้านค้าหรือคลังสินค้าขาออกในโหมดอ่านอย่างเดียวเป็นเวลาเจ็ดวัน
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [การดำเนินงานของสินค้าคงคลังขาเข้าใน POS](pos-inbound-inventory-operation.md)
 

@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิก Azure Active Directory เป็นวิธีการรับรองความถูกต้องใน Microsoft Dynamics 365 Commerce ขายหน้าร้าน
+title: ตั้งค่าคอนฟิกการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิก Azure Active Directory เป็นวิธีการรับรองความถูกต้องใน Microsoft Dynamics 365 Commerce ขายหน้าร้าน
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853939"
 ---
-# <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>กำหนดค่าการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
+# <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>ตั้งค่าคอนฟิกการรับรองความถูกต้อง Azure Active Directory สำหรับการลงชื่อเข้าใช้ POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิก Azure Active Directory (Azure AD) เป็นวิธีการรับรองความถูกต้องใน Microsoft Dynamics 365 Commerce ขายหน้าร้าน (POS)
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิก Azure Active Directory (Azure AD) เป็นวิธีการรับรองความถูกต้องใน Microsoft Dynamics 365 Commerce ขายหน้าร้าน (POS)
 
-ผู้ค้าปลีกที่ใช้ Dynamics 365 Commerce พร้อมกับบริการอื่นๆ ของ Microsoft Cloud เช่น Microsoft Azure, Microsoft 365 และ Microsoft Teams โดยทั่วไปต้องการใช้ Azure AD ในการจัดการข้อมูลส่วนบุคคลของผู้ใช้จากส่วนกลางเพื่อประสบการณ์การลงชื่อเข้าใช้ที่ปลอดภัยและต่อเนื่องระหว่างแอพลิเคชันต่างๆ เมื่อต้องการใช้ Azure AD การรับรองความถูกต้องของ Commerce POS คุณต้องตั้งค่าคอนฟิก Azure AD เป็นวิธีการรับรองความถูกต้องในศูนย์ควบคุม Commerce ก่อน
+ผู้ค้าปลีกที่ใช้ Dynamics 365 Commerce พร้อมกับบริการอื่นๆ ของ Microsoft Cloud เช่น Microsoft Azure, Microsoft 365 และ Microsoft Teams โดยทั่วไปต้องการใช้ Azure AD ในการจัดการข้อมูลส่วนบุคคลของผู้ใช้จากส่วนกลางเพื่อประสบการณ์การลงชื่อเข้าใช้ที่ปลอดภัยและต่อเนื่องระหว่างโปรแกรมประยุกต์ต่างๆ เมื่อต้องการใช้ Azure AD การรับรองความถูกต้องของ Commerce POS คุณต้องตั้งค่าคอนฟิก Azure AD เป็นวิธีการรับรองความถูกต้องในศูนย์ควบคุม Commerce ก่อน
 
 ## <a name="configure-pos-authentication-method"></a>ตั้งค่าคอนฟิกวิธีการรับรองความถูกต้อง POS
 

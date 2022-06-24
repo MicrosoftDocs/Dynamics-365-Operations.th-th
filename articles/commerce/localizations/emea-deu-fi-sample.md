@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
-description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867769"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
 
 เพื่อตอบสนองความต้องการทางการเงินท้องถิ่นของเครื่องบันทึกเงินสดในเยอรมนี ฟังก์ชัน Microsoft Dynamics 365 Commerce ของเยอรมนีรวมถึงการรวมตัวอย่างของการขายหน้าร้าน (POS) กับบริการลงทะเบียนทางการเงินภายนอก ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) โดยยึดตามโซลูชัน [EFR (ทะเบียนทางการเงินทางอิเล็กทรอนิกส์)](https://www.efsta.eu/de/fiskalloesungen/deutschland) จาก [EFSTA](https://www.efsta.eu/de/) และเปิดใช้งานการสื่อสารกับบริการ EFR ผ่านทางโปรโทคอล HTTPS บริการ EFR ควรโฮสต์ในสถานีฮาร์ดแวร์ของ Retail หรือคอมพิวเตอร์แยกต่างหากที่สามารถเชื่อมต่อได้จากสถานีฮาร์ดแวร์ ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับและเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก
 

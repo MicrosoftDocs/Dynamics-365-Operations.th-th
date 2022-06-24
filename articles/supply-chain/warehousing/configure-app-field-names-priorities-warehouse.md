@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ
-description: หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอป Warehouse Management บนมือถือ
+description: บทความนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอป Warehouse Management บนมือถือ
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893249"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอป Warehouse Management บนมือถือ
+บทความนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์และระดับความสำคัญในแอป Warehouse Management บนมือถือ
 
 > [!NOTE]
-> หัวข้อนี้ใช้กับคุณลักษณะในการบริหารคลังสินค้า ไม่สามารถใช้กับคุณลักษณะในการจัดการสินค้าคงคลังได้ แอป Warehouse Management บนมือถือเป็นแอปที่คุณสามารถใช้เพื่อทำงานในคลังสินค้า คุณสามารถกำหนดและตั้งค่าคอนฟิกชื่อฟิลด์ที่ใช้ในแอปพลิเคชัน ตลอดจนตั้งค่าคอนฟิกระดับความสำคัญที่ควรจะกำหนดชื่อฟิลด์ หัวข้อนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอป Warehouse Management บนมือถือและระดับความสำคัญเหล่านี้ และวิธีการใช้
+> บทความนี้ใช้กับคุณลักษณะในการบริหารคลังสินค้า ไม่สามารถใช้กับคุณลักษณะในการจัดการสินค้าคงคลังได้ แอป Warehouse Management บนมือถือเป็นแอปที่คุณสามารถใช้เพื่อทำงานในคลังสินค้า คุณสามารถกำหนดและตั้งค่าคอนฟิกชื่อฟิลด์ที่ใช้ในแอปพลิเคชัน ตลอดจนตั้งค่าคอนฟิกระดับความสำคัญที่ควรจะกำหนดชื่อฟิลด์ บทความนี้อธิบายวิธีการกำหนดและการตั้งค่าคอนฟิกชื่อฟิลด์แอป Warehouse Management บนมือถือและระดับความสำคัญเหล่านี้ และวิธีการใช้
 
 ## <a name="configure-warehouse-app-field-names"></a>ตั้งค่าคอนฟิกชื่อฟิลด์แอปพลิเคชันคลังสินค้า
 
@@ -135,7 +135,7 @@ ms.locfileid: "7902307"
 -   แถว 2: คำอธิบายสินค้า
 -   แถว 3: ขนาด
 
-ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของอินเทอร์เฟสผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Finance and Operations - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
+ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของส่วนติดต่อผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Finance and Operations - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

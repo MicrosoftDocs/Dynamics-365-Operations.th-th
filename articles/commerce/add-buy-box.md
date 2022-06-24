@@ -1,6 +1,6 @@
 ---
 title: โมดูลกล่องการซื้อ
-description: หัวข้อนี้ครอบคลุมโมดูลกล่องการฃื้อและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมโมดูลกล่องการฃื้อและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5167aac784bb3ab6a63033590178c2eead627b96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863564"
 ---
 # <a name="buy-box-module"></a>โมดูลกล่องการซื้อ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมโมดูลกล่องการฃื้อและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมโมดูลกล่องการฃื้อและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
 
 โดยทั่วไปแล้วข้อกำหนด *กล่องการซื้อ* อ้างถึงพื้นที่ของเพจรายละเอียดผลิตภัณฑ์ (PDP) ที่อยู่ "เหนือโฟลด์" และที่โฮสต์ข้อมูลที่สำคัญทั้งหมดที่จำเป็นต่อการทำการซื้อผลิตภัณฑ์ (พื้นที่ที่อยู่ "เหนือโฟลด์" จะปรากฏขึ้นเมื่อมีการโหลดหน้าแรก ดังนั้นผู้ใช้จึงไม่ต้องเลื่อนลงเพื่อดูรายการนั้น)
 

@@ -1,6 +1,6 @@
 ---
 title: การทำงานกับค่าลักษณะที่กำหนดไว้แล้ว
-description: หัวข้อนี้จะอธิบายวิธีการทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้าของไซต์ในตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้าของไซต์ในตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900371"
 ---
 # <a name="work-with-style-presets"></a>การทำงานกับค่าลักษณะที่กำหนดไว้แล้ว
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้าของไซต์ในตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการทำงานกับรูปแบบที่กำหนดไว้ล่วงหน้าของไซต์ในตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 
 รูปแบบที่กำหนดไว้ล่วงหน้าเป็นชุดที่จัดเก็บไว้ของค่าลักษณะที่สามารถสร้างได้ทั้งหมดในชุดรูปแบบของไซต์ คุณสามารถใช้เพื่อเปลี่ยนลักษณะของไซต์จากตัวร้างไซต์ได้ทันที รูปแบบที่กำหนดไว้ล่วงหน้าอนุญาตให้ผู้สร้างตัวสร้างไซต์ Commerce เปลี่ยนแปลงอย่างรวดเร็ว แสดงตัวอย่าง และเปิดใช้งานชุดของค่าลักษณะในไซต์ของตน โดยไม่ต้องใช้ Cascading Style Sheets (CSS) หรือปรับใช้ชุดรูปแบบ ลักษณะแบบอักษร ลักษณะปุ่ม และสีของไซต์ คือตัวอย่างโดยทั่วไปของลักษณะตัวแปรที่สามารถจัดการได้ผ่านรูปแบบที่กำหนดไว้ล่วงหน้า
 

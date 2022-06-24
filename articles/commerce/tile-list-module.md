@@ -1,6 +1,6 @@
 ---
 title: โมดูลรายการไทล์
-description: หัวข้อนี้ครอบคลุมถึงโมดูลรายการไทล์ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลรายการไทล์ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905409"
 ---
 # <a name="tile-list-module"></a>โมดูลรายการไทล์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลรายการไทล์ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลรายการไทล์ และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลรายการไทล์เป็นการรวบรวมของไทล์ในวงล้อ ซึ่งใช้เพื่อทำการตลาดประเภทผลิตภัณฑ์หรือแบรนด์ผลิตภัณฑ์โดยใช้รูปภาพและข้อความ ตัวอย่างเช่น ผู้ค้าปลีกสามารถเพิ่มโมดูลรายการไทล์ลงในโฮมเพจของไซต์ e-commerce เพื่อส่งเสริมประเภทการขายสินค้าขายสูงสุดทั้งหมด
 

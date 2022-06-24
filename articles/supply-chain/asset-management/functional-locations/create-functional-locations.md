@@ -1,6 +1,6 @@
 ---
 title: สร้างตำแหน่งที่ทำงาน
-description: หัวข้อนี้อธิบายวิธีการสร้างตำแหน่งที่ทำงานในการจัดการสินทรัพย์
+description: บทความนี้อธิบายวิธีการสร้างตำแหน่งที่ทำงานในการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869733"
 ---
 # <a name="create-functional-locations"></a>สร้างตำแหน่งที่ทำงาน
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767546"
 
  
 
-หัวข้อนี้อธิบายวิธีการสร้างตำแหน่งที่ทำงานในการจัดการสินทรัพย์
+บทความนี้อธิบายวิธีการสร้างตำแหน่งที่ทำงานในการจัดการสินทรัพย์
 
 เมื่อคุณสร้างโครงสร้างตำแหน่งที่ทำงาน โปรดทราบว่าเมื่อคุณสร้างตำแหน่งที่ทำงาน คุณจะไม่สามารถย้ายจากตำแหน่งเดิมได้ นี่หมายความว่าคุณควรพิจารณาโครงสร้างของตำแหน่งที่ทำงานของคุณอย่างรอบคอบ ก่อนที่คุณจะเริ่มต้นสร้างในการจัดการสินทรัพย์ หากคุณปล่อยตำแหน่งที่ทำงาน คุณสามารถลบได้ ถ้ายังไม่ได้ถูกนำมาใช้
 

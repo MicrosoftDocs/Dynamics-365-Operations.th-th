@@ -1,6 +1,6 @@
 ---
-title: โมดูลการแชร์ทางสังคม
-description: หัวข้อนี้ครอบคลุมถึงโมดูลการแชร์ทางสังคมและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+title: โมดูลการแชร์ในสังคมออนไลน์
+description: บทความนี้ครอบคลุมถึงโมดูลการแชร์ทางสังคมและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d145602a217b32b97142251c65d51945569be9ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e520f425f86c4005a8756ddc0941a9b44f23c262
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844657"
 ---
 # <a name="social-share-module"></a>โมดูลการแชร์ในสังคมออนไลน์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลการแชร์ทางสังคมและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลการแชร์ทางสังคมและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลการแชร์ทางสังคมอนุญาตให้ผู้ใช้สามารถแชร์ URL ของเว็บไซต์อีคอมเมิร์ซบนสื่อสังคม เช่น Facebook, Twitter, Pinterest และ LinkedIn นอกจากนี้ คุณยังสามารถแชร์ URL ของหน้าไซต์ผ่านทางอีเมลได้ด้วย โมดูลการแชร์ทางสังคมใช้โดยทั่วไปบนหน้ารายละเอียดผลิตภัณฑ์ (PDP) เพื่อช่วยให้ผู้ใช้สามารถแชร์ข้อมูลผลิตภัณฑ์
 

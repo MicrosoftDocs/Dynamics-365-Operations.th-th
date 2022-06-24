@@ -1,6 +1,6 @@
 ---
 title: ใช้งานส่วนย่อย
-description: หัวข้อนี้จะอธิบายถึงสาเหตุ เวลา และวิธีใช้ส่วนต่างๆ ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายถึงสาเหตุ เวลา และวิธีใช้ส่วนต่างๆ ใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896851"
 ---
 # <a name="work-with-fragments"></a>ใช้งานส่วนย่อย 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงสาเหตุ เวลา และวิธีใช้ส่วนต่างๆ ใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายถึงสาเหตุ เวลา และวิธีใช้ส่วนต่างๆ ใน Microsoft Dynamics 365 Commerce
 
 ส่วนที่อนุญาตให้ใช้สำหรับประสบการณ์การสร้างจากส่วนกลางสำหรับการกำหนดค่าโมดูลที่ต้องมีการนำมาใช้ใหม่ทั่วทั้งไซต์ของคุณ ตัวอย่างเช่น ส่วนหัว ส่วนท้าย และแบนเนอร์มักจะมีการกำหนดค่าเป็นส่วนประกอบ เนื่องจากมีการใช้ร่วมกันในหลายหน้า คุณสามารถคิดส่วนที่เป็นเว็บเพจที่มีขนาดย่อซึ่งสามารถแทรกลงในหน้าอื่นๆ บนไซต์ของคุณได้ ชิ้นส่วนมีวงจรชีวิตของตนเอง กล่าวคือมีการสร้าง อ้างอิง ปรับปรุง และลบออกเป็นเอนทิตี้อิสระในเครื่องมือการสร้าง
 

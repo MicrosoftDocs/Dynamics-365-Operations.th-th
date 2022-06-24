@@ -1,6 +1,6 @@
 ---
 title: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
-description: หัวข้อนี้จะอธิบายวิธีการใช้วิธีการจัดรูปแบบเพื่อพิมพ์ค่าบนป้ายชื่อ
+description: บทความนี้จะอธิบายวิธีการใช้วิธีการจัดรูปแบบเพื่อพิมพ์ค่าบนป้ายชื่อ
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847888"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
 
@@ -53,7 +53,7 @@ ms.locfileid: "8103901"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะนี้สำหรับระบบของคุณ
 
-ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และ เปิดคุณลักษณะ *โครงร่างป้ายชื่อป้ายทะเบียนขั้นสูง* (เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้)
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในบทความนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และ เปิดคุณลักษณะ *โครงร่างป้ายชื่อป้ายทะเบียนขั้นสูง* (เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้)
 
 ## <a name="custom-number-formats"></a>รูปแบบตัวเลขที่กำหนดเอง
 
@@ -129,7 +129,7 @@ Contoso Inc
 $DisplayMethod()$
 ```
 
-คุณสามารถรวมรูปแบบนี้กับชนิดอื่นๆ ที่อธิบายไว้ก่อนหน้านี้ในหัวข้อนี้ ตัวอย่างเช่น คุณมีวิธีการแสดงที่มีการระบุชื่อ `DisplayListOfItemsNumbers()` และคุณต้องการพิมพ์หมายเลขสินค้าแรกของวิธีการนี้ ในกรณีนี้ คุณสามารถใช้รหัสต่อไปนี้
+คุณสามารถรวมรูปแบบนี้กับชนิดอื่นๆ ที่อธิบายไว้ก่อนหน้านี้ในบทความนี้ ตัวอย่างเช่น คุณมีวิธีการแสดงที่มีการระบุชื่อ `DisplayListOfItemsNumbers()` และคุณต้องการพิมพ์หมายเลขสินค้าแรกของวิธีการนี้ ในกรณีนี้ คุณสามารถใช้รหัสต่อไปนี้
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

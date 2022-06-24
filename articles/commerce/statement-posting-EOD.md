@@ -1,6 +1,6 @@
 ---
 title: การปรับปรุงไปยังฟังก์ชันการลงรายการบัญชีใบแจ้งยอดจากธนาคาร
-description: หัวข้อนี้อธิบายถึงการปรับปรุงที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด
+description: บทความนี้อธิบายถึงการปรับปรุงที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886917"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>การปรับปรุงไปยังฟังก์ชันการลงรายการบัญชีใบแจ้งยอดจากธนาคาร
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงการปรับปรุงชุดแรกที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด การปรับปรุงเหล่านี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations 7.3.2
+บทความนี้อธิบายถึงการปรับปรุงชุดแรกที่ทำไว้กับคุณลักษณะการลงรายการบัญชีใบแจ้งยอด การปรับปรุงเหล่านี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations 7.3.2
 
 ## <a name="activation"></a>การเปิดใช้งาน
 

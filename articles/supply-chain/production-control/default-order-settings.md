@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862582"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>การตั้งค่าใบสั่งเริ่มต้นสำหรับมิติและผลิตภัณฑ์ย่อย
 
@@ -38,7 +38,7 @@ ms.locfileid: "8102775"
     - บนแท็บ **แผน** ในกลุ่ม **การตั้งค่าใบสั่ง** ให้เลือก **การตั้งค่าใบสั่งเริ่มต้น**
     - บนแท็บ **จัดการสินค้างคงคลัง** ในกลุ่ม **การตั้งค่าใบสั่ง** ให้เลือก **การตั้งค่าใบสั่งเริ่มต้น**
 
-1. ตั้งค่าคอนฟิกการตั้งค่าตามที่อธิบายไว้ในส่วนที่เหลือของหัวข้อนี้
+1. ตั้งค่าคอนฟิกการตั้งค่าตามที่อธิบายไว้ในส่วนที่เหลือของบทความนี้
 
 ## <a name="default-order-settings"></a>การตั้งค่าใบสั่งเริ่มต้น
 

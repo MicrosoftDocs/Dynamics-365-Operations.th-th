@@ -1,6 +1,6 @@
 ---
-title: ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของการปรับแต่งแค็ตตาล็อก Commerce สำหรับ B2B
-description: ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของคุณลักษณะแค็ตตาล็อก Commerce สำหรับ B2B ใน Microsoft Dynamics 365 Commerce
+title: ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของแค็ตตาล็อก Commerce สำหรับการปรับแต่ง B2B
+description: บทความนี้อธิบายผลกระทบของความสามารถในการเพิ่มฟังก์ชันของคุณลักษณะแค็ตตาล็อก Commerce สำหรับ B2B ใน Microsoft Dynamics 365 Commerce
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849026"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของการปรับแต่งแค็ตตาล็อก Commerce สำหรับ B2B
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของแค็ตตาล็อก Commerce สำหรับการปรับแต่ง B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของคุณลักษณะ **แค็ตตาล็อก Commerce สำหรับ B2B** ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายผลกระทบของความสามารถในการเพิ่มฟังก์ชันของคุณลักษณะ **แค็ตตาล็อก Commerce สำหรับ B2B** ใน Microsoft Dynamics 365 Commerce
 
 ถ้าคุณสนใจในการขยายบริบทแค็ตตาล็อกไปยังสถานการณ์ที่กำหนดเอง การปรับแต่งของคุณอาจต้องมีการอัปเดต การอัปเดตนี้จะเป็นไปตามกระบวนการมาตรฐานที่ลูกค้าต้องปฏิบัติตาม เนื่องจากการปรับแต่งของลูกค้าอาจไม่สนับสนุนคุณลักษณะล่าสุดโดยอัตโนมัติหลังจากการอัปเกรดเสร็จสิ้น หากการปรับแต่งของคุณรวมคุณลักษณะใหม่หรือแก้ไขบักใดๆ ในประสบการณ์ของผู้ใช้ ขอแนะนำให้คุณอัปเดตโค้ดการปรับแต่งตามนั้น การอัปเดตนี้จะคล้ายกับการเปลี่ยนแปลงที่ Microsoft อาจสร้างขึ้นในโค้ดหลัก
 

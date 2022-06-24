@@ -1,6 +1,6 @@
 ---
 title: อนุมัติและยืนยันใบสั่งซื้อ
-description: หัวข้อนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อผ่านมา หลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
+description: บทความนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อผ่านมา หลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907390"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>อนุมัติและยืนยันใบสั่งซื้อ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อ (PO) ผ่านมา หลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
+บทความนี้อธิบายสถานะต่างๆ ที่ใบสั่งซื้อ (PO) ผ่านหลังจากถูกสร้างขึ้น และผลกระทบของการเปิดใช้งานการจัดการการเปลี่ยนแปลงบน PO
 
 หลังจากที่มีการสร้างใบสั่งซื้อ (PO) อาจจำเป็นต้องผ่านกระบวนการอนุมัติ หลังจากที่ผู้จัดจำหน่ายได้ยอมรับใบสั่ง PO จะถูกตั้งค่าเป็นสถานะ **ยืนยันแล้ว**
 

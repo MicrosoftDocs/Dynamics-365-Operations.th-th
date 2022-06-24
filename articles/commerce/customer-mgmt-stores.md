@@ -1,6 +1,6 @@
 ---
 title: การจัดการลูกค้าหน้าร้าน
-description: หัวข้อนี้อธิบายวิธีการที่ผู้ค้าปลีกสามารถเปิดใช้งานความสามารถด้านการจัดการลูกค้า ณ จุดขาย (POS) ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการที่ผู้ค้าปลีกสามารถเปิดใช้งานความสามารถด้านการจัดการลูกค้า ณ จุดขาย (POS) ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863498"
 ---
 # <a name="customer-management-in-stores"></a>การจัดการลูกค้าหน้าร้าน
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการที่ผู้ค้าปลีกสามารถเปิดใช้งานความสามารถด้านการจัดการลูกค้า ณ จุดขาย (POS) ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการที่ผู้ค้าปลีกสามารถเปิดใช้งานความสามารถด้านการจัดการลูกค้า ณ จุดขาย (POS) ใน Microsoft Dynamics 365 Commerce
 
 สิ่งสำคัญ คือ ผู้มีส่วนร่วมกับร้านค้าสามารถสร้างและแก้ไขเรกคอร์ดลูกค้าที่ POS ได้ วิธีการดังกล่าว ร้านค้าจะสามารถจับภาพการอัปเดตใดๆ ของข้อมูลลูกค้า เช่น ที่อยู่อีเมล หมายเลขโทรศัพท์ และที่อยู่ ข้อมูลนี้มีประโยชน์ในระบบตามกระแส เช่น การตลาด เนื่องจากประสิทธิภาพของระบบเหล่านั้นจะขึ้นอยู่กับความถูกต้องแม่นยําของข้อมูลลูกค้า
 

@@ -1,7 +1,7 @@
 ---
 title: ปฏิทินและการวางแผนหลัก
-description: หัวข้อนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก
-author: ChristianRytt
+description: บทความนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890986"
 ---
 # <a name="calendars-and-master-planning"></a>ปฏิทินและการวางแผนหลัก
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก  มีการอธิบายปฏิทินที่แตกต่างกันที่ใช้ในกลไกการวางแผนหลัก ซึ่งรวมถึงลักษณะที่ส่งผลกระทบต่อการจัดส่งและวันที่ได้รับในใบสั่งที่วางแผนไว้ ในที่สุด คำแนะนำที่เกี่ยวข้องกับการมอบหมาย มีการให้การใช้และการปรับปรุงของปฏิทิน
+บทความนี้ให้ภาพรวมของปฏิทินห่วงโซ่อุปทานและลักษณะการส่งผลกระทบต่อการวางแผนหลัก  มีการอธิบายปฏิทินที่แตกต่างกันที่ใช้ในกลไกการวางแผนหลัก ซึ่งรวมถึงลักษณะที่ส่งผลกระทบต่อการจัดส่งและวันที่ได้รับในใบสั่งที่วางแผนไว้ ในที่สุด คำแนะนำที่เกี่ยวข้องกับการมอบหมาย มีการให้การใช้และการปรับปรุงของปฏิทิน
 
 ## <a name="definition-of-a-calendar"></a>คำนิยามของปฏิทิน
 

@@ -1,6 +1,6 @@
 ---
-title: ภาพรวมตามข้อตกลงการให้บริการ
-description: หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ
+title: ภาพรวมของการเติมเต็มข้อตกลงการให้บริการ
+description: บทความนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852112"
 ---
-# <a name="fulfill-service-agreements-overview"></a>ภาพรวมตามข้อตกลงการให้บริการ
+# <a name="fulfill-service-agreements-overview"></a>ภาพรวมของการเติมเต็มข้อตกลงการให้บริการ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ หัวข้อนี้ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ
+บทความนี้แสดงภาพรวมของภารกิจเพื่อเติมสินค้าตามข้อตกลงการให้บริการ บทความนี้ยังแสดงรายการแบบฟอร์มต่างๆ ที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ และอธิบายภารกิจที่เกี่ยวข้องกับคอมโพเนนต์กระบวนการทางธุรกิจแต่ละรายการ
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>แบบฟอร์มสำหรับคอมโพเนนต์กระบวนการทางธุรกิจเกี่ยวกับการปฏิบัติตามสัญญาการบริการ
 

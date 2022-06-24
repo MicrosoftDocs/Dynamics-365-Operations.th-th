@@ -1,6 +1,6 @@
 ---
 title: เตรียมใช้งาน Microsoft Teams จาก Dynamics 365 Commerce
-description: หัวข้อนี้จะอธิบายวิธีการเตรียมใช้งาน Microsoft Teams โดยใช้ข้อมูลองค์กรจาก Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการเตรียมใช้งาน Microsoft Teams โดยใช้ข้อมูลองค์กรจาก Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690511"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868946"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>เตรียมใช้งาน Microsoft Teams จาก Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการเตรียมใช้งาน Microsoft Teams โดยใช้ข้อมูลองค์กรจาก Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการเตรียมใช้งาน Microsoft Teams โดยใช้ข้อมูลองค์กรจาก Dynamics 365 Commerce
 
 Dynamics 365 Commerce เสนอวิธีที่ง่ายในการเตรียมใช้งาน Teams ถ้าคุณยังไม่ได้ตั้งค่า Teams ให้กับร้านค้าปลีกของคุณที่นั่น โดยการใช้ข้อมูลที่กําหนดไว้อย่างชัดเจนจาก Commerce ที่คุณต้องการใช้ใน Teams คุณสามารถช่วยให้พนักงานร้านค้าของคุณสามารถเริ่มต้นใช้งานใน Teams ได้ ข้อมูลนี้ประกอบด้วยลำดับชั้นขององค์กร ชื่อร้านค้า ข้อมูลพนักงาน และบัญชี Azure Active Directory (Azure AD) 
 

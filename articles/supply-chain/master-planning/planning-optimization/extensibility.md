@@ -1,6 +1,6 @@
 ---
 title: ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
-description: หัวข้อนี้จะอธิบายสถาณการณ์ความสามารถในการเพิ่มฟังก์ชันที่ได้รับการสนับสนุนในการเพิ่มประสิทธิภาพการวางแผน
+description: บทความนี้จะอธิบายสถาณการณ์ความสามารถในการเพิ่มฟังก์ชันที่ได้รับการสนับสนุนในการเพิ่มประสิทธิภาพการวางแผน
 author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d7e39c9ecd1dc1a101e219764e8f4457bb06ff7a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 7d649110959e6bcfdaeb32dd53c55dbc446ed1be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857557"
 ---
 # <a name="planning-optimization-extensibility"></a>ความสามารถในการเพิ่มประสิทธิภาพการวางแผน
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายสถาณการณ์ความสามารถในการเพิ่มฟังก์ชันที่เกี่ยวข้องกับการวางแผนหลักและได้รับการสนับสนุนในการเพิ่มประสิทธิภาพการวางแผน ความสามารถเหล่านี้จะพร้อมใช้งานเมื่อเริ่มต้นใน Microsoft Dynamics 365 Supply Chain Management เวอร์ชัน10.0.13
+บทความนี้จะอธิบายสถาณการณ์ความสามารถในการเพิ่มฟังก์ชันที่เกี่ยวข้องกับการวางแผนหลักและได้รับการสนับสนุนในการเพิ่มประสิทธิภาพการวางแผน ความสามารถเหล่านี้จะพร้อมใช้งานเมื่อเริ่มต้นใน Microsoft Dynamics 365 Supply Chain Management เวอร์ชัน10.0.13
 
 ## <a name="custom-processing-when-master-planning-is-completed"></a>การประมวลผลแบบกำหนดเองเมื่อการวางแผนหลักเสร็จสมบูรณ์
 

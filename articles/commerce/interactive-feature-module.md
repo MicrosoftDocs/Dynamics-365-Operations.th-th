@@ -1,6 +1,6 @@
 ---
 title: โมดูลคุณลักษณะเชิงโต้ตอบ
-description: หัวข้อนี้ครอบคลุมถึงโมดูลคุณลักษณะเชิงโต้ตอบ และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลคุณลักษณะเชิงโต้ตอบ และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898530"
 ---
 # <a name="interactive-feature-module"></a>โมดูลคุณลักษณะเชิงโต้ตอบ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลคุณลักษณะเชิงโต้ตอบ และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลคุณลักษณะเชิงโต้ตอบ และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลคุณลักษณะเชิงโต้ตอบเป็นโมดูลที่เหมือนโมเสก ซึ่งสามารถใช้เพื่อทำการตลาดประเภทผลิตภัณฑ์หรือแบรนด์ผลิตภัณฑ์หลายรายการโดยใช้ชุดของรูปภาพและข้อความ ตัวอย่างเช่น ผู้ค้าปลีกสามารถเพิ่มโมดูลคุณลักษณะเชิงโต้ตอบลงในโฮมเพจของไซต์ e-commerce เพื่อส่งเสริมประเภทการขายสินค้าขายสูงสุด โมดูลคุณลักษณะเชิงโต้ตอบจะคล้ายกับโมดูลรายการไทล์ แต่มีโครงร่างที่แตกต่างกันและฟังก์ชันการโต้ตอบที่แตกต่างกัน
 

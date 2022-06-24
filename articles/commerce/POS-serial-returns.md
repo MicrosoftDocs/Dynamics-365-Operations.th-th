@@ -1,6 +1,6 @@
 ---
-title: ส่งคืนผลิตภัณฑ์ที่ควบคุมหมายเลขลำดับประจำสินค้าใน POS
-description: หัวข้อนี้อธิบายความสามารถเกี่ยวกับการตรวจสอบความถูกต้องของสินค้าที่เป็นอนุกรม ซึ่งเป็นส่วนหนึ่งของกระบวนการส่งคืนในแอปพลิเคชันการขายหน้าร้าน Microsoft Dynamics 365 Commerce (POS)
+title: ส่งคืนผลิตภัณฑ์ที่ควบคุมด้วยหมายเลขลำดับประจําสินค้าใน POS
+description: บทความนี้อธิบายความสามารถเกี่ยวกับการตรวจสอบความถูกต้องของสินค้าที่เป็นอนุกรม ซึ่งเป็นส่วนหนึ่งของกระบวนการส่งคืนในแอปพลิเคชันการขายหน้าร้าน Microsoft Dynamics 365 Commerce (POS)
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716359"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860332"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>ส่งคืนผลิตภัณฑ์ที่ควบคุมหมายเลขลำดับประจำสินค้าใน POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายความสามารถเกี่ยวกับการตรวจสอบความถูกต้องของสินค้าที่เป็นอนุกรม ซึ่งเป็นส่วนหนึ่งของกระบวนการส่งคืนในแอปพลิเคชันการขายหน้าร้าน Microsoft Dynamics 365 Commerce (POS)
+บทความนี้อธิบายความสามารถเกี่ยวกับการตรวจสอบความถูกต้องของสินค้าที่เป็นอนุกรม ซึ่งเป็นส่วนหนึ่งของกระบวนการส่งคืนในแอปพลิเคชันการขายหน้าร้าน Microsoft Dynamics 365 Commerce (POS)
 
 > [!NOTE]
 > ใน Commerce รุ่น 10.0.20 และใหม่กว่า จะมีคุณลักษณะใหม่ที่ชื่อ **ประสบการณ์การประมวลผลการส่งคืนแบบรวมใน POS** พร้อมใช้งาน เมื่อต้องการใช้การตรวจสอบความถูกต้องของหมายเลขลำดับประจำสินค้าระหว่างการประมวลผลใบสั่งส่งคืนสินค้าใน POS คุณต้องเปิดคุณลักษณะนี้ หากต้องการข้อมูลเกี่ยวกับความสามารถอื่นๆ ที่มีคุณลักษณะนี้เมื่อเปิดคุณสมบัตินี้ โปรดดูที่ [สร้างการส่งคืนใน POS)](POS-returns.md)

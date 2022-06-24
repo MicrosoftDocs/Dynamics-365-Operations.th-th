@@ -1,6 +1,6 @@
 ---
 title: เพิ่มQR code หรือบาร์โค้ดในอีเมลเกี่ยวกับธุรกรรมและใบเสร็จ
-description: หัวข้อนี้อธิบายวิธีการแทรกQR code และบาร์โค้ดที่แสดงรหัสใบสั่งลงในอีเมลธุรกรรมและใบเสร็จใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการแทรกQR code และบาร์โค้ดที่แสดงรหัสใบสั่งลงในอีเมลธุรกรรมและใบเสร็จใน Microsoft Dynamics 365 Commerce
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872895"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>เพิ่มQR code หรือบาร์โค้ดในอีเมลเกี่ยวกับธุรกรรมและใบเสร็จ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการแทรกQR code และบาร์โค้ดที่แสดงรหัสใบสั่งลงในอีเมลธุรกรรมและใบเสร็จใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการแทรกQR code และบาร์โค้ดที่แสดงรหัสใบสั่งลงในอีเมลธุรกรรมและใบเสร็จใน Microsoft Dynamics 365 Commerce
 
 คุณสามารถรวม QR codes และบาร์โค้ดในอีเมลธุรกรรมได้อย่างง่ายดายเพื่อช่วยให้กระบวนการค้นหาใบสั่งในสภาพแวดล้อมการขายปลีกรวดเร็วขึ้น เมื่อต้องการแทรก QR codes และบาร์โค้ดลงในอีเมล ให้คุณใช้แท็ก HTML **\<img\>** ที่ขอ QR codes หรือรูปภาพบาร์โค้ดจากบริการสร้างและการแสดงผล Microsoft ไม่ได้ให้บริการนี้ อย่างไรก็ตาม มีการบริการฟรีหรือบริการที่ราคาไม่แพงอีกมากที่สามารถให้บริการ QR code หรือบาร์โค้ดที่สร้างขึ้นแบบไดนามิกตามค่าที่ส่งผ่านในสตริงการสอบถาม
 

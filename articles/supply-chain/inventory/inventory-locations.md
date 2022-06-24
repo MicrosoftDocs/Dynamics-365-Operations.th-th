@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888599"
 ---
 # <a name="inventory-locations"></a>สถานที่เก็บสินค้าคงคลัง
 
@@ -29,7 +29,7 @@ ms.locfileid: "7573956"
 
 สถานที่เก็บสินค้าคงคลังจะใช้กับคลังสินค้าพื้นฐาน (WMS I) เพื่อกำหนดที่จัดเก็บสินค้าและเบิกสินค้าในคลังสินค้า WMS
 
-หัวข้อนี้ใช้กับลักษณะการทำงานในโมดูลการบริหารสินค้าคงคลัง ไม่นำไปใช้กับลักษณะการทำงานในโมดูลการบริหารคลังสินค้า
+บทความนี้ใช้กับลักษณะการทำงานในโมดูลการบริหารสินค้าคงคลัง ไม่นำไปใช้กับลักษณะการทำงานในโมดูลการบริหารคลังสินค้า
 
 คำว่า สถานที่ หมายถึงสถานที่ที่สินค้าถูกเก็บและถูกนำออกมา
 

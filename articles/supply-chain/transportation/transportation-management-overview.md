@@ -1,6 +1,6 @@
 ---
-title: ภาพรวมการจัดการการขนส่ง
-description: หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Supply Chain Management
+title: ภาพรวมของการจัดการการขนส่ง
+description: บทความนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Supply Chain Management
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897471"
 ---
 # <a name="transportation-management-overview"></a>ภาพรวมของการจัดการการขนส่ง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Supply Chain Management
+บทความนี้ให้ภาพรวมของฟังก์ชันการจัดการขนส่งใน Supply Chain Management
 
 การจัดการการขนส่งช่วยให้คุณสามารถจัดการการขนส่งของบริษัทได้ และยังช่วยให้คุณสามารถระบุผู้จัดจำหน่ายและโซลูชันสายงานการผลิตสำหรับใบสั่งขาเข้าและขาออก ตัวอย่างเช่น คุณสามารถระบุเส้นทางที่เร็วที่สุดหรืออัตรามีราคาแพงน้อยที่สุดสำหรับการจัดส่ง ตารางต่อไปนี้อธิบายสถานการณ์จำลองหลักสำหรับการใช้การจัดการการขนส่ง
 

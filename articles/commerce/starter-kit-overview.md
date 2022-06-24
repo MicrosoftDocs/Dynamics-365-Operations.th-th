@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของไลบรารีโมดูล
-description: หัวข้อนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
+description: บทความนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882181"
 ---
 # <a name="module-library-overview"></a>ภาพรวมของไลบรารีโมดูล
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
+บทความนี้แสดงภาพรวมของไลบรารีโมดูล Microsoft Dynamics 365 Commerce
 
 ไลบรารีโมดูล Dynamics 365 Commerce เป็นชุดของโมดูลที่สามารถใช้ในการสร้างเว็บไซต์อีคอมเมิร์ซ โมดูลมีทั้งด้านอินเทอร์เฟสผู้ใช้ (UI) และลักษณะการทำงาน
 

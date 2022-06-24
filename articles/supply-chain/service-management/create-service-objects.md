@@ -1,6 +1,6 @@
 ---
 title: สร้างวัตถุที่ให้บริการ
-description: หัวข้อนี้ให้กระบวนงานที่แสดงวิธีการสร้างวัตถุที่ให้บริการ
+description: บทความนี้ให้กระบวนงานที่แสดงวิธีการสร้างวัตถุที่ให้บริการ
 author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 585a268f4ebbe7bc8626f028c038d1533812c5e4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852141"
 ---
 # <a name="create-service-objects"></a>สร้างวัตถุที่ให้บริการ  
 
@@ -34,7 +34,7 @@ ms.locfileid: "8674994"
 4. ในฟิลด์ **กลุ่มออบเจ็กต์ที่ให้บริการ** ให้เลือกกลุ่มที่ออบเจ็กต์เป็นสมาชิกอยู่ 
 5. เลือกระบุได้: เลือกสินค้าสำหรับบรรทัดวัตถุที่ให้บริการ หรือเลือกเท็มเพลตสำหรับรายการวัสดุและส่วนประกอบ (BOM)
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [ภาพรวมของวัตถุที่ให้บริการ](service-objects.md)
 
