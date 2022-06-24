@@ -1,6 +1,6 @@
 ---
 title: สร้างรายการงานและเพิ่มงาน
-description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างรายการงานและเพิ่มงานไปยังรายการใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายถึงวิธีการสร้างรายการงานและเพิ่มงานไปยังรายการใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a299be239d911e4605ed26625a313c93bd3020b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881642"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>สร้างรายการงานและเพิ่มงาน
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างรายการงานและเพิ่มงานไปยังรายการใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายถึงวิธีการสร้างรายการงานและเพิ่มงานไปยังรายการใน Microsoft Dynamics 365 Commerce
 
 *งาน* หมายถึง ชิ้นงานหรือการดำเนินการเฉพาะที่ผู้ใช้ต้องดำเนินการให้เสร็จสมบูรณ์ในวันหรือก่อนวันที่ครบกำหนดที่ระบุ ใน Dynamics 365 Commerce งานจะมีคำแนะนำและข้อมูลโดยละเอียดเกี่ยวกับผู้ติดต่อ รวมถึงลิงก์ไปยังการดำเนินงานของฝ่ายสนับสนุน การดำเนินงานของการขายหน้าร้าน (POS) หรือหน้าไซต์ เพื่อช่วยปรับปรุงประสิทธิภาพการทำงานและจัดหาบริบทที่เจ้าของงานต้องทำงานให้เสร็จสมบูรณ์ได้อย่างมีประสิทธิภาพ
 

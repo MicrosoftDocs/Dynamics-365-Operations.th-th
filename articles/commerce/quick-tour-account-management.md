@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของหน้าการจัดการบัญชี
-description: หัวข้อนี้แสดงภาพรวมของหน้าการจัดการบัญชีใน Microsoft Dynamics 365 Commerce
+description: บทความนี้แสดงภาพรวมของหน้าการจัดการบัญชีใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868894"
 ---
 # <a name="account-management-pages-overview"></a>ภาพรวมของหน้าการจัดการบัญชี
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของหน้าการจัดการบัญชีใน Microsoft Dynamics 365 Commerce
+บทความนี้แสดงภาพรวมของหน้าการจัดการบัญชีใน Microsoft Dynamics 365 Commerce
 
 หน้าการจัดการบัญชีช่วยให้ลูกค้าสามารถดูข้อมูลที่เกี่ยวข้องกับบัญชีและใบสั่งของตนเองได้ หน้าการจัดการบัญชีจะรวมหน้าเริ่มต้นของการจัดการบัญชี หน้าโพรไฟล์ผู้ใช้ หน้าโปรไฟล์ของผู้ใช้ ประวัติคำสั่งซื้อ รายละเอียดของคำสั่งซื้อ คะแนนสะสมสำหรับสมาชิก และรายการสิ่งที่ต้องการ
 

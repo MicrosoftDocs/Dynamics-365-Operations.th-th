@@ -1,6 +1,6 @@
 ---
 title: รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถรวม Microsoft Dynamics 365 Supply Chain Management กับระบบการดำเนินการผลิตของบุคคลที่สาม (MES)
+description: บทความนี้อธิบายวิธีการที่คุณสามารถรวม Microsoft Dynamics 365 Supply Chain Management กับระบบการดำเนินการผลิตของบุคคลที่สาม (MES)
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860651"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
 
@@ -238,7 +238,7 @@ ms.locfileid: "8678700"
 
 ## <a name="other-production-information"></a>ข้อมูลการผลิตอื่นๆ
 
-ข้อความสนับสนุนการดำเนินการหรือเหตุการณ์ที่เกิดขึ้นในส่วนการผลิต ซึ่งจะประมวลผลโดยใช้กรอบงานการรวม MES ที่อธิบายไว้ในหัวข้อนี้ การออกแบบสันนิษฐานว่าข้อมูลอ้างอิงอื่นๆ ที่จะใช้ร่วมกันกับ MES (เช่น ข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์ หรือสูตรการผลิตหรือกระบวนการผลิต (ที่มีการตั้งค่าและเวลาการตั้งค่าคอนฟิกเฉพาะ) ที่ใช้ในใบสั่งผลิตหนึ่งๆ) จะถูกเรียกข้อมูลมาจากระบบที่ใช้ [เอนทิตี้ข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ผ่านทางการโอนย้ายไฟล์หรือ OData
+ข้อความสนับสนุนการดำเนินการหรือเหตุการณ์ที่เกิดขึ้นในส่วนการผลิต ซึ่งจะประมวลผลโดยใช้กรอบงานการรวม MES ที่อธิบายไว้ในบทความนี้ การออกแบบสันนิษฐานว่าข้อมูลอ้างอิงอื่นๆ ที่จะใช้ร่วมกันกับ MES (เช่น ข้อมูลที่เกี่ยวข้องกับผลิตภัณฑ์ หรือสูตรการผลิตหรือกระบวนการผลิต (ที่มีการตั้งค่าและเวลาการตั้งค่าคอนฟิกเฉพาะ) ที่ใช้ในใบสั่งผลิตหนึ่งๆ) จะถูกเรียกข้อมูลมาจากระบบที่ใช้ [เอนทิตี้ข้อมูล](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) ผ่านทางการโอนย้ายไฟล์หรือ OData
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>รับผลป้อนกลับเกี่ยวกับสถานะของข้อความ
 
@@ -251,7 +251,7 @@ ms.locfileid: "8678700"
 
 ในกรณีนี้ คุณสามารถใช้ประโยชน์จากคุณลักษณะการแจ้งเตือนมาตรฐานใน Supply Chain Management สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานข้อความแจ้งเตือนมาตรฐาน โปรดดูที่ทรัพยากรต่อไปนี้:
 
-- หัวข้อวิธีใช้: [ภาพรวมของการแจ้งเตือน](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- บทความวิธีใช้: [ภาพรวมของการแจ้งเตือน](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - วิดีโอ: [ตัวเลือกกฎการแจ้งเตือน ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 ตัวอย่างเช่น คุณอาจตั้งค่าการแจ้งเตือนต่อไปนี้เพื่อให้ผลป้อนกลับเกี่ยวกับสถานะของข้อความ:

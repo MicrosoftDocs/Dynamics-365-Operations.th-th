@@ -1,6 +1,6 @@
 ---
 title: ตัวเลือกการใช้งานเครือข่ายการจัดส่งเนื้อหา
-description: หัวข้อนี้จะทบทวนเกี่ยวกับตัวเลือกต่างๆ ของการใช้งานเครือข่ายการจัดส่งเนื้อหา (CDN) ที่สามารถใช้ได้กับสภาพแวดล้อม Microsoft Dynamics 365 Commerce ตัวเลือกเหล่านี้รวมถึงอินสแตนซ์ดั้งเดิมของ Azure Front Door และอินสแตนซ์ที่ลูกค้าเป็นเจ้าของของ Azure Front Door
+description: บทความนี้จะทบทวนเกี่ยวกับตัวเลือกต่างๆ ของการใช้งานเครือข่ายการจัดส่งเนื้อหา (CDN) ที่สามารถใช้ได้กับสภาพแวดล้อม Microsoft Dynamics 365 Commerce ตัวเลือกเหล่านี้รวมถึงอินสแตนซ์ดั้งเดิมของ Azure Front Door และอินสแตนซ์ที่ลูกค้าเป็นเจ้าของของ Azure Front Door
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884428"
 ---
 # <a name="content-delivery-network-implementation-options"></a>ตัวเลือกการใช้งานเครือข่ายการจัดส่งเนื้อหา
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะทบทวนเกี่ยวกับตัวเลือกต่างๆ ของการใช้งานเครือข่ายการจัดส่งเนื้อหา (CDN) ที่สามารถใช้ได้กับสภาพแวดล้อม Microsoft Dynamics 365 Commerce ตัวเลือกเหล่านี้รวมถึงอินสแตนซ์ดั้งเดิมของ Azure Front Door และอินสแตนซ์ที่ลูกค้าเป็นเจ้าของของ Azure Front Door
+บทความนี้จะทบทวนเกี่ยวกับตัวเลือกต่างๆ ของการใช้งานเครือข่ายการจัดส่งเนื้อหา (CDN) ที่สามารถใช้ได้กับสภาพแวดล้อม Microsoft Dynamics 365 Commerce ตัวเลือกเหล่านี้รวมถึงอินสแตนซ์ดั้งเดิมของ Azure Front Door และอินสแตนซ์ที่ลูกค้าเป็นเจ้าของของ Azure Front Door
 
 ลูกค้าเชิงพาณิชย์มีตัวเลือกหลายตัวเลือกเมื่อพิจารณาบริการ CDN ที่จะใช้กับสภาพแวดล้อมเชิงพาณิชย์ของพวกเขา การพาณิชย์จะถูกเปิดตัวพร้อมการสนับสนุน Azure Front Door ขั้นพื้นฐานที่ครอบคลุมโฮสติ้งพื้นฐานและข้อกำหนดโดเมนที่กำหนดเอง สำหรับบริษัทที่ต้องการการควบคุมเพิ่มมากขึ้นและความสามารถด้านความปลอดภัยที่เฉพาะเจาะจงมากขึ้น เช่น ไฟร์วอลล์เว็บแอปพลิเคชัน (WAF) ตัวเลือกที่ดีที่สุดอาจใช้อินสแตนซ์ Azure Front Door ที่ลูกค้าเป็นเจ้าของหรือบริการ CDN ภายนอก
 

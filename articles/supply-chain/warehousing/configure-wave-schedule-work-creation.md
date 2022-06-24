@@ -1,6 +1,6 @@
 ---
 title: จัดกำหนดการการสร้างงานในระหว่างเวฟ
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าและใช้วิธีการประมวลผลเวฟการสร้างงานตามกำหนดการ
+description: บทความนี้อธิบายวิธีการตั้งค่าและใช้วิธีการประมวลผลเวฟการสร้างงานตามกำหนดการ
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852083"
 ---
 # <a name="schedule-work-creation-during-wave"></a>จัดกำหนดการการสร้างงานในระหว่างเวฟ
 
@@ -30,7 +30,7 @@ ms.locfileid: "8691144"
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>เปิดคุณลักษณะการสร้างงานที่จัดตารางการผลิตในการจัดการคุณลักษณะ
 
-หากต้องการใช้คุณลักษณะที่อธิบายไว้ในหัวข้อนี้ คุณลักษณะเหล่านั้นต้องเปิดอยู่เพื่อให้ระบบของคุณ ใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานคุณลักษณะต่อไปนี้ในลำดับต่อไปนี้:
+หากต้องการใช้คุณลักษณะที่อธิบายไว้ในบทความนี้ คุณลักษณะเหล่านั้นต้องเปิดอยู่เพื่อให้ระบบของคุณ ใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานคุณลักษณะต่อไปนี้ในลำดับต่อไปนี้:
 
 1. **การบล็อคงานทั่วทั้งองค์กร** - ต้องการทั้งการตั้งค่าคอนฟิกด้วยตนเองและอัตโนมัติของการสร้างงานที่จัดกําหนดการไว้ (ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
 1. **จัดกำหนดการสร้างงาน** - ต้องการทั้งการตั้งค่าคอนฟิกด้วยตนเองและอัตโนมัติของการสร้างงานที่จัดกําหนดการไว้

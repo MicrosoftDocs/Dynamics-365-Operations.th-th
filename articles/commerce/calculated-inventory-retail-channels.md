@@ -1,6 +1,6 @@
 ---
 title: คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก
-description: หัวข้อนี้จะอธิบายวิธีการที่บริษัทสามารถใช้ Microsoft Dynamics 365 Commerce เพื่อดูความพร้อมความพร้อมใช้งานโดยประมาณสำหรับผลิตภัณฑ์ในช่องทางออนไลน์และร้านค้า
+description: บทความนี้จะอธิบายวิธีการที่บริษัทสามารถใช้ Microsoft Dynamics 365 Commerce เพื่อดูความพร้อมความพร้อมใช้งานโดยประมาณสำหรับผลิตภัณฑ์ในช่องทางออนไลน์และร้านค้า
 author: hhainesms
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 952acf4cc26815822436bb7a5117775a5f12200c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674686"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884122"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>คำนวณความพร้อมของสินค้าคงคลังสำหรับช่องทางการขายปลีก
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการที่บริษัทสามารถใช้ Microsoft Dynamics 365 Commerce เพื่อดูความพร้อมความพร้อมใช้งานโดยประมาณสำหรับผลิตภัณฑ์ในช่องทางออนไลน์และร้านค้า
+บทความนี้จะอธิบายวิธีการที่บริษัทสามารถใช้ Microsoft Dynamics 365 Commerce เพื่อดูความพร้อมความพร้อมใช้งานโดยประมาณสำหรับผลิตภัณฑ์ในช่องทางออนไลน์และร้านค้า
 
 ## <a name="accuracy-of-inventory-availability"></a>ความถูกต้องของความพร้อมของสินค้าคงคลัง
 

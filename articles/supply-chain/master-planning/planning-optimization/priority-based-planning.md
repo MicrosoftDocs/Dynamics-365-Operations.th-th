@@ -1,6 +1,6 @@
 ---
 title: การวางแผนตามระดับความสำคัญ
-description: หัวข้อนี้จะอธิบายถึงคุณลักษณะการวางแผนตามระดับความสำคัญของ Microsoft Dynamics 365 Supply Chain Management
+description: บทความนี้จะอธิบายถึงคุณลักษณะการวางแผนตามระดับความสำคัญของ Microsoft Dynamics 365 Supply Chain Management
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873824"
 ---
 # <a name="priority-based-planning"></a>การวางแผนตามระดับความสำคัญ
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงคุณลักษณะการวางแผนตามระดับความสำคัญของ Microsoft Dynamics 365 Supply Chain Management คุณลักษณะนี้เพิ่มการสนับสนุนให้กับการวางแผนความต้องการ ซึ่งเป็นหนึ่งในขั้นตอนของ Demand Driven Material Requirements Planning (DDMRP) การวางแผนตามระดับความสำคัญช่วยให้การเพิ่มประสิทธิภาพการวางแผนสามารถสร้างแผนการใบสั่งที่ถูกควบคุมโดยระดับความสำคัญของการวางแผน แทนวันที่ของความต้องการ
+บทความนี้จะอธิบายถึงคุณลักษณะการวางแผนตามระดับความสำคัญของ Microsoft Dynamics 365 Supply Chain Management คุณลักษณะนี้เพิ่มการสนับสนุนให้กับการวางแผนความต้องการ ซึ่งเป็นหนึ่งในขั้นตอนของ Demand Driven Material Requirements Planning (DDMRP) การวางแผนตามระดับความสำคัญช่วยให้การเพิ่มประสิทธิภาพการวางแผนสามารถสร้างแผนการใบสั่งที่ถูกควบคุมโดยระดับความสำคัญของการวางแผน แทนวันที่ของความต้องการ
 
 การวางแผนตามระดับความสําคัญช่วยให้คุณจัดระดับความสําคัญของใบสั่งการเติมสินค้า เพื่อให้แน่ใจว่าความต้องการด่วนจะได้รับการจัดระดับความสําคัญมากกว่าความต้องการที่สําคัญน้อยกว่า ตัวอย่างเช่น ใบสั่งการเติมสินค้าแบบไม่มีสต็อก จะถูกจัดระดับความสำคัญก่อนใบสั่งการเติมสินค้าตามมาตรฐาน ระบบสามารถแบ่งใบสั่งขนาดใหญ่ออกเป็นใบสั่งที่เล็กลงแยกต่างหากได้โดยอัตโนมัติ โดยที่มีการจัดกลุ่มบรรทัดใบสั่งตามระดับความสำคัญ จากนั้นใบสั่งก็จะประมวลผลใบสั่งที่มีระดับความสำคัญสูงทั้งหมดก่อน
 

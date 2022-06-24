@@ -1,6 +1,6 @@
 ---
 title: จัดการคู่ค้าทางธุรกิจ B2B โดยใช้ลำดับชั้นของลูกค้า
-description: หัวข้อนี้จะอธิบายวิธีการใช้ลำดับชั้นของลูกค้าเพื่อจัดการคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการใช้ลำดับชั้นของลูกค้าเพื่อจัดการคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864992"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>จัดการคู่ค้าทางธุรกิจ B2B โดยใช้ลำดับชั้นของลูกค้า
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการใช้ลำดับชั้นของลูกค้าเพื่อจัดการคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการใช้ลำดับชั้นของลูกค้าเพื่อจัดการคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
 
 ในศูนย์ควบคุม Commerce เอนทิตี้ *ลำดับชั้นของลูกค้า* ใช้เพื่อแสดงถึงองค์กรที่เป็นคู่ค้าทางธุรกิจที่จะใช้ไซต์อีคอมเมิร์ซ B2B ก่อนที่คุณจะสามารถใช้ลำดับชั้นของลูกค้าเพื่อจัดการคู่ค้าทางธุรกิจได้ คุณต้องเปิดใช้งานความสามารถของอีคอมเมิร์ซ B2B ในศูนย์ควบคุม Commerce แล้วกําหนดลำดับหมายเลขให้กับลำดับชั้นของลูกค้า
 

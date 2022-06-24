@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
-description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสวีเดนใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสวีเดนใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885413"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสวีเดนใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสวีเดนใน Microsoft Dynamics 365 Commerce
 
 > [!NOTE]
 > ฟังก์ชันการรวมทางการเงินตัวอย่างนี้จะแทนที่ [ตัวอย่างการรวม POS กับอุปกรณ์ควบคุมสำหรับสวีเดน](retail-sdk-control-unit-sample.md) ก่อนหน้านี้ ตัวอย่างก่อนหน้านี้ไม่ได้ใช้ประโยชน์จาก [กรอบงานการรวมทางการเงิน](./fiscal-integration-for-retail-channel.md) และจะล้าสมัยในการอัปเดตในอนาคต หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการย้ายจากตัวอย่างก่อนหน้านี้ไปยังตัวอย่างที่สอดคล้องกับ Dynamics 365 Commerce รุ่น **10.0.22 และก่อนหน้านั้น** โปรดดู [การย้ายจากตัวอย่างการรวมก่อนหน้านี้](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample)
@@ -83,7 +83,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 สำหรับรูปแบบใบเสร็จที่จำเป็นทั้งหมด ให้เปลี่ยนค่าของฟิลด์ **ลักษณะการพิมพ์** เป็น **พิมพ์เสมอ**
 
-ในตัวออกแบบรูปแบบใบเสร็จ ให้เพิ่มฟิลด์ที่กำหนดเองต่อไปนี้ลงในส่วน **ท้าย** โปรดสังเกตว่าชื่อฟิลด์จะตรงกับข้อความภาษาที่คุณกําหนดไว้ในส่วนก่อนหน้านี้ของหัวข้อนี้
+ในตัวออกแบบรูปแบบใบเสร็จ ให้เพิ่มฟิลด์ที่กำหนดเองต่อไปนี้ลงในส่วน **ท้าย** โปรดสังเกตว่าชื่อฟิลด์จะตรงกับข้อความภาษาที่คุณกําหนดไว้ในส่วนก่อนหน้านี้ของบทความนี้
 
 - **รหัสควบคุมการลงทะเบียน** – ฟิลด์นี้จะพิมพ์รหัสควบคุม
 - **อุปกรณ์ลงทะเบียน** – ฟิลด์นี้จะพิมพ์หมายเลขการผลิตของอุปกรณ์ควบคุม

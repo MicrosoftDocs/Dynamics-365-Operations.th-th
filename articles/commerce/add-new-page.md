@@ -1,6 +1,6 @@
 ---
 title: เพิ่มหน้าไซต์ใหม่
-description: หัวข้อนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: psimolin
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 76fc3f52746943d5cbf1cb31e677344a1d14bee3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871739"
 ---
 # <a name="add-a-new-site-page"></a>เพิ่มหน้าไซต์ใหม่
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการเพิ่มหน้าไซต์ใหม่ใน Microsoft Dynamics 365 Commerce
 
 หลังจากที่คุณได้สร้างเทมเพลตและส่วนสำหรับไซต์ของคุณแล้ว ขั้นตอนต่อไป คือ การเริ่มต้นสร้างเพจ เมื่อต้องการเริ่มต้น คุณต้องเลือกเทมเพลต หรือโครงร่าง ชื่อเพจ และ URL ของเพจ
 

@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของวัตถุที่ให้บริการ
-description: หัวข้อนี้แสดงภาพรวมวิธีการงานกับวัตถุที่ให้บริการ
+description: บทความนี้แสดงภาพรวมวิธีการงานกับวัตถุที่ให้บริการ
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862424"
 ---
 # <a name="service-objects-overview"></a>ภาพรวมของวัตถุที่ให้บริการ
 
@@ -39,7 +39,7 @@ ms.locfileid: "8677687"
 
 บริษัท A รักษาเรกคอร์ดทางการเงินให้กับบริษัทขนาดเล็กจำนวนหนึ่ง  ลูกค้ารายหนึ่งของบริษัท A เป็นทีมฟุตบอลประจำท้องถิ่น ซึ่งบริษัทรับผิดชอบการทำบัญชีประจำสัปดาห์และตรวจสอบบัญชีประจำปีของสโมสร  บัญชีของสโมสรถูกตั้งค่าไว้ในแบบฟอร์มออบเจ็กต์ที่ให้บริการ และถูกกำหนดเป็นออบเจ็กต์ในข้อตกลงการให้บริการ  โดยมีรายการข้อตกลงการให้บริการสองรายการสำหรับวัตถุ  รายการ 1 เป็นการทำบัญชีประจำสัปดาห์ซึ่งมีระยะเวลาห่างหนึ่งครั้งต่อสัปดาห์ ในขณะที่รายการ 2 เป็นการตรวจสอบบัญชีประจำปีซึ่งมีระยะเวลาห่างหนึ่งครั้งต่อปี
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [การสร้างวัตถุที่ให้บริการ](create-service-objects.md)
 

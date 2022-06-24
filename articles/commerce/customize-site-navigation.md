@@ -1,6 +1,6 @@
 ---
 title: เลือกกำหนดการนำทางของไซต์
-description: หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองเพื่อจัดการผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
+description: บทความนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองเพื่อจัดการผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863472"
 ---
 # <a name="customize-site-navigation"></a>เลือกกำหนดการนำทางของไซต์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองเพื่อจัดการผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
+บทความนี้จะอธิบายเกี่ยวกับวิธีการสร้างลำดับชั้นการนำทางออนไลน์ที่กำหนดเองเพื่อจัดการผลิตภัณฑ์ของคุณสำหรับการเรียกดูบนไซต์ Microsoft Dynamics 365 Commerce ของคุณ
 
 หน้าร้านออนไลน์โดยทั่วไปจะให้ลูกค้าค้นพบและเลือกดูผลิตภัณฑ์โดยใช้การนำทางตามประเภทผลิตภัณฑ์ โดยทั่วไปจะมีการจัดเรียงตามแท็บที่ด้านบนของหน้าหรือโดยแถบนำทางทางด้านซ้าย ใน Dynamics 365 Commerce คุณสามารถสร้างและจัดการโครงสร้างลำดับชั้นของการนำทางประเภทของคุณและผลิตภัณฑ์ที่รวมอยู่ในประเภทต่างๆ
 

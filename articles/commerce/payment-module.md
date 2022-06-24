@@ -1,6 +1,6 @@
 ---
 title: โมดูลการชำระเงิน
-description: หัวข้อนี้ครอบคลุมโมดูลการชำระเงินและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมโมดูลการชำระเงินและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850286"
 ---
 # <a name="payment-module"></a>โมดูลการชำระเงิน
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมโมดูลการชำระเงินและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมโมดูลการชำระเงินและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลการชำระเงินนี้จะช่วยให้ลูกค้าชำระเงินสำหรับใบสั่งโดยใช้บัตรเครดิตหรือบัตรเดบิต การรวมการชำระเงินสำหรับโมดูลนี้ให้บริการโดยตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าและตั้งค่าคอนฟิกตัวเชื่อมต่อการชำระเงิน ดูที่ [ตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen](dev-itpro/adyen-connector.md)  
 

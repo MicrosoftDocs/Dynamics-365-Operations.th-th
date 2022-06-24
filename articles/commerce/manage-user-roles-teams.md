@@ -1,6 +1,6 @@
 ---
 title: จัดการบทบาทผู้ใช้ใน Microsoft Teams
-description: หัวข้อนี้อธิบายวิธีจัดการบทบาทผู้ใช้ Microsoft Dynamics 365 Commerce ใน Microsoft Teams.
+description: บทความนี้อธิบายวิธีจัดการบทบาทผู้ใช้ Microsoft Dynamics 365 Commerce ใน Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 478bdc762bbc808b031b3ec160126deb4627b6e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881282"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>จัดการบทบาทผู้ใช้ใน Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีจัดการบทบาทผู้ใช้ Microsoft Dynamics 365 Commerce ใน Microsoft Teams.
+บทความนี้อธิบายวิธีจัดการบทบาทผู้ใช้ Microsoft Dynamics 365 Commerce ใน Microsoft Teams.
 
 เมื่อคุณสร้างทีมงานให้กับร้านค้าหรือช่องทางแต่ละแห่งใน Teams สมาชิกกลุ่มที่ตรงกับทีมงานจะถูกสร้างขึ้น (ตัวอย่างเช่น `HOUSTON_D365@<YourTenantAzureADDomain>.com`) ผู้ปฏิบัติงานร้านค้าทั้งหมดภายใต้การเป็นสมาชิกกลุ่มทีมงานจะได้รับการมอบหมายบทบาทผู้ใช้อย่างใดอย่างหนึ่งจากสองบทบาท: **เจ้าของ** หรือ **สมาชิก** จัดเก็บพนักงานที่มีบทบาทผู้ใช้ **เจ้าของ** สามารถดําเนินการได้ เช่น การเพิ่มช่องทางส่วนตัว และเพิ่มหรือลบสมาชิก โดยทั่วไป ผู้จัดการร้านค้าจะมีบทบาทผู้ใช้ **เจ้าของ**
 

@@ -1,6 +1,6 @@
 ---
 title: จัดการผู้ใช้คู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซของ B2B โดยใช้ Dynamics 365 Sales
-description: หัวข้อนี้จะอธิบายวิธีการใช้ Microsoft Dynamics 365 Sales เพื่อจัดการการอนุมัติคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการใช้ Microsoft Dynamics 365 Sales เพื่อจัดการการอนุมัติคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Dynamics 365 Commerce
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878632"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>จัดการผู้ใช้คู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซของ B2B โดยใช้ Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการใช้ Microsoft Dynamics 365 Sales เพื่อจัดการการอนุมัติคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Dynamics 365 Commerce องค์กรที่มีการลงทุนในโซลูชัน Dynamics 365 Sales อยู่แล้วสามารถใช้แนวคิดเกี่ยวกับลูกค้าเป้าหมายและโอกาสทางการขายของโซลูชันดังกล่าวกับกระบวนการอนุมัติคู่ค้าอีคอมเมิร์ซ B2B ได้
+บทความนี้จะอธิบายวิธีการใช้ Microsoft Dynamics 365 Sales เพื่อจัดการการอนุมัติคู่ค้าทางธุรกิจสำหรับเว็บไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Dynamics 365 Commerce องค์กรที่มีการลงทุนในโซลูชัน Dynamics 365 Sales อยู่แล้วสามารถใช้แนวคิดเกี่ยวกับลูกค้าเป้าหมายและโอกาสทางการขายของโซลูชันดังกล่าวกับกระบวนการอนุมัติคู่ค้าอีคอมเมิร์ซ B2B ได้
 
 หากต้องการทราบข้อมูลประวัติเกี่ยวกับกระบวนการอนุมัติคู่ค้าทางธุรกิจ B2B ดูที่ [จัดการผู้ใช้ที่เป็นคู่ค้าทางธุรกิจบนเว็บไซต์อีคอมเมิร์ซ B2B](manage-b2b-users.md)
 

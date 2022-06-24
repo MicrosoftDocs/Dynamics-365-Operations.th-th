@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846226"
 ---
 # <a name="compare-item-prices-storage-report"></a>รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการรันรายงาน **การเปรียบเทียบการจัดเก็บราคาสินค้า** และทำให้ผลลัพธ์พร้อมใช้งานแบบดิจิตอล เป็นหน้าแบบโต้ตอบใน Dynamics 365 Supply Chain Management หรือเป็นเอกสารที่ส่งออกในรูปแบบใดรูปแบบหนึ่ง
+บทความนี้จะอธิบายถึงวิธีการรันรายงาน **การเปรียบเทียบการจัดเก็บราคาสินค้า** และทำให้ผลลัพธ์พร้อมใช้งานแบบดิจิตอล เป็นหน้าแบบโต้ตอบใน Dynamics 365 Supply Chain Management หรือเป็นเอกสารที่ส่งออกในรูปแบบใดรูปแบบหนึ่ง
 
 เมื่อคุณดูรายงานในเบราเซอร์ของคุณ คอลัมน์และยอดดุลรวมจะมีการปรับปรุงแบบไดนามิก โดยขึ้นอยู่กับโครงร่างที่มีการตั้งค่าคอนฟิกของคุณ คุณสามารถเรียงลำดับผลลัพธ์ กรองข้อมูล ดูรายละเอียดแนวลึกลงในข้อมูล และอื่นๆ
 

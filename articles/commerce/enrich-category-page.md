@@ -1,6 +1,6 @@
 ---
-title: ทำให้หน้าเริ่มต้นของประเภทสมบูรณ์
-description: หัวข้อนี้จะครอบคลุมการตกแต่งของหน้าประเภทใน Dynamics 365 Commerce
+title: เพิ่มข้อมูลหน้าเริ่มต้นของประเภท
+description: บทความนี้จะครอบคลุมการตกแต่งของหน้าประเภทใน Dynamics 365 Commerce
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfee3b09768fa19ab95c880d7f7cbf330a8c58d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856975"
 ---
 # <a name="enrich-a-category-landing-page"></a>เพิ่มข้อมูลหน้าเริ่มต้นของประเภท
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะครอบคลุมการตกแต่งของหน้าประเภทใน Dynamics 365 Commerce
+บทความนี้จะครอบคลุมการตกแต่งของหน้าประเภทใน Dynamics 365 Commerce
 
 Commerce จะให้หน้าเริ่มต้นที่จะใช้เมื่อมีการแสดงข้อมูลของประเภท หน้าประเภทเริ่มต้น มีองค์ประกอบที่ต้องการเช่น ตัวปรับปรุง การจัดประเภทการวางสินค้า ตัวเลือกการเรียงลำดับข้อมูล สรุปทางเลือก และการควบคุมการแบ่งหน้า 
 

@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Supply Chain Management
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ใบสั่งงานที่มีหมายเลขโครงการตรงกันจาก Dynamics 365 Field Service ไปยัง Dynamics 365 Supply Chain Management
+description: บทความนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ใบสั่งงานที่มีหมายเลขโครงการตรงกันจาก Dynamics 365 Field Service ไปยัง Dynamics 365 Supply Chain Management
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860506"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ใบสั่งงานที่มีหมายเลขโครงการตรงกันจาก Dynamics 365 Field Service ไปยัง Dynamics 365 Supply Chain Management
+บทความนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ในการทำให้ใบสั่งงานที่มีหมายเลขโครงการตรงกันจาก Dynamics 365 Field Service ไปยัง Dynamics 365 Supply Chain Management
 
 [![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Supply Chain Management และ Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 เท็มเพลต **ใบสั่งงานที่มีโครงการ (Field Service ไปยัง Supply Chain Management)** ที่ใช้ เป็นไปตามเท็มเพลต **ใบสั่งงาน (Field Service ไปยัง Supply Chain Management)** สำหรับข้อมูลเพิ่มเติม ดู [ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)
 
-หัวข้อนี้อธิบายความแตกต่างระหว่างสองเท็มเพลตเท่านั้น:
+บทความนี้อธิบายความแตกต่างระหว่างสองเท็มเพลตเท่านั้น:
 - **ใบสั่งงานกับโครงการ (Field Service ไปยัง Supply Chain Management)**
 - **ใบสั่งงาน (Field Service ไปยัง Supply Chain Management)**
 

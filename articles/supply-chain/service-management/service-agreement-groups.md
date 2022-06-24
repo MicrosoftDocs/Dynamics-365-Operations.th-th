@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของข้อตกลงการให้บริการ
-description: หัวข้อนี้แสดงภาพรวมวิธีการทำงานของข้อตกลงการให้บริการ
+description: บทความนี้แสดงภาพรวมวิธีการทำงานของข้อตกลงการให้บริการ
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862466"
 ---
 # <a name="service-agreements-overview"></a>ภาพรวมของข้อตกลงการให้บริการ
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670845"
 - กลุ่มข้อตกลงสามกลุ่มที่คุณตั้งค่าไว้ในบริษัทของคุณ ซึ่งได้แก่ โกลด์ ซิลเวอร์ และบรอนซ์
 - มีการจ้างงานผู้จัดการบัญชีบริการใหม่ในบริษัทของคุณ ผู้จัดการฝ่ายบริการรับผิดชอบการจัดการกับไคลเอนต์ทั้งหมดในกลุ่มข้อตกลงโกลด์ คุณสามารถกรองข้อมูลเรกคอร์ดข้อตกลงได้โดยใช้กลุ่มข้อตกลงโกลด์ เพื่อค้นหาข้อตกลงทั้งหมดซึ่งคุณต้องระบุผู้จัดการฝ่ายบริการใหม่ให้เป็นผู้รับผิดชอบ
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [สร้างกลุ่มข้อตกลงการให้บริการ](create-service-agreement-groups.md)
 

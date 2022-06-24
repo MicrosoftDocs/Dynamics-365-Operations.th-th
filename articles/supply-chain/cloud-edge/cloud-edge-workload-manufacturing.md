@@ -1,6 +1,6 @@
 ---
-title: ปริมาณงานการดำเนินการผลิตสำหรับ Cloud และ edge scale unit
-description: หัวข้อนี้จะอธิบายวิธีการทำงานของปริมาณงานการดำเนินการผลิตกับ Cloud และ edge scale unit
+title: ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+description: บทความนี้จะอธิบายวิธีการทำงานของปริมาณงานการดำเนินการผลิตกับ Cloud และ edge scale unit
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865337"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>ปริมาณงานการดำเนินการผลิตสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
 
@@ -41,7 +41,7 @@ ms.locfileid: "8674067"
 - หัวหน้างานฝ่ายผลิตสามารถปรับปรุงแผนการดำเนินงานได้
 - ผู้ปฏิบัติงานสามารถเข้าถึงเวลาและการเข้างานสำหรับการตอกบัตรเข้าและการตอกบัตรออกบน edge เพื่อให้มั่นใจว่าการคำนวณการจ่ายค่าจ้างของผู้ปฏิบัติงานถูกต้อง
 
-หัวข้อนี้จะอธิบายวิธีการทำงานของปริมาณงานการดำเนินการผลิตกับ Cloud และ edge scale unit
+บทความนี้จะอธิบายวิธีการทำงานของปริมาณงานการดำเนินการผลิตกับ Cloud และ edge scale unit
 
 ## <a name="the-manufacturing-lifecycle"></a>วงจรการผลิต
 

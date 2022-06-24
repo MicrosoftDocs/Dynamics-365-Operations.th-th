@@ -1,6 +1,6 @@
 ---
 title: โหมดการสร้างลูกค้าแบบอะซิงโครนัส
-description: หัวข้อนี้จะอธิบายถึงโหมดการสร้างลูกค้าแบบอะซิงโครนัสใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายถึงโหมดการสร้างลูกค้าแบบอะซิงโครนัสใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: ca7cceb066d30b7bba82265a3654f3bfb26f57f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4ca63fe06a804035e976a3432454078c1cca0020
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880151"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>โหมดการสร้างลูกค้าแบบอะซิงโครนัส
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงโหมดการสร้างลูกค้าแบบอะซิงโครนัสใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายถึงโหมดการสร้างลูกค้าแบบอะซิงโครนัสใน Microsoft Dynamics 365 Commerce
 
 ใน Commerce มีการสร้างลูกค้าอยู่สองโหมด ได้แก่ ซิงโครนัส (หรือซิงค์) และอะซิงโครนัส (หรือเอซิงค์) ตามค่าเริ่มต้น ลูกค้าจะถูกสร้างแบบซิงโครนัส กล่าวอีกอย่างคือ ถูกสร้างขึ้นใน Commerce Headquarters ตามเวลาจริง โหมดการสร้างลูกค้าแบบซิงค์เป็นประโยชน์เนื่องจากลูกค้าใหม่สามารถค้นหาได้ทันทีจากช่องทางต่างๆ อย่างไรก็ตาม ก็มีข้อเสียเปรียบด้วยเช่นกัน เนื่องจากระบบจะสร้างการเรียก [Commerce Data Exchange: บริการตามเวลาจริง](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) ไปยัง Commerce Headquarters จึงอาจกระทบกับประสิทธิภาพถ้าการสร้างลูกค้าเกิดขึ้นพร้อมกันหลายราย
 

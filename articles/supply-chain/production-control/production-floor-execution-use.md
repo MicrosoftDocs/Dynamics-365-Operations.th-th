@@ -1,6 +1,6 @@
 ---
 title: วิธีการที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต
-description: หัวข้อนี้จะอธิบายวิธีการใช้อินเทอร์เฟสการดำเนินการของระบบการผลิตจากมุมมองของผู้ปฏิบัติงาน
+description: บทความนี้จะอธิบายวิธีการใช้อินเทอร์เฟสการดำเนินการของระบบการผลิตจากมุมมองของผู้ปฏิบัติงาน
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860680"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>วิธีการที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต
 
@@ -34,7 +34,7 @@ ms.locfileid: "8645003"
 
 ![หน้าลงชื่อเข้าใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](media/pfei-sign-in-page.png "หน้าลงชื่อเข้าใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต")
 
-ส่วนที่เหลือของหัวข้อนี้จะอธิบายว่าผู้ปฏิบัติงานโต้ตอบกับอินเทอร์เฟสอย่างไร
+ส่วนที่เหลือของบทความนี้จะอธิบายว่าผู้ปฏิบัติงานโต้ตอบกับอินเทอร์เฟสอย่างไร
 
 ## <a name="all-jobs-tab"></a>แท็บงานทั้งหมด
 

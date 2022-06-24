@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกแอป Warehouse Management บนมือถือสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
-description: หัวข้อนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือสำหรับคลังสินค้าซึ่งให้บริการโดยสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+description: บทความนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือสำหรับคลังสินค้าซึ่งให้บริการโดยสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865251"
 ---
 # <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>ตั้งค่าคอนฟิกแอป Warehouse Management บนมือถือสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือเพื่อให้สามารถใช้กับคลังสินค้าซึ่งให้บริการโดยสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+บทความนี้จะอธิบายวิธีตั้งค่าแอป Warehouse Management บนมือถือเพื่อให้สามารถใช้กับคลังสินค้าซึ่งให้บริการโดยสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 

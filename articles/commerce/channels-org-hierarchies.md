@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าลำดับชั้นขององค์กร
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847691"
 ---
 # <a name="set-up-organization-hierarchies"></a>ตั้งค่าลำดับชั้นขององค์กร
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการตั้งค่าลำดับชั้นในองค์กรใน Microsoft Dynamics 365 Commerce
 
 ก่อนที่จะสร้างช่องทาง คุณต้องตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าลำดับชั้นขององค์กรของคุณแล้ว
 
@@ -34,7 +34,7 @@ ms.locfileid: "6746027"
 ก่อนที่คุณจะสร้างลำดับชั้นขององค์กร คุณต้องสร้างองค์กร สำหรับข้อมูลเพิ่มเติม ดูที่ [สร้างนิติบุคคล](channels-legal-entities.md) หรือ [สร้างหน่วยปฏิบัติงาน](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json)
 
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
+สำหรับข้อมูลเพิ่มเติม ให้ดูบทความต่อไปนี้
 - [ภาพรวมขององค์กรและลำดับชั้นขององค์กร](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [วางแผนลำดับชั้นขององค์กรของคุณ](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [สร้างลำดับชั้นขององค์กร](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)

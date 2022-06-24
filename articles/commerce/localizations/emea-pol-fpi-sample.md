@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
-description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับโปแลนด์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับโปแลนด์ใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876960"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับโปแลนด์ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับโปแลนด์ใน Microsoft Dynamics 365 Commerce
 
 ฟังก์ชัน Dynamics 365 Commerce สำหรับโปแลนด์รวมการรวมตัวอย่างของการขายหน้าร้าน (POS) กับเครื่องพิมพ์ทางการเงิน ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และสนับสนุนโปรโทคอล POSNET THERMAL HD 2.02 ให้กับเครื่องพิมพ์ทางการเงินจาก [Posnet Polska S.A.](https://www.posnet.com.pl) ตัวอย่างช่วยให้สามารถสื่อสารกับเครื่องพิมพ์ทางการเงินที่เชื่อมต่อผ่านพอร์ต COM โดยใช้ไดรเวอร์ซอฟต์แวร์ดั้งเดิม ซึ่งใช้งานและทดสอบโดยใช้ตัวเลียนแบบแอปซอฟต์แวร์ที่ Posnet จัดเตรียมไว้ให้กับเครื่องพิมพ์ทางการเงิน Posnet Thermal HD FV EJ ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับและเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก
 

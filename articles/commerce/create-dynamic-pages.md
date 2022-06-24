@@ -1,6 +1,6 @@
 ---
 title: สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์ URL
-description: หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
+description: บทความนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884674"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>สร้างหน้าอีคอมเมิร์ซแบบไดนามิกตามพารามิเตอร์ URL
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
+บทความนี้จะอธิบายวิธีตั้งค่าหน้า e-commerce ของ Microsoft Dynamics 365 Commerce ที่สามารถให้บริการเนื้อหาแบบไดนามิก บนพื้นฐานของพารามิเตอร์ URL
 
 หน้า e-commerce สามารถตั้งค่าคอนฟิกให้แสดงเนื้อหาที่แตกต่างกันตามเซ็กเมนต์ในพาธ URL ได้ ดังนั้น จึงสามารถเรียกหน้านี้ได้อีกอย่างหนึ่งว่าหน้าแบบไดนามิก เซ็กเมนต์นี้จะใช้เป็นพารามิเตอร์เพื่อดึงข้อมูลเนื้อหาของหน้า ตัวอย่างเช่น หน้าที่สร้างขึ้นในตัวสร้างไซต์และที่มีชื่อว่า **blog\_viewer** จะถูกแมปกับ URL `https://fabrikam.com/blog` จากนั้นสามารถใช้หน้านี้เพื่อแสดงเนื้อหาที่แตกต่างกันตามเซ็กเมนต์สุดท้ายในพาธ URL ตัวอย่างเช่น เซ็กเมนต์สุดท้ายใน URL `https://fabrikam.com/blog/article-1` คือ **article-1**
 

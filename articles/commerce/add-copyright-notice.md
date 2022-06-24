@@ -1,6 +1,6 @@
 ---
 title: เพิ่มข้อความสงวนลิขสิทธิ์
-description: หัวข้อนี้อธิบายวิธีการเพิ่มข้อความสงวนลิขสิทธิ์ให้กับเว็บไซต์อีคอมเมิร์ซของคุณ
+description: บทความนี้อธิบายวิธีการเพิ่มข้อความสงวนลิขสิทธิ์ให้กับเว็บไซต์อีคอมเมิร์ซของคุณ
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a9a7fed4393f9c35b0bdc765fe7d0723c193f89
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: a1e394b9a582b48c44bbec26ef42a90d50918f87
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851228"
 ---
 # <a name="add-a-copyright-notice"></a>เพิ่มข้อความสงวนลิขสิทธิ์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มข้อความสงวนลิขสิทธิ์ให้กับเว็บไซต์อีคอมเมิร์ซของคุณ
+บทความนี้อธิบายวิธีการเพิ่มข้อความสงวนลิขสิทธิ์ให้กับเว็บไซต์อีคอมเมิร์ซของคุณ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 ก่อนที่คุณจะสามารถเพิ่มข้อความสงวนลิขสิทธิ์ลงในไซต์ของคุณ คุณจะต้องมีสิ่งต่อไปนี้
 
-- เทมเพลตที่รวมส่วนที่เป็นส่วนท้ายที่ใช้ร่วมกัน
+- แม่แบบที่รวมส่วนที่เป็นส่วนท้ายที่ใช้ร่วมกัน
 - เพจที่ใช้เทมเพลต
 
 ## <a name="add-a-copyright-notice"></a>เพิ่มข้อความสงวนลิขสิทธิ์

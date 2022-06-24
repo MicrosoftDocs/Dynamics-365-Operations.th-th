@@ -1,6 +1,6 @@
 ---
 title: พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Microsoft Dynamics 365 Supply Chain Management
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการการเปลี่ยนแปลงทางวิศวกรรมสำหรับ Microsoft Dynamics 365 Supply Chain Management
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875523"
 ---
 # <a name="engineering-change-management-parameters"></a>พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -27,7 +27,7 @@ ms.locfileid: "7581019"
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>เปิดหน้าพารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
-เมื่อต้องการเปิดหน้า **พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม** ให้ไปที่ **การจัดการการเปลี่ยนแปลงทางวิศวกรรม \> การตั้งค่า \> พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม** จากนั้น คุณสามารถตั้งค่าฟิลด์ตามที่อธิบายไว้ในส่วนที่เหลือของหัวข้อนี้
+เมื่อต้องการเปิดหน้า **พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม** ให้ไปที่ **การจัดการการเปลี่ยนแปลงทางวิศวกรรม \> การตั้งค่า \> พารามิเตอร์การจัดการการเปลี่ยนแปลงทางวิศวกรรม** จากนั้น คุณสามารถตั้งค่าฟิลด์ตามที่อธิบายไว้ในส่วนที่เหลือของบทความนี้
 
 ## <a name="release-control-tab"></a>แท็บการควบคุมการนำออกใช้
 

@@ -1,6 +1,6 @@
 ---
 title: ระบุสมมติฐานและกำหนดตัวชี้วัดสำหรับการทดสอบ
-description: หัวข้อนี้อธิบายวิธีการระบุสมมติฐานและตัวชี้วัดความสำเร็จสำหรับการทดลองที่คุณจะทำงานบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการระบุสมมติฐานและตัวชี้วัดความสำเร็จสำหรับการทดลองที่คุณจะทำงานบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b6bdf160522fc93e841ec2f8a4542ff80d8f67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852797"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>ระบุสมมติฐานและกำหนดตัวชี้วัดความสำเร็จสำหรับการทดสอบ
-ระยะแรกในวงจรการทดสอบรวมถึงการระบุสมมติฐานสำหรับการทดสอบ และการกำหนดตัวชี้วัดที่คุณจะติดตามเพื่อประเมินความสำเร็จ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับ [การตั้งค่าและการรันการทดลอง](experimentation-overview.md) บนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก 
+ระยะแรกในวงจรการทดสอบรวมถึงการระบุสมมติฐานสำหรับการทดสอบ และการกำหนดตัวชี้วัดที่คุณจะติดตามเพื่อประเมินความสำเร็จ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับ [การตั้งค่าและการรันการทดลอง](experimentation-overview.md) บนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในบทความที่แยกต่างหาก 
 
 [ ![การเดินทางของผู้ใช้การทดสอบ - ระบุ](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 

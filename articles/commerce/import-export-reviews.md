@@ -1,6 +1,6 @@
 ---
 title: นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์
-description: หัวข้อนี้อธิบายวิธีการนําเข้าและส่งออกการให้คะแนนและบทวิจารณ์ผลอตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการนําเข้าและส่งออกการให้คะแนนและบทวิจารณ์ผลอตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863412"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>นําเข้าและส่งออกการให้คะแนนและบทวิจารณ์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการนําเข้าและส่งออกการให้คะแนนและบทวิจารณ์ผลอตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการนําเข้าและส่งออกการให้คะแนนและบทวิจารณ์ผลอตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce เสนอ [การให้คะแนนและบทวิจารณ์](ratings-reviews-overview.md) เป็นโซลูชันช่องทาง Omni เมื่อคุณสลับไปยังโซลูชันการให้คะแนนและบทวิจารณ์ของ Dynamics 365 Commerce คุณอาจต้องการย้ายข้อมูลการให้คะแนนและบทวิจารณ์ที่มีอยู่ไปยังแพลตฟอร์ม Commerce คุณยังอาจต้องการส่งออกข้อมูลการให้คะแนนและบทวิจารณ์จาก Commerce ตามความต้องการทางธุรกิจของคุณด้วย ตัวเชื่อมต่อ Power Automate ช่วยให้คุณสามารถนําเข้าการให้คะแนนและบทวิจารณ์ไปยัง Commerce และส่งออกจาก Commerce ได้
 

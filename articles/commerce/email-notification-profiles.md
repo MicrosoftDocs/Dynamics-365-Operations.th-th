@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าโปรไฟล์การแจ้งเตือนทางอีเมล
-description: หัวข้อนี้อธิบายวิธีสร้างโปรไฟล์การแจ้งเตือนทางอีเมลใน Microsoft Dynamics 365 Commerce
+title: ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
+description: บทความนี้อธิบายวิธีสร้างโปรไฟล์การแจ้งเตือนทางอีเมลใน Microsoft Dynamics 365 Commerce
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878497"
 ---
 # <a name="set-up-an-email-notification-profile"></a>ตั้งค่าโพรไฟล์การแจ้งเตือนทางอีเมล
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีสร้างโปรไฟล์การแจ้งเตือนทางอีเมลใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีสร้างโปรไฟล์การแจ้งเตือนทางอีเมลใน Microsoft Dynamics 365 Commerce
 
 เมื่อคุณสร้างช่องทางการขาย คุณจะสามารถตั้งค่าโปรไฟล์การแจ้งเตือนอีเมลได้  โพรไฟล์การแจ้งเตือนทางอีเมลจะกําหนดเหตุการณ์ของธุรกรรมการขาย (เช่น ใบสั่งที่สร้างขึ้น ใบสั่งที่บรรจุ และเหตุการณ์ที่ออกใบแจ้งหนี้แล้วของใบสั่ง) ที่คุณจะส่งการแจ้งเตือนถึงลูกค้าของคุณ 
 

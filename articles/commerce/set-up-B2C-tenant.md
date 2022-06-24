@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าผู้เช่า B2C ใน Commerce
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าผู้เช่าของธุรกิจ-ผู้บริโภค (B2C) ของ Azure Active Directory (Azure AD) ของคุณสำหรับการตรวจสอบความถูกต้องของไซต์ของผู้ใช้ใน Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการตั้งค่าผู้เช่าของธุรกิจ-ผู้บริโภค (B2C) ของ Azure Active Directory (Azure AD) ของคุณสำหรับการตรวจสอบความถูกต้องของไซต์ของผู้ใช้ใน Dynamics 365 Commerce
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853752"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>ตั้งค่าผู้เช่า B2C ใน Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าผู้เช่าของธุรกิจ-ผู้บริโภค (B2C) ของ Azure Active Directory (Azure AD) ของคุณสำหรับการตรวจสอบความถูกต้องของไซต์ของผู้ใช้ใน Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการตั้งค่าผู้เช่าของธุรกิจ-ผู้บริโภค (B2C) ของ Azure Active Directory (Azure AD) ของคุณสำหรับการตรวจสอบความถูกต้องของไซต์ของผู้ใช้ใน Dynamics 365 Commerce
 
 Dynamics 365 Commerce ใช้ Azure AD B2C เพื่อสนับสนุนข้อมูลประจำตัวของผู้ใช้และขั้นตอนการตรวจสอบความถูกต้อง ผู้ใช้สามารถลงชื่อสมัคร ลงชื่อเข้าใช้ และรีเซ็ตรหัสผ่านของพวกเขาได้ผ่านขั้นตอนเหล่านี้ Azure AD B2C จัดเก็บข้อมูลการตรวจสอบความถูกต้องของผู้ใช้ที่สำคัญ เช่น ชื่อผู้ใช้ และรหัสผ่าน เรกคอร์ดผู้ใช้ในผู้เช่าของ B2C จะจัดเก็บเรกคอร์ดบัญชีเฉพาะที่ของ B2C หรือเรกคอร์ดผู้ให้บริการข้อมูลเฉพาะตัวทางสังคมของ B2C เรกคอร์ด B2C เหล่านี้จะเชื่อมโยงกลับไปยังเรกคอร์ดลูกค้าในสภาพแวดล้อม Commerce
 

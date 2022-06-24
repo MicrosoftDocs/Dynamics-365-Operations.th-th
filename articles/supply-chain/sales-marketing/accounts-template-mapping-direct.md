@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management
-description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์บัญชีจาก Dynamics 365 Sales ไปยัง Supply Chain Management
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์บัญชีจาก Dynamics 365 Sales ไปยัง Supply Chain Management
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851578"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังรายชื่อลูกค้าใน Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8063096"
 > [!NOTE]
 > ก่อนที่คุณจะสามารถใช้โซลูชันผู้มีแนวโน้มจะเป็นลูกค้าเงินสด คุณควรคุ้นเคยกับ [รวมข้อมูลลงใน Microsoft Dataverse สำหรับแอป](/powerapps/administrator/data-integrator)
 
-หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์บัญชีจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management โดยตรง
+บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการซิงโครไนส์บัญชีจาก Dynamics 365 Sales ไปยัง Dynamics 365 Supply Chain Management โดยตรง
 
 ## <a name="data-flow-in-prospect-to-cash"></a>โฟลว์ข้อมูลทในผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสด
 
@@ -101,7 +101,7 @@ ms.locfileid: "8063096"
 
 ![การแมปเทมเพลตในการรวมข้อมูล](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 
 [ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด](prospect-to-cash.md)

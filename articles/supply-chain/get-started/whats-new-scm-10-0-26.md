@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.26
+description: บทความนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management 10.0.26
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850770"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.26 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1192 และพร้อมใช้งานดังนี้:
+บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.26 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.1192 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** มีนาคม 2022
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** เมษายน 2022
@@ -29,7 +29,7 @@ ms.locfileid: "8625264"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ เราอาจอัปเดตหัวข้อนี้เพื่อรวมคุณลักษณะที่ทำให้เกิดการสร้าง หลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ เราอาจอัปเดตบทความนี้เพื่อรวมคุณลักษณะที่ทำให้เกิดการสร้าง หลังจากที่มีการเผยแพร่บทความนี้ในครั้งแรก
 
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
@@ -56,11 +56,11 @@ ms.locfileid: "8625264"
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัปเดต
 
-เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตส่วนความช่วยเหลือต่อไปนี้อย่างมาก หัวข้อเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
+เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตบทความความช่วยเหลือต่อไปนี้อย่างมาก บทความเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
 
-| พื้นที่คุณลักษณะ | หัวข้อใหม่หรือที่อัปเดต |
+| พื้นที่คุณลักษณะ | บทความใหม่หรือที่อัปเดต |
 |---|---|
-| การจัดการต้นทุน | ตัวอย่างและแผนภาพที่อัปเดตถูกเพิ่มลงในแต่ละหัวข้อต่อไปนี้<ul><li>[FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO ที่มีค่าจริงและมีการทำเครื่องหมาย](../cost-management/lifo-physical-value-marking.md)</li><li>[วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย](../cost-management/lifo-date-physical-value-marking.md)</li><li>[ราคาต้นทุนถัวเฉลี่ย](../cost-management/running-average-cost-price.md)</li><li>[ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| การจัดการต้นทุน | ตัวอย่างและแผนภาพที่อัปเดตถูกเพิ่มลงในแต่ละบทความต่อไปนี้<ul><li>[FIFO ที่มีมูลค่าจริงและมีการทำเครื่องหมาย](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO ที่มีค่าจริงและมีการทำเครื่องหมาย](../cost-management/lifo-physical-value-marking.md)</li><li>[วันที่ LIFO ที่มีค่าจริงและทำเครื่องหมาย](../cost-management/lifo-date-physical-value-marking.md)</li><li>[ราคาต้นทุนถัวเฉลี่ย](../cost-management/running-average-cost-price.md)</li><li>[ค่าเฉลี่ยถ่วงน้ำหนักที่มีมูลค่าจริงและการทำเครื่องหมาย](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | การจัดซื้อและการจัดหา | [ความขัดแย้งของข้อมูลรายการใบสั่งซื้อ](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
@@ -81,12 +81,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.26 รวมถึง Platfo
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
-หัวข้อ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
+บทความ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
 
 - คุณลักษณะที่ *ถูกลบ* จะไม่พร้อมใช้งานในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *ถูกยกเลิกการใช้* ไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
 
-ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
+ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในบทความ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
 

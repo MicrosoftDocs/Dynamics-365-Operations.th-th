@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
-description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่จะใช้ในการซิงโครไนส์ใบสั่งงานใน Field Service เข้ากับใบสั่งขายใน Supply Chain Management
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860535"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายเข้าด้วยกันใน Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061320"
 
 
 
-หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบสั่งงานใน Dynamics 365 Field Service ไปยังใบสั่งขายใน Dynamics 365 Supply Chain Management ตรงกัน
+บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ในการทำให้ข้อมูลใบสั่งงานใน Dynamics 365 Field Service ไปยังใบสั่งขายใน Dynamics 365 Supply Chain Management ตรงกัน
 
 [![การซิงโครไนส์ของกระบวนการทางธุรกิจระหว่าง Supply Chain Management และ Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ ms.locfileid: "8061320"
 
 โดยค่าเริ่มต้น การแมปเลือกจุดเริ่มต้นการขายสำหรับชนิดจุดเริ่มต้นการขาย **การรวมใบสั่งงาน** สำหรับใบสั่งขายทั้งหมดที่สร้างขึ้นจากใบสั่งงาน ลักษณะการทำงานนี้จะมีประโยชน์เมื่อคุณจัดการใบสั่งขายใน Supply Chain Management คุณต้องแน่ใจว่า ใบสั่งขายที่มีต้นกำเนิดมาจากใบสั่งงานไม่ได้ถูกซิงโครไนส์กลับไปยัง Field Service เป็นใบสั่งงาน
 
-สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างการตั้งค่าจุดเริ่มต้นการขายที่ถูกต้องใน Supply Chain Management ดูส่วน "เงื่อนไขเบื้องต้นและการตั้งค่าการแมป" ของหัวข้อนี้
+สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างการตั้งค่าจุดเริ่มต้นการขายที่ถูกต้องใน Supply Chain Management ดูส่วน "เงื่อนไขเบื้องต้นและการตั้งค่าการแมป" ของบทความนี้
 
 ### <a name="status"></a>สถานะ
 

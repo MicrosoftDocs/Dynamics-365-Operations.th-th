@@ -1,6 +1,6 @@
 ---
 title: การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี
-description: หัวข้อนี้อธิบายวิธีการใช้การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชีใน Microsoft Dynamics 365 Supply Chain Management
+description: บทความนี้อธิบายวิธีการใช้การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชีใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863750"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชีใน Microsoft Dynamics 365 Supply Chain Management
+บทความนี้อธิบายวิธีการใช้การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชีใน Microsoft Dynamics 365 Supply Chain Management
 
 การประมวลผลที่รอการตัดบัญชีจะทำให้ผู้ปฏิบัติงานคลังสินค้ายังคงสามารถดำเนินการงานอื่นได้ ในขณะที่การดำเนินการส่งสินค้าถูกประมวลผลในเบื้องหลัง การประมวลผลที่รอการตัดบัญชีมีประโยชน์ เมื่อเซิร์ฟเวอร์สามารถมีการเพิ่มเป็นครั้งคราวหรือไม่ได้วางแผนไว้ในเวลาประมวลผล และเวลาการประมวลผลที่เพิ่มขึ้นอาจส่งผลกระทบต่อประสิทธิภาพการทำงานของผู้ปฏิบัติงาน ขณะนี้ได้มีการเพิ่มชนิดงาน *ความเคลื่อนไหวของสินค้าคงคลัง* ลงในชุดของชนิดงานที่คุณลักษณะนี้สนับสนุน
 

@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851897"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>แค็ตตาล็อกการเรียนรู้ของที่ปรึกษาด้านการทำงานของ Dynamics 365 Supply Chain Management
 
@@ -68,7 +68,7 @@ ms.locfileid: "8672107"
 | [หลักสูตร MB-300T01: ลักษณะการทำงานหลักโดยทั่วไปของ Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | หลักสูตรนี้กล่าวถึงลักษณะการทำงานหลักโดยทั่วไปของ Microsoft Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
 | [หลักสูตร MB-300T02-A: การตั้งค่าคอนฟิกหลักใน Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | หลักสูตรนี้กล่าวถึงงานการตั้งค่าคอนฟิกหลักสำหรับ Microsoft Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
 | [หลักสูตร MB-300T03-A: การย้ายข้อมูลและการจัดเตรียมสำหรับการเริ่มใช้งานจริงด้วย Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | หลักสูตรนี้จะกล่าวถึงการย้ายข้อมูลและการจัดเตรียมการเริ่มใช้งานจริงสำหรับ Microsoft Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |
-| [โฮมเพจรอบการใช้งาน](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | หัวข้อต่อไปนี้อธิบายโปรแกรม เครื่องมือ และกระบวนการที่มีอยู่ซึ่งเกี่ยวข้องกับระยะเวลาการใช้งานของโครงการของคุณ Microsoft Dynamics 365 for Finance and Operations | คู่มือ | |
+| [โฮมเพจรอบการใช้งาน](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | บทความต่อไปนี้อธิบายโปรแกรม เครื่องมือ และกระบวนการที่มีอยู่ซึ่งเกี่ยวข้องกับระยะเวลาการใช้งานของโครงการของคุณ Microsoft Dynamics 365 for Finance and Operations | คู่มือ | |
 
 ## <a name="migration-and-upgrade"></a>การย้ายและการอัปเกรด<a name="migration"></a>
 
@@ -105,7 +105,7 @@ ms.locfileid: "8672107"
 | [Warehouse Mobile App (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | การพูดคุยเกี่ยวกับเทคโนโลยีนี้กล่าวถึงระบบการจัดการคลังสินค้าขั้นสูงใน Dynamics 365 for Operations และอนาคตจะเก็บอะไรสำหรับอินเทอร์เฟสเคลื่อนที่ของการจัดการคลังสินค้าขั้นสูง เราจะตรวจสอบแอปพลิเคชันเคลื่อนที่ใหม่ที่มีการนำออกใช้และวิธีการเปรียบเทียบกับ WMDP ดั้งเดิม เราจะเรียนรู้สิ่งที่จำเป็นในการติดตั้งตั้งค่าคอนฟิก และการใช้งานแอปพลิเคชันเคลื่อนที่นี้ และวิธีการที่สามารถใช้เพื่อให้ได้ประโยชน์การใช้งานของคุณ | การบันทึกการประชุมผ่านเว็บฟรี | 54 นาที |
 | [การทำงานร่วมกันกับผู้จัดจำหน่าย(DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | การพูดคุยเกี่ยวกับเทคโนโลยีนี้จะช่วยให้คุณทำงานร่วมกันกับผู้จัดจำหน่ายรวมถึงการตอบสนองปริมาณการใช้จากลักษณะการทำงานของผู้จัดจำหน่ายที่รวมอยู่ในการนำออกใช้ในเดือนกรกฎาคม (ฤดูใบไม้ผลิ) | การบันทึกการประชุมผ่านเว็บฟรี | 58 นาที |
 | [สินค้าและกระบวนการย้ายคลังสินค้าและคลังสินค้าที่จะใช้การบริหารคลังสินค้าขั้นสูง (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | ในการพูดคุยเกี่ยวกับเทคโนโลยีนี้เราจะสอนวิธีการโยกย้ายการตั้งค่าคลังสินค้าที่มีอยู่และสินค้าที่มีธุรกรรมที่เปิดค้างไว้ในการจัดการคลังสินค้าล่วงหน้า โดยใช้ความสามารถใหม่ในการเปลี่ยนกลุ่มมิติการจัดเก็บสำหรับสินค้า และเพื่อเปิดใช้งานกระบวนการจัดการคลังสินค้าขั้นสูง | การบันทึกการประชุมผ่านเว็บฟรี | 54 นาที |
-| [โฮมเพจการบริหารห่วงโซ่อุปทาน](/dynamics365/unified-operations/supply-chain/) | หัวข้อนี้แสดงรายการของหัวข้อวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations | เอกสารประกอบ | |
+| [โฮมเพจการบริหารห่วงโซ่อุปทาน](/dynamics365/unified-operations/supply-chain/) | บทความนี้แสดงรายการของบทความวิธีใช้และแหล่งข้อมูลอื่นๆ สำหรับคุณลักษณะการบริหารห่วงโซ่อุปทานใน Microsoft Dynamics 365 for Finance and Operations | เอกสารประกอบ | |
 | [สินค้าตามความต้องการสำหรับการเบิกวัตถุดิบ (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | การพูดคุยเกี่ยวกับเทคโนโลยีนี้จะครอบคลุมการเบิกสินค้าตามวัตถุดิบและการเพิ่มเติมสินค้าตามความต้องการสำหรับการเบิกวัตถุดิบ | การบันทึกการประชุมผ่านเว็บฟรี | 38 นาที |
 | [หลักสูตร MB-330T01-A: ตั้งค่าคอนฟิกและใช้ Supply Chain Management ใน Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | หลักสูตรนี้อธิบายถึงวิธีการตั้งค่าคอนฟิกและใช้ Supply Chain Management ใน Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 2 วัน |
 | [หลักสูตร MB-330T02-A: ใช้การจัดการคุณภาพ การค้าระหว่างบริษัทและการวางแผนหลักใน Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | หลักสูตรนี้กล่าวถึงวิธีการใช้การจัดการคุณภาพ การค้าระหว่างบริษัทและการวางแผนหลักใน Dynamics 365 for Finance and Operations | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |

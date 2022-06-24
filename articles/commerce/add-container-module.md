@@ -1,6 +1,6 @@
 ---
 title: โมดูลคอนเทนเนอร์
-description: หัวข้อนี้ครอบคลุมถึงโมดูลคอนเทนเนอร์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลคอนเทนเนอร์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4406b6ee998f3094e5a8a36d4f721839ffb427e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867851"
 ---
 # <a name="container-module"></a>โมดูลคอนเทนเนอร์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลคอนเทนเนอร์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลคอนเทนเนอร์และอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลคอนเทนเนอร์เป็นโมดูลที่โฮสต์โมดูลอื่นๆไว้ภายใน วัตถุประสงค์หลักของโมดูลคอนเทนเนอร์ คือการกำหนด โดยใช้คุณสมบัติที่ตั้งค่าไว้สำหรับโครงร่างของโมดูลที่อยู่ภายใน ตัวอย่าง เช่น โมดูลเหล่านี้อาจปรากฏอยู่เคียงข้างกันในโครงร่างแบบสองคอลัมน์ สามคอลัมน์ หรือหกคอลัมน์ นอกจากนี้ยังสามารถจำกัดความกว้างของคอนเทนเนอร์ได้ หรือสามารถให้เต็มหน้าจอ นอกจากนี้คุณยังสามารถเพิ่มส่วนหัวไปยังโมดูลคอนเทนเนอร์ทั้งหมดได้อีกด้วย
 

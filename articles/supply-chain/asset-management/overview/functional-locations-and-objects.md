@@ -1,6 +1,6 @@
 ---
 title: ตำแหน่งที่ทำงานและสินทรัพย์
-description: หัวข้อนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์ การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management
+description: บทความนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์ การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750159"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875668"
 ---
 # <a name="functional-locations-and-assets"></a>ตำแหน่งที่ทำงานและสินทรัพย์
 
@@ -28,11 +28,11 @@ ms.locfileid: "6750159"
 
  
 
-หัวข้อนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์ การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management
+บทความนี้จะอธิบายตำแหน่งที่ทำงานและสินทรัพย์ในการจัดการสินทรัพย์ การจัดการสินทรัพย์เป็นโมดูลขั้นสูงสำหรับการจัดการสินทรัพและงานบำรุงรักษาใน Dynamics 365 Supply Chain Management
 
 ## <a name="overview"></a>ภาพรวม
 
-การจัดการสินทรัพย์ถูกรวมกันอย่างราบรื่นกับโมดูลหลายรายการด้วยแอป Finance and Operations อื่นๆ ภาพประกอบต่อไปนี้แสดงอินเทอร์เฟซที่มีโมดูลอื่นๆ
+การจัดการสินทรัพย์ถูกรวมกันอย่างต่อเนื่องกับโมดูลหลายรายการกับแอป Finance and Operations อื่น ภาพประกอบต่อไปนี้แสดงอินเทอร์เฟซที่มีโมดูลอื่นๆ
 
 ![แผนภาพแสดงวิธีที่การจัดการสินทรัพย์อินเทอร์เฟสกับโมดูลอื่น](media/01-overview-image.png)
 

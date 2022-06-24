@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าการกำหนดราคาตามแอททริบิวต์สำหรับผลิตภัณฑ์ที่สามารถจัดโครงแบบ
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าการกำหนดราคาตามแอททริบิวต์
+description: บทความนี้อธิบายวิธีการตั้งค่าการกำหนดราคาตามแอททริบิวต์
 author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec16a0a8078cddd433c99592aa4a7474cf923aec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849400"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>ตั้งค่าการกำหนดราคาตามแอททริบิวต์สำหรับผลิตภัณฑ์ที่สามารถจัดโครงแบบ
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าการกำหนดราคาตามแอททริบิวต์ โดยเป็นข้อกำหนดเบื้องต้น คุณต้องมีการตั้งค่าคอนฟิกรุ่นผลิตภัณฑ์ที่มีหนึ่งหรือหลายส่วนประกอบ และแอททริบิวต์ ตัวอย่างนี้ใช้แบบจำลองผลิตภัณฑ์ลำโพงระดับสูงในบริษัทข้อมูลสาธิต USMF  โดยทั่วไปผู้จัดการผลิตภัณฑ์จะใช้กระบวนงานนี้
+บทความนี้อธิบายวิธีการตั้งค่าการกำหนดราคาตามแอททริบิวต์ โดยเป็นข้อกำหนดเบื้องต้น คุณต้องมีการตั้งค่าคอนฟิกรุ่นผลิตภัณฑ์ที่มีหนึ่งหรือหลายส่วนประกอบ และแอททริบิวต์ ตัวอย่างนี้ใช้แบบจำลองผลิตภัณฑ์ลำโพงระดับสูงในบริษัทข้อมูลสาธิต USMF  โดยทั่วไปผู้จัดการผลิตภัณฑ์จะใช้กระบวนงานนี้
 
 
 ## <a name="create-a-new-price-model"></a>สร้างแบบจำลองราคาใหม่

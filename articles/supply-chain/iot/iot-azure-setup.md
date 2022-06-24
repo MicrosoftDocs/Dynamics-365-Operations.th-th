@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
-description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
+description: บทความนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7099604caa33b2a74252b48ac4eec6bc4c28ef51
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6a0d97004963e04530a2f0e5a407c04642dfd8cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859298"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>ตั้งค่าทรัพยากร Azure สำหรับเครื่องมือ IoT
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
+บทความนี้จะอธิบายถึงวิธีการสร้างและตั้งค่าคอนฟิกทรัพยากร Microsoft Azure ที่จำเป็นสำหรับเครื่องมือ IoT
 
 ## <a name="create-azure-resources"></a>สร้างแหล่งข้อมูล Azure
 

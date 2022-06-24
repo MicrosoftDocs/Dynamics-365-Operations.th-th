@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.22 (พฤศจิกายน 2021)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.22
+description: บทความนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management 10.0.22
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849516"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.22 (พฤศจิกายน 2021)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.22 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.995 และพร้อมใช้งานดังนี้:
+บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.22 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.995 และพร้อมใช้งานดังนี้:
 
 - **พรีวิวของการนำออกใช้:** กันยายน 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** ตุลาคม 2021
@@ -29,9 +29,9 @@ ms.locfileid: "7778168"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงข้อมูลและ/หรือลิงค์เพิ่มเติมไปที่เอกสารที่เกี่ยวข้อง เพื่อระบุวิธีการเปิดใช้งานคุณลักษณะ ให้ดูที่คอลัมน์ *เปิดใช้งานโดย* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้การจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เราอาจอัพเดตหัวข้อนี้เพื่อรวมคุณลักษณะที่ทำให้เกิดการสร้าง หลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ คอลัมน์ *คุณลักษณะ* จะแสดงลิงค์ไปยัง [แผนการนำออกใช้](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) ซึ่งคุณสามารถดูวันที่นำออกใช้ที่เป็นทางการของแต่ละคุณลักษณะได้ คอลัมน์ *ข้อมูลเพิ่มเติม* จะแสดงข้อมูลและ/หรือลิงค์เพิ่มเติมไปที่เอกสารที่เกี่ยวข้อง เพื่อระบุวิธีการเปิดใช้งานคุณลักษณะ ให้ดูที่คอลัมน์ *เปิดใช้งานโดย* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้การจัดการคุณลักษณะ ดูที่ [ภาพรวมของการจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เราอาจอัปเดตบทความนี้เพื่อรวมคุณลักษณะที่ทำให้เกิดการสร้าง หลังจากที่มีการเผยแพร่บทความนี้ในครั้งแรก
 
-| พื้นที่คุณลักษณะ | ลักษณะการทำงาน | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
+| พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
 | การวางแผน | [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับการปันส่วนทรัพยากรตามกำลังการผลิต](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [การจัดกำหนดการด้วยการเลือกทรัพยากรตามความสามารถ](../master-planning/planning-optimization/capability-based-scheduling.md) | การจัดการคุณลักษณะ (*การจัดกำหนดการกำลังการผลิตที่ไม่จำกัดสำหรับการเพิ่มประสิทธิภาพการวางแผน*) |
 
@@ -47,9 +47,9 @@ ms.locfileid: "7778168"
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัพเดต
 
-เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัพเดตส่วนความช่วยเหลือต่อไปนี้อย่างมาก หัวข้อเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
+เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตบทความความช่วยเหลือต่อไปนี้อย่างมาก บทความเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
 
-| พื้นที่คุณลักษณะ | หัวข้อใหม่หรือที่อัปเดต |
+| พื้นที่คุณลักษณะ | บทความใหม่หรือที่อัปเดต |
 |---|---|
 | การจัดการการเปลี่ยนแปลงทางวิศวกรรม | [ภาพรวมของการจัดการการเปลี่ยนแปลงทางวิศวกรรม](../engineering-change-management/product-engineering-overview.md) ขณะนี้แสดงรายการคุณลักษณะที่ไม่จำเป็นซึ่งเกี่ยวข้องทั้งหมดที่พร้อมใช้งานในการจัดการคุณลักษณะ |
 | การวางแผนหลัก | [การตั้งค่าการคาดการณ์ความต้องการ](../master-planning/demand-forecasting-setup.md) |
@@ -58,9 +58,9 @@ ms.locfileid: "7778168"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update สำหรับแอป Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น 10.0.22 ของแอป Finance and Operations (พฤศจิกายน 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น 10.0.22 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -74,12 +74,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platfo
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
-หัวข้อ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
+บทความ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
 
 - คุณลักษณะที่ *ถูกลบ* จะไม่พร้อมใช้งานในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *ถูกยกเลิกการใช้* ไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
 
-ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
+ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในบทความ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
 

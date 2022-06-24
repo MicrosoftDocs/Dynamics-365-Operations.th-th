@@ -1,6 +1,6 @@
 ---
-title: เคล็ดลับการแสดงผลสินค้าคงคลัง
-description: หัวข้อนี้มีบางสิ่งที่คุณควรพิจารณาเมื่อคุณตั้งค่าและใช้ Add-in ของการแสดงผลสินค้าคงคลัง
+title: เคล็ดลับของ Inventory Visibility
+description: บทความนี้มีบางสิ่งที่คุณควรพิจารณาเมื่อคุณตั้งค่าและใช้ Add-in ของการแสดงผลสินค้าคงคลัง
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885970"
 ---
 # <a name="inventory-visibility-tips"></a>เคล็ดลับการแสดงผลสินค้าคงคลัง
 
@@ -34,5 +34,6 @@ ms.locfileid: "7952426"
 - ถ้าคุณเพิ่มหน่วยวัดใหม่หนึ่งรายการในสภาพแวดล้อม Supply Chain Management ของคุณ คุณควรเพิ่มหน่วยวัดเหล่านั้นในการมองเห็นสินค้าคงคลังด้วย อย่างไรก็ตาม การเปลี่ยนแปลงปริมาณทั้งหมดในหน่วยวัดใหม่ต้องมาจาก Supply Chain Management ของคุณเช่นกัน
 - [การตั้งค่าคอนฟิกพาร์ติชัน](inventory-visibility-configuration.md#partition-configuration) ในปัจจุบันประกอบด้วยมิติพื้นฐานสองมิติ (`SiteId` และ `LocationId`) ที่บ่งชี้ว่ามีการกระจายข้อมูลอย่างไร การดําเนินงานภายใต้พาร์ติชันเดียวกันสามารถส่งประสิทธิภาพที่สูงกว่าที่ต้นทุนต่ำกว่าได้ โซลูชันมีการตั้งค่าคอนฟิกพาร์ติชันนี้ตามค่าเริ่มต้น ดังนั้น *คุณไม่ต้องกำหนดด้วยตนเอง* อย่าเลือกกําหนดการตั้งค่าคอนฟิกพาร์ติชันเริ่มต้นเอง ถ้าคุณลบหรือเปลี่ยนแปลง คุณอาจทําให้เกิดข้อผิดพลาดที่ไม่คาดคิด
 - ไม่ควรกําหนดมิติพื้นฐานที่ถูกกําหนดในการตั้งค่าคอนฟิกพาร์ติชันใน [การตั้งค่าคอนฟิกลำดับชั้นของดัชนีผลิตภัณฑ์](inventory-visibility-configuration.md#index-configuration)
+- [การตั้งค่าคอนฟิกลำดับชั้นของดัชนีผลิตภัณฑ์](inventory-visibility-configuration.md#index-configuration) ของคุณต้องรวมลำดับชั้นดัชนีอย่างน้อยหนึ่งลำดับ (ตัวอย่างเช่น ที่ประกอบด้วยมิติพื้นฐาน `Empty`) มิฉะนั้น การสอบถามจะล้มเหลวโดยมีข้อผิดพลาด "ไม่ได้ตั้งค่าลำดับชั้นดัชนีไว้"
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

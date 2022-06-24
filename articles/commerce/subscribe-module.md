@@ -1,6 +1,6 @@
 ---
 title: โมดูลการสมัครเป็นสมาชิก
-description: หัวข้อนี้ครอบคลุมถึงโมดูลการสมัครเป็นสมาชิก และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลการสมัครเป็นสมาชิก และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: efc9150ea5ddeb7051f82fb07c4d566ac8a48dfa
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 23b74f5853ffb7f191ea7ee3da0d3238db339d34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852704"
 ---
 # <a name="subscribe-module"></a>โมดูลการสมัครเป็นสมาชิก
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลการสมัครเป็นสมาชิก และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลการสมัครเป็นสมาชิก และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 
 สามารถใช้โมดูลการสมัครเป็นสมาชิกบนหน้าไซต์เพื่อรวบรวมข้อมูลลูกค้าเกี่ยวกับจดหมายข่าวหรือโปรโมชัน
 

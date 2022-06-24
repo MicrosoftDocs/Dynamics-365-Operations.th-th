@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าช่องทางออนไลน์
-description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางออนไลน์ใหม่ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการสร้างช่องทางออนไลน์ใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 ms.date: 02/04/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: fe137fe0c69a5b9613086c66366b064194b9b6c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864940"
 ---
 # <a name="set-up-an-online-channel"></a>ตั้งค่าช่องทางออนไลน์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางออนไลน์ใหม่ใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการสร้างช่องทางออนไลน์ใหม่ใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce รองรับช่องทางการขายปลีกที่หลากหลาย ช่องทางการขายปลีกเหล่านี้รวมร้านค้าออนไลน์ ศูนย์บริการ และร้านค้าปลีก (เรียกอีกอย่างหนึ่งว่า ร้านค้าที่ให้บริการจริง) ร้านค้าออนไลน์ให้มีตัวเลือกการซื้อเพื่อให้ลูกค้าสามารถซื้อผลิตภัณฑ์จากร้านค้าออนไลน์ของผู้ค้าปลีกได้ นอกเหนือจากร้านค้าปลีก
 

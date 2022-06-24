@@ -1,6 +1,6 @@
 ---
-title: รวม Customer Voice บนหน้าไซต์อีคอมเมิร์ซ
-description: หัวข้อนี้อธิบายวิธีการรวม Microsoft Dynamics 365 Customer Voice ไปยังหน้าไซต์อีคอมเมิร์ซ Dynamics 365 Commerce
+title: รวม Customer Voice เข้ากับหน้าไซต์อีคอมเมิร์ซ
+description: บทความนี้อธิบายวิธีการรวม Microsoft Dynamics 365 Customer Voice ไปยังหน้าไซต์อีคอมเมิร์ซ Dynamics 365 Commerce
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850341"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>รวม Customer Voice บนหน้าไซต์อีคอมเมิร์ซ
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>รวม Customer Voice เข้ากับหน้าไซต์อีคอมเมิร์ซ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการรวม Microsoft Dynamics 365 Customer Voice ไปยังหน้าไซต์อีคอมเมิร์ซ Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการรวม Microsoft Dynamics 365 Customer Voice ไปยังหน้าไซต์อีคอมเมิร์ซ Dynamics 365 Commerce
 
 คุณสามารถรวม [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) ไปยังไซต์อีคอมเมิร์ซเพื่อรวบรวม วิเคราะห์ และติดตามข้อคิดเห็นของลูกค้าแบบเรียลไทม์ได้ หากต้องการเริ่มต้นการรวม คุณต้องสร้างบัญชีและเลือกเทมเพลตโครงการ Customer Voice สำหรับชนิดข้อคิดเห็นที่คุณต้องการรวบรวม
 
@@ -37,7 +37,7 @@ ms.locfileid: "8767968"
 1. เลือกเทมเพลตโครงการสำหรับชนิดข้อคิดเห็นที่คุณต้องการรวบรวม แล้วเลือก **ถัดไป**
 1. บนแท็บ **ส่ง** ภายใต้ **เลือกรูปแบบการฝัง** ให้เลือกรูปแบบการฝัง ฟิลด์ **รหัสที่ฝัง** จะแสดงรหัสที่ต้องฝังอยู่ในโปรแกรมสร้างไซต์ Commerce
 
-ตัวอย่างในหัวข้อนี้ใช้เทมเพลตโครงการ **การสำรวจลูกค้าประจำงวด** และรูปแบบที่ฝัง **ปุ่ม**
+ตัวอย่างในบทความนี้ใช้เทมเพลตโครงการ **การสำรวจลูกค้าประจำงวด** และรูปแบบที่ฝัง **ปุ่ม**
 
 ตัวอย่างต่อไปนี้แสดงหน้าเทมเพลตโครงการ **การสำรวจลูกค้าประจำงวด** โดยตัวเลือกสำหรับรูปแบบที่ฝัง **ปุ่ม** ถูกเลือกไว้ และโค้ดฝังตัวสำหรับตัวเลือกนั้นจะปรากฏขึ้นในฟิลด์ **โค้ดฝังตัว** สามการดำเนินการที่แยกกันจำเป็นเพื่อฝังโค้ดที่ให้ไว้ในหน้าไซต์ของคุณ ตามที่ระบุไว้ในส่วนต่อไปนี้
 

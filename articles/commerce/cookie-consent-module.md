@@ -1,6 +1,6 @@
 ---
 title: โมดูลการยินยอมใช้คุกกี้
-description: หัวข้อนี้ครอบคลุมถึงโมดูลการยินยอมใช้คุกกี้และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลการยินยอมใช้คุกกี้และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 514f54ea6ff05dc3e0885f21af176453dd604848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878606"
 ---
 # <a name="cookie-consent-module"></a>โมดูลการยินยอมใช้คุกกี้
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลการยินยอมใช้คุกกี้และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลการยินยอมใช้คุกกี้และอธิบายวิธีการเพิ่มลงในหน้าไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูลการยินยอมใช้คุกกี้จะแจ้งให้ผู้ใช้เว็บไซต์ให้ความยินยอมอย่างชัดแจ้งเพื่อให้คุกกี้สำหรับคุณลักษณะหรือโมดูลใดๆ ที่ติดตามคุกกี้ของเบราว์เซอร์ ต้องการความยินยอมในครั้งแรกที่ผู้ใช้ไซต์เรียกดูไซต์ในเซสชันของเบราว์เซอร์ใหม่ เมื่อได้รับความยินยอม จะมีการติดตามและผู้ใช้ไซต์จะไม่ได้รับการแจ้งเตือนสำหรับความยินยอมอีกครั้ง สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การปฏิบัติตามข้อกำหนดคุกกี้](cookie-compliance.md)
 

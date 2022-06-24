@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของธีม Adventure Works
-description: หัวข้อนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 12/03/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 34ea24e2d81a69d720973455492f9e05ed34dd81
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4f13d6c1c4b0e2764c22dc3d7311c726fac7989d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874998"
 ---
 # <a name="adventure-works-theme-overview"></a>ภาพรวมของธีม Adventure Works
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้แสดงภาพรวมของธีม Adventure Works และอธิบายวิธีการใช้ธีมนี้กับเพจไซต์ใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce มีธีมของอีคอมเมิร์ซ ที่ชื่อ Adventure Works ธีม Adventure Works แสดงกีฬาและผลิตภัณฑ์ที่ส่งเสริม และเพิ่มประสิทธิภาพให้กับประสบการณ์การเล่าเรื่องเพิ่มเติมและหลากหลาย โครงร่างนี้จะให้รูปลักษณ์สมัยใหม่ โครงร่างใหม่ และผลกระทบของภาพเคลื่อนไหว เพื่อสร้างประสบการณ์การซื้อสินค้าออนไลน์ที่สมจริง น่าสนใจ ให้กับลูกค้าอีคอมเมิร์ซ
 

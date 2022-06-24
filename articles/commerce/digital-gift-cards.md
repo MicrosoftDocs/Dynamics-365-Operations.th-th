@@ -1,6 +1,6 @@
 ---
 title: บัตรของขวัญดิจิทัลอีคอมเมิร์ซ
-description: หัวข้อนี้จะอธิบายวิธีการทำงานบัตรของขวัญดิจิทัลในการใช้งานอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce นอกจากนี้ ยังแสดงภาพรวมของขั้นตอนการตั้งค่าคอนฟิกที่สําคัญด้วย
+description: บทความนี้จะอธิบายวิธีการทำงานบัตรของขวัญดิจิทัลในการใช้งานอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce นอกจากนี้ ยังแสดงภาพรวมของขั้นตอนการตั้งค่าคอนฟิกที่สําคัญด้วย
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884915"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>บัตรของขวัญดิจิทัลอีคอมเมิร์ซ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการทำงานบัตรของขวัญดิจิทัลในการใช้งานอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce นอกจากนี้ ยังแสดงภาพรวมของขั้นตอนการตั้งค่าคอนฟิกที่สําคัญด้วย
+บทความนี้จะอธิบายวิธีการทำงานบัตรของขวัญดิจิทัลในการใช้งานอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce นอกจากนี้ ยังแสดงภาพรวมของขั้นตอนการตั้งค่าคอนฟิกที่สําคัญด้วย
 
 ใน Dynamics 365 Commerce การซื้อบัตรของขวัญดิจิทัลจะเป็นไปตามโฟลว์เดียวกันกับการซื้อผลิตภัณฑ์อื่นๆ ในระบบ ไม่ต้องตั้งค่าคอนฟิกโมดูลเพิ่มเติม ถ้ามีการเพิ่มบัตรของขวัญหลายใบลงในรถเข็น รายการบัตรของขวัญจะถูกไม่รวมอยู่ในรายการขายเดียว ต้องระบุลักษณะการทำงานนี้ เนื่องจากมีการออกใบแจ้งหนี้รายการขายแต่ละรายการโดยใช้หมายเลขบัตรของขวัญแยกต่างหาก
 

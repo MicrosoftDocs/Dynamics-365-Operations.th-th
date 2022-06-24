@@ -1,6 +1,6 @@
 ---
 title: รวม Dynamics 365 Supply Chain Management (การจัดการสินทรัพย์) ด้วย Dynamics 365 Guides
-description: หัวข้อนี้อธิบายถึงวิธีการรวมโมดูลการจัดการสินทรัพย์ใน Microsoft  Dynamics 365 Supply Chain Management ด้วย Dynamics 365 Guides เพื่อใช้ประโยชน์จากคู่มือแบบผสมความจริงในการให้บริการและลำดับงานการบำรุงรักษาในแต่ละวัน
+description: บทความนี้อธิบายถึงวิธีการรวมโมดูลการจัดการสินทรัพย์ใน Microsoft  Dynamics 365 Supply Chain Management ด้วย Dynamics 365 Guides เพื่อใช้ประโยชน์จากคู่มือแบบผสมความจริงในการให้บริการและลำดับงานการบำรุงรักษาในแต่ละวัน
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875697"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>รวม Dynamics 365 Supply Chain Management (การจัดการสินทรัพย์) ด้วย Dynamics 365 Guides
 
@@ -47,7 +47,7 @@ ms.locfileid: "7568266"
 
 เมื่อต้องการเชื่อมโยงคู่มือกับแม่แบบรายการตรวจสอบการบำรุงรักษา ให้ทำตามขั้นตอนต่อไปนี้
 
-1. สร้างคู่มือโดยใช้แอป Dynamics 365 Guides PC และแอป HoloLens สำหรับข้อมูลเกี่ยวกับวิธีสร้างคูมือ ให้ดูหัวข้อต่อไปนี้:
+1. สร้างคู่มือโดยใช้แอป Dynamics 365 Guides PC และแอป HoloLens สำหรับข้อมูลเกี่ยวกับวิธีสร้างคูมือ ให้ดูบทความต่อไปนี้:
 
     - [ใช้แอป PC เพื่อสร้างคู่มือ](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [ใช้แอป HoloLens เพื่อวางโฮโลแกรมของคุณ](/dynamics365/mixed-reality/guides/hololens-app-overview)

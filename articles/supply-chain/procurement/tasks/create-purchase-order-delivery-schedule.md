@@ -1,6 +1,6 @@
 ---
 title: สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง
-description: หัวข้อนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ
+description: บทความนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875259"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>สร้างใบสั่งซื้อที่มีกำหนดการจัดส่ง
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ กำหนดการจัดส่งจะใช้เมื่อปริมาณในใบสั่งหรือสมุดรายวันมีการร้องขอให้จัดส่งหลายรายการ ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปกระบวนงานนี้จะถูกดำเนินการโดยเจ้าหน้าที่จัดซื้อ
+บทความนี้อธิบายวิธีการสร้างกำหนดการจัดส่งสำหรับใบสั่งซื้อ กำหนดการจัดส่งจะใช้เมื่อปริมาณในใบสั่งหรือสมุดรายวันมีการร้องขอให้จัดส่งหลายรายการ ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF โดยทั่วไปกระบวนงานนี้จะถูกดำเนินการโดยเจ้าหน้าที่จัดซื้อ
 
 ## <a name="create-a-delivery-schedule"></a>สร้างกำหนดการการจัดส่ง
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > การจัดซื้อและการจัดหา > ใบสั่งซื้อ > ใบสั่งซื้อทั้งหมด**

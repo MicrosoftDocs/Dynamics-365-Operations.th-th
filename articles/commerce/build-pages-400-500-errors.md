@@ -1,6 +1,6 @@
 ---
 title: สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx
-description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b56d7a58659205ce4483480fd85d1c91ae52a0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882270"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>สร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx/5xx
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายถึงวิธีการสร้างหน้าการตอบสนองที่กำหนดเองสำหรับข้อผิดพลาดที่มีรหัสสถานะ 4xx และ 5xx โดยใช้เครื่องมือการสร้างใน Microsoft Dynamics 365 Commerce
 
 ถ้าคำขอหนึ่งไม่สำเร็จ เซิร์ฟเวอร์จะออกการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะของ HTTP รหัสสถานะ 404 จะถูกรวบรวมและส่งคืนถ้าหาหน้าหน้าหนึ่งไม่พบ และรหัสสถานะ 500 จะถูกรวบรวมและส่งคืนถ้าข้อผิดพลาดของเซิร์ฟเวอร์เกิดขึ้น ใน Dynamics 365 Commerce ผู้ใช้แอปพลิเคชันสามารถสร้างหน้าการตอบสนองข้อผิดพลาดที่มีรหัสสถานะที่กำหนดเองซึ่งจะแสดงต่อผู้ใช้ในการตอบสนองของข้อผิดพลาดที่มีรหัสสถานะเหล่านี้
 

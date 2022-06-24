@@ -1,6 +1,6 @@
 ---
 title: แค็ตตาล็อกของศูนย์บริการ
-description: หัวข้อนี้อธิบายฟังก์ชันเฉพาะศูนย์บริการสำหรับแค็ตตาล็อกใน Dynamics 365 Commerce
+description: บทความนี้อธิบายฟังก์ชันเฉพาะศูนย์บริการสำหรับแค็ตตาล็อกใน Dynamics 365 Commerce
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884067"
 ---
 # <a name="call-center-catalogs"></a>แค็ตตาล็อกของศูนย์บริการ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายฟังก์ชันเฉพาะศูนย์บริการที่เชื่อมโยงไปยังความสามารถแค็ตตาล็อกใน Dynamics 365 Commerce
+บทความนี้อธิบายฟังก์ชันเฉพาะศูนย์บริการที่เชื่อมโยงไปยังความสามารถแค็ตตาล็อกใน Dynamics 365 Commerce
 
 คุณลักษณะแค็ตตาล็อกที่พบใน Commerce สามารถใช้ได้สำหรับวัตถุประสงค์หลายประการ ในขั้นแรก คุณลักษณะของแค็ตตาล็อกถูกสร้างเพื่อสนับสนุนการรวมของอีคอมเมิร์ซของบุคคลที่สาม การตั้งค่าแค็ตตาล็อกอนุญาตให้บริษัทสามารถสร้างการจัดกลุ่มของผลิตภัณฑ์และแอททริบิวต์ที่สามารถเผยแพร่ภายนอกสำหรับปริมาณการใช้โดยโซลูชันอีคอมเมิร์ซของบุคคลที่สาม
 

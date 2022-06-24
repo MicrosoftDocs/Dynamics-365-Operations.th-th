@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าจุดโฟกัสของภาพ
-description: หัวข้อนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+title: ปรับแต่งจุดโฟกัสของรูปภาพ
+description: บทความนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852826"
 ---
 # <a name="customize-image-focal-points"></a>ปรับแต่งจุดโฟกัสของรูปภาพ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการปรับแต่งจุดโฟกัสของภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 
 เมื่อมีการอัพโหลดรูปภาพไปยังไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ระบบจะพยายามระบุจุดโฟกัสของรูปภาพ ตัวอย่างเช่น ถ้ารูปภาพมีบุคคลอยู่บนนั้น ระบบจะตั้งค่าจุดโฟกัสเป็นหน้าของบุคคลตามค่าเริ่มต้น ในกรณีส่วนใหญ่ การตั้งค่าจุดโฟกัสโดยอัตโนมัติจะทำงานได้ดีสำหรับ viewports ทั้งหมด แต่บางครั้งคุณอาจต้องการปรับจุดโฟกัสเพื่อให้แน่ใจว่าจะมองเห็นส่วนเฉพาะของรูปภาพเสมอ
 

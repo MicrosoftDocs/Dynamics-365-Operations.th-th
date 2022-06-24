@@ -1,6 +1,6 @@
 ---
 title: เปลี่ยนโหมดการจัดส่งใน POS
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกและใช้การดำเนินงานโหมดการเปลี่ยนแปลงการจัดส่งใน POS
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกและใช้การดำเนินงานโหมดการเปลี่ยนแปลงการจัดส่งใน POS
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855832"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>เปลี่ยนโหมดการจัดส่งใน POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าและใช้ฟังก์ชัน "เปลี่ยนโหมดการจัดส่ง" ในสภาพแวดล้อมการขายหน้าร้าน (POS) 
+บทความนี้จะอธิบายวิธีการตั้งค่าและใช้ฟังก์ชัน "เปลี่ยนโหมดการจัดส่ง" ในสภาพแวดล้อมการขายหน้าร้าน (POS) 
 
 ใน Dynamics 365 Commerce รุ่น10.0.10 และรุ่นที่ใหม่กว่า การดำเนินการ **เปลี่ยนโหมดการจัดส่ง** (647) จะพร้อมใช้งานในการเพิ่มไปยังโครงร่างหน้าจอ POS ของคุณ
 

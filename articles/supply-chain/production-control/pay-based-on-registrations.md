@@ -1,6 +1,6 @@
 ---
 title: ชำระค่าจ้างตามการลงทะเบียน
-description: หัวข้อนี้อธิบายวิธีการคำนวณการชำระค่าจ้างตามการลงทะเบียนของผู้ปฏิบัติงาน
+description: บทความนี้อธิบายวิธีการคำนวณการชำระค่าจ้างตามการลงทะเบียนของผู้ปฏิบัติงาน
 author: johanhoffmann
 ms.date: 03/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 729e2f6c7c2dac598154b342244ab3d8eccaf4d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844393"
 ---
 # <a name="pay-based-on-registrations"></a>ชำระค่าจ้างตามการลงทะเบียน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการคำนวณการชำระค่าจ้างตามการลงทะเบียนของผู้ปฏิบัติงานโดยละเอียด ซึ่งจะมีตัวอย่างที่แสดงว่า ชุดต่างๆ ของตัวเลือกการตั้งค่าที่พร้อมใช้งานสำหรับการคำนวณมีผลต่อผลลัพธ์อย่างไร นี่คือพื้นที่บางพื้นที่ที่จะครอบคลุม:
+บทความนี้อธิบายวิธีการคำนวณการชำระค่าจ้างตามการลงทะเบียนของผู้ปฏิบัติงานโดยละเอียด ซึ่งจะมีตัวอย่างที่แสดงว่า ชุดต่างๆ ของตัวเลือกการตั้งค่าที่พร้อมใช้งานสำหรับการคำนวณมีผลต่อผลลัพธ์อย่างไร นี่คือพื้นที่บางพื้นที่ที่จะครอบคลุม:
 
 - เวลายืดหยุ่น
 - งานล่วงเวลา

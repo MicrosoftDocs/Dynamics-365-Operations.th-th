@@ -1,6 +1,6 @@
 ---
 title: สร้างกลไกจัดการการจัดการขนส่งใหม่
-description: หัวข้อนี้จะอธิบายวิธีการสร้างกลไกจัดการการจัดการการขนส่งใหม่ใน Dynamics 365 Supply Chain Management
+description: บทความนี้จะอธิบายวิธีการสร้างกลไกจัดการการจัดการการขนส่งใหม่ใน Dynamics 365 Supply Chain Management
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857270"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>สร้างกลไกจัดการการจัดการขนส่งใหม่
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างกลไกจัดการการจัดการการขนส่งใหม่ใน Dynamics 365 Supply Chain Management 
+บทความนี้จะอธิบายวิธีการสร้างกลไกจัดการการจัดการการขนส่งใหม่ใน Dynamics 365 Supply Chain Management 
 
 กลไกจัดการการขนส่ง (TMS) กำหนดตรรกะที่ใช้ในการสร้าง และประมวลผลอัตราการขนส่งในการจัดการการขนส่ง Supply Chain Management มีกลไกจัดการหลายชนิดที่คํานวณพารามิเตอร์ต่างๆ เช่น อัตรา เวลาในการส่งต่อ และจํานวนของโซนที่จะถูกข้ามไปในระหว่างการส่งต่อ หัวข้อนี้อธิบายวิธีการใช้สภาพแวดล้อมการพัฒนา Microsoft Visual Studio ร่วมกับเครื่องมือการพัฒนา Supply Chain Management เพื่อสร้างและปรับใช้กลไกจัดการ TMS ใหม่ จากนั้นวิธีตั้งค่ากลไกจัดการในการดําเนินงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกลไกจัดการ โปรดดูที่ [กลไกจัดการการจัดการการขนส่ง](transportation-management-engines.md)
 

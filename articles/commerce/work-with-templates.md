@@ -1,6 +1,6 @@
 ---
 title: ใช้งานเทมเพลต
-description: หัวข้อนี้จะอธิบายวิธีการทำงานกับเทมเพลตใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการทำงานกับเทมเพลตใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881590"
 ---
 # <a name="work-with-templates"></a>ใช้งานเทมเพลต
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการทำงานกับเทมเพลตใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการทำงานกับเทมเพลตใน Microsoft Dynamics 365 Commerce
 
 ตามที่ได้กล่าวถึงใน [ภาพรวมของเทมเพลตและเค้าโครง](templates-layouts-overview.md) เทมเพลตจะกำหนดชุดตัวเลือกที่ผู้สร้างระดับล่างลงไปจะใช้งานได้ เทมเพลตจะเป็นประโยชน์สำหรับทีมงานสร้างเว็บขององค์กรด้วยเหตุผลหลายประการ และเทมเพลตที่มีโครงสร้างที่ดีสามารถช่วยเหลือกับเป้าหมายต่อไปนี้ได้ทั้งหมด:
 

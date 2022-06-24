@@ -1,6 +1,6 @@
 ---
 title: ใบสั่งตรวจสอบสินค้า
-description: หัวข้อนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
+description: บทความนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869675"
 ---
 # <a name="quarantine-orders"></a>ใบสั่งตรวจสอบสินค้า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
+บทความนี้อธิบายวิธีการใช้ใบสั่งตรวจสอบสินค้าเพื่อบล็อคสินค้าคงคลัง
 
 ใบสั่งตรวจสอบสินค้าช่วยให้คุณสามารถบล็อคสินค้าคงคลังได้ ตัวอย่างเช่น คุณอาจต้องการตรวจสอบสินค้าสำหรับเหตุผลเกี่ยวกับการควบคุมคุณภาพ สินค้าคงคลังที่ได้รับการตรวจสอบจะถูกโอนย้ายไปยังคลังสินค้าตรวจสอบสินค้า
 

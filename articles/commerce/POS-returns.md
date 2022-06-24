@@ -1,6 +1,6 @@
 ---
-title: สร้างการส่งคืนใน POS
-description: หัวข้อนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปพลิเคชันการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
+title: สร้างการส่งคืนสินค้าใน POS
+description: บทความนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปพลิเคชันการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857009"
 ---
-# <a name="create-returns-in-pos"></a>สร้างการส่งคืนใน POS
+# <a name="create-returns-in-pos"></a>สร้างการส่งคืนสินค้าใน POS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
+บทความนี้อธิบายวิธีการเริ่มต้นการส่งคืนสินค้าให้กับธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้าในแอปการขายหน้าร้านของ Microsoft Dynamics 365 Commerce (POS)
 
 > [!NOTE]
 > ใน Commerce รุ่น 10.0.20 และใหม่กว่า จะมีคุณลักษณะใหม่ที่ชื่อ **ประสบการณ์การประมวลผลการส่งคืนแบบรวมใน POS** พร้อมใช้งาน คุณลักษณะนี้ให้กระบวนการส่งคืนที่สอดคล้องกันและสอดคล้องกันมากขึ้นใน POS ไม่ว่าธุรกรรมชนิดใด (ธุรกรรมเงินสดและการขนส่งหรือใบสั่งของลูกค้า) หรือช่องทางเดิมที่มีการสร้างใบสั่งในนั้น เราขอแนะนำว่าองค์กรทั้งหมดเปิดคุณลักษณะใหม่นี้เพื่อช่วยปรับปรุงความน่าเชื่อถือโดยรวมของการประมวลผลการส่งคืนผ่าน POS

@@ -1,6 +1,6 @@
 ---
-title: โมดูลหีบ
-description: หัวข้อนี้ครอบคลุมถึงโมดูลหีบเพลงและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+title: โมดูล Accordion
+description: บทความนี้ครอบคลุมถึงโมดูลหีบเพลงและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e17476d745da6f498b4f3ed90d55b0d13a0264b6
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4d5c56ea1a54e105b0c616958a18fd61077bca39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853835"
 ---
 # <a name="accordion-module"></a>โมดูล Accordion
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลหีบเพลงและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลหีบเพลงและอธิบายวิธีการเพิ่มลงในหน้าของไซต์ใน Microsoft Dynamics 365 Commerce
 
 โมดูหีบเป็นโมดูลที่คล้ายกับคอนเทนเนอร์ที่ใช้ในการจัดระเบียบข้อมูลหรือโมดูลในหน้าโดยมีความสามารถในการพับเก็บแบบลิ้นชัก โมดูลหีบสามารถใช้ในหน้าใดก็ได้
 

@@ -1,6 +1,6 @@
 ---
 title: เป้าหมายของอุปกรณ์ ตลาด และภูมิศาสตร์
-description: หัวข้อนี้จะอธิบายวิธีการสร้าง แก้ไข และจัดการผู้ชมและเป้าหมายของโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce โดยใช้ข้อมูลอุปกรณ์ ตลาด และภูมิศาสตร์
+description: บทความนี้จะอธิบายวิธีการสร้าง แก้ไข และจัดการผู้ชมและเป้าหมายของโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce โดยใช้ข้อมูลอุปกรณ์ ตลาด และภูมิศาสตร์
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881668"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>เป้าหมายของอุปกรณ์ ตลาด และภูมิศาสตร์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้าง แก้ไข และจัดการผู้ชมและเป้าหมายของโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce โดยใช้ข้อมูลอุปกรณ์ ตลาด และภูมิศาสตร์
+บทความนี้จะอธิบายวิธีการสร้าง แก้ไข และจัดการผู้ชมและเป้าหมายของโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce โดยใช้ข้อมูลอุปกรณ์ ตลาด และภูมิศาสตร์
 
 Dynamics 365 Commerce ช่วยให้คุณสามารถปรับรูปแบบต่างๆ ของเนื้อหาหน้าของคุณให้เป็นแบบส่วนตัว (หรือที่เรียกว่า *เป้าหมาย*) ให้กับกลุ่มลูกค้าเฉพาะ (หรือที่เรียกอีกอย่างว่า *ผู้ชม*) เพื่อช่วยเพิ่มการมีส่วนร่วมและความพึงพอใจของผู้ใช้ คุณสามารถสร้างผู้ชมหรือเป้าหมายอย่างใดก่อนก็ได้ อย่างไรก็ตาม ประสบการณ์เป้าหมายที่เสร็จเรียบร้อยแล้วต้องใช้ส่วนประกอบทั้งสองนี้
 

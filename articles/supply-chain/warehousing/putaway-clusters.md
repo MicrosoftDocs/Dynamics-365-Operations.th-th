@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863663"
 ---
 # <a name="putaway-clusters"></a>คลัสเตอร์ของการสำรองสินค้า
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103674"
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะคลัสเตอร์ของการสำรองสินค้า
 
-หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้ คุณต้องเปิดคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ให้กับระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+หากต้องการใช้ฟังก์ชันที่อธิบายไว้ในบทความนี้ คุณต้องเปิดคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ให้กับระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.25 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คลัสเตอร์ของการสำรองสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="setup-for-the-example-scenario"></a>การตั้งค่าสำหรับสถานการณ์ตัวอย่าง
 

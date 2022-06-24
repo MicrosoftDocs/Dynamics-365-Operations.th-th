@@ -1,6 +1,6 @@
 ---
 title: KPI สินทรัพย์
-description: หัวข้อนี้อธิบายถึง KPI สินทรัพย์ในการจัดการสินทรัพย์
+description: บทความนี้อธิบายถึง KPI สินทรัพย์ในการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef0df92edaa2ee33bd75e01a666086e32c8101af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870884"
 ---
 # <a name="asset-kpis"></a>KPI สินทรัพย์
 

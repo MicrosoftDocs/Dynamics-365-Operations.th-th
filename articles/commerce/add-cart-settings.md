@@ -1,6 +1,6 @@
 ---
 title: ใช้การตั้งค่าเพิ่มผลิตภัณฑ์ลงในรถเข็น
-description: หัวข้อนี้ครอบคลุมการตั้งค่า "เพิ่มผลิตภัณฑ์ลงในรถเข็น" และอธิบายวิธีการนำไปใช้ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมการตั้งค่า "เพิ่มผลิตภัณฑ์ลงในรถเข็น" และอธิบายวิธีการนำไปใช้ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866041"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>ใช้การตั้งค่าเพิ่มผลิตภัณฑ์ลงในรถเข็น
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมการตั้งค่า **เพิ่มผลิตภัณฑ์ลงในรถเข็น** และอธิบายวิธีการนำไปใช้ใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมการตั้งค่า **เพิ่มผลิตภัณฑ์ลงในรถเข็น** และอธิบายวิธีการนำไปใช้ใน Microsoft Dynamics 365 Commerce
 
 เวิร์กโฟลว์ที่แตกต่างกันได้รับการสนับสนุนเมื่อเพิ่มผลิตภัณฑ์ลงในรถเข็นบนไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ตัวอย่างเช่น ผู้ใช้ไซต์อาจถูกนำไปยังหน้ารถเข็น หรือ ผู้ใช้อาจยังคงอยู่ในหน้าปัจจุบัน แต่ได้รับการแจ้งเตือนที่ยืนยันว่ามีการเพิ่มผลิตภัณฑ์ลงในรถเข็น
 

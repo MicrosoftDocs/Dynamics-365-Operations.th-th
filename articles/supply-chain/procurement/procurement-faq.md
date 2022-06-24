@@ -1,6 +1,6 @@
 ---
 title: คำถามที่ถามบ่อยเกี่ยวกับการจัดซื้อ
-description: หัวข้อนี้แสดงคําตอบของคำถามที่ถามบ่อยเ (FAQ) เกี่ยวกับฟังก์ชันการจัดซื้อของ Supply Chain Management
+description: บทความนี้แสดงคําตอบของคำถามที่ถามบ่อยเ (FAQ) เกี่ยวกับฟังก์ชันการจัดซื้อของ Supply Chain Management
 author: GalynaFedorova
 ms.date: 05/31/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 718108447dcb5cec488b7fa626feb551808e8dd8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6e710b254638b255ce4aa3e0adde0dd23bf60f64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869588"
 ---
 # <a name="procurement-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการจัดซื้อ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงคําตอบของคำถามที่ถามบ่อยเ (FAQ) เกี่ยวกับฟังก์ชันการจัดซื้อของ Supply Chain Management
+บทความนี้แสดงคําตอบของคำถามที่ถามบ่อยเ (FAQ) เกี่ยวกับฟังก์ชันการจัดซื้อของ Supply Chain Management
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>ฉันจะแสดงเฉพาะใบสั่งซื้อที่ฉันสร้างขึ้นได้เท่านั้นหรือไม่
 

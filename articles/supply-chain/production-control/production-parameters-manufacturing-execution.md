@@ -1,6 +1,6 @@
 ---
 title: พารามิเตอร์การผลิตในการดำเนินการผลิต
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าพารามิเตอร์การผลิตในการดำเนินการผลิต
+description: บทความนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าพารามิเตอร์การผลิตในการดำเนินการผลิต
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873679"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>พารามิเตอร์การผลิตในการดำเนินการผลิต
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าพารามิเตอร์การผลิตในการดำเนินการผลิต
+บทความนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าพารามิเตอร์การผลิตในการดำเนินการผลิต
 
 โมดูล **การดำเนินการผลิต** มีวัตถุประสงค์ที่จะใช้ในบริษัทผู้ผลิตเป็นหลัก ซึ่งสามารถถูกใช้ลงทะเบียนเวลาและการใช้สินค้าสำหรับงานการผลิตหรือโครงการ ก่อนที่คุณจะเริ่มใช้การดำเนินการผลิตสำหรับการลงทะเบียนงาน คุณต้องตั้งค่าพารามิเตอร์การผลิตต่าง ๆ ที่กำหนดวิธีและเวลาที่การลงทะเบียนถูกลงรายการบัญชีในระหว่างกระบวนการผลิต การตั้งค่าพารามิเตอร์การผลิตมีผลกระทบต่อการบริหารสินค้าคงคลัง การบริหารการผลิต และการคำนวณต้นทุน
 

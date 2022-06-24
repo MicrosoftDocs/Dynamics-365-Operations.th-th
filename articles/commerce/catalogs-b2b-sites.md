@@ -1,6 +1,6 @@
 ---
 title: สร้างแค็ตตาล็อก Commerce สำหรับไซต์ B2B
-description: หัวข้อนี้อธิบายวิธีการสร้างแค็ตตาล็อก Commerce สำหรับไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการสร้างแค็ตตาล็อก Commerce สำหรับไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849000"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>สร้างแค็ตตาล็อก Commerce สำหรับไซต์ B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างแค็ตตาล็อกผลิตภัณฑ์ Commerce สำหรับไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce หากต้องการทราบคําตอบของคําถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับไซต์ B2B ดูที่ [คำถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับ B2B](catalogs-b2b-sites-FAQ.md)
+บทความนี้อธิบายวิธีการสร้างแค็ตตาล็อกผลิตภัณฑ์ Commerce สำหรับไซต์แบบธุรกิจกับธุรกิจ (B2B) ของ Microsoft Dynamics 365 Commerce หากต้องการทราบคําตอบของคําถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับไซต์ B2B ดูที่ [คำถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับ B2B](catalogs-b2b-sites-FAQ.md)
 
 > [!NOTE]
-> หัวข้อนี้ใช้กับ Dynamics 365 Commerce รุ่น 10.0.27 และรุ่นที่ใหม่กว่า
+> บทความนี้ใช้กับ Dynamics 365 Commerce รุ่น 10.0.27 และรุ่นที่ใหม่กว่า
 
 คุณสามารถใช้แค็ตตาล็อก Commerce เพื่อระบุผลิตภัณฑ์ที่คุณต้องการนำเสนอในร้านค้าออนไลน์ B2B ของคุณ เมื่อคุณสร้างแค็ตตาล็อก คุณสามารถระบุร้านค้าออนไลน์ที่จะเสนอผลิตภัณฑ์ เพิ่มผลิตภัณฑ์ที่คุณต้องการรวม และเพิ่มข้อเสนอผลิตภัณฑ์โดยเพิ่มรายละเอียดการจัดซื้อสินค้า คุณสามารถสร้างแค็ตตาล็อกได้หลายชุดให้กับร้านค้าออนไลน์ B2B แต่ละร้าน
 

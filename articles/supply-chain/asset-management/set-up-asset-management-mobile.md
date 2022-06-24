@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
-description: หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือเพื่อเรียกใช้พื้นที่ทำงาน การจัดการสินทรัพย์ บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+description: บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือเพื่อเรียกใช้พื้นที่ทำงาน การจัดการสินทรัพย์ บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870855"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือ เพื่อเรียกใช้พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือ เพื่อเรียกใช้พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>ตั้งค่าผู้ใช้เจ้าหน้าที่บำรุงรักษาใน Supply Chain Management
 

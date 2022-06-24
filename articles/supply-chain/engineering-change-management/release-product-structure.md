@@ -1,6 +1,6 @@
 ---
 title: นำโครงสร้างผลิตภัณฑ์ออกใช้
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถนำโครงสร้างผลิตภัณฑ์ที่เสร็จสมบูรณ์ออกใช้นอกเหนือจากการนำผลิตภัณฑ์ออกใช้ร่วมกับรุ่นวิศวกรรม ด้วยวิธีนี้ คุณสามารถตรวจสอบให้แน่ใจว่าข้อมูลผลิตภัณฑ์ที่เกี่ยวข้องกับวิศวกรรมสามารถนำมาใช้ใหม่ในนิติบุคคลที่แตกต่างกันได้
+description: บทความนี้อธิบายวิธีการที่คุณสามารถนำโครงสร้างผลิตภัณฑ์ที่เสร็จสมบูรณ์ออกใช้นอกเหนือจากการนำผลิตภัณฑ์ออกใช้ร่วมกับรุ่นวิศวกรรม ด้วยวิธีนี้ คุณสามารถตรวจสอบให้แน่ใจว่าข้อมูลผลิตภัณฑ์ที่เกี่ยวข้องกับวิศวกรรมสามารถนำมาใช้ใหม่ในนิติบุคคลที่แตกต่างกันได้
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c8359f86e5123ee40e9673971de626e1b327ac95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875494"
 ---
 # <a name="release-product-structures"></a>นำโครงสร้างผลิตภัณฑ์ออกใช้
 

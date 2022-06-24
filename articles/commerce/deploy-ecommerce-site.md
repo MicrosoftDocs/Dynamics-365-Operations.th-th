@@ -1,6 +1,6 @@
 ---
 title: ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
-description: หัวข้อนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
+description: บทความนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884015"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>ปรับใช้ผู้เช่าอีคอมเมิร์ซใหม่
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
+บทความนี้อธิบายวิธีการปรับใช้ไซต์อีคอมเมิร์ซ Dynamics 365 Commerce ใหม่โดยใช้ Microsoft Dynamics Lifecycle Services (LCS)
 
 Microsoft Dynamics Lifecycle Services (LCS) เป็นพื้นที่ทำงานที่ใช้ร่วมกันบน Cloud ซึ่งคู่ค้าและลูกค้าสามารถใช้เพื่อการจัดการโครงการและ สภาพแวดล้อมต่าง ๆ ดูข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์และลักษณะการทำงานของ Microsoft Dynamics และ สร้าง ติดตาม และเรียกดูเหตุการณ์สนับสนุน คุณลักษณะการจัดการอีคอมเมิร์ซถูกรวมเข้ากับ LCS
 
