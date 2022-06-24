@@ -1,30 +1,24 @@
 ---
 title: ส่งเสริมการเปลี่ยนแปลงและทำการทดลองให้เสร็จสมบูรณ์
-description: หัวข้อนี้อธิบายวิธีการส่งเสริมการเปลี่ยนแปลงที่ประสบความสำเร็จ และทำการทดลองให้เสร็จสมบูรณ์ใน Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการส่งเสริมการเปลี่ยนแปลงที่ประสบความสำเร็จ และทำการทดลองให้เสร็จสมบูรณ์ใน Dynamics 365 Commerce
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738757"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942754"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>ส่งเสริมการเปลี่ยนแปลงและทำการทดลองให้เสร็จสมบูรณ์
 
-หัวข้อนี้อธิบายวิธีกาส่งเสริมการเปลี่ยนแปลงที่ให้ผลลัพธ์ที่ดีที่สุดในการทดลองของคุณ และทำการทดลองให้เสร็จสมบูรณ์ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
+บทความนี้อธิบายวิธีกาส่งเสริมการเปลี่ยนแปลงที่ให้ผลลัพธ์ที่ดีที่สุดในการทดลองของคุณ และทำการทดลองให้เสร็จสมบูรณ์ แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในบทความที่แยกต่างหาก
 
 [ ![การเดินทางของผู้ใช้การทดสอบ - ทบทวนและเสร็จสมบูรณ์](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ ms.locfileid: "6738757"
 ## <a name="delete-your-experiment"></a>ลบการทดลองของคุณ
 แม้ว่าคุณจะไม่จำเป็นต้องลบการทดลองที่เสร็จสมบูรณ์ใน Commerce คุณอาจเลือกที่จะลบเพื่อประหยัดพื้นที่หรือล้างพื้นที่ทำงานของคุณ 
 
-หากต้องการลบการทดลองในโปรแกรมสร้างไซต์ Commerce ให้ทำตามขั้นตอนเหล่านี้
+หากต้องการลบการทดลองเสร็จสมบูรณ์ในโปรแกรมสร้างไซต์ Commerce ให้ทำตามขั้นตอนเหล่านี้
 
 1. เลือก **การทดลอง** ในบานหน้าต่างนำทางด้านซ้าย แล้วเลือกการทดลอง 
     > [!NOTE]

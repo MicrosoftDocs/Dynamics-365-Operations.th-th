@@ -1,6 +1,6 @@
 ---
 title: การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.28 (สิงหาคม 2022)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Microsoft Dynamics 365 Supply Chain Management 10.0.28
+description: บทความนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management 10.0.28
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 306ff9be80c7a7a947b9132e3c9b4b9ec799b265
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902066"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>การแสดงตัวอย่าง Dynamics 365 Supply Chain Management 10.0.28 (สิงหาคม 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่นพรีวิว 10.0.28 รุ่นนี้มีหมายเลขบิลด์เป็น 10.0.1264 และพร้อมใช้งานในกำหนดการต่อไปนี้:
+บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่นพรีวิว 10.0.28 รุ่นนี้มีหมายเลขบิลด์เป็น 10.0.1264 และพร้อมใช้งานในกำหนดการต่อไปนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** พฤษภาคม 2022
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** กรกฎาคม 2022
@@ -30,15 +30,14 @@ ms.locfileid: "8813115"
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในการนำออกใช้นี้
 
-ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ เราอาจอัปเดตหัวข้อนี้เพื่อรวมคุณลักษณะที่จะเพิ่มลงในบิลด์หลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+ตารางต่อไปนี้แสดงรายการคุณลักษณะที่ถูกรวมอยู่ในการนำออกใช้นี้ เราอาจอัปเดตบทความนี้เพื่อรวมคุณลักษณะที่จะเพิ่มลงในบิลด์หลังจากที่มีการเผยแพร่บทความนี้ในครั้งแรก
 
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
 | สินค้าคงคลังและลอจิสติกส์ | [เอนทิตีการรวมต้นทุนแฝงเกี่ยวกับผู้ขนส่งสินค้าของบุคคลที่สาม](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [ภาพรวมของเอนทิตีต้นทุนแฝง](../landed-cost/landed-cost-entities-overview.md) | เปิดใช้งานตามค่าเริ่มต้น |
-| การวางแผน | [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับอายุการเก็บ](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | เร็วๆ นี้ <!-- KFM: Vendor is preparing this. Expected May 20. --> | เปิดใช้งานตามค่าเริ่มต้น |
-
-<!-- KFM: Confirm status of this feature:
-| Planning | [Demand Driven Material Requirements Planning (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Coming soon | Feature management:<br>*(Preview) DDMRP for Planning Optimization* | -->
+| การวางแผน | [การวางแผนความต้องการวัสดุที่ขับเคลื่อนด้วยความต้องการ (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | เร็วๆ นี้ | การจัดการคุณลักษณะ:<br>*(พรีวิว) DDMRP สำหรับการเพิ่มประสิทธิภาพการวางแผน* |
+| การวางแผน | [การรองรับการเพิ่มประสิทธิภาพการวางแผนสำหรับปริมาณที่สามารถสัญญาได้ (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | เร็วๆ นี้ | การจัดการคุณลักษณะ:<br>*(พรีวิว) CTP สำหรับการเพิ่มประสิทธิภาพการวางแผน* |
+| การวางแผน | [การสนับสนุนการเพิ่มประสิทธิภาพการวางแผนสำหรับอายุการเก็บ](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | เร็วๆ นี้ | เปิดใช้งานตามค่าเริ่มต้น |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>การปรับปรุงคุณลักษณะรวมอยู่ในการนำออกใช้นี้
 
@@ -56,9 +55,9 @@ ms.locfileid: "8813115"
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัปเดต
 
-เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตส่วนความช่วยเหลือต่อไปนี้อย่างมาก หัวข้อเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
+เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตบทความความช่วยเหลือต่อไปนี้อย่างมาก บทความเหล่านี้อาจไม่เกี่ยวข้องกับคุณลักษณะใหม่ที่ถูกเพิ่มให้กับการนำออกใช้นี้ ตามที่แสดงรายการในส่วนก่อนหน้านี้ อย่างไรก็ตาม รายการเหล่านั้นอาจช่วยให้คุณใช้ประโยชน์ได้มากขึ้นจากคุณลักษณะที่มีอยู่
 
-| พื้นที่คุณลักษณะ | หัวข้อใหม่หรือที่อัปเดต |
+| พื้นที่คุณลักษณะ | บทความใหม่หรือที่อัปเดต |
 |---|---|
 | การจัดการต้นทุน | [ราคาการรับสินค้าแบบคงที่](../cost-management/fixed-receipt-price.md) |
 | การจัดการต้นทุน | [คำถามที่ถามบ่อยเกี่ยวกับการคิดต้นทุนสินค้าคงคลัง](../cost-management/inventory-costing-faq.md) |
@@ -69,7 +68,7 @@ ms.locfileid: "8813115"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 ของแอปการเงินและการดำเนินงาน (มิถุนายน 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 ของแอปการเงินและการดำเนินงาน (มิถุนายน 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -83,12 +82,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.28 รวมถึง Platfo
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
-หัวข้อ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
+บทความ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
 
 - คุณลักษณะที่ *ถูกลบ* จะไม่พร้อมใช้งานในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *ถูกยกเลิกการใช้* ไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
 
-ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
+ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในบทความ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
 

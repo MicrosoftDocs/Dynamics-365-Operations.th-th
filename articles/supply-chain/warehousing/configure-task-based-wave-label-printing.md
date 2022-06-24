@@ -1,6 +1,6 @@
 ---
 title: จัดกำหนดการพิมพ์ป้ายชื่อเวฟระหว่างเวฟ
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าและใช้งานฟังก์ชันในการพิมพ์ป้ายชื่อเวฟตามงาน
+description: บทความนี้จะอธิบายวิธีการตั้งค่าและใช้งานฟังก์ชันในการพิมพ์ป้ายชื่อเวฟตามงาน
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889470"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>จัดกำหนดการพิมพ์ป้ายชื่อเวฟระหว่างเวฟ
 
@@ -30,7 +30,7 @@ ms.locfileid: "7920160"
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>เปิดคุณลักษณะการพิมพ์ป้ายชื่อเวฟตามงานในการจัดการคุณลักษณะ
 
-หากต้องการใช้คุณลักษณะที่อธิบายไว้ในหัวข้อนี้ คุณลักษณะเหล่านั้นต้องเปิดอยู่เพื่อให้ระบบของคุณ ใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานคุณลักษณะในลำดับต่อไปนี้:
+หากต้องการใช้คุณลักษณะที่อธิบายไว้ในบทความนี้ คุณลักษณะเหล่านั้นต้องเปิดอยู่เพื่อให้ระบบของคุณ ใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดใช้งานคุณลักษณะในลำดับต่อไปนี้:
 
 1. *การพิมพ์ป้ายชื่อเวฟ* – คุณลักษณะนี้ต้องใช้เพื่อเปิดใช้งานวิธีการประมวลผลเวฟเพื่อการพิมพ์ป้ายชื่อเวฟ
 1. *การบล็อคงานทั่วทั้งองค์กร* - คุณลักษณะนี้ต้องใช้เพื่อการตั้งค่าคอนฟิกด้วยตนเองและอัตโนมัติของการสร้างงานที่จัดกําหนดการไว้ (ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)

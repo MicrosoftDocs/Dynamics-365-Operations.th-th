@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
-description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: d255b03242a4cb7a72cef1e8e6fab901ecf953e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910509"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับสาธารณรัฐเช็กใน Microsoft Dynamics 365 Commerce
 
 เพื่อตอบสนองความต้องการทางการเงินท้องถิ่นของเครื่องบันทึกเงินสดในสาธารณรัฐเช็ก ฟังก์ชัน Dynamics 365 Commerce ของสาธารณรัฐเช็กรวมถึงการรวมตัวอย่างของการขายหน้าร้าน (POS) กับบริการลงทะเบียนทางการเงินภายนอก ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) โดยยึดตามโซลูชัน [EFR (ทะเบียนทางการเงินทางอิเล็กทรอนิกส์)](https://efsta.org/sicherheitsloesungen/) จาก [EFSTA](https://efsta.org/) และเปิดใช้งานการสื่อสารกับบริการ EFR ผ่านทางโปรโทคอล HTTPS บริการ EFR จะรับรองการลงทะเบียนการขายทางอิเล็กทรอนิกส์ (EET - Elektronická evidence tržeb)คือการส่งผ่านข้อมูลการขายทางออนไลน์ไปยังบริการเว็บทางการเงินของหน่วยงานจัดเก็บภาษี
 

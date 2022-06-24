@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905615"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>ภาพรวมของการพัฒนาและจัดทำข้อตกลงการให้บริการ
 
@@ -72,7 +72,7 @@ ms.locfileid: "8677715"
 -  บรรทัดถูกหยุดหรือไม่  ถ้าบรรทัดถูกหยุด คุณไม่สามารถสร้างใบสั่งบริการสำหรับบรรทัดนั้นได้
 -  การตั้งค่าโครงการ เช่น ประเภทและลักษณะของรายการ
 
-## <a name="related-topics"></a>หัวข้อที่เกี่ยวข้อง
+## <a name="related-articles"></a>บทความที่เกี่ยวข้อง
 
 [การสร้างข้อตกลงการให้บริการ](create-service-agreements.md)
 

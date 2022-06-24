@@ -1,6 +1,6 @@
 ---
-title: อัพโหลดรูปภาพ
-description: หัวข้อนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+title: อัปโหลดรูปภาพ
+description: บทความนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892845"
 ---
-# <a name="upload-images"></a>อัพโหลดรูปภาพ
+# <a name="upload-images"></a>อัปโหลดรูปภาพ
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการอัปโหลดภาพในโปรแกรมสร้างไซต์ Microsoft Dynamics 365 Commerce
 
 ไลบรารีสื่อของโปรแกรมสร้างไซต์ Commerce ช่วยให้คุณสามารถอัพโหลดรูปภาพโดยลำพัง หรือเป็นกลุ่ม โดยใช้โฟลเดอร์ คุณควรอัพโหลดรุ่นของรูปภาพที่มีความละเอียดและคุณภาพสูงสุดเสมอ เนื่องจากส่วนประกอบของตัวปรับขนาดรูปภาพจะปรับรูปภาพให้เหมาะสมโดยอัตโนมัติสำหรับ viewports และจุดสั่งหยุดต่างๆ
 

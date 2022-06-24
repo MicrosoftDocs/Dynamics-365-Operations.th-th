@@ -1,6 +1,6 @@
 ---
 title: ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า
-description: หัวข้อนี้อธิบายวิธีการทำงานกับเค้าโครงที่กำหนดไว้ล่วงหน้าใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการทำงานกับเค้าโครงที่กำหนดไว้ล่วงหน้าใน Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896857"
 ---
 # <a name="work-with-preset-layouts"></a>ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการทำงานกับเค้าโครงที่กำหนดไว้ล่วงหน้าใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการทำงานกับเค้าโครงที่กำหนดไว้ล่วงหน้าใน Microsoft Dynamics 365 Commerce
 
-ก่อนที่คุณจะดำเนินตามกระบวนงานในหัวข้อนี้จนเสร็จสิ้น ขอให้มั่นใจว่าได้อ่าน [เค้าโครงที่กำหนดไว้ล่วงหน้าและที่กำหนดเอง](templates-layouts-overview.md#preset-and-custom-layouts) แล้ว สำหรับภาพรวมทั่วไป โปรดดูที่ [ดูภาพรวมของเทมเพลตและโครงร่าง](templates-layouts-overview.md)
+ก่อนที่คุณจะดำเนินตามกระบวนงานในบทความนี้จนเสร็จสิ้น ขอให้มั่นใจว่าได้อ่าน [เค้าโครงที่กำหนดไว้ล่วงหน้าและที่กำหนดเอง](templates-layouts-overview.md#preset-and-custom-layouts) แล้ว สำหรับภาพรวมทั่วไป โปรดดูที่ [ดูภาพรวมของเทมเพลตและโครงร่าง](templates-layouts-overview.md)
 
 ## <a name="create-a-new-preset-layout"></a>สร้างเค้าโครงที่กำหนดไว้ล่วงหน้าใหม่
 

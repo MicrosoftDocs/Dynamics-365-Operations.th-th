@@ -1,6 +1,6 @@
 ---
 title: การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถจัดส่งโหลดได้บางส่วน และเลื่อนการวางแผนกำลังการผลิตสำหรับโหลด
+description: บทความนี้อธิบายวิธีการที่คุณสามารถจัดส่งโหลดได้บางส่วน และเลื่อนการวางแผนกำลังการผลิตสำหรับโหลด
 author: Mirzaab
 ms.date: 03/15/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5ea844531314b4dd2ff3fa46d8f0b57d9c47059e684d677f06f8259b264d4a90
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09e35b8ee39b3635938f46e174e6ba98db7fa627
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907042"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>การจัดส่งบางส่วนของการบรรทุกเพื่อขนส่ง
 

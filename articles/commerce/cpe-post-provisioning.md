@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
 author: psimolin
 ms.date: 05/12/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
-ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
+ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8747648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892341"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
 
-ดำเนินการกระบวนงานในหัวข้อนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณ ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce](provisioning-guide.md)
+ดำเนินการกระบวนงานในบทความนี้ให้เสร็จสมบูรณ์ เฉพาะหลังจากที่มีการเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณแล้ว สำหรับข้อมูลเกี่ยวกับวิธีเตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce ของคุณ ดูที่ [เตรียมใช้งานสภาพแวดล้อมการประเมินของ Commerce](provisioning-guide.md)
 
 หลังจากที่สภาพแวดล้อมการประเมินของ Commerce ของคุณถูกเตรียมใช้งานตั้งแต่ต้นจนจบ ขั้นตอนการตั้งค่าคอนฟิกหลังการเตรียมใช้งานเพิ่มเติมต้องเสร็จสมบูรณ์ ก่อนที่คุณจะสามารถเริ่มต้นการประเมินสภาพแวดล้อมได้ เพื่อดำเนินการขั้นตอนเหล่านี้ให้เสร็จสมบูรณ์ คุณต้องใช้ Microsoft Dynamics Lifecycle Services (LCS) และ Dynamics 365 Commerce
 

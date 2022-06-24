@@ -1,30 +1,24 @@
 ---
 title: แสดงตัวอย่างและเผยแพร่การทดสอบ
-description: หัวข้อนี้อธิบายวิธีการดูตัวอย่างและเผยแพร่การทดลองจาก Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการดูตัวอย่างและเผยแพร่การทดลองจาก Dynamics 365 Commerce
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740394"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946153"
 ---
 # <a name="preview-and-publish-an-experiment"></a>แสดงตัวอย่างและเผยแพร่การทดสอบ
 
-หัวข้อนี้อธิบายวิธีการดูตัวอย่างและเผยแพร่การทดลองใน Dynamics 365 Commerce หลังจากที่คุณ [เชื่อมต่อการทดลองและแก้ไขการเปลี่ยนแปลงของคุณแล้ว](experimentation-connect-edit.md) แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
+บทความนี้อธิบายวิธีการดูตัวอย่างและเผยแพร่การทดลองใน Dynamics 365 Commerce หลังจากที่คุณ [เชื่อมต่อการทดลองและแก้ไขการเปลี่ยนแปลงของคุณแล้ว](experimentation-connect-edit.md) แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในบทความที่แยกต่างหาก
 
 [ ![การเดินทางของผู้ใช้การทดสอบ - แสดงตัวอย่างและเผยแพร่](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -52,11 +46,15 @@ ms.locfileid: "6740394"
 - เมื่อคุณเผยแพร่หรือจัดกำหนดการกลุ่มเผยแพร่ เนื้อหาทั้งหมดในกลุ่มเผยแพร่จะถูกเผยแพร่โดยไม่คำนึงว่ามีการทดสอบที่เกี่ยวข้องกับกลุ่มเผยแพร่หรือไม่
 - เนื่องจากกลุ่มเผยแพร่ยังคงแสดงหลังจากที่มีการเผยแพร่ไปยังไซต์ที่ใช้งานจริง การทดลองในกลุ่มเผยแพร่จะยังคงแสดงด้วย ดังนั้น คุณจึงไม่สามารถเชื่อมโยงการทดลองอื่นๆ กับหน้าหรือส่วนเดียวกันได้ ถ้าต้องการหลีกเลี่ยงข้อจำกัดนี้ ให้ลบกลุ่มเผยแพร่ใดๆ ที่มีการทดลองการแสดง ในทำนองเดียวกัน ถ้าคุณต้องการลบการทดลองในไซต์ที่ใช้งานจริงที่มีอยู่ในกลุ่มเผยแพร่ ให้ลบออกจากกลุ่มเผยแพร่ก่อน
 
+### <a name="force-variations-for-testing"></a>บังคับการเปลี่ยนแปลงสำหรับการทดสอบ
+
+เมื่อถ่ายทอดการทดลองแล้ว คุณสามารถผนวกรหัสการทดลองและรหัสการเปลี่ยนแปลงเข้ากับ URL หน้าเริ่มต้น เพื่อบังคับให้การเปลี่ยนแปลงดังกล่าวมีวัตถุประสงค์ในการทดสอบหรือระบบอัตโนมัติ ตัวอย่างเช่น ถ้า URL ของหน้าเริ่มต้นคือ `https://fabrikam.com/modern/homepage` คุณสามารถบังคับใช้การเปลี่ยนแปลงที่มี URL เช่น `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464` คุณสามารถขอรับรหัสการทดลองและรหัสการเปลี่ยนแปลงสำหรับการเปลี่ยนแปลงของการทดลองของคุณจาก URL ตัวอย่างในประสบการณ์ **แสดงตัวอย่าง** ที่อธิบายไว้ข้างต้น
+
 ## <a name="previous-step"></a>ขั้นตอนก่อนหน้า
 [เชื่อมต่อและแก้ไขการทดสอบ](experimentation-connect-edit.md)
 
 ## <a name="next-step"></a>ขั้นตอนต่อไป
-[รันและตรวจสอบการทดลอง](experimentation-run-monitor.md)
+[รันและตรวจสอบการทดสอบ](experimentation-run-monitor.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

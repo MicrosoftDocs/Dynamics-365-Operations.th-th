@@ -1,6 +1,6 @@
 ---
 title: รันและตรวจสอบการทดสอบ
-description: หัวข้อนี้อธิบายวิธีการรันและตรวจสอบการทดลองในบริการของบุคคลที่สาม นอกจากนี้ยังอธิบายถึงวิธีการทำการเปลี่ยนแปลงรูปแบบหลังจากที่เริ่มต้นการทดลอง
+description: บทความนี้อธิบายวิธีการรันและตรวจสอบการทดลองในบริการของบุคคลที่สาม นอกจากนี้ยังอธิบายถึงวิธีการทำการเปลี่ยนแปลงรูปแบบหลังจากที่เริ่มต้นการทดลอง
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909594"
 ---
 # <a name="run-and-monitor-an-experiment"></a>รันและตรวจสอบการทดสอบ
 
-หัวข้อนี้อธิบายวิธีการรันและตรวจสอบการทดลองของคุณในแอปของบุคคลที่สาม และเปลี่ยนแปลงรูปแบบถ้าจำเป็น ก่อนที่คุณจะดำเนินการขั้นตอนในหัวข้อนี้ให้เสร็จสมบูรณ์ คุณจะต้อง [เผยแพร่](experimentation-preview-publish.md) การทดลองของคุณก่อนใน Commerce 
+บทความนี้อธิบายวิธีการรันและตรวจสอบการทดลองของคุณในแอปของบุคคลที่สาม และเปลี่ยนแปลงรูปแบบถ้าจำเป็น ก่อนที่คุณจะดำเนินการขั้นตอนในบทความนี้ให้เสร็จสมบูรณ์ คุณจะต้อง [เผยแพร่](experimentation-preview-publish.md) การทดลองของคุณก่อนใน Commerce 
 
-แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในหัวข้อที่แยกต่างหาก
+แผนภาพต่อไปนี้แสดงขั้นตอนทั้งหมดที่เกี่ยวข้องกับการตั้งค่า และการรันการทดลองบนเว็บไซต์อีคอมเมิร์ซใน Dynamics 365 Commerce ขั้นตอนเพิ่มเติมครอบคลุมอยู่ในบทความที่แยกต่างหาก
 
 [ ![การเดินทางของผู้ใช้การทดสอบ - รันและตรวจสอบ](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 

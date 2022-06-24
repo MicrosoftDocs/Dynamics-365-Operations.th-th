@@ -1,6 +1,6 @@
 ---
 title: ติดตั้ง Add-in เครื่องมือ IoT ใน LCS
-description: หัวข้อนี้อธิบายถึงวิธีการติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS)
+description: บทความนี้อธิบายถึงวิธีการติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS)
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887499"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>ติดตั้ง Add-in เครื่องมือ IoT ใน LCS
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS) โปรดทราบว่า add-in ไม่สามารถติดตั้งบนสภาพแวดล้อมการสาธิต/การทดลองได้ ก่อนที่คุณจะสามารถติดตั้ง Add-in คุณต้อง [สร้างทรัพยากร Azure](iot-azure-setup.md)
+บทความนี้อธิบายถึงวิธีการติดตั้ง Add-in เครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS) โปรดทราบว่า add-in ไม่สามารถติดตั้งบนสภาพแวดล้อมการสาธิต/การทดลองได้ ก่อนที่คุณจะสามารถติดตั้ง Add-in คุณต้อง [สร้างทรัพยากร Azure](iot-azure-setup.md)
 
 คุณสามารถตั้งค่าและตั้งค่าคอนฟิกเครื่องมือ IoT โดยไม่เขียนโค้ดใดๆ ต่อไปนี้เป็นขั้นตอนพื้นฐาน
 
 1. [ตั้งค่าทรัพยากร Azure](iot-azure-setup.md) – สร้างฮับ IoT แคช Redis และ Key Vault ที่สามารถเข้าถึงได้จาก Supply Chain Management
 2. [รูปแบบเค้าร่างข้อความของฮับ IoT](iot-schema-format.md) – ตั้งค่าคอนฟิกอุปกรณ์ให้ส่งข้อความไปยังฮับ IoT และกําหนดรูปแบบข้อความ JavaScript Object Notation (JSON)
 3. ในการจัดการคุณลักษณะ ให้เปิดใช้งานแฟล็กคุณลักษณะเครื่องมือ IoT
-4. ติดตั้ง Add-in ของเครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS) – ติดตั้ง Add-in LCS และตั้งค่าคอนฟิกข้อมูลลับ Azure (ตามที่อธิบายไว้ในหัวข้อนี้)
+4. ติดตั้ง Add-in ของเครื่องมือ IoT ใน Microsoft Dynamics Lifecycle Services (LCS) – ติดตั้ง Add-in LCS และตั้งค่าคอนฟิกข้อมูลลับ Azure (ตามที่อธิบายไว้ในบทความนี้)
 5. [ตั้งค่าเมตริก](iot-metrics-setup.md) – ตั้งค่าเมตริกใน Supply Chain Management
 6. [การตั้งค่าสถานการณ์](iot-scenario-setup.md) – ตั้งค่าสถานการณ์ใน Supply Chain Management
 

@@ -1,6 +1,6 @@
 ---
 title: โมดูลตัวเลือกการจัดส่ง
-description: หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกการจัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงโมดูลตัวเลือกการจัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894569"
 ---
 # <a name="delivery-options-module"></a>โมดูลตัวเลือกการจัดส่ง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงโมดูลตัวเลือกการจัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงโมดูลตัวเลือกการจัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลการเลือกการจัดส่งให้ลูกค้าเลือกวิธีการจัดส่ง เช่น การจัดส่งหรือการรับสินค้าสำหรับคำสั่งซื้อออนไลน์ของตน ต้องระบุที่อยู่จัดส่งเพื่อกำหนดวิธีการจัดส่ง ถ้ามีการเปลี่ยนแปลงที่อยู่จัดส่ง คุณต้องดึงข้อมูลตัวเลือกการจัดส่งอีกครั้ง ถ้าใบสั่งมีเฉพาะสินค้าที่จะเบิกสินค้าในร้านค้า โมดูลนี้จะถูกซ่อนไว้โดยอัตโนมัติ
 

@@ -1,6 +1,6 @@
 ---
 title: จองปริมาณสินค้าคงคลัง
-description: หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
+description: บทความนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899453"
 ---
 # <a name="reserve-inventory-quantities"></a>จองปริมาณสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
+บทความนี้อธิบายตัวเลือกต่างๆ ที่พร้อมใช้งานสำหรับการจองสินค้าคงคลัง
 
 คุณสามารถจองปริมาณสินค้าคงคลังสำหรับใบสั่งขายหนึ่งๆ ได้โดยอัตโนมัติ  ซึ่งหมายความว่าสินค้าคงคลังที่จองไว้จะไม่สามารถถูกดึงมาจากคลังสินค้าสำหรับใบสั่งอื่นๆ ได้ถ้าไม่มีการยกเลิกการจองสินค้าคงคลังหรือยกเลิกการจองสินค้าคงคลังบางส่วน
 

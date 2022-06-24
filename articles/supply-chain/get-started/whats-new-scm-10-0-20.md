@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
-description: หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ หรือที่มีการเปลี่ยนแปลง อย่างใดอย่างหนึ่ง ใน Dynamics 365 Supply Chain Management 10.0.20
+description: บทความนี้อธิบายคุณลักษณะที่ใหม่หรือเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.20
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888656"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.20 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.886 และพร้อมใช้งานดังนี้:
+บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.20 รุ่นนี้มีหมายเลขการสร้างเป็น 10.0.886 และพร้อมใช้งานดังนี้:
 
 - **การนำออกใช้ของการแสดงตัวอย่าง:** พฤษภาคม 2021
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** กรกฎาคม 2021
@@ -59,21 +59,21 @@ ms.locfileid: "7647325"
 
 ## <a name="new-and-updated-documentation-resources"></a>ทรัพยากรคู่มือใหม่และคู่มือที่มีการอัพเดต
 
-เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัพเดตส่วนความช่วยเหลือต่อไปนี้อย่างมาก ไม่จำเป็นต้องมีความเกี่ยวข้องกับลักษณะการทำงานใหม่ที่เพิ่มสำหรับรุ่นนี้ ตามที่แสดงรายการไว้ในส่วนก่อนหน้านี้ แต่อาจช่วยให้คุณสามารถเพิ่มเติมจากลักษณะการทำงานที่มีอยู่ได้
+เมื่อเร็ว ๆ นี้เรามีการเพิ่มหรืออัปเดตบทความความช่วยเหลือต่อไปนี้อย่างมาก ไม่จำเป็นต้องมีความเกี่ยวข้องกับลักษณะการทำงานใหม่ที่เพิ่มสำหรับรุ่นนี้ ตามที่แสดงรายการไว้ในส่วนก่อนหน้านี้ แต่อาจช่วยให้คุณสามารถเพิ่มเติมจากลักษณะการทำงานที่มีอยู่ได้
 
-| พื้นที่คุณลักษณะ | หัวข้อใหม่หรือที่อัปเดต |
+| พื้นที่คุณลักษณะ | บทความใหม่หรือที่อัปเดต |
 |---|---|
 | การจัดการการเปลี่ยนแปลงทางวิศวกรรม | [สถานะของวงจรการใช้และธุรกรรมผลิตภัณฑ์](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| การบริหารสินค้าคงคลัง | [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)<br><br>[ภาพรวมการจัดการคุณภาพและความไม่สอดคล้องกัน](../inventory/quality-management-processes.md) (บวกหัวข้อการจัดการคุณภาพที่เกี่ยวข้องทั้งหมด) |
+| การบริหารสินค้าคงคลัง | [Add-in การแสดงผลสินค้าคงคลัง](../inventory/inventory-visibility.md)<br><br>[ภาพรวมการจัดการคุณภาพและความไม่สอดคล้องกัน](../inventory/quality-management-processes.md) (บวกบทความการจัดการคุณภาพที่เกี่ยวข้องทั้งหมด) |
 | การจัดซื้อและการจัดหา | [รักษาใบรับรองของผู้จัดจำหน่าย](../../finance/public-sector/manage-vendor-certification.md) |
 | การควบคุมการผลิต | [ออกแบบอินเทอร์เฟสการดำเนินการผลิต](../production-control/production-floor-execution-styles.md) |
 | การจัดการคลังสินค้า | [กําหนดไอคอนและชื่อขั้นตอนสำหรับแอป Warehouse Management บนมือถือ](../warehousing/step-icons-titles.md)<br><br>[การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update สำหรับแอป Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น10.0.20 ของแอป Finance and Operations (กรกฎาคม 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.20 ของแอปการเงินและการดำเนินงาน (กรกฎาคม 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -87,12 +87,12 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platfo
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>คุณลักษณะ Supply Chain Management ที่ถูกลบและที่ถูกยกเลิกการใช้
 
-หัวข้อ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
+บทความ [คุณลักษณะที่ถูกลบและที่ถูกยกเลิกการใช้ใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) จะอธิบายถึงคุณลักษณะที่ได้รับหรือถูกจัดกำหนดการให้ถูกลบหรือถูกยกเลิกการใช้สำหรับ Supply Chain Management
 
 - คุณลักษณะที่ *ถูกลบ* จะไม่พร้อมใช้งานในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *ถูกยกเลิกการใช้* ไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
 
-ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในหัวข้อ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
+ก่อนที่คุณลักษณะใดๆ จะถูกลบออกจากผลิตภัณฑ์ จะมีการประกาศการแจ้งเตือนการยกเลิกการใช้ในบทความ [คุณลักษณะที่ถูกลบหรือที่ถูกเลิกใช้งานใน Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 เดือนก่อนการลบ
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
 

@@ -1,6 +1,6 @@
 ---
 title: ใช้การตั้งค่าการแสดงบนมิติของผลิตภัณฑ์
-description: หัวข้อนี้ครอบคลุมการตั้งค่าการแสดงของมิติของผลิตภัณฑ์และอธิบายวิธีการใช้มิติใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมการตั้งค่าการแสดงของมิติของผลิตภัณฑ์และอธิบายวิธีการใช้มิติใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899186"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>ใช้การตั้งค่าการแสดงบนมิติของผลิตภัณฑ์
 
 [!include [banner](includes/banner.md)]
 
 
-หัวข้อนี้ครอบคลุมการตั้งค่าการแสดงของมิติของผลิตภัณฑ์และอธิบายวิธีการใช้มิติใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมการตั้งค่าการแสดงของมิติของผลิตภัณฑ์และอธิบายวิธีการใช้มิติใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce สนับสนุนมิติ ขนาด ลักษณะ และสีเพื่อแยกผลิตภัณฑ์ย่อย โดยทั่วไป มิติจะแสดงเป็นค่าข้อความ เช่น "เล็ก" "ปานกลาง" และ "ใหญ่" เป็นขนาด และ "ดำ" และ "น้ำตาล" เป็นสี อย่างไรก็ตาม ถ้าผลิตภัณฑ์สนับสนุนการเปลี่ยนแปลงหลายอย่าง ซึ่งอาจยากที่จะเรียกดูผลิตภัณฑ์ย่อย เนื่องจากการเลือกหลายรายการจะต้องดูรูปภาพของแต่ละผลิตภัณฑ์ย่อย เพื่อให้สามารถเลือกดูผลิตภัณฑ์ย่อยได้ง่ายขึ้น การนำออกใช้รุ่น 10.0.20 ของ Commerce จึงสามารถใช้รูปภาพและรหัสเลขฐานสิบหก (ฐานสิบหก) เพื่อแสดงมิติเป็นตัวอย่างสีใหม่
 

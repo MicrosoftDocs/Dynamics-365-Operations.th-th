@@ -1,6 +1,6 @@
 ---
 title: การรับเหมารายย่อยตามกิจกรรม
-description: หัวข้อนี้อธิบายวิธีการใช้กิจกรรมที่รับเหมารายย่อยโดยละเอียดในขั้นตอนการผลิตสำหรับ Lean Manufacturing
+description: บทความนี้อธิบายวิธีการใช้กิจกรรมที่รับเหมารายย่อยโดยละเอียดในขั้นตอนการผลิตสำหรับ Lean Manufacturing
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890754"
 ---
 # <a name="activity-based-subcontracting"></a>การรับเหมารายย่อยตามกิจกรรม
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้กิจกรรมที่รับเหมารายย่อยโดยละเอียดในขั้นตอนการผลิตสำหรับ Lean Manufacturing
+บทความนี้อธิบายวิธีการใช้กิจกรรมที่รับเหมารายย่อยโดยละเอียดในขั้นตอนการผลิตสำหรับ Lean Manufacturing
 
 ใน Microsoft Dynamics 365 Supply Chain Management มีสองวิธีสำหรับการทำสัญญาย่อย: ใบสั่งผลิตภัณฑ์ และ Lean manufacturing ในวิธี Lean Manufacturing มีการจำลองงานที่รับเหมาย่อยเป็นบริการที่เกี่ยวข้องกับกิจกรรมของขั้นตอนการผลิต มีการแนะนำชนิดพิเศษของชนิดกลุ่มต้นทุนที่ชื่อว่า **การเอาท์ซอร์สโดยตรง** และบริการรับเหมารายย่อยไม่ใช่ส่วนหนึ่งของสูตรการผลิต (BOM) อีกต่อไป การบัญชีต้นทุนของงานที่รับเหมารายย่อยจะถูกรวมไว้ในโซลูชันการคำนวณต้นทุนสำหรับ Lean Manufacturing ทั้งหมด
 

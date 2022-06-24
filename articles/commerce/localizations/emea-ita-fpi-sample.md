@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
-description: หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909401"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
 
 ฟังก์ชัน Commerce สำหรับอิตาลีรวมการรวมตัวอย่างของการขายหน้าร้าน (POS) กับเครื่องพิมพ์ทางการเงิน ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) เพื่อให้งานกับเครื่องพิมพ์ [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) จาก Epson และช่วยให้สามารถสื่อสารกับเครื่องพิมพ์ทางการเงินในโหมดเว็บเซิร์ฟเวอร์ผ่านเว็บเซอร์วิส EpsonFPMate โดยใช้ Fiscal ePOS-Print API ตัวอย่างสนับสนุนโหมด Registratore Telematico (RT) เท่านั้น ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับและเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก
 

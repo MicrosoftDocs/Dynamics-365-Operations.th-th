@@ -1,6 +1,6 @@
 ---
-title: ใบสั่งคลังสินค้าสำหรับ scale unit ของระบบคลาวด์และ Edge
-description: หัวข้อนี้มีข้อมูลเกี่ยวกับความสามารถด้านใบสั่งคลังสินค้าที่ใช้เป็นส่วนหนึ่งของปริมาณงานของ scale unit ของคลังสินค้า
+title: ใบสั่งของคลังสินค้าสำหรับสเกลยูนิตในระบบคลาวด์และแบบปลายทาง
+description: บทความนี้มีข้อมูลเกี่ยวกับความสามารถด้านใบสั่งคลังสินค้าที่ใช้เป็นส่วนหนึ่งของปริมาณงานของ scale unit ของคลังสินค้า
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893539"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>ใบสั่งคลังสินค้าสำหรับ scale unit ของระบบคลาวด์และ Edge
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> ฟังก์ชันธุรกิจบางอย่างไม่ได้รับการสนับสนุนอย่างเต็มที่ในพรีวิวสำหรับสาธารณะ เมื่อมีการใช้ปริมาณงานของ scale unit ถ้าคุณกำลังใช้ scale unit ตรวจสอบให้แน่ใจว่าได้ใช้เฉพาะกระบวนการเหล่านั้นที่หัวข้อนี้อธิบายไว้อย่างชัดแจ้งว่าได้รับการสนับสนุน
+> ฟังก์ชันธุรกิจบางอย่างไม่ได้รับการสนับสนุนอย่างเต็มที่ในพรีวิวสำหรับสาธารณะ เมื่อมีการใช้ปริมาณงานของ scale unit ถ้าคุณกำลังใช้ scale unit ตรวจสอบให้แน่ใจว่าได้ใช้เฉพาะกระบวนการเหล่านั้นที่บทความนี้อธิบายไว้อย่างชัดแจ้งว่าได้รับการสนับสนุน
 
 ## <a name="what-are-warehouse-orders"></a>ใบสั่งของคลังสินค้าคืออะไร
 

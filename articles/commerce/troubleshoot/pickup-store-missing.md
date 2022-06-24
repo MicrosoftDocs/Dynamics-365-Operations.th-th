@@ -1,6 +1,6 @@
 ---
 title: ร้านค้าปลีกไม่มีอยู่ในรายการร้านค้าที่จะเบิกสินค้า
-description: หัวข้อนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อร้านค้าปลีกไม่ปรากฏในรายการร้านค้าที่สามารถเบิกสินค้าได้
+description: บทความนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อร้านค้าปลีกไม่ปรากฏในรายการร้านค้าที่สามารถเบิกสินค้าได้
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6ccd60082b65fdbd47fef4a67ba269d7d7afc04679647d3eb8d2a5e9c21a19b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 936b3df3194fbdacf8e853ed60431b077f4015cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905267"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>ร้านค้าปลีกไม่มีอยู่ในรายการร้านค้าที่จะเบิกสินค้า
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อร้านค้าปลีกไม่ปรากฏในรายการร้านค้าที่สามารถเบิกสินค้าได้
+บทความนี้มีการแก้ไขปัญหาเบื้องต้น ซึ่งสามารถช่วยเมื่อร้านค้าปลีกไม่ปรากฏในรายการร้านค้าที่สามารถเบิกสินค้าได้
 
 ## <a name="description"></a>คำอธิบาย
 

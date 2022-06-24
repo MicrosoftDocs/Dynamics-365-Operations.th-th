@@ -1,6 +1,6 @@
 ---
 title: ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์
-description: หัวข้อนี้แสดงภาพรวมของฟังก์ชันเครื่องบันทึกเงินสดที่พร้อมใช้งานสำหรับใน Microsoft Dynamics 365 Commerce และนําเสนอแนวทางเกี่ยวกับการตั้งค่าฟังก์ชัน
+description: บทความนี้แสดงภาพรวมของฟังก์ชันเครื่องบันทึกเงินสดที่พร้อมใช้งานสำหรับใน Microsoft Dynamics 365 Commerce และนําเสนอแนวทางเกี่ยวกับการตั้งค่าฟังก์ชัน
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906710"
 ---
 # <a name="cash-register-functionality-for-norway"></a>ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของฟังก์ชันเครื่องบันทึกเงินสดที่พร้อมใช้งานสำหรับนอร์เวย์ใน Dynamics 365 Commerce และยังแสดงแนวทางเกี่ยวกับการตั้งค่าฟังก์ชันด้วย ฟังก์ชันประกอบต้วยส่วนต่อไปนี้:
+บทความนี้แสดงภาพรวมของฟังก์ชันเครื่องบันทึกเงินสดที่พร้อมใช้งานสำหรับนอร์เวย์ใน Dynamics 365 Commerce และยังแสดงแนวทางเกี่ยวกับการตั้งค่าฟังก์ชันด้วย ฟังก์ชันประกอบต้วยส่วนต่อไปนี้:
 
 - คุณลักษณะขายหน้าร้าน (POS) ทั่วไปที่พร้อมใช้งานกับลูกค้าในประเทศหรือทุกภูมิภาค ตัวอย่างรวมตัวเลือกที่ช่วยให้คุณสามารถป้องกันไม่ให้มีการพิมพ์สําเนาของใบเสร็จมากกว่าหนึ่งครั้ง
 - คุณลักษณะการใช้เฉพาะนอร์เวย์ เช่น ลายเซ็นดิจิทัลของธุรกรรมการขาย
