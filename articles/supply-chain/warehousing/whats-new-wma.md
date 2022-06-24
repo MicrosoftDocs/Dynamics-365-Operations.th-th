@@ -1,6 +1,6 @@
 ---
-title: มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
-description: หัวข้อนี้จะแสดงรายการคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+description: บทความนี้จะแสดงรายการคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661838"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945736"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือที่เปลี่ยนแปลงในแอป Warehouse Management บนมือถือ
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+บทความนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20240"></a>รุ่น 2.0.24.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- หน้าสแกนเนอร์ที่ปรับปรุงแล้วเพื่อเปิดใช้งานตัวเลือกการสแกนบนหน้า **รายละเอียด**
+- ท่าทางสัมผัสที่ปรับปรุงแล้ว เช่น หน้าจอสัมผัส/หน้าจอแตะ
+- ปัญหาประสิทธิภาพที่ปรับปรุงแล้วของ Android
+- การจัดวางส่วนหัวหลายหัวข้อคงที่เพื่อให้บัตรเพิ่มเติมแสดงบนหน้า **การสอบถาม** ได้
+- การเลื่อนที่ปรับปรุงแล้วเพื่อให้ระยะการเลื่อนเลื่อนน้อยลงจึงเปิดใช้งาน
+- การกดค้างที่เพิ่มเพื่อแสดงข้อความเพิ่มเติมในหน้า **การสอบถาม**
+- ข้อมูลรหัสอุปกรณ์ที่ขาดหายไปแบบคงที่ของ Android
+- เสถียรภาพที่เพิ่มขึ้น
+- จัดโครงร่างการเข้าสู่ระบบให้เหมาะสม
+- เพิ่มปัดด้านขวาเพื่อปิดหน้าป๊อปอัพกล่องโต้ตอบบนแป้นกดหมายเลข หน้า **รายละเอียด** และหน้าป้อนข้อมูล
 
 ## <a name="version-20220"></a>รุ่น 2.0.22.0
 

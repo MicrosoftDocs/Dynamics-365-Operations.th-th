@@ -1,6 +1,6 @@
 ---
 title: สร้างบาร์โค้ดให้ผลิตภัณฑ์
-description: หัวข้อนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง
+description: บทความนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdf062ed14cc4cf395de006d55aba3dc2a94bae
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0e368c1483970e3aa12d1150db8c046908b64d98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900925"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>สร้างบาร์โค้ดให้ผลิตภัณฑ์
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
+บทความนี้แสดงวิธีการสร้างบาร์โค้ดด้วยตนเองโดยใช้หมายเลขสินค้า M0001 ดังตัวอย่าง บริษัทข้อมูลสาธิตที่เคยสร้างกระบวนงานนี้คือ USMF
 
 1. ไปยัง **การจัดการข้อมูลผลิตภัณฑ์ \> ผลิตภัณฑ์ \> ผลิตภัณฑ์ที่นำออกใช้**
 1. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ สำหรับตัวอย่างนี้ ให้เลือก หมายเลขสินค้า **M0001**

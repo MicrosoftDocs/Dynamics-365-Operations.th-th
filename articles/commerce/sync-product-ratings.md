@@ -1,6 +1,6 @@
 ---
 title: ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
-description: หัวข้อนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909346"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>ซิงค์การให้คะแนนผลิตภัณฑ์ใน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการซิงค์การจัดอันดับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 
 เมื่อต้องการใช้การจัดอันดับผลิตภัณฑ์ในช่องทาง Omni เช่น ในการขายหน้าร้าน (POS) และในศูนย์บริการ ต้องนำเข้าการจัดอันดับผลิตภัณฑ์จากบริการจัดอันดับและการตรวจทานในฐานข้อมูลช่องทาง Commerce เมื่อการจัดอันดับผลิตภัณฑ์มีอยู่ในช่องทาง Omni ผู้ใช้จะสามารถช่วยเหลือลูกค้าทางอ้อมระหว่างการโต้ตอบกับสมาคมการขายได้
 
-หัวข้อนี้อธิบายงานเหล่านี้:
+บทความนี้อธิบายงานเหล่านี้:
 
 1. ตั้งค่าคอนฟิก **งานการซิงค์การจัดอันดับผลิตภัณฑ์** เป็นชุดงานเพื่อซิงโครไนส์การจัดอันดับผลิตภัณฑ์จาก **บริการจัดอันดับและการตรวจทาน**
 1. ตรวจสอบว่าชุดงานสำหรับการซิงโครไนส์การจัดอันดับผลิตภัณฑ์สำเร็จหรือไม่

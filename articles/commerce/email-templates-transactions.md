@@ -1,6 +1,6 @@
 ---
 title: สร้างเทมเพลตอีเมลสำหรับเหตุการณ์ของธุรกรรม
-description: หัวข้อนี้จะอธิบายวิธีการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลสำหรับเหตุการณ์ทางธุรกรรมใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลสำหรับเหตุการณ์ทางธุรกรรมใน Microsoft Dynamics 365 Commerce
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910561"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>สร้างเทมเพลตอีเมลสำหรับเหตุการณ์ของธุรกรรม
 
 [!include [banner](includes/banner.md)]
 
 
-หัวข้อนี้จะอธิบายวิธีการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลสำหรับเหตุการณ์ทางธุรกรรมใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลสำหรับเหตุการณ์ทางธุรกรรมใน Microsoft Dynamics 365 Commerce
 
-Dynamics 365 Commerce ให้โซลูชันแบบสำเร็จรูป เพื่อส่งอีเมลซึ่งแจ้งเตือนลูกค้าเกี่ยวกับเหตุการณ์ธุรกรรม ตัวอย่างเช่น อีเมลสามารถส่งเมื่อวางใบสั่งซื้อ เมื่อพร้อมรับการเบิกสินค้า หรือถูกจัดส่งแล้ว หัวข้อนี้จะอธิบายขั้นตอนสำหรับการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลที่ใช้ในการส่งอีเมลของธุรกรรม
+Dynamics 365 Commerce ให้โซลูชันแบบสำเร็จรูป เพื่อส่งอีเมลซึ่งแจ้งเตือนลูกค้าเกี่ยวกับเหตุการณ์ธุรกรรม ตัวอย่างเช่น อีเมลสามารถส่งเมื่อวางใบสั่งซื้อ เมื่อพร้อมรับการเบิกสินค้า หรือถูกจัดส่งแล้ว บทความนี้จะอธิบายขั้นตอนสำหรับการสร้าง อัปโหลด และกำหนดค่าเทมเพลตอีเมลที่ใช้ในการส่งอีเมลของธุรกรรม
 
 ## <a name="notification-types"></a>ชนิดการแจ้งเตือน
 

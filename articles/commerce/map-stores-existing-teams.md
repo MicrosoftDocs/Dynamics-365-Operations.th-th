@@ -1,6 +1,6 @@
 ---
 title: แม็ปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams
-description: หัวข้อนี้ครอบคลุมวิธีการแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Dynamics 365 Commerce ถ้าองค์กรของคุณสร้างทีมงานไว้แล้วใน Microsoft Teams ก่อนการรวม Commerce
+description: บทความนี้ครอบคลุมวิธีการแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Dynamics 365 Commerce headquarters ถ้าองค์กรของคุณสร้างทีมงานไว้แล้วใน Microsoft Teams ก่อนการรวม Commerce
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902748"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>แม็ปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมวิธีการแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Dynamics 365 Commerce ถ้าองค์กรของคุณสร้างทีมงานไว้แล้วใน Microsoft Teams ก่อนการรวม Commerce
+บทความนี้ครอบคลุมวิธีการแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Dynamics 365 Commerce headquarters ถ้าองค์กรของคุณสร้างทีมงานไว้แล้วใน Microsoft Teams ก่อนการรวม Commerce
 
 องค์กรของคุณอาจสร้างทีมงานให้กับร้านค้าของคุณบางส่วนหรือทั้งหมดก่อนที่จะรวม Dynamics 365 Commerce และ Microsoft Teams ในกรณีนี้ ให้สร้างการซิงโครไนส์งานระหว่าง Commerce POS และ Microsoft Teams คุณต้องระบุการแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Commerce
 

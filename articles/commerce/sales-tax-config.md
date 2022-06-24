@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
-description: หัวข้อนี้แสดงภาพรวมของการเลือกกลุ่มภาษีขายสำหรับชนิดใบสั่งออนไลน์ Dynamics 365 Commerce ต่าง ๆ ใน
+description: บทความนี้แสดงภาพรวมของการเลือกกลุ่มภาษีขายสำหรับชนิดใบสั่งออนไลน์ Dynamics 365 Commerce ต่าง ๆ ใน
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906897"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
 
 [!include [banner](includes/banner.md)]
 
-ในหัวข้อนี้จะแสดงภาพรวมของการเลือกกลุ่มภาษีขายของชนิดใบสั่งออนไลน์ต่าง ๆ โดยใช้การตั้งค่าภาษีฐานปลายทางหรือตามรหัสลูกค้า 
+ในบทความนี้จะแสดงภาพรวมของการเลือกกลุ่มภาษีขายของชนิดใบสั่งออนไลน์ต่าง ๆ โดยใช้การตั้งค่าภาษีฐานปลายทางหรือตามรหัสลูกค้า 
 
 คุณอาจต้องการให้ช่องทางอิเล็กทรอนิกส์ของคุณสนับสนุนตัวเลือก เช่น การจัดส่งหรือการเบิกสินค้าสำหรับใบสั่งซื้อออนไลน์ ความเกี่ยวข้องของภาษีขายจะขึ้นอยู่กับตัวเลือกที่ลูกค้าออนไลน์เลือกไว้ 
 
