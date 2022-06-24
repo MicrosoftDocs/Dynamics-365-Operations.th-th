@@ -1,6 +1,6 @@
 ---
-title: รักษาใบรับรองผู้จัดจำหน่าย
-description: หัวข้อนี้อธิบายขั้นตอนที่ผู้จัดจำหน่ายสามารถใช้เพื่อรักษาใบรับรองโดยใช้พื้นที่ทำงานร่วมกันให้แก่ผู้จัดจำหน่าย
+title: รักษาใบรับรองของผู้จัดจำหน่าย
+description: บทความนี้อธิบายขั้นตอนที่ผู้จัดจำหน่ายสามารถใช้เพื่อรักษาใบรับรองโดยใช้พื้นที่ทำงานร่วมกันให้แก่ผู้จัดจำหน่าย
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891450"
 ---
-# <a name="maintain-vendor-certification"></a>รักษาใบรับรองผู้จัดจำหน่าย
+# <a name="maintain-vendor-certification"></a>รักษาใบรับรองของผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายขั้นตอนที่ผู้จัดจำหน่ายของคุณสามารถใช้เพื่อรักษาใบรับรองโดยใช้ **พื้นที่ทำงานร่วมกันให้แก่ผู้จัดจำหน่าย** ตัวอย่างใบรับรองอาจประกอบด้วยบริษัท Woman Business Enterprise (WBE) หรือ Leadership in Energy and Environment Design (LEED) ผู้จัดจำหน่ายต้องป้อนข้อมูลใบรับรองในพื้นที่ทำงาน **ข้อมูลผู้จัดจำหน่าย** จากที่นั่น ผู้จัดจำหน่ายจะเลือก **รายละเอียดเพิ่มเติม** แล้วเลือก **ใบรับรอง**
+บทความนี้อธิบายขั้นตอนที่ผู้จัดจำหน่ายของคุณสามารถใช้เพื่อรักษาใบรับรองโดยใช้ **พื้นที่ทำงานร่วมกันให้แก่ผู้จัดจำหน่าย** ตัวอย่างใบรับรองอาจประกอบด้วยบริษัท Woman Business Enterprise (WBE) หรือ Leadership in Energy and Environment Design (LEED) ผู้จัดจำหน่ายต้องป้อนข้อมูลใบรับรองในพื้นที่ทำงาน **ข้อมูลผู้จัดจำหน่าย** จากที่นั่น ผู้จัดจำหน่ายจะเลือก **รายละเอียดเพิ่มเติม** แล้วเลือก **ใบรับรอง**
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>เปิดคุณลักษณะใบรับรองของผู้จัดจำหน่าย
 

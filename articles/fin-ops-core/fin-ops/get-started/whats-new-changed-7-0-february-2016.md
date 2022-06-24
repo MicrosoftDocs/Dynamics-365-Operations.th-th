@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861718"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>มีอะไรใหม่หรือเปลี่ยนแปลงใน Dynamics AX 7.0 (กุมภาพันธ์ 2016)
 
@@ -320,7 +320,7 @@ ms.locfileid: "8711333"
 <td>เข้าถึงวิธีใช้ตามขั้นตอนที่แนะนำ (คู่มืองาน) และหัวข้อแนวคิดโดยการคลิก <strong>วิธีใช้</strong></td>
 <td>ระบบวิธีใช้ AX 2012 มุ่งไปที่หัวข้อ HTML ที่ถูกจัดเก็บในเซิร์ฟเวอร์เว็บในเครื่อง ลูกค้าและคู่ค้าสามารถสร้างวิธีใช้ของตนเอง</td>
 <td>ระบบวิธีใช้ในรุ่นปัจจุบันของ Dynamics AX แสดงคู่มืองานที่ถูกจัดเก็บใน Microsoft Dynamics Lifecycle Services (LCS) BPM ระบบวิธีใช้จะแสดงหัวข้อจากไซต์เอกสาร Microsoft สำหรับข้อมูลเพิ่มเติม ให้ดูที่ <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">ระบบช่วยเหลือ</a> และ <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)"> คำแนะนำงานใหม่ (กุมภาพันธ์ 2016)</a></td>
-<td>คำแนะนำของงานให้แนวทาง ประสบการณ์การโต้ตอบที่นำคุณผ่านขั้นตอนของกระบวนการทางธุรกิจหรืองาน คุณสามารถดาวน์โหลดและเลือกกำหนดคู่มืองานที่ Microsoft มีให้ หัวข้อให้วิธีการสร้าง จัดส่ง และปรับปรุงเอกสารประกอบของผลิตภัณฑ์ที่รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น จึงจะช่วยรับประกันว่า คุณมีสิทธิ์เข้าถึงข้อมูลทางเทคนิคล่าสุด</td>
+<td>คำแนะนำของงานให้แนวทาง ประสบการณ์การโต้ตอบที่นำคุณผ่านขั้นตอนของกระบวนการทางธุรกิจหรืองาน คุณสามารถดาวน์โหลดและเลือกกำหนดคู่มืองานที่ Microsoft มีให้ บทความนี้ให้วิธีการสร้าง จัดส่ง และปรับปรุงเอกสารประกอบของผลิตภัณฑ์ที่รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น จึงจะช่วยรับประกันว่า คุณมีสิทธิ์เข้าถึงข้อมูลทางเทคนิคล่าสุด</td>
 </tr>
 </tbody>
 </table>

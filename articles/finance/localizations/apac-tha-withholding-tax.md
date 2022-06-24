@@ -1,6 +1,6 @@
 ---
 title: ภาษีหัก ณ ที่จ่ายในประเทศไทย
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย
+description: บทความนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย
 author: ShylaThompson
 ms.date: 03/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Thailand
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73d87e65e5e17b9c494a7f10a8db2dcef2fe1158e57676732b37e1b69213d4aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c289ad1bbf8a3647eee9ccca4de45b0473a505
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898037"
 ---
 # <a name="withholding-tax-in-thailand"></a>ภาษีหัก ณ ที่จ่ายในประเทศไทย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย ฟังก์ชันการทำงานของภาษีหัก ณ ที่จ่ายที่ปรับปรุงสำหรับธุรกรรมของผู้จัดจำหน่ายและลูกค้า เพื่อให้มีการคำนวณภาษีหัก ณ ที่จ่ายและมีการสร้างรายงานภาษีหัก ณ ที่จ่าย
+บทความนี้แสดงข้อมูลเกี่ยวกับภาษีหัก ณ ที่จ่ายและวิธีการตั้งค่าสำหรับประเทศไทย ฟังก์ชันการทำงานของภาษีหัก ณ ที่จ่ายที่ปรับปรุงสำหรับธุรกรรมของผู้จัดจำหน่ายและลูกค้า เพื่อให้มีการคำนวณภาษีหัก ณ ที่จ่ายและมีการสร้างรายงานภาษีหัก ณ ที่จ่าย
 
 ## <a name="set-up-thailand-withholding-tax"></a>ตั้งค่าภาษีหัก ณ ที่จ่ายในประเทศไทย
 

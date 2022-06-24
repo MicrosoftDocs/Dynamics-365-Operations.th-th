@@ -1,6 +1,6 @@
 ---
 title: การปรับรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
-description: หัวข้อนี้จะอธิบายถึงวิธีการปรับรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่ Microsoft จัดเตรียมไว้เพื่อให้สร้างเอกสารอิเล็กทรอนิกส์แบบกำหนดเอง
+description: บทความนี้จะอธิบายถึงวิธีการปรับรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่ Microsoft จัดเตรียมไว้เพื่อให้สร้างเอกสารอิเล็กทรอนิกส์แบบกำหนดเอง
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886804"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>การปรับรูปแบบ ER เพื่อสร้างเอกสารอิเล็กทรอนิกส์ที่กำหนดเอง
 
 [!include[banner](../includes/banner.md)]
 
-ขั้นตอนในหัวข้อนี้จะอธิบายวิธีการที่ผู้ใช้ในบทบาทของผู้ดูแลระบบหรือที่ปรึกษาด้านการรายงานทางอิเล็กทรอนิกส์สามารถดำเนินงานเหล่านี้ได้:
+ขั้นตอนในบทความนี้จะอธิบายวิธีการที่ผู้ใช้ในบทบาทของผู้ดูแลระบบหรือที่ปรึกษาด้านการรายงานทางอิเล็กทรอนิกส์สามารถดำเนินงานเหล่านี้ได้:
 
 - ตั้งค่าคอนฟิกพารามิเตอร์สำหรับ [กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 - นำเข้าการตั้งค่าคอนฟิก ER ซึ่งจัดหาโดย Microsoft และใช้เพื่อสร้างไฟล์การชำระเงินในขณะที่กำลังประมวลผล [การชำระเงินให้แก่ผู้จัดจำหน่าย](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md)
@@ -135,7 +135,7 @@ ms.locfileid: "8323828"
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>นำเข้าการตั้งค่าคอนฟิก ER มาตรฐาน
 
-เมื่อต้องการเพิ่มการตั้งค่าคอนฟิก ER มาตรฐานให้กับอินสแตนซ์ปัจจุบันของ Microsoft Dynamics 365 Finance คุณต้องนำเข้าจาก [ที่เก็บ](general-electronic-reporting.md#Repository) ER ที่ได้รับการตั้งค่าคอนฟิกสำหรับอินสแตนซ์นั้น
+เมื่อต้องการเพิ่มการตั้งค่าคอนฟิก ER มาตรฐานให้กับอินสแตนซ์ของ Microsoft Dynamics 365 Finance ปัจจุบันของคุณ คุณต้องนำเข้าจาก [ที่เก็บ](general-electronic-reporting.md#Repository) ของ ER ที่ได้รับการตั้งค่าคอนฟิกสำหรับอินสแตนซ์นั้น
 
 1. ไปที่ **การจัดการองค์กร** \> **พื้นที่ทำงาน** \> **การรายงานทางอิเล็กทรอนิกส์**
 2. ในหน้า **การตั้งค่าคอนฟิกเฉพาะ** ในส่วน **ผู้ให้บริการการตั้งค่าคอนฟิก** ให้เลือกไทล์ **Microsoft** แล้วเลือก **ที่เก็บ** เพื่อดูรายการของที่เก็บสำหรับผู้ให้บริการ Microsoft

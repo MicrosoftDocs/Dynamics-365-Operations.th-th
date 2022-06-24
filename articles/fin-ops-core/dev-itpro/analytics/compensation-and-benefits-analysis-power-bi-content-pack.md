@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของค่าตอบแทนและประโยชน์
-description: หัวข้อนี้อธิบายเนื้อหาค่าตอบแทนและสวัสดิการของ Power BI
+description: บทความนี้อธิบายเนื้อหาค่าตอบแทนและสิทธิประโยชน์ Power BI
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13f084ba49baa01eea99822baa6960136725140a80c9d29a4104aabc5d7d5dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bed0e8ffbd23c6793c037bade218f637105734b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908632"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>เนื้อหา Power BI ของค่าตอบแทนและประโยชน์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหาค่าตอบแทนและสวัสดิการของ Power BI 
+บทความนี้อธิบายเนื้อหาค่าตอบแทนและสิทธิประโยชน์ Power BI 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>รายงานที่รวมอยู่ในชุดเนื้อหา
 หลังจากที่คุณได้เชื่อมต่อชุดเนื้อหากับข้อมูลของคุณแล้ว รายงานจะแสดงข้อมูลขององค์กรของคุณ ถ้าคุณไม่เคยใช้ Microsoft Power BI มาก่อน คุณสามารถเรียนรู้เพิ่มเติมได้ใน [หน้าแนวทางการเรียนรู้สำหรับ Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) รายงานที่รวมอยู่ในชุดเนื้อหามีทั้งแผนภูมิและตารางที่ประกอบด้วยข้อมูลเพิ่มเติม ตารางต่อไปนี้ให้คำอธิบายเกี่ยวกับรายงาน

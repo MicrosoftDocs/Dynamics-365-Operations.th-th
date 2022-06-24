@@ -1,6 +1,6 @@
 ---
 title: พิมพ์ข้อมูลภาษีบนเอกสารใบสั่งโอนย้าย
-description: หัวข้อนี้อธิบายวิธีการพิมพ์ข้อมูลภาษีที่กําหนดโดยบริการคํานวณภาษีบนเอกสารใบสั่งโอนย้าย
+description: บทความนี้อธิบายวิธีการพิมพ์ข้อมูลภาษีที่กําหนดโดยบริการคํานวณภาษีบนเอกสารใบสั่งโอนย้าย
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855215"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>พิมพ์ข้อมูลภาษีบนเอกสารใบสั่งโอนย้าย
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการพิมพ์ข้อมูลภาษีบนเอกสารใบสั่งโอนย้าย คุณสามารถพิมพ์เอกสารใบแจ้งหนี้ชั่วคราวของใบสั่งโอนย้ายเพื่อการโอนย้ายสินค้าคงคลัง ซึ่งถือได้ว่าเป็นการจัดหาวัสดุ Intra-Community และการซื้อสินทรัพย์ Intra-Community ภายใต้ข้อบังคับภาษีมูลค่าเพิ่ม (VAT) ของสหภาพยุโรป (EU) 
+บทความนี้อธิบายวิธีการพิมพ์ข้อมูลภาษีบนเอกสารใบสั่งโอนย้าย คุณสามารถพิมพ์เอกสารใบแจ้งหนี้ชั่วคราวของใบสั่งโอนย้ายเพื่อการโอนย้ายสินค้าคงคลัง ซึ่งถือได้ว่าเป็นการจัดหาวัสดุ Intra-Community และการซื้อสินทรัพย์ Intra-Community ภายใต้ข้อบังคับภาษีมูลค่าเพิ่ม (VAT) ของสหภาพยุโรป (EU) 
 
 มีการเพิ่มข้อมูลที่เกี่ยวข้องกับภาษีต่อไปนี้ลงในเอกสารใบสั่งโอนย้าย:
 

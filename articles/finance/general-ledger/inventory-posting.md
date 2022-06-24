@@ -1,6 +1,6 @@
 ---
 title: กำลังลงรายการบัญชีสินค้าคงคลัง
-description: หัวข้อนี้อธิบายแท็บการลงรายการบัญชีสินค้าคงคลังบนหน้าโปรไฟล์การลงบัญชีสินค้าคงคลัง
+description: บทความนี้อธิบายแท็บการลงรายการบัญชีสินค้าคงคลังบนหน้าโปรไฟล์การลงบัญชีสินค้าคงคลัง
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 464ffccd658003271b517038f430914fd5d8d50e
-ms.sourcegitcommit: 6744cc2971047e3e568100eae338885104c38294
+ms.openlocfilehash: 7fd507dd171b0d49673bdd0d0900b3f02dbcb65b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8783379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891564"
 ---
 # <a name="inventory-posting"></a>กำลังลงรายการบัญชีสินค้าคงคลัง
 

@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าชื่อสมุดรายวันสัญญาเช่า
-description: หัวข้อนี้จะอธิบายถึงวิธีการกำหนดชื่อสมุดรายวันสัญญาเช่า ชื่อสมุดรายวันสัญญาเช่าระบุสมุดรายวันที่มีการลงรายการบัญชีการชำระบัญชีสินทรัพย์
+description: บทความนี้จะอธิบายถึงวิธีการกำหนดชื่อสมุดรายวันสัญญาเช่า ชื่อสมุดรายวันสัญญาเช่าระบุสมุดรายวันที่มีการลงรายการบัญชีการชำระบัญชีสินทรัพย์
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07b59d56fcb876f73369d0ceaa5ccd8226e58cf9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 678587e0846f6ce6d6d8113290a90b3f4d1988cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874709"
 ---
 # <a name="set-up-lease-journal-names"></a>ตั้งค่าชื่อสมุดรายวันสัญญาเช่า
 

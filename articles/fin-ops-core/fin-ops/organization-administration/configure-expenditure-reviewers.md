@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกผู้ตรวจทานรายจ่าย
-description: หัวข้อนี้จะอธิบายวิธีการใช้ผู้ตรวจทานรายจ่ายเพื่อเลือกผู้ใช้ที่จะมอบหมายงานในลำดับงาน การอนุมัติ หรือการตัดสินใจด้วยตนเองแบบไดนามิก
+description: บทความนี้จะอธิบายวิธีการใช้ผู้ตรวจทานรายจ่ายเพื่อเลือกผู้ใช้ที่จะมอบหมายงานในลำดับงาน การอนุมัติ หรือการตัดสินใจด้วยตนเองแบบไดนามิก
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863236"
 ---
 # <a name="configure-expenditure-reviewers"></a>ตั้งค่าคอนฟิกผู้ตรวจทานรายจ่าย
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ ms.locfileid: "8070157"
 
 ## <a name="set-up-expenditure-reviewers"></a>ตั้งค่าผู้ตรวจทานรายจ่าย
 
-ตัวอย่างนี้แสดงวิธีการตั้งค่าคอนฟิก ผู้ตรวจทานรายจ่ายของใบขอซื้อ เมื่อต้องการตั้งค่าคอนฟิกผู้ตรวจทานรายจ่ายชนิดอื่นๆ ให้แทนที่พาธการนําทางในขั้นตอนที่ 1 ด้วยพาธที่เหมาะสมจากตารางในส่วน [ชนิดของผู้ตรวจทานรายจ่าย](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) ก่อนหน้าหัวข้อนี้
+ตัวอย่างนี้แสดงวิธีการตั้งค่าคอนฟิก ผู้ตรวจทานรายจ่ายของใบขอซื้อ เมื่อต้องการตั้งค่าคอนฟิกผู้ตรวจทานรายจ่ายชนิดอื่นๆ ให้แทนที่พาธการนําทางในขั้นตอนที่ 1 ด้วยพาธที่เหมาะสมจากตารางในส่วน [ชนิดของผู้ตรวจทานรายจ่าย](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) ก่อนหน้าบทความนี้
 
 1. ไปที่ **การจัดซื้อและการจัดหา \> การตั้งค่า \> นโยบาย \> ผู้ตรวจทานรายจ่ายใบขอซื้อ**
 2. บนหน้า **ผู้ตรวจทานรายจ่ายของใบขอซื้อ** ให้เลือก **ใหม่**

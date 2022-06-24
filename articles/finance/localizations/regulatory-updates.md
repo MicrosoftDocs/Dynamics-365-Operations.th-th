@@ -1,6 +1,6 @@
 ---
 title: การอัปเดตที่เป็นระเบียบบังคับ
-description: หัวข้อนี้แสดงรายการของการปรับปรุงที่จำเป็นที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance
+description: บทความนี้แสดงรายการของการปรับปรุงที่จำเป็นที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904294"
 ---
 # <a name="regulatory-updates"></a>การอัปเดตที่เป็นระเบียบบังคับ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการอัปเดตที่จำเป็นที่วางแผนและนำออกใช้ในภาษาท้องถิ่นที่รองรับ Dynamics 365 Finance กำหนดเวลาการจัดส่งอาจมีการเปลี่ยนแปลงและฟังก์ชันที่คาดการณ์ไว้อาจแตกต่างออกไปหรืออาจไม่สามารถนำออกใช้ สำหรับข้อมูลเพิ่มเติม ให้ดู [นโยบาย Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) 
+บทความนี้แสดงรายการอัปเดตที่จำเป็นที่วางแผนและนำออกใช้ในภาษาท้องถิ่นที่รองรับ Dynamics 365 Finance กำหนดเวลาการจัดส่งอาจมีการเปลี่ยนแปลงและฟังก์ชันที่คาดการณ์ไว้อาจแตกต่างออกไปหรืออาจไม่สามารถนำออกใช้ สำหรับข้อมูลเพิ่มเติม ให้ดู [นโยบาย Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) 
 
 การอัปเดตที่เป็นระเบียบบังคับคือคุณลักษณะที่นำมาใช้เพื่อสนับสนุนกฎหมายเฉพาะประเทศใหม่หรือที่มีการเปลี่ยนแปลง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะเฉพาะประเทศที่วางแผนไว้หรือที่นำออกใช้ ให้ดูที่ [แผนการนำออกใช้ของ Dynamics 365 และ Power Platform](/business-applications-release-notes/index)
 

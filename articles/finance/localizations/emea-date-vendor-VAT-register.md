@@ -1,6 +1,6 @@
 ---
 title: วันที่จดทะเบียน VAT ของผู้จัดจำหน่าย
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับคุณลักษณะสำหรับการเปิดใช้งานวันที่ลงทะเบียน VAT ของผู้จัดจำหน่าย
+description: บทความนี้แสดงข้อมูลเกี่ยวกับคุณลักษณะสำหรับการเปิดใช้งานวันที่ลงทะเบียน VAT ของผู้จัดจำหน่าย
 author: anasyash
 ms.date: 01/15/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: global
 ms.author: anasyash
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 882d5a8718d819cff80bfa5b86e054a39e9db159
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7992070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849789"
 ---
 # <a name="date-of-vendor-vat-register"></a>วันที่จดทะเบียน VAT ของผู้จัดจำหน่าย
 
-ใน Microsoft Dynamics 365 Finance รุ่น 10.0.24 จะมีฟิลด์ **วันที่ลงทะเบียน VAT ของผู้จัดจำหน่าย** ใหม่สำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย ฟิลด์นี้จะระบุวันที่ของวันที่ของอุปทานที่ต้องเสียภาษีในการซื้อ
+ใน Microsoft Dynamics 365 Finance รุ่น 10.0.24 ฟิลด์ **วันที่ลงทะเบียน VAT ของผู้จัดจำหน่าย** ใหม่ จะมีให้สำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย ฟิลด์นี้จะระบุวันที่ของวันที่ของอุปทานที่ต้องเสียภาษีในการซื้อ
 
 เมื่อต้องการเปิดใช้งานฟิลด์ใหม่ ให้ไปที่พื้นที่ทำงาน **การจัดการคุณลักษณะ** ค้นหาและเลือกคุณลักษณะ **เปิดใช้งานวันที่ลงทะเบียน VAT ของผู้จัดจำหน่ายในใบแจ้งหนี้ของผู้จัดจำหน่าย** แล้วเลือก **เปิดใช้งานทันที**
 

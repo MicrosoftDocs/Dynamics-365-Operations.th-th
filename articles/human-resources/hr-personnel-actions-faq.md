@@ -1,6 +1,6 @@
 ---
-title: FAQ การดำเนินการด้านบุคลากร
-description: หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร
+title: FAQ เกี่ยวกับการดำเนินการด้านบุคลากร
+description: บทความนี้ประกอบด้วยคำตอบของคำถามที่คุณอาจมีถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 0782f686c9c91d434214724e2f621225a9e268b3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8882fd00c68dc3cafcb4ecf1b2fe351a9e7f5741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874320"
 ---
 # <a name="personnel-actions-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการดำเนินการด้านบุคลากร
 
@@ -27,7 +27,7 @@ ms.locfileid: "8692155"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้ประกอบด้วยคำตอบของคำถามที่คุณมี ถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร 
+บทความนี้ประกอบด้วยคำตอบของคำถามที่คุณอาจมีถ้าองค์กรของคุณใช้การดำเนินการด้านบุคลากร การดำเนินการด้านบุคลากรมีขั้นตอนเพิ่มเติมที่คุณต้องดำเนินการ เมื่อคุณทำงานที่เกี่ยวข้องกับบุคลากร 
 
 ตัวอย่างงานที่อาจต้องมีการดำเนินงานด้านบุคลากรคือ
  - เมื่อคุณสร้างตำแหน่งงานใหม่ 

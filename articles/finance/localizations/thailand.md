@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของประเทศไทย
-description: หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย
+description: บทความนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย
 author: kfend
 ms.date: 03/09/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Thailand
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5b95c3e6b4f18d9b4f9127345c018c8ccceae8ed
-ms.sourcegitcommit: 61ad44249dd46f8d427397d47b5c3f7deebb62b9
+ms.openlocfilehash: fc093ec3675b728a44b6d9560ced10ce7f708f5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "8400832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880593"
 ---
 # <a name="thailand-overview"></a>ภาพรวมของประเทศไทย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย 
+บทความนี้แสดงลิงก์ไปยังทรัพยากรเอกสารสำหรับประเทศไทย 
 
 - [รายงานบัตรสินค้าคงคลัง](apac-tha-stock-card-reports.md)
 - [ใบกำกับภาษี](apac-tha-tax-invoices.md)

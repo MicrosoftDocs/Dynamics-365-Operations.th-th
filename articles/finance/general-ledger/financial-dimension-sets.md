@@ -1,6 +1,6 @@
 ---
 title: เซ็ตมิติทางการเงิน
-description: หัวข้อนี้อธิบายเซ็ตมิติทางการเงินและเทคนิคบางอย่างเพื่อเพิ่มประสิทธิภาพการใช้
+description: บทความนี้อธิบายเซ็ตมิติทางการเงินและเทคนิคบางอย่างเพื่อเพิ่มประสิทธิภาพการใช้
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c583a2a89b45b59ea76ffd8e38b6206c9ca9ed41
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864294"
 ---
 # <a name="financial-dimension-sets"></a>เซ็ตมิติทางการเงิน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเซ็ตมิติทางการเงินและเทคนิคบางอย่างเพื่อเพิ่มประสิทธิภาพการใช้
+บทความนี้อธิบายเซ็ตมิติทางการเงินและเทคนิคบางอย่างเพื่อเพิ่มประสิทธิภาพการใช้
 
 เซ็ตมิติคือรายการมิติทางการเงินที่สั่ง ซึ่งสามารถใช้ในการสรุปข้อมูลบัญชีแยกประเภททั่วไปในลักษณะที่ผู้ใช้กําหนด การใช้เซ็ตมิติหลักคือเพื่อกําหนดงบทดลอง
 

@@ -1,6 +1,6 @@
 ---
 title: จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
-description: หัวข้อนี้จะอธิบายข้อมูลแนวคิดเกี่ยวกับแผนก งาน และตำแหน่ง ที่เป็นองค์ประกอบขององค์กรที่ถูกจัดเก็บอยู่ภายในทรัพยากรบุคคล
+description: บทความนี้จะอธิบายข้อมูลแนวคิดเกี่ยวกับแผนก งาน และตำแหน่ง ที่เป็นองค์ประกอบขององค์กรที่ถูกจัดเก็บอยู่ภายในทรัพยากรบุคคล
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874288"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>จัดระเบียบบุคลากรของคุณโดยใช้แผนก งาน และตำแหน่ง
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694836"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล หัวข้อนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้ 
+แผนก งาน และตำแหน่งมีองค์ประกอบขององค์กรที่จัดเก็บอยู่ภายในทรัพยากรบุคคล บทความนี้อธิบายข้อมูลแนวคิดเกี่ยวกับองค์ประกอบเหล่านี้ 
 
 ตัวอย่างต่อไปนี้จะใช้เพื่อแสดงแนวคิดที่อธิบายไว้ในบทความนี้
 

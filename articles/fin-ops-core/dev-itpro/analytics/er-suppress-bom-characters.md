@@ -1,6 +1,6 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิก ER เพื่อระงับอักขระ BOM ในไฟล์ที่สร้างขึ้น
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานที่ระงับอักขระเครื่องหมายการจัดลำดับไบต์ (BOM)
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานที่ระงับอักขระเครื่องหมายการจัดลำดับไบต์ (BOM)
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847472"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อระงับอักขระ BOM ในไฟล์ที่สร้างขึ้น
 
@@ -38,7 +38,7 @@ ms.locfileid: "8323804"
 
 ![การตั้งค่าตัวเลือกระงับอักขระ BOM ในหน้าโปรแกรมออกแบบรูปแบบ](./media/er-suppress-bom-characters-image2.gif)
 
-หากต้องการทบทวนฟังก์ชันรันไทม์ ให้ปฏิบัติตามขั้นตอนที่เหมาะสม ตัวอย่างเช่น ปฏิบัติตามขั้นตอนต่างๆ ในหัวข้อ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER](er-defer-xml-element.md) หลังจากที่คุณได้เสร็จสิ้นขั้นตอนในส่วน [แก้ไขรูปแบบเพื่อให้การคํานวณเป็นไปตามผลลัพธ์ที่สร้างขึ้น](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) ของหัวข้อนั้น ให้ปฏิบัติตามขั้นตอนเพิ่มเติมเหล่านี้
+หากต้องการทบทวนฟังก์ชันรันไทม์ ให้ปฏิบัติตามขั้นตอนที่เหมาะสม ตัวอย่างเช่น ปฏิบัติตามขั้นตอนต่างๆ ในบทความ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบ ER](er-defer-xml-element.md) หลังจากที่คุณได้เสร็จสิ้นขั้นตอนในส่วน [แก้ไขรูปแบบเพื่อให้การคํานวณเป็นไปตามผลลัพธ์ที่สร้างขึ้น](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) ของบทความนั้น ให้ปฏิบัติตามขั้นตอนเพิ่มเติมเหล่านี้
 
 1. ระบุการเข้ารหัส UTF:
 
@@ -48,12 +48,12 @@ ms.locfileid: "8323804"
 2. สร้างไฟล์ XML ที่รวมอักขระ BOM:
 
     1. ตั้งค่าตัวเลือก **ระงับอักขระ BOM** เป็น **ไม่** เพื่อรวมอักขระ BOM ในไฟล์ XML ที่สร้างขึ้น
-    2. เสร็จสิ้นขั้นตอนในส่วน [เลื่อนการดำเนินการขององค์ประกอบ XML สรุป เพื่อให้สามารถใช้ยอดรวมที่คำนวณได้](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) ของหัวข้อ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md) และบันทึกไฟล์ที่สร้างเป็น **SampleXmlReport.xml**
+    2. เสร็จสิ้นขั้นตอนในส่วน [เลื่อนการดำเนินการขององค์ประกอบ XML สรุป เพื่อให้สามารถใช้ยอดรวมที่คำนวณได้](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) ของบทความ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md) และบันทึกไฟล์ที่สร้างเป็น **SampleXmlReport.xml**
 
 3. สร้างไฟล์ XML ที่ไม่รวมอักขระ BOM:
 
     1. ตั้งค่าตัวเลือก **ระงับอักขระ BOM** เป็น **ใช่** เพื่อระงับอักขระ BOM ในไฟล์ XML ที่สร้างขึ้น
-    2. เสร็จสิ้นขั้นตอนในส่วน [เลื่อนการดำเนินการขององค์ประกอบ XML สรุป เพื่อให้สามารถใช้ยอดรวมที่คำนวณได้](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) ของหัวข้อ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md) และบันทึกไฟล์ที่สร้างเป็น **SampleXmlReport (1).xml**
+    2. เสร็จสิ้นขั้นตอนในส่วน [เลื่อนการดำเนินการขององค์ประกอบ XML สรุป เพื่อให้สามารถใช้ยอดรวมที่คำนวณได้](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) ของบทความ [เลื่อนการดำเนินการขององค์ประกอบ XML ในรูปแบบการรายงานทางอิเล็กทรอนิกส์](er-defer-xml-element.md) และบันทึกไฟล์ที่สร้างเป็น **SampleXmlReport (1).xml**
 
 4. ในยูทิลิตีการเปรียบเทียบไฟล์ ให้เปรียบเทียบไฟล์ที่สร้างขึ้น
 

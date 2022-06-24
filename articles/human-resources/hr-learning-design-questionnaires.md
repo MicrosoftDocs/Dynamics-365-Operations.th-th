@@ -1,6 +1,6 @@
 ---
 title: สร้างแบบสอบถาม
-description: หัวข้อนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม
+description: บทความนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899656"
 ---
 # <a name="create-questionnaires"></a>สร้างแบบสอบถาม
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694864"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้ 
+บทความนี้อธิบายถึงกระบวนการสร้างแบบสอบถาม ขั้นตอนแรกคือการ ออกแบบแบบสอบถาม เมื่อคุณออกแบบแบบสอบถาม คุณไม่เพียงเขียนคำถามและคำตอบ แต่ยังสร้างโครงสร้างที่คำตอบที่สามารถบันทึก และจัดทำตารางคำตอบได้ 
 
 การออกแบบแบบสอบถามอย่างรอบคอบสามารถช่วยเพิ่มคุณภาพของข้อมูลที่คุณรวบรวมได้ โดยการออกแบบอย่างระมัดระวัง คุณสามารถเลือกตัวเลือกที่เหมาะสมในเวลาที่เหมาะสมได้ดีขึ้นสำหรับแบบสอบถาม เนื้อหาต่อไปนี้จะช่วยให้คุณวางแผนแบบสอบถามที่มีประสิทธิภาพได้:
 

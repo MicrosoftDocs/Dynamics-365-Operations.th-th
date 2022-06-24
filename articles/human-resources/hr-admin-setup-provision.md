@@ -1,6 +1,6 @@
 ---
 title: จัดหา Human Resources
-description: หัวข้อนี้อธิบายกระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 Human Resources
+description: บทความนี้อธิบายกระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 Human Resources
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858256"
 ---
 # <a name="provision-human-resources"></a>จัดหา Human Resources
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710876"
 
 
 
-หัวข้อนี้อธิบายกระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 Human Resources 
+บทความนี้อธิบายกระบวนการของการเตรียมใช้งานสภาพแวดล้อมการผลิตใหม่สำหรับ Microsoft Dynamics 365 Human Resources 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 ก่อนที่คุณจะสามารถเตรียมใช้งานสภาพแวดล้อมของการแสดงตัวอย่างของ Commerce ของคุณได้ ต้องมีข้อกำหนดเบื้องต้นต่อไปนี้:
 
-- คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 ที่มีอยู่ ซึ่งรวมแผนบริการทรัพยากรบุคคล และคุณไม่สามารถทำตามขั้นตอนในหัวข้อนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
+- คุณได้ซื้อทรัพยากรบุคคลผ่านผู้ให้บริการโซลูชัน Cloud (CSP) หรือข้อตกลงสถาปัตยกรรมองค์กร (EA) ถ้าคุณมีลิขสิทธิ์ Microsoft Dynamics 365 ที่มีอยู่ ซึ่งรวมแผนบริการทรัพยากรบุคคล และคุณไม่สามารถทำตามขั้นตอนในบทความนี้ให้เสร็จสิ้นได้ ให้ติดต่อฝ่ายสนับสนุน
 
 - ผู้ดูแลระบบส่วนกลางควรลงชื่อเข้าใช้ [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) และสร้างโครงการทรัพยากรบุคคลใหม่ 
 

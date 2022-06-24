@@ -1,6 +1,6 @@
 ---
 title: ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก
-description: หัวข้อนี้จะอธิบายถึงวิธีการดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก
+description: บทความนี้จะอธิบายถึงวิธีการดาวน์โหลดการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891917"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ดาวน์โหลดการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการดาวน์โหลด [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#Configuration) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
+บทความนี้จะอธิบายถึงวิธีการดาวน์โหลด [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#Configuration) จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
 
 ## <a name="open-configurations-repository"></a>เปิดที่เก็บการตั้งค่าคอนฟิก
 
-1. ลงชื่อเข้าใช้ในแอปพลิเคชัน Dynamics 365 Finance โดยใช้หนึ่งในบทบาทต่อไปนี้:
+1. ลงชื่อเข้าใช้ในแอพลิเคชัน Dynamics 365 Finance โดยใช้หนึ่งในบทบาทต่อไปนี้:
 
     - นักพัฒนาการรายงานทางอิเล็กทรอนิกส์
     - ที่ปรึกษาด้านการทำงานของการรายงานทางอิเล็กทรอนิกส์
@@ -80,7 +80,7 @@ ms.locfileid: "7605342"
     ![หน้าที่เก็บการตั้งค่าคอนฟิก FastTab เวอร์ชัน ปุ่มนําเข้า](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> โดยขึ้นอยู่กับการตั้งค่า ER การตั้งค่าคอนฟิกจะได้รับการตรวจสอบความถูกต้องหลังจากที่มีการนำเข้าแล้ว คุณอาจได้รับแจ้งเกี่ยวกับปัญหาความไม่สอดคล้องใด ๆ ที่พบ ก่อนที่คุณจะสามารถใช้เวอร์ชันการตั้งค่าคอนฟิกที่นำเข้าได้ คุณจะต้องแก้ไขปัญหา สำหรับข้อมูลเพิ่มเติม ดูรายการของทรัพยากรที่เกี่ยวข้องสำหรับหัวข้อนี้
+> โดยขึ้นอยู่กับการตั้งค่า ER การตั้งค่าคอนฟิกจะได้รับการตรวจสอบความถูกต้องหลังจากที่มีการนำเข้าแล้ว คุณอาจได้รับแจ้งเกี่ยวกับปัญหาความไม่สอดคล้องใด ๆ ที่พบ ก่อนที่คุณจะสามารถใช้เวอร์ชันการตั้งค่าคอนฟิกที่นำเข้าได้ คุณจะต้องแก้ไขปัญหา สำหรับข้อมูลเพิ่มเติม ดูรายการของทรัพยากรที่เกี่ยวข้องสำหรับบทความอนี้
 
 > [!NOTE]
 > คุณสามารถตั้งค่าคอนฟิก ER โดยขึ้นอยู่กับการตั้งค่าคอนฟิกอื่นๆ ดังนั้น พร้อมด้วยการตั้งค่าคอนฟิกที่เลือก การตั้งค่าคอนฟิกอื่นๆ อาจได้รับการนำเข้าไปโดยอัตโนมัติ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการขึ้นต่อกันของการตั้งค่าคอนฟิก ให้ดูที่ [กำหนดการขึ้นต่อกันของการตั้งค่าคอนฟิก ER ในส่วนประกอบอื่นๆ](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)

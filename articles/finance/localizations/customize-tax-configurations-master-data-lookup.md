@@ -1,6 +1,6 @@
 ---
 title: เลือกกําหนดการตั้งค่าคอนฟิกภาษีสำหรับการค้นหาข้อมูลหลัก
-description: หัวข้อนี้อธิบายวิธีการเลือกกําหนดการตั้งค่าคอนฟิกภาษีเพื่อขยายฟังก์ชันการค้นหาข้อมูลหลัก
+description: บทความนี้อธิบายวิธีการเลือกกําหนดการตั้งค่าคอนฟิกภาษีเพื่อขยายฟังก์ชันการค้นหาข้อมูลหลัก
 author: kai-cloud
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 31c15c47fa1dc6861ff555a991d5f9233b7df35e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845197"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>เลือกกําหนดการตั้งค่าคอนฟิกภาษีสำหรับการค้นหาข้อมูลหลัก
 
 [!include [banner](../includes/banner.md)]
 
-ทำตามขั้นตอนในหัวข้อนี้เพื่อเลือกกําหนดการตั้งค่าคอนฟิกภาษีเพื่อขยายฟังก์ชันการค้นหาข้อมูลหลัก
+ทำตามขั้นตอนในบทความนี้ เพื่อเลือกกําหนดการตั้งค่าคอนฟิกภาษีเพื่อขยายฟังก์ชันการค้นหาข้อมูลหลัก
 
 ## <a name="import-a-tax-configuration-provided-by-microsoft"></a>การนําเข้าการตั้งค่าคอนฟิกภาษีที่ Microsoft ให้มา
 

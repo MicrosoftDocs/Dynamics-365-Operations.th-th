@@ -1,6 +1,6 @@
 ---
 title: การตั้งค่าคอนฟิกสำหรับ Finance Insights
-description: หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance Insights ได้
+description: บทความนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance Insights ได้
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861429"
 ---
 # <a name="configuration-for-finance-insights"></a>การตั้งค่าคอนฟิกสำหรับ Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance ที่มี Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ หัวข้อนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance Insights ได้ เพื่อให้ขั้นตอนในหัวข้อนี้สำเร็จ คุณต้องมีสิทธิ์เข้าถึงของผู้ดูแลระบบและผู้กำหนดค่าระบบใน [ศูนย์การจัดการ Power Portal](https://admin.powerplatform.microsoft.com/), สิทธิ์เข้าถึงของผู้ดูแลระบบใน Dynamics 365 Finance สิทธิ์ในการสร้างสภาพแวดล้อมใน Microsoft Dynamics Lifecycle Services (LCS)
+Finance Insights รวมฟังก์ชันจาก Microsoft Dynamics 365 Finance ที่มี Dataverse, Azure และ AI Builder เพื่อให้เครื่องมือการคาดการณ์ที่มีประสิทธิภาพสำหรับองค์กรของคุณ บทความนี้จะอธิบายขั้นตอนการตั้งค่าคอนฟิกที่จะช่วยให้ระบบของคุณสามารถใช้ความสามารถที่มีอยู่ใน Finance Insights ได้ เพื่อให้ขั้นตอนในบทความนี้สำเร็จ คุณต้องมีสิทธิ์เข้าถึงของผู้ดูแลระบบและผู้กำหนดค่าระบบใน [ศูนย์การจัดการ Power Portal](https://admin.powerplatform.microsoft.com/), สิทธิ์เข้าถึงของผู้ดูแลระบบใน Dynamics 365 Finance สิทธิ์ในการสร้างสภาพแวดล้อมใน Microsoft Dynamics Lifecycle Services (LCS)
 
 > [!NOTE]
 > ขั้นตอนต่อไปนี้เป็นการตั้งค่า Finance Insights ที่ใช้ได้กับ Dynamics 365 Finance รุ่น 10.0.21 และรุ่นที่ใหม่กว่า

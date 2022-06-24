@@ -1,6 +1,6 @@
 ---
 title: พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
+description: บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 author: abruer
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,21 +12,21 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868682"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>พื้นที่ทำงานการอนุมัติใบแจ้งหนี้แบบเคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานของ **การอนุมัติใบแจ้งหนี้** แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย 
+บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงาน **การอนุมัติใบแจ้งหนี้** แบบเคลื่อนที่ พื้นที่ทำงานนี้แสดงรายการของใบแจ้งหนี้ที่มีการกำหนดให้กับคุณผ่านขั้นตอนลำดับงานส่วนหัวของใบแจ้งหนี้ผู้จัดจำหน่าย 
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -59,9 +59,9 @@ ms.locfileid: "8811371"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

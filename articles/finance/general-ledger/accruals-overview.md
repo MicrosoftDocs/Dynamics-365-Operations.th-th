@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย
-description: หัวข้อนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม
+description: บทความนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904714"
 ---
 # <a name="accruals-overview"></a>ภาพรวมของหลักการลงบัญชีพึงรับพึงจ่าย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม
+บทความนี้อธิบายถึงการรับรู้ และแสดงข้อมูลเกี่ยวกับวิธีการตั้งค่า และสร้างธุรกรรม
 
 รายการคงค้างจะใช้ในการลงบัญชีพึงรับพึงจ่ายเพื่อติดตามรายได้ที่จะทราบในรอบระยะเวลาที่จะได้รับเงิน ไม่ใช่ตอนที่ชำระเงิน และเพื่อติดตามค่าใช้จ่ายต่างๆ (ต้นทุน) ซึ่งเป็นที่จะระลึกได้เมื่อเกิดขึ้น ไม่ใช่เมื่อชำระเงิน
 

@@ -1,6 +1,6 @@
 ---
 title: ชนิดของปลายทาง ER อีเมล
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางอีเมลให้กับแต่ละส่วนประกอบโฟลเดอร์หรือไฟล์ ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางอีเมลให้กับแต่ละส่วนประกอบโฟลเดอร์หรือไฟล์ ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845670"
 ---
 # <a name="email-er-destination-type"></a>ชนิดของปลายทาง ER อีเมล
 
@@ -162,7 +162,7 @@ ms.locfileid: "8324019"
 
 [![โครงสร้างของรูปแบบ ER ที่สร้างเอกสารขาออก](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-ภาพประกอบต่อไปนี้จะแสดงกระบวนการ ดังที่อธิบายไว้ในหัวข้อนี้ ซึ่งจัดกลุ่มแต่ละส่วนประกอบและเปิดใช้งานปลายทาง **อีเมล** สำหรับกลุ่มใหม่ ดังนั้นจึงมีการส่งจดหมายเรียกเก็บเงินพร้อมกับใบแจ้งหนี้ของลูกค้าที่เหมาะสมเป็นเอกสารแนบทางอีเมล
+ภาพประกอบต่อไปนี้จะแสดงกระบวนการ ดังที่อธิบายไว้ในบทความนี้ ซึ่งจัดกลุ่มแต่ละส่วนประกอบและเปิดใช้งานปลายทาง **อีเมล** สำหรับกลุ่มใหม่ ดังนั้นจึงมีการส่งจดหมายเรียกเก็บเงินพร้อมกับใบแจ้งหนี้ของลูกค้าที่เหมาะสมเป็นเอกสารแนบทางอีเมล
 
 [![การจัดกลุ่มแต่ละส่วนประกอบและการเปิดใช้งานปลายทางอีเมล](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

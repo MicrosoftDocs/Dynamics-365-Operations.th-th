@@ -1,6 +1,6 @@
 ---
-title: โปรแกรมออกแบบสูตรสำหรับการคํานวณ TDS
-description: หัวข้อนี้จะแสดงตัวอย่างวิธีการคํานวณการหักภาษี ณ ที่จ่าย (TDS) ตามสูตรที่กําหนดไว้ให้กับรหัสภาษี TDS แต่ละรหัส ในกลุ่ม TDS ที่แนบกับธุรกรรม
+title: ตัวออกแบบสูตรสำหรับการคํานวณ TDS
+description: บทความนี้จะแสดงตัวอย่างวิธีการคํานวณการหักภาษี ณ ที่จ่าย (TDS) ตามสูตรที่กําหนดไว้ให้กับรหัสภาษี TDS แต่ละรหัส ในกลุ่ม TDS ที่แนบกับธุรกรรม
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889874"
 ---
-# <a name="formula-designer-for-tds-calculations"></a>โปรแกรมออกแบบสูตรสำหรับการคํานวณ TDS
+# <a name="formula-designer-for-tds-calculations"></a>ตัวออกแบบสูตรสำหรับการคํานวณ TDS
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะแสดงตัวอย่างวิธีการคํานวณภาษี ณ ที่จ่าย (TDS) ตามสูตรที่กําหนดไว้ให้กับรหัสภาษี TDS แต่ละรหัส รหัสภาษี TDS ที่กำหนดในกลุ่ม TDS ที่แนบกับธุรกรรม ก่อนการออกแบบสูตร TDS ให้ทำการตั้งค่าพื้นฐานที่จำเป็นสำหรับ TDS ตามที่แสดงไว้ในขั้นตอนต่อไปนี้ 
+บทความนี้จะแสดงตัวอย่างวิธีการคํานวณภาษี ณ ที่จ่าย (TDS) ตามสูตรที่กําหนดไว้ให้กับรหัสภาษี TDS แต่ละรหัส รหัสภาษี TDS ที่กำหนดในกลุ่ม TDS ที่แนบกับธุรกรรม ก่อนการออกแบบสูตร TDS ให้ทำการตั้งค่าพื้นฐานที่จำเป็นสำหรับ TDS ตามที่แสดงไว้ในขั้นตอนต่อไปนี้ 
 
 - ตั้งค่ากลุ่มองค์ประกอบ TDS โดยใช้หน้า **กลุ่มองค์ประกอบภาษีหัก ณ ที่จ่าย** 
 - ตั้งค่าส่วนประกอบ TDS และแนบกลุ่มองค์ประกอบ TDS กับองค์ประกอบของ TDS โดยใช้หน้า **องค์ประกอบภาษีหัก ณ ที่จ่าย** 

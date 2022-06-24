@@ -1,6 +1,6 @@
 ---
 title: การรายงานแบบคู่
-description: หัวข้อนี้จะให้คำแนะนำเกี่ยวกับวิธีการที่คุณสามารถตอบสนองความต้องการสำหรับการรายงานมาตรฐาน Financial Reporting ระหว่างประเทศ (IFRS) และการรายงานตามกฎหมายในการเช่าสินทรัพย์
+description: บทความนี้จะให้คำแนะนำเกี่ยวกับวิธีการที่คุณสามารถตอบสนองความต้องการสำหรับการรายงาน International Financial Reporting Standard(IFRS) และการรายงานตามกฎหมายใน การเช่าสินทรัพย์
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886384"
 ---
 # <a name="dual-reporting"></a>การรายงานแบบคู่
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะให้คำแนะนำเกี่ยวกับวิธีการที่คุณสามารถตอบสนองความต้องการสำหรับการรายงานมาตรฐาน Financial Reporting ระหว่างประเทศ (IFRS) และการรายงานตามกฎหมายในการเช่าสินทรัพย์ ความคุ้นเคยกับชั้นของการลงรายการบัญชีใน Microsoft Dynamics 365 Finance จำเป็นต้องใช้และจะทำให้เข้าใจง่ายขึ้น
+บทความนี้จะให้คำแนะนำเกี่ยวกับวิธีการที่คุณสามารถตอบสนองความต้องการสำหรับการรายงาน International Financial Reporting Standard(IFRS) และการรายงานตามกฎหมายใน การเช่าสินทรัพย์ ความคุ้นเคยกับชั้นของการลงรายการบัญชีใน Microsoft Dynamics 365 Finance จำเป็นต้องใช้และจะทำให้เข้าใจง่ายขึ้น
 
 ## <a name="example"></a>ตัวอย่าง
 

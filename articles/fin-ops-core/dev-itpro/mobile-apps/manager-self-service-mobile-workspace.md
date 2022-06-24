@@ -1,6 +1,6 @@
 ---
 title: พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้
+description: บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของทีมของฉัน ซึ่งช่วยให้ผู้จัดการสามารถดูรายงานโดยตรงและพนักงานโดยรวมได้
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,21 +12,21 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868711"
 ---
 # <a name="my-team-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของทีมงานของฉัน
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ทีมงานของฉัน** พื้นที่ทำงานนี้จะทำให้ผู้จัดการดูรายงานโดยตรงและพนักงานโดยรวมได้ คุณสามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
+บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ทีมงานของฉัน** พื้นที่ทำงานนี้จะทำให้ผู้จัดการดูรายงานโดยตรงและพนักงานโดยรวมได้ คุณสามารถส่งการชมเชยให้กับบุคคลในกลุ่มของการรายงานได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations สำหรับอุปกรณ์เคลื่อนที่
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานบนมือถือ **ทีมงานของฉัน** ช่วยให้ผู้จัดการทำงานเหล่านี้ได้:
@@ -50,12 +50,12 @@ ms.locfileid: "8811070"
 <tbody>
 <tr class="odd">
 <td>จะต้องนำผลิตภัณฑ์ต่อไปนี้อย่างใดอย่างหนึ่งไปใช้ในองค์กรของคุณ:
-<ul><li>แอพ Finance and Operations</li>
+<ul><li>แอปการเงินและการดำเนินงาน</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณไม่&#39;มีแอพ Finance and Operations ที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มีทรัพยากรบุคคลที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://dynamics.microsoft.com/human-resources/overview/">เว็บเพจทรัพยากรบุคคล</a>
+<td>ถ้าคุณไม่&#39;มีแอปการเงินและการดำเนินงานที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มีทรัพยากรบุคคลที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://dynamics.microsoft.com/human-resources/overview/">เว็บเพจทรัพยากรบุคคล</a>
 </td>
 </tr>
 <tr class="even">
@@ -66,9 +66,9 @@ ms.locfileid: "8811070"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ดาวน์โหลดและติดตั้งแอป Finance and Operations บนมือถือ
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

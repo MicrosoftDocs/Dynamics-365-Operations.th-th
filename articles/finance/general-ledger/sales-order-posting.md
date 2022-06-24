@@ -1,6 +1,6 @@
 ---
 title: การลงรายการบัญชีใบสั่งขาย
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับแท็บใบสั่งขายของหน้าโพรไฟล์การลงบัญชีสินค้าคงคลัง
+description: บทความนี้แสดงข้อมูลเกี่ยวกับแท็บใบสั่งขายของหน้าโพรไฟล์การลงบัญชีสินค้าคงคลัง
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventItemGroup
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 5d84723b51d6977867fa162c4a47befa61bd9ef6
-ms.sourcegitcommit: dc3053625dfe24aef64399dd1d002214e7f7619f
+ms.openlocfilehash: 5ea1c3c90b32d18243615e3ff283e1e818ac23b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8755941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886326"
 ---
 # <a name="sales-order-posting"></a>การลงรายการบัญชีใบสั่งขาย
 

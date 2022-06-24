@@ -1,6 +1,6 @@
 ---
 title: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางที่แยกต่างหาก
-description: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางไม่ใช่แพคเกจเดียวอีกต่อไป แต่ถูกแยกออกเป็นแพคเกจที่เล็กลง หัวข้อนี้อธิบายโซลูชันและแมปกับแต่ละแพคเกจมี และการขึ้นต่อกันกับแพคเกจอื่นๆ
+description: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางไม่ใช่แพคเกจเดียวอีกต่อไป แต่ถูกแยกออกเป็นแพคเกจที่เล็กลง บทความนี้อธิบายโซลูชันและแมปกับแต่ละแพคเกจมี และการขึ้นต่อกันกับแพคเกจอื่นๆ
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874825"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางที่แยกต่างหาก
 
@@ -42,7 +42,7 @@ ms.locfileid: "8716565"
 
 ![แพคเกจที่แยกต่างหาก](media/separated-package-1.png)
 
-หัวข้อนี้อธิบายโซลูชันและแมปกับแต่ละแพคเกจมี และการขึ้นต่อกันกับแพคเกจอื่นๆ
+บทความนี้อธิบายโซลูชันและแมปกับแต่ละแพคเกจมี และการขึ้นต่อกันกับแพคเกจอื่นๆ
 
 ## <a name="dual-write-application-core"></a>แอปพลิเคชันการรวมแบบสองทิศทางหลัก
 

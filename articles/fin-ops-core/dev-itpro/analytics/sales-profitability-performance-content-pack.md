@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
-description: หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
+description: บทความนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
 author: ShylaThompson
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ec9ef5f4abf898100c670b1ca1cc845d6ebeeea36f21cdda3a9b7d3f1027d4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898695"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>เนื้อหา Power BI ของการขายและประสิทธิภาพความสามารถในการทำกำไร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา **ประสิทธิภาพการขายและความสามารถในการทำกำไร** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+บทความนี้อธิบายสิ่งที่รวมอยู่ในเนื้อหา **ประสิทธิภาพการขายและความสามารถในการทำกำไร** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 

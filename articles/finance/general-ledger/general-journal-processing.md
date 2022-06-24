@@ -1,6 +1,6 @@
 ---
 title: การประมวลผลสมุดรายวันทั่วไป
-description: หัวข้อนี้อธิบายความสามารถของ Microsoft Dynamics 365 Finance ที่สามารถช่วยทำให้การประมวลผลสมุดรายวันทั่วไปง่ายขึ้น และยังสามารถช่วยให้มั่นใจว่าข้อมูลที่ถูกต้องได้รับการจัดเก็บและการควบคุมภายในไม่ได้ถูกลดทอน
+description: บทความนี้อธิบายความสามารถของ Microsoft Dynamics 365 Finance ที่สามารถช่วยทำให้การประมวลผลสมุดรายวันทั่วไปง่ายขึ้น และยังสามารถช่วยให้มั่นใจว่าข้อมูลที่ถูกต้องได้รับการจัดเก็บและการควบคุมภายในไม่ได้ถูกลดทอน
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896389"
 ---
 # <a name="general-journal-processing"></a>การประมวลผลสมุดรายวันทั่วไป
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายความสามารถที่จะช่วยทำให้การประมวลผลสมุดรายวันทั่วไปง่ายขึ้น และยังช่วยให้มั่นใจได้ว่าข้อมูลที่ถูกต้องได้รับการถูกจัดเก็บและการควบคุมภายในไม่ได้ถูกลดทอน  
+บทความนี้อธิบายความสามารถที่จะช่วยทำให้การประมวลผลสมุดรายวันทั่วไปง่ายขึ้น และยังช่วยให้มั่นใจได้ว่าข้อมูลที่ถูกต้องได้รับการถูกจัดเก็บและการควบคุมภายในไม่ได้ถูกลดทอน  
 
 ## <a name="journal-names"></a>ชื่อสมุดรายวัน
 

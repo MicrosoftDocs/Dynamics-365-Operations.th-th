@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881975"
 ---
 # <a name="finance-insights-home-page"></a>โฮมเพจ Finance Insights
 
@@ -43,11 +43,11 @@ Finance Insights จะให้โซลูชันที่สามารถ
 
 ### <a name="version-requirements"></a>ข้อกำหนดรุ่น
 
-หัวข้อนี้ใช้กับ Microsoft Dynamics 365 Finance รุ่น 10.0.21 และรุ่นที่ใหม่กว่า
+บทความนี้ใช้กับ Microsoft Dynamics 365 Finance รุ่น 10.0.21 และรุ่นที่ใหม่กว่า
 
 ### <a name="license-requirements"></a>ข้อกำหนดสิทธิใช้งาน
 
-Finance Insights ใช้เครดิต AI Builder เพื่อสร้างการคาดคะเนทางการเงิน ลิขสิทธิ์ที่จําเป็นทั้งหมดซึ่งรวมอยู่ในลิขสิทธิ์ของผู้เช่า ผู้เช่า Dynamics 365 Finance แต่ละรายได้รับเครดิต AI Builder จำนวน 20,000 หน่วยต่อเดือน หากเครดิตเพิ่มเติมมีความจำเป็นสำหรับธุรกิจ ผู้ใช้สามารถซื้อเครดิตนั้นได้โดยตรงจาก AI Builder
+Finance Insights ใช้เครดิต AI Builder เพื่อสร้างการคาดคะเนทางการเงิน ลิขสิทธิ์ที่จําเป็นทั้งหมดซึ่งรวมอยู่ในลิขสิทธิ์ของผู้เช่า ผู้เช่า Dynamics 365 Finance แต่ละราย ได้รับเครดิต AI Builder จำนวน 20,000 หน่วยต่อเดือน หากเครดิตเพิ่มเติมมีความจำเป็นสำหรับธุรกิจ ผู้ใช้สามารถซื้อเครดิตนั้นได้โดยตรงจาก AI Builder
 
 ### <a name="historical-data-requirements"></a>ข้อกำหนดเกี่ยวกับข้อมูลในอดีต
 

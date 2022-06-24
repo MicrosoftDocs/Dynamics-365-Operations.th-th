@@ -1,6 +1,6 @@
 ---
 title: องค์ประกอบอินเทอร์เฟสผู้ใช้
-description: หัวข้อนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ในแอป
+description: บทความนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ในแอป
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906513"
 ---
 # <a name="user-interface-elements"></a>องค์ประกอบอินเทอร์เฟสผู้ใช้
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ที่ใช้ในแอป ก่อนที่ผู้ใช้จะสามารถนำทางอินเทอร์เฟซได้ สิ่งสำคัญคือต้องรู้ชื่อและฟังก์ชันขององค์ประกอบที่ประกอบกันเป็นอินเทอร์เฟส
+บทความนี้อธิบายถึงองค์ประกอบของอินเทอร์เฟสผู้ใช้ (UI) ที่ใช้ในแอป ก่อนที่ผู้ใช้จะสามารถนำทางอินเทอร์เฟซได้ สิ่งสำคัญคือต้องรู้ชื่อและฟังก์ชันขององค์ประกอบที่ประกอบกันเป็นอินเทอร์เฟส
 
 ## <a name="overview"></a>ภาพรวม
 

@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอปการเงินและการดำเนินงาน
-description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับส่วนประกอบของระบบวิธีใช้สำหรับแอปบาง Microsoft Dynamics 365 บางแอป
+description: บทความนี้จะให้ข้อมูลเกี่ยวกับส่วนประกอบของระบบวิธีใช้สำหรับแอปบาง Microsoft Dynamics 365 บางแอป
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900142"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>ตั้งค่าคอนฟิกประสบการณ์วิธีใช้สำหรับแอปการเงินและการดำเนินงาน
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071019"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-ในหัวข้อนี้ คุณจะพบภาพรวมของส่วนประกอบของระบบวิธีใช้สำหรับแอปการเงินและการดำเนินงาน เช่น Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce และ Dynamics 365 Human Resources หัวข้อนี้ยังอธิบายถึงวิธีการเชื่อมต่อส่วนประกอบเหล่านี้และแสดงสรุปกระบวนการสำหรับการสร้างวิธีใช้แบบกำหนดเอง
+ในบทความนี้ คุณจะพบภาพรวมของส่วนประกอบของระบบวิธีใช้สำหรับแอปการเงินและการดำเนินงาน เช่น Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce และ Dynamics 365 Human Resources บทความนี้ยังอธิบายถึงวิธีการเชื่อมต่อส่วนประกอบเหล่านี้และแสดงสรุปกระบวนการสำหรับการสร้างวิธีใช้แบบกำหนดเอง
 
 ## <a name="help-architecture"></a>สถาปัตยกรรมของวิธีใช้
 

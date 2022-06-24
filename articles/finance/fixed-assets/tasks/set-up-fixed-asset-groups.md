@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่ากลุ่มสินทรัพย์ถาวร
-description: หัวข้อนี้จะอธิบายวิธีการสร้างกลุ่มสินทรัพย์ถาวรใหม่
+description: บทความนี้จะอธิบายวิธีการสร้างกลุ่มสินทรัพย์ถาวรใหม่
 author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17f149f3815867e2b174e017dd6b4998e2d7c16f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7eef214142bab80f6754c74787e94c4e79a3e037
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870088"
 ---
 # <a name="set-up-fixed-asset-groups"></a>ตั้งค่ากลุ่มสินทรัพย์ถาวร
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างกลุ่มสินทรัพย์ถาวรใหม่ ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF
+บทความนี้จะอธิบายวิธีการสร้างกลุ่มสินทรัพย์ถาวรใหม่ ใช้บทบาทของนักบัญชีและข้อมูลสาธิตสำหรับนิติบุคคล USMF
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > การตั้งค่า > กลุ่มสินทรัพย์ถาวร**
 2. เลือก **ใหม่**

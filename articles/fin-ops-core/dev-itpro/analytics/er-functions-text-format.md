@@ -1,6 +1,6 @@
 ---
 title: ฟังก์ชั่น FORMAT ER
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ FORMAT (ER)
+description: บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) FORMAT
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dbde3ebfd2670639a2fff19d83ea9bd8d15c22b09b43ab49ae1b9e35562625a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ce9dd95dc347416f6f9c3024b0b1de3f60f88bfb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876789"
 ---
 # <a name="format-er-function"></a>ฟังก์ชั่น FORMAT ER
 
@@ -92,7 +92,7 @@ FORMAT (CONCATENATE (@"SYS70894", ". ", @"SYS18389"), model.Customer.Name, DATET
 >[!NOTE]
 > ไวยากรณ์ต่อไปนี้จะใช้ในสูตร ER สำหรับป้ายชื่อ:
 >
-> - **สำหรับป้ายชื่อจากทรัพยากรในแอป Microsoft Dynamics 365 Finance :** **\@X** ที่ซึ่ง **X** คือรหัสป้ายชื่อใน Application Object Tree (AOT)
+> - **สำหรับป้ายชื่อจากทรัพยากรในแอป Microsoft Dynamics 365 Finance** **\@X** ที่ซึ่ง **X** คือรหัสป้ายชื่อใน Application Object Tree (AOT)
 > - **สำหรับป้ายชื่อที่อยู่ในการตั้งค่าคอนฟิก:** **@"GER_LABEL:X"** ที่ซึ่ง **X** คือรหัสป้ายชื่อในการตั้งค่าคอนฟิก ER
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม

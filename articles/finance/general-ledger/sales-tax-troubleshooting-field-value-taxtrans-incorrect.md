@@ -1,6 +1,6 @@
 ---
 title: ค่าฟิลด์ใน TaxTrans ไม่ถูกต้อง
-description: หัวข้อนี้มีข้อมูลเกี่ยวกับการแก้ไขปัญหาค่าฟิลด์ที่ไม่ถูกต้องใน TaxTrans
+description: บทความนี้มีข้อมูลเกี่ยวกับการแก้ไขปัญหาค่าฟิลด์ที่ไม่ถูกต้องใน TaxTrans
 author: EricWangChen
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6d4e7fd1bae56c5a7cb9a1a558a5344b3e555e83
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6e7329ffdc04207116c92cb42e02750b176713fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899827"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>ค่าฟิลด์ใน TaxTrans ไม่ถูกต้อง
 
 [!include [banner](../includes/banner.md)]
 
-ถ้าค่าฟิลด์ใน **TaxTrans** ไม่ถูกต้อง ให้ใช้ข้อมูลในหัวข้อนี้เพื่อลองแก้ไขปัญหา
+ถ้าค่าฟิลด์ใน **TaxTrans** ไม่ถูกต้อง ให้ใช้ข้อมูลในบทความนี้ เพื่อลองแก้ไขปัญหา
 
 ## <a name="overview-of-values"></a>ภาพรวมของค่า
 รายการต่อไปนี้แสดงวิธี **TaxTrans** **TaxUncommitted** และ **TmpTaxWorkTrans** เป็นชุดข้อมูลที่คล้ายกัน แต่อยู่ในงานต่างกัน

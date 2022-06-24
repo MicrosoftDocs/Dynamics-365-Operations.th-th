@@ -1,6 +1,6 @@
 ---
 title: กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
+description: บทความนี้จะอธิบายวิธีการตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906484"
 ---
 # <a name="define-vendor-payment-terms"></a>กำหนดเงื่อนไขการชำระเงินให้แก่ผู้จัดจำหน่าย
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย งานนี้ใช้บริษัทสาธิต USMF 
+บทความนี้จะอธิบายวิธีการตั้งค่าเงื่อนไขการชำระเงินสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย งานนี้ใช้บริษัทสาธิต USMF 
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีเจ้าหนี้ > การตั้งค่าการชำระเงิน > เงื่อนไขการชำระเงิน**
 2. เลือก **ใหม่** หน้า **เงื่อนไขการชำระเงิน** ใช้เพื่อกำหนดการคำนวณวันครบกำหนดชำระ มันจะไม่กำหนดการคำนวณส่วนลดเงินสด  

@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าข้อมูลกลุ่ม TDS, PAN และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าข้อมูลเกี่ยวกับกลุ่มภาษีที่หักที่ต้นทาง (TDS) หมายเลขบัญชีถาวร (PAN) และหมายเลขบัญชีภาษี (TAN) ของผู้จัดจำหน่ายและลูกค้า
+description: บทความนี้อธิบายวิธีการตั้งค่าข้อมูลเกี่ยวกับกลุ่มภาษีที่หักที่ต้นทาง (TDS) หมายเลขบัญชีถาวร (PAN) และหมายเลขบัญชีภาษี (TAN) ของผู้จัดจำหน่ายและลูกค้า
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859779"
 ---
-# <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>การตั้งค่าข้อมูลกลุ่ม TDS, PAN และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า
+# <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>การตั้งค่าข้อมูลกลุ่ม TDS, PAN, และ TAN สำหรับผู้จัดจำหน่ายและลูกค้า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าข้อมูลเกี่ยวกับกลุ่มภาษีที่หักที่ต้นทาง (TDS) หมายเลขบัญชีถาวร (PAN) และหมายเลขบัญชีภาษี (TAN) ของผู้จัดจำหน่ายและลูกค้า
+บทความนี้อธิบายวิธีการตั้งค่าข้อมูลเกี่ยวกับกลุ่มภาษีที่หักที่ต้นทาง (TDS) หมายเลขบัญชีถาวร (PAN) และหมายเลขบัญชีภาษี (TAN) ของผู้จัดจำหน่ายและลูกค้า
 
 1. ไปที่ **บัญชีเจ้าหนี้ \> ผู้จัดจำหน่าย \> ผู้จัดจำหน่ายทั้งหมด** หรือ **บัญชีลูกหนี้ \> ลูกค้า \> ลูกค้าทั้งหมด**
 

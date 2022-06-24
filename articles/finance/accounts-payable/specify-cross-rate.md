@@ -1,6 +1,6 @@
 ---
 title: ระบุอัตราไขว้
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับอัตราไขว้ใน Microsoft Dynamics 365 Finance
+description: บทความนี้ให้ข้อมูลเกี่ยวกับอัตราไขว้ใน Microsoft Dynamics 365 Finance
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889974"
 ---
 # <a name="specify-the-cross-rate"></a>ระบุอัตราไขว้
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงวัตถุประสงค์ของอัตราไขว้ และวิธีการระบุอัตราไขว้เมื่อคุณชำระเงินด้วยใบแจ้งหนี้  ใช้อัตราไขว้เมื่อตรงตามเงื่อนไขต่อไปนี้: 
+บทความนี้อธิบายถึงวัตถุประสงค์ของอัตราไขว้ และวิธีการระบุอัตราไขว้เมื่อคุณชำระเงินด้วยใบแจ้งหนี้ ใช้อัตราไขว้เมื่อตรงตามเงื่อนไขต่อไปนี้: 
 -   คุณกำลังชำระบัญชีการชำระเงิน ด้วยใบแจ้งหนี้ 
 -   บรรทัดการชำระเงินและบรรทัดใบแจ้งหนี้ใช้สกุลเงินอื่น 
 -   ไม่มีสกุลเงินที่เป็นสกุลเงินทางบัญชี 

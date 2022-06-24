@@ -1,6 +1,6 @@
 ---
 title: สร้างรายงานทางการเงิน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน
+description: บทความนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898840"
 ---
 # <a name="generate-financial-reports"></a>สร้างรายงานทางการเงิน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน
+บทความนี้แสดงข้อมูลเกี่ยวกับการสร้างรายงานทางการเงิน
 
 เมื่อต้องการสร้างรายงาน เปิดข้อกำหนดของรายงาน และเลือก **สร้าง** บนแถบเครื่องมือ หน้า **สถานะคิวรายงาน** จะเปิดและระบุที่ตั้งของรายงานของคุณในคิวนั้น
 

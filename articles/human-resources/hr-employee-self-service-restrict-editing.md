@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877698"
 ---
 # <a name="restrict-editing-of-personal-information"></a>จํากัดการแก้ไขข้อมูลส่วนบุคคล
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695885"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-หัวข้อนี้อธิบายวิธีการจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อใน Dynamics 365 Human Resources คุณอาจต้องการป้องกันไม่ให้พนักงานแก้ไขรายละเอียดผู้ติดต่อบางอย่าง เช่น ที่ตั้งธุรกิจหรือที่อยู่อีเมลของพนักงาน
+บทความนี้อธิบายวิธีการจํากัดพนักงานจากการแก้ไขรายละเอียดผู้ติดต่อใน Dynamics 365 Human Resources คุณอาจต้องการป้องกันไม่ให้พนักงานแก้ไขรายละเอียดผู้ติดต่อบางอย่าง เช่น ที่ตั้งธุรกิจหรือที่อยู่อีเมลของพนักงาน
 
 > [!NOTE]
 > การใช้คุณลักษณะนี้ ก่อนอื่นคุณต้องเปิดใช้งาน **(พรีวิว) จํากัดพนักงานจากการเพิ่มหรือแก้ไขที่อยู่และข้อมูลผู้ติดต่อ เพื่อเลือกวัตถุประสงค์** ในการจัดการคุณลักษณะ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเปิดใช้งานคุณลักษณะรุ่นพรีวิว ดูที่ [จัดการคุณลักษณะ](hr-admin-manage-features.md)<br><br>![เปิดใช้งานคุณลักษณะการแสดงตัวอย่าง](./media/hr-employee-self-service-restrict-enable.png)

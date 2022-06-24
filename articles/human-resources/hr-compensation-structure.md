@@ -1,6 +1,6 @@
 ---
 title: พัฒนาโครงสร้างค่าตอบแทน
-description: หัวข้อนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม
+description: บทความนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902989"
 ---
 # <a name="develop-a-compensation-structure"></a>พัฒนาโครงสร้างค่าตอบแทน
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693100"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม หัวข้อนี้ใช้ข้อมูลสาธิต USMF และใช้กับผู้จัดการฝ่ายผลตอบแทนและสวัสดิการ
+บทความนี้อธิบายถึงวิธีการสร้างแผนค่าตอบแทนคงที่ และการลงทะเบียนพนักงานในแผนโดยใช้กฎการมีคุณสมบัติเหมาะสม บทความนี้ใช้ข้อมูลสาธิต USMF และใช้กับผู้จัดการฝ่ายค่าตอบแทนและสวัสดิการ
 
 ## <a name="create-a-fixed-compensation-plan"></a>สร้างแผนค่าตอบแทนคงที่
 

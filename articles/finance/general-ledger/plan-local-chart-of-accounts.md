@@ -1,6 +1,6 @@
 ---
-title: วางแผนชื่อผังบัญชีเฉพาะที่ของคุณ
-description: หัวข้อนี้มีข้อมูลที่จะช่วยคุณในการวางแผนผังบัญชี เมื่อคุณมีข้อความต้องการตามกฎหมาย/เฉพาะที่ขององค์กร
+title: วางแผนผังบัญชีภายในของคุณ
+description: บทความนี้มีข้อมูลที่จะช่วยคุณในการวางแผนผังบัญชี เมื่อคุณมีข้อความต้องการตามกฎหมาย/เฉพาะที่ขององค์กร
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798307"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946258"
 ---
-# <a name="plan-your-local-chart-of-accounts"></a>วางแผนชื่อผังบัญชีเฉพาะที่ของคุณ
+# <a name="plan-your-local-chart-of-accounts"></a>วางแผนผังบัญชีภายในของคุณ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลที่จะช่วยคุณในการวางแผนผังบัญชี เมื่อองค์กรของคุณรวมนิติบุคคลที่ต้องตรงกับข้อความต้องการสำหรับบริษัทที่ประกอบธุรกิจ หัวข้อนี้ใช้ข้อกำหนดต่อไปนี้เพื่ออธิบายผังบัญชี
+บทความนี้แสดงข้อมูลที่จะช่วยคุณในการวางแผนผังบัญชี เมื่อองค์กรของคุณรวมนิติบุคคลที่ต้องตรงกับข้อความต้องการสำหรับบริษัทที่ประกอบธุรกิจ บทความนี้ใช้ข้อกำหนดต่อไปนี้เพื่ออธิบายผังบัญชี
 
 - **สากล** – ผังบัญชีที่องค์กรใช้แบบสากล ส่วนใหญ่แล้ว คุณจะรวมกับผังบัญชีนี้
 - **เฉพาะที่** – ผังบัญชีของนิติบุคคลในประเทศหรือภูมิภาคที่ระบุใช้

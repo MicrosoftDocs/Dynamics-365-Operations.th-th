@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904570"
 ---
 # <a name="general-ledger-home-page"></a>โฮมเพจบัญชีแยกประเภททั่วไป
 
@@ -57,11 +57,11 @@ ms.locfileid: "8719956"
 ไปที่ [แผนการเผยแพร่ Microsoft Dynamics 365](/dynamics365/release-plans/) เพื่อดูว่ามีคุณสมบัติใหม่ใดวางแผนไว้ 
 
 #### <a name="financial-reporting"></a>การรายงานทางการเงิน
-ไปที่หัวข้อ [ภาพรวมของ Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) สำหรับข้อมูลเกี่ยวกับรายงานทางการเงิน
+ไปที่บทความ [ภาพรวมของ Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) สำหรับข้อมูลเกี่ยวกับรายงานทางการเงิน
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน Dynamics 365
 

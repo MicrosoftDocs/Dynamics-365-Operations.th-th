@@ -1,6 +1,6 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
-description: หัวข้อนี้อธิบายวิธีการออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะกรอกข้อมูลในเทมเพลต Excel แล้วสร้างเอกสารการจัดรูปแบบของ Excel ขาออก
+description: บทความนี้อธิบายวิธีการออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะกรอกข้อมูลในเทมเพลต Excel แล้วสร้างเอกสารการจัดรูปแบบของ Excel ขาออก
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854827"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811433"
 
 คุณสามารถออกแบบการตั้งค่าคอนฟิกรูปแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ที่มีส่วนประกอบของรูปแบบ ER ซึ่งคุณสามารถตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออกในรูปแบบเวิร์กบุ๊ก Microsoft Excel ส่วนประกอบของรูปแบบ ER เฉพาะต้องใช้สำหรับวัตถุประสงค์นี้
 
-เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับลักษณะการทำงานนี้ ให้ทำตามขั้นตอนในหัวข้อ [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับลักษณะการทำงานนี้ ให้ทำตามขั้นตอนในบทความ [ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างรายงานในรูปแบบ OPENXML](tasks/er-design-reports-openxml-2016-11.md)
 
 ## <a name="add-a-new-er-format"></a>เพิ่มรูปแบบ ER ใหม่
 
@@ -263,7 +263,7 @@ ms.locfileid: "8811433"
 
 ภายใต้ส่วนประกอบ **ส่วนท้าย** ที่เพิ่มเข้ามา ให้เพิ่มส่วนประกอบที่ซ้อนกันที่จำเป็นของ **ข้อความ\\สตริง**, **ข้อความ\\DateTime** หรือประเภทอื่น กำหนดค่าคอนฟิกการผูกข้อมูลสำหรับส่วนประกอบเหล่านั้นเพื่อระบุวิธีการเติมส่วนท้ายของหน้าของคุณ
 
-คุณยังสามารถใช้ [รหัสการจัดรูปแบบ](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) พิเศษ เพื่อจัดรูปแบบเนื้อหาของส่วนท้ายที่สร้างขึ้นอย่างถูกต้อง หากต้องการทราบวิธีการใช้วิธีการนี้ ให้ปฏิบัติตามขั้นตอนใน [ตัวอย่างที่ 1 ](#example-1) ในภายหลังในหัวข้อนี้
+คุณยังสามารถใช้ [รหัสการจัดรูปแบบ](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) พิเศษ เพื่อจัดรูปแบบเนื้อหาของส่วนท้ายที่สร้างขึ้นอย่างถูกต้อง หากต้องการทราบวิธีการใช้วิธีการนี้ ให้ปฏิบัติตามขั้นตอนใน [ตัวอย่างที่ 1](#example-1) ในตอนท้ายของบทความนี้
 
 > [!NOTE]
 > เมื่อคุณกำหนดค่าคอนฟิกรูปแบบ ER ต้องแน่ใจว่าได้พิจารณา [ขีดจํากัด](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ของ Excel และจํานวนอักขระสูงสุดในส่วนหัวหรือส่วนท้ายเดียว

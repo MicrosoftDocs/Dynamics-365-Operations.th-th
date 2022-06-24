@@ -1,6 +1,6 @@
 ---
 title: ใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ผู้จัดจำหน่าย
-description: หัวข้อนี้มีข้อมูลเกี่ยวกับวิธีการนําเข้าใบแจ้งหนี้ผู้จัดจำหน่ายโดยใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์
+description: บทความนี้มีข้อมูลเกี่ยวกับวิธีการนําเข้าใบแจ้งหนี้ผู้จัดจำหน่ายโดยใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865597"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>ใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ผู้จัดจำหน่าย
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983834"
 
 [!include [banner](../includes/preview-banner.md)]
 
-หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยให้คุณสามารถเริ่มต้นใช้งานการนำเข้าการออกใบแจ้งหนี้อิเล็กทรอนิกส์โดยใช้บริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์ โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกใน Regulatory Configuration Services (RCS), Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ที่คุณต้องปฏิบัติตามเพื่อรับใบแจ้งหนี้อิเล็กทรอนิกส์จากผู้จัดจำหน่าย
+บทความนี้ให้ข้อมูลซึ่งจะช่วยให้คุณสามารถเริ่มต้นใช้งานการนำเข้าการออกใบแจ้งหนี้อิเล็กทรอนิกส์โดยใช้บริการการออกใบแจ้งหนี้อิเล็กทรอนิกส์ โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกใน Regulatory Configuration Services (RCS), Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ที่คุณต้องปฏิบัติตาม เพื่อรับใบแจ้งหนี้อิเล็กทรอนิกส์จากผู้จัดจำหน่าย
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>ตั้งค่าการนำเข้าใบแจ้งหนี้ของผู้จัดจำหน่ายใน RCS
 เมื่อต้องการตั้งค่าการนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่ายใน RCS ให้ปฏิบัติตามขั้นตอนต่อไปนี้:

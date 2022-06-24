@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าบัญชีแยกประเภท TDS
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภทของคุณลักษณะภาษีที่หักที่ต้นทาง (TDS)
+description: บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภทของคุณลักษณะภาษีที่หักที่ต้นทาง (TDS)
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 329c950f31cd12faa335a2ab1c220d24f66919f4
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 227ed304c23f96cdbf4dbb4a07d028cd1e2758a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904483"
 ---
 # <a name="set-up-tds-ledger-accounts"></a>ตั้งค่าบัญชีแยกประเภท TDS
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภทของคุณลักษณะภาษีที่หักที่ต้นทาง (TDS) คุณใช้หน้า **ผังบัญชี** เพื่อตั้งค่าบัญชีแยกประเภทสำหรับ TDS
+บทความนี้อธิบายวิธีการตั้งค่าบัญชีแยกประเภทของคุณลักษณะภาษีที่หักที่ต้นทาง (TDS) คุณใช้หน้า **ผังบัญชี** เพื่อตั้งค่าบัญชีแยกประเภทสำหรับ TDS
 
 1. ไปที่ **บัญชีแยกประเภททั่วไป \> ผังบัญชี \> บัญชี \> บัญชีหลัก**
 2. บนแท็บ **ภาพรวม** ให้เลือก **Alt+N** เพื่อสร้างบัญชีแยกประเภท TDS และป้อนรายละเอียดที่ต้องใช้
