@@ -1,6 +1,6 @@
 ---
 title: ตรวจทานข้อมูลการเรียกเก็บเงิน
-description: หัวข้อนี้อธิบายวิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆ ในการตั้งค่าและธุรกรรมการเรียกเก็บเงิน
+description: บทความนี้อธิบายวิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆ ในการตั้งค่าและธุรกรรมการเรียกเก็บเงิน
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876224"
 ---
 # <a name="review-collections-information"></a>ตรวจทานข้อมูลการเรียกเก็บเงิน
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆ ในการตั้งค่าและธุรกรรมการเรียกเก็บเงิน กระบวนงานนี้ใช้บริษัทสาธิต USMF
+บทความนี้อธิบายวิธีการตรวจทานข้อมูลการเรียกเก็บเงิน ตลอดจนตัวเลือกต่างๆ ในการตั้งค่าและธุรกรรมการเรียกเก็บเงิน กระบวนงานนี้ใช้บริษัทสาธิต USMF
 
 ## <a name="create-customer-pools"></a>สร้างกลุ่มลูกค้า
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินเชื่อและการเรียกเก็บเงิน > การตั้งค่า > กลุ่มลูกค้า**

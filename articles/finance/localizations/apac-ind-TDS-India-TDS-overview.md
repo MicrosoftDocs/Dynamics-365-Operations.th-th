@@ -1,6 +1,6 @@
 ---
-title: ภาพรวมของภาษี ณ ที่จ่าย (TDS) ของอินเดีย
-description: หัวข้อนี้แสดงรายละเอียดเกี่ยวกับภาษี ณ ที่จ่าย (TDS) ของอินเดีย คู่มือ TDS ครอบคลุมฟังก์ชันของความสามารถนี้
+title: ภาพรวมของการหักภาษีของอินเดียที่ต้นทาง (TDS)
+description: บทความนี้แสดงรายละเอียดเกี่ยวกับภาษี ณ ที่จ่าย (TDS) ของอินเดีย คู่มือ TDS ครอบคลุมฟังก์ชันของความสามารถนี้
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896296"
 ---
-# <a name="indian-tax-deducted-at-source-tds-overview"></a>ภาพรวมของภาษี ณ ที่จ่าย (TDS) ของอินเดีย
+# <a name="indian-tax-deducted-at-source-tds-overview"></a>ภาพรวมของการหักภาษีของอินเดียที่ต้นทาง (TDS)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายละเอียดเกี่ยวกับภาษี ณ ที่จ่าย (TDS) ของอินเดีย
+บทความนี้แสดงรายละเอียดเกี่ยวกับภาษี ณ ที่จ่าย (TDS) ของอินเดีย
 
 คู่มือ TDS ครอบคลุมฟังก์ชันของความสามารถนี้ และยังอธิบายวิธีการตั้งค่าพื้นฐานสำหรับ TDS คํานวณ TDS บนธุรกรรม กรอกข้อมูลกระบวนการชําระเงิน TDS บันทึกหมายเลขใบรับรอง TDS และสร้างการสอบถาม TDS รายงาน TDS และใบรับรอง TDS คู่มือประกอบด้วยหัวข้อต่างๆ ดังต่อไปนี้:
 

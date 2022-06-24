@@ -1,6 +1,6 @@
 ---
 title: จำนวนที่ปัดเศษสำหรับการคำนวณค่าเสื่อมราคา
-description: หัวข้อนี้อธิบายฟิลด์การปัดเศษค่าเสื่อมราคาที่พบในหน้าการตั้งค่าสมุดบัญชี
+description: บทความนี้อธิบายฟิลด์การปัดเศษค่าเสื่อมราคาที่พบในหน้าการตั้งค่าสมุดบัญชี
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d6a21bea4688d6f258a98eab174485ceee2cfc
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a93842f7cca483df89188695c945edf77e118cef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870117"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>จำนวนที่ปัดเศษสำหรับการคำนวณค่าเสื่อมราคา
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายฟิลด์ **การปัดเศษค่าเสื่อมราคา** ที่พบในหน้า **การตั้งค่าสมุดบัญชี**
+บทความนี้อธิบายฟิลด์ **การปัดเศษค่าเสื่อมราคา** ที่พบในหน้า **การตั้งค่าสมุดบัญชี**
 
 จำนวนค่าเสื่อมราคาที่ปัดเศษถูกตั้งค่าสำหรับแต่ละแบบสมุดบัญชี จำนวนค่าเสื่อมราคาที่ปัดเศษถูกใช้ในค่าเสื่อมราคาของสินทรัพย์ถาวรที่แสดงมูลค่าของค่าเสื่อมราคาในอนาคตและมูลค่าของสินทรัพย์ถาวร และใช้ในข้อเสนอค่าเสื่อมราคาด้วยเช่นกัน ป้อนจำนวนค่าเสื่อมราคาต่ำสุดที่ได้รับอนุญาตสำหรับสมุดบัญชี 
 

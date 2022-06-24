@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7c853ad71aecd7f5d214c02da97f7956ff2391df
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acb632042cdb535bea0dd625531f22d284653294
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893771"
 ---
 # <a name="configure-skills"></a>กำหนดค่าทักษะ
 
 > [!IMPORTANT]
-> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในหัวข้อนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
+> ขณะนี้ฟังก์ชันที่ระบบไม่แสดงในบทความนี้จะสามารถใช้งานได้กับลูกค้า Human Resources ในโครงสร้างพื้นฐานของการเงิน  
 
 
 คุณสามารถติดตามทักษะของผู้ปฏิบัติงานของคุณใน Dynamics 365 Human Resources คุณยังสามารถระบุทักษะที่จำเป็นสำหรับงานระบุ

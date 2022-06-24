@@ -1,6 +1,6 @@
 ---
 title: บุคคล
-description: หัวข้อนี้อธิบายเอนทิตี้ส่วนบุคคลสำหรับ Dynamics 365 Human Resources
+description: บทความนี้อธิบายเอนทิตี้ส่วนบุคคลสำหรับ Dynamics 365 Human Resources
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 728e383be44949ec7f1e51feb5157c61679b3e7b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 49d9b5e1a1297c9528bfa82d0e8307bad3b2d1cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864125"
 ---
 # <a name="person"></a>บุคคล
 
@@ -27,7 +27,7 @@ ms.locfileid: "8068670"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายเอนทิตี้ส่วนบุคคลสำหรับ Dynamics 365 Human Resources
+บทความนี้อธิบายเอนทิตี้ส่วนบุคคลสำหรับ Dynamics 365 Human Resources
 
 ชื่อทางกายภาพ: mshr_dirpersonentity
 

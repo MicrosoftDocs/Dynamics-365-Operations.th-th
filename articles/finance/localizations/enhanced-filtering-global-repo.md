@@ -1,6 +1,6 @@
 ---
 title: การกรองข้อมูลขั้นสูงของ RCS ในที่เก็บ RCS/ส่วนกลาง
-description: หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ RCS ซึ่งได้รับการปรับปรุงเพื่อรวมตัวกรองข้อมูลเพิ่มเติม
+description: บทความนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ RCS ซึ่งได้รับการปรับปรุงเพื่อรวมตัวกรองข้อมูลเพิ่มเติม
 author: JaneA07
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2def3b653ac7c90318feb696c0dd197217ac29f64f0f08d26a7069918c67922b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901225"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>ตัวเลือกการกรองข้อมูลขั้นสูงของ RCS สำหรับการค้นหาการตั้งค่าคอนฟิกในที่เก็บ RCS/ส่วนกลาง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ Regulatory Configuration Services (RCS) ซึ่งได้รับการปรับปรุงเพื่อรวมความสามารถในการกรองเงื่อนไขต่อไปนี้: 
+บทความนี้จะอธิบายความสามารถในการกรองข้อมูลขั้นสูงสำหรับที่เก็บส่วนกลางของ Regulatory Configuration Services (RCS) ซึ่งได้รับการปรับปรุงเพื่อรวมความสามารถในการกรองเงื่อนไขต่อไปนี้: 
 - **ประเทศ/ภูมิภาค** - ตามรหัสประเทศ ISO  
 - ชนิด **แท็ก** สำหรับ:
   - พื้นที่ฟังก์ชัน
@@ -42,7 +42,7 @@ ms.locfileid: "6778123"
 
 [![ใช้ตัวกรองและนำเข้าสำหรับชนิดเอกสารทางธุรกิจ](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-คุณสามารถนำเข้าผลลัพธ์ที่ถูกกรองเข้าไปในที่เก็บ RCS ของผู้ใช้หรือสภาพแวดล้อม Dynamics 365 Finance อย่างใดอย่างหนึ่ง ทีละรายการ หรือเป็นชุด เมื่อต้องการดำเนินการนี้ ให้เลือกกลุ่มการตั้งค่าคอนฟิก และคลิก **นำเข้า**
+คุณสามารถนำเข้าผลลัพธ์ที่ถูกกรองเข้าไปในที่เก็บ RCS ของผู้ใช้หรือสภาพแวดล้อม Dynamics 365 Finance อย่างใดอย่างหนึ่งทีละรายการ หรือเป็นชุด เมื่อต้องการดำเนินการนี้ ให้เลือกกลุ่มการตั้งค่าคอนฟิก และคลิก **นำเข้า**
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

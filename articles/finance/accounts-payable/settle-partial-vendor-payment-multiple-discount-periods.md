@@ -1,6 +1,6 @@
 ---
 title: ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ
-description: หัวข้อนี้แนะนำคุณผ่านสถานการณ์สมมติที่การชำระเงินหลายส่วนชำระสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และมีส่วนลดเงินสดหลายรายการ
+description: บทความนี้แนะนำคุณผ่านสถานการณ์สมมติที่การชำระเงินหลายส่วนชำระสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และมีส่วนลดเงินสดหลายรายการ
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f0599c25d1cd5e07ca5a955ecc96fed2e31383ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861660"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>ชำระการชำระเงินของผู้จัดจำหน่ายบางส่วนที่มีรอบระยะเวลาส่วนลดหลายรอบ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แนะนำคุณผ่านสถานการณ์สมมติที่การชำระเงินหลายส่วนชำระสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และมีส่วนลดเงินสดหลายรายการ 
+บทความนี้แนะนำคุณผ่านสถานการณ์สมมติที่การชำระเงินหลายส่วนชำระสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย และมีส่วนลดเงินสดหลายรายการ 
 
 ผู้จัดจำหน่าย 3054 เสนอ ส่วนลดเงินสด 2 เปอร์เซ็นต์ให้กับ Fabrikam ถ้ามีการชำระใบแจ้งหนี้ภายในห้าวันและส่วนลดเงินสด 1 เปอร์เซ็นต์ถ้ามีการชำระใบแจ้งหนี้ภายใน 14 วัน
 

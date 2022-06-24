@@ -1,6 +1,6 @@
 ---
 title: สร้างการตรวจสอบประสิทธิภาพ
-description: หัวข้อนี้อธิบายวิธีการสร้างการตรวจทานประสิทธิภาพ และอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน
+description: บทความนี้อธิบายวิธีการสร้างการตรวจทานประสิทธิภาพ และอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67a001926c0d5021d952f9b678ec128c68511a8f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ae2de087f4e345ba826ddbe8a65f917476bd6894
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872194"
 ---
 # <a name="create-performance-reviews"></a>สร้างการตรวจสอบประสิทธิภาพ
 
@@ -27,7 +27,7 @@ ms.locfileid: "8696053"
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-หัวข้อนี้อธิบายวิธีการสร้างการตรวจทานประสิทธิภาพ และอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF 
+บทความนี้อธิบายวิธีการสร้างการตรวจทานประสิทธิภาพ และอธิบายวัตถุประสงค์สำหรับแต่ละส่วนของการตรวจทาน กระบวนงานนี้สร้างขึ้นโดยใช้บริษัทข้อมูลสาธิต USMF 
 
 1. บนโฮมเพจ ให้เลือกพื้นที่ทำงาน **การบริการตนเองของพนักงาน**
 2. เลือก **การตรวจทานใหม่** เพื่อสร้างการตรวจทานใหม่

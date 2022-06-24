@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863085"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>ตั้งค่าโพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร
 
 [!include [banner](../../includes/banner.md)]
 
-กระบวนงานนี้แสดงวิธีการตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร ตัวอย่างที่ให้ไว้ในหัวข้อคือโพรไฟล์การลงรายการบัญชีพื้นฐาน อย่างไรก็ตาม ต้องมีการสร้างการลงโพรไฟล์สำหรับแผนภูมิบัญชีที่เฉพาะเจาะจงและข้อกำหนดการรายงานทางการเงิน
+กระบวนงานนี้แสดงวิธีการตั้งค่าโพรไฟล์การลงบัญชีสินทรัพย์ถาวร ตัวอย่างที่ให้ไว้ในบทความคือโพรไฟล์การลงรายการบัญชีพื้นฐาน อย่างไรก็ตาม ต้องมีการสร้างการลงโพรไฟล์สำหรับแผนภูมิบัญชีที่เฉพาะเจาะจงและข้อกำหนดการรายงานทางการเงิน
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > สินทรัพย์ถาวร > การตั้งค่า > โพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร**
 2. คลิก **สร้าง**

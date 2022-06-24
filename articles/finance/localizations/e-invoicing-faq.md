@@ -1,6 +1,6 @@
 ---
 title: FAQ เกี่ยวกับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
-description: หัวข้อนี้มีข้อมูลเกี่ยวกับคำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
+description: บทความนี้มีข้อมูลเกี่ยวกับคำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904367"
 ---
 # <a name="electronic-invoicing-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้มีคำตอบสำหรับคำถามที่ถามบ่อยเกี่ยวกับบริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์จะขยายความสามารถในการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ที่มีอยู่ใน Dynamics 365 Finance, Dynamics 365 Supply Chain Management และ Dynamics 365 Project Operations 
+บทความนี้มีคำตอบสำหรับคำถามที่ถามบ่อยเกี่ยวกับบริการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ การออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์จะขยายความสามารถในการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์ที่มีอยู่ใน Dynamics 365 Finance, Dynamics 365 Supply Chain Management และ Dynamics 365 Project Operations 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>สิ่งสำคัญเกี่ยวกับการออกใบแจ้งหนี้ทางอิเล็กทรอนิกส์คืออะไร และเพราะเหตุใดจึงควรสําคัญกับองค์กรของฉัน
 

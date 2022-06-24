@@ -1,6 +1,6 @@
 ---
 title: การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
-description: หัวข้อนี้อธิบายกระบวนการที่ใช้ในการคํานวณภาษีที่หักที่ต้นทาง (TDS) ในธุรกรรมระหว่างบริษัทในระยะต่างๆ
+description: บทความนี้อธิบายกระบวนการที่ใช้ในการคํานวณภาษีที่หักที่ต้นทาง (TDS) ในธุรกรรมระหว่างบริษัทในระยะต่างๆ
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888986"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>การคํานวณ TDS ในธุรกรรมระหว่างบริษัท
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายกระบวนการที่ใช้ในการคํานวณภาษีที่หักที่ต้นทาง (TDS) ในธุรกรรมระหว่างบริษัทในระยะต่างๆ
+บทความนี้อธิบายกระบวนการที่ใช้ในการคํานวณภาษีที่หักที่ต้นทาง (TDS) ในธุรกรรมระหว่างบริษัทในระยะต่างๆ
 
 เมื่อมีการสร้างใบสั่งซื้อหรือใบสั่งขายระหว่างบริษัท กลุ่ม TDS เริ่มต้นที่กําหนดไว้สำหรับลูกค้าหรือผู้จัดจำหน่ายจะถูกใช้ในการคํานวณยอดเงิน TDS มีการลงรายการบัญชียอดเงิน TDS ไปยังบัญชีลูกหนี้หรือบัญชีเจ้าหนี้ หลังจากที่มีการลงรายการบัญชีใบแจ้งหนี้
 

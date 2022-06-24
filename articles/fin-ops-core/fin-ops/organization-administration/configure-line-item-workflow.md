@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
 author: ChrisGarty
 ms.date: 11/03/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d6d9dcb99e00d4ce3f99e525a72421cb12af178
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 511493df4c897c0a8d2c53db2c9c893aa43d3589
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889249"
 ---
 # <a name="configure-line-item-workflows"></a>ตั้งค่าคอนฟิกลำดับงานของสินค้าในรายการ
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070132"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการ
 
 หากต้องการตั้งค่าคอนฟิกองค์ประกอบลำดับงานของสินค้าในรายการในโปรแกรมแก้ไขลำดับงาน ให้คลิกขวาที่องค์ประกอบนั้น แล้วคลิก **คุณสมบัติ** เพื่อเปิดหน้า **คุณสมบัติ** จากนั้น ให้ใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติต่างๆ ขององค์ประกอบลำดับงานของสินค้าในรายการ
 

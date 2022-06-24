@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 425dfad542cf19e039f8613c5f7bcaacb4b15930
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1cbf6d1e5bf1716bc602b335e0b0a57dd52bb983
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855244"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>การเตรียมพร้อมสำหรับการเริ่มใช้งานจริงทรัพยากรบุคคล
 
@@ -30,7 +30,7 @@ ms.locfileid: "8688868"
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการเตรียมพร้อมการเริ่มใช้งานจริงกับโครงการ Dynamics 365 Human Resources โดยใช้ Microsoft Dynamics Lifecycle Services (LCS) 
+บทความนี้อธิบายถึงวิธีการเตรียมพร้อมการเริ่มใช้งานจริงกับโครงการ Dynamics 365 Human Resources โดยใช้ Microsoft Dynamics Lifecycle Services (LCS) 
 
 รูปภาพนี้แสดงขั้นตอนของกระบวนการการเริ่มใช้งานจริง 
 

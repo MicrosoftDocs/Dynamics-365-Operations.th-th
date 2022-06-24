@@ -1,6 +1,6 @@
 ---
 title: ดูและอัปเดตข้อมูลเอนทิตีกับ Excel
-description: หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัปเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics  Excel
+description: บทความนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัปเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics  Excel
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862168"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>ดูและอัปเดตข้อมูลเอนทิตีกับ Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762666"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-หัวข้อนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัปเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics  Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือแอปการเงินและการดำเนินงาน
+บทความนี้อธิบายวิธีการเปิดข้อมูลเอนทิตีใน Microsoft Excel และจากนั้นดู อัปเดต และแก้ไขข้อมูลโดยใช้ Add-in ของ Microsoft Dynamics  Excel เมื่อต้องการเปิดเอนทิตีข้อมูล คุณสามารถเริ่มจาก Excel หรือแอปการเงินและการดำเนินงาน
 
 โดยการเปิดข้อมูลเอนทิตีใน Excel คุณสามารถดูและแก้ไขข้อมูลได้อย่างรวดเร็วและอย่างง่ายดายโดยใช้ Add-in ของ Excel Add-in นี้จำเป็นต้องมี Microsoft Excel 2016 หรือสูงกว่า
 

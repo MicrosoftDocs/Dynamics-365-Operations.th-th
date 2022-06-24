@@ -1,6 +1,6 @@
 ---
 title: สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
-description: หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
+description: บทความนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875842"
 ---
 # <a name="create-a-recurring-data-export-app"></a>สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688784"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
+บทความนี้อธิบายวิธีการสร้างแอปตรรกะ Microsoft Azure ที่ส่งออกข้อมูลจาก Microsoft Dynamics 365 Human Resources บนกำหนดการที่เกิดซ้ำ บทสอนใช้ประโยชน์จากอินเทอร์เฟสโปรแกรมแอปพลิเคชัน (API) REST แพคเกจ DMF ของฝ่ายทรัพยากรบุคคลเพื่อส่งออกข้อมูล หลังจากที่มีการส่งออกข้อมูล แอปตรรกะจะบันทึกแพคเกจข้อมูลที่ส่งออกไปยัง Microsoft OneDrive สำหรับโฟลเดอร์ธุรกิจ
 
 ## <a name="business-scenario"></a>สถานการณ์จำลองทางธุรกิจ
 

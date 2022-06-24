@@ -1,6 +1,6 @@
 ---
-title: FAQ เกี่ยวกับลำดับงาน
-description: หัวข้อนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบลำดับงาน
+title: คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
+description: บทความนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบเวิร์กโฟลว์
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,21 +12,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896592"
 ---
-# <a name="workflow-faq"></a>FAQ เกี่ยวกับลำดับงาน
+# <a name="workflow-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับลำดับงาน
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบลำดับงาน
+บทความนี้ตอบคำถามที่ถามบ่อยเกี่ยวกับระบบเวิร์กโฟลว์
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>ทำไมได้รับการแจ้งเตือนจำนวนมากเมื่อรายการงานถูกปฏิเสธ?
 เมื่อรายการงานถูกปฏิเสธ รายการงานถูกทำให้เสร็จสมบูรณ์เป็นถูกปฏิเสธ รายการงานอีกรายการถูกสร้างขึ้น และถูกกำหนดให้กับผู้ริเริ่ม นี่หมายความว่า มีการแจ้งเตือนไปยังผู้ริเริ่มสำหรับรายการงานที่ถูกปฏิเสธ และการแจ้งเตือนแบบแยกต่างหากของผู้ใช้ที่กำหนดให้กับรายการงาน "การเปลี่ยนแปลงที่ร้องขอ" ใหม่ 

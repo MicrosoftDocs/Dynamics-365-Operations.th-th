@@ -1,6 +1,6 @@
 ---
 title: ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน
-description: หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources
+description: บทความนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848356"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>ตัวอย่างการสอบถามสำหรับผู้สมัครที่จะจ้างงาน
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069232"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources
+บทความนี้แสดงตัวอย่างการสอบถามสำหรับเอนทิตี้ผู้สมัครที่จะจ้างใน Dynamics 365 Human Resources
 
-หัวข้อนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)
+บทความนี้แสดงตัวอย่างตัวอย่างการสาธิตวิธีการใช้ *การแทรกแบบลึก* เพื่อสร้างรายละเอียดทั้งหมดของบันทึกผู้สมัครในการดำเนินงาน API เดียว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแทรกแบบลึกให้ดูที่ [สร้างบันทึกเอนทิตี้ที่เกี่ยวข้องในการดําเนินงานเดียว](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation)
 
 เอนทิตี **mshr_hcmcandidatetohireentity** ที่ไม่ซ้ำกันเนื่องจากความสัมพันธ์กับเอนทิตี้ **mshr_dirpersonentity** คุณสมบัติหลายอย่างบน **mshr_hcmcandidatetohireentity** (ตัวอย่างเช่น **mshr_firstname** **mshr_lastname** และ **mshr_birthdate**) ได้รับมาจากบันทึก **mshr_dirpersonentity** ถ้าคุณลงรายการบัญชีบันทึกผู้สมัครใหม่ไปยัง **mshr_hcmcandidatetohireentity** โดยไม่ใช้การแทรกแบบลึก คุณสามารถกําหนดค่าสำหรับคุณสมบัติเหล่านี้โดยตรงบนบันทึก **mshr_hcmcandidatetohireentity** บันทึก **mshr_dirpersonentity** ที่เกี่ยวข้องจะถูกสร้างขึ้นอย่างชัดเจนกับค่าที่กําหนดไว้สำหรับคุณสมบัติ จากนั้นคุณสามารถสร้างบันทึกเอนทิตี้ที่เกี่ยวข้องอื่นๆ (เช่น ทักษะหรือการศึกษา) เป็นการเรียก API ที่แยกต่างหากได้
 

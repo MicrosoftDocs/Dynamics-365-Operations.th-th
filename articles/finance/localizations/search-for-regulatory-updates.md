@@ -1,6 +1,6 @@
 ---
 title: ค้นหาการอัปเดตตามระเบียบบังคับเฉพาะประเทศ
-description: หัวข้อนี้แสดงลิงก์ของการอัปเดตตามระเบียบบังคับเฉพาะประเทศที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance
+description: บทความนี้แสดงลิงก์ของการอัปเดตตามระเบียบบังคับเฉพาะประเทศที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896195"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>ค้นหาการอัปเดตตามระเบียบบังคับเฉพาะประเทศ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงลิงก์ของการอัปเดตตามระเบียบบังคับเฉพาะประเทศที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance คุณต้องลงชื่อเข้าใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อเข้าถึงข้อมูลนี้
+บทความนี้แสดงลิงก์ของการอัปเดตตามระเบียบบังคับเฉพาะประเทศที่วางแผนไว้และที่นำออกใช้แล้วสำหรับ Microsoft Dynamics 365 Finance คุณต้องลงชื่อเข้าใช้ Microsoft Dynamics Lifecycle Services (LCS) เพื่อเข้าถึงข้อมูลนี้
 
 | ประเทศหรือภูมิภาค    | การค้นหาปัญหา ใน LCS |
 |----------------------|---------------------------|

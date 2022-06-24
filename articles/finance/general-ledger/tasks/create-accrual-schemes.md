@@ -1,6 +1,6 @@
 ---
-title: สร้างแบบแผนการรับรู้
-description: หัวข้อนี้อธิบายวิธีการสร้างแบบแผนการรับรู้
+title: สร้างแบบแผนการค้างรับค้างจ่าย
+description: บทความนี้อธิบายวิธีการสร้างแบบแผนการรับรู้
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495c72a6ae19faac0cf2dff155c2073852cb1cbd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858438"
 ---
-# <a name="create-accrual-schemes"></a>สร้างแบบแผนการรับรู้
+# <a name="create-accrual-schemes"></a>สร้างแบบแผนการค้างรับค้างจ่าย
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างแบบแผนการรับรู้ งานนี้ใช้บริษัทสาธิต USMF 
+บทความนี้อธิบายวิธีการสร้างแบบแผนการรับรู้ งานนี้ใช้บริษัทสาธิต USMF 
 
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีแยกประเภททั่วไป > การตั้งค่าสมุดรายวัน > แบบแผนการรับรู้**
 2. เลือก **ใหม่**

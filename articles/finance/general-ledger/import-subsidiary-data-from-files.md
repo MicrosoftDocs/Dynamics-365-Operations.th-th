@@ -1,6 +1,6 @@
 ---
-title: การนำเข้าข้อมูลบริษัทในเครือจากไฟล์ต่างๆ
-description: หัวข้อนี้อธิบายวิธีการจัดเตรียมข้อมูลจากระบบภายนอกเพื่อให้สามารถนําเข้าข้อมูลจาก Microsoft Dynamics 365 Finance ได้
+title: การนำเข้าข้อมูลบริษัทสาขาจากไฟล์ต่างๆ
+description: บทความนี้อธิบายวิธีการจัดเตรียมข้อมูลจากระบบภายนอกเพื่อให้สามารถนําเข้าข้อมูลจาก Microsoft Dynamics 365 Finance ได้
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846783"
 ---
 # <a name="import-subsidiary-data-from-files"></a>การนำเข้าข้อมูลบริษัทสาขาจากไฟล์ต่างๆ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการจัดเตรียมข้อมูลจากระบบภายนอกเพื่อให้สามารถนําเข้าข้อมูลจาก Microsoft Dynamics 365 Finance ได้ คุณใช้หน้า **การรวมบัญชีกับการนําเข้า** (**การรวมบัญชี \> การรวมบัญชีกับการนําเข้า**) เพื่อจัดเตรียมการโอนย้ายข้อมูลของบริษัทในเครือจากระบบภายนอก
+บทความนี้อธิบายวิธีการจัดเตรียมข้อมูลจากระบบภายนอกเพื่อให้สามารถนําเข้าข้อมูลจาก Microsoft Dynamics 365 Finance ได้ คุณใช้หน้า **การรวมบัญชีกับการนําเข้า** (**การรวมบัญชี \> การรวมบัญชีกับการนําเข้า**) เพื่อจัดเตรียมการโอนย้ายข้อมูลของบริษัทในเครือจากระบบภายนอก
 
 1. สร้างนิติบุคคลบริษัทในเครือสำหรับใช้ในการรวมบัญชี สำหรับข้อมูลเกี่ยวกับวิธีการสร้างนิติบุคคล ให้ดูที่ [สร้างนิติบุคคล](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [จัดเตรียมนิติบุคคลที่จะใช้ในกระบวนการรวมบัญชี](prepare-company-for-consolidation.md) และ [ตั้งค่านิติบุคคลของบริษัทในเครือเพื่อการรวมบัญชี](set-up-subsidiary-company-for-consolidation.md)
 

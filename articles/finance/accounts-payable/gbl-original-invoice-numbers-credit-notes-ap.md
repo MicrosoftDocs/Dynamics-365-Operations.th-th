@@ -1,6 +1,6 @@
 ---
 title: อ้างอิงใบแจ้งหนี้เดิมในใบลดหนี้ (ใบแจ้งหนี้ของผู้จัดจำหน่าย)
-description: หัวข้อนี้จะอธิบายวิธีการสร้างการอ้างอิงถึงใบแจ้งหนี้เดิม เมื่อคุณสร้างใบลดหนี้
+description: บทความนี้จะอธิบายวิธีการสร้างการอ้างอิงถึงใบแจ้งหนี้เดิม เมื่อคุณสร้างใบลดหนี้
 author: v-oloski
 ms.date: 09/28/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901502"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>อ้างอิงใบแจ้งหนี้เดิมในใบลดหนี้ (ใบแจ้งหนี้ของผู้จัดจำหน่าย)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างการอ้างอิงถึงใบแจ้งหนี้เดิม เมื่อคุณสร้างใบลดหนี้
+บทความนี้จะอธิบายวิธีการสร้างการอ้างอิงถึงใบแจ้งหนี้เดิม เมื่อคุณสร้างใบลดหนี้
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** ให้เปิดใช้งานคุณลักษณะ **เปิดใช้งานการออกใบลดหนี้สำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย** สำหรับข้อมูลเพิ่มเติม ดูที่ [ภาพรวมการจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-ฟังก์ชันที่อธิบายไว้ในหัวข้อนี้จะใช้กับเอกสารทางธุรกิจต่อไปนี้
+ฟังก์ชันที่อธิบายไว้ในบทความนี้จะใช้กับเอกสารทางธุรกิจต่อไปนี้
 
 **บัญชีเจ้าหนี้:**
 

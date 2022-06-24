@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - ลบสภาพแวดล้อม RCS
-description: หัวข้อนี้อธิบายวิธีการที่ผู้ดูแลระบบ Regulatory Configuration Service (RCS) สามารถลบสภาพแวดล้อม RCS และข้อมูลที่เกี่ยวข้องได้
+description: บทความนี้อธิบายวิธีการที่ผู้ดูแลระบบ Regulatory Configuration Service (RCS) สามารถลบสภาพแวดล้อม RCS และข้อมูลที่เกี่ยวข้องได้
 author: JaneA07
 ms.date: 06/14/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: f9073a14143423676f23f9bf8dc9c17dbae18a6c3ad0d2f6d1e33919fd9162bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908903"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - ลบสภาพแวดล้อม RCS
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการที่ผู้ดูแลระบบ Regulatory Configuration Service (RCS) สามารถลบสภาพแวดล้อม RCS และข้อมูลที่เกี่ยวข้องได้
+บทความนี้อธิบายวิธีการที่ผู้ดูแลระบบ Regulatory Configuration Service (RCS) สามารถลบสภาพแวดล้อม RCS และข้อมูลที่เกี่ยวข้องได้
 
-ก่อนที่คุณจะสามารถดำเนินการกระบวนงานต่างๆ ในหัวข้อนี้ให้เสร็จสมบูรณ์ ต้องตรงข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะสามารถดำเนินการกระบวนงานต่างๆ ในบทความนี้ให้เสร็จสมบูรณ์ ต้องตรงข้อกำหนดเบื้องต้นต่อไปนี้:
 
 - คุณต้องได้รับมอบหมายบทบาท **ผู้ดูแลระบบ** ให้กับคุณให้กับสภาพแวดล้อม RCS
 - บทบาท **ผู้ดูแลระบบ** ต้องมอบหมายบทบาท **RCSDeleteEnvironmentDuty** ให้กับสภาพแวดล้อม

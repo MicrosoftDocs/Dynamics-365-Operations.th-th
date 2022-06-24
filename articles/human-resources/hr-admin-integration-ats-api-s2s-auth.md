@@ -1,6 +1,6 @@
 ---
 title: การรับรองความถูกต้องระหว่างเซิร์ฟเวอร์ของ API การรวม ATS
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าการรับรองความถูกต้องระหว่างเซิร์ฟเวอร์เพื่อการรวมกับ API การรวมระบบการติดตามผู้สมัคร (ATS) ของ Dynamics 365 Human Resources
+description: บทความนี้จะอธิบายวิธีการตั้งค่าการรับรองความถูกต้องระหว่างเซิร์ฟเวอร์เพื่อการรวมกับ API การรวมระบบการติดตามผู้สมัคร (ATS) ของ Dynamics 365 Human Resources
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879379"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>การรับรองความถูกต้องระหว่างเซิร์ฟเวอร์ของ API การรวม ATS
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743554"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าการรับรองความถูกต้องระหว่างเซิร์ฟเวอร์เพื่อการรวมใบสมัครกับ API การรวมระบบการติดตามผู้สมัคร (ATS) ของ Dynamics 365 Human Resources มีชั้นความปลอดภัยสองสามชั้นที่ต้องมีการจัดการสำหรับผู้ใช้งานบริการเพื่อเข้าถึงตารางเสมือน Microsoft Dataverse และข้อมูลที่เกี่ยวข้อง ผู้ใช้ต้องได้รับอนุญาตให้เข้าถึงตารางเสมือน Dataverse ใน Microsoft Power Platform และเข้าถึงข้อมูลใน Dynamics 365 Human Resources
+บทความนี้จะอธิบายวิธีการตั้งค่าการรับรองความถูกต้องระหว่างเซิร์ฟเวอร์เพื่อการรวมใบสมัครกับ API การรวมระบบการติดตามผู้สมัคร (ATS) ของ Dynamics 365 Human Resources มีชั้นความปลอดภัยสองสามชั้นที่ต้องมีการจัดการสำหรับผู้ใช้งานบริการเพื่อเข้าถึงตารางเสมือน Microsoft Dataverse และข้อมูลที่เกี่ยวข้อง ผู้ใช้ต้องได้รับอนุญาตให้เข้าถึงตารางเสมือน Dataverse ใน Microsoft Power Platform และเข้าถึงข้อมูลใน Dynamics 365 Human Resources
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>เปิดใช้งานการเข้าถึงตารางเสมือน Dataverse ใน Power Platform
 

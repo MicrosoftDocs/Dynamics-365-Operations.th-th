@@ -1,6 +1,6 @@
 ---
 title: รายงานสมุดรายวัน
-description: หัวข้อนี้อธิบายวิธีการใช้งานรายงานสมุดรายวันที่เกี่ยวข้องกับนิติบุคคลที่มีที่อยู่หลักในเบลเยียมโดยเฉพาะ
+description: บทความนี้อธิบายวิธีการใช้งานรายงานสมุดรายวันที่เกี่ยวข้องกับนิติบุคคลที่มีที่อยู่หลักในเบลเยียมโดยเฉพาะ
 author: anasyash
 ms.date: 04/08/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Thailand
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014198a82550972841496c227cda3a1f691a0882
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6130a9d0320cb350ed846ce2a340f398715176e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893967"
 ---
 # <a name="journal-reports-posting-journals"></a>รายงานสมุดรายวัน (การลงรายการบัญชีสมุดรายวัน)
 

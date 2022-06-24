@@ -1,5 +1,5 @@
 ---
-title: แค็ตตาล็อกการเรียนรู้สำหรับ Dynamics 365 Finance
+title: แค็ตตาล็อกเพื่อการเรียนรู้สำหรับ Dynamics 365 Finance
 description: ค้นหาตัวเลือกการฝึกอบรมทั้งหมดสำหรับ Dynamics 365 Finance
 author: margoc
 ms.topic: article
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0a96307109674321ebc81aab7d77502a434dd994163232d012627f52d7b409
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aca911feab04a3b4203811b5d967bc1db43e992
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903083"
 ---
-# <a name="dynamics-365-finance-learning-catalog"></a>แค็ตตาล็อกการเรียนรู้ Dynamics 365 Finance
+# <a name="dynamics-365-finance-learning-catalog"></a>แค็ตตาล็อกเพื่อการเรียนรู้ Dynamics 365 Finance
 
 ค้นหาการฝึกอบรมออนไลน์ที่เหมาะสมในพื้นที่ทำงานส่วนบุคคล และเหตุการณ์สำหรับบทบาทของคุณในฐานะผู้ใช้แอปพลิเคชัน Dynamics 365 Finance
 
@@ -44,7 +44,7 @@ ms.locfileid: "6758038"
 
     ### <a name="business-users"></a>ผู้ใช้ในธุรกิจ
 
-    คุณเพิ่งได้รับแอพลิเคชันใหม่เพื่อใช้ใช่หรือไม่ 
+    คุณเพิ่งได้รับแอปพลิเคชันใหม่เพื่อใช้ใช่หรือไม่ 
 
     [แค็ตตาล็อกการเรียนรู้ของผู้ใช้ทางธุรกิจ](learning-catalog-business-user.md)
 

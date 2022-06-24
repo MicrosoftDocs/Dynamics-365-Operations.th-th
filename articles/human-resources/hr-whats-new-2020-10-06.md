@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (6 ตุลาคม 2020)
-description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 6 ตุลาคม 2020
+description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 6 ตุลาคม 2020
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887731"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (6 พฤศจิกายน 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Human Resources (6 ตุลาคม 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
+บทความนี้อธิบายถึงคุณลักษณะใหม่ ที่มีการเปลี่ยนแปลง หรือที่กำลังจะมาถึงเร็วๆ นี้ ใน Dynamics 365 Human Resources สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานใหม่ และวันที่ที่พร้อมใช้งานทั่วไปที่คาดไว้ ให้ดูที่ [ภาพรวมของ Dynamics 365 Human Resources รุ่น 2020 เวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 
@@ -48,9 +48,9 @@ ms.locfileid: "8062990"
 การแก้ไขปัญหาต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้
 
 >[!NOTE]
-> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ อาจมีการอัปเดตในหัวข้อนี้เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ อาจมีการอัปเดตในบทความนี้เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่บทความนี้ในครั้งแรก
 
-| หมายเลขปัญหา | ออก | คำอธิบาย |
+| หมายเลขปัญหา | ปัญหา | คำอธิบาย |
 | --- | --- | --- |
 | 448806 | **ชนิดรหัสเริ่มต้น** ส่งออกเป็น **RecID** ในพารามิเตอร์ HCM | การเปลี่ยนแปลงนี้ไปยังเอนทิตีพารามิเตอร์ทรัพยากรบุคคลจะเพิ่มคอลัมน์เพิ่มเติมที่แสดง **ชนิดรหัสเริ่มต้น** |
 | 492923 | การบันทึกงานไม่ได้บันทึกอยู่ใน Lifecycle Services (LCS) | ตอนนี้การบันทึกงานสามารถถูกบันทึกใน LCS |

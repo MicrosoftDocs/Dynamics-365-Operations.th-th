@@ -1,6 +1,6 @@
 ---
 title: อัปเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
-description: หัวข้อนี้แสดงรายการตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม
+description: บทความนี้แสดงรายการตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติม ไปยัง BankJournalEntity โดยรวม
 author: panolte
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 730e6bd10b0cdd1587c915bb9ec8d6a4792435d9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: db5f01af6b21b4dc5ff633ee9c11bb6ed41df048
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868560"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>อัปเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม
+บทความนี้แสดงรายการตามขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติม ไปยัง BankJournalEntity โดยรวม
 
 ใช้ขั้นตอนต่อไปนี้เพื่อเพิ่มฟิลด์ BankTransactionType เพิ่มเติมไปยัง BankJournalEntity โดยรวม
 

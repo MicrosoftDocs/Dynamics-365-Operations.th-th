@@ -1,6 +1,6 @@
 ---
 title: สร้างกำหนดการเรียกเก็บเงิน
-description: หัวข้อนี้อธิบายวิธีการสร้าง ลบ และแก้ไขกำหนดการเรียกเก็บเงิน
+description: บทความนี้อธิบายวิธีการสร้าง ลบ และแก้ไขกำหนดการเรียกเก็บเงิน
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903405"
 ---
 # <a name="create-billing-schedules"></a>สร้างกำหนดการเรียกเก็บเงิน
 
@@ -83,7 +83,7 @@ ms.locfileid: "8690458"
 2. บนแท็บด่วน **รายการกำหนดการเรียกเก็บเงิน** ให้เลือกรายการที่จะลบ แล้วเลือก **เอาออก**
 3. เลือก **บันทึก**
 
-ส่วนที่เหลือของหัวข้อนี้จะอธิบายถึงการดำเนินการและรายละเอียดที่สามารถใช้งานกับรายการต่างๆ บนแท็บด่วน **รายการกำหนดการเรียกเก็บเงิน**
+ส่วนที่เหลือของบทความนี้ จะอธิบายถึงการดำเนินการและรายละเอียดที่สามารถใช้งานกับรายการต่างๆ บนแท็บด่วน **รายการกำหนดการเรียกเก็บเงิน**
 
 ## <a name="billing-schedule-line-actions"></a>การดำเนินการของรายการกำหนดการเรียกเก็บเงิน
 

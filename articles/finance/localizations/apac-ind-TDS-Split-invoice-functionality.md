@@ -1,6 +1,6 @@
 ---
-title: ฟังก์ชันแบ่งใบแจ้งหนี้
-description: หัวข้อนี้อธิบายการตั้งค่าและฟังก์ชันในการแบ่งใบแจ้งหนี้ตามที่อยู่ที่จัดส่งและหมายเลขบัญชีภาษี (TAN)
+title: ฟังก์ชันการแบ่งใบแจ้งหนี้
+description: บทความนี้อธิบายการตั้งค่าและฟังก์ชันในการแบ่งใบแจ้งหนี้ตามที่อยู่ที่จัดส่งและหมายเลขบัญชีภาษี (TAN)
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1dac8d51c24009dcf0c4acbc49f06f32abf0dec
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874445"
 ---
-# <a name="split-invoice-functionality"></a>ฟังก์ชันแบ่งใบแจ้งหนี้
+# <a name="split-invoice-functionality"></a>ฟังก์ชันการแบ่งใบแจ้งหนี้
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายการตั้งค่าและฟังก์ชันในการแบ่งใบแจ้งหนี้ตามที่อยู่ที่จัดส่งและหมายเลขบัญชีภาษี (TAN)
+บทความนี้อธิบายการตั้งค่าและฟังก์ชันในการแบ่งใบแจ้งหนี้ตามที่อยู่ที่จัดส่งและหมายเลขบัญชีภาษี (TAN)
 
 บนหน้า **พารามิเตอร์บัญชีเจ้าหนี้** บนแท็บ **ทั่วไป** ให้เลือกกล่องกาเครื่องหมาย **ใบรับสินค้า** หรือ **ใบแจ้งหนี้** เพื่อลงรายการบัญชี และแบ่งใบรับสินค้าหรือใบแจ้งหนี้ที่มีที่อยู่ที่จัดส่งและ TAN ที่แตกต่างกันบนหน้า **ใบสั่งซื้อ** จากนั้น ใบแจ้งหนี้ที่ลงรายการบัญชีแล้วจะถูกแบ่งตามที่อยู่ที่จัดส่งและ TAN
 

@@ -1,6 +1,6 @@
 ---
 title: นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
-description: หัวข้อนี้อธิบายวิธีการนําเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เวอร์ชันใหม่ จาก Microsoft Dynamics Lifecycle Services (LCS)
+description: บทความนี้อธิบายวิธีการนําเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) เวอร์ชันใหม่ จาก Microsoft Dynamics Lifecycle Services (LCS)
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712603"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886685"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>นำเข้าการตั้งค่าคอนฟิกจาก Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้า [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) รุ่นใหม่จาก [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)
+บทความนี้อธิบายวิธีที่ผู้ใช้ในบทบาทผู้ดูแลระบบ หรือนักพัฒนาการรายงานทางอิเล็กทรอนิกส์ สามารถนำเข้า [การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER)](../general-electronic-reporting.md#Configuration) รุ่นใหม่จาก [แอสเซทไลบรารีระดับโครงการ](../../lifecycle-services/asset-library.md) ใน Microsoft Dynamics Lifecycle Services (LCS)
 
 > [!IMPORTANT]
 > การใช้ LCS เป็นที่เก็บหน่วยจัดเก็บเพื่อการตั้งค่าคอนฟิก ER [ไม่ได้รับการสนับสนุน](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) สำหรับข้อมูลเพิ่มเติม ให้ดู [Regulatory Configuration Service (RCS) – การเลิกใช้ที่เก็บข้อมูล Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
@@ -41,7 +41,7 @@ ms.locfileid: "6712603"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> ตรวจสอบให้แน่ใจว่าผู้ใช้ Dynamics 365 Finance ปัจจุบันเป็นสมาชิกของโครงการ LCS ที่มีแอสเซทไลบรารีที่ผู้ใช้ต้องการสิทธิ์ [เข้าถึง](../../lifecycle-services/asset-library.md#asset-library-support) เพื่อนำเข้าการตั้งค่าคอนฟิก ER
+> ตรวจสอบให้แน่ใจว่าผู้ใช้ Dynamics 365 Finance ปัจจุบัน เป็นสมาชิกของโครงการ LCS ที่มีแอสเซทไลบรารีที่ผู้ใช้ต้องการ [เข้าถึง](../../lifecycle-services/asset-library.md#asset-library-support) เพื่อนำเข้าการตั้งค่าคอนฟิก ER
 >
 > คุณไม่สามารถเข้าถึงโครงการ LCS จากที่เก็บ ER ซึ่งแสดงถึงโดเมนอื่นที่ไม่ใช่โดเมนที่ใช้ใน Finance ถ้าคุณพยายาม จะมีการแสดงรายการที่ว่างเปล่าของโครงการ LCS และคุณจะไม่สามารถนำเข้าการตั้งค่าคอนฟิก ER จากแอสเซทไลบรารีระดับโครงการใน LCS ถ้าต้องการเข้าถึงแอสเซทไลบรารีระดับโครงการจากที่เก็บ ER ซึ่งใช้ในการนำเข้าการตั้งค่าคอนฟิก ER ให้ลงชื่อเข้าใช้ Finance โดยใช้ข้อมูลประจำตัวของผู้ใช้ที่เป็นสมาชิกของผู้เช่า (โดเมน) ที่มีการเตรียมใช้งานอินสแตนซ์ Finance ในปัจจุบัน
 
@@ -49,7 +49,7 @@ ms.locfileid: "6712603"
 
 1. บนหน้า **การตั้งค่าคอนฟิก** ในแผนภูมิการตั้งค่าคอนฟิก เลือก **การตั้งค่าคอนฟิกแบบจำลองตัวอย่าง**
 
-    คุณสร้างการตั้งค่าคอนฟิกรูปแบบข้อมูลตัวอย่างรุ่นแรกและเผยแพร่ไปยัง LCS เมื่อคุณทำตามขั้นตอนใน [อัปโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) ในกระบวนงานนี้ คุณจะลบรุ่นนั้นของการตั้งค่าคอนฟิก ER จากนั้นคุณจะนำเข้ารุ่นดังกล่าวจาก LCS ภายหลังในหัวข้อนี้
+    คุณสร้างการตั้งค่าคอนฟิกรูปแบบข้อมูลตัวอย่างรุ่นแรกและเผยแพร่ไปยัง LCS เมื่อคุณทำตามขั้นตอนใน [อัปโหลดการตั้งค่าคอนฟิกไปยัง Lifecycle Services](er-upload-configuration-into-lifecycle-services.md) ในกระบวนงานนี้ คุณจะลบรุ่นนั้นของการตั้งค่าคอนฟิก ER จากนั้นคุณจะนำเข้ารุ่นดังกล่าวจาก LCS ภายหลังในบทความนี้
 
 2. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 

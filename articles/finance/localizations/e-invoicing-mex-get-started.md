@@ -1,6 +1,6 @@
 ---
 title: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
-description: หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
+description: บทความนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855342"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566012"
 > [!IMPORTANT]
 > การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก อาจไม่สนับสนุนฟังก์ชันทั้งหมดที่พร้อมใช้งานในเอกสาร Comprobante Fiscal Digital for Internet (CFDI) และในการรวมที่เกี่ยวข้องที่สร้างขึ้นใน Microsoft Dynamics 365 Finance หรือ Dynamics 365 Supply Chain Management
 
-หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกที่มีประเทศขึ้นอยู่กับ ใน Regulatory Configuration Services (RCS) และ Finance นอกจากนี้ยังสามารถแนะนำขั้นตอนต่างๆ ที่คุณต้องทำตามใน Finance เพื่อส่งใบแจ้งหนี้ CFDI ผ่านทางบริการ และอธิบายวิธีการตรวจทานผลลัพธ์การประมวลผลและสถานะของใบแจ้งหนี้ CFDI
+บทความนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกที่มีประเทศขึ้นอยู่กับ ใน Regulatory Configuration Services (RCS) และ Finance นอกจากนี้ยังสามารถแนะนำขั้นตอนต่างๆ ที่คุณต้องทำตามใน Finance เพื่อส่งใบแจ้งหนี้ CFDI ผ่านทางบริการ และอธิบายวิธีการตรวจทานผลลัพธ์การประมวลผลและสถานะของใบแจ้งหนี้ CFDI
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะดำเนินการขั้นตอนในหัวข้อนี้ คุณต้องดำเนินการตามขั้นตอนต่างๆ ใน [เริ่มต้นใช้งานการดูแลบริการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started-service-administration.md) และ [เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started.md)
+ก่อนที่คุณจะดำเนินการขั้นตอนในบทความนี้ คุณต้องดำเนินการตามขั้นตอนต่างๆ ใน [เริ่มต้นใช้งานการดูแลบริการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started-service-administration.md) และ [เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-get-started.md)
 
 ## <a name="set-up-the-cadena-xslt"></a>ตั้งค่า Cadena XSLT
 

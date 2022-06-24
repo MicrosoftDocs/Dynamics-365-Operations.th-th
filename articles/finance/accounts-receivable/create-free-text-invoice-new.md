@@ -1,6 +1,6 @@
 ---
 title: สร้างใบแจ้งหนี้ข้อความอิสระ
-description: หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ
+description: บทความนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878173"
 ---
 # <a name="create-a-free-text-invoice"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ สำหรับกระบวนงาน ใช้บริษัทสาธิต **USMF**
+บทความนี้อธิบายวิธีการสร้างใบแจ้งหนี้ข้อความอิสระ สำหรับกระบวนงาน ใช้บริษัทสาธิต **USMF**
 
 ## <a name="create-a-free-text-invoice"></a>สร้างใบแจ้งหนี้ข้อความอิสระ
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392896"
     * ถ้าคุณกำลังใช้ข้อบังคับ Single Euro Payments Area (SEPA) ข้อตกลงการหักบัญชีเงินฝากอัตโนมัติจะถูกป้อนโดยอัตโนมัติ เมื่อคุณเลือกบัญชีลูกค้า
 
 4. ในฟิลด์ **คำอธิบาย** ให้ป้อนค่า
-5. ในฟิลด์ **บัญชีหลัก** ให้ระบุหมายเลขบัญชีที่ไม่มีมิติ คุณจะป้อนมิติในภายหลังในคู่มือนี้
+5. ในฟิลด์ **บัญชีหลัก** ให้ระบุหมายเลขบัญชีที่ไม่มีมิติ คุณจะป้อนมิติในภายหลังในบทความนี้
 
     นอกจากนี้ คุณยังสามารถป้อนอักขระหนึ่งอักขระหรือมากกว่าสำหรับบัญชีหลัก และใช้การค้นหาเพื่อค้นหาบัญชีได้
 

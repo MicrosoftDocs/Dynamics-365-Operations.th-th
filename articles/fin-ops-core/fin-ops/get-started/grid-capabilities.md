@@ -1,6 +1,6 @@
 ---
 title: ความสามารถของกริด
-description: หัวข้อนี้จะอธิบายถึงลักษณะการทำงานที่มีประสิทธิภาพมากมายของตัวควบคุมกริด คุณต้องเปิดใช้งานคุณลักษณะการทำงานของกริดใหม่ เพื่อให้สามารถเข้าถึงความสามารถเหล่านี้ได้
+description: บทความนี้จะอธิบายถึงลักษณะการทำงานที่มีประสิทธิภาพมากมายของตัวควบคุมกริด คุณต้องเปิดใช้งานคุณลักษณะการทำงานของกริดใหม่ เพื่อให้สามารถเข้าถึงความสามารถเหล่านี้ได้
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890071"
 ---
 # <a name="grid-capabilities"></a>ความสามารถของกริด
 

@@ -1,6 +1,6 @@
 ---
-title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
-description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
+title: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
+description: บทความนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846667"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Finance
+# <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
+บทความนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
 
 - คุณลักษณะที่ *ถูกลบ* จะไม่พร้อมใช้งานในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *ถูกยกเลิกการใช้* ไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
@@ -129,7 +129,7 @@ ms.locfileid: "8466847"
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยที่เก็บส่วนกลางของ Regulatory Configuration Service (RCS) ใหม่ |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
-| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ผลิตภัณฑ์ Dynamics 365 Finance Supply Chain Management และ Project Operations|
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ผลิตภัณฑ์ Dynamics 365 Finance, Supply Chain Management และ Project Operations|
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
 | **สถานะ**                         | เลิกสนับสนุน: วันที่ 1 เมษายน 2022 เราวางแผนที่จะไม่สนับสนุนที่เก็บ Lifecycle Services (LCS) ใน Microsoft Dynamics อีกต่อไป โดยเป็นตัวเลือกการจัดเก็บของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จะมีการเผยแพร่การตั้งค่าคอนฟิก Microsoft ER ใหม่เพื่อดาวน์โหลดจากที่เก็บส่วนกลางเท่านั้น ที่เก็บส่วนกลางสามารถเข้าถึงได้จากผลิตภัณฑ์ Dynamics 365 และ RCS สำหรับข้อมูลเพิ่มเติม ให้ดู [นําเข้าการตั้งค่าคอนฟิก ER จาก RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) และ [Regulatory Configuration Service - การคิดค่าเสื่อมราคาของการจัดเก็บ Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md) |
 

@@ -1,6 +1,6 @@
 ---
 title: การระงับสินเชื่อสำหรับใบสั่งขาย
-description: หัวข้อนี้จะอธิบายการตั้งค่าของกฎที่ใช้ในการวางใบสั่งขายในการระงับเครดิต
+description: บทความนี้จะอธิบายการตั้งค่าของกฎที่ใช้ในการวางใบสั่งขายในการระงับเครดิต
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856841"
 ---
 # <a name="credit-holds-for-sales-orders"></a>การระงับสินเชื่อสำหรับใบสั่งขาย
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้จะอธิบายการตั้งค่าของกฎที่ใช้ในการวางใบสั่งขายในการระงับเครดิต กฎการบล็อคการจัดการเครดิตสามารถใช้กับลูกค้าแต่ละรายหรือกลุ่มของลูกค้า กฎการบล็อคกำหนดการตอบสนองต่อสถานการณ์ต่อไปนี้:
+บทความนี้จะอธิบายการตั้งค่าของกฎที่ใช้ในการวางใบสั่งขายในการระงับเครดิต กฎการบล็อคการจัดการเครดิตสามารถใช้กับลูกค้าแต่ละรายหรือกลุ่มของลูกค้า กฎการบล็อคกำหนดการตอบสนองต่อสถานการณ์ต่อไปนี้:
 
 1. จำนวนของวันที่พ้นกำหนด
 2. สถานะของบัญชี

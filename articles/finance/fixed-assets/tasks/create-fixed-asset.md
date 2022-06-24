@@ -1,6 +1,6 @@
 ---
 title: สร้างสินทรัพย์ถาวร
-description: หัวข้อนี้จะอธิบายถึงวิธีการสร้างเรกคอร์ดสินทรัพย์ถาวรใหม่จากหน้ารายการสินทรัพย์ถาวร
+description: บทความนี้จะอธิบายถึงวิธีการสร้างเรกคอร์ดสินทรัพย์ถาวรใหม่จากหน้ารายการสินทรัพย์ถาวร
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868502"
 ---
 # <a name="create-a-fixed-asset"></a>สร้างสินทรัพย์ถาวร
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายถึงวิธีการสร้างเรกคอร์ดสินทรัพย์ถาวรใหม่จากหน้ารายการ **สินทรัพย์ถาวร**
+บทความนี้จะอธิบายถึงวิธีการสร้างเรกคอร์ดสินทรัพย์ถาวรใหม่จากหน้ารายการ **สินทรัพย์ถาวร**
 
 ระบบจะกำหนดหมายเลขสินทรัพย์ โดยยึดตามลำดับหมายเลขที่กำหนดให้กับกลุ่มสินทรัพย์ถาวร ถ้าคุณใช้เท็มเพลตสินทรัพย์ถาวรเพื่อนำเข้าสินทรัพย์ผ่าน add-in ของ Microsoft Excel หรือถ้าคุณใช้งานนำเข้าอื่น ระบบจะสร้างเรกคอร์ดสินทรัพย์ถาวรและเพิ่มหมายเลขสินทรัพย์โดยอัตโนมัติ
 

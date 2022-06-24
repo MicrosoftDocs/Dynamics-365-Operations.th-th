@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 2 ธันวาคม 2020
-description: หัวข้อนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 2 ธันวาคม 2020
+description: บทความนี้อธิบายคุณลักษณะใหม่หรือที่เปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources สำหรับวันที่ 2 ธันวาคม 2020
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848120"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Human Resources 2 ธันวาคม 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายถึงคุณลักษณะที่ใหม่ ที่มีการเปลี่ยนแปลง หรือกำลังจะมาถึงในไม่ช้าใน Dynamics 365 Human Resources
+บทความนี้อธิบายถึงคุณลักษณะใหม่ ที่มีการเปลี่ยนแปลง หรือที่กำลังจะมาถึงเร็วๆ นี้ ใน Dynamics 365 Human Resources
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการอัปเดตและกำหนดการของพวกเรา ให้ดูที่ [กระบวนการอัปเดต](hr-admin-setup-update-process.md)
 
@@ -52,9 +52,9 @@ ms.locfileid: "6782670"
 การแก้ไขปัญหาต่อไปนี้จะรวมอยู่ในการนำออกใช้นี้
 
 > [!NOTE]
-> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ พวกเราอาจมีการอัปเดตในหัวข้อนี้เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่หัวข้อนี้ในครั้งแรก
+> เป้าหมายของเราคือการส่งข้อมูลนี้ให้คุณโดยเร็วที่สุดเท่าที่จะเป็นไปได้ พวกเราอาจมีการอัปเดตในบทความนี้ เพื่อรวมการแก้ไขข้อผิดพลาดที่ทำให้เกิดข้อผิดพลาดในการสร้างหลังจากที่มีการเผยแพร่บทความนี้ในครั้งแรก
 
-| หมายเลขปัญหา | ออก | คำอธิบาย |
+| หมายเลขปัญหา | ปัญหา | คำอธิบาย |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult ควรรวม datetime ที่ใช้ในการประมวลผล | ขณะนี้ผลการประมวลผล BenefitEligibity มี datetimestamp สำหรับการประมวลผลครั้งล่าสุด ซึ่งขาดหายไปก่อนหน้านี้ |
 | 526903 | การลงทะเบียนสวัสดิการล้มเหลวสำหรับแผนที่มีผู้อยู่ในอุปการะ เมื่อ **เลือกผู้ถูกกำหนดอัตโนมัติ** ถูกเปิดอยู่ใน **พารามิเตอร์ที่ใช้ร่วมกันของฝ่ายทรัพยากรบุคคล** | แก้ไขปัญหาที่ซึ่งการลงทะเบียนสวัสดิการมีความล้มเหลวสำหรับผู้อยู่ในอุปการะ เมื่อเปิดใช้งานตัวเลือก **เลือกผู้ถูกกำหนดอัตโนมัติ** ถูกเปิดอยู่สำหรับผู้ถูกกำหนดเริ่มต้น |
@@ -86,7 +86,7 @@ ms.locfileid: "6782670"
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 
-[มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Human Resources](hr-admin-whats-new.md)</br>
+[มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources](hr-admin-whats-new.md)</br>
 [ภาพรวมของ Dynamics 365 Human Resources 2020 ปล่อยเวฟ 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [อัปเดตกระบวนการ](hr-admin-setup-update-process.md)</br>
 [จัดการคุณลักษณะ](hr-admin-manage-features.md)

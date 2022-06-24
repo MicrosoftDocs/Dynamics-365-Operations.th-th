@@ -1,6 +1,6 @@
 ---
-title: ภาพรวมการรายงานทางการเงิน
-description: หัวข้อนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินใน Microsoft Dynamics 365 Finance และวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ
+title: ภาพรวมของการรายงานทางการเงิน
+description: บทความนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินใน Microsoft Dynamics 365 Finance และวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853422"
 ---
 # <a name="get-started-with-financial-reporting"></a>เริ่มต้นใช้งานการรายงานทางการเงิน 
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินและวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ ประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
+บทความนี้อธิบายวิธีการจัดเก็บรายงานทางการเงินและวิธีการใช้รายงานทางการเงินอย่างมีประสิทธิภาพ ประกอบด้วยคำอธิบายของรายงานทางการเงินเริ่มต้นที่กำหนดไว้
 
 ## <a name="accessing-financial-reporting"></a>การเข้าถึงรายงานทางการเงิน
 

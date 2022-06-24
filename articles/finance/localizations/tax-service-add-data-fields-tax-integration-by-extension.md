@@ -1,6 +1,6 @@
 ---
 title: เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
-description: หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี
+description: บทความนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871062"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>เพิ่มฟิลด์ข้อมูลในการรวมภาษีโดยใช้ส่วนขยาย
 
 [!include [banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี ฟิลด์เหล่านี้สามารถขยายไปยังรูปแบบข้อมูลภาษีของบริการภาษี และใช้เพื่อระบุรหัสภาษี สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ฟิลด์เพิ่มข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
+บทความนี้อธิบายวิธีการใช้ส่วนขยาย X++ เพื่อเพิ่มฟิลด์ข้อมูลในการรวมภาษี ฟิลด์เหล่านี้สามารถขยายไปยังรูปแบบข้อมูลภาษีของบริการภาษี และใช้เพื่อระบุรหัสภาษี สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ฟิลด์เพิ่มข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
 
 ## <a name="data-model"></a>แบบจำลองข้อมูล
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 ในโค้ดนี้ `_destination` เป็นออบเจ็กต์ตัวตัดคำที่ใช้ในการสร้างการร้องขอ และ `_source` เป็นออบเจ็กต์ `TaxIntegrationLineObject`
 
 > [!NOTE]
-> กําหนดชื่อฟิลด์ที่จะใช้ในการร้องขอเป็น **private const str** สตริงควรจะเหมือนกับชื่อโหนด (ไม่ใช่ป้ายชื่อ) ที่เพิ่มในหัวข้อ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
+> กําหนดชื่อฟิลด์ที่จะใช้ในการร้องขอเป็น **private const str** สตริงควรจะเหมือนกับชื่อโหนด (ไม่ใช่ป้ายชื่อ) ที่เพิ่มในบทความ [เพิ่มฟิลด์ข้อมูลในการตั้งค่าคอนฟิกภาษี](tax-service-add-data-fields-tax-configurations.md)
 > 
 > ตั้งค่าฟิลด์ในวิธีการ **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** โดยใช้วิธีการ **SetField** ชนิดข้อมูลของพารามิเตอร์ที่สองควรเป็น **string** ถ้าชนิดข้อมูลไม่ใช่ **string** ให้แปลงเป็นสตริง
 > ถ้าชนิดข้อมูลเป็น X++ **enum type** เราขอแนะนำให้ใช้วิธีการ **enum2Symbol** เพื่อแปลงค่า enum เป็นสตริง ค่า enum ที่เพิ่มในการตั้งค่าคอนฟิกภาษีควรเหมือนกับชื่อ enum เท่านั้น ต่อไปนี้เป็นรายการความแตกต่างระหว่างค่า enum, ป้ายชื่อ และชื่อ

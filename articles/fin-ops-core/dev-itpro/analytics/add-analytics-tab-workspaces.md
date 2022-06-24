@@ -1,6 +1,6 @@
 ---
-title: เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
-description: หัวข้อนี้แสดงวิธีการฝังรายงาน Power BI ในแท็บการวิเคราะห์ของพื้นที่ทำงาน
+title: เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
+description: บทความนี้แสดงวิธีการฝังรายงาน Power BI ในแท็บการวิเคราะห์ของพื้นที่ทำงาน
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884562"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังบริการโดยใช้ Power BI Embedded
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>เพิ่มการวิเคราะห์ไปยังพื้นที่ทำงานโดยใช้ Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และรุ่นที่ใหม่กว่า)
+> คุณลักษณะนี้ได้รับการสนับสนุนใน Finance and Operations (รุ่น 7.2 และใหม่กว่า)
 
 ## <a name="introduction"></a>บทนำ
-หัวข้อนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
+บทความนี้แสดงวิธีการฝังรายงาน Microsoft Power BI ในแท็บ **การวิเคราะห์** ของพื้นที่ทำงาน สำหรับตัวอย่างที่กำหนดที่นี่ เราจะขยายพื้นที่ทำงาน **การจัดการการจอง** ในแอพลิเคชันการจัดการยานพาหนะเพื่อฝังพื้นที่ทำงานการวิเคราะห์บนแท็บ **การวิเคราะห์**
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 + เข้าถึงสภาพแวดล้อมนักพัฒนาที่รันการอัพเดตแพลตฟอร์ม 8 หรือรุ่นที่ใหม่กว่า

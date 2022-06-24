@@ -1,6 +1,6 @@
 ---
 title: การค้นหานำทาง
-description: หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าต่างๆ
+description: บทความนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าต่างๆ
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872691"
 ---
 # <a name="navigation-search"></a>การค้นหานำทาง
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069995"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าต่างๆ
+บทความนี้อธิบายวิธีการใช้ฟังก์ชันการค้นหาเพื่อนำทางไปยังหน้าต่างๆ
 
 แอปพลิเคชันประกอบด้วยจำนวนของพื้นที่และหน้าเพื่อช่วยให้คุณทำงานต่าง ๆ เมื่อต้องการค้นหาหน้าที่คุณต้องทำงานให้เสร็จสมบูรณ์ ใช้คุณลักษณะค้นหาการนำทาง
 

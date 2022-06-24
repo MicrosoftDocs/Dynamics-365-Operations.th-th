@@ -1,6 +1,6 @@
 ---
 title: ใช้ส่วนลดเงินสดนอกเหนือจากระยะเวลาการใช้ส่วนลดเงินสด
-description: หัวข้อนี้อธิบายสองสถานการณ์ที่แสดงวิธีการใช้ส่วนลดเงินสด แม้ว่าจะชำระนอกรอบระยะเวลาส่วนลด
+description: บทความนี้อธิบายสองสถานการณ์ที่แสดงวิธีการใช้ส่วนลดเงินสด แม้ว่าจะชำระนอกรอบระยะเวลาส่วนลด
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879724"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>ใช้ส่วนลดเงินสดนอกเหนือจากระยะเวลาการใช้ส่วนลดเงินสด
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายสองสถานการณ์ที่แสดงวิธีการใช้ส่วนลดเงินสด แม้ว่าจะชำระนอกรอบระยะเวลาส่วนลด
+บทความนี้อธิบายสองสถานการณ์ที่แสดงวิธีการใช้ส่วนลดเงินสด แม้ว่าจะชำระนอกรอบระยะเวลาส่วนลด
 
 ในวันที่ 28 มิถุนายน April สร้างใบแจ้งหนี้เป็นจำนวนเงิน 2,000.00 สำหรับผู้จัดจำหน่าย 3052 ใบแจ้งหนี้นี้จะมีส่วนลดเงินสดให้ 1 เปอร์เซ็นต์ถ้าชำระใบแจ้งหนี้ภายในระยะเวลา 14 วัน
 

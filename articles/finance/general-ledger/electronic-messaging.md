@@ -1,8 +1,8 @@
 ---
 title: การส่งข้อความทางอิเล็กทรอนิกส์
-description: หัวข้อนี้ให้ภาพรวมและข้อมูลการตั้งค่าสำหรับการส่งข้อความอิเล็กทรอนิกส์ใน Microsoft Dynamics 365 Finance
+description: บทความนี้ให้ภาพรวมและข้อมูลการตั้งค่าสำหรับการส่งข้อความอิเล็กทรอนิกส์ใน Microsoft Dynamics 365 Finance
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934692"
 ---
 # <a name="electronic-messaging"></a>การส่งข้อความทางอิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับภาพรวมและข้อมูลการตั้งค่าฟังก์ชัน **ข้อความทางอิเล็กทรอนิกส์** (EM)
+บทความนี้แสดงข้อมูลเกี่ยวกับภาพรวมและข้อมูลการตั้งค่าฟังก์ชัน **ข้อความทางอิเล็กทรอนิกส์** (EM)
 
 ล่าสุด รัฐบาลและหน่วยงานทางกฎหมายของประเทศและภูมิภาคทั่วโลกต่างๆ มีการใช้ข้อกำหนดของรายงานสำหรับบริษัทที่ลงทะเบียนในประเทศหรือภูมิภาคเหล่านั้น วัตถุประสงค์ของข้อกำหนดคือ เพื่อเปิดใช้งานข้อมูลให้ได้รับจากบริษัทเหล่านั้นในรูปแบบอิเล็กทรอนิกส์ โดยตรงจากระบบที่จะถูกนำมาพิจารณา จัดเก็บ และประมวลผล
 
@@ -58,6 +58,16 @@ ms.locfileid: "6768350"
 - จัดเก็บ และตรวจทานข้อมูลล็อกทั้งหมดที่เกี่ยวข้องกับการดำเนินการที่ทำงานให้ข้อความหรือรายการข้อความ
 - ควบคุมการประมวลผลโดยใช้สถานะข้อความและสถานะรายการข้อความต่างๆ
 
+## <a name="security-privileges"></a>สิทธิ์ความปลอดภัย
+
+สิทธิ์ความปลอดภัยต่อไปนี้จะพร้อมใช้งานเฉพาะกับข้อความอิเล็กทรอนิกส์
+
+| สิทธิ์ความปลอดภัย           | ระดับการเข้าถึง | การเชื่อมโยง |
+|------------------------------|--------------|-------------|
+| รักษาข้อความทางอิเล็กทรอนิกส์ | สิทธิ์นี้ให้สิทธิ์เข้าถึงฟังก์ชัน EM อย่างเต็มรูปแบบ ถ้าคุณมีสิทธิ์นี้ คุณสามารถตั้งค่าข้อความอิเล็กทรอนิกส์และเรียกใช้การประมวลผลทั้งหมดได้ | สิทธิ์นี้จะรวมอยู่ในหน้าที่ด้านความปลอดภัย **รักษาธุรกรรมภาษีขาย** หน้าที่นั้นรวมอยู่ในบทบาทความปลอดภัย **นักบัญชี** |
+| ดูข้อความทางอิเล็กทรอนิกส์     | สิทธิ์นี้ให้สิทธิ์เข้าถึงฟังก์ชัน EM แบบอ่านอย่างเดียว ถ้าคุณมีสิทธิ์นี้ คุณสามารถดูการตั้งค่าการส่งข้อความทางอิเล็กทรอนิกส์และข้อความ อย่างไรก็ตาม คุณไม่สามารถตั้งค่าหรือเรียกใช้ใดๆ ได้ | สิทธิ์นี้จะรวมอยู่ในหน้าที่ด้านความปลอดภัย **สอบถามเกี่ยวกับสถานะธุรกรรมภาษีขาย** หน้าที่นั้นรวมอยู่ในบทบาทความปลอดภัยต่อไปนี้:<ul><li>ผู้จัดการฝ่ายเรียกเก็บเงิน</li><li>เจ้าหน้าที่บัญชีลูกหนี้</li><li>ผู้จัดการฝ่ายบัญชีลูกหนี้</li><li>นักบัญชีภาษี</li><li>นักบัญชี</li><li>ผู้จัดการฝ่ายบัญชี</li><li>หัวหน้างานฝ่ายบัญชี</li><li>ผู้จัดการฝ่ายขาย</li><li>เจ้าหน้าที่บัญชีเจ้าหนี้</li></ul> |
+| ดำเนินงานข้อความทางอิเล็กทรอนิกส์  | สิทธิ์นี้จะให้สิทธิ์การเข้าถึงหน้า **ข้อความทางอิเล็กทรอนิกส์** และ **รายการข้อความทางอิเล็กทรอนิกส์** เท่านั้น ถ้าคุณมีสิทธิ์นี้ คุณสามารถเรียกใช้การประมวลผลทั้งหมดที่เรียกจากหน้าเหล่านั้น | สิทธิ์นี้รวมอยู่ในหน้าที่ด้านความปลอดภัย **ดำเนินการข้อความทางอิเล็กทรอนิกส์** หน้าที่นั้นรวมอยู่ในบทบาทความปลอดภัย **ตัวดำเนินการข้อความทางอิเล็กทรอนิกส์** |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>คุณลักษณะการทำงานบังคับเฉพาะประเทศที่สนับสนุนโดยฟังก์ชัน EM
 
 ตารางต่อไปนี้แสดงข้อมูลเกี่ยวกับคุณลักษณะการทำงานบังคับเฉพาะประเทศที่สนับสนุนโดยฟังก์ชัน EM
@@ -66,9 +76,9 @@ ms.locfileid: "6768350"
 |-------------|--------------|------------------------|
 | สเปน       | [การจัดหาข้อมูลเกี่ยวกับ VAT ทันที (Summediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | ฮังการี     | [ระบบออกใบแจ้งหนี้ออนไลน์](../localizations/emea-hun-online-invoicing.md) | |
-| สหราชอาณาจักร | [การทำภาษีดิจิทัล (MTD) - การส่งใบแจ้งยอด VAT](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: การรายงานภาษีดิจิทัล - VAT ของสหราชอาณาจักรใน Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| สหราชอาณาจักร | [การทำภาษีดิจิทัล (MTD) - การส่งใบแจ้งยอด VAT](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: UK Digital Tax - VAT Declaration In Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | ลิทัวเนีย   | [การรายงาน i.SAF](../localizations/emea-ltu-isaf.md) | |
-| โปแลนด์      | [การรายงานภาษี VAT ที่มีทะเบียน (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: เครื่องบันทึกการตรวจสอบ SAF/JPK VAT](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| โปแลนด์      | [การรายงานภาษี VAT ที่มีทะเบียน (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK VAT Audit Registers](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | เนเธอร์แลนด์ | [การรายงานภาษี VAT สำหรับประเทศเนเธอร์แลนด์](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | สาธารณรัฐเช็ก | [การรายงานภาษี VAT](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | บราซิล      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -78,7 +88,13 @@ ms.locfileid: "6768350"
 | รัสเซีย      | [การรายงานภาษีที่ประเมิน](../localizations/rus-assessed-tax-declaration.md) | |
 | รัสเซีย      | [การรายงานภาษีการขนส่ง](../localizations/rus-transport-tax-declaration.md) | |
 | รัสเซีย      | [การรายงานภาษีที่ดิน](../localizations/rus-land-tax-declaration.md) | |
-
+| นอร์เวย์      | [การส่งคืน VAT พร้อมด้วยการส่งโดยตรงไปที่ Altinn](../localizations/emea-nor-vat-return.md) | [การส่งคืน VAT ใหม่ที่มีการส่งโดยตรงไปที่ Altinn ใน Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| ฝรั่งเศส      | [การรายงานภาษี VAT (ฝรั่งเศส)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| ออสเตรีย     | [การรายงานภาษี VAT (ออสเตรีย)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| เยอรมนี     | [การรายงานภาษี VAT (เยอรมนี)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| เนเธอร์แลนด์ | [การรายงานภาษี VAT สำหรับประเทศเนเธอร์แลนด์](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| สวีเดน      | [การรายงานภาษี VAT (สวีเดน)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| สวิตเซอร์แลนด์ | [การรายงานภาษี VAT (สวิตเซอร์แลนด์)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

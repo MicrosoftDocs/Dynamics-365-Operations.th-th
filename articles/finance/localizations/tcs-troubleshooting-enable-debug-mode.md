@@ -1,6 +1,6 @@
 ---
 title: เปิดใช้งานโหมดดีบักในบริการคํานวณภาษี
-description: หัวข้อนี้อธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหา
+description: บทความนี้อธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหา
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887803"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>เปิดใช้งานโหมดดีบักในบริการคํานวณภาษี
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหา
+บทความนี้ธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหาอนี้อธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหา
 
 1. เพิ่ม **&debug=vs%2CconfirmExit&** ลงใน URL ของ Application Object Server (AOS) แล้วรีเฟรชหน้า
 2. เมื่อคุณเลือก **ภาษีขาย** เพื่อคํานวณภาษีขาย ไฟล์ข้อความที่ชื่อ **TaxServiceTroubleshootingLog.txt** จะเปิดขึ้น ไฟล์ **TaxServiceTroubleshootingLog.txt** มี **TaxableDocument** และพารามิเตอร์การคํานวณ ผลลัพธ์เหล่านี้จะถูกส่งคืนมาจากบริการภาษีและข้อมูลข้อยกเว้นเพื่อการแก้ไขปัญหาเบื้องต้น

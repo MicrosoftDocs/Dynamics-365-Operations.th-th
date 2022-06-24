@@ -1,6 +1,6 @@
 ---
 title: ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้สมุดรายวันการอนุมัติ
-description: หัวข้อนี้จะอธิบายวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้ และจากนั้น ใช้สมุดรายวันการอนุมัติสำหรับการปรับปรุงบัญชีค่าใช้จ่าย
+description: บทความนี้จะอธิบายวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้ และจากนั้น ใช้สมุดรายวันการอนุมัติสำหรับการปรับปรุงบัญชีค่าใช้จ่าย
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ce66a4b92f26bcec0849accad3878aef2b2f658
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: afe1471949bbf892f4e28ed3bea830ee491a517f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909227"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>ข้อมูลใบแจ้งหนี้ที่สำคัญในบัญชีเจ้าหนี้โดยใช้สมุดรายวันการอนุมัติ
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้ และจากนั้น ใช้สมุดรายวันการอนุมัติสำหรับการปรับปรุงบัญชีค่าใช้จ่าย
+บทความนี้จะอธิบายวิธีการใช้ทะเบียนใบแจ้งหนี้เพื่อสร้างใบแจ้งหนี้ และจากนั้น ใช้สมุดรายวันการอนุมัติสำหรับการปรับปรุงบัญชีค่าใช้จ่าย
 
 ## <a name="create-and-post-and-invoice"></a>สร้างและลงรายการบัญชีและใบแจ้งหนี้
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > บัญชีเจ้าหนี้ > ใบแจ้งหนี้ > ทะเบียนใบแจ้งหนี้**

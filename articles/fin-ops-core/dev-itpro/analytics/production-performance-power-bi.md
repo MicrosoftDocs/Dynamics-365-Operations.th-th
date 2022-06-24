@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
-description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
+description: บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881474"
 ---
 # <a name="production-performance-power-bi-content"></a>เนื้อหา Power BI เกี่ยวกับประสิทธิภาพการผลิต
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ประสิทธิภาพของการผลิต** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ประสิทธิภาพการผลิต** Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -63,7 +63,7 @@ ms.locfileid: "6761427"
 
 ตารางต่อไปนี้แสดงการวัดแบบรวมหลักที่ถูกใช้เป็นข้อมูลพื้นฐานของชุดเนื้อหา Power BI
 
-| เอนทิตี้                   | การวัดแบบรวมหลัก  | แหล่งข้อมูลสำหรับแอป Finance and Operations | ฟิลด์              |
+| เอนทิตี้                   | การวัดแบบรวมหลัก  | แหล่งข้อมูลสำหรับแอปการเงินและการดำเนินงาน | ฟิลด์              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

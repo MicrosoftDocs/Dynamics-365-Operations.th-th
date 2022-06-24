@@ -1,6 +1,6 @@
 ---
-title: การคำนวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
-description: หัวข้อนี้มีข้อมูลอ้างอิงเกี่ยวกับธุรกรรมการชำระเงินต่างๆ ที่ภาษีที่หักที่ต้นทาง (TDS) ถูกคํานวณ
+title: การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+description: บทความนี้มีข้อมูลอ้างอิงเกี่ยวกับธุรกรรมการชำระเงินต่างๆ ที่ภาษีที่หักที่ต้นทาง (TDS) ถูกคํานวณ
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906331"
 ---
-# <a name="tds-calculation-on-payments-and-promissory-notes"></a>การคำนวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
+# <a name="tds-calculation-on-payments-and-promissory-notes"></a>การคํานวณ TDS ในการชำระเงินและตั๋วสัญญาใช้เงิน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้มีข้อมูลอ้างอิงเกี่ยวกับธุรกรรมการชำระเงินต่างๆ ที่ภาษีที่หักที่ต้นทาง (TDS) ถูกคํานวณ
+บทความนี้มีข้อมูลอ้างอิงเกี่ยวกับธุรกรรมการชำระเงินต่างๆ ที่ภาษีที่หักที่ต้นทาง (TDS) ถูกคํานวณ
 
 | หมายเลขลำดับประจำสินค้า | ชนิดธุรกรรม | ยอดเงินในธุรกรรม | พาธและชื่อของหน้า | ชนิดบัญชีและชนิดบัญชีตรงข้าม |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของประโยชน์
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ของประโยชน์
+description: บทความนี้อธิบายเนื้อหาค่าตอบแทนใน Power BI
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848822"
 ---
 # <a name="benefits-power-bi-content"></a>เนื้อหา Power BI ของประโยชน์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **ผลประโยชน์** ของ Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
+บทความนี้อธิบายเนื้อหา **ค่าตอบแทน** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างชุดเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 เนื้อหา **ประโยชน์** Power BI ถูกแสดงในพื้นที่ทำงาน **การจัดการประโยชน์** ถ้าคุณใช้หนึ่งในผลิตภัณฑ์ต่อไปนี้

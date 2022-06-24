@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของการวัดของพนักงาน
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ของการวัดของพนักงาน
+description: บทความนี้อธิบายเนื้อหา Power BI ของเมตริกบุคลากร
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884501"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>เนื้อหา Power BI ของการวัดของพนักงาน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **เมตริกบุคลากร** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+บทความนี้อธิบายเนื้อหา **เมตริกบุคลากร** Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 เนื้อหา Power BI ของ **การวัดของพนักงาน** ปรากฎในพื้นที่ทำงาน **การจัดการส่วนบุคคล** ถ้าคุณใช้หนึ่งในผลิตภัณฑ์เหล่านี้
@@ -58,7 +58,7 @@ ms.locfileid: "6757284"
 ต้องแน่ใจว่าดาวน์โหลดเนื้อหา Power BI ของ **การวัดของพนักงาน** ที่ใช้กับรุ่นของ Microsoft Dynamics 365 ที่คุณกำลังใช้
 
 > [!NOTE]
-> ไฟล์ .pbix ที่พร้อมใช้งานใน Lifecycle Services นำไปใช้กับแอป Finance and Operations เท่านั้น
+> ไฟล์ .pbix พร้อมใช้งานใน Lifecycle Services นำไปใช้ได้กับแอปการเงินและการดำเนินงานเท่านั้น
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
 ตารางต่อไปนี้แสดงเอนทิตีที่เนื้อหายึดตาม

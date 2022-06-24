@@ -1,6 +1,6 @@
 ---
 title: ลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
-description: หัวข้อนี้มีตัวอย่างที่แสดงวิธีการลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
+description: บทความนี้มีตัวอย่างที่แสดงวิธีการลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862977"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>ลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้มีตัวอย่างที่แสดงวิธีการลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต ตัวอย่างนี้ใช้นิติบุคคล **ITCO**
+บทความนี้มีตัวอย่างที่แสดงวิธีการลงรายการบัญชีการมาถึงและการจัดส่งสำหรับอินทราสแทต ตัวอย่างนี้ใช้นิติบุคคล **ITCO**
 
 ## <a name="setup"></a>ตั้งค่า
 

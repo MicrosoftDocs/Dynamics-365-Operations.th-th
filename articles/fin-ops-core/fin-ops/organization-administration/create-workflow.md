@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของการสร้างลำดับงาน
-description: หัวข้อนี้อธิบายวิธีการสร้างลำดับงาน
+description: บทความนี้อธิบายวิธีการสร้างเวิร์กโฟลว์
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864499"
 ---
 # <a name="create-workflows-overview"></a>ภาพรวมของการสร้างลำดับงาน
 
@@ -31,7 +31,7 @@ ms.locfileid: "8067969"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างลำดับงาน
+บทความนี้อธิบายวิธีการสร้างเวิร์กโฟลว์
 
 ## <a name="open-the-workflow-editor"></a>เปิดโปรแกรมแก้ไขลำดับงาน
 
@@ -56,7 +56,7 @@ ms.locfileid: "8067969"
 
 1. คลิกผืนผ้าใบเพื่อให้แน่ใจว่าไม่มีการเลือกองค์ประกอบลำดับงาน
 2. คลิก **คุณสมบัติ** เพื่อเปิดหน้า **คุณสมบัติ** สำหรับลำดับงาน
-3. ทำตามกระบวนงานในหัวข้อ [ตั้งค่าคอนฟิกคุณสมบัติของลำดับงาน](configure-workflow-properties.md)
+3. ทำตามกระบวนงานในบทความ [ตั้งค่าคอนฟิกคุณสมบัติเวิร์กโฟลว์](configure-workflow-properties.md)
 
 ## <a name="configure-the-elements-of-the-workflow"></a>การตั้งค่าคอนฟิกองค์ประกอบของลำดับงาน
 

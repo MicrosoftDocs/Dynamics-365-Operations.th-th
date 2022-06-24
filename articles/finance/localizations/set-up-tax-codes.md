@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่ารหัสภาษี
-description: หัวข้อนี้อธิบายวิธีการตั้งค่ารหัสภาษีในบริการคํานวณภาษี
+description: บทความนี้อธิบายวิธีการตั้งค่ารหัสภาษีในบริการคํานวณภาษี
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862941"
 ---
 # <a name="set-up-tax-codes"></a>ตั้งค่ารหัสภาษี
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่ารหัสภาษีในบริการคํานวณภาษี ซึ่งรวมถึงการตั้งค่าให้กับสถานการณ์ง่ายๆ เพื่อใช้งานรหัสภาษีและข้อมูลเกี่ยวกับฟังก์ชันรหัสภาษีขั้นสูงบางอย่าง
+บทความนี้อธิบายวิธีการตั้งค่ารหัสภาษีในบริการคํานวณภาษี ซึ่งรวมถึงการตั้งค่าให้กับสถานการณ์ง่ายๆ เพื่อใช้งานรหัสภาษีและข้อมูลเกี่ยวกับฟังก์ชันรหัสภาษีขั้นสูงบางอย่าง
 
 > [!IMPORTANT]
 > การตั้งค่ารหัสภาษีในบริการคํานวณภาษีเป็นแบบไม่อิงกับนิติบุคคลเดียว คุณสามารถทำการตั้งค่านี้ใน Regulatory Configuration Service (RCS) ได้เพียงครั้งเดียว รหัสภาษีจะซิงค์โดยอัตโนมัติกับ Microsoft Dynamics 365 Finance เมื่อคุณเปิดใช้งานบริการคํานวณภาษีสำหรับนิติบุคคลที่เลือกใน Finance

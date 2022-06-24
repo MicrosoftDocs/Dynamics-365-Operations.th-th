@@ -1,6 +1,6 @@
 ---
-title: ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดการจัดการการพิมพ์
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางเฉพาะเรกคอร์ดการจัดการการพิมพ์สำหรับรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก
+title: ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดของการจัดการการพิมพ์
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางเฉพาะเรกคอร์ดการจัดการการพิมพ์สำหรับรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่มีการตั้งค่าคอนฟิกเพื่อสร้างเอกสารขาออก
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872726"
 ---
-# <a name="configure-print-management-record-specific-er-destinations"></a>ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดการจัดการการพิมพ์
+# <a name="configure-print-management-record-specific-er-destinations"></a>ตั้งค่าคอนฟิกปลายทาง ER เฉพาะเรกคอร์ดของการจัดการการพิมพ์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการที่ผู้ใช้ในบทบาทของผู้ดูแลระบบหรือเสมียนบัญชีลูกหนี้สามารถดำเนินงานต่อไปนี้ได้:
+บทความนี้จะอธิบายวิธีการที่ผู้ใช้ในบทบาทของผู้ดูแลระบบหรือเสมียนบัญชีลูกหนี้สามารถดำเนินงานต่อไปนี้ได้:
 
 - ตั้งค่าคอนฟิกปลายทาง [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ที่ระบุชื่อในโซลูชัน ER ที่สร้างใบแจ้งหนี้ข้อความอิสระ
 - กําหนดปลายทาง ER ให้กับเรกคอร์ด [การจัดการการพิมพ์](document-reporting-services.md) เดียว

@@ -1,6 +1,6 @@
 ---
-title: ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
-description: หัวข้อนี้อธิบายถึงวิธีการเรียกใช้กระบวนการมีสิทธิ์ในการลงทะเบียน
+title: ประมวลผลการมีสิทธิ์ในการลงทะเบียน
+description: บทความนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a7de6dbb8d8ed13392eb7eb9aa02b15db2e009
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c01d7a6f456514fc9da1889ccaff5af1ae7c0f52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877756"
 ---
-# <a name="process-enrollment-eligibility"></a>ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
+# <a name="process-enrollment-eligibility"></a>ประมวลผลการมีสิทธิ์ในการลงทะเบียน
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการเรียกใช้กระบวนการมีสิทธิ์ในการลงทะเบียน
+บทความนี้อธิบายถึงวิธีการรันกระบวนการมีสิทธิ์ในการลงทะเบียน
 
 1. ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **กำลังประมวลผลการมีสิทธิ์ในการลงทะเบียน**
 
@@ -55,7 +55,7 @@ ms.locfileid: "8693184"
 
 ## <a name="view-process-results"></a>ดูผลลัพธ์ของกระบวนการ
 
-หัวข้อนี้อธิบายถึงวิธีการดูผลลัพธ์กระบวนการการมีสิทธิ์
+บทความนี้อธิบายถึงวิธีการดูผลลัพธ์กระบวนการการมีสิทธิ์
 
 1.  ในพื้นที่ทำงาน **การจัดการสวัสดิการ** ภายใต้ **กำลังประมวลผล** ให้เลือก **ผลลัพธ์ของกระบวนการ**
 

@@ -1,6 +1,6 @@
 ---
 title: ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
-description: หัวข้อนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือนใน Dynamics 365 Human Resources
+description: บทความนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือนใน Dynamics 365 Human Resources
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70e42cbf657a28327699d927731edd36de7c4a64
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 683994b24113b8c2017f1bb3c1055e7e0f0eb75e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901131"
 ---
 # <a name="payroll-worker-address"></a>ที่อยู่ผู้ปฏิบัติงานในบัญชีเงินเดือน
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069768"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายเอนทิตีที่อยู่ของผู้ปฏิบัติงานในบัญชีเงินเดือนสำหรับ Dynamics 365 Human Resources
+บทความนี้อธิบายเอนทิตีที่อยู่ของผู้ปฏิบัติงานในบัญชีเงินเดือนสำหรับ Dynamics 365 Human Resources
 
 ชื่อทางกายภาพ: mshr_payrollworkeraddressentity
 

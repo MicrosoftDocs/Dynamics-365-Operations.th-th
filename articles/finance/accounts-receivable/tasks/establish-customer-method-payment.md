@@ -1,6 +1,6 @@
 ---
 title: จัดทำวิธีการชำระเงินของลูกค้า
-description: หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างวิธีการชำระเงินสำหรับการชำระเงินของลูกค้า
+description: บทความนี้จะอธิบายเกี่ยวกับวิธีการสร้างวิธีการชำระเงินสำหรับการชำระเงินของลูกค้า
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e8974ea20497124e24e95b3761317daf126839
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861515"
 ---
 # <a name="establish-customer-method-of-payment"></a>จัดทำวิธีการชำระเงินของลูกค้า
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้จะอธิบายเกี่ยวกับวิธีการสร้างวิธีการชำระเงินสำหรับการชำระเงินของลูกค้า งานนี้ใช้บริษัทสาธิต USMF 
+บทความนี้จะอธิบายเกี่ยวกับวิธีการสร้างวิธีการชำระเงินสำหรับการชำระเงินของลูกค้า งานนี้ใช้บริษัทสาธิต USMF 
 
 1. ใน บานหน้าต่างนำทาง ไปที่ **โมดูล > บัญชีลูกหนี้ > การตั้งค่าการชำระเงิน > วิธีการชำระเงิน**
 2. เลือก **ใหม่**

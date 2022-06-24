@@ -1,5 +1,5 @@
 ---
-title: แค็ตตาล็อกการเรียนรู้ของนักพัฒนา Dynamics 365 Finance
+title: แค็ตตาล็อกเพื่อการเรียนรู้ของนักพัฒนาของ Dynamics 365 Finance
 description: ค้นหาตัวเลือกการฝึกอบรมทั้งหมดสำหรับนักพัฒนา Dynamics 365 Finance
 author: margoc
 ms.topic: article
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903112"
 ---
-# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>แค็ตตาล็อกการเรียนรู้ของนักพัฒนา Dynamics 365 Finance
+# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>แค็ตตาล็อกเพื่อการเรียนรู้ของนักพัฒนาของ Dynamics 365 Finance
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "8062272"
 | [Finance and Operations: การขยาย Dynamics 365 for Finance and Operations ด้วย PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | ทำความเข้าใจความเรียบง่ายของ Microsoft PowerApps และวิธีการที่สามารถรวมเข้ากับ Dynamics 365 for Finance and Operations เพื่อแปลงธุรกิจแบบดิจิตอลและเพิ่มประสิทธิภาพการทำงานของผู้ใช้ | การบันทึกการประชุมผ่านเว็บฟรี | 43 นาที |
 | [การเงินและการดำเนินงาน: ความสามารถในการเพิ่มฟังก์ชัน (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | เราจะแสดงภาพรวมและการอัปเดตในแผนความสามารถในการเพิ่มฟังก์ชันของ Microsoft เราจะหารือในรายละเอียดเกี่ยวกับวิธีการต่างๆ ในการขยายโซลูชัน โดยมองให้ลึกเข้าไปในคุณลักษณะความสามารถในการเพิ่มฟังก์ชันของข้อมูลเมตา รวมทั้งความสามารถในการเพิ่มและขยายรหัส ซึ่งรวมถึงผ่านคุณลักษณะ Chain of Command ที่มีประสิทธิภาพ | การบันทึกการประชุมผ่านเว็บฟรี | 50 นาที |
 | [Visual Studio การตั้งค่า Team Services (VSTS) (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | การพูดคุยเกี่ยวกับเทคโนโลยีนี้จะนำไปสู่ขั้นตอนที่จำเป็นในการตั้งค่าคอนฟิกอินสแตนซ์ VSTS และโครงการเพื่อเชื่อมต่อไปยังโครงการที่มีการใช้งาน LCS สำหรับการตั้งค่าคอนฟิกสภาพแวดล้อมของการพัฒนา/การทดสอบ | การบันทึกการประชุมผ่านเว็บฟรี | 41 นาที |
-| [ตัวรวมข้อมูล Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับเทคโนโลยีนี้เกี่ยวกับความสามารถของตัวรวมข้อมูล Dataverse เราจะหารือกับตัวเลือกการรวมระหว่าง Dynamics 365 Customer Engagement กับการเงินและการดำเนินงานของ Dynamics 365 รวมถึงการรวมกับโซลูชันอื่นๆ ของบุคคลที่สาม | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
+| [ตัวรวมข้อมูล Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | โปรดเข้าร่วมกับเราสำหรับการพูดคุยเกี่ยวกับเทคโนโลยีนี้เกี่ยวกับความสามารถของตัวรวมข้อมูล Dataverse เราจะหารือกับตัวเลือกการรวมระหว่าง Dynamics 365 Customer Engagement และ Dynamics 365 Finance and Operations รวมถึงการรวมกับโซลูชันอื่นๆ ของบุคคลที่สาม | การบันทึกการประชุมผ่านเว็บฟรี | 61 นาที |
 | [การรวมระหว่าง Dynamics 365 for Sales และ Dynamics 365 สำหรับ Finance & Operations ผ่าน Dataverse (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | ในการพูดคุยเกี่ยวกับเทคโนโลยีนี้เราจะแนะนำการรวมสถานการณ์จำลองที่เรียกว่าผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด ด้วยกิจกรรมการขายและการตลาดใน Dynamics 365 for Sales และการเติมเต็มใน Dynamics 365 for Finance and Operations นอกจากนี้เราจะดูที่ตัวรวมข้อมูลและวิธีการปรับเปลี่ยนการรวม | การบันทึกการประชุมผ่านเว็บฟรี | 54 นาที |
 | [การจัดการข้อมูล (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | โปรดเข้าร่วมการพูดคุยเกี่ยวกับเทคโนโลยีกับเราสำหรับการจัดการข้อมูล เรียนรู้เพิ่มเติมเกี่ยวกับตัวเลือกที่มีอยู่และสถานการณ์จำลองที่แนะนำ เราจะครอบคลุมกรอบงานการจัดการข้อมูล เทมเพลต การคัดลอกฐานข้อมูล การแบ่งปันข้อมูลระหว่างบริษัท และการพิจารณาประสิทธิภาพการทำงาน | การบันทึกการประชุมผ่านเว็บฟรี | 58 นาที |
 | [เครื่องมือการรวม Azure สำหรับ Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | การพูดคุยเกี่ยวกับเทคโนโลยีนี้จะครอบคลุมชนิดของเครื่องมือ ใครคนหนึ่งอาจพิจารณาในขณะที่รวมกับ Dynamics 365 สำหรับ Finance and Operations และเวลาสำหรับการเลือกเครื่องมือการรวม รอบเวลานี้ยังจะเดินผ่านบางสถานการณ์การรวม orchestrated โดยใช้บริการรวม Azure | การบันทึกการประชุมผ่านเว็บฟรี | 63 นาที |

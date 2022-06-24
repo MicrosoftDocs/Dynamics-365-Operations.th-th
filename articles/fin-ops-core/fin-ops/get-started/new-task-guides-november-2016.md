@@ -1,6 +1,6 @@
 ---
 title: คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)
-description: หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
+description: บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 - ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3836456f8d4ba8aba95e90563f8bdb27fc547e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886598"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>คู่มืองานใหม่หรือที่ปรับปรุงแล้ว (พฤศจิกายน 2016)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
+บทความนี้แสดงคู่มืองานใหม่หรือที่ปรับปรุงแล้วที่ถูกนำออกใช้ใน Microsoft (พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC สำหรับ Microsoft Dynamics 365 for Operations ไม่มีการนำออกใช้การเริ่มต้นใช้งานไลบรารีใหม่
 
-(พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3, การอัพเดตแพลตฟอร์ม Microsoft Dynamics AX 2, การอัพเดต Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการนำออกใช้เหล่านี้ ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในหน้าหลัก Finance and Operations](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
+(พฤศจิกายน 2016 – ทุกภาษา) ไลบรารีโดยรวมของ APQC ประกอบด้วยคู่มืองานที่มีจุดมุ่งหมายเพื่อใช้เป็นวิธีใช้พร้อมกับการอัพเดตแพลตฟอร์ม Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations 3, การอัพเดตแพลตฟอร์ม Microsoft Dynamics AX 2, การอัพเดต Dynamics AX พฤษภาคม 2016 และการนำออกใช้ใน Microsoft Dynamics AX กุมภาพันธ์ 2016 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรุ่นเหล่านี้ ดู [มีอะไรใหม่หรือมีการเปลี่ยนแปลงในโฮมเพจ Finance and Operations](whats-new-changed.md) เวอร์ชันที่เป็นภาษาท้องถิ่นของคู่มืองานจะพร้อมใช้งานในไลบรารีนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อระบบวิธีใช้กับไลบรารีคู่มืองาน ดู [ระบบวิธีใช้](help-overview.md)
 
 > [!NOTE]
 > เครื่องหมายดอกจัน (\*) ที่อยู่ถัดจากชื่อเรื่องของรายการตัวทำแบบจำลองกระบวนการทางธุรกิจ (BPM) บ่งชี้ว่าคู่มืองานสำหรับกระบวนการทางธุรกิจถูกสร้างขึ้นสำหรับการอัพเดต Dynamics 365 for Operations พฤศจิกายน 2016 และไม่ได้รับการสนับสนุนในเวอร์ชันก่อนหน้านี้ของ Microsoft Dynamics AX

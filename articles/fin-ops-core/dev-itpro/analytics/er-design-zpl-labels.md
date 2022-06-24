@@ -1,6 +1,6 @@
 ---
-title: ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์ป้ายชื่อ ZPL
-description: หัวข้อนี้จะอธิบายวิธีการออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่เพื่อพิมพ์ป้ายชื่อ Zebra Programming Language (ZPL)
+title: ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ใหม่เพื่อพิมพ์ป้ายชื่อ ZPL
+description: บทความนี้จะอธิบายวิธีการออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่เพื่อพิมพ์ป้ายชื่อ Zebra Programming Language (ZPL)
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612369"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845728"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์ป้ายชื่อ ZPL
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>ออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ใหม่เพื่อพิมพ์ป้ายชื่อ ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-หัวข้อนี้อธิบายวิธีการที่ผู้ใช้ในบทบาทผู้ดูแลระบบ ผู้พัฒนาการรายงานทางอิเล็กทรอนิกส์ หรือผู้ที่ปรึกษาด้านการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกพารามิเตอร์ของกรอบงาน [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ออกแบบ [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่จำเป็นของโซลูชัน ER ใหม่เพื่อเข้าถึงข้อมูลของระบบการจัดการคลังสินค้า และสร้างป้ายชื่อสถานที่ตั้งค่าคลังสินค้าที่กำหนดเองในรูปแบบ Zebra Programming Language (ZPL) II คุณสามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัท **USRT**
+บทความนี้อธิบายวิธีการที่ผู้ใช้ในบทบาทผู้ดูแลระบบ ผู้พัฒนาการรายงานทางอิเล็กทรอนิกส์ หรือผู้ที่ปรึกษาด้านการรายงานทางอิเล็กทรอนิกส์ สามารถตั้งค่าคอนฟิกพารามิเตอร์ของกรอบงาน [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ออกแบบ [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่จำเป็นของโซลูชัน ER ใหม่เพื่อเข้าถึงข้อมูลของระบบการจัดการคลังสินค้า และสร้างป้ายชื่อสถานที่ตั้งค่าคลังสินค้าที่กำหนดเองในรูปแบบ Zebra Programming Language (ZPL) II คุณสามารถดำเนินการขั้นตอนเหล่านี้ได้ในบริษัท **USRT**
 
 ## <a name="business-scenario"></a>สถานการณ์จำลองทางธุรกิจ
 

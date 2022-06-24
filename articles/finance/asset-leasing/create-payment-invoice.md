@@ -1,6 +1,6 @@
 ---
 title: สร้างใบแจ้งหนี้การชำระเงิน
-description: หัวข้อนี้อธิบายวิธีการสร้างใบแจ้งหนี้ค่าเช่ารายเดือน คุณสามารถสร้างใบแจ้งหนี้สำหรับการเช่าแต่ละครั้ง หรือคุณสามารถใช้กระบวนการชุดงานเพื่อสร้างใบแจ้งหนี้สำหรับการเช่าหลายครั้งได้
+description: บทความนี้อธิบายวิธีการสร้างใบแจ้งหนี้ค่าเช่ารายเดือน คุณสามารถสร้างใบแจ้งหนี้สำหรับการเช่าแต่ละครั้ง หรือคุณสามารถใช้กระบวนการชุดงานเพื่อสร้างใบแจ้งหนี้สำหรับการเช่าหลายครั้งได้
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7880b744c0348e73f43fa8ff45a520b819da64c5
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 0ac9efaf6d068377053ae36951f4ad808fcb2438
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886435"
 ---
 # <a name="create-payment-invoices"></a>สร้างใบแจ้งหนี้การชำระเงิน
 

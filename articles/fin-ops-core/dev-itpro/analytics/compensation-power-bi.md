@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI ของค่าตอบแทน
-description: หัวข้อนี้อธิบายเนื้อหา Power BI ของค่าตอบแทน ซึ่งอธิบายวิธีการเข้าถึงรายงาน และแสดงข้อมูลเกี่ยวกับรูปแบบข้อมูลที่ใช้
+description: บทความนี้อธิบายเนื้อหา Power BI ของค่าตอบแทน ซึ่งอธิบายวิธีการเข้าถึงรายงาน และแสดงข้อมูลเกี่ยวกับรูปแบบข้อมูลที่ใช้
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897201"
 ---
 # <a name="compensation-power-bi-content"></a>เนื้อหา Power BI ของค่าตอบแทน
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **ค่าตอบแทน** ของ Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+บทความนี้อธิบายเนื้อหา **งค่าตอบแทน** Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานและแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="accessing-the-power-bi-content"></a>การเข้าถึงเนื้อหา Power BI
 เนื้อหา Power BI ของ **ค่าตอบแทน** ถูกแสดงในพื้นที่ทำงาน **การจัดการค่าตอบแทน** ถ้าคุณใช้หนึ่งในผลิตภัณฑ์ต่อไปนี้:
 
-- แอป Finance and Operations
+- แอปการเงินและการดำเนินงาน
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>รายงานที่รวมอยู่ในเนื้อหา Power BI

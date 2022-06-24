@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac84055586eff678ea489b35198b1c2dfab13658
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856480"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>สร้างและส่งออกการชำระเงินให้แก่ผู้จัดจำหน่ายโดยใช้รูปแบบการชำระเงิน ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการสร้างรายการการชำระเงินในสมุดรายวันการชำระเงินผู้จัดจำหน่าย และสร้างไฟล์การชำระเงินผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้ายเครดิต ISO2022
+บทความนี้อธิบายวิธีการสร้างรายการการชำระเงินในสมุดรายวันการชำระเงินผู้จัดจำหน่าย และสร้างไฟล์การชำระเงินผู้จัดจำหน่ายโดยใช้ตัวอย่างการโอนย้ายเครดิต ISO2022
 
 นี่คือกระบวนงานที่ห้าจากกระบวนงานห้ารายการที่อธิบายกระบวนการชำระเงินของผู้จัดจำหน่ายโดยใช้การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ ใช้ข้อมูลสาธิต DEMF เพื่อทำให้ตัวอย่างนี้เสร็จสมบูรณ์
 

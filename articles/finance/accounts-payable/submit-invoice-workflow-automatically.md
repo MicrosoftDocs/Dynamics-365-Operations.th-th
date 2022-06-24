@@ -1,6 +1,6 @@
 ---
 title: ส่งใบแจ้งหนี้ไปที่ระบบลำดับงานและจับคู่รายการใบรับสินค้า
-description: หัวข้อนี้อธิบายกระบวนการในการส่งใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังระบบลำดับงาน และการจับคู่บรรทัดใบรับสินค้าที่ลงรายการบัญชีกับใบแจ้งหนี้ของผู้จัดจำหน่าย
+description: บทความนี้อธิบายกระบวนการในการส่งใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังระบบเวิร์กโฟลว์ และการจับคู่บรรทัดใบรับสินค้าที่ลงรายการบัญชีกับใบแจ้งหนี้ของผู้จัดจำหน่าย
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861631"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>ส่งใบแจ้งหนี้ไปที่ระบบลำดับงานและจับคู่รายการใบรับสินค้า
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายกระบวนการในการส่งใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังระบบลำดับงาน และการจับคู่บรรทัดใบรับสินค้าที่ลงรายการบัญชีกับใบแจ้งหนี้ของผู้จัดจำหน่าย
+บทความนี้อธิบายกระบวนการในการส่งใบแจ้งหนี้ของผู้จัดจำหน่ายไปยังระบบเวิร์กโฟลว์ และการจับคู่บรรทัดใบรับสินค้าที่ลงรายการบัญชีกับใบแจ้งหนี้ของผู้จัดจำหน่าย
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>การส่งใบแจ้งหนี้ของผู้จัดจำหน่ายที่นำเข้าไปยังระบบลำดับงาน และการจับคู่บรรทัดใบรับสินค้าที่ลงรายการบัญชีไปยังรายการใบแจ้งหนี้ของผู้จัดจำหน่าย
 

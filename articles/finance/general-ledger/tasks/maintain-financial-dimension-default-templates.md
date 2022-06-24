@@ -1,6 +1,6 @@
 ---
-title: รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
-description: หัวข้อนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน
+title: รักษาเทมเพลตเริ่มต้นของมิติทางการเงิน
+description: บทความนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872425"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a>รักษาเท็มเพลตเริ่มต้นของมิติทางการเงิน
+# <a name="maintain-financial-dimension-default-templates"></a>รักษาเทมเพลตเริ่มต้นของมิติทางการเงิน
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน สามารถใช้เท็มเพลตนี้เพื่อกระจายยอดเงินในเอกสารต้นทางได้อย่างรวดเร็ว
+บทความนี้แสดงวิธีการตั้งค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน สามารถใช้เท็มเพลตนี้เพื่อกระจายยอดเงินในเอกสารต้นทางได้อย่างรวดเร็ว
 
 1. ในบานหน้าต่างนำทาง ไปที่ **โมดูล > บัญชีแยกประเภททั่วไป > ผังบัญชี > มิติ > ค่าเท็มเพลตเริ่มต้นของมิติทางการเงิน**
 2. เลือก **ใหม่**

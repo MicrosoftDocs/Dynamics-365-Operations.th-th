@@ -1,6 +1,6 @@
 ---
 title: ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในสูตรการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: บทความนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในสูตรการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869328"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลแบบรวมที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในนิพจน์ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ชนิดข้อมูลแบบรวมคือ [คลาส](#class) [คอนเทนเนอร์](#container) [เรกคอร์ด](#record) [รายการเรกคอร์ด](#record-list) และ [ออบเจ็กต์](#object)
+บทความนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลแบบรวมที่รองรับในนิพจน์ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) ชนิดข้อมูลแบบรวมคือ [คลาส](#class) [คอนเทนเนอร์](#container) [เรกคอร์ด](#record) [รายการเรกคอร์ด](#record-list) และ [ออบเจ็กต์](#object)
 
 ## <a name="class"></a><a name="class"></a>คลาส
 

@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าภาษีหัก ณ ที่จ่ายส่วนกลาง
-description: หัวข้อนี้แสดงรายการขั้นตอนต่างๆ ของการตั้งค่าภาษีหัก ณ ที่จ่ายสากลเกี่ยวกับการขายและการซื้อ
+description: บทความนี้แสดงรายการขั้นตอนต่างๆ ของการตั้งค่าภาษีหัก ณ ที่จ่ายสากลเกี่ยวกับการขายและการซื้อ
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: c7e9e94df4c5c6a4c292064f2f8e8e4f9e635ba7
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f2cdd388d790b48135561f740b63dc97875e85a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902471"
 ---
 # <a name="set-up-global-withholding-tax"></a>ตั้งค่าภาษีหัก ณ ที่จ่ายส่วนกลาง
 
-หัวข้อนี้แสดงรายการขั้นตอนต่างๆ ของการตั้งค่าภาษีหัก ณ ที่จ่ายสากลเกี่ยวกับการขายและการซื้อ 
+บทความนี้แสดงรายการขั้นตอนต่างๆ ของการตั้งค่าภาษีหัก ณ ที่จ่ายสากลเกี่ยวกับการขายและการซื้อ 
 
 1. ตั้งค่าหน่วยงานจัดเก็บภาษีหัก ณ ที่จ่ายบนหน้า **หน่วยจัดเก็บภาษีหัก ณ ที่จ่าย**
 

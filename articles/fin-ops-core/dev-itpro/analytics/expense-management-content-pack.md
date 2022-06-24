@@ -1,6 +1,6 @@
 ---
 title: เนื้อหา Power BI การจัดการค่าใช้จ่าย
-description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI ของการจัดการค่าใช้จ่าย
+description: บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหา Power BI ของการจัดการค่าใช้จ่าย
 author: panolte
 ms.date: 03/18/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78ae444c1c9803ed3708d71da7a359667df0252f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878326"
 ---
 # <a name="expense-management-power-bi-content"></a>เนื้อหา Power BI การจัดการค่าใช้จ่าย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI ของการจัดการค่าใช้จ่าย 
+บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI ของการจัดการค่าใช้จ่าย 
 
 ## <a name="overview"></a>ภาพรวม
 ชุดเนื้อหา Power BI สองชุดจะพร้อมใช้งานสำหรับการใช้งานกับการจัดการค่าใช้จ่ายในรุ่น 8.1 และรุ่นที่ใหม่กว่า 

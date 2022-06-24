@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
-description: หัวข้อนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources
+description: บทความนี้จะอธิบายถึงวิธีการตั้งค่าคอนฟิกตัวเลือกสิทธิ์สำหรับความสัมพันธ์ส่วนบุคคลใน Microsoft Dynamics 365 Human Resources
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e145acf6a6ba3333acfcc6e66dadd1f7d5deac65
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 82bb7c037b4e0ab9950ce4c314c03a0f2d713bbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895944"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
 
@@ -28,7 +28,7 @@ ms.locfileid: "8692323"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่สามารถใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ติดต่อส่วนบุคคลคือบุคคลที่ได้รับความคุ้มครองภายใต้แผนของคุณ (ผู้อยู่ในอุปการะ) หรือผู้ที่จะได้รับประโยชน์จากแผนของคุณ (ผู้รับผลประโยชน์) ผู้อยู่ในอุปการะมักเป็นคู่สมรสหรือบุตร ผู้รับผลประโยชน์สามารถเป็นคู่สมรส บุตร ผู้ไว้วางใจ หรือผู้ปกครอง
+บทความนี้จะอธิบายวิธีการตั้งค่าคอนฟิกชนิดของความสัมพันธ์ส่วนบุคคลที่สามารถใช้ในผลประโยชน์ใน Microsoft Dynamics 365 Human Resources ผู้ติดต่อส่วนบุคคลคือบุคคลที่ได้รับความคุ้มครองภายใต้แผนของคุณ (ผู้อยู่ในอุปการะ) หรือผู้ที่จะได้รับประโยชน์จากแผนของคุณ (ผู้รับผลประโยชน์) ผู้อยู่ในอุปการะมักเป็นคู่สมรสหรือบุตร ผู้รับผลประโยชน์สามารถเป็นคู่สมรส บุตร ผู้ไว้วางใจ หรือผู้ปกครอง
 
 1. ในพื้นที่ทำงาน **การจัดการสิทธิประโยชน์** ภายใต้ **การตั้งค่า** ให้เลือก **ตัวเลือกสิทธิ์ของความสัมพันธ์ส่วนบุคคล**
 

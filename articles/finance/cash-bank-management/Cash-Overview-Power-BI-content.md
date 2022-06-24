@@ -1,6 +1,6 @@
 ---
-title: เนื้อหา Power BI ของภาพรวมเงินสด
-description: หัวข้อนี้อธิบายเนื้อหา Microsoft Power BI ของภาพรวมเงินสด และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
+title: เนื้อหาของ Power BI เกี่ยวกับภาพรวมของเงินสด
+description: บทความนี้อธิบายเนื้อหา Microsoft Power BI ของภาพรวมเงินสด และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
 author: panolte
 ms.date: 07/16/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bb44dd8203b87ac5fb1f7977b865522faa6ebaeb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 4f841ec5b17c2271010a95f45188832ee5917556
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910242"
 ---
 # <a name="cash-overview-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับภาพรวมของเงินสด
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเนื้อหา **ภาพรวมเงินสด** ของ Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
+บทความนี้อธิบายเนื้อหา **ภาพรวมเงินสด** Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงานที่รวมอยู่ในชุดเนื้อหานี้ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้สร้างชุดเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 

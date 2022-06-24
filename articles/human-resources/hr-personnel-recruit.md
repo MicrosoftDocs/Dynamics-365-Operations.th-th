@@ -1,6 +1,6 @@
 ---
 title: สรรหาผู้สมัครงาน
-description: หัวข้อนี้จะอธิบายวิธีการสรรหาผู้สมัครใน Dynamics 365 Human Resources
+description: บทความนี้อธิบายวิธีการสรรหาผู้สมัคร ใน Dynamics 365 Human Resources
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879263"
 ---
 # <a name="recruit-job-candidates"></a>สรรหาผู้สมัครงาน
 
@@ -47,11 +47,12 @@ Dynamics 365 Human Resources ช่วยคุณในการจัดกา
 
 เมื่อเปิดคุณลักษณะแล้ว ให้เลือกฟังก์ชันที่มีขั้นตอนต่อไปนี้ 
 1. ไปที่ **ทรัพยากรบุคคล** > **การตั้งค่า** > **พารามิเตอร์ทรัพยากรบุคคล**
-2. บนแท็บ  **การสรรหาบุคลากร** ให้ตั้งค่าฟิลด์ **ปิดใช้งานการสรรหาบุคลากร** เป็น **ไม่**
-3. ในรายการดรอปดาวน์ **ประสบการณ์การสรรหาบุคลากร** เลือก **การสรรหาบุคลากรของ HR**   
+2. บนแท็บ  **การสรรหาบุคลากร** ให้ตั้งค่าฟิลด์ **เปิดใช้งานการสรรหาบุคลากร** เป็น **ใช่**
+3. ในรายการดรอปดาวน์ **ประสบการณ์การสรรหาบุคลากร** เลือก **การสรรหาบุคลากรของ HR**  
+4. คลิก **บันทึก** 
 
 > [!Note] 
-> เมื่อเลือก **การสรรหาบุคลากรของ HR** **โครงการสรรหาบุคลากร** (ดั้งเดิม) จะเป็นแบบอ่านอย่างเดียว 
+> เมื่อเลือก **การสรรหาบุคลากรของ HR** **โครงการสรรหาบุคลากร** (ดั้งเดิม) จะไม่พร้อมใช้งาน 
 
 
 ## <a name="add-a-recruiting-request-location"></a>เพิ่มสถานที่ร้องขอการสรรหาบุคลากร

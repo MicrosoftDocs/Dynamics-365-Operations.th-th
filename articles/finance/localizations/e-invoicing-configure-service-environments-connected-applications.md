@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกสภาพแวดล้อมของบริการและแอปพลิเคชันที่เชื่อมต่อ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการบริการและแอปพลิเคชันที่เชื่อมต่อของคุณ
+description: บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการบริการและแอปพลิเคชันที่เชื่อมต่อของคุณ
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c3366e75b4a6d3f33a1aac9e444236d9ae57c829
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: c1bb3f784148f04c01223ac4e280a18bacfe0e51
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853235"
 ---
 # <a name="configure-service-environments-and-connected-applications"></a>ตั้งค่าคอนฟิกสภาพแวดล้อมของบริการและแอปพลิเคชันที่เชื่อมต่อ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการบริการและแอปพลิเคชันที่เชื่อมต่อของคุณ กระบวนการนี้มีอยู่สามขั้นตอน ขั้นตอนที่ 1 เป็นข้อบังคับ และขั้นตอนที่ 2 และ 3 ไม่บังคับ
+บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการตั้งค่าคอนฟิกสภาพแวดล้อมการบริการและแอปพลิเคชันที่เชื่อมต่อของคุณ กระบวนการนี้มีอยู่สามขั้นตอน ขั้นตอนที่ 1 เป็นข้อบังคับ และขั้นตอนที่ 2 และ 3 ไม่บังคับ
 
 ## <a name="step-1-create-a-service-environment"></a>ขั้นตอนที่ 1: สร้างสภาพแวดล้อมการบริการ
 

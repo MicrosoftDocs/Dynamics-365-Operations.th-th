@@ -1,6 +1,6 @@
 ---
 title: รายงานภาษีหัก ณ ที่จ่ายของอินโดนีเซีย
-description: หัวข้อนี้อธิบายวิธีการกำหนดค่าคอนฟิกและสร้างรายงานภาษีหัก ณ ที่จ่ายของอินโดนีเซีย
+description: บทความนี้อธิบายวิธีการกำหนดค่าคอนฟิกและสร้างรายงานภาษีหัก ณ ที่จ่ายของอินโดนีเซีย
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883194"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>รายงานภาษีหัก ณ ที่จ่ายของอินโดนีเซีย (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าและสร้างไฟล์ภาษีหัก ณ ที่จ่าย PPH ซึ่งนิติบุคคลในอินโดนีเซียใช้เพื่อรายงานธุรกรรมหัก ณ ที่จ่ายในโปรแกรมประยุกต์ e-Bupot
+บทความนี้อธิบายวิธีการตั้งค่าและสร้างไฟล์ภาษีหัก ณ ที่จ่าย PPH ซึ่งนิติบุคคลในอินโดนีเซียใช้เพื่อรายงานธุรกรรมหัก ณ ที่จ่ายในโปรแกรมประยุกต์ e-Bupot
 
 หน่วยงานจัดเก็บภาษีของอินโดนีเซีย (DGT) จะตัดสินว่าผู้ประกอบกิจการที่เสียภาษีได้ (PKP) ซึ่งลงทะเบียนไว้ที่ KPP Pratama เป็นผู้เสียภาษี/ผู้สะสมภาษีเงินได้ (PPh) มาตรา 23 และ/หรือมาตรา 26 ต้องรายงานภาษีเงินได้ทางอิเล็กทรอนิกส์ตามมาตรา 23 และ 26 โดยใช้โปรแกรมประยุกต์ e-Bupot 
 

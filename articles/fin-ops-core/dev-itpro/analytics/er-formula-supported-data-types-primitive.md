@@ -1,6 +1,6 @@
 ---
 title: ชนิดข้อมูลพื้นฐานที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลพื้นฐานที่รองรับในสูตรการรายงานทางอิเล็กทรอนิกส์ (ER)
+description: บทความนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลพื้นฐานที่รองรับในสูตรการรายงานทางอิเล็กทรอนิกส์ (ER)
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 41cda188e774630e96c46fba1200fd2e640f9915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891888"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>ชนิดข้อมูลพื้นฐานที่ได้รับการสนับสนุนสําหรับสูตรการรายงานทางอิเล็กทรอนิกส์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลพื้นฐานที่รองรับในนิพจ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) นี่คือรายการของชนิดข้อมูลพื้นฐาน:
+บทความนี้แสดงข้อมูลเกี่ยวกับชนิดข้อมูลพื้นฐานที่รองรับในนิพจน์ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) นี่คือรายการของชนิดข้อมูลพื้นฐาน:
 
 - [แบบบูลีน](#boolean)
 - [วันที่](#date)

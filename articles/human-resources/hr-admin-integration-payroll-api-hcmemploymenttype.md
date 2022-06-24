@@ -1,6 +1,6 @@
 ---
 title: ชนิดการจ้างงาน API บัญชีเงินเดือน
-description: หัวข้อนี้จะอธิบายถึงชุดตัวเลือกชนิดการจ้างงานใน API บัญชีเงินเดือน Dynamics 365 Human Resources
+description: บทความนี้จะอธิบายถึงชุดตัวเลือกชนิดการจ้างงานใน API บัญชีเงินเดือน Dynamics 365 Human Resources
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 06d78da6c03a539a1dfd1294750b061b2f568978
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: 42b05c7e1cc371918c68be849c1a73be53b4fa21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869907"
 ---
 # <a name="payroll---employment-type-option-set"></a>บัญชีเงินเดือน - ชุดตัวเลือกชนิดการจ้างงาน
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายการกำหนดตัวเลือกชนิดการจ้างงานสำหรับ Dynamics 365 Human Resources
+บทความนี้อธิบายการกำหนดตัวเลือกชนิดการจ้างงานสำหรับ Dynamics 365 Human Resources
 
 ## <a name="option-set-employment-type"></a>ชุดตัวเลือก: ชนิดการจ้างงาน
 

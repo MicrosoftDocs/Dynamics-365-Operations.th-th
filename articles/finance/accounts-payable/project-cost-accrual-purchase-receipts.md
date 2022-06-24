@@ -1,6 +1,6 @@
 ---
 title: การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
-description: หัวข้อนี้อธิบายวิธีการติดตามต้นทุนโครงการค้างรับจากใบรับสินค้าของการซื้อใน Microsoft Dynamics 365 Finance
+description: บทความนี้อธิบายวิธีการติดตามต้นทุนโครงการค้างรับจากใบรับสินค้าของการซื้อใน Microsoft Dynamics 365 Finance
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: a138fd41269fad2e9ac489664ca81c3ee12f830d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856870"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>การค้างรับค้างจ่ายต้นทุนโครงการในใบรับสินค้าซื้อ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการติดตามต้นทุนโครงการค้างรับจากใบรับสินค้าของการซื้อใน Microsoft Dynamics 365 Finance 
+บทความนี้อธิบายวิธีการติดตามต้นทุนโครงการค้างรับจากใบรับสินค้าของการซื้อใน Microsoft Dynamics 365 Finance 
 
 ใบแจ้งหนี้สำหรับโครงการมักจะมาถึงช้ากว่าสินค้าและบริการที่จัดส่ง ซึ่งอาจมีผลกระทบอย่างมากต่อตัวบ่งชี้ประสิทธิภาพการทำงานหลัก (KPI) ของโครงการ การสามารถติดตามธุรกรรมเหล่านี้ได้ทั้งในรายงานทางการเงินและรายงานของโครงการเป็นสิ่งสำคัญ
 

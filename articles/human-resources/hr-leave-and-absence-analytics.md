@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72d388fa28db230a0af91e69a5a402b635c61cc5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4b04e7253b5174a303d3f1381bef5b51530a2a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853000"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>ดูการวิเคราะห์สำหรับการลางานและขาดงาน
 
 >[!Important]
->ฟังก์ชันที่ระบุไว้ในหัวข้อนี้สามารถใช้งานได้กับลูกค้า Dynamics 365 Human Resources ในระบบที่แยกต่างหากได้แล้ว ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของ Finance หลังจากการเผยแพร่ Finance 10.0.26
+>ฟังก์ชันที่ระบุไว้ในบทความนี้สามารถใช้งานได้กับลูกค้า Dynamics 365 Human Resources ในระบบที่แยกต่างหากได้แล้ว ฟังก์ชันบางส่วนหรือทั้งหมดจะสามารถใช้งานในลักษณะเป็นส่วนหนึ่งของการเผยแพร่ในอนาคตในโครงสร้างพื้นฐานของ Finance หลังจากการเผยแพร่ Finance 10.0.26
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

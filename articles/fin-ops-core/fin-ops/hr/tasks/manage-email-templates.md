@@ -1,6 +1,6 @@
 ---
 title: จัดการเท็มเพลตอีเมล
-description: หัวข้อนี้อธิบายวิธีการจัดการเท็มเพลตอีเมล
+description: บทความนี้อธิบายวิธีการจัดการเท็มเพลตอีเมล
 author: andreabichsel
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69d215bd5332555f0df31faa9ea019a819db6565dd6a7c8d68b22bbe46d31898
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3747f482c4a69243158a090dfe97859237b60f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856899"
 ---
 # <a name="manage-email-templates"></a>จัดการเท็มเพลตอีเมล
 

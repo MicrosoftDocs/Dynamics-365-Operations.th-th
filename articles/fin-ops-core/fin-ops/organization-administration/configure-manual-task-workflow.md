@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 265f127f948aa7425c5eb523abe18986a942cfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889220"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>ตั้งค่าคอนฟิกงานแบบกำหนดเองในลำดับงาน
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066479"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณสมบัติต่างๆ ของงานที่กำหนดด้วยตนเอง
 
 หากต้องการตั้งค่าคอนฟิกงานที่กำหนดด้วยตนเองในโปรแกรมแก้ไขลำดับงาน ให้คลิกขวาที่งานนั้น แล้วคลิก **คุณสมบัติ** เพื่อเปิดหน้า **คุณสมบัติ** แล้วใช้กระบวนงานต่อไปนี้เพื่อตั้งค่าคอนฟิกคุณสมบัติสำหรับงานที่กำหนดด้วยตนเอง
 

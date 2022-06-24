@@ -1,6 +1,6 @@
 ---
 title: เงินงบประมาณที่มีอยู่
-description: หัวข้อนี้จะแนะนำคุณลักษณะเงินงบประมาณที่มีอยู่และแสดงข้อมูลที่ช่วยคุณตั้งค่าคอนฟิกการควบคุมงบประมาณ เพื่อให้การจัดการทรัพยากรทางการเงินขององค์กรมีประสิทธิภาพสูงสุด
+description: บทความนี้จะแนะนำคุณลักษณะเงินงบประมาณที่มีอยู่และแสดงข้อมูลที่ช่วยคุณตั้งค่าคอนฟิกการควบคุมงบประมาณ เพื่อให้การจัดการทรัพยากรทางการเงินขององค์กรมีประสิทธิภาพสูงสุด
 author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b6f94931ba3514c1c66d80b64846d882861d555c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898253"
 ---
 # <a name="budget-funds-available"></a>เงินงบประมาณที่มีอยู่
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-หัวข้อนี้จะแนะนำคุณลักษณะเงินงบประมาณที่มีอยู่และแสดงข้อมูลที่ช่วยคุณตั้งค่าคอนฟิกการควบคุมงบประมาณ เพื่อให้การจัดการทรัพยากรทางการเงินขององค์กรมีประสิทธิภาพสูงสุด
+บทความนี้จะแนะนำคุณลักษณะเงินงบประมาณที่มีอยู่และแสดงข้อมูลที่ช่วยคุณตั้งค่าคอนฟิกการควบคุมงบประมาณ เพื่อให้การจัดการทรัพยากรทางการเงินขององค์กรมีประสิทธิภาพสูงสุด
 
 ## <a name="enhanced-calculation-feature-for-budget-funds-available"></a>คุณลักษณะการคำนวณที่ปรับปรุงสำหรับงบประมาณที่มีอยู่
 

@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876486"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>จ้างงานพนักงานที่มีอยู่โดยใช้การสรรหาบุคลากร
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> ฟังก์ชันการสรรหาบุคลากรในหัวข้อนี้จะเรียกว่าโครงการสรรหาบุคลากร และมุ่งเน้นที่ผู้สมัคร ใบสมัคร และโครงการสรรหาบุคลากร  
+> ฟังก์ชันการสรรหาบุคลากรในบทความนี้จะเรียกว่าโครงการสรรหาบุคลากร และมุ่งเน้นที่ผู้สมัคร ใบสมัคร และโครงการสรรหาบุคลากร  
 
 
 บางครั้งตำแหน่งที่เปิดสามารถให้ผู้ที่เป็นพนักงานในองค์กรของคุณอยู่แล้วสมัครได้ ขั้นตอนนี้จะเป็นขั้นตอนในการว่าจ้างโดยนำพนักงานที่มีอยู่ไปยังกระบวนการสรรหาบุคลากร  ในขั้นตอนนี้จะ มีการตั้งค่าโครงการสรรหาบุคลากรไว้แล้ว และโครงการสรรหาบุคลากรได้รับใบสมัครพนักงานที่มีอยู่แล้ว  บริษัทข้อมูลสาธิต **USMF** ถูกนำมาใช้ในการสร้างกระบวนงานนี้

@@ -1,6 +1,6 @@
 ---
 title: ใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์ให้กับรายงาน
-description: หัวข้อนี้อธิบายวิธีการใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์ให้กับรายงานที่คุณสร้างขึ้น
+description: บทความนี้อธิบายวิธีการใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์ให้กับรายงานที่คุณสร้างขึ้น
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872985"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>ใช้แหล่งข้อมูล USER INPUT PARAMETER เพื่อระบุพารามิเตอร์ให้กับรายงาน
 
 [!include[banner](../includes/banner.md)]
 
-เมื่อคุณออกแบบส่วนประกอบ [งการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md) (ER) [การแม็ปแบบจำลอง](er-overview-components.md#model-mapping-component) และ [รูปแบบ](er-overview-components.md#format-component) ER คุณสามารถใช้แหล่งข้อมูลของชนิด *USER INPUT PARAMETER* เพื่อดูค่าที่ต้องใช้ ซึ่งสามารถระบุในฟิลด์การป้อนข้อมูลในกล่องโต้ตอบรันไทม์ ก่อนที่จะเริ่มต้นการปฏิบัติการรูปแบบ ER หัวข้อนี้อธิบายแหล่งข้อมูล *USER INPUT PARAMETER* ที่สนับสนุนในปัจจุบัน
+เมื่อคุณออกแบบส่วนประกอบ [งการรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md) (ER) [การแม็ปแบบจำลอง](er-overview-components.md#model-mapping-component) และ [รูปแบบ](er-overview-components.md#format-component) ER คุณสามารถใช้แหล่งข้อมูลของชนิด *USER INPUT PARAMETER* เพื่อดูค่าที่ต้องใช้ ซึ่งสามารถระบุในฟิลด์การป้อนข้อมูลในกล่องโต้ตอบรันไทม์ ก่อนที่จะเริ่มต้นการปฏิบัติการรูปแบบ ER บทความนี้อธิบายแหล่งข้อมูล *USER INPUT PARAMETER* ที่สนับสนุนในปัจจุบัน
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>คุณสมบัติบังคับ
 

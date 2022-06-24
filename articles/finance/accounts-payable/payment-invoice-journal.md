@@ -1,6 +1,6 @@
 ---
 title: ใช้กำหนดการชำระเงินกับสมุดรายวันใบแจ้งหนี้
-description: หัวข้อนี้อธิบายวิธีการเพิ่มการชำระเงินไปยังสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่าย
+description: บทความนี้อธิบายวิธีการเพิ่มการชำระเงินไปยังสมุดรายวันใบแจ้งหนี้ของผู้จัดจำหน่าย
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863143"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>ใช้กำหนดการชำระเงินกับสมุดรายวันใบแจ้งหนี้
 

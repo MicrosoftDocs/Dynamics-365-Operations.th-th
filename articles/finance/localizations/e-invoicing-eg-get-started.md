@@ -1,6 +1,6 @@
 ---
 title: การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
-description: หัวข้อนี้จะให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์ใน Microsoft Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
+description: บทความนี้จะให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์ใน Microsoft Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904425"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>การออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์ โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกที่ขึ้นอยู่กับประเทศใน Regulatory Configuration Service (RCS) ขั้นตอนเหล่านี้เพิ่มเติมเกี่ยวกับขั้นตอนที่อธิบายไว้ใน [ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-set-up-overview.md)
+บทความนี้ให้ข้อมูลซึ่งจะช่วยคุณในการเริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์ โดยจะแนะนำให้คุณทราบถึงขั้นตอนการตั้งค่าคอนฟิกที่ขึ้นอยู่กับประเทศใน Regulatory Configuration Service (RCS) ขั้นตอนเหล่านี้เพิ่มเติมเกี่ยวกับขั้นตอนที่อธิบายไว้ใน [ตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-set-up-overview.md)
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มกระบวนงานต่างๆ ในหัวข้อนี้ ต้องทำตามข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่มกระบวนงานต่างๆ ในบทความนี้ ต้องทำตามข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ก่อน:
 
 - สร้างความคุ้นเคยกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์ ตามที่อธิบายไว้ใน [ภาพรวมของการออกใบแจ้งหนี้อิเล็กทรอนิกส์](e-invoicing-service-overview.md)
 - ลงทะเบียนสำหรับ RCS และตั้งค่าการออกใบแจ้งหนี้อิเล็กทรอนิกส์ สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:

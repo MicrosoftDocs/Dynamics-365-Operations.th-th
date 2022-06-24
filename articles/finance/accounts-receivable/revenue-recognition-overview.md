@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมการรับรู้รายได้ (มีวิดีโอ)
-description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะการรับรู้รายได้ คุณลักษณะนี้มีกรอบงานที่มีความยืดหยุ่นซึ่งช่วยให้คุณสามารถกำหนดกฎเฉพาะบริษัทสำหรับการรับรู้ราคาสำหรับรายได้และกำหนดการรายได้สำหรับใบสั่งที่มีหลายองค์ประกอบ
+description: บทความนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะการรับรู้รายได้ คุณลักษณะนี้มีกรอบงานที่มีความยืดหยุ่นซึ่งช่วยให้คุณสามารถกำหนดกฎเฉพาะบริษัทสำหรับการรับรู้ราคาสำหรับรายได้และกำหนดการรายได้สำหรับใบสั่งที่มีหลายองค์ประกอบ
 author: kweekley
 ms.date: 03/15/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888048"
 ---
 # <a name="revenue-recognition-overview"></a>ภาพรวมของการรับรู้รายได้
 

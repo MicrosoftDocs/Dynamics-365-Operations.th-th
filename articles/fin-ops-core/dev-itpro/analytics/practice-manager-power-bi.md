@@ -1,6 +1,6 @@
 ---
 title: เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
-description: หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
+description: บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา Power BI ผู้จัดการแนวทางปฏิบัติ
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899000"
 ---
 # <a name="practice-manager-power-bi-content"></a>เนื้อหาเกี่ยวกับผู้จัดการแนวทางปฏิบัติใน Power BI
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาเกี่ยวกับ **ผู้จัดการแนวทางปฏิบัติ** ใน Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
+บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในเนื้อหา **ผู้จัดการแนวทางปฏิบัติ** Microsoft Power BI และยังอธิบายถึงวิธีการเข้าถึงรายงาน Power BI และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างเนื้อหานี้
 
 ## <a name="overview"></a>ภาพรวม
 

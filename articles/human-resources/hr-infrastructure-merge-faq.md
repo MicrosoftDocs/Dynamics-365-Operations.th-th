@@ -1,6 +1,6 @@
 ---
 title: คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Dynamics 365 Human Resources
-description: หัวข้อนี้ตอบคําถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Microsoft Dynamics 365 Human Resources กับแอปการเงินและการดำเนินงาน
+description: บทความนี้ตอบคําถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Microsoft Dynamics 365 Human Resources กับแอปการเงินและการดำเนินงาน
 author: twheeloc
 ms.date: 08/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 8c005f677624336b4194bebea6d69667182128b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880493"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Dynamics 365 Human Resources
 
@@ -27,7 +27,7 @@ ms.locfileid: "8809626"
 
 
 
-หัวข้อนี้ตอบคําถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Microsoft Dynamics 365 Human Resources กับแอปการเงินและการดำเนินงาน
+บทความนี้ตอบคําถามที่ถามบ่อยเกี่ยวกับการผสานโครงสร้างพื้นฐานของ Microsoft Dynamics 365 Human Resources กับแอปการเงินและการดำเนินงาน
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>การผสานโครงสร้างพื้นฐาน Dynamics 365 Human Resources คืออะไร
 

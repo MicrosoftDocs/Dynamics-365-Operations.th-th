@@ -1,6 +1,6 @@
 ---
 title: รายละเอียดค่าจ้างสำหรับตำแหน่ง
-description: หัวข้อนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีรายละเอียดค่าจ้างสำหรับตำแหน่งใน Dynamics 365 Human Resources
+description: บทความนี้แสดงรายละเอียดและตัวอย่างการสอบถามสำหรับเอนทิตีรายละเอียดค่าจ้างสำหรับตำแหน่งใน Dynamics 365 Human Resources
 author: jcart
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bbb234d2f51391ea65e3d6153d6cee250f3c6dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ac36b0386312e1631528b8ab5976db2cb3924caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904143"
 ---
 # <a name="payroll-position"></a>ตําแหน่งในบัญชีเงินเดือน
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069818"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-หัวข้อนี้อธิบายเอนทิตีตําแหน่งในบัญชีเงินเดือนใน Dynamics 365 Human Resources
+บทความนี้อธิบายเอนทิตีตําแหน่งในบัญชีเงินเดือนใน Dynamics 365 Human Resources
 
 ชื่อทางกายภาพ: mshr_payrollpositionentity
 

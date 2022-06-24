@@ -1,6 +1,6 @@
 ---
 title: คํานวณใบแจ้งหนี้ TDS โดยใช้แบบฟอร์มใบสั่งซื้อและแบบฟอร์มใบสั่งขาย
-description: หัวข้อนี้แสดงรายการขั้นตอนในการคํานวณภาษี ณ ที่จ่าย (TDS) ในใบแจ้งหนี้ชนิดต่างๆ
+description: บทความนี้แสดงรายการขั้นตอนในการคํานวณภาษี ณ ที่จ่าย (TDS) ในใบแจ้งหนี้ชนิดต่างๆ
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6a7e670c38a1bce6b8f6771b4be49e56e3aa785a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 72883741ee7eed6b0296736c80dd648c882ae53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853298"
 ---
 # <a name="calculate-tds-invoices-using-purchase-order-form-and-sales-order-form"></a>คํานวณใบแจ้งหนี้ TDS โดยใช้แบบฟอร์มใบสั่งซื้อและแบบฟอร์มใบสั่งขาย
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงรายการขั้นตอนในการคํานวณภาษี ณ ที่จ่าย (TDS) ในใบแจ้งหนี้ชนิดต่างๆ โดยใช้หน้า **ใบสั่งซื้อ** **สมุดรายวันการซื้อ** **ใบสั่งซื้อแบบล็อตใหญ่** และ **ใบสั่งขาย**
+บทความนี้แสดงรายการขั้นตอนในการคํานวณภาษี ณ ที่จ่าย (TDS) ในใบแจ้งหนี้ชนิดต่างๆ โดยใช้หน้า **ใบสั่งซื้อ** **สมุดรายวันการซื้อ** **ใบสั่งซื้อแบบล็อตใหญ่** และ **ใบสั่งขาย**
 
 1. สร้างใบสั่งซื้อ สมุดรายวันการซื้อ ใบสั่งซื้อแบบล็อตใหญ่ หรือใบสั่งขาย โดยใช้หน้าที่แสดงรายการ ป้อนรายละเอียดที่จำเป็น
 

@@ -1,6 +1,6 @@
 ---
 title: ฟังก์ชัน CHANGETIMEZONE ER
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) CHANGETIMEZONE
+description: บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ (ER) CHANGETIMEZONE
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: AX 10.0.23
-ms.openlocfilehash: 48e96cfbc19503daf6a20363c4520c765f11a249
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: be94f57cfcb6115ea386a279c379662f7d401d11
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903598"
 ---
 # <a name="changetimezone-er-function"></a>ฟังก์ชัน CHANGETIMEZONE ER
 

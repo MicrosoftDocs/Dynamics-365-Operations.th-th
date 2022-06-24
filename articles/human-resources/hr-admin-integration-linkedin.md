@@ -1,6 +1,6 @@
 ---
-title: รวมกับฮับความสามารถพิเศษของ LinkedIn
-description: หัวข้อนี้อธิบายวิธีตั้งค่าการรวมระหว่าง Microsoft Dynamics 365 Human Resources และรวมกับฮับความสามารถพิเศษของของ LinkedIn
+title: รวมกับ LinkedIn Talent Hub
+description: บทความนี้อธิบายวิธีตั้งค่าการรวมระหว่าง Microsoft Dynamics 365 Human Resources และรวมกับฮับความสามารถพิเศษของของ LinkedIn
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887761"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>รวมกับ LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> การรวมระหว่าง Dynamics 365 Human Resources และฮับความสามารถพิเศษของ LinkedIn ที่อธิบายไว้ในหัวข้อนี้ถูกถอนในวันที่ 31 ธันวาคม 2021 บริการรวมจะไม่พร้อมใช้งานหลังจากวันที่นี้อีกต่อไป องค์กรที่ไม่ได้ใช้บริการรวมจะไม่สามารถใช้บริการก่อนการถอนได้
+> การรวมระหว่าง Dynamics 365 Human Resources และฮับความสามารถพิเศษของ LinkedIn ที่อธิบายไว้ในบทความนี้ ถูกถอนในวันที่ 31 ธันวาคม 2021 บริการรวมจะไม่พร้อมใช้งานหลังจากวันที่นี้อีกต่อไป องค์กรที่ไม่ได้ใช้บริการรวมจะไม่สามารถใช้บริการก่อนการถอนได้
 
 [ฮับความสามารถพิเศษของของ LinkedIn](https://business.linkedin.com/talent-solutions/talent-hub) เป็นแพลตฟอร์มของระบบติดตามผู้สมัคร (ATS) ซึ่งช่วยให้คุณสามารถจัดหา จัดการ และจ้างงานพนักงานทั้งหมดได้ในที่เดียว โดยการรวม Microsoft Dynamics 365 Human Resources เข้ากับฮับความสามารถพิเศษของของ LinkedIn คุณสามารถสร้างเรกคอร์ดพนักงานในทรัพยากรบุคคลสำหรับผู้สมัครที่ได้รับการว่าจ้างสำหรับตำแหน่งได้
 
