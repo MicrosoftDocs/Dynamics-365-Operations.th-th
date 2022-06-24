@@ -1,6 +1,6 @@
 ---
-title: เปิดใช้งานคำแนะนำ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน"
-description: หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" ใน Microsoft Dynamics 365 Commerce
+title: เปิดใช้งานคำแนะนำ "คำอธิบายเลือกซื้อสินค้าที่คล้ายกัน"
+description: บทความนี้จะอธิบายวิธีการเปิดใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" ใน Microsoft Dynamics 365 Commerce
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852019"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>เปิดใช้งานคำแนะนำ "คำอธิบายเลือกซื้อสินค้าที่คล้ายกัน"
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" ใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการเปิดใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" ใน Microsoft Dynamics 365 Commerce
 
 คุณลักษณะคำแนะนำ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" ใน Dynamics 365 Commerce ใช้ปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง (AI-ML) เพื่อให้คำแนะนำเกี่ยวกับผลิตภัณฑ์ที่คำอธิบายคล้ายกันกับสิ่งที่ลูกค้ากำลังมองหา ด้วยการทำให้คำแนะนำ "เลือกซื้อสินค้าที่คำอธิบายคล้ายกัน" สามารถใช้ได้สำหรับช่องทางการขายปลีกทั้งหมดใน Commerce ร้านค้าปลีกสามารถรช่วยให้ลูกค้าพบสิ่งที่ต้องการได้ง่ายขึ้น
 

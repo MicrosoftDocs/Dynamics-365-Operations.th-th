@@ -1,6 +1,6 @@
 ---
 title: โมดูลตัวเลือกประเทศ/ภูมิภาค
-description: หัวข้อนี้ครอบคลุมโมดูลตัวเลือกประเทศ/ภูมิภาค และอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมโมดูลตัวเลือกประเทศ/ภูมิภาค และอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862003"
 ---
 # <a name="countryregion-picker-module"></a>โมดูลตัวเลือกประเทศ/ภูมิภาค
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมโมดูลตัวเลือกประเทศ/ภูมิภาค และอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมโมดูลตัวเลือกประเทศ/ภูมิภาค และอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลตัวเลือกประเทศ/ภูมิภาคใช้คุณลักษณะ [การตรวจหาพื้นที่และเปลี่ยนเส้นทาง](geo-detection-redirection.md) ใน Dynamics 365 Commerce เพื่อแสดงไซต์ที่แนะนำไปยังลูกค้าที่ขอ URL ไซต์อีคอมเมิร์ซที่ไม่ได้เชื่อมโยงกับประเทศหรือภูมิภาคของพวกเขา
 

@@ -1,6 +1,6 @@
 ---
 title: สร้างการคาดการณ์พื้นฐานทางสถิติ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณของการคาดการณ์ความต้องการ
+description: บทความนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณการคาดการณ์ความต้องการ
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844951"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>สร้างการคาดการณ์พื้นฐานทางสถิติ
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณของการคาดการณ์ความต้องการ 
+บทความนี้แสดงข้อมูลเกี่ยวกับพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณการคาดการณ์ความต้องการ 
 
 เมื่อคุณสร้างการคาดการณ์พื้นฐาน ก่อนอื่น คุณต้องระบุพารามิเตอร์และตัวกรองที่ใช้ในการคำนวณ  ตัวอย่างเช่น คุณสามารถสร้างการคาดการณ์พื้นฐานที่ประเมินความต้องการตามข้อมูลธุรกรรมจากปีที่ผ่านมา สำหรับบริษัทที่ระบุ สำหรับเดือนที่กำลังจะมาถึง และสำหรับกลุ่มสินค้าที่เลือก 
 

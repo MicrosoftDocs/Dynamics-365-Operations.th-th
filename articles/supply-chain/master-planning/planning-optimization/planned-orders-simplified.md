@@ -1,6 +1,6 @@
 ---
 title: คำสั่งซื้อที่วางแผนไว้แบบง่าย
-description: หัวข้อนี้อธิบายวิธีการที่คุณสามารถดู จัดการ และยืนยันแผนการใบสั่งโดยใช้หน้าแผนการใบสั่งแบบง่าย
+description: บทความนี้อธิบายวิธีการที่คุณสามารถดู จัดการ และยืนยันแผนการใบสั่งโดยใช้หน้าแผนการใบสั่งแบบง่าย
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887383"
 ---
 # <a name="planned-orders-simplified"></a>คำสั่งซื้อที่วางแผนไว้แบบง่าย
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการที่คุณสามารถดู จัดการ และยืนยันแผนการใบสั่งโดยใช้หน้า **แผนการใบสั่งแบบง่าย**
+บทความนี้อธิบายวิธีการที่คุณสามารถดู จัดการ และยืนยันแผนการใบสั่งโดยใช้หน้า **แผนการใบสั่งแบบง่าย**
 
 หน้า **แผนการใบสั่งแบบง่าย** คือเวอร์ชันแบบง่ายของ **แผนการใบสั่ง** โดยจะมีตัวเลือกน้อยลงแต่เร็วขึ้นเมื่องานทั้งหมดที่คุณต้องทำคือ ตรวจสอบ อนุมัติ และยืนยันแผนการใบสั่งของคุณ
 
 ## <a name="turn-on-this-feature-for-your-system"></a>เปิดใช้งานคุณลักษณะนี้สำหรับระบบของคุณ
 
-ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในหัวข้อนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *แผนการใบสั่งแบบง่าย*
+ถ้าระบบของคุณยังไม่ได้รวมคุณลักษณะที่อธิบายไว้ในบทความนี้ ให้ไปที่ [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) และเปิดคุณลักษณะ *แผนการใบสั่งแบบง่าย*
 
 ## <a name="view-manage-and-firm-planned-orders"></a>ดู จัดการ และยืนยันแผนการใบสั่ง
 

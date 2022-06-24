@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870824"
 ---
 # <a name="asset-management-parameters"></a>พารามิเตอร์การจัดการสินทรัพย์
 
 [!include [banner](../../includes/banner.md)]
 
-ในการจัดการสินทรัพย์ จะต้องมีการตั้งค่าพารามิเตอร์ทั่วไปที่เกี่ยวข้องกับสินทรัพย์ ใบสั่งงาน และการจัดกำหนดการใบสั่งงาน หัวข้อนี้อธิบายวิธีการตั้งค่ารายการเหล่านั้น เลือก **การจัดการสินทรัพย์** > **การตั้งค่า** > **พารามิเตอร์การจัดการสินทรัพย์** เพื่อเปิดหน้า
+ในการจัดการสินทรัพย์ จะต้องมีการตั้งค่าพารามิเตอร์ทั่วไปที่เกี่ยวข้องกับสินทรัพย์ ใบสั่งงาน และการจัดกำหนดการใบสั่งงาน บทความนี้อธิบายวิธีการตั้งค่ารายการเหล่านั้น เลือก **การจัดการสินทรัพย์** > **การตั้งค่า** > **พารามิเตอร์การจัดการสินทรัพย์** เพื่อเปิดหน้า
 
 > [!NOTE]
 > ถ้าคุณต้องการตั้งค่าระบบซึ่งรวมถึงข้อมูลสาธิตสำหรับคุณลักษณะการจัดการสินทรัพย์ ให้ดูที่ [ปรับใช้รัสภาพแวดล้อมการสาธิต](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) สำหรับคำแนะนำ

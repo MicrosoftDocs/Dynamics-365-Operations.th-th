@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ
-description: ในหัวข้อนี้จะอธิบายวิธีตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการใน Microsoft Dynamics 365 Commerce เพื่อเรียก API การบริการสำหรับการให้คะแนนและบทวิจารณ์อย่างปลอดภัย
+description: ในบทความนี้จะอธิบายวิธีตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการใน Microsoft Dynamics 365 Commerce เพื่อเรียก API การบริการสำหรับการให้คะแนนและบทวิจารณ์อย่างปลอดภัย
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871618"
 ---
 # <a name="configure-service-to-service-authentication"></a>ตั้งค่าคอนฟิกการรับรองความถูกต้องแบบบริการกับบริการ
 
 [!include [banner](includes/banner.md)]
 
-ในหัวข้อนี้จะอธิบายวิธีตั้งค่าคอนฟิกการพิสูจน์ตัวจริงแบบบริการ (S2S) ใน Microsoft Dynamics 365 Commerce เพื่อเรียก Application Programming Interface (API) การบริการเพื่อการจัดอันดับและบทวิจารณ์อย่างปลอดภัย
+ในบทความนี้จะอธิบายวิธีตั้งค่าคอนฟิกการพิสูจน์ตัวจริงแบบบริการ (S2S) ใน Microsoft Dynamics 365 Commerce เพื่อเรียก Application Programming Interface (API) การบริการเพื่อการจัดอันดับและบทวิจารณ์อย่างปลอดภัย
 
-Dynamics 365 Commerce เสนอ [การให้คะแนนและบทวิจารณ์](ratings-reviews-overview.md) เป็นโซลูชันช่องทาง Omni โซลูชันนี้ช่วยให้สามารถเข้าถึง API บริการจากภายนอก Commerce เพื่อที่จะสามารถปฏิบัติงานต่างๆ ได้ งานเหล่านี้รวมถึงการนําเข้าการให้คะแนนและบทวิจารณ์จากระบบภายนอกของคุณไปยัง Commerce และการส่งออกการให้คะแนนและบทวิจารณ์จาก Commerce เพื่อให้ Commerce สามารถเรียกการให้คะแนนและบทวิจารณ์ของ API บริการได้ปลอดภัย คุณต้องตั้งค่าคอนฟิกการรับรองความถูกต้อง S2S ก่อน โดยปฏิบัติตามขั้นตอนต่างๆ ในหัวข้อนี้ให้เสร็จสมบูรณ์
+Dynamics 365 Commerce เสนอ [การให้คะแนนและบทวิจารณ์](ratings-reviews-overview.md) เป็นโซลูชันช่องทาง Omni โซลูชันนี้ช่วยให้สามารถเข้าถึง API บริการจากภายนอก Commerce เพื่อที่จะสามารถปฏิบัติงานต่างๆ ได้ งานเหล่านี้รวมถึงการนําเข้าการให้คะแนนและบทวิจารณ์จากระบบภายนอกของคุณไปยัง Commerce และการส่งออกการให้คะแนนและบทวิจารณ์จาก Commerce เพื่อให้ Commerce สามารถเรียกการให้คะแนนและบทวิจารณ์ของ API บริการได้ปลอดภัย คุณต้องตั้งค่าคอนฟิกการรับรองความถูกต้อง S2S ก่อน โดยปฏิบัติตามขั้นตอนต่างๆ ในบทความนี้ให้เสร็จสมบูรณ์
 
 ## <a name="add-a-new-app-registration"></a>เพิ่มการลงทะเบียนแอปใหม่
 

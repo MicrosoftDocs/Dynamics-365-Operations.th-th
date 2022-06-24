@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891160"
 ---
 # <a name="cost-management-home-page"></a>โฮมเพจการจัดการต้นทุน
 
@@ -53,7 +53,7 @@ ms.locfileid: "8672499"
 
 #### <a name="white-paper"></a>เอกสารทางเทคนิค
 
-[การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน](https://www.microsoft.com/download/details.aspx?id=101937) อธิบายถึงวิธีการตั้งค่าแผ่นงานคำนวณต้นทุนที่มีวัสดุและการผลิต และวิธีที่การตั้งค่ามีผลกับผลลัพธ์การคำนวณ BOM เพื่อให้อธิบายหัวข้อได้ดีขึ้น จะแสดงสถานการณ์รูปธรรมและข้อมูลที่แสดงผลกระทบของการตั้งค่าและตั้งค่าคอนฟิกที่หลากหลาย
+[การคำนวณ BOM โดยใช้แผ่นงานการคิดต้นทุน](https://www.microsoft.com/download/details.aspx?id=101937) อธิบายถึงวิธีการตั้งค่าแผ่นงานคำนวณต้นทุนที่มีวัสดุและการผลิต และวิธีที่การตั้งค่ามีผลกับผลลัพธ์การคำนวณ BOM เพื่อให้อธิบายบทความได้ดีขึ้น จะแสดงสถานการณ์รูปธรรมและข้อมูลที่แสดงผลกระทบของการตั้งค่าและตั้งค่าคอนฟิกที่หลากหลาย
 
 #### <a name="blogs"></a>บล็อก
 

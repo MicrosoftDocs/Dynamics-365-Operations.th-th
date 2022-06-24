@@ -1,6 +1,6 @@
 ---
-title: การสร้างกลุ่มตัวแปร
-description: หัวข้อนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+title: สร้างกลุ่มตัวแปร
+description: บทความนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874972"
 ---
 # <a name="create-a-variant-group"></a>สร้างกลุ่มตัวแปร
 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีสร้างขนาด สไตล์ หรือสีของกลุ่มตัวแปรสำหรับผลิตภัณฑ์ใน Microsoft Dynamics 365 Commerce
 
 ## <a name="overview"></a>ภาพรวม
 
 Dynamics 365 Commerce รองรับตัวแปรต่าง ๆ สำหรับผลิตภัณฑ์ เหมาะที่จะตั้งค่ากลุ่มตัวแปรสำหรับประเภทผลิตภัณฑ์ที่แตกต่างกัน ตัวอย่างเช่น สามารถสร้างกลุ่มขนาดสำหรับเสื้อยืดที่มีขนาดเล็กพิเศษ เล็ก กลาง ใหญ่ และใหญ่พิเศษ หรือสามารถสร้างกลุ่มสีเพื่อรวมสีที่มีทั้งหมดของผลิตภัณฑ์ ควรเพิ่มกลุ่มตัวแปรก่อนที่จะเพิ่มผลิตภัณฑ์
 
-ในหัวข้อนี้ กลุ่มขนาดจะถูกสร้างขึ้นและกำหนดค่า กระบวนการที่คล้ายกันสามารถใช้สำหรับการเพิ่มและกำหนดค่ากลุ่มลักษณะและกลุ่มสี
+ในบทความนี้ กลุ่มขนาดจะถูกสร้างขึ้นและกำหนดค่า กระบวนการที่คล้ายกันสามารถใช้สำหรับการเพิ่มและกำหนดค่ากลุ่มลักษณะและกลุ่มสี
 
 ## <a name="create-a-size-group"></a>การสร้างกลุ่มขนาด
 

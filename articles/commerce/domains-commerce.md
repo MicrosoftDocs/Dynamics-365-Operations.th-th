@@ -1,6 +1,6 @@
 ---
 title: โดเมนใน Dynamics 365 Commerce
-description: หัวข้อนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848965"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 
-โดเมนคือที่อยู่เว็บที่ใช้เพื่อนำทางไปยังไซต์ Dynamics 365 Commerce ในเว็บเบราเซอร์ คุณควบคุมการจัดการโดเมนของคุณด้วยผู้ให้บริการเซิร์ฟเวอร์ชื่อโดเมน (DNS) ที่เลือก โดเมนมีการอ้างอิงในตัวสร้างไซต์ Dynamics 365 Commerce เพื่อประสานงานว่าจะเข้าถึงไซต์อย่างไรเมื่อเผยแพร่ หัวข้อนี้จะเสนอว่าโดเมนมีการจัดการและการอ้างอิงตลอดระยะเวลาของการพัฒนาและการเปิดใช้งานไซต์ Commerce site อย่างไร
+โดเมนคือที่อยู่เว็บที่ใช้เพื่อนำทางไปยังไซต์ Dynamics 365 Commerce ในเว็บเบราเซอร์ คุณควบคุมการจัดการโดเมนของคุณด้วยผู้ให้บริการเซิร์ฟเวอร์ชื่อโดเมน (DNS) ที่เลือก โดเมนมีการอ้างอิงในตัวสร้างไซต์ Dynamics 365 Commerce เพื่อประสานงานว่าจะเข้าถึงไซต์อย่างไรเมื่อเผยแพร่ บทความนี้จะเสนอว่าโดเมนมีการจัดการและการอ้างอิงตลอดระยะเวลาของการพัฒนาและการเปิดใช้งานไซต์ Commerce site อย่างไร
 
 > [!NOTE]
 > ในวันที่ 6 พฤษภาคม 2022 สภาพแวดล้อมทั้งหมดที่สร้างใน Dynamics 365 Commerce จะถูกเตรียมใช้งานด้วยโดเมน `.dynamics365commerce.ms` แทนรูปแบบก่อนหน้าของ `.commerce.dynamics.com` สภาพแวดล้อมที่มีอยู่ที่เตรียมใช้งานด้วยโดเมน `.commerce.dynamics.com` จะยังคงทำงานต่อไป

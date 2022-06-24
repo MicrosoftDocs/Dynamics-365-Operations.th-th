@@ -1,6 +1,6 @@
 ---
 title: ภาพรวมของการสร้างหน้า
-description: หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
+description: บทความนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855015"
 ---
 # <a name="authoring-page-overview"></a>ภาพรวมของการสร้างหน้า
 
   
  [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
+บทความนี้แสดงภาพรวมของหน้าการเขียนใน Microsoft Dynamics 365 Commerce
 
 เว็บไซต์สามารถสร้างขึ้นเพื่อสนับสนุนความต้องการทางธุรกิจแบบต่าง ๆ เว็บไซต์อาจเป็นตัวแทนของธุรกิจทั้งหมด เป็นช่องทางเดียวช่องทางหนึ่งของธุรกิจ หรือกำหนดกลุ่มเป้าหมายหรือเซ็กเมนต์ของกลุ่มเป้าหมายที่เฉพาะเจาะจงก็ได้ ตัวอย่างเช่น ผู้ผลิตเสื้อผ้าอาจมีเว็บไซต์ที่นำเสนอแบรนด์ทั้งหมดที่เป็นธุรกิจเจ้าของ ผู้ผลิตเสื้อผ้ารายเดียวกันนี้อาจมีเว็บไซต์แยกต่างหากสำหรับแต่ละแบรนด์ และมีชุดของเว็บไซต์ที่มีเน้นไปที่แฟชั่นหรูหรา แฟชั่นกลางแจ้ง และแฟชั่นสำหรับเด็กอีกด้วย
 

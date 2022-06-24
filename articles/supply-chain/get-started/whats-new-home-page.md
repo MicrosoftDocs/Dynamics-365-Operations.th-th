@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management
-description: หัวข้อนี้จะชี้ไปยังหัวข้อที่อธิบายคุณลักษณะใหม่และที่มีการเปลี่ยนแปลงในแต่ละรุ่นของ Dynamics 365 Supply Chain Management
+description: บทความนี้จะชี้ไปยังบทความที่อธิบายคุณลักษณะใหม่และที่มีการเปลี่ยนแปลงในแต่ละรุ่นของ Dynamics 365 Supply Chain Management
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893452"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812985"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>การนำออกใช้ของ Dynamics 365 Supply Chain Management
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในแต่ละรุ่นของ Dynamics 365 Supply Chain Management ดูที่หัวข้อต่อไปนี้
+เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในแต่ละรุ่นของ Dynamics 365 Supply Chain Management ดูที่บทความต่อไปนี้
 
 | รุ่น | Build number | ความพร้อมใช้งานที่มีการอัปเดตอัตโนมัติ | เรียนรู้เพิ่มเติม |
 |---|---|---|---|
@@ -57,7 +57,7 @@ ms.locfileid: "8812985"
 
 ## <a name="releases-before-november-2019"></a>การนำออกใช้ก่อนพฤศจิกายน 2019
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นก่อนพฤศจิกายน 2019 ดูที่หัวข้อต่อไปนี้
+เมื่อต้องการดูว่ามีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรในรุ่นก่อนพฤศจิกายน 2019 ดูที่บทความต่อไปนี้
 
 | ปล่อย | รุ่น | Build number | ความพร้อมใช้งาน | เรียนรู้เพิ่มเติม |
 |---|---|---|---|---|

@@ -1,6 +1,6 @@
 ---
 title: โมดูลการค้นหาใบสั่ง
-description: หัวข้อนี้กล่าวถึงโมดูลการค้นหาใบสั่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+description: บทความนี้กล่าวถึงโมดูลการค้นหาใบสั่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869441"
 ---
 # <a name="order-lookup-module"></a>โมดูลการค้นหาใบสั่ง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้กล่าวถึงโมดูลการค้นหาใบสั่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+บทความนี้กล่าวถึงโมดูลการค้นหาใบสั่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลการค้นหาใบสั่งจะแสดงฟอร์มที่ลูกค้าสามารถใช้ในการค้นหาใบสั่งที่ลูกค้าวางบนไซต์อีคอมเมิร์ซ ซึ่งใช้เป็นส่วนหนึ่งของคุณลักษณะ [เปิดใช้งานการค้นหาใบสั่งของการเช็คเอาท์สำหรับแขก](order-lookup-guest.md) โมดูลการค้นหาใบสั่งสามารถใช้ในการค้นหาใบสั่งที่ส่งผ่านไซต์อีคอมเมิร์ซ การขายหน้าร้านขายปลีก (POS) หรือศูนย์บริการ ฟอร์มสามารถดึงข้อมูลใบสั่งที่ส่งโดยผู้ใช้ที่เป็นแขกและโดยผู้ใช้ที่ลงทะเบียน
 

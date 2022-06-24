@@ -1,6 +1,6 @@
 ---
 title: ข้อกำหนดเบราว์เซอร์สำหรับไซต์ Dynamics 365 Commerce
-description: หัวข้อนี้ครอบคลุมถึงข้อกำหนดของเบราเซอร์สำหรับไซต์ของ Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมถึงข้อกำหนดของเบราเซอร์สำหรับไซต์ของ Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 12/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c80bec4b4e40c904ef781893b6d695eda31cce92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869209"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>ข้อกำหนดเบราว์เซอร์สำหรับไซต์ Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมถึงข้อกำหนดของเบราเซอร์สำหรับไซต์ของ Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมถึงข้อกำหนดของเบราเซอร์สำหรับไซต์ของ Microsoft Dynamics 365 Commerce
 
 ไซต์ Dynamics 365 Commerce ได้รับการสนับสนุนอย่างดีที่สุดจากเว็บเบราเซอร์ต่อไปนี้ เมื่อต้องการค้นหารุ่นล่าสุดของแต่ละเว็บเบราเซอร์ ให้ไปที่เว็บไซต์ของผู้ผลิตซอฟต์แวร์
 

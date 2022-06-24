@@ -1,6 +1,6 @@
 ---
 title: จัดการหน่วยวัด
-description: หัวข้อนี้อธิบายวิธีการกำหนดหน่วยวัด ระบุการแปลและคำอธิบายสำหรับหน่วย และกำหนดกฎการแปลงสำหรับหน่วยที่เกี่ยวข้อง
+description: บทความนี้อธิบายวิธีการกำหนดหน่วยวัด ระบุการแปลและคำอธิบายสำหรับหน่วย และกำหนดกฎการแปลงสำหรับหน่วยที่เกี่ยวข้อง
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863924"
 ---
 # <a name="manage-units-of-measure"></a>จัดการหน่วยวัด
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการกำหนดหน่วยวัด ระบุการแปลและคำอธิบายสำหรับหน่วย และกำหนดกฎการแปลงสำหรับหน่วยที่เกี่ยวข้อง
+บทความนี้อธิบายวิธีการกำหนดหน่วยวัด ระบุการแปลและคำอธิบายสำหรับหน่วย และกำหนดกฎการแปลงสำหรับหน่วยที่เกี่ยวข้อง
 
 ## <a name="open-the-units-page"></a>เปิดหน้าหน่วยวัด
 
 เมื่อต้องการสร้างและใช้งานหน่วยวัดที่พร้อมใช้งานในระบบของคุณ ให้ไปที่ **การจัดการองค์กร \> การตั้งค่า \> หน่วย \> หน่วย**
 
-ส่วนที่เหลือของหัวข้อนี้อธิบายสิ่งที่คุณสามารถบนหน้า **หน่วย**
+ส่วนที่เหลือของบทความนี้อธิบายสิ่งที่คุณสามารถบนหน้า **หน่วย**
 
 ## <a name="create-standard-units-and-conversions"></a>สร้างหน่วยมาตรฐานและการแปลง
 

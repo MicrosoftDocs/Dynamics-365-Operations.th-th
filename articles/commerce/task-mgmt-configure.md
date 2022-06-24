@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกการจัดการงาน
-description: หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการงานใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการงานใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf8584f4a0d71ef6fa867a7f07b568d94656e650
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868868"
 ---
 # <a name="configure-task-management"></a>ตั้งค่าคอนฟิกการจัดการงาน
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการงานใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการงานใน Microsoft Dynamics 365 Commerce
 
 ก่อนที่ผู้จัดการและพนักงาน Dynamics 365 Commerce จะสามารถใช้คุณลักษณะการจัดการงานใน Commerce ได้ ต้องมีการตั้งค่าคอนฟิกการจัดการงาน ขั้นตอนการตั้งค่าคอนฟิกรวมถึงการให้สิทธิ์กับผู้จัดการและพนักงาน การกระจายสิทธิ์ไปยังไคลเอนต์ของการขายหน้าร้าน (POS) การตั้งค่าการแจ้งเตือน POS และการตั้งค่าไทล์ **งาน** บนโฮมเพจของแอปพลิเคชัน POS
 

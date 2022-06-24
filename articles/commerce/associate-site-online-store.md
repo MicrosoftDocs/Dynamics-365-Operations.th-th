@@ -1,6 +1,6 @@
 ---
 title: เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์
-description: หัวข้อนี้อธิบายถึงวิธีการผูกไซต์ Microsoft Dynamics 365 Commerce ของคุณกับร้านค้าออนไลน์อย่างน้อยหนึ่งร้าน
+description: บทความนี้อธิบายถึงวิธีการผูกไซต์ Microsoft Dynamics 365 Commerce ของคุณกับร้านค้าออนไลน์อย่างน้อยหนึ่งร้าน
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878684"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>เชื่อมโยงไซต์ Dynamics 365 Commerce กับช่องทางออนไลน์
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายถึงวิธีการผูกไซต์ Microsoft Dynamics 365 Commerce ของคุณกับร้านค้าออนไลน์อย่างน้อยหนึ่งร้าน 
+บทความนี้อธิบายถึงวิธีการผูกไซต์ Microsoft Dynamics 365 Commerce ของคุณกับร้านค้าออนไลน์อย่างน้อยหนึ่งร้าน 
 
 หลังจากที่คุณได้เตรียมใช้งานสภาพแวดล้อมอีคอมเมิร์ซ Dynamics 365 Commerce ของคุณ โดยใช้พอร์ทัล Microsoft Dynamics Lifecycle Services (LCS) คุณพร้อมที่จะสร้างเว็บไซต์อีคอมเมิร์ซแรกของคุณ เนื่องจากเป็นส่วนหนึ่งของการสร้างไซต์เริ่มต้น คุณเชื่อมโยงไซต์กับร้านค้าออนไลน์ที่สร้างไว้ก่อนหน้านี้ ขั้นตอนนี้ผูกไซต์กับช่องทางออนไลน์ และให้ไซต์แสดงลำดับชั้นการนำทาง ผลิตภัณฑ์ ประเภท ราคา ตัวเลือกการจัดส่ง และข้อมูลอื่นๆ ที่คุณได้กำหนดไว้ในร้านค้าออนไลน์
 

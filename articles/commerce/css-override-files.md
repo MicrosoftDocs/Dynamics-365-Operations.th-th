@@ -1,6 +1,6 @@
 ---
-title: ทำงานกับไฟล์การแทนที่ CSS
-description: หัวข้อนี้อธิบายเหตุผล เวลา และวิธีการใช้ไฟล์การแทนที่ Cascading Style Sheet (CSS) ใน Microsoft Microsoft Dynamics 365 Commerce
+title: ทำงานกับไฟล์การแก้ไข CSS
+description: บทความนี้อธิบายเหตุผล เวลา และวิธีการใช้ไฟล์การแทนที่ Cascading Style Sheet (CSS) ใน Microsoft Microsoft Dynamics 365 Commerce
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892871"
 ---
 # <a name="work-with-css-override-files"></a>ทำงานกับไฟล์การแก้ไข CSS
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายเหตุผล เวลา และวิธีการใช้ไฟล์การแทนที่ Cascading Style Sheet (CSS) ใน Microsoft Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายเหตุผล เวลา และวิธีการใช้ไฟล์การแทนที่ Cascading Style Sheet (CSS) ใน Microsoft Microsoft Dynamics 365 Commerce
 
 รูปแบบเว็บไซต์ถาวรควรจะจัดการผ่านชุดรูปแบบของเว็บไซต์. ชุดรูปแบบจะให้การตั้งค่าและลักษณะ CSS ที่เป็นพื้นฐานสำหรับโมดูลที่อยู่บนหน้าเว็บไซต์ของคุณ ชุดรูปแบบถูกสร้างขึ้นโดยใช้ชุดพัฒนาซอฟต์แวร์ออนไลน์ (SDK) Dynamics 365 Commerce และจะถูกปรับใช้กับเว็บไซต์ของคุณผ่าน Microsoft Dynamics Lifecycle Services (LCS) ความสามารถในการดีบักของชุดรูปแบบและการกำหนดค่าส่วนติดต่อโมดูลใน SDK ช่วยให้นักพัฒนาเว็บไซต์สร้างแพคเกจการออกแบบที่ปรับแต่งเองได้และสอดคล้องกัน เมื่อมีการปรับใช้แพ็กเกจการออกแบบเหล่านี้ไปยังไซต์ ผู้เขียนไซต์สามารถมุ่งเน้นไปที่การสร้าง การแก้ไข และการเผยแพร่เนื้อหาแทนการพัฒนาไซต์
 

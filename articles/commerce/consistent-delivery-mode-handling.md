@@ -1,6 +1,6 @@
 ---
 title: เปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันในช่องทางอีคอมเมิร์ซ
-description: หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันเพื่อจัดการปัญหาที่เป็นไปได้ ซึ่งเกี่ยวข้องกับขั้นตอนค่าธรรมเนียมในช่องทางอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการเปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันเพื่อจัดการปัญหาที่เป็นไปได้ ซึ่งเกี่ยวข้องกับขั้นตอนค่าธรรมเนียมในช่องทางอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885596"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>เปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันในช่องทางอีคอมเมิร์ซ 
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันเพื่อจัดการปัญหาที่เป็นไปได้ ซึ่งเกี่ยวข้องกับขั้นตอนค่าธรรมเนียมในช่องทางอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการเปิดใช้งานการจัดการวิธีการจัดส่งที่สอดคล้องกันเพื่อจัดการปัญหาที่เป็นไปได้ ซึ่งเกี่ยวข้องกับขั้นตอนค่าธรรมเนียมในช่องทางอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
 
 ใน Dynamics 365 Commerce ค่าธรรมเนียมระดับส่วนหัวที่ไม่เป็นแบบสัดส่วนจะไม่ใช้ตามค่าเริ่มต้นในช่องทางอีคอมเมิร์ซ ลักษณะการทํางานนี้อาจก่อให้เกิดปัญหาหนึ่งหรือทั้งสองอย่างต่อไปนี้ในในช่องทางอีคอมเมิร์ซ
 

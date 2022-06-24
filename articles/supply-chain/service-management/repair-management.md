@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969224f48cdb1f12b48b9f5d839d7c88168e87d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7026453bf3a0eda2b9bc4d8538150974bd6aa634
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847917"
 ---
 # <a name="repair-management"></a>การบริหารการซ่อมแซม       
 
@@ -97,7 +97,7 @@ ms.locfileid: "8674266"
 
 ## <a name="close-a-repair-line-for-a-resolved-issue"></a>การปิดบรรทัดซ่อมแซมสำหรับปัญหาที่แก้ไขแล้ว
 
-1.  เปิดแบบฟอร์ม **รายการซ่อมแซม** ทำตามกระบวนงานก่อนหน้าในห้วข้อนี้เพื่อสร้างรายการซ่อมแซม
+1.  เปิดแบบฟอร์ม **รายการซ่อมแซม** ทำตามกระบวนงานก่อนหน้าในบทความนี้เพื่อสร้างรายการซ่อมแซม
 
 2.  เลือกบรรทัดซ่อมแซมที่มีปัญหาซ่อมแซมที่คุณต้องการปิด
 

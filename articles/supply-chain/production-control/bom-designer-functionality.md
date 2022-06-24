@@ -1,6 +1,6 @@
 ---
-title: ฟังก์ชันผู้ออกแบบ BOM
-description: หัวข้อนี้อธิบายวิธีที่คุณสามารถใช้หน้าการออกแบบ BOM เพื่อออกแบบและทำงานกับโครงสร้างแผนภูมิสำหรับสูตรการผลิต (BOMs) ได้
+title: ฟังก์ชันตัวออกแบบ BOM
+description: บทความนี้อธิบายวิธีที่คุณสามารถใช้หน้าการออกแบบ BOM เพื่อออกแบบและทำงานกับโครงสร้างแผนภูมิสำหรับรายการวัสดุและส่วนประกอบ (BOMs)
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c068e7f5f4f36663766e21e14cf8e75cf1442f50
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2fda2b1d835afdcf06a50528748861fecc6792f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844279"
 ---
-# <a name="bom-designer-functionality"></a>ฟังก์ชันผู้ออกแบบ BOM
+# <a name="bom-designer-functionality"></a>ฟังก์ชันตัวออกแบบ BOM
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีที่คุณสามารถใช้หน้าการออกแบบ BOM เพื่อออกแบบและทำงานกับโครงสร้างแผนภูมิสำหรับสูตรการผลิต (BOMs) ได้ คุณสามารถคลิก ตั้งค่า เพื่อเลือกข้อมูลเฉพาะที่ต้องการแสดงในบรรทัดของแผนภูมิ
+บทความนี้อธิบายวิธีที่คุณสามารถใช้หน้าการออกแบบ BOM เพื่อออกแบบและทำงานกับโครงสร้างแผนภูมิสำหรับรายการวัสดุและส่วนประกอบ (BOMs) คุณสามารถคลิก ตั้งค่า เพื่อเลือกข้อมูลเฉพาะที่ต้องการแสดงในบรรทัดของแผนภูมิ
 
 เมื่อคุณเปิดแบบ **โปรแกรมออกแบบ BOM** จากหน้าแบบ **ผลิตภัณฑ์ที่นำออกใช้** จะแสดงลำดับชั้นของสูตรการผลิต และวันที่ผลิตของ รายการวัสดุและส่วนประกอบ (BOMs) ที่ใช้งานอยู่ และได้รับอนุมัติสำหรับสินค้าที่เลือก  
 

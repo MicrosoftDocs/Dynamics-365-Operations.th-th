@@ -1,6 +1,6 @@
 ---
-title: โมดูลที่อยู่จัดส่ง
-description: หัวข้อนี้กล่าวถึงโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+title: โมดูลที่อยู่ที่จัดส่ง
+description: บทความนี้กล่าวถึงโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 02/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882207"
 ---
 # <a name="shipping-address-module"></a>โมดูลที่อยู่ที่จัดส่ง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายโมดูลที่อยู่จัดส่งและอธิบายวิธีการตั้งค่าคอนฟิกใน Microsoft Dynamics 365 Commerce
 
 โมดูลที่อยู่จัดส่งนี้จะช่วยให้ลูกค้าเพิ่มหรือเลือกที่อยู่จัดส่งสำหรับใบสั่งในระหว่างขั้นตอนการเช็คเอาท์ ถ้าลูกค้าเคยลงชื่อเข้าใช้ไว้ ที่อยู่ที่บันทึกไว้ก่อนหน้านี้สำหรับลูกค้ารายนั้นจะแสดงขึ้นและลูกค้าสามารถเลือกได้ ลูกค้ายังสามารถเพิ่มที่อยู่ใหม่ได้ด้วย โมดูลที่อยู่จัดส่งจะใช้สำหรับสินค้าทั้งหมดในใบสั่งที่ต้องมีการจัดส่ง
 

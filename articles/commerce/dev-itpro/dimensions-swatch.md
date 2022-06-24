@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์ให้ปรากฏเป็นตัวอย่างสี
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์เป็นตัวอย่างสีในศูนย์ควบคุม Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์เป็นตัวอย่างสีใน Microsoft Dynamics 365 Commerce headquarters
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764625"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892663"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>ตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์ให้ปรากฏเป็นตัวอย่างสี
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์เป็นตัวอย่างสีในศูนย์ควบคุม Microsoft Dynamics 365 Commerce สำหรับข้อมูลเกี่ยวกับมิติผลิตภัณฑ์ ให้ดูที่ [มิติผลิตภัณฑ์](../../supply-chain/pim/product-dimensions.md)
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกค่ามิติของผลิตภัณฑ์เป็นตัวอย่างสีใน Microsoft Dynamics 365 Commerce headquarters สำหรับข้อมูลเกี่ยวกับมิติผลิตภัณฑ์ ให้ดูที่ [มิติผลิตภัณฑ์](../../supply-chain/pim/product-dimensions.md)
 
 Dynamics 365 Commerce สนับสนุนการใช้มิติขนาด ลักษณะ และสีเพื่อแสดงผลิตภัณฑ์ย่อย มิติของผลิตภัณฑ์มีชื่อที่เป็นมิตรซึ่งแสดงอยู่ในหน้ารายละเอียดผลิตภัณฑ์ (PDPs) เพื่อให้สามารถเลือกผลิตภัณฑ์ย่อยได้ ตัวอย่างของชื่อที่เป็นมิตรเหล่านี้ ได้แก่ "เล็ก" "ปานกลาง" และ "ใหญ่" สำหรับขนาด และ "ดำ" และ "น้ำตาล" สำหรับสี อย่างไรก็ตาม ถ้าผลิตภัณฑ์สนับสนุนการเปลี่ยนแปลงหลายอย่าง การเลือกหลายรายการจะต้องดูรูปภาพของแต่ละผลิตภัณฑ์ย่อย ดังนั้น การเลือกดูและเลือกผลิตภัณฑ์ย่อยจึงอาจช้าและเป็นเรื่องที่ไม่ต้องการ
 

@@ -1,6 +1,6 @@
 ---
 title: หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
-description: หัวข้อนี้แสดงภาพรวมของหน้าเริ่มต้นของประเภทเริ่มต้นและหน้าผลการค้นหาใน Dynamics 365 Commerce
+description: บทความนี้แสดงภาพรวมของหน้าเริ่มต้นของประเภทเริ่มต้นและหน้าผลการค้นหาใน Dynamics 365 Commerce
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881863"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>หน้าการค้นหาเริ่มต้นของประเภทและภาพรวมหน้าผลการค้นหาเริ่มต้น
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้แสดงภาพรวมของหน้า Landing Page ของหมวดหมู่เริ่มต้นและหน้าผลการค้นหาในอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
+บทความนี้แสดงภาพรวมของหน้า Landing Page ของหมวดหมู่เริ่มต้นและหน้าผลการค้นหาในอีคอมเมิร์ซของ Microsoft Dynamics 365 Commerce
 
 ## <a name="default-category-landing-page"></a>หน้าเริ่มต้นของประเภท
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982445"
 
 ![หน้าเริ่มต้นของประเภท](./media/SimpleCategoryLandingDressCategory.png)
 
-ด้านบนสุดของเพจมีส่วนหัวที่แสดงประเภทผลิตภัณฑ์ทั้งหมด และหน้าอื่น ๆ ที่ผู้จัดการฝ่ายจัดซื้อได้จัดประเภทไว้ การตั้งค่าจะทำเป็นส่วนหนึ่งของการตั้งค่าลำดับชั้นการนำทางของช่องทาง ด้านล่างของเพจมีส่วนท้ายที่มีลิงก์ลัดไปยังหัวข้อต่าง ๆ ที่ลูกค้าอาจจะสนใจ
+ด้านบนสุดของเพจมีส่วนหัวที่แสดงประเภทผลิตภัณฑ์ทั้งหมด และหน้าอื่น ๆ ที่ผู้จัดการฝ่ายจัดซื้อได้จัดประเภทไว้ การตั้งค่าจะทำเป็นส่วนหนึ่งของการตั้งค่าลำดับชั้นการนำทางของช่องทาง ด้านล่างของเพจมีส่วนท้ายที่มีลิงก์ลัดไปยังบทความต่าง ๆ ที่ลูกค้าอาจจะสนใจ
 
 ส่วนประกอบต่อไปนี้จำเป็นสำหรับประเภทประเภทหนึ่ง:
 

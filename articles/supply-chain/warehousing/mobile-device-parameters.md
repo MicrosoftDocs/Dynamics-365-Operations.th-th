@@ -1,6 +1,6 @@
 ---
 title: พารามิเตอร์อุปกรณ์เคลื่อนที่ส่วนกลาง
-description: หัวข้อนี้อธิบายวิธีการตั้งค่าอุปกรณ์เคลื่อนที่ในหน้าพารามิเตอร์ Warehouse Management
+description: บทความนี้อธิบายวิธีการตั้งค่าอุปกรณ์เคลื่อนที่ในหน้าพารามิเตอร์ Warehouse Management
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847772"
 ---
 # <a name="global-mobile-device-parameters"></a>พารามิเตอร์อุปกรณ์เคลื่อนที่ส่วนกลาง
 
 [!include [banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ Warehouse Management ส่วนกลางที่มีผลต่อการที่ระบบโต้ตอบกับอุปกรณ์เคลื่อนที่
+บทความนี้อธิบายวิธีการตั้งค่าพารามิเตอร์ Warehouse Management ส่วนกลางที่มีผลต่อการที่ระบบโต้ตอบกับอุปกรณ์เคลื่อนที่
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าผู้ปฏิบัติงานคลังสินค้า ให้ดูที่ [จัดการผู้ปฏิบัติงานสำหรับคลังสินค้า](manage-warehouse-workers.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการป้ายทะเบียนบนอุปกรณ์เคลื่อนที่ ให้ดูที่ [ป้ายทะเบียนที่ได้รับผ่านทางแอป Warehouse Management บนมือถือ](warehousing-mobile-device-app-license-plate-receiving.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการตรวจนับตามรอบ โปรดดูที่ [การตรวจนับตามรอบ](cycle-counting.md) และ [สถานการณ์ตัวอย่างการตรวจนับตามรอบ](cycle-counting-scenarios.md)
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>เปิดหน้าพารามิเตอร์ Warehouse Management
 
-หากต้องการเปิดหน้า **พารามิเตอร์ Warehouse Management** ไปที่ **Warehouse management \> การตั้งค่า \> พารามิเตอร์ Warehouse Management** จากนั้น คุณสามารถตั้งค่าฟิลด์ที่เกี่ยวข้องกับงานของอุปกรณ์เคลื่อนที่ ตามที่อธิบายไว้ในส่วนถัดไปของหัวข้อนี้
+หากต้องการเปิดหน้า **พารามิเตอร์ Warehouse Management** ไปที่ **Warehouse management \> การตั้งค่า \> พารามิเตอร์ Warehouse Management** จากนั้น คุณสามารถตั้งค่าฟิลด์ที่เกี่ยวข้องกับงานของอุปกรณ์เคลื่อนที่ ตามที่อธิบายไว้ในส่วนถัดไปของบทความนี้
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>แท็บด่วนอุปกรณ์เคลื่อนที่บนแท็บทั่วไป
 

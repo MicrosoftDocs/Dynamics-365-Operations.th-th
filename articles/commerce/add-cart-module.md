@@ -1,6 +1,6 @@
 ---
 title: โมดูลรถเข็น
-description: หัวข้อนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+description: บทความนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 962710f7b65c8d26b301b5034a89fc25476b6e0f
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: c4023857f13830449eaa19f8513799ece97729d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866067"
 ---
 # <a name="cart-module"></a>โมดูลรถเข็น
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
+บทความนี้ครอบคลุมโมดูลบรรทุกและอธิบายวิธีการเพิ่มไปยังหน้าไซต์ใน Microsoft Microsoft Dynamics 365 Commerce
 
 โมดูลรถเข็นแสดงสินค้าที่มีการเพิ่มลงในรถเข็น ก่อนที่ลูกค้าจะดำเนินการเช็คเอาท์ นอกจากนี้ โมดูลยังแสดงสรุปใบสั่งและอนุญาตให้ลูกค้าสามารถใช้หรือลบรหัสโปรโมชันได้
 

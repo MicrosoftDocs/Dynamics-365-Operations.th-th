@@ -1,6 +1,6 @@
 ---
 title: เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง
-description: หัวข้อนี้อธิบายวิธีการเปิดใช้งานและใช้คุณลักษณะการใช้ร่วมกันข้ามช่องทางของตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการเปิดใช้งานและใช้คุณลักษณะการใช้ร่วมกันข้ามช่องทางของตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866015"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>เปิดใช้งานและใช้การใช้ร่วมกันข้ามช่องทาง
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเปิดใช้งานและใช้คุณลักษณะการใช้ร่วมกันข้ามช่องทางของตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการเปิดใช้งานและใช้คุณลักษณะการใช้ร่วมกันข้ามช่องทางของตัวสร้างไซต์ Microsoft Dynamics 365 Commerce
 
 การใช้ร่วมกันข้ามช่องทางช่วยให้ร้านค้าปลีกของร้านค้านำมาใช้ใหม่และแบ่งปันเนื้อหาระหว่างหลายช่องทางของไซต์ ความสามารถนี้มีประโยชน์เมื่อช่องทางไซต์มีภาษาพื้นฐานที่เข้ากันได้ หรือเมื่อมีรายการเนื้อหาจำนวนมากเหมือนกัน
 

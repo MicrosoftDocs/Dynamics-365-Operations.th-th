@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าช่องทางการขายปลีก
-description: หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางการขายปลีกใหม่ใน Microsoft Dynamics 365 Commerce
+description: บทความนี้จะอธิบายวิธีการสร้างช่องทางการขายปลีกใหม่ใน Microsoft Dynamics 365 Commerce
 author: samjarawan
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: eccbbff33ddf967b000940a8ea9910c34232431f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847743"
 ---
 # <a name="set-up-a-retail-channel"></a>ตั้งค่าช่องทางการขายปลีก
 
 [!include [banner](includes/banner.md)]
 
-หัวข้อนี้จะอธิบายวิธีการสร้างช่องทางการขายปลีกใหม่ใน Microsoft Dynamics 365 Commerce
+บทความนี้จะอธิบายวิธีการสร้างช่องทางการขายปลีกใหม่ใน Microsoft Dynamics 365 Commerce
 
 Dynamics 365 Commerce รองรับช่องทางการขายปลีกที่หลากหลาย ช่องทางการขายปลีกเหล่านี้รวมร้านค้าออนไลน์ ศูนย์บริการ และร้านค้าปลีก (เรียกอีกอย่างหนึ่งว่า ร้านค้าที่ให้บริการจริง) ช่องทางของร้านค้าปลีกแต่ละช่องสามารถมีวิธีการชำระเงินของตัวเอง กลุ่มราคา การลงทะเบียนรวมระบบขายหน้าร้าน (POS) บัญชีรายได้ และบัญชีรายจ่าย และพนักงาน คุณต้องตั้งค่าองค์ประกอบเหล่านี้ทั้งหมดก่อนคุณจึงจะสามารถสร้างช่องทางร้านค้าปลีกได้ 
 

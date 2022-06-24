@@ -1,6 +1,6 @@
 ---
 title: สร้างใบขอซื้อที่ใช้ RFQ
-description: หัวข้อนี้อธิบายวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ
+description: บทความนี้อธิบายวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846024"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>สร้างใบขอซื้อที่ใช้ RFQ
 
 [!include [banner](../../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF และคุณต้องล็อกอินเป็นผู้ดูแลระบบเพื่อทำขั้นตอนทั้งหมดให้เสร็จสมบูรณ์ โดยทั่วไปงานในคู่มือนี้จะดำเนินการโดยผู้เชี่ยวชาญด้านการจัดซื้อ
+บทความนี้อธิบายวิธีการเพิ่มข้อมูลราคาและผู้จัดจำหน่ายในใบขอซื้อจากกระบวนการ RFQ ตัวอย่างที่แสดงในคำแนะนำนี้สามารถใช้ในบริษัทข้อมูลสาธิต USMF และคุณต้องล็อกอินเป็นผู้ดูแลระบบเพื่อทำขั้นตอนทั้งหมดให้เสร็จสมบูรณ์ โดยทั่วไปงานในคู่มือนี้จะดำเนินการโดยผู้เชี่ยวชาญด้านการจัดซื้อ
 
 
 ## <a name="create-a-requisition"></a>สร้างใบขอซื้อ
