@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.26 (พฤษภาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.25 (เมษายน 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -374,13 +372,13 @@
                   items:
                     - name: ภาพรวมของตัวเลือกการปรับใช้ในสถานที่
                       href: deployment/on-premises-overview.md
-                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในองค์กร
+                    - name: วางแผนและเตรียมความพร้อมสำหรับการปรับใช้ในสถานที่
                       href: deployment/plan-onprem-deployment.md
-                    - name: ซอฟต์แวร์ที่รองรับ Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: ซอฟต์แวร์ที่รองรับรูปแบบในสถานที่
                       href: deployment/onprem-compatibility.md
                     - name: ความต้องการในการกำหนดขนาดฮาร์ดแวร์
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: การรับรองความถูกต้องใน Dynamics 365 Finance + Operations (on-premises)
+                    - name: การตรวจสอบความถูกต้องในสภาพแวดล้อมในสถานที่
                       href: deployment/authentication-onprem.md
                 - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่
                   items:
@@ -400,7 +398,7 @@
                       href: deployment/apply-updates-on-premises.md
                     - name: การหมุนเวียนใบรับรอง
                       href: deployment/certificate-rotation-on-prem.md
-                    - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอนต์
+                    - name: การเชื่อมต่ออินเทอร์เน็ตของไคลเอ็นต์
                       href: user-interface/client-disconnected.md
                     - name: ตั้งค่าคอนฟิกโหนด AOS เฉพาะชุดงานและเฉพาะแบบโต้ตอบในการปรับใช้ในสถานที่
                       href: deployment/onprem-batchonly.md
@@ -408,11 +406,11 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: ตั้งค่าคอนฟิกพร็อกซีสำหรับสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-reverseproxy.md
-                    - name: ตั้งค่าคอนฟิกแอปการคลังสินค้าสำหรับการปรับใช้งานในสถานที่
+                    - name: ตั้งค่าคอนฟิกแอป Warehousing ค้าสำหรับการปรับใช้งานในสถานที่
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: เปิดใช้งาน RSAT ในสภาพแวดล้อม Finance + Operations (on-premises)
+                    - name: เปิดใช้งาน RSAT ในสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-rsat-configuration.md
-                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
+                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมในสถานที่
                       href: analytics/install-network-printer-onprem.md
                     - name: การวินิจฉัยแบบในสถานที่
                       href: deployment/on-premises-diagnostics.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: นำอินสแตนซ์ AD FS เดียวกันสำหรับสภาพแวดล้อมหลายอย่างมาใช้ใหม่
                       href: deployment/onprem-reuseadfs.md
-                    - name: อัปเกรด Windows Server ในสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: อัปเกรด Windows Server ในสภาพแวดล้อมในสถานที่ของคุณ
                       href: deployment/onprem-upgrade-os.md
-                    - name: อัปเกรดอินสแตนซ์ SQL Server ของสภาพแวดล้อม Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: อัปเกรดหรือเปลี่ยนอินสแตนซ์ SQL Server ของสภาพแวดล้อมในสถานที่
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: เอเจนต์ภายในเครื่อง
                   items:
@@ -982,6 +980,8 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: ตั้งค่าตัวจัดการการตั้งค่าคอนฟิก
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: คัดลอกการตั้งค่าคอนฟิก
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: ตั้งค่าคอนฟิกบริการอัปเกรดโค้ด
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: สร้างหรืออัปเดตระเบียบวิธี
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: บทช่วยสอนส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: ส่วนขยาย Dynamics 365 Translation Service Visual Studio Code (พรีวิวสำหรับสาธารณะ)
+                - name: ส่วนขยาย Visual Studio (พรีวิวส่วนตัว)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: ส่วนขยาย Visual Studio Code (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: การรวม Microsoft Power Platform
           items:
@@ -1602,6 +1604,8 @@
               href: sysadmin/implement-b2b.md
             - name: การบำรุงรักษาข้อมูล
               href: sysadmin/DataMaintenancePortal.md
+            - name: จัดการการเข้าถึงเครื่องพิมพ์บนเครือข่ายระหว่างนิติบุคคล
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: ความปลอดภัย
               items:
                 - name: ความปลอดภัยตามบทบาท

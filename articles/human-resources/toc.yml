@@ -494,8 +494,10 @@
                   href: ../human-resources/hr-recruit-overview.md
                 - name: โครงการสรรหาบุคลากร
                   items:
-                    - name: จัดการกระบวนการสรรหาบุคลากร
+                    - name: จัดการกระบวนการของโครงการสรรหาบุคลากร
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: ตั้งค่าโครงการสรรหาบุคลากร
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: ป้อนข้อมูลผู้สมัครและใบสมัครด้วยตนเอง
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: พัฒนาและเปิดคำขอจัดจ้างพนักงาน
@@ -626,6 +628,10 @@
                   items:
                     - name: ตั้งค่าแผนสวัสดิการ
                       href: hr-benefits-plans-setup.md
+                    - name: สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
+                      href: hr-benefits-plans-worker.md
+                    - name: ตั้งค่าเหตุการณ์ของชีวิตในอนาคต
+                      href: hr-benefits-plans-future-life-events.md
                     - name: ตั้งค่าโปรแกรมเครดิตแบบยืดหยุ่น
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: ดำเนินการกับแผนสวัสดิการ
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: เอนทิตี้
               items:
+                - name: รายละเอียดงาน
+                  href: hr-admin-integration-api-job-detail.md
+                - name: ตัวเลือกชนิดของการจ้างงาน
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: ภาพรวมของ MyLeaveRequests

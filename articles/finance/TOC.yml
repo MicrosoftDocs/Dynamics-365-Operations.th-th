@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (พฤษภาคม)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (เมษายน)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -462,6 +460,8 @@
                   items:
                     - name: ตั้งค่าการรอตัดบัญชีรายได้และค่าใช้จ่าย
                       href: accounts-receivable/sb-deferrals.md
+                    - name: วิธีการลงรายการบัญชีการรอตัดบัญชี
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: สร้างกำหนดการรอตัดบัญชี
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: ธุรกรรมเริ่มต้นในการรอตัดบัญชี
@@ -1214,9 +1214,11 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: ส่วนประกอบของรายงานทางการเงิน
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: ดูและออกแบบรายงานทางการเงิน
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: ความสามารถด้านสกุลเงินในการรายงานทางการเงิน
               href: general-ledger/financial-reporting-currency-capability.md
-            - name: การคํานวณกําไรสะสมในรายงานทางการเงิน
+            - name: การคำนวณกําไรสะสมในรายงานทางการเงิน
               href: general-ledger/retained-earnings-enhancements.md
             - name: รายงานทางการเงินของงบดุล
               href: general-ledger/balance-sheet-financial-reports.md
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: ตั้งค่าหมายเลขบัญชีธนาคารสำหรับบราซิล
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: ใบสั่งโอนย้าย
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: ภาษี
                   items:
                     - name: ภาพรวมของภาษีบราซิล
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: การปิดบัญชีสิ้นปี
                   href: localizations/emea-cze-hun-year-end.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: เดนมาร์ก
               items:
                 - name: ภาพรวมของเดนมาร์ก
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: รายการขายใน EU
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: นำเข้าการตั้งค่าคอนฟิกการออกใบแจ้งหนี้อิเล็กทรอนิกส์ OIOUBL
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ของลูกค้าในเดนมาร์ก
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: ลงรายการบัญชีใบแจ้งหนี้ข้อความอิสระพร้อมกับบันทึกการชำระเงิน
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: ลงรายการบัญชีใบแจ้งหนี้โครงการพร้อมกับบันทึกการชำระเงิน
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: นำเข้าการตั้งค่าคอนฟิกการหักบัญชีเงินฝากอัตโนมัติ ISO20022
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: ข้อกำหนดเบื้องต้นสำหรับรูปแบบการโอนย้ายเครดิต ISO 20022
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: นำเข้าการตั้งค่าคอนฟิกการโอนย้ายเครดิต ISO20022
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: ตั้งค่าบัญชีธนาคารของบริษัทสำหรับการโอนย้ายเครดิต ISO20022
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: การคำนวณภาษีขายที่รอตัดบัญชี
                   href: localizations/emea-hun-deferred-vat.md
+                - name: รายการขายใน EU
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: ไอซ์แลนด์
               items:
                 - name: ภาพรวมของไอซ์แลนด์
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: ตั้งค่าหมายเลขทะเบียน TDS สำหรับนิติบุคคล
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: ตั้งค่ากลุ่มส่วนประกอบภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: ตั้งค่าหน่วยงานจัดเก็บภาษีหัก ณ ที่จ่ายสำหรับชนิดภาษี TDS
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: ตั้งค่าส่วนประกอบของภาษีสำหรับชนิดภาษี TDS
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: ตั้งค่าคอนฟิกบัญชีหลักสำหรับข้อผูกมัดการลงรายการบัญชีการตัดจำหน่ายสินทรัพย์และอัตราส่วนลดของตลาด
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: รายงานภาษีสำหรับปริมาณการใช้
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: ใบแจ้งหนี้ที่รวมบัญชี
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: สร้างสินทรัพย์ถาวร ด้วยค่าเสื่อมราคาเพิ่มเติม
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: การซื้อสินทรัพย์ถาวรและการกำหนดลงในการดำเนินงาน
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: พาหนะและอสังหาริมทรัพย์เป็นสินทรัพย์ถาวร
+                          href: localizations/rus-vehicles-realty.md
                         - name: คำนวณค่าเสื่อมราคา
                           href: localizations/rus-depreciation-calculation.md
                         - name: การแยกสินทรัพย์ถาวรบางส่วน (การชำระบัญชี)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: สินทรัพย์ถาวรที่ไม่มีมูลค่า (NVFA) (รัสเซีย)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'แบบฟอร์มหลักสำหรับ NVFA, เสื้อผ้าสำหรับทำงานและเครื่องแต่งกายพิเศษ (รัสเซีย)'
+                          href: localizations/rus-nvfa.md
                         - name: การบัญชีเกี่ยวกับเสื้อผ้าสำหรับทำงาน/เครื่องแต่งกายพิเศษ (รัสเซีย)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: การรวมสินทรัพย์ถาวรกับโมดูลการจัดการสินทรัพย์
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: การรายงานภาษีกำไร
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: รายงานเกี่ยวกับการดําเนินงานกับสินค้าที่ตรวจสอบย้อนกลับได้
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: การจัดการองค์กร
                   items:
                     - name: ข้อมูลทะเบียนภาษีที่เกี่ยวข้องกับที่อยู่
@@ -3837,7 +3857,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
                     - name: อัปเกรดเอเจนต์การกำหนดเส้นทางเอกสาร
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
-                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
+                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมในสถานที่
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
                     - name: การสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json

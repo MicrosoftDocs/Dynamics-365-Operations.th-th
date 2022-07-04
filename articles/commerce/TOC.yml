@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (พฤษภาคม 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (เมษายน 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: ตั้งค่าสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+            - name: ตั้งค่าสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
               items:
-                - name: ภาพรวมของสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: เตรียมใช้งานสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+                - name: เตรียมใช้งานสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: ตั้งค่าคอนฟิกสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิกสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+                - name: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: ข้อควรพิจารณาในการปรับใช้
               items:
                 - name: ตัวเลือกการปรับใช้
@@ -440,11 +434,13 @@
                           href: pos-healthcheck.md
                         - name: การสนับสนุนสำหรับอุปกรณ์ต่อพ่วงเครือข่าย
                           href: dev-itpro/network-peripherals.md
+                        - name: ความเข้ากันได้กับอุปกรณ์ต่อพ่วง
+                          href: Compatible-peripherals.md
                     - name: โครงร่างหน้าจอ
                       items:
                         - name: โครงร่างหน้าจอแสดงข้อมูลสาธิตใน MPOS/CPOS
                           href: demo-data.md
-                        - name: การตั้งค่าคอนฟิกอินเทอร์เฟสผู้ใช้ POS
+                        - name: การตั้งค่าคอนฟิกส่วนติดต่อผู้ใช้ POS
                           href: pos-screen-layouts.md
                         - name: ติดตั้งตัวออกแบบโครงร่าง POS
                           href: install-pos-layout-designer.md
@@ -1402,6 +1398,8 @@
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
                   href: localizations/emea-aut-fi-sample.md
+                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับออสเตรีย
+                  href: localizations/emea-aut-deployment.md
                 - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับออสเตรีย (ดั้งเดิม)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: บราซิล
@@ -1576,7 +1574,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: อัปเกรดเอเจนต์การกำหนดเส้นทางเอกสาร
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
-                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมแบบในสถานที่
+                    - name: ติดตั้งอุปกรณ์เครื่องพิมพ์เครือข่ายในสภาพแวดล้อมในสถานที่
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
                     - name: การสร้างเอกสาร การเผยแพร่ และการพิมพ์ในการปรับใช้ในองค์กร
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: ไปป์ไลน์การสร้าง Retail SDK
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: ตั้งค่าเอเจนต์การสร้าง Visual Studio 2017 เพื่อสร้าง MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: เรียกใช้ตัวอย่าง POS
                       href: dev-itpro/pos-run-samples.md
                 - name: ข้อมูลอ้างอิง
