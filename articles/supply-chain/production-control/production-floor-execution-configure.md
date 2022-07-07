@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899424"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022578"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>ตั้งค่าคอนฟิกอินเทอร์เฟสการดำเนินการของระบบการผลิต
 
@@ -113,9 +113,6 @@ ms.locfileid: "8899424"
 
 ### <a name="enable-the-my-day-dialog"></a>เปิดใช้งานกล่องโต้ตอบ "วันของฉัน"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 กล่องโต้ตอบ **วันของฉัน** ให้ผู้ปฏิบัติงานมองเห็นภาพรวมของการลงทะเบียนรายวันและยอดคงเหลือปัจจุบันของผู้ปฏิบัติงานเกี่ยวกับเวลาที่ได้รับค่าจ้าง การจ่ายค่าล่วงเวลา การขาดงาน และการขาดงานที่ได้รับค่าจ้าง
 
 เมื่อต้องการใช้ฟังก์ชันนี้ ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
@@ -124,9 +121,6 @@ ms.locfileid: "8899424"
 
 ### <a name="enable-teams"></a>เปิดใช้งาน Teams
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 เมื่อผู้ปฏิบัติงานหลายคนถูกมอบหมายให้กับงานการผลิตเดียวกัน ผู้ปฏิบัติงานจะสามารถเป็นทีมได้ ทีมสามารถแต่งตั้งผู้ปฏิบัติงานเป็นผู้นำร่องได้หนึ่งคน ผู้ปฏิบัติงานที่เหลือจะกลายเป็นผู้ช่วยให้กับผู้นำร่องนั้นโดยอัตโนมัติ สำหรับทีมที่เป็นผลลัพธ์ เฉพาะผู้นำร่องเท่านั้นที่ต้องลงทะเบียนสถานะของงาน เรกคอร์ดเวลาจะใช้กับสมาชิกทีมทั้งหมด
 
 เมื่อต้องการใช้ฟังก์ชันนี้ ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
@@ -134,9 +128,6 @@ ms.locfileid: "8899424"
 - *ทีมการผลิตในอินเทอร์เฟสการดำเนินการของระบบการผลิต*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>เปิดใช้งานการตั้งค่าคอนฟิกเพิ่มเติมบนอินเทอร์เฟสการดำเนินการของระบบการผลิต
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 คุณลักษณะนี้จะเพิ่มการตั้งค่าสำหรับฟังก์ชันต่อไปนี้ลงในหน้า **ตั้งค่าคอนฟิกการดำเนินการของระบบการผลิต**:
 

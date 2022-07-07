@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ec7e300f60f76aaa467238d7a2c2a199fdeafeed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857937"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015969"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>จัดกำหนดการใบสั่งงานในวันที่และเวลาเฉพาะ
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857937"
 
 หากต้องจัดกำหนดการใบสั่งงานในวันที่ *และ* เวลาที่ระบุคุณ สามารถแทนที่กระบวนการจัดกำหนดการมาตรฐานในการจัดการสินทรัพย์ และสร้างกำหนดการเฉพาะสำหรับใบสั่งงาน
 
-1. คลิก **การจัดการสินทรัพย์** > **ทั่วไป** > **ใบสั่งงาน** > **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**
+1. คลิก **การจัดการสินทรัพย์** > **ใบสั่งงาน** > **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**
 
 2. ในรายการใบสั่งงาน ให้คลิกที่รหัสใบสั่งงานในคอลัมน์ **ใบสั่งงาน**
 

@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: 5c4eb872ec2151a9f4ac5462ad43dd03a6705487
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 917d7b7a905a822ca3b1e074055fe0cd4af5555b
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880014"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027197"
 ---
 # <a name="set-up-number-sequences-for-retail-statements"></a>ตั้งค่าลำดับหมายเลขสำหรับใบแจ้งยอดการขายปลีก
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกลำดับหมายเลขที่กําหนดให้ใบแจ้งยอดการขายปลีกใน Microsoft Dynamics 365 Commerce
 

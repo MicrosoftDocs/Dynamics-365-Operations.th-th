@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860680"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022536"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>วิธีการที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต
 
@@ -263,9 +263,6 @@ ms.locfileid: "8860680"
 
 ## <a name="view-the-my-day-dialog"></a>ดูกล่องโต้ตอบ "วันของฉัน"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 กล่องโต้ตอบ **วันของฉัน** ให้ภาพรวมของการลงทะเบียนและยอดคงเหลือของผู้ปฏิบัติงาน กล่องโต้ตอบแบ่งเป็นสามส่วนดังต่อไปนี้
 
 - ส่วนหลักจะแสดงรายการการลงทะเบียนที่ผู้ปฏิบัติงานปัจจุบันได้ลงทะเบียนในวันที่ที่เลือก โดยจะเปิดขึ้นเพื่อแสดงการลงทะเบียนในวันปัจจุบัน และระบุตัวเลือกวันที่ที่ช่วยให้ผู้ปฏิบัติงานสามารถดูวันอื่นๆ ได้
@@ -275,9 +272,6 @@ ms.locfileid: "8860680"
 ผู้ดูแลระบบสามารถเพิ่มคุณลักษณะนี้ลงในอินเทอร์เฟสโดยการวางปุ่ม **วันของฉัน** บนแถบเครื่องมือสำหรับแต่ละแท็บที่เกี่ยวข้องตามที่อธิบายไว้ใน [ออกแบบอินเทอร์เฟสการดำเนินการของระบบการผลิต](production-floor-execution-tabs.md)
 
 ## <a name="working-in-teams"></a>การงานในทีม
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 เมื่อผู้ปฏิบัติงานหลายคนถูกมอบหมายให้กับงานการผลิตเดียวกัน ผู้ปฏิบัติงานจะสามารถเป็นทีมได้ ทีมสามารถแต่งตั้งผู้ปฏิบัติงานเป็นผู้นำร่องได้หนึ่งคน ผู้ปฏิบัติงานที่เหลือจะกลายเป็นผู้ช่วยให้กับผู้นำร่องนั้นโดยอัตโนมัติ สำหรับทีมที่เป็นผลลัพธ์ เฉพาะผู้นำร่องเท่านั้นที่ต้องลงทะเบียนสถานะของงาน เรกคอร์ดเวลาจะใช้กับสมาชิกทีมทั้งหมด
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6b2349d04386a88237ec1cb650890718d41aa5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f78e8642715b0c3fd3d01e8072645ccd9c58d685
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864011"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016868"
 ---
 # <a name="dispatch-work-order"></a>จัดส่งใบสั่งงาน
 
@@ -30,7 +30,7 @@ ms.locfileid: "8864011"
 
 คุณสามารถจัดกำหนดการใบสั่งงาน หรืองานใบสั่งงานให้กับผู้ปฏิบัติงานหนึ่งคนใช้ฟังก์ชัน **จัดส่ง**
 
-1. คลิก **การจัดการสินทรัพย์** > **ทั่วไป** > **ใบสั่งงาน** > **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**
+1. คลิก **การจัดการสินทรัพย์** > **ใบสั่งงาน** > **ใบสั่งงานทั้งหมด** หรือ **ใบสั่งงานที่ใช้งานอยู่**
 
 2. เลือกใบสั่งงานในรายการ
 

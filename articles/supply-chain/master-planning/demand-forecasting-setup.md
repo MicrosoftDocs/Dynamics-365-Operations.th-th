@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fae2ac53dec8696075e7506d979c1cf9fb277af5
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901015"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960191"
 ---
 # <a name="demand-forecasting-setup"></a>การตั้งค่าการคาดการณ์ความต้องการ
 
@@ -340,6 +340,7 @@ Supply Chain Management คํานวณการคาดการณ์ค�
 - [ภาพรวมของการคาดการณ์ความต้องการ](introduction-demand-forecasting.md)
 - [สร้างการคาดการณ์พื้นฐานทางสถิติ](generate-statistical-baseline-forecast.md)
 - [ทำการปรับปรุงด้วยตนเองไปยังการคาดการณ์พื้นฐาน](manual-adjustments-baseline-forecast.md)
+- [การสัมมนาผ่านเว็บ: การคาดการณ์ความต้องการด้วย Azure Machine Learning Series](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

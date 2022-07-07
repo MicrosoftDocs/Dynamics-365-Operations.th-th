@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945736"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954676"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 
 บทความนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20250"></a>รุ่น 2.0.25.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+- ประสิทธิภาพที่เพิ่มขึ้น
+- เสถียรภาพที่เพิ่มขึ้น
+- ปรับปรุงหน้า **การสอบถาม** เพื่อให้รองรับข้อความที่ยาวขึ้นในหัวข้อย่อย
+- แนะนำความสามารถในการยกเลิกขั้นตอนในทันทีด้วยการแตะหรือคลิกเพียงครั้งเดียว (เมื่อ **ยกเลิก** เป็นการดำเนินการเดียวที่มีอยู่ภายใต้ **การดำเนินการเพิ่มเติม**)
+- แก้ไขปัญหาที่บางครั้งโฟกัสอาจหายไประหว่างตัวควบคุมรายการในหน้า **แก้ไขการเชื่อมต่อ** และหน้าที่กำหนดเอง
+- แก้ไขปัญหาที่บางครั้งปุ่มกลายเป็นไม่ตอบสนองและจะยังคงแสดงเป็น เลือกไว้ เมื่อรวมอยู่ในมุมมองการเลื่อน
+- แก้ไขปัญหาที่บางครั้งสามารถใช้เค้าโครงที่ไม่ถูกต้องในหน้าหลักได้
 
 ## <a name="version-20240"></a>รุ่น 2.0.24.0
 

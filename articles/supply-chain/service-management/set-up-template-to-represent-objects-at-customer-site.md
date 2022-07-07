@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c91fc2478ce4799fd51140a1416df0b674c1bce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 02e15375eb4757e84627206c4617edc7bf51ebf2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673423"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016897"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>การตั้งค่าเท็มเพลตเพื่อแสดงถึงออบเจ็กต์ที่ไซต์ลูกค้า 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8673423"
 
 ใช้กระบวนงานนี้เพื่อตั้งค่าเท็มเพลตที่แสดงถึงออบเจ็กต์ที่ไซต์ลูกค้า
 
-1.  คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**
+1.  คลิก **การจัดการบริการ** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**
 
 2.  ดับเบิลคลิกที่ข้อตกลงการให้บริการ หรือคลิก **ข้อตกลงการให้บริการ** เพื่อสร้างข้อตกลงการให้บริการใหม่
 

@@ -1,8 +1,8 @@
 ---
-title: ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
-description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce
+title: ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
+description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อม Sandbox ของ Microsoft Dynamics 365 Commerce
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861925"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013249"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>ตั้งค่าคอนฟิกคุณลักษณะเสริมให้กับสภาพแวดล้อมการประเมิน Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อมการประเมินของ Microsoft Dynamics 365 Commerce
+บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อม Sandbox ของ Microsoft Dynamics 365 Commerce
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ถ้าคุณต้องการประเมินคุณลักษณะอีเมล์ที่เป็นธุรกรรม ต้องมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ถ้าคุณต้องการสาธิตคุณลักษณะอีเมลการทำธุรกรรม ต้องเป็นไปตามข้อกำหนดเบื้องต้นต่อไปนี้:
 
-- คุณมีเซิร์ฟเวอร์อีเมลที่พร้อมใช้งาน (เซิร์ฟเวอร์ Simple Mail Transfer Protocol \[SMTP\]) ซึ่งสามารถใช้ได้จากการสมัครใช้งาน Microsoft Azure ที่ซึ่งคุณเตรียมใช้งานสภาพแวดล้อมการประเมิน
+- คุณมีเซิร์ฟเวอร์อีเมลที่พร้อมใช้งาน (เซิร์ฟเวอร์ Simple Mail Transfer Protocol \[SMTP\]) ซึ่งสามารถใช้งานจากการสมัครใช้งาน Microsoft Azure ที่คุณเตรียมใช้งานสภาพแวดล้อม Sandbox
 - คุณมีที่อยู่ของชื่อโดเมนเต็ม FQDN/IP ของเซิร์ฟเวอร์ หมายเลขพอร์ต SMTP และรายละเอียดการรับรองความถูกต้องที่พร้อมใช้งาน
 
 ## <a name="configure-the-image-back-end"></a>กำหนดค่าแบ็คเอนด์ของรูปภาพ
@@ -39,10 +39,10 @@ ms.locfileid: "8861925"
 ### <a name="find-your-media-base-url"></a>ค้นหา URL ที่เป็นพื้นฐานของสื่อของคุณ
 
 > [!NOTE]
-> ก่อนเสร็จสิ้นกระบวนการนี้ คุณต้องทำตามขั้นตอนใน [ตั้งค่าไซต์ของคุณใน Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce)
+> ก่อนเสร็จสิ้นกระบวนการนี้ คุณต้องทำตามขั้นตอนใน [ตั้งค่าไซต์ของคุณใน Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites)
 
 1. ลงชื่อเข้าใช้ตัวสร้างไซต์ Commerce โดยใช้ URL ที่คุณจดบันทึกเวลาที่คุณเริ่มต้นอีคอมเมิร์ซในระหว่างการจัดเตรียม (โปรดดู [เริ่มต้นอีคอมเมิร์ซ](provisioning-guide.md#initialize-e-commerce))
-1. เปิดไซต์ **Fabrikam**
+1. เปิดไซต์ **Fabrikam**, **Adventure Works** หรือ **Adventure Works Business** ที่คุณต้องการทำงาน
 1. บนเมนูด้านซ้าย ให้เลือก **ไลบรารีสื่อ**
 1. เลือกสินทรัพย์ที่เป็นรูปภาพรูปเดียวใด ๆ
 1. ในตัวตรวจสอบคุณสมบัติทางด้านขวา ให้ค้นหาคุณสมบัติ **URL สาธารณะ** ค่าคือ URL นี่คือตัวอย่าง:
@@ -72,7 +72,7 @@ ms.locfileid: "8861925"
 > โปรดทราบว่าเซิร์ฟเวอร์ SMTP หรือบริการอีเมลที่คุณป้อนที่นี่ต้องสามารถเข้าถึงได้จากการสมัครใช้งาน Azure ที่คุณใช้สำหรับสภาพแวดล้อม
 
 1. ลงชื่อเข้าใช้ศูนย์ควบคุม Commerce
-1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ของอีเมล**
+1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ของอีเมล**
 1. บนแท็บ **การตั้งค่า SMTP** ในฟิลด์ **เซิร์ฟเวอร์อีเมลขาออก** ให้ป้อน FQDN หรือที่อยู่ IP ของบริการของเซิร์ฟเวอร์ SMTP หรืออีเมลของคุณ
 1. ในฟิลด์ **หมายเลขพอร์ต SMTP** ให้ป้อนหมายเลขพอร์ต (ถ้าคุณไม่ได้ใช้ Secure Sockets Layer \[SSL\] หมายเลขพอร์ตเริ่มต้นคือ **25**)
 1. ถ้าจำเป็นต้องใช้การรับรอง ให้ป้อนค่าในฟิลด์ **ชื่อผู้ใช้** และ **รหัสผ่าน**
@@ -87,7 +87,7 @@ ms.locfileid: "8861925"
 สำหรับแต่ละเหตุการณ์ธุรกรรมที่คุณต้องการส่งอีเมล คุณต้องอัปเดตเท็มเพลตอีเมลด้วยที่อยู่อีเมลของผู้ส่งที่ถูกต้อง
 
 1. ลงชื่อเข้าใช้ศูนย์ควบคุม Commerce
-1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> เท็มเพลตอีเมลขององค์กร**
+1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> เท็มเพลตอีเมลขององค์กร**
 1. เลือก **แสดงรายการ**
 1. สำหรับแต่ละเท็มเพลตในรายการ ทำตามขั้นตอนเหล่านี้:
 
@@ -98,9 +98,9 @@ ms.locfileid: "8861925"
 
 ## <a name="customize-email-templates"></a>กำหนดเท็มเพลตอีเมล
 
-คุณอาจต้องการปรับแต่งเท็มเพลตอีเมลเพื่อให้ใช้รูปภาพที่แตกต่างกัน หรือคุณอาจต้องการปรับปรุงการเชื่อมโยงในเท็มเพลตเพื่อให้ไปที่สภาพแวดล้อมการประเมินของคุณ กระบวนการนี้จะอธิบายวิธีการดาวน์โหลดเท็มเพลตเริ่มต้น เลือกกำหนดเท็มเพลตเหล่านั้น และอัปเดตเท็มเพลตในระบบ
+คุณอาจต้องการปรับแต่งเท็มเพลตอีเมลเพื่อให้ใช้รูปภาพที่แตกต่างกัน หรือคุณอาจต้องการปรับปรุงลิงก์ในเทมเพลตเพื่อให้ไปที่สภาพแวดล้อม Sandbox ของคุณ กระบวนการนี้จะอธิบายวิธีการดาวน์โหลดเท็มเพลตเริ่มต้น เลือกกำหนดเท็มเพลตเหล่านั้น และอัปเดตเท็มเพลตในระบบ
 
-1. ในเว็บเบราว์เซอร์ ดาวน์โหลด [ไฟล์ .zip เท็มเพลตอีเมลเริ่มต้นของการประเมินผล Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) ลงในคอมพิวเตอร์ของคุณ ไฟล์นี้จะประกอบด้วยเอกสาร HTML ต่อไปนี้
+1. ในเว็บเบราว์เซอร์ ดาวน์โหลด [ไฟล์ .zip เทมเพลตอีเมลเริ่มต้นของการสาธิต Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) ลงในคอมพิวเตอร์ของคุณ ไฟล์นี้จะประกอบด้วยเอกสาร HTML ต่อไปนี้
 
     - เท็มเพลตการยืนยันใบสั่ง
     - เท็มเพลตการออกบัตรของขวัญ
@@ -167,15 +167,11 @@ ms.locfileid: "8861925"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-overview.md)
+[เตรียมใช้งานสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce](provisioning-guide.md)
 
-[เตรียมใช้งานสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](provisioning-guide.md)
+[ตั้งค่าคอนฟิกสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[ตั้งค่าคอนฟิกภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-bopis.md)
-
-[FAQ เกี่ยวกับสภาพแวดล้อมการประเมินของ Dynamics 365 Commerce](cpe-faq.md)
+[ตั้งค่าคอนฟิก BOPIS ในสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

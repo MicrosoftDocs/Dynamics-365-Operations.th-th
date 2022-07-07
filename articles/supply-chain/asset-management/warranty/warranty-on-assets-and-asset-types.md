@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa4fe7af46996e8de76ea61d5395327e7617e736
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906137"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016005"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>การรับประกันในสินทรัพย์และชนิดสินทรัพย์
 
@@ -39,7 +39,7 @@ ms.locfileid: "8906137"
 
 ## <a name="set-up-a-warranty-on-an-asset"></a>ตั้งค่าการรับประกันในสินทรัพย์
 
-1. เลือก **การจัดการสินทรัพย์** \> **ทั่วไป** \> **สินทรัพย์** \> **สินทรัพย์ทั้งหมด**
+1. เลือก **การจัดการสินทรัพย์** \> **สินทรัพย์** \> **สินทรัพย์ทั้งหมด**
 2. เลือกสินทรัพย์แล้วเลือก **แก้ไข**
 3. บนแท็บด่วน **ผู้จัดจำหน่าย** ในส่วน **การรับประกันของผู้จัดจำหน่าย** ในฟิลด์ **การรับประกัน** ให้เลือกข้อตกลงการรับประกัน
 4. ในฟิลด์ **เริ่มต้นการรับประกัน** และ **สิ้นสุดการับประกัน** ให้เลือกวันที่เริ่มต้นและสิ้นสุด

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885883"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015301"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>โฮมเพจการจัดซื้อและการจัดหา
 
@@ -56,8 +56,6 @@ ms.locfileid: "8885883"
 -   [ตั้งค่าและรักษาการทำงานร่วมกันกับผู้จัดจำหน่าย](set-up-maintain-vendor-collaboration.md)
 -   [สคริปต์สาธิตของสินค้าคงคลังการฝากขายขาเข้าสำหรับ Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(เอกสารทางเทคนิค)
 -   [ตรวจสอบสินค้าคงคลังที่มีการส่งมอบโดยใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [ทำงานร่วมกับผู้จัดจำหน่ายโดยใช้พอร์ทัลผู้จัดจำหน่าย](collaborate-vendors-vendor-portal.md) (รุ่นเดือนกุมภาพันธ์ 2016 และเดือนพฤษภาคม 2016 ของ Dynamics AX เท่านั้น)
--   [ความปลอดภัยสำหรับผู้ใช้พอร์ทัลของผู้จัดจำหน่าย](configure-security-vendor-portal-users.md) (Finance and Operations เวอร์ชัน 2016 และ พ.ค. 2016 เท่านั้น)
 -   [พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>การจัดการผลิตภัณฑ์สำหรับการจัดซื้อ

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670901"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014762"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>ทำการอัพเดตใบแจ้งหนี้สำหรับการส่งคืนสินค้า 
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670901"
 
 ## <a name="post-an-invoice-for-a-return-order"></a>ลงรายการบัญชีใบสำหรับใบสั่งส่งคืนสินค้า
 
-1.  คลิก **บัญชีลูกหนี้** \> **ทั่วไป** \> **ใบสั่งขาย** \> **ใบสั่งขายทั้งหมด**
+1.  คลิก **บัญชีลูกหนี้** \>  **ใบสั่ง** \> **ใบสั่งขายทั้งหมด**
 
 2.  เลือกใบสั่งขายสำหรับ **ใบสั่งส่งคืน** ที่จะแสดงในฟิลด์ **ชนิดใบสั่ง**
 

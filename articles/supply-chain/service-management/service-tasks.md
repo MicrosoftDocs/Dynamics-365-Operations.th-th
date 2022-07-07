@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba18fb9228c3b9c2accf17cb938e7f2a12dbe
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: fc0dee0747c26b073d750d19328a6a59c234fd3f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671715"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016413"
 ---
 # <a name="service-tasks-overview"></a>ภาพรวมของงานบริการ
 
@@ -82,7 +82,7 @@ ms.locfileid: "8671715"
 
 **การจัดกลุ่มตามภารกิจการให้บริการ**
 
-1. คลิก **การจัดการบริการ** \> **ทั่วไป** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**
+1. คลิก **การจัดการบริการ** \> **ข้อตกลงการให้บริการ** \> **ข้อตกลงการให้บริการ**
 2. บนแท็บ **ตั้งค่า** เลือก **ตามภารกิจการให้บริการ** ในฟิลด์ **รวมใบสั่งบริการ**
 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850799"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954509"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.25 (เมษายน 2022)
 
@@ -155,7 +155,7 @@ ms.locfileid: "8850799"
 | การจัดการคลังสินค้า | [การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง](../warehousing/deferred-processing-manual-inventory-movement.md) | จำเป็น |
 | การจัดการคลังสินค้า | ไม่อนุญาตให้สร้างการบรรทุกที่ไม่ตรงตามข้อกำหนดเทมเพลตการสร้างการบรรทุกของเวฟ | จำเป็น |
 | การจัดการคลังสินค้า | [โครงร่างป้ายชื่อป้ายทะเบียนที่ปรับปรุงแล้ว](../warehousing/document-routing-layout-for-license-plates.md) | จำเป็น |
-| การจัดการคลังสินค้า | [ประเมินการดำเนินการทั้งหมดสำหรับคำสั่งสถานที่ตั้งแบบหลาย SKU](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | จำเป็น |
+| การจัดการคลังสินค้า | [ประเมินการดำเนินการทั้งหมดสำหรับคำสั่งสถานที่ตั้งแบบหลาย SKU](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | จำเป็น |
 | การจัดการคลังสินค้า | ซ่อนฟิลด์มูลค่ารวมในหน้า "จำนวนงานในศูนย์การผลิตทั้งหมด" และ "รายละเอียดจำนวนงานในศูนย์การผลิต" | จำเป็น |
 | การจัดการคลังสินค้า | การตั้งค่าคอนฟิกการสร้างป้ายชื่อป้ายทะเบียน | จำเป็น |
 | การจัดการคลังสินค้า | การแก้ไขรายการบรรทุกด้วยตนเองสำหรับผู้ดูแลระบบหรือผู้ใช้ที่เชื่อถือได้ที่คล้ายกัน | จำเป็น |

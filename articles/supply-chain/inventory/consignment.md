@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872049"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014922"
 ---
 # <a name="set-up-consignment"></a>ตั้งค่าการส่งมอบ
 
@@ -84,7 +84,7 @@ USMF ดำเนินกระบวนการประจำงวดเพ
 - **ผลิตภัณฑ์ที่ได้รับจากสินค้าคงคลังที่มีการส่งมอบ**-แสดงข้อมูลเกี่ยวกับสินค้าและปริมาณที่มีการอัพเดตใบรับสินค้าในระหว่างกระบวนการเปลี่ยนแปลงความเป็นเจ้าของ
 - **สินค้าคงคลังที่มีการส่งมอบคงเหลือ**- แสดงข้อมูลเกี่ยวกับสินค้าที่มีการส่งมอบที่คาดว่าจะจัดส่ง และสินค้าที่มีอยู่แล้วจริงที่ไซต์ลูกค้า
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าให้ผู้จัดจำหน่ายใช้การทำงานร่วมกันกับผู้จัดจำหน่าย ดูที่ [ความปลอดภัยผู้ใช้งานพอร์ทัลผู้จัดจำหน่าย](../procurement/configure-security-vendor-portal-users.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าให้ผู้จัดจำหน่ายใช้การทำงานร่วมกันกับผู้จัดจำหน่าย ดูที่ [จัดการผู้ใช้การทำงานร่วมกันกับผู้จัดจำหน่าย](../procurement/manage-vendor-collaboration-users.md)
 
 ## <a name="inventory-owners"></a>เจ้าของสินค้าคงคลัง
 

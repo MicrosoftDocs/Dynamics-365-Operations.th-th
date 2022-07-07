@@ -1,8 +1,8 @@
 ---
 title: วิดีโอ
-description: หน้านี้แสดงรายการวิธีการที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
+description: หน้านี้แสดงรายการ "วิธีการ" ที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488002"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958151"
 ---
 # <a name="videos"></a>วิดีโอ 
 
@@ -30,11 +30,11 @@ ms.locfileid: "7488002"
 > [!Note]
 > วิดีโอบางรายการที่แสดงรายการได้รับการเผยแพร่ภายใต้ชื่อผลิตภัณฑ์ก่อนหน้านี้ แต่ยังสามารถใช้ได้
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>วิดีโอสำหรับการพัฒนาและการจัดการ Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>การพัฒนาและการจัดการวิดีโอสำหรับ Finance and Operations
 
 ### <a name="data-integration"></a>การรวมข้อมูล
 
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service และแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>การจัดการข้อมูล
 
@@ -42,7 +42,6 @@ ms.locfileid: "7488002"
 
 ### <a name="development"></a>การพัฒนา
 
-- [วิธีการแก้ไขความขัดแย้งใน Visual Studio](https://youtu.be/4rxO0zUN2zU)
 - [ที่ปรึกษาด้านการเพิ่มประสิทธิภาพ](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [การตั้งค่าสาขาการพัฒนาและการสร้าง](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [การตั้งค่าเครื่องจักรในการพัฒนา](https://www.youtube.com/watch?v=cqp9MetfiyM)
@@ -52,7 +51,7 @@ ms.locfileid: "7488002"
 
 - [วิธีการแก้ไขรายงานที่ฝังในพื้นที่ทำงานเชิงวิเคราะห์](https://youtu.be/_8WlwmSggcQ)
 - [วิธีการฝังรายงาน PowerBI.com ในแอป Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [นำฐานข้อมูล (BYOD) ของคุณเองไปยังแอป Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [นำฐานข้อมูลของคุณเอง (BYOD) ไปยังแอป Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)

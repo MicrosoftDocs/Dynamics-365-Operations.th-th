@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852730"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027294"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>การดำเนินงานการขายหน้าร้าน (POS) แบบออนไลน์และออฟไลน์
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 การดำเนินการส่วนใหญ่ที่ผู้ใช้ทำในการขายหน้าร้าน (POS) เป็นการดำเนินงานที่พิจารณาแล้ว การดำเนินงานถูกตั้งค่าคอนฟิก และจัดการในฝ่ายสนับสนุน Dynamics 365 Commerce การดำเนินการจำนวนมากสามารถถูกเพิ่มไปยังปุ่มต่างๆ ในกริดปุ่ม POS จากนั้น ผู้ใช้สามารถเลือกปุ่มเพื่อเรียกการดำเนินงาน และดำเนินการทำงานนั้นได้ เมื่อต้องการทำให้การดำเนินการพร้อมใช้งานเพื่อเพิ่มลงในกริดปุ่มในตัวออกแบบกริดปุ่ม อันดับแรก ต้องทำเครื่องหมายเป็นการดำเนินการของผู้ใช้ในมุมมองการดำเนินงานของ POS ใน Commerce headquarters (**การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> POS \> การดําเนินงาน POS**)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858256"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015359"
 ---
 # <a name="provision-human-resources"></a>จัดหา Human Resources
 
@@ -143,7 +143,9 @@ ms.locfileid: "8858256"
 6. ความสามารถการรวมแบบสองทิศทางสำหรับข้อมูลทรัพยากรบุคคลแบบรวมเข้ากับสภาพแวดล้อม Power Apps จะสามารถใช้งานได้หากมีการเลือกตัวเลือก **เปิดใช้งานแอป Dynamics 365** ไว้เฉพาะกับสภาพแวดล้อมเท่านั้น ดูที่ [การรวมแบบสองทิศทาง](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรวมแบบสองทิศทาง
 
     > [!NOTE]
-    > ตัวเลือก **เปิดใช้งานแอป Dynamics 365** ต้องเลือกในเวลาที่สร้างสภาพแวดล้อม Power Apps ถ้าไม่ได้เลือกตัวเลือกนี้ในขณะที่เตรียมใช้งาน คุณจะไม่สามารถใช้การรวมแบบสองทิศทางเพื่อรวมข้อมูลระหว่างกับสภาพแวดล้อม Dynamics 365 Human Resources หรือ Power Apps ได้ หรือติดตั้งแอป Dynamics 365 เช่น Dynamics 365 Sales และ Field Service ในสภาพแวดล้อมได้ ตัวเลือกนี้ไม่สามารถย้อนกลับได้ สำหรับข้อมูลเพิ่มเติม ให้ดู [ข้อควรพิจารณาที่สําคัญสองสามอย่างเมื่อสร้างสภาพแวดล้อมใหม่](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) บนไซต์คู่มือ Power Platform
+    > ตัวเลือก **เปิดใช้งานแอป Dynamics 365** ต้องเลือกในเวลาที่สร้างสภาพแวดล้อม Power Apps ถ้าไม่ได้เลือกตัวเลือกนี้ในขณะที่เตรียมใช้งาน คุณจะไม่สามารถใช้การรวมแบบสองทิศทางเพื่อรวมข้อมูลระหว่างกับสภาพแวดล้อม Dynamics 365 Human Resources หรือ Power Apps ได้ หรือติดตั้งแอป Dynamics 365 เช่น Dynamics 365 Sales และ Field Service ในสภาพแวดล้อมได้ ตัวเลือกนี้ไม่สามารถย้อนกลับได้ 
+    > -  Human Resources ไม่สนับสนุนการเปลี่ยนแปลงอินสแตนซ์ Dataverse ที่เชื่อมโยงหลังจากที่ปรับใช้ Human Resources แล้ว </br></br>
+    > สำหรับข้อมูลเพิ่มเติม ให้ดู [ข้อควรพิจารณาที่สําคัญสองสามอย่างเมื่อสร้างสภาพแวดล้อมใหม่](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) บนไซต์คู่มือ Power Platform  
 
 7. หลังจากที่คุณได้กำหนดสภาพแวดล้อมที่ถูกต้องที่จะใช้ คุณสามารถดำเนินต่อกับกระบวนการเตรียมใช้งานได้ 
 
