@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906646"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206489"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>โฮมเพจการรายงานและการวิเคราะห์ด้วย Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "8906646"
 ## <a name="get-started"></a>เริ่มต้นใช้งาน
 - [การเข้าถึงข้อมูลและการรายงาน](information-access-reporting.md)
 - [การพูดคุยเกี่ยวกับเทคโนโลยี: ตัวเลือกในการรายงาน](https://www.youtube.com/watch?v=NzZONjKs5xA) (วิดีโอ)
-- [บล็อก Finance and Operations: บริการการวิเคราะห์และการรายงานด้วย Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (บล็อก)
+- [บล็อกการเงินและการดำเนินงาน: บริการการวิเคราะห์และการรายงานด้วย Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (บล็อก)
 
 ## <a name="analytical-workspaces"></a>พื้นที่ทำงานการวิเคราะห์
 พื้นที่ทำงานสามารถใช้กราฟิกข้อมูลและภาพที่หลากหลายที่ได้รับการสนับสนุนโดย Microsoft Power BI กราฟิกข้อมูลและภาพเหล่านี้ประกอบด้วยตัวควบคุมจำนวนมากที่เป็นของบุคคลที่สาม ดังนั้น พื้นที่ทำงานจึงสามารถให้ประสบการณ์แบบโต้ตอบให้ผู้ให้เห็นภาพได้อย่างดี

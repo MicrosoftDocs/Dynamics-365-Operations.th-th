@@ -1,7 +1,7 @@
 ---
 title: โฮมเพจการจัดการเงินสดและธนาคาร
 description: คุณสามารถใช้การจัดการเงินสดและธนาคารเพื่อรักษาบัญชีธนาคารของนิติบุคคลและตราสารทางการเงินที่เชื่อมโยงกับบัญชีธนาคารเหล่านั้น
-author: kfend
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: kfend
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710738"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151983"
 ---
 # <a name="cash-and-bank-management-home-page"></a>โฮมเพจการจัดการเงินสดและธนาคาร
 
@@ -89,7 +89,7 @@ ms.locfileid: "8710738"
 
 #### <a name="blogs"></a>บล็อก
 
-คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อก Microsoft Dynamics 365 Finance and Operations - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
+คุณสามารถค้นหาความคิดเห็น ข่าวสาร และข้อมูลอื่นๆ ได้ใน [บล็อก Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) และ [บล็อกการเงินและการดำเนินงานของ Microsoft Dynamics 365 - การเงิน](https://community.dynamics.com/365/financeandoperations/b/financials)
 
 [บล็อกชุมชนคู่ค้า Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) มอบทรัพยากรเดียวให้กับคู่ค้า Microsoft Dynamics สำหรับเรียนรู้สิ่งใหม่และแนวโน้มต่างๆ ใน Dynamics 365
 
@@ -102,3 +102,4 @@ ms.locfileid: "8710738"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

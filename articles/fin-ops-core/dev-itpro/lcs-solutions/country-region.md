@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866550"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067696"
 ---
 # <a name="globalization-resources"></a>ทรัพยากรแบบโลกาภิวัตน์
 
@@ -63,7 +63,7 @@ ms.locfileid: "8866550"
 [แผนการเผยแพร่ Dynamics 365](/business-applications-release-notes/) มีคำอธิบายความสามารถใหม่ๆ ที่มีการปรับปรุงซึ่งวางแผนไว้สำหรับแอปพลิเคชันธุรกิจและแพลตฟอร์มแอปพลิเคชันของ Dynamics 365 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>มีอะไรใหม่ในแอปการเงินและการดำเนินงาน
-[โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอปการเงินและการดำเนินงาน
+[โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการเงินและการดำเนินงาน](../../fin-ops/get-started/whats-new-changed.md) จะระบุคุณลักษณะที่รวมอยู่ในรุ่นที่เกี่ยวข้องของแอปการเงินและการดำเนินงาน
 
 ### <a name="electronic-reporting"></a>การรายงานทางอิเล็กทรอนิกส์
 การรายงานทางอิเล็กทรอนิกส์ (ER) ช่วยให้คุณสามารถตั้งค่าคอนฟิกรูปแบบสำหรับเอกสารอิเล็กทรอนิกส์ที่สอดคล้องกับข้อกำหนดตามกฎหมายของประเทศ/ภูมิภาคต่างๆ ER ช่วยให้คุณสามารถจัดการรูปแบบเหล่านี้ในระหว่างรอบการใช้งาน โปรดดูข้อมูลเพิ่มเติมที่หัวข้อใดหัวข้อหนึ่งต่อไปนี้:
@@ -133,3 +133,4 @@ ms.locfileid: "8866550"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

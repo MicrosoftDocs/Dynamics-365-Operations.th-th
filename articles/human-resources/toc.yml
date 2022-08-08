@@ -58,6 +58,12 @@
                       href: hr-whats-new-2021-01-28.md
                     - name: 21 มกราคม 2021
                       href: hr-whats-new-2021-01-21.md
+                - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
+                  items:
+                    - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Human Resources
+                      href: get-started/removed-deprecated-features-hr.md
         - name: เริ่มต้นใช้งาน
           items:
             - name: ภาพรวม
@@ -66,14 +72,18 @@
               href: hr-admin-system-requirements.md
             - name: ตั้งค่าและจัดการอินสแตนซ์
               items:
-                - name: จัดหา Human Resources
-                  href: hr-admin-setup-provision.md
-                - name: คัดลอกอินสแตนซ์
-                  href: hr-admin-setup-copy-instance.md
-                - name: เอาอินสแตนซ์ออก
-                  href: hr-admin-setup-remove-instance.md
-                - name: อัปเดตกระบวนการ
-                  href: hr-admin-setup-update-process.md
+                - name: เตรียมใช้งาน Human Resources ในโครงสร้างพื้นฐานของการเงินและการดําเนินงาน
+                  href: hr-admin-setup-provision-fo.md
+                - name: เตรียมใช้งาน Human Resources ในโครงสร้างพื้นฐานแบบติดตั้งแยกต่างหาก
+                  items:
+                    - name: เตรียมใช้งาน Human Resources
+                      href: hr-admin-setup-provision.md
+                    - name: คัดลอกอินสแตนซ์
+                      href: hr-admin-setup-copy-instance.md
+                    - name: เอาอินสแตนซ์ออก
+                      href: hr-admin-setup-remove-instance.md
+                    - name: อัปเดตกระบวนการ
+                      href: hr-admin-setup-update-process.md
             - name: ตั้งค่าการรวมข้อมูล
               items:
                 - name: เลือกเทคโนโลยีการรวมข้อมูล
@@ -99,91 +109,91 @@
                 - name: รวมกับ Office
                   items:
                     - name: บทช่วยสอนการรวม Office
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?context=/dynamics365/context/human-resources
                     - name: อัปเดตข้อมูลเอนทิตี้ใน Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?context=/dynamics365/context/human-resources
                     - name: คำถามที่ถามบ่อยเกี่ยวกับประสบการณ์การเปิดใน Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?context=/dynamics365/context/human-resources
                     - name: แก้ไขปัญหาการรวม Office
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?context=/dynamics365/context/human-resources
                 - name: ตั้งค่าคอนฟิกการจัดการข้อมูล
                   items:
                     - name: ภาพรวมของกรอบงานการจัดการข้อมูล
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?context=/dynamics365/context/human-resources
                     - name: เอนทิตี้ข้อมูล
                       items:
                         - name: ภาพรวมของเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?context=/dynamics365/context/human-resources
                         - name: โครงการข้อมูลการตั้งค่าคอนฟิก
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?context=/dynamics365/context/human-resources
                     - name: คัดลอกข้อมูลการตั้งค่าคอนฟิกระหว่างบริษัทหรือนิติบุคคล
                       items:
                         - name: ภาพรวมของการคัดลอกข้อมูลการตั้งค่าคอนฟิก
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?context=/dynamics365/context/human-resources
                         - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก (รุ่นที่นำออกใช้เดือนกรกฎาคม 2017 เท่านั้น)
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: เทมเพลตข้อมูลการตั้งค่าคอนฟิก
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?context=/dynamics365/context/human-resources
                         - name: ติดตามการเปลี่ยนแปลงของเอนทิตี้
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?context=/dynamics365/context/human-resources
                         - name: เทมเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?context=/dynamics365/context/human-resources
                         - name: เปิดใช้งานการติดตามการเปลี่ยนแปลงสำหรับเอนทิตี้
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: คีย์การตั้งค่าคอนฟิกและเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?context=/dynamics365/context/human-resources
                         - name: แพคเกจข้อมูลการตั้งค่าคอนฟิก
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                     - name: งานการนำเข้าและส่งออกข้อมูล
                       items:
                         - name: ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?context=/dynamics365/context/human-resources
                         - name: แนวทางปฏิบัติสำหรับการนำเข้าใบสำคัญโดยใช้เอนทิตี้สมุดรายวันทั่วไป
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?context=/dynamics365/context/human-resources
                     - name: การพัฒนาเอนทิตี้ข้อมูล
                       items:
                         - name: หลักการออกแบบและแนวทางปฏิบัติสำหรับเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?context=/dynamics365/context/human-resources
                         - name: สร้างเอนทิตี้ข้อมูลใหม่
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?context=/dynamics365/context/human-resources
                         - name: คุณสมบัติเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: สร้างคอลัมน์ที่คำนวณและฟิลด์เสมือน
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?context=/dynamics365/context/human-resources
                         - name: ลักษณะการทำงานข้ามบริษัท
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?context=/dynamics365/context/human-resources
                         - name: การจัดการรหัสประเทศ/ภูมิภาค
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?context=/dynamics365/context/human-resources
                         - name: รูปแบบการสืบทอด
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?context=/dynamics365/context/human-resources
                         - name: กฎของวิซาร์ดเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?context=/dynamics365/context/human-resources
                         - name: คุณสมบัติของข้อมูลเมตา
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: การตรวจสอบ ค่าเริ่มต้น และฟิลด์ที่ไม่ได้แมป
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?context=/dynamics365/context/human-resources
                         - name: การรักษาความปลอดภัยและเอนทิตี้ข้อมูล
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?context=/dynamics365/context/human-resources
                         - name: ใช้บริการของบุคคลภายนอกที่ทดสอบยูทิลิตี
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?context=/dynamics365/context/human-resources
                         - name: สร้างเอนทิตี้แบบอ่านอย่างเดียวที่แสดงมิติทางการเงิน
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?context=/dynamics365/context/human-resources
                     - name: ใช้ฐานข้อมูลของคุณเอง
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?context=/dynamics365/context/human-resources
                     - name: เพิ่มประสิทธิภาพชุดงาน BYOD
                       href: hr-admin-integration-byod-batch-jobs.md
                     - name: การรีเฟรชที่จัดเก็บเอนทิตี้อัตโนมัติ
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?context=/dynamics365/context/human-resources
                     - name: ระบบอัตโนมัติของงานข้อมูล
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/human-resources
                     - name: พื้นที่ทำงานรายการการตรวจสอบความถูกต้องของข้อมูล
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?context=/dynamics365/context/human-resources
                     - name: คำอธิบายข้อผิดพลาดการจัดการข้อมูล
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?context=/dynamics365/context/human-resources
                     - name: จัดการคุณลักษณะ
                       href: hr-admin-manage-features.md
                     - name: ตั้งค่าคอนฟิกและจัดการการบันทึกฐานข้อมูล
@@ -234,6 +244,8 @@
                   href: hr-admin-go-live-faq.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมโครงสร้างพื้นฐานของ Human Resources
                   href: hr-infrastructure-merge-faq.md
+                - name: คำถามที่ถามบ่อยเกี่ยวกับการย้ายลูกค้า Human Resources
+                  href: customer-migration.md
                 - name: แหล่งข้อมูลคู่มือ
                   items:
                     - name: ระบบวิธีใช้
@@ -994,7 +1006,7 @@
                   href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
                 - name: สถานะของแผนสวัสดิการพนักงาน
                   href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
-    - name: การพัฒนาและการดูแลระบบแอปการเงินและการดำเนินงาน
+    - name: การพัฒนาและการดูแลระบบสำหรับแอปการเงินและการดำเนินงาน
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

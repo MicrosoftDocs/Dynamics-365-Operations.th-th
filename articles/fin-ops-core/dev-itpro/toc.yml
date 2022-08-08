@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.27 (กรกฎาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.26 (พฤษภาคม 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -48,7 +46,7 @@
               href: dev-tools/version-models-build.md
         - name: การรวมข้อมูล
           items:
-            - name: การรวมระหว่างแอปการเงินและการดำเนินงาน และบริการของบุคคลที่สาม
+            - name: การรวมระหว่างแอปการเงินและการดำเนินงานกับบริการของบุคคลที่สาม
               href: data-entities/integration-overview.md
             - name: API การรวมข้อมูล
               items:
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: เพิ่มปริมาณที่สามารถประมวลผลของ API สูงสุด
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: ตัวเชื่อมต่อ Finance and Operations
+            - name: ตัวเชื่อมต่อการเงินและการดำเนินงาน
               href: data-entities/fin-ops-connector.md
             - name: การพัฒนาสำหรับการรวม
               items:
@@ -102,43 +100,43 @@
                       href: data-entities/tasks/use-record-template-new-record.md
                 - name: ตัวรวมข้อมูล
                   items:
-                    - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
+                    - name: ตั้งค่าคอนฟิกสถานการณ์ผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสด
                       items:
-                        - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้ากับเงินสด
+                        - name: ผู้ที่มีแนวโน้มจะเป็นลูกค้าถึงเงินสด
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าใน Finance and Operations
+                        - name: ซิงโครไนส์บัญชีโดยตรงจาก Sales กับลูกค้าในการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจาก Finance and Operations ไปยังผลิตภัณฑ์ใน Sales
+                        - name: ซิงโครไนส์ผลิตภัณฑ์โดยตรงจากการเงินและการดำเนินงานไปยังผลิตภัณฑ์ใน Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อใน Finance and Operations
+                        - name: ซิงโครไนส์ผู้ติดต่อโดยตรงจาก Sales ไปยังผู้ติดต่อหรือลูกค้าในการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยัง Finance and Operations
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบเสนอราคาขายโดยตรงจาก Sales ไปยังการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales และ Finance and Operations
+                        - name: การซิงโครไนส์ใบสั่งขายโดยตรงระหว่าง Sales กับการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจาก Finance and Operations ไปยัง Sales
+                        - name: ซิงโครไนส์ส่วนหัวและรายการของใบแจ้งหนี้โดยตรงจากการเงินและการดำเนินงานไปยัง Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: ตั้งค่าคอนฟิกการรวมกับ Field Service
                       items:
                         - name: ภาพรวมของการตั้งค่าคอนฟิกการรวมกับ Field Service
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: ซิงโครไนส์ผลิตภัณฑ์ใน Finance and Operations กับผลิตภัณฑ์ใน Field Service
+                        - name: ซิงโครไนส์ผลิตภัณฑ์ในการเงินและการดำเนินงานกับผลิตภัณฑ์ใน Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายใน Finance and Operations
+                        - name: ซิงโครไนส์ใบสั่งงานใน Field Service กับใบสั่งขายในการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระใน Finance and Operations
+                        - name: ซิงโครไนส์ใบแจ้งหนี้ของข้อตกลงใน Field Service กับใบแจ้งหนี้ข้อความอิสระในการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: ซิงโครไนส์การโอนและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยัง Finance and Operations
+                        - name: ซิงโครไนส์การโอนย้ายและการปรับปรุงสินค้าคงคลังจาก Field Service ไปยังการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: ซิงโครไนส์ข้อมูลระดับสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
+                        - name: ซิงโครไนส์ข้อมูลระดับสินค้าคงคลังจากการเงินและการดำเนินงานไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: ซิงโครไนส์ผลิตภัณฑ์ที่มีหน่วยสินค้าคงคลังจาก Finance and Operations ไปยัง Field Service
+                        - name: ซิงโครไนส์ผลิตภัณฑ์ที่มีหน่วยสินค้าคงคลังจากการเงินและการดำเนินงานไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: ซิงโครไนส์รายการโครงการจาก Finance and Operations ไปยัง Field Service
+                        - name: ซิงโครไนส์รายการโครงการจากการเงินและการดำเนินงานไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: ซิงโครไนส์คลังสินค้าจาก Finance and Operations ไปยัง Field Service
+                        - name: ซิงโครไนส์คลังสินค้าจากการเงินและการดำเนินงานไปยัง Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยัง Finance and Operations
+                        - name: ซิงโครไนส์ใบสั่งงานจากกับโครงการจาก Field Service ไปยังการเงินและการดำเนินงาน
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: ตั้งค่าคอนฟิกการรวม Project Service Automation
                       items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: ทำให้กระบวนการเตรียมความพร้อมสำหรับ Azure Resource Manager เสร็จสมบูรณ์สำหรับโครงการ LCS ของรัฐบาลสหรัฐอเมริกา
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute และ Finance and Operations
+                - name: Azure ExpressRoute และการเงินและการดำเนินงาน
                   href: deployment/expressroute.md
-                - name: สถาปัตยกรรม Finance and Operations
+                - name: สถาปัตยกรรมการเงินและการดำเนินงาน
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: ใช้การอัปเดตกับสภาพแวดล้อมระบบคลาวด์
                   href: deployment/apply-deployable-package-system.md
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: แบบจำลองและแพคเกจ
                   href: dev-tools/models.md
-                - name: ชนิดโครงการใน Finance and Operations
+                - name: ชนิดโครงการในการเงินและการดำเนินงาน
                   href: dev-tools/projects.md
                 - name: Add-in ของเครื่องมือสำหรับ Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: บทช่วยสอนส่วนขยาย Azure DevOps (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: ส่วนขยาย Visual Studio (พรีวิวส่วนตัว)
+                - name: ส่วนขยาย Visual Studio (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: ส่วนขยาย Visual Studio Code (พรีวิวสำหรับสาธารณะ)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: เปิดใช้งานเอนทิตี้เสมือน Dataverse
                   href: power-platform/enable-virtual-entities.md
-                - name: พอร์ทัล Power Apps ที่มี Finance and Operations
+                - name: พอร์ทัล Power Apps ที่มีการเงินและการดำเนินงาน
                   href: power-platform/power-portal-reference.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของ Finance and Operations
+                - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของการเงินและการดำเนินงาน
                   href: power-platform/faq.md
             - name: เหตุการณ์ทางธุรกิจ
               items:
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: การสนับสนุน
           items:
-            - name: รับการสนับสนุนสำหรับ Finance and Operations และ Lifecycle Services
+            - name: รับการสนับสนุนสำหรับการเงินและการดำเนินงานและ Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: ภาพรวมของการสนับสนุน Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: รับการสนับสนุนสำหรับ Finance and Operations ที่ดำเนินงานโดย 21Vianet ในจีน
+            - name: รับการสนับสนุนสำหรับการเงินและการดำเนินงานที่ดำเนินการโดย 21Vianet ในประเทศจีน
               href: lifecycle-services/21vianet-support.md
             - name: ตั้งค่าการสนับสนุนทางเทคนิคสำหรับแอปการเงินและการดำเนินงาน
               href: lifecycle-services/support-experience.md
@@ -1676,11 +1674,11 @@
                   href: sysadmin/batch-abort.md
                 - name: OData API ของชุดงาน
                   href: sysadmin/batch-odata-api.md
-            - name: ที่ปรึกษาการเพิ่มประสิทธิภาพ
+            - name: โปรแกรมที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
               items:
-                - name: ภาพรวมของที่ปรึกษาการเพิ่มประสิทธิภาพ
+                - name: ภาพรวมของโปรแกรมที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
                   href: sysadmin/optimization-advisor-overview.md
-                - name: สร้างกฎสำหรับที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
+                - name: สร้างกฎสำหรับโปรแกรมที่ปรึกษาด้านการเพิ่มประสิทธิภาพ
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: รายงานความขัดข้องในการผลิต
               href: lifecycle-services/report-production-outage.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: การอัปเกรดจาก AX 2012
               items:
-                - name: อัปเกรดจาก AX 2012 เป็น Finance and Operations
+                - name: อัปเกรดจาก AX 2012 เป็นการเงินและการดำเนินงาน
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: การอัปเกรด AX 2012 - วางแผนโดยใช้เครื่องมือตัววิเคราะห์การอัปเกรด
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: ย้ายข้อมูลจาก AX 2009
               items:
-                - name: ย้ายข้อมูลจาก AX 2009 ไปยัง Finance and Operations
+                - name: ย้ายข้อมูลจาก AX 2009 ไปยังการเงินและการดำเนินงาน
                   href: migration-upgrade/data-migration-tool.md
                 - name: การย้าย AX 2009 - ติดตั้งเครื่องมือการย้ายข้อมูล
                   href: migration-upgrade/install-dmt.md
