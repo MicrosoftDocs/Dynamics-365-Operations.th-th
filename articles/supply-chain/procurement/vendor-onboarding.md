@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b3660e1c7a0e236456d1a16c628fd5d538f045f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862611"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111379"
 ---
 # <a name="onboard-vendors"></a>เตรียมความพร้อมผู้จัดจำหน่าย
 
@@ -46,7 +46,7 @@ ms.locfileid: "8862611"
 | ผู้ดูแลระบบ            | | | สร้างผู้ใช้ใน Supply Chain Management และ Microsoft Azure | | | |
 | ผู้ติดต่อของผู้จัดจำหน่าย    | | | ส่งอีเมลไปยังผู้ติดต่อ | ลงทะเบียนข้อมูลผู้จัดจำหน่าย | | |
 
-สำหรับการสาธิตด่วนของกระบวนการเตรียมความพร้อมของผู้จัดจำหน่าย ดูวิดีโอ YouTube แบบย่อนี้เกี่ยวกับ: [วิธีการเตรียมความพร้อมผู้จัดจำหน่ายใหม่ใน Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk)
+สำหรับการสาธิตอย่างเร็วของกระบวนการเตรียมความพร้อมของผู้จัดจำหน่าย ดูวิดีโอสั้นนี้ใน YouTube เกี่ยวกับ [วิธีการเตรียมความพร้อมของผู้จัดจำหน่ายใหม่ในการเงินและการดำเนินงาน](https://www.youtube.com/watch?v=0KUc3AGaTKk)
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>การนำเข้าคำขอการลงทะเบียนผู้ที่มีแนวโน้มจะเป็นผู้จัดจำหน่าย
 

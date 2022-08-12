@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847612"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198392"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>ตัวบันทึกงานและวิธีใช้สำหรับ Retail Modern POS (MPOS) และ Cloud POS
 
@@ -107,7 +107,7 @@ ms.locfileid: "8847612"
 ตัวบันทึกงานสามารถจับภาพหน้าจอของ Retail Modern POS UI ขณะที่คุณบันทึกกระบวนการทางธุรกิจ เมื่อต้องการเปิดใช้งานคุณลักษณะการจับภาพหน้าจอ ตั้งค่าตัวเลือก **จับภาพหน้าจอ** เป็น **ใช่** และจากนั้นทำการบันทึก หลังจากที่การบันทึกเสร็จสมบูรณ์ คลิก **หยุด** และดาวน์โหลดเอกสาร Word เอกสารจะประกอบด้วยขั้นตอนต่างๆ ที่มีภาพหน้าจอที่เกี่ยวข้อง
 
 > [!NOTE]
-> ฟังก์ชันการจับภาพหน้าจอไม่ได้รับการสนับสนุนใน Cloud POS
+> ฟังก์ชันจับภาพหน้าจอไม่ได้รับการสนับสนุนใน Store Commerce, Commerce Modern Pos และ Cloud POS
 
 ### <a name="start-task-and-end-task"></a>เริ่มต้นงานและสิ้นสุดงาน
 

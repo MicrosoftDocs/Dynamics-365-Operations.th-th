@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851964"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108870"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ติดตามการดำเนินการของรูปแบบ ER เพื่อแก้ไขปัญหาประสิทธิภาพการทำงาน
 
@@ -98,7 +98,7 @@ ms.locfileid: "8851964"
 
 สมมติว่าคุณได้ออกแบบโซลูชัน ER รุ่นแรกเสร็จเรียบร้อยแล้ว ขณะนี้คุณต้องการทดสอบในอินสแตนซ์ของคุณ และวิเคราะห์ประสิทธิภาพในการดำเนินงาน
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>นำเข้าการตั้งค่าคอนฟิก ER จาก RCS ไปยัง Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>นำเข้าการตั้งค่าคอนฟิก ER จาก RCS ไปยังการเงินและการดำเนินงาน
 
 1. ลงชื่อเข้าใช้อินสแตนซ์แอพลิเคชันของคุณ
 2. สำหรับบทช่วยสอนนี้ คุณจะนำเข้าการตั้งค่าคอนฟิกจากอินสแตนซ์ RCS ของคุณ (ที่ซึ่งคุณออกแบบส่วนประกอบ ER ของคุณ) ลงในอินสแตนซ์ของคุณ (ที่ซึ่งคุณทดสอบและใช้งานในที่สุด) ดังนั้น คุณต้องตรวจสอบให้แน่ใจว่ามีการจัดเตรียมอาร์ทิแฟกต์ที่จำเป็นทั้งหมดแล้ว สำหรับคำแนะนำ โปรดดูกระบวนงาน [นำเข้าการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) จาก Regulatory Configuration Services (RCS)](rcs-download-configurations.md)
@@ -305,7 +305,7 @@ ms.locfileid: "8851964"
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>นำเข้าการตั้งค่าคอนฟิกการแม็ปแบบจำลอง ER ที่แก้ไขจาก RCS ไปยังแอพลิเคชัน
 
-ทำซ้ำขั้นตอนในส่วน [นำเข้าการตั้งค่าคอนฟิก ER จาก RCS ไปยัง Finance and Operations](#import-configuration) ก่อนหน้านี้ในบทความนี้ เพื่อนำเข้ารุ่น 1.2 ของการตั้งค่าคอนฟิก **การแม็ปการติดตามประสิทธิภาพ**
+ทำซ้ำขั้นตอนในส่วน [นำเข้าการตั้งค่าคอนฟิก ER จาก RCS ไปยังการเงินและการดำเนินงาน](#import-configuration) ก่อนหน้านี้ในบทความนี้ เพื่อนำเข้ารุ่น 1.2 ของการตั้งค่าคอนฟิก **การแม็ปการติดตามประสิทธิภาพ**
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>รันโซลูชัน ER ที่แก้ไขเพื่อติดตามการดำเนินการ
 
@@ -363,7 +363,7 @@ ms.locfileid: "8851964"
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>ใช้เครื่องมือภายนอกเพื่อตรวจทานการติดตามการดำเนินการที่มีการสอบถามฐานข้อมูล
 
-เนื่องจากมีการปรับปรุงที่ทำกับกรอบงาน ER การติดตามประสิทธิภาพที่ถูกสร้างขึ้นในรูปแบบ PerfView ขณะนี้มีรายละเอียดเพิ่มเติมเกี่ยวกับการดำเนินการรูปแบบ ER ใน Microsoft Dynamics 365 for Finance and Operations รุ่น 10.0.4 (กรกฎาคม 2019) การติดตามนี้ยังสามารถรวมรายละเอียดของการสอบถาม SQL ที่ดำเนินการไปยังฐานข้อมูลแอพลิเคชันด้วย
+เนื่องจากมีการปรับปรุงที่ทำกับกรอบงาน ER การติดตามประสิทธิภาพที่ถูกสร้างขึ้นในรูปแบบ PerfView ขณะนี้มีรายละเอียดเพิ่มเติมเกี่ยวกับการดำเนินการรูปแบบ ER ใน Microsoft Dynamics 365 Finance รุ่น 10.0.4 (กรกฎาคม 2019) การติดตามนี้ยังสามารถรวมรายละเอียดของการสอบถาม SQL ที่ดำเนินการไปยังฐานข้อมูลแอพลิเคชันด้วย
 
 ### <a name="configure-user-parameters"></a>ตั้งค่าคอนฟิกพารามิเตอร์ผู้ใช้
 
@@ -392,3 +392,4 @@ ms.locfileid: "8851964"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

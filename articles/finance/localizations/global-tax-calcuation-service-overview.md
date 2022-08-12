@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954552"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166853"
 ---
 # <a name="tax-calculation-overview"></a>ภาพรวมการคำนวณภาษี
 
@@ -29,7 +29,7 @@ ms.locfileid: "8954552"
 ริการคํานวณภาษีรวมกับ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management ในที่สุด จะยังรวมกับ Dynamics 365 Project Operations และ Dynamics 365 Commerce และแอปพลิเคชันอื่นๆ ของบุคคลที่หนึ่งและบุคคลที่สามด้วย
 
 > [!IMPORTANT]
-> เมื่อคุณเปิดใช้งานการคํานวณภาษี การดําเนินงานบางอย่างในข้อมูลที่เกี่ยวข้องอาจดําเนินการในแหล่งข้อมูลอื่นที่ไม่ใช่ศูนย์กลางข้อมูลที่เก็บรักษาข้อมูลบริการของคุณ ทบทวน [ข้อตกลงและเงื่อนไข](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) ก่อนที่จะเปิดใช้งานการคํานวณภาษี การรักษาความเป็นส่วนตัวของคุณเป็นสิ่งสำคัญสำหรับเรา เรียนรู้เพิ่มเติม อ่าน [คำชี้แจงสิทธิส่วนบุคคล](https://go.microsoft.com/fwlink/?LinkId=521839) ของเรา
+> เมื่อคุณเปิดใช้งานการคํานวณภาษี การดําเนินงานบางอย่างในข้อมูลที่เกี่ยวข้องอาจดําเนินการในแหล่งข้อมูลอื่นที่ไม่ใช่ศูนย์กลางข้อมูลที่เก็บรักษาข้อมูลบริการของคุณ ทบทวน [ข้อตกลงและเงื่อนไข](https://go.microsoft.com/fwlink/?linkid=2156043) ก่อนที่จะเปิดใช้งานการคํานวณภาษี การรักษาความเป็นส่วนตัวของคุณเป็นสิ่งสำคัญสำหรับเรา เรียนรู้เพิ่มเติม อ่าน [คำชี้แจงสิทธิส่วนบุคคล](https://go.microsoft.com/fwlink/?LinkId=521839) ของเรา
 
 การคํานวณภาษีเป็นกลไกจัดการภาษีบนไมโครเซอร์วิสที่เสนอความสามารถในการขยายแบบเลขชี้กำลัง และสามารถช่วยคุณปฏิบัติงานต่อไปนี้:
 

@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875407"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135519"
 ---
 # <a name="conventions"></a>แบบแผน
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 แบบแผนเป็นคอนเทนเนอร์สำหรับชุดนโยบายที่มีผลกระทบต่อลักษณะการทำงานของระบบ ตามข้อกําหนดทางธุรกิจของคุณ คุณต้องกําหนดแบบแผนโดยใช้ชุดของนโยบายต่างๆ ที่กําหนดวิธีการลงบัญชีต้นทุนในการบัญชีสินค้าคงคลังมาตรฐาน คุณสามารถเชื่อมโยงแบบแผนแต่ละแบบกับบัญชีแยกประเภทหนึ่งรายการหรือมากกว่าเพื่อให้แน่ใจว่าจะมีความสอดคล้องกันในนโยบายการบัญชีที่ใช้ระหว่างบัญชีแยกประเภทต่างๆ
 

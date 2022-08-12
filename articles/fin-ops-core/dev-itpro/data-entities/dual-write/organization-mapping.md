@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884745"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112032"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>ลำดับชั้นขององค์กรใน Dataverse
 
@@ -34,7 +34,7 @@ ms.locfileid: "8884745"
 
 แผนผังตารางลำดับชั้นขององค์กรจะพร้อมใช้งานสำหรับการซิงโครไนส์ข้อมูลแบบทางเดียวจากแอปการเงินและการดำเนินงานไปยัง Dataverse
 
-## <a name="templates"></a>เทมเพลต
+## <a name="templates"></a>เท็มเพลต
 
 องค์กร คือ กลุ่มของบุคคลที่ทำงานร่วมกันเพื่อดำเนินกระบวนการทางธุรกิจหรือบรรลุเป้าหมาย  ลำดับชั้นขององค์กรจะแสดงถึงความสัมพันธ์ระหว่างองค์กรที่ประกอบธุรกิจของคุณ คุณสามารถกำหนดชนิดต่อไปนี้ขององค์กรภายใน: นิติบุคคล หน่วยปฏิบัติการ และทีมงาน เมื่อตารางต่อไปนี้แสดง ชุดแผนผังตารางจะถูกสร้างขึ้นเพื่อซิงค์นิติบุคคล หน่วยปฏิบัติงาน ข้อมูลลำดับชั้นขององค์กรที่เกี่ยวข้อง
 
@@ -52,3 +52,4 @@ ms.locfileid: "8884745"
 ข้อมูลองค์กรภายในใน Dataverse มาจากตารางสองรายการ **หน่วยปฏิบัติงาน** และ **นิติบุคคล**
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

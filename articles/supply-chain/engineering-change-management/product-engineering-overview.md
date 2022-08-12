@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862669"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067406"
 ---
 # <a name="engineering-change-management-overview"></a>ภาพรวมการจัดการการเปลี่ยนแปลงทางวิศวกรรม
 
@@ -88,3 +88,4 @@ ms.locfileid: "8862669"
 | การสร้างผลิตภัณฑ์ย่อยสําหรับผลิตภัณฑ์ทางวิศวกรรม | <p>คุณลักษณะนี้ช่วยให้คุณสามารถสร้างผลิตภัณฑ์ย่อยของผลิตภัณฑ์วิศวกรรมโดยยึดตามค่ามิติที่พร้อมใช้งาน</p><p>สำหรับข้อมูลเพิ่มเติม ดูที่ [สร้างผลิตภัณฑ์ย่อยสำหรับผลิตภัณฑ์วิศวกรรม](engineering-variants.md)</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

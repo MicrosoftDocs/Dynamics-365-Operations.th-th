@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872953"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112408"
 ---
 # <a name="dual-write-overview"></a>ภาพรวมของการรวมแบบสองทิศทาง
 
@@ -45,7 +45,7 @@ ms.locfileid: "8872953"
 + ความสามารถในการตั้งค่าคอนฟิกข้อความแจ้งเตือนและขีดจำกัดแบบกำหนดเอง และเพื่อบอกรับการแจ้งเตือน
 + อินเทอร์เฟสผู้ใช้ที่ใช้งานง่าย (UI) สำหรับการกรองข้อมูลและการแปลง
 + ความสามารถในการตั้งค่าและดูการขึ้นต่อกันและความสัมพันธ์ของตาราง
-+ ความสามารถในการขยายสำหรับทั้งเอนทิตี้มาตรฐานและตารางแบบกำหนดเองและแผนผัง
++ ความสามารถในการขยายสำหรับทั้งเอนทิตีมาตรฐานและตารางแบบกำหนดเองและแผนผัง
 + การจัดการอายุการใช้งานแอปพลิเคชันที่เชื่อถือได้
 + ประสบการณ์การตั้งค่าแบบสำเร็จรูปสำหรับลูกค้าใหม่
 
@@ -99,3 +99,4 @@ ms.locfileid: "8872953"
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

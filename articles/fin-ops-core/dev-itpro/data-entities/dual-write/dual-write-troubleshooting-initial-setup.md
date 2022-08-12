@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882097"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111214"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
 
@@ -86,6 +86,7 @@ ms.locfileid: "8882097"
 มีสองสิ่งที่อาจก่อให้เกิดปัญหากับสภาพแวดล้อมที่ไม่สามารถค้นหาได้:
 
 + ผู้ใช้ที่ใช้เพื่อเข้าสู่ระบบไม่อยู่ในผู้เช่าเดียวกันกับอินสแตนซ์การเงินและการดำเนินงาน
-+ มีอินสแตนซ์การเงินและการดำเนินงานดั้งเดิมบางอินสแตนซ์ที่โฮสต์ Microsoft ที่มีปัญหาเกี่ยวกับการค้นหา เมื่อต้องการแก้ไขสิ่งนี้ ให้อัปเดตอินสแตนซ์การเงินและการดำเนินงาน สภาพแวดล้อมจะค้นพบได้กับการอัปเดตใดๆ
++ มีอินสแตนซ์การเงินและการดำเนินงานดั้งเดิมบางอินสแตนซ์ที่เป็นโฮสต์ Microsoft ที่มีปัญหาเกี่ยวกับการค้นหา เมื่อต้องการแก้ไขสิ่งนี้ ให้อัปเดตอินสแตนซ์การเงินและการดำเนินงาน สภาพแวดล้อมจะค้นพบได้กับการอัปเดตใดๆ
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893249"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065972"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>ตั้งค่าฟิลด์สำหรับแอป Warehouse Management บนมือถือ
 
@@ -135,7 +135,7 @@ ms.locfileid: "8893249"
 -   แถว 2: คำอธิบายสินค้า
 -   แถว 3: ขนาด
 
-ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของส่วนติดต่อผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Finance and Operations - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
+ข้อมูลเมตาที่เหลือ เช่น สถานที่ จะไม่ถูกแสดงในหน้างาน แต่จะแสดงอยู่ในหน้ารายละเอียด เมื่อต้องการเรียนรู้เพิ่มเติมและดูตัวอย่างของอินเทอร์เฟสผู้ใช้ ให้ดูที่ประกาศบล็อก [การประกาศ Dynamics 365 Supply Chain Management - คลังสินค้า](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876137"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135857"
 ---
 # <a name="posting-profiles-overview"></a>ภาพรวมโพรไฟล์การลงรายการบัญชี
 
@@ -111,13 +111,14 @@ ms.locfileid: "8876137"
 - การลงรายการบัญชีการจัดการค่าใช้จ่าย (เร็วๆ นี้)
 - [โพรไฟล์การลงรายการบัญชีสินทรัพย์ถาวร](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - การลงรายการบัญชีการบัญชีระหว่างบริษัท (เร็วๆ นี้)
-- โพรไฟล์การลงรายการบัญชีสินค้าคงคลัง (เร็วๆ นี้)
+- [กำลังลงรายการบัญชีสินค้าคงคลัง](inventory-posting.md)
 - [การลงรายการบัญชีต้นทุนแฝง](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [ภาพรวมของข้อกำหนดการลงรายการบัญชี](posting-definitions.md)
-- การลงรายการบัญชีการควบคุมการผลิต (เร็วๆ นี้)
+- [การลงรายการบัญชีการผลิต](production-posting.md)
 - การลงรายการบัญชีการจัดการโครงการและการบัญชี (เร็วๆ นี้)
 - การลงรายการบัญชีการจัดการบริการ (เร็วๆ นี้)
 - การลงรายการบัญชีภาษี (เร็วๆ นี้)
 - การลงรายการบัญชีเวลาและการเข้างาน (เร็วๆ นี้)
 - การลงรายการบัญชีการจัดการการขนส่ง (เร็วๆ นี้)
 - โพรไฟล์การลงรายการบัญชีการจัดการเงินคืน (เร็วๆ นี้)
+

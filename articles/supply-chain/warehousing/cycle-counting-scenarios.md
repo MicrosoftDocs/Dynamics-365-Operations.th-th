@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899337"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068610"
 ---
 # <a name="cycle-counting-example-scenarios"></a>ตัวอย่างสถานการณ์การตรวจนับตามรอบ
 
@@ -127,7 +127,7 @@ ms.locfileid: "8899337"
 1. ในบานหน้าต่างรายการ เลือกคลังสินค้า *61* ถ้าเรกคอร์ดที่มีอยู่ไม่มีชื่อนี้ ให้สร้างขึ้น
 1. บนแท็บด่วน **คลังสินค้า** ให้กำหนดค่าดังต่อไปนี้:
 
-    - **ใช้กระบวนการการจัดการคลังสินค้า:** *ใช่* (ค่านี้จะเปิดใช้งานคลังสินค้าในกระบวนการ Warehouse Management)
+    - **ใช้กระบวนการการจัดการคลังสินค้า:** *ใช่* (ค่านี้จะเปิดใช้งานคลังสินค้าในกระบวนการ Warehouse Management (WMS))
     - **อนุญาตป้ายทะเบียนย้ายระหว่างการตรวจนับตามรอบ:** *ใช่* (ค่านี้ช่วยให้ผู้ปฏิบัติงานสามารถย้ายป้ายทะเบียนในระหว่างการตรวจนับตามรอบ)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>สถานการณ์ที่ 1: การตรวจนับตามรอบที่แนะนำ

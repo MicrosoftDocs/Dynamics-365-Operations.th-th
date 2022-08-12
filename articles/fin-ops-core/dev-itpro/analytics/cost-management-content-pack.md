@@ -1,27 +1,28 @@
 ---
 title: ชุดเนื้อหาการจัดการต้นทุน Power BI
 description: บทความนี้อธิบายถึงสิ่งที่จะรวมอยู่ในชุดเนื้อหาการวิเคราะห์การจัดการต้นทุน Power BI
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270314
-ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270314"
+ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.search.industry: Manufacturing
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
+ms.openlocfilehash: 7dcc8b2df62b250c59e343e0def5840f1b4f5432
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876876"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205712"
 ---
 # <a name="cost-management-power-bi-content"></a>ชุดเนื้อหาการจัดการต้นทุน Power BI
 
@@ -162,13 +163,13 @@ ms.locfileid: "8876876"
 |                                         | ทรัพยากร 10 อันดับแรกโดยเรียงตามผลต่างการผลิตที่ไม่น่าพึงพอใจ  |
 |                                         | ทรัพยากร 10 อันดับแรกโดยเรียงตามผลต่างการผลิตที่น่าพึงพอใจ    |
 
-## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับรูปแบบข้อมูลและเอนทิตี้
+## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับรูปแบบข้อมูลและเอนทิตี
 
 ข้อมูลจากใบสมัครถูกใช้ในการกรอกข้อมูลหน้ารายงานในชุดเนื้อหา Power BI ของ **การจัดการต้นทุน** ข้อมูลนี้จะถูกแสดงเป็นการวัดแบบรวมที่มีการแบ่งระยะในร้านค้าเอนทิตี ซึ่งเป็นฐานข้อมูล Microsoft SQL Server ที่ปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 การวัดแบบรวมหลักของออบเจ็กต์ต่อไปนี้ ถูกใช้เป็นข้อมูลพื้นฐานของเนื้อหา Power BI
 
-| ออบเจ็กต์                          | การวัดแบบรวมหลัก | แหล่งข้อมูลสำหรับ Finance and Operations | ฟิลด์               |
+| ออบเจ็กต์                          | การวัดแบบรวมหลัก | แหล่งข้อมูลสำหรับการเงินและการดำเนินงาน | ฟิลด์               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | จำนวน                     | CostObjectStatementCache               | จำนวน              |
 | CostObjectStatementCacheMonthly | ปริมาณ                   | CostObjectStatementCache               | ปริมาณ                 |
@@ -193,7 +194,7 @@ ms.locfileid: "8876876"
 มิติหลักต่อไปนี้ถูกใช้เป็นตัวกรองเพื่อแบ่งส่วนการวัดแบบรวม เพื่อให้คุณสามารถได้รับส่วนประกอบที่มากขึ้นและข้อมูลเชิงลึกเชิงวิเคราะห์ที่ละเอียดมากขึ้น
 
 
-| เอนทิตี้                                                  | ตัวอย่างของแอตทริบิวต์                          |
+| เอนทิตี                                                  | ตัวอย่างของแอตทริบิวต์                          |
 |---------------------------------------------------------|-------------------------------------------------|
 | ผลิตภัณฑ์                                                | หมายเลขผลิตภัณฑ์ ชื่อผลิตภัณฑ์ หน่วย กลุ่มสินค้า |
 | ลำดับชั้นประเภท (ที่กำหนดให้กับบทบาทการจัดการต้นทุน) | ลำดับชั้นประเภท ระดับประเภท              |
@@ -203,3 +204,4 @@ ms.locfileid: "8876876"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

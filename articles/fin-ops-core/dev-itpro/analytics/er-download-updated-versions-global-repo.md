@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847559"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108453"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>นำเข้าการตั้งค่าคอนฟิก ER รุ่นที่อัปเดตแล้ว
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847559"
 
 [การจัดเก็บ](general-electronic-reporting.md#Repository) การรายงานทางอิเล็กทรอนิกส์ (ER) ที่ใช้ในการแชร์ [การตั้งค่าคอนฟิก ER](general-electronic-reporting.md#Configuration) คุณสามารถ [นำเข้า](download-electronic-reporting-configuration-lcs.md) การตั้งค่าคอนฟิก ER จากคลังที่แตกต่างกันเข้ากับอินสแตนซ์ของ Microsoft Dynamics 365 Finance เมื่อคุณนำเข้าการตั้งค่าคอนฟิก ER [ผู้ให้บริการการตั้งค่าคอนฟิก](general-electronic-reporting.md#Provider) สามารถเผยแพร่การจัดเก็บ [รุ่น](general-electronic-reporting.md#component-versioning) ใหม่เพื่อให้สามารถใช้ร่วมกันได้
 
-บทความนี้จะอธิบายถึงวิธีการนำเข้ารุ่นที่อัปเดตของการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
+บทความนี้จะอธิบายถึงวิธีการนำเข้ารุ่นที่อัปเดตของการตั้งค่าคอนฟิก ER จากที่เก็บส่วนกลางของบริการตั้งค่าคอนฟิก สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [Microsoft Dynamics 365 Finance - Regulatory Services, Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)
 
 ## <a name="review-the-available-updated-versions"></a>ตรวจทานเวอร์ชันที่อัปเดตที่พร้อมใช้งาน
 

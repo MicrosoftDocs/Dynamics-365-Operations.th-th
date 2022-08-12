@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
-description: บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือเพื่อเรียกใช้พื้นที่ทำงาน การจัดการสินทรัพย์ บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+description: บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือเพื่อเรียกใช้พื้นที่ทำงานแบบเคลื่อนที่ของ การจัดการสินทรัพย์ที่ผู้ปฏิบัติงานสามารถใช้เพื่อดำเนินงานการจัดการสินทรัพย์
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870855"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070067"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>ตั้งค่าพื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอป Finance and Operations (Dynamics 365) บนมือถือ เพื่อเรียกใช้พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ ซึ่งผู้ปฏิบัติงานสามารถใช้เพื่อปฏิบัติงานการจัดการสินทรัพย์
+บทความนี้อธิบายวิธีการตั้งค่า Microsoft Dynamics 365 Supply Chain Management และแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ เพื่อเรียกใช้พื้นที่ทำงานแบบเคลื่อนที่ของ **การจัดการสินทรัพย์** ที่ผู้ปฏิบัติงานสามารถใช้เพื่อดำเนินงานการจัดการสินทรัพย์
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>ตั้งค่าผู้ใช้เจ้าหน้าที่บำรุงรักษาใน Supply Chain Management
 
@@ -41,7 +41,7 @@ ms.locfileid: "8870855"
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>เผยแพร่พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่สำหรับการจัดการสินทรัพย์
 
-เมื่อต้องการให้คุณลักษณะการจัดการสินทรัพย์พร้อมใช้งานในแอป Finance and Operations (Dynamics 365) บนมือถือ คุณต้องเผยแพร่พื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ
+เมื่อต้องการให้คุณลักษณะการจัดการสินทรัพย์พร้อมใช้งานในแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ คุณต้องเผยแพร่พื้นที่ทำงานเคลื่อนที่ของ **การจัดการสินทรัพย์**
 
 1. ใน Supply Chain Management ให้เลือกปุ่ม **การตั้งค่า** (สัญลักษณ์เกียร์ในมุมด้านขวาบน) แล้วเลือก **แอปบนมือถือ** ในเมนู
 1. ในกล่องโต้ตอบ **จัดการแอปบนมือถือ** ให้ค้นหาไทล์ **การจัดการสินทรัพย์** ถ้ามีข้อความ "ในข้อมูลเมตา - ไม่ได้เผยแพร่" พื้นที่ทำงานนี้ไม่ได้รับการเผยแพร่ ถ้ามีข้อความ "ในข้อมูลเมตา - เผยแพร่แล้ว" พื้นที่ทำงานนี้เผยแพร่แล้ว และคุณสามารถข้ามส่วนที่เหลือของกระบวนงานนี้ได้
@@ -50,14 +50,14 @@ ms.locfileid: "8870855"
 
 1. เลือกไทล์ **การจัดการสินทรัพย์** แล้วเลือก **เผยแพร่** บนแถบเครื่องมือ หลังจากเวลาผ่านไปสองสามวินาที คุณควรได้รับการแจ้งเตือนที่ระบุว่าพื้นที่ทำงานได้รับการเผยแพร่เรียบร้อยแล้ว นอกจากนี้ ข้อความบนไทล์ควรเปลี่ยนเป็น "ในข้อมูลเมตา - เผยแพร่แล้ว"
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>ติดตั้งและตั้งค่าแอป Finance and Operations (Dynamics 365) บนมือถือ
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>ติดตั้งและตั้งค่าแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ
 
-1. ไปที่หนึ่งในร้านค้าแอปต่อไปนี้เพื่อติดตั้งแอป **Microsoft Finance and Operations (Dynamics 365)** บนอุปกรณ์เคลื่อนที่ของคุณ:
+1. ให้ไปที่หนึ่งในร้านค้าแอปต่อไปนี้เพื่อติดตั้งแอป **Microsoft การเงินและการดำเนินงาน (Dynamics 365)** บนอุปกรณ์เคลื่อนที่ของคุณ:
 
     - [สำหรับอุปกรณ์ Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [สำหรับอุปกรณ์ Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. เปิดแอป Finance and Operations (Dynamics 365) หน้าการลงชื่อเข้าใช้ควรปรากฏขึ้น ในฟิลด์ **ลงชื่อเข้าใช้** ป้อน URL Supply Chain Management ของคุณ หรือเลือก URL ล่าสุดในรายการ **รายการสภาพแวดล้อมล่าสุด** แล้วแตะ **เชื่อมต่อ**
+1. ให้เปิดแอปการเงินและการดำเนินงาน (Dynamics 365) หน้าการลงชื่อเข้าใช้ควรปรากฏขึ้น ในฟิลด์ **ลงชื่อเข้าใช้** ป้อน URL Supply Chain Management ของคุณ หรือเลือก URL ล่าสุดในรายการ **รายการสภาพแวดล้อมล่าสุด** แล้วแตะ **เชื่อมต่อ**
 
     ![หน้าลงชื่อเข้าใช้](media/mobile-app-sign-in.png "หน้าลงชื่อเข้าใช้")
 
@@ -80,7 +80,7 @@ ms.locfileid: "8870855"
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานพื้นที่ทำงาน **การจัดการสินทรัพย์** บนมือถือ โปรดดูที่ [ใช้งานพื้นที่ทำงานการจัดการสินทรัพย์บนมือถือ](asset-management-mobile-workspace.md)
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแอป Finance and Operations (Dynamics 365) บนมือถือ โปรดดูที่ [หน้าแรกของแอปบนมือถือ](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)
+หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ ให้ดูที่ [หน้าแรกของแอปบนมือถือ](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

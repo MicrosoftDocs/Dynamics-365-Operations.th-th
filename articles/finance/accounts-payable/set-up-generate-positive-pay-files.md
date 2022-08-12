@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d54e246b175c81b5d161ea35f141fc7dea9c6f1f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871433"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070738"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>ตั้งค่าและสร้างไฟล์ Positve Pay
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> ฟังก์ชันนี้จะไม่ได้รับการสนับสนุนในเดือนกันยายน 2022 ผู้ใช้ใหม่ควรใช้การรายงานทางอิเล็กทรอนิกส์ สำหรับข้อมูลเพิ่มเติม ให้ดู [ตั้งค่าและสร้างไฟล์ Positive Pay โดยใช้การรายงานทางอิเล็กทรอนิกส์](set-up-positive-pay-er.md)
 
 บทความนี้อธิบายวิธีการตั้งค่า positive pay และสร้างไฟล์ positive pay 
 

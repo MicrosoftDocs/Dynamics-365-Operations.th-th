@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53dfd02ac2f42fd680eb71509dbd41214160f19
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066032"
 ---
 # <a name="master-planning-setup-wizard"></a>วิซาร์ดการตั้งค่าการวางแผนหลัก
 
@@ -31,7 +31,7 @@ ms.locfileid: "8875346"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[วิซาร์ดการตั้งค่าการวางแผนหลักในวิดีโอ Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (แสดงไว้ข้างบน) จะถูกรวมใน [รายการที่จะเล่นของ Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่พร้อมใช้งานบน YouTube
+วิดีโอ [วิซาร์ดการตั้งค่าการวางแผนหลักใน Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (แสดงไว้ข้างบน) จะถูกรวมใน [เพลย์ลิสต์ของการเงินและการดำเนินงาน](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) ที่พร้อมใช้งานบน YouTube
 
 
 ## <a name="specific-requirements-of-your-company"></a>ความต้องการเฉพาะของบริษัทของคุณ

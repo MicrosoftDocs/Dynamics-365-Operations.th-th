@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873940"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166757"
 ---
 # <a name="vendor-invoice-entities"></a>เอนทิตีใบแจ้งหนี้ของผู้จัดจำหน่าย
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 โมดูล **ต้นทุนแฝง** ช่วยให้สามารถตั้งค่าคอนฟิกรหัสชนิดต้นทุนให้กับต้นทุนภายในหรือต้นทุนที่ได้รับภายนอก ถ้าต้นทุนเป็นต้นทุนจากภายนอกธุรกิจ ใบแจ้งหนี้จะคาดหวังจากผู้ให้บริการ ใบแจ้งหนี้นี้จะได้รับการประมวลผลเป็นสมุดรายวันใบแจ้งหนี้ที่สามารถเชื่อมโยงกับการเดินทาง และสามารถกระจายค่าของใบแจ้งหนี้ในต้นทุนการเดินทางหนึ่งรายการหรือมากกว่า
 

@@ -10,17 +10,16 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 7e998514081cad1c7302aacb1cd74373f896f2d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865980"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169111"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>ลงชื่อไฟล์ MPOS .appx ด้วยใบรับรองการลงชื่อโค้ด
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 เมื่อต้องการติดตั้ง Modern POS (MPOS) คุณต้องลงชื่อแอป MPOS ด้วยใบรับรองการเซ็นโค้ดจากผู้ให้บริการที่เชื่อถือได้และติดตั้งใบรับรองเดียวกันบนเครื่องทั้งหมดที่ MPOS ติดตั้งภายใต้โฟลเดอร์รากที่เชื่อถือได้ของผู้ใช้ปัจจุบัน
 

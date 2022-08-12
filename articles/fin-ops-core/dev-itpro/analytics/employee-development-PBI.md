@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 67fd3b5907cb52dc1f10d754e12316e21876e888
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45c93589385cea399b71b2ad33c87a5c805124d5
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851000"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206557"
 ---
 # <a name="employee-development-power-bi-content"></a>เนื้อหา Power BI ของการพัฒนาพนักงาน
 
@@ -40,9 +40,9 @@ ms.locfileid: "8851000"
 
 คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
-## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
+## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี
 
-| เอนทิตี้                   | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
+| เอนทิตี                   | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | ออฟเซ็ตของปฏิทิน          | ปฏิทินออฟเซ็ตเพื่อแบ่งส่วนรายงาน                                                                          | การกำหนดตำแหน่งที่ผ่านมา แนวโน้มของตำแหน่ง แนวโน้มของพนักงาน พนักงานที่เลิกจ้างไปแล้ว |
 | บริษัท                  | บริษัทสามารถกรองข้อมูลรายงานโดย                                                                             | พนักงานปัจจุบัน พนักงานที่เลิกจ้างไปแล้ว แนวโน้มของพนักงาน |

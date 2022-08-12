@@ -1,7 +1,7 @@
 ---
 title: ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง
 description: บทความนี้อธิบายขั้นตอนสำหรับกระบวนการกระทบยอดธนาคารขั้นสูง คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงช่วยคุณนำเข้าใบแจ้งยอดจากธนาคารที่สามารถกระทบยอดจากภายในธุรกรรมธนาคารโดยอัตโนมัติ
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6dadc5fd49a7103df8e1cacfd3be09c24a06e67
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 96542aa2ee1fed85864b7695199df464ca7866be
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711421"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151667"
 ---
 # <a name="advanced-bank-reconciliation-overview"></a>ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง
 
@@ -33,7 +33,7 @@ ms.locfileid: "8711421"
 คุณลักษณะการกระทบยอดบัญชีธนาคารขั้นสูงช่วยให้คุณสามารถนำเข้าใบแจ้งยอดจากธนาคารได้ จากนั้นใบแจ้งยอดจากธนาคารที่นำเข้าสามารถถูกกระทบยอดโดยอัตโนมัติจากภายในธุรกรรมธนาคาร นี่เป็นขั้นตอนต่างๆในขั้นตอนการกระทบยอดบัญชีธนาคารขั้นสูง
 
 1.  ตั้งค่าการนำเข้าใบแจ้งยอดจากธนาคาร
-    -   นำเข้าใบแจ้งยอดจากธนาคารโดยใช้กรอบงานเอนทิตี้ข้อมูล
+    -   นำเข้าใบแจ้งยอดจากธนาคารโดยใช้กรอบงานเอนทิตีข้อมูล
     -   รูปแบบใบแจ้งยอดจากธนาคารโดยทั่วไปมีอยู่สามรูปแบบอยู่ใน: ISO20022 BAI2 และ MT940
     -   ฟังก์ชันสามารถถูกขยายให้เป็นรูปแบบใดก็ได้
 

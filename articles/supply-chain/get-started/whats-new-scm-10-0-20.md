@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888656"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123822"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>มีอะไรใหม่หรือเปลี่ยนไปอย่างไรบ้างใน Dynamics 365 Supply Chain Management 10.0.20 (สิงหาคม 2021)
 
@@ -73,7 +73,7 @@ ms.locfileid: "8888656"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.20 ของแอปการเงินและการดำเนินงาน (กรกฎาคม 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platform update หากต้องการเรียนรู้เพิ่มเติม โปรดดูที่ [การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.20 ของแอปการเงินและการดำเนินงาน (กรกฎาคม 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -98,3 +98,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 รวมถึง Platfo
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

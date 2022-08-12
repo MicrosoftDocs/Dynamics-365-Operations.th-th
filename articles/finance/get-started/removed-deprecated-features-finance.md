@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846667"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068936"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ ms.locfileid: "8846667"
 รายการนี้มีไว้เพื่อช่วยคุณพิจารณาการลบออกและการยกเลิกการใช้งานเหล่านี้สำหรับการวางแผนของคุณเอง 
 
 > [!NOTE]
-> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้ได้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่ได้เปลี่ยนแปลง หรือถูกเอาออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่มีการเปลี่ยนแปลง หรือโดนลบออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.26
 
@@ -218,3 +218,4 @@ ms.locfileid: "8846667"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859443"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069830"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่ของปริมาณสินค้าคงคลังคงเหลือ
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859443"
 
 บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **ปริมาณคงคลังคงเหลือ** พื้นที่ทำงานนี้ช่วยให้คุณได้รับข้อมูลเชิงลึกในสินค้าคงคลังที่จองไว้และพร้อมใช้งานได้ตลอดเวลา และที่ใดก็ได้
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations (Dynamics 365) บนมือถือ
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ
 
 ## <a name="overview"></a>ภาพรวม
 โดยทั่วไป บริษัทจะมีการจัดส่งและการรับสินค้าคงคลังหลายครั้งทุกวัน ความเคลื่อนไหวเหล่านี้จะเปลี่ยนสถานะปริมาณคงคลังคงเหลืออย่างสม่ำเสมอ พื้นที่ทำงานแบบเคลื่อนที่ของ **ปริมาณคงคลังคงเหลือ** ช่วยให้คุณเห็นสถานะปริมาณคงคลังคงเหลือระหว่างบริษัท เพื่อที่คุณจะได้รับข้อมูลเชิงลึกล่าสุดในข้อมูลสินค้าคงคลังบนอุปกรณ์เคลื่อนที่ที่คุณเลือก โดยไม่คำนึงถึงว่าคุณทำงานในคลังสินค้า การซื้อ การขาย การผลิต หรือการจัดการ หรือมีบทบาทอื่น คุณสามารถเข้าถึงข้อมูลปริมาณคงคลังคงเหลือได้ทุกเมื่อใด และที่ใดก็ได้ 
@@ -92,9 +92,9 @@ ms.locfileid: "8859443"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ดาวน์โหลดและติดตั้งแอป Finance and Operations (Dynamics 365) บนมือถือ:
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -131,3 +131,4 @@ ms.locfileid: "8859443"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

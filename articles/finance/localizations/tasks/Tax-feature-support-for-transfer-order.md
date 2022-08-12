@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869994"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203123"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>การสนับสนุนคุณลักษณะภาษีสำหรับใบสั่งโอนย้าย
 
@@ -111,7 +111,10 @@ ms.locfileid: "8869994"
 6. กําหนดการใช้งานของกลุ่มภาษีของสินค้า
 
     1. เลือก **จัดการคอลัมน์** แล้วจากนั้น เลือกคอลัมน์ที่ควรใช้ในการสร้างตารางการใช้งาน
-    2. เพิ่มกฎการนำไปใช้ได้ อย่าปล่อยฟิลด์ **กลุ่มภาษีของสินค้า** ว่างไว้
+    2. เพิ่มกฎการนำไปใช้ได้
+        
+       > [!NOTE]
+       > ถ้ากลุ่มภาษีขายตามประเภทสินค้าที่ผิดนัดในรายการเอกสารที่ต้องเสียภาษีของคุณถูกต้องแล้ว ให้ปล่อยเมทริกซ์นี้ว่างไว้ 
         
         เพิ่มกฎใหม่สำหรับการจัดส่งใบสั่งโอนย้ายและใบเสร็จ
         1. บนหน้า **กฎการนำไปใช้ได้** เลือก **เพิ่ม**

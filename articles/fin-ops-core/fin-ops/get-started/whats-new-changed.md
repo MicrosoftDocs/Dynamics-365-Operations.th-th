@@ -1,6 +1,6 @@
 ---
-title: โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอปการเงินและการดำเนินงาน
-description: หน้านี้ชี้ไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในแอปการเงินและการดำเนินงานล่าสุด
+title: มีอะไรใหม่หรือเปลี่ยนแปลงบนหน้าแรกของแอปการเงินและการดำเนินงาน
+description: หน้านี้จะนำคุณไปยังหัวข้อที่จะช่วยให้คุณเรียนรู้เกี่ยวกับคุณลักษณะใหม่ในแอปการเงินและการดำเนินงานล่าสุด
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908240"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125130"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>โฮมเพจมีอะไรใหม่หรือเปลี่ยนไปในแอปการเงินและการดำเนินงาน
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>มีอะไรใหม่หรือเปลี่ยนแปลงบนหน้าแรกของแอปการเงินและการดำเนินงาน
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>การนำออกใช้ของแอปพลิเคชัน
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในรุ่นของแอปการเงินและการดำเนินงานแต่ละรุ่น ให้ดูที่หัวข้อต่อไปนี้:
+หากต้องการดูว่ามีอะไรใหม่หรือเปลี่ยนแปลงในแอปการเงินและการดำเนินงานแต่ละรุ่น ให้ดูที่หัวข้อต่อไปนี้:
 
 - **Finance:** [มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
 - **Human Resources (โครงสร้างพื้นฐานที่ผสาน):** [มีอะไรใหม่หรือเปลี่ยนแปลงใน Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
@@ -47,7 +47,7 @@ ms.locfileid: "8908240"
 
 ## <a name="platform-updates"></a>การอัปเดตแพลตฟอร์ม
 
-เมื่อต้องการดูว่ามีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน ให้ดูที่บทความต่อไปนี้:
+หากต้องการดูว่ามีอะไรใหม่หรือเปลี่ยนแปลงในการอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน ให้ดูที่บทความต่อไปนี้:
 
 - [มีอะไรใหม่หรือเปลี่ยนไปอย่างไรในการอัปเดตแพลตฟอร์ม](../../dev-itpro/get-started/whats-new-home-page.md)
 
@@ -60,3 +60,4 @@ ms.locfileid: "8908240"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
-description: บทความนี้อธิบายการรวมข้อมูลของผู้จัดจำหน่ายระหว่างแอปการเงินและการดำเนินงาน กับ Dataverse
+description: บทความนี้อธิบายการรวมข้อมูลของผู้จัดจำหน่ายระหว่างแอปการเงินและการดำเนินงานกับ Dataverse
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905328"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112216"
 ---
 # <a name="integrated-vendor-master"></a>ข้อมูลหลักของผู้จัดจำหน่ายแบบรวม
 
@@ -39,7 +39,7 @@ ms.locfileid: "8905328"
 > [!TIP]
 > ถ้าคุณกำลังใช้พอร์ทัล Power Apps สำหรับระบบบริการตนเองของผู้จัดจำหน่าย ข้อมูลของผู้จัดจำหน่ายสามารถส่งไปยังแอปการเงินและการดำเนินงานได้โดยตรง
 
-## <a name="templates"></a>เทมเพลต
+## <a name="templates"></a>เท็มเพลต
 
 ข้อมูลผู้จัดจำหน่ายรวมถึงข้อมูลทั้งหมดเกี่ยวกับผู้จัดจำหน่าย เช่น กลุ่มผู้จัดจำหน่าย ที่อยู่ ข้อมูลผู้ติดต่อ โพรไฟล์การชำระเงิน และโพรไฟล์ใบแจ้งหนี้ คอเลคชันของแม็บตารางทำงานร่วมกันในขณะการรวมข้อมูลผู้จัดจำหน่าย ดังที่แสดงในตารางต่อไปนี้
 
@@ -57,3 +57,4 @@ ms.locfileid: "8905328"
 [วิธีการชำระเงินของผู้จัดจำหน่าย](mapping-reference.md#201) | msdyn_vendorpaymentmethods | เทมเพลตนี้รวมข้อมูลวิธีการชำระเงินของผู้จัดจำหน่วยเข้าด้วยกัน
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

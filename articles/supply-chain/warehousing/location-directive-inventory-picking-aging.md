@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885709"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068684"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
 
@@ -82,7 +82,7 @@ ms.locfileid: "8885709"
 
 1. เลือก **ตกลง** เพื่อใช้การตั้งค่าของคุณ และปิดกล่องโต้ตอบการสอบถาม
 1. เลือก **บันทึก** เพื่อบันทึกการเปลี่ยนแปลงของคุณไปยังคำสั่งสถานที่
-1. บนอุปกรณ์เคลื่อนที่ หรือในแอป *Dynamics 365 for Finance and Operations - คลังสินค้า* บนพีซีของคุณ ให้ทำตามขั้นตอนต่อไปนี้เพื่อลบสินค้าคงคลังที่มีอยู่ออกจากสถานที่คลังสินค้าเพื่อสนับสนุนสถานการณ์จำลอง:
+1. บนอุปกรณ์เคลื่อนที่ หรือในแอป *Dynamics 365 Supply Chain Management - คลังสินค้า* บนพีซีของคุณ ให้ทำตามขั้นตอนต่อไปนี้เพื่อลบสินค้าคงคลังที่มีอยู่ออกจากสถานที่คลังสินค้าเพื่อสนับสนุนสถานการณ์จำลอง:
 
     1. ลงชื่อเข้าใช้คลังสินค้า *63* โดยใช้รหัสผู้ใช้และรหัสผ่านที่เหมาะสม
     1. บนเมนูหลัก ให้เลือก **คุณภาพ**

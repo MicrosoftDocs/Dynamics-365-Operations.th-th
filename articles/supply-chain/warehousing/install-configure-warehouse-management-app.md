@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941779"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171469"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอป Warehouse Management บนมือถือ
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกแอป Warehouse Management บนมือถือใหม่ ถ้าคุณกำลังค้นหาข้อมูลเกี่ยวกับวิธีตั้งค่าคอนฟิกแอปคลังสินค้าแบบเก่า (ซึ่งขณะนี้ไม่ได้สนับสนุน) โปรดดู [ติดตั้งและเชื่อมต่อแอปคลังสินค้า](../../supply-chain/warehousing/install-configure-warehousing-app.md)
 
 บทความนี้จะอธิบายวิธีการดาวน์โหลดและติดตั้งแอป Warehouse Management บนมือถือ ในแต่ละอุปกรณ์เคลื่อนที่ของคุณ และวิธีกำหนดค่าแอปเพื่อเชื่อมต่อกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณสามารถกำหนดค่าแต่ละอุปกรณ์ด้วยตนเองหรือคุณสามารถนำเข้าการตั้งค่าการเชื่อมต่อผ่านไฟล์หรือโดยการสแกนรหัส QR
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872512"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070678"
 ---
 # <a name="budget-planning-templates-for-excel"></a>เทมเพลตการวางแผนงบประมาณสำหรับ Excel
 
@@ -79,7 +79,7 @@ ms.locfileid: "8872512"
 [![เพิ่มและแทรกคอลัมน์](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> เมื่อต้องการกำหนดสูตร ให้สร้างสูตรในแผ่นตารางทำการ และจากนั้นคัดลอกไปยังหน้าต่าง **ออกแบบ** โดยทั่วไป ตารางขอบเขต Finance and Operations จะถูกตั้งชื่อเป็น "AXTable1" ตัวอย่างเช่น เมื่อต้องการสรุปคอลัมน์คำขอ Q1 : คำขอ Q4 ในแผ่นตารางทำการ สูตร = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]
+> เมื่อต้องการกำหนดสูตร ให้สร้างสูตรในแผ่นตารางทำการ และจากนั้นคัดลอกไปยังหน้าต่าง **ออกแบบ** โดยทั่วไป ตารางขอบเขตการเงินและการดำเนินงานจะถูกตั้งชื่อเป็น "AXTable1" ตัวอย่างเช่น เมื่อต้องการสรุปคอลัมน์คำขอ Q1 : คำขอ Q4 ในแผ่นตารางทำการ สูตร = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]
 
 ทำซ้ำขั้นตอนเหล่านี้เพื่อแทรกคอลัมน์ **การปรับปรุง** ใช้สูตร = AxTable1\[Total request\]\*$I$1 สำหรับคอลัมน์นี้ ซึ่งจะใช้ค่าในเซลล์ I1 และคูณค่าในคอลัมน์ **คำขอรวม** เพื่อคำนวณยอดการปรับปรุง
 
@@ -129,3 +129,4 @@ ms.locfileid: "8872512"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

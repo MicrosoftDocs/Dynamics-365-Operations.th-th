@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
-description: บทความนี้อธิบายถึงแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือและแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
+description: บทความนี้อธิบายถึงแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868772"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066467"
 ---
 # <a name="mobile-app-home-page"></a>โฮมเพจแอปสำหรับอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-บทความนี้อธิบายถึงแอป **Finance and Operations (Dynamics 365)** บนมือถือและแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
+บทความนี้อธิบายถึงแอป **การเงินและการดำเนินงาน (Dynamics 365)** บนมือถือ และแสดงลิงค์ไปยังทรัพยากรที่สามารถช่วยให้คุณปรับใช้งานในองค์กรของคุณ
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -77,7 +77,7 @@ ms.locfileid: "8868772"
 <tr class="odd">
 <td>1</td>
 <td>ผู้ดูแลระบบ</td>
-<td>นำแอปการเงินและการดำเนินงาน ไปปรับใช้ในองค์กรของคุณ</td>
+<td>นำแอปการเงินและการดำเนินงานไปปรับใช้ในองค์กรของคุณ</td>
 <td><ul><li>ถ้าคุณยังไม่ได้ปรับใช้รุ่นของ Microsoft Dynamics 365 ให้ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a></li><li>เมื่อต้องการดูรายการพื้นที่ทำงานแบบเคลื่อนที่ที่สามารถใช้ได้ ให้ดูที่ <a href="mobile-workspaces-released.md">พื้นที่ทำงานแบบเคลื่อนที่ที่นำออกใช้เมื่อเร็ว ๆ นี้</a></li></ul></td>
 </tr>
 <tr class="even">
@@ -152,3 +152,4 @@ ms.locfileid: "8868772"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713289"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123996"
 ---
 # <a name="before-you-buy"></a>ก่อนที่คุณจะซื้อ
 
@@ -26,13 +26,13 @@ ms.locfileid: "8713289"
 
 เพิ่งเริ่มใช้ Dynamics 365 Finance, Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เราได้รวมคำแนะนำทีละขั้นตอนไว้ ไม่ว่าคุณจะยังคงกำลังประเมินอยู่ หรือพร้อมที่จะทำการซื้อก็ตาม
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>ขั้นตอนที่หนึ่ง: ทดลอง Finance and Operations ฟรีเป็นเวลา 30 วัน
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>ขั้นตอนที่หนึ่ง: ทดลองการเงินและการดำเนินงานฟรีเป็นเวลา 30 วัน
 
 คุณสามารถลองใช้ Dynamics 365 for Finance Dynamics 365 Supply Chain Management หรือ Dynamics 365 Commerce เป็นเวลา 30 วันได้ผ่านการลงทะเบียนอีเมลอย่างง่าย รุ่นทดลองใช้ของแอปพลิเคชันการเงินและการดำเนินงานประกอบด้วยคู่มืองานการเริ่มต้นใช้งานที่ให้คำแนะนำทีละขั้นตอนซึ่งจะช่วยให้คุณสามารถดูสถานการณ์จำลองเฉพาะในการดำเนินการต่าง ๆ ผลิตภัณฑ์จะพร้อมใช้งานสำหรับการสำรวจและการดำเนินการในสถานการณ์จำลองต่าง ๆ แต่ไม่สามารถกำหนดเองได้ มีข้อมูลสาธิตเพื่อช่วยให้การใช้ผลิตภัณฑ์ง่ายขึ้นและเพื่อให้ประสบการณ์มีความหมายมากยิ่งขึ้น อีเมลการแจ้งเตือนจะถูกส่ง 3 วันก่อนที่การทดลองใช้งานจะหมดอายุ ดูรายละเอียดใน [ลงทะเบียนเพื่อการสมัครใช้งานพรีวิว](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)
 
 ## <a name="step-two-choose-a-deployment-option"></a>ขั้นตอนที่สอง: เลือกตัวเลือกการปรับใช้
 
-ขณะนี้ คุณสามารถปรับใช้แอปพลิเคชันการเงินและการดำเนินงานในระบบคลาวด์หรือ On-Premises การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
+ขณะนี้ คุณสามารถปรับใช้แอปพลิเคชันการเงินและการดำเนินงานในระบบคลาวด์หรือในสถานที่ การปรับใช้ระบบ Cloud มีบริการแบบ ERP ที่มีการจัดการครบถ้วนโดย Microsoft ในขณะที่การปรับใช้ในองค์กรจะถูกปรับใช้เฉพาะภายในศูนย์ข้อมูลของลูกค้า
 
 ข้อควรพิจารณาต่อไปนี้ต้องใช้ เมื่อคุณเลือกแบบในองค์กรเป็นตัวเลือกการปรับใช้:
 
@@ -42,7 +42,7 @@ ms.locfileid: "8713289"
 - [ความต้องการของระบบสำหรับการปรับใช้ในสถานที่](system-requirements-on-prem.md)
 
 > [!IMPORTANT]
-> การปรับใช้แบบ On-premises ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใด ๆ ซึ่งรวมถึง Microsoft Azure อย่างไรก็ตาม มีการรองรับการปรับใช้ในการเรียกใช้บน [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) และ [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/)
+> การปรับใช้แบบในสถานที่ ไม่ได้รับการสนับสนุนในโครงสร้างพื้นฐานระบบคลาวด์สาธารณะใด ๆ ซึ่งรวมถึง Microsoft Azure อย่างไรก็ตาม มีการรองรับการปรับใช้ในการเรียกใช้บน [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) และ [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/)
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [ตัวเลือกการปรับใช้](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -62,13 +62,13 @@ ms.locfileid: "8713289"
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>ซื้อผ่านคู่ค้า Dynamics (ในองค์กร)
 
-คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance and Operations ในองค์กร สำหรับข้อมูลเพิ่มเติม ดู [ซื้อ Finance + Operations (on-premises)](purchase-on-premises.md)
+คุณต้องทำงานกับคู่ค้าเพื่อซื้อ Finance + Operations (on-premises) สำหรับข้อมูลเพิ่มเติม ดู [ซื้อ Finance + Operations (ในสถานที่)](purchase-on-premises.md)
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>ซื้อผ่าน Volume Licensing (ระบบ Cloud หรือในองค์กร)
 
 หากองค์กรของคุณมีผู้ใช้ Dynamics 365 อย่างน้อย 250 คน คุณอาจสนใจ [ข้อตกลงการให้สิทธิ์ใช้งานปริมาตร](https://www.microsoft.com/Licensing/product-licensing/dynamics365)
 
-ใน volume licensing สามารถใช้งานแอปพลิเคชันการเงินและการดำเนินงานได้ผ่าน:
+ในการให้สิทธิ์ใช้งานปริมาตร สามารถใช้งานแอปพลิเคชันการเงินและการดำเนินงานได้ผ่าน:
 
 - ข้อตกลงขององค์กร
 - การบอกรับเป็นสมาชิกข้อตกลงขององค์กร
@@ -94,3 +94,4 @@ Microsoft FastTrack for Dynamics 365 คือ บริการความส
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

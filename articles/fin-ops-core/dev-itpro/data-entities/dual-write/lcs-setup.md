@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879817"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111984"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>การตั้งค่าการรวมแบบสองทิศทางจาก Lifecycle Services
 
@@ -28,8 +28,8 @@ ms.locfileid: "8879817"
 
 ลูกค้าต้องทำการรวม Power Platform ให้เสร็จสิ้นตามที่อธิบายไว้ในหัวข้อต่อไปนี้
 
-- ถ้าคุณยังไม่ได้ใช้ Microsoft Power Platform และต้องการขยายสภาพแวดล้อมด้านการเงินและการดําเนินการของคุณโดยการเพิ่มความสามารถแพลตฟอร์ม ให้ดูที่ [การรวม Power Platform- เปิดใช้งานในระหว่างการปรับใช้สภาพแวดล้อม](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-- ถ้าคุณมีและสภาพแวดล้อม Dataverse และ Power Platform อยู่แล้ว และต้องการเชื่อมต่อกับสภาพแวดล้อมการเงินและการดำเนินการ ให้ดูที่ [การรวม Power Platform - เปิดใช้งานหลังจากการปรับใช้สภาพแวดล้อม](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
+- ถ้าคุณยังไม่ได้ใช้ Microsoft Power Platform และต้องการขยายสภาพแวดล้อมด้านการเงินและการดําเนินการของคุณ โดยการเพิ่มความสามารถแพลตฟอร์ม ให้ดูที่ [การรวม Power Platform- เปิดใช้งานในระหว่างการปรับใช้งานสภาพแวดล้อม](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
+- ถ้าคุณมีและสภาพแวดล้อม Dataverse และ Power Platform อยู่แล้ว และต้องการเชื่อมต่อกับสภาพแวดล้อมการเงินและการดำเนินงาน ให้ดูที่ [การรวม Power Platform - เปิดใช้งานหลังจากการปรับใช้งานสภาพแวดล้อม](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>ตั้งค่าการรวมแบบสองทิศทางสำหรับสภาพแวดล้อม Dataverse ใหม่หรือที่มีอยู่
 
@@ -71,3 +71,4 @@ ms.locfileid: "8879817"
 ในอดีตมีตัวเลือกตั๋วการสนับสนุนด้วยตนเอง แต่ก่อนที่จะมีตัวเลือก 1  Microsoft ไม่สนับสนุนการร้องขอการเชื่อมโยงด้วยตนเองใหม่ผ่านทางตั๋วการสนับสนุนอีกต่อไป
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

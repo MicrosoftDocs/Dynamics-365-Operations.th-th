@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860122"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112126"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสดในการรวมแบบสองทิศทาง
 
@@ -135,3 +135,4 @@ ms.locfileid: "8860122"
 - ต้องตั้งค่ามิติทางการเงินเป็นข้อมูลหลัก ตัวอย่างเช่น ลูกค้า หรือผู้จัดจำหน่าย เมื่อมีการเพิ่มลูกค้าลงในใบเสนอราคาหรือใบสั่งขาย มิติทางการเงินที่เชื่อมโยงกับโฟลว์เรกคอร์ดลูกค้าไปยังใบสั่งโดยอัตโนมัติ ในปัจจุบันการรวมแบบสองทิศทางไม่มีข้อมูลมิติทางการเงินสำหรับข้อมูลหลัก
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dee558de2defa7baae4bc4097c750e974c12a14
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875436"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135703"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>เอกสารทางธุรกิจที่สนับสนุนโดยการบัญชีสินค้าคงคลังมาตรฐาน
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 หลังจากตั้งค่า Add-in ของการลงบัญชีสินค้าคงคลังสากลทั้งหมดแล้ว จึงพร้อมแล้วที่จะประมวลผลเอกสารที่เกี่ยวข้องกับสินค้าคงคลังที่ป้อนไว้ใน Microsoft Dynamics 365 Supply Chain Management
 

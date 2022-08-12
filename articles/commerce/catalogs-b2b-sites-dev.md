@@ -2,19 +2,19 @@
 title: ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของแค็ตตาล็อก Commerce สำหรับการปรับแต่ง B2B
 description: บทความนี้อธิบายผลกระทบของความสามารถในการเพิ่มฟังก์ชันของคุณลักษณะแค็ตตาล็อก Commerce สำหรับ B2B ใน Microsoft Dynamics 365 Commerce
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: a9abdb5ea702917a745c3156f774aade757c159e
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 06d304226270c9c63c6907190dc1038a38f70e44
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027265"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136812"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>ผลกระทบของความสามารถในการเพิ่มฟังก์ชันของแค็ตตาล็อก Commerce สำหรับการปรับแต่ง B2B
 
@@ -67,3 +67,5 @@ ms.locfileid: "9027265"
 [สร้างแค็ตตาล็อก Commerce สำหรับไซต์ B2B](catalogs-b2b-sites.md)
 
 [คำถามที่ถามบ่อยเกี่ยวกับแค็ตตาล็อก Commerce สำหรับ B2B](catalogs-b2b-sites-FAQ.md)
+
+[โมดูลตัวเลือกแค็ตตาล็อก](catalog-picker.md)

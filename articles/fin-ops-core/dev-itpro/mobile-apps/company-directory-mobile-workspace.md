@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868740"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069391"
 ---
 # <a name="company-directory-mobile-workspace"></a>พื้นที่ทำงานไดเรกทอรีของบริษัทแบบเคลื่อนที่
 
@@ -55,7 +55,7 @@ ms.locfileid: "8868740"
 </ul>
 </td>
 <td>ผู้ดูแลระบบ</td>
-<td>ถ้าคุณไม่&#39;มีแอปการเงินและการดำเนินงานที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดู <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มีทรัพยากรบุคคลที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://dynamics.microsoft.com/human-resources/overview/">เว็บเพจทรัพยากรบุคคล</a>
+<td>ถ้าคุณไม่&#39;มีแอปการเงินและการดำเนินงานที่ปรับใช้อยู่แล้วในองค์กรของคุณ ดูที่ <a href="../deployment/deploy-demo-environment.md">ปรับใช้สภาพแวดล้อมสาธิต</a> ถ้าคุณไม่&#39;มีทรัพยากรบุคคลที่ปรับใช้อยู่แล้วในองค์กรของคุณ ผู้ดูแลระบบสามารถเข้าถึงรุ่นทดลองได้จาก <a href="https://dynamics.microsoft.com/human-resources/overview/">เว็บเพจทรัพยากรบุคคล</a>
 </td>
 </tr>
 <tr class="even">
@@ -66,8 +66,8 @@ ms.locfileid: "8868740"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอพบนมือถือ
-ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงานบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงานสำหรับอุปกรณ์เคลื่อนที่
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -91,3 +91,4 @@ ms.locfileid: "8868740"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

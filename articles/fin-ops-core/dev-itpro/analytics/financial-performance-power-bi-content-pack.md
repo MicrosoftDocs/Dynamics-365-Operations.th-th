@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910428"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109564"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>โซลูชัน PowerBI.com สำหรับประสิทธิภาพทางการเงิน
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> โซลูชัน PowerBI.com นี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
+> โซลูชัน PowerBI.com นี้ได้ถูกเลิกใช้ตามที่บันทึกไว้ใน [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับการเงินและการดำเนินงาน](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)
 
-บทความนี้อธิบายถึงโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน** และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้ที่ใช้ในการสร้างโซลูชันนี้
+บทความนี้อธิบายถึงโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน** และยังอธิบายถึงแดชบอร์ดและรายงานที่รวมอยู่ และแสดงข้อมูลเกี่ยวกับแบบจำลองข้อมูลและเอนทิตีที่ใช้ในการสร้างโซลูชันนี้
 
 ## <a name="main-account-setup"></a>การตั้งค่าบัญชีหลัก
 เนื่องจากองค์กรต้องการให้ยอดเงินหนี้สินและรายได้ปรากฏเป็นจำนวนค่าบวกในรายงาน การตั้งค่าบัญชีหลักจึงมีความสำคัญ สำหรับบัญชีหลักเหล่านี้ที่จะปรากฏเป็นจำนวนค่าบวก คุณต้องกำหนดชนิดบัญชีหลักเป็น **หนี้สิน** หรือ **รายได้** เมื่อมีการใช้ชนิดลูกค้าองค์กรเหล่านี้ การรายงานผ่าน Power BI จะกลับรายการเครื่องหมายและแสดงจำนวนเป็นบวก
@@ -69,15 +69,15 @@ ms.locfileid: "8910428"
 
 สามารถกรองข้อมูลและตรึงแผนภูมิและไทล์ในรายงานเหล่านี้ทั้งหมดไปยังแดชบอร์ดได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
-## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
+## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี
 เอนทิตีต่อไปนี้ถูกนำมาใช้เป็นข้อมูลพื้นฐานของโซลูชัน PowerBI.com สำหรับ **ประสิทธิภาพทางการเงิน**
 
-**รวมเอนทิตี้ข้อมูล**
+**รวมเอนทิตีข้อมูล**
 
 - **GeneralLedgerActivities** – เอนทิตีนี้รวมยอดดุลบัญชีแยกประเภททั่วไปตามประเภทบัญชี
 - **BudgetActivities** – เอนทิตีนี้รวมยอดดุลงบประมาณตามประเภทบัญชี
 
-**เอนทิตี้ข้อมูล**
+**เอนทิตีข้อมูล**
 
 - FiscalCalendars
 - MainAccounts

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870146"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068794"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>รายงานการกระทบยอดสินทรัพย์ถาวร
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870146"
 
 รายงาน **การกระทบยอดสินทรัพย์ถาวร** ใช้กรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) ก่อนที่คุณจะสามารถรันรายงานได้ แบบจำลองสินทรัพย์ถาวรและการตั้งค่าคอนฟิกโรลฟอร์เวิร์ดสินทรัพย์ถาวรต้องถูกนำเข้าจาก Microsoft Dynamics Lifecycle Services (LCS) สำหรับคำแนะนำ ให้ดูที่ [ดาวน์โหลดการตั้งค่าคอนฟิกการรายงานแบบอิเล็กทรอนิกส์จาก Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 for Finance and Operations Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
+รายงานนี้พร้อมใช้งานใน Microsoft Dynamics 365 Finance Enterprise edition 7.3 หรือโปรแกรมแก้ไขด่วนสำหรับ Microsoft Dynamics 365 Finance Enterprise edition (กรกฎาคม 2017) ต้องใช้โปรแกรมแก้ไขด่วนสามโปรแกรมกับสภาพแวดล้อมที่มีการนำออกใช้เดือนกรกฎาคม 2017:
 
 - **KB 4041754:** การตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ไม่สามารถดาวน์โหลดได้จาก LCS เนื่องจากไม่สามารถใช้ได้สำหรับเวอร์ชันปัจจุบัน หลังจากการใช้แพคเกจการปรับปรุงแพลตฟอร์ม
 - **KB 4056107:** การรายงานทางอิเล็กทรอนิกส์ (GER) การอัปเดตแบบสะสม 5
@@ -67,3 +67,4 @@ ms.locfileid: "8870146"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

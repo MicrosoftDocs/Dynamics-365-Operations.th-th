@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d22ed879f309c0fbb999bf166aefd13f27376042
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982863"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069106"
 ---
 # <a name="warehouse-management-overview"></a>ภาพรวมของการจัดการคลังสินค้า
 
@@ -39,7 +39,7 @@ ms.locfileid: "7982863"
 - [ตั้งค่าคำสั่งสถานที่สำหรับการสำรองใบสั่งซื้อ](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
 - [ตั้งค่าเทมเพลตงานสำหรับใบสั่งซื้อ](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a>กระบวนการจัดการคลังสินค้า
+## <a name="warehouse-management-processes-wms"></a>กระบวนการจัดการคลังสินค้า (WMS)
 - การสนับสนุนแบบรวมสำหรับเอกสารต้นทางสำหรับใบสั่งขาย การส่งคืนสินค้า ใบสั่งโอนย้าย ใบสั่งผลิต และคัมบัง  
 - การสนับสนุนลำดับงานวัสดุที่ยืดหยุ่นทั้งขาเข้าและขาออกที่ยึดตามแบบสอบถาม
 - การรวมทั้งหมดกับข้อเสนอการผลิตและการขนส่ง

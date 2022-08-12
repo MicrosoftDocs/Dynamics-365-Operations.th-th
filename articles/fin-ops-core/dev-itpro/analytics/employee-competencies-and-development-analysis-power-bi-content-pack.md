@@ -7,19 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263894
-ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263894"
+ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
+ms.openlocfilehash: e64c3e200e100712476ed46a51e94dc4e5917df2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851029"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206587"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>เนื้อหา Power BI ของการพัฒนาและความสามารถของพนักงาน
 
@@ -38,10 +39,10 @@ ms.locfileid: "8851029"
 
 คุณสามารถกรองข้อมูลแผนภูมิและไทล์ในรายงานเหล่านี้ และตรึงแผนภูมิและไทล์ไปยังแดชบอร์ด สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกรองและปักหมุดใน Power BI ดู [สร้างและตั้งค่าคอนฟิกแดชบอร์ด](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards)
 
-## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี้
+## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี
 ใช้ข้อมูลแอพลิเคชันเพื่อรวบรวมรายงานในชุดเนื้อหาความสามารถของพนักงานและการพัฒนา ตารางต่อไปนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
 
-| เอนทิตี้                            | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
+| เอนทิตี                            | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | บุคลากร\_CalendarOffset         | ปฏิทินออฟเซ็ตเพื่อแบ่งส่วนรายงาน                                                                          | |
 | บุคลากร\_บริษัท                | บริษัทสามารถกรองข้อมูลรายงานโดย                                                                             | |

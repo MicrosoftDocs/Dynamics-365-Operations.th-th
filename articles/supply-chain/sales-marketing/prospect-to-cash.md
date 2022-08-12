@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857241"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103608"
 ---
 # <a name="prospect-to-cash"></a>ผู้ที่มีแนวโน้มจะเป็นลูกค้าจนถึงเงินสด
 
@@ -43,13 +43,13 @@ ms.locfileid: "8857241"
 ## <a name="system-requirements-for-supply-chain-management"></a>ระบบต้องใช้กับ Supply Chain Management
 การรวมผู้ที่มีแนวโน้มจะเป็นลูกค้าเป็นเงินสดได้รับการสนับสนุนในรุ่นต่อไปนี้:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (ธันวาคม 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 การเงินและการดำเนินงาน, Enterprise edition 7.3 (ธันวาคม 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (ธันวาคม 2017) - รุ่นของแอพลิเคชัน 7.3.11971.56116 กับการอัพเดแพลตฟอร์ม 12 (7.0.4709.41129)
+- Dynamics 365 การเงินและการดำเนินงาน, Enterprise edition (ธันวาคม 2017) - รุ่นของแอปลิเคชัน 7.3.11971.56116 พร้อมกับการอัปเดตแพลตฟอร์ม 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise Edition (กรกฎาคม 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (กรกฎาคม 2017) - ที่มีการอัพเดตแพลตฟอร์ม 8 (รุ่นของแอพลิเคชัน 7.2.11792.56024 ที่มีบิลด์ของแพลตฟอร์ม 7.0.4565.16212)
+- Dynamics 365 การเงินและการดำเนินงาน, Enterprise edition (กรกฎาคม 2017) - พร้อมกับการอัปเดตแพลตฟอร์ม 8 (รุ่นแอปลิเคชัน 7.2.11792.56024 พร้อมแพลตฟอร์มรุ่น 7.0.4565.16212)
 - จำเป็นต้องมีโปรแกรมแก้ไขด่วนต่อไปนี้:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – โปรแกรมแก้ไขด่วนนี้ทำให้สามารถซิงโครไนส์ใบสั่งขายจาก Sales ไปยัง Supply Chain Management ผ่านทางคุณลักษณะการรวมข้อมูล ยังมีการปรับปรุงอื่นๆ อีกหลายส่วน
@@ -59,9 +59,9 @@ ms.locfileid: "8857241"
     > [!NOTE]
     > คุณเพียงต้องติดตั้ง KB4045570 เนื่องจากการติดตั้งรวมการเปลี่ยนแปลงจากของโปรแกรมแก้ไขด่วนอื่นๆ 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations รุ่น 1611 (พฤศจิกายน 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 การเงินและการดำเนินงาน รุ่น 1611 (พฤศจิกายน 2016)
 
-- Dynamics 365 for Finance and Operations รุ่น 1611 (พฤศจิกายน 2016) ที่มีการอัพเดตแพลตฟอร์ม 8 หรือสูงกว่า
+- Dynamics 365 การเงินและการดำเนินงาน รุ่น 1611 (พฤศจิกายน 2016) ที่มีการอัปเดตแพลตฟอร์ม 8 หรือสูงกว่า
 
 - จำเป็นต้องมีโปรแกรมแก้ไขด่วนต่อไปนี้:
 

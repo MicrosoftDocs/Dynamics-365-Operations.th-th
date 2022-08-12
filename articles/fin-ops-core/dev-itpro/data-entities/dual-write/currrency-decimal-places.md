@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855600"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112288"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>การโยกย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
 
@@ -100,3 +100,4 @@ ms.locfileid: "8855600"
 |          | ความละเอียดทศนิยมสูงสุดที่มองเห็นได้ในฐานข้อมูลและ UI ผลการสอบถามฐานข้อมูล | 10 หลัก อย่างไรก็ตาม มีเพียง 4 ตัวที่มีนัยสําคัญเลขที่มีศูนย์ทั้งหมดเกินกว่าตัวเลขทศนิยม 4 หลัก ซึ่งเปิดใช้งานการย้ายโครงสร้างขององค์กรที่ง่ายขึ้นและเร็วขึ้น ถ้าต้องใช้ | 10 หลัก      | 10 หลัก     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

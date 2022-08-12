@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867425"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103986"
 ---
 # <a name="on-premises-deployment-home-page"></a>โฮมเพจการปรับใช้ในสถานที่
 
@@ -73,9 +73,10 @@ ms.locfileid: "8867425"
 - [สคริปต์สำหรับการแก้ไขปัญหาในสภาพแวดล้อมในสถานที่](onprem-tsg-implementations.md)
 - [การหมุนเวียนใบรับรอง](certificate-rotation-on-prem.md)
 - [การวินิจฉัยแบบในสถานที่](on-premises-diagnostics.md)
-- [คุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนสำหรับ Finance and operations](../migration-upgrade/deprecated-features.md)
+- [คุณลักษณะที่ถูกลบออกหรือเลิกสนับสนุนสำหรับการเงินและการดำเนินงาน](../migration-upgrade/deprecated-features.md)
 - [นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในสถานที่](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065478"
 ---
 # <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 
@@ -165,7 +165,7 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
 1. โปรดสังเกตว่าฟิลด์ **สถานะของสถานที่** สำหรับสถานที่ที่งานใบสั่งขายที่มีการเบิกสินค้าในขณะนี้ถูกตั้งค่าเป็น *กำลังเบิกสินค้า* และฟิลด์ **วันที่และเวลาของกิจกรรมล่าสุด** ได้รับการปร้บปรุง
 
 > [!NOTE]
-> มีการปร้บปรุงฟิลด์สถานที่โดยธุรกรรมคลังสินค้าเท่านั้น ถ้าคุณย้ายสินค้าคงคลังโดยใช้สมุดรายวันหรือกระบวนการที่ไม่ใช่ WHS อื่นๆ ฟิลด์จะไม่ได้รับการปร้บปรุง
+> มีการปร้บปรุงฟิลด์สถานที่โดยธุรกรรมคลังสินค้าเท่านั้น ถ้าคุณย้ายสินค้าคงคลังโดยใช้สมุดรายวันหรือกระบวนการที่ไม่ใช่ WMS อื่นๆ ฟิลด์จะไม่ได้รับการปร้บปรุง
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

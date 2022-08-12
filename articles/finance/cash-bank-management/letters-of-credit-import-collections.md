@@ -1,7 +1,7 @@
 ---
 title: เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
 description: บทความนี้มีข้อมูลทั่วไปเกี่ยวกับเลตเตอร์ออฟเครดิตและคอลเลกชันของการนำเข้า เอกสารธนาคารทั้งสองชนิดมักใช้สำหรับการซื้อและการขายสินค้าข้ามพรมแดนประเทศ
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 18321
 ms.assetid: 5c97ab81-632b-4043-a940-674bcb496c80
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2aae120158d4cc7bd9a7f3dd0fa95b3b14b586c2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d6bfa6cc8788cb786749d7bb10202836f30c6e79
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722952"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151714"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>เลตเตอร์ออฟเครดิตและการเรียกเก็บเงินสำหรับการนำเข้า
 

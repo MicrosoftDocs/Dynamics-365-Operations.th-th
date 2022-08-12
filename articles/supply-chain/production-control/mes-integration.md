@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860651"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068045"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
 
@@ -252,9 +252,10 @@ ms.locfileid: "8860651"
 ในกรณีนี้ คุณสามารถใช้ประโยชน์จากคุณลักษณะการแจ้งเตือนมาตรฐานใน Supply Chain Management สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานข้อความแจ้งเตือนมาตรฐาน โปรดดูที่ทรัพยากรต่อไปนี้:
 
 - บทความวิธีใช้: [ภาพรวมของการแจ้งเตือน](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- วิดีโอ: [ตัวเลือกกฎการแจ้งเตือน ใน Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- วิดีโอ: [ตัวเลือกกฎการแจ้งเตือนในการเงินและการดําเนินงาน](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 ตัวอย่างเช่น คุณอาจตั้งค่าการแจ้งเตือนต่อไปนี้เพื่อให้ผลป้อนกลับเกี่ยวกับสถานะของข้อความ:
 
 - สร้างเหตุการณ์ทางธุรกิจ ("ส่งภายนอก") ที่ใช้เมื่อข้อความ *ล้มเหลว*
 - ส่งการแจ้งเตือนและส่งอีเมลถึงผู้ดูแลระบบไอทีหรือผู้จัดการฝ่ายผลิต
+

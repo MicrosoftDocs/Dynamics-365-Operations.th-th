@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849516"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124804"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.22 (พฤศจิกายน 2021)
 
@@ -60,7 +60,7 @@ ms.locfileid: "8849516"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platform update เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น 10.0.22 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platform update หากต้องการเรียนรู้เพิ่มเติม โปรดดูที่ [การอัพเดตแพลทฟอร์มสำหรับรุ่น 10.0.22 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 
@@ -84,3 +84,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.22 รวมถึง Platfo
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป รายการเหล่านี้คือการอัปเดตการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

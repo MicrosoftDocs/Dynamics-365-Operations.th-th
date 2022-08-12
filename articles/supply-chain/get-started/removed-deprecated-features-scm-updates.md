@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865279"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171529"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "8865279"
 รายการนี้มีไว้เพื่อช่วยคุณพิจารณาการลบออกและการยกเลิกการใช้งานเหล่านี้สำหรับการวางแผนของคุณเอง
 
 > [!NOTE]
-> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้ได้ เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่ได้เปลี่ยนแปลง หรือถูกเอาออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
+> ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่มีการเปลี่ยนแปลง หรือโดนลบออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.19
@@ -48,11 +48,11 @@ ms.locfileid: "8865279"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.18
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations- คลังสินค้า (แอปคลังสินค้า)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a>Supply Chain Management- Warehousing (แอปคลังสินค้า)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | มีผลบังคับใช้วันที่ 2021 *Dynamics 365 for Finance and Operations - คลังสินค้า* (แอปคลังสินค้า) ไม่ได้รับการสนับสนุนและจะไม่ได้รับการสนับสนุนหลังจากเดือนเมษายน 2022 ซึ่งถูกแทนที่ด้วย *แอปการจัดการคลังสินค้าบนมือถือ* ซึ่งถูกปล่อยออกใช้ด้วยรุ่น 10.0.17 ของ Supply Chain Management แอปใหม่เป็นการแทนที่โดยสมบูรณ์แต่ใช้กรอบงานการทดแทนเดียวกันซึ่งช่วยให้การย้ายข้อมูลได้ง่าย หากต้องการ แอปสองแอปสามารถใช้ได้ทีละขั้นตอนเพื่อช่วยให้ผู้ใช้ปรับปรุงทีละน้อยเมื่อผู้ใช้เรียนรู้ที่จะใช้แอปใหม่<br><br>สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [แอปการจัดการคลังสินค้าบนมือถือใหม่](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) และ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md) |
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | มีผลบังคับใช้วันที่ 2021 *Supply Chain Management - Warehousing* (แอปคลังสินค้า) ไม่ได้รับการสนับสนุนและจะไม่ได้รับการสนับสนุนหลังจากเดือนเมษายน 2022 ซึ่งถูกแทนที่ด้วย *แอปการจัดการคลังสินค้าบนมือถือ* ซึ่งถูกปล่อยออกใช้ด้วยรุ่น 10.0.17 ของ Supply Chain Management แอปใหม่เป็นการแทนที่โดยสมบูรณ์แต่ใช้กรอบงานการทดแทนเดียวกันซึ่งช่วยให้การย้ายข้อมูลได้ง่าย หากต้องการ แอปสองแอปสามารถใช้ได้ทีละขั้นตอนเพื่อช่วยให้ผู้ใช้ปรับปรุงทีละน้อยเมื่อผู้ใช้เรียนรู้ที่จะใช้แอปใหม่<br><br>สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแอปการจัดการคลังสินค้าบนมือถือใหม่ ให้ดูที่ [แอปการจัดการคลังสินค้าบนมือถือใหม่](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) และ [ติดตั้งและเชื่อมต่อแอปการจัดการคลังสินค้าบนมือถือ](../warehousing/install-configure-warehouse-management-app.md) |
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ แทนที่ด้วยแอปการจัดการคลังสินค้าบนมือถือใหม่ |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | Supply Chain Management - แอปคลังสินค้า |
 | **ตัวเลือกการปรับใช้**              | ระบบคลาวด์และในองค์กร |
@@ -98,3 +98,4 @@ ms.locfileid: "8865279"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899743"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067112"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>ตั้งค่าคอนฟิกตารางเสมือน Dataverse
 
@@ -121,10 +121,10 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 
 4. ใน **ฮับความสมบูรณ์ของโซลูชัน** ให้เลือกไอคอน **การค้นหาขั้นสูง** ที่ด้านบนขวาของหน้าแอปพลิเคชัน
 
-5. บนหน้า **การค้นหาขั้นสูง** ในรายการดรอปดาวน์ **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของ Finance and Operations**
+5. บนหน้า **การค้นหาขั้นสูง** ในรายการดรอปดาวน์ **ค้นหา** ให้เลือก **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของการเงินและการดำเนินงาน**
 
    > [!NOTE]
-   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของ Finance and Operations** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
+   > การติดตั้งแอปตารางเสมือนจากขั้นตอนการตั้งค่าก่อนหน้า อาจใช้เวลาสักครู่ ถ้า **การตั้งค่าคอนฟิกแหล่งข้อมูลเสมือนของการเงินและการดำเนินงาน** ไม่พร้อมใช้งานในรายการ ให้รอสักครู่และรีเฟรชรายการ
 
 6. เลือก **ผลลัพธ์**
 
@@ -218,3 +218,4 @@ Dynamics 365 Human Resources เป็นแหล่งข้อมูลเส
 [ภาพรวมของการสร้างแอปใน Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
-description: บทความนี้จะอธิบายถึงการปรับปรุงคุณลักษณะเกณฑ์พื้นฐานของ ER ใน Microsoft Dynamics 365 for Finance and Operations เวอร์ชัน 10.0.3 (มิถุนายน 2019)
+description: บทความนี้จะอธิบายถึงการปรับปรุงคุณลักษณะเกณฑ์พื้นฐานของ ER ใน Microsoft Dynamics 365 Finance รุ่น 10.0.3 (มิถุนายน 2019)
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847414"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109156"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>ปรับปรุงการติดตามผลของรายงานการรายงานทางอิเล็กทรอนิกส์ที่จัดทำเพื่อเปรียบเทียบกับค่าพื้นฐาน
 
 [!include[banner](../includes/banner.md)]
 
-บทความนี้จะอธิบายถึงชุดของการปรับปรุงแรกที่ได้ทำไว้กับคุณลักษณะพื้นฐานของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) การปรับปรุงเหล่านี้พร้อมใช้งานใน Microsoft Dynamics 365 for Finance and Operations รุ่น 10.0.3 (มิถุนายน 2019) และใหม่กว่า
+บทความนี้จะอธิบายถึงชุดของการปรับปรุงแรกที่ได้ทำไว้กับคุณลักษณะพื้นฐานของกรอบงานการรายงานทางอิเล็กทรอนิกส์ (ER) การปรับปรุงเหล่านี้พร้อมใช้งานใน Microsoft Dynamics 365 Finance รุ่น 10.0.3 (มิถุนายน 2019) และใหม่กว่า
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>ทำให้การตั้งค่าของกฎพื้นฐานเป็นแบบอัตโนมัติ
 
@@ -101,7 +101,7 @@ ms.locfileid: "8847414"
 4. เลือก **ตัวออกแบบ**
 5. ในแผนภูมิ ให้เลือก **เอาท์พุท\\เอกสาร**
 6. เลือก **เพิ่ม**
-7. ในกล่องโต้ตอบรายการแบบหล่นลง ในแผนภูมิ ให้เลือก **XML\\แอททริบิวต์**
+7. ในกล่องโต้ตอบรายการแบบหล่นลง ในแผนภูมิ ให้เลือก **XML\\แอตทริบิวต์**
 8. ในฟิลด์ **ชื่อ** ให้ป้อน **ProcessingDateTime**
 9. เลือก **ตกลง**
 10. บนแท็บ **การแม็ป** ในแผนภูมิ ให้เลือก **เอาท์พุท\\เอกสาร\\ProcessingDateTime**
@@ -208,3 +208,4 @@ ms.locfileid: "8847414"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

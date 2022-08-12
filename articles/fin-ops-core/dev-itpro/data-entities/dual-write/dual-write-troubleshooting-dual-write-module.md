@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864585"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111184"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>แก้ไขปัญหาการรวมแบบสองทิศทางในแอปการเงินและการดำเนินงาน
 
@@ -73,7 +73,7 @@ Root activity ID: \<your root activity\> id
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>เปิดใช้งานประมวลผลพร้อมกันในแอปการเงินและการดำเนินงานเพื่อปรับปรุงประสิทธิภาพ
 
-การเปิดใช้งานการประมวลผลพร้อมกันจะสามารถลดเวลาที่ต้องใช้ในการนําเข้าข้อมูลจากแอปการมีส่วนร่วมของลูกค้าของ Dynamics 365 และ Microsoft Dataverse ไปยังแอปการเงินและการดำเนินงาน 
+การเปิดใช้งานการประมวลผลพร้อมกันจะสามารถลดเวลาที่ต้องใช้ในการนําเข้าข้อมูลจากแอป Dynamics 365 customer engagement และ Microsoft Dataverse ไปยังแอปการเงินและการดำเนินงาน 
 
 หากต้องการเปิดใช้งานประมวลผลพร้อมกันในแอปการเงินและการดำเนินงาน ให้ทำตามขั้นตอนต่อไปนี้
 
@@ -112,3 +112,4 @@ Root activity ID: \<your root activity\> id
 เมื่อต้องการแก้ไขปัญหา ให้อัปเดตโซลูชันการรวมแบบสองทิศทางใน Dataverse ตรวจสอบให้แน่ใจว่าได้อัปเกรดเป็นโซลูชันล่าสุดที่ตรงกับรุ่นโซลูชันที่ต้องใช้
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

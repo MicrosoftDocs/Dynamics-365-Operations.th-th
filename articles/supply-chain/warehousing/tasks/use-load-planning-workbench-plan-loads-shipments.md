@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e53b7667dd4589a7c6c14b8aaf8ba51017eee0d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877347"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068344"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>วางแผนการบรรทุกและการจัดส่งโดยใช้เวิร์กเบนช์การวางแผนการบรรทุก
 
@@ -38,7 +38,7 @@ ms.locfileid: "8877347"
 7. เลือกสินค้า **A0001** **A0001** ถูกเปิดใช้งานสำหรับการจัดการการขนส่ง  
 8. ในฟิลด์ **ไซต์** ให้เลือกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา และจากนั้น เลือกสินค้า
 9. ในฟิลด์ **ปริมาณ** ให้ป้อนตัวเลข
-10. ในฟิลด์ **คลังสินค้า** ให้พิมพ์ '24' สำหรับตัวอย่างนี้ คลังสินค้านี้เปิดใช้งานสำหรับการจัดการการขนส่งและการจัดการคลังสินค้าขั้นสูง  
+10. ในฟิลด์ **คลังสินค้า** ให้พิมพ์ '24' สำหรับตัวอย่างนี้ คลังสินค้านี้เปิดใช้งานสำหรับการจัดการการขนส่งและกระบวนการ Warehouse Management (WMS)  
 11. เลือก **บันทึก**
 12. ปิดหน้า
 

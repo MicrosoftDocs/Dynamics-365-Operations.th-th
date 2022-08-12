@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898382"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124208"
 ---
 # <a name="help-system"></a>ระบบวิธีใช้
 
@@ -53,7 +53,7 @@ ms.locfileid: "8898382"
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>รับการแจ้งเตือนเกี่ยวกับการเปลี่ยนแปลงผ่านตัวดึงข้อมูล RSS
 
-เมื่อต้องการสมัครสมาชิกตัวดึงข้อมูล RSS ของการปรับปรุงทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
+เมื่อต้องการสมัครใช้งานตัวดึงข้อมูล RSS ของการอัปเดตทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
 
 [ตัวดึงข้อมูล RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ ms.locfileid: "8898382"
 
 คำแนะนำของคือคู่มือในการควบคุม ประสบการณ์การโต้ตอบ ที่นำคุณผ่านขั้นตอนของงานหรือกระบวนการทางธุรกิจ คุณสามารถเปิดคู่มืองาน (เล่น) จากบานหน้าต่าง **วิธีใช้** ได้ เมื่อคุณเลือกคู่มืองานเป็นครั้งแรก บานหน้าต่าง **วิธีใช้** จะแสดงคำแนะนำทีละขั้นตอนสำหรับงานนั้น คู่มืองานที่เป็นภาษาท้องถิ่นพร้อมใช้งานแล้วในขณะนี้
 
-ไลบรารีของคู่มืองานที่นำออกใช้ของ Microsoft สำหรับรุ่นผลิตภัณฑ์ โดยผ่านการเผยแพร่ในเดือนธันวาคม 2017 ของ Dynamics 365 for Finance and Operations ส่วน [การเข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้](#accessing-task-guides-from-the-help-pane) ของบทความนี้จะอธิบายวิธีการค้นหาคู่มืองานที่ถูกต้องสำหรับผลิตภัณฑ์ของคุณ
+ไลบรารีของคู่มืองานที่นำออกใช้ของ Microsoft สำหรับรุ่นผลิตภัณฑ์ โดยผ่านการเผยแพร่ในเดือนธันวาคม 2017 ของ Dynamics 365 การเงินและการดำเนินงาน ส่วน [การเข้าถึงคู่มืองานจากบานหน้าต่างวิธีใช้](#accessing-task-guides-from-the-help-pane) ของบทความนี้จะอธิบายวิธีการค้นหาคู่มืองานที่ถูกต้องสำหรับผลิตภัณฑ์ของคุณ
 
 ![มุมมองการอ่านคู่มืองาน](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

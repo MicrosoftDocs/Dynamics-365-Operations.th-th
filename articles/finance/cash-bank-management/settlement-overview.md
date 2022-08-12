@@ -1,7 +1,7 @@
 ---
 title: ภาพรวมของการชำระเงิน
 description: บทความนี้ให้ข้อมูลทั่วไปเกี่ยวกับกระบวนการชำระเงิน การทำเช่นนี้อธิบายถึงชนิดของธุรกรรมที่สามารถชำระเงินได้ และกำหนดเวลาและกระบวนการสำหรับการชำระเงินได้ นอกจากนี้ยังอธิบายถึงผลลัพธ์ของกระบวนการชำระเงิน
-author: panolte
+author: angelad116
 ms.date: 07/30/2021
 ms.topic: overview
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 343802b409363f2698f857f3fc0e2682b48fec92
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887961"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151236"
 ---
 # <a name="settlement-overview"></a>ภาพรวมของการชำระเงิน
 

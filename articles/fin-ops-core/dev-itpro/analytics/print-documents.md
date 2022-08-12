@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984919"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206739"
 ---
 # <a name="document-printing-overview"></a>ภาพรวมของการพิมพ์เอกสาร
 
@@ -54,7 +54,7 @@ ms.locfileid: "7984919"
 - **สถานการณ์สมมติที่ 2** ใช้แอพพลิเคชันไคลเอ็นต์และบริการ Microsoft 365
 - **สถานการณ์สมมติที่ 3** ต้องการการสนับสนุนจากแอพพลิเคชันไคลเอ็นต์และจากบริการที่มีการโฮสต์ใน Microsoft Azure
 
-นอกเหนือจากแท่นวางที่ปรับใช้ในการบอกรับเป็นสมาชิก Azure แอปพลิเคชันการเงินและการดำเนินงานจะให้ลูกค้ามีแอปพลิเคชัน Azure ฝ่ายแรกแบบรวม ที่ช่วยให้พวกเขาใช้งานอุปกรณ์ที่เป็นโฮสต์โดเมนเพื่อพิมพ์เอกสารได้ง่ายขึ้น
+นอกเหนือจากแพลตฟอร์มที่ปรับใช้ในการสมัครใช้งาน Azure แอปพลิเคชันการเงินและการดำเนินงานจะให้ลูกค้ามีแอปพลิเคชัน Azure ฝ่ายแรกแบบรวม ที่ช่วยให้พวกเขาใช้งานอุปกรณ์ที่เป็นโฮสต์โดเมนเพื่อพิมพ์เอกสารได้ง่ายขึ้น
 
 ## <a name="service-overview"></a>ภาพรวมของการบริการ
 ในขณะที่เอกสารที่สร้างขึ้นโดยแอปพลิเคชันที่เป็นโฮสต์กำลังรอที่จะถูกพิมพ์บนอุปกรณ์ที่เชื่อมต่อเครือข่าย เอกสารจะถูกจัดเก็บใน Azure blob storage [ติดตั้งเอเจนต์การกำหนดเส้นทางเอกสารเพื่อเปิดใช้งานการพิมพ์ผ่านเครือข่าย](install-document-routing-agent.md) ใช้การรับรองความถูกต้อง Azure เพื่อสร้างช่องทางที่ปลอดภัยไปยังบริการ Azure

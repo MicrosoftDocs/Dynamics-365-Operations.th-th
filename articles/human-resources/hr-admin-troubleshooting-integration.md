@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879292"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067630"
 ---
 # <a name="integration-with-finance-faq"></a>การรวมกับคำถามที่พบบ่อยเกี่ยวกับ Finance
 
@@ -88,7 +88,7 @@ ms.locfileid: "8879292"
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>ฉันสามารถตั้งค่าการรวมสองทิศทางได้หรือไม่
 
-ไม่ได้ การรวมเป็นแบบทิศทางเดียวในขณะนี้ (Human Resources ไปยัง Finance and Operations) อย่างไรก็ตาม มีเทมเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Human Resources ไปยัง Finance
+ไม่ ในขณะนี้การรวมเป็นแบบทิศทางเดียว (ทรัพยากรบุคคล ไปยังการเงินและการดำเนินงาน) อย่างไรก็ตาม มีเทมเพลตเริ่มต้นที่มีอยู่เพื่อส่งข้อมูลจาก Human Resources ไปยัง Finance
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>ฉันจะอนุญาตให้ลบเรกคอร์ดโดยเป็นส่วนหนึ่งของการรวมของฉันได้หรือไม่
 
@@ -118,7 +118,7 @@ ms.locfileid: "8879292"
 
 - การโอนย้ายข้อมูลที่เป็นผลลัพธ์ในเรกคอร์ดที่ซ้ำกันในการแยกข้อมูลลที่ต้นทาง (Dataverse)
 
-- การโอนย้ายข้อมูลมีค่า null สำหรับฟิลด์ที่จำเป็นใน Finance and Operations ตรวจสอบข้อมูลที่อยู่ใน Dataverse และตรงตามข้อกำหนดของ Finance and Operations
+- การโอนย้ายข้อมูลมีค่า null สำหรับฟิลด์ที่จำเป็นในการเงินและการดำเนินงาน ตรวจสอบข้อมูลที่อยู่ใน Dataverse และตรงตามข้อกำหนดของ Finance and Operations
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>ถ้ามีข้อผิดพลาดการดำเนินการ และรหัสพนักงานยังไม่ได้ซิงค์ ฉันจะค้นหาประวัติงานที่มีเรกคอร์ดพนักงานที่ล้มเหลวได้อย่างไร
 
@@ -150,7 +150,7 @@ ms.locfileid: "8879292"
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>ที่อยู่สำหรับพนักงานของฉันไม่ถูกต้อง หลังจากที่ฉันนำเข้าไปยัง Finance ฉันควรทำอย่างไร
 
-ลำดับหมายเลขสำหรับ **รหัสสถานที่** ใช้รูปแบบเดียวกันในทั้ง Human Resources และ Finance ลำดับหมายเลขต้องไม่ซ้ำกันทั้งสองด้าน เพื่อให้ไม่มีการชนกันของที่อยู่เมื่อรวมข้อมูลจาก Dataverse ไปยัง Finance and Operations
+ลำดับหมายเลขสำหรับ **รหัสสถานที่** ใช้รูปแบบเดียวกันในทั้ง Human Resources และ Finance ลำดับหมายเลขต้องไม่ซ้ำกันทั้งสองด้าน เพื่อให้ไม่มีการชนกันของที่อยู่เมื่อรวมข้อมูลจาก Dataverse ไปยังการเงินและการดำเนินงาน
 
 ในระหว่างการใช้งานของ Human Resources ให้ตรวจสอบว่าลำดับหมายเลขไม่เหมือนกันใน Human Resources และ Finance ตรวจสอบว่าลำดับหมายเลขทั้งหมดไม่เหมือนกันซึ่งอาจจะรักษาข้อมูลในทั้งสองระบบ
 
@@ -184,3 +184,4 @@ ms.locfileid: "8879292"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

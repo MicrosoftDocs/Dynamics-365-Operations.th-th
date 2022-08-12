@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 24290ec873da9e871c001bcdc97e14dcad0e3d1e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573428"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111124"
 ---
 # <a name="create-a-new-trade-agreement"></a>สร้างข้อตกลงทางการค้าใหม่
 
@@ -76,9 +76,9 @@ ms.locfileid: "7573428"
 
 - [ข้อตกลงทางการค้า](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
-### <a name="community-blogs"></a>บล็อกคอมมูนิตี
+### <a name="community-blogs"></a>บล็อกชุมชน
 
-- [ราคาขายใน Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+- [ราคาขายในการเงินและการดำเนินงาน](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

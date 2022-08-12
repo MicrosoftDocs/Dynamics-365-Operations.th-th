@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851665"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112164"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>พื้นที่ทำงานแบบเคลื่อนที่ของการทำงานร่วมกันกับผู้จัดจำหน่าย
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851665"
 
 บทความนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานแบบเคลื่อนที่ของ **การทำงานร่วมกันกับผู้จัดจำหน่าย** พื้นที่ทำงานนี้ช่วยให้ผู้จัดจำหน่ายของคุณได้ติดตามสถานการณ์ปัจจุบัน เกี่ยวกับใบสั่งซื้อที่ถูกส่งไปขอการอนุมัติ นอกจากนี้ยังสามารถดูข้อมูลเกี่ยวกับใบสั่งซื้อและผู้ติดต่อใหม่และที่อัพเดตแล้ว
 
-พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอป Finance and Operations (Dynamics 365) บนมือถือ
+พื้นที่ทำงานแบบเคลื่อนที่นี้มีจุดมุ่งหมายเพื่อใช้กับแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ
 
 ## <a name="overview"></a>ภาพรวม 
 พื้นที่ทำงานแบบเคลื่อนที่ **การทำงานร่วมกันกับผู้จัดจำหน่าย** คอยให้ข้อมูลผู้จัดจำหน่ายเกี่ยวกับใบสั่งซื้อใหม่ เพื่อให้พวกเขาสามารถดูใบสั่งซื้อและจากนั้นตอบสนองในเว็บไคลเอ็นต์ 
@@ -108,9 +108,9 @@ ms.locfileid: "8851665"
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปบนมือถือ
+## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ดาวน์โหลดและติดตั้งแอป Finance and Operations (Dynamics 365) บนมือถือ:
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงาน (Dynamics 365) บนมือถือ:
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ ms.locfileid: "8851665"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

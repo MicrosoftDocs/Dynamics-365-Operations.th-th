@@ -1,6 +1,6 @@
 ---
 title: วิดีโอ
-description: หน้านี้แสดงรายการ "วิธีการ" ที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอป Finance and Operations ที่มีอยู่บน YouTube และไซต์อื่น
+description: หน้านี้แสดงรายการ "วิธีการ" ที่สร้างโดย Microsoft และวิดีโอการพูดคุยเกี่ยวกับเทคโนโลยีที่เกี่ยวข้องกับแอปการเงินและการดำเนินงานที่มีอยู่บน YouTube และไซต์อื่น
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958151"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124968"
 ---
 # <a name="videos"></a>วิดีโอ 
 
 [!include [banner](../includes/banner.md)]
 
-ใน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้ ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับแอป Finance and Operations ที่โฮสต์บนช่องทาง
+ใน [ช่อง Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) คุณสามารถค้นหาวิดีโอที่สร้างโดย Microsoft ที่สาธิตโซลูชันทางธุรกิจที่หลากหลายสำหรับผลิตภัณฑ์ Dynamics 365 ได้ ส่วนนี้แสดงรายการวิดีโอ "วิธีใช้" สำหรับแอปการเงินและการดำเนินงานที่เป็นโฮสต์บนช่องสัญญาณ
 
 > [!Note]
 > วิดีโอบางรายการที่แสดงรายการได้รับการเผยแพร่ภายใต้ชื่อผลิตภัณฑ์ก่อนหน้านี้ แต่ยังสามารถใช้ได้
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>การพัฒนาและการจัดการวิดีโอสำหรับ Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>วิดีโอสำหรับการพัฒนาและการจัดการการเงินและการดำเนินงาน
 
 ### <a name="data-integration"></a>การรวมข้อมูล
 
-- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับแอป Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [ซิงโครไนส์ใบสั่งงานระหว่าง Dynamics 365 for Field Service กับแอปการเงินและการดำเนินงาน](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>การจัดการข้อมูล
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958151"
 ### <a name="intelligence"></a>ข่าวกรอง
 
 - [วิธีการแก้ไขรายงานที่ฝังในพื้นที่ทำงานเชิงวิเคราะห์](https://youtu.be/_8WlwmSggcQ)
-- [วิธีการฝังรายงาน PowerBI.com ในแอป Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [นำฐานข้อมูลของคุณเอง (BYOD) ไปยังแอป Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [วิธีการฝังรายงาน PowerBI.com ในแอปการเงินและการดำเนินงาน](https://youtu.be/gGWuNJDoi-M)
+- [นำฐานข้อมูลของคุณเอง (BYOD) ไปยังแอปการเงินและการดำเนินงาน](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [วิธีการใช้เนื้อหา Power BI ของการจัดการต้นทุนใน Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958151"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

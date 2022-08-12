@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871259"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069004"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>การโอนย้ายบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป
 
@@ -28,7 +28,7 @@ ms.locfileid: "8871259"
 
 บทความนี้จะอธิบายความสามารถที่เกี่ยวข้องกับกฎสำหรับการโอนย้ายชุดงานของรายการสมุดรายวันบัญชีแยกประเภทย่อย
 
-ในรุ่น 8.1 ได้ทำการเปลี่ยนแปลงเพื่ออนุญาตให้มีการโอนย้ายกฎ ซึ่งเลิกสนับสนุนตัวเลือก **ซิงโครนัส** สำหรับข้อมูลเพิ่มเติม โปรดดู [คุณลักษณะที่เอาออกหรือไม่สนับสนุนสำหรับ Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)
+ในรุ่น 8.1 ได้ทำการเปลี่ยนแปลงเพื่ออนุญาตให้มีการโอนย้ายกฎ ซึ่งเลิกสนับสนุนตัวเลือก **ซิงโครนัส** สำหรับข้อมูลเพิ่มเติม ให้ดู [คุณลักษณะที่ลบออกหรือไม่สนับสนุนสำหรับการเงินและการดำเนินงาน](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)
 
 ตัวเลือกต่อไปนี้จะพร้อมใช้งานสำหรับการโอนย้ายชุดงานบัญชีแยกประเภทย่อย:
 
@@ -46,3 +46,4 @@ ms.locfileid: "8871259"
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่ากระบวนระบบอัตโนมัติ ดูที่ [กระบวนการระบบอัตโนมัติ](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
