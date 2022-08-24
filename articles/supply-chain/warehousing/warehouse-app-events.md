@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905467"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218756"
 ---
 # <a name="warehouse-app-event-processing"></a>การประมวลผลเหตุการณ์ของแอปคลังสินค้า
 
@@ -28,7 +28,7 @@ ms.locfileid: "8905467"
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะประมวลผลเหตุการณ์ของแอปคลังสินค้า
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ประมวลผลเหตุการณ์ของแอปคลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ ดังนั้น ระบบจึงเปิดอยู่ตามค่าเริ่มต้นจึงไม่สามารถปิดได้อีก ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ประมวลผลเหตุการณ์ของแอปคลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>ตั้งค่าชุดงานเพื่อประมวลผลเหตุการณ์ของแอปคลังสินค้า
 

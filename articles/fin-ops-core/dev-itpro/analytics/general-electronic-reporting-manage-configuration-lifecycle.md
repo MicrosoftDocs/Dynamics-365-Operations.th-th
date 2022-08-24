@@ -1,32 +1,32 @@
 ---
 title: จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
 description: บทความนี้อธิบายวิธีการจัดการการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) สำหรับ Dynamics 365 Finance
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109096"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271597"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
 
 [!include [banner](../includes/banner.md)]
 
-บทความนี้อธิบายวิธีการจัดการการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) สำหรับ Dynamics 365 Finance
+บทความนี้อธิบายวิธีการจัดการ [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ของ [การรายงานทางอิเล็กทรอนิกส์](general-electronic-reporting.md) (ER) สำหรับ Dynamics 365 Finance
 
 ## <a name="overview"></a>ภาพรวม
 
@@ -105,6 +105,41 @@ ms.locfileid: "9109096"
 
     > [!NOTE]
     > พารามิเตอร์นี้เฉพาะผู้ใช้และเฉพาะบริษัท
+
+## <a name="dependencies-on-other-components"></a>การขึ้นต่อกันกับส่วนประกอบอื่นๆ
+
+คุณสามารถตั้งค่าคอนฟิก ER โดย [ขึ้นอยู่กับ](er-download-configurations-global-repo.md#import-filtered-configurations) การตั้งค่าคอนฟิกอื่นๆ ตัวอย่างเช่น คุณสามารถ [นําเข้า](er-download-configurations-global-repo.md) การตั้งค่าคอนฟิก [โมเดลข้อมูล](er-overview-components.md#data-model-component) ER จากที่เก็บส่วนกลางไปยัง [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) หรืออินสแตนซ์ Dynamics 365 Finance แล้วสร้างการตั้งค่าคอนฟิก [รูปแบบ](er-overview-components.md#format-component) ER ใหม่ [ที่ได้รับมา](er-quick-start2-customize-report.md#DeriveProvidedFormat) จากการตั้งค่าคอนฟิกโมเดลข้อมูล ER ที่นําเข้า การตั้งค่าคอนฟิกรูปแบบ ER ที่ได้รับจะขึ้นอยู่กับการตั้งค่าคอนฟิกโมเดลข้อมูล ER พื้นฐาน
+
+![การตั้งค่าคอนฟิกรูปแบบ ER ที่ได้รับมาบนหน้าการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img1.png)
+
+เมื่อคุณเสร็จสิ้นการออกแบบรูปแบบแล้ว คุณสามารถเปลี่ยนสถานะใน [รุ่น](general-electronic-reporting.md#component-versioning) เริ่มต้นของคุณของการตั้งค่าคอนฟิกรูปแบบ ER จาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** จากนั้น คุณสามารถแบ่งปันรุ่นที่เสร็จสมบูรณ์ของการตั้งค่าคอนฟิกรูปแบบER โดย [การเผยแพร่](../../../finance/localizations/rcs-global-repo-upload.md) ไปยังที่เก็บส่วนกลาง จากนั้นคุณสามารถเข้าถึงที่เก็บส่วนกลางจากอินสแตนซ์ RCS หรือระบบคลาวด์ทางการเงินใดๆ จากนั้นคุณสามารถนําเข้าเวอร์ชันการตั้งค่าคอนฟิก ER ใดๆ ที่ใช้กับแอปพลิเคชันจากที่เก็บส่วนกลางไปยังแอปพลิเคชันนั้น
+
+![การตั้งค่ารูปแบบ ER ที่เผยแพร่บนหน้าที่เก็บการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img2.png)
+
+ตามการขึ้นต่อกันของการตั้งค่าคอนฟิก เมื่อคุณเลือกการตั้งค่าคอนฟิกรูปแบบ ER ในที่เก็บสากลเพื่อนําเข้าไปยังอินสแตนซ์ RCS หรืออินสแตนซ์การเงินที่ปรับใช้ใหม่ ค่าคอนฟิกแบบของแบบโมเดลข้อมูล ER พื้นฐานจะพบโดยอัตโนมัติในที่เก็บส่วนกลาง และนําเข้าพร้อมกับการตั้งค่าคอนฟิกรูปแบบ ER ที่เลือกเป็นการตั้งค่าคอนฟิกพื้นฐาน
+
+คุณยังสามารถส่งออกเวอร์ชันการตั้งค่าคอนฟิกรูปแบบ ER ของคุณออกจากอินสแตนซ์ RCS หรือการเงินปัจจุบัน และจัดเก็บเวอร์ชันนี้ไว้เฉพาะที่เป็นไฟล์ XML ได้
+
+![การส่งออกรุ่นของการตั้งค่าคอนฟิกรูปแบบ ER เป็น XML บนหน้าการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img3.png)
+
+ในเวอร์ชันของ Finance **ก่อนเวอร์ชัน 10.0.29** เมื่อคุณพยายามนําเข้าเวอร์ชันการตั้งค่าคอนฟิกรูปแบบ ER จากไฟล์ XML นั้นหรือจากที่เก็บอื่นใดนอกเหนือจากที่เก็บส่วนกลางไปยัง RCS หรืออินสแตนซ์การเงินที่ปรับใช้ใหม่ที่ยังไม่ได้มีการตั้งค่าคอนฟิก ER ใดๆ ข้อยกเว้นต่อไปนี้จะถูกแจ้งเพื่อแจ้งให้คุณทราบว่าไม่สามารถรับการตั้งค่าคอนฟิกพื้นฐาน:
+
+> การอ้างอิงไม่ได้รับการแก้ไขที่เหลืออยู่<br>
+ไม่สามารถสร้างการอ้างอิงออบเจ็กต์ '\<imported configuration name\>' ไปยังออบเจ็กต์ 'Base' (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![การนําเข้ารุ่นการตั้งค่าคอนฟิกรูปแบบ ER บนหน้าที่เก็บการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img4.gif)
+
+ในเวอร์ชัน **10.0.29 และใหม่กว่า** เมื่อคุณพยายามนําเข้าการตั้งค่าคอนฟิกเดียวกัน ถ้าไม่พบการตั้งค่าคอนฟิกพื้นฐานในอินสแตนซ์แอพลิเคชันปัจจุบันหรือในที่เก็บต้นทางที่คุณใช้อยู่ในขณะนี้ (ถ้าเกี่ยวข้อง) กรอบงาน ER จะพยายามค้นหาชื่อของการตั้งค่าคอนฟิกพื้นฐานที่ขาดหายไปในแคชที่เก็บส่วนกลางโดยอัตโนมัติ จากนั้นจะแสดงชื่อและรหัสเฉพาะสากล (GUID) ของการตั้งค่าคอนฟิกพื้นฐานที่ขาดหายไปในข้อความของข้อยกเว้นที่มีเกิดขึ้น
+
+> การอ้างอิงไม่ได้รับการแก้ไขที่เหลืออยู่<br>
+ไม่สามารถสร้างการอ้างอิงออบเจ็กต์ '\<imported configuration name\>' ไปยังออบเจ็กต์ 'Base' (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![ข้อยกเว้นในหน้าที่เก็บการตั้งค่าคอนฟิกเมื่อไม่พบการตั้งค่าคอนฟิกพื้นฐาน](./media/ger-configuration-lifecycle-img5.png)
+
+คุณสามารถใช้ชื่อที่ระบุเพื่อค้นหาการตั้งค่าคอนฟิกพื้นฐาน แล้วนําเข้าด้วยตนเอง
+
+> [!NOTE]
+> ตัวเลือกใหม่นี้จะใช้ได้เฉพาะเมื่อผู้ใช้อย่างน้อยหนึ่งรายล็อกอินเข้าสู่ที่เก็บส่วนกลางแล้วโดยใช้หน้า [ที่เก็บการตั้งค่าคอนฟิก](er-download-configurations-global-repo.md#open-configurations-repository) หรือฟิลด์ [การค้นหา](er-extended-format-lookup.md) ที่เก็บส่วนกลางฟิลด์ใดฟิลด์หนึ่งในอินสแตนซ์การเงินปัจจุบัน และเมื่อมีการแคชเนื้อหาที่เก็บส่วนกลางแล้ว
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

@@ -1,26 +1,26 @@
 ---
 title: ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 description: บทความนี้ให้ข้อมูลเกี่ยวกับการจัดการปลายทางการรายงานทางอิเล็กทรอนิกส์ ชนิดของปลายทางที่สนับสนุน และข้อควรพิจารณาด้านความปลอดภัย
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851090"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281981"
 ---
 # <a name="electronic-reporting-er-destinations"></a>ปลายทางการรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -118,7 +118,7 @@ ms.locfileid: "8851090"
 
 [![ลิงก์กำหนดค่า](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-ในเวลาเดียวกัน คุณอาจมีรูปแบบหลาย [รุ่น](general-electronic-reporting.md#component-versioning) ที่นำเข้ามาในอินสแตนซ์การเงินปัจจุบัน คุณสามารถดูได้ หากคุณเลือกลิงก์ **การกำหนดค่า** ที่มีให้เมื่อคุณเลือกฟิลด์ **การอ้างอิง** 
+ในเวลาเดียวกัน คุณอาจมีรูปแบบหลาย รุ่น ที่นำเข้ามาในอินสแตนซ์การเงินปัจจุบัน คุณสามารถดูได้ หากคุณเลือกลิงก์ **การกำหนดค่า** ที่มีให้เมื่อคุณเลือกฟิลด์ **การอ้างอิง** 
 
 [![รุ่นการกำหนดค่า](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -180,6 +180,16 @@ Finance **รุ่น 10.0.9** ตัวเลือกการแปลง PD
 Finance **รุ่น 10.0.9** มีการรองรับเฉพาะการวางแนวหน้าแนวนอนในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel เท่านั้น เริ่ยต้นใน Finance **รุ่น 10.0.10** คุณสามารถ [ระบุการวางแนวหน้ากระดาษ](#SelectPdfPageOrientation) ในเอกสาร PDF ที่ผลิตจากผลลัพธ์ Excel ในขณะที่คุณตั้งค่าคอนฟิกปลายทาง ER
 
 แบบอักษรของระบบทั่วไปของระบบปฏิบัติการ Window เท่านั้น จะถูกใช้สำหรับแปลงผลลัพธ์ที่ไม่มีแบบอักษรแบบฝังอยู่
+
+### <a name="resources"></a>ทรัพยากร
+
+ก่อนการเงิน รุ่น 10.0.29 สามารถแปลง PDF ได้เฉพาะภายนอกอินสแตนซ์การเงินปัจจุบันเท่านั้น ไฟล์ที่สร้างขึ้นถูกส่งออกจากการเงินไปยังบริการการแปลง และบริการนั้นส่งคืนเอกสารที่แปลงค่า อย่างไรก็ตาม ในรุ่น **10.0.29 และที่ใหม่กว่า** นอกเหนือจากคุณลักษณะ **การแปลงเอกสารขาออกของการรายงานทางอิเล็กทรอนิกส์จากรูปแบบ Microsoft Office เป็น PDF** คุณสามารถเปิดใช้งานทรัพยากรแอปพลิเคชันเพื่อเปิดใช้งานคุณลักษณะ **ใช้ทรัพยากรแอปพลิเคชันเพื่อแปลงเอกสาร CBD จาก Word เป็น PDF** คุณลักษณะนี้ช่วยให้คุณสามารถแปลงเอกสาร Word ที่สร้างเป็นรูปแบบ PDF เฉพาะที่ได้โดยใช้ทรัพยากรของเซิร์ฟเวอร์แอปพลิเคชันในอินสแตนซ์การเงินปัจจุบัน 
+
+ต่อไปนี้เป็นเอกสารประกอบเกี่ยวกับการแปลง PDF เฉพาะที่เมื่อคุณลักษณะเปิดใช้งาน **ทรัพยากรแอปพลิเคชันที่ใช้เพื่อแปลงเอกสาร CBD จากรูปแบบ Word เป็น PDF**:
+
+- เอกสาร PDF ที่ผลิตขึ้นนั้นไม่ถูก [จำกัด](#limitations) จำนวนสูงสุดของหน้า
+- เอกสาร Word ที่แปลงสามารถมี [ตัวควบคุมเนื้อหาจํานวนมาก](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3)
+- ไม่ต้องการการเชื่อมต่ออินเทอร์เน็ตในการปรับใช้ในองค์กร
 
 ### <a name="use-the-pdf-conversion-option"></a>ใช้ตัวเลือกการแปลง PDF
 

@@ -1,26 +1,26 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 description: บทความนี้อธิบายวิธีการออกแบบรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ที่จะกรอกข้อมูลในเทมเพลต Excel แล้วสร้างเอกสารการจัดรูปแบบของ Excel ขาออก
-author: NickSelin
+author: kfend
 ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854827"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280938"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -32,10 +32,10 @@ ms.locfileid: "8854827"
 
 ## <a name="add-a-new-er-format"></a>เพิ่มรูปแบบ ER ใหม่
 
-เมื่อคุณเพิ่มการตั้งค่าคอนฟิกรูปแบบ ER ใหม่เพื่อสร้างเอกสารขาออกในรูปแบบสมุดงาน Excel คุณต้องเลือกค่า **Excel** สำหรับแอททริบิวต์ **ชนิดรูปแบบ** ของรูปแบบหรือปล่อยให้แอททริบิวต์ของ **ชนิดรูปแบบ** ว่างเปล่า
+เมื่อคุณเพิ่มการตั้งค่าคอนฟิกรูปแบบ ER ใหม่เพื่อสร้างเอกสารขาออกในรูปแบบสมุดงาน Excel คุณต้องเลือกค่า **Excel** สำหรับแอตทริบิวต์ **ชนิดรูปแบบ** ของรูปแบบหรือปล่อยให้แอตทริบิวต์ของ **ชนิดรูปแบบ** ว่างเปล่า
 
 - ถ้าคุณเลือก **Excel** คุณสามารถตั้งค่าคอนฟิกรูปแบบเพื่อสร้างเอกสารขาออกในรูปแบบ Excel เท่านั้น
-- ถ้าคุณปล่อยให้แอททริบิวต์ว่างเปล่า คุณสามารถตั้งค่าคอนฟิกรูปแบบเพื่อสร้างเอกสารขาออกในรูปแบบใดๆ ที่ได้รับการสนับสนุนโดยกรอบงาน ER
+- ถ้าคุณปล่อยให้แอตทริบิวต์ว่างเปล่า คุณสามารถตั้งค่าคอนฟิกรูปแบบเพื่อสร้างเอกสารขาออกในรูปแบบใดๆ ที่ได้รับการสนับสนุนโดยกรอบงาน ER
 
 เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบของรูปแบบ ER ของการตั้งค่าคอนฟิก ให้เลือก **ตัวออกแบบ** บนบานหน้าต่างการดำเนินการและเปิดส่วนประกอบรูปแบบ ER เพื่อแก้ไขในตัวออกแบบการดำเนินงาน ER
 

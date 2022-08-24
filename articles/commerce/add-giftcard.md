@@ -6,20 +6,20 @@ ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cc3d51b9891469b8bb0fa38ae2bcd0b27eee56f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 93e2a6608b6d3190df7df1d8f85fd9d7e1c18692
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869501"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280570"
 ---
 # <a name="gift-card-module"></a>โมดูลบัตรของขวัญ
 
@@ -82,7 +82,7 @@ ms.locfileid: "8869501"
 
 ตามค่าเริ่มต้น การชำระเงินด้วยบัตรของขวัญจะไม่เปิดใช้งาน เมื่อเช็คเอาท์เป็นผู้เยื่ยมชม (ไม่ระบุชื่อ) ในการเปิดใช้งาน ให้ทำตามขั้นตอนเหล่านี้
 
-1. ในศูนย์ควบคุม Commerce ไปที่ **Retail และ Commerce \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> POS \> การดำเนินงาน POS**
+1. ใน Commerce headquarters ไปที่ **Retail และ Commerce \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> POS \> การดำเนินงาน POS**
 1. เลือกและระงับ (หรือคลิกขวา) ส่วนหัวของกริด แล้วเลือก **แทรกคอลัมน์**
 1. ในกล่องโต้ตอบ **แทรกคอลัมน์** ให้เลือกกล่องกาเครื่องหมาย **AllowAnonymousAccess**
 1. เลือก **ปรับปรุง**

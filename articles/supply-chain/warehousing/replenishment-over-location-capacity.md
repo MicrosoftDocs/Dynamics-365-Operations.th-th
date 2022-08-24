@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 543afe2e689fa787158551bec64e2458141be71c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899250"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220101"
 ---
 # <a name="replenishment-over-location-capacity"></a>การเติมสินค้าตามความจุของสถานที่
 
@@ -41,7 +41,7 @@ ms.locfileid: "8899250"
 
 ### <a name="enable-sample-data"></a>เปิดใช้งานข้อมูลตัวอย่าง
 
-เมื่อต้องการดำเนินการ [สถานการณ์ตัวอย่าง](#example-scenario) โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
+เมื่อต้องการดำเนินการ [สถานการณ์ตัวอย่าง](#example-scenario) โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
 
 ### <a name="location-profile"></a>โพรไฟล์สถานที่
 

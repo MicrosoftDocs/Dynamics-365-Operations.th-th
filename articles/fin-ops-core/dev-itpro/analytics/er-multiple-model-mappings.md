@@ -1,24 +1,24 @@
 ---
 title: จัดการการแมปที่ได้รับมาหลายรายการสำหรับรากแบบจำลองเดียว
 description: บทความนี้อธิบายวิธีการจัดการการแมปที่ได้รับมาหลายรายการ ซึ่งตั้งค่าคอนฟิกไว้ให้กับรากแบบจำลองเดียว
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892492"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277522"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>จัดการการแมปที่ได้รับมาหลายรายการสำหรับรากแบบจำลองเดียว
 
@@ -106,7 +106,7 @@ ms.locfileid: "8892492"
 3. ในกล่องโต้ตอบแบบหล่นลง **สร้างการตั้งค่าคอนฟิก** ในฟิลด์ **ใหม่** ให้เลือก **ได้รับมาจากชื่อ: การแมปแบบจำลองใบแจ้งหนี้ Microsoft**
 4. ในฟิลด์ **ชื่อ** ให้ป้อน **การแมปแบบจำลองใบแจ้งหนี้ Litware**
 5. เลือก **สร้างการตั้งค่าคอนฟิก**
-6. [ทำเครื่องหมาย](er-quick-start2-customize-report.md#MarkFormatRunnable) เวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของการแมปที่ได้รับมา เป็น พร้อมใช้งานขณะรันไทม์:
+6. [ทำเครื่องหมาย](er-quick-start2-customize-report.md#MarkFormatRunnable) เวอร์ชัน [แบบร่าง](general-electronic-reporting.md) ของการแมปที่ได้รับมา เป็น พร้อมใช้งานขณะรันไทม์:
 
     1. ในบานหน้าต่างการดำเนินการ บนแท็บ **การตั้งค่าคอนฟิก** ในกลุ่ม **การตั้งค่าขั้นสูง** เลือก **พารามิเตอร์ผู้ใช้**
     2. ในกล่องโต้ตอบ **พารามิเตอร์ผู้ใช้** ให้ตั้งค่าตัวเลือก **เรียกใช้การตั้งค่า** เป็น **ใช่** และจากนั้น เลือก **ตกลง**

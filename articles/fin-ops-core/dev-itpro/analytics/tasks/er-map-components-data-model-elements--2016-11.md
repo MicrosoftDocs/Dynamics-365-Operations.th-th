@@ -1,24 +1,24 @@
 ---
 title: แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
 description: บทความนี้อธิบายวิธีการแม็ปองค์ประกอบรูปแบบข้อมูลกับส่วนประกอบของการตั้งค่าคอนฟิกการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้น
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc201832c10d9432f478d5d411c8ffe010807a70
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
+ms.openlocfilehash: d1dee2a26edd5a2162bb8c5cebaf014825f4e5a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895318"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290228"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>แม็ปส่วนประกอบของรูปแบบที่สร้างขึ้นไปยังองค์ประกอบแบบจำลองข้อมูลของ ER (พฤศจิกายน 2016)
 

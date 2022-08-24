@@ -1,24 +1,24 @@
 ---
 title: เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
 description: บทความนี้จะอธิบายวิธีการที่ผู้ใช้ Regulatory Configuration Service สามารถออกแบบการแม็ปแบบจำลองการรายงานทางอิเล็กทรอนิกส์ใหม่ โดยใช้ข้อมูลเมตา
-author: NickSelin
+author: kfend
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 7a0947ec255a8d51f236c6c2f397378f44af1b96
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883667"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267916"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>เข้าถึงข้อมูลเมตาของแอพลิเคชันโดยใช้การตั้งค่าคอนฟิก ER
 

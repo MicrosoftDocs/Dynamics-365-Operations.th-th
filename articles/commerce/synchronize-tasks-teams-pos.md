@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874880"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268286"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>ซิงโครไนส์การจัดการงานระหว่าง Microsoft Teams และ Dynamics 365 Commerce POS
 
@@ -52,7 +52,7 @@ ms.locfileid: "8874880"
 
 ## <a name="link-pos-and-teams-for-task-management"></a>เชื่อมโยง POS และ Teams เพื่อการจัดการงาน
 
-หากต้องการเชื่อมโยงแอปพลิเคชัน POS และ Microsoft Teams ของการจัดการงานในศูนย์ควบคุม Commerce ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+หากต้องการเชื่อมโยงแอปพลิเคชัน POS และ Microsoft Teams ของการจัดการงานใน Commerce headquarters ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
 > [!NOTE]
 > ก่อนที่คุณจะพยายามรวมการจัดการงานกับ Microsoft Teams ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งาน [การรวม Dynamics 365 Commerce กับ Microsoft Teams](enable-teams-integration.md) 

@@ -2,25 +2,25 @@
 title: ติดตั้ง add-in สำหรับไมโครเซอร์วิสใน Lifecycle Services
 description: บทความนี้อธิบายถึงวิธีการติดตั้ง Add-in การออกใบแจ้งหนี้อิเล็กทรอนิกส์ใน Microsoft Dynamics Lifecycle Services (LCS)
 author: gionoder
-ms.date: 07/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 849d450ddb538e83a4aa6375fc99c705af154c61
-ms.sourcegitcommit: 7a03b336d3c1c90770cc9913668c476e34ebf24a
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "9209001"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272286"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>ติดตั้ง add-in สำหรับไมโครเซอร์วิสใน Lifecycle Services
 

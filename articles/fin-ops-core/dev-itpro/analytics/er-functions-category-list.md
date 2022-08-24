@@ -1,25 +1,25 @@
 ---
 title: รายการของฟังก์ชั่น ER ในประเภทรายการ
 description: บทความนี้แสดงข้อมูลเกี่ยวกับรายการฟังก์ชันข้อความที่รองรับในการรายงานทางอิเล็กทรอนิกส์ (ER)
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869068"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277706"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>รายการของฟังก์ชั่น ER ในประเภทรายการ
 
@@ -47,6 +47,7 @@ ms.locfileid: "8869068"
 | [ListOfFields](er-functions-list-listoffields.md)         | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่สร้างขึ้นตามโครงสร้างของอาร์กิวเมนต์ที่ระบุของชนิด *การแจงนับ* หรือ *คอนเทนเนอร์ (เรกคอร์ด)* |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | ฟังก์ชันนี้ส่งกลับค่า *รายการเรกคอร์ด* ที่ประกอบด้วยเฉพาะเรกคอร์ดแรกของรายการที่ระบุ|
 | [OrderBy](er-functions-list-orderby.md)                   | ฟังก์ชันนี้ส่งกลับรายการที่ระบุเป็นค่า *รายการเรกคอร์ด* หลังจากที่ถูกเรียงลำดับตามอาร์กิวเมนต์ที่ระบุ อาร์กิวเมนต์เหล่านี้สามารถถูกกำหนดเป็นนิพจน์ได้ |
+| [ทำซ้ำ](er-functions-list-repeat.md)                     | ฟังก์ชันนี้สร้างเรกคอร์ดที่ประกอบด้วยฟิลด์มีค่าที่ตรงกับอินพุทที่ระบุ จากนั้นจะส่งคืน *รายการเรกคอร์ด* ใหม่ของเรกคอร์ดที่ซ้ํากันในจํานวนครั้งที่ระบุ |
 | [กลับรายการ](er-functions-list-reverse.md)                   | ฟังก์ชันนี้ส่งกลับรายการที่ระบุเป็นค่า *รายการเรกคอร์ด* ในลำดับการจัดเรียงแบบย้อนกลับ |
 | [การแบ่ง](er-functions-list-split.md)                       | ฟังก์ชันนี้แบ่งค่าสตริงการป้อนที่ระบุลงในสตริงย่อยและส่งกลับผลลัพธ์เป็นค่า *รายการเรกคอร์ด* ใหม่ |
 | [SplitList](er-functions-list-splitlist.md)               | ฟังก์ชันนี้แบ่งรายการที่ระบุเป็นชุดย่อย (หรือชุดงาน) ซึ่งแต่ละชุดประกอบด้วยจำนวนเรกคอร์ดที่ระบุ จากนั้นจะส่งกลับผลลัพธ์เป็นค่า *รายการเรกคอร์ด* ใหม่ที่ประกอบด้วยชุดงาน |

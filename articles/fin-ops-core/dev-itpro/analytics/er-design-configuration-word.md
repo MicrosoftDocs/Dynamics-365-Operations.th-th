@@ -1,24 +1,26 @@
 ---
 title: ออกแบบการตั้งค่าคอนฟิก ER เพื่อสร้างรายงานในรูปแบบ Word
 description: บทความนี้อธิบายวิธีการที่ผู้ใช้สามารถตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นเอกสาร Microsoft Word
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893025"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273352"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>ออกแบบการตั้งค่าคอนฟิก ER ใหม่ เพื่อสร้างรายงานในรูปแบบ Word
 
@@ -35,7 +37,7 @@ ms.locfileid: "8893025"
 
 ![การสร้างการตั้งค่าคอนฟิกรูปแบบในหน้าการตั้งค่าคอนฟิก](./media/er-design-configuration-word-image2.gif)
 
-ส่วนประกอบรูปแบบ ER ของโซลูชัน ต้องมีองค์ประกอบรูปแบบ **Excel\\ไฟล์** และองค์ประกอบรูปแบบนั้นต้องเชื่อมโยงกับเอกสาร Word ที่จะใช้เป็นเทมเพลตสำหรับรายงานที่สร้างขณะรันไทม์ เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER คุณต้องเปิดเวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของการตั้งค่าคอนฟิก ER ที่สร้างขึ้นในโปรแกรมออกแบบรูปแบบ ER แล้วเพิ่มองค์ประกอบของ **Excel\\ไฟล์** ให้แนบเทมเพลต Word ของคุณเข้ากับรูปแบบ ER ที่แก้ไขได้ และเชื่อมโยงเทมเพลตนั้นกับองค์ประกอบ **Excel\\File** ที่คุณเพิ่ม
+ส่วนประกอบรูปแบบ ER ของโซลูชัน ต้องมีองค์ประกอบรูปแบบ **Excel\\ไฟล์** และองค์ประกอบรูปแบบนั้นต้องเชื่อมโยงกับเอกสาร Word ที่จะใช้เป็นเทมเพลตสำหรับรายงานที่สร้างขณะรันไทม์ เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER คุณต้องเปิดเวอร์ชัน แบบร่าง ของการตั้งค่าคอนฟิก ER ที่สร้างขึ้นในโปรแกรมออกแบบรูปแบบ ER แล้วเพิ่มองค์ประกอบของ **Excel\\ไฟล์** ให้แนบเทมเพลต Word ของคุณเข้ากับรูปแบบ ER ที่แก้ไขได้ และเชื่อมโยงเทมเพลตนั้นกับองค์ประกอบ **Excel\\File** ที่คุณเพิ่ม
 
 > [!NOTE]
 > เมื่อคุณแนบเทมเพลต คุณต้องใช้ [ชนิดเอกสาร](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) ที่ได้รับการ [ตั้งค่าคอนฟิก](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) ก่อนหน้านี้ ในพารามิเตอร์ ER เพื่อเก็บเทมเพลตของรูปแบบ ER

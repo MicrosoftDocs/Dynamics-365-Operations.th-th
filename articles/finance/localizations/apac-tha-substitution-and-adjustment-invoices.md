@@ -1,24 +1,24 @@
 ---
 title: ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 description: บทความนี้ให้ข้อมูลเกี่ยวกับคุณลักษณะของใบกำกับภาษีการปรับปรุง/เงินทดแทน คุณลักษณะนี้ช่วยให้คุณสามารถติดตามการพิมพ์สำเนาของใบกำกับภาษี นอกจากนี้คุณยังสามารถติดตามการปรับปรุงที่กระทำกับข้อมูลลูกค้าในส่วนหัวของใบกำกับภาษีอีกด้วย
-author: EvgenyPopovMBS
+author: AdamTrukawka
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustInvoiceJournal, CustInvoiceJourAdjustment, ProjInvoiceListPage, CustParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Thailand
-ms.author: epopov
+ms.author: atrukawk
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e1a15f2baf5b0a2dcc69f942d12f3994ef48c71a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: CustInvoiceJournal, CustInvoiceJourAdjustment, ProjInvoiceListPage, CustParameters
+ms.openlocfilehash: 0342d83461c84b8664a87184cfb29b17265a289f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848493"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279952"
 ---
 # <a name="substitutionadjustment-tax-invoices-for-thailand"></a>ใบกำกับภาษีการปรับปรุง/เงินทดแทนสำหรับประเทศไทย
 

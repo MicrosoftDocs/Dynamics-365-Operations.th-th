@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67a1a79dd74d411aa7e21000c8baaa8a069cede7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902748"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279131"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>แม็ปร้านค้าและทีมงานถ้ามีทีมงานที่มีอยู่ก่อนใน Microsoft Teams
 
@@ -25,11 +25,11 @@ ms.locfileid: "8902748"
 
 บทความนี้ครอบคลุมวิธีการแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Dynamics 365 Commerce headquarters ถ้าองค์กรของคุณสร้างทีมงานไว้แล้วใน Microsoft Teams ก่อนการรวม Commerce
 
-องค์กรของคุณอาจสร้างทีมงานให้กับร้านค้าของคุณบางส่วนหรือทั้งหมดก่อนที่จะรวม Dynamics 365 Commerce และ Microsoft Teams ในกรณีนี้ ให้สร้างการซิงโครไนส์งานระหว่าง Commerce POS และ Microsoft Teams คุณต้องระบุการแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Commerce
+องค์กรของคุณอาจสร้างทีมงานให้กับร้านค้าของคุณบางส่วนหรือทั้งหมดก่อนที่จะรวม Dynamics 365 Commerce และ Microsoft Teams ในกรณีนี้ ให้สร้างการซิงโครไนส์งานระหว่าง Commerce POS และ Microsoft Teams คุณต้องระบุการแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Commerce headquarters
 
-## <a name="map-stores-and-corresponding-teams-in-commerce-headquarters"></a>แม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Commerce 
+## <a name="map-stores-and-corresponding-teams-in-commerce-headquarters"></a>แม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Commerce headquarters 
 
-หากต้องการแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Commerce ให้ทำตามขั้นตอนต่อไปนี้
+หากต้องการแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Commerce headquarters ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ไปที่ **การจัดการระบบ \> พื้นที่ทำงาน \> การจัดการข้อมูล**
 1. เลือก **ส่งออก** 

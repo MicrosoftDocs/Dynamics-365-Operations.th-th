@@ -1,26 +1,26 @@
 ---
 title: รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
 description: บทความนี้ให้ข้อมูลเกี่ยวกับรายงานบัตรสินค้าคงคลังสำหรับนิติบุคคลในประเทศไทย
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265184
-ms.assetid: 1ce8c70b-c6af-4171-98d2-2aa8e9563c5b
 ms.search.region: Thailand
-ms.author: leguo
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5bc0803b3c48a6aa883e92f42b1abd95b17cf9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 265184
+ms.assetid: 1ce8c70b-c6af-4171-98d2-2aa8e9563c5b
+ms.search.form: TaxWithholdGroup, TaxWithholdTable, TaxWithholdTrans
+ms.openlocfilehash: 0ac5f5e889fe47795000a4ed8a90a1ea83929be9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903042"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291654"
 ---
 # <a name="stock-card-report-for-thailand"></a>รายงานบัตรสินค้าคงคลังสำหรับประเทศไทย
 

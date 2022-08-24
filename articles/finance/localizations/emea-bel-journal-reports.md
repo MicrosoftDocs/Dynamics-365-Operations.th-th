@@ -1,26 +1,26 @@
 ---
 title: รายงานสมุดรายวัน
 description: บทความนี้อธิบายวิธีการใช้งานรายงานสมุดรายวันที่เกี่ยวข้องกับนิติบุคคลที่มีที่อยู่หลักในเบลเยียมโดยเฉพาะ
-author: anasyash
+author: AdamTrukawka
 ms.date: 04/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265924
-ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6130a9d0320cb350ed846ce2a340f398715176e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 265924
+ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
+ms.search.form: TaxTable, VendParameters, CustParameters
+ms.openlocfilehash: ee1ce721878013cf7e802559f31c64f4eb03deb6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893967"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275900"
 ---
 # <a name="journal-reports-posting-journals"></a>รายงานสมุดรายวัน (การลงรายการบัญชีสมุดรายวัน)
 

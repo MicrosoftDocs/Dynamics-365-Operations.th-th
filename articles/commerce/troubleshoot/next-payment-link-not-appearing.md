@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: efa04c87f78c376fd00da1b26aedb9e8b428dfa5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: d0b398a4ffc5fb698ea04ba8642d05ccd4caf04c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871566"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287496"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>ไม่ปรากฏตัวเลือก "บันทึกการชำระเงินถัดไปของฉัน"
 
@@ -38,15 +38,15 @@ ms.locfileid: "8871566"
 
 ## <a name="resolution"></a>การแก้ปัญหา
 
-### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>ตรวจสอบว่า Dynamics 365 Payment Connector สำหรับ Adyen ได้รับการตั้งค่าคอนฟิกอย่างถูกต้องในศูนย์ควบคุม Commerce
+### <a name="verify-that-the-dynamics-365-payment-connector-for-adyen-is-correctly-configured-in-commerce-headquarters"></a>ตรวจสอบว่า Dynamics 365 Payment Connector สำหรับ Adyen ได้รับการตั้งค่าคอนฟิกอย่างถูกต้องใน Commerce headquarters
 
-ให้ทำตามขั้นตอนดังต่อไปนี้ เพื่อตรวจสอบว่า Dynamics 365 Payment Connector สำหรับ Adyen ได้รับการตั้งค่าคอนฟิกอย่างถูกต้องในศูนย์ควบคุม Commerce 
+ให้ทำตามขั้นตอนดังต่อไปนี้ เพื่อตรวจสอบว่า Dynamics 365 Payment Connector สำหรับ Adyen ได้รับการตั้งค่าคอนฟิกอย่างถูกต้องใน Commerce headquarters 
 
 1. ไปที่การ **Retail และ Commerce \> ช่องทาง \>ร้านค้าออนไลน์**
 1. เลือกร้านค้าออนไลน์
 1. บนแท็บด่วน **บัญชีการชำระเงิน** ตรวจสอบให้แน่ใจว่าได้ตั้งค่าฟิลด์ **อนุญาตให้บันทึกข้อมูลการชำระเงินในอีคอมเมิร์ซ** เป็น **จริง**
 
-![อนุญาตให้บันทึกข้อมูลการชำระเงินในฟิลด์อีคอมเมิร์ซในศูนย์ควบคุม Commerce](media/payment-connector-save-payment.jpg)
+![อนุญาตให้บันทึกข้อมูลการชำระเงินในฟิลด์อีคอมเมิร์ซใน Commerce headquarters](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

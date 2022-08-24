@@ -1,24 +1,24 @@
 ---
 title: ER สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
 description: บทความนี้อธิบายวิธีการใช้การตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) ใหม่ เพื่อสร้างเอกสารอิเล็กทรอนิกสำหรับการประมวลผลการชำระเงิน
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a79c32372402fcd49f20c855cbfa8d9bcd8ba524
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
+ms.openlocfilehash: b70b246e3618e8f083e5f6757ee8a97d8072a635
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864614"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290888"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER สร้างเอกสารทางอิเล็กทรอนิกส์ สำหรับการชำระเงินโดยใช้การตั้งค่าคอนฟิกรูปแบบ
 
@@ -77,7 +77,7 @@ ms.locfileid: "8864614"
     * เลือกค่า GBSI OPER  
 24. คลิก ตกลง
 25. คลิก ตกลง
-    * วิเคราะห์ไฟล์การชำระเงินที่สร้างในรูปแบบ XML  เปรียบเทียบกับโครงร่างเอกสารที่ออกแบบไว้ และแอททริบิวต์ธุรกรรมการชำระเงินที่กำหนดไว้  
+    * วิเคราะห์ไฟล์การชำระเงินที่สร้างในรูปแบบ XML  เปรียบเทียบกับโครงร่างเอกสารที่ออกแบบไว้ และแอตทริบิวต์ธุรกรรมการชำระเงินที่กำหนดไว้  
 
 
 

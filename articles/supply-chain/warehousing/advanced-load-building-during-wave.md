@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863779"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218862"
 ---
 # <a name="advanced-load-building-during-wave"></a>การสร้างการบรรทุกขั้นสูงในระหว่างเวฟ
 
@@ -50,7 +50,7 @@ ms.locfileid: "8863779"
 
 ### <a name="make-sample-data-available"></a>ทำให้ข้อมูลตัวอย่างพร้อมใช้งาน
 
-เมื่อต้องการดำเนินการสาธิตนี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
+เมื่อต้องการดำเนินการสาธิตนี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
 
 นอกจากนี้คุณยังสามารถใช้การสาธิตนี้เป็นคำแนะนำสำหรับการใช้ลักษณะการทำงานนี้เมื่อคุณทำงานในระบบการผลิต อย่างไรก็ตาม ในกรณีดังกล่าว คุณต้องแทนที่ค่าของคุณเอง และคุณอาจขาดเรกคอร์ดที่จำเป็นบางชนิดที่ข้อมูลสาธิตมาตรฐานมีให้
 

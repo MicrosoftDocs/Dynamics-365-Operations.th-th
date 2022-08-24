@@ -1,28 +1,26 @@
 ---
 title: ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 description: บทความนี้จะอธิบายวิธีการออกแบบโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อพิมพ์รายงานแบบกำหนดเอง
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847501"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281796"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>ออกแบบโซลูชัน ER ใหม่เพื่อพิมพ์รายงานแบบกำหนดเอง
 
@@ -289,7 +287,7 @@ ms.locfileid: "8847501"
 
 ![รุ่นของการตั้งค่าคอนฟิกที่แก้ไขได้บนหน้าการตั้งค่าคอนฟิก](./media/er-quick-start1-model-configuration.png)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดรุ่นสำหรับการตั้งค่าคอนฟิก ER โปรดดู [ภาพรวมของการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md#component-versioning)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดรุ่นสำหรับการตั้งค่าคอนฟิก ER โปรดดู [ภาพรวมของการรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md)
 
 > [!NOTE]
 > รูปแบบข้อมูลที่ตั้งค่าคอนฟิกเป็นการแสดงเชิงนามธรรมของโดเมนธุรกิจ **แบบสอบถาม** และไม่มีความสัมพันธ์กับอาร์ทิแฟกต์ที่เกี่ยวข้องกับ Microsoft Dynamics 365 Finance

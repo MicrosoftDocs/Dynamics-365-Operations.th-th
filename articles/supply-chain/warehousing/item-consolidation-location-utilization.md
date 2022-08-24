@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849197"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219456"
 ---
 # <a name="item-consolidation---location-utilization"></a>การรวมบัญชีสินค้า - การใช้ประโยชน์สถานที่
 
@@ -30,8 +30,8 @@ ms.locfileid: "8849197"
 
 ก่อนที่คุณจะสามารถใช้คุณลักษณะที่อธิบายไว้ในบทความนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะเหล่านี้ และเปิดใช้งาน หากจำเป็น เปิดใช้งานคุณลักษณะทั้งสองรายการต่อไปนี้ ตามลำดับที่แสดงรายการ (คุณลักษณะทั้งสองรายการมีไว้สำหรับโมดูล **การบริหารคลังสินค้า**)
 
-1. สถานะสถานที่คลังสินค้า
-2. การใช้ประโยชน์สถานที่รวมบัญชีสินค้า
+1. *สถานะที่ตั้งคลังสินค้า* (ณ รุ่น 10.0.29 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สถานะสถานที่คลังสินค้า](warehouse-location-status.md))
+2. *การใช้ประโยชน์สถานที่รวมบัญชีสินค้า*
 
 ## <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 

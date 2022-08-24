@@ -1,24 +1,26 @@
 ---
 title: ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 description: บทความนี้อธิบายวิธีการกำหนดค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) เพื่อสร้างรายงานเป็นไฟล์ Microsoft Word ที่ถูกระงับตัวควบคุมเนื้อหา
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882126"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267328"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>ระงับการควบคุมเนื้อหา Word ในรายงานที่สร้างขึ้น
 
@@ -42,7 +44,7 @@ ms.locfileid: "8882126"
 เมื่อคุณทําขั้นตอนของคู่มืองานนี้แล้ว รายการต่อไปนี้จะถูกจัดเตรียมไว้
 
 - รูปแบบ ER ของ **รายงานแผ่นงานตัวอย่าง** ที่ถูกกำหนดค่าคอนฟิกให้สร้างเอกสารในรูปแบบ Word
-- เวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของรูปแบบ ER **รายงานแผ่นงานตัวอย่าง** ที่ทำเครื่องหมายเป็น **รันได้**
+- รุ่นแบบร่างของรูปแบบ ER **รายงานแผ่นงานตัวอย่าง** ที่ทำเครื่องหมายเป็น **รันได้**
 - วิธีการจ่ายเงินแบบ **อิเล็กทรอนิกส์** ที่ถูกกำหนดค่าคอนฟิกให้ใช้รูปแบบ ER ของ **รายงานแผ่นงานตัวอย่าง** เพื่อการดำเนินการจ่ายเงินของผู้จัดจำหน่าย
 
 คุณยังต้องดาวน์โหลดและบันทึกเทมเพลตต่อไปนี้สำหรับรายงานตัวอย่าง

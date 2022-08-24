@@ -1,25 +1,25 @@
 ---
 title: ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 description: บทความนี้จะอธิบายวิธีการที่คุณสามารถช่วยปรับปรุงประสิทธิภาพการทำงานของโซลูชันการรายงานทางอิเล็กทรอนิกส์ (ER) โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 34bb7c6256994f103c4da599157c06bd9d0795ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850127"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288272"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>ปรับปรุงประสิทธิภาพการทำงานของโซลูชัน ER โดยการเพิ่มแหล่งข้อมูลฟิลด์ที่มีการคำนวณแบบพารามิเตอร์
 
@@ -139,7 +139,7 @@ ms.locfileid: "8850127"
 
 ![ข้อความเกี่ยวกับการร้องขอฐานข้อมูลที่ซ้ำกันบนหน้าตัวออกแบบการแม็ปแบบจำลอง](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
-เวลาที่ใช้ในการดำเนินการแม็ปแบบจำลองรวม (ประมาณแปดวินาที) โปรดสังเกตว่าเวลาที่ใช้ในการดึงข้อมูลจากตารางแอปพลิเคชัน VendTable มากกว่า 80 เปอร์เซ็นต์ (ประมาณหกวินาที) เปอร์เซ็นต์ดังกล่าวมากเกินกว่าสำหรับสองแอททริบิวต์ของผู้จัดจำหน่ายห้าราย โดยเปรียบเทียบกับปริมาณของข้อมูลจากตารางแอปพลิเคชัน VendTrans
+เวลาที่ใช้ในการดำเนินการแม็ปแบบจำลองรวม (ประมาณแปดวินาที) โปรดสังเกตว่าเวลาที่ใช้ในการดึงข้อมูลจากตารางแอปพลิเคชัน VendTable มากกว่า 80 เปอร์เซ็นต์ (ประมาณหกวินาที) เปอร์เซ็นต์ดังกล่าวมากเกินกว่าสำหรับสองแอตทริบิวต์ของผู้จัดจำหน่ายห้าราย โดยเปรียบเทียบกับปริมาณของข้อมูลจากตารางแอปพลิเคชัน VendTrans
 
 เมื่อต้องการลดจำนวนการเรียกที่จะทำเพื่อดูรายละเอียดผู้จัดจำหน่ายสำหรับแต่ละธุรกรรม และเพื่อปรับปรุงประสิทธิภาพการทำงานของการแม็ปแบบจำลอง คุณสามารถใช้การแคชสำหรับแหล่งข้อมูล **\#Vend**
 

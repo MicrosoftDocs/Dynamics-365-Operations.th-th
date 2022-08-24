@@ -6,20 +6,20 @@ ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: b588df5702657f07e1e790ffba39d2e459901557
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286288"
 ---
 # <a name="work-with-preset-layouts"></a>ใช้งานเค้าโครงที่กำหนดไว้ล่วงหน้า
 
@@ -85,7 +85,7 @@ ms.locfileid: "8896857"
 เมื่อต้องการบันทึกและเช็คอินเค้าโครงที่กำหนดไว้ล่วงหน้าของคุณ ให้ทำตามขั้นตอนต่อไปนี้
 
 1. เลือก **บันทึก** ที่ด้านบนของโปรแกรมแก้ไขเค้าโครง การเปลี่ยนแปลงที่บันทึกจะยังไม่มีผลต่อหน้าระดับล่างลงไปจนกว่าจะมีการเช็คอิน
-1. เลือก **เสร็จสิ้นการแก้ไข** ขณะนี้ การเปลี่ยนแปลงของคุณสามารถมองเห็นได้ในลำดับงานระดับล่างลงไป
+1. เลือก **เสร็จสิ้นการแก้ไข** ขณะนี้ การเปลี่ยนแปลงของคุณสามารถมองเห็นได้ในเวิร์กโฟลว์ระดับล่างลงไป
 
 เมื่อต้องการให้แสดงตัวอย่างการเปลี่ยนแปลงของคุณ ให้เปิดหน้าที่มีอยู่ที่ใช้เค้าโครงที่กำหนดไว้ล่วงหน้านั้น หรือสร้างหน้าใหม่จากเค้าโครงนั้น
 

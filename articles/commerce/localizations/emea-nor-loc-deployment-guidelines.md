@@ -1,58 +1,79 @@
 ---
-title: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์ (ดั้งเดิม)
-description: บทความนี้เป็นแนวทางการปรับใช้ที่แสดงวิธีการเปิดใช้งานการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สำหรับนอร์เวย์
-author: EvgenyPopovMBS
-ms.date: 12/20/2021
-ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
-ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894473"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281550"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์ (ดั้งเดิม)
+---
 
-[!include [banner](../includes/banner.md)]
+ชื่อเรื่อง: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์ (ดั้งเดิม) [!include [banner](../includes/banner.md)]
+คำอธิบาย: บทความนี้เป็นแนวทางการปรับใช้ที่แสดงวิธีการเปิดใช้งานการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สำหรับนอร์เวย์
 
-บทความนี้เป็นแนวทางการปรับใช้ที่แสดงวิธีการเปิดใช้งานการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สำหรับนอร์เวย์ การแปลเป็นภาษาท้องถิ่นประกอบด้วยส่วนขยายของส่วนประกอบของ Commerce หลายส่วน ตัวอย่างเช่น ส่วนขยายช่วยให้คุณสามารถพิมพ์ฟิลด์แบบกำหนดเองบนใบเสร็จ ลงทะเบียนเหตุการณ์การตรวจสอบเพิ่มเติม ธุรกรรมการขาย และธุรกรรมการเงินในการขายหน้าร้าน (POS) ลงชื่อธุรกรรมการขายทางดิจิทัล และพิมพ์รายงาน X และ Z ในรูปแบบท้องถิ่น หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการแปลเป็นภาษาท้องถิ่นของนอร์เวย์ โปรดดูที่ [ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์](./emea-nor-cash-registers.md)
+ผู้สร้าง: EvgenyPopovMBS บทความนี้เป็นแนวทางการปรับใช้ที่แสดงวิธีการเปิดใช้งานการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สำหรับนอร์เวย์ การแปลเป็นภาษาท้องถิ่นประกอบด้วยส่วนขยายของส่วนประกอบของ Commerce หลายส่วน ตัวอย่างเช่น ส่วนขยายช่วยให้คุณสามารถพิมพ์ฟิลด์แบบกำหนดเองบนใบเสร็จ ลงทะเบียนเหตุการณ์การตรวจสอบเพิ่มเติม ธุรกรรมการขาย และธุรกรรมการเงินในการขายหน้าร้าน (POS) ลงชื่อธุรกรรมการขายทางดิจิทัล และพิมพ์รายงาน X และ Z ในรูปแบบท้องถิ่น หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการแปลเป็นภาษาท้องถิ่นของนอร์เวย์ โปรดดูที่ [ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์](./emea-nor-cash-registers.md)
+ms.date: 12/20/2021
 
-ตัวอย่างนี้เป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md)
+ms.topic: บทความตัวอย่างนี้เป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md)
+ผู้ใช้: ผู้ใช้แอปพลิเคชัน นักพัฒนา ผู้เชี่ยวชาญด้าน IT
 
-ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) เซิร์ฟเวอร์ระบบการขายปลีก และ POS เมื่อต้องการรันตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT เซิร์ฟเวอร์ระบบการขายปลีก และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในบทความนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Microsoft Visual Studio Online (VSO) โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
+ms.reviewer: v-chgriffin ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) เซิร์ฟเวอร์ระบบการขายปลีก และ POS เมื่อต้องการรันตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT เซิร์ฟเวอร์ระบบการขายปลีก และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในบทความนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Microsoft Visual Studio Online (VSO) โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
+ms.search.region: สากล
 
+ms.author: josaw
 > [!NOTE]
-> ใน Commerce 10.0.8 และสูงกว่า เซิร์ฟเวอร์ระบบการขายปลีกเรียกว่า Commerce Scale Unit เนื่องจากบทความนี้ใช้กับแอปหลายรุ่นก่อนหน้านี้ *เซิร์ฟเวอร์ระบบการขายปลีก* จึงมีการใช้ทั่วทั้งบทความ
+ms.search.validFrom: 2018-02-28 ใน Commerce 10.0.8 และสูงกว่า เซิร์ฟเวอร์ระบบการขายปลีกเรียกว่า Commerce Scale Unit เนื่องจากบทความนี้ใช้กับแอปหลายรุ่นก่อนหน้านี้ *เซิร์ฟเวอร์ระบบการขายปลีก* จึงมีการใช้ทั่วทั้งบทความ
 >
+---
 > บางขั้นตอนในขั้นตอนต่างๆ ในบทความนี้แตกต่างกัน ขึ้นอยู่กับรุ่นของ Commerce ที่คุณใช้อยู่ สำหรับข้อมูลเพิ่มเติม ดูที่ [มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Dynamics 365 Retail](../get-started/whats-new.md)
 
+
+6. อัปเดตไฟล์การกำหนดค่าจากเซิร์ฟเวอร์ระบบการขายปลีก ในไฟล์ **RetailSDK\\Packages\\RetailServer\\Code\\web.config** ให้เพิ่มรายการต่อไปนี้ในส่วน **extensionComposition**:
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>การใช้โปรไฟล์ใบรับรองในช่องทาง Commerce
 
-ใน Commerce รุ่น 10.0.15 และใหม่กว่า คุณสามารถใช้คุณลักษณะ [โปรไฟล์ใบรับรองที่กําหนดโดยผู้ใช้สำหรับร้านค้าปลีก](./certificate-profiles-for-retail-stores.md) ที่รองรับการย้ายโหนดเมื่อเกิดข้อผิดพลาดเกิดขึ้นเป็นออผไลน์เมื่อ Key Vault หรือศูนย์ควบคุม Commerce ไม่พร้อมใช้งาน คุณลักษณะขยายคุณลักษณะ [จัดการข้อมูลความลับของช่องทางการขายปลีก](../dev-itpro/manage-secrets.md)
 
+    ``` xml
+ใน Commerce รุ่น 10.0.15 และใหม่กว่า คุณสามารถใช้คุณลักษณะ [โปรไฟล์ใบรับรองที่กําหนดโดยผู้ใช้สำหรับร้านค้าปลีก](./certificate-profiles-for-retail-stores.md) ที่รองรับการย้ายโหนดเมื่อเกิดข้อผิดพลาดเกิดขึ้นเป็นออผไลน์เมื่อ Key Vault หรือ Commerce headquarters ไม่พร้อมใช้งาน คุณลักษณะขยายคุณลักษณะ [จัดการข้อมูลความลับของช่องทางการขายปลีก](../dev-itpro/manage-secrets.md)
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+
+    ```
 เมื่อต้องการใช้ฟังก์ชันการใช้งานนี้ในส่วนขยาย CRT ทำตามขั้นตอนเหล่านี้
 
+
+7. เรียกใช้ **msbuild** สำหรับ Retail SDK ทั้งหมดเพื่อสร้างแพคเกจที่ปรับใช้ได้
 1. สร้างโครงการส่วนขยาย CRT ใหม่ (ชนิดโครงการของไลบรารีคลาส C#) ใช้แม่แบบตัวอย่างจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก (RetailSDK\SampleExtensions\CommerceRuntime)
+8. ใช้แพคเกจผ่าน Microsoft Dynamics Lifecycle Services (LCS) หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างแพคเกจที่สามารถปรับใช้ได้](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
+
 
 2. เพิ่มตัวจัดการที่ออกแบบเองของ CertificateSignatureServiceRequest ในโครงการ SequentialSignatureRegister
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>เปิดใช้งานลายเซ็นดิจิทัลในโหมดออฟไลน์ของ MODERN POS
+
 
 3. เมื่อต้องการอ่านการเรียกข้อมูลลับ `GetUserDefinedSecretCertificateServiceRequest` โดยใช้คอนสตรักเตอร์ที่มีพารามิเตอร์ profileId ซึ่งจะเริ่มต้นฟังก์ชันที่ใช้งานกับการตั้งค่าจากโปรไฟล์ใบรับรอง โดยขึ้นอยู่กับการตั้งค่า ใบรับรองจะถูกดึงข้อมูลจาก Azure Key Vault หรือการจัดเก็บในเครื่องคอมพิวเตอร์
+หากต้องการเปิดใช้งานลายเซ็นดิจิทัลในโหมดออฟไลน์ของ Modern POS คุณต้องปฏิบัติตามขั้นตอนต่อไปนี้หลังจากที่คุณเรียกใช้ Modern POS บนอุปกรณ์ใหม่
+
 
     ```csharp
+1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
+2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
+3. Sign out of POS.
 
+4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
+5. Sign in to POS.
     ```
+6. บนหน้า **สถานะการเชื่อมต่อฐานข้อมูล** ให้ตรวจสอบให้แน่ใจว่าฐานข้อมูลออฟไลน์มีการซิงโครไนส์อย่างสมบูรณ์แล้ว เมื่อค่าของฟิลด์ **ธุรกรรมที่ค้างอยู่ในฐานข้อมูลออฟไลน์** เป็น **0 (ศูนย์)** ฐานข้อมูลจะถูกซิงโครไนส์ทั้งหมด
 
+7. เริ่ม Modern POS ใหม่
 4. เมื่อดึงข้อมูลใบรับรอง ให้ดําเนินการลงชื่อข้อมูลต่อ
 
+
+
 5. สร้างโครงการส่วนขยาย CRT
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 6. คัดลอกไลบรารีคลาสผลลัพธ์และวางลงใน ...\RetailServer\webroot\bin\Ext เพื่อทดสอบด้วยตนเอง
 
@@ -737,7 +758,7 @@ ms.locfileid: "8894473"
 
 #### <a name="implement-the-proxy-code-for-offline-mode"></a>ใช้รหัสพร็อกซีเป็นโหมดออฟไลน์
 
-ส่วนนี้จะเทียบเท่ากับตัวควบคุมเซิร์ฟเวอร์ระบบการขายปลีก แต่ขยาย CRT ท้องถิ่นที่ใช้เมื่อไคลเอนต์ไม่ได้เชื่อมต่อ
+ส่วนนี้จะเทียบเท่ากับตัวควบคุมเซิร์ฟเวอร์ระบบการขายปลีก แต่ขยาย CRT ท้องถิ่นที่ใช้เมื่อไคลเอ็นต์ไม่ได้เชื่อมต่อ
 
 1. ในไฟล์ **customization.settings** ให้เปลี่ยนส่วน **@(RetailServerLibraryPathForProxyGeneration)** เพื่อให้ใช้แอสเซมบลีเซิร์ฟเวอร์ระบบการขายปลีกใหม่ในการสร้างพร็อกซี
 2. ใช้วิธีการอินเทอร์เฟสต่อไปนี้ในคลาส **StoreOperationsManager** สำหรับการเกิดซ้ำครั้งแรก เพิ่มรหัสต่อไปนี้:
@@ -1612,27 +1633,3 @@ ms.locfileid: "8894473"
     มีการตั้งชื่อไฟล์เป็น **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** และอยู่ใต้ **Extensions.SequentialSignatureRegister\\bin\\Debug**
 
     ---
-
-6. อัปเดตไฟล์การกำหนดค่าจากเซิร์ฟเวอร์ระบบการขายปลีก ในไฟล์ **RetailSDK\\Packages\\RetailServer\\Code\\web.config** ให้เพิ่มรายการต่อไปนี้ในส่วน **extensionComposition**:
-
-    ``` xml
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
-    ```
-
-7. เรียกใช้ **msbuild** สำหรับ Retail SDK ทั้งหมดเพื่อสร้างแพคเกจที่ปรับใช้ได้
-8. ใช้แพคเกจผ่าน Microsoft Dynamics Lifecycle Services (LCS) หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างแพคเกจที่สามารถปรับใช้ได้](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
-
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>เปิดใช้งานลายเซ็นดิจิทัลในโหมดออฟไลน์ของ MODERN POS
-
-หากต้องการเปิดใช้งานลายเซ็นดิจิทัลในโหมดออฟไลน์ของ Modern POS คุณต้องปฏิบัติตามขั้นตอนต่อไปนี้หลังจากที่คุณเรียกใช้ Modern POS บนอุปกรณ์ใหม่
-
-1. ลงชื่อเข้าใช้ POS
-2. บนหน้า **สถานะการเชื่อมต่อฐานข้อมูล** ให้ตรวจสอบให้แน่ใจว่าฐานข้อมูลออฟไลน์มีการซิงโครไนส์อย่างสมบูรณ์แล้ว เมื่อค่าของฟิลด์ **การดาวน์โหลดที่ค้างอยู่** เป็น **0 (ศูนย์)** ฐานข้อมูลจะถูกซิงโครไนส์ทั้งหมด
-3. ลงชื่อออกจาก POS
-4. รอสักครู่เพื่อให้ฐานข้อมูลออฟไลน์มีการซิงโครไนส์อย่างสมบูรณ์
-5. ลงชื่อเข้าใช้ POS
-6. บนหน้า **สถานะการเชื่อมต่อฐานข้อมูล** ให้ตรวจสอบให้แน่ใจว่าฐานข้อมูลออฟไลน์มีการซิงโครไนส์อย่างสมบูรณ์แล้ว เมื่อค่าของฟิลด์ **ธุรกรรมที่ค้างอยู่ในฐานข้อมูลออฟไลน์** เป็น **0 (ศูนย์)** ฐานข้อมูลจะถูกซิงโครไนส์ทั้งหมด
-7. เริ่ม Modern POS ใหม่
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

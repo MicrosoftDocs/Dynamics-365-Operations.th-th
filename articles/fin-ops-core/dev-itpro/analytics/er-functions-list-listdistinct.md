@@ -1,25 +1,25 @@
 ---
 title: ฟังก์ชัน LISTDISTINCT ER
 description: บทความนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟังก์ชันการรายงานทางอิเล็กทรอนิกส์ LISTDISTINCT (ER)
-author: NickSelin
-ms.date: 7/30/2020
+author: kfend
+ms.date: 07/30/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: d2f8e3a9d077493df3c3b7628608d31834f43f8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: cd773f3455af1be1e952cb3852a648436670ce0f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876818"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285289"
 ---
 # <a name="listdistinct-er-function"></a>ฟังก์ชัน LISTDISTINCT ER
 
@@ -77,11 +77,11 @@ LISTDISTINCT (list, selector)
 
 1. ป้อนแหล่งข้อมูล **SalesInvoice** ของชนิด `Record list` ที่อ้างถึงตารางแอปพลิเคชัน **CustInvoiceJour** และกรองใบแจ้งหนี้การขายสำหรับรอบระยะเวลาที่ระบุ
 
-    ฟิลด์ `InvoiceAccount` ของแหล่งข้อมูลนี้ส่งคืนหมายเลขบัญชีของลูกค้าที่ออกใบแจ้งหนี้แล้ว
+    ฟิลด์ `InvoiceAccount` ของแหล่งข้อมูลนี้ส่งคืนหมายเลขลูกค้าองค์กรที่ออกใบแจ้งหนี้แล้ว
 
 2. ป้อนแหล่งข้อมูล **ProjectInvoice** ของชนิด `Record list` ที่อ้างถึงตารางแอปพลิเคชัน **ProjInvoiceJour** และกรองใบแจ้งหนี้โครงการสำหรับรอบระยะเวลาที่ระบุ
 
-    ฟิลด์ `InvoiceAccount` ของแหล่งข้อมูลนี้ส่งคืนหมายเลขบัญชีของลูกค้าที่ออกใบแจ้งหนี้แล้ว
+    ฟิลด์ `InvoiceAccount` ของแหล่งข้อมูลนี้ส่งคืนหมายเลขลูกค้าองค์กรที่ออกใบแจ้งหนี้แล้ว
 
 3. ตั้งค่าคอนฟิกแหล่งข้อมูล **AllInvoices** ของชนิด `Calculated field` ที่มีนิพจน์ `LISTJOIN(SalesInvoice, ProjectInvoice)`
 

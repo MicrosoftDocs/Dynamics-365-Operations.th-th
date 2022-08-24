@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066981"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219612"
 ---
 # <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>ลงทะเบียนสินค้าเปิดใช้งานสำหรับกระบวนการจัดการคลังสินค้า โดยใช้สมุดรายวันการมาถึงของสินค้า
 
@@ -29,7 +29,7 @@ ms.locfileid: "9066981"
 
 ## <a name="enable-sample-data"></a>เปิดใช้งานข้อมูลตัวอย่าง
 
-หากต้องการสถานการณ์นี้โดยใช้เรกคอร์ดตัวอย่างและค่าที่ระบุในบทความนี้ คุณต้องใช้ระบบที่ติดตั้งข้อมูลสาธิตมาตรฐานไว้ และคุณต้องเลือกนิติบุคคล *USMF* ก่อนที่คุณจะเริ่มต้น
+หากต้องการสถานการณ์นี้โดยใช้เรกคอร์ดตัวอย่างและค่าที่ระบุในบทความนี้ คุณต้องใช้ระบบที่ติดตั้ง [ข้อมูลสาธิต](../../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐานไว้ และคุณต้องเลือกนิติบุคคล *USMF* ก่อนที่คุณจะเริ่มต้น
 
 คุณสามารถใช้งานสถานการณ์ดังกล่าวแทนได้ ด้วยการแทนที่ค่าจากข้อมูลของคุณเองที่คุณมีข้อมูลต่อไปนี้
 

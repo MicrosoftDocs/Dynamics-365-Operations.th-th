@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111832"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242996"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>อัปเกรดเป็นรูปแบบสมุดที่อยู่ของฝ่ายและสมุดที่อยู่สากล
 
@@ -87,7 +87,7 @@ ms.locfileid: "9111832"
     | FO Linked Service_properties_type Properties_url | `https://sampledynamics.sandbox-operationsdynamics.com/data` |
     | FO Linked Service_properties_type Properties_tenant | ข้อมูล (ชื่อโดเมนหรือรหัสผู้เช่า) เกี่ยวกับผู้เช่าที่แอปพลิเคชันของคุณมีอยู่ |
     | FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com` |
-    | FO Linked Service_properties_type Properties_service Principal Id | รหัสไคลเอนต์ของแอปพลิเคชัน |
+    | FO Linked Service_properties_type Properties_service Principal Id | รหัสไคลเอ็นต์ของแอปพลิเคชัน |
     | Dynamics Crm Linked Service_properties_type Properties_username | ชื่อผู้ใช้ที่ใช้ในการเชื่อมต่อกับ Dynamics 365 |
 
     สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:
@@ -249,7 +249,7 @@ ms.locfileid: "9111832"
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: การลบ msdyn_partyelectronicaddress
 
-6. ในแอปการมีส่วนร่วมของลูกค้าให้ปิดใช้งานลำดับงานต่อไปนี้:
+6. ในแอปการมีส่วนร่วมของลูกค้าให้ปิดใช้งานเวิร์กโฟลว์ต่อไปนี้:
 
     + สร้างผู้จัดจำหน่ายในตารางบัญชี
     + สร้างผู้จัดจำหน่ายในตารางบัญชี
@@ -274,7 +274,7 @@ ms.locfileid: "9111832"
 
     ![การนําเข้าเรกคอร์ดฝ่ายของ Dataverse](media/data-factory-import-party.png)
 
-9. ใน Data Factory ให้เรียกใช้เทมเพลตที่อยู่ทางไปรษณีย์ของฝ่ายและที่อยู่อิเล็กทรอนิกส์ของฝ่าย เทมเพลตหนึ่งอยู่หลังอีกเทมเพลต
+9. ใน Data Factory ให้เรียกใช้เทมเพลตที่อยู่อิเล็กทรอนิกส์ของฝ่ายและที่อยู่ทางไปรษณีย์ของฝ่าย เทมเพลตหนึ่งอยู่หลังอีกเทมเพลต
 
     + เทมเพลตที่อยู่ทางไปรษณีย์ของฝ่ายจะส่งเรกคอร์ดที่อยู่ทางไปรษณีย์ทั้งหมดลงในแอปการมีส่วนร่วมของลูกค้าและเชื่อมโยงกับเรกคอร์ด **บัญชี**, **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** โดยยังสร้างไฟล์ .csv สามไฟล์: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv และ ImportFONewPostalAddress.csv
     + เทมเพลตที่อยู่อิเล็กทรอนิกส์ของฝ่ายจะส่งเรกคอร์ดที่อยู่อิเล็กทรอนิกส์ทั้งหมดลงในแอปการมีส่วนร่วมของลูกค้าและเชื่อมโยงกับเรกคอร์ด **บัญชี**, **ผู้ติดต่อ** และ **ผู้จัดจำหน่าย** โดยยังสร้างไฟล์ .csv หนึ่งไฟล์: ImportFONewElectronicAddress.csv
@@ -344,7 +344,7 @@ ms.locfileid: "9111832"
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: การลบ msdyn_partyelectronicaddress
 
-12. ในแอปการมีส่วนร่วมของลูกค้าให้เรียกใช้ลำดับงานต่อไปนี้หากคุณยกเลิกการเรียกใช้ก่อนหน้า:
+12. ในแอปการมีส่วนร่วมของลูกค้าให้เรียกใช้เวิร์กโฟลว์ต่อไปนี้หากคุณยกเลิกการเรียกใช้ก่อนหน้า:
 
     + สร้างผู้จัดจำหน่ายในตารางบัญชี
     + สร้างผู้จัดจำหน่ายในตารางบัญชี

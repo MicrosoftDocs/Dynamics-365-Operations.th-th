@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2018-11-01
+ms.openlocfilehash: e63f8d68b8b79143771c0b1c757cb78659183b67
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909401"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280280"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
 
@@ -118,7 +118,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-the-registration-process"></a>ตั้งค่ากระบวนการลงทะเบียน
 
-เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่าศูนย์ควบคุม Commerce สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
+เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่า Commerce headquarters สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
 
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
@@ -164,7 +164,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
         "DepositPaymentMethod": {"PrinterPaymentType":"2", "PrinterPaymentIndex":"00"}}
     ```
 
-    นี่เป็นคำอธิบายเกี่ยวกับแอททริบิวต์ในการแมปนี้:
+    นี่เป็นคำอธิบายเกี่ยวกับแอตทริบิวต์ในการแมปนี้:
 
     - **StorePaymentMethod** คือวิธีการชําระเงินที่ตั้งค่าไว้เพื่อร้านค้าที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> วิธีการชำระเงิน \> วิธีการชำระเงิน**
     - **PrinterPaymentType** และ **PrinterPaymentIndex** เป็นชนิดการชําระเงินและดัชนีที่ตรงกัน ซึ่งกําหนดไว้ในเอกสารเครื่องพิมพ์ทางการเงินของ Epson
@@ -201,12 +201,12 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
         {"VATRate":"0000", "VATExemptNature":"NS", "ProductType":"0", "DepartmentNumber":"99"}]}
     ```
 
-    นี่เป็นคำอธิบายเกี่ยวกับแอททริบิวต์ในการแมปนี้:
+    นี่เป็นคำอธิบายเกี่ยวกับแอตทริบิวต์ในการแมปนี้:
 
     - **VATRate** คืออัตรา VAT ที่ได้รับการสนับสนุนซึ่งตั้งค่าคอนฟิกเป็นรหัสภาษีขาย ค่าในการแมปมีทศนิยมสองจุด แต่ไม่มีตัวแบ่งทศนิยม ตัวอย่างเช่น **2200** แสดงถึง 22 เปอร์เซ็นต์ และ **1000** จะแสดงถึง 10 เปอร์เซ็นต์
     - **VATExemptNature** สามารถใช้ได้เฉพาะในกรณีที่อัตรา VAT เป็น 0 (ศูนย์) เท่านั้น รวมถึงกรณีที่ไม่มีภาษี ปัจจุบัน **VATExemptNature** ได้รับการสนับสนุนเฉพาะกับบัตรของขวัญและค่าในการแมปควรตรงกับค่าของคุณสมบัติ **VATExemptNatureForGiftCard** ในไฟล์การตั้งค่าคอนฟิก XML
     - **ProductType** คือชนิดของผลิตภัณฑ์ ค่า **0** แสดงถึงสินค้า และค่าของ **1** แสดงถึงบริการ
-    - **DepartmentNumber** คือหมายเลขของแผนกที่มีการตั้งค่าคอนฟิกในเครื่องพิมพ์และสอดคล้องกับแอททริบิวต์สามรายการก่อนหน้านี้
+    - **DepartmentNumber** คือหมายเลขของแผนกที่มีการตั้งค่าคอนฟิกในเครื่องพิมพ์และสอดคล้องกับแอตทริบิวต์สามรายการก่อนหน้านี้
 
     คุณต้องปรับเปลี่ยนการแมปตัวอย่างตามอัตรา VAT ที่ตั้งค่าคอนฟิกในแอปพลิเคชันของคุณและแผนกที่เกี่ยวข้องซึ่งตั้งค่าคอนฟิกในเครื่องพิมพ์ทางการเงินของคุณ
 
@@ -236,7 +236,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
         "PrinterReturnOriginWithoutFiscalData":"POS"}
     ```
 
-    นี่เป็นคำอธิบายเกี่ยวกับแอททริบิวต์ในการแมปนี้:
+    นี่เป็นคำอธิบายเกี่ยวกับแอตทริบิวต์ในการแมปนี้:
 
     - **ReturnOrigin** เป็นหนึ่งในจุดเริ่มต้นที่เป็นไปได้ของการส่งคืนในร้านค้าของคุณ ค่าควรตรงกับค่าของพารามิเตอร์ **รหัสข้อมูลเกี่ยวกับจุดเริ่มต้นการส่งคืน**
     - **PrinterReturnOrigin** เป็นหนึ่งในจุดเริ่มต้นการส่งคืนที่เครื่องพิมพ์ทางการเงินยอมรับ (**POS**, **VR** หรือ **ND**)
@@ -316,7 +316,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ตัวจัดการคำขอ **DocumentProviderEpsonFP90III** เป็นจุดป้อนข้อมูลของคำขอในการสร้างเอกสารจากเครื่องพิมพ์ทางการเงิน
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -325,7 +325,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\EpsonFP90IIISample\\CommerceRuntime\\DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\EpsonFP90IIISample\\CommerceRuntime\\DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
@@ -335,7 +335,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ตัวจัดการคำขอ **EpsonFP90IIISample** คือจุดเข้าใช้งานที่จะจัดการคำขอไปยังอุปกรณ์ต่อพ่วงทางการเงิน
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -345,6 +345,6 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกสำหรับตัวเชื่อมต่ออยู่ที่ **src\\FiscalIntegration\\EpsonFP90IIISample\\HardwareStation\\EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกสำหรับตัวเชื่อมต่ออยู่ที่ **src\\FiscalIntegration\\EpsonFP90IIISample\\HardwareStation\\EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

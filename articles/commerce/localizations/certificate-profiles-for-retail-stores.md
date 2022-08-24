@@ -1,25 +1,25 @@
 ---
 title: โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 description: บทความนี้แสดงภาพรวมเกี่ยวกับวิธีใช้ใบรับรองในร้านค้าปลีก
-author: josaw
+author: josaw1
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailFormLayout, RetailParameters
+ms.openlocfilehash: c9840ecba7752c06b46c1a5b050055bd471027f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873040"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276175"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>โพรไฟล์ใบรับรองที่ผู้ใช้กำหนดสำหรับร้านค้าปลีก
 
@@ -79,7 +79,7 @@ ms.locfileid: "8873040"
 - **ใบรับรอง Key Vault** – จำเป็นต้องใช้ฟิลด์นี้ถ้าคุณตั้งค่าฟิลด์ **ชนิดของสถานที่ที่** เป็น **Key Vault** ใช้เพื่อระบุความลับของใบรับรอง Key Vault
 
     > [!NOTE]
-    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอนต์ Key Vault ของ Azure](../../finance/localizations/setting-up-azure-key-vault-client.md)
+    > ก่อนที่คุณจะใช้ใบรับรอง Key Vault ในโพรไฟล์ใบรับรอง ให้ตรวจสอบให้แน่ใจว่าได้อัพโหลดใบรับรองไปยังที่เก็บ Key Vault และทำตามคำแนะนำใน [การตั้งค่าไคลเอ็นต์ Key Vault ของ Azure](../../finance/localizations/setting-up-azure-key-vault-client.md)
 
 - **ชื่อร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุชื่อร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่
 - **ที่ตั้งร้านค้า** – ฟิลด์นี้เป็นฟิลด์ที่ไม่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุที่ตั้งร้านค้าเริ่มต้นที่ควรใช้ในการค้นหาใบรับรองเฉพาะที่
@@ -90,9 +90,9 @@ ms.locfileid: "8873040"
 - **รหัสประจำตัว** – ฟิลด์นี้เป็นฟิลด์ที่จำเป็นต้องระบุและจะพร้อมใช้งานเฉพาะเมื่อคุณตั้งค่าฟิลด์ **ชนิดสถานที่** เป็น **ใบรับรองเฉพาะที่** เท่านั้น ใช้เพื่อระบุรหัสประจำตัวของใบรับรอง
 - **ข้อคิดเห็น** – ฟิลด์นี้ไม่จำเป็นต้องระบุและให้ผู้ใช้ป้อนหมายเหตุ
 
-### <a name="workflow-searching-certificates-in-the-commerce-runtime"></a>ลำดับงาน: กำลังค้นหาใบรับรองใน Commerce Runtime
+### <a name="workflow-searching-certificates-in-the-commerce-runtime"></a>เวิร์กโฟลว์: กำลังค้นหาใบรับรองใน Commerce Runtime
 
-ต่อไปนี้เป็นลำดับงานพื้นฐานที่ใช้ในการค้นหาใบรับรองเมื่อมีการเรียกใช้โพรไฟล์ใบรับรองใน Commerce Runtime
+ต่อไปนี้เป็นเวิร์กโฟลว์พื้นฐานที่ใช้ในการค้นหาใบรับรองเมื่อมีการเรียกใช้โพรไฟล์ใบรับรองใน Commerce Runtime
 
 1. ระบบระบุว่าโพรไฟล์ใบรับรองมีการตั้งค่าเฉพาะบริษัทสำหรับนิติบุคคลปัจจุบันหรือไม่
 1. ระบบพยายามค้นหาใบรับรองโดยใช้ค่าในหน้า **การตั้งค่าโพรไฟล์ใบรับรอง** สำหรับบรรทัดที่ฟิลด์ **ระดับความสำคัญ** ถูกตั้งค่าเป็น **1**

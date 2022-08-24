@@ -6,23 +6,21 @@ ms.date: 07/20/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
-ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.reviewer: edupont
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 16381,  ""intro-internal
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.form: SystemParameters
+ms.openlocfilehash: a472c022f93b51606530728116f8b1bf3894351b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124208"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292410"
 ---
 # <a name="help-system"></a>ระบบวิธีใช้
 
@@ -121,7 +119,7 @@ ms.locfileid: "9124208"
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>เข้าถึงหัวข้อวิธีใช้จากบานหน้าต่างวิธีใช้
 
-จากบานหน้าต่าง **วิธีใช้** คุณสามารถเข้าถึงหัวข้อที่ใช้กับไคลเอนต์ได้ เมื่อคุณเปิดบานหน้าต่าง **วิธีใช้** และคลิกแท็บ **วิธีใช้** เป็นครั้งแรก คุณจะเห็นหัวข้อที่ใช้ได้กับหน้าที่คุณกำลังเปิดอยู่ ถ้าไม่พบหัวข้อ คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา เมื่อคุณเลือกบทความในบานหน้าต่าง **วิธีใช้** วิธีใช้จะเปิดอยู่บนแท็บใหม่ในเบราเซอร์ของคุณ
+จากบานหน้าต่าง **วิธีใช้** คุณสามารถเข้าถึงหัวข้อที่ใช้กับไคลเอ็นต์ได้ เมื่อคุณเปิดบานหน้าต่าง **วิธีใช้** และคลิกแท็บ **วิธีใช้** เป็นครั้งแรก คุณจะเห็นหัวข้อที่ใช้ได้กับหน้าที่คุณกำลังเปิดอยู่ ถ้าไม่พบหัวข้อ คุณสามารถป้อนคำสำคัญเพื่อจำกัดการค้นหา เมื่อคุณเลือกบทความในบานหน้าต่าง **วิธีใช้** วิธีใช้จะเปิดอยู่บนแท็บใหม่ในเบราเซอร์ของคุณ
 
 > [!IMPORTANT]
 > ส่วนนี้ไม่ได้ใช้กับ Dynamics 365 Human Resources ระบบวิธีใช้สำหรับทรัพยากรบุคคลได้รับการเชื่อมต่อกับคู่มืองานสำหรับผลิตภัณฑ์โดยอัตโนมัติ นอกจากนี้ คุณไม่สามารถสร้างคู่มืองานแบบกำหนดเองสำหรับทรัพยากรบุคคลได้

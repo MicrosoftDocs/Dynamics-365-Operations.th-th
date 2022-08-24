@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 02f10e446349803ce5629fed0be4176f2df2be0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79e8c6899d84c3d6147c0a0c2834a7ad2f7b6927
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869138"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292066"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>คำถามที่พบบ่อยเกี่ยวกับการรวม Dynamics 365 Commerce และ Microsoft Teams
 
@@ -29,11 +29,11 @@ ms.locfileid: "8869138"
 
 ผู้จัดการร้านค้าทั้งหมดจะถูกเพิ่มเป็นเจ้าของกลุ่มทีมงานที่ตรงกันโดยอัตโนมัติ เพื่อให้สามารถดําเนินการได้ เช่น การเพิ่มช่องทางส่วนตัวและเพิ่มหรือลบสมาชิก 
 
-### <a name="how-do-i-assign-the-communications-manager-role-to-an-employee-in-commerce-headquarters"></a>ฉันจะกําหนดบทบาท "ผู้จัดการฝ่ายสื่อสาร" ให้กับพนักงานในศูนย์ควบคุม Commerce อย่างไร 
+### <a name="how-do-i-assign-the-communications-manager-role-to-an-employee-in-commerce-headquarters"></a>ฉันจะกําหนดบทบาท "ผู้จัดการฝ่ายสื่อสาร" ให้กับพนักงานใน Commerce headquarters อย่างไร 
 
-ผู้จัดการฝ่ายการสื่อสาร Microsoft Teams สามารถสร้างและเผยแพร่รายการงานได้ พนักงานในองค์กรที่ต้องเป็นผู้จัดการการสื่อสารต้องมีบทบาทเป็น "ผู้จัดการฝ่ายงานขายปลีก" ที่มอบหมายให้กับพนักงานในศูนย์ควบคุม Commerce
+ผู้จัดการฝ่ายการสื่อสาร Microsoft Teams สามารถสร้างและเผยแพร่รายการงานได้ พนักงานในองค์กรที่ต้องเป็นผู้จัดการการสื่อสารต้องมีบทบาทเป็น "ผู้จัดการฝ่ายงานขายปลีก" ที่มอบหมายให้กับพนักงานใน Commerce headquarters
 
-เมื่อต้องการกําหนดบทบาทผู้จัดการงานขายปลีกให้กับพนักงานในศูนย์ควบคุม Commerce ให้ปฏิบัติตามขั้นตอนต่อไปนี้
+เมื่อต้องการกําหนดบทบาทผู้จัดการงานขายปลีกให้กับพนักงานใน Commerce headquarters ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
 1. ไปยัง **การขายปลีกและการค้า \> พนักงาน \> ผู้ใช้**
 1. เลือกพนักงาน
@@ -42,15 +42,15 @@ ms.locfileid: "8869138"
 
 ### <a name="how-do-i-make-a-specific-organization-hierarchy-available-to-upload-into-microsoft-teams"></a>ฉันจะสามารถอัพโหลดลำดับชั้นขององค์กรเป็นลำชั้นขององค์กรเฉพาะ Microsoft Teams ได้อย่างไร
 
-ในศูนย์ควบคุม Commerce ลำดับชั้นขององค์กรทั้งหมดจะเชื่อมโยงกับวัตถุประสงค์หนึ่งวัตถุประสงค์หรือมากกว่า ตรวจสอบให้แน่ใจว่าลำดับชั้นที่คุณต้องการเตรียมใช้งาน Microsoft Teams มีวัตถุประสงค์ **การรายงานการขายปลีก** ที่เชื่อมโยงอยู่ด้วย ดังที่แสดงในรูปภาพตัวอย่างต่อไปนี้ 
+ใน Commerce headquarters ลำดับชั้นขององค์กรทั้งหมดจะเชื่อมโยงกับวัตถุประสงค์หนึ่งวัตถุประสงค์หรือมากกว่า ตรวจสอบให้แน่ใจว่าลำดับชั้นที่คุณต้องการเตรียมใช้งาน Microsoft Teams มีวัตถุประสงค์ **การรายงานการขายปลีก** ที่เชื่อมโยงอยู่ด้วย ดังที่แสดงในรูปภาพตัวอย่างต่อไปนี้ 
 
-![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรในศูนย์ควบคุม Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
+![ตัวอย่างของวัตถุประสงค์ของลำดับชั้นขององค์กรใน Commerce headquarters](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>ฉันจะเปิดใช้งานผู้ปฏิบัติงานของร้านค้าปลีกเพื่อล็อกอินเข้าสู่การขายหน้าร้านของ Commerce (POS) โดยใช้ Azure Active Directory (Azure AD)?
 
 หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีตั้งค่าคอนฟิกประสบการณ์การลงชื่อเข้าใช้ Commerce POS เพื่อใช้การรับรองความถูกต้อง Azure AD โปรดดูที่ [เปิดใช้งานการรับรองความถูกต้อง Azure Active Directory ของการลงชื่อเข้าใช้ POS](aad-pos-logon.md)
 
-### <a name="how-do-i-map-stores-and-corresponding-teams-in-commerce-headquarters-if-my-organization-has-already-created-teams-in-microsoft-teams"></a>ฉันจะแม็ปร้านค้าและทีมงานที่สอดคล้องกันในศูนย์ควบคุม Commerce ได้อย่างไร ถ้าองค์กรได้สร้างทีมงานไว้แล้วใน Microsoft Teams
+### <a name="how-do-i-map-stores-and-corresponding-teams-in-commerce-headquarters-if-my-organization-has-already-created-teams-in-microsoft-teams"></a>ฉันจะแม็ปร้านค้าและทีมงานที่สอดคล้องกันใน Commerce headquarters ได้อย่างไร ถ้าองค์กรได้สร้างทีมงานไว้แล้วใน Microsoft Teams
 
 หากต้องการข้อมูลเกี่ยวกับวิธีการแม็ปร้านค้าและทีมงานหากมีทีมงานที่มีอยู่แล้ว โปรดดูที่ [แม็ปร้านค้าและทีมงานที่ตรงกันหากองค์กรของคุณมีทีมงานที่มีอยู่ก่อนอยู่แล้วใน Microsoft Teams](map-stores-existing-teams.md)
 
@@ -67,7 +67,7 @@ ms.locfileid: "8869138"
 
 ### <a name="what-happens-if-a-store-manager-leaves-the-company"></a>เกิดอะไรขึ้นถ้าผู้จัดการร้านค้าลาออกจากบริษัท
 
-ผู้ที่มีบทบาทเจ้าของสามารถเพิ่มผู้จัดการร้านค้าใหม่ในศูนย์ควบคุม Commerce และ Teams เตรียมใช้งานใหม่เพื่อให้ผู้จัดการใหม่มีสิทธิ์ที่จําเป็นใน Teams ของกลุ่ม 
+ผู้ที่มีบทบาทเจ้าของสามารถเพิ่มผู้จัดการร้านค้าใหม่ใน Commerce headquarters และ Teams เตรียมใช้งานใหม่เพื่อให้ผู้จัดการใหม่มีสิทธิ์ที่จําเป็นใน Teams ของกลุ่ม 
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

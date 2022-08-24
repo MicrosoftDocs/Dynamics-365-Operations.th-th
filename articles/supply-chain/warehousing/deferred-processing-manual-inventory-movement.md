@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863750"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219822"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี
 
@@ -33,7 +33,7 @@ ms.locfileid: "8863750"
 เมื่อต้องการให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) คุณต้องเปิดในใบสั่งนี้:
 
 1. *การบล็อคงานทั่วทั้งองค์กร*<br>(ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
-1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
+1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ ดังนั้น ระบบจึงเปิดอยู่ตามค่าเริ่มต้นจึงไม่สามารถปิดได้อีก)
 1. *การดำเนินการวางที่รอการตัดบัญชี*
 1. *การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง*<br>(ณ เวอร์ชัน Supply Chain Management 10.0.25 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
 

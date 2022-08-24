@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bc0e911eeccd1d4700f1f4daefd5fe1a4935cd80
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855070"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218726"
 ---
 # <a name="quality-check"></a>การตรวจสอบคุณภาพ
 
@@ -49,7 +49,7 @@ ms.locfileid: "8855070"
 
 ### <a name="make-sample-data-available"></a>ทำให้ข้อมูลตัวอย่างพร้อมใช้งาน
 
-เมื่อต้องการดำเนินการ [สถานการณ์ตัวอย่าง](#example-scenario) โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
+เมื่อต้องการดำเนินการ [สถานการณ์ตัวอย่าง](#example-scenario) โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
 
 ### <a name="quality-check-template"></a><a name="quality-template"></a>เทมเพลตการตรวจสอบคุณภาพ
 

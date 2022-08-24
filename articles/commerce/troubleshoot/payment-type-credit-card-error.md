@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 794317a84a8a0ff205ac1b6a5caa6ef1cf098ea3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 71c5cbaf574866c74e222f4d67132004327db8fe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905354"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285644"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>"ชนิดการชำระเงินต้องเป็นข้อผิดพลาดเกี่ยวกับบัตรเครดิต" ในหน้าใบสั่งขาย
 
@@ -36,7 +36,7 @@ ms.locfileid: "8905354"
 
 ## <a name="resolution"></a>การแก้ปัญหา
 
-### <a name="set-the-payment-type-in-commerce-headquarters"></a>ตั้งค่าชนิดการชำระเงินในศูนย์ควบคุม Commerce
+### <a name="set-the-payment-type-in-commerce-headquarters"></a>ตั้งค่าชนิดการชำระเงินใน Commerce headquarters
 
 1. ไปที่ **บัญชีลูกหนี้ \> การตั้งค่าการชำระเงิน \> เงื่อนไขการชำระเงิน**
 1. ในการนําทางด้านซ้าย ให้เลือกเงื่อนไขการชำระเงินของคุณ

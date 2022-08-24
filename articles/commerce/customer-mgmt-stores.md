@@ -6,20 +6,20 @@ ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: 2928aa5c4e62611b54799fbe7c1bba25fe186bcd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863498"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282253"
 ---
 # <a name="customer-management-in-stores"></a>การจัดการลูกค้าหน้าร้าน
 
@@ -50,6 +50,6 @@ ms.locfileid: "8863498"
 
 [แปลงลูกค้าแบบเอซิงค์เป็นลูกค้าแบบซิงค์](convert-async-to-sync.md)
 
-[แอททริบิวต์สำหรับลูกค้า](dev-itpro/customer-attributes.md)
+[แอตทริบิวต์สำหรับลูกค้า](dev-itpro/customer-attributes.md)
 
 [การยกเว้นข้อมูลออฟไลน์](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion)

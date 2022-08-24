@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 48e6909b4dac9722830a83ec3a63a58876768d7e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882207"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275017"
 ---
 # <a name="shipping-address-module"></a>โมดูลที่อยู่ที่จัดส่ง
 
@@ -29,7 +29,7 @@ ms.locfileid: "8882207"
 
 โมดูลที่อยู่จัดส่งนี้จะช่วยให้ลูกค้าเพิ่มหรือเลือกที่อยู่จัดส่งสำหรับใบสั่งในระหว่างขั้นตอนการเช็คเอาท์ ถ้าลูกค้าเคยลงชื่อเข้าใช้ไว้ ที่อยู่ที่บันทึกไว้ก่อนหน้านี้สำหรับลูกค้ารายนั้นจะแสดงขึ้นและลูกค้าสามารถเลือกได้ ลูกค้ายังสามารถเพิ่มที่อยู่ใหม่ได้ด้วย โมดูลที่อยู่จัดส่งจะใช้สำหรับสินค้าทั้งหมดในใบสั่งที่ต้องมีการจัดส่ง
 
-คุณสามารถกำหนดรูปแบบที่อยู่ที่จัดส่งในศูนย์ควบคุม Commerce สำหรับแต่ละประเทศหรือภูมิภาคและโมดูลที่อยู่ที่จัดส่งจะบังคับใช้กฎเฉพาะประเทศ/ภูมิภาค
+คุณสามารถกำหนดรูปแบบที่อยู่ที่จัดส่งใน Commerce headquarters สำหรับแต่ละประเทศหรือภูมิภาคและโมดูลที่อยู่ที่จัดส่งจะบังคับใช้กฎเฉพาะประเทศ/ภูมิภาค
 
 เมื่อลูกค้าป้อนที่อยู่ที่จัดส่งในระหว่างขั้นตอนการเช็คเอาท์ จะมีตัวเลือกในการบันทึกที่อยู่เป็นที่อยู่หลัก ตัวเลือกนี้จะแสดงขึ้นเฉพาะเมื่อลูกค้าลงชื่อเข้าใช้เท่านั้น
 

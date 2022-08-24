@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.search.form: HcmCompensationWorkspace
-ms.openlocfilehash: cd51bf429abea5693432643a5ea9441fb9e2e464
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 58d78dede753d8ed81a0e815b9ea02c69b70121f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206460"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291842"
 ---
 # <a name="compensation-power-bi-content"></a>เนื้อหา Power BI ของค่าตอบแทน
 
@@ -47,7 +47,7 @@ ms.locfileid: "9206460"
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี
 ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมรายงานในเนื้อหา Power BI ของ **ค่าตอบแทน** ตารางนี้แสดงเอนทิตีที่ชุดเนื้อหายึดตาม
 
-| เอนทิตี                   | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
+| เอนทิตี้                   | เนื้อหา                                                                                                   | ความสัมพันธ์กับเอนทิตีอื่น |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | ออฟเซ็ตของปฏิทิน          | ปฏิทินออฟเซ็ตเพื่อแบ่งส่วนรายงาน                                                                          | การกำหนดตำแหน่งที่ผ่านมา แนวโน้มของตำแหน่ง แนวโน้มของพนักงาน พนักงานที่เลิกจ้างไปแล้ว |
 | บริษัท                  | บริษัทสามารถกรองข้อมูลรายงานโดย                                                                             | ค่าตอบแทนปัจจุบัน พนักงานปัจจุบัน พนักงานที่เลิกจ้างไปแล้ว แนวโน้มของพนักงาน |

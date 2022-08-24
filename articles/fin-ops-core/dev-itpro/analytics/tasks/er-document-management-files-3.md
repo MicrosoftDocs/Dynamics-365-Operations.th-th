@@ -1,24 +1,24 @@
 ---
 title: ER ใช้ไฟล์การจัดการเอกสารในผลลัพธ์รูปแบบ (ส่วนที่ 3 - สร้างรูปแบบ)
 description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกรูปแบบการรายงานทางอิเล็กทรอนิกส์ เพื่อใช้ไฟล์การจัดการเอกสารในผลลัพธ์ ER (ส่วนที่ 3)
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6957b314f8120f3cd240336f93dd6fbb43132759
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+ms.openlocfilehash: b70f5ed74fd701be79daebbd2a8f246a0a0ab95e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908339"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290948"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER ใช้ไฟล์การจัดการเอกสารในผลลัพธ์รูปแบบ (ส่วนที่ 3 - สร้างรูปแบบ)
 
@@ -53,15 +53,15 @@ ms.locfileid: "8908339"
     * ใบแจ้งหนี้  
 5. คลิก ตกลง
 6. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-7. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
+7. ในแผนภูมิ เลือก 'XML\แอตทริบิวต์'
 8. ในฟิลด์ ชื่อ ให้พิมพ์ชื่อ 'SalesOrder'
     * SalesOrder  
 9. คลิก ตกลง
-10. คลิก เพิ่มแอททริบิวต์
+10. คลิก เพิ่มแอตทริบิวต์
 11. ในฟิลด์ชื่อ ให้พิมพ์ 'InvoiceNumber'
     * InvoiceNumber  
 12. คลิก ตกลง
-13. คลิก เพิ่มแอททริบิวต์
+13. คลิก เพิ่มแอตทริบิวต์
 14. ในฟิลด์ชื่อ ให้พิมพ์ 'InvoiceAmount'
     * InvoiceAmount  
 15. คลิก ตกลง
@@ -77,7 +77,7 @@ ms.locfileid: "8908339"
 23. คลิก ตกลง
 24. ในแผนภูมิ ให้เลือก 'Invoice\EnclosedDocs\Document'
 25. คลิกเพิ่ม เพื่อเปิดกล่องโต้ตอบการวาง
-26. ในแผนภูมิ เลือก 'XML\แอททริบิวต์'
+26. ในแผนภูมิ เลือก 'XML\แอตทริบิวต์'
 27. ในฟิลด์ชื่อ ให้พิมพ์ 'ชื่อไฟล์'
     * FileName  
 28. คลิก ตกลง

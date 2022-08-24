@@ -1,25 +1,25 @@
 ---
 title: ภาพรวมของการจัดการเอกสารทางธุรกิจ
 description: บทความนี้จะนำเสนอข้อมูลเกี่ยวกับวิธีการใช้คุณลักษณะการจัดการเอกสารทางธุรกิจของกรอบงาน ER
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
+ms.openlocfilehash: 0fab7e1a36d9b4092cf4353533704859e83bed26
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903630"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288302"
 ---
 # <a name="business-document-management-overview"></a>ภาพรวมของการจัดการเอกสารทางธุรกิจ
 
@@ -125,9 +125,9 @@ ms.locfileid: "8903630"
 
 ก่อนที่คุณจะสามารถตั้งค่าการจัดการเอกสารทางธุรกิจได้ คุณต้องตั้งค่าชนิดเอกสารที่จำเป็นต้องใช้ในกรอบงานการจัดการเอกสาร ชนิดของเอกสารนี้ใช้เพื่อระบุที่เก็บข้อมูลชั่วคราวของเอกสารในรูปแบบ Office (Excel และ Word) ที่จะใช้เป็นเทมเพลตสำหรับรายงาน ER เทมเพลตที่เก็บข้อมูลชั่วคราวสามารถแก้ไขได้โดยใช้แอปพลิเคชันบนเดสก์ท็อปของ Office
 
-สำหรับชนิดเอกสารนี้ ต้องมีการเลือกค่าแอททริบิวต์ต่อไปนี้
+สำหรับชนิดเอกสารนี้ ต้องมีการเลือกค่าแอตทริบิวต์ต่อไปนี้
 
-| ชื่อแอททริบิวต์ | ค่าแอททริบิวต์ |
+| ชื่อแอตทริบิวต์ | ค่าแอตทริบิวต์ |
 |----------------|-----------------|
 | คลาส          | แนบไฟล์     |
 | กลุ่ม          | ไฟล์            |

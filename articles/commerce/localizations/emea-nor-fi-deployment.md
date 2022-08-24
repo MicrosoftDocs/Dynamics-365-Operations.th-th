@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899078"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281029"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
@@ -40,7 +40,7 @@ ms.locfileid: "8899078"
 
 ### <a name="configure-the-fiscal-registration-process"></a>ตั้งค่าคอนฟิกกระบวนการลงทะเบียนทางการเงิน
 
-ให้ทําตามขั้นตอนต่อไปนี้เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียนทางการเงินสำหรับนอร์เวย์ในศูนย์ควบคุม Commerce
+ให้ทําตามขั้นตอนต่อไปนี้เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียนทางการเงินสำหรับนอร์เวย์ใน Commerce headquarters
 
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงินจาก Commerce SDK:
 
@@ -76,7 +76,7 @@ ms.locfileid: "8899078"
 
 - **ชื่อ** และ **รายละเอียด** – ชื่อและรายละเอียดของที่จัดเก็บ Key Vault
 - **URL ของ Key Vault** – URL ของที่จัดเก็บ Key Vault
-- **ไคลเอนต์ Key Vault** – รหัสไคลเอนต์เชิงโต้ตอบของแอปพลิเคชัน Azure Active Directory (Azure AD) ที่เชื่อมโยงกับที่จัดเก็บ Key Vault เพื่อวัตถุประสงค์การรับรองความถูกต้อง ไคลเอนต์นี้ควรจะมีสิทธิ์อ่านข้อมูลลับจากที่จัดเก็บ
+- **ไคลเอ็นต์ Key Vault** – รหัสไคลเอ็นต์เชิงโต้ตอบของแอปพลิเคชัน Azure Active Directory (Azure AD) ที่เชื่อมโยงกับที่จัดเก็บ Key Vault เพื่อวัตถุประสงค์การรับรองความถูกต้อง ไคลเอ็นต์นี้ควรจะมีสิทธิ์อ่านข้อมูลลับจากที่จัดเก็บ
 - **คีย์ลับ Key Vault** – คีย์ลับที่เชื่อมโยงกับแอปพลิเคชัน Azure AD ที่ใช้การรับรองความถูกต้องในที่จัดเก็บ Key Vault
 - **ชื่อ** **รายละเอียด** และ **การอ้างอิงข้อมูลลับ** – ชื่อ รายละเอียด และการอ้างอิงข้อมูลลับของใบรับรอง
 

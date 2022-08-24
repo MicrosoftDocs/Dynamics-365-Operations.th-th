@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885413"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275078"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
 
@@ -108,7 +108,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-the-registration-process"></a>ตั้งค่ากระบวนการลงทะเบียน
 
-เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่าศูนย์ควบคุม Commerce สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
+เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่า Commerce headquarters สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
 
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
@@ -151,7 +151,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
     - *1* และ *2* เป็นรหัส VAT เฉพาะอุปกรณ์
     - อัฒภาค (;) ใช้เป็นตัวแบ่ง
-    - *code1* และ *code2* คือรหัสภาษีขายที่ตั้งค่าคอนฟิกในศูนย์ควบคุม Commerce คุณต้องปรับเปลี่ยนการแมปตัวอย่างตามรหัสภาษีที่ตั้งค่าคอนฟิกในแอปพลิเคชันของคุณ
+    - *code1* และ *code2* คือรหัสภาษีขายที่ตั้งค่าคอนฟิกใน Commerce headquarters คุณต้องปรับเปลี่ยนการแมปตัวอย่างตามรหัสภาษีที่ตั้งค่าคอนฟิกในแอปพลิเคชันของคุณ
 
     อุปกรณ์ควบคุมสนับสนุนรหัส VAT ที่แตกต่างกันไม่เกินสี่รหัส ดังนั้น การแมปรหัส VAT อาจถูกตั้งค่าในลักษณะต่อไปนี้:
 
@@ -231,7 +231,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 มีตัวจัดการคำขอ **DocumentProviderCleanCash** หนึ่งตัวจัดการสำหรับตัวจัดการเอกสาร ตัวจัดการนี้ใช้ในการสร้างเอกสารทางการเงินเกี่ยวกับอุปกรณ์ควบคุม
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -240,7 +240,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\CleanCash\\CommerceRuntime\\DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\CleanCash\\CommerceRuntime\\DocumentProvider.CleanCashSample\\Configuration\\DocumentProviderFiscalCleanCashSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
@@ -250,7 +250,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ตัวจัดการคำขอ **CleanCashHandler** เป็นจุดเข้าใช้งานเพื่อจัดการคำขอไปยังอุปกรณ์ควบคุม
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -260,6 +260,6 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกสำหรับตัวเชื่อมต่ออยู่ที่ **src\\FiscalIntegration\\CleanCash\\HardwareStation\\Connector.CleanCashSample\\Configuration\\ConnectorCleanCashSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกสำหรับตัวเชื่อมต่ออยู่ที่ **src\\FiscalIntegration\\CleanCash\\HardwareStation\\Connector.CleanCashSample\\Configuration\\ConnectorCleanCashSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

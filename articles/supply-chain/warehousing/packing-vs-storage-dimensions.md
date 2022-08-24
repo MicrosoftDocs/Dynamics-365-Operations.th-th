@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905499"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220256"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 
@@ -50,7 +50,7 @@ ms.locfileid: "8905499"
 
 #### <a name="enable-demo-data"></a>เปิดใช้งานข้อมูลสาธิต
 
-เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าสาธิตที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล *USMF* ก่อนที่คุณจะเริ่มต้น
+เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าสาธิตที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐาน นอกจากนี้ คุณยังต้องเลือกนิติบุคคล *USMF* ก่อนที่คุณจะเริ่มต้น
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>เพิ่มมิติทางกายภาพใหม่ให้กับผลิตภัณฑ์
 

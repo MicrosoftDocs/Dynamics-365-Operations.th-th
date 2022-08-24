@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d5a59365b3a524b8a5ec9e1e829fe181aa3d3660
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2e5ac6911e7fb4753e1dbd0b78b26691dbe3105
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897157"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288868"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>รวมการจัดซื้อระหว่าง Supply Chain Management และ Field Service
 
@@ -89,14 +89,14 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 ### <a name="account-and-vendor-tables"></a>ตารางบัญชีและผู้จัดจำหน่าย
 
-ใบสั่งซื้อใน Field Service ขึ้นอยู่กับตารางบัญชีเพื่อติดตามผู้จัดจำหน่าย ดังนั้น ตาราง Dataverse ของใบสั่งซื้อจึงใช้บัญชีเพื่อติดตามผู้จัดจำหน่าย เพื่อรองรับความแตกต่างของคีย์นี้ ต้องมีการเรียกใช้งานสี่ลำดับงานต่อไปนี้เพื่อให้บัญชีผู้จัดจำหน่ายและบัญชียังคงซิงค์อยู่ 
+ใบสั่งซื้อใน Field Service ขึ้นอยู่กับตารางบัญชีเพื่อติดตามผู้จัดจำหน่าย ดังนั้น ตาราง Dataverse ของใบสั่งซื้อจึงใช้บัญชีเพื่อติดตามผู้จัดจำหน่าย เพื่อรองรับความแตกต่างของคีย์นี้ ต้องมีการเรียกใช้งานสี่เวิร์กโฟลว์ต่อไปนี้เพื่อให้บัญชีผู้จัดจำหน่ายและบัญชียังคงซิงค์อยู่ 
 
 - สร้างผู้จัดจำหน่ายในตารางบัญชี
 - สร้างผู้จัดจำหน่ายในตารางผู้จัดจำหน่าย
 - อัปเดตผู้จัดจำหน่ายในตารางบัญชี
 - อัปเดตผู้จัดจำหน่ายในตารางผู้จัดจำหน่าย
 
-ถ้าติดตั้ง OneFSSCM ไว้ เนื่องจากมีการติดตั้งทั้ง Field Service และ Supply Chain Management แบบขยาย ลำดับงานเหล่านี้จะเรียกใช้โดยอัตโนมัติ ถ้าไม่ได้ติดตั้ง Field Service ไว้ แต่คุณต้องการรวมตารางใบสั่งซื้อด้วย Dataverse คุณต้องเรียกใช้ลำดับงานเหล่านี้ต่อไปนี้ ทั้งสองกรณี ยกเว้นว่าคุณจะเริ่มตั้งแต่ต้น คุณอาจต้องตรวจสอบให้แน่ใจว่าผู้จัดจำหน่ายทั้งหมดถูกสร้างขึ้นเป็นบัญชีใน Dataverse ก่อนที่คุณจะสร้างใบสั่งซื้อ มิฉะนั้นจะเกิดข้อผิดพลาดขึ้น
+ถ้าติดตั้ง OneFSSCM ไว้ เนื่องจากมีการติดตั้งทั้ง Field Service และ Supply Chain Management แบบขยาย เวิร์กโฟลว์เหล่านี้จะเรียกใช้โดยอัตโนมัติ ถ้าไม่ได้ติดตั้ง Field Service ไว้ แต่คุณต้องการรวมตารางใบสั่งซื้อด้วย Dataverse คุณต้องเรียกใช้เวิร์กโฟลว์เหล่านี้ต่อไปนี้ ทั้งสองกรณี ยกเว้นว่าคุณจะเริ่มตั้งแต่ต้น คุณอาจต้องตรวจสอบให้แน่ใจว่าผู้จัดจำหน่ายทั้งหมดถูกสร้างขึ้นเป็นบัญชีใน Dataverse ก่อนที่คุณจะสร้างใบสั่งซื้อ มิฉะนั้นจะเกิดข้อผิดพลาดขึ้น
 
 ### <a name="initial-synchronization"></a>การซิงโครไนส์ครั้งแรก
 
@@ -149,7 +149,7 @@ Microsoft Dynamics 365 Supply Chain Management มีฟังก์ชันก
 
 ### <a name="supply-chain-management-purchase-order-and-purchase-order-line-statuses"></a>สถานะของใบสั่งซื้อและรายการใบสั่งซื้อของ Supply Chain Management
 
-สถานะการอนุมัติรายการจะเปิดใช้งานเฉพาะเมื่อมีลำดับงานเท่านั้น
+สถานะการอนุมัติรายการจะเปิดใช้งานเฉพาะเมื่อมีเวิร์กโฟลว์เท่านั้น
 
 | ส่วนหัว – สถานะของเอกสาร | ส่วนหัว – สถานะการอนุมัติ | สถานะของบรรทัด | สถานะการอนุมัติรายการ |
 |---|---|---|---|

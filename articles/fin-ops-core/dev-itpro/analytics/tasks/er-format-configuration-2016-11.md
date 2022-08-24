@@ -1,24 +1,24 @@
 ---
 title: สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)
 description: บทความนี้อธิบายวิธีการสร้างการตั้งค่าคอนฟิกรูปแบบสำหรับการรายงานทางอิเล็กทรอนิกส์ (ER)
-author: NickSelin
+author: kfend
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+ms.openlocfilehash: 3c705add64a46c4cce5127f16fae45edba1bc001
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902667"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290738"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>สร้างการตั้งค่าคอนฟิกรูปแบบของ ER (พฤศจิกายน 2016)
 
@@ -71,7 +71,7 @@ ms.locfileid: "8902667"
 24. คลิก **ตกลง** 
 25. ในแผนภูมิ ให้เลือก **Xml\ข้อความ\การชำระเงิน\รายการ**
 26. คลิก **เพิ่ม**
-27. ในแผนภูมิ เลือก **XML\แอททริบิวต์**
+27. ในแผนภูมิ เลือก **XML\แอตทริบิวต์**
 28. ในฟิลด์ชื่อ พิมพ์ **รหัส**
 29. คลิก **ตกลง** 
 30. คลิก **เพิ่ม**

@@ -1,26 +1,26 @@
 ---
 title: ชนิดของปลายทาง ER อีเมล
 description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกปลายทางอีเมลให้กับแต่ละส่วนประกอบโฟลเดอร์หรือไฟล์ ของรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)
-author: NickSelin
+author: kfend
 ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 5e58618618d9125db4c81f49f62f48c2ce2f5e62
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845670"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285439"
 ---
 # <a name="email-er-destination-type"></a>ชนิดของปลายทาง ER อีเมล
 
@@ -59,10 +59,10 @@ ms.locfileid: "8845670"
 
 ในฟิลด์ **ชื่อเรื่อง** ให้ป้อนข้อความของชื่อเรื่องอีเมลที่ควรปรากฏในฟิลด์ชื่อเรื่องของข้อความอิเล็กทรอนิกส์ที่สร้างขึ้นเมื่อรันไทม์ ในฟิลด์ **เนื้อหา** ให้ป้อนข้อความของเนื้อหาอีเมลที่ควรปรากฏในฟิลด์เนื้อหาของข้อความอิเล็กทรอนิกส์ที่สร้างขึ้น คุณสามารถตั้งค่าข้อความค่าคงที่สำหรับชื่อเรื่องและเนื้อหาอีเมล หรือคุณสามารถใช้ [สูตร](er-formula-language.md) ER เพื่อสร้างข้อความอีเมลแบบไดนามิกได้เมื่อรันไทม์ สูตรที่ตั้งค่าคอนฟิกต้องส่งคืนค่าชนิด [สตริง](er-formula-supported-data-types-primitive.md#string)
 
-เนื้อหาของอีเมลของคุณประกอบด้วยรูปแบบ TEXT หรือ HTML ทั้งนี้ขึ้นอยู่กับไคลเอนต์อีเมล คุณสามารถใช้โครงร่าง การกำหนดลักษณะ และการสร้างแบรนด์ที่มี Cascading Style Sheet แบบ HTML (CSS) และแบบอินไลน์ให้
+เนื้อหาของอีเมลของคุณประกอบด้วยรูปแบบ TEXT หรือ HTML ทั้งนี้ขึ้นอยู่กับไคลเอ็นต์อีเมล คุณสามารถใช้โครงร่าง การกำหนดลักษณะ และการสร้างแบรนด์ที่มี Cascading Style Sheet แบบ HTML (CSS) และแบบอินไลน์ให้
 
 > [!NOTE]
-> ไคลเอนต์อีเมลที่กำหนดโครงร่างและข้อจำกัดการกำหนดลักษณะซึ่งอาจจำเป็นต้องมีการปรับปรุง HTML และ CSS ที่คุณใช้สำหรับเนื้อหาของข้อความ เราขอแนะนำให้คุณทำความคุ้นเคยกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้าง HTML ซึ่งไคลเอนต์อีเมลที่ได้รับความนิยมมากที่สุดจะได้รับการสนับสนุน
+> ไคลเอ็นต์อีเมลที่กำหนดโครงร่างและข้อจำกัดการกำหนดลักษณะซึ่งอาจจำเป็นต้องมีการปรับปรุง HTML และ CSS ที่คุณใช้สำหรับเนื้อหาของข้อความ เราขอแนะนำให้คุณทำความคุ้นเคยกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้าง HTML ซึ่งไคลเอ็นต์อีเมลที่ได้รับความนิยมมากที่สุดจะได้รับการสนับสนุน
 >
 > ใช้การเข้ารหัสที่ถูกต้องเพื่อดําเนินการส่งคืนสินค้าใหม่ ตามการจัดรูปแบบเนื้อหา สำหรับข้อมูลเพิ่มเติม ให้ดูการนิยามของชนิดข้อมูล [สตริง](er-formula-supported-data-types-primitive.md#string)
 

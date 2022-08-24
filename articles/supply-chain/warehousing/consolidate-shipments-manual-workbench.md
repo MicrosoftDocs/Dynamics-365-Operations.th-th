@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888338"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218632"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
 
@@ -41,7 +41,7 @@ ms.locfileid: "8888338"
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *การรวมบัญชีการจัดส่งด้วยตนเอง*
 
-ตามที่ระบุไว้ใน [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md) คุณยังต้องเปิดใช้งานคุณลักษณะ *รวมบัญชีการจัดส่ง* ก่อนที่คุณจะสามารถสร้างนโยบายได้ อย่างไรก็ตาม คุณควรดำเนินการขั้นตอนนั้นเสร็จสมบูรณ์แล้ว
+คุณต้องเปิดใช้งานคุณลักษณะ *รวมบัญชีการจัดส่ง* ก่อนที่คุณจะสามารถสร้างนโยบาย สำหรับข้อมูลเพิ่มเติม ดูที่ [กำหนดค่านโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>สร้างใบสั่งขายสำหรับสถานการณ์จำลองนี้
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: rapraj
+ms.author: anupamar
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 319b2ac2a652e633bc70c477dab52e2676c17001
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882244"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282845"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>สร้างและอัพเดตที่ช่วงเวลาสำหรับการเบิกสินค้าของลูกค้า
 
@@ -64,15 +64,15 @@ ms.locfileid: "8882244"
 
 สามารถตั้งค่าคอนฟิกได้เพียงแม่แบบช่วงเวลาเดียวเท่านั้นสำหรับแต่ละช่องทาง ช่องทางเหล่านี้รวมถึงร้านค้าจริง ศูนย์บริการ อุปกรณ์เคลื่อนที่ และไซต์อีคอมเมิร์ซ
 
-## <a name="configure-the-time-slot-feature-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกลักษณะการทำงานของช่องเวลาในศูนย์ควบคุม Commerce
+## <a name="configure-the-time-slot-feature-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกลักษณะการทำงานของช่องเวลาใน Commerce headquarters
 
-ต้องกำหนดช่วงเวลาสำหรับแต่ละวิธีการเบิกสินค้าของการจัดส่งในศูนย์ควบคุม Commerce เพื่อให้ขายหน้าร้าน (POS) และช่องทางอิเล็กทรอนิกส์สามารถอ้างอิงได้
+ต้องกำหนดช่วงเวลาสำหรับแต่ละวิธีการเบิกสินค้าของการจัดส่งใน Commerce headquarters เพื่อให้ขายหน้าร้าน (POS) และช่องทางอิเล็กทรอนิกส์สามารถอ้างอิงได้
 
 - แม่แบบช่วงเวลาเพียงหนึ่งแม่แบบเท่านั้นสามารถถูกเชื่อมโยงกับแต่ละร้านค้าหรือช่องทาง
 - แต่ละช่องเวลาที่สร้างควรแตกต่างกันในแต่ละโหมดการจัดส่งในแต่ละแม่แบบ
 - หลังจากที่มีการตั้งค่าคอนฟิกลักษณะการทำงาน ปฏิทินช่วงเวลาจะพร้อมใช้งานสำหรับร้านค้าหรือกลุ่มร้านค้าที่เลือก นอกจากนี้ยังจะมองเห็นได้ที่ POS สำหรับการอ้างอิง
 
-หากต้องการตั้งค่าคอนฟิกลักษณะการทำงานของช่องเวลาในศูนย์ควบคุม Commerce ให้ทำตามขั้นตอนต่อไปนี้
+หากต้องการตั้งค่าคอนฟิกลักษณะการทำงานของช่องเวลาใน Commerce headquarters ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ไปที่ **Commerce** \> **การตั้งค่าช่องทาง** \> **ช่องเวลาการเบิกสินค้าของร้านค้า**
 1. เลือก **สร้าง** เพื่อสร้างแม่แบบช่วงเวลาใหม่ เมื่อต้องการใช้เท็มเพลตที่มีอยู่ ให้เลือกเท็มเพลตในบานหน้าต่างด้านซ้าย

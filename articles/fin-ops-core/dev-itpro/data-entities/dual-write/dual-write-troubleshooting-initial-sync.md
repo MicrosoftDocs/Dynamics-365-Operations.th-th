@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d9d74eea90cc2dfca2d5decf6e5cd1d7f52da2a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112096"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289498"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>แก้ไขปัญหาในระหว่างการซิงโครไนส์เริ่มต้น
 
@@ -76,9 +76,9 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 เพื่อแก้ไขปัญหา ให้ทำตามขั้นตอนเหล่านี้
 
 1. ลงชื่อเข้าใช้แอปการเงินและการดำเนินงาน
-2. บนหน้า **แอปพลิเคชัน Azure Active Directory** ให้ลบไคลเอนต์ **DtAppID** และจากนั้น เพิ่มใหม่อีกครั้ง
+2. บนหน้า **แอปพลิเคชัน Azure Active Directory** ให้ลบไคลเอ็นต์ **DtAppID** และจากนั้น เพิ่มใหม่อีกครั้ง
 
-![ไคลเอนต์ DtAppID ในรายการของแอปพลิเคชัน Azure AD](media/aad_applications.png)
+![ไคลเอ็นต์ DtAppID ในรายการของแอปพลิเคชัน Azure AD](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>ความล้มเหลวในการอ้างอิงตนเองหรือการอ้างอิงหมุนเวียนในระหว่างการซิงโครไนส์เริ่มต้น
 

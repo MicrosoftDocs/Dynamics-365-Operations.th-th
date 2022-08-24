@@ -1,25 +1,25 @@
 ---
 title: ตั้งค่าคอนฟิกสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
 description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกสภาพแวดล้อม Sandbox ของ Microsoft Dynamics 365 Commerce หลังจากจัดเตรียมแล้ว
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ae6a8c63721ac32f525e1846a10c0b2caeb08f9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013120"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270384"
 ---
 # <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>ตั้งค่าคอนฟิกสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
 
@@ -164,7 +164,7 @@ ms.locfileid: "9013120"
 
 1. ในศูนย์ควบคุม ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> ประเภทช่องทางและคุณลักษณะของผลิตภัณฑ์**
 1. ในบานหน้าต่างด้านซ้าย เลือกช่องทางร้านค้าออนไลน์ แล้วเลือก **ตั้งค่าข้อมูลเมตาของคุณลักษณะ**
-1. ตั้งค่าตัวเลือก **แสดงแอททริบิวต์สำหรับช่องทาง** เป็น **ใช่** ตั้งค่าตัวเลือก **สามารถปรับได้** เป็น **ใช่** แล้วเลือก **บันทึก** 
+1. ตั้งค่าตัวเลือก **แสดงแอตทริบิวต์สำหรับช่องทาง** เป็น **ใช่** ตั้งค่าตัวเลือก **สามารถปรับได้** เป็น **ใช่** แล้วเลือก **บันทึก** 
 1. กลับไปที่หน้าช่องทางร้านค้าออนไลน์ แล้วเลือก **เผยแพร่การอัปเดตช่องทาง**
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าศูนย์ควบคุม \> ตัวจัดกำหนดการการค้า \> ฐานข้อมูลช่องทาง** และเรียกใช้งาน **9999** บน Commerce Scale Unit
 

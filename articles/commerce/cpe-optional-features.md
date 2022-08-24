@@ -1,25 +1,25 @@
 ---
 title: ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
 description: บทความนี้อธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะเสริมสำหรับสภาพแวดล้อม Sandbox ของ Microsoft Dynamics 365 Commerce
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4935f5f6ee17cba9c09eb79132119a7cbc08d9ad
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013249"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270367"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>ตั้งค่าคอนฟิกคุณลักษณะเพิ่มเติมสำหรับสภาพแวดล้อม Sandbox ของ Dynamics 365 Commerce
 
@@ -57,7 +57,7 @@ ms.locfileid: "9013249"
 
 ### <a name="update-the-media-base-url"></a>อัปเดต URL พื้นฐานของสื่อ
 
-1. ลงชื่อเข้าใช้ศูนย์ควบคุม Commerce
+1. ลงชื่อเข้าใช้ Commerce headquarters
 1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> โพรไฟล์ของช่องทาง**
 1. เลือก **แก้ไข**
 1. ภายใต้ **คุณสมบัติของโพรไฟล์** ให้แทนที่ค่าคุณสมบัติสำหรับ **URL พื้นฐานของเซิร์ฟเวอร์สื่อ** ด้วย URL พื้นฐานของสื่อที่คุณสร้างไว้ก่อนหน้านี้
@@ -71,7 +71,7 @@ ms.locfileid: "9013249"
 > [!NOTE]
 > โปรดทราบว่าเซิร์ฟเวอร์ SMTP หรือบริการอีเมลที่คุณป้อนที่นี่ต้องสามารถเข้าถึงได้จากการสมัครใช้งาน Azure ที่คุณใช้สำหรับสภาพแวดล้อม
 
-1. ลงชื่อเข้าใช้ศูนย์ควบคุม Commerce
+1. ลงชื่อเข้าใช้ Commerce headquarters
 1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ของอีเมล**
 1. บนแท็บ **การตั้งค่า SMTP** ในฟิลด์ **เซิร์ฟเวอร์อีเมลขาออก** ให้ป้อน FQDN หรือที่อยู่ IP ของบริการของเซิร์ฟเวอร์ SMTP หรืออีเมลของคุณ
 1. ในฟิลด์ **หมายเลขพอร์ต SMTP** ให้ป้อนหมายเลขพอร์ต (ถ้าคุณไม่ได้ใช้ Secure Sockets Layer \[SSL\] หมายเลขพอร์ตเริ่มต้นคือ **25**)
@@ -86,7 +86,7 @@ ms.locfileid: "9013249"
 
 สำหรับแต่ละเหตุการณ์ธุรกรรมที่คุณต้องการส่งอีเมล คุณต้องอัปเดตเท็มเพลตอีเมลด้วยที่อยู่อีเมลของผู้ส่งที่ถูกต้อง
 
-1. ลงชื่อเข้าใช้ศูนย์ควบคุม Commerce
+1. ลงชื่อเข้าใช้ Commerce headquarters
 1. ใช้เมนูทางด้านซ้ายเพื่อไปที่ **โมดูล \> การขายปลีกและการค้า \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> เท็มเพลตอีเมลขององค์กร**
 1. เลือก **แสดงรายการ**
 1. สำหรับแต่ละเท็มเพลตในรายการ ทำตามขั้นตอนเหล่านี้:

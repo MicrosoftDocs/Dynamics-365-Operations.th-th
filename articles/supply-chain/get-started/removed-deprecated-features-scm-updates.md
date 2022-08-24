@@ -2,7 +2,7 @@
 title: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
 description: บทความนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้ว่าจะลบใน Dynamics 365 Supply Chain Management
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171529"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218820"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171529"
 > [!NOTE]
 > ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่มีการเปลี่ยนแปลง หรือโดนลบออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | ฟังก์ชัน [ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) จะถูกแทนที่ด้วยฟังก์ชัน [ใบสั่งโอนย้ายสินค้าคงคลังของอินเดีย](../../finance/localizations/apac-ind-stock-transfer.md) |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ ฟังก์ชัน [ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) จะถูกแทนที่ด้วยฟังก์ชัน [ใบสั่งโอนย้ายสินค้าคงคลังของอินเดีย](../../finance/localizations/apac-ind-stock-transfer.md) |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล** | Supply Chain Management - สินค้าคงคลัง |
+| **ตัวเลือกการปรับใช้** | ระบบคลาวด์และในองค์กร |
+| **สถานะ** | <p>เลิกใช้แล้ว ฟังก์ชัน *ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน* จะไม่ได้รับการสนับสนุนเกี่ยวกับการแก้ไขข้อผิดพลาดและการแก้ไขความปลอดภัยอีกต่อไป</p><p>หลังจากเมษายน 2023 ระบบขอให้ลูกค้าใช้ฟังก์ชันที่ปรับปรุง *ใบสั่งโอนย้ายสินค้าคงคลังของอินเดีย* โดยค่าเริ่มต้น หลังจากตุลาคม 2023 ฟังก์ชัน *ใบสั่งโอนย้ายสินค้าคงคลังที่คิดภาษีตามราคาโอน* จะไม่พร้อมใช้งานอีกต่อไป และลูกค้าจะถูกขอให้ย้ายไปที่ฟังก์ชัน *ใบสั่งโอนย้ายสินค้าคงคลังของอินเดีย* ที่ปรับปรุง</p><p>สำหรับข้อมูลเพิ่มเติม ดูที่ [ใบสั่งโอนย้ายสินค้าคงคลังของอินเดีย](../../finance/localizations/apac-ind-stock-transfer.md)</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Supply Chain Management 10.0.19
 

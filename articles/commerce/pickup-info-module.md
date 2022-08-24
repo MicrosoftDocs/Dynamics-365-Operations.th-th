@@ -6,20 +6,20 @@ ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 57633b7a23e581278ec0bc09ea146f5453570c4e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892608"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288418"
 ---
 # <a name="pickup-information-module"></a>โมดูลข้อมูลการรับสินค้า
 
@@ -29,7 +29,7 @@ ms.locfileid: "8892608"
 
 โมดูลการเบิกสินค้าสามารถใช้ในโมดูลการเช็คเอาท์เพื่อแสดงข้อมูลการเบิกสินค้าตามใบสั่ง ลูกค้าสามารถดูวันที่และช่องเวลาที่มีการเบิกสินค้าที่พร้อมใช้งาน แล้วเลือกเวลาที่เหมาะสมเพื่อเบิกสินค้าตามใบสั่ง ตัวอย่างเช่น ลูกค้าสามารถเลือกที่จะเบิกสินค้าในเวลา 15 น. เมื่อวันที่ 21 มีนาคมจากร้านค้าของซานฟรานซิสโก
 
-ต้องตั้งค่าคอนฟิกช่องเวลาการเบิกสินค้าสำหรับร้านค้าที่เหมาะสมในศูนย์ควบคุม Commerce สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างและการอัพเดตช่องเวลาสำหรับการเบิกสินค้าของลูกค้า](dev-itpro/pickup-timeslots.md)
+ต้องตั้งค่าคอนฟิกช่องเวลาการเบิกสินค้าสำหรับร้านค้าที่เหมาะสมใน Commerce headquarters สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สร้างและการอัพเดตช่องเวลาสำหรับการเบิกสินค้าของลูกค้า](dev-itpro/pickup-timeslots.md)
 
 ถ้ามีการสร้างโมดูลการเบิกสินค้าไว้ในหน้าเช็คเอาท์ แต่ไม่มีการกำหนดช่องเวลาไว้สำหรับร้านค้าที่เลือกไว้สำหรับการเบิกสินค้า โมดูลจะแสดงข้อมูล แต่ผู้ใช้จะไม่สามารถเลือกช่องเวลาใด ๆ ได้ ช่องเวลาไม่จำเป็นต้องระบุและไม่จำเป็นต้องใช้เพื่อวางใบสั่ง
 

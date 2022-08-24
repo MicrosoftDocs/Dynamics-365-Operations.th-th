@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 7a7be6395a8bfce38e84f850bd792f358941c18a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884826"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275583"
 ---
 # <a name="apply-unit-of-measure-settings"></a>ใช้การตั้งค่าหน่วยวัด
 
@@ -28,11 +28,11 @@ ms.locfileid: "8884826"
 
 บทความนี้จะครอบคลุมการตั้งค่าหน่วยวัด และอธิบายวิธีการใช้การตั้งค่าสินค้าคงคลังใน Microsoft Dynamics 365 Commerce
 
-สามารถขายผลิตภัณฑ์ในหน่วยต่าง ๆ เช่น "แต่ละชิ้น" "คู่" และ "โหล" ในศูนย์ควบคุม Commerce สามารถกําหนดหน่วยวัดการขายตามผลิตภัณฑ์และแสดงบนไซต์อีคอมเมิร์ซได้ ตัวอย่างเช่น ถ้าผู้ค้าปลีกขายผลิตภัณฑ์ทั้งแยกกันและเป็นโหล หน่วยวัดที่พร้อมใช้งานสามารถแสดงพร้อมกับข้อมูลผลิตภัณฑ์อื่น ๆ ได้
+สามารถขายผลิตภัณฑ์ในหน่วยต่าง ๆ เช่น "แต่ละชิ้น" "คู่" และ "โหล" ใน Commerce headquarters สามารถกําหนดหน่วยวัดการขายตามผลิตภัณฑ์และแสดงบนไซต์อีคอมเมิร์ซได้ ตัวอย่างเช่น ถ้าผู้ค้าปลีกขายผลิตภัณฑ์ทั้งแยกกันและเป็นโหล หน่วยวัดที่พร้อมใช้งานสามารถแสดงพร้อมกับข้อมูลผลิตภัณฑ์อื่น ๆ ได้
 
-ในตัวอย่างต่อไปนี้ มีการตั้งค่าคอนฟิกหน่วยวัดการขายตาม **ea** (แต่ละชิ้น) ให้กับผลิตภัณฑ์ในศูนย์ควบคุม Commerce
+ในตัวอย่างต่อไปนี้ มีการตั้งค่าคอนฟิกหน่วยวัดการขายตาม **ea** (แต่ละชิ้น) ให้กับผลิตภัณฑ์ใน Commerce headquarters
 
-![ตัวอย่างของผลิตภัณฑ์ที่มีการตั้งค่าคอนฟิกด้วยหน่วยวัดในศูนย์ควบคุม Commerce](./media/Productunit-headquarters.PNG)
+![ตัวอย่างของผลิตภัณฑ์ที่มีการตั้งค่าคอนฟิกด้วยหน่วยวัดใน Commerce headquarters](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > การสนับสนุนเพื่อใช้และแสดงหน่วยวัดพร้อมใช้งาน ณ การปลดใช้งาน Commerce รุ่น 10.0.19

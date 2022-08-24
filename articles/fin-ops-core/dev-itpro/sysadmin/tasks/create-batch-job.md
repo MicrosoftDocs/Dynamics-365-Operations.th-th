@@ -1,24 +1,24 @@
 ---
 title: การสร้างชุดงาน
 description: 'ชุดงานคือกลุ่มของงานที่ส่งไปยังอินสแตนซ์เซิร์ฟเวอร์แอปพลิเคชันออบเจ็กต์ (AOS) สำหรับการประมวลผลโดยอัตโนมัติ '
-author: maertenm
+author: matapg007
 ms.date: 11/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sericks
+ms.author: matgupta
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
-ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
+ms.search.form: BatchJob, SysRecurrence, BatchAlerts
+ms.openlocfilehash: 06fb9a18e70c316be97645ba76f9462cd3ccc729
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "7864184"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292464"
 ---
 # <a name="create-a-batch-job"></a>การสร้างชุดงาน
 
@@ -52,7 +52,7 @@ ms.locfileid: "7864184"
 5.  ในฟิลด์ **ชื่อคลาส** ให้เลือกกระบวนการที่งานควรเรียกใช้ 
 6.  เลือกกลุ่มชุดงานของงานตามความเหมาะสม
 
-    งานสำหรับไคลเอนต์จะต้องกำหนดให้กลุ่มชุดงาน ชุดงานเหล่านี้จะถูกกำหนดให้กับกลุ่มชุดงานเริ่มต้นโดยอัตโนมัติ (หรือที่เรียกอีกอย่างว่า กลุ่มชุดงานว่างเปล่า)
+    งานสำหรับไคลเอ็นต์จะต้องกำหนดให้กลุ่มชุดงาน ชุดงานเหล่านี้จะถูกกำหนดให้กับกลุ่มชุดงานเริ่มต้นโดยอัตโนมัติ (หรือที่เรียกอีกอย่างว่า กลุ่มชุดงานว่างเปล่า)
 
 7.  เลือก **Ctrl+S** เพื่อบันทึกงาน
 8.  เมื่อต้องการให้งานที่เลือกขึ้นอยู่กับงานอื่นในงาน ให้เลือกตาราง **มีเงื่อนไข** แล้วปฏิบัติตามขั้นตอนต่อไปนี้สำหรับแต่ละเงื่อนไขที่คุณต้องการกําหนด

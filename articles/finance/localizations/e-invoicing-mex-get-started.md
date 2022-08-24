@@ -6,23 +6,21 @@ ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 46dfa03a3c90eea2d732f355396d148f475429d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855342"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283130"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
 
@@ -125,7 +123,7 @@ ms.locfileid: "8855342"
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
     | 1         | แปลงเอกสาร       | สร้างใบแจ้งหนี้ E CFDI โดยไม่มีลายเซ็ฯดิจิทัล | สร้างใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI                                |
     | 2         | ลงชื่อในเอกสาร            | ลายเซ็นดิจิทัล                                 | ลายเซ็นแบบดิจิทัลสำหรับการส่งใบแจ้งหนี้อิเล็กทรอนิกส์                |
-    | 3         | บริการ Call Mexican PAC | ส่ง CFDI E-Invoice                        | ไคลเอนต์ Windows Communication Foundation (WCF) ส่งใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI |
+    | 3         | บริการ Call Mexican PAC | ส่ง CFDI E-Invoice                        | ไคลเอ็นต์ Windows Communication Foundation (WCF) ส่งใบแจ้งหนี้อิเล็กทรอนิกส์ CFDI |
     | 4         | ประมวลผลการตอบสนอง         | วิเคราะห์การตอบสนองการบริการเว็บ                 | วิเคราะห์การตอบสนองการบริการเว็บ และส่งคืนล็อกข้อผิดพลาด |
 
 ### <a name="set-up-the-url-for-mexican-pac-web-services"></a>ตั้งค่า URL สำหรับบริการเว็บ Mexican PAC 

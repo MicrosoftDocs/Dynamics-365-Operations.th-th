@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167745"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219108"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.25 (เมษายน 2022)
 
@@ -34,7 +34,7 @@ ms.locfileid: "9167745"
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [การปรับปรุงวัตถุอันตราย](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | เร็วๆ นี้ | การจัดการคุณลักษณะ:<br>*การปรับปรุงวัตถุอันตราย* |
-| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [งานบรรจุของสถานีบรรจุ](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | เร็วๆ นี้ | การจัดการคุณลักษณะ:<br>*งานบรรจุของสถานีบรรจุ* |
+| สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [งานบรรจุของสถานีบรรจุ](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [งานการบรรจุสำหรับการบรรจุคอนเทนเนอร์ขาออกและการประมวลผลการจัดส่ง](../warehousing/packing-work.md) | การจัดการคุณลักษณะ:<br>*งานบรรจุของสถานีบรรจุ* |
 | สินค้าคงคลัง&nbsp;และ&nbsp;ลอจิสติกส์ | [สแกนบาร์โค้ดในคลังสินค้าโดยใช้มาตรฐานรูปแบบ GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [บาร์โค้ด GS1 และรหัส QR](../warehousing/gs1-barcodes.md) | การจัดการคุณลักษณะ:<br>*สแกนบาร์โค้ด GS1* |
 | การผลิต | [ปริมาณการใช้วัสดุและการจองในส่วนติดต่อการดำเนินการของระบบการผลิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*ลงทะเบียนปริมาณการใช้วัสดุบนส่วนติดต่อการดำเนินการของระบบการผลิต (non-WMS)*<br><br>และ/หรือ:<br><br>การจัดการคุณลักษณะ:<br>*(พรีวิว) ลงทะเบียนปริมาณการใช้วัสดุบนอินเตอร์เฟซการดำเนินการของกระบวนการผลิต (ที่เปิดใช้งาน WMS)* |
 | การวางแผน | [การบํารุงรักษาตามปฏิทินส่วนกลางสำหรับการเพิ่มประสิทธิภาพการวางแผน](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [ปฏิทินและการวางแผนหลัก](../master-planning/supply-chain-calendars-master-planning.md) | เปิดใช้งานตามค่าเริ่มต้น |
@@ -90,7 +90,7 @@ ms.locfileid: "9167745"
 | การวางแผนหลัก | [การยืนยันแผนการใบสั่งด้วยการกรอง](../master-planning/planning-optimization/planned-order-firming.md) | วันที่ตามค่าเริ่มต้น |
 | การวางแผนหลัก | [มุมมองที่บันทึกไว้สำหรับแผนการใบสั่ง](saved-views-scm.md) | วันที่ตามค่าเริ่มต้น |
 | การจัดซื้อและการจัดหา | ปิดใช้งานปุ่มรีเซ็ตการกระจายใบขอซื้อ | พร้อมใช้งานโดยทั่วไป |
-| การจัดซื้อและการจัดหา | [เปิดใช้งานการรีเซ็ตลำดับงานที่เกี่ยวข้องกับการจัดซื้อ](whats-new-scm-10-0-20.md) | พร้อมใช้งานโดยทั่วไป |
+| การจัดซื้อและการจัดหา | [เปิดใช้งานการรีเซ็ตเวิร์กโฟลว์ที่เกี่ยวข้องกับการจัดซื้อ](whats-new-scm-10-0-20.md) | พร้อมใช้งานโดยทั่วไป |
 | การจัดซื้อและการจัดหา | ความสามารถในการยืนยันใบสั่งซื้อที่ยอมรับจากการทำงานร่วมกันของผู้จัดจำหน่ายในชุดงาน | จำเป็น |
 | การจัดซื้อและการจัดหา | สถานะข้อตกลงการซื้อที่ปิด | จำเป็น |
 | การจัดซื้อและการจัดหา | เพิ่มรายการลงในใบแจ้งหนี้ของใบสั่งซื้อที่เชื่อมโยงกับข้อตกลงการซื้อ | วันที่ตามค่าเริ่มต้น |

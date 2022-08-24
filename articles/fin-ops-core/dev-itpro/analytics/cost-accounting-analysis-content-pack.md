@@ -12,15 +12,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "270274"
+ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
-ms.openlocfilehash: 19dd250141894d1551fc4e54257f05ab5008d110
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 7339d0abf8d087ca8fcc8f46dc91a5e78ec0f325
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205980"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269739"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>เนื้อหาของ Power BI เกี่ยวกับการวิเคราะห์การบัญชีต้นทุน
 
@@ -70,7 +69,7 @@ ms.locfileid: "9205980"
 |                                  | ต้นทุนจริงตามชื่อสมาชิกมิติออบเจ็กต์ต้นทุนและชื่อสมาชิกมิติองค์ประกอบต้นทุน                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>การทำความเข้าใจเกี่ยวกับแบบจำลองข้อมูลและเอนทิตี
-ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมข้อมูลหน้ารายงานในเนื้อหา Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี ที่จัดเก็บเอนทิตีคือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
+ข้อมูลต่อไปนี้ถูกใช้เพื่อเติมข้อมูลหน้ารายงานในเนื้อหา Power BI ของ **การวิเคราะห์การบัญชีต้นทุน** ข้อมูลนี้จะแสดงเป็นหน่วยวัดรวมที่มีการแบ่งระยะในที่จัดเก็บเอนทิตี ที่จัดเก็บเอนทิตี้คือฐานข้อมูล Microsoft SQL Server ที่ได้รับการปรับให้เหมาะสมสำหรับการวิเคราะห์ สำหรับข้อมูลเพิ่มเติม ดู [การรวม Power BI กับร้านค้าเอนทิตี](power-bi-integration-entity-store.md)
 
 การวัดแบบรวมหลักต่อไปนี้จะถูกใช้เป็นข้อมูลพื้นฐานของเนื้อหา
 

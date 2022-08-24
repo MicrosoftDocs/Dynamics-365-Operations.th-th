@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906897"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276728"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
 
@@ -44,7 +44,7 @@ ms.locfileid: "8906897"
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>ภาษีตามบัญชีลูกค้าของใบสั่งออนไลน์
 
-อาจมีสถานการณ์ทางธุรกิจที่คุณต้องการตั้งค่าคอนฟิกกลุ่มภาษีขายบนบัญชีลูกค้าเฉพาะในศูนย์ควบคุม Commerce มีสองที่ในศูนย์ควบคุมที่คุณสามารถตั้งค่าคอนฟิกภาษีขายในบัญชีลูกค้าได้ หากต้องการเข้าถึงเอกสารเหล่านี้ คุณต้องไปที่หน้ารายละเอียดลูกค้าก่อน โดยไปที่ลูกค้าทั้งหมดบน **Retail และ Commerce \> ลูกค้า \> ลูกค้าทั้งหมด** แล้วเลือกลูกค้า
+อาจมีสถานการณ์ทางธุรกิจที่คุณต้องการตั้งค่าคอนฟิกกลุ่มภาษีขายบนบัญชีลูกค้าเฉพาะใน Commerce headquarters มีสองที่ในศูนย์ควบคุมที่คุณสามารถตั้งค่าคอนฟิกภาษีขายในบัญชีลูกค้าได้ หากต้องการเข้าถึงเอกสารเหล่านี้ คุณต้องไปที่หน้ารายละเอียดลูกค้าก่อน โดยไปที่ลูกค้าทั้งหมดบน **Retail และ Commerce \> ลูกค้า \> ลูกค้าทั้งหมด** แล้วเลือกลูกค้า
 
 สองที่ที่คุณสามารถตั้งค่าคอนฟิกภาษีขายในบัญชีลูกค้าได้คือ:
 

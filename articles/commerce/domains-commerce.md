@@ -1,25 +1,25 @@
 ---
 title: โดเมนใน Dynamics 365 Commerce
 description: บทความนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
-author: BrShoo
+author: BrianShook
 ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848965"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288461"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -92,9 +92,9 @@ ms.locfileid: "8848965"
 
 ค่าของชื่อโฮสต์ที่ได้รับการสนับสนุนจะพสามารถใช้ในการเชื่อมโยงกับโดเมนเมื่อตั้งค่าไซต์ เมื่อเลือกค่าชื่อโฮสต์ที่ได้รับการสนับสนุนเป็นโดเมน คุณจะเห็นโดเมนที่เลือกที่อ้างอิงในตัวสร้างไซต์ โดเมนนี้เป็นเพียงการอ้างอิงภายในสภาพแวดล้อม Commerce เท่านั้น การรับส่งข้อมูลจริงสำหรับโดเมนนั้นจะยังไม่ได้ส่งต่อไปยัง Dynamics 365 Commerce
 
-เมื่อทำงานกับไซต์ในตัวสร้างไซต์ ถ้าคุณมีสองไซต์ที่ตั้งค่าด้วยโดเมนที่แตกต่างกันสองโดเมน คุณสามารถผนวกแอททริบิวต์ **?domain=** กับ URL ที่ทำงานของคุณเพื่อเข้าถึงเนื้อหาไซต์ที่เผยแพร่ในเบราว์เซอร์
+เมื่อทำงานกับไซต์ในตัวสร้างไซต์ ถ้าคุณมีสองไซต์ที่ตั้งค่าด้วยโดเมนที่แตกต่างกันสองโดเมน คุณสามารถผนวกแอตทริบิวต์ **?domain=** กับ URL ที่ทำงานของคุณเพื่อเข้าถึงเนื้อหาไซต์ที่เผยแพร่ในเบราว์เซอร์
 
-ตัวอย่างเช่น มีการเตรียมใช้งานสภาพแวดล้อม "xyz" และมีการสร้างไซต์สองแห่งและเชื่อมโยงในตัวสร้างไซต์: ไซต์หนึ่งมีโดเมน `www.fabrikam.com`และอีกไซต์มีโดเมน `www.constoso.com` มีการตั้งค่าไซต์แต่ละไซต์โดยใช้พาธที่ว่างเปล่า จากนั้นคุณจะสามารถเข้าถึงไซต์ทั้งคู่เหล่านี้ได้ในเว็บเบราว์เซอร์ดังต่อไปนี้โดยใช้แอททริบิวต์ **?domain=**:
+ตัวอย่างเช่น มีการเตรียมใช้งานสภาพแวดล้อม "xyz" และมีการสร้างไซต์สองแห่งและเชื่อมโยงในตัวสร้างไซต์: ไซต์หนึ่งมีโดเมน `www.fabrikam.com`และอีกไซต์มีโดเมน `www.constoso.com` มีการตั้งค่าไซต์แต่ละไซต์โดยใช้พาธที่ว่างเปล่า จากนั้นคุณจะสามารถเข้าถึงไซต์ทั้งคู่เหล่านี้ได้ในเว็บเบราว์เซอร์ดังต่อไปนี้โดยใช้แอตทริบิวต์ **?domain=**:
 - `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 

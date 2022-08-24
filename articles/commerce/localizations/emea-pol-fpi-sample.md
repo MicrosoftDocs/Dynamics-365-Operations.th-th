@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-02-01
+ms.openlocfilehash: 1466532099820abcdf4496db80f9a34682e2ed5a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876960"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274244"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับโปแลนด์
 
@@ -114,7 +114,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="set-up-the-registration-process"></a>ตั้งค่ากระบวนการลงทะเบียน
 
-เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่าศูนย์ควบคุม Commerce สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
+เมื่อต้องการเปิดใช้งานกระบวนการการลงทะเบียน ให้ทําตามขั้นตอนต่อไปนี้เพื่อตั้งค่า Commerce headquarters สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)
 
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
@@ -233,7 +233,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ตัวจัดการคำขอ **DocumentProviderPosnetProtocol** เป็นจุดป้อนข้อมูลของคำขอในการสร้างเอกสารจากเครื่องพิมพ์ทางการเงิน
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -242,7 +242,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\Posnet\\CommerceRuntime\\DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินอยู่ที่ **src\\FiscalIntegration\\Posnet\\CommerceRuntime\\DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารทางการเงินที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 ### <a name="hardware-station-extension-design"></a>การออกแบบส่วนขยายสถานีฮาร์ดแวร์
 
@@ -252,7 +252,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ตัวจัดการคำขอ **FiscalPrinterHandler** คือจุดเข้าใช้งานที่จะจัดการคำขอไปยังอุปกรณ์ต่อพ่วงทางการเงิน
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -262,6 +262,6 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกของตัวเชื่อมต่อทางการเงินอยู่ที่ **src\\FiscalIntegration\\Posnet\\HardwareStation\\ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
+ไฟล์การตั้งค่าคอนฟิกของตัวเชื่อมต่อทางการเงินอยู่ที่ **src\\FiscalIntegration\\Posnet\\HardwareStation\\ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml** ในที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

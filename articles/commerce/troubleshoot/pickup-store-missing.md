@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 936b3df3194fbdacf8e853ed60431b077f4015cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: b6cec3d9d598be221516506388e4797ad579a610
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905267"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286764"
 ---
 # <a name="retail-store-doesnt-appear-in-the-list-of-stores-to-pick-up-from"></a>ร้านค้าปลีกไม่มีอยู่ในรายการร้านค้าที่จะเบิกสินค้า
 
@@ -34,9 +34,9 @@ ms.locfileid: "8905267"
 
 ## <a name="resolution"></a>ความละเอียด
 
-### <a name="configure-the-longitude-and-latitude-for-the-store-address-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกลองติจูดและละติจูดของที่อยู่ร้านค้าในศูนย์ควบคุม Commerce
+### <a name="configure-the-longitude-and-latitude-for-the-store-address-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกลองติจูดและละติจูดของที่อยู่ร้านค้าใน Commerce headquarters
 
-เพื่อตั้งค่าคอนฟิกลองติจูดและละติจูดของที่อยู่ร้านค้าในศูนย์ควบคุม Commerce ให้ทำตามขั้นตอนเหล่านี้
+เพื่อตั้งค่าคอนฟิกลองติจูดและละติจูดของที่อยู่ร้านค้าใน Commerce headquarters ให้ทำตามขั้นตอนเหล่านี้
 
 1. ไปยัง **Retail และ Commerce \> ช่องทาง \> ร้านค้า \> ร้านค้าทั้งหมด**
 1. ค้นหาร้านค้าที่คุณต้องการให้ปรากฏในตัวเลือกการเบิกสินค้าบนไซต์อีคอมเมิร์ซ บันทึกค่า **หมายเลขหน่วยปฏิบัติงาน**
@@ -45,9 +45,9 @@ ms.locfileid: "8905267"
 1. บนแท็บด่วน **ที่อยู่** ให้เลือก **ตัวเลือกเพิ่มเติม** แล้วเลือก **ขั้นสูง**
 1. บนแท็บด่วน **ทั่วไป** ให้ตรวจสอบให้แน่ใจว่าได้ตั้งค่าฟิลด์ **ลองติจูด** และ **ละติจูด** อย่างถูกต้อง ในส่วนของขั้นตอนนี้ ให้ตรวจสอบให้แน่ใจว่าได้ระบุค่าเป็นตัวเลขค่าบวกหรือค่าลบอย่างถูกต้อง
 
-### <a name="configure-fulfillment-groups-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกกลุ่มการเติมสินค้าในศูนย์ควบคุม Commerce
+### <a name="configure-fulfillment-groups-in-commerce-headquarters"></a>ตั้งค่าคอนฟิกกลุ่มการเติมสินค้าใน Commerce headquarters
 
-หากต้องการตั้งค่าคอนฟิกกลุ่มการเติมสินค้าในศูนย์ควบคุม Commerce ให้ทำตามขั้นตอนต่อไปนี้
+หากต้องการตั้งค่าคอนฟิกกลุ่มการเติมสินค้าใน Commerce headquarters ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ไปที่ **การค้าปลึกและการพาณิชย์ \> ช่องทางการขาย \> ร้านค้าออนไลน์**
 1. เลือกร้านค้าออนไลน์ที่จะตั้งค่าคอนฟิก

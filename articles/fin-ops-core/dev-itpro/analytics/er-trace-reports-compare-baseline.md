@@ -1,25 +1,25 @@
 ---
 title: ติดตามผลของรายงานที่จัดทำและเปรียบเทียบผลกับค่าพื้นฐาน
 description: บทความนี้อธิบายวิธีที่คุณสามารถเปรียบเทียบผลลัพธ์ของรายงานของการรายงานทางอิเล็กทรอนิกส์ (ER) ที่สร้างขึ้นด้วยค่ารายงานพื้นฐานได้
-author: NickSelin
+author: kfend
 ms.date: 06/17/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 168060f6dee7420a496e06cc3a85f5b10239c2cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: f37405b548a321735abdd73da5c7cf3f4b00ff01
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847385"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278780"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>ติดตามผลรายงานที่สร้างและเปรียบเทียบกับค่าพื้นฐาน
 
@@ -124,11 +124,11 @@ ms.locfileid: "8847385"
 7. เลือก **เพิ่ม**
 8. ในกล่องโต้ตอบรายการแบบหล่นลง ให้ทำตามขั้นตอนเหล่านี้:
 
-    1. ในแผนภูมิ เลือก **XML\\แอททริบิวต์**
+    1. ในแผนภูมิ เลือก **XML\\แอตทริบิวต์**
     2. ในฟิลด์ **ชื่อ** ให้ป้อน **ID**
     3. เลือก **ตกลง**
 
-    ![หน้าตัวออกแบบรูปแบบ แอททริบิวต์ XML ที่เลือกไว้ในแผนภูมิ](media/GER-BaselineSample-FormatLayoutDesign.PNG "ภาพหน้าจอของหน้าโปรแกรมออกแบบรูปแบบ")
+    ![หน้าตัวออกแบบรูปแบบ แอตทริบิวต์ XML ที่เลือกไว้ในแผนภูมิ](media/GER-BaselineSample-FormatLayoutDesign.PNG "ภาพหน้าจอของหน้าโปรแกรมออกแบบรูปแบบ")
 
 9. บนแท็บ **การแม็ป** ให้เลือก **ลบ**
 10. เลือก **เพิ่มราก**
@@ -143,7 +143,7 @@ ms.locfileid: "8847385"
 
 ![หน้าโปรแกรมออกแบบรูปแบบ แท็บการแม็ป](media/GER-BaselineSample-FormatMappingDesign.PNG "ภาพหน้าจอของหน้าโปรแกรมออกแบบรูปแบบ")
 
-ตามโครงสร้างที่ออกแบบ รูปแบบที่ตั้งค่าคอนฟิกจะสร้างไฟล์ XML XML นี้มีองค์ประกอบ **ราก** ที่มีแอททริบิวต์ **ID** ซึ่งถูกตั้งค่าเป็นค่าที่ผู้ใช้ป้อนในกล่องโต้ตอบการรันไทม์ ER
+ตามโครงสร้างที่ออกแบบ รูปแบบที่ตั้งค่าคอนฟิกจะสร้างไฟล์ XML XML นี้มีองค์ประกอบ **ราก** ที่มีแอตทริบิวต์ **ID** ซึ่งถูกตั้งค่าเป็นค่าที่ผู้ใช้ป้อนในกล่องโต้ตอบการรันไทม์ ER
 
 ### <a name="generate-a-new-baseline-file-for-a-designed-er-format"></a>สร้างไฟล์พื้นฐานใหม่สำหรับรูปแบบ ER ที่มีการออกแบบ
 

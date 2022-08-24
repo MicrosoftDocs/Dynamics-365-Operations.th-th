@@ -1,115 +1,188 @@
 ---
-title: แนวทางการปรับใช้สำหรับตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
-description: บทความนี้แสดงแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดนจาก Retail SDK
-author: EvgenyPopovMBS
-ms.date: 12/20/2021
-ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
-ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a20971ac9a44c409363bbce6cd8b8343f16d800f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870558"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274217"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>แนวทางการปรับใช้สำหรับตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
+---
 
-[!include [banner](../includes/banner.md)]
+หัวเรื่อง: แนวทางการปรับใช้สำหรับตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม) [!include [banner](../includes/banner.md)]
+คำอธิบาย: บทความนี้แสดงแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดนจาก Retail SDK
 
-บทความนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดนจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกบนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน](emea-swe-fi-sample.md) 
+ผู้สร้าง: EvgenyPopovMBS บทความนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดนจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกบนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน](emea-swe-fi-sample.md) ms.date: 12/20/2021
 
-ตัวอย่างการรวมทางการเงินของสวีเดนเป็นส่วนหนึ่งของ Retail SDK สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง และใช้ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md) ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) สถานีฮาร์ดแวร์ และการขายหน้าร้าน (POS) เมื่อต้องการเรียกใช้ตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT สถานีฮาร์ดแวร์ และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในบทความนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Azure DevOps โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
+ms.topic: บทความตัวอย่างการรวมทางการเงินของสวีเดนเป็นส่วนหนึ่งของ Retail SDK สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง และใช้ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md) ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) สถานีฮาร์ดแวร์ และการขายหน้าร้าน (POS) เมื่อต้องการเรียกใช้ตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT สถานีฮาร์ดแวร์ และโครงการ POS เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในบทความนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Azure DevOps โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
+ผู้ใช้: ผู้ใช้แอปพลิเคชัน นักพัฒนา ผู้เชี่ยวชาญด้าน IT
 
+ms.reviewer: v-chgriffin
 ## <a name="development-environment"></a>สภาพแวดล้อมการพัฒนา
+ms.search.region: สากล
 
-ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อให้คุณสามารถทดสอบและขยายตัวอย่างได้
+ms.author: josaw ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อให้คุณสามารถทดสอบและขยายตัวอย่างได้
+ms.search.validFrom: 2019-03-01
 
 ### <a name="enable-crt-extensions"></a>เปิดใช้งานส่วนขยาย CRT
+---
+
 
 ส่วนประกอบ CRT ส่วนขยายจะรวมอยู่ในตัวอย่าง CRT เมื่อต้องการปฏิบัติตามขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์ ให้เปิดโซลูชัน **CommerceRuntimeSamples.sln** ภายใต้ **RetailSdk\\SampleExtensions\\CommerceRuntime**
+2. เปิดใช้งานส่วนขยายสถานีฮาร์ดแวร์ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ลงในส่วน **องค์ประกอบ** ในไฟล์การตั้งค่าคอนฟิก **HardwareStation.Extension.config**
+
 
 #### <a name="documentprovidercleancashsample-component"></a>ส่วนประกอบ DocumentProvider.CleanCashSample
-
-1. ค้นหาโครงการ **Runtime.Extensions.DocumentProvider.CleanCashSample** และสร้าง
-2. ในโฟลเดอร์ **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** ให้ค้นหาไฟล์แอสเซมบลี **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll**
-3. คัดลอกไฟล์แอสเซมบลีไปยังโฟลเดอร์ส่วนขยาย CRT:
-
-    - **Commerce Scale Unit:** คัดลอกไฟล์ไปยังโฟลเดอร์ **\\bin\\ext** ภายใต้ที่ตั้งไซต์ Commerce Scale Unit ของบริการข้อมูลทางอินเทอร์เน็ต (IIS)
-    - **CRT ท้องถิ่นบน POS สมัยใหม่:** คัดลอกไฟล์ไปยังโฟลเดอร์ **\\ext** ภายใต้ที่ตั้งของ Client Broker ของ CRT ท้องถิ่น
-
-4. ค้นหาไฟล์การกำหนดค่าส่วนขยายสำหรับ CRT:
-
-    - **Commerce Scale Unit:** ไฟล์มีชื่อว่า **commerceruntime.ext.config** และอยู่ในโฟลเดอร์ **bin\\ext** ภายใต้ที่ตั้งไซต์ Commerce Scale Unit IIS
-    - **CRT เฉพาะที่บน Modern POS:** ไฟล์มีชื่อว่า **CommerceRuntime.MPOSOffline.Ext.config** และอยู่ภายใต้ที่ตั้ง Client Broker ของ CRT เฉพาะที่
-
-5. ลงทะเบียนการเปลี่ยนแปลง CRT ในไฟล์การกำหนดค่าส่วนขยาย
-
     ``` xml
+
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+1. ค้นหาโครงการ **Runtime.Extensions.DocumentProvider.CleanCashSample** และสร้าง
+    ```
+2. In the **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** folder, find the **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assembly file.
+
+3. Copy the assembly file to the CRT extensions folder:
+3. Make the following changes in the **Customization.settings** package customization configuration file under the **BuildTools** folder:
+
+
+    - **Commerce Scale Unit:** Copy the file to the **\\bin\\ext** folder under the Internet Information Services (IIS) Commerce Scale Unit site location.
+    - Remove the following line to exclude the earlier Hardware station extension from deployable packages.
+    - **Local CRT on Modern POS:** Copy the file to the **\\ext** folder under the local CRT client broker location.
+
+
+        ``` xml
+4. Find the extension configuration file for CRT:
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
+
+        ```
+    - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
+
+    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
+    - Add the following lines to include the current sample Hardware station extension in deployable packages.
+
+
+5. Register the CRT change in the extension configuration file.
+        ``` xml
+
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
+    ``` xml
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
+        ```
     ```
 
+
+#### <a name="update-modern-pos"></a>อัปเดต Modern POS
 #### <a name="extension-configuration-file"></a>ไฟล์การตั้งค่าคอนฟิกส่วนขยาย
 
+
+1. เปิดโซลูชัน **CloudPOS.sln** ที่ **RetailSdk\\POS**
 1. ค้นหาไฟล์การกำหนดค่าส่วนขยายสำหรับ CRT:
+2. ปิดใช้งานส่วนขยาย POS ก่อนหน้านี้:
+
 
     - **Commerce Scale Unit:** ไฟล์มีชื่อว่า **commerceruntime.ext.config** และอยู่ในโฟลเดอร์ **bin\\ext** ภายใต้ที่ตั้งไซต์ Commerce Scale Unit IIS
+    - ในไฟล์ **tsconfig.json** ให้เพิ่มโฟลเดอร์ **FiscalRegisterSample** ลงในรายการไม่รวม
     - **CRT เฉพาะที่บน Modern POS:** ไฟล์มีชื่อว่า **CommerceRuntime.MPOSOffline.Ext.config** และอยู่ภายใต้ที่ตั้ง Client Broker ของ CRT เฉพาะที่
+    - เอารายการต่อไปนี้ออกจากไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
+
 
 2. ลงทะเบียนการเปลี่ยนแปลง CRT ในไฟล์การกำหนดค่าส่วนขยาย
+        ``` json
 
+        {
     ``` xml
+            "baseUrl": "FiscalRegisterSample"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
+        }
     ```
+        ```
+
 
 ### <a name="enable-hardware-station-extensions"></a>เปิดใช้งานส่วนขยายสถานีฮาร์ดแวร์
+3. เปิดใช้งานส่วนขยาย POS ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ในไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
+
 
 ส่วนประกอบของส่วนขยายสถานีฮาร์ดแวร์จะรวมอยู่ในตัวอย่างสถานีฮาร์ดแวร์ เมื่อต้องการปฏิบัติตามขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์ ให้เปิดโซลูชัน **HardwareStationSamples.sln** ภายใต้ **RetailSdk\\SampleExtensions\\HardwareStation**
+    ``` json
 
+    {
 #### <a name="cleancash-component"></a>ส่วนประกอบ CleanCash
+        "extensionPackages": [
 
+            {
 1. ค้นหาโครงการ **HardwareStation.Extension.CleanCashSample** และสร้าง
+                "baseUrl": "Microsoft/AuditEvent.SE"
 2. ในโฟลเดอร์ **Extension.CleanCashSample\\bin\\Debug** ให้ค้นหาไฟล์แอสเซมบลี **Contoso.Commerce.HardwareStation.CleanCashSample.dll** และ **Interop.CleanCash\_1\_1.dll**
-3. คัดลอกไฟล์แอสเซมบลีไปยังโฟลเดอร์ส่วนขยายของสถานีฮาร์ดแวร์:
+            }
+3. คัดลอกไฟล์แอสเซมบลีไปยังโฟลเดอร์ส่วนขยายของสถานีฮาร์ดแวร์:      ]
 
+    }
     - **สถานีฮาร์ดแวร์ที่ใช้ร่วมกัน:** คัดลอกไฟล์ไปยังโฟลเดอร์ **bin** ที่อยู่ภายใต้ที่ตั้งของไซต์สถานีฮาร์ดแวร์ของ IIS
-    - **สถานีฮาร์ดแวร์เฉพาะบน Modern POS:** คัดลอกไฟล์ไปยังที่ตั้งของ Client Broker ของ POS สมัยใหม่
+    ```
+    - **Dedicated hardware station on Modern POS:** Copy the files to the Modern POS client broker location.
 
-4. ค้นหาไฟล์การตั้งค่าคอนฟิกสำหรับส่วนขยายสถานีฮาร์ดแวร์ มีการตั้งชื่อไฟล์เป็น **HardwareStation.Extension.config**
 
-    - **สถานีฮาร์ดแวร์ที่ใช้ร่วมกัน:** ไฟล์อยู่ภายใต้ที่ตั้งของไซต์สถานีฮาร์ดแวร์ของ IIS
-    - **สถานีฮาร์ดแวร์เฉพาะบน Modern POS:** ไฟล์อยู่ภายใต้ที่ตั้งของ Client Broker ของ POS สมัยใหม่
+#### Update Cloud POS
+4. Find the extension configuration file for the Hardware station's extensions. The file is named **HardwareStation.Extension.config**.
 
-5. เพิ่มบรรทัดต่อไปนี้ในส่วน **องค์ประกอบ** ของไฟล์การตั้งค่าคอนฟิก
+
+1. Open the **ModernPOS.sln** solution under **RetailSdk\\POS**.
+    - **Shared hardware station:** The file is under the IIS Hardware station site location.
+2. Disable the earlier POS extension:
+    - **Dedicated hardware station on Modern POS:** The file is under the Modern POS client broker location.
+
+
+    - In the **tsconfig.json** file, add the **FiscalRegisterSample** folder to the exclude list.
+5. Add the following line to the **composition** section of the configuration file.
+    - Remove the following lines from the **extensions.json** file under the **RetailSDK\\POS\\Extensions** folder.
+
 
     ``` xml
+        ``` json
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+        {
     ```
+            "baseUrl": "FiscalRegisterSample"
 
+        }
 ### <a name="enable-modern-pos-extension-components"></a>เปิดใช้งานส่วนประกอบส่วนขยาย POS สมัยใหม่
+        ```
+
 
 1. เปิดโซลูชัน **ModernPOS.sln** ภายใต้ **RetailSdk\\POS** และตรวจสอบให้แน่ใจว่าโซลูชันนั้นสามารถคอมไพล์ได้โดยไม่มีข้อผิดพลาด นอกจากนี้ ให้ตรวจสอบให้แน่ใจว่าคุณสามารถเรียกใช้ POS สมัยใหม่จาก Visual Studio ได้โดยใช้คำสั่ง **Run**
+3. เปิดใช้งานส่วนขยาย POS ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ในไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
+
 
     > [!NOTE]
-    > POS สมัยใหม่ต้องไม่กำหนดเอง คุณต้องเปิดใช้งานการควบคุมบัญชีผู้ใช้ (UAC) และคุณต้องถอนการติดตั้งอินสแตนซ์ของ POS สมัยใหม่ที่ติดตั้งไว้ก่อนหน้านี้ตามที่ต้องการ
-
-2. เปิดใช้งานส่วนขยายที่จะต้องโหลดในโดยการเพิ่มบรรทัดต่อไปนี้ในไฟล์ **extensions.json**
-
     ``` json
+    > Modern POS must not be customized. You must enable User Account Control (UAC), and you must uninstall previously installed instances of Modern POS as required.
     {
+
         "extensionPackages": [
+2. Enable the extensions that must be loaded by adding the following lines in the **extensions.json** file.
             {
+
                 "baseUrl": "Microsoft/AuditEvent.SE"
+    ``` json
             }
+    {
         ]
+        "extensionPackages": [
     }
+            {
+    ```
+                "baseUrl": "Microsoft/AuditEvent.SE"
+
+            }
+#### <a name="create-deployable-packages"></a>สร้างแพคเกจที่สามารถปรับใช้ได้
+        ]
+
+    }
+เรียกใช้ **msbuild** สำหรับ Retail SDK ทั้งหมดเพื่อสร้างแพคเกจที่ปรับใช้ได้ ใช้แพคเกจผ่าน LCS หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การบรรจุสินค้าของ Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md)
     ```
 
     > [!NOTE]
-    > สำหรับข้อมูลเพิ่มเติม และตัวอย่างที่แสดงวิธีการรวมโฟลเดอร์รหัสต้นฉบับและเปิดใช้งานส่วนขยายที่จะโหลด โปรดดูคําแนะนําในไฟล์ readme.md ในโครงการ **Pos.Extensions**
+    > For more information, and for samples that show how to include source code folders and enable extensions to be loaded, see the instructions in the readme.md file in the **Pos.Extensions** project.
 
 3. สร้างโซลูชันใหม่
 4. เรียกใช้ POS สมัยใหม่ในดีบักเกอร์ และทดสอบฟังก์ชัน
@@ -199,7 +272,7 @@ ms.locfileid: "8870558"
 
 มีตัวจัดการคำขอ **DocumentProviderCleanCash** หนึ่งตัวจัดการสำหรับตัวจัดการเอกสาร ตัวจัดการนี้ใช้ในการสร้างเอกสารทางการเงินเกี่ยวกับอุปกรณ์ควบคุม
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อผู้ให้บริการเอกสารตัวเชื่อมต่อที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -208,7 +281,7 @@ ms.locfileid: "8870558"
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิก **DocumentProviderFiscalCleanCashSample** อยู่ในโฟลเดอร์ **การตั้งค่าคอนฟิก** ของโครงการขยาย วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+ไฟล์การตั้งค่าคอนฟิก **DocumentProviderFiscalCleanCashSample** อยู่ในโฟลเดอร์ **การตั้งค่าคอนฟิก** ของโครงการขยาย วัตถุประสงค์ของไฟล์นี้คือเพื่อเปิดใช้งานการตั้งค่าของผู้ให้บริการเอกสารที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
 
 - การแมปรหัส VAT
 
@@ -222,7 +295,7 @@ ms.locfileid: "8870558"
 
 ตัวจัดการคำขอ **CleanCashHandler** เป็นจุดเข้าใช้งานเพื่อจัดการคำขอไปยังอุปกรณ์ควบคุม
 
-ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุในศูนย์ควบคุม Commerce
+ตัวจัดการสืบทอดมาจากอินเทอร์เฟส **INamedRequestHandler** วิธีการ **HandlerName** จะรับผิดชอบการส่งคืนชื่อของตัวจัดการ ชื่อตัวจัดการควรตรงกับชื่อตัวเชื่อมต่อทางการเงินที่ระบุใน Commerce headquarters
 
 ตัวเชื่อมต่อสนับสนุนคำขอต่อไปนี้:
 
@@ -232,7 +305,7 @@ ms.locfileid: "8870558"
 
 #### <a name="configuration"></a>การกำหนดค่า
 
-ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **Configuration** ของโครงการขยาย วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจากศูนย์ควบคุม Commerce รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
+ไฟล์การตั้งค่าคอนฟิกอยู่ในโฟลเดอร์ **Configuration** ของโครงการขยาย วัตถุประสงค์ของไฟล์คือเพื่อเปิดใช้งานการตั้งค่าของตัวเชื่อมต่อทางการเงินที่จะตั้งค่าคอนฟิกจาก Commerce headquarters รูปแบบไฟล์จะสอดคล้องกับข้อกําหนดของการตั้งค่าคอนฟิกการรวมทางการเงิน มีการเพิ่มการตั้งค่ามีดังต่อไปนี้:
 
 - **สตริงการเชื่อมต่อ** – การตั้งค่าการเชื่อมต่ออุปกรณ์ควบคุม
 - **การหมดเวลา** – จํานวนเวลาเป็นมิลลิวินาที ซึ่งพนักงานขับรถจะรอการตอบสนองจากอุปกรณ์ควบคุม
@@ -243,13 +316,13 @@ ms.locfileid: "8870558"
 
 ### <a name="migration-process"></a>กระบวนการย้าย
 
-การย้ายจากตัวอย่างการรวมก่อนหน้านี้ไปยังตัวอย่างการรวมอุปกรณ์ควบคุมปัจจุบันควรเป็นไปตามแนวคิดของการอัปเดตแบบทีละขั้น กล่าวอีกอย่างคือ ควรอัปเดตส่วนประกอบของศูนย์ควบคุม Commerce และ Commerce Scale Unit ทั้งหมดก่อนที่คุณจะเริ่มอัปเดตส่วนประกอบ POS และสถานีฮาร์ดแวร์
+การย้ายจากตัวอย่างการรวมก่อนหน้านี้ไปยังตัวอย่างการรวมอุปกรณ์ควบคุมปัจจุบันควรเป็นไปตามแนวคิดของการอัปเดตแบบทีละขั้น กล่าวอีกอย่างคือ ควรอัปเดตส่วนประกอบของ Commerce headquarters และ Commerce Scale Unit ทั้งหมดก่อนที่คุณจะเริ่มอัปเดตส่วนประกอบ POS และสถานีฮาร์ดแวร์
 
 เพื่อช่วยป้องกันสถานการณ์ที่มีการลงชื่อเหตุการณ์หรือธุรกรรมสองครั้ง (กล่าวคือ มีการลงชื่อโดยทั้งส่วนขยายก่อนหน้านี้และส่วนขยายปัจจุบัน) หรือโดยที่ไม่สามารถลงชื่อเหตุการณ์หรือธุรกรรมได้เนื่องจากการตั้งค่าคอนฟิกขาดหายไป ขอแนะนำว่าคุณควรปิดอุปกรณ์ POS และสถานีฮาร์ดแวร์ทั้งหมดที่ใช้ตัวอย่างก่อนหน้านี้ แล้วอัปเดตพร้อมกัน การอัปเดตพร้อมกันนี้สามารถเกิดขึ้นได้ ตัวอย่างเช่น ตามแต่ละร้านค้า โดยการอัปเดตโพรไฟล์ฟังก์ชันของร้านค้าและโปรไฟล์ฮาร์ดแวร์ของสถานีฮาร์ดแวร์
 
 กระบวนการย้ายควรประกอบด้วยขั้นตอนต่อไปนี้
 
-1. อัปเดตส่วนประกอบของศูนย์ควบคุม Commerce
+1. อัปเดตส่วนประกอบของ Commerce headquarters
 1. อัปเดตส่วนประกอบ Commerce Scale Unit และเปิดใช้งานส่วนขยายของตัวอย่างปัจจุบัน
 1. ตรวจสอบให้แน่ใจว่าธุรกรรมออฟไลน์ทั้งหมดถูกซิงค์จากอุปกรณ์ MPOS ที่เปิดใช้งานแบบออฟไลน์
 1. ปิดอุปกรณ์ทั้งหมดที่ใช้ส่วนประกอบของตัวอย่างก่อนหน้านี้
@@ -438,80 +511,3 @@ ms.locfileid: "8870558"
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
-
-2. เปิดใช้งานส่วนขยายสถานีฮาร์ดแวร์ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ลงในส่วน **องค์ประกอบ** ในไฟล์การตั้งค่าคอนฟิก **HardwareStation.Extension.config**
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
-    ```
-
-3. การเปลี่ยนแปลงต่อไปนี้ในไฟล์การกำหนดค่าการกําหนดเองของแพคเกจ **Customization.settings** ภายใต้โฟลเดอร์ **BuildTools**:
-
-    - ลบรายการต่อไปนี้ออกเพื่อไม่รวมส่วนขยายสถานีฮาร์ดแวร์ก่อนหน้าจากแพคเกจที่สามารถปรับใช้ได้
-
-        ``` xml
-        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
-        ```
-
-    - เพิ่มรายการต่อไปนี้เพื่อรวมส่วนขยายสถานีฮาร์ดแวร์ตัวอย่างปัจจุบันในแพคเกจที่สามารถปรับใช้ได้
-
-        ``` xml
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
-        ```
-
-#### <a name="update-modern-pos"></a>อัปเดต Modern POS
-
-1. เปิดโซลูชัน **CloudPOS.sln** ที่ **RetailSdk\\POS**
-2. ปิดใช้งานส่วนขยาย POS ก่อนหน้านี้:
-
-    - ในไฟล์ **tsconfig.json** ให้เพิ่มโฟลเดอร์ **FiscalRegisterSample** ลงในรายการไม่รวม
-    - เอารายการต่อไปนี้ออกจากไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. เปิดใช้งานส่วนขยาย POS ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ในไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="update-cloud-pos"></a>อัปเดต Cloud POS
-
-1. เปิดโซลูชัน **ModernPOS.sln** ภายใต้ **RetailSdk\\POS**
-2. ปิดใช้งานส่วนขยาย POS ก่อนหน้านี้:
-
-    - ในไฟล์ **tsconfig.json** ให้เพิ่มโฟลเดอร์ **FiscalRegisterSample** ลงในรายการไม่รวม
-    - เอารายการต่อไปนี้ออกจากไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. เปิดใช้งานส่วนขยาย POS ตัวอย่างปัจจุบันโดยเพิ่มรายการต่อไปนี้ในไฟล์ **extensions.json** ภายใต้โฟลเดอร์ **RetailSDK\\POS\\Extensions**
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="create-deployable-packages"></a>สร้างแพคเกจที่สามารถปรับใช้ได้
-
-เรียกใช้ **msbuild** สำหรับ Retail SDK ทั้งหมดเพื่อสร้างแพคเกจที่ปรับใช้ได้ ใช้แพคเกจผ่าน LCS หรือด้วยตนเอง สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [การบรรจุสินค้าของ Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md)

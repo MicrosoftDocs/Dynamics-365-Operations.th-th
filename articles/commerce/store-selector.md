@@ -2,26 +2,26 @@
 title: โมดูลตัวเลือกการจัดเก็บ
 description: บทความนี้ครอบคลุมถึงโมดูลตัวเลือกร้านค้าและอธิบายวิธีการเพิ่มลงในเพจของไซต์ใน Microsoft Dynamics 365 Commerce
 author: anupamar-ms
-manager: annbe
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+manager: annbe
+ms.openlocfilehash: aa3aed837072cb6c3d4f7f92bec2f4b700408cf7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881694"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268352"
 ---
 # <a name="store-selector-module"></a>โมดูลตัวเลือกการจัดเก็บ
 
@@ -39,13 +39,13 @@ ms.locfileid: "8881694"
 - โมดูลตัวเลือกร้านค้าสามารถใช้ในหน้ารถเข็น เพื่อเลือกร้านค้าสำหรับการเบิกสินค้า
 - โมดูลตัวเลือกร้านค้าสามารถใช้ในหน้าแบบสแตนด์อโลนซึ่งแสดงร้านค้าที่มีอยู่ทั้งหมด
 
-## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>การตั้งค่ากลุ่มการเติมสินค้าในศูนย์ควบคุม Commerce
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>การตั้งค่ากลุ่มการเติมสินค้าใน Commerce headquarters
 
-เพื่อให้ตัวเลือกร้านค้าแสดงร้านค้าที่มีอยู่ ต้องตั้งค่ากลุ่มการเติมสินค้าในศูนย์ควบคุม Commerce สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่ากลุ่มการเติมสินค้า](customer-orders-overview.md#set-up-fulfillment-groups)
+เพื่อให้ตัวเลือกร้านค้าแสดงร้านค้าที่มีอยู่ ต้องตั้งค่ากลุ่มการเติมสินค้าใน Commerce headquarters สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่ากลุ่มการเติมสินค้า](customer-orders-overview.md#set-up-fulfillment-groups)
 
 นอกจากนี้ ร้านค้าแต่ละร้านในกลุ่มการเติมสินค้านั้นต้องกําหนดละติจูดและลองติจูดของที่ตั้งร้านค้าในศูนย์ควบคุม
 
-เพื่อป้อนค่าละติจูดและลองติจูดของที่อยู่ร้านค้าในศูนย์ควบคุม Commerce ให้ทำตามขั้นตอนเหล่านี้
+เพื่อป้อนค่าละติจูดและลองติจูดของที่อยู่ร้านค้าใน Commerce headquarters ให้ทำตามขั้นตอนเหล่านี้
 
 1. ไปที่ **การบริหารสินค้าคงคลัง \> การตั้งค่า \> การแบ่งสินค้าคงคลัง**
 1. เลือกที่ตั้งของคลังสินค้าในบานหน้าต่างด้านซ้าย
@@ -72,7 +72,7 @@ ms.locfileid: "8881694"
 
 ## <a name="bing-maps-integration"></a>การรวม Bing Maps
 
-โมดูลตัวเลือกร้านค้าทำงานร่วมกับ [Application Programming Interfaces (APIs) ของ Bing MAPS REST](/bingmaps/rest-services/) เพื่อใช้ลักษณะการทำงานการกำหนดรหัสพิกัดและคำแนะนำอัตโนมัติของ Bing ต้องใช้คีย์ API ของ Bing Maps และต้องเพิ่มลงในหน้าพารามิเตอร์ที่ใช้ร่วมกันในศูนย์ควบคุม Commerce API ของการกำหนดรหัสพิกัดใช้ในการแปลงที่ตั้งเป็นค่าละติจูดและลองจิจูด การรวมกับ API ของคำแนะนำอัตโนมัติใช้เพื่อแสดงคำแนะนำการค้นหา เมื่อผู้ใช้ป้อนสถานที่ในฟิลด์การค้นหา
+โมดูลตัวเลือกร้านค้าทำงานร่วมกับ [Application Programming Interfaces (APIs) ของ Bing MAPS REST](/bingmaps/rest-services/) เพื่อใช้ลักษณะการทำงานการกำหนดรหัสพิกัดและคำแนะนำอัตโนมัติของ Bing ต้องใช้คีย์ API ของ Bing Maps และต้องเพิ่มลงในหน้าพารามิเตอร์ที่ใช้ร่วมกันใน Commerce headquarters API ของการกำหนดรหัสพิกัดใช้ในการแปลงที่ตั้งเป็นค่าละติจูดและลองจิจูด การรวมกับ API ของคำแนะนำอัตโนมัติใช้เพื่อแสดงคำแนะนำการค้นหา เมื่อผู้ใช้ป้อนสถานที่ในฟิลด์การค้นหา
 
 สำหรับ REST API ของคำแนะนำอัตโนมัติ คุณต้องตรวจสอบให้แน่ใจว่าได้อนุญาตให้ใช้ URL ต่อไปนี้ ตามนโยบายความปลอดภัยของเนื้อหาสำหรับไซต์ของคุณ (CSP) การตั้งค่านี้ดำเนินการใน โปรแกรมสร้างไซต์ Commerce โดยการเพิ่ม URL ที่อนุญาตให้กับคำสั่ง CSP ต่างๆ สำหรับไซต์ (ตัวอย่างเช่น **img-src**) สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [นโยบายความปลอดภัยของเนื้อหา](manage-csp.md) 
 
@@ -123,7 +123,7 @@ ms.locfileid: "8881694"
 
 ## <a name="site-settings"></a>การตั้งค่าไซต์
 
-โมดูลตัวเลือกร้านค้าคำนึงถึง [การตั้งค่าเพิ่มผลิตภัณฑ์ลงในรถเข็น](add-cart-settings.md) หลังจากที่เพิ่มสินค้าลงในรถเข็นจากโมดูลตัวเลือกร้านค้าแล้ว ผู้ใช้ไซต์จะเห็นลำดับงานที่ตั้งค่าคอนฟิกที่เหมาะสม
+โมดูลตัวเลือกร้านค้าคำนึงถึง [การตั้งค่าเพิ่มผลิตภัณฑ์ลงในรถเข็น](add-cart-settings.md) หลังจากที่เพิ่มสินค้าลงในรถเข็นจากโมดูลตัวเลือกร้านค้าแล้ว ผู้ใช้ไซต์จะเห็นเวิร์กโฟลว์ที่ตั้งค่าคอนฟิกที่เหมาะสม
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>เพิ่มโมดูลตัวเลือกร้านค้าไปที่หน้า
 

@@ -1,26 +1,26 @@
 ---
 title: VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 description: บทความนี้ให้ข้อมูลเกี่ยวกับภาษีมูลค่าเพิ่ม (VAT) ที่ยังไม่รับรู้และที่รับรู้ในประเทศไทย
-author: anasyash
+author: AdamTrukawka
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable, VendParameters, CustParameters
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265924
-ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
 ms.search.region: Thailand
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bcc18f55689a70916cdccdbd9e06f8110fbef32b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 265924
+ms.assetid: 829a101f-e329-48b9-baf8-e36670ff43c8
+ms.search.form: TaxTable, VendParameters, CustParameters
+ms.openlocfilehash: 9f38b2f241595b53afa83a442feed936261cbee4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902402"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284005"
 ---
 # <a name="thailand-unrealized-and-realized-vat"></a>VAT ที่ยังไม่รับรู้และที่รับรู้ของประเทศไทย
 
@@ -28,7 +28,7 @@ ms.locfileid: "8902402"
 
 บทความนี้ให้ข้อมูลเกี่ยวกับภาษีมูลค่าเพิ่ม (VAT) ที่ยังไม่รับรู้และที่รับรู้ในประเทศไทย และยังอธิบายวิธีการชำระธุรกรรมที่มี VAT ที่ยังไม่รับรู้ วิธีการกลับรายการ VAT ที่ยังไม่รับรู้ และรายงานใดที่สามารถสร้างได้บ้าง
 
-ในปัจจุบัน สามารถคํานวณ VAT ได้สี่ชนิด จะได้รับการกำหนดโดยแอททริบิวต์สองหมวดหมู่ คือ **VAT การซื้อ/ขาย** และ **VAT ที่รับรู้/ที่ยังไม่รับรู้** ตารางต่อไปนี้จะให้ข้อมูลเกี่ยวกับ VAT แต่ละชนิด
+ในปัจจุบัน สามารถคํานวณ VAT ได้สี่ชนิด จะได้รับการกำหนดโดยแอตทริบิวต์สองหมวดหมู่ คือ **VAT การซื้อ/ขาย** และ **VAT ที่รับรู้/ที่ยังไม่รับรู้** ตารางต่อไปนี้จะให้ข้อมูลเกี่ยวกับ VAT แต่ละชนิด
 
 <table width="100%">
 <tbody>

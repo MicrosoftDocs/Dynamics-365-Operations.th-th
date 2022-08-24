@@ -1,26 +1,26 @@
 ---
 title: สนับสนุนการเรียกแบบพารามิเตอร์ของแบบจำลองข้อมูล ER
 description: บทความนี้อธิบายวิธีการใช้การเรียกแบบพารามิเตอร์ของแบบจำลองข้อมูลการรายงานทางอิเล็กทรอนิกส์ (ER)
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884270"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276002"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>สนับสนุนการเรียกแบบพารามิเตอร์ของแบบจำลองข้อมูล ER
 
@@ -278,7 +278,7 @@ ms.locfileid: "8884270"
 
 1. ไปที่ **การจัดการองค์กร** \> **การรายงานทางอิเล็กทรอนิกส์** \> **การตั้งค่าคอนฟิก**
 2. บนหน้า **การตั้งค่าคอนฟิก** ในแผนภูมิการตั้งค่าคอนฟิกในบานหน้าต่างด้านซ้าย ให้เลือก **แบบจำลองตัวอย่างการตรวจสอบ**
-3. บนแท็บด่วน **รุ่น** ให้เลือกรุ่น **2** ที่มีสถานะเป็น **[แบบร่าง](general-electronic-reporting.md#component-versioning)**
+3. บนแท็บด่วน **รุ่น** ให้เลือกรุ่น **2** ที่มีสถานะ **แบบร่าง**
 4. เลือกแท็บด่วน **ส่วนประกอบการตั้งค่าคอนฟิก**
 5. เลือก **ตัวออกแบบ** เพื่อเปิดแบบจำลองข้อมูลสำหรับการแก้ไข
 6. บนหน้า **แบบจำลองข้อมูล** ตรวจสอบให้แน่ใจว่ามีการเลือกฟิลด์ `Root` แล้วเลือก **ใหม่**

@@ -2,21 +2,21 @@
 title: เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
 description: บทความนี้อธิบายวิธีการเริ่มต้นใช้งาน Commerce Scale Unit (ระบบคลาวด์) ใน Microsoft Dynamics 365 Commerce
 author: jashanno
-ms.date: 07/21/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
-ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
-ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
+ms.search.validFrom: 2018-04-30
+ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183377"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271529"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
 
@@ -96,7 +96,7 @@ Commerce Scale Unit สามารถใช้งานสำหรับกา
 
 เมื่อต้องการตั้งค่าคอนฟิกช่องทางของคุณเพื่อใช้ฐานข้อมูล Commerce Scale Unit ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-1. ในศูนย์ควบคุม Commerce ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> Commerce Scheduler \> ฐานข้อมูลช่องทาง**
+1. ใน Commerce headquarters ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> Commerce Scheduler \> ฐานข้อมูลช่องทาง**
 1. ในบานหน้าต่างด้านซ้าย ให้เลือกฐานข้อมูลช่องทาง
 1. บนแท็บด่วน **ช่องทางการขายปลีก** ให้เลือก **เพิ่ม** แล้วเลือกช่องทางการขายปลีกในรายการแบบหล่นลง
 1. เลือก **เพิ่ม** แล้วเลือกช่องทางออนไลน์ในรายการแบบหล่นลง 
@@ -173,7 +173,7 @@ Commerce Scale Unit สามารถใช้งานสำหรับกา
 
 - ช่องทาง Commerce ที่โฮสต์บนระบบคลาวด์จะใช้ไม่ได้ ยกเว้นว่าคุณจะเปิดความสามารถออฟไลน์ของ POS
 - อุปกรณ์ POS ที่เปิดใช้งานระบบออฟไลน์จะมีฟังก์ชันการทำงานลดลง
-- ไคลเอนต์อีคอมเมิร์ซใดๆ ที่ใช้งานเซิร์ฟเวอร์ Retail จะหยุดชะงัก
+- ไคลเอ็นต์อีคอมเมิร์ซใดๆ ที่ใช้งานเซิร์ฟเวอร์ Retail จะหยุดชะงัก
 - ช่องทางที่โฮสต์ใน Commerce Scale Unit (โฮสต์ในตัว) จะไม่ได้รับผลกระทบ
 - ฟังก์ชันการทำงานของสำนักงานใหญ่จะไม่ได้รับผลกระทบ
 

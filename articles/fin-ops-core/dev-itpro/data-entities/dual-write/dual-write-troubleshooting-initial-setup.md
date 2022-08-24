@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111214"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289528"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>แก้ไขปัญหาระหว่างการตั้งค่าเริ่มแรก
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 บทความนี้แสดงข้อมูลการแก้ไขปัญหาสำหรับการรวมข้อมูลด้วยการรวมแบบสองทิศทางระหว่างแอปการเงินและการดำเนินงานกับ Dataverse กล่าวคือ จะให้ข้อมูลซึ่งช่วยให้คุณสามารถแก้ไขปัญหาที่อาจเกิดขึ้นในระหว่างการตั้งค่าเริ่มต้นของการรวมแบบสองทิศทาง
 
@@ -87,6 +85,19 @@ ms.locfileid: "9111214"
 
 + ผู้ใช้ที่ใช้เพื่อเข้าสู่ระบบไม่อยู่ในผู้เช่าเดียวกันกับอินสแตนซ์การเงินและการดำเนินงาน
 + มีอินสแตนซ์การเงินและการดำเนินงานดั้งเดิมบางอินสแตนซ์ที่เป็นโฮสต์ Microsoft ที่มีปัญหาเกี่ยวกับการค้นหา เมื่อต้องการแก้ไขสิ่งนี้ ให้อัปเดตอินสแตนซ์การเงินและการดำเนินงาน สภาพแวดล้อมจะค้นพบได้กับการอัปเดตใดๆ
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (ไม่ได้รับอนุญาต) ข้อผิดพลาดขณะสร้างการเชื่อมต่อ
+
+ในฐานะส่วนหนึ่งของกระบวนการลิงค์การรวมแบบสองทิศทาง คือ การเชื่อมต่อ Power Apps สองการเชื่อมต่อ (หรือที่เรียกว่า การเชื่อมต่อ *Apihub*) จะถูกสร้างในนามของผู้ใช้ในสภาพแวดล้อม Dataverse ที่เชื่อมโยง หากลูกค้าไม่มีใบอนุญาตในสภาพแวดล้อม Power Apps การสร้างการเชื่อมต่อ ApiHub จะล้มเหลว และแสดงข้อผิดพลาด 403 (ไม่อนุญาตให้ใช้) นี่เป็นตัวอย่างของข้อความแสดงข้อผิดพลาด
+
+> MSG=\[ล้มเหลวในการตั้งค่าสภาพแวดล้อมการรวมแบบสองทิศทาง รายละเอียดข้อผิดพลาด: รหัสสถานะการตอบสนองไม่บ่งชี้ความสำเร็จ: 403 (ไม่อนุญาต) - รหัสสถานะการตอบสนองไม่บ่งชี้ความสเร็จ: 403 (ไม่อนุญาต).\] STACKTRACE=\[   ที่ Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() ใน X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- สิ้นสุดการติดตามสแต็คจากที่ตั้งก่อนหน้านี้ ที่มีข้อยกเว้นเกิดขึ้น --- ที่ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() ที่ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) ที่ Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+ข้อผิดพลาดนี้เกิดขึ้นเนื่องจากขาดสิทธิการใช้งาน Power Apps กําหนดสิทธิการใช้งานที่เหมาะสม (ตัวอย่างเช่น แผน Power Apps รุ่นทดลอง 2) ให้กับผู้ใช้ เพื่อให้ผู้ใช้มีสิทธิ์สร้างการเชื่อมต่อ เมื่อต้องการตรวจสอบสิทธิการใช้งาน ลูกค้าสามารถไปที่ไซต์ [บัญชีของฉัน](https://portal.office.com/account/?ref=MeControl#subscriptions) เพื่อดูสิทธิ์การใช้งานที่มอบหมายให้กับผู้ใช้อยู่ในขณะนี้
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิการใช้งาน Power Apps โปรดดูบทความต่อไปนี้:
+
+- [การกำหนดสิทธิ์การใช้งานให้กับผู้ใช้](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [เลือก Power Apps สำหรับองค์กรของคุณ](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

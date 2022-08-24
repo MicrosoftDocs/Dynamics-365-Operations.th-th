@@ -1,20 +1,20 @@
 ---
 title: อินทราสแทตของฝรั่งเศส
 description: บทความนี้มีข้อมูลเกี่ยวกับการรายงานอินทราสแทตในฝรั่งเศส
-author: anasyash
-ms.date: 07/9/2021
+author: AdamTrukawka
+ms.date: 07/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83af3cf304772085c5a6f0943ab5196fcc0208c9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887866"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287031"
 ---
 # <a name="french-intrastat"></a>อินทราสแทตภาษาฝรั่งเศส
 
@@ -205,7 +205,7 @@ ms.locfileid: "8887866"
 
 3.  ตั้งค่าลำดับชั้นผลิตภัณฑ์:
 
-    1. ไปที่ **การจัดการข้อมูลผลิตภัณฑ์** > **การตั้งค่า** > **ประเภทและแอททริบิวต์** > **การจัดประเภทตามลำดับชั้น**
+    1. ไปที่ **การจัดการข้อมูลผลิตภัณฑ์** > **การตั้งค่า** > **ประเภทและแอตทริบิวต์** > **การจัดประเภทตามลำดับชั้น**
     2. ในกริด ให้เลือก **อินทราสแทต** จากนั้น บนบานหน้าต่างการดำเนินการ บนแท็บ **การจัดประเภทตามลำดับชั้น** ในกลุ่ม **รักษา** ให้เลือก **แก้ไข**
     3. ในบานหน้าต่างการดำเนินการ ให้เลือก **โหนดประเภทใหม่**
     4. ในฟิลด์ **ชื่อ** ให้ป้อน **Autres Libournais**

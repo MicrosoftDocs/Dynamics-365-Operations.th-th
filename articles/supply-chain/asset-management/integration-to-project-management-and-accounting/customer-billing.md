@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887702"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220436"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>เรียกเก็บเงินสำหรับการบํารุงรักษาสินทรัพย์ที่ลูกค้าเป็นเจ้าของ
 
@@ -49,7 +49,7 @@ ms.locfileid: "8887702"
 
 หากต้องการเรียนรู้วิธีการใช้งานคุณลักษณะนี้ ให้ดำเนินการผ่านสถานการณ์ตัวอย่างต่อไปนี้
 
-เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) มาตรฐาน คุณต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
+เมื่อต้องการดำเนินการสถานการณ์นี้โดยใช้เรกคอร์ดและค่าตัวอย่างที่ระบุที่นี่ คุณต้องอยู่ในระบบที่มีการติดตั้ง [ข้อมูลสาธิต](../../../fin-ops-core/fin-ops/get-started/demo-data.md) มาตรฐาน คุณต้องเลือกนิติบุคคล **USMF** ก่อนที่คุณจะเริ่มต้น
 
 นอกจากนี้ คุณยังสามารถใช้สถานการณ์จำลองนี้เป็นคำแนะนำสำหรับการใช้คุณลักษณะ เมื่อคุณทำงานในระบบการผลิต อย่างไรก็ตาม ในกรณีดังกล่าว คุณต้องแทนที่ค่าของคุณเอง และคุณอาจขาดเรกคอร์ดที่จำเป็นบางชนิดที่ข้อมูลสาธิตมาตรฐานมีให้
 
