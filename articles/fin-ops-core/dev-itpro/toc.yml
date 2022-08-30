@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.29 (ตุลาคม 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 (สิงหาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.27 (กรกฎาคม 2022)
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: เปิดใช้งานแมปเอนทิตี้สําหรับการรวมแบบสองทิศทาง
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: เปิดใช้งานกรอบเวลาเซสชันห้านาทีหมดเวลาสำหรับเซสชันการรวมแบบสองทิศทาง
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: แพคเกจการประสานรวมของแอปพลิเคชันการรวมแบบสองทิศทางที่แยกต่างหาก
                       href: data-entities/dual-write/separated-solutions.md
                     - name: การย้ายชนิดข้อมูลสกุลเงินสำหรับการรวมแบบสองทิศทาง
@@ -1786,7 +1790,7 @@
               items:
                 - name: กระบวนการสำหรับการย้ายเข้าสู่การอัปเดตล่าสุด
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: เส้นทางไปยังรุ่นหนึ่ง
+                - name: เส้นทางไปยังหนึ่งเวอร์ชัน
                   items:
                     - name: การอัปเกรดแบบบริการตนเองเป็นรุ่นล่าสุด
                       href: migration-upgrade/self-service-upgrade.md

@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
               items:
+                - name: Human Resources 10.0.29 (โครงสร้างพื้นฐานแบบผสาน)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (โครงสร้างพื้นฐานแบบผสาน)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (โครงสร้างพื้นฐานแบบผสาน)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: ตั้งค่าพารามิเตอร์การจัดการสวัสดิการและระบบบริการตนเองของพนักงานสำหรับบริษัททั้งหมด
                   href: hr-benefits-setup-parameters.md
+                - name: ตั้งค่าคอนฟิกสิทธิ์ของผู้ดูแลระบบสำหรับเหตุการณ์สำคัญในชีวิต
+                  href: admin-life-events.md
+                - name: ตั้งค่าคอนฟิกการแจ้งเตือนทางอีเมลสำหรับสวัสดิการ
+                  href: hr-email-notifications.md
                 - name: ตั้งค่าคอนฟิกกฎและตัวเลือกการมีคุณสมบัติ
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: ตั้งค่าคอนฟิกตัวเลือกการมีคุณสมบัติของผู้ติดต่อส่วนบุคคล
@@ -612,7 +618,7 @@
                   href: hr-benefits-setup-coverage-options.md
                 - name: ตั้งค่าความถี่ในการชำระเงิน
                   href: hr-benefits-setup-payment-frequencies.md
-                - name: ตั้งค่าคอนฟิกชนิดเหตุการณ์ของชีวิต
+                - name: ตั้งค่าคอนฟิกชนิดเหตุการณ์สำคัญในชีวิต
                   href: hr-benefits-setup-life-event-types.md
                 - name: ภาพรวมชนิดของแผน
                   href: hr-benefits-setup-plan-types.md
@@ -642,7 +648,7 @@
                       href: hr-benefits-plans-setup.md
                     - name: สร้างแผนสวัสดิการของผู้ปฏิบัติงาน
                       href: hr-benefits-plans-worker.md
-                    - name: ตั้งค่าเหตุการณ์ของชีวิตในอนาคต
+                    - name: ตั้งค่าเหตุการณ์สำคัญในชีวิตในอนาคต
                       href: hr-benefits-plans-future-life-events.md
                     - name: ตั้งค่าโปรแกรมเครดิตแบบยืดหยุ่น
                       href: hr-benefits-plans-flex-credit-programs.md
@@ -650,11 +656,11 @@
                   items:
                     - name: ดำเนินการกับการมีสิทธิ์ในการลงทะเบียน
                       href: hr-benefits-process-enrollment-eligibility.md
-                    - name: ดำเนินการกับเหตุการณ์ของชีวิต
+                    - name: ดำเนินการกับเหตุการณ์สำคัญในชีวิต
                       href: hr-benefits-process-life-events.md
-                    - name: ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์ของชีวิต
+                    - name: ดำเนินการกับการเปลี่ยนแปลงเหตุการณ์สำคัญในชีวิต
                       href: hr-benefits-process-life-event-changes.md
-                    - name: ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์ของชีวิต
+                    - name: ดำเนินการกับการมีสิทธิ์สำหรับเหตุการณ์สำคัญในชีวิต
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: ดำเนินการกับการเปลี่ยนแปลงอัตรา
                       href: hr-benefits-process-rate-changes.md

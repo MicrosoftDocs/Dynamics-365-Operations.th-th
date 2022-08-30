@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (ตุลาคม)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (สิงหาคม)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (กรกฎาคม)
@@ -62,9 +64,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: การอัปเดตคุณภาพแบบต่อเนื่อง
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
-                - name: การมอบโซลูชัน ISV โดยใช้ One Version
+                - name: การนำเสนอโซลูชันของ ISV โดยใช้หนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/finance
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/finance
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: ดูรายการสมุดรายวันหรือธุรกรรม
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: อนุญาตให้แก้ไขข้อมูลภายในใบสำคัญของบัญชีแยกประเภททั่วไป
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: ดูใบสำคัญระหว่างบริษัทที่เกี่ยวข้องจากสมุดรายวัน
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: เผยแพร่บรรทัดสมุดรายวันและเอกสารจาก Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับอียิปต์
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับฝรั่งเศส
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับเม็กซิโก
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับโปแลนด์
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: เริ่มต้นใช้งานการออกใบแจ้งหนี้อิเล็กทรอนิกส์สำหรับซาอุดีอาระเบีย
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: การออนบอร์ดการออกใบแจ้งหนี้อิเล็กทรอนิกส์ในซาอุดีอาระเบีย
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: ตั้งค่าการรวมโดยตรงสำหรับ FatturaPA ของอิตาลีด้วย SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: ใช้บริการออกใบแจ้งหนี้อิเล็กทรอนิกส์เพื่อนําเข้าใบแจ้งหนี้ของผู้จัดจำหน่าย
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการออกใบแจ้งหนี้อิเล็กทรอนิกส์
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: การคำนวณภาษี
@@ -1648,6 +1660,10 @@
                           items:
                             - name: การรายงานภาษี VAT
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: การรายงานของโปแลนด์
+                          items:
+                            - name: การรายงานภาษี VAT
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: การรายงานของสเปน
                           items:
                             - name: 'การจัดหาข้อมูลเกี่ยวกับ VAT ทันที (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: ปรับปรุงภาษีขายผ่านทางสมุดรายวันทั่วไป
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: เปิดใช้งานการคำนวณภาษีที่ล่าช้าในสมุดรายวัน
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: การสร้างการชำระเงินภาษีขาย
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: ตั้งค่าภาษีหัก ณ ที่จ่ายทั่วโลก
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: เปิดใช้งานการตั้งค่าชนิดอัตราแลกเปลี่ยนของสกุลเงินภาษีหัก ณ ที่จ่ายสากลและชนิดวันที่
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการซื้อ
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: ภาษีหัก ณ ที่จ่ายในธุรกรรมการขาย
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: ย้ายไฟล์ XML ของ NF-e เป็นเอกสารแนบ
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – การอัปเดตเค้าโครงและการตรวจสอบความถูกต้องในเอกสารทางการเงินอิเล็กทรอนิกส์ (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – การอัปเดตเค้าโครงและการตรวจสอบความถูกต้องในเอกสารทางการเงินอิเล็กทรอนิกส์ (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – แพลตฟอร์มดิจิทัลการขายผ่านตัวกลางสำหรับ NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: บันทึกการตรวจสอบบัญชีและบันทึกการแก้ไขของซอฟต์แวร์การบัญชี
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: ใบแจ้งหนี้อิเล็กทรอนิกส์ในอินเดีย
+                  href: localizations/apac-ind-e-invoices.md
                 - name: ภาษีทางอ้อม
                   items:
                     - name: GST อินเดีย
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: ใช้โพรไฟล์สินค้าคงคลังในเอกสารและการสอบถาม
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: พิธีการศุลกากร
+                      items:
+                        - name: ทำงานกับพิธีการศุลกากร
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: การรายงาน
                   items:
                     - name: การรายงานทางการเงิน
@@ -3576,21 +3604,23 @@
                       href: localizations/rus-company-divisions.md
                     - name: รูปแบบที่อยู่ของรัสเซียและการนำเข้าจาก FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
-                - name: รายการยืดเวลา
+                    - name: นําเข้าจากทะเบียนที่อยู่รัฐ (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
+                - name: การรอตัดบัญชี
                   items:
-                    - name: ตั้งค่ารายการยืดเวลา
+                    - name: ตั้งค่ารายการรอตัดบัญชี
                       href: localizations/rus-set-up-deferrals.md
-                    - name: สร้างหรือจัดทำรายการยืดเวลา
+                    - name: สร้างหรือจัดทำรายการรอตัดบัญชี
                       href: localizations/rus-create-generate-deferrals.md
-                    - name: การรับรายการยืดเวลา
+                    - name: การรับรายการรอตัดบัญชี
                       href: localizations/rus-deferral-transactions.md
                     - name: การยืดเวลาตัดจ่าย
                       href: localizations/rus-write-off-deferral.md
-                    - name: การตัดจำหน่ายของรายการยืดเวลา
+                    - name: การตัดจำหน่ายของรายการรอตัดบัญชี
                       href: localizations/rus-dispose-deferrals.md
-                    - name: การตรวจนับรายการยืดเวลา
+                    - name: การตรวจนับรายการรอตัดบัญชี
                       href: localizations/rus-counting-deferrals.md
-                    - name: การรายงานสำหรับรายการยืดเวลา
+                    - name: การรายงานสำหรับรายการรอตัดบัญชี
                       href: localizations/rus-reporting-deferrals.md
                 - name: การบัญชีของภาษี
                   items:
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (ตุลาคม 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (กรกฎาคม 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (กรกฎาคม 2022)
@@ -60,9 +62,11 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: รับการแจ้งเตือนเกี่ยวกับการอัปเดตบริการ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: การอัปเดตคุณภาพแบบต่อเนื่อง
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: ระบบอัตโนมัติของงานข้อมูล
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
-                - name: การมอบโซลูชัน ISV โดยใช้ One Version
+                - name: การนำเสนอโซลูชันของ ISV โดยใช้หนึ่งเวอร์ชัน
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?context=/dynamics365/context/commerce
                 - name: สร้างและดำเนินการทดสอบการยอมรับของผู้ใช้อัตโนมัติ
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?context=/dynamics365/context/commerce
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: ตัวบันทึกงานและวิธีใช้สำหรับ MPOS และ Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: ตั้งค่าคอนฟิก CPOS เพื่อใช้แอป Azure AD ที่กําหนดเอง
+                      href: cpos-custom-aad.md
                     - name: อุปกรณ์ต่อพ่วงฮาร์ดแวร์
                       items:
                         - name: อุปกรณ์ต่อพ่วง
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: ส่วนลดที่ใช้ในการชำระเงิน
                   href: tender_based_discounts.md
-                - name: ภาพรวมของส่วนลดของการจัดส่งสินค้า
-                  href: retail-shipping-discount.md
+                - name: ส่วนลดการจัดส่ง
+                  href: shipping-discount.md
                 - name: ตั้งค่าคอนฟิกของขวัญที่มีโปรโมชั่นการซื้อ
                   href: gift-with-purchase.md
                 - name: ตั้งค่าคูปอง
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: ความล่าช้าในการคํานวณราคาและส่วนลดที่แน่นอน
                   href: delayed-price-calculation.md
+                - name: ฟังก์ชัน Pricing ใน POS
+                  href: pos-pricing-functions.md
+                - name: API การกําหนดราคา Commerce
+                  href: pricing-apis.md
             - name: คำแนะนำ
               items:
                 - name: ภาพรวมของคำแนะนำผลิตภัณฑ์
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: แปลงลูกค้าแบบอะซิงโครนัสเป็นลูกค้าแบบซิงโครนัส
               href: convert-async-to-sync.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับโหมดการสร้างลูกค้าแบบอะซิงโครนัส
+              href: async-customer-mode-faq.md
             - name: ความสัมพันธ์อันดีกับลูกค้า
               items:
                 - name: ภาพรวมของความสัมพันธ์อันดีกับลูกค้า
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: โมดูลการแสดงผลแบบด่วน
                       href: quick-view-module.md
+                - name: โมดูลการเปรียบเทียบผลิตภัณฑ์
+                  items:
+                    - name: โมดูลการเปรียบเทียบผลิตภัณฑ์
+                      href: product-comparison-modules.md
                 - name: โมดูลการนำทาง
                   items:
                     - name: โมดูลการแสดงเส้นทาง
@@ -1272,6 +1288,10 @@
                   items:
                     - name: โมดูลการยินยอมใช้คุกกี้
                       href: cookie-consent-module.md
+                - name: โมดูลการแชท
+                  items:
+                    - name: โมดูลการแชทของ Commerce
+                      href: commerce-chat-module.md
             - name: ค้นหา
               items:
                 - name: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น
@@ -1404,9 +1424,7 @@
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
                   href: localizations/emea-aut-fi-sample.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับออสเตรีย
-                  href: localizations/emea-aut-deployment.md
-                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับออสเตรีย (ดั้งเดิม)
+                - name: แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินสำหรับออสเตรีย (ดั้งเดิม)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: บราซิล
               items:
@@ -1438,13 +1456,13 @@
                       href: localizations/emea-eeu-petty-cash-for-retail.md
                     - name: ใบแจ้งหนี้ของลูกค้าและใบสั่งขายที่ส่งคืนของลูกค้าสำหรับประเทศในยุโรปตะวันออก
                       href: localizations/emea-eeu-retail-invoices.md
-                    - name: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
+                    - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสดสำหรับสาธารณรัฐเช็ก ฮังการี และโปแลนด์
                       href: localizations/emea-eeu-deployment.md
                 - name: สาธารณรัฐเช็ก
                   items:
                     - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับสาธารณรัฐเช็ก
                       href: localizations/emea-cze-fi-sample.md
-                    - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับสาธารณรัฐเช็ก (ดั้งเดิม)
+                    - name: แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินสำหรับสาธารณรัฐเช็ก (ดั้งเดิม)
                       href: localizations/emea-cze-fi-sample-sdk.md
                 - name: โปแลนด์
                   items:
@@ -1452,31 +1470,31 @@
                       href: localizations/emea-pol-fpi-sample.md
                     - name: การจัดการข้อมูลลูกค้าสำหรับโปแลนด์
                       href: localizations/emea-pol-customer-information.md
-                    - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับโปแลนด์ (ดั้งเดิม)
+                    - name: แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินสำหรับโปแลนด์ (ดั้งเดิม)
                       href: localizations/emea-pol-fpi-sample-sdk.md
             - name: ฝรั่งเศส
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
                   href: localizations/emea-fra-cash-registers.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสด
                   href: localizations/emea-fra-fi-deployment.md
                 - name: การตรวจสอบความถูกต้องของที่เก็บถาวรทางการเงินและความถูกต้องของข้อมูล
                   href: localizations/emea-fra-fiscal-archive.md
-                - name: การย้ายจากฟังก์ชันดั้งเดิมของฝรั่งเศส
+                - name: ย้ายจากฟังก์ชันดั้งเดิมสำหรับฝรั่งเศส
                   href: localizations/emea-fra-fi-migration.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด (ดั้งเดิม)
+                - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสด (ดั้งเดิม)
                   href: localizations/emea-fra-deployment.md
             - name: เยอรมนี
               items:
                 - name: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
                   href: localizations/emea-deu-fi-sample.md
-                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับเยอรมนี (ดั้งเดิม)
+                - name: แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินสำหรับเยอรมนี (ดั้งเดิม)
                   href: localizations/emea-deu-fi-sample-sdk.md
             - name: อินเดีย
               items:
                 - name: การรวมภาษีสินค้าและบริการ (GST) สำหรับเครื่องบันทึกเงินสด
                   href: localizations/apac-ind-cash-registers.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสด
                   href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: การสนับสนุนสำหรับการอัปเกรดและ N-1 สำหรับอินเดีย
                   href: localizations/apac-ind-n-1-for-india.md
@@ -1490,7 +1508,7 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: การจัดการข้อมูลลูกค้าสำหรับอิตาลี
                   href: localizations/emea-ita-customer-information.md
-                - name: แนวทางการปรับใช้ตัวอย่างการรวมทางการเงินสำหรับอิตาลี (ดั้งเดิม)
+                - name: แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินสำหรับอิตาลี (ดั้งเดิม)
                   href: localizations/emea-ita-fpi-sample-sdk.md
             - name: เม็กซิโก
               items:
@@ -1500,9 +1518,11 @@
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
                   href: localizations/emea-nor-cash-registers.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด
+                - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสด
                   href: localizations/emea-nor-fi-deployment.md
-                - name: แนวทางการปรับใช้เครื่องบันทึกเงินสด (ดั้งเดิม)
+                - name: ย้ายจากฟังก์ชันดั้งเดิมสำหรับนอร์เวย์
+                  href: localizations/emea-nor-fi-migration.md
+                - name: แนวทางการปรับใช้งานเครื่องบันทึกเงินสด (ดั้งเดิม)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: รัสเซีย
               items:
@@ -1528,7 +1548,7 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน
                   href: localizations/emea-swe-fi-sample.md
-                - name: แนวทางการปรับใช้ตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
+                - name: แนวทางการปรับใช้งานตัวอย่างการรวมอุปกรณ์ควบคุมสำหรับสวีเดน (ดั้งเดิม)
                   href: localizations/emea-swe-fi-sample-sdk.md
                 - name: ตัวอย่างสำหรับการรวมระบบ Retail POS กับอุปกรณ์ควบคุม (ดั้งเดิม)
                   href: localizations/retail-sdk-control-unit-sample.md
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: ภาพรวมของ Commerce SDK
                   items:
-                    - name: ตัวอย่างและแพคเกจการอ้างอิง
+                    - name: ดาวน์โหลดตัวอย่างและแพคเกจการอ้างอิงของ Commerce SDK
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: การย้าย Retail SDK เดิม
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md

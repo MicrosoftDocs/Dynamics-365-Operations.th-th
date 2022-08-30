@@ -1,24 +1,24 @@
 ---
 title: รับรู้รายได้ที่รอตัดบัญชี
 description: บทความนี้แสดงข้อมูลทั่วไปเกี่ยวกับวิธีรับรู้รายได้โดยใช้คุณลักษณะการรับรู้รายได้
-author: kweekley
+author: bking
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 638e56c9bbbe0b377e804aa2ff55ffe4eded21f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c749415ecd6a0cda8a29e19998c295afa2ef5fd5
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902557"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348223"
 ---
 # <a name="recognize-deferred-revenue"></a>รับรู้รายได้ที่รอตัดบัญชี
 
