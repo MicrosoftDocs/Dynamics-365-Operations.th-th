@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909656"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334520"
 ---
 # <a name="put-to-wall---put-to-store"></a>ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า
 
@@ -32,7 +32,7 @@ ms.locfileid: "8909656"
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>เปิดคุณลักษณะการเรียงลำดับขาออก
 
-ก่อนที่คุณจะสามารถใช้ฟังก์ชัน *ย้ายไปที่ผนัง - ย้ายไปยังร้านค้า* คุณลักษณะ *การเรียงลำดับขาออก* ต้องถูกเปิดอยู่ในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
+ก่อนที่คุณจะสามารถใช้ฟังก์ชัน *วางตามผนัง - วางตามร้านค้า* คุณลักษณะ *การเรียงลำดับขาออก* ต้องถูกเปิดอยู่ในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *การเรียงลำดับขาออก*

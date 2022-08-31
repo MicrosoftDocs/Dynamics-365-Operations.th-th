@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852518"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306128"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>การปันส่วนสินค้าคงคลังสำหรับการมองเห็นสินค้าคงคลัง
 
@@ -63,12 +63,11 @@ ms.locfileid: "8852518"
 - แหล่งข้อมูลที่เกี่ยวข้องกับการปันส่วน การวัดทางกายภาพ และการวัดที่คํานวณได้ที่กําหนดล่วงหน้า
 - กลุ่มการปันส่วนที่สามารถปรับค่าได้สูงสุดแปดระดับ
 - ชุดของ Application Programming Interface (API) การปันส่วน:
-
-    - ปันส่วน
-    - ปันส่วนใหม่
-    - ยกเลิกการปันส่วน
-    - ใช้
-    - การสอบถาม
+  - ปันส่วน
+  - ปันส่วนใหม่
+  - ยกเลิกการปันส่วน
+  - ใช้
+  - การสอบถาม
 
 คุณลักษณะของกระบวนการตั้งค่าคอนฟิการปันส่วนมีสองขั้นตอนดังนี้
 
@@ -84,23 +83,26 @@ ms.locfileid: "8852518"
 ต่อไปนี้เป็นการวัดทางกายภาพเริ่มแรก
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 ต่อไปนี้เป็นการวัดที่คำนวณเริ่มแรก
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>เพิ่มการวัดทางกายภาพอื่นๆ ในการวัดที่คํานวณได้พร้อมปันส่วน
 
 เมื่อต้องการใช้การปันส่วน คุณต้องตั้งค่าการวัดที่คํานวณได้ซึ่งพร้อมใช้งานเพื่อปันส่วน (`@iv.@available_to_allocate`) ตัวอย่างเช่น คุณมีแหล่งข้อมูล `fno` และการวัด `onordered` แหล่งข้อมูล `pos` และการวัด `inbound` และคุณต้องการปันส่วนปริมาณคงคลังคงเหลือให้กับผลรวมของ `fno.onordered` และ `pos.inbound` ในกรณีนี้ `@iv.@available_to_allocate` ควรมี `pos.inbound` และ `fno.onordered` อยู่ในสูตร นี่คือตัวอย่าง:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> แหล่งข้อมูลคือ `@iv` คือแหล่งข้อมูลที่กําหนดล่วงหน้า และการวัดทางกายภาพที่กําหนดใน `@iv` โดยใช้ชื่อหน้า `@` เป็นการวัดที่กําหนดล่วงหน้า หน่วยวัดเหล่านี้เป็นการตั้งค่าคอนฟิกที่กําหนดล่วงหน้าของคุณลักษณะ ดังนั้นอย่าเปลี่ยนหรือลบการตั้งค่าคอนฟิกเหล่านั้น หรือคุณอาจประสบกับข้อผิดพลาดที่ไม่คาดคิดเมื่อใช้คุณลักษณะการปันส่วน
+>
+> คุณสามารถเพิ่มการวัดทางกายภาพใหม่ที่การวัดที่คํานวณได้ล่วงหน้า `@iv.@available_to_allocate` แต่คุณต้องไม่เปลี่ยนชื่อ
 
 ### <a name="change-the-allocation-group-name"></a>เปลี่ยนชื่อกลุ่มการปันส่วน
 
@@ -136,7 +138,7 @@ ms.locfileid: "8852518"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ ms.locfileid: "8852518"
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ ms.locfileid: "8852518"
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ ms.locfileid: "8852518"
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ ms.locfileid: "8852518"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ ms.locfileid: "8852518"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ API `Consume` สามารถใช้ปริมาณที่ปันส
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

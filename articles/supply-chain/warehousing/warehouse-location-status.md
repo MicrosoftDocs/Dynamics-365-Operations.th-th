@@ -2,7 +2,7 @@
 title: สถานะสถานที่คลังสินค้า
 description: บทความนี้แสดงภาพรวมของคุณลักษณะสถานะสถานที่ของคลังสินค้า
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220071"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336109"
 ---
 # <a name="warehouse-location-status"></a>สถานะสถานที่คลังสินค้า
 
@@ -40,9 +40,9 @@ Microsoft Dynamics 365 Supply Chain Management มีฟิลด์สถาน
     - **การเบิกสินค้า** – มีการดำเนินการธุรกรรมขาออกเทียบกับสถานที่ เนื่องจากมีรายการที่ว่างล่าสุด
     - **ที่จัดเก็บ** – มีการดำเนินการเฉพาะธุรกรรมขาออกเทียบกับสถานที่ เนื่องจากสถานที่ว่างเปล่าล่าสุด
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>เปิดคุณลักษณะสถานะสถานที่ของคลังสินค้า
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะสถานะสถานที่ของคลังสินค้า
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน (เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *สถานะสถานที่คลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *สถานะสถานที่คลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-warehouse-location-status"></a>ตั้งค่าสถานะของสถานที่ของคลังสินค้า
 

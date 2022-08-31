@@ -2,7 +2,7 @@
 title: โซนเวลาของสถานที่เพิ่มเติม
 description: บทความนี้แสดงภาพรวมของโซนเวลาของสถานที่ใหม่ที่มีการเพิ่มลงใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c20225cfb3c44fff955d0ad4e96c7fecf0ddf715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 819330e0f6e6cd419da441f919d68ff996b6475c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900664"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336529"
 ---
 # <a name="additional-location-zones"></a>โซนเวลาของสถานที่เพิ่มเติม
 
@@ -32,7 +32,7 @@ ms.locfileid: "8900664"
 
 ## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะโซนเวลาที่ตั้งเพิ่มเติม
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *โซนเวลาที่ตั้งเพิ่มเติม* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *โซนเวลาของสถานที่เพิ่มเติม* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="use-location-zones"></a>ใช้โซนเวลาสถานที่
 

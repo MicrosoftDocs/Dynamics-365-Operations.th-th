@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b4d0b09ea4bee58799a659217e2236fe74102949
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069256"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335449"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
 
@@ -29,7 +29,7 @@ ms.locfileid: "9069256"
 
 ## <a name="turn-on-the-quality-management-for-warehouse-processes-feature"></a>เปิดใช้งานคุณลักษณะการจัดการคุณภาพสำหรับกระบวนการคลังสินค้า
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *การจัดการคุณภาพสำหรับกระบวนการคลังสินค้า*

@@ -2,7 +2,7 @@
 title: การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
 description: บทความนี้จะอธิบายถึงวิธีที่การเพิ่มประสิทธิภาพของการวางแผนจะถูกค้นหาโดยผู้จัดจำหน่ายและ/หรือระยะเวลารอคอยสินค้าสำหรับแผนการใบสั่ง ตามราคาที่ดีที่สุดหรือระยะเวลารอคอยสินค้าที่พบในข้อตกลงทางการค้าของการซื้อ
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873766"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335239"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>การวางแผนหลักที่มีข้อตกลงทางการค้าของการซื้อ
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873766"
 
 บทความนี้จะอธิบายถึงวิธีที่การเพิ่มประสิทธิภาพของการวางแผนจะถูกค้นหาโดยผู้จัดจำหน่ายและ/หรือระยะเวลารอคอยสินค้าสำหรับแผนการใบสั่ง ตามราคาที่ดีที่สุดหรือระยะเวลารอคอยสินค้าที่พบในข้อตกลงทางการค้าของการซื้อทั้งหมดที่ระบุโดยผลิตภัณฑ์ที่กำหนด
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>เปิดข้อตกลงทางการค้าของการซื้อสำหรับคุณลักษณะการเพิ่มประสิทธิภาพการวางแผน
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>เปิดหรือปิดข้อตกลงทางการค้าของการซื้อสำหรับคุณลักษณะการเพิ่มประสิทธิภาพการวางแผน
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
-
-- **โมดูล:** *การวางแผนหลัก*
-- **ชื่อคุณลักษณะ:** *ข้อตกลงทางการค้าของการซื้อสำหรับการเพิ่มประสิทธิภาพการวางแผน*
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ข้อตกลงทางการค้าสำหรับการซื้อเพื่อการเพิ่มประสิทธิภาพการวางแผน* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>จัดเตรียมระบบของคุณเพื่อประเมินข้อตกลงทางการค้าของการซื้อในระหว่างการวางแผนหลัก
 

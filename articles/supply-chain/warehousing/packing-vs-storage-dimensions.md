@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220256"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334459"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ
 
@@ -37,7 +37,7 @@ ms.locfileid: "9220256"
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>เปิดคุณลักษณะมิติของผลิตภัณฑ์บรรจุภัณฑ์
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
 
 - **โมดูล:** *การจัดการคลังสินค้า*
 - **ชื่อคุณลักษณะ:** *มิติของผลิตภัณฑ์บรรจุภัณฑ์*

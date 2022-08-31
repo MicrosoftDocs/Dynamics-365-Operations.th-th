@@ -2,7 +2,7 @@
 title: ใบรับรองแหล่งกำเนิดสินค้า USMCA
 description: ลักษณะการทำงานนี้ช่วยให้คุณสามารถพิมพ์เอกสารใบรับรองแหล่งกำเนิดสินค้าที่จำเป็นสำหรับสหรัฐอเมริกา-เม็กซิโก-แคนาดา (USMCA)
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851375"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336559"
 ---
 # <a name="usmca-certification-of-origin"></a>ใบรับรองแหล่งกำเนิดสินค้า USMCA
 
@@ -33,12 +33,9 @@ ms.locfileid: "8851375"
 
 ทั้งนี้ขึ้นอยู่กับการเลือกการพิมพ์เอกสาร เอกสารสามารถกรอกข้อมูลจากระบบของคุณได้ คุณสามารถเปลี่ยนหรือเพิ่มข้อมูลลงในเอกสารที่พิมพ์โดยการส่งออกเอกสารที่พิมพ์ไปยังรูปแบบที่แก้ไขได้ เช่น Microsoft Word หลังจากส่งออกแล้ว คุณสามารถใช้การเปลี่ยนแปลงใด ๆ ที่จำเป็นก่อนที่จะทำการรายงานภาษี
 
-## <a name="turn-on-the-usmca-feature"></a>เปิดคุณลักษณะ USMCA
+## <a name="turn-the-usmca-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะ USMCA
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะ USMCA ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
-
-- **โมดูล:** *การจัดการการขนส่ง*
-- **ชื่อคุณลักษณะ:** *เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA*
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="document-content"></a>เนื้อหาของเอกสาร
 

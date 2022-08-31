@@ -2,7 +2,7 @@
 title: การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 description: บทความนี้มีข้อมูลเกี่ยวกับการจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก ฟังก์ชันนี้ทำให้ผู้จัดการคลังสินค้าและผู้บังคับบัญชาสร้างแผนภูมิปริมาณงานที่กำหนดเองซึ่งสามารถใช้เพื่อตรวจสอบความคืบหน้าของงานปัจจุบันและจำนวนเงินที่เหลืออยู่ ผู้จัดการคลังสินค้าสามารถสร้างหลายมุมมอง และตั้งค่าการรีเฟรชโดยอัตโนมัติได้ตามต้องการ
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851346"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334429"
 ---
 # <a name="outbound-workload-visualization"></a>การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 
@@ -29,7 +29,7 @@ ms.locfileid: "8851346"
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="set-up-outbound-workload-visualizations"></a>ตั้งค่าการจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
 

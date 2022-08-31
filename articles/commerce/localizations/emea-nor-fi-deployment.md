@@ -2,34 +2,32 @@
 title: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 description: บทความนี้จะให้คำแนะนําเกี่ยวกับวิธีการเปิดใช้งานฟังก์ชันเครื่องบันทึกเงินสดสําหรับการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สําหรับนอร์เวย์
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281029"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346003"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
 [!include[banner](../includes/banner.md)]
 
-บทความนี้จะให้คำแนะนําเกี่ยวกับวิธีการเปิดใช้งานฟังก์ชันเครื่องบันทึกเงินสดสําหรับการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สําหรับนอร์เวย์ การแปลเป็นภาษาท้องถิ่นประกอบด้วยส่วนขยายของส่วนประกอบของหลายส่วน ส่วนขยายเหล่านี้ช่วยให้คุณสามารถดำเนินการ เช่น พิมพ์ฟิลด์แบบกำหนดเองบนใบเสร็จ ลงทะเบียนเหตุการณ์การตรวจสอบเพิ่มเติม ธุรกรรมการขาย และธุรกรรมการเงินในการขายหน้าร้าน (POS) ลงชื่อธุรกรรมการขายทางดิจิทัล และพิมพ์รายงาน X และ Z ในรูปแบบท้องถิ่น หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการแปลเป็นภาษาท้องถิ่นของนอร์เวย์ โปรดดูที่ [ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์](./emea-nor-cash-registers.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่า Commerce สำหรับนอร์เวย์ ให้ดูที่ [การตั้งค่า Commerce สำหรับนอร์เวย์](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)
+> [!IMPORTANT]
+> คุณควรดําเนินการขั้นตอนที่อธิบายไว้ในบทความนี้ เฉพาะเมื่อคุณใช้ Microsoft Dynamics 365 Commerce เวอร์ชัน 10.0.29 หรือใหม่กว่าเท่านั้น ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้น คุณต้องใช้รุ่นก่อนหน้าของชุดการพัฒนาซอฟต์แวร์ Retail (SDK) บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์ (ดั้งเดิม)](./emea-nor-loc-deployment-guidelines.md) ถ้าคุณใช้ Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้น และย้ายไปที่ Commerce เวอร์ชัน 10.0.29 หรือใหม่กว่า คุณต้องปฏิบัติตามขั้นตอนใน [การย้ายจากฟังก์ชัน Commerce เดิมของนอร์เวย์](./emea-nor-fi-migration.md)
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับฟังก์ชันแปลนี้ได้ในขณะนี้ คุณต้องใช้ตัวอย่างการลงชื่อดิจิทัลสำหรับนอร์เวย์ในรุ่นก่อนหน้านี้ของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกบนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์ (ดั้งเดิม)](./emea-nor-loc-deployment-guidelines.md)
->
-> มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+บทความนี้จะให้คำแนะนําเกี่ยวกับวิธีการเปิดใช้งานฟังก์ชันเครื่องบันทึกเงินสด สําหรับการแปลเป็นภาษาท้องถิ่น Commerce สําหรับนอร์เวย์ การแปลเป็นภาษาท้องถิ่นประกอบด้วยส่วนขยายของส่วนประกอบของหลาย ที่ช่วยให้คุณสามารถดำเนินการ เช่น พิมพ์ฟิลด์แบบกำหนดเองบนใบเสร็จ ลงทะเบียนเหตุการณ์การตรวจสอบเพิ่มเติม ธุรกรรมการขาย และธุรกรรมการเงินในการขายหน้าร้าน (POS) ลงชื่อธุรกรรมการขายทางดิจิทัล และพิมพ์รายงาน X และ Z ในรูปแบบท้องถิ่น หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับการแปลเป็นภาษาท้องถิ่นของนอร์เวย์ โปรดดูที่ [ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์](./emea-nor-cash-registers.md) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่า Commerce สำหรับนอร์เวย์ ให้ดูที่ [การตั้งค่า Commerce สำหรับนอร์เวย์](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>ตั้งค่าการลงทะเบียนทางการเงินสำหรับนอร์เวย์
 
-ตัวอย่างการลงทะเบียนทางการเงินสำหรับนอร์เวย์ยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\SequentialSignatureNorway** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการลงทะเบียนทางการเงินสำหรับนอร์เวย์ ยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Commerce SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\SequentialSignatureNorway** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) [ตัวอย่าง](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ประกอบด้วยผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Commerce SDK ให้ดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจการอ้างอิงจาก GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md) และ [ตั้งค่าไปป์ไลน์การสร้างให้กับ SDK การจัดทำแพคเกจแบบอิสระ](../dev-itpro/build-pipeline.md)
 
 ปฏิบัติตามขั้นตอนการตั้งค่าการลงทะเบียนทางการเงินตามที่อธิบายไว้ใน [การตั้งค่าการรวมทางการเงินของช่องทาง Commerce](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ ms.locfileid: "9281029"
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงินจาก Commerce SDK:
 
     1. เปิดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
-    1. เปิดสาขาที่นำออกใช้ล่าสุด (ตัวอย่างเช่น **[รุ่น/9.34)](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**
+    1. เปิดสาขาที่นำออกใช้ล่าสุด
     1. เปิด **src \> FiscalIntegration \> SequentialSignatureNorway \> CommerceRuntime**
-    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml** (ตัวอย่างเช่น [ไฟล์ของรุ่น/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml))
-    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml** (ตัวอย่างเช่น [ไฟล์ของรุ่น/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml))
+    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการที่ เอกสารทางการเงินที่ **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml**
+    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml**
 
 1. ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ที่ใช้ร่วมกัน** บนแท็บ **ทั่วไป** ให้ตั้งค่าตัวเลือก **เปิดใช้งานการรวมทางการเงิน** เป็น **ใช่**
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การรวมทางการเงิน \> ตัวเชื่อมต่อทางการเงิน** และโหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่คุณดาวน์โหลดก่อนหน้านี้
@@ -99,11 +97,11 @@ ms.locfileid: "9281029"
 
 ### <a name="configure-channel-components"></a>ตั้งค่าคอนฟิกส่วนประกอบช่องทาง
 
-### <a name="development-environment"></a>สภาพแวดล้อมการพัฒนา
+#### <a name="development-environment"></a>สภาพแวดล้อมการพัฒนา
 
 ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อให้คุณสามารถทดสอบและขยายตัวอย่างได้
 
-1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
+1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
 1. เปิดโซลูชัน **SequentialSignatureNorway.sln** ภายใต้ **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway** และสร้าง
 1. ติดตั้งส่วนขยาย CRT:
 
@@ -126,7 +124,7 @@ ms.locfileid: "9281029"
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
+#### <a name="production-environment"></a>สภาพแวดล้อมการทำงานจริง
 
 ปฏิบัติตามขั้นตอนต่างๆ ใน [การตั้งค่าไปป์ไลน์การสร้างตัวอย่างการรวมทางการเงิน](fiscal-integration-sample-build-pipeline.md) เพื่อสร้างและปล่อย Cloud Scale Unit และแพคเกจที่ปรับใช้ได้แบบบริการตนเองในตัวอย่างการรวมทางการเงิน ไฟล์ YAML เทมเพลต **SequentialSignatureNorway build-pipeline.yaml** สามารถพบได้ในโฟลเดอร์ **Pipeline\\YAML_Files** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions)
 

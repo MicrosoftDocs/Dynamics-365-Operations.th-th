@@ -2,7 +2,7 @@
 title: รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 description: เรียนรู้วิธีสร้างรายงานการเปรียบเทียบการจัดเก็บราคาสินค้า และจากนั้นเรียกดูและ/หรือส่งออกผลลัพธ์
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846226"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334999"
 ---
 # <a name="compare-item-prices-storage-report"></a>รายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 
@@ -35,12 +35,9 @@ ms.locfileid: "8846226"
 
 รายงาน **การเปรียบเทียบการจัดเก็บราคาสินค้า** มีประโยชน์ในกรณีที่ผลลัพธ์มีหลายรายการ ตัวอย่างเช่น ผลลัพธ์จะประกอบด้วยหลายรายการ ถ้าคุณมีสินค้ามากกว่า 40,000 รายการที่มีราคาสินค้าที่ค้างอยู่ในรุ่นการคิดต้นทุน
 
-## <a name="enable-compare-item-prices-storage"></a>เปิดใช้งานการเปรียบเทียบการจัดเก็บราคาสินค้า
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการจัดเก็บข้อมูลการเปรียบเทียบราคาสินค้า
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งานได้ ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
-
-- **โมดูล** - การจัดการต้นทุน
-- **ชื่อคุณลักษณะ** - เปรียบเทียบการจัดเก็บราคาของสินค้า
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การจัดเก็บข้อมูลการเปรียบเทียบราคาสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>สร้างรายงานการเปรียบเทียบการจัดเก็บราคาสินค้า
 

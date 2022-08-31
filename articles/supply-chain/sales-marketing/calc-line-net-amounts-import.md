@@ -2,7 +2,7 @@
 title: คำนวณยอดเงินสุทธิต่อรายการอีกครั้งเมื่อนําเข้าใบสั่งขาย ใบเสนอราคา และการส่งคืน
 description: บทความนี้จะอธิบายว่าระบบจะคำนวณค่ายอดเงินสุทธิต่อรายการอีกครั้งอย่างไร เมื่อนําเข้าใบสั่งขาย ใบเสนอราคา และการส่งคืน และยังอธิบายวิธีการควบคุมลักษณะการทำงานใน Microsoft Dynamics 365 Supply Chain Management รุ่นต่างๆ ด้วย
 author: Henrikan
-ms.date: 06/08/2022
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ce34a6be7bc3d14e23bdd8769aa71dc035b983b3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220620"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335569"
 ---
 # <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>คำนวณยอดเงินสุทธิต่อรายการอีกครั้งเมื่อนําเข้าใบสั่งขาย ใบเสนอราคา และการส่งคืน
 
@@ -36,7 +36,7 @@ Supply Chain Management รุ่น 10.0.23 นำ [bugfix 604418](https://fix.
 
 ## <a name="control-calculations-of-line-net-amounts-in-versions-10029-and-later"></a>ควบคุมการคํานวณยอดเงินสุทธิต่อรายการในรุ่น 10.0.29 และรุ่นที่ใหม่กว่า
 
-Supply Chain Management 10.0.29 นําคุณลักษณะที่ชื่อ *คํานวณยอดเงินสุทธิต่อรายการเมื่อนําเข้า* มาใช้ คุณลักษณะนี้จะเพิ่มตัวเลือกที่มีชื่อว่า **คํานวณจํานวนเงินสุทธิต่อรายการ** ในหน้า **พารามิเตอร์บัญชีลูกหนี้** ตัวเลือกนี้ช่วยให้คุณสามารถเลือกระหว่างลักษณะการทำงานใหม่และลักษณะการทำงานเดิมเพื่อคํานวณยอดเงินสุทธิต่อรายการเมื่อนําเข้า
+Supply Chain Management เวอร์ชัน 10.0.29 นําคุณลักษณะที่ชื่อ *คํานวณยอดเงินสุทธิต่อรายการเมื่อนําเข้า* มาใช้ คุณลักษณะนี้จะเพิ่มตัวเลือกที่มีชื่อว่า **คํานวณจํานวนเงินสุทธิต่อรายการ** ในหน้า **พารามิเตอร์บัญชีลูกหนี้** ตัวเลือกนี้ช่วยให้คุณสามารถเลือกระหว่างลักษณะการทำงานใหม่และลักษณะการทำงานเดิมเพื่อคํานวณยอดเงินสุทธิต่อรายการเมื่อนําเข้า
 
 ### <a name="turn-the-calculate-line-net-amount-on-import-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะคํานวณยอดเงินสุทธิต่อรายการเมื่อนําเข้า
 

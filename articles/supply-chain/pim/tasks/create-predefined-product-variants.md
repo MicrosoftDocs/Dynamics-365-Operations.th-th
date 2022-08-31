@@ -2,7 +2,7 @@
 title: สร้างผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 description: 'กระบวนงานนี้จะแนะนำวิธีการสร้างผลิตภัณฑ์ย่อยสำหรับผลิตภัณฑ์หลัก โดยใช้ชุดของมิติของผลิตภัณฑ์ '
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103109"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335929"
 ---
 # <a name="predefined-product-variants"></a>ผลิตภัณฑ์ย่อยที่กำหนดไว้ล่วงหน้า
 
@@ -86,7 +86,7 @@ ms.locfileid: "8103109"
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการปรับปรุงหน้าคำแนะนําผลิตภัณฑ์ย่อย
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การปรับปรุงหน้าคำแนะนําผลิตภัณฑ์ย่อย* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การปรับปรุงหน้าคำแนะนำตัวแปร* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>ทำงานกับคำแนะนําผลิตภัณฑ์ย่อยที่ปรับปรุง
 

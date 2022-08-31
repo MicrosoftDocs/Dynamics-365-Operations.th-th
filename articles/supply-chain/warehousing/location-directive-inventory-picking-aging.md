@@ -2,7 +2,7 @@
 title: คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
 description: บทความนี้จะอธิบายถึงวิธีการใช้กลยุทธ์คำสั่งสถานที่แบบเข้าก่อนออกก่อน (FIFO) และแบบเข้าหลังออกก่อน (LIFO) ในระหว่างการเบิกสินค้า
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219486"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335629"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>คำสั่งสถานที่ของอายุการเบิกสินค้าคงคลัง
 
@@ -34,7 +34,7 @@ ms.locfileid: "9219486"
 
 เมื่อต้องการทำให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ในใบสั่งนี้:
 
-1. *สถานะที่ตั้งคลังสินค้า* (ณ รุ่น 10.0.29 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สถานะสถานที่คลังสินค้า](warehouse-location-status.md))
+1. *สถานะที่ตั้งคลังสินค้า* (เริ่มจากรุ่น 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สถานะสถานที่คลังสินค้า](warehouse-location-status.md))
 1. *คำสั่งสถานที่ของอายุหนี้การเบิกสินค้าคงคลัง*
 
 ## <a name="feature-requirements"></a>ข้อกำหนดของคุณลักษณะ

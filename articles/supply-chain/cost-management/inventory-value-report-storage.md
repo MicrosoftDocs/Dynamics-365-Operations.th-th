@@ -2,7 +2,7 @@
 title: รายงานมูลค่าสินค้าคงคลัง
 description: บทความนี้อธิบายวิธีการตั้งค่า สร้าง และใช้รายงานมูลค่าสินค้าคงคลัง รายงานเหล่านี้จะให้รายละเอียดเกี่ยวกับปริมาณและยอดเงินทางกายภาพและทางการเงินของสินค้าคงคลังของคุณ
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854571"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334939"
 ---
 # <a name="inventory-value-reports"></a>รายงานมูลค่าสินค้าคงคลัง
 
@@ -55,7 +55,7 @@ ms.locfileid: "8854571"
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการจัดเก็บรายงานมูลค่าสินค้าคงคลัง
 
-(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การจัดเก็บรายงานมูลค่าสินค้าคงคลัง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ที่เก็บข้อมูลรายงานมูลค่าสินค้าคงคลัง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>กําหนดการตั้งค่าคอนฟิกรายงานมูลค่าสินค้าคงคลัง
 

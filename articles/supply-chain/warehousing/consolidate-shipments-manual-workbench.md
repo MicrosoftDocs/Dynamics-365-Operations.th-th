@@ -2,7 +2,7 @@
 title: รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
 description: บทความนี้แสดงสถานการณ์จำลองที่ใบสั่งหลายใบจะถูกนำออกใช้ไปยังคลังสินค้า และจากนั้น ถูกรวมบัญชีลงในการจัดส่งในภายหลังโดยใช้เวิร์กเบนช์หน้ารวมบัญชีการจัดส่ง
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218632"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335809"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
 
@@ -34,14 +34,11 @@ ms.locfileid: "9218632"
 
 สถานการณ์จำลองที่อธิบายไว้ที่นี่จะถือว่าคุณได้เปิดใช้งานคุณลักษณะแล้ว ทำแบบฝึกหัดแล้วใน [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md) และสร้างนโยบายและเรกคอร์ดอื่นๆ แล้วซึ่งอธิบายไว้ที่นั่น ตรวจสอบให้แน่ใจว่าคุณทำแบบฝึกหัดเหล่านั้น ก่อนที่คุณจะดำเนินการต่อด้วยสถานการณ์นี้
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>เปิดคุณลักษณะการรวมบัญชีการจัดส่งด้วยตนเอง
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะการรวมบัญชีการจัดส่งด้วยตนเอง
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะ *การรวมบัญชีการจัดส่งด้วยตนเอง* คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้การตั้งค่า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะและเปิดใช้งาน ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** มีการแสดงรายการคุณลักษณะในวิธีต่อไปนี้:
+เมื่อต้องการใช้การรวมบัญชีการจัดส่งด้วยตนเอง ต้องมีการเปิดการรวมการจัดส่งด้วยตนเองสำหรับระบบของคุณ เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การรวมบัญชีการจัดส่งด้วยตนเอง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
-- **โมดูล:** *การจัดการคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *การรวมบัญชีการจัดส่งด้วยตนเอง*
-
-คุณต้องเปิดใช้งานคุณลักษณะ *รวมบัญชีการจัดส่ง* ก่อนที่คุณจะสามารถสร้างนโยบาย สำหรับข้อมูลเพิ่มเติม ดูที่ [กำหนดค่านโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
+คุณต้องเปิดคุณลักษณะ *รวมบัญชีการจัดส่ง* ก่อนที่คุณจะสามารถสร้างนโยบาย (ณ Supply Chain Management เวอร์ชัน 10.0.29 ถือเป็นคุณลักษณะบังคับ และไม่สามารถปิดได้) สำหรับข้อมูลเพิ่มเติม ดูที่ [กำหนดค่านโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>สร้างใบสั่งขายสำหรับสถานการณ์จำลองนี้
 

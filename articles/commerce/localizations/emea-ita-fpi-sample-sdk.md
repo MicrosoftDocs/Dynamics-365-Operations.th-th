@@ -2,25 +2,29 @@
 title: แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)
 description: บทความนี้แสดงแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลีจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9e951c1a1ee5c967d2bd67941ff3d19c62b59ba6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279551"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336753"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-บทความนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลีจากชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีกของ Microsoft Dynamics 365 Commerce บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี](emea-ita-fpi-sample.md) 
+> [!IMPORTANT]
+> คุณควรปฏิบัติตามหลักเกณฑ์ในบทความนี้ เฉพาะเมื่อคุณใช้ Microsoft Dynamics 365 Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้นเท่านั้น ณ Commerce เวอร์ชัน 10.0.29 ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี มีอยู่ในชุดการพัฒนาซอฟต์แวร์ Commerce (SDK) สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกส่วนประกอบช่องทาง](./emea-ita-fpi-sample.md#configure-channel-components)
+
+บทความนี้นําเสนอแนวทางเกี่ยวกับการปรับใช้ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี จาก Dynamics 365 Commerce Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวอย่างการรวมข้อมูลทางการเงิน ดูที่ [ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี](emea-ita-fpi-sample.md) 
 
 ตัวอย่างการรวมทางการเงินของอิตาลีเป็นส่วนหนึ่งของ Retail SDK สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการติดตั้ง และใช้ SDK ดูที่ [สถาปัตยกรรมของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก](../dev-itpro/retail-sdk/retail-sdk-overview.md) ตัวอย่างนี้ประกอบด้วยส่วนขยายของ Commerce Runtime (CRT) และสถานีฮาร์ดแวร์ เมื่อต้องการเรียกใช้ตัวอย่างนี้ คุณต้องแก้ไขและสร้าง CRT และโครงการสถานีฮาร์ดแวร์ เราขอแนะนำให้คุณใช้ Retail SDK ที่ไม่ได้แก้ไขเพื่อเปลี่ยนแปลงที่อธิบายไว้ในบทความนี้ เราขอแนะนำให้ใช้ระบบควบคุมต้นทาง เช่น Azure DevOps โดยที่ยังไม่มีการเปลี่ยนแปลงไฟล์ใดๆ
 

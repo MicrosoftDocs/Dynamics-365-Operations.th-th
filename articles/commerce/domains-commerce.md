@@ -2,7 +2,7 @@
 title: โดเมนใน Dynamics 365 Commerce
 description: บทความนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-ms.date: 05/10/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
 ms.search.industry: retail
 ms.search.form: ''
-ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288461"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336759"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -109,6 +109,10 @@ ms.locfileid: "9288461"
 หากต้องการตั้งค่าโดเมนแบบกำหนดเองโดยใช้บริการประตูหน้าหรือ CDN คุณมีสองตัวเลือกดังต่อไปนี้
 
 - ตั้งค่าบริการประตูหน้า เช่น Azure Front Door เพื่อจัดการกับการรับส่งข้อมูลฟร้อนเอนด์และเชื่อมต่อกับสภาพแวดล้อม Commerce ของคุณ ซึ่งช่วยให้สามารถควบคุมการจัดการโดเมนและใบรับรองและนโยบายความปลอดภัยแบบละเอียดมากขึ้น
+
+> [!NOTE]
+> ถ้าคุณใช้บริการประตูหน้าหรือ CDN ภายนอก โปรดตรวจสอบให้แน่ใจว่าการร้องขอมีการเชื่อมโยงไปที่แพลตฟอร์ม Commerce ด้วยชื่อโฮสต์ Commerce-provided แต่ใช้หัวข้อ X-Forwarded-Host (XFH) \<custom-domain\> ตัวอย่างเช่น ถ้าปลายทาง Commerce ของคุณคือ `xyz.dynamics365commerce.ms` และโดเมนที่กำหนดเองคือ `www.fabrikam.com` หัวข้อโฮสต์ของการร้องขอที่ส่งต่อควรเป็น `xyz.dynamics365commerce.ms` และหัวข้อ XFH ควรเป็น `www.fabrikam.com`
+
 - ใช้อินสแตนซ์ Azure Front Door ที่ให้มากับ Commerce การดำเนินการนี้จำเป็นต้องมีการดำเนินร่วมกับทีม Dynamics 365 Commerce สำหรับการตรวจสอบโดเมนและการขอรับใบรับรอง SSL สำหรับโดเมนการทำงานจริงของคุณ
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตั้งค่าบริการ CDN โดยตรง ให้ดูที่ [การเพิ่มการสนับสนุนสำหรับเครือข่ายการจัดส่งเนื้อหา (CDN)](add-cdn-support.md)
@@ -141,14 +145,18 @@ ms.locfileid: "9288461"
 
 ## <a name="apex-domains"></a>โดเมน Apex
 
-อินสแตนซ์ Azure Front Door ที่ให้มากับ Commerce ไม่สนับสนุนโดเมน apex (โดเมนรากที่ไม่มีโดเมนย่อย) โดเมน Apex ต้องมีที่อยู่ IP เพื่อแก้ไข และมีอินสแตนซ์ Commerce Azure Front Door ที่มีปลายทางเสมือนเท่านั้น เมื่อต้องการใช้โดเมนแบบ apex คุณมีสองตัวเลือกดังต่อไปนี้:
+อินสแตนซ์ Azure Front Door ที่ให้มากับ Commerce ไม่สนับสนุนโดเมน apex (โดเมนรากที่ไม่มีโดเมนย่อย) โดเมน Apex ต้องมีที่อยู่ IP เพื่อแก้ไข และมีอินสแตนซ์ Commerce Azure Front Door ที่มีปลายทางเสมือนเท่านั้น เมื่อต้องการใช้โดเมนแบบ apex คุณมีตัวเลือกดังต่อไปนี้:
 
 - **ตัวเลือก 1** - ใช้ตัวให้บริการ DNS ของคุณเพื่อเปลี่ยนเส้นทางโดเมน apex กับโดเมน "www" ตัวอย่างเช่น fabrikam.com เปลี่ยนเส้นทางไปยัง `www.fabrikam.com` โดยที่ `www.fabrikam.com` เป็นเรกคอร์ด CNAME ซึ่งชี้ไปยังอินสแตนซ์ Azure Front Door ที่โฮสต์บน Commerce
 
-- **ตัวเลือก 2** - ตั้งค่าอินสแตนซ์ CDN/ประตูหน้าด้วยตัวคุณเองเพื่อโฮสต์โดเมน apex
+- **ตัวเลือกที่ 2** - ถ้าผู้ให้บริการ DNS ของคุณสนับสนุนเรกคอร์ด ALIAS คุณสามารถชี้โดเมน apex ไปยังปลายทางของประตูหน้า ซึ่งช่วยให้มั่นใจว่าการเปลี่ยนแปลง IP ที่ปลายทางของประตูหน้าสะท้อนอยู่
+  
+- **ตัวเลือกที่ 3** - ถ้าผู้ให้บริการ DNS ของคุณไม่สนับสนุนเรกคอร์ด ALIAS คุณต้องตั้งค่าอินสแตนซ์ CDN หรือประตูหน้าด้วยตัวเองเพื่อโฮสต์โดเมน APEX
 
 > [!NOTE]
 > หากคุณใช้ Azure Front Door คุณต้องตั้งค่า Azure DNS ในการสมัครใช้งานเดียวกัน โดเมน apex ที่โฮสต์บน Azure DNS สามารถชี้ไปที่ Azure Front Door ของคุณเป็นเรกคอร์ดนามแฝง นี่เป็นวิธีแก้ปัญหาชั่วคราวเท่านั้น เพราะโดเมน apex ต้องชี้ไปที่ที่อยู่ IP เสมอ
+  
+ถ้าคุณมีการสอบถามเกี่ยวกับโดเมน Apex โปรดติดต่อ [ฝ่ายสนับสนุนของ Microsoft](https://support.microsoft.com/)
 
   ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

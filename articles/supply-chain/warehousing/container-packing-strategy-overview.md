@@ -2,7 +2,7 @@
 title: กลยุทธ์การบรรจุคอนเทนเนอร์
 description: บทความนี้อธิบายความแตกต่างระหว่างกลยุทธ์การบรรจุคอนเทนเนอร์และให้ตัวอย่าง
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862379"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335779"
 ---
 # <a name="container-packing-strategies"></a>กลยุทธ์การบรรจุคอนเทนเนอร์
 
@@ -77,7 +77,7 @@ ms.locfileid: "8862379"
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>เปิดคุณลักษณะรวมบัญชีการจัดส่งในระบบของคุณ
 
-สถานการณ์นี้ใช้คุณลักษณะ *รวมบัญชีการจัดส่ง* ถ้าคุณลักษณะนั้นไม่พร้อมใช้งานในระบบของคุณอยู่แล้ว คุณต้องเปิดคุณลักษณะนี้โดยใช้ [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+สถานการณ์นี้ใช้คุณลักษณะ *รวมบัญชีการจัดส่ง* เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *รวมบัญชีการจัดส่ง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 #### <a name="make-demo-data-available"></a>ทำให้ข้อมูลสาธิตพร้อมใช้งาน
 

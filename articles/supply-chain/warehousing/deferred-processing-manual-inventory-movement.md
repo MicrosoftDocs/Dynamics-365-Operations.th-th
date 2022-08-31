@@ -2,7 +2,7 @@
 title: การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี
 description: บทความนี้อธิบายวิธีการใช้การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชีใน Microsoft Dynamics 365 Supply Chain Management
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219822"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336409"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>การประมวลผลความเคลื่อนไหวของสินค้าคงคลังด้วยตนเองที่รอการตัดบัญชี
 
@@ -32,10 +32,10 @@ ms.locfileid: "9219822"
 
 เมื่อต้องการให้คุณลักษณะนี้พร้อมใช้งาน ให้เปิดใช้งานคุณลักษณะต่อไปนี้ใน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) คุณต้องเปิดในใบสั่งนี้:
 
-1. *การบล็อคงานทั่วทั้งองค์กร*<br>(ณ เวอร์ชัน Supply Chain Management 10.0.21 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
-1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ ดังนั้น ระบบจึงเปิดอยู่ตามค่าเริ่มต้นจึงไม่สามารถปิดได้อีก)
-1. *การดำเนินการวางที่รอการตัดบัญชี*
-1. *การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง*<br>(ณ เวอร์ชัน Supply Chain Management 10.0.25 คุณลักษณะนี้ถือเป็นคุณสมบัติบังคับ ดังนั้นจึงเปิดตามค่าเริ่มต้นและไม่สามารถปิดได้อีก)
+1. *การบล็อคงานทั่วทั้งองค์กร*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+1. *การดำเนินการวางที่รอการตัดบัญชี*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+1. *การประมวลผลที่เลื่อนออกไปของการดำเนินการเคลื่อนย้ายสินค้าคงคลังด้วยตนเอง*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
 
 ## <a name="configure-the-work-processing-policies"></a>ตั้งค่าคอนฟิกนโยบายการประมวลผลงาน
 

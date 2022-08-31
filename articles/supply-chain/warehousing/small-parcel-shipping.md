@@ -2,7 +2,7 @@
 title: การจัดส่งพัสดุขนาดเล็ก
 description: บทความนี้แสดงข้อมูลทั่วไปเกี่ยวกับคุณลักษณะการจัดส่งพัสดุขนาดเล็ก คุณลักษณะนี้ช่วยให้ Microsoft Dynamics 365 Supply Chain Management สามารถส่งรายละเอียดเกี่ยวกับคอนเทนเนอร์ที่บรรจุให้บริษัทขนส่ง แล้วได้รับป้ายชื่อการจัดส่ง อัตราการจัดส่ง และหมายเลขการติดตามย้อนกลับจากบริษัทขนส่งนั้น
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219732"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336169"
 ---
 # <a name="small-parcel-shipping"></a>การจัดส่งพัสดุขนาดเล็ก
 
@@ -34,12 +34,9 @@ ms.locfileid: "9219732"
 
 ก่อนที่คุณจะสามารถเริ่มใช้ฟังก์ชัน SPS ได้ คุณต้องเปิดคุณลักษณะ SPS ในการจัดการคุณลักษณะ เพิ่มกลไกจัดการอัตราของคุณ และตั้งค่าโมดูล **การจัดการการขนส่ง** และ **การจัดการคลังสินค้า** เพื่อสนับสนุนคุณลักษณะนี้
 
-### <a name="turn-on-the-sps-feature"></a>เปิดคุณลักษณะ SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะ SPS
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะ SPS คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งาน หากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
-
-- **โมดูล:** *การจัดการการขนส่ง*
-- **ชื่อคุณลักษณะ:** *การจัดส่งพัสดุขนาดเล็ก*
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *การจัดส่งพัสดุขนาดเล็ก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="deploy-and-set-up-rate-engines"></a>ปรับใช้และตั้งค่ากลไกจัดการอัตรา
 

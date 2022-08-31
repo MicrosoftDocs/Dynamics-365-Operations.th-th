@@ -2,7 +2,7 @@
 title: การบล็อคสินค้าคงคลัง
 description: บทความนี้แสดงภาพรวมของการบล็อคสินค้าคงคลัง ซึ่งเป็นส่วนหนึ่งของกระบวนการตรวจสอบคุณภาพใน Supply Chain Management คุณสามารถใช้การบล็อคสินค้าคงคลังเพื่อป้องกันไม่ให้สินค้ามีการประมวลผลหรือใช้
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857821"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334699"
 ---
 # <a name="inventory-blocking"></a>การบล็อคสินค้าคงคลัง
 
@@ -96,11 +96,11 @@ ms.locfileid: "8857821"
 
 หมายเหตุความแตกต่างในสถานะธุรกรรมและมิติระหว่างสองกรณี ด้วยเหตุนี้ จึงขอแนะนาให้เปิดใช้งานตัวเลือก **สำรองสินค้าที่สั่ง**
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>คุณลักษณะปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>ปิดใช้งานใบเสร็จที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก
 
 เพื่อลดขั้นตอนธุรกรรมสินค้าคงคลังในกรณีของใบสั่งตรวจสอบคุณภาพที่ตัวอย่างสินค้าคงคลังถูกบล็อกเนื่องจากผลที่ตามมาของสถานะสินค้าคงคลัง ระบบจะมีคุณลักษณะที่ปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพดังกล่าว เนื่องจากการรับสินค้าที่คาดไว้ถูกบล็อกโดยการบล็อกสถานะสินค้าคงคลังทันที จึงไม่มีการลดปริมาณคงคลังคงเหลือเนื่องจากการเปลี่ยนแปลงนี้
 
-โดยค่าเริ่มต้น คุณลักษณะนี้จะถูกปิดไว้ ผู้ดูแลระบบสามารถเปิดหรือปิดได้โดยค้นหาคุณลักษณะ *ปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดใช้งานฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ปิดใช้งานการรับสินค้าที่คาดไว้จากใบสั่งตรวจสอบคุณภาพที่มีตัวอย่างสินค้าคงคลังที่ถูกบล็อก* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 

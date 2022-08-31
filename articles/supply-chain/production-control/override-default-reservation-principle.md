@@ -2,7 +2,7 @@
 title: แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 description: บทความนี้อธิบายวิธีการตั้งค่าหลักการจองสินค้าเริ่มต้นให้กับกลุ่มแบบจำลองสินค้าแต่ละกลุ่ม เพื่อให้สามารถใช้หลักการจองสินค้าที่แตกต่างกันได้โดยอัตโนมัติกับสินค้าแต่ละรายการ ที่เป็นส่วนหนึ่งของรายการวัสดุและส่วนประกอบสำหรับการผลิต (BOM) หรือสูตรใบสั่งชุดงาน
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907245"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334609"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>แทนที่หลักการจองเริ่มต้นของวัสดุในการผลิต
 
@@ -32,7 +32,7 @@ ms.locfileid: "8907245"
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะแทนที่การจองการผลิตเริ่มต้น
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *แทนที่การจองการผลิตเริ่มต้น* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *แทนที่การสำรองการผลิตเริ่มต้น* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>การกําหนดนโยบายการจองการผลิตให้กับกลุ่มแบบจำลองสินค้า
 

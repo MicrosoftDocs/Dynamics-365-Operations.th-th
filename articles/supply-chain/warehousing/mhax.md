@@ -2,7 +2,7 @@
 title: อินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX)
 description: บทความนี้จะอธิบายวิธีการตั้งค่าอินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX) เพื่อให้คุณสามารถเชื่อมต่อกับระบบการจัดการวัสดุทางกายภาพภายนอก (MH) ได้
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068373"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334369"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>อินเทอร์เฟสเครื่องมือจัดการวัสดุ (MHAX)
 
@@ -41,12 +41,13 @@ ms.locfileid: "9068373"
 
 ก่อนที่คุณจะสามารถใช้คุณลักษณะ MHAX ได้ คุณต้องเปิดคุณลักษณะและคีย์การตั้งค่าคอนฟิกของคุณสมบัตินั้นก่อน
 
-1. ไปที่ **การดูแลระบบ \> พื้นที่ทำงาน \> การจัดการคุณลักษณะ**
-2. ในพื้นที่ทำงาน  **[การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** เปิดคุณลักษณะที่ชื่อ *อินเทอร์เฟสเครื่องมือจัดการวัสดุ*
-3. วางระบบของคุณให้เข้าสู่โหมดการบำรุงรักษา ตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
-4. ไปที่ **การจัดการระบบ \> การตั้งค่า \> การตั้งค่าคอนฟิกลิขสิทธิ์**
-5. ขยาย **การค้า \> การจัดการคลังสินค้าและการขนส่ง** แล้วเลือกกล่องกาเครื่องหมาย **อินเทอร์เฟสเครื่องมือจัดการวัสดุ**
-6. ปิดโหมดการบำรุงรักษา ตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. หากคุณกำลังเรียกใช้ Supply Chain Management เวอร์ชัน 10.0.28 หรือรุ่นก่อนหน้า ให้ทำขั้นตอนต่อไปนี้:
+    1. ไปที่ **การดูแลระบบ \> พื้นที่ทำงาน \> การจัดการคุณลักษณะ**
+    1. ในพื้นที่ทำงาน  **[การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** เปิดคุณลักษณะที่ชื่อ *อินเทอร์เฟสเครื่องมือจัดการวัสดุ* (เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+1. วางระบบของคุณให้เข้าสู่โหมดการบำรุงรักษา ตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. ไปที่ **การจัดการระบบ \> การตั้งค่า \> การตั้งค่าคอนฟิกลิขสิทธิ์**
+1. ขยาย **การค้า \> การจัดการคลังสินค้าและการขนส่ง** แล้วเลือกกล่องกาเครื่องหมาย **อินเทอร์เฟสเครื่องมือจัดการวัสดุ**
+1. ปิดโหมดการบำรุงรักษา ตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 
 ## <a name="set-mhax-parameters"></a>ตั้งค่าพารามิเตอร์ MHAX
 

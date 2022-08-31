@@ -2,19 +2,19 @@
 title: ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์
 description: บทความนี้แสดงภาพรวมของฟังก์ชันเครื่องบันทึกเงินสดที่พร้อมใช้งานสำหรับใน Microsoft Dynamics 365 Commerce และนําเสนอแนวทางเกี่ยวกับการตั้งค่าฟังก์ชัน
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 42eda805646dbb30b40528254a3137102e3075e4
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292748"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346030"
 ---
 # <a name="cash-register-functionality-for-norway"></a>ฟังก์ชันเครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
@@ -116,6 +116,13 @@ ms.locfileid: "9292748"
 - ให้ตั้งค่าฟิลด์รหัส **รหัส POS** เป็น **DE** (นอร์เวย์) ในโปรไฟล์ฟังก์ชัน ISO ทุกร้านที่ตั้งอยู่ในนอร์เวย์
 
 คุณต้องระบุการตั้งค่าต่อไปนี้สำหรับนอร์เวย์
+
+### <a name="enable-features-for-norway"></a>เปิดใช้งานคุณลักษณะสำหรับนอร์เวย์
+
+คุณต้องเปิดใช้งานคุณลักษณะต่อไปนี้ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** ของ Commerce headquarters:
+
+- (นอร์เวย์) เปิดใช้งานเหตุการณ์การตรวจสอบเพิ่มเติมใน POS
+- (นอร์เวย์) เปิดใช้งานข้อมูลเพิ่มเติมในใบแจ้งยอดสิ้นวันใน POS
 
 ### <a name="set-up-the-legal-entity"></a>ตั้งค่านิติบุคคล
 

@@ -2,7 +2,7 @@
 title: รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
 description: บทความนี้อธิบายวิธีการที่คุณสามารถรวม Microsoft Dynamics 365 Supply Chain Management กับระบบการดำเนินการผลิตของบุคคลที่สาม (MES)
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068045"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336229"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>รวมกับระบบการดำเนินการผลิตของบุคคลที่สาม
 
@@ -45,9 +45,7 @@ ms.locfileid: "9068045"
     1. บนหน้า **การตั้งค่าคอนฟิกลิขสิทธิ์** ให้เลือกกล่องกาเครื่องหมาย **เวลาและการเข้างาน**
     1. ปิดโหมดการบำรุงรักษาตามที่อธิบายไว้ใน [โหมดการบำรุงรักษา](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. ไปที่ **การดูแลระบบ \> พื้นที่ทำงาน \> การจัดการคุณลักษณะ**
-1. เปิดคุณลักษณะที่แสดงไว้ในลักษณะต่อไปนี้ (ดูเพิ่มเติม [ภาพรวมการจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **โมดูล:** *การควบคุมการผลิต*
-    - **ชื่อคุณลักษณะ:** *การรวมระบบการดำเนินการผลิต*
+1. ใช้พื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อเปิดคุณลักษณะ *การรวมกับระบบการดำเนินการผลิต* (เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น)
 
 ## <a name="processes-available-for-mes-integration"></a>กระบวนการที่พร้อมใช้งานเพื่อการรวม MES
 

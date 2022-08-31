@@ -2,27 +2,28 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับออสเตรียใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287577"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313813"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับออสเตรียใน Microsoft Dynamics 365 Commerce
 
-เพื่อตอบสนองความต้องการทางการเงินท้องถิ่นของเครื่องบันทึกเงินสดในออสเตรีย ฟังก์ชัน Dynamics 365 Retail ของออสเตรียรวมถึงการรวมตัวอย่างของการขายหน้าร้าน (POS) กับบริการลงทะเบียนทางการเงินภายนอก ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) โดยยึดตามโซลูชัน [EFR (ทะเบียนทางการเงินทางอิเล็กทรอนิกส์)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) จาก [EFSTA](https://www.efsta.eu/at/) และเปิดใช้งานการสื่อสารกับบริการ EFR ผ่านทางโปรโทคอล HTTPS บริการ EFR ควรโฮสต์ในสถานีฮาร์ดแวร์ของ Retail หรือเครื่องแยกต่างหากที่สามารถเชื่อมต่อได้จากสถานีฮาร์ดแวร์ ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับและเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก
+เพื่อตอบสนองความต้องการทางการเงินท้องถิ่นของเครื่องบันทึกเงินสดในออสเตรีย ฟังก์ชัน Dynamics 365 Retail ของออสเตรียรวมถึงการรวมตัวอย่างของการขายหน้าร้าน (POS) กับบริการลงทะเบียนทางการเงินภายนอก ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) โดยยึดตามโซลูชัน [EFR (ทะเบียนทางการเงินทางอิเล็กทรอนิกส์)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) จาก [EFSTA](https://www.efsta.eu/at/) และเปิดใช้งานการสื่อสารกับบริการ EFR ผ่านทางโปรโทคอล HTTPS บริการ EFR ควรโฮสต์ในสถานีฮาร์ดแวร์ของ Retail หรือเครื่องแยกต่างหากที่สามารถเชื่อมต่อได้จากสถานีฮาร์ดแวร์ ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับ และเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของ Commerce
 
 Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟต์แวร์ หรือเอกสารใดๆ จาก EFSTA หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานโซลูชัน EFR และดําเนินงาน ให้ติดต่อ [EFSTA](https://www.efsta.eu/at/kontakt)
 
@@ -102,6 +103,13 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 - ในโปรไฟล์ฟังก์ชัน POS ทุกร้านที่ตั้งอยู่ในออสเตรีย ให้ตั้งค่าฟิลด์รหัส **รหัส ISO** เป็น **DE** (ออสเตรีย)
 
 คุณต้องระบุการตั้งค่าต่อไปนี้สำหรับออสเตรีย โปรดทราบว่าคุณต้องเรียกใช้งานการกระจายที่เหมาะสมหลังจากที่คุณเสร็จสิ้นการตั้งค่า
+
+### <a name="enable-features-for-austria"></a>เปิดใช้งานคุณลักษณะสำหรับออสเตรีย
+
+คุณต้องเปิดใช้งานคุณลักษณะต่อไปนี้ในพื้นที่ทำงาน **การจัดการคุณลักษณะ**
+
+- (ออสเตรีย) เปิดใช้งานเหตุการณ์การตรวจสอบเพิ่มเติมใน POS
+- (ออสเตรีย) เปิดใช้งานข้อมูลเพิ่มเติมในใบแจ้งยอดสิ้นวันใน POS
 
 ### <a name="set-up-vat-per-austrian-requirements"></a>การตั้งค่า VAT ต่อข้อกำหนดของออสเตรีย
 
@@ -204,10 +212,10 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>ตั้งค่าการรวมทางการเงินสำหรับออสเตรีย
 
-ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรียยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรียยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Commerce SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) [ตัวอย่าง](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ประกอบด้วยตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Commerce SDK ให้ดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจการอ้างอิงจาก GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md) และ [ตั้งค่าไปป์ไลน์การสร้างให้กับ SDK การจัดทำแพคเกจแบบอิสระ](../dev-itpro/build-pipeline.md)
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) รุ่นก่อนหน้านี้ หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md) มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรีย มีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้น คุณต้องใช้รุ่นก่อนหน้าของ Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md)
 
 ปฏิบัติตามขั้นตอนการตั้งค่าการรวมทางการเงินตามที่อธิบายไว้ใน [การตั้งค่าการรวมทางการเงินของช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -223,18 +231,20 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
     1. เปิดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
-    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ (ตัวอย่างเช่น **[รุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**)
+    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ
     1. เปิด **src \> FiscalIntegration \> Efr**
-    1. เปิด **Configurations \> DocumentProviders** และดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงิน **DocumentProviderFiscalEFRSampleAustria.xml** และ **DocumentProviderNonFiscalEFRSampleAustria.xml** (ตัวอย่างเช่น [ที่ตั้งของไฟล์ในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders))
-    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **Configurations \> Connectors \> ConnectorEFRSample.xml** (ตัวอย่างเช่น [ไฟล์สำหรับรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml))
+    1. เปิด **Configurations \> DocumentProviders** และดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงิน: 
 
-    > [!WARNING]
-    > เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS ไฟล์การตั้งค่าคอนฟิกของตัวอย่างการรวมทางการเงินนี้อยู่ในโฟลเดอร์ต่อไปนี้ของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS:
+        - DocumentProviderFiscalAFRSampleAustria.xml
+        - DocumentProviderNonFiscalEFRSampleAustria.xml
+
+    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **Configurations \> Connectors \> ConnectorEFRSample.xml**
+
+    > [!NOTE]
+    > ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS ไฟล์การตั้งค่าคอนฟิกของตัวอย่างการรวมทางการเงินนี้อยู่ในโฟลเดอร์ต่อไปนี้ของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS:
     >
     > - **ไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงิน:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration
     > - **ไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงิน:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration
-    > 
-    > มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
 
 1. ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ที่ใช้ร่วมกันของ Commerce** บนแท็บ **ทั่วไป** ให้ตั้งค่าตัวเลือก **เปิดใช้งานการรวมทางการเงิน** เป็น **ใช่**
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การรวมทางการเงิน \> ผู้ให้บริการเอกสารทางการเงิน** และโหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่คุณดาวน์โหลดก่อนหน้านี้
@@ -244,7 +254,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 1. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> กลุ่มตัวเชื่อมต่อทางการเงิน** สร้างสองกลุ่มตัวเชื่อมต่อทางการเงินใหม่ หนึ่งกลุ่มสำหรับแต่ละโปรไฟล์ฟังก์ชันของตัวเชื่อมต่อที่คุณสร้างไว้ก่อนหน้านี้
 1. ไปที่ **การขายปลีกและการพาณิชย์ \> การตั้งค่าช่องทางการขาย \> การรวมทางการเงิน \> กระบวนการลงทะเบียนทางการเงิน** สร้างกระบวนการลงทะเบียนทางการเงินใหม่และสองขั้นตอนกระบวนการลงทะเบียนทางการเงิน และเลือกกลุ่มตัวเชื่อมต่อทางการเงินที่คุณสร้างก่อนหน้านี้
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> โพรไฟล์POS \> โพรไฟล์ฟังก์ชัน** เลือกโปรไฟล์ฟังก์ชันที่เชื่อมโยงกับร้านค้าที่ควรมีการเรียกใช้งานกระบวนการลงทะเบียน บน FastTab **กระบวนการลงทะเบียนทางการเงิน** ให้เลือกกระบวนการลงทะเบียนทางการเงินที่คุณสร้างไว้ก่อนหน้านี้ เมื่อต้องการเปิดใช้งานการลงทะเบียนเหตุการณ์ที่ไม่ใช่ทางการเงินบน POS บน FastTab **ฟังก์ชัน** ภายใต้ **POS** ให้ตั้งค่าตัวเลือก **การตรวจสอบ** เป็น **ใช่**
-1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> โพรไฟล์POS \> โปรไฟล์ฮาร์ดแวร์** เลือกโปรไฟล์ฮาร์ดแวร์ที่เชื่อมโยงกับสถานีฮาร์ดแวร์ที่เครื่องพิมพ์ทางการเงินจะเชื่อมต่อด้วย บน FastTab **อุปกรณ์ต่อพ่วงทางการเงิน** ให้เลือกโปรไฟล์ทางเทคนิคของตัวเชื่อมต่อที่คุณสร้างก่อนหน้านี้
+1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การตั้งค่า POS \> โพรไฟล์POS \> โปรไฟล์ฮาร์ดแวร์** เลือกโปรไฟล์ฮาร์ดแวร์ที่เชื่อมโยงกับสถานีฮาร์ดแวร์ที่บริการลงทะเบียนทางการเงินจะเชื่อมต่อด้วย บน FastTab **อุปกรณ์ต่อพ่วงทางการเงิน** ให้เลือกโปรไฟล์ทางเทคนิคของตัวเชื่อมต่อที่คุณสร้างก่อนหน้านี้
 1. เปิดกำหนดการจัดจำหน่าย (**การขายปลีกและการค้า \> การขายปลีกและการค้าไอที \> กำหนดการจัดจำหน่าย**) และเลือกงาน **1070** และ **1090** เพื่อโอนย้ายข้อมูลไปยังฐานข้อมูลช่องทาง
 
 #### <a name="default-data-mapping"></a>การแมปข้อมูลเริ่มต้น
@@ -269,16 +279,15 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="configure-channel-components"></a>ตั้งค่าคอนฟิกส่วนประกอบช่องทาง
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md)
->
-> มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> - ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรีย มีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md)
+> - ตัวอย่าง Commerce ที่มีการปรับใช้ในสภาพแวดล้อมของคุณ ไม่ได้รับการอัปเดตโดยอัตโนมัติเมื่อคุณใช้การอัปเดตบริการหรือคุณภาพกับส่วนประกอบของ Commerce คุณต้องอัปเดตตัวอย่างที่ต้องใช้ด้วยตนเอง
 
 #### <a name="set-up-the-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนา
 
 หากต้องการตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อทดสอบและขยายตัวอย่าง ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
+1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
 1. เปิดโซลูชัน EFR ที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln** แล้วสร้างโซลูชันนี้
 1. ติดตั้งส่วนขยาย CRT:
 
@@ -330,10 +339,10 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="design-of-extensions"></a>การออกแบบของส่วนขยาย
 
-ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรียยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรียยึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Commerce SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\Efr** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Commerce SDK ให้ดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจการอ้างอิงจาก GitHub NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างให้กับ SDK การจัดทำแพคเกจแบบอิสระ](../dev-itpro/build-pipeline.md)
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md) มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> ตัวอย่างการรวมบริการลงทะเบียนทางการเงินของออสเตรีย มีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมทางการเงินของออสเตรีย (ดั้งเดิม)](emea-aut-fi-sample-sdk.md)
 
 ### <a name="commerce-runtime-extension-design"></a>การออกแบบส่วนขยาย Commerce Runtime 
 

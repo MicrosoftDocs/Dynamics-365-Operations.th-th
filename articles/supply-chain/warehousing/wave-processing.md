@@ -2,7 +2,7 @@
 title: การสร้างและการประมวลผลเวฟ
 description: บทความนี้อธิบายวิธีการสร้าง ดำเนินการ และปล่อยเวฟเพื่อสร้างงานการเบิกสินค้าสำหรับการบรรทุก การจัดส่ง ใบสั่งผลิต หรือใบสั่งคัมบัง
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014632"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336019"
 ---
 # <a name="wave-creation-and-processing"></a>การสร้างและการประมวลผลเวฟ
 
@@ -191,7 +191,7 @@ ms.locfileid: "9014632"
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>เปิดหรือปิดหน้ารายละเอียดชุดงานของเวฟ
 
-เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 หน้า **รายละเอียดชุดงานของเวฟ** จะเปิดตามค่าเริ่มต้น ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *รายละเอียดชุดงานของเวฟ* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *รายละเอียดชุดงานของเวฟ* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="use-the-wave-batch-job-details-page"></a>ใช้งานหน้ารายละเอียดชุดงานเวฟ
 

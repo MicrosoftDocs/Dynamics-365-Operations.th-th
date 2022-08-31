@@ -2,7 +2,7 @@
 title: ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
 description: บทความนี้อธิบายถึงวิธีการตั้งค่าและใช้ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง สำหรับธุรกรรมสินค้าคงคลังที่มีอยู่จริงชนิดต่างๆ ลำดับงานสมุดรายวันสินค้าคงคลังช่วยให้มั่นใจว่าเฉพาะสมุดรายวันสินค้าคงคลังที่ได้รับอนุมัติเท่านั้นที่สามารถลงรายการธุรกรรมได้
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873998"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334669"
 ---
 # <a name="inventory-journal-approval-workflows"></a>ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873998"
 > [!NOTE]
 > ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลังจะใช้กับธุรกรรมที่บันทึกไว้โดยใช้โมดูลการบริหารสินค้าคงคลังเท่านั้น ผู้ใช้ไม่ได้ทำงานกับสมุดรายวันสินค้าคงคลังซึ่งทริกเกอร์มาจากโมดูลการบริหารคลังสินค้า
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>เปิดใช้งานคุณลักษณะลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>เปิดหรือปิดใช้งานคุณลักษณะลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
 
-(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดหรือปิดใช้งานได้ถ้าจำเป็น ต่อไปนี้มีการแสดงรายการคุณลักษณะเป็น:
-
-- **โมดูล:** *การจัดการสินค้าคงคลังและคลังสินค้า*
-- **ชื่อคุณลักษณะ:** *ลำดับงานการอนุมัติของสมุดรายวันสินค้าคงคลัง*
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดไว้ ตามค่าเริ่มต้น เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>สร้างลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลังของคุณ
 

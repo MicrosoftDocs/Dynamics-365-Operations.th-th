@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271597"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337205"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>จัดการวงจรการตั้งค่าคอนฟิกรายงานทางอิเล็กทรอนิกส์ (ER)
 
@@ -84,7 +84,7 @@ ms.locfileid: "9271597"
 
 ## <a name="data-persistence-consideration"></a>การพิจารณาการยังคงอยู่ของข้อมูล
 
-คุณสามารถ [นำเข้า](tasks/er-import-configuration-lifecycle-services.md) [รุ่น](general-electronic-reporting.md#component-versioning) [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ต่าง ๆ ไปยังอินสแตนซ์การเงินของคุณได้ เมื่อนําเข้าการตั้งค่าคอนฟิก ER รุ่นใหม่ ระบบจะควบคุมเนื้อหาของการตั้งค่าคอนฟิกรุ่นแบบร่างนี้
+คุณสามารถ [นำเข้า](tasks/er-import-configuration-lifecycle-services.md) รุ่นต่างๆ ของ ER [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ไปยังอินสแตนซ์การเงินของคุณได้ เมื่อนําเข้าการตั้งค่าคอนฟิก ER รุ่นใหม่ ระบบจะควบคุมเนื้อหาของการตั้งค่าคอนฟิกรุ่นแบบร่างนี้
 
 - เมื่อรุ่นที่นําเข้าต่ำกว่ารุ่นสูงสุดของการตั้งค่าคอนฟิกนี้ในอินสแตนซ์การเงินปัจจุบัน เนื้อหาของการตั้งค่าคอนฟิกรุ่นแบบร่างนี้จะยังคงไม่เปลี่ยนแปลง
 - เมื่อรุ่นที่นําเข้าสูงกว่ารุ่นอื่นของการตั้งค่าคอนฟิกนี้ในอินสแตนซ์การเงินปัจจุบัน เนื้อหาของรุ่นที่นําเข้าจะถูกคัดลอกไปยังรุ่นแบบร่างของการตั้งค่าคอนฟิกนี้ เพื่อให้คุณสามารถแก้ไขรุ่นที่เสร็จสมบูรณ์ล่าสุดต่อไปได้
@@ -112,7 +112,7 @@ ms.locfileid: "9271597"
 
 ![การตั้งค่าคอนฟิกรูปแบบ ER ที่ได้รับมาบนหน้าการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img1.png)
 
-เมื่อคุณเสร็จสิ้นการออกแบบรูปแบบแล้ว คุณสามารถเปลี่ยนสถานะใน [รุ่น](general-electronic-reporting.md#component-versioning) เริ่มต้นของคุณของการตั้งค่าคอนฟิกรูปแบบ ER จาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** จากนั้น คุณสามารถแบ่งปันรุ่นที่เสร็จสมบูรณ์ของการตั้งค่าคอนฟิกรูปแบบER โดย [การเผยแพร่](../../../finance/localizations/rcs-global-repo-upload.md) ไปยังที่เก็บส่วนกลาง จากนั้นคุณสามารถเข้าถึงที่เก็บส่วนกลางจากอินสแตนซ์ RCS หรือระบบคลาวด์ทางการเงินใดๆ จากนั้นคุณสามารถนําเข้าเวอร์ชันการตั้งค่าคอนฟิก ER ใดๆ ที่ใช้กับแอปพลิเคชันจากที่เก็บส่วนกลางไปยังแอปพลิเคชันนั้น
+เมื่อคุณเสร็จสิ้นการออกแบบรูปแบบแล้ว คุณสามารถเปลี่ยนสถานะในรุ่นเริ่มต้นของคุณของการตั้งค่าคอนฟิกรูปแบบ ER จาก **แบบร่าง** เป็น **เสร็จสมบูรณ์** จากนั้น คุณสามารถแบ่งปันรุ่นที่เสร็จสมบูรณ์ของการตั้งค่าคอนฟิกรูปแบบER โดย [การเผยแพร่](../../../finance/localizations/rcs-global-repo-upload.md) ไปยังที่เก็บส่วนกลาง จากนั้นคุณสามารถเข้าถึงที่เก็บส่วนกลางจากอินสแตนซ์ RCS หรือระบบคลาวด์ทางการเงินใดๆ จากนั้นคุณสามารถนําเข้าเวอร์ชันการตั้งค่าคอนฟิก ER ใดๆ ที่ใช้กับแอปพลิเคชันจากที่เก็บส่วนกลางไปยังแอปพลิเคชันนั้น
 
 ![การตั้งค่ารูปแบบ ER ที่เผยแพร่บนหน้าที่เก็บการตั้งค่าคอนฟิก](./media/ger-configuration-lifecycle-img2.png)
 

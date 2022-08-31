@@ -14,19 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77da3c05839d82860d715ca4e031ada69b99e3e3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e1bae79e47c3fa695ac239320eeee17b1a480f18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693905"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337084"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>ตั้งค่าพารามิเตอร์การจัดการสวัสดิการและการบริการตนเองของพนักงานสำหรับบริษัททั้งหมด
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 ก่อนที่คุณจะสามารถตั้งค่าแผนสวัสดิการใน Microsoft Dynamics 365 Human Resources คุณจำเป็นต้องตั้งค่าคอนฟิกพารามิเตอร์การจัดการสวัสดิการ พารามิเตอร์เหล่านี้จะกำหนดค่าเริ่มต้น รหัสเหตุผล และตัวเลือกอื่นๆ 
 

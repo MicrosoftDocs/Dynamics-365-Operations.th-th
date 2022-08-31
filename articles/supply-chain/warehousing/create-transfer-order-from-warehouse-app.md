@@ -2,7 +2,7 @@
 title: สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า
 description: บทความนี้อธิบายเกี่ยวกับวิธีการสร้างและประมวลผลใบสั่งโอนย้ายจากคุณลักษณะของแอปการจัดการคลังสินค้าบนมือถือ
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877463"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336469"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>สร้างใบสั่งโอนย้ายจากแอปคลังสินค้า
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877463"
 
 คุณลักษณะนี้ช่วยให้ผู้ปฏิบัติงานคลังสินค้าสร้างและประมวลผลใบสั่งโอนย้ายได้โดยตรงจากแอปการจัดการคลังสินค้าบนมือถือ ผู้ปฏิบัติงานเริ่มต้นด้วยการเลือกคลังสินค้าปลายทาง และพวกเขาสามารถสแกนป้ายทะเบียนหนึ่งใบขึ้นไปโดยใช้แอป เพื่อเพิ่มป้ายทะเบียนให้ใบสั่งโอนย้าย เมื่อผู้ปฏิบัติงานคลังสินค้าเลือก **ใบสั่งเสร็จสมบูรณ์** ชุดงานจะสร้างใบสั่งโอนย้ายที่จำเป็น และรายการใบสั่งตามปริมาณคงคลังคงเหลือที่ลงทะเบียนไว้สำหรับป้ายทะเบียนเหล่านั้น
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>เปิดหรือปิดคุณลักษณะนี้
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>เปิดคุณลักษณะนี้และข้อกำหนดเบื้องต้น
 
 ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ ทั้งคุณลักษณะและข้อกำหนดเบื้องต้นต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้หน้า [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานได้ ถ้าจำเป็น
 
 1. เปิดใช้งานสองคุณลักษณะ (ในลำดับ) ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.25 ทั้งสองคุณลักษณะนี้จะเปิดตามค่าเริ่มต้น
-    1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*
-    1. *สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า*
-1. เมื่อต้องการประมวลผลการจัดส่งขาออกโดยอัตโนมัติ คุณต้องเปิดใช้งานคุณลักษณะ [ยืนยันการจัดส่งขาออกจากชุดงาน](confirm-outbound-shipments-from-batch-jobs.md)
+    1. *ประมวลผลเหตุการณ์ของแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+    1. *สร้างและประมวลผลใบสั่งโอนย้ายจากแอปคลังสินค้า*<br>(เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้)
+1. เมื่อต้องการประมวลผลการจัดส่งขาออกโดยอัตโนมัติ คุณต้องเปิดใช้งานคุณลักษณะ [*ยืนยันการจัดส่งขาออกจากชุดงาน*](confirm-outbound-shipments-from-batch-jobs.md) (เริ่มจาก Supply Chain Management รุ่น 10.0.21 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) (เริ่มจาก Supply Chain Management รุ่น 10.0.25 คุณลักษณะนี้เป็นแบบบังคับและไม่สามารถปิดได้)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>ตั้งค่ารายการเมนูของอุปกรณ์เคลื่อนที่ในการสร้างใบสั่งโอนย้าย
 
@@ -307,11 +307,11 @@ ms.locfileid: "8877463"
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>ฉันจะค้นหาใบสั่งโอนย้ายที่มีอยู่ที่จะใช้ผ่านปุ่ม "เลือกใบสั่งโอนย้าย" ในแอปการจัดการคลังสินค้าบนมือถืออย่างไร ถ้ายังไม่ได้สร้างใบสั่งในระบบ Backend
 
-ในขณะนี้ คุณไม่สามารถค้นหาใบสั่งโอนย้ายในแอปได้ แต่คุณสามารถค้นหาหมายเลขใบสั่งโอนย้ายในหน้า **เหตุการณ์ของแอปคลังสินค้า** ได้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [สอบถามเกี่ยวกับเหตุการณ์ของแอปคลังสินค้า](#inquire-the-warehouse-app-events)
+คุณสามารถช่วยให้ผู้ปฏิบัติงานสามารถค้นหาหมายเลขใบสั่งโอนย้ายในแอป Warehouse Management บนมือถือได้โดยใช้ความสามารถ [การสอบถามข้อมูล](warehouse-app-data-inquiry.md) ตัวอย่างเช่น คุณสามารถสร้างรายการเมนูของอุปกรณ์เคลื่อนที่ [การข้ามตำแหน่ง](warehouse-app-detours.md) ที่สั่งสอบถามข้อมูลที่แสดงบนหน้า **เหตุการณ์แอปคลังสินค้า** ของเว็บไคลเอนต์ (`WHSMobileDeviceQueueMessageCollection`) โดยเป็นส่วนหนึ่งของขั้นตอน *Select order - MobileDeviceQueueMessageCollectionIdentifierId* หมายเลขใบสั่งโอนย้ายตรงกับค่าที่แสดงอยู่ในฟิลด์ **ตัวระบุ** ดูเพิ่มเติม [สอบถามเกี่ยวกับเหตุการณ์ของแอปคลังสินค้า](#inquire-the-warehouse-app-events)
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>ฉันสามารถเลือกหมายเลขใบสั่งโอนย้ายที่จะใช้จากแอปการจัดการคลังสินค้าบนมือถือด้วยตนเองได้หรือไม่
 
-หมายเลขใบสั่งโอนย้ายที่มีการสร้างอัตโนมัติสนับสนุนเฉพาะผ่านลำดับหมายเลขเท่านั้น
+หมายเลขใบสั่งโอนย้ายที่มีการสร้างอัตโนมัติสนับสนุนเฉพาะผ่านลำดับหมายเลขเท่านั้น ดูเพิ่มเติมที่คําตอบของคําถามก่อนหน้านี้เกี่ยวกับวิธีการตั้งค่าปุ่ม **เลือกใบสั่งโอนย้าย** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการค้นหาหมายเลขใบสั่งโอนย้าย ให้ดูที่ [สอบถามเกี่ยวกับเหตุการณ์ของแอปคลังสินค้า](#inquire-the-warehouse-app-events)
 
 ### <a name="background-processing"></a>การประมวลผลแบบเบื้องหลัง
 

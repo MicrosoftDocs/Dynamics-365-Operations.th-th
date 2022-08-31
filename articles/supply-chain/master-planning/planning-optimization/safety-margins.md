@@ -2,7 +2,7 @@
 title: ค่าเผื่อความปลอดภัย
 description: บทความนี้จะอธิบายวิธีการใช้ค่าเผื่อความปลอดภัยกับ Add-in การเพิ่มประสิทธิภาพการวางแผนสำหรับ Microsoft Dynamics 365 Supply Chain Management
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854252"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335209"
 ---
 # <a name="safety-margins"></a>ค่าเผื่อความปลอดภัย
 
@@ -79,12 +79,9 @@ ms.locfileid: "8854252"
 
 ## <a name="set-up-safety-margins"></a>ตั้งค่าค่าเผื่อความปลอดภัย
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>เปิดค่าเผื่อความปลอดภัยในการจัดการคุณลักษณะ
+### <a name="turn-safety-margins-on-or-off"></a>เปิดหรือปิดค่าเผื่อความปลอดภัย
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้กับการการเพิ่มประสิทธิภาพการวางแผน คุณต้องเปิดใช้งานในระบบของคุณ ผู้ดูแลระบบสามารถใช้พื้นที่การทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) เพื่อตรวจสอบสถานะของคุณลักษณะ และเปิดใช้งานหากจำเป็น มีคุณลักษณะที่แสดงอยู่ในลักษณะต่อไปนี้:
-
-- **โมดูล:** _การวางแผนหลัก_
-- **ชื่อคุณลักษณะ:** _ค่าเผื่อสำหรับการเพิ่มประสิทธิภาพการวางแผน_
+การใช้คุณลักษณะนี้ ต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *เวลาเผื่อสำหรับการเพิ่มประสิทธิภาพการวางแผน* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ### <a name="define-safety-margins"></a>กำหนดค่าเผื่อความปลอดภัย
 

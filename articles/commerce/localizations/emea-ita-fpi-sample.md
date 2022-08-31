@@ -2,27 +2,28 @@
 title: ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
 description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: e63f8d68b8b79143771c0b1c757cb78659183b67
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280280"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336773"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินสำหรับอิตาลี
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับอิตาลีใน Microsoft Dynamics 365 Commerce
 
-ฟังก์ชัน Commerce สำหรับอิตาลีรวมการรวมตัวอย่างของการขายหน้าร้าน (POS) กับเครื่องพิมพ์ทางการเงิน ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) เพื่อให้งานกับเครื่องพิมพ์ [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) จาก Epson และช่วยให้สามารถสื่อสารกับเครื่องพิมพ์ทางการเงินในโหมดเว็บเซิร์ฟเวอร์ผ่านเว็บเซอร์วิส EpsonFPMate โดยใช้ Fiscal ePOS-Print API ตัวอย่างสนับสนุนโหมด Registratore Telematico (RT) เท่านั้น ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับและเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของการขายปลีก
+ฟังก์ชัน Commerce สำหรับอิตาลีรวมการรวมตัวอย่างของการขายหน้าร้าน (POS) กับเครื่องพิมพ์ทางการเงิน ตัวอย่างจะขยาย [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) เพื่อให้ทำงานกับเครื่องพิมพ์ [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) จาก Epson และช่วยให้สามารถสื่อสารกับเครื่องพิมพ์ทางการเงินในโหมดเว็บเซิร์ฟเวอร์ผ่านเว็บเซอร์วิส EpsonFPMate โดยใช้ Fiscal ePOS-Print API ตัวอย่างสนับสนุนโหมด Registratore Telematico (RT) เท่านั้น ตัวอย่างมีให้ในรูปแบบของรหัสต้นฉบับ และเป็นส่วนหนึ่งของชุดการพัฒนาซอฟต์แวร์ (SDK) ของ Commerce
 
 Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟต์แวร์ หรือเอกสารใดๆ จาก Epson หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้งานเครื่องพิมพ์ทางการเงินและดําเนินการ โปรดติดต่อ [Epson Italia S.p.A](https://www.epson.it)
 
@@ -99,12 +100,10 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>ตั้งค่าการรวมทางการเงินสำหรับอิตาลี
 
-ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลียึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\EpsonFP90IIISample** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลียึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Commerce SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\EpsonFP90IIISample** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) [ตัวอย่าง](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ประกอบด้วยตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Runtime (CRT) และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Commerce SDK ให้ดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจการอ้างอิงจาก GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md) และ [ตั้งค่าไปป์ไลน์การสร้างให้กับ SDK การจัดทำแพคเกจแบบอิสระ](../dev-itpro/build-pipeline.md)
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) รุ่นก่อนหน้านี้ หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md)
->
-> มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลีมีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้น คุณต้องใช้รุ่นก่อนหน้าของ Retail SDK บนเครื่องเสมือนของนักพัฒนา (VM) ใน Microsoft Dynamics Lifecycle Services (LCS) หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md)
 
 ปฏิบัติตามขั้นตอนการตั้งค่าการรวมทางการเงินตามที่อธิบายไว้ใน [การตั้งค่าการรวมทางการเงินของช่องทาง Commerce](setting-up-fiscal-integration-for-retail-channel.md)
 
@@ -123,18 +122,16 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกสำหรับผู้ให้บริการเอกสารทางการเงินและตัวเชื่อมต่อทางการเงิน:
 
     1. เปิดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)
-    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ (ตัวอย่างเช่น **[รุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**)
+    1. เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ
     1. เปิด **src \> FiscalIntegration \> EpsonFP90IIISample**
-    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml** (ตัวอย่างเช่น [ไฟล์ของรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml))
-    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml** (ตัวอย่างเช่น [ไฟล์สำหรับรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml)
+    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่ **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml**
+    1. ดาวน์โหลดไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงินที่ **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml**
 
-    > [!WARNING]
-    > เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS ไฟล์การตั้งค่าคอนฟิกของตัวอย่างการรวมทางการเงินนี้อยู่ในโฟลเดอร์ต่อไปนี้ของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS:
+    > [!NOTE]
+    > สำหรับ Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS ไฟล์การตั้งค่าคอนฟิกของตัวอย่างการรวมทางการเงินนี้อยู่ในโฟลเดอร์ต่อไปนี้ของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS:
     >
     > - **ไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงิน:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml
     > - **ไฟล์การตั้งค่าคอนฟิกตัวเชื่อมต่อทางการเงิน:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml
-    > 
-    > มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
 
 1. ไปที่ **Retail และ Commerce \> การตั้งค่าศูนย์ควบคุม \> พารามิเตอร์ \> พารามิเตอร์ที่ใช้ร่วมกันของ Commerce** บนแท็บ **ทั่วไป** ให้ตั้งค่าตัวเลือก **เปิดใช้งานการรวมทางการเงิน** เป็น **ใช่**
 1. ไปที่ **การขายปลีกและการค้า \> การตั้งค่าช่องทาง \> การรวมทางการเงิน \> ผู้ให้บริการเอกสารทางการเงิน** และโหลดไฟล์การตั้งค่าคอนฟิกผู้ให้บริการเอกสารทางการเงินที่คุณดาวน์โหลดก่อนหน้านี้
@@ -256,16 +253,15 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ### <a name="configure-channel-components"></a>ตั้งค่าคอนฟิกส่วนประกอบช่องทาง
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md)
->
-> มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> - ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลีมีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md)
+> - ตัวอย่าง Commerce ที่มีการปรับใช้ในสภาพแวดล้อมของคุณ ไม่ได้รับการอัปเดตโดยอัตโนมัติเมื่อคุณใช้การอัปเดตบริการหรือคุณภาพกับส่วนประกอบของ Commerce คุณต้องอัปเดตตัวอย่างที่ต้องใช้ด้วยตนเอง
 
 #### <a name="set-up-the-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนา
 
 หากต้องการตั้งค่าสภาพแวดล้อมการพัฒนาเพื่อทดสอบและขยายตัวอย่าง ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 
-1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Retail SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
+1. ลอกแบบหรือดาวน์โหลดที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) เลือกรุ่นสาขาที่นำออกใช้ที่ถูกต้องตามรุ่น SDK/แอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจอ้างอิงจาก GitHub และ NuGet](../dev-itpro/retail-sdk/sdk-github.md)
 1. เปิดโซลูชันการรวมเครื่องพิมพ์ทางการเงินที่ **Dynamics365Commerce.Solutions\\FiscalIntegration\\EpsonFP90IIISample\\EpsonFP90IIISample.sln** และสร้าง
 1. ติดตั้งส่วนขยาย CRT:
 
@@ -303,10 +299,10 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 ## <a name="design-of-extensions"></a>การออกแบบของส่วนขยาย
 
-ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลียึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Retail SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\EpsonFP90IIISample** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ตัวอย่างเช่น [ตัวอย่างในรุ่น/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)) ตัวอย่าง [ประกอบด้วย](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ของตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Retail SDK โปรดดู [สถาปัตยกรรม Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) และ [ตั้งค่าไปป์ไลน์การสร้างของ SDK บรรจุภัณฑ์อิสระ](../dev-itpro/build-pipeline.md)
+ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลียึดตาม [ฟังก์ชันการรวมทางการเงิน](fiscal-integration-for-retail-channel.md) และเป็นส่วนหนึ่งของ Commerce SDK ตัวอย่างอยู่ในโฟลเดอร์ **src\\FiscalIntegration\\EpsonFP90IIISample** ของที่เก็บ [โซลูชัน Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) [ตัวอย่าง](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ประกอบด้วยตัวให้บริการเอกสารทางการเงิน ซึ่งเป็นส่วนขยายของ CRT และตัวเชื่อมต่อทางการเงิน ซึ่งเป็นส่วนขยายของ Commerce Hardware Station สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้ Commerce SDK ให้ดูที่ [ดาวน์โหลดตัวอย่าง Commerce SDK และแพคเกจการอ้างอิงจาก GitHub NuGet](../dev-itpro/retail-sdk/sdk-github.md) และ [ตั้งค่าไปป์ไลน์การสร้างให้กับ SDK การจัดทำแพคเกจแบบอิสระ](../dev-itpro/build-pipeline.md)
 
-> [!WARNING]
-> เนื่องจากข้อจํากัดของ [แบบจำลองบรรจุภัณฑ์และส่วนขยายอิสระใหม่](../dev-itpro/build-pipeline.md) จึงไม่สามารถใช้กับตัวอย่างการรวมทางการเงินนี้ได้ในขณะนี้ คุณต้องใช้ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md) มีการวางแผนการสนับสนุนรูปแบบบรรจุภัณฑ์และส่วนขยายอิสระใหม่จากตัวอย่างการรวมทางการเงินกับรุ่นที่ใหม่กว่า
+> [!NOTE]
+> ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลีมีอยู่ใน Commerce SDK ณ Commerce เวอร์ชัน 10.0.29 ใน Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้า คุณต้องใช้เวอร์ชันก่อนหน้าของ Retail SDK บน VM สำหรับนักพัฒนาใน LCS หากต้องการข้อมูลเพิ่มเติม โปรดดูที่ [แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของอิตาลี (ดั้งเดิม)](emea-ita-fpi-sample-sdk.md)
 
 ### <a name="commerce-runtime-extension-design"></a>การออกแบบส่วนขยาย Commerce Runtime
 

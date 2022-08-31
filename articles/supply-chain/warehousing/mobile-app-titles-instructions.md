@@ -2,7 +2,7 @@
 title: เลือกกำหนดชื่อขั้นตอนและคำแนะนำสำหรับแอป Warehouse Management บนมือถือ
 description: บทความนี้จะอธิบายวิธีการสร้างและแสดงคําแนะนําที่ลูกค้าต้องการใช้ในแต่ละขั้นตอนของโฟลว์งานแต่ละโฟลว์ที่คุณตั้งค่าไว้ให้กับแอป Warehouse Management บนมือถือ
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220163"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334490"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>เลือกกำหนดชื่อขั้นตอนและคำแนะนำสำหรับแอป Warehouse Management บนมือถือ
 
@@ -28,9 +28,9 @@ ms.locfileid: "9220163"
 - **ไล่ระดับผู้ปฏิบัติงานให้เร็วขึ้นด้วยการแจ้งให้พนักงานปฏิบัติตามคําแนะนําแบบง่ายในขั้นตอนของงานทุกขั้นตอน** ทุกขั้นตอนของโฟลว์จะให้คําแนะนําที่เปิดใช้งานผู้ปฏิบัติงานที่อยู่ข้างหน้าเพื่อให้เข้าใจงานได้
 - **ระบุคําแนะนําที่ตรงกับกระบวนการของคุณเอง** เขียนคําแนะนําของคุณเองเพื่อให้ตรงกับกระบวนการทางธุรกิจและคลังสินค้าของคุณ ตัวอย่างเช่น คุณสามารถจัดให้คำศัพท์พอดีกับพื้นที่จริงและตัวย่อเฉพาะที่ของคุณ
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>เปิดคุณลักษณะคําแนะนําขั้นตอนแอปคลังสินค้า
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>เปิดหรือปิดคุณลักษณะคําแนะนําขั้นตอนของแอปคลังสินค้า
 
-ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน (เริ่มจาก Supply Chain Management รุ่น 10.0.29 คุณลักษณะนี้จะเปิดตามค่าเริ่มต้น) ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คำแนะนำตามขั้นตอนของแอปคลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
+ก่อนที่คุณจะสามารถใช้คุณลักษณะนี้ได้ คุณต้องเปิดคุณลักษณะนี้ในระบบของคุณก่อน เริ่มจาก Supply Chain Management เวอร์ชัน 10.0.29 คุณลักษณะนี้เป็นแบบบังคับ และไม่สามารถปิดได้ ถ้าคุณเรียกใช้รุ่นที่เก่ากว่า 10.0.29 ผู้ดูแลระบบสามารถเปิดหรือปิดฟังก์ชันนี้ได้โดยค้นหาคุณลักษณะ *คำแนะนำตามขั้นตอนของแอปคลังสินค้า* ในพื้นที่ทำงาน [การจัดการคุณลักษณะ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>ชื่อขั้นตอนและคําแนะนําขั้นตอนในแอป
 

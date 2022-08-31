@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9189005"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324217"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
 
 บทความนี้จะแสดงรายการคุณลักษณะ การแก้ไข การปรับปรุง และปัญหาที่พบใหม่ของแอป Warehouse Management บนมือถือแต่ละรุ่นที่ปล่อยของ Microsoft Dynamics 365 Supply Chain Management
+
+## <a name="version-20310"></a>รุ่น 2.0.31.0
+
+รุ่นนี้แนะนำคุณลักษณะ การแก้ไข และการปรับปรุง:
+
+-   ประสิทธิภาพและเสถียรภาพขั้นสูง
+-   อินเทอร์เฟสผู้ใช้ที่ปรับปรุง ช่วยให้ใช้งานรายการเลือกยาวได้เร็วขึ้นและง่ายขึ้น ขณะนี้ผู้ปฏิบัติงานสามารถค้นหารายการตามชื่อ แทนที่จะเลื่อนผ่านรายการทั้งหมด
+-   แก้ไขปัญหาที่ค่าที่ป้อนไว้ล่วงหน้าถูกเขียนทับเมื่อสแกนตามอักขระ
 
 ## <a name="version-20300"></a>รุ่น 2.0.30.0
 

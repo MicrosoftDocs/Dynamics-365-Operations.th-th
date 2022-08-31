@@ -13,18 +13,18 @@ ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: EROperationDesigner
-ms.openlocfilehash: fa66edef7e39c72d4859a21a1474096f7bc1c1dd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9278810"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324034"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ออกแบบการตั้งค่าคอนฟิก ER เพื่อระงับอักขระ BOM ในไฟล์ที่สร้างขึ้น
 
 [!include [banner](../includes/banner.md)]
 
-คุณสามารถออกแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [โซลูชัน](er-quick-start1-new-solution.md) เพื่อสร้างเอกสารขาออกได้ เมื่อต้องการสร้างเอกสารเป็นไฟล์ข้อความหรือไฟล์ XML โซลูชันต้องรวม [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่มีส่วนประกอบรูปแบบ ER เมื่อต้องการระบุ [การเข้ารหัสอักขระ](/windows/win32/intl/character-sets) ที่แสดงถึงชุดของอักขระในไฟล์ที่สร้างขึ้น รูปแบบ ER ต้องมีองค์ประกอบรูปแบบ **ทั่วไป\\ไฟล์** เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER ให้เปิดเวอร์ชัน [แบบร่าง](general-electronic-reporting.md#component-versioning) ของการตั้งค่าคอนฟิก ER ในโปรแกรมออกแบบรูปแบบ ER และเพิ่มองค์ประกอบ **ทั่วไป\\ไฟล์** ในฟิลด์ **การเข้ารหัส** ให้ระบุการเข้ารหัสไฟล์ขาออกที่สร้างขณะรันไทม์ โดยใช้ส่วนประกอบนี้
+คุณสามารถออกแบบ [การรายงานทางอิเล็กทรอนิกส์ (ER)](general-electronic-reporting.md) [โซลูชัน](er-quick-start1-new-solution.md) เพื่อสร้างเอกสารขาออกได้ เมื่อต้องการสร้างเอกสารเป็นไฟล์ข้อความหรือไฟล์ XML โซลูชันต้องรวม [การตั้งค่าคอนฟิก](general-electronic-reporting.md#Configuration) ER ที่มีส่วนประกอบรูปแบบ ER เมื่อต้องการระบุ [การเข้ารหัสอักขระ](/windows/win32/intl/character-sets) ที่แสดงถึงชุดของอักขระในไฟล์ที่สร้างขึ้น รูปแบบ ER ต้องมีองค์ประกอบรูปแบบ **ทั่วไป\\ไฟล์** เมื่อต้องการตั้งค่าคอนฟิกส่วนประกอบรูปแบบ ER ให้เปิดเวอร์ชันแบบร่างของการตั้งค่าคอนฟิก ER ในโปรแกรมออกแบบรูปแบบ ER และเพิ่มองค์ประกอบ **ทั่วไป\\ไฟล์** ในฟิลด์ **การเข้ารหัส** ให้ระบุการเข้ารหัสไฟล์ขาออกที่สร้างขณะรันไทม์ โดยใช้ส่วนประกอบนี้
 
 > [!NOTE]
 > ถ้ารูปแบบมีชื่อการเข้ารหัสที่ไม่ถูกต้อง ระบบจะแสดงข้อผิดพลาดเมื่อคุณบันทึกการเปลี่ยนแปลงของคุณไปยังการตั้งค่าของรูปแบบ
