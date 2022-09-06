@@ -2,19 +2,19 @@
 title: การปรับใช้โดยรวมของส่วนประกอบระบบบริการตนเองของ Commerce แบบปิดผนึก
 description: บทความนี้อธิบายวิธีการใช้เฟรมเวิร์กให้กับตัวติดตั้งส่วนประกอบระบบบริการตนเองเพื่อติดตั้งและให้บริการการปรับใช้งานใช้งานโดยไม่แสดงข้อความ
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898590"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387031"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>การปรับใช้โดยรวมของส่วนประกอบระบบบริการตนเองของ Commerce แบบปิดผนึก
 
@@ -34,53 +34,53 @@ ms.locfileid: "8898590"
 
 | ตัวกำหนดเขต                 | คำอธิบาย |
 |---------------------------|-------------|
-| --AadTokenIssuerPrefix | ส่วนนำหน้าสำหรับผู้ออกโทเค็น Microsoft Azure Active Directory (Azure AD) |
-| --AsyncClientAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Async Client ควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
-| --AsyncClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Async Client AppInsights |
-| --AsyncClientCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้อง ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertThumbprint** |
-| --AsyncClientCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertFullPath** |
-| --ClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Client AppInsights |
-| --CloudPosAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Cloud POS AppInsights |
-| --Config | ไฟล์การตั้งค่าคอนฟิกที่ควรใช้ในระหว่างการติดตั้ง ตัวอย่างของชื่อไฟล์คือ **Contoso.CommerceScaleUnit.xml** |
-| --CposAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Cloud POS ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
-| --Device | รหัสอุปกรณ์ ตามที่แสดงบนหน้า **อุปกรณ์** ในศูนย์ควบคุม |
-| --EnvironmentId | รหัสสภาพแวดล้อม |
-| --HardwareStationAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
-| --Install | พารามิเตอร์ที่ระบุว่าควรติดตั้งส่วนประกอบที่ตัวติดตั้งนี้มีให้หรือไม่ พารามิเตอร์นี้ไม่เป็นพารามิเตอร์บังคับ |
-| --InstallOffline | สำหรับ Modern POS พารามิเตอร์นี้ระบุว่าควรติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ด้วยหรือไม่ ใช้พารามิเตอร์ **-SQLServerName** ด้วย มิฉะนั้น ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้นที่ตรงตามข้อกำหนดเบื้องต้น |
-| --Port | พอร์ตที่ควรเชื่อมโยงกับและใช้โดยไดเรกทอรีเสมือนของเซิร์ฟเวอร์ระบบการขายปลีก หากไม่ได้ตั้งค่าพอร์ต จะมีการใช้พอร์ตเริ่มต้น 443 |
-| --Register | รหัสทะเบียน ตามที่แสดงบนหน้า **ทะเบียน** ในศูนย์ควบคุม |
-| --RetailServerAadClientId | รหัสไคลเอ็นต์ Azure AD ที่เซิร์ฟเวอร์ระบบการขายปลีกควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
-| --RetailServerAadResourceId | รหัสทรัพยากรแอป Azure AD เซิร์ฟเวอร์ระบบการขายปลีกที่ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
-| --RetailServerCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertThumbprint** |
-| --RetailServerCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertFullPath** |
-| --RetailServerURL | URL ของเซิร์ฟเวอร์ระบบการขายปลีกที่ตัวติดตั้งควรใช้ (URL นี้ยังเรียกอีกอย่างว่า Commerce Scale Unit \[CSU\] URL) สำหรับ Modern POS ค่านี้จะถูกใช้ระหว่างการเปิดใช้งานอุปกรณ์ |
-| --SkipAadCredentialsCheck| สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของข้อมูลประจำตัว Azure AD หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipCertCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของใบรับรองหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipIisCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ Internet Information Services (IIS) หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipNetFrameworkCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ .NET Framework หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipScaleUnitHealthcheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความสมบูรณ์บนส่วนประกอบที่ติดตั้งหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipSChannelCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของช่องทางที่ปลอดภัยหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipSqlFullTextCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความถูกต้องของข้อเบื้องต้นของ SQL Server ที่ต้องใช้การค้นคำทั้งเอกสารหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SkipSqlServerCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ SQL Server หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
-| --SqlServerName | ชื่อ SQL Server ถ้าไม่ได้ระบุชื่อ ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้น |
-| --SslcertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต ตัวอย่างเช่น `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertThumbprint** |
-| --SslCertThumbprint | รหัสประจำตัวของใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertFullPath** |
-| --StoreSystemAosUrl | URL ของศูนย์ควบคุม (AOS) |
-| --StoreSystemChannelDatabaseId | รหัสฐานข้อมูลช่องทาง (ชื่อ) |
-| --TenantId | รหัสผู้เช่า Azure AD |
-| --TransactionServiceAzureAuthority | สิทธิการใช้งาน Azure AD บริการธุรกรรม |
-| --TransactionServiceAzureResource | ทรัพยากร Azure AD บริการธุรกรรม |
-| --TrustSqlServerCertificate | สวิตช์ที่แสดงว่าควรเชื่อถือใบรับรองของเซิร์ฟเวอร์ขณะสร้างการเชื่อมต่อกับ SQL Server หรือไม่ เพื่อหลีกเลี่ยงความเสี่ยงด้านความปลอดภัย การปรับใช้ในการทำงานจริงไม่ควรให้ค่าเป็น **จริง** ที่นี่ ค่าเริ่มต้นคือ **เท็จ** |
-| --Verbosity | ระดับของการบันทึกที่ร้องขอในระหว่างการติดตั้ง โดยทั่วไป ไม่ควรใช้ค่านี้ |
-| --WindowsPhoneAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
+| -AadTokenIssuerPrefix | ส่วนนำหน้าสำหรับผู้ออกโทเค็น Microsoft Azure Active Directory (Azure AD) |
+| -AsyncClientAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Async Client ควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
+| -AsyncClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Async Client AppInsights |
+| -AsyncClientCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้อง ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertThumbprint** |
+| -AsyncClientCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัว Async Client ที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-AsyncClientCertFullPath** |
+| -ClientAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Client AppInsights |
+| -CloudPosAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Cloud POS AppInsights |
+| -Config | ไฟล์การตั้งค่าคอนฟิกที่ควรใช้ในระหว่างการติดตั้ง ตัวอย่างของชื่อไฟล์คือ **Contoso.CommerceScaleUnit.xml** |
+| -CposAadClientId | รหัสไคลเอ็นต์ Azure AD ที่ Cloud POS ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
+| -Device | รหัสอุปกรณ์ ตามที่แสดงบนหน้า **อุปกรณ์** ในศูนย์ควบคุม |
+| -EnvironmentId | รหัสสภาพแวดล้อม |
+| -HardwareStationAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
+| ติดตั้ง | พารามิเตอร์ที่ระบุว่าควรติดตั้งส่วนประกอบที่ตัวติดตั้งนี้มีให้หรือไม่ พารามิเตอร์นี้ต้องใช้ในการติดตั้งและไม่มีอักขระขีดคั่นหน้า |
+| -InstallOffline | สำหรับ Modern POS พารามิเตอร์นี้ระบุว่าควรติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ด้วยหรือไม่ ใช้พารามิเตอร์ **-SQLServerName** ด้วย มิฉะนั้น ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้นที่ตรงตามข้อกำหนดเบื้องต้น |
+| -Port | พอร์ตที่ควรเชื่อมโยงกับและใช้โดยไดเรกทอรีเสมือนของเซิร์ฟเวอร์ระบบการขายปลีก หากไม่ได้ตั้งค่าพอร์ต จะมีการใช้พอร์ตเริ่มต้น 443 |
+| -Register | รหัสทะเบียน ตามที่แสดงบนหน้า **ทะเบียน** ในศูนย์ควบคุม |
+| -RetailServerAadClientId | รหัสไคลเอ็นต์ Azure AD ที่เซิร์ฟเวอร์ระบบการขายปลีกควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
+| -RetailServerAadResourceId | รหัสทรัพยากรแอป Azure AD เซิร์ฟเวอร์ระบบการขายปลีกที่ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์ พารามิเตอร์นี้ไม่ใช่พารามิเตอร์ที่ต้องการในการปรับใช้ในองค์กร |
+| -RetailServerCertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม ตัวอย่างเช่น `store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertThumbprint** |
+| -RetailServerCertThumbprint | รหัสประจำตัวของใบรับรองข้อมูลประจำตัวเซิร์ฟเวอร์ระบบการขายปลีกที่ควรจะใช้ในการรับรองความถูกต้องกับ Azure AD สำหรับการสื่อสารกับศูนย์ควบคุม รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-RetailServerCertFullPath** |
+| -RetailServerURL | URL ของเซิร์ฟเวอร์ระบบการขายปลีกที่ตัวติดตั้งควรใช้ (URL นี้ยังเรียกอีกอย่างว่า Commerce Scale Unit \[CSU\] URL) สำหรับ Modern POS ค่านี้จะถูกใช้ระหว่างการเปิดใช้งานอุปกรณ์ |
+| -SkipAadCredentialsCheck| สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของข้อมูลประจำตัว Azure AD หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipCertCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของใบรับรองหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipIisCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ Internet Information Services (IIS) หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipNetFrameworkCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ .NET Framework หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipScaleUnitHealthcheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความสมบูรณ์บนส่วนประกอบที่ติดตั้งหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipSChannelCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของช่องทางที่ปลอดภัยหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipSqlFullTextCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบความถูกต้องของข้อเบื้องต้นของ SQL Server ที่ต้องใช้การค้นคำทั้งเอกสารหรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SkipSqlServerCheck | สวิตช์ที่แสดงว่าควรข้ามการตรวจสอบข้อกำหนดเบื้องต้นของ SQL Server หรือไม่ ค่าเริ่มต้นคือ **เท็จ** |
+| -SqlServerName | ชื่อ SQL Server ถ้าไม่ได้ระบุชื่อ ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้น |
+| -SslcertFullPath | พาธ URL ที่จัดรูปแบบทั้งหมดที่ใช้รหัสประจำตัวเป็นเมตริกการค้นหาของที่ตั้งใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต ตัวอย่างเช่น `store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` เป็น URN ที่มีการจัดรูปแบบอย่างถูกต้องโดยที่ค่า **\<MyThumbprint\>** จะถูกแทนที่ด้วยรหัสประจำตัวใบรับรองที่ควรใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertThumbprint** |
+| -SslCertThumbprint | รหัสประจำตัวของใบรับรองที่ควรใช้ในการเข้ารหัสปริมาณการใช้งาน HTTP ไปยังสเกลยูนิต รหัสประจำตัวนี้จะใช้ในการค้นหาตำแหน่ง **LocalMachine/My store** และชื่อที่จะค้นหาใบรับรองที่ถูกต้องที่จะใช้ อย่าใช้พารามิเตอร์นี้ร่วมกับพารามิเตอร์ **-SslCertFullPath** |
+| -StoreSystemAosUrl | URL ของศูนย์ควบคุม (AOS) |
+| -StoreSystemChannelDatabaseId | รหัสฐานข้อมูลช่องทาง (ชื่อ) |
+| -TenantId | รหัสผู้เช่า Azure AD |
+| -TransactionServiceAzureAuthority | สิทธิการใช้งาน Azure AD บริการธุรกรรม |
+| -TransactionServiceAzureResource | ทรัพยากร Azure AD บริการธุรกรรม |
+| -TrustSqlServerCertificate | สวิตช์ที่แสดงว่าควรเชื่อถือใบรับรองของเซิร์ฟเวอร์ขณะสร้างการเชื่อมต่อกับ SQL Server หรือไม่ เพื่อหลีกเลี่ยงความเสี่ยงด้านความปลอดภัย การปรับใช้ในการทำงานจริงไม่ควรให้ค่าเป็น **จริง** ที่นี่ ค่าเริ่มต้นคือ **เท็จ** |
+| -Verbosity | ระดับของการบันทึกที่ร้องขอในระหว่างการติดตั้ง โดยทั่วไป ไม่ควรใช้ค่านี้ |
+| -WindowsPhoneAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
 
 ## <a name="general-overview"></a>ภาพรวมทั่วไป
 
 เฟรมเวิร์กใหม่เกี่ยวกับตัวติดตั้งระบบบริการตนเองมีคุณลักษณะและการปรับปรุงต่างๆ ขณะนี้เฟรมเวิร์กใหม่สร้างตัวติดตั้งเฉพาะกับ Modern POS, สถานีฮาร์ดแวร์ และ CSU (โฮสต์ในตัว) เท่านั้น เป็นเรื่องสําคัญที่ต้องเข้าใจการใช้บรรทัดใบสั่งพื้นฐานเกี่ยวกับตัวติดตั้งแบบปิดผนึก ซึ่งควรมีลักษณะคล้ายกับที่ใช้ในตัวอย่างต่อไปนี้ 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 ตัวติดตั้งต้องติดตั้งพารามิเตอร์ **install** (หรือ **uninstall** เพื่อเอาการติดตั้งออก) และพารามิเตอร์ใดๆ ที่ใช้เฉพาะกับการติดตั้งนั้น **ชื่อพารามิเตอร์** ควรรวมพารามิเตอร์ใดๆ ที่ต้องใช้ เช่น ทะเบียน, URL CSU หรือข้อมูลใบรับรอง **ข้อมูลพารามิเตอร์** ควรรวมข้อมูลเพิ่มเติมใดๆ เกี่ยวกับพารามิเตอร์
@@ -110,6 +110,9 @@ ms.locfileid: "8898590"
 
 คุณจึงควรเอาส่วนประกอบ Modern POS ระบบบริการตนเองของเก่าออก สำหรับข้อมูลเพิ่มเติม โปรดดูที่ขั้นตอนการย้ายที่กล่าวถึงก่อนหน้าในบทความนี้
 
+> [!NOTE]
+> ในระบบคอมพิวเตอร์เครื่องเดียว เช่น โทโพโลยีนักพัฒนาหรือสภาพแวดล้อมสาธิต หรือเมื่อติดตั้ง Commerce Scale Unit และ Modern POS บนคอมพิวเตอร์เครื่องเดียวกัน คุณสามารถใช้งาน Store Commerce ได้เพื่อให้ไม่สามารถทำให้การเปิดใช้งานอุปกรณ์เสร็จสมบูรณ์ได้ ปัญหานี้จะเกิดขึ้นเนื่องจาก Store Commerce ไม่สามารถเรียกเครือข่ายไปยังคอมพิวเตอร์เครื่องเดียวกันได้ (นั่นคือการเรียกตัวเอง) ถึงแม้ว่าไม่ควรเป็นสถานการณ์ในการตั้งค่าของการทำงานจริง แต่คุณสามารถลดปัญหาได้โดยการเปิดใช้งานข้อยกเว้นการวนกลับของ AppContainer เพื่อให้การสื่อสารสามารถเกิดขึ้นกับคอมพิวเตอร์เครื่องเดียวกันได้ แอปพลิเคชันต่างๆ จะสามารถใช้งานแบบสาธารณะเพื่อช่วยเปิดใช้งานการวนกลับนี้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการวนกลับ โปรดดู [วิธีการเปิดใช้งานการวนกลับและการแก้ไขปัญหาการตัดแยกเครือข่าย](/previous-versions/windows/apps/hh780593(v=win.10)) เป็นเรื่องสําคัญที่จะต้องเข้าใจว่าการวนกลับอาจเป็นความเสี่ยงด้านความปลอดภัย ดังนั้น ไม่แนะนำให้คุณใช้การวนกลับ ยกเว้นมีความจำเป็นจริงๆ เท่านั้น
+
 ### <a name="examples-of-silent-deployment"></a>ตัวอย่างของการปรับใช้แบบไม่แสดงข้อความ
 
 ส่วนนี้จะแสดงตัวอย่างของคำสั่งที่ใช้เพื่อติดตั้ง Modern POS
@@ -121,7 +124,7 @@ ms.locfileid: "8898590"
 คำสั่งพื้นฐานต่อไปนี้จะแสดงตัวเลือกที่พร้อมใช้งานถ้ามีการขอการติดตั้ง ขอแนะนำให้ใช้คำสั่งนี้เมื่อทดสอบหรือใช้ตัวติดตั้งครั้งแรก
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 คำสั่งต่อไปนี้จะระบุพารามิเตอร์ทั้งหมดที่ควรใช้ระหว่างการเปิดใช้งานอุปกรณ์หลังจากติดตั้งแอปพลิเคชัน Modern POS ตัวอย่างนี้ใช้ทะเบียน **Houston-3** ซึ่งเป็นค่าที่ใช้กันโดยทั่วไปในข้อมูลสาธิตของ Dynamics 365 Commerce
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 คำสั่งต่อไปนี้ระบุพารามิเตอร์ที่ควรจะใช้ในการติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ SQL Server ระบุพร้อมกับไฟล์การตั้งค่าคอนฟิกที่ควรจะใช้
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 คุณสามารถผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ
@@ -148,7 +151,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 คุณต้องลบส่วนประกอบสถานีฮาร์ดแวร์ระบบริการตนเองของเก่าออก สำหรับข้อมูลเพิ่มเติม โปรดดูที่ขั้นตอนการย้ายที่กล่าวถึงก่อนหน้าในบทความนี้ ไม่มีเครื่องมือข้อมูลบัญชีผู้จำหน่ายอีกต่อไป แต่ข้อมูลบัญชีผู้จำหน่ายจะถูกติดตั้งเมื่อเทอร์มินัล POS จับคู่กับสถานีฮาร์ดแวร์ เมื่อทำการทดสอบตัวติดตั้งนี้เป็นครั้งแรก ขอแนะนำให้คุณเรียกใช้คำสั่งต่อไปนี้:
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>ตัวอย่างของการปรับใช้แบบไม่แสดงข้อความ
@@ -162,7 +165,7 @@ CommerceHardwareStation.exe --help install
 คำสั่งพื้นฐานต่อไปนี้เรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการ
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 > ไม่แนะนำให้ข้ามการตรวจสอบหากไม่มีการทดสอบอย่างถี่ถ้วนล่วงหน้าหรืออยู่ในสถานการณ์การพัฒนา
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 ตามธรรมเนียมทั่วไป เป็นเรื่องปกติที่จะผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ
@@ -184,7 +187,7 @@ HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCh
 เมื่อทำการทดสอบตัวติดตั้งนี้เป็นครั้งแรก ขอแนะนำให้คุณเรียกใช้คำสั่งต่อไปนี้:
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>ก่อนที่คุณจะเริ่มต้น
@@ -202,7 +205,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 เมื่อเปรียบเทียบกับตัวติดตั้งระบบบริการตนเองอื่นๆ Commerce Scale Unit (CSU) มีความซับซ้อนมากขึ้น และต้องการข้อมูลเพิ่มเติมจํานวนมากอย่างเป็นธรรม คำสั่งต่อไปนี้คือคำสั่งขั้นต่ำ (พร้อมพารามิเตอร์) ที่จำเป็นในการเรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการเมื่อไม่มีไฟล์การตั้งค่าคอนฟิก
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 คำสั่งต่อไปนี้เป็นคำสั่งที่แบบละเอียดขึ้นซึ่งจะเรียกใช้ตัวติดตั้งไฟล์ปฏิบัติการด้วยพารามิเตอร์ทางเลือกบางอย่าง
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 คำสั่งต่อไปนี้ระบุพารามิเตอร์ที่ต้องใช้เพื่อข้ามการตรวจสอบข้อกำหนดเบื้องต้นในระหว่างการติดตั้งมาตรฐาน 
@@ -221,7 +224,7 @@ CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMach
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 คุณสามารถผสมผสานแนวคิดเหล่านี้เพื่อให้ได้ผลลัพธ์การติดตั้งที่คุณต้องการ

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902037"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357653"
 ---
 # <a name="inventory-visibility-public-apis"></a>API สาธารณะสำหรับ Inventory Visibility
 
@@ -98,16 +98,16 @@ Microsoft ได้ให้การรวบรวมโทเคน *Postman*
 1. ลงชื่อเข้าใช้พอร์ทัล Azure และใช้เพื่อค้นหาค่า `clientId` และ `clientSecret` สำหรับแอป Dynamics 365 Supply Chain Management ของคุณ
 1. ดึงข้อมูลโทเค็น Azure AD (`aadToken`) โดยการส่งคำขอ HTTP ที่มีคุณสมบัติต่อไปนี้:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **วิธีการ:** `GET`
    - **ตัวเนื้อหา (ข้อมูลฟอร์ม):**
 
-     | คีย์           | มูลค่า                                |
-     | ------------- | ------------------------------------ |
-     | รหัส_ไคลเอนต์     | ${aadAppId}                          |
-     | ข้อมูลลับ_ไคลเอ็นต์ | ${aadAppSecret}                      |
-     | ชนิด_การให้สิทธิ์    | ข้อมูลประจำตัว_ไคลเอ็นต์                   |
-     | ทรัพยากร      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | คีย์           | มูลค่า                                            |
+     | ------------- | -------------------------------------------------|
+     | รหัส_ไคลเอนต์     | ${aadAppId}                                      |
+     | ข้อมูลลับ_ไคลเอ็นต์ | ${aadAppSecret}                                  |
+     | ชนิด_การให้สิทธิ์    | ข้อมูลประจำตัว_ไคลเอ็นต์                               |
+     | ขอบเขต         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
    คุณควรได้รับโทเคน Azure AD (`aadToken`) ในการตอบสนอง ผลลัพธ์ควรมีลักษณะคล้ายกับตัวอย่างต่อไปนี้
 
@@ -116,9 +116,6 @@ Microsoft ได้ให้การรวบรวมโทเคน *Postman*
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Microsoft ได้ให้การรวบรวมโทเคน *Postman*
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -516,7 +513,7 @@ Body:
 
 ในส่วนเนื้อหาของคำขอนี้ `dimensionDataSource` ยังคงเป็นพารามิเตอร์ที่ไม่บังคับ ถ้าไม่ได้ตั้งค่าไว้ `filters` จะถือว่าเป็น *มิติพื้นฐาน* มีสี่ฟิลด์ที่ต้องใช้สำหรับ `filters`: `organizationId`, `productId`, `siteId` และ `locationId`
 
-- `organizationId` ควรมีค่าเพียงค่าเดียว แต่ยังคงเป็นแถวลำดับ
+- `organizationId` ควรมีค่าเพียงค่าเดียว แต่ยังคงเป็นอาร์เรย์
 - `productId` สามารถมีค่าหนึ่งค่าหรือมากกว่า ถ้าเป็นแถวลำดับที่ว่างเปล่า ผลิตภัณฑ์ทั้งหมดจะถูกส่งกลับ
 - `siteId` และ `locationId` ใช้ในการแสดงผลสินค้าคงคลังในการพาร์ทิชัน คุณสามารถระบุค่า `siteId` ใน `locationId` มากกว่าหนึ่งค่าในคำขอ *แบบสอบถามคงเหลือ* ในรุ่นปัจจุบัน คุณต้องระบุทั้งค่า `siteId` และ `locationId`
 
