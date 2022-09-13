@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.30 (พฤศจิกายน 2022)
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.29 (ตุลาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 (สิงหาคม 2022)

@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (พฤศจิกายน)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (ตุลาคม)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (สิงหาคม)
@@ -1134,10 +1136,12 @@
                   items:
                     - name: การกระจายการลงบัญชี
                       href: accounts-payable/accounting-distributions.md
-                    - name: โอนบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป
+                    - name: การโอนบัญชีแยกประเภทย่อยไปยังบัญชีแยกประเภททั่วไป
                       href: general-ledger/subledger-transfer.md
                     - name: โปรแกรมตรวจดูบัญชีต้นทาง
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: เอกสารที่รอข้อมูลการบัญชี
+                      href: general-ledger/documents-pending-accounting.md
             - name: รายงานและการสอบถาม
               items:
                 - name: ดูรายการสมุดรายวันและธุรกรรม

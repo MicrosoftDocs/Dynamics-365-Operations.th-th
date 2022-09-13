@@ -3413,9 +3413,7 @@
                       href: warehousing/packing-work.md
                     - name: ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
-                      href: warehousing/cancel-warehouse-work.md
-                    - name: การจัดลำดับงานที่สั่งการโดยระบบ
+                    - name: การจัดลำดับเวิร์กโฟลว์ที่สั่งการโดยระบบ
                       href: warehousing/system-directed-work-sequencing.md
                     - name: การจัดกลุ่มรายการการเบิกสินค้า
                       href: warehousing/pick-line-grouping.md
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: การจัดรูปแบบการแสดงข้อมูลปริมาณงานขาออก
                       href: warehousing/outbound-workload-visualization.md
+                    - name: จัดการข้อยกเว้นการเบิกสินค้าตามรายการขายและโอนย้ายด้วยตนเอง
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: ยกเลิกงานในคลังสินค้าสำหรับการจัดการที่ยกเว้น
+                      href: warehousing/cancel-warehouse-work.md
                 - name: การเติมสินค้า
                   items:
                     - name: ภาพรวมของการเติมสินค้า
