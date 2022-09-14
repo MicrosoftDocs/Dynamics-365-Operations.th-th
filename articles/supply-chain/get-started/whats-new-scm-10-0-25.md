@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219108"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403715"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.25 (เมษายน 2022)
 
@@ -161,7 +161,7 @@ ms.locfileid: "9219108"
 | การจัดการคลังสินค้า | [การกำหนดตำแหน่งป้ายทะเบียนตามสถานที่](../warehousing/location-license-plate-positioning.md) | จำเป็น |
 | การจัดการคลังสินค้า | [การผสมมิติของผลิตภัณฑ์ในสถานที่](../warehousing/location-product-dimension-mixing.md) | จำเป็น |
 | การจัดการคลังสินค้า | ทำให้ฟิลด์สถานะสินค้าคงคลังของการเคลื่อนย้ายสินค้าคงคลังในอุปกรณ์เคลื่อนที่สามารถแก้ไขได้ | จำเป็น |
-| การจัดการคลังสินค้า | บริการการเลือกรายการขายด้วยตนเองสำหรับผู้ดูแลระบบหรือผู้ใช้ที่ไว้ใจได้ที่คล้ายกัน | จำเป็น |
+| การจัดการคลังสินค้า | [บริการการเลือกรายการขายด้วยตนเองสำหรับผู้ดูแลระบบหรือผู้ใช้ที่ไว้ใจได้ที่คล้ายกัน](../warehousing/manual-order-line-picking-exception-handling.md) | จำเป็น |
 | การจัดการคลังสินค้า | [ป้องกันการใช้ป้ายทะเบียนที่จัดส่งตามใบสั่งโอนย้ายในคลังสินค้าอื่นนอกเหนือจากคลังสินค้าปลายทาง](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | จำเป็น |
 | การจัดการคลังสินค้า | แจ้งให้แก้ไขชื่อ 'สถานที่ตั้ง/ป้ายทะเบียน' ที่ไม่ชัดเจน | จำเป็น |
 | การจัดการคลังสินค้า | [การตรวจสอบคุณภาพ](../warehousing/quality-check.md) | จำเป็น |

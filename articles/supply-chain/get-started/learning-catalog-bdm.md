@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 81c20432a3094ef0fe3013c0867044ef3014adcb
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 4c3289d034346fa21e31000fa4a2b4961a2d5304
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124632"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423676"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>แค็ตตาล็อกการเรียนรู้สำหรับผู้ตัดสินใจทางธุรกิจโดยพิจารณาจาก Dynamics 365 Supply Chain Management
 
@@ -27,9 +27,8 @@ ms.locfileid: "9124632"
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน<a name="get-started"></a>
 
-| ปริมาณความจุ | คำอธิบาย | รูปแบบ | ความยาว |
+| เนื้อหา | คำอธิบาย | รูปแบบ | ความยาว |
 |---------|-------------|--------|--------|
-| [เรียนรู้มูลค่าทางธุรกิจของ Microsoft Dynamics 365 และ Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | คุณสนใจเรียนรู้เกี่ยวกับแอปพลิเคชันธุรกิจหรือไม่? บางทีคุณอาจไม่ทราบว่าจะเริ่มต้นด้วยแอปพลิเคชัน Microsoft Dynamics 365 และแอปพลิเคชัน Power Platform ที่ใด เรียนรู้ว่าแอปพลิเคชัน power of business สามารถช่วยเปลี่ยนธุรกิจของคุณได้อย่างไร | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 7 ชั่วโมง |
 | [Dynamics 365 และ Power Platform พื้นฐาน](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | คุณสนใจเรียนรู้เกี่ยวกับแอปพลิเคชันธุรกิจหรือไม่? เริ่มต้นด้วยพาธการเรียนรู้นี้เพื่อดูว่ามีการใช้แอป Dynamics 365 อย่างไร เรียนรู้เกี่ยวกับแนวคิดคลาวด์ Power Platform และวิธีการเริ่มต้นด้วยแอป Dynamics 365 | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 5.5 ชั่วโมง |
 | [เริ่มต้นใช้งานแอปการเงินและการดำเนินงาน](/learn/paths/get-started-finance-operations/) | เรียนรู้วิธีที่แอปการเงินและการดำเนินงาน สนับสนุนธุรกิจเพื่อจัดการระบบทางการเงินส่วนกลาง กระบวนการทางธุรกิจการดำเนินงาน และห่วงโซ่อุปทานที่มีประสิทธิภาพ เพื่อให้ผู้ใช้สามารถตัดสินใจอย่างรอบคอบได้อย่างรวดเร็ว ขั้นตอนแรกในอาชีพของคุณในการทำงานกับแอปการเงินและการดำเนินงาน คุณต้องทำความคุ้นเคยกับลักษณะการทำงานและฟังก์ชัน โดยไม่คำนึงถึงบทบาทที่คุณต้องการ | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 2 ชั่วโมง |
 | [หลักสูตร MB-900T01-A: Dynamics 365 พื้นฐาน](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | หลักสูตรนี้จะทำให้ผู้เรียนเกิดความคุ้นเคยกับฟังก์ชันการทำงานของ Dynamics 365 และค่าทางธุรกิจ หลักสูตรจะครอบคลุมแอปพลิเคชัน Dynamics 365 the Power Platform แนวคิดของคลาวด์ แบบจำลองความปลอดภัย และการพิจารณาสิทธิ์การใช้งาน | ผู้สอน-นำไปใช้ในการฝึกอบรมด้วยคนหรือแบบออนไลน์, ต้นทุนแตกต่างกันไปในแต่ละภูมิภาคและคู่ค้า | 1 วัน |

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306068"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388553"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>ติดตั้งและตั้งค่า Inventory Visibility
 
@@ -56,7 +56,9 @@ ms.locfileid: "9306068"
 1. ในหน้าสภาพแวดล้อม ให้เลื่อนลงจนกว่าคุณจะพบส่วน **Add-in ของสภาพแวดล้อม** ในส่วน **การรวม Power Platform** คุณสามารถค้นหาชื่อสภาพแวดล้อม Dataverse ได้ ยืนยันว่าชื่อสภาพแวดล้อม Dataverse เป็นชื่อที่คุณต้องการใช้ในการแสดงผลสินค้าคงคลัง
 
     > [!NOTE]
-    > ปัจจุบัน สนับสนุนเฉพาะสภาพแวดล้อม Dataverse ที่สร้างโดยใช้ LCS เท่านั้น ถ้าสภาพแวดล้อม Dataverse ของคุณถูกสร้างขึ้นในวิธีอื่น (ตัวอย่างเช่น โดยใช้ศูนย์การจัดการ Power Apps) และถ้าจะเชื่อมโยงกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณต้องติดต่อทีมงานผลิตภัณฑ์การแสดงผลสินค้าคงคลังที่ [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) เพื่อแก้ปัญหาการแมปก่อน จากนั้นคุณสามารถติดตั้งการแสดงผลสินค้าคงคลัง
+    > ปัจจุบัน สนับสนุนเฉพาะสภาพแวดล้อม Dataverse ที่สร้างโดยใช้ LCS เท่านั้น ถ้าสภาพแวดล้อม Dataverse ของคุณถูกสร้างขึ้นในวิธีอื่น (ตัวอย่างเช่น โดยใช้ศูนย์การจัดการ PowerApps) และถ้าจะเชื่อมโยงกับสภาพแวดล้อม Supply Chain Management ของคุณ คุณต้องแก้ปัญหาการแม็ปก่อนที่จะติดตั้ง Add-in ของ Inventory Visibility
+    >
+    > เป็นไปได้ว่าสภาพแวดล้อมแบบสองทิศทางของคุณเชื่อมโยงกับอินสแตนซ์ Dataverse ในขณะที่ไม่ได้ตั้งค่า LCS เพื่อการรวม Power Platform การเชื่อมโยงนี้ไม่ตรงกันอาจทําให้เกิดลักษณะการทํางานที่ไม่คาดคิด ขอแนะนำว่ารายละเอียดของสภาพแวดล้อม LCS จะตรงกับสิ่งที่คุณเชื่อมต่อด้วยแบบสองทิศททาง เพื่อให้การเชื่อมต่อเดียวกันสามารถใช้ได้โดยเหตุการณ์ทางธุรกิจ ตารางเสมือน และ Add-in ดูที่ [การลิงค์ไม่ตรงกัน](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) สำหรับข้อมูลเกี่ยวกับวิธีการแก้ไขปัญหาการแม็ป เมื่อปัญหาการแม็ปได้รับการแก้ไขแล้ว คุณสามารถดําเนินการติดตั้งการมองเห็นสินค้าคงคลัง
 
 1. ในส่วน **add-in สภาพแวดล้อม** ให้เลือก **ติดตั้ง add-in ใหม่**
 
@@ -140,11 +142,11 @@ ms.locfileid: "9306068"
 1. เลือก **สภาพแวดล้อม** บนแถบนําทาง
 1. เลือกสภาพแวดล้อม Dataverse ที่ผูกกับสภาพแวดล้อม LCS ของคุณ
 1. ไปที่ **โซลูชัน** และลบโซลูชันต่อไปนี้ ในใบสั่งต่อไปนี้:
-    1. โซลูชันจุดยึดของแอปพลิเคชันการแสดงผลสินค้าคงคลังในโซลูชัน Dynamics 365
-    1. โซลูชันแอปพลิเคชันการแสดงผลสินค้าคงคลังของ Dynamics 365 FNO SCM
-    1. การตั้งค่าคอนฟิกบริการสินค้าคงคลัง
-    1. การแสดงผลสินค้าคงคลังแบบสแตนด์อโลน
-    1. โซลูชันพื้นฐานของการแสดงผลสินค้าคงคลังของ Dynamics 365 FNO SCM
+    1. Dynamics 365 Inventory Visibility - จุดยึด
+    1. Dynamics 365 Inventory Visibility - แอพลิเคชัน
+    1. Dynamics 365 Inventory Visibility - การควบคุม
+    1. Dynamics 365 Inventory Visibility - ปลั๊กอิน
+    1. Dynamics 365 Inventory Visibility - พื้นฐาน
 
     หลังจากที่คุณลบโซลูชันเหล่านี้แล้ว ข้อมูลที่จัดเก็บอยู่ในตารางจะถูกลบด้วย
 

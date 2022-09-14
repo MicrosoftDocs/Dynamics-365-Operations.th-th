@@ -1,23 +1,23 @@
 ---
 title: แค็ตตาล็อกเพื่อการเรียนรู้สำหรับผู้ใช้ของ Dynamics 365 Finance
 description: ค้นหาตัวเลือกการฝึกอบรมทั้งหมดสำหรับผู้ใช้ของ Dynamics 365 Finance
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 99a672e4fd0bfe270f0cd1bfa421b7bd6feca9e1
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069298"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424572"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>แค็ตตาล็อกเพื่อการเรียนรู้สำหรับผู้ใช้ของ Dynamics 365 Finance
 
@@ -27,9 +27,8 @@ ms.locfileid: "9069298"
 
 ## <a name="get-started"></a>เริ่มต้นใช้งาน<a name="get-started"></a>
 
-| ปริมาณความจุ | คำอธิบาย | รูปแบบ | ความยาว |
+| เนื้อหา | คำอธิบาย | รูปแบบ | ความยาว |
 |---------|-------------|--------|--------|
-| [เรียนรู้มูลค่าทางธุรกิจของ Microsoft Dynamics 365 และ Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | คุณสนใจเรียนรู้เกี่ยวกับแอปพลิเคชันธุรกิจหรือไม่? บางทีคุณอาจไม่ทราบว่าจะเริ่มต้นด้วยแอปพลิเคชัน Microsoft Dynamics 365 และแอปพลิเคชัน Power Platform ที่ใด เรียนรู้ว่าแอปพลิเคชัน power of business สามารถช่วยเปลี่ยนธุรกิจของคุณได้อย่างไร | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 8 ชั่วโมง |
 | [Dynamics 365 และ Power Platform พื้นฐาน](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | คุณสนใจเรียนรู้เกี่ยวกับแอปพลิเคชันธุรกิจหรือไม่? เริ่มต้นด้วยพาธการเรียนรู้นี้เพื่อดูว่ามีการใช้แอป Dynamics 365 อย่างไร เรียนรู้เกี่ยวกับแนวคิดคลาวด์ Power Platform และวิธีการเริ่มต้นด้วยแอป Dynamics 365 | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 5.5 ชั่วโมง   |
 | [เริ่มต้นใช้งานแอปการเงินและการดำเนินงาน](/learn/paths/get-started-finance-operations/) | เรียนรู้วิธีที่แอปการเงินและการดำเนินงาน สนับสนุนธุรกิจเพื่อจัดการระบบทางการเงินส่วนกลาง กระบวนการทางธุรกิจการดำเนินงาน และห่วงโซ่อุปทานที่มีประสิทธิภาพ เพื่อให้ผู้ใช้สามารถตัดสินใจอย่างรอบคอบได้อย่างรวดเร็ว   ขั้นตอนแรกในอาชีพของคุณในการทำงานกับแอปการเงินและการดำเนินงาน คุณต้องทำความคุ้นเคยกับลักษณะการทำงานและฟังก์ชันโดยไม่คำนึงถึงบทบาทที่คุณต้องการ | การเรียนรู้พาธออนไลน์ด้วยตนเองฟรี | 2 ชั่วโมง |
 | [เริ่มต้นใช้งาน Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | ด้วย Dynamics 365 Intelligent Order Management ลูกค้าสามารถจัดการบริหารใบสั่งผ่านการเติมสินค้าได้ ความสามารถเหล่านี้ช่วยให้องค์กรสามารถจัดระเบียบขั้นตอนของใบสั่งข้ามแพลตฟอร์มและแอปต่างๆ ได้ | การเรียนรู้โมดูลออนไลน์ด้วยตนเองฟรี | 30 นาที |

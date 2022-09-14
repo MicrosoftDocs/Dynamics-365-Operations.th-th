@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357653"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423608"
 ---
 # <a name="inventory-visibility-public-apis"></a>API สาธารณะสำหรับ Inventory Visibility
 
@@ -41,6 +41,8 @@ REST API สาธารณะของ Add-in การแสดงผลสิ
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ลงรายการบัญชี | [ตั้งค่า/แทนที่ปริมาณคงคลังคงเหลือ](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหนึ่งเหตุการณ์](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ลงรายการบัญชี | [สร้างเหตุการณ์การจองหลายเหตุการณ์](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | ลงรายการบัญชี | [ย้อนกลับเหตุการณ์การจองหนึ่งเหตุการณ์](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | ลงรายการบัญชี | [ย้อนกลับเหตุการณ์การจองหลายเหตุการณ์](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | ลงรายการบัญชี | [สร้างการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการหนึ่งเหตุการณ์](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | ลงรายการบัญชี | [สร้างการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการหลายเหตุการณ์](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ลงรายการบัญชี | [การสอบถามโดยใช้วิธีการลงรายการบัญชี](#query-with-post-method) |
@@ -56,7 +58,7 @@ REST API สาธารณะของ Add-in การแสดงผลสิ
 > 
 > API จำนวนมากสามารถส่งคืนเรกคอร์ดได้สูงสุด 512 เรกคอร์ดต่อการร้องขอแต่ละครั้ง
 
-Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>
+Microsoft ได้ให้การรวบรวมการร้องขอ *Postman* แบบสำเร็จรูป คุณสามารถนําเข้าการรวบรวมนี้ไปยังซอฟต์แวร์ *Postman* ของคุณได้ โดยใช้ลิงค์ที่ใช้ร่วมกันต่อไปนี้: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>ค้นหาปลายทางตามสภาพแวดล้อม Lifecycle Services ของคุณ
 
@@ -170,7 +172,7 @@ Microsoft ได้ให้การรวบรวมโทเคน *Postman*
 
 | ฟิลด์ ID | คำอธิบาย |
 |---|---|
-| `id` | รหัสเฉพาะสำหรับเหตุการณ์การเปลี่ยนแปลงเฉพาะ รหัสนี้จะถูกใช้เพื่อให้แน่ใจว่า ถ้าการสื่อสารกับบริการล้มเหลวในระหว่างการลงรายการบัญชี เหตุการณ์เดียวกันจะไม่ถูกนับสองครั้งในระบบ หากไม่มีการส่งซ้ำ |
+| `id` | รหัสเฉพาะสำหรับเหตุการณ์การเปลี่ยนแปลงเฉพาะ ถ้าการส่งอีกครั้งเกิดขึ้นเนื่องจากความล้มเหลวของบริการ ID นี้จะถูกใช้เพื่อให้แน่ใจว่าเหตุการณ์เดียวกันจะไม่ถูกนับสองครั้งในระบบ |
 | `organizationId` | ตัวระบุขององค์กรที่ลิงก์ไปยังเหตุการณ์ ค่านี้จะถูกแมปไปยังองค์กรหรือรหัสพื้นที่ข้อมูลใน Supply Chain Management |
 | `productId` | ตัวระบุของผลิตภัณฑ์ |
 | `quantities` | ปริมาณที่ต้องมีการเปลี่ยนแปลงปริมาณคงคลังคงเหลือ ตัวอย่างเช่น ถ้ามีการเพิ่มสมุดบัญชีใหม่ 10 เล่มในชั้นวาง ค่านี้จะเป็น `quantities:{ shelf:{ received: 10 }}` ถ้าเอาสมุดบัญชีสามเล่มออกจากชั้นวางหรือขายแล้ว ค่านี้จะเป็น `quantities:{ shelf:{ sold: 3 }}` |
@@ -178,7 +180,7 @@ Microsoft ได้ให้การรวบรวมโทเคน *Postman*
 | `dimensions` | คู่คีย์/ค่าแบบไดนามิก ค่าถูกแมปกับมิติบางมิติใน Supply Chain Management อย่างไรก็ตาม คุณยังสามารถเพิ่มมิติที่กำหนดเอง (ตัวอย่างเช่น _ต้นทาง_) เพื่อบ่งชี้ว่าเหตุการณ์มาจากการ Supply Chain Management หรือระบบภายนอก |
 
 > [!NOTE]
-> พารามิเตอร์ `SiteId` และ `LocationId` จะสร้าง [การตั้งค่าคอนฟิกพาร์ติชัน](inventory-visibility-configuration.md#partition-configuration) ดังนั้น คุณต้องระบุในมิติเมื่อคุณสร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือ ตั้งค่าหรือแทนที่ปริมาณคงคลังคงเหลือ หรือสร้างเหตุการณ์การจอง
+> พารามิเตอร์ `siteId` และ `locationId` จะสร้าง [การตั้งค่าคอนฟิกพาร์ติชัน](inventory-visibility-configuration.md#partition-configuration) ดังนั้น คุณต้องระบุในมิติเมื่อคุณสร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือ ตั้งค่าหรือแทนที่ปริมาณคงคลังคงเหลือ หรือสร้างเหตุการณ์การจอง
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>สร้างเหตุการณ์การเปลี่ยนแปลงปริมาณคงคลังคงเหลือหนึ่งเหตุการณ์
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>สร้างเหตุการณ์การจอง
 
-เมื่อต้องการใช้ API *จอง* คุณต้องเปิดคุณลักษณะการจองและทำการตั้งค่าคอนฟิกการจองให้เสร็จสมบูรณ์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การตั้งค่าคอนฟิกการจอง (ไม่จำเป็น)](inventory-visibility-configuration.md#reservation-configuration)
+เมื่อต้องการใช้ API *การจอง* คุณต้องเปิดคุณลักษณะการจอง และทำการตั้งค่าคอนฟิกการจองให้เสร็จสมบูรณ์ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การตั้งค่าคอนฟิกการจอง (ไม่จำเป็น)](inventory-visibility-configuration.md#reservation-configuration)
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>สร้างเหตุการณ์การจองหนึ่งเหตุการณ์
 
@@ -389,7 +391,7 @@ Body:
 
 เมื่อคุณเรียกใช้ API การจอง คุณสามารถควบคุมการตรวจสอบความถูกต้องของการจองได้โดยการระบุพารามิเตอร์ `ifCheckAvailForReserv` แบบบูลีนในเนื้อหาคำขอ ค่า `True` หมายความว่าการตรวจสอบความถูกต้องนั้นต้องระบุ ในขณะที่ค่า `False` หมายความว่าการตรวจสอบความถูกต้องนั้นไม่จำเป็น ค่าเริ่มต้นคือ `True`
 
-ถ้าคุณต้องการยกเลิกการจองหรือยกเลิกการจองปริมาณสินค้าคงคลังที่ระบุ ให้ตั้งค่าปริมาณเป็นค่าลบและตั้งค่าพารามิเตอร์ `ifCheckAvailForReserv` เป็น `False` เพื่อข้ามการตรวจสอบความถูกต้อง
+ถ้าคุณต้องการย้อนกลับการจองหรือยกเลิกการจองปริมาณสินค้าคงคลังที่ระบุ ให้ตั้งค่าปริมาณเป็นค่าลบ และตั้งค่าพารามิเตอร์ `ifCheckAvailForReserv` เป็น `False` เพื่อข้ามการตรวจสอบความถูกต้อง นอกจากนี้ยังมี API ยกเลิกการจองที่จัดสรรที่จะเหมือนกันด้วย ความแตกต่างอยู่ที่วิธีการเรียก API ทั้งสองเท่านั้น เป็นการง่ายที่จะย้อนกลับเหตุการณ์การจองเฉพาะโดยใช้ `reservationId` ที่มี API *ยกเลิกการจอง* สำหรับข้อมูลเพิ่มเติม ให้ดูที่ส่วน [_ยกเลิกเหตุการณ์การจองหนึ่งรายการ_](#reverse-reservation-events)
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+ตัวอย่างต่อไปนี้แสดงการตอบสนองที่เสร็จเรียบร้อยแล้ว
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>สร้างเหตุการณ์การจองหลายเหตุการณ์
 
-API นี้เป็นเวอร์ชันกลุ่มของ [API เหตุการณ์เดียว](#create-one-reservation-event)
+API นี้เป็นเวอร์ชันกลุ่มของ [API เหตุการณ์เดียว](#create-reservation-events)
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>ย้อนกลับเหตุการณ์การจอง
+
+API *Unreservs* ใช้เป็นการดําเนินงานย้อนกลับในเหตุการณ์ [*การจอง*](#create-reservation-events) ซึ่งให้วิธีการย้อนกลับเหตุการณ์การจองที่ระบุโดย `reservationId` หรือลดปริมาณการจองได้
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>ย้อนกลับเหตุการณ์การจองหนึ่งเหตุการณ์
+
+เมื่อสร้างการจองแล้ว `reservationId` จะถูกรวมในเนื้อหาการตอบสนอง คุณต้องระบุ `reservationId` เดียวกันเพื่อยกเลิกการจอง และรวม `organizationId` เดียวกัน และ `dimensions` ถูกใช้สำหรับการเรียก API การจอง ในขั้นสุดท้าย ให้ระบุค่า `OffsetQty` ที่แสดงถึงจํานวนของรายการที่จะว่าง จากการจองก่อนหน้านี้ การจองสามารถย้อนกลับทั้งหมดหรือบางส่วนได้ ขึ้นอยู่กับ `OffsetQty` ที่ระบุ ตัวอย่างเช่น หากมีการจองสินค้าไว้ *100* หน่วย คุณสามารถระบุ `OffsetQty: 10` เป็นยกเลิกการจอง *10* ของยอดที่จองไว้เริ่มต้น
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+รหัสต่อไปนี้จะแสดงตัวอย่างของเนื้อหา
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+รหัสต่อไปนี้แสดงตัวอย่างของเนื้อหาการตอบสนองที่เสร็จเรียบร้อยแล้ว
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> ในเนื้อหาการตอบสนอง เมื่อ `OffsetQty` น้อยกว่าหรือเท่ากับปริมาณการจอง `processingStatus` จะเป็น "*สำเร็จ*" และ `totalInvalidOffsetQtyByReservId` จะเป็น *0*
+>
+> ถ้า `OffsetQty` มากกว่าจำนวนที่จองไว้ `processingStatus` จะเป็น "*partialSuccess*" และ `totalInvalidOffsetQtyByReservId` จะเป็นผลต่างระหว่าง `OffsetQty` และจำนวนที่จองไว้
+>
+>ตัวอย่างเช่น ถ้าการจองมีปริมาณเป็น *10* และ `OffsetQty` มีค่าเป็น *12* `totalInvalidOffsetQtyByReservId` จะเป็น *2*
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>ย้อนกลับเหตุการณ์การจองหลายเหตุการณ์
+
+API นี้เป็นเวอร์ชันกลุ่มของ [API เหตุการณ์เดียว](#reverse-one-reservation-event)
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>ปริมาณคงคลังคงเหลือของการสอบถาม
 
-ใช้ API _ปริมาณคงคลังคงเหลือของการสอบถาม_ เพื่อดึงข้อมูลปริมาณคงคลังคงเหลือปัจจุบันสำหรับผลิตภัณฑ์ของคุณ ปัจจุบัน API สนับสนุนการสอบถามสินค้าแต่ละรายการสูงสุด 100 รายการตามค่า `ProductID` นอกจากนี้ `SiteID` และ `LocationID` ยังสามารถระบุหลายค่าในแต่ละการสอบถามได้ ขีดจํากัดสูงสุดจะกําหนดเป็น `NumOf(SiteID) * NumOf(LocationID) <= 100`
+ใช้ API *ปริมาณคงคลังคงเหลือของการสอบถาม* เพื่อดึงข้อมูลปริมาณคงคลังคงเหลือปัจจุบันสำหรับผลิตภัณฑ์ของคุณ ปัจจุบัน API สนับสนุนการสอบถามสินค้าแต่ละรายการสูงสุด 5000 รายการตามค่า `productID` นอกจากนี้ `siteID` และ `locationID` ยังสามารถระบุหลายค่าในแต่ละการสอบถามได้ ขีดจํากัดสูงสุดจะกําหนดโดยสมการต่อไปนี้:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>การสอบถามโดยใช้วิธีการลงรายการบัญชี
 
@@ -517,7 +629,7 @@ Body:
 - `productId` สามารถมีค่าหนึ่งค่าหรือมากกว่า ถ้าเป็นแถวลำดับที่ว่างเปล่า ผลิตภัณฑ์ทั้งหมดจะถูกส่งกลับ
 - `siteId` และ `locationId` ใช้ในการแสดงผลสินค้าคงคลังในการพาร์ทิชัน คุณสามารถระบุค่า `siteId` ใน `locationId` มากกว่าหนึ่งค่าในคำขอ *แบบสอบถามคงเหลือ* ในรุ่นปัจจุบัน คุณต้องระบุทั้งค่า `siteId` และ `locationId`
 
-พารามิเตอร์ `groupByValues` ควรเป็นไปตามการตั้งค่าคอนฟิกของคุณเกี่ยวกับการจัดดัชนี สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ ดูที่ [การตั้งค่าคอนฟิกตามลำดับชั้นของดัชนีผลิตภัณฑ์](./inventory-visibility-configuration.md#index-configuration)
+เราแนะนำให้คุณใช้พารามิเตอร์ `groupByValues` เพื่อให้เป็นไปตามการตั้งค่าคอนฟิกของคุณเกี่ยวกับการจัดดัชนี สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ ดูที่ [การตั้งค่าคอนฟิกตามลำดับชั้นของดัชนีผลิตภัณฑ์](./inventory-visibility-configuration.md#index-configuration)
 
 พารามิเตอร์ `returnNegative` จะควบคุมว่าผลลัพธ์มีรายการค่าลบหรือไม่
 
@@ -530,13 +642,13 @@ Body:
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 ต่อไปนี้เป็นตัวอย่าง URL การรับ คำขอรับนี้ไม่เหมือนกับตัวอย่างการลงรายการบัญชีที่ระบุไว้ก่อนหน้านี้
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>ปริมาณที่ให้สัญญาได้

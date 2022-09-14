@@ -1,6 +1,6 @@
 ---
 title: ยกเลิกงานในคลังสินค้าสำหรับการจัดการข้อยกเว้น
-description: บทความนี้จะอธิบายถึงฟังก์ชันยกเลิกการทำงานที่ช่วยให้หัวหน้างานคลังสินค้าจัดการกับงานที่ถูกบล็อค
+description: บทความนี้จะอธิบายถึงฟังก์ชันยกเลิกการทำงาน ที่ช่วยให้หัวหน้างานคลังสินค้าจัดการกับงานที่ถูกบล็อค
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a5c0cc988141b102cf3659ab4599e025f8f4640
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b1e2036e4e7a8a47d6df029f285df7aca0fa74e6
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907187"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403706"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>ยกเลิกงานในคลังสินค้าสำหรับการจัดการข้อยกเว้น
 
