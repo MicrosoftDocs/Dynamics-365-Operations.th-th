@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Human Resources
               items:
+                - name: Human Resources 10.0.30 (โครงสร้างพื้นฐานแบบผสาน)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (โครงสร้างพื้นฐานแบบผสาน)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (โครงสร้างพื้นฐานแบบผสาน)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: การป้อนข้อมูลของพนักงานที่มีประสิทธิภาพ
               href: stream-employee-entry.md
+            - name: กำหนดตัวควบคุมส่วนหัวให้เป็นส่วนตัว
+              href: hr-worker-header-control.md
             - name: ป้อนข้อมูลผู้ปฏิบัติงาน
               href: hr-personnel-enter-worker-information.md
             - name: ผู้ปฏิบัติงานที่ไม่มีการจ้างงาน

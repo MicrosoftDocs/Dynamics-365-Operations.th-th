@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (ตุลาคม 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (สิงหาคม 2022)
@@ -1719,6 +1721,28 @@
                   href: inventory/inventory-visibility-api.md
                 - name: เคล็ดลับของ Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: โฮมเพต Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: เปิด Sensor Data Intelligence สำหรับระบบของคุณ
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: ปรับใช้โซลูชัน IoT กับ Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: พารามิเตอร์ Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: ตั้งค่าเซนเซอร์จำลองสำหรับการทดสอบ
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: สถานการณ์การหยุดทำงานของสินทรัพย์
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: สถานการณ์การบำรุงรักษาสินทรัพย์
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: สถานการณ์สถานะของเครื่อง
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: สถานการณ์คุณภาพผลิตภัณฑ์
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: สถานการณ์ความล่าช้าในการผลิต
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: เครื่องมือ IoT
           items:
             - name: โฮมเพจเครื่องมือ IoT
@@ -1940,7 +1964,7 @@
                 - name: การควบคุมต้นทุน
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: การจัดการค่าใช้จ่าย
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: ปริมาณสินค้าคงคลังคงเหลือ
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: การอนุมัติใบแจ้งหนี้
@@ -1948,11 +1972,11 @@
                 - name: ทีมงานของฉัน
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: ภาพรวมของแอปพลิเคชัน Project สำหรับอุปกรณ์เคลื่อนที่
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: รายการข้อมูลเวลาของโครงการ
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: การอนุมัติใบสั่งซื้อ
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: ใบสั่งขาย
@@ -3463,19 +3487,19 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: นโยบายการรวมบัญชีการจัดส่ง
                   items:
-                    - name: นโยบายการรวมบัญชีการจัดส่ง
+                    - name: ภาพรวมนโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: สถานการณ์จำลอง 1 - รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
+                    - name: สถานการณ์ 1 - รวมบัญชีการจัดส่งที่นำออกใช้ไปยังคลังสินค้าโดยใช้การนำใบสั่งขายออกใช้โดยอัตโนมัติ
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: สถานการณ์จำลอง 2 - รวมบัญชีการจัดส่งเมื่อมีการแทนที่นโยบายการรวมบัญชีการจัดส่ง
+                    - name: สถานการณ์ 2 - รวมบัญชีการจัดส่งเมื่อมีการแทนที่นโยบายการรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: สถานการณ์จำลอง 3 - รวมบัญชีการจัดส่งโดยการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
+                    - name: สถานการณ์ 3 - รวมบัญชีการจัดส่งโดยการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
-                    - name: สถานการณ์จำลอง 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
+                    - name: สถานการณ์ 4 - รวมบัญชีการจัดส่งโดยใช้เวิร์กเบนช์การรวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-workbench.md
-                    - name: สถานการณ์จำลองที่ 5 - รวมบัญชีการจัดส่งด้วยตนเอง โดยใช้หน้ารวมบัญชีการจัดส่ง
+                    - name: สถานการณ์ 5 - รวมบัญชีการจัดส่งด้วยตนเองโดยใช้หน้ารวมบัญชีการจัดส่ง
                       href: warehousing/consolidate-shipments-manual-form.md
                 - name: การสร้างและการประมวลผลเวฟ
                   href: warehousing/wave-processing.md
