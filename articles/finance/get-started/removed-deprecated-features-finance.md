@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410462"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462313"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ ms.locfileid: "9410462"
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล** | แอปพลิเคชัน |
 | **ตัวเลือกการปรับใช้** | ทั้งหมด |
-| **สถานะ** | ไม่ได้รับการสนับสนุน: หลังจากเมษายน 2023 ฟังก์ชันการรับรู้รายได้ใน Dynamics 365 Finance จะไม่ได้รับการสนับสนุนด้วยการแก้ไขข้อผิดพลาดอีกต่อไป ระบบจะขอให้ลูกค้าใช้ฟังก์ชันที่ปรับปรุง [การเรียกเก็บเงินตามการสมัครใช้งาน](../../finance/accounts-receivable/subscription-billing-summary.md) ในเดือนตุลาคม 2023 คุณลักษณะการรับรู้รายได้จะไม่พร้อมใช้งานอีกต่อไป ระบบจะขอให้ลูกค้าย้ายไปที่ฟังก์ชันที่ปรับปรุง การเรียกเก็บเงินตามการสมัครใช้งาน|
+| **สถานะ** | ไม่ได้รับการสนับสนุน: หลังจากเมษายน 2023 ฟังก์ชันการรับรู้รายได้ใน Dynamics 365 Finance จะไม่ได้รับการสนับสนุนด้วยการแก้ไขข้อผิดพลาดอีกต่อไป ระบบจะขอให้ลูกค้าใช้ฟังก์ชันที่ปรับปรุง [การเรียกเก็บเงินตามการสมัครใช้งาน](../../finance/accounts-receivable/subscription-billing-summary.md) ในเดือนตุลาคม 2023 คุณลักษณะการรับรู้รายได้จะไม่พร้อมใช้งานอีกต่อไป ระบบจะขอให้ลูกค้าย้ายไปที่ฟังก์ชันที่ปรับปรุง การเรียกเก็บเงินตามการสมัครใช้งาน คุณลักษณะการขายรวมเป็นส่วนหนึ่งของการรับรู้รายได้ ไม่มีฟังก์ชันการแทนที่ที่วางแผนไว้ขณะนี้|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.29
 

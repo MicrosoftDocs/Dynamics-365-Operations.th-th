@@ -2,19 +2,19 @@
 title: โดเมนใน Dynamics 365 Commerce
 description: บทความนี้จะอธิบายวิธีการจัดการโดเมนใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405508"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465205"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>โดเมนใน Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ ms.locfileid: "9405508"
 
 - **ตัวเลือก 1** - ใช้ตัวให้บริการ DNS ของคุณเพื่อเปลี่ยนเส้นทางโดเมน apex กับโดเมน "www" ตัวอย่างเช่น fabrikam.com เปลี่ยนเส้นทางไปยัง `www.fabrikam.com` โดยที่ `www.fabrikam.com` เป็นเรกคอร์ด CNAME ซึ่งชี้ไปยังอินสแตนซ์ Azure Front Door ที่โฮสต์บน Commerce
 
-- **ตัวเลือกที่ 2** - ถ้าผู้ให้บริการ DNS ของคุณสนับสนุนเรกคอร์ด ALIAS คุณสามารถชี้โดเมน apex ไปยังปลายทางของประตูหน้า ซึ่งช่วยให้มั่นใจว่าการเปลี่ยนแปลง IP ที่ปลายทางของประตูหน้าสะท้อนอยู่
+- **ตัวเลือกที่ 2** - หากผู้ให้บริการ DNS ของคุณสนับสนุนเรกคอร์ด ALIAS คุณสามารถชี้โดเมน APEX ไปยังปลายทาง Azure Front Door ซึ่งช่วยให้มั่นใจว่าการเปลี่ยนแปลง IP โดยปลายทางจะแสดงอยู่ คุณต้องโฮสต์อินสแตนซ์ Azure Front Door ด้วยตนเอง
   
-- **ตัวเลือกที่ 3** - ถ้าผู้ให้บริการ DNS ของคุณไม่สนับสนุนเรกคอร์ด ALIAS คุณต้องตั้งค่าอินสแตนซ์ CDN หรือประตูหน้าด้วยตัวเองเพื่อโฮสต์โดเมน APEX
+- **ตัวเลือกที่ 3** - ถ้าผู้ให้บริการ DNS ของคุณไม่สนับสนุนเรกคอร์ด ALIAS คุณต้องเปลี่ยนตัวให้บริการ DNS ของคุณเป็น Azure DNS และโฮสต์ทั้งอินสแตนซ์ Azure DNS และ Azure Front Door ด้วยตัวคุณเอง
 
 > [!NOTE]
 > หากคุณใช้ Azure Front Door คุณต้องตั้งค่า Azure DNS ในการสมัครใช้งานเดียวกัน โดเมน apex ที่โฮสต์บน Azure DNS สามารถชี้ไปที่ Azure Front Door ของคุณเป็นเรกคอร์ดนามแฝง นี่เป็นวิธีแก้ปัญหาชั่วคราวเท่านั้น เพราะโดเมน apex ต้องชี้ไปที่ที่อยู่ IP เสมอ

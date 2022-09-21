@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850683"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475624"
 ---
 # <a name="intercompany-planning"></a>การวางแผนระหว่างบริษัท
 
@@ -45,8 +45,8 @@ ms.locfileid: "8850683"
 
 เมื่อต้องการใช้การวางแผนระหว่างบริษัท คุณต้องเตรียมระบบของคุณในลักษณะต่อไปนี้:
 
-1. ผลิตภัณฑ์ที่เกี่ยวข้องต้องถูกนำออกใช้ในบริษัทที่เกี่ยวข้องทั้งหมด สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
-1. ต้องครอบคลุมความต้องการปลายน้ำโดยการซื้อจากผู้จัดจำหน่ายที่มีความสัมพันธ์ระหว่างบริษัทกับบริษัทต้นน้ำและมิติสินค้าคงคลังเริ่มต้นที่เกี่ยวข้อง (ไซต์และคลังสินค้า) ของลูกค้า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) บน Microsoft Learn
+1. ผลิตภัณฑ์ที่เกี่ยวข้องต้องถูกนำออกใช้ในบริษัทที่เกี่ยวข้องทั้งหมด สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)
+1. ต้องครอบคลุมความต้องการปลายน้ำโดยการซื้อจากผู้จัดจำหน่ายที่มีความสัมพันธ์ระหว่างบริษัทกับบริษัทต้นน้ำและมิติสินค้าคงคลังเริ่มต้นที่เกี่ยวข้อง (ไซต์และคลังสินค้า) ของลูกค้า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกและใช้การค้าระหว่างบริษัทใน Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/)
 1. แผนหลักในบริษัทต้นน้ำต้องรวมความต้องการที่วางแผนไว้ล่วงหน้า และต้องระบุบริษัทและแผนหลักที่เกี่ยวข้องในแผนปลายน้ำ
 
 ## <a name="include-planned-downstream-demand"></a>รวมความต้องการขั้นปลายน้ำที่วางแผนไว้
@@ -85,6 +85,5 @@ ms.locfileid: "8850683"
 ภาพประกอบต่อไปนี้แสดงลักษณะที่ปรากฏของตัวอย่างนี้บนหน้า **การเชื่อมโยงความต้องการกับการจัดซื้อแบบหลายระดับ** สำหรับแผนการใบสั่งผลิต
 
 ![ตัวอย่างระหว่างบริษัทที่เกี่ยวข้องกับบริษัทสามแห่ง](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

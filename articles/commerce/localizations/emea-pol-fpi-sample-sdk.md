@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: b19c8d7a80ac772ae238191d1285a1ad80e6f611
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336762"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473970"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>แนวทางการปรับใช้งานตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของโปแลนด์ (ดั้งเดิม)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > คุณควรปฏิบัติตามหลักเกณฑ์ในบทความนี้ เฉพาะเมื่อคุณใช้ Microsoft Dynamics 365 Commerce เวอร์ชัน 10.0.28 หรือก่อนหน้านั้นเท่านั้น ณ Commerce เวอร์ชัน 10.0.29 ตัวอย่างการรวมเครื่องพิมพ์ทางการเงินของโปแลนด์มีอยู่ในชุดการพัฒนาซอฟต์แวร์ Commerce (SDK) สำหรับข้อมูลเพิ่มเติม ดูที่ [ตั้งค่าคอนฟิกส่วนประกอบช่องทาง](./emea-pol-fpi-sample.md#configure-channel-components)

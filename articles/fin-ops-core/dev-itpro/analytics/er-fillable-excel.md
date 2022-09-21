@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280938"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476839"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>ออกแบบการตั้งค่าคอนฟิกสำหรับการสร้างเอกสารในรูปแบบ Excel
 
@@ -186,6 +186,9 @@ ms.locfileid: "9280938"
 
 > [!NOTE]
 > รูปภาพและรูปร่างของ Excel ทั้งหมดถือเป็นการยึดตามมุมซ้ายด้านบนไปยังเซลล์หรือช่วงของ Excel โดยเฉพาะ ถ้าคุณต้องการคัดลอกรูปภาพหรือรูปร่าง Excel คุณต้องตั้งค่าคอนฟิกเซลล์หรือช่วงที่ยึดตามเซลล์หรือช่วงที่ถูกจำลองแบบ
+
+> [!TIP]
+> ถ้าคุณวางแผนที่จะใช้รูปภาพที่มีการปรับขนาดแบบกำหนดเองและอัตราส่วนกว้างยาวขณะรันไทม์ เราขอแนะนำว่าคุณควรตั้งค่าตัวเลือก **ใช้การปรับขนาดรูปภาพ** ของ [ส่วนประกอบไฟล์ Excel](#excel-file-component) หลักเป็น **ใช่** เพื่อใช้ขนาดและอัตราส่วนกว้างยาวเป็นตัวยึดของรูปภาพนั้นในแม่แบบ Excel ที่คุณใช้งาน
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการฝังรูปภาพและรูปร่าง ดูที่ [ฝังรูปภาพและรูปร่างในเอกสารที่คุณสร้างขึ้นโดยใช้ ER](electronic-reporting-embed-images-shapes.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2c4fed880c423790b979f27511d8d5697bd244c
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878713"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427967"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>รวมการจัดส่งเมื่อนโยบายการรวมบัญชีการจัดส่งถูกแทนที่
 
@@ -77,9 +77,9 @@ ms.locfileid: "8878713"
 1. ค้นหาและเลือกการจัดส่งที่ต้องการ
 1. ในฟิลด์ **นโยบายการรวมบัญชีการจัดส่ง** ให้ทบทวนนโยบายการรวมบัญชีที่ถูกใช้เมื่อมีการสร้างการจัดส่ง
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-- [นโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
+- [ภาพรวมนโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
 - [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
 
 

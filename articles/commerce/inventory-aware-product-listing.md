@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405569"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473752"
 ---
 # <a name="inventory-aware-product-listing"></a>รายการผลิตภัณฑ์ที่คำนึงถึงสินค้าคงคลัง
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 หัวข้อนี้อธิบายวิธีการที่องค์กรสามารถตั้งค่าคอนฟิกหน้ารายการผลิตภัณฑ์บนเว็บไซต์ e-commerce ของ Microsoft Dynamics 365 Commerce เพื่อให้ทราบถึงสินค้าคงคลัง หน้ารายการผลิตภัณฑ์ประกอบด้วยหน้าเริ่มต้นประเภท และหน้าผลการค้นหา
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 36a68328ddd1b19e116598fb93ac17405a9c5ed4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 862b4b4121effa3ed0a2134924b2152c8a982110
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888367"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428102"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>รวมบัญชีการจัดส่งโดยการนำออกใช้ไปยังคลังสินค้าจากเวิร์กเบนช์การวางแผนการบรรทุก
 
@@ -254,9 +254,9 @@ ms.locfileid: "8888367"
 - รายการจากใบสั่งขาย 4-5 และ 4-6 สำหรับบัญชีลูกค้า *US-007* ถูกจัดกลุ่มเป็นการจัดส่งหนึ่งรายการ โดยใช้นโยบายการรวมบัญชีการจัดส่งของ *กลุ่มใบสั่ง*
 - รายการจากใบสั่งขาย 4-7 และ 4-8 สำหรับบัญชีลูกค้า *US-007* ถูกจัดกลุ่มเป็นการจัดส่งหนึ่งรายการ โดยใช้นโยบายการรวมบัญชีการจัดส่งของ *CrossOrder*
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-- [นโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
+- [ภาพรวมนโยบายการรวมบัญชีการจัดส่ง](about-shipment-consolidation-policies.md)
 - [ตั้งค่าคอนฟิกนโยบายการรวมบัญชีการจัดส่ง](configure-shipment-consolidation-policies.md)
 
 

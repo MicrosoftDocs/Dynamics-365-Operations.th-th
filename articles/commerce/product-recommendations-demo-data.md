@@ -2,7 +2,7 @@
 title: สร้างคำแนะนำที่มีข้อมูลสาธิต
 description: บทความนี้มีวัตถุประสงค์เพื่อให้คำแนะนำเกี่ยวกับวิธีการใช้งานคำแนะนำเกี่ยวกับผลิตภัณฑ์ผ่านช่องทาง omni ในสภาพแวดล้อมของกล่องเดี่ยวระดับ-1 โดยใช้ข้อมูลสาธิตแบบกำหนดเองที่กำหนดไว้ล่วงหน้า
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e3df414b3c16c28b6f5ca04f765d91c1312ada4
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874906"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459980"
 ---
 # <a name="create-recommendations-with-demo-data"></a>สร้างคำแนะนำที่มีข้อมูลสาธิต
 
@@ -45,7 +45,7 @@ ms.locfileid: "8874906"
 
 | ชื่อคอลัมน์         | ข้อบังคับ          | คำอธิบาย                                                                                                                                 | ค่าที่เป็นไปได้                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| RecoList            | :heavy_check_mark: | ชนิดรายการคำแนะนำผลิตภัณฑ์เฉพาะที่ใช้ในจุดข้อมูลสาธิตมีไว้เพื่อสร้างขึ้น                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
+| RecoList            | :heavy_check_mark: | ชนิดรายการคำแนะนำผลิตภัณฑ์เฉพาะที่ใช้ในจุดข้อมูลสาธิตมีไว้เพื่อสร้างขึ้น                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li><li>RecoPicks</li><li>RecoSimilarVisual</li><li>RecoSimilarTextual</li></ul> |
 | หมายเลขหน่วยปฏิบัติงาน | :heavy_check_mark: | หมายเลขหน่วยปฏิบัติงานเฉพาะที่คาดว่าจะมีการแสดงคำแนะนำผลิตภัณฑ์                                        |                                                                              |
 | ประเภท            |                    |    ปรเภทรายการเฉพาะที่ควรส่งคืน ถ้าไม่มีการระบุประเภทไว้ รายการจะอยู่ด้านบนของลำดับชั้นการนำทางเท่านั้น    |                                                                              |
 | SeedItemId          |                    |    สำหรับรายการที่จำเป็นต้องมีข้อมูลเริ่มต้น (RecoPeopleAlsoBuy และ RecoCart) ผลิตภัณฑ์ดังกล่าวควรแสดงผลิตภัณฑ์เพิ่มเติม            |                                                                              |

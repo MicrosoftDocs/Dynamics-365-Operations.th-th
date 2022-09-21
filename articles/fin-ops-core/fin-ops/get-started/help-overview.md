@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305239"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462369"
 ---
 # <a name="help-system"></a>ระบบวิธีใช้
 
@@ -40,18 +40,18 @@ ms.locfileid: "9305239"
 
 ![บานหน้าต่างวิธีใช้](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>วิธีใช้เกี่ยวกับ docs.microsoft.com
+## <a name="help-on-microsoft-docs"></a>วิธีใช้เกี่ยวกับ Microsoft Docs
 
-ไซต์ docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
+([คู่มือ Microsoft Dynamics 365](/dynamics365/)) บน Microsoft Docs เป็นแหล่งข้อมูลหลักของเอกสารผลิตภัณฑ์สำหรับแอปพลิเคชันที่กล่าวมาแล้วก่อนหน้านี้ ไซต์นี้มีคุณลักษณะดังต่อไปนี้:
 
 - **เข้าถึงเนื้อหาล่าสุด** – ไซต์ทำให้ Microsoft สร้าง จัดส่ง และอัปเดตเอกสารผลิตภัณฑ์ได้รวดเร็วและมีความยืดหยุ่นมากขึ้น ดังนั้น คุณจึงเข้าถึงข้อมูลทางเทคนิคล่าสุดได้ง่าย
 - **เนื้อหาที่เขียนโดยผู้เชี่ยวชาญ** – เนื้อหาบนไซต์เปิดให้เข้าร่วมโดยสมาชิกของชุมชนทั้งภายในและภายนอก Microsoft
 
-คุณสามารถค้นหาเนื้อหาบน docs.microsoft.com โดยใช้โปรแกรมค้นหาใดๆ เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดเราขอแนะนำว่าคุณควรใช้การค้นหาไซต์ เช่น **site:docs.microsoft.com dynamics 365 "คำค้นหา"**
+คุณสามารถค้นหาเนื้อหาบน Microsoft Docs โดยใช้โปรแกรมค้นหาใดๆ เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดเราขอแนะนำว่าคุณควรใช้การค้นหาไซต์ เช่น **site:docs.microsoft.com dynamics 365 "คำค้นหา"**
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>รับการแจ้งเตือนเกี่ยวกับการเปลี่ยนแปลงผ่านตัวดึงข้อมูล RSS
 
-เมื่อต้องการสมัครใช้งานตัวดึงข้อมูล RSS ของการอัปเดตทั้งหมดเข้ากับเนื้อหาบน docs.microsoft.com กับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
+เมื่อต้องการสมัครใช้งานตัวดึงข้อมูล RSS ของการอัปเดตทั้งหมดเข้ากับเนื้อหาบนคู่มือ Microsoft ทางเทคนิคกับแอปการเงินและการดำเนินงาน ให้ใช้การเชื่อมโยงต่อไปนี้:
 
 [ตัวดึงข้อมูล RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ ms.locfileid: "9305239"
 
 วิดีโอ [วิธีการสนับสนุน Microsoft Dynamics 365 documentation](https://youtu.be/m5djioozRbg) (ที่แสดงด้านบน) จะรวมอยู่ในช่อง Microsoft Dynamics 365 บน YouTube
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุนเอกสาร](/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ docs.microsoft.com
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [คู่มือผู้สนับสนุน Microsoft Docs](/contribute) ซึ่งเผยแพร่โดยทีมงานที่สร้างไซต์ Microsoft Docs
 
 > [!NOTE]
 > เรายอมรับการจัดสรรไปยังเนื้อหาภาษาอังกฤษของเราในขณะนี้เท่านั้น
@@ -168,11 +168,11 @@ On the **System parameters** page, follow these steps:
 
 | ไซต์ | คำอธิบาย |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | ไซต์นี้โฮสต์หรือเชื่อมโยงเอกสารผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
+| [คู่มือ Microsoft Dynamics 365](/dynamics365/) | ไซต์นี้โฮสต์หรือเชื่อมโยงเอกสารผลิตภัณฑ์ทั้งหมดสำหรับ Dynamics 365 |
 | [Microsoft Learn](/learn/) | ไซต์นี้เป็นไซต์ eLearning ฟรีของ Microsoft |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | ไซต์นี้ให้พื้นที่ทำงานร่วมกันตามระบบคลาวด์ที่ลูกค้าและคู่ค้าสามารถใช้เพื่อจัดการโครงการจากการขายล่วงหน้าไปถึงการนำไปใช้และการดำเนินการ ซึ่งมีประโยชน์ในขั้นตอนการใช้งานทั้งหมด |
 | [บล็อกสนับสนุน](https://aka.ms/AXSupportBlog) | ไซต์นี้ให้คำแนะนำและเทคนิคที่ถูกโพสต์โดยทีมสนับสนุน  |
-| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | ไซต์นี้โฮสต์เนื้อหาจากรุ่นก่อน |
+| [รุ่นก่อนหน้า](/previous-versions/dynamics/) | ไซต์นี้โฮสต์เนื้อหาจากรุ่นก่อน |
 | [ชุมชน Dynamics](https://community.dynamics.com/) | ไซต์นี้โฮสต์บล็อก ฟอรัม และวิดีโอ |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | ไซต์นี้แสดงข้อมูลการประเมินและการขาย |
 
@@ -180,4 +180,3 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

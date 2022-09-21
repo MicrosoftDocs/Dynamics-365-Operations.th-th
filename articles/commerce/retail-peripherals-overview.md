@@ -2,7 +2,7 @@
 title: อุปกรณ์ต่อพ่วง
 description: บทความนี้อธิบายแนวคิดที่เกี่ยวข้องกับอุปกรณ์ต่อพ่วงการค้า
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880092"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460006"
 ---
 # <a name="peripherals"></a>อุปกรณ์ต่อพ่วง
 
@@ -141,6 +141,9 @@ Modern POS สำหรับ Android คือโปรแกรม Modern POS 
 Modern POS สนับสนุน MSR และสแกนเนอร์ของ UWP ดังนั้น เมื่อ Modern POS พร้อมสำหรับการป้อนข้อมูลจากอุปกรณ์ใดอุปกรณ์หนึ่งเหล่านี้ และมีการเชื่อมต่ออุปกรณ์ที่เป็นของคลาสใดคลาสหนึ่งของอุปกรณ์เหล่านั้น จะสามารถใช้อุปกรณ์ได้ ตัวอย่างเช่น ถ้าสแกนเนอร์บาร์โค้ด Plug and Play เสียบเข้ากับเครื่องคอมพิวเตอร์ Windows 10 และมีการตั้งค่าคอนฟิกบาร์โค้ดสำหรับ Modern POS สแกนเนอร์บาร์โค้ดจะเปิดใช้งานบนหน้าลงชื่อเข้าใช้ ไม่ต้องตั้งค่าเพิ่มเติม
 
 คลาสเพิ่มเติมของอุปกรณ์ต่อพ่วง POS จะถูกเพิ่มลงใน Windows เช่น คลาสของลิ้นชักเงินสดและเครื่องพิมพ์ใบเสร็จ การสนับสนุนสำหรับคลาสของอุปกรณ์ใหม่เหล่านี้ใน Modern POS ยังค้างอยู่
+
+> [!NOTE] 
+> อุปกรณ์ FIS บางอุปกรณ์อาจไม่ตอบสนองหรือเชื่อถือไม่ได้เมื่อจัดการโดยคุณลักษณะการจัดการพลังงานของ Windows 10 ที่เรียกว่า [USB ที่เลือกหยุดชั่วคราว](/windows-hardware/drivers/usbcon/usb-selective-suspend) หากอุปกรณ์ต่อพ่วง USB ไม่ตอบสนอง คุณอาจจําเป็นต้องปิดใช้งานคุณลักษณะหยุดชั่วคราวที่เลือกให้กับอุปกรณ์นั้น สำหรับข้อมูลเพิ่มเติม ให้ดู [เปิดใช้งาน Selective Suspend](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend) 
 
 ### <a name="keyboard-wedge"></a>เครื่องอ่านบัตรเครดิตแบบแป้นพิมพ์
 

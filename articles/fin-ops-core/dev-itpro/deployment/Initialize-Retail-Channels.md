@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
-ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
+ms.openlocfilehash: f9d21de3e498b293394835d5cf564899338b9c18
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427088"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474027"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>เริ่มต้น Commerce Scale Unit (ระบบคลาวด์)
 
@@ -73,6 +73,7 @@ Commerce Scale Unit สามารถใช้งานสำหรับกา
 | EMEA            | ยุโรปเหนือ        | พร้อมใช้งานโดยทั่วไป    |  ไม่มีข้อคิดเห็น |
 | EMEA            | สหราชอาณาจักรตอนใต้            | พร้อมใช้งานโดยทั่วไป |    ไม่มีข้อคิดเห็น                          |
 | EMEA            | สหราชอาณาจักรตะวันตก             | พร้อมใช้งานโดยทั่วไป |    ไม่มีข้อคิดเห็น                          |
+| UAE             | สหรัฐอาหรับเอมิเรตส์ เหนือ           | กำลังการผลิตมีจำกัด    | กระบวนงานต้องการการอนุมัติ |
 
 ความจุของการปรับใช้ในภูมิภาคที่มีความจุจํากัด จะถูกจํากัดอย่างมาก การร้องขอการปรับใช้จะมีการประเมินตามแต่ละกรณี ถ้าคุณมีความต้องการทางธุรกิจที่บริษัทต้องการในการใช้งานในภูมิภาคที่มีความจุจํากัด คุณสามารถยื่นคำขอรับการสนับสนุนที่จะเพิ่มให้กับรายการรอได้ ปัจจุบันพื้นที่ที่มีข้อควบคุมของความจุไม่อนุญาตในการปรับใช้ Commerce Scale Unit ในขณะนี้ 
 

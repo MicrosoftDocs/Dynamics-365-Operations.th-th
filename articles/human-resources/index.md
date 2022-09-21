@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228582"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475561"
 ---
 # <a name="human-resources-home-page"></a>โฮมเพจทรัพยากรบุคคล
 
@@ -40,7 +40,7 @@ ms.locfileid: "9228582"
 - [การจัดการค่าตอบแทน](hr-compensation-overview.md)
 - [การพัฒนาพนักงาน](hr-develop-performance-management-overview.md)
 - [การเรียนรู้](hr-learning-courses.md)
-- [ระบบเวิร์กโฟลว์]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [ระบบเวิร์กโฟลว์](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 ทรัพยากรบุคคลจะเชื่อมต่อข้อมูลบุคคลและข้อมูลการดำเนินงานเพื่อช่วยคุณในการปรับปรุงต้นทุนบุคคลากรให้เหมาะสมและดูแลพนักงานของคุณ
 
@@ -51,7 +51,8 @@ ms.locfileid: "9228582"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
-สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)
+
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)
 
 ### <a name="videos"></a>วิดีโอ
 

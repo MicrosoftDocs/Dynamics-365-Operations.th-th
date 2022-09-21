@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027154"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475650"
 ---
 # <a name="administration-overview"></a>ภาพรวมการจัดการ
 
@@ -46,10 +46,10 @@ ms.locfileid: "9027154"
   - [ตั้งค่าคอนฟิกการรวมกับ Dayforce](hr-admin-integration-dayforce.md)
   - [สร้างแอปการส่งออกข้อมูลที่เกิดซ้ำ](hr-admin-integration-recurring-data-export.md)
   - รวมกับ Office
-    - [บทช่วยสอนการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [อัปเดตข้อมูลเอนทิตี้ใน Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [สร้างประสบการณ์เปิดใน Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
-    - [แก้ไขปัญหาการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [บทช่วยสอนการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [อัปเดตข้อมูลเอนทิตี้ใน Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [สร้างประสบการณ์เปิดใน Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [แก้ไขปัญหาการรวม Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [จัดการคุณลักษณะ](hr-admin-manage-features.md)
 
@@ -100,7 +100,7 @@ ms.locfileid: "9027154"
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
 ### <a name="elearning-courses"></a>หลักสูตรอีเลิร์นนิ่ง
-สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources ใน Microsoft Learn](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)
+สำหรับหลักสูตรออนไลน์และการฝึกอบรม โปรดดูที่ [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path)
 
 ### <a name="videos"></a>วิดีโอ
 

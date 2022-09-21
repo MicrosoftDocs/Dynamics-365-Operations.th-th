@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: db8799aba8095c8144d878c96590e8d90276726b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334729"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428235"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>มีอะไรใหม่หรือการเปลี่ยนแปลงอะไรใน Dynamics 365 Supply Chain Management 10.0.26 (พฤษภาคม 2022)
 
@@ -36,7 +36,7 @@ ms.locfileid: "9334729"
 | สินค้าคงคลังและลอจิสติกส์ | [การสอบถามปริมาณคงเหลือของการมองเห็นสินค้าคลังที่จะรองรับสินค้าในการจัดการคลังสินค้าขั้นสูง](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [การสนับสนุนของ Inventory Visibility สำหรับสินค้าที่ใช้ WMS](../inventory/inventory-visibility-whs-support.md) | การจัดการคุณลักษณะ:<br>*เปิดใช้งานรายการคลังสินค้าในการมองเห็นสินค้าคงคลัง* |
 | สินค้าคงคลังและลอจิสติกส์ | [ปริมาณที่สามารถสัญญาได้สำหรับ Add-in การมองเห็นสินค้าคงคลัง](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือของการมองเห็นสินค้าคงคลังและปริมาณที่ให้สัญญาได้](../inventory/inventory-visibility-available-to-promise.md) | เปิดใช้งานโดยการตั้งค่าคอนฟิกบริการ |
 | การผลิต | [สินค้าตามน้ำหนักจริงสำหรับอินเทอร์เฟสการดำเนินการของระบบการผลิต](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*รายงานเกี่ยวกับสินค้าตามน้ำหนักจริงจากส่วนติดต่อการดำเนินการของระบบการผลิต* |
-| การผลิต | แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต <!-- KFM: Add link to release plan when available --> | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต* |
+| การผลิต | แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต | [วิธีที่ผู้ปฏิบัติงานใช้อินเทอร์เฟสการดำเนินการของระบบการผลิต](../production-control/production-floor-execution-use.md) | การจัดการคุณลักษณะ:<br>*แท็บงานของฉันบนอินเทอร์เฟซการดำเนินการของกระบวนการผลิต* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>การปรับปรุงคุณลักษณะรวมอยู่ในการนำออกใช้นี้
 
