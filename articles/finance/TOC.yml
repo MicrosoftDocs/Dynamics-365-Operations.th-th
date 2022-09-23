@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (สิงหาคม)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (กรกฎาคม)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: การคำนวณภาษีขายของแคนาดา
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+        - name: Globalization Studio
           items:
+            - name: ภาพรวมของ Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: บริการแบบโลกาภิวัตน์
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: คำนวณและปรับปรุงภาษีขายในใบแจ้งหนี้ของผู้จัดจำหน่าย
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: แก้ไขความแตกต่างของภาษีขาย
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: ปรับปรุงภาษีขายผ่านทางสมุดรายวันทั่วไป
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: เปิดใช้งานการคำนวณภาษีที่ล่าช้าในสมุดรายวัน
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: ระบบออกใบแจ้งหนี้ออนไลน์
                   href: localizations/emea-hun-online-invoicing.md
+                - name: รูปแบบการแสดง VAT (ฮังการี)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: รายงานภาษีขายของฮังการี
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: อินทราสแทตของฮังการี

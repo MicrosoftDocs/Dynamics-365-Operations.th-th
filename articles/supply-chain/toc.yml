@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: การแก้ไขปัญหาเบื้องต้นและคำถามที่ถามบ่อย
           href: supply-chain-management-troubleshooting.md
-        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+        - name: Globalization Studio
           items:
+            - name: ภาพรวมของ Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: ทรัพยากรแบบโลกาภิวัตน์
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: บริการแบบโลกาภิวัตน์
@@ -1631,12 +1633,14 @@
               items:
                 - name: สมุดรายวันสินค้าคงคลัง
                   href: inventory/inventory-journals.md
-                - name: ลำดับงานการอนุมัติสมุดรายวันของสินค้าคงคลัง
+                - name: ลำดับงานการอนุมัติสมุดรายวันสินค้าคงคลัง
                   href: inventory/inventory-journal-workflow.md
                 - name: สถานที่เก็บสินค้าคงคลัง
                   href: inventory/inventory-locations.md
                 - name: สถานะสินค้าคงคลัง
                   href: inventory/inventory-statuses.md
+                - name: ใช้รหัสการการจัดการเพื่อทำเครื่องหมายชุดงานว่าพร้อมหรือไม่พร้อมใช้งาน
+                  href: inventory/batch-disposition-codes.md
                 - name: สร้างการจัดวางพื้นที่คลังสินค้าใหม่
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: รักษาชนิดบาร์โค้ด

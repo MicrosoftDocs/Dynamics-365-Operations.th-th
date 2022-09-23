@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (กรกฎาคม 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: Commerce 10.0.27 (กรกฎาคม 2022)
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -1384,10 +1382,12 @@
               href: store-performance-information.md
             - name: ตั้งค่าการวิเคราะห์ความเป็นปัจจุบัน ความถี่ และยอดเงิน (RFM)
               href: set-up-rfm-analysis.md
-            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 36 Commerce
+            - name: ตั้งค่า Microsoft Clarity ใน Dynamics 365 Commerce
               href: set-up-clarity.md
-        - name: การพัฒนาซอฟต์แวร์แบบโลกาภิวัตน์
+        - name: Globalization Studio
           items:
+            - name: ภาพรวมของ Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: ภาพรวมของการรวมทางการเงินสำหรับช่องทาง Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: ตั้งค่าการรวมทางการเงินสำหรับช่องทาง Commerce
