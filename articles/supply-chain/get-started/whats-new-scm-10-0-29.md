@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427886"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520762"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>พรีวิวของ Dynamics 365 Supply Chain Management 10.0.29 (ตุลาคม 2022)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9427886"
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
 | สินค้าคงคลังและลอจิสติกส์ | [สำรองและจัดสรรสินค้าที่ใช้ WMS ในการมองเห็นสินค้าคงคลัง](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | เร็วๆ นี้ | เปิดใช้งานตามค่าเริ่มต้น |
-| สินค้าคงคลังและลอจิสติกส์ | [โหลดล่วงหน้ารายการปริมาณคงคลังคงเหลือที่มีประสิทธิภาพ](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | เร็วๆ นี้ | เปิดใช้งานตามค่าเริ่มต้น |
+| สินค้าคงคลังและลอจิสติกส์ | [โหลดล่วงหน้ารายการปริมาณคงคลังคงเหลือที่มีประสิทธิภาพ](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [ใช้แอป Inventory Visibility](../inventory/inventory-visibility-power-platform.md) | เปิดใช้งานโดยการตั้งค่าคอนฟิกบริการ |
 | การจัดหาอัตโนมัติตามสั่ง | [การจัดหาอัตโนมัติตามสั่ง](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [การจัดหาอัตโนมัติตามสั่ง](../master-planning/make-to-order-supply-automation.md) | การจัดการคุณลักษณะ:<br>*การจัดหาอัตโนมัติตามสั่ง* |
 | การวางแผน | [ดูและใช้รายละเอียดขั้นตอนการใช้ DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [ภาพรวมการวางแผนความต้องการวัสดุที่ขับเคลื่อนด้วยอุปสงค์](../master-planning/planning-optimization/ddmrp-overview.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) DDMRP สำหรับการเพิ่มประสิทธิภาพการวางแผน* |
 | การควบคุมการผลิต | [(ตัวอย่าง) ทำให้สินค้าสำเร็จรูปพร้อมใช้จริงก่อนลงรายการบัญชีในสมุดรายวัน](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [(ตัวอย่าง) ทำให้สินค้าสำเร็จรูปพร้อมใช้จริงก่อนลงรายการบัญชีในสมุดรายวัน](../production-control/deferred-posting.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) ทำให้สินค้าสำเร็จรูปพร้อมใช้จริงก่อนลงรายการบัญชีในสมุดรายวัน* |
