@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846928"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573184"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>แก้ไขปัญหาการตั้งค่า Finance Insights
 
@@ -88,10 +88,14 @@ ms.locfileid: "8846928"
 - ตรวจสอบว่าสิทธิ์การใช้งาน Dynamics 365 Finance หรือเทียบเท่าจะใช้กับผู้ใช้ที่กำลังติดตั้ง Add-in
 - ตรวจสอบว่าแอป Azure AD ต่อไปนี้ลงทะเบียนอยู่ใน Azure AD: 
 
-  | ใบคำขอเปิด                  | รหัสแอป           |
-  | ---------------------------- | ---------------- |
-  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | แอปพลิเคชัน                  | รหัสแอป           |
+    | ---------------------------- | ---------------- |
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    หากต้องการตรวจสอบว่าแอปพลิเคชันมีการลงทะเบียนใน Azure AD หรือไม่ ให้ตรวจสอบรายการ **แอปพลิเคชันทั้งหมด** สำหรับรายละเอียดเพิ่มเติม โปรดดู [ดูแอปพลิเคชันระดับองค์กร](/azure/active-directory/manage-apps/view-applications-portal)
+  
+    ถ้าแอปพลิเคชันไม่ได้ลงทะเบียนไว้ใน Azure AD โปรดติดต่อฝ่ายสนับสนุน
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>อาการ: ข้อผิดพลาด "เราไม่พบข้อมูลใดๆ สำหรับช่วงตัวกรองที่เลือก โปรดเลือกช่วงตัวกรองอื่นแล้วลองอีกครั้ง" 
 
 ### <a name="resolution"></a>การแก้ปัญหา

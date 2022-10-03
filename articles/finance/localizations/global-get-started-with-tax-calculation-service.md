@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279824"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573317"
 ---
 # <a name="get-started-with-tax-calculation"></a>เริ่มต้นใช้งานการคํานวณภาษี
 
@@ -186,9 +186,9 @@ ms.locfileid: "9279824"
 
     | กลุ่มภาษี    | รหัสภาษี           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19; DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. บนแท็บ **กลุ่มภาษีสินค้า** ให้เลือกคอลัมน์ **กลุ่มภาษีสินค้า** เพิ่มคอลัมน์นั้นในเมทริกซ์เป็นเงื่อนไขที่ป้อน แล้วเพิ่มบรรทัดเพื่อรักษาข้อมูลหลักของกลุ่มภาษีสินค้า
@@ -206,9 +206,9 @@ ms.locfileid: "9279824"
 
     | กระบวนการทางธุรกิจ | จัดส่งจาก | จัดส่งไปที่ | กลุ่มภาษี    |
     | ---------------- | --------- | ------- | ------------ |
-    | ใบสั่งขาย            | DEU       | DEU     | DEU_Domestic |
-    | ใบสั่งขาย            | DEU       | FRA     | DEU_EU       |
-    | การขาย            | BEL       | BEL     | BEL_Domestic |
+    | การขาย            | DEU       | DEU     | DEU_Dom |
+    | การขาย            | DEU       | FRA     | DEU_EU       |
+    | การขาย            | BEL       | BEL     | BEL_Dom |
     | การขาย            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

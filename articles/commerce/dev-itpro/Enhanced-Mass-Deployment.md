@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387031"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589101"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>การปรับใช้โดยรวมของส่วนประกอบระบบบริการตนเองของ Commerce แบบปิดผนึก
 
@@ -47,7 +47,7 @@ ms.locfileid: "9387031"
 | -EnvironmentId | รหัสสภาพแวดล้อม |
 | -HardwareStationAppInsightsInstrumentationKey | คีย์การรายงานข้อมูลระบบ Hardware Station AppInsights |
 | ติดตั้ง | พารามิเตอร์ที่ระบุว่าควรติดตั้งส่วนประกอบที่ตัวติดตั้งนี้มีให้หรือไม่ พารามิเตอร์นี้ต้องใช้ในการติดตั้งและไม่มีอักขระขีดคั่นหน้า |
-| -InstallOffline | สำหรับ Modern POS พารามิเตอร์นี้ระบุว่าควรติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ด้วยหรือไม่ ใช้พารามิเตอร์ **-SQLServerName** ด้วย มิฉะนั้น ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้นที่ตรงตามข้อกำหนดเบื้องต้น |
+| -InstallOffline | สำหรับ Modern POS พารามิเตอร์นี้ระบุว่าควรติดตั้งและตั้งค่าคอนฟิกฐานข้อมูลออฟไลน์ด้วยหรือไม่ ใช้พารามิเตอร์ **-SQLServerName** ด้วย มิฉะนั้น ตัวติดตั้งจะพยายามค้นหาอินสแตนซ์เริ่มต้นที่ตรงตามข้อกำหนดเบื้องต้น เมื่อใช้การรับรองความถูกต้อง Azure Active Directory (Azure AD) การพิสูจน์ตัวจริง การออฟไลน์ POS จะไม่ทำงานเนื่องจากต้องมีการเชื่อมต่อออนไลน์เสมอ |
 | -Port | พอร์ตที่ควรเชื่อมโยงกับและใช้โดยไดเรกทอรีเสมือนของเซิร์ฟเวอร์ระบบการขายปลีก หากไม่ได้ตั้งค่าพอร์ต จะมีการใช้พอร์ตเริ่มต้น 443 |
 | -Register | รหัสทะเบียน ตามที่แสดงบนหน้า **ทะเบียน** ในศูนย์ควบคุม |
 | -RetailServerAadClientId | รหัสไคลเอ็นต์ Azure AD ที่เซิร์ฟเวอร์ระบบการขายปลีกควรใช้ระหว่างการสื่อสารกับศูนย์ควบคุม |
