@@ -2,19 +2,19 @@
 title: แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 description: บทความนี้จะให้คำแนะนําเกี่ยวกับวิธีการเปิดใช้งานฟังก์ชันเครื่องบันทึกเงินสดสําหรับการแปลเป็นภาษาท้องถิ่น Microsoft Dynamics 365 Commerce สําหรับนอร์เวย์
 author: EvgenyPopovMBS
-ms.date: 08/23/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: 0e66ef93e65fecaca23f0434c386507a0672d251
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346003"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631327"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>แนวทางการปรับใช้เครื่องบันทึกเงินสดสำหรับนอร์เวย์
 
@@ -33,7 +33,7 @@ ms.locfileid: "9346003"
 
 1. [ตั้งค่ากระบวนการการลงทะเบียนทางการเงิน](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) ตรวจสอบให้แน่ใจว่าได้จดบันทึกการตั้งค่าของกระบวนการลงทะเบียนทางการเงินที่ใช้ [เฉพาะกับนอร์เวย์](#configure-the-fiscal-registration-process)
 1. [กำหนดการตั้งค่าการจัดการข้อผิดพลาด](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)
-1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่เลื่อนออกไปแล้ว](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)
+1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่ถูกเลื่อน](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)
 1. [ตั้งค่าคอนฟิกส่วนประกอบช่องทาง](#configure-channel-components)
 
 ### <a name="configure-the-fiscal-registration-process"></a>ตั้งค่าคอนฟิกกระบวนการลงทะเบียนทางการเงิน

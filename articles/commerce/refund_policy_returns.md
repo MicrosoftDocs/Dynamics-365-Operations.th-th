@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286849"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627508"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>สร้างและอัปเดตนโยบายการส่งคืนและการขอคืนเงินสำหรับช่องทาง
 
@@ -36,12 +36,8 @@ ms.locfileid: "9286849"
 
 ## <a name="enable-return-policy"></a>เปิดใช้งานนโยบายการส่งคืน
 
-เมื่อต้องการเปิดใช้งานฟังก์ชันนโยบายการส่งคืนช่องทางใน Commerce headquarters ให้ทำตามขั้นตอนเหล่านี้
+โดยค่าเริ่มต้น คุณลักษณะนี้จะถูกเปิดไว้ คุณสามารถค้นหาได้ในพื้นที่ทำงาน **การจัดการคุณลักษณะ** โดยค้นหา **เปิดใช้งานนโยบายการส่งคืนของช่องทาง** ในรายการชื่อคุณลักษณะ
 
-1. ไปยังพื้นที่ทำงาน **การจัดการคุณลักษณะ** ใน Dynamics 365 Commerce
-1. ค้นหาคุณลักษณะ **เปิดใช้งานนโยบายการส่งคืนช่องทาง** ในรายการของลักษณะการทำงาน
-1. เลือก **เปิดใช้งาน**
-1. บนหน้า **กําหนดการการกระจาย** ให้รันงาน **1110** (การตั้งค่าคอนฟิกส่วนกลาง) เพื่อกระจายการเปลี่ยนแปลงคุณลักษณะ
 
 ## <a name="configure-return-policy"></a>ตั้งค่าคอนฟิกนโยบายการส่งคืน
 

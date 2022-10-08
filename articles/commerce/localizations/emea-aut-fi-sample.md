@@ -2,19 +2,19 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับออสเตรียใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f3429df2732d7d1ed6d2f0783a600c2b994c022b
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 603316ea07e5951b3bc5f96af28f549bdafd3b0e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473889"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631356"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับออสเตรีย
 
@@ -65,7 +65,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 - การจัดการข้อผิดพลาด เช่น ตัวเลือกต่อไปนี้:
 
     - ลองลงทะเบียนทางการเงินอีกครั้งถ้าสามารถลองใหม่ได้ เช่น ถ้าบริการลงทะเบียนทางการเงินไม่พร้อมใช้งาน ไม่พร้อมหรือไม่ตอบสนอง
-    - เลื่อนการลงทะเบียนทางการเงินออกไป
+    - เลื่อนการลงทะเบียนทางการเงิน
     - ข้ามการลงทะเบียนทางการเงิน หรือเลือกธุรกรรมเป็นลงทะเบียนแล้ว และรวมรหัสข้อมูลเพื่อรวบรวมข้อมูลเหตุผลของความล้มเหลวและข้อมูลเพิ่มเติม
     - ตรวจสอบความพร้อมใช้งานของบริการลงทะเบียนทางการเงินก่อนที่จะเปิดธุรกรรมการขายใหม่ หรือสรุปธุรกรรมการขายแล้ว
 
@@ -220,7 +220,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
 
 1. [ตั้งค่ากระบวนการการลงทะเบียนทางการเงิน](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process) นอกจากนี้ ให้จดบันทึกการตั้งค่าต่างๆ ของกระบวนการลงทะเบียนทางการเงินที่ใช้กับ [ตัวอย่างการรวมบริการลงทะเบียนทางการเงินนี้โดยเฉพาะ](#set-up-the-registration-process)
 1. [กำหนดการตั้งค่าการจัดการข้อผิดพลาด](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)
-1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่เลื่อนออกไปแล้ว](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)
+1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่ถูกเลื่อน](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)
 1. [ตั้งค่าคอนฟิกส่วนประกอบช่องทาง](#configure-channel-components)
 
 ### <a name="set-up-the-registration-process"></a>ตั้งค่ากระบวนการลงทะเบียน

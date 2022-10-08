@@ -2,19 +2,19 @@
 title: ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
 description: บทความนี้อธิบายภาพรวมของตัวอย่างการรวมทางบัญชีสำหรับเยอรมนีใน Microsoft Dynamics 365 Commerce
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313953"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631465"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>ตัวอย่างการรวมบริการลงทะเบียนทางการเงินสำหรับเยอรมนี
 
@@ -265,7 +265,7 @@ Microsoft ไม่ได้ปล่อยฮาร์ดแวร์ ซอฟ
     > - เราขอแนะนำให้คุณปิดตัวเลือก **ดำเนินการต่อเมื่อมีข้อผิดพลาด** บนหน้า **กระบวนการลงทะเบียนทางการเงิน** เนื่องจากธุรกรรมทั้งหมดต้องลงทะเบียนอย่างถูกต้อง แม้ว่าความพยายามครั้งแรกในการลงทะเบียนทางการเงินจะไม่ประสบความสาเร็จ
     > - ก่อนที่คุณจะเปิดตัวเลือก **ข้าม** หรือ **เลือกเป็นลงทะเบียน** บนหน้า **กระบวนการลงทะเบียนทางการเงิน** คุณควรอธิบายการเปลี่ยนแปลงเหล่านี้ต่อกระบวนการลงทะเบียนทางการเงินกับที่ปรึกษาภาษีของคุณหรือสํานักงานภาษีท้องถิ่น
 
-1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่เลื่อนออกไปแล้ว](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)
+1. [เปิดใช้งานการดำเนินการด้วยตนเองของการลงทะเบียนทางการเงินที่ถูกเลื่อน](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)
 1. [ตั้งค่าคอนฟิกส่วนประกอบช่องทาง](#configure-channel-components)
 
 ### <a name="set-up-the-registration-process"></a>ตั้งค่ากระบวนการลงทะเบียน

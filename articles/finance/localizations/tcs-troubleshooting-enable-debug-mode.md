@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887803"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620910"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>เปิดใช้งานโหมดดีบักในบริการคํานวณภาษี
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887803"
 บทความนี้ธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหาอนี้อธิบายวิธีการเปิดใช้งานโหมดดีบักในบริการคํานวณภาษีเพื่อตรวจสอบปัญหา
 
 1. เพิ่ม **&debug=vs%2CconfirmExit&** ลงใน URL ของ Application Object Server (AOS) แล้วรีเฟรชหน้า
-2. เมื่อคุณเลือก **ภาษีขาย** เพื่อคํานวณภาษีขาย ไฟล์ข้อความที่ชื่อ **TaxServiceTroubleshootingLog.txt** จะเปิดขึ้น ไฟล์ **TaxServiceTroubleshootingLog.txt** มี **TaxableDocument** และพารามิเตอร์การคํานวณ ผลลัพธ์เหล่านี้จะถูกส่งคืนมาจากบริการภาษีและข้อมูลข้อยกเว้นเพื่อการแก้ไขปัญหาเบื้องต้น
+2. เมื่อคุณเลือก **ภาษีขาย** เพื่อคํานวณภาษีขาย ไฟล์ข้อความที่ชื่อ **TaxServiceTroubleshootingLog.txt** จะถูกบันทึกบนเซิร์ฟเวอร์ภายใต้ **C:\AXWeb_SMBShare\temporary-file\\{%session%}\\** ไฟล์ **TaxServiceTroubleshootingLog.txt** มี **TaxableDocument** และพารามิเตอร์การคํานวณ ผลลัพธ์เหล่านี้จะถูกส่งคืนมาจากบริการภาษีและข้อมูลข้อยกเว้นเพื่อการแก้ไขปัญหาเบื้องต้น
 
 ## <a name="sample"></a>ตัวอย่าง
 

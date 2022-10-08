@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
+ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103534"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "9598094"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>เรียกใช้สคริปต์ X++ แบบกำหนดเองที่มีดาวน์ไทม์เป็นศูนย์
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 คุณลักษณะนี้ช่วยให้คุณสามารถอัปโหลดและเรียกใช้แพคเกจที่สามารถปรับใช้ได้ ซึ่งมีสคริปต์ X++ แบบกำหนดเองโดยไม่ต้องผ่าน Microsoft Dynamics Lifecycle Services (LCS) หรือหยุดระบบของคุณชั่วคราว ดังนั้นคุณจึงสามารถแก้ไขข้อมูลย่อยที่ไม่สอดคล้องกันได้โดยไม่ทําให้ต้องมีการหยุดทำงานใดๆ
 
