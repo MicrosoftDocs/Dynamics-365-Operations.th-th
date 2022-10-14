@@ -394,6 +394,8 @@
                   items:
                     - name: แอป Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: แอป Store Commerce สำหรับแพลตฟอร์มอุปกรณ์เคลื่อนที่
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: ย้าย Modern POS ไปยัง Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: คำแนะนำการใช้งานการจัดการอุปกรณ์
