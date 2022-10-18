@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357616"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671470"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>ภาพรวมของงานการนำเข้าและส่งออกข้อมูล
 
@@ -64,6 +64,9 @@ ms.locfileid: "9357616"
 
 ### <a name="set-the-data-format-for-the-job"></a>ตั้งค่ารูปแบบข้อมูลสำหรับงาน
 เมื่อคุณเลือกเอนทิตี คุณต้องเลือกรูปแบบของข้อมูลที่จะส่งออกหรือนำเข้า คุณกำหนดรูปแบบโดยใช้ไทล์ **การตั้งค่าแหล่งข้อมูล** รูปแบบข้อมูลต้นทางคือ ชุดของ **ชนิด** **รูปแบบไฟล์** **ตัวคั่นแถว** และ **ตัวคั่นคอลัมน์** นอกจากนั้น ยังมีคุณลักษณะอื่นๆ แต่สิ่งเหล่านี้เป็นสิ่งสำคัญเพื่อให้เข้าใจ ตารางต่อไปนี้แสดงรายการชุดที่ถูกต้อง
+
+> [!NOTE]
+> ขณะนี้ รูปแบบไฟล์ Excel ไม่พร้อมให้ใช้งานในพื้นที่ทำงานการจัดการข้อมูลของ Government Community Cloud (GCC)
 
 | รูปแบบไฟล์            | ตัวคั่นแถว/คอลัมน์                       | ลักษณะ XML                 |
 |------------------------|--------------------------------------------|---------------------------|

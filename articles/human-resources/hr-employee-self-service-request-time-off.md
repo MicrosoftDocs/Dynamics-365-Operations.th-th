@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882908"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643918"
 ---
 # <a name="request-time-off"></a>ร้องขอการหยุดพัก
 
@@ -63,6 +63,10 @@ ms.locfileid: "8882908"
 2. เลือก **การลาหยุดที่อนุมัติแล้ว** เพื่อดูการขอลาหยุดที่ได้รับการอนุมัติแล้ว เลือก **การขอลาหยุด** เพื่อดูการขอลาหยุดที่กำลังรอการอนุมัติ
 
 ## <a name="cancel-time-off-requests"></a>ยกเลิกคำขอลาหยุด
+
+>[!NOTE] 
+> **ยกเลิกการหยุดเวลา** จะพร้อมใช้งานเมื่อเปิดใช้งานคุณลักษณะ **การปรับปรุงประสบการณ์ของลำดับงานการขอลางาน** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ**  
+
 
 1. ในพื้นที่ทำงาน **การบริการตนเองของพนักงาน** ให้เลือก **ดูเวลาหยุดพัก** ในไทล์ **ยอดดุลเวลาหยุดพัก**
 

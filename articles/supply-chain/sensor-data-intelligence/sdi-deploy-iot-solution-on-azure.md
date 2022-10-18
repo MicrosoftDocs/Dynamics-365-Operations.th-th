@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428476"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643738"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>ปรับใช้โซลูชัน IoT บน Azure
 
@@ -26,6 +26,14 @@ ms.locfileid: "9428476"
 ระบบข้อมูลอัจฉริยะจากเซนเซอร์จะใช้ข้อมูลจากหนึ่งๆ ที่เชื่อมต่อกับ Microsoft Azure เมื่อต้องการให้ Azure ดึงข้อมูลจากเซนเซอร์ของคุณและใช้งาน Dynamics 365 Supply Chain Management ร่วมกันได้ คุณต้องปรับใช้โซลูชันอินเทอร์เน็ตในทุกสิ่ง (IoT) บนการสมัครใช้งาน Azure ของคุณ แผนภาพใหม่ต่อไปนี้แสดงภาพรวมของโซลูชันและส่วนประกอบของโซลูชัน
 
 ![แผนภาพสถาปัตยกรรมระบบข้อมูลอัจฉริยะจากเซนเซอร์](media/sdi-architecture.png "แผนภาพสถาปัตยกรรมระบบข้อมูลอัจฉริยะจากเซนเซอร์")
+
+## <a name="video-instructions"></a>คำแนะนำแบบวิดีโอ
+
+วิดีโอต่อไปนี้แสดงวิธีการ [เปิดคุณลักษณะ Sensor Data Intelligence](sdi-enable-feature.md) และ ปรับใช้ทรัพยากร Azure ที่จำเป็น ส่วนอื่นๆ ในบทความนี้จะให้คําแนะนําเดียวกันในรูปแบบข้อความ
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>กระบวนงาน
 
 ให้ทำตามขั้นตอนต่อไปนี้เพื่อปรับใช้ทรัพยากรที่จำเป็นบน Azure
 

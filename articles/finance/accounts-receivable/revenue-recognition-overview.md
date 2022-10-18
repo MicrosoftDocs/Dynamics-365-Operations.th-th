@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348366"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644042"
 ---
 # <a name="revenue-recognition-overview"></a>ภาพรวมของการรับรู้รายได้
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>ฟังก์ชันนี้จะไม่ได้รับการสนับสนุนในเดือนตุลาคม 2023 ผู้ใช้ใหม่ควรใช้การเรียกเก็บเงินตามการสมัครใช้งาน
 
 บริษัทต่างๆ ในอุตสาหกรรมที่จำหน่ายองค์ประกอบหลายอย่าง เช่น ผลิตภัณฑ์ บริการ การสมัครใช้งาน และอื่นๆ ต้องสามารถจำแนกใบสั่งที่มีหลายองค์ประกอบเพื่อให้สามารถรับรู้รายได้ตามชุดหลักเกณฑ์เฉพาะบริษัทหรือเฉพาะอุตสาหกรรม
 

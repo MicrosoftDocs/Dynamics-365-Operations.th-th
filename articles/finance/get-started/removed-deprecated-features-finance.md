@@ -2,7 +2,7 @@
 title: คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 description: บทความนี้อธิบายคุณลักษณะที่ถูกลบออก หรือที่ถูกวางแผนไว้สำหรับการลบจาก Dynamics 365 Finance
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462313"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643806"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462313"
 
 > [!NOTE]
 > ข้อมูลโดยละเอียดเกี่ยวกับออบเจ็กต์ต่างๆ ในแอปการเงินและการดำเนินงานสามารถพบได้ใน [รายงานอ้างอิงทางเทคนิค](/dynamics/s-e/global/axtechrefrep_61) คุณสามารถเปรียบเทียบรุ่นต่างๆ ของรายงานเหล่านี้เพื่อเรียนรู้เกี่ยวกับออบเจ็กต์ที่มีการเปลี่ยนแปลง หรือโดนลบออกในแต่ละรุ่นของแอปการเงินและการดำเนินงาน
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.31
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>การตั้งค่าคอนฟิก EDIFACT PAYMUL (AT) ภายใต้รูปแบบการเงิน
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | แทนที่ด้วยรูปแบบใหม่ที่ยึดตาม ISO 20022 pain.001.001.09 | 
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
+| **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | แอปพลิเคชัน |
+| **ตัวเลือกการปรับใช้**              | ทั้งหมด |
+| **สถานะ**                         | ไม่สนับสนุน: ธนาคารในออสเตรียจะยกเลิกการสนับสนุน EDICFACT-PAYMUL ในการจ่ายค่าจ้างข้ามแดนตั้งแต่พฤศจิกายน 2022 และจะแทนที่ด้วย XML เวอร์ชัน pain.001.001.09N มีการเพิ่มการตั้งค่าคอนฟิกใหม่ภายใต้ที่เก็บการตั้งค่าคอนฟิกแบบครอบคลุม ซึ่งช่วยให้ผู้ใช้สามารถดำเนินการการร้องขอการชำระเงินข้ามแดนได้ |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.30
 
