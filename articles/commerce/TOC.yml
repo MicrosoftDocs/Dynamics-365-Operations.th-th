@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: แปลงลูกค้าแบบอะซิงโครนัสเป็นลูกค้าแบบซิงโครนัส
               href: convert-async-to-sync.md
+            - name: ตรวจสอบการซิงโครไนส์การดำเนินการของลูกค้า
+              href: audit-async-customer-operations.md
             - name: คำถามที่ถามบ่อยเกี่ยวกับโหมดการสร้างลูกค้าแบบอะซิงโครนัส
               href: async-customer-mode-faq.md
             - name: ความสัมพันธ์อันดีกับลูกค้า
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: โมดูลการแชท
                   items:
-                    - name: โมดูลการแชทของ Commerce
+                    - name: ภาพรวมของคุณลักษณะการแชทของ Commerce
+                      href: commerce-chat-overview.md
+                    - name: โมดูลการแชทของ Commerce ด้วยช่องทาง Omni สำหรับ Customer Service
                       href: commerce-chat-module.md
+                    - name: โมดูลการแชทของ Commerce ด้วย Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: พารามิเตอร์การแชทแบบโพรแอกทีฟของโมดูลการแชทของ Commerce
+                      href: chat-proactive-chat-parameters.md
             - name: ค้นหา
               items:
                 - name: ภาพรวมของหน้าเริ่มต้นของประเภทและหน้าผลการค้นหาค่าเริ่มต้น

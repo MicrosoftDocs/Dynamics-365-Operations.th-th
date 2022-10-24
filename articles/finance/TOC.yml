@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (มกราคม)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (พฤศจิกายน)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (ตุลาคม)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: ตั้งค่าการตรวจสอบความถูกต้องของการจับคู่ใบแจ้งหนี้ของบัญชีเจ้าหนี้
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: โซลูชัน Invoice Capture
+              items:
+                - name: ภาพรวมของ Invoice Capture
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: การติดตั้ง Invoice Capture
+                  href: accounts-payable/install-invoice-capture.md
+                - name: ตั้งค่าคอนฟิก Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: กลุ่มการตั้งค่าคอนฟิก Invoice Capture
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: กฎการแม็ป Invoice Capture
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: พื้นที่ทำงาน Invoice Capture
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: การตั้งค่าขั้นสูง Invoice Capture
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: แดชบอร์ด Invoice Capture
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: ไฟล์ที่ได้รับ Invoice Capture
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: ระบบอัตโนมัติสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
               items:
                 - name: ภาพรวมกระบวนการออกใบแจ้งหนี้ของผู้จัดจำหน่ายโดยอัตโนมัติ

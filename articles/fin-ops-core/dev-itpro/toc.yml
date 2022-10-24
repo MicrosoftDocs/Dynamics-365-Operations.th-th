@@ -14,6 +14,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
                   href: get-started/whats-new-home-page.md
+                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.31 (กุมภาพันธ์ 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.30 (พฤศจิกายน 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.29 (ตุลาคม 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: ติดตามการเปลี่ยนแปลงของเอนทิตี้
                   href: data-entities/entity-change-track.md
+                - name: อนุญาตให้ติดตามการเปลี่ยนแปลงเวอร์ชันแถวของเอนทิตี้
+                  href: data-entities/rowversion-change-track.md
                 - name: ค้นหาข้อมูลเกี่ยวกับเอนทิตี้ข้อมูลมาตรฐาน
                   href: data-entities/data-entities-report.md
                 - name: เทมเพลตข้อมูลที่มีเวิร์กชีตหลายรายการ
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: เปิดใช้งานเอนทิตี้เสมือน Dataverse
                   href: power-platform/enable-virtual-entities.md
+                - name: ติดตามการเปลี่ยนแปลงของตารางเสมือนใน Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: พอร์ทัล Power Apps ที่มีการเงินและการดำเนินงาน
                   href: power-platform/power-portal-reference.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับเอนทิตี้เสมือนของการเงินและการดำเนินงาน
