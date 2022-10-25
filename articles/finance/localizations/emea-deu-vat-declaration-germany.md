@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269418"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689472"
 ---
 # <a name="vat-declaration-germany"></a>การรายงานภาษี VAT (เยอรมนี)
 
@@ -198,7 +198,8 @@ ms.locfileid: "9269418"
 
    รูปแบบนี้จะพิมพ์เมื่อคุณเรียกใช้รายงาน **รายงานภาษีขายสำหรับรอบระยะเวลาการชําระเงิน** โดยจะพิมพ์ด้วยเมื่อคุณ **พิมพ์** บนหน้า **การชำระเงินภาษีขาย**
 
-4. บนหน้า **หน่วยงานจัดเก็บภาษี** ให้เลือกหน่วยงานจัดเก็บภาษี จากนั้นในฟิลด์ **โครงร่างรายงาน** ให้เลือก **ค่าเริ่มต้น**
+4. ถ้าคุณต้องรายงานการแก้ไข ในส่วน **รายงานพิเศษ** ให้ตั้งค่า **รวมการแก้ไข** เป็น **ใช่**
+5. บนหน้า **หน่วยงานจัดเก็บภาษี** ให้เลือกหน่วยงานจัดเก็บภาษี และในฟิลด์ **โครงร่างรายงาน** ให้เลือก **ค่าเริ่มต้น**
 
 หากคุณไม่ได้ตั้งค่าคอนฟิกการรายงานภาษี VAT ในนิติบุคคลที่มี [การลงทะเบียน VAT หลายรายการ](emea-reporting-for-multiple-vat-registrations.md) ให้ปฏิบัติตามขั้นตอนต่อไปนี้
 

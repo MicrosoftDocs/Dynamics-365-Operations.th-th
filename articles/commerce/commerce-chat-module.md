@@ -2,19 +2,19 @@
 title: โมดูลการสนทนาของ Commerce ด้วย Omnichannel for Customer Service
 description: บทความนี้จะอธิบายโมดูลการสนทนาของ Commerce ด้วย Omnichannel for Customer Service ใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473821"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690328"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>โมดูลการสนทนาของ Commerce ด้วย Omnichannel for Customer Service
 
@@ -82,6 +82,9 @@ ms.locfileid: "9473821"
 1. ในกล่องโต้ตอบ **เลือกโมดูล** ให้เลือกส่วนย่อยการแชทที่คุณสร้างไว้ก่อนหน้า แล้วเลือก **ตกลง**
 1. เลือก **บันทึก** เลือก **แก้ไขให้เสร็จสิ้น** เพื่อตรวจสอบในส่วน และจากนั้น เลือก **เผยแพร่** เพื่อเผยแพร่
 
+> [!NOTE]
+> สำหรับรายการพารามิเตอร์การตั้งค่าคอนฟิกทั้งหมด ดูที่ [พารามิเตอร์การสนทนาอัตโนมัติของโมดูลการสนทนา Commerce](chat-proactive-chat-parameters.md)
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>เพิ่ม Commerce Headquarters เป็นแท็บแอพลิเคชัน สำหรับ Omnichannel for Customer Service
 
 คุณสามารถเพิ่มแท็บแอพลิเคชันสำหรับ Commerce headquarters ใน Omnichannel for Customer Service จากนั้นตัวแทนสนทนาสดจะสามารถใช้อินเทอร์เฟสผู้ใช้สำหรับประสบการณ์ตัวแทน Omnichannel for Customer Service เพื่อเข้าถึงโมดูล Dynamics 365 Commerce Customer Service ที่มีข้อมูลบริบทของลูกค้าพร้อมกับข้อมูลใบสั่งขายได้โดยง่าย นอกจากนี้ เจ้าหน้าที่บริการลูกค้ายังสามารถวางใบสั่งใหม่ เริ่มต้นการส่งคืน และตรวจสอบความถูกต้องของข้อมูลสถานะของใบสั่งได้
@@ -115,6 +118,9 @@ ms.locfileid: "9473821"
 1. เปิดสตรีมงานที่คุณสร้างขึ้นให้กับตัวแทนของคุณ จากนั้นภายใต้ **การตั้งค่าขั้นสูง** ให้เลือก **รอบเวลาเริ่มต้น**
 1. ภายใต้ **แท็บแอปลิเคชัน** ให้เลือก **เพิ่มแท็บแอปลิเคชันที่มีอยู่** แล้วเพิ่มแท็บแอปลิเคชันใหม่ที่คุณสร้างขึ้นก่อนหน้านี้ ขั้นตอนนี้ช่วยให้มั่นใจว่าแท็บแอปลิเคชันที่โหลด Commerce headquarters ในโมดูล iFrame จะปรากฏขึ้นเมื่อตัวแทนรับการสนทนาขาเข้าจากเว็บไซต์อีคอมเมิร์ซของคุณ
 
+> [!NOTE]
+> คุณไม่สามารถแก้ไขแม่แบบรอบเวลาการสนทนาเริ่มต้นในสตรีมงานได้ ดังนั้น คุณอาจต้องการสร้างแม่แบบใหม่หรือคัดลอกแม่แบบที่มีอยู่เพื่ออัปเดตแม่แบบ หากต้องการทราบข้อมูลเพิ่มเติม โปรดดูที่ [เชื่อมโยงแม่แบบกับสตรีมงาน](/dynamics365/app-profile-manager/associate-templates)
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>เพิ่มตัวแปรบริบทใน Dynamics 365 Omnichannel for Customer Service
 
 การเพิ่มตัวแปรบริบทใน Dynamics 365 Omnichannel for Customer Service ให้ทำตามขั้นตอนเหล่านี้
@@ -128,3 +134,11 @@ ms.locfileid: "9473821"
 
 > [!NOTE]
 > หากคุณต้องการอ่านที่อยู่อีเมลและชื่อของผู้ใช้ที่ลงชื่อเข้าใช้จากช่องทางอีคอมเมิร์ซ คุณสามารถเพิ่ม **อีเมล** และ **ชื่อ** เป็นตัวแปรบริบทของชนิด **ข้อความ** ได้นอกเหนือจากตัวแปรบริบท **AccountNumber**
+
+## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+
+[ภาพรวมของคุณลักษณะการสนทนา Commerce](commerce-chat-overview.md)
+
+[โมดูลการสนทนาของ Commerce ด้วย Power Virtual Agents](chat-module-pva.md)
+
+[พารามิเตอร์การสนทนาอัตโนมัติของโมดูลการสนทนา Commerce](chat-proactive-chat-parameters.md)

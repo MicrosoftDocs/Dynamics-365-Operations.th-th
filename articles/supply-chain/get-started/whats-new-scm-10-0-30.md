@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429135"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689204"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>พรีวิวของ Dynamics 365 Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่นพรีวิว 10.0.30 รุ่นนี้มีหมายเลขบิลด์เป็น 10.0.1362 และพร้อมใช้งานในกำหนดการต่อไปนี้:
+บทความนี้แสดงรายการคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management รุ่น 10.0.30 รุ่นนี้มีหมายเลขบิลด์เป็น 10.0.1362 และพร้อมใช้งานในกำหนดการต่อไปนี้:
 
 - **พรีวิวของการนำออกใช้:** กันยายน 2022
 - **ความพร้อมใช้งานทั่วไปของการนำออกใช้ (การอัปเดตด้วยตนเอง):** ตุลาคม 2022
@@ -35,7 +34,7 @@ ms.locfileid: "9429135"
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
 | การผลิต | [ตรวจสอบอุปกรณ์ที่มีระบบข้อมูลอัจฉริยะจากเซนเซอร์](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [หน้าแรกระบบข้อมูลอัจฉริยะจากเซนเซอร์](../sensor-data-intelligence/sdi-home-page.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) ระบบข้อมูลอัจฉริยะจากเซนเซอร์* |
-| การจัดการคลังสินค้า | การข้ามตำแหน่งหลายระดับสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่ <!-- KFM: Add link when RP updates --> | [ตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่](../warehousing/warehouse-app-detours.md) | การจัดการคุณลักษณะ:<br>*การข้ามตำแหน่งหลายระดับสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่* |
+| การจัดการคลังสินค้า | [การข้ามตำแหน่งหลายระดับสำหรับแอปการจัดการคลังสินค้าบนมือถือ](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [ตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่](../warehousing/warehouse-app-detours.md) | การจัดการคุณลักษณะ:<br>*การข้ามตำแหน่งหลายระดับสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>การปรับปรุงคุณลักษณะรวมอยู่ในการนำออกใช้นี้
 
@@ -52,7 +51,7 @@ ms.locfileid: "9429135"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>การอัปเดตแพลตฟอร์มสำหรับแอปการเงินและการดำเนินงาน
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 รวมถึงการอัปเดตแพลตฟอร์ม เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น 10.0.30 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md) <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 รวมถึงการอัปเดตแพลตฟอร์ม เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดูที่ [Platform update สำหรับรุ่น 10.0.30 ของแอปการเงินและการดำเนินงาน (พฤศจิกายน 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)
 
 ### <a name="bug-fixes"></a>การแก้ไขปัญหา
 

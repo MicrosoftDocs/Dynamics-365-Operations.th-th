@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186744"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689550"
 ---
 # <a name="inventory-positioning"></a>การกำหนดตำแหน่งสินค้าคงคลัง
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 การกำหนดตำแหน่งสินค้าคงคลัเชิงกลยุทธ์เกี่ยวข้องกับการระบุจุดแยกส่วนในห่วงโซ่อุปทานของคุณ ซึ่งคุณสามารถสร้างปริมาณคงคลังคงเหลือได้ วิธีการนี้ใช้เพื่อช่วยบีบอัดระยะเวลารอคอยสินค้าและดูดซึมสินค้าไปยังห่วงโซ่อุปทานของคุณ ซึ่งจะช่วยให้คุณสามารถลด "ปรากฏการณ์แส้ม้า" ได้ เนื่องจากความผันแปรของความต้องการไม่ได้ส่งผ่านห่วงโซ่อุปทานไปทั้งหมด (*ปรากฏการณ์แส้ม้า* หมายถึงความผันผวนน้อยๆ ที่ต้องการในระดับการขายปลีกอาจก่อให้เกิดความผันผวนที่สูงกว่าความต้องการในความผันผวนโดยรวม ขายส่ง ผู้จัดจําหน่าย ผู้ผลิต และระดับซัพพลายเออร์วัตถุดิบ)
 

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644069"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689412"
 ---
 # <a name="the-asset-maintenance-scenario"></a>สถานการณ์การบํารุงรักษาสินทรัพย์
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 สถานการณ์ *สถานการณ์การบํารุงรักษาสินทรัพย์* ช่วยให้คุณสามารถใช้ข้อมูลเซ็นเซอร์เพื่อสร้างเรกคอร์ดตัวนับได้ เรกคอร์ดตัวนับจะติดตามการใช้สินทรัพย์เครื่องจักร และใช้เป็นข้อมูลป้อนเข้าเพื่อสร้างตารางการบํารุงรักษาสินทรัพย์เครื่องจักร
 
@@ -115,6 +116,9 @@ ms.locfileid: "9644069"
 1. ไปยัง **การจัดการสินทรัพย์ \> สินทรัพย์ \> สินทรัพย์ทั้งหมด**
 1. ค้นหาและเลือกสินทรัพย์คุณต้องการตรวจสอบ (ถ้าคุณจะใช้ข้อมูลสาธิตที่คุณสร้างไว้ก่อนหน้านี้ในบทความนี้ ให้เลือก *AK-101*)
 1. บนบานหน้าต่างการดำเนินการบนแท็บ **สินทรัพย์** ในกลุ่ม **เชิงป้องกัน** เลือก **ตัวนับ** เพื่อเปิดหน้าเรกคอร์ดตัวนับของสินทรัพย์ *AK-101*
+
+> [!NOTE]
+> ตามค่าเริ่มต้น เรกคอร์ดตัวนับจะได้รับการตั้งค่าคอนฟิกให้แทรกทุกสามชั่วโมง ซึ่งหมายความว่าข้อมูลเซ็นเซอร์จะถูกรวมในช่วงเวลานั้น คุณสามารถเปลี่ยนช่วงเวลาได้โดยแก้ไขการสอบถามในส่วนประกอบ Azure Stream Analytics
 
 ### <a name="generate-maintenance-work-orders"></a>สร้างใบสั่งงานการบำรุงรักษา
 

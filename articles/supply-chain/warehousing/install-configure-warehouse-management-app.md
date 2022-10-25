@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335659"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682546"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอป Warehouse Management บนมือถือ
 
@@ -272,6 +272,7 @@ ms.locfileid: "9335659"
 
         > [!IMPORTANT]
         > อย่าจบค่านี้โดยใช้เครื่องหมายทับ (/)
+        > ตรวจสอบให้แน่ใจว่าใบรับรอง HTTPS (SSL) ถูกต้อง
 
     - **ผู้เช่า Active directory** – ป้อนชื่อโดเมน Azure AD ที่คุณกำลังใช้กับเซิร์ฟเวอร์ Supply Chain Management ค่านี้มีฟอร์ม `https://login.windows.net/<your-Azure-AD-domain-name>` นี่คือตัวอย่าง: `https://login.windows.net/contosooperations.onmicrosoft.com` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีค้นหาชื่อโดเมน Azure AD ของคุณ โปรดดูที่ [การระบุรหัสที่สําคัญของผู้ใช้](/partner-center/find-ids-and-domain-names)
 

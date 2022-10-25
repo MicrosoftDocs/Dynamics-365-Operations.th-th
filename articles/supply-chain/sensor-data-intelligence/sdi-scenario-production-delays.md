@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428418"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690033"
 ---
 # <a name="the-production-delays-scenario"></a>สถานการณ์ความล่าช้าของการผลิต
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 สถานการณ์ *ความล่าช้าในการผลิต* จะสร้างการแจ้งเตือนถ้าปริมาณการผลิตอยู่ต่ำกว่าค่าขีดจำกัดที่ระบุ ในสถานการณ์นี้ มีการส่งสัญญาณ *part-out* ไปยัง Microsoft Azure IoT Hub สำหรับสินค้าแต่ละรายการที่ผลิต ใน Dynamics 365 Supply Chain Management จะมีการคำนวณการล่าช้าของใบสั่งตามจำนวนเวลาที่ใบสั่งผลิตมีการจัดกำหนดการให้ทำงาน จำนวนของสินค้าที่ควรจะผลิต จำนวนของเวลาที่งานกำลังดำเนินอยู่ และจำนวนของสัญญาณ *part-out* ที่ได้รับ การแจ้งเตือนความล่าช้าถูกสร้างขึ้นถ้าจำนวนของสัญญาณ *part-out* สำหรับงาน อยู่ต่ำกว่าค่าขีดจำกัด
 

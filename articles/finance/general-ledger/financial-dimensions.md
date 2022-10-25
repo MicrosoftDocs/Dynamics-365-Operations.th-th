@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850002"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680370"
 ---
 # <a name="financial-dimensions"></a>มิติทางการเงิน
 
@@ -84,7 +84,7 @@ ms.locfileid: "8850002"
 ถ้าเป็นไปตามเงื่อนไขใดๆ ก็ตาม คุณจะไม่สามารถลบมิติทางการเงินได้
 
 > [!NOTE]
-> ตั้งแต่ใน Finance รุ่น 10.0.27 มิติทางการเงินจะไม่ถูกเลือกไว้โดยอัตโนมัติเพื่อให้มีการเลือกการตั้งค่าการรายงานทางการเงินเมื่อสร้างมิติเหล่านั้น 
+> ตั้งแต่ใน Finance รุ่น 10.0.27 มิติทางการเงินจะไม่ถูกเลือกไว้โดยอัตโนมัติเพื่อให้มีการเลือกการตั้งค่าการรายงานทางการเงินเมื่อสร้างมิติเหล่านั้น
 
 ## <a name="default-dimension-values"></a>ค่ามิติเริ่มต้น
 
