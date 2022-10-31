@@ -12,7 +12,7 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (กุมภาพันธ์ 2022)
+                - name: Supply Chain Management 10.0.31 (กุมภาพันธ์ 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: การรับรองต้นทางของ USMCA
               href: transportation/usmca-certification-of-origin.md
+            - name: ใบแจ้งหนี้ทางการค้า
+              href: transportation/commercial-invoice.md
             - name: สร้างใบตราส่ง
               href: transportation/create-bill-of-lading.md
             - name: วางแผนกระบวนการผลิตการขนส่งค่าขนส่ง
@@ -3433,11 +3435,17 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: บรรจุลงคอนเทนเนอร์สำหรับการจัดส่ง
                       href: warehousing/packing-containers.md
+                    - name: พิมพ์ป้ายชื่อคอนเทนเนอร์
+                      href: warehousing/print-container-labels.md
                     - name: งานการบรรจุสำหรับการบรรจุลงคอนเทนเนอร์ขาออกและการดำเนินการกับการจัดส่ง
                       href: warehousing/packing-work.md
+                    - name: การบรรจุลงคอนเทนเนอร์ด้วยแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: สถานการณ์ตัวอย่าง – บรรจุลงคอนเทนเนอร์ด้วยแอป Warehouse Management บนอุปกรณ์เคลื่อนที่
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: ตั้งค่าการปันส่วนใหม่ของสินค้าสำหรับการเบิกสินค้าที่ขาด
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: การจัดลำดับเวิร์กโฟลว์ที่สั่งการโดยระบบ
+                    - name: การจัดลำดับงานที่สั่งการโดยระบบ
                       href: warehousing/system-directed-work-sequencing.md
                     - name: การจัดกลุ่มรายการการเบิกสินค้า
                       href: warehousing/pick-line-grouping.md
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: การจัดกลุ่มระบบในรายการงานที่เปิด
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: โครงร่างการกำหนดเส้นทางเอกสารสำหรับป้ายชื่อทะเบียน
+                    - name: โครงร่างป้ายชื่อการกำหนดเส้นทางเอกสาร
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: บาร์โค้ดและคิวอาร์โค้ด GS1
                       href: warehousing/gs1-barcodes.md
@@ -3701,9 +3709,15 @@
                   items:
                     - name: อัปเกรดกระบวนการจัดการคลังสินค้าจาก Microsoft Dynamics AX 2012 ไปเป็นการเงินและการดำเนินงาน
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: การวัดและส่งข้อมูลทางไกลของการคลังสินค้า
+              items:
+                - name: เปิดใช้งานการวัดและส่งข้อมูลทางไกลของการคลังสินค้าด้วย Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: ตรวจสอบการใช้งานและประสิทธิภาพของอุปกรณ์เคลื่อนที่
+                  href: warehousing/application-insights-wma.md
         - name: การพัฒนา Supply Chain Management
           items:
-            - name: คู่มือการพัฒนาตัวควบคุมแบบ Gantt
+            - name: คู่มือการพัฒนาตัวควบคุมแบบแกนต์
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?context=/dynamics365/context/supply-chain
             - name: สร้างกลไกจัดการการจัดการขนส่งใหม่
               href: transportation/create-new-transportation-management-engine.md?context=/dynamics365/context/supply-chain

@@ -10,18 +10,16 @@
           items:
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอปการเงินและการดำเนินงาน
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
+            - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
               items:
-                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการอัปเดตแพลตฟอร์ม
+                - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Platform update
                   href: get-started/whats-new-home-page.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.31 (กุมภาพันธ์ 2023)
+                - name: Platform update สำหรับรุ่น 10.0.31 (กุมภาพันธ์ 2023)
                   href: get-started/whats-new-platform-updates-10-0-31.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.30 (พฤศจิกายน 2022)
+                - name: Platform update สำหรับรุ่น 10.0.30 (พฤศจิกายน 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.29 (ตุลาคม 2022)
+                - name: Platform update สำหรับรุ่น 10.0.29 (ตุลาคม 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: การอัปเดตแพลตฟอร์มสำหรับรุ่น 10.0.28 (สิงหาคม 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
               items:
                 - name: โฮมเพจคุณลักษณะที่เอาออกหรือไม่สนับสนุน
@@ -388,9 +386,9 @@
                   items:
                     - name: ตั้งค่าโครงการแบบในสถานที่ใน LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 41 และรุ่นที่ใหม่กว่า)
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 41 และรุ่นที่ใหม่กว่า)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (การอัปเดตแพลตฟอร์ม 12 ถึง 40)
+                    - name: ตั้งค่าและปรับใช้สภาพแวดล้อมในสถานที่ (Platform update 12 ถึง 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: ขั้นตอนการติดตั้งสำหรับส่วนประกอบของ Retail ในสภาพแวดล้อมในสถานที่
                       href: deployment/deploy-retail-onprem.md
@@ -1605,7 +1603,11 @@
             - name: รหัสลิขสิทธิ์และรายงานคีย์การตั้งค่าคอนฟิก
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: การใช้ข้อมูลร่วมกันข้ามบริษัท
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: ตารางที่รองรับการใช้ข้อมูลร่วมกัน
+              href: sysadmin/drs-srs-tables.md
+            - name: การใช้ข้อมูลร่วมกันสำหรับนักพัฒนา
+              href: sysadmin/drs-srs-dev.md
             - name: โหมดการบำรุงรักษา
               href: sysadmin/maintenance-mode.md
             - name: บัญชีระบบที่ตั้งค่าคอนฟิกล่วงหน้า
@@ -1804,7 +1806,7 @@
                       href: migration-upgrade/appupdate-80-81.md
                 - name: นโยบายวงจรการใช้งานซอฟต์แวร์และการนำออกใช้ในระบบคลาวด์
                   href: migration-upgrade/versions-update-policy.md
-                - name: ใช้การอัปเดตแพลตฟอร์มล่าสุดกับสภาพแวดล้อม
+                - name: ใช้ Platform update ล่าสุดกับสภาพแวดล้อม
                   href: migration-upgrade/upgrade-latest-platform-update.md
                 - name: อัปเกรดข้อมูลในสภาพแวดล้อมการพัฒนาหรือการสาธิต
                   href: migration-upgrade/upgrade-data-to-latest-update.md

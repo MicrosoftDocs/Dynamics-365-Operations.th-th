@@ -12,6 +12,8 @@
               items:
                 - name: โฮมเพจมีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (กุมภาพันธ์ 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (พฤศจิกายน 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (ตุลาคม 2022)
@@ -564,10 +566,12 @@
                       href: payment-methods.md
                     - name: วิธีการชำระเงินในศูนย์บริการ
                       href: work-with-payments.md
-                    - name: การประมวลผลการขอคืนการชำระเงินในศูนย์บริการ
+                    - name: การประมวลผลการขอคืนเงินจากการชำระเงินในศูนย์บริการ
                       href: call-center-refund-payments.md
                     - name: การตั้งค่า การตรวจสอบ และการรวบรวมข้อมูลบัตรเครดิต
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: จำกัดการใช้โทเค็นการจ่ายเงิน
+                      href: dev-itpro/limit-token-usage.md
                     - name: ตั้งค่าคอนฟิกหน่วยเงินของเงินสดสำหรับ POS
                       href: cash-denominations.md
                     - name: ตั้งค่าคอนฟิกการประมวลผลบัตรเครดิต
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: โมดูลเช็คเอาท์
                       href: add-checkout-module.md
+                    - name: รหัสอ้างอิงข้อผิดพลาดของโมดูลเช็คเอาท์
+                      href: checkout-module-error-codes.md
                     - name: โมดูลการชำระเงิน
                       href: payment-module.md
                     - name: โมดูลที่อยู่ที่จัดส่ง
@@ -1456,7 +1462,7 @@
                   href: localizations/latam-bra-nfce-cancel-return.md
                 - name: การลงทะเบียนที่เลื่อนออกไปของเอกสาร NFC-e ที่ออกในโหมดฉุกเฉินแบบออฟไลน์
                   href: localizations/latam-bra-nfce-contingency-mode.md
-                - name: ลงรายการบัญชีเอกสารทางการเงินของบราซิลผ่านใบแจ้งยอดการขายปลีกในศูนย์ควบคุม Commerce
+                - name: ลงรายการบัญชีเอกสารทางการเงินของบราซิลผ่านใบแจ้งยอดการขายปลีกใน Commerce headquarters
                   href: localizations/latam-bra-retail-statements.md
                 - name: ฟังก์ชันเอกสารทางการเงินของ CF-e และการรวมกับ SAT ใน Commerce POS สำหรับบราซิล
                   href: localizations/latam-bra-cf-e-sat.md
@@ -3006,7 +3012,7 @@
                   href: troubleshoot/restrict-access-storefront.md
                 - name: ลิงก์ลงชื่อเข้าใช้เปลี่ยนเส้นทางกลับไปยังไซต์อีคอมเมิร์ซ
                   href: troubleshoot/sign-in-redirects-back.md
-                - name: เรกคอร์ดลูกค้าไม่ปรากฏในศูนย์ควบคุม Commerce
+                - name: เรกคอร์ดลูกค้าไม่ปรากฏใน Commerce headquarters
                   href: troubleshoot/customer-record-not-appearing.md
                 - name: ตัวเลือกการเบิกสินค้านี้ไม่ปรากฏขึ้น
                   href: troubleshoot/pickup-store-link-missing.md
