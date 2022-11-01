@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220619"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708795"
 ---
 # <a name="pack-containers-for-shipment"></a>บรรจุลงคอนเทนเนอร์สำหรับการจัดส่ง
 
@@ -34,7 +34,9 @@ ms.locfileid: "9220619"
 - [ยืนยันและโอนย้าย](confirm-and-transfer.md)
 - [ตั้งค่ามิติที่แตกต่างกันเกี่ยวกับการบรรจุและการจัดเก็บ](packing-vs-storage-dimensions.md)
 - [งานการบรรจุสำหรับการบรรจุคอนเทนเนอร์ขาออกและการประมวลผลการจัดส่ง](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [การบรรจุลงคอนเทนเนอร์ด้วยแอป Warehouse Management บนอุปกรณ์เคลื่อนที่](warehouse-app-packing-containers.md)
+- [สถานการณ์ตัวอย่าง – บรรจุลงคอนเทนเนอร์ด้วยแอป Warehouse Management บนอุปกรณ์เคลื่อนที่](warehouse-app-pack-containers-scenario.md)
+- [พิมพ์ป้ายชื่อคอนเทนเนอร์](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>การตั้งค่าคลังสินค้าของคุณเพื่อใช้การดําเนินงานการบรรจุด้วยตนเอง
 

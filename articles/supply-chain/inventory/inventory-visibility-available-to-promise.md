@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856206"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719320"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>กำหนดการการเปลี่ยนแปลงปริมาณคงเหลือของการมองเห็นสินค้าคงคลังและปริมาณที่ให้สัญญาได้
 
@@ -205,6 +205,7 @@ ms.locfileid: "8856206"
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | สร้างเหตุการณ์การเปลี่ยนแปลงหลายเหตุการณ์ |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | การสอบถามโดยใช้วิธีการ `POST` |
 | `/api/environment/{environmentId}/onhand` | `GET` | การสอบถามโดยใช้วิธีการ `GET` |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | แยกการสอบถามโดยใช้วิธีการ `POST` |
 
 สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [API สาธารณะของการมองเห็นสินค้าคงคลัง](inventory-visibility-api.md)
 
@@ -394,6 +395,8 @@ Body:
 > [!NOTE]
 > ไม่ว่าพารามิเตอร์ `returnNegative` จะถูกตั้งค่าเป็น *จริง* หรือ *เท็จ* ในเนื้อหาคำขอ ผลลัพธ์จะรวมค่าลบเมื่อคุณสอบถามการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการและผลลัพธ์ ATP ค่าลบเหล่านี้จะถูกรวมไว้ด้วยเนื่องจากหากมีการจัดกำหนดการเฉพาะใบสั่งความต้องการเท่านั้น หรือถ้าปริมาณการจัดหาน้อยกว่าปริมาณความต้องการ ปริมาณของการเปลี่ยนแปลงปริมาณคงเหลือตามกำหนดการจะเป็นค่าลบ หากไม่รวมค่าลบ ผลลัพธ์อาจสร้างความสับสน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวเลือกนี้และวิธีใช้งานการสอบถามอื่นๆ ดูที่ [API สาธารณะสำหรับการมองเห็นสินค้าคงคลัง](inventory-visibility-api.md#query-with-post-method)
 
+### <a name="query-by-using-the-post-method"></a>สอบถามโดยใช้วิธีการ POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีการสร้างเนื้อหาคำขอที่สามารถส่งไปยังการมองเห็นสินค้าคงคลังโดยใช้วิธีการ `POST`
+ตัวอย่างต่อไปนี้แสดงวิธีการสร้างเนื้อหาคำขอการสอบถามดัชนีที่สามารถส่งไปยังการมองเห็นสินค้าคงคลังโดยใช้วิธีการ `POST`
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Body:
 }
 ```
 
-### <a name="get-method-example"></a>ตัวอย่างวิธีการ GET
+### <a name="query-by-using-the-get-method"></a>สอบถามโดยใช้วิธีการ GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีการสร้าง URL คำขอเป็นคำขอ `GET`
+ตัวอย่างต่อไปนี้แสดงวิธีการสร้าง URL คำขอการสอบถามดัชนีเป็นคำขอ `GET`
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 ผลลัพธ์ของคำขอ `GET` นี้จะเหมือนกับผลลัพธ์ของคำขอ `POST` ในตัวอย่างก่อนหน้านี้ทั้งหมด
 
+### <a name="exact-query-by-using-the-post-method"></a>แยกการสอบถามโดยใช้วิธีการ POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+ตัวอย่างต่อไปนี้แสดงวิธีการสร้างเนื้อหาคำขอการสอบถามที่แน่ชัดที่สามารถส่งไปยังการมองเห็นสินค้าคงคลังโดยใช้วิธีการ `POST`
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>ตัวอย่างผลลัพธ์การสอบถาม
 
-ตัวอย่างการสอบถามก่อนหน้าทั้งสองตัวอย่างอาจทำให้เกิดการตอบกลับต่อไปนี้ ในตัวอย่างนี้ ระบบจะตั้งค่าคอนฟิกด้วยการตั้งค่าต่อไปนี้
+ตัวอย่างการสอบถามก่อนหน้าอาจทำให้เกิดการตอบกลับต่อไปนี้ ในตัวอย่างนี้ ระบบจะตั้งค่าคอนฟิกด้วยการตั้งค่าต่อไปนี้
 
 - **การวัดที่คํานวณได้ของ ATP:** *iv.onhand = pos.inbound – pos.outbound*
 - **รอบระยะเวลากำหนดการ:** *7*

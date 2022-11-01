@@ -2,7 +2,7 @@
 title: หนังสือค้ำประกัน
 description: บทความนี้ให้ข้อมูลเกี่ยวกับหนังสือค้ำประกัน ในหนังสือค้ำประกัน ธนาคารตกลงที่จะชำระจำนวนเงินเฉพาะให้แก่บุคคลถ้าลูกค้าของธนาคารหนึ่งมีค่าเริ่มต้นในการชำระเงินหรือข้อผูกมัดไปยังบุคคลนั้น
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a36ab23e15d99bcaec84beb56d0ae8e33ebe6b8d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 24db7e23ec6d360bbae7113e62bb28d4aecd851f
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151295"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715399"
 ---
 # <a name="letters-of-guarantee"></a>หนังสือค้ำประกัน
 

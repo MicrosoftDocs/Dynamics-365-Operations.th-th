@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336559"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714711"
 ---
 # <a name="usmca-certification-of-origin"></a>ใบรับรองแหล่งกำเนิดสินค้า USMCA
 
@@ -57,7 +58,7 @@ ms.locfileid: "9336559"
 เมื่อต้องการพิมพ์เอกสารใบรับรองแหล่งกำเนิดสินค้า USMCA สำหรับการจัดส่ง ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ดำเนินการตามข้อใดข้อหนึ่งต่อไปนี้
-    - ไปที่ **การจัดการการขนส่ง > การจัดส่ง > การจัดส่ทั้งหมด** และเลือกการจัดส่งที่คุณต้องการพิมพ์เอกสาร
+    - ไปที่ **การจัดการการขนส่ง \> การวางแผน \> การจัดส่ง \> การจัดส่งทั้งหมด** และเลือกการจัดส่งที่คุณต้องการพิมพ์เอกสาร
     - เปิดหน้า **รายละเอียดการจัดส่ง** สำหรับการจัดส่งที่คุณต้องการพิมพ์เอกสาร (มีหลายวิธีในการดูที่นี่ รวมถึงจากหน้า **การจัดส่งทั้งหมด**)
 1. ในบานหน้าต่างการดำเนินการ ให้เปิดแท็บ **การจัดส่ง** และจากกลุ่ม **พิมพ์** ให้เลือก **ใบรับรองแหล่งกำเนิดสินค้า USMCA**
 1. กล่องโต้ตอบ **ใบรับรองแหล่งกำเนิดสินค้า** เปิด ทำการตั้งค่าที่อธิบายไว้ในย่อยต่อไปนี้แล้วเลือก **ตกลง** เพื่อสร้างเอกสาร
