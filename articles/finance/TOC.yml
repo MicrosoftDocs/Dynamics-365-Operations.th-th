@@ -692,20 +692,14 @@
               items:
                 - name: กระบวนการตั้งค่าการกระทบยอดบัญชีธนาคารขั้นสูง
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: ตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูง
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: ตั้งค่ากระบวนการนำเข้าการกระทบยอดบัญชีธนาคารขั้นสูงโดยใช้การรายงานทางอิเล็กทรอนิกส์
                   href: accounts-payable/import-bai2-er.md
                 - name: ตั้งค่าชุดกฎการจับคู่การกระทบยอดบัญชีธนาคาร
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: กระทบยอดใบแจ้งยอดจากธนาคารโดยใช้การกระทบยอดบัญชีธนาคารขั้นสูง
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: การนำเข้า MT940 การกระทบยอดบัญชีธนาคารขั้นสูง – การอัปเกรดเอนทิตี้ข้อมูลแบบรวม
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: ภาพรวมการกระทบยอดบัญชีธนาคารขั้นสูง
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: การแก้ไขปัญหาการนำเข้าไฟล์ใบแจ้งยอดจากธนาคาร
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: อัปเดตเอนทิตี้โดยรวมของสมุดรายวันธนาคาร
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: การบัญชีต้นทุน

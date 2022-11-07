@@ -2239,9 +2239,19 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: ตั้งค่านโยบายสำหรับประเภทการจัดซื้อตามลำดับชั้น
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: การประเมินความเสี่ยงด้านอุปทาน
+              items:
+                - name: ภาพรวมของการประเมินความเสี่ยงด้านอุปทาน
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: ตั้งค่าคอนฟิกการประเมินความเสี่ยงด้านอุปทาน
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: พื้นที่ทำงานที่ดำเนินการได้เพื่อค้นหาและจัดการความเสี่ยงจากซัพพลายเออร์
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: รายงาน Power BI สำหรับการวิเคราะห์ความเสี่ยงและการจัดอันดับประสิทธิภาพ
+                  href: procurement/supply-risk-assessment-reports.md
             - name: ใบรับสินค้าและการออกใบแจ้งหนี้
               items:
-                - name: ใบรับสินค้า - ใบสั่งซื้อ
+                - name: ใบรับสินค้าตามใบสั่งซื้อ
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: ภาพรวมของใบแจ้งหนี้ของผู้จัดจำหน่าย
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?context=/dynamics365/context/supply-chain

@@ -4,6 +4,18 @@
       items:
         - name: โฮมเพจ Dynamics 365 Human Resources
           href: index.md
+        - name: การรวมโครงสร้างพื้นฐานของ Human Resources
+          items:
+            - name: ภาพรวมของการรวมโครงสร้างพื้นฐานของ Human Resources
+              href: hr-infrastructure-merge.md
+            - name: การย้ายลูกค้าโครงสร้างพื้นฐานของ Human Resources
+              href: hr-cust-migration.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมโครงสร้างพื้นฐานของ Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการย้ายลูกค้า Human Resources
+              href: customer-migration.md
+            - name: ปัญหาที่ทราบเกี่ยวกับการรวมโครงสร้างพื้นฐานของ Human Resources
+              href: hr-migration-issues.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลง
           items:
             - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในแอปการเงินและการดำเนินงาน
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับการใช้งานจริง
                   href: hr-admin-go-live-faq.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับการรวมโครงสร้างพื้นฐานของ Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: คำถามที่ถามบ่อยเกี่ยวกับการย้ายลูกค้า Human Resources
-                  href: customer-migration.md
                 - name: แหล่งข้อมูลคู่มือ
                   items:
                     - name: ระบบวิธีใช้

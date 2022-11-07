@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการปรับใช้
                       href: deployment/deploymentFAQ.md
+                    - name: ย้ายสภาพแวดล้อม
+                      href: deployment/geo-to-geo-migrations.md
                     - name: ปัญหาที่ทราบเกี่ยวกับการปรับใช้แบบบริการตนเอง
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: การดำเนินการบำรุงรักษาสำหรับการปรับใช้
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: อัปเดตสภาพแวดล้อม
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: ย้ายสภาพแวดล้อม
+                      href: deployment/geo-to-geo-migrations.md
                     - name: แก้ไขปัญหาสภาพแวดล้อมที่ปรับใช้ผ่านการปรับใช้แบบบริการตนเอง
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: คำถามที่ถามบ่อยเกี่ยวกับการบำรุงรักษาตามแผนในสภาพแวดล้อมแบบบริการตนเอง
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: การเตรียมความพร้อมสำหรับโครงการ
               href: lifecycle-services/project-onboarding.md
+            - name: ผู้จัดการการย้ายโครงการ
+              href: lifecycle-services/project-migration-manager.md
             - name: ตัวประมาณการสมัครใช้งาน
               href: lifecycle-services/subscription-estimator.md
             - name: ตั้งค่าคอนฟิกความปลอดภัย

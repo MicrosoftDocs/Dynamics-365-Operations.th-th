@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: การปรับปรุงสแต็คเทคโนโลยีภายในร้านของ Commerce ให้ทันสมัย (เอกสาร)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: การใช้งานแบบออฟไลน์ของ Commerce และการแก้ไขปัญหา
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: เผยแพร่แค็ตตาล็อกร้านค้าออนไลน์
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: เนื้อหาของ Retail Channel Performance Power BI
@@ -396,12 +394,16 @@
                   items:
                     - name: แอป Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: ความสามารถของแอป Store Commerce
+                      href: store-commerce-capabilities.md
                     - name: แอป Store Commerce สำหรับแพลตฟอร์มอุปกรณ์เคลื่อนที่
                       href: dev-itpro/store-commerce-mobile.md
                     - name: ย้าย Modern POS ไปยัง Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: คำแนะนำการใช้งานการจัดการอุปกรณ์
                       href: implementation-considerations-devices.md
+                    - name: การใช้งานแบบออฟไลน์ของ Commerce และการแก้ไขปัญหา
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: เลือกระหว่าง Store Commerce กับ Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: การดำเนินงาน POS แบบออนไลน์และออฟไลน์
@@ -814,7 +816,7 @@
                       href: ../supply-chain/procurement/purchase-order-overview.md?context=/dynamics365/context/commerce
                     - name: สร้างใบสั่งซื้อ
                       href: ../supply-chain/procurement/purchase-order-creation.md?context=/dynamics365/context/commerce
-                    - name: ใบรับสินค้า - ใบสั่งซื้อ
+                    - name: ใบรับสินค้าตามใบสั่งซื้อ
                       href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?context=/dynamics365/context/commerce
                     - name: อนุมัติและยืนยันใบสั่งซื้อ
                       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?context=/dynamics365/context/commerce
