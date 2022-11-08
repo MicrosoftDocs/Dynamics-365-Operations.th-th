@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869473"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734306"
 ---
 # <a name="recall-order-operation-in-pos"></a>เรียกคืนการดำเนินงานใบสั่งใน POS
 
@@ -65,5 +65,11 @@ ms.locfileid: "8869473"
 ## <a name="add-notifications-to-the-recall-order-operation"></a>เพิ่มการแจ้งเตือนในการดําเนินงานเรียกคืนใบสั่ง
 
 ในเวอร์ชัน 10.0.18 และใหม่กว่า คุณสามารถกำหนดค่าคอนฟิกการแจ้งเตือน POS และการแจ้งเตือนไทล์ปัจจุบันของ **การเรียกคืนคำสั่งซื้อ** ได้ถ้าต้องการ สำหับข้อมูลเพิ่มเติม ดูได้ที่ [แสดงการแจ้งเตือนคำสั่งซื้อ ณ จุดขาย (POS)](notifications-pos.md)  
+
+> [!NOTE]
+> เมื่อต้องการเปิดใช้คุณลักษณะการค้นหาใบสั่ง โปรดตรวจสอบให้แน่ใจว่าคีย์ **ใบเสนอราคา** เปิดใช้งานภายใต้ **การตั้งค่าคอนฟิกสิทธิ์การใช้งาน** > **คีย์การตั้งค่าคอนฟิก**
+>
+> ![การตั้งค่าคอนฟิกคีย์สิทธิ์การใช้งานใบเสนอาคา ต้องเปิดใช้งาน](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286903"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734279"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>เปิดใช้งานการค้นหาใบสั่งของการเช็คเอาท์สำหรับแขก
 
@@ -73,6 +73,11 @@ ms.locfileid: "9286903"
 ในอีเมลที่เกี่ยวข้องกับใบสั่ง คุณสามารถระบุลิงก์หรือปุ่มที่ใช้นำลูกค้าไปยังหน้ารายละเอียดใบสั่งของใบสั่งได้ เมื่อต้องการเพิ่มลิงก์หรือปุ่มนี้ ให้สร้างไฮเปอร์ลิงก์ HTML ที่ชี้ไปยังหน้ารายละเอียดใบสั่งบนเว็บไซต์อีคอมเมิร์ซของคุณ และส่งผ่านรหัสการยืนยันใบสั่งและที่อยู่อีเมลของลูกค้าเป็นพารามิเตอร์ URL ดังที่แสดงในตัวอย่างต่อไปนี้
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> เมื่อต้องการเปิดใช้คุณลักษณะการค้นหาใบสั่ง โปรดตรวจสอบให้แน่ใจว่าคีย์ **ใบเสนอราคา** เปิดใช้งานภายใต้ **การตั้งค่าคอนฟิกสิทธิ์การใช้งาน** > **คีย์การตั้งค่าคอนฟิก**
+>
+>![การตั้งค่าคอนฟิกคีย์สิทธิ์การใช้งานใบเสนอาคา ต้องเปิดใช้งาน](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
