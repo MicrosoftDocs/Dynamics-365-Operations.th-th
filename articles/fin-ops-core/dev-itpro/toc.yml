@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: ตัวอธิบายภาษาและตำแหน่งที่ตั้งในผลิตภัณฑ์และวิธีใช้
                   href: help/language-locale.md
-                - name: ขยาย เลือกกำหนด และทำงานร่วมกันในวิธีใช้
+                - name: ขยายและทำงานร่วมกันในวิธีใช้
                   href: help/contributor-guide.md
             - name: บริการในภูมิภาคของแอปการเงินและการดำเนินงาน
               items:
@@ -1624,7 +1624,11 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: จัดการการเข้าถึงเครื่องพิมพ์บนเครือข่ายระหว่างนิติบุคคล
               href: sysadmin/sys-admin-tools-network-printer.md
-            - name: ความปลอดภัย
+            - name: การตรวจสอบและการวัดและส่งข้อมูลทางไกลโดยใช้ Application Insights
+              items:
+                - name: ภาพรวม
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
+            - name: การรักษาความปลอดภัย
               items:
                 - name: ความปลอดภัยตามบทบาท
                   href: sysadmin/role-based-security.md
