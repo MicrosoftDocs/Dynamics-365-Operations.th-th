@@ -541,7 +541,11 @@
                     - name: สรรหาผู้สมัครงาน
                       href: hr-personnel-recruit.md
         - name: การจัดการงาน
-          href: hr-task-mgmt.md
+          items:
+            - name: ภาพรวม
+              href: hr-task-mgmt.md
+            - name: การอัปเกรดการจัดการงาน
+              href: hr-task-update.md
         - name: การลางานและการขาดงาน
           items:
             - name: ภาพรวม
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: จัดการที่พักของผู้ปฏิบัติงาน
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: การพัฒนาทรัพยากรบุคคล
+    - name: การพัฒนา Human Resources
       items:
         - name: ภาพรวม
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: ฟิลด์ที่กำหนดเอง
           href: hr-developer-custom-fields.md
+        - name: พัฒนาและเลือกกำหนด
+          items:
+            - name: การแจงนับฐานเพศ
+              href: enum-exten.md
         - name: ตั้งค่าการรวมข้อมูล
           items:
             - name: เลือกเทคโนโลยีการรวมข้อมูล

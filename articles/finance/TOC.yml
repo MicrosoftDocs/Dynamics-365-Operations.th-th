@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: คัดลอกกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: การแบ่งลูกค้าที่มีกำหนดการเรียกเก็บเงิน
+                      href: accounts-receivable/sb-customer-split.md
                     - name: คุณลักษณะกำหนดการเรียกเก็บเงิน
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: การเรียกเก็บเงินตามเหตุการณ์สำคัญ
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
                   href: general-ledger/financial-period-close-workspace.md
+                - name: เพิ่มประสิทธิภาพการปิดบัญชีสิ้นปี
+                  href: general-ledger/optimize-year-end-close.md
                 - name: การปิดบัญชีสิ้นปี
                   href: general-ledger/year-end-close.md
                 - name: ปิดปีบัญชี
