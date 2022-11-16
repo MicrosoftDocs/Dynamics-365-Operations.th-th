@@ -1,6 +1,6 @@
 ---
 title: ค่าเผื่อความปลอดภัย
-description: บทความนี้จะอธิบายวิธีการใช้ค่าเผื่อความปลอดภัยกับ Add-in การเพิ่มประสิทธิภาพการวางแผนสำหรับ Microsoft Dynamics 365 Supply Chain Management
+description: หัวข้อนี้อธิบายวิธีการทำงานของค่าเผื่อความปลอดภัยในระหว่างการวางแผนหลัก
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335209"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740453"
 ---
 # <a name="safety-margins"></a>ค่าเผื่อความปลอดภัย
 
 [!include [banner](../../includes/banner.md)]
 
-บทความนี้จะอธิบายวิธีการใช้ค่าเผื่อความปลอดภัยกับ Add-in การเพิ่มประสิทธิภาพการวางแผนสำหรับ Microsoft Dynamics 365 Supply Chain Management
+หัวข้อนี้อธิบายวิธีการทำงานของค่าเผื่อความปลอดภัยในระหว่างการวางแผนหลัก
 
 ## <a name="safety-margins-overview"></a>ภาพรวมค่าเผื่อความปลอดภัย
 
@@ -165,12 +165,5 @@ ms.locfileid: "9335209"
 ตัวอย่างเช่น สินค้ามีระยะเวลารอคอยสินค้าเป็นเวลาหนึ่งวันและระยะเวลาการรับสินค้าสามวัน ใบสั่งขายสำหรับสินค้านี้ได้รับการตั้งค่าเป็นจำเป็นในวันนี้ ในกรณีนี้ จะมีการคำนวณการล่าช้าเป็น *ระยะเวลารอคอยสินค้า* + *ค่าเผื่อในการรับสินค้า* = สี่วัน ดังนั้น ถ้าวันนี้คือวันที่ 14 สิงหาคม การล่าช้าเป็นเวลาสี่วันจะทำให้มีการจัดส่งสินค้าในวันที่ 18 สิงหาคม ในแผนภาพต่อไปนี้แสดงตัวอย่างนี้
 
 ![ตัวอย่างการคำนวณความล่าช้า](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-
-[เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
-
-[การวิเคราะห์ความเหมาะสมของการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

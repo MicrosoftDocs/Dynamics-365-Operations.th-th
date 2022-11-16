@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844538"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739990"
 ---
 # <a name="inventory-forecasts"></a>การคาดการณ์สินค้าคงคลัง
 
@@ -395,7 +395,7 @@ ms.locfileid: "8844538"
     - **รอบระยะเวลาการคาดการณ์** – ถ้าคุณตั้งค่าตัวเลือก **แผนการคาดการณ์** เป็น *ใช่* ให้ระบุจำนวนวัน (ตั้งแต่วันที่ของวันนี้) ซึ่งควรใช้การคาดการณ์ความต้องการ
 
     > [!IMPORTANT]
-    > ตัวเลือก **แผนการคาดการณ์** ยังไม่ได้รับการสนับสนุนด้วยการเพิ่มประสิทธิภาพการวางแผน
+    > ตัวเลือก **แผนการคาดการณ์** ยังไม่ได้รับการสนับสนุนกับการเพิ่มประสิทธิภาพการวางแผน
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>เรียกใช้แผนหลักที่รวมการคาดการณ์สินค้าคงคลัง
 

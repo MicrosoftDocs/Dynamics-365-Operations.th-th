@@ -1,6 +1,6 @@
 ---
 title: ดูประวัติการวางแผนและล็อกการวางแผน
-description: บทความนี้จะอธิบายถึงวิธีการดูประวัติของงานการวางแผน ซึ่งทริกเกอร์โดยฟังก์ชันการเพิ่มประสิทธิภาพของการวางแผน
+description: บทความนี้อธิบายวิธีการดูประวัติของงานการวางแผน
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863953"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740943"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>ดูประวัติการวางแผนและล็อกการวางแผน
 
 [!include [banner](../../includes/banner.md)]
 
-บทความนี้จะอธิบายถึงวิธีการดูประวัติของงานการวางแผน ซึ่งทริกเกอร์โดยฟังก์ชันการเพิ่มประสิทธิภาพของการวางแผนใน Microsoft Dynamics 365 Supply Chain Management
+บทความนี้อธิบายวิธีการดูประวัติของงานการวางแผนใน Microsoft Dynamics 365 Supply Chain Management
 
 เมื่อต้องการดูประวัติสำหรับแผนให้เปิดแผนโดยไปที่ **การวางแผนหลัก** \> **การตั้งค่าแผน** \> **แผน** \> **แผนหลัก** และเลือก **ประวัติ** ประวัติแสดงรายการงานทั้งหมดสำหรับแผนที่เลือก รายการรวมงานที่เสร็จสมบูรณ์และงานที่ใช้งานอยู่
 
@@ -47,14 +47,6 @@ ms.locfileid: "8863953"
     - ถ้าคุณจะใช้ฟอร์มดั้งเดิม: ในบานหน้าต่างการดำเนินการ บนแท็บ **ชุดงาน** ให้เลือก **ล็อก**
 
 1. เลือก **รายละเอียดข้อความ** เพื่อเปิดบานหน้าต่าง **รายละเอียดข้อความ** ซึ่งคุณสามารถดูคําเตือนและข้อผิดพลาดทั้งหมดที่รวบรวมในระหว่างการประมวลผลได้
-
-## <a name="related-resources"></a>ทรัพยากรที่เกี่ยวข้อง
-
-- [ภาพรวมของการเพิ่มประสิทธิภาพการวางแผน](planning-optimization-overview.md)
-- [เริ่มต้นใช้งานการเพิ่มประสิทธิภาพการวางแผน](get-started.md)
-- [การวิเคราะห์การปรับให้เหมาะสมกับการวางแผน](planning-optimization-fit-analysis.md)
-- [ใช้ตัวกรองกับแผน](plan-filters.md)
-- [ยกเลิกงานการวางแผน](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

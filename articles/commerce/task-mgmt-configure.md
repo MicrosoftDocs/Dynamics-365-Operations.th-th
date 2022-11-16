@@ -2,23 +2,23 @@
 title: ตั้งค่าคอนฟิกการจัดการงาน
 description: บทความนี้จะอธิบายวิธีการตั้งค่าคอนฟิกคุณลักษณะการจัดการงานใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282773"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746074"
 ---
 # <a name="configure-task-management"></a>ตั้งค่าคอนฟิกการจัดการงาน
 
@@ -80,7 +80,11 @@ ms.locfileid: "9282773"
 
 ![การดำเนินงานการจัดการงานในหน้าการดำเนินงาน POS](media/HQ-POS-Tasks-Notifications.png)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการแจ้งเตือน POS ให้ดูที่ [แสดงการแจ้งเตือนใบสั่งในการขายหน้าร้าน (POS)](notifications-pos.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการตั้งค่าคอนฟิกการแจ้งเตือน POS ดูที่บทความ [แสดงการแจ้งเตือนใบสั่งในการขายหน้าร้าน (POS)](notifications-pos.md)
+
+> [!NOTE]
+> เมื่อคุณบันทึกการเปลี่ยนแปลง จะปรากฏข้อความคำเตือนต่อไปนี้: **พารามิเตอร์การดำเนินการจะไม่มีการเปิดใช้งานในตัวออกแบบกริดปุ่มสำหรับรหัสการดำเนินการที่เท่ากับหรือน้อยกว่า 4000 หากคุณกำลังสร้างการดำเนินการแบบกำหนดเองและต้องการส่งผ่านพารามิเตอร์จากตัวออกแบบกริดปุ่ม ให้ใช้รหัสการดำเนินการที่มากกว่า 4000** เลือก **ปิด** เพื่อปิดกล่องโต้ตอบ
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>ตั้งค่าคอนฟิกไทล์งานบนโฮมเพจของแอปพลิเคชัน POS
 

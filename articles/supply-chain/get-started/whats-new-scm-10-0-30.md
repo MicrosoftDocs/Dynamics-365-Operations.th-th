@@ -2,7 +2,7 @@
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
 description: บทความนี้อธิบายถึงคุณลักษณะที่ใหม่หรือที่มีการเปลี่ยนแปลงอย่างใดอย่างหนึ่งใน Microsoft Dynamics 365 Supply Chain Management 10.0.30
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714810"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748476"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Dynamics 365 Supply Chain Management 10.0.30 (พฤศจิกายน 2022)
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714810"
 
 | พื้นที่คุณลักษณะ | คุณลักษณะ | ข้อมูลเพิ่มเติม | เปิดใช้งานโดย |
 |---|---|---|---|
+| สินค้าคงคลังและลอจิสติกส์ | [ติดตามปริมาณที่สำรองแบบไม่ตายตัวภายในการปันส่วน](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [การปันส่วนสินค้าคงคลังสำหรับการมองเห็นสินค้าคงคลัง](../inventory/inventory-visibility-allocation.md) |  เปิดใช้งานโดย [การตั้งค่าคอนฟิกบริการ](../inventory/inventory-visibility-configuration.md) |
 | การผลิต | [ตรวจสอบอุปกรณ์ที่มีระบบข้อมูลอัจฉริยะจากเซนเซอร์](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [หน้าแรกระบบข้อมูลอัจฉริยะจากเซนเซอร์](../sensor-data-intelligence/sdi-home-page.md) | การจัดการคุณลักษณะ:<br>*(พรีวิว) ระบบข้อมูลอัจฉริยะจากเซนเซอร์* |
 | การจัดการคลังสินค้า | [การข้ามตำแหน่งหลายระดับสำหรับแอปการจัดการคลังสินค้าบนมือถือ](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [ตั้งค่าคอนฟิกการข้ามตำแหน่งสำหรับขั้นตอนในรายการเมนูของอุปกรณ์เคลื่อนที่](../warehousing/warehouse-app-detours.md) | การจัดการคุณลักษณะ:<br>*การข้ามตำแหน่งหลายระดับสำหรับแอป Warehouse Management บนอุปกรณ์เคลื่อนที่* |
 

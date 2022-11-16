@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6e9cb9362fcafab5738e0a1887366e5fd1efbab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df58017c25737cc946d09bf86ff7ad8bd33f4176
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863982"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741052"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ
 
@@ -47,15 +47,11 @@ ms.locfileid: "8863982"
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
 
-[ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
-
-[การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ](master-plan-site-coverage-warehouse-mandatory.md)
-
-[การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[กำหนดเวอร์ชันสูตรการผลิต](master-plan-bom-version-determined.md)
+- [ภาพรวมของการวางแผนหลักและฟังก์ชันหลายไซต์](master-plan-multisite-functionality.md)
+- [การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [การวางแผนหลักสำหรับความครอบคลุมไซต์ คลังสินค้าบังคับ](master-plan-site-coverage-warehouse-mandatory.md)
+- [การวางแผนหลักสำหรับความครอบคลุมไซต์และคลังสินค้า ไม่จำเป็นต้องมีคลังสินค้า](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [กำหนดเวอร์ชันสูตรการผลิต](master-plan-bom-version-determined.md)
 
 
 

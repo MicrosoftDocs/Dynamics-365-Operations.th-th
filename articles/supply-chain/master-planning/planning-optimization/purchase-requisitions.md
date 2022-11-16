@@ -1,6 +1,6 @@
 ---
 title: ใบขอซื้อ
-description: บทความนี้อธิบายวิธีการสนับสนุนใบขอซื้อในการเพิ่มประสิทธิภาพการวางแผน
+description: บทความนี้อธิบายถึงใบขอซื้อ
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867911"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740696"
 ---
 # <a name="purchase-requisitions"></a>ใบขอซื้อ
 
@@ -59,7 +59,7 @@ ms.locfileid: "8867911"
 1. ทําซ้ําขั้นตอนที่ 2 และ 3 ของแต่ละแผนหลักเพิ่มเติม ซึ่งคุณต้องการตั้งค่ากรอบเวลาของใบขอซื้อที่อนุมัติแล้ว
 
 > [!IMPORTANT]
-> **เร็ว ๆ นี้:** กรอบเวลาของใบขอซื้อที่อนุมัติแล้วยังไม่ได้รับการสนับสนุนสำหรับการเพิ่มประสิทธิภาพการวางแผน จนกว่าจะได้รับการสนับสนุน ค่าทั้งหมดที่คุณป้อนในฟิลด์ **กรอบเวลาของใบขอซื้อที่อนุมัติแล้ว (วัน)** จะถูกละเว้น
+> กรอบเวลาของใบขอซื้อที่อนุมัติแล้วยังไม่ได้รับการสนับสนุนสำหรับการเพิ่มประสิทธิภาพการวางแผน จนกว่าจะได้รับการสนับสนุน ค่าทั้งหมดที่คุณป้อนในฟิลด์ **กรอบเวลาของใบขอซื้อที่อนุมัติแล้ว (วัน)** จะถูกละเว้น
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>การจัดหาวัสดุอิสระ โดยไม่พิจารณารหัสความครอบคลุม
 

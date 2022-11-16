@@ -2,23 +2,23 @@
 title: กำหนดรายการงานให้กับร้านค้าหรือพนักงาน
 description: บทความนี้จะอธิบายถึงวิธีการกำหนดรายการงานให้กับร้านค้าหรือพนักงานใน Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284669"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746206"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>กำหนดรายการงานให้กับร้านค้าหรือพนักงาน
 
@@ -30,7 +30,7 @@ ms.locfileid: "9284669"
 
 ## <a name="start-the-task-list-assignment-process"></a>เริ่มต้นกระบวนการกำหนดรายการงาน
 
-เมื่อต้องการเริ่มต้นกระบวนการกำหนดรายการงาน ให้ทำตามขั้นตอนต่อไปนี้
+ก่อนที่คุณจะเริ่มกระบวนการกําหนดงาน ตรวจสอบให้แน่ใจว่าคุณได้สร้างรายการงานแล้วโดยการปฏิบัติตามขั้นตอนในบทความ [สร้างรายการงานและเพิ่มงาน](task-mgmt-create-lists.md) เมื่อต้องการเริ่มต้นกระบวนการกำหนดรายการงาน ให้ทำตามขั้นตอนต่อไปนี้
 
 1. ไปที่ **การขายปลีกและการค้า \> การจัดการงาน \> การจัดการดูแลการจัดการงาน**
 1. เลือกรายการงานที่จะกำหนด

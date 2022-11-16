@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1218c447a18f79f9a44bfa413a0414d6926d7499
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fcbf053a32ef2921aab9a81de68e5844f5cb6527
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871962"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740260"
 ---
 # <a name="coverage-settings"></a>การตั้งค่าความครอบคลุม
 
@@ -62,7 +62,7 @@ ms.locfileid: "8871962"
 
 ## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
 
-[ภาพรวมของแผนหลัก](master-plans.md)
+- [ภาพรวมของแผนหลัก](master-plans.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
