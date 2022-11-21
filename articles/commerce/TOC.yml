@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: ตั้งค่าคอนฟิก Google Pay กับ Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: ตั้งค่า Apple Pay กับ Adyen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: แก้ไขปัญหา Dynamics 365 Payment Connector สำหรับ Adyen
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: การบันทึกเครื่องมือการชำระเงินออนไลน์ด้วยตัวเชื่อมต่อ Adyen
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: ตั้งค่าสถานการณ์เกี่ยวกับชำระเงินตามใบแจ้งหนี้
                       href: payinvoice.md
+                    - name: การชำระเงินล่วงหน้าใน Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: การป้องกันการชำระเงินซ้ำ
                       href: duplicate-payment-protection.md
                     - name: ภาพรวมของการชำระเงินผ่านช่องทาง Omni

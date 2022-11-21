@@ -3395,6 +3395,8 @@
           items:
             - name: ภาพรวมของการจัดการคลังสินค้า
               href: warehousing/warehouse-management-overview.md
+            - name: เริ่มต้นการตั้งค่าโมดูลการจัดการคลังสินค้า
+              href: warehousing/get-started-with-setting-up-module.md
             - name: การดำเนินงานของคลังสินค้าขาเข้า
               items:
                 - name: การจัดการคลังสินค้าของจำนวนงานในศูนย์การผลิตขาเข้าสำหรับใบสั่งซื้อ

@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: กำหนดบทบาทความปลอดภัยให้กับผู้ใช้
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: กลุ่มความปลอดภัยของ Active Directory
+                  href: sysadmin/active-directory-security-group.md
                 - name: นำเข้าหรือส่งออกการตั้งค่าคอนฟิกความปลอดภัยแบบกำหนดเองโดยใช้การจัดการข้อมูล
                   href: sysadmin/import-export-customized-security.md
                 - name: การวินิจฉัยความปลอดภัยสำหรับการบันทึกงาน

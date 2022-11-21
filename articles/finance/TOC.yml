@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: ความตระหนักรู้ระหว่างการชำระบัญชีแยกประเภทและการปิดสิ้นปี
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: ทำให้การชำระบัญชีแยกประเภทเป็นอัตโนมัติ
+                  href: general-ledger/auto-settle.md
                 - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภททั่วไป
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: ยอดดุลบัญชีแยกประเภททั่วไป
