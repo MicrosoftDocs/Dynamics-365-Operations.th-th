@@ -2,25 +2,25 @@
 title: พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
 description: บทความนี้แสดงภาพรวมของพื้นที่ทำงานการปิดรอบระยะเวลาทางการเงินและการตั้งค่าคอนฟิกที่เกี่ยวข้อง
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865725"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780054"
 ---
 # <a name="financial-period-close-workspace"></a>พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865725"
 
 บทความนี้แสดงภาพรวมของพื้นที่ทำงาน **การปิดรอบระยะเวลาทางการเงิน** และการตั้งค่าคอนฟิกที่เกี่ยวข้อง
 
-พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
+## <a name="financial-period-close-workspace"></a>พื้นที่ทำงานการปิดรอบระยะเวลาทางการเงิน
 
 พื้นที่ทำงาน **การปิดรอบระยะเวลาทางการเงิน** ช่วยให้คุณสามารถติดตามกระบวนการปิดบัญชีทางการเงินของคุณทั่วทั้งบริษัท พื้นที่ และบุคคล ขึ้นอยู่กับมุมมองของคุณของพื้นที่ทำงาน **การปิดรอบระยะเวลาทางการเงิน** คุณจะเห็นกำหนดการปิดของงานทั้งหมดและสถานะ หรือเฉพาะงานที่กำหนดให้กับคุณ อย่างใดอย่างหนึ่ง 
 

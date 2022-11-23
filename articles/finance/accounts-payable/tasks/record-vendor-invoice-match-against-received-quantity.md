@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109929"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778695"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>บันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายและจับคู่กับปริมาณที่ได้รับ
 
@@ -32,7 +32,7 @@ ms.locfileid: "8109929"
 
 
 ## <a name="create-a-purchase-order"></a>สร้างใบสั่งซื้อ
-1. ไปที่ใบสั่งซื้อทั้งหมด
+1. ไปที่ **ใบสั่งซื้อทั้งหมด**
 2. คลิก **สร้าง**
 3. ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 4. ในฟิลด์ **บัญชีผู้จัดจำหน่าย** ให้พิมพ์ค่า

@@ -2,26 +2,19 @@
 title: การดำเนินงานของสินค้าคงคลังขาเข้าใน POS
 description: บทความนี้จะอธิบายความสามารถของการดำเนินงานสินค้าคงคลังขาเข้าของการขายหน้าร้าน (POS)
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288364"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785031"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>การดำเนินงานของสินค้าคงคลังขาเข้าใน POS
 
@@ -31,6 +24,11 @@ ms.locfileid: "9288364"
 
 > [!NOTE]
 > ใน Commerce รุ่น10.0.10 และรุ่นที่ใหม่กว่า คุณลักษณะใหม่ใดๆ ในแอปพลิเคชัน POS ที่เกี่ยวข้องกับการรับสินค้าคงคลังของร้านค้าเทียบกับใบสั่งซื้อ และใบสั่งโอนย้ายจะถูกเพิ่มเข้าในการดำเนินงาน POS ของ **การดำเนินงานขาเข้า** ถ้าคุณกำลังใช้การดำเนินการเบิกสินค้าและรับสินค้าใน POS ในขณะนี้ เราขอแนะนำให้คุณพัฒนากลยุทธ์สำหรับการย้ายจากการดำเนินงานนั้นไปยังการดำเนินงานขาเข้าและขาออกใหม่ ถึงแม้ว่าการดำเนินการเบิกสินค้าและรับสินค้าจะไม่ถูกลบออกจากผลิตภัณฑ์ จะไม่มีการลงทุนเพิ่มเติมในผลิตภัณฑ์นั้น จากมุมมองการทำงานหรือประสิทธิภาพการทำงาน หลังจากรุ่น 10.0.9
+
+วิดีโอต่อไปนี้แสดงภาพรวมของกระบวนการและความสามารถของสินค้าคงคลังของร้านค้าใน Dynamics 365 Commerce
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>ข้อกำหนดเบื้องต้น: ตั้งค่าคอนฟิกโครงสร้างเอกสารแบบอะซิงโครนัส
 

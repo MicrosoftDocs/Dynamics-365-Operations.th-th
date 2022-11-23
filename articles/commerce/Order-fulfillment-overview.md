@@ -1,35 +1,37 @@
 ---
 title: การเติมสินค้าของใบสั่งของร้านค้า
-description: บทความนี้แสดงภาพรวมของการเติมสินค้าของใบสั่งของร้านค้า
+description: บทความนี้แสดงภาพรวมของการเติมสินค้าของใบสั่งของร้านค้าใน Microsoft Dynamics 365 Commerce
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854989"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785084"
 ---
 # <a name="store-order-fulfillment"></a>การเติมสินค้าของใบสั่งของร้านค้า
 
 [!include [banner](includes/banner.md)]
+
+บทความนี้แสดงภาพรวมของการเติมสินค้าของใบสั่งของร้านค้าใน Microsoft Dynamics 365 Commerce
 
 ผู้ค้าปลีกหลายรายต้องการปรับปรุงการเติมสินค้าของใบสั่ง โดยการเปิดใช้งานร้านค้าเพื่อกรอกข้อมูลใบสั่ง การเติมสินค้าของใบสั่งในระดับร้านค้าสามารถช่วยให้สถานการณ์การเก็บสินค้ามากเกินไปง่ายขึ้นสำหรับร้านค้าเฉพาะ หรืออาจเป็นที่ต้องการจากจุดยืนเชิงตรรกะ ในกรณีที่ร้านค้ามีกำลังการผลิตพิเศษ หรือตั้งอยู่ภายในระยะการจัดส่งที่ใกล้เคียงยิ่งขึ้นให้กับลูกค้า เพื่อระบุความต้องการนี้ การดำเนินการเติมสินค้าตามใบสั่งแบบรวมจะพร้อมใช้งานที่จุดขายหน้าร้าน
 
 ใบสั่งสำหรับการเติมสินค้าที่ร้านค้าเฉพาะ มีคลังสินค้าของร้านค้าที่กำหนดไว้ในหัวข้อหรือรายการของใบสั่ง
 
 การดำเนินการเติมสินค้าตามใบสั่งในจุดขายหน้าร้าน แสดงพื้นที่ทำงานเดียวในจุดขายหน้าร้านที่สามารถใช้ในการประมวลผลใบสั่งได้ ซึ่งรวมถึงข้อมูลทั้งหมดตั้งแต่การยอมรับใบสั่ง จนถึงการทำเครื่องหมายเป็นเบิกสินค้าแล้ว หรือการเริ่มต้นการเบิกสินค้าในร้านค้า
+
+วิดีโอต่อไปนี้แสดงภาพรวมและสาฑิตของความสามารถการเติมสินค้าของร้านค้าใน Dynamics 365 Commerce
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>เข้าถึงการเติมสินค้าตามใบสั่งแบบรวมในจุดขายหน้าร้าน
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733465"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760374"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>การย้ายลูกค้าของ Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ ms.locfileid: "9733465"
 
 ### <a name="dataverse-environment-backup-sandbox"></a>สำรองข้อมูลสภาพแวดล้อม Dataverse (Sandbox)
 
-1. ไม่บังคับแต่แนะนำ: รีเฟรชสภาพแวดล้อม Sandbox ของทรัพยากรบุคคลที่มีอยู่ โดยใช้สําเนาของสภาพแวดล้อมการทำงานจริงของทรัพยากรบุคคล
-2. [สร้างสภาพแวดล้อม Dataverse ใหม่](/power-platform/admin/create-environment#create-an-environment-with-a-database) โดยการใช้ศูนย์การจัดการ Power Platform
+ - ไม่บังคับแต่แนะนำ: รีเฟรชสภาพแวดล้อม Sandbox ของทรัพยากรบุคคลที่มีอยู่ โดยใช้สําเนาของสภาพแวดล้อมการทำงานจริงของทรัพยากรบุคคล
+ - สร้างสภาพแวดล้อม Dataverse ใหม่ โดยการใช้ศูนย์การจัดการ Power Platform
+ - คัดลอกสภาพแวดล้อม Dataverse ที่มีอยู่ ซึ่งเชื่อมโยงกับแอป Human Resources แบบสแตนด์อโลน ไปยังสภาพแวดล้อมที่คุณสร้างไว้ในขั้นตอนก่อนหน้านี้
 
-    > [!NOTE]
-    > เมื่อคุณเพิ่มฐานข้อมูล โปรดตรวจสอบให้แน่ใจว่าตัวเลือก **เปิดใช้งานแอป Dynamics 365** ได้รับการตั้งค่าเป็น **ใช่**
-
-3. [คัดลอกสภาพแวดล้อม Dataverse ที่มีอยู่](/power-platform/admin/copy-environment) ซึ่งเชื่อมโยงกับแอป Human Resources แบบสแตนด์อโลน ไปยังสภาพแวดล้อมที่คุณสร้างไว้ในขั้นตอนก่อนหน้านี้
+> [!NOTE]
+> เมื่อคุณเพิ่มฐานข้อมูล โปรดตรวจสอบให้แน่ใจว่าตัวเลือก **เปิดใช้งานแอป Dynamics 365** ได้รับการตั้งค่าเป็น **ใช่** หากต้องการข้อมูลโดยละเอียด โปรดดูที่ [การจัดเตรียมสภาพแวดล้อม Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>ความจุ Dataverse
 
@@ -89,9 +88,9 @@ ms.locfileid: "9733465"
 #### <a name="prepare-a-power-platform-environment"></a>จัดเตรียมสภาพแวดล้อม Power Platform
 
 > [!NOTE]
-> ขั้นตอนนี้จะใช้ได้เฉพาะกับการย้ายสภาพแวดล้อม sandbox เท่านั้น เมื่อคุณย้ายสภาพแวดล้อมการทำงานจริง สภาพแวดล้อมของศูนย์การจัดการ Power Platform ที่มีอยู่ ซึ่งแนบอยู่กับสภาพแวดล้อมการทำงานจริงจะถูกยกยอดไป
+> ขั้นตอนนี้จะใช้ได้เฉพาะกับการย้ายสภาพแวดล้อม sandbox เท่านั้น เมื่อคุณย้ายสภาพแวดล้อมการทำงานจริง สภาพแวดล้อมของศูนย์การจัดการ Power Platform ที่มีอยู่ ซึ่งแนบอยู่กับสภาพแวดล้อมการทำงานจริงจะถูกยกยอดไป เมื่อคุณเพิ่มฐานข้อมูล โปรดตรวจสอบให้แน่ใจว่าปุ่ม **เปิดใช้งานแอป Dynamics 365** ได้รับการตั้งค่าเป็น **ใช่** 
 
-- ในศูนย์การจัดการ Power Platform [ให้สร้างสภาพแวดล้อม Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) ที่จะใช้กับการย้าย sandbox หรือเลือกสภาพแวดล้อมที่มีอยู่
+- ในศูนย์การจัดการ Power Platform [ให้สร้างสภาพแวดล้อมด้วยฐานข้อมูล](/power-platform/admin/create-environment#create-an-environment-with-a-database) ที่จะใช้กับการย้าย sandbox หรือเลือกสภาพแวดล้อมที่มีอยู่
 - [คัดลอกสภาพแวดล้อม](/power-platform/admin/copy-environment) เพื่อรีเฟรชสภาพแวดล้อม Power Platform ที่ใช้สําหรับการแม็ป
 
 #### <a name="migrate-the-sandbox-environment"></a>ย้ายสภาพแวดล้อม Sandbox

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713684"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775311"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>สร้างสมุดรายวันการตัดจ่ายสำหรับลูกค้า
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713684"
 7. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > บัญชีแยกประเภททั่วไป**
 8. เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่ หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า  อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย  
 9. ปิดหน้า
-10. ปิดหน้า
 
-## <a name="write-off-transactions-from-the-collections-form"></a>ตัดจ่ายธุรกรรมจากแบบฟอร์มการเรียกเก็บเงิน
+
+## <a name="write-off-transactions-from-the-collections-page"></a>ตัดจ่ายธุรกรรมจากหน้าการเรียกเก็บเงิน
 1. ไปที่ **สินเชื่อและการเรียกเก็บเงิน > การเรียกเก็บเงิน > ยอดดุลตามอายุหนี้**
 2. เลือกชื่อของลูกค้าที่มีธุรกรรมที่คุณต้องการตัดจ่าย  ตัวอย่างเช่น เลือก Cave Wholesales (สหรัฐอเมริกา-004)
 3. ทำเครื่องหมายบนแถวธุรกรรมที่หนึ่ง
@@ -63,7 +63,7 @@ ms.locfileid: "8713684"
 10. ไปที่ **บัญชีแยกประเภททั่วไป > รายการสมุดรายวัน > สมุดรายวันทั่วไป**
 11. เลือกหมายเลขชุดงานสมุดรายวันสำหรับสมุดรายวันที่มีการตัดจ่ายของคุณอยู่ หนึ่งบรรทัดจะถูกสร้างขึ้นมาเพื่อกลับรายการยอดดุลลูกค้า  อีกอย่างน้อยหนึ่งบรรทัดจะถูกสร้างขึ้นเพื่อลงรายการการตัดจ่ายไปยังบัญชีตัดจ่าย  
 12. ปิดหน้า
-13. ปิดหน้า
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>ตัดจ่ายใบแจ้งหนี้จากหน้าใบแจ้งหนี้ของลูกค้าที่เปิดไว้
 1. ไปที่ **บานหน้าต่างนำทาง > โมดูล > บัญชีลูกหนี้ > ใบแจ้งหนี้ > เปิดใบแจ้งหนี้ของลูกค้า**

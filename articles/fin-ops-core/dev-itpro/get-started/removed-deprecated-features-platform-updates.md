@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262312"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785111"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>คุณลักษณะของ Platform ที่เอาออกหรือไม่สนับสนุน
 
@@ -51,7 +51,7 @@ ms.locfileid: "9262312"
 | คำขอการบริการ | ไม่ | ใช่ | ใช่: [การปรับใช้แบบบริการตนเอง](../deployment/infrastructure-stack.md) |
 | การรวม SharePoint | ใช่ | ใช่ | ไม่ |
 | ตัวจัดการการตั้งค่าคอนฟิกและข้อมูล | ไม่ | ใช่ | ไม่ |
-| แพคเกจข้อมูลกระบวนการ | ไม่ | ใช่ | ใช่: กรอบงานการนำเข้า ส่งออกข้อมูล (DIXF) |
+| แพคเกจข้อมูลกระบวนการ | ไม่ | ใช่ | ใช่: [กรอบงานการนำเข้า ส่งออกข้อมูล (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | อัปเกรดสภาพแวดล้อม | ไม่ | ใช่ | ใช่: การอัปเดตบริการ [One Version](../lifecycle-services/oneversion-overview.md) พร้อมใช้งาน |
 | ตัวประมาณการโครงสร้างพื้นฐาน | ใช่ | ไม่ | ไม่ |
 | การจำนวนสิทธิ์การใช้งาน | ใช่ | ไม่ | ไม่ |
@@ -71,10 +71,10 @@ ms.locfileid: "9262312"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **เหตุผลสำหรับการยกเลิกการใช้/การลบ** | เราจะลบรายการตัวเลือกต่อไปนี้เพื่อให้เป็นไปตามโพรโทคอลการรักษาความปลอดภัยปัจจุบันของเรา<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ตั้งแต่วันที่ 30 พฤศจิกายน 2022 ลูกค้าสามารถใช้ [ระบบบัญชีลูกค้ามาตรฐาน](/power-platform/admin/server-cipher-tls-requirements) ของเราเท่านั้น การเปลี่ยนแปลงนี้จะส่งผลต่อไคลเอ็นต์และเซิร์ฟเวอร์ของคุณที่สื่อสารกับเซิร์ฟเวอร์ของเรา ตัวอย่างเช่น การเปลี่ยนแปลงนี้อาจส่งผลกระทบต่อการรวมบุคคลที่สามของคุณซึ่งไม่ได้เป็นไปตามต้นทุนมาตรฐานของบริษัท |
+| **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ตั้งแต่วันที่ 31 มกราคม 2023 ลูกค้าสามารถใช้ [ระบบบัญชีลูกค้ามาตรฐาน](/power-platform/admin/server-cipher-tls-requirements) ของเราเท่านั้น การเปลี่ยนแปลงนี้จะส่งผลต่อไคลเอ็นต์และเซิร์ฟเวอร์ของคุณที่สื่อสารกับเซิร์ฟเวอร์ของเรา ตัวอย่างเช่น การเปลี่ยนแปลงนี้อาจส่งผลกระทบต่อการรวมบุคคลที่สามของคุณซึ่งไม่ได้เป็นไปตามต้นทุนมาตรฐานของบริษัท |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | แอปการเงินและการดำเนินงาน |
 | **ตัวเลือกการปรับใช้**              | การปรับใช้บนระบบคลาวด์ |
-| **สถานะ**                         | ยกเลิกการใช้งาน ลูกค้าต้องอัปเกรดเซิร์ฟเวอร์ของตนก่อนวันที่ 30 พฤศจิกายน 2022 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าคอนฟิกใบสั่ง TLS Cipher Suite ดูที่ [จัดการ Transport Layer Security (SSL)](/windows-server/security/tls/manage-tls)  |
+| **สถานะ**                         | ยกเลิกการใช้งาน ลูกค้าต้องอัปเกรดเซิร์ฟเวอร์ของตนก่อนวันที่ 31 มกราคม 2023 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าคอนฟิกใบสั่ง TLS Cipher Suite ดูที่ [จัดการ Transport Layer Security (SSL)](/windows-server/security/tls/manage-tls)  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>การเลิกใช้คุณลักษณะมีผลบังคับเมื่อเดือนมิถุนายน 2022
