@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740341"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780419"
 ---
 # <a name="get-started-with-master-planning"></a>เริ่มต้นใช้งานการวางแผนหลัก
 
@@ -31,7 +31,7 @@ ms.locfileid: "9740341"
 
 ## <a name="availability"></a>ความพร้อมใช้งาน
 
-การเพิ่มประสิทธิภาพการวางแผนปัจจุบันพร้อมใช้งานในพื้นที่ภูมิศาสตร์ Azure ต่อไปนี้: สหรัฐอเมริกา แคนาดา บราซิล ยุโรป ฝรั่งเศส สหราชอาณาจักร ออสเตรเลีย เอเชียแฟซิฟิก ญี่ปุ่น และอินเดีย ถ้าคุณพยายามติดตั้ง Add-in จากภูมิภาคทางภูมิศาสตร์อื่น LCS จะแสดงข้อความที่ไม่สนับสนุนภูมิศาสตร์นี้ หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับเขตภูมิศาสตร์ Azure และภูมิภาคที่เกี่ยวข้อง โปรดดูที่ [เขตภูมิศาสตร์ Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies)
+การเพิ่มประสิทธิภาพการวางแผนปัจจุบันพร้อมใช้งานในพื้นที่ภูมิศาสตร์ Azure ต่อไปนี้: สหรัฐอเมริกา แคนาดา บราซิล ยุโรป ฝรั่งเศส สหราชอาณาจักร นอร์เวย์ สวิตเซอร์แลนด์ ออสเตรเลีย เอเชียแฟซิฟิก ญี่ปุ่น และอินเดีย ถ้าคุณพยายามติดตั้ง Add-in จากภูมิภาคทางภูมิศาสตร์อื่น LCS จะแสดงข้อความที่ไม่สนับสนุนภูมิศาสตร์นี้ หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับเขตภูมิศาสตร์ Azure และภูมิภาคที่เกี่ยวข้อง โปรดดูที่ [เขตภูมิศาสตร์ Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies)
 
 โปรดทราบว่าการเพิ่มประสิทธิภาพการวางแผนไม่สนับสนุนการปรับใช้ในสถานที่ของ Dynamics 365 Supply Chain Management
 
