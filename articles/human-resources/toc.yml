@@ -564,12 +564,14 @@
               href: hr-leave-and-absence-plans.md
             - name: กำหนดผู้ปฏิบัติงานให้กับแผนการลางาน
               href: hr-leave-and-absence-enroll.md
-            - name: ตั้งรายการคงค้างของแผนการลางานและการขาดงาน
+            - name: ตั้งรายการค้างรับแผนการลางานและการขาดงาน
               href: hr-leave-and-absence-accrue.md
             - name: ระงับการลางาน
               href: hr-leave-and-absence-suspend-leave.md
             - name: คำขอลาหยุด
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: สร้างการลาหยุดที่ไม่มีกำหนดเวลา
+              href: hr-create-open-leave-absence.md
             - name: จัดการการลางานของพนักงาน
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: ดูการวิเคราะห์สำหรับการลางานและการขาดงาน

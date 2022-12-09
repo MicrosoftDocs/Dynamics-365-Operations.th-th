@@ -1011,7 +1011,23 @@
                 - name: อัปโหลดการเปลี่ยนเส้นทาง URL จำนวนมาก
                   href: upload-bulk-redirects.md
                 - name: ตั้งค่าผู้เช่า B2C ใน Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: ตั้งค่าผู้เช่า B2C
+                      href: set-up-B2C-tenant.md
+                    - name: สร้างหรือเชื่อมโยงกับผู้เช่า B2C ของ Azure AD ที่มีอยู่
+                      href: create-link-aad-b2c-tenant.md
+                    - name: สร้างแอปพลิเคชัน B2C
+                      href: create-b2c-app.md
+                    - name: สร้างนโยบายขั้นตอนของผู้ใช้
+                      href: create-user-flow-policies.md
+                    - name: เพิ่มผู้ให้บริการข้อมูลประจำตัวทางสังคม
+                      href: add-social-identity-providers.md
+                    - name: อัปเดต Commerce headquarters ด้วยข้อมูล B2C ของ Azure AD
+                      href: update-hq-aad-b2c-info.md
+                    - name: ตั้งค่าคอนฟิกผู้เช่า B2C ของคุณโปรแกรมสร้างไซต์
+                      href: config-b2c-tenant-site-builder.md
+                    - name: ข้อมูล B2C เพิ่มเติม
+                      href: additional-b2c-info.md
                 - name: ตั้งค่าหน้าแบบกำหนดเองสำหรับการลงชื่อเข้าใช้ของผู้ใช้
                   href: custom-pages-user-logins.md
                 - name: เปิดใช้งานการเชื่อมโยงเรกคอร์ดข้อมูลประจำตัวกับบัญชีลูกค้าโดยอัตโนมัติ
@@ -1570,6 +1586,8 @@
               items:
                 - name: สร้างคิวอาร์โค้ดและพิมพ์บนใบเสร็จสำหรับซาอุดีอาระเบีย
                   href: localizations/emea-sau-qr-code.md
+                - name: สร้างและส่งใบแจ้งหนี้อิเล็กทรอนิกส์แบบง่ายของซาอุดีอาระเบีย
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: สวีเดน
               items:
                 - name: ฟังก์ชันเครื่องบันทึกเงินสด
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: คํานวณภาษีในใบสั่งออนไลน์ไม่ถูกต้อง
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: ข้อผิดพลาดการซิงโครไนส์ใบสั่งที่เกี่ยวข้องกับบริการชำระเงินเริ่มต้น
+                - name: ปัญหาการซิงโครไนส์ใบสั่งแบบอะซิงโครนัส
                   href: troubleshoot/synchronization-error.md
             - name: การประมวลผลการชำระเงิน
               items:
