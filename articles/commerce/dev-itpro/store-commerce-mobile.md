@@ -2,32 +2,33 @@
 title: แอป Store Commerce สำหรับแพลตฟอร์มอุปกรณ์เคลื่อนที่
 description: บทความนี้อธิบายวิธีเริ่มต้นใช้งานแอป Microsoft Dynamics 365 Commerce Store Commerce สําหรับ Android และ iOS
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642348"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815795"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>แอป Store Commerce สำหรับแพลตฟอร์มอุปกรณ์เคลื่อนที่
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 บทความนี้อธิบายวิธีเริ่มต้นใช้งาน Microsoft Dynamics 365 Commerce Store Commerce สําหรับ Android และ iOS
 
-แอป Dynamics 365 Commerce สําหรับอุปกรณ์เคลื่อนที่ สําหรับ Android และ iOS ทําให้กระบวนการปรับใช้อุปกรณ์การขายหน้าร้าน (POS) บนมือถือที่มีคุณสมบัติครบถ้วนสําหรับสภาพแวดล้อมการค้าปลีกของคุณตรงไปตรงมาและเรียบง่าย แอป Store Commerce สําหรับอุปกรณ์เคลื่อนที่มอบความสามารถและข้อได้เปรียบทั้งหมดของ [แอป Store Commerce สําหรับ Windows](store-commerce.md) บนสัดส่วนของแบบฟอร์มโทรศัพท์และแท็บเล็ต แอป Store Commerce สําหรับอุปกรณ์เคลื่อนที่สามารถติดตั้งได้โดยตรงจากร้านค้าแอป Apple และ Google Play และไม่ต้องให้นักพัฒนาซอฟต์แวร์สร้างแพ็คเกจแอปพลิเคชันใหม่เพื่อปรับใช้หรืออัปเดตแอปเหล่านั้น 
+แอป Dynamics 365 Commerce สําหรับอุปกรณ์เคลื่อนที่ สําหรับ Android และ iOS ทําให้กระบวนการปรับใช้อุปกรณ์การขายหน้าร้าน (POS) บนมือถือที่มีคุณสมบัติครบถ้วนสําหรับสภาพแวดล้อมการค้าปลีกของคุณตรงไปตรงมาและเรียบง่าย แอป Store Commerce สําหรับอุปกรณ์เคลื่อนที่มอบความสามารถและข้อได้เปรียบทั้งหมดของ [แอป Store Commerce สําหรับ Windows](store-commerce.md) และทำงานได้ดีบนโทรศัพท์และแท็บเล็ต iOS และ Android ที่หลากหลาย แอป Store Commerce สําหรับอุปกรณ์เคลื่อนที่สามารถติดตั้งได้โดยตรงจากร้านค้าแอป Apple และ Google Play และไม่ต้องให้นักพัฒนาซอฟต์แวร์สร้างแพ็คเกจแอปพลิเคชันใหม่เพื่อปรับใช้หรืออัปเดตแอปเหล่านั้น 
 
 แอป Store Commerce สำหรับอุปกรณ์เคลื่อนที่ ยังคงรักษาความเท่าเทียมกันในการทํางานเต็มรูปแบบกับแอปไฮบริด Retail ในปัจจุบัน นอกจากนี้ Store Commerce สําหรับ iOS ยังรองรับสถานีฮาร์ดแวร์เฉพาะ เพื่อให้อุปกรณ์ iOS สามารถสื่อสารกับเทอร์มินัลการชําระเงินแบบเครือข่าย เครื่องพิมพ์ใบเสร็จ และลิ้นชักเงินสด ได้โดยไม่ต้องปรับใช้สถานีฮาร์ดแวร์ที่ใช้ร่วมกัน 
 
 > [!IMPORTANT]
-> แอป Store Commerce สําหรับ Windows, Android และ iOS เป็นแอปพลิเคชัน POS รุ่นต่อไปสําหรับ Dynamics 365 Commerce แอปพลิเคชัน Modern POS (MPOS) ปัจจุบัน และ [แอปไฮบริด Retail](hybridapp.md) สําหรับมือถือจะถูกเลิกใช้ในเดือนตุลาคม 2023 Microsoft แนะนําให้คุณใช้ Store Commerce หรือ Cloud POS (CPOS) สําหรับการปรับใช้ POS ใหม่ทั้งหมด ลูกค้าปัจจุบันควรวางแผนที่จะย้ายข้อมูลจากแอปไฮบริด Retail ไปยัง Store Commerce สําหรับข้อมูลเพิ่มเติมเกี่ยวกับกําหนดการเลิกใช้งานสําหรับ MPOS และแอปไฮบริด Retail ให้ดูที่ [การปรับปรุงสแต็กเทคโนโลยีในร้านค้าของ Dynamics 365 Commerce ให้ทันสมัย](https://www.microsoft.com/download/details.aspx?id=103896) 
+> แอป Store Commerce สําหรับ Windows, Android และ iOS เป็นแอปพลิเคชัน POS รุ่นต่อไปสําหรับ Dynamics 365 Commerce แอป Store Commerce มีการปรับปรุงมากมายเหนือสิ่งต่อไปนี้ ขณะที่ยังคงรักษาฟังก์ชันทั้งหมดและพาริตี้คุณลักษณะไว้ Microsoft จะยกเลิกการสนับสนุน MPOS Android และแอป Retail POS ของ IOS Retail ในปลายปี 2023 และขอแนะนาว่าคุณควรใช้ Store Commerce หรือ Cloud POS (CPOS) ลูกค้าปัจจุบันควรวางแผนที่จะย้ายข้อมูลจากแอปไฮบริด Retail ไปยัง Store Commerce สำหรับข้อมูลเพิ่มเติม ดูที่ [ย้าย Modern POS ไปยัง Store Commerce](pos-extension/migrate-mpos-store-commerce.md) 
 
 ## <a name="app-architecture"></a>สถาปัตยกรรมของแอป
 
@@ -51,7 +52,7 @@ ms.locfileid: "9642348"
 คุณสามารถติดตั้งแอป Store Commerce บนมือถือได้โดยตรงจากร้านค้า Google Play หรือ Apple App Store 
 
 - [แอป Store Commerce สำหรับ Android](https://aka.ms/storecommerceandroid)
-- แอป Store Commerce สําหรับ iOS (พร้อมให้ใช้งานเร็วๆ นี้)
+- [แอป Store Commerce สำหรับ iOS](https://aka.ms/storecommerceios)
 
 แอป Android (.apk) และแพ็คเกจแอป Apple (.ipa) สามารถดาวน์โหลดได้จากไลบรารีสินทรัพย์ที่ใช้ร่วมกันใน Microsoft Dynamics Lifecycle Services 
 

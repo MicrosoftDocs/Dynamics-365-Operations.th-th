@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725645"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788525"
 ---
 # <a name="store-commerce-app-capabilities"></a>ความสามารถของแอป Store Commerce
 
@@ -41,7 +41,7 @@ ms.locfileid: "9725645"
 
 | ความสามารถ | คำอธิบาย | คู่มือ | เนื้อหาเพิ่มเติม |
 |---|---|---|---|
-| สัดส่วนของแบบฟอร์มหลายรายการ | แอป Store Commerce ได้รับการสนับสนุนในหลายสัดส่วนของแบบฟอร์มอุปกรณ์ เช่น พีซี แท็บเล็ต และอุปกรณ์เคลื่อนที่ อินเทอร์เฟสผู้ใช้ (UI) ช่วยให้โครงร่างสามารถปรับขนาดใหม่โดยอัตโนมัติ และปรับให้อยู่ในขนาดหน้าจอได้ | [การตั้งค่าคอนฟิกการแสดงผลด้วยภาพ](pos-screen-layouts.md) | |
+| สัดส่วนของแบบฟอร์มหลายรายการ | แอป Store Commerce ได้รับการสนับสนุนในหลายสัดส่วนของแบบฟอร์มอุปกรณ์ เช่น พีซี แท็บเล็ต และอุปกรณ์เคลื่อนที่ อินเทอร์เฟสผู้ใช้ (UI) ช่วยให้โครงร่างสามารถปรับขนาดใหม่โดยอัตโนมัติ และปรับให้อยู่ในขนาดหน้าจอได้ | [การตั้งค่าคอนฟิกการแสดงผลด้วยภาพ](pos-screen-layouts.md) |  |
 | ข้ามแพลตฟอร์ม | แอป Store Commerce ได้รับการสนับสนุนบนแพลตฟอร์มเว็บ Windows, iOS และ Android | [แพลตฟอร์ม](dev-itpro/hybridapp.md) | |
 | การสร้างแบรนด์ | โปรแกรมออกแบบหน้าจอช่วยให้คุณสามารถปรับแต่งโครงร่างหน้าจอให้ตรงกับความต้องการทางธุรกิจของคุณ นอกจากนี้ ชุดรูปแบบ โครงร่าง สี และรูปภาพ ยังสามารถสร้างขึ้นตามบทบาทพนักงาน และสามารถใช้ร่วมกันระหว่างผู้ใช้บนความสอดคล้องของแบรนด์และการใช้งานได้ง่าย | [การตั้งค่าคอนฟิกการแสดงผลด้วยภาพ](pos-screen-layouts.md) | [วีดิทัศน์](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | โทโพโลยี | ระบบสนับสนุน topologies ในร้านค้าต่างๆ ตามความพร้อมใช้งานของเครือข่าย | <p>[โทโพโลยี](dev-itpro/retail-modern-pos-architecture.md)</p><p>[กราฟิกข้อมูล](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ ms.locfileid: "9725645"
 | การค้นหาผลิตภัณฑ์ | ค้นหาผลิตภัณฑ์ตามชื่อ และปรับเปลี่ยนการค้นหาโดยใช้คุณลักษณะของผลิตภัณฑ์ เช่น แบรนด์ ราคา และวัสดุ ความสามารถนี้ให้บริการโดย Azure Cognitive Search | [การค้นหาที่ทำงานบนระบบคลาวด์](cloud-powered-search-overview.md) | |
 | หน้า รายละเอียดผลิตภัณฑ์ | หน้ารายละเอียดผลิตภัณฑ์ที่แตกต่างสามารถรวมรูปภาพ ข้อความอธิบาย คุณลักษณะของผลิตภัณฑ์ และผลิตภัณฑ์ที่แนะนา คำแนะนำให้บริการโดย Recommendations Service | | |
 | เปรียบเทียบผลิตภัณฑ์ | เปรียบเทียบผลิตภัณฑ์หลายรายการ และช่วยให้ลูกค้าเลือกผลิตภัณฑ์และเพิ่มผลิตภัณฑ์ลงในธุรกรรม | | |
-| ที่เก็บสินค้าที่ไม่สิ้นสุด | ค้นหาสินค้าคงคลังในร้านค้าอื่นๆ ได้อย่างง่ายดาย และสร้างใบสั่ง | [การค้นหาสินค้าคงคลัง](pos-inventory-lookup-operation.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| ที่เก็บสินค้าที่ไม่สิ้นสุด | ค้นหาสินค้าคงคลังในร้านค้าอื่นๆ ได้อย่างง่ายดาย และสร้างใบสั่ง | [การค้นหาสินค้าคงคลัง](pos-inventory-lookup-operation.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | คำแนะนำ | ผลิตภัณฑ์เพิ่มการขายและการขายสินค้าอื่น โดยใช้ Recommendations Service บริการนี้จะใช้เทคโนโลยีที่มีสิทธิบัตรเพื่อให้คำแนะนำ ตามแนวโน้มการซื้อ และลักษณะต่างๆ เช่น มาถึงใหม่ มีรูปลักษณ์ที่คล้ายกัน และการเลือกมากที่สุด คำแนะนำเหล่านี้มีอยู่ในหน้ารายละเอียดผลิตภัณฑ์ หน้า **รายละเอียดลูกค้า** และหน้า **ธุรกรรม** | [คำแนะนำ](product-recommendations.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>ความสัมพันธ์กับลูกค้า
@@ -88,8 +88,8 @@ ms.locfileid: "9725645"
 | แอททริบิวต์ของลูกค้า | กรอบงานแอททริบิวต์ของลูกค้าช่วยให้สามารถรวบรวมข้อมูลที่เกี่ยวข้องกับลูกค้าเพิ่มเติมตามความต้องการทางธุรกิจ | [แอททริบิวต์](dev-itpro/customer-attributes.md) | |
 | หน้ารายละเอียดลูกค้า | หน้ารายละเอียดลูกค้าสมบูรณ์จะมีมุมมองช่องทาง omni ของการโต้ตอบของลูกค้าในช่องทางทั้งหมด การโต้ตอบเหล่านี้รวมถึงการซื้อ รายการสิ่งที่ต้องการ และคะแนนสะสมตอบแทนลูกค้าสมาชิก | | |
 | การค้นหาลูกค้าที่ขับเคลื่อนด้วยระบบคลาวด์ | ค้นหาลูกค้าตามชื่อ หมายเลขโทรศัพท์ ที่อยู่อีเมล บัตรสมาชิก ที่อยู่ และอื่นๆ | [การค้นหาที่ทำงานบนระบบคลาวด์](pos-search-improvements.md#customer-search) | |
-| สมาชิกและรางวัล | ลูกค้าสามารถเข้าร่วมโปรแกรมตอบแทนลูกค้าสมาชิก และรับและแลกคะแนนสะสมของสมาชิกในช่องทางต่างๆ ได้ | [ความภักดี](set-up-customer-loyalty-program.md) | |
-| ความสัมพันธ์อันดีกับลูกค้า | จัดการลูกค้าที่สำคัญโดยใช้สมุดบัญชีไคลเอนต์ และติดตามกิจกรรมและบันทึกในโพรไฟล์ลูกค้า การรวม Dynamics 365 Customer Insights ช่วยให้พนักงานในร้านค้าได้รับสัญลักษณ์เกี่ยวกับการดำเนินการที่ดีที่สุดถัดไปของลูกค้าแต่ละคน | [ความสัมพันธ์อันดีกับลูกค้า](clienteling-overview.md#activities-and-notes) | |
+| สมาชิกและรางวัล | ลูกค้าสามารถเข้าร่วมโปรแกรมตอบแทนลูกค้าสมาชิก และรับและแลกคะแนนสะสมของสมาชิกในช่องทางต่างๆ ได้ | [ความภักดี](set-up-customer-loyalty-program.md) | [วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| ความสัมพันธ์อันดีกับลูกค้า | จัดการลูกค้าที่สำคัญโดยใช้สมุดบัญชีไคลเอนต์ และติดตามกิจกรรมและบันทึกในโพรไฟล์ลูกค้า การรวม Dynamics 365 Customer Insights ช่วยให้พนักงานในร้านค้าได้รับสัญลักษณ์เกี่ยวกับการดำเนินการที่ดีที่สุดถัดไปของลูกค้าแต่ละคน | [ความสัมพันธ์อันดีกับลูกค้า](clienteling-overview.md#activities-and-notes) | [วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>การกำหนดราคาและส่วนลด
 
@@ -132,8 +132,8 @@ ms.locfileid: "9725645"
 | แอตทริบิวต์ใบสั่ง | กรอบงานแอททริบิวต์ของใบสั่งช่วยให้สามารถรวบรวมข้อมูลที่เกี่ยวข้องกับใบสั่งเพิ่มเติมตามความต้องการทางธุรกิจ | [แอททริบิวต์](dev-itpro/order-attributes.md) | |
 | การจัดส่งสินค้าโดยตรง | สามารถเลือกสินค้าเพื่อจัดส่งสินค้าโดยตรงโดยผู้จัดจำหน่ายไปที่ที่อยู่ลูกค้าได้ การจัดส่งสินค้าโดยตรงเรียกอีกอย่างหนึ่งว่าการจัดส่งสินค้าโดยตรง | [การจัดส่งสินค้าโดยตรง](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | ใบเสนอราคา | พนักงานร้านค้าสามารถสร้างใบเสนอราคาให้กับลูกค้า และระบุราคาพิเศษ ส่วนลดที่ป้อนเอง และวันที่มีผลบังคับใช้ของใบเสนอราคา | [ใบเสนอราคา](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| การเติมสินค้า | ร้านค้าสามารถเบิกสินค้า แพ็ก และจัดส่งตามใบสั่งได้ บันทึกการจัดส่งสามารถเพิ่มเข้าในบรรจุภัณฑ์ที่พร้อมจัดส่งแล้วได้ | [การเติมสินค้า](order-fulfillment-overview.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| การจัดการใบสั่งแบบกระจาย | แอป Store Commerce สนับสนุนการเพิ่มประสิทธิภาพการเติมสินค้าตามใบสั่งแบบสามารถจัดโครงแบบกลยุทธ์ทางธุรกิจได้ตามลักษณะทางธุรกิจ ชนิดลูกค้า จุดเริ่มต้นของใบสั่ง และวิธีการจัดส่งของใบสั่ง | [DOM](dom.md) | |
+| การเติมสินค้า | ร้านค้าสามารถเบิกสินค้า แพ็ก และจัดส่งตามใบสั่งได้ บันทึกการจัดส่งสามารถเพิ่มเข้าในบรรจุภัณฑ์ที่พร้อมจัดส่งแล้วได้ | [การเติมสินค้า](order-fulfillment-overview.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| การจัดการใบสั่งแบบกระจาย | แอป Store Commerce สนับสนุนการเพิ่มประสิทธิภาพการเติมสินค้าตามใบสั่งแบบสามารถจัดโครงแบบกลยุทธ์ทางธุรกิจได้ตามลักษณะทางธุรกิจ ชนิดลูกค้า จุดเริ่มต้นของใบสั่ง และวิธีการจัดส่งของใบสั่ง | [DOM](dom.md) | [วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>การบริหารสินค้าคงคลัง
 
@@ -141,12 +141,12 @@ ms.locfileid: "9725645"
 |---|---|---|---|
 | การจัดส่งสินค้าแบบผลัก | ปรับปรุงการกระจายสินค้าคงคลังที่พร้อมใช้งานจากศูนย์กระจายสินค้าไปยังร้านค้าหรือคลังสินค้าหลายแห่ง | [การจัดส่งสินค้าแบบผลัก](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า | ปรับปรุงการกระจายสินค้าคงคลังในใบสั่งซื้อที่เข้ามา ไปยังร้านค้าหรือคลังสินค้าหลายแห่ง | [การส่งสินค้าผ่านศูนย์เปลี่ยนถ่ายสินค้า](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| สินค้าคงคลังขาเข้า | ได้รับสินค้าคงคลังจากผู้จัดจำหน่ายผ่านใบสั่งซื้อ หรือจากคลังสินค้าอื่นผ่านทางใบสั่งโอนย้าย สร้างใบสั่งซื้อขาเข้าหรือการร้องขอใบสั่งโอนย้าย | [ขาเข้า](pos-inbound-inventory-operation.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| สินค้าคงคลังขาออก | จัดส่งสินค้าคงคลังไปยังคลังสินค้าอื่นผ่านใบสั่งโอนย้าย และสร้างการร้องขอใบสั่งโอนย้ายขาออก | [ขาออก](pos-outbound-inventory-operation.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| การค้นหาสินค้าคงคลัง | ตรวจสอบปริมาณคงคลังคงเหลือของผลิตภัณฑ์ต่างๆ ระหว่างร้านค้าและคลังสินค้า และตรวจสอบสินค้าคงคลังที่มีสัญญาได้ (ATP) ของวันที่ในอนาคต | [การค้นหาสินค้าคงคลัง](pos-inventory-lookup-operation.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| การปรับปรุงสินค้าคงคลัง | ปรับปรุงสินค้าคงคลังเป็นหรือออกจากคลังสินค้าของร้านค้าให้ตรงกับความต้องการทางธุรกิจที่ต้องการ โดยไม่ใช้การขาย การรับสินค้า หรือการตรวจนับใหม่ | [การปรับปรุงสินค้าคงคลัง](work-with-store-inventory.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| การตรวจนับสินค้าคงคลัง | ตรวจนับสินค้าคงคลังที่มีอยู่จริง และปรับปรุงสินค้าคงคลังที่จองในระบบเพื่อจับคู่สินค้าคงคลังนั้น | [การตรวจนับ](work-with-store-inventory.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| การเคลื่อนย้ายสินค้าคงคลัง | ย้ายสินค้าคงคลังระหว่างสถานที่เก็บในร้านค้า | [การเคลื่อนย้าย](work-with-store-inventory.md) | [การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| สินค้าคงคลังขาเข้า | ได้รับสินค้าคงคลังจากผู้จัดจำหน่ายผ่านใบสั่งซื้อ หรือจากคลังสินค้าอื่นผ่านทางใบสั่งโอนย้าย สร้างใบสั่งซื้อขาเข้าหรือการร้องขอใบสั่งโอนย้าย | [ขาเข้า](pos-inbound-inventory-operation.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| สินค้าคงคลังขาออก | จัดส่งสินค้าคงคลังไปยังคลังสินค้าอื่นผ่านใบสั่งโอนย้าย และสร้างการร้องขอใบสั่งโอนย้ายขาออก | [ขาออก](pos-outbound-inventory-operation.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| การค้นหาสินค้าคงคลัง | ตรวจสอบปริมาณคงคลังคงเหลือของผลิตภัณฑ์ต่างๆ ระหว่างร้านค้าและคลังสินค้า และตรวจสอบสินค้าคงคลังที่มีสัญญาได้ (ATP) ของวันที่ในอนาคต | [การค้นหาสินค้าคงคลัง](pos-inventory-lookup-operation.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| การปรับปรุงสินค้าคงคลัง | ปรับปรุงสินค้าคงคลังเป็นหรือออกจากคลังสินค้าของร้านค้าให้ตรงกับความต้องการทางธุรกิจที่ต้องการ โดยไม่ใช้การขาย การรับสินค้า หรือการตรวจนับใหม่ | [การปรับปรุงสินค้าคงคลัง](work-with-store-inventory.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| การตรวจนับสินค้าคงคลัง | ตรวจนับสินค้าคงคลังที่มีอยู่จริง และปรับปรุงสินค้าคงคลังที่จองในระบบเพื่อจับคู่สินค้าคงคลังนั้น | [การตรวจนับ](work-with-store-inventory.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| การเคลื่อนย้ายสินค้าคงคลัง | ย้ายสินค้าคงคลังระหว่างสถานที่เก็บในร้านค้า | [การเคลื่อนย้าย](work-with-store-inventory.md) | <p>[การพูดคุยเกี่ยวกับเทคโนโลยี](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[วีดิทัศน์](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>ข้อมูลทางการเงิน
 

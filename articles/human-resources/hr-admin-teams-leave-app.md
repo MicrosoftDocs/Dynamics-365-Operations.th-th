@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ff576efbfeb0c5383a48756fdd7e79f1abdba2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d29802bdf3411c93f20d710e1f26e541e5022d57
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902269"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812198"
 ---
 # <a name="human-resources-app-in-teams"></a>แอป Human Resources ใน Teams
 
@@ -110,10 +110,10 @@ ms.locfileid: "8902269"
 | fr-CA | ภาษาฝรั่งเศส (แคนาดา) |
 | fr-FR | ภาษาฝรั่งเศส (ฝรั่งเศส) |
 | it-IT | ภาษาอิตาลี (อิตาลี) |
-| nl-NL | ภาษาดัตช์ (เนเธอร์แลนด์) |
+| nl-NL | ดัตช์ (เนเธอร์แลนด์) |
 | pt-BR | ภาษาโปรตุเกส (บราซิล) |
-| tr-TR | ภาษาตุรกี (ตุรกี) |
-| zh-CN | จีน (ประยุกต์) |
+| tr-TR | ภาษาตุรกี (ทูร์เคีย) |
+| zh-CN | จีนตัวย่อ |
 
 ## <a name="notes"></a>บันทึกย่อ
 

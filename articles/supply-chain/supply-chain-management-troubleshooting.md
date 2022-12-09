@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-07-12
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 24aed03172446fd97865b719497c51281231cf69
-ms.sourcegitcommit: b37596f943f6469af6c1590d74211a66a2900ece
+ms.openlocfilehash: 54d1aa9e20470b55c8085b41b65804b948846b7a
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138733"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806530"
 ---
 # <a name="supply-chain-management-troubleshooting-and-faqs"></a>การแก้ไขปัญหาเบื้องต้นและ FAQ เกี่ยวกับ Supply Chain Management
 
@@ -46,6 +46,7 @@ ms.locfileid: "9138733"
 - [คำถามที่ถามบ่อยเกี่ยวกับการจัดการข้อมูลผลิตภัณฑ์](pim/product-information-faq.md)
 - [คำถามที่ถามบ่อยเกี่ยวกับใบสั่งขาย](sales-marketing/sales-orders-faq.md)
 - [จัดกำหนดการล้างข้อมูลประวัติการขาย](sales-marketing/sales-update-history-cleanup-performance-improvements.md)
+- [DDMRP FAQ](master-planning/planning-optimization/ddmrp-faqs.md)
 
 บทความ FAQ ต่อไปนี้จะอธิบายปัญหาที่เกี่ยวข้องกับแพลตฟอร์มที่ใช้ร่วมกันโดยแอปการเงินและการดําเนินงานทั้งหมด รวมถึง Supply Chain Management:
 

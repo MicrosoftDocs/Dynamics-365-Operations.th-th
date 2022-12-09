@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872281"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806387"
 ---
 # <a name="recruiting-request"></a>คำขอสรรหาบุคลากร
 
@@ -68,7 +68,7 @@ ms.locfileid: "8872281"
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ ms.locfileid: "8872281"
 | **สถานะ**<br>mshr_status<br>*ชุดตัวเลือก RecruitingRequestStatus* | อ่าน/เขียน<br>จำเป็นต้องระบุ<br> | บ่งชี้สถานะของคำขอสรรหาบุคลากรปัจจุบัน |
 | **คำอธิบาย**<br>mshr_description<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | อธิบายคำขแ |
 | **รหัสที่ตั้งของคำขอสรรหาบุคลากร**<br>mshr_recruitingrequestlocationid<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ตัวระบุเฉพาะที่อ่านได้ของผู้ใช้ของสถานที่งานที่เชื่อมโยงกับคำขอนี้ |
-| **ค่ารหัสที่ตั้งของการสรรหาบุคลากร**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmrecruitingrequestlocationentityid ของ mshr_hcmrecruitingrequestlocationentity entity | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระถานที่ร้องขอการสรรหาบุคลากรที่เลือกสำหรับคำขอ |
+| **ค่ารหัสที่ตั้งของการสรรหาบุคลากร**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | อ่านอย่างเดียว<br>ไม่จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmrecruitingrequestlocationentityid ของ mshr_hcmrecruitingrequestlocationentity entity | ค่า GUID ที่ระบบสร้างขึ้นเพื่อระถานที่ร้องขอการสรรหาบุคลากรที่เลือกสำหรับคำขอ |
 | **ข้อคิดเห็น**<br>mshr_comments<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | ข้อคิดเห็นเกี่ยวกับคำขอใช้โดยการจ้างงานผู้จัดการและผู้สรรหา |
 | **รหัสงาน**<br>mshr_jobid<br>*สตริง* | เขียนเพียงครั้งเดียว<br>จำเป็นต้องระบุ |   ตัวระบุเฉพาะที่อ่านได้ของผู้ใช้ของงานที่แบ่งปันโดยตำแหน่งทั้งหมดที่เชื่อมโยงกับคำขอนี้ |
 | **ค่ารหัสงาน**<br>_mshr_fk_job_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmjobentityid ของ mshr_hcmjobentity entity | ตัวระบุเฉพาะที่สร้างโดยระบบของงานที่แบ่งปันโดยตำแหน่งทั้งหมดที่เชื่อมโยงกับคำขอการสรรหาบุคลากรนี้ |

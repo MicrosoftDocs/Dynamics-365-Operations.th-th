@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779892"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804113"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>ตั้งค่าสินเชื่อธนาคารและการลงรายการบัญชีโพรไฟล์สำหรับหนังสือค้ำประกัน
 
@@ -58,7 +58,7 @@ ms.locfileid: "9779892"
 10. ในฟิลด์ **กลุ่มสินเชื่อ** ให้คลิกปุ่มดรอปดาวน์เพื่อเปิดการค้นหา
 11. ในรายการนี้ ให้ค้นหาและเลือกเรกคอร์ดที่ต้องการ
 12. ในรายการนี้ ให้คลิกลิงค์ในแถวที่เลือก
-13. ในฟิลด์ **ลักษณะสินเชื่อ ให้เลือกหนึ่งตัวเลือก
+13. ในฟิลด์ **ลักษณะสินเชื่อ** ให้เลือกหนึ่งตัวเลือก
 14. คลิก **บันทึก**
 15. ปิดหน้า
 

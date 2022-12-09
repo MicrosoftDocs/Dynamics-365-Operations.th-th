@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276728"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819281"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>ตั้งค่าคอนฟิกภาษีขายสำหรับใบสั่งออนไลน์
 
@@ -33,6 +33,8 @@ ms.locfileid: "9276728"
 ## <a name="destination-based-taxes-for-online-orders"></a>ภาษีตามปลายทางของใบสั่งออนไลน์
 
 โดยทั่วไป ภาษีสำหรับใบสั่งซื้อออนไลน์ที่ที่อยู่ของลูกค้าจะถูกกำหนดโดยปลายทาง กลุ่มภาษีขายแต่ละกลุ่มจะมีการตั้งค่าคอนฟิกการจัดทำภาษีตามปลายทางการขายปลีก ซึ่งธุรกิจของคุณสามารถกำหนดรายละเอียดปลายทาง เช่น ประเทศหรือภูมิภาค รัฐ เขต และเมืองในฟอร์มลำดับชั้น
+
+การตั้งค่าคอนฟิก **ภาษีฐานปลายทางของการขายปลีก** สามารถพบได้ในส่วน **โมดูลภาษี > ภาษีทางอ้อม >ภาษีการขาย >กลุ่มภาษีขาย**
 
 ### <a name="orders-delivered-to-customer-address"></a>จัดส่งคำสั่งซื้อไปยังที่อยู่ลูกค้าแล้ว
 
