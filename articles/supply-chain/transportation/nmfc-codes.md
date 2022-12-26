@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c173057b8e1357790e780469c5806afb857be62a
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893278"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838347"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>รหัสการจัดประเภทการขนส่งด้วยรถยนต์ระดับชาติ (NMFC)
 
@@ -57,7 +57,7 @@ ms.locfileid: "8893278"
 
 ตัวอย่างต่อไปนี้แสดงวิธีการตั้งค่ารหัส NMFC สองรหัสที่แตกต่างกันซึ่งสามารถใช้กับผลิตภัณฑ์ที่แตกต่างกัน
 
-1. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> สินค้าคงคลัง \> รหัส NMFC**
+1. ไปที่ **การจัดการคลังสินค้า \> การตั้งค่า \> สินค้าคงคลัง \> รหัส NMFC** หรือ **การจัดการการขนส่ง \> กาตั้งค่า \> มาตรฐานการขนส่ง \> รหัส NMFC**
 1. บนบานหน้าต่างการดำเนินการ เลือก **สร้าง**
 1. บนบรรทัดใหม่ ให้ตั้งค่าค่าต่อไปนี้:
 

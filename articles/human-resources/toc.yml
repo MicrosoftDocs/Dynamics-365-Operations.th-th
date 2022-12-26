@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: มีอะไรใหม่ใน Dynamics 365 Human Resources (การติดตั้งแยกต่างหาก)
                   items:
+                    - name: มีอะไรใหม่ในข้อมูลเก็บถาวร Dynamics 365 Human Resources (การติดตั้งแยกต่างหาก) ธันวาคม 2022
+                      href: hr-whats-new-2022-12-12.md
                     - name: มีอะไรใหม่ในข้อมูลเก็บถาวร Dynamics 365 Human Resources (การติดตั้งแยกต่างหาก) 2021
                       href: hr-admin-whats-new.md
                     - name: 29 พฤศจิกายน 2021
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: คำถามที่ถามบ่อยเกี่ยวกับตารางเสมือน Human Resources
                   href: hr-admin-virtual-entity-faq.md
+                - name: ตั้งค่าคอนฟิกการรวมกับ Dataverse
+                  href: hr-dataverse-integration.md
                 - name: ตั้งค่าคอนฟิกการรวมกับ Finance
                   href: hr-admin-integration-finance.md
                 - name: ตั้งค่าคอนฟิกการรวมกับ Dayforce

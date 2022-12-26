@@ -2,7 +2,7 @@
 title: การย้ายลูกค้าของ Dynamics 365 Human Resources ไปยังโครงสร้างพื้นฐานของการเงินและการดําเนินงาน
 description: บทความนี้อธิบายการย้ายลูกค้าของ Microsoft Dynamics 365 Human Resources ไปยังโครงสร้างพื้นฐานการเงินและการดำเนินการ
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760374"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831732"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>การย้ายลูกค้าของ Dynamics 365 Human Resources
 
@@ -67,7 +67,7 @@ ms.locfileid: "9760374"
 7. เลือกกล่องกาเครื่องหมายเพื่อยอมรับข้อกำหนดและเงื่อนไข
 8. เลือก **สร้าง**
 
-หลังจากที่คุณได้สร้างโครงการ Lifecycle Services ใหม่แล้ว ให้ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าและกำหนดค่า
+หลังจากที่คุณได้สร้างโครงการ Lifecycle Services ใหม่แล้ว ให้ปฏิบัติตามขั้นตอนต่อไปนี้เพื่อตั้งค่าและกำหนดค่าโครงการ
 
 1. เลือก **การเตรียมความพร้อมสำหรับโครงการ** เพื่อเตรียมความพร้อมสำหรับโครงการให้เสร็จสิ้น สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [การเตรียมความพร้อมโครงการ](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md)
 
@@ -158,6 +158,7 @@ ms.locfileid: "9760374"
 
 - ตัวประมาณการสมัครใช้งานควรจะเสร็จสมบูรณ์แล้ว
 - [การประเมินความพร้อม](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) ของการเริ่มใช้งานจริง ควรเสร็จสมบูรณ์
+- ผู้ใช้ที่เริ่มต้นการย้ายการผลิตใน Lifecycle Services ควรมีบทบาทเป็นผู้ดูแลระบบบน Power Platform 
 
 #### <a name="migrate-the-production-environment"></a>ย้ายสภาพแวดล้อมการทำงานจริง
 

@@ -2,7 +2,7 @@
 title: การคัดเลือกบุคคล
 description: บทความนี้อธิบายเอนทิตี้การสรรหาบุคลากรของบุคคลสำหรับ Dynamics 365 Human Resources
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c316e0381f4d407ed7c4c39b5949717b71477bd
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907653"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831902"
 ---
 # <a name="person-screening"></a>การคัดเลือกบุคคล
 
@@ -44,6 +44,7 @@ ms.locfileid: "8907653"
     "mshr_status": Int,
     "mshr_partynumber": "String",
     "mshr_screeningtypeid": "String",
+    "_mshr_fk_screeningtype_id_value": "Guid",
     "mshr_primaryfield": "String",
     "_mshr_fk_person_id_value": "Guid",
     "mshr_hcmpersonscreeningentityid": "Guid",
@@ -55,15 +56,17 @@ ms.locfileid: "8907653"
 
 | คุณสมบัติ<br>**ชื่อทางกายภาพ**<br>**_ชนิด_** | ใช้ | คำอธิบาย |
 | --- | --- | --- |
-| **รหัสเอนทิตี้การสรรหาของบุคคล**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น | ตัวระบุหลักเฉพาะของเรกคอร์ดการสรรหาของบุคคล |
+| **บันทึกย่อ**<br>mshr_note<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | หมายเหตุที่ใช้โดยผู้จัดการการจ้างงานหรือผู้จัดหาบุคลากร |
+| **ต้องการภายใน**<br>mshr_requiredby<br>*วันเวลา* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | วันที่ที่การคัดเลือกจำเป็นที่จะทำให้เสร็จสิ้น |
+| **สถานะ**<br>mshr_status<br>*การกำหนดตัวเลือก mshr_hcmcompletionstatus*|อ่าน/เขียน<br>จำเป็นต้องระบุ | แสดงสถานะของผู้สมัครสำหรับการคัดเลือก |
 | **หมายเลขฝ่าย**<br>mshr_partynumber<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ | หมายเลขฝ่าย (บุคคล) ที่เชื่อมโยงกับผู้สมัคร |
-| **ค่ารหัสบุคคล**<br>_mshr_fk_person_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_dirpersonentityid ของ mshr_dirpersonentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของเรกคอร์ดเอนทิตี้ฝ่าย (บุคคล) |
 | **รหัสชนิดการคัดเลือก**<br>mshr_screeningtypeid<br>*สตริง* | อ่าน/เขียน<br>จำเป็นต้องระบุ<br>คีย์นอก: ScreeningType | ตัวระบุของชนิดการคัดเลือกที่กําหนดในทรัพยากรบุคคล |
 | **ค่ารหัสชนิดการคัดเลือก**<br>_mshr_fk_screeningtype_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_hcmscreeningtypeentityid ของ mshr_hcmscreeningtypeentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นสำหรับชนิดการคัดเลือกในเอนทิตี้ที่เกี่ยวข้อง |
-| **ต้องการภายใน**<br>mshr_requiredby<br>*วันเวลา* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | วันที่ที่การคัดเลือกจำเป็นที่จะทำให้เสร็จสิ้น |
-| **สถานะ**<br>mshr_status<br>*การกำหนดตัวเลือก mshr_hcmcompletionstatus*<br>อ่าน/เขียน<br>จำเป็นต้องระบุ | แสดงสถานะของผู้สมัครสำหรับการคัดเลือก |
+| **ฟิลด์หลัก**<br>mshr_primaryfield<br>*สตริง* |  อ่านอย่างเดียว<br>จำเป็นต้องระบุ | ฟิลด์ที่จะใช้เป็นตัวระบุของเรกคอร์ดเอนทิตี้ |
+| **ค่ารหัสบุคคล**<br>_mshr_fk_person_id_value<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>คีย์นอก: mshr_dirpersonentityid ของ mshr_dirpersonentity | ตัวระบุเฉพาะที่ระบบสร้างขึ้นของเรกคอร์ดเอนทิตี้ฝ่าย (บุคคล) |
+| **รหัสเอนทิตี้การสรรหาของบุคคล**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | อ่านอย่างเดียว<br>จำเป็นต้องระบุ<br>ระบบถูกสร้างขึ้น| ตัวระบุหลักเฉพาะของเรกคอร์ดการสรรหาของบุคคล |
 | **วันที่เสร็จสมบูรณ์**<br>mshr_completeddate<br>*วันเวลา* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | วันที่ที่การคัดเลือกเสร็จสมบูรณ์ |
-| **บันทึกย่อ**<br>mshr_note<br>*สตริง* | อ่าน/เขียน<br>ไม่จำเป็นต้องระบุ | หมายเหตุที่ใช้โดยผู้จัดการการจ้างงานหรือผู้จัดหาบุคลากร |
+
 
 ## <a name="see-also"></a>ดูเพิ่มเติมที่
 

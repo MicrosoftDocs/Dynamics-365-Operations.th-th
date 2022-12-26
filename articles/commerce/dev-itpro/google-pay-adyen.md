@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115038"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838403"
 ---
 # <a name="configure-google-pay-with-adyen"></a>กำหนดค่า Google Pay กับ Adyen
 
@@ -90,11 +90,6 @@ Google Pay คือวิธีการชำระเงินดิจิท
 
 1. หลังจากที่คุณเสร็จสิ้นการตั้งค่าคุณสมบัติของตัวเชื่อมต่อแล้ว ให้เรียกใช้งานกำหนดการกระจาย **1070 (การตั้งค่าคอนฟิกช่องทาง**)
 
-## <a name="configure-commerce-pos-for-google-pay"></a>กำหนดค่า Commerce POS สำหรับ Google Pay
-
-การตั้งค่าคอนฟิก POS ใช้การตั้งค่าฟิลด์ **บริการ EFT** ของโปรไฟล์ฮาร์ดแวร์สำหรับตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen สำหรับข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการโอนเงินทางอิเล็กทรอนิกส์ (EFT) ของตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen ใน Commerce headquarters โปรดดู [ส่วนการตั้งค่าโปรไฟล์ฮาร์ดแวร์ Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)
-
-การแม็ปตัวประมวลผลของตัวเชื่อมต่อ Adyen จะรวบรวมชนิดบัตรกระเป๋าสตางค์ที่ Google Pay ใช้ในเทอร์มินัล POS
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>ใช้โมดูลการชำระเงินด่วนกับ Google Pay
 
@@ -224,9 +219,15 @@ Google Pay คือวิธีการชำระเงินดิจิท
 
 วิธีการจัดส่งจะแสดงเมื่อถูกเพิ่มลงในรายการ **วิธีการจัดส่ง** ในร้านค้าออนไลน์
 
-## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
+## <a name="configure-commerce-pos-for-google-pay"></a>กำหนดค่า Commerce POS สำหรับ Google Pay
 
-[FAQ เกี่ยวกับการชำระเงิน](payments-retail.md)
+การตั้งค่าคอนฟิก POS ใช้การตั้งค่าฟิลด์ **บริการ EFT** ของโปรไฟล์ฮาร์ดแวร์สำหรับตัวเชื่อมต่อการชำระเงิน Dynamics 365 สำหรับ Adyen สำหรับข้อมูลเกี่ยวกับการตั้งค่าคอนฟิกบริการโอนเงินทางอิเล็กทรอนิกส์ (EFT) ของ Dynamics 365 Payment Connector สำหรับ Adyen ใน Commerce headquarters โปรดดู [การตั้งค่าโปรไฟล์ฮาร์ดแวร์ Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)
+
+การแม็ปตัวประมวลผลของตัวเชื่อมต่อ Adyen จะรวบรวมชนิดบัตรกระเป๋าสตางค์ที่ Google Pay ใช้ในเทอร์มินัล POS
+
+## <a name="additional-resources"></a>แหล่งข้อมูลเพิ่มเติม
+
+[คำถามที่ถามบ่อยเกี่ยวกับการชำระเงิน](payments-retail.md)
 
 [โมดูลเช็คเอาท์](../add-checkout-module.md)
 

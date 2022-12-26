@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643806"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854091"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>คุณลักษณะที่เอาออกหรือไม่สนับสนุนใน Dynamics 365 Finance
 
@@ -124,11 +124,10 @@ ms.locfileid: "9643806"
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
 | **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 ธันวาคม 2022 เราวางแผนที่จะเลิกสนับสนุนรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) **การรายงานภาษี VAT (AT)** ในส่วน **รูปแบบการรายงานภาษี VAT** รูปแบบ **XML การรายงานภาษี VAT (AT)** และ **Excel การรายงานภาษี VAT (AT)** ใหม่เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>การรายงานภาษี ELSTER สำหรับเยอรมนี (ออกแบบตามรหัสการรายงาน)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>การรายงานภาษี ELSTER ของเยอรมนี (การออกแบบตามรหัสการรายงาน) รายการเมนูและหน้าของ \"ล็อกการรายงานภาษีทางอิเล็กทรอนิกส์\" รายการเมนูและหน้าของ \"การตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์\" โครงร่างรายงานภาษาเยอรมัน (TaxReport_DE) รูปแบบ SSRS
 
 [ใบแจ้งยอด VAT](../localizations/emea-de-vat-declaration.md)</br>
 [ตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์สำหรับเยอรมนี](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[การส่งทางอิเล็กทรอนิกส์ของการรายงานภาษี VAT (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -136,9 +135,9 @@ ms.locfileid: "9643806"
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
-| **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 ธันวาคม 2022 เราวางแผนที่จะเลิกสนับสนุนรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) **Elster (DE)** และ **รูปแบบ Elster** รูปแบบ **XML การรายงานภาษี VAT (DE)** และ **Excel การรายงานภาษี VAT (DE)** ใหม่เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** |
+| **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 ธันวาคม 2022 เราจะเลิกสนับสนุนรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) **Elster (DE)** และ **รูปแบบ Elster** รูปแบบ ER **XML การรายงานภาษี VAT (DE)** และ **Excel การรายงานภาษี VAT (DE)** ใหม่ เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** นอกจากนี้ เราจะไม่สนับสนุนรายการเมนูและหน้า **ภาษี** \> **การรายงานภาษี** \> **ภาษีขาย** \> **ล็อกการรายงานภาษีทางอิเล็กทรอนิกส์** รายการเมนูและหน้า **ภาษี** \> **การตั้งค่า** \> **ภาษีขาย** \> **การตั้งค่าการรายงานภาษีทางอิเล็กทรอนิกส์** รายการเมนูและหน้า **ภาษี** \> **การตั้งค่า** \> **ภาษีขาย** \> **ใบรับรองภาษีทางอิเล็กทรอนิกส์** และโครงร่างรายงานภาษาเยอรมัน (TaxReport\_DE) รูปแบบ SQL Server Reporting Services (SSRS) กระบวนการของการรายงาน VAT ในเยอรมนีได้รับการสนับสนุนในฟังก์ชัน [การส่งข้อความอิเล็กทรอนิกส์](../general-ledger/electronic-messaging.md) ดูข้อมูลเพิ่มเติมที่ [การรายงานภาษี VAT ของเยอรมนี](../localizations/emea-deu-vat-declaration-germany.md) |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>การรายงานภาษี OB สำหรับเนเธอร์แลนด์ (ออกแบบตามรหัสการรายงาน)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>การรายงานภาษี OB ของเนเธอร์แลนด์ (การออกแบบตามรหัสการรายงาน) เมนูรายการและหน้า \"นูการรายงานภาษี OBทางอิเล็กทรอนิกส์\" โครงร่างรายงานภาษาเนเธอร์แลนด์ (TaxReport_NL) รูปแบบ SSRS
 
 [การรายงานภาษี OB](../localizations/emea-nl-vat-declaration.md)
 
@@ -148,7 +147,7 @@ ms.locfileid: "9643806"
 | **แทนที่ด้วยลักษณะการทำงานอื่นหรือไม่**   | ใช่ |
 | **พื้นที่ของผลิตภัณฑ์ที่ได้รับผล**         | ใบคำขอเปิด |
 | **ตัวเลือกการปรับใช้**              | ทั้งหมด |
-| **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 ธันวาคม 2022 เราวางแผนที่จะเลิกสนับสนุนรูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER) **การรายงานภาษี OB (NL)** และ **รูปแบบการรายงานภาษี OB** รูปแบบ **XML การรายงานภาษี VAT (NL)** และ **Excel การรายงานภาษี VAT (NL)** ใหม่เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** |
+| **สถานะ**                         | ไม่สนับสนุน: ในวันที่ 1 ธันวาคม 2022 เราจะเลิกสนับสนุน **การรายงานภาษี OB (NL)** และ รูปแบบการรายงานทางอิเล็กทรอนิกส์ (ER)และ **รูปแบบการรายงานภาษี OB** รูปแบบ ER **XML การรายงานภาษี VAT (NL)** และ **Excel การรายงานภาษี VAT (NL)** ใหม่ เริ่มมีการนำมาใช้ในรูปแบบ **การรายงานภาษี"** นอกจากนี้ เราจะไม่สนับสนุนรายการเมนูและหน้า **ภาษี** \> **การรายงานภาษี** \> **ภาษีขาย** \> **การรายงานภาษี OB ทางอิเล็กทรอนิกส์** และโครงร่างรายงานภาษาเนเธอร์แลนด์ (TaxReport_NL) รูปแบบ SSRS กระบวนการของการรายงาน VAT ในเนเธอร์แลนด์ได้รับการสนับสนุนในฟังก์ชัน [การส่งข้อความอิเล็กทรอนิกส์](../general-ledger/electronic-messaging.md) ดูข้อมูลเพิ่มเติมที่ [การรายงานภาษี VAT ของเนเธอร์แลนด์](../localizations/emea-nl-vat-declaration-netherlands.md) |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>คุณลักษณะที่เอาออกหรือที่เลิกสนับสนุนในการนำออกใช้ Finance 10.0.20
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714774"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838484"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>ติดตั้งและเชื่อมต่อแอป Warehouse Management บนมือถือ
 
@@ -58,10 +58,10 @@ ms.locfileid: "9714774"
 
 อีกวิธีหนึ่งในการติดตั้งจากร้านค้าแอป คุณสามารถดาวน์โหลดแอปจาก Microsoft App Center แทนได้ App Center จะให้แพคเกจที่สามารถติดตั้งได้ ซึ่งคุณสามารถไซด์โหลดได้ นอกจากเวอร์ชันปัจจุบันแล้ว App Center ยังช่วยให้คุณสามารถดาวน์โหลดเวอร์ชันก่อนหน้านี้ได้ และอาจแสดงเวอร์ชันพรีวิวที่มีคุณลักษณะที่กำลังจะมาถึงในเร็วๆ นี้ ที่คุณสามารถทดลองได้ เมื่อต้องการดาวน์โหลดเวอร์ชันปัจจุบัน ก่อนหน้านี้ หรือเวอร์ชันพรีวิวของแอป Warehouse Management บนมือถือ จาก Microsoft App Center ให้ใช้ลิงก์ใดลิงก์หนึ่งต่อไปนี้
 
-- **Windows (UWP):** [การจัดการคลังสินค้า (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [การจัดการคลังสินค้า (Windows)](https://aka.ms/wma-windows-official-release)  
     หากต้องการทราบคําแนะนําเกี่ยวกับวิธีการติดตั้งแพคเกจที่ดาวน์โหลดบนอุปกรณ์ Windows แล้วตั้งค่าใบรับรองที่จำเป็น ให้ดูที่ [ติดตั้งการสร้างจาก App Center](/appcenter/distribution/installation)
 
-- **Android:** [การจัดการคลังสินค้า (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [การจัดการคลังสินค้า (Android)](https://aka.ms/wma-android-official-release)  
     หากคุณดาวน์โหลดรุ่นพรีวิว คุณต้องดำเนินการขั้นตอนเพิ่มเติมสองสามขั้นตอนเพื่อติดตั้ง สำหรับรายละเอียด โปรดดู [การทดสอบ แอป Android](/appcenter/distribution/testers/testing-android)
 
 สำหรับข้อมูลเกี่ยวกับวิธีการติดตั้งรุ่นที่ดาวน์โหลดจาก App Center โปรดดูที่ [ติดตั้งรุ่น](/appcenter/distribution/installation)

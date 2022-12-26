@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: รายงานอิเล็กทรอนิกส์ไฟล์การตรวจสอบมาตรฐานสำหรับภาษี (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: การสอบถามข้อมูลการชำระบัญชีแยกประเภท
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: การปิดบัญชีสิ้นสุดรอบระยะเวลา
               items:
                 - name: ปิดบัญชีแยกประเภททั่วไปรอบระยะเวลาเมื่อสิ้นสุด
@@ -1186,8 +1188,20 @@
                   href: general-ledger/faq-year-end-activities.md
                 - name: การชำระบัญชีแยกประเภท
                   href: general-ledger/ledger-settlements.md
-                - name: ความตระหนักรู้ระหว่างการชำระบัญชีแยกประเภทและการปิดสิ้นปี
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: การรับรู้ระหว่างการชำระบัญชีแยกประเภทกับการปิดบัญชีสิ้นปี
+                  items:
+                    - name: การรับรู้ระหว่างการชำระบัญชีแยกประเภทกับการปิดบัญชีสิ้นปี
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: เตรียมการสำหรับการรับรู้ระหว่างการชำระบัญชีแยกประเภทก่อนการปิดบัญชีสิ้นปี
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: เตรียมการสำหรับการรับรู้ระหว่างการชำระบัญชีแยกประเภทหลังการปิดบัญชีสิ้นปี
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: การรับรู้ระหว่างคุณลักษณะการชําระบัญชีแยกประเภทกับสกุลเงินการรายงานไม่สมดุล
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: การรับรู้ระหว่างคุณลักษณะการชําระบัญชีแยกประเภทก่อนการปิดบัญชีสิ้นปีโดยใช้หน้าต่างการสอบถาม
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: การรับรู้ระหว่างคุณลักษณะการชําระบัญชีแยกประเภทหลังการปิดบัญชีสิ้นปีโดยใช้หน้าต่างการสอบถาม
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: ทำให้การชำระบัญชีแยกประเภทเป็นอัตโนมัติ
                   href: general-ledger/auto-settle.md
                 - name: การประเมินค่าใหม่ตามสกุลเงินต่างประเทศสำหรับบัญชีแยกประเภททั่วไป
